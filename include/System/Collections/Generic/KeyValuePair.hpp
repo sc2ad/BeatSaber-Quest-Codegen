@@ -17,7 +17,7 @@ namespace System::Collections::Generic {
     // Creating value type constructor for type: KeyValuePair
     KeyValuePair() noexcept {}
     // static System.String PairToString(System.Object key, System.Object value)
-    // Offset: 0x148E314
+    // Offset: 0x17DBF4C
     static ::Il2CppString* PairToString(::Il2CppObject* key, ::Il2CppObject* value);
   }; // System.Collections.Generic.KeyValuePair
   #pragma pack(pop)

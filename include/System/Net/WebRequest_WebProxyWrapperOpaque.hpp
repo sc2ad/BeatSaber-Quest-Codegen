@@ -53,13 +53,13 @@ namespace System::Net {
     // Set instance field: protected readonly System.Net.WebProxy webProxy
     void _set_webProxy(System::Net::WebProxy* value);
     // public System.Net.ICredentials get_Credentials()
-    // Offset: 0x12A343C
+    // Offset: 0x15DB6CC
     System::Net::ICredentials* get_Credentials();
     // public System.Uri GetProxy(System.Uri destination)
-    // Offset: 0x12A340C
+    // Offset: 0x15DB69C
     System::Uri* GetProxy(System::Uri* destination);
     // public System.Boolean IsBypassed(System.Uri host)
-    // Offset: 0x12A3424
+    // Offset: 0x15DB6B4
     bool IsBypassed(System::Uri* host);
   }; // System.Net.WebRequest/System.Net.WebProxyWrapperOpaque
   #pragma pack(pop)

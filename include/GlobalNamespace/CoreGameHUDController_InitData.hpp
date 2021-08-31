@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Boolean advancedHUD
     void _set_advancedHUD(bool value);
     // public System.Void .ctor(System.Boolean hide, System.Boolean showEnergyPanel, System.Boolean advancedHUD)
-    // Offset: 0x1F038A4
+    // Offset: 0x10F36B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CoreGameHUDController::InitData* New_ctor(bool hide, bool showEnergyPanel, bool advancedHUD) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CoreGameHUDController::InitData::.ctor");

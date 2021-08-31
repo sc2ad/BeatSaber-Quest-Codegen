@@ -134,7 +134,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Byte d7
     void _set_d7(uint8_t value);
     // public System.Void .ctor()
-    // Offset: 0x12EE974
+    // Offset: 0x1626C04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

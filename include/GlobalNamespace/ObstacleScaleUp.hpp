@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: fullScalePart and: targetTransform
     char __padding0[0x4] = {};
-    // [SpaceAttribute] Offset: 0xEB0AB4
+    // [SpaceAttribute] Offset: 0xE36894
     // private UnityEngine.Transform _targetTransform
     // Size: 0x8
     // Offset: 0x20
@@ -72,22 +72,22 @@ namespace GlobalNamespace {
     // Set instance field: private ObstacleController _obstacleController
     void _set__obstacleController(GlobalNamespace::ObstacleController* value);
     // protected System.Void Awake()
-    // Offset: 0x201A604
+    // Offset: 0x123452C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x201A7E8
+    // Offset: 0x1234710
     void OnDestroy();
     // private System.Void UpdateScale(System.Single progress)
-    // Offset: 0x201A6A0
+    // Offset: 0x12345C8
     void UpdateScale(float progress);
     // private System.Void HandleObstacleControllerDidUpdateProgress(ObstacleController obstacleController, System.Single time)
-    // Offset: 0x201A908
+    // Offset: 0x1234830
     void HandleObstacleControllerDidUpdateProgress(GlobalNamespace::ObstacleController* obstacleController, float time);
     // private System.Void HandleObstacleControllerDidInit(ObstacleControllerBase obstacleController)
-    // Offset: 0x201A9AC
+    // Offset: 0x12348D4
     void HandleObstacleControllerDidInit(GlobalNamespace::ObstacleControllerBase* obstacleController);
     // public System.Void .ctor()
-    // Offset: 0x201AA80
+    // Offset: 0x12349A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -131,56 +131,56 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set instance field: private System.Boolean forEncryption
     void _set_forEncryption(bool value);
     // public System.String get_AlgorithmName()
-    // Offset: 0x19BD2F4
+    // Offset: 0x1ECC130
     ::Il2CppString* get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x19BD378
+    // Offset: 0x1ECC1B4
     bool get_IsPartialBlockOkay();
     // static private System.Void .cctor()
-    // Offset: 0x19BC6D8
+    // Offset: 0x1ECB514
     static void _cctor();
     // public System.Void .ctor(System.Int32 blocksizeBits)
-    // Offset: 0x19BC8E4
+    // Offset: 0x1ECB720
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ThreefishEngine* New_ctor(int blocksizeBits) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Engines::ThreefishEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ThreefishEngine*, creationType>(blocksizeBits)));
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x19BCAE0
+    // Offset: 0x1ECB91C
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // System.Void Init(System.Boolean forEncryption, System.UInt64[] key, System.UInt64[] tweak)
-    // Offset: 0x19BCF5C
+    // Offset: 0x1ECBD98
     void Init(bool forEncryption, ::Array<uint64_t>* key, ::Array<uint64_t>* tweak);
     // private System.Void SetKey(System.UInt64[] key)
-    // Offset: 0x19BCFAC
+    // Offset: 0x1ECBDE8
     void SetKey(::Array<uint64_t>* key);
     // private System.Void SetTweak(System.UInt64[] tweak)
-    // Offset: 0x19BD158
+    // Offset: 0x1ECBF94
     void SetTweak(::Array<uint64_t>* tweak);
     // public System.Int32 GetBlockSize()
-    // Offset: 0x19BD380
+    // Offset: 0x1ECC1BC
     int GetBlockSize();
     // public System.Void Reset()
-    // Offset: 0x19BD388
+    // Offset: 0x1ECC1C4
     void Reset();
     // public System.Int32 ProcessBlock(System.Byte[] inBytes, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x19BD38C
+    // Offset: 0x1ECC1C8
     int ProcessBlock(::Array<uint8_t>* inBytes, int inOff, ::Array<uint8_t>* outBytes, int outOff);
     // System.Int32 ProcessBlock(System.UInt64[] inWords, System.UInt64[] outWords)
-    // Offset: 0x19BD574
+    // Offset: 0x1ECC3B0
     int ProcessBlock(::Array<uint64_t>* inWords, ::Array<uint64_t>* outWords);
     // static System.UInt64 BytesToWord(System.Byte[] bytes, System.Int32 off)
-    // Offset: 0x19BCE20
+    // Offset: 0x1ECBC5C
     static uint64_t BytesToWord(::Array<uint8_t>* bytes, int off);
     // static System.Void WordToBytes(System.UInt64 word, System.Byte[] bytes, System.Int32 off)
-    // Offset: 0x19BD6CC
+    // Offset: 0x1ECC508
     static void WordToBytes(uint64_t word, ::Array<uint8_t>* bytes, int off);
     // static private System.UInt64 RotlXor(System.UInt64 x, System.Int32 n, System.UInt64 xor)
-    // Offset: 0x19BD844
+    // Offset: 0x1ECC680
     static uint64_t RotlXor(uint64_t x, int n, uint64_t _xor);
     // static private System.UInt64 XorRotr(System.UInt64 x, System.Int32 n, System.UInt64 xor)
-    // Offset: 0x19BD854
+    // Offset: 0x1ECC690
     static uint64_t XorRotr(uint64_t x, int n, uint64_t _xor);
   }; // Org.BouncyCastle.Crypto.Engines.ThreefishEngine
   #pragma pack(pop)

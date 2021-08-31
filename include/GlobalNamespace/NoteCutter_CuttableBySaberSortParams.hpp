@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     // Set instance field: public UnityEngine.Vector3 pos
     void _set_pos(UnityEngine::Vector3 value);
     // public System.Void .ctor()
-    // Offset: 0x2010720
+    // Offset: 0x1048AB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -57,13 +57,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Animation _animation
     void _set__animation(UnityEngine::Animation* value);
     // public System.Void SetTextAndRunAnimation(System.String text)
-    // Offset: 0x1F03AA4
+    // Offset: 0x10F38B8
     void SetTextAndRunAnimation(::Il2CppString* text);
     // public System.Void StopAndHide()
-    // Offset: 0x1F03B04
+    // Offset: 0x10F3918
     void StopAndHide();
     // public System.Void .ctor()
-    // Offset: 0x1F03BA4
+    // Offset: 0x10F39B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

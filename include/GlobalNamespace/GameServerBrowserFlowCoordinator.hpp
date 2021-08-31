@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GameServerBrowserFlowCoordinator
     GameServerBrowserFlowCoordinator() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1F10F18
+    // Offset: 0x10FF178
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -37,7 +37,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameServerBrowserFlowCoordinator*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1F10F14
+    // Offset: 0x10FF174
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

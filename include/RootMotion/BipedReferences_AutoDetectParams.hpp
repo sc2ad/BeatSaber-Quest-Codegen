@@ -50,10 +50,10 @@ namespace RootMotion {
     // Set instance field: public System.Boolean includeEyes
     void _set_includeEyes(bool value);
     // static public RootMotion.BipedReferences/RootMotion.AutoDetectParams get_Default()
-    // Offset: 0x1879404
+    // Offset: 0x1D2E128
     static RootMotion::BipedReferences::AutoDetectParams get_Default();
     // public System.Void .ctor(System.Boolean legsParentInSpine, System.Boolean includeEyes)
-    // Offset: 0xD8727C
+    // Offset: 0x1D2E114
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  AutoDetectParams(bool legsParentInSpine, bool includeEyes)
   }; // RootMotion.BipedReferences/RootMotion.AutoDetectParams

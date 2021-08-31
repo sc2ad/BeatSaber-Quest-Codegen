@@ -66,17 +66,17 @@ namespace UnityEngine::ResourceManagement {
     // Set instance field: UnityEngine.Networking.UnityWebRequest m_WebRequest
     void _set_m_WebRequest(UnityEngine::Networking::UnityWebRequest* value);
     // public System.Boolean get_IsDone()
-    // Offset: 0x166F778
+    // Offset: 0x19EE8A8
     bool get_IsDone();
     // public System.Void .ctor(UnityEngine.Networking.UnityWebRequest request)
-    // Offset: 0x1675C24
+    // Offset: 0x19F4D54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebRequestQueueOperation* New_ctor(UnityEngine::Networking::UnityWebRequest* request) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::WebRequestQueueOperation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebRequestQueueOperation*, creationType>(request)));
     }
     // System.Void Complete(UnityEngine.Networking.UnityWebRequestAsyncOperation asyncOp)
-    // Offset: 0x1675E14
+    // Offset: 0x19F4F44
     void Complete(UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOp);
   }; // UnityEngine.ResourceManagement.WebRequestQueueOperation
   #pragma pack(pop)

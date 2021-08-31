@@ -94,7 +94,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Double Time
     void _set_Time(double value);
     // static private System.Void .cctor()
-    // Offset: 0x12FA284
+    // Offset: 0x1632514
     static void _cctor();
   }; // OVRPlugin/PoseStatef
   #pragma pack(pop)

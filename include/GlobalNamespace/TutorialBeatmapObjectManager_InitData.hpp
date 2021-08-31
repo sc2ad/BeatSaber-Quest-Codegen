@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Single cutAngleTolerance
     void _set_cutAngleTolerance(float value);
     // public System.Void .ctor(System.Single cutAngleTolerance)
-    // Offset: 0x1EDEFD4
+    // Offset: 0x10998E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialBeatmapObjectManager::InitData* New_ctor(float cutAngleTolerance) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TutorialBeatmapObjectManager::InitData::.ctor");

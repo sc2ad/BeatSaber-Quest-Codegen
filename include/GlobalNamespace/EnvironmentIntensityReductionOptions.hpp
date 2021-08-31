@@ -138,13 +138,13 @@ namespace GlobalNamespace {
     // Set instance field: private EnvironmentIntensityReductionOptions/RotateRingsReductionType _rotateRings
     void _set__rotateRings(GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType value);
     // public EnvironmentIntensityReductionOptions/CompressExpandReductionType get_compressExpand()
-    // Offset: 0x1E8C05C
+    // Offset: 0x1051E20
     GlobalNamespace::EnvironmentIntensityReductionOptions::CompressExpandReductionType get_compressExpand();
     // public EnvironmentIntensityReductionOptions/RotateRingsReductionType get_rotateRings()
-    // Offset: 0x1E8C064
+    // Offset: 0x1051E28
     GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType get_rotateRings();
     // public System.Void .ctor()
-    // Offset: 0x1E8C06C
+    // Offset: 0x1051E30
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

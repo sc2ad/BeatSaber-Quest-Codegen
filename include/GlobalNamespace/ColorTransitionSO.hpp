@@ -95,25 +95,25 @@ namespace GlobalNamespace {
     // Set instance field: private ColorSO _selectedAndHighlightedColor
     void _set__selectedAndHighlightedColor(GlobalNamespace::ColorSO* value);
     // public UnityEngine.Color get_normalColor()
-    // Offset: 0x1EFD3B8
+    // Offset: 0x10ED1CC
     UnityEngine::Color get_normalColor();
     // public UnityEngine.Color get_highlightedColor()
-    // Offset: 0x1EFD61C
+    // Offset: 0x10ED430
     UnityEngine::Color get_highlightedColor();
     // public UnityEngine.Color get_pressedColor()
-    // Offset: 0x1EFD660
+    // Offset: 0x10ED474
     UnityEngine::Color get_pressedColor();
     // public UnityEngine.Color get_disabledColor()
-    // Offset: 0x1EFD6A4
+    // Offset: 0x10ED4B8
     UnityEngine::Color get_disabledColor();
     // public UnityEngine.Color get_selectedColor()
-    // Offset: 0x1EFD6E8
+    // Offset: 0x10ED4FC
     UnityEngine::Color get_selectedColor();
     // public UnityEngine.Color get_selectedAndHighlightedColor()
-    // Offset: 0x1EFD72C
+    // Offset: 0x10ED540
     UnityEngine::Color get_selectedAndHighlightedColor();
     // public System.Void .ctor()
-    // Offset: 0x1F01448
+    // Offset: 0x10F125C
     // Implemented from: BaseTransitionSO
     // Base method: System.Void BaseTransitionSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

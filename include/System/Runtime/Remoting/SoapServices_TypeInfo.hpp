@@ -50,7 +50,7 @@ namespace System::Runtime::Remoting {
     // Set instance field: public System.Collections.Hashtable Elements
     void _set_Elements(System::Collections::Hashtable* value);
     // public System.Void .ctor()
-    // Offset: 0x12D6A30
+    // Offset: 0x160ECC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

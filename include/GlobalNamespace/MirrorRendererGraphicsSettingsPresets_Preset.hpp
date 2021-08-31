@@ -161,7 +161,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Boolean enableBloomPrePassFog
     void _set_enableBloomPrePassFog(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1F5E810
+    // Offset: 0x10E78C0
     // Implemented from: NamedPreset
     // Base method: System.Void NamedPreset::.ctor()
     // Base method: System.Void Object::.ctor()

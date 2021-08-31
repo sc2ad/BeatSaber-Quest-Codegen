@@ -82,15 +82,15 @@ namespace UnityEngine::Rendering {
     // Set instance field: private System.Int32 m_CameraPixelHeight
     void _set_m_CameraPixelHeight(int value);
     // public System.Boolean Equals(UnityEngine.Rendering.LODParameters other)
-    // Offset: 0xF84884
+    // Offset: 0x1C499C4
     bool Equals(UnityEngine::Rendering::LODParameters other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xF848BC
+    // Offset: 0x1C49A4C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xF848C4
+    // Offset: 0x1C49AEC
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

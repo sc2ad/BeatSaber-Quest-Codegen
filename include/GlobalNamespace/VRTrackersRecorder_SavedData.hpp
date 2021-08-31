@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Set instance field: public VRTrackersRecorder/SavedData/KeyframeSerializable[] _keyframes
     void _set__keyframes(::Array<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable*>* value);
     // public System.Void .ctor()
-    // Offset: 0x206FF60
+    // Offset: 0x135EE84
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

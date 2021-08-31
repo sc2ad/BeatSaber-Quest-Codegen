@@ -31,6 +31,8 @@ namespace UnityEngine {
   class RenderTexture;
   // Forward declaring type: TextureFormat
   struct TextureFormat;
+  // Forward declaring type: Vector2
+  struct Vector2;
 }
 // Forward declaring namespace: System
 namespace System {
@@ -59,10 +61,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ExtensionMethods
     ExtensionMethods() noexcept {}
     // static public System.Boolean ContainsLayer(UnityEngine.LayerMask layerMask, System.Int32 layer)
-    // Offset: 0x20402E8
+    // Offset: 0x125DF44
     static bool ContainsLayer(UnityEngine::LayerMask layerMask, int layer);
     // static public UnityEngine.Coroutine StartUniqueCoroutine(UnityEngine.MonoBehaviour m, System.Func`1<System.Collections.IEnumerator> func)
-    // Offset: 0x2040324
+    // Offset: 0x125DF80
     static UnityEngine::Coroutine* StartUniqueCoroutine(UnityEngine::MonoBehaviour* m, System::Func_1<System::Collections::IEnumerator*>* func);
     // static public UnityEngine.Coroutine StartUniqueCoroutine(UnityEngine.MonoBehaviour m, System.Func`2<T,System.Collections.IEnumerator> func, T value)
     // Offset: 0xFFFFFFFF
@@ -74,7 +76,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodThrow<UnityEngine::Coroutine*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, m, func, value);
     }
     // static public System.Void StopUniqueCoroutine(UnityEngine.MonoBehaviour m, System.Func`1<System.Collections.IEnumerator> func)
-    // Offset: 0x20403A4
+    // Offset: 0x125E000
     static void StopUniqueCoroutine(UnityEngine::MonoBehaviour* m, System::Func_1<System::Collections::IEnumerator*>* func);
     // static public System.Void StopUniqueCoroutine(UnityEngine.MonoBehaviour m, System.Func`2<T,System.Collections.IEnumerator> func)
     // Offset: 0xFFFFFFFF
@@ -86,20 +88,23 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, m, func);
     }
     // static public System.Boolean IsDescendantOf(UnityEngine.Transform transform, UnityEngine.Transform parent)
-    // Offset: 0x20403F4
+    // Offset: 0x125E050
     static bool IsDescendantOf(UnityEngine::Transform* transform, UnityEngine::Transform* parent);
     // static public System.Void SetLocalPositionAndRotation(UnityEngine.Transform tr, UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
-    // Offset: 0x20404E0
+    // Offset: 0x125E13C
     static void SetLocalPositionAndRotation(UnityEngine::Transform* tr, UnityEngine::Vector3 pos, UnityEngine::Quaternion rot);
     // static public System.String GetPath(UnityEngine.Transform current)
-    // Offset: 0x2040544
+    // Offset: 0x125E1A0
     static ::Il2CppString* GetPath(UnityEngine::Transform* current);
     // static public UnityEngine.Quaternion Reflect(UnityEngine.Quaternion source, UnityEngine.Vector3 normal)
-    // Offset: 0x204063C
+    // Offset: 0x125E298
     static UnityEngine::Quaternion Reflect(UnityEngine::Quaternion source, UnityEngine::Vector3 normal);
     // static public UnityEngine.Texture2D CreateTexture2D(UnityEngine.RenderTexture renderTexture, UnityEngine.TextureFormat textureFormat)
-    // Offset: 0x20407B8
+    // Offset: 0x125E414
     static UnityEngine::Texture2D* CreateTexture2D(UnityEngine::RenderTexture* renderTexture, UnityEngine::TextureFormat textureFormat);
+    // static public UnityEngine.Vector2 Rotate(UnityEngine.Vector2 vector, System.Single rads)
+    // Offset: 0x125E56C
+    static UnityEngine::Vector2 Rotate(UnityEngine::Vector2 vector, float rads);
   }; // ExtensionMethods
   #pragma pack(pop)
 }
@@ -189,5 +194,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     static auto* renderTexture = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
     static auto* textureFormat = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextureFormat")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExtensionMethods*), "CreateTexture2D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{renderTexture, textureFormat});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ExtensionMethods::Rotate
+// Il2CppName: Rotate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Vector2, float)>(&GlobalNamespace::ExtensionMethods::Rotate)> {
+  static const MethodInfo* get() {
+    static auto* vector = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* rads = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExtensionMethods*), "Rotate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vector, rads});
   }
 };

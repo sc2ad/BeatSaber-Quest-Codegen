@@ -75,7 +75,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MultiplayerResultsPyramidViewAvatar::Factory
     class Factory;
-    // [HeaderAttribute] Offset: 0xEB5780
+    // [HeaderAttribute] Offset: 0xE3B560
     // private UnityEngine.Playables.PlayableDirector _badgeDirector
     // Size: 0x8
     // Offset: 0x18
@@ -94,7 +94,7 @@ namespace GlobalNamespace {
     ::Il2CppString* ghostSecondTrackName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [HeaderAttribute] Offset: 0xEB57EC
+    // [HeaderAttribute] Offset: 0xE3B5CC
     // private UnityEngine.Transform _standWithAvatarTransform
     // Size: 0x8
     // Offset: 0x30
@@ -115,7 +115,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Color) == 0x10);
     // Padding between fields: localPlayerColor and: positionText
     char __padding5[0x4] = {};
-    // [HeaderAttribute] Offset: 0xEB5858
+    // [HeaderAttribute] Offset: 0xE3B638
     // private TMPro.TextMeshProUGUI _positionText
     // Size: 0x8
     // Offset: 0x50
@@ -134,7 +134,7 @@ namespace GlobalNamespace {
     HMUI::ImageView* nameBackground;
     // Field size check
     static_assert(sizeof(HMUI::ImageView*) == 0x8);
-    // [HeaderAttribute] Offset: 0xEB58C4
+    // [HeaderAttribute] Offset: 0xE3B6A4
     // private UnityEngine.CanvasGroup _badgeCanvas
     // Size: 0x8
     // Offset: 0x68
@@ -153,7 +153,7 @@ namespace GlobalNamespace {
     ::Array<HMUI::ImageView*>* badgeImages;
     // Field size check
     static_assert(sizeof(::Array<HMUI::ImageView*>*) == 0x8);
-    // [HeaderAttribute] Offset: 0xEB5930
+    // [HeaderAttribute] Offset: 0xE3B710
     // private TMPro.TextMeshProUGUI _badgeSubtitleText
     // Size: 0x8
     // Offset: 0x80
@@ -166,7 +166,7 @@ namespace GlobalNamespace {
     UnityEngine::CanvasGroup* badgeSubtitleCanvas;
     // Field size check
     static_assert(sizeof(UnityEngine::CanvasGroup*) == 0x8);
-    // [HeaderAttribute] Offset: 0xEB598C
+    // [HeaderAttribute] Offset: 0xE3B76C
     // private GhostDuplicationEffect _ghostDuplicationEffect
     // Size: 0x8
     // Offset: 0x90
@@ -189,7 +189,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::GhostDuplicationEffect::GhostEffectParams) == 0x45);
     // Padding between fields: ghostReceive and: trophyImage
     char __padding16[0x3] = {};
-    // [HeaderAttribute] Offset: 0xEB59F8
+    // [HeaderAttribute] Offset: 0xE3B7D8
     // private HMUI.ImageView _trophyImage
     // Size: 0x8
     // Offset: 0x128
@@ -226,14 +226,14 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* personalBestVisual;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0xEB5A94
+    // [InjectAttribute] Offset: 0xE3B874
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x160
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xEB5AA4
+    // [InjectAttribute] Offset: 0xE3B884
     // private readonly IDifficultyBeatmap _difficultyBeatmap
     // Size: 0x8
     // Offset: 0x168
@@ -296,7 +296,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Padding between fields: originalBadgeLocalPos and: connectedPlayer
     char __padding33[0x4] = {};
-    // [InjectAttribute] Offset: 0xEB5AB4
+    // [InjectAttribute] Offset: 0xE3B894
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x1C0
@@ -448,19 +448,19 @@ namespace GlobalNamespace {
     // Set instance field: private readonly IConnectedPlayer _connectedPlayer
     void _set__connectedPlayer(GlobalNamespace::IConnectedPlayer* value);
     // public UnityEngine.Playables.PlayableDirector get_badgeDirector()
-    // Offset: 0x1E597B0
+    // Offset: 0x10344E0
     UnityEngine::Playables::PlayableDirector* get_badgeDirector();
     // protected System.Void Awake()
-    // Offset: 0x1E597B8
+    // Offset: 0x10344E8
     void Awake();
     // public System.Void Setup(MultiplayerPlayerResultsData resultData, System.Int32 position, System.Int32 playerCount)
-    // Offset: 0x1E5925C
+    // Offset: 0x1034508
     void Setup(GlobalNamespace::MultiplayerPlayerResultsData* resultData, int position, int playerCount);
     // public System.Void SetupBadgeTimeline(UnityEngine.Transform startTransform, UnityEngine.Transform midTransform)
-    // Offset: 0x1E58D6C
+    // Offset: 0x10349E4
     void SetupBadgeTimeline(UnityEngine::Transform* startTransform, UnityEngine::Transform* midTransform);
     // public System.Void .ctor()
-    // Offset: 0x1E597D8
+    // Offset: 0x1034ED4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

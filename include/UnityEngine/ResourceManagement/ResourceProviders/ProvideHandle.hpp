@@ -97,22 +97,22 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Set instance field: private UnityEngine.ResourceManagement.ResourceManager m_ResourceManager
     void _set_m_ResourceManager(UnityEngine::ResourceManagement::ResourceManager* value);
     // private UnityEngine.ResourceManagement.AsyncOperations.IGenericProviderOperation get_InternalOp()
-    // Offset: 0xD80238
+    // Offset: 0x19F0B14
     UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation* get_InternalOp();
     // public UnityEngine.ResourceManagement.ResourceManager get_ResourceManager()
-    // Offset: 0xD80240
+    // Offset: 0x19F0C18
     UnityEngine::ResourceManagement::ResourceManager* get_ResourceManager();
     // public System.Type get_Type()
-    // Offset: 0xD80248
+    // Offset: 0x19EF574
     System::Type* get_Type();
     // public UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation get_Location()
-    // Offset: 0xD80250
+    // Offset: 0x19ED75C
     UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_Location();
     // public System.Int32 get_DependencyCount()
-    // Offset: 0xD80258
+    // Offset: 0x19F0C20
     int get_DependencyCount();
     // System.Void .ctor(UnityEngine.ResourceManagement.ResourceManager rm, UnityEngine.ResourceManagement.AsyncOperations.IGenericProviderOperation op)
-    // Offset: 0xD80230
+    // Offset: 0x19F0A48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ProvideHandle(UnityEngine::ResourceManagement::ResourceManager* rm, UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation* op) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::.ctor");
@@ -129,16 +129,16 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
       return ::il2cpp_utils::RunMethodThrow<TDepObject, false>(*this, ___generic__method, index);
     }
     // public System.Void GetDependencies(System.Collections.Generic.IList`1<System.Object> list)
-    // Offset: 0xD80260
+    // Offset: 0x19EF4A8
     void GetDependencies(System::Collections::Generic::IList_1<::Il2CppObject*>* list);
     // public System.Void SetProgressCallback(System.Func`1<System.Single> callback)
-    // Offset: 0xD80268
+    // Offset: 0x19ED818
     void SetProgressCallback(System::Func_1<float>* callback);
     // public System.Void SetDownloadProgressCallbacks(System.Func`1<UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus> callback)
-    // Offset: 0xD80270
+    // Offset: 0x19ED8E4
     void SetDownloadProgressCallbacks(System::Func_1<UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>* callback);
     // public System.Void SetWaitForCompletionCallback(System.Func`1<System.Boolean> callback)
-    // Offset: 0xD80278
+    // Offset: 0x19ED9B0
     void SetWaitForCompletionCallback(System::Func_1<bool>* callback);
     // public System.Void Complete(T result, System.Boolean status, System.Exception exception)
     // Offset: 0xFFFFFFFF

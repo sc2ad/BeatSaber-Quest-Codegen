@@ -29,14 +29,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FadeOutOnSceneTransitionStart : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xE99160
+    // [InjectAttribute] Offset: 0xE1EF00
     // private readonly FadeInOutController _fadeInOut
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::FadeInOutController* fadeInOut;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FadeInOutController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE99170
+    // [InjectAttribute] Offset: 0xE1EF10
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
@@ -56,16 +56,16 @@ namespace GlobalNamespace {
     // Set instance field: private readonly GameScenesManager _gameScenesManager
     void _set__gameScenesManager(GlobalNamespace::GameScenesManager* value);
     // protected System.Void Start()
-    // Offset: 0x1DC47B0
+    // Offset: 0x2390740
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1DC4844
+    // Offset: 0x23907D4
     void OnDestroy();
     // private System.Void HandleGameScenesManagerTransitionDidStart(System.Single duration)
-    // Offset: 0x1DC4920
+    // Offset: 0x23908B0
     void HandleGameScenesManagerTransitionDidStart(float duration);
     // public System.Void .ctor()
-    // Offset: 0x1DC493C
+    // Offset: 0x23908CC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

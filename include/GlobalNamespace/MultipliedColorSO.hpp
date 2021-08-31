@@ -54,12 +54,12 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Color _multiplierColor
     void _set__multiplierColor(UnityEngine::Color value);
     // public override UnityEngine.Color get_color()
-    // Offset: 0x1E3F8D0
+    // Offset: 0x241F2B0
     // Implemented from: ColorSO
     // Base method: UnityEngine.Color ColorSO::get_color()
     UnityEngine::Color get_color();
     // public System.Void .ctor()
-    // Offset: 0x1E3F938
+    // Offset: 0x241F318
     // Implemented from: ColorSO
     // Base method: System.Void ColorSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

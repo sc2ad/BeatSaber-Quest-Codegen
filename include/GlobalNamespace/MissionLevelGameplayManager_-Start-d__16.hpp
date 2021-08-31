@@ -62,26 +62,26 @@ namespace GlobalNamespace {
     // Set instance field: public MissionLevelGameplayManager <>4__this
     void _set_$$4__this(GlobalNamespace::MissionLevelGameplayManager* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1F637CC
+    // Offset: 0x11D344C
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1F63834
+    // Offset: 0x11D34B4
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1F62F94
+    // Offset: 0x11D2C14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionLevelGameplayManager::$Start$d__16* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionLevelGameplayManager::$Start$d__16::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelGameplayManager::$Start$d__16*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1F63478
+    // Offset: 0x11D30F8
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1F6347C
+    // Offset: 0x11D30FC
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1F637D4
+    // Offset: 0x11D3454
     void System_Collections_IEnumerator_Reset();
   }; // MissionLevelGameplayManager/<Start>d__16
   #pragma pack(pop)

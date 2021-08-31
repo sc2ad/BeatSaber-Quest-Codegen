@@ -126,13 +126,13 @@ namespace System {
     // Set instance field: System.Boolean timeZone
     void _set_timeZone(bool value);
     // System.Void Init(System.Int32* numberBuffer)
-    // Offset: 0xD81984
+    // Offset: 0x1B56A28
     void Init(int* numberBuffer);
     // System.Void AddNumber(System.Int32 value)
-    // Offset: 0xD819A8
+    // Offset: 0x1B53400
     void AddNumber(int value);
     // System.Int32 GetNumber(System.Int32 index)
-    // Offset: 0xD819C0
+    // Offset: 0x1B54664
     int GetNumber(int index);
   }; // System.DateTimeRawInfo
   #pragma pack(pop)

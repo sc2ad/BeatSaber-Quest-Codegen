@@ -151,21 +151,21 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* retryButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [SpaceAttribute] Offset: 0xEBC5F4
+    // [SpaceAttribute] Offset: 0xE423D4
     // private UnityEngine.AudioClip _levelClearedAudioClip
     // Size: 0x8
     // Offset: 0xE8
     UnityEngine::AudioClip* levelClearedAudioClip;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioClip*) == 0x8);
-    // [InjectAttribute] Offset: 0xEBC62C
+    // [InjectAttribute] Offset: 0xE4240C
     // private readonly FireworksController _fireworksController
     // Size: 0x8
     // Offset: 0xF0
     GlobalNamespace::FireworksController* fireworksController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FireworksController*) == 0x8);
-    // [InjectAttribute] Offset: 0xEBC63C
+    // [InjectAttribute] Offset: 0xE4241C
     // private readonly SongPreviewPlayer _songPreviewPlayer
     // Size: 0x8
     // Offset: 0xF8
@@ -289,34 +289,34 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Coroutine _startFireworksAfterDelayCoroutine
     void _set__startFireworksAfterDelayCoroutine(UnityEngine::Coroutine* value);
     // public System.Void add_continueButtonPressedEvent(System.Action`1<MissionResultsViewController> value)
-    // Offset: 0x1F68F50
+    // Offset: 0x11D8BD0
     void add_continueButtonPressedEvent(System::Action_1<GlobalNamespace::MissionResultsViewController*>* value);
     // public System.Void remove_continueButtonPressedEvent(System.Action`1<MissionResultsViewController> value)
-    // Offset: 0x1F68FF8
+    // Offset: 0x11D8C78
     void remove_continueButtonPressedEvent(System::Action_1<GlobalNamespace::MissionResultsViewController*>* value);
     // public System.Void add_retryButtonPressedEvent(System.Action`1<MissionResultsViewController> value)
-    // Offset: 0x1F690A0
+    // Offset: 0x11D8D20
     void add_retryButtonPressedEvent(System::Action_1<GlobalNamespace::MissionResultsViewController*>* value);
     // public System.Void remove_retryButtonPressedEvent(System.Action`1<MissionResultsViewController> value)
-    // Offset: 0x1F69148
+    // Offset: 0x11D8DC8
     void remove_retryButtonPressedEvent(System::Action_1<GlobalNamespace::MissionResultsViewController*>* value);
     // public System.Void Init(MissionNode missionNode, MissionCompletionResults missionCompletionResults)
-    // Offset: 0x1F691F0
+    // Offset: 0x11D8E70
     void Init(GlobalNamespace::MissionNode* missionNode, GlobalNamespace::MissionCompletionResults* missionCompletionResults);
     // private System.Collections.IEnumerator StartFireworksAfterDelay(System.Single delay)
-    // Offset: 0x1F695B0
+    // Offset: 0x11D9230
     System::Collections::IEnumerator* StartFireworksAfterDelay(float delay);
     // private System.Void SetDataToUI()
-    // Offset: 0x1F69370
+    // Offset: 0x11D8FF0
     void SetDataToUI();
     // private System.Void ContinueButtonPressed()
-    // Offset: 0x1F696AC
+    // Offset: 0x11D932C
     void ContinueButtonPressed();
     // private System.Void RetryButtonPressed()
-    // Offset: 0x1F69710
+    // Offset: 0x11D9390
     void RetryButtonPressed();
     // public System.Void .ctor()
-    // Offset: 0x1F69774
+    // Offset: 0x11D93F4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -330,12 +330,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionResultsViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1F691F8
+    // Offset: 0x11D8E78
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1F69630
+    // Offset: 0x11D92B0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

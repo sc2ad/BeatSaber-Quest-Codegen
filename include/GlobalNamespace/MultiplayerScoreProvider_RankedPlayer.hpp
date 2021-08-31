@@ -59,44 +59,44 @@ namespace GlobalNamespace {
     // Set instance field: private readonly MultiplayerScoreProvider _scoreSyncManager
     void _set__scoreSyncManager(GlobalNamespace::MultiplayerScoreProvider* value);
     // public System.Single get_offsetSyncTime()
-    // Offset: 0x1E5C0C8
+    // Offset: 0x1037938
     float get_offsetSyncTime();
     // public System.Single get_lastScoreTime()
-    // Offset: 0x1E5C45C
+    // Offset: 0x1037D98
     float get_lastScoreTime();
     // public System.Int32 get_score()
-    // Offset: 0x1E5B91C
+    // Offset: 0x1037044
     int get_score();
     // public System.Boolean get_isConnected()
-    // Offset: 0x1E5BF9C
+    // Offset: 0x103780C
     bool get_isConnected();
     // public System.Boolean get_isActiveOrFinished()
-    // Offset: 0x1E5C4B4
+    // Offset: 0x1037DF0
     bool get_isActiveOrFinished();
     // public System.Boolean get_isFailed()
-    // Offset: 0x1E5C334
+    // Offset: 0x1037C70
     bool get_isFailed();
     // public System.Boolean get_wasActiveAtLevelStart()
-    // Offset: 0x1E5C064
+    // Offset: 0x10378D4
     bool get_wasActiveAtLevelStart();
     // public System.Boolean get_isMe()
-    // Offset: 0x1E57CDC
+    // Offset: 0x1037E1C
     bool get_isMe();
     // public System.String get_userId()
-    // Offset: 0x1E5C394
+    // Offset: 0x1037CD0
     ::Il2CppString* get_userId();
     // public System.String get_userName()
-    // Offset: 0x1E5C4E0
+    // Offset: 0x1037EE0
     ::Il2CppString* get_userName();
     // public System.Void .ctor(MultiplayerSyncState`3<StandardScoreSyncState,StandardScoreSyncState/Score,System.Int32> multiplayerSyncState, MultiplayerScoreProvider scoreSyncManager)
-    // Offset: 0x1E5C090
+    // Offset: 0x1037900
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerScoreProvider::RankedPlayer* New_ctor(GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int>* multiplayerSyncState, GlobalNamespace::MultiplayerScoreProvider* scoreSyncManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerScoreProvider::RankedPlayer*, creationType>(multiplayerSyncState, scoreSyncManager)));
     }
     // public System.Int32 CompareTo(MultiplayerScoreProvider/RankedPlayer other)
-    // Offset: 0x1E5C5A8
+    // Offset: 0x1037FA8
     int CompareTo(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* other);
   }; // MultiplayerScoreProvider/RankedPlayer
   #pragma pack(pop)

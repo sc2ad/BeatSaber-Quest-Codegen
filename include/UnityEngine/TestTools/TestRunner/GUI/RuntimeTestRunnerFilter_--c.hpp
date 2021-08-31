@@ -52,41 +52,34 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     static System::Func_2<::Il2CppString*, NUnit::Framework::Internal::TestFilter*>* _get_$$9__5_2();
     // Set static field: static public System.Func`2<System.String,NUnit.Framework.Internal.TestFilter> <>9__5_2
     static void _set_$$9__5_2(System::Func_2<::Il2CppString*, NUnit::Framework::Internal::TestFilter*>* value);
-    // Get static field: static public System.Func`2<System.String,NUnit.Framework.Internal.TestFilter> <>9__5_3
-    static System::Func_2<::Il2CppString*, NUnit::Framework::Internal::TestFilter*>* _get_$$9__5_3();
-    // Set static field: static public System.Func`2<System.String,NUnit.Framework.Internal.TestFilter> <>9__5_3
-    static void _set_$$9__5_3(System::Func_2<::Il2CppString*, NUnit::Framework::Internal::TestFilter*>* value);
-    // Get static field: static public System.Func`2<System.String,System.Boolean> <>9__6_0
-    static System::Func_2<::Il2CppString*, bool>* _get_$$9__6_0();
-    // Set static field: static public System.Func`2<System.String,System.Boolean> <>9__6_0
-    static void _set_$$9__6_0(System::Func_2<::Il2CppString*, bool>* value);
-    // Get static field: static public System.Func`2<System.String,System.Boolean> <>9__6_2
-    static System::Func_2<::Il2CppString*, bool>* _get_$$9__6_2();
-    // Set static field: static public System.Func`2<System.String,System.Boolean> <>9__6_2
-    static void _set_$$9__6_2(System::Func_2<::Il2CppString*, bool>* value);
+    // Get static field: static public System.Func`2<System.String,System.Boolean> <>9__7_0
+    static System::Func_2<::Il2CppString*, bool>* _get_$$9__7_0();
+    // Set static field: static public System.Func`2<System.String,System.Boolean> <>9__7_0
+    static void _set_$$9__7_0(System::Func_2<::Il2CppString*, bool>* value);
+    // Get static field: static public System.Func`2<System.String,System.Boolean> <>9__7_2
+    static System::Func_2<::Il2CppString*, bool>* _get_$$9__7_2();
+    // Set static field: static public System.Func`2<System.String,System.Boolean> <>9__7_2
+    static void _set_$$9__7_2(System::Func_2<::Il2CppString*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x120115C
+    // Offset: 0x14C7074
     static void _cctor();
     // NUnit.Framework.Internal.TestFilter <BuildNUnitFilter>b__5_0(System.String s)
-    // Offset: 0x12011C8
+    // Offset: 0x14C70E0
     NUnit::Framework::Internal::TestFilter* $BuildNUnitFilter$b__5_0(::Il2CppString* s);
     // NUnit.Framework.Internal.TestFilter <BuildNUnitFilter>b__5_1(System.String s)
-    // Offset: 0x120122C
+    // Offset: 0x14C7144
     NUnit::Framework::Internal::TestFilter* $BuildNUnitFilter$b__5_1(::Il2CppString* s);
     // NUnit.Framework.Internal.TestFilter <BuildNUnitFilter>b__5_2(System.String s)
-    // Offset: 0x12012A0
+    // Offset: 0x14C71A8
     NUnit::Framework::Internal::TestFilter* $BuildNUnitFilter$b__5_2(::Il2CppString* s);
-    // NUnit.Framework.Internal.TestFilter <BuildNUnitFilter>b__5_3(System.String s)
-    // Offset: 0x1201304
-    NUnit::Framework::Internal::TestFilter* $BuildNUnitFilter$b__5_3(::Il2CppString* s);
-    // System.Boolean <AddFilters>b__6_0(System.String v)
-    // Offset: 0x1201378
-    bool $AddFilters$b__6_0(::Il2CppString* v);
-    // System.Boolean <AddFilters>b__6_2(System.String v)
-    // Offset: 0x12013E0
-    bool $AddFilters$b__6_2(::Il2CppString* v);
+    // System.Boolean <AddFilters>b__7_0(System.String v)
+    // Offset: 0x14C721C
+    bool $AddFilters$b__7_0(::Il2CppString* v);
+    // System.Boolean <AddFilters>b__7_2(System.String v)
+    // Offset: 0x14C7284
+    bool $AddFilters$b__7_2(::Il2CppString* v);
     // public System.Void .ctor()
-    // Offset: 0x12011C0
+    // Offset: 0x14C70D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -134,31 +127,22 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c*), "<BuildNUnitFilter>b__5_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::$BuildNUnitFilter$b__5_3
-// Il2CppName: <BuildNUnitFilter>b__5_3
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::$AddFilters$b__7_0
+// Il2CppName: <AddFilters>b__7_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestFilter* (UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::*)(::Il2CppString*)>(&UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::$BuildNUnitFilter$b__5_3)> {
-  static const MethodInfo* get() {
-    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c*), "<BuildNUnitFilter>b__5_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
-  }
-};
-// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::$AddFilters$b__6_0
-// Il2CppName: <AddFilters>b__6_0
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::*)(::Il2CppString*)>(&UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::$AddFilters$b__6_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::*)(::Il2CppString*)>(&UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::$AddFilters$b__7_0)> {
   static const MethodInfo* get() {
     static auto* v = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c*), "<AddFilters>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c*), "<AddFilters>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::$AddFilters$b__6_2
-// Il2CppName: <AddFilters>b__6_2
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::$AddFilters$b__7_2
+// Il2CppName: <AddFilters>b__7_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::*)(::Il2CppString*)>(&UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::$AddFilters$b__6_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::*)(::Il2CppString*)>(&UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::$AddFilters$b__7_2)> {
   static const MethodInfo* get() {
     static auto* v = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c*), "<AddFilters>b__6_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c*), "<AddFilters>b__7_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::New_ctor

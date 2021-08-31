@@ -115,7 +115,7 @@ namespace HMUI {
     bool insertInTheBeginning;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [InjectAttribute] Offset: 0xE92574
+    // [InjectAttribute] Offset: 0xE18314
     // private Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x0

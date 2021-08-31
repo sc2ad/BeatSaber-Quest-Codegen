@@ -43,7 +43,7 @@ namespace System::Resources {
     // Set instance field: private System.Resources.ResourceManager/System.Resources.ResourceManagerMediator _mediator
     void _set__mediator(System::Resources::ResourceManager::ResourceManagerMediator* value);
     // public System.Void .ctor(System.Resources.ResourceManager/System.Resources.ResourceManagerMediator mediator)
-    // Offset: 0x1190EE4
+    // Offset: 0x147F014
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileBasedResourceGroveler* New_ctor(System::Resources::ResourceManager::ResourceManagerMediator* mediator) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::FileBasedResourceGroveler::.ctor");

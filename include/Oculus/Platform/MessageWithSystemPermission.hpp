@@ -29,10 +29,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithSystemPermission
     MessageWithSystemPermission() noexcept {}
     // protected Oculus.Platform.Models.SystemPermission GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x2104110
+    // Offset: 0x14F046C
     Oculus::Platform::Models::SystemPermission* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x210406C
+    // Offset: 0x14F03C8
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -42,7 +42,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithSystemPermission*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.SystemPermission GetSystemPermission()
-    // Offset: 0x21040CC
+    // Offset: 0x14F0428
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.SystemPermission Message::GetSystemPermission()
     Oculus::Platform::Models::SystemPermission* GetSystemPermission();

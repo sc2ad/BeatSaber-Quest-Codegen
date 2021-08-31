@@ -143,7 +143,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Toggle* adaptiveSfxToggle;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Toggle*) == 0x8);
-    // [SpaceAttribute] Offset: 0xEBB96C
+    // [SpaceAttribute] Offset: 0xE4174C
     // private UnityEngine.CanvasGroup _singleplayerOnlyCanvasGroup
     // Size: 0x8
     // Offset: 0x88
@@ -275,76 +275,76 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _refreshed
     void _set__refreshed(bool value);
     // public PlayerSpecificSettings get_playerSpecificSettings()
-    // Offset: 0x1F57CA0
+    // Offset: 0x113B148
     GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
     // public System.Void add_didChangePlayerSettingsEvent(System.Action value)
-    // Offset: 0x1F58198
+    // Offset: 0x113B640
     void add_didChangePlayerSettingsEvent(System::Action* value);
     // public System.Void remove_didChangePlayerSettingsEvent(System.Action value)
-    // Offset: 0x1F5823C
+    // Offset: 0x113B6E4
     void remove_didChangePlayerSettingsEvent(System::Action* value);
     // public System.Void SetData(PlayerSpecificSettings playerSpecificSettings)
-    // Offset: 0x1F579E4
+    // Offset: 0x113AE8C
     void SetData(GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
     // public System.Void SetLayout(PlayerSettingsPanelController/PlayerSettingsPanelLayout layout)
-    // Offset: 0x1F579B4
+    // Offset: 0x113AE5C
     void SetLayout(GlobalNamespace::PlayerSettingsPanelController::PlayerSettingsPanelLayout layout);
     // protected System.Void Awake()
-    // Offset: 0x1F5834C
+    // Offset: 0x113B7F4
     void Awake();
     // private System.Void OnDestroy()
-    // Offset: 0x1F58774
+    // Offset: 0x113BC1C
     void OnDestroy();
     // public System.Void Refresh()
-    // Offset: 0x1F57A28
+    // Offset: 0x113AED0
     void Refresh();
     // private System.Void HandleSFXVolumeSettingsControllerValueDidChange(FormattedFloatListSettingsController settingsController, System.Single value)
-    // Offset: 0x1F58A4C
+    // Offset: 0x113BEF4
     void HandleSFXVolumeSettingsControllerValueDidChange(GlobalNamespace::FormattedFloatListSettingsController* settingsController, float value);
     // private System.Void HandleSaberTrailIntensitySettingsControllerValueDidChange(FormattedFloatListSettingsController settingsController, System.Single value)
-    // Offset: 0x1F58A8C
+    // Offset: 0x113BF34
     void HandleSaberTrailIntensitySettingsControllerValueDidChange(GlobalNamespace::FormattedFloatListSettingsController* settingsController, float value);
     // private System.Void HandlePlayerHeightSettingsControllerValueDidChange(System.Single value)
-    // Offset: 0x1F58AAC
+    // Offset: 0x113BF54
     void HandlePlayerHeightSettingsControllerValueDidChange(float value);
     // private System.Void HandleNoteJumpStartBeatOffsetPositionSelected(System.Int32 idx)
-    // Offset: 0x1F58ACC
+    // Offset: 0x113BF74
     void HandleNoteJumpStartBeatOffsetPositionSelected(int idx);
     // private System.Void HandleLightReductionAmountSelected(System.Int32 obj)
-    // Offset: 0x1F58AEC
+    // Offset: 0x113BF94
     void HandleLightReductionAmountSelected(int obj);
     // private System.Void HandleAdvancedHudToggleChanged(System.Boolean on)
-    // Offset: 0x1F58B0C
+    // Offset: 0x113BFB4
     void HandleAdvancedHudToggleChanged(bool on);
     // private System.Void HandleNoTextsAndHudsToggleChanged(System.Boolean on)
-    // Offset: 0x1F58B64
+    // Offset: 0x113C00C
     void HandleNoTextsAndHudsToggleChanged(bool on);
     // private System.Void SetIsDirty()
-    // Offset: 0x1F58A6C
+    // Offset: 0x113BF14
     void SetIsDirty();
     // private System.Void SetSection(UnityEngine.CanvasGroup sectionCanvasGroup, System.Boolean block)
-    // Offset: 0x1F582E0
+    // Offset: 0x113B788
     void SetSection(UnityEngine::CanvasGroup* sectionCanvasGroup, bool block);
     // private System.Void <Awake>b__28_0(System.Boolean on)
-    // Offset: 0x1F58BC4
+    // Offset: 0x113C06C
     void $Awake$b__28_0(bool on);
     // private System.Void <Awake>b__28_1(System.Boolean on)
-    // Offset: 0x1F58BE4
+    // Offset: 0x113C08C
     void $Awake$b__28_1(bool on);
     // private System.Void <Awake>b__28_2(System.Boolean on)
-    // Offset: 0x1F58C04
+    // Offset: 0x113C0AC
     void $Awake$b__28_2(bool on);
     // private System.Void <Awake>b__28_3(System.Boolean on)
-    // Offset: 0x1F58C24
+    // Offset: 0x113C0CC
     void $Awake$b__28_3(bool on);
     // private System.Void <Awake>b__28_4(System.Boolean on)
-    // Offset: 0x1F58C44
+    // Offset: 0x113C0EC
     void $Awake$b__28_4(bool on);
     // private System.Void <Awake>b__28_5(System.Boolean on)
-    // Offset: 0x1F58C64
+    // Offset: 0x113C10C
     void $Awake$b__28_5(bool on);
     // public System.Void .ctor()
-    // Offset: 0x1F58BBC
+    // Offset: 0x113C064
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

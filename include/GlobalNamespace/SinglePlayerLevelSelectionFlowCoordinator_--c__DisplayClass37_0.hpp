@@ -73,13 +73,13 @@ namespace GlobalNamespace {
     // Set instance field: public System.Action <>9__1
     void _set_$$9__1(System::Action* value);
     // System.Void <StartLevelOrShow360Prompt>b__0(System.Int32 buttonNumber)
-    // Offset: 0x1EC2FC4
+    // Offset: 0x107D8D4
     void $StartLevelOrShow360Prompt$b__0(int buttonNumber);
     // System.Void <StartLevelOrShow360Prompt>b__1()
-    // Offset: 0x1EC305C
+    // Offset: 0x107D96C
     void $StartLevelOrShow360Prompt$b__1();
     // public System.Void .ctor()
-    // Offset: 0x1EC2E30
+    // Offset: 0x107D740
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

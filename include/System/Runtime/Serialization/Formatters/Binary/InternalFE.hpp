@@ -69,7 +69,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set instance field: System.Runtime.Serialization.Formatters.Binary.InternalSerializerTypeE FEserializerTypeEnum
     void _set_FEserializerTypeEnum(System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE value);
     // public System.Void .ctor()
-    // Offset: 0x12DC3C4
+    // Offset: 0x1614654
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

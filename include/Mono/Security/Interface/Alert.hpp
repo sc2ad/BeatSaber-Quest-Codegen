@@ -45,23 +45,23 @@ namespace Mono::Security::Interface {
     // Set instance field: private Mono.Security.Interface.AlertDescription description
     void _set_description(Mono::Security::Interface::AlertDescription value);
     // public Mono.Security.Interface.AlertLevel get_Level()
-    // Offset: 0x1950834
+    // Offset: 0x1E043B8
     Mono::Security::Interface::AlertLevel get_Level();
     // public Mono.Security.Interface.AlertDescription get_Description()
-    // Offset: 0x195083C
+    // Offset: 0x1E043C0
     Mono::Security::Interface::AlertDescription get_Description();
     // public System.Void .ctor(Mono.Security.Interface.AlertDescription description)
-    // Offset: 0x1950844
+    // Offset: 0x1E043C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Alert* New_ctor(Mono::Security::Interface::AlertDescription description) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Interface::Alert::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Alert*, creationType>(description)));
     }
     // private System.Void inferAlertLevel()
-    // Offset: 0x19508BC
+    // Offset: 0x1E04440
     void inferAlertLevel();
     // public override System.String ToString()
-    // Offset: 0x19508FC
+    // Offset: 0x1E04480
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

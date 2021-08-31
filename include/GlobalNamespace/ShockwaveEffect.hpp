@@ -81,13 +81,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _prevShockwaveParticleSpawnTime
     void _set__prevShockwaveParticleSpawnTime(float value);
     // protected System.Void Start()
-    // Offset: 0x1EBE2BC
+    // Offset: 0x1078BCC
     void Start();
     // public System.Void SpawnShockwave(UnityEngine.Vector3 pos)
-    // Offset: 0x1EBE3D0
+    // Offset: 0x1078CE0
     void SpawnShockwave(UnityEngine::Vector3 pos);
     // public System.Void .ctor()
-    // Offset: 0x1EBE4A8
+    // Offset: 0x1078DB8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

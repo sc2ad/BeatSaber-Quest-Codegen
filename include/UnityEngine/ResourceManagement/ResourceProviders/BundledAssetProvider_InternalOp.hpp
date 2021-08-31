@@ -75,22 +75,22 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Set instance field: private System.String subObjectName
     void _set_subObjectName(::Il2CppString* value);
     // static UnityEngine.ResourceManagement.ResourceProviders.IAssetBundleResource LoadBundleFromDependecies(System.Collections.Generic.IList`1<System.Object> results)
-    // Offset: 0x1670138
+    // Offset: 0x19EF268
     static UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource* LoadBundleFromDependecies(System::Collections::Generic::IList_1<::Il2CppObject*>* results);
     // public System.Void Start(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle provideHandle)
-    // Offset: 0x166FCEC
+    // Offset: 0x19EEE1C
     void Start(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
     // private System.Boolean WaitForCompletionHandler()
-    // Offset: 0x167087C
+    // Offset: 0x19EF9AC
     bool WaitForCompletionHandler();
     // private System.Void ActionComplete(UnityEngine.AsyncOperation obj)
-    // Offset: 0x1670500
+    // Offset: 0x19EF630
     void ActionComplete(UnityEngine::AsyncOperation* obj);
     // public System.Single ProgressCallback()
-    // Offset: 0x1670CCC
+    // Offset: 0x19EFDFC
     float ProgressCallback();
     // public System.Void .ctor()
-    // Offset: 0x166FCE4
+    // Offset: 0x19EEE14
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -43,7 +43,7 @@ namespace System::Text::RegularExpressions {
     // Set instance field: System.Char _last
     void _set__last(::Il2CppChar value);
     // System.Void .ctor(System.Char first, System.Char last)
-    // Offset: 0x1632C48
+    // Offset: 0x1996288
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexCharClass::SingleRange* New_ctor(::Il2CppChar first, ::Il2CppChar last) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexCharClass::SingleRange::.ctor");

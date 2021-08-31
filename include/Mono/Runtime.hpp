@@ -24,25 +24,25 @@ namespace Mono {
     // Creating value type constructor for type: Runtime
     Runtime() noexcept {}
     // static private System.Void mono_runtime_install_handlers()
-    // Offset: 0x16D8198
+    // Offset: 0x1A7345C
     static void mono_runtime_install_handlers();
     // static public System.Void InstallSignalHandlers()
-    // Offset: 0x16D819C
+    // Offset: 0x1A73460
     static void InstallSignalHandlers();
     // static private System.Void mono_runtime_cleanup_handlers()
-    // Offset: 0x16D81A0
+    // Offset: 0x1A73464
     static void mono_runtime_cleanup_handlers();
     // static public System.Void RemoveSignalHandlers()
-    // Offset: 0x16D81D4
+    // Offset: 0x1A73498
     static void RemoveSignalHandlers();
     // static public System.String GetDisplayName()
-    // Offset: 0x16D8208
+    // Offset: 0x1A734CC
     static ::Il2CppString* GetDisplayName();
     // static private System.String GetNativeStackTrace(System.Exception exception)
-    // Offset: 0x16D820C
+    // Offset: 0x1A734D0
     static ::Il2CppString* GetNativeStackTrace(System::Exception* exception);
     // static public System.Boolean SetGCAllowSynchronousMajor(System.Boolean flag)
-    // Offset: 0x16D8210
+    // Offset: 0x1A734D4
     static bool SetGCAllowSynchronousMajor(bool flag);
   }; // Mono.Runtime
   #pragma pack(pop)

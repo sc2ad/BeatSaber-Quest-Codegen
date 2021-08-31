@@ -50,23 +50,23 @@ namespace TMPro {
     // Set instance field: private System.Int32 m_HashCode
     void _set_m_HashCode(int value);
     // public System.String get_name()
-    // Offset: 0x10159D4
+    // Offset: 0x115F1B4
     ::Il2CppString* get_name();
     // public System.Void set_name(System.String value)
-    // Offset: 0x1015808
+    // Offset: 0x115EFE8
     void set_name(::Il2CppString* value);
     // public System.Int32 get_hashCode()
-    // Offset: 0x10159DC
+    // Offset: 0x115F1BC
     int get_hashCode();
     // public System.Void .ctor(System.UInt32 unicode, TMPro.TMP_SpriteGlyph glyph)
-    // Offset: 0x10157A8
+    // Offset: 0x115EF88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_SpriteCharacter* New_ctor(uint unicode, TMPro::TMP_SpriteGlyph* glyph) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_SpriteCharacter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_SpriteCharacter*, creationType>(unicode, glyph)));
     }
     // public System.Void .ctor()
-    // Offset: 0x10159E4
+    // Offset: 0x115F1C4
     // Implemented from: TMPro.TMP_TextElement
     // Base method: System.Void TMP_TextElement::.ctor()
     // Base method: System.Void Object::.ctor()

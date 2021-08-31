@@ -62,17 +62,17 @@ namespace Zenject {
     // Set instance field: private readonly Zenject.SceneContext _sceneContext
     void _set__sceneContext(Zenject::SceneContext* value);
     // public System.Void .ctor(Zenject.SceneContext sceneContext, Zenject.SceneContextRegistry registry)
-    // Offset: 0x13D0F50
+    // Offset: 0x171CC38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SceneContextRegistryAdderAndRemover* New_ctor(Zenject::SceneContext* sceneContext, Zenject::SceneContextRegistry* registry) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SceneContextRegistryAdderAndRemover::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SceneContextRegistryAdderAndRemover*, creationType>(sceneContext, registry)));
     }
     // public System.Void Initialize()
-    // Offset: 0x13D0F88
+    // Offset: 0x171CC70
     void Initialize();
     // public System.Void Dispose()
-    // Offset: 0x13D0FA8
+    // Offset: 0x171CC90
     void Dispose();
   }; // Zenject.SceneContextRegistryAdderAndRemover
   #pragma pack(pop)

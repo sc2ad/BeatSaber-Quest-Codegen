@@ -61,13 +61,13 @@ namespace HMUI {
     // Set instance field: public HMUI.FlowCoordinator <>4__this
     void _set_$$4__this(HMUI::FlowCoordinator* value);
     // System.Void <PresentFlowCoordinator>b__1()
-    // Offset: 0x10CD060
+    // Offset: 0x136DF88
     void $PresentFlowCoordinator$b__1();
     // System.Void <PresentFlowCoordinator>b__0()
-    // Offset: 0x10CD0E0
+    // Offset: 0x136E008
     void $PresentFlowCoordinator$b__0();
     // public System.Void .ctor()
-    // Offset: 0x10CBB68
+    // Offset: 0x136CA90
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

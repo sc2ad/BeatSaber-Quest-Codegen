@@ -39,14 +39,14 @@ namespace RootMotion::FinalIK {
     class HitPointEffector;
     // Nested type: RootMotion::FinalIK::HitReaction::HitPointBone
     class HitPointBone;
-    // [TooltipAttribute] Offset: 0xEA20B8
+    // [TooltipAttribute] Offset: 0xE27E68
     // public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointEffector[] effectorHitPoints
     // Size: 0x8
     // Offset: 0x30
     ::Array<RootMotion::FinalIK::HitReaction::HitPointEffector*>* effectorHitPoints;
     // Field size check
     static_assert(sizeof(::Array<RootMotion::FinalIK::HitReaction::HitPointEffector*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xEA20F0
+    // [TooltipAttribute] Offset: 0xE27EA0
     // public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointBone[] boneHitPoints
     // Size: 0x8
     // Offset: 0x38
@@ -64,13 +64,13 @@ namespace RootMotion::FinalIK {
     // Set instance field: public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointBone[] boneHitPoints
     void _set_boneHitPoints(::Array<RootMotion::FinalIK::HitReaction::HitPointBone*>* value);
     // public System.Boolean get_inProgress()
-    // Offset: 0x1831F38
+    // Offset: 0x1CCDD2C
     bool get_inProgress();
     // public System.Void Hit(UnityEngine.Collider collider, UnityEngine.Vector3 force, UnityEngine.Vector3 point)
-    // Offset: 0x1832228
+    // Offset: 0x1CCE01C
     void Hit(UnityEngine::Collider* collider, UnityEngine::Vector3 force, UnityEngine::Vector3 point);
     // public System.Void .ctor()
-    // Offset: 0x1832594
+    // Offset: 0x1CCE388
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -84,7 +84,7 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<HitReaction*, creationType>()));
     }
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x1832008
+    // Offset: 0x1CCDDFC
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();

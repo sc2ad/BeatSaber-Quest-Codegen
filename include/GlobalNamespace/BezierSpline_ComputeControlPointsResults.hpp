@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Single[] p2
     void _set_p2(::Array<float>* value);
     // public System.Void .ctor(System.Single[] p1, System.Single[] p2)
-    // Offset: 0xF7BCB4
+    // Offset: 0x10CFB70
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  ComputeControlPointsResults(::Array<float>* p1, ::Array<float>* p2)
   }; // BezierSpline/ComputeControlPointsResults

@@ -82,7 +82,7 @@ namespace GlobalNamespace {
     GlobalNamespace::LoadingControl* loadingControl;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LoadingControl*) == 0x8);
-    // [SpaceAttribute] Offset: 0xEBD1C0
+    // [SpaceAttribute] Offset: 0xE42FA0
     // private UnityEngine.Sprite _globalLeaderboardIcon
     // Size: 0x8
     // Offset: 0x88
@@ -107,14 +107,14 @@ namespace GlobalNamespace {
     GlobalNamespace::LevelStatsView* levelStatsView;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LevelStatsView*) == 0x8);
-    // [InjectAttribute] Offset: 0xEBD228
+    // [InjectAttribute] Offset: 0xE43008
     // private readonly PlatformLeaderboardsModel _leaderboardsModel
     // Size: 0x8
     // Offset: 0xA8
     GlobalNamespace::PlatformLeaderboardsModel* leaderboardsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlatformLeaderboardsModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xEBD238
+    // [InjectAttribute] Offset: 0xE43018
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0xB0
@@ -167,7 +167,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<GlobalNamespace::PlatformLeaderboardsModel::ScoresScope>*) == 0x8);
     // Creating value type constructor for type: PlatformLeaderboardViewController
     PlatformLeaderboardViewController(GlobalNamespace::LeaderboardTableView* leaderboardTableView_ = {}, HMUI::IconSegmentedControl* scopeSegmentedControl_ = {}, GlobalNamespace::LoadingControl* loadingControl_ = {}, UnityEngine::Sprite* globalLeaderboardIcon_ = {}, UnityEngine::Sprite* aroundPlayerLeaderboardIcon_ = {}, UnityEngine::Sprite* friendsLeaderboardIcon_ = {}, GlobalNamespace::LevelStatsView* levelStatsView_ = {}, GlobalNamespace::PlatformLeaderboardsModel* leaderboardsModel_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, GlobalNamespace::HMAsyncRequest* getScoresAsyncRequest_ = {}, ::Array<int>* playerScorePos_ = {}, System::Collections::Generic::List_1<GlobalNamespace::LeaderboardTableView::ScoreData*>* scores_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}, bool refreshIsNeeded_ = {}, bool hasScoresData_ = {}, ::Array<GlobalNamespace::PlatformLeaderboardsModel::ScoresScope>* scoreScopes_ = {}) noexcept : leaderboardTableView{leaderboardTableView_}, scopeSegmentedControl{scopeSegmentedControl_}, loadingControl{loadingControl_}, globalLeaderboardIcon{globalLeaderboardIcon_}, aroundPlayerLeaderboardIcon{aroundPlayerLeaderboardIcon_}, friendsLeaderboardIcon{friendsLeaderboardIcon_}, levelStatsView{levelStatsView_}, leaderboardsModel{leaderboardsModel_}, playerDataModel{playerDataModel_}, getScoresAsyncRequest{getScoresAsyncRequest_}, playerScorePos{playerScorePos_}, scores{scores_}, difficultyBeatmap{difficultyBeatmap_}, refreshIsNeeded{refreshIsNeeded_}, hasScoresData{hasScoresData_}, scoreScopes{scoreScopes_} {}
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEBD248
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE43028
     // Get static field: static private PlatformLeaderboardsModel/ScoresScope _scoresScope
     static GlobalNamespace::PlatformLeaderboardsModel::ScoresScope _get__scoresScope();
     // Set static field: static private PlatformLeaderboardsModel/ScoresScope _scoresScope
@@ -237,37 +237,37 @@ namespace GlobalNamespace {
     // Set instance field: private PlatformLeaderboardsModel/ScoresScope[] _scoreScopes
     void _set__scoreScopes(::Array<GlobalNamespace::PlatformLeaderboardsModel::ScoresScope>* value);
     // public PlatformLeaderboardsModel get_leaderboardsModel()
-    // Offset: 0x1F4ED90
+    // Offset: 0x1132188
     GlobalNamespace::PlatformLeaderboardsModel* get_leaderboardsModel();
     // private System.Int32 ScoreScopeToScoreScopeIndex(PlatformLeaderboardsModel/ScoresScope scoresScope)
-    // Offset: 0x1F4F448
+    // Offset: 0x1132840
     int ScoreScopeToScoreScopeIndex(GlobalNamespace::PlatformLeaderboardsModel::ScoresScope scoresScope);
     // private PlatformLeaderboardsModel/ScoresScope ScopeScopeIndexToScoreScope(System.Int32 scoreScopeIndex)
-    // Offset: 0x1F4F904
+    // Offset: 0x1132CFC
     GlobalNamespace::PlatformLeaderboardsModel::ScoresScope ScopeScopeIndexToScoreScope(int scoreScopeIndex);
     // private System.Void HandleDidPressRefreshButton()
-    // Offset: 0x1F4F950
+    // Offset: 0x1132D48
     void HandleDidPressRefreshButton();
     // private System.Void HandleLeaderboardsResultsReturned(PlatformLeaderboardsModel/GetScoresResult result, PlatformLeaderboardsModel/LeaderboardScore[] scores, System.Int32 playerScoreIndex)
-    // Offset: 0x1F4F95C
+    // Offset: 0x1132D54
     void HandleLeaderboardsResultsReturned(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult result, ::Array<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*>* scores, int playerScoreIndex);
     // private System.Void HandleScopeSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellNumber)
-    // Offset: 0x1F4FB80
+    // Offset: 0x1132F78
     void HandleScopeSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellNumber);
     // private System.Void HandlePlatformLeaderboardsModelAllScoresDidUpload()
-    // Offset: 0x1F4FC18
+    // Offset: 0x1133010
     void HandlePlatformLeaderboardsModelAllScoresDidUpload();
     // private System.Void Refresh(System.Boolean showLoadingIndicator, System.Boolean clear)
-    // Offset: 0x1F4EDFC
+    // Offset: 0x11321F4
     void Refresh(bool showLoadingIndicator, bool clear);
     // private System.Collections.IEnumerator RefreshDelayed(System.Boolean showLoadingIndicator, System.Boolean clear)
-    // Offset: 0x1F4FCF4
+    // Offset: 0x11330EC
     System::Collections::IEnumerator* RefreshDelayed(bool showLoadingIndicator, bool clear);
     // private System.Void ClearContent()
-    // Offset: 0x1F4FC24
+    // Offset: 0x113301C
     void ClearContent();
     // public System.Void .ctor()
-    // Offset: 0x1F4FDB0
+    // Offset: 0x11331A8
     // Implemented from: LeaderboardViewController
     // Base method: System.Void LeaderboardViewController::.ctor()
     // Base method: System.Void ViewController::.ctor()
@@ -282,32 +282,32 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlatformLeaderboardViewController*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1F4FE24
+    // Offset: 0x113321C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
     // public override System.Void SetData(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x1F4ED98
+    // Offset: 0x1132190
     // Implemented from: LeaderboardViewController
     // Base method: System.Void LeaderboardViewController::SetData(IDifficultyBeatmap difficultyBeatmap)
     void SetData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public override System.Void RefreshLevelStats()
-    // Offset: 0x1F4EFBC
+    // Offset: 0x11323B4
     // Implemented from: LeaderboardViewController
     // Base method: System.Void LeaderboardViewController::RefreshLevelStats()
     void RefreshLevelStats();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1F4EFF0
+    // Offset: 0x11323E8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1F4F5B4
+    // Offset: 0x11329AC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x1F4F75C
+    // Offset: 0x1132B54
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();

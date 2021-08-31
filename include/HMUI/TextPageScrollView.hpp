@@ -40,10 +40,10 @@ namespace HMUI {
     // Set instance field: private TMPro.TextMeshProUGUI _text
     void _set__text(TMPro::TextMeshProUGUI* value);
     // public System.Void SetText(System.String text)
-    // Offset: 0x1076D70
+    // Offset: 0x1305DD4
     void SetText(::Il2CppString* text);
     // public System.Void .ctor()
-    // Offset: 0x1076DD4
+    // Offset: 0x1305E38
     // Implemented from: HMUI.ScrollView
     // Base method: System.Void ScrollView::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

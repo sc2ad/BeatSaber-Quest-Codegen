@@ -82,7 +82,7 @@ namespace TMPro {
     // Set instance field: public System.Int32 count
     void _set_count(int value);
     // public System.Void .ctor()
-    // Offset: 0x100F554
+    // Offset: 0x1158CEC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

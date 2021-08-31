@@ -46,10 +46,10 @@ namespace GlobalNamespace {
     // Set instance field: public LeaderboardScoreUploader <>4__this
     void _set_$$4__this(GlobalNamespace::LeaderboardScoreUploader* value);
     // System.Void <UploadScoresCoroutine>b__0(PlatformLeaderboardsModel/UploadScoreResult result)
-    // Offset: 0x1F418CC
+    // Offset: 0x11481E4
     void $UploadScoresCoroutine$b__0(GlobalNamespace::PlatformLeaderboardsModel::UploadScoreResult result);
     // public System.Void .ctor()
-    // Offset: 0x1F418C4
+    // Offset: 0x11481DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

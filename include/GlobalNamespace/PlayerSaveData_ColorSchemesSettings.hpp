@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Collections.Generic.List`1<PlayerSaveData/ColorScheme> colorSchemes
     void _set_colorSchemes(System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::ColorScheme*>* value);
     // public System.Void .ctor(System.Boolean overrideDefaultColors, System.String selectedColorSchemeId, System.Collections.Generic.List`1<PlayerSaveData/ColorScheme> colorSchemes)
-    // Offset: 0x1F54378
+    // Offset: 0x11377F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveData::ColorSchemesSettings* New_ctor(bool overrideDefaultColors, ::Il2CppString* selectedColorSchemeId, System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::ColorScheme*>* colorSchemes) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerSaveData::ColorSchemesSettings::.ctor");

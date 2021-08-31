@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::LightWithIds::LightData
     class LightData;
-    // [InjectAttribute] Offset: 0xE8EFA0
+    // [InjectAttribute] Offset: 0xE14D40
     // private readonly LightWithIdManager _lightManager
     // Size: 0x8
     // Offset: 0x18
@@ -64,22 +64,22 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::IEnumerable_1<GlobalNamespace::LightWithIds::LightData*>* get_lightIntensityData();
     // protected System.Void Start()
-    // Offset: 0x1966E08
+    // Offset: 0x1E1A98C
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x1967104
+    // Offset: 0x1E1AC88
     void OnEnable();
     // private System.Void RegisterForColorChanges()
-    // Offset: 0x1966E0C
+    // Offset: 0x1E1A990
     void RegisterForColorChanges();
     // protected System.Void OnDisable()
-    // Offset: 0x1967108
+    // Offset: 0x1E1AC8C
     void OnDisable();
     // protected System.Void HandleLightManagerDidChangeSomeColorsThisFrame()
     // Offset: 0xFFFFFFFF
     void HandleLightManagerDidChangeSomeColorsThisFrame();
     // protected System.Void .ctor()
-    // Offset: 0x19673F4
+    // Offset: 0x1E1AF78
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

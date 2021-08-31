@@ -87,31 +87,31 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Set instance field: protected UnityEngine.ResourceManagement.ResourceProviders.ProviderBehaviourFlags m_BehaviourFlags
     void _set_m_BehaviourFlags(UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags value);
     // public System.String get_ProviderId()
-    // Offset: 0x1671BC8
+    // Offset: 0x19F0CF8
     ::Il2CppString* get_ProviderId();
     // private UnityEngine.ResourceManagement.ResourceProviders.ProviderBehaviourFlags UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider.get_BehaviourFlags()
-    // Offset: 0x1671E94
+    // Offset: 0x19F0FC4
     UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags UnityEngine_ResourceManagement_ResourceProviders_IResourceProvider_get_BehaviourFlags();
     // public System.Boolean Initialize(System.String id, System.String data)
-    // Offset: 0x1671C24
+    // Offset: 0x19F0D54
     bool Initialize(::Il2CppString* id, ::Il2CppString* data);
     // public System.Boolean CanProvide(System.Type t, UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location)
-    // Offset: 0x1671C4C
+    // Offset: 0x19F0D7C
     bool CanProvide(System::Type* t, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
     // public System.Void Release(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location, System.Object obj)
-    // Offset: 0x1671CA4
+    // Offset: 0x19F0DD4
     void Release(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::Il2CppObject* obj);
     // public System.Type GetDefaultType(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location)
-    // Offset: 0x1671CA8
+    // Offset: 0x19F0DD8
     System::Type* GetDefaultType(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
     // public System.Void Provide(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle provideHandle)
     // Offset: 0xFFFFFFFF
     void Provide(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Boolean> InitializeAsync(UnityEngine.ResourceManagement.ResourceManager rm, System.String id, System.String data)
-    // Offset: 0x1671D18
+    // Offset: 0x19F0E48
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> InitializeAsync(UnityEngine::ResourceManagement::ResourceManager* rm, ::Il2CppString* id, ::Il2CppString* data);
     // protected System.Void .ctor()
-    // Offset: 0x166DE44
+    // Offset: 0x19ECF74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -120,7 +120,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
       return THROW_UNLESS((::il2cpp_utils::New<ResourceProviderBase*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x1671C98
+    // Offset: 0x19F0DC8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

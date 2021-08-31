@@ -41,7 +41,7 @@ namespace Assets::OVR::Scripts {
     // Set instance field: public System.String message
     void _set_message(::Il2CppString* value);
     // public System.Void .ctor(System.String cat, System.String msg)
-    // Offset: 0x127A13C
+    // Offset: 0x15B13CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Record* New_ctor(::Il2CppString* cat, ::Il2CppString* msg) {
       static auto ___internal__logger = ::Logger::get().WithContext("Assets::OVR::Scripts::Record::.ctor");

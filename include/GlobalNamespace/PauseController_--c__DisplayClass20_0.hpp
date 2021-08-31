@@ -38,10 +38,10 @@ namespace GlobalNamespace {
     // Set instance field: public System.Boolean value
     void _set_value(bool value);
     // System.Void <get_canPause>b__0(System.Boolean newValue)
-    // Offset: 0x1E55778
+    // Offset: 0x1032D10
     void $get_canPause$b__0(bool newValue);
     // public System.Void .ctor()
-    // Offset: 0x1E545D0
+    // Offset: 0x1031B68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

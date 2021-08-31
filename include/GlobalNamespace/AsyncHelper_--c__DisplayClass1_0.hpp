@@ -56,10 +56,10 @@ namespace GlobalNamespace {
     // Set instance field: public System.Func`1<System.Threading.Tasks.Task> asyncTask
     void _set_asyncTask(System::Func_1<System::Threading::Tasks::Task*>* value);
     // System.Threading.Tasks.Task <RunSync>b__0()
-    // Offset: 0x203AADC
+    // Offset: 0x1257810
     System::Threading::Tasks::Task* $RunSync$b__0();
     // public System.Void .ctor()
-    // Offset: 0x203AAD4
+    // Offset: 0x1257808
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

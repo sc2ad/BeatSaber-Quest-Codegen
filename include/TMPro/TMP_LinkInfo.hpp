@@ -103,13 +103,13 @@ namespace TMPro {
     // Set instance field: System.Char[] linkID
     void _set_linkID(::Array<::Il2CppChar>* value);
     // System.Void SetLinkID(System.Char[] text, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0xD67BD0
+    // Offset: 0x1156790
     void SetLinkID(::Array<::Il2CppChar>* text, int startIndex, int length);
     // public System.String GetLinkText()
-    // Offset: 0xD67BD8
+    // Offset: 0x1156890
     ::Il2CppString* GetLinkText();
     // public System.String GetLinkID()
-    // Offset: 0xD67BE0
+    // Offset: 0x1156984
     ::Il2CppString* GetLinkID();
   }; // TMPro.TMP_LinkInfo
   #pragma pack(pop)

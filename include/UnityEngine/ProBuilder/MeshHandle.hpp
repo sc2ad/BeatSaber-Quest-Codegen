@@ -50,17 +50,17 @@ namespace UnityEngine::ProBuilder {
     // Set instance field: private UnityEngine.Mesh m_Mesh
     void _set_m_Mesh(UnityEngine::Mesh* value);
     // public UnityEngine.Mesh get_mesh()
-    // Offset: 0x1752E54
+    // Offset: 0x1AFD7A8
     UnityEngine::Mesh* get_mesh();
     // public System.Void .ctor(UnityEngine.Transform transform, UnityEngine.Mesh mesh)
-    // Offset: 0x1752E5C
+    // Offset: 0x1AFD7B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MeshHandle* New_ctor(UnityEngine::Transform* transform, UnityEngine::Mesh* mesh) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::MeshHandle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MeshHandle*, creationType>(transform, mesh)));
     }
     // public System.Void DrawMeshNow(System.Int32 submeshIndex)
-    // Offset: 0x1752E94
+    // Offset: 0x1AFD7E8
     void DrawMeshNow(int submeshIndex);
   }; // UnityEngine.ProBuilder.MeshHandle
   #pragma pack(pop)

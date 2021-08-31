@@ -154,7 +154,7 @@ namespace RootMotion::FinalIK {
     // Set instance field: public System.Single pelvisRotationWeight
     void _set_pelvisRotationWeight(float value);
     // public System.Void .ctor()
-    // Offset: 0x1739478
+    // Offset: 0x1AE3D94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

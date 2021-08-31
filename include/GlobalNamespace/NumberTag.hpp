@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Int32 number
     void _set_number(int value);
     // public System.Void .ctor()
-    // Offset: 0x2048A8C
+    // Offset: 0x1266684
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

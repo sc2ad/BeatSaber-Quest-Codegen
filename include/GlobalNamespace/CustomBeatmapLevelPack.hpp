@@ -91,28 +91,28 @@ namespace GlobalNamespace {
     // Set instance field: private CustomBeatmapLevelCollection _customBeatmapLevelCollection
     void _set__customBeatmapLevelCollection(GlobalNamespace::CustomBeatmapLevelCollection* value);
     // public System.String get_packID()
-    // Offset: 0x1F0662C
+    // Offset: 0x10F6458
     ::Il2CppString* get_packID();
     // public System.String get_packName()
-    // Offset: 0x1F06634
+    // Offset: 0x10F6460
     ::Il2CppString* get_packName();
     // public System.String get_shortPackName()
-    // Offset: 0x1F0663C
+    // Offset: 0x10F6468
     ::Il2CppString* get_shortPackName();
     // public System.String get_collectionName()
-    // Offset: 0x1F06644
+    // Offset: 0x10F6470
     ::Il2CppString* get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
-    // Offset: 0x1F0664C
+    // Offset: 0x10F6478
     UnityEngine::Sprite* get_coverImage();
     // public IBeatmapLevelCollection get_beatmapLevelCollection()
-    // Offset: 0x1F06654
+    // Offset: 0x10F6480
     GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
     // public System.Boolean get_isPackAlwaysOwned()
-    // Offset: 0x1F0665C
+    // Offset: 0x10F6488
     bool get_isPackAlwaysOwned();
     // public System.Void .ctor(System.String packID, System.String packName, System.String shortPackName, UnityEngine.Sprite coverImage, CustomBeatmapLevelCollection customBeatmapLevelCollection)
-    // Offset: 0x1F06664
+    // Offset: 0x10F6490
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomBeatmapLevelPack* New_ctor(::Il2CppString* packID, ::Il2CppString* packName, ::Il2CppString* shortPackName, UnityEngine::Sprite* coverImage, GlobalNamespace::CustomBeatmapLevelCollection* customBeatmapLevelCollection) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CustomBeatmapLevelPack::.ctor");

@@ -51,10 +51,10 @@ namespace System::Net {
     // Set instance field: public System.Boolean setInternalLength
     void _set_setInternalLength(bool value);
     // System.Boolean <SetHeadersAsync>b__0(System.Net.SimpleAsyncResult r)
-    // Offset: 0x129D3F0
+    // Offset: 0x15D5680
     bool $SetHeadersAsync$b__0(System::Net::SimpleAsyncResult* r);
     // public System.Void .ctor()
-    // Offset: 0x129C934
+    // Offset: 0x15D4BC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

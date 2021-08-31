@@ -37,10 +37,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.String _version
     void _set__version(::Il2CppString* value);
     // public System.String get_version()
-    // Offset: 0x1ED1A5C
+    // Offset: 0x108C2F4
     ::Il2CppString* get_version();
     // public System.Void .ctor()
-    // Offset: 0x1ED1A64
+    // Offset: 0x108C2FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -96,7 +96,7 @@ namespace UnityEngine::Scripting::APIUpdating {
     // Set instance field: public System.Boolean autoUdpateAPI
     void _set_autoUdpateAPI(bool value);
     // public System.Void Set(System.Boolean autoUpdateAPI, System.String sourceNamespace, System.String sourceAssembly, System.String sourceClassName)
-    // Offset: 0xF84F40
+    // Offset: 0x1C4EF10
     void Set(bool autoUpdateAPI, ::Il2CppString* sourceNamespace, ::Il2CppString* sourceAssembly, ::Il2CppString* sourceClassName);
   }; // UnityEngine.Scripting.APIUpdating.MovedFromAttributeData
   #pragma pack(pop)

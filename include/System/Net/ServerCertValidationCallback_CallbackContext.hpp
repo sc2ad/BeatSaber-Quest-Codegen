@@ -84,7 +84,7 @@ namespace System::Net {
     // Set instance field: System.Boolean result
     void _set_result(bool value);
     // System.Void .ctor(System.Object request, System.Security.Cryptography.X509Certificates.X509Certificate certificate, System.Security.Cryptography.X509Certificates.X509Chain chain, System.Net.Security.SslPolicyErrors sslPolicyErrors)
-    // Offset: 0x11DACAC
+    // Offset: 0x14A08F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServerCertValidationCallback::CallbackContext* New_ctor(::Il2CppObject* request, System::Security::Cryptography::X509Certificates::X509Certificate* certificate, System::Security::Cryptography::X509Certificates::X509Chain* chain, System::Net::Security::SslPolicyErrors sslPolicyErrors) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ServerCertValidationCallback::CallbackContext::.ctor");

@@ -123,22 +123,22 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _startVolume
     void _set__startVolume(float value);
     // protected System.Void Start()
-    // Offset: 0x1F2D420
+    // Offset: 0x117E1A0
     void Start();
     // private System.Collections.IEnumerator StartEffectCoroutine(System.Single volumeScale, System.Action finishCallback)
-    // Offset: 0x1F2D454
+    // Offset: 0x117E1D4
     System::Collections::IEnumerator* StartEffectCoroutine(float volumeScale, System::Action* finishCallback);
     // public System.Void StartEffect(System.Single volumeScale, System.Action finishCallback)
-    // Offset: 0x1F2D510
+    // Offset: 0x117E290
     void StartEffect(float volumeScale, System::Action* finishCallback);
     // public System.Void InterruptEffect()
-    // Offset: 0x1F2D544
+    // Offset: 0x117E2C4
     void InterruptEffect();
     // public System.Void SetAudioSource(UnityEngine.AudioSource audioSource)
-    // Offset: 0x1F2D590
+    // Offset: 0x117E310
     void SetAudioSource(UnityEngine::AudioSource* audioSource);
     // public System.Void .ctor()
-    // Offset: 0x1F2D598
+    // Offset: 0x117E318
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

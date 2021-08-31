@@ -50,7 +50,7 @@ namespace TMPro {
     // Set instance field: public TMPro.CaretPosition position
     void _set_position(TMPro::CaretPosition value);
     // public System.Void .ctor(System.Int32 index, TMPro.CaretPosition position)
-    // Offset: 0xD6746C
+    // Offset: 0x111439C
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  CaretInfo(int index, TMPro::CaretPosition position)
   }; // TMPro.CaretInfo

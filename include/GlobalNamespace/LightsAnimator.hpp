@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::DirectionalLight*>* directionalLights;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::DirectionalLight*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xEB433C
+    // [InjectAttribute] Offset: 0xE3A11C
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
@@ -96,31 +96,31 @@ namespace GlobalNamespace {
     // Set instance field: private Tweening.ColorTween _tween
     void _set__tween(Tweening::ColorTween* value);
     // protected System.Void Awake()
-    // Offset: 0x1FE81A4
+    // Offset: 0x12014C4
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1FE82C8
+    // Offset: 0x12015E8
     void OnDestroy();
     // public System.Void AnimateToColor(UnityEngine.Color color, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0x1FE8360
+    // Offset: 0x1201680
     void AnimateToColor(UnityEngine::Color color, float duration, Tweening::EaseType easeType);
     // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x1FE8470
+    // Offset: 0x1201790
     void SetColor(UnityEngine::Color color);
     // private System.Void SetLightsColor(UnityEngine.Color color)
-    // Offset: 0x1FE84D4
+    // Offset: 0x12017F4
     void SetLightsColor(UnityEngine::Color color);
     // public System.Void SetLightsWidth(System.Single width)
-    // Offset: 0x1FE85DC
+    // Offset: 0x12018FC
     void SetLightsWidth(float width);
     // public System.Void DisableDirectionalLights(System.Single delay)
-    // Offset: 0x1FE8658
+    // Offset: 0x1201978
     void DisableDirectionalLights(float delay);
     // private System.Collections.IEnumerator DisableDirectionalLightsCoroutine(System.Single delay)
-    // Offset: 0x1FE8698
+    // Offset: 0x12019B8
     System::Collections::IEnumerator* DisableDirectionalLightsCoroutine(float delay);
     // public System.Void .ctor()
-    // Offset: 0x1FE8744
+    // Offset: 0x1201A64
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

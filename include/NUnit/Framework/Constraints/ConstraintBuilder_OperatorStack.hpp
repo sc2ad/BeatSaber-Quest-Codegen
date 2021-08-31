@@ -46,10 +46,10 @@ namespace NUnit::Framework::Constraints {
     // Set instance field: private readonly System.Collections.Generic.Stack`1<NUnit.Framework.Constraints.ConstraintOperator> stack
     void _set_stack(System::Collections::Generic::Stack_1<NUnit::Framework::Constraints::ConstraintOperator*>* value);
     // public System.Boolean get_Empty()
-    // Offset: 0x1419FD0
+    // Offset: 0x1765C70
     bool get_Empty();
     // public NUnit.Framework.Constraints.ConstraintOperator Pop()
-    // Offset: 0x1419F78
+    // Offset: 0x1765C18
     NUnit::Framework::Constraints::ConstraintOperator* Pop();
   }; // NUnit.Framework.Constraints.ConstraintBuilder/NUnit.Framework.Constraints.OperatorStack
   #pragma pack(pop)

@@ -221,7 +221,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Set instance field: public System.String ParentFullName
     void _set_ParentFullName(::Il2CppString* value);
     // System.Void .ctor(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x11F62A4
+    // Offset: 0x14BBEE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemoteTestData* New_ctor(NUnit::Framework::Interfaces::ITest* test) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::TestLaunchers::RemoteTestData::.ctor");

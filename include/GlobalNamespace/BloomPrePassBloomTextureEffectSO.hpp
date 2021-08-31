@@ -35,7 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomPrePassBloomTextureEffectSO : public GlobalNamespace::BloomPrePassEffectSO {
     public:
-    // [SpaceAttribute] Offset: 0xE99790
+    // [SpaceAttribute] Offset: 0xE1F530
     // private System.Single _radius
     // Size: 0x4
     // Offset: 0x2C
@@ -104,7 +104,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PyramidBloomRendererSO::Pass finalUpsamplePass;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PyramidBloomRendererSO::Pass) == 0x4);
-    // [SpaceAttribute] Offset: 0xE99868
+    // [SpaceAttribute] Offset: 0xE1F608
     // private PyramidBloomRendererSO _bloomRenderer
     // Size: 0x8
     // Offset: 0x58
@@ -162,12 +162,12 @@ namespace GlobalNamespace {
     // Set instance field: private PyramidBloomRendererSO _bloomRenderer
     void _set__bloomRenderer(GlobalNamespace::PyramidBloomRendererSO* value);
     // public override ToneMapping get_toneMapping()
-    // Offset: 0x1DC32E8
+    // Offset: 0x238F278
     // Implemented from: BloomPrePassEffectSO
     // Base method: ToneMapping BloomPrePassEffectSO::get_toneMapping()
     GlobalNamespace::ToneMapping get_toneMapping();
     // public System.Void .ctor()
-    // Offset: 0x1DC3350
+    // Offset: 0x238F2E0
     // Implemented from: BloomPrePassEffectSO
     // Base method: System.Void BloomPrePassEffectSO::.ctor()
     // Base method: System.Void TextureEffectSO::.ctor()
@@ -181,7 +181,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBloomTextureEffectSO*, creationType>()));
     }
     // public override System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x1DC32F8
+    // Offset: 0x238F288
     // Implemented from: TextureEffectSO
     // Base method: System.Void TextureEffectSO::Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
     void Render(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest);

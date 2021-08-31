@@ -70,7 +70,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly System.String Name
     void _set_Name(::Il2CppString* value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x2106590
+    // Offset: 0x14F28EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Team* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::Team::.ctor");

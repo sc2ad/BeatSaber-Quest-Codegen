@@ -73,7 +73,7 @@ namespace UnityEngine {
     // Set instance field: public System.Boolean apply
     void _set_apply(bool value);
     // public System.Void .ctor()
-    // Offset: 0x17260D8
+    // Offset: 0x1B35AF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -54,10 +54,10 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Material[] _materials
     void _set__materials(::Array<UnityEngine::Material*>* value);
     // protected System.Void Awake()
-    // Offset: 0x1ED291C
+    // Offset: 0x108D22C
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x1ED29C4
+    // Offset: 0x108D2D4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

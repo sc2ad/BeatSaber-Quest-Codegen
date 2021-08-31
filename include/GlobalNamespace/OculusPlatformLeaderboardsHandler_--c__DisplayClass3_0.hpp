@@ -56,10 +56,10 @@ namespace GlobalNamespace {
     // Set instance field: public Oculus.Platform.Request oculusRequest
     void _set_oculusRequest(Oculus::Platform::Request* value);
     // System.Void <AddOculusRequest>b__0(HMAsyncRequest request)
-    // Offset: 0x1E45028
+    // Offset: 0x10225C0
     void $AddOculusRequest$b__0(GlobalNamespace::HMAsyncRequest* request);
     // public System.Void .ctor()
-    // Offset: 0x1E44C54
+    // Offset: 0x10221EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

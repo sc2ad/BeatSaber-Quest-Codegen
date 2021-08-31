@@ -44,13 +44,13 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Type,Zenject.TypeValuePair> <>9__0_0
     static void _set_$$9__0_0(System::Func_2<System::Type*, Zenject::TypeValuePair>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1E0A32C
+    // Offset: 0x23E6EA0
     static void _cctor();
     // Zenject.TypeValuePair <CreateDefaultArgs>b__0_0(System.Type x)
-    // Offset: 0x1E0A398
+    // Offset: 0x23E6F0C
     Zenject::TypeValuePair $CreateDefaultArgs$b__0_0(System::Type* x);
     // public System.Void .ctor()
-    // Offset: 0x1E0A390
+    // Offset: 0x23E6F04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

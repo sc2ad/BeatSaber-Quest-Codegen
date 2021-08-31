@@ -60,10 +60,10 @@ namespace Zenject {
     // Set instance field: public Zenject.SubContainerBindingFinalizer/Zenject.<>c__DisplayClass6_0 CS$<>8__locals1
     void _set_CS$$$8__locals1(Zenject::SubContainerBindingFinalizer::$$c__DisplayClass6_0* value);
     // Zenject.IProvider <FinalizeBindingSelf>b__1(Zenject.DiContainer _, System.Type contractType)
-    // Offset: 0x13D44A8
+    // Offset: 0x1720190
     Zenject::IProvider* $FinalizeBindingSelf$b__1(Zenject::DiContainer* _, System::Type* contractType);
     // public System.Void .ctor()
-    // Offset: 0x13D4234
+    // Offset: 0x171FF1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

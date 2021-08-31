@@ -91,26 +91,26 @@ namespace HMUI {
     // Set instance field: public HMUI.HoverHintController <>4__this
     void _set_$$4__this(HMUI::HoverHintController* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x10D2D84
+    // Offset: 0x1373CAC
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x10D2DEC
+    // Offset: 0x1373D14
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x10D26F4
+    // Offset: 0x137361C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HoverHintController::$ShowHintAfterDelay$d__10* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::HoverHintController::$ShowHintAfterDelay$d__10::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HoverHintController::$ShowHintAfterDelay$d__10*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x10D2C8C
+    // Offset: 0x1373BB4
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x10D2C90
+    // Offset: 0x1373BB8
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x10D2D8C
+    // Offset: 0x1373CB4
     void System_Collections_IEnumerator_Reset();
   }; // HMUI.HoverHintController/HMUI.<ShowHintAfterDelay>d__10
   #pragma pack(pop)

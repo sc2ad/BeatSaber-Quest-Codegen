@@ -50,10 +50,10 @@ namespace GlobalNamespace {
     // Set instance field: public Oculus.Platform.Models.AchievementProgress achievement
     void _set_achievement(Oculus::Platform::Models::AchievementProgress* value);
     // System.Boolean <GetUnlockedAchievements>b__1(AchievementSO x)
-    // Offset: 0x202463C
+    // Offset: 0x123E564
     bool $GetUnlockedAchievements$b__1(GlobalNamespace::AchievementSO* x);
     // public System.Void .ctor()
-    // Offset: 0x2024634
+    // Offset: 0x123E55C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

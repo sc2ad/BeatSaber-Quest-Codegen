@@ -45,10 +45,10 @@ namespace GlobalNamespace {
     // Set instance field: public UnityEngine.Vector3 offset
     void _set_offset(UnityEngine::Vector3 value);
     // public System.Void SnapPosition()
-    // Offset: 0x1DE286C
+    // Offset: 0x2398B94
     void SnapPosition();
     // public System.Void .ctor()
-    // Offset: 0x1DE2B4C
+    // Offset: 0x2398E74
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

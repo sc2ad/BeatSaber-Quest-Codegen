@@ -17,10 +17,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SR
     SR() noexcept {}
     // static System.String Format(System.String resourceFormat, System.Object p1)
-    // Offset: 0x170BE2C
+    // Offset: 0x1AA70F0
     static ::Il2CppString* Format(::Il2CppString* resourceFormat, ::Il2CppObject* p1);
     // static System.String Format(System.String resourceFormat, System.Object p1, System.Object p2)
-    // Offset: 0x170BEAC
+    // Offset: 0x1AA7170
     static ::Il2CppString* Format(::Il2CppString* resourceFormat, ::Il2CppObject* p1, ::Il2CppObject* p2);
   }; // SR
   #pragma pack(pop)

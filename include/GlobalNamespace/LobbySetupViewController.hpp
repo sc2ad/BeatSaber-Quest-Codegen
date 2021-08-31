@@ -98,7 +98,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GameServersFilterText* serverSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameServersFilterText*) == 0x8);
-    // [SpaceAttribute] Offset: 0xEBCCBC
+    // [SpaceAttribute] Offset: 0xE42A9C
     // private UnityEngine.GameObject _suggestionHeader
     // Size: 0x8
     // Offset: 0x98
@@ -197,35 +197,35 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: LobbySetupViewController
     LobbySetupViewController(UnityEngine::UI::Button* startGameReadyButton_ = {}, UnityEngine::UI::Button* cancelGameUnreadyButton_ = {}, Polyglot::LocalizedTextMeshProUGUI* startReadyText_ = {}, Polyglot::LocalizedTextMeshProUGUI* cancelUnreadyText_ = {}, GlobalNamespace::GameServersFilterText* serverSettings_ = {}, UnityEngine::GameObject* suggestionHeader_ = {}, GlobalNamespace::EditableBeatmapSelectionView* beatmapSelectionView_ = {}, GlobalNamespace::EditableModifiersSelectionView* modifiersSelectionView_ = {}, HMUI::HoverHint* cantStartGameHoverHint_ = {}, UnityEngine::GameObject* playerMissingLevelHoverHintWrapper_ = {}, HMUI::HoverHint* playersMissingLevelHoverHint_ = {}, UnityEngine::GameObject* spectatorWarningTextWrapper_ = {}, HMUI::ToggleBinder* toggleBinder_ = {}, System::Action* selectBeatmapEvent_ = {}, System::Action* selectModifiersEvent_ = {}, System::Action* startGameOrReadyEvent_ = {}, System::Action* cancelGameOrUnreadyEvent_ = {}, System::Action* clearSuggestedBeatmapEvent_ = {}, System::Action* clearSuggestedModifiersEvent_ = {}, bool isPartyOwner_ = {}, bool isQuickStart_ = {}) noexcept : startGameReadyButton{startGameReadyButton_}, cancelGameUnreadyButton{cancelGameUnreadyButton_}, startReadyText{startReadyText_}, cancelUnreadyText{cancelUnreadyText_}, serverSettings{serverSettings_}, suggestionHeader{suggestionHeader_}, beatmapSelectionView{beatmapSelectionView_}, modifiersSelectionView{modifiersSelectionView_}, cantStartGameHoverHint{cantStartGameHoverHint_}, playerMissingLevelHoverHintWrapper{playerMissingLevelHoverHintWrapper_}, playersMissingLevelHoverHint{playersMissingLevelHoverHint_}, spectatorWarningTextWrapper{spectatorWarningTextWrapper_}, toggleBinder{toggleBinder_}, selectBeatmapEvent{selectBeatmapEvent_}, selectModifiersEvent{selectModifiersEvent_}, startGameOrReadyEvent{startGameOrReadyEvent_}, cancelGameOrUnreadyEvent{cancelGameOrUnreadyEvent_}, clearSuggestedBeatmapEvent{clearSuggestedBeatmapEvent_}, clearSuggestedModifiersEvent{clearSuggestedModifiersEvent_}, isPartyOwner{isPartyOwner_}, isQuickStart{isQuickStart_} {}
-    // [LocalizationKeyAttribute] Offset: 0xEBCC1C
+    // [LocalizationKeyAttribute] Offset: 0xE429FC
     // static field const value: static private System.String kStartTextKey
     static constexpr const char* kStartTextKey = "LOBBY_START_GAME";
     // Get static field: static private System.String kStartTextKey
     static ::Il2CppString* _get_kStartTextKey();
     // Set static field: static private System.String kStartTextKey
     static void _set_kStartTextKey(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xEBCC2C
+    // [LocalizationKeyAttribute] Offset: 0xE42A0C
     // static field const value: static private System.String kCancelTextKey
     static constexpr const char* kCancelTextKey = "BUTTON_CANCEL";
     // Get static field: static private System.String kCancelTextKey
     static ::Il2CppString* _get_kCancelTextKey();
     // Set static field: static private System.String kCancelTextKey
     static void _set_kCancelTextKey(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xEBCC3C
+    // [LocalizationKeyAttribute] Offset: 0xE42A1C
     // static field const value: static private System.String kReadyTextKey
     static constexpr const char* kReadyTextKey = "LOBBY_READY";
     // Get static field: static private System.String kReadyTextKey
     static ::Il2CppString* _get_kReadyTextKey();
     // Set static field: static private System.String kReadyTextKey
     static void _set_kReadyTextKey(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xEBCC4C
+    // [LocalizationKeyAttribute] Offset: 0xE42A2C
     // static field const value: static private System.String kUnreadyTextKey
     static constexpr const char* kUnreadyTextKey = "BUTTON_UNREADY";
     // Get static field: static private System.String kUnreadyTextKey
     static ::Il2CppString* _get_kUnreadyTextKey();
     // Set static field: static private System.String kUnreadyTextKey
     static void _set_kUnreadyTextKey(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xEBCC5C
+    // [LocalizationKeyAttribute] Offset: 0xE42A3C
     // static field const value: static private System.String kRetryTextKey
     static constexpr const char* kRetryTextKey = "BUTTON_RETRY";
     // Get static field: static private System.String kRetryTextKey
@@ -317,79 +317,79 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _isQuickStart
     void _set__isQuickStart(bool value);
     // public System.Void add_selectBeatmapEvent(System.Action value)
-    // Offset: 0x1FF3654
+    // Offset: 0x120CAD8
     void add_selectBeatmapEvent(System::Action* value);
     // public System.Void remove_selectBeatmapEvent(System.Action value)
-    // Offset: 0x1FF36F8
+    // Offset: 0x120CB7C
     void remove_selectBeatmapEvent(System::Action* value);
     // public System.Void add_selectModifiersEvent(System.Action value)
-    // Offset: 0x1FF379C
+    // Offset: 0x120CC20
     void add_selectModifiersEvent(System::Action* value);
     // public System.Void remove_selectModifiersEvent(System.Action value)
-    // Offset: 0x1FF3840
+    // Offset: 0x120CCC4
     void remove_selectModifiersEvent(System::Action* value);
     // public System.Void add_startGameOrReadyEvent(System.Action value)
-    // Offset: 0x1FF38E4
+    // Offset: 0x120CD68
     void add_startGameOrReadyEvent(System::Action* value);
     // public System.Void remove_startGameOrReadyEvent(System.Action value)
-    // Offset: 0x1FF3988
+    // Offset: 0x120CE0C
     void remove_startGameOrReadyEvent(System::Action* value);
     // public System.Void add_cancelGameOrUnreadyEvent(System.Action value)
-    // Offset: 0x1FF3A2C
+    // Offset: 0x120CEB0
     void add_cancelGameOrUnreadyEvent(System::Action* value);
     // public System.Void remove_cancelGameOrUnreadyEvent(System.Action value)
-    // Offset: 0x1FF3AD0
+    // Offset: 0x120CF54
     void remove_cancelGameOrUnreadyEvent(System::Action* value);
     // public System.Void add_clearSuggestedBeatmapEvent(System.Action value)
-    // Offset: 0x1FF3B74
+    // Offset: 0x120CFF8
     void add_clearSuggestedBeatmapEvent(System::Action* value);
     // public System.Void remove_clearSuggestedBeatmapEvent(System.Action value)
-    // Offset: 0x1FF3C18
+    // Offset: 0x120D09C
     void remove_clearSuggestedBeatmapEvent(System::Action* value);
     // public System.Void add_clearSuggestedModifiersEvent(System.Action value)
-    // Offset: 0x1FF3CBC
+    // Offset: 0x120D140
     void add_clearSuggestedModifiersEvent(System::Action* value);
     // public System.Void remove_clearSuggestedModifiersEvent(System.Action value)
-    // Offset: 0x1FF3D64
+    // Offset: 0x120D1E8
     void remove_clearSuggestedModifiersEvent(System::Action* value);
     // public System.Void Setup(BeatmapLevelSelectionMask selectionMask, System.Boolean isPartyOwner, System.Boolean allowSongSelection, System.Boolean allowModifierSelection, System.Boolean isManaged, System.Boolean isQuickStart)
-    // Offset: 0x1FF3E0C
+    // Offset: 0x120D290
     void Setup(GlobalNamespace::BeatmapLevelSelectionMask selectionMask, bool isPartyOwner, bool allowSongSelection, bool allowModifierSelection, bool isManaged, bool isQuickStart);
     // public System.Void SetLobbyPlayerData(ILobbyPlayerData lobbyPlayerData)
-    // Offset: 0x1FF3FE8
+    // Offset: 0x120D46C
     void SetLobbyPlayerData(GlobalNamespace::ILobbyPlayerData* lobbyPlayerData);
     // public System.Void SetPlayersMissingLevelText(System.String playersMissingLevelText)
-    // Offset: 0x1FF44E0
+    // Offset: 0x120D964
     void SetPlayersMissingLevelText(::Il2CppString* playersMissingLevelText);
     // public System.Void SetPlayerActiveState(System.Boolean isActive)
-    // Offset: 0x1FF44BC
+    // Offset: 0x120D940
     void SetPlayerActiveState(bool isActive);
     // public System.Void SetStartGameEnabled(CannotStartGameReason cannotStartGameReason)
-    // Offset: 0x1FF4544
+    // Offset: 0x120D9C8
     void SetStartGameEnabled(GlobalNamespace::CannotStartGameReason cannotStartGameReason);
     // public System.Void SetLobbyState(MultiplayerLobbyState lobbyState)
-    // Offset: 0x1FF45B0
+    // Offset: 0x120DA34
     void SetLobbyState(GlobalNamespace::MultiplayerLobbyState lobbyState);
     // private System.Void <DidActivate>b__44_0()
-    // Offset: 0x1FF4974
+    // Offset: 0x120DDF8
     void $DidActivate$b__44_0();
     // private System.Void <DidActivate>b__44_1()
-    // Offset: 0x1FF4988
+    // Offset: 0x120DE0C
     void $DidActivate$b__44_1();
     // private System.Void <DidActivate>b__44_2()
-    // Offset: 0x1FF499C
+    // Offset: 0x120DE20
     void $DidActivate$b__44_2();
     // private System.Void <DidActivate>b__44_3()
-    // Offset: 0x1FF49B0
+    // Offset: 0x120DE34
     void $DidActivate$b__44_3();
     // private System.Void <DidActivate>b__44_4()
-    // Offset: 0x1FF49C4
+    // Offset: 0x120DE48
     void $DidActivate$b__44_4();
     // private System.Void <DidActivate>b__44_5()
-    // Offset: 0x1FF49D8
+    // Offset: 0x120DE5C
     void $DidActivate$b__44_5();
     // public System.Void .ctor()
-    // Offset: 0x1FF490C
+    // Offset: 0x120DD90
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -403,12 +403,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LobbySetupViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1FF46A4
+    // Offset: 0x120DB28
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x1FF48F0
+    // Offset: 0x120DD74
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();

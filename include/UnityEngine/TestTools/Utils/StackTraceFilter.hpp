@@ -32,10 +32,10 @@ namespace UnityEngine::TestTools::Utils {
     // Set static field: static private readonly System.String[] s_LastMessages
     static void _set_s_LastMessages(::Array<::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1E2F13C
+    // Offset: 0x24033C4
     static void _cctor();
     // static public System.String Filter(System.String inputStackTrace)
-    // Offset: 0x1E2E170
+    // Offset: 0x2402344
     static ::Il2CppString* Filter(::Il2CppString* inputStackTrace);
   }; // UnityEngine.TestTools.Utils.StackTraceFilter
   #pragma pack(pop)

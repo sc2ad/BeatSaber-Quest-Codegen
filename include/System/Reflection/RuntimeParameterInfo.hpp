@@ -23,7 +23,7 @@ namespace System::Reflection {
     // Creating value type constructor for type: RuntimeParameterInfo
     RuntimeParameterInfo() noexcept {}
     // protected System.Void .ctor()
-    // Offset: 0x118F624
+    // Offset: 0x147D754
     // Implemented from: System.Reflection.ParameterInfo
     // Base method: System.Void ParameterInfo::.ctor()
     // Base method: System.Void Object::.ctor()

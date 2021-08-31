@@ -58,7 +58,7 @@ namespace Zenject {
     // Set instance field: public System.Object Value
     void _set_Value(::Il2CppObject* value);
     // public System.Void .ctor(System.Type type, System.Object value)
-    // Offset: 0xD932C4
+    // Offset: 0x23E6D08
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  TypeValuePair(System::Type* type, ::Il2CppObject* value)
   }; // Zenject.TypeValuePair

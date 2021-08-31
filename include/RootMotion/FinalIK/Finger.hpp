@@ -80,30 +80,30 @@ namespace RootMotion::FinalIK {
     #pragma pack(pop)
     static check_size<sizeof(Finger::DOF), 0 + sizeof(int)> __RootMotion_FinalIK_Finger_DOFSizeCheck;
     static_assert(sizeof(Finger::DOF) == 0x4);
-    // [TooltipAttribute] Offset: 0xE9F4C4
-    // [RangeAttribute] Offset: 0xE9F4C4
+    // [TooltipAttribute] Offset: 0xE25274
+    // [RangeAttribute] Offset: 0xE25274
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x10
     float weight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE9F518
-    // [RangeAttribute] Offset: 0xE9F518
+    // [TooltipAttribute] Offset: 0xE252C8
+    // [RangeAttribute] Offset: 0xE252C8
     // public System.Single rotationWeight
     // Size: 0x4
     // Offset: 0x14
     float rotationWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE9F56C
+    // [TooltipAttribute] Offset: 0xE2531C
     // public RootMotion.FinalIK.Finger/RootMotion.FinalIK.DOF rotationDOF
     // Size: 0x4
     // Offset: 0x18
     RootMotion::FinalIK::Finger::DOF rotationDOF;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::Finger::DOF) == 0x4);
-    // [TooltipAttribute] Offset: 0xE9F5A4
+    // [TooltipAttribute] Offset: 0xE25354
     // public System.Boolean fixBone1Twist
     // Size: 0x1
     // Offset: 0x1C
@@ -112,35 +112,35 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: fixBone1Twist and: bone1
     char __padding3[0x3] = {};
-    // [TooltipAttribute] Offset: 0xE9F5DC
+    // [TooltipAttribute] Offset: 0xE2538C
     // public UnityEngine.Transform bone1
     // Size: 0x8
     // Offset: 0x20
     UnityEngine::Transform* bone1;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE9F614
+    // [TooltipAttribute] Offset: 0xE253C4
     // public UnityEngine.Transform bone2
     // Size: 0x8
     // Offset: 0x28
     UnityEngine::Transform* bone2;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE9F64C
+    // [TooltipAttribute] Offset: 0xE253FC
     // public UnityEngine.Transform bone3
     // Size: 0x8
     // Offset: 0x30
     UnityEngine::Transform* bone3;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE9F684
+    // [TooltipAttribute] Offset: 0xE25434
     // public UnityEngine.Transform tip
     // Size: 0x8
     // Offset: 0x38
     UnityEngine::Transform* tip;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE9F6BC
+    // [TooltipAttribute] Offset: 0xE2546C
     // public UnityEngine.Transform target
     // Size: 0x8
     // Offset: 0x40
@@ -268,40 +268,40 @@ namespace RootMotion::FinalIK {
     // Set instance field: private UnityEngine.Vector3 bone1TwistAxis
     void _set_bone1TwistAxis(UnityEngine::Vector3 value);
     // public System.Boolean get_initiated()
-    // Offset: 0x188520C
+    // Offset: 0x1D39F30
     bool get_initiated();
     // private System.Void set_initiated(System.Boolean value)
-    // Offset: 0x1885214
+    // Offset: 0x1D39F38
     void set_initiated(bool value);
     // public UnityEngine.Vector3 get_IKPosition()
-    // Offset: 0x1885220
+    // Offset: 0x1D39F44
     UnityEngine::Vector3 get_IKPosition();
     // public System.Void set_IKPosition(UnityEngine.Vector3 value)
-    // Offset: 0x1885240
+    // Offset: 0x1D39F64
     void set_IKPosition(UnityEngine::Vector3 value);
     // public UnityEngine.Quaternion get_IKRotation()
-    // Offset: 0x1885260
+    // Offset: 0x1D39F84
     UnityEngine::Quaternion get_IKRotation();
     // public System.Void set_IKRotation(UnityEngine.Quaternion value)
-    // Offset: 0x1885280
+    // Offset: 0x1D39FA4
     void set_IKRotation(UnityEngine::Quaternion value);
     // public System.Boolean IsValid(ref System.String errorMessage)
-    // Offset: 0x18852A0
+    // Offset: 0x1D39FC4
     bool IsValid(ByRef<::Il2CppString*> errorMessage);
     // public System.Void Initiate(UnityEngine.Transform hand, System.Int32 index)
-    // Offset: 0x18853A0
+    // Offset: 0x1D3A0C4
     void Initiate(UnityEngine::Transform* hand, int index);
     // public System.Void FixTransforms()
-    // Offset: 0x1885934
+    // Offset: 0x1D3A658
     void FixTransforms();
     // public System.Void StoreDefaultLocalState()
-    // Offset: 0x1885A10
+    // Offset: 0x1D3A734
     void StoreDefaultLocalState();
     // public System.Void Update(System.Single masterWeight)
-    // Offset: 0x1885AD8
+    // Offset: 0x1D3A7FC
     void Update(float masterWeight);
     // public System.Void .ctor()
-    // Offset: 0x188621C
+    // Offset: 0x1D3AF40
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

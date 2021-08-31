@@ -105,28 +105,28 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
     // Set instance field: private System.Int32 m_Value
     void _set_m_Value(int value);
     // public System.String get_Graph()
-    // Offset: 0xD80058
+    // Offset: 0x19E6E6C
     ::Il2CppString* get_Graph();
     // public System.Int32 get_ObjectId()
-    // Offset: 0xD80060
+    // Offset: 0x19E6E74
     int get_ObjectId();
     // public System.String get_DisplayName()
-    // Offset: 0xD80068
+    // Offset: 0x19E6E7C
     ::Il2CppString* get_DisplayName();
     // public System.Int32[] get_Dependencies()
-    // Offset: 0xD80070
+    // Offset: 0x19E6E84
     ::Array<int>* get_Dependencies();
     // public System.Int32 get_Stream()
-    // Offset: 0xD80078
+    // Offset: 0x19E6E8C
     int get_Stream();
     // public System.Int32 get_Frame()
-    // Offset: 0xD80080
+    // Offset: 0x19E6E94
     int get_Frame();
     // public System.Int32 get_Value()
-    // Offset: 0xD80088
+    // Offset: 0x19E6E9C
     int get_Value();
     // public System.Void .ctor(System.String graph, System.String name, System.Int32 id, System.Int32 stream, System.Int32 frame, System.Int32 value, System.Int32[] deps)
-    // Offset: 0xD80090
+    // Offset: 0x19E6EA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     DiagnosticEvent(::Il2CppString* graph, ::Il2CppString* name, int id, int stream, int frame, int value, ::Array<int>* deps) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::.ctor");
@@ -134,10 +134,10 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, graph, name, id, stream, frame, value, deps);
     }
     // System.Byte[] Serialize()
-    // Offset: 0xD800A8
+    // Offset: 0x19E6EBC
     ::Array<uint8_t>* Serialize();
     // static public UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent Deserialize(System.Byte[] data)
-    // Offset: 0x1667E44
+    // Offset: 0x19E6F5C
     static UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent Deserialize(::Array<uint8_t>* data);
   }; // UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent
   #pragma pack(pop)

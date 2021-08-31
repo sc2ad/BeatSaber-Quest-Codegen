@@ -78,10 +78,10 @@ namespace HMUI {
     // Set instance field: public HMUI.ViewController newTopViewController
     void _set_newTopViewController(HMUI::ViewController* value);
     // System.Void <DismissViewController>b__0()
-    // Offset: 0x10CD34C
+    // Offset: 0x136E274
     void $DismissViewController$b__0();
     // public System.Void .ctor()
-    // Offset: 0x10CC580
+    // Offset: 0x136D4A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

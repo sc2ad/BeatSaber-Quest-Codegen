@@ -74,10 +74,10 @@ namespace GlobalNamespace {
     // Set instance field: public UnityEngine.Vector4 rightScaleBias
     void _set_rightScaleBias(UnityEngine::Vector4 value);
     // static private System.Void .cctor()
-    // Offset: 0x12FA9F4
+    // Offset: 0x1632C84
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0xD7536C
+    // Offset: 0x1632A9C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

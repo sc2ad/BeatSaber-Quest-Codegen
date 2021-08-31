@@ -144,72 +144,72 @@ namespace System::Net {
     // Set instance field: private System.Nullable`1<System.Boolean> user_read_synch
     void _set_user_read_synch(System::Nullable_1<bool> value);
     // public System.Object get_AsyncState()
-    // Offset: 0x11DE014
+    // Offset: 0x14A3C5C
     ::Il2CppObject* get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x11DDEBC
+    // Offset: 0x14A3B04
     System::Threading::WaitHandle* get_AsyncWaitHandle();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x11DE01C
+    // Offset: 0x14A3C64
     bool get_CompletedSynchronously();
     // System.Boolean get_CompletedSynchronouslyPeek()
-    // Offset: 0x11DE0CC
+    // Offset: 0x14A3D14
     bool get_CompletedSynchronouslyPeek();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x11DDE28
+    // Offset: 0x14A3A70
     bool get_IsCompleted();
     // System.Boolean get_GotException()
-    // Offset: 0x11DE0D4
+    // Offset: 0x14A3D1C
     bool get_GotException();
     // System.Exception get_Exception()
-    // Offset: 0x11DE0E4
+    // Offset: 0x14A3D2C
     System::Exception* get_Exception();
     // private System.Void .ctor(System.Net.SimpleAsyncCallback cb)
-    // Offset: 0x11DD81C
+    // Offset: 0x14A3464
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleAsyncResult* New_ctor(System::Net::SimpleAsyncCallback* cb) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::SimpleAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleAsyncResult*, creationType>(cb)));
     }
     // protected System.Void .ctor(System.AsyncCallback cb, System.Object state)
-    // Offset: 0x11DD898
+    // Offset: 0x14A34E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleAsyncResult* New_ctor(System::AsyncCallback* cb, ::Il2CppObject* state) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::SimpleAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleAsyncResult*, creationType>(cb, state)));
     }
     // static public System.Void Run(System.Func`2<System.Net.SimpleAsyncResult,System.Boolean> func, System.Net.SimpleAsyncCallback callback)
-    // Offset: 0x11DD978
+    // Offset: 0x14A35C0
     static void Run(System::Func_2<System::Net::SimpleAsyncResult*, bool>* func, System::Net::SimpleAsyncCallback* callback);
     // static public System.Void RunWithLock(System.Object locker, System.Func`2<System.Net.SimpleAsyncResult,System.Boolean> func, System.Net.SimpleAsyncCallback callback)
-    // Offset: 0x11DDB4C
+    // Offset: 0x14A3794
     static void RunWithLock(::Il2CppObject* locker, System::Func_2<System::Net::SimpleAsyncResult*, bool>* func, System::Net::SimpleAsyncCallback* callback);
     // protected System.Void Reset_internal()
-    // Offset: 0x11DDC34
+    // Offset: 0x14A387C
     void Reset_internal();
     // System.Void SetCompleted(System.Boolean synch, System.Exception e)
-    // Offset: 0x11DDB00
+    // Offset: 0x14A3748
     void SetCompleted(bool synch, System::Exception* e);
     // System.Void SetCompleted(System.Boolean synch)
-    // Offset: 0x11DDAB0
+    // Offset: 0x14A36F8
     void SetCompleted(bool synch);
     // private System.Void SetCompleted_internal(System.Boolean synch, System.Exception e)
-    // Offset: 0x11DDCDC
+    // Offset: 0x14A3924
     void SetCompleted_internal(bool synch, System::Exception* e);
     // protected System.Void SetCompleted_internal(System.Boolean synch)
-    // Offset: 0x11DDDB0
+    // Offset: 0x14A39F8
     void SetCompleted_internal(bool synch);
     // private System.Void DoCallback_private()
-    // Offset: 0x11DDD8C
+    // Offset: 0x14A39D4
     void DoCallback_private();
     // protected System.Void DoCallback_internal()
-    // Offset: 0x11DDDBC
+    // Offset: 0x14A3A04
     void DoCallback_internal();
     // System.Void WaitUntilComplete()
-    // Offset: 0x11DDDE0
+    // Offset: 0x14A3A28
     void WaitUntilComplete();
     // System.Boolean WaitUntilComplete(System.Int32 timeout, System.Boolean exitContext)
-    // Offset: 0x11DDFAC
+    // Offset: 0x14A3BF4
     bool WaitUntilComplete(int timeout, bool exitContext);
   }; // System.Net.SimpleAsyncResult
   // WARNING Not writing size check since size may be invalid!

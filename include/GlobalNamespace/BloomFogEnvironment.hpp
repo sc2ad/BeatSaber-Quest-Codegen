@@ -36,8 +36,8 @@ namespace GlobalNamespace {
     GlobalNamespace::BloomFogSO* bloomFog;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomFogSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE8E1EC
-    // [FormerlySerializedAsAttribute] Offset: 0xE8E1EC
+    // [SpaceAttribute] Offset: 0xE13F8C
+    // [FormerlySerializedAsAttribute] Offset: 0xE13F8C
     // private BloomFogEnvironmentParams _fogParams
     // Size: 0x8
     // Offset: 0x20
@@ -57,13 +57,13 @@ namespace GlobalNamespace {
     // Set instance field: private BloomFogEnvironmentParams _fogParams
     void _set__fogParams(GlobalNamespace::BloomFogEnvironmentParams* value);
     // protected System.Void OnEnable()
-    // Offset: 0x195D1D8
+    // Offset: 0x1E10D5C
     void OnEnable();
     // protected System.Void OnValidate()
-    // Offset: 0x195D244
+    // Offset: 0x1E10DC8
     void OnValidate();
     // public System.Void .ctor()
-    // Offset: 0x195D58C
+    // Offset: 0x1E11110
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

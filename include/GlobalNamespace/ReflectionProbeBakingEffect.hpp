@@ -46,10 +46,10 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Material _material
     void _set__material(UnityEngine::Material* value);
     // protected System.Void OnRenderImage(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x196BB00
+    // Offset: 0x1E1F684
     void OnRenderImage(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest);
     // public System.Void .ctor()
-    // Offset: 0x196BB84
+    // Offset: 0x1E1F708
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

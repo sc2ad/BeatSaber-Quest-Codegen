@@ -35,7 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRControllersInputManager : public ::Il2CppObject {
     public:
-    // [InjectAttribute] Offset: 0xE7D044
+    // [InjectAttribute] Offset: 0xE03948
     // private IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x10
@@ -119,22 +119,22 @@ namespace GlobalNamespace {
     // Set instance field: private IVRPlatformHelper _vrPlatformHelper
     void _set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper* value);
     // public System.Single TriggerValue(UnityEngine.XR.XRNode node)
-    // Offset: 0x1DE57E8
+    // Offset: 0x239BC5C
     float TriggerValue(UnityEngine::XR::XRNode node);
     // public System.Single VerticalAxisValue(UnityEngine.XR.XRNode node)
-    // Offset: 0x1DE5988
+    // Offset: 0x239BDFC
     float VerticalAxisValue(UnityEngine::XR::XRNode node);
     // public System.Single HorizontalAxisValue(UnityEngine.XR.XRNode node)
-    // Offset: 0x1DE5A20
+    // Offset: 0x239BE94
     float HorizontalAxisValue(UnityEngine::XR::XRNode node);
     // public System.Boolean MenuButtonDown()
-    // Offset: 0x1DE5EEC
+    // Offset: 0x239C360
     bool MenuButtonDown();
     // public System.Boolean MenuButton()
-    // Offset: 0x1DE617C
+    // Offset: 0x239C5F0
     bool MenuButton();
     // public System.Void .ctor()
-    // Offset: 0x1DE640C
+    // Offset: 0x239C880
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

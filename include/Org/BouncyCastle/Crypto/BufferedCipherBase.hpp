@@ -38,7 +38,7 @@ namespace Org::BouncyCastle::Crypto {
     // Set static field: static protected readonly System.Byte[] EmptyBuffer
     static void _set_EmptyBuffer(::Array<uint8_t>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1887428
+    // Offset: 0x1D5839C
     static void _cctor();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     // Offset: 0xFFFFFFFF
@@ -56,25 +56,25 @@ namespace Org::BouncyCastle::Crypto {
     // Offset: 0xFFFFFFFF
     ::Array<uint8_t>* ProcessBytes(::Array<uint8_t>* input, int inOff, int length);
     // public System.Int32 ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 length, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x188722C
+    // Offset: 0x1D581A0
     int ProcessBytes(::Array<uint8_t>* input, int inOff, int length, ::Array<uint8_t>* output, int outOff);
     // public System.Byte[] DoFinal()
     // Offset: 0xFFFFFFFF
     ::Array<uint8_t>* DoFinal();
     // public System.Byte[] DoFinal(System.Byte[] input)
-    // Offset: 0x188732C
+    // Offset: 0x1D582A0
     ::Array<uint8_t>* DoFinal(::Array<uint8_t>* input);
     // public System.Byte[] DoFinal(System.Byte[] input, System.Int32 inOff, System.Int32 length)
     // Offset: 0xFFFFFFFF
     ::Array<uint8_t>* DoFinal(::Array<uint8_t>* input, int inOff, int length);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1887354
+    // Offset: 0x1D582C8
     int DoFinal(::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
     // Offset: 0xFFFFFFFF
     void Reset();
     // protected System.Void .ctor()
-    // Offset: 0x188748C
+    // Offset: 0x1D58400
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

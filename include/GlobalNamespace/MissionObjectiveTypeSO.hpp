@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionObjectiveTypeSO : public GlobalNamespace::PersistentScriptableObject {
     public:
-    // [LocalizationKeyAttribute] Offset: 0xEAE690
+    // [LocalizationKeyAttribute] Offset: 0xE34450
     // private System.String _objectiveName
     // Size: 0x8
     // Offset: 0x18
@@ -65,19 +65,19 @@ namespace GlobalNamespace {
     // Set instance field: private ObjectiveValueFormatterSO _objectiveValueFormater
     void _set__objectiveValueFormater(GlobalNamespace::ObjectiveValueFormatterSO* value);
     // public System.String get_objectiveName()
-    // Offset: 0x1F68A80
+    // Offset: 0x11D8700
     ::Il2CppString* get_objectiveName();
     // public System.String get_objectiveNameLocalized()
-    // Offset: 0x1F622BC
+    // Offset: 0x11D1F3C
     ::Il2CppString* get_objectiveNameLocalized();
     // public System.Boolean get_noConditionValue()
-    // Offset: 0x1F68A88
+    // Offset: 0x11D8708
     bool get_noConditionValue();
     // public ObjectiveValueFormatterSO get_objectiveValueFormater()
-    // Offset: 0x1F68A90
+    // Offset: 0x11D8710
     GlobalNamespace::ObjectiveValueFormatterSO* get_objectiveValueFormater();
     // public System.Void .ctor()
-    // Offset: 0x1F68A98
+    // Offset: 0x11D8718
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

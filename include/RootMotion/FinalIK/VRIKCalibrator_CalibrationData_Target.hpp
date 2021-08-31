@@ -66,14 +66,14 @@ namespace RootMotion::FinalIK {
     // Set instance field: public UnityEngine.Quaternion localRotation
     void _set_localRotation(UnityEngine::Quaternion value);
     // public System.Void .ctor(UnityEngine.Transform t)
-    // Offset: 0x1739FD4
+    // Offset: 0x1AE48F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRIKCalibrator::CalibrationData::Target* New_ctor(UnityEngine::Transform* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRIKCalibrator::CalibrationData::Target*, creationType>(t)));
     }
     // public System.Void SetTo(UnityEngine.Transform t)
-    // Offset: 0x173AB28
+    // Offset: 0x1AE5444
     void SetTo(UnityEngine::Transform* t);
   }; // RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target
   #pragma pack(pop)

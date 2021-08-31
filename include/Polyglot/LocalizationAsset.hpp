@@ -50,19 +50,19 @@ namespace Polyglot {
     // Set instance field: private Polyglot.GoogleDriveDownloadFormat format
     void _set_format(Polyglot::GoogleDriveDownloadFormat value);
     // public UnityEngine.TextAsset get_TextAsset()
-    // Offset: 0x1DB4BA4
+    // Offset: 0x2381B34
     UnityEngine::TextAsset* get_TextAsset();
     // public System.Void set_TextAsset(UnityEngine.TextAsset value)
-    // Offset: 0x1DB4BAC
+    // Offset: 0x2381B3C
     void set_TextAsset(UnityEngine::TextAsset* value);
     // public Polyglot.GoogleDriveDownloadFormat get_Format()
-    // Offset: 0x1DB4BB4
+    // Offset: 0x2381B44
     Polyglot::GoogleDriveDownloadFormat get_Format();
     // public System.Void set_Format(Polyglot.GoogleDriveDownloadFormat value)
-    // Offset: 0x1DB4BBC
+    // Offset: 0x2381B4C
     void set_Format(Polyglot::GoogleDriveDownloadFormat value);
     // public System.Void .ctor()
-    // Offset: 0x1DB4BC4
+    // Offset: 0x2381B54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

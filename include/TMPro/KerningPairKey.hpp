@@ -57,7 +57,7 @@ namespace TMPro {
     // Set instance field: public System.UInt32 key
     void _set_key(uint value);
     // public System.Void .ctor(System.UInt32 ascii_left, System.UInt32 ascii_right)
-    // Offset: 0xD67838
+    // Offset: 0x11150D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     KerningPairKey(uint ascii_left, uint ascii_right) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::KerningPairKey::.ctor");

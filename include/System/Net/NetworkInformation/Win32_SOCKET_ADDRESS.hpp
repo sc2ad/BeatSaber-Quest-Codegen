@@ -53,7 +53,7 @@ namespace System::Net::NetworkInformation {
     // Set instance field: public System.Int32 SockaddrLength
     void _set_SockaddrLength(int value);
     // public System.Net.IPAddress GetIPAddress()
-    // Offset: 0xD6E874
+    // Offset: 0x149BB78
     System::Net::IPAddress* GetIPAddress();
   }; // System.Net.NetworkInformation.Win32_SOCKET_ADDRESS
   #pragma pack(pop)

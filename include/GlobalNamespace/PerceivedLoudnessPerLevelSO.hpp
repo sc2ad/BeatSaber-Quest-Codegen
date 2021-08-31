@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     // Set instance field: public PerceivedLoudnessPerLevelSO/PerceivedLevelLoudnessPair[] perceivedLoudnessPerLevel
     void _set_perceivedLoudnessPerLevel(::Array<GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1F4DDC8
+    // Offset: 0x10332E8
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

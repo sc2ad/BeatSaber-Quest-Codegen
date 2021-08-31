@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Int64 _timestamp
     void _set__timestamp(int64_t value);
     // public System.Void .ctor()
-    // Offset: 0x1F9FBC4
+    // Offset: 0x10D654C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

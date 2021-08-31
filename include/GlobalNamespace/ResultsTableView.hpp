@@ -105,19 +105,19 @@ namespace GlobalNamespace {
     // Set instance field: private System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> _dataList
     void _set__dataList(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* value);
     // public System.Single CellSize()
-    // Offset: 0x1F7453C
+    // Offset: 0x118C070
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x1F74544
+    // Offset: 0x118C078
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0x1F745F4
+    // Offset: 0x118C128
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int idx);
     // public System.Void SetData(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> dataList)
-    // Offset: 0x1F747BC
+    // Offset: 0x118C2F0
     void SetData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* dataList);
     // public System.Void .ctor()
-    // Offset: 0x1F747E8
+    // Offset: 0x118C31C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

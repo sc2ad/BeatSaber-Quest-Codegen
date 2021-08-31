@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Set instance field: public UnityEngine.GameObject gameObject
     void _set_gameObject(UnityEngine::GameObject* value);
     // public System.Void .ctor()
-    // Offset: 0x1F6183C
+    // Offset: 0x11D14BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

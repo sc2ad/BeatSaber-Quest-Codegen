@@ -45,10 +45,10 @@ namespace UnityEngine::AddressableAssets {
     // Set instance field: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
     void _set_$$4__this(UnityEngine::AddressableAssets::AddressablesImpl* value);
     // System.Void <OnSceneUnloaded>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> handle)
-    // Offset: 0x116C6E8
+    // Offset: 0x14425FC
     void $OnSceneUnloaded$b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> handle);
     // public System.Void .ctor()
-    // Offset: 0x11665BC
+    // Offset: 0x143C4D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

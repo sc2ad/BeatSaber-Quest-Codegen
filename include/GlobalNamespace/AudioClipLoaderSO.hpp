@@ -58,13 +58,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _isLoading
     void _set__isLoading(bool value);
     // public System.Void LoadAudioFile(System.String filePath, System.Action`1<UnityEngine.AudioClip> finishCallback)
-    // Offset: 0x1F2C1AC
+    // Offset: 0x117CF2C
     void LoadAudioFile(::Il2CppString* filePath, System::Action_1<UnityEngine::AudioClip*>* finishCallback);
     // public System.Collections.IEnumerator LoadAudioFileCoroutine(System.String filePath, System.Action`1<UnityEngine.AudioClip> finishCallback)
-    // Offset: 0x1F2C26C
+    // Offset: 0x117CFEC
     System::Collections::IEnumerator* LoadAudioFileCoroutine(::Il2CppString* filePath, System::Action_1<UnityEngine::AudioClip*>* finishCallback);
     // public System.Void .ctor()
-    // Offset: 0x1F2C31C
+    // Offset: 0x117D09C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -76,7 +76,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AudioClipLoaderSO*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x1F2C184
+    // Offset: 0x117CF04
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

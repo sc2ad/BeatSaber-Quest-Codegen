@@ -35,10 +35,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.String _typeNameLocalizationKey
     void _set__typeNameLocalizationKey(::Il2CppString* value);
     // public System.String get_typeNameLocalizationKey()
-    // Offset: 0x1E8DBF4
+    // Offset: 0x10539B8
     ::Il2CppString* get_typeNameLocalizationKey();
     // public System.Void .ctor()
-    // Offset: 0x1E8DBFC
+    // Offset: 0x10539C0
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

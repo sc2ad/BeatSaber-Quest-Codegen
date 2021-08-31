@@ -80,31 +80,31 @@ namespace GlobalNamespace {
     // Set instance field: private BeatmapDifficulty <beatmapDifficulty>k__BackingField
     void _set_$beatmapDifficulty$k__BackingField(GlobalNamespace::BeatmapDifficulty value);
     // public IPreviewBeatmapLevel get_beatmapLevel()
-    // Offset: 0x1F4B864
+    // Offset: 0x1152930
     GlobalNamespace::IPreviewBeatmapLevel* get_beatmapLevel();
     // public System.Void set_beatmapLevel(IPreviewBeatmapLevel value)
-    // Offset: 0x1F4B86C
+    // Offset: 0x1152938
     void set_beatmapLevel(GlobalNamespace::IPreviewBeatmapLevel* value);
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0x1F4B874
+    // Offset: 0x1152940
     GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public System.Void set_beatmapCharacteristic(BeatmapCharacteristicSO value)
-    // Offset: 0x1F4B87C
+    // Offset: 0x1152948
     void set_beatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
     // public BeatmapDifficulty get_beatmapDifficulty()
-    // Offset: 0x1F4B884
+    // Offset: 0x1152950
     GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
     // public System.Void set_beatmapDifficulty(BeatmapDifficulty value)
-    // Offset: 0x1F4B88C
+    // Offset: 0x1152958
     void set_beatmapDifficulty(GlobalNamespace::BeatmapDifficulty value);
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x1F4B894
+    // Offset: 0x1152960
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public System.Void set_gameplayModifiers(GameplayModifiers value)
-    // Offset: 0x1F4B900
+    // Offset: 0x11529CC
     void set_gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
     // public System.Void .ctor()
-    // Offset: 0x1F4B908
+    // Offset: 0x11529D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

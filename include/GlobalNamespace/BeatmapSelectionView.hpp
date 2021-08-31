@@ -63,10 +63,10 @@ namespace GlobalNamespace {
     // Set instance field: private TMPro.TextMeshProUGUI _noLevelText
     void _set__noLevelText(TMPro::TextMeshProUGUI* value);
     // public System.Void SetBeatmap(IPreviewBeatmapLevel beatmapLevel, BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty beatmapDifficulty)
-    // Offset: 0x1EF2E48
+    // Offset: 0x10CF338
     void SetBeatmap(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
     // public System.Void .ctor()
-    // Offset: 0x1EF2ED8
+    // Offset: 0x10CF3C8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

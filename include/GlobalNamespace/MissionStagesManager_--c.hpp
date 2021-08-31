@@ -45,13 +45,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<MissionStage,System.Int32> <>9__6_0
     static void _set_$$9__6_0(System::Func_2<GlobalNamespace::MissionStage*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1F6AB88
+    // Offset: 0x11DA808
     static void _cctor();
     // System.Int32 <InitStages>b__6_0(MissionStage stage)
-    // Offset: 0x1F6ABF4
+    // Offset: 0x11DA874
     int $InitStages$b__6_0(GlobalNamespace::MissionStage* stage);
     // public System.Void .ctor()
-    // Offset: 0x1F6ABEC
+    // Offset: 0x11DA86C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

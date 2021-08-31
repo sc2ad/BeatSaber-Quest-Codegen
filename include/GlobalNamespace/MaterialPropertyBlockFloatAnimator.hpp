@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x2D to desired offset: 0x30
     char ___base_padding[0x3] = {};
-    // [SpaceAttribute] Offset: 0xE8F7B4
+    // [SpaceAttribute] Offset: 0xE15554
     // private System.Single _value
     // Size: 0x4
     // Offset: 0x30
@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _value
     void _set__value(float value);
     // public System.Void .ctor()
-    // Offset: 0x1968A20
+    // Offset: 0x1E1C5A4
     // Implemented from: MaterialPropertyBlockAnimator
     // Base method: System.Void MaterialPropertyBlockAnimator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -51,7 +51,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyBlockFloatAnimator*, creationType>()));
     }
     // protected override System.Void SetProperty()
-    // Offset: 0x19689E4
+    // Offset: 0x1E1C568
     // Implemented from: MaterialPropertyBlockAnimator
     // Base method: System.Void MaterialPropertyBlockAnimator::SetProperty()
     void SetProperty();

@@ -46,28 +46,28 @@ namespace GlobalNamespace {
     GlobalNamespace::VFXController* failVFXController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::VFXController*) == 0x8);
-    // [InjectAttribute] Offset: 0xEB409C
+    // [InjectAttribute] Offset: 0xE39E7C
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xEB40AC
+    // [InjectAttribute] Offset: 0xE39E8C
     // private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectSpawnController*) == 0x8);
-    // [InjectAttribute] Offset: 0xEB40BC
+    // [InjectAttribute] Offset: 0xE39E9C
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xEB40CC
+    // [InjectAttribute] Offset: 0xE39EAC
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x38
@@ -119,28 +119,28 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _wasActive
     void _set__wasActive(bool value);
     // public System.Void add_playerDidFailEvent(System.Action value)
-    // Offset: 0x1FBA260
+    // Offset: 0x11A7BA8
     void add_playerDidFailEvent(System::Action* value);
     // public System.Void remove_playerDidFailEvent(System.Action value)
-    // Offset: 0x1FB9BD4
+    // Offset: 0x11A751C
     void remove_playerDidFailEvent(System::Action* value);
     // protected System.Void Start()
-    // Offset: 0x1FBB48C
+    // Offset: 0x11A8DD4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1FBB630
+    // Offset: 0x11A8F78
     void OnDestroy();
     // private System.Void CheckIfPlayerFailed(IConnectedPlayer player)
-    // Offset: 0x1FBB7D4
+    // Offset: 0x11A911C
     void CheckIfPlayerFailed(GlobalNamespace::IConnectedPlayer* player);
     // private System.Void HandlePlayerDisconnected(IConnectedPlayer player)
-    // Offset: 0x1FBB9FC
+    // Offset: 0x11A9344
     void HandlePlayerDisconnected(GlobalNamespace::IConnectedPlayer* player);
     // private System.Void HandlePlayerStateChanged(IConnectedPlayer player)
-    // Offset: 0x1FBBA00
+    // Offset: 0x11A9348
     void HandlePlayerStateChanged(GlobalNamespace::IConnectedPlayer* player);
     // public System.Void .ctor()
-    // Offset: 0x1FBBA04
+    // Offset: 0x11A934C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

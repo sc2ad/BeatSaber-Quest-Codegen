@@ -28,19 +28,19 @@ namespace Org::BouncyCastle::Math::Raw {
     // Set static field: static private readonly Org.BouncyCastle.Security.SecureRandom RandomSource
     static void _set_RandomSource(Org::BouncyCastle::Security::SecureRandom* value);
     // static private System.Void .cctor()
-    // Offset: 0x1911D74
+    // Offset: 0x1DD7DB8
     static void _cctor();
     // static public System.Void Invert(System.UInt32[] p, System.UInt32[] x, System.UInt32[] z)
-    // Offset: 0x1911660
+    // Offset: 0x1DD76A4
     static void Invert(::Array<uint>* p, ::Array<uint>* x, ::Array<uint>* z);
     // static public System.UInt32[] Random(System.UInt32[] p)
-    // Offset: 0x1911C08
+    // Offset: 0x1DD7C4C
     static ::Array<uint>* Random(::Array<uint>* p);
     // static private System.Void InversionResult(System.UInt32[] p, System.Int32 ac, System.UInt32[] a, System.UInt32[] z)
-    // Offset: 0x1911BC0
+    // Offset: 0x1DD7C04
     static void InversionResult(::Array<uint>* p, int ac, ::Array<uint>* a, ::Array<uint>* z);
     // static private System.Void InversionStep(System.UInt32[] p, System.UInt32[] u, System.Int32 uLen, System.UInt32[] x, ref System.Int32 xc)
-    // Offset: 0x1911A8C
+    // Offset: 0x1DD7AD0
     static void InversionStep(::Array<uint>* p, ::Array<uint>* u, int uLen, ::Array<uint>* x, ByRef<int> xc);
   }; // Org.BouncyCastle.Math.Raw.Mod
   #pragma pack(pop)

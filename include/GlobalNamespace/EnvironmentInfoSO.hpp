@@ -129,31 +129,31 @@ namespace GlobalNamespace {
     // Set instance field: private System.Collections.Generic.List`1<System.String> _environmentKeywords
     void _set__environmentKeywords(System::Collections::Generic::List_1<::Il2CppString*>* value);
     // public SceneInfo get_sceneInfo()
-    // Offset: 0x1E8C014
+    // Offset: 0x1051DD8
     GlobalNamespace::SceneInfo* get_sceneInfo();
     // public System.String get_environmentName()
-    // Offset: 0x1E8C01C
+    // Offset: 0x1051DE0
     ::Il2CppString* get_environmentName();
     // public ColorSchemeSO get_colorScheme()
-    // Offset: 0x1E8C024
+    // Offset: 0x1051DE8
     GlobalNamespace::ColorSchemeSO* get_colorScheme();
     // public System.String get_serializedName()
-    // Offset: 0x1E8C02C
+    // Offset: 0x1051DF0
     ::Il2CppString* get_serializedName();
     // public EnvironmentTypeSO get_environmentType()
-    // Offset: 0x1E8C034
+    // Offset: 0x1051DF8
     GlobalNamespace::EnvironmentTypeSO* get_environmentType();
     // public EnvironmentSizeData get_environmentSizeData()
-    // Offset: 0x1E8C03C
+    // Offset: 0x1051E00
     GlobalNamespace::EnvironmentSizeData* get_environmentSizeData();
     // public EnvironmentIntensityReductionOptions get_environmentIntensityReductionOptions()
-    // Offset: 0x1E8C044
+    // Offset: 0x1051E08
     GlobalNamespace::EnvironmentIntensityReductionOptions* get_environmentIntensityReductionOptions();
     // public System.Collections.Generic.IReadOnlyList`1<System.String> get_environmentKeywords()
-    // Offset: 0x1E8C04C
+    // Offset: 0x1051E10
     System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* get_environmentKeywords();
     // public System.Void .ctor()
-    // Offset: 0x1E8C054
+    // Offset: 0x1051E18
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

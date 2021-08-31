@@ -40,13 +40,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<LocalizedTextAsset/TextInfo,System.Boolean> <>9__6_0
     static void _set_$$9__6_0(System::Func_2<GlobalNamespace::LocalizedTextAsset::TextInfo*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1FA83B8
+    // Offset: 0x10DE690
     static void _cctor();
     // System.Boolean <get_localizedText>b__6_0(LocalizedTextAsset/TextInfo t)
-    // Offset: 0x1FA8424
+    // Offset: 0x10DE6FC
     bool $get_localizedText$b__6_0(GlobalNamespace::LocalizedTextAsset::TextInfo* t);
     // public System.Void .ctor()
-    // Offset: 0x1FA841C
+    // Offset: 0x10DE6F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

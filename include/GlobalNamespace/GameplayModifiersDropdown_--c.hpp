@@ -45,13 +45,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Tuple`2<GameplayModifierMask,System.String>,System.String> <>9__8_0
     static void _set_$$9__8_0(System::Func_2<System::Tuple_2<GlobalNamespace::GameplayModifierMask, ::Il2CppString*>*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1F1F358
+    // Offset: 0x110D5C0
     static void _cctor();
     // System.String <Start>b__8_0(System.Tuple`2<GameplayModifierMask,System.String> x)
-    // Offset: 0x1F1F3C4
+    // Offset: 0x110D62C
     ::Il2CppString* $Start$b__8_0(System::Tuple_2<GlobalNamespace::GameplayModifierMask, ::Il2CppString*>* x);
     // public System.Void .ctor()
-    // Offset: 0x1F1F3BC
+    // Offset: 0x110D624
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

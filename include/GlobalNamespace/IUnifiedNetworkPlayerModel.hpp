@@ -18,8 +18,10 @@ namespace System::Collections::Generic {
 namespace GlobalNamespace {
   // Forward declaring type: INetworkPlayer
   class INetworkPlayer;
-  // Forward declaring type: UserServerFilter
-  struct UserServerFilter;
+  // Forward declaring type: BeatmapLevelSelectionMask
+  struct BeatmapLevelSelectionMask;
+  // Forward declaring type: GameplayServerConfiguration
+  struct GameplayServerConfiguration;
 }
 // Forward declaring namespace: System
 namespace System {
@@ -56,9 +58,6 @@ namespace GlobalNamespace {
     // public System.Collections.Generic.IEnumerable`1<INetworkPlayer> get_localNetworkPlayers()
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* get_localNetworkPlayers();
-    // public UserServerFilter get_serverFilter()
-    // Offset: 0xFFFFFFFF
-    GlobalNamespace::UserServerFilter get_serverFilter();
     // public System.String get_userId()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_userId();
@@ -77,9 +76,9 @@ namespace GlobalNamespace {
     // public System.Void remove_partyRefreshingEvent(System.Action value)
     // Offset: 0xFFFFFFFF
     void remove_partyRefreshingEvent(System::Action* value);
-    // public System.Void SetServerFilter(UserServerFilter filter)
+    // public System.Void SetServerFilter(BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration)
     // Offset: 0xFFFFFFFF
-    void SetServerFilter(GlobalNamespace::UserServerFilter filter);
+    void SetServerFilter(GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration);
     // public System.Void ResetMasterServerReachability()
     // Offset: 0xFFFFFFFF
     void ResetMasterServerReachability();
@@ -120,14 +119,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* (GlobalNamespace::IUnifiedNetworkPlayerModel::*)()>(&GlobalNamespace::IUnifiedNetworkPlayerModel::get_localNetworkPlayers)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnifiedNetworkPlayerModel*), "get_localNetworkPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::IUnifiedNetworkPlayerModel::get_serverFilter
-// Il2CppName: get_serverFilter
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::UserServerFilter (GlobalNamespace::IUnifiedNetworkPlayerModel::*)()>(&GlobalNamespace::IUnifiedNetworkPlayerModel::get_serverFilter)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnifiedNetworkPlayerModel*), "get_serverFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::IUnifiedNetworkPlayerModel::get_userId
@@ -183,10 +174,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IUnifiedNetworkPlayerModel::SetServerFilter
 // Il2CppName: SetServerFilter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IUnifiedNetworkPlayerModel::*)(GlobalNamespace::UserServerFilter)>(&GlobalNamespace::IUnifiedNetworkPlayerModel::SetServerFilter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IUnifiedNetworkPlayerModel::*)(GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration)>(&GlobalNamespace::IUnifiedNetworkPlayerModel::SetServerFilter)> {
   static const MethodInfo* get() {
-    static auto* filter = &::il2cpp_utils::GetClassFromName("", "UserServerFilter")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnifiedNetworkPlayerModel*), "SetServerFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filter});
+    static auto* selectionMask = &::il2cpp_utils::GetClassFromName("", "BeatmapLevelSelectionMask")->byval_arg;
+    static auto* configuration = &::il2cpp_utils::GetClassFromName("", "GameplayServerConfiguration")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnifiedNetworkPlayerModel*), "SetServerFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{selectionMask, configuration});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::IUnifiedNetworkPlayerModel::ResetMasterServerReachability

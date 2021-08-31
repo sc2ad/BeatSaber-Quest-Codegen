@@ -32,21 +32,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xE98788
+    // [DescriptionAttribute] Offset: 0xE1E528
     // static field const value: static public Oculus.Platform.VoipMuteState Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.VoipMuteState Unknown
     static Oculus::Platform::VoipMuteState _get_Unknown();
     // Set static field: static public Oculus.Platform.VoipMuteState Unknown
     static void _set_Unknown(Oculus::Platform::VoipMuteState value);
-    // [DescriptionAttribute] Offset: 0xE987C0
+    // [DescriptionAttribute] Offset: 0xE1E560
     // static field const value: static public Oculus.Platform.VoipMuteState Muted
     static constexpr const int Muted = 1;
     // Get static field: static public Oculus.Platform.VoipMuteState Muted
     static Oculus::Platform::VoipMuteState _get_Muted();
     // Set static field: static public Oculus.Platform.VoipMuteState Muted
     static void _set_Muted(Oculus::Platform::VoipMuteState value);
-    // [DescriptionAttribute] Offset: 0xE987F8
+    // [DescriptionAttribute] Offset: 0xE1E598
     // static field const value: static public Oculus.Platform.VoipMuteState Unmuted
     static constexpr const int Unmuted = 2;
     // Get static field: static public Oculus.Platform.VoipMuteState Unmuted

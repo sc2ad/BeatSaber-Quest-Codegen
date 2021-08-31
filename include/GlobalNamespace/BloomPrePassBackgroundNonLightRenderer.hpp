@@ -41,12 +41,12 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Renderer _renderer
     void _set__renderer(UnityEngine::Renderer* value);
     // protected override UnityEngine.Renderer get_renderer()
-    // Offset: 0x195FB44
+    // Offset: 0x1E136C8
     // Implemented from: BloomPrePassBackgroundNonLightRendererCore
     // Base method: UnityEngine.Renderer BloomPrePassBackgroundNonLightRendererCore::get_renderer()
     UnityEngine::Renderer* get_renderer();
     // public System.Void .ctor()
-    // Offset: 0x195FB4C
+    // Offset: 0x1E136D0
     // Implemented from: BloomPrePassBackgroundNonLightRendererCore
     // Base method: System.Void BloomPrePassBackgroundNonLightRendererCore::.ctor()
     // Base method: System.Void BloomPrePassNonLightPass::.ctor()

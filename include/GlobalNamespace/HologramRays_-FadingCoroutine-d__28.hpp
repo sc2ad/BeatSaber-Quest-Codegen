@@ -96,26 +96,26 @@ namespace GlobalNamespace {
     // Set instance field: public System.Single duration
     void _set_duration(float value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1F3DE1C
+    // Offset: 0x1144734
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1F3DE84
+    // Offset: 0x114479C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1F3DB00
+    // Offset: 0x1144418
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HologramRays::$FadingCoroutine$d__28* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HologramRays::$FadingCoroutine$d__28::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HologramRays::$FadingCoroutine$d__28*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1F3DC64
+    // Offset: 0x114457C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1F3DC68
+    // Offset: 0x1144580
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1F3DE24
+    // Offset: 0x114473C
     void System_Collections_IEnumerator_Reset();
   }; // HologramRays/<FadingCoroutine>d__28
   #pragma pack(pop)

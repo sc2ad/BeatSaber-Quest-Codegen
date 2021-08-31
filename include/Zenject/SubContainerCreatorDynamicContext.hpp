@@ -64,17 +64,17 @@ namespace Zenject {
     // Set instance field: private readonly Zenject.DiContainer _container
     void _set__container(Zenject::DiContainer* value);
     // protected Zenject.DiContainer get_Container()
-    // Offset: 0x13D5EA4
+    // Offset: 0x1721B8C
     Zenject::DiContainer* get_Container();
     // public System.Void .ctor(Zenject.DiContainer container)
-    // Offset: 0x13D4D0C
+    // Offset: 0x17209F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerCreatorDynamicContext* New_ctor(Zenject::DiContainer* container) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SubContainerCreatorDynamicContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerCreatorDynamicContext*, creationType>(container)));
     }
     // public Zenject.DiContainer CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext parentContext)
-    // Offset: 0x13D5EAC
+    // Offset: 0x1721B94
     Zenject::DiContainer* CreateSubContainer(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::InjectContext* parentContext);
     // protected System.Void AddInstallers(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.GameObjectContext context)
     // Offset: 0xFFFFFFFF

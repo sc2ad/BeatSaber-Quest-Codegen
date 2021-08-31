@@ -35,36 +35,36 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionTrigger::CameraPosition : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xEA4734
+    // [TooltipAttribute] Offset: 0xE2A4E4
     // public UnityEngine.Collider lookAtTarget
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::Collider* lookAtTarget;
     // Field size check
     static_assert(sizeof(UnityEngine::Collider*) == 0x8);
-    // [TooltipAttribute] Offset: 0xEA476C
+    // [TooltipAttribute] Offset: 0xE2A51C
     // public UnityEngine.Vector3 direction
     // Size: 0xC
     // Offset: 0x18
     UnityEngine::Vector3 direction;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0xEA47A4
+    // [TooltipAttribute] Offset: 0xE2A554
     // public System.Single maxDistance
     // Size: 0x4
     // Offset: 0x24
     float maxDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xEA47DC
-    // [RangeAttribute] Offset: 0xEA47DC
+    // [TooltipAttribute] Offset: 0xE2A58C
+    // [RangeAttribute] Offset: 0xE2A58C
     // public System.Single maxAngle
     // Size: 0x4
     // Offset: 0x28
     float maxAngle;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xEA4834
+    // [TooltipAttribute] Offset: 0xE2A5E4
     // public System.Boolean fixYAxis
     // Size: 0x1
     // Offset: 0x2C
@@ -94,13 +94,13 @@ namespace RootMotion::FinalIK {
     // Set instance field: public System.Boolean fixYAxis
     void _set_fixYAxis(bool value);
     // public UnityEngine.Quaternion GetRotation()
-    // Offset: 0x172B5F4
+    // Offset: 0x1AD5F10
     UnityEngine::Quaternion GetRotation();
     // public System.Boolean IsInRange(UnityEngine.Transform raycastFrom, UnityEngine.RaycastHit hit, UnityEngine.Transform trigger, out System.Single error)
-    // Offset: 0x172B79C
+    // Offset: 0x1AD60B8
     bool IsInRange(UnityEngine::Transform* raycastFrom, UnityEngine::RaycastHit hit, UnityEngine::Transform* trigger, ByRef<float> error);
     // public System.Void .ctor()
-    // Offset: 0x172BA7C
+    // Offset: 0x1AD6398
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

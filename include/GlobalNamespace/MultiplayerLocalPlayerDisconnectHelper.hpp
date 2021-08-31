@@ -34,21 +34,21 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLocalPlayerDisconnectHelper : public ::Il2CppObject {
     public:
-    // [InjectAttribute] Offset: 0xEB474C
+    // [InjectAttribute] Offset: 0xE3A52C
     // private readonly IGameplayRpcManager _gameplayRpcManager
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::IGameplayRpcManager* gameplayRpcManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IGameplayRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xEB475C
+    // [InjectAttribute] Offset: 0xE3A53C
     // private readonly IMultiplayerLevelEndActionsListener _multiplayerLevelEndActions
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::IMultiplayerLevelEndActionsListener* multiplayerLevelEndActions;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerLevelEndActionsListener*) == 0x8);
-    // [InjectAttribute] Offset: 0xEB476C
+    // [InjectAttribute] Offset: 0xE3A54C
     // private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
     // Size: 0x8
     // Offset: 0x20
@@ -82,13 +82,13 @@ namespace GlobalNamespace {
     // Set instance field: private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
     void _set__lobbyPlayerPermissionsModel(GlobalNamespace::LobbyPlayerPermissionsModel* value);
     // public System.Void Disconnect()
-    // Offset: 0x1E77CFC
+    // Offset: 0x1068238
     void Disconnect();
     // public System.String ResolveDisconnectButtonString()
-    // Offset: 0x1E792E8
+    // Offset: 0x1069824
     ::Il2CppString* ResolveDisconnectButtonString();
     // public System.Void .ctor()
-    // Offset: 0x1E7B7B8
+    // Offset: 0x106BCF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -119,7 +119,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Int32 disconnectTimeoutMs
     void _set_disconnectTimeoutMs(int value);
     // protected System.Void .ctor()
-    // Offset: 0x10A0180
+    // Offset: 0x132E088
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

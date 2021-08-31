@@ -24,7 +24,7 @@ namespace Zenject {
     // Creating value type constructor for type: PoolExceededFixedSizeException
     PoolExceededFixedSizeException() noexcept {}
     // public System.Void .ctor(System.String errorMessage)
-    // Offset: 0x13C8694
+    // Offset: 0x171437C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String errorMessage)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

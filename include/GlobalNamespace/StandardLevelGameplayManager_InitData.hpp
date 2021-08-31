@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Boolean failOn0Energy
     void _set_failOn0Energy(bool value);
     // public System.Void .ctor(System.Boolean failOn0Energy)
-    // Offset: 0x1ED13B4
+    // Offset: 0x108BC4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelGameplayManager::InitData* New_ctor(bool failOn0Energy) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StandardLevelGameplayManager::InitData::.ctor");

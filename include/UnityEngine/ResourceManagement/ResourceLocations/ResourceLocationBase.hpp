@@ -134,37 +134,37 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
     // Set instance field: private System.String m_PrimaryKey
     void _set_m_PrimaryKey(::Il2CppString* value);
     // public System.String get_InternalId()
-    // Offset: 0x16691C8
+    // Offset: 0x19E82F8
     ::Il2CppString* get_InternalId();
     // public System.String get_ProviderId()
-    // Offset: 0x16691D0
+    // Offset: 0x19E8300
     ::Il2CppString* get_ProviderId();
     // public System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> get_Dependencies()
-    // Offset: 0x16691D8
+    // Offset: 0x19E8308
     System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* get_Dependencies();
     // public System.Boolean get_HasDependencies()
-    // Offset: 0x16691E0
+    // Offset: 0x19E8310
     bool get_HasDependencies();
     // public System.Object get_Data()
-    // Offset: 0x166923C
+    // Offset: 0x19E836C
     ::Il2CppObject* get_Data();
     // public System.Void set_Data(System.Object value)
-    // Offset: 0x1669244
+    // Offset: 0x19E8374
     void set_Data(::Il2CppObject* value);
     // public System.String get_PrimaryKey()
-    // Offset: 0x166924C
+    // Offset: 0x19E837C
     ::Il2CppString* get_PrimaryKey();
     // public System.Void set_PrimaryKey(System.String value)
-    // Offset: 0x1669254
+    // Offset: 0x19E8384
     void set_PrimaryKey(::Il2CppString* value);
     // public System.Int32 get_DependencyHashCode()
-    // Offset: 0x166925C
+    // Offset: 0x19E838C
     int get_DependencyHashCode();
     // public System.Type get_ResourceType()
-    // Offset: 0x1669264
+    // Offset: 0x19E8394
     System::Type* get_ResourceType();
     // public System.Void .ctor(System.String name, System.String id, System.String providerId, System.Type t, params UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation[] dependencies)
-    // Offset: 0x16692CC
+    // Offset: 0x19E83FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceLocationBase* New_ctor(::Il2CppString* name, ::Il2CppString* id, ::Il2CppString* providerId, System::Type* t, ::Array<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* dependencies) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::.ctor");
@@ -181,13 +181,13 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
       return New_ctor<creationType>(name, id, providerId, t, {dependencies...});
     }
     // public System.Int32 Hash(System.Type t)
-    // Offset: 0x166926C
+    // Offset: 0x19E839C
     int Hash(System::Type* t);
     // public System.Void ComputeDependencyHash()
-    // Offset: 0x16694C8
+    // Offset: 0x19E85F8
     void ComputeDependencyHash();
     // public override System.String ToString()
-    // Offset: 0x16692C4
+    // Offset: 0x19E83F4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

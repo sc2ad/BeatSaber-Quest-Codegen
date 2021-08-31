@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerMenuInstaller
     MultiplayerMenuInstaller() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1E7BDE8
+    // Offset: 0x106C324
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -38,7 +38,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerMenuInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x1E7BD60
+    // Offset: 0x106C29C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

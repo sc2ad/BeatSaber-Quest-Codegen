@@ -45,10 +45,10 @@ namespace GlobalNamespace {
     // Set instance field: public System.Action buttonAction
     void _set_buttonAction(System::Action* value);
     // System.Void <Init>b__0(System.Int32 btnIdx)
-    // Offset: 0x1F02D8C
+    // Offset: 0x10F2BA0
     void $Init$b__0(int btnIdx);
     // public System.Void .ctor()
-    // Offset: 0x1F02C98
+    // Offset: 0x10F2AAC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

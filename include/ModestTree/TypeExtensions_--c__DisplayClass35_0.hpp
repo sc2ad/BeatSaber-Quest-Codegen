@@ -47,10 +47,10 @@ namespace ModestTree {
     // Set instance field: public System.Type[] attributeTypes
     void _set_attributeTypes(::Array<System::Type*>* value);
     // System.Boolean <AllAttributes>b__0(System.Attribute a)
-    // Offset: 0x111B308
+    // Offset: 0x13D6530
     bool $AllAttributes$b__0(System::Attribute* a);
     // public System.Void .ctor()
-    // Offset: 0x111B058
+    // Offset: 0x13D6280
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

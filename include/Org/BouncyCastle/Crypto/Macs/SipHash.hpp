@@ -144,44 +144,44 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Set instance field: protected System.Int32 wordCount
     void _set_wordCount(int value);
     // public System.Void .ctor(System.Int32 c, System.Int32 d)
-    // Offset: 0x15924E0
+    // Offset: 0x191113C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SipHash* New_ctor(int c, int d) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Macs::SipHash::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SipHash*, creationType>(c, d)));
     }
     // public System.Int32 GetMacSize()
-    // Offset: 0x159251C
+    // Offset: 0x1911178
     int GetMacSize();
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1592524
+    // Offset: 0x1911180
     void Init(Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void Update(System.Byte input)
-    // Offset: 0x1592668
+    // Offset: 0x19112C4
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 offset, System.Int32 length)
-    // Offset: 0x15926B8
+    // Offset: 0x1911314
     void BlockUpdate(::Array<uint8_t>* input, int offset, int length);
     // public System.Int64 DoFinal()
-    // Offset: 0x1592888
+    // Offset: 0x19114E4
     int64_t DoFinal();
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1592928
+    // Offset: 0x1911584
     int DoFinal(::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1592970
+    // Offset: 0x19115CC
     void Reset();
     // protected System.Void ProcessMessageWord()
-    // Offset: 0x15929D4
+    // Offset: 0x1911630
     void ProcessMessageWord();
     // protected System.Void ApplySipRounds(System.Int32 n)
-    // Offset: 0x1592A2C
+    // Offset: 0x1911688
     void ApplySipRounds(int n);
     // static protected System.Int64 RotateLeft(System.Int64 x, System.Int32 n)
-    // Offset: 0x1592A78
+    // Offset: 0x19116D4
     static int64_t RotateLeft(int64_t x, int n);
     // public System.Void .ctor()
-    // Offset: 0x15924AC
+    // Offset: 0x1911108
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

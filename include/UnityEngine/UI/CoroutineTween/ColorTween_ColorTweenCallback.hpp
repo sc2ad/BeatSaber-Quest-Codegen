@@ -26,7 +26,7 @@ namespace UnityEngine::UI::CoroutineTween {
     // Creating value type constructor for type: ColorTweenCallback
     ColorTweenCallback() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x11B819C
+    // Offset: 0x1474D8C
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

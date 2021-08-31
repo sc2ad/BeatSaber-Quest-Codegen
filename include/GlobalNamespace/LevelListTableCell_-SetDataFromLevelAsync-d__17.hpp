@@ -116,10 +116,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<UnityEngine.Sprite> <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite*> value);
     // private System.Void MoveNext()
-    // Offset: 0xF7C4CC
+    // Offset: 0x1152E58
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xF7C4D4
+    // Offset: 0x1153784
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // LevelListTableCell/<SetDataFromLevelAsync>d__17
   // WARNING Not writing size check since size may be invalid!

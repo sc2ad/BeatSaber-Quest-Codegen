@@ -94,49 +94,49 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Set instance field: protected System.Int32 m_width
     void _set_m_width(int value);
     // System.Int32 get_PromotionCountdown()
-    // Offset: 0x1904060
+    // Offset: 0x1DCA0A4
     int get_PromotionCountdown();
     // System.Void set_PromotionCountdown(System.Int32 value)
-    // Offset: 0x1904084
+    // Offset: 0x1DCA0C8
     void set_PromotionCountdown(int value);
     // public System.Boolean get_IsPromoted()
-    // Offset: 0x19040AC
+    // Offset: 0x1DCA0F0
     bool get_IsPromoted();
     // public System.Int32 get_ConfWidth()
-    // Offset: 0x19040D4
+    // Offset: 0x1DCA118
     int get_ConfWidth();
     // public System.Void set_ConfWidth(System.Int32 value)
-    // Offset: 0x19040DC
+    // Offset: 0x1DCA120
     void set_ConfWidth(int value);
     // public Org.BouncyCastle.Math.EC.ECPoint[] get_PreComp()
-    // Offset: 0x19040E4
+    // Offset: 0x1DCA128
     ::Array<Org::BouncyCastle::Math::EC::ECPoint*>* get_PreComp();
     // public System.Void set_PreComp(Org.BouncyCastle.Math.EC.ECPoint[] value)
-    // Offset: 0x19040EC
+    // Offset: 0x1DCA130
     void set_PreComp(::Array<Org::BouncyCastle::Math::EC::ECPoint*>* value);
     // public Org.BouncyCastle.Math.EC.ECPoint[] get_PreCompNeg()
-    // Offset: 0x19040F4
+    // Offset: 0x1DCA138
     ::Array<Org::BouncyCastle::Math::EC::ECPoint*>* get_PreCompNeg();
     // public System.Void set_PreCompNeg(Org.BouncyCastle.Math.EC.ECPoint[] value)
-    // Offset: 0x19040FC
+    // Offset: 0x1DCA140
     void set_PreCompNeg(::Array<Org::BouncyCastle::Math::EC::ECPoint*>* value);
     // public Org.BouncyCastle.Math.EC.ECPoint get_Twice()
-    // Offset: 0x1904104
+    // Offset: 0x1DCA148
     Org::BouncyCastle::Math::EC::ECPoint* get_Twice();
     // public System.Void set_Twice(Org.BouncyCastle.Math.EC.ECPoint value)
-    // Offset: 0x190410C
+    // Offset: 0x1DCA150
     void set_Twice(Org::BouncyCastle::Math::EC::ECPoint* value);
     // public System.Int32 get_Width()
-    // Offset: 0x1904114
+    // Offset: 0x1DCA158
     int get_Width();
     // public System.Void set_Width(System.Int32 value)
-    // Offset: 0x190411C
+    // Offset: 0x1DCA160
     void set_Width(int value);
     // System.Int32 DecrementPromotionCountdown()
-    // Offset: 0x190401C
+    // Offset: 0x1DCA060
     int DecrementPromotionCountdown();
     // public System.Void .ctor()
-    // Offset: 0x1904124
+    // Offset: 0x1DCA168
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

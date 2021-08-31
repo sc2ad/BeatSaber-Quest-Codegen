@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     struct ObstacleSpawnData;
     // Nested type: GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData
     struct NoteSpawnData;
-    // [HeaderAttribute] Offset: 0xEAFFF8
+    // [HeaderAttribute] Offset: 0xE35DD8
     // private UnityEngine.Vector3 _centerPos
     // Size: 0xC
     // Offset: 0x10
@@ -53,8 +53,8 @@ namespace GlobalNamespace {
     float noteLinesDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0xEB0054
-    // [TooltipAttribute] Offset: 0xEB0054
+    // [HeaderAttribute] Offset: 0xE35E34
+    // [TooltipAttribute] Offset: 0xE35E34
     // private System.Single _maxHalfJumpDistance
     // Size: 0x4
     // Offset: 0x20
@@ -85,7 +85,7 @@ namespace GlobalNamespace {
     float topLinesHighestJumpPosY;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0xEB0104
+    // [HeaderAttribute] Offset: 0xE35EE4
     // private System.Single _moveSpeed
     // Size: 0x4
     // Offset: 0x34
@@ -116,7 +116,7 @@ namespace GlobalNamespace {
     float topLinesYPos;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0xEB0190
+    // [HeaderAttribute] Offset: 0xE35F70
     // private System.Single _verticalObstaclePosY
     // Size: 0x4
     // Offset: 0x48
@@ -348,64 +348,64 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Vector3 _forwardVec
     void _set__forwardVec(UnityEngine::Vector3 value);
     // public System.Single get_spawnAheadTime()
-    // Offset: 0x1EF0910
+    // Offset: 0x10CCE00
     float get_spawnAheadTime();
     // public System.Single get_moveDuration()
-    // Offset: 0x1EF0918
+    // Offset: 0x10CCE08
     float get_moveDuration();
     // public System.Single get_jumpDuration()
-    // Offset: 0x1EF0920
+    // Offset: 0x10CCE10
     float get_jumpDuration();
     // public System.Single get_noteLinesDistance()
-    // Offset: 0x1EF0928
+    // Offset: 0x10CCE18
     float get_noteLinesDistance();
     // public System.Single get_verticalLayersDistance()
-    // Offset: 0x1EEEF70
+    // Offset: 0x10CB460
     float get_verticalLayersDistance();
     // public System.Single get_jumpDistance()
-    // Offset: 0x1EF0930
+    // Offset: 0x10CCE20
     float get_jumpDistance();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0x1EF0938
+    // Offset: 0x10CCE28
     float get_noteJumpMovementSpeed();
     // public System.Void Init(System.Int32 noteLinesCount, System.Single startNoteJumpMovementSpeed, System.Single startBpm, System.Single noteJumpStartBeatOffset, System.Single jumpOffsetY, UnityEngine.Vector3 rightVec, UnityEngine.Vector3 forwardVec)
-    // Offset: 0x1EEF6F0
+    // Offset: 0x10CBBE0
     void Init(int noteLinesCount, float startNoteJumpMovementSpeed, float startBpm, float noteJumpStartBeatOffset, float jumpOffsetY, UnityEngine::Vector3 rightVec, UnityEngine::Vector3 forwardVec);
     // public System.Void Update(System.Single bpm, System.Single jumpOffsetY)
-    // Offset: 0x1EF014C
+    // Offset: 0x10CC63C
     void Update(float bpm, float jumpOffsetY);
     // public BeatmapObjectSpawnMovementData/ObstacleSpawnData GetObstacleSpawnData(ObstacleData obstacleData)
-    // Offset: 0x1EEFA80
+    // Offset: 0x10CBF70
     GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData GetObstacleSpawnData(GlobalNamespace::ObstacleData* obstacleData);
     // public BeatmapObjectSpawnMovementData/NoteSpawnData GetJumpingNoteSpawnData(NoteData noteData)
-    // Offset: 0x1EEFD64
+    // Offset: 0x10CC254
     GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData GetJumpingNoteSpawnData(GlobalNamespace::NoteData* noteData);
     // public UnityEngine.Vector3 GetNoteOffset(System.Int32 noteLineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0x1EF0940
+    // Offset: 0x10CCE30
     UnityEngine::Vector3 GetNoteOffset(int noteLineIndex, GlobalNamespace::NoteLineLayer noteLineLayer);
     // public UnityEngine.Vector2 Get2DNoteOffset(System.Int32 noteLineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0x1EF0418
+    // Offset: 0x10CC908
     UnityEngine::Vector2 Get2DNoteOffset(int noteLineIndex, GlobalNamespace::NoteLineLayer noteLineLayer);
     // public System.Single JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(NoteLineLayer lineLayer, System.Single distanceFromPlayer)
-    // Offset: 0x1EF04A4
+    // Offset: 0x10CC994
     float JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(GlobalNamespace::NoteLineLayer lineLayer, float distanceFromPlayer);
     // private System.Single HighestJumpPosYForLineLayer(NoteLineLayer lineLayer)
-    // Offset: 0x1EF0BE4
+    // Offset: 0x10CD0D4
     float HighestJumpPosYForLineLayer(GlobalNamespace::NoteLineLayer lineLayer);
     // private System.Single HighestJumpPosYForLineLayerWithoutJumpOffset(NoteLineLayer lineLayer)
-    // Offset: 0x1EF0C14
+    // Offset: 0x10CD104
     float HighestJumpPosYForLineLayerWithoutJumpOffset(GlobalNamespace::NoteLineLayer lineLayer);
     // private System.Single LineYPosForLineLayer(NoteLineLayer lineLayer)
-    // Offset: 0x1EF0B50
+    // Offset: 0x10CD040
     float LineYPosForLineLayer(GlobalNamespace::NoteLineLayer lineLayer);
-    // private System.Single NoteJumpGravityForLineLayer(NoteLineLayer lineLayer, NoteLineLayer startLineLayer)
-    // Offset: 0x1EF0AAC
-    float NoteJumpGravityForLineLayer(GlobalNamespace::NoteLineLayer lineLayer, GlobalNamespace::NoteLineLayer startLineLayer);
-    // private System.Single NoteJumpGravityForLineLayerWithoutJumpOffset(NoteLineLayer lineLayer, NoteLineLayer startLineLayer)
-    // Offset: 0x1EF0B78
-    float NoteJumpGravityForLineLayerWithoutJumpOffset(GlobalNamespace::NoteLineLayer lineLayer, GlobalNamespace::NoteLineLayer startLineLayer);
+    // private System.Single NoteJumpGravityForLineLayer(NoteLineLayer lineLayer, NoteLineLayer beforeJumpLineLayer)
+    // Offset: 0x10CCF9C
+    float NoteJumpGravityForLineLayer(GlobalNamespace::NoteLineLayer lineLayer, GlobalNamespace::NoteLineLayer beforeJumpLineLayer);
+    // private System.Single NoteJumpGravityForLineLayerWithoutJumpOffset(NoteLineLayer lineLayer, NoteLineLayer beforeJumpLineLayer)
+    // Offset: 0x10CD068
+    float NoteJumpGravityForLineLayerWithoutJumpOffset(GlobalNamespace::NoteLineLayer lineLayer, GlobalNamespace::NoteLineLayer beforeJumpLineLayer);
     // public System.Void .ctor()
-    // Offset: 0x1EF05C4
+    // Offset: 0x10CCAB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -582,8 +582,8 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnMovementData::*)(GlobalNamespace::NoteLineLayer, GlobalNamespace::NoteLineLayer)>(&GlobalNamespace::BeatmapObjectSpawnMovementData::NoteJumpGravityForLineLayer)> {
   static const MethodInfo* get() {
     static auto* lineLayer = &::il2cpp_utils::GetClassFromName("", "NoteLineLayer")->byval_arg;
-    static auto* startLineLayer = &::il2cpp_utils::GetClassFromName("", "NoteLineLayer")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "NoteJumpGravityForLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lineLayer, startLineLayer});
+    static auto* beforeJumpLineLayer = &::il2cpp_utils::GetClassFromName("", "NoteLineLayer")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "NoteJumpGravityForLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lineLayer, beforeJumpLineLayer});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnMovementData::NoteJumpGravityForLineLayerWithoutJumpOffset
@@ -592,8 +592,8 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnMovementData::*)(GlobalNamespace::NoteLineLayer, GlobalNamespace::NoteLineLayer)>(&GlobalNamespace::BeatmapObjectSpawnMovementData::NoteJumpGravityForLineLayerWithoutJumpOffset)> {
   static const MethodInfo* get() {
     static auto* lineLayer = &::il2cpp_utils::GetClassFromName("", "NoteLineLayer")->byval_arg;
-    static auto* startLineLayer = &::il2cpp_utils::GetClassFromName("", "NoteLineLayer")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "NoteJumpGravityForLineLayerWithoutJumpOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lineLayer, startLineLayer});
+    static auto* beforeJumpLineLayer = &::il2cpp_utils::GetClassFromName("", "NoteLineLayer")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "NoteJumpGravityForLineLayerWithoutJumpOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lineLayer, beforeJumpLineLayer});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnMovementData::New_ctor

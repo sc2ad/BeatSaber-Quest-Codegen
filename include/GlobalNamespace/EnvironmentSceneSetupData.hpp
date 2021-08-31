@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Boolean hideBranding
     void _set_hideBranding(bool value);
     // public System.Void .ctor(System.Boolean hideBranding)
-    // Offset: 0x1E8CE3C
+    // Offset: 0x1052C00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentSceneSetupData* New_ctor(bool hideBranding) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnvironmentSceneSetupData::.ctor");

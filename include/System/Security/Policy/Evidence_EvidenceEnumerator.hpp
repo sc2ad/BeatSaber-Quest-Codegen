@@ -59,20 +59,20 @@ namespace System::Security::Policy {
     // Set instance field: private System.Collections.IEnumerator assemblyEnum
     void _set_assemblyEnum(System::Collections::IEnumerator* value);
     // public System.Object get_Current()
-    // Offset: 0x176B5C0
+    // Offset: 0x1B4A7C0
     ::Il2CppObject* get_Current();
     // public System.Void .ctor(System.Collections.IEnumerator hostenum, System.Collections.IEnumerator assemblyenum)
-    // Offset: 0x176B2F8
+    // Offset: 0x1B4A4F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Evidence::EvidenceEnumerator* New_ctor(System::Collections::IEnumerator* hostenum, System::Collections::IEnumerator* assemblyenum) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Policy::Evidence::EvidenceEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Evidence::EvidenceEnumerator*, creationType>(hostenum, assemblyenum)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x176B334
+    // Offset: 0x1B4A534
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x176B480
+    // Offset: 0x1B4A680
     void Reset();
   }; // System.Security.Policy.Evidence/System.Security.Policy.EvidenceEnumerator
   #pragma pack(pop)

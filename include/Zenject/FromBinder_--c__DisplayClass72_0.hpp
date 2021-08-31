@@ -52,10 +52,10 @@ namespace Zenject {
     // Set instance field: public System.Object instance
     void _set_instance(::Il2CppObject* value);
     // Zenject.IProvider <FromInstanceBase>b__0(Zenject.DiContainer container, System.Type type)
-    // Offset: 0x13261C4
+    // Offset: 0x165E480
     Zenject::IProvider* $FromInstanceBase$b__0(Zenject::DiContainer* container, System::Type* type);
     // public System.Void .ctor()
-    // Offset: 0x13238E0
+    // Offset: 0x165BB9C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

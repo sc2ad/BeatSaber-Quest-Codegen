@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     // Set instance field: private MainSettingsModelSO _mainSettingsModel
     void _set__mainSettingsModel(GlobalNamespace::MainSettingsModelSO* value);
     // public System.Void .ctor()
-    // Offset: 0x1E62464
+    // Offset: 0x103DE90
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     // Base method: System.Void MonoInstaller::.ctor()
@@ -80,22 +80,22 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NetEaseAppInit*, creationType>()));
     }
     // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0x1E622BC
+    // Offset: 0x103DCE8
     // Implemented from: AppInit
     // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
     void AppStartAndMultiSceneEditorSetup();
     // protected override System.Void RepeatableSetup()
-    // Offset: 0x1E62328
+    // Offset: 0x103DD54
     // Implemented from: AppInit
     // Base method: System.Void AppInit::RepeatableSetup()
     void RepeatableSetup();
     // protected override System.Void TransitionToNextScene()
-    // Offset: 0x1E62374
+    // Offset: 0x103DDA0
     // Implemented from: AppInit
     // Base method: System.Void AppInit::TransitionToNextScene()
     void TransitionToNextScene();
     // public override System.Void InstallBindings()
-    // Offset: 0x1E623C0
+    // Offset: 0x103DDEC
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

@@ -45,10 +45,10 @@ namespace Zenject {
     // Set instance field: public System.String prefix
     void _set_prefix(::Il2CppString* value);
     // System.Boolean <WithPrefix>b__0(System.Type t)
-    // Offset: 0x1127258
+    // Offset: 0x13E2480
     bool $WithPrefix$b__0(System::Type* t);
     // public System.Void .ctor()
-    // Offset: 0x1126F10
+    // Offset: 0x13E2138
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -77,22 +77,22 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule _burnParticleSystemEmissionModule
     void _set__burnParticleSystemEmissionModule(UnityEngine::ParticleSystem::EmissionModule value);
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x2019588
+    // Offset: 0x12334B0
     void set_color(UnityEngine::Color value);
     // protected System.Void Awake()
-    // Offset: 0x2019694
+    // Offset: 0x12335BC
     void Awake();
     // public System.Void SetPositionAndRotation(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
-    // Offset: 0x20196FC
+    // Offset: 0x1233624
     void SetPositionAndRotation(UnityEngine::Vector3 pos, UnityEngine::Quaternion rot);
     // public System.Void StartEmission()
-    // Offset: 0x2019778
+    // Offset: 0x12336A0
     void StartEmission();
     // public System.Void StopEmission()
-    // Offset: 0x20197D0
+    // Offset: 0x12336F8
     void StopEmission();
     // public System.Void .ctor()
-    // Offset: 0x201983C
+    // Offset: 0x1233764
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

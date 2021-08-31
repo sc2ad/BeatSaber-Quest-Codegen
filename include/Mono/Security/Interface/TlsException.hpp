@@ -46,14 +46,14 @@ namespace Mono::Security::Interface {
     // Set instance field: private Mono.Security.Interface.Alert alert
     void _set_alert(Mono::Security::Interface::Alert* value);
     // public System.Void .ctor(Mono.Security.Interface.Alert alert, System.String message)
-    // Offset: 0x195195C
+    // Offset: 0x1E054E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TlsException* New_ctor(Mono::Security::Interface::Alert* alert, ::Il2CppString* message) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Interface::TlsException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TlsException*, creationType>(alert, message)));
     }
     // public System.Void .ctor(Mono.Security.Interface.AlertDescription description, System.String message)
-    // Offset: 0x19519E0
+    // Offset: 0x1E05564
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TlsException* New_ctor(Mono::Security::Interface::AlertDescription description, ::Il2CppString* message) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Interface::TlsException::.ctor");

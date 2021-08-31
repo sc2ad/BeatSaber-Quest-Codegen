@@ -60,25 +60,25 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int32 <value>k__BackingField
     void _set_$value$k__BackingField(int value);
     // public MissionObjective get_missionObjective()
-    // Offset: 0x1F68A4C
+    // Offset: 0x11D86CC
     GlobalNamespace::MissionObjective* get_missionObjective();
     // private System.Void set_missionObjective(MissionObjective value)
-    // Offset: 0x1F68A54
+    // Offset: 0x11D86D4
     void set_missionObjective(GlobalNamespace::MissionObjective* value);
     // public System.Boolean get_cleared()
-    // Offset: 0x1F68A5C
+    // Offset: 0x11D86DC
     bool get_cleared();
     // private System.Void set_cleared(System.Boolean value)
-    // Offset: 0x1F68A64
+    // Offset: 0x11D86E4
     void set_cleared(bool value);
     // public System.Int32 get_value()
-    // Offset: 0x1F68A70
+    // Offset: 0x11D86F0
     int get_value();
     // private System.Void set_value(System.Int32 value)
-    // Offset: 0x1F68A78
+    // Offset: 0x11D86F8
     void set_value(int value);
     // public System.Void .ctor(MissionObjective missionObjective, System.Boolean cleared, System.Int32 value)
-    // Offset: 0x1F684F0
+    // Offset: 0x11D8170
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionObjectiveResult* New_ctor(GlobalNamespace::MissionObjective* missionObjective, bool cleared, int value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionObjectiveResult::.ctor");

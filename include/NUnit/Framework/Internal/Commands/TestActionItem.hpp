@@ -53,17 +53,17 @@ namespace NUnit::Framework::Internal::Commands {
     // Set instance field: private System.Boolean _beforeTestWasRun
     void _set__beforeTestWasRun(bool value);
     // public System.Void .ctor(NUnit.Framework.ITestAction action)
-    // Offset: 0x142CC6C
+    // Offset: 0x177890C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestActionItem* New_ctor(NUnit::Framework::ITestAction* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Commands::TestActionItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestActionItem*, creationType>(action)));
     }
     // public System.Void BeforeTest(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x142BBF0
+    // Offset: 0x1777890
     void BeforeTest(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void AfterTest(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x142C1F4
+    // Offset: 0x1777E94
     void AfterTest(NUnit::Framework::Interfaces::ITest* test);
   }; // NUnit.Framework.Internal.Commands.TestActionItem
   #pragma pack(pop)

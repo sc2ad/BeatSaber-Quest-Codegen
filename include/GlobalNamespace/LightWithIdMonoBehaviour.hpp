@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: _ID and: lightManager
     char __padding0[0x4] = {};
-    // [InjectAttribute] Offset: 0xE8EF90
+    // [InjectAttribute] Offset: 0xE14D30
     // private readonly LightWithIdManager _lightManager
     // Size: 0x8
     // Offset: 0x20
@@ -76,37 +76,37 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _isRegistered
     void _set__isRegistered(bool value);
     // public System.Int32 get_lightId()
-    // Offset: 0x1966BFC
+    // Offset: 0x1E1A780
     int get_lightId();
     // public System.Boolean get_isRegistered()
-    // Offset: 0x1966C04
+    // Offset: 0x1E1A788
     bool get_isRegistered();
     // public System.Void __SetIsRegistered()
-    // Offset: 0x1966C0C
+    // Offset: 0x1E1A790
     void __SetIsRegistered();
     // public System.Void __SetIsUnRegistered()
-    // Offset: 0x1966C18
+    // Offset: 0x1E1A79C
     void __SetIsUnRegistered();
     // public System.Void ColorWasSet(UnityEngine.Color color)
     // Offset: 0xFFFFFFFF
     void ColorWasSet(UnityEngine::Color color);
     // protected System.Void OnEnable()
-    // Offset: 0x1966C20
+    // Offset: 0x1E1A7A4
     void OnEnable();
     // protected System.Void Start()
-    // Offset: 0x1966CB8
+    // Offset: 0x1E1A83C
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x1966CBC
+    // Offset: 0x1E1A840
     void OnDisable();
     // private System.Void RegisterLight()
-    // Offset: 0x1966C24
+    // Offset: 0x1E1A7A8
     void RegisterLight();
     // public System.Void SetLightId(System.Int32 newLightId)
-    // Offset: 0x1966D50
+    // Offset: 0x1E1A8D4
     void SetLightId(int newLightId);
     // protected System.Void .ctor()
-    // Offset: 0x195F9F8
+    // Offset: 0x1E1357C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     UnityEngine::Playables::PlayableDirector* outroPlayableDirector;
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::PlayableDirector*) == 0x8);
-    // [InjectAttribute] Offset: 0xEB46D4
+    // [InjectAttribute] Offset: 0xE3A4B4
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x20
@@ -58,10 +58,10 @@ namespace GlobalNamespace {
     // Set instance field: private readonly MultiplayerController _multiplayerController
     void _set__multiplayerController(GlobalNamespace::MultiplayerController* value);
     // protected System.Void Start()
-    // Offset: 0x1E7AC1C
+    // Offset: 0x106B158
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x1E7AC5C
+    // Offset: 0x106B198
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

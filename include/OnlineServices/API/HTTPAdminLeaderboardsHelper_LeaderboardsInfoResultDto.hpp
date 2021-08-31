@@ -37,7 +37,7 @@ namespace OnlineServices::API {
     // Set instance field: public OnlineServices.API.HTTPAdminLeaderboardsHelper/OnlineServices.API.LeaderboardsInfoDto[] leaderboardsInfos
     void _set_leaderboardsInfos(::Array<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1E48B0C
+    // Offset: 0x10260A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

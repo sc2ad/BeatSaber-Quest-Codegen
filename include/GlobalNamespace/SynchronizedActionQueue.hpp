@@ -72,7 +72,7 @@ namespace GlobalNamespace {
       // Set instance field: public readonly System.Action action
       void _set_action(System::Action* value);
       // public System.Void .ctor(System.Single time, System.Action action)
-      // Offset: 0xF8C828
+      // Offset: 0x16FB638
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  SynchronizedAction(float time, System::Action* action)
     }; // SynchronizedActionQueue/SynchronizedAction
@@ -96,16 +96,16 @@ namespace GlobalNamespace {
     // Set instance field: private readonly System.Collections.Generic.List`1<SynchronizedActionQueue/SynchronizedAction> _synchronizedActionQueue
     void _set__synchronizedActionQueue(System::Collections::Generic::List_1<GlobalNamespace::SynchronizedActionQueue::SynchronizedAction>* value);
     // public System.Void Clear()
-    // Offset: 0x23D41A0
+    // Offset: 0x16ED8F0
     void Clear();
     // public System.Void EnqueueAction(System.Single time, System.Action action)
-    // Offset: 0x23D41F8
+    // Offset: 0x16ED9D4
     void EnqueueAction(float time, System::Action* action);
     // public System.Void Update(System.Single time)
-    // Offset: 0x23D427C
+    // Offset: 0x16EDA4C
     void Update(float time);
     // public System.Void .ctor()
-    // Offset: 0x23D4394
+    // Offset: 0x16EEA10
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -57,30 +57,30 @@ namespace System::Security::Util {
     // Set instance field: private System.Security.Util.Tokenizer _t
     void _set__t(System::Security::Util::Tokenizer* value);
     // private System.Void .ctor(System.Security.Util.Tokenizer t)
-    // Offset: 0x176FE0C
+    // Offset: 0x1B4F00C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Parser* New_ctor(System::Security::Util::Tokenizer* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Util::Parser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Parser*, creationType>(t)));
     }
     // System.Void .ctor(System.String input)
-    // Offset: 0x175C61C
+    // Offset: 0x1B3B81C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Parser* New_ctor(::Il2CppString* input) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Util::Parser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Parser*, creationType>(input)));
     }
     // System.Security.SecurityElement GetTopElement()
-    // Offset: 0x175C690
+    // Offset: 0x1B3B890
     System::Security::SecurityElement* GetTopElement();
     // private System.Void GetRequiredSizes(System.Security.Util.TokenizerStream stream, ref System.Int32 index)
-    // Offset: 0x176F320
+    // Offset: 0x1B4E520
     void GetRequiredSizes(System::Security::Util::TokenizerStream* stream, ByRef<int> index);
     // private System.Int32 DetermineFormat(System.Security.Util.TokenizerStream stream)
-    // Offset: 0x176F930
+    // Offset: 0x1B4EB30
     int DetermineFormat(System::Security::Util::TokenizerStream* stream);
     // private System.Void ParseContents()
-    // Offset: 0x176FB20
+    // Offset: 0x1B4ED20
     void ParseContents();
   }; // System.Security.Util.Parser
   #pragma pack(pop)

@@ -92,7 +92,7 @@ namespace OnlineServices {
     // Set instance field: public readonly GameplayModifiers gameplayModifiers
     void _set_gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
     // public System.Void .ctor(IDifficultyBeatmap beatmap, System.Int32 count, System.Int32 fromRank, OnlineServices.ScoresScope scope, GameplayModifiers gameplayModifiers)
-    // Offset: 0xF7B59C
+    // Offset: 0x1029568
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  GetLeaderboardFilterData(GlobalNamespace::IDifficultyBeatmap* beatmap, int count, int fromRank, OnlineServices::ScoresScope scope, GlobalNamespace::GameplayModifiers* gameplayModifiers)
   }; // OnlineServices.GetLeaderboardFilterData

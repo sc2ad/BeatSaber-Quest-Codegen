@@ -71,7 +71,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly UnityEngine.Vector3 p3
     void _set_p3(UnityEngine::Vector3 value);
     // public System.Void .ctor(UnityEngine.Vector3 p0, UnityEngine.Vector3 p1, UnityEngine.Vector3 p2, UnityEngine.Vector3 p3)
-    // Offset: 0xF7BB90
+    // Offset: 0x10CF400
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  BezierCurve(UnityEngine::Vector3 p0, UnityEngine::Vector3 p1, UnityEngine::Vector3 p2, UnityEngine::Vector3 p3)
   }; // BezierCurve

@@ -56,16 +56,16 @@ namespace GlobalNamespace {
     // Set instance field: private System.String _currentShownKeyword
     void _set__currentShownKeyword(::Il2CppString* value);
     // public BaseResultsEnvironmentController GetResultEnvironmentControllerForKeyword(System.String keyword)
-    // Offset: 0x1F73F24
+    // Offset: 0x118BA58
     GlobalNamespace::BaseResultsEnvironmentController* GetResultEnvironmentControllerForKeyword(::Il2CppString* keyword);
     // public System.Void ShowResultForKeyword(System.String keyword, System.Boolean immediately)
-    // Offset: 0x1F73FF8
+    // Offset: 0x118BB2C
     void ShowResultForKeyword(::Il2CppString* keyword, bool immediately);
     // public System.Void HideResultForKeyword(System.String keyword, System.Boolean immediately)
-    // Offset: 0x1F740A8
+    // Offset: 0x118BBDC
     void HideResultForKeyword(::Il2CppString* keyword, bool immediately);
     // public System.Void .ctor()
-    // Offset: 0x1F74150
+    // Offset: 0x118BC84
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

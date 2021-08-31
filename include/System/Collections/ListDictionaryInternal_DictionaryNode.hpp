@@ -53,7 +53,7 @@ namespace System::Collections {
     // Set instance field: public System.Collections.ListDictionaryInternal/System.Collections.DictionaryNode next
     void _set_next(System::Collections::ListDictionaryInternal::DictionaryNode* value);
     // public System.Void .ctor()
-    // Offset: 0x1618D54
+    // Offset: 0x19B2998
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

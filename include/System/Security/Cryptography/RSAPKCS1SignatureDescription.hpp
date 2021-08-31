@@ -37,7 +37,7 @@ namespace System::Security::Cryptography {
     // Set instance field: private System.String _hashAlgorithm
     void _set__hashAlgorithm(::Il2CppString* value);
     // protected System.Void .ctor(System.String hashAlgorithm, System.String digestAlgorithm)
-    // Offset: 0x175DBF0
+    // Offset: 0x1B3CDF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RSAPKCS1SignatureDescription* New_ctor(::Il2CppString* hashAlgorithm, ::Il2CppString* digestAlgorithm) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::RSAPKCS1SignatureDescription::.ctor");

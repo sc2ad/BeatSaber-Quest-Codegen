@@ -45,13 +45,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<IPreviewBeatmapLevel,System.String> <>9__3_0
     static void _set_$$9__3_0(System::Func_2<GlobalNamespace::IPreviewBeatmapLevel*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1F27B7C
+    // Offset: 0x11788FC
     static void _cctor();
     // System.String <CreateData>b__3_0(IPreviewBeatmapLevel x)
-    // Offset: 0x1F27BE8
+    // Offset: 0x1178968
     ::Il2CppString* $CreateData$b__3_0(GlobalNamespace::IPreviewBeatmapLevel* x);
     // public System.Void .ctor()
-    // Offset: 0x1F27BE0
+    // Offset: 0x1178960
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -45,10 +45,10 @@ namespace Polyglot {
     // Set instance field: public Polyglot.Localization settings
     void _set_settings(Polyglot::Localization* value);
     // System.Void <DownloadCustomSheet>b__0(System.String s)
-    // Offset: 0x1DB5FEC
+    // Offset: 0x2382F7C
     void $DownloadCustomSheet$b__0(::Il2CppString* s);
     // public System.Void .ctor()
-    // Offset: 0x1DB5620
+    // Offset: 0x23825B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

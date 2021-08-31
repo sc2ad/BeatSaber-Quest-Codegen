@@ -25,28 +25,28 @@ namespace System {
     // Creating value type constructor for type: IPv6AddressHelper
     IPv6AddressHelper() noexcept {}
     // static System.String ParseCanonicalName(System.String str, System.Int32 start, ref System.Boolean isLoopback, ref System.String scopeId)
-    // Offset: 0x15295C0
+    // Offset: 0x18BEBC4
     static ::Il2CppString* ParseCanonicalName(::Il2CppString* str, int start, ByRef<bool> isLoopback, ByRef<::Il2CppString*> scopeId);
     // static System.String CreateCanonicalName(System.UInt16* numbers)
-    // Offset: 0x1529B70
+    // Offset: 0x18BF174
     static ::Il2CppString* CreateCanonicalName(uint16_t* numbers);
     // static private System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> FindCompressionRange(System.UInt16* numbers)
-    // Offset: 0x152A17C
+    // Offset: 0x18BF780
     static System::Collections::Generic::KeyValuePair_2<int, int> FindCompressionRange(uint16_t* numbers);
     // static private System.Boolean ShouldHaveIpv4Embedded(System.UInt16* numbers)
-    // Offset: 0x152A254
+    // Offset: 0x18BF858
     static bool ShouldHaveIpv4Embedded(uint16_t* numbers);
     // static private System.Boolean InternalIsValid(System.Char* name, System.Int32 start, ref System.Int32 end, System.Boolean validateStrictAddress)
-    // Offset: 0x152A2E4
+    // Offset: 0x18BF8E8
     static bool InternalIsValid(::Il2CppChar* name, int start, ByRef<int> end, bool validateStrictAddress);
     // static System.Boolean IsValid(System.Char* name, System.Int32 start, ref System.Int32 end)
-    // Offset: 0x152A5B8
+    // Offset: 0x18BFBBC
     static bool IsValid(::Il2CppChar* name, int start, ByRef<int> end);
     // static System.Boolean IsValidStrict(System.Char* name, System.Int32 start, ref System.Int32 end)
-    // Offset: 0x152A5C0
+    // Offset: 0x18BFBC4
     static bool IsValidStrict(::Il2CppChar* name, int start, ByRef<int> end);
     // static System.Boolean Parse(System.String address, System.UInt16* numbers, System.Int32 start, ref System.String scopeId)
-    // Offset: 0x1529684
+    // Offset: 0x18BEC88
     static bool Parse(::Il2CppString* address, uint16_t* numbers, int start, ByRef<::Il2CppString*> scopeId);
   }; // System.IPv6AddressHelper
   #pragma pack(pop)

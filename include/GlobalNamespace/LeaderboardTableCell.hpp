@@ -107,25 +107,25 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.UI.Image _separatorImage
     void _set__separatorImage(UnityEngine::UI::Image* value);
     // public System.Void set_rank(System.Int32 value)
-    // Offset: 0x1F421A8
+    // Offset: 0x1148AC0
     void set_rank(int value);
     // public System.Void set_playerName(System.String value)
-    // Offset: 0x1F421EC
+    // Offset: 0x1148B04
     void set_playerName(::Il2CppString* value);
     // public System.Void set_score(System.Int32 value)
-    // Offset: 0x1F42208
+    // Offset: 0x1148B20
     void set_score(int value);
     // public System.Void set_showSeparator(System.Boolean value)
-    // Offset: 0x1F422AC
+    // Offset: 0x1148BC4
     void set_showSeparator(bool value);
     // public System.Void set_showFullCombo(System.Boolean value)
-    // Offset: 0x1F422CC
+    // Offset: 0x1148BE4
     void set_showFullCombo(bool value);
     // public System.Void set_specialScore(System.Boolean value)
-    // Offset: 0x1F422EC
+    // Offset: 0x1148C04
     void set_specialScore(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1F423F0
+    // Offset: 0x1148D08
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

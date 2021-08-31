@@ -57,10 +57,10 @@ namespace Mono::Net::Security::Private {
     // Set instance field: public Mono.Security.Interface.MonoRemoteCertificateValidationCallback callback
     void _set_callback(Mono::Security::Interface::MonoRemoteCertificateValidationCallback* value);
     // System.Boolean <MonoToPublic>b__0(System.Object t, System.Security.Cryptography.X509Certificates.X509Certificate c, System.Security.Cryptography.X509Certificates.X509Chain ch, System.Net.Security.SslPolicyErrors e)
-    // Offset: 0x12B4834
+    // Offset: 0x15ECAC4
     bool $MonoToPublic$b__0(::Il2CppObject* t, System::Security::Cryptography::X509Certificates::X509Certificate* c, System::Security::Cryptography::X509Certificates::X509Chain* ch, System::Net::Security::SslPolicyErrors e);
     // public System.Void .ctor()
-    // Offset: 0x12B4808
+    // Offset: 0x15ECA98
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

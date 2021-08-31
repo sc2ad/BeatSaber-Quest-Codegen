@@ -45,14 +45,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: setColorOnly and: intensity
     char __padding1[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xE8EE18
+    // [DrawIfAttribute] Offset: 0xE14BB8
     // private System.Single _intensity
     // Size: 0x4
     // Offset: 0x3C
     float intensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0xE8EEBC
+    // [DrawIfAttribute] Offset: 0xE14C5C
     // private System.Single _minAlpha
     // Size: 0x4
     // Offset: 0x40
@@ -98,7 +98,7 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _startColorWasSet
     void _set__startColorWasSet(bool value);
     // public System.Void .ctor()
-    // Offset: 0x19638B8
+    // Offset: 0x1E1743C
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -112,7 +112,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<InstancedMaterialLightWithId*, creationType>()));
     }
     // public override System.Void ColorWasSet(UnityEngine.Color newColor)
-    // Offset: 0x19637B8
+    // Offset: 0x1E1733C
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color newColor)
     void ColorWasSet(UnityEngine::Color newColor);

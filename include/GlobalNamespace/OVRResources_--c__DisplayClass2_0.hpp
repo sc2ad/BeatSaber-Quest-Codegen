@@ -38,10 +38,10 @@ namespace GlobalNamespace {
     // Set instance field: public System.String path
     void _set_path(::Il2CppString* value);
     // System.Boolean <Load>b__0(System.String s)
-    // Offset: 0x12FD768
+    // Offset: 0x16359F8
     bool $Load$b__0(::Il2CppString* s);
     // public System.Void .ctor()
-    // Offset: 0x12FD6A0
+    // Offset: 0x1635930
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

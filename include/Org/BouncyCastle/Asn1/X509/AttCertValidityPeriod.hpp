@@ -54,23 +54,23 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Set instance field: private readonly Org.BouncyCastle.Asn1.DerGeneralizedTime notAfterTime
     void _set_notAfterTime(Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
     // public Org.BouncyCastle.Asn1.DerGeneralizedTime get_NotBeforeTime()
-    // Offset: 0x168D73C
+    // Offset: 0x19F6BB4
     Org::BouncyCastle::Asn1::DerGeneralizedTime* get_NotBeforeTime();
     // public Org.BouncyCastle.Asn1.DerGeneralizedTime get_NotAfterTime()
-    // Offset: 0x168D744
+    // Offset: 0x19F6BBC
     Org::BouncyCastle::Asn1::DerGeneralizedTime* get_NotAfterTime();
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x168D604
+    // Offset: 0x19F6A7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AttCertValidityPeriod* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AttCertValidityPeriod*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.X509.AttCertValidityPeriod GetInstance(System.Object obj)
-    // Offset: 0x168D484
+    // Offset: 0x19F68FC
     static Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod* GetInstance(::Il2CppObject* obj);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x168D74C
+    // Offset: 0x19F6BC4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

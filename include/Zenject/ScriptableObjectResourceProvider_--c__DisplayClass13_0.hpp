@@ -79,10 +79,10 @@ namespace Zenject {
     // Set instance field: public Zenject.InjectContext context
     void _set_context(Zenject::InjectContext* value);
     // System.Void <GetAllInstancesWithInjectSplit>b__0()
-    // Offset: 0x13D1E20
+    // Offset: 0x171DB08
     void $GetAllInstancesWithInjectSplit$b__0();
     // public System.Void .ctor()
-    // Offset: 0x13D1E18
+    // Offset: 0x171DB00
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

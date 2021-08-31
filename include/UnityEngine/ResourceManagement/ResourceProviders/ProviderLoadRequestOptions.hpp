@@ -35,13 +35,13 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Set instance field: private System.Boolean m_IgnoreFailures
     void _set_m_IgnoreFailures(bool value);
     // System.Boolean get_IgnoreFailures()
-    // Offset: 0x1671BAC
+    // Offset: 0x19F0CDC
     bool get_IgnoreFailures();
     // System.Void set_IgnoreFailures(System.Boolean value)
-    // Offset: 0x1671BB4
+    // Offset: 0x19F0CE4
     void set_IgnoreFailures(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1671BC0
+    // Offset: 0x19F0CF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

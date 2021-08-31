@@ -31,19 +31,19 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Set static field: static public readonly System.Collections.IEnumerator Instance
     static void _set_Instance(System::Collections::IEnumerator* value);
     // public System.Object get_Current()
-    // Offset: 0x1116B08
+    // Offset: 0x13D1D30
     ::Il2CppObject* get_Current();
     // static private System.Void .cctor()
-    // Offset: 0x1116B74
+    // Offset: 0x13D1D9C
     static void _cctor();
     // public System.Boolean MoveNext()
-    // Offset: 0x1116AFC
+    // Offset: 0x13D1D24
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1116B04
+    // Offset: 0x13D1D2C
     void Reset();
     // private System.Void .ctor()
-    // Offset: 0x1116AF4
+    // Offset: 0x13D1D1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

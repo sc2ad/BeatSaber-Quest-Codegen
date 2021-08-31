@@ -30,7 +30,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Creating value type constructor for type: RSACertificateExtensions
     RSACertificateExtensions() noexcept {}
     // static public System.Security.Cryptography.RSA GetRSAPublicKey(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x1DECFE0
+    // Offset: 0x23BC0F8
     static System::Security::Cryptography::RSA* GetRSAPublicKey(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
   }; // System.Security.Cryptography.X509Certificates.RSACertificateExtensions
   #pragma pack(pop)

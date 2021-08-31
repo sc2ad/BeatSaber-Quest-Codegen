@@ -44,14 +44,14 @@ namespace System::Runtime::CompilerServices {
     // Set instance field: private System.Object m_wrappedException
     void _set_m_wrappedException(::Il2CppObject* value);
     // private System.Void .ctor(System.Object thrownObject)
-    // Offset: 0x1198E2C
+    // Offset: 0x1486F5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RuntimeWrappedException* New_ctor(::Il2CppObject* thrownObject) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::RuntimeWrappedException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeWrappedException*, creationType>(thrownObject)));
     }
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1198FE8
+    // Offset: 0x1487118
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -60,7 +60,7 @@ namespace System::Runtime::CompilerServices {
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeWrappedException*, creationType>(info, context)));
     }
     // System.Void .ctor()
-    // Offset: 0x11990DC
+    // Offset: 0x148720C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -70,7 +70,7 @@ namespace System::Runtime::CompilerServices {
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeWrappedException*, creationType>()));
     }
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1198EDC
+    // Offset: 0x148700C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);

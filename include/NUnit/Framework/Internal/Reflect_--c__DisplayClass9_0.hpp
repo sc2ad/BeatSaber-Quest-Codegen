@@ -61,10 +61,10 @@ namespace NUnit::Framework::Internal {
     // Set instance field: public System.Object[] args
     void _set_args(::Array<::Il2CppObject*>* value);
     // System.Object <InvokeMethod>b__0()
-    // Offset: 0x1D0D22C
+    // Offset: 0x229AD68
     ::Il2CppObject* $InvokeMethod$b__0();
     // public System.Void .ctor()
-    // Offset: 0x1D0D0E0
+    // Offset: 0x229AC1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

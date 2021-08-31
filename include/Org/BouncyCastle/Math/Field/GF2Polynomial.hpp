@@ -41,25 +41,25 @@ namespace Org::BouncyCastle::Math::Field {
     // Set instance field: protected readonly System.Int32[] exponents
     void _set_exponents(::Array<int>* value);
     // public System.Int32 get_Degree()
-    // Offset: 0x1910EB4
+    // Offset: 0x1DD6EF8
     int get_Degree();
     // System.Void .ctor(System.Int32[] exponents)
-    // Offset: 0x1910B6C
+    // Offset: 0x1DD6BB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GF2Polynomial* New_ctor(::Array<int>* exponents) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::Field::GF2Polynomial::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GF2Polynomial*, creationType>(exponents)));
     }
     // public System.Int32[] GetExponentsPresent()
-    // Offset: 0x1910EF4
+    // Offset: 0x1DD6F38
     ::Array<int>* GetExponentsPresent();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1910F60
+    // Offset: 0x1DD6FA4
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1911048
+    // Offset: 0x1DD708C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

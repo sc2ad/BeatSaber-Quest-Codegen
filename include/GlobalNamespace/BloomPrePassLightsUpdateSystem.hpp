@@ -23,10 +23,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BloomPrePassLightsUpdateSystem
     BloomPrePassLightsUpdateSystem() noexcept {}
     // protected System.Void LateUpdate()
-    // Offset: 0x1960A4C
+    // Offset: 0x1E145D0
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x1960CF8
+    // Offset: 0x1E1487C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

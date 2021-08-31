@@ -166,7 +166,7 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Vector3 _afterSpawnRotation
     void _set__afterSpawnRotation(UnityEngine::Vector3 value);
     // public System.Void .ctor()
-    // Offset: 0x1FB00A0
+    // Offset: 0x10E6378
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

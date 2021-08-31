@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Set instance field: public OculusNetworkPlayerModel oculusNetworkPlayerModel
     void _set_oculusNetworkPlayerModel(GlobalNamespace::OculusNetworkPlayerModel* value);
     // public System.Void .ctor()
-    // Offset: 0x201F8A4
+    // Offset: 0x12397CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

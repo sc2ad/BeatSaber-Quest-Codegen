@@ -18,7 +18,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: StringExtensions
     StringExtensions() noexcept {}
     // static public System.String Truncate(System.String s, System.Int32 length, System.Boolean appendEllipsis)
-    // Offset: 0x1DE2FEC
+    // Offset: 0x2399314
     static ::Il2CppString* Truncate(::Il2CppString* s, int length, bool appendEllipsis);
   }; // StringExtensions
   #pragma pack(pop)

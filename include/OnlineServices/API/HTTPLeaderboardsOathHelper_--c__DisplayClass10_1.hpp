@@ -57,10 +57,10 @@ namespace OnlineServices::API {
     // Set instance field: public OnlineServices.API.HTTPLeaderboardsOathHelper/OnlineServices.API.<>c__DisplayClass10_0 CS$<>8__locals1
     void _set_CS$$$8__locals1(OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0* value);
     // System.Void <SendWebRequestAsync>b__0(UnityEngine.AsyncOperation asyncOperation2)
-    // Offset: 0x1E49D94
+    // Offset: 0x102732C
     void $SendWebRequestAsync$b__0(UnityEngine::AsyncOperation* asyncOperation2);
     // public System.Void .ctor()
-    // Offset: 0x1E49D8C
+    // Offset: 0x1027324
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

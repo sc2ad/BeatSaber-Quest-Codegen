@@ -150,19 +150,19 @@ namespace UnityEngine::EventSystems {
     // Set instance field: public System.Int32 displayIndex
     void _set_displayIndex(int value);
     // public UnityEngine.GameObject get_gameObject()
-    // Offset: 0xD6BF80
+    // Offset: 0x146DB88
     UnityEngine::GameObject* get_gameObject();
     // public System.Void set_gameObject(UnityEngine.GameObject value)
-    // Offset: 0xD6BF88
+    // Offset: 0x146DB90
     void set_gameObject(UnityEngine::GameObject* value);
     // public System.Boolean get_isValid()
-    // Offset: 0xD6BF90
+    // Offset: 0x146DB98
     bool get_isValid();
     // public System.Void Clear()
-    // Offset: 0xD6BF98
+    // Offset: 0x146DC54
     void Clear();
     // public override System.String ToString()
-    // Offset: 0xD6BFA0
+    // Offset: 0x146C00C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

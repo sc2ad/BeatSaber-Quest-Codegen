@@ -68,10 +68,10 @@ namespace Zenject {
     // Set instance field: public System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities
     void _set_priorities(System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* value);
     // Zenject.PoolableManager/Zenject.PoolableInfo <.ctor>b__0(Zenject.IPoolable x)
-    // Offset: 0x13C8E4C
+    // Offset: 0x1714B34
     Zenject::PoolableManager::PoolableInfo $_ctor$b__0(Zenject::IPoolable* x);
     // public System.Void .ctor()
-    // Offset: 0x13C8960
+    // Offset: 0x1714648
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -83,37 +83,37 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int32 _lastKnowScore
     void _set__lastKnowScore(int value);
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, IGameplayRpcManager gameplayRpcManager, IMockPlayerScoreCalculator scoreCalculator, System.Boolean leftHanded)
-    // Offset: 0x1E047E4
+    // Offset: 0x23E1358
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockPlayerGamePoseGeneratorAI* New_ctor(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, GlobalNamespace::IMockPlayerScoreCalculator* scoreCalculator, bool leftHanded) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MockPlayerGamePoseGeneratorAI::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockPlayerGamePoseGeneratorAI*, creationType>(multiplayerSessionManager, gameplayRpcManager, scoreCalculator, leftHanded)));
     }
     // static private UnityEngine.Vector3 GetCutDirection(NoteCutDirection cutDirection)
-    // Offset: 0x1E048FC
+    // Offset: 0x23E1470
     static UnityEngine::Vector3 GetCutDirection(GlobalNamespace::NoteCutDirection cutDirection);
     // static private UnityEngine.Vector3 GetNotePosition(System.Int32 lineCount, MockNoteData noteData)
-    // Offset: 0x1E04B08
+    // Offset: 0x23E167C
     static UnityEngine::Vector3 GetNotePosition(int lineCount, GlobalNamespace::MockNoteData* noteData);
     // static private UnityEngine.Vector3 Blerp(UnityEngine.Vector3 prevStart, UnityEngine.Vector3 prevEnd, UnityEngine.Vector3 currStart, UnityEngine.Vector3 currEnd, System.Single t)
-    // Offset: 0x1E04B98
+    // Offset: 0x23E170C
     static UnityEngine::Vector3 Blerp(UnityEngine::Vector3 prevStart, UnityEngine::Vector3 prevEnd, UnityEngine::Vector3 currStart, UnityEngine::Vector3 currEnd, float t);
     // private UnityEngine.Pose ProcessNotes(MockNoteData[] notes, UnityEngine.Vector3 handDirection, ref System.Int32 noteIndex, ref System.Int32 prevHitScore, ref System.Int32 nextHitScore, MockNoteData[] bombs, ref System.Int32 bombIndex, System.Int32 lineCount, System.Single songTime, out System.Boolean wasHitOrMiss)
-    // Offset: 0x1E04D70
+    // Offset: 0x23E18E4
     UnityEngine::Pose ProcessNotes(::Array<GlobalNamespace::MockNoteData*>* notes, UnityEngine::Vector3 handDirection, ByRef<int> noteIndex, ByRef<int> prevHitScore, ByRef<int> nextHitScore, ::Array<GlobalNamespace::MockNoteData*>* bombs, ByRef<int> bombIndex, int lineCount, float songTime, ByRef<bool> wasHitOrMiss);
     // private UnityEngine.Pose ProcessObstacles(MockObstacleData[] obstacles, ref System.Int32 obstacleIndex, System.Int32 lineCount, UnityEngine.Pose prevHeadPose, UnityEngine.Pose leftHandPose, UnityEngine.Pose rightHandPose, System.Single songTime)
-    // Offset: 0x1E06054
+    // Offset: 0x23E2BC8
     UnityEngine::Pose ProcessObstacles(::Array<GlobalNamespace::MockObstacleData*>* obstacles, ByRef<int> obstacleIndex, int lineCount, UnityEngine::Pose prevHeadPose, UnityEngine::Pose leftHandPose, UnityEngine::Pose rightHandPose, float songTime);
     // private System.Void UpdateScore(ref System.Int32 currentScore, ref System.Int32 currentCombo, ref System.Int32 currentMultiplier, System.Int32 hitScore, System.Int32 lineCount, UnityEngine.Pose lastPose, UnityEngine.Pose currentPose, System.Single lastSongTime, System.Single songTime, MockNoteData noteData, MockNoteData nextNoteData)
-    // Offset: 0x1E06404
+    // Offset: 0x23E2F78
     void UpdateScore(ByRef<int> currentScore, ByRef<int> currentCombo, ByRef<int> currentMultiplier, int hitScore, int lineCount, UnityEngine::Pose lastPose, UnityEngine::Pose currentPose, float lastSongTime, float songTime, GlobalNamespace::MockNoteData* noteData, GlobalNamespace::MockNoteData* nextNoteData);
     // public override System.Void SendPoses(System.Single introStartTime, MockBeatmapData beatmapData, GameplayModifiers gameplayModifiers, System.Threading.CancellationToken cancellationToken, System.Action onSongFinished)
-    // Offset: 0x1E04810
+    // Offset: 0x23E1384
     // Implemented from: MockPlayerGamePoseGenerator
     // Base method: System.Void MockPlayerGamePoseGenerator::SendPoses(System.Single introStartTime, MockBeatmapData beatmapData, GameplayModifiers gameplayModifiers, System.Threading.CancellationToken cancellationToken, System.Action onSongFinished)
     void SendPoses(float introStartTime, GlobalNamespace::MockBeatmapData* beatmapData, GlobalNamespace::GameplayModifiers* gameplayModifiers, System::Threading::CancellationToken cancellationToken, System::Action* onSongFinished);
     // public override System.Void SimulateFail()
-    // Offset: 0x1E06B50
+    // Offset: 0x23E36C4
     // Implemented from: MockPlayerGamePoseGenerator
     // Base method: System.Void MockPlayerGamePoseGenerator::SimulateFail()
     void SimulateFail();

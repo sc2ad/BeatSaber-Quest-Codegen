@@ -54,10 +54,10 @@ namespace GlobalNamespace {
     // Set instance field: private ModifiersSelectionView _modifiersSelectionView
     void _set__modifiersSelectionView(GlobalNamespace::ModifiersSelectionView* value);
     // public System.Void SetLevelGameplaySetupData(ILevelGameplaySetupData levelGameplaySetupData)
-    // Offset: 0x1EFA568
+    // Offset: 0x10EA37C
     void SetLevelGameplaySetupData(GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
     // public System.Void .ctor()
-    // Offset: 0x1EFA79C
+    // Offset: 0x10EA5B0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -80,10 +80,10 @@ namespace Zenject {
     // Set instance field: public Zenject.SubContainerBinder <>4__this
     void _set_$$4__this(Zenject::SubContainerBinder* value);
     // Zenject.ISubContainerCreator <ByNewPrefabResourceInstaller>b__0(Zenject.DiContainer container)
-    // Offset: 0x13D3A98
+    // Offset: 0x171F780
     Zenject::ISubContainerCreator* $ByNewPrefabResourceInstaller$b__0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x13D30B8
+    // Offset: 0x171EDA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

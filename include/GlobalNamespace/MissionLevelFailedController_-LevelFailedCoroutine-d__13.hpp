@@ -79,26 +79,26 @@ namespace GlobalNamespace {
     // Set instance field: private MissionCompletionResults <missionCompletionResults>5__2
     void _set_$missionCompletionResults$5__2(GlobalNamespace::MissionCompletionResults* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1F62980
+    // Offset: 0x11D2600
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1F629E8
+    // Offset: 0x11D2668
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1F625D0
+    // Offset: 0x11D2250
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionLevelFailedController::$LevelFailedCoroutine$d__13* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionLevelFailedController::$LevelFailedCoroutine$d__13::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelFailedController::$LevelFailedCoroutine$d__13*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1F62604
+    // Offset: 0x11D2284
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1F62608
+    // Offset: 0x11D2288
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1F62988
+    // Offset: 0x11D2608
     void System_Collections_IEnumerator_Reset();
   }; // MissionLevelFailedController/<LevelFailedCoroutine>d__13
   #pragma pack(pop)

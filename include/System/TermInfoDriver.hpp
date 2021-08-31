@@ -480,110 +480,110 @@ namespace System {
     // Set instance field: private System.Int32 echon
     void _set_echon(int value);
     // public System.Boolean get_Initialized()
-    // Offset: 0x17C07F4
+    // Offset: 0x1C0E588
     bool get_Initialized();
     // public System.Int32 get_WindowHeight()
-    // Offset: 0x17C12E4
+    // Offset: 0x1C0F078
     int get_WindowHeight();
     // public System.Int32 get_WindowWidth()
-    // Offset: 0x17C12AC
+    // Offset: 0x1C0F040
     int get_WindowWidth();
     // public System.Void .ctor(System.String term)
-    // Offset: 0x17C01B0
+    // Offset: 0x1C0DF44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TermInfoDriver* New_ctor(::Il2CppString* term) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::TermInfoDriver::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TermInfoDriver*, creationType>(term)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x17C47D4
+    // Offset: 0x1C12568
     static void _cctor();
     // static private System.String TryTermInfoDir(System.String dir, System.String term)
-    // Offset: 0x17BFECC
+    // Offset: 0x1C0DC60
     static ::Il2CppString* TryTermInfoDir(::Il2CppString* dir, ::Il2CppString* term);
     // static private System.String SearchTerminfo(System.String term)
-    // Offset: 0x17C0010
+    // Offset: 0x1C0DDA4
     static ::Il2CppString* SearchTerminfo(::Il2CppString* term);
     // private System.Void WriteConsole(System.String str)
-    // Offset: 0x17C018C
+    // Offset: 0x1C0DF20
     void WriteConsole(::Il2CppString* str);
     // public System.Void Init()
-    // Offset: 0x17C07FC
+    // Offset: 0x1C0E590
     void Init();
     // private System.Void IncrementX()
-    // Offset: 0x17C123C
+    // Offset: 0x1C0EFD0
     void IncrementX();
     // public System.Void WriteSpecialKey(System.ConsoleKeyInfo key)
-    // Offset: 0x17C131C
+    // Offset: 0x1C0F0B0
     void WriteSpecialKey(System::ConsoleKeyInfo key);
     // public System.Void WriteSpecialKey(System.Char c)
-    // Offset: 0x17C15F4
+    // Offset: 0x1C0F388
     void WriteSpecialKey(::Il2CppChar c);
     // public System.Boolean IsSpecialKey(System.ConsoleKeyInfo key)
-    // Offset: 0x17C17AC
+    // Offset: 0x1C0F540
     bool IsSpecialKey(System::ConsoleKeyInfo key);
     // public System.Boolean IsSpecialKey(System.Char c)
-    // Offset: 0x17C1834
+    // Offset: 0x1C0F5C8
     bool IsSpecialKey(::Il2CppChar c);
     // private System.Void GetCursorPosition()
-    // Offset: 0x17C0F8C
+    // Offset: 0x1C0ED20
     void GetCursorPosition();
     // private System.Void CheckWindowDimensions()
-    // Offset: 0x17C1978
+    // Offset: 0x1C0F70C
     void CheckWindowDimensions();
     // private System.Void AddToBuffer(System.Int32 b)
-    // Offset: 0x17C1868
+    // Offset: 0x1C0F5FC
     void AddToBuffer(int b);
     // private System.Void AdjustBuffer()
-    // Offset: 0x17C1AD8
+    // Offset: 0x1C0F86C
     void AdjustBuffer();
     // private System.ConsoleKeyInfo CreateKeyInfoFromInt(System.Int32 n, System.Boolean alt)
-    // Offset: 0x17C1628
+    // Offset: 0x1C0F3BC
     System::ConsoleKeyInfo CreateKeyInfoFromInt(int n, bool alt);
     // private System.Object GetKeyFromBuffer(System.Boolean cooked)
-    // Offset: 0x17C1AEC
+    // Offset: 0x1C0F880
     ::Il2CppObject* GetKeyFromBuffer(bool cooked);
     // private System.ConsoleKeyInfo ReadKeyInternal(out System.Boolean fresh)
-    // Offset: 0x17C1DD8
+    // Offset: 0x1C0FB6C
     System::ConsoleKeyInfo ReadKeyInternal(ByRef<bool> fresh);
     // private System.Boolean InputPending()
-    // Offset: 0x17C2110
+    // Offset: 0x1C0FEA4
     bool InputPending();
     // private System.Void QueueEcho(System.Char c)
-    // Offset: 0x17C2140
+    // Offset: 0x1C0FED4
     void QueueEcho(::Il2CppChar c);
     // private System.Void Echo(System.ConsoleKeyInfo key)
-    // Offset: 0x17C2238
+    // Offset: 0x1C0FFCC
     void Echo(System::ConsoleKeyInfo key);
     // private System.Void EchoFlush()
-    // Offset: 0x17C229C
+    // Offset: 0x1C10030
     void EchoFlush();
     // public System.Int32 Read(in System.Char[] dest, System.Int32 index, System.Int32 count)
-    // Offset: 0x17C22DC
+    // Offset: 0x1C10070
     int Read(ByRef<::Array<::Il2CppChar>*> dest, int index, int count);
     // public System.ConsoleKeyInfo ReadKey(System.Boolean intercept)
-    // Offset: 0x17C2600
+    // Offset: 0x1C10394
     System::ConsoleKeyInfo ReadKey(bool intercept);
     // public System.String ReadLine()
-    // Offset: 0x17C2668
+    // Offset: 0x1C103FC
     ::Il2CppString* ReadLine();
     // public System.String ReadToEnd()
-    // Offset: 0x17C2858
+    // Offset: 0x1C105EC
     ::Il2CppString* ReadToEnd();
     // private System.String ReadUntilConditionInternal(System.Boolean haltOnNewLine)
-    // Offset: 0x17C2670
+    // Offset: 0x1C10404
     ::Il2CppString* ReadUntilConditionInternal(bool haltOnNewLine);
     // public System.Void SetCursorPosition(System.Int32 left, System.Int32 top)
-    // Offset: 0x17C1444
+    // Offset: 0x1C0F1D8
     void SetCursorPosition(int left, int top);
     // private System.Void CreateKeyMap()
-    // Offset: 0x17C2860
+    // Offset: 0x1C105F4
     void CreateKeyMap();
     // private System.Void InitKeys()
-    // Offset: 0x17C1FAC
+    // Offset: 0x1C0FD40
     void InitKeys();
     // private System.Void AddStringMapping(System.TermInfoStrings s)
-    // Offset: 0x17C46E8
+    // Offset: 0x1C1247C
     void AddStringMapping(System::TermInfoStrings s);
   }; // System.TermInfoDriver
   #pragma pack(pop)

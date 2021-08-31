@@ -42,10 +42,10 @@ namespace HMUI {
     // Set instance field: private System.Single _depth
     void _set__depth(float value);
     // protected System.Void OnDrawGizmosSelected()
-    // Offset: 0x10CA4FC
+    // Offset: 0x136B424
     void OnDrawGizmosSelected();
     // public System.Void .ctor()
-    // Offset: 0x10CA768
+    // Offset: 0x136B690
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -60,7 +60,7 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<EmptyBoxGraphic*, creationType>()));
     }
     // protected override System.Void OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
-    // Offset: 0x10CA13C
+    // Offset: 0x136B064
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
     void OnPopulateMesh(UnityEngine::UI::VertexHelper* vh);

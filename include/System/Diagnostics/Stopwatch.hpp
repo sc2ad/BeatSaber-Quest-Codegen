@@ -66,34 +66,34 @@ namespace System::Diagnostics {
     // Set instance field: private System.Boolean is_running
     void _set_is_running(bool value);
     // public System.TimeSpan get_Elapsed()
-    // Offset: 0x151E0A0
+    // Offset: 0x18B3690
     System::TimeSpan get_Elapsed();
     // public System.Int64 get_ElapsedMilliseconds()
-    // Offset: 0x151E23C
+    // Offset: 0x18B382C
     int64_t get_ElapsedMilliseconds();
     // public System.Int64 get_ElapsedTicks()
-    // Offset: 0x151E1BC
+    // Offset: 0x18B37AC
     int64_t get_ElapsedTicks();
     // public System.Boolean get_IsRunning()
-    // Offset: 0x151E348
+    // Offset: 0x18B394C
     bool get_IsRunning();
     // static private System.Void .cctor()
-    // Offset: 0x151E45C
+    // Offset: 0x18B3A60
     static void _cctor();
     // static public System.Int64 GetTimestamp()
-    // Offset: 0x151E094
+    // Offset: 0x18B3684
     static int64_t GetTimestamp();
     // public System.Void Reset()
-    // Offset: 0x151E350
+    // Offset: 0x18B3954
     void Reset();
     // public System.Void Start()
-    // Offset: 0x151E35C
+    // Offset: 0x18B3960
     void Start();
     // public System.Void Stop()
-    // Offset: 0x151E3D4
+    // Offset: 0x18B39D8
     void Stop();
     // public System.Void .ctor()
-    // Offset: 0x151E098
+    // Offset: 0x18B3688
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

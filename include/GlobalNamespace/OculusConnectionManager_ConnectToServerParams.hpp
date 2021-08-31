@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.UInt64 serverId
     void _set_serverId(uint64_t value);
     // public System.Void .ctor()
-    // Offset: 0x201F5AC
+    // Offset: 0x12394D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

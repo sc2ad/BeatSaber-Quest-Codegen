@@ -41,21 +41,21 @@ namespace GlobalNamespace {
     GlobalNamespace::FlyingSpriteSpawner* missedNoteFlyingSpriteSpawner;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FlyingSpriteSpawner*) == 0x8);
-    // [InjectAttribute] Offset: 0xEB0EFC
+    // [InjectAttribute] Offset: 0xE36CDC
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xEB0F0C
+    // [InjectAttribute] Offset: 0xE36CEC
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0xEB0F1C
+    // [InjectAttribute] Offset: 0xE36CFC
     // private readonly CoreGameHUDController/InitData _initData
     // Size: 0x8
     // Offset: 0x30
@@ -93,16 +93,16 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _spawnPosZ
     void _set__spawnPosZ(float value);
     // protected System.Void Start()
-    // Offset: 0x1F6011C
+    // Offset: 0x11CFD9C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1F601FC
+    // Offset: 0x11CFE7C
     void OnDestroy();
     // private System.Void HandleNoteWasMissed(NoteController noteController)
-    // Offset: 0x1F6029C
+    // Offset: 0x11CFF1C
     void HandleNoteWasMissed(GlobalNamespace::NoteController* noteController);
     // public System.Void .ctor()
-    // Offset: 0x1F604A4
+    // Offset: 0x11D0124
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Set instance field: public UnityEngine.Vector4 vector
     void _set_vector(UnityEngine::Vector4 value);
     // public System.Void .ctor()
-    // Offset: 0x1968FC4
+    // Offset: 0x1E1CB48
     // Implemented from: MaterialPropertyValuesSetter/PropertyValuePairBase
     // Base method: System.Void PropertyValuePairBase::.ctor()
     // Base method: System.Void Object::.ctor()

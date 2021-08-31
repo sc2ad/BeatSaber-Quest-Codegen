@@ -85,10 +85,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<NetEase.Docker.ReceivedHighscoreData> <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::ReceivedHighscoreData> value);
     // private System.Void MoveNext()
-    // Offset: 0xF7B6FC
+    // Offset: 0x1040E7C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xF7B704
+    // Offset: 0x1041104
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // NetEaseManager/<RequestHighscoreDataAsync>d__17
   // WARNING Not writing size check since size may be invalid!

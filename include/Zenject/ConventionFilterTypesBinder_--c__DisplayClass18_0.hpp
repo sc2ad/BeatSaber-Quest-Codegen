@@ -50,10 +50,10 @@ namespace Zenject {
     // Set instance field: public System.Text.RegularExpressions.Regex regex
     void _set_regex(System::Text::RegularExpressions::Regex* value);
     // System.Boolean <MatchingRegex>b__0(System.Type t)
-    // Offset: 0x112729C
+    // Offset: 0x13E24C4
     bool $MatchingRegex$b__0(System::Type* t);
     // public System.Void .ctor()
-    // Offset: 0x112705C
+    // Offset: 0x13E2284
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -53,7 +53,7 @@ namespace HMUI {
     // Set instance field: private System.Boolean _isToggled
     void _set__isToggled(bool value);
     // public System.Void .ctor()
-    // Offset: 0x10C5DB8
+    // Offset: 0x1366CE0
     // Implemented from: HMUI.ButtonSpriteSwap
     // Base method: System.Void ButtonSpriteSwap::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -67,12 +67,12 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<ButtonSpriteSwapToggle*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x10C5C34
+    // Offset: 0x1366B5C
     // Implemented from: HMUI.ButtonSpriteSwap
     // Base method: System.Void ButtonSpriteSwap::OnEnable()
     void OnEnable();
     // protected override System.Void HandleButtonSelectionStateDidChange(HMUI.NoTransitionsButton/HMUI.SelectionState state)
-    // Offset: 0x10C5C64
+    // Offset: 0x1366B8C
     // Implemented from: HMUI.ButtonSpriteSwap
     // Base method: System.Void ButtonSpriteSwap::HandleButtonSelectionStateDidChange(HMUI.NoTransitionsButton/HMUI.SelectionState state)
     void HandleButtonSelectionStateDidChange(HMUI::NoTransitionsButton::SelectionState state);

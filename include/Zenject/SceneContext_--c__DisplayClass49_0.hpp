@@ -58,13 +58,13 @@ namespace Zenject {
     // Set instance field: public System.Func`2<System.String,System.Boolean> <>9__4
     void _set_$$9__4(System::Func_2<::Il2CppString*, bool>* value);
     // System.Boolean <GetParentContainers>b__2(Zenject.SceneContext sceneContext)
-    // Offset: 0x13D0708
+    // Offset: 0x171C3F0
     bool $GetParentContainers$b__2(Zenject::SceneContext* sceneContext);
     // System.Boolean <GetParentContainers>b__4(System.String x)
-    // Offset: 0x13D07C4
+    // Offset: 0x171C4AC
     bool $GetParentContainers$b__4(::Il2CppString* x);
     // public System.Void .ctor()
-    // Offset: 0x13CF890
+    // Offset: 0x171B578
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

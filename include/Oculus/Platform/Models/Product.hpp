@@ -63,7 +63,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly System.String Sku
     void _set_Sku(::Il2CppString* value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x2106270
+    // Offset: 0x14F25CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Product* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::Product::.ctor");

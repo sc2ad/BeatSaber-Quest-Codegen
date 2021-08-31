@@ -70,10 +70,10 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     // Set instance field: private System.Single m_intensity
     void _set_m_intensity(float value);
     // static public UnityEngine.Experimental.GlobalIllumination.LinearColor Convert(UnityEngine.Color color, System.Single intensity)
-    // Offset: 0x17DAE70
+    // Offset: 0x1C29640
     static UnityEngine::Experimental::GlobalIllumination::LinearColor Convert(UnityEngine::Color color, float intensity);
     // static public UnityEngine.Experimental.GlobalIllumination.LinearColor Black()
-    // Offset: 0x17DC404
+    // Offset: 0x1C2A908
     static UnityEngine::Experimental::GlobalIllumination::LinearColor Black();
   }; // UnityEngine.Experimental.GlobalIllumination.LinearColor
   #pragma pack(pop)

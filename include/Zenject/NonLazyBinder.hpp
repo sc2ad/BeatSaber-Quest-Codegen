@@ -31,13 +31,13 @@ namespace Zenject {
     // Creating value type constructor for type: NonLazyBinder
     NonLazyBinder() noexcept {}
     // public Zenject.IfNotBoundBinder NonLazy()
-    // Offset: 0x13C80F0
+    // Offset: 0x1713DD8
     Zenject::IfNotBoundBinder* NonLazy();
     // public Zenject.IfNotBoundBinder Lazy()
-    // Offset: 0x13C8110
+    // Offset: 0x1713DF8
     Zenject::IfNotBoundBinder* Lazy();
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0x13C80E8
+    // Offset: 0x1713DD0
     // Implemented from: Zenject.IfNotBoundBinder
     // Base method: System.Void IfNotBoundBinder::.ctor(Zenject.BindInfo bindInfo)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

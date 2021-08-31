@@ -48,25 +48,25 @@ namespace Org::BouncyCastle::Utilities::Encoders {
     // Set instance field: protected readonly System.Byte[] decodingTable
     void _set_decodingTable(::Array<uint8_t>* value);
     // protected System.Void InitialiseDecodingTable()
-    // Offset: 0x1A61BC8
+    // Offset: 0x1FECA8C
     void InitialiseDecodingTable();
     // public System.Int32 Encode(System.Byte[] inBuf, System.Int32 inOff, System.Int32 inLen, System.Byte[] outBuf, System.Int32 outOff)
-    // Offset: 0x1A61D44
+    // Offset: 0x1FECC08
     int Encode(::Array<uint8_t>* inBuf, int inOff, int inLen, ::Array<uint8_t>* outBuf, int outOff);
     // public System.Int32 Encode(System.Byte[] buf, System.Int32 off, System.Int32 len, System.IO.Stream outStream)
-    // Offset: 0x1A61314
+    // Offset: 0x1FEC1D8
     int Encode(::Array<uint8_t>* buf, int off, int len, System::IO::Stream* outStream);
     // static private System.Boolean Ignore(System.Char c)
-    // Offset: 0x1A61E28
+    // Offset: 0x1FECCEC
     static bool Ignore(::Il2CppChar c);
     // public System.Int32 DecodeString(System.String data, System.IO.Stream outStream)
-    // Offset: 0x1A614FC
+    // Offset: 0x1FEC3C0
     int DecodeString(::Il2CppString* data, System::IO::Stream* outStream);
     // System.Byte[] DecodeStrict(System.String str, System.Int32 off, System.Int32 len)
-    // Offset: 0x1A6189C
+    // Offset: 0x1FEC760
     ::Array<uint8_t>* DecodeStrict(::Il2CppString* str, int off, int len);
     // public System.Void .ctor()
-    // Offset: 0x1A61B30
+    // Offset: 0x1FEC9F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

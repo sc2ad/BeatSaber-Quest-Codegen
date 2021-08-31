@@ -135,13 +135,13 @@ namespace GlobalNamespace {
     // Set instance field: public UnityEngine.Transform endXform
     void _set_endXform(UnityEngine::Transform* value);
     // private System.Void LateUpdate()
-    // Offset: 0x114F050
+    // Offset: 0x1424F08
     void LateUpdate();
     // static public System.Boolean Solve(UnityEngine.Vector3 start, UnityEngine.Vector3 end, UnityEngine.Vector3 poleVector, System.Single jointDist, System.Single targetDist, ref UnityEngine.Vector3 result, out UnityEngine.Vector3 forward, out UnityEngine.Vector3 up)
-    // Offset: 0x114F9F8
+    // Offset: 0x14258B0
     static bool Solve(UnityEngine::Vector3 start, UnityEngine::Vector3 end, UnityEngine::Vector3 poleVector, float jointDist, float targetDist, ByRef<UnityEngine::Vector3> result, ByRef<UnityEngine::Vector3> forward, ByRef<UnityEngine::Vector3> up);
     // public System.Void .ctor()
-    // Offset: 0x114FF10
+    // Offset: 0x1425DC8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

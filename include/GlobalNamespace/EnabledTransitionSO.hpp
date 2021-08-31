@@ -83,25 +83,25 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _selectedAndHighlightedState
     void _set__selectedAndHighlightedState(bool value);
     // public System.Boolean get_normalState()
-    // Offset: 0x1E8A254
+    // Offset: 0x104FFE8
     bool get_normalState();
     // public System.Boolean get_highlightedState()
-    // Offset: 0x1E8A25C
+    // Offset: 0x104FFF0
     bool get_highlightedState();
     // public System.Boolean get_pressedState()
-    // Offset: 0x1E8A264
+    // Offset: 0x104FFF8
     bool get_pressedState();
     // public System.Boolean get_disabledState()
-    // Offset: 0x1E8A26C
+    // Offset: 0x1050000
     bool get_disabledState();
     // public System.Boolean get_selectedState()
-    // Offset: 0x1E8A274
+    // Offset: 0x1050008
     bool get_selectedState();
     // public System.Boolean get_selectedAndHighlightedState()
-    // Offset: 0x1E8A27C
+    // Offset: 0x1050010
     bool get_selectedAndHighlightedState();
     // public System.Void .ctor()
-    // Offset: 0x1E8A284
+    // Offset: 0x1050018
     // Implemented from: BaseTransitionSO
     // Base method: System.Void BaseTransitionSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

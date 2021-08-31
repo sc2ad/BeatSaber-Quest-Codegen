@@ -49,27 +49,27 @@ namespace Org::BouncyCastle::Asn1 {
     // Set instance field: private System.Byte[] zeroBytes
     void _set_zeroBytes(::Array<uint8_t>* value);
     // protected internal System.Void .ctor(System.Int32 dummy)
-    // Offset: 0x13ECD68
+    // Offset: 0x1738A50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerNull* New_ctor(int dummy) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerNull::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerNull*, creationType>(dummy)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x13ECE74
+    // Offset: 0x1738B5C
     static void _cctor();
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x13ECDC8
+    // Offset: 0x1738AB0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x13ECDEC
+    // Offset: 0x1738AD4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x13ECE6C
+    // Offset: 0x1738B54
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();

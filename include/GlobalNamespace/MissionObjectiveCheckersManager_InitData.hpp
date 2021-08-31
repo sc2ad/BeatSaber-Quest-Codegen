@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly MissionObjective[] missionObjectives
     void _set_missionObjectives(::Array<GlobalNamespace::MissionObjective*>* value);
     // public System.Void .ctor(MissionObjective[] missionObjectives)
-    // Offset: 0x1F613A0
+    // Offset: 0x11D1020
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionObjectiveCheckersManager::InitData* New_ctor(::Array<GlobalNamespace::MissionObjective*>* missionObjectives) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionObjectiveCheckersManager::InitData::.ctor");

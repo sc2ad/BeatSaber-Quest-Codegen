@@ -24,16 +24,16 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: ToneMappingExtensions
     ToneMappingExtensions() noexcept {}
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE8E7A4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE14544
     // Get static field: static private readonly System.String[] _shaderKeywordMap
     static ::Array<::Il2CppString*>* _get__shaderKeywordMap();
     // Set static field: static private readonly System.String[] _shaderKeywordMap
     static void _set__shaderKeywordMap(::Array<::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x196BF28
+    // Offset: 0x1E1FAAC
     static void _cctor();
     // static public System.Void SetShaderKeyword(ToneMapping toneMapping)
-    // Offset: 0x1961DEC
+    // Offset: 0x1E15970
     static void SetShaderKeyword(GlobalNamespace::ToneMapping toneMapping);
   }; // ToneMappingExtensions
   #pragma pack(pop)

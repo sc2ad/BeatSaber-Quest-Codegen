@@ -71,31 +71,31 @@ namespace System::Threading {
     // Set instance field: private System.Int32 numOutstandingThreadRequests
     void _set_numOutstandingThreadRequests(int value);
     // static private System.Void .cctor()
-    // Offset: 0x155E430
+    // Offset: 0x187AC24
     static void _cctor();
     // public System.Threading.ThreadPoolWorkQueueThreadLocals EnsureCurrentThreadHasQueue()
-    // Offset: 0x155CE84
+    // Offset: 0x1879678
     System::Threading::ThreadPoolWorkQueueThreadLocals* EnsureCurrentThreadHasQueue();
     // System.Void EnsureThreadRequested()
-    // Offset: 0x155D004
+    // Offset: 0x18797F8
     void EnsureThreadRequested();
     // System.Void MarkThreadRequestSatisfied()
-    // Offset: 0x155D0BC
+    // Offset: 0x18798B0
     void MarkThreadRequestSatisfied();
     // public System.Void Enqueue(System.Threading.IThreadPoolWorkItem callback, System.Boolean forceGlobal)
-    // Offset: 0x155CB4C
+    // Offset: 0x1879340
     void Enqueue(System::Threading::IThreadPoolWorkItem* callback, bool forceGlobal);
     // System.Boolean LocalFindAndPop(System.Threading.IThreadPoolWorkItem callback)
-    // Offset: 0x155CC78
+    // Offset: 0x187946C
     bool LocalFindAndPop(System::Threading::IThreadPoolWorkItem* callback);
     // public System.Void Dequeue(System.Threading.ThreadPoolWorkQueueThreadLocals tl, out System.Threading.IThreadPoolWorkItem callback, out System.Boolean missedSteal)
-    // Offset: 0x155D8E0
+    // Offset: 0x187A0D4
     void Dequeue(System::Threading::ThreadPoolWorkQueueThreadLocals* tl, ByRef<System::Threading::IThreadPoolWorkItem*> callback, ByRef<bool> missedSteal);
     // static System.Boolean Dispatch()
-    // Offset: 0x155DEA4
+    // Offset: 0x187A698
     static bool Dispatch();
     // public System.Void .ctor()
-    // Offset: 0x155CDAC
+    // Offset: 0x18795A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -58,14 +58,14 @@ namespace Org::BouncyCastle::Asn1 {
     // Set instance field: private readonly Org.BouncyCastle.Asn1.Asn1StreamParser parser
     void _set_parser(Org::BouncyCastle::Asn1::Asn1StreamParser* value);
     // System.Void .ctor(System.Int32 tag, Org.BouncyCastle.Asn1.Asn1StreamParser parser)
-    // Offset: 0x13DD09C
+    // Offset: 0x1728D84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BerApplicationSpecificParser* New_ctor(int tag, Org::BouncyCastle::Asn1::Asn1StreamParser* parser) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::BerApplicationSpecificParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BerApplicationSpecificParser*, creationType>(tag, parser)));
     }
     // public Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x13DD0D8
+    // Offset: 0x1728DC0
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.BerApplicationSpecificParser
   #pragma pack(pop)

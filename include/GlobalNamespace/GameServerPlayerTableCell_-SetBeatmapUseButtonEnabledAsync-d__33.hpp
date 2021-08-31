@@ -105,10 +105,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<AdditionalContentModel/EntitlementStatus> <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> value);
     // private System.Void MoveNext()
-    // Offset: 0xF7C004
+    // Offset: 0x11078E8
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xF7C00C
+    // Offset: 0x1107C80
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // GameServerPlayerTableCell/<SetBeatmapUseButtonEnabledAsync>d__33
   // WARNING Not writing size check since size may be invalid!

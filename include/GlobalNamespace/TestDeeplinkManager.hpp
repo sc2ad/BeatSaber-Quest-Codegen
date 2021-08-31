@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IDeeplinkManager() noexcept {
       return *reinterpret_cast<GlobalNamespace::IDeeplinkManager*>(this);
     }
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEAD0F0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE32EA0
     // Get static field: static public TestDeeplinkManager instance
     static GlobalNamespace::TestDeeplinkManager* _get_instance();
     // Set static field: static public TestDeeplinkManager instance
@@ -65,22 +65,22 @@ namespace GlobalNamespace {
     // Set instance field: private Deeplink _currentDeeplink
     void _set__currentDeeplink(GlobalNamespace::Deeplink* value);
     // public Deeplink get_currentDeeplink()
-    // Offset: 0x1ED7A48
+    // Offset: 0x1092358
     GlobalNamespace::Deeplink* get_currentDeeplink();
     // public System.Void set_currentDeeplink(Deeplink value)
-    // Offset: 0x1ED7A50
+    // Offset: 0x1092360
     void set_currentDeeplink(GlobalNamespace::Deeplink* value);
     // public System.Void add_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
-    // Offset: 0x1ED7900
+    // Offset: 0x1092210
     void add_didReceiveDeeplinkEvent(System::Action_1<GlobalNamespace::Deeplink*>* value);
     // public System.Void remove_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
-    // Offset: 0x1ED79A4
+    // Offset: 0x10922B4
     void remove_didReceiveDeeplinkEvent(System::Action_1<GlobalNamespace::Deeplink*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1ED7B08
+    // Offset: 0x1092418
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1ED7B00
+    // Offset: 0x1092410
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

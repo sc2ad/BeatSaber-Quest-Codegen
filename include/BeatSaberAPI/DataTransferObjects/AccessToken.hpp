@@ -41,7 +41,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Set instance field: public System.String expiration
     void _set_expiration(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x1FCE130
+    // Offset: 0x11E8D4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

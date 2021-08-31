@@ -44,7 +44,7 @@ namespace UnityEngine::Timeline {
     System::Collections::Generic::List_1<UnityEngine::Timeline::SignalAsset*>* m_Signals;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Timeline::SignalAsset*>*) == 0x8);
-    // [CustomSignalEventDrawer] Offset: 0xE71A2C
+    // [CustomSignalEventDrawer] Offset: 0xDF82A0
     // private System.Collections.Generic.List`1<UnityEngine.Events.UnityEvent> m_Events
     // Size: 0x8
     // Offset: 0x18
@@ -62,25 +62,25 @@ namespace UnityEngine::Timeline {
     // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Events.UnityEvent> m_Events
     void _set_m_Events(System::Collections::Generic::List_1<UnityEngine::Events::UnityEvent*>* value);
     // public System.Collections.Generic.List`1<UnityEngine.Timeline.SignalAsset> get_signals()
-    // Offset: 0x14BC498
+    // Offset: 0x1826074
     System::Collections::Generic::List_1<UnityEngine::Timeline::SignalAsset*>* get_signals();
     // public System.Collections.Generic.List`1<UnityEngine.Events.UnityEvent> get_events()
-    // Offset: 0x14BC4A0
+    // Offset: 0x182607C
     System::Collections::Generic::List_1<UnityEngine::Events::UnityEvent*>* get_events();
     // public System.Boolean TryGetValue(UnityEngine.Timeline.SignalAsset key, out UnityEngine.Events.UnityEvent value)
-    // Offset: 0x14BB8B8
+    // Offset: 0x1825494
     bool TryGetValue(UnityEngine::Timeline::SignalAsset* key, ByRef<UnityEngine::Events::UnityEvent*> value);
     // public System.Void Append(UnityEngine.Timeline.SignalAsset key, UnityEngine.Events.UnityEvent value)
-    // Offset: 0x14BBA98
+    // Offset: 0x1825674
     void Append(UnityEngine::Timeline::SignalAsset* key, UnityEngine::Events::UnityEvent* value);
     // public System.Void Remove(System.Int32 idx)
-    // Offset: 0x14BC0C0
+    // Offset: 0x1825C9C
     void Remove(int idx);
     // public System.Void Remove(UnityEngine.Timeline.SignalAsset key)
-    // Offset: 0x14BBC5C
+    // Offset: 0x1825838
     void Remove(UnityEngine::Timeline::SignalAsset* key);
     // public System.Void .ctor()
-    // Offset: 0x14BC400
+    // Offset: 0x1825FDC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

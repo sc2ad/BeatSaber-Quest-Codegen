@@ -63,37 +63,37 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single <time>k__BackingField
     void _set_$time$k__BackingField(float value);
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0x1EDC41C
+    // Offset: 0x1096D2C
     UnityEngine::Vector3 get_position();
     // private System.Void set_position(UnityEngine.Vector3 value)
-    // Offset: 0x1EDC428
+    // Offset: 0x1096D38
     void set_position(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_normal()
-    // Offset: 0x1EDC434
+    // Offset: 0x1096D44
     UnityEngine::Vector3 get_normal();
     // private System.Void set_normal(UnityEngine.Vector3 value)
-    // Offset: 0x1EDC440
+    // Offset: 0x1096D50
     void set_normal(UnityEngine::Vector3 value);
     // public System.Single get_distance()
-    // Offset: 0x1EDC44C
+    // Offset: 0x1096D5C
     float get_distance();
     // private System.Void set_distance(System.Single value)
-    // Offset: 0x1EDC454
+    // Offset: 0x1096D64
     void set_distance(float value);
     // public System.Single get_time()
-    // Offset: 0x1EDC45C
+    // Offset: 0x1096D6C
     float get_time();
     // private System.Void set_time(System.Single value)
-    // Offset: 0x1EDC464
+    // Offset: 0x1096D74
     void set_time(float value);
     // public System.Void SetData(UnityEngine.Vector3 start, UnityEngine.Vector3 end, System.Single time)
-    // Offset: 0x1EDC46C
+    // Offset: 0x1096D7C
     void SetData(UnityEngine::Vector3 start, UnityEngine::Vector3 end, float time);
     // public System.Void SetDistance(System.Single value)
-    // Offset: 0x1EDC56C
+    // Offset: 0x1096E7C
     void SetDistance(float value);
     // public System.Void .ctor()
-    // Offset: 0x1EDC574
+    // Offset: 0x1096E84
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -90,19 +90,19 @@ namespace System::Security::Util {
     // Set instance field: public System.Int32 _outIndex
     void _set__outIndex(int value);
     // static private System.UInt32 HashString(System.String str)
-    // Offset: 0x17B5C38
+    // Offset: 0x1C039CC
     static uint HashString(::Il2CppString* str);
     // static private System.UInt32 HashCharArray(System.Char[] a, System.Int32 l)
-    // Offset: 0x17B5CA4
+    // Offset: 0x1C03A38
     static uint HashCharArray(::Array<::Il2CppChar>* a, int l);
     // private System.Boolean CompareStringAndChars(System.String str, System.Char[] a, System.Int32 l)
-    // Offset: 0x17B5D94
+    // Offset: 0x1C03B28
     bool CompareStringAndChars(::Il2CppString* str, ::Array<::Il2CppChar>* a, int l);
     // public System.String MakeString()
-    // Offset: 0x17B595C
+    // Offset: 0x1C036F0
     ::Il2CppString* MakeString();
     // public System.Void .ctor()
-    // Offset: 0x17B5D0C
+    // Offset: 0x1C03AA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

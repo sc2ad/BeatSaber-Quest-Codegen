@@ -44,10 +44,10 @@ namespace GlobalNamespace {
     // Set instance field: public UIKeyboard <>4__this
     void _set_$$4__this(GlobalNamespace::UIKeyboard* value);
     // System.Void <Awake>b__4()
-    // Offset: 0x2063D44
+    // Offset: 0x1352D8C
     void $Awake$b__4();
     // public System.Void .ctor()
-    // Offset: 0x2063C84
+    // Offset: 0x1352CCC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

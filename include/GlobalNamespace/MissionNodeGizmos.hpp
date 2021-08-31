@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiersModelSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xEBA488
+    // [InjectAttribute] Offset: 0xE40268
     // private CampaignProgressModel _missionProgressModel
     // Size: 0x8
     // Offset: 0x28
@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     // Set instance field: private CampaignProgressModel _missionProgressModel
     void _set__missionProgressModel(GlobalNamespace::CampaignProgressModel* value);
     // public System.Void .ctor()
-    // Offset: 0x1F65B2C
+    // Offset: 0x11D57AC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

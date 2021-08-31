@@ -229,13 +229,13 @@ namespace UnityEngine {
     // Set instance field: public System.Boolean generateOutOfBounds
     void _set_generateOutOfBounds(bool value);
     // private System.Boolean CompareColors(UnityEngine.Color left, UnityEngine.Color right)
-    // Offset: 0xD9447C
+    // Offset: 0x24131EC
     bool CompareColors(UnityEngine::Color left, UnityEngine::Color right);
     // private System.Boolean CompareVector2(UnityEngine.Vector2 left, UnityEngine.Vector2 right)
-    // Offset: 0xD94480
+    // Offset: 0x2413338
     bool CompareVector2(UnityEngine::Vector2 left, UnityEngine::Vector2 right);
     // public System.Boolean Equals(UnityEngine.TextGenerationSettings other)
-    // Offset: 0xD94484
+    // Offset: 0x2413404
     bool Equals(UnityEngine::TextGenerationSettings other);
   }; // UnityEngine.TextGenerationSettings
   #pragma pack(pop)

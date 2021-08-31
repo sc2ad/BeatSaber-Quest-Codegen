@@ -55,7 +55,7 @@ namespace System::IO {
     // Set instance field: public readonly System.IO.SearchOption searchOption
     void _set_searchOption(System::IO::SearchOption value);
     // public System.Void .ctor(System.String fullPath, System.String userPath, System.IO.SearchOption searchOption)
-    // Offset: 0x15EDE70
+    // Offset: 0x196CBF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Directory::SearchData* New_ctor(::Il2CppString* fullPath, ::Il2CppString* userPath, System::IO::SearchOption searchOption) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::Directory::SearchData::.ctor");

@@ -68,16 +68,16 @@ namespace GlobalNamespace {
     // Set instance field: private System.Collections.Generic.HashSet`1<System.String> _alwaysOwnedPacksIds
     void _set__alwaysOwnedPacksIds(System::Collections::Generic::HashSet_1<::Il2CppString*>* value);
     // public System.Collections.Generic.HashSet`1<System.String> get_alwaysOwnedBeatmapLevelIds()
-    // Offset: 0x1F27444
+    // Offset: 0x11781C4
     System::Collections::Generic::HashSet_1<::Il2CppString*>* get_alwaysOwnedBeatmapLevelIds();
     // public System.Collections.Generic.HashSet`1<System.String> get_alwaysOwnedPacksIds()
-    // Offset: 0x1F276F0
+    // Offset: 0x1178470
     System::Collections::Generic::HashSet_1<::Il2CppString*>* get_alwaysOwnedPacksIds();
     // private System.Void InitAlwaysOwnedItems()
-    // Offset: 0x1F27CA4
+    // Offset: 0x1178A24
     void InitAlwaysOwnedItems();
     // public System.Void .ctor()
-    // Offset: 0x1F27F68
+    // Offset: 0x1178CE8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -89,7 +89,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AlwaysOwnedContentContainerSO*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x1F27F40
+    // Offset: 0x1178CC0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

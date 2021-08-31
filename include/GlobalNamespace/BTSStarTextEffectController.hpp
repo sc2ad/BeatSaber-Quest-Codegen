@@ -94,13 +94,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _currentAnimationDuration
     void _set__currentAnimationDuration(float value);
     // public System.Single get_animationDuration()
-    // Offset: 0x1F37DD8
+    // Offset: 0x1188B90
     float get_animationDuration();
     // private System.Void Reinitialize(UnityEngine.Sprite sprite, UnityEngine.Transform parentTransform, System.Single desiredAnimationLength)
-    // Offset: 0x1F37DE0
+    // Offset: 0x1188B98
     void Reinitialize(UnityEngine::Sprite* sprite, UnityEngine::Transform* parentTransform, float desiredAnimationLength);
     // public System.Void .ctor()
-    // Offset: 0x1F37EF0
+    // Offset: 0x1188CA8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

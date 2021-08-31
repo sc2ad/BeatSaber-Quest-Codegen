@@ -185,22 +185,22 @@ namespace GlobalNamespace {
     // Set instance field: private RandomObjectPicker`1<UnityEngine.AudioClip> _sparksAudioClipPicker
     void _set__sparksAudioClipPicker(GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* value);
     // protected System.Void Awake()
-    // Offset: 0x1E93EFC
+    // Offset: 0x1059A88
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x1E93F7C
+    // Offset: 0x1059B08
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x1E93FC4
+    // Offset: 0x1059B50
     void OnEnable();
     // private System.Collections.IEnumerator FlickeringCoroutine()
-    // Offset: 0x1E93FF0
+    // Offset: 0x1059B7C
     System::Collections::IEnumerator* FlickeringCoroutine();
     // private System.Void SetOn(System.Boolean on)
-    // Offset: 0x1E9408C
+    // Offset: 0x1059C18
     void SetOn(bool on);
     // public System.Void .ctor()
-    // Offset: 0x1E941A8
+    // Offset: 0x1059D34
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

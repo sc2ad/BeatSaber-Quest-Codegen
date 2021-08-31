@@ -158,21 +158,21 @@ namespace Mono::Security::Cryptography {
     // Set instance field: private Mono.Security.Cryptography.RSAManaged/Mono.Security.Cryptography.KeyGeneratedEventHandler KeyGenerated
     void _set_KeyGenerated(Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler* value);
     // public System.Boolean get_PublicOnly()
-    // Offset: 0x194FEAC
+    // Offset: 0x1E03A30
     bool get_PublicOnly();
     // private System.Void GenerateKeyPair()
-    // Offset: 0x194F81C
+    // Offset: 0x1E033A0
     void GenerateKeyPair();
     // private System.Byte[] GetPaddedValue(Mono.Math.BigInteger value, System.Int32 length)
-    // Offset: 0x19502B0
+    // Offset: 0x1E03E34
     ::Array<uint8_t>* GetPaddedValue(Mono::Math::BigInteger* value, int length);
     // public override System.Security.Cryptography.RSAParameters ExportParameters(System.Boolean includePrivateParameters)
-    // Offset: 0x194FF70
+    // Offset: 0x1E03AF4
     // Implemented from: System.Security.Cryptography.RSA
     // Base method: System.Security.Cryptography.RSAParameters RSA::ExportParameters(System.Boolean includePrivateParameters)
     System::Security::Cryptography::RSAParameters ExportParameters(bool includePrivateParameters);
     // public override System.Void ImportParameters(System.Security.Cryptography.RSAParameters parameters)
-    // Offset: 0x1950370
+    // Offset: 0x1E03EF4
     // Implemented from: System.Security.Cryptography.RSA
     // Base method: System.Void RSA::ImportParameters(System.Security.Cryptography.RSAParameters parameters)
     void ImportParameters(System::Security::Cryptography::RSAParameters parameters);

@@ -79,10 +79,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<UserInfo> <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::UserInfo*> value);
     // private System.Void MoveNext()
-    // Offset: 0xF7C614
+    // Offset: 0x1133EDC
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xF7C61C
+    // Offset: 0x11341DC
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // PlatformLeaderboardsModel/<Initialize>d__18
   // WARNING Not writing size check since size may be invalid!

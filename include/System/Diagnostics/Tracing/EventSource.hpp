@@ -41,16 +41,16 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static private readonly System.Guid AspNetEventSourceGuid
     static void _set_AspNetEventSourceGuid(System::Guid value);
     // static private System.Void .cctor()
-    // Offset: 0x14923F8
+    // Offset: 0x17FAFA8
     static void _cctor();
     // public System.Boolean IsEnabled()
-    // Offset: 0x1492374
+    // Offset: 0x17FAF24
     bool IsEnabled();
     // public System.Void Dispose()
-    // Offset: 0x14923F0
+    // Offset: 0x17FAFA0
     void Dispose();
     // protected System.Void .ctor()
-    // Offset: 0x14923E8
+    // Offset: 0x17FAF98
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -59,12 +59,12 @@ namespace System::Diagnostics::Tracing {
       return THROW_UNLESS((::il2cpp_utils::New<EventSource*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x149237C
+    // Offset: 0x17FAF2C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // protected override System.Void Finalize()
-    // Offset: 0x14923F4
+    // Offset: 0x17FAFA4
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

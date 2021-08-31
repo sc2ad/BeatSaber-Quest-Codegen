@@ -53,7 +53,7 @@ namespace Assets::OVR::Scripts {
     // Set instance field: public System.Single max
     void _set_max(float value);
     // public System.Void .ctor(System.String cat, System.String msg, System.Single val, System.Single minVal, System.Single maxVal)
-    // Offset: 0x127A174
+    // Offset: 0x15B1404
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RangedRecord* New_ctor(::Il2CppString* cat, ::Il2CppString* msg, float val, float minVal, float maxVal) {
       static auto ___internal__logger = ::Logger::get().WithContext("Assets::OVR::Scripts::RangedRecord::.ctor");

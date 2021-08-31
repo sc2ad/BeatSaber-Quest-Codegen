@@ -29,8 +29,8 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class Marker : public UnityEngine::ScriptableObject/*, public UnityEngine::Timeline::IMarker*/ {
     public:
-    // [TimeFieldAttribute] Offset: 0xE717A0
-    // [TooltipAttribute] Offset: 0xE717A0
+    // [TimeFieldAttribute] Offset: 0xDF8014
+    // [TooltipAttribute] Offset: 0xDF8014
     // private System.Double m_Time
     // Size: 0x8
     // Offset: 0x18
@@ -60,25 +60,25 @@ namespace UnityEngine::Timeline {
     // Set instance field: private UnityEngine.Timeline.TrackAsset <parent>k__BackingField
     void _set_$parent$k__BackingField(UnityEngine::Timeline::TrackAsset* value);
     // public UnityEngine.Timeline.TrackAsset get_parent()
-    // Offset: 0x14B80D0
+    // Offset: 0x1821CAC
     UnityEngine::Timeline::TrackAsset* get_parent();
     // private System.Void set_parent(UnityEngine.Timeline.TrackAsset value)
-    // Offset: 0x14B80D8
+    // Offset: 0x1821CB4
     void set_parent(UnityEngine::Timeline::TrackAsset* value);
     // public System.Double get_time()
-    // Offset: 0x14B80E0
+    // Offset: 0x1821CBC
     double get_time();
     // public System.Void set_time(System.Double value)
-    // Offset: 0x14B80E8
+    // Offset: 0x1821CC4
     void set_time(double value);
     // private System.Void UnityEngine.Timeline.IMarker.Initialize(UnityEngine.Timeline.TrackAsset parentTrack)
-    // Offset: 0x14B8168
+    // Offset: 0x1821D44
     void UnityEngine_Timeline_IMarker_Initialize(UnityEngine::Timeline::TrackAsset* parentTrack);
     // public System.Void OnInitialize(UnityEngine.Timeline.TrackAsset aPent)
-    // Offset: 0x14B82CC
+    // Offset: 0x1821EA8
     void OnInitialize(UnityEngine::Timeline::TrackAsset* aPent);
     // protected System.Void .ctor()
-    // Offset: 0x14B82D0
+    // Offset: 0x1821EAC
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -50,19 +50,19 @@ namespace GlobalNamespace {
     // Set instance field: private EnvironmentInfoSO[] _environmentInfos
     void _set__environmentInfos(::Array<GlobalNamespace::EnvironmentInfoSO*>* value);
     // public EnvironmentInfoSO[] get_environmentInfos()
-    // Offset: 0x1E8DC04
+    // Offset: 0x10539C8
     ::Array<GlobalNamespace::EnvironmentInfoSO*>* get_environmentInfos();
     // public EnvironmentInfoSO GetEnviromentInfoBySerializedName(System.String environmentSerializedName)
-    // Offset: 0x1E8DC0C
+    // Offset: 0x10539D0
     GlobalNamespace::EnvironmentInfoSO* GetEnviromentInfoBySerializedName(::Il2CppString* environmentSerializedName);
     // public System.Collections.Generic.List`1<EnvironmentInfoSO> GetAllEnvironmentInfosWithType(EnvironmentTypeSO environmentType)
-    // Offset: 0x1E8C468
+    // Offset: 0x105222C
     System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>* GetAllEnvironmentInfosWithType(GlobalNamespace::EnvironmentTypeSO* environmentType);
     // public EnvironmentInfoSO GetFirstEnvironmentInfoWithType(EnvironmentTypeSO environmentType)
-    // Offset: 0x1E8DC98
+    // Offset: 0x1053A5C
     GlobalNamespace::EnvironmentInfoSO* GetFirstEnvironmentInfoWithType(GlobalNamespace::EnvironmentTypeSO* environmentType);
     // public System.Void .ctor()
-    // Offset: 0x1E8DD10
+    // Offset: 0x1053AD4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

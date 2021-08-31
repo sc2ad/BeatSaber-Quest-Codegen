@@ -23,7 +23,7 @@ namespace Zenject {
     // Creating value type constructor for type: MonoInstaller
     MonoInstaller() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x13C7D6C
+    // Offset: 0x1713A54
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -20,7 +20,7 @@ namespace GlobalNamespace {
   template<typename T>
   class BaseStateTransition_1 : public GlobalNamespace::BaseStateTransition {
     public:
-    // [SpaceAttribute] Offset: 0xEB8B30
+    // [SpaceAttribute] Offset: 0xE3E910
     // protected T _component
     // Size: 0xFFFFFFFF
     // Offset: 0x0

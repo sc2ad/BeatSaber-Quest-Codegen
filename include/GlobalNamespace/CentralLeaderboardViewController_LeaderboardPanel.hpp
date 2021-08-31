@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Boolean mixed
     void _set_mixed(bool value);
     // public System.Void .ctor(System.String title, System.String hint, System.Boolean mixed)
-    // Offset: 0x1EFBD4C
+    // Offset: 0x10EBB60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CentralLeaderboardViewController::LeaderboardPanel* New_ctor(::Il2CppString* title, ::Il2CppString* hint, bool mixed) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel::.ctor");

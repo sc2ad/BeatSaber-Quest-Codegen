@@ -42,10 +42,10 @@ namespace GlobalNamespace {
     // Set instance field: private SkinColorSO[] _colors
     void _set__colors(::Array<GlobalNamespace::SkinColorSO*>* value);
     // public SkinColorSO[] get_colors()
-    // Offset: 0x1EC3284
+    // Offset: 0x107DB94
     ::Array<GlobalNamespace::SkinColorSO*>* get_colors();
     // public System.Void .ctor()
-    // Offset: 0x1EC328C
+    // Offset: 0x107DB9C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

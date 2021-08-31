@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerOffsetPositionByLocalPlayerPosition : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xEB5238
+    // [InjectAttribute] Offset: 0xE3B018
     // private readonly MultiplayerPlayersManager _multiplayerPlayersManager
     // Size: 0x8
     // Offset: 0x18
@@ -83,19 +83,19 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Quaternion _lastParentRotation
     void _set__lastParentRotation(UnityEngine::Quaternion value);
     // protected System.Void Awake()
-    // Offset: 0x1E7FA04
+    // Offset: 0x106FF40
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x1E7FA58
+    // Offset: 0x106FF94
     void Update();
     // public System.Void SetEnabled(System.Boolean isEnabled)
-    // Offset: 0x1E7FCE4
+    // Offset: 0x1070220
     void SetEnabled(bool isEnabled);
     // private System.Void UpdatePositionAndRotationIfNeeded()
-    // Offset: 0x1E7FA5C
+    // Offset: 0x106FF98
     void UpdatePositionAndRotationIfNeeded();
     // public System.Void .ctor()
-    // Offset: 0x1E7FD80
+    // Offset: 0x10702BC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

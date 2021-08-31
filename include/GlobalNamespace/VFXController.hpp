@@ -39,14 +39,14 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::VFXController::$MainCoroutine$d__9
     class $MainCoroutine$d__9;
-    // [NullAllowed] Offset: 0xE7CAAC
+    // [NullAllowed] Offset: 0xE033B0
     // private UnityEngine.ParticleSystem[] _particleSystems
     // Size: 0x8
     // Offset: 0x18
     ::Array<UnityEngine::ParticleSystem*>* particleSystems;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::ParticleSystem*>*) == 0x8);
-    // [NullAllowed] Offset: 0xE7CAE4
+    // [NullAllowed] Offset: 0xE033E8
     // private UnityEngine.Animation _animation
     // Size: 0x8
     // Offset: 0x20
@@ -76,22 +76,22 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _deactivateAfterAnimationDuration
     void _set__deactivateAfterAnimationDuration(bool value);
     // public UnityEngine.Animation get_animation()
-    // Offset: 0x1DE5304
+    // Offset: 0x239B778
     UnityEngine::Animation* get_animation();
     // public UnityEngine.ParticleSystem[] get_particleSystems()
-    // Offset: 0x1DE530C
+    // Offset: 0x239B780
     ::Array<UnityEngine::ParticleSystem*>* get_particleSystems();
     // protected System.Void Awake()
-    // Offset: 0x1DE5314
+    // Offset: 0x239B788
     void Awake();
     // public System.Void Play()
-    // Offset: 0x1DE533C
+    // Offset: 0x239B7B0
     void Play();
     // private System.Collections.IEnumerator MainCoroutine(System.Boolean deactivateAfterDuration, System.Single duration)
-    // Offset: 0x1DE546C
+    // Offset: 0x239B8E0
     System::Collections::IEnumerator* MainCoroutine(bool deactivateAfterDuration, float duration);
     // public System.Void .ctor()
-    // Offset: 0x1DE552C
+    // Offset: 0x239B9A0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

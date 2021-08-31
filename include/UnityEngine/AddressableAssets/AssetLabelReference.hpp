@@ -20,7 +20,7 @@ namespace UnityEngine::AddressableAssets {
   // [TokenAttribute] Offset: FFFFFFFF
   class AssetLabelReference : public ::Il2CppObject/*, public UnityEngine::AddressableAssets::IKeyEvaluator*/ {
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0xE99F38
+    // [FormerlySerializedAsAttribute] Offset: 0xE1FCD8
     // private System.String m_LabelString
     // Size: 0x8
     // Offset: 0x10
@@ -42,19 +42,19 @@ namespace UnityEngine::AddressableAssets {
     // Set instance field: private System.String m_LabelString
     void _set_m_LabelString(::Il2CppString* value);
     // public System.String get_labelString()
-    // Offset: 0x116D2D4
+    // Offset: 0x14431E8
     ::Il2CppString* get_labelString();
     // public System.Void set_labelString(System.String value)
-    // Offset: 0x116D2DC
+    // Offset: 0x14431F0
     void set_labelString(::Il2CppString* value);
     // public System.Object get_RuntimeKey()
-    // Offset: 0x116D2E4
+    // Offset: 0x14431F8
     ::Il2CppObject* get_RuntimeKey();
     // public System.Boolean RuntimeKeyIsValid()
-    // Offset: 0x116D344
+    // Offset: 0x1443258
     bool RuntimeKeyIsValid();
     // public System.Void .ctor()
-    // Offset: 0x116D39C
+    // Offset: 0x14432B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -63,7 +63,7 @@ namespace UnityEngine::AddressableAssets {
       return THROW_UNLESS((::il2cpp_utils::New<AssetLabelReference*, creationType>()));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0x116D37C
+    // Offset: 0x1443290
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

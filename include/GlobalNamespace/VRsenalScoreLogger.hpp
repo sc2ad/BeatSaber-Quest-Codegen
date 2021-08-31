@@ -38,21 +38,21 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::VRsenalScoreLogger::$Start$d__3
     class $Start$d__3;
-    // [InjectAttribute] Offset: 0xEAB2D0
+    // [InjectAttribute] Offset: 0xE31080
     // private IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::IScoreController* scoreController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IScoreController*) == 0x8);
-    // [InjectAttribute] Offset: 0xEAB2E0
+    // [InjectAttribute] Offset: 0xE31090
     // private IDifficultyBeatmap _difficultyBeatmap
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IDifficultyBeatmap*) == 0x8);
-    // [InjectAttribute] Offset: 0xEAB2F0
+    // [InjectAttribute] Offset: 0xE310A0
     // private ILevelEndActions _levelEndActions
     // Size: 0x8
     // Offset: 0x28
@@ -76,19 +76,19 @@ namespace GlobalNamespace {
     // Set instance field: private ILevelEndActions _levelEndActions
     void _set__levelEndActions(GlobalNamespace::ILevelEndActions* value);
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x2070390
+    // Offset: 0x135F2B4
     System::Collections::IEnumerator* Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x207042C
+    // Offset: 0x135F350
     void OnDestroy();
     // private System.Void HandleLevelFinishedEvent()
-    // Offset: 0x2070524
+    // Offset: 0x135F448
     void HandleLevelFinishedEvent();
     // private System.Void LogScore()
-    // Offset: 0x2070528
+    // Offset: 0x135F44C
     void LogScore();
     // public System.Void .ctor()
-    // Offset: 0x2070650
+    // Offset: 0x135F574
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

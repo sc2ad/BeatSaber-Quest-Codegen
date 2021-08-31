@@ -44,10 +44,10 @@ namespace HMUI {
     // Set instance field: public System.Boolean prevAnimateParentCanvas
     void _set_prevAnimateParentCanvas(bool value);
     // System.Void <HandleParentViewControllerDidDeactivate>b__0()
-    // Offset: 0x10695C4
+    // Offset: 0x12F8628
     void $HandleParentViewControllerDidDeactivate$b__0();
     // public System.Void .ctor()
-    // Offset: 0x1069528
+    // Offset: 0x12F858C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

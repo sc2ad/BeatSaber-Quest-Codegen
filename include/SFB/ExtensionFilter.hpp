@@ -53,7 +53,7 @@ namespace SFB {
     // Set instance field: public readonly System.String[] _extensions
     void _set__extensions(::Array<::Il2CppString*>* value);
     // public System.Void .ctor(System.String filterName, params System.String[] filterExtensions)
-    // Offset: 0xF7C7C4
+    // Offset: 0x118F058
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  ExtensionFilter(::Il2CppString* filterName, ::Array<::Il2CppString*>* filterExtensions)
   }; // SFB.ExtensionFilter

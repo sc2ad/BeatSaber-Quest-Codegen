@@ -55,20 +55,20 @@ namespace System::Collections {
     // Set instance field: private System.Collections.Hashtable _hashtable
     void _set__hashtable(System::Collections::Hashtable* value);
     // public System.Int32 get_Count()
-    // Offset: 0x1617C80
+    // Offset: 0x19B18C4
     int get_Count();
     // System.Void .ctor(System.Collections.Hashtable hashtable)
-    // Offset: 0x1617A64
+    // Offset: 0x19B16A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Hashtable::KeyCollection* New_ctor(System::Collections::Hashtable* hashtable) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Hashtable::KeyCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Hashtable::KeyCollection*, creationType>(hashtable)));
     }
     // public System.Void CopyTo(System.Array array, System.Int32 arrayIndex)
-    // Offset: 0x1617A90
+    // Offset: 0x19B16D4
     void CopyTo(System::Array* array, int arrayIndex);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x1617C18
+    // Offset: 0x19B185C
     System::Collections::IEnumerator* GetEnumerator();
   }; // System.Collections.Hashtable/System.Collections.KeyCollection
   #pragma pack(pop)

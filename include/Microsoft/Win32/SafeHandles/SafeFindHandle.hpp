@@ -23,14 +23,14 @@ namespace Microsoft::Win32::SafeHandles {
     // Creating value type constructor for type: SafeFindHandle
     SafeFindHandle() noexcept {}
     // System.Void .ctor(System.IntPtr preexistingHandle)
-    // Offset: 0x16C8B8C
+    // Offset: 0x1A63E50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SafeFindHandle* New_ctor(System::IntPtr preexistingHandle) {
       static auto ___internal__logger = ::Logger::get().WithContext("Microsoft::Win32::SafeHandles::SafeFindHandle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SafeFindHandle*, creationType>(preexistingHandle)));
     }
     // protected override System.Boolean ReleaseHandle()
-    // Offset: 0x16C8BB8
+    // Offset: 0x1A63E7C
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Boolean SafeHandle::ReleaseHandle()
     bool ReleaseHandle();

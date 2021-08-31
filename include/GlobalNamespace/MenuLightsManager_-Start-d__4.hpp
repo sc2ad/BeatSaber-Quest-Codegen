@@ -62,26 +62,26 @@ namespace GlobalNamespace {
     // Set instance field: public MenuLightsManager <>4__this
     void _set_$$4__this(GlobalNamespace::MenuLightsManager* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1FB0000
+    // Offset: 0x10E62D8
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1FB0068
+    // Offset: 0x10E6340
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1FAFA14
+    // Offset: 0x10E5CEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuLightsManager::$Start$d__4* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MenuLightsManager::$Start$d__4::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MenuLightsManager::$Start$d__4*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1FAFF20
+    // Offset: 0x10E61F8
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1FAFF24
+    // Offset: 0x10E61FC
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1FB0008
+    // Offset: 0x10E62E0
     void System_Collections_IEnumerator_Reset();
   }; // MenuLightsManager/<Start>d__4
   #pragma pack(pop)

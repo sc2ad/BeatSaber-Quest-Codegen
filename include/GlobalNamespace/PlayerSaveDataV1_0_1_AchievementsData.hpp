@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.String[] unlockedAchievementsToUpload
     void _set_unlockedAchievementsToUpload(::Array<::Il2CppString*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1F57FB4
+    // Offset: 0x113B45C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

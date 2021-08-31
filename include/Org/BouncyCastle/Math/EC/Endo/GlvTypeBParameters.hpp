@@ -63,13 +63,13 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     // Set instance field: protected readonly Org.BouncyCastle.Math.EC.Endo.ScalarSplitParameters m_splitParams
     void _set_m_splitParams(Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* value);
     // public Org.BouncyCastle.Math.BigInteger get_Beta()
-    // Offset: 0x1BBA3FC
+    // Offset: 0x2146138
     Org::BouncyCastle::Math::BigInteger* get_Beta();
     // public Org.BouncyCastle.Math.EC.Endo.ScalarSplitParameters get_SplitParams()
-    // Offset: 0x1BBA404
+    // Offset: 0x2146140
     Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* get_SplitParams();
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger beta, Org.BouncyCastle.Math.BigInteger lambda, Org.BouncyCastle.Math.EC.Endo.ScalarSplitParameters splitParams)
-    // Offset: 0x1BBA3BC
+    // Offset: 0x21460F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GlvTypeBParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* beta, Org::BouncyCastle::Math::BigInteger* lambda, Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* splitParams) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::.ctor");

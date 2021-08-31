@@ -103,7 +103,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Boolean _valid
     void _set__valid(bool value);
     // public System.Void .ctor()
-    // Offset: 0x206FF70
+    // Offset: 0x135EE94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

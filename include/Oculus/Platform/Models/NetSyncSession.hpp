@@ -75,7 +75,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly System.String VoipGroup
     void _set_VoipGroup(::Il2CppString* value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x2105FA0
+    // Offset: 0x14F22FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSyncSession* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::NetSyncSession::.ctor");

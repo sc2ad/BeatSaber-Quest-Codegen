@@ -30,10 +30,10 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static private System.Void .cctor()
-    // Offset: 0x12F7DD0
+    // Offset: 0x1630060
     static void _cctor();
     // static public OVRPlugin/Result ovrp_SetExternalCameraProperties(System.String cameraName, ref OVRPlugin/CameraIntrinsics cameraIntrinsics, ref OVRPlugin/CameraExtrinsics cameraExtrinsics)
-    // Offset: 0x12F7D20
+    // Offset: 0x162FFB0
     static GlobalNamespace::OVRPlugin::Result ovrp_SetExternalCameraProperties(::Il2CppString* cameraName, ByRef<GlobalNamespace::OVRPlugin::CameraIntrinsics> cameraIntrinsics, ByRef<GlobalNamespace::OVRPlugin::CameraExtrinsics> cameraExtrinsics);
   }; // OVRPlugin/OVRP_1_48_0
   #pragma pack(pop)

@@ -36,13 +36,13 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.Material> s_MaterialArray
     static void _set_s_MaterialArray(System::Collections::Generic::List_1<UnityEngine::Material*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x174C934
+    // Offset: 0x1AF7250
     static void _cctor();
     // static System.Int32 GetMaterialCount(UnityEngine.Renderer renderer)
-    // Offset: 0x174C730
+    // Offset: 0x1AF704C
     static int GetMaterialCount(UnityEngine::Renderer* renderer);
     // static UnityEngine.Material GetSharedMaterial(UnityEngine.Renderer renderer, System.Int32 index)
-    // Offset: 0x174C7E4
+    // Offset: 0x1AF7100
     static UnityEngine::Material* GetSharedMaterial(UnityEngine::Renderer* renderer, int index);
   }; // UnityEngine.ProBuilder.MaterialUtility
   #pragma pack(pop)

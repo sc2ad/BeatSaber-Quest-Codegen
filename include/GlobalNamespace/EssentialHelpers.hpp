@@ -32,10 +32,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: EssentialHelpers
     EssentialHelpers() noexcept {}
     // static public System.Double get_CurrentTimeStamp()
-    // Offset: 0x203FF50
+    // Offset: 0x125DBAC
     static double get_CurrentTimeStamp();
     // static public System.Void SafeDestroy(UnityEngine.Object obj)
-    // Offset: 0x2040014
+    // Offset: 0x125DC70
     static void SafeDestroy(UnityEngine::Object* obj);
     // static public T GetOrAddComponent(UnityEngine.GameObject go)
     // Offset: 0xFFFFFFFF

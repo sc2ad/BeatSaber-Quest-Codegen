@@ -47,7 +47,7 @@ namespace TMPro::SpriteAssetUtilities {
     // Set instance field: public System.Collections.Generic.List`1<TMPro.SpriteAssetUtilities.TexturePacker/TMPro.SpriteAssetUtilities.SpriteData> frames
     void _set_frames(System::Collections::Generic::List_1<TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>* value);
     // public System.Void .ctor()
-    // Offset: 0xFF51E4
+    // Offset: 0x1119078
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -159,49 +159,49 @@ namespace System::Text::RegularExpressions {
     // Set instance field: System.Collections.Hashtable _caps
     void _set__caps(System::Collections::Hashtable* value);
     // static System.Text.RegularExpressions.RegexCode Write(System.Text.RegularExpressions.RegexTree t)
-    // Offset: 0x163DC28
+    // Offset: 0x19A1558
     static System::Text::RegularExpressions::RegexCode* Write(System::Text::RegularExpressions::RegexTree* t);
     // System.Void PushInt(System.Int32 I)
-    // Offset: 0x163E0E8
+    // Offset: 0x19A1A18
     void PushInt(int I);
     // System.Boolean EmptyStack()
-    // Offset: 0x163E1C8
+    // Offset: 0x19A1AF8
     bool EmptyStack();
     // System.Int32 PopInt()
-    // Offset: 0x163E1D8
+    // Offset: 0x19A1B08
     int PopInt();
     // System.Int32 CurPos()
-    // Offset: 0x163E220
+    // Offset: 0x19A1B50
     int CurPos();
     // System.Void PatchJump(System.Int32 Offset, System.Int32 jumpDest)
-    // Offset: 0x163E228
+    // Offset: 0x19A1B58
     void PatchJump(int Offset, int jumpDest);
     // System.Void Emit(System.Int32 op)
-    // Offset: 0x163E268
+    // Offset: 0x19A1B98
     void Emit(int op);
     // System.Void Emit(System.Int32 op, System.Int32 opd1)
-    // Offset: 0x163E300
+    // Offset: 0x19A1C30
     void Emit(int op, int opd1);
     // System.Void Emit(System.Int32 op, System.Int32 opd1, System.Int32 opd2)
-    // Offset: 0x163E3C0
+    // Offset: 0x19A1CF0
     void Emit(int op, int opd1, int opd2);
     // System.Int32 StringCode(System.String str)
-    // Offset: 0x163E4A8
+    // Offset: 0x19A1DD8
     int StringCode(::Il2CppString* str);
     // System.ArgumentException MakeException(System.String message)
-    // Offset: 0x163E5B4
+    // Offset: 0x19A1EE4
     System::ArgumentException* MakeException(::Il2CppString* message);
     // System.Int32 MapCapnum(System.Int32 capnum)
-    // Offset: 0x163E618
+    // Offset: 0x19A1F48
     int MapCapnum(int capnum);
     // System.Text.RegularExpressions.RegexCode RegexCodeFromRegexTree(System.Text.RegularExpressions.RegexTree tree)
-    // Offset: 0x163DD54
+    // Offset: 0x19A1684
     System::Text::RegularExpressions::RegexCode* RegexCodeFromRegexTree(System::Text::RegularExpressions::RegexTree* tree);
     // System.Void EmitFragment(System.Int32 nodetype, System.Text.RegularExpressions.RegexNode node, System.Int32 CurIndex)
-    // Offset: 0x163E6D4
+    // Offset: 0x19A2004
     void EmitFragment(int nodetype, System::Text::RegularExpressions::RegexNode* node, int CurIndex);
     // private System.Void .ctor()
-    // Offset: 0x163DC90
+    // Offset: 0x19A15C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

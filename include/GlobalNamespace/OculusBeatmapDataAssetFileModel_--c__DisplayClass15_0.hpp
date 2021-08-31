@@ -75,10 +75,10 @@ namespace GlobalNamespace {
     // Set instance field: public OculusBeatmapDataAssetFileModel <>4__this
     void _set_$$4__this(GlobalNamespace::OculusBeatmapDataAssetFileModel* value);
     // System.Void <ReloadAssetDetailsForAllLevelsAsync>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.AssetDetailsList> getListMsg)
-    // Offset: 0x201BA78
+    // Offset: 0x12359A0
     void $ReloadAssetDetailsForAllLevelsAsync$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetDetailsList*>* getListMsg);
     // public System.Void .ctor()
-    // Offset: 0x201BA70
+    // Offset: 0x1235998
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

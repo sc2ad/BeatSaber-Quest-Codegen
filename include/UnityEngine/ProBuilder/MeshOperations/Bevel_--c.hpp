@@ -71,25 +71,25 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.FaceRebuildData,UnityEngine.ProBuilder.Face> <>9__0_3
     static void _set_$$9__0_3(System::Func_2<UnityEngine::ProBuilder::FaceRebuildData*, UnityEngine::ProBuilder::Face*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x124011C
+    // Offset: 0x154BB4C
     static void _cctor();
     // UnityEngine.ProBuilder.Face <BevelEdges>b__0_0(UnityEngine.ProBuilder.FaceRebuildData x)
-    // Offset: 0x1240188
+    // Offset: 0x154BBB8
     UnityEngine::ProBuilder::Face* $BevelEdges$b__0_0(UnityEngine::ProBuilder::FaceRebuildData* x);
     // System.Int32 <BevelEdges>b__0_6(UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.FaceRebuildData,System.Collections.Generic.List`1<System.Int32>> x)
-    // Offset: 0x12401A0
+    // Offset: 0x154BBD0
     int $BevelEdges$b__0_6(UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::FaceRebuildData*, System::Collections::Generic::List_1<int>*> x);
     // UnityEngine.ProBuilder.Face <BevelEdges>b__0_1(UnityEngine.ProBuilder.FaceRebuildData x)
-    // Offset: 0x12401EC
+    // Offset: 0x154BC1C
     UnityEngine::ProBuilder::Face* $BevelEdges$b__0_1(UnityEngine::ProBuilder::FaceRebuildData* x);
     // UnityEngine.ProBuilder.Face <BevelEdges>b__0_2(UnityEngine.ProBuilder.FaceRebuildData x)
-    // Offset: 0x1240204
+    // Offset: 0x154BC34
     UnityEngine::ProBuilder::Face* $BevelEdges$b__0_2(UnityEngine::ProBuilder::FaceRebuildData* x);
     // UnityEngine.ProBuilder.Face <BevelEdges>b__0_3(UnityEngine.ProBuilder.FaceRebuildData x)
-    // Offset: 0x124021C
+    // Offset: 0x154BC4C
     UnityEngine::ProBuilder::Face* $BevelEdges$b__0_3(UnityEngine::ProBuilder::FaceRebuildData* x);
     // public System.Void .ctor()
-    // Offset: 0x1240180
+    // Offset: 0x154BBB0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

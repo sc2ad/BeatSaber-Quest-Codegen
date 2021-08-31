@@ -60,10 +60,10 @@ namespace Zenject {
     // Set instance field: public Zenject.GameObjectCreationParameters gameObjectInfo
     void _set_gameObjectInfo(Zenject::GameObjectCreationParameters* value);
     // Zenject.ISubContainerCreator <ByNewContextPrefab>b__0(Zenject.DiContainer container)
-    // Offset: 0x13D3B5C
+    // Offset: 0x171F844
     Zenject::ISubContainerCreator* $ByNewContextPrefab$b__0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x13D3218
+    // Offset: 0x171EF00
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

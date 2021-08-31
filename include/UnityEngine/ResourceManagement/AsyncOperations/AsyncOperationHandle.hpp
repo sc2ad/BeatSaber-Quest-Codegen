@@ -103,55 +103,55 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     // Set instance field: private System.String m_LocationName
     void _set_m_LocationName(::Il2CppString* value);
     // System.String get_LocationName()
-    // Offset: 0xD7FD20
+    // Offset: 0x19E4238
     ::Il2CppString* get_LocationName();
     // System.Void set_LocationName(System.String value)
-    // Offset: 0xD7FD28
+    // Offset: 0x19E4240
     void set_LocationName(::Il2CppString* value);
     // public System.String get_DebugName()
-    // Offset: 0xD7FDA4
+    // Offset: 0x19E47C4
     ::Il2CppString* get_DebugName();
     // private UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation get_InternalOp()
-    // Offset: 0xD7FE00
+    // Offset: 0x19E4500
     UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* get_InternalOp();
     // public System.Boolean get_IsDone()
-    // Offset: 0xD7FE08
+    // Offset: 0x19E4C0C
     bool get_IsDone();
     // public System.Exception get_OperationException()
-    // Offset: 0xD7FE18
+    // Offset: 0x19E4CE4
     System::Exception* get_OperationException();
     // public System.Single get_PercentComplete()
-    // Offset: 0xD7FE20
+    // Offset: 0x19E4DA0
     float get_PercentComplete();
     // System.Int32 get_ReferenceCount()
-    // Offset: 0xD7FE38
+    // Offset: 0x19E5038
     int get_ReferenceCount();
     // public System.Object get_Result()
-    // Offset: 0xD7FE48
+    // Offset: 0x19E51B8
     ::Il2CppObject* get_Result();
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationStatus get_Status()
-    // Offset: 0xD7FE50
+    // Offset: 0x19E5270
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus get_Status();
     // public System.Threading.Tasks.Task`1<System.Object> get_Task()
-    // Offset: 0xD7FE58
+    // Offset: 0x19E532C
     System::Threading::Tasks::Task_1<::Il2CppObject*>* get_Task();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0xD7FE60
+    // Offset: 0x19E53E8
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void add_Completed(System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> value)
-    // Offset: 0xD7FD68
+    // Offset: 0x19E4600
     void add_Completed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
     // public System.Void remove_Completed(System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> value)
-    // Offset: 0xD7FD70
+    // Offset: 0x19E46CC
     void remove_Completed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
     // public System.Void add_Destroyed(System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> value)
-    // Offset: 0xD7FDAC
+    // Offset: 0x19E496C
     void add_Destroyed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
     // public System.Void remove_Destroyed(System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> value)
-    // Offset: 0xD7FDB4
+    // Offset: 0x19E4A38
     void remove_Destroyed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
     // System.Void .ctor(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation op)
-    // Offset: 0xD7FD30
+    // Offset: 0x19E4248
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::.ctor");
@@ -159,7 +159,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, op);
     }
     // System.Void .ctor(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation op, System.Int32 version)
-    // Offset: 0xD7FD38
+    // Offset: 0x19E4324
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, int version) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::.ctor");
@@ -167,7 +167,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, op, version);
     }
     // System.Void .ctor(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation op, System.String locationName)
-    // Offset: 0xD7FD48
+    // Offset: 0x19E4334
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, ::Il2CppString* locationName) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::.ctor");
@@ -175,41 +175,41 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, op, locationName);
     }
     // System.Void .ctor(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation op, System.Int32 version, System.String locationName)
-    // Offset: 0xD7FD50
+    // Offset: 0x19E4414
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, int version, ::Il2CppString* locationName)
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle Acquire()
-    // Offset: 0xD7FD60
+    // Offset: 0x19E4424
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle Acquire();
     // public System.Boolean Equals(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle other)
-    // Offset: 0xD7FD78
+    // Offset: 0x19E4798
     bool Equals(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle other);
     // public System.Void GetDependencies(System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> deps)
-    // Offset: 0xD7FDBC
+    // Offset: 0x19E4B04
     void GetDependencies(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* deps);
     // public System.Boolean IsValid()
-    // Offset: 0xD7FE10
+    // Offset: 0x19E48A4
     bool IsValid();
     // public UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus GetDownloadStatus()
-    // Offset: 0xD7FE28
+    // Offset: 0x19E4E5C
     UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus();
     // UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus InternalGetDownloadStatus(System.Collections.Generic.HashSet`1<System.Object> visited)
-    // Offset: 0xD7FE30
+    // Offset: 0x19E4ED8
     UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus InternalGetDownloadStatus(System::Collections::Generic::HashSet_1<::Il2CppObject*>* visited);
     // System.Void Release()
-    // Offset: 0xD7FE40
+    // Offset: 0x19E50F4
     void Release();
     // private System.Boolean System.Collections.IEnumerator.MoveNext()
-    // Offset: 0xD7FE68
+    // Offset: 0x19E53EC
     bool System_Collections_IEnumerator_MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0xD7FE88
+    // Offset: 0x19E5408
     void System_Collections_IEnumerator_Reset();
     // public System.Object WaitForCompletion()
-    // Offset: 0xD7FE8C
+    // Offset: 0x19E540C
     ::Il2CppObject* WaitForCompletion();
     // public override System.Int32 GetHashCode()
-    // Offset: 0xD7FDC4
+    // Offset: 0x19E4BD0
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

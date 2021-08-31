@@ -51,14 +51,14 @@ namespace System::Net::NetworkInformation {
     // Set instance field: private System.Net.IPAddress address
     void _set_address(System::Net::IPAddress* value);
     // System.Void .ctor(System.Net.IPAddress address)
-    // Offset: 0x11D53F0
+    // Offset: 0x149B038
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SystemGatewayIPAddressInformation* New_ctor(System::Net::IPAddress* address) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::SystemGatewayIPAddressInformation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SystemGatewayIPAddressInformation*, creationType>(address)));
     }
     // static System.Net.NetworkInformation.GatewayIPAddressInformationCollection ToGatewayIpAddressInformationCollection(System.Net.NetworkInformation.IPAddressCollection addresses)
-    // Offset: 0x11D2644
+    // Offset: 0x149828C
     static System::Net::NetworkInformation::GatewayIPAddressInformationCollection* ToGatewayIpAddressInformationCollection(System::Net::NetworkInformation::IPAddressCollection* addresses);
   }; // System.Net.NetworkInformation.SystemGatewayIPAddressInformation
   #pragma pack(pop)

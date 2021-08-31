@@ -38,7 +38,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MockMasterServerQuickPlaySetupModel : public ::Il2CppObject/*, public GlobalNamespace::IMasterServerQuickPlaySetupModel*/ {
     public:
-    // [InjectAttribute] Offset: 0xEB478C
+    // [InjectAttribute] Offset: 0xE3A56C
     // private readonly MasterServerQuickPlaySetupData _masterServerQuickPlaySetupData
     // Size: 0x8
     // Offset: 0x10
@@ -60,10 +60,10 @@ namespace GlobalNamespace {
     // Set instance field: private readonly MasterServerQuickPlaySetupData _masterServerQuickPlaySetupData
     void _set__masterServerQuickPlaySetupData(GlobalNamespace::MasterServerQuickPlaySetupData* value);
     // public System.Threading.Tasks.Task`1<MasterServerQuickPlaySetupData> GetQuickPlaySetupAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1F6CCF0
+    // Offset: 0x11DC970
     System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerQuickPlaySetupData*>* GetQuickPlaySetupAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x1F6CD64
+    // Offset: 0x11DC9E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

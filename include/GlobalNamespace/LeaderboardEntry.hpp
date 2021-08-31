@@ -74,10 +74,10 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Color _color
     void _set__color(UnityEngine::Color value);
     // public System.Void SetScore(System.Int32 score, System.String playerName, System.Int32 rank, System.Boolean highlighted, System.Boolean showSeparator)
-    // Offset: 0x1F40FA8
+    // Offset: 0x11478C0
     void SetScore(int score, ::Il2CppString* playerName, int rank, bool highlighted, bool showSeparator);
     // public System.Void .ctor()
-    // Offset: 0x1F41148
+    // Offset: 0x1147A60
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

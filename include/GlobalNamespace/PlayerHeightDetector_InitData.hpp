@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Single headPosToPlayerHeightOffset
     void _set_headPosToPlayerHeightOffset(float value);
     // public System.Void .ctor(System.Single headPosToPlayerHeightOffset)
-    // Offset: 0x1F57234
+    // Offset: 0x113A6DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerHeightDetector::InitData* New_ctor(float headPosToPlayerHeightOffset) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerHeightDetector::InitData::.ctor");

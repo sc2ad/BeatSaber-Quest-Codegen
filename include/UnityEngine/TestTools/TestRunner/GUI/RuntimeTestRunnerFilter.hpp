@@ -19,6 +19,11 @@ namespace NUnit::Framework::Interfaces {
   // Forward declaring type: ITestFilter
   class ITestFilter;
 }
+// Forward declaring namespace: NUnit::Framework::Internal::Filters
+namespace NUnit::Framework::Internal::Filters {
+  // Forward declaring type: FullNameFilter
+  class FullNameFilter;
+}
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
@@ -47,8 +52,8 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     public:
     // Nested type: UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c
     class $$c;
-    // Nested type: UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c__DisplayClass6_0
-    class $$c__DisplayClass6_0;
+    // Nested type: UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c__DisplayClass7_0
+    class $$c__DisplayClass7_0;
     // public System.String[] assemblyNames
     // Size: 0x8
     // Offset: 0x10
@@ -102,13 +107,16 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     // Set instance field: public System.Boolean synchronousOnly
     void _set_synchronousOnly(bool value);
     // public NUnit.Framework.Interfaces.ITestFilter BuildNUnitFilter()
-    // Offset: 0x1200950
+    // Offset: 0x14C6780
     NUnit::Framework::Interfaces::ITestFilter* BuildNUnitFilter();
+    // static private NUnit.Framework.Internal.Filters.FullNameFilter OptimizedGroupFilter(System.String s)
+    // Offset: 0x14C6F10
+    static NUnit::Framework::Internal::Filters::FullNameFilter* OptimizedGroupFilter(::Il2CppString* s);
     // static private System.Void AddFilters(System.Collections.Generic.List`1<NUnit.Framework.Interfaces.ITestFilter> filters, System.String[] values, System.Func`2<System.String,NUnit.Framework.Internal.TestFilter> builder)
-    // Offset: 0x1200D00
+    // Offset: 0x14C6AC4
     static void AddFilters(System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestFilter*>* filters, ::Array<::Il2CppString*>* values, System::Func_2<::Il2CppString*, NUnit::Framework::Internal::TestFilter*>* builder);
     // public System.Void .ctor()
-    // Offset: 0x1201154
+    // Offset: 0x14C706C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -129,6 +137,15 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITestFilter* (UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::*)()>(&UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::BuildNUnitFilter)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*), "BuildNUnitFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::OptimizedGroupFilter
+// Il2CppName: OptimizedGroupFilter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Filters::FullNameFilter* (*)(::Il2CppString*)>(&UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::OptimizedGroupFilter)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*), "OptimizedGroupFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::AddFilters

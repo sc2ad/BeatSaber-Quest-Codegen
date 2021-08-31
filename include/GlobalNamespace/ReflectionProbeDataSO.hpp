@@ -52,19 +52,19 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Cubemap _reflectionProbeCubemap2
     void _set__reflectionProbeCubemap2(UnityEngine::Cubemap* value);
     // public UnityEngine.Cubemap get_reflectionProbeCubemap1()
-    // Offset: 0x1F73584
+    // Offset: 0x118B0B8
     UnityEngine::Cubemap* get_reflectionProbeCubemap1();
     // public System.Void set_reflectionProbeCubemap1(UnityEngine.Cubemap value)
-    // Offset: 0x1F7358C
+    // Offset: 0x118B0C0
     void set_reflectionProbeCubemap1(UnityEngine::Cubemap* value);
     // public UnityEngine.Cubemap get_reflectionProbeCubemap2()
-    // Offset: 0x1F73594
+    // Offset: 0x118B0C8
     UnityEngine::Cubemap* get_reflectionProbeCubemap2();
     // public System.Void set_reflectionProbeCubemap2(UnityEngine.Cubemap value)
-    // Offset: 0x1F7359C
+    // Offset: 0x118B0D0
     void set_reflectionProbeCubemap2(UnityEngine::Cubemap* value);
     // public System.Void .ctor()
-    // Offset: 0x1F735A4
+    // Offset: 0x118B0D8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

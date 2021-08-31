@@ -44,10 +44,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Set instance field: private readonly System.Byte[] id
     void _set_id(::Array<uint8_t>* value);
     // public Org.BouncyCastle.Crypto.ICipherParameters get_Parameters()
-    // Offset: 0x1036BF4
+    // Offset: 0x1275FE4
     Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
     // public System.Byte[] GetID()
-    // Offset: 0x1036BEC
+    // Offset: 0x1275FDC
     ::Array<uint8_t>* GetID();
   }; // Org.BouncyCastle.Crypto.Parameters.ParametersWithID
   #pragma pack(pop)

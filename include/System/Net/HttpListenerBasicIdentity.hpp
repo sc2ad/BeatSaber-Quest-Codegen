@@ -37,7 +37,7 @@ namespace System::Net {
     // Set instance field: private System.String password
     void _set_password(::Il2CppString* value);
     // public System.Void .ctor(System.String username, System.String password)
-    // Offset: 0x1337070
+    // Offset: 0x1670240
     // Implemented from: System.Security.Principal.GenericIdentity
     // Base method: System.Void GenericIdentity::.ctor(System.String username, System.String password)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

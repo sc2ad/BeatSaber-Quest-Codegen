@@ -45,10 +45,10 @@ namespace NUnit::Framework::Constraints {
     // Set instance field: public NUnit.Framework.Constraints.ValueFormatter next
     void _set_next(NUnit::Framework::Constraints::ValueFormatter* value);
     // System.String <.cctor>b__15(System.Object val)
-    // Offset: 0x141F274
+    // Offset: 0x176AF14
     ::Il2CppString* $_cctor$b__15(::Il2CppObject* val);
     // public System.Void .ctor()
-    // Offset: 0x141EC00
+    // Offset: 0x176A8A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

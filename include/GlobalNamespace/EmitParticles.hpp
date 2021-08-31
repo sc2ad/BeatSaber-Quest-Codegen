@@ -42,10 +42,10 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.ParticleSystem _particleSystem
     void _set__particleSystem(UnityEngine::ParticleSystem* value);
     // public System.Void Emit(System.Int32 count)
-    // Offset: 0x1E89FA8
+    // Offset: 0x104FD3C
     void Emit(int count);
     // public System.Void .ctor()
-    // Offset: 0x1E89FC4
+    // Offset: 0x104FD58
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

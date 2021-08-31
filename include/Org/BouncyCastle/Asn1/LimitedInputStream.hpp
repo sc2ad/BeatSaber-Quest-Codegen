@@ -51,17 +51,17 @@ namespace Org::BouncyCastle::Asn1 {
     // Set instance field: private System.Int32 _limit
     void _set__limit(int value);
     // System.Int32 get_Limit()
-    // Offset: 0x1460584
+    // Offset: 0x17AD224
     int get_Limit();
     // System.Void .ctor(System.IO.Stream inStream, System.Int32 limit)
-    // Offset: 0x145FABC
+    // Offset: 0x17AC75C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LimitedInputStream* New_ctor(System::IO::Stream* inStream, int limit) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::LimitedInputStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LimitedInputStream*, creationType>(inStream, limit)));
     }
     // protected System.Void SetParentEofDetect(System.Boolean on)
-    // Offset: 0x146058C
+    // Offset: 0x17AD22C
     void SetParentEofDetect(bool on);
   }; // Org.BouncyCastle.Asn1.LimitedInputStream
   #pragma pack(pop)

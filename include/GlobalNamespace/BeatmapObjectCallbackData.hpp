@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly BeatmapObjectCallback callback
     void _set_callback(GlobalNamespace::BeatmapObjectCallback* value);
     // public System.Void .ctor(BeatmapObjectCallback callback, System.Single aheadTime, System.Int32 numberOfLines)
-    // Offset: 0x1EEB7A8
+    // Offset: 0x10C7C98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectCallbackData* New_ctor(GlobalNamespace::BeatmapObjectCallback* callback, float aheadTime, int numberOfLines) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectCallbackData::.ctor");

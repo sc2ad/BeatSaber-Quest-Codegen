@@ -44,10 +44,10 @@ namespace UnityEngine::UI {
     // Set instance field: public UnityEngine.UI.Dropdown <>4__this
     void _set_$$4__this(UnityEngine::UI::Dropdown* value);
     // System.Void <Show>b__0(System.Boolean x)
-    // Offset: 0x15B6B00
+    // Offset: 0x193575C
     void $Show$b__0(bool x);
     // public System.Void .ctor()
-    // Offset: 0x15B6AF8
+    // Offset: 0x1935754
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

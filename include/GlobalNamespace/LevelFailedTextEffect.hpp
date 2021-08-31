@@ -42,10 +42,10 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Animator _animator
     void _set__animator(UnityEngine::Animator* value);
     // public System.Void ShowEffect()
-    // Offset: 0x1F48E1C
+    // Offset: 0x114FEE8
     void ShowEffect();
     // public System.Void .ctor()
-    // Offset: 0x1F48E64
+    // Offset: 0x114FF30
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

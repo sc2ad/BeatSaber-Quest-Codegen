@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Int32 sharedPartWithNext
     void _set_sharedPartWithNext(int value);
     // public System.Void .ctor()
-    // Offset: 0x1963E50
+    // Offset: 0x1E179D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

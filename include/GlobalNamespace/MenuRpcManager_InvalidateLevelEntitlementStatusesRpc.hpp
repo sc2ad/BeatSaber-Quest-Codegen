@@ -25,7 +25,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: InvalidateLevelEntitlementStatusesRpc
     InvalidateLevelEntitlementStatusesRpc() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x2141878
+    // Offset: 0x16E9574
     // Implemented from: RemoteProcedureCall
     // Base method: System.Void RemoteProcedureCall::.ctor()
     // Base method: System.Void Object::.ctor()

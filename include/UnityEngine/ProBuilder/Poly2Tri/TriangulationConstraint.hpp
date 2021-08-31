@@ -48,7 +48,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Set instance field: public UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint Q
     void _set_Q(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
     // public System.Void .ctor()
-    // Offset: 0x1DF46A8
+    // Offset: 0x23C27C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

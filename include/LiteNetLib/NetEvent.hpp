@@ -237,7 +237,7 @@ namespace LiteNetLib {
     // Set instance field: public readonly LiteNetLib.NetPacketReader DataReader
     void _set_DataReader(LiteNetLib::NetPacketReader* value);
     // public System.Void .ctor(LiteNetLib.NetManager manager)
-    // Offset: 0x17A57B0
+    // Offset: 0x1BF3544
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetEvent* New_ctor(LiteNetLib::NetManager* manager) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetEvent::.ctor");

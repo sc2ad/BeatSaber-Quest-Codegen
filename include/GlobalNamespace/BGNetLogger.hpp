@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Set instance field: private readonly Microsoft.Extensions.Logging.ILogger[] _loggers
     void _set__loggers(::Array<Microsoft::Extensions::Logging::ILogger*>* value);
     // public System.Void .ctor(params Microsoft.Extensions.Logging.ILogger[] loggers)
-    // Offset: 0x108E6C0
+    // Offset: 0x131C724
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BGNetLogger* New_ctor(::Array<Microsoft::Extensions::Logging::ILogger*>* loggers) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BGNetLogger::.ctor");
@@ -66,13 +66,13 @@ namespace GlobalNamespace {
       return New_ctor<creationType>({loggers...});
     }
     // public System.Void LogError(System.String message)
-    // Offset: 0x108E6EC
+    // Offset: 0x131C750
     void LogError(::Il2CppString* message);
     // public System.Void LogInfo(System.String message)
-    // Offset: 0x108E7F0
+    // Offset: 0x131C854
     void LogInfo(::Il2CppString* message);
     // public System.Void LogWarning(System.String message)
-    // Offset: 0x108E8F8
+    // Offset: 0x131C95C
     void LogWarning(::Il2CppString* message);
   }; // BGNetLogger
   #pragma pack(pop)

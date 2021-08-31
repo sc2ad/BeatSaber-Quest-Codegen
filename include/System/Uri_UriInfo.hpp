@@ -85,7 +85,7 @@ namespace System {
     // Set instance field: public System.Uri/System.MoreInfo MoreInfo
     void _set_MoreInfo(System::Uri::MoreInfo* value);
     // public System.Void .ctor()
-    // Offset: 0x1E0DAC8
+    // Offset: 0x23EA63C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

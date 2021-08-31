@@ -65,41 +65,41 @@ namespace System::Net {
     // Set instance field: private System.String[] values
     void _set_values(::Array<::Il2CppString*>* value);
     // public System.String get_Realm()
-    // Offset: 0x13A08C0
+    // Offset: 0x16D9888
     ::Il2CppString* get_Realm();
     // public System.String get_Opaque()
-    // Offset: 0x13A08F4
+    // Offset: 0x16D98BC
     ::Il2CppString* get_Opaque();
     // public System.String get_Nonce()
-    // Offset: 0x13A092C
+    // Offset: 0x16D98F4
     ::Il2CppString* get_Nonce();
     // public System.String get_Algorithm()
-    // Offset: 0x13A0964
+    // Offset: 0x16D992C
     ::Il2CppString* get_Algorithm();
     // public System.String get_QOP()
-    // Offset: 0x13A099C
+    // Offset: 0x16D9964
     ::Il2CppString* get_QOP();
     // public System.Void .ctor(System.String header)
-    // Offset: 0x13A0808
+    // Offset: 0x16D97D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DigestHeaderParser* New_ctor(::Il2CppString* header) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::DigestHeaderParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DigestHeaderParser*, creationType>(header)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x13A0E78
+    // Offset: 0x16D9E40
     static void _cctor();
     // public System.Boolean Parse()
-    // Offset: 0x13A09D4
+    // Offset: 0x16D999C
     bool Parse();
     // private System.Void SkipWhitespace()
-    // Offset: 0x13A0D58
+    // Offset: 0x16D9D20
     void SkipWhitespace();
     // private System.String GetKey()
-    // Offset: 0x13A0DE4
+    // Offset: 0x16D9DAC
     ::Il2CppString* GetKey();
     // private System.Boolean GetKeywordAndValue(out System.String key, out System.String value)
-    // Offset: 0x13A0BBC
+    // Offset: 0x16D9B84
     bool GetKeywordAndValue(ByRef<::Il2CppString*> key, ByRef<::Il2CppString*> value);
   }; // System.Net.DigestHeaderParser
   #pragma pack(pop)

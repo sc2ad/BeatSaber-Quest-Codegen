@@ -86,35 +86,35 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _hasKickVotePermission
     void _set__hasKickVotePermission(bool value);
     // public System.String get_userId()
-    // Offset: 0x23DC190
+    // Offset: 0x237C17C
     ::Il2CppString* get_userId();
     // public System.Boolean get_isServerOwner()
-    // Offset: 0x23DC198
+    // Offset: 0x237C184
     bool get_isServerOwner();
     // public System.Boolean get_hasRecommendBeatmapsPermission()
-    // Offset: 0x23DC1A0
+    // Offset: 0x237C18C
     bool get_hasRecommendBeatmapsPermission();
     // public System.Boolean get_hasRecommendGameplayModifiersPermission()
-    // Offset: 0x23DC1A8
+    // Offset: 0x237C194
     bool get_hasRecommendGameplayModifiersPermission();
     // public System.Boolean get_hasKickVotePermission()
-    // Offset: 0x23DC1B0
+    // Offset: 0x237C19C
     bool get_hasKickVotePermission();
     // public System.Void .ctor(System.String userId, System.Boolean isServerOwner, System.Boolean hasRecommendBeatmapsPermission, System.Boolean hasRecommendGameplayModifiersPermission, System.Boolean hasKickVotePermission)
-    // Offset: 0x23DC1B8
+    // Offset: 0x237C1A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerLobbyPermissionConfigurationNetSerializable* New_ctor(::Il2CppString* userId, bool isServerOwner, bool hasRecommendBeatmapsPermission, bool hasRecommendGameplayModifiersPermission, bool hasKickVotePermission) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerLobbyPermissionConfigurationNetSerializable*, creationType>(userId, isServerOwner, hasRecommendBeatmapsPermission, hasRecommendGameplayModifiersPermission, hasKickVotePermission)));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x23DC22C
+    // Offset: 0x237C218
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x23DC2A0
+    // Offset: 0x237C28C
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void .ctor()
-    // Offset: 0x23DC224
+    // Offset: 0x237C210
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

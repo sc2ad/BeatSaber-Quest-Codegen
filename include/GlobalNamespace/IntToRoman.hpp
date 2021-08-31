@@ -18,7 +18,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: IntToRoman
     IntToRoman() noexcept {}
     // static public System.String Roman(System.Int32 number)
-    // Offset: 0x20477F4
+    // Offset: 0x12653EC
     static ::Il2CppString* Roman(int number);
   }; // IntToRoman
   #pragma pack(pop)

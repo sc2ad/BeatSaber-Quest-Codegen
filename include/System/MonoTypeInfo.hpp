@@ -49,7 +49,7 @@ namespace System {
     // Set instance field: public System.Reflection.MonoCMethod default_ctor
     void _set_default_ctor(System::Reflection::MonoCMethod* value);
     // public System.Void .ctor()
-    // Offset: 0x14CFB14
+    // Offset: 0x1839760
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

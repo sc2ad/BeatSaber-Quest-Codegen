@@ -71,10 +71,10 @@ namespace OnlineServices {
     // Set instance field: public readonly System.Int32 referencePlayerScoreIndex
     void _set_referencePlayerScoreIndex(int value);
     // static public OnlineServices.GetLeaderboardEntriesResult get_resultWithError()
-    // Offset: 0x1E4BFB4
+    // Offset: 0x102954C
     static OnlineServices::GetLeaderboardEntriesResult get_resultWithError();
     // public System.Void .ctor(System.Boolean isError, OnlineServices.LeaderboardEntryData[] leaderboardEntries, System.Int32 referencePlayerScoreIndex)
-    // Offset: 0xF7B54C
+    // Offset: 0x1029538
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  GetLeaderboardEntriesResult(bool isError, ::Array<OnlineServices::LeaderboardEntryData*>* leaderboardEntries, int referencePlayerScoreIndex)
   }; // OnlineServices.GetLeaderboardEntriesResult

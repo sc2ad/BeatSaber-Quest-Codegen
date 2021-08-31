@@ -33,7 +33,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Set instance field: private System.Int32 cipherKeySize
     void _set_cipherKeySize(int value);
     // public System.Int32 get_CipherKeySize()
-    // Offset: 0x1036B14
+    // Offset: 0x1275F04
     int get_CipherKeySize();
   }; // Org.BouncyCastle.Crypto.Parameters.IesWithCipherParameters
   #pragma pack(pop)

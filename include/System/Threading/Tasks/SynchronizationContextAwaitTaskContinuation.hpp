@@ -68,23 +68,23 @@ namespace System::Threading::Tasks {
     // Set instance field: private readonly System.Threading.SynchronizationContext m_syncContext
     void _set_m_syncContext(System::Threading::SynchronizationContext* value);
     // System.Void .ctor(System.Threading.SynchronizationContext context, System.Action action, System.Boolean flowExecutionContext, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x157EA4C
+    // Offset: 0x18FD694
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SynchronizationContextAwaitTaskContinuation* New_ctor(System::Threading::SynchronizationContext* context, System::Action* action, bool flowExecutionContext, ByRef<System::Threading::StackCrawlMark> stackMark) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SynchronizationContextAwaitTaskContinuation*, creationType>(context, action, flowExecutionContext, byref(stackMark))));
     }
     // static private System.Void .cctor()
-    // Offset: 0x157EDF4
+    // Offset: 0x18FDA3C
     static void _cctor();
     // static private System.Void PostAction(System.Object state)
-    // Offset: 0x157EC88
+    // Offset: 0x18FD8D0
     static void PostAction(::Il2CppObject* state);
     // static private System.Threading.ContextCallback GetPostActionCallback()
-    // Offset: 0x157ED34
+    // Offset: 0x18FD97C
     static System::Threading::ContextCallback* GetPostActionCallback();
     // override System.Void Run(System.Threading.Tasks.Task task, System.Boolean canInlineContinuationTask)
-    // Offset: 0x157EA80
+    // Offset: 0x18FD6C8
     // Implemented from: System.Threading.Tasks.AwaitTaskContinuation
     // Base method: System.Void AwaitTaskContinuation::Run(System.Threading.Tasks.Task task, System.Boolean canInlineContinuationTask)
     void Run(System::Threading::Tasks::Task* task, bool canInlineContinuationTask);

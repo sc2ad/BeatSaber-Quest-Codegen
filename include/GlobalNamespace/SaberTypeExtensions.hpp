@@ -32,13 +32,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SaberTypeExtensions
     SaberTypeExtensions() noexcept {}
     // static public System.Boolean MatchesColorType(SaberType saberType, ColorType colorType)
-    // Offset: 0x23DB660
+    // Offset: 0x237B64C
     static bool MatchesColorType(GlobalNamespace::SaberType saberType, GlobalNamespace::ColorType colorType);
     // static public UnityEngine.XR.XRNode Node(SaberType saberType)
-    // Offset: 0x23DDC30
+    // Offset: 0x237DC1C
     static UnityEngine::XR::XRNode Node(GlobalNamespace::SaberType saberType);
     // static public SaberType MainSaber(System.Boolean leftHanded)
-    // Offset: 0x23DDC40
+    // Offset: 0x237DC2C
     static GlobalNamespace::SaberType MainSaber(bool leftHanded);
   }; // SaberTypeExtensions
   #pragma pack(pop)

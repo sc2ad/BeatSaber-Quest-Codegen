@@ -26,7 +26,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ColorSchemeConverter
     ColorSchemeConverter() noexcept {}
     // static public ColorScheme FromNetSerializable(ColorSchemeNetSerializable serialized)
-    // Offset: 0x1EFF680
+    // Offset: 0x10EF494
     static GlobalNamespace::ColorScheme* FromNetSerializable(GlobalNamespace::ColorSchemeNetSerializable serialized);
   }; // ColorSchemeConverter
   #pragma pack(pop)

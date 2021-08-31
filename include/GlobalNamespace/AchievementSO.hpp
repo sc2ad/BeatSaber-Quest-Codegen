@@ -35,10 +35,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.String _achievementId
     void _set__achievementId(::Il2CppString* value);
     // public System.String get_achievementId()
-    // Offset: 0x1F25A88
+    // Offset: 0x1176808
     ::Il2CppString* get_achievementId();
     // public System.Void .ctor()
-    // Offset: 0x1F25A90
+    // Offset: 0x1176810
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

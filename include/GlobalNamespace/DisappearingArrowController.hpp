@@ -39,10 +39,10 @@ namespace GlobalNamespace {
     // Set instance field: private GameNoteController _gameNoteController
     void _set__gameNoteController(GlobalNamespace::GameNoteController* value);
     // protected GameNoteController get_gameNoteController()
-    // Offset: 0x1F0C110
+    // Offset: 0x10FBF3C
     GlobalNamespace::GameNoteController* get_gameNoteController();
     // public System.Void .ctor()
-    // Offset: 0x1F0C118
+    // Offset: 0x10FBF44
     // Implemented from: DisappearingArrowControllerBase`1
     // Base method: System.Void DisappearingArrowControllerBase_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

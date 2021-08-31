@@ -42,7 +42,7 @@ namespace System::Text::RegularExpressions {
     // Set instance field: private System.WeakReference _ref
     void _set__ref(System::WeakReference* value);
     // public System.Void .ctor()
-    // Offset: 0x163EE08
+    // Offset: 0x19A2738
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

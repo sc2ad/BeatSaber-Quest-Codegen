@@ -271,7 +271,7 @@ namespace GlobalNamespace {
     // Set instance field: public PlayerSaveDataV1_0_1/GameplayModifiers/SongSpeed songSpeed
     void _set_songSpeed(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::SongSpeed value);
     // public System.Void .ctor()
-    // Offset: 0x1F57FBC
+    // Offset: 0x113B464
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -86,42 +86,42 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xEAFBC8
+    // [InjectAttribute] Offset: 0xE359A8
     // private readonly MenuScenesTransitionSetupDataSO _menuScenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::MenuScenesTransitionSetupDataSO* menuScenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xEAFBD8
+    // [InjectAttribute] Offset: 0xE359B8
     // private readonly IRichPresencePlatformHandler _richPresencePlatformHandler
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::IRichPresencePlatformHandler* richPresencePlatformHandler;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IRichPresencePlatformHandler*) == 0x8);
-    // [InjectAttribute] Offset: 0xEAFBE8
+    // [InjectAttribute] Offset: 0xE359C8
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xEAFBF8
+    // [InjectAttribute] Offset: 0xE359D8
     // private readonly LobbyGameStateModel _lobbyGameStateModel
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::LobbyGameStateModel* lobbyGameStateModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LobbyGameStateModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xEAFC08
+    // [InjectAttribute] Offset: 0xE359E8
     // private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::IUnifiedNetworkPlayerModel* unifiedNetworkPlayerModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IUnifiedNetworkPlayerModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xEAFC18
+    // [InjectAttribute] Offset: 0xE359F8
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x60
@@ -245,31 +245,31 @@ namespace GlobalNamespace {
     // Set instance field: private IRichPresenceData _currentPresenceData
     void _set__currentPresenceData(GlobalNamespace::IRichPresenceData* value);
     // protected System.Void Awake()
-    // Offset: 0x1F75BA0
+    // Offset: 0x118D6D4
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1F75D2C
+    // Offset: 0x118D860
     void OnDestroy();
     // private System.Void HandleLobbyGameStateModelDidChange(MultiplayerGameState newGameState)
-    // Offset: 0x1F75ED0
+    // Offset: 0x118DA04
     void HandleLobbyGameStateModelDidChange(GlobalNamespace::MultiplayerGameState newGameState);
     // private System.Void SetMenuPresence()
-    // Offset: 0x1F75EEC
+    // Offset: 0x118DA20
     void SetMenuPresence();
     // private System.Void HandleGameScenesManagerTransitionDidFinish(ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject.DiContainer diContainer)
-    // Offset: 0x1F7616C
+    // Offset: 0x118DCA0
     void HandleGameScenesManagerTransitionDidFinish(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, Zenject::DiContainer* diContainer);
     // private System.Void HandlePlayerDataDidChangeShareMultiplayerLobbyCodeInRichPresence()
-    // Offset: 0x1F76510
+    // Offset: 0x118E044
     void HandlePlayerDataDidChangeShareMultiplayerLobbyCodeInRichPresence();
     // private System.Void SetPresence(IRichPresenceData presenceData)
-    // Offset: 0x1F760A8
+    // Offset: 0x118DBDC
     void SetPresence(GlobalNamespace::IRichPresenceData* presenceData);
     // private System.Void Clear()
-    // Offset: 0x1F76458
+    // Offset: 0x118DF8C
     void Clear();
     // public System.Void .ctor()
-    // Offset: 0x1F7670C
+    // Offset: 0x118E240
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

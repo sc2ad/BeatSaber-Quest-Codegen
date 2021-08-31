@@ -52,7 +52,7 @@ namespace UnityEngine::EventSystems {
     // Set instance field: public UnityEngine.Vector2 swipeStart
     void _set_swipeStart(UnityEngine::Vector2 value);
     // public System.Void .ctor(UnityEngine.EventSystems.EventSystem eventSystem)
-    // Offset: 0x1A0B930
+    // Offset: 0x1F4DC64
     // Implemented from: UnityEngine.EventSystems.PointerEventData
     // Base method: System.Void PointerEventData::.ctor(UnityEngine.EventSystems.EventSystem eventSystem)
     // Base method: System.Void BaseEventData::.ctor(UnityEngine.EventSystems.EventSystem eventSystem)
@@ -62,7 +62,7 @@ namespace UnityEngine::EventSystems {
       return THROW_UNLESS((::il2cpp_utils::New<OVRPointerEventData*, creationType>(eventSystem)));
     }
     // public override System.String ToString()
-    // Offset: 0x1A0DA70
+    // Offset: 0x1F4FDBC
     // Implemented from: UnityEngine.EventSystems.PointerEventData
     // Base method: System.String PointerEventData::ToString()
     ::Il2CppString* ToString();

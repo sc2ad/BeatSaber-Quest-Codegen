@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     UnityEngine::MeshRenderer* meshRenderer;
     // Field size check
     static_assert(sizeof(UnityEngine::MeshRenderer*) == 0x8);
-    // [InjectAttribute] Offset: 0xEB5FB8
+    // [InjectAttribute] Offset: 0xE3BD98
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x28
@@ -104,13 +104,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Material _material
     void _set__material(UnityEngine::Material* value);
     // protected System.Void Start()
-    // Offset: 0x1FB15E8
+    // Offset: 0x11E06CC
     void Start();
     // protected System.Void Update()
-    // Offset: 0x1FB1648
+    // Offset: 0x11E072C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1FB1778
+    // Offset: 0x11E085C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

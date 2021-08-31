@@ -52,19 +52,19 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set instance field: System.String assemblyString
     void _set_assemblyString(::Il2CppString* value);
     // System.Void Set(System.Int32 assemId, System.String assemblyString)
-    // Offset: 0x12DAA84
+    // Offset: 0x1612D14
     void Set(int assemId, ::Il2CppString* assemblyString);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x12DAA90
+    // Offset: 0x1612D20
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0x12DAAE4
+    // Offset: 0x1612D74
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0x12DAB68
+    // Offset: 0x1612DF8
     void Dump();
     // System.Void .ctor()
-    // Offset: 0x12DAA7C
+    // Offset: 0x1612D0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

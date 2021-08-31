@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LanguageSO
     LanguageSO() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1F40D88
+    // Offset: 0x11476A0
     // Implemented from: ObservableVariableSO`1
     // Base method: System.Void ObservableVariableSO_1::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

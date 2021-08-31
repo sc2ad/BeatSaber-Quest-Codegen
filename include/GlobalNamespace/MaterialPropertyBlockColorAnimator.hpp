@@ -25,7 +25,7 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x2D to desired offset: 0x30
     char ___base_padding[0x3] = {};
-    // [SpaceAttribute] Offset: 0xE8F67C
+    // [SpaceAttribute] Offset: 0xE1541C
     // private UnityEngine.Color _color
     // Size: 0x10
     // Offset: 0x30
@@ -39,13 +39,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Color _color
     void _set__color(UnityEngine::Color value);
     // public UnityEngine.Color get_color()
-    // Offset: 0x19686FC
+    // Offset: 0x1E1C280
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x1968708
+    // Offset: 0x1E1C28C
     void set_color(UnityEngine::Color value);
     // public System.Void .ctor()
-    // Offset: 0x19687C0
+    // Offset: 0x1E1C344
     // Implemented from: MaterialPropertyBlockAnimator
     // Base method: System.Void MaterialPropertyBlockAnimator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -59,7 +59,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyBlockColorAnimator*, creationType>()));
     }
     // protected override System.Void SetProperty()
-    // Offset: 0x1968714
+    // Offset: 0x1E1C298
     // Implemented from: MaterialPropertyBlockAnimator
     // Base method: System.Void MaterialPropertyBlockAnimator::SetProperty()
     void SetProperty();

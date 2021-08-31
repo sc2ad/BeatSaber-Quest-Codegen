@@ -62,7 +62,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Set instance field: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier _encryptionParamSet
     void _set__encryptionParamSet(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Parameters.ECNamedDomainParameters dp, Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet, Org.BouncyCastle.Asn1.DerObjectIdentifier digestParamSet, Org.BouncyCastle.Asn1.DerObjectIdentifier encryptionParamSet)
-    // Offset: 0x103409C
+    // Offset: 0x127348C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECGost3410Parameters* New_ctor(Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters* dp, Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier* digestParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionParamSet) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters::.ctor");

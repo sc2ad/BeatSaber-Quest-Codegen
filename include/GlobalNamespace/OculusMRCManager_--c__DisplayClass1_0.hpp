@@ -62,10 +62,10 @@ namespace GlobalNamespace {
     // Set instance field: public System.Func`2<UnityEngine.GameObject,UnityEngine.GameObject> instantiateMixedRealityForegroundCameraGameObject
     void _set_instantiateMixedRealityForegroundCameraGameObject(System::Func_2<UnityEngine::GameObject*, UnityEngine::GameObject*>* value);
     // UnityEngine.GameObject <Init>b__0(UnityEngine.GameObject mainCameraGameObject, OVRManager/MrcCameraType cameraType)
-    // Offset: 0x2048D80
+    // Offset: 0x1266978
     UnityEngine::GameObject* $Init$b__0(UnityEngine::GameObject* mainCameraGameObject, GlobalNamespace::OVRManager_MrcCameraType cameraType);
     // public System.Void .ctor()
-    // Offset: 0x2048D70
+    // Offset: 0x1266968
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

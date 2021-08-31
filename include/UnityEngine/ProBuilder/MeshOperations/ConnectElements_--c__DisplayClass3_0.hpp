@@ -51,10 +51,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set instance field: public System.Collections.Generic.HashSet`1<System.Int32> appended
     void _set_appended(System::Collections::Generic::HashSet_1<int>* value);
     // System.Boolean <Connect>b__3(UnityEngine.ProBuilder.Edge x)
-    // Offset: 0x1247654
+    // Offset: 0x1553084
     bool $Connect$b__3(UnityEngine::ProBuilder::Edge x);
     // public System.Void .ctor()
-    // Offset: 0x124721C
+    // Offset: 0x1552C4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

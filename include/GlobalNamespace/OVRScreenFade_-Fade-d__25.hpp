@@ -92,26 +92,26 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single <elapsedTime>5__2
     void _set_$elapsedTime$5__2(float value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1300400
+    // Offset: 0x16386A8
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1300468
+    // Offset: 0x1638710
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x130021C
+    // Offset: 0x16384C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRScreenFade::$Fade$d__25* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRScreenFade::$Fade$d__25::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRScreenFade::$Fade$d__25*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x13002BC
+    // Offset: 0x1638564
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x13002C0
+    // Offset: 0x1638568
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1300408
+    // Offset: 0x16386B0
     void System_Collections_IEnumerator_Reset();
   }; // OVRScreenFade/<Fade>d__25
   #pragma pack(pop)

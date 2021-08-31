@@ -34,20 +34,20 @@ namespace System::IO::Compression {
     // Creating value type constructor for type: ReadMethod
     ReadMethod() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1521A74
+    // Offset: 0x18B7078
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DeflateStream::ReadMethod* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::Compression::DeflateStream::ReadMethod::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DeflateStream::ReadMethod*, creationType>(object, method)));
     }
     // public System.Int32 Invoke(System.Byte[] array, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1522300
+    // Offset: 0x18B7904
     int Invoke(::Array<uint8_t>* array, int offset, int count);
     // public System.IAsyncResult BeginInvoke(System.Byte[] array, System.Int32 offset, System.Int32 count, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1521A84
+    // Offset: 0x18B7088
     System::IAsyncResult* BeginInvoke(::Array<uint8_t>* array, int offset, int count, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Int32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1521F4C
+    // Offset: 0x18B7550
     int EndInvoke(System::IAsyncResult* result);
   }; // System.IO.Compression.DeflateStream/System.IO.Compression.ReadMethod
   #pragma pack(pop)

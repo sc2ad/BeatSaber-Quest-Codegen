@@ -53,10 +53,10 @@ namespace GlobalNamespace {
     // Set instance field: public System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParamsList
     void _set_modifierParamsList(System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* value);
     // System.Void <RefreshContent>b__0(System.Int32 idx, GameplayModifierInfoListItem gameplayModifierInfoListItem)
-    // Offset: 0x1F639D8
+    // Offset: 0x11D3658
     void $RefreshContent$b__0(int idx, GlobalNamespace::GameplayModifierInfoListItem* gameplayModifierInfoListItem);
     // public System.Void .ctor()
-    // Offset: 0x1F639C8
+    // Offset: 0x11D3648
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

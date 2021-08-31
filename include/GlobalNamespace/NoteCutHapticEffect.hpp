@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     Libraries::HM::HMLib::VR::HapticPresetSO* rumblePreset;
     // Field size check
     static_assert(sizeof(Libraries::HM::HMLib::VR::HapticPresetSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xEB18E0
+    // [InjectAttribute] Offset: 0xE376C0
     // private readonly HapticFeedbackController _hapticFeedbackController
     // Size: 0x8
     // Offset: 0x20
@@ -60,10 +60,10 @@ namespace GlobalNamespace {
     // Set instance field: private readonly HapticFeedbackController _hapticFeedbackController
     void _set__hapticFeedbackController(GlobalNamespace::HapticFeedbackController* value);
     // public System.Void HitNote(SaberType saberType)
-    // Offset: 0x1E6B0B0
+    // Offset: 0x1046ADC
     void HitNote(GlobalNamespace::SaberType saberType);
     // public System.Void .ctor()
-    // Offset: 0x1E6B5E4
+    // Offset: 0x1047010
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

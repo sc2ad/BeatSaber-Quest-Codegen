@@ -43,20 +43,20 @@ namespace System::Net::Security {
     // Set instance field: private System.Boolean _LeaveStreamOpen
     void _set__LeaveStreamOpen(bool value);
     // protected System.IO.Stream get_InnerStream()
-    // Offset: 0x11D8F84
+    // Offset: 0x149EBCC
     System::IO::Stream* get_InnerStream();
     // public System.Boolean get_IsAuthenticated()
     // Offset: 0xFFFFFFFF
     bool get_IsAuthenticated();
     // protected System.Void .ctor(System.IO.Stream innerStream, System.Boolean leaveInnerStreamOpen)
-    // Offset: 0x11D8DE0
+    // Offset: 0x149EA28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AuthenticatedStream* New_ctor(System::IO::Stream* innerStream, bool leaveInnerStreamOpen) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Security::AuthenticatedStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AuthenticatedStream*, creationType>(innerStream, leaveInnerStreamOpen)));
     }
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x11D8F8C
+    // Offset: 0x149EBD4
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);

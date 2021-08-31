@@ -86,19 +86,19 @@ namespace GlobalNamespace {
     // Set instance field: public StandardLevelDetailViewController <>4__this
     void _set_$$4__this(GlobalNamespace::StandardLevelDetailViewController* value);
     // System.Void <DidActivate>b__2()
-    // Offset: 0x1ECDB20
+    // Offset: 0x1088460
     void $DidActivate$b__2();
     // System.Void <DidActivate>b__3()
-    // Offset: 0x1ECDB50
+    // Offset: 0x1088490
     void $DidActivate$b__3();
     // System.Void <DidActivate>b__6()
-    // Offset: 0x1ECDB80
+    // Offset: 0x10884C0
     void $DidActivate$b__6();
     // System.Void <DidActivate>b__7()
-    // Offset: 0x1ECDBCC
+    // Offset: 0x108850C
     void $DidActivate$b__7();
     // public System.Void .ctor()
-    // Offset: 0x1ECC738
+    // Offset: 0x1087078
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

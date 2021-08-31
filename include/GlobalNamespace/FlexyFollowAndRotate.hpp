@@ -52,10 +52,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _smooth
     void _set__smooth(float value);
     // protected System.Void Update()
-    // Offset: 0x2042240
+    // Offset: 0x125FF68
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x204241C
+    // Offset: 0x1260144
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

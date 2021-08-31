@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     float smooth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xEB25A0
+    // [InjectAttribute] Offset: 0xE38380
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x20
@@ -109,25 +109,25 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _prevRotation
     void _set__prevRotation(float value);
     // protected System.Void Awake()
-    // Offset: 0x1F76F48
+    // Offset: 0x118EA7C
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x1F76F68
+    // Offset: 0x118EA9C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1F770E4
+    // Offset: 0x118EC18
     void OnDestroy();
     // private System.Void BeatmapEventAtNoteSpawnCallback(BeatmapEventData beatmapEventData)
-    // Offset: 0x1F771A0
+    // Offset: 0x118ECD4
     void BeatmapEventAtNoteSpawnCallback(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // protected System.Void FixedUpdate()
-    // Offset: 0x1F772B0
+    // Offset: 0x118EDE4
     void FixedUpdate();
     // protected System.Void LateUpdate()
-    // Offset: 0x1F7738C
+    // Offset: 0x118EEC0
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x1F774BC
+    // Offset: 0x118EFF0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

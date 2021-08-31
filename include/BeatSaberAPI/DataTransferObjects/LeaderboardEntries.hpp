@@ -42,7 +42,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Set instance field: public BeatSaberAPI.DataTransferObjects.LeaderboardEntry[] entries
     void _set_entries(::Array<BeatSaberAPI::DataTransferObjects::LeaderboardEntry*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1FCE138
+    // Offset: 0x11E8D54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

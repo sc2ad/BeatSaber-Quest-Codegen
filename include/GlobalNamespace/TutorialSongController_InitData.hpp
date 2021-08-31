@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Single songBpm
     void _set_songBpm(float value);
     // public System.Void .ctor(System.Single songBpm)
-    // Offset: 0x1EE023C
+    // Offset: 0x109AB48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialSongController::InitData* New_ctor(float songBpm) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TutorialSongController::InitData::.ctor");

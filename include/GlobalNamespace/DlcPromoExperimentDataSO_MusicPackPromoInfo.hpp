@@ -55,13 +55,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Sprite _bannerImage
     void _set__bannerImage(UnityEngine::Sprite* value);
     // public PreviewBeatmapLevelPackSO get_previewBeatmapLevelPack()
-    // Offset: 0x1F0C6EC
+    // Offset: 0x10FC584
     GlobalNamespace::PreviewBeatmapLevelPackSO* get_previewBeatmapLevelPack();
     // public UnityEngine.Sprite get_bannerImage()
-    // Offset: 0x1F0C6F4
+    // Offset: 0x10FC58C
     UnityEngine::Sprite* get_bannerImage();
     // public System.Void .ctor()
-    // Offset: 0x1F0C6FC
+    // Offset: 0x10FC594
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

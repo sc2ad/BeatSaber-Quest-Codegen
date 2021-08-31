@@ -62,30 +62,30 @@ namespace UnityEngine {
     // Set instance field: public UnityEngine.Quaternion rotation
     void _set_rotation(UnityEngine::Quaternion value);
     // public UnityEngine.Vector3 get_forward()
-    // Offset: 0xF83F08
+    // Offset: 0x1C3F858
     UnityEngine::Vector3 get_forward();
     // public System.Void .ctor(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0xF83EEC
+    // Offset: 0x1C3F5A4
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Pose(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation)
     // static private System.Void .cctor()
-    // Offset: 0x22AE7F0
+    // Offset: 0x1C3FD0C
     static void _cctor();
     // public System.Boolean Equals(UnityEngine.Pose other)
-    // Offset: 0xF83F18
+    // Offset: 0x1C3FA74
     bool Equals(UnityEngine::Pose other);
     // public override System.String ToString()
-    // Offset: 0xF83F00
+    // Offset: 0x1C3F5B8
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xF83F10
+    // Offset: 0x1C3F9D4
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xF83F50
+    // Offset: 0x1C3FC70
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

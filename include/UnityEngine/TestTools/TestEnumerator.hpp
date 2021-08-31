@@ -56,14 +56,14 @@ namespace UnityEngine::TestTools {
     // Set instance field: private readonly NUnit.Framework.Internal.ITestExecutionContext m_Context
     void _set_m_Context(NUnit::Framework::Internal::ITestExecutionContext* value);
     // public System.Void .ctor(NUnit.Framework.Internal.ITestExecutionContext context, System.Collections.IEnumerator testEnumerator)
-    // Offset: 0x11FB568
+    // Offset: 0x14C1288
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestEnumerator* New_ctor(NUnit::Framework::Internal::ITestExecutionContext* context, System::Collections::IEnumerator* testEnumerator) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestEnumerator*, creationType>(context, testEnumerator)));
     }
     // public System.Collections.IEnumerator Execute()
-    // Offset: 0x11FB5DC
+    // Offset: 0x14C12FC
     System::Collections::IEnumerator* Execute();
   }; // UnityEngine.TestTools.TestEnumerator
   #pragma pack(pop)

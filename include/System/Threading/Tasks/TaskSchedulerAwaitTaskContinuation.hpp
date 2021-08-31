@@ -53,14 +53,14 @@ namespace System::Threading::Tasks {
     // Set instance field: private readonly System.Threading.Tasks.TaskScheduler m_scheduler
     void _set_m_scheduler(System::Threading::Tasks::TaskScheduler* value);
     // System.Void .ctor(System.Threading.Tasks.TaskScheduler scheduler, System.Action action, System.Boolean flowExecutionContext, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x1559E90
+    // Offset: 0x1876670
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TaskSchedulerAwaitTaskContinuation* New_ctor(System::Threading::Tasks::TaskScheduler* scheduler, System::Action* action, bool flowExecutionContext, ByRef<System::Threading::StackCrawlMark> stackMark) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TaskSchedulerAwaitTaskContinuation*, creationType>(scheduler, action, flowExecutionContext, byref(stackMark))));
     }
     // override System.Void Run(System.Threading.Tasks.Task ignored, System.Boolean canInlineContinuationTask)
-    // Offset: 0x1559ECC
+    // Offset: 0x18766AC
     // Implemented from: System.Threading.Tasks.AwaitTaskContinuation
     // Base method: System.Void AwaitTaskContinuation::Run(System.Threading.Tasks.Task ignored, System.Boolean canInlineContinuationTask)
     void Run(System::Threading::Tasks::Task* ignored, bool canInlineContinuationTask);

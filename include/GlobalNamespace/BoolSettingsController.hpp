@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     // Set instance field: private BoolSO _settingsValue
     void _set__settingsValue(GlobalNamespace::BoolSO* value);
     // public System.Void .ctor()
-    // Offset: 0x1EF7274
+    // Offset: 0x10D3764
     // Implemented from: SwitchSettingsController
     // Base method: System.Void SwitchSettingsController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -56,12 +56,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BoolSettingsController*, creationType>()));
     }
     // protected override System.Boolean GetInitValue()
-    // Offset: 0x1EF71BC
+    // Offset: 0x10D36AC
     // Implemented from: SwitchSettingsController
     // Base method: System.Boolean SwitchSettingsController::GetInitValue()
     bool GetInitValue();
     // protected override System.Void ApplyValue(System.Boolean value)
-    // Offset: 0x1EF720C
+    // Offset: 0x10D36FC
     // Implemented from: SwitchSettingsController
     // Base method: System.Void SwitchSettingsController::ApplyValue(System.Boolean value)
     void ApplyValue(bool value);

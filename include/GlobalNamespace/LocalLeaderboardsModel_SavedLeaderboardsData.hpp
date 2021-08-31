@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Collections.Generic.List`1<LocalLeaderboardsModel/LeaderboardData> _leaderboardsData
     void _set__leaderboardsData(System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1F9F688
+    // Offset: 0x10D6544
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -137,26 +137,26 @@ namespace UnityEngine::TestTools::NUnitExtensions {
     // Set instance field: private System.Int32 <index>5__3
     void _set_$index$5__3(int value);
     // private NUnit.Framework.Interfaces.ITest System.Collections.Generic.IEnumerator<NUnit.Framework.Interfaces.ITest>.get_Current()
-    // Offset: 0x11FD4F4
+    // Offset: 0x14C3214
     NUnit::Framework::Interfaces::ITest* System_Collections_Generic_IEnumerator$NUnit_Framework_Interfaces_ITest$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x11FD55C
+    // Offset: 0x14C327C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x11FD138
+    // Offset: 0x14C2E58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityTestAssemblyBuilder::$BuildAsync$d__3* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::$BuildAsync$d__3::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityTestAssemblyBuilder::$BuildAsync$d__3*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x11FD234
+    // Offset: 0x14C2F54
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x11FD238
+    // Offset: 0x14C2F58
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x11FD4FC
+    // Offset: 0x14C321C
     void System_Collections_IEnumerator_Reset();
   }; // UnityEngine.TestTools.NUnitExtensions.UnityTestAssemblyBuilder/UnityEngine.TestTools.NUnitExtensions.<BuildAsync>d__3
   #pragma pack(pop)

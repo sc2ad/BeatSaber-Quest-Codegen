@@ -64,13 +64,13 @@ namespace GlobalNamespace {
     // Set instance field: public System.Action <>9__1
     void _set_$$9__1(System::Action* value);
     // System.Void <PresentMissionClearedIfNeeded>b__0()
-    // Offset: 0x1F6A708
+    // Offset: 0x11DA388
     void $PresentMissionClearedIfNeeded$b__0();
     // System.Void <PresentMissionClearedIfNeeded>b__1()
-    // Offset: 0x1F6A7C0
+    // Offset: 0x11DA440
     void $PresentMissionClearedIfNeeded$b__1();
     // public System.Void .ctor()
-    // Offset: 0x1F6A6F8
+    // Offset: 0x11DA378
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

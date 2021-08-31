@@ -42,10 +42,10 @@ namespace GlobalNamespace {
     // Set instance field: public UnityEngine.GameObject _prefab
     void _set__prefab(UnityEngine::GameObject* value);
     // protected System.Void Awake()
-    // Offset: 0x204769C
+    // Offset: 0x1265294
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x204779C
+    // Offset: 0x1265394
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

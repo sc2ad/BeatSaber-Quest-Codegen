@@ -102,19 +102,19 @@ namespace GlobalNamespace {
     // Set instance field: private RandomObjectPicker`1<UnityEngine.AudioClip> _randomSoundPicker
     void _set__randomSoundPicker(GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* value);
     // protected System.Void Start()
-    // Offset: 0x1FCC5DC
+    // Offset: 0x11E71F8
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x1FCC674
+    // Offset: 0x11E7290
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1FCC748
+    // Offset: 0x11E7364
     void OnDisable();
     // private System.Void HandleButtonClickEvent()
-    // Offset: 0x1FCC81C
+    // Offset: 0x11E7438
     void HandleButtonClickEvent();
     // public System.Void .ctor()
-    // Offset: 0x1FCC8FC
+    // Offset: 0x11E7518
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

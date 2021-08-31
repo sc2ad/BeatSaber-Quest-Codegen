@@ -54,10 +54,10 @@ namespace GlobalNamespace {
     // Set instance field: public PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler
     void _set_completionHandler(GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler* value);
     // System.Void <UploadScore>b__0(Oculus.Platform.Message`1<System.Boolean> messsage)
-    // Offset: 0x1E45364
+    // Offset: 0x10228FC
     void $UploadScore$b__0(Oculus::Platform::Message_1<bool>* messsage);
     // public System.Void .ctor()
-    // Offset: 0x1E44FB0
+    // Offset: 0x1022548
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

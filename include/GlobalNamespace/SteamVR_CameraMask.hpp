@@ -24,10 +24,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SteamVR_CameraMask
     SteamVR_CameraMask() noexcept {}
     // private System.Void Awake()
-    // Offset: 0x11488C0
+    // Offset: 0x141E778
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x114895C
+    // Offset: 0x141E814
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

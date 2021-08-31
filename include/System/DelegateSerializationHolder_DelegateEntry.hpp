@@ -105,14 +105,14 @@ namespace System {
     // Set instance field: public System.DelegateSerializationHolder/System.DelegateEntry delegateEntry
     void _set_delegateEntry(System::DelegateSerializationHolder::DelegateEntry* value);
     // public System.Void .ctor(System.Delegate del, System.String targetLabel)
-    // Offset: 0x1784DF0
+    // Offset: 0x1B641BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DelegateSerializationHolder::DelegateEntry* New_ctor(System::Delegate* del, ::Il2CppString* targetLabel) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::DelegateSerializationHolder::DelegateEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DelegateSerializationHolder::DelegateEntry*, creationType>(del, targetLabel)));
     }
     // public System.Delegate DeserializeDelegate(System.Runtime.Serialization.SerializationInfo info, System.Int32 index)
-    // Offset: 0x1784B7C
+    // Offset: 0x1B63F48
     System::Delegate* DeserializeDelegate(System::Runtime::Serialization::SerializationInfo* info, int index);
   }; // System.DelegateSerializationHolder/System.DelegateEntry
   #pragma pack(pop)

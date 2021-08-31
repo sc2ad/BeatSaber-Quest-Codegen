@@ -62,22 +62,22 @@ namespace System::Threading {
     // Set instance field: public System.Threading.ThreadPoolWorkQueue/System.Threading.QueueSegment Next
     void _set_Next(System::Threading::ThreadPoolWorkQueue::QueueSegment* value);
     // private System.Void GetIndexes(out System.Int32 upper, out System.Int32 lower)
-    // Offset: 0x155E4A8
+    // Offset: 0x187AC9C
     void GetIndexes(ByRef<int> upper, ByRef<int> lower);
     // private System.Boolean CompareExchangeIndexes(ref System.Int32 prevUpper, System.Int32 newUpper, ref System.Int32 prevLower, System.Int32 newLower)
-    // Offset: 0x155E4E8
+    // Offset: 0x187ACDC
     bool CompareExchangeIndexes(ByRef<int> prevUpper, int newUpper, ByRef<int> prevLower, int newLower);
     // public System.Boolean IsUsedUp()
-    // Offset: 0x155DE4C
+    // Offset: 0x187A640
     bool IsUsedUp();
     // public System.Boolean TryEnqueue(System.Threading.IThreadPoolWorkItem node)
-    // Offset: 0x155D54C
+    // Offset: 0x1879D40
     bool TryEnqueue(System::Threading::IThreadPoolWorkItem* node);
     // public System.Boolean TryDequeue(out System.Threading.IThreadPoolWorkItem node)
-    // Offset: 0x155DD50
+    // Offset: 0x187A544
     bool TryDequeue(ByRef<System::Threading::IThreadPoolWorkItem*> node);
     // public System.Void .ctor()
-    // Offset: 0x155CE20
+    // Offset: 0x1879614
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

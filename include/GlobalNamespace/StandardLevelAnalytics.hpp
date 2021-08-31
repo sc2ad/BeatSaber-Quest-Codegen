@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xEAB350
+    // [InjectAttribute] Offset: 0xE31100
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0x20
@@ -57,16 +57,16 @@ namespace GlobalNamespace {
     // Set instance field: private readonly IAnalyticsModel _analyticsModel
     void _set__analyticsModel(GlobalNamespace::IAnalyticsModel* value);
     // protected System.Void Start()
-    // Offset: 0x1EC9EF4
+    // Offset: 0x1084834
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1EC9F88
+    // Offset: 0x10848C8
     void OnDestroy();
     // private System.Void HandleStandardLevelDidFinishEvent(StandardLevelScenesTransitionSetupDataSO standardLevelScenesTransitionSetupData, LevelCompletionResults levelCompletionResults)
-    // Offset: 0x1ECA01C
+    // Offset: 0x108495C
     void HandleStandardLevelDidFinishEvent(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData, GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // public System.Void .ctor()
-    // Offset: 0x1ECA5E0
+    // Offset: 0x1084F20
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

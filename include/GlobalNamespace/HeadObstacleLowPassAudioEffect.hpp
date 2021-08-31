@@ -29,14 +29,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class HeadObstacleLowPassAudioEffect : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xEB1D94
+    // [InjectAttribute] Offset: 0xE37B74
     // private PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::PlayerHeadAndObstacleInteraction* playerHeadAndObstacleInteraction;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerHeadAndObstacleInteraction*) == 0x8);
-    // [InjectAttribute] Offset: 0xEB1DA4
+    // [InjectAttribute] Offset: 0xE37B84
     // private MainAudioEffects _mainAudioEffects
     // Size: 0x8
     // Offset: 0x20
@@ -66,10 +66,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _headWasInObstacle
     void _set__headWasInObstacle(bool value);
     // protected System.Void Update()
-    // Offset: 0x1F3BE00
+    // Offset: 0x1142718
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1F3BEA8
+    // Offset: 0x11427C0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

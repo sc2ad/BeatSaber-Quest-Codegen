@@ -57,10 +57,10 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.AnimationClip _animationClip
     void _set__animationClip(UnityEngine::AnimationClip* value);
     // protected System.Void Update()
-    // Offset: 0x1EC7DB4
+    // Offset: 0x10826C4
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1EC7E34
+    // Offset: 0x1082744
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

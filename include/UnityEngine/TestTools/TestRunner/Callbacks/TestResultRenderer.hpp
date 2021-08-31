@@ -83,20 +83,20 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Set instance field: private UnityEngine.Vector2 m_ScrollPosition
     void _set_m_ScrollPosition(UnityEngine::Vector2 value);
     // public System.Void .ctor(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0x11FE9C0
+    // Offset: 0x14C47F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestResultRenderer* New_ctor(NUnit::Framework::Interfaces::ITestResult* testResults) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestResultRenderer*, creationType>(testResults)));
     }
     // private System.Void GetFailedTests(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0x11FFF40
+    // Offset: 0x14C5D70
     void GetFailedTests(NUnit::Framework::Interfaces::ITestResult* testResults);
     // public System.Void ShowResults()
-    // Offset: 0x11FEA48
+    // Offset: 0x14C4878
     void ShowResults();
     // public System.Void Draw()
-    // Offset: 0x11FEA74
+    // Offset: 0x14C48A4
     void Draw();
   }; // UnityEngine.TestTools.TestRunner.Callbacks.TestResultRenderer
   #pragma pack(pop)

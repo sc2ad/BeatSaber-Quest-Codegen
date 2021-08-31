@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BeatmapDataNoArrowsTransform
     BeatmapDataNoArrowsTransform() noexcept {}
     // static public IReadonlyBeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData)
-    // Offset: 0x1FD6C64
+    // Offset: 0x11F18FC
     static GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(GlobalNamespace::IReadonlyBeatmapData* beatmapData);
   }; // BeatmapDataNoArrowsTransform
   #pragma pack(pop)

@@ -53,13 +53,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<IDifficultyBeatmapSet,System.Collections.Generic.IEnumerable`1<IDifficultyBeatmap>> <>9__2_1
     static void _set_$$9__2_1(System::Func_2<GlobalNamespace::IDifficultyBeatmapSet*, System::Collections::Generic::IEnumerable_1<GlobalNamespace::IDifficultyBeatmap*>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1F6BEF8
+    // Offset: 0x11DBB78
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<IDifficultyBeatmap> <GetBeatmapData>b__2_1(IDifficultyBeatmapSet bds)
-    // Offset: 0x1F6BF64
+    // Offset: 0x11DBBE4
     System::Collections::Generic::IEnumerable_1<GlobalNamespace::IDifficultyBeatmap*>* $GetBeatmapData$b__2_1(GlobalNamespace::IDifficultyBeatmapSet* bds);
     // public System.Void .ctor()
-    // Offset: 0x1F6BF5C
+    // Offset: 0x11DBBDC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

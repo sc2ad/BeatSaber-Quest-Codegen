@@ -54,25 +54,25 @@ namespace GlobalNamespace {
     // Size: 0xFFFFFFFF
     // Offset: 0x64
     System::Nullable_1<float> firstBasicNoteTime;
-    // private readonly BasicBeatmapObjectManager/InitData _initData
+    // private BasicBeatmapObjectManager/InitData _initData
     // Size: 0x8
     // Offset: 0x70
     GlobalNamespace::BasicBeatmapObjectManager::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BasicBeatmapObjectManager::InitData*) == 0x8);
-    // private readonly MemoryPoolContainer`1<GameNoteController> _gameNotePoolContainer
+    // private MemoryPoolContainer`1<GameNoteController> _gameNotePoolContainer
     // Size: 0x8
     // Offset: 0x78
     GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::GameNoteController*>* gameNotePoolContainer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::GameNoteController*>*) == 0x8);
-    // private readonly MemoryPoolContainer`1<BombNoteController> _bombNotePoolContainer
+    // private MemoryPoolContainer`1<BombNoteController> _bombNotePoolContainer
     // Size: 0x8
     // Offset: 0x80
     GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BombNoteController*>* bombNotePoolContainer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BombNoteController*>*) == 0x8);
-    // private readonly MemoryPoolContainer`1<ObstacleController> _obstaclePoolContainer
+    // private MemoryPoolContainer`1<ObstacleController> _obstaclePoolContainer
     // Size: 0x8
     // Offset: 0x88
     GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::ObstacleController*>* obstaclePoolContainer;
@@ -84,74 +84,80 @@ namespace GlobalNamespace {
     System::Nullable_1<float> _get__firstBasicNoteTime();
     // Set instance field: private System.Nullable`1<System.Single> _firstBasicNoteTime
     void _set__firstBasicNoteTime(System::Nullable_1<float> value);
-    // Get instance field: private readonly BasicBeatmapObjectManager/InitData _initData
+    // Get instance field: private BasicBeatmapObjectManager/InitData _initData
     GlobalNamespace::BasicBeatmapObjectManager::InitData* _get__initData();
-    // Set instance field: private readonly BasicBeatmapObjectManager/InitData _initData
+    // Set instance field: private BasicBeatmapObjectManager/InitData _initData
     void _set__initData(GlobalNamespace::BasicBeatmapObjectManager::InitData* value);
-    // Get instance field: private readonly MemoryPoolContainer`1<GameNoteController> _gameNotePoolContainer
+    // Get instance field: private MemoryPoolContainer`1<GameNoteController> _gameNotePoolContainer
     GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::GameNoteController*>* _get__gameNotePoolContainer();
-    // Set instance field: private readonly MemoryPoolContainer`1<GameNoteController> _gameNotePoolContainer
+    // Set instance field: private MemoryPoolContainer`1<GameNoteController> _gameNotePoolContainer
     void _set__gameNotePoolContainer(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::GameNoteController*>* value);
-    // Get instance field: private readonly MemoryPoolContainer`1<BombNoteController> _bombNotePoolContainer
+    // Get instance field: private MemoryPoolContainer`1<BombNoteController> _bombNotePoolContainer
     GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BombNoteController*>* _get__bombNotePoolContainer();
-    // Set instance field: private readonly MemoryPoolContainer`1<BombNoteController> _bombNotePoolContainer
+    // Set instance field: private MemoryPoolContainer`1<BombNoteController> _bombNotePoolContainer
     void _set__bombNotePoolContainer(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BombNoteController*>* value);
-    // Get instance field: private readonly MemoryPoolContainer`1<ObstacleController> _obstaclePoolContainer
+    // Get instance field: private MemoryPoolContainer`1<ObstacleController> _obstaclePoolContainer
     GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::ObstacleController*>* _get__obstaclePoolContainer();
-    // Set instance field: private readonly MemoryPoolContainer`1<ObstacleController> _obstaclePoolContainer
+    // Set instance field: private MemoryPoolContainer`1<ObstacleController> _obstaclePoolContainer
     void _set__obstaclePoolContainer(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::ObstacleController*>* value);
-    // private System.Void .ctor(BasicBeatmapObjectManager/InitData initData, GameNoteController/Pool gameNotePool, BombNoteController/Pool bombNotePool, ObstacleController/Pool obstaclePool)
-    // Offset: 0x1FCB1CC
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BasicBeatmapObjectManager* New_ctor(GlobalNamespace::BasicBeatmapObjectManager::InitData* initData, GlobalNamespace::GameNoteController::Pool* gameNotePool, GlobalNamespace::BombNoteController::Pool* bombNotePool, GlobalNamespace::ObstacleController::Pool* obstaclePool) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BasicBeatmapObjectManager::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<BasicBeatmapObjectManager*, creationType>(initData, gameNotePool, bombNotePool, obstaclePool)));
-    }
+    // private System.Void Init(BasicBeatmapObjectManager/InitData initData, GameNoteController/Pool gameNotePool, BombNoteController/Pool bombNotePool, ObstacleController/Pool obstaclePool)
+    // Offset: 0x11E5DEC
+    void Init(GlobalNamespace::BasicBeatmapObjectManager::InitData* initData, GlobalNamespace::GameNoteController::Pool* gameNotePool, GlobalNamespace::BombNoteController::Pool* bombNotePool, GlobalNamespace::ObstacleController::Pool* obstaclePool);
     // public System.Single GetMaxYForRangeInMiddleTwoLanes(System.Single zStart, System.Single zEnd)
-    // Offset: 0x1FCBF60
+    // Offset: 0x11E6B74
     float GetMaxYForRangeInMiddleTwoLanes(float zStart, float zEnd);
     // public override System.Collections.Generic.List`1<ObstacleController> get_activeObstacleControllers()
-    // Offset: 0x1FCB174
+    // Offset: 0x11E5D94
     // Implemented from: BeatmapObjectManager
     // Base method: System.Collections.Generic.List`1<ObstacleController> BeatmapObjectManager::get_activeObstacleControllers()
     System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* get_activeObstacleControllers();
+    // public System.Void .ctor()
+    // Offset: 0x11E6CF0
+    // Implemented from: BeatmapObjectManager
+    // Base method: System.Void BeatmapObjectManager::.ctor()
+    // Base method: System.Void Object::.ctor()
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static BasicBeatmapObjectManager* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BasicBeatmapObjectManager::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<BasicBeatmapObjectManager*, creationType>()));
+    }
     // protected override ObstacleController SpawnObstacleInternal(ObstacleData obstacleData, BeatmapObjectSpawnMovementData/ObstacleSpawnData obstacleSpawnData, System.Single rotation)
-    // Offset: 0x1FCB2C0
+    // Offset: 0x11E5ED4
     // Implemented from: BeatmapObjectManager
     // Base method: ObstacleController BeatmapObjectManager::SpawnObstacleInternal(ObstacleData obstacleData, BeatmapObjectSpawnMovementData/ObstacleSpawnData obstacleSpawnData, System.Single rotation)
     GlobalNamespace::ObstacleController* SpawnObstacleInternal(GlobalNamespace::ObstacleData* obstacleData, GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData obstacleSpawnData, float rotation);
     // protected override NoteController SpawnBombNoteInternal(NoteData bombNoteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation)
-    // Offset: 0x1FCB394
+    // Offset: 0x11E5FA8
     // Implemented from: BeatmapObjectManager
     // Base method: NoteController BeatmapObjectManager::SpawnBombNoteInternal(NoteData bombNoteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation)
     GlobalNamespace::NoteController* SpawnBombNoteInternal(GlobalNamespace::NoteData* bombNoteData, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData, float rotation);
     // protected override NoteController SpawnBasicNoteInternal(NoteData noteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation, System.Single cutDirectionAngleOffset)
-    // Offset: 0x1FCB45C
+    // Offset: 0x11E6070
     // Implemented from: BeatmapObjectManager
     // Base method: NoteController BeatmapObjectManager::SpawnBasicNoteInternal(NoteData noteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation, System.Single cutDirectionAngleOffset)
     GlobalNamespace::NoteController* SpawnBasicNoteInternal(GlobalNamespace::NoteData* noteData, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData, float rotation, float cutDirectionAngleOffset);
     // protected override System.Void DespawnInternal(NoteController noteController)
-    // Offset: 0x1FCB5C4
+    // Offset: 0x11E61D8
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::DespawnInternal(NoteController noteController)
     void DespawnInternal(GlobalNamespace::NoteController* noteController);
     // protected override System.Void DespawnInternal(ObstacleController obstacleController)
-    // Offset: 0x1FCB6B8
+    // Offset: 0x11E62CC
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::DespawnInternal(ObstacleController obstacleController)
     void DespawnInternal(GlobalNamespace::ObstacleController* obstacleController);
     // public override System.Void DissolveAllObjects()
-    // Offset: 0x1FCB720
+    // Offset: 0x11E6334
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::DissolveAllObjects()
     void DissolveAllObjects();
     // public override System.Void HideAllBeatmapObjects(System.Boolean hide)
-    // Offset: 0x1FCB9D8
+    // Offset: 0x11E65EC
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::HideAllBeatmapObjects(System.Boolean hide)
     void HideAllBeatmapObjects(bool hide);
     // public override System.Void PauseAllBeatmapObjects(System.Boolean pause)
-    // Offset: 0x1FCBC9C
+    // Offset: 0x11E68B0
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::PauseAllBeatmapObjects(System.Boolean pause)
     void PauseAllBeatmapObjects(bool pause);
@@ -160,10 +166,18 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BasicBeatmapObjectManager*, "", "BasicBeatmapObjectManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::BasicBeatmapObjectManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::BasicBeatmapObjectManager::Init
+// Il2CppName: Init
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BasicBeatmapObjectManager::*)(GlobalNamespace::BasicBeatmapObjectManager::InitData*, GlobalNamespace::GameNoteController::Pool*, GlobalNamespace::BombNoteController::Pool*, GlobalNamespace::ObstacleController::Pool*)>(&GlobalNamespace::BasicBeatmapObjectManager::Init)> {
+  static const MethodInfo* get() {
+    static auto* initData = &::il2cpp_utils::GetClassFromName("", "BasicBeatmapObjectManager/InitData")->byval_arg;
+    static auto* gameNotePool = &::il2cpp_utils::GetClassFromName("", "GameNoteController/Pool")->byval_arg;
+    static auto* bombNotePool = &::il2cpp_utils::GetClassFromName("", "BombNoteController/Pool")->byval_arg;
+    static auto* obstaclePool = &::il2cpp_utils::GetClassFromName("", "ObstacleController/Pool")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BasicBeatmapObjectManager*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{initData, gameNotePool, bombNotePool, obstaclePool});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BasicBeatmapObjectManager::GetMaxYForRangeInMiddleTwoLanes
 // Il2CppName: GetMaxYForRangeInMiddleTwoLanes
 template<>
@@ -182,6 +196,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BasicBeatmapObjectManager*), "get_activeObstacleControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BasicBeatmapObjectManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BasicBeatmapObjectManager::SpawnObstacleInternal
 // Il2CppName: SpawnObstacleInternal
 template<>

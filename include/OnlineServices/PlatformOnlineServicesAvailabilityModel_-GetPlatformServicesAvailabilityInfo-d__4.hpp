@@ -68,10 +68,10 @@ namespace OnlineServices {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<OnlineServices.PlatformServicesAvailabilityInfo> <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::PlatformServicesAvailabilityInfo*> value);
     // private System.Void MoveNext()
-    // Offset: 0xF7B630
+    // Offset: 0x102A93C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xF7B638
+    // Offset: 0x102AB7C
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.PlatformOnlineServicesAvailabilityModel/OnlineServices.<GetPlatformServicesAvailabilityInfo>d__4
   // WARNING Not writing size check since size may be invalid!

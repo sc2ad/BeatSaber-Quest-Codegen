@@ -51,13 +51,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int32 _shortestWord
     void _set__shortestWord(int value);
     // public System.Void AddWord(System.String word, System.Int32 index)
-    // Offset: 0x23CE3EC
+    // Offset: 0x16F5B54
     void AddWord(::Il2CppString* word, int index);
     // public System.Boolean IsMatch(System.String word, System.Int32 index)
-    // Offset: 0x23CE848
+    // Offset: 0x16F5FB0
     bool IsMatch(::Il2CppString* word, int index);
     // public System.Void .ctor()
-    // Offset: 0x23CE3DC
+    // Offset: 0x16F5B44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

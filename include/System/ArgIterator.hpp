@@ -65,12 +65,12 @@ namespace System {
     // Set instance field: private System.Int32 num_args
     void _set_num_args(int value);
     // public override System.Boolean Equals(System.Object o)
-    // Offset: 0xD7C11C
+    // Offset: 0x17C7A68
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xD7C128
+    // Offset: 0x17C7AE8
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

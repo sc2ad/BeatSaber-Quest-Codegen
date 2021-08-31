@@ -50,13 +50,13 @@ namespace System {
     // Set instance field: private System.Int32 _inheritanceLevel
     void _set__inheritanceLevel(int value);
     // public System.AttributeUsageAttribute get_Usage()
-    // Offset: 0x14CFA9C
+    // Offset: 0x18396E8
     System::AttributeUsageAttribute* get_Usage();
     // public System.Int32 get_InheritanceLevel()
-    // Offset: 0x14CFAA4
+    // Offset: 0x18396F0
     int get_InheritanceLevel();
     // public System.Void .ctor(System.AttributeUsageAttribute usage, System.Int32 inheritanceLevel)
-    // Offset: 0x14CEE20
+    // Offset: 0x1838A6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoCustomAttrs::AttributeInfo* New_ctor(System::AttributeUsageAttribute* usage, int inheritanceLevel) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::MonoCustomAttrs::AttributeInfo::.ctor");

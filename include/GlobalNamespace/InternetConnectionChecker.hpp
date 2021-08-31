@@ -39,10 +39,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: InternetConnectionChecker
     InternetConnectionChecker() noexcept {}
     // static public System.Threading.Tasks.Task`1<System.Boolean> IsConnectedToInternetAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1E14568
+    // Offset: 0x23F10DC
     static System::Threading::Tasks::Task_1<bool>* IsConnectedToInternetAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x1E14668
+    // Offset: 0x23F11DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -106,10 +106,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<UnityEngine.AudioClip> <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::AudioClip*> value);
     // private System.Void MoveNext()
-    // Offset: 0xF7C3D0
+    // Offset: 0x114EB18
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xF7C3D8
+    // Offset: 0x114F24C
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // LevelCollectionViewController/<SongPlayerCrossfadeToLevelAsync>d__24
   // WARNING Not writing size check since size may be invalid!

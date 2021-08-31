@@ -69,7 +69,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly System.UInt64 Target
     void _set_Target(uint64_t value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x2105028
+    // Offset: 0x14F1384
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AchievementDefinition* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::AchievementDefinition::.ctor");

@@ -31,7 +31,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: UserAndRoomList
     UserAndRoomList() noexcept {}
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x2104698
+    // Offset: 0x14F09F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserAndRoomList* New_ctor(System::IntPtr a) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::UserAndRoomList::.ctor");

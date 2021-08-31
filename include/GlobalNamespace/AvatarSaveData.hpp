@@ -183,7 +183,7 @@ namespace GlobalNamespace {
     // Set instance field: public UnityEngine.Color clothesDetailColor
     void _set_clothesDetailColor(UnityEngine::Color value);
     // public System.Void .ctor()
-    // Offset: 0x1F2F58C
+    // Offset: 0x1180324
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

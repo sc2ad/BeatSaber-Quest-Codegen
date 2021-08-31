@@ -77,10 +77,10 @@ namespace GlobalNamespace {
     // Set instance field: public Oculus.Platform.Models.AssetDetails assetDetails
     void _set_assetDetails(Oculus::Platform::Models::AssetDetails* value);
     // System.Void <GetDownloadAssetBundleFileAsync>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.AssetFileDownloadResult> msg)
-    // Offset: 0x201BD88
+    // Offset: 0x1235CB0
     void $GetDownloadAssetBundleFileAsync$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDownloadResult*>* msg);
     // public System.Void .ctor()
-    // Offset: 0x201BD80
+    // Offset: 0x1235CA8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

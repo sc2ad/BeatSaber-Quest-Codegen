@@ -290,14 +290,14 @@ namespace UnityEngine {
     static UnityEngine::TextureFormat _get_ASTC_12x12();
     // Set static field: static public UnityEngine.TextureFormat ASTC_12x12
     static void _set_ASTC_12x12(UnityEngine::TextureFormat value);
-    // [ObsoleteAttribute] Offset: 0xE2D698
+    // [ObsoleteAttribute] Offset: 0xDB26A4
     // static field const value: static public UnityEngine.TextureFormat ETC_RGB4_3DS
     static constexpr const int ETC_RGB4_3DS = 60;
     // Get static field: static public UnityEngine.TextureFormat ETC_RGB4_3DS
     static UnityEngine::TextureFormat _get_ETC_RGB4_3DS();
     // Set static field: static public UnityEngine.TextureFormat ETC_RGB4_3DS
     static void _set_ETC_RGB4_3DS(UnityEngine::TextureFormat value);
-    // [ObsoleteAttribute] Offset: 0xE2D6D0
+    // [ObsoleteAttribute] Offset: 0xDB26DC
     // static field const value: static public UnityEngine.TextureFormat ETC_RGBA8_3DS
     static constexpr const int ETC_RGBA8_3DS = 61;
     // Get static field: static public UnityEngine.TextureFormat ETC_RGBA8_3DS
@@ -364,6 +364,24 @@ namespace UnityEngine {
     static UnityEngine::TextureFormat _get_ASTC_HDR_12x12();
     // Set static field: static public UnityEngine.TextureFormat ASTC_HDR_12x12
     static void _set_ASTC_HDR_12x12(UnityEngine::TextureFormat value);
+    // static field const value: static public UnityEngine.TextureFormat RG32
+    static constexpr const int RG32 = 72;
+    // Get static field: static public UnityEngine.TextureFormat RG32
+    static UnityEngine::TextureFormat _get_RG32();
+    // Set static field: static public UnityEngine.TextureFormat RG32
+    static void _set_RG32(UnityEngine::TextureFormat value);
+    // static field const value: static public UnityEngine.TextureFormat RGB48
+    static constexpr const int RGB48 = 73;
+    // Get static field: static public UnityEngine.TextureFormat RGB48
+    static UnityEngine::TextureFormat _get_RGB48();
+    // Set static field: static public UnityEngine.TextureFormat RGB48
+    static void _set_RGB48(UnityEngine::TextureFormat value);
+    // static field const value: static public UnityEngine.TextureFormat RGBA64
+    static constexpr const int RGBA64 = 74;
+    // Get static field: static public UnityEngine.TextureFormat RGBA64
+    static UnityEngine::TextureFormat _get_RGBA64();
+    // Set static field: static public UnityEngine.TextureFormat RGBA64
+    static void _set_RGBA64(UnityEngine::TextureFormat value);
     // static field const value: static public UnityEngine.TextureFormat ASTC_RGB_4x4
     static constexpr const int ASTC_RGB_4x4 = 48;
     // Get static field: static public UnityEngine.TextureFormat ASTC_RGB_4x4

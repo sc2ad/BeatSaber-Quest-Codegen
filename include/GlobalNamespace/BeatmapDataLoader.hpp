@@ -46,31 +46,34 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BeatmapDataLoader
     BeatmapDataLoader() noexcept {}
     // private System.Single GetRealTimeFromBPMTime(System.Single bmpTime, System.Single bpm, System.Single shuffle, System.Single shufflePeriod)
-    // Offset: 0x1FD4EE4
+    // Offset: 0x11EFB00
     float GetRealTimeFromBPMTime(float bmpTime, float bpm, float shuffle, float shufflePeriod);
     // public BeatmapData GetBeatmapDataFromBeatmapSaveData(System.Collections.Generic.List`1<BeatmapSaveData/NoteData> notesSaveData, System.Collections.Generic.List`1<BeatmapSaveData/WaypointData> waypointsSaveData, System.Collections.Generic.List`1<BeatmapSaveData/ObstacleData> obstaclesSaveData, System.Collections.Generic.List`1<BeatmapSaveData/EventData> eventsSaveData, BeatmapSaveData/SpecialEventKeywordFiltersData environmentSpecialEventFilterData, System.Single startBpm, System.Single shuffle, System.Single shufflePeriod)
-    // Offset: 0x1FD4F38
+    // Offset: 0x11EFB6C
     GlobalNamespace::BeatmapData* GetBeatmapDataFromBeatmapSaveData(System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::NoteData*>* notesSaveData, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::WaypointData*>* waypointsSaveData, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::ObstacleData*>* obstaclesSaveData, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::EventData*>* eventsSaveData, GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData* environmentSpecialEventFilterData, float startBpm, float shuffle, float shufflePeriod);
     // public BeatmapData GetBeatmapDataFromBinary(System.Byte[] data, System.Single startBPM, System.Single shuffle, System.Single shufflePeriod)
-    // Offset: 0x1FD6064
+    // Offset: 0x11F0CEC
     GlobalNamespace::BeatmapData* GetBeatmapDataFromBinary(::Array<uint8_t>* data, float startBPM, float shuffle, float shufflePeriod);
     // public BeatmapData GetBeatmapDataFromJson(System.String json, System.Single startBPM, System.Single shuffle, System.Single shufflePeriod)
-    // Offset: 0x1FD60DC
+    // Offset: 0x11F0D64
     GlobalNamespace::BeatmapData* GetBeatmapDataFromJson(::Il2CppString* json, float startBPM, float shuffle, float shufflePeriod);
-    // static private ColorType ConvertFromBeatmapSaveDataNoteType(BeatmapSaveData/NoteType noteType)
-    // Offset: 0x1FD6044
-    static GlobalNamespace::ColorType ConvertFromBeatmapSaveDataNoteType(GlobalNamespace::BeatmapSaveData::NoteType noteType);
+    // static private ColorType ColorTypeFromBeatmapSaveDataNoteType(BeatmapSaveData/NoteType noteType)
+    // Offset: 0x11F0CCC
+    static GlobalNamespace::ColorType ColorTypeFromBeatmapSaveDataNoteType(GlobalNamespace::BeatmapSaveData::NoteType noteType);
+    // static private ColorType ColorTypeFromBeatmapSaveDataColorType(BeatmapSaveData/ColorType colorType)
+    // Offset: 0x11F0DDC
+    static GlobalNamespace::ColorType ColorTypeFromBeatmapSaveDataColorType(GlobalNamespace::BeatmapSaveData::ColorType colorType);
     // static private BeatmapEventType ConvertFromBeatmapSaveDataBeatmapEventType(BeatmapSaveData/BeatmapEventType beatmapEventType)
-    // Offset: 0x1FD5D5C
+    // Offset: 0x11F09CC
     static GlobalNamespace::BeatmapEventType ConvertFromBeatmapSaveDataBeatmapEventType(GlobalNamespace::BeatmapSaveData::BeatmapEventType beatmapEventType);
     // static BeatmapSaveData/ITime <GetBeatmapDataFromBeatmapSaveData>g__SortBeatmapSaveDataObjects|2_3(BeatmapSaveData/ITime[] data)
-    // Offset: 0x1FD5D60
+    // Offset: 0x11F09D0
     static GlobalNamespace::BeatmapSaveData::ITime* $GetBeatmapDataFromBeatmapSaveData$g__SortBeatmapSaveDataObjects_2_3(::Array<GlobalNamespace::BeatmapSaveData::ITime*>* data);
-    // private System.Single <GetBeatmapDataFromBeatmapSaveData>g__ProcessTime|2_4(System.Single bpmTime, ref BeatmapDataLoader/<>c__DisplayClass2_0 param_00010207)
-    // Offset: 0x1FD5EF4
-    float $GetBeatmapDataFromBeatmapSaveData$g__ProcessTime_2_4(float bpmTime, ByRef<GlobalNamespace::BeatmapDataLoader::$$c__DisplayClass2_0> param_00010207);
+    // private System.Single <GetBeatmapDataFromBeatmapSaveData>g__ProcessTime|2_4(System.Single bpmTime, ref BeatmapDataLoader/<>c__DisplayClass2_0 param_00010123)
+    // Offset: 0x11F0B64
+    float $GetBeatmapDataFromBeatmapSaveData$g__ProcessTime_2_4(float bpmTime, ByRef<GlobalNamespace::BeatmapDataLoader::$$c__DisplayClass2_0> param_00010123);
     // public System.Void .ctor()
-    // Offset: 0x1FD6154
+    // Offset: 0x11F0DEC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -135,13 +138,22 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataLoader*), "GetBeatmapDataFromJson", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{json, startBPM, shuffle, shufflePeriod});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapDataLoader::ConvertFromBeatmapSaveDataNoteType
-// Il2CppName: ConvertFromBeatmapSaveDataNoteType
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapDataLoader::ColorTypeFromBeatmapSaveDataNoteType
+// Il2CppName: ColorTypeFromBeatmapSaveDataNoteType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorType (*)(GlobalNamespace::BeatmapSaveData::NoteType)>(&GlobalNamespace::BeatmapDataLoader::ConvertFromBeatmapSaveDataNoteType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorType (*)(GlobalNamespace::BeatmapSaveData::NoteType)>(&GlobalNamespace::BeatmapDataLoader::ColorTypeFromBeatmapSaveDataNoteType)> {
   static const MethodInfo* get() {
     static auto* noteType = &::il2cpp_utils::GetClassFromName("", "BeatmapSaveData/NoteType")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataLoader*), "ConvertFromBeatmapSaveDataNoteType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteType});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataLoader*), "ColorTypeFromBeatmapSaveDataNoteType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteType});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapDataLoader::ColorTypeFromBeatmapSaveDataColorType
+// Il2CppName: ColorTypeFromBeatmapSaveDataColorType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorType (*)(GlobalNamespace::BeatmapSaveData::ColorType)>(&GlobalNamespace::BeatmapDataLoader::ColorTypeFromBeatmapSaveDataColorType)> {
+  static const MethodInfo* get() {
+    static auto* colorType = &::il2cpp_utils::GetClassFromName("", "BeatmapSaveData/ColorType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataLoader*), "ColorTypeFromBeatmapSaveDataColorType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorType});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataLoader::ConvertFromBeatmapSaveDataBeatmapEventType
@@ -168,8 +180,8 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapDataLoader::*)(float, ByRef<GlobalNamespace::BeatmapDataLoader::$$c__DisplayClass2_0>)>(&GlobalNamespace::BeatmapDataLoader::$GetBeatmapDataFromBeatmapSaveData$g__ProcessTime_2_4)> {
   static const MethodInfo* get() {
     static auto* bpmTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
-    static auto* param_00010207 = &::il2cpp_utils::GetClassFromName("", "BeatmapDataLoader/<>c__DisplayClass2_0")->this_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataLoader*), "<GetBeatmapDataFromBeatmapSaveData>g__ProcessTime|2_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bpmTime, param_00010207});
+    static auto* param_00010123 = &::il2cpp_utils::GetClassFromName("", "BeatmapDataLoader/<>c__DisplayClass2_0")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataLoader*), "<GetBeatmapDataFromBeatmapSaveData>g__ProcessTime|2_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bpmTime, param_00010123});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataLoader::New_ctor

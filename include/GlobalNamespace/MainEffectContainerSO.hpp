@@ -54,13 +54,13 @@ namespace GlobalNamespace {
     // Set instance field: private BoolSO _postProcessEnabled
     void _set__postProcessEnabled(GlobalNamespace::BoolSO* value);
     // public MainEffectSO get_mainEffect()
-    // Offset: 0x1DC5290
+    // Offset: 0x2391238
     GlobalNamespace::MainEffectSO* get_mainEffect();
     // public System.Void Init(MainEffectSO mainEffect)
-    // Offset: 0x1DC5318
+    // Offset: 0x23912C0
     void Init(GlobalNamespace::MainEffectSO* mainEffect);
     // public System.Void .ctor()
-    // Offset: 0x1DC539C
+    // Offset: 0x2391344
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -72,7 +72,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MainEffectContainerSO*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x1DC5298
+    // Offset: 0x2391240
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

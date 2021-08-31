@@ -122,10 +122,10 @@ namespace System::Reflection {
     // Set instance field: public System.Reflection.MethodInfo[] other_methods
     void _set_other_methods(::Array<System::Reflection::MethodInfo*>* value);
     // static private System.Void get_event_info(System.Reflection.MonoEvent ev, out System.Reflection.MonoEventInfo info)
-    // Offset: 0x184D3B8
+    // Offset: 0x1D1E32C
     static void get_event_info(System::Reflection::MonoEvent* ev, ByRef<System::Reflection::MonoEventInfo> info);
     // static System.Reflection.MonoEventInfo GetEventInfo(System.Reflection.MonoEvent ev)
-    // Offset: 0x184CFBC
+    // Offset: 0x1D1DF30
     static System::Reflection::MonoEventInfo GetEventInfo(System::Reflection::MonoEvent* ev);
   }; // System.Reflection.MonoEventInfo
   #pragma pack(pop)

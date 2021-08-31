@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Set instance field: public PlayerSaveDataV1_0_1/PlayerSpecificSettings playerSpecificSettings
     void _set_playerSpecificSettings(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSpecificSettings* value);
     // public System.Void .ctor()
-    // Offset: 0x1F57FC4
+    // Offset: 0x113B46C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -436,10 +436,10 @@ namespace System::Threading {
     // Set instance field: private System.IntPtr last
     void _set_last(System::IntPtr value);
     // private System.Void Thread_free_internal()
-    // Offset: 0x1576F60
+    // Offset: 0x18F5BA8
     void Thread_free_internal();
     // public System.Void .ctor()
-    // Offset: 0x1576FCC
+    // Offset: 0x18F5C14
     // Implemented from: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
     // Base method: System.Void CriticalFinalizerObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -449,7 +449,7 @@ namespace System::Threading {
       return THROW_UNLESS((::il2cpp_utils::New<InternalThread*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x1576F64
+    // Offset: 0x18F5BAC
     // Implemented from: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
     // Base method: System.Void CriticalFinalizerObject::Finalize()
     void Finalize();

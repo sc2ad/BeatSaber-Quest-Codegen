@@ -67,29 +67,29 @@ namespace GlobalNamespace {
     // Set instance field: private System.UInt64 refCount
     void _set_refCount(uint64_t value);
     // public System.UInt32 get_deviceIndex()
-    // Offset: 0x13B09CC
+    // Offset: 0x16FD6B4
     uint get_deviceIndex();
     // private System.Void set_deviceIndex(System.UInt32 value)
-    // Offset: 0x13B09D4
+    // Offset: 0x16FD6BC
     void set_deviceIndex(uint value);
     // public System.UInt64 get_handle()
-    // Offset: 0x13B09DC
+    // Offset: 0x16FD6C4
     uint64_t get_handle();
     // public System.Boolean get_hasCamera()
-    // Offset: 0x13B09E4
+    // Offset: 0x16FD6CC
     bool get_hasCamera();
     // public System.Void .ctor(System.UInt32 deviceIndex)
-    // Offset: 0x13B0904
+    // Offset: 0x16FD5EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_TrackedCamera::VideoStream* New_ctor(uint deviceIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_TrackedCamera::VideoStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_TrackedCamera::VideoStream*, creationType>(deviceIndex)));
     }
     // public System.UInt64 Acquire()
-    // Offset: 0x13B09EC
+    // Offset: 0x16FD6D4
     uint64_t Acquire();
     // public System.UInt64 Release()
-    // Offset: 0x13B0AA8
+    // Offset: 0x16FD790
     uint64_t Release();
   }; // SteamVR_TrackedCamera/VideoStream
   #pragma pack(pop)

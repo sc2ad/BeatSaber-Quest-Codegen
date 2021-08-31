@@ -120,7 +120,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly LevelDataAssetDownloadUpdate/AssetDownloadingState assetDownloadingState
     void _set_assetDownloadingState(GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState value);
     // public System.Void .ctor(System.String levelID, System.UInt32 bytesTotal, System.UInt32 bytesTransferred, LevelDataAssetDownloadUpdate/AssetDownloadingState assetDownloadingState)
-    // Offset: 0xF7C494
+    // Offset: 0x114FED8
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  LevelDataAssetDownloadUpdate(::Il2CppString* levelID, uint bytesTotal, uint bytesTransferred, GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState assetDownloadingState)
   }; // LevelDataAssetDownloadUpdate

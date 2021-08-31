@@ -33,7 +33,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::MatchmakingAdminSnapshot* AdminSnapshotOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::MatchmakingAdminSnapshot*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xE98A60
+    // [ObsoleteAttribute] Offset: 0xE1E800
     // public readonly Oculus.Platform.Models.MatchmakingAdminSnapshot AdminSnapshot
     // Size: 0x8
     // Offset: 0x18
@@ -115,7 +115,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly System.String RequestHash
     void _set_RequestHash(::Il2CppString* value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x21005BC
+    // Offset: 0x14EC918
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MatchmakingEnqueueResult* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::MatchmakingEnqueueResult::.ctor");

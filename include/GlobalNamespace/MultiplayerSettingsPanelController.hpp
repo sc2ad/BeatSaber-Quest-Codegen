@@ -84,7 +84,7 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* spectateSettingsWrapper;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0xEBB82C
+    // [InjectAttribute] Offset: 0xE4160C
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x40
@@ -166,43 +166,43 @@ namespace GlobalNamespace {
     // Set instance field: private System.Action`1<System.Boolean> playerActiveStateChangedEvent
     void _set_playerActiveStateChangedEvent(System::Action_1<bool>* value);
     // public System.Void add_playerActiveStateChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x1E5E57C
+    // Offset: 0x1039F7C
     void add_playerActiveStateChangedEvent(System::Action_1<bool>* value);
     // public System.Void remove_playerActiveStateChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x1E5E620
+    // Offset: 0x103A020
     void remove_playerActiveStateChangedEvent(System::Action_1<bool>* value);
     // public System.Void SetLobbyPlayerDataModel(ILobbyPlayerData lobbyPlayerData)
-    // Offset: 0x1E5E6C4
+    // Offset: 0x103A0C4
     void SetLobbyPlayerDataModel(GlobalNamespace::ILobbyPlayerData* lobbyPlayerData);
     // public System.Void HideConnectionSettings(System.Boolean hide)
-    // Offset: 0x1E5E820
+    // Offset: 0x103A220
     void HideConnectionSettings(bool hide);
     // public System.Void HideSpectateSettings(System.Boolean hide)
-    // Offset: 0x1E5E844
+    // Offset: 0x103A244
     void HideSpectateSettings(bool hide);
     // public System.Void SetLobbyCode(System.String code)
-    // Offset: 0x1E5E868
+    // Offset: 0x103A268
     void SetLobbyCode(::Il2CppString* code);
     // protected System.Void Awake()
-    // Offset: 0x1E5E884
+    // Offset: 0x103A284
     void Awake();
     // private System.Void OnDestroy()
-    // Offset: 0x1E5E988
+    // Offset: 0x103A388
     void OnDestroy();
     // private System.Void UpdateLocalPlayerIsActiveState(System.Boolean isActive)
-    // Offset: 0x1E5E99C
+    // Offset: 0x103A39C
     void UpdateLocalPlayerIsActiveState(bool isActive);
     // private System.Void HandleJoinableToggleChange(System.Boolean value)
-    // Offset: 0x1E5EA14
+    // Offset: 0x103A414
     void HandleJoinableToggleChange(bool value);
     // public System.Void Refresh()
-    // Offset: 0x1E5E6D0
+    // Offset: 0x103A0D0
     void Refresh();
     // private System.Void <Awake>b__16_0(System.Boolean on)
-    // Offset: 0x1E5EA48
+    // Offset: 0x103A448
     void $Awake$b__16_0(bool on);
     // public System.Void .ctor()
-    // Offset: 0x1E5EA40
+    // Offset: 0x103A440
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -49,13 +49,13 @@ namespace GlobalNamespace {
     // Set instance field: public BeatmapIdentifierNetSerializable beatmap
     void _set_beatmap(GlobalNamespace::BeatmapIdentifierNetSerializable* value);
     // System.Boolean <GetBeatmapData>b__0(IDifficultyBeatmapSet bds)
-    // Offset: 0x1F6C01C
+    // Offset: 0x11DBC9C
     bool $GetBeatmapData$b__0(GlobalNamespace::IDifficultyBeatmapSet* bds);
     // System.Boolean <GetBeatmapData>b__2(IDifficultyBeatmap dbm)
-    // Offset: 0x1F6C0F0
+    // Offset: 0x11DBD70
     bool $GetBeatmapData$b__2(GlobalNamespace::IDifficultyBeatmap* dbm);
     // public System.Void .ctor()
-    // Offset: 0x1F6C014
+    // Offset: 0x11DBC94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

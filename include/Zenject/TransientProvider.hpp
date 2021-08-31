@@ -108,26 +108,26 @@ namespace Zenject {
     // Set instance field: private readonly System.Action`2<Zenject.InjectContext,System.Object> _instantiateCallback
     void _set__instantiateCallback(System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* value);
     // public System.Boolean get_IsCached()
-    // Offset: 0x13D84B8
+    // Offset: 0x17241A0
     bool get_IsCached();
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0x13D84C0
+    // Offset: 0x17241A8
     bool get_TypeVariesBasedOnMemberType();
     // public System.Void .ctor(System.Type concreteType, Zenject.DiContainer container, System.Collections.Generic.IEnumerable`1<Zenject.TypeValuePair> extraArguments, System.String bindingContext, System.Object concreteIdentifier, System.Action`2<Zenject.InjectContext,System.Object> instantiateCallback)
-    // Offset: 0x13D8338
+    // Offset: 0x1724020
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TransientProvider* New_ctor(System::Type* concreteType, Zenject::DiContainer* container, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>* extraArguments, ::Il2CppString* bindingContext, ::Il2CppObject* concreteIdentifier, System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* instantiateCallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::TransientProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TransientProvider*, creationType>(concreteType, container, extraArguments, bindingContext, concreteIdentifier, instantiateCallback)));
     }
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0x13D852C
+    // Offset: 0x1724214
     System::Type* GetInstanceType(Zenject::InjectContext* context);
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x13D8600
+    // Offset: 0x17242E8
     void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, ByRef<System::Action*> injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
     // private System.Type GetTypeToCreate(System.Type contractType)
-    // Offset: 0x13D85F0
+    // Offset: 0x17242D8
     System::Type* GetTypeToCreate(System::Type* contractType);
   }; // Zenject.TransientProvider
   #pragma pack(pop)

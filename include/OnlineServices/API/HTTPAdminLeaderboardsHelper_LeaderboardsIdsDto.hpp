@@ -37,7 +37,7 @@ namespace OnlineServices::API {
     // Set instance field: public System.String[] leaderboardsIds
     void _set_leaderboardsIds(::Array<::Il2CppString*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1E47CC0
+    // Offset: 0x1025258
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -65,7 +65,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set instance field: System.Runtime.Serialization.Formatters.Binary.SerStack oiPool
     void _set_oiPool(System::Runtime::Serialization::Formatters::Binary::SerStack* value);
     // public System.Void .ctor()
-    // Offset: 0x12E18DC
+    // Offset: 0x1619B6C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

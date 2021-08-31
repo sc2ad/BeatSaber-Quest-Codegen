@@ -125,20 +125,20 @@ namespace System::IO {
     // Set instance field: private System.Threading.ExecutionContext _context
     void _set__context(System::Threading::ExecutionContext* value);
     // public System.Void .ctor(System.Boolean isRead, System.Func`2<System.Object,System.Int32> function, System.Object state, System.IO.Stream stream, System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback callback)
-    // Offset: 0x15FDA40
+    // Offset: 0x197C7C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stream::ReadWriteTask* New_ctor(bool isRead, System::Func_2<::Il2CppObject*, int>* function, ::Il2CppObject* state, System::IO::Stream* stream, ::Array<uint8_t>* buffer, int offset, int count, System::AsyncCallback* callback) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::Stream::ReadWriteTask::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stream::ReadWriteTask*, creationType>(isRead, function, state, stream, buffer, offset, count, callback)));
     }
     // System.Void ClearBeginState()
-    // Offset: 0x15FEB68
+    // Offset: 0x197D8EC
     void ClearBeginState();
     // static private System.Void InvokeAsyncCallback(System.Object completedTask)
-    // Offset: 0x15FF49C
+    // Offset: 0x197E220
     static void InvokeAsyncCallback(::Il2CppObject* completedTask);
     // private System.Void System.Threading.Tasks.ITaskCompletionAction.Invoke(System.Threading.Tasks.Task completingTask)
-    // Offset: 0x15FF518
+    // Offset: 0x197E29C
     void System_Threading_Tasks_ITaskCompletionAction_Invoke(System::Threading::Tasks::Task* completingTask);
   }; // System.IO.Stream/System.IO.ReadWriteTask
   // WARNING Not writing size check since size may be invalid!

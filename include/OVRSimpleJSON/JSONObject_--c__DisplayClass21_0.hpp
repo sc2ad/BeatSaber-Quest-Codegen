@@ -51,10 +51,10 @@ namespace OVRSimpleJSON {
     // Set instance field: public OVRSimpleJSON.JSONNode aNode
     void _set_aNode(OVRSimpleJSON::JSONNode* value);
     // System.Boolean <Remove>b__0(System.Collections.Generic.KeyValuePair`2<System.String,OVRSimpleJSON.JSONNode> k)
-    // Offset: 0x1A02FB4
+    // Offset: 0x1F452E8
     bool $Remove$b__0(System::Collections::Generic::KeyValuePair_2<::Il2CppString*, OVRSimpleJSON::JSONNode*> k);
     // public System.Void .ctor()
-    // Offset: 0x1A02B94
+    // Offset: 0x1F44EC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

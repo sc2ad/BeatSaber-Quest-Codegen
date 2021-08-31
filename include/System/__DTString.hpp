@@ -110,10 +110,10 @@ namespace System {
     // Set instance field: private System.Boolean m_checkDigitToken
     void _set_m_checkDigitToken(bool value);
     // System.Globalization.CompareInfo get_CompareInfo()
-    // Offset: 0xD91B14
+    // Offset: 0x2333A70
     System::Globalization::CompareInfo* get_CompareInfo();
     // System.Void .ctor(System.String str, System.Globalization.DateTimeFormatInfo dtfi, System.Boolean checkDigitToken)
-    // Offset: 0xD91ADC
+    // Offset: 0x23339AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     __DTString(::Il2CppString* str, System::Globalization::DateTimeFormatInfo* dtfi, bool checkDigitToken) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::__DTString::.ctor");
@@ -121,7 +121,7 @@ namespace System {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, str, dtfi, checkDigitToken);
     }
     // System.Void .ctor(System.String str, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0xD91B0C
+    // Offset: 0x23339D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     __DTString(::Il2CppString* str, System::Globalization::DateTimeFormatInfo* dtfi) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::__DTString::.ctor");
@@ -129,73 +129,73 @@ namespace System {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, str, dtfi);
     }
     // static private System.Void .cctor()
-    // Offset: 0x1D92EA0
+    // Offset: 0x2334C7C
     static void _cctor();
     // System.Boolean GetNext()
-    // Offset: 0xD91B1C
+    // Offset: 0x2333A78
     bool GetNext();
     // System.Boolean AtEnd()
-    // Offset: 0xD91B24
+    // Offset: 0x2333ACC
     bool AtEnd();
     // System.Boolean Advance(System.Int32 count)
-    // Offset: 0xD91B34
+    // Offset: 0x2333ADC
     bool Advance(int count);
     // System.Void GetRegularToken(out System.TokenType tokenType, out System.Int32 tokenValue, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0xD91B3C
+    // Offset: 0x2333B30
     void GetRegularToken(ByRef<System::TokenType> tokenType, ByRef<int> tokenValue, System::Globalization::DateTimeFormatInfo* dtfi);
     // System.TokenType GetSeparatorToken(System.Globalization.DateTimeFormatInfo dtfi, out System.Int32 indexBeforeSeparator, out System.Char charBeforeSeparator)
-    // Offset: 0xD91B44
+    // Offset: 0x2333DBC
     System::TokenType GetSeparatorToken(System::Globalization::DateTimeFormatInfo* dtfi, ByRef<int> indexBeforeSeparator, ByRef<::Il2CppChar> charBeforeSeparator);
     // System.Boolean MatchSpecifiedWord(System.String target)
-    // Offset: 0xD91B4C
+    // Offset: 0x2333F80
     bool MatchSpecifiedWord(::Il2CppString* target);
     // System.Boolean MatchSpecifiedWord(System.String target, System.Int32 endIndex)
-    // Offset: 0xD91B54
+    // Offset: 0x2333FA0
     bool MatchSpecifiedWord(::Il2CppString* target, int endIndex);
     // System.Boolean MatchSpecifiedWords(System.String target, System.Boolean checkWordBoundary, ref System.Int32 matchLength)
-    // Offset: 0xD91B5C
+    // Offset: 0x2334024
     bool MatchSpecifiedWords(::Il2CppString* target, bool checkWordBoundary, ByRef<int> matchLength);
     // System.Boolean Match(System.String str)
-    // Offset: 0xD91B68
+    // Offset: 0x2334384
     bool Match(::Il2CppString* str);
     // System.Boolean Match(System.Char ch)
-    // Offset: 0xD91B70
+    // Offset: 0x2334438
     bool Match(::Il2CppChar ch);
     // System.Int32 MatchLongestWords(System.String[] words, ref System.Int32 maxMatchStrLen)
-    // Offset: 0xD91B78
+    // Offset: 0x23344B0
     int MatchLongestWords(::Array<::Il2CppString*>* words, ByRef<int> maxMatchStrLen);
     // System.Int32 GetRepeatCount()
-    // Offset: 0xD91B80
+    // Offset: 0x2334574
     int GetRepeatCount();
     // System.Boolean GetNextDigit()
-    // Offset: 0xD91B88
+    // Offset: 0x2334600
     bool GetNextDigit();
     // System.Char GetChar()
-    // Offset: 0xD91B90
+    // Offset: 0x23346A8
     ::Il2CppChar GetChar();
     // System.Int32 GetDigit()
-    // Offset: 0xD91B98
+    // Offset: 0x23346CC
     int GetDigit();
     // System.Void SkipWhiteSpaces()
-    // Offset: 0xD91BA0
+    // Offset: 0x2334700
     void SkipWhiteSpaces();
     // System.Boolean SkipWhiteSpaceCurrent()
-    // Offset: 0xD91BA8
+    // Offset: 0x2333EAC
     bool SkipWhiteSpaceCurrent();
     // System.Void TrimTail()
-    // Offset: 0xD91BB0
+    // Offset: 0x23347BC
     void TrimTail();
     // System.Void RemoveTrailingInQuoteSpaces()
-    // Offset: 0xD91BB8
+    // Offset: 0x2334894
     void RemoveTrailingInQuoteSpaces();
     // System.Void RemoveLeadingInQuoteSpaces()
-    // Offset: 0xD91BC0
+    // Offset: 0x23349EC
     void RemoveLeadingInQuoteSpaces();
     // System.DTSubString GetSubString()
-    // Offset: 0xD91BC8
+    // Offset: 0x2334B04
     System::DTSubString GetSubString();
     // System.Void ConsumeSubString(System.DTSubString sub)
-    // Offset: 0xD91BD0
+    // Offset: 0x2334C30
     void ConsumeSubString(System::DTSubString sub);
   }; // System.__DTString
   #pragma pack(pop)

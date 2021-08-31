@@ -57,17 +57,17 @@ namespace NUnit::Framework::Internal::Commands {
     // Set instance field: private System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.IApplyToContext> _changes
     void _set__changes(System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::IApplyToContext*>* value);
     // public System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand, System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.IApplyToContext> changes)
-    // Offset: 0x142AF8C
+    // Offset: 0x1776C2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ApplyChangesToContextCommand* New_ctor(NUnit::Framework::Internal::Commands::TestCommand* innerCommand, System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::IApplyToContext*>* changes) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Commands::ApplyChangesToContextCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ApplyChangesToContextCommand*, creationType>(innerCommand, changes)));
     }
     // public System.Void ApplyChanges(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x142AFF4
+    // Offset: 0x1776C94
     void ApplyChanges(NUnit::Framework::Internal::ITestExecutionContext* context);
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x142B2C8
+    // Offset: 0x1776F68
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);

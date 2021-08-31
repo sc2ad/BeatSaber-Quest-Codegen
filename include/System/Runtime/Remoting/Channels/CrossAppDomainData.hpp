@@ -53,13 +53,13 @@ namespace System::Runtime::Remoting::Channels {
     // Set instance field: private System.String _processGuid
     void _set__processGuid(::Il2CppString* value);
     // System.Int32 get_DomainID()
-    // Offset: 0x11A29AC
+    // Offset: 0x1490ADC
     int get_DomainID();
     // System.String get_ProcessID()
-    // Offset: 0x11A29B4
+    // Offset: 0x1490AE4
     ::Il2CppString* get_ProcessID();
     // System.Void .ctor(System.Int32 domainId)
-    // Offset: 0x11A24B0
+    // Offset: 0x14905E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CrossAppDomainData* New_ctor(int domainId) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Channels::CrossAppDomainData::.ctor");

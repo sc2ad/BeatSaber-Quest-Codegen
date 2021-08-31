@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MockServerSettings
     MockServerSettings() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1F7032C
+    // Offset: 0x11DFFAC
     // Implemented from: MockPlayerSettings
     // Base method: System.Void MockPlayerSettings::.ctor()
     // Base method: System.Void Object::.ctor()

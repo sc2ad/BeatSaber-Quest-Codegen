@@ -78,16 +78,16 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int32 _index
     void _set__index(int value);
     // public System.Void GetBytes(System.Byte[] buffer, System.Int32 offset, System.Int32 length)
-    // Offset: 0x23D12A8
+    // Offset: 0x16F8854
     void GetBytes(::Array<uint8_t>* buffer, int offset, int length);
     // public System.Byte GetByte()
-    // Offset: 0x23D13DC
+    // Offset: 0x16F8988
     uint8_t GetByte();
     // private System.Void FillBuffer()
-    // Offset: 0x23D16AC
+    // Offset: 0x16F8C58
     void FillBuffer();
     // public System.Void .ctor()
-    // Offset: 0x23D160C
+    // Offset: 0x16F8BB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

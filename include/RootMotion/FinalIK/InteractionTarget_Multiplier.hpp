@@ -22,14 +22,14 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionTarget::Multiplier : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xEA44F8
+    // [TooltipAttribute] Offset: 0xE2A2A8
     // public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type curve
     // Size: 0x4
     // Offset: 0x10
     RootMotion::FinalIK::InteractionObject::WeightCurve::Type curve;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::InteractionObject::WeightCurve::Type) == 0x4);
-    // [TooltipAttribute] Offset: 0xEA4530
+    // [TooltipAttribute] Offset: 0xE2A2E0
     // public System.Single multiplier
     // Size: 0x4
     // Offset: 0x14
@@ -47,7 +47,7 @@ namespace RootMotion::FinalIK {
     // Set instance field: public System.Single multiplier
     void _set_multiplier(float value);
     // public System.Void .ctor()
-    // Offset: 0x172B078
+    // Offset: 0x1AD5994
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

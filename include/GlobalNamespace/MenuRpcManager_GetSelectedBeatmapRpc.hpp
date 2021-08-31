@@ -25,7 +25,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GetSelectedBeatmapRpc
     GetSelectedBeatmapRpc() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x2141860
+    // Offset: 0x16E955C
     // Implemented from: RemoteProcedureCall
     // Base method: System.Void RemoteProcedureCall::.ctor()
     // Base method: System.Void Object::.ctor()

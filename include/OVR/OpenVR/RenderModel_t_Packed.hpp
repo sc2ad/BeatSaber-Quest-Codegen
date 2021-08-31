@@ -82,7 +82,7 @@ namespace OVR::OpenVR {
     // Set instance field: public System.Int32 diffuseTextureId
     void _set_diffuseTextureId(int value);
     // public System.Void .ctor(OVR.OpenVR.RenderModel_t unpacked)
-    // Offset: 0xD6807C
+    // Offset: 0x12937D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RenderModel_t_Packed(OVR::OpenVR::RenderModel_t unpacked) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::RenderModel_t_Packed::.ctor");
@@ -90,7 +90,7 @@ namespace OVR::OpenVR {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, unpacked);
     }
     // public System.Void Unpack(ref OVR.OpenVR.RenderModel_t unpacked)
-    // Offset: 0xD6809C
+    // Offset: 0x12937FC
     void Unpack(ByRef<OVR::OpenVR::RenderModel_t> unpacked);
   }; // OVR.OpenVR.RenderModel_t_Packed
   #pragma pack(pop)

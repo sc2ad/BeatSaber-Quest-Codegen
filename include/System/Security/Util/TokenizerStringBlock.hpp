@@ -41,7 +41,7 @@ namespace System::Security::Util {
     // Set instance field: System.Security.Util.TokenizerStringBlock m_next
     void _set_m_next(System::Security::Util::TokenizerStringBlock* value);
     // public System.Void .ctor()
-    // Offset: 0x17B5F34
+    // Offset: 0x1C03CC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

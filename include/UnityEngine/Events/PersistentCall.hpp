@@ -43,21 +43,21 @@ namespace UnityEngine::Events {
   // [TokenAttribute] Offset: FFFFFFFF
   class PersistentCall : public ::Il2CppObject {
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0xE2E6F8
+    // [FormerlySerializedAsAttribute] Offset: 0xDB3704
     // private UnityEngine.Object m_Target
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::Object* m_Target;
     // Field size check
     static_assert(sizeof(UnityEngine::Object*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xE2E744
+    // [FormerlySerializedAsAttribute] Offset: 0xDB3750
     // private System.String m_MethodName
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* m_MethodName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xE2E790
+    // [FormerlySerializedAsAttribute] Offset: 0xDB379C
     // private UnityEngine.Events.PersistentListenerMode m_Mode
     // Size: 0x4
     // Offset: 0x20
@@ -66,15 +66,15 @@ namespace UnityEngine::Events {
     static_assert(sizeof(UnityEngine::Events::PersistentListenerMode) == 0x4);
     // Padding between fields: m_Mode and: m_Arguments
     char __padding2[0x4] = {};
-    // [FormerlySerializedAsAttribute] Offset: 0xE2E7DC
+    // [FormerlySerializedAsAttribute] Offset: 0xDB37E8
     // private UnityEngine.Events.ArgumentCache m_Arguments
     // Size: 0x8
     // Offset: 0x28
     UnityEngine::Events::ArgumentCache* m_Arguments;
     // Field size check
     static_assert(sizeof(UnityEngine::Events::ArgumentCache*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xE2E828
-    // [FormerlySerializedAsAttribute] Offset: 0xE2E828
+    // [FormerlySerializedAsAttribute] Offset: 0xDB3834
+    // [FormerlySerializedAsAttribute] Offset: 0xDB3834
     // private UnityEngine.Events.UnityEventCallState m_CallState
     // Size: 0x4
     // Offset: 0x30
@@ -104,28 +104,28 @@ namespace UnityEngine::Events {
     // Set instance field: private UnityEngine.Events.UnityEventCallState m_CallState
     void _set_m_CallState(UnityEngine::Events::UnityEventCallState value);
     // public UnityEngine.Object get_target()
-    // Offset: 0x17D9528
+    // Offset: 0x1C27E08
     UnityEngine::Object* get_target();
     // public System.String get_methodName()
-    // Offset: 0x17D9530
+    // Offset: 0x1C27E10
     ::Il2CppString* get_methodName();
     // public UnityEngine.Events.PersistentListenerMode get_mode()
-    // Offset: 0x17D9538
+    // Offset: 0x1C27E18
     UnityEngine::Events::PersistentListenerMode get_mode();
     // public UnityEngine.Events.ArgumentCache get_arguments()
-    // Offset: 0x17D9540
+    // Offset: 0x1C27E20
     UnityEngine::Events::ArgumentCache* get_arguments();
     // public System.Boolean IsValid()
-    // Offset: 0x17D9548
+    // Offset: 0x1C27E28
     bool IsValid();
     // public UnityEngine.Events.BaseInvokableCall GetRuntimeCall(UnityEngine.Events.UnityEventBase theEvent)
-    // Offset: 0x17D95DC
+    // Offset: 0x1C27EBC
     UnityEngine::Events::BaseInvokableCall* GetRuntimeCall(UnityEngine::Events::UnityEventBase* theEvent);
     // static private UnityEngine.Events.BaseInvokableCall GetObjectCall(UnityEngine.Object target, System.Reflection.MethodInfo method, UnityEngine.Events.ArgumentCache arguments)
-    // Offset: 0x17D994C
+    // Offset: 0x1C2822C
     static UnityEngine::Events::BaseInvokableCall* GetObjectCall(UnityEngine::Object* target, System::Reflection::MethodInfo* method, UnityEngine::Events::ArgumentCache* arguments);
     // public System.Void .ctor()
-    // Offset: 0x17D9D58
+    // Offset: 0x1C28638
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

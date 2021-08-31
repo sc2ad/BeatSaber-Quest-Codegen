@@ -57,7 +57,7 @@ namespace Zenject {
     // Set instance field: public System.Int32 Priority
     void _set_Priority(int value);
     // public System.Void .ctor(Zenject.IPoolable poolable, System.Int32 priority)
-    // Offset: 0xD788D4
+    // Offset: 0x1714818
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  PoolableInfo(Zenject::IPoolable* poolable, int priority)
   }; // Zenject.PoolableManager/Zenject.PoolableInfo

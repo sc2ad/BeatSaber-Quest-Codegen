@@ -75,10 +75,10 @@ namespace GlobalNamespace {
     // Set instance field: private readonly NoteCutter/CuttableBySaberSortParamsComparer _comparer
     void _set__comparer(GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer* value);
     // public System.Void Cut(Saber saber)
-    // Offset: 0x2010728
+    // Offset: 0x1048AC0
     void Cut(GlobalNamespace::Saber* saber);
     // public System.Void .ctor()
-    // Offset: 0x20105F0
+    // Offset: 0x1048988
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

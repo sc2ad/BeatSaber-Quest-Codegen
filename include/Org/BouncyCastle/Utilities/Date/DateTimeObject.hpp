@@ -37,14 +37,14 @@ namespace Org::BouncyCastle::Utilities::Date {
     // Set instance field: private readonly System.DateTime dt
     void _set_dt(System::DateTime value);
     // public System.Void .ctor(System.DateTime dt)
-    // Offset: 0x1A60E04
+    // Offset: 0x1FEBCC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DateTimeObject* New_ctor(System::DateTime dt) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::Date::DateTimeObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DateTimeObject*, creationType>(dt)));
     }
     // public override System.String ToString()
-    // Offset: 0x1A60E30
+    // Offset: 0x1FEBCF4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

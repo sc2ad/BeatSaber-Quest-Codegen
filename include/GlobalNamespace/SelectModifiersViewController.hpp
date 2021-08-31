@@ -42,13 +42,13 @@ namespace GlobalNamespace {
     // Set instance field: private GameplayModifiersPanelController _gameplayModifiersPanelController
     void _set__gameplayModifiersPanelController(GlobalNamespace::GameplayModifiersPanelController* value);
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x1F86014
+    // Offset: 0x119DC60
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public System.Void Setup(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1F86030
+    // Offset: 0x119DC7C
     void Setup(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.Void .ctor()
-    // Offset: 0x1F860FC
+    // Offset: 0x119DD48
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -62,7 +62,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SelectModifiersViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1F8604C
+    // Offset: 0x119DC98
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

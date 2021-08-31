@@ -64,14 +64,14 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Set instance field: private NUnit.Framework.Internal.Commands.TestCommand _command
     void _set__command(NUnit::Framework::Internal::Commands::TestCommand* value);
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod test, NUnit.Framework.Interfaces.ITestFilter filter)
-    // Offset: 0x11EF634
+    // Offset: 0x14B5274
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultTestWorkItem* New_ctor(NUnit::Framework::Internal::TestMethod* test, NUnit::Framework::Interfaces::ITestFilter* filter) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::NUnitExtensions::Runner::DefaultTestWorkItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultTestWorkItem*, creationType>(test, filter)));
     }
     // protected override System.Collections.IEnumerable PerformWork()
-    // Offset: 0x11EF678
+    // Offset: 0x14B52B8
     // Implemented from: UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem
     // Base method: System.Collections.IEnumerable UnityWorkItem::PerformWork()
     System::Collections::IEnumerable* PerformWork();

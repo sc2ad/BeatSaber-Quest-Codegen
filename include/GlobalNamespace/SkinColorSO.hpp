@@ -47,13 +47,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Color _color
     void _set__color(UnityEngine::Color value);
     // public System.String get_id()
-    // Offset: 0x1EC3268
+    // Offset: 0x107DB78
     ::Il2CppString* get_id();
     // public UnityEngine.Color get_Color()
-    // Offset: 0x1EC3270
+    // Offset: 0x107DB80
     UnityEngine::Color get_Color();
     // public System.Void .ctor()
-    // Offset: 0x1EC327C
+    // Offset: 0x107DB8C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

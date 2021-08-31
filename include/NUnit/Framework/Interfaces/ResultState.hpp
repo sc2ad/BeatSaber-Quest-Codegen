@@ -22,7 +22,7 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   class ResultState : public ::Il2CppObject {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xE9D358
+    // [DebuggerBrowsableAttribute] Offset: 0xE230F8
     // private NUnit.Framework.Interfaces.TestStatus <Status>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -31,14 +31,14 @@ namespace NUnit::Framework::Interfaces {
     static_assert(sizeof(NUnit::Framework::Interfaces::TestStatus) == 0x4);
     // Padding between fields: Status and: Label
     char __padding0[0x4] = {};
-    // [DebuggerBrowsableAttribute] Offset: 0xE9D394
+    // [DebuggerBrowsableAttribute] Offset: 0xE23134
     // private System.String <Label>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* Label;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xE9D3D0
+    // [DebuggerBrowsableAttribute] Offset: 0xE23170
     // private NUnit.Framework.Interfaces.FailureSite <Site>k__BackingField
     // Size: 0x4
     // Offset: 0x20
@@ -112,62 +112,62 @@ namespace NUnit::Framework::Interfaces {
     // Set instance field: private NUnit.Framework.Interfaces.FailureSite <Site>k__BackingField
     void _set_$Site$k__BackingField(NUnit::Framework::Interfaces::FailureSite value);
     // public NUnit.Framework.Interfaces.TestStatus get_Status()
-    // Offset: 0x1424540
+    // Offset: 0x17701E0
     NUnit::Framework::Interfaces::TestStatus get_Status();
     // private System.Void set_Status(NUnit.Framework.Interfaces.TestStatus value)
-    // Offset: 0x1424548
+    // Offset: 0x17701E8
     void set_Status(NUnit::Framework::Interfaces::TestStatus value);
     // public System.String get_Label()
-    // Offset: 0x1424550
+    // Offset: 0x17701F0
     ::Il2CppString* get_Label();
     // private System.Void set_Label(System.String value)
-    // Offset: 0x1424558
+    // Offset: 0x17701F8
     void set_Label(::Il2CppString* value);
     // public NUnit.Framework.Interfaces.FailureSite get_Site()
-    // Offset: 0x1424560
+    // Offset: 0x1770200
     NUnit::Framework::Interfaces::FailureSite get_Site();
     // private System.Void set_Site(NUnit.Framework.Interfaces.FailureSite value)
-    // Offset: 0x1424568
+    // Offset: 0x1770208
     void set_Site(NUnit::Framework::Interfaces::FailureSite value);
     // public System.Void .ctor(NUnit.Framework.Interfaces.TestStatus status)
-    // Offset: 0x1424440
+    // Offset: 0x17700E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResultState* New_ctor(NUnit::Framework::Interfaces::TestStatus status) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Interfaces::ResultState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResultState*, creationType>(status)));
     }
     // public System.Void .ctor(NUnit.Framework.Interfaces.TestStatus status, System.String label)
-    // Offset: 0x1424538
+    // Offset: 0x17701D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResultState* New_ctor(NUnit::Framework::Interfaces::TestStatus status, ::Il2CppString* label) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Interfaces::ResultState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResultState*, creationType>(status, label)));
     }
     // public System.Void .ctor(NUnit.Framework.Interfaces.TestStatus status, System.String label, NUnit.Framework.Interfaces.FailureSite site)
-    // Offset: 0x14244AC
+    // Offset: 0x177014C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResultState* New_ctor(NUnit::Framework::Interfaces::TestStatus status, ::Il2CppString* label, NUnit::Framework::Interfaces::FailureSite site) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Interfaces::ResultState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResultState*, creationType>(status, label, site)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1424924
+    // Offset: 0x17705C4
     static void _cctor();
     // public NUnit.Framework.Interfaces.ResultState WithSite(NUnit.Framework.Interfaces.FailureSite site)
-    // Offset: 0x1424570
+    // Offset: 0x1770210
     NUnit::Framework::Interfaces::ResultState* WithSite(NUnit::Framework::Interfaces::FailureSite site);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x14245EC
+    // Offset: 0x177028C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1424778
+    // Offset: 0x1770418
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x14247C0
+    // Offset: 0x1770460
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

@@ -43,7 +43,7 @@ namespace System::Runtime::Remoting {
     // Set instance field: public System.Object c
     void _set_c(::Il2CppObject* value);
     // public System.Void .ctor()
-    // Offset: 0x12D3FD4
+    // Offset: 0x160C264
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

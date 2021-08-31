@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SetStartGameTimeRpc
     SetStartGameTimeRpc() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x2141DD0
+    // Offset: 0x16E9ACC
     // Implemented from: RemoteProcedureCall`1
     // Base method: System.Void RemoteProcedureCall_1::.ctor()
     // Base method: System.Void RemoteProcedureCall::.ctor()

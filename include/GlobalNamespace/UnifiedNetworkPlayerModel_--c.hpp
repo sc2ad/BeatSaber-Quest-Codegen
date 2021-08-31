@@ -35,18 +35,18 @@ namespace GlobalNamespace {
     static GlobalNamespace::UnifiedNetworkPlayerModel::$$c* _get_$$9();
     // Set static field: static public readonly UnifiedNetworkPlayerModel/<>c <>9
     static void _set_$$9(GlobalNamespace::UnifiedNetworkPlayerModel::$$c* value);
-    // Get static field: static public System.Comparison`1<UnifiedNetworkPlayerModel/UnifiedNetworkPlayer> <>9__114_0
-    static System::Comparison_1<GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer*>* _get_$$9__114_0();
-    // Set static field: static public System.Comparison`1<UnifiedNetworkPlayerModel/UnifiedNetworkPlayer> <>9__114_0
-    static void _set_$$9__114_0(System::Comparison_1<GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer*>* value);
+    // Get static field: static public System.Comparison`1<UnifiedNetworkPlayerModel/UnifiedNetworkPlayer> <>9__101_0
+    static System::Comparison_1<GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer*>* _get_$$9__101_0();
+    // Set static field: static public System.Comparison`1<UnifiedNetworkPlayerModel/UnifiedNetworkPlayer> <>9__101_0
+    static void _set_$$9__101_0(System::Comparison_1<GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x20673CC
+    // Offset: 0x135644C
     static void _cctor();
-    // System.Int32 <PlayerOrderChanged>b__114_0(UnifiedNetworkPlayerModel/UnifiedNetworkPlayer a, UnifiedNetworkPlayerModel/UnifiedNetworkPlayer b)
-    // Offset: 0x2067438
-    int $PlayerOrderChanged$b__114_0(GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer* a, GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer* b);
+    // System.Int32 <PlayerOrderChanged>b__101_0(UnifiedNetworkPlayerModel/UnifiedNetworkPlayer a, UnifiedNetworkPlayerModel/UnifiedNetworkPlayer b)
+    // Offset: 0x13564B8
+    int $PlayerOrderChanged$b__101_0(GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer* a, GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer* b);
     // public System.Void .ctor()
-    // Offset: 0x2067430
+    // Offset: 0x13564B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -67,14 +67,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UnifiedNetworkPlayerModel::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::UnifiedNetworkPlayerModel::$$c::$PlayerOrderChanged$b__114_0
-// Il2CppName: <PlayerOrderChanged>b__114_0
+// Writing MetadataGetter for method: GlobalNamespace::UnifiedNetworkPlayerModel::$$c::$PlayerOrderChanged$b__101_0
+// Il2CppName: <PlayerOrderChanged>b__101_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::UnifiedNetworkPlayerModel::$$c::*)(GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer*, GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer*)>(&GlobalNamespace::UnifiedNetworkPlayerModel::$$c::$PlayerOrderChanged$b__114_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::UnifiedNetworkPlayerModel::$$c::*)(GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer*, GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer*)>(&GlobalNamespace::UnifiedNetworkPlayerModel::$$c::$PlayerOrderChanged$b__101_0)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("", "UnifiedNetworkPlayerModel/UnifiedNetworkPlayer")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("", "UnifiedNetworkPlayerModel/UnifiedNetworkPlayer")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UnifiedNetworkPlayerModel::$$c*), "<PlayerOrderChanged>b__114_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UnifiedNetworkPlayerModel::$$c*), "<PlayerOrderChanged>b__101_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::UnifiedNetworkPlayerModel::$$c::New_ctor

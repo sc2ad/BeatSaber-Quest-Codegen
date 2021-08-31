@@ -64,17 +64,17 @@ namespace RootMotion::FinalIK {
     // Set instance field: public UnityEngine.Quaternion localRotation
     void _set_localRotation(UnityEngine::Quaternion value);
     // public System.Void .ctor(UnityEngine.Transform transform)
-    // Offset: 0x172F730
+    // Offset: 0x1ADA04C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RagdollUtility::Child* New_ctor(UnityEngine::Transform* transform) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::RagdollUtility::Child::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RagdollUtility::Child*, creationType>(transform)));
     }
     // public System.Void FixTransform(System.Single weight)
-    // Offset: 0x1730378
+    // Offset: 0x1ADAC94
     void FixTransform(float weight);
     // public System.Void StoreLocalState()
-    // Offset: 0x1730328
+    // Offset: 0x1ADAC44
     void StoreLocalState();
   }; // RootMotion.FinalIK.RagdollUtility/RootMotion.FinalIK.Child
   #pragma pack(pop)

@@ -37,7 +37,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EventsTestGameplayManager : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xEB2E54
+    // [InjectAttribute] Offset: 0xE38C34
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x18
@@ -95,13 +95,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _rotatingLasers
     void _set__rotatingLasers(bool value);
     // protected System.Void Awake()
-    // Offset: 0x1E8E0AC
+    // Offset: 0x1053E70
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x1E8E368
+    // Offset: 0x105412C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1E8E714
+    // Offset: 0x10544D8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

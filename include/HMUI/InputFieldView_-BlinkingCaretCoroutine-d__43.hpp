@@ -62,26 +62,26 @@ namespace HMUI {
     // Set instance field: public HMUI.InputFieldView <>4__this
     void _set_$$4__this(HMUI::InputFieldView* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1067774
+    // Offset: 0x12F67D8
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x10677DC
+    // Offset: 0x12F6840
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x10674D4
+    // Offset: 0x12F6538
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InputFieldView::$BlinkingCaretCoroutine$d__43* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InputFieldView::$BlinkingCaretCoroutine$d__43*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x10676D8
+    // Offset: 0x12F673C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x10676DC
+    // Offset: 0x12F6740
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x106777C
+    // Offset: 0x12F67E0
     void System_Collections_IEnumerator_Reset();
   }; // HMUI.InputFieldView/HMUI.<BlinkingCaretCoroutine>d__43
   #pragma pack(pop)

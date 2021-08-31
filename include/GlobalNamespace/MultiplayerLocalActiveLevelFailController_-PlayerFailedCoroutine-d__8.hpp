@@ -62,26 +62,26 @@ namespace GlobalNamespace {
     // Set instance field: public MultiplayerLocalActiveLevelFailController <>4__this
     void _set_$$4__this(GlobalNamespace::MultiplayerLocalActiveLevelFailController* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1E76098
+    // Offset: 0x10665B0
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1E76100
+    // Offset: 0x1066618
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1E75ED4
+    // Offset: 0x10663EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalActiveLevelFailController::$PlayerFailedCoroutine$d__8* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerLocalActiveLevelFailController::$PlayerFailedCoroutine$d__8::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalActiveLevelFailController::$PlayerFailedCoroutine$d__8*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1E75F5C
+    // Offset: 0x1066474
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1E75F60
+    // Offset: 0x1066478
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1E760A0
+    // Offset: 0x10665B8
     void System_Collections_IEnumerator_Reset();
   }; // MultiplayerLocalActiveLevelFailController/<PlayerFailedCoroutine>d__8
   #pragma pack(pop)

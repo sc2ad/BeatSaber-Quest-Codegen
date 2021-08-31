@@ -46,14 +46,14 @@ namespace GlobalNamespace {
     GlobalNamespace::MenuScenesTransitionSetupDataSO* arcadeMenuTransitionSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xEAB260
+    // [InjectAttribute] Offset: 0xE31010
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xEAB270
+    // [InjectAttribute] Offset: 0xE31020
     // private NetEaseManager _netEaseManager
     // Size: 0x8
     // Offset: 0x28
@@ -77,13 +77,13 @@ namespace GlobalNamespace {
     // Set instance field: private NetEaseManager _netEaseManager
     void _set__netEaseManager(GlobalNamespace::NetEaseManager* value);
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x1E64210
+    // Offset: 0x103FC3C
     System::Collections::IEnumerator* Start();
     // private System.Void LoginAsync()
-    // Offset: 0x1E642AC
+    // Offset: 0x103FCD8
     void LoginAsync();
     // public System.Void .ctor()
-    // Offset: 0x1E6436C
+    // Offset: 0x103FD98
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

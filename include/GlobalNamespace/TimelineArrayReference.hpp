@@ -170,7 +170,7 @@ namespace GlobalNamespace {
     // Set instance field: public DirectionalLight[] _directionalLights
     void _set__directionalLights(::Array<GlobalNamespace::DirectionalLight*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1EDAE30
+    // Offset: 0x1095740
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

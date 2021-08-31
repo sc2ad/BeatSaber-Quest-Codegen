@@ -84,22 +84,22 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _shockwavePSEmitParams
     void _set__shockwavePSEmitParams(UnityEngine::ParticleSystem::EmitParams value);
     // protected System.Void Awake()
-    // Offset: 0x1FB02DC
+    // Offset: 0x10E65B4
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x1FB02EC
+    // Offset: 0x10E65C4
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1FB03C0
+    // Offset: 0x10E6698
     void OnDisable();
     // private System.Void HandleButtonClickEvent()
-    // Offset: 0x1FB0494
+    // Offset: 0x10E676C
     void HandleButtonClickEvent();
     // public System.Void SpawnShockwave(UnityEngine.Vector3 pos)
-    // Offset: 0x1FB04C8
+    // Offset: 0x10E67A0
     void SpawnShockwave(UnityEngine::Vector3 pos);
     // public System.Void .ctor()
-    // Offset: 0x1FB0578
+    // Offset: 0x10E6850
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

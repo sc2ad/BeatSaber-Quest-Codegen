@@ -45,13 +45,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.String _leaderboardId
     void _set__leaderboardId(::Il2CppString* value);
     // public System.UInt32 get_ps4LeaderboardId()
-    // Offset: 0x1E50BD0
+    // Offset: 0x102E168
     uint get_ps4LeaderboardId();
     // public System.String get_leaderboardId()
-    // Offset: 0x1E50BD8
+    // Offset: 0x102E170
     ::Il2CppString* get_leaderboardId();
     // public System.Void .ctor(System.UInt32 ps4LeaderboardId, System.String leaderboardId)
-    // Offset: 0x1E50BE0
+    // Offset: 0x102E178
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PS4LeaderboardIdsModelSO::LeaderboardIdData* New_ctor(uint ps4LeaderboardId, ::Il2CppString* leaderboardId) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData::.ctor");

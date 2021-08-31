@@ -104,14 +104,14 @@ namespace NUnit::Framework::Internal::Commands {
     // Set instance field: private readonly System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.TestActionItem> _actions
     void _set__actions(System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>* value);
     // public System.Void .ctor(NUnit.Framework.Internal.TestSuite suite, System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.SetUpTearDownItem> setUpTearDown, System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.TestActionItem> actions)
-    // Offset: 0x142B570
+    // Offset: 0x1777210
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OneTimeSetUpCommand* New_ctor(NUnit::Framework::Internal::TestSuite* suite, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>* setUpTearDown, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>* actions) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Commands::OneTimeSetUpCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OneTimeSetUpCommand*, creationType>(suite, setUpTearDown, actions)));
     }
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x142B5C8
+    // Offset: 0x1777268
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);

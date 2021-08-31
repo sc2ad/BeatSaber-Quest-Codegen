@@ -51,10 +51,10 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Set instance field: public UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand/UnityEngine.TestRunner.NUnitExtensions.Runner.<>c__DisplayClass3_0 CS$<>8__locals1
     void _set_CS$$$8__locals1(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::$$c__DisplayClass3_0* value);
     // System.Void <ExecuteEnumerable>b__0()
-    // Offset: 0x11F24B4
+    // Offset: 0x14B80F4
     void $ExecuteEnumerable$b__0();
     // public System.Void .ctor()
-    // Offset: 0x11F24AC
+    // Offset: 0x14B80EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -24,7 +24,7 @@ namespace Zenject {
     // Creating value type constructor for type: ProviderUtil
     ProviderUtil() noexcept {}
     // static public System.Type GetTypeToInstantiate(System.Type contractType, System.Type concreteType)
-    // Offset: 0x13CE080
+    // Offset: 0x1719D68
     static System::Type* GetTypeToInstantiate(System::Type* contractType, System::Type* concreteType);
   }; // Zenject.ProviderUtil
   #pragma pack(pop)

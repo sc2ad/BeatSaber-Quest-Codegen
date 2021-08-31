@@ -45,7 +45,7 @@ namespace Microsoft::Win32 {
     // Set instance field: System.String cFileName
     void _set_cFileName(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x16C9398
+    // Offset: 0x1A6465C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -283,7 +283,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Set instance field: public System.String extraDataBase64
     void _set_extraDataBase64(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x1FCE150
+    // Offset: 0x11E8D6C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

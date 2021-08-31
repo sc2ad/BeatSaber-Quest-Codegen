@@ -32,21 +32,21 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionObject::InteractionEvent : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xEA40D0
+    // [TooltipAttribute] Offset: 0xE29E80
     // public System.Single time
     // Size: 0x4
     // Offset: 0x10
     float time;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xEA4108
+    // [TooltipAttribute] Offset: 0xE29EB8
     // public System.Boolean pause
     // Size: 0x1
     // Offset: 0x14
     bool pause;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0xEA4140
+    // [TooltipAttribute] Offset: 0xE29EF0
     // public System.Boolean pickUp
     // Size: 0x1
     // Offset: 0x15
@@ -55,21 +55,21 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: pickUp and: animations
     char __padding2[0x2] = {};
-    // [TooltipAttribute] Offset: 0xEA4178
+    // [TooltipAttribute] Offset: 0xE29F28
     // public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.AnimatorEvent[] animations
     // Size: 0x8
     // Offset: 0x18
     ::Array<RootMotion::FinalIK::InteractionObject::AnimatorEvent*>* animations;
     // Field size check
     static_assert(sizeof(::Array<RootMotion::FinalIK::InteractionObject::AnimatorEvent*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xEA41B0
+    // [TooltipAttribute] Offset: 0xE29F60
     // public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.Message[] messages
     // Size: 0x8
     // Offset: 0x20
     ::Array<RootMotion::FinalIK::InteractionObject::Message*>* messages;
     // Field size check
     static_assert(sizeof(::Array<RootMotion::FinalIK::InteractionObject::Message*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xEA41E8
+    // [TooltipAttribute] Offset: 0xE29F98
     // public UnityEngine.Events.UnityEvent unityEvent
     // Size: 0x8
     // Offset: 0x28
@@ -103,10 +103,10 @@ namespace RootMotion::FinalIK {
     // Set instance field: public UnityEngine.Events.UnityEvent unityEvent
     void _set_unityEvent(UnityEngine::Events::UnityEvent* value);
     // public System.Void Activate(UnityEngine.Transform t)
-    // Offset: 0x1995E14
+    // Offset: 0x1E8D180
     void Activate(UnityEngine::Transform* t);
     // public System.Void .ctor()
-    // Offset: 0x1997E68
+    // Offset: 0x1E8F1D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -25,7 +25,7 @@ namespace ModestTree {
     // Creating value type constructor for type: Log
     Log() noexcept {}
     // static public System.Void Debug(System.String message, params System.Object[] args)
-    // Offset: 0x1119968
+    // Offset: 0x13D4B90
     static void Debug(::Il2CppString* message, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void Debug(System.String message, params System.Object[] args)
     static void Debug(::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
@@ -35,7 +35,7 @@ namespace ModestTree {
       Debug(message, {args...});
     }
     // static public System.Void Info(System.String message, params System.Object[] args)
-    // Offset: 0x111996C
+    // Offset: 0x13D4B94
     static void Info(::Il2CppString* message, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void Info(System.String message, params System.Object[] args)
     static void Info(::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
@@ -45,7 +45,7 @@ namespace ModestTree {
       Info(message, {args...});
     }
     // static public System.Void Warn(System.String message, params System.Object[] args)
-    // Offset: 0x1119208
+    // Offset: 0x13D4430
     static void Warn(::Il2CppString* message, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void Warn(System.String message, params System.Object[] args)
     static void Warn(::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
@@ -55,7 +55,7 @@ namespace ModestTree {
       Warn(message, {args...});
     }
     // static public System.Void Trace(System.String message, params System.Object[] args)
-    // Offset: 0x11199F4
+    // Offset: 0x13D4C1C
     static void Trace(::Il2CppString* message, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void Trace(System.String message, params System.Object[] args)
     static void Trace(::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
@@ -65,13 +65,13 @@ namespace ModestTree {
       Trace(message, {args...});
     }
     // static public System.Void ErrorException(System.Exception e)
-    // Offset: 0x1119A7C
+    // Offset: 0x13D4CA4
     static void ErrorException(System::Exception* e);
     // static public System.Void ErrorException(System.String message, System.Exception e)
-    // Offset: 0x1119AE4
+    // Offset: 0x13D4D0C
     static void ErrorException(::Il2CppString* message, System::Exception* e);
     // static public System.Void Error(System.String message, params System.Object[] args)
-    // Offset: 0x1119B64
+    // Offset: 0x13D4D8C
     static void Error(::Il2CppString* message, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void Error(System.String message, params System.Object[] args)
     static void Error(::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);

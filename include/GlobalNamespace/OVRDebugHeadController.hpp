@@ -126,16 +126,16 @@ namespace GlobalNamespace {
     // Set instance field: protected OVRCameraRig CameraRig
     void _set_CameraRig(GlobalNamespace::OVRCameraRig* value);
     // private System.Void Awake()
-    // Offset: 0x105D92C
+    // Offset: 0x129CD1C
     void Awake();
     // private System.Void Start()
-    // Offset: 0x105DA24
+    // Offset: 0x129CE14
     void Start();
     // private System.Void Update()
-    // Offset: 0x105DA28
+    // Offset: 0x129CE18
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x105DFB4
+    // Offset: 0x129D3A4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

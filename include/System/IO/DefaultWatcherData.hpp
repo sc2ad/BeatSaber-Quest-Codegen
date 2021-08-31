@@ -127,7 +127,7 @@ namespace System::IO {
     // Set instance field: public System.Collections.Hashtable Files
     void _set_Files(System::Collections::Hashtable* value);
     // public System.Void .ctor()
-    // Offset: 0x15243F0
+    // Offset: 0x18B99F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

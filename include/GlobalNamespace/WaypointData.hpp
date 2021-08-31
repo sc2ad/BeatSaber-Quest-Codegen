@@ -54,42 +54,42 @@ namespace GlobalNamespace {
     // Set instance field: private NoteLineLayer <noteLineLayer>k__BackingField
     void _set_$noteLineLayer$k__BackingField(GlobalNamespace::NoteLineLayer value);
     // public OffsetDirection get_offsetDirection()
-    // Offset: 0x23EFD34
+    // Offset: 0x240DD8C
     GlobalNamespace::OffsetDirection get_offsetDirection();
     // private System.Void set_offsetDirection(OffsetDirection value)
-    // Offset: 0x23EFD3C
+    // Offset: 0x240DD94
     void set_offsetDirection(GlobalNamespace::OffsetDirection value);
     // public NoteLineLayer get_noteLineLayer()
-    // Offset: 0x23EFD44
+    // Offset: 0x240DD9C
     GlobalNamespace::NoteLineLayer get_noteLineLayer();
     // private System.Void set_noteLineLayer(NoteLineLayer value)
-    // Offset: 0x23EFD4C
+    // Offset: 0x240DDA4
     void set_noteLineLayer(GlobalNamespace::NoteLineLayer value);
     // public System.Void .ctor(System.Single time, System.Int32 lineIndex, NoteLineLayer noteLineLayer, OffsetDirection offsetDirection)
-    // Offset: 0x23EFDCC
+    // Offset: 0x240DE24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WaypointData* New_ctor(float time, int lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer, GlobalNamespace::OffsetDirection offsetDirection) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::WaypointData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WaypointData*, creationType>(time, lineIndex, noteLineLayer, offsetDirection)));
     }
     // private System.Void MirrorTransformOffsetDirection()
-    // Offset: 0x23EFE30
+    // Offset: 0x240DE88
     void MirrorTransformOffsetDirection();
     // public override BeatmapObjectType get_beatmapObjectType()
-    // Offset: 0x23EFD2C
+    // Offset: 0x240DD84
     // Implemented from: BeatmapObjectData
     // Base method: BeatmapObjectType BeatmapObjectData::get_beatmapObjectType()
     GlobalNamespace::BeatmapObjectType get_beatmapObjectType();
     // public override BeatmapObjectData GetCopy()
-    // Offset: 0x23EFD54
+    // Offset: 0x240DDAC
     // Implemented from: BeatmapObjectData
     // Base method: BeatmapObjectData BeatmapObjectData::GetCopy()
     GlobalNamespace::BeatmapObjectData* GetCopy();
-    // public override System.Void MirrorLineIndex(System.Int32 lineCount)
-    // Offset: 0x23EFE1C
+    // public override System.Void Mirror(System.Int32 lineCount)
+    // Offset: 0x240DE74
     // Implemented from: BeatmapObjectData
-    // Base method: System.Void BeatmapObjectData::MirrorLineIndex(System.Int32 lineCount)
-    void MirrorLineIndex(int lineCount);
+    // Base method: System.Void BeatmapObjectData::Mirror(System.Int32 lineCount)
+    void Mirror(int lineCount);
   }; // WaypointData
   #pragma pack(pop)
   static check_size<sizeof(WaypointData), 28 + sizeof(GlobalNamespace::NoteLineLayer)> __GlobalNamespace_WaypointDataSizeCheck;
@@ -159,12 +159,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointData*), "GetCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::WaypointData::MirrorLineIndex
-// Il2CppName: MirrorLineIndex
+// Writing MetadataGetter for method: GlobalNamespace::WaypointData::Mirror
+// Il2CppName: Mirror
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::WaypointData::*)(int)>(&GlobalNamespace::WaypointData::MirrorLineIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::WaypointData::*)(int)>(&GlobalNamespace::WaypointData::Mirror)> {
   static const MethodInfo* get() {
     static auto* lineCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointData*), "MirrorLineIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lineCount});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointData*), "Mirror", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lineCount});
   }
 };

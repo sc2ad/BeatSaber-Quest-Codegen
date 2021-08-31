@@ -58,7 +58,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set instance field: public UnityEngine.Vector2 scale
     void _set_scale(UnityEngine::Vector2 value);
     // public override System.String ToString()
-    // Offset: 0xD788E0
+    // Offset: 0x174C15C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

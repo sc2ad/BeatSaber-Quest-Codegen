@@ -69,22 +69,22 @@ namespace HMUI {
     // Set instance field: private System.String _text
     void _set__text(::Il2CppString* value);
     // public System.String get_text()
-    // Offset: 0x10D36A4
+    // Offset: 0x13745CC
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x10D36AC
+    // Offset: 0x13745D4
     void set_text(::Il2CppString* value);
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x10D36B4
+    // Offset: 0x13745DC
     void OnPointerEnter(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x10D36D4
+    // Offset: 0x13745FC
     void OnPointerExit(UnityEngine::EventSystems::PointerEventData* eventData);
     // protected System.Void OnDisable()
-    // Offset: 0x10D36EC
+    // Offset: 0x1374614
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x10D3704
+    // Offset: 0x137462C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

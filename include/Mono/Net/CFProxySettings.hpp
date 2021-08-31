@@ -68,13 +68,13 @@ namespace Mono::Net {
     // Set instance field: private Mono.Net.CFDictionary settings
     void _set_settings(Mono::Net::CFDictionary* value);
     // public Mono.Net.CFDictionary get_Dictionary()
-    // Offset: 0x12AC70C
+    // Offset: 0x15E499C
     Mono::Net::CFDictionary* get_Dictionary();
     // static private System.Void .cctor()
-    // Offset: 0x12AC5F0
+    // Offset: 0x15E4880
     static void _cctor();
     // public System.Void .ctor(Mono.Net.CFDictionary settings)
-    // Offset: 0x12AA928
+    // Offset: 0x15E2BB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CFProxySettings* New_ctor(Mono::Net::CFDictionary* settings) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::CFProxySettings::.ctor");

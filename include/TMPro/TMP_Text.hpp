@@ -206,7 +206,7 @@ namespace TMPro {
     #pragma pack(pop)
     static check_size<sizeof(TMP_Text::UnicodeChar), 8 + sizeof(int)> __TMPro_TMP_Text_UnicodeCharSizeCheck;
     static_assert(sizeof(TMP_Text::UnicodeChar) == 0xC);
-    // [TextAreaAttribute] Offset: 0xE6F6BC
+    // [TextAreaAttribute] Offset: 0xDF5F30
     // protected System.String m_text
     // Size: 0x8
     // Offset: 0xC0
@@ -495,7 +495,7 @@ namespace TMPro {
     bool m_isUsingBold;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [FormerlySerializedAsAttribute] Offset: 0xE6F87C
+    // [FormerlySerializedAsAttribute] Offset: 0xDF60F0
     // protected TMPro.TextAlignmentOptions m_textAlignment
     // Size: 0x4
     // Offset: 0x288
@@ -2199,613 +2199,613 @@ namespace TMPro {
     // Set instance field: private readonly System.Single[] k_Power
     void _set_k_Power(::Array<float>* value);
     // public System.String get_text()
-    // Offset: 0x1018A64
+    // Offset: 0x1162244
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x1018A6C
+    // Offset: 0x116224C
     void set_text(::Il2CppString* value);
     // public System.Boolean get_isRightToLeftText()
-    // Offset: 0x1018AEC
+    // Offset: 0x11622CC
     bool get_isRightToLeftText();
     // public System.Void set_isRightToLeftText(System.Boolean value)
-    // Offset: 0x1018AF4
+    // Offset: 0x11622D4
     void set_isRightToLeftText(bool value);
     // public TMPro.TMP_FontAsset get_font()
-    // Offset: 0x1018B60
+    // Offset: 0x1162340
     TMPro::TMP_FontAsset* get_font();
     // public System.Void set_font(TMPro.TMP_FontAsset value)
-    // Offset: 0x1018B68
+    // Offset: 0x1162348
     void set_font(TMPro::TMP_FontAsset* value);
     // public UnityEngine.Material get_fontSharedMaterial()
-    // Offset: 0x1018C48
+    // Offset: 0x1162428
     UnityEngine::Material* get_fontSharedMaterial();
     // public System.Void set_fontSharedMaterial(UnityEngine.Material value)
-    // Offset: 0x1018C50
+    // Offset: 0x1162430
     void set_fontSharedMaterial(UnityEngine::Material* value);
     // public UnityEngine.Material[] get_fontSharedMaterials()
-    // Offset: 0x1018D2C
+    // Offset: 0x116250C
     ::Array<UnityEngine::Material*>* get_fontSharedMaterials();
     // public System.Void set_fontSharedMaterials(UnityEngine.Material[] value)
-    // Offset: 0x1018D3C
+    // Offset: 0x116251C
     void set_fontSharedMaterials(::Array<UnityEngine::Material*>* value);
     // public UnityEngine.Material get_fontMaterial()
-    // Offset: 0x1018D98
+    // Offset: 0x1162578
     UnityEngine::Material* get_fontMaterial();
     // public System.Void set_fontMaterial(UnityEngine.Material value)
-    // Offset: 0x1018DAC
+    // Offset: 0x116258C
     void set_fontMaterial(UnityEngine::Material* value);
     // public UnityEngine.Material[] get_fontMaterials()
-    // Offset: 0x1018EBC
+    // Offset: 0x116269C
     ::Array<UnityEngine::Material*>* get_fontMaterials();
     // public System.Void set_fontMaterials(UnityEngine.Material[] value)
-    // Offset: 0x1018ED0
+    // Offset: 0x11626B0
     void set_fontMaterials(::Array<UnityEngine::Material*>* value);
     // public System.Single get_alpha()
-    // Offset: 0x1018FE8
+    // Offset: 0x11627C8
     float get_alpha();
     // public System.Void set_alpha(System.Single value)
-    // Offset: 0x1018FF0
+    // Offset: 0x11627D0
     void set_alpha(float value);
     // public System.Boolean get_enableVertexGradient()
-    // Offset: 0x101901C
+    // Offset: 0x11627FC
     bool get_enableVertexGradient();
     // public System.Void set_enableVertexGradient(System.Boolean value)
-    // Offset: 0x1019024
+    // Offset: 0x1162804
     void set_enableVertexGradient(bool value);
     // public TMPro.VertexGradient get_colorGradient()
-    // Offset: 0x101905C
+    // Offset: 0x116283C
     TMPro::VertexGradient get_colorGradient();
     // public System.Void set_colorGradient(TMPro.VertexGradient value)
-    // Offset: 0x1019088
+    // Offset: 0x1162868
     void set_colorGradient(TMPro::VertexGradient value);
     // public TMPro.TMP_ColorGradient get_colorGradientPreset()
-    // Offset: 0x10190C8
+    // Offset: 0x11628A8
     TMPro::TMP_ColorGradient* get_colorGradientPreset();
     // public System.Void set_colorGradientPreset(TMPro.TMP_ColorGradient value)
-    // Offset: 0x10190D0
+    // Offset: 0x11628B0
     void set_colorGradientPreset(TMPro::TMP_ColorGradient* value);
     // public TMPro.TMP_SpriteAsset get_spriteAsset()
-    // Offset: 0x10190EC
+    // Offset: 0x11628CC
     TMPro::TMP_SpriteAsset* get_spriteAsset();
     // public System.Void set_spriteAsset(TMPro.TMP_SpriteAsset value)
-    // Offset: 0x10190F4
+    // Offset: 0x11628D4
     void set_spriteAsset(TMPro::TMP_SpriteAsset* value);
     // public System.Boolean get_tintAllSprites()
-    // Offset: 0x1019144
+    // Offset: 0x1162924
     bool get_tintAllSprites();
     // public System.Void set_tintAllSprites(System.Boolean value)
-    // Offset: 0x101914C
+    // Offset: 0x116292C
     void set_tintAllSprites(bool value);
     // public System.Boolean get_overrideColorTags()
-    // Offset: 0x1019184
+    // Offset: 0x1162964
     bool get_overrideColorTags();
     // public System.Void set_overrideColorTags(System.Boolean value)
-    // Offset: 0x101918C
+    // Offset: 0x116296C
     void set_overrideColorTags(bool value);
     // public UnityEngine.Color32 get_faceColor()
-    // Offset: 0x10191C4
+    // Offset: 0x11629A4
     UnityEngine::Color32 get_faceColor();
     // public System.Void set_faceColor(UnityEngine.Color32 value)
-    // Offset: 0x10192A0
+    // Offset: 0x1162A80
     void set_faceColor(UnityEngine::Color32 value);
     // public UnityEngine.Color32 get_outlineColor()
-    // Offset: 0x1019338
+    // Offset: 0x1162B18
     UnityEngine::Color32 get_outlineColor();
     // public System.Void set_outlineColor(UnityEngine.Color32 value)
-    // Offset: 0x1019414
+    // Offset: 0x1162BF4
     void set_outlineColor(UnityEngine::Color32 value);
     // public System.Single get_outlineWidth()
-    // Offset: 0x1019498
+    // Offset: 0x1162C78
     float get_outlineWidth();
     // public System.Void set_outlineWidth(System.Single value)
-    // Offset: 0x1019568
+    // Offset: 0x1162D48
     void set_outlineWidth(float value);
     // public System.Single get_fontSize()
-    // Offset: 0x10195CC
+    // Offset: 0x1162DAC
     float get_fontSize();
     // public System.Void set_fontSize(System.Single value)
-    // Offset: 0x10195D4
+    // Offset: 0x1162DB4
     void set_fontSize(float value);
     // public System.Single get_fontScale()
-    // Offset: 0x1019640
+    // Offset: 0x1162E20
     float get_fontScale();
     // public TMPro.FontWeight get_fontWeight()
-    // Offset: 0x1019648
+    // Offset: 0x1162E28
     TMPro::FontWeight get_fontWeight();
     // public System.Void set_fontWeight(TMPro.FontWeight value)
-    // Offset: 0x1019650
+    // Offset: 0x1162E30
     void set_fontWeight(TMPro::FontWeight value);
     // public System.Single get_pixelsPerUnit()
-    // Offset: 0x10196B0
+    // Offset: 0x1162E90
     float get_pixelsPerUnit();
     // public System.Boolean get_enableAutoSizing()
-    // Offset: 0x1019840
+    // Offset: 0x1163020
     bool get_enableAutoSizing();
     // public System.Void set_enableAutoSizing(System.Boolean value)
-    // Offset: 0x1019848
+    // Offset: 0x1163028
     void set_enableAutoSizing(bool value);
     // public System.Single get_fontSizeMin()
-    // Offset: 0x10198A4
+    // Offset: 0x1163084
     float get_fontSizeMin();
     // public System.Void set_fontSizeMin(System.Single value)
-    // Offset: 0x10198AC
+    // Offset: 0x116308C
     void set_fontSizeMin(float value);
     // public System.Single get_fontSizeMax()
-    // Offset: 0x10198FC
+    // Offset: 0x11630DC
     float get_fontSizeMax();
     // public System.Void set_fontSizeMax(System.Single value)
-    // Offset: 0x1019904
+    // Offset: 0x11630E4
     void set_fontSizeMax(float value);
     // public TMPro.FontStyles get_fontStyle()
-    // Offset: 0x1019954
+    // Offset: 0x1163134
     TMPro::FontStyles get_fontStyle();
     // public System.Void set_fontStyle(TMPro.FontStyles value)
-    // Offset: 0x101995C
+    // Offset: 0x116313C
     void set_fontStyle(TMPro::FontStyles value);
     // public System.Boolean get_isUsingBold()
-    // Offset: 0x10199BC
+    // Offset: 0x116319C
     bool get_isUsingBold();
     // public TMPro.TextAlignmentOptions get_alignment()
-    // Offset: 0x10199C4
+    // Offset: 0x11631A4
     TMPro::TextAlignmentOptions get_alignment();
     // public System.Void set_alignment(TMPro.TextAlignmentOptions value)
-    // Offset: 0x10199CC
+    // Offset: 0x11631AC
     void set_alignment(TMPro::TextAlignmentOptions value);
     // public System.Single get_characterSpacing()
-    // Offset: 0x10199F8
+    // Offset: 0x11631D8
     float get_characterSpacing();
     // public System.Void set_characterSpacing(System.Single value)
-    // Offset: 0x1019A00
+    // Offset: 0x11631E0
     void set_characterSpacing(float value);
     // public System.Single get_wordSpacing()
-    // Offset: 0x1019A5C
+    // Offset: 0x116323C
     float get_wordSpacing();
     // public System.Void set_wordSpacing(System.Single value)
-    // Offset: 0x1019A64
+    // Offset: 0x1163244
     void set_wordSpacing(float value);
     // public System.Single get_lineSpacing()
-    // Offset: 0x1019AC0
+    // Offset: 0x11632A0
     float get_lineSpacing();
     // public System.Void set_lineSpacing(System.Single value)
-    // Offset: 0x1019AC8
+    // Offset: 0x11632A8
     void set_lineSpacing(float value);
     // public System.Single get_lineSpacingAdjustment()
-    // Offset: 0x1019B24
+    // Offset: 0x1163304
     float get_lineSpacingAdjustment();
     // public System.Void set_lineSpacingAdjustment(System.Single value)
-    // Offset: 0x1019B2C
+    // Offset: 0x116330C
     void set_lineSpacingAdjustment(float value);
     // public System.Single get_paragraphSpacing()
-    // Offset: 0x1019B88
+    // Offset: 0x1163368
     float get_paragraphSpacing();
     // public System.Void set_paragraphSpacing(System.Single value)
-    // Offset: 0x1019B90
+    // Offset: 0x1163370
     void set_paragraphSpacing(float value);
     // public System.Single get_characterWidthAdjustment()
-    // Offset: 0x1019BEC
+    // Offset: 0x11633CC
     float get_characterWidthAdjustment();
     // public System.Void set_characterWidthAdjustment(System.Single value)
-    // Offset: 0x1019BF4
+    // Offset: 0x11633D4
     void set_characterWidthAdjustment(float value);
     // public System.Boolean get_enableWordWrapping()
-    // Offset: 0x1019C50
+    // Offset: 0x1163430
     bool get_enableWordWrapping();
     // public System.Void set_enableWordWrapping(System.Boolean value)
-    // Offset: 0x1019C58
+    // Offset: 0x1163438
     void set_enableWordWrapping(bool value);
     // public System.Single get_wordWrappingRatios()
-    // Offset: 0x1019CC4
+    // Offset: 0x11634A4
     float get_wordWrappingRatios();
     // public System.Void set_wordWrappingRatios(System.Single value)
-    // Offset: 0x1019CCC
+    // Offset: 0x11634AC
     void set_wordWrappingRatios(float value);
     // public TMPro.TextOverflowModes get_overflowMode()
-    // Offset: 0x1019D28
+    // Offset: 0x1163508
     TMPro::TextOverflowModes get_overflowMode();
     // public System.Void set_overflowMode(TMPro.TextOverflowModes value)
-    // Offset: 0x1019D30
+    // Offset: 0x1163510
     void set_overflowMode(TMPro::TextOverflowModes value);
     // public System.Boolean get_isTextOverflowing()
-    // Offset: 0x1019D8C
+    // Offset: 0x116356C
     bool get_isTextOverflowing();
     // public System.Int32 get_firstOverflowCharacterIndex()
-    // Offset: 0x1019D9C
+    // Offset: 0x116357C
     int get_firstOverflowCharacterIndex();
     // public TMPro.TMP_Text get_linkedTextComponent()
-    // Offset: 0x1019DA4
+    // Offset: 0x1163584
     TMPro::TMP_Text* get_linkedTextComponent();
     // public System.Void set_linkedTextComponent(TMPro.TMP_Text value)
-    // Offset: 0x1019DAC
+    // Offset: 0x116358C
     void set_linkedTextComponent(TMPro::TMP_Text* value);
     // public System.Boolean get_isLinkedTextComponent()
-    // Offset: 0x101A000
+    // Offset: 0x11637E0
     bool get_isLinkedTextComponent();
     // public System.Void set_isLinkedTextComponent(System.Boolean value)
-    // Offset: 0x1019FA4
+    // Offset: 0x1163784
     void set_isLinkedTextComponent(bool value);
     // public System.Boolean get_isTextTruncated()
-    // Offset: 0x101A008
+    // Offset: 0x11637E8
     bool get_isTextTruncated();
     // public System.Boolean get_enableKerning()
-    // Offset: 0x101A010
+    // Offset: 0x11637F0
     bool get_enableKerning();
     // public System.Void set_enableKerning(System.Boolean value)
-    // Offset: 0x101A018
+    // Offset: 0x11637F8
     void set_enableKerning(bool value);
     // public System.Boolean get_extraPadding()
-    // Offset: 0x101A080
+    // Offset: 0x1163860
     bool get_extraPadding();
     // public System.Void set_extraPadding(System.Boolean value)
-    // Offset: 0x101A088
+    // Offset: 0x1163868
     void set_extraPadding(bool value);
     // public System.Boolean get_richText()
-    // Offset: 0x101A0EC
+    // Offset: 0x11638CC
     bool get_richText();
     // public System.Void set_richText(System.Boolean value)
-    // Offset: 0x101A0F4
+    // Offset: 0x11638D4
     void set_richText(bool value);
     // public System.Boolean get_parseCtrlCharacters()
-    // Offset: 0x101A160
+    // Offset: 0x1163940
     bool get_parseCtrlCharacters();
     // public System.Void set_parseCtrlCharacters(System.Boolean value)
-    // Offset: 0x101A168
+    // Offset: 0x1163948
     void set_parseCtrlCharacters(bool value);
     // public System.Boolean get_isOverlay()
-    // Offset: 0x101A1D4
+    // Offset: 0x11639B4
     bool get_isOverlay();
     // public System.Void set_isOverlay(System.Boolean value)
-    // Offset: 0x101A1DC
+    // Offset: 0x11639BC
     void set_isOverlay(bool value);
     // public System.Boolean get_isOrthographic()
-    // Offset: 0x101A240
+    // Offset: 0x1163A20
     bool get_isOrthographic();
     // public System.Void set_isOrthographic(System.Boolean value)
-    // Offset: 0x101A248
+    // Offset: 0x1163A28
     void set_isOrthographic(bool value);
     // public System.Boolean get_enableCulling()
-    // Offset: 0x101A280
+    // Offset: 0x1163A60
     bool get_enableCulling();
     // public System.Void set_enableCulling(System.Boolean value)
-    // Offset: 0x101A288
+    // Offset: 0x1163A68
     void set_enableCulling(bool value);
     // public System.Boolean get_ignoreRectMaskCulling()
-    // Offset: 0x101A2D8
+    // Offset: 0x1163AB8
     bool get_ignoreRectMaskCulling();
     // public System.Void set_ignoreRectMaskCulling(System.Boolean value)
-    // Offset: 0x101A2E0
+    // Offset: 0x1163AC0
     void set_ignoreRectMaskCulling(bool value);
     // public System.Boolean get_ignoreVisibility()
-    // Offset: 0x101A308
+    // Offset: 0x1163AE8
     bool get_ignoreVisibility();
     // public System.Void set_ignoreVisibility(System.Boolean value)
-    // Offset: 0x101A310
+    // Offset: 0x1163AF0
     void set_ignoreVisibility(bool value);
     // public TMPro.TextureMappingOptions get_horizontalMapping()
-    // Offset: 0x101A338
+    // Offset: 0x1163B18
     TMPro::TextureMappingOptions get_horizontalMapping();
     // public System.Void set_horizontalMapping(TMPro.TextureMappingOptions value)
-    // Offset: 0x101A340
+    // Offset: 0x1163B20
     void set_horizontalMapping(TMPro::TextureMappingOptions value);
     // public TMPro.TextureMappingOptions get_verticalMapping()
-    // Offset: 0x101A36C
+    // Offset: 0x1163B4C
     TMPro::TextureMappingOptions get_verticalMapping();
     // public System.Void set_verticalMapping(TMPro.TextureMappingOptions value)
-    // Offset: 0x101A374
+    // Offset: 0x1163B54
     void set_verticalMapping(TMPro::TextureMappingOptions value);
     // public System.Single get_mappingUvLineOffset()
-    // Offset: 0x101A3A0
+    // Offset: 0x1163B80
     float get_mappingUvLineOffset();
     // public System.Void set_mappingUvLineOffset(System.Single value)
-    // Offset: 0x101A3A8
+    // Offset: 0x1163B88
     void set_mappingUvLineOffset(float value);
     // public TMPro.TextRenderFlags get_renderMode()
-    // Offset: 0x101A3D4
+    // Offset: 0x1163BB4
     TMPro::TextRenderFlags get_renderMode();
     // public System.Void set_renderMode(TMPro.TextRenderFlags value)
-    // Offset: 0x101A3DC
+    // Offset: 0x1163BBC
     void set_renderMode(TMPro::TextRenderFlags value);
     // public TMPro.VertexSortingOrder get_geometrySortingOrder()
-    // Offset: 0x101A3F8
+    // Offset: 0x1163BD8
     TMPro::VertexSortingOrder get_geometrySortingOrder();
     // public System.Void set_geometrySortingOrder(TMPro.VertexSortingOrder value)
-    // Offset: 0x101A400
+    // Offset: 0x1163BE0
     void set_geometrySortingOrder(TMPro::VertexSortingOrder value);
     // public System.Boolean get_vertexBufferAutoSizeReduction()
-    // Offset: 0x101A41C
+    // Offset: 0x1163BFC
     bool get_vertexBufferAutoSizeReduction();
     // public System.Void set_vertexBufferAutoSizeReduction(System.Boolean value)
-    // Offset: 0x101A424
+    // Offset: 0x1163C04
     void set_vertexBufferAutoSizeReduction(bool value);
     // public System.Int32 get_firstVisibleCharacter()
-    // Offset: 0x101A444
+    // Offset: 0x1163C24
     int get_firstVisibleCharacter();
     // public System.Void set_firstVisibleCharacter(System.Int32 value)
-    // Offset: 0x101A44C
+    // Offset: 0x1163C2C
     void set_firstVisibleCharacter(int value);
     // public System.Int32 get_maxVisibleCharacters()
-    // Offset: 0x101A478
+    // Offset: 0x1163C58
     int get_maxVisibleCharacters();
     // public System.Void set_maxVisibleCharacters(System.Int32 value)
-    // Offset: 0x101A480
+    // Offset: 0x1163C60
     void set_maxVisibleCharacters(int value);
     // public System.Int32 get_maxVisibleWords()
-    // Offset: 0x101A4AC
+    // Offset: 0x1163C8C
     int get_maxVisibleWords();
     // public System.Void set_maxVisibleWords(System.Int32 value)
-    // Offset: 0x101A4B4
+    // Offset: 0x1163C94
     void set_maxVisibleWords(int value);
     // public System.Int32 get_maxVisibleLines()
-    // Offset: 0x101A4E0
+    // Offset: 0x1163CC0
     int get_maxVisibleLines();
     // public System.Void set_maxVisibleLines(System.Int32 value)
-    // Offset: 0x101A4E8
+    // Offset: 0x1163CC8
     void set_maxVisibleLines(int value);
     // public System.Boolean get_useMaxVisibleDescender()
-    // Offset: 0x101A518
+    // Offset: 0x1163CF8
     bool get_useMaxVisibleDescender();
     // public System.Void set_useMaxVisibleDescender(System.Boolean value)
-    // Offset: 0x101A520
+    // Offset: 0x1163D00
     void set_useMaxVisibleDescender(bool value);
     // public System.Int32 get_pageToDisplay()
-    // Offset: 0x101A554
+    // Offset: 0x1163D34
     int get_pageToDisplay();
     // public System.Void set_pageToDisplay(System.Int32 value)
-    // Offset: 0x101A55C
+    // Offset: 0x1163D3C
     void set_pageToDisplay(int value);
     // public UnityEngine.Vector4 get_margin()
-    // Offset: 0x101A588
+    // Offset: 0x1163D68
     UnityEngine::Vector4 get_margin();
     // public System.Void set_margin(UnityEngine.Vector4 value)
-    // Offset: 0x101A59C
+    // Offset: 0x1163D7C
     void set_margin(UnityEngine::Vector4 value);
     // public TMPro.TMP_TextInfo get_textInfo()
-    // Offset: 0x101A6C0
+    // Offset: 0x1163EA0
     TMPro::TMP_TextInfo* get_textInfo();
     // public System.Boolean get_havePropertiesChanged()
-    // Offset: 0x101A6C8
+    // Offset: 0x1163EA8
     bool get_havePropertiesChanged();
     // public System.Void set_havePropertiesChanged(System.Boolean value)
-    // Offset: 0x1017330
+    // Offset: 0x1160B10
     void set_havePropertiesChanged(bool value);
     // public System.Boolean get_isUsingLegacyAnimationComponent()
-    // Offset: 0x101A6D0
+    // Offset: 0x1163EB0
     bool get_isUsingLegacyAnimationComponent();
     // public System.Void set_isUsingLegacyAnimationComponent(System.Boolean value)
-    // Offset: 0x101A6D8
+    // Offset: 0x1163EB8
     void set_isUsingLegacyAnimationComponent(bool value);
     // public System.Boolean get_autoSizeTextContainer()
-    // Offset: 0x101A6E4
+    // Offset: 0x1163EC4
     bool get_autoSizeTextContainer();
     // public System.Void set_autoSizeTextContainer(System.Boolean value)
-    // Offset: 0x101A6EC
+    // Offset: 0x1163ECC
     void set_autoSizeTextContainer(bool value);
     // public UnityEngine.Mesh get_mesh()
-    // Offset: 0x101A6F8
+    // Offset: 0x1163ED8
     UnityEngine::Mesh* get_mesh();
     // public System.Boolean get_isVolumetricText()
-    // Offset: 0x101A700
+    // Offset: 0x1163EE0
     bool get_isVolumetricText();
     // public System.Void set_isVolumetricText(System.Boolean value)
-    // Offset: 0x101A708
+    // Offset: 0x1163EE8
     void set_isVolumetricText(bool value);
     // public UnityEngine.Bounds get_bounds()
-    // Offset: 0x101A78C
+    // Offset: 0x1163F6C
     UnityEngine::Bounds get_bounds();
     // public UnityEngine.Bounds get_textBounds()
-    // Offset: 0x101A83C
+    // Offset: 0x116401C
     UnityEngine::Bounds get_textBounds();
     // protected TMPro.TMP_SpriteAnimator get_spriteAnimator()
-    // Offset: 0x101AB14
+    // Offset: 0x11642F4
     TMPro::TMP_SpriteAnimator* get_spriteAnimator();
     // public System.Single get_flexibleHeight()
-    // Offset: 0x101AC08
+    // Offset: 0x11643E8
     float get_flexibleHeight();
     // public System.Single get_flexibleWidth()
-    // Offset: 0x101AC10
+    // Offset: 0x11643F0
     float get_flexibleWidth();
     // public System.Single get_minWidth()
-    // Offset: 0x101AC18
+    // Offset: 0x11643F8
     float get_minWidth();
     // public System.Single get_minHeight()
-    // Offset: 0x101AC20
+    // Offset: 0x1164400
     float get_minHeight();
     // public System.Single get_maxWidth()
-    // Offset: 0x101AC28
+    // Offset: 0x1164408
     float get_maxWidth();
     // public System.Single get_maxHeight()
-    // Offset: 0x101AC30
+    // Offset: 0x1164410
     float get_maxHeight();
     // protected UnityEngine.UI.LayoutElement get_layoutElement()
-    // Offset: 0x101AC38
+    // Offset: 0x1164418
     UnityEngine::UI::LayoutElement* get_layoutElement();
     // public System.Single get_preferredWidth()
-    // Offset: 0x101ACD0
+    // Offset: 0x11644B0
     float get_preferredWidth();
     // public System.Single get_preferredHeight()
-    // Offset: 0x101AE44
+    // Offset: 0x1164624
     float get_preferredHeight();
     // public System.Single get_renderedWidth()
-    // Offset: 0x101B000
+    // Offset: 0x11647E0
     float get_renderedWidth();
     // public System.Single get_renderedHeight()
-    // Offset: 0x101B008
+    // Offset: 0x11647E8
     float get_renderedHeight();
     // public System.Int32 get_layoutPriority()
-    // Offset: 0x101B038
+    // Offset: 0x1164818
     int get_layoutPriority();
     // protected System.Void LoadFontAsset()
-    // Offset: 0x101B040
+    // Offset: 0x1164820
     void LoadFontAsset();
     // protected System.Void SetSharedMaterial(UnityEngine.Material mat)
-    // Offset: 0x101B044
+    // Offset: 0x1164824
     void SetSharedMaterial(UnityEngine::Material* mat);
     // protected UnityEngine.Material GetMaterial(UnityEngine.Material mat)
-    // Offset: 0x101B048
+    // Offset: 0x1164828
     UnityEngine::Material* GetMaterial(UnityEngine::Material* mat);
     // protected System.Void SetFontBaseMaterial(UnityEngine.Material mat)
-    // Offset: 0x101B050
+    // Offset: 0x1164830
     void SetFontBaseMaterial(UnityEngine::Material* mat);
     // protected UnityEngine.Material[] GetSharedMaterials()
-    // Offset: 0x101B054
+    // Offset: 0x1164834
     ::Array<UnityEngine::Material*>* GetSharedMaterials();
     // protected System.Void SetSharedMaterials(UnityEngine.Material[] materials)
-    // Offset: 0x101B05C
+    // Offset: 0x116483C
     void SetSharedMaterials(::Array<UnityEngine::Material*>* materials);
     // protected UnityEngine.Material[] GetMaterials(UnityEngine.Material[] mats)
-    // Offset: 0x101B060
+    // Offset: 0x1164840
     ::Array<UnityEngine::Material*>* GetMaterials(::Array<UnityEngine::Material*>* mats);
     // protected UnityEngine.Material CreateMaterialInstance(UnityEngine.Material source)
-    // Offset: 0x101B068
+    // Offset: 0x1164848
     UnityEngine::Material* CreateMaterialInstance(UnityEngine::Material* source);
     // protected System.Void SetVertexColorGradient(TMPro.TMP_ColorGradient gradient)
-    // Offset: 0x101B124
+    // Offset: 0x1164904
     void SetVertexColorGradient(TMPro::TMP_ColorGradient* gradient);
     // protected System.Void SetTextSortingOrder(TMPro.VertexSortingOrder order)
-    // Offset: 0x101B1FC
+    // Offset: 0x11649DC
     void SetTextSortingOrder(TMPro::VertexSortingOrder order);
     // protected System.Void SetTextSortingOrder(System.Int32[] order)
-    // Offset: 0x101B200
+    // Offset: 0x11649E0
     void SetTextSortingOrder(::Array<int>* order);
     // protected System.Void SetFaceColor(UnityEngine.Color32 color)
-    // Offset: 0x101B204
+    // Offset: 0x11649E4
     void SetFaceColor(UnityEngine::Color32 color);
     // protected System.Void SetOutlineColor(UnityEngine.Color32 color)
-    // Offset: 0x101B208
+    // Offset: 0x11649E8
     void SetOutlineColor(UnityEngine::Color32 color);
     // protected System.Void SetOutlineThickness(System.Single thickness)
-    // Offset: 0x101B20C
+    // Offset: 0x11649EC
     void SetOutlineThickness(float thickness);
     // protected System.Void SetShaderDepth()
-    // Offset: 0x101B210
+    // Offset: 0x11649F0
     void SetShaderDepth();
     // protected System.Void SetCulling()
-    // Offset: 0x101B214
+    // Offset: 0x11649F4
     void SetCulling();
     // protected System.Single GetPaddingForMaterial()
-    // Offset: 0x101B218
+    // Offset: 0x11649F8
     float GetPaddingForMaterial();
     // protected System.Single GetPaddingForMaterial(UnityEngine.Material mat)
-    // Offset: 0x101B220
+    // Offset: 0x1164A00
     float GetPaddingForMaterial(UnityEngine::Material* mat);
     // protected UnityEngine.Vector3[] GetTextContainerLocalCorners()
-    // Offset: 0x101B228
+    // Offset: 0x1164A08
     ::Array<UnityEngine::Vector3>* GetTextContainerLocalCorners();
     // public System.Void ForceMeshUpdate()
-    // Offset: 0x101B230
+    // Offset: 0x1164A10
     void ForceMeshUpdate();
     // public System.Void ForceMeshUpdate(System.Boolean ignoreActiveState)
-    // Offset: 0x101B234
+    // Offset: 0x1164A14
     void ForceMeshUpdate(bool ignoreActiveState);
     // System.Void SetTextInternal(System.String text)
-    // Offset: 0x101B238
+    // Offset: 0x1164A18
     void SetTextInternal(::Il2CppString* text);
     // public System.Void UpdateGeometry(UnityEngine.Mesh mesh, System.Int32 index)
-    // Offset: 0x101B27C
+    // Offset: 0x1164A5C
     void UpdateGeometry(UnityEngine::Mesh* mesh, int index);
     // public System.Void UpdateVertexData(TMPro.TMP_VertexDataUpdateFlags flags)
-    // Offset: 0x101B280
+    // Offset: 0x1164A60
     void UpdateVertexData(TMPro::TMP_VertexDataUpdateFlags flags);
     // public System.Void UpdateVertexData()
-    // Offset: 0x101B284
+    // Offset: 0x1164A64
     void UpdateVertexData();
     // public System.Void SetVertices(UnityEngine.Vector3[] vertices)
-    // Offset: 0x101B288
+    // Offset: 0x1164A68
     void SetVertices(::Array<UnityEngine::Vector3>* vertices);
     // public System.Void UpdateMeshPadding()
-    // Offset: 0x101B28C
+    // Offset: 0x1164A6C
     void UpdateMeshPadding();
     // protected System.Void InternalCrossFadeColor(UnityEngine.Color targetColor, System.Single duration, System.Boolean ignoreTimeScale, System.Boolean useAlpha)
-    // Offset: 0x101B37C
+    // Offset: 0x1164B5C
     void InternalCrossFadeColor(UnityEngine::Color targetColor, float duration, bool ignoreTimeScale, bool useAlpha);
     // protected System.Void InternalCrossFadeAlpha(System.Single alpha, System.Single duration, System.Boolean ignoreTimeScale)
-    // Offset: 0x101B380
+    // Offset: 0x1164B60
     void InternalCrossFadeAlpha(float alpha, float duration, bool ignoreTimeScale);
     // protected System.Void ParseInputText()
-    // Offset: 0x101B384
+    // Offset: 0x1164B64
     void ParseInputText();
     // public System.Void SetText(System.String text)
-    // Offset: 0x101C0F0
+    // Offset: 0x11658D0
     void SetText(::Il2CppString* text);
     // public System.Void SetText(System.String text, System.Boolean syncTextInputBox)
-    // Offset: 0x101C0F8
+    // Offset: 0x11658D8
     void SetText(::Il2CppString* text, bool syncTextInputBox);
     // public System.Void SetText(System.String text, System.Single arg0)
-    // Offset: 0x101C158
+    // Offset: 0x1165938
     void SetText(::Il2CppString* text, float arg0);
     // public System.Void SetText(System.String text, System.Single arg0, System.Single arg1)
-    // Offset: 0x101C35C
+    // Offset: 0x1165B3C
     void SetText(::Il2CppString* text, float arg0, float arg1);
     // public System.Void SetText(System.String text, System.Single arg0, System.Single arg1, System.Single arg2)
-    // Offset: 0x101C168
+    // Offset: 0x1165948
     void SetText(::Il2CppString* text, float arg0, float arg1, float arg2);
     // public System.Void SetText(System.Text.StringBuilder text)
-    // Offset: 0x101C528
+    // Offset: 0x1165D20
     void SetText(System::Text::StringBuilder* text);
     // public System.Void SetCharArray(System.Char[] sourceText)
-    // Offset: 0x101CCAC
+    // Offset: 0x11664A4
     void SetCharArray(::Array<::Il2CppChar>* sourceText);
     // public System.Void SetCharArray(System.Char[] sourceText, System.Int32 start, System.Int32 length)
-    // Offset: 0x101D6B0
+    // Offset: 0x1166EA8
     void SetCharArray(::Array<::Il2CppChar>* sourceText, int start, int length);
     // public System.Void SetCharArray(System.Int32[] sourceText, System.Int32 start, System.Int32 length)
-    // Offset: 0x101DAB8
+    // Offset: 0x11672B0
     void SetCharArray(::Array<int>* sourceText, int start, int length);
     // protected System.Void SetTextArrayToCharArray(System.Char[] sourceText, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer)
-    // Offset: 0x101BCF8
+    // Offset: 0x11654D8
     void SetTextArrayToCharArray(::Array<::Il2CppChar>* sourceText, ByRef<::Array<TMPro::TMP_Text::UnicodeChar>*> charBuffer);
     // protected System.Void StringToCharArray(System.String sourceText, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer)
-    // Offset: 0x101B3F4
+    // Offset: 0x1164BD4
     void StringToCharArray(::Il2CppString* sourceText, ByRef<::Array<TMPro::TMP_Text::UnicodeChar>*> charBuffer);
     // protected System.Void StringBuilderToIntArray(System.Text.StringBuilder sourceText, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer)
-    // Offset: 0x101C588
+    // Offset: 0x1165D80
     void StringBuilderToIntArray(System::Text::StringBuilder* sourceText, ByRef<::Array<TMPro::TMP_Text::UnicodeChar>*> charBuffer);
     // private System.Boolean ReplaceOpeningStyleTag(ref System.String sourceText, System.Int32 srcIndex, out System.Int32 srcOffset, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer, ref System.Int32 writeIndex)
-    // Offset: 0x101E7C4
+    // Offset: 0x1167FBC
     bool ReplaceOpeningStyleTag(ByRef<::Il2CppString*> sourceText, int srcIndex, ByRef<int> srcOffset, ByRef<::Array<TMPro::TMP_Text::UnicodeChar>*> charBuffer, ByRef<int> writeIndex);
     // private System.Boolean ReplaceOpeningStyleTag(ref System.Int32[] sourceText, System.Int32 srcIndex, out System.Int32 srcOffset, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer, ref System.Int32 writeIndex)
-    // Offset: 0x101DFF4
+    // Offset: 0x11677EC
     bool ReplaceOpeningStyleTag(ByRef<::Array<int>*> sourceText, int srcIndex, ByRef<int> srcOffset, ByRef<::Array<TMPro::TMP_Text::UnicodeChar>*> charBuffer, ByRef<int> writeIndex);
     // private System.Boolean ReplaceOpeningStyleTag(ref System.Char[] sourceText, System.Int32 srcIndex, out System.Int32 srcOffset, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer, ref System.Int32 writeIndex)
-    // Offset: 0x101D1E0
+    // Offset: 0x11669D8
     bool ReplaceOpeningStyleTag(ByRef<::Array<::Il2CppChar>*> sourceText, int srcIndex, ByRef<int> srcOffset, ByRef<::Array<TMPro::TMP_Text::UnicodeChar>*> charBuffer, ByRef<int> writeIndex);
     // private System.Boolean ReplaceOpeningStyleTag(ref System.Text.StringBuilder sourceText, System.Int32 srcIndex, out System.Int32 srcOffset, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer, ref System.Int32 writeIndex)
-    // Offset: 0x101EF98
+    // Offset: 0x1168790
     bool ReplaceOpeningStyleTag(ByRef<System::Text::StringBuilder*> sourceText, int srcIndex, ByRef<int> srcOffset, ByRef<::Array<TMPro::TMP_Text::UnicodeChar>*> charBuffer, ByRef<int> writeIndex);
     // private System.Boolean ReplaceClosingStyleTag(ref System.String sourceText, System.Int32 srcIndex, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer, ref System.Int32 writeIndex)
-    // Offset: 0x101EA34
+    // Offset: 0x116822C
     bool ReplaceClosingStyleTag(ByRef<::Il2CppString*> sourceText, int srcIndex, ByRef<::Array<TMPro::TMP_Text::UnicodeChar>*> charBuffer, ByRef<int> writeIndex);
     // private System.Boolean ReplaceClosingStyleTag(ref System.Int32[] sourceText, System.Int32 srcIndex, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer, ref System.Int32 writeIndex)
-    // Offset: 0x101E264
+    // Offset: 0x1167A5C
     bool ReplaceClosingStyleTag(ByRef<::Array<int>*> sourceText, int srcIndex, ByRef<::Array<TMPro::TMP_Text::UnicodeChar>*> charBuffer, ByRef<int> writeIndex);
     // private System.Boolean ReplaceClosingStyleTag(ref System.Char[] sourceText, System.Int32 srcIndex, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer, ref System.Int32 writeIndex)
-    // Offset: 0x101D450
+    // Offset: 0x1166C48
     bool ReplaceClosingStyleTag(ByRef<::Array<::Il2CppChar>*> sourceText, int srcIndex, ByRef<::Array<TMPro::TMP_Text::UnicodeChar>*> charBuffer, ByRef<int> writeIndex);
     // private System.Boolean ReplaceClosingStyleTag(ref System.Text.StringBuilder sourceText, System.Int32 srcIndex, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer, ref System.Int32 writeIndex)
-    // Offset: 0x101F208
+    // Offset: 0x1168A00
     bool ReplaceClosingStyleTag(ByRef<System::Text::StringBuilder*> sourceText, int srcIndex, ByRef<::Array<TMPro::TMP_Text::UnicodeChar>*> charBuffer, ByRef<int> writeIndex);
     // private System.Boolean IsTagName(ref System.String text, System.String tag, System.Int32 index)
-    // Offset: 0x101E6BC
+    // Offset: 0x1167EB4
     bool IsTagName(ByRef<::Il2CppString*> text, ::Il2CppString* tag, int index);
     // private System.Boolean IsTagName(ref System.Char[] text, System.String tag, System.Int32 index)
-    // Offset: 0x101D0B0
+    // Offset: 0x11668A8
     bool IsTagName(ByRef<::Array<::Il2CppChar>*> text, ::Il2CppString* tag, int index);
     // private System.Boolean IsTagName(ref System.Int32[] text, System.String tag, System.Int32 index)
-    // Offset: 0x101DEC4
+    // Offset: 0x11676BC
     bool IsTagName(ByRef<::Array<int>*> text, ::Il2CppString* tag, int index);
     // private System.Boolean IsTagName(ref System.Text.StringBuilder text, System.String tag, System.Int32 index)
-    // Offset: 0x101EE8C
+    // Offset: 0x1168684
     bool IsTagName(ByRef<System::Text::StringBuilder*> text, ::Il2CppString* tag, int index);
     // private System.Int32 GetTagHashCode(ref System.String text, System.Int32 index, out System.Int32 closeIndex)
-    // Offset: 0x101F468
+    // Offset: 0x1168C60
     int GetTagHashCode(ByRef<::Il2CppString*> text, int index, ByRef<int> closeIndex);
     // private System.Int32 GetTagHashCode(ref System.Char[] text, System.Int32 index, out System.Int32 closeIndex)
-    // Offset: 0x101F5A0
+    // Offset: 0x1168D98
     int GetTagHashCode(ByRef<::Array<::Il2CppChar>*> text, int index, ByRef<int> closeIndex);
     // private System.Int32 GetTagHashCode(ref System.Int32[] text, System.Int32 index, out System.Int32 closeIndex)
-    // Offset: 0x101F520
+    // Offset: 0x1168D18
     int GetTagHashCode(ByRef<::Array<int>*> text, int index, ByRef<int> closeIndex);
     // private System.Int32 GetTagHashCode(ref System.Text.StringBuilder text, System.Int32 index, out System.Int32 closeIndex)
-    // Offset: 0x101F620
+    // Offset: 0x1168E18
     int GetTagHashCode(ByRef<System::Text::StringBuilder*> text, int index, ByRef<int> closeIndex);
     // private System.Void ResizeInternalArray(ref T[] array)
     // Offset: 0xFFFFFFFF
@@ -2818,204 +2818,204 @@ namespace TMPro {
       ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, byref(array));
     }
     // protected System.Void AddFloatToCharArray(System.Double number, ref System.Int32 index, System.Int32 precision)
-    // Offset: 0x101C368
+    // Offset: 0x1165B48
     void AddFloatToCharArray(double number, ByRef<int> index, int precision);
     // protected System.Void AddIntToCharArray(System.Double number, ref System.Int32 index, System.Int32 precision)
-    // Offset: 0x101F6E4
+    // Offset: 0x1168EDC
     void AddIntToCharArray(double number, ByRef<int> index, int precision);
     // protected System.Int32 SetArraySizes(TMPro.TMP_Text/TMPro.UnicodeChar[] chars)
-    // Offset: 0x101F850
+    // Offset: 0x1169048
     int SetArraySizes(::Array<TMPro::TMP_Text::UnicodeChar>* chars);
     // protected System.Void GenerateTextMesh()
-    // Offset: 0x101F858
+    // Offset: 0x1169050
     void GenerateTextMesh();
     // public UnityEngine.Vector2 GetPreferredValues()
-    // Offset: 0x101F85C
+    // Offset: 0x1169054
     UnityEngine::Vector2 GetPreferredValues();
     // public UnityEngine.Vector2 GetPreferredValues(System.Single width, System.Single height)
-    // Offset: 0x101F8D8
+    // Offset: 0x11690D0
     UnityEngine::Vector2 GetPreferredValues(float width, float height);
     // public UnityEngine.Vector2 GetPreferredValues(System.String text)
-    // Offset: 0x101FAC8
+    // Offset: 0x11692C0
     UnityEngine::Vector2 GetPreferredValues(::Il2CppString* text);
     // public UnityEngine.Vector2 GetPreferredValues(System.String text, System.Single width, System.Single height)
-    // Offset: 0x101FC48
+    // Offset: 0x1169440
     UnityEngine::Vector2 GetPreferredValues(::Il2CppString* text, float width, float height);
     // protected System.Single GetPreferredWidth()
-    // Offset: 0x101AD08
+    // Offset: 0x11644E8
     float GetPreferredWidth();
     // protected System.Single GetPreferredWidth(UnityEngine.Vector2 margin)
-    // Offset: 0x101FA04
+    // Offset: 0x11691FC
     float GetPreferredWidth(UnityEngine::Vector2 margin);
     // protected System.Single GetPreferredHeight()
-    // Offset: 0x101AE7C
+    // Offset: 0x116465C
     float GetPreferredHeight();
     // protected System.Single GetPreferredHeight(UnityEngine.Vector2 margin)
-    // Offset: 0x101FA5C
+    // Offset: 0x1169254
     float GetPreferredHeight(UnityEngine::Vector2 margin);
     // public UnityEngine.Vector2 GetRenderedValues()
-    // Offset: 0x101FD7C
+    // Offset: 0x1169574
     UnityEngine::Vector2 GetRenderedValues();
     // public UnityEngine.Vector2 GetRenderedValues(System.Boolean onlyVisibleCharacters)
-    // Offset: 0x101FE44
+    // Offset: 0x116963C
     UnityEngine::Vector2 GetRenderedValues(bool onlyVisibleCharacters);
     // protected System.Single GetRenderedWidth()
-    // Offset: 0x101B004
+    // Offset: 0x11647E4
     float GetRenderedWidth();
     // protected System.Single GetRenderedWidth(System.Boolean onlyVisibleCharacters)
-    // Offset: 0x1020228
+    // Offset: 0x1169A20
     float GetRenderedWidth(bool onlyVisibleCharacters);
     // protected System.Single GetRenderedHeight()
-    // Offset: 0x101B020
+    // Offset: 0x1164800
     float GetRenderedHeight();
     // protected System.Single GetRenderedHeight(System.Boolean onlyVisibleCharacters)
-    // Offset: 0x1020230
+    // Offset: 0x1169A28
     float GetRenderedHeight(bool onlyVisibleCharacters);
     // protected UnityEngine.Vector2 CalculatePreferredValues(System.Single defaultFontSize, UnityEngine.Vector2 marginSize, System.Boolean ignoreTextAutoSizing)
-    // Offset: 0x102024C
+    // Offset: 0x1169A44
     UnityEngine::Vector2 CalculatePreferredValues(float defaultFontSize, UnityEngine::Vector2 marginSize, bool ignoreTextAutoSizing);
     // protected UnityEngine.Bounds GetCompoundBounds()
-    // Offset: 0x1026D48
+    // Offset: 0x1170618
     UnityEngine::Bounds GetCompoundBounds();
     // protected UnityEngine.Bounds GetTextBounds()
-    // Offset: 0x101A854
+    // Offset: 0x1164034
     UnityEngine::Bounds GetTextBounds();
     // protected UnityEngine.Bounds GetTextBounds(System.Boolean onlyVisibleCharacters)
-    // Offset: 0x101FF1C
+    // Offset: 0x1169714
     UnityEngine::Bounds GetTextBounds(bool onlyVisibleCharacters);
     // protected System.Void AdjustLineOffset(System.Int32 startIndex, System.Int32 endIndex, System.Single offset)
-    // Offset: 0x1026D54
+    // Offset: 0x1170624
     void AdjustLineOffset(int startIndex, int endIndex, float offset);
     // protected System.Void ResizeLineExtents(System.Int32 size)
-    // Offset: 0x1026D58
+    // Offset: 0x1170628
     void ResizeLineExtents(int size);
     // public TMPro.TMP_TextInfo GetTextInfo(System.String text)
-    // Offset: 0x1026F3C
+    // Offset: 0x117080C
     TMPro::TMP_TextInfo* GetTextInfo(::Il2CppString* text);
     // public System.Void ComputeMarginSize()
-    // Offset: 0x1026F44
+    // Offset: 0x1170814
     void ComputeMarginSize();
     // protected System.Void SaveWordWrappingState(ref TMPro.WordWrapState state, System.Int32 index, System.Int32 count)
-    // Offset: 0x10220AC
+    // Offset: 0x116B904
     void SaveWordWrappingState(ByRef<TMPro::WordWrapState> state, int index, int count);
     // protected System.Int32 RestoreWordWrappingState(ref TMPro.WordWrapState state)
-    // Offset: 0x1026A78
+    // Offset: 0x1170348
     int RestoreWordWrappingState(ByRef<TMPro::WordWrapState> state);
     // protected System.Void SaveGlyphVertexInfo(System.Single padding, System.Single style_padding, UnityEngine.Color32 vertexColor)
-    // Offset: 0x1026F48
+    // Offset: 0x1170818
     void SaveGlyphVertexInfo(float padding, float style_padding, UnityEngine::Color32 vertexColor);
     // protected System.Void SaveSpriteVertexInfo(UnityEngine.Color32 vertexColor)
-    // Offset: 0x1027948
+    // Offset: 0x1171218
     void SaveSpriteVertexInfo(UnityEngine::Color32 vertexColor);
     // protected System.Void FillCharacterVertexBuffers(System.Int32 i, System.Int32 index_X4)
-    // Offset: 0x1028178
+    // Offset: 0x1171A48
     void FillCharacterVertexBuffers(int i, int index_X4);
     // protected System.Void FillCharacterVertexBuffers(System.Int32 i, System.Int32 index_X4, System.Boolean isVolumetric)
-    // Offset: 0x10287E4
+    // Offset: 0x11720B4
     void FillCharacterVertexBuffers(int i, int index_X4, bool isVolumetric);
     // protected System.Void FillSpriteVertexBuffers(System.Int32 i, System.Int32 index_X4)
-    // Offset: 0x10295C0
+    // Offset: 0x1172E90
     void FillSpriteVertexBuffers(int i, int index_X4);
     // protected System.Void DrawUnderlineMesh(UnityEngine.Vector3 start, UnityEngine.Vector3 end, ref System.Int32 index, System.Single startScale, System.Single endScale, System.Single maxScale, System.Single sdfScale, UnityEngine.Color32 underlineColor)
-    // Offset: 0x1029C2C
+    // Offset: 0x11734FC
     void DrawUnderlineMesh(UnityEngine::Vector3 start, UnityEngine::Vector3 end, ByRef<int> index, float startScale, float endScale, float maxScale, float sdfScale, UnityEngine::Color32 underlineColor);
     // protected System.Void DrawTextHighlight(UnityEngine.Vector3 start, UnityEngine.Vector3 end, ref System.Int32 index, UnityEngine.Color32 highlightColor)
-    // Offset: 0x102ADD0
+    // Offset: 0x1174710
     void DrawTextHighlight(UnityEngine::Vector3 start, UnityEngine::Vector3 end, ByRef<int> index, UnityEngine::Color32 highlightColor);
     // protected System.Void LoadDefaultSettings()
-    // Offset: 0x102B32C
+    // Offset: 0x1174C6C
     void LoadDefaultSettings();
     // protected System.Void GetSpecialCharacters(TMPro.TMP_FontAsset fontAsset)
-    // Offset: 0x102B4F0
+    // Offset: 0x1174E30
     void GetSpecialCharacters(TMPro::TMP_FontAsset* fontAsset);
     // protected System.Void ReplaceTagWithCharacter(System.Int32[] chars, System.Int32 insertionIndex, System.Int32 tagLength, System.Char c)
-    // Offset: 0x102B74C
+    // Offset: 0x117508C
     void ReplaceTagWithCharacter(::Array<int>* chars, int insertionIndex, int tagLength, ::Il2CppChar c);
     // protected TMPro.TMP_FontAsset GetFontAssetForWeight(System.Int32 fontWeight)
-    // Offset: 0x102B7D0
+    // Offset: 0x1175110
     TMPro::TMP_FontAsset* GetFontAssetForWeight(int fontWeight);
     // protected System.Void SetActiveSubMeshes(System.Boolean state)
-    // Offset: 0x102B854
+    // Offset: 0x1175194
     void SetActiveSubMeshes(bool state);
     // protected System.Void ClearSubMeshObjects()
-    // Offset: 0x102B858
+    // Offset: 0x1175198
     void ClearSubMeshObjects();
     // public System.Void ClearMesh()
-    // Offset: 0x102B85C
+    // Offset: 0x117519C
     void ClearMesh();
     // public System.Void ClearMesh(System.Boolean uploadGeometry)
-    // Offset: 0x102B860
+    // Offset: 0x11751A0
     void ClearMesh(bool uploadGeometry);
     // public System.String GetParsedText()
-    // Offset: 0x102B864
+    // Offset: 0x11751A4
     ::Il2CppString* GetParsedText();
     // protected UnityEngine.Vector2 PackUV(System.Single x, System.Single y, System.Single scale)
-    // Offset: 0x102AD98
+    // Offset: 0x11746B0
     UnityEngine::Vector2 PackUV(float x, float y, float scale);
     // protected System.Single PackUV(System.Single x, System.Single y)
-    // Offset: 0x102B964
+    // Offset: 0x11752A4
     float PackUV(float x, float y);
     // System.Void InternalUpdate()
-    // Offset: 0x102B99C
+    // Offset: 0x1175304
     void InternalUpdate();
     // protected System.Int32 HexToInt(System.Char hex)
-    // Offset: 0x102B9A0
+    // Offset: 0x1175308
     int HexToInt(::Il2CppChar hex);
     // protected System.Int32 GetUTF16(System.String text, System.Int32 i)
-    // Offset: 0x101E608
+    // Offset: 0x1167E00
     int GetUTF16(::Il2CppString* text, int i);
     // protected System.Int32 GetUTF16(System.Text.StringBuilder text, System.Int32 i)
-    // Offset: 0x101EDD8
+    // Offset: 0x11685D0
     int GetUTF16(System::Text::StringBuilder* text, int i);
     // protected System.Int32 GetUTF32(System.String text, System.Int32 i)
-    // Offset: 0x101E4C4
+    // Offset: 0x1167CBC
     int GetUTF32(::Il2CppString* text, int i);
     // protected System.Int32 GetUTF32(System.Text.StringBuilder text, System.Int32 i)
-    // Offset: 0x101EC94
+    // Offset: 0x116848C
     int GetUTF32(System::Text::StringBuilder* text, int i);
     // protected UnityEngine.Color32 HexCharsToColor(System.Char[] hexChars, System.Int32 tagCount)
-    // Offset: 0x102B9CC
+    // Offset: 0x1175334
     UnityEngine::Color32 HexCharsToColor(::Array<::Il2CppChar>* hexChars, int tagCount);
     // protected UnityEngine.Color32 HexCharsToColor(System.Char[] hexChars, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0x102BE24
+    // Offset: 0x117578C
     UnityEngine::Color32 HexCharsToColor(::Array<::Il2CppChar>* hexChars, int startIndex, int length);
     // private System.Int32 GetAttributeParameters(System.Char[] chars, System.Int32 startIndex, System.Int32 length, ref System.Single[] parameters)
-    // Offset: 0x102C0A0
+    // Offset: 0x1175A08
     int GetAttributeParameters(::Array<::Il2CppChar>* chars, int startIndex, int length, ByRef<::Array<float>*> parameters);
     // protected System.Single ConvertToFloat(System.Char[] chars, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0x102C2CC
+    // Offset: 0x1175C34
     float ConvertToFloat(::Array<::Il2CppChar>* chars, int startIndex, int length);
     // protected System.Single ConvertToFloat(System.Char[] chars, System.Int32 startIndex, System.Int32 length, out System.Int32 lastIndex)
-    // Offset: 0x102C160
+    // Offset: 0x1175AC8
     float ConvertToFloat(::Array<::Il2CppChar>* chars, int startIndex, int length, ByRef<int> lastIndex);
     // protected System.Boolean ValidateHtmlTag(TMPro.TMP_Text/TMPro.UnicodeChar[] chars, System.Int32 startIndex, out System.Int32 endIndex)
-    // Offset: 0x1022348
+    // Offset: 0x116BBA0
     bool ValidateHtmlTag(::Array<TMPro::TMP_Text::UnicodeChar>* chars, int startIndex, ByRef<int> endIndex);
     // public override UnityEngine.Color get_color()
-    // Offset: 0x1018F2C
+    // Offset: 0x116270C
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: UnityEngine.Color Graphic::get_color()
     UnityEngine::Color get_color();
     // public override System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x1018F40
+    // Offset: 0x1162720
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::set_color(UnityEngine.Color value)
     void set_color(UnityEngine::Color value);
     // public UnityEngine.Transform get_transform()
-    // Offset: 0x1017E54
+    // Offset: 0x1161634
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: UnityEngine.Transform Graphic::UnityEngine.UI.ICanvasElement.get_transform()
     // Base method: UnityEngine.Transform Component::get_transform()
     // Base method: UnityEngine.Transform ICanvasElement::get_transform()
     UnityEngine::Transform* get_transform();
     // public UnityEngine.RectTransform get_rectTransform()
-    // Offset: 0x1017EEC
+    // Offset: 0x11616CC
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: UnityEngine.RectTransform Graphic::get_rectTransform()
     // Base method: UnityEngine.RectTransform IClippable::get_rectTransform()
     UnityEngine::RectTransform* get_rectTransform();
     // protected System.Void .ctor()
-    // Offset: 0x102C2F0
+    // Offset: 0x1175C58
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::.ctor()
     // Base method: System.Void Graphic::.ctor()
@@ -3031,18 +3031,18 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Text*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x102C970
+    // Offset: 0x11762D8
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::.cctor()
     // Base method: System.Void Object::.cctor()
     static void _cctor();
     // public override System.Void CrossFadeColor(UnityEngine.Color targetColor, System.Single duration, System.Boolean ignoreTimeScale, System.Boolean useAlpha)
-    // Offset: 0x101B290
+    // Offset: 0x1164A70
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::CrossFadeColor(UnityEngine.Color targetColor, System.Single duration, System.Boolean ignoreTimeScale, System.Boolean useAlpha)
     void CrossFadeColor(UnityEngine::Color targetColor, float duration, bool ignoreTimeScale, bool useAlpha);
     // public override System.Void CrossFadeAlpha(System.Single alpha, System.Single duration, System.Boolean ignoreTimeScale)
-    // Offset: 0x101B324
+    // Offset: 0x1164B04
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::CrossFadeAlpha(System.Single alpha, System.Single duration, System.Boolean ignoreTimeScale)
     void CrossFadeAlpha(float alpha, float duration, bool ignoreTimeScale);

@@ -67,7 +67,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly System.String VersionHandle
     void _set_VersionHandle(::Il2CppString* value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x20FDA00
+    // Offset: 0x14E9D5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CloudStorageUpdateResponse* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::CloudStorageUpdateResponse::.ctor");

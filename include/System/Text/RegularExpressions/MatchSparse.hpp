@@ -53,14 +53,14 @@ namespace System::Text::RegularExpressions {
     // Set instance field: System.Collections.Hashtable _caps
     void _set__caps(System::Collections::Hashtable* value);
     // System.Void .ctor(System.Text.RegularExpressions.Regex regex, System.Collections.Hashtable caps, System.Int32 capcount, System.String text, System.Int32 begpos, System.Int32 len, System.Int32 startpos)
-    // Offset: 0x1507C34
+    // Offset: 0x1869320
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MatchSparse* New_ctor(System::Text::RegularExpressions::Regex* regex, System::Collections::Hashtable* caps, int capcount, ::Il2CppString* text, int begpos, int len, int startpos) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::MatchSparse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MatchSparse*, creationType>(regex, caps, capcount, text, begpos, len, startpos)));
     }
     // public override System.Text.RegularExpressions.GroupCollection get_Groups()
-    // Offset: 0x1507CF4
+    // Offset: 0x18693E0
     // Implemented from: System.Text.RegularExpressions.Match
     // Base method: System.Text.RegularExpressions.GroupCollection Match::get_Groups()
     System::Text::RegularExpressions::GroupCollection* get_Groups();

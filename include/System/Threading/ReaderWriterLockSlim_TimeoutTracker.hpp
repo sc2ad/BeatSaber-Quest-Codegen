@@ -50,13 +50,13 @@ namespace System::Threading {
     // Set instance field: private System.Int32 m_start
     void _set_m_start(int value);
     // public System.Int32 get_RemainingMilliseconds()
-    // Offset: 0xD92F60
+    // Offset: 0x23BD9A0
     int get_RemainingMilliseconds();
     // public System.Boolean get_IsExpired()
-    // Offset: 0xD92F68
+    // Offset: 0x23BC8D8
     bool get_IsExpired();
     // public System.Void .ctor(System.Int32 millisecondsTimeout)
-    // Offset: 0xD92F58
+    // Offset: 0x23BC480
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     TimeoutTracker(int millisecondsTimeout) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ReaderWriterLockSlim::TimeoutTracker::.ctor");

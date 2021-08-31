@@ -30,13 +30,13 @@ namespace NUnit::Framework::Constraints {
     // Creating value type constructor for type: ComparisonAdapter
     ComparisonAdapter() noexcept {}
     // static public NUnit.Framework.Constraints.ComparisonAdapter get_Default()
-    // Offset: 0x1419238
+    // Offset: 0x1764ED8
     static NUnit::Framework::Constraints::ComparisonAdapter* get_Default();
     // public System.Int32 Compare(System.Object expected, System.Object actual)
     // Offset: 0xFFFFFFFF
     int Compare(::Il2CppObject* expected, ::Il2CppObject* actual);
     // protected System.Void .ctor()
-    // Offset: 0x14192D8
+    // Offset: 0x1764F78
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

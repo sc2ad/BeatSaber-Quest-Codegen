@@ -44,19 +44,19 @@ namespace Mono {
     // Set instance field: private System.IntPtr value
     void _set_value(System::IntPtr value);
     // public System.IntPtr get_Value()
-    // Offset: 0xD80F6C
+    // Offset: 0x1A73D60
     System::IntPtr get_Value();
     // System.Void .ctor(System.IntPtr v)
-    // Offset: 0xD80F64
+    // Offset: 0x1A73D58
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  RuntimePropertyHandle(System::IntPtr v)
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xD80F74
+    // Offset: 0x1A73D68
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xD80F7C
+    // Offset: 0x1A73E80
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

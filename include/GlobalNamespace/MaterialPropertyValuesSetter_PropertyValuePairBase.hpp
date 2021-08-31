@@ -43,16 +43,16 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int32 <propertyId>k__BackingField
     void _set_$propertyId$k__BackingField(int value);
     // public System.Int32 get_propertyId()
-    // Offset: 0x1968FF8
+    // Offset: 0x1E1CB7C
     int get_propertyId();
     // private System.Void set_propertyId(System.Int32 value)
-    // Offset: 0x1969000
+    // Offset: 0x1E1CB84
     void set_propertyId(int value);
     // public System.Void RefreshPropertyId()
-    // Offset: 0x1968EC0
+    // Offset: 0x1E1CA44
     void RefreshPropertyId();
     // public System.Void .ctor()
-    // Offset: 0x1968F28
+    // Offset: 0x1E1CAAC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Single bpm
     void _set_bpm(float value);
     // public System.Void .ctor(System.Single bpmChangeStartTime, System.Single bpmChangeStartBpmTime, System.Single bpm)
-    // Offset: 0xF7CA3C
+    // Offset: 0x11F09C0
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  BpmChangeData(float bpmChangeStartTime, float bpmChangeStartBpmTime, float bpm)
   }; // BeatmapDataLoader/BpmChangeData

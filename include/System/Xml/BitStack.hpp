@@ -51,22 +51,22 @@ namespace System::Xml {
     // Set instance field: private System.UInt32 curr
     void _set_curr(uint value);
     // public System.Void PushBit(System.Boolean bit)
-    // Offset: 0x15CF3D4
+    // Offset: 0x194E158
     void PushBit(bool bit);
     // public System.Boolean PopBit()
-    // Offset: 0x15CF504
+    // Offset: 0x194E288
     bool PopBit();
     // public System.Boolean PeekBit()
-    // Offset: 0x15CF588
+    // Offset: 0x194E30C
     bool PeekBit();
     // private System.Void PushCurr()
-    // Offset: 0x15CF410
+    // Offset: 0x194E194
     void PushCurr();
     // private System.Void PopCurr()
-    // Offset: 0x15CF538
+    // Offset: 0x194E2BC
     void PopCurr();
     // public System.Void .ctor()
-    // Offset: 0x15CF3A8
+    // Offset: 0x194E12C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

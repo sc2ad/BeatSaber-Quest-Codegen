@@ -70,10 +70,10 @@ namespace GlobalNamespace {
     // Set instance field: public System.Int16 w
     void _set_w(int16_t value);
     // static private System.Void .cctor()
-    // Offset: 0x12FB05C
+    // Offset: 0x16332EC
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0xD75384
+    // Offset: 0x163310C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

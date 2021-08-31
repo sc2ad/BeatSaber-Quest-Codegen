@@ -155,10 +155,10 @@ namespace GlobalNamespace {
     // Set instance field: public OVRInput/RawTouch SecondaryTouchpad
     void _set_SecondaryTouchpad(GlobalNamespace::OVRInput::RawTouch value);
     // public OVRInput/RawTouch ToRawMask(OVRInput/Touch virtualMask)
-    // Offset: 0x1230344
+    // Offset: 0x153BD74
     GlobalNamespace::OVRInput::RawTouch ToRawMask(GlobalNamespace::OVRInput::Touch virtualMask);
     // public System.Void .ctor()
-    // Offset: 0x122F674
+    // Offset: 0x153B0A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

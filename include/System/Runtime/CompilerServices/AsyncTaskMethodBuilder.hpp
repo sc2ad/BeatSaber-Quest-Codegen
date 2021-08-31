@@ -70,13 +70,13 @@ namespace System::Runtime::CompilerServices {
     // Set instance field: private System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult> m_builder
     void _set_m_builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Threading::Tasks::VoidTaskResult> value);
     // public System.Threading.Tasks.Task get_Task()
-    // Offset: 0xD6B8E4
+    // Offset: 0x14865D8
     System::Threading::Tasks::Task* get_Task();
     // static private System.Void .cctor()
-    // Offset: 0x11985D4
+    // Offset: 0x1486704
     static void _cctor();
     // static public System.Runtime.CompilerServices.AsyncTaskMethodBuilder Create()
-    // Offset: 0x119843C
+    // Offset: 0x148656C
     static System::Runtime::CompilerServices::AsyncTaskMethodBuilder Create();
     // public System.Void Start(ref TStateMachine stateMachine)
     // Offset: 0xFFFFFFFF
@@ -89,7 +89,7 @@ namespace System::Runtime::CompilerServices {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___generic__method, byref(stateMachine));
     }
     // public System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xD6B8DC
+    // Offset: 0x1486578
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
     // public System.Void AwaitOnCompleted(ref TAwaiter awaiter, ref TStateMachine stateMachine)
     // Offset: 0xFFFFFFFF
@@ -114,10 +114,10 @@ namespace System::Runtime::CompilerServices {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___generic__method, byref(awaiter), byref(stateMachine));
     }
     // public System.Void SetResult()
-    // Offset: 0xD6B8EC
+    // Offset: 0x1486628
     void SetResult();
     // public System.Void SetException(System.Exception exception)
-    // Offset: 0xD6B8F4
+    // Offset: 0x14866A4
     void SetException(System::Exception* exception);
   }; // System.Runtime.CompilerServices.AsyncTaskMethodBuilder
   // WARNING Not writing size check since size may be invalid!

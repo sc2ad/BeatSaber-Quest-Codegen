@@ -138,13 +138,13 @@ namespace GlobalNamespace {
     // Set instance field: private EnvironmentSizeData/CeilingType _ceilingType
     void _set__ceilingType(GlobalNamespace::EnvironmentSizeData::CeilingType value);
     // public EnvironmentSizeData/FloorType get_floorType()
-    // Offset: 0x1E8D3B4
+    // Offset: 0x1053178
     GlobalNamespace::EnvironmentSizeData::FloorType get_floorType();
     // public EnvironmentSizeData/CeilingType get_ceilingType()
-    // Offset: 0x1E8D3BC
+    // Offset: 0x1053180
     GlobalNamespace::EnvironmentSizeData::CeilingType get_ceilingType();
     // public System.Void .ctor()
-    // Offset: 0x1E8D3C4
+    // Offset: 0x1053188
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

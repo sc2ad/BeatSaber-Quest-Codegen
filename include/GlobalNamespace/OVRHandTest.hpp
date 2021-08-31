@@ -190,13 +190,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean result_mesh_RH
     void _set_result_mesh_RH(bool value);
     // private System.Void Start()
-    // Offset: 0x1226A08
+    // Offset: 0x15323DC
     void Start();
     // private System.Void Update()
-    // Offset: 0x1226CDC
+    // Offset: 0x15326B0
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x12278E4
+    // Offset: 0x15332B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -209,7 +209,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRHandTest*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x122796C
+    // Offset: 0x1533340
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

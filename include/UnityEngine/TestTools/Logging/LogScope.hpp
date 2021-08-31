@@ -180,79 +180,79 @@ namespace UnityEngine::TestTools::Logging {
     // Set instance field: private System.String <NUnitExceptionMessage>k__BackingField
     void _set_$NUnitExceptionMessage$k__BackingField(::Il2CppString* value);
     // public System.Collections.Generic.Queue`1<UnityEngine.TestTools.Logging.LogMatch> get_ExpectedLogs()
-    // Offset: 0x11FC2F8
+    // Offset: 0x14C2018
     System::Collections::Generic::Queue_1<UnityEngine::TestTools::Logging::LogMatch*>* get_ExpectedLogs();
     // public System.Void set_ExpectedLogs(System.Collections.Generic.Queue`1<UnityEngine.TestTools.Logging.LogMatch> value)
-    // Offset: 0x11FC300
+    // Offset: 0x14C2020
     void set_ExpectedLogs(System::Collections::Generic::Queue_1<UnityEngine::TestTools::Logging::LogMatch*>* value);
     // public System.Collections.Generic.List`1<UnityEngine.TestTools.Logging.LogEvent> get_AllLogs()
-    // Offset: 0x11FC308
+    // Offset: 0x14C2028
     System::Collections::Generic::List_1<UnityEngine::TestTools::Logging::LogEvent*>* get_AllLogs();
     // public System.Collections.Generic.List`1<UnityEngine.TestTools.Logging.LogEvent> get_FailingLogs()
-    // Offset: 0x11FC310
+    // Offset: 0x14C2030
     System::Collections::Generic::List_1<UnityEngine::TestTools::Logging::LogEvent*>* get_FailingLogs();
     // public System.Boolean get_IgnoreFailingMessages()
-    // Offset: 0x11FC318
+    // Offset: 0x14C2038
     bool get_IgnoreFailingMessages();
     // public System.Void set_IgnoreFailingMessages(System.Boolean value)
-    // Offset: 0x11FC320
+    // Offset: 0x14C2040
     void set_IgnoreFailingMessages(bool value);
     // private System.Void set_IsNUnitException(System.Boolean value)
-    // Offset: 0x11FC32C
+    // Offset: 0x14C204C
     void set_IsNUnitException(bool value);
     // private System.Void set_IsNUnitSuccessException(System.Boolean value)
-    // Offset: 0x11FC338
+    // Offset: 0x14C2058
     void set_IsNUnitSuccessException(bool value);
     // private System.Void set_IsNUnitInconclusiveException(System.Boolean value)
-    // Offset: 0x11FC344
+    // Offset: 0x14C2064
     void set_IsNUnitInconclusiveException(bool value);
     // private System.Void set_IsNUnitIgnoreException(System.Boolean value)
-    // Offset: 0x11FC350
+    // Offset: 0x14C2070
     void set_IsNUnitIgnoreException(bool value);
     // private System.Void set_NUnitExceptionMessage(System.String value)
-    // Offset: 0x11FC35C
+    // Offset: 0x14C207C
     void set_NUnitExceptionMessage(::Il2CppString* value);
     // static private System.Void .cctor()
-    // Offset: 0x11FCF30
+    // Offset: 0x14C2C50
     static void _cctor();
     // private System.Void Activate()
-    // Offset: 0x11FC364
+    // Offset: 0x14C2084
     void Activate();
     // private System.Void Deactivate()
-    // Offset: 0x11FC4D8
+    // Offset: 0x14C21F8
     void Deactivate();
     // static private System.Void RegisterScope(UnityEngine.TestTools.Logging.LogScope logScope)
-    // Offset: 0x11FC460
+    // Offset: 0x14C2180
     static void RegisterScope(UnityEngine::TestTools::Logging::LogScope* logScope);
     // static private System.Void UnregisterScope(UnityEngine.TestTools.Logging.LogScope logScope)
-    // Offset: 0x11FC59C
+    // Offset: 0x14C22BC
     static void UnregisterScope(UnityEngine::TestTools::Logging::LogScope* logScope);
     // public System.Void AddLog(System.String message, System.String stacktrace, UnityEngine.LogType type)
-    // Offset: 0x11FC614
+    // Offset: 0x14C2334
     void AddLog(::Il2CppString* message, ::Il2CppString* stacktrace, UnityEngine::LogType type);
     // static private System.Boolean IsNUnitResultStateException(System.String stacktrace, UnityEngine.LogType logType)
-    // Offset: 0x11FC940
+    // Offset: 0x14C2660
     static bool IsNUnitResultStateException(::Il2CppString* stacktrace, UnityEngine::LogType logType);
     // static private System.Boolean IsFailingLog(UnityEngine.LogType type)
-    // Offset: 0x11FC9DC
+    // Offset: 0x14C26FC
     static bool IsFailingLog(UnityEngine::LogType type);
     // public System.Void Dispose()
-    // Offset: 0x11EB520
+    // Offset: 0x14B1168
     void Dispose();
     // private System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x11FC9F8
+    // Offset: 0x14C2718
     void Dispose(bool disposing);
     // public System.Boolean AnyFailingLogs()
-    // Offset: 0x11EB4C8
+    // Offset: 0x14B1110
     bool AnyFailingLogs();
     // public System.Void ProcessExpectedLogs()
-    // Offset: 0x11FCA14
+    // Offset: 0x14C2734
     void ProcessExpectedLogs();
     // public System.Void NoUnexpectedReceived()
-    // Offset: 0x11FCD84
+    // Offset: 0x14C2AA4
     void NoUnexpectedReceived();
     // public System.Void .ctor()
-    // Offset: 0x11EB3E4
+    // Offset: 0x14B102C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -136,10 +136,10 @@ namespace OnlineServices {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter <>u__3
     void _set_$$u__3(System::Runtime::CompilerServices::TaskAwaiter value);
     // private System.Void MoveNext()
-    // Offset: 0xF7B61C
+    // Offset: 0x1029FC4
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xF7B624
+    // Offset: 0x102A7E0
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.LevelScoreUploader/OnlineServices.<SendLevelScoreResultAsync>d__13
   // WARNING Not writing size check since size may be invalid!

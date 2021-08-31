@@ -40,13 +40,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`1<System.Boolean> <>9__8_0
     static void _set_$$9__8_0(System::Func_1<bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1F2B074
+    // Offset: 0x117BDF4
     static void _cctor();
     // System.Boolean <StartCoroutine>b__8_0()
-    // Offset: 0x1F2B0E0
+    // Offset: 0x117BE60
     bool $StartCoroutine$b__8_0();
     // public System.Void .ctor()
-    // Offset: 0x1F2B0D8
+    // Offset: 0x117BE58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

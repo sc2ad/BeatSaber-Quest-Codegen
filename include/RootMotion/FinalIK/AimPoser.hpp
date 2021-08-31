@@ -58,13 +58,13 @@ namespace RootMotion::FinalIK {
     // Set instance field: public RootMotion.FinalIK.AimPoser/RootMotion.FinalIK.Pose[] poses
     void _set_poses(::Array<RootMotion::FinalIK::AimPoser::Pose*>* value);
     // public RootMotion.FinalIK.AimPoser/RootMotion.FinalIK.Pose GetPose(UnityEngine.Vector3 localDirection)
-    // Offset: 0x187B318
+    // Offset: 0x1D3003C
     RootMotion::FinalIK::AimPoser::Pose* GetPose(UnityEngine::Vector3 localDirection);
     // public System.Void SetPoseActive(RootMotion.FinalIK.AimPoser/RootMotion.FinalIK.Pose pose)
-    // Offset: 0x187B68C
+    // Offset: 0x1D303B0
     void SetPoseActive(RootMotion::FinalIK::AimPoser::Pose* pose);
     // public System.Void .ctor()
-    // Offset: 0x187B6F8
+    // Offset: 0x1D3041C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -133,7 +133,7 @@ namespace GlobalNamespace {
     // Set instance field: public MasterServerAvailabilityData/UserMessage userMessage
     void _set_userMessage(GlobalNamespace::MasterServerAvailabilityData::UserMessage* value);
     // public System.Void .ctor()
-    // Offset: 0x1FAE78C
+    // Offset: 0x10E4A64
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BoolSignal
     BoolSignal() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x203AFDC
+    // Offset: 0x1257D10
     // Implemented from: GenericSignal`1
     // Base method: System.Void GenericSignal_1::.ctor()
     // Base method: System.Void Signal::.ctor()

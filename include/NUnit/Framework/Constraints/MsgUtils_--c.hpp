@@ -35,43 +35,43 @@ namespace NUnit::Framework::Constraints {
     // Set static field: static public readonly NUnit.Framework.Constraints.MsgUtils/NUnit.Framework.Constraints.<>c <>9
     static void _set_$$9(NUnit::Framework::Constraints::MsgUtils::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x141E830
+    // Offset: 0x176A4D0
     static void _cctor();
     // System.String <.cctor>b__14_0(System.Object val)
-    // Offset: 0x141E89C
+    // Offset: 0x176A53C
     ::Il2CppString* $_cctor$b__14_0(::Il2CppObject* val);
     // NUnit.Framework.Constraints.ValueFormatter <.cctor>b__14_1(NUnit.Framework.Constraints.ValueFormatter next)
-    // Offset: 0x141E910
+    // Offset: 0x176A5B0
     NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_1(NUnit::Framework::Constraints::ValueFormatter* next);
     // NUnit.Framework.Constraints.ValueFormatter <.cctor>b__14_2(NUnit.Framework.Constraints.ValueFormatter next)
-    // Offset: 0x141E9A8
+    // Offset: 0x176A648
     NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_2(NUnit::Framework::Constraints::ValueFormatter* next);
     // NUnit.Framework.Constraints.ValueFormatter <.cctor>b__14_3(NUnit.Framework.Constraints.ValueFormatter next)
-    // Offset: 0x141EA40
+    // Offset: 0x176A6E0
     NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_3(NUnit::Framework::Constraints::ValueFormatter* next);
     // NUnit.Framework.Constraints.ValueFormatter <.cctor>b__14_4(NUnit.Framework.Constraints.ValueFormatter next)
-    // Offset: 0x141EAD8
+    // Offset: 0x176A778
     NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_4(NUnit::Framework::Constraints::ValueFormatter* next);
     // NUnit.Framework.Constraints.ValueFormatter <.cctor>b__14_5(NUnit.Framework.Constraints.ValueFormatter next)
-    // Offset: 0x141EB70
+    // Offset: 0x176A810
     NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_5(NUnit::Framework::Constraints::ValueFormatter* next);
     // NUnit.Framework.Constraints.ValueFormatter <.cctor>b__14_6(NUnit.Framework.Constraints.ValueFormatter next)
-    // Offset: 0x141EC08
+    // Offset: 0x176A8A8
     NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_6(NUnit::Framework::Constraints::ValueFormatter* next);
     // NUnit.Framework.Constraints.ValueFormatter <.cctor>b__14_7(NUnit.Framework.Constraints.ValueFormatter next)
-    // Offset: 0x141ECA0
+    // Offset: 0x176A940
     NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_7(NUnit::Framework::Constraints::ValueFormatter* next);
     // NUnit.Framework.Constraints.ValueFormatter <.cctor>b__14_8(NUnit.Framework.Constraints.ValueFormatter next)
-    // Offset: 0x141ED38
+    // Offset: 0x176A9D8
     NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_8(NUnit::Framework::Constraints::ValueFormatter* next);
     // NUnit.Framework.Constraints.ValueFormatter <.cctor>b__14_9(NUnit.Framework.Constraints.ValueFormatter next)
-    // Offset: 0x141EDD0
+    // Offset: 0x176AA70
     NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_9(NUnit::Framework::Constraints::ValueFormatter* next);
     // NUnit.Framework.Constraints.ValueFormatter <.cctor>b__14_10(NUnit.Framework.Constraints.ValueFormatter next)
-    // Offset: 0x141EE68
+    // Offset: 0x176AB08
     NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_10(NUnit::Framework::Constraints::ValueFormatter* next);
     // public System.Void .ctor()
-    // Offset: 0x141E894
+    // Offset: 0x176A534
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

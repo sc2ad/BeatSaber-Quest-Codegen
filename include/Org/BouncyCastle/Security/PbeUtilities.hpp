@@ -55,31 +55,31 @@ namespace Org::BouncyCastle::Security {
     // Set static field: static private readonly System.Collections.IDictionary oids
     static void _set_oids(System::Collections::IDictionary* value);
     // static private System.Void .cctor()
-    // Offset: 0x10FEA10
+    // Offset: 0x13B9C38
     static void _cctor();
     // static private Org.BouncyCastle.Crypto.PbeParametersGenerator MakePbeGenerator(System.String type, Org.BouncyCastle.Crypto.IDigest digest, System.Byte[] key, System.Byte[] salt, System.Int32 iterationCount)
-    // Offset: 0x1104000
+    // Offset: 0x13BF228
     static Org::BouncyCastle::Crypto::PbeParametersGenerator* MakePbeGenerator(::Il2CppString* type, Org::BouncyCastle::Crypto::IDigest* digest, ::Array<uint8_t>* key, ::Array<uint8_t>* salt, int iterationCount);
     // static public System.Boolean IsPkcs12(System.String algorithm)
-    // Offset: 0x11041EC
+    // Offset: 0x13BF414
     static bool IsPkcs12(::Il2CppString* algorithm);
     // static public System.Boolean IsPkcs5Scheme2(System.String algorithm)
-    // Offset: 0x11043E8
+    // Offset: 0x13BF610
     static bool IsPkcs5Scheme2(::Il2CppString* algorithm);
     // static public Org.BouncyCastle.Crypto.ICipherParameters GenerateCipherParameters(Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algID, System.Char[] password, System.Boolean wrongPkcs12Zero)
-    // Offset: 0x11045E4
+    // Offset: 0x13BF80C
     static Org::BouncyCastle::Crypto::ICipherParameters* GenerateCipherParameters(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::Array<::Il2CppChar>* password, bool wrongPkcs12Zero);
     // static public Org.BouncyCastle.Crypto.ICipherParameters GenerateCipherParameters(System.String algorithm, System.Char[] password, System.Boolean wrongPkcs12Zero, Org.BouncyCastle.Asn1.Asn1Encodable pbeParameters)
-    // Offset: 0x110469C
+    // Offset: 0x13BF8C4
     static Org::BouncyCastle::Crypto::ICipherParameters* GenerateCipherParameters(::Il2CppString* algorithm, ::Array<::Il2CppChar>* password, bool wrongPkcs12Zero, Org::BouncyCastle::Asn1::Asn1Encodable* pbeParameters);
     // static public System.Object CreateEngine(Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algID)
-    // Offset: 0x1105914
+    // Offset: 0x13C0B3C
     static ::Il2CppObject* CreateEngine(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID);
     // static public System.Object CreateEngine(System.String algorithm)
-    // Offset: 0x1105A48
+    // Offset: 0x13C0C70
     static ::Il2CppObject* CreateEngine(::Il2CppString* algorithm);
     // static private Org.BouncyCastle.Crypto.ICipherParameters FixDesParity(System.String mechanism, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1105720
+    // Offset: 0x13C0948
     static Org::BouncyCastle::Crypto::ICipherParameters* FixDesParity(::Il2CppString* mechanism, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
   }; // Org.BouncyCastle.Security.PbeUtilities
   #pragma pack(pop)

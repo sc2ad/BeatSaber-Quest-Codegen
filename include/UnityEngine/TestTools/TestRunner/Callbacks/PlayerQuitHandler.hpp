@@ -37,25 +37,25 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Creating value type constructor for type: PlayerQuitHandler
     PlayerQuitHandler() noexcept {}
     // public System.Void Start()
-    // Offset: 0x11FF0F8
+    // Offset: 0x14C4F28
     void Start();
     // private System.Void ProcessPlayerQuiteMessage(UnityEngine.Networking.PlayerConnection.MessageEventArgs arg0)
-    // Offset: 0x11FF1B0
+    // Offset: 0x14C4FE0
     void ProcessPlayerQuiteMessage(UnityEngine::Networking::PlayerConnection::MessageEventArgs* arg0);
     // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
-    // Offset: 0x11FF1F4
+    // Offset: 0x14C5024
     void RunStarted(NUnit::Framework::Interfaces::ITest* testsToRun);
     // public System.Void RunFinished(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0x11FF1F8
+    // Offset: 0x14C5028
     void RunFinished(NUnit::Framework::Interfaces::ITestResult* testResults);
     // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x11FF1FC
+    // Offset: 0x14C502C
     void TestStarted(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x11FF200
+    // Offset: 0x14C5030
     void TestFinished(NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Void .ctor()
-    // Offset: 0x11FF204
+    // Offset: 0x14C5034
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -86,32 +86,32 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Set instance field: private readonly Org.BouncyCastle.Crypto.IBlockCipher cipher
     void _set_cipher(Org::BouncyCastle::Crypto::IBlockCipher* value);
     // public System.String get_AlgorithmName()
-    // Offset: 0x1591904
+    // Offset: 0x1910560
     ::Il2CppString* get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x1591A00
+    // Offset: 0x191065C
     bool get_IsPartialBlockOkay();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher, System.Int32 bitBlockSize)
-    // Offset: 0x158E394
+    // Offset: 0x190CFF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MacCFBBlockCipher* New_ctor(Org::BouncyCastle::Crypto::IBlockCipher* cipher, int bitBlockSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MacCFBBlockCipher*, creationType>(cipher, bitBlockSize)));
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x158E604
+    // Offset: 0x190D260
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetBlockSize()
-    // Offset: 0x1591A08
+    // Offset: 0x1910664
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x158E7EC
+    // Offset: 0x190D448
     int ProcessBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* outBytes, int outOff);
     // public System.Void Reset()
-    // Offset: 0x158EDF4
+    // Offset: 0x190DA50
     void Reset();
     // public System.Void GetMacBlock(System.Byte[] mac)
-    // Offset: 0x158ED20
+    // Offset: 0x190D97C
     void GetMacBlock(::Array<uint8_t>* mac);
   }; // Org.BouncyCastle.Crypto.Macs.MacCFBBlockCipher
   #pragma pack(pop)

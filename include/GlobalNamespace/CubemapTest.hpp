@@ -71,7 +71,7 @@ namespace GlobalNamespace {
     CubemapTest(UnityEngine::Camera* camera_ = {}, UnityEngine::Material* cubemapMaterial_ = {}, UnityEngine::Material* flatMaterial_ = {}, UnityEngine::RenderTexture* cubemapRenderTexture_ = {}, UnityEngine::RenderTexture* downsampledCubemapRenderTexture_ = {}, UnityEngine::RenderTexture* cubemapFlatTexture_ = {}) noexcept : camera{camera_}, cubemapMaterial{cubemapMaterial_}, flatMaterial{flatMaterial_}, cubemapRenderTexture{cubemapRenderTexture_}, downsampledCubemapRenderTexture{downsampledCubemapRenderTexture_}, cubemapFlatTexture{cubemapFlatTexture_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEBEBBC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE44E3C
     // Get static field: static private readonly System.Int32 _cubePropertyId
     static int _get__cubePropertyId();
     // Set static field: static private readonly System.Int32 _cubePropertyId
@@ -101,13 +101,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.RenderTexture _cubemapFlatTexture
     void _set__cubemapFlatTexture(UnityEngine::RenderTexture* value);
     // protected System.Void Start()
-    // Offset: 0x1F060E4
+    // Offset: 0x10F5F10
     void Start();
     // protected System.Void Update()
-    // Offset: 0x1F06168
+    // Offset: 0x10F5F94
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1F063BC
+    // Offset: 0x10F61E8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -120,7 +120,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CubemapTest*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1F063C4
+    // Offset: 0x10F61F0
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

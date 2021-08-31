@@ -56,10 +56,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set instance field: public System.Func`2<UnityEngine.ProBuilder.Triangle,System.Boolean> <>9__0
     void _set_$$9__0(System::Func_2<UnityEngine::ProBuilder::Triangle, bool>* value);
     // System.Boolean <CollectFaceGroups>b__0(UnityEngine.ProBuilder.Triangle x)
-    // Offset: 0x13F86AC
+    // Offset: 0x1744394
     bool $CollectFaceGroups$b__0(UnityEngine::ProBuilder::Triangle x);
     // public System.Void .ctor()
-    // Offset: 0x13F7440
+    // Offset: 0x1743128
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

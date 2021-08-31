@@ -41,16 +41,16 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _cleared
     void _set__cleared(bool value);
     // public System.String get_missionId()
-    // Offset: 0x1F57764
+    // Offset: 0x113AC0C
     ::Il2CppString* get_missionId();
     // public System.Boolean get_cleared()
-    // Offset: 0x1F5776C
+    // Offset: 0x113AC14
     bool get_cleared();
     // public System.Void set_cleared(System.Boolean value)
-    // Offset: 0x1F57774
+    // Offset: 0x113AC1C
     void set_cleared(bool value);
     // public System.Void .ctor(System.String missionId, System.Boolean cleared)
-    // Offset: 0x1F52E84
+    // Offset: 0x11362F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerMissionStatsData* New_ctor(::Il2CppString* missionId, bool cleared) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerMissionStatsData::.ctor");

@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly BloomPrePassRenderDataSO/Data data
     void _set_data(GlobalNamespace::BloomPrePassRenderDataSO::Data* value);
     // public System.Void .ctor()
-    // Offset: 0x1961038
+    // Offset: 0x1E14BBC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

@@ -59,10 +59,10 @@ namespace GlobalNamespace {
     // Set instance field: private LocalizedAudioClipSO/LocalizedAudioClipInfo _lastLocalizedAudioClipInfo
     void _set__lastLocalizedAudioClipInfo(GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo* value);
     // public UnityEngine.AudioClip get_localizedAudioClip()
-    // Offset: 0x1FA7F10
+    // Offset: 0x10DE1E8
     UnityEngine::AudioClip* get_localizedAudioClip();
     // public System.Void .ctor()
-    // Offset: 0x1FA8008
+    // Offset: 0x10DE2E0
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

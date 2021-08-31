@@ -15,18 +15,6 @@
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: System::Net
-namespace System::Net {
-  // Forward declaring type: IPEndPoint
-  class IPEndPoint;
-}
-// Forward declaring namespace: GlobalNamespace
-namespace GlobalNamespace {
-  // Forward declaring type: BeatmapLevelSelectionMask
-  struct BeatmapLevelSelectionMask;
-  // Forward declaring type: GameplayServerConfiguration
-  struct GameplayServerConfiguration;
-}
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: IAsyncResult
@@ -46,20 +34,20 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ConnectToMasterServerDelegate
     ConnectToMasterServerDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x2149BA0
+    // Offset: 0x16F33CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PartyMessageHandler::ConnectToMasterServerDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PartyMessageHandler::ConnectToMasterServerDelegate*, creationType>(object, method)));
     }
-    // public System.Void Invoke(System.Net.IPEndPoint endPoint, System.String serverName, System.String password, System.String secret, System.String userId, System.String userName, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration)
-    // Offset: 0x2149368
-    void Invoke(System::Net::IPEndPoint* endPoint, ::Il2CppString* serverName, ::Il2CppString* password, ::Il2CppString* secret, ::Il2CppString* userId, ::Il2CppString* userName, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration);
-    // public System.IAsyncResult BeginInvoke(System.Net.IPEndPoint endPoint, System.String serverName, System.String password, System.String secret, System.String userId, System.String userName, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x2149BB0
-    System::IAsyncResult* BeginInvoke(System::Net::IPEndPoint* endPoint, ::Il2CppString* serverName, ::Il2CppString* password, ::Il2CppString* secret, ::Il2CppString* userId, ::Il2CppString* userName, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // public System.Void Invoke(System.String secret)
+    // Offset: 0x16F2FDC
+    void Invoke(::Il2CppString* secret);
+    // public System.IAsyncResult BeginInvoke(System.String secret, System.AsyncCallback callback, System.Object object)
+    // Offset: 0x16F33DC
+    System::IAsyncResult* BeginInvoke(::Il2CppString* secret, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x2149CA0
+    // Offset: 0x16F3400
     void EndInvoke(System::IAsyncResult* result);
   }; // PartyMessageHandler/ConnectToMasterServerDelegate
   #pragma pack(pop)
@@ -73,35 +61,21 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyMessageHandler::ConnectToMasterServ
 // Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate::*)(System::Net::IPEndPoint*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration)>(&GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate::*)(::Il2CppString*)>(&GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate::Invoke)> {
   static const MethodInfo* get() {
-    static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
-    static auto* serverName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* secret = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* userName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* selectionMask = &::il2cpp_utils::GetClassFromName("", "BeatmapLevelSelectionMask")->byval_arg;
-    static auto* configuration = &::il2cpp_utils::GetClassFromName("", "GameplayServerConfiguration")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{endPoint, serverName, password, secret, userId, userName, selectionMask, configuration});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{secret});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate::*)(System::Net::IPEndPoint*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, System::AsyncCallback*, ::Il2CppObject*)>(&GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate::*)(::Il2CppString*, System::AsyncCallback*, ::Il2CppObject*)>(&GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate::BeginInvoke)> {
   static const MethodInfo* get() {
-    static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
-    static auto* serverName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* secret = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* userName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* selectionMask = &::il2cpp_utils::GetClassFromName("", "BeatmapLevelSelectionMask")->byval_arg;
-    static auto* configuration = &::il2cpp_utils::GetClassFromName("", "GameplayServerConfiguration")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{endPoint, serverName, password, secret, userId, userName, selectionMask, configuration, callback, object});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{secret, callback, object});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate::EndInvoke

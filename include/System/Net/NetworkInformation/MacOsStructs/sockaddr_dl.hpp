@@ -115,7 +115,7 @@ namespace System::Net::NetworkInformation::MacOsStructs {
     // Set instance field: public System.Byte[] sdl_data
     void _set_sdl_data(::Array<uint8_t>* value);
     // System.Void Read(System.IntPtr ptr)
-    // Offset: 0xD6DCDC
+    // Offset: 0x1498EB8
     void Read(System::IntPtr ptr);
   }; // System.Net.NetworkInformation.MacOsStructs.sockaddr_dl
   #pragma pack(pop)

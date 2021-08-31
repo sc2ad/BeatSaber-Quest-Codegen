@@ -79,26 +79,26 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.YieldInstruction <yieldInstruction>5__2
     void _set_$yieldInstruction$5__2(UnityEngine::YieldInstruction* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x2070CD4
+    // Offset: 0x135FBF8
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x2070D3C
+    // Offset: 0x135FC60
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x2070400
+    // Offset: 0x135F324
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRsenalScoreLogger::$Start$d__3* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VRsenalScoreLogger::$Start$d__3::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRsenalScoreLogger::$Start$d__3*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x2070658
+    // Offset: 0x135F57C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x207065C
+    // Offset: 0x135F580
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x2070CDC
+    // Offset: 0x135FC00
     void System_Collections_IEnumerator_Reset();
   }; // VRsenalScoreLogger/<Start>d__3
   #pragma pack(pop)

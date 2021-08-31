@@ -43,14 +43,14 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.String lobbyCode
     void _set_lobbyCode(::Il2CppString* value);
     // public System.Void .ctor(System.UInt64 roomId)
-    // Offset: 0x1F86104
+    // Offset: 0x119DD50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectMultiplayerLobbyDestination* New_ctor(uint64_t roomId) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SelectMultiplayerLobbyDestination::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SelectMultiplayerLobbyDestination*, creationType>(roomId)));
     }
     // public System.Void .ctor(System.String lobbyCode)
-    // Offset: 0x1F861C8
+    // Offset: 0x119DE14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectMultiplayerLobbyDestination* New_ctor(::Il2CppString* lobbyCode) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SelectMultiplayerLobbyDestination::.ctor");

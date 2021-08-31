@@ -124,34 +124,34 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _uploading
     void _set__uploading(bool value);
     // public System.Void add_allScoresDidUploadEvent(System.Action value)
-    // Offset: 0x1F41248
+    // Offset: 0x1147B60
     void add_allScoresDidUploadEvent(System::Action* value);
     // public System.Void remove_allScoresDidUploadEvent(System.Action value)
-    // Offset: 0x1F412EC
+    // Offset: 0x1147C04
     void remove_allScoresDidUploadEvent(System::Action* value);
     // public System.Void Init(LeaderboardScoreUploader/UploadScoreCallback uploadScoreCallback, System.String playerId)
-    // Offset: 0x1F41390
+    // Offset: 0x1147CA8
     void Init(GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback* uploadScoreCallback, ::Il2CppString* playerId);
     // private System.Void OnApplicationQuit()
-    // Offset: 0x1F4143C
+    // Offset: 0x1147D54
     void OnApplicationQuit();
     // private System.Collections.IEnumerator UploadScoresCoroutine()
-    // Offset: 0x1F413CC
+    // Offset: 0x1147CE4
     System::Collections::IEnumerator* UploadScoresCoroutine();
     // private System.Void LoadScoresToUploadFromFile()
-    // Offset: 0x1F4146C
+    // Offset: 0x1147D84
     void LoadScoresToUploadFromFile();
     // private System.Void SaveScoresToUploadToFile()
-    // Offset: 0x1F41644
+    // Offset: 0x1147F5C
     void SaveScoresToUploadToFile();
     // public System.Void AddScore(LeaderboardScoreUploader/ScoreData scoreData)
-    // Offset: 0x1F41750
+    // Offset: 0x1148068
     void AddScore(GlobalNamespace::LeaderboardScoreUploader::ScoreData* scoreData);
     // private System.Boolean <UploadScoresCoroutine>b__14_1()
-    // Offset: 0x1F418B4
+    // Offset: 0x11481CC
     bool $UploadScoresCoroutine$b__14_1();
     // public System.Void .ctor()
-    // Offset: 0x1F41824
+    // Offset: 0x114813C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     // Set instance field: public AppInitScenesTransitionSetupDataSO appInitScenesTransitionSetupData
     void _set_appInitScenesTransitionSetupData(GlobalNamespace::AppInitScenesTransitionSetupDataSO* value);
     // public System.Void .ctor()
-    // Offset: 0x1F2B34C
+    // Offset: 0x117C0CC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

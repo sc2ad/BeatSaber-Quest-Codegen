@@ -45,13 +45,13 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Set static field: static public System.Func`2<NUnit.Framework.Interfaces.ITestResult,System.String> <>9__8_0
     static void _set_$$9__8_0(System::Func_2<NUnit::Framework::Interfaces::ITestResult*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1200340
+    // Offset: 0x14C6170
     static void _cctor();
     // System.String <Draw>b__8_0(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x12003AC
+    // Offset: 0x14C61DC
     ::Il2CppString* $Draw$b__8_0(NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Void .ctor()
-    // Offset: 0x12003A4
+    // Offset: 0x14C61D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

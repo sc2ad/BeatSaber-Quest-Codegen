@@ -50,11 +50,11 @@ namespace TMPro {
     // Set instance field: public UnityEngine.Vector2 max
     void _set_max(UnityEngine::Vector2 value);
     // public System.Void .ctor(UnityEngine.Vector2 min, UnityEngine.Vector2 max)
-    // Offset: 0xD67544
+    // Offset: 0x1114644
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Extents(UnityEngine::Vector2 min, UnityEngine::Vector2 max)
     // public override System.String ToString()
-    // Offset: 0xD67550
+    // Offset: 0x1114650
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

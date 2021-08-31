@@ -48,13 +48,13 @@ namespace GlobalNamespace {
     // Set instance field: private readonly IConnectedPlayer _connectedPlayer
     void _set__connectedPlayer(GlobalNamespace::IConnectedPlayer* value);
     // public System.Single get_offsetSyncTime()
-    // Offset: 0x1FBC618
+    // Offset: 0x11A9F60
     float get_offsetSyncTime();
     // public System.Boolean get_isFailed()
-    // Offset: 0x1FBC6CC
+    // Offset: 0x11AA014
     bool get_isFailed();
     // public System.Void .ctor(IConnectedPlayer connectedPlayer)
-    // Offset: 0x1FBC5EC
+    // Offset: 0x11A9F34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerObservable* New_ctor(GlobalNamespace::IConnectedPlayer* connectedPlayer) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerConnectedPlayerObservable::.ctor");

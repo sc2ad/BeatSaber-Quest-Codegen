@@ -113,7 +113,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly SelectSubMenuDestination/Destination menuDestination
     void _set_menuDestination(GlobalNamespace::SelectSubMenuDestination::Destination value);
     // public System.Void .ctor(SelectSubMenuDestination/Destination menuDestination)
-    // Offset: 0x1F861F4
+    // Offset: 0x119DE40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectSubMenuDestination* New_ctor(GlobalNamespace::SelectSubMenuDestination::Destination menuDestination) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SelectSubMenuDestination::.ctor");

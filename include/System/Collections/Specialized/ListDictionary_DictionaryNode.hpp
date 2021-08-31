@@ -53,7 +53,7 @@ namespace System::Collections::Specialized {
     // Set instance field: public System.Collections.Specialized.ListDictionary/System.Collections.Specialized.DictionaryNode next
     void _set_next(System::Collections::Specialized::ListDictionary::DictionaryNode* value);
     // public System.Void .ctor()
-    // Offset: 0x15152DC
+    // Offset: 0x18AA8CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

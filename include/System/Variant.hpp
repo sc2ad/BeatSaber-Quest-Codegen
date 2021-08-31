@@ -231,7 +231,7 @@ namespace System {
     // Set instance field: public System.BRECORD bRecord
     void _set_bRecord(System::BRECORD value);
     // public System.Void Clear()
-    // Offset: 0xD91A34
+    // Offset: 0x23317AC
     void Clear();
   }; // System.Variant
   #pragma pack(pop)

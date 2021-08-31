@@ -116,32 +116,32 @@ namespace NUnit::Framework {
     // Set instance field: public NUnit.Framework.TestFixtureAttribute <>4__this
     void _set_$$4__this(NUnit::Framework::TestFixtureAttribute* value);
     // private NUnit.Framework.Internal.TestSuite System.Collections.Generic.IEnumerator<NUnit.Framework.Internal.TestSuite>.get_Current()
-    // Offset: 0x1D17B64
+    // Offset: 0x22A56A8
     NUnit::Framework::Internal::TestSuite* System_Collections_Generic_IEnumerator$NUnit_Framework_Internal_TestSuite$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1D17BCC
+    // Offset: 0x22A5710
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1D17AA8
+    // Offset: 0x22A55EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestFixtureAttribute::$BuildFrom$d__48* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestFixtureAttribute::$BuildFrom$d__48*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1D17AF0
+    // Offset: 0x22A5634
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1D17AF4
+    // Offset: 0x22A5638
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1D17B6C
+    // Offset: 0x22A56B0
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<NUnit.Framework.Internal.TestSuite> System.Collections.Generic.IEnumerable<NUnit.Framework.Internal.TestSuite>.GetEnumerator()
-    // Offset: 0x1D17BD4
+    // Offset: 0x22A5718
     System::Collections::Generic::IEnumerator_1<NUnit::Framework::Internal::TestSuite*>* System_Collections_Generic_IEnumerable$NUnit_Framework_Internal_TestSuite$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1D17C84
+    // Offset: 0x22A57C8
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // NUnit.Framework.TestFixtureAttribute/NUnit.Framework.<BuildFrom>d__48
   #pragma pack(pop)

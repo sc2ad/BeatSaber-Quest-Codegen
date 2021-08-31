@@ -52,13 +52,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.AddressableAssets.AssetReference _prefabAssetReference
     void _set__prefabAssetReference(UnityEngine::AddressableAssets::AssetReference* value);
     // public System.Int32 get_id()
-    // Offset: 0x1F35900
+    // Offset: 0x11866B8
     int get_id();
     // public UnityEngine.AddressableAssets.AssetReference get_prefabAssetReference()
-    // Offset: 0x1F35908
+    // Offset: 0x11866C0
     UnityEngine::AddressableAssets::AssetReference* get_prefabAssetReference();
     // public System.Void .ctor()
-    // Offset: 0x1F35910
+    // Offset: 0x11866C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

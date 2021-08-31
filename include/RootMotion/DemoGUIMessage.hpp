@@ -47,10 +47,10 @@ namespace RootMotion {
     // Set instance field: public UnityEngine.Color color
     void _set_color(UnityEngine::Color value);
     // private System.Void OnGUI()
-    // Offset: 0x1879414
+    // Offset: 0x1D2E138
     void OnGUI();
     // public System.Void .ctor()
-    // Offset: 0x1879554
+    // Offset: 0x1D2E278
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

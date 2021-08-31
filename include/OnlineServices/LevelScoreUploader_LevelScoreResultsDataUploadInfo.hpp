@@ -45,7 +45,7 @@ namespace OnlineServices {
     // Set instance field: public System.Int32 uploadAttemptCountLeft
     void _set_uploadAttemptCountLeft(int value);
     // public System.Void .ctor()
-    // Offset: 0x1E4C8BC
+    // Offset: 0x1029E54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

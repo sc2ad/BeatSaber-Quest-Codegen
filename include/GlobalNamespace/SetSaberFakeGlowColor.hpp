@@ -41,8 +41,8 @@ namespace GlobalNamespace {
     UnityEngine::Color tintColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // [SpaceAttribute] Offset: 0xEB6624
-    // [NullAllowed] Offset: 0xEB6624
+    // [SpaceAttribute] Offset: 0xE3C404
+    // [NullAllowed] Offset: 0xE3C404
     // private SaberTypeObject _saberTypeObject
     // Size: 0x8
     // Offset: 0x28
@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     GlobalNamespace::Parametric3SliceSpriteController* parametric3SliceSprite;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Parametric3SliceSpriteController*) == 0x8);
-    // [InjectAttribute] Offset: 0xEB667C
+    // [InjectAttribute] Offset: 0xE3C45C
     // private ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x38
@@ -93,16 +93,16 @@ namespace GlobalNamespace {
     // Set instance field: private SaberType _saberType
     void _set__saberType(GlobalNamespace::SaberType value);
     // public System.Void set_saberType(SaberType value)
-    // Offset: 0x1EBD05C
+    // Offset: 0x107796C
     void set_saberType(GlobalNamespace::SaberType value);
     // protected System.Void Start()
-    // Offset: 0x1EBD0C8
+    // Offset: 0x10779D8
     void Start();
     // private System.Void SetColors()
-    // Offset: 0x1EBD068
+    // Offset: 0x1077978
     void SetColors();
     // public System.Void .ctor()
-    // Offset: 0x1EBD158
+    // Offset: 0x1077A68
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

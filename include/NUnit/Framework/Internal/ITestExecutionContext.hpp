@@ -50,6 +50,9 @@ namespace NUnit::Framework::Internal {
     // public System.Void set_TestObject(System.Object value)
     // Offset: 0xFFFFFFFF
     void set_TestObject(::Il2CppObject* value);
+    // public System.Int32 get_TestCaseTimeout()
+    // Offset: 0xFFFFFFFF
+    int get_TestCaseTimeout();
     // public NUnit.Framework.Constraints.ValueFormatter get_CurrentValueFormatter()
     // Offset: 0xFFFFFFFF
     NUnit::Framework::Constraints::ValueFormatter* get_CurrentValueFormatter();
@@ -102,6 +105,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ITestExecutionContext*), "set_TestObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: NUnit::Framework::Internal::ITestExecutionContext::get_TestCaseTimeout
+// Il2CppName: get_TestCaseTimeout
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NUnit::Framework::Internal::ITestExecutionContext::*)()>(&NUnit::Framework::Internal::ITestExecutionContext::get_TestCaseTimeout)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ITestExecutionContext*), "get_TestCaseTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ITestExecutionContext::get_CurrentValueFormatter

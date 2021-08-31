@@ -62,14 +62,14 @@ namespace System::Runtime::Remoting::Messaging {
     // Set instance field: private System.Reflection.MethodBase _method
     void _set__method(System::Reflection::MethodBase* value);
     // public System.Void .ctor(System.Reflection.MethodBase method, System.Runtime.Remoting.Messaging.ArgInfoType type)
-    // Offset: 0x16AA0A4
+    // Offset: 0x1A45368
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArgInfo* New_ctor(System::Reflection::MethodBase* method, System::Runtime::Remoting::Messaging::ArgInfoType type) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::ArgInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArgInfo*, creationType>(method, type)));
     }
     // public System.Object[] GetInOutArgs(System.Object[] args)
-    // Offset: 0x16AA268
+    // Offset: 0x1A4552C
     ::Array<::Il2CppObject*>* GetInOutArgs(::Array<::Il2CppObject*>* args);
   }; // System.Runtime.Remoting.Messaging.ArgInfo
   #pragma pack(pop)

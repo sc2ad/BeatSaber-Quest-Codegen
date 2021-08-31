@@ -75,10 +75,10 @@ namespace System::Threading {
     // Set instance field: System.Threading.Thread thread
     void _set_thread(System::Threading::Thread* value);
     // System.Boolean UndoNoThrow()
-    // Offset: 0xD7E748
+    // Offset: 0x18F54C0
     bool UndoNoThrow();
     // System.Void Undo()
-    // Offset: 0xD7E750
+    // Offset: 0x18F5360
     void Undo();
   }; // System.Threading.ExecutionContextSwitcher
   #pragma pack(pop)

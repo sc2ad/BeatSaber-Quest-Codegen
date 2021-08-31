@@ -195,7 +195,7 @@ namespace GlobalNamespace {
     // Set instance field: public EnvironmentEffectsFilterPreset environmentEffectsFilterExpertPlusPreset
     void _set_environmentEffectsFilterExpertPlusPreset(GlobalNamespace::EnvironmentEffectsFilterPreset value);
     // public System.Void .ctor()
-    // Offset: 0x1F5419C
+    // Offset: 0x113761C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

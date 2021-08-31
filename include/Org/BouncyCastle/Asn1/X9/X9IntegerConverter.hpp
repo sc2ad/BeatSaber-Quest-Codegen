@@ -29,10 +29,10 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Creating value type constructor for type: X9IntegerConverter
     X9IntegerConverter() noexcept {}
     // static public System.Int32 GetByteLength(Org.BouncyCastle.Math.EC.ECFieldElement fe)
-    // Offset: 0x16A0724
+    // Offset: 0x1A09B9C
     static int GetByteLength(Org::BouncyCastle::Math::EC::ECFieldElement* fe);
     // static public System.Byte[] IntegerToBytes(Org.BouncyCastle.Math.BigInteger s, System.Int32 qLength)
-    // Offset: 0x16A075C
+    // Offset: 0x1A09BD4
     static ::Array<uint8_t>* IntegerToBytes(Org::BouncyCastle::Math::BigInteger* s, int qLength);
   }; // Org.BouncyCastle.Asn1.X9.X9IntegerConverter
   #pragma pack(pop)

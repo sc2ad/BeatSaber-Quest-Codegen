@@ -37,7 +37,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly System.Boolean Success
     void _set_Success(bool value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x2104978
+    // Offset: 0x14F0CD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserDataStoreUpdateResponse* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::UserDataStoreUpdateResponse::.ctor");

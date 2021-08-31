@@ -49,22 +49,22 @@ namespace Zenject {
     // Set instance field: private Zenject.DiContainer <Container>k__BackingField
     void _set_$Container$k__BackingField(Zenject::DiContainer* value);
     // protected Zenject.DiContainer get_Container()
-    // Offset: 0x13C7D7C
+    // Offset: 0x1713A64
     Zenject::DiContainer* get_Container();
     // protected System.Void set_Container(Zenject.DiContainer value)
-    // Offset: 0x13C7D84
+    // Offset: 0x1713A6C
     void set_Container(Zenject::DiContainer* value);
     // public System.Boolean get_IsEnabled()
-    // Offset: 0x13C7D8C
+    // Offset: 0x1713A74
     bool get_IsEnabled();
     // public System.Void Start()
-    // Offset: 0x13C7D94
+    // Offset: 0x1713A7C
     void Start();
     // public System.Void InstallBindings()
-    // Offset: 0x13C7D98
+    // Offset: 0x1713A80
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x13C7D74
+    // Offset: 0x1713A5C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

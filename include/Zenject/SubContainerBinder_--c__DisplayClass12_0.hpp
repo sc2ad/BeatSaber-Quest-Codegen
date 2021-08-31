@@ -61,10 +61,10 @@ namespace Zenject {
     // Set instance field: public System.Action`1<Zenject.DiContainer> installerMethod
     void _set_installerMethod(System::Action_1<Zenject::DiContainer*>* value);
     // Zenject.ISubContainerCreator <ByNewGameObjectMethod>b__0(Zenject.DiContainer container)
-    // Offset: 0x13D3544
+    // Offset: 0x171F22C
     Zenject::ISubContainerCreator* $ByNewGameObjectMethod$b__0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x13D289C
+    // Offset: 0x171E584
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

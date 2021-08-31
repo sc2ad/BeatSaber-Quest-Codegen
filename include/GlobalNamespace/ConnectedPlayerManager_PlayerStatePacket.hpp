@@ -66,22 +66,22 @@ namespace GlobalNamespace {
     // Set instance field: public PlayerStateHash playerState
     void _set_playerState(GlobalNamespace::PlayerStateHash value);
     // static public PacketPool`1<ConnectedPlayerManager/PlayerStatePacket> get_pool()
-    // Offset: 0x1092D98
+    // Offset: 0x1320DC8
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::PlayerStatePacket*>* get_pool();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1096084
+    // Offset: 0x13240B4
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1096090
+    // Offset: 0x13240C0
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x10960BC
+    // Offset: 0x13240EC
     void Release();
     // public ConnectedPlayerManager/PlayerStatePacket Init(PlayerStateHash states)
-    // Offset: 0x1095A90
+    // Offset: 0x1323AC0
     GlobalNamespace::ConnectedPlayerManager::PlayerStatePacket* Init(GlobalNamespace::PlayerStateHash states);
     // public System.Void .ctor()
-    // Offset: 0x1096118
+    // Offset: 0x1324148
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -43,10 +43,10 @@ namespace GlobalNamespace {
     // Set instance field: public System.Int32 value
     void _set_value(int value);
     // public System.String get_localizedText()
-    // Offset: 0x1E61BA0
+    // Offset: 0x103D5CC
     ::Il2CppString* get_localizedText();
     // public System.Void .ctor()
-    // Offset: 0x1E61BB4
+    // Offset: 0x103D5E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

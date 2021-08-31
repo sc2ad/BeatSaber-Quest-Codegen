@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Single heightFogHeight
     void _set_heightFogHeight(float value);
     // public System.Void .ctor()
-    // Offset: 0x195D594
+    // Offset: 0x1E11118
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

@@ -88,19 +88,19 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set instance field: protected System.Byte[] workingKey
     void _set_workingKey(::Array<uint8_t>* value);
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1587CE4
+    // Offset: 0x1906940
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // protected System.Void InitKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
-    // Offset: 0x1587E60
+    // Offset: 0x1906ABC
     void InitKey(::Array<uint8_t>* keyBytes, ::Array<uint8_t>* ivBytes);
     // public System.Void ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x158808C
+    // Offset: 0x1906CE8
     void ProcessBytes(::Array<uint8_t>* input, int inOff, int len, ::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x158826C
+    // Offset: 0x1906EC8
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x158827C
+    // Offset: 0x1906ED8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -58,16 +58,16 @@ namespace System::Runtime::Serialization {
     // Set instance field: private System.Int32[] m_parentIndex
     void _set_m_parentIndex(::Array<int>* value);
     // public System.Int64 get_ContainerID()
-    // Offset: 0x13876B4
+    // Offset: 0x16C0664
     int64_t get_ContainerID();
     // public System.Reflection.FieldInfo get_ParentField()
-    // Offset: 0x13876BC
+    // Offset: 0x16C066C
     System::Reflection::FieldInfo* get_ParentField();
     // public System.Int32[] get_ParentIndex()
-    // Offset: 0x13876C4
+    // Offset: 0x16C0674
     ::Array<int>* get_ParentIndex();
     // public System.Void .ctor(System.Int64 containerID, System.Reflection.FieldInfo member, System.Int32[] parentIndex)
-    // Offset: 0x137E67C
+    // Offset: 0x16B762C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValueTypeFixupInfo* New_ctor(int64_t containerID, System::Reflection::FieldInfo* member, ::Array<int>* parentIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::ValueTypeFixupInfo::.ctor");

@@ -17,7 +17,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: VersionStringHelper
     VersionStringHelper() noexcept {}
     // static public System.Int32 GetMajorVersionNumber(System.String versionString)
-    // Offset: 0x1DE65B8
+    // Offset: 0x239CA2C
     static int GetMajorVersionNumber(::Il2CppString* versionString);
   }; // VersionStringHelper
   #pragma pack(pop)

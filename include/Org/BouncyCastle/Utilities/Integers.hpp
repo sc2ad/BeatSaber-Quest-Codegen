@@ -17,16 +17,16 @@ namespace Org::BouncyCastle::Utilities {
     // Creating value type constructor for type: Integers
     Integers() noexcept {}
     // static public System.Int32 NumberOfLeadingZeros(System.Int32 i)
-    // Offset: 0x1A637A4
+    // Offset: 0x1FEE668
     static int NumberOfLeadingZeros(int i);
     // static public System.Int32 NumberOfTrailingZeros(System.Int32 i)
-    // Offset: 0x1A63820
+    // Offset: 0x1FEE6E4
     static int NumberOfTrailingZeros(int i);
     // static public System.Int32 RotateLeft(System.Int32 i, System.Int32 distance)
-    // Offset: 0x1A63854
+    // Offset: 0x1FEE718
     static int RotateLeft(int i, int distance);
     // static public System.UInt32 RotateLeft(System.UInt32 i, System.Int32 distance)
-    // Offset: 0x1A63868
+    // Offset: 0x1FEE72C
     static uint RotateLeft(uint i, int distance);
   }; // Org.BouncyCastle.Utilities.Integers
   #pragma pack(pop)

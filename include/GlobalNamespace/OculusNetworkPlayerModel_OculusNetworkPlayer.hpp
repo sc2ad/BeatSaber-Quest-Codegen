@@ -178,119 +178,119 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean <isWaitingOnInvite>k__BackingField
     void _set_$isWaitingOnInvite$k__BackingField(bool value);
     // public System.UInt64 get_id()
-    // Offset: 0x20233D4
+    // Offset: 0x123D2FC
     uint64_t get_id();
     // public System.String get_userId()
-    // Offset: 0x20233DC
+    // Offset: 0x123D304
     ::Il2CppString* get_userId();
     // public System.String get_userName()
-    // Offset: 0x20233E4
+    // Offset: 0x123D30C
     ::Il2CppString* get_userName();
     // public System.Boolean get_isMe()
-    // Offset: 0x20233EC
+    // Offset: 0x123D314
     bool get_isMe();
     // public System.Boolean get_isPartyOwner()
-    // Offset: 0x20206C8
+    // Offset: 0x123A5F0
     bool get_isPartyOwner();
     // public System.Boolean get_isRoomOwner()
-    // Offset: 0x20233F4
+    // Offset: 0x123D31C
     bool get_isRoomOwner();
     // public System.Int32 get_currentPartySize()
-    // Offset: 0x2023490
+    // Offset: 0x123D3B8
     int get_currentPartySize();
     // public BeatmapLevelSelectionMask get_selectionMask()
-    // Offset: 0x202355C
+    // Offset: 0x123D484
     GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask();
     // public GameplayServerConfiguration get_configuration()
-    // Offset: 0x2023754
+    // Offset: 0x123D67C
     GlobalNamespace::GameplayServerConfiguration get_configuration();
     // public Oculus.Platform.Models.Room get_room()
-    // Offset: 0x2023A98
+    // Offset: 0x123D9C0
     Oculus::Platform::Models::Room* get_room();
     // public System.Void set_room(Oculus.Platform.Models.Room value)
-    // Offset: 0x2021934
+    // Offset: 0x123B85C
     void set_room(Oculus::Platform::Models::Room* value);
     // public IConnectedPlayer get_connectedPlayer()
-    // Offset: 0x2023AA0
+    // Offset: 0x123D9C8
     GlobalNamespace::IConnectedPlayer* get_connectedPlayer();
     // public System.Void set_connectedPlayer(IConnectedPlayer value)
-    // Offset: 0x2023AA8
+    // Offset: 0x123D9D0
     void set_connectedPlayer(GlobalNamespace::IConnectedPlayer* value);
     // public System.Boolean get_isMyPartyOwner()
-    // Offset: 0x2023AB0
+    // Offset: 0x123D9D8
     bool get_isMyPartyOwner();
     // public System.Boolean get_canJoin()
-    // Offset: 0x2023B2C
+    // Offset: 0x123DA54
     bool get_canJoin();
     // public System.Boolean get_requiresPassword()
-    // Offset: 0x2023C30
+    // Offset: 0x123DB58
     bool get_requiresPassword();
     // public System.Boolean get_isWaitingOnJoin()
-    // Offset: 0x2023C3C
+    // Offset: 0x123DB64
     bool get_isWaitingOnJoin();
     // private System.Void set_isWaitingOnJoin(System.Boolean value)
-    // Offset: 0x2023C44
+    // Offset: 0x123DB6C
     void set_isWaitingOnJoin(bool value);
     // public System.Boolean get_canInvite()
-    // Offset: 0x2023C50
+    // Offset: 0x123DB78
     bool get_canInvite();
     // public System.Boolean get_isWaitingOnInvite()
-    // Offset: 0x2023D3C
+    // Offset: 0x123DC64
     bool get_isWaitingOnInvite();
     // public System.Void set_isWaitingOnInvite(System.Boolean value)
-    // Offset: 0x2023D44
+    // Offset: 0x123DC6C
     void set_isWaitingOnInvite(bool value);
     // public System.Boolean get_canKick()
-    // Offset: 0x2023D50
+    // Offset: 0x123DC78
     bool get_canKick();
     // public System.Boolean get_canLeave()
-    // Offset: 0x2023EE8
+    // Offset: 0x123DE10
     bool get_canLeave();
     // public System.Boolean get_canBlock()
-    // Offset: 0x2023FA8
+    // Offset: 0x123DED0
     bool get_canBlock();
     // public System.Boolean get_canUnblock()
-    // Offset: 0x2023FB4
+    // Offset: 0x123DEDC
     bool get_canUnblock();
     // public System.Void .ctor(OculusNetworkPlayerModel playerModel, System.UInt64 id, System.String userName, System.Boolean isMe)
-    // Offset: 0x20219E8
+    // Offset: 0x123B910
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusNetworkPlayerModel::OculusNetworkPlayer* New_ctor(GlobalNamespace::OculusNetworkPlayerModel* playerModel, uint64_t id, ::Il2CppString* userName, bool isMe) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusNetworkPlayerModel::OculusNetworkPlayer*, creationType>(playerModel, id, userName, isMe)));
     }
     // public System.Void Join()
-    // Offset: 0x2023B4C
+    // Offset: 0x123DA74
     void Join();
     // public System.Void Join(System.String password)
-    // Offset: 0x2023C38
+    // Offset: 0x123DB60
     void Join(::Il2CppString* password);
     // public System.Void Invite()
-    // Offset: 0x2023CD0
+    // Offset: 0x123DBF8
     void Invite();
     // public System.Void Kick()
-    // Offset: 0x2023DCC
+    // Offset: 0x123DCF4
     void Kick();
     // public System.Void Leave()
-    // Offset: 0x2023F84
+    // Offset: 0x123DEAC
     void Leave();
     // public System.Void Block()
-    // Offset: 0x2023FB0
+    // Offset: 0x123DED8
     void Block();
     // public System.Void Unblock()
-    // Offset: 0x2023FBC
+    // Offset: 0x123DEE4
     void Unblock();
     // public System.Void SendJoinResponse(System.Boolean accept)
-    // Offset: 0x2023FC0
+    // Offset: 0x123DEE8
     void SendJoinResponse(bool accept);
     // public System.Void SendInviteResponse(System.Boolean accept)
-    // Offset: 0x2024020
+    // Offset: 0x123DF48
     void SendInviteResponse(bool accept);
     // public System.Boolean SameRoomAs(OculusNetworkPlayerModel/OculusNetworkPlayer other)
-    // Offset: 0x2021FF0
+    // Offset: 0x123BF18
     bool SameRoomAs(GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer* other);
     // private System.Void <Join>b__40_0(Oculus.Platform.Message`1<Oculus.Platform.Models.Room> result)
-    // Offset: 0x202402C
+    // Offset: 0x123DF54
     void $Join$b__40_0(Oculus::Platform::Message_1<Oculus::Platform::Models::Room*>* result);
   }; // OculusNetworkPlayerModel/OculusNetworkPlayer
   // WARNING Not writing size check since size may be invalid!

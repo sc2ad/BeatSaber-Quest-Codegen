@@ -91,10 +91,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<IBeatmapLevelPackCollection> <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IBeatmapLevelPackCollection*> value);
     // private System.Void MoveNext()
-    // Offset: 0xF7C4A4
+    // Offset: 0x11524B4
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xF7C4AC
+    // Offset: 0x1152924
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // LevelFilteringNavigationController/<UpdateCustomSongs>d__45
   // WARNING Not writing size check since size may be invalid!

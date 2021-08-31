@@ -51,7 +51,7 @@ namespace OnlineServices::API {
     // Set instance field: public OnlineServices.API.HTTPLeaderboardsOathHelper <>4__this
     void _set_$$4__this(OnlineServices::API::HTTPLeaderboardsOathHelper* value);
     // public System.Void .ctor()
-    // Offset: 0x1E49D84
+    // Offset: 0x102731C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

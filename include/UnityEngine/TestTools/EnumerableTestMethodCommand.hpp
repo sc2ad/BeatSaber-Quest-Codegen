@@ -45,8 +45,8 @@ namespace UnityEngine::TestTools {
     public:
     // Nested type: UnityEngine::TestTools::EnumerableTestMethodCommand::$ExecuteEnumerable$d__2
     class $ExecuteEnumerable$d__2;
-    // Nested type: UnityEngine::TestTools::EnumerableTestMethodCommand::$ExecuteEnumerableAndRecordExceptions$d__3
-    class $ExecuteEnumerableAndRecordExceptions$d__3;
+    // Nested type: UnityEngine::TestTools::EnumerableTestMethodCommand::$ExecuteEnumerableAndRecordExceptions$d__4
+    class $ExecuteEnumerableAndRecordExceptions$d__4;
     // private readonly NUnit.Framework.Internal.TestMethod testMethod
     // Size: 0x8
     // Offset: 0x18
@@ -66,20 +66,23 @@ namespace UnityEngine::TestTools {
     // Set instance field: private readonly NUnit.Framework.Internal.TestMethod testMethod
     void _set_testMethod(NUnit::Framework::Internal::TestMethod* value);
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod testMethod)
-    // Offset: 0x11F0658
+    // Offset: 0x14B6298
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumerableTestMethodCommand* New_ctor(NUnit::Framework::Internal::TestMethod* testMethod) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::EnumerableTestMethodCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumerableTestMethodCommand*, creationType>(testMethod)));
     }
     // public System.Collections.IEnumerable ExecuteEnumerable(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x11FA980
+    // Offset: 0x14C05C0
     System::Collections::IEnumerable* ExecuteEnumerable(NUnit::Framework::Internal::ITestExecutionContext* context);
+    // private System.Boolean AdvanceEnumerator(System.Collections.IEnumerator enumerator)
+    // Offset: 0x14C0688
+    bool AdvanceEnumerator(System::Collections::IEnumerator* enumerator);
     // static private System.Collections.IEnumerator ExecuteEnumerableAndRecordExceptions(System.Collections.IEnumerator enumerator, NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x11FAA48
+    // Offset: 0x14C07C4
     static System::Collections::IEnumerator* ExecuteEnumerableAndRecordExceptions(System::Collections::IEnumerator* enumerator, NUnit::Framework::Internal::ITestExecutionContext* context);
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x11FAAF0
+    // Offset: 0x14C086C
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);
@@ -101,6 +104,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
   static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "ITestExecutionContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::EnumerableTestMethodCommand*), "ExecuteEnumerable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
+  }
+};
+// Writing MetadataGetter for method: UnityEngine::TestTools::EnumerableTestMethodCommand::AdvanceEnumerator
+// Il2CppName: AdvanceEnumerator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::EnumerableTestMethodCommand::*)(System::Collections::IEnumerator*)>(&UnityEngine::TestTools::EnumerableTestMethodCommand::AdvanceEnumerator)> {
+  static const MethodInfo* get() {
+    static auto* enumerator = &::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerator")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::EnumerableTestMethodCommand*), "AdvanceEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumerator});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::TestTools::EnumerableTestMethodCommand::ExecuteEnumerableAndRecordExceptions

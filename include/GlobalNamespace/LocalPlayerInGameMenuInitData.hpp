@@ -74,7 +74,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Boolean hasSong
     void _set_hasSong(bool value);
     // public System.Void .ctor(IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic, System.Boolean hasSong)
-    // Offset: 0x1FA7EB8
+    // Offset: 0x10DE190
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalPlayerInGameMenuInitData* New_ctor(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, bool hasSong) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalPlayerInGameMenuInitData::.ctor");

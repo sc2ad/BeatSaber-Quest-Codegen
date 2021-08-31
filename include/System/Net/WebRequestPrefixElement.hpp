@@ -63,13 +63,13 @@ namespace System::Net {
     // Set instance field: System.Type creatorType
     void _set_creatorType(System::Type* value);
     // public System.Net.IWebRequestCreate get_Creator()
-    // Offset: 0x12A1980
+    // Offset: 0x15D9C10
     System::Net::IWebRequestCreate* get_Creator();
     // public System.Void set_Creator(System.Net.IWebRequestCreate value)
-    // Offset: 0x12A3458
+    // Offset: 0x15DB6E8
     void set_Creator(System::Net::IWebRequestCreate* value);
     // public System.Void .ctor(System.String P, System.Net.IWebRequestCreate C)
-    // Offset: 0x12A1DB4
+    // Offset: 0x15DA044
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebRequestPrefixElement* New_ctor(::Il2CppString* P, System::Net::IWebRequestCreate* C) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebRequestPrefixElement::.ctor");

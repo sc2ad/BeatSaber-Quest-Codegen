@@ -80,10 +80,10 @@ namespace UnityEngine::TestTools::TestRunner {
     // Set instance field: public System.String bootstrapScene
     void _set_bootstrapScene(::Il2CppString* value);
     // NUnit.Framework.Interfaces.ITestFilter BuildNUnitFilter()
-    // Offset: 0x1202BE4
+    // Offset: 0x14C8A08
     NUnit::Framework::Interfaces::ITestFilter* BuildNUnitFilter();
     // public System.Void .ctor()
-    // Offset: 0x1202690
+    // Offset: 0x14C84E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

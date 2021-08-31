@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::CustomTweenBehaviour::$$c
     class $$c;
-    // [NullAllowed] Offset: 0xEBF4A8
+    // [NullAllowed] Offset: 0xE45728
     // public UnityEngine.Transform[] _transforms
     // Size: 0x8
     // Offset: 0x10
@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: startLocationCurrentPosition and: startLocalPos
     char __padding1[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xEBF4E0
+    // [DrawIfAttribute] Offset: 0xE45760
     // public UnityEngine.Vector3 startLocalPos
     // Size: 0xC
     // Offset: 0x1C
@@ -91,7 +91,7 @@ namespace GlobalNamespace {
     float elementDelay;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xEBF584
+    // [SpaceAttribute] Offset: 0xE45804
     // public System.Boolean _lockX
     // Size: 0x1
     // Offset: 0x40
@@ -235,7 +235,7 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single[] _randomizedDuration
     void _set__randomizedDuration(::Array<float>* value);
     // public System.Void .ctor()
-    // Offset: 0x1F07C78
+    // Offset: 0x10F7AA4
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -245,22 +245,22 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CustomTweenBehaviour*, creationType>()));
     }
     // public override System.Void OnGraphStart(UnityEngine.Playables.Playable playable)
-    // Offset: 0x1F07310
+    // Offset: 0x10F713C
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnGraphStart(UnityEngine.Playables.Playable playable)
     void OnGraphStart(UnityEngine::Playables::Playable playable);
     // public override System.Void ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
-    // Offset: 0x1F07454
+    // Offset: 0x10F7280
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
     void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);
     // public override System.Void OnPlayableDestroy(UnityEngine.Playables.Playable playable)
-    // Offset: 0x1F07980
+    // Offset: 0x10F77AC
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnPlayableDestroy(UnityEngine.Playables.Playable playable)
     void OnPlayableDestroy(UnityEngine::Playables::Playable playable);
     // public override System.Void OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x1F07A9C
+    // Offset: 0x10F78C8
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void OnBehaviourPlay(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);

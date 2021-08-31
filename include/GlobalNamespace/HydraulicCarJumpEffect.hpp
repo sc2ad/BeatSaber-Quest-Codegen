@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     ::Array<int>* eventValues;
     // Field size check
     static_assert(sizeof(::Array<int>*) == 0x8);
-    // [SpaceAttribute] Offset: 0xEAAE64
+    // [SpaceAttribute] Offset: 0xE30C14
     // private UnityEngine.Vector3 _impulse
     // Size: 0xC
     // Offset: 0x28
@@ -81,14 +81,14 @@ namespace GlobalNamespace {
     float minDelayBetweenEvents;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xEAAECC
+    // [SpaceAttribute] Offset: 0xE30C7C
     // private UnityEngine.Rigidbody _rigidbody
     // Size: 0x8
     // Offset: 0x48
     UnityEngine::Rigidbody* rigidbody;
     // Field size check
     static_assert(sizeof(UnityEngine::Rigidbody*) == 0x8);
-    // [InjectAttribute] Offset: 0xEAAF04
+    // [InjectAttribute] Offset: 0xE30CB4
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x50
@@ -154,16 +154,16 @@ namespace GlobalNamespace {
     // Set instance field: private System.Collections.Generic.HashSet`1<System.Int32> _eventValuesHashSet
     void _set__eventValuesHashSet(System::Collections::Generic::HashSet_1<int>* value);
     // protected System.Void Start()
-    // Offset: 0x1F3E1DC
+    // Offset: 0x1144AF4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1F3E2FC
+    // Offset: 0x1144C14
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x1F3E3FC
+    // Offset: 0x1144D14
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0x1F3E57C
+    // Offset: 0x1144E94
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

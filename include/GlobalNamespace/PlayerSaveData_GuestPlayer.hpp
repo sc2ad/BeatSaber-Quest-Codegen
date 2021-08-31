@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.String playerName
     void _set_playerName(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x1F542BC
+    // Offset: 0x113773C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -50,32 +50,32 @@ namespace NUnit::Framework::Internal::Execution {
     // Set instance field: private System.String _streamName
     void _set__streamName(::Il2CppString* value);
     // public System.Void .ctor(System.String streamName, System.IO.TextWriter defaultWriter)
-    // Offset: 0x142E8D4
+    // Offset: 0x177A574
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventListenerTextWriter* New_ctor(::Il2CppString* streamName, System::IO::TextWriter* defaultWriter) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Execution::EventListenerTextWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventListenerTextWriter*, creationType>(streamName, defaultWriter)));
     }
     // private System.Boolean TrySendToListener(System.String text)
-    // Offset: 0x142E9AC
+    // Offset: 0x177A64C
     bool TrySendToListener(::Il2CppString* text);
     // public override System.Text.Encoding get_Encoding()
-    // Offset: 0x142EBC8
+    // Offset: 0x177A868
     // Implemented from: System.IO.TextWriter
     // Base method: System.Text.Encoding TextWriter::get_Encoding()
     System::Text::Encoding* get_Encoding();
     // public override System.Void Write(System.Char aChar)
-    // Offset: 0x142E954
+    // Offset: 0x177A5F4
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.Char aChar)
     void Write(::Il2CppChar aChar);
     // public override System.Void Write(System.String aString)
-    // Offset: 0x142EB08
+    // Offset: 0x177A7A8
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.String aString)
     void Write(::Il2CppString* aString);
     // public override System.Void WriteLine(System.String aString)
-    // Offset: 0x142EB58
+    // Offset: 0x177A7F8
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::WriteLine(System.String aString)
     void WriteLine(::Il2CppString* aString);

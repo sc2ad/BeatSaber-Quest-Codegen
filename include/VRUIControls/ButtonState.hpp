@@ -62,25 +62,25 @@ namespace VRUIControls {
     // Set instance field: private System.Single _pressedValue
     void _set__pressedValue(float value);
     // public VRUIControls.MouseButtonEventData get_eventData()
-    // Offset: 0x1DC997C
+    // Offset: 0x239DF60
     VRUIControls::MouseButtonEventData* get_eventData();
     // public System.Void set_eventData(VRUIControls.MouseButtonEventData value)
-    // Offset: 0x1DC9984
+    // Offset: 0x239DF68
     void set_eventData(VRUIControls::MouseButtonEventData* value);
     // public UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton get_button()
-    // Offset: 0x1DC998C
+    // Offset: 0x239DF70
     UnityEngine::EventSystems::PointerEventData::InputButton get_button();
     // public System.Void set_button(UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton value)
-    // Offset: 0x1DC9994
+    // Offset: 0x239DF78
     void set_button(UnityEngine::EventSystems::PointerEventData::InputButton value);
     // public System.Single get_pressedValue()
-    // Offset: 0x1DC999C
+    // Offset: 0x239DF80
     float get_pressedValue();
     // public System.Void set_pressedValue(System.Single value)
-    // Offset: 0x1DC99A4
+    // Offset: 0x239DF88
     void set_pressedValue(float value);
     // public System.Void .ctor()
-    // Offset: 0x1DC99AC
+    // Offset: 0x239DF90
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.AudioSource _audioSource
     void _set__audioSource(UnityEngine::AudioSource* value);
     // public System.Void .ctor()
-    // Offset: 0x1F0BF34
+    // Offset: 0x10FBD60
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

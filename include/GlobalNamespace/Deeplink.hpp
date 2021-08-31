@@ -91,7 +91,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.UInt64 MultiplayerRoomId
     void _set_MultiplayerRoomId(uint64_t value);
     // public System.Void .ctor()
-    // Offset: 0x1F0A24C
+    // Offset: 0x10FA078
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

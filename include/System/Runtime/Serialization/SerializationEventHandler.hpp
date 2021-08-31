@@ -36,20 +36,20 @@ namespace System::Runtime::Serialization {
     // Creating value type constructor for type: SerializationEventHandler
     SerializationEventHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x13847FC
+    // Offset: 0x16BD7AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerializationEventHandler* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::SerializationEventHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerializationEventHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1382918
+    // Offset: 0x16BB8C8
     void Invoke(System::Runtime::Serialization::StreamingContext context);
     // public System.IAsyncResult BeginInvoke(System.Runtime.Serialization.StreamingContext context, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x138480C
+    // Offset: 0x16BD7BC
     System::IAsyncResult* BeginInvoke(System::Runtime::Serialization::StreamingContext context, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1384898
+    // Offset: 0x16BD848
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Runtime.Serialization.SerializationEventHandler
   #pragma pack(pop)

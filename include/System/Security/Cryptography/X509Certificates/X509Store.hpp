@@ -101,29 +101,29 @@ namespace System::Security::Cryptography::X509Certificates {
     // Set instance field: private Mono.Security.X509.X509Store store
     void _set_store(Mono::Security::X509::X509Store* value);
     // public System.Security.Cryptography.X509Certificates.X509Certificate2Collection get_Certificates()
-    // Offset: 0x150095C
+    // Offset: 0x1862048
     System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_Certificates();
     // private Mono.Security.X509.X509Stores get_Factory()
-    // Offset: 0x1504F64
+    // Offset: 0x1866650
     Mono::Security::X509::X509Stores* get_Factory();
     // Mono.Security.X509.X509Store get_Store()
-    // Offset: 0x1504F80
+    // Offset: 0x186666C
     Mono::Security::X509::X509Store* get_Store();
     // public System.Void .ctor(System.Security.Cryptography.X509Certificates.StoreName storeName, System.Security.Cryptography.X509Certificates.StoreLocation storeLocation)
-    // Offset: 0x1500C98
+    // Offset: 0x1862384
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Store* New_ctor(System::Security::Cryptography::X509Certificates::StoreName storeName, System::Security::Cryptography::X509Certificates::StoreLocation storeLocation) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509Store::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Store*, creationType>(storeName, storeLocation)));
     }
     // public System.Void Close()
-    // Offset: 0x150068C
+    // Offset: 0x1861D78
     void Close();
     // public System.Void Dispose()
-    // Offset: 0x1504F88
+    // Offset: 0x1866674
     void Dispose();
     // public System.Void Open(System.Security.Cryptography.X509Certificates.OpenFlags flags)
-    // Offset: 0x1500DD4
+    // Offset: 0x18624C0
     void Open(System::Security::Cryptography::X509Certificates::OpenFlags flags);
   }; // System.Security.Cryptography.X509Certificates.X509Store
   #pragma pack(pop)

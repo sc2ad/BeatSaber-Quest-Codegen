@@ -77,26 +77,26 @@ namespace Zenject {
     // Set instance field: private UnityEngine.GameObject _gameObject
     void _set__gameObject(UnityEngine::GameObject* value);
     // public System.Collections.Generic.List`1<Zenject.TypeValuePair> get_ExtraArguments()
-    // Offset: 0x13CAB94
+    // Offset: 0x171687C
     System::Collections::Generic::List_1<Zenject::TypeValuePair>* get_ExtraArguments();
     // public System.Type get_ArgumentTarget()
-    // Offset: 0x13CAC48
+    // Offset: 0x1716930
     System::Type* get_ArgumentTarget();
     // public Zenject.GameObjectCreationParameters get_GameObjectCreationParameters()
-    // Offset: 0x13CACF8
+    // Offset: 0x17169E0
     Zenject::GameObjectCreationParameters* get_GameObjectCreationParameters();
     // public System.Void .ctor(Zenject.IPrefabInstantiator subInstantiator)
-    // Offset: 0x13C9D7C
+    // Offset: 0x1715A64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrefabInstantiatorCached* New_ctor(Zenject::IPrefabInstantiator* subInstantiator) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PrefabInstantiatorCached::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrefabInstantiatorCached*, creationType>(subInstantiator)));
     }
     // public UnityEngine.Object GetPrefab()
-    // Offset: 0x13CADAC
+    // Offset: 0x1716A94
     UnityEngine::Object* GetPrefab();
     // public UnityEngine.GameObject Instantiate(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction)
-    // Offset: 0x13CAE60
+    // Offset: 0x1716B48
     UnityEngine::GameObject* Instantiate(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, ByRef<System::Action*> injectAction);
   }; // Zenject.PrefabInstantiatorCached
   #pragma pack(pop)

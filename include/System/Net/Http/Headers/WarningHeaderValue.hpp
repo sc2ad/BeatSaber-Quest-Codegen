@@ -83,43 +83,43 @@ namespace System::Net::Http::Headers {
     // Set instance field: private System.String <Text>k__BackingField
     void _set_$Text$k__BackingField(::Il2CppString* value);
     // public System.String get_Agent()
-    // Offset: 0x1272D18
+    // Offset: 0x15A9FA8
     ::Il2CppString* get_Agent();
     // private System.Void set_Agent(System.String value)
-    // Offset: 0x1272D20
+    // Offset: 0x15A9FB0
     void set_Agent(::Il2CppString* value);
     // public System.Int32 get_Code()
-    // Offset: 0x1272D28
+    // Offset: 0x15A9FB8
     int get_Code();
     // private System.Void set_Code(System.Int32 value)
-    // Offset: 0x1272D30
+    // Offset: 0x15A9FC0
     void set_Code(int value);
     // public System.Nullable`1<System.DateTimeOffset> get_Date()
-    // Offset: 0x1272D38
+    // Offset: 0x15A9FC8
     System::Nullable_1<System::DateTimeOffset> get_Date();
     // private System.Void set_Date(System.Nullable`1<System.DateTimeOffset> value)
-    // Offset: 0x1272D4C
+    // Offset: 0x15A9FDC
     void set_Date(System::Nullable_1<System::DateTimeOffset> value);
     // public System.String get_Text()
-    // Offset: 0x1272D60
+    // Offset: 0x15A9FF0
     ::Il2CppString* get_Text();
     // private System.Void set_Text(System.String value)
-    // Offset: 0x1272D68
+    // Offset: 0x15A9FF8
     void set_Text(::Il2CppString* value);
     // static private System.Boolean IsCodeValid(System.Int32 code)
-    // Offset: 0x1272D70
+    // Offset: 0x15AA000
     static bool IsCodeValid(int code);
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x1272D7C
+    // Offset: 0x15AA00C
     ::Il2CppObject* System_ICloneable_Clone();
     // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.WarningHeaderValue> result)
-    // Offset: 0x1272FB0
+    // Offset: 0x15AA240
     static bool TryParse(::Il2CppString* input, int minimalCount, ByRef<System::Collections::Generic::List_1<System::Net::Http::Headers::WarningHeaderValue*>*> result);
     // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.WarningHeaderValue parsedValue, out System.Net.Http.Headers.Token t)
-    // Offset: 0x1273050
+    // Offset: 0x15AA2E0
     static bool TryParseElement(System::Net::Http::Headers::Lexer* lexer, ByRef<System::Net::Http::Headers::WarningHeaderValue*> parsedValue, ByRef<System::Net::Http::Headers::Token> t);
     // private System.Void .ctor()
-    // Offset: 0x1272D10
+    // Offset: 0x15A9FA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -128,17 +128,17 @@ namespace System::Net::Http::Headers {
       return THROW_UNLESS((::il2cpp_utils::New<WarningHeaderValue*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1272D84
+    // Offset: 0x15AA014
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1272EC8
+    // Offset: 0x15AA158
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x12732FC
+    // Offset: 0x15AA58C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

@@ -86,32 +86,32 @@ namespace System::Runtime::Serialization {
     // Set instance field: private System.Collections.Generic.List`1<System.Reflection.MethodInfo> m_OnDeserializedMethods
     void _set_m_OnDeserializedMethods(System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* value);
     // System.Boolean get_HasOnSerializingEvents()
-    // Offset: 0x1384B90
+    // Offset: 0x16BDB40
     bool get_HasOnSerializingEvents();
     // System.Void .ctor(System.Type t)
-    // Offset: 0x1384A84
+    // Offset: 0x16BDA34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerializationEvents* New_ctor(System::Type* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::SerializationEvents::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerializationEvents*, creationType>(t)));
     }
     // private System.Collections.Generic.List`1<System.Reflection.MethodInfo> GetMethodsWithAttribute(System.Type attribute, System.Type t)
-    // Offset: 0x13848A4
+    // Offset: 0x16BD854
     System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* GetMethodsWithAttribute(System::Type* attribute, System::Type* t);
     // System.Void InvokeOnSerializing(System.Object obj, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1384BB0
+    // Offset: 0x16BDB60
     void InvokeOnSerializing(::Il2CppObject* obj, System::Runtime::Serialization::StreamingContext context);
     // System.Void InvokeOnDeserializing(System.Object obj, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x13834A4
+    // Offset: 0x16BC454
     void InvokeOnDeserializing(::Il2CppObject* obj, System::Runtime::Serialization::StreamingContext context);
     // System.Void InvokeOnDeserialized(System.Object obj, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x13831D8
+    // Offset: 0x16BC188
     void InvokeOnDeserialized(::Il2CppObject* obj, System::Runtime::Serialization::StreamingContext context);
     // System.Runtime.Serialization.SerializationEventHandler AddOnSerialized(System.Object obj, System.Runtime.Serialization.SerializationEventHandler handler)
-    // Offset: 0x1384DE0
+    // Offset: 0x16BDD90
     System::Runtime::Serialization::SerializationEventHandler* AddOnSerialized(::Il2CppObject* obj, System::Runtime::Serialization::SerializationEventHandler* handler);
     // System.Runtime.Serialization.SerializationEventHandler AddOnDeserialized(System.Object obj, System.Runtime.Serialization.SerializationEventHandler handler)
-    // Offset: 0x1382F34
+    // Offset: 0x16BBEE4
     System::Runtime::Serialization::SerializationEventHandler* AddOnDeserialized(::Il2CppObject* obj, System::Runtime::Serialization::SerializationEventHandler* handler);
   }; // System.Runtime.Serialization.SerializationEvents
   #pragma pack(pop)

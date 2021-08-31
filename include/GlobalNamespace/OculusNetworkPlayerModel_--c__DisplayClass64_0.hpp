@@ -73,10 +73,10 @@ namespace GlobalNamespace {
     // Set instance field: public System.UInt64 userId
     void _set_userId(uint64_t value);
     // System.Void <ShouldAcceptConnectionFromPlayer>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.Room> result)
-    // Offset: 0x2022BEC
+    // Offset: 0x123CB14
     void $ShouldAcceptConnectionFromPlayer$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::Room*>* result);
     // public System.Void .ctor()
-    // Offset: 0x2021FE8
+    // Offset: 0x123BF10
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

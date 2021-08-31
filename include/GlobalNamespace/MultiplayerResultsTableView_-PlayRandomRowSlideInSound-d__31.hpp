@@ -74,26 +74,26 @@ namespace GlobalNamespace {
     // Set instance field: public MultiplayerResultsTableView <>4__this
     void _set_$$4__this(GlobalNamespace::MultiplayerResultsTableView* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1E5B2CC
+    // Offset: 0x10369D0
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1E5B334
+    // Offset: 0x1036A38
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1E5AEC8
+    // Offset: 0x10365CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerResultsTableView::$PlayRandomRowSlideInSound$d__31* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerResultsTableView::$PlayRandomRowSlideInSound$d__31::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerResultsTableView::$PlayRandomRowSlideInSound$d__31*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1E5B1C8
+    // Offset: 0x10368CC
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1E5B1CC
+    // Offset: 0x10368D0
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1E5B2D4
+    // Offset: 0x10369D8
     void System_Collections_IEnumerator_Reset();
   }; // MultiplayerResultsTableView/<PlayRandomRowSlideInSound>d__31
   #pragma pack(pop)

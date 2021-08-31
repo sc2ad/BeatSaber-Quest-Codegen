@@ -80,25 +80,25 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _linesWidth
     void _set__linesWidth(float value);
     // public TextureEffectSO get_textureEffect()
-    // Offset: 0x1960498
+    // Offset: 0x1E1401C
     GlobalNamespace::TextureEffectSO* get_textureEffect();
     // public System.Int32 get_textureWidth()
-    // Offset: 0x196049C
+    // Offset: 0x1E14020
     int get_textureWidth();
     // public System.Int32 get_textureHeight()
-    // Offset: 0x19604A4
+    // Offset: 0x1E14028
     int get_textureHeight();
     // public UnityEngine.Vector2 get_fov()
-    // Offset: 0x19604AC
+    // Offset: 0x1E14030
     UnityEngine::Vector2 get_fov();
     // public System.Single get_linesWidth()
-    // Offset: 0x19604B4
+    // Offset: 0x1E14038
     float get_linesWidth();
     // public ToneMapping get_toneMapping()
-    // Offset: 0x19604BC
+    // Offset: 0x1E14040
     GlobalNamespace::ToneMapping get_toneMapping();
     // protected System.Void .ctor()
-    // Offset: 0x19604C4
+    // Offset: 0x1E14048
     // Implemented from: TextureEffectSO
     // Base method: System.Void TextureEffectSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

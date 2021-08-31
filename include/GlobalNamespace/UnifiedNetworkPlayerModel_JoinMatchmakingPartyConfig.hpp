@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.String code
     void _set_code(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x2069394
+    // Offset: 0x135836C
     // Implemented from: BaseNetworkPlayerModel/PartyConfig
     // Base method: System.Void PartyConfig::.ctor()
     // Base method: System.Void Object::.ctor()

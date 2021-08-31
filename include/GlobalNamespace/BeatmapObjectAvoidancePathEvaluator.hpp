@@ -127,14 +127,14 @@ namespace GlobalNamespace {
     // Set instance field: private readonly PlayerTransforms _playerTransforms
     void _set__playerTransforms(GlobalNamespace::PlayerTransforms* value);
     // public System.Void .ctor(IAudioTimeSource audioTimeSource, PlayerTransforms playerTransforms, BezierSplineEvaluator pathBezierCurveEvaluator, System.Single jumpStartZ, System.Single jumpEndZ, System.Single yOffset, System.Single zOffset, System.Single noteJumpSeed, System.Single moveToPlayerHeadTParam)
-    // Offset: 0x1EE8F6C
+    // Offset: 0x10C545C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectAvoidancePathEvaluator* New_ctor(GlobalNamespace::IAudioTimeSource* audioTimeSource, GlobalNamespace::PlayerTransforms* playerTransforms, GlobalNamespace::BezierSplineEvaluator* pathBezierCurveEvaluator, float jumpStartZ, float jumpEndZ, float yOffset, float zOffset, float noteJumpSeed, float moveToPlayerHeadTParam) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectAvoidancePathEvaluator*, creationType>(audioTimeSource, playerTransforms, pathBezierCurveEvaluator, jumpStartZ, jumpEndZ, yOffset, zOffset, noteJumpSeed, moveToPlayerHeadTParam)));
     }
     // public UnityEngine.Vector3 GetCurrentPathPosition()
-    // Offset: 0x1EE8FE8
+    // Offset: 0x10C54D8
     UnityEngine::Vector3 GetCurrentPathPosition();
   }; // BeatmapObjectAvoidancePathEvaluator
   #pragma pack(pop)

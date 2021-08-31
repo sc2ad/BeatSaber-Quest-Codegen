@@ -126,7 +126,7 @@ namespace GlobalNamespace {
     // Set instance field: public OVRPlugin/Vector4f[] BlendWeights
     void _set_BlendWeights(::Array<GlobalNamespace::OVRPlugin::Vector4f>* value);
     // public System.Void .ctor()
-    // Offset: 0x12F1EFC
+    // Offset: 0x162A18C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

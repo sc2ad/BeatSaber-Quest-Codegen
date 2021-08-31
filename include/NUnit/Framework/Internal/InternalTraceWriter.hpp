@@ -36,7 +36,7 @@ namespace NUnit::Framework::Internal {
     // Set instance field: private System.IO.TextWriter writer
     void _set_writer(System::IO::TextWriter* value);
     // public override System.Text.Encoding get_Encoding()
-    // Offset: 0x1D0A34C
+    // Offset: 0x2297E88
     // Implemented from: System.IO.TextWriter
     // Base method: System.Text.Encoding TextWriter::get_Encoding()
     System::Text::Encoding* get_Encoding();

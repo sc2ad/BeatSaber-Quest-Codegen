@@ -43,7 +43,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Set instance field: public System.Byte[] data
     void _set_data(::Array<uint8_t>* value);
     // public System.Void .ctor()
-    // Offset: 0x22D3BAC
+    // Offset: 0x1D07158
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -31,7 +31,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Set instance field: private readonly System.Int32 rounds
     void _set_rounds(int value);
     // public System.Int32 get_Rounds()
-    // Offset: 0x1036DCC
+    // Offset: 0x12761BC
     int get_Rounds();
   }; // Org.BouncyCastle.Crypto.Parameters.RC5Parameters
   #pragma pack(pop)

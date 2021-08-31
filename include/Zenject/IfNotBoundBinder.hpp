@@ -43,20 +43,20 @@ namespace Zenject {
     // Set instance field: private Zenject.BindInfo <BindInfo>k__BackingField
     void _set_$BindInfo$k__BackingField(Zenject::BindInfo* value);
     // public Zenject.BindInfo get_BindInfo()
-    // Offset: 0x1328AC4
+    // Offset: 0x1660D80
     Zenject::BindInfo* get_BindInfo();
     // private System.Void set_BindInfo(Zenject.BindInfo value)
-    // Offset: 0x1328ACC
+    // Offset: 0x1660D88
     void set_BindInfo(Zenject::BindInfo* value);
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0x1328A98
+    // Offset: 0x1660D54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IfNotBoundBinder* New_ctor(Zenject::BindInfo* bindInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IfNotBoundBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IfNotBoundBinder*, creationType>(bindInfo)));
     }
     // public System.Void IfNotBound()
-    // Offset: 0x1328AD4
+    // Offset: 0x1660D90
     void IfNotBound();
   }; // Zenject.IfNotBoundBinder
   #pragma pack(pop)

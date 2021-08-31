@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerLevelNoTransitionInstaller
     MultiplayerLevelNoTransitionInstaller() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1E6EBE0
+    // Offset: 0x11B5F38
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

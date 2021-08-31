@@ -68,10 +68,10 @@ namespace GlobalNamespace {
     // Set instance field: public MultiplayerResultsData multiplayerResultsData
     void _set_multiplayerResultsData(GlobalNamespace::MultiplayerResultsData* value);
     // System.Void <HandleMultiplayerLevelDidFinish>b__0(Zenject.DiContainer container)
-    // Offset: 0x1FB1454
+    // Offset: 0x10E772C
     void $HandleMultiplayerLevelDidFinish$b__0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x1FB0D90
+    // Offset: 0x10E7068
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

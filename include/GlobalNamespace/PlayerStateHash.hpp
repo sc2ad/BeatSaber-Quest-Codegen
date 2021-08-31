@@ -95,11 +95,11 @@ namespace GlobalNamespace {
     // Set instance field: private readonly BitMask128 _bloomFilter
     void _set__bloomFilter(GlobalNamespace::BitMask128 value);
     // private System.Void .ctor(BitMask128 bloomFilter)
-    // Offset: 0xF8C350
+    // Offset: 0x16F41D4
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  PlayerStateHash(GlobalNamespace::BitMask128 bloomFilter)
     // public System.Void .ctor(System.String state)
-    // Offset: 0xF8C358
+    // Offset: 0x16F41DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     PlayerStateHash(::Il2CppString* state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerStateHash::.ctor");
@@ -107,7 +107,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, state);
     }
     // public System.Void .ctor(System.Collections.Generic.HashSet`1<System.String> stateHashSet)
-    // Offset: 0xF8C360
+    // Offset: 0x16F4248
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     PlayerStateHash(System::Collections::Generic::HashSet_1<::Il2CppString*>* stateHashSet) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerStateHash::.ctor");
@@ -115,50 +115,50 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, stateHashSet);
     }
     // public System.Boolean Contains(System.String state)
-    // Offset: 0xF8C368
+    // Offset: 0x16F42B4
     bool Contains(::Il2CppString* state);
     // public PlayerStateHash AddState(System.String state)
-    // Offset: 0xF8C370
+    // Offset: 0x16F431C
     GlobalNamespace::PlayerStateHash AddState(::Il2CppString* state);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xF8C378
+    // Offset: 0x16F4384
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public PlayerStateHash CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xF8C384
+    // Offset: 0x16F438C
     GlobalNamespace::PlayerStateHash CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
     // static public PlayerStateHash Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x23CCC30
+    // Offset: 0x16F4398
     static GlobalNamespace::PlayerStateHash Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.String ToShortString()
-    // Offset: 0xF8C398
+    // Offset: 0x16F442C
     ::Il2CppString* ToShortString();
     // public System.Byte[] ToBytes()
-    // Offset: 0xF8C3A0
+    // Offset: 0x16F447C
     ::Array<uint8_t>* ToBytes();
     // public System.Boolean Equals(PlayerStateHash other)
-    // Offset: 0xF8C3B4
+    // Offset: 0x16F44D4
     bool Equals(GlobalNamespace::PlayerStateHash other);
     // static public System.Boolean TryParse(System.String stringSerializedMask, out PlayerStateHash playerStateHash)
-    // Offset: 0x23CCE34
+    // Offset: 0x16F459C
     static bool TryParse(::Il2CppString* stringSerializedMask, ByRef<GlobalNamespace::PlayerStateHash> playerStateHash);
     // static public PlayerStateHash Parse(System.String stringSerializedMask)
-    // Offset: 0x23CCF40
+    // Offset: 0x16F46A8
     static GlobalNamespace::PlayerStateHash Parse(::Il2CppString* stringSerializedMask);
     // static public PlayerStateHash FromBytes(System.Byte[] bytes, System.Int32 offset)
-    // Offset: 0x23CCFF4
+    // Offset: 0x16F475C
     static GlobalNamespace::PlayerStateHash FromBytes(::Array<uint8_t>* bytes, int offset);
     // public override System.String ToString()
-    // Offset: 0xF8C390
+    // Offset: 0x16F43A0
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Int32 GetHashCode()
-    // Offset: 0xF8C3A8
+    // Offset: 0x16F44CC
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xF8C3E4
+    // Offset: 0x16F4500
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

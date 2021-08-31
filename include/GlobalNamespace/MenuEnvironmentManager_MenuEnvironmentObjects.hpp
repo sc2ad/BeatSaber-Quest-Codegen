@@ -52,13 +52,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.GameObject _wrapper
     void _set__wrapper(UnityEngine::GameObject* value);
     // public MenuEnvironmentManager/MenuEnvironmentType get_menuEnvironmentType()
-    // Offset: 0x1FAF98C
+    // Offset: 0x10E5C64
     GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType get_menuEnvironmentType();
     // public UnityEngine.GameObject get_wrapper()
-    // Offset: 0x1FAF994
+    // Offset: 0x10E5C6C
     UnityEngine::GameObject* get_wrapper();
     // public System.Void .ctor()
-    // Offset: 0x1FAF99C
+    // Offset: 0x10E5C74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

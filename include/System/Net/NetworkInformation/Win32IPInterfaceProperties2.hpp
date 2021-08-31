@@ -70,22 +70,22 @@ namespace System::Net::NetworkInformation {
     // Set instance field: private readonly System.Net.NetworkInformation.Win32_MIB_IFROW mib6
     void _set_mib6(System::Net::NetworkInformation::Win32_MIB_IFROW value);
     // public System.Void .ctor(System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES addr, System.Net.NetworkInformation.Win32_MIB_IFROW mib4, System.Net.NetworkInformation.Win32_MIB_IFROW mib6)
-    // Offset: 0x11D5CA4
+    // Offset: 0x149B8EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32IPInterfaceProperties2* New_ctor(System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES addr, System::Net::NetworkInformation::Win32_MIB_IFROW mib4, System::Net::NetworkInformation::Win32_MIB_IFROW mib6) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::Win32IPInterfaceProperties2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Win32IPInterfaceProperties2*, creationType>(addr, mib4, mib6)));
     }
     // static private System.Net.NetworkInformation.UnicastIPAddressInformationCollection Win32FromUnicast(System.IntPtr ptr)
-    // Offset: 0x11D616C
+    // Offset: 0x149BDB4
     static System::Net::NetworkInformation::UnicastIPAddressInformationCollection* Win32FromUnicast(System::IntPtr ptr);
     // public override System.Net.NetworkInformation.GatewayIPAddressInformationCollection get_GatewayAddresses()
-    // Offset: 0x11D5D0C
+    // Offset: 0x149B954
     // Implemented from: System.Net.NetworkInformation.IPInterfaceProperties
     // Base method: System.Net.NetworkInformation.GatewayIPAddressInformationCollection IPInterfaceProperties::get_GatewayAddresses()
     System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();
     // public override System.Net.NetworkInformation.UnicastIPAddressInformationCollection get_UnicastAddresses()
-    // Offset: 0x11D6094
+    // Offset: 0x149BCDC
     // Implemented from: System.Net.NetworkInformation.IPInterfaceProperties
     // Base method: System.Net.NetworkInformation.UnicastIPAddressInformationCollection IPInterfaceProperties::get_UnicastAddresses()
     System::Net::NetworkInformation::UnicastIPAddressInformationCollection* get_UnicastAddresses();

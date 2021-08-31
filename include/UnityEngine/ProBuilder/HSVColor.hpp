@@ -58,27 +58,27 @@ namespace UnityEngine::ProBuilder {
     // Set instance field: public System.Single v
     void _set_v(float value);
     // public System.Void .ctor(System.Single h, System.Single s, System.Single v)
-    // Offset: 0x174615C
+    // Offset: 0x1AF0A78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HSVColor* New_ctor(float h, float s, float v) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::HSVColor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HSVColor*, creationType>(h, s, v)));
     }
     // public System.Void .ctor(System.Single h, System.Single s, System.Single v, System.Single sv_modifier)
-    // Offset: 0x17461A4
+    // Offset: 0x1AF0AC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HSVColor* New_ctor(float h, float s, float v, float sv_modifier) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::HSVColor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HSVColor*, creationType>(h, s, v, sv_modifier)));
     }
     // static public UnityEngine.ProBuilder.HSVColor FromRGB(UnityEngine.Color col)
-    // Offset: 0x17461F8
+    // Offset: 0x1AF0B14
     static UnityEngine::ProBuilder::HSVColor* FromRGB(UnityEngine::Color col);
     // public System.Single SqrDistance(UnityEngine.ProBuilder.HSVColor InColor)
-    // Offset: 0x1746348
+    // Offset: 0x1AF0C64
     float SqrDistance(UnityEngine::ProBuilder::HSVColor* InColor);
     // public override System.String ToString()
-    // Offset: 0x1746288
+    // Offset: 0x1AF0BA4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

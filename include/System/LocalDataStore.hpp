@@ -52,26 +52,26 @@ namespace System {
     // Set instance field: private System.LocalDataStoreMgr m_Manager
     void _set_m_Manager(System::LocalDataStoreMgr* value);
     // public System.Void .ctor(System.LocalDataStoreMgr mgr, System.Int32 InitialCapacity)
-    // Offset: 0x14CB3E0
+    // Offset: 0x183502C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalDataStore* New_ctor(System::LocalDataStoreMgr* mgr, int InitialCapacity) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::LocalDataStore::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalDataStore*, creationType>(mgr, InitialCapacity)));
     }
     // System.Void Dispose()
-    // Offset: 0x14CB458
+    // Offset: 0x18350A4
     void Dispose();
     // public System.Object GetData(System.LocalDataStoreSlot slot)
-    // Offset: 0x14CB544
+    // Offset: 0x1835190
     ::Il2CppObject* GetData(System::LocalDataStoreSlot* slot);
     // public System.Void SetData(System.LocalDataStoreSlot slot, System.Object data)
-    // Offset: 0x14CB6F8
+    // Offset: 0x1835344
     void SetData(System::LocalDataStoreSlot* slot, ::Il2CppObject* data);
     // System.Void FreeData(System.Int32 slot, System.Int64 cookie)
-    // Offset: 0x14CBA98
+    // Offset: 0x18356E4
     void FreeData(int slot, int64_t cookie);
     // private System.LocalDataStoreElement PopulateElement(System.LocalDataStoreSlot slot)
-    // Offset: 0x14CB80C
+    // Offset: 0x1835458
     System::LocalDataStoreElement* PopulateElement(System::LocalDataStoreSlot* slot);
   }; // System.LocalDataStore
   #pragma pack(pop)

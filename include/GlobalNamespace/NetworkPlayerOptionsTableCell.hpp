@@ -85,34 +85,34 @@ namespace GlobalNamespace {
     // Set instance field: private INetworkPlayer _player
     void _set__player(GlobalNamespace::INetworkPlayer* value);
     // public INetworkPlayer get_player()
-    // Offset: 0x1E6622C
+    // Offset: 0x1041C58
     GlobalNamespace::INetworkPlayer* get_player();
     // public System.Void set_player(INetworkPlayer value)
-    // Offset: 0x1E66234
+    // Offset: 0x1041C60
     void set_player(GlobalNamespace::INetworkPlayer* value);
     // private System.Void Refresh()
-    // Offset: 0x1E6623C
+    // Offset: 0x1041C68
     void Refresh();
     // private System.Void Block()
-    // Offset: 0x1E66D4C
+    // Offset: 0x1042778
     void Block();
     // private System.Void Unblock()
-    // Offset: 0x1E66E08
+    // Offset: 0x1042834
     void Unblock();
     // private System.Void Join()
-    // Offset: 0x1E66EC4
+    // Offset: 0x10428F0
     void Join();
     // private System.Void Invite()
-    // Offset: 0x1E66F80
+    // Offset: 0x10429AC
     void Invite();
     // private System.Void Kick()
-    // Offset: 0x1E6703C
+    // Offset: 0x1042A68
     void Kick();
     // private System.Void Leave()
-    // Offset: 0x1E670F8
+    // Offset: 0x1042B24
     void Leave();
     // public System.Void .ctor()
-    // Offset: 0x1E671B4
+    // Offset: 0x1042BE0
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

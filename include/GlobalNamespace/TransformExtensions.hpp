@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TransformExtensions
     TransformExtensions() noexcept {}
     // static public UnityEngine.Quaternion InverseTransformRotation(UnityEngine.Transform trans, UnityEngine.Quaternion worldRotation)
-    // Offset: 0x1DE41E8
+    // Offset: 0x239A65C
     static UnityEngine::Quaternion InverseTransformRotation(UnityEngine::Transform* trans, UnityEngine::Quaternion worldRotation);
   }; // TransformExtensions
   #pragma pack(pop)

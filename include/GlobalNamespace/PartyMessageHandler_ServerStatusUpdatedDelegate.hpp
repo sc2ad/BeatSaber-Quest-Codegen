@@ -41,20 +41,20 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ServerStatusUpdatedDelegate
     ServerStatusUpdatedDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x23CB9B4
+    // Offset: 0x16F346C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PartyMessageHandler::ServerStatusUpdatedDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PartyMessageHandler::ServerStatusUpdatedDelegate*, creationType>(object, method)));
     }
-    // public System.Void Invoke(System.String serverName, System.String password, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration)
-    // Offset: 0x23CB9C4
-    void Invoke(::Il2CppString* serverName, ::Il2CppString* password, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration);
-    // public System.IAsyncResult BeginInvoke(System.String serverName, System.String password, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x23CC108
-    System::IAsyncResult* BeginInvoke(::Il2CppString* serverName, ::Il2CppString* password, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // public System.Void Invoke(BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration)
+    // Offset: 0x16F347C
+    void Invoke(GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration);
+    // public System.IAsyncResult BeginInvoke(BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.AsyncCallback callback, System.Object object)
+    // Offset: 0x16F3884
+    System::IAsyncResult* BeginInvoke(GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x23CC1D0
+    // Offset: 0x16F3938
     void EndInvoke(System::IAsyncResult* result);
   }; // PartyMessageHandler/ServerStatusUpdatedDelegate
   #pragma pack(pop)
@@ -68,27 +68,23 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyMessageHandler::ServerStatusUpdated
 // Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate::*)(::Il2CppString*, ::Il2CppString*, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration)>(&GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate::*)(GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration)>(&GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate::Invoke)> {
   static const MethodInfo* get() {
-    static auto* serverName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* selectionMask = &::il2cpp_utils::GetClassFromName("", "BeatmapLevelSelectionMask")->byval_arg;
     static auto* configuration = &::il2cpp_utils::GetClassFromName("", "GameplayServerConfiguration")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serverName, password, selectionMask, configuration});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{selectionMask, configuration});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate::*)(::Il2CppString*, ::Il2CppString*, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, System::AsyncCallback*, ::Il2CppObject*)>(&GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate::*)(GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, System::AsyncCallback*, ::Il2CppObject*)>(&GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate::BeginInvoke)> {
   static const MethodInfo* get() {
-    static auto* serverName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* selectionMask = &::il2cpp_utils::GetClassFromName("", "BeatmapLevelSelectionMask")->byval_arg;
     static auto* configuration = &::il2cpp_utils::GetClassFromName("", "GameplayServerConfiguration")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serverName, password, selectionMask, configuration, callback, object});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{selectionMask, configuration, callback, object});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate::EndInvoke

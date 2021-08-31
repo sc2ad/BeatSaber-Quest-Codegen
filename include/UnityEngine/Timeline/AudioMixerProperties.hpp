@@ -29,21 +29,21 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class AudioMixerProperties : public UnityEngine::Playables::PlayableBehaviour {
     public:
-    // [RangeAttribute] Offset: 0xE71610
+    // [RangeAttribute] Offset: 0xDF7E84
     // public System.Single volume
     // Size: 0x4
     // Offset: 0x10
     float volume;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xE71628
+    // [RangeAttribute] Offset: 0xDF7E9C
     // public System.Single stereoPan
     // Size: 0x4
     // Offset: 0x14
     float stereoPan;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xE71640
+    // [RangeAttribute] Offset: 0xDF7EB4
     // public System.Single spatialBlend
     // Size: 0x4
     // Offset: 0x18
@@ -65,7 +65,7 @@ namespace UnityEngine::Timeline {
     // Set instance field: public System.Single spatialBlend
     void _set_spatialBlend(float value);
     // public System.Void .ctor()
-    // Offset: 0x14B0C14
+    // Offset: 0x181A7C4
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -75,7 +75,7 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<AudioMixerProperties*, creationType>()));
     }
     // public override System.Void PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x14B09F8
+    // Offset: 0x181A5A8
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void PrepareFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);

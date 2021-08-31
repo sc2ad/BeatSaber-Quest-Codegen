@@ -62,10 +62,10 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.UI.Button _button
     void _set__button(UnityEngine::UI::Button* value);
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x203B8D0
+    // Offset: 0x1258624
     System::Collections::IEnumerator* Start();
     // public System.Void .ctor()
-    // Offset: 0x203B96C
+    // Offset: 0x12586C0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -45,10 +45,10 @@ namespace GlobalNamespace {
     // Set instance field: public System.String levelId
     void _set_levelId(::Il2CppString* value);
     // System.Boolean <GetLevelPreviewForLevelId>b__1(IPreviewBeatmapLevel beatmapLevel)
-    // Offset: 0x1EE8804
+    // Offset: 0x10C4CF4
     bool $GetLevelPreviewForLevelId$b__1(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
     // public System.Void .ctor()
-    // Offset: 0x1EE813C
+    // Offset: 0x10C462C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

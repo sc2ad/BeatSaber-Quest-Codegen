@@ -49,13 +49,13 @@ namespace Org::BouncyCastle::Crypto::Generators {
     // Set instance field: private Org.BouncyCastle.Crypto.Parameters.DHKeyGenerationParameters param
     void _set_param(Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters* value);
     // public System.Void Init(Org.BouncyCastle.Crypto.KeyGenerationParameters parameters)
-    // Offset: 0x1589304
+    // Offset: 0x1907F60
     void Init(Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
     // public Org.BouncyCastle.Crypto.AsymmetricCipherKeyPair GenerateKeyPair()
-    // Offset: 0x1589394
+    // Offset: 0x1907FF0
     Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
     // public System.Void .ctor()
-    // Offset: 0x15896E0
+    // Offset: 0x190833C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

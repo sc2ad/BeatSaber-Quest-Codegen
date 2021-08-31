@@ -53,25 +53,25 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set instance field: private System.Single m_SmoothingThreshold
     void _set_m_SmoothingThreshold(float value);
     // public System.Boolean get_quads()
-    // Offset: 0x13F3AF8
+    // Offset: 0x173F7E0
     bool get_quads();
     // public System.Void set_quads(System.Boolean value)
-    // Offset: 0x13F3B00
+    // Offset: 0x173F7E8
     void set_quads(bool value);
     // public System.Boolean get_smoothing()
-    // Offset: 0x13F3B0C
+    // Offset: 0x173F7F4
     bool get_smoothing();
     // public System.Void set_smoothing(System.Boolean value)
-    // Offset: 0x13F3B14
+    // Offset: 0x173F7FC
     void set_smoothing(bool value);
     // public System.Single get_smoothingAngle()
-    // Offset: 0x13F3B20
+    // Offset: 0x173F808
     float get_smoothingAngle();
     // public System.Void set_smoothingAngle(System.Single value)
-    // Offset: 0x13F3B28
+    // Offset: 0x173F810
     void set_smoothingAngle(float value);
     // public System.Void .ctor()
-    // Offset: 0x13F3BF8
+    // Offset: 0x173F8E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -80,7 +80,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
       return THROW_UNLESS((::il2cpp_utils::New<MeshImportSettings*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x13F3B30
+    // Offset: 0x173F818
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

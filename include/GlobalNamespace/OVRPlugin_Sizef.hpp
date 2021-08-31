@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Single h
     void _set_h(float value);
     // static private System.Void .cctor()
-    // Offset: 0x12FA76C
+    // Offset: 0x16329FC
     static void _cctor();
   }; // OVRPlugin/Sizef
   #pragma pack(pop)

@@ -43,13 +43,13 @@ namespace System::Security {
     // Set instance field: private System.String _value
     void _set__value(::Il2CppString* value);
     // public System.String get_Name()
-    // Offset: 0x176F048
+    // Offset: 0x1B4E248
     ::Il2CppString* get_Name();
     // public System.String get_Value()
-    // Offset: 0x176F050
+    // Offset: 0x1B4E250
     ::Il2CppString* get_Value();
     // public System.Void .ctor(System.String name, System.String value)
-    // Offset: 0x176E1C0
+    // Offset: 0x1B4D3C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecurityElement::SecurityAttribute* New_ctor(::Il2CppString* name, ::Il2CppString* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::SecurityElement::SecurityAttribute::.ctor");

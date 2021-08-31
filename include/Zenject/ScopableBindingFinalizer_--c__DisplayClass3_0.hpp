@@ -58,10 +58,10 @@ namespace Zenject {
     // Set instance field: public Zenject.DiContainer container
     void _set_container(Zenject::DiContainer* value);
     // Zenject.IProvider <FinalizeBindingConcrete>b__0(Zenject.DiContainer _, System.Type concreteType)
-    // Offset: 0x13D1610
+    // Offset: 0x171D2F8
     Zenject::IProvider* $FinalizeBindingConcrete$b__0(Zenject::DiContainer* _, System::Type* concreteType);
     // public System.Void .ctor()
-    // Offset: 0x13D1600
+    // Offset: 0x171D2E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

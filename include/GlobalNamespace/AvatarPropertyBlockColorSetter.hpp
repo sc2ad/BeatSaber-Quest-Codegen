@@ -92,7 +92,7 @@ namespace GlobalNamespace {
     AvatarPropertyBlockColorSetter(UnityEngine::Color defaultColor_ = {}, float darkerColorMultiplier_ = {}, float whiteBoost_ = {}, bool editInPlayMode_ = {}, UnityEngine::Renderer* renderer_ = {}, UnityEngine::Color rimLightColor_ = {}, UnityEngine::Color mainColor_ = {}, UnityEngine::Color boostColor_ = {}, bool highlighted_ = {}) noexcept : defaultColor{defaultColor_}, darkerColorMultiplier{darkerColorMultiplier_}, whiteBoost{whiteBoost_}, editInPlayMode{editInPlayMode_}, renderer{renderer_}, rimLightColor{rimLightColor_}, mainColor{mainColor_}, boostColor{boostColor_}, highlighted{highlighted_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEAC4A4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE32254
     // Get static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
@@ -134,25 +134,25 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _highlighted
     void _set__highlighted(bool value);
     // protected System.Void Awake()
-    // Offset: 0x1F324AC
+    // Offset: 0x1183244
     void Awake();
     // protected System.Void OnValidate()
-    // Offset: 0x1F324E4
+    // Offset: 0x118327C
     void OnValidate();
     // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x1F325B4
+    // Offset: 0x118334C
     void SetColor(UnityEngine::Color color);
     // private System.Void SetColors(UnityEngine.Color mainColor, UnityEngine.Color rimLightColor)
-    // Offset: 0x1F32654
+    // Offset: 0x11833EC
     void SetColors(UnityEngine::Color mainColor, UnityEngine::Color rimLightColor);
     // public System.Void SetHighlight(System.Boolean highlighted, System.Int32 uvSegment)
-    // Offset: 0x1F327CC
+    // Offset: 0x1183564
     void SetHighlight(bool highlighted, int uvSegment);
     // private System.Void UpdateRenderer()
-    // Offset: 0x1F32668
+    // Offset: 0x1183400
     void UpdateRenderer();
     // public System.Void .ctor()
-    // Offset: 0x1F327D8
+    // Offset: 0x1183570
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

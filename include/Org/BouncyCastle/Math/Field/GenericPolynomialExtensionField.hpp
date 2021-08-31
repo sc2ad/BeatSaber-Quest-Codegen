@@ -60,28 +60,28 @@ namespace Org::BouncyCastle::Math::Field {
     // Set instance field: protected readonly Org.BouncyCastle.Math.Field.IPolynomial minimalPolynomial
     void _set_minimalPolynomial(Org::BouncyCastle::Math::Field::IPolynomial* value);
     // public Org.BouncyCastle.Math.BigInteger get_Characteristic()
-    // Offset: 0x19110B4
+    // Offset: 0x1DD70F8
     Org::BouncyCastle::Math::BigInteger* get_Characteristic();
     // public System.Int32 get_Dimension()
-    // Offset: 0x1911164
+    // Offset: 0x1DD71A8
     int get_Dimension();
     // public Org.BouncyCastle.Math.Field.IPolynomial get_MinimalPolynomial()
-    // Offset: 0x1911294
+    // Offset: 0x1DD72D8
     Org::BouncyCastle::Math::Field::IPolynomial* get_MinimalPolynomial();
     // System.Void .ctor(Org.BouncyCastle.Math.Field.IFiniteField subfield, Org.BouncyCastle.Math.Field.IPolynomial polynomial)
-    // Offset: 0x1910BF4
+    // Offset: 0x1DD6C38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GenericPolynomialExtensionField* New_ctor(Org::BouncyCastle::Math::Field::IFiniteField* subfield, Org::BouncyCastle::Math::Field::IPolynomial* polynomial) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GenericPolynomialExtensionField*, creationType>(subfield, polynomial)));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x191129C
+    // Offset: 0x1DD72E0
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1911380
+    // Offset: 0x1DD73C4
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

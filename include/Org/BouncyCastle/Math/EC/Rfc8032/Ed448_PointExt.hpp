@@ -53,7 +53,7 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     // Set instance field: System.UInt32[] z
     void _set_z(::Array<uint>* value);
     // public System.Void .ctor()
-    // Offset: 0x190F9BC
+    // Offset: 0x1DD5A00
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

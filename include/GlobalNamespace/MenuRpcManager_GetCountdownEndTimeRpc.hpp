@@ -25,7 +25,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GetCountdownEndTimeRpc
     GetCountdownEndTimeRpc() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x21417C8
+    // Offset: 0x16E94C4
     // Implemented from: RemoteProcedureCall
     // Base method: System.Void RemoteProcedureCall::.ctor()
     // Base method: System.Void Object::.ctor()

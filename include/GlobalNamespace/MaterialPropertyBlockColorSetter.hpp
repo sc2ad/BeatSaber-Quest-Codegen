@@ -37,8 +37,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useTestColor and: testColor
     char __padding0[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xE8F6C4
-    // [ColorUsageAttribute] Offset: 0xE8F6C4
+    // [DrawIfAttribute] Offset: 0xE15464
+    // [ColorUsageAttribute] Offset: 0xE15464
     // private UnityEngine.Color _testColor
     // Size: 0x10
     // Offset: 0x1C
@@ -100,28 +100,28 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _isInitialized
     void _set__isInitialized(bool value);
     // public UnityEngine.Color get_color()
-    // Offset: 0x19687F4
+    // Offset: 0x1E1C378
     UnityEngine::Color get_color();
     // public MaterialPropertyBlockController get_materialPropertyBlockController()
-    // Offset: 0x196882C
+    // Offset: 0x1E1C3B0
     GlobalNamespace::MaterialPropertyBlockController* get_materialPropertyBlockController();
     // public System.Void set_materialPropertyBlockController(MaterialPropertyBlockController value)
-    // Offset: 0x1968834
+    // Offset: 0x1E1C3B8
     void set_materialPropertyBlockController(GlobalNamespace::MaterialPropertyBlockController* value);
     // protected System.Void Awake()
-    // Offset: 0x196883C
+    // Offset: 0x1E1C3C0
     void Awake();
     // private System.Void InitIfNeeded()
-    // Offset: 0x196887C
+    // Offset: 0x1E1C400
     void InitIfNeeded();
     // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x19688BC
+    // Offset: 0x1E1C440
     void SetColor(UnityEngine::Color color);
     // protected System.Void OnValidate()
-    // Offset: 0x1968950
+    // Offset: 0x1E1C4D4
     void OnValidate();
     // public System.Void .ctor()
-    // Offset: 0x19689A0
+    // Offset: 0x1E1C524
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

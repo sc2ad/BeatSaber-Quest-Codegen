@@ -29,7 +29,7 @@ namespace UnityEngine::AddressableAssets {
     // Creating value type constructor for type: AssetReferenceGameObject
     AssetReferenceGameObject() noexcept {}
     // public System.Void .ctor(System.String guid)
-    // Offset: 0x116DE08
+    // Offset: 0x1443D1C
     // Implemented from: UnityEngine.AddressableAssets.AssetReferenceT`1
     // Base method: System.Void AssetReferenceT_1::.ctor(System.String guid)
     // Base method: System.Void AssetReference::.ctor(System.String guid)

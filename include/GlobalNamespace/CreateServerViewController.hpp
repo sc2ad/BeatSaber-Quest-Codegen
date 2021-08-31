@@ -95,28 +95,28 @@ namespace GlobalNamespace {
     // Set instance field: private MultiplayerModeSettings _multiplayerModeSettings
     void _set__multiplayerModeSettings(GlobalNamespace::MultiplayerModeSettings* value);
     // public MultiplayerModeSettings get_multiplayerModeSettings()
-    // Offset: 0x1F0405C
+    // Offset: 0x10F3E88
     GlobalNamespace::MultiplayerModeSettings* get_multiplayerModeSettings();
     // public System.Void add_didFinishEvent(System.Action`2<System.Boolean,CreateServerFormData> value)
-    // Offset: 0x1F03F14
+    // Offset: 0x10F3D40
     void add_didFinishEvent(System::Action_2<bool, GlobalNamespace::CreateServerFormData>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<System.Boolean,CreateServerFormData> value)
-    // Offset: 0x1F03FB8
+    // Offset: 0x10F3DE4
     void remove_didFinishEvent(System::Action_2<bool, GlobalNamespace::CreateServerFormData>* value);
     // public System.Void Setup(MultiplayerModeSettings multiplayerModeSettings)
-    // Offset: 0x1F04064
+    // Offset: 0x10F3E90
     void Setup(GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
     // private CreateServerFormData ApplyAndGetData()
-    // Offset: 0x1F041AC
+    // Offset: 0x10F3FD8
     GlobalNamespace::CreateServerFormData ApplyAndGetData();
     // private System.Void <DidActivate>b__10_0()
-    // Offset: 0x1F04250
+    // Offset: 0x10F407C
     void $DidActivate$b__10_0();
     // private System.Void <DidActivate>b__10_1()
-    // Offset: 0x1F042D8
+    // Offset: 0x10F4104
     void $DidActivate$b__10_1();
     // public System.Void .ctor()
-    // Offset: 0x1F04248
+    // Offset: 0x10F4074
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -130,7 +130,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CreateServerViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1F040B0
+    // Offset: 0x10F3EDC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

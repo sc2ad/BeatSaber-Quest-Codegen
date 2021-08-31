@@ -23,7 +23,7 @@ namespace System::ComponentModel {
     // Creating value type constructor for type: DoubleConverter
     DoubleConverter() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x151A058
+    // Offset: 0x18AF648
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.Void BaseNumberConverter::.ctor()
     // Base method: System.Void TypeConverter::.ctor()

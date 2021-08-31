@@ -69,23 +69,23 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Set instance field: Org.BouncyCastle.Asn1.DerInteger l
     void _set_l(Org::BouncyCastle::Asn1::DerInteger* value);
     // public Org.BouncyCastle.Math.BigInteger get_P()
-    // Offset: 0x1464178
+    // Offset: 0x17B0E18
     Org::BouncyCastle::Math::BigInteger* get_P();
     // public Org.BouncyCastle.Math.BigInteger get_G()
-    // Offset: 0x1464194
+    // Offset: 0x17B0E34
     Org::BouncyCastle::Math::BigInteger* get_G();
     // public Org.BouncyCastle.Math.BigInteger get_L()
-    // Offset: 0x14641B0
+    // Offset: 0x17B0E50
     Org::BouncyCastle::Math::BigInteger* get_L();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1463E00
+    // Offset: 0x17B0AA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHParameter* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::DHParameter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHParameter*, creationType>(seq)));
     }
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x14641C4
+    // Offset: 0x17B0E64
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

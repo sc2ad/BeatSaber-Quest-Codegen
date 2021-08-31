@@ -34,13 +34,13 @@ namespace UnityEngine::ResourceManagement::Util {
       return *reinterpret_cast<UnityEngine::ResourceManagement::Util::IAllocationStrategy*>(this);
     }
     // public System.Object New(System.Type type, System.Int32 typeHash)
-    // Offset: 0x1674068
+    // Offset: 0x19F3198
     ::Il2CppObject* New(System::Type* type, int typeHash);
     // public System.Void Release(System.Int32 typeHash, System.Object obj)
-    // Offset: 0x1674074
+    // Offset: 0x19F31A4
     void Release(int typeHash, ::Il2CppObject* obj);
     // public System.Void .ctor()
-    // Offset: 0x1674078
+    // Offset: 0x19F31A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

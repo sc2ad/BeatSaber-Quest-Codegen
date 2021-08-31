@@ -23,10 +23,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PersistentScriptableObject
     PersistentScriptableObject() noexcept {}
     // protected System.Void OnEnable()
-    // Offset: 0x203B09C
+    // Offset: 0x1257DD0
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x204D424
+    // Offset: 0x126B054
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

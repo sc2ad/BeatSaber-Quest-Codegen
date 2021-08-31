@@ -24,16 +24,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NoTransitionButtonSelectableStateController
     NoTransitionButtonSelectableStateController() noexcept {}
     // protected System.Void OnEnable()
-    // Offset: 0x1E6914C
+    // Offset: 0x1044B78
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1E691E0
+    // Offset: 0x1044C0C
     void OnDisable();
     // private System.Void HandleNoTransitionButtonSelectionStateDidChange(HMUI.NoTransitionsButton/HMUI.SelectionState state)
-    // Offset: 0x1E69274
+    // Offset: 0x1044CA0
     void HandleNoTransitionButtonSelectionStateDidChange(HMUI::NoTransitionsButton::SelectionState state);
     // public System.Void .ctor()
-    // Offset: 0x1E69298
+    // Offset: 0x1044CC4
     // Implemented from: SelectableStateController`1
     // Base method: System.Void SelectableStateController_1::.ctor()
     // Base method: System.Void SelectableStateController::.ctor()

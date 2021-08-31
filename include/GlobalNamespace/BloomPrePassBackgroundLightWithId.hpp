@@ -47,10 +47,10 @@ namespace GlobalNamespace {
     // Set instance field: private BloomPrePassBackgroundColor _bloomPrePassBackgroundColor
     void _set__bloomPrePassBackgroundColor(GlobalNamespace::BloomPrePassBackgroundColor* value);
     // public UnityEngine.Color get_color()
-    // Offset: 0x195FAF4
+    // Offset: 0x1E13678
     UnityEngine::Color get_color();
     // public System.Void .ctor()
-    // Offset: 0x195FB34
+    // Offset: 0x1E136B8
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -64,7 +64,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBackgroundLightWithId*, creationType>()));
     }
     // public override System.Void ColorWasSet(UnityEngine.Color newColor)
-    // Offset: 0x195FB14
+    // Offset: 0x1E13698
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color newColor)
     void ColorWasSet(UnityEngine::Color newColor);

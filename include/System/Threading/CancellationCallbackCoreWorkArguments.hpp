@@ -57,7 +57,7 @@ namespace System::Threading {
     // Set instance field: System.Int32 m_currArrayIndex
     void _set_m_currArrayIndex(int value);
     // public System.Void .ctor(System.Threading.SparselyPopulatedArrayFragment`1<System.Threading.CancellationCallbackInfo> currArrayFragment, System.Int32 currArrayIndex)
-    // Offset: 0xD7E420
+    // Offset: 0x18F16FC
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  CancellationCallbackCoreWorkArguments(System::Threading::SparselyPopulatedArrayFragment_1<System::Threading::CancellationCallbackInfo*>* currArrayFragment, int currArrayIndex)
   }; // System.Threading.CancellationCallbackCoreWorkArguments

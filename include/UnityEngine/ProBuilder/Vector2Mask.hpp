@@ -69,13 +69,13 @@ namespace UnityEngine::ProBuilder {
     // Set instance field: private System.Byte m_Mask
     void _set_m_Mask(uint8_t value);
     // public System.Single get_x()
-    // Offset: 0xD911FC
+    // Offset: 0x22CE6F4
     float get_x();
     // public System.Single get_y()
-    // Offset: 0xD91214
+    // Offset: 0x22CE70C
     float get_y();
     // public System.Void .ctor(UnityEngine.Vector3 v, System.Single epsilon)
-    // Offset: 0xD9122C
+    // Offset: 0x22CE724
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Vector2Mask(UnityEngine::Vector3 v, float epsilon) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Vector2Mask::.ctor");
@@ -83,27 +83,27 @@ namespace UnityEngine::ProBuilder {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, v, epsilon);
     }
     // public System.Void .ctor(System.Byte mask)
-    // Offset: 0xD91234
+    // Offset: 0x22CE7EC
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Vector2Mask(uint8_t mask)
     // static private System.Void .cctor()
-    // Offset: 0x1D7E130
+    // Offset: 0x22CE940
     static void _cctor();
   }; // UnityEngine.ProBuilder.Vector2Mask
   #pragma pack(pop)
   static check_size<sizeof(Vector2Mask), 0 + sizeof(uint8_t)> __UnityEngine_ProBuilder_Vector2MaskSizeCheck;
   static_assert(sizeof(Vector2Mask) == 0x1);
   // static public UnityEngine.ProBuilder.Vector2Mask op_BitwiseOr(UnityEngine.ProBuilder.Vector2Mask left, UnityEngine.ProBuilder.Vector2Mask right)
-  // Offset: 0x1D7E0BC
+  // Offset: 0x22CE8CC
   UnityEngine::ProBuilder::Vector2Mask operator|(const UnityEngine::ProBuilder::Vector2Mask& left, const UnityEngine::ProBuilder::Vector2Mask& right);
   // static public UnityEngine.ProBuilder.Vector2Mask op_BitwiseAnd(UnityEngine.ProBuilder.Vector2Mask left, UnityEngine.ProBuilder.Vector2Mask right)
-  // Offset: 0x1D7E0C8
+  // Offset: 0x22CE8D8
   UnityEngine::ProBuilder::Vector2Mask operator&(const UnityEngine::ProBuilder::Vector2Mask& left, const UnityEngine::ProBuilder::Vector2Mask& right);
   // static public UnityEngine.ProBuilder.Vector2Mask op_ExclusiveOr(UnityEngine.ProBuilder.Vector2Mask left, UnityEngine.ProBuilder.Vector2Mask right)
-  // Offset: 0x1D7E0D4
+  // Offset: 0x22CE8E4
   UnityEngine::ProBuilder::Vector2Mask operator^(const UnityEngine::ProBuilder::Vector2Mask& left, const UnityEngine::ProBuilder::Vector2Mask& right);
   // static public UnityEngine.Vector2 op_Multiply(UnityEngine.ProBuilder.Vector2Mask mask, System.Single value)
-  // Offset: 0x1D7E0E0
+  // Offset: 0x22CE8F0
   UnityEngine::Vector2 operator*(const UnityEngine::ProBuilder::Vector2Mask& mask, const float& value);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Vector2Mask, "UnityEngine.ProBuilder", "Vector2Mask");

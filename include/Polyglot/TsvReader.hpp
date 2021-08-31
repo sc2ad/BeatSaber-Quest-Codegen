@@ -29,10 +29,10 @@ namespace Polyglot {
     // Creating value type constructor for type: TsvReader
     TsvReader() noexcept {}
     // static public System.Collections.Generic.List`1<System.Collections.Generic.List`1<System.String>> Parse(System.String src)
-    // Offset: 0x1DB5830
+    // Offset: 0x23827C0
     static System::Collections::Generic::List_1<System::Collections::Generic::List_1<::Il2CppString*>*>* Parse(::Il2CppString* src);
     // public System.Void .ctor()
-    // Offset: 0x1DB6A0C
+    // Offset: 0x238399C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

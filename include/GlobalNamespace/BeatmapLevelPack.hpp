@@ -91,32 +91,32 @@ namespace GlobalNamespace {
     // Set instance field: private IBeatmapLevelCollection _beatmapLevelCollection
     void _set__beatmapLevelCollection(GlobalNamespace::IBeatmapLevelCollection* value);
     // public System.String get_packID()
-    // Offset: 0x1EE5898
+    // Offset: 0x10C1F68
     ::Il2CppString* get_packID();
     // public System.String get_packName()
-    // Offset: 0x1EE58A0
+    // Offset: 0x10C1F70
     ::Il2CppString* get_packName();
     // public System.String get_shortPackName()
-    // Offset: 0x1EE58A8
+    // Offset: 0x10C1F78
     ::Il2CppString* get_shortPackName();
     // public System.String get_collectionName()
-    // Offset: 0x1EE58B0
+    // Offset: 0x10C1F80
     ::Il2CppString* get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
-    // Offset: 0x1EE58B8
+    // Offset: 0x10C1F88
     UnityEngine::Sprite* get_coverImage();
     // public IBeatmapLevelCollection get_beatmapLevelCollection()
-    // Offset: 0x1EE58C0
+    // Offset: 0x10C1F90
     GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
     // public System.Void .ctor(System.String levelPackID, System.String packName, System.String shortPackName, UnityEngine.Sprite coverImage, IBeatmapLevelCollection levelCollection)
-    // Offset: 0x1EE58C8
+    // Offset: 0x10C1F98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelPack* New_ctor(::Il2CppString* levelPackID, ::Il2CppString* packName, ::Il2CppString* shortPackName, UnityEngine::Sprite* coverImage, GlobalNamespace::IBeatmapLevelCollection* levelCollection) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLevelPack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelPack*, creationType>(levelPackID, packName, shortPackName, coverImage, levelCollection)));
     }
     // static public BeatmapLevelPack CreateBeatmapLevelPackByUsingBeatmapCharacteristicFiltering(IBeatmapLevelPack beatmapLevelPack, BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x1EE591C
+    // Offset: 0x10C1FEC
     static GlobalNamespace::BeatmapLevelPack* CreateBeatmapLevelPackByUsingBeatmapCharacteristicFiltering(GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
   }; // BeatmapLevelPack
   #pragma pack(pop)

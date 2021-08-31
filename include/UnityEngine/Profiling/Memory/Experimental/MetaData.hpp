@@ -41,7 +41,7 @@ namespace UnityEngine::Profiling::Memory::Experimental {
     // Set instance field: public System.String platform
     void _set_platform(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x22AEAF4
+    // Offset: 0x1C40010
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

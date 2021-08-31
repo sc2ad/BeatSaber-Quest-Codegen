@@ -50,7 +50,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly Oculus.Platform.Models.NetSyncSessionList Sessions
     void _set_Sessions(Oculus::Platform::Models::NetSyncSessionList* value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x2101460
+    // Offset: 0x14ED7BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSyncSessionsChangedNotification* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::NetSyncSessionsChangedNotification::.ctor");

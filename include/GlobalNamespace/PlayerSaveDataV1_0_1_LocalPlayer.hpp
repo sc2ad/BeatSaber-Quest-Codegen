@@ -133,7 +133,7 @@ namespace GlobalNamespace {
     // Set instance field: public PlayerSaveDataV1_0_1/AchievementsData achievementsData
     void _set_achievementsData(GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData* value);
     // public System.Void .ctor()
-    // Offset: 0x1F57FCC
+    // Offset: 0x113B474
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

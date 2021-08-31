@@ -75,29 +75,29 @@ namespace MasterServer {
     // Set instance field: private readonly System.Threading.CancellationTokenRegistration _requestCancellationTokenRegistration
     void _set__requestCancellationTokenRegistration(System::Threading::CancellationTokenRegistration value);
     // public System.Threading.Tasks.Task`1<MasterServer.IMasterServerMessage> get_task()
-    // Offset: 0x2095538
+    // Offset: 0x121EDDC
     System::Threading::Tasks::Task_1<MasterServer::IMasterServerMessage*>* get_task();
     // public System.Boolean get_isWaiting()
-    // Offset: 0x2095408
+    // Offset: 0x121ECAC
     bool get_isWaiting();
     // public System.Void .ctor(System.Threading.CancellationToken disposedCancellationToken, System.Threading.CancellationToken requestCancellationToken)
-    // Offset: 0x2095210
+    // Offset: 0x121EAB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageHandler::RequestResponseWaiter* New_ctor(System::Threading::CancellationToken disposedCancellationToken, System::Threading::CancellationToken requestCancellationToken) {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::RequestResponseWaiter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageHandler::RequestResponseWaiter*, creationType>(disposedCancellationToken, requestCancellationToken)));
     }
     // public System.Void Complete(MasterServer.IMasterServerMessage response)
-    // Offset: 0x20912D0
+    // Offset: 0x121AC7C
     void Complete(MasterServer::IMasterServerMessage* response);
     // public System.Void Fail(System.Exception ex)
-    // Offset: 0x2095478
+    // Offset: 0x121ED1C
     void Fail(System::Exception* ex);
     // public System.Void Cancel()
-    // Offset: 0x20954E0
+    // Offset: 0x121ED84
     void Cancel();
     // public override System.Void Dispose()
-    // Offset: 0x209532C
+    // Offset: 0x121EBD0
     // Implemented from: MasterServer.MessageHandler/MasterServer.RequestWaiter
     // Base method: System.Void RequestWaiter::Dispose()
     void Dispose();

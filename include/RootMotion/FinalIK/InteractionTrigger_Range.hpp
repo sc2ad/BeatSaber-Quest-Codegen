@@ -48,21 +48,21 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: show and: characterPosition
     char __padding1[0x7] = {};
-    // [TooltipAttribute] Offset: 0xEA48DC
+    // [TooltipAttribute] Offset: 0xE2A68C
     // public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.CharacterPosition characterPosition
     // Size: 0x8
     // Offset: 0x20
     RootMotion::FinalIK::InteractionTrigger::CharacterPosition* characterPosition;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::InteractionTrigger::CharacterPosition*) == 0x8);
-    // [TooltipAttribute] Offset: 0xEA4914
+    // [TooltipAttribute] Offset: 0xE2A6C4
     // public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.CameraPosition cameraPosition
     // Size: 0x8
     // Offset: 0x28
     RootMotion::FinalIK::InteractionTrigger::CameraPosition* cameraPosition;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::InteractionTrigger::CameraPosition*) == 0x8);
-    // [TooltipAttribute] Offset: 0xEA494C
+    // [TooltipAttribute] Offset: 0xE2A6FC
     // public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.Range/RootMotion.FinalIK.Interaction[] interactions
     // Size: 0x8
     // Offset: 0x30
@@ -92,10 +92,10 @@ namespace RootMotion::FinalIK {
     // Set instance field: public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.Range/RootMotion.FinalIK.Interaction[] interactions
     void _set_interactions(::Array<RootMotion::FinalIK::InteractionTrigger::Range::Interaction*>* value);
     // public System.Boolean IsInRange(UnityEngine.Transform character, UnityEngine.Transform raycastFrom, UnityEngine.RaycastHit raycastHit, UnityEngine.Transform trigger, out System.Single maxError)
-    // Offset: 0x172B470
+    // Offset: 0x1AD5D8C
     bool IsInRange(UnityEngine::Transform* character, UnityEngine::Transform* raycastFrom, UnityEngine::RaycastHit raycastHit, UnityEngine::Transform* trigger, ByRef<float> maxError);
     // public System.Void .ctor()
-    // Offset: 0x172C2CC
+    // Offset: 0x1AD6BE8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

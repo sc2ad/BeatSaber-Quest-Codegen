@@ -78,10 +78,10 @@ namespace HMUI {
     // Set instance field: public HMUI.ViewController viewController
     void _set_viewController(HMUI::ViewController* value);
     // System.Void <PushViewControllerToNavigationController>b__0()
-    // Offset: 0x10CD45C
+    // Offset: 0x136E384
     void $PushViewControllerToNavigationController$b__0();
     // public System.Void .ctor()
-    // Offset: 0x10CC790
+    // Offset: 0x136D6B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

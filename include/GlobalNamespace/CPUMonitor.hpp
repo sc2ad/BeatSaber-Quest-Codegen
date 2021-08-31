@@ -91,13 +91,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int64 _lastSampleValue
     void _set__lastSampleValue(int64_t value);
     // public System.Single get_utilization()
-    // Offset: 0x108F7FC
+    // Offset: 0x131D82C
     float get_utilization();
     // public System.Void PollUpdate()
-    // Offset: 0x108F6F4
+    // Offset: 0x131D724
     void PollUpdate();
     // public System.Void .ctor()
-    // Offset: 0x108F824
+    // Offset: 0x131D854
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

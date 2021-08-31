@@ -77,8 +77,8 @@ namespace UnityEngine::UI {
     bool m_IsMaskingGraphic;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [EditorBrowsableAttribute] Offset: 0xE6133C
-    // [ObsoleteAttribute] Offset: 0xE6133C
+    // [EditorBrowsableAttribute] Offset: 0xDE7AC8
+    // [ObsoleteAttribute] Offset: 0xDE7AC8
     // protected System.Boolean m_IncludeForMasking
     // Size: 0x1
     // Offset: 0xA2
@@ -93,8 +93,8 @@ namespace UnityEngine::UI {
     UnityEngine::UI::MaskableGraphic::CullStateChangedEvent* m_OnCullStateChanged;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::MaskableGraphic::CullStateChangedEvent*) == 0x8);
-    // [EditorBrowsableAttribute] Offset: 0xE613A0
-    // [ObsoleteAttribute] Offset: 0xE613A0
+    // [EditorBrowsableAttribute] Offset: 0xDE7B2C
+    // [ObsoleteAttribute] Offset: 0xDE7B2C
     // protected System.Boolean m_ShouldRecalculate
     // Size: 0x1
     // Offset: 0xB0
@@ -170,58 +170,58 @@ namespace UnityEngine::UI {
     // Set instance field: private readonly UnityEngine.Vector3[] m_Corners
     void _set_m_Corners(::Array<UnityEngine::Vector3>* value);
     // public UnityEngine.UI.MaskableGraphic/UnityEngine.UI.CullStateChangedEvent get_onCullStateChanged()
-    // Offset: 0x1653F70
+    // Offset: 0x19D3088
     UnityEngine::UI::MaskableGraphic::CullStateChangedEvent* get_onCullStateChanged();
     // public System.Void set_onCullStateChanged(UnityEngine.UI.MaskableGraphic/UnityEngine.UI.CullStateChangedEvent value)
-    // Offset: 0x1653F78
+    // Offset: 0x19D3090
     void set_onCullStateChanged(UnityEngine::UI::MaskableGraphic::CullStateChangedEvent* value);
     // public System.Boolean get_maskable()
-    // Offset: 0x1653F80
+    // Offset: 0x19D3098
     bool get_maskable();
     // public System.Void set_maskable(System.Boolean value)
-    // Offset: 0x1653F88
+    // Offset: 0x19D30A0
     void set_maskable(bool value);
     // public System.Boolean get_isMaskingGraphic()
-    // Offset: 0x1653FC0
+    // Offset: 0x19D30D8
     bool get_isMaskingGraphic();
     // public System.Void set_isMaskingGraphic(System.Boolean value)
-    // Offset: 0x165290C
+    // Offset: 0x19D1A24
     void set_isMaskingGraphic(bool value);
     // private UnityEngine.Rect get_rootCanvasRect()
-    // Offset: 0x1654140
+    // Offset: 0x19D3258
     UnityEngine::Rect get_rootCanvasRect();
     // private UnityEngine.GameObject UnityEngine.UI.IClippable.get_gameObject()
-    // Offset: 0x1654D9C
+    // Offset: 0x19D3EB4
     UnityEngine::GameObject* UnityEngine_UI_IClippable_get_gameObject();
     // public UnityEngine.Material GetModifiedMaterial(UnityEngine.Material baseMaterial)
-    // Offset: 0x1653FC8
+    // Offset: 0x19D30E0
     UnityEngine::Material* GetModifiedMaterial(UnityEngine::Material* baseMaterial);
     // public System.Void Cull(UnityEngine.Rect clipRect, System.Boolean validRect)
-    // Offset: 0x16540E0
+    // Offset: 0x19D31F8
     void Cull(UnityEngine::Rect clipRect, bool validRect);
     // private System.Void UpdateCull(System.Boolean cull)
-    // Offset: 0x1654490
+    // Offset: 0x19D35A8
     void UpdateCull(bool cull);
     // public System.Void SetClipRect(UnityEngine.Rect clipRect, System.Boolean validRect)
-    // Offset: 0x1654574
+    // Offset: 0x19D368C
     void SetClipRect(UnityEngine::Rect clipRect, bool validRect);
     // public System.Void SetClipSoftness(UnityEngine.Vector2 clipSoftness)
-    // Offset: 0x16545F0
+    // Offset: 0x19D3708
     void SetClipSoftness(UnityEngine::Vector2 clipSoftness);
     // public System.Void ParentMaskStateChanged()
-    // Offset: 0x1654914
+    // Offset: 0x19D3A2C
     void ParentMaskStateChanged();
     // private System.Void UpdateClipParent()
-    // Offset: 0x165468C
+    // Offset: 0x19D37A4
     void UpdateClipParent();
     // public System.Void RecalculateClipping()
-    // Offset: 0x1654C08
+    // Offset: 0x19D3D20
     void RecalculateClipping();
     // public System.Void RecalculateMasking()
-    // Offset: 0x1654C0C
+    // Offset: 0x19D3D24
     void RecalculateMasking();
     // protected System.Void .ctor()
-    // Offset: 0x1654C98
+    // Offset: 0x19D3DB0
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -236,22 +236,22 @@ namespace UnityEngine::UI {
       return THROW_UNLESS((::il2cpp_utils::New<MaskableGraphic*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x165462C
+    // Offset: 0x19D3744
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0x16547F8
+    // Offset: 0x19D3910
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnDisable()
     void OnDisable();
     // protected override System.Void OnTransformParentChanged()
-    // Offset: 0x16548B4
+    // Offset: 0x19D39CC
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnTransformParentChanged()
     void OnTransformParentChanged();
     // protected override System.Void OnCanvasHierarchyChanged()
-    // Offset: 0x1654918
+    // Offset: 0x19D3A30
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnCanvasHierarchyChanged()
     void OnCanvasHierarchyChanged();

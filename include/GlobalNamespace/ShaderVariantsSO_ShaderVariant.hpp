@@ -55,13 +55,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Shader _shader
     void _set__shader(UnityEngine::Shader* value);
     // public ShaderVariantsSO/ShaderVariant/Variant[] get_variants()
-    // Offset: 0x1DC8FD4
+    // Offset: 0x2394F94
     ::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>* get_variants();
     // public UnityEngine.Shader get_shader()
-    // Offset: 0x1DC8FDC
+    // Offset: 0x2394F9C
     UnityEngine::Shader* get_shader();
     // public System.Void .ctor(UnityEngine.Shader shader, ShaderVariantsSO/ShaderVariant/Variant[] variants)
-    // Offset: 0x1DC8FE4
+    // Offset: 0x2394FA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShaderVariantsSO::ShaderVariant* New_ctor(UnityEngine::Shader* shader, ::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>* variants) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ShaderVariantsSO::ShaderVariant::.ctor");

@@ -61,33 +61,33 @@ namespace HMUI {
     // Set instance field: private System.Collections.Generic.List`1<System.Tuple`2<UnityEngine.UI.Button,UnityEngine.Events.UnityAction>> _bindings
     void _set__bindings(System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Button*, UnityEngine::Events::UnityAction*>*>* value);
     // public System.Void .ctor(UnityEngine.UI.Button button, System.Action action)
-    // Offset: 0x10C55CC
+    // Offset: 0x13664F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ButtonBinder* New_ctor(UnityEngine::UI::Button* button, System::Action* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ButtonBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ButtonBinder*, creationType>(button, action)));
     }
     // public System.Void .ctor(System.Collections.Generic.List`1<System.Tuple`2<UnityEngine.UI.Button,System.Action>> bindingData)
-    // Offset: 0x10C56C4
+    // Offset: 0x13665EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ButtonBinder* New_ctor(System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Button*, System::Action*>*>* bindingData) {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ButtonBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ButtonBinder*, creationType>(bindingData)));
     }
     // private System.Void Init()
-    // Offset: 0x10C5564
+    // Offset: 0x136648C
     void Init();
     // public System.Void AddBindings(System.Collections.Generic.List`1<System.Tuple`2<UnityEngine.UI.Button,System.Action>> bindingData)
-    // Offset: 0x10C56FC
+    // Offset: 0x1366624
     void AddBindings(System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Button*, System::Action*>*>* bindingData);
     // public System.Void AddBinding(UnityEngine.UI.Button button, System.Action action)
-    // Offset: 0x10C5614
+    // Offset: 0x136653C
     void AddBinding(UnityEngine::UI::Button* button, System::Action* action);
     // public System.Void ClearBindings()
-    // Offset: 0x10C5804
+    // Offset: 0x136672C
     void ClearBindings();
     // public System.Void .ctor()
-    // Offset: 0x10C553C
+    // Offset: 0x1366464
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

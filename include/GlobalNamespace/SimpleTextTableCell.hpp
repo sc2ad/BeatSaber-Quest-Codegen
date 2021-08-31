@@ -40,13 +40,13 @@ namespace GlobalNamespace {
     // Set instance field: private TMPro.TextMeshProUGUI _text
     void _set__text(TMPro::TextMeshProUGUI* value);
     // public System.String get_text()
-    // Offset: 0x1DE0980
+    // Offset: 0x23B4F70
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x1DE0964
+    // Offset: 0x23B4F54
     void set_text(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x1DE099C
+    // Offset: 0x23B4F8C
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

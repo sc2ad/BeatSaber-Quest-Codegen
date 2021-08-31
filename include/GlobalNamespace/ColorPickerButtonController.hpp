@@ -59,13 +59,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.UI.Image _colorImage
     void _set__colorImage(UnityEngine::UI::Image* value);
     // public UnityEngine.UI.Button get_button()
-    // Offset: 0x1EFE938
+    // Offset: 0x10EE74C
     UnityEngine::UI::Button* get_button();
     // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x1EFE940
+    // Offset: 0x10EE754
     void SetColor(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1EFE968
+    // Offset: 0x10EE77C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Int32 progressPos
     void _set_progressPos(int value);
     // public System.Void .ctor()
-    // Offset: 0x1EDBCD0
+    // Offset: 0x10965E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -54,28 +54,28 @@ namespace GlobalNamespace {
     // Set instance field: private PlayerData _playerData
     void _set__playerData(GlobalNamespace::PlayerData* value);
     // public PlayerData get_playerData()
-    // Offset: 0x1F563A4
+    // Offset: 0x113984C
     GlobalNamespace::PlayerData* get_playerData();
     // protected System.Void OnEnable()
-    // Offset: 0x1F563AC
+    // Offset: 0x1139854
     void OnEnable();
     // protected System.Void OnApplicationPause(System.Boolean pauseStatus)
-    // Offset: 0x1F563E0
+    // Offset: 0x1139888
     void OnApplicationPause(bool pauseStatus);
     // protected System.Void OnDisable()
-    // Offset: 0x1F5640C
+    // Offset: 0x11398B4
     void OnDisable();
     // public System.Void ResetData()
-    // Offset: 0x1F56410
+    // Offset: 0x11398B8
     void ResetData();
     // public System.Void Save()
-    // Offset: 0x1F563EC
+    // Offset: 0x1139894
     void Save();
     // public System.Void Load()
-    // Offset: 0x1F563B0
+    // Offset: 0x1139858
     void Load();
     // public System.Void .ctor()
-    // Offset: 0x1F56440
+    // Offset: 0x11398E8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -62,7 +62,7 @@ namespace System::Reflection {
     // Set instance field: System.UInt32 data_length
     void _set_data_length(uint value);
     // public System.Void .ctor()
-    // Offset: 0x1843884
+    // Offset: 0x1D147F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

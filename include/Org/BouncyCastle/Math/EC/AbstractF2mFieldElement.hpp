@@ -23,16 +23,16 @@ namespace Org::BouncyCastle::Math::EC {
     // Creating value type constructor for type: AbstractF2mFieldElement
     AbstractF2mFieldElement() noexcept {}
     // public System.Boolean get_HasFastTrace()
-    // Offset: 0x18B4B6C
+    // Offset: 0x1DB36E0
     bool get_HasFastTrace();
     // public Org.BouncyCastle.Math.EC.ECFieldElement HalfTrace()
-    // Offset: 0x18B4A14
+    // Offset: 0x1DB3588
     Org::BouncyCastle::Math::EC::ECFieldElement* HalfTrace();
     // public System.Int32 Trace()
-    // Offset: 0x18B4B74
+    // Offset: 0x1DB36E8
     int Trace();
     // protected System.Void .ctor()
-    // Offset: 0x18B4CE0
+    // Offset: 0x1DB3854
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
     // Base method: System.Void ECFieldElement::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -45,17 +45,17 @@ namespace UnityEngine {
     // Set instance field: protected System.IntPtr m_jobject
     void _set_m_jobject(System::IntPtr value);
     // public System.Void .ctor(System.IntPtr jobject)
-    // Offset: 0x1DD9320
+    // Offset: 0x23AD908
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GlobalJavaObjectRef* New_ctor(System::IntPtr jobject) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GlobalJavaObjectRef::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GlobalJavaObjectRef*, creationType>(jobject)));
     }
     // public System.Void Dispose()
-    // Offset: 0x1DDA2C4
+    // Offset: 0x23AE8B4
     void Dispose();
     // protected override System.Void Finalize()
-    // Offset: 0x1DDCEDC
+    // Offset: 0x23B14CC
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

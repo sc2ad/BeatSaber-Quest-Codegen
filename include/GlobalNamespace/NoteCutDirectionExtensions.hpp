@@ -32,20 +32,26 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NoteCutDirectionExtensions
     NoteCutDirectionExtensions() noexcept {}
     // static public UnityEngine.Vector2 Direction(NoteCutDirection cutDirection)
-    // Offset: 0x23EEE74
+    // Offset: 0x240D4C0
     static UnityEngine::Vector2 Direction(GlobalNamespace::NoteCutDirection cutDirection);
     // static public System.Single RotationAngle(NoteCutDirection cutDirection)
-    // Offset: 0x23EEF58
+    // Offset: 0x240D5A4
     static float RotationAngle(GlobalNamespace::NoteCutDirection cutDirection);
     // static public UnityEngine.Quaternion Rotation(NoteCutDirection cutDirection, System.Single offset)
-    // Offset: 0x23EEF78
+    // Offset: 0x240D5C4
     static UnityEngine::Quaternion Rotation(GlobalNamespace::NoteCutDirection cutDirection, float offset);
     // static public System.Boolean IsMainDirection(NoteCutDirection cutDirection)
-    // Offset: 0x23EF00C
+    // Offset: 0x240D658
     static bool IsMainDirection(GlobalNamespace::NoteCutDirection cutDirection);
     // static public NoteCutDirection MainNoteCutDirectionFromCutDirAngle(System.Single angle)
-    // Offset: 0x23EF018
+    // Offset: 0x240D664
     static GlobalNamespace::NoteCutDirection MainNoteCutDirectionFromCutDirAngle(float angle);
+    // static public NoteCutDirection Mirrored(NoteCutDirection cutDirection)
+    // Offset: 0x240D6E8
+    static GlobalNamespace::NoteCutDirection Mirrored(GlobalNamespace::NoteCutDirection cutDirection);
+    // static public System.Boolean IsOnSamePlane(NoteCutDirection noteCutDirection1, NoteCutDirection noteCutDirection2)
+    // Offset: 0x240D704
+    static bool IsOnSamePlane(GlobalNamespace::NoteCutDirection noteCutDirection1, GlobalNamespace::NoteCutDirection noteCutDirection2);
   }; // NoteCutDirectionExtensions
   #pragma pack(pop)
 }
@@ -96,5 +102,24 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
   static const MethodInfo* get() {
     static auto* angle = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutDirectionExtensions*), "MainNoteCutDirectionFromCutDirAngle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{angle});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutDirectionExtensions::Mirrored
+// Il2CppName: Mirrored
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteCutDirection (*)(GlobalNamespace::NoteCutDirection)>(&GlobalNamespace::NoteCutDirectionExtensions::Mirrored)> {
+  static const MethodInfo* get() {
+    static auto* cutDirection = &::il2cpp_utils::GetClassFromName("", "NoteCutDirection")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutDirectionExtensions*), "Mirrored", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cutDirection});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutDirectionExtensions::IsOnSamePlane
+// Il2CppName: IsOnSamePlane
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::NoteCutDirection, GlobalNamespace::NoteCutDirection)>(&GlobalNamespace::NoteCutDirectionExtensions::IsOnSamePlane)> {
+  static const MethodInfo* get() {
+    static auto* noteCutDirection1 = &::il2cpp_utils::GetClassFromName("", "NoteCutDirection")->byval_arg;
+    static auto* noteCutDirection2 = &::il2cpp_utils::GetClassFromName("", "NoteCutDirection")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutDirectionExtensions*), "IsOnSamePlane", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteCutDirection1, noteCutDirection2});
   }
 };

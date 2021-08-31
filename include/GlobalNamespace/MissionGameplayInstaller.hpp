@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionGameplayInstaller : public Zenject::MonoInstaller {
     public:
-    // [InjectAttribute] Offset: 0xEB7A0C
+    // [InjectAttribute] Offset: 0xE3D7EC
     // private readonly MissionGameplaySceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x20
@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Set instance field: private readonly MissionGameplaySceneSetupData _sceneSetupData
     void _set__sceneSetupData(GlobalNamespace::MissionGameplaySceneSetupData* value);
     // public System.Void .ctor()
-    // Offset: 0x1F6142C
+    // Offset: 0x11D10AC
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -56,7 +56,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionGameplayInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x1F610BC
+    // Offset: 0x11D0D3C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

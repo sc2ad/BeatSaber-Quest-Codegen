@@ -73,7 +73,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly System.Boolean Completed
     void _set_Completed(bool value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x20FC168
+    // Offset: 0x14E84C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssetFileDownloadUpdate* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::AssetFileDownloadUpdate::.ctor");

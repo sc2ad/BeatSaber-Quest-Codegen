@@ -64,7 +64,7 @@ namespace GlobalNamespace {
       static constexpr bool IS_VALUE_TYPE = true;
       // public System.Int32 value__
       // Size: 0x4
-      // Offset: 0xFFFFFFF0
+      // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);

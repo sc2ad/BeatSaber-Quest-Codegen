@@ -67,13 +67,13 @@ namespace System::Net {
     // Set instance field: public System.Net.SimpleAsyncCallback callback
     void _set_callback(System::Net::SimpleAsyncCallback* value);
     // System.Boolean <RunWithLock>b__0(System.Net.SimpleAsyncResult inner)
-    // Offset: 0x11DE0EC
+    // Offset: 0x14A3D34
     bool $RunWithLock$b__0(System::Net::SimpleAsyncResult* inner);
     // System.Void <RunWithLock>b__1(System.Net.SimpleAsyncResult inner)
-    // Offset: 0x11DE174
+    // Offset: 0x14A3DBC
     void $RunWithLock$b__1(System::Net::SimpleAsyncResult* inner);
     // public System.Void .ctor()
-    // Offset: 0x11DDC2C
+    // Offset: 0x14A3874
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

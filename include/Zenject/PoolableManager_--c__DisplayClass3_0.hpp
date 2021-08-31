@@ -56,10 +56,10 @@ namespace Zenject {
     // Set instance field: public Zenject.IPoolable poolable
     void _set_poolable(Zenject::IPoolable* value);
     // System.Boolean <CreatePoolableInfo>b__0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x13C8E68
+    // Offset: 0x1714B50
     bool $CreatePoolableInfo$b__0(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // public System.Void .ctor()
-    // Offset: 0x13C8B28
+    // Offset: 0x1714810
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

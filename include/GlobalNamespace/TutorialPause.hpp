@@ -36,21 +36,21 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TutorialPause : public ::Il2CppObject/*, public GlobalNamespace::IGamePause*/ {
     public:
-    // [InjectAttribute] Offset: 0xEB6C0C
+    // [InjectAttribute] Offset: 0xE3C9EC
     // private readonly TutorialSongController _tutorialSongController
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::TutorialSongController* tutorialSongController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TutorialSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0xEB6C1C
+    // [InjectAttribute] Offset: 0xE3C9FC
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xEB6C2C
+    // [InjectAttribute] Offset: 0xE3CA0C
     // private readonly AudioListenerController _audioListenerController
     // Size: 0x8
     // Offset: 0x20
@@ -116,34 +116,34 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _pause
     void _set__pause(bool value);
     // public System.Void add_didPauseEvent(System.Action value)
-    // Offset: 0x1EE0FD8
+    // Offset: 0x109B8E4
     void add_didPauseEvent(System::Action* value);
     // public System.Void remove_didPauseEvent(System.Action value)
-    // Offset: 0x1EE107C
+    // Offset: 0x109B988
     void remove_didPauseEvent(System::Action* value);
     // public System.Void add_willResumeEvent(System.Action value)
-    // Offset: 0x1EE1120
+    // Offset: 0x109BA2C
     void add_willResumeEvent(System::Action* value);
     // public System.Void remove_willResumeEvent(System.Action value)
-    // Offset: 0x1EE11C4
+    // Offset: 0x109BAD0
     void remove_willResumeEvent(System::Action* value);
     // public System.Void add_didResumeEvent(System.Action value)
-    // Offset: 0x1EE1268
+    // Offset: 0x109BB74
     void add_didResumeEvent(System::Action* value);
     // public System.Void remove_didResumeEvent(System.Action value)
-    // Offset: 0x1EE130C
+    // Offset: 0x109BC18
     void remove_didResumeEvent(System::Action* value);
     // public System.Void Pause()
-    // Offset: 0x1EE13B0
+    // Offset: 0x109BCBC
     void Pause();
     // public System.Void WillResume()
-    // Offset: 0x1EE1430
+    // Offset: 0x109BD3C
     void WillResume();
     // public System.Void Resume()
-    // Offset: 0x1EE1444
+    // Offset: 0x109BD50
     void Resume();
     // public System.Void .ctor()
-    // Offset: 0x1EE14C0
+    // Offset: 0x109BDCC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -91,26 +91,26 @@ namespace GlobalNamespace {
     // Set instance field: public UnityEngine.AudioClip audioClip
     void _set_audioClip(UnityEngine::AudioClip* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1FC5BA4
+    // Offset: 0x11B35CC
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1FC5C0C
+    // Offset: 0x11B3634
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1FC4CBC
+    // Offset: 0x11B26E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerIntroCountdown::$PlayDelayed$d__24* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerIntroCountdown::$PlayDelayed$d__24::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerIntroCountdown::$PlayDelayed$d__24*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1FC5AD8
+    // Offset: 0x11B3500
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1FC5ADC
+    // Offset: 0x11B3504
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1FC5BAC
+    // Offset: 0x11B35D4
     void System_Collections_IEnumerator_Reset();
   }; // MultiplayerIntroCountdown/<PlayDelayed>d__24
   #pragma pack(pop)

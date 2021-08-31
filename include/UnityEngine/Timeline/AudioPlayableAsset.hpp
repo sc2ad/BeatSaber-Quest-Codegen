@@ -104,38 +104,38 @@ namespace UnityEngine::Timeline {
     // Set instance field: private UnityEngine.Timeline.AudioClipProperties m_ClipProperties
     void _set_m_ClipProperties(UnityEngine::Timeline::AudioClipProperties* value);
     // System.Single get_bufferingTime()
-    // Offset: 0x14B0C24
+    // Offset: 0x181A7D4
     float get_bufferingTime();
     // System.Void set_bufferingTime(System.Single value)
-    // Offset: 0x14B0C2C
+    // Offset: 0x181A7DC
     void set_bufferingTime(float value);
     // public UnityEngine.AudioClip get_clip()
-    // Offset: 0x14B0C34
+    // Offset: 0x181A7E4
     UnityEngine::AudioClip* get_clip();
     // public System.Void set_clip(UnityEngine.AudioClip value)
-    // Offset: 0x14B0C3C
+    // Offset: 0x181A7EC
     void set_clip(UnityEngine::AudioClip* value);
     // public System.Boolean get_loop()
-    // Offset: 0x14B0C44
+    // Offset: 0x181A7F4
     bool get_loop();
     // public System.Void set_loop(System.Boolean value)
-    // Offset: 0x14B0C4C
+    // Offset: 0x181A7FC
     void set_loop(bool value);
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0x14B0F00
+    // Offset: 0x181AAB0
     UnityEngine::Timeline::ClipCaps get_clipCaps();
     // public override System.Double get_duration()
-    // Offset: 0x14B0C58
+    // Offset: 0x181A808
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: System.Double PlayableAsset::get_duration()
     double get_duration();
     // public override System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> get_outputs()
-    // Offset: 0x14B0D1C
+    // Offset: 0x181A8CC
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> PlayableAsset::get_outputs()
     System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* get_outputs();
     // public System.Void .ctor()
-    // Offset: 0x14B0F0C
+    // Offset: 0x181AABC
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: System.Void PlayableAsset::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -147,7 +147,7 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<AudioPlayableAsset*, creationType>()));
     }
     // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
-    // Offset: 0x14B0DD4
+    // Offset: 0x181A984
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: UnityEngine.Playables.Playable PlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
     UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go);

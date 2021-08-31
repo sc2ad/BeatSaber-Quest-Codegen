@@ -125,7 +125,7 @@ namespace System {
     // Set instance field: System.DateTimeParse/System.MatchNumberDelegate parseNumberDelegate
     void _set_parseNumberDelegate(System::DateTimeParse::MatchNumberDelegate* value);
     // System.Void Init()
-    // Offset: 0xD83430
+    // Offset: 0x1D11B04
     void Init();
   }; // System.ParsingInfo
   #pragma pack(pop)

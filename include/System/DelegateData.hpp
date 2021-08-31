@@ -58,7 +58,7 @@ namespace System {
     // Set instance field: public System.Boolean curried_first_arg
     void _set_curried_first_arg(bool value);
     // public System.Void .ctor()
-    // Offset: 0x178340C
+    // Offset: 0x1B627D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

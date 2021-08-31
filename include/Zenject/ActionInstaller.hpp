@@ -47,14 +47,14 @@ namespace Zenject {
     // Set instance field: private readonly System.Action`1<Zenject.DiContainer> _installMethod
     void _set__installMethod(System::Action_1<Zenject::DiContainer*>* value);
     // public System.Void .ctor(System.Action`1<Zenject.DiContainer> installMethod)
-    // Offset: 0x111E794
+    // Offset: 0x13D99BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ActionInstaller* New_ctor(System::Action_1<Zenject::DiContainer*>* installMethod) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ActionInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ActionInstaller*, creationType>(installMethod)));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x111E7F8
+    // Offset: 0x13D9A20
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();

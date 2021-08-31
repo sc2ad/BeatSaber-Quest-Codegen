@@ -154,7 +154,7 @@ namespace GlobalNamespace {
     // Set instance field: public OVRPlugin/Vector2f RTouchpad
     void _set_RTouchpad(GlobalNamespace::OVRPlugin::Vector2f value);
     // public System.Void .ctor(OVRPlugin/ControllerState cs)
-    // Offset: 0xD74108
+    // Offset: 0x1626B40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ControllerState2(GlobalNamespace::OVRPlugin::ControllerState cs) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::ControllerState2::.ctor");

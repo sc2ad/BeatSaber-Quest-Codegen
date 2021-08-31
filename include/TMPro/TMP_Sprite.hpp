@@ -84,7 +84,7 @@ namespace TMPro {
     // Set instance field: public UnityEngine.Sprite sprite
     void _set_sprite(UnityEngine::Sprite* value);
     // public System.Void .ctor()
-    // Offset: 0x10134DC
+    // Offset: 0x115CC74
     // Implemented from: TMPro.TMP_TextElement_Legacy
     // Base method: System.Void TMP_TextElement_Legacy::.ctor()
     // Base method: System.Void Object::.ctor()

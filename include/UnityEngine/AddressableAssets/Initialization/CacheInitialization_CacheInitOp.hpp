@@ -58,13 +58,13 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // Set instance field: private System.Boolean m_UpdateRequired
     void _set_m_UpdateRequired(bool value);
     // public System.Void Init(System.Func`1<System.Boolean> callback)
-    // Offset: 0x11705F4
+    // Offset: 0x1446508
     void Init(System::Func_1<bool>* callback);
     // public System.Void Update(System.Single unscaledDeltaTime)
-    // Offset: 0x117068C
+    // Offset: 0x14465A0
     void Update(float unscaledDeltaTime);
     // public System.Void .ctor()
-    // Offset: 0x11704E4
+    // Offset: 0x14463F8
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -74,12 +74,12 @@ namespace UnityEngine::AddressableAssets::Initialization {
       return THROW_UNLESS((::il2cpp_utils::New<CacheInitialization::CacheInitOp*, creationType>()));
     }
     // override System.Boolean InvokeWaitForCompletion()
-    // Offset: 0x11705FC
+    // Offset: 0x1446510
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Boolean AsyncOperationBase_1::InvokeWaitForCompletion()
     bool InvokeWaitForCompletion();
     // protected override System.Void Execute()
-    // Offset: 0x1170744
+    // Offset: 0x1446658
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::Execute()
     void Execute();

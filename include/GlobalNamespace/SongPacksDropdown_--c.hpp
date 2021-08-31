@@ -40,13 +40,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.String,System.String> <>9__7_0
     static void _set_$$9__7_0(System::Func_2<::Il2CppString*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1EC5F80
+    // Offset: 0x1080890
     static void _cctor();
     // System.String <LazyInit>b__7_0(System.String serializedName)
-    // Offset: 0x1EC5FEC
+    // Offset: 0x10808FC
     ::Il2CppString* $LazyInit$b__7_0(::Il2CppString* serializedName);
     // public System.Void .ctor()
-    // Offset: 0x1EC5FE4
+    // Offset: 0x10808F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

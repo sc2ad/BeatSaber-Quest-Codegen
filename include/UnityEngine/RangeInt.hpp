@@ -47,10 +47,10 @@ namespace UnityEngine {
     // Set instance field: public System.Int32 length
     void _set_length(int value);
     // public System.Int32 get_end()
-    // Offset: 0xF84094
+    // Offset: 0x1C42398
     int get_end();
     // public System.Void .ctor(System.Int32 start, System.Int32 length)
-    // Offset: 0xF840A0
+    // Offset: 0x1C423A4
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  RangeInt(int start, int length)
   }; // UnityEngine.RangeInt

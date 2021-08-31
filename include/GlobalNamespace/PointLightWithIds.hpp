@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Set instance field: private PointLight _pointLight
     void _set__pointLight(GlobalNamespace::PointLight* value);
     // public System.Void .ctor()
-    // Offset: 0x196AF5C
+    // Offset: 0x1E1EAE0
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::.ctor()
     // Base method: System.Void LightWithIds::.ctor()
@@ -60,7 +60,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PointLightWithIds*, creationType>()));
     }
     // protected override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x196AF3C
+    // Offset: 0x1E1EAC0
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);

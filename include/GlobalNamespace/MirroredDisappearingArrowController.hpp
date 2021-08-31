@@ -39,10 +39,10 @@ namespace GlobalNamespace {
     // Set instance field: private MirroredCubeNoteController _mirroredGameNoteController
     void _set__mirroredGameNoteController(GlobalNamespace::MirroredCubeNoteController* value);
     // protected MirroredCubeNoteController get_gameNoteController()
-    // Offset: 0x1F5FAF8
+    // Offset: 0x10E8BA8
     GlobalNamespace::MirroredCubeNoteController* get_gameNoteController();
     // public System.Void .ctor()
-    // Offset: 0x1F5FB00
+    // Offset: 0x10E8BB0
     // Implemented from: DisappearingArrowControllerBase`1
     // Base method: System.Void DisappearingArrowControllerBase_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

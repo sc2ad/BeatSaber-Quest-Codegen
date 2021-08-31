@@ -73,13 +73,13 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set instance field: public System.Func`2<UnityEngine.ProBuilder.WingedEdge,System.Boolean> <>9__2
     void _set_$$9__2(System::Func_2<UnityEngine::ProBuilder::WingedEdge*, bool>* value);
     // System.Boolean <FindHoles>b__1(UnityEngine.ProBuilder.WingedEdge w)
-    // Offset: 0x124D200
+    // Offset: 0x1558C30
     bool $FindHoles$b__1(UnityEngine::ProBuilder::WingedEdge* w);
     // System.Boolean <FindHoles>b__2(UnityEngine.ProBuilder.WingedEdge w)
-    // Offset: 0x124D26C
+    // Offset: 0x1558C9C
     bool $FindHoles$b__2(UnityEngine::ProBuilder::WingedEdge* w);
     // public System.Void .ctor()
-    // Offset: 0x124CDF0
+    // Offset: 0x1558820
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

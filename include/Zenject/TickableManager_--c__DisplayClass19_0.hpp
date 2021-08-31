@@ -56,10 +56,10 @@ namespace Zenject {
     // Set instance field: public Zenject.ILateTickable tickable
     void _set_tickable(Zenject::ILateTickable* value);
     // System.Boolean <InitLateTickables>b__1(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x13D8190
+    // Offset: 0x1723E78
     bool $InitLateTickables$b__1(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // public System.Void .ctor()
-    // Offset: 0x13D7C58
+    // Offset: 0x1723940
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

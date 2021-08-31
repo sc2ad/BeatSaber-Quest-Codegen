@@ -56,10 +56,10 @@ namespace System::Net {
     // Set instance field: public System.Net.SimpleAsyncResult result
     void _set_result(System::Net::SimpleAsyncResult* value);
     // System.Void <SetHeadersAsync>b__0(System.IAsyncResult r)
-    // Offset: 0x129D410
+    // Offset: 0x15D56A0
     void $SetHeadersAsync$b__0(System::IAsyncResult* r);
     // public System.Void .ctor()
-    // Offset: 0x129CC20
+    // Offset: 0x15D4EB0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

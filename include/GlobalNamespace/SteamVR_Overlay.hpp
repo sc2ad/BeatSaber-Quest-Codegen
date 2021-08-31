@@ -70,22 +70,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: highquality and: scale
     char __padding3[0x1] = {};
-    // [TooltipAttribute] Offset: 0xE6DBEC
+    // [TooltipAttribute] Offset: 0xDF4460
     // public System.Single scale
     // Size: 0x4
     // Offset: 0x24
     float scale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE6DC24
+    // [TooltipAttribute] Offset: 0xDF4498
     // public System.Single distance
     // Size: 0x4
     // Offset: 0x28
     float distance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE6DC5C
-    // [RangeAttribute] Offset: 0xE6DC5C
+    // [TooltipAttribute] Offset: 0xDF44D0
+    // [RangeAttribute] Offset: 0xDF44D0
     // public System.Single alpha
     // Size: 0x4
     // Offset: 0x2C
@@ -181,31 +181,31 @@ namespace GlobalNamespace {
     // Set instance field: private System.UInt64 handle
     void _set_handle(uint64_t value);
     // static public SteamVR_Overlay get_instance()
-    // Offset: 0x1154500
+    // Offset: 0x142A3F0
     static GlobalNamespace::SteamVR_Overlay* get_instance();
     // static private System.Void set_instance(SteamVR_Overlay value)
-    // Offset: 0x1154550
+    // Offset: 0x142A440
     static void set_instance(GlobalNamespace::SteamVR_Overlay* value);
     // static public System.String get_key()
-    // Offset: 0x1150D3C
+    // Offset: 0x1426BF4
     static ::Il2CppString* get_key();
     // private System.Void OnEnable()
-    // Offset: 0x11545A4
+    // Offset: 0x142A494
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x11546F4
+    // Offset: 0x142A5E4
     void OnDisable();
     // public System.Void UpdateOverlay()
-    // Offset: 0x11547B0
+    // Offset: 0x142A6A0
     void UpdateOverlay();
     // public System.Boolean PollNextEvent(ref Valve.VR.VREvent_t pEvent)
-    // Offset: 0x1154BEC
+    // Offset: 0x142AADC
     bool PollNextEvent(ByRef<Valve::VR::VREvent_t> pEvent);
     // public System.Boolean ComputeIntersection(UnityEngine.Vector3 source, UnityEngine.Vector3 direction, ref SteamVR_Overlay/IntersectionResults results)
-    // Offset: 0x1154CF8
+    // Offset: 0x142ABE8
     bool ComputeIntersection(UnityEngine::Vector3 source, UnityEngine::Vector3 direction, ByRef<GlobalNamespace::SteamVR_Overlay::IntersectionResults> results);
     // public System.Void .ctor()
-    // Offset: 0x1154EB4
+    // Offset: 0x142ADA4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

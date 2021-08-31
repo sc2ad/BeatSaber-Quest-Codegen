@@ -97,7 +97,7 @@ namespace LeaderboardsDTO {
     // Set instance field: public LeaderboardsDTO.GameplayModifiersDto[] gameplayModifiers
     void _set_gameplayModifiers(::Array<LeaderboardsDTO::GameplayModifiersDto>* value);
     // public System.Void .ctor()
-    // Offset: 0x1F427A8
+    // Offset: 0x11490C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

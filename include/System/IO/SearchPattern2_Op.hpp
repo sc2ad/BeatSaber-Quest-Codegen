@@ -57,7 +57,7 @@ namespace System::IO {
     // Set instance field: public System.IO.SearchPattern2/System.IO.Op Next
     void _set_Next(System::IO::SearchPattern2::Op* value);
     // public System.Void .ctor(System.IO.SearchPattern2/System.IO.OpCode code)
-    // Offset: 0x1528540
+    // Offset: 0x18BDB44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SearchPattern2::Op* New_ctor(System::IO::SearchPattern2::OpCode code) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::SearchPattern2::Op::.ctor");

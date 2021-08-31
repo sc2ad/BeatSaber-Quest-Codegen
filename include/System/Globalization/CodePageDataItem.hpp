@@ -65,20 +65,20 @@ namespace System::Globalization {
     // Set instance field: System.UInt32 m_flags
     void _set_m_flags(uint value);
     // public System.String get_WebName()
-    // Offset: 0x149DF64
+    // Offset: 0x1806B14
     ::Il2CppString* get_WebName();
     // System.Void .ctor(System.Int32 dataIndex)
-    // Offset: 0x149DDB4
+    // Offset: 0x1806964
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CodePageDataItem* New_ctor(int dataIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::CodePageDataItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CodePageDataItem*, creationType>(dataIndex)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x149E034
+    // Offset: 0x1806BE4
     static void _cctor();
     // static System.String CreateString(System.String pStrings, System.UInt32 index)
-    // Offset: 0x149DE90
+    // Offset: 0x1806A40
     static ::Il2CppString* CreateString(::Il2CppString* pStrings, uint index);
   }; // System.Globalization.CodePageDataItem
   #pragma pack(pop)

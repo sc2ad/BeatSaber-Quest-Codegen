@@ -17,7 +17,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Locale
     Locale() noexcept {}
     // static public System.String GetText(System.String msg)
-    // Offset: 0x1943D5C
+    // Offset: 0x1DF78E0
     static ::Il2CppString* GetText(::Il2CppString* msg);
   }; // Locale
   #pragma pack(pop)

@@ -50,7 +50,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Set instance field: public UnityEngine.TestRunner.TestLaunchers.RemoteTestData[] tests
     void _set_tests(::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>* value);
     // public System.Void .ctor()
-    // Offset: 0x11F7BB4
+    // Offset: 0x14BD7F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

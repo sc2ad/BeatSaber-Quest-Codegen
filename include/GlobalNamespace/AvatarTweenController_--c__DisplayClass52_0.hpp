@@ -53,10 +53,10 @@ namespace GlobalNamespace {
     // Set instance field: public UnityEngine.Vector3 originalScale
     void _set_originalScale(UnityEngine::Vector3 value);
     // System.Void <CreatePopTween>b__0(System.Single val)
-    // Offset: 0x1F33BD8
+    // Offset: 0x1184970
     void $CreatePopTween$b__0(float val);
     // public System.Void .ctor()
-    // Offset: 0x1F32DDC
+    // Offset: 0x1183B74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

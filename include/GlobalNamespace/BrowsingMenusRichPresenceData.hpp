@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     constexpr operator ::Il2CppString*() const noexcept {
       return localizedDescription;
     }
-    // [LocalizationKeyAttribute] Offset: 0xEAFB18
+    // [LocalizationKeyAttribute] Offset: 0xE358F8
     // static field const value: static private System.String kBrowsingMenusRichPresenceLocalizationKey
     static constexpr const char* kBrowsingMenusRichPresenceLocalizationKey = "BROWSING_MENUS_PRESENCE";
     // Get static field: static private System.String kBrowsingMenusRichPresenceLocalizationKey
@@ -55,16 +55,16 @@ namespace GlobalNamespace {
     // Set instance field: private System.String <localizedDescription>k__BackingField
     void _set_$localizedDescription$k__BackingField(::Il2CppString* value);
     // public System.String get_apiName()
-    // Offset: 0x1EF74C4
+    // Offset: 0x10D39B4
     ::Il2CppString* get_apiName();
     // public System.String get_localizedDescription()
-    // Offset: 0x1EF750C
+    // Offset: 0x10D39FC
     ::Il2CppString* get_localizedDescription();
     // private System.Void set_localizedDescription(System.String value)
-    // Offset: 0x1EF7514
+    // Offset: 0x10D3A04
     void set_localizedDescription(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x1EF751C
+    // Offset: 0x10D3A0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

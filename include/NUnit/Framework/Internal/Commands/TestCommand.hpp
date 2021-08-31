@@ -29,7 +29,7 @@ namespace NUnit::Framework::Internal::Commands {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestCommand : public ::Il2CppObject {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xE9D178
+    // [DebuggerBrowsableAttribute] Offset: 0xE22F18
     // private NUnit.Framework.Internal.Test <Test>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -47,13 +47,13 @@ namespace NUnit::Framework::Internal::Commands {
     // Set instance field: private NUnit.Framework.Internal.Test <Test>k__BackingField
     void _set_$Test$k__BackingField(NUnit::Framework::Internal::Test* value);
     // public NUnit.Framework.Internal.Test get_Test()
-    // Offset: 0x142CC98
+    // Offset: 0x1778938
     NUnit::Framework::Internal::Test* get_Test();
     // private System.Void set_Test(NUnit.Framework.Internal.Test value)
-    // Offset: 0x142CCA0
+    // Offset: 0x1778940
     void set_Test(NUnit::Framework::Internal::Test* value);
     // public System.Void .ctor(NUnit.Framework.Internal.Test test)
-    // Offset: 0x142B544
+    // Offset: 0x17771E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestCommand* New_ctor(NUnit::Framework::Internal::Test* test) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Commands::TestCommand::.ctor");

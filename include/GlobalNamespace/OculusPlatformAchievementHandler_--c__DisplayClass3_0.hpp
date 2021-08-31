@@ -59,10 +59,10 @@ namespace GlobalNamespace {
     // Set instance field: public OculusPlatformAchievementHandler <>4__this
     void _set_$$4__this(GlobalNamespace::OculusPlatformAchievementHandler* value);
     // System.Void <GetUnlockedAchievements>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.AchievementProgressList> message)
-    // Offset: 0x2024290
+    // Offset: 0x123E1B8
     void $GetUnlockedAchievements$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::AchievementProgressList*>* message);
     // public System.Void .ctor()
-    // Offset: 0x2024234
+    // Offset: 0x123E15C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

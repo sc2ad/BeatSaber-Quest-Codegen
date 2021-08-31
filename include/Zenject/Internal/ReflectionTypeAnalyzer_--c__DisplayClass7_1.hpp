@@ -50,10 +50,10 @@ namespace Zenject::Internal {
     // Set instance field: public System.Reflection.MethodInfo x
     void _set_x(System::Reflection::MethodInfo* value);
     // System.Boolean <GetMethodInfos>b__1(System.Type a)
-    // Offset: 0x132DFF0
+    // Offset: 0x16662AC
     bool $GetMethodInfos$b__1(System::Type* a);
     // public System.Void .ctor()
-    // Offset: 0x132D9B8
+    // Offset: 0x1665C74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

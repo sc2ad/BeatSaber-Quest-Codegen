@@ -37,20 +37,20 @@ namespace NUnit::Framework::Constraints {
     // Creating value type constructor for type: ValueFormatterFactory
     ValueFormatterFactory() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x141CC58
+    // Offset: 0x17688F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValueFormatterFactory* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::ValueFormatterFactory::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValueFormatterFactory*, creationType>(object, method)));
     }
     // public NUnit.Framework.Constraints.ValueFormatter Invoke(NUnit.Framework.Constraints.ValueFormatter next)
-    // Offset: 0x141CD74
+    // Offset: 0x1768A14
     NUnit::Framework::Constraints::ValueFormatter* Invoke(NUnit::Framework::Constraints::ValueFormatter* next);
     // public System.IAsyncResult BeginInvoke(NUnit.Framework.Constraints.ValueFormatter next, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1424048
+    // Offset: 0x176FCE8
     System::IAsyncResult* BeginInvoke(NUnit::Framework::Constraints::ValueFormatter* next, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public NUnit.Framework.Constraints.ValueFormatter EndInvoke(System.IAsyncResult result)
-    // Offset: 0x142406C
+    // Offset: 0x176FD0C
     NUnit::Framework::Constraints::ValueFormatter* EndInvoke(System::IAsyncResult* result);
   }; // NUnit.Framework.Constraints.ValueFormatterFactory
   #pragma pack(pop)

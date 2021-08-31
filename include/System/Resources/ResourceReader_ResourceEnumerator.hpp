@@ -78,32 +78,32 @@ namespace System::Resources {
     // Set instance field: private System.Int32 _dataPosition
     void _set__dataPosition(int value);
     // public System.Object get_Key()
-    // Offset: 0x1195450
+    // Offset: 0x1483580
     ::Il2CppObject* get_Key();
     // public System.Object get_Current()
-    // Offset: 0x1195528
+    // Offset: 0x1483658
     ::Il2CppObject* get_Current();
     // System.Int32 get_DataPosition()
-    // Offset: 0x1195838
+    // Offset: 0x1483968
     int get_DataPosition();
     // public System.Collections.DictionaryEntry get_Entry()
-    // Offset: 0x1195594
+    // Offset: 0x14836C4
     System::Collections::DictionaryEntry get_Entry();
     // public System.Object get_Value()
-    // Offset: 0x1195840
+    // Offset: 0x1483970
     ::Il2CppObject* get_Value();
     // System.Void .ctor(System.Resources.ResourceReader reader)
-    // Offset: 0x1192240
+    // Offset: 0x1480370
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceReader::ResourceEnumerator* New_ctor(System::Resources::ResourceReader* reader) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::ResourceReader::ResourceEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceReader::ResourceEnumerator*, creationType>(reader)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x11953F4
+    // Offset: 0x1483524
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1195914
+    // Offset: 0x1483A44
     void Reset();
   }; // System.Resources.ResourceReader/System.Resources.ResourceEnumerator
   #pragma pack(pop)

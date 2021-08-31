@@ -58,9 +58,9 @@ namespace GlobalNamespace {
     // public System.Int32 get_numberOfLines()
     // Offset: 0xFFFFFFFF
     int get_numberOfLines();
-    // public System.Int32 get_cuttableNotesType()
+    // public System.Int32 get_cuttableNotesCount()
     // Offset: 0xFFFFFFFF
-    int get_cuttableNotesType();
+    int get_cuttableNotesCount();
     // public System.Int32 get_obstaclesCount()
     // Offset: 0xFFFFFFFF
     int get_obstaclesCount();
@@ -120,12 +120,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IReadonlyBeatmapData*), "get_numberOfLines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::IReadonlyBeatmapData::get_cuttableNotesType
-// Il2CppName: get_cuttableNotesType
+// Writing MetadataGetter for method: GlobalNamespace::IReadonlyBeatmapData::get_cuttableNotesCount
+// Il2CppName: get_cuttableNotesCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::IReadonlyBeatmapData::*)()>(&GlobalNamespace::IReadonlyBeatmapData::get_cuttableNotesType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::IReadonlyBeatmapData::*)()>(&GlobalNamespace::IReadonlyBeatmapData::get_cuttableNotesCount)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IReadonlyBeatmapData*), "get_cuttableNotesType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IReadonlyBeatmapData*), "get_cuttableNotesCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::IReadonlyBeatmapData::get_obstaclesCount

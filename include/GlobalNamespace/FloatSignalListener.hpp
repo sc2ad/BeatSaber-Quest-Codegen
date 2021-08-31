@@ -54,16 +54,16 @@ namespace GlobalNamespace {
     // Set instance field: private FloatUnityEvent _unityEvent
     void _set__unityEvent(GlobalNamespace::FloatUnityEvent* value);
     // protected System.Void OnEnable()
-    // Offset: 0x20424CC
+    // Offset: 0x12601F4
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x2042568
+    // Offset: 0x1260290
     void OnDisable();
     // private System.Void HandleEvent(System.Single f)
-    // Offset: 0x2042604
+    // Offset: 0x126032C
     void HandleEvent(float f);
     // public System.Void .ctor()
-    // Offset: 0x204266C
+    // Offset: 0x1260394
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

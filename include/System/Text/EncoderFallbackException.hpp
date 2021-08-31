@@ -74,21 +74,21 @@ namespace System::Text {
     // Set instance field: private System.Int32 index
     void _set_index(int value);
     // System.Void .ctor(System.String message, System.Char charUnknown, System.Int32 index)
-    // Offset: 0x1899278
+    // Offset: 0x1D6B1EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncoderFallbackException* New_ctor(::Il2CppString* message, ::Il2CppChar charUnknown, int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::EncoderFallbackException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncoderFallbackException*, creationType>(message, charUnknown, index)));
     }
     // System.Void .ctor(System.String message, System.Char charUnknownHigh, System.Char charUnknownLow, System.Int32 index)
-    // Offset: 0x18992B4
+    // Offset: 0x1D6B228
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncoderFallbackException* New_ctor(::Il2CppString* message, ::Il2CppChar charUnknownHigh, ::Il2CppChar charUnknownLow, int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::EncoderFallbackException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncoderFallbackException*, creationType>(message, charUnknownHigh, charUnknownLow, index)));
     }
     // public System.Void .ctor()
-    // Offset: 0x18991FC
+    // Offset: 0x1D6B170
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -100,7 +100,7 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<EncoderFallbackException*, creationType>()));
     }
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1899270
+    // Offset: 0x1D6B1E4
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

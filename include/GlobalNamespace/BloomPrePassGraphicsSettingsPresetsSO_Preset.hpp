@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Set instance field: public BloomPrePassEffectSO bloomPrePassEffect
     void _set_bloomPrePassEffect(GlobalNamespace::BloomPrePassEffectSO* value);
     // public System.Void .ctor()
-    // Offset: 0x1EF55DC
+    // Offset: 0x10D1ACC
     // Implemented from: NamedPreset
     // Base method: System.Void NamedPreset::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -20,7 +20,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class SubsystemDescriptor : public ::Il2CppObject/*, public UnityEngine::ISubsystemDescriptor*/ {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xE402E4
+    // [DebuggerBrowsableAttribute] Offset: 0xDC5568
     // private System.String <id>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -42,10 +42,10 @@ namespace UnityEngine {
     // Set instance field: private System.String <id>k__BackingField
     void _set_$id$k__BackingField(::Il2CppString* value);
     // public System.String get_id()
-    // Offset: 0x1E3CFCC
+    // Offset: 0x241BE50
     ::Il2CppString* get_id();
     // protected System.Void .ctor()
-    // Offset: 0x1E3CFD4
+    // Offset: 0x241BE58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

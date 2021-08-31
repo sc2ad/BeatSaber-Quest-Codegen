@@ -36,20 +36,20 @@ namespace Polyglot {
   template<typename T>
   class LocalizedTextComponent_1 : public UnityEngine::MonoBehaviour/*, public Polyglot::ILocalize*/ {
     public:
-    // [TooltipAttribute] Offset: 0xE93EE0
+    // [TooltipAttribute] Offset: 0xE19C80
     // protected T localizedComponent
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     T localizedComponent;
-    // [TooltipAttribute] Offset: 0xE93F2C
+    // [TooltipAttribute] Offset: 0xE19CCC
     // private System.Boolean maintainTextAlignment
     // Size: 0x1
     // Offset: 0x0
     bool maintainTextAlignment;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0xE93F78
-    // [LocalizationKeyAttribute] Offset: 0xE93F78
+    // [TooltipAttribute] Offset: 0xE19D18
+    // [LocalizationKeyAttribute] Offset: 0xE19D18
     // private System.String key
     // Size: 0x8
     // Offset: 0x0

@@ -119,25 +119,25 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.GameObject[] _visualObjects
     void _set__visualObjects(::Array<UnityEngine::GameObject*>* value);
     // public System.Void ShowSpawnAnimation(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x1E6FBEC
+    // Offset: 0x1060104
     void ShowSpawnAnimation(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation);
     // private System.Collections.IEnumerator SpawnAnimationCoroutine()
-    // Offset: 0x1E6FD24
+    // Offset: 0x106023C
     System::Collections::IEnumerator* SpawnAnimationCoroutine();
     // private System.Void ActivateVisualObjects(System.Boolean on)
-    // Offset: 0x1E6FCA8
+    // Offset: 0x10601C0
     void ActivateVisualObjects(bool on);
     // public System.Collections.IEnumerator ShowDespawnAnimationAndDestroy()
-    // Offset: 0x1E6FDC0
+    // Offset: 0x10602D8
     System::Collections::IEnumerator* ShowDespawnAnimationAndDestroy();
     // public System.Void DestroySelf()
-    // Offset: 0x1E6FE5C
+    // Offset: 0x1060374
     void DestroySelf();
     // private System.Collections.IEnumerator DespawnAnimationCoroutine()
-    // Offset: 0x1E6FED8
+    // Offset: 0x10603F0
     System::Collections::IEnumerator* DespawnAnimationCoroutine();
     // public System.Void .ctor()
-    // Offset: 0x1E6FF74
+    // Offset: 0x106048C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

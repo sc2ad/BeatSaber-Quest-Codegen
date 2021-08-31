@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::DroneHover::SineLayer*>* compoundSins;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::DroneHover::SineLayer*>*) == 0x8);
-    // [HeaderAttribute] Offset: 0xEAB164
+    // [HeaderAttribute] Offset: 0xE30F14
     // private System.Collections.Generic.List`1<UnityEngine.Transform> _tiltTransforms
     // Size: 0x8
     // Offset: 0x30
@@ -150,22 +150,22 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Cloth _cloth
     void _set__cloth(UnityEngine::Cloth* value);
     // protected System.Void Start()
-    // Offset: 0x1E8578C
+    // Offset: 0x104B520
     void Start();
     // protected System.Void Update()
-    // Offset: 0x1E857C8
+    // Offset: 0x104B55C
     void Update();
     // private UnityEngine.Vector3 GetNoiseVec3(System.Single time)
-    // Offset: 0x1E8597C
+    // Offset: 0x104B710
     UnityEngine::Vector3 GetNoiseVec3(float time);
     // private System.Single GetNoise(System.Single time, System.Single offset)
-    // Offset: 0x1E85CC0
+    // Offset: 0x104BA54
     float GetNoise(float time, float offset);
     // private System.Void UpdateTiltTransform()
-    // Offset: 0x1E85A28
+    // Offset: 0x104B7BC
     void UpdateTiltTransform();
     // public System.Void .ctor()
-    // Offset: 0x1E85DFC
+    // Offset: 0x104BB90
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

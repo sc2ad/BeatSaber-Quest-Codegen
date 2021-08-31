@@ -28,10 +28,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MainSettingsBestGraphicsValues
     MainSettingsBestGraphicsValues() noexcept {}
     // static public System.Void ApplyValues(MainSettingsModelSO mainSettingsModel)
-    // Offset: 0x1FABCDC
+    // Offset: 0x10E1FB4
     static void ApplyValues(GlobalNamespace::MainSettingsModelSO* mainSettingsModel);
     // public System.Void .ctor()
-    // Offset: 0x1FABE20
+    // Offset: 0x10E20F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

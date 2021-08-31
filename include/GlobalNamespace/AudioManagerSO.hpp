@@ -149,31 +149,31 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _sfxEnabled
     void _set__sfxEnabled(bool value);
     // public System.Single get_sfxLatency()
-    // Offset: 0x1F2D090
+    // Offset: 0x117DE10
     float get_sfxLatency();
     // public System.Void set_mainVolume(System.Single value)
-    // Offset: 0x1F2D19C
+    // Offset: 0x117DF1C
     void set_mainVolume(float value);
     // public System.Void set_musicVolume(System.Single value)
-    // Offset: 0x1F2D208
+    // Offset: 0x117DF88
     void set_musicVolume(float value);
     // public System.Void set_sfxVolume(System.Single value)
-    // Offset: 0x1F2D278
+    // Offset: 0x117DFF8
     void set_sfxVolume(float value);
     // public System.Boolean get_sfxEnabled()
-    // Offset: 0x1F2D304
+    // Offset: 0x117E084
     bool get_sfxEnabled();
     // public System.Void set_sfxEnabled(System.Boolean value)
-    // Offset: 0x1F2D30C
+    // Offset: 0x117E08C
     void set_sfxEnabled(bool value);
     // public System.Void set_musicPitch(System.Single value)
-    // Offset: 0x1F2D32C
+    // Offset: 0x117E0AC
     void set_musicPitch(float value);
     // public System.Void Init()
-    // Offset: 0x1F2D0F8
+    // Offset: 0x117DE78
     void Init();
     // public System.Void .ctor()
-    // Offset: 0x1F2D3FC
+    // Offset: 0x117E17C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

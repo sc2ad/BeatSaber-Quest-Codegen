@@ -41,14 +41,14 @@ namespace GlobalNamespace {
     struct $HandleGetIsEntitledToLevel$d__5;
     // Nested type: GlobalNamespace::NetworkPlayerEntitlementChecker::$GetEntitlementStatus$d__6
     struct $GetEntitlementStatus$d__6;
-    // [InjectAttribute] Offset: 0xEAEF78
+    // [InjectAttribute] Offset: 0xE34D38
     // private readonly IMenuRpcManager _rpcManager
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::IMenuRpcManager* rpcManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMenuRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xEAEF88
+    // [InjectAttribute] Offset: 0xE34D48
     // private readonly AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0x20
@@ -68,22 +68,22 @@ namespace GlobalNamespace {
     // Set instance field: private readonly AdditionalContentModel _additionalContentModel
     void _set__additionalContentModel(GlobalNamespace::AdditionalContentModel* value);
     // protected System.Void Start()
-    // Offset: 0x1E65888
+    // Offset: 0x10412B4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1E6597C
+    // Offset: 0x10413A8
     void OnDestroy();
     // private System.Void HandleDataInvalidated()
-    // Offset: 0x1E65AFC
+    // Offset: 0x1041528
     void HandleDataInvalidated();
     // private System.Void HandleGetIsEntitledToLevel(System.String userId, System.String levelId)
-    // Offset: 0x1E65BB0
+    // Offset: 0x10415DC
     void HandleGetIsEntitledToLevel(::Il2CppString* userId, ::Il2CppString* levelId);
     // private System.Threading.Tasks.Task`1<EntitlementsStatus> GetEntitlementStatus(System.String levelId)
-    // Offset: 0x1E65C74
+    // Offset: 0x10416A0
     System::Threading::Tasks::Task_1<GlobalNamespace::EntitlementsStatus>* GetEntitlementStatus(::Il2CppString* levelId);
     // public System.Void .ctor()
-    // Offset: 0x1E65D98
+    // Offset: 0x10417C4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

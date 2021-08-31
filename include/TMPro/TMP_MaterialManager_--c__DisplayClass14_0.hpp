@@ -45,10 +45,10 @@ namespace TMPro {
     // Set instance field: public UnityEngine.Material baseMaterial
     void _set_baseMaterial(UnityEngine::Material* value);
     // System.Boolean <ReleaseBaseMaterial>b__0(TMPro.TMP_MaterialManager/TMPro.MaskingMaterial item)
-    // Offset: 0x100FDF0
+    // Offset: 0x1159588
     bool $ReleaseBaseMaterial$b__0(TMPro::TMP_MaterialManager::MaskingMaterial* item);
     // public System.Void .ctor()
-    // Offset: 0x100E9B0
+    // Offset: 0x1158148
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

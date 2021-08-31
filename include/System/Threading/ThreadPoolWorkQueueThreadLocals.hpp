@@ -64,17 +64,17 @@ namespace System::Threading {
     // Set instance field: public readonly System.Random random
     void _set_random(System::Random* value);
     // public System.Void .ctor(System.Threading.ThreadPoolWorkQueue tpq)
-    // Offset: 0x155CF10
+    // Offset: 0x1879704
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ThreadPoolWorkQueueThreadLocals* New_ctor(System::Threading::ThreadPoolWorkQueue* tpq) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ThreadPoolWorkQueueThreadLocals::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ThreadPoolWorkQueueThreadLocals*, creationType>(tpq)));
     }
     // private System.Void CleanUp()
-    // Offset: 0x155E87C
+    // Offset: 0x187B070
     void CleanUp();
     // protected override System.Void Finalize()
-    // Offset: 0x155E954
+    // Offset: 0x187B148
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

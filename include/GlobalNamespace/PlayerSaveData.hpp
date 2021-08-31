@@ -79,7 +79,7 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
     // static field const value: static public System.String kCurrentVersion
-    static constexpr const char* kCurrentVersion = "2.0.17";
+    static constexpr const char* kCurrentVersion = "2.0.18";
     // Get static field: static public System.String kCurrentVersion
     static ::Il2CppString* _get_kCurrentVersion();
     // Set static field: static public System.String kCurrentVersion
@@ -93,7 +93,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Collections.Generic.List`1<PlayerSaveData/GuestPlayer> guestPlayers
     void _set_guestPlayers(System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::GuestPlayer*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1F54120
+    // Offset: 0x11375A0
     // Implemented from: VersionSaveData
     // Base method: System.Void VersionSaveData::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -164,7 +164,7 @@ namespace GlobalNamespace {
     // Set instance field: public UnityEngine.Quaternion m_InitLocalRotation
     void _set_m_InitLocalRotation(UnityEngine::Quaternion value);
     // public System.Void .ctor()
-    // Offset: 0x1E1C100
+    // Offset: 0x23FC6C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

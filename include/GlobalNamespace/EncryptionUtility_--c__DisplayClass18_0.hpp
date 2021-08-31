@@ -64,10 +64,10 @@ namespace GlobalNamespace {
     // Set instance field: public System.Boolean isClient
     void _set_isClient(bool value);
     // EncryptionUtility/IEncryptionState <CreateEncryptionStateAsync>b__0()
-    // Offset: 0x109939C
+    // Offset: 0x13273CC
     GlobalNamespace::EncryptionUtility::IEncryptionState* $CreateEncryptionStateAsync$b__0();
     // public System.Void .ctor()
-    // Offset: 0x1097834
+    // Offset: 0x1325864
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

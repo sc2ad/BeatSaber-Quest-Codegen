@@ -181,45 +181,45 @@ namespace System::Net {
     // Set instance field: private System.IO.Stream stream
     void _set_stream(System::IO::Stream* value);
     // public System.Net.HttpStatusCode get_StatusCode()
-    // Offset: 0x13418D4
+    // Offset: 0x167AAA4
     System::Net::HttpStatusCode get_StatusCode();
     // public System.String get_StatusDescription()
-    // Offset: 0x13418DC
+    // Offset: 0x167AAAC
     ::Il2CppString* get_StatusDescription();
     // System.Void .ctor(System.Uri uri, System.String method, System.Net.WebConnectionData data, System.Net.CookieContainer container)
-    // Offset: 0x13401B8
+    // Offset: 0x1679388
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpWebResponse* New_ctor(System::Uri* uri, ::Il2CppString* method, System::Net::WebConnectionData* data, System::Net::CookieContainer* container) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HttpWebResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpWebResponse*, creationType>(uri, method, data, container)));
     }
     // System.Void ReadAll()
-    // Offset: 0x133F6C0
+    // Offset: 0x1678890
     void ReadAll();
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x13419A0
+    // Offset: 0x167AB70
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1341B20
+    // Offset: 0x167ACF0
     void System_IDisposable_Dispose();
     // private System.Void CheckDisposed()
-    // Offset: 0x1341828
+    // Offset: 0x167A9F8
     void CheckDisposed();
     // private System.Void FillCookies()
-    // Offset: 0x1341364
+    // Offset: 0x167A534
     void FillCookies();
     // public override System.Net.WebHeaderCollection get_Headers()
-    // Offset: 0x13417FC
+    // Offset: 0x167A9CC
     // Implemented from: System.Net.WebResponse
     // Base method: System.Net.WebHeaderCollection WebResponse::get_Headers()
     System::Net::WebHeaderCollection* get_Headers();
     // public override System.Uri get_ResponseUri()
-    // Offset: 0x1341804
+    // Offset: 0x167A9D4
     // Implemented from: System.Net.WebResponse
     // Base method: System.Uri WebResponse::get_ResponseUri()
     System::Uri* get_ResponseUri();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x134157C
+    // Offset: 0x167A74C
     // Implemented from: System.Net.WebResponse
     // Base method: System.Void WebResponse::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -228,7 +228,7 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<HttpWebResponse*, creationType>(serializationInfo, streamingContext)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1341B44
+    // Offset: 0x167AD14
     // Implemented from: System.Net.WebResponse
     // Base method: System.Void WebResponse::.ctor()
     // Base method: System.Void MarshalByRefObject::.ctor()
@@ -239,22 +239,22 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<HttpWebResponse*, creationType>()));
     }
     // public override System.IO.Stream GetResponseStream()
-    // Offset: 0x1341900
+    // Offset: 0x167AAD0
     // Implemented from: System.Net.WebResponse
     // Base method: System.IO.Stream WebResponse::GetResponseStream()
     System::IO::Stream* GetResponseStream();
     // protected override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x13419AC
+    // Offset: 0x167AB7C
     // Implemented from: System.Net.WebResponse
     // Base method: System.Void WebResponse::GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // public override System.Void Close()
-    // Offset: 0x1341AFC
+    // Offset: 0x167ACCC
     // Implemented from: System.Net.WebResponse
     // Base method: System.Void WebResponse::Close()
     void Close();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1341B30
+    // Offset: 0x167AD00
     // Implemented from: System.Net.WebResponse
     // Base method: System.Void WebResponse::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);

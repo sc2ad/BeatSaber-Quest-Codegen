@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NoteMissedRpc
     NoteMissedRpc() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x109BAC0
+    // Offset: 0x1329AF0
     // Implemented from: RemoteProcedureCall`2
     // Base method: System.Void RemoteProcedureCall_2::.ctor()
     // Base method: System.Void RemoteProcedureCall::.ctor()

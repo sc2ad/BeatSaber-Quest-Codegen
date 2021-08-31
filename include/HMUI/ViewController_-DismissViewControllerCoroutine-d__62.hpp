@@ -113,26 +113,26 @@ namespace HMUI {
     // Set instance field: private HMUI.ViewController <movingInViewController>5__2
     void _set_$movingInViewController$5__2(HMUI::ViewController* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1DDEC90
+    // Offset: 0x23B3280
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1DDECF8
+    // Offset: 0x23B32E8
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1DDE914
+    // Offset: 0x23B2F04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ViewController::$DismissViewControllerCoroutine$d__62* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ViewController::$DismissViewControllerCoroutine$d__62::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ViewController::$DismissViewControllerCoroutine$d__62*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1DDE940
+    // Offset: 0x23B2F30
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1DDE944
+    // Offset: 0x23B2F34
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1DDEC98
+    // Offset: 0x23B3288
     void System_Collections_IEnumerator_Reset();
   }; // HMUI.ViewController/HMUI.<DismissViewControllerCoroutine>d__62
   #pragma pack(pop)

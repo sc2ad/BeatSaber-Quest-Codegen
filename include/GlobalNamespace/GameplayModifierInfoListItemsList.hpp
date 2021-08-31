@@ -29,7 +29,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GameplayModifierInfoListItemsList
     GameplayModifierInfoListItemsList() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1F1E5B8
+    // Offset: 0x110C820
     // Implemented from: HMUI.UIItemsList`1
     // Base method: System.Void UIItemsList_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -47,13 +47,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean chromatic
     void _set_chromatic(bool value);
     // private System.Void Start()
-    // Offset: 0x1057764
+    // Offset: 0x1296B54
     void Start();
     // private System.Void Update()
-    // Offset: 0x1057824
+    // Offset: 0x1296C14
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1057938
+    // Offset: 0x1296D28
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

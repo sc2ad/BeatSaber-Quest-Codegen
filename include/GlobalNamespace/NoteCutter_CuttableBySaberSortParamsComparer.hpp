@@ -29,10 +29,10 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::Collections::IComparer*>(this);
     }
     // public System.Int32 Compare(System.Object p0, System.Object p1)
-    // Offset: 0x2010DE8
+    // Offset: 0x1049180
     int Compare(::Il2CppObject* p0, ::Il2CppObject* p1);
     // public System.Void .ctor()
-    // Offset: 0x2010718
+    // Offset: 0x1048AB0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -60,7 +60,7 @@ namespace UnityEngine {
     // Set instance field: public System.Single[] muscles
     void _set_muscles(::Array<float>* value);
     // System.Void Init()
-    // Offset: 0xD92C14
+    // Offset: 0x238E8AC
     void Init();
   }; // UnityEngine.HumanPose
   #pragma pack(pop)

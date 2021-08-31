@@ -105,37 +105,37 @@ namespace TMPro {
     // Set instance field: private UnityEngine.UI.Toggle m_Toggle
     void _set_m_Toggle(UnityEngine::UI::Toggle* value);
     // public TMPro.TMP_Text get_text()
-    // Offset: 0xFFA2C4
+    // Offset: 0x111E158
     TMPro::TMP_Text* get_text();
     // public System.Void set_text(TMPro.TMP_Text value)
-    // Offset: 0xFFA2CC
+    // Offset: 0x111E160
     void set_text(TMPro::TMP_Text* value);
     // public UnityEngine.UI.Image get_image()
-    // Offset: 0xFFA2D4
+    // Offset: 0x111E168
     UnityEngine::UI::Image* get_image();
     // public System.Void set_image(UnityEngine.UI.Image value)
-    // Offset: 0xFFA2DC
+    // Offset: 0x111E170
     void set_image(UnityEngine::UI::Image* value);
     // public UnityEngine.RectTransform get_rectTransform()
-    // Offset: 0xFFA2E4
+    // Offset: 0x111E178
     UnityEngine::RectTransform* get_rectTransform();
     // public System.Void set_rectTransform(UnityEngine.RectTransform value)
-    // Offset: 0xFFA2EC
+    // Offset: 0x111E180
     void set_rectTransform(UnityEngine::RectTransform* value);
     // public UnityEngine.UI.Toggle get_toggle()
-    // Offset: 0xFFA2F4
+    // Offset: 0x111E188
     UnityEngine::UI::Toggle* get_toggle();
     // public System.Void set_toggle(UnityEngine.UI.Toggle value)
-    // Offset: 0xFFA2FC
+    // Offset: 0x111E190
     void set_toggle(UnityEngine::UI::Toggle* value);
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0xFFA304
+    // Offset: 0x111E198
     void OnPointerEnter(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnCancel(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0xFFA390
+    // Offset: 0x111E224
     void OnCancel(UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0xFFA434
+    // Offset: 0x111E2C8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

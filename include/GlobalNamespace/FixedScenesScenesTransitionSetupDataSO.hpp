@@ -40,10 +40,10 @@ namespace GlobalNamespace {
     // Set instance field: private SceneInfo[] _sceneInfos
     void _set__sceneInfos(::Array<GlobalNamespace::SceneInfo*>* value);
     // public System.Void Init()
-    // Offset: 0x2041F1C
+    // Offset: 0x125FC50
     void Init();
     // public System.Void .ctor()
-    // Offset: 0x2041F30
+    // Offset: 0x125FC60
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

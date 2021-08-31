@@ -73,7 +73,7 @@ namespace System::Threading {
     // Set instance field: public System.Threading.ReaderWriterCount next
     void _set_next(System::Threading::ReaderWriterCount* value);
     // public System.Void .ctor()
-    // Offset: 0x1DED0BC
+    // Offset: 0x23BC1D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

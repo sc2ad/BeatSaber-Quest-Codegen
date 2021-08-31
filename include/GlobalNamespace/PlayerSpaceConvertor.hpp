@@ -35,13 +35,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Quaternion _worldToPlayerSpaceRotation
     void _set__worldToPlayerSpaceRotation(UnityEngine::Quaternion value);
     // public UnityEngine.Quaternion get_worldToPlayerSpaceRotation()
-    // Offset: 0x1F58C84
+    // Offset: 0x113C12C
     UnityEngine::Quaternion get_worldToPlayerSpaceRotation();
     // protected System.Void Start()
-    // Offset: 0x1F58C90
+    // Offset: 0x113C138
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x1F58D4C
+    // Offset: 0x113C1F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

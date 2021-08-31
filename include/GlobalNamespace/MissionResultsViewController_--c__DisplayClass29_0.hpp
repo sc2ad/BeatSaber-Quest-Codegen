@@ -77,10 +77,10 @@ namespace GlobalNamespace {
     // Set instance field: public MissionObjectiveResult[] missionObjectiveResults
     void _set_missionObjectiveResults(::Array<GlobalNamespace::MissionObjectiveResult*>* value);
     // System.Void <SetDataToUI>b__0(System.Int32 idx, ResultObjectiveListItem objectiveListItem)
-    // Offset: 0x1F6977C
+    // Offset: 0x11D93FC
     void $SetDataToUI$b__0(int idx, GlobalNamespace::ResultObjectiveListItem* objectiveListItem);
     // public System.Void .ctor()
-    // Offset: 0x1F696A4
+    // Offset: 0x11D9324
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

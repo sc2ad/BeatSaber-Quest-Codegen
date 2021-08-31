@@ -51,30 +51,30 @@ namespace System::Security::Cryptography {
     // Set instance field: private readonly System.String _name
     void _set__name(::Il2CppString* value);
     // static public System.Security.Cryptography.HashAlgorithmName get_SHA256()
-    // Offset: 0x161173C
+    // Offset: 0x19904C0
     static System::Security::Cryptography::HashAlgorithmName get_SHA256();
     // public System.String get_Name()
-    // Offset: 0xD7F084
+    // Offset: 0x1990510
     ::Il2CppString* get_Name();
     // public System.Void .ctor(System.String name)
-    // Offset: 0xD7F07C
+    // Offset: 0x1990508
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  HashAlgorithmName(::Il2CppString* name)
     // public System.Boolean Equals(System.Security.Cryptography.HashAlgorithmName other)
-    // Offset: 0xD7F0F0
+    // Offset: 0x1990604
     bool Equals(System::Security::Cryptography::HashAlgorithmName other);
     // public override System.String ToString()
-    // Offset: 0xD7F08C
+    // Offset: 0x1990518
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xD7F0E8
+    // Offset: 0x1990574
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xD7F0FC
+    // Offset: 0x1990610
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

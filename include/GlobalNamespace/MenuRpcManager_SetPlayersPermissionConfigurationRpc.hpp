@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SetPlayersPermissionConfigurationRpc
     SetPlayersPermissionConfigurationRpc() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x2141CE0
+    // Offset: 0x16E99DC
     // Implemented from: RemoteProcedureCall`1
     // Base method: System.Void RemoteProcedureCall_1::.ctor()
     // Base method: System.Void RemoteProcedureCall::.ctor()

@@ -42,28 +42,28 @@ namespace GlobalNamespace {
     // Set instance field: private TMPro.TextMeshPro[] _texts
     void _set__texts(::Array<TMPro::TextMeshPro*>* value);
     // public System.Void set_hide(System.Boolean value)
-    // Offset: 0x1FC4994
+    // Offset: 0x11B23BC
     void set_hide(bool value);
     // public System.Single get_fontSize()
-    // Offset: 0x1FC49CC
+    // Offset: 0x11B23F4
     float get_fontSize();
     // public System.Void set_fontSize(System.Single value)
-    // Offset: 0x1FC4E58
+    // Offset: 0x11B2880
     void set_fontSize(float value);
     // public System.Single get_alpha()
-    // Offset: 0x1FC4A10
+    // Offset: 0x11B2438
     float get_alpha();
     // public System.Void set_alpha(System.Single value)
-    // Offset: 0x1FC4EEC
+    // Offset: 0x11B2914
     void set_alpha(float value);
     // public System.Void SetText(System.String text)
-    // Offset: 0x1FC59EC
+    // Offset: 0x11B3414
     void SetText(::Il2CppString* text);
     // public System.Void SetDistances(System.Single distance)
-    // Offset: 0x1FC5048
+    // Offset: 0x11B2A70
     void SetDistances(float distance);
     // public System.Void .ctor()
-    // Offset: 0x1FC5C14
+    // Offset: 0x11B363C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

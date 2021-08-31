@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Boolean showDoNotAgreeButton
     void _set_showDoNotAgreeButton(bool value);
     // public System.Void .ctor(System.Boolean showDoNotAgreeButton)
-    // Offset: 0x1E8E07C
+    // Offset: 0x1053E40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EulaViewController::InitData* New_ctor(bool showDoNotAgreeButton) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EulaViewController::InitData::.ctor");

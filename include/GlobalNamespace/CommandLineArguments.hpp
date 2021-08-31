@@ -17,7 +17,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: CommandLineArguments
     CommandLineArguments() noexcept {}
     // static public System.Boolean Contains(System.String argument)
-    // Offset: 0x203BC30
+    // Offset: 0x1258984
     static bool Contains(::Il2CppString* argument);
   }; // CommandLineArguments
   #pragma pack(pop)

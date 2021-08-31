@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Single fadeInEndTime
     void _set_fadeInEndTime(float value);
     // public System.Void .ctor()
-    // Offset: 0x1EC9484
+    // Offset: 0x1083D94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -56,10 +56,10 @@ namespace Zenject {
     // Set instance field: public Zenject.ILateDisposable lateDisposable
     void _set_lateDisposable(Zenject::ILateDisposable* value);
     // System.Boolean <.ctor>b__2(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x131DFBC
+    // Offset: 0x1656278
     bool $_ctor$b__2(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // public System.Void .ctor()
-    // Offset: 0x131D3E0
+    // Offset: 0x165569C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

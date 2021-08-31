@@ -35,13 +35,13 @@ namespace NUnit::Framework::Internal {
     // Set static field: static public readonly NUnit.Framework.Internal.ExceptionHelper/NUnit.Framework.Internal.<>c <>9
     static void _set_$$9(NUnit::Framework::Internal::ExceptionHelper::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x142DDC8
+    // Offset: 0x1779A68
     static void _cctor();
     // System.Void <.cctor>b__1_0(System.Exception _)
-    // Offset: 0x142DE34
+    // Offset: 0x1779AD4
     void $_cctor$b__1_0(System::Exception* _);
     // public System.Void .ctor()
-    // Offset: 0x142DE2C
+    // Offset: 0x1779ACC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

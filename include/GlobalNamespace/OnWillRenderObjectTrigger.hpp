@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class OnWillRenderObjectTrigger : public UnityEngine::MonoBehaviour {
     public:
-    // [NullAllowed] Offset: 0xE8F874
+    // [NullAllowed] Offset: 0xE15614
     // private UnityEngine.Shader _overrideShader
     // Size: 0x8
     // Offset: 0x18
@@ -104,13 +104,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.MeshRenderer _meshRenderer
     void _set__meshRenderer(UnityEngine::MeshRenderer* value);
     // protected System.Void OnEnable()
-    // Offset: 0x1969008
+    // Offset: 0x1E1CB8C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1969404
+    // Offset: 0x1E1CF88
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x1969440
+    // Offset: 0x1E1CFC4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

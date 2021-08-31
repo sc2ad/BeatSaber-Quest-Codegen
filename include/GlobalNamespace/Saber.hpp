@@ -143,40 +143,40 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Quaternion _handleRot
     void _set__handleRot(UnityEngine::Quaternion value);
     // public SaberType get_saberType()
-    // Offset: 0x1F78054
+    // Offset: 0x118FB88
     GlobalNamespace::SaberType get_saberType();
     // public UnityEngine.Vector3 get_saberBladeTopPos()
-    // Offset: 0x1F78070
+    // Offset: 0x118FBA4
     UnityEngine::Vector3 get_saberBladeTopPos();
     // public UnityEngine.Vector3 get_saberBladeBottomPos()
-    // Offset: 0x1F7807C
+    // Offset: 0x118FBB0
     UnityEngine::Vector3 get_saberBladeBottomPos();
     // public UnityEngine.Vector3 get_handlePos()
-    // Offset: 0x1F78088
+    // Offset: 0x118FBBC
     UnityEngine::Vector3 get_handlePos();
     // public UnityEngine.Quaternion get_handleRot()
-    // Offset: 0x1F78094
+    // Offset: 0x118FBC8
     UnityEngine::Quaternion get_handleRot();
     // public System.Single get_bladeSpeed()
-    // Offset: 0x1F780A0
+    // Offset: 0x118FBD4
     float get_bladeSpeed();
     // public SaberMovementData get_movementData()
-    // Offset: 0x1F780BC
+    // Offset: 0x118FBF0
     GlobalNamespace::SaberMovementData* get_movementData();
     // public System.Boolean get_disableCutting()
-    // Offset: 0x1F780C4
+    // Offset: 0x118FBF8
     bool get_disableCutting();
     // public System.Void set_disableCutting(System.Boolean value)
-    // Offset: 0x1F780CC
+    // Offset: 0x118FC00
     void set_disableCutting(bool value);
     // public System.Void ManualUpdate()
-    // Offset: 0x1F780D8
+    // Offset: 0x118FC0C
     void ManualUpdate();
     // public System.Void OverridePositionAndRotation(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
-    // Offset: 0x1F78714
+    // Offset: 0x1190248
     void OverridePositionAndRotation(UnityEngine::Vector3 pos, UnityEngine::Quaternion rot);
     // public System.Void .ctor()
-    // Offset: 0x1F78790
+    // Offset: 0x11902C4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

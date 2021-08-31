@@ -82,26 +82,26 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single <duration>5__3
     void _set_$duration$5__3(float value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1F40010
+    // Offset: 0x1146928
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1F40078
+    // Offset: 0x1146990
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1F3FE14
+    // Offset: 0x114672C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IntroTutorialController::$ShowFinishAnimationCoroutine$d__22* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IntroTutorialController::$ShowFinishAnimationCoroutine$d__22::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IntroTutorialController::$ShowFinishAnimationCoroutine$d__22*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1F3FEDC
+    // Offset: 0x11467F4
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1F3FEE0
+    // Offset: 0x11467F8
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1F40018
+    // Offset: 0x1146930
     void System_Collections_IEnumerator_Reset();
   }; // IntroTutorialController/<ShowFinishAnimationCoroutine>d__22
   #pragma pack(pop)

@@ -80,10 +80,10 @@ namespace System::Runtime::Remoting {
     // Set instance field: System.Collections.IList CustomData
     void _set_CustomData(System::Collections::IList* value);
     // public System.Void CopyFrom(System.Runtime.Remoting.ProviderData other)
-    // Offset: 0x16BA584
+    // Offset: 0x1A55848
     void CopyFrom(System::Runtime::Remoting::ProviderData* other);
     // public System.Void .ctor()
-    // Offset: 0x16A7C80
+    // Offset: 0x1A42F44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

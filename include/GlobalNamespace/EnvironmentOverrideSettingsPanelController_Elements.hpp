@@ -88,13 +88,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.Collections.Generic.List`1<EnvironmentInfoSO> <environmentInfos>k__BackingField
     void _set_$environmentInfos$k__BackingField(System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>* value);
     // public System.Collections.Generic.List`1<EnvironmentInfoSO> get_environmentInfos()
-    // Offset: 0x1E8CD70
+    // Offset: 0x1052B34
     System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>* get_environmentInfos();
     // public System.Void set_environmentInfos(System.Collections.Generic.List`1<EnvironmentInfoSO> value)
-    // Offset: 0x1E8CD78
+    // Offset: 0x1052B3C
     void set_environmentInfos(System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1E8CD80
+    // Offset: 0x1052B44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

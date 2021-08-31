@@ -97,10 +97,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.YieldAwaitable/System.Runtime.CompilerServices.YieldAwaiter <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter value);
     // private System.Void MoveNext()
-    // Offset: 0xF7B8B0
+    // Offset: 0x1093FD4
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xF7B8B8
+    // Offset: 0x1094214
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // TestPlatformAdditionalContentModel/<OpenLevelProductStoreAsync>d__8
   // WARNING Not writing size check since size may be invalid!

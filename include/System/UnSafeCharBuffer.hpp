@@ -58,7 +58,7 @@ namespace System {
     // Set instance field: private System.Int32 m_length
     void _set_m_length(int value);
     // public System.Void .ctor(System.Char* buffer, System.Int32 bufferSize)
-    // Offset: 0xD918D4
+    // Offset: 0x232F970
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     UnSafeCharBuffer(::Il2CppChar* buffer, int bufferSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::UnSafeCharBuffer::.ctor");
@@ -66,7 +66,7 @@ namespace System {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, buffer, bufferSize);
     }
     // public System.Void AppendString(System.String stringToAppend)
-    // Offset: 0xD918E0
+    // Offset: 0x232F97C
     void AppendString(::Il2CppString* stringToAppend);
   }; // System.UnSafeCharBuffer
   #pragma pack(pop)

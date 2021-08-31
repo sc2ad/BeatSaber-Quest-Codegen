@@ -37,10 +37,10 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.KeyCode _keyCode
     void _set__keyCode(UnityEngine::KeyCode value);
     // private System.Void Update()
-    // Offset: 0x204E23C
+    // Offset: 0x239693C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x204E268
+    // Offset: 0x2396968
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

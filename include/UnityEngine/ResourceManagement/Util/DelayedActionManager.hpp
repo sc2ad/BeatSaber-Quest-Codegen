@@ -108,13 +108,13 @@ namespace UnityEngine::ResourceManagement::Util {
       // Set instance field: private System.Single <InvocationTime>k__BackingField
       void _set_$InvocationTime$k__BackingField(float value);
       // public System.Single get_InvocationTime()
-      // Offset: 0xD80434
+      // Offset: 0x19F3EAC
       float get_InvocationTime();
       // private System.Void set_InvocationTime(System.Single value)
-      // Offset: 0xD8043C
+      // Offset: 0x19F3EB4
       void set_InvocationTime(float value);
       // public System.Void .ctor(System.Delegate d, System.Single invocationTime, params System.Object[] p)
-      // Offset: 0xD803AC
+      // Offset: 0x19F357C
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       DelegateInfo(System::Delegate* d, float invocationTime, ::Array<::Il2CppObject*>* p) {
         static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo::.ctor");
@@ -132,10 +132,10 @@ namespace UnityEngine::ResourceManagement::Util {
         DelegateInfo(d, invocationTime, {p...});
       }
       // public System.Void Invoke()
-      // Offset: 0xD8044C
+      // Offset: 0x19F3AD4
       void Invoke();
       // public override System.String ToString()
-      // Offset: 0xD80444
+      // Offset: 0x19F3EBC
       // Implemented from: System.ValueType
       // Base method: System.String ValueType::ToString()
       ::Il2CppString* ToString();
@@ -198,19 +198,19 @@ namespace UnityEngine::ResourceManagement::Util {
     // Set instance field: private System.Boolean m_DestroyOnCompletion
     void _set_m_DestroyOnCompletion(bool value);
     // static public System.Boolean get_IsActive()
-    // Offset: 0x16744D4
+    // Offset: 0x19F3604
     static bool get_IsActive();
     // private System.Collections.Generic.LinkedListNode`1<UnityEngine.ResourceManagement.Util.DelayedActionManager/UnityEngine.ResourceManagement.Util.DelegateInfo> GetNode(ref UnityEngine.ResourceManagement.Util.DelayedActionManager/UnityEngine.ResourceManagement.Util.DelegateInfo del)
-    // Offset: 0x1674080
+    // Offset: 0x19F31B0
     System::Collections::Generic::LinkedListNode_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>* GetNode(ByRef<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo> del);
     // static public System.Void Clear()
-    // Offset: 0x1674158
+    // Offset: 0x19F3288
     static void Clear();
     // private System.Void DestroyWhenComplete()
-    // Offset: 0x16741C8
+    // Offset: 0x19F32F8
     void DestroyWhenComplete();
     // static public System.Void AddAction(System.Delegate action, System.Single delay, params System.Object[] parameters)
-    // Offset: 0x16741D4
+    // Offset: 0x19F3304
     static void AddAction(System::Delegate* action, float delay, ::Array<::Il2CppObject*>* parameters);
     // Creating initializer_list -> params proxy for: System.Void AddAction(System.Delegate action, System.Single delay, params System.Object[] parameters)
     static void AddAction(System::Delegate* action, float delay, std::initializer_list<::Il2CppObject*> parameters);
@@ -220,7 +220,7 @@ namespace UnityEngine::ResourceManagement::Util {
       AddAction(action, delay, {parameters...});
     }
     // private System.Void AddActionInternal(System.Delegate action, System.Single delay, params System.Object[] parameters)
-    // Offset: 0x1674250
+    // Offset: 0x19F3380
     void AddActionInternal(System::Delegate* action, float delay, ::Array<::Il2CppObject*>* parameters);
     // Creating initializer_list -> params proxy for: System.Void AddActionInternal(System.Delegate action, System.Single delay, params System.Object[] parameters)
     void AddActionInternal(System::Delegate* action, float delay, std::initializer_list<::Il2CppObject*> parameters);
@@ -230,19 +230,19 @@ namespace UnityEngine::ResourceManagement::Util {
       AddActionInternal(action, delay, {parameters...});
     }
     // static public System.Boolean Wait(System.Single timeout, System.Single timeAdvanceAmount)
-    // Offset: 0x16745D4
+    // Offset: 0x19F3704
     static bool Wait(float timeout, float timeAdvanceAmount);
     // private System.Void LateUpdate()
-    // Offset: 0x167497C
+    // Offset: 0x19F3AAC
     void LateUpdate();
     // private System.Void InternalLateUpdate(System.Single t)
-    // Offset: 0x1674708
+    // Offset: 0x19F3838
     void InternalLateUpdate(float t);
     // private System.Void OnApplicationQuit()
-    // Offset: 0x1674B58
+    // Offset: 0x19F3C88
     void OnApplicationQuit();
     // public System.Void .ctor()
-    // Offset: 0x1674C04
+    // Offset: 0x19F3D34
     // Implemented from: UnityEngine.ResourceManagement.Util.ComponentSingleton`1
     // Base method: System.Void ComponentSingleton_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

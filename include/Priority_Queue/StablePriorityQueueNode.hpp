@@ -37,13 +37,13 @@ namespace Priority_Queue {
     // Set instance field: private System.Int64 <InsertionIndex>k__BackingField
     void _set_$InsertionIndex$k__BackingField(int64_t value);
     // public System.Int64 get_InsertionIndex()
-    // Offset: 0x1F5CD20
+    // Offset: 0x11401C8
     int64_t get_InsertionIndex();
     // System.Void set_InsertionIndex(System.Int64 value)
-    // Offset: 0x1F5CD28
+    // Offset: 0x11401D0
     void set_InsertionIndex(int64_t value);
     // public System.Void .ctor()
-    // Offset: 0x1F5CD30
+    // Offset: 0x11401D8
     // Implemented from: Priority_Queue.FastPriorityQueueNode
     // Base method: System.Void FastPriorityQueueNode::.ctor()
     // Base method: System.Void Object::.ctor()

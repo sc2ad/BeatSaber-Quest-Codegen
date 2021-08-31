@@ -30,16 +30,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BaseResultsEnvironmentController
     BaseResultsEnvironmentController() noexcept {}
     // public System.Void Activate(System.Boolean immediately)
-    // Offset: 0x1FCAE04
+    // Offset: 0x11E5A24
     void Activate(bool immediately);
     // public System.Void Deactivate(System.Boolean immediately)
-    // Offset: 0x1FCAE2C
+    // Offset: 0x11E5A4C
     void Deactivate(bool immediately);
     // public System.Void Setup(IDifficultyBeatmap difficultyBeatmap)
     // Offset: 0xFFFFFFFF
     void Setup(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // protected System.Void .ctor()
-    // Offset: 0x1FCAE54
+    // Offset: 0x11E5A74
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -54,13 +54,13 @@ namespace GlobalNamespace {
     // Set instance field: private BTSCharacterDataModel/AnimationClipWithId[] _animationClipsWithIds
     void _set__animationClipsWithIds(::Array<GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*>* value);
     // public BTSCharacterDataModel/PrefabWithId[] get_prefabsWithIds()
-    // Offset: 0x1F358D0
+    // Offset: 0x1186688
     ::Array<GlobalNamespace::BTSCharacterDataModel::PrefabWithId*>* get_prefabsWithIds();
     // public BTSCharacterDataModel/AnimationClipWithId[] get_animationClipsWithIds()
-    // Offset: 0x1F358D8
+    // Offset: 0x1186690
     ::Array<GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*>* get_animationClipsWithIds();
     // public System.Void .ctor()
-    // Offset: 0x1F358E0
+    // Offset: 0x1186698
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

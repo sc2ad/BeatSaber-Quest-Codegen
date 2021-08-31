@@ -52,13 +52,13 @@ namespace System::Net::Http::Headers {
     // Set instance field: private readonly System.Net.Http.HttpContent content
     void _set_content(System::Net::Http::HttpContent* value);
     // public System.Nullable`1<System.Int64> get_ContentLength()
-    // Offset: 0x1268AF4
+    // Offset: 0x159FD84
     System::Nullable_1<int64_t> get_ContentLength();
     // public System.Net.Http.Headers.MediaTypeHeaderValue get_ContentType()
-    // Offset: 0x1268C70
+    // Offset: 0x159FF00
     System::Net::Http::Headers::MediaTypeHeaderValue* get_ContentType();
     // System.Void .ctor(System.Net.Http.HttpContent content)
-    // Offset: 0x1268A4C
+    // Offset: 0x159FCDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpContentHeaders* New_ctor(System::Net::Http::HttpContent* content) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpContentHeaders::.ctor");

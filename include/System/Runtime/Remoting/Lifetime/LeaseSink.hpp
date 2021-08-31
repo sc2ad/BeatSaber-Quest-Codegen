@@ -50,20 +50,20 @@ namespace System::Runtime::Remoting::Lifetime {
     // Set instance field: private System.Runtime.Remoting.Messaging.IMessageSink _nextSink
     void _set__nextSink(System::Runtime::Remoting::Messaging::IMessageSink* value);
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMessageSink nextSink)
-    // Offset: 0x16A9768
+    // Offset: 0x1A44A2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaseSink* New_ctor(System::Runtime::Remoting::Messaging::IMessageSink* nextSink) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Lifetime::LeaseSink::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaseSink*, creationType>(nextSink)));
     }
     // public System.Runtime.Remoting.Messaging.IMessage SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0x16A9794
+    // Offset: 0x1A44A58
     System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg);
     // public System.Runtime.Remoting.Messaging.IMessageCtrl AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
-    // Offset: 0x16A9AFC
+    // Offset: 0x1A44DC0
     System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg, System::Runtime::Remoting::Messaging::IMessageSink* replySink);
     // private System.Void RenewLease(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0x16A985C
+    // Offset: 0x1A44B20
     void RenewLease(System::Runtime::Remoting::Messaging::IMessage* msg);
   }; // System.Runtime.Remoting.Lifetime.LeaseSink
   #pragma pack(pop)

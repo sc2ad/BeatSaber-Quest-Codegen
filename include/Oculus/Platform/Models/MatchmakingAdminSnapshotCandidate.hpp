@@ -75,7 +75,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly System.String TraceId
     void _set_TraceId(::Il2CppString* value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x2105C1C
+    // Offset: 0x14F1F78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MatchmakingAdminSnapshotCandidate* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::MatchmakingAdminSnapshotCandidate::.ctor");

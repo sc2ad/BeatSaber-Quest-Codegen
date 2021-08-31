@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Set instance field: public MainEffectSO mainEffect
     void _set_mainEffect(GlobalNamespace::MainEffectSO* value);
     // public System.Void .ctor()
-    // Offset: 0x1FA8750
+    // Offset: 0x10DEA28
     // Implemented from: NamedPreset
     // Base method: System.Void NamedPreset::.ctor()
     // Base method: System.Void Object::.ctor()

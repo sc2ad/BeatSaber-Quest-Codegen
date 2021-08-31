@@ -75,7 +75,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: evenCountOffset and: avatarsFactory
     char __padding3[0x4] = {};
-    // [InjectAttribute] Offset: 0xEB5770
+    // [InjectAttribute] Offset: 0xE3B550
     // private readonly MultiplayerResultsPyramidViewAvatar/Factory _avatarsFactory
     // Size: 0x8
     // Offset: 0x38
@@ -147,19 +147,19 @@ namespace GlobalNamespace {
     // Set instance field: private MultiplayerResultsPyramidViewAvatar _anyResultsAvatar
     void _set__anyResultsAvatar(GlobalNamespace::MultiplayerResultsPyramidViewAvatar* value);
     // public UnityEngine.GameObject[] get_resultAvatarDirectors()
-    // Offset: 0x1E5837C
+    // Offset: 0x1076698
     ::Array<UnityEngine::GameObject*>* get_resultAvatarDirectors();
     // public UnityEngine.GameObject[] get_badgeTimelines()
-    // Offset: 0x1E58384
+    // Offset: 0x10766A0
     ::Array<UnityEngine::GameObject*>* get_badgeTimelines();
     // public System.Void PrespawnAvatars(System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> activePlayers)
-    // Offset: 0x1E5838C
+    // Offset: 0x1073690
     void PrespawnAvatars(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* activePlayers);
     // public System.Void SetupResults(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> resultsData, UnityEngine.Transform badgeStartTransform, UnityEngine.Transform badgeMidTransform)
-    // Offset: 0x1E58704
+    // Offset: 0x1072D70
     void SetupResults(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData, UnityEngine::Transform* badgeStartTransform, UnityEngine::Transform* badgeMidTransform);
     // public System.Void .ctor()
-    // Offset: 0x1E59738
+    // Offset: 0x10766A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

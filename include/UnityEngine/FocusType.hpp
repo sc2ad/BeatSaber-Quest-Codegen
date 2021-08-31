@@ -32,7 +32,7 @@ namespace UnityEngine {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [ObsoleteAttribute] Offset: 0xE483D4
+    // [ObsoleteAttribute] Offset: 0xDCD738
     // static field const value: static public UnityEngine.FocusType Native
     static constexpr const int Native = 0;
     // Get static field: static public UnityEngine.FocusType Native

@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Action finishedCallback
     void _set_finishedCallback(System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x1F15280
+    // Offset: 0x11034E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

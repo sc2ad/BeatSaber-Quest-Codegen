@@ -75,7 +75,7 @@ namespace GlobalNamespace {
     System::Action_1<bool>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<bool>*) == 0x8);
-    // [InjectAttribute] Offset: 0xEBB61C
+    // [InjectAttribute] Offset: 0xE413FC
     // private EulaViewController/InitData _initData
     // Size: 0x8
     // Offset: 0x98
@@ -109,19 +109,19 @@ namespace GlobalNamespace {
     // Set instance field: private EulaViewController/InitData _initData
     void _set__initData(GlobalNamespace::EulaViewController::InitData* value);
     // public System.Void add_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x1E8DD18
+    // Offset: 0x1053ADC
     void add_didFinishEvent(System::Action_1<bool>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x1E8DDBC
+    // Offset: 0x1053B80
     void remove_didFinishEvent(System::Action_1<bool>* value);
     // private System.Void <DidActivate>b__9_0()
-    // Offset: 0x1E8DFB4
+    // Offset: 0x1053D78
     void $DidActivate$b__9_0();
     // private System.Void <DidActivate>b__9_1()
-    // Offset: 0x1E8E018
+    // Offset: 0x1053DDC
     void $DidActivate$b__9_1();
     // public System.Void .ctor()
-    // Offset: 0x1E8DFAC
+    // Offset: 0x1053D70
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -135,7 +135,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EulaViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1E8DE60
+    // Offset: 0x1053C24
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

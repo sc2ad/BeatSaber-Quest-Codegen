@@ -9,32 +9,17 @@
 #include "System/IDisposable.hpp"
 // Completed includes
 // Begin forward declares
+// Forward declaring namespace: GlobalNamespace
+namespace GlobalNamespace {
+  // Forward declaring type: MetricIdentifier
+  struct MetricIdentifier;
+}
 // Forward declaring namespace: MasterServer
 namespace MasterServer {
   // Forward declaring type: AnalyticsMetricUnit
   struct AnalyticsMetricUnit;
-  // Forward declaring type: IMasterServerReliableRequest
-  class IMasterServerReliableRequest;
-  // Forward declaring type: IMasterServerReliableResponse
-  class IMasterServerReliableResponse;
-  // Forward declaring type: IMasterServerUnreliableMessage
-  class IMasterServerUnreliableMessage;
-  // Forward declaring type: IMasterServerResponse
-  class IMasterServerResponse;
-}
-// Forward declaring namespace: GlobalNamespace
-namespace GlobalNamespace {
-  // Forward declaring type: DedicatedServerType
-  struct DedicatedServerType;
-  // Forward declaring type: ConnectionFailedReason
-  struct ConnectionFailedReason;
-  // Forward declaring type: DisconnectedReason
-  struct DisconnectedReason;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: MasterServer
 namespace MasterServer {
   // Size: 0x10
@@ -52,54 +37,15 @@ namespace MasterServer {
     // public System.Void PollUpdate()
     // Offset: 0xFFFFFFFF
     void PollUpdate();
-    // public System.Void UpdateState(System.String metricName, System.Int64 state, MasterServer.AnalyticsMetricUnit unit, System.Boolean alarmMetric)
+    // public System.Void UpdateState(MetricIdentifier metricIdentifier, System.Int64 state, MasterServer.AnalyticsMetricUnit unit, System.Boolean alarmMetric)
     // Offset: 0xFFFFFFFF
-    void UpdateState(::Il2CppString* metricName, int64_t state, MasterServer::AnalyticsMetricUnit unit, bool alarmMetric);
-    // public System.Void UpdateAverage(System.String metricName, System.Double value, MasterServer.AnalyticsMetricUnit unit, System.Boolean alarmMetric)
+    void UpdateState(GlobalNamespace::MetricIdentifier metricIdentifier, int64_t state, MasterServer::AnalyticsMetricUnit unit, bool alarmMetric);
+    // public System.Void UpdateAverage(MetricIdentifier metricIdentifier, System.Double value, MasterServer.AnalyticsMetricUnit unit, System.Boolean alarmMetric)
     // Offset: 0xFFFFFFFF
-    void UpdateAverage(::Il2CppString* metricName, double value, MasterServer::AnalyticsMetricUnit unit, bool alarmMetric);
-    // public System.Void IncrementCounter(System.String metricName, System.Int64 incrementAmount, MasterServer.AnalyticsMetricUnit unit)
+    void UpdateAverage(GlobalNamespace::MetricIdentifier metricIdentifier, double value, MasterServer::AnalyticsMetricUnit unit, bool alarmMetric);
+    // public System.Void IncrementCounter(MetricIdentifier metricIdentifier, System.Int64 incrementAmount, MasterServer.AnalyticsMetricUnit unit)
     // Offset: 0xFFFFFFFF
-    void IncrementCounter(::Il2CppString* metricName, int64_t incrementAmount, MasterServer::AnalyticsMetricUnit unit);
-    // public System.Void ReceivedReliableRequestEvent(MasterServer.IMasterServerReliableRequest request)
-    // Offset: 0xFFFFFFFF
-    void ReceivedReliableRequestEvent(MasterServer::IMasterServerReliableRequest* request);
-    // public System.Void SentReliableRequestEvent(MasterServer.IMasterServerReliableRequest request)
-    // Offset: 0xFFFFFFFF
-    void SentReliableRequestEvent(MasterServer::IMasterServerReliableRequest* request);
-    // public System.Void ReceivedReliableResponseEvent(MasterServer.IMasterServerReliableResponse request)
-    // Offset: 0xFFFFFFFF
-    void ReceivedReliableResponseEvent(MasterServer::IMasterServerReliableResponse* request);
-    // public System.Void SentReliableResponseEvent(MasterServer.IMasterServerReliableResponse response)
-    // Offset: 0xFFFFFFFF
-    void SentReliableResponseEvent(MasterServer::IMasterServerReliableResponse* response);
-    // public System.Void ReceivedUnreliableMessageEvent(MasterServer.IMasterServerUnreliableMessage message)
-    // Offset: 0xFFFFFFFF
-    void ReceivedUnreliableMessageEvent(MasterServer::IMasterServerUnreliableMessage* message);
-    // public System.Void SentUnreliableMessageEvent(MasterServer.IMasterServerUnreliableMessage message)
-    // Offset: 0xFFFFFFFF
-    void SentUnreliableMessageEvent(MasterServer::IMasterServerUnreliableMessage* message);
-    // public System.Void SentUnreliableResponseEvent(MasterServer.IMasterServerResponse response)
-    // Offset: 0xFFFFFFFF
-    void SentUnreliableResponseEvent(MasterServer::IMasterServerResponse* response);
-    // public System.Void ReceivedUnreliableResponseEvent(MasterServer.IMasterServerResponse response)
-    // Offset: 0xFFFFFFFF
-    void ReceivedUnreliableResponseEvent(MasterServer::IMasterServerResponse* response);
-    // public System.Void DedicatedServerServerConnectedEvent(DedicatedServerType serverType)
-    // Offset: 0xFFFFFFFF
-    void DedicatedServerServerConnectedEvent(GlobalNamespace::DedicatedServerType serverType);
-    // public System.Void DedicatedServerServerConnectionFailedEvent(DedicatedServerType serverType, ConnectionFailedReason reason)
-    // Offset: 0xFFFFFFFF
-    void DedicatedServerServerConnectionFailedEvent(GlobalNamespace::DedicatedServerType serverType, GlobalNamespace::ConnectionFailedReason reason);
-    // public System.Void DedicatedServerServerDisconnectedEvent(DedicatedServerType serverType, DisconnectedReason reason)
-    // Offset: 0xFFFFFFFF
-    void DedicatedServerServerDisconnectedEvent(GlobalNamespace::DedicatedServerType serverType, GlobalNamespace::DisconnectedReason reason);
-    // public System.Void DedicatedServerPlayerConnectedEvent(DedicatedServerType serverType)
-    // Offset: 0xFFFFFFFF
-    void DedicatedServerPlayerConnectedEvent(GlobalNamespace::DedicatedServerType serverType);
-    // public System.Void DedicatedServerPlayerDisconnectedEvent(DedicatedServerType serverType, DisconnectedReason reason)
-    // Offset: 0xFFFFFFFF
-    void DedicatedServerPlayerDisconnectedEvent(GlobalNamespace::DedicatedServerType serverType, GlobalNamespace::DisconnectedReason reason);
+    void IncrementCounter(GlobalNamespace::MetricIdentifier metricIdentifier, int64_t incrementAmount, MasterServer::AnalyticsMetricUnit unit);
   }; // MasterServer.IAnalyticsManager
   #pragma pack(pop)
 }
@@ -117,155 +63,35 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Writing MetadataGetter for method: MasterServer::IAnalyticsManager::UpdateState
 // Il2CppName: UpdateState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(::Il2CppString*, int64_t, MasterServer::AnalyticsMetricUnit, bool)>(&MasterServer::IAnalyticsManager::UpdateState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(GlobalNamespace::MetricIdentifier, int64_t, MasterServer::AnalyticsMetricUnit, bool)>(&MasterServer::IAnalyticsManager::UpdateState)> {
   static const MethodInfo* get() {
-    static auto* metricName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* metricIdentifier = &::il2cpp_utils::GetClassFromName("", "MetricIdentifier")->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* unit = &::il2cpp_utils::GetClassFromName("MasterServer", "AnalyticsMetricUnit")->byval_arg;
     static auto* alarmMetric = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "UpdateState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{metricName, state, unit, alarmMetric});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "UpdateState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{metricIdentifier, state, unit, alarmMetric});
   }
 };
 // Writing MetadataGetter for method: MasterServer::IAnalyticsManager::UpdateAverage
 // Il2CppName: UpdateAverage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(::Il2CppString*, double, MasterServer::AnalyticsMetricUnit, bool)>(&MasterServer::IAnalyticsManager::UpdateAverage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(GlobalNamespace::MetricIdentifier, double, MasterServer::AnalyticsMetricUnit, bool)>(&MasterServer::IAnalyticsManager::UpdateAverage)> {
   static const MethodInfo* get() {
-    static auto* metricName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* metricIdentifier = &::il2cpp_utils::GetClassFromName("", "MetricIdentifier")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     static auto* unit = &::il2cpp_utils::GetClassFromName("MasterServer", "AnalyticsMetricUnit")->byval_arg;
     static auto* alarmMetric = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "UpdateAverage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{metricName, value, unit, alarmMetric});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "UpdateAverage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{metricIdentifier, value, unit, alarmMetric});
   }
 };
 // Writing MetadataGetter for method: MasterServer::IAnalyticsManager::IncrementCounter
 // Il2CppName: IncrementCounter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(::Il2CppString*, int64_t, MasterServer::AnalyticsMetricUnit)>(&MasterServer::IAnalyticsManager::IncrementCounter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(GlobalNamespace::MetricIdentifier, int64_t, MasterServer::AnalyticsMetricUnit)>(&MasterServer::IAnalyticsManager::IncrementCounter)> {
   static const MethodInfo* get() {
-    static auto* metricName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* metricIdentifier = &::il2cpp_utils::GetClassFromName("", "MetricIdentifier")->byval_arg;
     static auto* incrementAmount = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* unit = &::il2cpp_utils::GetClassFromName("MasterServer", "AnalyticsMetricUnit")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "IncrementCounter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{metricName, incrementAmount, unit});
-  }
-};
-// Writing MetadataGetter for method: MasterServer::IAnalyticsManager::ReceivedReliableRequestEvent
-// Il2CppName: ReceivedReliableRequestEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(MasterServer::IMasterServerReliableRequest*)>(&MasterServer::IAnalyticsManager::ReceivedReliableRequestEvent)> {
-  static const MethodInfo* get() {
-    static auto* request = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerReliableRequest")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "ReceivedReliableRequestEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{request});
-  }
-};
-// Writing MetadataGetter for method: MasterServer::IAnalyticsManager::SentReliableRequestEvent
-// Il2CppName: SentReliableRequestEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(MasterServer::IMasterServerReliableRequest*)>(&MasterServer::IAnalyticsManager::SentReliableRequestEvent)> {
-  static const MethodInfo* get() {
-    static auto* request = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerReliableRequest")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "SentReliableRequestEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{request});
-  }
-};
-// Writing MetadataGetter for method: MasterServer::IAnalyticsManager::ReceivedReliableResponseEvent
-// Il2CppName: ReceivedReliableResponseEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(MasterServer::IMasterServerReliableResponse*)>(&MasterServer::IAnalyticsManager::ReceivedReliableResponseEvent)> {
-  static const MethodInfo* get() {
-    static auto* request = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerReliableResponse")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "ReceivedReliableResponseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{request});
-  }
-};
-// Writing MetadataGetter for method: MasterServer::IAnalyticsManager::SentReliableResponseEvent
-// Il2CppName: SentReliableResponseEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(MasterServer::IMasterServerReliableResponse*)>(&MasterServer::IAnalyticsManager::SentReliableResponseEvent)> {
-  static const MethodInfo* get() {
-    static auto* response = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerReliableResponse")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "SentReliableResponseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{response});
-  }
-};
-// Writing MetadataGetter for method: MasterServer::IAnalyticsManager::ReceivedUnreliableMessageEvent
-// Il2CppName: ReceivedUnreliableMessageEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(MasterServer::IMasterServerUnreliableMessage*)>(&MasterServer::IAnalyticsManager::ReceivedUnreliableMessageEvent)> {
-  static const MethodInfo* get() {
-    static auto* message = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerUnreliableMessage")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "ReceivedUnreliableMessageEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
-  }
-};
-// Writing MetadataGetter for method: MasterServer::IAnalyticsManager::SentUnreliableMessageEvent
-// Il2CppName: SentUnreliableMessageEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(MasterServer::IMasterServerUnreliableMessage*)>(&MasterServer::IAnalyticsManager::SentUnreliableMessageEvent)> {
-  static const MethodInfo* get() {
-    static auto* message = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerUnreliableMessage")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "SentUnreliableMessageEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
-  }
-};
-// Writing MetadataGetter for method: MasterServer::IAnalyticsManager::SentUnreliableResponseEvent
-// Il2CppName: SentUnreliableResponseEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(MasterServer::IMasterServerResponse*)>(&MasterServer::IAnalyticsManager::SentUnreliableResponseEvent)> {
-  static const MethodInfo* get() {
-    static auto* response = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerResponse")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "SentUnreliableResponseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{response});
-  }
-};
-// Writing MetadataGetter for method: MasterServer::IAnalyticsManager::ReceivedUnreliableResponseEvent
-// Il2CppName: ReceivedUnreliableResponseEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(MasterServer::IMasterServerResponse*)>(&MasterServer::IAnalyticsManager::ReceivedUnreliableResponseEvent)> {
-  static const MethodInfo* get() {
-    static auto* response = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerResponse")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "ReceivedUnreliableResponseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{response});
-  }
-};
-// Writing MetadataGetter for method: MasterServer::IAnalyticsManager::DedicatedServerServerConnectedEvent
-// Il2CppName: DedicatedServerServerConnectedEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(GlobalNamespace::DedicatedServerType)>(&MasterServer::IAnalyticsManager::DedicatedServerServerConnectedEvent)> {
-  static const MethodInfo* get() {
-    static auto* serverType = &::il2cpp_utils::GetClassFromName("", "DedicatedServerType")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "DedicatedServerServerConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serverType});
-  }
-};
-// Writing MetadataGetter for method: MasterServer::IAnalyticsManager::DedicatedServerServerConnectionFailedEvent
-// Il2CppName: DedicatedServerServerConnectionFailedEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(GlobalNamespace::DedicatedServerType, GlobalNamespace::ConnectionFailedReason)>(&MasterServer::IAnalyticsManager::DedicatedServerServerConnectionFailedEvent)> {
-  static const MethodInfo* get() {
-    static auto* serverType = &::il2cpp_utils::GetClassFromName("", "DedicatedServerType")->byval_arg;
-    static auto* reason = &::il2cpp_utils::GetClassFromName("", "ConnectionFailedReason")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "DedicatedServerServerConnectionFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serverType, reason});
-  }
-};
-// Writing MetadataGetter for method: MasterServer::IAnalyticsManager::DedicatedServerServerDisconnectedEvent
-// Il2CppName: DedicatedServerServerDisconnectedEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(GlobalNamespace::DedicatedServerType, GlobalNamespace::DisconnectedReason)>(&MasterServer::IAnalyticsManager::DedicatedServerServerDisconnectedEvent)> {
-  static const MethodInfo* get() {
-    static auto* serverType = &::il2cpp_utils::GetClassFromName("", "DedicatedServerType")->byval_arg;
-    static auto* reason = &::il2cpp_utils::GetClassFromName("", "DisconnectedReason")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "DedicatedServerServerDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serverType, reason});
-  }
-};
-// Writing MetadataGetter for method: MasterServer::IAnalyticsManager::DedicatedServerPlayerConnectedEvent
-// Il2CppName: DedicatedServerPlayerConnectedEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(GlobalNamespace::DedicatedServerType)>(&MasterServer::IAnalyticsManager::DedicatedServerPlayerConnectedEvent)> {
-  static const MethodInfo* get() {
-    static auto* serverType = &::il2cpp_utils::GetClassFromName("", "DedicatedServerType")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "DedicatedServerPlayerConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serverType});
-  }
-};
-// Writing MetadataGetter for method: MasterServer::IAnalyticsManager::DedicatedServerPlayerDisconnectedEvent
-// Il2CppName: DedicatedServerPlayerDisconnectedEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(GlobalNamespace::DedicatedServerType, GlobalNamespace::DisconnectedReason)>(&MasterServer::IAnalyticsManager::DedicatedServerPlayerDisconnectedEvent)> {
-  static const MethodInfo* get() {
-    static auto* serverType = &::il2cpp_utils::GetClassFromName("", "DedicatedServerType")->byval_arg;
-    static auto* reason = &::il2cpp_utils::GetClassFromName("", "DisconnectedReason")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "DedicatedServerPlayerDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serverType, reason});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "IncrementCounter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{metricIdentifier, incrementAmount, unit});
   }
 };

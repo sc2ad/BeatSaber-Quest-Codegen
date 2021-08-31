@@ -71,10 +71,10 @@ namespace Zenject {
     // Set instance field: public System.Type concreteType
     void _set_concreteType(System::Type* value);
     // System.Boolean <UnbindId>b__0(Zenject.DiContainer/Zenject.ProviderInfo x)
-    // Offset: 0x131C66C
+    // Offset: 0x1654928
     bool $UnbindId$b__0(Zenject::DiContainer::ProviderInfo* x);
     // public System.Void .ctor()
-    // Offset: 0x131C664
+    // Offset: 0x1654920
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

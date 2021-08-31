@@ -111,7 +111,7 @@ namespace GlobalNamespace {
     int showAlphabetScrollbarLevelCountThreshold;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [InjectAttribute] Offset: 0xEBE108
+    // [InjectAttribute] Offset: 0xE44328
     // private AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0x50
@@ -269,70 +269,70 @@ namespace GlobalNamespace {
     // Set instance field: private IPreviewBeatmapLevel _selectedPreviewBeatmapLevel
     void _set__selectedPreviewBeatmapLevel(GlobalNamespace::IPreviewBeatmapLevel* value);
     // public System.Void add_didSelectLevelEvent(System.Action`2<LevelCollectionTableView,IPreviewBeatmapLevel> value)
-    // Offset: 0x1F45CC4
+    // Offset: 0x114CD90
     void add_didSelectLevelEvent(System::Action_2<GlobalNamespace::LevelCollectionTableView*, GlobalNamespace::IPreviewBeatmapLevel*>* value);
     // public System.Void remove_didSelectLevelEvent(System.Action`2<LevelCollectionTableView,IPreviewBeatmapLevel> value)
-    // Offset: 0x1F45D68
+    // Offset: 0x114CE34
     void remove_didSelectLevelEvent(System::Action_2<GlobalNamespace::LevelCollectionTableView*, GlobalNamespace::IPreviewBeatmapLevel*>* value);
     // public System.Void add_didSelectHeaderEvent(System.Action`1<LevelCollectionTableView> value)
-    // Offset: 0x1F45E0C
+    // Offset: 0x114CED8
     void add_didSelectHeaderEvent(System::Action_1<GlobalNamespace::LevelCollectionTableView*>* value);
     // public System.Void remove_didSelectHeaderEvent(System.Action`1<LevelCollectionTableView> value)
-    // Offset: 0x1F45EB0
+    // Offset: 0x114CF7C
     void remove_didSelectHeaderEvent(System::Action_1<GlobalNamespace::LevelCollectionTableView*>* value);
     // public System.Void Init(System.String headerText, UnityEngine.Sprite headerSprite)
-    // Offset: 0x1F45F54
+    // Offset: 0x114D020
     void Init(::Il2CppString* headerText, UnityEngine::Sprite* headerSprite);
     // private System.Void Init()
-    // Offset: 0x1F45FA0
+    // Offset: 0x114D06C
     void Init();
     // public System.Void SetData(IPreviewBeatmapLevel[] previewBeatmapLevels, System.Collections.Generic.HashSet`1<System.String> favoriteLevelIds, System.Boolean beatmapLevelsAreSorted)
-    // Offset: 0x1F4606C
+    // Offset: 0x114D138
     void SetData(::Array<GlobalNamespace::IPreviewBeatmapLevel*>* previewBeatmapLevels, System::Collections::Generic::HashSet_1<::Il2CppString*>* favoriteLevelIds, bool beatmapLevelsAreSorted);
     // public System.Void RefreshFavorites(System.Collections.Generic.HashSet`1<System.String> favoriteLevelIds)
-    // Offset: 0x1F46270
+    // Offset: 0x114D33C
     void RefreshFavorites(System::Collections::Generic::HashSet_1<::Il2CppString*>* favoriteLevelIds);
     // protected System.Void OnEnable()
-    // Offset: 0x1F4631C
+    // Offset: 0x114D3E8
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1F463A8
+    // Offset: 0x114D474
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0x1F46434
+    // Offset: 0x114D500
     void OnDestroy();
     // public System.Single CellSize()
-    // Offset: 0x1F46510
+    // Offset: 0x114D5DC
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x1F46518
+    // Offset: 0x114D5E4
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0x1F46538
+    // Offset: 0x114D604
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int row);
     // private System.Void HandleDidSelectRowEvent(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0x1F46A3C
+    // Offset: 0x114DB08
     void HandleDidSelectRowEvent(HMUI::TableView* tableView, int row);
     // private System.Void HandleAdditionalContentModelDidInvalidateData()
-    // Offset: 0x1F46B24
+    // Offset: 0x114DBF0
     void HandleAdditionalContentModelDidInvalidateData();
     // public System.Void CancelAsyncOperations()
-    // Offset: 0x1F46BF0
+    // Offset: 0x114DCBC
     void CancelAsyncOperations();
     // public System.Void RefreshLevelsAvailability()
-    // Offset: 0x1F46F1C
+    // Offset: 0x114DFE8
     void RefreshLevelsAvailability();
     // public System.Void SelectLevelPackHeaderCell()
-    // Offset: 0x1F472F4
+    // Offset: 0x114E3C0
     void SelectLevelPackHeaderCell();
     // public System.Void ClearSelection()
-    // Offset: 0x1F47320
+    // Offset: 0x114E3EC
     void ClearSelection();
     // public System.Void SelectLevel(IPreviewBeatmapLevel beatmapLevel)
-    // Offset: 0x1F47350
+    // Offset: 0x114E41C
     void SelectLevel(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
     // public System.Void .ctor()
-    // Offset: 0x1F47520
+    // Offset: 0x114E5EC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

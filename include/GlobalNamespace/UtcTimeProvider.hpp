@@ -40,22 +40,22 @@ namespace GlobalNamespace {
     operator MasterServer::ITimeProvider() noexcept {
       return *reinterpret_cast<MasterServer::ITimeProvider*>(this);
     }
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE8931C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE10048
     // Get static field: static private readonly System.DateTime _epoch
     static System::DateTime _get__epoch();
     // Set static field: static private readonly System.DateTime _epoch
     static void _set__epoch(System::DateTime value);
     // static private System.Void .cctor()
-    // Offset: 0x23D5160
+    // Offset: 0x16FB934
     static void _cctor();
     // public System.Int64 GetTimeMs()
-    // Offset: 0x23D501C
+    // Offset: 0x16FB7DC
     int64_t GetTimeMs();
     // public System.Threading.Tasks.Task DelayMs(System.Int32 millis, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x23D50E0
+    // Offset: 0x16FB8B4
     System::Threading::Tasks::Task* DelayMs(int millis, System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x23D5158
+    // Offset: 0x16FB92C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

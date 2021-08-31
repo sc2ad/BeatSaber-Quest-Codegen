@@ -42,38 +42,38 @@ namespace System::Security {
     // Set instance field: System.Byte[] m_data
     void _set_m_data(::Array<uint8_t>* value);
     // public System.Void .ctor(System.Int32 numData)
-    // Offset: 0x176CBC8
+    // Offset: 0x1B4BDC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecurityDocument* New_ctor(int numData) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::SecurityDocument::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecurityDocument*, creationType>(numData)));
     }
     // public System.Void GuaranteeSize(System.Int32 size)
-    // Offset: 0x176CC38
+    // Offset: 0x1B4BE38
     void GuaranteeSize(int size);
     // public System.Void AddString(System.String str, ref System.Int32 position)
-    // Offset: 0x176CCEC
+    // Offset: 0x1B4BEEC
     void AddString(::Il2CppString* str, ByRef<int> position);
     // public System.Void AppendString(System.String str, ref System.Int32 position)
-    // Offset: 0x176CE4C
+    // Offset: 0x1B4C04C
     void AppendString(::Il2CppString* str, ByRef<int> position);
     // static public System.Int32 EncodedStringSize(System.String str)
-    // Offset: 0x176CF30
+    // Offset: 0x1B4C130
     static int EncodedStringSize(::Il2CppString* str);
     // public System.String GetString(ref System.Int32 position, System.Boolean bCreate)
-    // Offset: 0x176CF50
+    // Offset: 0x1B4C150
     ::Il2CppString* GetString(ByRef<int> position, bool bCreate);
     // public System.Void AddToken(System.Byte b, ref System.Int32 position)
-    // Offset: 0x176D278
+    // Offset: 0x1B4C478
     void AddToken(uint8_t b, ByRef<int> position);
     // public System.Security.SecurityElement GetRootElement()
-    // Offset: 0x176D2E8
+    // Offset: 0x1B4C4E8
     System::Security::SecurityElement* GetRootElement();
     // public System.Security.SecurityElement GetElement(System.Int32 position, System.Boolean bCreate)
-    // Offset: 0x176D310
+    // Offset: 0x1B4C510
     System::Security::SecurityElement* GetElement(int position, bool bCreate);
     // System.Security.SecurityElement InternalGetElement(ref System.Int32 position, System.Boolean bCreate)
-    // Offset: 0x176D338
+    // Offset: 0x1B4C538
     System::Security::SecurityElement* InternalGetElement(ByRef<int> position, bool bCreate);
   }; // System.Security.SecurityDocument
   #pragma pack(pop)

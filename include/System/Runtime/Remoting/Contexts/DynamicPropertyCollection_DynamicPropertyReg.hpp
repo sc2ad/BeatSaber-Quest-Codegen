@@ -52,7 +52,7 @@ namespace System::Runtime::Remoting::Contexts {
     // Set instance field: public System.Runtime.Remoting.Contexts.IDynamicMessageSink Sink
     void _set_Sink(System::Runtime::Remoting::Contexts::IDynamicMessageSink* value);
     // public System.Void .ctor()
-    // Offset: 0x16A730C
+    // Offset: 0x1A425D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

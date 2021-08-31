@@ -59,13 +59,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BeatmapLevelFilterModel
     BeatmapLevelFilterModel() noexcept {}
     // static public System.Threading.Tasks.Task`1<IBeatmapLevelCollection> FilerBeatmapLevelPackCollectionAsync(IBeatmapLevelPack[] beatmapLevelPacks, LevelFilterParams levelFilterParams, PlayerDataModel playerDataModel, AdditionalContentModel additionalContentModel, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1FDE208
+    // Offset: 0x10C0420
     static System::Threading::Tasks::Task_1<GlobalNamespace::IBeatmapLevelCollection*>* FilerBeatmapLevelPackCollectionAsync(::Array<GlobalNamespace::IBeatmapLevelPack*>* beatmapLevelPacks, GlobalNamespace::LevelFilterParams* levelFilterParams, GlobalNamespace::PlayerDataModel* playerDataModel, GlobalNamespace::AdditionalContentModel* additionalContentModel, System::Threading::CancellationToken cancellationToken);
     // static private System.Boolean LevelContainsText(IPreviewBeatmapLevel beatmapLevel, System.String[] searchTexts)
-    // Offset: 0x1FDE340
+    // Offset: 0x10C0558
     static bool LevelContainsText(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel, ::Array<::Il2CppString*>* searchTexts);
     // static private System.Threading.Tasks.Task`1<System.Collections.Generic.List`1<IPreviewBeatmapLevel>> GetAllBeatmapLevelsAsync(IBeatmapLevelPack[] beatmapLevelPacks, SongPackMask songPackMask, System.Boolean onlyOwned, AdditionalContentModel additionalContentModel, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1FDE598
+    // Offset: 0x10C07B0
     static System::Threading::Tasks::Task_1<System::Collections::Generic::List_1<GlobalNamespace::IPreviewBeatmapLevel*>*>* GetAllBeatmapLevelsAsync(::Array<GlobalNamespace::IBeatmapLevelPack*>* beatmapLevelPacks, GlobalNamespace::SongPackMask songPackMask, bool onlyOwned, GlobalNamespace::AdditionalContentModel* additionalContentModel, System::Threading::CancellationToken cancellationToken);
   }; // BeatmapLevelFilterModel
   #pragma pack(pop)

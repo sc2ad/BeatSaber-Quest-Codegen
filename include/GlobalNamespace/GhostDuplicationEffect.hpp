@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isInitialized and: tweeningManager
     char __padding1[0x7] = {};
-    // [InjectAttribute] Offset: 0xEB1850
+    // [InjectAttribute] Offset: 0xE37630
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
@@ -85,40 +85,40 @@ namespace GlobalNamespace {
     // Set instance field: private readonly Tweening.TweeningManager _tweeningManager
     void _set__tweeningManager(Tweening::TweeningManager* value);
     // public System.Void set_hide(System.Boolean value)
-    // Offset: 0x1F22E00
+    // Offset: 0x1111068
     void set_hide(bool value);
     // private System.Single get_size()
-    // Offset: 0x1F22EFC
+    // Offset: 0x1111164
     float get_size();
     // private System.Void set_size(System.Single value)
-    // Offset: 0x1F22E38
+    // Offset: 0x11110A0
     void set_size(float value);
     // private System.Single get_alpha()
-    // Offset: 0x1F22F50
+    // Offset: 0x11111B8
     float get_alpha();
     // private System.Void set_alpha(System.Single value)
-    // Offset: 0x1F22780
+    // Offset: 0x11109E8
     void set_alpha(float value);
     // protected System.Void OnDestroy()
-    // Offset: 0x1F2263C
+    // Offset: 0x11108A4
     void OnDestroy();
     // protected System.Void Awake()
-    // Offset: 0x1F226D4
+    // Offset: 0x111093C
     void Awake();
     // private System.Void Init()
-    // Offset: 0x1F226E4
+    // Offset: 0x111094C
     void Init();
     // public System.Void Animate(GhostDuplicationEffect/GhostEffectParams ghostEffectParams)
-    // Offset: 0x1F2285C
+    // Offset: 0x1110AC4
     void Animate(GlobalNamespace::GhostDuplicationEffect::GhostEffectParams ghostEffectParams);
     // private System.Collections.IEnumerator HideRedundantWithDelay(System.Single delay)
-    // Offset: 0x1F22BEC
+    // Offset: 0x1110E54
     System::Collections::IEnumerator* HideRedundantWithDelay(float delay);
     // private System.Void SetDistances(System.Single distance, UnityEngine.Vector3 direction)
-    // Offset: 0x1F22C98
+    // Offset: 0x1110F00
     void SetDistances(float distance, UnityEngine::Vector3 direction);
     // public System.Void .ctor()
-    // Offset: 0x1F22F9C
+    // Offset: 0x1111204
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

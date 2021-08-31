@@ -46,31 +46,31 @@ namespace System::Globalization {
     // Set static field: static private System.UInt16[] s_pDigitValues
     static void _set_s_pDigitValues(::Array<uint16_t>* value);
     // static private System.Void .cctor()
-    // Offset: 0x149DC68
+    // Offset: 0x1806818
     static void _cctor();
     // static System.Int32 InternalConvertToUtf32(System.String s, System.Int32 index)
-    // Offset: 0x149D75C
+    // Offset: 0x180630C
     static int InternalConvertToUtf32(::Il2CppString* s, int index);
     // static System.Boolean IsWhiteSpace(System.String s, System.Int32 index)
-    // Offset: 0x149D830
+    // Offset: 0x18063E0
     static bool IsWhiteSpace(::Il2CppString* s, int index);
     // static System.Boolean IsWhiteSpace(System.Char c)
-    // Offset: 0x149D9AC
+    // Offset: 0x180655C
     static bool IsWhiteSpace(::Il2CppChar c);
     // static public System.Globalization.UnicodeCategory GetUnicodeCategory(System.Char ch)
-    // Offset: 0x149DA20
+    // Offset: 0x18065D0
     static System::Globalization::UnicodeCategory GetUnicodeCategory(::Il2CppChar ch);
     // static public System.Globalization.UnicodeCategory GetUnicodeCategory(System.String s, System.Int32 index)
-    // Offset: 0x149D8C0
+    // Offset: 0x1806470
     static System::Globalization::UnicodeCategory GetUnicodeCategory(::Il2CppString* s, int index);
     // static System.Globalization.UnicodeCategory InternalGetUnicodeCategory(System.Int32 ch)
-    // Offset: 0x149DA84
+    // Offset: 0x1806634
     static System::Globalization::UnicodeCategory InternalGetUnicodeCategory(int ch);
     // static System.Byte InternalGetCategoryValue(System.Int32 ch, System.Int32 offset)
-    // Offset: 0x149DB74
+    // Offset: 0x1806724
     static uint8_t InternalGetCategoryValue(int ch, int offset);
     // static System.Globalization.UnicodeCategory InternalGetUnicodeCategory(System.String value, System.Int32 index)
-    // Offset: 0x149DAF4
+    // Offset: 0x18066A4
     static System::Globalization::UnicodeCategory InternalGetUnicodeCategory(::Il2CppString* value, int index);
   }; // System.Globalization.CharUnicodeInfo
   #pragma pack(pop)

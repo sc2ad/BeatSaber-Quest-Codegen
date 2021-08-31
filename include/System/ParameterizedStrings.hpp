@@ -64,16 +64,16 @@ namespace System {
       // Set instance field: private readonly System.String _string
       void _set__string(::Il2CppString* value);
       // public System.Int32 get_Int32()
-      // Offset: 0xD832F4
+      // Offset: 0x1D1065C
       int get_Int32();
       // public System.String get_String()
-      // Offset: 0xD832FC
+      // Offset: 0x1D0FEB8
       ::Il2CppString* get_String();
       // public System.Object get_Object()
-      // Offset: 0xD83358
+      // Offset: 0x1D0FF14
       ::Il2CppObject* get_Object();
       // public System.Void .ctor(System.Int32 value)
-      // Offset: 0xD832DC
+      // Offset: 0x1D10644
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       FormatParam(int value) {
         static auto ___internal__logger = ::Logger::get().WithContext("System::ParameterizedStrings::FormatParam::.ctor");
@@ -81,7 +81,7 @@ namespace System {
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
       }
       // private System.Void .ctor(System.Int32 intValue, System.String stringValue)
-      // Offset: 0xD832E8
+      // Offset: 0x1D10650
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  FormatParam(int intValue, ::Il2CppString* stringValue)
     }; // System.ParameterizedStrings/System.FormatParam
@@ -95,7 +95,7 @@ namespace System {
     // Set static field: static private System.ParameterizedStrings/System.LowLevelStack _cachedStack
     static void _set__cachedStack(System::ParameterizedStrings::LowLevelStack* value);
     // static public System.String Evaluate(System.String format, params System.ParameterizedStrings/System.FormatParam[] args)
-    // Offset: 0x183E454
+    // Offset: 0x1D0F38C
     static ::Il2CppString* Evaluate(::Il2CppString* format, ::Array<System::ParameterizedStrings::FormatParam>* args);
     // Creating initializer_list -> params proxy for: System.String Evaluate(System.String format, params System.ParameterizedStrings/System.FormatParam[] args)
     static ::Il2CppString* Evaluate(::Il2CppString* format, std::initializer_list<System::ParameterizedStrings::FormatParam> args);
@@ -105,28 +105,28 @@ namespace System {
       return Evaluate(format, {args...});
     }
     // static private System.String EvaluateInternal(System.String format, ref System.Int32 pos, System.ParameterizedStrings/System.FormatParam[] args, System.ParameterizedStrings/System.LowLevelStack stack, ref System.ParameterizedStrings/System.FormatParam[] dynamicVars, ref System.ParameterizedStrings/System.FormatParam[] staticVars)
-    // Offset: 0x183E618
+    // Offset: 0x1D0F550
     static ::Il2CppString* EvaluateInternal(::Il2CppString* format, ByRef<int> pos, ::Array<System::ParameterizedStrings::FormatParam>* args, System::ParameterizedStrings::LowLevelStack* stack, ByRef<::Array<System::ParameterizedStrings::FormatParam>*> dynamicVars, ByRef<::Array<System::ParameterizedStrings::FormatParam>*> staticVars);
     // static private System.Boolean AsBool(System.Int32 i)
-    // Offset: 0x183F468
+    // Offset: 0x1D103A0
     static bool AsBool(int i);
     // static private System.Int32 AsInt(System.Boolean b)
-    // Offset: 0x183F460
+    // Offset: 0x1D10398
     static int AsInt(bool b);
     // static private System.String StringFromAsciiBytes(System.Byte[] buffer, System.Int32 offset, System.Int32 length)
-    // Offset: 0x183F474
+    // Offset: 0x1D103AC
     static ::Il2CppString* StringFromAsciiBytes(::Array<uint8_t>* buffer, int offset, int length);
     // static private System.Int32 snprintf(System.Byte* str, System.IntPtr size, System.String format, System.String arg1)
-    // Offset: 0x183F570
+    // Offset: 0x1D104A8
     static int snprintf(uint8_t* str, System::IntPtr size, ::Il2CppString* format, ::Il2CppString* arg1);
     // static private System.Int32 snprintf(System.Byte* str, System.IntPtr size, System.String format, System.Int32 arg1)
-    // Offset: 0x183F648
+    // Offset: 0x1D10580
     static int snprintf(uint8_t* str, System::IntPtr size, ::Il2CppString* format, int arg1);
     // static private System.String FormatPrintF(System.String format, System.Object arg)
-    // Offset: 0x183F048
+    // Offset: 0x1D0FF80
     static ::Il2CppString* FormatPrintF(::Il2CppString* format, ::Il2CppObject* arg);
     // static private System.ParameterizedStrings/System.FormatParam[] GetDynamicOrStaticVariables(System.Char c, ref System.ParameterizedStrings/System.FormatParam[] dynamicVars, ref System.ParameterizedStrings/System.FormatParam[] staticVars, out System.Int32 index)
-    // Offset: 0x183F350
+    // Offset: 0x1D10288
     static ::Array<System::ParameterizedStrings::FormatParam>* GetDynamicOrStaticVariables(::Il2CppChar c, ByRef<::Array<System::ParameterizedStrings::FormatParam>*> dynamicVars, ByRef<::Array<System::ParameterizedStrings::FormatParam>*> staticVars, ByRef<int> index);
   }; // System.ParameterizedStrings
   #pragma pack(pop)

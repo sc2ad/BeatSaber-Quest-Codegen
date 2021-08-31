@@ -94,7 +94,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Single rotationAngle
     void _set_rotationAngle(float value);
     // public System.Void .ctor()
-    // Offset: 0x1FE5598
+    // Offset: 0x11FE8CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

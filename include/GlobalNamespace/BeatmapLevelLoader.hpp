@@ -84,7 +84,7 @@ namespace GlobalNamespace {
       // Set instance field: public readonly IBeatmapLevel beatmapLevel
       void _set_beatmapLevel(GlobalNamespace::IBeatmapLevel* value);
       // public System.Void .ctor(System.Boolean isError, IBeatmapLevel beatmapLevel)
-      // Offset: 0xF7B96C
+      // Offset: 0x10C1EF8
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  LoadBeatmapLevelResult(bool isError, GlobalNamespace::IBeatmapLevel* beatmapLevel)
     }; // BeatmapLevelLoader/LoadBeatmapLevelResult
@@ -114,14 +114,14 @@ namespace GlobalNamespace {
     // Set instance field: private IBeatmapDataAssetFileModel _beatmapDataAssetFileModel
     void _set__beatmapDataAssetFileModel(GlobalNamespace::IBeatmapDataAssetFileModel* value);
     // public System.Void .ctor(BeatmapLevelDataLoaderSO beatmapLevelDataLoader, IBeatmapDataAssetFileModel beatmapDataAssetFileModel)
-    // Offset: 0x1EE506C
+    // Offset: 0x10C173C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelLoader* New_ctor(GlobalNamespace::BeatmapLevelDataLoaderSO* beatmapLevelDataLoader, GlobalNamespace::IBeatmapDataAssetFileModel* beatmapDataAssetFileModel) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLevelLoader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelLoader*, creationType>(beatmapLevelDataLoader, beatmapDataAssetFileModel)));
     }
     // public System.Threading.Tasks.Task`1<BeatmapLevelLoader/LoadBeatmapLevelResult> LoadBeatmapLevelAsync(IPreviewBeatmapLevel previewLevel, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1EE50A4
+    // Offset: 0x10C1774
     System::Threading::Tasks::Task_1<GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResult>* LoadBeatmapLevelAsync(GlobalNamespace::IPreviewBeatmapLevel* previewLevel, System::Threading::CancellationToken cancellationToken);
   }; // BeatmapLevelLoader
   #pragma pack(pop)

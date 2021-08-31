@@ -37,7 +37,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly System.String RecordingUuid
     void _set_RecordingUuid(::Il2CppString* value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x20FAD9C
+    // Offset: 0x14E70F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AbuseReportRecording* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::AbuseReportRecording::.ctor");

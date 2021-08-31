@@ -49,14 +49,14 @@ namespace Zenject {
     // Set instance field: private readonly System.String _resourcePath
     void _set__resourcePath(::Il2CppString* value);
     // public System.Void .ctor(System.String resourcePath)
-    // Offset: 0x13CAFC8
+    // Offset: 0x1716CB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrefabProviderResource* New_ctor(::Il2CppString* resourcePath) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PrefabProviderResource::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrefabProviderResource*, creationType>(resourcePath)));
     }
     // public UnityEngine.Object GetPrefab()
-    // Offset: 0x13CAFF4
+    // Offset: 0x1716CDC
     UnityEngine::Object* GetPrefab();
   }; // Zenject.PrefabProviderResource
   #pragma pack(pop)

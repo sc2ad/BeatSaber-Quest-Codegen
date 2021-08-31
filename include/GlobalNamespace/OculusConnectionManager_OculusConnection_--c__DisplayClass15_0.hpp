@@ -63,10 +63,10 @@ namespace GlobalNamespace {
     // Set instance field: public OculusConnectionManager/OculusConnection <>4__this
     void _set_$$4__this(GlobalNamespace::OculusConnectionManager::OculusConnection* value);
     // System.Void <Ping>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.PingResult> result)
-    // Offset: 0x201F7D8
+    // Offset: 0x1239700
     void $Ping$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::PingResult*>* result);
     // public System.Void .ctor()
-    // Offset: 0x201F5D4
+    // Offset: 0x12394FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

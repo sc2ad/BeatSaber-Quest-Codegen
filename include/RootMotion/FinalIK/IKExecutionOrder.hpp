@@ -32,14 +32,14 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKExecutionOrder : public UnityEngine::MonoBehaviour {
     public:
-    // [TooltipAttribute] Offset: 0xEA0294
+    // [TooltipAttribute] Offset: 0xE26044
     // public RootMotion.FinalIK.IK[] IKComponents
     // Size: 0x8
     // Offset: 0x18
     ::Array<RootMotion::FinalIK::IK*>* IKComponents;
     // Field size check
     static_assert(sizeof(::Array<RootMotion::FinalIK::IK*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xEA02CC
+    // [TooltipAttribute] Offset: 0xE2607C
     // public UnityEngine.Animator animator
     // Size: 0x8
     // Offset: 0x20
@@ -69,25 +69,25 @@ namespace RootMotion::FinalIK {
     // Set instance field: private System.Boolean fixedFrame
     void _set_fixedFrame(bool value);
     // private System.Boolean get_animatePhysics()
-    // Offset: 0x18374F8
+    // Offset: 0x1CD32EC
     bool get_animatePhysics();
     // private System.Void Start()
-    // Offset: 0x1837594
+    // Offset: 0x1CD3388
     void Start();
     // private System.Void Update()
-    // Offset: 0x1837604
+    // Offset: 0x1CD33F8
     void Update();
     // private System.Void FixedUpdate()
-    // Offset: 0x18376C0
+    // Offset: 0x1CD34B4
     void FixedUpdate();
     // private System.Void LateUpdate()
-    // Offset: 0x18376FC
+    // Offset: 0x1CD34F0
     void LateUpdate();
     // private System.Void FixTransforms()
-    // Offset: 0x1837638
+    // Offset: 0x1CD342C
     void FixTransforms();
     // public System.Void .ctor()
-    // Offset: 0x1837788
+    // Offset: 0x1CD357C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

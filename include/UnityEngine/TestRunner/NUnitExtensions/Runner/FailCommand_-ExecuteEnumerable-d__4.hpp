@@ -111,32 +111,32 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Set instance field: public UnityEngine.TestRunner.NUnitExtensions.Runner.FailCommand <>4__this
     void _set_$$4__this(UnityEngine::TestRunner::NUnitExtensions::Runner::FailCommand* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x11F04A0
+    // Offset: 0x14B60E0
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x11F0508
+    // Offset: 0x14B6148
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x11F035C
+    // Offset: 0x14B5F9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FailCommand::$ExecuteEnumerable$d__4* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::NUnitExtensions::Runner::FailCommand::$ExecuteEnumerable$d__4::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FailCommand::$ExecuteEnumerable$d__4*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x11F0394
+    // Offset: 0x14B5FD4
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x11F0398
+    // Offset: 0x14B5FD8
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x11F04A8
+    // Offset: 0x14B60E8
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<System.Object> System.Collections.Generic.IEnumerable<System.Object>.GetEnumerator()
-    // Offset: 0x11F0510
+    // Offset: 0x14B6150
     System::Collections::Generic::IEnumerator_1<::Il2CppObject*>* System_Collections_Generic_IEnumerable$System_Object$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x11F05C4
+    // Offset: 0x14B6204
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.FailCommand/UnityEngine.TestRunner.NUnitExtensions.Runner.<ExecuteEnumerable>d__4
   #pragma pack(pop)

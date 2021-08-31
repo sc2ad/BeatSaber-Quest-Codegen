@@ -121,7 +121,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Boolean showInternetGames
     void _set_showInternetGames(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1F1AD20
+    // Offset: 0x1108F80
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

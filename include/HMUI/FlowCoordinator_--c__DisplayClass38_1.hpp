@@ -51,10 +51,10 @@ namespace HMUI {
     // Set instance field: public HMUI.FlowCoordinator/HMUI.<>c__DisplayClass38_0 CS$<>8__locals1
     void _set_CS$$$8__locals1(HMUI::FlowCoordinator::$$c__DisplayClass38_0* value);
     // System.Void <PresentViewController>b__0()
-    // Offset: 0x10CD2AC
+    // Offset: 0x136E1D4
     void $PresentViewController$b__0();
     // public System.Void .ctor()
-    // Offset: 0x10CC3D0
+    // Offset: 0x136D2F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

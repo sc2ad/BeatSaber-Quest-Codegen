@@ -81,37 +81,37 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _oculusPlatformWasInitialized
     void _set__oculusPlatformWasInitialized(bool value);
     // public Deeplink get_currentDeeplink()
-    // Offset: 0x201F9F4
+    // Offset: 0x123991C
     GlobalNamespace::Deeplink* get_currentDeeplink();
     // public System.Void add_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
-    // Offset: 0x201F8AC
+    // Offset: 0x12397D4
     void add_didReceiveDeeplinkEvent(System::Action_1<GlobalNamespace::Deeplink*>* value);
     // public System.Void remove_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
-    // Offset: 0x201F950
+    // Offset: 0x1239878
     void remove_didReceiveDeeplinkEvent(System::Action_1<GlobalNamespace::Deeplink*>* value);
     // public System.Void Init()
-    // Offset: 0x201F9FC
+    // Offset: 0x1239924
     void Init();
     // public System.Void OculusPlatformWasInitialized()
-    // Offset: 0x201FA78
+    // Offset: 0x12399A0
     void OculusPlatformWasInitialized();
     // private System.Void SetLaunchIntentChangedNotificationCallback(Oculus.Platform.Message`1<System.String> message)
-    // Offset: 0x201FB0C
+    // Offset: 0x1239A34
     void SetLaunchIntentChangedNotificationCallback(Oculus::Platform::Message_1<::Il2CppString*>* message);
     // private System.Void ProcessLaunchDetails(Oculus.Platform.Models.LaunchDetails launchDetails)
-    // Offset: 0x201FAD8
+    // Offset: 0x1239A00
     void ProcessLaunchDetails(Oculus::Platform::Models::LaunchDetails* launchDetails);
     // private System.Void UpdateDeeplinkMessage(System.String deeplinkMessage, System.UInt64 roomID)
-    // Offset: 0x201FB58
+    // Offset: 0x1239A80
     void UpdateDeeplinkMessage(::Il2CppString* deeplinkMessage, uint64_t roomID);
     // private System.Boolean IsAtLeastOneFieldPopulated(Deeplink deeplink)
-    // Offset: 0x201FD50
+    // Offset: 0x1239C78
     bool IsAtLeastOneFieldPopulated(GlobalNamespace::Deeplink* deeplink);
     // static public System.Void Log(System.String message)
-    // Offset: 0x201FCE8
+    // Offset: 0x1239C10
     static void Log(::Il2CppString* message);
     // public System.Void .ctor()
-    // Offset: 0x201FDD0
+    // Offset: 0x1239CF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

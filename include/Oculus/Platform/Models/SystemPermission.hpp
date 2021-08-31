@@ -47,7 +47,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly Oculus.Platform.PermissionGrantStatus PermissionGrantStatus
     void _set_PermissionGrantStatus(Oculus::Platform::PermissionGrantStatus value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x21041AC
+    // Offset: 0x14F0508
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SystemPermission* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::SystemPermission::.ctor");

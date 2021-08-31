@@ -97,31 +97,31 @@ namespace RootMotion::FinalIK {
     // Set instance field: private System.Single lastTime
     void _set_lastTime(float value);
     // public UnityEngine.Vector3 get_IKOffset()
-    // Offset: 0x1831790
+    // Offset: 0x1CCD584
     UnityEngine::Vector3 get_IKOffset();
     // private System.Void set_IKOffset(UnityEngine.Vector3 value)
-    // Offset: 0x183179C
+    // Offset: 0x1CCD590
     void set_IKOffset(UnityEngine::Vector3 value);
     // public System.Single get_heightOffset()
-    // Offset: 0x18317A8
+    // Offset: 0x1CCD59C
     float get_heightOffset();
     // private System.Void set_heightOffset(System.Single value)
-    // Offset: 0x18317B0
+    // Offset: 0x1CCD5A4
     void set_heightOffset(float value);
     // public System.Void Initiate(RootMotion.FinalIK.Grounding grounding)
-    // Offset: 0x182F2F4
+    // Offset: 0x1CCB0E8
     void Initiate(RootMotion::FinalIK::Grounding* grounding);
     // public System.Void Reset()
-    // Offset: 0x182FE5C
+    // Offset: 0x1CCBC50
     void Reset();
     // public System.Void OnEnable()
-    // Offset: 0x18317B8
+    // Offset: 0x1CCD5AC
     void OnEnable();
     // public System.Void Process(System.Single lowestOffset, System.Single highestOffset, System.Boolean isGrounded)
-    // Offset: 0x182FBF0
+    // Offset: 0x1CCB9E4
     void Process(float lowestOffset, float highestOffset, bool isGrounded);
     // public System.Void .ctor()
-    // Offset: 0x182F208
+    // Offset: 0x1CCAFFC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

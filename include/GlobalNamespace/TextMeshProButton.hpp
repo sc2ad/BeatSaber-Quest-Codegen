@@ -57,13 +57,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.UI.Button _button
     void _set__button(UnityEngine::UI::Button* value);
     // public TMPro.TextMeshProUGUI get_text()
-    // Offset: 0x1EDACB4
+    // Offset: 0x10955C4
     TMPro::TextMeshProUGUI* get_text();
     // public UnityEngine.UI.Button get_button()
-    // Offset: 0x1EDACBC
+    // Offset: 0x10955CC
     UnityEngine::UI::Button* get_button();
     // public System.Void .ctor()
-    // Offset: 0x1EDACC4
+    // Offset: 0x10955D4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

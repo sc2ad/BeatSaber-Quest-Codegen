@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: DuplicateMirrorForReflectionProbe
     DuplicateMirrorForReflectionProbe() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1E862A0
+    // Offset: 0x104C034
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

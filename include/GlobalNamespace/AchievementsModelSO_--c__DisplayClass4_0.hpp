@@ -46,10 +46,10 @@ namespace GlobalNamespace {
     // Set instance field: public System.String achievementId
     void _set_achievementId(::Il2CppString* value);
     // System.Void <UnlockAchievement>b__0(PlatformAchievementsModelSO/UnlockAchievementResult result)
-    // Offset: 0x1F26DB0
+    // Offset: 0x1177B30
     void $UnlockAchievement$b__0(GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementResult result);
     // public System.Void .ctor()
-    // Offset: 0x1F26C7C
+    // Offset: 0x11779FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

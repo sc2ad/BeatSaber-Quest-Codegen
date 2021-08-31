@@ -56,10 +56,10 @@ namespace Zenject {
     // Set instance field: public Zenject.IGuiRenderable renderable
     void _set_renderable(Zenject::IGuiRenderable* value);
     // System.Boolean <.ctor>b__1(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1328234
+    // Offset: 0x16604F0
     bool $_ctor$b__1(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // public System.Void .ctor()
-    // Offset: 0x1327E70
+    // Offset: 0x166012C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

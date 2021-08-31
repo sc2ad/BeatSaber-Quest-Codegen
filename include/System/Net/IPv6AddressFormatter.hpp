@@ -53,23 +53,23 @@ namespace System::Net {
     // Set instance field: private System.Int64 scopeId
     void _set_scopeId(int64_t value);
     // public System.Void .ctor(System.UInt16[] addr, System.Int64 scopeId)
-    // Offset: 0xD75FB4
+    // Offset: 0x167BA18
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  IPv6AddressFormatter(::Array<uint16_t>* addr, int64_t scopeId)
     // static private System.UInt16 SwapUShort(System.UInt16 number)
-    // Offset: 0x1343914
+    // Offset: 0x167CAE4
     static uint16_t SwapUShort(uint16_t number);
     // private System.UInt32 AsIPv4Int()
-    // Offset: 0xD75FBC
+    // Offset: 0x167CAF0
     uint AsIPv4Int();
     // private System.Boolean IsIPv4Compatible()
-    // Offset: 0xD75FC4
+    // Offset: 0x167CB3C
     bool IsIPv4Compatible();
     // private System.Boolean IsIPv4Mapped()
-    // Offset: 0xD75FCC
+    // Offset: 0x167CBB4
     bool IsIPv4Mapped();
     // public override System.String ToString()
-    // Offset: 0xD75FD4
+    // Offset: 0x167BA20
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

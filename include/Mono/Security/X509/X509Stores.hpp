@@ -48,14 +48,14 @@ namespace Mono::Security::X509 {
     // Set instance field: private System.Boolean _newFormat
     void _set__newFormat(bool value);
     // System.Void .ctor(System.String path, System.Boolean newFormat)
-    // Offset: 0x1E038D0
+    // Offset: 0x23D5E68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Stores* New_ctor(::Il2CppString* path, bool newFormat) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::X509Stores::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Stores*, creationType>(path, newFormat)));
     }
     // public Mono.Security.X509.X509Store Open(System.String storeName, System.Boolean create)
-    // Offset: 0x1E039B0
+    // Offset: 0x23D5F48
     Mono::Security::X509::X509Store* Open(::Il2CppString* storeName, bool create);
   }; // Mono.Security.X509.X509Stores
   #pragma pack(pop)

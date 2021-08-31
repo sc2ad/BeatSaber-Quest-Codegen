@@ -50,20 +50,20 @@ namespace UnityEngine {
     // Set instance field: UnityEngine.ParticleSystem m_ParticleSystem
     void _set_m_ParticleSystem(UnityEngine::ParticleSystem* value);
     // public System.Void set_position(UnityEngine.Vector3 value)
-    // Offset: 0xD94D34
+    // Offset: 0x24160BC
     void set_position(UnityEngine::Vector3 value);
     // public System.Void set_rotation(UnityEngine.Vector3 value)
-    // Offset: 0xD94D3C
+    // Offset: 0x2416164
     void set_rotation(UnityEngine::Vector3 value);
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
-    // Offset: 0xD94D2C
+    // Offset: 0x2415694
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  ShapeModule(UnityEngine::ParticleSystem* particleSystem)
     // static private System.Void set_position_Injected(ref UnityEngine.ParticleSystem/UnityEngine.ShapeModule _unity_self, ref UnityEngine.Vector3 value)
-    // Offset: 0x1E372A4
+    // Offset: 0x2416114
     static void set_position_Injected(ByRef<UnityEngine::ParticleSystem::ShapeModule> _unity_self, ByRef<UnityEngine::Vector3> value);
     // static private System.Void set_rotation_Injected(ref UnityEngine.ParticleSystem/UnityEngine.ShapeModule _unity_self, ref UnityEngine.Vector3 value)
-    // Offset: 0x1E3734C
+    // Offset: 0x24161BC
     static void set_rotation_Injected(ByRef<UnityEngine::ParticleSystem::ShapeModule> _unity_self, ByRef<UnityEngine::Vector3> value);
   }; // UnityEngine.ParticleSystem/UnityEngine.ShapeModule
   #pragma pack(pop)

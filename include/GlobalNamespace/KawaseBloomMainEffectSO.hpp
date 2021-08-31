@@ -54,8 +54,8 @@ namespace GlobalNamespace {
     UnityEngine::Shader* mainEffectShader;
     // Field size check
     static_assert(sizeof(UnityEngine::Shader*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE991F0
-    // [RangeAttribute] Offset: 0xE991F0
+    // [SpaceAttribute] Offset: 0xE1EF90
+    // [RangeAttribute] Offset: 0xE1EF90
     // private System.Single _bloomIntensity
     // Size: 0x4
     // Offset: 0x30
@@ -80,15 +80,15 @@ namespace GlobalNamespace {
     float bloomAlphaWeights;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xE99270
+    // [SpaceAttribute] Offset: 0xE1F010
     // private System.Int32 _bloomTextureWidth
     // Size: 0x4
     // Offset: 0x40
     int bloomTextureWidth;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [SpaceAttribute] Offset: 0xE992A8
-    // [RangeAttribute] Offset: 0xE992A8
+    // [SpaceAttribute] Offset: 0xE1F048
+    // [RangeAttribute] Offset: 0xE1F048
     // private System.Single _baseColorBoost
     // Size: 0x4
     // Offset: 0x44
@@ -119,12 +119,12 @@ namespace GlobalNamespace {
     KawaseBloomMainEffectSO(GlobalNamespace::KawaseBlurRendererSO* kawaseBlurRenderer_ = {}, UnityEngine::Shader* fadeShader_ = {}, UnityEngine::Shader* mainEffectShader_ = {}, float bloomIntensity_ = {}, int bloomIterations_ = {}, float bloomBoost_ = {}, float bloomAlphaWeights_ = {}, int bloomTextureWidth_ = {}, float baseColorBoost_ = {}, float baseColorBoostThreshold_ = {}, UnityEngine::Material* fadeMaterial_ = {}, UnityEngine::Material* mainEffectMaterial_ = {}) noexcept : kawaseBlurRenderer{kawaseBlurRenderer_}, fadeShader{fadeShader_}, mainEffectShader{mainEffectShader_}, bloomIntensity{bloomIntensity_}, bloomIterations{bloomIterations_}, bloomBoost{bloomBoost_}, bloomAlphaWeights{bloomAlphaWeights_}, bloomTextureWidth{bloomTextureWidth_}, baseColorBoost{baseColorBoost_}, baseColorBoostThreshold{baseColorBoostThreshold_}, fadeMaterial{fadeMaterial_}, mainEffectMaterial{mainEffectMaterial_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE99308
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE1F0A8
     // Get static field: static private readonly System.Int32 _bloomTexID
     static int _get__bloomTexID();
     // Set static field: static private readonly System.Int32 _bloomTexID
     static void _set__bloomTexID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE99318
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE1F0B8
     // Get static field: static private readonly System.Int32 _bloomIntensityID
     static int _get__bloomIntensityID();
     // Set static field: static private readonly System.Int32 _bloomIntensityID
@@ -178,18 +178,18 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Material _mainEffectMaterial
     void _set__mainEffectMaterial(UnityEngine::Material* value);
     // protected System.Void OnDisable()
-    // Offset: 0x1DC4C90
+    // Offset: 0x2390C20
     void OnDisable();
     // private System.Void LazyInitializeMaterials()
-    // Offset: 0x1DC4B58
+    // Offset: 0x2390AE8
     void LazyInitializeMaterials();
     // public override System.Boolean get_hasPostProcessEffect()
-    // Offset: 0x1DC4B28
+    // Offset: 0x2390AB8
     // Implemented from: MainEffectSO
     // Base method: System.Boolean MainEffectSO::get_hasPostProcessEffect()
     bool get_hasPostProcessEffect();
     // public System.Void .ctor()
-    // Offset: 0x1DC5054
+    // Offset: 0x2390FFC
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -202,22 +202,22 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<KawaseBloomMainEffectSO*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1DC5084
+    // Offset: 0x239102C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
     // protected override System.Void OnEnable()
-    // Offset: 0x1DC4B30
+    // Offset: 0x2390AC0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public override System.Void PreRender()
-    // Offset: 0x1DC4CCC
+    // Offset: 0x2390C5C
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::PreRender()
     void PreRender();
     // public override System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single fade)
-    // Offset: 0x1DC4DD8
+    // Offset: 0x2390D68
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single fade)
     void Render(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest, float fade);

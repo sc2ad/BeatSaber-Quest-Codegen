@@ -60,13 +60,13 @@ namespace MasterServer {
     // Set instance field: public readonly ByteArrayNetSerializable cookie
     void _set_cookie(GlobalNamespace::ByteArrayNetSerializable* value);
     // static public PacketPool`1<MasterServer.HelloVerifyRequest> get_pool()
-    // Offset: 0x208DBE8
+    // Offset: 0x1217E44
     static GlobalNamespace::PacketPool_1<MasterServer::HelloVerifyRequest*>* get_pool();
     // public MasterServer.HelloVerifyRequest Init(System.Byte[] cookie)
-    // Offset: 0x208DC30
+    // Offset: 0x1217E8C
     MasterServer::HelloVerifyRequest* Init(::Array<uint8_t>* cookie);
     // public System.Void .ctor()
-    // Offset: 0x208DD48
+    // Offset: 0x1217FA4
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -76,17 +76,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<HelloVerifyRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x208DC64
+    // Offset: 0x1217EC0
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x208DCA0
+    // Offset: 0x1217EFC
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x208DCDC
+    // Offset: 0x1217F38
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Release()
     void Release();

@@ -81,23 +81,23 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Set instance field: Org.BouncyCastle.Asn1.X509.X509Extensions crlEntryExtensions
     void _set_crlEntryExtensions(Org::BouncyCastle::Asn1::X509::X509Extensions* value);
     // public Org.BouncyCastle.Asn1.DerInteger get_UserCertificate()
-    // Offset: 0x168FBA4
+    // Offset: 0x19F901C
     Org::BouncyCastle::Asn1::DerInteger* get_UserCertificate();
     // public Org.BouncyCastle.Asn1.X509.Time get_RevocationDate()
-    // Offset: 0x168FBAC
+    // Offset: 0x19F9024
     Org::BouncyCastle::Asn1::X509::Time* get_RevocationDate();
     // public Org.BouncyCastle.Asn1.X509.X509Extensions get_Extensions()
-    // Offset: 0x168FBB4
+    // Offset: 0x19F902C
     Org::BouncyCastle::Asn1::X509::X509Extensions* get_Extensions();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x168F89C
+    // Offset: 0x19F8D14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CrlEntry* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::CrlEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CrlEntry*, creationType>(seq)));
     }
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x168FC70
+    // Offset: 0x19F90E8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

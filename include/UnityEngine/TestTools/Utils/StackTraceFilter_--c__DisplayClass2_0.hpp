@@ -38,10 +38,10 @@ namespace UnityEngine::TestTools::Utils {
     // Set instance field: public System.String line
     void _set_line(::Il2CppString* value);
     // System.Boolean <Filter>b__0(System.String s)
-    // Offset: 0x1E2F31C
+    // Offset: 0x24035A4
     bool $Filter$b__0(::Il2CppString* s);
     // public System.Void .ctor()
-    // Offset: 0x1E2F134
+    // Offset: 0x24033BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -54,10 +54,10 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // Set instance field: public System.String data
     void _set_data(::Il2CppString* value);
     // System.Boolean <InitializeAsync>b__0()
-    // Offset: 0x11705CC
+    // Offset: 0x14464E0
     bool $InitializeAsync$b__0();
     // public System.Void .ctor()
-    // Offset: 0x11704DC
+    // Offset: 0x14463F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

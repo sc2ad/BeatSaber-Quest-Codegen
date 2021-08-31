@@ -112,40 +112,40 @@ namespace GlobalNamespace {
     // Set instance field: private FileBrowserItem[] _items
     void _set__items(::Array<GlobalNamespace::FileBrowserItem*>* value);
     // public System.Void add_didSelectRow(System.Action`2<FileBrowserTableView,FileBrowserItem> value)
-    // Offset: 0x1E90B50
+    // Offset: 0x10566DC
     void add_didSelectRow(System::Action_2<GlobalNamespace::FileBrowserTableView*, GlobalNamespace::FileBrowserItem*>* value);
     // public System.Void remove_didSelectRow(System.Action`2<FileBrowserTableView,FileBrowserItem> value)
-    // Offset: 0x1E90BF4
+    // Offset: 0x1056780
     void remove_didSelectRow(System::Action_2<GlobalNamespace::FileBrowserTableView*, GlobalNamespace::FileBrowserItem*>* value);
     // public System.Void Init(FileBrowserItem[] items)
-    // Offset: 0x1E90C98
+    // Offset: 0x1056824
     void Init(::Array<GlobalNamespace::FileBrowserItem*>* items);
     // public System.Void SetItems(FileBrowserItem[] items)
-    // Offset: 0x1E90DA4
+    // Offset: 0x1056930
     void SetItems(::Array<GlobalNamespace::FileBrowserItem*>* items);
     // public System.Boolean SelectAndScrollRowToItemWithPath(System.String folderPath)
-    // Offset: 0x1E90DF4
+    // Offset: 0x1056980
     bool SelectAndScrollRowToItemWithPath(::Il2CppString* folderPath);
     // public System.Single CellSize()
-    // Offset: 0x1E90EE4
+    // Offset: 0x1056A70
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x1E90EEC
+    // Offset: 0x1056A78
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0x1E90F04
+    // Offset: 0x1056A90
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int row);
     // private System.Void HandleDidSelectRowEvent(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0x1E91078
+    // Offset: 0x1056C04
     void HandleDidSelectRowEvent(HMUI::TableView* tableView, int row);
     // public System.Void SelectAndScrollRow(System.Int32 row)
-    // Offset: 0x1E90E94
+    // Offset: 0x1056A20
     void SelectAndScrollRow(int row);
     // public System.Void ClearSelection(System.Boolean animated, System.Boolean scrollToRow0)
-    // Offset: 0x1E91118
+    // Offset: 0x1056CA4
     void ClearSelection(bool animated, bool scrollToRow0);
     // public System.Void .ctor()
-    // Offset: 0x1E91184
+    // Offset: 0x1056D10
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -26,37 +26,37 @@ namespace System::Net {
     // Creating value type constructor for type: Dns
     Dns() noexcept {}
     // static private System.Boolean GetHostByName_internal(System.String host, out System.String h_name, out System.String[] h_aliases, out System.String[] h_addr_list, System.Int32 hint)
-    // Offset: 0x13A1658
+    // Offset: 0x16DA620
     static bool GetHostByName_internal(::Il2CppString* host, ByRef<::Il2CppString*> h_name, ByRef<::Array<::Il2CppString*>*> h_aliases, ByRef<::Array<::Il2CppString*>*> h_addr_list, int hint);
     // static private System.Boolean GetHostByAddr_internal(System.String addr, out System.String h_name, out System.String[] h_aliases, out System.String[] h_addr_list, System.Int32 hint)
-    // Offset: 0x13A165C
+    // Offset: 0x16DA624
     static bool GetHostByAddr_internal(::Il2CppString* addr, ByRef<::Il2CppString*> h_name, ByRef<::Array<::Il2CppString*>*> h_aliases, ByRef<::Array<::Il2CppString*>*> h_addr_list, int hint);
     // static private System.Boolean GetHostName_internal(out System.String h_name)
-    // Offset: 0x13A1660
+    // Offset: 0x16DA628
     static bool GetHostName_internal(ByRef<::Il2CppString*> h_name);
     // static private System.Void Error_11001(System.String hostName)
-    // Offset: 0x13A1664
+    // Offset: 0x16DA62C
     static void Error_11001(::Il2CppString* hostName);
     // static private System.Net.IPHostEntry hostent_to_IPHostEntry(System.String originalHostName, System.String h_name, System.String[] h_aliases, System.String[] h_addrlist)
-    // Offset: 0x13A16F0
+    // Offset: 0x16DA6B8
     static System::Net::IPHostEntry* hostent_to_IPHostEntry(::Il2CppString* originalHostName, ::Il2CppString* h_name, ::Array<::Il2CppString*>* h_aliases, ::Array<::Il2CppString*>* h_addrlist);
     // static private System.Net.IPHostEntry GetHostByAddressFromString(System.String address, System.Boolean parse)
-    // Offset: 0x13A19DC
+    // Offset: 0x16DA9A4
     static System::Net::IPHostEntry* GetHostByAddressFromString(::Il2CppString* address, bool parse);
     // static public System.Net.IPHostEntry GetHostEntry(System.String hostNameOrAddress)
-    // Offset: 0x13A1AFC
+    // Offset: 0x16DAAC4
     static System::Net::IPHostEntry* GetHostEntry(::Il2CppString* hostNameOrAddress);
     // static public System.Net.IPHostEntry GetHostEntry(System.Net.IPAddress address)
-    // Offset: 0x13A1C4C
+    // Offset: 0x16DAC14
     static System::Net::IPHostEntry* GetHostEntry(System::Net::IPAddress* address);
     // static public System.Net.IPAddress[] GetHostAddresses(System.String hostNameOrAddress)
-    // Offset: 0x13A1DCC
+    // Offset: 0x16DAD94
     static ::Array<System::Net::IPAddress*>* GetHostAddresses(::Il2CppString* hostNameOrAddress);
     // static public System.Net.IPHostEntry GetHostByName(System.String hostName)
-    // Offset: 0x13A1CE0
+    // Offset: 0x16DACA8
     static System::Net::IPHostEntry* GetHostByName(::Il2CppString* hostName);
     // static public System.String GetHostName()
-    // Offset: 0x13A1F80
+    // Offset: 0x16DAF48
     static ::Il2CppString* GetHostName();
   }; // System.Net.Dns
   #pragma pack(pop)

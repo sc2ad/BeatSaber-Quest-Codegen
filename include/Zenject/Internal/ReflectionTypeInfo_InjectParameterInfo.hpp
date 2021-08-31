@@ -56,7 +56,7 @@ namespace Zenject::Internal {
     // Set instance field: public readonly Zenject.InjectableInfo InjectableInfo
     void _set_InjectableInfo(Zenject::InjectableInfo* value);
     // public System.Void .ctor(System.Reflection.ParameterInfo parameterInfo, Zenject.InjectableInfo injectableInfo)
-    // Offset: 0x132D464
+    // Offset: 0x1665720
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionTypeInfo::InjectParameterInfo* New_ctor(System::Reflection::ParameterInfo* parameterInfo, Zenject::InjectableInfo* injectableInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo::.ctor");

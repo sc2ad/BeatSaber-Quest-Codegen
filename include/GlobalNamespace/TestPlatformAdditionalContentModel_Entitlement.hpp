@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Set instance field: public AdditionalContentModel/EntitlementStatus status
     void _set_status(GlobalNamespace::AdditionalContentModel::EntitlementStatus value);
     // public System.Void .ctor()
-    // Offset: 0x1ED8B68
+    // Offset: 0x1093478
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

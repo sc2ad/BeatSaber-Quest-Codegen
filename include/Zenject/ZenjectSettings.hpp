@@ -92,32 +92,32 @@ namespace Zenject {
     // Set instance field: private Zenject.ZenjectSettings/Zenject.SignalSettings _signalSettings
     void _set__signalSettings(Zenject::ZenjectSettings::SignalSettings* value);
     // public Zenject.ZenjectSettings/Zenject.SignalSettings get_Signals()
-    // Offset: 0x1E0B358
+    // Offset: 0x23E7ECC
     Zenject::ZenjectSettings::SignalSettings* get_Signals();
     // public Zenject.ValidationErrorResponses get_ValidationErrorResponse()
-    // Offset: 0x1E0B360
+    // Offset: 0x23E7ED4
     Zenject::ValidationErrorResponses get_ValidationErrorResponse();
     // public Zenject.RootResolveMethods get_ValidationRootResolveMethod()
-    // Offset: 0x1E0B368
+    // Offset: 0x23E7EDC
     Zenject::RootResolveMethods get_ValidationRootResolveMethod();
     // public System.Boolean get_DisplayWarningWhenResolvingDuringInstall()
-    // Offset: 0x1E0B370
+    // Offset: 0x23E7EE4
     bool get_DisplayWarningWhenResolvingDuringInstall();
     // public System.Boolean get_EnsureDeterministicDestructionOrderOnApplicationQuit()
-    // Offset: 0x1E0B378
+    // Offset: 0x23E7EEC
     bool get_EnsureDeterministicDestructionOrderOnApplicationQuit();
     // public System.Void .ctor(Zenject.ValidationErrorResponses validationErrorResponse, Zenject.RootResolveMethods validationRootResolveMethod, System.Boolean displayWarningWhenResolvingDuringInstall, System.Boolean ensureDeterministicDestructionOrderOnApplicationQuit, Zenject.ZenjectSettings/Zenject.SignalSettings signalSettings)
-    // Offset: 0x1E0B280
+    // Offset: 0x23E7DF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenjectSettings* New_ctor(Zenject::ValidationErrorResponses validationErrorResponse, Zenject::RootResolveMethods validationRootResolveMethod, bool displayWarningWhenResolvingDuringInstall, bool ensureDeterministicDestructionOrderOnApplicationQuit, Zenject::ZenjectSettings::SignalSettings* signalSettings) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ZenjectSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenjectSettings*, creationType>(validationErrorResponse, validationRootResolveMethod, displayWarningWhenResolvingDuringInstall, ensureDeterministicDestructionOrderOnApplicationQuit, signalSettings)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1E0B380
+    // Offset: 0x23E7EF4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1E0B340
+    // Offset: 0x23E7EB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

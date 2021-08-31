@@ -56,8 +56,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: maxSpawnInterval and: directionalLights
     char __padding2[0x4] = {};
-    // [HeaderAttribute] Offset: 0xEB16F4
-    // [NullAllowed] Offset: 0xEB16F4
+    // [HeaderAttribute] Offset: 0xE374D4
+    // [NullAllowed] Offset: 0xE374D4
     // private DirectionalLight[] _directionalLights
     // Size: 0x8
     // Offset: 0x30
@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     int currentLightId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [InjectAttribute] Offset: 0xEB1760
+    // [InjectAttribute] Offset: 0xE37540
     // private readonly FireworkItemController/Pool _fireworkItemPool
     // Size: 0x8
     // Offset: 0x40
@@ -116,19 +116,19 @@ namespace GlobalNamespace {
     // Set instance field: private readonly FireworkItemController/Pool _fireworkItemPool
     void _set__fireworkItemPool(GlobalNamespace::FireworkItemController::Pool* value);
     // protected System.Void OnEnable()
-    // Offset: 0x1E931AC
+    // Offset: 0x1058D38
     void OnEnable();
     // private System.Collections.IEnumerator SpawningCoroutine()
-    // Offset: 0x1E931D8
+    // Offset: 0x1058D64
     System::Collections::IEnumerator* SpawningCoroutine();
     // private System.Void HandleFireworkItemControllerDidFinish(FireworkItemController fireworkItemController)
-    // Offset: 0x1E93274
+    // Offset: 0x1058E00
     void HandleFireworkItemControllerDidFinish(GlobalNamespace::FireworkItemController* fireworkItemController);
     // private System.Void OnDrawGizmosSelected()
-    // Offset: 0x1E93320
+    // Offset: 0x1058EAC
     void OnDrawGizmosSelected();
     // public System.Void .ctor()
-    // Offset: 0x1E933A4
+    // Offset: 0x1058F30
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

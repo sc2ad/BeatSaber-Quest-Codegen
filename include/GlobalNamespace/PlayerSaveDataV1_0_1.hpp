@@ -109,7 +109,7 @@ namespace GlobalNamespace {
     // Set instance field: public BeatmapDifficulty lastSelectedBeatmapDifficulty
     void _set_lastSelectedBeatmapDifficulty(GlobalNamespace::BeatmapDifficulty value);
     // public System.Void .ctor()
-    // Offset: 0x1F57FA4
+    // Offset: 0x113B44C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

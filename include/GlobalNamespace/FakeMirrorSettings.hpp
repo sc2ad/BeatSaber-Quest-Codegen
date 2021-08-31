@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     FakeMirrorSettings(float fakeMirrorTransparency_ = {}) noexcept : fakeMirrorTransparency{fakeMirrorTransparency_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE99190
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE1EF30
     // Get static field: static private readonly System.Int32 _fakeMirrorTransparencyId
     static int _get__fakeMirrorTransparencyId();
     // Set static field: static private readonly System.Int32 _fakeMirrorTransparencyId
@@ -40,22 +40,22 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _fakeMirrorTransparency
     void _set__fakeMirrorTransparency(float value);
     // public System.Single get_fakeMirrorTransparency()
-    // Offset: 0x1DC4944
+    // Offset: 0x23908D4
     float get_fakeMirrorTransparency();
     // public System.Void set_fakeMirrorTransparency(System.Single value)
-    // Offset: 0x1DC494C
+    // Offset: 0x23908DC
     void set_fakeMirrorTransparency(float value);
     // protected System.Void Start()
-    // Offset: 0x1DC4954
+    // Offset: 0x23908E4
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x1DC49C8
+    // Offset: 0x2390958
     void OnEnable();
     // protected System.Void OnValidate()
-    // Offset: 0x1DC4A3C
+    // Offset: 0x23909CC
     void OnValidate();
     // public System.Void .ctor()
-    // Offset: 0x1DC4AB0
+    // Offset: 0x2390A40
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -68,7 +68,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FakeMirrorSettings*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1DC4AC4
+    // Offset: 0x2390A54
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

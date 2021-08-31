@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly ColorScheme colorScheme
     void _set_colorScheme(GlobalNamespace::ColorScheme* value);
     // public System.Void .ctor(ColorScheme colorScheme)
-    // Offset: 0x1EE1510
+    // Offset: 0x109BE1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialSceneSetupData* New_ctor(GlobalNamespace::ColorScheme* colorScheme) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TutorialSceneSetupData::.ctor");

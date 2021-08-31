@@ -44,39 +44,39 @@ namespace System::Net::Http::Headers {
     // Set instance field: private System.Nullable`1<System.Int64> <To>k__BackingField
     void _set_$To$k__BackingField(System::Nullable_1<int64_t> value);
     // public System.Nullable`1<System.Int64> get_From()
-    // Offset: 0x1270D5C
+    // Offset: 0x15A7FEC
     System::Nullable_1<int64_t> get_From();
     // private System.Void set_From(System.Nullable`1<System.Int64> value)
-    // Offset: 0x1270D68
+    // Offset: 0x15A7FF8
     void set_From(System::Nullable_1<int64_t> value);
     // public System.Nullable`1<System.Int64> get_To()
-    // Offset: 0x1270D70
+    // Offset: 0x15A8000
     System::Nullable_1<int64_t> get_To();
     // private System.Void set_To(System.Nullable`1<System.Int64> value)
-    // Offset: 0x1270D7C
+    // Offset: 0x15A800C
     void set_To(System::Nullable_1<int64_t> value);
     // public System.Void .ctor(System.Nullable`1<System.Int64> from, System.Nullable`1<System.Int64> to)
-    // Offset: 0x1270AB0
+    // Offset: 0x15A7D40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RangeItemHeaderValue* New_ctor(System::Nullable_1<int64_t> from, System::Nullable_1<int64_t> to) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::RangeItemHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RangeItemHeaderValue*, creationType>(from, to)));
     }
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x1270D84
+    // Offset: 0x15A8014
     ::Il2CppObject* System_ICloneable_Clone();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1270D8C
+    // Offset: 0x15A801C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1270E80
+    // Offset: 0x15A8110
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1270F08
+    // Offset: 0x15A8198
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

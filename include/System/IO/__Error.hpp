@@ -17,43 +17,43 @@ namespace System::IO {
     // Creating value type constructor for type: __Error
     __Error() noexcept {}
     // static System.Void EndOfFile()
-    // Offset: 0x14C79E4
+    // Offset: 0x1831630
     static void EndOfFile();
     // static System.Void FileNotOpen()
-    // Offset: 0x14C7A64
+    // Offset: 0x18316B0
     static void FileNotOpen();
     // static System.Void StreamIsClosed()
-    // Offset: 0x14C6268
+    // Offset: 0x182FEB4
     static void StreamIsClosed();
     // static System.Void MemoryStreamNotExpandable()
-    // Offset: 0x14C7AE8
+    // Offset: 0x1831734
     static void MemoryStreamNotExpandable();
     // static System.Void ReaderClosed()
-    // Offset: 0x14C25C4
+    // Offset: 0x182C210
     static void ReaderClosed();
     // static System.Void ReadNotSupported()
-    // Offset: 0x14C6874
+    // Offset: 0x18304C0
     static void ReadNotSupported();
     // static System.Void WrongAsyncResult()
-    // Offset: 0x14C7B64
+    // Offset: 0x18317B0
     static void WrongAsyncResult();
     // static System.Void EndReadCalledTwice()
-    // Offset: 0x14C7BE4
+    // Offset: 0x1831830
     static void EndReadCalledTwice();
     // static System.Void EndWriteCalledTwice()
-    // Offset: 0x14C7C64
+    // Offset: 0x18318B0
     static void EndWriteCalledTwice();
     // static System.String GetDisplayablePath(System.String path, System.Boolean isInvalidPath)
-    // Offset: 0x14C7CE4
+    // Offset: 0x1831930
     static ::Il2CppString* GetDisplayablePath(::Il2CppString* path, bool isInvalidPath);
     // static System.Void WinIOError(System.Int32 errorCode, System.String maybeFullPath)
-    // Offset: 0x14C7E1C
+    // Offset: 0x1831A68
     static void WinIOError(int errorCode, ::Il2CppString* maybeFullPath);
     // static System.Void WriteNotSupported()
-    // Offset: 0x14C7090
+    // Offset: 0x1830CDC
     static void WriteNotSupported();
     // static System.Void WriterClosed()
-    // Offset: 0x14C2EB8
+    // Offset: 0x182CB04
     static void WriterClosed();
   }; // System.IO.__Error
   #pragma pack(pop)

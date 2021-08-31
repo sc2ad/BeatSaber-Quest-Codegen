@@ -23,10 +23,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SteamInit
     SteamInit() noexcept {}
     // public System.Void Init()
-    // Offset: 0x1ED29CC
+    // Offset: 0x108D2DC
     void Init();
     // public System.Void .ctor()
-    // Offset: 0x1ED29D0
+    // Offset: 0x108D2E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

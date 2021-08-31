@@ -48,7 +48,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Set instance field: public System.Boolean Right
     void _set_Right(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1DF4828
+    // Offset: 0x23C2940
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

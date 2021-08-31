@@ -19,7 +19,7 @@ namespace System::Net::Http::Headers {
     // Creating value type constructor for type: Long
     Long() noexcept {}
     // static public System.Boolean TryParse(System.String input, out System.Int64 result)
-    // Offset: 0x126ECA8
+    // Offset: 0x15A5F38
     static bool TryParse(::Il2CppString* input, ByRef<int64_t> result);
   }; // System.Net.Http.Headers.Parser/System.Net.Http.Headers.Long
   #pragma pack(pop)

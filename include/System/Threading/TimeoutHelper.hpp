@@ -17,10 +17,10 @@ namespace System::Threading {
     // Creating value type constructor for type: TimeoutHelper
     TimeoutHelper() noexcept {}
     // static public System.UInt32 GetTime()
-    // Offset: 0x155EB20
+    // Offset: 0x187B314
     static uint GetTime();
     // static public System.Int32 UpdateTimeOut(System.UInt32 startTime, System.Int32 originalWaitMillisecondsTimeout)
-    // Offset: 0x155EB28
+    // Offset: 0x187B31C
     static int UpdateTimeOut(uint startTime, int originalWaitMillisecondsTimeout);
   }; // System.Threading.TimeoutHelper
   #pragma pack(pop)

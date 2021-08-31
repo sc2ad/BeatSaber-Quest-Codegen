@@ -81,20 +81,20 @@ namespace System::Collections::Specialized {
     // Set instance field: private System.Boolean start
     void _set_start(bool value);
     // public System.Object get_Current()
-    // Offset: 0x15159A8
+    // Offset: 0x18AAF98
     ::Il2CppObject* get_Current();
     // public System.Void .ctor(System.Collections.Specialized.ListDictionary list, System.Boolean isKeys)
-    // Offset: 0x151594C
+    // Offset: 0x18AAF3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListDictionary::NodeKeyValueCollection::NodeKeyValueEnumerator* New_ctor(System::Collections::Specialized::ListDictionary* list, bool isKeys) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::ListDictionary::NodeKeyValueCollection::NodeKeyValueEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListDictionary::NodeKeyValueCollection::NodeKeyValueEnumerator*, creationType>(list, isKeys)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1515A48
+    // Offset: 0x18AB038
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1515B10
+    // Offset: 0x18AB100
     void Reset();
   }; // System.Collections.Specialized.ListDictionary/System.Collections.Specialized.NodeKeyValueCollection/System.Collections.Specialized.NodeKeyValueEnumerator
   #pragma pack(pop)

@@ -47,7 +47,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly Oculus.Platform.SystemVoipStatus Status
     void _set_Status(Oculus::Platform::SystemVoipStatus value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x2104328
+    // Offset: 0x14F0684
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SystemVoipState* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::SystemVoipState::.ctor");

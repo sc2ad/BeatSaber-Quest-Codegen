@@ -35,7 +35,7 @@ namespace UnityEngineInternal {
     // Set static field: static public System.Boolean IsFlushToZeroEnabled
     static void _set_IsFlushToZeroEnabled(bool value);
     // static private System.Void .cctor()
-    // Offset: 0x1DA3188
+    // Offset: 0x2368A78
     static void _cctor();
   }; // UnityEngineInternal.MathfInternal
   #pragma pack(pop)

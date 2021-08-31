@@ -37,7 +37,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly System.String Id
     void _set_Id(::Il2CppString* value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x2106124
+    // Offset: 0x14F2480
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Pid* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::Pid::.ctor");

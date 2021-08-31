@@ -74,26 +74,26 @@ namespace GlobalNamespace {
     // Set instance field: public LightsAnimator <>4__this
     void _set_$$4__this(GlobalNamespace::LightsAnimator* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1FE8864
+    // Offset: 0x1201B84
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1FE88CC
+    // Offset: 0x1201BEC
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1FE8718
+    // Offset: 0x1201A38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightsAnimator::$DisableDirectionalLightsCoroutine$d__11* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LightsAnimator::$DisableDirectionalLightsCoroutine$d__11::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightsAnimator::$DisableDirectionalLightsCoroutine$d__11*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1FE874C
+    // Offset: 0x1201A6C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1FE8750
+    // Offset: 0x1201A70
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1FE886C
+    // Offset: 0x1201B8C
     void System_Collections_IEnumerator_Reset();
   }; // LightsAnimator/<DisableDirectionalLightsCoroutine>d__11
   #pragma pack(pop)

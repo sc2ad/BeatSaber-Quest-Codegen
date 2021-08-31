@@ -43,13 +43,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _perceivedLoudness
     void _set__perceivedLoudness(float value);
     // public System.String get_levelId()
-    // Offset: 0x1F4DDD0
+    // Offset: 0x10332F0
     ::Il2CppString* get_levelId();
     // public System.Single get_perceivedLoudness()
-    // Offset: 0x1F4DDD8
+    // Offset: 0x10332F8
     float get_perceivedLoudness();
     // public System.Void .ctor(System.String levelId, System.Single perceivedLoudness)
-    // Offset: 0x1F4DDE0
+    // Offset: 0x1033300
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair* New_ctor(::Il2CppString* levelId, float perceivedLoudness) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair::.ctor");

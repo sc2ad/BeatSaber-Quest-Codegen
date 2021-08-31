@@ -51,7 +51,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly System.String Message
     void _set_Message(::Il2CppString* value);
     // public System.Void .ctor(System.Int32 code, System.String message, System.Int32 httpCode)
-    // Offset: 0x20F74D8
+    // Offset: 0x14E3834
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Error* New_ctor(int code, ::Il2CppString* message, int httpCode) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::Error::.ctor");

@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Vector2Int[] _windowResolutions
     void _set__windowResolutions(::Array<UnityEngine::Vector2Int>* value);
     // public System.Void .ctor()
-    // Offset: 0x2074320
+    // Offset: 0x1363244
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()
@@ -67,17 +67,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<WindowResolutionSettingsController*, creationType>()));
     }
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x2073F10
+    // Offset: 0x1362E34
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x2074194
+    // Offset: 0x13630B8
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x2074220
+    // Offset: 0x1363144
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::Il2CppString* TextForValue(int idx);

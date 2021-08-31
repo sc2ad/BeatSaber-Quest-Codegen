@@ -51,10 +51,10 @@ namespace Mono::Http {
     // Set instance field: private Mono.Security.Protocol.Ntlm.MessageBase message
     void _set_message(Mono::Security::Protocol::Ntlm::MessageBase* value);
     // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x12A8604
+    // Offset: 0x15E0894
     System::Net::Authorization* Authenticate(::Il2CppString* challenge, System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // public System.Void .ctor()
-    // Offset: 0x12A8BD0
+    // Offset: 0x15E0E60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

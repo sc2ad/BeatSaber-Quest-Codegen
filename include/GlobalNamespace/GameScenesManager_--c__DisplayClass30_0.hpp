@@ -82,13 +82,13 @@ namespace GlobalNamespace {
     // Set instance field: public System.Action`1<Zenject.DiContainer> finishCallback
     void _set_finishCallback(System::Action_1<Zenject::DiContainer*>* value);
     // System.Void <PushScenes>b__0(Zenject.DiContainer container)
-    // Offset: 0x20446F0
+    // Offset: 0x1262418
     void $PushScenes$b__0(Zenject::DiContainer* container);
     // System.Void <PushScenes>b__1(Zenject.DiContainer container)
-    // Offset: 0x20448D4
+    // Offset: 0x12624C4
     void $PushScenes$b__1(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x2043248
+    // Offset: 0x1260F70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

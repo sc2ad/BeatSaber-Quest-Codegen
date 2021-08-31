@@ -37,7 +37,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly System.Boolean InvitesSent
     void _set_InvitesSent(bool value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x20FE710
+    // Offset: 0x14EAA6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvitePanelResultInfo* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::InvitePanelResultInfo::.ctor");

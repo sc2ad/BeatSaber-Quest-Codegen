@@ -79,26 +79,26 @@ namespace GlobalNamespace {
     // Set instance field: public System.Action action
     void _set_action(System::Action* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x23D35D4
+    // Offset: 0x16FAB20
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x23D363C
+    // Offset: 0x16FAB88
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x23D3394
+    // Offset: 0x16FA940
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandaloneMonobehavior::$AfterOneFrame$d__18* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StandaloneMonobehavior::$AfterOneFrame$d__18::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandaloneMonobehavior::$AfterOneFrame$d__18*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x23D356C
+    // Offset: 0x16FAAB8
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x23D3570
+    // Offset: 0x16FAABC
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x23D35DC
+    // Offset: 0x16FAB28
     void System_Collections_IEnumerator_Reset();
   }; // StandaloneMonobehavior/<AfterOneFrame>d__18
   #pragma pack(pop)

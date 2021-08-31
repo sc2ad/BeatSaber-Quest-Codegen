@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*>* customSongPackMaskItems;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*>*) == 0x8);
-    // [SpaceAttribute] Offset: 0xEAED38
+    // [SpaceAttribute] Offset: 0xE34AF8
     // private BeatmapLevelPackCollectionSO _ostAndExtrasCollection
     // Size: 0x8
     // Offset: 0x28
@@ -79,7 +79,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(Polyglot::Language) == 0x4);
     // Padding between fields: currentLocalizedLanguage and: songPackSerializedNameToLocalizedNameDict
     char __padding4[0x4] = {};
-    // [TupleElementNamesAttribute] Offset: 0xEAED80
+    // [TupleElementNamesAttribute] Offset: 0xE34B40
     // private System.Collections.Generic.Dictionary`2<System.String,System.ValueTuple`2<System.String,System.Boolean>> _songPackSerializedNameToLocalizedNameDict
     // Size: 0x8
     // Offset: 0x40
@@ -135,40 +135,40 @@ namespace GlobalNamespace {
     // Set instance field: private System.Collections.Generic.Dictionary`2<SongPackMask,System.String> _songPackMaskToSerializedNameDict
     void _set__songPackMaskToSerializedNameDict(System::Collections::Generic::Dictionary_2<GlobalNamespace::SongPackMask, ::Il2CppString*>* value);
     // public System.Collections.Generic.List`1<System.String> get_defaultSongPackMaskItems()
-    // Offset: 0x1EC46D4
+    // Offset: 0x107EFE4
     System::Collections::Generic::List_1<::Il2CppString*>* get_defaultSongPackMaskItems();
     // public SongPackMaskModelSO/SongPackMaskItem[] get_customSongPackMaskItems()
-    // Offset: 0x1EC46DC
+    // Offset: 0x107EFEC
     ::Array<GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*>* get_customSongPackMaskItems();
     // public BeatmapLevelPackCollectionSO get_ostAndExtrasCollection()
-    // Offset: 0x1EC46E4
+    // Offset: 0x107EFF4
     GlobalNamespace::BeatmapLevelPackCollectionSO* get_ostAndExtrasCollection();
     // public BeatmapLevelPackCollectionSO get_dlcCollection()
-    // Offset: 0x1EC46EC
+    // Offset: 0x107EFFC
     GlobalNamespace::BeatmapLevelPackCollectionSO* get_dlcCollection();
     // public System.String ToLocalizedName(System.String serializedName)
-    // Offset: 0x1EC46F4
+    // Offset: 0x107F004
     ::Il2CppString* ToLocalizedName(::Il2CppString* serializedName);
     // public System.String ToLocalizedName(System.String serializedName, out System.Boolean plural)
-    // Offset: 0x1EC4718
+    // Offset: 0x107F028
     ::Il2CppString* ToLocalizedName(::Il2CppString* serializedName, ByRef<bool> plural);
     // public System.Boolean ToSongPackMask(System.String serializedName, out SongPackMask songPackMask)
-    // Offset: 0x1EC4EB8
+    // Offset: 0x107F7C8
     bool ToSongPackMask(::Il2CppString* serializedName, ByRef<GlobalNamespace::SongPackMask> songPackMask);
     // public SongPackMask ToSongPackMask(System.String serializedName)
-    // Offset: 0x1EC4F30
+    // Offset: 0x107F840
     GlobalNamespace::SongPackMask ToSongPackMask(::Il2CppString* serializedName);
     // public System.Boolean ToSerializedName(SongPackMask songPackMask, out System.String serializedName)
-    // Offset: 0x1EC4F68
+    // Offset: 0x107F878
     bool ToSerializedName(GlobalNamespace::SongPackMask songPackMask, ByRef<::Il2CppString*> serializedName);
     // public System.String ToSerializedName(SongPackMask songPackMask)
-    // Offset: 0x1EC4FF0
+    // Offset: 0x107F900
     ::Il2CppString* ToSerializedName(GlobalNamespace::SongPackMask songPackMask);
     // private System.Void LazyInit()
-    // Offset: 0x1EC47D4
+    // Offset: 0x107F0E4
     void LazyInit();
     // public System.Void .ctor()
-    // Offset: 0x1EC5454
+    // Offset: 0x107FD64
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

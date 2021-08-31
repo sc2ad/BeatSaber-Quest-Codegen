@@ -35,18 +35,18 @@ namespace GlobalNamespace {
     static GlobalNamespace::LiteNetLibConnectionManager::$$c* _get_$$9();
     // Set static field: static public readonly LiteNetLibConnectionManager/<>c <>9
     static void _set_$$9(GlobalNamespace::LiteNetLibConnectionManager::$$c* value);
-    // Get static field: static public System.Predicate`1<LiteNetLibConnectionManager/NetPeerConnection> <>9__71_0
-    static System::Predicate_1<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>* _get_$$9__71_0();
-    // Set static field: static public System.Predicate`1<LiteNetLibConnectionManager/NetPeerConnection> <>9__71_0
-    static void _set_$$9__71_0(System::Predicate_1<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>* value);
+    // Get static field: static public System.Predicate`1<LiteNetLibConnectionManager/NetPeerConnection> <>9__70_0
+    static System::Predicate_1<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>* _get_$$9__70_0();
+    // Set static field: static public System.Predicate`1<LiteNetLibConnectionManager/NetPeerConnection> <>9__70_0
+    static void _set_$$9__70_0(System::Predicate_1<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x109FA40
+    // Offset: 0x132D948
     static void _cctor();
-    // System.Boolean <get_hasConnectionOwner>b__71_0(LiteNetLibConnectionManager/NetPeerConnection c)
-    // Offset: 0x109FAAC
-    bool $get_hasConnectionOwner$b__71_0(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection* c);
+    // System.Boolean <get_hasConnectionOwner>b__70_0(LiteNetLibConnectionManager/NetPeerConnection c)
+    // Offset: 0x132D9B4
+    bool $get_hasConnectionOwner$b__70_0(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection* c);
     // public System.Void .ctor()
-    // Offset: 0x109FAA4
+    // Offset: 0x132D9AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -67,13 +67,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::$$c::$get_hasConnectionOwner$b__71_0
-// Il2CppName: <get_hasConnectionOwner>b__71_0
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::$$c::$get_hasConnectionOwner$b__70_0
+// Il2CppName: <get_hasConnectionOwner>b__70_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LiteNetLibConnectionManager::$$c::*)(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*)>(&GlobalNamespace::LiteNetLibConnectionManager::$$c::$get_hasConnectionOwner$b__71_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LiteNetLibConnectionManager::$$c::*)(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*)>(&GlobalNamespace::LiteNetLibConnectionManager::$$c::$get_hasConnectionOwner$b__70_0)> {
   static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("", "LiteNetLibConnectionManager/NetPeerConnection")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager::$$c*), "<get_hasConnectionOwner>b__71_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager::$$c*), "<get_hasConnectionOwner>b__70_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::$$c::New_ctor

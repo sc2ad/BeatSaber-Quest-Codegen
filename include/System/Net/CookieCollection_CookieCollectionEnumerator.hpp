@@ -69,20 +69,20 @@ namespace System::Net {
     // Set instance field: private System.Int32 m_version
     void _set_m_version(int value);
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x139AA88
+    // Offset: 0x16D3A38
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // System.Void .ctor(System.Net.CookieCollection cookies)
-    // Offset: 0x139AA28
+    // Offset: 0x16D39D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CookieCollection::CookieCollectionEnumerator* New_ctor(System::Net::CookieCollection* cookies) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::CookieCollection::CookieCollectionEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CookieCollection::CookieCollectionEnumerator*, creationType>(cookies)));
     }
     // private System.Boolean System.Collections.IEnumerator.MoveNext()
-    // Offset: 0x139AB54
+    // Offset: 0x16D3B04
     bool System_Collections_IEnumerator_MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x139AC18
+    // Offset: 0x16D3BC8
     void System_Collections_IEnumerator_Reset();
   }; // System.Net.CookieCollection/System.Net.CookieCollectionEnumerator
   #pragma pack(pop)

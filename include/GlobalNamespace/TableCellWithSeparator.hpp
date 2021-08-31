@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.GameObject _separator
     void _set__separator(UnityEngine::GameObject* value);
     // public System.Void .ctor()
-    // Offset: 0x1DE0AE8
+    // Offset: 0x23B50D8
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()
@@ -61,7 +61,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TableCellWithSeparator*, creationType>()));
     }
     // public override System.Void TableViewSetup(HMUI.ITableCellOwner tableCellOwner, System.Int32 idx)
-    // Offset: 0x1DE09F4
+    // Offset: 0x23B4FE4
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::TableViewSetup(HMUI.ITableCellOwner tableCellOwner, System.Int32 idx)
     void TableViewSetup(HMUI::ITableCellOwner* tableCellOwner, int idx);

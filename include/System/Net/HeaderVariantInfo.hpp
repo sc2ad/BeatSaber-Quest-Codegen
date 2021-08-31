@@ -50,13 +50,13 @@ namespace System::Net {
     // Set instance field: private System.Net.CookieVariant m_variant
     void _set_m_variant(System::Net::CookieVariant value);
     // System.String get_Name()
-    // Offset: 0xD75E20
+    // Offset: 0x166A04C
     ::Il2CppString* get_Name();
     // System.Net.CookieVariant get_Variant()
-    // Offset: 0xD75E28
+    // Offset: 0x166A054
     System::Net::CookieVariant get_Variant();
     // System.Void .ctor(System.String name, System.Net.CookieVariant variant)
-    // Offset: 0xD75E14
+    // Offset: 0x166A040
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  HeaderVariantInfo(::Il2CppString* name, System::Net::CookieVariant variant)
   }; // System.Net.HeaderVariantInfo

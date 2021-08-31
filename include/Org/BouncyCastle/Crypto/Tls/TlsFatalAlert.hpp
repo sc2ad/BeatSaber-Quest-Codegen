@@ -41,14 +41,14 @@ namespace Org::BouncyCastle::Crypto::Tls {
     // Set instance field: private readonly System.Byte alertDescription
     void _set_alertDescription(uint8_t value);
     // public System.Void .ctor(System.Byte alertDescription)
-    // Offset: 0x10445DC
+    // Offset: 0x12839CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TlsFatalAlert* New_ctor(uint8_t alertDescription) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TlsFatalAlert*, creationType>(alertDescription)));
     }
     // public System.Void .ctor(System.Byte alertDescription, System.Exception alertCause)
-    // Offset: 0x104477C
+    // Offset: 0x1283B6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TlsFatalAlert* New_ctor(uint8_t alertDescription, System::Exception* alertCause) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::.ctor");

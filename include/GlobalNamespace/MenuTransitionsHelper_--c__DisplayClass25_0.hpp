@@ -53,10 +53,10 @@ namespace GlobalNamespace {
     // Set instance field: public DisconnectedReason disconnectedReason
     void _set_disconnectedReason(GlobalNamespace::DisconnectedReason value);
     // System.Void <HandleMultiplayerLevelDidDisconnect>b__0(Zenject.DiContainer container)
-    // Offset: 0x1FB14C4
+    // Offset: 0x10E779C
     void $HandleMultiplayerLevelDidDisconnect$b__0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x1FB0EF4
+    // Offset: 0x10E71CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

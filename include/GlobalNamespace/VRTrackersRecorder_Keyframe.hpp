@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Single _time
     void _set__time(float value);
     // public System.Void .ctor()
-    // Offset: 0x206FB04
+    // Offset: 0x135EA28
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

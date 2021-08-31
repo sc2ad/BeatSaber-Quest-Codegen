@@ -34,7 +34,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SignalOnPointerClick : public UnityEngine::MonoBehaviour/*, public UnityEngine::EventSystems::IPointerClickHandler*/ {
     public:
-    // [SignalSenderAttribute] Offset: 0xE7CC9C
+    // [SignalSenderAttribute] Offset: 0xE035A0
     // private Signal _inputFieldClickedSignal
     // Size: 0x8
     // Offset: 0x18
@@ -54,10 +54,10 @@ namespace GlobalNamespace {
     // Set instance field: private Signal _inputFieldClickedSignal
     void _set__inputFieldClickedSignal(GlobalNamespace::Signal* value);
     // public System.Void OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x1DE1D38
+    // Offset: 0x239806C
     void OnPointerClick(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0x1DE1D58
+    // Offset: 0x239808C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -126,19 +126,19 @@ namespace GlobalNamespace {
     // Set instance field: private OVRPlugin/Fovf defaultFov
     void _set_defaultFov(GlobalNamespace::OVRPlugin::Fovf value);
     // private System.Void Start()
-    // Offset: 0x10A6D38
+    // Offset: 0x1334C84
     void Start();
     // private System.Void Initialize()
-    // Offset: 0x10A6DE8
+    // Offset: 0x1334D34
     void Initialize();
     // private System.Void UpdateDefaultExternalCamera()
-    // Offset: 0x10A7218
+    // Offset: 0x1335164
     void UpdateDefaultExternalCamera();
     // private System.Void Update()
-    // Offset: 0x10A7A88
+    // Offset: 0x13359D4
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x10A86BC
+    // Offset: 0x1336608
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

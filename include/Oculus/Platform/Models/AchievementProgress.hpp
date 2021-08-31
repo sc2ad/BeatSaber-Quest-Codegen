@@ -77,7 +77,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly System.DateTime UnlockTime
     void _set_UnlockTime(System::DateTime value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x21050E0
+    // Offset: 0x14F143C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AchievementProgress* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::AchievementProgress::.ctor");

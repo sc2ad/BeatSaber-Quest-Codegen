@@ -105,7 +105,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Set instance field: public BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers[] gameplayModifiers
     void _set_gameplayModifiers(::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>* value);
     // public System.Void .ctor()
-    // Offset: 0x1FCE140
+    // Offset: 0x11E8D5C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

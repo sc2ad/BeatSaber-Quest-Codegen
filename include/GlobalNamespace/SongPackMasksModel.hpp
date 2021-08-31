@@ -50,20 +50,20 @@ namespace GlobalNamespace {
     // Set instance field: private readonly SongPackMask _allSongPackMask
     void _set__allSongPackMask(GlobalNamespace::SongPackMask value);
     // public System.Void .ctor(SongPackMaskModelSO songPackMasks)
-    // Offset: 0x1EC5764
+    // Offset: 0x1080074
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongPackMasksModel* New_ctor(GlobalNamespace::SongPackMaskModelSO* songPackMasks) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SongPackMasksModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongPackMasksModel*, creationType>(songPackMasks)));
     }
     // public SongPackMask GetAllSongsMask()
-    // Offset: 0x1EC57EC
+    // Offset: 0x10800FC
     GlobalNamespace::SongPackMask GetAllSongsMask();
     // public System.String GetSongPackMaskText(in SongPackMask songPackMask)
-    // Offset: 0x1EC57F8
+    // Offset: 0x1080108
     ::Il2CppString* GetSongPackMaskText(ByRef<GlobalNamespace::SongPackMask> songPackMask);
     // public System.String GetSongPackMaskText(in SongPackMask songPackMask, out System.Boolean plural)
-    // Offset: 0x1EC581C
+    // Offset: 0x108012C
     ::Il2CppString* GetSongPackMaskText(ByRef<GlobalNamespace::SongPackMask> songPackMask, ByRef<bool> plural);
   }; // SongPackMasksModel
   #pragma pack(pop)

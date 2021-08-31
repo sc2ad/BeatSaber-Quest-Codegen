@@ -41,7 +41,7 @@ namespace Mono::Globalization::Unicode {
     // Set instance field: public System.Byte Replace
     void _set_Replace(uint8_t value);
     // public System.Void .ctor(System.Byte source, System.Byte replace)
-    // Offset: 0x16CA93C
+    // Offset: 0x1A65C00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Level2Map* New_ctor(uint8_t source, uint8_t replace) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::Level2Map::.ctor");

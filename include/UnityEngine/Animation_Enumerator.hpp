@@ -49,20 +49,20 @@ namespace UnityEngine {
     // Set instance field: private System.Int32 m_CurrentIndex
     void _set_m_CurrentIndex(int value);
     // public System.Object get_Current()
-    // Offset: 0x1DB7FB4
+    // Offset: 0x2383F44
     ::Il2CppObject* get_Current();
     // System.Void .ctor(UnityEngine.Animation outer)
-    // Offset: 0x1DB7EB0
+    // Offset: 0x2383E40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Animation::Enumerator* New_ctor(UnityEngine::Animation* outer) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Animation::Enumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Animation::Enumerator*, creationType>(outer)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1DB800C
+    // Offset: 0x2383F9C
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1DB8078
+    // Offset: 0x2384008
     void Reset();
   }; // UnityEngine.Animation/UnityEngine.Enumerator
   #pragma pack(pop)

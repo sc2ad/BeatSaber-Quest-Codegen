@@ -23,10 +23,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ObjectiveValueFormatterSO
     ObjectiveValueFormatterSO() noexcept {}
     // public System.String FormatValue(System.Int32 value)
-    // Offset: 0x2017678
+    // Offset: 0x12315A0
     ::Il2CppString* FormatValue(int value);
     // public System.Void .ctor()
-    // Offset: 0x20176A0
+    // Offset: 0x12315C8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

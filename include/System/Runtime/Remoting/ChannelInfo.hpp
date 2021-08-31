@@ -41,17 +41,17 @@ namespace System::Runtime::Remoting {
     // Set instance field: private System.Object[] channelData
     void _set_channelData(::Array<::Il2CppObject*>* value);
     // public System.Object[] get_ChannelData()
-    // Offset: 0x119F744
+    // Offset: 0x148D874
     ::Array<::Il2CppObject*>* get_ChannelData();
     // public System.Void .ctor(System.Object remoteChannelData)
-    // Offset: 0x119F68C
+    // Offset: 0x148D7BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChannelInfo* New_ctor(::Il2CppObject* remoteChannelData) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::ChannelInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChannelInfo*, creationType>(remoteChannelData)));
     }
     // public System.Void .ctor()
-    // Offset: 0x119F25C
+    // Offset: 0x148D38C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

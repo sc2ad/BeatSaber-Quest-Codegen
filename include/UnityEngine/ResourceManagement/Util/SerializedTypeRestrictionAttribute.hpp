@@ -44,7 +44,7 @@ namespace UnityEngine::ResourceManagement::Util {
     // Set instance field: public System.Type type
     void _set_type(System::Type* value);
     // public System.Void .ctor()
-    // Offset: 0x1675B60
+    // Offset: 0x19F4C90
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

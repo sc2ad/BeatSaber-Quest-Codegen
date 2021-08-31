@@ -35,10 +35,10 @@ namespace GlobalNamespace {
     // Set instance field: public UnityEngine.Vector3 rotateSpeeds
     void _set_rotateSpeeds(UnityEngine::Vector3 value);
     // private System.Void Update()
-    // Offset: 0x1A09CC4
+    // Offset: 0x1F4BFF8
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1A09D80
+    // Offset: 0x1F4C0B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

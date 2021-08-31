@@ -80,7 +80,7 @@ namespace UnityEngine {
     static UnityEngine::TouchScreenKeyboardType _get_EmailAddress();
     // Set static field: static public UnityEngine.TouchScreenKeyboardType EmailAddress
     static void _set_EmailAddress(UnityEngine::TouchScreenKeyboardType value);
-    // [ObsoleteAttribute] Offset: 0xE2E034
+    // [ObsoleteAttribute] Offset: 0xDB3040
     // static field const value: static public UnityEngine.TouchScreenKeyboardType NintendoNetworkAccount
     static constexpr const int NintendoNetworkAccount = 8;
     // Get static field: static public UnityEngine.TouchScreenKeyboardType NintendoNetworkAccount

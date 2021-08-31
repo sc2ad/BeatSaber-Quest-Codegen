@@ -47,7 +47,7 @@ namespace UnityEngine::EventSystems {
     // Set instance field: public UnityEngine.EventSystems.EventTrigger/UnityEngine.EventSystems.TriggerEvent callback
     void _set_callback(UnityEngine::EventSystems::EventTrigger::TriggerEvent* value);
     // public System.Void .ctor()
-    // Offset: 0x11ABEE0
+    // Offset: 0x1468A1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

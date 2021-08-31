@@ -34,7 +34,7 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class GenericBaker : public RootMotion::Baker {
     public:
-    // [TooltipAttribute] Offset: 0xE9F118
+    // [TooltipAttribute] Offset: 0xE24EC8
     // public System.Boolean markAsLegacy
     // Size: 0x1
     // Offset: 0x74
@@ -43,28 +43,28 @@ namespace RootMotion {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: markAsLegacy and: root
     char __padding0[0x3] = {};
-    // [TooltipAttribute] Offset: 0xE9F150
+    // [TooltipAttribute] Offset: 0xE24F00
     // public UnityEngine.Transform root
     // Size: 0x8
     // Offset: 0x78
     UnityEngine::Transform* root;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE9F188
+    // [TooltipAttribute] Offset: 0xE24F38
     // public UnityEngine.Transform rootNode
     // Size: 0x8
     // Offset: 0x80
     UnityEngine::Transform* rootNode;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE9F1C0
+    // [TooltipAttribute] Offset: 0xE24F70
     // public UnityEngine.Transform[] ignoreList
     // Size: 0x8
     // Offset: 0x88
     ::Array<UnityEngine::Transform*>* ignoreList;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::Transform*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE9F1F8
+    // [TooltipAttribute] Offset: 0xE24FA8
     // public UnityEngine.Transform[] bakePositionList
     // Size: 0x8
     // Offset: 0x90
@@ -124,16 +124,16 @@ namespace RootMotion {
     // Set instance field: private System.Int32 rootChildIndex
     void _set_rootChildIndex(int value);
     // private System.Void Awake()
-    // Offset: 0x173B8E0
+    // Offset: 0x1AE61FC
     void Awake();
     // private System.Boolean IsIgnored(UnityEngine.Transform t)
-    // Offset: 0x173BAFC
+    // Offset: 0x1AE6418
     bool IsIgnored(UnityEngine::Transform* t);
     // private System.Boolean BakePosition(UnityEngine.Transform t)
-    // Offset: 0x173BBD4
+    // Offset: 0x1AE64F0
     bool BakePosition(UnityEngine::Transform* t);
     // public System.Void .ctor()
-    // Offset: 0x173BF38
+    // Offset: 0x1AE6854
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -147,27 +147,27 @@ namespace RootMotion {
       return THROW_UNLESS((::il2cpp_utils::New<GenericBaker*, creationType>()));
     }
     // protected override UnityEngine.Transform GetCharacterRoot()
-    // Offset: 0x173BCAC
+    // Offset: 0x1AE65C8
     // Implemented from: RootMotion.Baker
     // Base method: UnityEngine.Transform Baker::GetCharacterRoot()
     UnityEngine::Transform* GetCharacterRoot();
     // protected override System.Void OnStartBaking()
-    // Offset: 0x173BCB4
+    // Offset: 0x1AE65D0
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnStartBaking()
     void OnStartBaking();
     // protected override System.Void OnSetLoopFrame(System.Single time)
-    // Offset: 0x173BDC4
+    // Offset: 0x1AE66E0
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetLoopFrame(System.Single time)
     void OnSetLoopFrame(float time);
     // protected override System.Void OnSetCurves(ref UnityEngine.AnimationClip clip)
-    // Offset: 0x173BE40
+    // Offset: 0x1AE675C
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetCurves(ref UnityEngine.AnimationClip clip)
     void OnSetCurves(ByRef<UnityEngine::AnimationClip*> clip);
     // protected override System.Void OnSetKeyframes(System.Single time, System.Boolean lastFrame)
-    // Offset: 0x173BEBC
+    // Offset: 0x1AE67D8
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetKeyframes(System.Single time, System.Boolean lastFrame)
     void OnSetKeyframes(float time, bool lastFrame);

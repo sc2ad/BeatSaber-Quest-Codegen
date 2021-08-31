@@ -181,16 +181,16 @@ namespace System {
     // Set instance field: public System.Int32 Permilles
     void _set_Permilles(int value);
     // static public System.Void GetActiveSection(System.String format, ref System.Boolean positive, System.Boolean zero, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x14D6614
+    // Offset: 0x1840260
     static void GetActiveSection(::Il2CppString* format, ByRef<bool> positive, bool zero, ByRef<int> offset, ByRef<int> length);
     // static public System.NumberFormatter/System.CustomInfo Parse(System.String format, System.Int32 offset, System.Int32 length, System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x14D6900
+    // Offset: 0x184054C
     static System::NumberFormatter::CustomInfo* Parse(::Il2CppString* format, int offset, int length, System::Globalization::NumberFormatInfo* nfi);
     // public System.String Format(System.String format, System.Int32 offset, System.Int32 length, System.Globalization.NumberFormatInfo nfi, System.Boolean positive, System.Text.StringBuilder sb_int, System.Text.StringBuilder sb_dec, System.Text.StringBuilder sb_exp)
-    // Offset: 0x14D7124
+    // Offset: 0x1840D70
     ::Il2CppString* Format(::Il2CppString* format, int offset, int length, System::Globalization::NumberFormatInfo* nfi, bool positive, System::Text::StringBuilder* sb_int, System::Text::StringBuilder* sb_dec, System::Text::StringBuilder* sb_exp);
     // public System.Void .ctor()
-    // Offset: 0x14D7ADC
+    // Offset: 0x1841728
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

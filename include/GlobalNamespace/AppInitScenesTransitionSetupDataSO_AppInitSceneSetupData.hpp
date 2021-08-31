@@ -56,19 +56,19 @@ namespace GlobalNamespace {
     // Set instance field: private MockPlayersModel <overrideMockPlayersModel>k__BackingField
     void _set_$overrideMockPlayersModel$k__BackingField(GlobalNamespace::MockPlayersModel* value);
     // public AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType get_appInitOverrideStartType()
-    // Offset: 0x1F2B4C4
+    // Offset: 0x117C244
     GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType get_appInitOverrideStartType();
     // private System.Void set_appInitOverrideStartType(AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType value)
-    // Offset: 0x1F2B4CC
+    // Offset: 0x117C24C
     void set_appInitOverrideStartType(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType value);
     // public MockPlayersModel get_overrideMockPlayersModel()
-    // Offset: 0x1F2B4D4
+    // Offset: 0x117C254
     GlobalNamespace::MockPlayersModel* get_overrideMockPlayersModel();
     // private System.Void set_overrideMockPlayersModel(MockPlayersModel value)
-    // Offset: 0x1F2B4DC
+    // Offset: 0x117C25C
     void set_overrideMockPlayersModel(GlobalNamespace::MockPlayersModel* value);
     // public System.Void .ctor(AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType appInitOverrideStartType, MockPlayersModel overrideMockPlayersModel)
-    // Offset: 0x1F2B038
+    // Offset: 0x117BDB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData* New_ctor(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType appInitOverrideStartType, GlobalNamespace::MockPlayersModel* overrideMockPlayersModel) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::.ctor");

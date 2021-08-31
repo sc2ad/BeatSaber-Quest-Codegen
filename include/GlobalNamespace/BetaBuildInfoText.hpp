@@ -42,10 +42,10 @@ namespace GlobalNamespace {
     // Set instance field: private TMPro.TextMeshProUGUI _text
     void _set__text(TMPro::TextMeshProUGUI* value);
     // protected System.Void Start()
-    // Offset: 0x1EF2EE0
+    // Offset: 0x10CF3D0
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x1EF2F08
+    // Offset: 0x10CF3F8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

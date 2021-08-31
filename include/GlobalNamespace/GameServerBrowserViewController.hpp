@@ -38,7 +38,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameServerBrowserViewController : public HMUI::ViewController {
     public:
-    // [HeaderAttribute] Offset: 0xEBC88C
+    // [HeaderAttribute] Offset: 0xE4266C
     // private UnityEngine.UI.Button _filterServersButton
     // Size: 0x8
     // Offset: 0x70
@@ -57,21 +57,21 @@ namespace GlobalNamespace {
     UnityEngine::UI::Toggle* canBeInvitedOnLocalNetworkToggle;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Toggle*) == 0x8);
-    // [HeaderAttribute] Offset: 0xEBC8F8
+    // [HeaderAttribute] Offset: 0xE426D8
     // private UnityEngine.UI.Button _createServerButton
     // Size: 0x8
     // Offset: 0x88
     UnityEngine::UI::Button* createServerButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [HeaderAttribute] Offset: 0xEBC944
+    // [HeaderAttribute] Offset: 0xE42724
     // private GameServersListTableView _gameServersListTableView
     // Size: 0x8
     // Offset: 0x90
     GlobalNamespace::GameServersListTableView* gameServersListTableView;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameServersListTableView*) == 0x8);
-    // [HeaderAttribute] Offset: 0xEBC990
+    // [HeaderAttribute] Offset: 0xE42770
     // private LoadingControl _mainLoadingControl
     // Size: 0x8
     // Offset: 0x98
@@ -115,7 +115,7 @@ namespace GlobalNamespace {
     // Set instance field: private LoadingControl _smallLoadingControl
     void _set__smallLoadingControl(GlobalNamespace::LoadingControl* value);
     // public System.Void .ctor()
-    // Offset: 0x1F10F30
+    // Offset: 0x10FF190
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

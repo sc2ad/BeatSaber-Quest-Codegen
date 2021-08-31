@@ -40,40 +40,24 @@ namespace MasterServer {
   class ClientHelloWithCookieRequest;
   // Forward declaring type: IUserMessage
   class IUserMessage;
-  // Forward declaring type: UserServerStatusUpdateRequest
-  class UserServerStatusUpdateRequest;
-  // Forward declaring type: UserServerHeartbeatRequest
-  class UserServerHeartbeatRequest;
-  // Forward declaring type: UserServerHeartbeatResponse
-  class UserServerHeartbeatResponse;
-  // Forward declaring type: UserServerRemoveRequest
-  class UserServerRemoveRequest;
-  // Forward declaring type: ConnectToUserServerRequest
-  class ConnectToUserServerRequest;
-  // Forward declaring type: ConnectToMatchmakingServerRequest
-  class ConnectToMatchmakingServerRequest;
-  // Forward declaring type: PrepareForConnectionRequest
-  class PrepareForConnectionRequest;
-  // Forward declaring type: GetPublicUserServersRequest
-  class GetPublicUserServersRequest;
+  // Forward declaring type: ConnectToServerRequest
+  class ConnectToServerRequest;
+  // Forward declaring type: GetPublicServersRequest
+  class GetPublicServersRequest;
   // Forward declaring type: SessionKeepaliveMessage
   class SessionKeepaliveMessage;
   // Forward declaring type: IDedicatedServerMessage
   class IDedicatedServerMessage;
-  // Forward declaring type: CreateRelayServerRequest
-  class CreateRelayServerRequest;
-  // Forward declaring type: CreateMatchmakingServerRequest
-  class CreateMatchmakingServerRequest;
-  // Forward declaring type: DedicatedServerNoLongerOccupiedRequest
-  class DedicatedServerNoLongerOccupiedRequest;
+  // Forward declaring type: CreateDedicatedServerInstanceRequest
+  class CreateDedicatedServerInstanceRequest;
+  // Forward declaring type: DedicatedServerInstanceNoLongerOccupiedRequest
+  class DedicatedServerInstanceNoLongerOccupiedRequest;
   // Forward declaring type: DedicatedServerHeartbeatRequest
   class DedicatedServerHeartbeatRequest;
   // Forward declaring type: DedicatedServerHeartbeatResponse
   class DedicatedServerHeartbeatResponse;
-  // Forward declaring type: RelayServerStatusUpdateRequest
-  class RelayServerStatusUpdateRequest;
-  // Forward declaring type: MatchmakingServerStatusUpdateRequest
-  class MatchmakingServerStatusUpdateRequest;
+  // Forward declaring type: DedicatedServerInstanceStatusUpdateRequest
+  class DedicatedServerInstanceStatusUpdateRequest;
   // Forward declaring type: DedicatedServerShutDownRequest
   class DedicatedServerShutDownRequest;
   // Forward declaring type: DedicatedServerPrepareForConnectionRequest
@@ -135,15 +119,15 @@ namespace System {
   // Forward declaring type: Func`2<T, TResult>
   template<typename T, typename TResult>
   class Func_2;
+  // Forward declaring type: Func`1<TResult>
+  template<typename TResult>
+  class Func_1;
   // Forward declaring type: Action`2<T1, T2>
   template<typename T1, typename T2>
   class Action_2;
   // Forward declaring type: Func`3<T1, T2, TResult>
   template<typename T1, typename T2, typename TResult>
   class Func_3;
-  // Forward declaring type: Func`1<TResult>
-  template<typename TResult>
-  class Func_1;
   // Forward declaring type: Func`5<T1, T2, T3, T4, TResult>
   template<typename T1, typename T2, typename T3, typename T4, typename TResult>
   class Func_5;
@@ -187,41 +171,41 @@ namespace MasterServer {
     struct UserMessageType;
     // Nested type: MasterServer::MessageHandler::DedicatedServerMessageType
     struct DedicatedServerMessageType;
-    // Nested type: MasterServer::MessageHandler::$$c__DisplayClass73_0_1<T>
+    // Nested type: MasterServer::MessageHandler::$$c__DisplayClass65_0_1<T>
     template<typename T>
-    class $$c__DisplayClass73_0_1;
-    // Nested type: MasterServer::MessageHandler::$$c__DisplayClass77_0_1<T>
+    class $$c__DisplayClass65_0_1;
+    // Nested type: MasterServer::MessageHandler::$$c__DisplayClass70_0_1<T>
     template<typename T>
-    class $$c__DisplayClass77_0_1;
-    // Nested type: MasterServer::MessageHandler::$$c__DisplayClass78_0_1<T>
+    class $$c__DisplayClass70_0_1;
+    // Nested type: MasterServer::MessageHandler::$$c__DisplayClass71_0_1<T>
     template<typename T>
-    class $$c__DisplayClass78_0_1;
-    // Nested type: MasterServer::MessageHandler::$GetAndSendResponse$d__83_2<TRequest, TResponse>
+    class $$c__DisplayClass71_0_1;
+    // Nested type: MasterServer::MessageHandler::$GetAndSendResponse$d__76_2<TRequest, TResponse>
     template<typename TRequest, typename TResponse>
-    struct $GetAndSendResponse$d__83_2;
-    // Nested type: MasterServer::MessageHandler::$GetAndSendResponseAsync$d__84_2<TRequest, TResponse>
+    struct $GetAndSendResponse$d__76_2;
+    // Nested type: MasterServer::MessageHandler::$GetAndSendResponseAsync$d__77_2<TRequest, TResponse>
     template<typename TRequest, typename TResponse>
-    struct $GetAndSendResponseAsync$d__84_2;
-    // Nested type: MasterServer::MessageHandler::$GetAndSendUnreilableResponse$d__85_2<TRequest, TResponse>
+    struct $GetAndSendResponseAsync$d__77_2;
+    // Nested type: MasterServer::MessageHandler::$GetAndSendUnreilableResponse$d__78_2<TRequest, TResponse>
     template<typename TRequest, typename TResponse>
-    struct $GetAndSendUnreilableResponse$d__85_2;
-    // Nested type: MasterServer::MessageHandler::$SendMessageWithRetry$d__98
-    struct $SendMessageWithRetry$d__98;
-    // Nested type: MasterServer::MessageHandler::$$c__DisplayClass100_0
-    class $$c__DisplayClass100_0;
-    // Nested type: MasterServer::MessageHandler::$SendMultipartMessageWithRetryAsync$d__100
-    struct $SendMultipartMessageWithRetryAsync$d__100;
-    // Nested type: MasterServer::MessageHandler::$SendMessageWithRetryAsyncInternal$d__101
-    struct $SendMessageWithRetryAsyncInternal$d__101;
-    // Nested type: MasterServer::MessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__102_1<T>
+    struct $GetAndSendUnreilableResponse$d__78_2;
+    // Nested type: MasterServer::MessageHandler::$SendMessageWithRetry$d__91
+    struct $SendMessageWithRetry$d__91;
+    // Nested type: MasterServer::MessageHandler::$$c__DisplayClass93_0
+    class $$c__DisplayClass93_0;
+    // Nested type: MasterServer::MessageHandler::$SendMultipartMessageWithRetryAsync$d__93
+    struct $SendMultipartMessageWithRetryAsync$d__93;
+    // Nested type: MasterServer::MessageHandler::$SendMessageWithRetryAsyncInternal$d__94
+    struct $SendMessageWithRetryAsyncInternal$d__94;
+    // Nested type: MasterServer::MessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__95_1<T>
     template<typename T>
-    struct $SendMessageWithRetryAwaitResponseAsync$d__102_1;
-    // Nested type: MasterServer::MessageHandler::$$c__DisplayClass103_0_1<T>
+    struct $SendMessageWithRetryAwaitResponseAsync$d__95_1;
+    // Nested type: MasterServer::MessageHandler::$$c__DisplayClass96_0_1<T>
     template<typename T>
-    class $$c__DisplayClass103_0_1;
-    // Nested type: MasterServer::MessageHandler::$AwaitResponseAsync$d__104_1<T>
+    class $$c__DisplayClass96_0_1;
+    // Nested type: MasterServer::MessageHandler::$AwaitResponseAsync$d__97_1<T>
     template<typename T>
-    struct $AwaitResponseAsync$d__104_1;
+    struct $AwaitResponseAsync$d__97_1;
     // Size: 0xC
     #pragma pack(push, 1)
     // WARNING Layout: Sequential may not be correctly taken into account!
@@ -260,19 +244,19 @@ namespace MasterServer {
       // Set instance field: public readonly System.UInt32 requestId
       void _set_requestId(uint value);
       // public System.Void .ctor(System.Net.IPEndPoint endPoint, System.UInt32 requestId)
-      // Offset: 0xF7D370
+      // Offset: 0x121ABB0
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  RequestWaiterId(System::Net::IPEndPoint* endPoint, uint requestId)
       // public System.Boolean Equals(MasterServer.MessageHandler/MasterServer.RequestWaiterId other)
-      // Offset: 0xF7D37C
+      // Offset: 0x121EE2C
       bool Equals(MasterServer::MessageHandler::RequestWaiterId other);
       // public override System.Boolean Equals(System.Object other)
-      // Offset: 0xF7D3C0
+      // Offset: 0x121EE70
       // Implemented from: System.ValueType
       // Base method: System.Boolean ValueType::Equals(System.Object other)
       bool Equals(::Il2CppObject* other);
       // public override System.Int32 GetHashCode()
-      // Offset: 0xF7D3C8
+      // Offset: 0x121EF08
       // Implemented from: System.ValueType
       // Base method: System.Int32 ValueType::GetHashCode()
       int GetHashCode();
@@ -315,7 +299,7 @@ namespace MasterServer {
       // Set instance field: public readonly System.UInt32 protocolVersion
       void _set_protocolVersion(uint value);
       // public System.Void .ctor(System.Net.IPEndPoint endPoint, System.UInt32 protocolVersion)
-      // Offset: 0xF7D328
+      // Offset: 0x121C158
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  MessageOrigin(System::Net::IPEndPoint* endPoint, uint protocolVersion)
     }; // MasterServer.MessageHandler/MasterServer.MessageOrigin
@@ -374,12 +358,6 @@ namespace MasterServer {
       static MasterServer::MessageHandler::HandshakeMessageType _get_ServerCertificateRequest();
       // Set static field: static public MasterServer.MessageHandler/MasterServer.HandshakeMessageType ServerCertificateRequest
       static void _set_ServerCertificateRequest(MasterServer::MessageHandler::HandshakeMessageType value);
-      // static field const value: static public MasterServer.MessageHandler/MasterServer.HandshakeMessageType ServerCertificateResponse
-      static constexpr const int ServerCertificateResponse = 5;
-      // Get static field: static public MasterServer.MessageHandler/MasterServer.HandshakeMessageType ServerCertificateResponse
-      static MasterServer::MessageHandler::HandshakeMessageType _get_ServerCertificateResponse();
-      // Set static field: static public MasterServer.MessageHandler/MasterServer.HandshakeMessageType ServerCertificateResponse
-      static void _set_ServerCertificateResponse(MasterServer::MessageHandler::HandshakeMessageType value);
       // static field const value: static public MasterServer.MessageHandler/MasterServer.HandshakeMessageType ClientKeyExchangeRequest
       static constexpr const int ClientKeyExchangeRequest = 6;
       // Get static field: static public MasterServer.MessageHandler/MasterServer.HandshakeMessageType ClientKeyExchangeRequest
@@ -446,72 +424,18 @@ namespace MasterServer {
       static MasterServer::MessageHandler::UserMessageType _get_AuthenticateUserResponse();
       // Set static field: static public MasterServer.MessageHandler/MasterServer.UserMessageType AuthenticateUserResponse
       static void _set_AuthenticateUserResponse(MasterServer::MessageHandler::UserMessageType value);
-      // static field const value: static public MasterServer.MessageHandler/MasterServer.UserMessageType UserServerStatusUpdateRequest
-      static constexpr const int UserServerStatusUpdateRequest = 2;
-      // Get static field: static public MasterServer.MessageHandler/MasterServer.UserMessageType UserServerStatusUpdateRequest
-      static MasterServer::MessageHandler::UserMessageType _get_UserServerStatusUpdateRequest();
-      // Set static field: static public MasterServer.MessageHandler/MasterServer.UserMessageType UserServerStatusUpdateRequest
-      static void _set_UserServerStatusUpdateRequest(MasterServer::MessageHandler::UserMessageType value);
-      // static field const value: static public MasterServer.MessageHandler/MasterServer.UserMessageType UserServerStatusUpdateResponse
-      static constexpr const int UserServerStatusUpdateResponse = 3;
-      // Get static field: static public MasterServer.MessageHandler/MasterServer.UserMessageType UserServerStatusUpdateResponse
-      static MasterServer::MessageHandler::UserMessageType _get_UserServerStatusUpdateResponse();
-      // Set static field: static public MasterServer.MessageHandler/MasterServer.UserMessageType UserServerStatusUpdateResponse
-      static void _set_UserServerStatusUpdateResponse(MasterServer::MessageHandler::UserMessageType value);
-      // static field const value: static public MasterServer.MessageHandler/MasterServer.UserMessageType UserServerHeartbeatRequest
-      static constexpr const int UserServerHeartbeatRequest = 4;
-      // Get static field: static public MasterServer.MessageHandler/MasterServer.UserMessageType UserServerHeartbeatRequest
-      static MasterServer::MessageHandler::UserMessageType _get_UserServerHeartbeatRequest();
-      // Set static field: static public MasterServer.MessageHandler/MasterServer.UserMessageType UserServerHeartbeatRequest
-      static void _set_UserServerHeartbeatRequest(MasterServer::MessageHandler::UserMessageType value);
-      // static field const value: static public MasterServer.MessageHandler/MasterServer.UserMessageType UserServerHeartbeatResponse
-      static constexpr const int UserServerHeartbeatResponse = 5;
-      // Get static field: static public MasterServer.MessageHandler/MasterServer.UserMessageType UserServerHeartbeatResponse
-      static MasterServer::MessageHandler::UserMessageType _get_UserServerHeartbeatResponse();
-      // Set static field: static public MasterServer.MessageHandler/MasterServer.UserMessageType UserServerHeartbeatResponse
-      static void _set_UserServerHeartbeatResponse(MasterServer::MessageHandler::UserMessageType value);
-      // static field const value: static public MasterServer.MessageHandler/MasterServer.UserMessageType UserServerRemoveRequest
-      static constexpr const int UserServerRemoveRequest = 6;
-      // Get static field: static public MasterServer.MessageHandler/MasterServer.UserMessageType UserServerRemoveRequest
-      static MasterServer::MessageHandler::UserMessageType _get_UserServerRemoveRequest();
-      // Set static field: static public MasterServer.MessageHandler/MasterServer.UserMessageType UserServerRemoveRequest
-      static void _set_UserServerRemoveRequest(MasterServer::MessageHandler::UserMessageType value);
-      // static field const value: static public MasterServer.MessageHandler/MasterServer.UserMessageType ConnectToUserServerRequest
-      static constexpr const int ConnectToUserServerRequest = 7;
-      // Get static field: static public MasterServer.MessageHandler/MasterServer.UserMessageType ConnectToUserServerRequest
-      static MasterServer::MessageHandler::UserMessageType _get_ConnectToUserServerRequest();
-      // Set static field: static public MasterServer.MessageHandler/MasterServer.UserMessageType ConnectToUserServerRequest
-      static void _set_ConnectToUserServerRequest(MasterServer::MessageHandler::UserMessageType value);
       // static field const value: static public MasterServer.MessageHandler/MasterServer.UserMessageType ConnectToServerResponse
       static constexpr const int ConnectToServerResponse = 8;
       // Get static field: static public MasterServer.MessageHandler/MasterServer.UserMessageType ConnectToServerResponse
       static MasterServer::MessageHandler::UserMessageType _get_ConnectToServerResponse();
       // Set static field: static public MasterServer.MessageHandler/MasterServer.UserMessageType ConnectToServerResponse
       static void _set_ConnectToServerResponse(MasterServer::MessageHandler::UserMessageType value);
-      // static field const value: static public MasterServer.MessageHandler/MasterServer.UserMessageType ConnectToMatchmakingServerRequest
-      static constexpr const int ConnectToMatchmakingServerRequest = 9;
-      // Get static field: static public MasterServer.MessageHandler/MasterServer.UserMessageType ConnectToMatchmakingServerRequest
-      static MasterServer::MessageHandler::UserMessageType _get_ConnectToMatchmakingServerRequest();
-      // Set static field: static public MasterServer.MessageHandler/MasterServer.UserMessageType ConnectToMatchmakingServerRequest
-      static void _set_ConnectToMatchmakingServerRequest(MasterServer::MessageHandler::UserMessageType value);
-      // static field const value: static public MasterServer.MessageHandler/MasterServer.UserMessageType PrepareForConnectionRequest
-      static constexpr const int PrepareForConnectionRequest = 10;
-      // Get static field: static public MasterServer.MessageHandler/MasterServer.UserMessageType PrepareForConnectionRequest
-      static MasterServer::MessageHandler::UserMessageType _get_PrepareForConnectionRequest();
-      // Set static field: static public MasterServer.MessageHandler/MasterServer.UserMessageType PrepareForConnectionRequest
-      static void _set_PrepareForConnectionRequest(MasterServer::MessageHandler::UserMessageType value);
-      // static field const value: static public MasterServer.MessageHandler/MasterServer.UserMessageType GetPublicUserServersRequest
-      static constexpr const int GetPublicUserServersRequest = 11;
-      // Get static field: static public MasterServer.MessageHandler/MasterServer.UserMessageType GetPublicUserServersRequest
-      static MasterServer::MessageHandler::UserMessageType _get_GetPublicUserServersRequest();
-      // Set static field: static public MasterServer.MessageHandler/MasterServer.UserMessageType GetPublicUserServersRequest
-      static void _set_GetPublicUserServersRequest(MasterServer::MessageHandler::UserMessageType value);
-      // static field const value: static public MasterServer.MessageHandler/MasterServer.UserMessageType GetPublicUserServersResponse
-      static constexpr const int GetPublicUserServersResponse = 12;
-      // Get static field: static public MasterServer.MessageHandler/MasterServer.UserMessageType GetPublicUserServersResponse
-      static MasterServer::MessageHandler::UserMessageType _get_GetPublicUserServersResponse();
-      // Set static field: static public MasterServer.MessageHandler/MasterServer.UserMessageType GetPublicUserServersResponse
-      static void _set_GetPublicUserServersResponse(MasterServer::MessageHandler::UserMessageType value);
+      // static field const value: static public MasterServer.MessageHandler/MasterServer.UserMessageType ConnectToServerRequest
+      static constexpr const int ConnectToServerRequest = 9;
+      // Get static field: static public MasterServer.MessageHandler/MasterServer.UserMessageType ConnectToServerRequest
+      static MasterServer::MessageHandler::UserMessageType _get_ConnectToServerRequest();
+      // Set static field: static public MasterServer.MessageHandler/MasterServer.UserMessageType ConnectToServerRequest
+      static void _set_ConnectToServerRequest(MasterServer::MessageHandler::UserMessageType value);
       // static field const value: static public MasterServer.MessageHandler/MasterServer.UserMessageType MessageReceivedAcknowledge
       static constexpr const int MessageReceivedAcknowledge = 13;
       // Get static field: static public MasterServer.MessageHandler/MasterServer.UserMessageType MessageReceivedAcknowledge
@@ -530,6 +454,18 @@ namespace MasterServer {
       static MasterServer::MessageHandler::UserMessageType _get_SessionKeepaliveMessage();
       // Set static field: static public MasterServer.MessageHandler/MasterServer.UserMessageType SessionKeepaliveMessage
       static void _set_SessionKeepaliveMessage(MasterServer::MessageHandler::UserMessageType value);
+      // static field const value: static public MasterServer.MessageHandler/MasterServer.UserMessageType GetPublicServersRequest
+      static constexpr const int GetPublicServersRequest = 16;
+      // Get static field: static public MasterServer.MessageHandler/MasterServer.UserMessageType GetPublicServersRequest
+      static MasterServer::MessageHandler::UserMessageType _get_GetPublicServersRequest();
+      // Set static field: static public MasterServer.MessageHandler/MasterServer.UserMessageType GetPublicServersRequest
+      static void _set_GetPublicServersRequest(MasterServer::MessageHandler::UserMessageType value);
+      // static field const value: static public MasterServer.MessageHandler/MasterServer.UserMessageType GetPublicServersResponse
+      static constexpr const int GetPublicServersResponse = 17;
+      // Get static field: static public MasterServer.MessageHandler/MasterServer.UserMessageType GetPublicServersResponse
+      static MasterServer::MessageHandler::UserMessageType _get_GetPublicServersResponse();
+      // Set static field: static public MasterServer.MessageHandler/MasterServer.UserMessageType GetPublicServersResponse
+      static void _set_GetPublicServersResponse(MasterServer::MessageHandler::UserMessageType value);
       // Get instance field: public System.Int32 value__
       int _get_value__();
       // Set instance field: public System.Int32 value__
@@ -572,36 +508,24 @@ namespace MasterServer {
       static MasterServer::MessageHandler::DedicatedServerMessageType _get_AuthenticateDedicatedServerResponse();
       // Set static field: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType AuthenticateDedicatedServerResponse
       static void _set_AuthenticateDedicatedServerResponse(MasterServer::MessageHandler::DedicatedServerMessageType value);
-      // static field const value: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType CreateRelayServerRequest
-      static constexpr const int CreateRelayServerRequest = 2;
-      // Get static field: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType CreateRelayServerRequest
-      static MasterServer::MessageHandler::DedicatedServerMessageType _get_CreateRelayServerRequest();
-      // Set static field: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType CreateRelayServerRequest
-      static void _set_CreateRelayServerRequest(MasterServer::MessageHandler::DedicatedServerMessageType value);
-      // static field const value: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType CreateRelayServerResponse
-      static constexpr const int CreateRelayServerResponse = 3;
-      // Get static field: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType CreateRelayServerResponse
-      static MasterServer::MessageHandler::DedicatedServerMessageType _get_CreateRelayServerResponse();
-      // Set static field: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType CreateRelayServerResponse
-      static void _set_CreateRelayServerResponse(MasterServer::MessageHandler::DedicatedServerMessageType value);
-      // static field const value: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType CreateMatchmakingServerRequest
-      static constexpr const int CreateMatchmakingServerRequest = 4;
-      // Get static field: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType CreateMatchmakingServerRequest
-      static MasterServer::MessageHandler::DedicatedServerMessageType _get_CreateMatchmakingServerRequest();
-      // Set static field: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType CreateMatchmakingServerRequest
-      static void _set_CreateMatchmakingServerRequest(MasterServer::MessageHandler::DedicatedServerMessageType value);
-      // static field const value: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType CreateMatchmakingServerResponse
-      static constexpr const int CreateMatchmakingServerResponse = 5;
-      // Get static field: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType CreateMatchmakingServerResponse
-      static MasterServer::MessageHandler::DedicatedServerMessageType _get_CreateMatchmakingServerResponse();
-      // Set static field: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType CreateMatchmakingServerResponse
-      static void _set_CreateMatchmakingServerResponse(MasterServer::MessageHandler::DedicatedServerMessageType value);
-      // static field const value: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType DedicatedServerNoLongerAvailableRequest
-      static constexpr const int DedicatedServerNoLongerAvailableRequest = 6;
-      // Get static field: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType DedicatedServerNoLongerAvailableRequest
-      static MasterServer::MessageHandler::DedicatedServerMessageType _get_DedicatedServerNoLongerAvailableRequest();
-      // Set static field: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType DedicatedServerNoLongerAvailableRequest
-      static void _set_DedicatedServerNoLongerAvailableRequest(MasterServer::MessageHandler::DedicatedServerMessageType value);
+      // static field const value: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType CreateDedicatedServerInstanceRequest
+      static constexpr const int CreateDedicatedServerInstanceRequest = 4;
+      // Get static field: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType CreateDedicatedServerInstanceRequest
+      static MasterServer::MessageHandler::DedicatedServerMessageType _get_CreateDedicatedServerInstanceRequest();
+      // Set static field: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType CreateDedicatedServerInstanceRequest
+      static void _set_CreateDedicatedServerInstanceRequest(MasterServer::MessageHandler::DedicatedServerMessageType value);
+      // static field const value: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType CreateDedicatedServerInstanceResponse
+      static constexpr const int CreateDedicatedServerInstanceResponse = 5;
+      // Get static field: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType CreateDedicatedServerInstanceResponse
+      static MasterServer::MessageHandler::DedicatedServerMessageType _get_CreateDedicatedServerInstanceResponse();
+      // Set static field: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType CreateDedicatedServerInstanceResponse
+      static void _set_CreateDedicatedServerInstanceResponse(MasterServer::MessageHandler::DedicatedServerMessageType value);
+      // static field const value: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType DedicatedServerInstanceNoLongerAvailableRequest
+      static constexpr const int DedicatedServerInstanceNoLongerAvailableRequest = 6;
+      // Get static field: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType DedicatedServerInstanceNoLongerAvailableRequest
+      static MasterServer::MessageHandler::DedicatedServerMessageType _get_DedicatedServerInstanceNoLongerAvailableRequest();
+      // Set static field: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType DedicatedServerInstanceNoLongerAvailableRequest
+      static void _set_DedicatedServerInstanceNoLongerAvailableRequest(MasterServer::MessageHandler::DedicatedServerMessageType value);
       // static field const value: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType DedicatedServerHeartbeatRequest
       static constexpr const int DedicatedServerHeartbeatRequest = 7;
       // Get static field: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType DedicatedServerHeartbeatRequest
@@ -614,18 +538,12 @@ namespace MasterServer {
       static MasterServer::MessageHandler::DedicatedServerMessageType _get_DedicatedServerHeartbeatResponse();
       // Set static field: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType DedicatedServerHeartbeatResponse
       static void _set_DedicatedServerHeartbeatResponse(MasterServer::MessageHandler::DedicatedServerMessageType value);
-      // static field const value: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType RelayServerStatusUpdateRequest
-      static constexpr const int RelayServerStatusUpdateRequest = 9;
-      // Get static field: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType RelayServerStatusUpdateRequest
-      static MasterServer::MessageHandler::DedicatedServerMessageType _get_RelayServerStatusUpdateRequest();
-      // Set static field: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType RelayServerStatusUpdateRequest
-      static void _set_RelayServerStatusUpdateRequest(MasterServer::MessageHandler::DedicatedServerMessageType value);
-      // static field const value: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType MatchmakingServerStatusUpdateRequest
-      static constexpr const int MatchmakingServerStatusUpdateRequest = 10;
-      // Get static field: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType MatchmakingServerStatusUpdateRequest
-      static MasterServer::MessageHandler::DedicatedServerMessageType _get_MatchmakingServerStatusUpdateRequest();
-      // Set static field: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType MatchmakingServerStatusUpdateRequest
-      static void _set_MatchmakingServerStatusUpdateRequest(MasterServer::MessageHandler::DedicatedServerMessageType value);
+      // static field const value: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType DedicatedServerInstanceStatusUpdateRequest
+      static constexpr const int DedicatedServerInstanceStatusUpdateRequest = 10;
+      // Get static field: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType DedicatedServerInstanceStatusUpdateRequest
+      static MasterServer::MessageHandler::DedicatedServerMessageType _get_DedicatedServerInstanceStatusUpdateRequest();
+      // Set static field: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType DedicatedServerInstanceStatusUpdateRequest
+      static void _set_DedicatedServerInstanceStatusUpdateRequest(MasterServer::MessageHandler::DedicatedServerMessageType value);
       // static field const value: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType DedicatedServerShutDownRequest
       static constexpr const int DedicatedServerShutDownRequest = 11;
       // Get static field: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType DedicatedServerShutDownRequest
@@ -913,98 +831,74 @@ namespace MasterServer {
     // Set instance field: private readonly System.Threading.CancellationTokenSource _disposedTokenSource
     void _set__disposedTokenSource(System::Threading::CancellationTokenSource* value);
     // protected PacketEncryptionLayer get_encryptionLayer()
-    // Offset: 0x20887C8
+    // Offset: 0x1213618
     GlobalNamespace::PacketEncryptionLayer* get_encryptionLayer();
     // protected MasterServer.ITimeProvider get_timeProvider()
-    // Offset: 0x208DF9C
+    // Offset: 0x1218020
     MasterServer::ITimeProvider* get_timeProvider();
     // protected System.Void .ctor(IUnconnectedSenderReceiver sender, MasterServer.ITimeProvider timeProvider, MasterServer.IAnalyticsManager analytics)
-    // Offset: 0x208DFA4
+    // Offset: 0x1218028
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageHandler* New_ctor(GlobalNamespace::IUnconnectedSenderReceiver* sender, MasterServer::ITimeProvider* timeProvider, MasterServer::IAnalyticsManager* analytics) {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageHandler*, creationType>(sender, timeProvider, analytics)));
     }
     // private System.Void RegisterHandshakeMessageHandlers()
-    // Offset: 0x208E264
+    // Offset: 0x12182E8
     void RegisterHandshakeMessageHandlers();
     // protected System.Boolean ShouldHandleHandshakeMessage(MasterServer.IHandshakeMessage packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x208E9AC
+    // Offset: 0x1218B08
     bool ShouldHandleHandshakeMessage(MasterServer::IHandshakeMessage* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // protected System.Void HandleClientHelloRequest(MasterServer.ClientHelloRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x208E9B4
+    // Offset: 0x1218B10
     void HandleClientHelloRequest(MasterServer::ClientHelloRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // protected System.Void HandleHelloVerifyRequest(MasterServer.HelloVerifyRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x208E9D4
+    // Offset: 0x1218B30
     void HandleHelloVerifyRequest(MasterServer::HelloVerifyRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // protected System.Void HandleClientHelloWithCookieRequest(MasterServer.ClientHelloWithCookieRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x208EC2C
+    // Offset: 0x1218D48
     void HandleClientHelloWithCookieRequest(MasterServer::ClientHelloWithCookieRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // protected System.Void RegisterUserMessageHandlers()
-    // Offset: 0x208EC4C
+    // Offset: 0x1218D68
     void RegisterUserMessageHandlers();
     // protected System.Boolean ShouldHandleUserMessage(MasterServer.IUserMessage packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x208F9A0
+    // Offset: 0x1219634
     bool ShouldHandleUserMessage(MasterServer::IUserMessage* packet, MasterServer::MessageHandler::MessageOrigin origin);
-    // protected System.Void HandleUserServerStatusUpdateRequest(MasterServer.UserServerStatusUpdateRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x208F9A8
-    void HandleUserServerStatusUpdateRequest(MasterServer::UserServerStatusUpdateRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
-    // protected System.Void HandleUserServerHeartbeatRequest(MasterServer.UserServerHeartbeatRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x208F9C8
-    void HandleUserServerHeartbeatRequest(MasterServer::UserServerHeartbeatRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
-    // protected System.Void HandleUserServerHeartbeatResponse(MasterServer.UserServerHeartbeatResponse packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x208F9E4
-    void HandleUserServerHeartbeatResponse(MasterServer::UserServerHeartbeatResponse* packet, MasterServer::MessageHandler::MessageOrigin origin);
-    // protected System.Void HandleUserServerRemoveRequest(MasterServer.UserServerRemoveRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x208FA00
-    void HandleUserServerRemoveRequest(MasterServer::UserServerRemoveRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
-    // protected System.Void HandleConnectToUserServerRequest(MasterServer.ConnectToUserServerRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x208FA1C
-    void HandleConnectToUserServerRequest(MasterServer::ConnectToUserServerRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
-    // protected System.Void HandleConnectToMatchmakingServerRequest(MasterServer.ConnectToMatchmakingServerRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x208FA3C
-    void HandleConnectToMatchmakingServerRequest(MasterServer::ConnectToMatchmakingServerRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
-    // protected System.Void HandlePrepareForConnectionRequest(MasterServer.PrepareForConnectionRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x208FA5C
-    void HandlePrepareForConnectionRequest(MasterServer::PrepareForConnectionRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
-    // protected System.Void HandleGetPublicUserServersRequest(MasterServer.GetPublicUserServersRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x208FA7C
-    void HandleGetPublicUserServersRequest(MasterServer::GetPublicUserServersRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
+    // protected System.Void HandleConnectToServerRequest(MasterServer.ConnectToServerRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
+    // Offset: 0x121963C
+    void HandleConnectToServerRequest(MasterServer::ConnectToServerRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
+    // protected System.Void HandleGetPublicServersRequest(MasterServer.GetPublicServersRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
+    // Offset: 0x121965C
+    void HandleGetPublicServersRequest(MasterServer::GetPublicServersRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // private System.Void HandleSessionKeepaliveMessage(MasterServer.SessionKeepaliveMessage packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x208FA9C
+    // Offset: 0x121967C
     void HandleSessionKeepaliveMessage(MasterServer::SessionKeepaliveMessage* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // protected System.Void RegisterDedicatedServerHandlers()
-    // Offset: 0x208FB10
+    // Offset: 0x12196F0
     void RegisterDedicatedServerHandlers();
     // protected System.Boolean ShouldHandleDedicatedServerMessage(MasterServer.IDedicatedServerMessage packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x20906BC
+    // Offset: 0x121A170
     bool ShouldHandleDedicatedServerMessage(MasterServer::IDedicatedServerMessage* packet, MasterServer::MessageHandler::MessageOrigin origin);
-    // protected System.Void HandleGetAvailableRelayServerRequest(MasterServer.CreateRelayServerRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x20906C4
-    void HandleGetAvailableRelayServerRequest(MasterServer::CreateRelayServerRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
-    // protected System.Void HandleGetAvailableMatchmakingServerRequest(MasterServer.CreateMatchmakingServerRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x20906E4
-    void HandleGetAvailableMatchmakingServerRequest(MasterServer::CreateMatchmakingServerRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
-    // protected System.Void HandleDedicatedServerNoLongerAvailableRequest(MasterServer.DedicatedServerNoLongerOccupiedRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x2090704
-    void HandleDedicatedServerNoLongerAvailableRequest(MasterServer::DedicatedServerNoLongerOccupiedRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
+    // protected System.Void HandleCreateDedicatedServerInstanceRequest(MasterServer.CreateDedicatedServerInstanceRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
+    // Offset: 0x121A178
+    void HandleCreateDedicatedServerInstanceRequest(MasterServer::CreateDedicatedServerInstanceRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
+    // protected System.Void HandleDedicatedServerInstanceNoLongerAvailableRequest(MasterServer.DedicatedServerInstanceNoLongerOccupiedRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
+    // Offset: 0x121A198
+    void HandleDedicatedServerInstanceNoLongerAvailableRequest(MasterServer::DedicatedServerInstanceNoLongerOccupiedRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // protected System.Void HandleDedicatedServerHeartbeatRequest(MasterServer.DedicatedServerHeartbeatRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x2090724
+    // Offset: 0x121A1B8
     void HandleDedicatedServerHeartbeatRequest(MasterServer::DedicatedServerHeartbeatRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // protected System.Void HandleDedicatedServerHeartbeatResponse(MasterServer.DedicatedServerHeartbeatResponse packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x209073C
+    // Offset: 0x121A1D0
     void HandleDedicatedServerHeartbeatResponse(MasterServer::DedicatedServerHeartbeatResponse* packet, MasterServer::MessageHandler::MessageOrigin origin);
-    // protected System.Void HandleRelayServerStatusUpdateRequest(MasterServer.RelayServerStatusUpdateRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x2090754
-    void HandleRelayServerStatusUpdateRequest(MasterServer::RelayServerStatusUpdateRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
-    // protected System.Void HandleMatchmakingServerStatusUpdateRequest(MasterServer.MatchmakingServerStatusUpdateRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x2090774
-    void HandleMatchmakingServerStatusUpdateRequest(MasterServer::MatchmakingServerStatusUpdateRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
+    // protected System.Void HandleDedicatedServerInstanceStatusUpdateRequest(MasterServer.DedicatedServerInstanceStatusUpdateRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
+    // Offset: 0x121A1E8
+    void HandleDedicatedServerInstanceStatusUpdateRequest(MasterServer::DedicatedServerInstanceStatusUpdateRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // protected System.Void HandleDedicatedServerShutDownRequest(MasterServer.DedicatedServerShutDownRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x2090794
+    // Offset: 0x121A208
     void HandleDedicatedServerShutDownRequest(MasterServer::DedicatedServerShutDownRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // protected System.Void HandleDedicatedServerPrepareForConnectionRequest(MasterServer.DedicatedServerPrepareForConnectionRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x20907AC
+    // Offset: 0x121A220
     void HandleDedicatedServerPrepareForConnectionRequest(MasterServer::DedicatedServerPrepareForConnectionRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // private System.Func`2<MasterServer.MessageHandler/MasterServer.MessageOrigin,T> ObtainVersioned(System.Func`2<System.UInt32,T> obtain)
     // Offset: 0xFFFFFFFF
@@ -1015,6 +909,16 @@ namespace MasterServer {
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       auto ___instance_arg = this;
       return ::il2cpp_utils::RunMethodThrow<System::Func_2<MasterServer::MessageHandler::MessageOrigin, T>*, false>(___instance_arg, ___generic__method, obtain);
+    }
+    // private System.Func`1<T> ObtainVersioned(System.Func`1<T> obtain)
+    // Offset: 0xFFFFFFFF
+    template<class T>
+    System::Func_1<T>* ObtainVersioned(System::Func_1<T>* obtain) {
+      static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::ObtainVersioned");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ObtainVersioned", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(obtain)})));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<System::Func_1<T>*, false>(___instance_arg, ___generic__method, obtain);
     }
     // private System.Void DefaultAcknowledgeHandler(T packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
     // Offset: 0xFFFFFFFF
@@ -1072,16 +976,16 @@ namespace MasterServer {
       return ::il2cpp_utils::RunMethodThrow<System::Action_2<T, MasterServer::MessageHandler::MessageOrigin>*, false>(___instance_arg, ___generic__method, customHandler);
     }
     // private System.Boolean IsUnhandledMessage(MasterServer.IMasterServerReliableRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x20907CC
+    // Offset: 0x121A240
     bool IsUnhandledMessage(MasterServer::IMasterServerReliableRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // private System.Void CompleteSend(MasterServer.IMasterServerResponse packet, System.Net.IPEndPoint remoteEndPoint)
-    // Offset: 0x2091078
+    // Offset: 0x121AA24
     void CompleteSend(MasterServer::IMasterServerResponse* packet, System::Net::IPEndPoint* remoteEndPoint);
     // private System.Boolean CompleteRequest(MasterServer.IMasterServerReliableResponse packet, System.Net.IPEndPoint remoteEndPoint)
-    // Offset: 0x208EB20
+    // Offset: 0x1218C3C
     bool CompleteRequest(MasterServer::IMasterServerReliableResponse* packet, System::Net::IPEndPoint* remoteEndPoint);
     // private System.Boolean ShouldHandleMessage(MasterServer.IMasterServerMessage packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x2090CE4
+    // Offset: 0x121A6D4
     bool ShouldHandleMessage(MasterServer::IMasterServerMessage* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // protected System.Void GetAndSendResponse(TRequest request, MasterServer.MessageHandler/MasterServer.MessageOrigin origin, System.Func`3<TRequest,MasterServer.MessageHandler/MasterServer.MessageOrigin,System.Threading.Tasks.Task`1<TResponse>> tryGetResponse, System.Func`1<TResponse> getFailureResponse)
     // Offset: 0xFFFFFFFF
@@ -1120,28 +1024,28 @@ namespace MasterServer {
       ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, request, origin, tryGetResponse, getFailureResponse);
     }
     // protected System.Void SendUnreliableMessage(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerUnreliableMessage message)
-    // Offset: 0x20913B8
+    // Offset: 0x121AD64
     void SendUnreliableMessage(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, MasterServer::IMasterServerUnreliableMessage* message);
     // protected System.Void SendUnreliableResponse(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerReliableRequest request, MasterServer.IMasterServerResponse response)
-    // Offset: 0x2091610
+    // Offset: 0x121AF7C
     void SendUnreliableResponse(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, MasterServer::IMasterServerReliableRequest* request, MasterServer::IMasterServerResponse* response);
     // protected System.Void SendUnreliableResponse(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, System.UInt32 responseId, MasterServer.IMasterServerResponse response)
-    // Offset: 0x2090DF4
+    // Offset: 0x121A7E0
     void SendUnreliableResponse(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, uint responseId, MasterServer::IMasterServerResponse* response);
     // protected System.Void SendReliableRequest(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerReliableRequest request, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x2091760
+    // Offset: 0x121B0CC
     void SendReliableRequest(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, MasterServer::IMasterServerReliableRequest* request, System::Threading::CancellationToken cancellationToken);
     // protected System.Threading.Tasks.Task SendReliableRequestAsync(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerReliableRequest request, System.Func`5<System.UInt32,System.Net.IPEndPoint,MasterServer.IMasterServerReliableRequest,System.Threading.CancellationToken,System.Threading.Tasks.Task> onSendFailed, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x208903C
+    // Offset: 0x1213E8C
     System::Threading::Tasks::Task* SendReliableRequestAsync(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, MasterServer::IMasterServerReliableRequest* request, System::Func_5<uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task*>* onSendFailed, System::Threading::CancellationToken cancellationToken);
     // protected System.Void SendReliableResponse(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerReliableRequest request, MasterServer.IMasterServerReliableResponse response, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x2091A4C
+    // Offset: 0x121B378
     void SendReliableResponse(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, MasterServer::IMasterServerReliableRequest* request, MasterServer::IMasterServerReliableResponse* response, System::Threading::CancellationToken cancellationToken);
     // protected System.Void SendReliableResponse(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, System.UInt32 responseId, MasterServer.IMasterServerReliableResponse response, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x2091BAC
+    // Offset: 0x121B4D8
     void SendReliableResponse(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, uint responseId, MasterServer::IMasterServerReliableResponse* response, System::Threading::CancellationToken cancellationToken);
     // protected System.Threading.Tasks.Task SendReliableResponseAsync(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerReliableRequest request, MasterServer.IMasterServerReliableResponse response, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x2091D2C
+    // Offset: 0x121B618
     System::Threading::Tasks::Task* SendReliableResponseAsync(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, MasterServer::IMasterServerReliableRequest* request, MasterServer::IMasterServerReliableResponse* response, System::Threading::CancellationToken cancellationToken);
     // protected System.Threading.Tasks.Task`1<T> SendReliableRequestAndAwaitResponseAsync(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerReliableRequest request, System.Func`5<System.UInt32,System.Net.IPEndPoint,MasterServer.IMasterServerReliableRequest,System.Threading.CancellationToken,System.Threading.Tasks.Task`1<T>> onSendFailedAwaitResponse, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
@@ -1177,19 +1081,19 @@ namespace MasterServer {
       return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<T>*, false>(___instance_arg, ___generic__method, protocolVersion, remoteEndPoint, responseId, response, cancellationToken);
     }
     // private System.Void SendMessage(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerMessage message)
-    // Offset: 0x209149C
+    // Offset: 0x121AE08
     void SendMessage(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, MasterServer::IMasterServerMessage* message);
     // private System.Void SendMessageWithRetry(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerReliableRequest message, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x20918D4
+    // Offset: 0x121B200
     void SendMessageWithRetry(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, MasterServer::IMasterServerReliableRequest* message, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task SendMessageWithRetryAsync(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerReliableRequest message, System.Func`5<System.UInt32,System.Net.IPEndPoint,MasterServer.IMasterServerReliableRequest,System.Threading.CancellationToken,System.Threading.Tasks.Task> onSendFailed, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x20919B8
+    // Offset: 0x121B2E4
     System::Threading::Tasks::Task* SendMessageWithRetryAsync(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, MasterServer::IMasterServerReliableRequest* message, System::Func_5<uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task*>* onSendFailed, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task SendMultipartMessageWithRetryAsync(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerReliableRequest message, LiteNetLib.Utils.NetDataWriter data, System.Func`5<System.UInt32,System.Net.IPEndPoint,MasterServer.IMasterServerReliableRequest,System.Threading.CancellationToken,System.Threading.Tasks.Task> onSendFailed, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x2092164
+    // Offset: 0x121BA10
     System::Threading::Tasks::Task* SendMultipartMessageWithRetryAsync(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, MasterServer::IMasterServerReliableRequest* message, LiteNetLib::Utils::NetDataWriter* data, System::Func_5<uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task*>* onSendFailed, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task SendMessageWithRetryAsyncInternal(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerReliableRequest message, System.Func`5<System.UInt32,System.Net.IPEndPoint,MasterServer.IMasterServerReliableRequest,System.Threading.CancellationToken,System.Threading.Tasks.Task> onSendFailed, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x20922A8
+    // Offset: 0x121BB54
     System::Threading::Tasks::Task* SendMessageWithRetryAsyncInternal(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, MasterServer::IMasterServerReliableRequest* message, System::Func_5<uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task*>* onSendFailed, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task`1<T> SendMessageWithRetryAwaitResponseAsync(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerReliableRequest message, System.Func`5<System.UInt32,System.Net.IPEndPoint,MasterServer.IMasterServerReliableRequest,System.Threading.CancellationToken,System.Threading.Tasks.Task`1<T>> onSendFailedAwaitResponse, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
@@ -1225,49 +1129,49 @@ namespace MasterServer {
       return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<T>*, false>(___instance_arg, ___generic__method, protocolVersion, remoteEndPoint, requestId, cancellationToken);
     }
     // private System.Threading.Tasks.Task WaitForRetry(System.Int32 retryAttempt, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x20923E8
+    // Offset: 0x121BC94
     System::Threading::Tasks::Task* WaitForRetry(int retryAttempt, System::Threading::CancellationToken cancellationToken);
     // private LiteNetLib.Utils.NetDataWriter Write(System.UInt32 protocolVersion, LiteNetLib.Utils.INetSerializable message)
-    // Offset: 0x2091F88
+    // Offset: 0x121B834
     LiteNetLib::Utils::NetDataWriter* Write(uint protocolVersion, LiteNetLib::Utils::INetSerializable* message);
     // public System.Void PollUpdate()
-    // Offset: 0x2092628
+    // Offset: 0x121BED0
     void PollUpdate();
     // public System.Void ReceiveMessage(System.Net.IPEndPoint remoteEndPoint, LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x20926C4
+    // Offset: 0x121BF6C
     void ReceiveMessage(System::Net::IPEndPoint* remoteEndPoint, LiteNetLib::Utils::NetDataReader* reader);
     // protected System.Boolean ShouldHandleMessageFromEndPoint(System.Net.IPEndPoint endPoint)
-    // Offset: 0x20928BC
+    // Offset: 0x121C164
     bool ShouldHandleMessageFromEndPoint(System::Net::IPEndPoint* endPoint);
     // protected System.Void ReceivedMessageException(System.Net.IPEndPoint endPoint, System.Exception exception)
-    // Offset: 0x20928C4
+    // Offset: 0x121C16C
     void ReceivedMessageException(System::Net::IPEndPoint* endPoint, System::Exception* exception);
     // protected System.Void BeginSession(System.Net.IPEndPoint endPoint)
-    // Offset: 0x2086D3C
+    // Offset: 0x1211AE4
     void BeginSession(System::Net::IPEndPoint* endPoint);
     // protected System.Void BeginSession(System.Net.IPEndPoint endPoint, System.UInt32 requestId)
-    // Offset: 0x20929E0
+    // Offset: 0x121C288
     void BeginSession(System::Net::IPEndPoint* endPoint, uint requestId);
     // protected System.UInt32 GetNextRequestId(System.Net.IPEndPoint endPoint)
-    // Offset: 0x20885FC
+    // Offset: 0x121344C
     uint GetNextRequestId(System::Net::IPEndPoint* endPoint);
     // protected MasterServer.MessageHandler/MasterServer.ConnectionState GetConnectionState(System.Net.IPEndPoint endPoint)
-    // Offset: 0x208887C
+    // Offset: 0x12136CC
     MasterServer::MessageHandler::ConnectionState* GetConnectionState(System::Net::IPEndPoint* endPoint);
     // protected System.Boolean IsValidSessionStartRequestId(System.Net.IPEndPoint endPoint, System.UInt32 requestId)
-    // Offset: 0x2092AC0
+    // Offset: 0x121C368
     bool IsValidSessionStartRequestId(System::Net::IPEndPoint* endPoint, uint requestId);
     // protected System.Boolean IsConnectionStateEncrypted(System.Net.IPEndPoint endPoint)
-    // Offset: 0x2092BC0
+    // Offset: 0x121C468
     bool IsConnectionStateEncrypted(System::Net::IPEndPoint* endPoint);
     // private INetworkPacketSerializer`1<MasterServer.MessageHandler/MasterServer.MessageOrigin> GetSerializer(System.UInt32 protocolVersion, System.UInt32 messageType)
-    // Offset: 0x20924FC
+    // Offset: 0x121BDA8
     GlobalNamespace::INetworkPacketSerializer_1<MasterServer::MessageHandler::MessageOrigin>* GetSerializer(uint protocolVersion, uint messageType);
     // public System.Void Dispose()
-    // Offset: 0x2092D10
+    // Offset: 0x121C5B8
     void Dispose();
     // static private System.Byte[] CreateHandshakeHeader(System.Byte[] packetHeader)
-    // Offset: 0x208E848
+    // Offset: 0x12189A4
     static ::Array<uint8_t>* CreateHandshakeHeader(::Array<uint8_t>* packetHeader);
   }; // MasterServer.MessageHandler
   #pragma pack(pop)
@@ -1367,84 +1271,24 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Maste
     return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "ShouldHandleUserMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet, origin});
   }
 };
-// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleUserServerStatusUpdateRequest
-// Il2CppName: HandleUserServerStatusUpdateRequest
+// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleConnectToServerRequest
+// Il2CppName: HandleConnectToServerRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::UserServerStatusUpdateRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleUserServerStatusUpdateRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::ConnectToServerRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleConnectToServerRequest)> {
   static const MethodInfo* get() {
-    static auto* packet = &::il2cpp_utils::GetClassFromName("MasterServer", "UserServerStatusUpdateRequest")->byval_arg;
+    static auto* packet = &::il2cpp_utils::GetClassFromName("MasterServer", "ConnectToServerRequest")->byval_arg;
     static auto* origin = &::il2cpp_utils::GetClassFromName("MasterServer", "MessageHandler/MessageOrigin")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleUserServerStatusUpdateRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet, origin});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleConnectToServerRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet, origin});
   }
 };
-// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleUserServerHeartbeatRequest
-// Il2CppName: HandleUserServerHeartbeatRequest
+// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleGetPublicServersRequest
+// Il2CppName: HandleGetPublicServersRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::UserServerHeartbeatRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleUserServerHeartbeatRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::GetPublicServersRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleGetPublicServersRequest)> {
   static const MethodInfo* get() {
-    static auto* packet = &::il2cpp_utils::GetClassFromName("MasterServer", "UserServerHeartbeatRequest")->byval_arg;
+    static auto* packet = &::il2cpp_utils::GetClassFromName("MasterServer", "GetPublicServersRequest")->byval_arg;
     static auto* origin = &::il2cpp_utils::GetClassFromName("MasterServer", "MessageHandler/MessageOrigin")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleUserServerHeartbeatRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet, origin});
-  }
-};
-// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleUserServerHeartbeatResponse
-// Il2CppName: HandleUserServerHeartbeatResponse
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::UserServerHeartbeatResponse*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleUserServerHeartbeatResponse)> {
-  static const MethodInfo* get() {
-    static auto* packet = &::il2cpp_utils::GetClassFromName("MasterServer", "UserServerHeartbeatResponse")->byval_arg;
-    static auto* origin = &::il2cpp_utils::GetClassFromName("MasterServer", "MessageHandler/MessageOrigin")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleUserServerHeartbeatResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet, origin});
-  }
-};
-// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleUserServerRemoveRequest
-// Il2CppName: HandleUserServerRemoveRequest
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::UserServerRemoveRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleUserServerRemoveRequest)> {
-  static const MethodInfo* get() {
-    static auto* packet = &::il2cpp_utils::GetClassFromName("MasterServer", "UserServerRemoveRequest")->byval_arg;
-    static auto* origin = &::il2cpp_utils::GetClassFromName("MasterServer", "MessageHandler/MessageOrigin")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleUserServerRemoveRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet, origin});
-  }
-};
-// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleConnectToUserServerRequest
-// Il2CppName: HandleConnectToUserServerRequest
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::ConnectToUserServerRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleConnectToUserServerRequest)> {
-  static const MethodInfo* get() {
-    static auto* packet = &::il2cpp_utils::GetClassFromName("MasterServer", "ConnectToUserServerRequest")->byval_arg;
-    static auto* origin = &::il2cpp_utils::GetClassFromName("MasterServer", "MessageHandler/MessageOrigin")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleConnectToUserServerRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet, origin});
-  }
-};
-// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleConnectToMatchmakingServerRequest
-// Il2CppName: HandleConnectToMatchmakingServerRequest
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::ConnectToMatchmakingServerRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleConnectToMatchmakingServerRequest)> {
-  static const MethodInfo* get() {
-    static auto* packet = &::il2cpp_utils::GetClassFromName("MasterServer", "ConnectToMatchmakingServerRequest")->byval_arg;
-    static auto* origin = &::il2cpp_utils::GetClassFromName("MasterServer", "MessageHandler/MessageOrigin")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleConnectToMatchmakingServerRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet, origin});
-  }
-};
-// Writing MetadataGetter for method: MasterServer::MessageHandler::HandlePrepareForConnectionRequest
-// Il2CppName: HandlePrepareForConnectionRequest
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::PrepareForConnectionRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandlePrepareForConnectionRequest)> {
-  static const MethodInfo* get() {
-    static auto* packet = &::il2cpp_utils::GetClassFromName("MasterServer", "PrepareForConnectionRequest")->byval_arg;
-    static auto* origin = &::il2cpp_utils::GetClassFromName("MasterServer", "MessageHandler/MessageOrigin")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandlePrepareForConnectionRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet, origin});
-  }
-};
-// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleGetPublicUserServersRequest
-// Il2CppName: HandleGetPublicUserServersRequest
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::GetPublicUserServersRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleGetPublicUserServersRequest)> {
-  static const MethodInfo* get() {
-    static auto* packet = &::il2cpp_utils::GetClassFromName("MasterServer", "GetPublicUserServersRequest")->byval_arg;
-    static auto* origin = &::il2cpp_utils::GetClassFromName("MasterServer", "MessageHandler/MessageOrigin")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleGetPublicUserServersRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet, origin});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleGetPublicServersRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet, origin});
   }
 };
 // Writing MetadataGetter for method: MasterServer::MessageHandler::HandleSessionKeepaliveMessage
@@ -1475,34 +1319,24 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Maste
     return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "ShouldHandleDedicatedServerMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet, origin});
   }
 };
-// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleGetAvailableRelayServerRequest
-// Il2CppName: HandleGetAvailableRelayServerRequest
+// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleCreateDedicatedServerInstanceRequest
+// Il2CppName: HandleCreateDedicatedServerInstanceRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::CreateRelayServerRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleGetAvailableRelayServerRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::CreateDedicatedServerInstanceRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleCreateDedicatedServerInstanceRequest)> {
   static const MethodInfo* get() {
-    static auto* packet = &::il2cpp_utils::GetClassFromName("MasterServer", "CreateRelayServerRequest")->byval_arg;
+    static auto* packet = &::il2cpp_utils::GetClassFromName("MasterServer", "CreateDedicatedServerInstanceRequest")->byval_arg;
     static auto* origin = &::il2cpp_utils::GetClassFromName("MasterServer", "MessageHandler/MessageOrigin")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleGetAvailableRelayServerRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet, origin});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleCreateDedicatedServerInstanceRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet, origin});
   }
 };
-// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleGetAvailableMatchmakingServerRequest
-// Il2CppName: HandleGetAvailableMatchmakingServerRequest
+// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleDedicatedServerInstanceNoLongerAvailableRequest
+// Il2CppName: HandleDedicatedServerInstanceNoLongerAvailableRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::CreateMatchmakingServerRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleGetAvailableMatchmakingServerRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::DedicatedServerInstanceNoLongerOccupiedRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleDedicatedServerInstanceNoLongerAvailableRequest)> {
   static const MethodInfo* get() {
-    static auto* packet = &::il2cpp_utils::GetClassFromName("MasterServer", "CreateMatchmakingServerRequest")->byval_arg;
+    static auto* packet = &::il2cpp_utils::GetClassFromName("MasterServer", "DedicatedServerInstanceNoLongerOccupiedRequest")->byval_arg;
     static auto* origin = &::il2cpp_utils::GetClassFromName("MasterServer", "MessageHandler/MessageOrigin")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleGetAvailableMatchmakingServerRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet, origin});
-  }
-};
-// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleDedicatedServerNoLongerAvailableRequest
-// Il2CppName: HandleDedicatedServerNoLongerAvailableRequest
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::DedicatedServerNoLongerOccupiedRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleDedicatedServerNoLongerAvailableRequest)> {
-  static const MethodInfo* get() {
-    static auto* packet = &::il2cpp_utils::GetClassFromName("MasterServer", "DedicatedServerNoLongerOccupiedRequest")->byval_arg;
-    static auto* origin = &::il2cpp_utils::GetClassFromName("MasterServer", "MessageHandler/MessageOrigin")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleDedicatedServerNoLongerAvailableRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet, origin});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleDedicatedServerInstanceNoLongerAvailableRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet, origin});
   }
 };
 // Writing MetadataGetter for method: MasterServer::MessageHandler::HandleDedicatedServerHeartbeatRequest
@@ -1525,24 +1359,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
     return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleDedicatedServerHeartbeatResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet, origin});
   }
 };
-// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleRelayServerStatusUpdateRequest
-// Il2CppName: HandleRelayServerStatusUpdateRequest
+// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleDedicatedServerInstanceStatusUpdateRequest
+// Il2CppName: HandleDedicatedServerInstanceStatusUpdateRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::RelayServerStatusUpdateRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleRelayServerStatusUpdateRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::DedicatedServerInstanceStatusUpdateRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleDedicatedServerInstanceStatusUpdateRequest)> {
   static const MethodInfo* get() {
-    static auto* packet = &::il2cpp_utils::GetClassFromName("MasterServer", "RelayServerStatusUpdateRequest")->byval_arg;
+    static auto* packet = &::il2cpp_utils::GetClassFromName("MasterServer", "DedicatedServerInstanceStatusUpdateRequest")->byval_arg;
     static auto* origin = &::il2cpp_utils::GetClassFromName("MasterServer", "MessageHandler/MessageOrigin")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleRelayServerStatusUpdateRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet, origin});
-  }
-};
-// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleMatchmakingServerStatusUpdateRequest
-// Il2CppName: HandleMatchmakingServerStatusUpdateRequest
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::MatchmakingServerStatusUpdateRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleMatchmakingServerStatusUpdateRequest)> {
-  static const MethodInfo* get() {
-    static auto* packet = &::il2cpp_utils::GetClassFromName("MasterServer", "MatchmakingServerStatusUpdateRequest")->byval_arg;
-    static auto* origin = &::il2cpp_utils::GetClassFromName("MasterServer", "MessageHandler/MessageOrigin")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleMatchmakingServerStatusUpdateRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet, origin});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleDedicatedServerInstanceStatusUpdateRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet, origin});
   }
 };
 // Writing MetadataGetter for method: MasterServer::MessageHandler::HandleDedicatedServerShutDownRequest
@@ -1565,6 +1389,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
     return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleDedicatedServerPrepareForConnectionRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet, origin});
   }
 };
+// Writing MetadataGetter for method: MasterServer::MessageHandler::ObtainVersioned
+// Il2CppName: ObtainVersioned
+// Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: MasterServer::MessageHandler::ObtainVersioned
 // Il2CppName: ObtainVersioned
 // Cannot write MetadataGetter for generic methods!

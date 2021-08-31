@@ -65,10 +65,10 @@ namespace Libraries::HM::HMLib::VR {
     // Set instance field: public System.Boolean _continuous
     void _set__continuous(bool value);
     // public System.Void CopyFrom(Libraries.HM.HMLib.VR.HapticPresetSO hapticPreset)
-    // Offset: 0x2048668
+    // Offset: 0x1266260
     void CopyFrom(Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
     // public System.Void .ctor()
-    // Offset: 0x204869C
+    // Offset: 0x1266294
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

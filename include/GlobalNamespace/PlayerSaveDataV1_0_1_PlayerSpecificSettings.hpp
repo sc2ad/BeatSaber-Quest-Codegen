@@ -105,7 +105,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Boolean noTextsAndHuds
     void _set_noTextsAndHuds(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1F58190
+    // Offset: 0x113B638
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

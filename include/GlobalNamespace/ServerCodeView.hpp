@@ -92,22 +92,22 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _codeIsShown
     void _set__codeIsShown(bool value);
     // public System.Void SetCode(System.String serverCode)
-    // Offset: 0x1F868B8
+    // Offset: 0x119E504
     void SetCode(::Il2CppString* serverCode);
     // protected System.Void OnEnable()
-    // Offset: 0x1F86958
+    // Offset: 0x119E5A4
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1F869E8
+    // Offset: 0x119E634
     void OnDisable();
     // private System.Void HandleShowServerCodeButtonPressed()
-    // Offset: 0x1F86A04
+    // Offset: 0x119E650
     void HandleShowServerCodeButtonPressed();
     // private System.Void RefreshText(System.Boolean showCode)
-    // Offset: 0x1F868C4
+    // Offset: 0x119E510
     void RefreshText(bool showCode);
     // public System.Void .ctor()
-    // Offset: 0x1F86A14
+    // Offset: 0x119E660
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

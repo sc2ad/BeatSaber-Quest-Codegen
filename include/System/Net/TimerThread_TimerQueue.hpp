@@ -39,7 +39,7 @@ namespace System::Net {
     // Set instance field: private readonly System.Net.TimerThread/System.Net.TimerNode m_Timers
     void _set_m_Timers(System::Net::TimerThread::TimerNode* value);
     // System.Void .ctor(System.Int32 durationMilliseconds)
-    // Offset: 0x12911A0
+    // Offset: 0x15C9430
     // Implemented from: System.Net.TimerThread/System.Net.Queue
     // Base method: System.Void Queue::.ctor(System.Int32 durationMilliseconds)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

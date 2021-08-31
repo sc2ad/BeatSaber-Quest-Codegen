@@ -29,14 +29,14 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionTrigger::Range::Interaction : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xEA58EC
+    // [TooltipAttribute] Offset: 0xE2B69C
     // public RootMotion.FinalIK.InteractionObject interactionObject
     // Size: 0x8
     // Offset: 0x10
     RootMotion::FinalIK::InteractionObject* interactionObject;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::InteractionObject*) == 0x8);
-    // [TooltipAttribute] Offset: 0xEA5924
+    // [TooltipAttribute] Offset: 0xE2B6D4
     // public RootMotion.FinalIK.FullBodyBipedEffector[] effectors
     // Size: 0x8
     // Offset: 0x18
@@ -54,7 +54,7 @@ namespace RootMotion::FinalIK {
     // Set instance field: public RootMotion.FinalIK.FullBodyBipedEffector[] effectors
     void _set_effectors(::Array<RootMotion::FinalIK::FullBodyBipedEffector>* value);
     // public System.Void .ctor()
-    // Offset: 0x172C2DC
+    // Offset: 0x1AD6BF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

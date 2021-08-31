@@ -107,17 +107,17 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single m_displayTimer
     void _set_m_displayTimer(float value);
     // public System.Void .ctor(System.String name, OVRControllerTest/BoolMonitor/BoolGenerator generator, System.Single displayTimeout)
-    // Offset: 0x105A964
+    // Offset: 0x1299D54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRControllerTest::BoolMonitor* New_ctor(::Il2CppString* name, GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* generator, float displayTimeout) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRControllerTest::BoolMonitor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRControllerTest::BoolMonitor*, creationType>(name, generator, displayTimeout)));
     }
     // public System.Void Update()
-    // Offset: 0x105B234
+    // Offset: 0x129A624
     void Update();
     // public System.Void AppendToStringBuilder(ref System.Text.StringBuilder sb)
-    // Offset: 0x105B2D8
+    // Offset: 0x129A6C8
     void AppendToStringBuilder(ByRef<System::Text::StringBuilder*> sb);
   }; // OVRControllerTest/BoolMonitor
   #pragma pack(pop)

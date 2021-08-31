@@ -42,7 +42,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Creating value type constructor for type: PlaymodeWorkItemFactory
     PlaymodeWorkItemFactory() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x11F0648
+    // Offset: 0x14B6288
     // Implemented from: UnityEngine.TestRunner.NUnitExtensions.Runner.WorkItemFactory
     // Base method: System.Void WorkItemFactory::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -52,7 +52,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
       return THROW_UNLESS((::il2cpp_utils::New<PlaymodeWorkItemFactory*, creationType>()));
     }
     // protected override UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem Create(NUnit.Framework.Internal.TestMethod method, NUnit.Framework.Interfaces.ITestFilter filter, NUnit.Framework.Interfaces.ITest loadedTest)
-    // Offset: 0x11F05C8
+    // Offset: 0x14B6208
     // Implemented from: UnityEngine.TestRunner.NUnitExtensions.Runner.WorkItemFactory
     // Base method: UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem WorkItemFactory::Create(NUnit.Framework.Internal.TestMethod method, NUnit.Framework.Interfaces.ITestFilter filter, NUnit.Framework.Interfaces.ITest loadedTest)
     UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* Create(NUnit::Framework::Internal::TestMethod* method, NUnit::Framework::Interfaces::ITestFilter* filter, NUnit::Framework::Interfaces::ITest* loadedTest);

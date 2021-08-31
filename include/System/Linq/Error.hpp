@@ -24,25 +24,25 @@ namespace System::Linq {
     // Creating value type constructor for type: Error
     Error() noexcept {}
     // static System.Exception ArgumentNull(System.String s)
-    // Offset: 0x1DE70F8
+    // Offset: 0x23B6210
     static System::Exception* ArgumentNull(::Il2CppString* s);
     // static System.Exception ArgumentOutOfRange(System.String s)
-    // Offset: 0x1DE6D3C
+    // Offset: 0x23B5E54
     static System::Exception* ArgumentOutOfRange(::Il2CppString* s);
     // static System.Exception MoreThanOneElement()
-    // Offset: 0x1DE7C0C
+    // Offset: 0x23B6D24
     static System::Exception* MoreThanOneElement();
     // static System.Exception MoreThanOneMatch()
-    // Offset: 0x1DE7C74
+    // Offset: 0x23B6D8C
     static System::Exception* MoreThanOneMatch();
     // static System.Exception NoElements()
-    // Offset: 0x1DE7424
+    // Offset: 0x23B653C
     static System::Exception* NoElements();
     // static System.Exception NoMatch()
-    // Offset: 0x1DE7CDC
+    // Offset: 0x23B6DF4
     static System::Exception* NoMatch();
     // static System.Exception NotSupported()
-    // Offset: 0x1DE7D44
+    // Offset: 0x23B6E5C
     static System::Exception* NotSupported();
   }; // System.Linq.Error
   #pragma pack(pop)

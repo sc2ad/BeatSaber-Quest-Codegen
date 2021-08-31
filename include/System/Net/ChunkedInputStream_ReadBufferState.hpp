@@ -82,7 +82,7 @@ namespace System::Net {
     // Set instance field: public System.Net.HttpStreamAsyncResult Ares
     void _set_Ares(System::Net::HttpStreamAsyncResult* value);
     // public System.Void .ctor(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Net.HttpStreamAsyncResult ares)
-    // Offset: 0x13969E8
+    // Offset: 0x16CF998
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChunkedInputStream::ReadBufferState* New_ctor(::Array<uint8_t>* buffer, int offset, int count, System::Net::HttpStreamAsyncResult* ares) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ChunkedInputStream::ReadBufferState::.ctor");

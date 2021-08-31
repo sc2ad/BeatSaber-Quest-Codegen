@@ -73,7 +73,7 @@ namespace TMPro {
     // Set instance field: public System.Int32 characterCount
     void _set_characterCount(int value);
     // public System.String GetWord()
-    // Offset: 0xD6B6C0
+    // Offset: 0x1453FDC
     ::Il2CppString* GetWord();
   }; // TMPro.TMP_WordInfo
   #pragma pack(pop)

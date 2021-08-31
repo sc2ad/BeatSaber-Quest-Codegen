@@ -46,10 +46,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set instance field: public System.Int32 b
     void _set_b(int value);
     // System.Boolean <SewUVs>b__0(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> x)
-    // Offset: 0x14003D8
+    // Offset: 0x174C0C0
     bool $SewUVs$b__0(System::Collections::Generic::KeyValuePair_2<int, int> x);
     // public System.Void .ctor()
-    // Offset: 0x13FE9C8
+    // Offset: 0x174A6B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

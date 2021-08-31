@@ -149,10 +149,10 @@ namespace GlobalNamespace {
     // Set instance field: public DynamicBoneColliderBase/Bound m_Bound
     void _set_m_Bound(GlobalNamespace::DynamicBoneColliderBase::Bound value);
     // public System.Void Collide(ref UnityEngine.Vector3 particlePosition, System.Single particleRadius)
-    // Offset: 0x1E1D4C8
+    // Offset: 0x23FDA8C
     void Collide(ByRef<UnityEngine::Vector3> particlePosition, float particleRadius);
     // public System.Void .ctor()
-    // Offset: 0x1E1D448
+    // Offset: 0x23FDA0C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

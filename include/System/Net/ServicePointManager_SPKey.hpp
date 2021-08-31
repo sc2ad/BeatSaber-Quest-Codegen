@@ -60,22 +60,22 @@ namespace System::Net {
     // Set instance field: private System.Boolean use_connect
     void _set_use_connect(bool value);
     // public System.Boolean get_UsesProxy()
-    // Offset: 0x11DD1E0
+    // Offset: 0x14A2E28
     bool get_UsesProxy();
     // public System.Void .ctor(System.Uri uri, System.Uri proxy, System.Boolean use_connect)
-    // Offset: 0x11DCE24
+    // Offset: 0x14A2A6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServicePointManager::SPKey* New_ctor(System::Uri* uri, System::Uri* proxy, bool use_connect) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ServicePointManager::SPKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServicePointManager::SPKey*, creationType>(uri, proxy, use_connect)));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0x11DD250
+    // Offset: 0x14A2E98
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x11DD334
+    // Offset: 0x14A2F7C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

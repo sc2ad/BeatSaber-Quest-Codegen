@@ -98,7 +98,7 @@ namespace GlobalNamespace {
     // Set instance field: private System.String _goStraightToMenuCommandArgument
     void _set__goStraightToMenuCommandArgument(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x1E4F6F8
+    // Offset: 0x102CC90
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     // Base method: System.Void MonoInstaller::.ctor()
@@ -114,22 +114,22 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PCAppInit*, creationType>()));
     }
     // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0x1E4F4F0
+    // Offset: 0x102CA88
     // Implemented from: AppInit
     // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
     void AppStartAndMultiSceneEditorSetup();
     // protected override System.Void RepeatableSetup()
-    // Offset: 0x1E4F574
+    // Offset: 0x102CB0C
     // Implemented from: AppInit
     // Base method: System.Void AppInit::RepeatableSetup()
     void RepeatableSetup();
     // protected override System.Void TransitionToNextScene()
-    // Offset: 0x1E4F5C0
+    // Offset: 0x102CB58
     // Implemented from: AppInit
     // Base method: System.Void AppInit::TransitionToNextScene()
     void TransitionToNextScene();
     // public override System.Void InstallBindings()
-    // Offset: 0x1E4F610
+    // Offset: 0x102CBA8
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

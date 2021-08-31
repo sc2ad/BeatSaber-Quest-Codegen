@@ -62,26 +62,26 @@ namespace GlobalNamespace {
     // Set instance field: public FlickeringNeonSign <>4__this
     void _set_$$4__this(GlobalNamespace::FlickeringNeonSign* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1E942E8
+    // Offset: 0x1059E74
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1E94350
+    // Offset: 0x1059EDC
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1E94060
+    // Offset: 0x1059BEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlickeringNeonSign::$FlickeringCoroutine$d__16* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::FlickeringNeonSign::$FlickeringCoroutine$d__16::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FlickeringNeonSign::$FlickeringCoroutine$d__16*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1E941BC
+    // Offset: 0x1059D48
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1E941C0
+    // Offset: 0x1059D4C
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1E942F0
+    // Offset: 0x1059E7C
     void System_Collections_IEnumerator_Reset();
   }; // FlickeringNeonSign/<FlickeringCoroutine>d__16
   #pragma pack(pop)

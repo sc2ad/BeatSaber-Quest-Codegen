@@ -90,13 +90,13 @@ namespace System::Net {
     // Set instance field: public System.AsyncCallback <>9__1
     void _set_$$9__1(System::AsyncCallback* value);
     // System.Void <WriteRequestAsync>b__0(System.Net.SimpleAsyncResult inner)
-    // Offset: 0x129D63C
+    // Offset: 0x15D58CC
     void $WriteRequestAsync$b__0(System::Net::SimpleAsyncResult* inner);
     // System.Void <WriteRequestAsync>b__1(System.IAsyncResult r)
-    // Offset: 0x129D7B4
+    // Offset: 0x15D5A44
     void $WriteRequestAsync$b__1(System::IAsyncResult* r);
     // public System.Void .ctor()
-    // Offset: 0x129CDEC
+    // Offset: 0x15D507C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

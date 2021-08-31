@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: RequestKickPlayerRpc
     RequestKickPlayerRpc() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x21419C0
+    // Offset: 0x16E96BC
     // Implemented from: RemoteProcedureCall`1
     // Base method: System.Void RemoteProcedureCall_1::.ctor()
     // Base method: System.Void RemoteProcedureCall::.ctor()

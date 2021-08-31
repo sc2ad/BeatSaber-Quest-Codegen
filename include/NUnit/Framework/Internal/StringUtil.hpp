@@ -17,10 +17,10 @@ namespace NUnit::Framework::Internal {
     // Creating value type constructor for type: StringUtil
     StringUtil() noexcept {}
     // static public System.Int32 Compare(System.String strA, System.String strB, System.Boolean ignoreCase)
-    // Offset: 0x1D0D568
+    // Offset: 0x229B0A4
     static int Compare(::Il2CppString* strA, ::Il2CppString* strB, bool ignoreCase);
     // static public System.Boolean StringsEqual(System.String strA, System.String strB, System.Boolean ignoreCase)
-    // Offset: 0x1D0D574
+    // Offset: 0x229B0B0
     static bool StringsEqual(::Il2CppString* strA, ::Il2CppString* strB, bool ignoreCase);
   }; // NUnit.Framework.Internal.StringUtil
   #pragma pack(pop)

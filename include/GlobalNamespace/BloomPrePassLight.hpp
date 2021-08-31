@@ -104,28 +104,28 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _isBeingDestroyed
     void _set__isBeingDestroyed(bool value);
     // static public System.Collections.Generic.Dictionary`2<BloomPrePassLightTypeSO,System.Collections.Generic.HashSet`1<BloomPrePassLight>> get_bloomLightsDict()
-    // Offset: 0x196052C
+    // Offset: 0x1E140B0
     static System::Collections::Generic::Dictionary_2<GlobalNamespace::BloomPrePassLightTypeSO*, System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight*>*>* get_bloomLightsDict();
     // static public System.Collections.Generic.List`1<BloomPrePassLight/LightsDataItem> get_lightsDataItems()
-    // Offset: 0x1960594
+    // Offset: 0x1E14118
     static System::Collections::Generic::List_1<GlobalNamespace::BloomPrePassLight::LightsDataItem*>* get_lightsDataItems();
     // public System.Boolean get_isDirty()
     // Offset: 0xFFFFFFFF
     bool get_isDirty();
     // protected System.Void OnEnable()
-    // Offset: 0x19605FC
+    // Offset: 0x1E14180
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x196087C
+    // Offset: 0x1E14400
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0x1960944
+    // Offset: 0x1E144C8
     void OnDestroy();
     // private System.Void RegisterLight()
-    // Offset: 0x1960600
+    // Offset: 0x1E14184
     void RegisterLight();
     // private System.Void UnregisterLight()
-    // Offset: 0x1960880
+    // Offset: 0x1E14404
     void UnregisterLight();
     // protected System.Void DidRegisterLight()
     // Offset: 0xFFFFFFFF
@@ -137,7 +137,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void Refresh();
     // protected System.Void .ctor()
-    // Offset: 0x1960988
+    // Offset: 0x1E1450C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -150,7 +150,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassLight*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1960990
+    // Offset: 0x1E14514
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
