@@ -52,14 +52,10 @@ namespace UnityEngine::XR {
     static_assert(sizeof(System::Action_1<UnityEngine::XR::XRInputSubsystem*>*) == 0x8);
     // Creating value type constructor for type: XRInputSubsystem
     XRInputSubsystem(System::Action_1<UnityEngine::XR::XRInputSubsystem*>* trackingOriginUpdated_ = {}, System::Action_1<UnityEngine::XR::XRInputSubsystem*>* boundaryChanged_ = {}) noexcept : trackingOriginUpdated{trackingOriginUpdated_}, boundaryChanged{boundaryChanged_} {}
-    // Get instance field: private System.Action`1<UnityEngine.XR.XRInputSubsystem> trackingOriginUpdated
-    System::Action_1<UnityEngine::XR::XRInputSubsystem*>* _get_trackingOriginUpdated();
-    // Set instance field: private System.Action`1<UnityEngine.XR.XRInputSubsystem> trackingOriginUpdated
-    void _set_trackingOriginUpdated(System::Action_1<UnityEngine::XR::XRInputSubsystem*>* value);
-    // Get instance field: private System.Action`1<UnityEngine.XR.XRInputSubsystem> boundaryChanged
-    System::Action_1<UnityEngine::XR::XRInputSubsystem*>* _get_boundaryChanged();
-    // Set instance field: private System.Action`1<UnityEngine.XR.XRInputSubsystem> boundaryChanged
-    void _set_boundaryChanged(System::Action_1<UnityEngine::XR::XRInputSubsystem*>* value);
+    // Get instance field reference: private System.Action`1<UnityEngine.XR.XRInputSubsystem> trackingOriginUpdated
+    System::Action_1<UnityEngine::XR::XRInputSubsystem*>*& dyn_trackingOriginUpdated();
+    // Get instance field reference: private System.Action`1<UnityEngine.XR.XRInputSubsystem> boundaryChanged
+    System::Action_1<UnityEngine::XR::XRInputSubsystem*>*& dyn_boundaryChanged();
     // static private System.Void InvokeTrackingOriginUpdatedEvent(System.IntPtr internalPtr)
     // Offset: 0x240AB80
     static void InvokeTrackingOriginUpdatedEvent(System::IntPtr internalPtr);

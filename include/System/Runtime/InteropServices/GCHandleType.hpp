@@ -57,10 +57,8 @@ namespace System::Runtime::InteropServices {
     static System::Runtime::InteropServices::GCHandleType _get_Pinned();
     // Set static field: static public System.Runtime.InteropServices.GCHandleType Pinned
     static void _set_Pinned(System::Runtime::InteropServices::GCHandleType value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Runtime.InteropServices.GCHandleType
   #pragma pack(pop)
   static check_size<sizeof(GCHandleType), 0 + sizeof(int)> __System_Runtime_InteropServices_GCHandleTypeSizeCheck;

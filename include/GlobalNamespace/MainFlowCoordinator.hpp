@@ -227,90 +227,48 @@ namespace GlobalNamespace {
     static bool _get__startWithSettings();
     // Set static field: static private System.Boolean _startWithSettings
     static void _set__startWithSettings(bool value);
-    // Get instance field: private MenuLightsPresetSO _defaultLightsPreset
-    GlobalNamespace::MenuLightsPresetSO* _get__defaultLightsPreset();
-    // Set instance field: private MenuLightsPresetSO _defaultLightsPreset
-    void _set__defaultLightsPreset(GlobalNamespace::MenuLightsPresetSO* value);
-    // Get instance field: private readonly SoloFreePlayFlowCoordinator _soloFreePlayFlowCoordinator
-    GlobalNamespace::SoloFreePlayFlowCoordinator* _get__soloFreePlayFlowCoordinator();
-    // Set instance field: private readonly SoloFreePlayFlowCoordinator _soloFreePlayFlowCoordinator
-    void _set__soloFreePlayFlowCoordinator(GlobalNamespace::SoloFreePlayFlowCoordinator* value);
-    // Get instance field: private readonly PartyFreePlayFlowCoordinator _partyFreePlayFlowCoordinator
-    GlobalNamespace::PartyFreePlayFlowCoordinator* _get__partyFreePlayFlowCoordinator();
-    // Set instance field: private readonly PartyFreePlayFlowCoordinator _partyFreePlayFlowCoordinator
-    void _set__partyFreePlayFlowCoordinator(GlobalNamespace::PartyFreePlayFlowCoordinator* value);
-    // Get instance field: private readonly CampaignFlowCoordinator _campaignFlowCoordinator
-    GlobalNamespace::CampaignFlowCoordinator* _get__campaignFlowCoordinator();
-    // Set instance field: private readonly CampaignFlowCoordinator _campaignFlowCoordinator
-    void _set__campaignFlowCoordinator(GlobalNamespace::CampaignFlowCoordinator* value);
-    // Get instance field: private readonly SettingsFlowCoordinator _settingsFlowCoordinator
-    GlobalNamespace::SettingsFlowCoordinator* _get__settingsFlowCoordinator();
-    // Set instance field: private readonly SettingsFlowCoordinator _settingsFlowCoordinator
-    void _set__settingsFlowCoordinator(GlobalNamespace::SettingsFlowCoordinator* value);
-    // Get instance field: private readonly MultiplayerModeSelectionFlowCoordinator _multiplayerModeSelectionFlowCoordinator
-    GlobalNamespace::MultiplayerModeSelectionFlowCoordinator* _get__multiplayerModeSelectionFlowCoordinator();
-    // Set instance field: private readonly MultiplayerModeSelectionFlowCoordinator _multiplayerModeSelectionFlowCoordinator
-    void _set__multiplayerModeSelectionFlowCoordinator(GlobalNamespace::MultiplayerModeSelectionFlowCoordinator* value);
-    // Get instance field: private readonly EditAvatarFlowCoordinator _editAvatarFlowCoordinator
-    GlobalNamespace::EditAvatarFlowCoordinator* _get__editAvatarFlowCoordinator();
-    // Set instance field: private readonly EditAvatarFlowCoordinator _editAvatarFlowCoordinator
-    void _set__editAvatarFlowCoordinator(GlobalNamespace::EditAvatarFlowCoordinator* value);
-    // Get instance field: private readonly SimpleDialogPromptViewController _simpleDialogPromptViewController
-    GlobalNamespace::SimpleDialogPromptViewController* _get__simpleDialogPromptViewController();
-    // Set instance field: private readonly SimpleDialogPromptViewController _simpleDialogPromptViewController
-    void _set__simpleDialogPromptViewController(GlobalNamespace::SimpleDialogPromptViewController* value);
-    // Get instance field: private readonly MainMenuViewController _mainMenuViewController
-    GlobalNamespace::MainMenuViewController* _get__mainMenuViewController();
-    // Set instance field: private readonly MainMenuViewController _mainMenuViewController
-    void _set__mainMenuViewController(GlobalNamespace::MainMenuViewController* value);
-    // Get instance field: private readonly HowToPlayViewController _howToPlayViewController
-    GlobalNamespace::HowToPlayViewController* _get__howToPlayViewController();
-    // Set instance field: private readonly HowToPlayViewController _howToPlayViewController
-    void _set__howToPlayViewController(GlobalNamespace::HowToPlayViewController* value);
-    // Get instance field: private readonly PlayerOptionsViewController _playerOptionsViewController
-    GlobalNamespace::PlayerOptionsViewController* _get__playerOptionsViewController();
-    // Set instance field: private readonly PlayerOptionsViewController _playerOptionsViewController
-    void _set__playerOptionsViewController(GlobalNamespace::PlayerOptionsViewController* value);
-    // Get instance field: private readonly OptionsViewController _optionsViewController
-    GlobalNamespace::OptionsViewController* _get__optionsViewController();
-    // Set instance field: private readonly OptionsViewController _optionsViewController
-    void _set__optionsViewController(GlobalNamespace::OptionsViewController* value);
-    // Get instance field: private readonly PlayerStatisticsViewController _playerStatisticsViewController
-    GlobalNamespace::PlayerStatisticsViewController* _get__playerStatisticsViewController();
-    // Set instance field: private readonly PlayerStatisticsViewController _playerStatisticsViewController
-    void _set__playerStatisticsViewController(GlobalNamespace::PlayerStatisticsViewController* value);
-    // Get instance field: private readonly PlayerDataModel _playerDataModel
-    GlobalNamespace::PlayerDataModel* _get__playerDataModel();
-    // Set instance field: private readonly PlayerDataModel _playerDataModel
-    void _set__playerDataModel(GlobalNamespace::PlayerDataModel* value);
-    // Get instance field: private readonly MenuLightsManager _menuLightsManager
-    GlobalNamespace::MenuLightsManager* _get__menuLightsManager();
-    // Set instance field: private readonly MenuLightsManager _menuLightsManager
-    void _set__menuLightsManager(GlobalNamespace::MenuLightsManager* value);
-    // Get instance field: private readonly FadeInOutController _fadeInOut
-    GlobalNamespace::FadeInOutController* _get__fadeInOut();
-    // Set instance field: private readonly FadeInOutController _fadeInOut
-    void _set__fadeInOut(GlobalNamespace::FadeInOutController* value);
-    // Get instance field: private readonly BeatmapLevelsModel _beatmapLevelsModel
-    GlobalNamespace::BeatmapLevelsModel* _get__beatmapLevelsModel();
-    // Set instance field: private readonly BeatmapLevelsModel _beatmapLevelsModel
-    void _set__beatmapLevelsModel(GlobalNamespace::BeatmapLevelsModel* value);
-    // Get instance field: private readonly MenuTransitionsHelper _menuTransitionsHelper
-    GlobalNamespace::MenuTransitionsHelper* _get__menuTransitionsHelper();
-    // Set instance field: private readonly MenuTransitionsHelper _menuTransitionsHelper
-    void _set__menuTransitionsHelper(GlobalNamespace::MenuTransitionsHelper* value);
-    // Get instance field: private readonly AppStaticSettingsSO _appStaticSettings
-    GlobalNamespace::AppStaticSettingsSO* _get__appStaticSettings();
-    // Set instance field: private readonly AppStaticSettingsSO _appStaticSettings
-    void _set__appStaticSettings(GlobalNamespace::AppStaticSettingsSO* value);
-    // Get instance field: private MenuDestination _menuDestinationRequest
-    GlobalNamespace::MenuDestination* _get__menuDestinationRequest();
-    // Set instance field: private MenuDestination _menuDestinationRequest
-    void _set__menuDestinationRequest(GlobalNamespace::MenuDestination* value);
-    // Get instance field: private HMUI.FlowCoordinator _afterDialogPromptFlowCoordinator
-    HMUI::FlowCoordinator* _get__afterDialogPromptFlowCoordinator();
-    // Set instance field: private HMUI.FlowCoordinator _afterDialogPromptFlowCoordinator
-    void _set__afterDialogPromptFlowCoordinator(HMUI::FlowCoordinator* value);
+    // Get instance field reference: private MenuLightsPresetSO _defaultLightsPreset
+    GlobalNamespace::MenuLightsPresetSO*& dyn__defaultLightsPreset();
+    // Get instance field reference: private readonly SoloFreePlayFlowCoordinator _soloFreePlayFlowCoordinator
+    GlobalNamespace::SoloFreePlayFlowCoordinator*& dyn__soloFreePlayFlowCoordinator();
+    // Get instance field reference: private readonly PartyFreePlayFlowCoordinator _partyFreePlayFlowCoordinator
+    GlobalNamespace::PartyFreePlayFlowCoordinator*& dyn__partyFreePlayFlowCoordinator();
+    // Get instance field reference: private readonly CampaignFlowCoordinator _campaignFlowCoordinator
+    GlobalNamespace::CampaignFlowCoordinator*& dyn__campaignFlowCoordinator();
+    // Get instance field reference: private readonly SettingsFlowCoordinator _settingsFlowCoordinator
+    GlobalNamespace::SettingsFlowCoordinator*& dyn__settingsFlowCoordinator();
+    // Get instance field reference: private readonly MultiplayerModeSelectionFlowCoordinator _multiplayerModeSelectionFlowCoordinator
+    GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*& dyn__multiplayerModeSelectionFlowCoordinator();
+    // Get instance field reference: private readonly EditAvatarFlowCoordinator _editAvatarFlowCoordinator
+    GlobalNamespace::EditAvatarFlowCoordinator*& dyn__editAvatarFlowCoordinator();
+    // Get instance field reference: private readonly SimpleDialogPromptViewController _simpleDialogPromptViewController
+    GlobalNamespace::SimpleDialogPromptViewController*& dyn__simpleDialogPromptViewController();
+    // Get instance field reference: private readonly MainMenuViewController _mainMenuViewController
+    GlobalNamespace::MainMenuViewController*& dyn__mainMenuViewController();
+    // Get instance field reference: private readonly HowToPlayViewController _howToPlayViewController
+    GlobalNamespace::HowToPlayViewController*& dyn__howToPlayViewController();
+    // Get instance field reference: private readonly PlayerOptionsViewController _playerOptionsViewController
+    GlobalNamespace::PlayerOptionsViewController*& dyn__playerOptionsViewController();
+    // Get instance field reference: private readonly OptionsViewController _optionsViewController
+    GlobalNamespace::OptionsViewController*& dyn__optionsViewController();
+    // Get instance field reference: private readonly PlayerStatisticsViewController _playerStatisticsViewController
+    GlobalNamespace::PlayerStatisticsViewController*& dyn__playerStatisticsViewController();
+    // Get instance field reference: private readonly PlayerDataModel _playerDataModel
+    GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
+    // Get instance field reference: private readonly MenuLightsManager _menuLightsManager
+    GlobalNamespace::MenuLightsManager*& dyn__menuLightsManager();
+    // Get instance field reference: private readonly FadeInOutController _fadeInOut
+    GlobalNamespace::FadeInOutController*& dyn__fadeInOut();
+    // Get instance field reference: private readonly BeatmapLevelsModel _beatmapLevelsModel
+    GlobalNamespace::BeatmapLevelsModel*& dyn__beatmapLevelsModel();
+    // Get instance field reference: private readonly MenuTransitionsHelper _menuTransitionsHelper
+    GlobalNamespace::MenuTransitionsHelper*& dyn__menuTransitionsHelper();
+    // Get instance field reference: private readonly AppStaticSettingsSO _appStaticSettings
+    GlobalNamespace::AppStaticSettingsSO*& dyn__appStaticSettings();
+    // Get instance field reference: private MenuDestination _menuDestinationRequest
+    GlobalNamespace::MenuDestination*& dyn__menuDestinationRequest();
+    // Get instance field reference: private HMUI.FlowCoordinator _afterDialogPromptFlowCoordinator
+    HMUI::FlowCoordinator*& dyn__afterDialogPromptFlowCoordinator();
     // private System.Void PresentFlowCoordinatorOrAskForTutorial(HMUI.FlowCoordinator flowCoordinator)
     // Offset: 0x10DF810
     void PresentFlowCoordinatorOrAskForTutorial(HMUI::FlowCoordinator* flowCoordinator);

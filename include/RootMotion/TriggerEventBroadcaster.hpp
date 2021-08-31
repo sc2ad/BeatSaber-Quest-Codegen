@@ -39,10 +39,8 @@ namespace RootMotion {
     TriggerEventBroadcaster(UnityEngine::GameObject* target_ = {}) noexcept : target{target_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public UnityEngine.GameObject target
-    UnityEngine::GameObject* _get_target();
-    // Set instance field: public UnityEngine.GameObject target
-    void _set_target(UnityEngine::GameObject* value);
+    // Get instance field reference: public UnityEngine.GameObject target
+    UnityEngine::GameObject*& dyn_target();
     // private System.Void OnTriggerEnter(UnityEngine.Collider collider)
     // Offset: 0x1AEADCC
     void OnTriggerEnter(UnityEngine::Collider* collider);

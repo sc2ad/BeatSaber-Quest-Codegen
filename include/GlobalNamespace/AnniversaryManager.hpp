@@ -46,14 +46,10 @@ namespace GlobalNamespace {
     AnniversaryManager(GlobalNamespace::FireworksController* fireworksController_ = {}, GlobalNamespace::MainMenuViewController* mainMenuViewController_ = {}) noexcept : fireworksController{fireworksController_}, mainMenuViewController{mainMenuViewController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private FireworksController _fireworksController
-    GlobalNamespace::FireworksController* _get__fireworksController();
-    // Set instance field: private FireworksController _fireworksController
-    void _set__fireworksController(GlobalNamespace::FireworksController* value);
-    // Get instance field: private readonly MainMenuViewController _mainMenuViewController
-    GlobalNamespace::MainMenuViewController* _get__mainMenuViewController();
-    // Set instance field: private readonly MainMenuViewController _mainMenuViewController
-    void _set__mainMenuViewController(GlobalNamespace::MainMenuViewController* value);
+    // Get instance field reference: private FireworksController _fireworksController
+    GlobalNamespace::FireworksController*& dyn__fireworksController();
+    // Get instance field reference: private readonly MainMenuViewController _mainMenuViewController
+    GlobalNamespace::MainMenuViewController*& dyn__mainMenuViewController();
     // protected System.Void Start()
     // Offset: 0x1179038
     void Start();

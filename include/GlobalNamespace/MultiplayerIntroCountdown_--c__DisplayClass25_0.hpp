@@ -47,14 +47,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::MultiplayerIntroCountdown*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass25_0
     $$c__DisplayClass25_0(GlobalNamespace::MultiplayerIntroCountdownTextController* textController_ = {}, GlobalNamespace::MultiplayerIntroCountdown* $$4__this_ = {}) noexcept : textController{textController_}, $$4__this{$$4__this_} {}
-    // Get instance field: public MultiplayerIntroCountdownTextController textController
-    GlobalNamespace::MultiplayerIntroCountdownTextController* _get_textController();
-    // Set instance field: public MultiplayerIntroCountdownTextController textController
-    void _set_textController(GlobalNamespace::MultiplayerIntroCountdownTextController* value);
-    // Get instance field: public MultiplayerIntroCountdown <>4__this
-    GlobalNamespace::MultiplayerIntroCountdown* _get_$$4__this();
-    // Set instance field: public MultiplayerIntroCountdown <>4__this
-    void _set_$$4__this(GlobalNamespace::MultiplayerIntroCountdown* value);
+    // Get instance field reference: public MultiplayerIntroCountdownTextController textController
+    GlobalNamespace::MultiplayerIntroCountdownTextController*& dyn_textController();
+    // Get instance field reference: public MultiplayerIntroCountdown <>4__this
+    GlobalNamespace::MultiplayerIntroCountdown*& dyn_$$4__this();
     // System.Void <PhaseRoutine>b__0(System.Single val)
     // Offset: 0x11B2868
     void $PhaseRoutine$b__0(float val);

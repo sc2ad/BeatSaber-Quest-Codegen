@@ -45,10 +45,8 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Boolean <jumpToDestinationValid>k__BackingField
-    bool _get_$jumpToDestinationValid$k__BackingField();
-    // Set instance field: private System.Boolean <jumpToDestinationValid>k__BackingField
-    void _set_$jumpToDestinationValid$k__BackingField(bool value);
+    // Get instance field reference: private System.Boolean <jumpToDestinationValid>k__BackingField
+    bool& dyn_$jumpToDestinationValid$k__BackingField();
     // public System.Boolean get_jumpToDestinationValid()
     // Offset: 0x12655FC
     bool get_jumpToDestinationValid();

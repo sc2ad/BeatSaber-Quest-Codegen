@@ -51,14 +51,10 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public readonly System.String code
-    ::Il2CppString* _get_code();
-    // Set instance field: public readonly System.String code
-    void _set_code(::Il2CppString* value);
-    // Get instance field: public readonly System.Int32 currentPlayerCount
-    int _get_currentPlayerCount();
-    // Set instance field: public readonly System.Int32 currentPlayerCount
-    void _set_currentPlayerCount(int value);
+    // Get instance field reference: public readonly System.String code
+    ::Il2CppString*& dyn_code();
+    // Get instance field reference: public readonly System.Int32 currentPlayerCount
+    int& dyn_currentPlayerCount();
     // public System.Void .ctor(System.String code, System.Int32 currentPlayerCount)
     // Offset: 0x16F6470
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

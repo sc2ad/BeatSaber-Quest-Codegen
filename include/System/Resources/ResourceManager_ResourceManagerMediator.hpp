@@ -32,10 +32,8 @@ namespace System::Resources {
     constexpr operator System::Resources::ResourceManager*() const noexcept {
       return rm;
     }
-    // Get instance field: private System.Resources.ResourceManager _rm
-    System::Resources::ResourceManager* _get__rm();
-    // Set instance field: private System.Resources.ResourceManager _rm
-    void _set__rm(System::Resources::ResourceManager* value);
+    // Get instance field reference: private System.Resources.ResourceManager _rm
+    System::Resources::ResourceManager*& dyn__rm();
     // System.Void .ctor(System.Resources.ResourceManager rm)
     // Offset: 0x147F6C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

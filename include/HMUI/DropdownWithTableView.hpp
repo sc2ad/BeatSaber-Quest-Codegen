@@ -83,30 +83,18 @@ namespace HMUI {
     DropdownWithTableView(UnityEngine::UI::Button* button_ = {}, HMUI::TableView* tableView_ = {}, HMUI::ModalView* modalView_ = {}, int numberOfVisibleCells_ = {}, System::Action_2<HMUI::DropdownWithTableView*, int>* didSelectCellWithIdxEvent_ = {}, int selectedIndex_ = {}) noexcept : button{button_}, tableView{tableView_}, modalView{modalView_}, numberOfVisibleCells{numberOfVisibleCells_}, didSelectCellWithIdxEvent{didSelectCellWithIdxEvent_}, selectedIndex{selectedIndex_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.UI.Button _button
-    UnityEngine::UI::Button* _get__button();
-    // Set instance field: private UnityEngine.UI.Button _button
-    void _set__button(UnityEngine::UI::Button* value);
-    // Get instance field: private HMUI.TableView _tableView
-    HMUI::TableView* _get__tableView();
-    // Set instance field: private HMUI.TableView _tableView
-    void _set__tableView(HMUI::TableView* value);
-    // Get instance field: private HMUI.ModalView _modalView
-    HMUI::ModalView* _get__modalView();
-    // Set instance field: private HMUI.ModalView _modalView
-    void _set__modalView(HMUI::ModalView* value);
-    // Get instance field: private System.Int32 _numberOfVisibleCells
-    int _get__numberOfVisibleCells();
-    // Set instance field: private System.Int32 _numberOfVisibleCells
-    void _set__numberOfVisibleCells(int value);
-    // Get instance field: private System.Action`2<HMUI.DropdownWithTableView,System.Int32> didSelectCellWithIdxEvent
-    System::Action_2<HMUI::DropdownWithTableView*, int>* _get_didSelectCellWithIdxEvent();
-    // Set instance field: private System.Action`2<HMUI.DropdownWithTableView,System.Int32> didSelectCellWithIdxEvent
-    void _set_didSelectCellWithIdxEvent(System::Action_2<HMUI::DropdownWithTableView*, int>* value);
-    // Get instance field: private System.Int32 <selectedIndex>k__BackingField
-    int _get_$selectedIndex$k__BackingField();
-    // Set instance field: private System.Int32 <selectedIndex>k__BackingField
-    void _set_$selectedIndex$k__BackingField(int value);
+    // Get instance field reference: private UnityEngine.UI.Button _button
+    UnityEngine::UI::Button*& dyn__button();
+    // Get instance field reference: private HMUI.TableView _tableView
+    HMUI::TableView*& dyn__tableView();
+    // Get instance field reference: private HMUI.ModalView _modalView
+    HMUI::ModalView*& dyn__modalView();
+    // Get instance field reference: private System.Int32 _numberOfVisibleCells
+    int& dyn__numberOfVisibleCells();
+    // Get instance field reference: private System.Action`2<HMUI.DropdownWithTableView,System.Int32> didSelectCellWithIdxEvent
+    System::Action_2<HMUI::DropdownWithTableView*, int>*& dyn_didSelectCellWithIdxEvent();
+    // Get instance field reference: private System.Int32 <selectedIndex>k__BackingField
+    int& dyn_$selectedIndex$k__BackingField();
     // public HMUI.TableView/HMUI.IDataSource get_tableViewDataSource()
     // Offset: 0x136A978
     HMUI::TableView::IDataSource* get_tableViewDataSource();

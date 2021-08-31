@@ -76,34 +76,20 @@ namespace System {
     static_assert(sizeof(System::DelegateSerializationHolder::DelegateEntry*) == 0x8);
     // Creating value type constructor for type: DelegateEntry
     DelegateEntry(::Il2CppString* type_ = {}, ::Il2CppString* assembly_ = {}, ::Il2CppObject* target_ = {}, ::Il2CppString* targetTypeAssembly_ = {}, ::Il2CppString* targetTypeName_ = {}, ::Il2CppString* methodName_ = {}, System::DelegateSerializationHolder::DelegateEntry* delegateEntry_ = {}) noexcept : type{type_}, assembly{assembly_}, target{target_}, targetTypeAssembly{targetTypeAssembly_}, targetTypeName{targetTypeName_}, methodName{methodName_}, delegateEntry{delegateEntry_} {}
-    // Get instance field: private System.String type
-    ::Il2CppString* _get_type();
-    // Set instance field: private System.String type
-    void _set_type(::Il2CppString* value);
-    // Get instance field: private System.String assembly
-    ::Il2CppString* _get_assembly();
-    // Set instance field: private System.String assembly
-    void _set_assembly(::Il2CppString* value);
-    // Get instance field: private System.Object target
-    ::Il2CppObject* _get_target();
-    // Set instance field: private System.Object target
-    void _set_target(::Il2CppObject* value);
-    // Get instance field: private System.String targetTypeAssembly
-    ::Il2CppString* _get_targetTypeAssembly();
-    // Set instance field: private System.String targetTypeAssembly
-    void _set_targetTypeAssembly(::Il2CppString* value);
-    // Get instance field: private System.String targetTypeName
-    ::Il2CppString* _get_targetTypeName();
-    // Set instance field: private System.String targetTypeName
-    void _set_targetTypeName(::Il2CppString* value);
-    // Get instance field: private System.String methodName
-    ::Il2CppString* _get_methodName();
-    // Set instance field: private System.String methodName
-    void _set_methodName(::Il2CppString* value);
-    // Get instance field: public System.DelegateSerializationHolder/System.DelegateEntry delegateEntry
-    System::DelegateSerializationHolder::DelegateEntry* _get_delegateEntry();
-    // Set instance field: public System.DelegateSerializationHolder/System.DelegateEntry delegateEntry
-    void _set_delegateEntry(System::DelegateSerializationHolder::DelegateEntry* value);
+    // Get instance field reference: private System.String type
+    ::Il2CppString*& dyn_type();
+    // Get instance field reference: private System.String assembly
+    ::Il2CppString*& dyn_assembly();
+    // Get instance field reference: private System.Object target
+    ::Il2CppObject*& dyn_target();
+    // Get instance field reference: private System.String targetTypeAssembly
+    ::Il2CppString*& dyn_targetTypeAssembly();
+    // Get instance field reference: private System.String targetTypeName
+    ::Il2CppString*& dyn_targetTypeName();
+    // Get instance field reference: private System.String methodName
+    ::Il2CppString*& dyn_methodName();
+    // Get instance field reference: public System.DelegateSerializationHolder/System.DelegateEntry delegateEntry
+    System::DelegateSerializationHolder::DelegateEntry*& dyn_delegateEntry();
     // public System.Void .ctor(System.Delegate del, System.String targetLabel)
     // Offset: 0x1B641BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

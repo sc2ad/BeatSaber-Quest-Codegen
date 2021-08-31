@@ -258,110 +258,58 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     static UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* _get_$CurrentContext$k__BackingField();
     // Set static field: static private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext <CurrentContext>k__BackingField
     static void _set_$CurrentContext$k__BackingField(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* value);
-    // Get instance field: private readonly UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext _priorContext
-    UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* _get__priorContext();
-    // Set instance field: private readonly UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext _priorContext
-    void _set__priorContext(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* value);
-    // Get instance field: private NUnit.Framework.Internal.TestResult _currentResult
-    NUnit::Framework::Internal::TestResult* _get__currentResult();
-    // Set instance field: private NUnit.Framework.Internal.TestResult _currentResult
-    void _set__currentResult(NUnit::Framework::Internal::TestResult* value);
-    // Get instance field: private System.Int32 _assertCount
-    int _get__assertCount();
-    // Set instance field: private System.Int32 _assertCount
-    void _set__assertCount(int value);
-    // Get instance field: private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext <Context>k__BackingField
-    UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* _get_$Context$k__BackingField();
-    // Set instance field: private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext <Context>k__BackingField
-    void _set_$Context$k__BackingField(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* value);
-    // Get instance field: private NUnit.Framework.Internal.Test <CurrentTest>k__BackingField
-    NUnit::Framework::Internal::Test* _get_$CurrentTest$k__BackingField();
-    // Set instance field: private NUnit.Framework.Internal.Test <CurrentTest>k__BackingField
-    void _set_$CurrentTest$k__BackingField(NUnit::Framework::Internal::Test* value);
-    // Get instance field: private System.DateTime <StartTime>k__BackingField
-    System::DateTime _get_$StartTime$k__BackingField();
-    // Set instance field: private System.DateTime <StartTime>k__BackingField
-    void _set_$StartTime$k__BackingField(System::DateTime value);
-    // Get instance field: private System.Int64 <StartTicks>k__BackingField
-    int64_t _get_$StartTicks$k__BackingField();
-    // Set instance field: private System.Int64 <StartTicks>k__BackingField
-    void _set_$StartTicks$k__BackingField(int64_t value);
-    // Get instance field: private System.Object <TestObject>k__BackingField
-    ::Il2CppObject* _get_$TestObject$k__BackingField();
-    // Set instance field: private System.Object <TestObject>k__BackingField
-    void _set_$TestObject$k__BackingField(::Il2CppObject* value);
-    // Get instance field: private System.String <WorkDirectory>k__BackingField
-    ::Il2CppString* _get_$WorkDirectory$k__BackingField();
-    // Set instance field: private System.String <WorkDirectory>k__BackingField
-    void _set_$WorkDirectory$k__BackingField(::Il2CppString* value);
-    // Get instance field: private NUnit.Framework.Internal.TestExecutionStatus _executionStatus
-    NUnit::Framework::Internal::TestExecutionStatus _get__executionStatus();
-    // Set instance field: private NUnit.Framework.Internal.TestExecutionStatus _executionStatus
-    void _set__executionStatus(NUnit::Framework::Internal::TestExecutionStatus value);
-    // Get instance field: private System.Collections.Generic.List`1<NUnit.Framework.ITestAction> <UpstreamActions>k__BackingField
-    System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>* _get_$UpstreamActions$k__BackingField();
-    // Set instance field: private System.Collections.Generic.List`1<NUnit.Framework.ITestAction> <UpstreamActions>k__BackingField
-    void _set_$UpstreamActions$k__BackingField(System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>* value);
-    // Get instance field: private System.Int32 <TestCaseTimeout>k__BackingField
-    int _get_$TestCaseTimeout$k__BackingField();
-    // Set instance field: private System.Int32 <TestCaseTimeout>k__BackingField
-    void _set_$TestCaseTimeout$k__BackingField(int value);
-    // Get instance field: private System.Globalization.CultureInfo <CurrentCulture>k__BackingField
-    System::Globalization::CultureInfo* _get_$CurrentCulture$k__BackingField();
-    // Set instance field: private System.Globalization.CultureInfo <CurrentCulture>k__BackingField
-    void _set_$CurrentCulture$k__BackingField(System::Globalization::CultureInfo* value);
-    // Get instance field: private System.Globalization.CultureInfo <CurrentUICulture>k__BackingField
-    System::Globalization::CultureInfo* _get_$CurrentUICulture$k__BackingField();
-    // Set instance field: private System.Globalization.CultureInfo <CurrentUICulture>k__BackingField
-    void _set_$CurrentUICulture$k__BackingField(System::Globalization::CultureInfo* value);
-    // Get instance field: private NUnit.Framework.Interfaces.ITestListener <Listener>k__BackingField
-    NUnit::Framework::Interfaces::ITestListener* _get_$Listener$k__BackingField();
-    // Set instance field: private NUnit.Framework.Interfaces.ITestListener <Listener>k__BackingField
-    void _set_$Listener$k__BackingField(NUnit::Framework::Interfaces::ITestListener* value);
-    // Get instance field: private System.IO.TextWriter <OutWriter>k__BackingField
-    System::IO::TextWriter* _get_$OutWriter$k__BackingField();
-    // Set instance field: private System.IO.TextWriter <OutWriter>k__BackingField
-    void _set_$OutWriter$k__BackingField(System::IO::TextWriter* value);
-    // Get instance field: private System.Boolean <StopOnError>k__BackingField
-    bool _get_$StopOnError$k__BackingField();
-    // Set instance field: private System.Boolean <StopOnError>k__BackingField
-    void _set_$StopOnError$k__BackingField(bool value);
-    // Get instance field: private NUnit.Framework.Internal.Execution.IWorkItemDispatcher <Dispatcher>k__BackingField
-    NUnit::Framework::Internal::Execution::IWorkItemDispatcher* _get_$Dispatcher$k__BackingField();
-    // Set instance field: private NUnit.Framework.Internal.Execution.IWorkItemDispatcher <Dispatcher>k__BackingField
-    void _set_$Dispatcher$k__BackingField(NUnit::Framework::Internal::Execution::IWorkItemDispatcher* value);
-    // Get instance field: private NUnit.Framework.ParallelScope <ParallelScope>k__BackingField
-    NUnit::Framework::ParallelScope _get_$ParallelScope$k__BackingField();
-    // Set instance field: private NUnit.Framework.ParallelScope <ParallelScope>k__BackingField
-    void _set_$ParallelScope$k__BackingField(NUnit::Framework::ParallelScope value);
-    // Get instance field: private System.String <WorkerId>k__BackingField
-    ::Il2CppString* _get_$WorkerId$k__BackingField();
-    // Set instance field: private System.String <WorkerId>k__BackingField
-    void _set_$WorkerId$k__BackingField(::Il2CppString* value);
-    // Get instance field: private NUnit.Framework.Internal.Randomizer <RandomGenerator>k__BackingField
-    NUnit::Framework::Internal::Randomizer* _get_$RandomGenerator$k__BackingField();
-    // Set instance field: private NUnit.Framework.Internal.Randomizer <RandomGenerator>k__BackingField
-    void _set_$RandomGenerator$k__BackingField(NUnit::Framework::Internal::Randomizer* value);
-    // Get instance field: private NUnit.Framework.Constraints.ValueFormatter <CurrentValueFormatter>k__BackingField
-    NUnit::Framework::Constraints::ValueFormatter* _get_$CurrentValueFormatter$k__BackingField();
-    // Set instance field: private NUnit.Framework.Constraints.ValueFormatter <CurrentValueFormatter>k__BackingField
-    void _set_$CurrentValueFormatter$k__BackingField(NUnit::Framework::Constraints::ValueFormatter* value);
-    // Get instance field: private System.Boolean <IsSingleThreaded>k__BackingField
-    bool _get_$IsSingleThreaded$k__BackingField();
-    // Set instance field: private System.Boolean <IsSingleThreaded>k__BackingField
-    void _set_$IsSingleThreaded$k__BackingField(bool value);
-    // Get instance field: private UnityEngine.TestTools.BeforeAfterTestCommandState <SetUpTearDownState>k__BackingField
-    UnityEngine::TestTools::BeforeAfterTestCommandState* _get_$SetUpTearDownState$k__BackingField();
-    // Set instance field: private UnityEngine.TestTools.BeforeAfterTestCommandState <SetUpTearDownState>k__BackingField
-    void _set_$SetUpTearDownState$k__BackingField(UnityEngine::TestTools::BeforeAfterTestCommandState* value);
-    // Get instance field: private UnityEngine.TestTools.BeforeAfterTestCommandState <OuterUnityTestActionState>k__BackingField
-    UnityEngine::TestTools::BeforeAfterTestCommandState* _get_$OuterUnityTestActionState$k__BackingField();
-    // Set instance field: private UnityEngine.TestTools.BeforeAfterTestCommandState <OuterUnityTestActionState>k__BackingField
-    void _set_$OuterUnityTestActionState$k__BackingField(UnityEngine::TestTools::BeforeAfterTestCommandState* value);
-    // Get instance field: private UnityEngine.TestTools.EnumerableTestState <EnumerableTestState>k__BackingField
-    UnityEngine::TestTools::EnumerableTestState* _get_$EnumerableTestState$k__BackingField();
-    // Set instance field: private UnityEngine.TestTools.EnumerableTestState <EnumerableTestState>k__BackingField
-    void _set_$EnumerableTestState$k__BackingField(UnityEngine::TestTools::EnumerableTestState* value);
+    // Get instance field reference: private readonly UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext _priorContext
+    UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*& dyn__priorContext();
+    // Get instance field reference: private NUnit.Framework.Internal.TestResult _currentResult
+    NUnit::Framework::Internal::TestResult*& dyn__currentResult();
+    // Get instance field reference: private System.Int32 _assertCount
+    int& dyn__assertCount();
+    // Get instance field reference: private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext <Context>k__BackingField
+    UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*& dyn_$Context$k__BackingField();
+    // Get instance field reference: private NUnit.Framework.Internal.Test <CurrentTest>k__BackingField
+    NUnit::Framework::Internal::Test*& dyn_$CurrentTest$k__BackingField();
+    // Get instance field reference: private System.DateTime <StartTime>k__BackingField
+    System::DateTime& dyn_$StartTime$k__BackingField();
+    // Get instance field reference: private System.Int64 <StartTicks>k__BackingField
+    int64_t& dyn_$StartTicks$k__BackingField();
+    // Get instance field reference: private System.Object <TestObject>k__BackingField
+    ::Il2CppObject*& dyn_$TestObject$k__BackingField();
+    // Get instance field reference: private System.String <WorkDirectory>k__BackingField
+    ::Il2CppString*& dyn_$WorkDirectory$k__BackingField();
+    // Get instance field reference: private NUnit.Framework.Internal.TestExecutionStatus _executionStatus
+    NUnit::Framework::Internal::TestExecutionStatus& dyn__executionStatus();
+    // Get instance field reference: private System.Collections.Generic.List`1<NUnit.Framework.ITestAction> <UpstreamActions>k__BackingField
+    System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>*& dyn_$UpstreamActions$k__BackingField();
+    // Get instance field reference: private System.Int32 <TestCaseTimeout>k__BackingField
+    int& dyn_$TestCaseTimeout$k__BackingField();
+    // Get instance field reference: private System.Globalization.CultureInfo <CurrentCulture>k__BackingField
+    System::Globalization::CultureInfo*& dyn_$CurrentCulture$k__BackingField();
+    // Get instance field reference: private System.Globalization.CultureInfo <CurrentUICulture>k__BackingField
+    System::Globalization::CultureInfo*& dyn_$CurrentUICulture$k__BackingField();
+    // Get instance field reference: private NUnit.Framework.Interfaces.ITestListener <Listener>k__BackingField
+    NUnit::Framework::Interfaces::ITestListener*& dyn_$Listener$k__BackingField();
+    // Get instance field reference: private System.IO.TextWriter <OutWriter>k__BackingField
+    System::IO::TextWriter*& dyn_$OutWriter$k__BackingField();
+    // Get instance field reference: private System.Boolean <StopOnError>k__BackingField
+    bool& dyn_$StopOnError$k__BackingField();
+    // Get instance field reference: private NUnit.Framework.Internal.Execution.IWorkItemDispatcher <Dispatcher>k__BackingField
+    NUnit::Framework::Internal::Execution::IWorkItemDispatcher*& dyn_$Dispatcher$k__BackingField();
+    // Get instance field reference: private NUnit.Framework.ParallelScope <ParallelScope>k__BackingField
+    NUnit::Framework::ParallelScope& dyn_$ParallelScope$k__BackingField();
+    // Get instance field reference: private System.String <WorkerId>k__BackingField
+    ::Il2CppString*& dyn_$WorkerId$k__BackingField();
+    // Get instance field reference: private NUnit.Framework.Internal.Randomizer <RandomGenerator>k__BackingField
+    NUnit::Framework::Internal::Randomizer*& dyn_$RandomGenerator$k__BackingField();
+    // Get instance field reference: private NUnit.Framework.Constraints.ValueFormatter <CurrentValueFormatter>k__BackingField
+    NUnit::Framework::Constraints::ValueFormatter*& dyn_$CurrentValueFormatter$k__BackingField();
+    // Get instance field reference: private System.Boolean <IsSingleThreaded>k__BackingField
+    bool& dyn_$IsSingleThreaded$k__BackingField();
+    // Get instance field reference: private UnityEngine.TestTools.BeforeAfterTestCommandState <SetUpTearDownState>k__BackingField
+    UnityEngine::TestTools::BeforeAfterTestCommandState*& dyn_$SetUpTearDownState$k__BackingField();
+    // Get instance field reference: private UnityEngine.TestTools.BeforeAfterTestCommandState <OuterUnityTestActionState>k__BackingField
+    UnityEngine::TestTools::BeforeAfterTestCommandState*& dyn_$OuterUnityTestActionState$k__BackingField();
+    // Get instance field reference: private UnityEngine.TestTools.EnumerableTestState <EnumerableTestState>k__BackingField
+    UnityEngine::TestTools::EnumerableTestState*& dyn_$EnumerableTestState$k__BackingField();
     // static public UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext get_CurrentContext()
     // Offset: 0x14B91EC
     static UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* get_CurrentContext();

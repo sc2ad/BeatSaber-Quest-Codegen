@@ -43,10 +43,8 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::IConnectedPlayer*() const noexcept {
       return connectedPlayer;
     }
-    // Get instance field: private readonly IConnectedPlayer _connectedPlayer
-    GlobalNamespace::IConnectedPlayer* _get__connectedPlayer();
-    // Set instance field: private readonly IConnectedPlayer _connectedPlayer
-    void _set__connectedPlayer(GlobalNamespace::IConnectedPlayer* value);
+    // Get instance field reference: private readonly IConnectedPlayer _connectedPlayer
+    GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
     // public System.Single get_offsetSyncTime()
     // Offset: 0x11A9F60
     float get_offsetSyncTime();

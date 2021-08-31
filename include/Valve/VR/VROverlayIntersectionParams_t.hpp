@@ -45,18 +45,12 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public Valve.VR.HmdVector3_t vSource
-    Valve::VR::HmdVector3_t _get_vSource();
-    // Set instance field: public Valve.VR.HmdVector3_t vSource
-    void _set_vSource(Valve::VR::HmdVector3_t value);
-    // Get instance field: public Valve.VR.HmdVector3_t vDirection
-    Valve::VR::HmdVector3_t _get_vDirection();
-    // Set instance field: public Valve.VR.HmdVector3_t vDirection
-    void _set_vDirection(Valve::VR::HmdVector3_t value);
-    // Get instance field: public Valve.VR.ETrackingUniverseOrigin eOrigin
-    Valve::VR::ETrackingUniverseOrigin _get_eOrigin();
-    // Set instance field: public Valve.VR.ETrackingUniverseOrigin eOrigin
-    void _set_eOrigin(Valve::VR::ETrackingUniverseOrigin value);
+    // Get instance field reference: public Valve.VR.HmdVector3_t vSource
+    Valve::VR::HmdVector3_t& dyn_vSource();
+    // Get instance field reference: public Valve.VR.HmdVector3_t vDirection
+    Valve::VR::HmdVector3_t& dyn_vDirection();
+    // Get instance field reference: public Valve.VR.ETrackingUniverseOrigin eOrigin
+    Valve::VR::ETrackingUniverseOrigin& dyn_eOrigin();
   }; // Valve.VR.VROverlayIntersectionParams_t
   #pragma pack(pop)
   static check_size<sizeof(VROverlayIntersectionParams_t), 24 + sizeof(Valve::VR::ETrackingUniverseOrigin)> __Valve_VR_VROverlayIntersectionParams_tSizeCheck;

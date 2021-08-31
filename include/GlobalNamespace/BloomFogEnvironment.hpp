@@ -48,14 +48,10 @@ namespace GlobalNamespace {
     BloomFogEnvironment(GlobalNamespace::BloomFogSO* bloomFog_ = {}, GlobalNamespace::BloomFogEnvironmentParams* fogParams_ = {}) noexcept : bloomFog{bloomFog_}, fogParams{fogParams_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private BloomFogSO _bloomFog
-    GlobalNamespace::BloomFogSO* _get__bloomFog();
-    // Set instance field: private BloomFogSO _bloomFog
-    void _set__bloomFog(GlobalNamespace::BloomFogSO* value);
-    // Get instance field: private BloomFogEnvironmentParams _fogParams
-    GlobalNamespace::BloomFogEnvironmentParams* _get__fogParams();
-    // Set instance field: private BloomFogEnvironmentParams _fogParams
-    void _set__fogParams(GlobalNamespace::BloomFogEnvironmentParams* value);
+    // Get instance field reference: private BloomFogSO _bloomFog
+    GlobalNamespace::BloomFogSO*& dyn__bloomFog();
+    // Get instance field reference: private BloomFogEnvironmentParams _fogParams
+    GlobalNamespace::BloomFogEnvironmentParams*& dyn__fogParams();
     // protected System.Void OnEnable()
     // Offset: 0x1E10D5C
     void OnEnable();

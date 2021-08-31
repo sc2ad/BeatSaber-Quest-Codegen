@@ -190,22 +190,14 @@ namespace System {
     static System::Decimal _get_NearPositiveZero();
     // Set static field: static private readonly System.Decimal NearPositiveZero
     static void _set_NearPositiveZero(System::Decimal value);
-    // Get instance field: private System.Int32 flags
-    int _get_flags();
-    // Set instance field: private System.Int32 flags
-    void _set_flags(int value);
-    // Get instance field: private System.Int32 hi
-    int _get_hi();
-    // Set instance field: private System.Int32 hi
-    void _set_hi(int value);
-    // Get instance field: private System.Int32 lo
-    int _get_lo();
-    // Set instance field: private System.Int32 lo
-    void _set_lo(int value);
-    // Get instance field: private System.Int32 mid
-    int _get_mid();
-    // Set instance field: private System.Int32 mid
-    void _set_mid(int value);
+    // Get instance field reference: private System.Int32 flags
+    int& dyn_flags();
+    // Get instance field reference: private System.Int32 hi
+    int& dyn_hi();
+    // Get instance field reference: private System.Int32 lo
+    int& dyn_lo();
+    // Get instance field reference: private System.Int32 mid
+    int& dyn_mid();
     // public System.Void .ctor(System.Int32 value)
     // Offset: 0x1B5A570
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

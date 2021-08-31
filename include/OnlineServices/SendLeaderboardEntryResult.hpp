@@ -44,10 +44,8 @@ namespace OnlineServices {
     static OnlineServices::SendLeaderboardEntryResult _get_Failed();
     // Set static field: static public OnlineServices.SendLeaderboardEntryResult Failed
     static void _set_Failed(OnlineServices::SendLeaderboardEntryResult value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // OnlineServices.SendLeaderboardEntryResult
   #pragma pack(pop)
   static check_size<sizeof(SendLeaderboardEntryResult), 0 + sizeof(int)> __OnlineServices_SendLeaderboardEntryResultSizeCheck;

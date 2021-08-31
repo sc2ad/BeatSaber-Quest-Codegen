@@ -68,10 +68,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::UserInfo::Platform _get_PS4();
       // Set static field: static public UserInfo/Platform PS4
       static void _set_PS4(GlobalNamespace::UserInfo::Platform value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // UserInfo/Platform
     #pragma pack(pop)
     static check_size<sizeof(UserInfo::Platform), 0 + sizeof(int)> __GlobalNamespace_UserInfo_PlatformSizeCheck;
@@ -98,18 +96,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: UserInfo
     UserInfo(GlobalNamespace::UserInfo::Platform platform_ = {}, ::Il2CppString* platformUserId_ = {}, ::Il2CppString* userName_ = {}) noexcept : platform{platform_}, platformUserId{platformUserId_}, userName{userName_} {}
-    // Get instance field: public readonly UserInfo/Platform platform
-    GlobalNamespace::UserInfo::Platform _get_platform();
-    // Set instance field: public readonly UserInfo/Platform platform
-    void _set_platform(GlobalNamespace::UserInfo::Platform value);
-    // Get instance field: public readonly System.String platformUserId
-    ::Il2CppString* _get_platformUserId();
-    // Set instance field: public readonly System.String platformUserId
-    void _set_platformUserId(::Il2CppString* value);
-    // Get instance field: public readonly System.String userName
-    ::Il2CppString* _get_userName();
-    // Set instance field: public readonly System.String userName
-    void _set_userName(::Il2CppString* value);
+    // Get instance field reference: public readonly UserInfo/Platform platform
+    GlobalNamespace::UserInfo::Platform& dyn_platform();
+    // Get instance field reference: public readonly System.String platformUserId
+    ::Il2CppString*& dyn_platformUserId();
+    // Get instance field reference: public readonly System.String userName
+    ::Il2CppString*& dyn_userName();
     // public System.Void .ctor(UserInfo/Platform platform, System.String platformUserId, System.String userName)
     // Offset: 0x1358934
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

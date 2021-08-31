@@ -67,10 +67,8 @@ namespace Oculus::Platform {
     static Oculus::Platform::MatchmakingCriterionImportance _get_Unknown();
     // Set static field: static public Oculus.Platform.MatchmakingCriterionImportance Unknown
     static void _set_Unknown(Oculus::Platform::MatchmakingCriterionImportance value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Oculus.Platform.MatchmakingCriterionImportance
   #pragma pack(pop)
   static check_size<sizeof(MatchmakingCriterionImportance), 0 + sizeof(int)> __Oculus_Platform_MatchmakingCriterionImportanceSizeCheck;

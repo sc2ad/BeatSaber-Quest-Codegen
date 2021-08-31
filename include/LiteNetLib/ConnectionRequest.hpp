@@ -93,34 +93,20 @@ namespace LiteNetLib {
     static_assert(sizeof(System::Net::IPEndPoint*) == 0x8);
     // Creating value type constructor for type: ConnectionRequest
     ConnectionRequest(LiteNetLib::NetManager* listener_ = {}, int used_ = {}, LiteNetLib::Utils::NetDataReader* Data_ = {}, LiteNetLib::ConnectionRequestResult Result_ = {}, int64_t ConnectionTime_ = {}, uint8_t ConnectionNumber_ = {}, System::Net::IPEndPoint* RemoteEndPoint_ = {}) noexcept : listener{listener_}, used{used_}, Data{Data_}, Result{Result_}, ConnectionTime{ConnectionTime_}, ConnectionNumber{ConnectionNumber_}, RemoteEndPoint{RemoteEndPoint_} {}
-    // Get instance field: private readonly LiteNetLib.NetManager _listener
-    LiteNetLib::NetManager* _get__listener();
-    // Set instance field: private readonly LiteNetLib.NetManager _listener
-    void _set__listener(LiteNetLib::NetManager* value);
-    // Get instance field: private System.Int32 _used
-    int _get__used();
-    // Set instance field: private System.Int32 _used
-    void _set__used(int value);
-    // Get instance field: public readonly LiteNetLib.Utils.NetDataReader Data
-    LiteNetLib::Utils::NetDataReader* _get_Data();
-    // Set instance field: public readonly LiteNetLib.Utils.NetDataReader Data
-    void _set_Data(LiteNetLib::Utils::NetDataReader* value);
-    // Get instance field: private LiteNetLib.ConnectionRequestResult <Result>k__BackingField
-    LiteNetLib::ConnectionRequestResult _get_$Result$k__BackingField();
-    // Set instance field: private LiteNetLib.ConnectionRequestResult <Result>k__BackingField
-    void _set_$Result$k__BackingField(LiteNetLib::ConnectionRequestResult value);
-    // Get instance field: System.Int64 ConnectionTime
-    int64_t _get_ConnectionTime();
-    // Set instance field: System.Int64 ConnectionTime
-    void _set_ConnectionTime(int64_t value);
-    // Get instance field: System.Byte ConnectionNumber
-    uint8_t _get_ConnectionNumber();
-    // Set instance field: System.Byte ConnectionNumber
-    void _set_ConnectionNumber(uint8_t value);
-    // Get instance field: public readonly System.Net.IPEndPoint RemoteEndPoint
-    System::Net::IPEndPoint* _get_RemoteEndPoint();
-    // Set instance field: public readonly System.Net.IPEndPoint RemoteEndPoint
-    void _set_RemoteEndPoint(System::Net::IPEndPoint* value);
+    // Get instance field reference: private readonly LiteNetLib.NetManager _listener
+    LiteNetLib::NetManager*& dyn__listener();
+    // Get instance field reference: private System.Int32 _used
+    int& dyn__used();
+    // Get instance field reference: public readonly LiteNetLib.Utils.NetDataReader Data
+    LiteNetLib::Utils::NetDataReader*& dyn_Data();
+    // Get instance field reference: private LiteNetLib.ConnectionRequestResult <Result>k__BackingField
+    LiteNetLib::ConnectionRequestResult& dyn_$Result$k__BackingField();
+    // Get instance field reference: System.Int64 ConnectionTime
+    int64_t& dyn_ConnectionTime();
+    // Get instance field reference: System.Byte ConnectionNumber
+    uint8_t& dyn_ConnectionNumber();
+    // Get instance field reference: public readonly System.Net.IPEndPoint RemoteEndPoint
+    System::Net::IPEndPoint*& dyn_RemoteEndPoint();
     // LiteNetLib.ConnectionRequestResult get_Result()
     // Offset: 0x1BEC748
     LiteNetLib::ConnectionRequestResult get_Result();

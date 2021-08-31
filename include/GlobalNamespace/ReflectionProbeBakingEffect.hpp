@@ -41,10 +41,8 @@ namespace GlobalNamespace {
     ReflectionProbeBakingEffect(UnityEngine::Material* material_ = {}) noexcept : material{material_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.Material _material
-    UnityEngine::Material* _get__material();
-    // Set instance field: private UnityEngine.Material _material
-    void _set__material(UnityEngine::Material* value);
+    // Get instance field reference: private UnityEngine.Material _material
+    UnityEngine::Material*& dyn__material();
     // protected System.Void OnRenderImage(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
     // Offset: 0x1E1F684
     void OnRenderImage(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest);

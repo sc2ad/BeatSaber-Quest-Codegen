@@ -73,34 +73,20 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: SerializationHeaderRecord
     SerializationHeaderRecord(int binaryFormatterMajorVersion_ = {}, int binaryFormatterMinorVersion_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum_ = {}, int topId_ = {}, int headerId_ = {}, int majorVersion_ = {}, int minorVersion_ = {}) noexcept : binaryFormatterMajorVersion{binaryFormatterMajorVersion_}, binaryFormatterMinorVersion{binaryFormatterMinorVersion_}, binaryHeaderEnum{binaryHeaderEnum_}, topId{topId_}, headerId{headerId_}, majorVersion{majorVersion_}, minorVersion{minorVersion_} {}
-    // Get instance field: System.Int32 binaryFormatterMajorVersion
-    int _get_binaryFormatterMajorVersion();
-    // Set instance field: System.Int32 binaryFormatterMajorVersion
-    void _set_binaryFormatterMajorVersion(int value);
-    // Get instance field: System.Int32 binaryFormatterMinorVersion
-    int _get_binaryFormatterMinorVersion();
-    // Set instance field: System.Int32 binaryFormatterMinorVersion
-    void _set_binaryFormatterMinorVersion(int value);
-    // Get instance field: System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum
-    System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum _get_binaryHeaderEnum();
-    // Set instance field: System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum
-    void _set_binaryHeaderEnum(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum value);
-    // Get instance field: System.Int32 topId
-    int _get_topId();
-    // Set instance field: System.Int32 topId
-    void _set_topId(int value);
-    // Get instance field: System.Int32 headerId
-    int _get_headerId();
-    // Set instance field: System.Int32 headerId
-    void _set_headerId(int value);
-    // Get instance field: System.Int32 majorVersion
-    int _get_majorVersion();
-    // Set instance field: System.Int32 majorVersion
-    void _set_majorVersion(int value);
-    // Get instance field: System.Int32 minorVersion
-    int _get_minorVersion();
-    // Set instance field: System.Int32 minorVersion
-    void _set_minorVersion(int value);
+    // Get instance field reference: System.Int32 binaryFormatterMajorVersion
+    int& dyn_binaryFormatterMajorVersion();
+    // Get instance field reference: System.Int32 binaryFormatterMinorVersion
+    int& dyn_binaryFormatterMinorVersion();
+    // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum
+    System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum& dyn_binaryHeaderEnum();
+    // Get instance field reference: System.Int32 topId
+    int& dyn_topId();
+    // Get instance field reference: System.Int32 headerId
+    int& dyn_headerId();
+    // Get instance field reference: System.Int32 majorVersion
+    int& dyn_majorVersion();
+    // Get instance field reference: System.Int32 minorVersion
+    int& dyn_minorVersion();
     // System.Void .ctor(System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum, System.Int32 topId, System.Int32 headerId, System.Int32 majorVersion, System.Int32 minorVersion)
     // Offset: 0x1620E58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

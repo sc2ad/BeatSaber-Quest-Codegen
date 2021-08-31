@@ -42,10 +42,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static System::Collections::Concurrent::ConcurrentDictionary_2<::Il2CppString*, ::Il2CppObject*>* _get_ht();
     // Set static field: static private System.Collections.Concurrent.ConcurrentDictionary`2<System.String,System.Object> ht
     static void _set_ht(System::Collections::Concurrent::ConcurrentDictionary_2<::Il2CppString*, ::Il2CppObject*>* value);
-    // Get instance field: private System.String name
-    ::Il2CppString* _get_name();
-    // Set instance field: private System.String name
-    void _set_name(::Il2CppString* value);
+    // Get instance field reference: private System.String name
+    ::Il2CppString*& dyn_name();
     // static private System.Void .cctor()
     // Offset: 0x1618678
     static void _cctor();

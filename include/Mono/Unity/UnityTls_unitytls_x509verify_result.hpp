@@ -131,10 +131,8 @@ namespace Mono::Unity {
     static Mono::Unity::UnityTls::unitytls_x509verify_result _get_UNITYTLS_X509VERIFY_FLAG_UNKNOWN_ERROR();
     // Set static field: static public Mono.Unity.UnityTls/Mono.Unity.unitytls_x509verify_result UNITYTLS_X509VERIFY_FLAG_UNKNOWN_ERROR
     static void _set_UNITYTLS_X509VERIFY_FLAG_UNKNOWN_ERROR(Mono::Unity::UnityTls::unitytls_x509verify_result value);
-    // Get instance field: public System.UInt32 value__
-    uint _get_value__();
-    // Set instance field: public System.UInt32 value__
-    void _set_value__(uint value);
+    // Get instance field reference: public System.UInt32 value__
+    uint& dyn_value__();
   }; // Mono.Unity.UnityTls/Mono.Unity.unitytls_x509verify_result
   #pragma pack(pop)
   static check_size<sizeof(UnityTls::unitytls_x509verify_result), 0 + sizeof(uint)> __Mono_Unity_UnityTls_unitytls_x509verify_resultSizeCheck;

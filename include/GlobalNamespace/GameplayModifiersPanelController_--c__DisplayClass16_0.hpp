@@ -42,14 +42,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::GameplayModifiersPanelController*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass16_0
     $$c__DisplayClass16_0(GlobalNamespace::GameplayModifierToggle* gameplayModifierToggle_ = {}, GlobalNamespace::GameplayModifiersPanelController* $$4__this_ = {}) noexcept : gameplayModifierToggle{gameplayModifierToggle_}, $$4__this{$$4__this_} {}
-    // Get instance field: public GameplayModifierToggle gameplayModifierToggle
-    GlobalNamespace::GameplayModifierToggle* _get_gameplayModifierToggle();
-    // Set instance field: public GameplayModifierToggle gameplayModifierToggle
-    void _set_gameplayModifierToggle(GlobalNamespace::GameplayModifierToggle* value);
-    // Get instance field: public GameplayModifiersPanelController <>4__this
-    GlobalNamespace::GameplayModifiersPanelController* _get_$$4__this();
-    // Set instance field: public GameplayModifiersPanelController <>4__this
-    void _set_$$4__this(GlobalNamespace::GameplayModifiersPanelController* value);
+    // Get instance field reference: public GameplayModifierToggle gameplayModifierToggle
+    GlobalNamespace::GameplayModifierToggle*& dyn_gameplayModifierToggle();
+    // Get instance field reference: public GameplayModifiersPanelController <>4__this
+    GlobalNamespace::GameplayModifiersPanelController*& dyn_$$4__this();
     // System.Void <Awake>b__0(System.Boolean on)
     // Offset: 0x110FAB8
     void $Awake$b__0(bool on);

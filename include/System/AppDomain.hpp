@@ -225,74 +225,40 @@ namespace System {
     static System::AppDomain* _get_default_domain();
     // Set static field: static private System.AppDomain default_domain
     static void _set_default_domain(System::AppDomain* value);
-    // Get instance field: private System.IntPtr _mono_app_domain
-    System::IntPtr _get__mono_app_domain();
-    // Set instance field: private System.IntPtr _mono_app_domain
-    void _set__mono_app_domain(System::IntPtr value);
-    // Get instance field: private System.Object _evidence
-    ::Il2CppObject* _get__evidence();
-    // Set instance field: private System.Object _evidence
-    void _set__evidence(::Il2CppObject* value);
-    // Get instance field: private System.Object _granted
-    ::Il2CppObject* _get__granted();
-    // Set instance field: private System.Object _granted
-    void _set__granted(::Il2CppObject* value);
-    // Get instance field: private System.Int32 _principalPolicy
-    int _get__principalPolicy();
-    // Set instance field: private System.Int32 _principalPolicy
-    void _set__principalPolicy(int value);
-    // Get instance field: private System.AssemblyLoadEventHandler AssemblyLoad
-    System::AssemblyLoadEventHandler* _get_AssemblyLoad();
-    // Set instance field: private System.AssemblyLoadEventHandler AssemblyLoad
-    void _set_AssemblyLoad(System::AssemblyLoadEventHandler* value);
-    // Get instance field: private System.ResolveEventHandler AssemblyResolve
-    System::ResolveEventHandler* _get_AssemblyResolve();
-    // Set instance field: private System.ResolveEventHandler AssemblyResolve
-    void _set_AssemblyResolve(System::ResolveEventHandler* value);
-    // Get instance field: private System.EventHandler DomainUnload
-    System::EventHandler* _get_DomainUnload();
-    // Set instance field: private System.EventHandler DomainUnload
-    void _set_DomainUnload(System::EventHandler* value);
-    // Get instance field: private System.EventHandler ProcessExit
-    System::EventHandler* _get_ProcessExit();
-    // Set instance field: private System.EventHandler ProcessExit
-    void _set_ProcessExit(System::EventHandler* value);
-    // Get instance field: private System.ResolveEventHandler ResourceResolve
-    System::ResolveEventHandler* _get_ResourceResolve();
-    // Set instance field: private System.ResolveEventHandler ResourceResolve
-    void _set_ResourceResolve(System::ResolveEventHandler* value);
-    // Get instance field: private System.ResolveEventHandler TypeResolve
-    System::ResolveEventHandler* _get_TypeResolve();
-    // Set instance field: private System.ResolveEventHandler TypeResolve
-    void _set_TypeResolve(System::ResolveEventHandler* value);
-    // Get instance field: private System.UnhandledExceptionEventHandler UnhandledException
-    System::UnhandledExceptionEventHandler* _get_UnhandledException();
-    // Set instance field: private System.UnhandledExceptionEventHandler UnhandledException
-    void _set_UnhandledException(System::UnhandledExceptionEventHandler* value);
-    // Get instance field: private System.EventHandler`1<System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs> FirstChanceException
-    System::EventHandler_1<System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs*>* _get_FirstChanceException();
-    // Set instance field: private System.EventHandler`1<System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs> FirstChanceException
-    void _set_FirstChanceException(System::EventHandler_1<System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs*>* value);
-    // Get instance field: private System.Object _domain_manager
-    ::Il2CppObject* _get__domain_manager();
-    // Set instance field: private System.Object _domain_manager
-    void _set__domain_manager(::Il2CppObject* value);
-    // Get instance field: private System.ResolveEventHandler ReflectionOnlyAssemblyResolve
-    System::ResolveEventHandler* _get_ReflectionOnlyAssemblyResolve();
-    // Set instance field: private System.ResolveEventHandler ReflectionOnlyAssemblyResolve
-    void _set_ReflectionOnlyAssemblyResolve(System::ResolveEventHandler* value);
-    // Get instance field: private System.Object _activation
-    ::Il2CppObject* _get__activation();
-    // Set instance field: private System.Object _activation
-    void _set__activation(::Il2CppObject* value);
-    // Get instance field: private System.Object _applicationIdentity
-    ::Il2CppObject* _get__applicationIdentity();
-    // Set instance field: private System.Object _applicationIdentity
-    void _set__applicationIdentity(::Il2CppObject* value);
-    // Get instance field: private System.Collections.Generic.List`1<System.String> compatibility_switch
-    System::Collections::Generic::List_1<::Il2CppString*>* _get_compatibility_switch();
-    // Set instance field: private System.Collections.Generic.List`1<System.String> compatibility_switch
-    void _set_compatibility_switch(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    // Get instance field reference: private System.IntPtr _mono_app_domain
+    System::IntPtr& dyn__mono_app_domain();
+    // Get instance field reference: private System.Object _evidence
+    ::Il2CppObject*& dyn__evidence();
+    // Get instance field reference: private System.Object _granted
+    ::Il2CppObject*& dyn__granted();
+    // Get instance field reference: private System.Int32 _principalPolicy
+    int& dyn__principalPolicy();
+    // Get instance field reference: private System.AssemblyLoadEventHandler AssemblyLoad
+    System::AssemblyLoadEventHandler*& dyn_AssemblyLoad();
+    // Get instance field reference: private System.ResolveEventHandler AssemblyResolve
+    System::ResolveEventHandler*& dyn_AssemblyResolve();
+    // Get instance field reference: private System.EventHandler DomainUnload
+    System::EventHandler*& dyn_DomainUnload();
+    // Get instance field reference: private System.EventHandler ProcessExit
+    System::EventHandler*& dyn_ProcessExit();
+    // Get instance field reference: private System.ResolveEventHandler ResourceResolve
+    System::ResolveEventHandler*& dyn_ResourceResolve();
+    // Get instance field reference: private System.ResolveEventHandler TypeResolve
+    System::ResolveEventHandler*& dyn_TypeResolve();
+    // Get instance field reference: private System.UnhandledExceptionEventHandler UnhandledException
+    System::UnhandledExceptionEventHandler*& dyn_UnhandledException();
+    // Get instance field reference: private System.EventHandler`1<System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs> FirstChanceException
+    System::EventHandler_1<System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs*>*& dyn_FirstChanceException();
+    // Get instance field reference: private System.Object _domain_manager
+    ::Il2CppObject*& dyn__domain_manager();
+    // Get instance field reference: private System.ResolveEventHandler ReflectionOnlyAssemblyResolve
+    System::ResolveEventHandler*& dyn_ReflectionOnlyAssemblyResolve();
+    // Get instance field reference: private System.Object _activation
+    ::Il2CppObject*& dyn__activation();
+    // Get instance field reference: private System.Object _applicationIdentity
+    ::Il2CppObject*& dyn__applicationIdentity();
+    // Get instance field reference: private System.Collections.Generic.List`1<System.String> compatibility_switch
+    System::Collections::Generic::List_1<::Il2CppString*>*& dyn_compatibility_switch();
     // public System.String get_FriendlyName()
     // Offset: 0x17C63C4
     ::Il2CppString* get_FriendlyName();

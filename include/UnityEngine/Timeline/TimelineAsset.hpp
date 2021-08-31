@@ -122,10 +122,8 @@ namespace UnityEngine::Timeline {
       static UnityEngine::Timeline::TimelineAsset::DurationMode _get_FixedLength();
       // Set static field: static public UnityEngine.Timeline.TimelineAsset/UnityEngine.Timeline.DurationMode FixedLength
       static void _set_FixedLength(UnityEngine::Timeline::TimelineAsset::DurationMode value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // UnityEngine.Timeline.TimelineAsset/UnityEngine.Timeline.DurationMode
     #pragma pack(pop)
     static check_size<sizeof(TimelineAsset::DurationMode), 0 + sizeof(int)> __UnityEngine_Timeline_TimelineAsset_DurationModeSizeCheck;
@@ -210,42 +208,24 @@ namespace UnityEngine::Timeline {
     static int _get_k_LatestVersion();
     // Set static field: static private System.Int32 k_LatestVersion
     static void _set_k_LatestVersion(int value);
-    // Get instance field: private System.Int32 m_Version
-    int _get_m_Version();
-    // Set instance field: private System.Int32 m_Version
-    void _set_m_Version(int value);
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.ScriptableObject> m_Tracks
-    System::Collections::Generic::List_1<UnityEngine::ScriptableObject*>* _get_m_Tracks();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.ScriptableObject> m_Tracks
-    void _set_m_Tracks(System::Collections::Generic::List_1<UnityEngine::ScriptableObject*>* value);
-    // Get instance field: private System.Double m_FixedDuration
-    double _get_m_FixedDuration();
-    // Set instance field: private System.Double m_FixedDuration
-    void _set_m_FixedDuration(double value);
-    // Get instance field: private UnityEngine.Timeline.TrackAsset[] m_CacheOutputTracks
-    ::Array<UnityEngine::Timeline::TrackAsset*>* _get_m_CacheOutputTracks();
-    // Set instance field: private UnityEngine.Timeline.TrackAsset[] m_CacheOutputTracks
-    void _set_m_CacheOutputTracks(::Array<UnityEngine::Timeline::TrackAsset*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.Timeline.TrackAsset> m_CacheRootTracks
-    System::Collections::Generic::List_1<UnityEngine::Timeline::TrackAsset*>* _get_m_CacheRootTracks();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Timeline.TrackAsset> m_CacheRootTracks
-    void _set_m_CacheRootTracks(System::Collections::Generic::List_1<UnityEngine::Timeline::TrackAsset*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.Timeline.TrackAsset> m_CacheFlattenedTracks
-    System::Collections::Generic::List_1<UnityEngine::Timeline::TrackAsset*>* _get_m_CacheFlattenedTracks();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Timeline.TrackAsset> m_CacheFlattenedTracks
-    void _set_m_CacheFlattenedTracks(System::Collections::Generic::List_1<UnityEngine::Timeline::TrackAsset*>* value);
-    // Get instance field: private UnityEngine.Timeline.TimelineAsset/UnityEngine.Timeline.EditorSettings m_EditorSettings
-    UnityEngine::Timeline::TimelineAsset::EditorSettings* _get_m_EditorSettings();
-    // Set instance field: private UnityEngine.Timeline.TimelineAsset/UnityEngine.Timeline.EditorSettings m_EditorSettings
-    void _set_m_EditorSettings(UnityEngine::Timeline::TimelineAsset::EditorSettings* value);
-    // Get instance field: private UnityEngine.Timeline.TimelineAsset/UnityEngine.Timeline.DurationMode m_DurationMode
-    UnityEngine::Timeline::TimelineAsset::DurationMode _get_m_DurationMode();
-    // Set instance field: private UnityEngine.Timeline.TimelineAsset/UnityEngine.Timeline.DurationMode m_DurationMode
-    void _set_m_DurationMode(UnityEngine::Timeline::TimelineAsset::DurationMode value);
-    // Get instance field: private UnityEngine.Timeline.MarkerTrack m_MarkerTrack
-    UnityEngine::Timeline::MarkerTrack* _get_m_MarkerTrack();
-    // Set instance field: private UnityEngine.Timeline.MarkerTrack m_MarkerTrack
-    void _set_m_MarkerTrack(UnityEngine::Timeline::MarkerTrack* value);
+    // Get instance field reference: private System.Int32 m_Version
+    int& dyn_m_Version();
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ScriptableObject> m_Tracks
+    System::Collections::Generic::List_1<UnityEngine::ScriptableObject*>*& dyn_m_Tracks();
+    // Get instance field reference: private System.Double m_FixedDuration
+    double& dyn_m_FixedDuration();
+    // Get instance field reference: private UnityEngine.Timeline.TrackAsset[] m_CacheOutputTracks
+    ::Array<UnityEngine::Timeline::TrackAsset*>*& dyn_m_CacheOutputTracks();
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Timeline.TrackAsset> m_CacheRootTracks
+    System::Collections::Generic::List_1<UnityEngine::Timeline::TrackAsset*>*& dyn_m_CacheRootTracks();
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Timeline.TrackAsset> m_CacheFlattenedTracks
+    System::Collections::Generic::List_1<UnityEngine::Timeline::TrackAsset*>*& dyn_m_CacheFlattenedTracks();
+    // Get instance field reference: private UnityEngine.Timeline.TimelineAsset/UnityEngine.Timeline.EditorSettings m_EditorSettings
+    UnityEngine::Timeline::TimelineAsset::EditorSettings*& dyn_m_EditorSettings();
+    // Get instance field reference: private UnityEngine.Timeline.TimelineAsset/UnityEngine.Timeline.DurationMode m_DurationMode
+    UnityEngine::Timeline::TimelineAsset::DurationMode& dyn_m_DurationMode();
+    // Get instance field reference: private UnityEngine.Timeline.MarkerTrack m_MarkerTrack
+    UnityEngine::Timeline::MarkerTrack*& dyn_m_MarkerTrack();
     // public UnityEngine.Timeline.TimelineAsset/UnityEngine.Timeline.EditorSettings get_editorSettings()
     // Offset: 0x1828458
     UnityEngine::Timeline::TimelineAsset::EditorSettings* get_editorSettings();

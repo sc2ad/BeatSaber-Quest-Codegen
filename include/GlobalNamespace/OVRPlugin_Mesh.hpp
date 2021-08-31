@@ -89,42 +89,24 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<GlobalNamespace::OVRPlugin::Vector4f>*) == 0x8);
     // Creating value type constructor for type: Mesh
     Mesh(GlobalNamespace::OVRPlugin::MeshType Type_ = {}, uint NumVertices_ = {}, uint NumIndices_ = {}, ::Array<GlobalNamespace::OVRPlugin::Vector3f>* VertexPositions_ = {}, ::Array<int16_t>* Indices_ = {}, ::Array<GlobalNamespace::OVRPlugin::Vector3f>* VertexNormals_ = {}, ::Array<GlobalNamespace::OVRPlugin::Vector2f>* VertexUV0_ = {}, ::Array<GlobalNamespace::OVRPlugin::Vector4s>* BlendIndices_ = {}, ::Array<GlobalNamespace::OVRPlugin::Vector4f>* BlendWeights_ = {}) noexcept : Type{Type_}, NumVertices{NumVertices_}, NumIndices{NumIndices_}, VertexPositions{VertexPositions_}, Indices{Indices_}, VertexNormals{VertexNormals_}, VertexUV0{VertexUV0_}, BlendIndices{BlendIndices_}, BlendWeights{BlendWeights_} {}
-    // Get instance field: public OVRPlugin/MeshType Type
-    GlobalNamespace::OVRPlugin::MeshType _get_Type();
-    // Set instance field: public OVRPlugin/MeshType Type
-    void _set_Type(GlobalNamespace::OVRPlugin::MeshType value);
-    // Get instance field: public System.UInt32 NumVertices
-    uint _get_NumVertices();
-    // Set instance field: public System.UInt32 NumVertices
-    void _set_NumVertices(uint value);
-    // Get instance field: public System.UInt32 NumIndices
-    uint _get_NumIndices();
-    // Set instance field: public System.UInt32 NumIndices
-    void _set_NumIndices(uint value);
-    // Get instance field: public OVRPlugin/Vector3f[] VertexPositions
-    ::Array<GlobalNamespace::OVRPlugin::Vector3f>* _get_VertexPositions();
-    // Set instance field: public OVRPlugin/Vector3f[] VertexPositions
-    void _set_VertexPositions(::Array<GlobalNamespace::OVRPlugin::Vector3f>* value);
-    // Get instance field: public System.Int16[] Indices
-    ::Array<int16_t>* _get_Indices();
-    // Set instance field: public System.Int16[] Indices
-    void _set_Indices(::Array<int16_t>* value);
-    // Get instance field: public OVRPlugin/Vector3f[] VertexNormals
-    ::Array<GlobalNamespace::OVRPlugin::Vector3f>* _get_VertexNormals();
-    // Set instance field: public OVRPlugin/Vector3f[] VertexNormals
-    void _set_VertexNormals(::Array<GlobalNamespace::OVRPlugin::Vector3f>* value);
-    // Get instance field: public OVRPlugin/Vector2f[] VertexUV0
-    ::Array<GlobalNamespace::OVRPlugin::Vector2f>* _get_VertexUV0();
-    // Set instance field: public OVRPlugin/Vector2f[] VertexUV0
-    void _set_VertexUV0(::Array<GlobalNamespace::OVRPlugin::Vector2f>* value);
-    // Get instance field: public OVRPlugin/Vector4s[] BlendIndices
-    ::Array<GlobalNamespace::OVRPlugin::Vector4s>* _get_BlendIndices();
-    // Set instance field: public OVRPlugin/Vector4s[] BlendIndices
-    void _set_BlendIndices(::Array<GlobalNamespace::OVRPlugin::Vector4s>* value);
-    // Get instance field: public OVRPlugin/Vector4f[] BlendWeights
-    ::Array<GlobalNamespace::OVRPlugin::Vector4f>* _get_BlendWeights();
-    // Set instance field: public OVRPlugin/Vector4f[] BlendWeights
-    void _set_BlendWeights(::Array<GlobalNamespace::OVRPlugin::Vector4f>* value);
+    // Get instance field reference: public OVRPlugin/MeshType Type
+    GlobalNamespace::OVRPlugin::MeshType& dyn_Type();
+    // Get instance field reference: public System.UInt32 NumVertices
+    uint& dyn_NumVertices();
+    // Get instance field reference: public System.UInt32 NumIndices
+    uint& dyn_NumIndices();
+    // Get instance field reference: public OVRPlugin/Vector3f[] VertexPositions
+    ::Array<GlobalNamespace::OVRPlugin::Vector3f>*& dyn_VertexPositions();
+    // Get instance field reference: public System.Int16[] Indices
+    ::Array<int16_t>*& dyn_Indices();
+    // Get instance field reference: public OVRPlugin/Vector3f[] VertexNormals
+    ::Array<GlobalNamespace::OVRPlugin::Vector3f>*& dyn_VertexNormals();
+    // Get instance field reference: public OVRPlugin/Vector2f[] VertexUV0
+    ::Array<GlobalNamespace::OVRPlugin::Vector2f>*& dyn_VertexUV0();
+    // Get instance field reference: public OVRPlugin/Vector4s[] BlendIndices
+    ::Array<GlobalNamespace::OVRPlugin::Vector4s>*& dyn_BlendIndices();
+    // Get instance field reference: public OVRPlugin/Vector4f[] BlendWeights
+    ::Array<GlobalNamespace::OVRPlugin::Vector4f>*& dyn_BlendWeights();
     // public System.Void .ctor()
     // Offset: 0x162A18C
     // Implemented from: System.Object

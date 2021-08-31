@@ -32,10 +32,8 @@ namespace OVR::OpenVR {
     constexpr operator float() const noexcept {
       return ipdMeters;
     }
-    // Get instance field: public System.Single ipdMeters
-    float _get_ipdMeters();
-    // Set instance field: public System.Single ipdMeters
-    void _set_ipdMeters(float value);
+    // Get instance field reference: public System.Single ipdMeters
+    float& dyn_ipdMeters();
   }; // OVR.OpenVR.VREvent_Ipd_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Ipd_t), 0 + sizeof(float)> __OVR_OpenVR_VREvent_Ipd_tSizeCheck;

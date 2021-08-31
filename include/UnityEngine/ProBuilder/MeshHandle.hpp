@@ -41,14 +41,10 @@ namespace UnityEngine::ProBuilder {
     static_assert(sizeof(UnityEngine::Mesh*) == 0x8);
     // Creating value type constructor for type: MeshHandle
     MeshHandle(UnityEngine::Transform* m_Transform_ = {}, UnityEngine::Mesh* m_Mesh_ = {}) noexcept : m_Transform{m_Transform_}, m_Mesh{m_Mesh_} {}
-    // Get instance field: private UnityEngine.Transform m_Transform
-    UnityEngine::Transform* _get_m_Transform();
-    // Set instance field: private UnityEngine.Transform m_Transform
-    void _set_m_Transform(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.Mesh m_Mesh
-    UnityEngine::Mesh* _get_m_Mesh();
-    // Set instance field: private UnityEngine.Mesh m_Mesh
-    void _set_m_Mesh(UnityEngine::Mesh* value);
+    // Get instance field reference: private UnityEngine.Transform m_Transform
+    UnityEngine::Transform*& dyn_m_Transform();
+    // Get instance field reference: private UnityEngine.Mesh m_Mesh
+    UnityEngine::Mesh*& dyn_m_Mesh();
     // public UnityEngine.Mesh get_mesh()
     // Offset: 0x1AFD7A8
     UnityEngine::Mesh* get_mesh();

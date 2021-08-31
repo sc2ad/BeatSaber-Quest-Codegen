@@ -92,10 +92,8 @@ namespace Valve::VR {
     static Valve::VR::ChaperoneCalibrationState _get_Error_CollisionBoundsInvalid();
     // Set static field: static public Valve.VR.ChaperoneCalibrationState Error_CollisionBoundsInvalid
     static void _set_Error_CollisionBoundsInvalid(Valve::VR::ChaperoneCalibrationState value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Valve.VR.ChaperoneCalibrationState
   #pragma pack(pop)
   static check_size<sizeof(ChaperoneCalibrationState), 0 + sizeof(int)> __Valve_VR_ChaperoneCalibrationStateSizeCheck;

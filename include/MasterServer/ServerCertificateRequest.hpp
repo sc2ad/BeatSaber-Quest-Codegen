@@ -68,14 +68,10 @@ namespace MasterServer {
     operator MasterServer::IHandshakeServerToClientMessage() noexcept {
       return *reinterpret_cast<MasterServer::IHandshakeServerToClientMessage*>(this);
     }
-    // Get instance field: private readonly ByteArrayNetSerializable[] _certificateList
-    ::Array<GlobalNamespace::ByteArrayNetSerializable*>* _get__certificateList();
-    // Set instance field: private readonly ByteArrayNetSerializable[] _certificateList
-    void _set__certificateList(::Array<GlobalNamespace::ByteArrayNetSerializable*>* value);
-    // Get instance field: private System.Int32 _certificateCount
-    int _get__certificateCount();
-    // Set instance field: private System.Int32 _certificateCount
-    void _set__certificateCount(int value);
+    // Get instance field reference: private readonly ByteArrayNetSerializable[] _certificateList
+    ::Array<GlobalNamespace::ByteArrayNetSerializable*>*& dyn__certificateList();
+    // Get instance field reference: private System.Int32 _certificateCount
+    int& dyn__certificateCount();
     // static public PacketPool`1<MasterServer.ServerCertificateRequest> get_pool()
     // Offset: 0x1218AC0
     static GlobalNamespace::PacketPool_1<MasterServer::ServerCertificateRequest*>* get_pool();

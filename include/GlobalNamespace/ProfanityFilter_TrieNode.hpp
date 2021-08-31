@@ -42,14 +42,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: TrieNode
     TrieNode(System::Collections::Generic::Dictionary_2<::Il2CppChar, GlobalNamespace::ProfanityFilter::TrieNode*>* children_ = {}, int shortestWord_ = {}) noexcept : children{children_}, shortestWord{shortestWord_} {}
-    // Get instance field: private System.Collections.Generic.Dictionary`2<System.Char,ProfanityFilter/TrieNode> _children
-    System::Collections::Generic::Dictionary_2<::Il2CppChar, GlobalNamespace::ProfanityFilter::TrieNode*>* _get__children();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<System.Char,ProfanityFilter/TrieNode> _children
-    void _set__children(System::Collections::Generic::Dictionary_2<::Il2CppChar, GlobalNamespace::ProfanityFilter::TrieNode*>* value);
-    // Get instance field: private System.Int32 _shortestWord
-    int _get__shortestWord();
-    // Set instance field: private System.Int32 _shortestWord
-    void _set__shortestWord(int value);
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Char,ProfanityFilter/TrieNode> _children
+    System::Collections::Generic::Dictionary_2<::Il2CppChar, GlobalNamespace::ProfanityFilter::TrieNode*>*& dyn__children();
+    // Get instance field reference: private System.Int32 _shortestWord
+    int& dyn__shortestWord();
     // public System.Void AddWord(System.String word, System.Int32 index)
     // Offset: 0x16F5B54
     void AddWord(::Il2CppString* word, int index);

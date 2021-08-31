@@ -34,10 +34,8 @@ namespace Mono::Net::Security {
     constexpr operator int() const noexcept {
       return InitialSize;
     }
-    // Get instance field: public readonly System.Int32 InitialSize
-    int _get_InitialSize();
-    // Set instance field: public readonly System.Int32 InitialSize
-    void _set_InitialSize(int value);
+    // Get instance field reference: public readonly System.Int32 InitialSize
+    int& dyn_InitialSize();
     // public System.Void .ctor(System.Int32 size)
     // Offset: 0x15E6C24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

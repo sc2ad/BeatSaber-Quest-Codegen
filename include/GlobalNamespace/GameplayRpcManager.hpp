@@ -179,10 +179,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::GameplayRpcManager::RpcType _get_RequestReturnToMenu();
       // Set static field: static public GameplayRpcManager/RpcType RequestReturnToMenu
       static void _set_RequestReturnToMenu(GlobalNamespace::GameplayRpcManager::RpcType value);
-      // Get instance field: public System.Byte value__
-      uint8_t _get_value__();
-      // Set instance field: public System.Byte value__
-      void _set_value__(uint8_t value);
+      // Get instance field reference: public System.Byte value__
+      uint8_t& dyn_value__();
     }; // GameplayRpcManager/RpcType
     #pragma pack(pop)
     static check_size<sizeof(GameplayRpcManager::RpcType), 0 + sizeof(uint8_t)> __GlobalNamespace_GameplayRpcManager_RpcTypeSizeCheck;
@@ -283,62 +281,34 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kGameplayState();
     // Set static field: static private System.String kGameplayState
     static void _set_kGameplayState(::Il2CppString* value);
-    // Get instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    GlobalNamespace::IMultiplayerSessionManager* _get__multiplayerSessionManager();
-    // Set instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    void _set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
-    // Get instance field: private readonly RpcHandler`1<GameplayRpcManager/RpcType> _rpcHandler
-    GlobalNamespace::RpcHandler_1<GlobalNamespace::GameplayRpcManager::RpcType>* _get__rpcHandler();
-    // Set instance field: private readonly RpcHandler`1<GameplayRpcManager/RpcType> _rpcHandler
-    void _set__rpcHandler(GlobalNamespace::RpcHandler_1<GlobalNamespace::GameplayRpcManager::RpcType>* value);
-    // Get instance field: private System.Action`3<System.String,PlayerSpecificSettingsAtStartNetSerializable,System.String> setGameplaySceneSyncFinishedEvent
-    System::Action_3<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*>* _get_setGameplaySceneSyncFinishedEvent();
-    // Set instance field: private System.Action`3<System.String,PlayerSpecificSettingsAtStartNetSerializable,System.String> setGameplaySceneSyncFinishedEvent
-    void _set_setGameplaySceneSyncFinishedEvent(System::Action_3<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*>* value);
-    // Get instance field: private System.Action`2<System.String,PlayerSpecificSettingsNetSerializable> setGameplaySceneReadyEvent
-    System::Action_2<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* _get_setGameplaySceneReadyEvent();
-    // Set instance field: private System.Action`2<System.String,PlayerSpecificSettingsNetSerializable> setGameplaySceneReadyEvent
-    void _set_setGameplaySceneReadyEvent(System::Action_2<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* value);
-    // Get instance field: private System.Action`1<System.String> getGameplaySceneReadyEvent
-    System::Action_1<::Il2CppString*>* _get_getGameplaySceneReadyEvent();
-    // Set instance field: private System.Action`1<System.String> getGameplaySceneReadyEvent
-    void _set_getGameplaySceneReadyEvent(System::Action_1<::Il2CppString*>* value);
-    // Get instance field: private System.Action`4<System.String,System.String,PlayerSpecificSettingsAtStartNetSerializable,System.String> setPlayerDidConnectLateEvent
-    System::Action_4<::Il2CppString*, ::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*>* _get_setPlayerDidConnectLateEvent();
-    // Set instance field: private System.Action`4<System.String,System.String,PlayerSpecificSettingsAtStartNetSerializable,System.String> setPlayerDidConnectLateEvent
-    void _set_setPlayerDidConnectLateEvent(System::Action_4<::Il2CppString*, ::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*>* value);
-    // Get instance field: private System.Action`1<System.String> setGameplaySongReadyEvent
-    System::Action_1<::Il2CppString*>* _get_setGameplaySongReadyEvent();
-    // Set instance field: private System.Action`1<System.String> setGameplaySongReadyEvent
-    void _set_setGameplaySongReadyEvent(System::Action_1<::Il2CppString*>* value);
-    // Get instance field: private System.Action`1<System.String> getGameplaySongReadyEvent
-    System::Action_1<::Il2CppString*>* _get_getGameplaySongReadyEvent();
-    // Set instance field: private System.Action`1<System.String> getGameplaySongReadyEvent
-    void _set_getGameplaySongReadyEvent(System::Action_1<::Il2CppString*>* value);
-    // Get instance field: private System.Action`2<System.String,System.Single> setSongStartTimeEvent
-    System::Action_2<::Il2CppString*, float>* _get_setSongStartTimeEvent();
-    // Set instance field: private System.Action`2<System.String,System.Single> setSongStartTimeEvent
-    void _set_setSongStartTimeEvent(System::Action_2<::Il2CppString*, float>* value);
-    // Get instance field: private System.Action`4<System.String,System.Single,System.Single,NoteCutInfoNetSerializable> noteWasCutEvent
-    System::Action_4<::Il2CppString*, float, float, GlobalNamespace::NoteCutInfoNetSerializable*>* _get_noteWasCutEvent();
-    // Set instance field: private System.Action`4<System.String,System.Single,System.Single,NoteCutInfoNetSerializable> noteWasCutEvent
-    void _set_noteWasCutEvent(System::Action_4<::Il2CppString*, float, float, GlobalNamespace::NoteCutInfoNetSerializable*>* value);
-    // Get instance field: private System.Action`4<System.String,System.Single,System.Single,NoteMissInfoNetSerializable> noteWasMissedEvent
-    System::Action_4<::Il2CppString*, float, float, GlobalNamespace::NoteMissInfoNetSerializable*>* _get_noteWasMissedEvent();
-    // Set instance field: private System.Action`4<System.String,System.Single,System.Single,NoteMissInfoNetSerializable> noteWasMissedEvent
-    void _set_noteWasMissedEvent(System::Action_4<::Il2CppString*, float, float, GlobalNamespace::NoteMissInfoNetSerializable*>* value);
-    // Get instance field: private System.Action`2<System.String,MultiplayerLevelCompletionResults> levelFinishedEvent
-    System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>* _get_levelFinishedEvent();
-    // Set instance field: private System.Action`2<System.String,MultiplayerLevelCompletionResults> levelFinishedEvent
-    void _set_levelFinishedEvent(System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
-    // Get instance field: private System.Action`1<System.String> returnToMenuEvent
-    System::Action_1<::Il2CppString*>* _get_returnToMenuEvent();
-    // Set instance field: private System.Action`1<System.String> returnToMenuEvent
-    void _set_returnToMenuEvent(System::Action_1<::Il2CppString*>* value);
-    // Get instance field: private System.Action`1<System.String> requestReturnToMenuEvent
-    System::Action_1<::Il2CppString*>* _get_requestReturnToMenuEvent();
-    // Set instance field: private System.Action`1<System.String> requestReturnToMenuEvent
-    void _set_requestReturnToMenuEvent(System::Action_1<::Il2CppString*>* value);
+    // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
+    // Get instance field reference: private readonly RpcHandler`1<GameplayRpcManager/RpcType> _rpcHandler
+    GlobalNamespace::RpcHandler_1<GlobalNamespace::GameplayRpcManager::RpcType>*& dyn__rpcHandler();
+    // Get instance field reference: private System.Action`3<System.String,PlayerSpecificSettingsAtStartNetSerializable,System.String> setGameplaySceneSyncFinishedEvent
+    System::Action_3<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*>*& dyn_setGameplaySceneSyncFinishedEvent();
+    // Get instance field reference: private System.Action`2<System.String,PlayerSpecificSettingsNetSerializable> setGameplaySceneReadyEvent
+    System::Action_2<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsNetSerializable*>*& dyn_setGameplaySceneReadyEvent();
+    // Get instance field reference: private System.Action`1<System.String> getGameplaySceneReadyEvent
+    System::Action_1<::Il2CppString*>*& dyn_getGameplaySceneReadyEvent();
+    // Get instance field reference: private System.Action`4<System.String,System.String,PlayerSpecificSettingsAtStartNetSerializable,System.String> setPlayerDidConnectLateEvent
+    System::Action_4<::Il2CppString*, ::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*>*& dyn_setPlayerDidConnectLateEvent();
+    // Get instance field reference: private System.Action`1<System.String> setGameplaySongReadyEvent
+    System::Action_1<::Il2CppString*>*& dyn_setGameplaySongReadyEvent();
+    // Get instance field reference: private System.Action`1<System.String> getGameplaySongReadyEvent
+    System::Action_1<::Il2CppString*>*& dyn_getGameplaySongReadyEvent();
+    // Get instance field reference: private System.Action`2<System.String,System.Single> setSongStartTimeEvent
+    System::Action_2<::Il2CppString*, float>*& dyn_setSongStartTimeEvent();
+    // Get instance field reference: private System.Action`4<System.String,System.Single,System.Single,NoteCutInfoNetSerializable> noteWasCutEvent
+    System::Action_4<::Il2CppString*, float, float, GlobalNamespace::NoteCutInfoNetSerializable*>*& dyn_noteWasCutEvent();
+    // Get instance field reference: private System.Action`4<System.String,System.Single,System.Single,NoteMissInfoNetSerializable> noteWasMissedEvent
+    System::Action_4<::Il2CppString*, float, float, GlobalNamespace::NoteMissInfoNetSerializable*>*& dyn_noteWasMissedEvent();
+    // Get instance field reference: private System.Action`2<System.String,MultiplayerLevelCompletionResults> levelFinishedEvent
+    System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*& dyn_levelFinishedEvent();
+    // Get instance field reference: private System.Action`1<System.String> returnToMenuEvent
+    System::Action_1<::Il2CppString*>*& dyn_returnToMenuEvent();
+    // Get instance field reference: private System.Action`1<System.String> requestReturnToMenuEvent
+    System::Action_1<::Il2CppString*>*& dyn_requestReturnToMenuEvent();
     // public System.Boolean get_enabled()
     // Offset: 0x1327978
     bool get_enabled();

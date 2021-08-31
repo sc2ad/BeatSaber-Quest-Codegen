@@ -49,18 +49,12 @@ namespace System::Runtime::Remoting::Messaging {
     static_assert(sizeof(System::Reflection::MethodBase*) == 0x8);
     // Creating value type constructor for type: ArgInfo
     ArgInfo(::Array<int>* paramMap_ = {}, int inoutArgCount_ = {}, System::Reflection::MethodBase* method_ = {}) noexcept : paramMap{paramMap_}, inoutArgCount{inoutArgCount_}, method{method_} {}
-    // Get instance field: private System.Int32[] _paramMap
-    ::Array<int>* _get__paramMap();
-    // Set instance field: private System.Int32[] _paramMap
-    void _set__paramMap(::Array<int>* value);
-    // Get instance field: private System.Int32 _inoutArgCount
-    int _get__inoutArgCount();
-    // Set instance field: private System.Int32 _inoutArgCount
-    void _set__inoutArgCount(int value);
-    // Get instance field: private System.Reflection.MethodBase _method
-    System::Reflection::MethodBase* _get__method();
-    // Set instance field: private System.Reflection.MethodBase _method
-    void _set__method(System::Reflection::MethodBase* value);
+    // Get instance field reference: private System.Int32[] _paramMap
+    ::Array<int>*& dyn__paramMap();
+    // Get instance field reference: private System.Int32 _inoutArgCount
+    int& dyn__inoutArgCount();
+    // Get instance field reference: private System.Reflection.MethodBase _method
+    System::Reflection::MethodBase*& dyn__method();
     // public System.Void .ctor(System.Reflection.MethodBase method, System.Runtime.Remoting.Messaging.ArgInfoType type)
     // Offset: 0x1A45368
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

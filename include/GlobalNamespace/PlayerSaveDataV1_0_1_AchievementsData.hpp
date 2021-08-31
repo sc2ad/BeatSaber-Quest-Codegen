@@ -34,14 +34,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
     // Creating value type constructor for type: AchievementsData
     AchievementsData(::Array<::Il2CppString*>* unlockedAchievements_ = {}, ::Array<::Il2CppString*>* unlockedAchievementsToUpload_ = {}) noexcept : unlockedAchievements{unlockedAchievements_}, unlockedAchievementsToUpload{unlockedAchievementsToUpload_} {}
-    // Get instance field: public System.String[] unlockedAchievements
-    ::Array<::Il2CppString*>* _get_unlockedAchievements();
-    // Set instance field: public System.String[] unlockedAchievements
-    void _set_unlockedAchievements(::Array<::Il2CppString*>* value);
-    // Get instance field: public System.String[] unlockedAchievementsToUpload
-    ::Array<::Il2CppString*>* _get_unlockedAchievementsToUpload();
-    // Set instance field: public System.String[] unlockedAchievementsToUpload
-    void _set_unlockedAchievementsToUpload(::Array<::Il2CppString*>* value);
+    // Get instance field reference: public System.String[] unlockedAchievements
+    ::Array<::Il2CppString*>*& dyn_unlockedAchievements();
+    // Get instance field reference: public System.String[] unlockedAchievementsToUpload
+    ::Array<::Il2CppString*>*& dyn_unlockedAchievementsToUpload();
     // public System.Void .ctor()
     // Offset: 0x113B45C
     // Implemented from: System.Object

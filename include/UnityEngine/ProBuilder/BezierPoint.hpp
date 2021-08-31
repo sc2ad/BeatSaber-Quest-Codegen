@@ -70,22 +70,14 @@ namespace UnityEngine::ProBuilder {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public UnityEngine.Vector3 position
-    UnityEngine::Vector3 _get_position();
-    // Set instance field: public UnityEngine.Vector3 position
-    void _set_position(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Vector3 tangentIn
-    UnityEngine::Vector3 _get_tangentIn();
-    // Set instance field: public UnityEngine.Vector3 tangentIn
-    void _set_tangentIn(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Vector3 tangentOut
-    UnityEngine::Vector3 _get_tangentOut();
-    // Set instance field: public UnityEngine.Vector3 tangentOut
-    void _set_tangentOut(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Quaternion rotation
-    UnityEngine::Quaternion _get_rotation();
-    // Set instance field: public UnityEngine.Quaternion rotation
-    void _set_rotation(UnityEngine::Quaternion value);
+    // Get instance field reference: public UnityEngine.Vector3 position
+    UnityEngine::Vector3& dyn_position();
+    // Get instance field reference: public UnityEngine.Vector3 tangentIn
+    UnityEngine::Vector3& dyn_tangentIn();
+    // Get instance field reference: public UnityEngine.Vector3 tangentOut
+    UnityEngine::Vector3& dyn_tangentOut();
+    // Get instance field reference: public UnityEngine.Quaternion rotation
+    UnityEngine::Quaternion& dyn_rotation();
     // public System.Void .ctor(UnityEngine.Vector3 position, UnityEngine.Vector3 tangentIn, UnityEngine.Vector3 tangentOut, UnityEngine.Quaternion rotation)
     // Offset: 0x1FA477C
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

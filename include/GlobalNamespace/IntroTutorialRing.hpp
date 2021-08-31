@@ -134,54 +134,30 @@ namespace GlobalNamespace {
     IntroTutorialRing(::Array<UnityEngine::UI::Image*>* progressImages_ = {}, GlobalNamespace::SaberType saberType_ = {}, UnityEngine::ParticleSystem* particleSystem_ = {}, UnityEngine::CanvasGroup* canvasGroup_ = {}, float activationDuration_ = {}, ::Array<UnityEngine::UI::Image*>* ringGLowImages_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}, bool highlighted_ = {}, float emitNextParticleTimer_ = {}, float activationProgress_ = {}, System::Collections::Generic::HashSet_1<GlobalNamespace::SaberType>* sabersInside_ = {}, bool sabersInsideAfterOnEnable_ = {}) noexcept : progressImages{progressImages_}, saberType{saberType_}, particleSystem{particleSystem_}, canvasGroup{canvasGroup_}, activationDuration{activationDuration_}, ringGLowImages{ringGLowImages_}, colorManager{colorManager_}, highlighted{highlighted_}, emitNextParticleTimer{emitNextParticleTimer_}, activationProgress{activationProgress_}, sabersInside{sabersInside_}, sabersInsideAfterOnEnable{sabersInsideAfterOnEnable_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.UI.Image[] _progressImages
-    ::Array<UnityEngine::UI::Image*>* _get__progressImages();
-    // Set instance field: private UnityEngine.UI.Image[] _progressImages
-    void _set__progressImages(::Array<UnityEngine::UI::Image*>* value);
-    // Get instance field: private SaberType _saberType
-    GlobalNamespace::SaberType _get__saberType();
-    // Set instance field: private SaberType _saberType
-    void _set__saberType(GlobalNamespace::SaberType value);
-    // Get instance field: private UnityEngine.ParticleSystem _particleSystem
-    UnityEngine::ParticleSystem* _get__particleSystem();
-    // Set instance field: private UnityEngine.ParticleSystem _particleSystem
-    void _set__particleSystem(UnityEngine::ParticleSystem* value);
-    // Get instance field: private UnityEngine.CanvasGroup _canvasGroup
-    UnityEngine::CanvasGroup* _get__canvasGroup();
-    // Set instance field: private UnityEngine.CanvasGroup _canvasGroup
-    void _set__canvasGroup(UnityEngine::CanvasGroup* value);
-    // Get instance field: private System.Single _activationDuration
-    float _get__activationDuration();
-    // Set instance field: private System.Single _activationDuration
-    void _set__activationDuration(float value);
-    // Get instance field: private UnityEngine.UI.Image[] _ringGLowImages
-    ::Array<UnityEngine::UI::Image*>* _get__ringGLowImages();
-    // Set instance field: private UnityEngine.UI.Image[] _ringGLowImages
-    void _set__ringGLowImages(::Array<UnityEngine::UI::Image*>* value);
-    // Get instance field: private readonly ColorManager _colorManager
-    GlobalNamespace::ColorManager* _get__colorManager();
-    // Set instance field: private readonly ColorManager _colorManager
-    void _set__colorManager(GlobalNamespace::ColorManager* value);
-    // Get instance field: private System.Boolean _highlighted
-    bool _get__highlighted();
-    // Set instance field: private System.Boolean _highlighted
-    void _set__highlighted(bool value);
-    // Get instance field: private System.Single _emitNextParticleTimer
-    float _get__emitNextParticleTimer();
-    // Set instance field: private System.Single _emitNextParticleTimer
-    void _set__emitNextParticleTimer(float value);
-    // Get instance field: private System.Single _activationProgress
-    float _get__activationProgress();
-    // Set instance field: private System.Single _activationProgress
-    void _set__activationProgress(float value);
-    // Get instance field: private readonly System.Collections.Generic.HashSet`1<SaberType> _sabersInside
-    System::Collections::Generic::HashSet_1<GlobalNamespace::SaberType>* _get__sabersInside();
-    // Set instance field: private readonly System.Collections.Generic.HashSet`1<SaberType> _sabersInside
-    void _set__sabersInside(System::Collections::Generic::HashSet_1<GlobalNamespace::SaberType>* value);
-    // Get instance field: private System.Boolean _sabersInsideAfterOnEnable
-    bool _get__sabersInsideAfterOnEnable();
-    // Set instance field: private System.Boolean _sabersInsideAfterOnEnable
-    void _set__sabersInsideAfterOnEnable(bool value);
+    // Get instance field reference: private UnityEngine.UI.Image[] _progressImages
+    ::Array<UnityEngine::UI::Image*>*& dyn__progressImages();
+    // Get instance field reference: private SaberType _saberType
+    GlobalNamespace::SaberType& dyn__saberType();
+    // Get instance field reference: private UnityEngine.ParticleSystem _particleSystem
+    UnityEngine::ParticleSystem*& dyn__particleSystem();
+    // Get instance field reference: private UnityEngine.CanvasGroup _canvasGroup
+    UnityEngine::CanvasGroup*& dyn__canvasGroup();
+    // Get instance field reference: private System.Single _activationDuration
+    float& dyn__activationDuration();
+    // Get instance field reference: private UnityEngine.UI.Image[] _ringGLowImages
+    ::Array<UnityEngine::UI::Image*>*& dyn__ringGLowImages();
+    // Get instance field reference: private readonly ColorManager _colorManager
+    GlobalNamespace::ColorManager*& dyn__colorManager();
+    // Get instance field reference: private System.Boolean _highlighted
+    bool& dyn__highlighted();
+    // Get instance field reference: private System.Single _emitNextParticleTimer
+    float& dyn__emitNextParticleTimer();
+    // Get instance field reference: private System.Single _activationProgress
+    float& dyn__activationProgress();
+    // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<SaberType> _sabersInside
+    System::Collections::Generic::HashSet_1<GlobalNamespace::SaberType>*& dyn__sabersInside();
+    // Get instance field reference: private System.Boolean _sabersInsideAfterOnEnable
+    bool& dyn__sabersInsideAfterOnEnable();
     // public System.Void set_alpha(System.Single value)
     // Offset: 0x11467D0
     void set_alpha(float value);

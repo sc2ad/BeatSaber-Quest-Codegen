@@ -47,14 +47,10 @@ namespace Org::BouncyCastle::Crypto::Generators {
     static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // Creating value type constructor for type: Pkcs5S2ParametersGenerator
     Pkcs5S2ParametersGenerator(Org::BouncyCastle::Crypto::IMac* hMac_ = {}, ::Array<uint8_t>* state_ = {}) noexcept : hMac{hMac_}, state{state_} {}
-    // Get instance field: private readonly Org.BouncyCastle.Crypto.IMac hMac
-    Org::BouncyCastle::Crypto::IMac* _get_hMac();
-    // Set instance field: private readonly Org.BouncyCastle.Crypto.IMac hMac
-    void _set_hMac(Org::BouncyCastle::Crypto::IMac* value);
-    // Get instance field: private readonly System.Byte[] state
-    ::Array<uint8_t>* _get_state();
-    // Set instance field: private readonly System.Byte[] state
-    void _set_state(::Array<uint8_t>* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IMac hMac
+    Org::BouncyCastle::Crypto::IMac*& dyn_hMac();
+    // Get instance field reference: private readonly System.Byte[] state
+    ::Array<uint8_t>*& dyn_state();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDigest digest)
     // Offset: 0x190A650
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -91,42 +91,24 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: StrobeStreakData
     StrobeStreakData(bool isActive_ = {}, float strobeStartTime_ = {}, GlobalNamespace::ColorType startColorType_ = {}, float lastSwitchTime_ = {}, GlobalNamespace::ColorType lastColorType_ = {}, bool lastIsOn_ = {}, int lastSwitchBeatmapIndex_ = {}, GlobalNamespace::BeatmapEventData* originalBeatmapEventData_ = {}, int originalBeatmapDataIndex_ = {}) noexcept : isActive{isActive_}, strobeStartTime{strobeStartTime_}, startColorType{startColorType_}, lastSwitchTime{lastSwitchTime_}, lastColorType{lastColorType_}, lastIsOn{lastIsOn_}, lastSwitchBeatmapIndex{lastSwitchBeatmapIndex_}, originalBeatmapEventData{originalBeatmapEventData_}, originalBeatmapDataIndex{originalBeatmapDataIndex_} {}
-    // Get instance field: public System.Boolean isActive
-    bool _get_isActive();
-    // Set instance field: public System.Boolean isActive
-    void _set_isActive(bool value);
-    // Get instance field: public System.Single strobeStartTime
-    float _get_strobeStartTime();
-    // Set instance field: public System.Single strobeStartTime
-    void _set_strobeStartTime(float value);
-    // Get instance field: public ColorType startColorType
-    GlobalNamespace::ColorType _get_startColorType();
-    // Set instance field: public ColorType startColorType
-    void _set_startColorType(GlobalNamespace::ColorType value);
-    // Get instance field: public System.Single lastSwitchTime
-    float _get_lastSwitchTime();
-    // Set instance field: public System.Single lastSwitchTime
-    void _set_lastSwitchTime(float value);
-    // Get instance field: public ColorType lastColorType
-    GlobalNamespace::ColorType _get_lastColorType();
-    // Set instance field: public ColorType lastColorType
-    void _set_lastColorType(GlobalNamespace::ColorType value);
-    // Get instance field: public System.Boolean lastIsOn
-    bool _get_lastIsOn();
-    // Set instance field: public System.Boolean lastIsOn
-    void _set_lastIsOn(bool value);
-    // Get instance field: public System.Int32 lastSwitchBeatmapIndex
-    int _get_lastSwitchBeatmapIndex();
-    // Set instance field: public System.Int32 lastSwitchBeatmapIndex
-    void _set_lastSwitchBeatmapIndex(int value);
-    // Get instance field: public BeatmapEventData originalBeatmapEventData
-    GlobalNamespace::BeatmapEventData* _get_originalBeatmapEventData();
-    // Set instance field: public BeatmapEventData originalBeatmapEventData
-    void _set_originalBeatmapEventData(GlobalNamespace::BeatmapEventData* value);
-    // Get instance field: public System.Int32 originalBeatmapDataIndex
-    int _get_originalBeatmapDataIndex();
-    // Set instance field: public System.Int32 originalBeatmapDataIndex
-    void _set_originalBeatmapDataIndex(int value);
+    // Get instance field reference: public System.Boolean isActive
+    bool& dyn_isActive();
+    // Get instance field reference: public System.Single strobeStartTime
+    float& dyn_strobeStartTime();
+    // Get instance field reference: public ColorType startColorType
+    GlobalNamespace::ColorType& dyn_startColorType();
+    // Get instance field reference: public System.Single lastSwitchTime
+    float& dyn_lastSwitchTime();
+    // Get instance field reference: public ColorType lastColorType
+    GlobalNamespace::ColorType& dyn_lastColorType();
+    // Get instance field reference: public System.Boolean lastIsOn
+    bool& dyn_lastIsOn();
+    // Get instance field reference: public System.Int32 lastSwitchBeatmapIndex
+    int& dyn_lastSwitchBeatmapIndex();
+    // Get instance field reference: public BeatmapEventData originalBeatmapEventData
+    GlobalNamespace::BeatmapEventData*& dyn_originalBeatmapEventData();
+    // Get instance field reference: public System.Int32 originalBeatmapDataIndex
+    int& dyn_originalBeatmapDataIndex();
     // public System.Void StartPotentialStrobe(BeatmapEventData startEventData, System.Int32 originalIndex)
     // Offset: 0x11F3BB4
     void StartPotentialStrobe(GlobalNamespace::BeatmapEventData* startEventData, int originalIndex);

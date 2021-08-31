@@ -68,10 +68,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::NodeStatePropertyType _get_Orientation();
     // Set static field: static public NodeStatePropertyType Orientation
     static void _set_Orientation(GlobalNamespace::NodeStatePropertyType value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // NodeStatePropertyType
   #pragma pack(pop)
   static check_size<sizeof(NodeStatePropertyType), 0 + sizeof(int)> __GlobalNamespace_NodeStatePropertyTypeSizeCheck;

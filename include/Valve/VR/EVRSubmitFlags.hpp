@@ -68,10 +68,8 @@ namespace Valve::VR {
     static Valve::VR::EVRSubmitFlags _get_Submit_TextureWithDepth();
     // Set static field: static public Valve.VR.EVRSubmitFlags Submit_TextureWithDepth
     static void _set_Submit_TextureWithDepth(Valve::VR::EVRSubmitFlags value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Valve.VR.EVRSubmitFlags
   #pragma pack(pop)
   static check_size<sizeof(EVRSubmitFlags), 0 + sizeof(int)> __Valve_VR_EVRSubmitFlagsSizeCheck;

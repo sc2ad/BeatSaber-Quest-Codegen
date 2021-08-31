@@ -51,10 +51,8 @@ namespace UnityEngine::SceneManagement {
     static UnityEngine::SceneManagement::LocalPhysicsMode _get_Physics3D();
     // Set static field: static public UnityEngine.SceneManagement.LocalPhysicsMode Physics3D
     static void _set_Physics3D(UnityEngine::SceneManagement::LocalPhysicsMode value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.SceneManagement.LocalPhysicsMode
   #pragma pack(pop)
   static check_size<sizeof(LocalPhysicsMode), 0 + sizeof(int)> __UnityEngine_SceneManagement_LocalPhysicsModeSizeCheck;

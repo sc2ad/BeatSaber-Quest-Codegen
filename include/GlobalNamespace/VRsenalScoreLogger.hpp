@@ -63,18 +63,12 @@ namespace GlobalNamespace {
     VRsenalScoreLogger(GlobalNamespace::IScoreController* scoreController_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}, GlobalNamespace::ILevelEndActions* levelEndActions_ = {}) noexcept : scoreController{scoreController_}, difficultyBeatmap{difficultyBeatmap_}, levelEndActions{levelEndActions_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private IScoreController _scoreController
-    GlobalNamespace::IScoreController* _get__scoreController();
-    // Set instance field: private IScoreController _scoreController
-    void _set__scoreController(GlobalNamespace::IScoreController* value);
-    // Get instance field: private IDifficultyBeatmap _difficultyBeatmap
-    GlobalNamespace::IDifficultyBeatmap* _get__difficultyBeatmap();
-    // Set instance field: private IDifficultyBeatmap _difficultyBeatmap
-    void _set__difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap* value);
-    // Get instance field: private ILevelEndActions _levelEndActions
-    GlobalNamespace::ILevelEndActions* _get__levelEndActions();
-    // Set instance field: private ILevelEndActions _levelEndActions
-    void _set__levelEndActions(GlobalNamespace::ILevelEndActions* value);
+    // Get instance field reference: private IScoreController _scoreController
+    GlobalNamespace::IScoreController*& dyn__scoreController();
+    // Get instance field reference: private IDifficultyBeatmap _difficultyBeatmap
+    GlobalNamespace::IDifficultyBeatmap*& dyn__difficultyBeatmap();
+    // Get instance field reference: private ILevelEndActions _levelEndActions
+    GlobalNamespace::ILevelEndActions*& dyn__levelEndActions();
     // protected System.Collections.IEnumerator Start()
     // Offset: 0x135F2B4
     System::Collections::IEnumerator* Start();

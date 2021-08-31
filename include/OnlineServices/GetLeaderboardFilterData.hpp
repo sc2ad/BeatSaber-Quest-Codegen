@@ -71,26 +71,16 @@ namespace OnlineServices {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public readonly IDifficultyBeatmap beatmap
-    GlobalNamespace::IDifficultyBeatmap* _get_beatmap();
-    // Set instance field: public readonly IDifficultyBeatmap beatmap
-    void _set_beatmap(GlobalNamespace::IDifficultyBeatmap* value);
-    // Get instance field: public readonly System.Int32 count
-    int _get_count();
-    // Set instance field: public readonly System.Int32 count
-    void _set_count(int value);
-    // Get instance field: public readonly System.Int32 fromRank
-    int _get_fromRank();
-    // Set instance field: public readonly System.Int32 fromRank
-    void _set_fromRank(int value);
-    // Get instance field: public readonly OnlineServices.ScoresScope scope
-    OnlineServices::ScoresScope _get_scope();
-    // Set instance field: public readonly OnlineServices.ScoresScope scope
-    void _set_scope(OnlineServices::ScoresScope value);
-    // Get instance field: public readonly GameplayModifiers gameplayModifiers
-    GlobalNamespace::GameplayModifiers* _get_gameplayModifiers();
-    // Set instance field: public readonly GameplayModifiers gameplayModifiers
-    void _set_gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
+    // Get instance field reference: public readonly IDifficultyBeatmap beatmap
+    GlobalNamespace::IDifficultyBeatmap*& dyn_beatmap();
+    // Get instance field reference: public readonly System.Int32 count
+    int& dyn_count();
+    // Get instance field reference: public readonly System.Int32 fromRank
+    int& dyn_fromRank();
+    // Get instance field reference: public readonly OnlineServices.ScoresScope scope
+    OnlineServices::ScoresScope& dyn_scope();
+    // Get instance field reference: public readonly GameplayModifiers gameplayModifiers
+    GlobalNamespace::GameplayModifiers*& dyn_gameplayModifiers();
     // public System.Void .ctor(IDifficultyBeatmap beatmap, System.Int32 count, System.Int32 fromRank, OnlineServices.ScoresScope scope, GameplayModifiers gameplayModifiers)
     // Offset: 0x1029568
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

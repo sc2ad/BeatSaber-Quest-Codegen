@@ -187,78 +187,42 @@ namespace GlobalNamespace {
     static float _get_kDisabledInteractionDuration();
     // Set static field: static private System.Single kDisabledInteractionDuration
     static void _set_kDisabledInteractionDuration(float value);
-    // Get instance field: private UnityEngine.UI.Button _disconnectButton
-    UnityEngine::UI::Button* _get__disconnectButton();
-    // Set instance field: private UnityEngine.UI.Button _disconnectButton
-    void _set__disconnectButton(UnityEngine::UI::Button* value);
-    // Get instance field: private Polyglot.LocalizedTextMeshProUGUI _disconnectButtonLocalizedText
-    Polyglot::LocalizedTextMeshProUGUI* _get__disconnectButtonLocalizedText();
-    // Set instance field: private Polyglot.LocalizedTextMeshProUGUI _disconnectButtonLocalizedText
-    void _set__disconnectButtonLocalizedText(Polyglot::LocalizedTextMeshProUGUI* value);
-    // Get instance field: private UnityEngine.UI.Button _giveUpButton
-    UnityEngine::UI::Button* _get__giveUpButton();
-    // Set instance field: private UnityEngine.UI.Button _giveUpButton
-    void _set__giveUpButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _resumeButton
-    UnityEngine::UI::Button* _get__resumeButton();
-    // Set instance field: private UnityEngine.UI.Button _resumeButton
-    void _set__resumeButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.GameObject _mainBar
-    UnityEngine::GameObject* _get__mainBar();
-    // Set instance field: private UnityEngine.GameObject _mainBar
-    void _set__mainBar(UnityEngine::GameObject* value);
-    // Get instance field: private DisconnectPromptView _disconnectPromptView
-    GlobalNamespace::DisconnectPromptView* _get__disconnectPromptView();
-    // Set instance field: private DisconnectPromptView _disconnectPromptView
-    void _set__disconnectPromptView(GlobalNamespace::DisconnectPromptView* value);
-    // Get instance field: private LevelBar _levelBar
-    GlobalNamespace::LevelBar* _get__levelBar();
-    // Set instance field: private LevelBar _levelBar
-    void _set__levelBar(GlobalNamespace::LevelBar* value);
-    // Get instance field: private UnityEngine.GameObject _menuWrapperGameObject
-    UnityEngine::GameObject* _get__menuWrapperGameObject();
-    // Set instance field: private UnityEngine.GameObject _menuWrapperGameObject
-    void _set__menuWrapperGameObject(UnityEngine::GameObject* value);
-    // Get instance field: private UnityEngine.GameObject _menuControllersGameObject
-    UnityEngine::GameObject* _get__menuControllersGameObject();
-    // Set instance field: private UnityEngine.GameObject _menuControllersGameObject
-    void _set__menuControllersGameObject(UnityEngine::GameObject* value);
-    // Get instance field: private readonly IConnectedPlayer _connectedPlayer
-    GlobalNamespace::IConnectedPlayer* _get__connectedPlayer();
-    // Set instance field: private readonly IConnectedPlayer _connectedPlayer
-    void _set__connectedPlayer(GlobalNamespace::IConnectedPlayer* value);
-    // Get instance field: private readonly LocalPlayerInGameMenuInitData _localPlayerInGameMenuInitData
-    GlobalNamespace::LocalPlayerInGameMenuInitData* _get__localPlayerInGameMenuInitData();
-    // Set instance field: private readonly LocalPlayerInGameMenuInitData _localPlayerInGameMenuInitData
-    void _set__localPlayerInGameMenuInitData(GlobalNamespace::LocalPlayerInGameMenuInitData* value);
-    // Get instance field: private readonly VRControllersInputManager _vrControllersInputManager
-    GlobalNamespace::VRControllersInputManager* _get__vrControllersInputManager();
-    // Set instance field: private readonly VRControllersInputManager _vrControllersInputManager
-    void _set__vrControllersInputManager(GlobalNamespace::VRControllersInputManager* value);
-    // Get instance field: private readonly MultiplayerLocalPlayerDisconnectHelper _disconnectHelper
-    GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* _get__disconnectHelper();
-    // Set instance field: private readonly MultiplayerLocalPlayerDisconnectHelper _disconnectHelper
-    void _set__disconnectHelper(GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* value);
-    // Get instance field: private System.Action didPressDisconnectButtonEvent
-    System::Action* _get_didPressDisconnectButtonEvent();
-    // Set instance field: private System.Action didPressDisconnectButtonEvent
-    void _set_didPressDisconnectButtonEvent(System::Action* value);
-    // Get instance field: private System.Action didPressGiveUpButtonEvent
-    System::Action* _get_didPressGiveUpButtonEvent();
-    // Set instance field: private System.Action didPressGiveUpButtonEvent
-    void _set_didPressGiveUpButtonEvent(System::Action* value);
-    // Get instance field: private System.Action didPressResumeButtonEvent
-    System::Action* _get_didPressResumeButtonEvent();
-    // Set instance field: private System.Action didPressResumeButtonEvent
-    void _set_didPressResumeButtonEvent(System::Action* value);
-    // Get instance field: private HMUI.ButtonBinder _buttonBinder
-    HMUI::ButtonBinder* _get__buttonBinder();
-    // Set instance field: private HMUI.ButtonBinder _buttonBinder
-    void _set__buttonBinder(HMUI::ButtonBinder* value);
-    // Get instance field: private System.Single _disabledInteractionRemainingTime
-    float _get__disabledInteractionRemainingTime();
-    // Set instance field: private System.Single _disabledInteractionRemainingTime
-    void _set__disabledInteractionRemainingTime(float value);
+    // Get instance field reference: private UnityEngine.UI.Button _disconnectButton
+    UnityEngine::UI::Button*& dyn__disconnectButton();
+    // Get instance field reference: private Polyglot.LocalizedTextMeshProUGUI _disconnectButtonLocalizedText
+    Polyglot::LocalizedTextMeshProUGUI*& dyn__disconnectButtonLocalizedText();
+    // Get instance field reference: private UnityEngine.UI.Button _giveUpButton
+    UnityEngine::UI::Button*& dyn__giveUpButton();
+    // Get instance field reference: private UnityEngine.UI.Button _resumeButton
+    UnityEngine::UI::Button*& dyn__resumeButton();
+    // Get instance field reference: private UnityEngine.GameObject _mainBar
+    UnityEngine::GameObject*& dyn__mainBar();
+    // Get instance field reference: private DisconnectPromptView _disconnectPromptView
+    GlobalNamespace::DisconnectPromptView*& dyn__disconnectPromptView();
+    // Get instance field reference: private LevelBar _levelBar
+    GlobalNamespace::LevelBar*& dyn__levelBar();
+    // Get instance field reference: private UnityEngine.GameObject _menuWrapperGameObject
+    UnityEngine::GameObject*& dyn__menuWrapperGameObject();
+    // Get instance field reference: private UnityEngine.GameObject _menuControllersGameObject
+    UnityEngine::GameObject*& dyn__menuControllersGameObject();
+    // Get instance field reference: private readonly IConnectedPlayer _connectedPlayer
+    GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
+    // Get instance field reference: private readonly LocalPlayerInGameMenuInitData _localPlayerInGameMenuInitData
+    GlobalNamespace::LocalPlayerInGameMenuInitData*& dyn__localPlayerInGameMenuInitData();
+    // Get instance field reference: private readonly VRControllersInputManager _vrControllersInputManager
+    GlobalNamespace::VRControllersInputManager*& dyn__vrControllersInputManager();
+    // Get instance field reference: private readonly MultiplayerLocalPlayerDisconnectHelper _disconnectHelper
+    GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*& dyn__disconnectHelper();
+    // Get instance field reference: private System.Action didPressDisconnectButtonEvent
+    System::Action*& dyn_didPressDisconnectButtonEvent();
+    // Get instance field reference: private System.Action didPressGiveUpButtonEvent
+    System::Action*& dyn_didPressGiveUpButtonEvent();
+    // Get instance field reference: private System.Action didPressResumeButtonEvent
+    System::Action*& dyn_didPressResumeButtonEvent();
+    // Get instance field reference: private HMUI.ButtonBinder _buttonBinder
+    HMUI::ButtonBinder*& dyn__buttonBinder();
+    // Get instance field reference: private System.Single _disabledInteractionRemainingTime
+    float& dyn__disabledInteractionRemainingTime();
     // public System.Void add_didPressDisconnectButtonEvent(System.Action value)
     // Offset: 0x1068BB8
     void add_didPressDisconnectButtonEvent(System::Action* value);

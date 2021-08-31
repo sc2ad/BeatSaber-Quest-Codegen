@@ -130,10 +130,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRInput::OVRControllerGamepadMac::ButtonGPC _get_Max();
     // Set static field: static public OVRInput/OVRControllerGamepadMac/ButtonGPC Max
     static void _set_Max(GlobalNamespace::OVRInput::OVRControllerGamepadMac::ButtonGPC value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // OVRInput/OVRControllerGamepadMac/ButtonGPC
   #pragma pack(pop)
   static check_size<sizeof(OVRInput::OVRControllerGamepadMac::ButtonGPC), 0 + sizeof(int)> __GlobalNamespace_OVRInput_OVRControllerGamepadMac_ButtonGPCSizeCheck;

@@ -273,142 +273,74 @@ namespace System::Globalization {
     static System::Globalization::NumberStyles _get_InvalidNumberStyles();
     // Set static field: static private System.Globalization.NumberStyles InvalidNumberStyles
     static void _set_InvalidNumberStyles(System::Globalization::NumberStyles value);
-    // Get instance field: System.Int32[] numberGroupSizes
-    ::Array<int>* _get_numberGroupSizes();
-    // Set instance field: System.Int32[] numberGroupSizes
-    void _set_numberGroupSizes(::Array<int>* value);
-    // Get instance field: System.Int32[] currencyGroupSizes
-    ::Array<int>* _get_currencyGroupSizes();
-    // Set instance field: System.Int32[] currencyGroupSizes
-    void _set_currencyGroupSizes(::Array<int>* value);
-    // Get instance field: System.Int32[] percentGroupSizes
-    ::Array<int>* _get_percentGroupSizes();
-    // Set instance field: System.Int32[] percentGroupSizes
-    void _set_percentGroupSizes(::Array<int>* value);
-    // Get instance field: System.String positiveSign
-    ::Il2CppString* _get_positiveSign();
-    // Set instance field: System.String positiveSign
-    void _set_positiveSign(::Il2CppString* value);
-    // Get instance field: System.String negativeSign
-    ::Il2CppString* _get_negativeSign();
-    // Set instance field: System.String negativeSign
-    void _set_negativeSign(::Il2CppString* value);
-    // Get instance field: System.String numberDecimalSeparator
-    ::Il2CppString* _get_numberDecimalSeparator();
-    // Set instance field: System.String numberDecimalSeparator
-    void _set_numberDecimalSeparator(::Il2CppString* value);
-    // Get instance field: System.String numberGroupSeparator
-    ::Il2CppString* _get_numberGroupSeparator();
-    // Set instance field: System.String numberGroupSeparator
-    void _set_numberGroupSeparator(::Il2CppString* value);
-    // Get instance field: System.String currencyGroupSeparator
-    ::Il2CppString* _get_currencyGroupSeparator();
-    // Set instance field: System.String currencyGroupSeparator
-    void _set_currencyGroupSeparator(::Il2CppString* value);
-    // Get instance field: System.String currencyDecimalSeparator
-    ::Il2CppString* _get_currencyDecimalSeparator();
-    // Set instance field: System.String currencyDecimalSeparator
-    void _set_currencyDecimalSeparator(::Il2CppString* value);
-    // Get instance field: System.String currencySymbol
-    ::Il2CppString* _get_currencySymbol();
-    // Set instance field: System.String currencySymbol
-    void _set_currencySymbol(::Il2CppString* value);
-    // Get instance field: System.String ansiCurrencySymbol
-    ::Il2CppString* _get_ansiCurrencySymbol();
-    // Set instance field: System.String ansiCurrencySymbol
-    void _set_ansiCurrencySymbol(::Il2CppString* value);
-    // Get instance field: System.String nanSymbol
-    ::Il2CppString* _get_nanSymbol();
-    // Set instance field: System.String nanSymbol
-    void _set_nanSymbol(::Il2CppString* value);
-    // Get instance field: System.String positiveInfinitySymbol
-    ::Il2CppString* _get_positiveInfinitySymbol();
-    // Set instance field: System.String positiveInfinitySymbol
-    void _set_positiveInfinitySymbol(::Il2CppString* value);
-    // Get instance field: System.String negativeInfinitySymbol
-    ::Il2CppString* _get_negativeInfinitySymbol();
-    // Set instance field: System.String negativeInfinitySymbol
-    void _set_negativeInfinitySymbol(::Il2CppString* value);
-    // Get instance field: System.String percentDecimalSeparator
-    ::Il2CppString* _get_percentDecimalSeparator();
-    // Set instance field: System.String percentDecimalSeparator
-    void _set_percentDecimalSeparator(::Il2CppString* value);
-    // Get instance field: System.String percentGroupSeparator
-    ::Il2CppString* _get_percentGroupSeparator();
-    // Set instance field: System.String percentGroupSeparator
-    void _set_percentGroupSeparator(::Il2CppString* value);
-    // Get instance field: System.String percentSymbol
-    ::Il2CppString* _get_percentSymbol();
-    // Set instance field: System.String percentSymbol
-    void _set_percentSymbol(::Il2CppString* value);
-    // Get instance field: System.String perMilleSymbol
-    ::Il2CppString* _get_perMilleSymbol();
-    // Set instance field: System.String perMilleSymbol
-    void _set_perMilleSymbol(::Il2CppString* value);
-    // Get instance field: System.String[] nativeDigits
-    ::Array<::Il2CppString*>* _get_nativeDigits();
-    // Set instance field: System.String[] nativeDigits
-    void _set_nativeDigits(::Array<::Il2CppString*>* value);
-    // Get instance field: System.Int32 m_dataItem
-    int _get_m_dataItem();
-    // Set instance field: System.Int32 m_dataItem
-    void _set_m_dataItem(int value);
-    // Get instance field: System.Int32 numberDecimalDigits
-    int _get_numberDecimalDigits();
-    // Set instance field: System.Int32 numberDecimalDigits
-    void _set_numberDecimalDigits(int value);
-    // Get instance field: System.Int32 currencyDecimalDigits
-    int _get_currencyDecimalDigits();
-    // Set instance field: System.Int32 currencyDecimalDigits
-    void _set_currencyDecimalDigits(int value);
-    // Get instance field: System.Int32 currencyPositivePattern
-    int _get_currencyPositivePattern();
-    // Set instance field: System.Int32 currencyPositivePattern
-    void _set_currencyPositivePattern(int value);
-    // Get instance field: System.Int32 currencyNegativePattern
-    int _get_currencyNegativePattern();
-    // Set instance field: System.Int32 currencyNegativePattern
-    void _set_currencyNegativePattern(int value);
-    // Get instance field: System.Int32 numberNegativePattern
-    int _get_numberNegativePattern();
-    // Set instance field: System.Int32 numberNegativePattern
-    void _set_numberNegativePattern(int value);
-    // Get instance field: System.Int32 percentPositivePattern
-    int _get_percentPositivePattern();
-    // Set instance field: System.Int32 percentPositivePattern
-    void _set_percentPositivePattern(int value);
-    // Get instance field: System.Int32 percentNegativePattern
-    int _get_percentNegativePattern();
-    // Set instance field: System.Int32 percentNegativePattern
-    void _set_percentNegativePattern(int value);
-    // Get instance field: System.Int32 percentDecimalDigits
-    int _get_percentDecimalDigits();
-    // Set instance field: System.Int32 percentDecimalDigits
-    void _set_percentDecimalDigits(int value);
-    // Get instance field: System.Int32 digitSubstitution
-    int _get_digitSubstitution();
-    // Set instance field: System.Int32 digitSubstitution
-    void _set_digitSubstitution(int value);
-    // Get instance field: System.Boolean isReadOnly
-    bool _get_isReadOnly();
-    // Set instance field: System.Boolean isReadOnly
-    void _set_isReadOnly(bool value);
-    // Get instance field: System.Boolean m_useUserOverride
-    bool _get_m_useUserOverride();
-    // Set instance field: System.Boolean m_useUserOverride
-    void _set_m_useUserOverride(bool value);
-    // Get instance field: System.Boolean m_isInvariant
-    bool _get_m_isInvariant();
-    // Set instance field: System.Boolean m_isInvariant
-    void _set_m_isInvariant(bool value);
-    // Get instance field: System.Boolean validForParseAsNumber
-    bool _get_validForParseAsNumber();
-    // Set instance field: System.Boolean validForParseAsNumber
-    void _set_validForParseAsNumber(bool value);
-    // Get instance field: System.Boolean validForParseAsCurrency
-    bool _get_validForParseAsCurrency();
-    // Set instance field: System.Boolean validForParseAsCurrency
-    void _set_validForParseAsCurrency(bool value);
+    // Get instance field reference: System.Int32[] numberGroupSizes
+    ::Array<int>*& dyn_numberGroupSizes();
+    // Get instance field reference: System.Int32[] currencyGroupSizes
+    ::Array<int>*& dyn_currencyGroupSizes();
+    // Get instance field reference: System.Int32[] percentGroupSizes
+    ::Array<int>*& dyn_percentGroupSizes();
+    // Get instance field reference: System.String positiveSign
+    ::Il2CppString*& dyn_positiveSign();
+    // Get instance field reference: System.String negativeSign
+    ::Il2CppString*& dyn_negativeSign();
+    // Get instance field reference: System.String numberDecimalSeparator
+    ::Il2CppString*& dyn_numberDecimalSeparator();
+    // Get instance field reference: System.String numberGroupSeparator
+    ::Il2CppString*& dyn_numberGroupSeparator();
+    // Get instance field reference: System.String currencyGroupSeparator
+    ::Il2CppString*& dyn_currencyGroupSeparator();
+    // Get instance field reference: System.String currencyDecimalSeparator
+    ::Il2CppString*& dyn_currencyDecimalSeparator();
+    // Get instance field reference: System.String currencySymbol
+    ::Il2CppString*& dyn_currencySymbol();
+    // Get instance field reference: System.String ansiCurrencySymbol
+    ::Il2CppString*& dyn_ansiCurrencySymbol();
+    // Get instance field reference: System.String nanSymbol
+    ::Il2CppString*& dyn_nanSymbol();
+    // Get instance field reference: System.String positiveInfinitySymbol
+    ::Il2CppString*& dyn_positiveInfinitySymbol();
+    // Get instance field reference: System.String negativeInfinitySymbol
+    ::Il2CppString*& dyn_negativeInfinitySymbol();
+    // Get instance field reference: System.String percentDecimalSeparator
+    ::Il2CppString*& dyn_percentDecimalSeparator();
+    // Get instance field reference: System.String percentGroupSeparator
+    ::Il2CppString*& dyn_percentGroupSeparator();
+    // Get instance field reference: System.String percentSymbol
+    ::Il2CppString*& dyn_percentSymbol();
+    // Get instance field reference: System.String perMilleSymbol
+    ::Il2CppString*& dyn_perMilleSymbol();
+    // Get instance field reference: System.String[] nativeDigits
+    ::Array<::Il2CppString*>*& dyn_nativeDigits();
+    // Get instance field reference: System.Int32 m_dataItem
+    int& dyn_m_dataItem();
+    // Get instance field reference: System.Int32 numberDecimalDigits
+    int& dyn_numberDecimalDigits();
+    // Get instance field reference: System.Int32 currencyDecimalDigits
+    int& dyn_currencyDecimalDigits();
+    // Get instance field reference: System.Int32 currencyPositivePattern
+    int& dyn_currencyPositivePattern();
+    // Get instance field reference: System.Int32 currencyNegativePattern
+    int& dyn_currencyNegativePattern();
+    // Get instance field reference: System.Int32 numberNegativePattern
+    int& dyn_numberNegativePattern();
+    // Get instance field reference: System.Int32 percentPositivePattern
+    int& dyn_percentPositivePattern();
+    // Get instance field reference: System.Int32 percentNegativePattern
+    int& dyn_percentNegativePattern();
+    // Get instance field reference: System.Int32 percentDecimalDigits
+    int& dyn_percentDecimalDigits();
+    // Get instance field reference: System.Int32 digitSubstitution
+    int& dyn_digitSubstitution();
+    // Get instance field reference: System.Boolean isReadOnly
+    bool& dyn_isReadOnly();
+    // Get instance field reference: System.Boolean m_useUserOverride
+    bool& dyn_m_useUserOverride();
+    // Get instance field reference: System.Boolean m_isInvariant
+    bool& dyn_m_isInvariant();
+    // Get instance field reference: System.Boolean validForParseAsNumber
+    bool& dyn_validForParseAsNumber();
+    // Get instance field reference: System.Boolean validForParseAsCurrency
+    bool& dyn_validForParseAsCurrency();
     // static public System.Globalization.NumberFormatInfo get_InvariantInfo()
     // Offset: 0x1A1AE28
     static System::Globalization::NumberFormatInfo* get_InvariantInfo();

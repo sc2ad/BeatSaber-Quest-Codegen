@@ -47,14 +47,10 @@ namespace GlobalNamespace {
     MultiplayerLocalInactiveClient(GlobalNamespace::PlayerTransforms* playerTransforms_ = {}, GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager_ = {}) noexcept : playerTransforms{playerTransforms_}, nodePoseSyncStateManager{nodePoseSyncStateManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private readonly PlayerTransforms _playerTransforms
-    GlobalNamespace::PlayerTransforms* _get__playerTransforms();
-    // Set instance field: private readonly PlayerTransforms _playerTransforms
-    void _set__playerTransforms(GlobalNamespace::PlayerTransforms* value);
-    // Get instance field: private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
-    GlobalNamespace::INodePoseSyncStateManager* _get__nodePoseSyncStateManager();
-    // Set instance field: private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
-    void _set__nodePoseSyncStateManager(GlobalNamespace::INodePoseSyncStateManager* value);
+    // Get instance field reference: private readonly PlayerTransforms _playerTransforms
+    GlobalNamespace::PlayerTransforms*& dyn__playerTransforms();
+    // Get instance field reference: private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
+    GlobalNamespace::INodePoseSyncStateManager*& dyn__nodePoseSyncStateManager();
     // protected System.Void LateUpdate()
     // Offset: 0x1069CAC
     void LateUpdate();

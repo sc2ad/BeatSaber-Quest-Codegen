@@ -63,22 +63,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action*) == 0x8);
     // Creating value type constructor for type: JoiningLobbyViewController
     JoiningLobbyViewController(UnityEngine::UI::Button* cancelJoiningButton_ = {}, GlobalNamespace::LoadingControl* loadingControl_ = {}, ::Il2CppString* text_ = {}, System::Action* didCancelEvent_ = {}) noexcept : cancelJoiningButton{cancelJoiningButton_}, loadingControl{loadingControl_}, text{text_}, didCancelEvent{didCancelEvent_} {}
-    // Get instance field: private UnityEngine.UI.Button _cancelJoiningButton
-    UnityEngine::UI::Button* _get__cancelJoiningButton();
-    // Set instance field: private UnityEngine.UI.Button _cancelJoiningButton
-    void _set__cancelJoiningButton(UnityEngine::UI::Button* value);
-    // Get instance field: private LoadingControl _loadingControl
-    GlobalNamespace::LoadingControl* _get__loadingControl();
-    // Set instance field: private LoadingControl _loadingControl
-    void _set__loadingControl(GlobalNamespace::LoadingControl* value);
-    // Get instance field: private System.String _text
-    ::Il2CppString* _get__text();
-    // Set instance field: private System.String _text
-    void _set__text(::Il2CppString* value);
-    // Get instance field: private System.Action didCancelEvent
-    System::Action* _get_didCancelEvent();
-    // Set instance field: private System.Action didCancelEvent
-    void _set_didCancelEvent(System::Action* value);
+    // Get instance field reference: private UnityEngine.UI.Button _cancelJoiningButton
+    UnityEngine::UI::Button*& dyn__cancelJoiningButton();
+    // Get instance field reference: private LoadingControl _loadingControl
+    GlobalNamespace::LoadingControl*& dyn__loadingControl();
+    // Get instance field reference: private System.String _text
+    ::Il2CppString*& dyn__text();
+    // Get instance field reference: private System.Action didCancelEvent
+    System::Action*& dyn_didCancelEvent();
     // public System.Void add_didCancelEvent(System.Action value)
     // Offset: 0x11473F8
     void add_didCancelEvent(System::Action* value);

@@ -87,10 +87,8 @@ namespace MasterServer {
       static MasterServer::AuthenticateUserResponse::Result _get_UnknownError();
       // Set static field: static public MasterServer.AuthenticateUserResponse/MasterServer.Result UnknownError
       static void _set_UnknownError(MasterServer::AuthenticateUserResponse::Result value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // MasterServer.AuthenticateUserResponse/MasterServer.Result
     #pragma pack(pop)
     static check_size<sizeof(AuthenticateUserResponse::Result), 0 + sizeof(int)> __MasterServer_AuthenticateUserResponse_ResultSizeCheck;
@@ -115,10 +113,8 @@ namespace MasterServer {
     constexpr operator MasterServer::AuthenticateUserResponse::Result() const noexcept {
       return result;
     }
-    // Get instance field: public MasterServer.AuthenticateUserResponse/MasterServer.Result result
-    MasterServer::AuthenticateUserResponse::Result _get_result();
-    // Set instance field: public MasterServer.AuthenticateUserResponse/MasterServer.Result result
-    void _set_result(MasterServer::AuthenticateUserResponse::Result value);
+    // Get instance field reference: public MasterServer.AuthenticateUserResponse/MasterServer.Result result
+    MasterServer::AuthenticateUserResponse::Result& dyn_result();
     // static public PacketPool`1<MasterServer.AuthenticateUserResponse> get_pool()
     // Offset: 0x132EA3C
     static GlobalNamespace::PacketPool_1<MasterServer::AuthenticateUserResponse*>* get_pool();

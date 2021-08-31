@@ -120,54 +120,30 @@ namespace Org::BouncyCastle::Crypto::Modes {
     operator Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*>(this);
     }
-    // Get instance field: private Org.BouncyCastle.Crypto.Modes.SicBlockCipher cipher
-    Org::BouncyCastle::Crypto::Modes::SicBlockCipher* _get_cipher();
-    // Set instance field: private Org.BouncyCastle.Crypto.Modes.SicBlockCipher cipher
-    void _set_cipher(Org::BouncyCastle::Crypto::Modes::SicBlockCipher* value);
-    // Get instance field: private System.Boolean forEncryption
-    bool _get_forEncryption();
-    // Set instance field: private System.Boolean forEncryption
-    void _set_forEncryption(bool value);
-    // Get instance field: private System.Int32 blockSize
-    int _get_blockSize();
-    // Set instance field: private System.Int32 blockSize
-    void _set_blockSize(int value);
-    // Get instance field: private Org.BouncyCastle.Crypto.IMac mac
-    Org::BouncyCastle::Crypto::IMac* _get_mac();
-    // Set instance field: private Org.BouncyCastle.Crypto.IMac mac
-    void _set_mac(Org::BouncyCastle::Crypto::IMac* value);
-    // Get instance field: private System.Byte[] nonceMac
-    ::Array<uint8_t>* _get_nonceMac();
-    // Set instance field: private System.Byte[] nonceMac
-    void _set_nonceMac(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] associatedTextMac
-    ::Array<uint8_t>* _get_associatedTextMac();
-    // Set instance field: private System.Byte[] associatedTextMac
-    void _set_associatedTextMac(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] macBlock
-    ::Array<uint8_t>* _get_macBlock();
-    // Set instance field: private System.Byte[] macBlock
-    void _set_macBlock(::Array<uint8_t>* value);
-    // Get instance field: private System.Int32 macSize
-    int _get_macSize();
-    // Set instance field: private System.Int32 macSize
-    void _set_macSize(int value);
-    // Get instance field: private System.Byte[] bufBlock
-    ::Array<uint8_t>* _get_bufBlock();
-    // Set instance field: private System.Byte[] bufBlock
-    void _set_bufBlock(::Array<uint8_t>* value);
-    // Get instance field: private System.Int32 bufOff
-    int _get_bufOff();
-    // Set instance field: private System.Int32 bufOff
-    void _set_bufOff(int value);
-    // Get instance field: private System.Boolean cipherInitialized
-    bool _get_cipherInitialized();
-    // Set instance field: private System.Boolean cipherInitialized
-    void _set_cipherInitialized(bool value);
-    // Get instance field: private System.Byte[] initialAssociatedText
-    ::Array<uint8_t>* _get_initialAssociatedText();
-    // Set instance field: private System.Byte[] initialAssociatedText
-    void _set_initialAssociatedText(::Array<uint8_t>* value);
+    // Get instance field reference: private Org.BouncyCastle.Crypto.Modes.SicBlockCipher cipher
+    Org::BouncyCastle::Crypto::Modes::SicBlockCipher*& dyn_cipher();
+    // Get instance field reference: private System.Boolean forEncryption
+    bool& dyn_forEncryption();
+    // Get instance field reference: private System.Int32 blockSize
+    int& dyn_blockSize();
+    // Get instance field reference: private Org.BouncyCastle.Crypto.IMac mac
+    Org::BouncyCastle::Crypto::IMac*& dyn_mac();
+    // Get instance field reference: private System.Byte[] nonceMac
+    ::Array<uint8_t>*& dyn_nonceMac();
+    // Get instance field reference: private System.Byte[] associatedTextMac
+    ::Array<uint8_t>*& dyn_associatedTextMac();
+    // Get instance field reference: private System.Byte[] macBlock
+    ::Array<uint8_t>*& dyn_macBlock();
+    // Get instance field reference: private System.Int32 macSize
+    int& dyn_macSize();
+    // Get instance field reference: private System.Byte[] bufBlock
+    ::Array<uint8_t>*& dyn_bufBlock();
+    // Get instance field reference: private System.Int32 bufOff
+    int& dyn_bufOff();
+    // Get instance field reference: private System.Boolean cipherInitialized
+    bool& dyn_cipherInitialized();
+    // Get instance field reference: private System.Byte[] initialAssociatedText
+    ::Array<uint8_t>*& dyn_initialAssociatedText();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher)
     // Offset: 0x191782C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

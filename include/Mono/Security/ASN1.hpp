@@ -48,18 +48,12 @@ namespace Mono::Security {
     static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
     // Creating value type constructor for type: ASN1
     ASN1(uint8_t m_nTag_ = {}, ::Array<uint8_t>* m_aValue_ = {}, System::Collections::ArrayList* elist_ = {}) noexcept : m_nTag{m_nTag_}, m_aValue{m_aValue_}, elist{elist_} {}
-    // Get instance field: private System.Byte m_nTag
-    uint8_t _get_m_nTag();
-    // Set instance field: private System.Byte m_nTag
-    void _set_m_nTag(uint8_t value);
-    // Get instance field: private System.Byte[] m_aValue
-    ::Array<uint8_t>* _get_m_aValue();
-    // Set instance field: private System.Byte[] m_aValue
-    void _set_m_aValue(::Array<uint8_t>* value);
-    // Get instance field: private System.Collections.ArrayList elist
-    System::Collections::ArrayList* _get_elist();
-    // Set instance field: private System.Collections.ArrayList elist
-    void _set_elist(System::Collections::ArrayList* value);
+    // Get instance field reference: private System.Byte m_nTag
+    uint8_t& dyn_m_nTag();
+    // Get instance field reference: private System.Byte[] m_aValue
+    ::Array<uint8_t>*& dyn_m_aValue();
+    // Get instance field reference: private System.Collections.ArrayList elist
+    System::Collections::ArrayList*& dyn_elist();
     // public System.Int32 get_Count()
     // Offset: 0x1DFC4D0
     int get_Count();

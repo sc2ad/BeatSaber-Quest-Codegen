@@ -101,38 +101,22 @@ namespace GlobalNamespace {
     static float _get_kRotationStep();
     // Set static field: static private System.Single kRotationStep
     static void _set_kRotationStep(float value);
-    // Get instance field: private Vector3SO _controllerPosition
-    GlobalNamespace::Vector3SO* _get__controllerPosition();
-    // Set instance field: private Vector3SO _controllerPosition
-    void _set__controllerPosition(GlobalNamespace::Vector3SO* value);
-    // Get instance field: private Vector3SO _controllerRotation
-    GlobalNamespace::Vector3SO* _get__controllerRotation();
-    // Set instance field: private Vector3SO _controllerRotation
-    void _set__controllerRotation(GlobalNamespace::Vector3SO* value);
-    // Get instance field: private HMUI.RangeValuesTextSlider _posXSlider
-    HMUI::RangeValuesTextSlider* _get__posXSlider();
-    // Set instance field: private HMUI.RangeValuesTextSlider _posXSlider
-    void _set__posXSlider(HMUI::RangeValuesTextSlider* value);
-    // Get instance field: private HMUI.RangeValuesTextSlider _posYSlider
-    HMUI::RangeValuesTextSlider* _get__posYSlider();
-    // Set instance field: private HMUI.RangeValuesTextSlider _posYSlider
-    void _set__posYSlider(HMUI::RangeValuesTextSlider* value);
-    // Get instance field: private HMUI.RangeValuesTextSlider _posZSlider
-    HMUI::RangeValuesTextSlider* _get__posZSlider();
-    // Set instance field: private HMUI.RangeValuesTextSlider _posZSlider
-    void _set__posZSlider(HMUI::RangeValuesTextSlider* value);
-    // Get instance field: private HMUI.RangeValuesTextSlider _rotXSlider
-    HMUI::RangeValuesTextSlider* _get__rotXSlider();
-    // Set instance field: private HMUI.RangeValuesTextSlider _rotXSlider
-    void _set__rotXSlider(HMUI::RangeValuesTextSlider* value);
-    // Get instance field: private HMUI.RangeValuesTextSlider _rotYSlider
-    HMUI::RangeValuesTextSlider* _get__rotYSlider();
-    // Set instance field: private HMUI.RangeValuesTextSlider _rotYSlider
-    void _set__rotYSlider(HMUI::RangeValuesTextSlider* value);
-    // Get instance field: private HMUI.RangeValuesTextSlider _rotZSlider
-    HMUI::RangeValuesTextSlider* _get__rotZSlider();
-    // Set instance field: private HMUI.RangeValuesTextSlider _rotZSlider
-    void _set__rotZSlider(HMUI::RangeValuesTextSlider* value);
+    // Get instance field reference: private Vector3SO _controllerPosition
+    GlobalNamespace::Vector3SO*& dyn__controllerPosition();
+    // Get instance field reference: private Vector3SO _controllerRotation
+    GlobalNamespace::Vector3SO*& dyn__controllerRotation();
+    // Get instance field reference: private HMUI.RangeValuesTextSlider _posXSlider
+    HMUI::RangeValuesTextSlider*& dyn__posXSlider();
+    // Get instance field reference: private HMUI.RangeValuesTextSlider _posYSlider
+    HMUI::RangeValuesTextSlider*& dyn__posYSlider();
+    // Get instance field reference: private HMUI.RangeValuesTextSlider _posZSlider
+    HMUI::RangeValuesTextSlider*& dyn__posZSlider();
+    // Get instance field reference: private HMUI.RangeValuesTextSlider _rotXSlider
+    HMUI::RangeValuesTextSlider*& dyn__rotXSlider();
+    // Get instance field reference: private HMUI.RangeValuesTextSlider _rotYSlider
+    HMUI::RangeValuesTextSlider*& dyn__rotYSlider();
+    // Get instance field reference: private HMUI.RangeValuesTextSlider _rotZSlider
+    HMUI::RangeValuesTextSlider*& dyn__rotZSlider();
     // private System.Void HandlePositionSliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
     // Offset: 0x10F3434
     void HandlePositionSliderValueDidChange(HMUI::RangeValuesTextSlider* slider, float value);

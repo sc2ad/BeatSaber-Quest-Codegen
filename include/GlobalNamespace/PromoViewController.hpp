@@ -53,14 +53,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_3<GlobalNamespace::PromoViewController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::IPreviewBeatmapLevel*>*) == 0x8);
     // Creating value type constructor for type: PromoViewController
     PromoViewController(::Array<GlobalNamespace::PromoViewController::ButtonPromoTypePair*>* elements_ = {}, System::Action_3<GlobalNamespace::PromoViewController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::IPreviewBeatmapLevel*>* promoButtonWasPressedEvent_ = {}) noexcept : elements{elements_}, promoButtonWasPressedEvent{promoButtonWasPressedEvent_} {}
-    // Get instance field: private PromoViewController/ButtonPromoTypePair[] _elements
-    ::Array<GlobalNamespace::PromoViewController::ButtonPromoTypePair*>* _get__elements();
-    // Set instance field: private PromoViewController/ButtonPromoTypePair[] _elements
-    void _set__elements(::Array<GlobalNamespace::PromoViewController::ButtonPromoTypePair*>* value);
-    // Get instance field: private System.Action`3<PromoViewController,IAnnotatedBeatmapLevelCollection,IPreviewBeatmapLevel> promoButtonWasPressedEvent
-    System::Action_3<GlobalNamespace::PromoViewController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::IPreviewBeatmapLevel*>* _get_promoButtonWasPressedEvent();
-    // Set instance field: private System.Action`3<PromoViewController,IAnnotatedBeatmapLevelCollection,IPreviewBeatmapLevel> promoButtonWasPressedEvent
-    void _set_promoButtonWasPressedEvent(System::Action_3<GlobalNamespace::PromoViewController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::IPreviewBeatmapLevel*>* value);
+    // Get instance field reference: private PromoViewController/ButtonPromoTypePair[] _elements
+    ::Array<GlobalNamespace::PromoViewController::ButtonPromoTypePair*>*& dyn__elements();
+    // Get instance field reference: private System.Action`3<PromoViewController,IAnnotatedBeatmapLevelCollection,IPreviewBeatmapLevel> promoButtonWasPressedEvent
+    System::Action_3<GlobalNamespace::PromoViewController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::IPreviewBeatmapLevel*>*& dyn_promoButtonWasPressedEvent();
     // public System.Void add_promoButtonWasPressedEvent(System.Action`3<PromoViewController,IAnnotatedBeatmapLevelCollection,IPreviewBeatmapLevel> value)
     // Offset: 0x114055C
     void add_promoButtonWasPressedEvent(System::Action_3<GlobalNamespace::PromoViewController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::IPreviewBeatmapLevel*>* value);

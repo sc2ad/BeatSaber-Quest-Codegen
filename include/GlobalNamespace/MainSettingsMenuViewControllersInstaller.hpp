@@ -61,26 +61,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::TabBarViewController*) == 0x8);
     // Creating value type constructor for type: MainSettingsMenuViewControllersInstaller
     MainSettingsMenuViewControllersInstaller(GlobalNamespace::MainSettingsMenuViewController* defaultSettingsMenuViewController_ = {}, GlobalNamespace::MainSettingsMenuViewController* oculusPCSettingsMenuViewController_ = {}, GlobalNamespace::MainSettingsMenuViewController* questSettingsMenuViewController_ = {}, GlobalNamespace::MainSettingsMenuViewController* psvrSettingsMenuViewController_ = {}, GlobalNamespace::TabBarViewController* tabBarViewControllerPrefab_ = {}) noexcept : defaultSettingsMenuViewController{defaultSettingsMenuViewController_}, oculusPCSettingsMenuViewController{oculusPCSettingsMenuViewController_}, questSettingsMenuViewController{questSettingsMenuViewController_}, psvrSettingsMenuViewController{psvrSettingsMenuViewController_}, tabBarViewControllerPrefab{tabBarViewControllerPrefab_} {}
-    // Get instance field: private MainSettingsMenuViewController _defaultSettingsMenuViewController
-    GlobalNamespace::MainSettingsMenuViewController* _get__defaultSettingsMenuViewController();
-    // Set instance field: private MainSettingsMenuViewController _defaultSettingsMenuViewController
-    void _set__defaultSettingsMenuViewController(GlobalNamespace::MainSettingsMenuViewController* value);
-    // Get instance field: private MainSettingsMenuViewController _oculusPCSettingsMenuViewController
-    GlobalNamespace::MainSettingsMenuViewController* _get__oculusPCSettingsMenuViewController();
-    // Set instance field: private MainSettingsMenuViewController _oculusPCSettingsMenuViewController
-    void _set__oculusPCSettingsMenuViewController(GlobalNamespace::MainSettingsMenuViewController* value);
-    // Get instance field: private MainSettingsMenuViewController _questSettingsMenuViewController
-    GlobalNamespace::MainSettingsMenuViewController* _get__questSettingsMenuViewController();
-    // Set instance field: private MainSettingsMenuViewController _questSettingsMenuViewController
-    void _set__questSettingsMenuViewController(GlobalNamespace::MainSettingsMenuViewController* value);
-    // Get instance field: private MainSettingsMenuViewController _psvrSettingsMenuViewController
-    GlobalNamespace::MainSettingsMenuViewController* _get__psvrSettingsMenuViewController();
-    // Set instance field: private MainSettingsMenuViewController _psvrSettingsMenuViewController
-    void _set__psvrSettingsMenuViewController(GlobalNamespace::MainSettingsMenuViewController* value);
-    // Get instance field: private TabBarViewController _tabBarViewControllerPrefab
-    GlobalNamespace::TabBarViewController* _get__tabBarViewControllerPrefab();
-    // Set instance field: private TabBarViewController _tabBarViewControllerPrefab
-    void _set__tabBarViewControllerPrefab(GlobalNamespace::TabBarViewController* value);
+    // Get instance field reference: private MainSettingsMenuViewController _defaultSettingsMenuViewController
+    GlobalNamespace::MainSettingsMenuViewController*& dyn__defaultSettingsMenuViewController();
+    // Get instance field reference: private MainSettingsMenuViewController _oculusPCSettingsMenuViewController
+    GlobalNamespace::MainSettingsMenuViewController*& dyn__oculusPCSettingsMenuViewController();
+    // Get instance field reference: private MainSettingsMenuViewController _questSettingsMenuViewController
+    GlobalNamespace::MainSettingsMenuViewController*& dyn__questSettingsMenuViewController();
+    // Get instance field reference: private MainSettingsMenuViewController _psvrSettingsMenuViewController
+    GlobalNamespace::MainSettingsMenuViewController*& dyn__psvrSettingsMenuViewController();
+    // Get instance field reference: private TabBarViewController _tabBarViewControllerPrefab
+    GlobalNamespace::TabBarViewController*& dyn__tabBarViewControllerPrefab();
     // public System.Void .ctor()
     // Offset: 0x10E26D8
     // Implemented from: Zenject.MonoInstaller

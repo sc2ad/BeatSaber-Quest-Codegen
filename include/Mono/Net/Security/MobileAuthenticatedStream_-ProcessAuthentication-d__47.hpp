@@ -112,50 +112,28 @@ namespace Mono::Net::Security {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
-    // Get instance field: public System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: public System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder _get_$$t__builder();
-    // Set instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
-    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder value);
-    // Get instance field: public System.Boolean serverMode
-    bool _get_serverMode();
-    // Set instance field: public System.Boolean serverMode
-    void _set_serverMode(bool value);
-    // Get instance field: public System.Security.Cryptography.X509Certificates.X509Certificate serverCertificate
-    System::Security::Cryptography::X509Certificates::X509Certificate* _get_serverCertificate();
-    // Set instance field: public System.Security.Cryptography.X509Certificates.X509Certificate serverCertificate
-    void _set_serverCertificate(System::Security::Cryptography::X509Certificates::X509Certificate* value);
-    // Get instance field: public System.String targetHost
-    ::Il2CppString* _get_targetHost();
-    // Set instance field: public System.String targetHost
-    void _set_targetHost(::Il2CppString* value);
-    // Get instance field: public Mono.Net.Security.MobileAuthenticatedStream <>4__this
-    Mono::Net::Security::MobileAuthenticatedStream* _get_$$4__this();
-    // Set instance field: public Mono.Net.Security.MobileAuthenticatedStream <>4__this
-    void _set_$$4__this(Mono::Net::Security::MobileAuthenticatedStream* value);
-    // Get instance field: public System.Boolean runSynchronously
-    bool _get_runSynchronously();
-    // Set instance field: public System.Boolean runSynchronously
-    void _set_runSynchronously(bool value);
-    // Get instance field: public System.Security.Authentication.SslProtocols enabledProtocols
-    System::Security::Authentication::SslProtocols _get_enabledProtocols();
-    // Set instance field: public System.Security.Authentication.SslProtocols enabledProtocols
-    void _set_enabledProtocols(System::Security::Authentication::SslProtocols value);
-    // Get instance field: public System.Security.Cryptography.X509Certificates.X509CertificateCollection clientCertificates
-    System::Security::Cryptography::X509Certificates::X509CertificateCollection* _get_clientCertificates();
-    // Set instance field: public System.Security.Cryptography.X509Certificates.X509CertificateCollection clientCertificates
-    void _set_clientCertificates(System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
-    // Get instance field: public System.Boolean clientCertRequired
-    bool _get_clientCertRequired();
-    // Set instance field: public System.Boolean clientCertRequired
-    void _set_clientCertRequired(bool value);
-    // Get instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<Mono.Net.Security.AsyncProtocolResult> <>u__1
-    typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<Mono::Net::Security::AsyncProtocolResult*>::ConfiguredTaskAwaiter _get_$$u__1();
-    // Set instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<Mono.Net.Security.AsyncProtocolResult> <>u__1
-    void _set_$$u__1(typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<Mono::Net::Security::AsyncProtocolResult*>::ConfiguredTaskAwaiter value);
+    // Get instance field reference: public System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder& dyn_$$t__builder();
+    // Get instance field reference: public System.Boolean serverMode
+    bool& dyn_serverMode();
+    // Get instance field reference: public System.Security.Cryptography.X509Certificates.X509Certificate serverCertificate
+    System::Security::Cryptography::X509Certificates::X509Certificate*& dyn_serverCertificate();
+    // Get instance field reference: public System.String targetHost
+    ::Il2CppString*& dyn_targetHost();
+    // Get instance field reference: public Mono.Net.Security.MobileAuthenticatedStream <>4__this
+    Mono::Net::Security::MobileAuthenticatedStream*& dyn_$$4__this();
+    // Get instance field reference: public System.Boolean runSynchronously
+    bool& dyn_runSynchronously();
+    // Get instance field reference: public System.Security.Authentication.SslProtocols enabledProtocols
+    System::Security::Authentication::SslProtocols& dyn_enabledProtocols();
+    // Get instance field reference: public System.Security.Cryptography.X509Certificates.X509CertificateCollection clientCertificates
+    System::Security::Cryptography::X509Certificates::X509CertificateCollection*& dyn_clientCertificates();
+    // Get instance field reference: public System.Boolean clientCertRequired
+    bool& dyn_clientCertRequired();
+    // Get instance field reference: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<Mono.Net.Security.AsyncProtocolResult> <>u__1
+    typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<Mono::Net::Security::AsyncProtocolResult*>::ConfiguredTaskAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
     // Offset: 0x15E9EC0
     void MoveNext();

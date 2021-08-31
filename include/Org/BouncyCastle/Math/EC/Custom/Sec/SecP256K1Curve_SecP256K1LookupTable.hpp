@@ -49,18 +49,12 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: SecP256K1LookupTable
     SecP256K1LookupTable(Org::BouncyCastle::Math::EC::Custom::Sec::SecP256K1Curve* m_outer_ = {}, ::Array<uint>* m_table_ = {}, int m_size_ = {}) noexcept : m_outer{m_outer_}, m_table{m_table_}, m_size{m_size_} {}
-    // Get instance field: private readonly Org.BouncyCastle.Math.EC.Custom.Sec.SecP256K1Curve m_outer
-    Org::BouncyCastle::Math::EC::Custom::Sec::SecP256K1Curve* _get_m_outer();
-    // Set instance field: private readonly Org.BouncyCastle.Math.EC.Custom.Sec.SecP256K1Curve m_outer
-    void _set_m_outer(Org::BouncyCastle::Math::EC::Custom::Sec::SecP256K1Curve* value);
-    // Get instance field: private readonly System.UInt32[] m_table
-    ::Array<uint>* _get_m_table();
-    // Set instance field: private readonly System.UInt32[] m_table
-    void _set_m_table(::Array<uint>* value);
-    // Get instance field: private readonly System.Int32 m_size
-    int _get_m_size();
-    // Set instance field: private readonly System.Int32 m_size
-    void _set_m_size(int value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.Custom.Sec.SecP256K1Curve m_outer
+    Org::BouncyCastle::Math::EC::Custom::Sec::SecP256K1Curve*& dyn_m_outer();
+    // Get instance field reference: private readonly System.UInt32[] m_table
+    ::Array<uint>*& dyn_m_table();
+    // Get instance field reference: private readonly System.Int32 m_size
+    int& dyn_m_size();
     // System.Void .ctor(Org.BouncyCastle.Math.EC.Custom.Sec.SecP256K1Curve outer, System.UInt32[] table, System.Int32 size)
     // Offset: 0x1E33C7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

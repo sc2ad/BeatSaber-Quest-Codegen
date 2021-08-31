@@ -85,38 +85,22 @@ namespace GlobalNamespace {
     Rotate(UnityEngine::Vector3 rotationVector_ = {}, float speed_ = {}, bool randomize_ = {}, UnityEngine::Vector3 randomMinMultiplier_ = {}, UnityEngine::Vector3 randomMaxMultiplier_ = {}, UnityEngine::Transform* transform_ = {}, UnityEngine::Vector3 startRotationAngles_ = {}, UnityEngine::Vector3 randomizedMultiplier_ = {}) noexcept : rotationVector{rotationVector_}, speed{speed_}, randomize{randomize_}, randomMinMultiplier{randomMinMultiplier_}, randomMaxMultiplier{randomMaxMultiplier_}, transform{transform_}, startRotationAngles{startRotationAngles_}, randomizedMultiplier{randomizedMultiplier_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public UnityEngine.Vector3 _rotationVector
-    UnityEngine::Vector3 _get__rotationVector();
-    // Set instance field: public UnityEngine.Vector3 _rotationVector
-    void _set__rotationVector(UnityEngine::Vector3 value);
-    // Get instance field: public System.Single _speed
-    float _get__speed();
-    // Set instance field: public System.Single _speed
-    void _set__speed(float value);
-    // Get instance field: public System.Boolean _randomize
-    bool _get__randomize();
-    // Set instance field: public System.Boolean _randomize
-    void _set__randomize(bool value);
-    // Get instance field: public UnityEngine.Vector3 _randomMinMultiplier
-    UnityEngine::Vector3 _get__randomMinMultiplier();
-    // Set instance field: public UnityEngine.Vector3 _randomMinMultiplier
-    void _set__randomMinMultiplier(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Vector3 _randomMaxMultiplier
-    UnityEngine::Vector3 _get__randomMaxMultiplier();
-    // Set instance field: public UnityEngine.Vector3 _randomMaxMultiplier
-    void _set__randomMaxMultiplier(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Transform _transform
-    UnityEngine::Transform* _get__transform();
-    // Set instance field: private UnityEngine.Transform _transform
-    void _set__transform(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.Vector3 _startRotationAngles
-    UnityEngine::Vector3 _get__startRotationAngles();
-    // Set instance field: private UnityEngine.Vector3 _startRotationAngles
-    void _set__startRotationAngles(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 _randomizedMultiplier
-    UnityEngine::Vector3 _get__randomizedMultiplier();
-    // Set instance field: private UnityEngine.Vector3 _randomizedMultiplier
-    void _set__randomizedMultiplier(UnityEngine::Vector3 value);
+    // Get instance field reference: public UnityEngine.Vector3 _rotationVector
+    UnityEngine::Vector3& dyn__rotationVector();
+    // Get instance field reference: public System.Single _speed
+    float& dyn__speed();
+    // Get instance field reference: public System.Boolean _randomize
+    bool& dyn__randomize();
+    // Get instance field reference: public UnityEngine.Vector3 _randomMinMultiplier
+    UnityEngine::Vector3& dyn__randomMinMultiplier();
+    // Get instance field reference: public UnityEngine.Vector3 _randomMaxMultiplier
+    UnityEngine::Vector3& dyn__randomMaxMultiplier();
+    // Get instance field reference: private UnityEngine.Transform _transform
+    UnityEngine::Transform*& dyn__transform();
+    // Get instance field reference: private UnityEngine.Vector3 _startRotationAngles
+    UnityEngine::Vector3& dyn__startRotationAngles();
+    // Get instance field reference: private UnityEngine.Vector3 _randomizedMultiplier
+    UnityEngine::Vector3& dyn__randomizedMultiplier();
     // protected System.Void Awake()
     // Offset: 0x2396978
     void Awake();

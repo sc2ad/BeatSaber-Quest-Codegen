@@ -32,10 +32,8 @@ namespace Valve::VR {
     constexpr operator uint() const noexcept {
       return m_nFidelityLevel;
     }
-    // Get instance field: public System.UInt32 m_nFidelityLevel
-    uint _get_m_nFidelityLevel();
-    // Set instance field: public System.UInt32 m_nFidelityLevel
-    void _set_m_nFidelityLevel(uint value);
+    // Get instance field reference: public System.UInt32 m_nFidelityLevel
+    uint& dyn_m_nFidelityLevel();
   }; // Valve.VR.VREvent_PerformanceTest_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_PerformanceTest_t), 0 + sizeof(uint)> __Valve_VR_VREvent_PerformanceTest_tSizeCheck;

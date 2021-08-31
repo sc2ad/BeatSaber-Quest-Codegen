@@ -65,22 +65,14 @@ namespace GlobalNamespace {
     ConditionalMaterialSwitcher(UnityEngine::Material* material0_ = {}, UnityEngine::Material* material1_ = {}, GlobalNamespace::BoolSO* value_ = {}, UnityEngine::Renderer* renderer_ = {}) noexcept : material0{material0_}, material1{material1_}, value{value_}, renderer{renderer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.Material _material0
-    UnityEngine::Material* _get__material0();
-    // Set instance field: private UnityEngine.Material _material0
-    void _set__material0(UnityEngine::Material* value);
-    // Get instance field: private UnityEngine.Material _material1
-    UnityEngine::Material* _get__material1();
-    // Set instance field: private UnityEngine.Material _material1
-    void _set__material1(UnityEngine::Material* value);
-    // Get instance field: private BoolSO _value
-    GlobalNamespace::BoolSO* _get__value();
-    // Set instance field: private BoolSO _value
-    void _set__value(GlobalNamespace::BoolSO* value);
-    // Get instance field: private UnityEngine.Renderer _renderer
-    UnityEngine::Renderer* _get__renderer();
-    // Set instance field: private UnityEngine.Renderer _renderer
-    void _set__renderer(UnityEngine::Renderer* value);
+    // Get instance field reference: private UnityEngine.Material _material0
+    UnityEngine::Material*& dyn__material0();
+    // Get instance field reference: private UnityEngine.Material _material1
+    UnityEngine::Material*& dyn__material1();
+    // Get instance field reference: private BoolSO _value
+    GlobalNamespace::BoolSO*& dyn__value();
+    // Get instance field reference: private UnityEngine.Renderer _renderer
+    UnityEngine::Renderer*& dyn__renderer();
     // public System.Void Awake()
     // Offset: 0x10F2608
     void Awake();

@@ -84,26 +84,16 @@ namespace GlobalNamespace {
     NetEaseManager(::Il2CppString* userName_ = {}, System::Threading::Tasks::TaskCompletionSource_1<NetEase::Docker::ReceivedHighscoreData>* requestHighscoreDataTaskCompletionSource_ = {}, System::Threading::Tasks::TaskCompletionSource_1<NetEase::Docker::InitializeData>* initTaskCompletionSource_ = {}, System::Threading::Tasks::TaskCompletionSource_1<NetEase::Docker::LoginData>* loginTaskCompletionSource_ = {}, System::Threading::Tasks::TaskCompletionSource_1<NetEase::Docker::LogoutData>* logoutTaskCompletionSource_ = {}) noexcept : userName{userName_}, requestHighscoreDataTaskCompletionSource{requestHighscoreDataTaskCompletionSource_}, initTaskCompletionSource{initTaskCompletionSource_}, loginTaskCompletionSource{loginTaskCompletionSource_}, logoutTaskCompletionSource{logoutTaskCompletionSource_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.String _userName
-    ::Il2CppString* _get__userName();
-    // Set instance field: private System.String _userName
-    void _set__userName(::Il2CppString* value);
-    // Get instance field: private System.Threading.Tasks.TaskCompletionSource`1<NetEase.Docker.ReceivedHighscoreData> _requestHighscoreDataTaskCompletionSource
-    System::Threading::Tasks::TaskCompletionSource_1<NetEase::Docker::ReceivedHighscoreData>* _get__requestHighscoreDataTaskCompletionSource();
-    // Set instance field: private System.Threading.Tasks.TaskCompletionSource`1<NetEase.Docker.ReceivedHighscoreData> _requestHighscoreDataTaskCompletionSource
-    void _set__requestHighscoreDataTaskCompletionSource(System::Threading::Tasks::TaskCompletionSource_1<NetEase::Docker::ReceivedHighscoreData>* value);
-    // Get instance field: private System.Threading.Tasks.TaskCompletionSource`1<NetEase.Docker.InitializeData> _initTaskCompletionSource
-    System::Threading::Tasks::TaskCompletionSource_1<NetEase::Docker::InitializeData>* _get__initTaskCompletionSource();
-    // Set instance field: private System.Threading.Tasks.TaskCompletionSource`1<NetEase.Docker.InitializeData> _initTaskCompletionSource
-    void _set__initTaskCompletionSource(System::Threading::Tasks::TaskCompletionSource_1<NetEase::Docker::InitializeData>* value);
-    // Get instance field: private System.Threading.Tasks.TaskCompletionSource`1<NetEase.Docker.LoginData> _loginTaskCompletionSource
-    System::Threading::Tasks::TaskCompletionSource_1<NetEase::Docker::LoginData>* _get__loginTaskCompletionSource();
-    // Set instance field: private System.Threading.Tasks.TaskCompletionSource`1<NetEase.Docker.LoginData> _loginTaskCompletionSource
-    void _set__loginTaskCompletionSource(System::Threading::Tasks::TaskCompletionSource_1<NetEase::Docker::LoginData>* value);
-    // Get instance field: private System.Threading.Tasks.TaskCompletionSource`1<NetEase.Docker.LogoutData> _logoutTaskCompletionSource
-    System::Threading::Tasks::TaskCompletionSource_1<NetEase::Docker::LogoutData>* _get__logoutTaskCompletionSource();
-    // Set instance field: private System.Threading.Tasks.TaskCompletionSource`1<NetEase.Docker.LogoutData> _logoutTaskCompletionSource
-    void _set__logoutTaskCompletionSource(System::Threading::Tasks::TaskCompletionSource_1<NetEase::Docker::LogoutData>* value);
+    // Get instance field reference: private System.String _userName
+    ::Il2CppString*& dyn__userName();
+    // Get instance field reference: private System.Threading.Tasks.TaskCompletionSource`1<NetEase.Docker.ReceivedHighscoreData> _requestHighscoreDataTaskCompletionSource
+    System::Threading::Tasks::TaskCompletionSource_1<NetEase::Docker::ReceivedHighscoreData>*& dyn__requestHighscoreDataTaskCompletionSource();
+    // Get instance field reference: private System.Threading.Tasks.TaskCompletionSource`1<NetEase.Docker.InitializeData> _initTaskCompletionSource
+    System::Threading::Tasks::TaskCompletionSource_1<NetEase::Docker::InitializeData>*& dyn__initTaskCompletionSource();
+    // Get instance field reference: private System.Threading.Tasks.TaskCompletionSource`1<NetEase.Docker.LoginData> _loginTaskCompletionSource
+    System::Threading::Tasks::TaskCompletionSource_1<NetEase::Docker::LoginData>*& dyn__loginTaskCompletionSource();
+    // Get instance field reference: private System.Threading.Tasks.TaskCompletionSource`1<NetEase.Docker.LogoutData> _logoutTaskCompletionSource
+    System::Threading::Tasks::TaskCompletionSource_1<NetEase::Docker::LogoutData>*& dyn__logoutTaskCompletionSource();
     // public System.Boolean get_supportsLeaderboards()
     // Offset: 0x103DF1C
     bool get_supportsLeaderboards();

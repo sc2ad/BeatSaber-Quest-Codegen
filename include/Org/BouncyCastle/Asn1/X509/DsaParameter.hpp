@@ -56,18 +56,12 @@ namespace Org::BouncyCastle::Asn1::X509 {
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerInteger*) == 0x8);
     // Creating value type constructor for type: DsaParameter
     DsaParameter(Org::BouncyCastle::Asn1::DerInteger* p_ = {}, Org::BouncyCastle::Asn1::DerInteger* q_ = {}, Org::BouncyCastle::Asn1::DerInteger* g_ = {}) noexcept : p{p_}, q{q_}, g{g_} {}
-    // Get instance field: readonly Org.BouncyCastle.Asn1.DerInteger p
-    Org::BouncyCastle::Asn1::DerInteger* _get_p();
-    // Set instance field: readonly Org.BouncyCastle.Asn1.DerInteger p
-    void _set_p(Org::BouncyCastle::Asn1::DerInteger* value);
-    // Get instance field: readonly Org.BouncyCastle.Asn1.DerInteger q
-    Org::BouncyCastle::Asn1::DerInteger* _get_q();
-    // Set instance field: readonly Org.BouncyCastle.Asn1.DerInteger q
-    void _set_q(Org::BouncyCastle::Asn1::DerInteger* value);
-    // Get instance field: readonly Org.BouncyCastle.Asn1.DerInteger g
-    Org::BouncyCastle::Asn1::DerInteger* _get_g();
-    // Set instance field: readonly Org.BouncyCastle.Asn1.DerInteger g
-    void _set_g(Org::BouncyCastle::Asn1::DerInteger* value);
+    // Get instance field reference: readonly Org.BouncyCastle.Asn1.DerInteger p
+    Org::BouncyCastle::Asn1::DerInteger*& dyn_p();
+    // Get instance field reference: readonly Org.BouncyCastle.Asn1.DerInteger q
+    Org::BouncyCastle::Asn1::DerInteger*& dyn_q();
+    // Get instance field reference: readonly Org.BouncyCastle.Asn1.DerInteger g
+    Org::BouncyCastle::Asn1::DerInteger*& dyn_g();
     // public Org.BouncyCastle.Math.BigInteger get_P()
     // Offset: 0x19FA3BC
     Org::BouncyCastle::Math::BigInteger* get_P();

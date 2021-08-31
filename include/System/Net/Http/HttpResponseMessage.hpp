@@ -93,34 +93,20 @@ namespace System::Net::Http {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
-    // Get instance field: private System.Net.Http.Headers.HttpResponseHeaders headers
-    System::Net::Http::Headers::HttpResponseHeaders* _get_headers();
-    // Set instance field: private System.Net.Http.Headers.HttpResponseHeaders headers
-    void _set_headers(System::Net::Http::Headers::HttpResponseHeaders* value);
-    // Get instance field: private System.String reasonPhrase
-    ::Il2CppString* _get_reasonPhrase();
-    // Set instance field: private System.String reasonPhrase
-    void _set_reasonPhrase(::Il2CppString* value);
-    // Get instance field: private System.Net.HttpStatusCode statusCode
-    System::Net::HttpStatusCode _get_statusCode();
-    // Set instance field: private System.Net.HttpStatusCode statusCode
-    void _set_statusCode(System::Net::HttpStatusCode value);
-    // Get instance field: private System.Version version
-    System::Version* _get_version();
-    // Set instance field: private System.Version version
-    void _set_version(System::Version* value);
-    // Get instance field: private System.Boolean disposed
-    bool _get_disposed();
-    // Set instance field: private System.Boolean disposed
-    void _set_disposed(bool value);
-    // Get instance field: private System.Net.Http.HttpContent <Content>k__BackingField
-    System::Net::Http::HttpContent* _get_$Content$k__BackingField();
-    // Set instance field: private System.Net.Http.HttpContent <Content>k__BackingField
-    void _set_$Content$k__BackingField(System::Net::Http::HttpContent* value);
-    // Get instance field: private System.Net.Http.HttpRequestMessage <RequestMessage>k__BackingField
-    System::Net::Http::HttpRequestMessage* _get_$RequestMessage$k__BackingField();
-    // Set instance field: private System.Net.Http.HttpRequestMessage <RequestMessage>k__BackingField
-    void _set_$RequestMessage$k__BackingField(System::Net::Http::HttpRequestMessage* value);
+    // Get instance field reference: private System.Net.Http.Headers.HttpResponseHeaders headers
+    System::Net::Http::Headers::HttpResponseHeaders*& dyn_headers();
+    // Get instance field reference: private System.String reasonPhrase
+    ::Il2CppString*& dyn_reasonPhrase();
+    // Get instance field reference: private System.Net.HttpStatusCode statusCode
+    System::Net::HttpStatusCode& dyn_statusCode();
+    // Get instance field reference: private System.Version version
+    System::Version*& dyn_version();
+    // Get instance field reference: private System.Boolean disposed
+    bool& dyn_disposed();
+    // Get instance field reference: private System.Net.Http.HttpContent <Content>k__BackingField
+    System::Net::Http::HttpContent*& dyn_$Content$k__BackingField();
+    // Get instance field reference: private System.Net.Http.HttpRequestMessage <RequestMessage>k__BackingField
+    System::Net::Http::HttpRequestMessage*& dyn_$RequestMessage$k__BackingField();
     // public System.Net.Http.HttpContent get_Content()
     // Offset: 0x15AF864
     System::Net::Http::HttpContent* get_Content();

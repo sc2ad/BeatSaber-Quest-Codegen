@@ -38,14 +38,10 @@ namespace System::Resources {
     static_assert(sizeof(System::Resources::UltimateResourceFallbackLocation) == 0x4);
     // Creating value type constructor for type: NeutralResourcesLanguageAttribute
     NeutralResourcesLanguageAttribute(::Il2CppString* culture_ = {}, System::Resources::UltimateResourceFallbackLocation fallbackLoc_ = {}) noexcept : culture{culture_}, fallbackLoc{fallbackLoc_} {}
-    // Get instance field: private System.String _culture
-    ::Il2CppString* _get__culture();
-    // Set instance field: private System.String _culture
-    void _set__culture(::Il2CppString* value);
-    // Get instance field: private System.Resources.UltimateResourceFallbackLocation _fallbackLoc
-    System::Resources::UltimateResourceFallbackLocation _get__fallbackLoc();
-    // Set instance field: private System.Resources.UltimateResourceFallbackLocation _fallbackLoc
-    void _set__fallbackLoc(System::Resources::UltimateResourceFallbackLocation value);
+    // Get instance field reference: private System.String _culture
+    ::Il2CppString*& dyn__culture();
+    // Get instance field reference: private System.Resources.UltimateResourceFallbackLocation _fallbackLoc
+    System::Resources::UltimateResourceFallbackLocation& dyn__fallbackLoc();
     // public System.String get_CultureName()
     // Offset: 0x147F534
     ::Il2CppString* get_CultureName();

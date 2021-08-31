@@ -75,22 +75,14 @@ namespace System::Security::Cryptography::X509Certificates {
     static ::Il2CppString* _get_friendlyName();
     // Set static field: static System.String friendlyName
     static void _set_friendlyName(::Il2CppString* value);
-    // Get instance field: private System.Boolean _certificateAuthority
-    bool _get__certificateAuthority();
-    // Set instance field: private System.Boolean _certificateAuthority
-    void _set__certificateAuthority(bool value);
-    // Get instance field: private System.Boolean _hasPathLengthConstraint
-    bool _get__hasPathLengthConstraint();
-    // Set instance field: private System.Boolean _hasPathLengthConstraint
-    void _set__hasPathLengthConstraint(bool value);
-    // Get instance field: private System.Int32 _pathLengthConstraint
-    int _get__pathLengthConstraint();
-    // Set instance field: private System.Int32 _pathLengthConstraint
-    void _set__pathLengthConstraint(int value);
-    // Get instance field: private System.Security.Cryptography.AsnDecodeStatus _status
-    System::Security::Cryptography::AsnDecodeStatus _get__status();
-    // Set instance field: private System.Security.Cryptography.AsnDecodeStatus _status
-    void _set__status(System::Security::Cryptography::AsnDecodeStatus value);
+    // Get instance field reference: private System.Boolean _certificateAuthority
+    bool& dyn__certificateAuthority();
+    // Get instance field reference: private System.Boolean _hasPathLengthConstraint
+    bool& dyn__hasPathLengthConstraint();
+    // Get instance field reference: private System.Int32 _pathLengthConstraint
+    int& dyn__pathLengthConstraint();
+    // Get instance field reference: private System.Security.Cryptography.AsnDecodeStatus _status
+    System::Security::Cryptography::AsnDecodeStatus& dyn__status();
     // public System.Boolean get_CertificateAuthority()
     // Offset: 0x1859190
     bool get_CertificateAuthority();

@@ -66,14 +66,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::GameplayModifiersModelSO*) == 0x8);
     // Creating value type constructor for type: OculusPlatformLeaderboardsHandler
     OculusPlatformLeaderboardsHandler(System::Collections::Generic::HashSet_1<uint64_t>* oculusRequestIds_ = {}, GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel_ = {}) noexcept : oculusRequestIds{oculusRequestIds_}, gameplayModifiersModel{gameplayModifiersModel_} {}
-    // Get instance field: private System.Collections.Generic.HashSet`1<System.UInt64> _oculusRequestIds
-    System::Collections::Generic::HashSet_1<uint64_t>* _get__oculusRequestIds();
-    // Set instance field: private System.Collections.Generic.HashSet`1<System.UInt64> _oculusRequestIds
-    void _set__oculusRequestIds(System::Collections::Generic::HashSet_1<uint64_t>* value);
-    // Get instance field: private GameplayModifiersModelSO _gameplayModifiersModel
-    GlobalNamespace::GameplayModifiersModelSO* _get__gameplayModifiersModel();
-    // Set instance field: private GameplayModifiersModelSO _gameplayModifiersModel
-    void _set__gameplayModifiersModel(GlobalNamespace::GameplayModifiersModelSO* value);
+    // Get instance field reference: private System.Collections.Generic.HashSet`1<System.UInt64> _oculusRequestIds
+    System::Collections::Generic::HashSet_1<uint64_t>*& dyn__oculusRequestIds();
+    // Get instance field reference: private GameplayModifiersModelSO _gameplayModifiersModel
+    GlobalNamespace::GameplayModifiersModelSO*& dyn__gameplayModifiersModel();
     // private System.Void AddOculusRequest(Oculus.Platform.Request oculusRequest, HMAsyncRequest asyncRequest)
     // Offset: 0x1022120
     void AddOculusRequest(Oculus::Platform::Request* oculusRequest, GlobalNamespace::HMAsyncRequest* asyncRequest);

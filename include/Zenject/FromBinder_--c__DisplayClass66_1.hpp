@@ -77,22 +77,14 @@ namespace Zenject {
     static_assert(sizeof(System::Func_2<UnityEngine::GameObject*, System::Collections::Generic::IEnumerable_1<UnityEngine::Component*>*>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass66_1
     $$c__DisplayClass66_1(Zenject::DiContainer* container_ = {}, System::Type* concreteType_ = {}, Zenject::FromBinder::$$c__DisplayClass66_0* CS$$$8__locals1_ = {}, System::Func_2<UnityEngine::GameObject*, System::Collections::Generic::IEnumerable_1<UnityEngine::Component*>*>* $$9__2_ = {}) noexcept : container{container_}, concreteType{concreteType_}, CS$$$8__locals1{CS$$$8__locals1_}, $$9__2{$$9__2_} {}
-    // Get instance field: public Zenject.DiContainer container
-    Zenject::DiContainer* _get_container();
-    // Set instance field: public Zenject.DiContainer container
-    void _set_container(Zenject::DiContainer* value);
-    // Get instance field: public System.Type concreteType
-    System::Type* _get_concreteType();
-    // Set instance field: public System.Type concreteType
-    void _set_concreteType(System::Type* value);
-    // Get instance field: public Zenject.FromBinder/Zenject.<>c__DisplayClass66_0 CS$<>8__locals1
-    Zenject::FromBinder::$$c__DisplayClass66_0* _get_CS$$$8__locals1();
-    // Set instance field: public Zenject.FromBinder/Zenject.<>c__DisplayClass66_0 CS$<>8__locals1
-    void _set_CS$$$8__locals1(Zenject::FromBinder::$$c__DisplayClass66_0* value);
-    // Get instance field: public System.Func`2<UnityEngine.GameObject,System.Collections.Generic.IEnumerable`1<UnityEngine.Component>> <>9__2
-    System::Func_2<UnityEngine::GameObject*, System::Collections::Generic::IEnumerable_1<UnityEngine::Component*>*>* _get_$$9__2();
-    // Set instance field: public System.Func`2<UnityEngine.GameObject,System.Collections.Generic.IEnumerable`1<UnityEngine.Component>> <>9__2
-    void _set_$$9__2(System::Func_2<UnityEngine::GameObject*, System::Collections::Generic::IEnumerable_1<UnityEngine::Component*>*>* value);
+    // Get instance field reference: public Zenject.DiContainer container
+    Zenject::DiContainer*& dyn_container();
+    // Get instance field reference: public System.Type concreteType
+    System::Type*& dyn_concreteType();
+    // Get instance field reference: public Zenject.FromBinder/Zenject.<>c__DisplayClass66_0 CS$<>8__locals1
+    Zenject::FromBinder::$$c__DisplayClass66_0*& dyn_CS$$$8__locals1();
+    // Get instance field reference: public System.Func`2<UnityEngine.GameObject,System.Collections.Generic.IEnumerable`1<UnityEngine.Component>> <>9__2
+    System::Func_2<UnityEngine::GameObject*, System::Collections::Generic::IEnumerable_1<UnityEngine::Component*>*>*& dyn_$$9__2();
     // System.Collections.Generic.IEnumerable`1<System.Object> <FromComponentsInHierarchyBase>b__1(Zenject.InjectContext ctx)
     // Offset: 0x165E1C0
     System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* $FromComponentsInHierarchyBase$b__1(Zenject::InjectContext* ctx);

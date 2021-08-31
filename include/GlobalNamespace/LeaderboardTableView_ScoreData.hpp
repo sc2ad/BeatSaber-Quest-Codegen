@@ -48,22 +48,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: ScoreData
     ScoreData(int score_ = {}, ::Il2CppString* playerName_ = {}, int rank_ = {}, bool fullCombo_ = {}) noexcept : score{score_}, playerName{playerName_}, rank{rank_}, fullCombo{fullCombo_} {}
-    // Get instance field: private System.Int32 <score>k__BackingField
-    int _get_$score$k__BackingField();
-    // Set instance field: private System.Int32 <score>k__BackingField
-    void _set_$score$k__BackingField(int value);
-    // Get instance field: private System.String <playerName>k__BackingField
-    ::Il2CppString* _get_$playerName$k__BackingField();
-    // Set instance field: private System.String <playerName>k__BackingField
-    void _set_$playerName$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.Int32 <rank>k__BackingField
-    int _get_$rank$k__BackingField();
-    // Set instance field: private System.Int32 <rank>k__BackingField
-    void _set_$rank$k__BackingField(int value);
-    // Get instance field: private System.Boolean <fullCombo>k__BackingField
-    bool _get_$fullCombo$k__BackingField();
-    // Set instance field: private System.Boolean <fullCombo>k__BackingField
-    void _set_$fullCombo$k__BackingField(bool value);
+    // Get instance field reference: private System.Int32 <score>k__BackingField
+    int& dyn_$score$k__BackingField();
+    // Get instance field reference: private System.String <playerName>k__BackingField
+    ::Il2CppString*& dyn_$playerName$k__BackingField();
+    // Get instance field reference: private System.Int32 <rank>k__BackingField
+    int& dyn_$rank$k__BackingField();
+    // Get instance field reference: private System.Boolean <fullCombo>k__BackingField
+    bool& dyn_$fullCombo$k__BackingField();
     // public System.Int32 get_score()
     // Offset: 0x1148F88
     int get_score();

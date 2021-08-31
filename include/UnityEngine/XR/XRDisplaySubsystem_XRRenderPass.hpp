@@ -76,30 +76,18 @@ namespace UnityEngine::XR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private System.IntPtr displaySubsystemInstance
-    System::IntPtr _get_displaySubsystemInstance();
-    // Set instance field: private System.IntPtr displaySubsystemInstance
-    void _set_displaySubsystemInstance(System::IntPtr value);
-    // Get instance field: public System.Int32 renderPassIndex
-    int _get_renderPassIndex();
-    // Set instance field: public System.Int32 renderPassIndex
-    void _set_renderPassIndex(int value);
-    // Get instance field: public UnityEngine.Rendering.RenderTargetIdentifier renderTarget
-    UnityEngine::Rendering::RenderTargetIdentifier _get_renderTarget();
-    // Set instance field: public UnityEngine.Rendering.RenderTargetIdentifier renderTarget
-    void _set_renderTarget(UnityEngine::Rendering::RenderTargetIdentifier value);
-    // Get instance field: public UnityEngine.RenderTextureDescriptor renderTargetDesc
-    UnityEngine::RenderTextureDescriptor _get_renderTargetDesc();
-    // Set instance field: public UnityEngine.RenderTextureDescriptor renderTargetDesc
-    void _set_renderTargetDesc(UnityEngine::RenderTextureDescriptor value);
-    // Get instance field: public System.Boolean shouldFillOutDepth
-    bool _get_shouldFillOutDepth();
-    // Set instance field: public System.Boolean shouldFillOutDepth
-    void _set_shouldFillOutDepth(bool value);
-    // Get instance field: public System.Int32 cullingPassIndex
-    int _get_cullingPassIndex();
-    // Set instance field: public System.Int32 cullingPassIndex
-    void _set_cullingPassIndex(int value);
+    // Get instance field reference: private System.IntPtr displaySubsystemInstance
+    System::IntPtr& dyn_displaySubsystemInstance();
+    // Get instance field reference: public System.Int32 renderPassIndex
+    int& dyn_renderPassIndex();
+    // Get instance field reference: public UnityEngine.Rendering.RenderTargetIdentifier renderTarget
+    UnityEngine::Rendering::RenderTargetIdentifier& dyn_renderTarget();
+    // Get instance field reference: public UnityEngine.RenderTextureDescriptor renderTargetDesc
+    UnityEngine::RenderTextureDescriptor& dyn_renderTargetDesc();
+    // Get instance field reference: public System.Boolean shouldFillOutDepth
+    bool& dyn_shouldFillOutDepth();
+    // Get instance field reference: public System.Int32 cullingPassIndex
+    int& dyn_cullingPassIndex();
   }; // UnityEngine.XR.XRDisplaySubsystem/UnityEngine.XR.XRRenderPass
   #pragma pack(pop)
   static check_size<sizeof(XRDisplaySubsystem::XRRenderPass), 112 + sizeof(int)> __UnityEngine_XR_XRDisplaySubsystem_XRRenderPassSizeCheck;

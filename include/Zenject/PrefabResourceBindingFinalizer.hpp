@@ -80,18 +80,12 @@ namespace Zenject {
     PrefabResourceBindingFinalizer(Zenject::GameObjectCreationParameters* gameObjectBindInfo_ = {}, ::Il2CppString* resourcePath_ = {}, System::Func_3<System::Type*, Zenject::IPrefabInstantiator*, Zenject::IProvider*>* providerFactory_ = {}) noexcept : gameObjectBindInfo{gameObjectBindInfo_}, resourcePath{resourcePath_}, providerFactory{providerFactory_} {}
     // Deleting conversion operator: operator Zenject::BindInfo*
     constexpr operator Zenject::BindInfo*() const noexcept = delete;
-    // Get instance field: private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo
-    Zenject::GameObjectCreationParameters* _get__gameObjectBindInfo();
-    // Set instance field: private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo
-    void _set__gameObjectBindInfo(Zenject::GameObjectCreationParameters* value);
-    // Get instance field: private readonly System.String _resourcePath
-    ::Il2CppString* _get__resourcePath();
-    // Set instance field: private readonly System.String _resourcePath
-    void _set__resourcePath(::Il2CppString* value);
-    // Get instance field: private readonly System.Func`3<System.Type,Zenject.IPrefabInstantiator,Zenject.IProvider> _providerFactory
-    System::Func_3<System::Type*, Zenject::IPrefabInstantiator*, Zenject::IProvider*>* _get__providerFactory();
-    // Set instance field: private readonly System.Func`3<System.Type,Zenject.IPrefabInstantiator,Zenject.IProvider> _providerFactory
-    void _set__providerFactory(System::Func_3<System::Type*, Zenject::IPrefabInstantiator*, Zenject::IProvider*>* value);
+    // Get instance field reference: private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo
+    Zenject::GameObjectCreationParameters*& dyn__gameObjectBindInfo();
+    // Get instance field reference: private readonly System.String _resourcePath
+    ::Il2CppString*& dyn__resourcePath();
+    // Get instance field reference: private readonly System.Func`3<System.Type,Zenject.IPrefabInstantiator,Zenject.IProvider> _providerFactory
+    System::Func_3<System::Type*, Zenject::IPrefabInstantiator*, Zenject::IProvider*>*& dyn__providerFactory();
     // public System.Void .ctor(Zenject.BindInfo bindInfo, Zenject.GameObjectCreationParameters gameObjectBindInfo, System.String resourcePath, System.Func`3<System.Type,Zenject.IPrefabInstantiator,Zenject.IProvider> providerFactory)
     // Offset: 0x1716DA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

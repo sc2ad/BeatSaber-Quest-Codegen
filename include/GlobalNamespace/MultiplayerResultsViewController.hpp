@@ -109,42 +109,24 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>*) == 0x8);
     // Creating value type constructor for type: MultiplayerResultsViewController
     MultiplayerResultsViewController(UnityEngine::GameObject* levelClearedGO_ = {}, UnityEngine::GameObject* levelFailedGO_ = {}, UnityEngine::GameObject* levelResultsGO_ = {}, GlobalNamespace::LevelBar* levelBar_ = {}, GlobalNamespace::ResultsTableView* resultsTableView_ = {}, UnityEngine::UI::Button* backToLobbyButton_ = {}, UnityEngine::UI::Button* backToMenuButton_ = {}, System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>* backToLobbyPressedEvent_ = {}, System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>* backToMenuPressedEvent_ = {}) noexcept : levelClearedGO{levelClearedGO_}, levelFailedGO{levelFailedGO_}, levelResultsGO{levelResultsGO_}, levelBar{levelBar_}, resultsTableView{resultsTableView_}, backToLobbyButton{backToLobbyButton_}, backToMenuButton{backToMenuButton_}, backToLobbyPressedEvent{backToLobbyPressedEvent_}, backToMenuPressedEvent{backToMenuPressedEvent_} {}
-    // Get instance field: private UnityEngine.GameObject _levelClearedGO
-    UnityEngine::GameObject* _get__levelClearedGO();
-    // Set instance field: private UnityEngine.GameObject _levelClearedGO
-    void _set__levelClearedGO(UnityEngine::GameObject* value);
-    // Get instance field: private UnityEngine.GameObject _levelFailedGO
-    UnityEngine::GameObject* _get__levelFailedGO();
-    // Set instance field: private UnityEngine.GameObject _levelFailedGO
-    void _set__levelFailedGO(UnityEngine::GameObject* value);
-    // Get instance field: private UnityEngine.GameObject _levelResultsGO
-    UnityEngine::GameObject* _get__levelResultsGO();
-    // Set instance field: private UnityEngine.GameObject _levelResultsGO
-    void _set__levelResultsGO(UnityEngine::GameObject* value);
-    // Get instance field: private LevelBar _levelBar
-    GlobalNamespace::LevelBar* _get__levelBar();
-    // Set instance field: private LevelBar _levelBar
-    void _set__levelBar(GlobalNamespace::LevelBar* value);
-    // Get instance field: private ResultsTableView _resultsTableView
-    GlobalNamespace::ResultsTableView* _get__resultsTableView();
-    // Set instance field: private ResultsTableView _resultsTableView
-    void _set__resultsTableView(GlobalNamespace::ResultsTableView* value);
-    // Get instance field: private UnityEngine.UI.Button _backToLobbyButton
-    UnityEngine::UI::Button* _get__backToLobbyButton();
-    // Set instance field: private UnityEngine.UI.Button _backToLobbyButton
-    void _set__backToLobbyButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _backToMenuButton
-    UnityEngine::UI::Button* _get__backToMenuButton();
-    // Set instance field: private UnityEngine.UI.Button _backToMenuButton
-    void _set__backToMenuButton(UnityEngine::UI::Button* value);
-    // Get instance field: private System.Action`1<MultiplayerResultsViewController> backToLobbyPressedEvent
-    System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>* _get_backToLobbyPressedEvent();
-    // Set instance field: private System.Action`1<MultiplayerResultsViewController> backToLobbyPressedEvent
-    void _set_backToLobbyPressedEvent(System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>* value);
-    // Get instance field: private System.Action`1<MultiplayerResultsViewController> backToMenuPressedEvent
-    System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>* _get_backToMenuPressedEvent();
-    // Set instance field: private System.Action`1<MultiplayerResultsViewController> backToMenuPressedEvent
-    void _set_backToMenuPressedEvent(System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>* value);
+    // Get instance field reference: private UnityEngine.GameObject _levelClearedGO
+    UnityEngine::GameObject*& dyn__levelClearedGO();
+    // Get instance field reference: private UnityEngine.GameObject _levelFailedGO
+    UnityEngine::GameObject*& dyn__levelFailedGO();
+    // Get instance field reference: private UnityEngine.GameObject _levelResultsGO
+    UnityEngine::GameObject*& dyn__levelResultsGO();
+    // Get instance field reference: private LevelBar _levelBar
+    GlobalNamespace::LevelBar*& dyn__levelBar();
+    // Get instance field reference: private ResultsTableView _resultsTableView
+    GlobalNamespace::ResultsTableView*& dyn__resultsTableView();
+    // Get instance field reference: private UnityEngine.UI.Button _backToLobbyButton
+    UnityEngine::UI::Button*& dyn__backToLobbyButton();
+    // Get instance field reference: private UnityEngine.UI.Button _backToMenuButton
+    UnityEngine::UI::Button*& dyn__backToMenuButton();
+    // Get instance field reference: private System.Action`1<MultiplayerResultsViewController> backToLobbyPressedEvent
+    System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>*& dyn_backToLobbyPressedEvent();
+    // Get instance field reference: private System.Action`1<MultiplayerResultsViewController> backToMenuPressedEvent
+    System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>*& dyn_backToMenuPressedEvent();
     // public System.Void add_backToLobbyPressedEvent(System.Action`1<MultiplayerResultsViewController> value)
     // Offset: 0x1036A40
     void add_backToLobbyPressedEvent(System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>* value);

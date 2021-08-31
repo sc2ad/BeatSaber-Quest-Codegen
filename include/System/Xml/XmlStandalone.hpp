@@ -50,10 +50,8 @@ namespace System::Xml {
     static System::Xml::XmlStandalone _get_No();
     // Set static field: static public System.Xml.XmlStandalone No
     static void _set_No(System::Xml::XmlStandalone value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Xml.XmlStandalone
   #pragma pack(pop)
   static check_size<sizeof(XmlStandalone), 0 + sizeof(int)> __System_Xml_XmlStandaloneSizeCheck;

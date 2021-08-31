@@ -49,18 +49,12 @@ namespace System::Text {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: Decoder
     Decoder(int bits_ = {}, int bitCount_ = {}, bool firstByte_ = {}) noexcept : bits{bits_}, bitCount{bitCount_}, firstByte{firstByte_} {}
-    // Get instance field: System.Int32 bits
-    int _get_bits();
-    // Set instance field: System.Int32 bits
-    void _set_bits(int value);
-    // Get instance field: System.Int32 bitCount
-    int _get_bitCount();
-    // Set instance field: System.Int32 bitCount
-    void _set_bitCount(int value);
-    // Get instance field: System.Boolean firstByte
-    bool _get_firstByte();
-    // Set instance field: System.Boolean firstByte
-    void _set_firstByte(bool value);
+    // Get instance field reference: System.Int32 bits
+    int& dyn_bits();
+    // Get instance field reference: System.Int32 bitCount
+    int& dyn_bitCount();
+    // Get instance field reference: System.Boolean firstByte
+    bool& dyn_firstByte();
     // public System.Void .ctor(System.Text.UTF7Encoding encoding)
     // Offset: 0x1D7E4B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

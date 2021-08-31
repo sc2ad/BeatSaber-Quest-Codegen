@@ -89,10 +89,8 @@ namespace UnityEngine::UI {
       static UnityEngine::UI::Toggle::ToggleTransition _get_Fade();
       // Set static field: static public UnityEngine.UI.Toggle/UnityEngine.UI.ToggleTransition Fade
       static void _set_Fade(UnityEngine::UI::Toggle::ToggleTransition value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // UnityEngine.UI.Toggle/UnityEngine.UI.ToggleTransition
     #pragma pack(pop)
     static check_size<sizeof(Toggle::ToggleTransition), 0 + sizeof(int)> __UnityEngine_UI_Toggle_ToggleTransitionSizeCheck;
@@ -144,26 +142,16 @@ namespace UnityEngine::UI {
     operator UnityEngine::UI::ICanvasElement() noexcept {
       return *reinterpret_cast<UnityEngine::UI::ICanvasElement*>(this);
     }
-    // Get instance field: public UnityEngine.UI.Toggle/UnityEngine.UI.ToggleTransition toggleTransition
-    UnityEngine::UI::Toggle::ToggleTransition _get_toggleTransition();
-    // Set instance field: public UnityEngine.UI.Toggle/UnityEngine.UI.ToggleTransition toggleTransition
-    void _set_toggleTransition(UnityEngine::UI::Toggle::ToggleTransition value);
-    // Get instance field: public UnityEngine.UI.Graphic graphic
-    UnityEngine::UI::Graphic* _get_graphic();
-    // Set instance field: public UnityEngine.UI.Graphic graphic
-    void _set_graphic(UnityEngine::UI::Graphic* value);
-    // Get instance field: private UnityEngine.UI.ToggleGroup m_Group
-    UnityEngine::UI::ToggleGroup* _get_m_Group();
-    // Set instance field: private UnityEngine.UI.ToggleGroup m_Group
-    void _set_m_Group(UnityEngine::UI::ToggleGroup* value);
-    // Get instance field: public UnityEngine.UI.Toggle/UnityEngine.UI.ToggleEvent onValueChanged
-    UnityEngine::UI::Toggle::ToggleEvent* _get_onValueChanged();
-    // Set instance field: public UnityEngine.UI.Toggle/UnityEngine.UI.ToggleEvent onValueChanged
-    void _set_onValueChanged(UnityEngine::UI::Toggle::ToggleEvent* value);
-    // Get instance field: private System.Boolean m_IsOn
-    bool _get_m_IsOn();
-    // Set instance field: private System.Boolean m_IsOn
-    void _set_m_IsOn(bool value);
+    // Get instance field reference: public UnityEngine.UI.Toggle/UnityEngine.UI.ToggleTransition toggleTransition
+    UnityEngine::UI::Toggle::ToggleTransition& dyn_toggleTransition();
+    // Get instance field reference: public UnityEngine.UI.Graphic graphic
+    UnityEngine::UI::Graphic*& dyn_graphic();
+    // Get instance field reference: private UnityEngine.UI.ToggleGroup m_Group
+    UnityEngine::UI::ToggleGroup*& dyn_m_Group();
+    // Get instance field reference: public UnityEngine.UI.Toggle/UnityEngine.UI.ToggleEvent onValueChanged
+    UnityEngine::UI::Toggle::ToggleEvent*& dyn_onValueChanged();
+    // Get instance field reference: private System.Boolean m_IsOn
+    bool& dyn_m_IsOn();
     // public UnityEngine.UI.ToggleGroup get_group()
     // Offset: 0x23C7530
     UnityEngine::UI::ToggleGroup* get_group();

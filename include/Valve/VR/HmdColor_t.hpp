@@ -46,22 +46,14 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Single r
-    float _get_r();
-    // Set instance field: public System.Single r
-    void _set_r(float value);
-    // Get instance field: public System.Single g
-    float _get_g();
-    // Set instance field: public System.Single g
-    void _set_g(float value);
-    // Get instance field: public System.Single b
-    float _get_b();
-    // Set instance field: public System.Single b
-    void _set_b(float value);
-    // Get instance field: public System.Single a
-    float _get_a();
-    // Set instance field: public System.Single a
-    void _set_a(float value);
+    // Get instance field reference: public System.Single r
+    float& dyn_r();
+    // Get instance field reference: public System.Single g
+    float& dyn_g();
+    // Get instance field reference: public System.Single b
+    float& dyn_b();
+    // Get instance field reference: public System.Single a
+    float& dyn_a();
   }; // Valve.VR.HmdColor_t
   #pragma pack(pop)
   static check_size<sizeof(HmdColor_t), 12 + sizeof(float)> __Valve_VR_HmdColor_tSizeCheck;

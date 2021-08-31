@@ -126,62 +126,34 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: IKMappingSpine
     IKMappingSpine(::Array<UnityEngine::Transform*>* spineBones_ = {}, UnityEngine::Transform* leftUpperArmBone_ = {}, UnityEngine::Transform* rightUpperArmBone_ = {}, UnityEngine::Transform* leftThighBone_ = {}, UnityEngine::Transform* rightThighBone_ = {}, int iterations_ = {}, float twistWeight_ = {}, int rootNodeIndex_ = {}, ::Array<RootMotion::FinalIK::IKMapping::BoneMap*>* spine_ = {}, RootMotion::FinalIK::IKMapping::BoneMap* leftUpperArm_ = {}, RootMotion::FinalIK::IKMapping::BoneMap* rightUpperArm_ = {}, RootMotion::FinalIK::IKMapping::BoneMap* leftThigh_ = {}, RootMotion::FinalIK::IKMapping::BoneMap* rightThigh_ = {}, bool useFABRIK_ = {}) noexcept : spineBones{spineBones_}, leftUpperArmBone{leftUpperArmBone_}, rightUpperArmBone{rightUpperArmBone_}, leftThighBone{leftThighBone_}, rightThighBone{rightThighBone_}, iterations{iterations_}, twistWeight{twistWeight_}, rootNodeIndex{rootNodeIndex_}, spine{spine_}, leftUpperArm{leftUpperArm_}, rightUpperArm{rightUpperArm_}, leftThigh{leftThigh_}, rightThigh{rightThigh_}, useFABRIK{useFABRIK_} {}
-    // Get instance field: public UnityEngine.Transform[] spineBones
-    ::Array<UnityEngine::Transform*>* _get_spineBones();
-    // Set instance field: public UnityEngine.Transform[] spineBones
-    void _set_spineBones(::Array<UnityEngine::Transform*>* value);
-    // Get instance field: public UnityEngine.Transform leftUpperArmBone
-    UnityEngine::Transform* _get_leftUpperArmBone();
-    // Set instance field: public UnityEngine.Transform leftUpperArmBone
-    void _set_leftUpperArmBone(UnityEngine::Transform* value);
-    // Get instance field: public UnityEngine.Transform rightUpperArmBone
-    UnityEngine::Transform* _get_rightUpperArmBone();
-    // Set instance field: public UnityEngine.Transform rightUpperArmBone
-    void _set_rightUpperArmBone(UnityEngine::Transform* value);
-    // Get instance field: public UnityEngine.Transform leftThighBone
-    UnityEngine::Transform* _get_leftThighBone();
-    // Set instance field: public UnityEngine.Transform leftThighBone
-    void _set_leftThighBone(UnityEngine::Transform* value);
-    // Get instance field: public UnityEngine.Transform rightThighBone
-    UnityEngine::Transform* _get_rightThighBone();
-    // Set instance field: public UnityEngine.Transform rightThighBone
-    void _set_rightThighBone(UnityEngine::Transform* value);
-    // Get instance field: public System.Int32 iterations
-    int _get_iterations();
-    // Set instance field: public System.Int32 iterations
-    void _set_iterations(int value);
-    // Get instance field: public System.Single twistWeight
-    float _get_twistWeight();
-    // Set instance field: public System.Single twistWeight
-    void _set_twistWeight(float value);
-    // Get instance field: private System.Int32 rootNodeIndex
-    int _get_rootNodeIndex();
-    // Set instance field: private System.Int32 rootNodeIndex
-    void _set_rootNodeIndex(int value);
-    // Get instance field: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap[] spine
-    ::Array<RootMotion::FinalIK::IKMapping::BoneMap*>* _get_spine();
-    // Set instance field: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap[] spine
-    void _set_spine(::Array<RootMotion::FinalIK::IKMapping::BoneMap*>* value);
-    // Get instance field: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap leftUpperArm
-    RootMotion::FinalIK::IKMapping::BoneMap* _get_leftUpperArm();
-    // Set instance field: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap leftUpperArm
-    void _set_leftUpperArm(RootMotion::FinalIK::IKMapping::BoneMap* value);
-    // Get instance field: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap rightUpperArm
-    RootMotion::FinalIK::IKMapping::BoneMap* _get_rightUpperArm();
-    // Set instance field: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap rightUpperArm
-    void _set_rightUpperArm(RootMotion::FinalIK::IKMapping::BoneMap* value);
-    // Get instance field: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap leftThigh
-    RootMotion::FinalIK::IKMapping::BoneMap* _get_leftThigh();
-    // Set instance field: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap leftThigh
-    void _set_leftThigh(RootMotion::FinalIK::IKMapping::BoneMap* value);
-    // Get instance field: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap rightThigh
-    RootMotion::FinalIK::IKMapping::BoneMap* _get_rightThigh();
-    // Set instance field: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap rightThigh
-    void _set_rightThigh(RootMotion::FinalIK::IKMapping::BoneMap* value);
-    // Get instance field: private System.Boolean useFABRIK
-    bool _get_useFABRIK();
-    // Set instance field: private System.Boolean useFABRIK
-    void _set_useFABRIK(bool value);
+    // Get instance field reference: public UnityEngine.Transform[] spineBones
+    ::Array<UnityEngine::Transform*>*& dyn_spineBones();
+    // Get instance field reference: public UnityEngine.Transform leftUpperArmBone
+    UnityEngine::Transform*& dyn_leftUpperArmBone();
+    // Get instance field reference: public UnityEngine.Transform rightUpperArmBone
+    UnityEngine::Transform*& dyn_rightUpperArmBone();
+    // Get instance field reference: public UnityEngine.Transform leftThighBone
+    UnityEngine::Transform*& dyn_leftThighBone();
+    // Get instance field reference: public UnityEngine.Transform rightThighBone
+    UnityEngine::Transform*& dyn_rightThighBone();
+    // Get instance field reference: public System.Int32 iterations
+    int& dyn_iterations();
+    // Get instance field reference: public System.Single twistWeight
+    float& dyn_twistWeight();
+    // Get instance field reference: private System.Int32 rootNodeIndex
+    int& dyn_rootNodeIndex();
+    // Get instance field reference: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap[] spine
+    ::Array<RootMotion::FinalIK::IKMapping::BoneMap*>*& dyn_spine();
+    // Get instance field reference: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap leftUpperArm
+    RootMotion::FinalIK::IKMapping::BoneMap*& dyn_leftUpperArm();
+    // Get instance field reference: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap rightUpperArm
+    RootMotion::FinalIK::IKMapping::BoneMap*& dyn_rightUpperArm();
+    // Get instance field reference: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap leftThigh
+    RootMotion::FinalIK::IKMapping::BoneMap*& dyn_leftThigh();
+    // Get instance field reference: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap rightThigh
+    RootMotion::FinalIK::IKMapping::BoneMap*& dyn_rightThigh();
+    // Get instance field reference: private System.Boolean useFABRIK
+    bool& dyn_useFABRIK();
     // public System.Void .ctor(UnityEngine.Transform[] spineBones, UnityEngine.Transform leftUpperArmBone, UnityEngine.Transform rightUpperArmBone, UnityEngine.Transform leftThighBone, UnityEngine.Transform rightThighBone)
     // Offset: 0x1CD63A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

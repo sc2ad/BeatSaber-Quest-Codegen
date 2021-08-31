@@ -117,54 +117,30 @@ namespace GlobalNamespace {
     MenuNeonLightsGenerator(bool generate_ = {}, float radius_ = {}, float angle_ = {}, int numberOfElements_ = {}, UnityEngine::AnimationCurve* intensityCurve_ = {}, float intensityMultiplier_ = {}, UnityEngine::AnimationCurve* lengthCurve_ = {}, float lengthMultiplier_ = {}, UnityEngine::AnimationCurve* widthCurve_ = {}, float widthMultiplier_ = {}, GlobalNamespace::TubeBloomPrePassLight* neonLightPrefab_ = {}, UnityEngine::Vector3 afterSpawnRotation_ = {}) noexcept : generate{generate_}, radius{radius_}, angle{angle_}, numberOfElements{numberOfElements_}, intensityCurve{intensityCurve_}, intensityMultiplier{intensityMultiplier_}, lengthCurve{lengthCurve_}, lengthMultiplier{lengthMultiplier_}, widthCurve{widthCurve_}, widthMultiplier{widthMultiplier_}, neonLightPrefab{neonLightPrefab_}, afterSpawnRotation{afterSpawnRotation_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Boolean _generate
-    bool _get__generate();
-    // Set instance field: private System.Boolean _generate
-    void _set__generate(bool value);
-    // Get instance field: private System.Single _radius
-    float _get__radius();
-    // Set instance field: private System.Single _radius
-    void _set__radius(float value);
-    // Get instance field: private System.Single _angle
-    float _get__angle();
-    // Set instance field: private System.Single _angle
-    void _set__angle(float value);
-    // Get instance field: private System.Int32 _numberOfElements
-    int _get__numberOfElements();
-    // Set instance field: private System.Int32 _numberOfElements
-    void _set__numberOfElements(int value);
-    // Get instance field: private UnityEngine.AnimationCurve _intensityCurve
-    UnityEngine::AnimationCurve* _get__intensityCurve();
-    // Set instance field: private UnityEngine.AnimationCurve _intensityCurve
-    void _set__intensityCurve(UnityEngine::AnimationCurve* value);
-    // Get instance field: private System.Single _intensityMultiplier
-    float _get__intensityMultiplier();
-    // Set instance field: private System.Single _intensityMultiplier
-    void _set__intensityMultiplier(float value);
-    // Get instance field: private UnityEngine.AnimationCurve _lengthCurve
-    UnityEngine::AnimationCurve* _get__lengthCurve();
-    // Set instance field: private UnityEngine.AnimationCurve _lengthCurve
-    void _set__lengthCurve(UnityEngine::AnimationCurve* value);
-    // Get instance field: private System.Single _lengthMultiplier
-    float _get__lengthMultiplier();
-    // Set instance field: private System.Single _lengthMultiplier
-    void _set__lengthMultiplier(float value);
-    // Get instance field: private UnityEngine.AnimationCurve _widthCurve
-    UnityEngine::AnimationCurve* _get__widthCurve();
-    // Set instance field: private UnityEngine.AnimationCurve _widthCurve
-    void _set__widthCurve(UnityEngine::AnimationCurve* value);
-    // Get instance field: private System.Single _widthMultiplier
-    float _get__widthMultiplier();
-    // Set instance field: private System.Single _widthMultiplier
-    void _set__widthMultiplier(float value);
-    // Get instance field: private TubeBloomPrePassLight _neonLightPrefab
-    GlobalNamespace::TubeBloomPrePassLight* _get__neonLightPrefab();
-    // Set instance field: private TubeBloomPrePassLight _neonLightPrefab
-    void _set__neonLightPrefab(GlobalNamespace::TubeBloomPrePassLight* value);
-    // Get instance field: private UnityEngine.Vector3 _afterSpawnRotation
-    UnityEngine::Vector3 _get__afterSpawnRotation();
-    // Set instance field: private UnityEngine.Vector3 _afterSpawnRotation
-    void _set__afterSpawnRotation(UnityEngine::Vector3 value);
+    // Get instance field reference: private System.Boolean _generate
+    bool& dyn__generate();
+    // Get instance field reference: private System.Single _radius
+    float& dyn__radius();
+    // Get instance field reference: private System.Single _angle
+    float& dyn__angle();
+    // Get instance field reference: private System.Int32 _numberOfElements
+    int& dyn__numberOfElements();
+    // Get instance field reference: private UnityEngine.AnimationCurve _intensityCurve
+    UnityEngine::AnimationCurve*& dyn__intensityCurve();
+    // Get instance field reference: private System.Single _intensityMultiplier
+    float& dyn__intensityMultiplier();
+    // Get instance field reference: private UnityEngine.AnimationCurve _lengthCurve
+    UnityEngine::AnimationCurve*& dyn__lengthCurve();
+    // Get instance field reference: private System.Single _lengthMultiplier
+    float& dyn__lengthMultiplier();
+    // Get instance field reference: private UnityEngine.AnimationCurve _widthCurve
+    UnityEngine::AnimationCurve*& dyn__widthCurve();
+    // Get instance field reference: private System.Single _widthMultiplier
+    float& dyn__widthMultiplier();
+    // Get instance field reference: private TubeBloomPrePassLight _neonLightPrefab
+    GlobalNamespace::TubeBloomPrePassLight*& dyn__neonLightPrefab();
+    // Get instance field reference: private UnityEngine.Vector3 _afterSpawnRotation
+    UnityEngine::Vector3& dyn__afterSpawnRotation();
     // public System.Void .ctor()
     // Offset: 0x10E6378
     // Implemented from: UnityEngine.MonoBehaviour

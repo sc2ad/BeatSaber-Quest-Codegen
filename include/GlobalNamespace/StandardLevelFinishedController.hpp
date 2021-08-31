@@ -55,18 +55,12 @@ namespace GlobalNamespace {
     StandardLevelFinishedController(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData_ = {}, GlobalNamespace::PrepareLevelCompletionResults* prepareLevelCompletionResults_ = {}, GlobalNamespace::ILevelEndActions* gameplayManager_ = {}) noexcept : standardLevelSceneSetupData{standardLevelSceneSetupData_}, prepareLevelCompletionResults{prepareLevelCompletionResults_}, gameplayManager{gameplayManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private StandardLevelScenesTransitionSetupDataSO _standardLevelSceneSetupData
-    GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* _get__standardLevelSceneSetupData();
-    // Set instance field: private StandardLevelScenesTransitionSetupDataSO _standardLevelSceneSetupData
-    void _set__standardLevelSceneSetupData(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* value);
-    // Get instance field: private readonly PrepareLevelCompletionResults _prepareLevelCompletionResults
-    GlobalNamespace::PrepareLevelCompletionResults* _get__prepareLevelCompletionResults();
-    // Set instance field: private readonly PrepareLevelCompletionResults _prepareLevelCompletionResults
-    void _set__prepareLevelCompletionResults(GlobalNamespace::PrepareLevelCompletionResults* value);
-    // Get instance field: private ILevelEndActions _gameplayManager
-    GlobalNamespace::ILevelEndActions* _get__gameplayManager();
-    // Set instance field: private ILevelEndActions _gameplayManager
-    void _set__gameplayManager(GlobalNamespace::ILevelEndActions* value);
+    // Get instance field reference: private StandardLevelScenesTransitionSetupDataSO _standardLevelSceneSetupData
+    GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*& dyn__standardLevelSceneSetupData();
+    // Get instance field reference: private readonly PrepareLevelCompletionResults _prepareLevelCompletionResults
+    GlobalNamespace::PrepareLevelCompletionResults*& dyn__prepareLevelCompletionResults();
+    // Get instance field reference: private ILevelEndActions _gameplayManager
+    GlobalNamespace::ILevelEndActions*& dyn__gameplayManager();
     // protected System.Void Start()
     // Offset: 0x108A03C
     void Start();

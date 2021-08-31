@@ -53,18 +53,12 @@ namespace Org::BouncyCastle::Math::EC {
     operator Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*>(this);
     }
-    // Get instance field: private readonly Org.BouncyCastle.Math.EC.ECPoint m_outer
-    Org::BouncyCastle::Math::EC::ECPoint* _get_m_outer();
-    // Set instance field: private readonly Org.BouncyCastle.Math.EC.ECPoint m_outer
-    void _set_m_outer(Org::BouncyCastle::Math::EC::ECPoint* value);
-    // Get instance field: private readonly System.Boolean m_decompressed
-    bool _get_m_decompressed();
-    // Set instance field: private readonly System.Boolean m_decompressed
-    void _set_m_decompressed(bool value);
-    // Get instance field: private readonly System.Boolean m_checkOrder
-    bool _get_m_checkOrder();
-    // Set instance field: private readonly System.Boolean m_checkOrder
-    void _set_m_checkOrder(bool value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.ECPoint m_outer
+    Org::BouncyCastle::Math::EC::ECPoint*& dyn_m_outer();
+    // Get instance field reference: private readonly System.Boolean m_decompressed
+    bool& dyn_m_decompressed();
+    // Get instance field reference: private readonly System.Boolean m_checkOrder
+    bool& dyn_m_checkOrder();
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECPoint outer, System.Boolean decompressed, System.Boolean checkOrder)
     // Offset: 0x2144B38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

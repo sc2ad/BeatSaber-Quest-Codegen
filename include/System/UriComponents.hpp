@@ -135,10 +135,8 @@ namespace System {
     static System::UriComponents _get_PathAndQuery();
     // Set static field: static public System.UriComponents PathAndQuery
     static void _set_PathAndQuery(System::UriComponents value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.UriComponents
   #pragma pack(pop)
   static check_size<sizeof(UriComponents), 0 + sizeof(int)> __System_UriComponentsSizeCheck;

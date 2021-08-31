@@ -39,10 +39,8 @@ namespace NUnit::Framework::Internal {
     constexpr operator bool() const noexcept {
       return genericFixture;
     }
-    // Get instance field: private System.Boolean _genericFixture
-    bool _get__genericFixture();
-    // Set instance field: private System.Boolean _genericFixture
-    void _set__genericFixture(bool value);
+    // Get instance field reference: private System.Boolean _genericFixture
+    bool& dyn__genericFixture();
     // public override System.String get_TestType()
     // Offset: 0x2299138
     // Implemented from: NUnit.Framework.Internal.Test

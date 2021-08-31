@@ -77,10 +77,8 @@ namespace Org::BouncyCastle::Math::EC::Custom::Djb {
     static ::Array<Org::BouncyCastle::Math::EC::ECFieldElement*>* _get_CURVE25519_AFFINE_ZS();
     // Set static field: static private readonly Org.BouncyCastle.Math.EC.ECFieldElement[] CURVE25519_AFFINE_ZS
     static void _set_CURVE25519_AFFINE_ZS(::Array<Org::BouncyCastle::Math::EC::ECFieldElement*>* value);
-    // Get instance field: protected readonly Org.BouncyCastle.Math.EC.Custom.Djb.Curve25519Point m_infinity
-    Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point* _get_m_infinity();
-    // Set instance field: protected readonly Org.BouncyCastle.Math.EC.Custom.Djb.Curve25519Point m_infinity
-    void _set_m_infinity(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point* value);
+    // Get instance field reference: protected readonly Org.BouncyCastle.Math.EC.Custom.Djb.Curve25519Point m_infinity
+    Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point*& dyn_m_infinity();
     // static private System.Void .cctor()
     // Offset: 0x1DB571C
     static void _cctor();

@@ -62,26 +62,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: LightIntensitiesData
     LightIntensitiesData(float intensity_ = {}, float weight_ = {}, int lightmapLightIdColorPropertyId_ = {}, int lightProbeLightIdColorPropertyId_ = {}, bool initializedPropertyIds_ = {}) noexcept : intensity{intensity_}, weight{weight_}, lightmapLightIdColorPropertyId{lightmapLightIdColorPropertyId_}, lightProbeLightIdColorPropertyId{lightProbeLightIdColorPropertyId_}, initializedPropertyIds{initializedPropertyIds_} {}
-    // Get instance field: private System.Single _intensity
-    float _get__intensity();
-    // Set instance field: private System.Single _intensity
-    void _set__intensity(float value);
-    // Get instance field: private System.Single _weight
-    float _get__weight();
-    // Set instance field: private System.Single _weight
-    void _set__weight(float value);
-    // Get instance field: private System.Int32 _lightmapLightIdColorPropertyId
-    int _get__lightmapLightIdColorPropertyId();
-    // Set instance field: private System.Int32 _lightmapLightIdColorPropertyId
-    void _set__lightmapLightIdColorPropertyId(int value);
-    // Get instance field: private System.Int32 _lightProbeLightIdColorPropertyId
-    int _get__lightProbeLightIdColorPropertyId();
-    // Set instance field: private System.Int32 _lightProbeLightIdColorPropertyId
-    void _set__lightProbeLightIdColorPropertyId(int value);
-    // Get instance field: private System.Boolean _initializedPropertyIds
-    bool _get__initializedPropertyIds();
-    // Set instance field: private System.Boolean _initializedPropertyIds
-    void _set__initializedPropertyIds(bool value);
+    // Get instance field reference: private System.Single _intensity
+    float& dyn__intensity();
+    // Get instance field reference: private System.Single _weight
+    float& dyn__weight();
+    // Get instance field reference: private System.Int32 _lightmapLightIdColorPropertyId
+    int& dyn__lightmapLightIdColorPropertyId();
+    // Get instance field reference: private System.Int32 _lightProbeLightIdColorPropertyId
+    int& dyn__lightProbeLightIdColorPropertyId();
+    // Get instance field reference: private System.Boolean _initializedPropertyIds
+    bool& dyn__initializedPropertyIds();
     // public System.Single get_intensity()
     // Offset: 0x1E1B50C
     float get_intensity();

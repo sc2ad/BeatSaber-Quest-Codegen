@@ -137,66 +137,36 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(RootMotion::FinalIK::IKSolver::UpdateDelegate*) == 0x8);
     // Creating value type constructor for type: IKSolverFullBody
     IKSolverFullBody(int iterations_ = {}, ::Array<RootMotion::FinalIK::FBIKChain*>* chain_ = {}, ::Array<RootMotion::FinalIK::IKEffector*>* effectors_ = {}, RootMotion::FinalIK::IKMappingSpine* spineMapping_ = {}, ::Array<RootMotion::FinalIK::IKMappingBone*>* boneMappings_ = {}, ::Array<RootMotion::FinalIK::IKMappingLimb*>* limbMappings_ = {}, bool FABRIKPass_ = {}, RootMotion::FinalIK::IKSolver::UpdateDelegate* OnPreRead_ = {}, RootMotion::FinalIK::IKSolver::UpdateDelegate* OnPreSolve_ = {}, RootMotion::FinalIK::IKSolver::IterationDelegate* OnPreIteration_ = {}, RootMotion::FinalIK::IKSolver::IterationDelegate* OnPostIteration_ = {}, RootMotion::FinalIK::IKSolver::UpdateDelegate* OnPreBend_ = {}, RootMotion::FinalIK::IKSolver::UpdateDelegate* OnPostSolve_ = {}, RootMotion::FinalIK::IKSolver::UpdateDelegate* OnStoreDefaultLocalState_ = {}, RootMotion::FinalIK::IKSolver::UpdateDelegate* OnFixTransforms_ = {}) noexcept : iterations{iterations_}, chain{chain_}, effectors{effectors_}, spineMapping{spineMapping_}, boneMappings{boneMappings_}, limbMappings{limbMappings_}, FABRIKPass{FABRIKPass_}, OnPreRead{OnPreRead_}, OnPreSolve{OnPreSolve_}, OnPreIteration{OnPreIteration_}, OnPostIteration{OnPostIteration_}, OnPreBend{OnPreBend_}, OnPostSolve{OnPostSolve_}, OnStoreDefaultLocalState{OnStoreDefaultLocalState_}, OnFixTransforms{OnFixTransforms_} {}
-    // Get instance field: public System.Int32 iterations
-    int _get_iterations();
-    // Set instance field: public System.Int32 iterations
-    void _set_iterations(int value);
-    // Get instance field: public RootMotion.FinalIK.FBIKChain[] chain
-    ::Array<RootMotion::FinalIK::FBIKChain*>* _get_chain();
-    // Set instance field: public RootMotion.FinalIK.FBIKChain[] chain
-    void _set_chain(::Array<RootMotion::FinalIK::FBIKChain*>* value);
-    // Get instance field: public RootMotion.FinalIK.IKEffector[] effectors
-    ::Array<RootMotion::FinalIK::IKEffector*>* _get_effectors();
-    // Set instance field: public RootMotion.FinalIK.IKEffector[] effectors
-    void _set_effectors(::Array<RootMotion::FinalIK::IKEffector*>* value);
-    // Get instance field: public RootMotion.FinalIK.IKMappingSpine spineMapping
-    RootMotion::FinalIK::IKMappingSpine* _get_spineMapping();
-    // Set instance field: public RootMotion.FinalIK.IKMappingSpine spineMapping
-    void _set_spineMapping(RootMotion::FinalIK::IKMappingSpine* value);
-    // Get instance field: public RootMotion.FinalIK.IKMappingBone[] boneMappings
-    ::Array<RootMotion::FinalIK::IKMappingBone*>* _get_boneMappings();
-    // Set instance field: public RootMotion.FinalIK.IKMappingBone[] boneMappings
-    void _set_boneMappings(::Array<RootMotion::FinalIK::IKMappingBone*>* value);
-    // Get instance field: public RootMotion.FinalIK.IKMappingLimb[] limbMappings
-    ::Array<RootMotion::FinalIK::IKMappingLimb*>* _get_limbMappings();
-    // Set instance field: public RootMotion.FinalIK.IKMappingLimb[] limbMappings
-    void _set_limbMappings(::Array<RootMotion::FinalIK::IKMappingLimb*>* value);
-    // Get instance field: public System.Boolean FABRIKPass
-    bool _get_FABRIKPass();
-    // Set instance field: public System.Boolean FABRIKPass
-    void _set_FABRIKPass(bool value);
-    // Get instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnPreRead
-    RootMotion::FinalIK::IKSolver::UpdateDelegate* _get_OnPreRead();
-    // Set instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnPreRead
-    void _set_OnPreRead(RootMotion::FinalIK::IKSolver::UpdateDelegate* value);
-    // Get instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnPreSolve
-    RootMotion::FinalIK::IKSolver::UpdateDelegate* _get_OnPreSolve();
-    // Set instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnPreSolve
-    void _set_OnPreSolve(RootMotion::FinalIK::IKSolver::UpdateDelegate* value);
-    // Get instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.IterationDelegate OnPreIteration
-    RootMotion::FinalIK::IKSolver::IterationDelegate* _get_OnPreIteration();
-    // Set instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.IterationDelegate OnPreIteration
-    void _set_OnPreIteration(RootMotion::FinalIK::IKSolver::IterationDelegate* value);
-    // Get instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.IterationDelegate OnPostIteration
-    RootMotion::FinalIK::IKSolver::IterationDelegate* _get_OnPostIteration();
-    // Set instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.IterationDelegate OnPostIteration
-    void _set_OnPostIteration(RootMotion::FinalIK::IKSolver::IterationDelegate* value);
-    // Get instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnPreBend
-    RootMotion::FinalIK::IKSolver::UpdateDelegate* _get_OnPreBend();
-    // Set instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnPreBend
-    void _set_OnPreBend(RootMotion::FinalIK::IKSolver::UpdateDelegate* value);
-    // Get instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnPostSolve
-    RootMotion::FinalIK::IKSolver::UpdateDelegate* _get_OnPostSolve();
-    // Set instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnPostSolve
-    void _set_OnPostSolve(RootMotion::FinalIK::IKSolver::UpdateDelegate* value);
-    // Get instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnStoreDefaultLocalState
-    RootMotion::FinalIK::IKSolver::UpdateDelegate* _get_OnStoreDefaultLocalState();
-    // Set instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnStoreDefaultLocalState
-    void _set_OnStoreDefaultLocalState(RootMotion::FinalIK::IKSolver::UpdateDelegate* value);
-    // Get instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnFixTransforms
-    RootMotion::FinalIK::IKSolver::UpdateDelegate* _get_OnFixTransforms();
-    // Set instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnFixTransforms
-    void _set_OnFixTransforms(RootMotion::FinalIK::IKSolver::UpdateDelegate* value);
+    // Get instance field reference: public System.Int32 iterations
+    int& dyn_iterations();
+    // Get instance field reference: public RootMotion.FinalIK.FBIKChain[] chain
+    ::Array<RootMotion::FinalIK::FBIKChain*>*& dyn_chain();
+    // Get instance field reference: public RootMotion.FinalIK.IKEffector[] effectors
+    ::Array<RootMotion::FinalIK::IKEffector*>*& dyn_effectors();
+    // Get instance field reference: public RootMotion.FinalIK.IKMappingSpine spineMapping
+    RootMotion::FinalIK::IKMappingSpine*& dyn_spineMapping();
+    // Get instance field reference: public RootMotion.FinalIK.IKMappingBone[] boneMappings
+    ::Array<RootMotion::FinalIK::IKMappingBone*>*& dyn_boneMappings();
+    // Get instance field reference: public RootMotion.FinalIK.IKMappingLimb[] limbMappings
+    ::Array<RootMotion::FinalIK::IKMappingLimb*>*& dyn_limbMappings();
+    // Get instance field reference: public System.Boolean FABRIKPass
+    bool& dyn_FABRIKPass();
+    // Get instance field reference: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnPreRead
+    RootMotion::FinalIK::IKSolver::UpdateDelegate*& dyn_OnPreRead();
+    // Get instance field reference: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnPreSolve
+    RootMotion::FinalIK::IKSolver::UpdateDelegate*& dyn_OnPreSolve();
+    // Get instance field reference: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.IterationDelegate OnPreIteration
+    RootMotion::FinalIK::IKSolver::IterationDelegate*& dyn_OnPreIteration();
+    // Get instance field reference: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.IterationDelegate OnPostIteration
+    RootMotion::FinalIK::IKSolver::IterationDelegate*& dyn_OnPostIteration();
+    // Get instance field reference: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnPreBend
+    RootMotion::FinalIK::IKSolver::UpdateDelegate*& dyn_OnPreBend();
+    // Get instance field reference: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnPostSolve
+    RootMotion::FinalIK::IKSolver::UpdateDelegate*& dyn_OnPostSolve();
+    // Get instance field reference: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnStoreDefaultLocalState
+    RootMotion::FinalIK::IKSolver::UpdateDelegate*& dyn_OnStoreDefaultLocalState();
+    // Get instance field reference: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnFixTransforms
+    RootMotion::FinalIK::IKSolver::UpdateDelegate*& dyn_OnFixTransforms();
     // public RootMotion.FinalIK.IKEffector GetEffector(UnityEngine.Transform t)
     // Offset: 0x1CB0240
     RootMotion::FinalIK::IKEffector* GetEffector(UnityEngine::Transform* t);

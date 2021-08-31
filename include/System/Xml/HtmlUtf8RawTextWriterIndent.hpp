@@ -62,22 +62,14 @@ namespace System::Xml {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: HtmlUtf8RawTextWriterIndent
     HtmlUtf8RawTextWriterIndent(int indentLevel_ = {}, int endBlockPos_ = {}, ::Il2CppString* indentChars_ = {}, bool newLineOnAttributes_ = {}) noexcept : indentLevel{indentLevel_}, endBlockPos{endBlockPos_}, indentChars{indentChars_}, newLineOnAttributes{newLineOnAttributes_} {}
-    // Get instance field: private System.Int32 indentLevel
-    int _get_indentLevel();
-    // Set instance field: private System.Int32 indentLevel
-    void _set_indentLevel(int value);
-    // Get instance field: private System.Int32 endBlockPos
-    int _get_endBlockPos();
-    // Set instance field: private System.Int32 endBlockPos
-    void _set_endBlockPos(int value);
-    // Get instance field: private System.String indentChars
-    ::Il2CppString* _get_indentChars();
-    // Set instance field: private System.String indentChars
-    void _set_indentChars(::Il2CppString* value);
-    // Get instance field: private System.Boolean newLineOnAttributes
-    bool _get_newLineOnAttributes();
-    // Set instance field: private System.Boolean newLineOnAttributes
-    void _set_newLineOnAttributes(bool value);
+    // Get instance field reference: private System.Int32 indentLevel
+    int& dyn_indentLevel();
+    // Get instance field reference: private System.Int32 endBlockPos
+    int& dyn_endBlockPos();
+    // Get instance field reference: private System.String indentChars
+    ::Il2CppString*& dyn_indentChars();
+    // Get instance field reference: private System.Boolean newLineOnAttributes
+    bool& dyn_newLineOnAttributes();
     // private System.Void WriteIndent()
     // Offset: 0x1954780
     void WriteIndent();

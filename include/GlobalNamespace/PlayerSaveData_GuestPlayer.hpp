@@ -32,10 +32,8 @@ namespace GlobalNamespace {
     constexpr operator ::Il2CppString*() const noexcept {
       return playerName;
     }
-    // Get instance field: public System.String playerName
-    ::Il2CppString* _get_playerName();
-    // Set instance field: public System.String playerName
-    void _set_playerName(::Il2CppString* value);
+    // Get instance field reference: public System.String playerName
+    ::Il2CppString*& dyn_playerName();
     // public System.Void .ctor()
     // Offset: 0x113773C
     // Implemented from: System.Object

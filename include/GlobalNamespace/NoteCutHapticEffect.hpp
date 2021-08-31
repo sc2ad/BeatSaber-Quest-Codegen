@@ -51,14 +51,10 @@ namespace GlobalNamespace {
     NoteCutHapticEffect(Libraries::HM::HMLib::VR::HapticPresetSO* rumblePreset_ = {}, GlobalNamespace::HapticFeedbackController* hapticFeedbackController_ = {}) noexcept : rumblePreset{rumblePreset_}, hapticFeedbackController{hapticFeedbackController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private Libraries.HM.HMLib.VR.HapticPresetSO _rumblePreset
-    Libraries::HM::HMLib::VR::HapticPresetSO* _get__rumblePreset();
-    // Set instance field: private Libraries.HM.HMLib.VR.HapticPresetSO _rumblePreset
-    void _set__rumblePreset(Libraries::HM::HMLib::VR::HapticPresetSO* value);
-    // Get instance field: private readonly HapticFeedbackController _hapticFeedbackController
-    GlobalNamespace::HapticFeedbackController* _get__hapticFeedbackController();
-    // Set instance field: private readonly HapticFeedbackController _hapticFeedbackController
-    void _set__hapticFeedbackController(GlobalNamespace::HapticFeedbackController* value);
+    // Get instance field reference: private Libraries.HM.HMLib.VR.HapticPresetSO _rumblePreset
+    Libraries::HM::HMLib::VR::HapticPresetSO*& dyn__rumblePreset();
+    // Get instance field reference: private readonly HapticFeedbackController _hapticFeedbackController
+    GlobalNamespace::HapticFeedbackController*& dyn__hapticFeedbackController();
     // public System.Void HitNote(SaberType saberType)
     // Offset: 0x1046ADC
     void HitNote(GlobalNamespace::SaberType saberType);

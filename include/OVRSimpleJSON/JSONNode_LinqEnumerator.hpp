@@ -53,14 +53,10 @@ namespace OVRSimpleJSON {
     operator System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>>*>(this);
     }
-    // Get instance field: private OVRSimpleJSON.JSONNode m_Node
-    OVRSimpleJSON::JSONNode* _get_m_Node();
-    // Set instance field: private OVRSimpleJSON.JSONNode m_Node
-    void _set_m_Node(OVRSimpleJSON::JSONNode* value);
-    // Get instance field: private OVRSimpleJSON.JSONNode/OVRSimpleJSON.Enumerator m_Enumerator
-    OVRSimpleJSON::JSONNode::Enumerator _get_m_Enumerator();
-    // Set instance field: private OVRSimpleJSON.JSONNode/OVRSimpleJSON.Enumerator m_Enumerator
-    void _set_m_Enumerator(OVRSimpleJSON::JSONNode::Enumerator value);
+    // Get instance field reference: private OVRSimpleJSON.JSONNode m_Node
+    OVRSimpleJSON::JSONNode*& dyn_m_Node();
+    // Get instance field reference: private OVRSimpleJSON.JSONNode/OVRSimpleJSON.Enumerator m_Enumerator
+    OVRSimpleJSON::JSONNode::Enumerator& dyn_m_Enumerator();
     // public System.Collections.Generic.KeyValuePair`2<System.String,OVRSimpleJSON.JSONNode> get_Current()
     // Offset: 0x1F43A28
     System::Collections::Generic::KeyValuePair_2<::Il2CppString*, OVRSimpleJSON::JSONNode*> get_Current();

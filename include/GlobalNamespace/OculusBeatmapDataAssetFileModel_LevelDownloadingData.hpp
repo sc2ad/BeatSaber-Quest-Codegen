@@ -50,18 +50,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>*) == 0x8);
     // Creating value type constructor for type: LevelDownloadingData
     LevelDownloadingData(::Il2CppString* levelId_ = {}, ::Il2CppString* assetBundlePath_ = {}, System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>* downloadAssetBundleFileTCS_ = {}) noexcept : levelId{levelId_}, assetBundlePath{assetBundlePath_}, downloadAssetBundleFileTCS{downloadAssetBundleFileTCS_} {}
-    // Get instance field: public readonly System.String levelId
-    ::Il2CppString* _get_levelId();
-    // Set instance field: public readonly System.String levelId
-    void _set_levelId(::Il2CppString* value);
-    // Get instance field: public readonly System.String assetBundlePath
-    ::Il2CppString* _get_assetBundlePath();
-    // Set instance field: public readonly System.String assetBundlePath
-    void _set_assetBundlePath(::Il2CppString* value);
-    // Get instance field: public readonly System.Threading.Tasks.TaskCompletionSource`1<GetAssetBundleFileResult> downloadAssetBundleFileTCS
-    System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>* _get_downloadAssetBundleFileTCS();
-    // Set instance field: public readonly System.Threading.Tasks.TaskCompletionSource`1<GetAssetBundleFileResult> downloadAssetBundleFileTCS
-    void _set_downloadAssetBundleFileTCS(System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>* value);
+    // Get instance field reference: public readonly System.String levelId
+    ::Il2CppString*& dyn_levelId();
+    // Get instance field reference: public readonly System.String assetBundlePath
+    ::Il2CppString*& dyn_assetBundlePath();
+    // Get instance field reference: public readonly System.Threading.Tasks.TaskCompletionSource`1<GetAssetBundleFileResult> downloadAssetBundleFileTCS
+    System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>*& dyn_downloadAssetBundleFileTCS();
     // public System.Void .ctor(System.String levelId, System.String assetBundlePath)
     // Offset: 0x123544C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

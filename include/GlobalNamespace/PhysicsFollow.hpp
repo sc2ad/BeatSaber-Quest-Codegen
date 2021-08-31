@@ -66,26 +66,16 @@ namespace GlobalNamespace {
     PhysicsFollow(UnityEngine::Transform* targetTransform_ = {}, UnityEngine::Vector3 offset_ = {}, float friction_ = {}, float elasticity_ = {}, UnityEngine::Rigidbody2D* rigidBody2D_ = {}) noexcept : targetTransform{targetTransform_}, offset{offset_}, friction{friction_}, elasticity{elasticity_}, rigidBody2D{rigidBody2D_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public UnityEngine.Transform _targetTransform
-    UnityEngine::Transform* _get__targetTransform();
-    // Set instance field: public UnityEngine.Transform _targetTransform
-    void _set__targetTransform(UnityEngine::Transform* value);
-    // Get instance field: public UnityEngine.Vector3 _offset
-    UnityEngine::Vector3 _get__offset();
-    // Set instance field: public UnityEngine.Vector3 _offset
-    void _set__offset(UnityEngine::Vector3 value);
-    // Get instance field: public System.Single _friction
-    float _get__friction();
-    // Set instance field: public System.Single _friction
-    void _set__friction(float value);
-    // Get instance field: public System.Single _elasticity
-    float _get__elasticity();
-    // Set instance field: public System.Single _elasticity
-    void _set__elasticity(float value);
-    // Get instance field: private UnityEngine.Rigidbody2D _rigidBody2D
-    UnityEngine::Rigidbody2D* _get__rigidBody2D();
-    // Set instance field: private UnityEngine.Rigidbody2D _rigidBody2D
-    void _set__rigidBody2D(UnityEngine::Rigidbody2D* value);
+    // Get instance field reference: public UnityEngine.Transform _targetTransform
+    UnityEngine::Transform*& dyn__targetTransform();
+    // Get instance field reference: public UnityEngine.Vector3 _offset
+    UnityEngine::Vector3& dyn__offset();
+    // Get instance field reference: public System.Single _friction
+    float& dyn__friction();
+    // Get instance field reference: public System.Single _elasticity
+    float& dyn__elasticity();
+    // Get instance field reference: private UnityEngine.Rigidbody2D _rigidBody2D
+    UnityEngine::Rigidbody2D*& dyn__rigidBody2D();
     // protected System.Void Start()
     // Offset: 0x126B05C
     void Start();

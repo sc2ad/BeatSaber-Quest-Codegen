@@ -42,10 +42,8 @@ namespace Mono {
     constexpr operator Mono::RuntimeStructs::GPtrArray*() const noexcept {
       return value;
     }
-    // Get instance field: private Mono.RuntimeStructs/Mono.GPtrArray* value
-    Mono::RuntimeStructs::GPtrArray* _get_value();
-    // Set instance field: private Mono.RuntimeStructs/Mono.GPtrArray* value
-    void _set_value(Mono::RuntimeStructs::GPtrArray* value);
+    // Get instance field reference: private Mono.RuntimeStructs/Mono.GPtrArray* value
+    Mono::RuntimeStructs::GPtrArray*& dyn_value();
     // System.Int32 get_Length()
     // Offset: 0x1A737C4
     int get_Length();

@@ -62,22 +62,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
     // Creating value type constructor for type: MultiplayerCoreInstaller
     MultiplayerCoreInstaller(GlobalNamespace::ScoreSyncStateManager* scoreSyncStateManagerPrefab_ = {}, GlobalNamespace::MultiplayerBadgesModelSO* multiplayerBadgesModel_ = {}, GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}) noexcept : scoreSyncStateManagerPrefab{scoreSyncStateManagerPrefab_}, multiplayerBadgesModel{multiplayerBadgesModel_}, sceneSetupData{sceneSetupData_}, multiplayerSessionManager{multiplayerSessionManager_} {}
-    // Get instance field: private ScoreSyncStateManager _scoreSyncStateManagerPrefab
-    GlobalNamespace::ScoreSyncStateManager* _get__scoreSyncStateManagerPrefab();
-    // Set instance field: private ScoreSyncStateManager _scoreSyncStateManagerPrefab
-    void _set__scoreSyncStateManagerPrefab(GlobalNamespace::ScoreSyncStateManager* value);
-    // Get instance field: private MultiplayerBadgesModelSO _multiplayerBadgesModel
-    GlobalNamespace::MultiplayerBadgesModelSO* _get__multiplayerBadgesModel();
-    // Set instance field: private MultiplayerBadgesModelSO _multiplayerBadgesModel
-    void _set__multiplayerBadgesModel(GlobalNamespace::MultiplayerBadgesModelSO* value);
-    // Get instance field: private readonly GameplayCoreSceneSetupData _sceneSetupData
-    GlobalNamespace::GameplayCoreSceneSetupData* _get__sceneSetupData();
-    // Set instance field: private readonly GameplayCoreSceneSetupData _sceneSetupData
-    void _set__sceneSetupData(GlobalNamespace::GameplayCoreSceneSetupData* value);
-    // Get instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    GlobalNamespace::IMultiplayerSessionManager* _get__multiplayerSessionManager();
-    // Set instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    void _set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
+    // Get instance field reference: private ScoreSyncStateManager _scoreSyncStateManagerPrefab
+    GlobalNamespace::ScoreSyncStateManager*& dyn__scoreSyncStateManagerPrefab();
+    // Get instance field reference: private MultiplayerBadgesModelSO _multiplayerBadgesModel
+    GlobalNamespace::MultiplayerBadgesModelSO*& dyn__multiplayerBadgesModel();
+    // Get instance field reference: private readonly GameplayCoreSceneSetupData _sceneSetupData
+    GlobalNamespace::GameplayCoreSceneSetupData*& dyn__sceneSetupData();
+    // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
     // public System.Void .ctor()
     // Offset: 0x11AF8A8
     // Implemented from: Zenject.MonoInstaller

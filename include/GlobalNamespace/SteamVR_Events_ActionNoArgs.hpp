@@ -43,14 +43,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Events::UnityAction*) == 0x8);
     // Creating value type constructor for type: ActionNoArgs
     ActionNoArgs(GlobalNamespace::SteamVR_Events::Event* event_ = {}, UnityEngine::Events::UnityAction* action_ = {}) noexcept : event{event_}, action{action_} {}
-    // Get instance field: private SteamVR_Events/Event _event
-    GlobalNamespace::SteamVR_Events::Event* _get__event();
-    // Set instance field: private SteamVR_Events/Event _event
-    void _set__event(GlobalNamespace::SteamVR_Events::Event* value);
-    // Get instance field: private UnityEngine.Events.UnityAction action
-    UnityEngine::Events::UnityAction* _get_action();
-    // Set instance field: private UnityEngine.Events.UnityAction action
-    void _set_action(UnityEngine::Events::UnityAction* value);
+    // Get instance field reference: private SteamVR_Events/Event _event
+    GlobalNamespace::SteamVR_Events::Event*& dyn__event();
+    // Get instance field reference: private UnityEngine.Events.UnityAction action
+    UnityEngine::Events::UnityAction*& dyn_action();
     // public System.Void .ctor(SteamVR_Events/Event _event, UnityEngine.Events.UnityAction action)
     // Offset: 0x14212BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

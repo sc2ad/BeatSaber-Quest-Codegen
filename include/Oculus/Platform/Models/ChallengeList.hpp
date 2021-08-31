@@ -40,10 +40,8 @@ namespace Oculus::Platform::Models {
     constexpr operator uint64_t() const noexcept {
       return TotalCount;
     }
-    // Get instance field: public readonly System.UInt64 TotalCount
-    uint64_t _get_TotalCount();
-    // Set instance field: public readonly System.UInt64 TotalCount
-    void _set_TotalCount(uint64_t value);
+    // Get instance field reference: public readonly System.UInt64 TotalCount
+    uint64_t& dyn_TotalCount();
     // public System.Void .ctor(System.IntPtr a)
     // Offset: 0x14E924C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

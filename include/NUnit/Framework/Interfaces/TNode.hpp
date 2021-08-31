@@ -82,26 +82,16 @@ namespace NUnit::Framework::Interfaces {
     static System::Text::RegularExpressions::Regex* _get_InvalidXmlCharactersRegex();
     // Set static field: static private readonly System.Text.RegularExpressions.Regex InvalidXmlCharactersRegex
     static void _set_InvalidXmlCharactersRegex(System::Text::RegularExpressions::Regex* value);
-    // Get instance field: private System.String <Name>k__BackingField
-    ::Il2CppString* _get_$Name$k__BackingField();
-    // Set instance field: private System.String <Name>k__BackingField
-    void _set_$Name$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.String <Value>k__BackingField
-    ::Il2CppString* _get_$Value$k__BackingField();
-    // Set instance field: private System.String <Value>k__BackingField
-    void _set_$Value$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.Boolean <ValueIsCDATA>k__BackingField
-    bool _get_$ValueIsCDATA$k__BackingField();
-    // Set instance field: private System.Boolean <ValueIsCDATA>k__BackingField
-    void _set_$ValueIsCDATA$k__BackingField(bool value);
-    // Get instance field: private NUnit.Framework.Interfaces.AttributeDictionary <Attributes>k__BackingField
-    NUnit::Framework::Interfaces::AttributeDictionary* _get_$Attributes$k__BackingField();
-    // Set instance field: private NUnit.Framework.Interfaces.AttributeDictionary <Attributes>k__BackingField
-    void _set_$Attributes$k__BackingField(NUnit::Framework::Interfaces::AttributeDictionary* value);
-    // Get instance field: private NUnit.Framework.Interfaces.NodeList <ChildNodes>k__BackingField
-    NUnit::Framework::Interfaces::NodeList* _get_$ChildNodes$k__BackingField();
-    // Set instance field: private NUnit.Framework.Interfaces.NodeList <ChildNodes>k__BackingField
-    void _set_$ChildNodes$k__BackingField(NUnit::Framework::Interfaces::NodeList* value);
+    // Get instance field reference: private System.String <Name>k__BackingField
+    ::Il2CppString*& dyn_$Name$k__BackingField();
+    // Get instance field reference: private System.String <Value>k__BackingField
+    ::Il2CppString*& dyn_$Value$k__BackingField();
+    // Get instance field reference: private System.Boolean <ValueIsCDATA>k__BackingField
+    bool& dyn_$ValueIsCDATA$k__BackingField();
+    // Get instance field reference: private NUnit.Framework.Interfaces.AttributeDictionary <Attributes>k__BackingField
+    NUnit::Framework::Interfaces::AttributeDictionary*& dyn_$Attributes$k__BackingField();
+    // Get instance field reference: private NUnit.Framework.Interfaces.NodeList <ChildNodes>k__BackingField
+    NUnit::Framework::Interfaces::NodeList*& dyn_$ChildNodes$k__BackingField();
     // public System.String get_Name()
     // Offset: 0x17708DC
     ::Il2CppString* get_Name();

@@ -51,18 +51,12 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IGamePause() noexcept {
       return *reinterpret_cast<GlobalNamespace::IGamePause*>(this);
     }
-    // Get instance field: private System.Action didPauseEvent
-    System::Action* _get_didPauseEvent();
-    // Set instance field: private System.Action didPauseEvent
-    void _set_didPauseEvent(System::Action* value);
-    // Get instance field: private System.Action willResumeEvent
-    System::Action* _get_willResumeEvent();
-    // Set instance field: private System.Action willResumeEvent
-    void _set_willResumeEvent(System::Action* value);
-    // Get instance field: private System.Action didResumeEvent
-    System::Action* _get_didResumeEvent();
-    // Set instance field: private System.Action didResumeEvent
-    void _set_didResumeEvent(System::Action* value);
+    // Get instance field reference: private System.Action didPauseEvent
+    System::Action*& dyn_didPauseEvent();
+    // Get instance field reference: private System.Action willResumeEvent
+    System::Action*& dyn_willResumeEvent();
+    // Get instance field reference: private System.Action didResumeEvent
+    System::Action*& dyn_didResumeEvent();
     // public System.Void add_didPauseEvent(System.Action value)
     // Offset: 0x11DC9EC
     void add_didPauseEvent(System::Action* value);

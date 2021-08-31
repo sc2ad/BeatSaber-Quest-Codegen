@@ -105,38 +105,22 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static ::Array<uint>* _get_Tinv0();
     // Set static field: static private readonly System.UInt32[] Tinv0
     static void _set_Tinv0(::Array<uint>* value);
-    // Get instance field: private System.Int32 ROUNDS
-    int _get_ROUNDS();
-    // Set instance field: private System.Int32 ROUNDS
-    void _set_ROUNDS(int value);
-    // Get instance field: private System.UInt32[][] WorkingKey
-    ::Array<::Array<uint>*>* _get_WorkingKey();
-    // Set instance field: private System.UInt32[][] WorkingKey
-    void _set_WorkingKey(::Array<::Array<uint>*>* value);
-    // Get instance field: private System.UInt32 C0
-    uint _get_C0();
-    // Set instance field: private System.UInt32 C0
-    void _set_C0(uint value);
-    // Get instance field: private System.UInt32 C1
-    uint _get_C1();
-    // Set instance field: private System.UInt32 C1
-    void _set_C1(uint value);
-    // Get instance field: private System.UInt32 C2
-    uint _get_C2();
-    // Set instance field: private System.UInt32 C2
-    void _set_C2(uint value);
-    // Get instance field: private System.UInt32 C3
-    uint _get_C3();
-    // Set instance field: private System.UInt32 C3
-    void _set_C3(uint value);
-    // Get instance field: private System.Boolean forEncryption
-    bool _get_forEncryption();
-    // Set instance field: private System.Boolean forEncryption
-    void _set_forEncryption(bool value);
-    // Get instance field: private System.Byte[] s
-    ::Array<uint8_t>* _get_s();
-    // Set instance field: private System.Byte[] s
-    void _set_s(::Array<uint8_t>* value);
+    // Get instance field reference: private System.Int32 ROUNDS
+    int& dyn_ROUNDS();
+    // Get instance field reference: private System.UInt32[][] WorkingKey
+    ::Array<::Array<uint>*>*& dyn_WorkingKey();
+    // Get instance field reference: private System.UInt32 C0
+    uint& dyn_C0();
+    // Get instance field reference: private System.UInt32 C1
+    uint& dyn_C1();
+    // Get instance field reference: private System.UInt32 C2
+    uint& dyn_C2();
+    // Get instance field reference: private System.UInt32 C3
+    uint& dyn_C3();
+    // Get instance field reference: private System.Boolean forEncryption
+    bool& dyn_forEncryption();
+    // Get instance field reference: private System.Byte[] s
+    ::Array<uint8_t>*& dyn_s();
     // public System.String get_AlgorithmName()
     // Offset: 0x1933134
     ::Il2CppString* get_AlgorithmName();

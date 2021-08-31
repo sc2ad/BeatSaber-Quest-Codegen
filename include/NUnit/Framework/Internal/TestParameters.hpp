@@ -83,26 +83,16 @@ namespace NUnit::Framework::Internal {
     operator NUnit::Framework::Interfaces::ITestData() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ITestData*>(this);
     }
-    // Get instance field: private NUnit.Framework.Interfaces.RunState <RunState>k__BackingField
-    NUnit::Framework::Interfaces::RunState _get_$RunState$k__BackingField();
-    // Set instance field: private NUnit.Framework.Interfaces.RunState <RunState>k__BackingField
-    void _set_$RunState$k__BackingField(NUnit::Framework::Interfaces::RunState value);
-    // Get instance field: private System.Object[] <Arguments>k__BackingField
-    ::Array<::Il2CppObject*>* _get_$Arguments$k__BackingField();
-    // Set instance field: private System.Object[] <Arguments>k__BackingField
-    void _set_$Arguments$k__BackingField(::Array<::Il2CppObject*>* value);
-    // Get instance field: private System.String <TestName>k__BackingField
-    ::Il2CppString* _get_$TestName$k__BackingField();
-    // Set instance field: private System.String <TestName>k__BackingField
-    void _set_$TestName$k__BackingField(::Il2CppString* value);
-    // Get instance field: private NUnit.Framework.Interfaces.IPropertyBag <Properties>k__BackingField
-    NUnit::Framework::Interfaces::IPropertyBag* _get_$Properties$k__BackingField();
-    // Set instance field: private NUnit.Framework.Interfaces.IPropertyBag <Properties>k__BackingField
-    void _set_$Properties$k__BackingField(NUnit::Framework::Interfaces::IPropertyBag* value);
-    // Get instance field: private System.Object[] <OriginalArguments>k__BackingField
-    ::Array<::Il2CppObject*>* _get_$OriginalArguments$k__BackingField();
-    // Set instance field: private System.Object[] <OriginalArguments>k__BackingField
-    void _set_$OriginalArguments$k__BackingField(::Array<::Il2CppObject*>* value);
+    // Get instance field reference: private NUnit.Framework.Interfaces.RunState <RunState>k__BackingField
+    NUnit::Framework::Interfaces::RunState& dyn_$RunState$k__BackingField();
+    // Get instance field reference: private System.Object[] <Arguments>k__BackingField
+    ::Array<::Il2CppObject*>*& dyn_$Arguments$k__BackingField();
+    // Get instance field reference: private System.String <TestName>k__BackingField
+    ::Il2CppString*& dyn_$TestName$k__BackingField();
+    // Get instance field reference: private NUnit.Framework.Interfaces.IPropertyBag <Properties>k__BackingField
+    NUnit::Framework::Interfaces::IPropertyBag*& dyn_$Properties$k__BackingField();
+    // Get instance field reference: private System.Object[] <OriginalArguments>k__BackingField
+    ::Array<::Il2CppObject*>*& dyn_$OriginalArguments$k__BackingField();
     // public NUnit.Framework.Interfaces.RunState get_RunState()
     // Offset: 0x229F9E4
     NUnit::Framework::Interfaces::RunState get_RunState();

@@ -46,22 +46,14 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: Product
     Product(::Il2CppString* Description_ = {}, ::Il2CppString* FormattedPrice_ = {}, ::Il2CppString* Name_ = {}, ::Il2CppString* Sku_ = {}) noexcept : Description{Description_}, FormattedPrice{FormattedPrice_}, Name{Name_}, Sku{Sku_} {}
-    // Get instance field: public readonly System.String Description
-    ::Il2CppString* _get_Description();
-    // Set instance field: public readonly System.String Description
-    void _set_Description(::Il2CppString* value);
-    // Get instance field: public readonly System.String FormattedPrice
-    ::Il2CppString* _get_FormattedPrice();
-    // Set instance field: public readonly System.String FormattedPrice
-    void _set_FormattedPrice(::Il2CppString* value);
-    // Get instance field: public readonly System.String Name
-    ::Il2CppString* _get_Name();
-    // Set instance field: public readonly System.String Name
-    void _set_Name(::Il2CppString* value);
-    // Get instance field: public readonly System.String Sku
-    ::Il2CppString* _get_Sku();
-    // Set instance field: public readonly System.String Sku
-    void _set_Sku(::Il2CppString* value);
+    // Get instance field reference: public readonly System.String Description
+    ::Il2CppString*& dyn_Description();
+    // Get instance field reference: public readonly System.String FormattedPrice
+    ::Il2CppString*& dyn_FormattedPrice();
+    // Get instance field reference: public readonly System.String Name
+    ::Il2CppString*& dyn_Name();
+    // Get instance field reference: public readonly System.String Sku
+    ::Il2CppString*& dyn_Sku();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14F25CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

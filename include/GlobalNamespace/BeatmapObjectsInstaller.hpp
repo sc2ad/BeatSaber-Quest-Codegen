@@ -82,34 +82,20 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::GameplayCoreSceneSetupData*) == 0x8);
     // Creating value type constructor for type: BeatmapObjectsInstaller
     BeatmapObjectsInstaller(GlobalNamespace::GameNoteController* normalBasicNotePrefab_ = {}, GlobalNamespace::GameNoteController* proModeNotePrefab_ = {}, GlobalNamespace::BombNoteController* bombNotePrefab_ = {}, GlobalNamespace::ObstacleController* obstaclePrefab_ = {}, GlobalNamespace::NoteLineConnectionController* noteLineConnectionControllerPrefab_ = {}, GlobalNamespace::BeatLine* beatLinePrefab_ = {}, GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData_ = {}) noexcept : normalBasicNotePrefab{normalBasicNotePrefab_}, proModeNotePrefab{proModeNotePrefab_}, bombNotePrefab{bombNotePrefab_}, obstaclePrefab{obstaclePrefab_}, noteLineConnectionControllerPrefab{noteLineConnectionControllerPrefab_}, beatLinePrefab{beatLinePrefab_}, sceneSetupData{sceneSetupData_} {}
-    // Get instance field: private GameNoteController _normalBasicNotePrefab
-    GlobalNamespace::GameNoteController* _get__normalBasicNotePrefab();
-    // Set instance field: private GameNoteController _normalBasicNotePrefab
-    void _set__normalBasicNotePrefab(GlobalNamespace::GameNoteController* value);
-    // Get instance field: private GameNoteController _proModeNotePrefab
-    GlobalNamespace::GameNoteController* _get__proModeNotePrefab();
-    // Set instance field: private GameNoteController _proModeNotePrefab
-    void _set__proModeNotePrefab(GlobalNamespace::GameNoteController* value);
-    // Get instance field: private BombNoteController _bombNotePrefab
-    GlobalNamespace::BombNoteController* _get__bombNotePrefab();
-    // Set instance field: private BombNoteController _bombNotePrefab
-    void _set__bombNotePrefab(GlobalNamespace::BombNoteController* value);
-    // Get instance field: private ObstacleController _obstaclePrefab
-    GlobalNamespace::ObstacleController* _get__obstaclePrefab();
-    // Set instance field: private ObstacleController _obstaclePrefab
-    void _set__obstaclePrefab(GlobalNamespace::ObstacleController* value);
-    // Get instance field: private NoteLineConnectionController _noteLineConnectionControllerPrefab
-    GlobalNamespace::NoteLineConnectionController* _get__noteLineConnectionControllerPrefab();
-    // Set instance field: private NoteLineConnectionController _noteLineConnectionControllerPrefab
-    void _set__noteLineConnectionControllerPrefab(GlobalNamespace::NoteLineConnectionController* value);
-    // Get instance field: private BeatLine _beatLinePrefab
-    GlobalNamespace::BeatLine* _get__beatLinePrefab();
-    // Set instance field: private BeatLine _beatLinePrefab
-    void _set__beatLinePrefab(GlobalNamespace::BeatLine* value);
-    // Get instance field: private readonly GameplayCoreSceneSetupData _sceneSetupData
-    GlobalNamespace::GameplayCoreSceneSetupData* _get__sceneSetupData();
-    // Set instance field: private readonly GameplayCoreSceneSetupData _sceneSetupData
-    void _set__sceneSetupData(GlobalNamespace::GameplayCoreSceneSetupData* value);
+    // Get instance field reference: private GameNoteController _normalBasicNotePrefab
+    GlobalNamespace::GameNoteController*& dyn__normalBasicNotePrefab();
+    // Get instance field reference: private GameNoteController _proModeNotePrefab
+    GlobalNamespace::GameNoteController*& dyn__proModeNotePrefab();
+    // Get instance field reference: private BombNoteController _bombNotePrefab
+    GlobalNamespace::BombNoteController*& dyn__bombNotePrefab();
+    // Get instance field reference: private ObstacleController _obstaclePrefab
+    GlobalNamespace::ObstacleController*& dyn__obstaclePrefab();
+    // Get instance field reference: private NoteLineConnectionController _noteLineConnectionControllerPrefab
+    GlobalNamespace::NoteLineConnectionController*& dyn__noteLineConnectionControllerPrefab();
+    // Get instance field reference: private BeatLine _beatLinePrefab
+    GlobalNamespace::BeatLine*& dyn__beatLinePrefab();
+    // Get instance field reference: private readonly GameplayCoreSceneSetupData _sceneSetupData
+    GlobalNamespace::GameplayCoreSceneSetupData*& dyn__sceneSetupData();
     // public System.Void .ctor()
     // Offset: 0x10CEC50
     // Implemented from: Zenject.MonoInstaller

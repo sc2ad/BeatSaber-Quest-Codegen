@@ -39,14 +39,10 @@ namespace NetEase::Docker {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private System.String <Track>k__BackingField
-    ::Il2CppString* _get_$Track$k__BackingField();
-    // Set instance field: private System.String <Track>k__BackingField
-    void _set_$Track$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.String <HighscoreType>k__BackingField
-    ::Il2CppString* _get_$HighscoreType$k__BackingField();
-    // Set instance field: private System.String <HighscoreType>k__BackingField
-    void _set_$HighscoreType$k__BackingField(::Il2CppString* value);
+    // Get instance field reference: private System.String <Track>k__BackingField
+    ::Il2CppString*& dyn_$Track$k__BackingField();
+    // Get instance field reference: private System.String <HighscoreType>k__BackingField
+    ::Il2CppString*& dyn_$HighscoreType$k__BackingField();
     // public System.String get_Track()
     // Offset: 0x2418C1C
     ::Il2CppString* get_Track();

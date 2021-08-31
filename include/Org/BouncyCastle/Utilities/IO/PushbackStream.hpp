@@ -34,10 +34,8 @@ namespace Org::BouncyCastle::Utilities::IO {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: PushbackStream
     PushbackStream(int buf_ = {}) noexcept : buf{buf_} {}
-    // Get instance field: private System.Int32 buf
-    int _get_buf();
-    // Set instance field: private System.Int32 buf
-    void _set_buf(int value);
+    // Get instance field reference: private System.Int32 buf
+    int& dyn_buf();
     // public System.Void Unread(System.Int32 b)
     // Offset: 0x1FEE2FC
     void Unread(int b);

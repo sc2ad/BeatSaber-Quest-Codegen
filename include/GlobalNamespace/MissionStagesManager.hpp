@@ -53,18 +53,12 @@ namespace GlobalNamespace {
     MissionStagesManager(GlobalNamespace::MissionStageLockView* missionStageLockView_ = {}, ::Array<GlobalNamespace::MissionStage*>* missionStages_ = {}, GlobalNamespace::MissionStage* firstLockedMissionStage_ = {}) noexcept : missionStageLockView{missionStageLockView_}, missionStages{missionStages_}, firstLockedMissionStage{firstLockedMissionStage_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private MissionStageLockView _missionStageLockView
-    GlobalNamespace::MissionStageLockView* _get__missionStageLockView();
-    // Set instance field: private MissionStageLockView _missionStageLockView
-    void _set__missionStageLockView(GlobalNamespace::MissionStageLockView* value);
-    // Get instance field: private MissionStage[] _missionStages
-    ::Array<GlobalNamespace::MissionStage*>* _get__missionStages();
-    // Set instance field: private MissionStage[] _missionStages
-    void _set__missionStages(::Array<GlobalNamespace::MissionStage*>* value);
-    // Get instance field: private MissionStage _firstLockedMissionStage
-    GlobalNamespace::MissionStage* _get__firstLockedMissionStage();
-    // Set instance field: private MissionStage _firstLockedMissionStage
-    void _set__firstLockedMissionStage(GlobalNamespace::MissionStage* value);
+    // Get instance field reference: private MissionStageLockView _missionStageLockView
+    GlobalNamespace::MissionStageLockView*& dyn__missionStageLockView();
+    // Get instance field reference: private MissionStage[] _missionStages
+    ::Array<GlobalNamespace::MissionStage*>*& dyn__missionStages();
+    // Get instance field reference: private MissionStage _firstLockedMissionStage
+    GlobalNamespace::MissionStage*& dyn__firstLockedMissionStage();
     // public MissionStage get_firstLockedMissionStage()
     // Offset: 0x11DA6D0
     GlobalNamespace::MissionStage* get_firstLockedMissionStage();

@@ -54,26 +54,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::OVRInput::RawNearTouch) == 0x4);
     // Creating value type constructor for type: VirtualNearTouchMap
     VirtualNearTouchMap(GlobalNamespace::OVRInput::RawNearTouch None_ = {}, GlobalNamespace::OVRInput::RawNearTouch PrimaryIndexTrigger_ = {}, GlobalNamespace::OVRInput::RawNearTouch PrimaryThumbButtons_ = {}, GlobalNamespace::OVRInput::RawNearTouch SecondaryIndexTrigger_ = {}, GlobalNamespace::OVRInput::RawNearTouch SecondaryThumbButtons_ = {}) noexcept : None{None_}, PrimaryIndexTrigger{PrimaryIndexTrigger_}, PrimaryThumbButtons{PrimaryThumbButtons_}, SecondaryIndexTrigger{SecondaryIndexTrigger_}, SecondaryThumbButtons{SecondaryThumbButtons_} {}
-    // Get instance field: public OVRInput/RawNearTouch None
-    GlobalNamespace::OVRInput::RawNearTouch _get_None();
-    // Set instance field: public OVRInput/RawNearTouch None
-    void _set_None(GlobalNamespace::OVRInput::RawNearTouch value);
-    // Get instance field: public OVRInput/RawNearTouch PrimaryIndexTrigger
-    GlobalNamespace::OVRInput::RawNearTouch _get_PrimaryIndexTrigger();
-    // Set instance field: public OVRInput/RawNearTouch PrimaryIndexTrigger
-    void _set_PrimaryIndexTrigger(GlobalNamespace::OVRInput::RawNearTouch value);
-    // Get instance field: public OVRInput/RawNearTouch PrimaryThumbButtons
-    GlobalNamespace::OVRInput::RawNearTouch _get_PrimaryThumbButtons();
-    // Set instance field: public OVRInput/RawNearTouch PrimaryThumbButtons
-    void _set_PrimaryThumbButtons(GlobalNamespace::OVRInput::RawNearTouch value);
-    // Get instance field: public OVRInput/RawNearTouch SecondaryIndexTrigger
-    GlobalNamespace::OVRInput::RawNearTouch _get_SecondaryIndexTrigger();
-    // Set instance field: public OVRInput/RawNearTouch SecondaryIndexTrigger
-    void _set_SecondaryIndexTrigger(GlobalNamespace::OVRInput::RawNearTouch value);
-    // Get instance field: public OVRInput/RawNearTouch SecondaryThumbButtons
-    GlobalNamespace::OVRInput::RawNearTouch _get_SecondaryThumbButtons();
-    // Set instance field: public OVRInput/RawNearTouch SecondaryThumbButtons
-    void _set_SecondaryThumbButtons(GlobalNamespace::OVRInput::RawNearTouch value);
+    // Get instance field reference: public OVRInput/RawNearTouch None
+    GlobalNamespace::OVRInput::RawNearTouch& dyn_None();
+    // Get instance field reference: public OVRInput/RawNearTouch PrimaryIndexTrigger
+    GlobalNamespace::OVRInput::RawNearTouch& dyn_PrimaryIndexTrigger();
+    // Get instance field reference: public OVRInput/RawNearTouch PrimaryThumbButtons
+    GlobalNamespace::OVRInput::RawNearTouch& dyn_PrimaryThumbButtons();
+    // Get instance field reference: public OVRInput/RawNearTouch SecondaryIndexTrigger
+    GlobalNamespace::OVRInput::RawNearTouch& dyn_SecondaryIndexTrigger();
+    // Get instance field reference: public OVRInput/RawNearTouch SecondaryThumbButtons
+    GlobalNamespace::OVRInput::RawNearTouch& dyn_SecondaryThumbButtons();
     // public OVRInput/RawNearTouch ToRawMask(OVRInput/NearTouch virtualMask)
     // Offset: 0x153BE48
     GlobalNamespace::OVRInput::RawNearTouch ToRawMask(GlobalNamespace::OVRInput::NearTouch virtualMask);

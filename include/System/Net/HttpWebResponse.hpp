@@ -132,54 +132,30 @@ namespace System::Net {
     HttpWebResponse(System::Uri* uri_ = {}, System::Net::WebHeaderCollection* webHeaders_ = {}, System::Net::CookieCollection* cookieCollection_ = {}, ::Il2CppString* method_ = {}, System::Version* version_ = {}, System::Net::HttpStatusCode statusCode_ = {}, ::Il2CppString* statusDescription_ = {}, int64_t contentLength_ = {}, ::Il2CppString* contentType_ = {}, System::Net::CookieContainer* cookie_container_ = {}, bool disposed_ = {}, System::IO::Stream* stream_ = {}) noexcept : uri{uri_}, webHeaders{webHeaders_}, cookieCollection{cookieCollection_}, method{method_}, version{version_}, statusCode{statusCode_}, statusDescription{statusDescription_}, contentLength{contentLength_}, contentType{contentType_}, cookie_container{cookie_container_}, disposed{disposed_}, stream{stream_} {}
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
-    // Get instance field: private System.Uri uri
-    System::Uri* _get_uri();
-    // Set instance field: private System.Uri uri
-    void _set_uri(System::Uri* value);
-    // Get instance field: private System.Net.WebHeaderCollection webHeaders
-    System::Net::WebHeaderCollection* _get_webHeaders();
-    // Set instance field: private System.Net.WebHeaderCollection webHeaders
-    void _set_webHeaders(System::Net::WebHeaderCollection* value);
-    // Get instance field: private System.Net.CookieCollection cookieCollection
-    System::Net::CookieCollection* _get_cookieCollection();
-    // Set instance field: private System.Net.CookieCollection cookieCollection
-    void _set_cookieCollection(System::Net::CookieCollection* value);
-    // Get instance field: private System.String method
-    ::Il2CppString* _get_method();
-    // Set instance field: private System.String method
-    void _set_method(::Il2CppString* value);
-    // Get instance field: private System.Version version
-    System::Version* _get_version();
-    // Set instance field: private System.Version version
-    void _set_version(System::Version* value);
-    // Get instance field: private System.Net.HttpStatusCode statusCode
-    System::Net::HttpStatusCode _get_statusCode();
-    // Set instance field: private System.Net.HttpStatusCode statusCode
-    void _set_statusCode(System::Net::HttpStatusCode value);
-    // Get instance field: private System.String statusDescription
-    ::Il2CppString* _get_statusDescription();
-    // Set instance field: private System.String statusDescription
-    void _set_statusDescription(::Il2CppString* value);
-    // Get instance field: private System.Int64 contentLength
-    int64_t _get_contentLength();
-    // Set instance field: private System.Int64 contentLength
-    void _set_contentLength(int64_t value);
-    // Get instance field: private System.String contentType
-    ::Il2CppString* _get_contentType();
-    // Set instance field: private System.String contentType
-    void _set_contentType(::Il2CppString* value);
-    // Get instance field: private System.Net.CookieContainer cookie_container
-    System::Net::CookieContainer* _get_cookie_container();
-    // Set instance field: private System.Net.CookieContainer cookie_container
-    void _set_cookie_container(System::Net::CookieContainer* value);
-    // Get instance field: private System.Boolean disposed
-    bool _get_disposed();
-    // Set instance field: private System.Boolean disposed
-    void _set_disposed(bool value);
-    // Get instance field: private System.IO.Stream stream
-    System::IO::Stream* _get_stream();
-    // Set instance field: private System.IO.Stream stream
-    void _set_stream(System::IO::Stream* value);
+    // Get instance field reference: private System.Uri uri
+    System::Uri*& dyn_uri();
+    // Get instance field reference: private System.Net.WebHeaderCollection webHeaders
+    System::Net::WebHeaderCollection*& dyn_webHeaders();
+    // Get instance field reference: private System.Net.CookieCollection cookieCollection
+    System::Net::CookieCollection*& dyn_cookieCollection();
+    // Get instance field reference: private System.String method
+    ::Il2CppString*& dyn_method();
+    // Get instance field reference: private System.Version version
+    System::Version*& dyn_version();
+    // Get instance field reference: private System.Net.HttpStatusCode statusCode
+    System::Net::HttpStatusCode& dyn_statusCode();
+    // Get instance field reference: private System.String statusDescription
+    ::Il2CppString*& dyn_statusDescription();
+    // Get instance field reference: private System.Int64 contentLength
+    int64_t& dyn_contentLength();
+    // Get instance field reference: private System.String contentType
+    ::Il2CppString*& dyn_contentType();
+    // Get instance field reference: private System.Net.CookieContainer cookie_container
+    System::Net::CookieContainer*& dyn_cookie_container();
+    // Get instance field reference: private System.Boolean disposed
+    bool& dyn_disposed();
+    // Get instance field reference: private System.IO.Stream stream
+    System::IO::Stream*& dyn_stream();
     // public System.Net.HttpStatusCode get_StatusCode()
     // Offset: 0x167AAA4
     System::Net::HttpStatusCode get_StatusCode();

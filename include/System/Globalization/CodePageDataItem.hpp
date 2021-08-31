@@ -48,22 +48,14 @@ namespace System::Globalization {
     static ::Array<::Il2CppChar>* _get_sep();
     // Set static field: static private readonly System.Char[] sep
     static void _set_sep(::Array<::Il2CppChar>* value);
-    // Get instance field: System.Int32 m_dataIndex
-    int _get_m_dataIndex();
-    // Set instance field: System.Int32 m_dataIndex
-    void _set_m_dataIndex(int value);
-    // Get instance field: System.Int32 m_uiFamilyCodePage
-    int _get_m_uiFamilyCodePage();
-    // Set instance field: System.Int32 m_uiFamilyCodePage
-    void _set_m_uiFamilyCodePage(int value);
-    // Get instance field: System.String m_webName
-    ::Il2CppString* _get_m_webName();
-    // Set instance field: System.String m_webName
-    void _set_m_webName(::Il2CppString* value);
-    // Get instance field: System.UInt32 m_flags
-    uint _get_m_flags();
-    // Set instance field: System.UInt32 m_flags
-    void _set_m_flags(uint value);
+    // Get instance field reference: System.Int32 m_dataIndex
+    int& dyn_m_dataIndex();
+    // Get instance field reference: System.Int32 m_uiFamilyCodePage
+    int& dyn_m_uiFamilyCodePage();
+    // Get instance field reference: System.String m_webName
+    ::Il2CppString*& dyn_m_webName();
+    // Get instance field reference: System.UInt32 m_flags
+    uint& dyn_m_flags();
     // public System.String get_WebName()
     // Offset: 0x1806B14
     ::Il2CppString* get_WebName();

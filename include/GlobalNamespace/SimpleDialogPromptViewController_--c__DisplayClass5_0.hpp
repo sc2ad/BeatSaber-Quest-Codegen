@@ -37,14 +37,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::SimpleDialogPromptViewController*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass5_0
     $$c__DisplayClass5_0(int buttonNum_ = {}, GlobalNamespace::SimpleDialogPromptViewController* $$4__this_ = {}) noexcept : buttonNum{buttonNum_}, $$4__this{$$4__this_} {}
-    // Get instance field: public System.Int32 buttonNum
-    int _get_buttonNum();
-    // Set instance field: public System.Int32 buttonNum
-    void _set_buttonNum(int value);
-    // Get instance field: public SimpleDialogPromptViewController <>4__this
-    GlobalNamespace::SimpleDialogPromptViewController* _get_$$4__this();
-    // Set instance field: public SimpleDialogPromptViewController <>4__this
-    void _set_$$4__this(GlobalNamespace::SimpleDialogPromptViewController* value);
+    // Get instance field reference: public System.Int32 buttonNum
+    int& dyn_buttonNum();
+    // Get instance field reference: public SimpleDialogPromptViewController <>4__this
+    GlobalNamespace::SimpleDialogPromptViewController*& dyn_$$4__this();
     // System.Void <DidActivate>b__0()
     // Offset: 0x107A4D4
     void $DidActivate$b__0();

@@ -68,10 +68,8 @@ namespace UnityEngine {
     static UnityEngine::RotationOrder _get_OrderZYX();
     // Set static field: static public UnityEngine.RotationOrder OrderZYX
     static void _set_OrderZYX(UnityEngine::RotationOrder value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.RotationOrder
   #pragma pack(pop)
   static check_size<sizeof(RotationOrder), 0 + sizeof(int)> __UnityEngine_RotationOrderSizeCheck;

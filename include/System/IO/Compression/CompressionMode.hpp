@@ -44,10 +44,8 @@ namespace System::IO::Compression {
     static System::IO::Compression::CompressionMode _get_Compress();
     // Set static field: static public System.IO.Compression.CompressionMode Compress
     static void _set_Compress(System::IO::Compression::CompressionMode value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.IO.Compression.CompressionMode
   #pragma pack(pop)
   static check_size<sizeof(CompressionMode), 0 + sizeof(int)> __System_IO_Compression_CompressionModeSizeCheck;

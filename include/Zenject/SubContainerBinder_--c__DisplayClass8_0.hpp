@@ -50,10 +50,8 @@ namespace Zenject {
     constexpr operator System::Func_2<Zenject::InjectContext*, Zenject::DiContainer*>*() const noexcept {
       return subContainerGetter;
     }
-    // Get instance field: public System.Func`2<Zenject.InjectContext,Zenject.DiContainer> subContainerGetter
-    System::Func_2<Zenject::InjectContext*, Zenject::DiContainer*>* _get_subContainerGetter();
-    // Set instance field: public System.Func`2<Zenject.InjectContext,Zenject.DiContainer> subContainerGetter
-    void _set_subContainerGetter(System::Func_2<Zenject::InjectContext*, Zenject::DiContainer*>* value);
+    // Get instance field reference: public System.Func`2<Zenject.InjectContext,Zenject.DiContainer> subContainerGetter
+    System::Func_2<Zenject::InjectContext*, Zenject::DiContainer*>*& dyn_subContainerGetter();
     // Zenject.ISubContainerCreator <ByInstanceGetter>b__0(Zenject.DiContainer _)
     // Offset: 0x171FA5C
     Zenject::ISubContainerCreator* $ByInstanceGetter$b__0(Zenject::DiContainer* _);

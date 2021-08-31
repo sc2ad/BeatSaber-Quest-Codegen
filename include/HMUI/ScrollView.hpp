@@ -120,10 +120,8 @@ namespace HMUI {
       static HMUI::ScrollView::ScrollType _get_FocusItems();
       // Set static field: static public HMUI.ScrollView/HMUI.ScrollType FocusItems
       static void _set_FocusItems(HMUI::ScrollView::ScrollType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // HMUI.ScrollView/HMUI.ScrollType
     #pragma pack(pop)
     static check_size<sizeof(ScrollView::ScrollType), 0 + sizeof(int)> __HMUI_ScrollView_ScrollTypeSizeCheck;
@@ -180,10 +178,8 @@ namespace HMUI {
       static HMUI::ScrollView::ScrollDirection _get_Right();
       // Set static field: static public HMUI.ScrollView/HMUI.ScrollDirection Right
       static void _set_Right(HMUI::ScrollView::ScrollDirection value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // HMUI.ScrollView/HMUI.ScrollDirection
     #pragma pack(pop)
     static check_size<sizeof(ScrollView::ScrollDirection), 0 + sizeof(int)> __HMUI_ScrollView_ScrollDirectionSizeCheck;
@@ -222,10 +218,8 @@ namespace HMUI {
       static HMUI::ScrollView::ScrollViewDirection _get_Horizontal();
       // Set static field: static public HMUI.ScrollView/HMUI.ScrollViewDirection Horizontal
       static void _set_Horizontal(HMUI::ScrollView::ScrollViewDirection value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // HMUI.ScrollView/HMUI.ScrollViewDirection
     #pragma pack(pop)
     static check_size<sizeof(ScrollView::ScrollViewDirection), 0 + sizeof(int)> __HMUI_ScrollView_ScrollViewDirectionSizeCheck;
@@ -378,90 +372,48 @@ namespace HMUI {
     ScrollView(UnityEngine::RectTransform* viewport_ = {}, UnityEngine::RectTransform* contentRectTransform_ = {}, HMUI::ScrollView::ScrollViewDirection scrollViewDirection_ = {}, UnityEngine::UI::Button* pageUpButton_ = {}, UnityEngine::UI::Button* pageDownButton_ = {}, HMUI::VerticalScrollIndicator* verticalScrollIndicator_ = {}, float smooth_ = {}, float joystickScrollSpeed_ = {}, float joystickQuickSnapMaxTime_ = {}, HMUI::ScrollView::ScrollType scrollType_ = {}, float fixedCellSize_ = {}, float scrollItemRelativeThresholdPosition_ = {}, float pageStepNormalizedSize_ = {}, GlobalNamespace::IVRPlatformHelper* platformHelper_ = {}, System::Action_1<float>* scrollPositionChangedEvent_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}, float destinationPos_ = {}, ::Array<float>* scrollFocusPositions_ = {}, HMUI::EventSystemListener* eventSystemListener_ = {}, HMUI::ScrollView::ScrollDirection lastJoystickScrollDirection_ = {}, float joystickScrollStartTime_ = {}) noexcept : viewport{viewport_}, contentRectTransform{contentRectTransform_}, scrollViewDirection{scrollViewDirection_}, pageUpButton{pageUpButton_}, pageDownButton{pageDownButton_}, verticalScrollIndicator{verticalScrollIndicator_}, smooth{smooth_}, joystickScrollSpeed{joystickScrollSpeed_}, joystickQuickSnapMaxTime{joystickQuickSnapMaxTime_}, scrollType{scrollType_}, fixedCellSize{fixedCellSize_}, scrollItemRelativeThresholdPosition{scrollItemRelativeThresholdPosition_}, pageStepNormalizedSize{pageStepNormalizedSize_}, platformHelper{platformHelper_}, scrollPositionChangedEvent{scrollPositionChangedEvent_}, buttonBinder{buttonBinder_}, destinationPos{destinationPos_}, scrollFocusPositions{scrollFocusPositions_}, eventSystemListener{eventSystemListener_}, lastJoystickScrollDirection{lastJoystickScrollDirection_}, joystickScrollStartTime{joystickScrollStartTime_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.RectTransform _viewport
-    UnityEngine::RectTransform* _get__viewport();
-    // Set instance field: private UnityEngine.RectTransform _viewport
-    void _set__viewport(UnityEngine::RectTransform* value);
-    // Get instance field: private UnityEngine.RectTransform _contentRectTransform
-    UnityEngine::RectTransform* _get__contentRectTransform();
-    // Set instance field: private UnityEngine.RectTransform _contentRectTransform
-    void _set__contentRectTransform(UnityEngine::RectTransform* value);
-    // Get instance field: private HMUI.ScrollView/HMUI.ScrollViewDirection _scrollViewDirection
-    HMUI::ScrollView::ScrollViewDirection _get__scrollViewDirection();
-    // Set instance field: private HMUI.ScrollView/HMUI.ScrollViewDirection _scrollViewDirection
-    void _set__scrollViewDirection(HMUI::ScrollView::ScrollViewDirection value);
-    // Get instance field: private UnityEngine.UI.Button _pageUpButton
-    UnityEngine::UI::Button* _get__pageUpButton();
-    // Set instance field: private UnityEngine.UI.Button _pageUpButton
-    void _set__pageUpButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _pageDownButton
-    UnityEngine::UI::Button* _get__pageDownButton();
-    // Set instance field: private UnityEngine.UI.Button _pageDownButton
-    void _set__pageDownButton(UnityEngine::UI::Button* value);
-    // Get instance field: private HMUI.VerticalScrollIndicator _verticalScrollIndicator
-    HMUI::VerticalScrollIndicator* _get__verticalScrollIndicator();
-    // Set instance field: private HMUI.VerticalScrollIndicator _verticalScrollIndicator
-    void _set__verticalScrollIndicator(HMUI::VerticalScrollIndicator* value);
-    // Get instance field: private System.Single _smooth
-    float _get__smooth();
-    // Set instance field: private System.Single _smooth
-    void _set__smooth(float value);
-    // Get instance field: private System.Single _joystickScrollSpeed
-    float _get__joystickScrollSpeed();
-    // Set instance field: private System.Single _joystickScrollSpeed
-    void _set__joystickScrollSpeed(float value);
-    // Get instance field: private System.Single _joystickQuickSnapMaxTime
-    float _get__joystickQuickSnapMaxTime();
-    // Set instance field: private System.Single _joystickQuickSnapMaxTime
-    void _set__joystickQuickSnapMaxTime(float value);
-    // Get instance field: public HMUI.ScrollView/HMUI.ScrollType _scrollType
-    HMUI::ScrollView::ScrollType _get__scrollType();
-    // Set instance field: public HMUI.ScrollView/HMUI.ScrollType _scrollType
-    void _set__scrollType(HMUI::ScrollView::ScrollType value);
-    // Get instance field: public System.Single _fixedCellSize
-    float _get__fixedCellSize();
-    // Set instance field: public System.Single _fixedCellSize
-    void _set__fixedCellSize(float value);
-    // Get instance field: public System.Single _scrollItemRelativeThresholdPosition
-    float _get__scrollItemRelativeThresholdPosition();
-    // Set instance field: public System.Single _scrollItemRelativeThresholdPosition
-    void _set__scrollItemRelativeThresholdPosition(float value);
-    // Get instance field: public System.Single _pageStepNormalizedSize
-    float _get__pageStepNormalizedSize();
-    // Set instance field: public System.Single _pageStepNormalizedSize
-    void _set__pageStepNormalizedSize(float value);
-    // Get instance field: private readonly IVRPlatformHelper _platformHelper
-    GlobalNamespace::IVRPlatformHelper* _get__platformHelper();
-    // Set instance field: private readonly IVRPlatformHelper _platformHelper
-    void _set__platformHelper(GlobalNamespace::IVRPlatformHelper* value);
-    // Get instance field: private System.Action`1<System.Single> scrollPositionChangedEvent
-    System::Action_1<float>* _get_scrollPositionChangedEvent();
-    // Set instance field: private System.Action`1<System.Single> scrollPositionChangedEvent
-    void _set_scrollPositionChangedEvent(System::Action_1<float>* value);
-    // Get instance field: private HMUI.ButtonBinder _buttonBinder
-    HMUI::ButtonBinder* _get__buttonBinder();
-    // Set instance field: private HMUI.ButtonBinder _buttonBinder
-    void _set__buttonBinder(HMUI::ButtonBinder* value);
-    // Get instance field: private System.Single _destinationPos
-    float _get__destinationPos();
-    // Set instance field: private System.Single _destinationPos
-    void _set__destinationPos(float value);
-    // Get instance field: private System.Single[] _scrollFocusPositions
-    ::Array<float>* _get__scrollFocusPositions();
-    // Set instance field: private System.Single[] _scrollFocusPositions
-    void _set__scrollFocusPositions(::Array<float>* value);
-    // Get instance field: private HMUI.EventSystemListener _eventSystemListener
-    HMUI::EventSystemListener* _get__eventSystemListener();
-    // Set instance field: private HMUI.EventSystemListener _eventSystemListener
-    void _set__eventSystemListener(HMUI::EventSystemListener* value);
-    // Get instance field: private HMUI.ScrollView/HMUI.ScrollDirection _lastJoystickScrollDirection
-    HMUI::ScrollView::ScrollDirection _get__lastJoystickScrollDirection();
-    // Set instance field: private HMUI.ScrollView/HMUI.ScrollDirection _lastJoystickScrollDirection
-    void _set__lastJoystickScrollDirection(HMUI::ScrollView::ScrollDirection value);
-    // Get instance field: private System.Single _joystickScrollStartTime
-    float _get__joystickScrollStartTime();
-    // Set instance field: private System.Single _joystickScrollStartTime
-    void _set__joystickScrollStartTime(float value);
+    // Get instance field reference: private UnityEngine.RectTransform _viewport
+    UnityEngine::RectTransform*& dyn__viewport();
+    // Get instance field reference: private UnityEngine.RectTransform _contentRectTransform
+    UnityEngine::RectTransform*& dyn__contentRectTransform();
+    // Get instance field reference: private HMUI.ScrollView/HMUI.ScrollViewDirection _scrollViewDirection
+    HMUI::ScrollView::ScrollViewDirection& dyn__scrollViewDirection();
+    // Get instance field reference: private UnityEngine.UI.Button _pageUpButton
+    UnityEngine::UI::Button*& dyn__pageUpButton();
+    // Get instance field reference: private UnityEngine.UI.Button _pageDownButton
+    UnityEngine::UI::Button*& dyn__pageDownButton();
+    // Get instance field reference: private HMUI.VerticalScrollIndicator _verticalScrollIndicator
+    HMUI::VerticalScrollIndicator*& dyn__verticalScrollIndicator();
+    // Get instance field reference: private System.Single _smooth
+    float& dyn__smooth();
+    // Get instance field reference: private System.Single _joystickScrollSpeed
+    float& dyn__joystickScrollSpeed();
+    // Get instance field reference: private System.Single _joystickQuickSnapMaxTime
+    float& dyn__joystickQuickSnapMaxTime();
+    // Get instance field reference: public HMUI.ScrollView/HMUI.ScrollType _scrollType
+    HMUI::ScrollView::ScrollType& dyn__scrollType();
+    // Get instance field reference: public System.Single _fixedCellSize
+    float& dyn__fixedCellSize();
+    // Get instance field reference: public System.Single _scrollItemRelativeThresholdPosition
+    float& dyn__scrollItemRelativeThresholdPosition();
+    // Get instance field reference: public System.Single _pageStepNormalizedSize
+    float& dyn__pageStepNormalizedSize();
+    // Get instance field reference: private readonly IVRPlatformHelper _platformHelper
+    GlobalNamespace::IVRPlatformHelper*& dyn__platformHelper();
+    // Get instance field reference: private System.Action`1<System.Single> scrollPositionChangedEvent
+    System::Action_1<float>*& dyn_scrollPositionChangedEvent();
+    // Get instance field reference: private HMUI.ButtonBinder _buttonBinder
+    HMUI::ButtonBinder*& dyn__buttonBinder();
+    // Get instance field reference: private System.Single _destinationPos
+    float& dyn__destinationPos();
+    // Get instance field reference: private System.Single[] _scrollFocusPositions
+    ::Array<float>*& dyn__scrollFocusPositions();
+    // Get instance field reference: private HMUI.EventSystemListener _eventSystemListener
+    HMUI::EventSystemListener*& dyn__eventSystemListener();
+    // Get instance field reference: private HMUI.ScrollView/HMUI.ScrollDirection _lastJoystickScrollDirection
+    HMUI::ScrollView::ScrollDirection& dyn__lastJoystickScrollDirection();
+    // Get instance field reference: private System.Single _joystickScrollStartTime
+    float& dyn__joystickScrollStartTime();
     // public UnityEngine.RectTransform get_viewportTransform()
     // Offset: 0x12FBE00
     UnityEngine::RectTransform* get_viewportTransform();

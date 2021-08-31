@@ -155,10 +155,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::SteamVR_TrackedObject::EIndex _get_Device15();
       // Set static field: static public SteamVR_TrackedObject/EIndex Device15
       static void _set_Device15(GlobalNamespace::SteamVR_TrackedObject::EIndex value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // SteamVR_TrackedObject/EIndex
     #pragma pack(pop)
     static check_size<sizeof(SteamVR_TrackedObject::EIndex), 0 + sizeof(int)> __GlobalNamespace_SteamVR_TrackedObject_EIndexSizeCheck;
@@ -196,22 +194,14 @@ namespace GlobalNamespace {
     SteamVR_TrackedObject(GlobalNamespace::SteamVR_TrackedObject::EIndex index_ = {}, UnityEngine::Transform* origin_ = {}, bool isValid_ = {}, GlobalNamespace::SteamVR_Events::Action* newPosesAction_ = {}) noexcept : index{index_}, origin{origin_}, isValid{isValid_}, newPosesAction{newPosesAction_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public SteamVR_TrackedObject/EIndex index
-    GlobalNamespace::SteamVR_TrackedObject::EIndex _get_index();
-    // Set instance field: public SteamVR_TrackedObject/EIndex index
-    void _set_index(GlobalNamespace::SteamVR_TrackedObject::EIndex value);
-    // Get instance field: public UnityEngine.Transform origin
-    UnityEngine::Transform* _get_origin();
-    // Set instance field: public UnityEngine.Transform origin
-    void _set_origin(UnityEngine::Transform* value);
-    // Get instance field: private System.Boolean <isValid>k__BackingField
-    bool _get_$isValid$k__BackingField();
-    // Set instance field: private System.Boolean <isValid>k__BackingField
-    void _set_$isValid$k__BackingField(bool value);
-    // Get instance field: private SteamVR_Events/Action newPosesAction
-    GlobalNamespace::SteamVR_Events::Action* _get_newPosesAction();
-    // Set instance field: private SteamVR_Events/Action newPosesAction
-    void _set_newPosesAction(GlobalNamespace::SteamVR_Events::Action* value);
+    // Get instance field reference: public SteamVR_TrackedObject/EIndex index
+    GlobalNamespace::SteamVR_TrackedObject::EIndex& dyn_index();
+    // Get instance field reference: public UnityEngine.Transform origin
+    UnityEngine::Transform*& dyn_origin();
+    // Get instance field reference: private System.Boolean <isValid>k__BackingField
+    bool& dyn_$isValid$k__BackingField();
+    // Get instance field reference: private SteamVR_Events/Action newPosesAction
+    GlobalNamespace::SteamVR_Events::Action*& dyn_newPosesAction();
     // public System.Boolean get_isValid()
     // Offset: 0x16FE114
     bool get_isValid();

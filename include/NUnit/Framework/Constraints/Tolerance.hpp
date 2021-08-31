@@ -36,14 +36,10 @@ namespace NUnit::Framework::Constraints {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     // Creating value type constructor for type: Tolerance
     Tolerance(NUnit::Framework::Constraints::ToleranceMode mode_ = {}, ::Il2CppObject* amount_ = {}) noexcept : mode{mode_}, amount{amount_} {}
-    // Get instance field: private readonly NUnit.Framework.Constraints.ToleranceMode mode
-    NUnit::Framework::Constraints::ToleranceMode _get_mode();
-    // Set instance field: private readonly NUnit.Framework.Constraints.ToleranceMode mode
-    void _set_mode(NUnit::Framework::Constraints::ToleranceMode value);
-    // Get instance field: private readonly System.Object amount
-    ::Il2CppObject* _get_amount();
-    // Set instance field: private readonly System.Object amount
-    void _set_amount(::Il2CppObject* value);
+    // Get instance field reference: private readonly NUnit.Framework.Constraints.ToleranceMode mode
+    NUnit::Framework::Constraints::ToleranceMode& dyn_mode();
+    // Get instance field reference: private readonly System.Object amount
+    ::Il2CppObject*& dyn_amount();
     // static public NUnit.Framework.Constraints.Tolerance get_Default()
     // Offset: 0x1763EAC
     static NUnit::Framework::Constraints::Tolerance* get_Default();

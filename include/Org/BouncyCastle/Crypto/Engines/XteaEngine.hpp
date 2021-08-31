@@ -63,26 +63,16 @@ namespace Org::BouncyCastle::Crypto::Engines {
     operator Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBlockCipher*>(this);
     }
-    // Get instance field: private System.UInt32[] _S
-    ::Array<uint>* _get__S();
-    // Set instance field: private System.UInt32[] _S
-    void _set__S(::Array<uint>* value);
-    // Get instance field: private System.UInt32[] _sum0
-    ::Array<uint>* _get__sum0();
-    // Set instance field: private System.UInt32[] _sum0
-    void _set__sum0(::Array<uint>* value);
-    // Get instance field: private System.UInt32[] _sum1
-    ::Array<uint>* _get__sum1();
-    // Set instance field: private System.UInt32[] _sum1
-    void _set__sum1(::Array<uint>* value);
-    // Get instance field: private System.Boolean _initialised
-    bool _get__initialised();
-    // Set instance field: private System.Boolean _initialised
-    void _set__initialised(bool value);
-    // Get instance field: private System.Boolean _forEncryption
-    bool _get__forEncryption();
-    // Set instance field: private System.Boolean _forEncryption
-    void _set__forEncryption(bool value);
+    // Get instance field reference: private System.UInt32[] _S
+    ::Array<uint>*& dyn__S();
+    // Get instance field reference: private System.UInt32[] _sum0
+    ::Array<uint>*& dyn__sum0();
+    // Get instance field reference: private System.UInt32[] _sum1
+    ::Array<uint>*& dyn__sum1();
+    // Get instance field reference: private System.Boolean _initialised
+    bool& dyn__initialised();
+    // Get instance field reference: private System.Boolean _forEncryption
+    bool& dyn__forEncryption();
     // public System.String get_AlgorithmName()
     // Offset: 0x190726C
     ::Il2CppString* get_AlgorithmName();

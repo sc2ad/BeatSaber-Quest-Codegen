@@ -87,10 +87,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVRSkeletonRenderer::ConfidenceBehavior _get_ToggleRenderer();
       // Set static field: static public OVRSkeletonRenderer/ConfidenceBehavior ToggleRenderer
       static void _set_ToggleRenderer(GlobalNamespace::OVRSkeletonRenderer::ConfidenceBehavior value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // OVRSkeletonRenderer/ConfidenceBehavior
     #pragma pack(pop)
     static check_size<sizeof(OVRSkeletonRenderer::ConfidenceBehavior), 0 + sizeof(int)> __GlobalNamespace_OVRSkeletonRenderer_ConfidenceBehaviorSizeCheck;
@@ -129,10 +127,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVRSkeletonRenderer::SystemGestureBehavior _get_SwapMaterial();
       // Set static field: static public OVRSkeletonRenderer/SystemGestureBehavior SwapMaterial
       static void _set_SwapMaterial(GlobalNamespace::OVRSkeletonRenderer::SystemGestureBehavior value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // OVRSkeletonRenderer/SystemGestureBehavior
     #pragma pack(pop)
     static check_size<sizeof(OVRSkeletonRenderer::SystemGestureBehavior), 0 + sizeof(int)> __GlobalNamespace_OVRSkeletonRenderer_SystemGestureBehaviorSizeCheck;
@@ -267,82 +263,44 @@ namespace GlobalNamespace {
     static UnityEngine::Quaternion _get__capsuleRotationOffset();
     // Set static field: static private readonly UnityEngine.Quaternion _capsuleRotationOffset
     static void _set__capsuleRotationOffset(UnityEngine::Quaternion value);
-    // Get instance field: private OVRSkeletonRenderer/IOVRSkeletonRendererDataProvider _dataProvider
-    GlobalNamespace::OVRSkeletonRenderer::IOVRSkeletonRendererDataProvider* _get__dataProvider();
-    // Set instance field: private OVRSkeletonRenderer/IOVRSkeletonRendererDataProvider _dataProvider
-    void _set__dataProvider(GlobalNamespace::OVRSkeletonRenderer::IOVRSkeletonRendererDataProvider* value);
-    // Get instance field: private OVRSkeletonRenderer/ConfidenceBehavior _confidenceBehavior
-    GlobalNamespace::OVRSkeletonRenderer::ConfidenceBehavior _get__confidenceBehavior();
-    // Set instance field: private OVRSkeletonRenderer/ConfidenceBehavior _confidenceBehavior
-    void _set__confidenceBehavior(GlobalNamespace::OVRSkeletonRenderer::ConfidenceBehavior value);
-    // Get instance field: private OVRSkeletonRenderer/SystemGestureBehavior _systemGestureBehavior
-    GlobalNamespace::OVRSkeletonRenderer::SystemGestureBehavior _get__systemGestureBehavior();
-    // Set instance field: private OVRSkeletonRenderer/SystemGestureBehavior _systemGestureBehavior
-    void _set__systemGestureBehavior(GlobalNamespace::OVRSkeletonRenderer::SystemGestureBehavior value);
-    // Get instance field: private System.Boolean _renderPhysicsCapsules
-    bool _get__renderPhysicsCapsules();
-    // Set instance field: private System.Boolean _renderPhysicsCapsules
-    void _set__renderPhysicsCapsules(bool value);
-    // Get instance field: private UnityEngine.Material _skeletonMaterial
-    UnityEngine::Material* _get__skeletonMaterial();
-    // Set instance field: private UnityEngine.Material _skeletonMaterial
-    void _set__skeletonMaterial(UnityEngine::Material* value);
-    // Get instance field: private UnityEngine.Material _skeletonDefaultMaterial
-    UnityEngine::Material* _get__skeletonDefaultMaterial();
-    // Set instance field: private UnityEngine.Material _skeletonDefaultMaterial
-    void _set__skeletonDefaultMaterial(UnityEngine::Material* value);
-    // Get instance field: private UnityEngine.Material _capsuleMaterial
-    UnityEngine::Material* _get__capsuleMaterial();
-    // Set instance field: private UnityEngine.Material _capsuleMaterial
-    void _set__capsuleMaterial(UnityEngine::Material* value);
-    // Get instance field: private UnityEngine.Material _capsuleDefaultMaterial
-    UnityEngine::Material* _get__capsuleDefaultMaterial();
-    // Set instance field: private UnityEngine.Material _capsuleDefaultMaterial
-    void _set__capsuleDefaultMaterial(UnityEngine::Material* value);
-    // Get instance field: private UnityEngine.Material _systemGestureMaterial
-    UnityEngine::Material* _get__systemGestureMaterial();
-    // Set instance field: private UnityEngine.Material _systemGestureMaterial
-    void _set__systemGestureMaterial(UnityEngine::Material* value);
-    // Get instance field: private UnityEngine.Material _systemGestureDefaultMaterial
-    UnityEngine::Material* _get__systemGestureDefaultMaterial();
-    // Set instance field: private UnityEngine.Material _systemGestureDefaultMaterial
-    void _set__systemGestureDefaultMaterial(UnityEngine::Material* value);
-    // Get instance field: private System.Collections.Generic.List`1<OVRSkeletonRenderer/BoneVisualization> _boneVisualizations
-    System::Collections::Generic::List_1<GlobalNamespace::OVRSkeletonRenderer::BoneVisualization*>* _get__boneVisualizations();
-    // Set instance field: private System.Collections.Generic.List`1<OVRSkeletonRenderer/BoneVisualization> _boneVisualizations
-    void _set__boneVisualizations(System::Collections::Generic::List_1<GlobalNamespace::OVRSkeletonRenderer::BoneVisualization*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<OVRSkeletonRenderer/CapsuleVisualization> _capsuleVisualizations
-    System::Collections::Generic::List_1<GlobalNamespace::OVRSkeletonRenderer::CapsuleVisualization*>* _get__capsuleVisualizations();
-    // Set instance field: private System.Collections.Generic.List`1<OVRSkeletonRenderer/CapsuleVisualization> _capsuleVisualizations
-    void _set__capsuleVisualizations(System::Collections::Generic::List_1<GlobalNamespace::OVRSkeletonRenderer::CapsuleVisualization*>* value);
-    // Get instance field: private OVRSkeleton _ovrSkeleton
-    GlobalNamespace::OVRSkeleton* _get__ovrSkeleton();
-    // Set instance field: private OVRSkeleton _ovrSkeleton
-    void _set__ovrSkeleton(GlobalNamespace::OVRSkeleton* value);
-    // Get instance field: private UnityEngine.GameObject _skeletonGO
-    UnityEngine::GameObject* _get__skeletonGO();
-    // Set instance field: private UnityEngine.GameObject _skeletonGO
-    void _set__skeletonGO(UnityEngine::GameObject* value);
-    // Get instance field: private System.Single _scale
-    float _get__scale();
-    // Set instance field: private System.Single _scale
-    void _set__scale(float value);
-    // Get instance field: private System.Boolean <IsInitialized>k__BackingField
-    bool _get_$IsInitialized$k__BackingField();
-    // Set instance field: private System.Boolean <IsInitialized>k__BackingField
-    void _set_$IsInitialized$k__BackingField(bool value);
-    // Get instance field: private System.Boolean <IsDataValid>k__BackingField
-    bool _get_$IsDataValid$k__BackingField();
-    // Set instance field: private System.Boolean <IsDataValid>k__BackingField
-    void _set_$IsDataValid$k__BackingField(bool value);
-    // Get instance field: private System.Boolean <IsDataHighConfidence>k__BackingField
-    bool _get_$IsDataHighConfidence$k__BackingField();
-    // Set instance field: private System.Boolean <IsDataHighConfidence>k__BackingField
-    void _set_$IsDataHighConfidence$k__BackingField(bool value);
-    // Get instance field: private System.Boolean <ShouldUseSystemGestureMaterial>k__BackingField
-    bool _get_$ShouldUseSystemGestureMaterial$k__BackingField();
-    // Set instance field: private System.Boolean <ShouldUseSystemGestureMaterial>k__BackingField
-    void _set_$ShouldUseSystemGestureMaterial$k__BackingField(bool value);
+    // Get instance field reference: private OVRSkeletonRenderer/IOVRSkeletonRendererDataProvider _dataProvider
+    GlobalNamespace::OVRSkeletonRenderer::IOVRSkeletonRendererDataProvider*& dyn__dataProvider();
+    // Get instance field reference: private OVRSkeletonRenderer/ConfidenceBehavior _confidenceBehavior
+    GlobalNamespace::OVRSkeletonRenderer::ConfidenceBehavior& dyn__confidenceBehavior();
+    // Get instance field reference: private OVRSkeletonRenderer/SystemGestureBehavior _systemGestureBehavior
+    GlobalNamespace::OVRSkeletonRenderer::SystemGestureBehavior& dyn__systemGestureBehavior();
+    // Get instance field reference: private System.Boolean _renderPhysicsCapsules
+    bool& dyn__renderPhysicsCapsules();
+    // Get instance field reference: private UnityEngine.Material _skeletonMaterial
+    UnityEngine::Material*& dyn__skeletonMaterial();
+    // Get instance field reference: private UnityEngine.Material _skeletonDefaultMaterial
+    UnityEngine::Material*& dyn__skeletonDefaultMaterial();
+    // Get instance field reference: private UnityEngine.Material _capsuleMaterial
+    UnityEngine::Material*& dyn__capsuleMaterial();
+    // Get instance field reference: private UnityEngine.Material _capsuleDefaultMaterial
+    UnityEngine::Material*& dyn__capsuleDefaultMaterial();
+    // Get instance field reference: private UnityEngine.Material _systemGestureMaterial
+    UnityEngine::Material*& dyn__systemGestureMaterial();
+    // Get instance field reference: private UnityEngine.Material _systemGestureDefaultMaterial
+    UnityEngine::Material*& dyn__systemGestureDefaultMaterial();
+    // Get instance field reference: private System.Collections.Generic.List`1<OVRSkeletonRenderer/BoneVisualization> _boneVisualizations
+    System::Collections::Generic::List_1<GlobalNamespace::OVRSkeletonRenderer::BoneVisualization*>*& dyn__boneVisualizations();
+    // Get instance field reference: private System.Collections.Generic.List`1<OVRSkeletonRenderer/CapsuleVisualization> _capsuleVisualizations
+    System::Collections::Generic::List_1<GlobalNamespace::OVRSkeletonRenderer::CapsuleVisualization*>*& dyn__capsuleVisualizations();
+    // Get instance field reference: private OVRSkeleton _ovrSkeleton
+    GlobalNamespace::OVRSkeleton*& dyn__ovrSkeleton();
+    // Get instance field reference: private UnityEngine.GameObject _skeletonGO
+    UnityEngine::GameObject*& dyn__skeletonGO();
+    // Get instance field reference: private System.Single _scale
+    float& dyn__scale();
+    // Get instance field reference: private System.Boolean <IsInitialized>k__BackingField
+    bool& dyn_$IsInitialized$k__BackingField();
+    // Get instance field reference: private System.Boolean <IsDataValid>k__BackingField
+    bool& dyn_$IsDataValid$k__BackingField();
+    // Get instance field reference: private System.Boolean <IsDataHighConfidence>k__BackingField
+    bool& dyn_$IsDataHighConfidence$k__BackingField();
+    // Get instance field reference: private System.Boolean <ShouldUseSystemGestureMaterial>k__BackingField
+    bool& dyn_$ShouldUseSystemGestureMaterial$k__BackingField();
     // public System.Boolean get_IsInitialized()
     // Offset: 0x1F47640
     bool get_IsInitialized();

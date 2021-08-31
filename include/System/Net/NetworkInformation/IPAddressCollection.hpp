@@ -61,10 +61,8 @@ namespace System::Net::NetworkInformation {
     constexpr operator System::Collections::ObjectModel::Collection_1<System::Net::IPAddress*>*() const noexcept {
       return addresses;
     }
-    // Get instance field: private System.Collections.ObjectModel.Collection`1<System.Net.IPAddress> addresses
-    System::Collections::ObjectModel::Collection_1<System::Net::IPAddress*>* _get_addresses();
-    // Set instance field: private System.Collections.ObjectModel.Collection`1<System.Net.IPAddress> addresses
-    void _set_addresses(System::Collections::ObjectModel::Collection_1<System::Net::IPAddress*>* value);
+    // Get instance field reference: private System.Collections.ObjectModel.Collection`1<System.Net.IPAddress> addresses
+    System::Collections::ObjectModel::Collection_1<System::Net::IPAddress*>*& dyn_addresses();
     // public System.Int32 get_Count()
     // Offset: 0x14977B0
     int get_Count();

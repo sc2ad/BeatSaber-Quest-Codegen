@@ -34,10 +34,8 @@ namespace OVR::OpenVR {
     constexpr operator OVR::OpenVR::HmdMatrix34_t() const noexcept {
       return mDeviceToAbsoluteTracking;
     }
-    // Get instance field: public OVR.OpenVR.HmdMatrix34_t mDeviceToAbsoluteTracking
-    OVR::OpenVR::HmdMatrix34_t _get_mDeviceToAbsoluteTracking();
-    // Set instance field: public OVR.OpenVR.HmdMatrix34_t mDeviceToAbsoluteTracking
-    void _set_mDeviceToAbsoluteTracking(OVR::OpenVR::HmdMatrix34_t value);
+    // Get instance field reference: public OVR.OpenVR.HmdMatrix34_t mDeviceToAbsoluteTracking
+    OVR::OpenVR::HmdMatrix34_t& dyn_mDeviceToAbsoluteTracking();
   }; // OVR.OpenVR.VRTextureWithPose_t
   #pragma pack(pop)
   static check_size<sizeof(VRTextureWithPose_t), 0 + sizeof(OVR::OpenVR::HmdMatrix34_t)> __OVR_OpenVR_VRTextureWithPose_tSizeCheck;

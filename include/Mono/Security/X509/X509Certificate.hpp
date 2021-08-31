@@ -193,94 +193,50 @@ namespace Mono::Security::X509 {
     static ::Il2CppString* _get_encoding_error();
     // Set static field: static private System.String encoding_error
     static void _set_encoding_error(::Il2CppString* value);
-    // Get instance field: private Mono.Security.ASN1 decoder
-    Mono::Security::ASN1* _get_decoder();
-    // Set instance field: private Mono.Security.ASN1 decoder
-    void _set_decoder(Mono::Security::ASN1* value);
-    // Get instance field: private System.Byte[] m_encodedcert
-    ::Array<uint8_t>* _get_m_encodedcert();
-    // Set instance field: private System.Byte[] m_encodedcert
-    void _set_m_encodedcert(::Array<uint8_t>* value);
-    // Get instance field: private System.DateTime m_from
-    System::DateTime _get_m_from();
-    // Set instance field: private System.DateTime m_from
-    void _set_m_from(System::DateTime value);
-    // Get instance field: private System.DateTime m_until
-    System::DateTime _get_m_until();
-    // Set instance field: private System.DateTime m_until
-    void _set_m_until(System::DateTime value);
-    // Get instance field: private Mono.Security.ASN1 issuer
-    Mono::Security::ASN1* _get_issuer();
-    // Set instance field: private Mono.Security.ASN1 issuer
-    void _set_issuer(Mono::Security::ASN1* value);
-    // Get instance field: private System.String m_issuername
-    ::Il2CppString* _get_m_issuername();
-    // Set instance field: private System.String m_issuername
-    void _set_m_issuername(::Il2CppString* value);
-    // Get instance field: private System.String m_keyalgo
-    ::Il2CppString* _get_m_keyalgo();
-    // Set instance field: private System.String m_keyalgo
-    void _set_m_keyalgo(::Il2CppString* value);
-    // Get instance field: private System.Byte[] m_keyalgoparams
-    ::Array<uint8_t>* _get_m_keyalgoparams();
-    // Set instance field: private System.Byte[] m_keyalgoparams
-    void _set_m_keyalgoparams(::Array<uint8_t>* value);
-    // Get instance field: private Mono.Security.ASN1 subject
-    Mono::Security::ASN1* _get_subject();
-    // Set instance field: private Mono.Security.ASN1 subject
-    void _set_subject(Mono::Security::ASN1* value);
-    // Get instance field: private System.String m_subject
-    ::Il2CppString* _get_m_subject();
-    // Set instance field: private System.String m_subject
-    void _set_m_subject(::Il2CppString* value);
-    // Get instance field: private System.Byte[] m_publickey
-    ::Array<uint8_t>* _get_m_publickey();
-    // Set instance field: private System.Byte[] m_publickey
-    void _set_m_publickey(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] signature
-    ::Array<uint8_t>* _get_signature();
-    // Set instance field: private System.Byte[] signature
-    void _set_signature(::Array<uint8_t>* value);
-    // Get instance field: private System.String m_signaturealgo
-    ::Il2CppString* _get_m_signaturealgo();
-    // Set instance field: private System.String m_signaturealgo
-    void _set_m_signaturealgo(::Il2CppString* value);
-    // Get instance field: private System.Byte[] m_signaturealgoparams
-    ::Array<uint8_t>* _get_m_signaturealgoparams();
-    // Set instance field: private System.Byte[] m_signaturealgoparams
-    void _set_m_signaturealgoparams(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] certhash
-    ::Array<uint8_t>* _get_certhash();
-    // Set instance field: private System.Byte[] certhash
-    void _set_certhash(::Array<uint8_t>* value);
-    // Get instance field: private System.Security.Cryptography.RSA _rsa
-    System::Security::Cryptography::RSA* _get__rsa();
-    // Set instance field: private System.Security.Cryptography.RSA _rsa
-    void _set__rsa(System::Security::Cryptography::RSA* value);
-    // Get instance field: private System.Security.Cryptography.DSA _dsa
-    System::Security::Cryptography::DSA* _get__dsa();
-    // Set instance field: private System.Security.Cryptography.DSA _dsa
-    void _set__dsa(System::Security::Cryptography::DSA* value);
-    // Get instance field: private System.Int32 version
-    int _get_version();
-    // Set instance field: private System.Int32 version
-    void _set_version(int value);
-    // Get instance field: private System.Byte[] serialnumber
-    ::Array<uint8_t>* _get_serialnumber();
-    // Set instance field: private System.Byte[] serialnumber
-    void _set_serialnumber(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] issuerUniqueID
-    ::Array<uint8_t>* _get_issuerUniqueID();
-    // Set instance field: private System.Byte[] issuerUniqueID
-    void _set_issuerUniqueID(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] subjectUniqueID
-    ::Array<uint8_t>* _get_subjectUniqueID();
-    // Set instance field: private System.Byte[] subjectUniqueID
-    void _set_subjectUniqueID(::Array<uint8_t>* value);
-    // Get instance field: private Mono.Security.X509.X509ExtensionCollection extensions
-    Mono::Security::X509::X509ExtensionCollection* _get_extensions();
-    // Set instance field: private Mono.Security.X509.X509ExtensionCollection extensions
-    void _set_extensions(Mono::Security::X509::X509ExtensionCollection* value);
+    // Get instance field reference: private Mono.Security.ASN1 decoder
+    Mono::Security::ASN1*& dyn_decoder();
+    // Get instance field reference: private System.Byte[] m_encodedcert
+    ::Array<uint8_t>*& dyn_m_encodedcert();
+    // Get instance field reference: private System.DateTime m_from
+    System::DateTime& dyn_m_from();
+    // Get instance field reference: private System.DateTime m_until
+    System::DateTime& dyn_m_until();
+    // Get instance field reference: private Mono.Security.ASN1 issuer
+    Mono::Security::ASN1*& dyn_issuer();
+    // Get instance field reference: private System.String m_issuername
+    ::Il2CppString*& dyn_m_issuername();
+    // Get instance field reference: private System.String m_keyalgo
+    ::Il2CppString*& dyn_m_keyalgo();
+    // Get instance field reference: private System.Byte[] m_keyalgoparams
+    ::Array<uint8_t>*& dyn_m_keyalgoparams();
+    // Get instance field reference: private Mono.Security.ASN1 subject
+    Mono::Security::ASN1*& dyn_subject();
+    // Get instance field reference: private System.String m_subject
+    ::Il2CppString*& dyn_m_subject();
+    // Get instance field reference: private System.Byte[] m_publickey
+    ::Array<uint8_t>*& dyn_m_publickey();
+    // Get instance field reference: private System.Byte[] signature
+    ::Array<uint8_t>*& dyn_signature();
+    // Get instance field reference: private System.String m_signaturealgo
+    ::Il2CppString*& dyn_m_signaturealgo();
+    // Get instance field reference: private System.Byte[] m_signaturealgoparams
+    ::Array<uint8_t>*& dyn_m_signaturealgoparams();
+    // Get instance field reference: private System.Byte[] certhash
+    ::Array<uint8_t>*& dyn_certhash();
+    // Get instance field reference: private System.Security.Cryptography.RSA _rsa
+    System::Security::Cryptography::RSA*& dyn__rsa();
+    // Get instance field reference: private System.Security.Cryptography.DSA _dsa
+    System::Security::Cryptography::DSA*& dyn__dsa();
+    // Get instance field reference: private System.Int32 version
+    int& dyn_version();
+    // Get instance field reference: private System.Byte[] serialnumber
+    ::Array<uint8_t>*& dyn_serialnumber();
+    // Get instance field reference: private System.Byte[] issuerUniqueID
+    ::Array<uint8_t>*& dyn_issuerUniqueID();
+    // Get instance field reference: private System.Byte[] subjectUniqueID
+    ::Array<uint8_t>*& dyn_subjectUniqueID();
+    // Get instance field reference: private Mono.Security.X509.X509ExtensionCollection extensions
+    Mono::Security::X509::X509ExtensionCollection*& dyn_extensions();
     // public System.Security.Cryptography.DSA get_DSA()
     // Offset: 0x23D1F80
     System::Security::Cryptography::DSA* get_DSA();

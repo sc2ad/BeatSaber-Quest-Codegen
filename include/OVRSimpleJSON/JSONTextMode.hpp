@@ -44,10 +44,8 @@ namespace OVRSimpleJSON {
     static OVRSimpleJSON::JSONTextMode _get_Indent();
     // Set static field: static public OVRSimpleJSON.JSONTextMode Indent
     static void _set_Indent(OVRSimpleJSON::JSONTextMode value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // OVRSimpleJSON.JSONTextMode
   #pragma pack(pop)
   static check_size<sizeof(JSONTextMode), 0 + sizeof(int)> __OVRSimpleJSON_JSONTextModeSizeCheck;

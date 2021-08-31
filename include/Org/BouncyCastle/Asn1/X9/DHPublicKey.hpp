@@ -41,10 +41,8 @@ namespace Org::BouncyCastle::Asn1::X9 {
     constexpr operator Org::BouncyCastle::Asn1::DerInteger*() const noexcept {
       return y;
     }
-    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerInteger y
-    Org::BouncyCastle::Asn1::DerInteger* _get_y();
-    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerInteger y
-    void _set_y(Org::BouncyCastle::Asn1::DerInteger* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerInteger y
+    Org::BouncyCastle::Asn1::DerInteger*& dyn_y();
     // public Org.BouncyCastle.Asn1.DerInteger get_Y()
     // Offset: 0x1A038F0
     Org::BouncyCastle::Asn1::DerInteger* get_Y();

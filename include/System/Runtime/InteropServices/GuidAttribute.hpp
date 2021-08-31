@@ -34,10 +34,8 @@ namespace System::Runtime::InteropServices {
     constexpr operator ::Il2CppString*() const noexcept {
       return val;
     }
-    // Get instance field: System.String _val
-    ::Il2CppString* _get__val();
-    // Set instance field: System.String _val
-    void _set__val(::Il2CppString* value);
+    // Get instance field reference: System.String _val
+    ::Il2CppString*& dyn__val();
     // public System.String get_Value()
     // Offset: 0x1488AA8
     ::Il2CppString* get_Value();

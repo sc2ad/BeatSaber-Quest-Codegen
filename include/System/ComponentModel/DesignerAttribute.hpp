@@ -42,14 +42,10 @@ namespace System::ComponentModel {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: DesignerAttribute
     DesignerAttribute(::Il2CppString* designerTypeName_ = {}, ::Il2CppString* designerBaseTypeName_ = {}) noexcept : designerTypeName{designerTypeName_}, designerBaseTypeName{designerBaseTypeName_} {}
-    // Get instance field: private readonly System.String designerTypeName
-    ::Il2CppString* _get_designerTypeName();
-    // Set instance field: private readonly System.String designerTypeName
-    void _set_designerTypeName(::Il2CppString* value);
-    // Get instance field: private readonly System.String designerBaseTypeName
-    ::Il2CppString* _get_designerBaseTypeName();
-    // Set instance field: private readonly System.String designerBaseTypeName
-    void _set_designerBaseTypeName(::Il2CppString* value);
+    // Get instance field reference: private readonly System.String designerTypeName
+    ::Il2CppString*& dyn_designerTypeName();
+    // Get instance field reference: private readonly System.String designerBaseTypeName
+    ::Il2CppString*& dyn_designerBaseTypeName();
     // public System.Void .ctor(System.String designerTypeName)
     // Offset: 0x18AEDAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

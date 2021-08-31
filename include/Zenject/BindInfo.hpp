@@ -178,78 +178,42 @@ namespace Zenject {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
-    // Get instance field: public System.Boolean MarkAsCreationBinding
-    bool _get_MarkAsCreationBinding();
-    // Set instance field: public System.Boolean MarkAsCreationBinding
-    void _set_MarkAsCreationBinding(bool value);
-    // Get instance field: public System.Boolean MarkAsUniqueSingleton
-    bool _get_MarkAsUniqueSingleton();
-    // Set instance field: public System.Boolean MarkAsUniqueSingleton
-    void _set_MarkAsUniqueSingleton(bool value);
-    // Get instance field: public System.Object ConcreteIdentifier
-    ::Il2CppObject* _get_ConcreteIdentifier();
-    // Set instance field: public System.Object ConcreteIdentifier
-    void _set_ConcreteIdentifier(::Il2CppObject* value);
-    // Get instance field: public System.Boolean SaveProvider
-    bool _get_SaveProvider();
-    // Set instance field: public System.Boolean SaveProvider
-    void _set_SaveProvider(bool value);
-    // Get instance field: public System.Boolean OnlyBindIfNotBound
-    bool _get_OnlyBindIfNotBound();
-    // Set instance field: public System.Boolean OnlyBindIfNotBound
-    void _set_OnlyBindIfNotBound(bool value);
-    // Get instance field: public System.Boolean RequireExplicitScope
-    bool _get_RequireExplicitScope();
-    // Set instance field: public System.Boolean RequireExplicitScope
-    void _set_RequireExplicitScope(bool value);
-    // Get instance field: public System.Object Identifier
-    ::Il2CppObject* _get_Identifier();
-    // Set instance field: public System.Object Identifier
-    void _set_Identifier(::Il2CppObject* value);
-    // Get instance field: public readonly System.Collections.Generic.List`1<System.Type> ContractTypes
-    System::Collections::Generic::List_1<System::Type*>* _get_ContractTypes();
-    // Set instance field: public readonly System.Collections.Generic.List`1<System.Type> ContractTypes
-    void _set_ContractTypes(System::Collections::Generic::List_1<System::Type*>* value);
-    // Get instance field: public Zenject.BindingInheritanceMethods BindingInheritanceMethod
-    Zenject::BindingInheritanceMethods _get_BindingInheritanceMethod();
-    // Set instance field: public Zenject.BindingInheritanceMethods BindingInheritanceMethod
-    void _set_BindingInheritanceMethod(Zenject::BindingInheritanceMethods value);
-    // Get instance field: public Zenject.InvalidBindResponses InvalidBindResponse
-    Zenject::InvalidBindResponses _get_InvalidBindResponse();
-    // Set instance field: public Zenject.InvalidBindResponses InvalidBindResponse
-    void _set_InvalidBindResponse(Zenject::InvalidBindResponses value);
-    // Get instance field: public System.Boolean NonLazy
-    bool _get_NonLazy();
-    // Set instance field: public System.Boolean NonLazy
-    void _set_NonLazy(bool value);
-    // Get instance field: public Zenject.BindingCondition Condition
-    Zenject::BindingCondition* _get_Condition();
-    // Set instance field: public Zenject.BindingCondition Condition
-    void _set_Condition(Zenject::BindingCondition* value);
-    // Get instance field: public Zenject.ToChoices ToChoice
-    Zenject::ToChoices _get_ToChoice();
-    // Set instance field: public Zenject.ToChoices ToChoice
-    void _set_ToChoice(Zenject::ToChoices value);
-    // Get instance field: public System.String ContextInfo
-    ::Il2CppString* _get_ContextInfo();
-    // Set instance field: public System.String ContextInfo
-    void _set_ContextInfo(::Il2CppString* value);
-    // Get instance field: public readonly System.Collections.Generic.List`1<System.Type> ToTypes
-    System::Collections::Generic::List_1<System::Type*>* _get_ToTypes();
-    // Set instance field: public readonly System.Collections.Generic.List`1<System.Type> ToTypes
-    void _set_ToTypes(System::Collections::Generic::List_1<System::Type*>* value);
-    // Get instance field: public Zenject.ScopeTypes Scope
-    Zenject::ScopeTypes _get_Scope();
-    // Set instance field: public Zenject.ScopeTypes Scope
-    void _set_Scope(Zenject::ScopeTypes value);
-    // Get instance field: public readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> Arguments
-    System::Collections::Generic::List_1<Zenject::TypeValuePair>* _get_Arguments();
-    // Set instance field: public readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> Arguments
-    void _set_Arguments(System::Collections::Generic::List_1<Zenject::TypeValuePair>* value);
-    // Get instance field: public System.Action`2<Zenject.InjectContext,System.Object> InstantiatedCallback
-    System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* _get_InstantiatedCallback();
-    // Set instance field: public System.Action`2<Zenject.InjectContext,System.Object> InstantiatedCallback
-    void _set_InstantiatedCallback(System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* value);
+    // Get instance field reference: public System.Boolean MarkAsCreationBinding
+    bool& dyn_MarkAsCreationBinding();
+    // Get instance field reference: public System.Boolean MarkAsUniqueSingleton
+    bool& dyn_MarkAsUniqueSingleton();
+    // Get instance field reference: public System.Object ConcreteIdentifier
+    ::Il2CppObject*& dyn_ConcreteIdentifier();
+    // Get instance field reference: public System.Boolean SaveProvider
+    bool& dyn_SaveProvider();
+    // Get instance field reference: public System.Boolean OnlyBindIfNotBound
+    bool& dyn_OnlyBindIfNotBound();
+    // Get instance field reference: public System.Boolean RequireExplicitScope
+    bool& dyn_RequireExplicitScope();
+    // Get instance field reference: public System.Object Identifier
+    ::Il2CppObject*& dyn_Identifier();
+    // Get instance field reference: public readonly System.Collections.Generic.List`1<System.Type> ContractTypes
+    System::Collections::Generic::List_1<System::Type*>*& dyn_ContractTypes();
+    // Get instance field reference: public Zenject.BindingInheritanceMethods BindingInheritanceMethod
+    Zenject::BindingInheritanceMethods& dyn_BindingInheritanceMethod();
+    // Get instance field reference: public Zenject.InvalidBindResponses InvalidBindResponse
+    Zenject::InvalidBindResponses& dyn_InvalidBindResponse();
+    // Get instance field reference: public System.Boolean NonLazy
+    bool& dyn_NonLazy();
+    // Get instance field reference: public Zenject.BindingCondition Condition
+    Zenject::BindingCondition*& dyn_Condition();
+    // Get instance field reference: public Zenject.ToChoices ToChoice
+    Zenject::ToChoices& dyn_ToChoice();
+    // Get instance field reference: public System.String ContextInfo
+    ::Il2CppString*& dyn_ContextInfo();
+    // Get instance field reference: public readonly System.Collections.Generic.List`1<System.Type> ToTypes
+    System::Collections::Generic::List_1<System::Type*>*& dyn_ToTypes();
+    // Get instance field reference: public Zenject.ScopeTypes Scope
+    Zenject::ScopeTypes& dyn_Scope();
+    // Get instance field reference: public readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> Arguments
+    System::Collections::Generic::List_1<Zenject::TypeValuePair>*& dyn_Arguments();
+    // Get instance field reference: public System.Action`2<Zenject.InjectContext,System.Object> InstantiatedCallback
+    System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*& dyn_InstantiatedCallback();
     // public System.Void Dispose()
     // Offset: 0x13DB25C
     void Dispose();

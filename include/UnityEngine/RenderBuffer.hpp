@@ -40,14 +40,10 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: System.Int32 m_RenderTextureInstanceID
-    int _get_m_RenderTextureInstanceID();
-    // Set instance field: System.Int32 m_RenderTextureInstanceID
-    void _set_m_RenderTextureInstanceID(int value);
-    // Get instance field: System.IntPtr m_BufferPtr
-    System::IntPtr _get_m_BufferPtr();
-    // Set instance field: System.IntPtr m_BufferPtr
-    void _set_m_BufferPtr(System::IntPtr value);
+    // Get instance field reference: System.Int32 m_RenderTextureInstanceID
+    int& dyn_m_RenderTextureInstanceID();
+    // Get instance field reference: System.IntPtr m_BufferPtr
+    System::IntPtr& dyn_m_BufferPtr();
   }; // UnityEngine.RenderBuffer
   #pragma pack(pop)
   static check_size<sizeof(RenderBuffer), 8 + sizeof(System::IntPtr)> __UnityEngine_RenderBufferSizeCheck;

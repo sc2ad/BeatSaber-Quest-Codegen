@@ -67,30 +67,18 @@ namespace System::Security::Cryptography {
     static_assert(sizeof(System::Security::Cryptography::DESTransform*) == 0x8);
     // Creating value type constructor for type: TripleDESTransform
     TripleDESTransform(System::Security::Cryptography::DESTransform* E1_ = {}, System::Security::Cryptography::DESTransform* D2_ = {}, System::Security::Cryptography::DESTransform* E3_ = {}, System::Security::Cryptography::DESTransform* D1_ = {}, System::Security::Cryptography::DESTransform* E2_ = {}, System::Security::Cryptography::DESTransform* D3_ = {}) noexcept : E1{E1_}, D2{D2_}, E3{E3_}, D1{D1_}, E2{E2_}, D3{D3_} {}
-    // Get instance field: private System.Security.Cryptography.DESTransform E1
-    System::Security::Cryptography::DESTransform* _get_E1();
-    // Set instance field: private System.Security.Cryptography.DESTransform E1
-    void _set_E1(System::Security::Cryptography::DESTransform* value);
-    // Get instance field: private System.Security.Cryptography.DESTransform D2
-    System::Security::Cryptography::DESTransform* _get_D2();
-    // Set instance field: private System.Security.Cryptography.DESTransform D2
-    void _set_D2(System::Security::Cryptography::DESTransform* value);
-    // Get instance field: private System.Security.Cryptography.DESTransform E3
-    System::Security::Cryptography::DESTransform* _get_E3();
-    // Set instance field: private System.Security.Cryptography.DESTransform E3
-    void _set_E3(System::Security::Cryptography::DESTransform* value);
-    // Get instance field: private System.Security.Cryptography.DESTransform D1
-    System::Security::Cryptography::DESTransform* _get_D1();
-    // Set instance field: private System.Security.Cryptography.DESTransform D1
-    void _set_D1(System::Security::Cryptography::DESTransform* value);
-    // Get instance field: private System.Security.Cryptography.DESTransform E2
-    System::Security::Cryptography::DESTransform* _get_E2();
-    // Set instance field: private System.Security.Cryptography.DESTransform E2
-    void _set_E2(System::Security::Cryptography::DESTransform* value);
-    // Get instance field: private System.Security.Cryptography.DESTransform D3
-    System::Security::Cryptography::DESTransform* _get_D3();
-    // Set instance field: private System.Security.Cryptography.DESTransform D3
-    void _set_D3(System::Security::Cryptography::DESTransform* value);
+    // Get instance field reference: private System.Security.Cryptography.DESTransform E1
+    System::Security::Cryptography::DESTransform*& dyn_E1();
+    // Get instance field reference: private System.Security.Cryptography.DESTransform D2
+    System::Security::Cryptography::DESTransform*& dyn_D2();
+    // Get instance field reference: private System.Security.Cryptography.DESTransform E3
+    System::Security::Cryptography::DESTransform*& dyn_E3();
+    // Get instance field reference: private System.Security.Cryptography.DESTransform D1
+    System::Security::Cryptography::DESTransform*& dyn_D1();
+    // Get instance field reference: private System.Security.Cryptography.DESTransform E2
+    System::Security::Cryptography::DESTransform*& dyn_E2();
+    // Get instance field reference: private System.Security.Cryptography.DESTransform D3
+    System::Security::Cryptography::DESTransform*& dyn_D3();
     // public System.Void .ctor(System.Security.Cryptography.TripleDES algo, System.Boolean encryption, System.Byte[] key, System.Byte[] iv)
     // Offset: 0x1B477B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

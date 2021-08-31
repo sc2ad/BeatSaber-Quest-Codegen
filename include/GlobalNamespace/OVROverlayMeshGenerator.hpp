@@ -190,82 +190,44 @@ namespace GlobalNamespace {
     static ::Array<UnityEngine::Vector3>* _get_UpVector();
     // Set static field: static private readonly UnityEngine.Vector3[] UpVector
     static void _set_UpVector(::Array<UnityEngine::Vector3>* value);
-    // Get instance field: private UnityEngine.Mesh _Mesh
-    UnityEngine::Mesh* _get__Mesh();
-    // Set instance field: private UnityEngine.Mesh _Mesh
-    void _set__Mesh(UnityEngine::Mesh* value);
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.Vector3> _Verts
-    System::Collections::Generic::List_1<UnityEngine::Vector3>* _get__Verts();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Vector3> _Verts
-    void _set__Verts(System::Collections::Generic::List_1<UnityEngine::Vector3>* value);
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.Vector2> _UV
-    System::Collections::Generic::List_1<UnityEngine::Vector2>* _get__UV();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Vector2> _UV
-    void _set__UV(System::Collections::Generic::List_1<UnityEngine::Vector2>* value);
-    // Get instance field: private System.Collections.Generic.List`1<System.Int32> _Tris
-    System::Collections::Generic::List_1<int>* _get__Tris();
-    // Set instance field: private System.Collections.Generic.List`1<System.Int32> _Tris
-    void _set__Tris(System::Collections::Generic::List_1<int>* value);
-    // Get instance field: private OVROverlay _Overlay
-    GlobalNamespace::OVROverlay* _get__Overlay();
-    // Set instance field: private OVROverlay _Overlay
-    void _set__Overlay(GlobalNamespace::OVROverlay* value);
-    // Get instance field: private UnityEngine.MeshFilter _MeshFilter
-    UnityEngine::MeshFilter* _get__MeshFilter();
-    // Set instance field: private UnityEngine.MeshFilter _MeshFilter
-    void _set__MeshFilter(UnityEngine::MeshFilter* value);
-    // Get instance field: private UnityEngine.MeshCollider _MeshCollider
-    UnityEngine::MeshCollider* _get__MeshCollider();
-    // Set instance field: private UnityEngine.MeshCollider _MeshCollider
-    void _set__MeshCollider(UnityEngine::MeshCollider* value);
-    // Get instance field: private UnityEngine.MeshRenderer _MeshRenderer
-    UnityEngine::MeshRenderer* _get__MeshRenderer();
-    // Set instance field: private UnityEngine.MeshRenderer _MeshRenderer
-    void _set__MeshRenderer(UnityEngine::MeshRenderer* value);
-    // Get instance field: private UnityEngine.Transform _CameraRoot
-    UnityEngine::Transform* _get__CameraRoot();
-    // Set instance field: private UnityEngine.Transform _CameraRoot
-    void _set__CameraRoot(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.Transform _Transform
-    UnityEngine::Transform* _get__Transform();
-    // Set instance field: private UnityEngine.Transform _Transform
-    void _set__Transform(UnityEngine::Transform* value);
-    // Get instance field: private OVROverlay/OverlayShape _LastShape
-    GlobalNamespace::OVROverlay::OverlayShape _get__LastShape();
-    // Set instance field: private OVROverlay/OverlayShape _LastShape
-    void _set__LastShape(GlobalNamespace::OVROverlay::OverlayShape value);
-    // Get instance field: private UnityEngine.Vector3 _LastPosition
-    UnityEngine::Vector3 _get__LastPosition();
-    // Set instance field: private UnityEngine.Vector3 _LastPosition
-    void _set__LastPosition(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Quaternion _LastRotation
-    UnityEngine::Quaternion _get__LastRotation();
-    // Set instance field: private UnityEngine.Quaternion _LastRotation
-    void _set__LastRotation(UnityEngine::Quaternion value);
-    // Get instance field: private UnityEngine.Vector3 _LastScale
-    UnityEngine::Vector3 _get__LastScale();
-    // Set instance field: private UnityEngine.Vector3 _LastScale
-    void _set__LastScale(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Rect _LastDestRectLeft
-    UnityEngine::Rect _get__LastDestRectLeft();
-    // Set instance field: private UnityEngine.Rect _LastDestRectLeft
-    void _set__LastDestRectLeft(UnityEngine::Rect value);
-    // Get instance field: private UnityEngine.Rect _LastDestRectRight
-    UnityEngine::Rect _get__LastDestRectRight();
-    // Set instance field: private UnityEngine.Rect _LastDestRectRight
-    void _set__LastDestRectRight(UnityEngine::Rect value);
-    // Get instance field: private UnityEngine.Rect _LastSrcRectLeft
-    UnityEngine::Rect _get__LastSrcRectLeft();
-    // Set instance field: private UnityEngine.Rect _LastSrcRectLeft
-    void _set__LastSrcRectLeft(UnityEngine::Rect value);
-    // Get instance field: private UnityEngine.Texture _LastTexture
-    UnityEngine::Texture* _get__LastTexture();
-    // Set instance field: private UnityEngine.Texture _LastTexture
-    void _set__LastTexture(UnityEngine::Texture* value);
-    // Get instance field: private System.Boolean _Awake
-    bool _get__Awake();
-    // Set instance field: private System.Boolean _Awake
-    void _set__Awake(bool value);
+    // Get instance field reference: private UnityEngine.Mesh _Mesh
+    UnityEngine::Mesh*& dyn__Mesh();
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Vector3> _Verts
+    System::Collections::Generic::List_1<UnityEngine::Vector3>*& dyn__Verts();
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Vector2> _UV
+    System::Collections::Generic::List_1<UnityEngine::Vector2>*& dyn__UV();
+    // Get instance field reference: private System.Collections.Generic.List`1<System.Int32> _Tris
+    System::Collections::Generic::List_1<int>*& dyn__Tris();
+    // Get instance field reference: private OVROverlay _Overlay
+    GlobalNamespace::OVROverlay*& dyn__Overlay();
+    // Get instance field reference: private UnityEngine.MeshFilter _MeshFilter
+    UnityEngine::MeshFilter*& dyn__MeshFilter();
+    // Get instance field reference: private UnityEngine.MeshCollider _MeshCollider
+    UnityEngine::MeshCollider*& dyn__MeshCollider();
+    // Get instance field reference: private UnityEngine.MeshRenderer _MeshRenderer
+    UnityEngine::MeshRenderer*& dyn__MeshRenderer();
+    // Get instance field reference: private UnityEngine.Transform _CameraRoot
+    UnityEngine::Transform*& dyn__CameraRoot();
+    // Get instance field reference: private UnityEngine.Transform _Transform
+    UnityEngine::Transform*& dyn__Transform();
+    // Get instance field reference: private OVROverlay/OverlayShape _LastShape
+    GlobalNamespace::OVROverlay::OverlayShape& dyn__LastShape();
+    // Get instance field reference: private UnityEngine.Vector3 _LastPosition
+    UnityEngine::Vector3& dyn__LastPosition();
+    // Get instance field reference: private UnityEngine.Quaternion _LastRotation
+    UnityEngine::Quaternion& dyn__LastRotation();
+    // Get instance field reference: private UnityEngine.Vector3 _LastScale
+    UnityEngine::Vector3& dyn__LastScale();
+    // Get instance field reference: private UnityEngine.Rect _LastDestRectLeft
+    UnityEngine::Rect& dyn__LastDestRectLeft();
+    // Get instance field reference: private UnityEngine.Rect _LastDestRectRight
+    UnityEngine::Rect& dyn__LastDestRectRight();
+    // Get instance field reference: private UnityEngine.Rect _LastSrcRectLeft
+    UnityEngine::Rect& dyn__LastSrcRectLeft();
+    // Get instance field reference: private UnityEngine.Texture _LastTexture
+    UnityEngine::Texture*& dyn__LastTexture();
+    // Get instance field reference: private System.Boolean _Awake
+    bool& dyn__Awake();
     // protected System.Void Awake()
     // Offset: 0x1340224
     void Awake();

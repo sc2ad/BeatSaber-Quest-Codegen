@@ -68,10 +68,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType _get_Obstacle();
       // Set static field: static public BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType Obstacle
       static void _set_Obstacle(GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType
     #pragma pack(pop)
     static check_size<sizeof(BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType), 0 + sizeof(int)> __GlobalNamespace_BeatmapObjectExecutionRating_BeatmapObjectExecutionRatingTypeSizeCheck;
@@ -90,14 +88,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: BeatmapObjectExecutionRating
     BeatmapObjectExecutionRating(GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType beatmapObjectRatingType_ = {}, float time_ = {}) noexcept : beatmapObjectRatingType{beatmapObjectRatingType_}, time{time_} {}
-    // Get instance field: private BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType <beatmapObjectRatingType>k__BackingField
-    GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType _get_$beatmapObjectRatingType$k__BackingField();
-    // Set instance field: private BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType <beatmapObjectRatingType>k__BackingField
-    void _set_$beatmapObjectRatingType$k__BackingField(GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType value);
-    // Get instance field: private System.Single <time>k__BackingField
-    float _get_$time$k__BackingField();
-    // Set instance field: private System.Single <time>k__BackingField
-    void _set_$time$k__BackingField(float value);
+    // Get instance field reference: private BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType <beatmapObjectRatingType>k__BackingField
+    GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType& dyn_$beatmapObjectRatingType$k__BackingField();
+    // Get instance field reference: private System.Single <time>k__BackingField
+    float& dyn_$time$k__BackingField();
     // public BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType get_beatmapObjectRatingType()
     // Offset: 0x10C800C
     GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType get_beatmapObjectRatingType();

@@ -68,18 +68,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: TestPlatformAdditionalContentModel
     TestPlatformAdditionalContentModel(::Array<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>* levelsEntitlements_ = {}, ::Array<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>* levelPacksEntitlements_ = {}, bool packBetterBuyThanLevel_ = {}) noexcept : levelsEntitlements{levelsEntitlements_}, levelPacksEntitlements{levelPacksEntitlements_}, packBetterBuyThanLevel{packBetterBuyThanLevel_} {}
-    // Get instance field: private TestPlatformAdditionalContentModel/Entitlement[] _levelsEntitlements
-    ::Array<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>* _get__levelsEntitlements();
-    // Set instance field: private TestPlatformAdditionalContentModel/Entitlement[] _levelsEntitlements
-    void _set__levelsEntitlements(::Array<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>* value);
-    // Get instance field: private TestPlatformAdditionalContentModel/Entitlement[] _levelPacksEntitlements
-    ::Array<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>* _get__levelPacksEntitlements();
-    // Set instance field: private TestPlatformAdditionalContentModel/Entitlement[] _levelPacksEntitlements
-    void _set__levelPacksEntitlements(::Array<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>* value);
-    // Get instance field: private System.Boolean _packBetterBuyThanLevel
-    bool _get__packBetterBuyThanLevel();
-    // Set instance field: private System.Boolean _packBetterBuyThanLevel
-    void _set__packBetterBuyThanLevel(bool value);
+    // Get instance field reference: private TestPlatformAdditionalContentModel/Entitlement[] _levelsEntitlements
+    ::Array<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>*& dyn__levelsEntitlements();
+    // Get instance field reference: private TestPlatformAdditionalContentModel/Entitlement[] _levelPacksEntitlements
+    ::Array<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>*& dyn__levelPacksEntitlements();
+    // Get instance field reference: private System.Boolean _packBetterBuyThanLevel
+    bool& dyn__packBetterBuyThanLevel();
     // private System.Void BuyLevel(System.String levelId)
     // Offset: 0x1093338
     void BuyLevel(::Il2CppString* levelId);

@@ -40,18 +40,12 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     static_assert(sizeof(::Array<int>*) == 0x8);
     // Creating value type constructor for type: PointPrecomp
     PointPrecomp(::Array<int>* ypx_h_ = {}, ::Array<int>* ymx_h_ = {}, ::Array<int>* xyd_ = {}) noexcept : ypx_h{ypx_h_}, ymx_h{ymx_h_}, xyd{xyd_} {}
-    // Get instance field: System.Int32[] ypx_h
-    ::Array<int>* _get_ypx_h();
-    // Set instance field: System.Int32[] ypx_h
-    void _set_ypx_h(::Array<int>* value);
-    // Get instance field: System.Int32[] ymx_h
-    ::Array<int>* _get_ymx_h();
-    // Set instance field: System.Int32[] ymx_h
-    void _set_ymx_h(::Array<int>* value);
-    // Get instance field: System.Int32[] xyd
-    ::Array<int>* _get_xyd();
-    // Set instance field: System.Int32[] xyd
-    void _set_xyd(::Array<int>* value);
+    // Get instance field reference: System.Int32[] ypx_h
+    ::Array<int>*& dyn_ypx_h();
+    // Get instance field reference: System.Int32[] ymx_h
+    ::Array<int>*& dyn_ymx_h();
+    // Get instance field reference: System.Int32[] xyd
+    ::Array<int>*& dyn_xyd();
     // public System.Void .ctor()
     // Offset: 0x1DD2FC8
     // Implemented from: System.Object

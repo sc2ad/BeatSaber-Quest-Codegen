@@ -59,26 +59,16 @@ namespace UnityEngine::AddressableAssets::Initialization {
     static_assert(sizeof(int64_t) == 0x8);
     // Creating value type constructor for type: CacheInitializationData
     CacheInitializationData(bool m_CompressionEnabled_ = {}, ::Il2CppString* m_CacheDirectoryOverride_ = {}, int m_ExpirationDelay_ = {}, bool m_LimitCacheSize_ = {}, int64_t m_MaximumCacheSize_ = {}) noexcept : m_CompressionEnabled{m_CompressionEnabled_}, m_CacheDirectoryOverride{m_CacheDirectoryOverride_}, m_ExpirationDelay{m_ExpirationDelay_}, m_LimitCacheSize{m_LimitCacheSize_}, m_MaximumCacheSize{m_MaximumCacheSize_} {}
-    // Get instance field: private System.Boolean m_CompressionEnabled
-    bool _get_m_CompressionEnabled();
-    // Set instance field: private System.Boolean m_CompressionEnabled
-    void _set_m_CompressionEnabled(bool value);
-    // Get instance field: private System.String m_CacheDirectoryOverride
-    ::Il2CppString* _get_m_CacheDirectoryOverride();
-    // Set instance field: private System.String m_CacheDirectoryOverride
-    void _set_m_CacheDirectoryOverride(::Il2CppString* value);
-    // Get instance field: private System.Int32 m_ExpirationDelay
-    int _get_m_ExpirationDelay();
-    // Set instance field: private System.Int32 m_ExpirationDelay
-    void _set_m_ExpirationDelay(int value);
-    // Get instance field: private System.Boolean m_LimitCacheSize
-    bool _get_m_LimitCacheSize();
-    // Set instance field: private System.Boolean m_LimitCacheSize
-    void _set_m_LimitCacheSize(bool value);
-    // Get instance field: private System.Int64 m_MaximumCacheSize
-    int64_t _get_m_MaximumCacheSize();
-    // Set instance field: private System.Int64 m_MaximumCacheSize
-    void _set_m_MaximumCacheSize(int64_t value);
+    // Get instance field reference: private System.Boolean m_CompressionEnabled
+    bool& dyn_m_CompressionEnabled();
+    // Get instance field reference: private System.String m_CacheDirectoryOverride
+    ::Il2CppString*& dyn_m_CacheDirectoryOverride();
+    // Get instance field reference: private System.Int32 m_ExpirationDelay
+    int& dyn_m_ExpirationDelay();
+    // Get instance field reference: private System.Boolean m_LimitCacheSize
+    bool& dyn_m_LimitCacheSize();
+    // Get instance field reference: private System.Int64 m_MaximumCacheSize
+    int64_t& dyn_m_MaximumCacheSize();
     // public System.Boolean get_CompressionEnabled()
     // Offset: 0x1446700
     bool get_CompressionEnabled();

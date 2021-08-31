@@ -55,14 +55,10 @@ namespace System {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: private readonly System.Int32 _int32
-      int _get__int32();
-      // Set instance field: private readonly System.Int32 _int32
-      void _set__int32(int value);
-      // Get instance field: private readonly System.String _string
-      ::Il2CppString* _get__string();
-      // Set instance field: private readonly System.String _string
-      void _set__string(::Il2CppString* value);
+      // Get instance field reference: private readonly System.Int32 _int32
+      int& dyn__int32();
+      // Get instance field reference: private readonly System.String _string
+      ::Il2CppString*& dyn__string();
       // public System.Int32 get_Int32()
       // Offset: 0x1D1065C
       int get_Int32();

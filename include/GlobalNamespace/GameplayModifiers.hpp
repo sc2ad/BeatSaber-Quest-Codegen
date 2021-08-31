@@ -90,10 +90,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::GameplayModifiers::EnabledObstacleType _get_NoObstacles();
       // Set static field: static public GameplayModifiers/EnabledObstacleType NoObstacles
       static void _set_NoObstacles(GlobalNamespace::GameplayModifiers::EnabledObstacleType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // GameplayModifiers/EnabledObstacleType
     #pragma pack(pop)
     static check_size<sizeof(GameplayModifiers::EnabledObstacleType), 0 + sizeof(int)> __GlobalNamespace_GameplayModifiers_EnabledObstacleTypeSizeCheck;
@@ -132,10 +130,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::GameplayModifiers::EnergyType _get_Battery();
       // Set static field: static public GameplayModifiers/EnergyType Battery
       static void _set_Battery(GlobalNamespace::GameplayModifiers::EnergyType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // GameplayModifiers/EnergyType
     #pragma pack(pop)
     static check_size<sizeof(GameplayModifiers::EnergyType), 0 + sizeof(int)> __GlobalNamespace_GameplayModifiers_EnergyTypeSizeCheck;
@@ -186,10 +182,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::GameplayModifiers::SongSpeed _get_SuperFast();
       // Set static field: static public GameplayModifiers/SongSpeed SuperFast
       static void _set_SuperFast(GlobalNamespace::GameplayModifiers::SongSpeed value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // GameplayModifiers/SongSpeed
     #pragma pack(pop)
     static check_size<sizeof(GameplayModifiers::SongSpeed), 0 + sizeof(int)> __GlobalNamespace_GameplayModifiers_SongSpeedSizeCheck;
@@ -304,74 +298,40 @@ namespace GlobalNamespace {
     operator LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::GameplayModifiers*>() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::GameplayModifiers*>*>(this);
     }
-    // Get instance field: private GameplayModifiers/EnergyType _energyType
-    GlobalNamespace::GameplayModifiers::EnergyType _get__energyType();
-    // Set instance field: private GameplayModifiers/EnergyType _energyType
-    void _set__energyType(GlobalNamespace::GameplayModifiers::EnergyType value);
-    // Get instance field: private System.Boolean _noFailOn0Energy
-    bool _get__noFailOn0Energy();
-    // Set instance field: private System.Boolean _noFailOn0Energy
-    void _set__noFailOn0Energy(bool value);
-    // Get instance field: private System.Boolean _demoNoFail
-    bool _get__demoNoFail();
-    // Set instance field: private System.Boolean _demoNoFail
-    void _set__demoNoFail(bool value);
-    // Get instance field: private System.Boolean _instaFail
-    bool _get__instaFail();
-    // Set instance field: private System.Boolean _instaFail
-    void _set__instaFail(bool value);
-    // Get instance field: private System.Boolean _failOnSaberClash
-    bool _get__failOnSaberClash();
-    // Set instance field: private System.Boolean _failOnSaberClash
-    void _set__failOnSaberClash(bool value);
-    // Get instance field: private GameplayModifiers/EnabledObstacleType _enabledObstacleType
-    GlobalNamespace::GameplayModifiers::EnabledObstacleType _get__enabledObstacleType();
-    // Set instance field: private GameplayModifiers/EnabledObstacleType _enabledObstacleType
-    void _set__enabledObstacleType(GlobalNamespace::GameplayModifiers::EnabledObstacleType value);
-    // Get instance field: private System.Boolean _demoNoObstacles
-    bool _get__demoNoObstacles();
-    // Set instance field: private System.Boolean _demoNoObstacles
-    void _set__demoNoObstacles(bool value);
-    // Get instance field: private System.Boolean _fastNotes
-    bool _get__fastNotes();
-    // Set instance field: private System.Boolean _fastNotes
-    void _set__fastNotes(bool value);
-    // Get instance field: private System.Boolean _strictAngles
-    bool _get__strictAngles();
-    // Set instance field: private System.Boolean _strictAngles
-    void _set__strictAngles(bool value);
-    // Get instance field: private System.Boolean _disappearingArrows
-    bool _get__disappearingArrows();
-    // Set instance field: private System.Boolean _disappearingArrows
-    void _set__disappearingArrows(bool value);
-    // Get instance field: private System.Boolean _ghostNotes
-    bool _get__ghostNotes();
-    // Set instance field: private System.Boolean _ghostNotes
-    void _set__ghostNotes(bool value);
-    // Get instance field: private System.Boolean _noBombs
-    bool _get__noBombs();
-    // Set instance field: private System.Boolean _noBombs
-    void _set__noBombs(bool value);
-    // Get instance field: private GameplayModifiers/SongSpeed _songSpeed
-    GlobalNamespace::GameplayModifiers::SongSpeed _get__songSpeed();
-    // Set instance field: private GameplayModifiers/SongSpeed _songSpeed
-    void _set__songSpeed(GlobalNamespace::GameplayModifiers::SongSpeed value);
-    // Get instance field: private System.Boolean _noArrows
-    bool _get__noArrows();
-    // Set instance field: private System.Boolean _noArrows
-    void _set__noArrows(bool value);
-    // Get instance field: private System.Boolean _proMode
-    bool _get__proMode();
-    // Set instance field: private System.Boolean _proMode
-    void _set__proMode(bool value);
-    // Get instance field: private System.Boolean _zenMode
-    bool _get__zenMode();
-    // Set instance field: private System.Boolean _zenMode
-    void _set__zenMode(bool value);
-    // Get instance field: private System.Boolean _smallCubes
-    bool _get__smallCubes();
-    // Set instance field: private System.Boolean _smallCubes
-    void _set__smallCubes(bool value);
+    // Get instance field reference: private GameplayModifiers/EnergyType _energyType
+    GlobalNamespace::GameplayModifiers::EnergyType& dyn__energyType();
+    // Get instance field reference: private System.Boolean _noFailOn0Energy
+    bool& dyn__noFailOn0Energy();
+    // Get instance field reference: private System.Boolean _demoNoFail
+    bool& dyn__demoNoFail();
+    // Get instance field reference: private System.Boolean _instaFail
+    bool& dyn__instaFail();
+    // Get instance field reference: private System.Boolean _failOnSaberClash
+    bool& dyn__failOnSaberClash();
+    // Get instance field reference: private GameplayModifiers/EnabledObstacleType _enabledObstacleType
+    GlobalNamespace::GameplayModifiers::EnabledObstacleType& dyn__enabledObstacleType();
+    // Get instance field reference: private System.Boolean _demoNoObstacles
+    bool& dyn__demoNoObstacles();
+    // Get instance field reference: private System.Boolean _fastNotes
+    bool& dyn__fastNotes();
+    // Get instance field reference: private System.Boolean _strictAngles
+    bool& dyn__strictAngles();
+    // Get instance field reference: private System.Boolean _disappearingArrows
+    bool& dyn__disappearingArrows();
+    // Get instance field reference: private System.Boolean _ghostNotes
+    bool& dyn__ghostNotes();
+    // Get instance field reference: private System.Boolean _noBombs
+    bool& dyn__noBombs();
+    // Get instance field reference: private GameplayModifiers/SongSpeed _songSpeed
+    GlobalNamespace::GameplayModifiers::SongSpeed& dyn__songSpeed();
+    // Get instance field reference: private System.Boolean _noArrows
+    bool& dyn__noArrows();
+    // Get instance field reference: private System.Boolean _proMode
+    bool& dyn__proMode();
+    // Get instance field reference: private System.Boolean _zenMode
+    bool& dyn__zenMode();
+    // Get instance field reference: private System.Boolean _smallCubes
+    bool& dyn__smallCubes();
     // public GameplayModifiers/EnergyType get_energyType()
     // Offset: 0x23797AC
     GlobalNamespace::GameplayModifiers::EnergyType get_energyType();

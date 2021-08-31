@@ -207,90 +207,48 @@ namespace System::Net {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     // Creating value type constructor for type: ServicePoint
     ServicePoint(System::Uri* uri_ = {}, int connectionLimit_ = {}, int maxIdleTime_ = {}, int currentConnections_ = {}, System::DateTime idleSince_ = {}, System::DateTime lastDnsResolve_ = {}, System::Version* protocolVersion_ = {}, System::Net::IPHostEntry* host_ = {}, bool usesProxy_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Net::WebConnectionGroup*>* groups_ = {}, bool sendContinue_ = {}, bool useConnect_ = {}, ::Il2CppObject* hostE_ = {}, bool useNagle_ = {}, System::Net::BindIPEndPoint* endPointCallback_ = {}, bool tcp_keepalive_ = {}, int tcp_keepalive_time_ = {}, int tcp_keepalive_interval_ = {}, System::Threading::Timer* idleTimer_ = {}, ::Il2CppObject* m_ServerCertificateOrBytes_ = {}, ::Il2CppObject* m_ClientCertificateOrBytes_ = {}) noexcept : uri{uri_}, connectionLimit{connectionLimit_}, maxIdleTime{maxIdleTime_}, currentConnections{currentConnections_}, idleSince{idleSince_}, lastDnsResolve{lastDnsResolve_}, protocolVersion{protocolVersion_}, host{host_}, usesProxy{usesProxy_}, groups{groups_}, sendContinue{sendContinue_}, useConnect{useConnect_}, hostE{hostE_}, useNagle{useNagle_}, endPointCallback{endPointCallback_}, tcp_keepalive{tcp_keepalive_}, tcp_keepalive_time{tcp_keepalive_time_}, tcp_keepalive_interval{tcp_keepalive_interval_}, idleTimer{idleTimer_}, m_ServerCertificateOrBytes{m_ServerCertificateOrBytes_}, m_ClientCertificateOrBytes{m_ClientCertificateOrBytes_} {}
-    // Get instance field: private readonly System.Uri uri
-    System::Uri* _get_uri();
-    // Set instance field: private readonly System.Uri uri
-    void _set_uri(System::Uri* value);
-    // Get instance field: private System.Int32 connectionLimit
-    int _get_connectionLimit();
-    // Set instance field: private System.Int32 connectionLimit
-    void _set_connectionLimit(int value);
-    // Get instance field: private System.Int32 maxIdleTime
-    int _get_maxIdleTime();
-    // Set instance field: private System.Int32 maxIdleTime
-    void _set_maxIdleTime(int value);
-    // Get instance field: private System.Int32 currentConnections
-    int _get_currentConnections();
-    // Set instance field: private System.Int32 currentConnections
-    void _set_currentConnections(int value);
-    // Get instance field: private System.DateTime idleSince
-    System::DateTime _get_idleSince();
-    // Set instance field: private System.DateTime idleSince
-    void _set_idleSince(System::DateTime value);
-    // Get instance field: private System.DateTime lastDnsResolve
-    System::DateTime _get_lastDnsResolve();
-    // Set instance field: private System.DateTime lastDnsResolve
-    void _set_lastDnsResolve(System::DateTime value);
-    // Get instance field: private System.Version protocolVersion
-    System::Version* _get_protocolVersion();
-    // Set instance field: private System.Version protocolVersion
-    void _set_protocolVersion(System::Version* value);
-    // Get instance field: private System.Net.IPHostEntry host
-    System::Net::IPHostEntry* _get_host();
-    // Set instance field: private System.Net.IPHostEntry host
-    void _set_host(System::Net::IPHostEntry* value);
-    // Get instance field: private System.Boolean usesProxy
-    bool _get_usesProxy();
-    // Set instance field: private System.Boolean usesProxy
-    void _set_usesProxy(bool value);
-    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,System.Net.WebConnectionGroup> groups
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Net::WebConnectionGroup*>* _get_groups();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,System.Net.WebConnectionGroup> groups
-    void _set_groups(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Net::WebConnectionGroup*>* value);
-    // Get instance field: private System.Boolean sendContinue
-    bool _get_sendContinue();
-    // Set instance field: private System.Boolean sendContinue
-    void _set_sendContinue(bool value);
-    // Get instance field: private System.Boolean useConnect
-    bool _get_useConnect();
-    // Set instance field: private System.Boolean useConnect
-    void _set_useConnect(bool value);
-    // Get instance field: private System.Object hostE
-    ::Il2CppObject* _get_hostE();
-    // Set instance field: private System.Object hostE
-    void _set_hostE(::Il2CppObject* value);
-    // Get instance field: private System.Boolean useNagle
-    bool _get_useNagle();
-    // Set instance field: private System.Boolean useNagle
-    void _set_useNagle(bool value);
-    // Get instance field: private System.Net.BindIPEndPoint endPointCallback
-    System::Net::BindIPEndPoint* _get_endPointCallback();
-    // Set instance field: private System.Net.BindIPEndPoint endPointCallback
-    void _set_endPointCallback(System::Net::BindIPEndPoint* value);
-    // Get instance field: private System.Boolean tcp_keepalive
-    bool _get_tcp_keepalive();
-    // Set instance field: private System.Boolean tcp_keepalive
-    void _set_tcp_keepalive(bool value);
-    // Get instance field: private System.Int32 tcp_keepalive_time
-    int _get_tcp_keepalive_time();
-    // Set instance field: private System.Int32 tcp_keepalive_time
-    void _set_tcp_keepalive_time(int value);
-    // Get instance field: private System.Int32 tcp_keepalive_interval
-    int _get_tcp_keepalive_interval();
-    // Set instance field: private System.Int32 tcp_keepalive_interval
-    void _set_tcp_keepalive_interval(int value);
-    // Get instance field: private System.Threading.Timer idleTimer
-    System::Threading::Timer* _get_idleTimer();
-    // Set instance field: private System.Threading.Timer idleTimer
-    void _set_idleTimer(System::Threading::Timer* value);
-    // Get instance field: private System.Object m_ServerCertificateOrBytes
-    ::Il2CppObject* _get_m_ServerCertificateOrBytes();
-    // Set instance field: private System.Object m_ServerCertificateOrBytes
-    void _set_m_ServerCertificateOrBytes(::Il2CppObject* value);
-    // Get instance field: private System.Object m_ClientCertificateOrBytes
-    ::Il2CppObject* _get_m_ClientCertificateOrBytes();
-    // Set instance field: private System.Object m_ClientCertificateOrBytes
-    void _set_m_ClientCertificateOrBytes(::Il2CppObject* value);
+    // Get instance field reference: private readonly System.Uri uri
+    System::Uri*& dyn_uri();
+    // Get instance field reference: private System.Int32 connectionLimit
+    int& dyn_connectionLimit();
+    // Get instance field reference: private System.Int32 maxIdleTime
+    int& dyn_maxIdleTime();
+    // Get instance field reference: private System.Int32 currentConnections
+    int& dyn_currentConnections();
+    // Get instance field reference: private System.DateTime idleSince
+    System::DateTime& dyn_idleSince();
+    // Get instance field reference: private System.DateTime lastDnsResolve
+    System::DateTime& dyn_lastDnsResolve();
+    // Get instance field reference: private System.Version protocolVersion
+    System::Version*& dyn_protocolVersion();
+    // Get instance field reference: private System.Net.IPHostEntry host
+    System::Net::IPHostEntry*& dyn_host();
+    // Get instance field reference: private System.Boolean usesProxy
+    bool& dyn_usesProxy();
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.Net.WebConnectionGroup> groups
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Net::WebConnectionGroup*>*& dyn_groups();
+    // Get instance field reference: private System.Boolean sendContinue
+    bool& dyn_sendContinue();
+    // Get instance field reference: private System.Boolean useConnect
+    bool& dyn_useConnect();
+    // Get instance field reference: private System.Object hostE
+    ::Il2CppObject*& dyn_hostE();
+    // Get instance field reference: private System.Boolean useNagle
+    bool& dyn_useNagle();
+    // Get instance field reference: private System.Net.BindIPEndPoint endPointCallback
+    System::Net::BindIPEndPoint*& dyn_endPointCallback();
+    // Get instance field reference: private System.Boolean tcp_keepalive
+    bool& dyn_tcp_keepalive();
+    // Get instance field reference: private System.Int32 tcp_keepalive_time
+    int& dyn_tcp_keepalive_time();
+    // Get instance field reference: private System.Int32 tcp_keepalive_interval
+    int& dyn_tcp_keepalive_interval();
+    // Get instance field reference: private System.Threading.Timer idleTimer
+    System::Threading::Timer*& dyn_idleTimer();
+    // Get instance field reference: private System.Object m_ServerCertificateOrBytes
+    ::Il2CppObject*& dyn_m_ServerCertificateOrBytes();
+    // Get instance field reference: private System.Object m_ClientCertificateOrBytes
+    ::Il2CppObject*& dyn_m_ClientCertificateOrBytes();
     // public System.Uri get_Address()
     // Offset: 0x14A0A80
     System::Uri* get_Address();

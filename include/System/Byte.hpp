@@ -98,10 +98,8 @@ namespace System {
     static uint8_t _get_MinValue();
     // Set static field: static public System.Byte MinValue
     static void _set_MinValue(uint8_t value);
-    // Get instance field: private System.Byte m_value
-    uint8_t _get_m_value();
-    // Set instance field: private System.Byte m_value
-    void _set_m_value(uint8_t value);
+    // Get instance field reference: private System.Byte m_value
+    uint8_t& dyn_m_value();
     // public System.Int32 CompareTo(System.Object value)
     // Offset: 0x17D3368
     int CompareTo(::Il2CppObject* value);

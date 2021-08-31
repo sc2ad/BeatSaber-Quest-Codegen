@@ -52,10 +52,8 @@ namespace Zenject {
     constexpr operator UnityEngine::GameObject*() const noexcept {
       return gameObject;
     }
-    // Get instance field: public UnityEngine.GameObject gameObject
-    UnityEngine::GameObject* _get_gameObject();
-    // Set instance field: public UnityEngine.GameObject gameObject
-    void _set_gameObject(UnityEngine::GameObject* value);
+    // Get instance field reference: public UnityEngine.GameObject gameObject
+    UnityEngine::GameObject*& dyn_gameObject();
     // Zenject.IProvider <FromComponentOn>b__0(Zenject.DiContainer container, System.Type type)
     // Offset: 0x165C364
     Zenject::IProvider* $FromComponentOn$b__0(Zenject::DiContainer* container, System::Type* type);

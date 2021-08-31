@@ -44,10 +44,8 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::IndexFormat _get_UInt32();
     // Set static field: static public UnityEngine.Rendering.IndexFormat UInt32
     static void _set_UInt32(UnityEngine::Rendering::IndexFormat value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.Rendering.IndexFormat
   #pragma pack(pop)
   static check_size<sizeof(IndexFormat), 0 + sizeof(int)> __UnityEngine_Rendering_IndexFormatSizeCheck;

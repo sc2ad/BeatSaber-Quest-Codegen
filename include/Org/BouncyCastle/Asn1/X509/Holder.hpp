@@ -66,22 +66,14 @@ namespace Org::BouncyCastle::Asn1::X509 {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: Holder
     Holder(Org::BouncyCastle::Asn1::X509::IssuerSerial* baseCertificateID_ = {}, Org::BouncyCastle::Asn1::X509::GeneralNames* entityName_ = {}, Org::BouncyCastle::Asn1::X509::ObjectDigestInfo* objectDigestInfo_ = {}, int version_ = {}) noexcept : baseCertificateID{baseCertificateID_}, entityName{entityName_}, objectDigestInfo{objectDigestInfo_}, version{version_} {}
-    // Get instance field: readonly Org.BouncyCastle.Asn1.X509.IssuerSerial baseCertificateID
-    Org::BouncyCastle::Asn1::X509::IssuerSerial* _get_baseCertificateID();
-    // Set instance field: readonly Org.BouncyCastle.Asn1.X509.IssuerSerial baseCertificateID
-    void _set_baseCertificateID(Org::BouncyCastle::Asn1::X509::IssuerSerial* value);
-    // Get instance field: readonly Org.BouncyCastle.Asn1.X509.GeneralNames entityName
-    Org::BouncyCastle::Asn1::X509::GeneralNames* _get_entityName();
-    // Set instance field: readonly Org.BouncyCastle.Asn1.X509.GeneralNames entityName
-    void _set_entityName(Org::BouncyCastle::Asn1::X509::GeneralNames* value);
-    // Get instance field: readonly Org.BouncyCastle.Asn1.X509.ObjectDigestInfo objectDigestInfo
-    Org::BouncyCastle::Asn1::X509::ObjectDigestInfo* _get_objectDigestInfo();
-    // Set instance field: readonly Org.BouncyCastle.Asn1.X509.ObjectDigestInfo objectDigestInfo
-    void _set_objectDigestInfo(Org::BouncyCastle::Asn1::X509::ObjectDigestInfo* value);
-    // Get instance field: private readonly System.Int32 version
-    int _get_version();
-    // Set instance field: private readonly System.Int32 version
-    void _set_version(int value);
+    // Get instance field reference: readonly Org.BouncyCastle.Asn1.X509.IssuerSerial baseCertificateID
+    Org::BouncyCastle::Asn1::X509::IssuerSerial*& dyn_baseCertificateID();
+    // Get instance field reference: readonly Org.BouncyCastle.Asn1.X509.GeneralNames entityName
+    Org::BouncyCastle::Asn1::X509::GeneralNames*& dyn_entityName();
+    // Get instance field reference: readonly Org.BouncyCastle.Asn1.X509.ObjectDigestInfo objectDigestInfo
+    Org::BouncyCastle::Asn1::X509::ObjectDigestInfo*& dyn_objectDigestInfo();
+    // Get instance field reference: private readonly System.Int32 version
+    int& dyn_version();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1TaggedObject tagObj)
     // Offset: 0x19FB1AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

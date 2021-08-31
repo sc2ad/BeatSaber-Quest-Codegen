@@ -70,10 +70,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::MasterServerAvailabilityData::AvailabilityStatus _get_Offline();
       // Set static field: static public MasterServerAvailabilityData/AvailabilityStatus Offline
       static void _set_Offline(GlobalNamespace::MasterServerAvailabilityData::AvailabilityStatus value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // MasterServerAvailabilityData/AvailabilityStatus
     #pragma pack(pop)
     static check_size<sizeof(MasterServerAvailabilityData::AvailabilityStatus), 0 + sizeof(int)> __GlobalNamespace_MasterServerAvailabilityData_AvailabilityStatusSizeCheck;
@@ -112,26 +110,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::MasterServerAvailabilityData::UserMessage*) == 0x8);
     // Creating value type constructor for type: MasterServerAvailabilityData
     MasterServerAvailabilityData(::Il2CppString* minimumAppVersion_ = {}, GlobalNamespace::MasterServerAvailabilityData::AvailabilityStatus status_ = {}, int64_t maintenanceStartTime_ = {}, int64_t maintenanceEndTime_ = {}, GlobalNamespace::MasterServerAvailabilityData::UserMessage* userMessage_ = {}) noexcept : minimumAppVersion{minimumAppVersion_}, status{status_}, maintenanceStartTime{maintenanceStartTime_}, maintenanceEndTime{maintenanceEndTime_}, userMessage{userMessage_} {}
-    // Get instance field: public System.String minimumAppVersion
-    ::Il2CppString* _get_minimumAppVersion();
-    // Set instance field: public System.String minimumAppVersion
-    void _set_minimumAppVersion(::Il2CppString* value);
-    // Get instance field: public MasterServerAvailabilityData/AvailabilityStatus status
-    GlobalNamespace::MasterServerAvailabilityData::AvailabilityStatus _get_status();
-    // Set instance field: public MasterServerAvailabilityData/AvailabilityStatus status
-    void _set_status(GlobalNamespace::MasterServerAvailabilityData::AvailabilityStatus value);
-    // Get instance field: public System.Int64 maintenanceStartTime
-    int64_t _get_maintenanceStartTime();
-    // Set instance field: public System.Int64 maintenanceStartTime
-    void _set_maintenanceStartTime(int64_t value);
-    // Get instance field: public System.Int64 maintenanceEndTime
-    int64_t _get_maintenanceEndTime();
-    // Set instance field: public System.Int64 maintenanceEndTime
-    void _set_maintenanceEndTime(int64_t value);
-    // Get instance field: public MasterServerAvailabilityData/UserMessage userMessage
-    GlobalNamespace::MasterServerAvailabilityData::UserMessage* _get_userMessage();
-    // Set instance field: public MasterServerAvailabilityData/UserMessage userMessage
-    void _set_userMessage(GlobalNamespace::MasterServerAvailabilityData::UserMessage* value);
+    // Get instance field reference: public System.String minimumAppVersion
+    ::Il2CppString*& dyn_minimumAppVersion();
+    // Get instance field reference: public MasterServerAvailabilityData/AvailabilityStatus status
+    GlobalNamespace::MasterServerAvailabilityData::AvailabilityStatus& dyn_status();
+    // Get instance field reference: public System.Int64 maintenanceStartTime
+    int64_t& dyn_maintenanceStartTime();
+    // Get instance field reference: public System.Int64 maintenanceEndTime
+    int64_t& dyn_maintenanceEndTime();
+    // Get instance field reference: public MasterServerAvailabilityData/UserMessage userMessage
+    GlobalNamespace::MasterServerAvailabilityData::UserMessage*& dyn_userMessage();
     // public System.Void .ctor()
     // Offset: 0x10E4A64
     // Implemented from: System.Object

@@ -50,18 +50,12 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(Oculus::Platform::Models::User*) == 0x8);
     // Creating value type constructor for type: UserAndRoom
     UserAndRoom(Oculus::Platform::Models::Room* RoomOptional_ = {}, Oculus::Platform::Models::Room* Room_ = {}, Oculus::Platform::Models::User* User_ = {}) noexcept : RoomOptional{RoomOptional_}, Room{Room_}, User{User_} {}
-    // Get instance field: public readonly Oculus.Platform.Models.Room RoomOptional
-    Oculus::Platform::Models::Room* _get_RoomOptional();
-    // Set instance field: public readonly Oculus.Platform.Models.Room RoomOptional
-    void _set_RoomOptional(Oculus::Platform::Models::Room* value);
-    // Get instance field: public readonly Oculus.Platform.Models.Room Room
-    Oculus::Platform::Models::Room* _get_Room();
-    // Set instance field: public readonly Oculus.Platform.Models.Room Room
-    void _set_Room(Oculus::Platform::Models::Room* value);
-    // Get instance field: public readonly Oculus.Platform.Models.User User
-    Oculus::Platform::Models::User* _get_User();
-    // Set instance field: public readonly Oculus.Platform.Models.User User
-    void _set_User(Oculus::Platform::Models::User* value);
+    // Get instance field reference: public readonly Oculus.Platform.Models.Room RoomOptional
+    Oculus::Platform::Models::Room*& dyn_RoomOptional();
+    // Get instance field reference: public readonly Oculus.Platform.Models.Room Room
+    Oculus::Platform::Models::Room*& dyn_Room();
+    // Get instance field reference: public readonly Oculus.Platform.Models.User User
+    Oculus::Platform::Models::User*& dyn_User();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14F29C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

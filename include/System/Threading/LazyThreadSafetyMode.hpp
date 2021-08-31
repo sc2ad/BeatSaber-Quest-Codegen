@@ -50,10 +50,8 @@ namespace System::Threading {
     static System::Threading::LazyThreadSafetyMode _get_ExecutionAndPublication();
     // Set static field: static public System.Threading.LazyThreadSafetyMode ExecutionAndPublication
     static void _set_ExecutionAndPublication(System::Threading::LazyThreadSafetyMode value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Threading.LazyThreadSafetyMode
   #pragma pack(pop)
   static check_size<sizeof(LazyThreadSafetyMode), 0 + sizeof(int)> __System_Threading_LazyThreadSafetyModeSizeCheck;

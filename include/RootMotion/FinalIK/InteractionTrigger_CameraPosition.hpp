@@ -73,26 +73,16 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: CameraPosition
     CameraPosition(UnityEngine::Collider* lookAtTarget_ = {}, UnityEngine::Vector3 direction_ = {}, float maxDistance_ = {}, float maxAngle_ = {}, bool fixYAxis_ = {}) noexcept : lookAtTarget{lookAtTarget_}, direction{direction_}, maxDistance{maxDistance_}, maxAngle{maxAngle_}, fixYAxis{fixYAxis_} {}
-    // Get instance field: public UnityEngine.Collider lookAtTarget
-    UnityEngine::Collider* _get_lookAtTarget();
-    // Set instance field: public UnityEngine.Collider lookAtTarget
-    void _set_lookAtTarget(UnityEngine::Collider* value);
-    // Get instance field: public UnityEngine.Vector3 direction
-    UnityEngine::Vector3 _get_direction();
-    // Set instance field: public UnityEngine.Vector3 direction
-    void _set_direction(UnityEngine::Vector3 value);
-    // Get instance field: public System.Single maxDistance
-    float _get_maxDistance();
-    // Set instance field: public System.Single maxDistance
-    void _set_maxDistance(float value);
-    // Get instance field: public System.Single maxAngle
-    float _get_maxAngle();
-    // Set instance field: public System.Single maxAngle
-    void _set_maxAngle(float value);
-    // Get instance field: public System.Boolean fixYAxis
-    bool _get_fixYAxis();
-    // Set instance field: public System.Boolean fixYAxis
-    void _set_fixYAxis(bool value);
+    // Get instance field reference: public UnityEngine.Collider lookAtTarget
+    UnityEngine::Collider*& dyn_lookAtTarget();
+    // Get instance field reference: public UnityEngine.Vector3 direction
+    UnityEngine::Vector3& dyn_direction();
+    // Get instance field reference: public System.Single maxDistance
+    float& dyn_maxDistance();
+    // Get instance field reference: public System.Single maxAngle
+    float& dyn_maxAngle();
+    // Get instance field reference: public System.Boolean fixYAxis
+    bool& dyn_fixYAxis();
     // public UnityEngine.Quaternion GetRotation()
     // Offset: 0x1AD5F10
     UnityEngine::Quaternion GetRotation();

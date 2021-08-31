@@ -65,22 +65,14 @@ namespace System::Net::Http::Headers {
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
-    // Get instance field: private System.String <Comment>k__BackingField
-    ::Il2CppString* _get_$Comment$k__BackingField();
-    // Set instance field: private System.String <Comment>k__BackingField
-    void _set_$Comment$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.String <ProtocolName>k__BackingField
-    ::Il2CppString* _get_$ProtocolName$k__BackingField();
-    // Set instance field: private System.String <ProtocolName>k__BackingField
-    void _set_$ProtocolName$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.String <ProtocolVersion>k__BackingField
-    ::Il2CppString* _get_$ProtocolVersion$k__BackingField();
-    // Set instance field: private System.String <ProtocolVersion>k__BackingField
-    void _set_$ProtocolVersion$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.String <ReceivedBy>k__BackingField
-    ::Il2CppString* _get_$ReceivedBy$k__BackingField();
-    // Set instance field: private System.String <ReceivedBy>k__BackingField
-    void _set_$ReceivedBy$k__BackingField(::Il2CppString* value);
+    // Get instance field reference: private System.String <Comment>k__BackingField
+    ::Il2CppString*& dyn_$Comment$k__BackingField();
+    // Get instance field reference: private System.String <ProtocolName>k__BackingField
+    ::Il2CppString*& dyn_$ProtocolName$k__BackingField();
+    // Get instance field reference: private System.String <ProtocolVersion>k__BackingField
+    ::Il2CppString*& dyn_$ProtocolVersion$k__BackingField();
+    // Get instance field reference: private System.String <ReceivedBy>k__BackingField
+    ::Il2CppString*& dyn_$ReceivedBy$k__BackingField();
     // public System.String get_Comment()
     // Offset: 0x15A98AC
     ::Il2CppString* get_Comment();

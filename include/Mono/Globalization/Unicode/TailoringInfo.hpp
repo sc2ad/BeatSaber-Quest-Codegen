@@ -44,22 +44,14 @@ namespace Mono::Globalization::Unicode {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: TailoringInfo
     TailoringInfo(int LCID_ = {}, int TailoringIndex_ = {}, int TailoringCount_ = {}, bool FrenchSort_ = {}) noexcept : LCID{LCID_}, TailoringIndex{TailoringIndex_}, TailoringCount{TailoringCount_}, FrenchSort{FrenchSort_} {}
-    // Get instance field: public readonly System.Int32 LCID
-    int _get_LCID();
-    // Set instance field: public readonly System.Int32 LCID
-    void _set_LCID(int value);
-    // Get instance field: public readonly System.Int32 TailoringIndex
-    int _get_TailoringIndex();
-    // Set instance field: public readonly System.Int32 TailoringIndex
-    void _set_TailoringIndex(int value);
-    // Get instance field: public readonly System.Int32 TailoringCount
-    int _get_TailoringCount();
-    // Set instance field: public readonly System.Int32 TailoringCount
-    void _set_TailoringCount(int value);
-    // Get instance field: public readonly System.Boolean FrenchSort
-    bool _get_FrenchSort();
-    // Set instance field: public readonly System.Boolean FrenchSort
-    void _set_FrenchSort(bool value);
+    // Get instance field reference: public readonly System.Int32 LCID
+    int& dyn_LCID();
+    // Get instance field reference: public readonly System.Int32 TailoringIndex
+    int& dyn_TailoringIndex();
+    // Get instance field reference: public readonly System.Int32 TailoringCount
+    int& dyn_TailoringCount();
+    // Get instance field reference: public readonly System.Boolean FrenchSort
+    bool& dyn_FrenchSort();
     // public System.Void .ctor(System.Int32 lcid, System.Int32 tailoringIndex, System.Int32 tailoringCount, System.Boolean frenchSort)
     // Offset: 0x1A672D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

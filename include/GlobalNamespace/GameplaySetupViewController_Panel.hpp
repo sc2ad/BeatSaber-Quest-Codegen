@@ -52,18 +52,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
     // Creating value type constructor for type: Panel
     Panel(::Il2CppString* title_ = {}, GlobalNamespace::IRefreshable* refreshable_ = {}, UnityEngine::GameObject* gameObject_ = {}) noexcept : title{title_}, refreshable{refreshable_}, gameObject{gameObject_} {}
-    // Get instance field: public readonly System.String title
-    ::Il2CppString* _get_title();
-    // Set instance field: public readonly System.String title
-    void _set_title(::Il2CppString* value);
-    // Get instance field: public readonly IRefreshable refreshable
-    GlobalNamespace::IRefreshable* _get_refreshable();
-    // Set instance field: public readonly IRefreshable refreshable
-    void _set_refreshable(GlobalNamespace::IRefreshable* value);
-    // Get instance field: public readonly UnityEngine.GameObject gameObject
-    UnityEngine::GameObject* _get_gameObject();
-    // Set instance field: public readonly UnityEngine.GameObject gameObject
-    void _set_gameObject(UnityEngine::GameObject* value);
+    // Get instance field reference: public readonly System.String title
+    ::Il2CppString*& dyn_title();
+    // Get instance field reference: public readonly IRefreshable refreshable
+    GlobalNamespace::IRefreshable*& dyn_refreshable();
+    // Get instance field reference: public readonly UnityEngine.GameObject gameObject
+    UnityEngine::GameObject*& dyn_gameObject();
     // public System.Void .ctor(System.String title, IRefreshable refreshable, UnityEngine.GameObject gameObject)
     // Offset: 0x111084C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

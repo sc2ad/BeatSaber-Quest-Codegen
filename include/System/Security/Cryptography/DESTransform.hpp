@@ -87,18 +87,12 @@ namespace System::Security::Cryptography {
     static ::Array<uint>* _get_fpTab();
     // Set static field: static readonly System.UInt32[] fpTab
     static void _set_fpTab(::Array<uint>* value);
-    // Get instance field: private System.Byte[] keySchedule
-    ::Array<uint8_t>* _get_keySchedule();
-    // Set instance field: private System.Byte[] keySchedule
-    void _set_keySchedule(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] byteBuff
-    ::Array<uint8_t>* _get_byteBuff();
-    // Set instance field: private System.Byte[] byteBuff
-    void _set_byteBuff(::Array<uint8_t>* value);
-    // Get instance field: private System.UInt32[] dwordBuff
-    ::Array<uint>* _get_dwordBuff();
-    // Set instance field: private System.UInt32[] dwordBuff
-    void _set_dwordBuff(::Array<uint>* value);
+    // Get instance field reference: private System.Byte[] keySchedule
+    ::Array<uint8_t>*& dyn_keySchedule();
+    // Get instance field reference: private System.Byte[] byteBuff
+    ::Array<uint8_t>*& dyn_byteBuff();
+    // Get instance field reference: private System.UInt32[] dwordBuff
+    ::Array<uint>*& dyn_dwordBuff();
     // System.Void .ctor(System.Security.Cryptography.SymmetricAlgorithm symmAlgo, System.Boolean encryption, System.Byte[] key, System.Byte[] iv)
     // Offset: 0x198C584
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

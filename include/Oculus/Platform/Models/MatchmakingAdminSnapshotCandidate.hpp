@@ -54,26 +54,16 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: MatchmakingAdminSnapshotCandidate
     MatchmakingAdminSnapshotCandidate(bool CanMatch_ = {}, double MyTotalScore_ = {}, double TheirCurrentThreshold_ = {}, double TheirTotalScore_ = {}, ::Il2CppString* TraceId_ = {}) noexcept : CanMatch{CanMatch_}, MyTotalScore{MyTotalScore_}, TheirCurrentThreshold{TheirCurrentThreshold_}, TheirTotalScore{TheirTotalScore_}, TraceId{TraceId_} {}
-    // Get instance field: public readonly System.Boolean CanMatch
-    bool _get_CanMatch();
-    // Set instance field: public readonly System.Boolean CanMatch
-    void _set_CanMatch(bool value);
-    // Get instance field: public readonly System.Double MyTotalScore
-    double _get_MyTotalScore();
-    // Set instance field: public readonly System.Double MyTotalScore
-    void _set_MyTotalScore(double value);
-    // Get instance field: public readonly System.Double TheirCurrentThreshold
-    double _get_TheirCurrentThreshold();
-    // Set instance field: public readonly System.Double TheirCurrentThreshold
-    void _set_TheirCurrentThreshold(double value);
-    // Get instance field: public readonly System.Double TheirTotalScore
-    double _get_TheirTotalScore();
-    // Set instance field: public readonly System.Double TheirTotalScore
-    void _set_TheirTotalScore(double value);
-    // Get instance field: public readonly System.String TraceId
-    ::Il2CppString* _get_TraceId();
-    // Set instance field: public readonly System.String TraceId
-    void _set_TraceId(::Il2CppString* value);
+    // Get instance field reference: public readonly System.Boolean CanMatch
+    bool& dyn_CanMatch();
+    // Get instance field reference: public readonly System.Double MyTotalScore
+    double& dyn_MyTotalScore();
+    // Get instance field reference: public readonly System.Double TheirCurrentThreshold
+    double& dyn_TheirCurrentThreshold();
+    // Get instance field reference: public readonly System.Double TheirTotalScore
+    double& dyn_TheirTotalScore();
+    // Get instance field reference: public readonly System.String TraceId
+    ::Il2CppString*& dyn_TraceId();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14F1F78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

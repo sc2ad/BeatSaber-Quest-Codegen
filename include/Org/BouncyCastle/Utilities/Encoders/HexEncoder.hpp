@@ -39,14 +39,10 @@ namespace Org::BouncyCastle::Utilities::Encoders {
     static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // Creating value type constructor for type: HexEncoder
     HexEncoder(::Array<uint8_t>* encodingTable_ = {}, ::Array<uint8_t>* decodingTable_ = {}) noexcept : encodingTable{encodingTable_}, decodingTable{decodingTable_} {}
-    // Get instance field: protected readonly System.Byte[] encodingTable
-    ::Array<uint8_t>* _get_encodingTable();
-    // Set instance field: protected readonly System.Byte[] encodingTable
-    void _set_encodingTable(::Array<uint8_t>* value);
-    // Get instance field: protected readonly System.Byte[] decodingTable
-    ::Array<uint8_t>* _get_decodingTable();
-    // Set instance field: protected readonly System.Byte[] decodingTable
-    void _set_decodingTable(::Array<uint8_t>* value);
+    // Get instance field reference: protected readonly System.Byte[] encodingTable
+    ::Array<uint8_t>*& dyn_encodingTable();
+    // Get instance field reference: protected readonly System.Byte[] decodingTable
+    ::Array<uint8_t>*& dyn_decodingTable();
     // protected System.Void InitialiseDecodingTable()
     // Offset: 0x1FECA8C
     void InitialiseDecodingTable();

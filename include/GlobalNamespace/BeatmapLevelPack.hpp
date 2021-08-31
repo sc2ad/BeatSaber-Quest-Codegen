@@ -70,26 +70,16 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IBeatmapLevelPack() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevelPack*>(this);
     }
-    // Get instance field: private System.String _levelPackID
-    ::Il2CppString* _get__levelPackID();
-    // Set instance field: private System.String _levelPackID
-    void _set__levelPackID(::Il2CppString* value);
-    // Get instance field: private System.String _packName
-    ::Il2CppString* _get__packName();
-    // Set instance field: private System.String _packName
-    void _set__packName(::Il2CppString* value);
-    // Get instance field: private System.String _shortPackName
-    ::Il2CppString* _get__shortPackName();
-    // Set instance field: private System.String _shortPackName
-    void _set__shortPackName(::Il2CppString* value);
-    // Get instance field: private UnityEngine.Sprite _coverImage
-    UnityEngine::Sprite* _get__coverImage();
-    // Set instance field: private UnityEngine.Sprite _coverImage
-    void _set__coverImage(UnityEngine::Sprite* value);
-    // Get instance field: private IBeatmapLevelCollection _beatmapLevelCollection
-    GlobalNamespace::IBeatmapLevelCollection* _get__beatmapLevelCollection();
-    // Set instance field: private IBeatmapLevelCollection _beatmapLevelCollection
-    void _set__beatmapLevelCollection(GlobalNamespace::IBeatmapLevelCollection* value);
+    // Get instance field reference: private System.String _levelPackID
+    ::Il2CppString*& dyn__levelPackID();
+    // Get instance field reference: private System.String _packName
+    ::Il2CppString*& dyn__packName();
+    // Get instance field reference: private System.String _shortPackName
+    ::Il2CppString*& dyn__shortPackName();
+    // Get instance field reference: private UnityEngine.Sprite _coverImage
+    UnityEngine::Sprite*& dyn__coverImage();
+    // Get instance field reference: private IBeatmapLevelCollection _beatmapLevelCollection
+    GlobalNamespace::IBeatmapLevelCollection*& dyn__beatmapLevelCollection();
     // public System.String get_packID()
     // Offset: 0x10C1F68
     ::Il2CppString* get_packID();

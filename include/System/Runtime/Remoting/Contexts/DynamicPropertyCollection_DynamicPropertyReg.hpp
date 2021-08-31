@@ -43,14 +43,10 @@ namespace System::Runtime::Remoting::Contexts {
     static_assert(sizeof(System::Runtime::Remoting::Contexts::IDynamicMessageSink*) == 0x8);
     // Creating value type constructor for type: DynamicPropertyReg
     DynamicPropertyReg(System::Runtime::Remoting::Contexts::IDynamicProperty* Property_ = {}, System::Runtime::Remoting::Contexts::IDynamicMessageSink* Sink_ = {}) noexcept : Property{Property_}, Sink{Sink_} {}
-    // Get instance field: public System.Runtime.Remoting.Contexts.IDynamicProperty Property
-    System::Runtime::Remoting::Contexts::IDynamicProperty* _get_Property();
-    // Set instance field: public System.Runtime.Remoting.Contexts.IDynamicProperty Property
-    void _set_Property(System::Runtime::Remoting::Contexts::IDynamicProperty* value);
-    // Get instance field: public System.Runtime.Remoting.Contexts.IDynamicMessageSink Sink
-    System::Runtime::Remoting::Contexts::IDynamicMessageSink* _get_Sink();
-    // Set instance field: public System.Runtime.Remoting.Contexts.IDynamicMessageSink Sink
-    void _set_Sink(System::Runtime::Remoting::Contexts::IDynamicMessageSink* value);
+    // Get instance field reference: public System.Runtime.Remoting.Contexts.IDynamicProperty Property
+    System::Runtime::Remoting::Contexts::IDynamicProperty*& dyn_Property();
+    // Get instance field reference: public System.Runtime.Remoting.Contexts.IDynamicMessageSink Sink
+    System::Runtime::Remoting::Contexts::IDynamicMessageSink*& dyn_Sink();
     // public System.Void .ctor()
     // Offset: 0x1A425D0
     // Implemented from: System.Object

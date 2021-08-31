@@ -70,26 +70,16 @@ namespace GlobalNamespace {
     operator GlobalNamespace::ICPUMonitor() noexcept {
       return *reinterpret_cast<GlobalNamespace::ICPUMonitor*>(this);
     }
-    // Get instance field: private readonly RollingAverage _utilization
-    GlobalNamespace::RollingAverage* _get__utilization();
-    // Set instance field: private readonly RollingAverage _utilization
-    void _set__utilization(GlobalNamespace::RollingAverage* value);
-    // Get instance field: private readonly System.Diagnostics.Process _currentProcess
-    System::Diagnostics::Process* _get__currentProcess();
-    // Set instance field: private readonly System.Diagnostics.Process _currentProcess
-    void _set__currentProcess(System::Diagnostics::Process* value);
-    // Get instance field: private readonly System.Int32 _processorCount
-    int _get__processorCount();
-    // Set instance field: private readonly System.Int32 _processorCount
-    void _set__processorCount(int value);
-    // Get instance field: private System.Int64 _lastSampleTime
-    int64_t _get__lastSampleTime();
-    // Set instance field: private System.Int64 _lastSampleTime
-    void _set__lastSampleTime(int64_t value);
-    // Get instance field: private System.Int64 _lastSampleValue
-    int64_t _get__lastSampleValue();
-    // Set instance field: private System.Int64 _lastSampleValue
-    void _set__lastSampleValue(int64_t value);
+    // Get instance field reference: private readonly RollingAverage _utilization
+    GlobalNamespace::RollingAverage*& dyn__utilization();
+    // Get instance field reference: private readonly System.Diagnostics.Process _currentProcess
+    System::Diagnostics::Process*& dyn__currentProcess();
+    // Get instance field reference: private readonly System.Int32 _processorCount
+    int& dyn__processorCount();
+    // Get instance field reference: private System.Int64 _lastSampleTime
+    int64_t& dyn__lastSampleTime();
+    // Get instance field reference: private System.Int64 _lastSampleValue
+    int64_t& dyn__lastSampleValue();
     // public System.Single get_utilization()
     // Offset: 0x131D82C
     float get_utilization();

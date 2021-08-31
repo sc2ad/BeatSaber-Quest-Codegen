@@ -71,10 +71,8 @@ namespace Org::BouncyCastle::OpenSsl {
     PemReader(Org::BouncyCastle::OpenSsl::IPasswordFinder* pFinder_ = {}) noexcept : pFinder{pFinder_} {}
     // Deleting conversion operator: operator System::IO::TextReader*
     constexpr operator System::IO::TextReader*() const noexcept = delete;
-    // Get instance field: private readonly Org.BouncyCastle.OpenSsl.IPasswordFinder pFinder
-    Org::BouncyCastle::OpenSsl::IPasswordFinder* _get_pFinder();
-    // Set instance field: private readonly Org.BouncyCastle.OpenSsl.IPasswordFinder pFinder
-    void _set_pFinder(Org::BouncyCastle::OpenSsl::IPasswordFinder* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.OpenSsl.IPasswordFinder pFinder
+    Org::BouncyCastle::OpenSsl::IPasswordFinder*& dyn_pFinder();
     // public System.Void .ctor(System.IO.TextReader reader, Org.BouncyCastle.OpenSsl.IPasswordFinder pFinder)
     // Offset: 0x13A2108
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

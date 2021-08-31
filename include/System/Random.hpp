@@ -59,18 +59,12 @@ namespace System {
     static int _get_MZ();
     // Set static field: static private System.Int32 MZ
     static void _set_MZ(int value);
-    // Get instance field: private System.Int32 inext
-    int _get_inext();
-    // Set instance field: private System.Int32 inext
-    void _set_inext(int value);
-    // Get instance field: private System.Int32 inextp
-    int _get_inextp();
-    // Set instance field: private System.Int32 inextp
-    void _set_inextp(int value);
-    // Get instance field: private System.Int32[] SeedArray
-    ::Array<int>* _get_SeedArray();
-    // Set instance field: private System.Int32[] SeedArray
-    void _set_SeedArray(::Array<int>* value);
+    // Get instance field reference: private System.Int32 inext
+    int& dyn_inext();
+    // Get instance field reference: private System.Int32 inextp
+    int& dyn_inextp();
+    // Get instance field reference: private System.Int32[] SeedArray
+    ::Array<int>*& dyn_SeedArray();
     // public System.Void .ctor(System.Int32 Seed)
     // Offset: 0x1D11CC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

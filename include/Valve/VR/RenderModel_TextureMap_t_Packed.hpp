@@ -49,18 +49,12 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Char unWidth
-    ::Il2CppChar _get_unWidth();
-    // Set instance field: public System.Char unWidth
-    void _set_unWidth(::Il2CppChar value);
-    // Get instance field: public System.Char unHeight
-    ::Il2CppChar _get_unHeight();
-    // Set instance field: public System.Char unHeight
-    void _set_unHeight(::Il2CppChar value);
-    // Get instance field: public System.IntPtr rubTextureMapData
-    System::IntPtr _get_rubTextureMapData();
-    // Set instance field: public System.IntPtr rubTextureMapData
-    void _set_rubTextureMapData(System::IntPtr value);
+    // Get instance field reference: public System.Char unWidth
+    ::Il2CppChar& dyn_unWidth();
+    // Get instance field reference: public System.Char unHeight
+    ::Il2CppChar& dyn_unHeight();
+    // Get instance field reference: public System.IntPtr rubTextureMapData
+    System::IntPtr& dyn_rubTextureMapData();
     // public System.Void .ctor(Valve.VR.RenderModel_TextureMap_t unpacked)
     // Offset: 0x23CA56C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

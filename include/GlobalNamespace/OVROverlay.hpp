@@ -126,10 +126,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVROverlay::OverlayShape _get_Fisheye();
       // Set static field: static public OVROverlay/OverlayShape Fisheye
       static void _set_Fisheye(GlobalNamespace::OVROverlay::OverlayShape value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // OVROverlay/OverlayShape
     #pragma pack(pop)
     static check_size<sizeof(OVROverlay::OverlayShape), 0 + sizeof(int)> __GlobalNamespace_OVROverlay_OverlayShapeSizeCheck;
@@ -174,10 +172,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVROverlay::OverlayType _get_Overlay();
       // Set static field: static public OVROverlay/OverlayType Overlay
       static void _set_Overlay(GlobalNamespace::OVROverlay::OverlayType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // OVROverlay/OverlayType
     #pragma pack(pop)
     static check_size<sizeof(OVROverlay::OverlayType), 0 + sizeof(int)> __GlobalNamespace_OVROverlay_OverlayTypeSizeCheck;
@@ -219,22 +215,14 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public UnityEngine.Texture appTexture
-      UnityEngine::Texture* _get_appTexture();
-      // Set instance field: public UnityEngine.Texture appTexture
-      void _set_appTexture(UnityEngine::Texture* value);
-      // Get instance field: public System.IntPtr appTexturePtr
-      System::IntPtr _get_appTexturePtr();
-      // Set instance field: public System.IntPtr appTexturePtr
-      void _set_appTexturePtr(System::IntPtr value);
-      // Get instance field: public UnityEngine.Texture[] swapChain
-      ::Array<UnityEngine::Texture*>* _get_swapChain();
-      // Set instance field: public UnityEngine.Texture[] swapChain
-      void _set_swapChain(::Array<UnityEngine::Texture*>* value);
-      // Get instance field: public System.IntPtr[] swapChainPtr
-      ::Array<System::IntPtr>* _get_swapChainPtr();
-      // Set instance field: public System.IntPtr[] swapChainPtr
-      void _set_swapChainPtr(::Array<System::IntPtr>* value);
+      // Get instance field reference: public UnityEngine.Texture appTexture
+      UnityEngine::Texture*& dyn_appTexture();
+      // Get instance field reference: public System.IntPtr appTexturePtr
+      System::IntPtr& dyn_appTexturePtr();
+      // Get instance field reference: public UnityEngine.Texture[] swapChain
+      ::Array<UnityEngine::Texture*>*& dyn_swapChain();
+      // Get instance field reference: public System.IntPtr[] swapChainPtr
+      ::Array<System::IntPtr>*& dyn_swapChainPtr();
     }; // OVROverlay/LayerTexture
     #pragma pack(pop)
     static check_size<sizeof(OVROverlay::LayerTexture), 24 + sizeof(::Array<System::IntPtr>*)> __GlobalNamespace_OVROverlay_LayerTextureSizeCheck;
@@ -566,190 +554,98 @@ namespace GlobalNamespace {
     static UnityEngine::Material* _get_cubeMaterial();
     // Set static field: static private UnityEngine.Material cubeMaterial
     static void _set_cubeMaterial(UnityEngine::Material* value);
-    // Get instance field: public OVROverlay/OverlayType currentOverlayType
-    GlobalNamespace::OVROverlay::OverlayType _get_currentOverlayType();
-    // Set instance field: public OVROverlay/OverlayType currentOverlayType
-    void _set_currentOverlayType(GlobalNamespace::OVROverlay::OverlayType value);
-    // Get instance field: public System.Boolean isDynamic
-    bool _get_isDynamic();
-    // Set instance field: public System.Boolean isDynamic
-    void _set_isDynamic(bool value);
-    // Get instance field: public System.Boolean isProtectedContent
-    bool _get_isProtectedContent();
-    // Set instance field: public System.Boolean isProtectedContent
-    void _set_isProtectedContent(bool value);
-    // Get instance field: public UnityEngine.Rect srcRectLeft
-    UnityEngine::Rect _get_srcRectLeft();
-    // Set instance field: public UnityEngine.Rect srcRectLeft
-    void _set_srcRectLeft(UnityEngine::Rect value);
-    // Get instance field: public UnityEngine.Rect srcRectRight
-    UnityEngine::Rect _get_srcRectRight();
-    // Set instance field: public UnityEngine.Rect srcRectRight
-    void _set_srcRectRight(UnityEngine::Rect value);
-    // Get instance field: public UnityEngine.Rect destRectLeft
-    UnityEngine::Rect _get_destRectLeft();
-    // Set instance field: public UnityEngine.Rect destRectLeft
-    void _set_destRectLeft(UnityEngine::Rect value);
-    // Get instance field: public UnityEngine.Rect destRectRight
-    UnityEngine::Rect _get_destRectRight();
-    // Set instance field: public UnityEngine.Rect destRectRight
-    void _set_destRectRight(UnityEngine::Rect value);
-    // Get instance field: public System.Boolean invertTextureRects
-    bool _get_invertTextureRects();
-    // Set instance field: public System.Boolean invertTextureRects
-    void _set_invertTextureRects(bool value);
-    // Get instance field: private OVRPlugin/TextureRectMatrixf textureRectMatrix
-    GlobalNamespace::OVRPlugin::TextureRectMatrixf _get_textureRectMatrix();
-    // Set instance field: private OVRPlugin/TextureRectMatrixf textureRectMatrix
-    void _set_textureRectMatrix(GlobalNamespace::OVRPlugin::TextureRectMatrixf value);
-    // Get instance field: public System.Boolean overrideTextureRectMatrix
-    bool _get_overrideTextureRectMatrix();
-    // Set instance field: public System.Boolean overrideTextureRectMatrix
-    void _set_overrideTextureRectMatrix(bool value);
-    // Get instance field: public System.Boolean overridePerLayerColorScaleAndOffset
-    bool _get_overridePerLayerColorScaleAndOffset();
-    // Set instance field: public System.Boolean overridePerLayerColorScaleAndOffset
-    void _set_overridePerLayerColorScaleAndOffset(bool value);
-    // Get instance field: public UnityEngine.Vector4 colorScale
-    UnityEngine::Vector4 _get_colorScale();
-    // Set instance field: public UnityEngine.Vector4 colorScale
-    void _set_colorScale(UnityEngine::Vector4 value);
-    // Get instance field: public UnityEngine.Vector4 colorOffset
-    UnityEngine::Vector4 _get_colorOffset();
-    // Set instance field: public UnityEngine.Vector4 colorOffset
-    void _set_colorOffset(UnityEngine::Vector4 value);
-    // Get instance field: public System.Boolean useExpensiveSuperSample
-    bool _get_useExpensiveSuperSample();
-    // Set instance field: public System.Boolean useExpensiveSuperSample
-    void _set_useExpensiveSuperSample(bool value);
-    // Get instance field: public System.Boolean hidden
-    bool _get_hidden();
-    // Set instance field: public System.Boolean hidden
-    void _set_hidden(bool value);
-    // Get instance field: public System.Boolean isExternalSurface
-    bool _get_isExternalSurface();
-    // Set instance field: public System.Boolean isExternalSurface
-    void _set_isExternalSurface(bool value);
-    // Get instance field: public System.Int32 externalSurfaceWidth
-    int _get_externalSurfaceWidth();
-    // Set instance field: public System.Int32 externalSurfaceWidth
-    void _set_externalSurfaceWidth(int value);
-    // Get instance field: public System.Int32 externalSurfaceHeight
-    int _get_externalSurfaceHeight();
-    // Set instance field: public System.Int32 externalSurfaceHeight
-    void _set_externalSurfaceHeight(int value);
-    // Get instance field: public System.Int32 compositionDepth
-    int _get_compositionDepth();
-    // Set instance field: public System.Int32 compositionDepth
-    void _set_compositionDepth(int value);
-    // Get instance field: private System.Int32 layerCompositionDepth
-    int _get_layerCompositionDepth();
-    // Set instance field: private System.Int32 layerCompositionDepth
-    void _set_layerCompositionDepth(int value);
-    // Get instance field: public System.Boolean noDepthBufferTesting
-    bool _get_noDepthBufferTesting();
-    // Set instance field: public System.Boolean noDepthBufferTesting
-    void _set_noDepthBufferTesting(bool value);
-    // Get instance field: public OVRPlugin/EyeTextureFormat layerTextureFormat
-    GlobalNamespace::OVRPlugin::EyeTextureFormat _get_layerTextureFormat();
-    // Set instance field: public OVRPlugin/EyeTextureFormat layerTextureFormat
-    void _set_layerTextureFormat(GlobalNamespace::OVRPlugin::EyeTextureFormat value);
-    // Get instance field: public OVROverlay/OverlayShape currentOverlayShape
-    GlobalNamespace::OVROverlay::OverlayShape _get_currentOverlayShape();
-    // Set instance field: public OVROverlay/OverlayShape currentOverlayShape
-    void _set_currentOverlayShape(GlobalNamespace::OVROverlay::OverlayShape value);
-    // Get instance field: private OVROverlay/OverlayShape prevOverlayShape
-    GlobalNamespace::OVROverlay::OverlayShape _get_prevOverlayShape();
-    // Set instance field: private OVROverlay/OverlayShape prevOverlayShape
-    void _set_prevOverlayShape(GlobalNamespace::OVROverlay::OverlayShape value);
-    // Get instance field: public UnityEngine.Texture[] textures
-    ::Array<UnityEngine::Texture*>* _get_textures();
-    // Set instance field: public UnityEngine.Texture[] textures
-    void _set_textures(::Array<UnityEngine::Texture*>* value);
-    // Get instance field: public System.Boolean isAlphaPremultiplied
-    bool _get_isAlphaPremultiplied();
-    // Set instance field: public System.Boolean isAlphaPremultiplied
-    void _set_isAlphaPremultiplied(bool value);
-    // Get instance field: private System.Boolean _previewInEditor
-    bool _get__previewInEditor();
-    // Set instance field: private System.Boolean _previewInEditor
-    void _set__previewInEditor(bool value);
-    // Get instance field: protected System.IntPtr[] texturePtrs
-    ::Array<System::IntPtr>* _get_texturePtrs();
-    // Set instance field: protected System.IntPtr[] texturePtrs
-    void _set_texturePtrs(::Array<System::IntPtr>* value);
-    // Get instance field: public System.IntPtr externalSurfaceObject
-    System::IntPtr _get_externalSurfaceObject();
-    // Set instance field: public System.IntPtr externalSurfaceObject
-    void _set_externalSurfaceObject(System::IntPtr value);
-    // Get instance field: public OVROverlay/ExternalSurfaceObjectCreated externalSurfaceObjectCreated
-    GlobalNamespace::OVROverlay::ExternalSurfaceObjectCreated* _get_externalSurfaceObjectCreated();
-    // Set instance field: public OVROverlay/ExternalSurfaceObjectCreated externalSurfaceObjectCreated
-    void _set_externalSurfaceObjectCreated(GlobalNamespace::OVROverlay::ExternalSurfaceObjectCreated* value);
-    // Get instance field: protected System.Boolean isOverridePending
-    bool _get_isOverridePending();
-    // Set instance field: protected System.Boolean isOverridePending
-    void _set_isOverridePending(bool value);
-    // Get instance field: private OVROverlay/LayerTexture[] layerTextures
-    ::Array<GlobalNamespace::OVROverlay::LayerTexture>* _get_layerTextures();
-    // Set instance field: private OVROverlay/LayerTexture[] layerTextures
-    void _set_layerTextures(::Array<GlobalNamespace::OVROverlay::LayerTexture>* value);
-    // Get instance field: private OVRPlugin/LayerDesc layerDesc
-    GlobalNamespace::OVRPlugin::LayerDesc _get_layerDesc();
-    // Set instance field: private OVRPlugin/LayerDesc layerDesc
-    void _set_layerDesc(GlobalNamespace::OVRPlugin::LayerDesc value);
-    // Get instance field: private System.Int32 stageCount
-    int _get_stageCount();
-    // Set instance field: private System.Int32 stageCount
-    void _set_stageCount(int value);
-    // Get instance field: private System.Int32 layerIndex
-    int _get_layerIndex();
-    // Set instance field: private System.Int32 layerIndex
-    void _set_layerIndex(int value);
-    // Get instance field: private System.Int32 layerId
-    int _get_layerId();
-    // Set instance field: private System.Int32 layerId
-    void _set_layerId(int value);
-    // Get instance field: private System.Runtime.InteropServices.GCHandle layerIdHandle
-    System::Runtime::InteropServices::GCHandle _get_layerIdHandle();
-    // Set instance field: private System.Runtime.InteropServices.GCHandle layerIdHandle
-    void _set_layerIdHandle(System::Runtime::InteropServices::GCHandle value);
-    // Get instance field: private System.IntPtr layerIdPtr
-    System::IntPtr _get_layerIdPtr();
-    // Set instance field: private System.IntPtr layerIdPtr
-    void _set_layerIdPtr(System::IntPtr value);
-    // Get instance field: private System.Int32 frameIndex
-    int _get_frameIndex();
-    // Set instance field: private System.Int32 frameIndex
-    void _set_frameIndex(int value);
-    // Get instance field: private System.Int32 prevFrameIndex
-    int _get_prevFrameIndex();
-    // Set instance field: private System.Int32 prevFrameIndex
-    void _set_prevFrameIndex(int value);
-    // Get instance field: private UnityEngine.Renderer rend
-    UnityEngine::Renderer* _get_rend();
-    // Set instance field: private UnityEngine.Renderer rend
-    void _set_rend(UnityEngine::Renderer* value);
-    // Get instance field: private System.UInt64 OpenVROverlayHandle
-    uint64_t _get_OpenVROverlayHandle();
-    // Set instance field: private System.UInt64 OpenVROverlayHandle
-    void _set_OpenVROverlayHandle(uint64_t value);
-    // Get instance field: private UnityEngine.Vector4 OpenVRUVOffsetAndScale
-    UnityEngine::Vector4 _get_OpenVRUVOffsetAndScale();
-    // Set instance field: private UnityEngine.Vector4 OpenVRUVOffsetAndScale
-    void _set_OpenVRUVOffsetAndScale(UnityEngine::Vector4 value);
-    // Get instance field: private UnityEngine.Vector2 OpenVRMouseScale
-    UnityEngine::Vector2 _get_OpenVRMouseScale();
-    // Set instance field: private UnityEngine.Vector2 OpenVRMouseScale
-    void _set_OpenVRMouseScale(UnityEngine::Vector2 value);
-    // Get instance field: private OVRManager/XRDevice constructedOverlayXRDevice
-    GlobalNamespace::OVRManager_XRDevice _get_constructedOverlayXRDevice();
-    // Set instance field: private OVRManager/XRDevice constructedOverlayXRDevice
-    void _set_constructedOverlayXRDevice(GlobalNamespace::OVRManager_XRDevice value);
-    // Get instance field: private System.Boolean xrDeviceConstructed
-    bool _get_xrDeviceConstructed();
-    // Set instance field: private System.Boolean xrDeviceConstructed
-    void _set_xrDeviceConstructed(bool value);
+    // Get instance field reference: public OVROverlay/OverlayType currentOverlayType
+    GlobalNamespace::OVROverlay::OverlayType& dyn_currentOverlayType();
+    // Get instance field reference: public System.Boolean isDynamic
+    bool& dyn_isDynamic();
+    // Get instance field reference: public System.Boolean isProtectedContent
+    bool& dyn_isProtectedContent();
+    // Get instance field reference: public UnityEngine.Rect srcRectLeft
+    UnityEngine::Rect& dyn_srcRectLeft();
+    // Get instance field reference: public UnityEngine.Rect srcRectRight
+    UnityEngine::Rect& dyn_srcRectRight();
+    // Get instance field reference: public UnityEngine.Rect destRectLeft
+    UnityEngine::Rect& dyn_destRectLeft();
+    // Get instance field reference: public UnityEngine.Rect destRectRight
+    UnityEngine::Rect& dyn_destRectRight();
+    // Get instance field reference: public System.Boolean invertTextureRects
+    bool& dyn_invertTextureRects();
+    // Get instance field reference: private OVRPlugin/TextureRectMatrixf textureRectMatrix
+    GlobalNamespace::OVRPlugin::TextureRectMatrixf& dyn_textureRectMatrix();
+    // Get instance field reference: public System.Boolean overrideTextureRectMatrix
+    bool& dyn_overrideTextureRectMatrix();
+    // Get instance field reference: public System.Boolean overridePerLayerColorScaleAndOffset
+    bool& dyn_overridePerLayerColorScaleAndOffset();
+    // Get instance field reference: public UnityEngine.Vector4 colorScale
+    UnityEngine::Vector4& dyn_colorScale();
+    // Get instance field reference: public UnityEngine.Vector4 colorOffset
+    UnityEngine::Vector4& dyn_colorOffset();
+    // Get instance field reference: public System.Boolean useExpensiveSuperSample
+    bool& dyn_useExpensiveSuperSample();
+    // Get instance field reference: public System.Boolean hidden
+    bool& dyn_hidden();
+    // Get instance field reference: public System.Boolean isExternalSurface
+    bool& dyn_isExternalSurface();
+    // Get instance field reference: public System.Int32 externalSurfaceWidth
+    int& dyn_externalSurfaceWidth();
+    // Get instance field reference: public System.Int32 externalSurfaceHeight
+    int& dyn_externalSurfaceHeight();
+    // Get instance field reference: public System.Int32 compositionDepth
+    int& dyn_compositionDepth();
+    // Get instance field reference: private System.Int32 layerCompositionDepth
+    int& dyn_layerCompositionDepth();
+    // Get instance field reference: public System.Boolean noDepthBufferTesting
+    bool& dyn_noDepthBufferTesting();
+    // Get instance field reference: public OVRPlugin/EyeTextureFormat layerTextureFormat
+    GlobalNamespace::OVRPlugin::EyeTextureFormat& dyn_layerTextureFormat();
+    // Get instance field reference: public OVROverlay/OverlayShape currentOverlayShape
+    GlobalNamespace::OVROverlay::OverlayShape& dyn_currentOverlayShape();
+    // Get instance field reference: private OVROverlay/OverlayShape prevOverlayShape
+    GlobalNamespace::OVROverlay::OverlayShape& dyn_prevOverlayShape();
+    // Get instance field reference: public UnityEngine.Texture[] textures
+    ::Array<UnityEngine::Texture*>*& dyn_textures();
+    // Get instance field reference: public System.Boolean isAlphaPremultiplied
+    bool& dyn_isAlphaPremultiplied();
+    // Get instance field reference: private System.Boolean _previewInEditor
+    bool& dyn__previewInEditor();
+    // Get instance field reference: protected System.IntPtr[] texturePtrs
+    ::Array<System::IntPtr>*& dyn_texturePtrs();
+    // Get instance field reference: public System.IntPtr externalSurfaceObject
+    System::IntPtr& dyn_externalSurfaceObject();
+    // Get instance field reference: public OVROverlay/ExternalSurfaceObjectCreated externalSurfaceObjectCreated
+    GlobalNamespace::OVROverlay::ExternalSurfaceObjectCreated*& dyn_externalSurfaceObjectCreated();
+    // Get instance field reference: protected System.Boolean isOverridePending
+    bool& dyn_isOverridePending();
+    // Get instance field reference: private OVROverlay/LayerTexture[] layerTextures
+    ::Array<GlobalNamespace::OVROverlay::LayerTexture>*& dyn_layerTextures();
+    // Get instance field reference: private OVRPlugin/LayerDesc layerDesc
+    GlobalNamespace::OVRPlugin::LayerDesc& dyn_layerDesc();
+    // Get instance field reference: private System.Int32 stageCount
+    int& dyn_stageCount();
+    // Get instance field reference: private System.Int32 layerIndex
+    int& dyn_layerIndex();
+    // Get instance field reference: private System.Int32 layerId
+    int& dyn_layerId();
+    // Get instance field reference: private System.Runtime.InteropServices.GCHandle layerIdHandle
+    System::Runtime::InteropServices::GCHandle& dyn_layerIdHandle();
+    // Get instance field reference: private System.IntPtr layerIdPtr
+    System::IntPtr& dyn_layerIdPtr();
+    // Get instance field reference: private System.Int32 frameIndex
+    int& dyn_frameIndex();
+    // Get instance field reference: private System.Int32 prevFrameIndex
+    int& dyn_prevFrameIndex();
+    // Get instance field reference: private UnityEngine.Renderer rend
+    UnityEngine::Renderer*& dyn_rend();
+    // Get instance field reference: private System.UInt64 OpenVROverlayHandle
+    uint64_t& dyn_OpenVROverlayHandle();
+    // Get instance field reference: private UnityEngine.Vector4 OpenVRUVOffsetAndScale
+    UnityEngine::Vector4& dyn_OpenVRUVOffsetAndScale();
+    // Get instance field reference: private UnityEngine.Vector2 OpenVRMouseScale
+    UnityEngine::Vector2& dyn_OpenVRMouseScale();
+    // Get instance field reference: private OVRManager/XRDevice constructedOverlayXRDevice
+    GlobalNamespace::OVRManager_XRDevice& dyn_constructedOverlayXRDevice();
+    // Get instance field reference: private System.Boolean xrDeviceConstructed
+    bool& dyn_xrDeviceConstructed();
     // public System.Boolean get_previewInEditor()
     // Offset: 0x133A98C
     bool get_previewInEditor();

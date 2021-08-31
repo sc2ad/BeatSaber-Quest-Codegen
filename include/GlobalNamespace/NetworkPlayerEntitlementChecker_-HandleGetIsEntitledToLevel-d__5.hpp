@@ -64,26 +64,16 @@ namespace GlobalNamespace {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
-    // Get instance field: public System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: public System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
-    System::Runtime::CompilerServices::AsyncVoidMethodBuilder _get_$$t__builder();
-    // Set instance field: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
-    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncVoidMethodBuilder value);
-    // Get instance field: public NetworkPlayerEntitlementChecker <>4__this
-    GlobalNamespace::NetworkPlayerEntitlementChecker* _get_$$4__this();
-    // Set instance field: public NetworkPlayerEntitlementChecker <>4__this
-    void _set_$$4__this(GlobalNamespace::NetworkPlayerEntitlementChecker* value);
-    // Get instance field: public System.String levelId
-    ::Il2CppString* _get_levelId();
-    // Set instance field: public System.String levelId
-    void _set_levelId(::Il2CppString* value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<EntitlementsStatus> <>u__1
-    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EntitlementsStatus> _get_$$u__1();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<EntitlementsStatus> <>u__1
-    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EntitlementsStatus> value);
+    // Get instance field reference: public System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
+    System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
+    // Get instance field reference: public NetworkPlayerEntitlementChecker <>4__this
+    GlobalNamespace::NetworkPlayerEntitlementChecker*& dyn_$$4__this();
+    // Get instance field reference: public System.String levelId
+    ::Il2CppString*& dyn_levelId();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<EntitlementsStatus> <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EntitlementsStatus>& dyn_$$u__1();
     // private System.Void MoveNext()
     // Offset: 0x1041A08
     void MoveNext();

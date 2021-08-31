@@ -63,22 +63,14 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
     // Creating value type constructor for type: BoneLink
     BoneLink(UnityEngine::Transform* bone_ = {}, float weight_ = {}, UnityEngine::Quaternion lastValue_ = {}, UnityEngine::Quaternion current_ = {}) noexcept : bone{bone_}, weight{weight_}, lastValue{lastValue_}, current{current_} {}
-    // Get instance field: public UnityEngine.Transform bone
-    UnityEngine::Transform* _get_bone();
-    // Set instance field: public UnityEngine.Transform bone
-    void _set_bone(UnityEngine::Transform* value);
-    // Get instance field: public System.Single weight
-    float _get_weight();
-    // Set instance field: public System.Single weight
-    void _set_weight(float value);
-    // Get instance field: private UnityEngine.Quaternion lastValue
-    UnityEngine::Quaternion _get_lastValue();
-    // Set instance field: private UnityEngine.Quaternion lastValue
-    void _set_lastValue(UnityEngine::Quaternion value);
-    // Get instance field: private UnityEngine.Quaternion current
-    UnityEngine::Quaternion _get_current();
-    // Set instance field: private UnityEngine.Quaternion current
-    void _set_current(UnityEngine::Quaternion value);
+    // Get instance field reference: public UnityEngine.Transform bone
+    UnityEngine::Transform*& dyn_bone();
+    // Get instance field reference: public System.Single weight
+    float& dyn_weight();
+    // Get instance field reference: private UnityEngine.Quaternion lastValue
+    UnityEngine::Quaternion& dyn_lastValue();
+    // Get instance field reference: private UnityEngine.Quaternion current
+    UnityEngine::Quaternion& dyn_current();
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, UnityEngine.Quaternion offset, System.Single crossFader)
     // Offset: 0x1CCE764
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, UnityEngine::Quaternion offset, float crossFader);

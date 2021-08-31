@@ -106,42 +106,24 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.Sprite _sprite
-    UnityEngine::Sprite* _get__sprite();
-    // Set instance field: private UnityEngine.Sprite _sprite
-    void _set__sprite(UnityEngine::Sprite* value);
-    // Get instance field: private UnityEngine.Material _material
-    UnityEngine::Material* _get__material();
-    // Set instance field: private UnityEngine.Material _material
-    void _set__material(UnityEngine::Material* value);
-    // Get instance field: private System.Single _duration
-    float _get__duration();
-    // Set instance field: private System.Single _duration
-    void _set__duration(float value);
-    // Get instance field: private System.Single _xSpread
-    float _get__xSpread();
-    // Set instance field: private System.Single _xSpread
-    void _set__xSpread(float value);
-    // Get instance field: private System.Single _targetYPos
-    float _get__targetYPos();
-    // Set instance field: private System.Single _targetYPos
-    void _set__targetYPos(float value);
-    // Get instance field: private System.Single _targetZPos
-    float _get__targetZPos();
-    // Set instance field: private System.Single _targetZPos
-    void _set__targetZPos(float value);
-    // Get instance field: private UnityEngine.Color _color
-    UnityEngine::Color _get__color();
-    // Set instance field: private UnityEngine.Color _color
-    void _set__color(UnityEngine::Color value);
-    // Get instance field: private System.Boolean _shake
-    bool _get__shake();
-    // Set instance field: private System.Boolean _shake
-    void _set__shake(bool value);
-    // Get instance field: private readonly FlyingSpriteEffect/Pool _flyingSpriteEffectPool
-    GlobalNamespace::FlyingSpriteEffect::Pool* _get__flyingSpriteEffectPool();
-    // Set instance field: private readonly FlyingSpriteEffect/Pool _flyingSpriteEffectPool
-    void _set__flyingSpriteEffectPool(GlobalNamespace::FlyingSpriteEffect::Pool* value);
+    // Get instance field reference: private UnityEngine.Sprite _sprite
+    UnityEngine::Sprite*& dyn__sprite();
+    // Get instance field reference: private UnityEngine.Material _material
+    UnityEngine::Material*& dyn__material();
+    // Get instance field reference: private System.Single _duration
+    float& dyn__duration();
+    // Get instance field reference: private System.Single _xSpread
+    float& dyn__xSpread();
+    // Get instance field reference: private System.Single _targetYPos
+    float& dyn__targetYPos();
+    // Get instance field reference: private System.Single _targetZPos
+    float& dyn__targetZPos();
+    // Get instance field reference: private UnityEngine.Color _color
+    UnityEngine::Color& dyn__color();
+    // Get instance field reference: private System.Boolean _shake
+    bool& dyn__shake();
+    // Get instance field reference: private readonly FlyingSpriteEffect/Pool _flyingSpriteEffectPool
+    GlobalNamespace::FlyingSpriteEffect::Pool*& dyn__flyingSpriteEffectPool();
     // public System.Void SpawnFlyingSprite(UnityEngine.Vector3 pos, UnityEngine.Quaternion rotation, UnityEngine.Quaternion inverseRotation)
     // Offset: 0x105BA78
     void SpawnFlyingSprite(UnityEngine::Vector3 pos, UnityEngine::Quaternion rotation, UnityEngine::Quaternion inverseRotation);

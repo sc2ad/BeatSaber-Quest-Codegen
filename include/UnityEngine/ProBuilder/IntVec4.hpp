@@ -45,10 +45,8 @@ namespace UnityEngine::ProBuilder {
     constexpr operator UnityEngine::Vector4() const noexcept {
       return value;
     }
-    // Get instance field: public UnityEngine.Vector4 value
-    UnityEngine::Vector4 _get_value();
-    // Set instance field: public UnityEngine.Vector4 value
-    void _set_value(UnityEngine::Vector4 value);
+    // Get instance field reference: public UnityEngine.Vector4 value
+    UnityEngine::Vector4& dyn_value();
     // public System.Single get_x()
     // Offset: 0x1AF56F0
     float get_x();

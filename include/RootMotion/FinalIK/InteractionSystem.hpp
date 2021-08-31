@@ -230,102 +230,54 @@ namespace RootMotion::FinalIK {
     InteractionSystem(::Il2CppString* targetTag_ = {}, float fadeInTime_ = {}, float speed_ = {}, float resetToDefaultsSpeed_ = {}, UnityEngine::Collider* characterCollider_ = {}, UnityEngine::Transform* FPSCamera_ = {}, UnityEngine::LayerMask camRaycastLayers_ = {}, float camRaycastDistance_ = {}, System::Collections::Generic::List_1<RootMotion::FinalIK::InteractionTrigger*>* triggersInRange_ = {}, System::Collections::Generic::List_1<RootMotion::FinalIK::InteractionTrigger*>* inContact_ = {}, System::Collections::Generic::List_1<int>* bestRangeIndexes_ = {}, RootMotion::FinalIK::InteractionSystem::InteractionDelegate* OnInteractionStart_ = {}, RootMotion::FinalIK::InteractionSystem::InteractionDelegate* OnInteractionPause_ = {}, RootMotion::FinalIK::InteractionSystem::InteractionDelegate* OnInteractionPickUp_ = {}, RootMotion::FinalIK::InteractionSystem::InteractionDelegate* OnInteractionResume_ = {}, RootMotion::FinalIK::InteractionSystem::InteractionDelegate* OnInteractionStop_ = {}, RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate* OnInteractionEvent_ = {}, UnityEngine::RaycastHit raycastHit_ = {}, RootMotion::FinalIK::FullBodyBipedIK* fullBody_ = {}, RootMotion::FinalIK::InteractionLookAt* lookAt_ = {}, ::Array<RootMotion::FinalIK::InteractionEffector*>* interactionEffectors_ = {}, bool initiated_ = {}, UnityEngine::Collider* lastCollider_ = {}, UnityEngine::Collider* c_ = {}) noexcept : targetTag{targetTag_}, fadeInTime{fadeInTime_}, speed{speed_}, resetToDefaultsSpeed{resetToDefaultsSpeed_}, characterCollider{characterCollider_}, FPSCamera{FPSCamera_}, camRaycastLayers{camRaycastLayers_}, camRaycastDistance{camRaycastDistance_}, triggersInRange{triggersInRange_}, inContact{inContact_}, bestRangeIndexes{bestRangeIndexes_}, OnInteractionStart{OnInteractionStart_}, OnInteractionPause{OnInteractionPause_}, OnInteractionPickUp{OnInteractionPickUp_}, OnInteractionResume{OnInteractionResume_}, OnInteractionStop{OnInteractionStop_}, OnInteractionEvent{OnInteractionEvent_}, raycastHit{raycastHit_}, fullBody{fullBody_}, lookAt{lookAt_}, interactionEffectors{interactionEffectors_}, initiated{initiated_}, lastCollider{lastCollider_}, c{c_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public System.String targetTag
-    ::Il2CppString* _get_targetTag();
-    // Set instance field: public System.String targetTag
-    void _set_targetTag(::Il2CppString* value);
-    // Get instance field: public System.Single fadeInTime
-    float _get_fadeInTime();
-    // Set instance field: public System.Single fadeInTime
-    void _set_fadeInTime(float value);
-    // Get instance field: public System.Single speed
-    float _get_speed();
-    // Set instance field: public System.Single speed
-    void _set_speed(float value);
-    // Get instance field: public System.Single resetToDefaultsSpeed
-    float _get_resetToDefaultsSpeed();
-    // Set instance field: public System.Single resetToDefaultsSpeed
-    void _set_resetToDefaultsSpeed(float value);
-    // Get instance field: public UnityEngine.Collider characterCollider
-    UnityEngine::Collider* _get_characterCollider();
-    // Set instance field: public UnityEngine.Collider characterCollider
-    void _set_characterCollider(UnityEngine::Collider* value);
-    // Get instance field: public UnityEngine.Transform FPSCamera
-    UnityEngine::Transform* _get_FPSCamera();
-    // Set instance field: public UnityEngine.Transform FPSCamera
-    void _set_FPSCamera(UnityEngine::Transform* value);
-    // Get instance field: public UnityEngine.LayerMask camRaycastLayers
-    UnityEngine::LayerMask _get_camRaycastLayers();
-    // Set instance field: public UnityEngine.LayerMask camRaycastLayers
-    void _set_camRaycastLayers(UnityEngine::LayerMask value);
-    // Get instance field: public System.Single camRaycastDistance
-    float _get_camRaycastDistance();
-    // Set instance field: public System.Single camRaycastDistance
-    void _set_camRaycastDistance(float value);
-    // Get instance field: private System.Collections.Generic.List`1<RootMotion.FinalIK.InteractionTrigger> <triggersInRange>k__BackingField
-    System::Collections::Generic::List_1<RootMotion::FinalIK::InteractionTrigger*>* _get_$triggersInRange$k__BackingField();
-    // Set instance field: private System.Collections.Generic.List`1<RootMotion.FinalIK.InteractionTrigger> <triggersInRange>k__BackingField
-    void _set_$triggersInRange$k__BackingField(System::Collections::Generic::List_1<RootMotion::FinalIK::InteractionTrigger*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<RootMotion.FinalIK.InteractionTrigger> inContact
-    System::Collections::Generic::List_1<RootMotion::FinalIK::InteractionTrigger*>* _get_inContact();
-    // Set instance field: private System.Collections.Generic.List`1<RootMotion.FinalIK.InteractionTrigger> inContact
-    void _set_inContact(System::Collections::Generic::List_1<RootMotion::FinalIK::InteractionTrigger*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<System.Int32> bestRangeIndexes
-    System::Collections::Generic::List_1<int>* _get_bestRangeIndexes();
-    // Set instance field: private System.Collections.Generic.List`1<System.Int32> bestRangeIndexes
-    void _set_bestRangeIndexes(System::Collections::Generic::List_1<int>* value);
-    // Get instance field: public RootMotion.FinalIK.InteractionSystem/RootMotion.FinalIK.InteractionDelegate OnInteractionStart
-    RootMotion::FinalIK::InteractionSystem::InteractionDelegate* _get_OnInteractionStart();
-    // Set instance field: public RootMotion.FinalIK.InteractionSystem/RootMotion.FinalIK.InteractionDelegate OnInteractionStart
-    void _set_OnInteractionStart(RootMotion::FinalIK::InteractionSystem::InteractionDelegate* value);
-    // Get instance field: public RootMotion.FinalIK.InteractionSystem/RootMotion.FinalIK.InteractionDelegate OnInteractionPause
-    RootMotion::FinalIK::InteractionSystem::InteractionDelegate* _get_OnInteractionPause();
-    // Set instance field: public RootMotion.FinalIK.InteractionSystem/RootMotion.FinalIK.InteractionDelegate OnInteractionPause
-    void _set_OnInteractionPause(RootMotion::FinalIK::InteractionSystem::InteractionDelegate* value);
-    // Get instance field: public RootMotion.FinalIK.InteractionSystem/RootMotion.FinalIK.InteractionDelegate OnInteractionPickUp
-    RootMotion::FinalIK::InteractionSystem::InteractionDelegate* _get_OnInteractionPickUp();
-    // Set instance field: public RootMotion.FinalIK.InteractionSystem/RootMotion.FinalIK.InteractionDelegate OnInteractionPickUp
-    void _set_OnInteractionPickUp(RootMotion::FinalIK::InteractionSystem::InteractionDelegate* value);
-    // Get instance field: public RootMotion.FinalIK.InteractionSystem/RootMotion.FinalIK.InteractionDelegate OnInteractionResume
-    RootMotion::FinalIK::InteractionSystem::InteractionDelegate* _get_OnInteractionResume();
-    // Set instance field: public RootMotion.FinalIK.InteractionSystem/RootMotion.FinalIK.InteractionDelegate OnInteractionResume
-    void _set_OnInteractionResume(RootMotion::FinalIK::InteractionSystem::InteractionDelegate* value);
-    // Get instance field: public RootMotion.FinalIK.InteractionSystem/RootMotion.FinalIK.InteractionDelegate OnInteractionStop
-    RootMotion::FinalIK::InteractionSystem::InteractionDelegate* _get_OnInteractionStop();
-    // Set instance field: public RootMotion.FinalIK.InteractionSystem/RootMotion.FinalIK.InteractionDelegate OnInteractionStop
-    void _set_OnInteractionStop(RootMotion::FinalIK::InteractionSystem::InteractionDelegate* value);
-    // Get instance field: public RootMotion.FinalIK.InteractionSystem/RootMotion.FinalIK.InteractionEventDelegate OnInteractionEvent
-    RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate* _get_OnInteractionEvent();
-    // Set instance field: public RootMotion.FinalIK.InteractionSystem/RootMotion.FinalIK.InteractionEventDelegate OnInteractionEvent
-    void _set_OnInteractionEvent(RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate* value);
-    // Get instance field: public UnityEngine.RaycastHit raycastHit
-    UnityEngine::RaycastHit _get_raycastHit();
-    // Set instance field: public UnityEngine.RaycastHit raycastHit
-    void _set_raycastHit(UnityEngine::RaycastHit value);
-    // Get instance field: private RootMotion.FinalIK.FullBodyBipedIK fullBody
-    RootMotion::FinalIK::FullBodyBipedIK* _get_fullBody();
-    // Set instance field: private RootMotion.FinalIK.FullBodyBipedIK fullBody
-    void _set_fullBody(RootMotion::FinalIK::FullBodyBipedIK* value);
-    // Get instance field: public RootMotion.FinalIK.InteractionLookAt lookAt
-    RootMotion::FinalIK::InteractionLookAt* _get_lookAt();
-    // Set instance field: public RootMotion.FinalIK.InteractionLookAt lookAt
-    void _set_lookAt(RootMotion::FinalIK::InteractionLookAt* value);
-    // Get instance field: private RootMotion.FinalIK.InteractionEffector[] interactionEffectors
-    ::Array<RootMotion::FinalIK::InteractionEffector*>* _get_interactionEffectors();
-    // Set instance field: private RootMotion.FinalIK.InteractionEffector[] interactionEffectors
-    void _set_interactionEffectors(::Array<RootMotion::FinalIK::InteractionEffector*>* value);
-    // Get instance field: private System.Boolean initiated
-    bool _get_initiated();
-    // Set instance field: private System.Boolean initiated
-    void _set_initiated(bool value);
-    // Get instance field: private UnityEngine.Collider lastCollider
-    UnityEngine::Collider* _get_lastCollider();
-    // Set instance field: private UnityEngine.Collider lastCollider
-    void _set_lastCollider(UnityEngine::Collider* value);
-    // Get instance field: private UnityEngine.Collider c
-    UnityEngine::Collider* _get_c();
-    // Set instance field: private UnityEngine.Collider c
-    void _set_c(UnityEngine::Collider* value);
+    // Get instance field reference: public System.String targetTag
+    ::Il2CppString*& dyn_targetTag();
+    // Get instance field reference: public System.Single fadeInTime
+    float& dyn_fadeInTime();
+    // Get instance field reference: public System.Single speed
+    float& dyn_speed();
+    // Get instance field reference: public System.Single resetToDefaultsSpeed
+    float& dyn_resetToDefaultsSpeed();
+    // Get instance field reference: public UnityEngine.Collider characterCollider
+    UnityEngine::Collider*& dyn_characterCollider();
+    // Get instance field reference: public UnityEngine.Transform FPSCamera
+    UnityEngine::Transform*& dyn_FPSCamera();
+    // Get instance field reference: public UnityEngine.LayerMask camRaycastLayers
+    UnityEngine::LayerMask& dyn_camRaycastLayers();
+    // Get instance field reference: public System.Single camRaycastDistance
+    float& dyn_camRaycastDistance();
+    // Get instance field reference: private System.Collections.Generic.List`1<RootMotion.FinalIK.InteractionTrigger> <triggersInRange>k__BackingField
+    System::Collections::Generic::List_1<RootMotion::FinalIK::InteractionTrigger*>*& dyn_$triggersInRange$k__BackingField();
+    // Get instance field reference: private System.Collections.Generic.List`1<RootMotion.FinalIK.InteractionTrigger> inContact
+    System::Collections::Generic::List_1<RootMotion::FinalIK::InteractionTrigger*>*& dyn_inContact();
+    // Get instance field reference: private System.Collections.Generic.List`1<System.Int32> bestRangeIndexes
+    System::Collections::Generic::List_1<int>*& dyn_bestRangeIndexes();
+    // Get instance field reference: public RootMotion.FinalIK.InteractionSystem/RootMotion.FinalIK.InteractionDelegate OnInteractionStart
+    RootMotion::FinalIK::InteractionSystem::InteractionDelegate*& dyn_OnInteractionStart();
+    // Get instance field reference: public RootMotion.FinalIK.InteractionSystem/RootMotion.FinalIK.InteractionDelegate OnInteractionPause
+    RootMotion::FinalIK::InteractionSystem::InteractionDelegate*& dyn_OnInteractionPause();
+    // Get instance field reference: public RootMotion.FinalIK.InteractionSystem/RootMotion.FinalIK.InteractionDelegate OnInteractionPickUp
+    RootMotion::FinalIK::InteractionSystem::InteractionDelegate*& dyn_OnInteractionPickUp();
+    // Get instance field reference: public RootMotion.FinalIK.InteractionSystem/RootMotion.FinalIK.InteractionDelegate OnInteractionResume
+    RootMotion::FinalIK::InteractionSystem::InteractionDelegate*& dyn_OnInteractionResume();
+    // Get instance field reference: public RootMotion.FinalIK.InteractionSystem/RootMotion.FinalIK.InteractionDelegate OnInteractionStop
+    RootMotion::FinalIK::InteractionSystem::InteractionDelegate*& dyn_OnInteractionStop();
+    // Get instance field reference: public RootMotion.FinalIK.InteractionSystem/RootMotion.FinalIK.InteractionEventDelegate OnInteractionEvent
+    RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate*& dyn_OnInteractionEvent();
+    // Get instance field reference: public UnityEngine.RaycastHit raycastHit
+    UnityEngine::RaycastHit& dyn_raycastHit();
+    // Get instance field reference: private RootMotion.FinalIK.FullBodyBipedIK fullBody
+    RootMotion::FinalIK::FullBodyBipedIK*& dyn_fullBody();
+    // Get instance field reference: public RootMotion.FinalIK.InteractionLookAt lookAt
+    RootMotion::FinalIK::InteractionLookAt*& dyn_lookAt();
+    // Get instance field reference: private RootMotion.FinalIK.InteractionEffector[] interactionEffectors
+    ::Array<RootMotion::FinalIK::InteractionEffector*>*& dyn_interactionEffectors();
+    // Get instance field reference: private System.Boolean initiated
+    bool& dyn_initiated();
+    // Get instance field reference: private UnityEngine.Collider lastCollider
+    UnityEngine::Collider*& dyn_lastCollider();
+    // Get instance field reference: private UnityEngine.Collider c
+    UnityEngine::Collider*& dyn_c();
     // public System.Boolean get_inInteraction()
     // Offset: 0x1E8F45C
     bool get_inInteraction();

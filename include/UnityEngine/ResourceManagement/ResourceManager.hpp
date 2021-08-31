@@ -194,10 +194,8 @@ namespace UnityEngine::ResourceManagement {
       static UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType _get_AsyncOperationDestroy();
       // Set static field: static public UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventType AsyncOperationDestroy
       static void _set_AsyncOperationDestroy(UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventType
     #pragma pack(pop)
     static check_size<sizeof(ResourceManager::DiagnosticEventType), 0 + sizeof(int)> __UnityEngine_ResourceManagement_ResourceManager_DiagnosticEventTypeSizeCheck;
@@ -251,30 +249,18 @@ namespace UnityEngine::ResourceManagement {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: private readonly UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle <OperationHandle>k__BackingField
-      UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle _get_$OperationHandle$k__BackingField();
-      // Set instance field: private readonly UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle <OperationHandle>k__BackingField
-      void _set_$OperationHandle$k__BackingField(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle value);
-      // Get instance field: private readonly UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventType <Type>k__BackingField
-      UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType _get_$Type$k__BackingField();
-      // Set instance field: private readonly UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventType <Type>k__BackingField
-      void _set_$Type$k__BackingField(UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType value);
-      // Get instance field: private readonly System.Int32 <EventValue>k__BackingField
-      int _get_$EventValue$k__BackingField();
-      // Set instance field: private readonly System.Int32 <EventValue>k__BackingField
-      void _set_$EventValue$k__BackingField(int value);
-      // Get instance field: private readonly UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation <Location>k__BackingField
-      UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* _get_$Location$k__BackingField();
-      // Set instance field: private readonly UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation <Location>k__BackingField
-      void _set_$Location$k__BackingField(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
-      // Get instance field: private readonly System.Object <Context>k__BackingField
-      ::Il2CppObject* _get_$Context$k__BackingField();
-      // Set instance field: private readonly System.Object <Context>k__BackingField
-      void _set_$Context$k__BackingField(::Il2CppObject* value);
-      // Get instance field: private readonly System.String <Error>k__BackingField
-      ::Il2CppString* _get_$Error$k__BackingField();
-      // Set instance field: private readonly System.String <Error>k__BackingField
-      void _set_$Error$k__BackingField(::Il2CppString* value);
+      // Get instance field reference: private readonly UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle <OperationHandle>k__BackingField
+      UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle& dyn_$OperationHandle$k__BackingField();
+      // Get instance field reference: private readonly UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventType <Type>k__BackingField
+      UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType& dyn_$Type$k__BackingField();
+      // Get instance field reference: private readonly System.Int32 <EventValue>k__BackingField
+      int& dyn_$EventValue$k__BackingField();
+      // Get instance field reference: private readonly UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation <Location>k__BackingField
+      UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& dyn_$Location$k__BackingField();
+      // Get instance field reference: private readonly System.Object <Context>k__BackingField
+      ::Il2CppObject*& dyn_$Context$k__BackingField();
+      // Get instance field reference: private readonly System.String <Error>k__BackingField
+      ::Il2CppString*& dyn_$Error$k__BackingField();
       // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle get_OperationHandle()
       // Offset: 0x19EC1B8
       UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle get_OperationHandle();
@@ -457,90 +443,48 @@ namespace UnityEngine::ResourceManagement {
     static int _get_s_InstanceOperationTypeHash();
     // Set static field: static private System.Int32 s_InstanceOperationTypeHash
     static void _set_s_InstanceOperationTypeHash(int value);
-    // Get instance field: System.Boolean postProfilerEvents
-    bool _get_postProfilerEvents();
-    // Set instance field: System.Boolean postProfilerEvents
-    void _set_postProfilerEvents(bool value);
-    // Get instance field: private System.Func`2<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation,System.String> <InternalIdTransformFunc>k__BackingField
-    System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppString*>* _get_$InternalIdTransformFunc$k__BackingField();
-    // Set instance field: private System.Func`2<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation,System.String> <InternalIdTransformFunc>k__BackingField
-    void _set_$InternalIdTransformFunc$k__BackingField(System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppString*>* value);
-    // Get instance field: System.Boolean CallbackHooksEnabled
-    bool _get_CallbackHooksEnabled();
-    // Set instance field: System.Boolean CallbackHooksEnabled
-    void _set_CallbackHooksEnabled(bool value);
-    // Get instance field: private ListWithEvents`1<UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider> m_ResourceProviders
-    GlobalNamespace::ListWithEvents_1<UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>* _get_m_ResourceProviders();
-    // Set instance field: private ListWithEvents`1<UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider> m_ResourceProviders
-    void _set_m_ResourceProviders(GlobalNamespace::ListWithEvents_1<UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>* value);
-    // Get instance field: private UnityEngine.ResourceManagement.Util.IAllocationStrategy m_allocator
-    UnityEngine::ResourceManagement::Util::IAllocationStrategy* _get_m_allocator();
-    // Set instance field: private UnityEngine.ResourceManagement.Util.IAllocationStrategy m_allocator
-    void _set_m_allocator(UnityEngine::ResourceManagement::Util::IAllocationStrategy* value);
-    // Get instance field: private ListWithEvents`1<UnityEngine.ResourceManagement.IUpdateReceiver> m_UpdateReceivers
-    GlobalNamespace::ListWithEvents_1<UnityEngine::ResourceManagement::IUpdateReceiver*>* _get_m_UpdateReceivers();
-    // Set instance field: private ListWithEvents`1<UnityEngine.ResourceManagement.IUpdateReceiver> m_UpdateReceivers
-    void _set_m_UpdateReceivers(GlobalNamespace::ListWithEvents_1<UnityEngine::ResourceManagement::IUpdateReceiver*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.IUpdateReceiver> m_UpdateReceiversToRemove
-    System::Collections::Generic::List_1<UnityEngine::ResourceManagement::IUpdateReceiver*>* _get_m_UpdateReceiversToRemove();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.IUpdateReceiver> m_UpdateReceiversToRemove
-    void _set_m_UpdateReceiversToRemove(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::IUpdateReceiver*>* value);
-    // Get instance field: private System.Boolean m_UpdatingReceivers
-    bool _get_m_UpdatingReceivers();
-    // Set instance field: private System.Boolean m_UpdatingReceivers
-    void _set_m_UpdatingReceivers(bool value);
-    // Get instance field: private System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider> m_providerMap
-    System::Collections::Generic::Dictionary_2<int, UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>* _get_m_providerMap();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider> m_providerMap
-    void _set_m_providerMap(System::Collections::Generic::Dictionary_2<int, UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>* value);
-    // Get instance field: private System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation> m_AssetOperationCache
-    System::Collections::Generic::Dictionary_2<int, UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* _get_m_AssetOperationCache();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation> m_AssetOperationCache
-    void _set_m_AssetOperationCache(System::Collections::Generic::Dictionary_2<int, UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* value);
-    // Get instance field: private System.Collections.Generic.HashSet`1<UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.InstanceOperation> m_TrackedInstanceOperations
-    System::Collections::Generic::HashSet_1<UnityEngine::ResourceManagement::ResourceManager::InstanceOperation*>* _get_m_TrackedInstanceOperations();
-    // Set instance field: private System.Collections.Generic.HashSet`1<UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.InstanceOperation> m_TrackedInstanceOperations
-    void _set_m_TrackedInstanceOperations(System::Collections::Generic::HashSet_1<UnityEngine::ResourceManagement::ResourceManager::InstanceOperation*>* value);
-    // Get instance field: private DelegateList`1<System.Single> m_UpdateCallbacks
-    GlobalNamespace::DelegateList_1<float>* _get_m_UpdateCallbacks();
-    // Set instance field: private DelegateList`1<System.Single> m_UpdateCallbacks
-    void _set_m_UpdateCallbacks(GlobalNamespace::DelegateList_1<float>* value);
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation> m_DeferredCompleteCallbacks
-    System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* _get_m_DeferredCompleteCallbacks();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation> m_DeferredCompleteCallbacks
-    void _set_m_DeferredCompleteCallbacks(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* value);
-    // Get instance field: private System.Action`4<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle,UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventType,System.Int32,System.Object> m_obsoleteDiagnosticsHandler
-    System::Action_4<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType, int, ::Il2CppObject*>* _get_m_obsoleteDiagnosticsHandler();
-    // Set instance field: private System.Action`4<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle,UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventType,System.Int32,System.Object> m_obsoleteDiagnosticsHandler
-    void _set_m_obsoleteDiagnosticsHandler(System::Action_4<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType, int, ::Il2CppObject*>* value);
-    // Get instance field: private System.Action`1<UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventContext> m_diagnosticsHandler
-    System::Action_1<UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext>* _get_m_diagnosticsHandler();
-    // Set instance field: private System.Action`1<UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventContext> m_diagnosticsHandler
-    void _set_m_diagnosticsHandler(System::Action_1<UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext>* value);
-    // Get instance field: private System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation> m_ReleaseOpNonCached
-    System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* _get_m_ReleaseOpNonCached();
-    // Set instance field: private System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation> m_ReleaseOpNonCached
-    void _set_m_ReleaseOpNonCached(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* value);
-    // Get instance field: private System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation> m_ReleaseOpCached
-    System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* _get_m_ReleaseOpCached();
-    // Set instance field: private System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation> m_ReleaseOpCached
-    void _set_m_ReleaseOpCached(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* value);
-    // Get instance field: private System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation> m_ReleaseInstanceOp
-    System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* _get_m_ReleaseInstanceOp();
-    // Set instance field: private System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation> m_ReleaseInstanceOp
-    void _set_m_ReleaseInstanceOp(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* value);
-    // Get instance field: private UnityEngine.Networking.CertificateHandler <CertificateHandlerInstance>k__BackingField
-    UnityEngine::Networking::CertificateHandler* _get_$CertificateHandlerInstance$k__BackingField();
-    // Set instance field: private UnityEngine.Networking.CertificateHandler <CertificateHandlerInstance>k__BackingField
-    void _set_$CertificateHandlerInstance$k__BackingField(UnityEngine::Networking::CertificateHandler* value);
-    // Get instance field: private System.Boolean m_RegisteredForCallbacks
-    bool _get_m_RegisteredForCallbacks();
-    // Set instance field: private System.Boolean m_RegisteredForCallbacks
-    void _set_m_RegisteredForCallbacks(bool value);
-    // Get instance field: private System.Collections.Generic.Dictionary`2<System.Type,System.Type> m_ProviderOperationTypeCache
-    System::Collections::Generic::Dictionary_2<System::Type*, System::Type*>* _get_m_ProviderOperationTypeCache();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<System.Type,System.Type> m_ProviderOperationTypeCache
-    void _set_m_ProviderOperationTypeCache(System::Collections::Generic::Dictionary_2<System::Type*, System::Type*>* value);
+    // Get instance field reference: System.Boolean postProfilerEvents
+    bool& dyn_postProfilerEvents();
+    // Get instance field reference: private System.Func`2<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation,System.String> <InternalIdTransformFunc>k__BackingField
+    System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppString*>*& dyn_$InternalIdTransformFunc$k__BackingField();
+    // Get instance field reference: System.Boolean CallbackHooksEnabled
+    bool& dyn_CallbackHooksEnabled();
+    // Get instance field reference: private ListWithEvents`1<UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider> m_ResourceProviders
+    GlobalNamespace::ListWithEvents_1<UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>*& dyn_m_ResourceProviders();
+    // Get instance field reference: private UnityEngine.ResourceManagement.Util.IAllocationStrategy m_allocator
+    UnityEngine::ResourceManagement::Util::IAllocationStrategy*& dyn_m_allocator();
+    // Get instance field reference: private ListWithEvents`1<UnityEngine.ResourceManagement.IUpdateReceiver> m_UpdateReceivers
+    GlobalNamespace::ListWithEvents_1<UnityEngine::ResourceManagement::IUpdateReceiver*>*& dyn_m_UpdateReceivers();
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.IUpdateReceiver> m_UpdateReceiversToRemove
+    System::Collections::Generic::List_1<UnityEngine::ResourceManagement::IUpdateReceiver*>*& dyn_m_UpdateReceiversToRemove();
+    // Get instance field reference: private System.Boolean m_UpdatingReceivers
+    bool& dyn_m_UpdatingReceivers();
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider> m_providerMap
+    System::Collections::Generic::Dictionary_2<int, UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>*& dyn_m_providerMap();
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation> m_AssetOperationCache
+    System::Collections::Generic::Dictionary_2<int, UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*& dyn_m_AssetOperationCache();
+    // Get instance field reference: private System.Collections.Generic.HashSet`1<UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.InstanceOperation> m_TrackedInstanceOperations
+    System::Collections::Generic::HashSet_1<UnityEngine::ResourceManagement::ResourceManager::InstanceOperation*>*& dyn_m_TrackedInstanceOperations();
+    // Get instance field reference: private DelegateList`1<System.Single> m_UpdateCallbacks
+    GlobalNamespace::DelegateList_1<float>*& dyn_m_UpdateCallbacks();
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation> m_DeferredCompleteCallbacks
+    System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*& dyn_m_DeferredCompleteCallbacks();
+    // Get instance field reference: private System.Action`4<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle,UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventType,System.Int32,System.Object> m_obsoleteDiagnosticsHandler
+    System::Action_4<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType, int, ::Il2CppObject*>*& dyn_m_obsoleteDiagnosticsHandler();
+    // Get instance field reference: private System.Action`1<UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventContext> m_diagnosticsHandler
+    System::Action_1<UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext>*& dyn_m_diagnosticsHandler();
+    // Get instance field reference: private System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation> m_ReleaseOpNonCached
+    System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*& dyn_m_ReleaseOpNonCached();
+    // Get instance field reference: private System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation> m_ReleaseOpCached
+    System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*& dyn_m_ReleaseOpCached();
+    // Get instance field reference: private System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation> m_ReleaseInstanceOp
+    System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*& dyn_m_ReleaseInstanceOp();
+    // Get instance field reference: private UnityEngine.Networking.CertificateHandler <CertificateHandlerInstance>k__BackingField
+    UnityEngine::Networking::CertificateHandler*& dyn_$CertificateHandlerInstance$k__BackingField();
+    // Get instance field reference: private System.Boolean m_RegisteredForCallbacks
+    bool& dyn_m_RegisteredForCallbacks();
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Type,System.Type> m_ProviderOperationTypeCache
+    System::Collections::Generic::Dictionary_2<System::Type*, System::Type*>*& dyn_m_ProviderOperationTypeCache();
     // static public System.Action`2<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle,System.Exception> get_ExceptionHandler()
     // Offset: 0x19E87DC
     static System::Action_2<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, System::Exception*>* get_ExceptionHandler();

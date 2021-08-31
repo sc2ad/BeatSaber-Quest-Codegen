@@ -40,18 +40,12 @@ namespace UnityEngine::Rendering {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public readonly System.Int32 offset
-    int _get_offset();
-    // Set instance field: public readonly System.Int32 offset
-    void _set_offset(int value);
-    // Get instance field: public readonly System.Int32 instancesCount
-    int _get_instancesCount();
-    // Set instance field: public readonly System.Int32 instancesCount
-    void _set_instancesCount(int value);
-    // Get instance field: public System.Int32 visibleCount
-    int _get_visibleCount();
-    // Set instance field: public System.Int32 visibleCount
-    void _set_visibleCount(int value);
+    // Get instance field reference: public readonly System.Int32 offset
+    int& dyn_offset();
+    // Get instance field reference: public readonly System.Int32 instancesCount
+    int& dyn_instancesCount();
+    // Get instance field reference: public System.Int32 visibleCount
+    int& dyn_visibleCount();
   }; // UnityEngine.Rendering.BatchVisibility
   #pragma pack(pop)
   static check_size<sizeof(BatchVisibility), 8 + sizeof(int)> __UnityEngine_Rendering_BatchVisibilitySizeCheck;

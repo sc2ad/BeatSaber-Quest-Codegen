@@ -42,14 +42,10 @@ namespace System::IO {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: DirectoryInfo
     DirectoryInfo(::Il2CppString* current_ = {}, ::Il2CppString* parent_ = {}) noexcept : current{current_}, parent{parent_} {}
-    // Get instance field: private System.String current
-    ::Il2CppString* _get_current();
-    // Set instance field: private System.String current
-    void _set_current(::Il2CppString* value);
-    // Get instance field: private System.String parent
-    ::Il2CppString* _get_parent();
-    // Set instance field: private System.String parent
-    void _set_parent(::Il2CppString* value);
+    // Get instance field reference: private System.String current
+    ::Il2CppString*& dyn_current();
+    // Get instance field reference: private System.String parent
+    ::Il2CppString*& dyn_parent();
     // public System.IO.DirectoryInfo get_Parent()
     // Offset: 0x196B504
     System::IO::DirectoryInfo* get_Parent();

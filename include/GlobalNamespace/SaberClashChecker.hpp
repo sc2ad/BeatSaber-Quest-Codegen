@@ -75,26 +75,16 @@ namespace GlobalNamespace {
     static float _get_kIgnoredTime();
     // Set static field: static private System.Single kIgnoredTime
     static void _set_kIgnoredTime(float value);
-    // Get instance field: private System.Boolean _sabersAreClashing
-    bool _get__sabersAreClashing();
-    // Set instance field: private System.Boolean _sabersAreClashing
-    void _set__sabersAreClashing(bool value);
-    // Get instance field: private UnityEngine.Vector3 _clashingPoint
-    UnityEngine::Vector3 _get__clashingPoint();
-    // Set instance field: private UnityEngine.Vector3 _clashingPoint
-    void _set__clashingPoint(UnityEngine::Vector3 value);
-    // Get instance field: private Saber _leftSaber
-    GlobalNamespace::Saber* _get__leftSaber();
-    // Set instance field: private Saber _leftSaber
-    void _set__leftSaber(GlobalNamespace::Saber* value);
-    // Get instance field: private Saber _rightSaber
-    GlobalNamespace::Saber* _get__rightSaber();
-    // Set instance field: private Saber _rightSaber
-    void _set__rightSaber(GlobalNamespace::Saber* value);
-    // Get instance field: private System.Int32 _prevGetFrameNum
-    int _get__prevGetFrameNum();
-    // Set instance field: private System.Int32 _prevGetFrameNum
-    void _set__prevGetFrameNum(int value);
+    // Get instance field reference: private System.Boolean _sabersAreClashing
+    bool& dyn__sabersAreClashing();
+    // Get instance field reference: private UnityEngine.Vector3 _clashingPoint
+    UnityEngine::Vector3& dyn__clashingPoint();
+    // Get instance field reference: private Saber _leftSaber
+    GlobalNamespace::Saber*& dyn__leftSaber();
+    // Get instance field reference: private Saber _rightSaber
+    GlobalNamespace::Saber*& dyn__rightSaber();
+    // Get instance field reference: private System.Int32 _prevGetFrameNum
+    int& dyn__prevGetFrameNum();
     // private System.Void Init(SaberManager saberManager)
     // Offset: 0x119315C
     void Init(GlobalNamespace::SaberManager* saberManager);

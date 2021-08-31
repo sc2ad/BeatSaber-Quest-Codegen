@@ -178,10 +178,8 @@ namespace System::Reflection {
     static System::Reflection::MethodAttributes _get_RequireSecObject();
     // Set static field: static public System.Reflection.MethodAttributes RequireSecObject
     static void _set_RequireSecObject(System::Reflection::MethodAttributes value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Reflection.MethodAttributes
   #pragma pack(pop)
   static check_size<sizeof(MethodAttributes), 0 + sizeof(int)> __System_Reflection_MethodAttributesSizeCheck;

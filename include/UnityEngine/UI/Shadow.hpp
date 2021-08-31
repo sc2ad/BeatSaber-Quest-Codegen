@@ -70,18 +70,12 @@ namespace UnityEngine::UI {
     static float _get_kMaxEffectDistance();
     // Set static field: static private System.Single kMaxEffectDistance
     static void _set_kMaxEffectDistance(float value);
-    // Get instance field: private UnityEngine.Color m_EffectColor
-    UnityEngine::Color _get_m_EffectColor();
-    // Set instance field: private UnityEngine.Color m_EffectColor
-    void _set_m_EffectColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Vector2 m_EffectDistance
-    UnityEngine::Vector2 _get_m_EffectDistance();
-    // Set instance field: private UnityEngine.Vector2 m_EffectDistance
-    void _set_m_EffectDistance(UnityEngine::Vector2 value);
-    // Get instance field: private System.Boolean m_UseGraphicAlpha
-    bool _get_m_UseGraphicAlpha();
-    // Set instance field: private System.Boolean m_UseGraphicAlpha
-    void _set_m_UseGraphicAlpha(bool value);
+    // Get instance field reference: private UnityEngine.Color m_EffectColor
+    UnityEngine::Color& dyn_m_EffectColor();
+    // Get instance field reference: private UnityEngine.Vector2 m_EffectDistance
+    UnityEngine::Vector2& dyn_m_EffectDistance();
+    // Get instance field reference: private System.Boolean m_UseGraphicAlpha
+    bool& dyn_m_UseGraphicAlpha();
     // public UnityEngine.Color get_effectColor()
     // Offset: 0x19E1034
     UnityEngine::Color get_effectColor();

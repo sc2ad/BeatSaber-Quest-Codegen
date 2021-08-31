@@ -35,10 +35,8 @@ namespace System::Security::Cryptography {
     constexpr operator ::Array<uint8_t>*() const noexcept {
       return KeyValue;
     }
-    // Get instance field: protected System.Byte[] KeyValue
-    ::Array<uint8_t>* _get_KeyValue();
-    // Set instance field: protected System.Byte[] KeyValue
-    void _set_KeyValue(::Array<uint8_t>* value);
+    // Get instance field reference: protected System.Byte[] KeyValue
+    ::Array<uint8_t>*& dyn_KeyValue();
     // public System.Byte[] get_Key()
     // Offset: 0x1990724
     ::Array<uint8_t>* get_Key();

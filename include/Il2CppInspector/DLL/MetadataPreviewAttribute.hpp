@@ -30,10 +30,8 @@ namespace Il2CppInspector::DLL {
     constexpr operator ::Il2CppString*() const noexcept {
       return Data;
     }
-    // Get instance field: public System.String Data
-    ::Il2CppString* _get_Data();
-    // Set instance field: public System.String Data
-    void _set_Data(::Il2CppString* value);
+    // Get instance field reference: public System.String Data
+    ::Il2CppString*& dyn_Data();
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Attribute

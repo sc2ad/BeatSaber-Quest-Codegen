@@ -45,14 +45,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::AudioClip*) == 0x8);
     // Creating value type constructor for type: LocalizedAudioClipInfo
     LocalizedAudioClipInfo(Polyglot::Language language_ = {}, UnityEngine::AudioClip* localizedAudioClip_ = {}) noexcept : language{language_}, localizedAudioClip{localizedAudioClip_} {}
-    // Get instance field: public Polyglot.Language language
-    Polyglot::Language _get_language();
-    // Set instance field: public Polyglot.Language language
-    void _set_language(Polyglot::Language value);
-    // Get instance field: public UnityEngine.AudioClip localizedAudioClip
-    UnityEngine::AudioClip* _get_localizedAudioClip();
-    // Set instance field: public UnityEngine.AudioClip localizedAudioClip
-    void _set_localizedAudioClip(UnityEngine::AudioClip* value);
+    // Get instance field reference: public Polyglot.Language language
+    Polyglot::Language& dyn_language();
+    // Get instance field reference: public UnityEngine.AudioClip localizedAudioClip
+    UnityEngine::AudioClip*& dyn_localizedAudioClip();
     // public System.Void .ctor()
     // Offset: 0x10DE30C
     // Implemented from: System.Object

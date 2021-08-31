@@ -47,10 +47,8 @@ namespace UnityEngine::EventSystems {
     static UnityEngine::EventSystems::OVRInputModule::InputMode _get_Buttons();
     // Set static field: static public UnityEngine.EventSystems.OVRInputModule/UnityEngine.EventSystems.InputMode Buttons
     static void _set_Buttons(UnityEngine::EventSystems::OVRInputModule::InputMode value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.EventSystems.OVRInputModule/UnityEngine.EventSystems.InputMode
   #pragma pack(pop)
   static check_size<sizeof(OVRInputModule::InputMode), 0 + sizeof(int)> __UnityEngine_EventSystems_OVRInputModule_InputModeSizeCheck;

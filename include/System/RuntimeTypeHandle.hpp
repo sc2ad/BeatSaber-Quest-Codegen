@@ -69,10 +69,8 @@ namespace System {
     constexpr operator System::IntPtr() const noexcept {
       return value;
     }
-    // Get instance field: private System.IntPtr value
-    System::IntPtr _get_value();
-    // Set instance field: private System.IntPtr value
-    void _set_value(System::IntPtr value);
+    // Get instance field reference: private System.IntPtr value
+    System::IntPtr& dyn_value();
     // public System.IntPtr get_Value()
     // Offset: 0x16CAED0
     System::IntPtr get_Value();

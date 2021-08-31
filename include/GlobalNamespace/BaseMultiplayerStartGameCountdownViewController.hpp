@@ -81,26 +81,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(HMUI::ToggleBinder*) == 0x8);
     // Creating value type constructor for type: BaseMultiplayerStartGameCountdownViewController
     BaseMultiplayerStartGameCountdownViewController(GlobalNamespace::BeatmapSelectionView* beatmapSelectionView_ = {}, GlobalNamespace::ModifiersSelectionView* modifiersSelectionView_ = {}, UnityEngine::UI::Toggle* spectateToggle_ = {}, System::Action_1<bool>* playerActiveStateChangedEvent_ = {}, HMUI::ToggleBinder* toggleBinder_ = {}) noexcept : beatmapSelectionView{beatmapSelectionView_}, modifiersSelectionView{modifiersSelectionView_}, spectateToggle{spectateToggle_}, playerActiveStateChangedEvent{playerActiveStateChangedEvent_}, toggleBinder{toggleBinder_} {}
-    // Get instance field: private BeatmapSelectionView _beatmapSelectionView
-    GlobalNamespace::BeatmapSelectionView* _get__beatmapSelectionView();
-    // Set instance field: private BeatmapSelectionView _beatmapSelectionView
-    void _set__beatmapSelectionView(GlobalNamespace::BeatmapSelectionView* value);
-    // Get instance field: private ModifiersSelectionView _modifiersSelectionView
-    GlobalNamespace::ModifiersSelectionView* _get__modifiersSelectionView();
-    // Set instance field: private ModifiersSelectionView _modifiersSelectionView
-    void _set__modifiersSelectionView(GlobalNamespace::ModifiersSelectionView* value);
-    // Get instance field: protected UnityEngine.UI.Toggle _spectateToggle
-    UnityEngine::UI::Toggle* _get__spectateToggle();
-    // Set instance field: protected UnityEngine.UI.Toggle _spectateToggle
-    void _set__spectateToggle(UnityEngine::UI::Toggle* value);
-    // Get instance field: private System.Action`1<System.Boolean> playerActiveStateChangedEvent
-    System::Action_1<bool>* _get_playerActiveStateChangedEvent();
-    // Set instance field: private System.Action`1<System.Boolean> playerActiveStateChangedEvent
-    void _set_playerActiveStateChangedEvent(System::Action_1<bool>* value);
-    // Get instance field: private readonly HMUI.ToggleBinder _toggleBinder
-    HMUI::ToggleBinder* _get__toggleBinder();
-    // Set instance field: private readonly HMUI.ToggleBinder _toggleBinder
-    void _set__toggleBinder(HMUI::ToggleBinder* value);
+    // Get instance field reference: private BeatmapSelectionView _beatmapSelectionView
+    GlobalNamespace::BeatmapSelectionView*& dyn__beatmapSelectionView();
+    // Get instance field reference: private ModifiersSelectionView _modifiersSelectionView
+    GlobalNamespace::ModifiersSelectionView*& dyn__modifiersSelectionView();
+    // Get instance field reference: protected UnityEngine.UI.Toggle _spectateToggle
+    UnityEngine::UI::Toggle*& dyn__spectateToggle();
+    // Get instance field reference: private System.Action`1<System.Boolean> playerActiveStateChangedEvent
+    System::Action_1<bool>*& dyn_playerActiveStateChangedEvent();
+    // Get instance field reference: private readonly HMUI.ToggleBinder _toggleBinder
+    HMUI::ToggleBinder*& dyn__toggleBinder();
     // public System.Void add_playerActiveStateChangedEvent(System.Action`1<System.Boolean> value)
     // Offset: 0x11E446C
     void add_playerActiveStateChangedEvent(System::Action_1<bool>* value);

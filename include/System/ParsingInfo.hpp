@@ -88,42 +88,24 @@ namespace System {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: System.Globalization.Calendar calendar
-    System::Globalization::Calendar* _get_calendar();
-    // Set instance field: System.Globalization.Calendar calendar
-    void _set_calendar(System::Globalization::Calendar* value);
-    // Get instance field: System.Int32 dayOfWeek
-    int _get_dayOfWeek();
-    // Set instance field: System.Int32 dayOfWeek
-    void _set_dayOfWeek(int value);
-    // Get instance field: System.DateTimeParse/System.TM timeMark
-    System::DateTimeParse::TM _get_timeMark();
-    // Set instance field: System.DateTimeParse/System.TM timeMark
-    void _set_timeMark(System::DateTimeParse::TM value);
-    // Get instance field: System.Boolean fUseHour12
-    bool _get_fUseHour12();
-    // Set instance field: System.Boolean fUseHour12
-    void _set_fUseHour12(bool value);
-    // Get instance field: System.Boolean fUseTwoDigitYear
-    bool _get_fUseTwoDigitYear();
-    // Set instance field: System.Boolean fUseTwoDigitYear
-    void _set_fUseTwoDigitYear(bool value);
-    // Get instance field: System.Boolean fAllowInnerWhite
-    bool _get_fAllowInnerWhite();
-    // Set instance field: System.Boolean fAllowInnerWhite
-    void _set_fAllowInnerWhite(bool value);
-    // Get instance field: System.Boolean fAllowTrailingWhite
-    bool _get_fAllowTrailingWhite();
-    // Set instance field: System.Boolean fAllowTrailingWhite
-    void _set_fAllowTrailingWhite(bool value);
-    // Get instance field: System.Boolean fCustomNumberParser
-    bool _get_fCustomNumberParser();
-    // Set instance field: System.Boolean fCustomNumberParser
-    void _set_fCustomNumberParser(bool value);
-    // Get instance field: System.DateTimeParse/System.MatchNumberDelegate parseNumberDelegate
-    System::DateTimeParse::MatchNumberDelegate* _get_parseNumberDelegate();
-    // Set instance field: System.DateTimeParse/System.MatchNumberDelegate parseNumberDelegate
-    void _set_parseNumberDelegate(System::DateTimeParse::MatchNumberDelegate* value);
+    // Get instance field reference: System.Globalization.Calendar calendar
+    System::Globalization::Calendar*& dyn_calendar();
+    // Get instance field reference: System.Int32 dayOfWeek
+    int& dyn_dayOfWeek();
+    // Get instance field reference: System.DateTimeParse/System.TM timeMark
+    System::DateTimeParse::TM& dyn_timeMark();
+    // Get instance field reference: System.Boolean fUseHour12
+    bool& dyn_fUseHour12();
+    // Get instance field reference: System.Boolean fUseTwoDigitYear
+    bool& dyn_fUseTwoDigitYear();
+    // Get instance field reference: System.Boolean fAllowInnerWhite
+    bool& dyn_fAllowInnerWhite();
+    // Get instance field reference: System.Boolean fAllowTrailingWhite
+    bool& dyn_fAllowTrailingWhite();
+    // Get instance field reference: System.Boolean fCustomNumberParser
+    bool& dyn_fCustomNumberParser();
+    // Get instance field reference: System.DateTimeParse/System.MatchNumberDelegate parseNumberDelegate
+    System::DateTimeParse::MatchNumberDelegate*& dyn_parseNumberDelegate();
     // System.Void Init()
     // Offset: 0x1D11B04
     void Init();

@@ -110,50 +110,28 @@ namespace System::Text::RegularExpressions {
     static_assert(sizeof(System::Globalization::CultureInfo*) == 0x8);
     // Creating value type constructor for type: RegexInterpreter
     RegexInterpreter(int runoperator_ = {}, ::Array<int>* runcodes_ = {}, int runcodepos_ = {}, ::Array<::Il2CppString*>* runstrings_ = {}, System::Text::RegularExpressions::RegexCode* runcode_ = {}, System::Text::RegularExpressions::RegexPrefix* runfcPrefix_ = {}, System::Text::RegularExpressions::RegexBoyerMoore* runbmPrefix_ = {}, int runanchors_ = {}, bool runrtl_ = {}, bool runci_ = {}, System::Globalization::CultureInfo* runculture_ = {}) noexcept : runoperator{runoperator_}, runcodes{runcodes_}, runcodepos{runcodepos_}, runstrings{runstrings_}, runcode{runcode_}, runfcPrefix{runfcPrefix_}, runbmPrefix{runbmPrefix_}, runanchors{runanchors_}, runrtl{runrtl_}, runci{runci_}, runculture{runculture_} {}
-    // Get instance field: System.Int32 runoperator
-    int _get_runoperator();
-    // Set instance field: System.Int32 runoperator
-    void _set_runoperator(int value);
-    // Get instance field: System.Int32[] runcodes
-    ::Array<int>* _get_runcodes();
-    // Set instance field: System.Int32[] runcodes
-    void _set_runcodes(::Array<int>* value);
-    // Get instance field: System.Int32 runcodepos
-    int _get_runcodepos();
-    // Set instance field: System.Int32 runcodepos
-    void _set_runcodepos(int value);
-    // Get instance field: System.String[] runstrings
-    ::Array<::Il2CppString*>* _get_runstrings();
-    // Set instance field: System.String[] runstrings
-    void _set_runstrings(::Array<::Il2CppString*>* value);
-    // Get instance field: System.Text.RegularExpressions.RegexCode runcode
-    System::Text::RegularExpressions::RegexCode* _get_runcode();
-    // Set instance field: System.Text.RegularExpressions.RegexCode runcode
-    void _set_runcode(System::Text::RegularExpressions::RegexCode* value);
-    // Get instance field: System.Text.RegularExpressions.RegexPrefix runfcPrefix
-    System::Text::RegularExpressions::RegexPrefix* _get_runfcPrefix();
-    // Set instance field: System.Text.RegularExpressions.RegexPrefix runfcPrefix
-    void _set_runfcPrefix(System::Text::RegularExpressions::RegexPrefix* value);
-    // Get instance field: System.Text.RegularExpressions.RegexBoyerMoore runbmPrefix
-    System::Text::RegularExpressions::RegexBoyerMoore* _get_runbmPrefix();
-    // Set instance field: System.Text.RegularExpressions.RegexBoyerMoore runbmPrefix
-    void _set_runbmPrefix(System::Text::RegularExpressions::RegexBoyerMoore* value);
-    // Get instance field: System.Int32 runanchors
-    int _get_runanchors();
-    // Set instance field: System.Int32 runanchors
-    void _set_runanchors(int value);
-    // Get instance field: System.Boolean runrtl
-    bool _get_runrtl();
-    // Set instance field: System.Boolean runrtl
-    void _set_runrtl(bool value);
-    // Get instance field: System.Boolean runci
-    bool _get_runci();
-    // Set instance field: System.Boolean runci
-    void _set_runci(bool value);
-    // Get instance field: System.Globalization.CultureInfo runculture
-    System::Globalization::CultureInfo* _get_runculture();
-    // Set instance field: System.Globalization.CultureInfo runculture
-    void _set_runculture(System::Globalization::CultureInfo* value);
+    // Get instance field reference: System.Int32 runoperator
+    int& dyn_runoperator();
+    // Get instance field reference: System.Int32[] runcodes
+    ::Array<int>*& dyn_runcodes();
+    // Get instance field reference: System.Int32 runcodepos
+    int& dyn_runcodepos();
+    // Get instance field reference: System.String[] runstrings
+    ::Array<::Il2CppString*>*& dyn_runstrings();
+    // Get instance field reference: System.Text.RegularExpressions.RegexCode runcode
+    System::Text::RegularExpressions::RegexCode*& dyn_runcode();
+    // Get instance field reference: System.Text.RegularExpressions.RegexPrefix runfcPrefix
+    System::Text::RegularExpressions::RegexPrefix*& dyn_runfcPrefix();
+    // Get instance field reference: System.Text.RegularExpressions.RegexBoyerMoore runbmPrefix
+    System::Text::RegularExpressions::RegexBoyerMoore*& dyn_runbmPrefix();
+    // Get instance field reference: System.Int32 runanchors
+    int& dyn_runanchors();
+    // Get instance field reference: System.Boolean runrtl
+    bool& dyn_runrtl();
+    // Get instance field reference: System.Boolean runci
+    bool& dyn_runci();
+    // Get instance field reference: System.Globalization.CultureInfo runculture
+    System::Globalization::CultureInfo*& dyn_runculture();
     // System.Void .ctor(System.Text.RegularExpressions.RegexCode code, System.Globalization.CultureInfo culture)
     // Offset: 0x19976C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

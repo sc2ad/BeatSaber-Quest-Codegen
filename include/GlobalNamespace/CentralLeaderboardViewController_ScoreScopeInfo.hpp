@@ -57,22 +57,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: ScoreScopeInfo
     ScoreScopeInfo(OnlineServices::ScoresScope scoreScope_ = {}, ::Il2CppString* localizedTitle_ = {}, UnityEngine::Sprite* icon_ = {}, int playerScorePos_ = {}) noexcept : scoreScope{scoreScope_}, localizedTitle{localizedTitle_}, icon{icon_}, playerScorePos{playerScorePos_} {}
-    // Get instance field: public OnlineServices.ScoresScope scoreScope
-    OnlineServices::ScoresScope _get_scoreScope();
-    // Set instance field: public OnlineServices.ScoresScope scoreScope
-    void _set_scoreScope(OnlineServices::ScoresScope value);
-    // Get instance field: public System.String localizedTitle
-    ::Il2CppString* _get_localizedTitle();
-    // Set instance field: public System.String localizedTitle
-    void _set_localizedTitle(::Il2CppString* value);
-    // Get instance field: public UnityEngine.Sprite icon
-    UnityEngine::Sprite* _get_icon();
-    // Set instance field: public UnityEngine.Sprite icon
-    void _set_icon(UnityEngine::Sprite* value);
-    // Get instance field: public System.Int32 playerScorePos
-    int _get_playerScorePos();
-    // Set instance field: public System.Int32 playerScorePos
-    void _set_playerScorePos(int value);
+    // Get instance field reference: public OnlineServices.ScoresScope scoreScope
+    OnlineServices::ScoresScope& dyn_scoreScope();
+    // Get instance field reference: public System.String localizedTitle
+    ::Il2CppString*& dyn_localizedTitle();
+    // Get instance field reference: public UnityEngine.Sprite icon
+    UnityEngine::Sprite*& dyn_icon();
+    // Get instance field reference: public System.Int32 playerScorePos
+    int& dyn_playerScorePos();
     // public System.Void .ctor(OnlineServices.ScoresScope scoreScope, UnityEngine.Sprite icon, System.String localizedTitle)
     // Offset: 0x10EBBA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

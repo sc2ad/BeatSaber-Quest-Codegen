@@ -67,22 +67,14 @@ namespace UnityEngine::TestTools {
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
-    // Get instance field: private System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: private System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: private System.Object <>2__current
-    ::Il2CppObject* _get_$$2__current();
-    // Set instance field: private System.Object <>2__current
-    void _set_$$2__current(::Il2CppObject* value);
-    // Get instance field: public NUnit.Framework.ITestAction action
-    NUnit::Framework::ITestAction* _get_action();
-    // Set instance field: public NUnit.Framework.ITestAction action
-    void _set_action(NUnit::Framework::ITestAction* value);
-    // Get instance field: public NUnit.Framework.Internal.Test test
-    NUnit::Framework::Internal::Test* _get_test();
-    // Set instance field: public NUnit.Framework.Internal.Test test
-    void _set_test(NUnit::Framework::Internal::Test* value);
+    // Get instance field reference: private System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: private System.Object <>2__current
+    ::Il2CppObject*& dyn_$$2__current();
+    // Get instance field reference: public NUnit.Framework.ITestAction action
+    NUnit::Framework::ITestAction*& dyn_action();
+    // Get instance field reference: public NUnit.Framework.Internal.Test test
+    NUnit::Framework::Internal::Test*& dyn_test();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
     // Offset: 0x14C4170
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();

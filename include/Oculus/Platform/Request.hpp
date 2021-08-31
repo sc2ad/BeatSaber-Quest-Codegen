@@ -34,14 +34,10 @@ namespace Oculus::Platform {
     static_assert(sizeof(uint64_t) == 0x8);
     // Creating value type constructor for type: Request
     Request(Oculus::Platform::Message::Callback* callback_ = {}, uint64_t RequestID_ = {}) noexcept : callback{callback_}, RequestID{RequestID_} {}
-    // Get instance field: private Oculus.Platform.Message/Oculus.Platform.Callback callback_
-    Oculus::Platform::Message::Callback* _get_callback_();
-    // Set instance field: private Oculus.Platform.Message/Oculus.Platform.Callback callback_
-    void _set_callback_(Oculus::Platform::Message::Callback* value);
-    // Get instance field: private System.UInt64 <RequestID>k__BackingField
-    uint64_t _get_$RequestID$k__BackingField();
-    // Set instance field: private System.UInt64 <RequestID>k__BackingField
-    void _set_$RequestID$k__BackingField(uint64_t value);
+    // Get instance field reference: private Oculus.Platform.Message/Oculus.Platform.Callback callback_
+    Oculus::Platform::Message::Callback*& dyn_callback_();
+    // Get instance field reference: private System.UInt64 <RequestID>k__BackingField
+    uint64_t& dyn_$RequestID$k__BackingField();
     // public System.UInt64 get_RequestID()
     // Offset: 0x23D8470
     uint64_t get_RequestID();

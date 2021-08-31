@@ -44,14 +44,10 @@ namespace Org::BouncyCastle::Asn1 {
     static ::Array<uint8_t>* _get_EmptyBytes();
     // Set static field: static private readonly System.Byte[] EmptyBytes
     static void _set_EmptyBytes(::Array<uint8_t>* value);
-    // Get instance field: private readonly System.Int32 _originalLength
-    int _get__originalLength();
-    // Set instance field: private readonly System.Int32 _originalLength
-    void _set__originalLength(int value);
-    // Get instance field: private System.Int32 _remaining
-    int _get__remaining();
-    // Set instance field: private System.Int32 _remaining
-    void _set__remaining(int value);
+    // Get instance field reference: private readonly System.Int32 _originalLength
+    int& dyn__originalLength();
+    // Get instance field reference: private System.Int32 _remaining
+    int& dyn__remaining();
     // System.Int32 get_Remaining()
     // Offset: 0x1734924
     int get_Remaining();

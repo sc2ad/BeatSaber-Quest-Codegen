@@ -41,10 +41,8 @@ namespace RootMotion::FinalIK {
     constexpr operator UnityEngine::Vector3() const noexcept {
       return position;
     }
-    // Get instance field: public UnityEngine.Vector3 position
-    UnityEngine::Vector3 _get_position();
-    // Set instance field: public UnityEngine.Vector3 position
-    void _set_position(UnityEngine::Vector3 value);
+    // Get instance field reference: public UnityEngine.Vector3 position
+    UnityEngine::Vector3& dyn_position();
     // public System.Void .ctor(UnityEngine.Transform transform)
     // Offset: 0x1D32540
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

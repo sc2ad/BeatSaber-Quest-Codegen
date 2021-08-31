@@ -35,10 +35,8 @@ namespace Mono::Unity {
     constexpr operator uint64_t() const noexcept {
       return handle;
     }
-    // Get instance field: public System.UInt64 handle
-    uint64_t _get_handle();
-    // Set instance field: public System.UInt64 handle
-    void _set_handle(uint64_t value);
+    // Get instance field reference: public System.UInt64 handle
+    uint64_t& dyn_handle();
   }; // Mono.Unity.UnityTls/Mono.Unity.unitytls_x509_ref
   #pragma pack(pop)
   static check_size<sizeof(UnityTls::unitytls_x509_ref), 0 + sizeof(uint64_t)> __Mono_Unity_UnityTls_unitytls_x509_refSizeCheck;

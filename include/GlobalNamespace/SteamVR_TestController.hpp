@@ -69,26 +69,16 @@ namespace GlobalNamespace {
     SteamVR_TestController(System::Collections::Generic::List_1<int>* controllerIndices_ = {}, ::Array<Valve::VR::EVRButtonId>* buttonIds_ = {}, ::Array<Valve::VR::EVRButtonId>* axisIds_ = {}, UnityEngine::Transform* point_ = {}, UnityEngine::Transform* pointer_ = {}) noexcept : controllerIndices{controllerIndices_}, buttonIds{buttonIds_}, axisIds{axisIds_}, point{point_}, pointer{pointer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Collections.Generic.List`1<System.Int32> controllerIndices
-    System::Collections::Generic::List_1<int>* _get_controllerIndices();
-    // Set instance field: private System.Collections.Generic.List`1<System.Int32> controllerIndices
-    void _set_controllerIndices(System::Collections::Generic::List_1<int>* value);
-    // Get instance field: private Valve.VR.EVRButtonId[] buttonIds
-    ::Array<Valve::VR::EVRButtonId>* _get_buttonIds();
-    // Set instance field: private Valve.VR.EVRButtonId[] buttonIds
-    void _set_buttonIds(::Array<Valve::VR::EVRButtonId>* value);
-    // Get instance field: private Valve.VR.EVRButtonId[] axisIds
-    ::Array<Valve::VR::EVRButtonId>* _get_axisIds();
-    // Set instance field: private Valve.VR.EVRButtonId[] axisIds
-    void _set_axisIds(::Array<Valve::VR::EVRButtonId>* value);
-    // Get instance field: public UnityEngine.Transform point
-    UnityEngine::Transform* _get_point();
-    // Set instance field: public UnityEngine.Transform point
-    void _set_point(UnityEngine::Transform* value);
-    // Get instance field: public UnityEngine.Transform pointer
-    UnityEngine::Transform* _get_pointer();
-    // Set instance field: public UnityEngine.Transform pointer
-    void _set_pointer(UnityEngine::Transform* value);
+    // Get instance field reference: private System.Collections.Generic.List`1<System.Int32> controllerIndices
+    System::Collections::Generic::List_1<int>*& dyn_controllerIndices();
+    // Get instance field reference: private Valve.VR.EVRButtonId[] buttonIds
+    ::Array<Valve::VR::EVRButtonId>*& dyn_buttonIds();
+    // Get instance field reference: private Valve.VR.EVRButtonId[] axisIds
+    ::Array<Valve::VR::EVRButtonId>*& dyn_axisIds();
+    // Get instance field reference: public UnityEngine.Transform point
+    UnityEngine::Transform*& dyn_point();
+    // Get instance field reference: public UnityEngine.Transform pointer
+    UnityEngine::Transform*& dyn_pointer();
     // private System.Void OnDeviceConnected(System.Int32 index, System.Boolean connected)
     // Offset: 0x1431618
     void OnDeviceConnected(int index, bool connected);

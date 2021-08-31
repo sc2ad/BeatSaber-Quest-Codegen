@@ -52,14 +52,10 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     operator Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*>(this);
     }
-    // Get instance field: private readonly Org.BouncyCastle.Math.EC.ECCurve m_curve
-    Org::BouncyCastle::Math::EC::ECCurve* _get_m_curve();
-    // Set instance field: private readonly Org.BouncyCastle.Math.EC.ECCurve m_curve
-    void _set_m_curve(Org::BouncyCastle::Math::EC::ECCurve* value);
-    // Get instance field: private readonly System.Int32 m_confWidth
-    int _get_m_confWidth();
-    // Set instance field: private readonly System.Int32 m_confWidth
-    void _set_m_confWidth(int value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.ECCurve m_curve
+    Org::BouncyCastle::Math::EC::ECCurve*& dyn_m_curve();
+    // Get instance field reference: private readonly System.Int32 m_confWidth
+    int& dyn_m_confWidth();
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, System.Int32 confWidth)
     // Offset: 0x1DCA328
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

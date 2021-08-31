@@ -139,54 +139,30 @@ namespace System::Runtime::Serialization {
     static ::Il2CppString* _get_s_mscorlibFileName();
     // Set static field: static private System.String s_mscorlibFileName
     static void _set_s_mscorlibFileName(::Il2CppString* value);
-    // Get instance field: System.String[] m_members
-    ::Array<::Il2CppString*>* _get_m_members();
-    // Set instance field: System.String[] m_members
-    void _set_m_members(::Array<::Il2CppString*>* value);
-    // Get instance field: System.Object[] m_data
-    ::Array<::Il2CppObject*>* _get_m_data();
-    // Set instance field: System.Object[] m_data
-    void _set_m_data(::Array<::Il2CppObject*>* value);
-    // Get instance field: System.Type[] m_types
-    ::Array<System::Type*>* _get_m_types();
-    // Set instance field: System.Type[] m_types
-    void _set_m_types(::Array<System::Type*>* value);
-    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,System.Int32> m_nameToIndex
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* _get_m_nameToIndex();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,System.Int32> m_nameToIndex
-    void _set_m_nameToIndex(System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* value);
-    // Get instance field: System.Int32 m_currMember
-    int _get_m_currMember();
-    // Set instance field: System.Int32 m_currMember
-    void _set_m_currMember(int value);
-    // Get instance field: System.Runtime.Serialization.IFormatterConverter m_converter
-    System::Runtime::Serialization::IFormatterConverter* _get_m_converter();
-    // Set instance field: System.Runtime.Serialization.IFormatterConverter m_converter
-    void _set_m_converter(System::Runtime::Serialization::IFormatterConverter* value);
-    // Get instance field: private System.String m_fullTypeName
-    ::Il2CppString* _get_m_fullTypeName();
-    // Set instance field: private System.String m_fullTypeName
-    void _set_m_fullTypeName(::Il2CppString* value);
-    // Get instance field: private System.String m_assemName
-    ::Il2CppString* _get_m_assemName();
-    // Set instance field: private System.String m_assemName
-    void _set_m_assemName(::Il2CppString* value);
-    // Get instance field: private System.Type objectType
-    System::Type* _get_objectType();
-    // Set instance field: private System.Type objectType
-    void _set_objectType(System::Type* value);
-    // Get instance field: private System.Boolean isFullTypeNameSetExplicit
-    bool _get_isFullTypeNameSetExplicit();
-    // Set instance field: private System.Boolean isFullTypeNameSetExplicit
-    void _set_isFullTypeNameSetExplicit(bool value);
-    // Get instance field: private System.Boolean isAssemblyNameSetExplicit
-    bool _get_isAssemblyNameSetExplicit();
-    // Set instance field: private System.Boolean isAssemblyNameSetExplicit
-    void _set_isAssemblyNameSetExplicit(bool value);
-    // Get instance field: private System.Boolean requireSameTokenInPartialTrust
-    bool _get_requireSameTokenInPartialTrust();
-    // Set instance field: private System.Boolean requireSameTokenInPartialTrust
-    void _set_requireSameTokenInPartialTrust(bool value);
+    // Get instance field reference: System.String[] m_members
+    ::Array<::Il2CppString*>*& dyn_m_members();
+    // Get instance field reference: System.Object[] m_data
+    ::Array<::Il2CppObject*>*& dyn_m_data();
+    // Get instance field reference: System.Type[] m_types
+    ::Array<System::Type*>*& dyn_m_types();
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.Int32> m_nameToIndex
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, int>*& dyn_m_nameToIndex();
+    // Get instance field reference: System.Int32 m_currMember
+    int& dyn_m_currMember();
+    // Get instance field reference: System.Runtime.Serialization.IFormatterConverter m_converter
+    System::Runtime::Serialization::IFormatterConverter*& dyn_m_converter();
+    // Get instance field reference: private System.String m_fullTypeName
+    ::Il2CppString*& dyn_m_fullTypeName();
+    // Get instance field reference: private System.String m_assemName
+    ::Il2CppString*& dyn_m_assemName();
+    // Get instance field reference: private System.Type objectType
+    System::Type*& dyn_objectType();
+    // Get instance field reference: private System.Boolean isFullTypeNameSetExplicit
+    bool& dyn_isFullTypeNameSetExplicit();
+    // Get instance field reference: private System.Boolean isAssemblyNameSetExplicit
+    bool& dyn_isAssemblyNameSetExplicit();
+    // Get instance field reference: private System.Boolean requireSameTokenInPartialTrust
+    bool& dyn_requireSameTokenInPartialTrust();
     // public System.String get_FullTypeName()
     // Offset: 0x16BE714
     ::Il2CppString* get_FullTypeName();

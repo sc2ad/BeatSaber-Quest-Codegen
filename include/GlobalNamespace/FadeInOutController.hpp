@@ -84,30 +84,18 @@ namespace GlobalNamespace {
     FadeInOutController(GlobalNamespace::FloatSO* easeValue_ = {}, UnityEngine::AnimationCurve* fadeInCurve_ = {}, UnityEngine::AnimationCurve* fadeOutCurve_ = {}, float fadeInStartDelay_ = {}, float defaultFadeOutDuration_ = {}, float defaultFadeInDuration_ = {}) noexcept : easeValue{easeValue_}, fadeInCurve{fadeInCurve_}, fadeOutCurve{fadeOutCurve_}, fadeInStartDelay{fadeInStartDelay_}, defaultFadeOutDuration{defaultFadeOutDuration_}, defaultFadeInDuration{defaultFadeInDuration_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private FloatSO _easeValue
-    GlobalNamespace::FloatSO* _get__easeValue();
-    // Set instance field: private FloatSO _easeValue
-    void _set__easeValue(GlobalNamespace::FloatSO* value);
-    // Get instance field: private UnityEngine.AnimationCurve _fadeInCurve
-    UnityEngine::AnimationCurve* _get__fadeInCurve();
-    // Set instance field: private UnityEngine.AnimationCurve _fadeInCurve
-    void _set__fadeInCurve(UnityEngine::AnimationCurve* value);
-    // Get instance field: private UnityEngine.AnimationCurve _fadeOutCurve
-    UnityEngine::AnimationCurve* _get__fadeOutCurve();
-    // Set instance field: private UnityEngine.AnimationCurve _fadeOutCurve
-    void _set__fadeOutCurve(UnityEngine::AnimationCurve* value);
-    // Get instance field: private System.Single _fadeInStartDelay
-    float _get__fadeInStartDelay();
-    // Set instance field: private System.Single _fadeInStartDelay
-    void _set__fadeInStartDelay(float value);
-    // Get instance field: private System.Single _defaultFadeOutDuration
-    float _get__defaultFadeOutDuration();
-    // Set instance field: private System.Single _defaultFadeOutDuration
-    void _set__defaultFadeOutDuration(float value);
-    // Get instance field: private System.Single _defaultFadeInDuration
-    float _get__defaultFadeInDuration();
-    // Set instance field: private System.Single _defaultFadeInDuration
-    void _set__defaultFadeInDuration(float value);
+    // Get instance field reference: private FloatSO _easeValue
+    GlobalNamespace::FloatSO*& dyn__easeValue();
+    // Get instance field reference: private UnityEngine.AnimationCurve _fadeInCurve
+    UnityEngine::AnimationCurve*& dyn__fadeInCurve();
+    // Get instance field reference: private UnityEngine.AnimationCurve _fadeOutCurve
+    UnityEngine::AnimationCurve*& dyn__fadeOutCurve();
+    // Get instance field reference: private System.Single _fadeInStartDelay
+    float& dyn__fadeInStartDelay();
+    // Get instance field reference: private System.Single _defaultFadeOutDuration
+    float& dyn__defaultFadeOutDuration();
+    // Get instance field reference: private System.Single _defaultFadeInDuration
+    float& dyn__defaultFadeInDuration();
     // public System.Void FadeOutInstant()
     // Offset: 0x125E644
     void FadeOutInstant();

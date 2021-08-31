@@ -44,22 +44,14 @@ namespace Il2CppInspector::DLL {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: AddressAttribute
     AddressAttribute(::Il2CppString* RVA_ = {}, ::Il2CppString* Offset_ = {}, ::Il2CppString* VA_ = {}, ::Il2CppString* Slot_ = {}) noexcept : RVA{RVA_}, Offset{Offset_}, VA{VA_}, Slot{Slot_} {}
-    // Get instance field: public System.String RVA
-    ::Il2CppString* _get_RVA();
-    // Set instance field: public System.String RVA
-    void _set_RVA(::Il2CppString* value);
-    // Get instance field: public System.String Offset
-    ::Il2CppString* _get_Offset();
-    // Set instance field: public System.String Offset
-    void _set_Offset(::Il2CppString* value);
-    // Get instance field: public System.String VA
-    ::Il2CppString* _get_VA();
-    // Set instance field: public System.String VA
-    void _set_VA(::Il2CppString* value);
-    // Get instance field: public System.String Slot
-    ::Il2CppString* _get_Slot();
-    // Set instance field: public System.String Slot
-    void _set_Slot(::Il2CppString* value);
+    // Get instance field reference: public System.String RVA
+    ::Il2CppString*& dyn_RVA();
+    // Get instance field reference: public System.String Offset
+    ::Il2CppString*& dyn_Offset();
+    // Get instance field reference: public System.String VA
+    ::Il2CppString*& dyn_VA();
+    // Get instance field reference: public System.String Slot
+    ::Il2CppString*& dyn_Slot();
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Attribute

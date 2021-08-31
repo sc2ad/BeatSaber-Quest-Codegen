@@ -54,14 +54,10 @@ namespace Org::BouncyCastle::Asn1::X509 {
     operator Org::BouncyCastle::Asn1::IAsn1Choice() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Asn1::IAsn1Choice*>(this);
     }
-    // Get instance field: readonly Org.BouncyCastle.Asn1.Asn1Encodable obj
-    Org::BouncyCastle::Asn1::Asn1Encodable* _get_obj();
-    // Set instance field: readonly Org.BouncyCastle.Asn1.Asn1Encodable obj
-    void _set_obj(Org::BouncyCastle::Asn1::Asn1Encodable* value);
-    // Get instance field: readonly Org.BouncyCastle.Asn1.Asn1Object choiceObj
-    Org::BouncyCastle::Asn1::Asn1Object* _get_choiceObj();
-    // Set instance field: readonly Org.BouncyCastle.Asn1.Asn1Object choiceObj
-    void _set_choiceObj(Org::BouncyCastle::Asn1::Asn1Object* value);
+    // Get instance field reference: readonly Org.BouncyCastle.Asn1.Asn1Encodable obj
+    Org::BouncyCastle::Asn1::Asn1Encodable*& dyn_obj();
+    // Get instance field reference: readonly Org.BouncyCastle.Asn1.Asn1Object choiceObj
+    Org::BouncyCastle::Asn1::Asn1Object*& dyn_choiceObj();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X509.GeneralNames names)
     // Offset: 0x19F67EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

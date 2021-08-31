@@ -40,18 +40,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: LeaderboardPanel
     LeaderboardPanel(::Il2CppString* title_ = {}, ::Il2CppString* hint_ = {}, bool mixed_ = {}) noexcept : title{title_}, hint{hint_}, mixed{mixed_} {}
-    // Get instance field: public readonly System.String title
-    ::Il2CppString* _get_title();
-    // Set instance field: public readonly System.String title
-    void _set_title(::Il2CppString* value);
-    // Get instance field: public readonly System.String hint
-    ::Il2CppString* _get_hint();
-    // Set instance field: public readonly System.String hint
-    void _set_hint(::Il2CppString* value);
-    // Get instance field: public readonly System.Boolean mixed
-    bool _get_mixed();
-    // Set instance field: public readonly System.Boolean mixed
-    void _set_mixed(bool value);
+    // Get instance field reference: public readonly System.String title
+    ::Il2CppString*& dyn_title();
+    // Get instance field reference: public readonly System.String hint
+    ::Il2CppString*& dyn_hint();
+    // Get instance field reference: public readonly System.Boolean mixed
+    bool& dyn_mixed();
     // public System.Void .ctor(System.String title, System.String hint, System.Boolean mixed)
     // Offset: 0x10EBB60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

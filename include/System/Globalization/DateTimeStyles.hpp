@@ -94,10 +94,8 @@ namespace System::Globalization {
     static System::Globalization::DateTimeStyles _get_RoundtripKind();
     // Set static field: static public System.Globalization.DateTimeStyles RoundtripKind
     static void _set_RoundtripKind(System::Globalization::DateTimeStyles value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Globalization.DateTimeStyles
   #pragma pack(pop)
   static check_size<sizeof(DateTimeStyles), 0 + sizeof(int)> __System_Globalization_DateTimeStylesSizeCheck;

@@ -61,14 +61,10 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public readonly System.Single songTime
-      float _get_songTime();
-      // Set instance field: public readonly System.Single songTime
-      void _set_songTime(float value);
-      // Get instance field: public readonly System.Single yOffset
-      float _get_yOffset();
-      // Set instance field: public readonly System.Single yOffset
-      void _set_yOffset(float value);
+      // Get instance field reference: public readonly System.Single songTime
+      float& dyn_songTime();
+      // Get instance field reference: public readonly System.Single yOffset
+      float& dyn_yOffset();
       // public System.Void .ctor(System.Single songTime, System.Single yOffset)
       // Offset: 0x10C59D4
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -121,26 +117,16 @@ namespace GlobalNamespace {
     static float _get_kYJumpOffsetBufferSongTimeInitValue();
     // Set static field: static private System.Single kYJumpOffsetBufferSongTimeInitValue
     static void _set_kYJumpOffsetBufferSongTimeInitValue(float value);
-    // Get instance field: private System.Int32 _currentYJumpOffsetBufferEndIndex
-    int _get__currentYJumpOffsetBufferEndIndex();
-    // Set instance field: private System.Int32 _currentYJumpOffsetBufferEndIndex
-    void _set__currentYJumpOffsetBufferEndIndex(int value);
-    // Get instance field: private readonly System.Single _jumpDurationToDesiredZPosition
-    float _get__jumpDurationToDesiredZPosition();
-    // Set instance field: private readonly System.Single _jumpDurationToDesiredZPosition
-    void _set__jumpDurationToDesiredZPosition(float value);
-    // Get instance field: private readonly BeatmapObjectAvoidanceYOffsetEvaluator/BufferData[] _yJumpOffsetBuffer
-    ::Array<GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::BufferData>* _get__yJumpOffsetBuffer();
-    // Set instance field: private readonly BeatmapObjectAvoidanceYOffsetEvaluator/BufferData[] _yJumpOffsetBuffer
-    void _set__yJumpOffsetBuffer(::Array<GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::BufferData>* value);
-    // Get instance field: private readonly IAudioTimeSource _audioTimeSource
-    GlobalNamespace::IAudioTimeSource* _get__audioTimeSource();
-    // Set instance field: private readonly IAudioTimeSource _audioTimeSource
-    void _set__audioTimeSource(GlobalNamespace::IAudioTimeSource* value);
-    // Get instance field: private readonly IBeatmapObjectSpawnController _beatmapObjectSpawnController
-    GlobalNamespace::IBeatmapObjectSpawnController* _get__beatmapObjectSpawnController();
-    // Set instance field: private readonly IBeatmapObjectSpawnController _beatmapObjectSpawnController
-    void _set__beatmapObjectSpawnController(GlobalNamespace::IBeatmapObjectSpawnController* value);
+    // Get instance field reference: private System.Int32 _currentYJumpOffsetBufferEndIndex
+    int& dyn__currentYJumpOffsetBufferEndIndex();
+    // Get instance field reference: private readonly System.Single _jumpDurationToDesiredZPosition
+    float& dyn__jumpDurationToDesiredZPosition();
+    // Get instance field reference: private readonly BeatmapObjectAvoidanceYOffsetEvaluator/BufferData[] _yJumpOffsetBuffer
+    ::Array<GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::BufferData>*& dyn__yJumpOffsetBuffer();
+    // Get instance field reference: private readonly IAudioTimeSource _audioTimeSource
+    GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
+    // Get instance field reference: private readonly IBeatmapObjectSpawnController _beatmapObjectSpawnController
+    GlobalNamespace::IBeatmapObjectSpawnController*& dyn__beatmapObjectSpawnController();
     // public System.Void .ctor(IAudioTimeSource audioTimeSource, IBeatmapObjectSpawnController beatmapObjectSpawnController, System.Single moveToPlayerHeadTParam, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData)
     // Offset: 0x10C5878
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -67,18 +67,12 @@ namespace Zenject {
     operator Zenject::IProvider() noexcept {
       return *reinterpret_cast<Zenject::IProvider*>(this);
     }
-    // Get instance field: private readonly System.Object _instance
-    ::Il2CppObject* _get__instance();
-    // Set instance field: private readonly System.Object _instance
-    void _set__instance(::Il2CppObject* value);
-    // Get instance field: private readonly System.Type _instanceType
-    System::Type* _get__instanceType();
-    // Set instance field: private readonly System.Type _instanceType
-    void _set__instanceType(System::Type* value);
-    // Get instance field: private readonly Zenject.DiContainer _container
-    Zenject::DiContainer* _get__container();
-    // Set instance field: private readonly Zenject.DiContainer _container
-    void _set__container(Zenject::DiContainer* value);
+    // Get instance field reference: private readonly System.Object _instance
+    ::Il2CppObject*& dyn__instance();
+    // Get instance field reference: private readonly System.Type _instanceType
+    System::Type*& dyn__instanceType();
+    // Get instance field reference: private readonly Zenject.DiContainer _container
+    Zenject::DiContainer*& dyn__container();
     // public System.Boolean get_IsCached()
     // Offset: 0x1663194
     bool get_IsCached();

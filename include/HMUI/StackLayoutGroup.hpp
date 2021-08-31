@@ -34,14 +34,10 @@ namespace HMUI {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: StackLayoutGroup
     StackLayoutGroup(bool m_ChildForceExpandWidth_ = {}, bool m_ChildForceExpandHeight_ = {}) noexcept : m_ChildForceExpandWidth{m_ChildForceExpandWidth_}, m_ChildForceExpandHeight{m_ChildForceExpandHeight_} {}
-    // Get instance field: protected System.Boolean m_ChildForceExpandWidth
-    bool _get_m_ChildForceExpandWidth();
-    // Set instance field: protected System.Boolean m_ChildForceExpandWidth
-    void _set_m_ChildForceExpandWidth(bool value);
-    // Get instance field: protected System.Boolean m_ChildForceExpandHeight
-    bool _get_m_ChildForceExpandHeight();
-    // Set instance field: protected System.Boolean m_ChildForceExpandHeight
-    void _set_m_ChildForceExpandHeight(bool value);
+    // Get instance field reference: protected System.Boolean m_ChildForceExpandWidth
+    bool& dyn_m_ChildForceExpandWidth();
+    // Get instance field reference: protected System.Boolean m_ChildForceExpandHeight
+    bool& dyn_m_ChildForceExpandHeight();
     // public System.Boolean get_childForceExpandWidth()
     // Offset: 0x1302BBC
     bool get_childForceExpandWidth();

@@ -82,18 +82,12 @@ namespace NUnit::Framework {
     operator NUnit::Framework::Interfaces::IApplyToTest() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::IApplyToTest*>(this);
     }
-    // Get instance field: private NUnit.Framework.Internal.Builders.NUnitTestCaseBuilder _builder
-    NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder* _get__builder();
-    // Set instance field: private NUnit.Framework.Internal.Builders.NUnitTestCaseBuilder _builder
-    void _set__builder(NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder* value);
-    // Get instance field: private NUnit.Framework.Interfaces.ICombiningStrategy _strategy
-    NUnit::Framework::Interfaces::ICombiningStrategy* _get__strategy();
-    // Set instance field: private NUnit.Framework.Interfaces.ICombiningStrategy _strategy
-    void _set__strategy(NUnit::Framework::Interfaces::ICombiningStrategy* value);
-    // Get instance field: private NUnit.Framework.Interfaces.IParameterDataProvider _dataProvider
-    NUnit::Framework::Interfaces::IParameterDataProvider* _get__dataProvider();
-    // Set instance field: private NUnit.Framework.Interfaces.IParameterDataProvider _dataProvider
-    void _set__dataProvider(NUnit::Framework::Interfaces::IParameterDataProvider* value);
+    // Get instance field reference: private NUnit.Framework.Internal.Builders.NUnitTestCaseBuilder _builder
+    NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*& dyn__builder();
+    // Get instance field reference: private NUnit.Framework.Interfaces.ICombiningStrategy _strategy
+    NUnit::Framework::Interfaces::ICombiningStrategy*& dyn__strategy();
+    // Get instance field reference: private NUnit.Framework.Interfaces.IParameterDataProvider _dataProvider
+    NUnit::Framework::Interfaces::IParameterDataProvider*& dyn__dataProvider();
     // protected System.Void .ctor(NUnit.Framework.Interfaces.ICombiningStrategy strategy, NUnit.Framework.Interfaces.IParameterDataProvider provider)
     // Offset: 0x1762F78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

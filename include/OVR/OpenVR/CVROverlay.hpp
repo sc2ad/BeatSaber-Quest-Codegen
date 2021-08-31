@@ -88,10 +88,8 @@ namespace OVR::OpenVR {
     constexpr operator OVR::OpenVR::IVROverlay() const noexcept {
       return FnTable;
     }
-    // Get instance field: private OVR.OpenVR.IVROverlay FnTable
-    OVR::OpenVR::IVROverlay _get_FnTable();
-    // Set instance field: private OVR.OpenVR.IVROverlay FnTable
-    void _set_FnTable(OVR::OpenVR::IVROverlay value);
+    // Get instance field reference: private OVR.OpenVR.IVROverlay FnTable
+    OVR::OpenVR::IVROverlay& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0x15BE048
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

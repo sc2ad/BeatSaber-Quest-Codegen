@@ -71,34 +71,20 @@ namespace System::Net::NetworkInformation {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.UInt16 sll_family
-    uint16_t _get_sll_family();
-    // Set instance field: public System.UInt16 sll_family
-    void _set_sll_family(uint16_t value);
-    // Get instance field: public System.UInt16 sll_protocol
-    uint16_t _get_sll_protocol();
-    // Set instance field: public System.UInt16 sll_protocol
-    void _set_sll_protocol(uint16_t value);
-    // Get instance field: public System.Int32 sll_ifindex
-    int _get_sll_ifindex();
-    // Set instance field: public System.Int32 sll_ifindex
-    void _set_sll_ifindex(int value);
-    // Get instance field: public System.UInt16 sll_hatype
-    uint16_t _get_sll_hatype();
-    // Set instance field: public System.UInt16 sll_hatype
-    void _set_sll_hatype(uint16_t value);
-    // Get instance field: public System.Byte sll_pkttype
-    uint8_t _get_sll_pkttype();
-    // Set instance field: public System.Byte sll_pkttype
-    void _set_sll_pkttype(uint8_t value);
-    // Get instance field: public System.Byte sll_halen
-    uint8_t _get_sll_halen();
-    // Set instance field: public System.Byte sll_halen
-    void _set_sll_halen(uint8_t value);
-    // Get instance field: public System.Byte[] sll_addr
-    ::Array<uint8_t>* _get_sll_addr();
-    // Set instance field: public System.Byte[] sll_addr
-    void _set_sll_addr(::Array<uint8_t>* value);
+    // Get instance field reference: public System.UInt16 sll_family
+    uint16_t& dyn_sll_family();
+    // Get instance field reference: public System.UInt16 sll_protocol
+    uint16_t& dyn_sll_protocol();
+    // Get instance field reference: public System.Int32 sll_ifindex
+    int& dyn_sll_ifindex();
+    // Get instance field reference: public System.UInt16 sll_hatype
+    uint16_t& dyn_sll_hatype();
+    // Get instance field reference: public System.Byte sll_pkttype
+    uint8_t& dyn_sll_pkttype();
+    // Get instance field reference: public System.Byte sll_halen
+    uint8_t& dyn_sll_halen();
+    // Get instance field reference: public System.Byte[] sll_addr
+    ::Array<uint8_t>*& dyn_sll_addr();
   }; // System.Net.NetworkInformation.sockaddr_ll
   #pragma pack(pop)
   static check_size<sizeof(sockaddr_ll), 16 + sizeof(::Array<uint8_t>*)> __System_Net_NetworkInformation_sockaddr_llSizeCheck;

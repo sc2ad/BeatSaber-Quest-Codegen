@@ -38,14 +38,10 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public OVR.OpenVR.IVROverlay/OVR.OpenVR._PollNextOverlayEvent pPollNextOverlayEvent
-    OVR::OpenVR::IVROverlay::_PollNextOverlayEvent* _get_pPollNextOverlayEvent();
-    // Set instance field: public OVR.OpenVR.IVROverlay/OVR.OpenVR._PollNextOverlayEvent pPollNextOverlayEvent
-    void _set_pPollNextOverlayEvent(OVR::OpenVR::IVROverlay::_PollNextOverlayEvent* value);
-    // Get instance field: public OVR.OpenVR.CVROverlay/OVR.OpenVR._PollNextOverlayEventPacked pPollNextOverlayEventPacked
-    OVR::OpenVR::CVROverlay::_PollNextOverlayEventPacked* _get_pPollNextOverlayEventPacked();
-    // Set instance field: public OVR.OpenVR.CVROverlay/OVR.OpenVR._PollNextOverlayEventPacked pPollNextOverlayEventPacked
-    void _set_pPollNextOverlayEventPacked(OVR::OpenVR::CVROverlay::_PollNextOverlayEventPacked* value);
+    // Get instance field reference: public OVR.OpenVR.IVROverlay/OVR.OpenVR._PollNextOverlayEvent pPollNextOverlayEvent
+    OVR::OpenVR::IVROverlay::_PollNextOverlayEvent*& dyn_pPollNextOverlayEvent();
+    // Get instance field reference: public OVR.OpenVR.CVROverlay/OVR.OpenVR._PollNextOverlayEventPacked pPollNextOverlayEventPacked
+    OVR::OpenVR::CVROverlay::_PollNextOverlayEventPacked*& dyn_pPollNextOverlayEventPacked();
   }; // OVR.OpenVR.CVROverlay/OVR.OpenVR.PollNextOverlayEventUnion
   // WARNING Not writing size check since size may be invalid!
 }

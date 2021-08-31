@@ -88,34 +88,20 @@ namespace GlobalNamespace {
     MissionObjectiveCheckersManager(::Array<GlobalNamespace::MissionObjectiveChecker*>* missionObjectiveCheckers_ = {}, GlobalNamespace::MissionObjectiveCheckersManager::InitData* initData_ = {}, GlobalNamespace::ILevelEndActions* gameplayManager_ = {}, System::Action* objectiveDidFailEvent_ = {}, System::Action* objectiveWasClearedEvent_ = {}, System::Action* objectivesListDidChangeEvent_ = {}, ::Array<GlobalNamespace::MissionObjectiveChecker*>* activeMissionObjectiveCheckers_ = {}) noexcept : missionObjectiveCheckers{missionObjectiveCheckers_}, initData{initData_}, gameplayManager{gameplayManager_}, objectiveDidFailEvent{objectiveDidFailEvent_}, objectiveWasClearedEvent{objectiveWasClearedEvent_}, objectivesListDidChangeEvent{objectivesListDidChangeEvent_}, activeMissionObjectiveCheckers{activeMissionObjectiveCheckers_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private MissionObjectiveChecker[] _missionObjectiveCheckers
-    ::Array<GlobalNamespace::MissionObjectiveChecker*>* _get__missionObjectiveCheckers();
-    // Set instance field: private MissionObjectiveChecker[] _missionObjectiveCheckers
-    void _set__missionObjectiveCheckers(::Array<GlobalNamespace::MissionObjectiveChecker*>* value);
-    // Get instance field: private MissionObjectiveCheckersManager/InitData _initData
-    GlobalNamespace::MissionObjectiveCheckersManager::InitData* _get__initData();
-    // Set instance field: private MissionObjectiveCheckersManager/InitData _initData
-    void _set__initData(GlobalNamespace::MissionObjectiveCheckersManager::InitData* value);
-    // Get instance field: private ILevelEndActions _gameplayManager
-    GlobalNamespace::ILevelEndActions* _get__gameplayManager();
-    // Set instance field: private ILevelEndActions _gameplayManager
-    void _set__gameplayManager(GlobalNamespace::ILevelEndActions* value);
-    // Get instance field: private System.Action objectiveDidFailEvent
-    System::Action* _get_objectiveDidFailEvent();
-    // Set instance field: private System.Action objectiveDidFailEvent
-    void _set_objectiveDidFailEvent(System::Action* value);
-    // Get instance field: private System.Action objectiveWasClearedEvent
-    System::Action* _get_objectiveWasClearedEvent();
-    // Set instance field: private System.Action objectiveWasClearedEvent
-    void _set_objectiveWasClearedEvent(System::Action* value);
-    // Get instance field: private System.Action objectivesListDidChangeEvent
-    System::Action* _get_objectivesListDidChangeEvent();
-    // Set instance field: private System.Action objectivesListDidChangeEvent
-    void _set_objectivesListDidChangeEvent(System::Action* value);
-    // Get instance field: private MissionObjectiveChecker[] _activeMissionObjectiveCheckers
-    ::Array<GlobalNamespace::MissionObjectiveChecker*>* _get__activeMissionObjectiveCheckers();
-    // Set instance field: private MissionObjectiveChecker[] _activeMissionObjectiveCheckers
-    void _set__activeMissionObjectiveCheckers(::Array<GlobalNamespace::MissionObjectiveChecker*>* value);
+    // Get instance field reference: private MissionObjectiveChecker[] _missionObjectiveCheckers
+    ::Array<GlobalNamespace::MissionObjectiveChecker*>*& dyn__missionObjectiveCheckers();
+    // Get instance field reference: private MissionObjectiveCheckersManager/InitData _initData
+    GlobalNamespace::MissionObjectiveCheckersManager::InitData*& dyn__initData();
+    // Get instance field reference: private ILevelEndActions _gameplayManager
+    GlobalNamespace::ILevelEndActions*& dyn__gameplayManager();
+    // Get instance field reference: private System.Action objectiveDidFailEvent
+    System::Action*& dyn_objectiveDidFailEvent();
+    // Get instance field reference: private System.Action objectiveWasClearedEvent
+    System::Action*& dyn_objectiveWasClearedEvent();
+    // Get instance field reference: private System.Action objectivesListDidChangeEvent
+    System::Action*& dyn_objectivesListDidChangeEvent();
+    // Get instance field reference: private MissionObjectiveChecker[] _activeMissionObjectiveCheckers
+    ::Array<GlobalNamespace::MissionObjectiveChecker*>*& dyn__activeMissionObjectiveCheckers();
     // public MissionObjectiveChecker[] get_activeMissionObjectiveCheckers()
     // Offset: 0x11D79C0
     ::Array<GlobalNamespace::MissionObjectiveChecker*>* get_activeMissionObjectiveCheckers();

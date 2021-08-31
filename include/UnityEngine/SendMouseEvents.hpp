@@ -53,14 +53,10 @@ namespace UnityEngine {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public UnityEngine.GameObject target
-      UnityEngine::GameObject* _get_target();
-      // Set instance field: public UnityEngine.GameObject target
-      void _set_target(UnityEngine::GameObject* value);
-      // Get instance field: public UnityEngine.Camera camera
-      UnityEngine::Camera* _get_camera();
-      // Set instance field: public UnityEngine.Camera camera
-      void _set_camera(UnityEngine::Camera* value);
+      // Get instance field reference: public UnityEngine.GameObject target
+      UnityEngine::GameObject*& dyn_target();
+      // Get instance field reference: public UnityEngine.Camera camera
+      UnityEngine::Camera*& dyn_camera();
       // public System.Void SendMessage(System.String name)
       // Offset: 0x241B054
       void SendMessage(::Il2CppString* name);

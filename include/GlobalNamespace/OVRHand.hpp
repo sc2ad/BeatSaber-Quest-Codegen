@@ -90,10 +90,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVRHand::Hand _get_HandRight();
       // Set static field: static public OVRHand/Hand HandRight
       static void _set_HandRight(GlobalNamespace::OVRHand::Hand value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // OVRHand/Hand
     #pragma pack(pop)
     static check_size<sizeof(OVRHand::Hand), 0 + sizeof(int)> __GlobalNamespace_OVRHand_HandSizeCheck;
@@ -132,10 +130,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVRHand::TrackingConfidence _get_High();
       // Set static field: static public OVRHand/TrackingConfidence High
       static void _set_High(GlobalNamespace::OVRHand::TrackingConfidence value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // OVRHand/TrackingConfidence
     #pragma pack(pop)
     static check_size<sizeof(OVRHand::TrackingConfidence), 0 + sizeof(int)> __GlobalNamespace_OVRHand_TrackingConfidenceSizeCheck;
@@ -242,58 +238,32 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private OVRHand/Hand HandType
-    GlobalNamespace::OVRHand::Hand _get_HandType();
-    // Set instance field: private OVRHand/Hand HandType
-    void _set_HandType(GlobalNamespace::OVRHand::Hand value);
-    // Get instance field: private UnityEngine.Transform _pointerPoseRoot
-    UnityEngine::Transform* _get__pointerPoseRoot();
-    // Set instance field: private UnityEngine.Transform _pointerPoseRoot
-    void _set__pointerPoseRoot(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.GameObject _pointerPoseGO
-    UnityEngine::GameObject* _get__pointerPoseGO();
-    // Set instance field: private UnityEngine.GameObject _pointerPoseGO
-    void _set__pointerPoseGO(UnityEngine::GameObject* value);
-    // Get instance field: private OVRPlugin/HandState _handState
-    GlobalNamespace::OVRPlugin::HandState _get__handState();
-    // Set instance field: private OVRPlugin/HandState _handState
-    void _set__handState(GlobalNamespace::OVRPlugin::HandState value);
-    // Get instance field: private System.Boolean <IsDataValid>k__BackingField
-    bool _get_$IsDataValid$k__BackingField();
-    // Set instance field: private System.Boolean <IsDataValid>k__BackingField
-    void _set_$IsDataValid$k__BackingField(bool value);
-    // Get instance field: private System.Boolean <IsDataHighConfidence>k__BackingField
-    bool _get_$IsDataHighConfidence$k__BackingField();
-    // Set instance field: private System.Boolean <IsDataHighConfidence>k__BackingField
-    void _set_$IsDataHighConfidence$k__BackingField(bool value);
-    // Get instance field: private System.Boolean <IsTracked>k__BackingField
-    bool _get_$IsTracked$k__BackingField();
-    // Set instance field: private System.Boolean <IsTracked>k__BackingField
-    void _set_$IsTracked$k__BackingField(bool value);
-    // Get instance field: private System.Boolean <IsSystemGestureInProgress>k__BackingField
-    bool _get_$IsSystemGestureInProgress$k__BackingField();
-    // Set instance field: private System.Boolean <IsSystemGestureInProgress>k__BackingField
-    void _set_$IsSystemGestureInProgress$k__BackingField(bool value);
-    // Get instance field: private System.Boolean <IsPointerPoseValid>k__BackingField
-    bool _get_$IsPointerPoseValid$k__BackingField();
-    // Set instance field: private System.Boolean <IsPointerPoseValid>k__BackingField
-    void _set_$IsPointerPoseValid$k__BackingField(bool value);
-    // Get instance field: private UnityEngine.Transform <PointerPose>k__BackingField
-    UnityEngine::Transform* _get_$PointerPose$k__BackingField();
-    // Set instance field: private UnityEngine.Transform <PointerPose>k__BackingField
-    void _set_$PointerPose$k__BackingField(UnityEngine::Transform* value);
-    // Get instance field: private System.Single <HandScale>k__BackingField
-    float _get_$HandScale$k__BackingField();
-    // Set instance field: private System.Single <HandScale>k__BackingField
-    void _set_$HandScale$k__BackingField(float value);
-    // Get instance field: private OVRHand/TrackingConfidence <HandConfidence>k__BackingField
-    GlobalNamespace::OVRHand::TrackingConfidence _get_$HandConfidence$k__BackingField();
-    // Set instance field: private OVRHand/TrackingConfidence <HandConfidence>k__BackingField
-    void _set_$HandConfidence$k__BackingField(GlobalNamespace::OVRHand::TrackingConfidence value);
-    // Get instance field: private System.Boolean <IsDominantHand>k__BackingField
-    bool _get_$IsDominantHand$k__BackingField();
-    // Set instance field: private System.Boolean <IsDominantHand>k__BackingField
-    void _set_$IsDominantHand$k__BackingField(bool value);
+    // Get instance field reference: private OVRHand/Hand HandType
+    GlobalNamespace::OVRHand::Hand& dyn_HandType();
+    // Get instance field reference: private UnityEngine.Transform _pointerPoseRoot
+    UnityEngine::Transform*& dyn__pointerPoseRoot();
+    // Get instance field reference: private UnityEngine.GameObject _pointerPoseGO
+    UnityEngine::GameObject*& dyn__pointerPoseGO();
+    // Get instance field reference: private OVRPlugin/HandState _handState
+    GlobalNamespace::OVRPlugin::HandState& dyn__handState();
+    // Get instance field reference: private System.Boolean <IsDataValid>k__BackingField
+    bool& dyn_$IsDataValid$k__BackingField();
+    // Get instance field reference: private System.Boolean <IsDataHighConfidence>k__BackingField
+    bool& dyn_$IsDataHighConfidence$k__BackingField();
+    // Get instance field reference: private System.Boolean <IsTracked>k__BackingField
+    bool& dyn_$IsTracked$k__BackingField();
+    // Get instance field reference: private System.Boolean <IsSystemGestureInProgress>k__BackingField
+    bool& dyn_$IsSystemGestureInProgress$k__BackingField();
+    // Get instance field reference: private System.Boolean <IsPointerPoseValid>k__BackingField
+    bool& dyn_$IsPointerPoseValid$k__BackingField();
+    // Get instance field reference: private UnityEngine.Transform <PointerPose>k__BackingField
+    UnityEngine::Transform*& dyn_$PointerPose$k__BackingField();
+    // Get instance field reference: private System.Single <HandScale>k__BackingField
+    float& dyn_$HandScale$k__BackingField();
+    // Get instance field reference: private OVRHand/TrackingConfidence <HandConfidence>k__BackingField
+    GlobalNamespace::OVRHand::TrackingConfidence& dyn_$HandConfidence$k__BackingField();
+    // Get instance field reference: private System.Boolean <IsDominantHand>k__BackingField
+    bool& dyn_$IsDominantHand$k__BackingField();
     // public System.Boolean get_IsDataValid()
     // Offset: 0x1531E14
     bool get_IsDataValid();

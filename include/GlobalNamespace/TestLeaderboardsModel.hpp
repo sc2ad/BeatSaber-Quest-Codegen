@@ -71,10 +71,8 @@ namespace GlobalNamespace {
     constexpr operator System::Action_1<::Il2CppString*>*() const noexcept {
       return scoreForLeaderboardDidUploadEvent;
     }
-    // Get instance field: private System.Action`1<System.String> scoreForLeaderboardDidUploadEvent
-    System::Action_1<::Il2CppString*>* _get_scoreForLeaderboardDidUploadEvent();
-    // Set instance field: private System.Action`1<System.String> scoreForLeaderboardDidUploadEvent
-    void _set_scoreForLeaderboardDidUploadEvent(System::Action_1<::Il2CppString*>* value);
+    // Get instance field reference: private System.Action`1<System.String> scoreForLeaderboardDidUploadEvent
+    System::Action_1<::Il2CppString*>*& dyn_scoreForLeaderboardDidUploadEvent();
     // public System.Void add_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
     // Offset: 0x10924A0
     void add_scoreForLeaderboardDidUploadEvent(System::Action_1<::Il2CppString*>* value);

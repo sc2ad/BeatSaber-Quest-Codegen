@@ -47,14 +47,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(Oculus::Platform::Request*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass3_0
     $$c__DisplayClass3_0(GlobalNamespace::OculusPlatformLeaderboardsHandler* $$4__this_ = {}, Oculus::Platform::Request* oculusRequest_ = {}) noexcept : $$4__this{$$4__this_}, oculusRequest{oculusRequest_} {}
-    // Get instance field: public OculusPlatformLeaderboardsHandler <>4__this
-    GlobalNamespace::OculusPlatformLeaderboardsHandler* _get_$$4__this();
-    // Set instance field: public OculusPlatformLeaderboardsHandler <>4__this
-    void _set_$$4__this(GlobalNamespace::OculusPlatformLeaderboardsHandler* value);
-    // Get instance field: public Oculus.Platform.Request oculusRequest
-    Oculus::Platform::Request* _get_oculusRequest();
-    // Set instance field: public Oculus.Platform.Request oculusRequest
-    void _set_oculusRequest(Oculus::Platform::Request* value);
+    // Get instance field reference: public OculusPlatformLeaderboardsHandler <>4__this
+    GlobalNamespace::OculusPlatformLeaderboardsHandler*& dyn_$$4__this();
+    // Get instance field reference: public Oculus.Platform.Request oculusRequest
+    Oculus::Platform::Request*& dyn_oculusRequest();
     // System.Void <AddOculusRequest>b__0(HMAsyncRequest request)
     // Offset: 0x10225C0
     void $AddOculusRequest$b__0(GlobalNamespace::HMAsyncRequest* request);

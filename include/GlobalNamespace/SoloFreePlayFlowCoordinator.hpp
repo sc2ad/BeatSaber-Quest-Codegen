@@ -95,34 +95,20 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::PlatformLeaderboardsModel*) == 0x8);
     // Creating value type constructor for type: SoloFreePlayFlowCoordinator
     SoloFreePlayFlowCoordinator(GlobalNamespace::MenuLightsPresetSO* defaultLightsPreset_ = {}, GlobalNamespace::MenuLightsPresetSO* resultsClearedLightsPreset_ = {}, GlobalNamespace::MenuLightsPresetSO* resultsFailedLightsPreset_ = {}, GlobalNamespace::MenuLightsManager* menuLightsManager_ = {}, GlobalNamespace::ResultsViewController* resultsViewController_ = {}, GlobalNamespace::PlatformLeaderboardViewController* platformLeaderboardViewController_ = {}, GlobalNamespace::PlatformLeaderboardsModel* platformLeaderboardsModel_ = {}) noexcept : defaultLightsPreset{defaultLightsPreset_}, resultsClearedLightsPreset{resultsClearedLightsPreset_}, resultsFailedLightsPreset{resultsFailedLightsPreset_}, menuLightsManager{menuLightsManager_}, resultsViewController{resultsViewController_}, platformLeaderboardViewController{platformLeaderboardViewController_}, platformLeaderboardsModel{platformLeaderboardsModel_} {}
-    // Get instance field: private MenuLightsPresetSO _defaultLightsPreset
-    GlobalNamespace::MenuLightsPresetSO* _get__defaultLightsPreset();
-    // Set instance field: private MenuLightsPresetSO _defaultLightsPreset
-    void _set__defaultLightsPreset(GlobalNamespace::MenuLightsPresetSO* value);
-    // Get instance field: private MenuLightsPresetSO _resultsClearedLightsPreset
-    GlobalNamespace::MenuLightsPresetSO* _get__resultsClearedLightsPreset();
-    // Set instance field: private MenuLightsPresetSO _resultsClearedLightsPreset
-    void _set__resultsClearedLightsPreset(GlobalNamespace::MenuLightsPresetSO* value);
-    // Get instance field: private MenuLightsPresetSO _resultsFailedLightsPreset
-    GlobalNamespace::MenuLightsPresetSO* _get__resultsFailedLightsPreset();
-    // Set instance field: private MenuLightsPresetSO _resultsFailedLightsPreset
-    void _set__resultsFailedLightsPreset(GlobalNamespace::MenuLightsPresetSO* value);
-    // Get instance field: private readonly MenuLightsManager _menuLightsManager
-    GlobalNamespace::MenuLightsManager* _get__menuLightsManager();
-    // Set instance field: private readonly MenuLightsManager _menuLightsManager
-    void _set__menuLightsManager(GlobalNamespace::MenuLightsManager* value);
-    // Get instance field: private readonly ResultsViewController _resultsViewController
-    GlobalNamespace::ResultsViewController* _get__resultsViewController();
-    // Set instance field: private readonly ResultsViewController _resultsViewController
-    void _set__resultsViewController(GlobalNamespace::ResultsViewController* value);
-    // Get instance field: private readonly PlatformLeaderboardViewController _platformLeaderboardViewController
-    GlobalNamespace::PlatformLeaderboardViewController* _get__platformLeaderboardViewController();
-    // Set instance field: private readonly PlatformLeaderboardViewController _platformLeaderboardViewController
-    void _set__platformLeaderboardViewController(GlobalNamespace::PlatformLeaderboardViewController* value);
-    // Get instance field: private readonly PlatformLeaderboardsModel _platformLeaderboardsModel
-    GlobalNamespace::PlatformLeaderboardsModel* _get__platformLeaderboardsModel();
-    // Set instance field: private readonly PlatformLeaderboardsModel _platformLeaderboardsModel
-    void _set__platformLeaderboardsModel(GlobalNamespace::PlatformLeaderboardsModel* value);
+    // Get instance field reference: private MenuLightsPresetSO _defaultLightsPreset
+    GlobalNamespace::MenuLightsPresetSO*& dyn__defaultLightsPreset();
+    // Get instance field reference: private MenuLightsPresetSO _resultsClearedLightsPreset
+    GlobalNamespace::MenuLightsPresetSO*& dyn__resultsClearedLightsPreset();
+    // Get instance field reference: private MenuLightsPresetSO _resultsFailedLightsPreset
+    GlobalNamespace::MenuLightsPresetSO*& dyn__resultsFailedLightsPreset();
+    // Get instance field reference: private readonly MenuLightsManager _menuLightsManager
+    GlobalNamespace::MenuLightsManager*& dyn__menuLightsManager();
+    // Get instance field reference: private readonly ResultsViewController _resultsViewController
+    GlobalNamespace::ResultsViewController*& dyn__resultsViewController();
+    // Get instance field reference: private readonly PlatformLeaderboardViewController _platformLeaderboardViewController
+    GlobalNamespace::PlatformLeaderboardViewController*& dyn__platformLeaderboardViewController();
+    // Get instance field reference: private readonly PlatformLeaderboardsModel _platformLeaderboardsModel
+    GlobalNamespace::PlatformLeaderboardsModel*& dyn__platformLeaderboardsModel();
     // private System.Boolean IsNewHighScore(PlayerLevelStatsData playerLevelStats, LevelCompletionResults levelCompletionResults)
     // Offset: 0x107E934
     bool IsNewHighScore(GlobalNamespace::PlayerLevelStatsData* playerLevelStats, GlobalNamespace::LevelCompletionResults* levelCompletionResults);

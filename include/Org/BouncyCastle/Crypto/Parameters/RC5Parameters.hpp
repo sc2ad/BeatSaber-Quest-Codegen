@@ -26,10 +26,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     RC5Parameters(int rounds_ = {}) noexcept : rounds{rounds_} {}
     // Deleting conversion operator: operator ::Array<uint8_t>*
     constexpr operator ::Array<uint8_t>*() const noexcept = delete;
-    // Get instance field: private readonly System.Int32 rounds
-    int _get_rounds();
-    // Set instance field: private readonly System.Int32 rounds
-    void _set_rounds(int value);
+    // Get instance field reference: private readonly System.Int32 rounds
+    int& dyn_rounds();
     // public System.Int32 get_Rounds()
     // Offset: 0x12761BC
     int get_Rounds();

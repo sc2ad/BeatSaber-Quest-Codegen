@@ -78,30 +78,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: HMTask
     HMTask(System::Threading::Thread* thread_ = {}, System::Action* job_ = {}, System::Action* finishCallback_ = {}, bool canceled_ = {}, bool started_ = {}, bool finished_ = {}) noexcept : thread{thread_}, job{job_}, finishCallback{finishCallback_}, canceled{canceled_}, started{started_}, finished{finished_} {}
-    // Get instance field: private System.Threading.Thread _thread
-    System::Threading::Thread* _get__thread();
-    // Set instance field: private System.Threading.Thread _thread
-    void _set__thread(System::Threading::Thread* value);
-    // Get instance field: private System.Action _job
-    System::Action* _get__job();
-    // Set instance field: private System.Action _job
-    void _set__job(System::Action* value);
-    // Get instance field: private System.Action _finishCallback
-    System::Action* _get__finishCallback();
-    // Set instance field: private System.Action _finishCallback
-    void _set__finishCallback(System::Action* value);
-    // Get instance field: private System.Boolean _canceled
-    bool _get__canceled();
-    // Set instance field: private System.Boolean _canceled
-    void _set__canceled(bool value);
-    // Get instance field: private System.Boolean _started
-    bool _get__started();
-    // Set instance field: private System.Boolean _started
-    void _set__started(bool value);
-    // Get instance field: private System.Boolean _finished
-    bool _get__finished();
-    // Set instance field: private System.Boolean _finished
-    void _set__finished(bool value);
+    // Get instance field reference: private System.Threading.Thread _thread
+    System::Threading::Thread*& dyn__thread();
+    // Get instance field reference: private System.Action _job
+    System::Action*& dyn__job();
+    // Get instance field reference: private System.Action _finishCallback
+    System::Action*& dyn__finishCallback();
+    // Get instance field reference: private System.Boolean _canceled
+    bool& dyn__canceled();
+    // Get instance field reference: private System.Boolean _started
+    bool& dyn__started();
+    // Get instance field reference: private System.Boolean _finished
+    bool& dyn__finished();
     // public System.Void .ctor(System.Action job, System.Action finishCallback)
     // Offset: 0x125EC38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

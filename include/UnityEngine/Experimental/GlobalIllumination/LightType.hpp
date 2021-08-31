@@ -74,10 +74,8 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     static UnityEngine::Experimental::GlobalIllumination::LightType _get_SpotBoxShape();
     // Set static field: static public UnityEngine.Experimental.GlobalIllumination.LightType SpotBoxShape
     static void _set_SpotBoxShape(UnityEngine::Experimental::GlobalIllumination::LightType value);
-    // Get instance field: public System.Byte value__
-    uint8_t _get_value__();
-    // Set instance field: public System.Byte value__
-    void _set_value__(uint8_t value);
+    // Get instance field reference: public System.Byte value__
+    uint8_t& dyn_value__();
   }; // UnityEngine.Experimental.GlobalIllumination.LightType
   #pragma pack(pop)
   static check_size<sizeof(LightType), 0 + sizeof(uint8_t)> __UnityEngine_Experimental_GlobalIllumination_LightTypeSizeCheck;

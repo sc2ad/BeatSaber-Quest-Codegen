@@ -76,30 +76,18 @@ namespace GlobalNamespace {
     static int _get__cubePropertyId();
     // Set static field: static private readonly System.Int32 _cubePropertyId
     static void _set__cubePropertyId(int value);
-    // Get instance field: private UnityEngine.Camera _camera
-    UnityEngine::Camera* _get__camera();
-    // Set instance field: private UnityEngine.Camera _camera
-    void _set__camera(UnityEngine::Camera* value);
-    // Get instance field: private UnityEngine.Material _cubemapMaterial
-    UnityEngine::Material* _get__cubemapMaterial();
-    // Set instance field: private UnityEngine.Material _cubemapMaterial
-    void _set__cubemapMaterial(UnityEngine::Material* value);
-    // Get instance field: private UnityEngine.Material _flatMaterial
-    UnityEngine::Material* _get__flatMaterial();
-    // Set instance field: private UnityEngine.Material _flatMaterial
-    void _set__flatMaterial(UnityEngine::Material* value);
-    // Get instance field: private UnityEngine.RenderTexture _cubemapRenderTexture
-    UnityEngine::RenderTexture* _get__cubemapRenderTexture();
-    // Set instance field: private UnityEngine.RenderTexture _cubemapRenderTexture
-    void _set__cubemapRenderTexture(UnityEngine::RenderTexture* value);
-    // Get instance field: private UnityEngine.RenderTexture _downsampledCubemapRenderTexture
-    UnityEngine::RenderTexture* _get__downsampledCubemapRenderTexture();
-    // Set instance field: private UnityEngine.RenderTexture _downsampledCubemapRenderTexture
-    void _set__downsampledCubemapRenderTexture(UnityEngine::RenderTexture* value);
-    // Get instance field: private UnityEngine.RenderTexture _cubemapFlatTexture
-    UnityEngine::RenderTexture* _get__cubemapFlatTexture();
-    // Set instance field: private UnityEngine.RenderTexture _cubemapFlatTexture
-    void _set__cubemapFlatTexture(UnityEngine::RenderTexture* value);
+    // Get instance field reference: private UnityEngine.Camera _camera
+    UnityEngine::Camera*& dyn__camera();
+    // Get instance field reference: private UnityEngine.Material _cubemapMaterial
+    UnityEngine::Material*& dyn__cubemapMaterial();
+    // Get instance field reference: private UnityEngine.Material _flatMaterial
+    UnityEngine::Material*& dyn__flatMaterial();
+    // Get instance field reference: private UnityEngine.RenderTexture _cubemapRenderTexture
+    UnityEngine::RenderTexture*& dyn__cubemapRenderTexture();
+    // Get instance field reference: private UnityEngine.RenderTexture _downsampledCubemapRenderTexture
+    UnityEngine::RenderTexture*& dyn__downsampledCubemapRenderTexture();
+    // Get instance field reference: private UnityEngine.RenderTexture _cubemapFlatTexture
+    UnityEngine::RenderTexture*& dyn__cubemapFlatTexture();
     // protected System.Void Start()
     // Offset: 0x10F5F10
     void Start();

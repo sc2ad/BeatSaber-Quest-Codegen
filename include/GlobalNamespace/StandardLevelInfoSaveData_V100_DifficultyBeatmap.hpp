@@ -54,26 +54,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: DifficultyBeatmap
     DifficultyBeatmap(::Il2CppString* difficulty_ = {}, int difficultyRank_ = {}, ::Il2CppString* beatmapFilename_ = {}, float noteJumpMovementSpeed_ = {}, int noteJumpStartBeatOffset_ = {}) noexcept : difficulty{difficulty_}, difficultyRank{difficultyRank_}, beatmapFilename{beatmapFilename_}, noteJumpMovementSpeed{noteJumpMovementSpeed_}, noteJumpStartBeatOffset{noteJumpStartBeatOffset_} {}
-    // Get instance field: private System.String _difficulty
-    ::Il2CppString* _get__difficulty();
-    // Set instance field: private System.String _difficulty
-    void _set__difficulty(::Il2CppString* value);
-    // Get instance field: private System.Int32 _difficultyRank
-    int _get__difficultyRank();
-    // Set instance field: private System.Int32 _difficultyRank
-    void _set__difficultyRank(int value);
-    // Get instance field: private System.String _beatmapFilename
-    ::Il2CppString* _get__beatmapFilename();
-    // Set instance field: private System.String _beatmapFilename
-    void _set__beatmapFilename(::Il2CppString* value);
-    // Get instance field: private System.Single _noteJumpMovementSpeed
-    float _get__noteJumpMovementSpeed();
-    // Set instance field: private System.Single _noteJumpMovementSpeed
-    void _set__noteJumpMovementSpeed(float value);
-    // Get instance field: private System.Int32 _noteJumpStartBeatOffset
-    int _get__noteJumpStartBeatOffset();
-    // Set instance field: private System.Int32 _noteJumpStartBeatOffset
-    void _set__noteJumpStartBeatOffset(int value);
+    // Get instance field reference: private System.String _difficulty
+    ::Il2CppString*& dyn__difficulty();
+    // Get instance field reference: private System.Int32 _difficultyRank
+    int& dyn__difficultyRank();
+    // Get instance field reference: private System.String _beatmapFilename
+    ::Il2CppString*& dyn__beatmapFilename();
+    // Get instance field reference: private System.Single _noteJumpMovementSpeed
+    float& dyn__noteJumpMovementSpeed();
+    // Get instance field reference: private System.Int32 _noteJumpStartBeatOffset
+    int& dyn__noteJumpStartBeatOffset();
     // public System.String get_difficulty()
     // Offset: 0x108C640
     ::Il2CppString* get_difficulty();

@@ -39,10 +39,8 @@ namespace GlobalNamespace {
     constexpr operator ::Array<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>*() const noexcept {
       return localizations;
     }
-    // Get instance field: public MasterServerAvailabilityData/UserMessage/LocalizedMessage[] localizations
-    ::Array<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>* _get_localizations();
-    // Set instance field: public MasterServerAvailabilityData/UserMessage/LocalizedMessage[] localizations
-    void _set_localizations(::Array<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>* value);
+    // Get instance field reference: public MasterServerAvailabilityData/UserMessage/LocalizedMessage[] localizations
+    ::Array<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>*& dyn_localizations();
     // public System.Void .ctor()
     // Offset: 0x10E4A6C
     // Implemented from: System.Object

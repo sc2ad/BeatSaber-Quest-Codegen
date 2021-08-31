@@ -70,10 +70,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::BlendFactor _get_OneMinusDstAlpha();
     // Set static field: static public OVRPlugin/BlendFactor OneMinusDstAlpha
     static void _set_OneMinusDstAlpha(GlobalNamespace::OVRPlugin::BlendFactor value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // OVRPlugin/BlendFactor
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::BlendFactor), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_BlendFactorSizeCheck;

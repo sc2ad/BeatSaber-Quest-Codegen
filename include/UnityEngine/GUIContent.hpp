@@ -64,18 +64,12 @@ namespace UnityEngine {
     static UnityEngine::GUIContent* _get_none();
     // Set static field: static public UnityEngine.GUIContent none
     static void _set_none(UnityEngine::GUIContent* value);
-    // Get instance field: private System.String m_Text
-    ::Il2CppString* _get_m_Text();
-    // Set instance field: private System.String m_Text
-    void _set_m_Text(::Il2CppString* value);
-    // Get instance field: private UnityEngine.Texture m_Image
-    UnityEngine::Texture* _get_m_Image();
-    // Set instance field: private UnityEngine.Texture m_Image
-    void _set_m_Image(UnityEngine::Texture* value);
-    // Get instance field: private System.String m_Tooltip
-    ::Il2CppString* _get_m_Tooltip();
-    // Set instance field: private System.String m_Tooltip
-    void _set_m_Tooltip(::Il2CppString* value);
+    // Get instance field reference: private System.String m_Text
+    ::Il2CppString*& dyn_m_Text();
+    // Get instance field reference: private UnityEngine.Texture m_Image
+    UnityEngine::Texture*& dyn_m_Image();
+    // Get instance field reference: private System.String m_Tooltip
+    ::Il2CppString*& dyn_m_Tooltip();
     // public System.String get_text()
     // Offset: 0x1B234C8
     ::Il2CppString* get_text();

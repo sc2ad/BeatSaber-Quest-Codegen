@@ -47,14 +47,10 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Set*) == 0x8);
     // Creating value type constructor for type: AttributePkcs
     AttributePkcs(Org::BouncyCastle::Asn1::DerObjectIdentifier* attrType_ = {}, Org::BouncyCastle::Asn1::Asn1Set* attrValues_ = {}) noexcept : attrType{attrType_}, attrValues{attrValues_} {}
-    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier attrType
-    Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_attrType();
-    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier attrType
-    void _set_attrType(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-    // Get instance field: private readonly Org.BouncyCastle.Asn1.Asn1Set attrValues
-    Org::BouncyCastle::Asn1::Asn1Set* _get_attrValues();
-    // Set instance field: private readonly Org.BouncyCastle.Asn1.Asn1Set attrValues
-    void _set_attrValues(Org::BouncyCastle::Asn1::Asn1Set* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier attrType
+    Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_attrType();
+    // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1Set attrValues
+    Org::BouncyCastle::Asn1::Asn1Set*& dyn_attrValues();
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_AttrType()
     // Offset: 0x17AFD08
     Org::BouncyCastle::Asn1::DerObjectIdentifier* get_AttrType();

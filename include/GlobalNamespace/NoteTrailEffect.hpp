@@ -58,22 +58,14 @@ namespace GlobalNamespace {
     NoteTrailEffect(int particlesPerFrame_ = {}, float maxSpawnDistance_ = {}, GlobalNamespace::NoteMovement* noteMovement_ = {}, GlobalNamespace::NoteTrailParticleSystem* noteTrailParticleSystem_ = {}) noexcept : particlesPerFrame{particlesPerFrame_}, maxSpawnDistance{maxSpawnDistance_}, noteMovement{noteMovement_}, noteTrailParticleSystem{noteTrailParticleSystem_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Int32 _particlesPerFrame
-    int _get__particlesPerFrame();
-    // Set instance field: private System.Int32 _particlesPerFrame
-    void _set__particlesPerFrame(int value);
-    // Get instance field: private System.Single _maxSpawnDistance
-    float _get__maxSpawnDistance();
-    // Set instance field: private System.Single _maxSpawnDistance
-    void _set__maxSpawnDistance(float value);
-    // Get instance field: private NoteMovement _noteMovement
-    GlobalNamespace::NoteMovement* _get__noteMovement();
-    // Set instance field: private NoteMovement _noteMovement
-    void _set__noteMovement(GlobalNamespace::NoteMovement* value);
-    // Get instance field: private NoteTrailParticleSystem _noteTrailParticleSystem
-    GlobalNamespace::NoteTrailParticleSystem* _get__noteTrailParticleSystem();
-    // Set instance field: private NoteTrailParticleSystem _noteTrailParticleSystem
-    void _set__noteTrailParticleSystem(GlobalNamespace::NoteTrailParticleSystem* value);
+    // Get instance field reference: private System.Int32 _particlesPerFrame
+    int& dyn__particlesPerFrame();
+    // Get instance field reference: private System.Single _maxSpawnDistance
+    float& dyn__maxSpawnDistance();
+    // Get instance field reference: private NoteMovement _noteMovement
+    GlobalNamespace::NoteMovement*& dyn__noteMovement();
+    // Get instance field reference: private NoteTrailParticleSystem _noteTrailParticleSystem
+    GlobalNamespace::NoteTrailParticleSystem*& dyn__noteTrailParticleSystem();
     // protected System.Void Awake()
     // Offset: 0x1230C00
     void Awake();

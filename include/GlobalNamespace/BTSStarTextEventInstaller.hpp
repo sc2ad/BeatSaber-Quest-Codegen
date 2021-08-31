@@ -35,10 +35,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::BTSStarTextEffectController*) == 0x8);
     // Creating value type constructor for type: BTSStarTextEventInstaller
     BTSStarTextEventInstaller(GlobalNamespace::BTSStarTextEffectController* btsStarTextEffectController_ = {}) noexcept : btsStarTextEffectController{btsStarTextEffectController_} {}
-    // Get instance field: private BTSStarTextEffectController _btsStarTextEffectController
-    GlobalNamespace::BTSStarTextEffectController* _get__btsStarTextEffectController();
-    // Set instance field: private BTSStarTextEffectController _btsStarTextEffectController
-    void _set__btsStarTextEffectController(GlobalNamespace::BTSStarTextEffectController* value);
+    // Get instance field reference: private BTSStarTextEffectController _btsStarTextEffectController
+    GlobalNamespace::BTSStarTextEffectController*& dyn__btsStarTextEffectController();
     // public System.Void .ctor()
     // Offset: 0x1189820
     // Implemented from: Zenject.MonoInstaller

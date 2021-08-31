@@ -97,42 +97,24 @@ namespace GlobalNamespace {
     static UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static void _set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock* value);
-    // Get instance field: private UnityEngine.Color _defaultColor
-    UnityEngine::Color _get__defaultColor();
-    // Set instance field: private UnityEngine.Color _defaultColor
-    void _set__defaultColor(UnityEngine::Color value);
-    // Get instance field: private System.Single _darkerColorMultiplier
-    float _get__darkerColorMultiplier();
-    // Set instance field: private System.Single _darkerColorMultiplier
-    void _set__darkerColorMultiplier(float value);
-    // Get instance field: private System.Single _whiteBoost
-    float _get__whiteBoost();
-    // Set instance field: private System.Single _whiteBoost
-    void _set__whiteBoost(float value);
-    // Get instance field: private System.Boolean _editInPlayMode
-    bool _get__editInPlayMode();
-    // Set instance field: private System.Boolean _editInPlayMode
-    void _set__editInPlayMode(bool value);
-    // Get instance field: private UnityEngine.Renderer _renderer
-    UnityEngine::Renderer* _get__renderer();
-    // Set instance field: private UnityEngine.Renderer _renderer
-    void _set__renderer(UnityEngine::Renderer* value);
-    // Get instance field: private UnityEngine.Color _rimLightColor
-    UnityEngine::Color _get__rimLightColor();
-    // Set instance field: private UnityEngine.Color _rimLightColor
-    void _set__rimLightColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _mainColor
-    UnityEngine::Color _get__mainColor();
-    // Set instance field: private UnityEngine.Color _mainColor
-    void _set__mainColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _boostColor
-    UnityEngine::Color _get__boostColor();
-    // Set instance field: private UnityEngine.Color _boostColor
-    void _set__boostColor(UnityEngine::Color value);
-    // Get instance field: private System.Boolean _highlighted
-    bool _get__highlighted();
-    // Set instance field: private System.Boolean _highlighted
-    void _set__highlighted(bool value);
+    // Get instance field reference: private UnityEngine.Color _defaultColor
+    UnityEngine::Color& dyn__defaultColor();
+    // Get instance field reference: private System.Single _darkerColorMultiplier
+    float& dyn__darkerColorMultiplier();
+    // Get instance field reference: private System.Single _whiteBoost
+    float& dyn__whiteBoost();
+    // Get instance field reference: private System.Boolean _editInPlayMode
+    bool& dyn__editInPlayMode();
+    // Get instance field reference: private UnityEngine.Renderer _renderer
+    UnityEngine::Renderer*& dyn__renderer();
+    // Get instance field reference: private UnityEngine.Color _rimLightColor
+    UnityEngine::Color& dyn__rimLightColor();
+    // Get instance field reference: private UnityEngine.Color _mainColor
+    UnityEngine::Color& dyn__mainColor();
+    // Get instance field reference: private UnityEngine.Color _boostColor
+    UnityEngine::Color& dyn__boostColor();
+    // Get instance field reference: private System.Boolean _highlighted
+    bool& dyn__highlighted();
     // protected System.Void Awake()
     // Offset: 0x1183244
     void Awake();

@@ -81,10 +81,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::SettingsNavigationController::FinishAction _get_Apply();
       // Set static field: static public SettingsNavigationController/FinishAction Apply
       static void _set_Apply(GlobalNamespace::SettingsNavigationController::FinishAction value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // SettingsNavigationController/FinishAction
     #pragma pack(pop)
     static check_size<sizeof(SettingsNavigationController::FinishAction), 0 + sizeof(int)> __GlobalNamespace_SettingsNavigationController_FinishActionSizeCheck;
@@ -115,22 +113,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_1<GlobalNamespace::SettingsNavigationController::FinishAction>*) == 0x8);
     // Creating value type constructor for type: SettingsNavigationController
     SettingsNavigationController(UnityEngine::UI::Button* okButton_ = {}, UnityEngine::UI::Button* applyButton_ = {}, UnityEngine::UI::Button* cancelButton_ = {}, System::Action_1<GlobalNamespace::SettingsNavigationController::FinishAction>* didFinishEvent_ = {}) noexcept : okButton{okButton_}, applyButton{applyButton_}, cancelButton{cancelButton_}, didFinishEvent{didFinishEvent_} {}
-    // Get instance field: private UnityEngine.UI.Button _okButton
-    UnityEngine::UI::Button* _get__okButton();
-    // Set instance field: private UnityEngine.UI.Button _okButton
-    void _set__okButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _applyButton
-    UnityEngine::UI::Button* _get__applyButton();
-    // Set instance field: private UnityEngine.UI.Button _applyButton
-    void _set__applyButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _cancelButton
-    UnityEngine::UI::Button* _get__cancelButton();
-    // Set instance field: private UnityEngine.UI.Button _cancelButton
-    void _set__cancelButton(UnityEngine::UI::Button* value);
-    // Get instance field: private System.Action`1<SettingsNavigationController/FinishAction> didFinishEvent
-    System::Action_1<GlobalNamespace::SettingsNavigationController::FinishAction>* _get_didFinishEvent();
-    // Set instance field: private System.Action`1<SettingsNavigationController/FinishAction> didFinishEvent
-    void _set_didFinishEvent(System::Action_1<GlobalNamespace::SettingsNavigationController::FinishAction>* value);
+    // Get instance field reference: private UnityEngine.UI.Button _okButton
+    UnityEngine::UI::Button*& dyn__okButton();
+    // Get instance field reference: private UnityEngine.UI.Button _applyButton
+    UnityEngine::UI::Button*& dyn__applyButton();
+    // Get instance field reference: private UnityEngine.UI.Button _cancelButton
+    UnityEngine::UI::Button*& dyn__cancelButton();
+    // Get instance field reference: private System.Action`1<SettingsNavigationController/FinishAction> didFinishEvent
+    System::Action_1<GlobalNamespace::SettingsNavigationController::FinishAction>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`1<SettingsNavigationController/FinishAction> value)
     // Offset: 0x10780CC
     void add_didFinishEvent(System::Action_1<GlobalNamespace::SettingsNavigationController::FinishAction>* value);

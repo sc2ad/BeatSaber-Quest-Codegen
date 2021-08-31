@@ -46,10 +46,8 @@ namespace Zenject {
     CopyNonLazyBinder(System::Collections::Generic::List_1<Zenject::BindInfo*>* secondaryBindInfos_ = {}) noexcept : secondaryBindInfos{secondaryBindInfos_} {}
     // Deleting conversion operator: operator Zenject::BindInfo*
     constexpr operator Zenject::BindInfo*() const noexcept = delete;
-    // Get instance field: private System.Collections.Generic.List`1<Zenject.BindInfo> _secondaryBindInfos
-    System::Collections::Generic::List_1<Zenject::BindInfo*>* _get__secondaryBindInfos();
-    // Set instance field: private System.Collections.Generic.List`1<Zenject.BindInfo> _secondaryBindInfos
-    void _set__secondaryBindInfos(System::Collections::Generic::List_1<Zenject::BindInfo*>* value);
+    // Get instance field reference: private System.Collections.Generic.List`1<Zenject.BindInfo> _secondaryBindInfos
+    System::Collections::Generic::List_1<Zenject::BindInfo*>*& dyn__secondaryBindInfos();
     // System.Void AddSecondaryCopyBindInfo(Zenject.BindInfo bindInfo)
     // Offset: 0x13E2D4C
     void AddSecondaryCopyBindInfo(Zenject::BindInfo* bindInfo);

@@ -76,34 +76,20 @@ namespace System::Text::RegularExpressions {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: RegexTree
     RegexTree(System::Text::RegularExpressions::RegexNode* root_ = {}, System::Collections::Hashtable* caps_ = {}, ::Array<int>* capnumlist_ = {}, System::Collections::Hashtable* capnames_ = {}, ::Array<::Il2CppString*>* capslist_ = {}, System::Text::RegularExpressions::RegexOptions options_ = {}, int captop_ = {}) noexcept : root{root_}, caps{caps_}, capnumlist{capnumlist_}, capnames{capnames_}, capslist{capslist_}, options{options_}, captop{captop_} {}
-    // Get instance field: System.Text.RegularExpressions.RegexNode _root
-    System::Text::RegularExpressions::RegexNode* _get__root();
-    // Set instance field: System.Text.RegularExpressions.RegexNode _root
-    void _set__root(System::Text::RegularExpressions::RegexNode* value);
-    // Get instance field: System.Collections.Hashtable _caps
-    System::Collections::Hashtable* _get__caps();
-    // Set instance field: System.Collections.Hashtable _caps
-    void _set__caps(System::Collections::Hashtable* value);
-    // Get instance field: System.Int32[] _capnumlist
-    ::Array<int>* _get__capnumlist();
-    // Set instance field: System.Int32[] _capnumlist
-    void _set__capnumlist(::Array<int>* value);
-    // Get instance field: System.Collections.Hashtable _capnames
-    System::Collections::Hashtable* _get__capnames();
-    // Set instance field: System.Collections.Hashtable _capnames
-    void _set__capnames(System::Collections::Hashtable* value);
-    // Get instance field: System.String[] _capslist
-    ::Array<::Il2CppString*>* _get__capslist();
-    // Set instance field: System.String[] _capslist
-    void _set__capslist(::Array<::Il2CppString*>* value);
-    // Get instance field: System.Text.RegularExpressions.RegexOptions _options
-    System::Text::RegularExpressions::RegexOptions _get__options();
-    // Set instance field: System.Text.RegularExpressions.RegexOptions _options
-    void _set__options(System::Text::RegularExpressions::RegexOptions value);
-    // Get instance field: System.Int32 _captop
-    int _get__captop();
-    // Set instance field: System.Int32 _captop
-    void _set__captop(int value);
+    // Get instance field reference: System.Text.RegularExpressions.RegexNode _root
+    System::Text::RegularExpressions::RegexNode*& dyn__root();
+    // Get instance field reference: System.Collections.Hashtable _caps
+    System::Collections::Hashtable*& dyn__caps();
+    // Get instance field reference: System.Int32[] _capnumlist
+    ::Array<int>*& dyn__capnumlist();
+    // Get instance field reference: System.Collections.Hashtable _capnames
+    System::Collections::Hashtable*& dyn__capnames();
+    // Get instance field reference: System.String[] _capslist
+    ::Array<::Il2CppString*>*& dyn__capslist();
+    // Get instance field reference: System.Text.RegularExpressions.RegexOptions _options
+    System::Text::RegularExpressions::RegexOptions& dyn__options();
+    // Get instance field reference: System.Int32 _captop
+    int& dyn__captop();
     // System.Void .ctor(System.Text.RegularExpressions.RegexNode root, System.Collections.Hashtable caps, System.Int32[] capnumlist, System.Int32 captop, System.Collections.Hashtable capnames, System.String[] capslist, System.Text.RegularExpressions.RegexOptions opts)
     // Offset: 0x199BF38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

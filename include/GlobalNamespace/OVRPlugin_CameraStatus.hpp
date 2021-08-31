@@ -76,10 +76,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::CameraStatus _get_CameraStatus_EnumSize();
     // Set static field: static public OVRPlugin/CameraStatus CameraStatus_EnumSize
     static void _set_CameraStatus_EnumSize(GlobalNamespace::OVRPlugin::CameraStatus value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // OVRPlugin/CameraStatus
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::CameraStatus), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_CameraStatusSizeCheck;

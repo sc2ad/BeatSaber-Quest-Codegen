@@ -105,54 +105,30 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: CalibrationData
     CalibrationData(float scale_ = {}, RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* head_ = {}, RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* leftHand_ = {}, RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* rightHand_ = {}, RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* pelvis_ = {}, RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* leftFoot_ = {}, RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* rightFoot_ = {}, RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* leftLegGoal_ = {}, RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* rightLegGoal_ = {}, UnityEngine::Vector3 pelvisTargetRight_ = {}, float pelvisPositionWeight_ = {}, float pelvisRotationWeight_ = {}) noexcept : scale{scale_}, head{head_}, leftHand{leftHand_}, rightHand{rightHand_}, pelvis{pelvis_}, leftFoot{leftFoot_}, rightFoot{rightFoot_}, leftLegGoal{leftLegGoal_}, rightLegGoal{rightLegGoal_}, pelvisTargetRight{pelvisTargetRight_}, pelvisPositionWeight{pelvisPositionWeight_}, pelvisRotationWeight{pelvisRotationWeight_} {}
-    // Get instance field: public System.Single scale
-    float _get_scale();
-    // Set instance field: public System.Single scale
-    void _set_scale(float value);
-    // Get instance field: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target head
-    RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* _get_head();
-    // Set instance field: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target head
-    void _set_head(RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* value);
-    // Get instance field: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target leftHand
-    RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* _get_leftHand();
-    // Set instance field: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target leftHand
-    void _set_leftHand(RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* value);
-    // Get instance field: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target rightHand
-    RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* _get_rightHand();
-    // Set instance field: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target rightHand
-    void _set_rightHand(RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* value);
-    // Get instance field: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target pelvis
-    RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* _get_pelvis();
-    // Set instance field: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target pelvis
-    void _set_pelvis(RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* value);
-    // Get instance field: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target leftFoot
-    RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* _get_leftFoot();
-    // Set instance field: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target leftFoot
-    void _set_leftFoot(RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* value);
-    // Get instance field: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target rightFoot
-    RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* _get_rightFoot();
-    // Set instance field: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target rightFoot
-    void _set_rightFoot(RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* value);
-    // Get instance field: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target leftLegGoal
-    RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* _get_leftLegGoal();
-    // Set instance field: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target leftLegGoal
-    void _set_leftLegGoal(RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* value);
-    // Get instance field: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target rightLegGoal
-    RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* _get_rightLegGoal();
-    // Set instance field: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target rightLegGoal
-    void _set_rightLegGoal(RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* value);
-    // Get instance field: public UnityEngine.Vector3 pelvisTargetRight
-    UnityEngine::Vector3 _get_pelvisTargetRight();
-    // Set instance field: public UnityEngine.Vector3 pelvisTargetRight
-    void _set_pelvisTargetRight(UnityEngine::Vector3 value);
-    // Get instance field: public System.Single pelvisPositionWeight
-    float _get_pelvisPositionWeight();
-    // Set instance field: public System.Single pelvisPositionWeight
-    void _set_pelvisPositionWeight(float value);
-    // Get instance field: public System.Single pelvisRotationWeight
-    float _get_pelvisRotationWeight();
-    // Set instance field: public System.Single pelvisRotationWeight
-    void _set_pelvisRotationWeight(float value);
+    // Get instance field reference: public System.Single scale
+    float& dyn_scale();
+    // Get instance field reference: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target head
+    RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_head();
+    // Get instance field reference: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target leftHand
+    RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_leftHand();
+    // Get instance field reference: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target rightHand
+    RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_rightHand();
+    // Get instance field reference: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target pelvis
+    RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_pelvis();
+    // Get instance field reference: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target leftFoot
+    RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_leftFoot();
+    // Get instance field reference: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target rightFoot
+    RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_rightFoot();
+    // Get instance field reference: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target leftLegGoal
+    RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_leftLegGoal();
+    // Get instance field reference: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target rightLegGoal
+    RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_rightLegGoal();
+    // Get instance field reference: public UnityEngine.Vector3 pelvisTargetRight
+    UnityEngine::Vector3& dyn_pelvisTargetRight();
+    // Get instance field reference: public System.Single pelvisPositionWeight
+    float& dyn_pelvisPositionWeight();
+    // Get instance field reference: public System.Single pelvisRotationWeight
+    float& dyn_pelvisRotationWeight();
     // public System.Void .ctor()
     // Offset: 0x1AE3D94
     // Implemented from: System.Object

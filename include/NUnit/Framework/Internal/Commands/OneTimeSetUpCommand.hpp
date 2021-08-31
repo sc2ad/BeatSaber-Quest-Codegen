@@ -83,26 +83,16 @@ namespace NUnit::Framework::Internal::Commands {
     OneTimeSetUpCommand(NUnit::Framework::Internal::TestSuite* suite_ = {}, NUnit::Framework::Interfaces::ITypeInfo* typeInfo_ = {}, ::Array<::Il2CppObject*>* arguments_ = {}, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>* setUpTearDown_ = {}, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>* actions_ = {}) noexcept : suite{suite_}, typeInfo{typeInfo_}, arguments{arguments_}, setUpTearDown{setUpTearDown_}, actions{actions_} {}
     // Deleting conversion operator: operator NUnit::Framework::Internal::Test*
     constexpr operator NUnit::Framework::Internal::Test*() const noexcept = delete;
-    // Get instance field: private readonly NUnit.Framework.Internal.TestSuite _suite
-    NUnit::Framework::Internal::TestSuite* _get__suite();
-    // Set instance field: private readonly NUnit.Framework.Internal.TestSuite _suite
-    void _set__suite(NUnit::Framework::Internal::TestSuite* value);
-    // Get instance field: private readonly NUnit.Framework.Interfaces.ITypeInfo _typeInfo
-    NUnit::Framework::Interfaces::ITypeInfo* _get__typeInfo();
-    // Set instance field: private readonly NUnit.Framework.Interfaces.ITypeInfo _typeInfo
-    void _set__typeInfo(NUnit::Framework::Interfaces::ITypeInfo* value);
-    // Get instance field: private readonly System.Object[] _arguments
-    ::Array<::Il2CppObject*>* _get__arguments();
-    // Set instance field: private readonly System.Object[] _arguments
-    void _set__arguments(::Array<::Il2CppObject*>* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.SetUpTearDownItem> _setUpTearDown
-    System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>* _get__setUpTearDown();
-    // Set instance field: private readonly System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.SetUpTearDownItem> _setUpTearDown
-    void _set__setUpTearDown(System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.TestActionItem> _actions
-    System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>* _get__actions();
-    // Set instance field: private readonly System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.TestActionItem> _actions
-    void _set__actions(System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>* value);
+    // Get instance field reference: private readonly NUnit.Framework.Internal.TestSuite _suite
+    NUnit::Framework::Internal::TestSuite*& dyn__suite();
+    // Get instance field reference: private readonly NUnit.Framework.Interfaces.ITypeInfo _typeInfo
+    NUnit::Framework::Interfaces::ITypeInfo*& dyn__typeInfo();
+    // Get instance field reference: private readonly System.Object[] _arguments
+    ::Array<::Il2CppObject*>*& dyn__arguments();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.SetUpTearDownItem> _setUpTearDown
+    System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>*& dyn__setUpTearDown();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.TestActionItem> _actions
+    System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>*& dyn__actions();
     // public System.Void .ctor(NUnit.Framework.Internal.TestSuite suite, System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.SetUpTearDownItem> setUpTearDown, System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.TestActionItem> actions)
     // Offset: 0x1777210
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

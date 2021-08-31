@@ -41,14 +41,10 @@ namespace System::Net::Sockets {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Int32 len
-    int _get_len();
-    // Set instance field: public System.Int32 len
-    void _set_len(int value);
-    // Get instance field: public System.IntPtr buf
-    System::IntPtr _get_buf();
-    // Set instance field: public System.IntPtr buf
-    void _set_buf(System::IntPtr value);
+    // Get instance field reference: public System.Int32 len
+    int& dyn_len();
+    // Get instance field reference: public System.IntPtr buf
+    System::IntPtr& dyn_buf();
   }; // System.Net.Sockets.Socket/System.Net.Sockets.WSABUF
   #pragma pack(pop)
   static check_size<sizeof(Socket::WSABUF), 8 + sizeof(System::IntPtr)> __System_Net_Sockets_Socket_WSABUFSizeCheck;

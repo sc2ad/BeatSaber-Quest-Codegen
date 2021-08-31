@@ -89,38 +89,22 @@ namespace UnityEngine::UI {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Boolean m_IgnoreLayout
-    bool _get_m_IgnoreLayout();
-    // Set instance field: private System.Boolean m_IgnoreLayout
-    void _set_m_IgnoreLayout(bool value);
-    // Get instance field: private System.Single m_MinWidth
-    float _get_m_MinWidth();
-    // Set instance field: private System.Single m_MinWidth
-    void _set_m_MinWidth(float value);
-    // Get instance field: private System.Single m_MinHeight
-    float _get_m_MinHeight();
-    // Set instance field: private System.Single m_MinHeight
-    void _set_m_MinHeight(float value);
-    // Get instance field: private System.Single m_PreferredWidth
-    float _get_m_PreferredWidth();
-    // Set instance field: private System.Single m_PreferredWidth
-    void _set_m_PreferredWidth(float value);
-    // Get instance field: private System.Single m_PreferredHeight
-    float _get_m_PreferredHeight();
-    // Set instance field: private System.Single m_PreferredHeight
-    void _set_m_PreferredHeight(float value);
-    // Get instance field: private System.Single m_FlexibleWidth
-    float _get_m_FlexibleWidth();
-    // Set instance field: private System.Single m_FlexibleWidth
-    void _set_m_FlexibleWidth(float value);
-    // Get instance field: private System.Single m_FlexibleHeight
-    float _get_m_FlexibleHeight();
-    // Set instance field: private System.Single m_FlexibleHeight
-    void _set_m_FlexibleHeight(float value);
-    // Get instance field: private System.Int32 m_LayoutPriority
-    int _get_m_LayoutPriority();
-    // Set instance field: private System.Int32 m_LayoutPriority
-    void _set_m_LayoutPriority(int value);
+    // Get instance field reference: private System.Boolean m_IgnoreLayout
+    bool& dyn_m_IgnoreLayout();
+    // Get instance field reference: private System.Single m_MinWidth
+    float& dyn_m_MinWidth();
+    // Get instance field reference: private System.Single m_MinHeight
+    float& dyn_m_MinHeight();
+    // Get instance field reference: private System.Single m_PreferredWidth
+    float& dyn_m_PreferredWidth();
+    // Get instance field reference: private System.Single m_PreferredHeight
+    float& dyn_m_PreferredHeight();
+    // Get instance field reference: private System.Single m_FlexibleWidth
+    float& dyn_m_FlexibleWidth();
+    // Get instance field reference: private System.Single m_FlexibleHeight
+    float& dyn_m_FlexibleHeight();
+    // Get instance field reference: private System.Int32 m_LayoutPriority
+    int& dyn_m_LayoutPriority();
     // public System.Boolean get_ignoreLayout()
     // Offset: 0x19CD534
     bool get_ignoreLayout();

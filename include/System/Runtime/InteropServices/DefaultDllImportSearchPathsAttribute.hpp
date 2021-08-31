@@ -36,10 +36,8 @@ namespace System::Runtime::InteropServices {
     constexpr operator System::Runtime::InteropServices::DllImportSearchPath() const noexcept {
       return paths;
     }
-    // Get instance field: System.Runtime.InteropServices.DllImportSearchPath _paths
-    System::Runtime::InteropServices::DllImportSearchPath _get__paths();
-    // Set instance field: System.Runtime.InteropServices.DllImportSearchPath _paths
-    void _set__paths(System::Runtime::InteropServices::DllImportSearchPath value);
+    // Get instance field reference: System.Runtime.InteropServices.DllImportSearchPath _paths
+    System::Runtime::InteropServices::DllImportSearchPath& dyn__paths();
     // public System.Void .ctor(System.Runtime.InteropServices.DllImportSearchPath paths)
     // Offset: 0x1487FFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

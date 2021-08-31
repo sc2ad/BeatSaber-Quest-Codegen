@@ -67,29 +67,19 @@ namespace GlobalNamespace {
     operator System::Collections::Generic::IEnumerator_1<System::ValueTuple_2<::Il2CppString*, ::Il2CppString*>>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<System::ValueTuple_2<::Il2CppString*, ::Il2CppString*>>*>(this);
     }
-    // Get instance field: private System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: private System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: private System.ValueTuple`2<System.String,System.String> <>2__current
-    System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> _get_$$2__current();
-    // Set instance field: private System.ValueTuple`2<System.String,System.String> <>2__current
-    void _set_$$2__current(System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> value);
-    // Get instance field: private System.Int32 <>l__initialThreadId
-    int _get_$$l__initialThreadId();
-    // Set instance field: private System.Int32 <>l__initialThreadId
-    void _set_$$l__initialThreadId(int value);
-    // Get instance field: public MetricIdentifier <>4__this
-    GlobalNamespace::MetricIdentifier _get_$$4__this();
-    // Set instance field: public MetricIdentifier <>4__this
-    void _set_$$4__this(GlobalNamespace::MetricIdentifier value);
-    // Get instance field: public MetricIdentifier <>3__<>4__this
-    GlobalNamespace::MetricIdentifier _get_$$3__$$4__this();
-    // Set instance field: public MetricIdentifier <>3__<>4__this
-    void _set_$$3__$$4__this(GlobalNamespace::MetricIdentifier value);
+    // Get instance field reference: private System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: private System.ValueTuple`2<System.String,System.String> <>2__current
+    System::ValueTuple_2<::Il2CppString*, ::Il2CppString*>& dyn_$$2__current();
+    // Get instance field reference: private System.Int32 <>l__initialThreadId
+    int& dyn_$$l__initialThreadId();
+    // Get instance field reference: public MetricIdentifier <>4__this
+    GlobalNamespace::MetricIdentifier& dyn_$$4__this();
+    // Get instance field reference: public MetricIdentifier <>3__<>4__this
+    GlobalNamespace::MetricIdentifier& dyn_$$3__$$4__this();
     // private System.ValueTuple`2<System.String,System.String> System.Collections.Generic.IEnumerator<(System.Stringkey,System.Stringvalue)>.get_Current()
     // Offset: 0x16EB86C
-    System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> System_Collections_Generic_IEnumerator$(System_Stringkey_System_Stringvalue)$_get_Current();
+    System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> System_Collections_Generic_IEnumerator$_System_Stringkey_System_Stringvalue_$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
     // Offset: 0x16EB8D8
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
@@ -111,7 +101,7 @@ namespace GlobalNamespace {
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<System.ValueTuple`2<System.String,System.String>> System.Collections.Generic.IEnumerable<(System.Stringkey,System.Stringvalue)>.GetEnumerator()
     // Offset: 0x16EB93C
-    System::Collections::Generic::IEnumerator_1<System::ValueTuple_2<::Il2CppString*, ::Il2CppString*>>* System_Collections_Generic_IEnumerable$(System_Stringkey_System_Stringvalue)$_GetEnumerator();
+    System::Collections::Generic::IEnumerator_1<System::ValueTuple_2<::Il2CppString*, ::Il2CppString*>>* System_Collections_Generic_IEnumerable$_System_Stringkey_System_Stringvalue_$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
     // Offset: 0x16EBA28
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
@@ -120,10 +110,10 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MetricIdentifier::$GetTags$d__13*, "", "MetricIdentifier/<GetTags>d__13");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::MetricIdentifier::$GetTags$d__13::System_Collections_Generic_IEnumerator$(System_Stringkey_System_Stringvalue)$_get_Current
+// Writing MetadataGetter for method: GlobalNamespace::MetricIdentifier::$GetTags$d__13::System_Collections_Generic_IEnumerator$_System_Stringkey_System_Stringvalue_$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<(System.Stringkey,System.Stringvalue)>.get_Current
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> (GlobalNamespace::MetricIdentifier::$GetTags$d__13::*)()>(&GlobalNamespace::MetricIdentifier::$GetTags$d__13::System_Collections_Generic_IEnumerator$(System_Stringkey_System_Stringvalue)$_get_Current)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> (GlobalNamespace::MetricIdentifier::$GetTags$d__13::*)()>(&GlobalNamespace::MetricIdentifier::$GetTags$d__13::System_Collections_Generic_IEnumerator$_System_Stringkey_System_Stringvalue_$_get_Current)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MetricIdentifier::$GetTags$d__13*), "System.Collections.Generic.IEnumerator<(System.Stringkey,System.Stringvalue)>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -164,10 +154,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MetricIdentifier::$GetTags$d__13*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MetricIdentifier::$GetTags$d__13::System_Collections_Generic_IEnumerable$(System_Stringkey_System_Stringvalue)$_GetEnumerator
+// Writing MetadataGetter for method: GlobalNamespace::MetricIdentifier::$GetTags$d__13::System_Collections_Generic_IEnumerable$_System_Stringkey_System_Stringvalue_$_GetEnumerator
 // Il2CppName: System.Collections.Generic.IEnumerable<(System.Stringkey,System.Stringvalue)>.GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<System::ValueTuple_2<::Il2CppString*, ::Il2CppString*>>* (GlobalNamespace::MetricIdentifier::$GetTags$d__13::*)()>(&GlobalNamespace::MetricIdentifier::$GetTags$d__13::System_Collections_Generic_IEnumerable$(System_Stringkey_System_Stringvalue)$_GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<System::ValueTuple_2<::Il2CppString*, ::Il2CppString*>>* (GlobalNamespace::MetricIdentifier::$GetTags$d__13::*)()>(&GlobalNamespace::MetricIdentifier::$GetTags$d__13::System_Collections_Generic_IEnumerable$_System_Stringkey_System_Stringvalue_$_GetEnumerator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MetricIdentifier::$GetTags$d__13*), "System.Collections.Generic.IEnumerable<(System.Stringkey,System.Stringvalue)>.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

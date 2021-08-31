@@ -91,30 +91,18 @@ namespace GlobalNamespace {
     MultiplayerLocalActiveLevelFailController(GlobalNamespace::LevelFailedTextEffect* levelFailedTextEffect_ = {}, GlobalNamespace::IMultiplayerLevelEndActionsPublisher* levelEndActionsPublisher_ = {}, GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController_ = {}, GlobalNamespace::GameSongController* gameSongController_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::MultiplayerPlayersManager* multiplayerPlayersManager_ = {}) noexcept : levelFailedTextEffect{levelFailedTextEffect_}, levelEndActionsPublisher{levelEndActionsPublisher_}, beatmapObjectSpawnController{beatmapObjectSpawnController_}, gameSongController{gameSongController_}, beatmapObjectManager{beatmapObjectManager_}, multiplayerPlayersManager{multiplayerPlayersManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private LevelFailedTextEffect _levelFailedTextEffect
-    GlobalNamespace::LevelFailedTextEffect* _get__levelFailedTextEffect();
-    // Set instance field: private LevelFailedTextEffect _levelFailedTextEffect
-    void _set__levelFailedTextEffect(GlobalNamespace::LevelFailedTextEffect* value);
-    // Get instance field: private readonly IMultiplayerLevelEndActionsPublisher _levelEndActionsPublisher
-    GlobalNamespace::IMultiplayerLevelEndActionsPublisher* _get__levelEndActionsPublisher();
-    // Set instance field: private readonly IMultiplayerLevelEndActionsPublisher _levelEndActionsPublisher
-    void _set__levelEndActionsPublisher(GlobalNamespace::IMultiplayerLevelEndActionsPublisher* value);
-    // Get instance field: private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
-    GlobalNamespace::BeatmapObjectSpawnController* _get__beatmapObjectSpawnController();
-    // Set instance field: private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
-    void _set__beatmapObjectSpawnController(GlobalNamespace::BeatmapObjectSpawnController* value);
-    // Get instance field: private readonly GameSongController _gameSongController
-    GlobalNamespace::GameSongController* _get__gameSongController();
-    // Set instance field: private readonly GameSongController _gameSongController
-    void _set__gameSongController(GlobalNamespace::GameSongController* value);
-    // Get instance field: private readonly BeatmapObjectManager _beatmapObjectManager
-    GlobalNamespace::BeatmapObjectManager* _get__beatmapObjectManager();
-    // Set instance field: private readonly BeatmapObjectManager _beatmapObjectManager
-    void _set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager* value);
-    // Get instance field: private readonly MultiplayerPlayersManager _multiplayerPlayersManager
-    GlobalNamespace::MultiplayerPlayersManager* _get__multiplayerPlayersManager();
-    // Set instance field: private readonly MultiplayerPlayersManager _multiplayerPlayersManager
-    void _set__multiplayerPlayersManager(GlobalNamespace::MultiplayerPlayersManager* value);
+    // Get instance field reference: private LevelFailedTextEffect _levelFailedTextEffect
+    GlobalNamespace::LevelFailedTextEffect*& dyn__levelFailedTextEffect();
+    // Get instance field reference: private readonly IMultiplayerLevelEndActionsPublisher _levelEndActionsPublisher
+    GlobalNamespace::IMultiplayerLevelEndActionsPublisher*& dyn__levelEndActionsPublisher();
+    // Get instance field reference: private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
+    GlobalNamespace::BeatmapObjectSpawnController*& dyn__beatmapObjectSpawnController();
+    // Get instance field reference: private readonly GameSongController _gameSongController
+    GlobalNamespace::GameSongController*& dyn__gameSongController();
+    // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
+    GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
+    // Get instance field reference: private readonly MultiplayerPlayersManager _multiplayerPlayersManager
+    GlobalNamespace::MultiplayerPlayersManager*& dyn__multiplayerPlayersManager();
     // protected System.Void Start()
     // Offset: 0x106618C
     void Start();

@@ -48,14 +48,10 @@ namespace Org::BouncyCastle::Asn1 {
     static ::Array<::Il2CppChar>* _get_table();
     // Set static field: static private readonly System.Char[] table
     static void _set_table(::Array<::Il2CppChar>* value);
-    // Get instance field: protected readonly System.Byte[] mData
-    ::Array<uint8_t>* _get_mData();
-    // Set instance field: protected readonly System.Byte[] mData
-    void _set_mData(::Array<uint8_t>* value);
-    // Get instance field: protected readonly System.Int32 mPadBits
-    int _get_mPadBits();
-    // Set instance field: protected readonly System.Int32 mPadBits
-    void _set_mPadBits(int value);
+    // Get instance field reference: protected readonly System.Byte[] mData
+    ::Array<uint8_t>*& dyn_mData();
+    // Get instance field reference: protected readonly System.Int32 mPadBits
+    int& dyn_mPadBits();
     // public System.Int32 get_PadBits()
     // Offset: 0x1735734
     int get_PadBits();

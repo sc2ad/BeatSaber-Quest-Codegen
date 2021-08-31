@@ -235,118 +235,62 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: Locomotion
     Locomotion(float weight_ = {}, float footDistance_ = {}, float stepThreshold_ = {}, float angleThreshold_ = {}, float comAngleMlp_ = {}, float maxVelocity_ = {}, float velocityFactor_ = {}, float maxLegStretch_ = {}, float rootSpeed_ = {}, float stepSpeed_ = {}, UnityEngine::AnimationCurve* stepHeight_ = {}, UnityEngine::AnimationCurve* heelHeight_ = {}, float relaxLegTwistMinAngle_ = {}, float relaxLegTwistSpeed_ = {}, RootMotion::InterpolationMode stepInterpolation_ = {}, UnityEngine::Vector3 offset_ = {}, bool blockingEnabled_ = {}, UnityEngine::LayerMask blockingLayers_ = {}, float raycastRadius_ = {}, float raycastHeight_ = {}, UnityEngine::Events::UnityEvent* onLeftFootstep_ = {}, UnityEngine::Events::UnityEvent* onRightFootstep_ = {}, UnityEngine::Vector3 centerOfMass_ = {}, ::Array<RootMotion::FinalIK::IKSolverVR::Footstep*>* footsteps_ = {}, UnityEngine::Vector3 lastComPosition_ = {}, UnityEngine::Vector3 comVelocity_ = {}, int leftFootIndex_ = {}, int rightFootIndex_ = {}) noexcept : weight{weight_}, footDistance{footDistance_}, stepThreshold{stepThreshold_}, angleThreshold{angleThreshold_}, comAngleMlp{comAngleMlp_}, maxVelocity{maxVelocity_}, velocityFactor{velocityFactor_}, maxLegStretch{maxLegStretch_}, rootSpeed{rootSpeed_}, stepSpeed{stepSpeed_}, stepHeight{stepHeight_}, heelHeight{heelHeight_}, relaxLegTwistMinAngle{relaxLegTwistMinAngle_}, relaxLegTwistSpeed{relaxLegTwistSpeed_}, stepInterpolation{stepInterpolation_}, offset{offset_}, blockingEnabled{blockingEnabled_}, blockingLayers{blockingLayers_}, raycastRadius{raycastRadius_}, raycastHeight{raycastHeight_}, onLeftFootstep{onLeftFootstep_}, onRightFootstep{onRightFootstep_}, centerOfMass{centerOfMass_}, footsteps{footsteps_}, lastComPosition{lastComPosition_}, comVelocity{comVelocity_}, leftFootIndex{leftFootIndex_}, rightFootIndex{rightFootIndex_} {}
-    // Get instance field: public System.Single weight
-    float _get_weight();
-    // Set instance field: public System.Single weight
-    void _set_weight(float value);
-    // Get instance field: public System.Single footDistance
-    float _get_footDistance();
-    // Set instance field: public System.Single footDistance
-    void _set_footDistance(float value);
-    // Get instance field: public System.Single stepThreshold
-    float _get_stepThreshold();
-    // Set instance field: public System.Single stepThreshold
-    void _set_stepThreshold(float value);
-    // Get instance field: public System.Single angleThreshold
-    float _get_angleThreshold();
-    // Set instance field: public System.Single angleThreshold
-    void _set_angleThreshold(float value);
-    // Get instance field: public System.Single comAngleMlp
-    float _get_comAngleMlp();
-    // Set instance field: public System.Single comAngleMlp
-    void _set_comAngleMlp(float value);
-    // Get instance field: public System.Single maxVelocity
-    float _get_maxVelocity();
-    // Set instance field: public System.Single maxVelocity
-    void _set_maxVelocity(float value);
-    // Get instance field: public System.Single velocityFactor
-    float _get_velocityFactor();
-    // Set instance field: public System.Single velocityFactor
-    void _set_velocityFactor(float value);
-    // Get instance field: public System.Single maxLegStretch
-    float _get_maxLegStretch();
-    // Set instance field: public System.Single maxLegStretch
-    void _set_maxLegStretch(float value);
-    // Get instance field: public System.Single rootSpeed
-    float _get_rootSpeed();
-    // Set instance field: public System.Single rootSpeed
-    void _set_rootSpeed(float value);
-    // Get instance field: public System.Single stepSpeed
-    float _get_stepSpeed();
-    // Set instance field: public System.Single stepSpeed
-    void _set_stepSpeed(float value);
-    // Get instance field: public UnityEngine.AnimationCurve stepHeight
-    UnityEngine::AnimationCurve* _get_stepHeight();
-    // Set instance field: public UnityEngine.AnimationCurve stepHeight
-    void _set_stepHeight(UnityEngine::AnimationCurve* value);
-    // Get instance field: public UnityEngine.AnimationCurve heelHeight
-    UnityEngine::AnimationCurve* _get_heelHeight();
-    // Set instance field: public UnityEngine.AnimationCurve heelHeight
-    void _set_heelHeight(UnityEngine::AnimationCurve* value);
-    // Get instance field: public System.Single relaxLegTwistMinAngle
-    float _get_relaxLegTwistMinAngle();
-    // Set instance field: public System.Single relaxLegTwistMinAngle
-    void _set_relaxLegTwistMinAngle(float value);
-    // Get instance field: public System.Single relaxLegTwistSpeed
-    float _get_relaxLegTwistSpeed();
-    // Set instance field: public System.Single relaxLegTwistSpeed
-    void _set_relaxLegTwistSpeed(float value);
-    // Get instance field: public RootMotion.InterpolationMode stepInterpolation
-    RootMotion::InterpolationMode _get_stepInterpolation();
-    // Set instance field: public RootMotion.InterpolationMode stepInterpolation
-    void _set_stepInterpolation(RootMotion::InterpolationMode value);
-    // Get instance field: public UnityEngine.Vector3 offset
-    UnityEngine::Vector3 _get_offset();
-    // Set instance field: public UnityEngine.Vector3 offset
-    void _set_offset(UnityEngine::Vector3 value);
-    // Get instance field: public System.Boolean blockingEnabled
-    bool _get_blockingEnabled();
-    // Set instance field: public System.Boolean blockingEnabled
-    void _set_blockingEnabled(bool value);
-    // Get instance field: public UnityEngine.LayerMask blockingLayers
-    UnityEngine::LayerMask _get_blockingLayers();
-    // Set instance field: public UnityEngine.LayerMask blockingLayers
-    void _set_blockingLayers(UnityEngine::LayerMask value);
-    // Get instance field: public System.Single raycastRadius
-    float _get_raycastRadius();
-    // Set instance field: public System.Single raycastRadius
-    void _set_raycastRadius(float value);
-    // Get instance field: public System.Single raycastHeight
-    float _get_raycastHeight();
-    // Set instance field: public System.Single raycastHeight
-    void _set_raycastHeight(float value);
-    // Get instance field: public UnityEngine.Events.UnityEvent onLeftFootstep
-    UnityEngine::Events::UnityEvent* _get_onLeftFootstep();
-    // Set instance field: public UnityEngine.Events.UnityEvent onLeftFootstep
-    void _set_onLeftFootstep(UnityEngine::Events::UnityEvent* value);
-    // Get instance field: public UnityEngine.Events.UnityEvent onRightFootstep
-    UnityEngine::Events::UnityEvent* _get_onRightFootstep();
-    // Set instance field: public UnityEngine.Events.UnityEvent onRightFootstep
-    void _set_onRightFootstep(UnityEngine::Events::UnityEvent* value);
-    // Get instance field: private UnityEngine.Vector3 <centerOfMass>k__BackingField
-    UnityEngine::Vector3 _get_$centerOfMass$k__BackingField();
-    // Set instance field: private UnityEngine.Vector3 <centerOfMass>k__BackingField
-    void _set_$centerOfMass$k__BackingField(UnityEngine::Vector3 value);
-    // Get instance field: private RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Footstep[] footsteps
-    ::Array<RootMotion::FinalIK::IKSolverVR::Footstep*>* _get_footsteps();
-    // Set instance field: private RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Footstep[] footsteps
-    void _set_footsteps(::Array<RootMotion::FinalIK::IKSolverVR::Footstep*>* value);
-    // Get instance field: private UnityEngine.Vector3 lastComPosition
-    UnityEngine::Vector3 _get_lastComPosition();
-    // Set instance field: private UnityEngine.Vector3 lastComPosition
-    void _set_lastComPosition(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 comVelocity
-    UnityEngine::Vector3 _get_comVelocity();
-    // Set instance field: private UnityEngine.Vector3 comVelocity
-    void _set_comVelocity(UnityEngine::Vector3 value);
-    // Get instance field: private System.Int32 leftFootIndex
-    int _get_leftFootIndex();
-    // Set instance field: private System.Int32 leftFootIndex
-    void _set_leftFootIndex(int value);
-    // Get instance field: private System.Int32 rightFootIndex
-    int _get_rightFootIndex();
-    // Set instance field: private System.Int32 rightFootIndex
-    void _set_rightFootIndex(int value);
+    // Get instance field reference: public System.Single weight
+    float& dyn_weight();
+    // Get instance field reference: public System.Single footDistance
+    float& dyn_footDistance();
+    // Get instance field reference: public System.Single stepThreshold
+    float& dyn_stepThreshold();
+    // Get instance field reference: public System.Single angleThreshold
+    float& dyn_angleThreshold();
+    // Get instance field reference: public System.Single comAngleMlp
+    float& dyn_comAngleMlp();
+    // Get instance field reference: public System.Single maxVelocity
+    float& dyn_maxVelocity();
+    // Get instance field reference: public System.Single velocityFactor
+    float& dyn_velocityFactor();
+    // Get instance field reference: public System.Single maxLegStretch
+    float& dyn_maxLegStretch();
+    // Get instance field reference: public System.Single rootSpeed
+    float& dyn_rootSpeed();
+    // Get instance field reference: public System.Single stepSpeed
+    float& dyn_stepSpeed();
+    // Get instance field reference: public UnityEngine.AnimationCurve stepHeight
+    UnityEngine::AnimationCurve*& dyn_stepHeight();
+    // Get instance field reference: public UnityEngine.AnimationCurve heelHeight
+    UnityEngine::AnimationCurve*& dyn_heelHeight();
+    // Get instance field reference: public System.Single relaxLegTwistMinAngle
+    float& dyn_relaxLegTwistMinAngle();
+    // Get instance field reference: public System.Single relaxLegTwistSpeed
+    float& dyn_relaxLegTwistSpeed();
+    // Get instance field reference: public RootMotion.InterpolationMode stepInterpolation
+    RootMotion::InterpolationMode& dyn_stepInterpolation();
+    // Get instance field reference: public UnityEngine.Vector3 offset
+    UnityEngine::Vector3& dyn_offset();
+    // Get instance field reference: public System.Boolean blockingEnabled
+    bool& dyn_blockingEnabled();
+    // Get instance field reference: public UnityEngine.LayerMask blockingLayers
+    UnityEngine::LayerMask& dyn_blockingLayers();
+    // Get instance field reference: public System.Single raycastRadius
+    float& dyn_raycastRadius();
+    // Get instance field reference: public System.Single raycastHeight
+    float& dyn_raycastHeight();
+    // Get instance field reference: public UnityEngine.Events.UnityEvent onLeftFootstep
+    UnityEngine::Events::UnityEvent*& dyn_onLeftFootstep();
+    // Get instance field reference: public UnityEngine.Events.UnityEvent onRightFootstep
+    UnityEngine::Events::UnityEvent*& dyn_onRightFootstep();
+    // Get instance field reference: private UnityEngine.Vector3 <centerOfMass>k__BackingField
+    UnityEngine::Vector3& dyn_$centerOfMass$k__BackingField();
+    // Get instance field reference: private RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Footstep[] footsteps
+    ::Array<RootMotion::FinalIK::IKSolverVR::Footstep*>*& dyn_footsteps();
+    // Get instance field reference: private UnityEngine.Vector3 lastComPosition
+    UnityEngine::Vector3& dyn_lastComPosition();
+    // Get instance field reference: private UnityEngine.Vector3 comVelocity
+    UnityEngine::Vector3& dyn_comVelocity();
+    // Get instance field reference: private System.Int32 leftFootIndex
+    int& dyn_leftFootIndex();
+    // Get instance field reference: private System.Int32 rightFootIndex
+    int& dyn_rightFootIndex();
     // public UnityEngine.Vector3 get_centerOfMass()
     // Offset: 0x1E83374
     UnityEngine::Vector3 get_centerOfMass();

@@ -88,10 +88,8 @@ namespace System::Security::Cryptography {
     static System::Security::Cryptography::CspProviderFlags _get_CreateEphemeralKey();
     // Set static field: static public System.Security.Cryptography.CspProviderFlags CreateEphemeralKey
     static void _set_CreateEphemeralKey(System::Security::Cryptography::CspProviderFlags value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Security.Cryptography.CspProviderFlags
   #pragma pack(pop)
   static check_size<sizeof(CspProviderFlags), 0 + sizeof(int)> __System_Security_Cryptography_CspProviderFlagsSizeCheck;

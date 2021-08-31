@@ -33,10 +33,8 @@ namespace System {
     constexpr operator ::Il2CppString*() const noexcept {
       return comment;
     }
-    // Get instance field: private System.String comment
-    ::Il2CppString* _get_comment();
-    // Set instance field: private System.String comment
-    void _set_comment(::Il2CppString* value);
+    // Get instance field reference: private System.String comment
+    ::Il2CppString*& dyn_comment();
     // public System.Void .ctor(System.String comment)
     // Offset: 0x1839724
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

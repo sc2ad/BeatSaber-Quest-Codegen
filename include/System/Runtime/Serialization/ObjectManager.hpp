@@ -104,38 +104,22 @@ namespace System::Runtime::Serialization {
     static_assert(sizeof(System::Runtime::Serialization::StreamingContext) == 0xC);
     // Creating value type constructor for type: ObjectManager
     ObjectManager(System::Runtime::Serialization::DeserializationEventHandler* m_onDeserializationHandler_ = {}, System::Runtime::Serialization::SerializationEventHandler* m_onDeserializedHandler_ = {}, ::Array<System::Runtime::Serialization::ObjectHolder*>* m_objects_ = {}, ::Il2CppObject* m_topObject_ = {}, System::Runtime::Serialization::ObjectHolderList* m_specialFixupObjects_ = {}, int64_t m_fixupCount_ = {}, System::Runtime::Serialization::ISurrogateSelector* m_selector_ = {}, System::Runtime::Serialization::StreamingContext m_context_ = {}) noexcept : m_onDeserializationHandler{m_onDeserializationHandler_}, m_onDeserializedHandler{m_onDeserializedHandler_}, m_objects{m_objects_}, m_topObject{m_topObject_}, m_specialFixupObjects{m_specialFixupObjects_}, m_fixupCount{m_fixupCount_}, m_selector{m_selector_}, m_context{m_context_} {}
-    // Get instance field: private System.Runtime.Serialization.DeserializationEventHandler m_onDeserializationHandler
-    System::Runtime::Serialization::DeserializationEventHandler* _get_m_onDeserializationHandler();
-    // Set instance field: private System.Runtime.Serialization.DeserializationEventHandler m_onDeserializationHandler
-    void _set_m_onDeserializationHandler(System::Runtime::Serialization::DeserializationEventHandler* value);
-    // Get instance field: private System.Runtime.Serialization.SerializationEventHandler m_onDeserializedHandler
-    System::Runtime::Serialization::SerializationEventHandler* _get_m_onDeserializedHandler();
-    // Set instance field: private System.Runtime.Serialization.SerializationEventHandler m_onDeserializedHandler
-    void _set_m_onDeserializedHandler(System::Runtime::Serialization::SerializationEventHandler* value);
-    // Get instance field: System.Runtime.Serialization.ObjectHolder[] m_objects
-    ::Array<System::Runtime::Serialization::ObjectHolder*>* _get_m_objects();
-    // Set instance field: System.Runtime.Serialization.ObjectHolder[] m_objects
-    void _set_m_objects(::Array<System::Runtime::Serialization::ObjectHolder*>* value);
-    // Get instance field: System.Object m_topObject
-    ::Il2CppObject* _get_m_topObject();
-    // Set instance field: System.Object m_topObject
-    void _set_m_topObject(::Il2CppObject* value);
-    // Get instance field: System.Runtime.Serialization.ObjectHolderList m_specialFixupObjects
-    System::Runtime::Serialization::ObjectHolderList* _get_m_specialFixupObjects();
-    // Set instance field: System.Runtime.Serialization.ObjectHolderList m_specialFixupObjects
-    void _set_m_specialFixupObjects(System::Runtime::Serialization::ObjectHolderList* value);
-    // Get instance field: System.Int64 m_fixupCount
-    int64_t _get_m_fixupCount();
-    // Set instance field: System.Int64 m_fixupCount
-    void _set_m_fixupCount(int64_t value);
-    // Get instance field: System.Runtime.Serialization.ISurrogateSelector m_selector
-    System::Runtime::Serialization::ISurrogateSelector* _get_m_selector();
-    // Set instance field: System.Runtime.Serialization.ISurrogateSelector m_selector
-    void _set_m_selector(System::Runtime::Serialization::ISurrogateSelector* value);
-    // Get instance field: System.Runtime.Serialization.StreamingContext m_context
-    System::Runtime::Serialization::StreamingContext _get_m_context();
-    // Set instance field: System.Runtime.Serialization.StreamingContext m_context
-    void _set_m_context(System::Runtime::Serialization::StreamingContext value);
+    // Get instance field reference: private System.Runtime.Serialization.DeserializationEventHandler m_onDeserializationHandler
+    System::Runtime::Serialization::DeserializationEventHandler*& dyn_m_onDeserializationHandler();
+    // Get instance field reference: private System.Runtime.Serialization.SerializationEventHandler m_onDeserializedHandler
+    System::Runtime::Serialization::SerializationEventHandler*& dyn_m_onDeserializedHandler();
+    // Get instance field reference: System.Runtime.Serialization.ObjectHolder[] m_objects
+    ::Array<System::Runtime::Serialization::ObjectHolder*>*& dyn_m_objects();
+    // Get instance field reference: System.Object m_topObject
+    ::Il2CppObject*& dyn_m_topObject();
+    // Get instance field reference: System.Runtime.Serialization.ObjectHolderList m_specialFixupObjects
+    System::Runtime::Serialization::ObjectHolderList*& dyn_m_specialFixupObjects();
+    // Get instance field reference: System.Int64 m_fixupCount
+    int64_t& dyn_m_fixupCount();
+    // Get instance field reference: System.Runtime.Serialization.ISurrogateSelector m_selector
+    System::Runtime::Serialization::ISurrogateSelector*& dyn_m_selector();
+    // Get instance field reference: System.Runtime.Serialization.StreamingContext m_context
+    System::Runtime::Serialization::StreamingContext& dyn_m_context();
     // System.Object get_TopObject()
     // Offset: 0x16B91A8
     ::Il2CppObject* get_TopObject();

@@ -61,22 +61,14 @@ namespace RootMotion::FinalIK {
     ShoulderRotator(float weight_ = {}, float offset_ = {}, RootMotion::FinalIK::FullBodyBipedIK* ik_ = {}, bool skip_ = {}) noexcept : weight{weight_}, offset{offset_}, ik{ik_}, skip{skip_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public System.Single weight
-    float _get_weight();
-    // Set instance field: public System.Single weight
-    void _set_weight(float value);
-    // Get instance field: public System.Single offset
-    float _get_offset();
-    // Set instance field: public System.Single offset
-    void _set_offset(float value);
-    // Get instance field: private RootMotion.FinalIK.FullBodyBipedIK ik
-    RootMotion::FinalIK::FullBodyBipedIK* _get_ik();
-    // Set instance field: private RootMotion.FinalIK.FullBodyBipedIK ik
-    void _set_ik(RootMotion::FinalIK::FullBodyBipedIK* value);
-    // Get instance field: private System.Boolean skip
-    bool _get_skip();
-    // Set instance field: private System.Boolean skip
-    void _set_skip(bool value);
+    // Get instance field reference: public System.Single weight
+    float& dyn_weight();
+    // Get instance field reference: public System.Single offset
+    float& dyn_offset();
+    // Get instance field reference: private RootMotion.FinalIK.FullBodyBipedIK ik
+    RootMotion::FinalIK::FullBodyBipedIK*& dyn_ik();
+    // Get instance field reference: private System.Boolean skip
+    bool& dyn_skip();
     // private System.Void Start()
     // Offset: 0x1AE0100
     void Start();

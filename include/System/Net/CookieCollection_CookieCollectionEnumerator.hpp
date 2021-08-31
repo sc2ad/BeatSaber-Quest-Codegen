@@ -52,22 +52,14 @@ namespace System::Net {
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
-    // Get instance field: private System.Net.CookieCollection m_cookies
-    System::Net::CookieCollection* _get_m_cookies();
-    // Set instance field: private System.Net.CookieCollection m_cookies
-    void _set_m_cookies(System::Net::CookieCollection* value);
-    // Get instance field: private System.Int32 m_count
-    int _get_m_count();
-    // Set instance field: private System.Int32 m_count
-    void _set_m_count(int value);
-    // Get instance field: private System.Int32 m_index
-    int _get_m_index();
-    // Set instance field: private System.Int32 m_index
-    void _set_m_index(int value);
-    // Get instance field: private System.Int32 m_version
-    int _get_m_version();
-    // Set instance field: private System.Int32 m_version
-    void _set_m_version(int value);
+    // Get instance field reference: private System.Net.CookieCollection m_cookies
+    System::Net::CookieCollection*& dyn_m_cookies();
+    // Get instance field reference: private System.Int32 m_count
+    int& dyn_m_count();
+    // Get instance field reference: private System.Int32 m_index
+    int& dyn_m_index();
+    // Get instance field reference: private System.Int32 m_version
+    int& dyn_m_version();
     // private System.Object System.Collections.IEnumerator.get_Current()
     // Offset: 0x16D3A38
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();

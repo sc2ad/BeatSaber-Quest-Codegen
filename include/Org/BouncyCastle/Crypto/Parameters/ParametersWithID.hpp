@@ -35,14 +35,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // Creating value type constructor for type: ParametersWithID
     ParametersWithID(Org::BouncyCastle::Crypto::ICipherParameters* parameters_ = {}, ::Array<uint8_t>* id_ = {}) noexcept : parameters{parameters_}, id{id_} {}
-    // Get instance field: private readonly Org.BouncyCastle.Crypto.ICipherParameters parameters
-    Org::BouncyCastle::Crypto::ICipherParameters* _get_parameters();
-    // Set instance field: private readonly Org.BouncyCastle.Crypto.ICipherParameters parameters
-    void _set_parameters(Org::BouncyCastle::Crypto::ICipherParameters* value);
-    // Get instance field: private readonly System.Byte[] id
-    ::Array<uint8_t>* _get_id();
-    // Set instance field: private readonly System.Byte[] id
-    void _set_id(::Array<uint8_t>* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Crypto.ICipherParameters parameters
+    Org::BouncyCastle::Crypto::ICipherParameters*& dyn_parameters();
+    // Get instance field reference: private readonly System.Byte[] id
+    ::Array<uint8_t>*& dyn_id();
     // public Org.BouncyCastle.Crypto.ICipherParameters get_Parameters()
     // Offset: 0x1275FE4
     Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();

@@ -205,30 +205,18 @@ namespace System::Globalization {
     static bool _get_managedCollationChecked();
     // Set static field: static private System.Boolean managedCollationChecked
     static void _set_managedCollationChecked(bool value);
-    // Get instance field: private System.String m_name
-    ::Il2CppString* _get_m_name();
-    // Set instance field: private System.String m_name
-    void _set_m_name(::Il2CppString* value);
-    // Get instance field: private System.String m_sortName
-    ::Il2CppString* _get_m_sortName();
-    // Set instance field: private System.String m_sortName
-    void _set_m_sortName(::Il2CppString* value);
-    // Get instance field: private System.Int32 win32LCID
-    int _get_win32LCID();
-    // Set instance field: private System.Int32 win32LCID
-    void _set_win32LCID(int value);
-    // Get instance field: private System.Int32 culture
-    int _get_culture();
-    // Set instance field: private System.Int32 culture
-    void _set_culture(int value);
-    // Get instance field: private System.Globalization.SortVersion m_SortVersion
-    System::Globalization::SortVersion* _get_m_SortVersion();
-    // Set instance field: private System.Globalization.SortVersion m_SortVersion
-    void _set_m_SortVersion(System::Globalization::SortVersion* value);
-    // Get instance field: private Mono.Globalization.Unicode.SimpleCollator collator
-    Mono::Globalization::Unicode::SimpleCollator* _get_collator();
-    // Set instance field: private Mono.Globalization.Unicode.SimpleCollator collator
-    void _set_collator(Mono::Globalization::Unicode::SimpleCollator* value);
+    // Get instance field reference: private System.String m_name
+    ::Il2CppString*& dyn_m_name();
+    // Get instance field reference: private System.String m_sortName
+    ::Il2CppString*& dyn_m_sortName();
+    // Get instance field reference: private System.Int32 win32LCID
+    int& dyn_win32LCID();
+    // Get instance field reference: private System.Int32 culture
+    int& dyn_culture();
+    // Get instance field reference: private System.Globalization.SortVersion m_SortVersion
+    System::Globalization::SortVersion*& dyn_m_SortVersion();
+    // Get instance field reference: private Mono.Globalization.Unicode.SimpleCollator collator
+    Mono::Globalization::Unicode::SimpleCollator*& dyn_collator();
     // public System.String get_Name()
     // Offset: 0x18070C4
     ::Il2CppString* get_Name();

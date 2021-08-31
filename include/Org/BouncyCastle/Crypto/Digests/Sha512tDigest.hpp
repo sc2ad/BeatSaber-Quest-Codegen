@@ -82,42 +82,24 @@ namespace Org::BouncyCastle::Crypto::Digests {
     static_assert(sizeof(uint64_t) == 0x8);
     // Creating value type constructor for type: Sha512tDigest
     Sha512tDigest(int digestLength_ = {}, uint64_t H1t_ = {}, uint64_t H2t_ = {}, uint64_t H3t_ = {}, uint64_t H4t_ = {}, uint64_t H5t_ = {}, uint64_t H6t_ = {}, uint64_t H7t_ = {}, uint64_t H8t_ = {}) noexcept : digestLength{digestLength_}, H1t{H1t_}, H2t{H2t_}, H3t{H3t_}, H4t{H4t_}, H5t{H5t_}, H6t{H6t_}, H7t{H7t_}, H8t{H8t_} {}
-    // Get instance field: private readonly System.Int32 digestLength
-    int _get_digestLength();
-    // Set instance field: private readonly System.Int32 digestLength
-    void _set_digestLength(int value);
-    // Get instance field: private System.UInt64 H1t
-    uint64_t _get_H1t();
-    // Set instance field: private System.UInt64 H1t
-    void _set_H1t(uint64_t value);
-    // Get instance field: private System.UInt64 H2t
-    uint64_t _get_H2t();
-    // Set instance field: private System.UInt64 H2t
-    void _set_H2t(uint64_t value);
-    // Get instance field: private System.UInt64 H3t
-    uint64_t _get_H3t();
-    // Set instance field: private System.UInt64 H3t
-    void _set_H3t(uint64_t value);
-    // Get instance field: private System.UInt64 H4t
-    uint64_t _get_H4t();
-    // Set instance field: private System.UInt64 H4t
-    void _set_H4t(uint64_t value);
-    // Get instance field: private System.UInt64 H5t
-    uint64_t _get_H5t();
-    // Set instance field: private System.UInt64 H5t
-    void _set_H5t(uint64_t value);
-    // Get instance field: private System.UInt64 H6t
-    uint64_t _get_H6t();
-    // Set instance field: private System.UInt64 H6t
-    void _set_H6t(uint64_t value);
-    // Get instance field: private System.UInt64 H7t
-    uint64_t _get_H7t();
-    // Set instance field: private System.UInt64 H7t
-    void _set_H7t(uint64_t value);
-    // Get instance field: private System.UInt64 H8t
-    uint64_t _get_H8t();
-    // Set instance field: private System.UInt64 H8t
-    void _set_H8t(uint64_t value);
+    // Get instance field reference: private readonly System.Int32 digestLength
+    int& dyn_digestLength();
+    // Get instance field reference: private System.UInt64 H1t
+    uint64_t& dyn_H1t();
+    // Get instance field reference: private System.UInt64 H2t
+    uint64_t& dyn_H2t();
+    // Get instance field reference: private System.UInt64 H3t
+    uint64_t& dyn_H3t();
+    // Get instance field reference: private System.UInt64 H4t
+    uint64_t& dyn_H4t();
+    // Get instance field reference: private System.UInt64 H5t
+    uint64_t& dyn_H5t();
+    // Get instance field reference: private System.UInt64 H6t
+    uint64_t& dyn_H6t();
+    // Get instance field reference: private System.UInt64 H7t
+    uint64_t& dyn_H7t();
+    // Get instance field reference: private System.UInt64 H8t
+    uint64_t& dyn_H8t();
     // public System.Void .ctor(System.Int32 bitLength)
     // Offset: 0x1925CAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

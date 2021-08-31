@@ -116,10 +116,8 @@ namespace System {
     static System::ParsingError _get_CannotCreateRelative();
     // Set static field: static public System.ParsingError CannotCreateRelative
     static void _set_CannotCreateRelative(System::ParsingError value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.ParsingError
   #pragma pack(pop)
   static check_size<sizeof(ParsingError), 0 + sizeof(int)> __System_ParsingErrorSizeCheck;

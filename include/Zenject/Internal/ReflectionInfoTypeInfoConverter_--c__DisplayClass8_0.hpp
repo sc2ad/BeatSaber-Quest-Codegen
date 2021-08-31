@@ -48,14 +48,10 @@ namespace Zenject::Internal {
     static_assert(sizeof(System::Collections::Generic::List_1<System::Reflection::FieldInfo*>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass8_0
     $$c__DisplayClass8_0(::Il2CppString* propertyName_ = {}, System::Collections::Generic::List_1<System::Reflection::FieldInfo*>* writeableFields_ = {}) noexcept : propertyName{propertyName_}, writeableFields{writeableFields_} {}
-    // Get instance field: public System.String propertyName
-    ::Il2CppString* _get_propertyName();
-    // Set instance field: public System.String propertyName
-    void _set_propertyName(::Il2CppString* value);
-    // Get instance field: public System.Collections.Generic.List`1<System.Reflection.FieldInfo> writeableFields
-    System::Collections::Generic::List_1<System::Reflection::FieldInfo*>* _get_writeableFields();
-    // Set instance field: public System.Collections.Generic.List`1<System.Reflection.FieldInfo> writeableFields
-    void _set_writeableFields(System::Collections::Generic::List_1<System::Reflection::FieldInfo*>* value);
+    // Get instance field reference: public System.String propertyName
+    ::Il2CppString*& dyn_propertyName();
+    // Get instance field reference: public System.Collections.Generic.List`1<System.Reflection.FieldInfo> writeableFields
+    System::Collections::Generic::List_1<System::Reflection::FieldInfo*>*& dyn_writeableFields();
     // System.Boolean <GetOnlyPropertySetter>b__0(System.Reflection.FieldInfo f)
     // Offset: 0x1664300
     bool $GetOnlyPropertySetter$b__0(System::Reflection::FieldInfo* f);

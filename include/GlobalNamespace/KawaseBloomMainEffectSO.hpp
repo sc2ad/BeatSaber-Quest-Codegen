@@ -129,54 +129,30 @@ namespace GlobalNamespace {
     static int _get__bloomIntensityID();
     // Set static field: static private readonly System.Int32 _bloomIntensityID
     static void _set__bloomIntensityID(int value);
-    // Get instance field: private KawaseBlurRendererSO _kawaseBlurRenderer
-    GlobalNamespace::KawaseBlurRendererSO* _get__kawaseBlurRenderer();
-    // Set instance field: private KawaseBlurRendererSO _kawaseBlurRenderer
-    void _set__kawaseBlurRenderer(GlobalNamespace::KawaseBlurRendererSO* value);
-    // Get instance field: private UnityEngine.Shader _fadeShader
-    UnityEngine::Shader* _get__fadeShader();
-    // Set instance field: private UnityEngine.Shader _fadeShader
-    void _set__fadeShader(UnityEngine::Shader* value);
-    // Get instance field: private UnityEngine.Shader _mainEffectShader
-    UnityEngine::Shader* _get__mainEffectShader();
-    // Set instance field: private UnityEngine.Shader _mainEffectShader
-    void _set__mainEffectShader(UnityEngine::Shader* value);
-    // Get instance field: private System.Single _bloomIntensity
-    float _get__bloomIntensity();
-    // Set instance field: private System.Single _bloomIntensity
-    void _set__bloomIntensity(float value);
-    // Get instance field: private System.Int32 _bloomIterations
-    int _get__bloomIterations();
-    // Set instance field: private System.Int32 _bloomIterations
-    void _set__bloomIterations(int value);
-    // Get instance field: private System.Single _bloomBoost
-    float _get__bloomBoost();
-    // Set instance field: private System.Single _bloomBoost
-    void _set__bloomBoost(float value);
-    // Get instance field: private System.Single _bloomAlphaWeights
-    float _get__bloomAlphaWeights();
-    // Set instance field: private System.Single _bloomAlphaWeights
-    void _set__bloomAlphaWeights(float value);
-    // Get instance field: private System.Int32 _bloomTextureWidth
-    int _get__bloomTextureWidth();
-    // Set instance field: private System.Int32 _bloomTextureWidth
-    void _set__bloomTextureWidth(int value);
-    // Get instance field: private System.Single _baseColorBoost
-    float _get__baseColorBoost();
-    // Set instance field: private System.Single _baseColorBoost
-    void _set__baseColorBoost(float value);
-    // Get instance field: private System.Single _baseColorBoostThreshold
-    float _get__baseColorBoostThreshold();
-    // Set instance field: private System.Single _baseColorBoostThreshold
-    void _set__baseColorBoostThreshold(float value);
-    // Get instance field: private UnityEngine.Material _fadeMaterial
-    UnityEngine::Material* _get__fadeMaterial();
-    // Set instance field: private UnityEngine.Material _fadeMaterial
-    void _set__fadeMaterial(UnityEngine::Material* value);
-    // Get instance field: private UnityEngine.Material _mainEffectMaterial
-    UnityEngine::Material* _get__mainEffectMaterial();
-    // Set instance field: private UnityEngine.Material _mainEffectMaterial
-    void _set__mainEffectMaterial(UnityEngine::Material* value);
+    // Get instance field reference: private KawaseBlurRendererSO _kawaseBlurRenderer
+    GlobalNamespace::KawaseBlurRendererSO*& dyn__kawaseBlurRenderer();
+    // Get instance field reference: private UnityEngine.Shader _fadeShader
+    UnityEngine::Shader*& dyn__fadeShader();
+    // Get instance field reference: private UnityEngine.Shader _mainEffectShader
+    UnityEngine::Shader*& dyn__mainEffectShader();
+    // Get instance field reference: private System.Single _bloomIntensity
+    float& dyn__bloomIntensity();
+    // Get instance field reference: private System.Int32 _bloomIterations
+    int& dyn__bloomIterations();
+    // Get instance field reference: private System.Single _bloomBoost
+    float& dyn__bloomBoost();
+    // Get instance field reference: private System.Single _bloomAlphaWeights
+    float& dyn__bloomAlphaWeights();
+    // Get instance field reference: private System.Int32 _bloomTextureWidth
+    int& dyn__bloomTextureWidth();
+    // Get instance field reference: private System.Single _baseColorBoost
+    float& dyn__baseColorBoost();
+    // Get instance field reference: private System.Single _baseColorBoostThreshold
+    float& dyn__baseColorBoostThreshold();
+    // Get instance field reference: private UnityEngine.Material _fadeMaterial
+    UnityEngine::Material*& dyn__fadeMaterial();
+    // Get instance field reference: private UnityEngine.Material _mainEffectMaterial
+    UnityEngine::Material*& dyn__mainEffectMaterial();
     // protected System.Void OnDisable()
     // Offset: 0x2390C20
     void OnDisable();

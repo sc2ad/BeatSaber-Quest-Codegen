@@ -107,46 +107,26 @@ namespace GlobalNamespace {
     MissionNodeConnection(float separator_ = {}, float width_ = {}, UnityEngine::RectTransform* rectTransform_ = {}, UnityEngine::UI::Image* image_ = {}, GlobalNamespace::MissionNodeVisualController* parentMissionNode_ = {}, GlobalNamespace::MissionNodeVisualController* childMissionNode_ = {}, UnityEngine::Animator* animator_ = {}, UnityEngine::Vector2 parentMissionNodePosition_ = {}, UnityEngine::Vector2 childMissionNodePosition_ = {}, bool isActive_ = {}) noexcept : separator{separator_}, width{width_}, rectTransform{rectTransform_}, image{image_}, parentMissionNode{parentMissionNode_}, childMissionNode{childMissionNode_}, animator{animator_}, parentMissionNodePosition{parentMissionNodePosition_}, childMissionNodePosition{childMissionNodePosition_}, isActive{isActive_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Single _separator
-    float _get__separator();
-    // Set instance field: private System.Single _separator
-    void _set__separator(float value);
-    // Get instance field: private System.Single _width
-    float _get__width();
-    // Set instance field: private System.Single _width
-    void _set__width(float value);
-    // Get instance field: private UnityEngine.RectTransform _rectTransform
-    UnityEngine::RectTransform* _get__rectTransform();
-    // Set instance field: private UnityEngine.RectTransform _rectTransform
-    void _set__rectTransform(UnityEngine::RectTransform* value);
-    // Get instance field: private UnityEngine.UI.Image _image
-    UnityEngine::UI::Image* _get__image();
-    // Set instance field: private UnityEngine.UI.Image _image
-    void _set__image(UnityEngine::UI::Image* value);
-    // Get instance field: private MissionNodeVisualController _parentMissionNode
-    GlobalNamespace::MissionNodeVisualController* _get__parentMissionNode();
-    // Set instance field: private MissionNodeVisualController _parentMissionNode
-    void _set__parentMissionNode(GlobalNamespace::MissionNodeVisualController* value);
-    // Get instance field: private MissionNodeVisualController _childMissionNode
-    GlobalNamespace::MissionNodeVisualController* _get__childMissionNode();
-    // Set instance field: private MissionNodeVisualController _childMissionNode
-    void _set__childMissionNode(GlobalNamespace::MissionNodeVisualController* value);
-    // Get instance field: private UnityEngine.Animator _animator
-    UnityEngine::Animator* _get__animator();
-    // Set instance field: private UnityEngine.Animator _animator
-    void _set__animator(UnityEngine::Animator* value);
-    // Get instance field: private UnityEngine.Vector2 _parentMissionNodePosition
-    UnityEngine::Vector2 _get__parentMissionNodePosition();
-    // Set instance field: private UnityEngine.Vector2 _parentMissionNodePosition
-    void _set__parentMissionNodePosition(UnityEngine::Vector2 value);
-    // Get instance field: private UnityEngine.Vector2 _childMissionNodePosition
-    UnityEngine::Vector2 _get__childMissionNodePosition();
-    // Set instance field: private UnityEngine.Vector2 _childMissionNodePosition
-    void _set__childMissionNodePosition(UnityEngine::Vector2 value);
-    // Get instance field: private System.Boolean _isActive
-    bool _get__isActive();
-    // Set instance field: private System.Boolean _isActive
-    void _set__isActive(bool value);
+    // Get instance field reference: private System.Single _separator
+    float& dyn__separator();
+    // Get instance field reference: private System.Single _width
+    float& dyn__width();
+    // Get instance field reference: private UnityEngine.RectTransform _rectTransform
+    UnityEngine::RectTransform*& dyn__rectTransform();
+    // Get instance field reference: private UnityEngine.UI.Image _image
+    UnityEngine::UI::Image*& dyn__image();
+    // Get instance field reference: private MissionNodeVisualController _parentMissionNode
+    GlobalNamespace::MissionNodeVisualController*& dyn__parentMissionNode();
+    // Get instance field reference: private MissionNodeVisualController _childMissionNode
+    GlobalNamespace::MissionNodeVisualController*& dyn__childMissionNode();
+    // Get instance field reference: private UnityEngine.Animator _animator
+    UnityEngine::Animator*& dyn__animator();
+    // Get instance field reference: private UnityEngine.Vector2 _parentMissionNodePosition
+    UnityEngine::Vector2& dyn__parentMissionNodePosition();
+    // Get instance field reference: private UnityEngine.Vector2 _childMissionNodePosition
+    UnityEngine::Vector2& dyn__childMissionNodePosition();
+    // Get instance field reference: private System.Boolean _isActive
+    bool& dyn__isActive();
     // public MissionNodeVisualController get_parentMissionNode()
     // Offset: 0x11D5470
     GlobalNamespace::MissionNodeVisualController* get_parentMissionNode();

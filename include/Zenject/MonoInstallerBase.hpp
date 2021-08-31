@@ -44,10 +44,8 @@ namespace Zenject {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private Zenject.DiContainer <Container>k__BackingField
-    Zenject::DiContainer* _get_$Container$k__BackingField();
-    // Set instance field: private Zenject.DiContainer <Container>k__BackingField
-    void _set_$Container$k__BackingField(Zenject::DiContainer* value);
+    // Get instance field reference: private Zenject.DiContainer <Container>k__BackingField
+    Zenject::DiContainer*& dyn_$Container$k__BackingField();
     // protected Zenject.DiContainer get_Container()
     // Offset: 0x1713A64
     Zenject::DiContainer* get_Container();

@@ -92,38 +92,22 @@ namespace Org::BouncyCastle::Crypto::Encodings {
     static ::Array<bool>* _get_strictLengthEnabled();
     // Set static field: static private readonly System.Boolean[] strictLengthEnabled
     static void _set_strictLengthEnabled(::Array<bool>* value);
-    // Get instance field: private Org.BouncyCastle.Security.SecureRandom random
-    Org::BouncyCastle::Security::SecureRandom* _get_random();
-    // Set instance field: private Org.BouncyCastle.Security.SecureRandom random
-    void _set_random(Org::BouncyCastle::Security::SecureRandom* value);
-    // Get instance field: private Org.BouncyCastle.Crypto.IAsymmetricBlockCipher engine
-    Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* _get_engine();
-    // Set instance field: private Org.BouncyCastle.Crypto.IAsymmetricBlockCipher engine
-    void _set_engine(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* value);
-    // Get instance field: private System.Boolean forEncryption
-    bool _get_forEncryption();
-    // Set instance field: private System.Boolean forEncryption
-    void _set_forEncryption(bool value);
-    // Get instance field: private System.Boolean forPrivateKey
-    bool _get_forPrivateKey();
-    // Set instance field: private System.Boolean forPrivateKey
-    void _set_forPrivateKey(bool value);
-    // Get instance field: private System.Boolean useStrictLength
-    bool _get_useStrictLength();
-    // Set instance field: private System.Boolean useStrictLength
-    void _set_useStrictLength(bool value);
-    // Get instance field: private System.Int32 pLen
-    int _get_pLen();
-    // Set instance field: private System.Int32 pLen
-    void _set_pLen(int value);
-    // Get instance field: private System.Byte[] fallback
-    ::Array<uint8_t>* _get_fallback();
-    // Set instance field: private System.Byte[] fallback
-    void _set_fallback(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] blockBuffer
-    ::Array<uint8_t>* _get_blockBuffer();
-    // Set instance field: private System.Byte[] blockBuffer
-    void _set_blockBuffer(::Array<uint8_t>* value);
+    // Get instance field reference: private Org.BouncyCastle.Security.SecureRandom random
+    Org::BouncyCastle::Security::SecureRandom*& dyn_random();
+    // Get instance field reference: private Org.BouncyCastle.Crypto.IAsymmetricBlockCipher engine
+    Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*& dyn_engine();
+    // Get instance field reference: private System.Boolean forEncryption
+    bool& dyn_forEncryption();
+    // Get instance field reference: private System.Boolean forPrivateKey
+    bool& dyn_forPrivateKey();
+    // Get instance field reference: private System.Boolean useStrictLength
+    bool& dyn_useStrictLength();
+    // Get instance field reference: private System.Int32 pLen
+    int& dyn_pLen();
+    // Get instance field reference: private System.Byte[] fallback
+    ::Array<uint8_t>*& dyn_fallback();
+    // Get instance field reference: private System.Byte[] blockBuffer
+    ::Array<uint8_t>*& dyn_blockBuffer();
     // static public System.Boolean get_StrictLengthEnabled()
     // Offset: 0x1930E48
     static bool get_StrictLengthEnabled();

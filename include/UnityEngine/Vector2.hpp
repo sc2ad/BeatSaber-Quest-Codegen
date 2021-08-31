@@ -101,14 +101,10 @@ namespace UnityEngine {
     static float _get_kEpsilonNormalSqrt();
     // Set static field: static public System.Single kEpsilonNormalSqrt
     static void _set_kEpsilonNormalSqrt(float value);
-    // Get instance field: public System.Single x
-    float _get_x();
-    // Set instance field: public System.Single x
-    void _set_x(float value);
-    // Get instance field: public System.Single y
-    float _get_y();
-    // Set instance field: public System.Single y
-    void _set_y(float value);
+    // Get instance field reference: public System.Single x
+    float& dyn_x();
+    // Get instance field reference: public System.Single y
+    float& dyn_y();
     // public System.Single get_Item(System.Int32 index)
     // Offset: 0x236482C
     float get_Item(int index);

@@ -48,18 +48,12 @@ namespace GlobalNamespace {
     operator GlobalNamespace::BeatmapSaveData::ITime() noexcept {
       return *reinterpret_cast<GlobalNamespace::BeatmapSaveData::ITime*>(this);
     }
-    // Get instance field: private System.Single _time
-    float _get__time();
-    // Set instance field: private System.Single _time
-    void _set__time(float value);
-    // Get instance field: private BeatmapSaveData/BeatmapEventType _type
-    GlobalNamespace::BeatmapSaveData::BeatmapEventType _get__type();
-    // Set instance field: private BeatmapSaveData/BeatmapEventType _type
-    void _set__type(GlobalNamespace::BeatmapSaveData::BeatmapEventType value);
-    // Get instance field: private System.Int32 _value
-    int _get__value();
-    // Set instance field: private System.Int32 _value
-    void _set__value(int value);
+    // Get instance field reference: private System.Single _time
+    float& dyn__time();
+    // Get instance field reference: private BeatmapSaveData/BeatmapEventType _type
+    GlobalNamespace::BeatmapSaveData::BeatmapEventType& dyn__type();
+    // Get instance field reference: private System.Int32 _value
+    int& dyn__value();
     // public System.Single get_time()
     // Offset: 0x10CF0A8
     float get_time();

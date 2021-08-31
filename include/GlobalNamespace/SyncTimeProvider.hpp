@@ -44,10 +44,8 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::IMultiplayerSessionManager*() const noexcept {
       return multiplayerSessionManager;
     }
-    // Get instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    GlobalNamespace::IMultiplayerSessionManager* _get__multiplayerSessionManager();
-    // Set instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    void _set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
+    // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
     // public System.Single get_time()
     // Offset: 0x1090C1C
     float get_time();

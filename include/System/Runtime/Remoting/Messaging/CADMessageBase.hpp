@@ -80,26 +80,16 @@ namespace System::Runtime::Remoting::Messaging {
     static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // Creating value type constructor for type: CADMessageBase
     CADMessageBase(::Array<::Il2CppObject*>* args_ = {}, ::Array<uint8_t>* serializedArgs_ = {}, int propertyCount_ = {}, System::Runtime::Remoting::Messaging::CADArgHolder* callContext_ = {}, ::Array<uint8_t>* serializedMethod_ = {}) noexcept : args{args_}, serializedArgs{serializedArgs_}, propertyCount{propertyCount_}, callContext{callContext_}, serializedMethod{serializedMethod_} {}
-    // Get instance field: protected System.Object[] _args
-    ::Array<::Il2CppObject*>* _get__args();
-    // Set instance field: protected System.Object[] _args
-    void _set__args(::Array<::Il2CppObject*>* value);
-    // Get instance field: protected System.Byte[] _serializedArgs
-    ::Array<uint8_t>* _get__serializedArgs();
-    // Set instance field: protected System.Byte[] _serializedArgs
-    void _set__serializedArgs(::Array<uint8_t>* value);
-    // Get instance field: protected System.Int32 _propertyCount
-    int _get__propertyCount();
-    // Set instance field: protected System.Int32 _propertyCount
-    void _set__propertyCount(int value);
-    // Get instance field: protected System.Runtime.Remoting.Messaging.CADArgHolder _callContext
-    System::Runtime::Remoting::Messaging::CADArgHolder* _get__callContext();
-    // Set instance field: protected System.Runtime.Remoting.Messaging.CADArgHolder _callContext
-    void _set__callContext(System::Runtime::Remoting::Messaging::CADArgHolder* value);
-    // Get instance field: System.Byte[] serializedMethod
-    ::Array<uint8_t>* _get_serializedMethod();
-    // Set instance field: System.Byte[] serializedMethod
-    void _set_serializedMethod(::Array<uint8_t>* value);
+    // Get instance field reference: protected System.Object[] _args
+    ::Array<::Il2CppObject*>*& dyn__args();
+    // Get instance field reference: protected System.Byte[] _serializedArgs
+    ::Array<uint8_t>*& dyn__serializedArgs();
+    // Get instance field reference: protected System.Int32 _propertyCount
+    int& dyn__propertyCount();
+    // Get instance field reference: protected System.Runtime.Remoting.Messaging.CADArgHolder _callContext
+    System::Runtime::Remoting::Messaging::CADArgHolder*& dyn__callContext();
+    // Get instance field reference: System.Byte[] serializedMethod
+    ::Array<uint8_t>*& dyn_serializedMethod();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMethodMessage msg)
     // Offset: 0x1A45D00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

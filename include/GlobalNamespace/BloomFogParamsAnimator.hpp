@@ -47,10 +47,8 @@ namespace GlobalNamespace {
     BloomFogParamsAnimator(GlobalNamespace::BloomFogSO* bloomFog_ = {}) noexcept : bloomFog{bloomFog_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private readonly BloomFogSO _bloomFog
-    GlobalNamespace::BloomFogSO* _get__bloomFog();
-    // Set instance field: private readonly BloomFogSO _bloomFog
-    void _set__bloomFog(GlobalNamespace::BloomFogSO* value);
+    // Get instance field reference: private readonly BloomFogSO _bloomFog
+    GlobalNamespace::BloomFogSO*& dyn__bloomFog();
     // public System.Void AnimateBloomFogParamsChange(BloomFogEnvironmentParams envFogParams, System.Single duration)
     // Offset: 0x1E11138
     void AnimateBloomFogParamsChange(GlobalNamespace::BloomFogEnvironmentParams* envFogParams, float duration);

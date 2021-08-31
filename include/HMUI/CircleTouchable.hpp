@@ -51,18 +51,12 @@ namespace HMUI {
     static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
     // Creating value type constructor for type: CircleTouchable
     CircleTouchable(float minRadius_ = {}, float maxRadius_ = {}, UnityEngine::RectTransform* containerRect_ = {}) noexcept : minRadius{minRadius_}, maxRadius{maxRadius_}, containerRect{containerRect_} {}
-    // Get instance field: private System.Single _minRadius
-    float _get__minRadius();
-    // Set instance field: private System.Single _minRadius
-    void _set__minRadius(float value);
-    // Get instance field: private System.Single _maxRadius
-    float _get__maxRadius();
-    // Set instance field: private System.Single _maxRadius
-    void _set__maxRadius(float value);
-    // Get instance field: private UnityEngine.RectTransform _containerRect
-    UnityEngine::RectTransform* _get__containerRect();
-    // Set instance field: private UnityEngine.RectTransform _containerRect
-    void _set__containerRect(UnityEngine::RectTransform* value);
+    // Get instance field reference: private System.Single _minRadius
+    float& dyn__minRadius();
+    // Get instance field reference: private System.Single _maxRadius
+    float& dyn__maxRadius();
+    // Get instance field reference: private UnityEngine.RectTransform _containerRect
+    UnityEngine::RectTransform*& dyn__containerRect();
     // private System.Void UpdateCachedReferences()
     // Offset: 0x1367C4C
     void UpdateCachedReferences();

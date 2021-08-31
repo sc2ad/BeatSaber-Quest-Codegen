@@ -71,26 +71,16 @@ namespace UnityEngine::TextCore {
     operator System::IEquatable_1<UnityEngine::TextCore::GlyphMetrics>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::TextCore::GlyphMetrics>*>(this);
     }
-    // Get instance field: private System.Single m_Width
-    float _get_m_Width();
-    // Set instance field: private System.Single m_Width
-    void _set_m_Width(float value);
-    // Get instance field: private System.Single m_Height
-    float _get_m_Height();
-    // Set instance field: private System.Single m_Height
-    void _set_m_Height(float value);
-    // Get instance field: private System.Single m_HorizontalBearingX
-    float _get_m_HorizontalBearingX();
-    // Set instance field: private System.Single m_HorizontalBearingX
-    void _set_m_HorizontalBearingX(float value);
-    // Get instance field: private System.Single m_HorizontalBearingY
-    float _get_m_HorizontalBearingY();
-    // Set instance field: private System.Single m_HorizontalBearingY
-    void _set_m_HorizontalBearingY(float value);
-    // Get instance field: private System.Single m_HorizontalAdvance
-    float _get_m_HorizontalAdvance();
-    // Set instance field: private System.Single m_HorizontalAdvance
-    void _set_m_HorizontalAdvance(float value);
+    // Get instance field reference: private System.Single m_Width
+    float& dyn_m_Width();
+    // Get instance field reference: private System.Single m_Height
+    float& dyn_m_Height();
+    // Get instance field reference: private System.Single m_HorizontalBearingX
+    float& dyn_m_HorizontalBearingX();
+    // Get instance field reference: private System.Single m_HorizontalBearingY
+    float& dyn_m_HorizontalBearingY();
+    // Get instance field reference: private System.Single m_HorizontalAdvance
+    float& dyn_m_HorizontalAdvance();
     // public System.Single get_width()
     // Offset: 0x23F75FC
     float get_width();

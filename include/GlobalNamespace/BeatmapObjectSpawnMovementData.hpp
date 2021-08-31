@@ -227,126 +227,66 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Creating value type constructor for type: BeatmapObjectSpawnMovementData
     BeatmapObjectSpawnMovementData(UnityEngine::Vector3 centerPos_ = {}, float noteLinesDistance_ = {}, float maxHalfJumpDistance_ = {}, float startHalfJumpDurationInBeats_ = {}, float baseLinesHighestJumpPosY_ = {}, float upperLinesHighestJumpPosY_ = {}, float topLinesHighestJumpPosY_ = {}, float moveSpeed_ = {}, float moveDuration_ = {}, float baseLinesYPos_ = {}, float upperLinesYPos_ = {}, float topLinesYPos_ = {}, float verticalObstaclePosY_ = {}, float topObstaclePosY_ = {}, float obstacleTopPosY_ = {}, float spawnAheadTime_ = {}, float jumpDuration_ = {}, float startBpm_ = {}, float startNoteJumpMovementSpeed_ = {}, float noteJumpStartBeatOffset_ = {}, float noteJumpMovementSpeed_ = {}, float jumpDistance_ = {}, float moveDistance_ = {}, UnityEngine::Vector3 moveStartPos_ = {}, UnityEngine::Vector3 moveEndPos_ = {}, UnityEngine::Vector3 jumpEndPos_ = {}, float noteLinesCount_ = {}, float jumpOffsetY_ = {}, UnityEngine::Vector3 rightVec_ = {}, UnityEngine::Vector3 forwardVec_ = {}) noexcept : centerPos{centerPos_}, noteLinesDistance{noteLinesDistance_}, maxHalfJumpDistance{maxHalfJumpDistance_}, startHalfJumpDurationInBeats{startHalfJumpDurationInBeats_}, baseLinesHighestJumpPosY{baseLinesHighestJumpPosY_}, upperLinesHighestJumpPosY{upperLinesHighestJumpPosY_}, topLinesHighestJumpPosY{topLinesHighestJumpPosY_}, moveSpeed{moveSpeed_}, moveDuration{moveDuration_}, baseLinesYPos{baseLinesYPos_}, upperLinesYPos{upperLinesYPos_}, topLinesYPos{topLinesYPos_}, verticalObstaclePosY{verticalObstaclePosY_}, topObstaclePosY{topObstaclePosY_}, obstacleTopPosY{obstacleTopPosY_}, spawnAheadTime{spawnAheadTime_}, jumpDuration{jumpDuration_}, startBpm{startBpm_}, startNoteJumpMovementSpeed{startNoteJumpMovementSpeed_}, noteJumpStartBeatOffset{noteJumpStartBeatOffset_}, noteJumpMovementSpeed{noteJumpMovementSpeed_}, jumpDistance{jumpDistance_}, moveDistance{moveDistance_}, moveStartPos{moveStartPos_}, moveEndPos{moveEndPos_}, jumpEndPos{jumpEndPos_}, noteLinesCount{noteLinesCount_}, jumpOffsetY{jumpOffsetY_}, rightVec{rightVec_}, forwardVec{forwardVec_} {}
-    // Get instance field: private UnityEngine.Vector3 _centerPos
-    UnityEngine::Vector3 _get__centerPos();
-    // Set instance field: private UnityEngine.Vector3 _centerPos
-    void _set__centerPos(UnityEngine::Vector3 value);
-    // Get instance field: private System.Single _noteLinesDistance
-    float _get__noteLinesDistance();
-    // Set instance field: private System.Single _noteLinesDistance
-    void _set__noteLinesDistance(float value);
-    // Get instance field: private System.Single _maxHalfJumpDistance
-    float _get__maxHalfJumpDistance();
-    // Set instance field: private System.Single _maxHalfJumpDistance
-    void _set__maxHalfJumpDistance(float value);
-    // Get instance field: private System.Single _startHalfJumpDurationInBeats
-    float _get__startHalfJumpDurationInBeats();
-    // Set instance field: private System.Single _startHalfJumpDurationInBeats
-    void _set__startHalfJumpDurationInBeats(float value);
-    // Get instance field: private System.Single _baseLinesHighestJumpPosY
-    float _get__baseLinesHighestJumpPosY();
-    // Set instance field: private System.Single _baseLinesHighestJumpPosY
-    void _set__baseLinesHighestJumpPosY(float value);
-    // Get instance field: private System.Single _upperLinesHighestJumpPosY
-    float _get__upperLinesHighestJumpPosY();
-    // Set instance field: private System.Single _upperLinesHighestJumpPosY
-    void _set__upperLinesHighestJumpPosY(float value);
-    // Get instance field: private System.Single _topLinesHighestJumpPosY
-    float _get__topLinesHighestJumpPosY();
-    // Set instance field: private System.Single _topLinesHighestJumpPosY
-    void _set__topLinesHighestJumpPosY(float value);
-    // Get instance field: private System.Single _moveSpeed
-    float _get__moveSpeed();
-    // Set instance field: private System.Single _moveSpeed
-    void _set__moveSpeed(float value);
-    // Get instance field: private System.Single _moveDuration
-    float _get__moveDuration();
-    // Set instance field: private System.Single _moveDuration
-    void _set__moveDuration(float value);
-    // Get instance field: private System.Single _baseLinesYPos
-    float _get__baseLinesYPos();
-    // Set instance field: private System.Single _baseLinesYPos
-    void _set__baseLinesYPos(float value);
-    // Get instance field: private System.Single _upperLinesYPos
-    float _get__upperLinesYPos();
-    // Set instance field: private System.Single _upperLinesYPos
-    void _set__upperLinesYPos(float value);
-    // Get instance field: private System.Single _topLinesYPos
-    float _get__topLinesYPos();
-    // Set instance field: private System.Single _topLinesYPos
-    void _set__topLinesYPos(float value);
-    // Get instance field: private System.Single _verticalObstaclePosY
-    float _get__verticalObstaclePosY();
-    // Set instance field: private System.Single _verticalObstaclePosY
-    void _set__verticalObstaclePosY(float value);
-    // Get instance field: private System.Single _topObstaclePosY
-    float _get__topObstaclePosY();
-    // Set instance field: private System.Single _topObstaclePosY
-    void _set__topObstaclePosY(float value);
-    // Get instance field: private System.Single _obstacleTopPosY
-    float _get__obstacleTopPosY();
-    // Set instance field: private System.Single _obstacleTopPosY
-    void _set__obstacleTopPosY(float value);
-    // Get instance field: private System.Single _spawnAheadTime
-    float _get__spawnAheadTime();
-    // Set instance field: private System.Single _spawnAheadTime
-    void _set__spawnAheadTime(float value);
-    // Get instance field: private System.Single _jumpDuration
-    float _get__jumpDuration();
-    // Set instance field: private System.Single _jumpDuration
-    void _set__jumpDuration(float value);
-    // Get instance field: private System.Single _startBpm
-    float _get__startBpm();
-    // Set instance field: private System.Single _startBpm
-    void _set__startBpm(float value);
-    // Get instance field: private System.Single _startNoteJumpMovementSpeed
-    float _get__startNoteJumpMovementSpeed();
-    // Set instance field: private System.Single _startNoteJumpMovementSpeed
-    void _set__startNoteJumpMovementSpeed(float value);
-    // Get instance field: private System.Single _noteJumpStartBeatOffset
-    float _get__noteJumpStartBeatOffset();
-    // Set instance field: private System.Single _noteJumpStartBeatOffset
-    void _set__noteJumpStartBeatOffset(float value);
-    // Get instance field: private System.Single _noteJumpMovementSpeed
-    float _get__noteJumpMovementSpeed();
-    // Set instance field: private System.Single _noteJumpMovementSpeed
-    void _set__noteJumpMovementSpeed(float value);
-    // Get instance field: private System.Single _jumpDistance
-    float _get__jumpDistance();
-    // Set instance field: private System.Single _jumpDistance
-    void _set__jumpDistance(float value);
-    // Get instance field: private System.Single _moveDistance
-    float _get__moveDistance();
-    // Set instance field: private System.Single _moveDistance
-    void _set__moveDistance(float value);
-    // Get instance field: private UnityEngine.Vector3 _moveStartPos
-    UnityEngine::Vector3 _get__moveStartPos();
-    // Set instance field: private UnityEngine.Vector3 _moveStartPos
-    void _set__moveStartPos(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 _moveEndPos
-    UnityEngine::Vector3 _get__moveEndPos();
-    // Set instance field: private UnityEngine.Vector3 _moveEndPos
-    void _set__moveEndPos(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 _jumpEndPos
-    UnityEngine::Vector3 _get__jumpEndPos();
-    // Set instance field: private UnityEngine.Vector3 _jumpEndPos
-    void _set__jumpEndPos(UnityEngine::Vector3 value);
-    // Get instance field: private System.Single _noteLinesCount
-    float _get__noteLinesCount();
-    // Set instance field: private System.Single _noteLinesCount
-    void _set__noteLinesCount(float value);
-    // Get instance field: private System.Single _jumpOffsetY
-    float _get__jumpOffsetY();
-    // Set instance field: private System.Single _jumpOffsetY
-    void _set__jumpOffsetY(float value);
-    // Get instance field: private UnityEngine.Vector3 _rightVec
-    UnityEngine::Vector3 _get__rightVec();
-    // Set instance field: private UnityEngine.Vector3 _rightVec
-    void _set__rightVec(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 _forwardVec
-    UnityEngine::Vector3 _get__forwardVec();
-    // Set instance field: private UnityEngine.Vector3 _forwardVec
-    void _set__forwardVec(UnityEngine::Vector3 value);
+    // Get instance field reference: private UnityEngine.Vector3 _centerPos
+    UnityEngine::Vector3& dyn__centerPos();
+    // Get instance field reference: private System.Single _noteLinesDistance
+    float& dyn__noteLinesDistance();
+    // Get instance field reference: private System.Single _maxHalfJumpDistance
+    float& dyn__maxHalfJumpDistance();
+    // Get instance field reference: private System.Single _startHalfJumpDurationInBeats
+    float& dyn__startHalfJumpDurationInBeats();
+    // Get instance field reference: private System.Single _baseLinesHighestJumpPosY
+    float& dyn__baseLinesHighestJumpPosY();
+    // Get instance field reference: private System.Single _upperLinesHighestJumpPosY
+    float& dyn__upperLinesHighestJumpPosY();
+    // Get instance field reference: private System.Single _topLinesHighestJumpPosY
+    float& dyn__topLinesHighestJumpPosY();
+    // Get instance field reference: private System.Single _moveSpeed
+    float& dyn__moveSpeed();
+    // Get instance field reference: private System.Single _moveDuration
+    float& dyn__moveDuration();
+    // Get instance field reference: private System.Single _baseLinesYPos
+    float& dyn__baseLinesYPos();
+    // Get instance field reference: private System.Single _upperLinesYPos
+    float& dyn__upperLinesYPos();
+    // Get instance field reference: private System.Single _topLinesYPos
+    float& dyn__topLinesYPos();
+    // Get instance field reference: private System.Single _verticalObstaclePosY
+    float& dyn__verticalObstaclePosY();
+    // Get instance field reference: private System.Single _topObstaclePosY
+    float& dyn__topObstaclePosY();
+    // Get instance field reference: private System.Single _obstacleTopPosY
+    float& dyn__obstacleTopPosY();
+    // Get instance field reference: private System.Single _spawnAheadTime
+    float& dyn__spawnAheadTime();
+    // Get instance field reference: private System.Single _jumpDuration
+    float& dyn__jumpDuration();
+    // Get instance field reference: private System.Single _startBpm
+    float& dyn__startBpm();
+    // Get instance field reference: private System.Single _startNoteJumpMovementSpeed
+    float& dyn__startNoteJumpMovementSpeed();
+    // Get instance field reference: private System.Single _noteJumpStartBeatOffset
+    float& dyn__noteJumpStartBeatOffset();
+    // Get instance field reference: private System.Single _noteJumpMovementSpeed
+    float& dyn__noteJumpMovementSpeed();
+    // Get instance field reference: private System.Single _jumpDistance
+    float& dyn__jumpDistance();
+    // Get instance field reference: private System.Single _moveDistance
+    float& dyn__moveDistance();
+    // Get instance field reference: private UnityEngine.Vector3 _moveStartPos
+    UnityEngine::Vector3& dyn__moveStartPos();
+    // Get instance field reference: private UnityEngine.Vector3 _moveEndPos
+    UnityEngine::Vector3& dyn__moveEndPos();
+    // Get instance field reference: private UnityEngine.Vector3 _jumpEndPos
+    UnityEngine::Vector3& dyn__jumpEndPos();
+    // Get instance field reference: private System.Single _noteLinesCount
+    float& dyn__noteLinesCount();
+    // Get instance field reference: private System.Single _jumpOffsetY
+    float& dyn__jumpOffsetY();
+    // Get instance field reference: private UnityEngine.Vector3 _rightVec
+    UnityEngine::Vector3& dyn__rightVec();
+    // Get instance field reference: private UnityEngine.Vector3 _forwardVec
+    UnityEngine::Vector3& dyn__forwardVec();
     // public System.Single get_spawnAheadTime()
     // Offset: 0x10CCE00
     float get_spawnAheadTime();

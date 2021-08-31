@@ -67,26 +67,16 @@ namespace System::Threading::Tasks {
     static_assert(sizeof(System::Threading::Tasks::InternalTaskOptions) == 0x4);
     // Creating value type constructor for type: $$c__DisplayClass178_0
     $$c__DisplayClass178_0(System::Threading::Tasks::Task* root_ = {}, bool replicasAreQuitting_ = {}, System::Action_1<::Il2CppObject*>* taskReplicaDelegate_ = {}, System::Threading::Tasks::TaskCreationOptions creationOptionsForReplicas_ = {}, System::Threading::Tasks::InternalTaskOptions internalOptionsForReplicas_ = {}) noexcept : root{root_}, replicasAreQuitting{replicasAreQuitting_}, taskReplicaDelegate{taskReplicaDelegate_}, creationOptionsForReplicas{creationOptionsForReplicas_}, internalOptionsForReplicas{internalOptionsForReplicas_} {}
-    // Get instance field: public System.Threading.Tasks.Task root
-    System::Threading::Tasks::Task* _get_root();
-    // Set instance field: public System.Threading.Tasks.Task root
-    void _set_root(System::Threading::Tasks::Task* value);
-    // Get instance field: public System.Boolean replicasAreQuitting
-    bool _get_replicasAreQuitting();
-    // Set instance field: public System.Boolean replicasAreQuitting
-    void _set_replicasAreQuitting(bool value);
-    // Get instance field: public System.Action`1<System.Object> taskReplicaDelegate
-    System::Action_1<::Il2CppObject*>* _get_taskReplicaDelegate();
-    // Set instance field: public System.Action`1<System.Object> taskReplicaDelegate
-    void _set_taskReplicaDelegate(System::Action_1<::Il2CppObject*>* value);
-    // Get instance field: public System.Threading.Tasks.TaskCreationOptions creationOptionsForReplicas
-    System::Threading::Tasks::TaskCreationOptions _get_creationOptionsForReplicas();
-    // Set instance field: public System.Threading.Tasks.TaskCreationOptions creationOptionsForReplicas
-    void _set_creationOptionsForReplicas(System::Threading::Tasks::TaskCreationOptions value);
-    // Get instance field: public System.Threading.Tasks.InternalTaskOptions internalOptionsForReplicas
-    System::Threading::Tasks::InternalTaskOptions _get_internalOptionsForReplicas();
-    // Set instance field: public System.Threading.Tasks.InternalTaskOptions internalOptionsForReplicas
-    void _set_internalOptionsForReplicas(System::Threading::Tasks::InternalTaskOptions value);
+    // Get instance field reference: public System.Threading.Tasks.Task root
+    System::Threading::Tasks::Task*& dyn_root();
+    // Get instance field reference: public System.Boolean replicasAreQuitting
+    bool& dyn_replicasAreQuitting();
+    // Get instance field reference: public System.Action`1<System.Object> taskReplicaDelegate
+    System::Action_1<::Il2CppObject*>*& dyn_taskReplicaDelegate();
+    // Get instance field reference: public System.Threading.Tasks.TaskCreationOptions creationOptionsForReplicas
+    System::Threading::Tasks::TaskCreationOptions& dyn_creationOptionsForReplicas();
+    // Get instance field reference: public System.Threading.Tasks.InternalTaskOptions internalOptionsForReplicas
+    System::Threading::Tasks::InternalTaskOptions& dyn_internalOptionsForReplicas();
     // System.Void <ExecuteSelfReplicating>b__0(System.Object <p0>)
     // Offset: 0x1873208
     void $ExecuteSelfReplicating$b__0(::Il2CppObject* $p0$);

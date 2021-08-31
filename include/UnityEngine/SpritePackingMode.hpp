@@ -44,10 +44,8 @@ namespace UnityEngine {
     static UnityEngine::SpritePackingMode _get_Rectangle();
     // Set static field: static public UnityEngine.SpritePackingMode Rectangle
     static void _set_Rectangle(UnityEngine::SpritePackingMode value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.SpritePackingMode
   #pragma pack(pop)
   static check_size<sizeof(SpritePackingMode), 0 + sizeof(int)> __UnityEngine_SpritePackingModeSizeCheck;

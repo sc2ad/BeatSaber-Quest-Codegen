@@ -61,22 +61,14 @@ namespace Mono::Security::Protocol::Ntlm {
     static ::Array<uint8_t>* _get_nullEncMagic();
     // Set static field: static private System.Byte[] nullEncMagic
     static void _set_nullEncMagic(::Array<uint8_t>* value);
-    // Get instance field: private System.Boolean _disposed
-    bool _get__disposed();
-    // Set instance field: private System.Boolean _disposed
-    void _set__disposed(bool value);
-    // Get instance field: private System.Byte[] _challenge
-    ::Array<uint8_t>* _get__challenge();
-    // Set instance field: private System.Byte[] _challenge
-    void _set__challenge(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] _lmpwd
-    ::Array<uint8_t>* _get__lmpwd();
-    // Set instance field: private System.Byte[] _lmpwd
-    void _set__lmpwd(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] _ntpwd
-    ::Array<uint8_t>* _get__ntpwd();
-    // Set instance field: private System.Byte[] _ntpwd
-    void _set__ntpwd(::Array<uint8_t>* value);
+    // Get instance field reference: private System.Boolean _disposed
+    bool& dyn__disposed();
+    // Get instance field reference: private System.Byte[] _challenge
+    ::Array<uint8_t>*& dyn__challenge();
+    // Get instance field reference: private System.Byte[] _lmpwd
+    ::Array<uint8_t>*& dyn__lmpwd();
+    // Get instance field reference: private System.Byte[] _ntpwd
+    ::Array<uint8_t>*& dyn__ntpwd();
     // public System.Void set_Password(System.String value)
     // Offset: 0x1E05DF0
     void set_Password(::Il2CppString* value);

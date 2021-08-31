@@ -43,14 +43,10 @@ namespace Mono::Globalization::Unicode {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Int32 Code
-    int _get_Code();
-    // Set instance field: public System.Int32 Code
-    void _set_Code(int value);
-    // Get instance field: public System.Byte* SortKey
-    uint8_t* _get_SortKey();
-    // Set instance field: public System.Byte* SortKey
-    void _set_SortKey(uint8_t* value);
+    // Get instance field reference: public System.Int32 Code
+    int& dyn_Code();
+    // Get instance field reference: public System.Byte* SortKey
+    uint8_t*& dyn_SortKey();
     // public System.Void .ctor(System.Boolean dummy)
     // Offset: 0x1A6B6C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

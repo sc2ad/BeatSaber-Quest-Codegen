@@ -50,10 +50,8 @@ namespace System::Collections {
     constexpr operator System::Collections::Hashtable*() const noexcept {
       return hashtable;
     }
-    // Get instance field: private System.Collections.Hashtable _hashtable
-    System::Collections::Hashtable* _get__hashtable();
-    // Set instance field: private System.Collections.Hashtable _hashtable
-    void _set__hashtable(System::Collections::Hashtable* value);
+    // Get instance field reference: private System.Collections.Hashtable _hashtable
+    System::Collections::Hashtable*& dyn__hashtable();
     // public System.Int32 get_Count()
     // Offset: 0x19B2670
     int get_Count();

@@ -62,30 +62,18 @@ namespace System::Net::NetworkInformation {
     static ::Array<::Il2CppChar>* _get_wsChars();
     // Set static field: static private readonly System.Char[] wsChars
     static void _set_wsChars(::Array<::Il2CppChar>* value);
-    // Get instance field: public readonly System.String StatisticsFile
-    ::Il2CppString* _get_StatisticsFile();
-    // Set instance field: public readonly System.String StatisticsFile
-    void _set_StatisticsFile(::Il2CppString* value);
-    // Get instance field: public readonly System.String StatisticsFileIPv6
-    ::Il2CppString* _get_StatisticsFileIPv6();
-    // Set instance field: public readonly System.String StatisticsFileIPv6
-    void _set_StatisticsFileIPv6(::Il2CppString* value);
-    // Get instance field: public readonly System.String TcpFile
-    ::Il2CppString* _get_TcpFile();
-    // Set instance field: public readonly System.String TcpFile
-    void _set_TcpFile(::Il2CppString* value);
-    // Get instance field: public readonly System.String Tcp6File
-    ::Il2CppString* _get_Tcp6File();
-    // Set instance field: public readonly System.String Tcp6File
-    void _set_Tcp6File(::Il2CppString* value);
-    // Get instance field: public readonly System.String UdpFile
-    ::Il2CppString* _get_UdpFile();
-    // Set instance field: public readonly System.String UdpFile
-    void _set_UdpFile(::Il2CppString* value);
-    // Get instance field: public readonly System.String Udp6File
-    ::Il2CppString* _get_Udp6File();
-    // Set instance field: public readonly System.String Udp6File
-    void _set_Udp6File(::Il2CppString* value);
+    // Get instance field reference: public readonly System.String StatisticsFile
+    ::Il2CppString*& dyn_StatisticsFile();
+    // Get instance field reference: public readonly System.String StatisticsFileIPv6
+    ::Il2CppString*& dyn_StatisticsFileIPv6();
+    // Get instance field reference: public readonly System.String TcpFile
+    ::Il2CppString*& dyn_TcpFile();
+    // Get instance field reference: public readonly System.String Tcp6File
+    ::Il2CppString*& dyn_Tcp6File();
+    // Get instance field reference: public readonly System.String UdpFile
+    ::Il2CppString*& dyn_UdpFile();
+    // Get instance field reference: public readonly System.String Udp6File
+    ::Il2CppString*& dyn_Udp6File();
     // public System.Void .ctor(System.String procDir)
     // Offset: 0x1497BC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

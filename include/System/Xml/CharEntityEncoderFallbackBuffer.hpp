@@ -47,18 +47,12 @@ namespace System::Xml {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: CharEntityEncoderFallbackBuffer
     CharEntityEncoderFallbackBuffer(System::Xml::CharEntityEncoderFallback* parent_ = {}, ::Il2CppString* charEntity_ = {}, int charEntityIndex_ = {}) noexcept : parent{parent_}, charEntity{charEntity_}, charEntityIndex{charEntityIndex_} {}
-    // Get instance field: private System.Xml.CharEntityEncoderFallback parent
-    System::Xml::CharEntityEncoderFallback* _get_parent();
-    // Set instance field: private System.Xml.CharEntityEncoderFallback parent
-    void _set_parent(System::Xml::CharEntityEncoderFallback* value);
-    // Get instance field: private System.String charEntity
-    ::Il2CppString* _get_charEntity();
-    // Set instance field: private System.String charEntity
-    void _set_charEntity(::Il2CppString* value);
-    // Get instance field: private System.Int32 charEntityIndex
-    int _get_charEntityIndex();
-    // Set instance field: private System.Int32 charEntityIndex
-    void _set_charEntityIndex(int value);
+    // Get instance field reference: private System.Xml.CharEntityEncoderFallback parent
+    System::Xml::CharEntityEncoderFallback*& dyn_parent();
+    // Get instance field reference: private System.String charEntity
+    ::Il2CppString*& dyn_charEntity();
+    // Get instance field reference: private System.Int32 charEntityIndex
+    int& dyn_charEntityIndex();
     // System.Void .ctor(System.Xml.CharEntityEncoderFallback parent)
     // Offset: 0x194E540
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

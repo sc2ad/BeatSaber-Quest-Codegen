@@ -143,74 +143,40 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public UnityEngine.Rect screenRect
-    UnityEngine::Rect _get_screenRect();
-    // Set instance field: public UnityEngine.Rect screenRect
-    void _set_screenRect(UnityEngine::Rect value);
-    // Get instance field: public UnityEngine.Rect sourceRect
-    UnityEngine::Rect _get_sourceRect();
-    // Set instance field: public UnityEngine.Rect sourceRect
-    void _set_sourceRect(UnityEngine::Rect value);
-    // Get instance field: public System.Int32 leftBorder
-    int _get_leftBorder();
-    // Set instance field: public System.Int32 leftBorder
-    void _set_leftBorder(int value);
-    // Get instance field: public System.Int32 rightBorder
-    int _get_rightBorder();
-    // Set instance field: public System.Int32 rightBorder
-    void _set_rightBorder(int value);
-    // Get instance field: public System.Int32 topBorder
-    int _get_topBorder();
-    // Set instance field: public System.Int32 topBorder
-    void _set_topBorder(int value);
-    // Get instance field: public System.Int32 bottomBorder
-    int _get_bottomBorder();
-    // Set instance field: public System.Int32 bottomBorder
-    void _set_bottomBorder(int value);
-    // Get instance field: public UnityEngine.Color leftBorderColor
-    UnityEngine::Color _get_leftBorderColor();
-    // Set instance field: public UnityEngine.Color leftBorderColor
-    void _set_leftBorderColor(UnityEngine::Color value);
-    // Get instance field: public UnityEngine.Color rightBorderColor
-    UnityEngine::Color _get_rightBorderColor();
-    // Set instance field: public UnityEngine.Color rightBorderColor
-    void _set_rightBorderColor(UnityEngine::Color value);
-    // Get instance field: public UnityEngine.Color topBorderColor
-    UnityEngine::Color _get_topBorderColor();
-    // Set instance field: public UnityEngine.Color topBorderColor
-    void _set_topBorderColor(UnityEngine::Color value);
-    // Get instance field: public UnityEngine.Color bottomBorderColor
-    UnityEngine::Color _get_bottomBorderColor();
-    // Set instance field: public UnityEngine.Color bottomBorderColor
-    void _set_bottomBorderColor(UnityEngine::Color value);
-    // Get instance field: public UnityEngine.Color color
-    UnityEngine::Color _get_color();
-    // Set instance field: public UnityEngine.Color color
-    void _set_color(UnityEngine::Color value);
-    // Get instance field: public UnityEngine.Vector4 borderWidths
-    UnityEngine::Vector4 _get_borderWidths();
-    // Set instance field: public UnityEngine.Vector4 borderWidths
-    void _set_borderWidths(UnityEngine::Vector4 value);
-    // Get instance field: public UnityEngine.Vector4 cornerRadiuses
-    UnityEngine::Vector4 _get_cornerRadiuses();
-    // Set instance field: public UnityEngine.Vector4 cornerRadiuses
-    void _set_cornerRadiuses(UnityEngine::Vector4 value);
-    // Get instance field: public System.Boolean smoothCorners
-    bool _get_smoothCorners();
-    // Set instance field: public System.Boolean smoothCorners
-    void _set_smoothCorners(bool value);
-    // Get instance field: public System.Int32 pass
-    int _get_pass();
-    // Set instance field: public System.Int32 pass
-    void _set_pass(int value);
-    // Get instance field: public UnityEngine.Texture texture
-    UnityEngine::Texture* _get_texture();
-    // Set instance field: public UnityEngine.Texture texture
-    void _set_texture(UnityEngine::Texture* value);
-    // Get instance field: public UnityEngine.Material mat
-    UnityEngine::Material* _get_mat();
-    // Set instance field: public UnityEngine.Material mat
-    void _set_mat(UnityEngine::Material* value);
+    // Get instance field reference: public UnityEngine.Rect screenRect
+    UnityEngine::Rect& dyn_screenRect();
+    // Get instance field reference: public UnityEngine.Rect sourceRect
+    UnityEngine::Rect& dyn_sourceRect();
+    // Get instance field reference: public System.Int32 leftBorder
+    int& dyn_leftBorder();
+    // Get instance field reference: public System.Int32 rightBorder
+    int& dyn_rightBorder();
+    // Get instance field reference: public System.Int32 topBorder
+    int& dyn_topBorder();
+    // Get instance field reference: public System.Int32 bottomBorder
+    int& dyn_bottomBorder();
+    // Get instance field reference: public UnityEngine.Color leftBorderColor
+    UnityEngine::Color& dyn_leftBorderColor();
+    // Get instance field reference: public UnityEngine.Color rightBorderColor
+    UnityEngine::Color& dyn_rightBorderColor();
+    // Get instance field reference: public UnityEngine.Color topBorderColor
+    UnityEngine::Color& dyn_topBorderColor();
+    // Get instance field reference: public UnityEngine.Color bottomBorderColor
+    UnityEngine::Color& dyn_bottomBorderColor();
+    // Get instance field reference: public UnityEngine.Color color
+    UnityEngine::Color& dyn_color();
+    // Get instance field reference: public UnityEngine.Vector4 borderWidths
+    UnityEngine::Vector4& dyn_borderWidths();
+    // Get instance field reference: public UnityEngine.Vector4 cornerRadiuses
+    UnityEngine::Vector4& dyn_cornerRadiuses();
+    // Get instance field reference: public System.Boolean smoothCorners
+    bool& dyn_smoothCorners();
+    // Get instance field reference: public System.Int32 pass
+    int& dyn_pass();
+    // Get instance field reference: public UnityEngine.Texture texture
+    UnityEngine::Texture*& dyn_texture();
+    // Get instance field reference: public UnityEngine.Material mat
+    UnityEngine::Material*& dyn_mat();
   }; // UnityEngine.Internal_DrawTextureArguments
   #pragma pack(pop)
   static check_size<sizeof(Internal_DrawTextureArguments), 176 + sizeof(UnityEngine::Material*)> __UnityEngine_Internal_DrawTextureArgumentsSizeCheck;

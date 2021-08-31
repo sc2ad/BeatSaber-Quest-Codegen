@@ -42,14 +42,10 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     static_assert(sizeof(NUnit::Framework::Internal::ITestExecutionContext*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass2_0
     $$c__DisplayClass2_0(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand* $$4__this_ = {}, NUnit::Framework::Internal::ITestExecutionContext* context_ = {}) noexcept : $$4__this{$$4__this_}, context{context_} {}
-    // Get instance field: public UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand <>4__this
-    UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand* _get_$$4__this();
-    // Set instance field: public UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand <>4__this
-    void _set_$$4__this(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand* value);
-    // Get instance field: public NUnit.Framework.Internal.ITestExecutionContext context
-    NUnit::Framework::Internal::ITestExecutionContext* _get_context();
-    // Set instance field: public NUnit.Framework.Internal.ITestExecutionContext context
-    void _set_context(NUnit::Framework::Internal::ITestExecutionContext* value);
+    // Get instance field reference: public UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand <>4__this
+    UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand*& dyn_$$4__this();
+    // Get instance field reference: public NUnit.Framework.Internal.ITestExecutionContext context
+    NUnit::Framework::Internal::ITestExecutionContext*& dyn_context();
     // System.Void <Execute>b__0()
     // Offset: 0x14B80B0
     void $Execute$b__0();

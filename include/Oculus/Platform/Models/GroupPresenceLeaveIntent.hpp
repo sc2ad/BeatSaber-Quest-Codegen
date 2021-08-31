@@ -40,18 +40,12 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: GroupPresenceLeaveIntent
     GroupPresenceLeaveIntent(::Il2CppString* DestinationApiName_ = {}, ::Il2CppString* LobbySessionId_ = {}, ::Il2CppString* MatchSessionId_ = {}) noexcept : DestinationApiName{DestinationApiName_}, LobbySessionId{LobbySessionId_}, MatchSessionId{MatchSessionId_} {}
-    // Get instance field: public readonly System.String DestinationApiName
-    ::Il2CppString* _get_DestinationApiName();
-    // Set instance field: public readonly System.String DestinationApiName
-    void _set_DestinationApiName(::Il2CppString* value);
-    // Get instance field: public readonly System.String LobbySessionId
-    ::Il2CppString* _get_LobbySessionId();
-    // Set instance field: public readonly System.String LobbySessionId
-    void _set_LobbySessionId(::Il2CppString* value);
-    // Get instance field: public readonly System.String MatchSessionId
-    ::Il2CppString* _get_MatchSessionId();
-    // Set instance field: public readonly System.String MatchSessionId
-    void _set_MatchSessionId(::Il2CppString* value);
+    // Get instance field reference: public readonly System.String DestinationApiName
+    ::Il2CppString*& dyn_DestinationApiName();
+    // Get instance field reference: public readonly System.String LobbySessionId
+    ::Il2CppString*& dyn_LobbySessionId();
+    // Get instance field reference: public readonly System.String MatchSessionId
+    ::Il2CppString*& dyn_MatchSessionId();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14EA34C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

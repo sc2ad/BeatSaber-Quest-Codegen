@@ -50,10 +50,8 @@ namespace System::Configuration {
     static System::Configuration::ConfigurationSaveMode _get_Modified();
     // Set static field: static public System.Configuration.ConfigurationSaveMode Modified
     static void _set_Modified(System::Configuration::ConfigurationSaveMode value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Configuration.ConfigurationSaveMode
   #pragma pack(pop)
   static check_size<sizeof(ConfigurationSaveMode), 0 + sizeof(int)> __System_Configuration_ConfigurationSaveModeSizeCheck;

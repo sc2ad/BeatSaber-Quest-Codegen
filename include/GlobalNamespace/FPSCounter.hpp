@@ -66,34 +66,20 @@ namespace GlobalNamespace {
     FPSCounter(int currentFPS_ = {}, int lowestFPS_ = {}, int highestFPS_ = {}, int droppedFrames_ = {}, float timeBuffer_ = {}, int frameCounter_ = {}, float minDeltaTime_ = {}) noexcept : currentFPS{currentFPS_}, lowestFPS{lowestFPS_}, highestFPS{highestFPS_}, droppedFrames{droppedFrames_}, timeBuffer{timeBuffer_}, frameCounter{frameCounter_}, minDeltaTime{minDeltaTime_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Int32 <currentFPS>k__BackingField
-    int _get_$currentFPS$k__BackingField();
-    // Set instance field: private System.Int32 <currentFPS>k__BackingField
-    void _set_$currentFPS$k__BackingField(int value);
-    // Get instance field: private System.Int32 <lowestFPS>k__BackingField
-    int _get_$lowestFPS$k__BackingField();
-    // Set instance field: private System.Int32 <lowestFPS>k__BackingField
-    void _set_$lowestFPS$k__BackingField(int value);
-    // Get instance field: private System.Int32 <highestFPS>k__BackingField
-    int _get_$highestFPS$k__BackingField();
-    // Set instance field: private System.Int32 <highestFPS>k__BackingField
-    void _set_$highestFPS$k__BackingField(int value);
-    // Get instance field: private System.Int32 <droppedFrames>k__BackingField
-    int _get_$droppedFrames$k__BackingField();
-    // Set instance field: private System.Int32 <droppedFrames>k__BackingField
-    void _set_$droppedFrames$k__BackingField(int value);
-    // Get instance field: private System.Single _timeBuffer
-    float _get__timeBuffer();
-    // Set instance field: private System.Single _timeBuffer
-    void _set__timeBuffer(float value);
-    // Get instance field: private System.Int32 _frameCounter
-    int _get__frameCounter();
-    // Set instance field: private System.Int32 _frameCounter
-    void _set__frameCounter(int value);
-    // Get instance field: private System.Single _minDeltaTime
-    float _get__minDeltaTime();
-    // Set instance field: private System.Single _minDeltaTime
-    void _set__minDeltaTime(float value);
+    // Get instance field reference: private System.Int32 <currentFPS>k__BackingField
+    int& dyn_$currentFPS$k__BackingField();
+    // Get instance field reference: private System.Int32 <lowestFPS>k__BackingField
+    int& dyn_$lowestFPS$k__BackingField();
+    // Get instance field reference: private System.Int32 <highestFPS>k__BackingField
+    int& dyn_$highestFPS$k__BackingField();
+    // Get instance field reference: private System.Int32 <droppedFrames>k__BackingField
+    int& dyn_$droppedFrames$k__BackingField();
+    // Get instance field reference: private System.Single _timeBuffer
+    float& dyn__timeBuffer();
+    // Get instance field reference: private System.Int32 _frameCounter
+    int& dyn__frameCounter();
+    // Get instance field reference: private System.Single _minDeltaTime
+    float& dyn__minDeltaTime();
     // public System.Int32 get_currentFPS()
     // Offset: 0x1054D74
     int get_currentFPS();

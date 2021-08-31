@@ -102,30 +102,18 @@ namespace System::Runtime::Remoting {
     static int _get_WellKnowObjectRef();
     // Set static field: static private System.Int32 WellKnowObjectRef
     static void _set_WellKnowObjectRef(int value);
-    // Get instance field: private System.Runtime.Remoting.IChannelInfo channel_info
-    System::Runtime::Remoting::IChannelInfo* _get_channel_info();
-    // Set instance field: private System.Runtime.Remoting.IChannelInfo channel_info
-    void _set_channel_info(System::Runtime::Remoting::IChannelInfo* value);
-    // Get instance field: private System.String uri
-    ::Il2CppString* _get_uri();
-    // Set instance field: private System.String uri
-    void _set_uri(::Il2CppString* value);
-    // Get instance field: private System.Runtime.Remoting.IRemotingTypeInfo typeInfo
-    System::Runtime::Remoting::IRemotingTypeInfo* _get_typeInfo();
-    // Set instance field: private System.Runtime.Remoting.IRemotingTypeInfo typeInfo
-    void _set_typeInfo(System::Runtime::Remoting::IRemotingTypeInfo* value);
-    // Get instance field: private System.Runtime.Remoting.IEnvoyInfo envoyInfo
-    System::Runtime::Remoting::IEnvoyInfo* _get_envoyInfo();
-    // Set instance field: private System.Runtime.Remoting.IEnvoyInfo envoyInfo
-    void _set_envoyInfo(System::Runtime::Remoting::IEnvoyInfo* value);
-    // Get instance field: private System.Int32 flags
-    int _get_flags();
-    // Set instance field: private System.Int32 flags
-    void _set_flags(int value);
-    // Get instance field: private System.Type _serverType
-    System::Type* _get__serverType();
-    // Set instance field: private System.Type _serverType
-    void _set__serverType(System::Type* value);
+    // Get instance field reference: private System.Runtime.Remoting.IChannelInfo channel_info
+    System::Runtime::Remoting::IChannelInfo*& dyn_channel_info();
+    // Get instance field reference: private System.String uri
+    ::Il2CppString*& dyn_uri();
+    // Get instance field reference: private System.Runtime.Remoting.IRemotingTypeInfo typeInfo
+    System::Runtime::Remoting::IRemotingTypeInfo*& dyn_typeInfo();
+    // Get instance field reference: private System.Runtime.Remoting.IEnvoyInfo envoyInfo
+    System::Runtime::Remoting::IEnvoyInfo*& dyn_envoyInfo();
+    // Get instance field reference: private System.Int32 flags
+    int& dyn_flags();
+    // Get instance field reference: private System.Type _serverType
+    System::Type*& dyn__serverType();
     // System.Boolean get_IsReferenceToWellKnow()
     // Offset: 0x1A553C0
     bool get_IsReferenceToWellKnow();

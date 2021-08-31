@@ -33,10 +33,8 @@ namespace UnityEngine {
     constexpr operator float() const noexcept {
       return min;
     }
-    // Get instance field: public readonly System.Single min
-    float _get_min();
-    // Set instance field: public readonly System.Single min
-    void _set_min(float value);
+    // Get instance field reference: public readonly System.Single min
+    float& dyn_min();
     // public System.Void .ctor(System.Single min)
     // Offset: 0x1D06564
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

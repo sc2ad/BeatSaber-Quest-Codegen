@@ -87,22 +87,14 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public System.Single UpFov
-      float _get_UpFov();
-      // Set instance field: public System.Single UpFov
-      void _set_UpFov(float value);
-      // Get instance field: public System.Single DownFov
-      float _get_DownFov();
-      // Set instance field: public System.Single DownFov
-      void _set_DownFov(float value);
-      // Get instance field: public System.Single LeftFov
-      float _get_LeftFov();
-      // Set instance field: public System.Single LeftFov
-      void _set_LeftFov(float value);
-      // Get instance field: public System.Single RightFov
-      float _get_RightFov();
-      // Set instance field: public System.Single RightFov
-      void _set_RightFov(float value);
+      // Get instance field reference: public System.Single UpFov
+      float& dyn_UpFov();
+      // Get instance field reference: public System.Single DownFov
+      float& dyn_DownFov();
+      // Get instance field reference: public System.Single LeftFov
+      float& dyn_LeftFov();
+      // Get instance field reference: public System.Single RightFov
+      float& dyn_RightFov();
     }; // OVRDisplay/EyeFov
     #pragma pack(pop)
     static check_size<sizeof(OVRDisplay::EyeFov), 12 + sizeof(float)> __GlobalNamespace_OVRDisplay_EyeFovSizeCheck;
@@ -138,18 +130,12 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public UnityEngine.Vector2 resolution
-      UnityEngine::Vector2 _get_resolution();
-      // Set instance field: public UnityEngine.Vector2 resolution
-      void _set_resolution(UnityEngine::Vector2 value);
-      // Get instance field: public UnityEngine.Vector2 fov
-      UnityEngine::Vector2 _get_fov();
-      // Set instance field: public UnityEngine.Vector2 fov
-      void _set_fov(UnityEngine::Vector2 value);
-      // Get instance field: public OVRDisplay/EyeFov fullFov
-      GlobalNamespace::OVRDisplay::EyeFov _get_fullFov();
-      // Set instance field: public OVRDisplay/EyeFov fullFov
-      void _set_fullFov(GlobalNamespace::OVRDisplay::EyeFov value);
+      // Get instance field reference: public UnityEngine.Vector2 resolution
+      UnityEngine::Vector2& dyn_resolution();
+      // Get instance field reference: public UnityEngine.Vector2 fov
+      UnityEngine::Vector2& dyn_fov();
+      // Get instance field reference: public OVRDisplay/EyeFov fullFov
+      GlobalNamespace::OVRDisplay::EyeFov& dyn_fullFov();
     }; // OVRDisplay/EyeRenderDesc
     #pragma pack(pop)
     static check_size<sizeof(OVRDisplay::EyeRenderDesc), 16 + sizeof(GlobalNamespace::OVRDisplay::EyeFov)> __GlobalNamespace_OVRDisplay_EyeRenderDescSizeCheck;
@@ -198,30 +184,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action*) == 0x8);
     // Creating value type constructor for type: OVRDisplay
     OVRDisplay(bool needsConfigureTexture_ = {}, ::Array<GlobalNamespace::OVRDisplay::EyeRenderDesc>* eyeDescs_ = {}, bool recenterRequested_ = {}, int recenterRequestedFrameCount_ = {}, int localTrackingSpaceRecenterCount_ = {}, System::Action* RecenteredPose_ = {}) noexcept : needsConfigureTexture{needsConfigureTexture_}, eyeDescs{eyeDescs_}, recenterRequested{recenterRequested_}, recenterRequestedFrameCount{recenterRequestedFrameCount_}, localTrackingSpaceRecenterCount{localTrackingSpaceRecenterCount_}, RecenteredPose{RecenteredPose_} {}
-    // Get instance field: private System.Boolean needsConfigureTexture
-    bool _get_needsConfigureTexture();
-    // Set instance field: private System.Boolean needsConfigureTexture
-    void _set_needsConfigureTexture(bool value);
-    // Get instance field: private OVRDisplay/EyeRenderDesc[] eyeDescs
-    ::Array<GlobalNamespace::OVRDisplay::EyeRenderDesc>* _get_eyeDescs();
-    // Set instance field: private OVRDisplay/EyeRenderDesc[] eyeDescs
-    void _set_eyeDescs(::Array<GlobalNamespace::OVRDisplay::EyeRenderDesc>* value);
-    // Get instance field: private System.Boolean recenterRequested
-    bool _get_recenterRequested();
-    // Set instance field: private System.Boolean recenterRequested
-    void _set_recenterRequested(bool value);
-    // Get instance field: private System.Int32 recenterRequestedFrameCount
-    int _get_recenterRequestedFrameCount();
-    // Set instance field: private System.Int32 recenterRequestedFrameCount
-    void _set_recenterRequestedFrameCount(int value);
-    // Get instance field: private System.Int32 localTrackingSpaceRecenterCount
-    int _get_localTrackingSpaceRecenterCount();
-    // Set instance field: private System.Int32 localTrackingSpaceRecenterCount
-    void _set_localTrackingSpaceRecenterCount(int value);
-    // Get instance field: private System.Action RecenteredPose
-    System::Action* _get_RecenteredPose();
-    // Set instance field: private System.Action RecenteredPose
-    void _set_RecenteredPose(System::Action* value);
+    // Get instance field reference: private System.Boolean needsConfigureTexture
+    bool& dyn_needsConfigureTexture();
+    // Get instance field reference: private OVRDisplay/EyeRenderDesc[] eyeDescs
+    ::Array<GlobalNamespace::OVRDisplay::EyeRenderDesc>*& dyn_eyeDescs();
+    // Get instance field reference: private System.Boolean recenterRequested
+    bool& dyn_recenterRequested();
+    // Get instance field reference: private System.Int32 recenterRequestedFrameCount
+    int& dyn_recenterRequestedFrameCount();
+    // Get instance field reference: private System.Int32 localTrackingSpaceRecenterCount
+    int& dyn_localTrackingSpaceRecenterCount();
+    // Get instance field reference: private System.Action RecenteredPose
+    System::Action*& dyn_RecenteredPose();
     // public UnityEngine.Vector3 get_acceleration()
     // Offset: 0x129EE6C
     UnityEngine::Vector3 get_acceleration();

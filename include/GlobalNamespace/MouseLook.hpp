@@ -101,50 +101,28 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: MouseLook
     MouseLook(float xSensitivity_ = {}, float ySensitivity_ = {}, bool clampVerticalRotation_ = {}, float minimumX_ = {}, float maximumX_ = {}, bool smooth_ = {}, float smoothTime_ = {}, bool lockCursor_ = {}, UnityEngine::Quaternion characterTargetRot_ = {}, UnityEngine::Quaternion cameraTargetRot_ = {}, bool cursorIsLocked_ = {}) noexcept : xSensitivity{xSensitivity_}, ySensitivity{ySensitivity_}, clampVerticalRotation{clampVerticalRotation_}, minimumX{minimumX_}, maximumX{maximumX_}, smooth{smooth_}, smoothTime{smoothTime_}, lockCursor{lockCursor_}, characterTargetRot{characterTargetRot_}, cameraTargetRot{cameraTargetRot_}, cursorIsLocked{cursorIsLocked_} {}
-    // Get instance field: private System.Single _xSensitivity
-    float _get__xSensitivity();
-    // Set instance field: private System.Single _xSensitivity
-    void _set__xSensitivity(float value);
-    // Get instance field: private System.Single _ySensitivity
-    float _get__ySensitivity();
-    // Set instance field: private System.Single _ySensitivity
-    void _set__ySensitivity(float value);
-    // Get instance field: private System.Boolean _clampVerticalRotation
-    bool _get__clampVerticalRotation();
-    // Set instance field: private System.Boolean _clampVerticalRotation
-    void _set__clampVerticalRotation(bool value);
-    // Get instance field: private System.Single _minimumX
-    float _get__minimumX();
-    // Set instance field: private System.Single _minimumX
-    void _set__minimumX(float value);
-    // Get instance field: private System.Single _maximumX
-    float _get__maximumX();
-    // Set instance field: private System.Single _maximumX
-    void _set__maximumX(float value);
-    // Get instance field: private System.Boolean _smooth
-    bool _get__smooth();
-    // Set instance field: private System.Boolean _smooth
-    void _set__smooth(bool value);
-    // Get instance field: private System.Single _smoothTime
-    float _get__smoothTime();
-    // Set instance field: private System.Single _smoothTime
-    void _set__smoothTime(float value);
-    // Get instance field: private System.Boolean _lockCursor
-    bool _get__lockCursor();
-    // Set instance field: private System.Boolean _lockCursor
-    void _set__lockCursor(bool value);
-    // Get instance field: private UnityEngine.Quaternion _characterTargetRot
-    UnityEngine::Quaternion _get__characterTargetRot();
-    // Set instance field: private UnityEngine.Quaternion _characterTargetRot
-    void _set__characterTargetRot(UnityEngine::Quaternion value);
-    // Get instance field: private UnityEngine.Quaternion _cameraTargetRot
-    UnityEngine::Quaternion _get__cameraTargetRot();
-    // Set instance field: private UnityEngine.Quaternion _cameraTargetRot
-    void _set__cameraTargetRot(UnityEngine::Quaternion value);
-    // Get instance field: private System.Boolean _cursorIsLocked
-    bool _get__cursorIsLocked();
-    // Set instance field: private System.Boolean _cursorIsLocked
-    void _set__cursorIsLocked(bool value);
+    // Get instance field reference: private System.Single _xSensitivity
+    float& dyn__xSensitivity();
+    // Get instance field reference: private System.Single _ySensitivity
+    float& dyn__ySensitivity();
+    // Get instance field reference: private System.Boolean _clampVerticalRotation
+    bool& dyn__clampVerticalRotation();
+    // Get instance field reference: private System.Single _minimumX
+    float& dyn__minimumX();
+    // Get instance field reference: private System.Single _maximumX
+    float& dyn__maximumX();
+    // Get instance field reference: private System.Boolean _smooth
+    bool& dyn__smooth();
+    // Get instance field reference: private System.Single _smoothTime
+    float& dyn__smoothTime();
+    // Get instance field reference: private System.Boolean _lockCursor
+    bool& dyn__lockCursor();
+    // Get instance field reference: private UnityEngine.Quaternion _characterTargetRot
+    UnityEngine::Quaternion& dyn__characterTargetRot();
+    // Get instance field reference: private UnityEngine.Quaternion _cameraTargetRot
+    UnityEngine::Quaternion& dyn__cameraTargetRot();
+    // Get instance field reference: private System.Boolean _cursorIsLocked
+    bool& dyn__cursorIsLocked();
     // public System.Void Init(UnityEngine.Transform character, UnityEngine.Transform camera)
     // Offset: 0x11E01A0
     void Init(UnityEngine::Transform* character, UnityEngine::Transform* camera);

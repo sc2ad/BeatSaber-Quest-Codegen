@@ -90,18 +90,12 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
-    // Get instance field: UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation m_InternalOp
-    UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* _get_m_InternalOp();
-    // Set instance field: UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation m_InternalOp
-    void _set_m_InternalOp(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* value);
-    // Get instance field: private System.Int32 m_Version
-    int _get_m_Version();
-    // Set instance field: private System.Int32 m_Version
-    void _set_m_Version(int value);
-    // Get instance field: private System.String m_LocationName
-    ::Il2CppString* _get_m_LocationName();
-    // Set instance field: private System.String m_LocationName
-    void _set_m_LocationName(::Il2CppString* value);
+    // Get instance field reference: UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation m_InternalOp
+    UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*& dyn_m_InternalOp();
+    // Get instance field reference: private System.Int32 m_Version
+    int& dyn_m_Version();
+    // Get instance field reference: private System.String m_LocationName
+    ::Il2CppString*& dyn_m_LocationName();
     // System.String get_LocationName()
     // Offset: 0x19E4238
     ::Il2CppString* get_LocationName();

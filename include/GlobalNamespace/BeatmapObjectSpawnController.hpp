@@ -156,58 +156,32 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private BeatmapObjectSpawnMovementData _beatmapObjectSpawnMovementData
-    GlobalNamespace::BeatmapObjectSpawnMovementData* _get__beatmapObjectSpawnMovementData();
-    // Set instance field: private BeatmapObjectSpawnMovementData _beatmapObjectSpawnMovementData
-    void _set__beatmapObjectSpawnMovementData(GlobalNamespace::BeatmapObjectSpawnMovementData* value);
-    // Get instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
-    GlobalNamespace::IBeatmapObjectCallbackController* _get__beatmapObjectCallbackController();
-    // Set instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
-    void _set__beatmapObjectCallbackController(GlobalNamespace::IBeatmapObjectCallbackController* value);
-    // Get instance field: private readonly IBeatmapObjectSpawner _beatmapObjectSpawner
-    GlobalNamespace::IBeatmapObjectSpawner* _get__beatmapObjectSpawner();
-    // Set instance field: private readonly IBeatmapObjectSpawner _beatmapObjectSpawner
-    void _set__beatmapObjectSpawner(GlobalNamespace::IBeatmapObjectSpawner* value);
-    // Get instance field: private readonly BeatmapObjectSpawnController/InitData _initData
-    GlobalNamespace::BeatmapObjectSpawnController::InitData* _get__initData();
-    // Set instance field: private readonly BeatmapObjectSpawnController/InitData _initData
-    void _set__initData(GlobalNamespace::BeatmapObjectSpawnController::InitData* value);
-    // Get instance field: private System.Action didInitEvent
-    System::Action* _get_didInitEvent();
-    // Set instance field: private System.Action didInitEvent
-    void _set_didInitEvent(System::Action* value);
-    // Get instance field: private System.Single _jumpOffsetY
-    float _get__jumpOffsetY();
-    // Set instance field: private System.Single _jumpOffsetY
-    void _set__jumpOffsetY(float value);
-    // Get instance field: private System.Boolean _disableSpawning
-    bool _get__disableSpawning();
-    // Set instance field: private System.Boolean _disableSpawning
-    void _set__disableSpawning(bool value);
-    // Get instance field: private System.Boolean _isInitialized
-    bool _get__isInitialized();
-    // Set instance field: private System.Boolean _isInitialized
-    void _set__isInitialized(bool value);
-    // Get instance field: private BeatmapObjectCallbackData _beatmapObjectCallbackData
-    GlobalNamespace::BeatmapObjectCallbackData* _get__beatmapObjectCallbackData();
-    // Set instance field: private BeatmapObjectCallbackData _beatmapObjectCallbackData
-    void _set__beatmapObjectCallbackData(GlobalNamespace::BeatmapObjectCallbackData* value);
-    // Get instance field: private BeatmapEventCallbackData _beatmapEventCallbackData
-    GlobalNamespace::BeatmapEventCallbackData* _get__beatmapEventCallbackData();
-    // Set instance field: private BeatmapEventCallbackData _beatmapEventCallbackData
-    void _set__beatmapEventCallbackData(GlobalNamespace::BeatmapEventCallbackData* value);
-    // Get instance field: private BeatmapCallbackItemDataList _beatmapCallbackItemDataList
-    GlobalNamespace::BeatmapCallbackItemDataList* _get__beatmapCallbackItemDataList();
-    // Set instance field: private BeatmapCallbackItemDataList _beatmapCallbackItemDataList
-    void _set__beatmapCallbackItemDataList(GlobalNamespace::BeatmapCallbackItemDataList* value);
-    // Get instance field: private readonly SpawnRotationProcessor _spawnRotationProcessor
-    GlobalNamespace::SpawnRotationProcessor* _get__spawnRotationProcessor();
-    // Set instance field: private readonly SpawnRotationProcessor _spawnRotationProcessor
-    void _set__spawnRotationProcessor(GlobalNamespace::SpawnRotationProcessor* value);
-    // Get instance field: private readonly VariableBpmProcessor _variableBpmProcessor
-    GlobalNamespace::VariableBpmProcessor* _get__variableBpmProcessor();
-    // Set instance field: private readonly VariableBpmProcessor _variableBpmProcessor
-    void _set__variableBpmProcessor(GlobalNamespace::VariableBpmProcessor* value);
+    // Get instance field reference: private BeatmapObjectSpawnMovementData _beatmapObjectSpawnMovementData
+    GlobalNamespace::BeatmapObjectSpawnMovementData*& dyn__beatmapObjectSpawnMovementData();
+    // Get instance field reference: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    GlobalNamespace::IBeatmapObjectCallbackController*& dyn__beatmapObjectCallbackController();
+    // Get instance field reference: private readonly IBeatmapObjectSpawner _beatmapObjectSpawner
+    GlobalNamespace::IBeatmapObjectSpawner*& dyn__beatmapObjectSpawner();
+    // Get instance field reference: private readonly BeatmapObjectSpawnController/InitData _initData
+    GlobalNamespace::BeatmapObjectSpawnController::InitData*& dyn__initData();
+    // Get instance field reference: private System.Action didInitEvent
+    System::Action*& dyn_didInitEvent();
+    // Get instance field reference: private System.Single _jumpOffsetY
+    float& dyn__jumpOffsetY();
+    // Get instance field reference: private System.Boolean _disableSpawning
+    bool& dyn__disableSpawning();
+    // Get instance field reference: private System.Boolean _isInitialized
+    bool& dyn__isInitialized();
+    // Get instance field reference: private BeatmapObjectCallbackData _beatmapObjectCallbackData
+    GlobalNamespace::BeatmapObjectCallbackData*& dyn__beatmapObjectCallbackData();
+    // Get instance field reference: private BeatmapEventCallbackData _beatmapEventCallbackData
+    GlobalNamespace::BeatmapEventCallbackData*& dyn__beatmapEventCallbackData();
+    // Get instance field reference: private BeatmapCallbackItemDataList _beatmapCallbackItemDataList
+    GlobalNamespace::BeatmapCallbackItemDataList*& dyn__beatmapCallbackItemDataList();
+    // Get instance field reference: private readonly SpawnRotationProcessor _spawnRotationProcessor
+    GlobalNamespace::SpawnRotationProcessor*& dyn__spawnRotationProcessor();
+    // Get instance field reference: private readonly VariableBpmProcessor _variableBpmProcessor
+    GlobalNamespace::VariableBpmProcessor*& dyn__variableBpmProcessor();
     // public System.Single get_jumpOffsetY()
     // Offset: 0x10CB3C0
     float get_jumpOffsetY();

@@ -69,34 +69,20 @@ namespace System::Net::NetworkInformation::MacOsStructs {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.IntPtr ifa_next
-    System::IntPtr _get_ifa_next();
-    // Set instance field: public System.IntPtr ifa_next
-    void _set_ifa_next(System::IntPtr value);
-    // Get instance field: public System.String ifa_name
-    ::Il2CppString* _get_ifa_name();
-    // Set instance field: public System.String ifa_name
-    void _set_ifa_name(::Il2CppString* value);
-    // Get instance field: public System.UInt32 ifa_flags
-    uint _get_ifa_flags();
-    // Set instance field: public System.UInt32 ifa_flags
-    void _set_ifa_flags(uint value);
-    // Get instance field: public System.IntPtr ifa_addr
-    System::IntPtr _get_ifa_addr();
-    // Set instance field: public System.IntPtr ifa_addr
-    void _set_ifa_addr(System::IntPtr value);
-    // Get instance field: public System.IntPtr ifa_netmask
-    System::IntPtr _get_ifa_netmask();
-    // Set instance field: public System.IntPtr ifa_netmask
-    void _set_ifa_netmask(System::IntPtr value);
-    // Get instance field: public System.IntPtr ifa_dstaddr
-    System::IntPtr _get_ifa_dstaddr();
-    // Set instance field: public System.IntPtr ifa_dstaddr
-    void _set_ifa_dstaddr(System::IntPtr value);
-    // Get instance field: public System.IntPtr ifa_data
-    System::IntPtr _get_ifa_data();
-    // Set instance field: public System.IntPtr ifa_data
-    void _set_ifa_data(System::IntPtr value);
+    // Get instance field reference: public System.IntPtr ifa_next
+    System::IntPtr& dyn_ifa_next();
+    // Get instance field reference: public System.String ifa_name
+    ::Il2CppString*& dyn_ifa_name();
+    // Get instance field reference: public System.UInt32 ifa_flags
+    uint& dyn_ifa_flags();
+    // Get instance field reference: public System.IntPtr ifa_addr
+    System::IntPtr& dyn_ifa_addr();
+    // Get instance field reference: public System.IntPtr ifa_netmask
+    System::IntPtr& dyn_ifa_netmask();
+    // Get instance field reference: public System.IntPtr ifa_dstaddr
+    System::IntPtr& dyn_ifa_dstaddr();
+    // Get instance field reference: public System.IntPtr ifa_data
+    System::IntPtr& dyn_ifa_data();
   }; // System.Net.NetworkInformation.MacOsStructs.ifaddrs
   #pragma pack(pop)
   static check_size<sizeof(ifaddrs), 48 + sizeof(System::IntPtr)> __System_Net_NetworkInformation_MacOsStructs_ifaddrsSizeCheck;

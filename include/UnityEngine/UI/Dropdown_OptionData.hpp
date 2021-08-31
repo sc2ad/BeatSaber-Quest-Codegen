@@ -41,14 +41,10 @@ namespace UnityEngine::UI {
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
     // Creating value type constructor for type: OptionData
     OptionData(::Il2CppString* m_Text_ = {}, UnityEngine::Sprite* m_Image_ = {}) noexcept : m_Text{m_Text_}, m_Image{m_Image_} {}
-    // Get instance field: private System.String m_Text
-    ::Il2CppString* _get_m_Text();
-    // Set instance field: private System.String m_Text
-    void _set_m_Text(::Il2CppString* value);
-    // Get instance field: private UnityEngine.Sprite m_Image
-    UnityEngine::Sprite* _get_m_Image();
-    // Set instance field: private UnityEngine.Sprite m_Image
-    void _set_m_Image(UnityEngine::Sprite* value);
+    // Get instance field reference: private System.String m_Text
+    ::Il2CppString*& dyn_m_Text();
+    // Get instance field reference: private UnityEngine.Sprite m_Image
+    UnityEngine::Sprite*& dyn_m_Image();
     // public System.String get_text()
     // Offset: 0x1935AA8
     ::Il2CppString* get_text();

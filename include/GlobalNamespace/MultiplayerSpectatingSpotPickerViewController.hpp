@@ -48,14 +48,10 @@ namespace GlobalNamespace {
     MultiplayerSpectatingSpotPickerViewController(GlobalNamespace::StepValuePicker* stepValuePicker_ = {}, GlobalNamespace::MultiplayerSpectatorController* spectatorController_ = {}) noexcept : stepValuePicker{stepValuePicker_}, spectatorController{spectatorController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private StepValuePicker _stepValuePicker
-    GlobalNamespace::StepValuePicker* _get__stepValuePicker();
-    // Set instance field: private StepValuePicker _stepValuePicker
-    void _set__stepValuePicker(GlobalNamespace::StepValuePicker* value);
-    // Get instance field: private readonly MultiplayerSpectatorController _spectatorController
-    GlobalNamespace::MultiplayerSpectatorController* _get__spectatorController();
-    // Set instance field: private readonly MultiplayerSpectatorController _spectatorController
-    void _set__spectatorController(GlobalNamespace::MultiplayerSpectatorController* value);
+    // Get instance field reference: private StepValuePicker _stepValuePicker
+    GlobalNamespace::StepValuePicker*& dyn__stepValuePicker();
+    // Get instance field reference: private readonly MultiplayerSpectatorController _spectatorController
+    GlobalNamespace::MultiplayerSpectatorController*& dyn__spectatorController();
     // protected System.Void Start()
     // Offset: 0x103AC18
     void Start();

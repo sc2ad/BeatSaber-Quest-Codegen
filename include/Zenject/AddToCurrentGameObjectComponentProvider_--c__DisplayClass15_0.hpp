@@ -62,22 +62,14 @@ namespace Zenject {
     static_assert(sizeof(Zenject::InjectContext*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass15_0
     $$c__DisplayClass15_0(Zenject::AddToCurrentGameObjectComponentProvider* $$4__this_ = {}, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args_ = {}, ::Il2CppObject* instance_ = {}, Zenject::InjectContext* context_ = {}) noexcept : $$4__this{$$4__this_}, args{args_}, instance{instance_}, context{context_} {}
-    // Get instance field: public Zenject.AddToCurrentGameObjectComponentProvider <>4__this
-    Zenject::AddToCurrentGameObjectComponentProvider* _get_$$4__this();
-    // Set instance field: public Zenject.AddToCurrentGameObjectComponentProvider <>4__this
-    void _set_$$4__this(Zenject::AddToCurrentGameObjectComponentProvider* value);
-    // Get instance field: public System.Collections.Generic.List`1<Zenject.TypeValuePair> args
-    System::Collections::Generic::List_1<Zenject::TypeValuePair>* _get_args();
-    // Set instance field: public System.Collections.Generic.List`1<Zenject.TypeValuePair> args
-    void _set_args(System::Collections::Generic::List_1<Zenject::TypeValuePair>* value);
-    // Get instance field: public System.Object instance
-    ::Il2CppObject* _get_instance();
-    // Set instance field: public System.Object instance
-    void _set_instance(::Il2CppObject* value);
-    // Get instance field: public Zenject.InjectContext context
-    Zenject::InjectContext* _get_context();
-    // Set instance field: public Zenject.InjectContext context
-    void _set_context(Zenject::InjectContext* value);
+    // Get instance field reference: public Zenject.AddToCurrentGameObjectComponentProvider <>4__this
+    Zenject::AddToCurrentGameObjectComponentProvider*& dyn_$$4__this();
+    // Get instance field reference: public System.Collections.Generic.List`1<Zenject.TypeValuePair> args
+    System::Collections::Generic::List_1<Zenject::TypeValuePair>*& dyn_args();
+    // Get instance field reference: public System.Object instance
+    ::Il2CppObject*& dyn_instance();
+    // Get instance field reference: public Zenject.InjectContext context
+    Zenject::InjectContext*& dyn_context();
     // System.Void <GetAllInstancesWithInjectSplit>b__0()
     // Offset: 0x13D9E04
     void $GetAllInstancesWithInjectSplit$b__0();

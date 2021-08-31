@@ -47,10 +47,8 @@ namespace UnityEngine::UI {
     static UnityEngine::UI::ClipperRegistry* _get_s_Instance();
     // Set static field: static private UnityEngine.UI.ClipperRegistry s_Instance
     static void _set_s_Instance(UnityEngine::UI::ClipperRegistry* value);
-    // Get instance field: private readonly UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.IClipper> m_Clippers
-    UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::IClipper*>* _get_m_Clippers();
-    // Set instance field: private readonly UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.IClipper> m_Clippers
-    void _set_m_Clippers(UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::IClipper*>* value);
+    // Get instance field reference: private readonly UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.IClipper> m_Clippers
+    UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::IClipper*>*& dyn_m_Clippers();
     // static public UnityEngine.UI.ClipperRegistry get_instance()
     // Offset: 0x14733CC
     static UnityEngine::UI::ClipperRegistry* get_instance();

@@ -38,10 +38,8 @@ namespace GlobalNamespace {
     DeactivateOnInputFocusCapture(GlobalNamespace::IVRPlatformHelper* vrPlatformHelper_ = {}) noexcept : vrPlatformHelper{vrPlatformHelper_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private readonly IVRPlatformHelper _vrPlatformHelper
-    GlobalNamespace::IVRPlatformHelper* _get__vrPlatformHelper();
-    // Set instance field: private readonly IVRPlatformHelper _vrPlatformHelper
-    void _set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper* value);
+    // Get instance field reference: private readonly IVRPlatformHelper _vrPlatformHelper
+    GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
     // protected System.Void OnEnable()
     // Offset: 0x125AB04
     void OnEnable();

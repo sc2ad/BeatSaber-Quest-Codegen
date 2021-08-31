@@ -34,10 +34,8 @@ namespace System::Runtime::CompilerServices {
     constexpr operator ::Array<::Il2CppString*>*() const noexcept {
       return transformNames;
     }
-    // Get instance field: private readonly System.String[] _transformNames
-    ::Array<::Il2CppString*>* _get__transformNames();
-    // Set instance field: private readonly System.String[] _transformNames
-    void _set__transformNames(::Array<::Il2CppString*>* value);
+    // Get instance field reference: private readonly System.String[] _transformNames
+    ::Array<::Il2CppString*>*& dyn__transformNames();
     // public System.Void .ctor(System.String[] transformNames)
     // Offset: 0x1487450
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

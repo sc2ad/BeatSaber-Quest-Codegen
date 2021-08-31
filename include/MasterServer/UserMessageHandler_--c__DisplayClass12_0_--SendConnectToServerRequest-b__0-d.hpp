@@ -91,42 +91,24 @@ namespace MasterServer {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
-    // Get instance field: public System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: public System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder _get_$$t__builder();
-    // Set instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
-    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder value);
-    // Get instance field: public MasterServer.UserMessageHandler/MasterServer.<>c__DisplayClass12_0 <>4__this
-    MasterServer::UserMessageHandler::$$c__DisplayClass12_0* _get_$$4__this();
-    // Set instance field: public MasterServer.UserMessageHandler/MasterServer.<>c__DisplayClass12_0 <>4__this
-    void _set_$$4__this(MasterServer::UserMessageHandler::$$c__DisplayClass12_0* value);
-    // Get instance field: private IDiffieHellmanKeyPair <clientKeys>5__2
-    GlobalNamespace::IDiffieHellmanKeyPair* _get_$clientKeys$5__2();
-    // Set instance field: private IDiffieHellmanKeyPair <clientKeys>5__2
-    void _set_$clientKeys$5__2(GlobalNamespace::IDiffieHellmanKeyPair* value);
-    // Get instance field: private System.Byte[] <random>5__3
-    ::Array<uint8_t>* _get_$random$5__3();
-    // Set instance field: private System.Byte[] <random>5__3
-    void _set_$random$5__3(::Array<uint8_t>* value);
-    // Get instance field: private MasterServer.ConnectToServerResponse <response>5__4
-    MasterServer::ConnectToServerResponse* _get_$response$5__4();
-    // Set instance field: private MasterServer.ConnectToServerResponse <response>5__4
-    void _set_$response$5__4(MasterServer::ConnectToServerResponse* value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<IDiffieHellmanKeyPair> <>u__1
-    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IDiffieHellmanKeyPair*> _get_$$u__1();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<IDiffieHellmanKeyPair> <>u__1
-    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IDiffieHellmanKeyPair*> value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServer.ConnectToServerResponse> <>u__2
-    System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::ConnectToServerResponse*> _get_$$u__2();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServer.ConnectToServerResponse> <>u__2
-    void _set_$$u__2(System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::ConnectToServerResponse*> value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> <>u__3
-    System::Runtime::CompilerServices::TaskAwaiter_1<::Array<uint8_t>*> _get_$$u__3();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> <>u__3
-    void _set_$$u__3(System::Runtime::CompilerServices::TaskAwaiter_1<::Array<uint8_t>*> value);
+    // Get instance field reference: public System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder& dyn_$$t__builder();
+    // Get instance field reference: public MasterServer.UserMessageHandler/MasterServer.<>c__DisplayClass12_0 <>4__this
+    MasterServer::UserMessageHandler::$$c__DisplayClass12_0*& dyn_$$4__this();
+    // Get instance field reference: private IDiffieHellmanKeyPair <clientKeys>5__2
+    GlobalNamespace::IDiffieHellmanKeyPair*& dyn_$clientKeys$5__2();
+    // Get instance field reference: private System.Byte[] <random>5__3
+    ::Array<uint8_t>*& dyn_$random$5__3();
+    // Get instance field reference: private MasterServer.ConnectToServerResponse <response>5__4
+    MasterServer::ConnectToServerResponse*& dyn_$response$5__4();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<IDiffieHellmanKeyPair> <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IDiffieHellmanKeyPair*>& dyn_$$u__1();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServer.ConnectToServerResponse> <>u__2
+    System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::ConnectToServerResponse*>& dyn_$$u__2();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> <>u__3
+    System::Runtime::CompilerServices::TaskAwaiter_1<::Array<uint8_t>*>& dyn_$$u__3();
     // private System.Void MoveNext()
     // Offset: 0x12207A0
     void MoveNext();

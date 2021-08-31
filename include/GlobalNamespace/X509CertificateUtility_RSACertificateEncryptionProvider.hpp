@@ -50,10 +50,8 @@ namespace GlobalNamespace {
     constexpr operator Org::BouncyCastle::Crypto::ISigner*() const noexcept {
       return signer;
     }
-    // Get instance field: private readonly Org.BouncyCastle.Crypto.ISigner _signer
-    Org::BouncyCastle::Crypto::ISigner* _get__signer();
-    // Set instance field: private readonly Org.BouncyCastle.Crypto.ISigner _signer
-    void _set__signer(Org::BouncyCastle::Crypto::ISigner* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Crypto.ISigner _signer
+    Org::BouncyCastle::Crypto::ISigner*& dyn__signer();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Parameters.RsaPrivateCrtKeyParameters privateKey)
     // Offset: 0x16FBC38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

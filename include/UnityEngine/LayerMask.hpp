@@ -40,10 +40,8 @@ namespace UnityEngine {
     constexpr operator int() const noexcept {
       return m_Mask;
     }
-    // Get instance field: private System.Int32 m_Mask
-    int _get_m_Mask();
-    // Set instance field: private System.Int32 m_Mask
-    void _set_m_Mask(int value);
+    // Get instance field reference: private System.Int32 m_Mask
+    int& dyn_m_Mask();
     // public System.Int32 get_value()
     // Offset: 0x1CF670C
     int get_value();

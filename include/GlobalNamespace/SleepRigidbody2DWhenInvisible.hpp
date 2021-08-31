@@ -37,10 +37,8 @@ namespace GlobalNamespace {
     SleepRigidbody2DWhenInvisible(UnityEngine::Rigidbody2D* rigidbody2D_ = {}) noexcept : rigidbody2D{rigidbody2D_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public UnityEngine.Rigidbody2D _rigidbody2D
-    UnityEngine::Rigidbody2D* _get__rigidbody2D();
-    // Set instance field: public UnityEngine.Rigidbody2D _rigidbody2D
-    void _set__rigidbody2D(UnityEngine::Rigidbody2D* value);
+    // Get instance field reference: public UnityEngine.Rigidbody2D _rigidbody2D
+    UnityEngine::Rigidbody2D*& dyn__rigidbody2D();
     // protected System.Void Awake()
     // Offset: 0x2398B6C
     void Awake();

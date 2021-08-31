@@ -101,22 +101,14 @@ namespace VRUIControls {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public readonly UnityEngine.UI.Graphic graphic
-      UnityEngine::UI::Graphic* _get_graphic();
-      // Set instance field: public readonly UnityEngine.UI.Graphic graphic
-      void _set_graphic(UnityEngine::UI::Graphic* value);
-      // Get instance field: public readonly System.Single distance
-      float _get_distance();
-      // Set instance field: public readonly System.Single distance
-      void _set_distance(float value);
-      // Get instance field: public readonly UnityEngine.Vector3 position
-      UnityEngine::Vector3 _get_position();
-      // Set instance field: public readonly UnityEngine.Vector3 position
-      void _set_position(UnityEngine::Vector3 value);
-      // Get instance field: public readonly UnityEngine.Vector2 insideRootCanvasPosition
-      UnityEngine::Vector2 _get_insideRootCanvasPosition();
-      // Set instance field: public readonly UnityEngine.Vector2 insideRootCanvasPosition
-      void _set_insideRootCanvasPosition(UnityEngine::Vector2 value);
+      // Get instance field reference: public readonly UnityEngine.UI.Graphic graphic
+      UnityEngine::UI::Graphic*& dyn_graphic();
+      // Get instance field reference: public readonly System.Single distance
+      float& dyn_distance();
+      // Get instance field reference: public readonly UnityEngine.Vector3 position
+      UnityEngine::Vector3& dyn_position();
+      // Get instance field reference: public readonly UnityEngine.Vector2 insideRootCanvasPosition
+      UnityEngine::Vector2& dyn_insideRootCanvasPosition();
       // public System.Void .ctor(UnityEngine.UI.Graphic graphic, System.Single distance, UnityEngine.Vector3 position, UnityEngine.Vector2 insideRootCanvasPosition)
       // Offset: 0x239FA6C
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -171,26 +163,16 @@ namespace VRUIControls {
     static ::Array<float>* _get__ray2DCircleIntersectionDistances();
     // Set static field: static private readonly System.Single[] _ray2DCircleIntersectionDistances
     static void _set__ray2DCircleIntersectionDistances(::Array<float>* value);
-    // Get instance field: private UnityEngine.LayerMask _blockingMask
-    UnityEngine::LayerMask _get__blockingMask();
-    // Set instance field: private UnityEngine.LayerMask _blockingMask
-    void _set__blockingMask(UnityEngine::LayerMask value);
-    // Get instance field: private readonly VRUIControls.PhysicsRaycasterWithCache _physicsRaycaster
-    VRUIControls::PhysicsRaycasterWithCache* _get__physicsRaycaster();
-    // Set instance field: private readonly VRUIControls.PhysicsRaycasterWithCache _physicsRaycaster
-    void _set__physicsRaycaster(VRUIControls::PhysicsRaycasterWithCache* value);
-    // Get instance field: private UnityEngine.Canvas _canvas
-    UnityEngine::Canvas* _get__canvas();
-    // Set instance field: private UnityEngine.Canvas _canvas
-    void _set__canvas(UnityEngine::Canvas* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<VRUIControls.VRGraphicRaycaster/VRUIControls.VRGraphicRaycastResult> _raycastResults
-    System::Collections::Generic::List_1<VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult>* _get__raycastResults();
-    // Set instance field: private readonly System.Collections.Generic.List`1<VRUIControls.VRGraphicRaycaster/VRUIControls.VRGraphicRaycastResult> _raycastResults
-    void _set__raycastResults(System::Collections::Generic::List_1<VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult>* value);
-    // Get instance field: private readonly HMUI.CurvedCanvasSettingsHelper _curvedCanvasSettingsHelper
-    HMUI::CurvedCanvasSettingsHelper* _get__curvedCanvasSettingsHelper();
-    // Set instance field: private readonly HMUI.CurvedCanvasSettingsHelper _curvedCanvasSettingsHelper
-    void _set__curvedCanvasSettingsHelper(HMUI::CurvedCanvasSettingsHelper* value);
+    // Get instance field reference: private UnityEngine.LayerMask _blockingMask
+    UnityEngine::LayerMask& dyn__blockingMask();
+    // Get instance field reference: private readonly VRUIControls.PhysicsRaycasterWithCache _physicsRaycaster
+    VRUIControls::PhysicsRaycasterWithCache*& dyn__physicsRaycaster();
+    // Get instance field reference: private UnityEngine.Canvas _canvas
+    UnityEngine::Canvas*& dyn__canvas();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<VRUIControls.VRGraphicRaycaster/VRUIControls.VRGraphicRaycastResult> _raycastResults
+    System::Collections::Generic::List_1<VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult>*& dyn__raycastResults();
+    // Get instance field reference: private readonly HMUI.CurvedCanvasSettingsHelper _curvedCanvasSettingsHelper
+    HMUI::CurvedCanvasSettingsHelper*& dyn__curvedCanvasSettingsHelper();
     // static private System.Void RaycastCanvas(UnityEngine.Canvas canvas, UnityEngine.Ray ray, System.Single hitDistance, System.Single curvedUIRadius, System.Collections.Generic.List`1<VRUIControls.VRGraphicRaycaster/VRUIControls.VRGraphicRaycastResult> results)
     // Offset: 0x239EEA0
     static void RaycastCanvas(UnityEngine::Canvas* canvas, UnityEngine::Ray ray, float hitDistance, float curvedUIRadius, System::Collections::Generic::List_1<VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult>* results);

@@ -85,10 +85,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::LocalLeaderboardsModel::LeaderboardType _get_Daily();
       // Set static field: static public LocalLeaderboardsModel/LeaderboardType Daily
       static void _set_Daily(GlobalNamespace::LocalLeaderboardsModel::LeaderboardType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // LocalLeaderboardsModel/LeaderboardType
     #pragma pack(pop)
     static check_size<sizeof(LocalLeaderboardsModel::LeaderboardType), 0 + sizeof(int)> __GlobalNamespace_LocalLeaderboardsModel_LeaderboardTypeSizeCheck;
@@ -147,30 +145,18 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kLocalDailyLeaderboardsFileName();
     // Set static field: static private System.String kLocalDailyLeaderboardsFileName
     static void _set_kLocalDailyLeaderboardsFileName(::Il2CppString* value);
-    // Get instance field: private System.Int32 _maxNumberOfScoresInLeaderboard
-    int _get__maxNumberOfScoresInLeaderboard();
-    // Set instance field: private System.Int32 _maxNumberOfScoresInLeaderboard
-    void _set__maxNumberOfScoresInLeaderboard(int value);
-    // Get instance field: private System.Action`2<System.String,LocalLeaderboardsModel/LeaderboardType> newScoreWasAddedToLeaderboardEvent
-    System::Action_2<::Il2CppString*, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType>* _get_newScoreWasAddedToLeaderboardEvent();
-    // Set instance field: private System.Action`2<System.String,LocalLeaderboardsModel/LeaderboardType> newScoreWasAddedToLeaderboardEvent
-    void _set_newScoreWasAddedToLeaderboardEvent(System::Action_2<::Il2CppString*, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType>* value);
-    // Get instance field: private System.Collections.Generic.Dictionary`2<LocalLeaderboardsModel/LeaderboardType,System.Int32> _lastScorePositions
-    System::Collections::Generic::Dictionary_2<GlobalNamespace::LocalLeaderboardsModel::LeaderboardType, int>* _get__lastScorePositions();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<LocalLeaderboardsModel/LeaderboardType,System.Int32> _lastScorePositions
-    void _set__lastScorePositions(System::Collections::Generic::Dictionary_2<GlobalNamespace::LocalLeaderboardsModel::LeaderboardType, int>* value);
-    // Get instance field: private System.String _lastScoreLeaderboardId
-    ::Il2CppString* _get__lastScoreLeaderboardId();
-    // Set instance field: private System.String _lastScoreLeaderboardId
-    void _set__lastScoreLeaderboardId(::Il2CppString* value);
-    // Get instance field: private System.Collections.Generic.List`1<LocalLeaderboardsModel/LeaderboardData> _leaderboardsData
-    System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>* _get__leaderboardsData();
-    // Set instance field: private System.Collections.Generic.List`1<LocalLeaderboardsModel/LeaderboardData> _leaderboardsData
-    void _set__leaderboardsData(System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<LocalLeaderboardsModel/LeaderboardData> _dailyLeaderboardsData
-    System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>* _get__dailyLeaderboardsData();
-    // Set instance field: private System.Collections.Generic.List`1<LocalLeaderboardsModel/LeaderboardData> _dailyLeaderboardsData
-    void _set__dailyLeaderboardsData(System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>* value);
+    // Get instance field reference: private System.Int32 _maxNumberOfScoresInLeaderboard
+    int& dyn__maxNumberOfScoresInLeaderboard();
+    // Get instance field reference: private System.Action`2<System.String,LocalLeaderboardsModel/LeaderboardType> newScoreWasAddedToLeaderboardEvent
+    System::Action_2<::Il2CppString*, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType>*& dyn_newScoreWasAddedToLeaderboardEvent();
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<LocalLeaderboardsModel/LeaderboardType,System.Int32> _lastScorePositions
+    System::Collections::Generic::Dictionary_2<GlobalNamespace::LocalLeaderboardsModel::LeaderboardType, int>*& dyn__lastScorePositions();
+    // Get instance field reference: private System.String _lastScoreLeaderboardId
+    ::Il2CppString*& dyn__lastScoreLeaderboardId();
+    // Get instance field reference: private System.Collections.Generic.List`1<LocalLeaderboardsModel/LeaderboardData> _leaderboardsData
+    System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>*& dyn__leaderboardsData();
+    // Get instance field reference: private System.Collections.Generic.List`1<LocalLeaderboardsModel/LeaderboardData> _dailyLeaderboardsData
+    System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>*& dyn__dailyLeaderboardsData();
     // public System.Void add_newScoreWasAddedToLeaderboardEvent(System.Action`2<System.String,LocalLeaderboardsModel/LeaderboardType> value)
     // Offset: 0x120F4FC
     void add_newScoreWasAddedToLeaderboardEvent(System::Action_2<::Il2CppString*, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType>* value);

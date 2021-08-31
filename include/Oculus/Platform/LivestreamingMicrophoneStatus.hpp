@@ -53,10 +53,8 @@ namespace Oculus::Platform {
     static Oculus::Platform::LivestreamingMicrophoneStatus _get_MicrophoneOff();
     // Set static field: static public Oculus.Platform.LivestreamingMicrophoneStatus MicrophoneOff
     static void _set_MicrophoneOff(Oculus::Platform::LivestreamingMicrophoneStatus value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Oculus.Platform.LivestreamingMicrophoneStatus
   #pragma pack(pop)
   static check_size<sizeof(LivestreamingMicrophoneStatus), 0 + sizeof(int)> __Oculus_Platform_LivestreamingMicrophoneStatusSizeCheck;

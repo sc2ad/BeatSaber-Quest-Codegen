@@ -137,62 +137,34 @@ namespace GlobalNamespace {
     MissionObjectiveGameUIView(UnityEngine::Sprite* notFailedIcon_ = {}, UnityEngine::Sprite* failedIcon_ = {}, UnityEngine::Sprite* notClearedIcon_ = {}, UnityEngine::Sprite* clearedIcon_ = {}, UnityEngine::UI::Image* resultIcon_ = {}, UnityEngine::Color finalClearIconColor_ = {}, UnityEngine::Color finalFailIconColor_ = {}, UnityEngine::Color nonFinalIconColor_ = {}, UnityEngine::ParticleSystem* clearedPS_ = {}, int numberOfParticles_ = {}, TMPro::TextMeshProUGUI* nameText_ = {}, TMPro::TextMeshProUGUI* valueText_ = {}, TMPro::TextMeshProUGUI* conditionText_ = {}, GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker_ = {}) noexcept : notFailedIcon{notFailedIcon_}, failedIcon{failedIcon_}, notClearedIcon{notClearedIcon_}, clearedIcon{clearedIcon_}, resultIcon{resultIcon_}, finalClearIconColor{finalClearIconColor_}, finalFailIconColor{finalFailIconColor_}, nonFinalIconColor{nonFinalIconColor_}, clearedPS{clearedPS_}, numberOfParticles{numberOfParticles_}, nameText{nameText_}, valueText{valueText_}, conditionText{conditionText_}, missionObjectiveChecker{missionObjectiveChecker_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.Sprite _notFailedIcon
-    UnityEngine::Sprite* _get__notFailedIcon();
-    // Set instance field: private UnityEngine.Sprite _notFailedIcon
-    void _set__notFailedIcon(UnityEngine::Sprite* value);
-    // Get instance field: private UnityEngine.Sprite _failedIcon
-    UnityEngine::Sprite* _get__failedIcon();
-    // Set instance field: private UnityEngine.Sprite _failedIcon
-    void _set__failedIcon(UnityEngine::Sprite* value);
-    // Get instance field: private UnityEngine.Sprite _notClearedIcon
-    UnityEngine::Sprite* _get__notClearedIcon();
-    // Set instance field: private UnityEngine.Sprite _notClearedIcon
-    void _set__notClearedIcon(UnityEngine::Sprite* value);
-    // Get instance field: private UnityEngine.Sprite _clearedIcon
-    UnityEngine::Sprite* _get__clearedIcon();
-    // Set instance field: private UnityEngine.Sprite _clearedIcon
-    void _set__clearedIcon(UnityEngine::Sprite* value);
-    // Get instance field: private UnityEngine.UI.Image _resultIcon
-    UnityEngine::UI::Image* _get__resultIcon();
-    // Set instance field: private UnityEngine.UI.Image _resultIcon
-    void _set__resultIcon(UnityEngine::UI::Image* value);
-    // Get instance field: private UnityEngine.Color _finalClearIconColor
-    UnityEngine::Color _get__finalClearIconColor();
-    // Set instance field: private UnityEngine.Color _finalClearIconColor
-    void _set__finalClearIconColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _finalFailIconColor
-    UnityEngine::Color _get__finalFailIconColor();
-    // Set instance field: private UnityEngine.Color _finalFailIconColor
-    void _set__finalFailIconColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _nonFinalIconColor
-    UnityEngine::Color _get__nonFinalIconColor();
-    // Set instance field: private UnityEngine.Color _nonFinalIconColor
-    void _set__nonFinalIconColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.ParticleSystem _clearedPS
-    UnityEngine::ParticleSystem* _get__clearedPS();
-    // Set instance field: private UnityEngine.ParticleSystem _clearedPS
-    void _set__clearedPS(UnityEngine::ParticleSystem* value);
-    // Get instance field: private System.Int32 _numberOfParticles
-    int _get__numberOfParticles();
-    // Set instance field: private System.Int32 _numberOfParticles
-    void _set__numberOfParticles(int value);
-    // Get instance field: private TMPro.TextMeshProUGUI _nameText
-    TMPro::TextMeshProUGUI* _get__nameText();
-    // Set instance field: private TMPro.TextMeshProUGUI _nameText
-    void _set__nameText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _valueText
-    TMPro::TextMeshProUGUI* _get__valueText();
-    // Set instance field: private TMPro.TextMeshProUGUI _valueText
-    void _set__valueText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _conditionText
-    TMPro::TextMeshProUGUI* _get__conditionText();
-    // Set instance field: private TMPro.TextMeshProUGUI _conditionText
-    void _set__conditionText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private MissionObjectiveChecker _missionObjectiveChecker
-    GlobalNamespace::MissionObjectiveChecker* _get__missionObjectiveChecker();
-    // Set instance field: private MissionObjectiveChecker _missionObjectiveChecker
-    void _set__missionObjectiveChecker(GlobalNamespace::MissionObjectiveChecker* value);
+    // Get instance field reference: private UnityEngine.Sprite _notFailedIcon
+    UnityEngine::Sprite*& dyn__notFailedIcon();
+    // Get instance field reference: private UnityEngine.Sprite _failedIcon
+    UnityEngine::Sprite*& dyn__failedIcon();
+    // Get instance field reference: private UnityEngine.Sprite _notClearedIcon
+    UnityEngine::Sprite*& dyn__notClearedIcon();
+    // Get instance field reference: private UnityEngine.Sprite _clearedIcon
+    UnityEngine::Sprite*& dyn__clearedIcon();
+    // Get instance field reference: private UnityEngine.UI.Image _resultIcon
+    UnityEngine::UI::Image*& dyn__resultIcon();
+    // Get instance field reference: private UnityEngine.Color _finalClearIconColor
+    UnityEngine::Color& dyn__finalClearIconColor();
+    // Get instance field reference: private UnityEngine.Color _finalFailIconColor
+    UnityEngine::Color& dyn__finalFailIconColor();
+    // Get instance field reference: private UnityEngine.Color _nonFinalIconColor
+    UnityEngine::Color& dyn__nonFinalIconColor();
+    // Get instance field reference: private UnityEngine.ParticleSystem _clearedPS
+    UnityEngine::ParticleSystem*& dyn__clearedPS();
+    // Get instance field reference: private System.Int32 _numberOfParticles
+    int& dyn__numberOfParticles();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _nameText
+    TMPro::TextMeshProUGUI*& dyn__nameText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _valueText
+    TMPro::TextMeshProUGUI*& dyn__valueText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _conditionText
+    TMPro::TextMeshProUGUI*& dyn__conditionText();
+    // Get instance field reference: private MissionObjectiveChecker _missionObjectiveChecker
+    GlobalNamespace::MissionObjectiveChecker*& dyn__missionObjectiveChecker();
     // public System.Void SetMissionObjectiveChecker(MissionObjectiveChecker missionObjectiveChecker)
     // Offset: 0x11D8308
     void SetMissionObjectiveChecker(GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);

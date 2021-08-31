@@ -33,10 +33,8 @@ namespace HMUI {
     constexpr operator float() const noexcept {
       return threshold;
     }
-    // Get instance field: public System.Single threshold
-    float _get_threshold();
-    // Set instance field: public System.Single threshold
-    void _set_threshold(float value);
+    // Get instance field reference: public System.Single threshold
+    float& dyn_threshold();
     // System.Boolean <PageUpButtonPressed>b__0(System.Single pos)
     // Offset: 0x12FDDA0
     bool $PageUpButtonPressed$b__0(float pos);

@@ -34,14 +34,10 @@ namespace UnityEngine::Networking::PlayerConnection {
     static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // Creating value type constructor for type: MessageEventArgs
     MessageEventArgs(int playerId_ = {}, ::Array<uint8_t>* data_ = {}) noexcept : playerId{playerId_}, data{data_} {}
-    // Get instance field: public System.Int32 playerId
-    int _get_playerId();
-    // Set instance field: public System.Int32 playerId
-    void _set_playerId(int value);
-    // Get instance field: public System.Byte[] data
-    ::Array<uint8_t>* _get_data();
-    // Set instance field: public System.Byte[] data
-    void _set_data(::Array<uint8_t>* value);
+    // Get instance field reference: public System.Int32 playerId
+    int& dyn_playerId();
+    // Get instance field reference: public System.Byte[] data
+    ::Array<uint8_t>*& dyn_data();
     // public System.Void .ctor()
     // Offset: 0x1D07158
     // Implemented from: System.Object

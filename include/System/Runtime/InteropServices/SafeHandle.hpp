@@ -69,22 +69,14 @@ namespace System::Runtime::InteropServices {
     static int _get_RefCount_One();
     // Set static field: static private System.Int32 RefCount_One
     static void _set_RefCount_One(int value);
-    // Get instance field: protected System.IntPtr handle
-    System::IntPtr _get_handle();
-    // Set instance field: protected System.IntPtr handle
-    void _set_handle(System::IntPtr value);
-    // Get instance field: private System.Int32 _state
-    int _get__state();
-    // Set instance field: private System.Int32 _state
-    void _set__state(int value);
-    // Get instance field: private System.Boolean _ownsHandle
-    bool _get__ownsHandle();
-    // Set instance field: private System.Boolean _ownsHandle
-    void _set__ownsHandle(bool value);
-    // Get instance field: private System.Boolean _fullyInitialized
-    bool _get__fullyInitialized();
-    // Set instance field: private System.Boolean _fullyInitialized
-    void _set__fullyInitialized(bool value);
+    // Get instance field reference: protected System.IntPtr handle
+    System::IntPtr& dyn_handle();
+    // Get instance field reference: private System.Int32 _state
+    int& dyn__state();
+    // Get instance field reference: private System.Boolean _ownsHandle
+    bool& dyn__ownsHandle();
+    // Get instance field reference: private System.Boolean _fullyInitialized
+    bool& dyn__fullyInitialized();
     // public System.Boolean get_IsClosed()
     // Offset: 0x1489AF8
     bool get_IsClosed();

@@ -103,34 +103,20 @@ namespace GlobalNamespace {
     static float _get_kRotationStep();
     // Set static field: static private System.Single kRotationStep
     static void _set_kRotationStep(float value);
-    // Get instance field: private Vector3SO _roomCenter
-    GlobalNamespace::Vector3SO* _get__roomCenter();
-    // Set instance field: private Vector3SO _roomCenter
-    void _set__roomCenter(GlobalNamespace::Vector3SO* value);
-    // Get instance field: private FloatSO _roomRotation
-    GlobalNamespace::FloatSO* _get__roomRotation();
-    // Set instance field: private FloatSO _roomRotation
-    void _set__roomRotation(GlobalNamespace::FloatSO* value);
-    // Get instance field: private StepValuePicker _xStepValuePicker
-    GlobalNamespace::StepValuePicker* _get__xStepValuePicker();
-    // Set instance field: private StepValuePicker _xStepValuePicker
-    void _set__xStepValuePicker(GlobalNamespace::StepValuePicker* value);
-    // Get instance field: private StepValuePicker _yStepValuePicker
-    GlobalNamespace::StepValuePicker* _get__yStepValuePicker();
-    // Set instance field: private StepValuePicker _yStepValuePicker
-    void _set__yStepValuePicker(GlobalNamespace::StepValuePicker* value);
-    // Get instance field: private StepValuePicker _zStepValuePicker
-    GlobalNamespace::StepValuePicker* _get__zStepValuePicker();
-    // Set instance field: private StepValuePicker _zStepValuePicker
-    void _set__zStepValuePicker(GlobalNamespace::StepValuePicker* value);
-    // Get instance field: private StepValuePicker _rotStepValuePicker
-    GlobalNamespace::StepValuePicker* _get__rotStepValuePicker();
-    // Set instance field: private StepValuePicker _rotStepValuePicker
-    void _set__rotStepValuePicker(GlobalNamespace::StepValuePicker* value);
-    // Get instance field: private UnityEngine.UI.Button _resetButton
-    UnityEngine::UI::Button* _get__resetButton();
-    // Set instance field: private UnityEngine.UI.Button _resetButton
-    void _set__resetButton(UnityEngine::UI::Button* value);
+    // Get instance field reference: private Vector3SO _roomCenter
+    GlobalNamespace::Vector3SO*& dyn__roomCenter();
+    // Get instance field reference: private FloatSO _roomRotation
+    GlobalNamespace::FloatSO*& dyn__roomRotation();
+    // Get instance field reference: private StepValuePicker _xStepValuePicker
+    GlobalNamespace::StepValuePicker*& dyn__xStepValuePicker();
+    // Get instance field reference: private StepValuePicker _yStepValuePicker
+    GlobalNamespace::StepValuePicker*& dyn__yStepValuePicker();
+    // Get instance field reference: private StepValuePicker _zStepValuePicker
+    GlobalNamespace::StepValuePicker*& dyn__zStepValuePicker();
+    // Get instance field reference: private StepValuePicker _rotStepValuePicker
+    GlobalNamespace::StepValuePicker*& dyn__rotStepValuePicker();
+    // Get instance field reference: private UnityEngine.UI.Button _resetButton
+    UnityEngine::UI::Button*& dyn__resetButton();
     // private System.Void Move(UnityEngine.Vector3 move)
     // Offset: 0x118E648
     void Move(UnityEngine::Vector3 move);

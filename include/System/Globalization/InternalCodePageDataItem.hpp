@@ -50,22 +50,14 @@ namespace System::Globalization {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: System.UInt16 codePage
-    uint16_t _get_codePage();
-    // Set instance field: System.UInt16 codePage
-    void _set_codePage(uint16_t value);
-    // Get instance field: System.UInt16 uiFamilyCodePage
-    uint16_t _get_uiFamilyCodePage();
-    // Set instance field: System.UInt16 uiFamilyCodePage
-    void _set_uiFamilyCodePage(uint16_t value);
-    // Get instance field: System.UInt32 flags
-    uint _get_flags();
-    // Set instance field: System.UInt32 flags
-    void _set_flags(uint value);
-    // Get instance field: System.String Names
-    ::Il2CppString* _get_Names();
-    // Set instance field: System.String Names
-    void _set_Names(::Il2CppString* value);
+    // Get instance field reference: System.UInt16 codePage
+    uint16_t& dyn_codePage();
+    // Get instance field reference: System.UInt16 uiFamilyCodePage
+    uint16_t& dyn_uiFamilyCodePage();
+    // Get instance field reference: System.UInt32 flags
+    uint& dyn_flags();
+    // Get instance field reference: System.String Names
+    ::Il2CppString*& dyn_Names();
   }; // System.Globalization.InternalCodePageDataItem
   #pragma pack(pop)
   static check_size<sizeof(InternalCodePageDataItem), 8 + sizeof(::Il2CppString*)> __System_Globalization_InternalCodePageDataItemSizeCheck;

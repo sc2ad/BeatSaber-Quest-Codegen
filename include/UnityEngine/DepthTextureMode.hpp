@@ -57,10 +57,8 @@ namespace UnityEngine {
     static UnityEngine::DepthTextureMode _get_MotionVectors();
     // Set static field: static public UnityEngine.DepthTextureMode MotionVectors
     static void _set_MotionVectors(UnityEngine::DepthTextureMode value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.DepthTextureMode
   #pragma pack(pop)
   static check_size<sizeof(DepthTextureMode), 0 + sizeof(int)> __UnityEngine_DepthTextureModeSizeCheck;

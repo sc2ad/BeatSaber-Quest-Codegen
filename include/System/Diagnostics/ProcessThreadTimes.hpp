@@ -51,22 +51,14 @@ namespace System::Diagnostics {
     static_assert(sizeof(int64_t) == 0x8);
     // Creating value type constructor for type: ProcessThreadTimes
     ProcessThreadTimes(int64_t create_ = {}, int64_t exit_ = {}, int64_t kernel_ = {}, int64_t user_ = {}) noexcept : create{create_}, exit{exit_}, kernel{kernel_}, user{user_} {}
-    // Get instance field: System.Int64 create
-    int64_t _get_create();
-    // Set instance field: System.Int64 create
-    void _set_create(int64_t value);
-    // Get instance field: System.Int64 exit
-    int64_t _get_exit();
-    // Set instance field: System.Int64 exit
-    void _set_exit(int64_t value);
-    // Get instance field: System.Int64 kernel
-    int64_t _get_kernel();
-    // Set instance field: System.Int64 kernel
-    void _set_kernel(int64_t value);
-    // Get instance field: System.Int64 user
-    int64_t _get_user();
-    // Set instance field: System.Int64 user
-    void _set_user(int64_t value);
+    // Get instance field reference: System.Int64 create
+    int64_t& dyn_create();
+    // Get instance field reference: System.Int64 exit
+    int64_t& dyn_exit();
+    // Get instance field reference: System.Int64 kernel
+    int64_t& dyn_kernel();
+    // Get instance field reference: System.Int64 user
+    int64_t& dyn_user();
     // public System.TimeSpan get_TotalProcessorTime()
     // Offset: 0x18B2C30
     System::TimeSpan get_TotalProcessorTime();

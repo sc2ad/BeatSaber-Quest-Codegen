@@ -32,14 +32,10 @@ namespace Priority_Queue {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: FastPriorityQueueNode
     FastPriorityQueueNode(float Priority_ = {}, int QueueIndex_ = {}) noexcept : Priority{Priority_}, QueueIndex{QueueIndex_} {}
-    // Get instance field: private System.Single <Priority>k__BackingField
-    float _get_$Priority$k__BackingField();
-    // Set instance field: private System.Single <Priority>k__BackingField
-    void _set_$Priority$k__BackingField(float value);
-    // Get instance field: private System.Int32 <QueueIndex>k__BackingField
-    int _get_$QueueIndex$k__BackingField();
-    // Set instance field: private System.Int32 <QueueIndex>k__BackingField
-    void _set_$QueueIndex$k__BackingField(int value);
+    // Get instance field reference: private System.Single <Priority>k__BackingField
+    float& dyn_$Priority$k__BackingField();
+    // Get instance field reference: private System.Int32 <QueueIndex>k__BackingField
+    int& dyn_$QueueIndex$k__BackingField();
     // public System.Single get_Priority()
     // Offset: 0x11401A0
     float get_Priority();

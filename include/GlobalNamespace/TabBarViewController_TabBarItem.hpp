@@ -41,14 +41,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action*) == 0x8);
     // Creating value type constructor for type: TabBarItem
     TabBarItem(::Il2CppString* title_ = {}, System::Action* action_ = {}) noexcept : title{title_}, action{action_} {}
-    // Get instance field: public readonly System.String title
-    ::Il2CppString* _get_title();
-    // Set instance field: public readonly System.String title
-    void _set_title(::Il2CppString* value);
-    // Get instance field: public readonly System.Action action
-    System::Action* _get_action();
-    // Set instance field: public readonly System.Action action
-    void _set_action(System::Action* value);
+    // Get instance field reference: public readonly System.String title
+    ::Il2CppString*& dyn_title();
+    // Get instance field reference: public readonly System.Action action
+    System::Action*& dyn_action();
     // public System.Void .ctor(System.String title, System.Action action)
     // Offset: 0x10910F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

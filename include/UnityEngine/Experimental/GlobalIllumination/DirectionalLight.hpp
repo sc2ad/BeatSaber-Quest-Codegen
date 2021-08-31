@@ -73,34 +73,20 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Int32 instanceID
-    int _get_instanceID();
-    // Set instance field: public System.Int32 instanceID
-    void _set_instanceID(int value);
-    // Get instance field: public System.Boolean shadow
-    bool _get_shadow();
-    // Set instance field: public System.Boolean shadow
-    void _set_shadow(bool value);
-    // Get instance field: public UnityEngine.Experimental.GlobalIllumination.LightMode mode
-    UnityEngine::Experimental::GlobalIllumination::LightMode _get_mode();
-    // Set instance field: public UnityEngine.Experimental.GlobalIllumination.LightMode mode
-    void _set_mode(UnityEngine::Experimental::GlobalIllumination::LightMode value);
-    // Get instance field: public UnityEngine.Vector3 direction
-    UnityEngine::Vector3 _get_direction();
-    // Set instance field: public UnityEngine.Vector3 direction
-    void _set_direction(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Experimental.GlobalIllumination.LinearColor color
-    UnityEngine::Experimental::GlobalIllumination::LinearColor _get_color();
-    // Set instance field: public UnityEngine.Experimental.GlobalIllumination.LinearColor color
-    void _set_color(UnityEngine::Experimental::GlobalIllumination::LinearColor value);
-    // Get instance field: public UnityEngine.Experimental.GlobalIllumination.LinearColor indirectColor
-    UnityEngine::Experimental::GlobalIllumination::LinearColor _get_indirectColor();
-    // Set instance field: public UnityEngine.Experimental.GlobalIllumination.LinearColor indirectColor
-    void _set_indirectColor(UnityEngine::Experimental::GlobalIllumination::LinearColor value);
-    // Get instance field: public System.Single penumbraWidthRadian
-    float _get_penumbraWidthRadian();
-    // Set instance field: public System.Single penumbraWidthRadian
-    void _set_penumbraWidthRadian(float value);
+    // Get instance field reference: public System.Int32 instanceID
+    int& dyn_instanceID();
+    // Get instance field reference: public System.Boolean shadow
+    bool& dyn_shadow();
+    // Get instance field reference: public UnityEngine.Experimental.GlobalIllumination.LightMode mode
+    UnityEngine::Experimental::GlobalIllumination::LightMode& dyn_mode();
+    // Get instance field reference: public UnityEngine.Vector3 direction
+    UnityEngine::Vector3& dyn_direction();
+    // Get instance field reference: public UnityEngine.Experimental.GlobalIllumination.LinearColor color
+    UnityEngine::Experimental::GlobalIllumination::LinearColor& dyn_color();
+    // Get instance field reference: public UnityEngine.Experimental.GlobalIllumination.LinearColor indirectColor
+    UnityEngine::Experimental::GlobalIllumination::LinearColor& dyn_indirectColor();
+    // Get instance field reference: public System.Single penumbraWidthRadian
+    float& dyn_penumbraWidthRadian();
   }; // UnityEngine.Experimental.GlobalIllumination.DirectionalLight
   #pragma pack(pop)
   static check_size<sizeof(DirectionalLight), 52 + sizeof(float)> __UnityEngine_Experimental_GlobalIllumination_DirectionalLightSizeCheck;

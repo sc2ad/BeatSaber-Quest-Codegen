@@ -33,10 +33,8 @@ namespace UnityEngine {
     constexpr operator float() const noexcept {
       return height;
     }
-    // Get instance field: public readonly System.Single height
-    float _get_height();
-    // Set instance field: public readonly System.Single height
-    void _set_height(float value);
+    // Get instance field reference: public readonly System.Single height
+    float& dyn_height();
     // public System.Void .ctor(System.Single height)
     // Offset: 0x1C52F70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

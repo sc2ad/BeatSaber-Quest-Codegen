@@ -86,10 +86,8 @@ namespace HMUI {
       static HMUI::NavigationController::Orientation _get_Vertical();
       // Set static field: static public HMUI.NavigationController/HMUI.Orientation Vertical
       static void _set_Vertical(HMUI::NavigationController::Orientation value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // HMUI.NavigationController/HMUI.Orientation
     #pragma pack(pop)
     static check_size<sizeof(NavigationController::Orientation), 0 + sizeof(int)> __HMUI_NavigationController_OrientationSizeCheck;
@@ -134,10 +132,8 @@ namespace HMUI {
       static HMUI::NavigationController::Alignment _get_End();
       // Set static field: static public HMUI.NavigationController/HMUI.Alignment End
       static void _set_End(HMUI::NavigationController::Alignment value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // HMUI.NavigationController/HMUI.Alignment
     #pragma pack(pop)
     static check_size<sizeof(NavigationController::Alignment), 0 + sizeof(int)> __HMUI_NavigationController_AlignmentSizeCheck;
@@ -176,26 +172,16 @@ namespace HMUI {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: NavigationController
     NavigationController(HMUI::NavigationController::Orientation orientation_ = {}, bool reversedStacking_ = {}, HMUI::NavigationController::Alignment alignment_ = {}, float edgeSize_ = {}, float viewControllersSeparator_ = {}) noexcept : orientation{orientation_}, reversedStacking{reversedStacking_}, alignment{alignment_}, edgeSize{edgeSize_}, viewControllersSeparator{viewControllersSeparator_} {}
-    // Get instance field: private HMUI.NavigationController/HMUI.Orientation _orientation
-    HMUI::NavigationController::Orientation _get__orientation();
-    // Set instance field: private HMUI.NavigationController/HMUI.Orientation _orientation
-    void _set__orientation(HMUI::NavigationController::Orientation value);
-    // Get instance field: private System.Boolean _reversedStacking
-    bool _get__reversedStacking();
-    // Set instance field: private System.Boolean _reversedStacking
-    void _set__reversedStacking(bool value);
-    // Get instance field: private HMUI.NavigationController/HMUI.Alignment _alignment
-    HMUI::NavigationController::Alignment _get__alignment();
-    // Set instance field: private HMUI.NavigationController/HMUI.Alignment _alignment
-    void _set__alignment(HMUI::NavigationController::Alignment value);
-    // Get instance field: private System.Single _edgeSize
-    float _get__edgeSize();
-    // Set instance field: private System.Single _edgeSize
-    void _set__edgeSize(float value);
-    // Get instance field: private System.Single _viewControllersSeparator
-    float _get__viewControllersSeparator();
-    // Set instance field: private System.Single _viewControllersSeparator
-    void _set__viewControllersSeparator(float value);
+    // Get instance field reference: private HMUI.NavigationController/HMUI.Orientation _orientation
+    HMUI::NavigationController::Orientation& dyn__orientation();
+    // Get instance field reference: private System.Boolean _reversedStacking
+    bool& dyn__reversedStacking();
+    // Get instance field reference: private HMUI.NavigationController/HMUI.Alignment _alignment
+    HMUI::NavigationController::Alignment& dyn__alignment();
+    // Get instance field reference: private System.Single _edgeSize
+    float& dyn__edgeSize();
+    // Get instance field reference: private System.Single _viewControllersSeparator
+    float& dyn__viewControllersSeparator();
     // public System.Void PushViewController(HMUI.ViewController viewController, System.Action finishedCallback, System.Boolean immediately)
     // Offset: 0x12F8CB0
     void PushViewController(HMUI::ViewController* viewController, System::Action* finishedCallback, bool immediately);

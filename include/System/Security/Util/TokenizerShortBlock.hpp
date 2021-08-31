@@ -32,14 +32,10 @@ namespace System::Security::Util {
     static_assert(sizeof(System::Security::Util::TokenizerShortBlock*) == 0x8);
     // Creating value type constructor for type: TokenizerShortBlock
     TokenizerShortBlock(::Array<int16_t>* m_block_ = {}, System::Security::Util::TokenizerShortBlock* m_next_ = {}) noexcept : m_block{m_block_}, m_next{m_next_} {}
-    // Get instance field: System.Int16[] m_block
-    ::Array<int16_t>* _get_m_block();
-    // Set instance field: System.Int16[] m_block
-    void _set_m_block(::Array<int16_t>* value);
-    // Get instance field: System.Security.Util.TokenizerShortBlock m_next
-    System::Security::Util::TokenizerShortBlock* _get_m_next();
-    // Set instance field: System.Security.Util.TokenizerShortBlock m_next
-    void _set_m_next(System::Security::Util::TokenizerShortBlock* value);
+    // Get instance field reference: System.Int16[] m_block
+    ::Array<int16_t>*& dyn_m_block();
+    // Get instance field reference: System.Security.Util.TokenizerShortBlock m_next
+    System::Security::Util::TokenizerShortBlock*& dyn_m_next();
     // public System.Void .ctor()
     // Offset: 0x1C03BD0
     // Implemented from: System.Object

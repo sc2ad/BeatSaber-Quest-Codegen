@@ -34,10 +34,8 @@ namespace System::Reflection {
     constexpr operator ::Il2CppString*() const noexcept {
       return m_description;
     }
-    // Get instance field: private System.String m_description
-    ::Il2CppString* _get_m_description();
-    // Set instance field: private System.String m_description
-    void _set_m_description(::Il2CppString* value);
+    // Get instance field reference: private System.String m_description
+    ::Il2CppString*& dyn_m_description();
     // public System.Void .ctor(System.String description)
     // Offset: 0x1D132F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

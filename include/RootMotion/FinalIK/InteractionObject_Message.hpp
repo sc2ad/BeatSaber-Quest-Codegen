@@ -56,14 +56,10 @@ namespace RootMotion::FinalIK {
     static ::Il2CppString* _get_empty();
     // Set static field: static private System.String empty
     static void _set_empty(::Il2CppString* value);
-    // Get instance field: public System.String function
-    ::Il2CppString* _get_function();
-    // Set instance field: public System.String function
-    void _set_function(::Il2CppString* value);
-    // Get instance field: public UnityEngine.GameObject recipient
-    UnityEngine::GameObject* _get_recipient();
-    // Set instance field: public UnityEngine.GameObject recipient
-    void _set_recipient(UnityEngine::GameObject* value);
+    // Get instance field reference: public System.String function
+    ::Il2CppString*& dyn_function();
+    // Get instance field reference: public UnityEngine.GameObject recipient
+    UnityEngine::GameObject*& dyn_recipient();
     // public System.Void Send(UnityEngine.Transform t)
     // Offset: 0x1E8F0E4
     void Send(UnityEngine::Transform* t);

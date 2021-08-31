@@ -37,10 +37,8 @@ namespace UnityEngine {
     constexpr operator ::Il2CppString*() const noexcept {
       return id;
     }
-    // Get instance field: private System.String <id>k__BackingField
-    ::Il2CppString* _get_$id$k__BackingField();
-    // Set instance field: private System.String <id>k__BackingField
-    void _set_$id$k__BackingField(::Il2CppString* value);
+    // Get instance field reference: private System.String <id>k__BackingField
+    ::Il2CppString*& dyn_$id$k__BackingField();
     // public System.String get_id()
     // Offset: 0x241BE50
     ::Il2CppString* get_id();

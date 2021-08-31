@@ -48,14 +48,10 @@ namespace GlobalNamespace {
     TextMeshProButton(TMPro::TextMeshProUGUI* text_ = {}, UnityEngine::UI::Button* button_ = {}) noexcept : text{text_}, button{button_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private TMPro.TextMeshProUGUI _text
-    TMPro::TextMeshProUGUI* _get__text();
-    // Set instance field: private TMPro.TextMeshProUGUI _text
-    void _set__text(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private UnityEngine.UI.Button _button
-    UnityEngine::UI::Button* _get__button();
-    // Set instance field: private UnityEngine.UI.Button _button
-    void _set__button(UnityEngine::UI::Button* value);
+    // Get instance field reference: private TMPro.TextMeshProUGUI _text
+    TMPro::TextMeshProUGUI*& dyn__text();
+    // Get instance field reference: private UnityEngine.UI.Button _button
+    UnityEngine::UI::Button*& dyn__button();
     // public TMPro.TextMeshProUGUI get_text()
     // Offset: 0x10955C4
     TMPro::TextMeshProUGUI* get_text();

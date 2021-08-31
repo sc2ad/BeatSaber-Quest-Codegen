@@ -50,18 +50,12 @@ namespace UnityEngine::ProBuilder {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: CIELabColor
     CIELabColor(float L_ = {}, float a_ = {}, float b_ = {}) noexcept : L{L_}, a{a_}, b{b_} {}
-    // Get instance field: public System.Single L
-    float _get_L();
-    // Set instance field: public System.Single L
-    void _set_L(float value);
-    // Get instance field: public System.Single a
-    float _get_a();
-    // Set instance field: public System.Single a
-    void _set_a(float value);
-    // Get instance field: public System.Single b
-    float _get_b();
-    // Set instance field: public System.Single b
-    void _set_b(float value);
+    // Get instance field reference: public System.Single L
+    float& dyn_L();
+    // Get instance field reference: public System.Single a
+    float& dyn_a();
+    // Get instance field reference: public System.Single b
+    float& dyn_b();
     // public System.Void .ctor(System.Single L, System.Single a, System.Single b)
     // Offset: 0x1FA9740
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

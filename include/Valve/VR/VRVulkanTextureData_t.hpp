@@ -85,46 +85,26 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.UInt64 m_nImage
-    uint64_t _get_m_nImage();
-    // Set instance field: public System.UInt64 m_nImage
-    void _set_m_nImage(uint64_t value);
-    // Get instance field: public System.IntPtr m_pDevice
-    System::IntPtr _get_m_pDevice();
-    // Set instance field: public System.IntPtr m_pDevice
-    void _set_m_pDevice(System::IntPtr value);
-    // Get instance field: public System.IntPtr m_pPhysicalDevice
-    System::IntPtr _get_m_pPhysicalDevice();
-    // Set instance field: public System.IntPtr m_pPhysicalDevice
-    void _set_m_pPhysicalDevice(System::IntPtr value);
-    // Get instance field: public System.IntPtr m_pInstance
-    System::IntPtr _get_m_pInstance();
-    // Set instance field: public System.IntPtr m_pInstance
-    void _set_m_pInstance(System::IntPtr value);
-    // Get instance field: public System.IntPtr m_pQueue
-    System::IntPtr _get_m_pQueue();
-    // Set instance field: public System.IntPtr m_pQueue
-    void _set_m_pQueue(System::IntPtr value);
-    // Get instance field: public System.UInt32 m_nQueueFamilyIndex
-    uint _get_m_nQueueFamilyIndex();
-    // Set instance field: public System.UInt32 m_nQueueFamilyIndex
-    void _set_m_nQueueFamilyIndex(uint value);
-    // Get instance field: public System.UInt32 m_nWidth
-    uint _get_m_nWidth();
-    // Set instance field: public System.UInt32 m_nWidth
-    void _set_m_nWidth(uint value);
-    // Get instance field: public System.UInt32 m_nHeight
-    uint _get_m_nHeight();
-    // Set instance field: public System.UInt32 m_nHeight
-    void _set_m_nHeight(uint value);
-    // Get instance field: public System.UInt32 m_nFormat
-    uint _get_m_nFormat();
-    // Set instance field: public System.UInt32 m_nFormat
-    void _set_m_nFormat(uint value);
-    // Get instance field: public System.UInt32 m_nSampleCount
-    uint _get_m_nSampleCount();
-    // Set instance field: public System.UInt32 m_nSampleCount
-    void _set_m_nSampleCount(uint value);
+    // Get instance field reference: public System.UInt64 m_nImage
+    uint64_t& dyn_m_nImage();
+    // Get instance field reference: public System.IntPtr m_pDevice
+    System::IntPtr& dyn_m_pDevice();
+    // Get instance field reference: public System.IntPtr m_pPhysicalDevice
+    System::IntPtr& dyn_m_pPhysicalDevice();
+    // Get instance field reference: public System.IntPtr m_pInstance
+    System::IntPtr& dyn_m_pInstance();
+    // Get instance field reference: public System.IntPtr m_pQueue
+    System::IntPtr& dyn_m_pQueue();
+    // Get instance field reference: public System.UInt32 m_nQueueFamilyIndex
+    uint& dyn_m_nQueueFamilyIndex();
+    // Get instance field reference: public System.UInt32 m_nWidth
+    uint& dyn_m_nWidth();
+    // Get instance field reference: public System.UInt32 m_nHeight
+    uint& dyn_m_nHeight();
+    // Get instance field reference: public System.UInt32 m_nFormat
+    uint& dyn_m_nFormat();
+    // Get instance field reference: public System.UInt32 m_nSampleCount
+    uint& dyn_m_nSampleCount();
   }; // Valve.VR.VRVulkanTextureData_t
   #pragma pack(pop)
   static check_size<sizeof(VRVulkanTextureData_t), 56 + sizeof(uint)> __Valve_VR_VRVulkanTextureData_tSizeCheck;

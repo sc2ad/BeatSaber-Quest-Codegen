@@ -46,10 +46,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::CameraDeviceDepthSensingMode _get_Fill();
     // Set static field: static public OVRPlugin/CameraDeviceDepthSensingMode Fill
     static void _set_Fill(GlobalNamespace::OVRPlugin::CameraDeviceDepthSensingMode value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // OVRPlugin/CameraDeviceDepthSensingMode
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::CameraDeviceDepthSensingMode), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_CameraDeviceDepthSensingModeSizeCheck;

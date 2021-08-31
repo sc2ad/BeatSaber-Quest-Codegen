@@ -51,18 +51,12 @@ namespace System::Threading {
     static System::Threading::ThreadPoolWorkQueueThreadLocals* _get_threadLocals();
     // Set static field: static public System.Threading.ThreadPoolWorkQueueThreadLocals threadLocals
     static void _set_threadLocals(System::Threading::ThreadPoolWorkQueueThreadLocals* value);
-    // Get instance field: public readonly System.Threading.ThreadPoolWorkQueue workQueue
-    System::Threading::ThreadPoolWorkQueue* _get_workQueue();
-    // Set instance field: public readonly System.Threading.ThreadPoolWorkQueue workQueue
-    void _set_workQueue(System::Threading::ThreadPoolWorkQueue* value);
-    // Get instance field: public readonly System.Threading.ThreadPoolWorkQueue/System.Threading.WorkStealingQueue workStealingQueue
-    System::Threading::ThreadPoolWorkQueue::WorkStealingQueue* _get_workStealingQueue();
-    // Set instance field: public readonly System.Threading.ThreadPoolWorkQueue/System.Threading.WorkStealingQueue workStealingQueue
-    void _set_workStealingQueue(System::Threading::ThreadPoolWorkQueue::WorkStealingQueue* value);
-    // Get instance field: public readonly System.Random random
-    System::Random* _get_random();
-    // Set instance field: public readonly System.Random random
-    void _set_random(System::Random* value);
+    // Get instance field reference: public readonly System.Threading.ThreadPoolWorkQueue workQueue
+    System::Threading::ThreadPoolWorkQueue*& dyn_workQueue();
+    // Get instance field reference: public readonly System.Threading.ThreadPoolWorkQueue/System.Threading.WorkStealingQueue workStealingQueue
+    System::Threading::ThreadPoolWorkQueue::WorkStealingQueue*& dyn_workStealingQueue();
+    // Get instance field reference: public readonly System.Random random
+    System::Random*& dyn_random();
     // public System.Void .ctor(System.Threading.ThreadPoolWorkQueue tpq)
     // Offset: 0x1879704
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

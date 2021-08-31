@@ -52,10 +52,8 @@ namespace System::Net {
     static System::Net::HttpListenerRequestUriBuilder::ParsingResult _get_EncodingError();
     // Set static field: static public System.Net.HttpListenerRequestUriBuilder/System.Net.ParsingResult EncodingError
     static void _set_EncodingError(System::Net::HttpListenerRequestUriBuilder::ParsingResult value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Net.HttpListenerRequestUriBuilder/System.Net.ParsingResult
   #pragma pack(pop)
   static check_size<sizeof(HttpListenerRequestUriBuilder::ParsingResult), 0 + sizeof(int)> __System_Net_HttpListenerRequestUriBuilder_ParsingResultSizeCheck;

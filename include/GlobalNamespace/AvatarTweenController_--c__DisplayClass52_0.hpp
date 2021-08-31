@@ -44,14 +44,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Creating value type constructor for type: $$c__DisplayClass52_0
     $$c__DisplayClass52_0(UnityEngine::Transform* partTransform_ = {}, UnityEngine::Vector3 originalScale_ = {}) noexcept : partTransform{partTransform_}, originalScale{originalScale_} {}
-    // Get instance field: public UnityEngine.Transform partTransform
-    UnityEngine::Transform* _get_partTransform();
-    // Set instance field: public UnityEngine.Transform partTransform
-    void _set_partTransform(UnityEngine::Transform* value);
-    // Get instance field: public UnityEngine.Vector3 originalScale
-    UnityEngine::Vector3 _get_originalScale();
-    // Set instance field: public UnityEngine.Vector3 originalScale
-    void _set_originalScale(UnityEngine::Vector3 value);
+    // Get instance field reference: public UnityEngine.Transform partTransform
+    UnityEngine::Transform*& dyn_partTransform();
+    // Get instance field reference: public UnityEngine.Vector3 originalScale
+    UnityEngine::Vector3& dyn_originalScale();
     // System.Void <CreatePopTween>b__0(System.Single val)
     // Offset: 0x1184970
     void $CreatePopTween$b__0(float val);

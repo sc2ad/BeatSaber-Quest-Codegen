@@ -70,10 +70,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::PartyMessageHandler::MessageType _get_ConnectToMasterServer();
       // Set static field: static public PartyMessageHandler/MessageType ConnectToMasterServer
       static void _set_ConnectToMasterServer(GlobalNamespace::PartyMessageHandler::MessageType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // PartyMessageHandler/MessageType
     #pragma pack(pop)
     static check_size<sizeof(PartyMessageHandler::MessageType), 0 + sizeof(int)> __GlobalNamespace_PartyMessageHandler_MessageTypeSizeCheck;
@@ -102,18 +100,12 @@ namespace GlobalNamespace {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
-    // Get instance field: private readonly NetworkPacketSerializer`2<PartyMessageHandler/MessageType,IConnectedPlayer> _serializer
-    GlobalNamespace::NetworkPacketSerializer_2<GlobalNamespace::PartyMessageHandler::MessageType, GlobalNamespace::IConnectedPlayer*>* _get__serializer();
-    // Set instance field: private readonly NetworkPacketSerializer`2<PartyMessageHandler/MessageType,IConnectedPlayer> _serializer
-    void _set__serializer(GlobalNamespace::NetworkPacketSerializer_2<GlobalNamespace::PartyMessageHandler::MessageType, GlobalNamespace::IConnectedPlayer*>* value);
-    // Get instance field: private readonly ConnectedPlayerManager _connectedPlayerManager
-    GlobalNamespace::ConnectedPlayerManager* _get__connectedPlayerManager();
-    // Set instance field: private readonly ConnectedPlayerManager _connectedPlayerManager
-    void _set__connectedPlayerManager(GlobalNamespace::ConnectedPlayerManager* value);
-    // Get instance field: private PartyMessageHandler/ConnectToMasterServerDelegate connectToMasterServerEvent
-    GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate* _get_connectToMasterServerEvent();
-    // Set instance field: private PartyMessageHandler/ConnectToMasterServerDelegate connectToMasterServerEvent
-    void _set_connectToMasterServerEvent(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate* value);
+    // Get instance field reference: private readonly NetworkPacketSerializer`2<PartyMessageHandler/MessageType,IConnectedPlayer> _serializer
+    GlobalNamespace::NetworkPacketSerializer_2<GlobalNamespace::PartyMessageHandler::MessageType, GlobalNamespace::IConnectedPlayer*>*& dyn__serializer();
+    // Get instance field reference: private readonly ConnectedPlayerManager _connectedPlayerManager
+    GlobalNamespace::ConnectedPlayerManager*& dyn__connectedPlayerManager();
+    // Get instance field reference: private PartyMessageHandler/ConnectToMasterServerDelegate connectToMasterServerEvent
+    GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate*& dyn_connectToMasterServerEvent();
     // public System.Void add_connectToMasterServerEvent(PartyMessageHandler/ConnectToMasterServerDelegate value)
     // Offset: 0x16F2DC0
     void add_connectToMasterServerEvent(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate* value);

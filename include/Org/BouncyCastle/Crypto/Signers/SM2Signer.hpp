@@ -108,34 +108,20 @@ namespace Org::BouncyCastle::Crypto::Signers {
     operator Org::BouncyCastle::Crypto::ISigner() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ISigner*>(this);
     }
-    // Get instance field: private readonly Org.BouncyCastle.Crypto.Signers.IDsaKCalculator kCalculator
-    Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* _get_kCalculator();
-    // Set instance field: private readonly Org.BouncyCastle.Crypto.Signers.IDsaKCalculator kCalculator
-    void _set_kCalculator(Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* value);
-    // Get instance field: private readonly Org.BouncyCastle.Crypto.IDigest digest
-    Org::BouncyCastle::Crypto::IDigest* _get_digest();
-    // Set instance field: private readonly Org.BouncyCastle.Crypto.IDigest digest
-    void _set_digest(Org::BouncyCastle::Crypto::IDigest* value);
-    // Get instance field: private readonly Org.BouncyCastle.Crypto.Signers.IDsaEncoding encoding
-    Org::BouncyCastle::Crypto::Signers::IDsaEncoding* _get_encoding();
-    // Set instance field: private readonly Org.BouncyCastle.Crypto.Signers.IDsaEncoding encoding
-    void _set_encoding(Org::BouncyCastle::Crypto::Signers::IDsaEncoding* value);
-    // Get instance field: private Org.BouncyCastle.Crypto.Parameters.ECDomainParameters ecParams
-    Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* _get_ecParams();
-    // Set instance field: private Org.BouncyCastle.Crypto.Parameters.ECDomainParameters ecParams
-    void _set_ecParams(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* value);
-    // Get instance field: private Org.BouncyCastle.Math.EC.ECPoint pubPoint
-    Org::BouncyCastle::Math::EC::ECPoint* _get_pubPoint();
-    // Set instance field: private Org.BouncyCastle.Math.EC.ECPoint pubPoint
-    void _set_pubPoint(Org::BouncyCastle::Math::EC::ECPoint* value);
-    // Get instance field: private Org.BouncyCastle.Crypto.Parameters.ECKeyParameters ecKey
-    Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* _get_ecKey();
-    // Set instance field: private Org.BouncyCastle.Crypto.Parameters.ECKeyParameters ecKey
-    void _set_ecKey(Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* value);
-    // Get instance field: private System.Byte[] z
-    ::Array<uint8_t>* _get_z();
-    // Set instance field: private System.Byte[] z
-    void _set_z(::Array<uint8_t>* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Signers.IDsaKCalculator kCalculator
+    Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*& dyn_kCalculator();
+    // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IDigest digest
+    Org::BouncyCastle::Crypto::IDigest*& dyn_digest();
+    // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Signers.IDsaEncoding encoding
+    Org::BouncyCastle::Crypto::Signers::IDsaEncoding*& dyn_encoding();
+    // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.ECDomainParameters ecParams
+    Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*& dyn_ecParams();
+    // Get instance field reference: private Org.BouncyCastle.Math.EC.ECPoint pubPoint
+    Org::BouncyCastle::Math::EC::ECPoint*& dyn_pubPoint();
+    // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.ECKeyParameters ecKey
+    Org::BouncyCastle::Crypto::Parameters::ECKeyParameters*& dyn_ecKey();
+    // Get instance field reference: private System.Byte[] z
+    ::Array<uint8_t>*& dyn_z();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDigest digest)
     // Offset: 0x1280C0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -66,18 +66,12 @@ namespace GlobalNamespace {
     BeatmapCharacteristicsDropdown(HMUI::SimpleTextDropdown* simpleTextDropdown_ = {}, GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection_ = {}, System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>* didSelectCellWithIdxEvent_ = {}) noexcept : simpleTextDropdown{simpleTextDropdown_}, beatmapCharacteristicCollection{beatmapCharacteristicCollection_}, didSelectCellWithIdxEvent{didSelectCellWithIdxEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private HMUI.SimpleTextDropdown _simpleTextDropdown
-    HMUI::SimpleTextDropdown* _get__simpleTextDropdown();
-    // Set instance field: private HMUI.SimpleTextDropdown _simpleTextDropdown
-    void _set__simpleTextDropdown(HMUI::SimpleTextDropdown* value);
-    // Get instance field: private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
-    GlobalNamespace::BeatmapCharacteristicCollectionSO* _get__beatmapCharacteristicCollection();
-    // Set instance field: private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
-    void _set__beatmapCharacteristicCollection(GlobalNamespace::BeatmapCharacteristicCollectionSO* value);
-    // Get instance field: private System.Action`1<BeatmapCharacteristicSO> didSelectCellWithIdxEvent
-    System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>* _get_didSelectCellWithIdxEvent();
-    // Set instance field: private System.Action`1<BeatmapCharacteristicSO> didSelectCellWithIdxEvent
-    void _set_didSelectCellWithIdxEvent(System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>* value);
+    // Get instance field reference: private HMUI.SimpleTextDropdown _simpleTextDropdown
+    HMUI::SimpleTextDropdown*& dyn__simpleTextDropdown();
+    // Get instance field reference: private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
+    GlobalNamespace::BeatmapCharacteristicCollectionSO*& dyn__beatmapCharacteristicCollection();
+    // Get instance field reference: private System.Action`1<BeatmapCharacteristicSO> didSelectCellWithIdxEvent
+    System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>*& dyn_didSelectCellWithIdxEvent();
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`1<BeatmapCharacteristicSO> value)
     // Offset: 0x11EC984
     void add_didSelectCellWithIdxEvent(System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>* value);

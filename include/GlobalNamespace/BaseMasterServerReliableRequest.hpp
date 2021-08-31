@@ -45,10 +45,8 @@ namespace GlobalNamespace {
     constexpr operator uint() const noexcept {
       return requestId;
     }
-    // Get instance field: private System.UInt32 <requestId>k__BackingField
-    uint _get_$requestId$k__BackingField();
-    // Set instance field: private System.UInt32 <requestId>k__BackingField
-    void _set_$requestId$k__BackingField(uint value);
+    // Get instance field reference: private System.UInt32 <requestId>k__BackingField
+    uint& dyn_$requestId$k__BackingField();
     // public System.UInt32 get_requestId()
     // Offset: 0x131CBE4
     uint get_requestId();

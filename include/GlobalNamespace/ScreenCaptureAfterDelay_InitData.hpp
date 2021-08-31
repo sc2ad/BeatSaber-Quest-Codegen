@@ -48,22 +48,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: InitData
     InitData(GlobalNamespace::ScreenCaptureCache::ScreenshotType screenshotType_ = {}, float screenCaptureTime_ = {}, int pixelsWidth_ = {}, int pixelsHeight_ = {}) noexcept : screenshotType{screenshotType_}, screenCaptureTime{screenCaptureTime_}, pixelsWidth{pixelsWidth_}, pixelsHeight{pixelsHeight_} {}
-    // Get instance field: public readonly ScreenCaptureCache/ScreenshotType screenshotType
-    GlobalNamespace::ScreenCaptureCache::ScreenshotType _get_screenshotType();
-    // Set instance field: public readonly ScreenCaptureCache/ScreenshotType screenshotType
-    void _set_screenshotType(GlobalNamespace::ScreenCaptureCache::ScreenshotType value);
-    // Get instance field: public readonly System.Single screenCaptureTime
-    float _get_screenCaptureTime();
-    // Set instance field: public readonly System.Single screenCaptureTime
-    void _set_screenCaptureTime(float value);
-    // Get instance field: public readonly System.Int32 pixelsWidth
-    int _get_pixelsWidth();
-    // Set instance field: public readonly System.Int32 pixelsWidth
-    void _set_pixelsWidth(int value);
-    // Get instance field: public readonly System.Int32 pixelsHeight
-    int _get_pixelsHeight();
-    // Set instance field: public readonly System.Int32 pixelsHeight
-    void _set_pixelsHeight(int value);
+    // Get instance field reference: public readonly ScreenCaptureCache/ScreenshotType screenshotType
+    GlobalNamespace::ScreenCaptureCache::ScreenshotType& dyn_screenshotType();
+    // Get instance field reference: public readonly System.Single screenCaptureTime
+    float& dyn_screenCaptureTime();
+    // Get instance field reference: public readonly System.Int32 pixelsWidth
+    int& dyn_pixelsWidth();
+    // Get instance field reference: public readonly System.Int32 pixelsHeight
+    int& dyn_pixelsHeight();
     // public System.Void .ctor(ScreenCaptureCache/ScreenshotType screenshotType, System.Single screenCaptureTime, System.Int32 pixelsWidth, System.Int32 pixelsHeight)
     // Offset: 0x2394E28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

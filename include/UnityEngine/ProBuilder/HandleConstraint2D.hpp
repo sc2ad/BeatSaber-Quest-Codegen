@@ -43,14 +43,10 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::HandleConstraint2D* _get_None();
     // Set static field: static public readonly UnityEngine.ProBuilder.HandleConstraint2D None
     static void _set_None(UnityEngine::ProBuilder::HandleConstraint2D* value);
-    // Get instance field: public System.Int32 x
-    int _get_x();
-    // Set instance field: public System.Int32 x
-    void _set_x(int value);
-    // Get instance field: public System.Int32 y
-    int _get_y();
-    // Set instance field: public System.Int32 y
-    void _set_y(int value);
+    // Get instance field reference: public System.Int32 x
+    int& dyn_x();
+    // Get instance field reference: public System.Int32 y
+    int& dyn_y();
     // public System.Void .ctor(System.Int32 x, System.Int32 y)
     // Offset: 0x1AF0CAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

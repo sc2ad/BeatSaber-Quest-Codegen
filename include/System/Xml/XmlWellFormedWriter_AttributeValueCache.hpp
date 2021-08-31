@@ -70,26 +70,16 @@ namespace System::Xml {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: AttributeValueCache
     AttributeValueCache(System::Text::StringBuilder* stringValue_ = {}, ::Il2CppString* singleStringValue_ = {}, ::Array<System::Xml::XmlWellFormedWriter::AttributeValueCache::Item*>* items_ = {}, int firstItem_ = {}, int lastItem_ = {}) noexcept : stringValue{stringValue_}, singleStringValue{singleStringValue_}, items{items_}, firstItem{firstItem_}, lastItem{lastItem_} {}
-    // Get instance field: private System.Text.StringBuilder stringValue
-    System::Text::StringBuilder* _get_stringValue();
-    // Set instance field: private System.Text.StringBuilder stringValue
-    void _set_stringValue(System::Text::StringBuilder* value);
-    // Get instance field: private System.String singleStringValue
-    ::Il2CppString* _get_singleStringValue();
-    // Set instance field: private System.String singleStringValue
-    void _set_singleStringValue(::Il2CppString* value);
-    // Get instance field: private System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.Item[] items
-    ::Array<System::Xml::XmlWellFormedWriter::AttributeValueCache::Item*>* _get_items();
-    // Set instance field: private System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.Item[] items
-    void _set_items(::Array<System::Xml::XmlWellFormedWriter::AttributeValueCache::Item*>* value);
-    // Get instance field: private System.Int32 firstItem
-    int _get_firstItem();
-    // Set instance field: private System.Int32 firstItem
-    void _set_firstItem(int value);
-    // Get instance field: private System.Int32 lastItem
-    int _get_lastItem();
-    // Set instance field: private System.Int32 lastItem
-    void _set_lastItem(int value);
+    // Get instance field reference: private System.Text.StringBuilder stringValue
+    System::Text::StringBuilder*& dyn_stringValue();
+    // Get instance field reference: private System.String singleStringValue
+    ::Il2CppString*& dyn_singleStringValue();
+    // Get instance field reference: private System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.Item[] items
+    ::Array<System::Xml::XmlWellFormedWriter::AttributeValueCache::Item*>*& dyn_items();
+    // Get instance field reference: private System.Int32 firstItem
+    int& dyn_firstItem();
+    // Get instance field reference: private System.Int32 lastItem
+    int& dyn_lastItem();
     // System.String get_StringValue()
     // Offset: 0x23EE588
     ::Il2CppString* get_StringValue();

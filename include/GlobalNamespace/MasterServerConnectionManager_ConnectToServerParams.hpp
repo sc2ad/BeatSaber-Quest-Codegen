@@ -36,14 +36,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: ConnectToServerParams
     ConnectToServerParams(::Il2CppString* secret_ = {}, ::Il2CppString* code_ = {}) noexcept : secret{secret_}, code{code_} {}
-    // Get instance field: public System.String secret
-    ::Il2CppString* _get_secret();
-    // Set instance field: public System.String secret
-    void _set_secret(::Il2CppString* value);
-    // Get instance field: public System.String code
-    ::Il2CppString* _get_code();
-    // Set instance field: public System.String code
-    void _set_code(::Il2CppString* value);
+    // Get instance field reference: public System.String secret
+    ::Il2CppString*& dyn_secret();
+    // Get instance field reference: public System.String code
+    ::Il2CppString*& dyn_code();
     // public System.Void .ctor()
     // Offset: 0x12245C8
     // Implemented from: MasterServerConnectionManager/MasterServerConnectionManagerParamsBase

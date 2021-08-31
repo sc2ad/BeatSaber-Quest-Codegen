@@ -98,10 +98,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionState _get_ConnectionFailed();
       // Set static field: static public MultiplayerLobbyConnectionController/LobbyConnectionState ConnectionFailed
       static void _set_ConnectionFailed(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionState value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // MultiplayerLobbyConnectionController/LobbyConnectionState
     #pragma pack(pop)
     static check_size<sizeof(MultiplayerLobbyConnectionController::LobbyConnectionState), 0 + sizeof(int)> __GlobalNamespace_MultiplayerLobbyConnectionController_LobbyConnectionStateSizeCheck;
@@ -152,10 +150,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType _get_QuickPlay();
       // Set static field: static public MultiplayerLobbyConnectionController/LobbyConnectionType QuickPlay
       static void _set_QuickPlay(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // MultiplayerLobbyConnectionController/LobbyConnectionType
     #pragma pack(pop)
     static check_size<sizeof(MultiplayerLobbyConnectionController::LobbyConnectionType), 0 + sizeof(int)> __GlobalNamespace_MultiplayerLobbyConnectionController_LobbyConnectionTypeSizeCheck;
@@ -220,42 +216,24 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: MultiplayerLobbyConnectionController
     MultiplayerLobbyConnectionController(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, GlobalNamespace::IUnifiedNetworkPlayerModel* unifiedNetworkPlayerModel_ = {}, System::Action* connectionSuccessEvent_ = {}, System::Action_2<GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType, GlobalNamespace::ConnectionFailedReason>* connectionFailedEvent_ = {}, GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionState connectionState_ = {}, GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType connectionType_ = {}, GlobalNamespace::ConnectionFailedReason connectionFailedReason_ = {}, GlobalNamespace::UnifiedNetworkPlayerModel::JoinMatchmakingPartyConfig* partyConfig_ = {}, int retryAttemptsLeft_ = {}) noexcept : multiplayerSessionManager{multiplayerSessionManager_}, unifiedNetworkPlayerModel{unifiedNetworkPlayerModel_}, connectionSuccessEvent{connectionSuccessEvent_}, connectionFailedEvent{connectionFailedEvent_}, connectionState{connectionState_}, connectionType{connectionType_}, connectionFailedReason{connectionFailedReason_}, partyConfig{partyConfig_}, retryAttemptsLeft{retryAttemptsLeft_} {}
-    // Get instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    GlobalNamespace::IMultiplayerSessionManager* _get__multiplayerSessionManager();
-    // Set instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    void _set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
-    // Get instance field: private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
-    GlobalNamespace::IUnifiedNetworkPlayerModel* _get__unifiedNetworkPlayerModel();
-    // Set instance field: private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
-    void _set__unifiedNetworkPlayerModel(GlobalNamespace::IUnifiedNetworkPlayerModel* value);
-    // Get instance field: private System.Action connectionSuccessEvent
-    System::Action* _get_connectionSuccessEvent();
-    // Set instance field: private System.Action connectionSuccessEvent
-    void _set_connectionSuccessEvent(System::Action* value);
-    // Get instance field: private System.Action`2<MultiplayerLobbyConnectionController/LobbyConnectionType,ConnectionFailedReason> connectionFailedEvent
-    System::Action_2<GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType, GlobalNamespace::ConnectionFailedReason>* _get_connectionFailedEvent();
-    // Set instance field: private System.Action`2<MultiplayerLobbyConnectionController/LobbyConnectionType,ConnectionFailedReason> connectionFailedEvent
-    void _set_connectionFailedEvent(System::Action_2<GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType, GlobalNamespace::ConnectionFailedReason>* value);
-    // Get instance field: private MultiplayerLobbyConnectionController/LobbyConnectionState <connectionState>k__BackingField
-    GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionState _get_$connectionState$k__BackingField();
-    // Set instance field: private MultiplayerLobbyConnectionController/LobbyConnectionState <connectionState>k__BackingField
-    void _set_$connectionState$k__BackingField(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionState value);
-    // Get instance field: private MultiplayerLobbyConnectionController/LobbyConnectionType <connectionType>k__BackingField
-    GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType _get_$connectionType$k__BackingField();
-    // Set instance field: private MultiplayerLobbyConnectionController/LobbyConnectionType <connectionType>k__BackingField
-    void _set_$connectionType$k__BackingField(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType value);
-    // Get instance field: private ConnectionFailedReason <connectionFailedReason>k__BackingField
-    GlobalNamespace::ConnectionFailedReason _get_$connectionFailedReason$k__BackingField();
-    // Set instance field: private ConnectionFailedReason <connectionFailedReason>k__BackingField
-    void _set_$connectionFailedReason$k__BackingField(GlobalNamespace::ConnectionFailedReason value);
-    // Get instance field: private UnifiedNetworkPlayerModel/JoinMatchmakingPartyConfig _partyConfig
-    GlobalNamespace::UnifiedNetworkPlayerModel::JoinMatchmakingPartyConfig* _get__partyConfig();
-    // Set instance field: private UnifiedNetworkPlayerModel/JoinMatchmakingPartyConfig _partyConfig
-    void _set__partyConfig(GlobalNamespace::UnifiedNetworkPlayerModel::JoinMatchmakingPartyConfig* value);
-    // Get instance field: private System.Int32 _retryAttemptsLeft
-    int _get__retryAttemptsLeft();
-    // Set instance field: private System.Int32 _retryAttemptsLeft
-    void _set__retryAttemptsLeft(int value);
+    // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
+    // Get instance field reference: private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
+    GlobalNamespace::IUnifiedNetworkPlayerModel*& dyn__unifiedNetworkPlayerModel();
+    // Get instance field reference: private System.Action connectionSuccessEvent
+    System::Action*& dyn_connectionSuccessEvent();
+    // Get instance field reference: private System.Action`2<MultiplayerLobbyConnectionController/LobbyConnectionType,ConnectionFailedReason> connectionFailedEvent
+    System::Action_2<GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType, GlobalNamespace::ConnectionFailedReason>*& dyn_connectionFailedEvent();
+    // Get instance field reference: private MultiplayerLobbyConnectionController/LobbyConnectionState <connectionState>k__BackingField
+    GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionState& dyn_$connectionState$k__BackingField();
+    // Get instance field reference: private MultiplayerLobbyConnectionController/LobbyConnectionType <connectionType>k__BackingField
+    GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType& dyn_$connectionType$k__BackingField();
+    // Get instance field reference: private ConnectionFailedReason <connectionFailedReason>k__BackingField
+    GlobalNamespace::ConnectionFailedReason& dyn_$connectionFailedReason$k__BackingField();
+    // Get instance field reference: private UnifiedNetworkPlayerModel/JoinMatchmakingPartyConfig _partyConfig
+    GlobalNamespace::UnifiedNetworkPlayerModel::JoinMatchmakingPartyConfig*& dyn__partyConfig();
+    // Get instance field reference: private System.Int32 _retryAttemptsLeft
+    int& dyn__retryAttemptsLeft();
     // public MultiplayerLobbyConnectionController/LobbyConnectionState get_connectionState()
     // Offset: 0x1062D40
     GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionState get_connectionState();

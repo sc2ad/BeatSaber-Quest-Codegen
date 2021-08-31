@@ -71,34 +71,20 @@ namespace UnityEngine {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: ControllerColliderHit
     ControllerColliderHit(UnityEngine::CharacterController* m_Controller_ = {}, UnityEngine::Collider* m_Collider_ = {}, UnityEngine::Vector3 m_Point_ = {}, UnityEngine::Vector3 m_Normal_ = {}, UnityEngine::Vector3 m_MoveDirection_ = {}, float m_MoveLength_ = {}, int m_Push_ = {}) noexcept : m_Controller{m_Controller_}, m_Collider{m_Collider_}, m_Point{m_Point_}, m_Normal{m_Normal_}, m_MoveDirection{m_MoveDirection_}, m_MoveLength{m_MoveLength_}, m_Push{m_Push_} {}
-    // Get instance field: UnityEngine.CharacterController m_Controller
-    UnityEngine::CharacterController* _get_m_Controller();
-    // Set instance field: UnityEngine.CharacterController m_Controller
-    void _set_m_Controller(UnityEngine::CharacterController* value);
-    // Get instance field: UnityEngine.Collider m_Collider
-    UnityEngine::Collider* _get_m_Collider();
-    // Set instance field: UnityEngine.Collider m_Collider
-    void _set_m_Collider(UnityEngine::Collider* value);
-    // Get instance field: UnityEngine.Vector3 m_Point
-    UnityEngine::Vector3 _get_m_Point();
-    // Set instance field: UnityEngine.Vector3 m_Point
-    void _set_m_Point(UnityEngine::Vector3 value);
-    // Get instance field: UnityEngine.Vector3 m_Normal
-    UnityEngine::Vector3 _get_m_Normal();
-    // Set instance field: UnityEngine.Vector3 m_Normal
-    void _set_m_Normal(UnityEngine::Vector3 value);
-    // Get instance field: UnityEngine.Vector3 m_MoveDirection
-    UnityEngine::Vector3 _get_m_MoveDirection();
-    // Set instance field: UnityEngine.Vector3 m_MoveDirection
-    void _set_m_MoveDirection(UnityEngine::Vector3 value);
-    // Get instance field: System.Single m_MoveLength
-    float _get_m_MoveLength();
-    // Set instance field: System.Single m_MoveLength
-    void _set_m_MoveLength(float value);
-    // Get instance field: System.Int32 m_Push
-    int _get_m_Push();
-    // Set instance field: System.Int32 m_Push
-    void _set_m_Push(int value);
+    // Get instance field reference: UnityEngine.CharacterController m_Controller
+    UnityEngine::CharacterController*& dyn_m_Controller();
+    // Get instance field reference: UnityEngine.Collider m_Collider
+    UnityEngine::Collider*& dyn_m_Collider();
+    // Get instance field reference: UnityEngine.Vector3 m_Point
+    UnityEngine::Vector3& dyn_m_Point();
+    // Get instance field reference: UnityEngine.Vector3 m_Normal
+    UnityEngine::Vector3& dyn_m_Normal();
+    // Get instance field reference: UnityEngine.Vector3 m_MoveDirection
+    UnityEngine::Vector3& dyn_m_MoveDirection();
+    // Get instance field reference: System.Single m_MoveLength
+    float& dyn_m_MoveLength();
+    // Get instance field reference: System.Int32 m_Push
+    int& dyn_m_Push();
   }; // UnityEngine.ControllerColliderHit
   #pragma pack(pop)
   static check_size<sizeof(ControllerColliderHit), 72 + sizeof(int)> __UnityEngine_ControllerColliderHitSizeCheck;

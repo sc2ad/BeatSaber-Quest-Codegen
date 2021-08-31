@@ -62,18 +62,12 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: InternalOp
     InternalOp(UnityEngine::AssetBundleRequest* m_RequestOperation_ = {}, UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_ProvideHandle_ = {}, ::Il2CppString* subObjectName_ = {}) noexcept : m_RequestOperation{m_RequestOperation_}, m_ProvideHandle{m_ProvideHandle_}, subObjectName{subObjectName_} {}
-    // Get instance field: private UnityEngine.AssetBundleRequest m_RequestOperation
-    UnityEngine::AssetBundleRequest* _get_m_RequestOperation();
-    // Set instance field: private UnityEngine.AssetBundleRequest m_RequestOperation
-    void _set_m_RequestOperation(UnityEngine::AssetBundleRequest* value);
-    // Get instance field: private UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle m_ProvideHandle
-    UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle _get_m_ProvideHandle();
-    // Set instance field: private UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle m_ProvideHandle
-    void _set_m_ProvideHandle(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle value);
-    // Get instance field: private System.String subObjectName
-    ::Il2CppString* _get_subObjectName();
-    // Set instance field: private System.String subObjectName
-    void _set_subObjectName(::Il2CppString* value);
+    // Get instance field reference: private UnityEngine.AssetBundleRequest m_RequestOperation
+    UnityEngine::AssetBundleRequest*& dyn_m_RequestOperation();
+    // Get instance field reference: private UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle m_ProvideHandle
+    UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& dyn_m_ProvideHandle();
+    // Get instance field reference: private System.String subObjectName
+    ::Il2CppString*& dyn_subObjectName();
     // static UnityEngine.ResourceManagement.ResourceProviders.IAssetBundleResource LoadBundleFromDependecies(System.Collections.Generic.IList`1<System.Object> results)
     // Offset: 0x19EF268
     static UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource* LoadBundleFromDependecies(System::Collections::Generic::IList_1<::Il2CppObject*>* results);

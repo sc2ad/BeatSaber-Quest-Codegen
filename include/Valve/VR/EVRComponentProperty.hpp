@@ -62,10 +62,8 @@ namespace Valve::VR {
     static Valve::VR::EVRComponentProperty _get_IsScrolled();
     // Set static field: static public Valve.VR.EVRComponentProperty IsScrolled
     static void _set_IsScrolled(Valve::VR::EVRComponentProperty value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Valve.VR.EVRComponentProperty
   #pragma pack(pop)
   static check_size<sizeof(EVRComponentProperty), 0 + sizeof(int)> __Valve_VR_EVRComponentPropertySizeCheck;

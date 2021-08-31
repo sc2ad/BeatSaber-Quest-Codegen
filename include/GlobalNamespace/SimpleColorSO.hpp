@@ -32,10 +32,8 @@ namespace GlobalNamespace {
     SimpleColorSO(UnityEngine::Color color_ = {}) noexcept : color{color_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: protected UnityEngine.Color _color
-    UnityEngine::Color _get__color();
-    // Set instance field: protected UnityEngine.Color _color
-    void _set__color(UnityEngine::Color value);
+    // Get instance field reference: protected UnityEngine.Color _color
+    UnityEngine::Color& dyn__color();
     // public System.Void SetColor(UnityEngine.Color c)
     // Offset: 0x241F32C
     void SetColor(UnityEngine::Color c);

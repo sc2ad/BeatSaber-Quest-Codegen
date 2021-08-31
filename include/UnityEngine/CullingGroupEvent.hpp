@@ -41,18 +41,12 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private System.Int32 m_Index
-    int _get_m_Index();
-    // Set instance field: private System.Int32 m_Index
-    void _set_m_Index(int value);
-    // Get instance field: private System.Byte m_PrevState
-    uint8_t _get_m_PrevState();
-    // Set instance field: private System.Byte m_PrevState
-    void _set_m_PrevState(uint8_t value);
-    // Get instance field: private System.Byte m_ThisState
-    uint8_t _get_m_ThisState();
-    // Set instance field: private System.Byte m_ThisState
-    void _set_m_ThisState(uint8_t value);
+    // Get instance field reference: private System.Int32 m_Index
+    int& dyn_m_Index();
+    // Get instance field reference: private System.Byte m_PrevState
+    uint8_t& dyn_m_PrevState();
+    // Get instance field reference: private System.Byte m_ThisState
+    uint8_t& dyn_m_ThisState();
   }; // UnityEngine.CullingGroupEvent
   #pragma pack(pop)
   static check_size<sizeof(CullingGroupEvent), 5 + sizeof(uint8_t)> __UnityEngine_CullingGroupEventSizeCheck;

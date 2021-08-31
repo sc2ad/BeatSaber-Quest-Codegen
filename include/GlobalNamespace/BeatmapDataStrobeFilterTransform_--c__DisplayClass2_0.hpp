@@ -45,10 +45,8 @@ namespace GlobalNamespace {
     constexpr operator System::Collections::Generic::Dictionary_2<GlobalNamespace::BeatmapEventType, GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData*>*() const noexcept {
       return strobesDictionary;
     }
-    // Get instance field: public System.Collections.Generic.Dictionary`2<BeatmapEventType,BeatmapDataStrobeFilterTransform/StrobeStreakData> strobesDictionary
-    System::Collections::Generic::Dictionary_2<GlobalNamespace::BeatmapEventType, GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData*>* _get_strobesDictionary();
-    // Set instance field: public System.Collections.Generic.Dictionary`2<BeatmapEventType,BeatmapDataStrobeFilterTransform/StrobeStreakData> strobesDictionary
-    void _set_strobesDictionary(System::Collections::Generic::Dictionary_2<GlobalNamespace::BeatmapEventType, GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData*>* value);
+    // Get instance field reference: public System.Collections.Generic.Dictionary`2<BeatmapEventType,BeatmapDataStrobeFilterTransform/StrobeStreakData> strobesDictionary
+    System::Collections::Generic::Dictionary_2<GlobalNamespace::BeatmapEventType, GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData*>*& dyn_strobesDictionary();
   }; // BeatmapDataStrobeFilterTransform/<>c__DisplayClass2_0
   #pragma pack(pop)
   static check_size<sizeof(BeatmapDataStrobeFilterTransform::$$c__DisplayClass2_0), 0 + sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::BeatmapEventType, GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData*>*)> __GlobalNamespace_BeatmapDataStrobeFilterTransform_$$c__DisplayClass2_0SizeCheck;

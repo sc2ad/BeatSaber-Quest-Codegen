@@ -78,30 +78,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
     // Creating value type constructor for type: CapsuleVisualization
     CapsuleVisualization(UnityEngine::GameObject* CapsuleGO_ = {}, GlobalNamespace::OVRBoneCapsule* BoneCapsule_ = {}, UnityEngine::Vector3 capsuleScale_ = {}, UnityEngine::MeshRenderer* Renderer_ = {}, UnityEngine::Material* RenderMaterial_ = {}, UnityEngine::Material* SystemGestureMaterial_ = {}) noexcept : CapsuleGO{CapsuleGO_}, BoneCapsule{BoneCapsule_}, capsuleScale{capsuleScale_}, Renderer{Renderer_}, RenderMaterial{RenderMaterial_}, SystemGestureMaterial{SystemGestureMaterial_} {}
-    // Get instance field: private UnityEngine.GameObject CapsuleGO
-    UnityEngine::GameObject* _get_CapsuleGO();
-    // Set instance field: private UnityEngine.GameObject CapsuleGO
-    void _set_CapsuleGO(UnityEngine::GameObject* value);
-    // Get instance field: private OVRBoneCapsule BoneCapsule
-    GlobalNamespace::OVRBoneCapsule* _get_BoneCapsule();
-    // Set instance field: private OVRBoneCapsule BoneCapsule
-    void _set_BoneCapsule(GlobalNamespace::OVRBoneCapsule* value);
-    // Get instance field: private UnityEngine.Vector3 capsuleScale
-    UnityEngine::Vector3 _get_capsuleScale();
-    // Set instance field: private UnityEngine.Vector3 capsuleScale
-    void _set_capsuleScale(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.MeshRenderer Renderer
-    UnityEngine::MeshRenderer* _get_Renderer();
-    // Set instance field: private UnityEngine.MeshRenderer Renderer
-    void _set_Renderer(UnityEngine::MeshRenderer* value);
-    // Get instance field: private UnityEngine.Material RenderMaterial
-    UnityEngine::Material* _get_RenderMaterial();
-    // Set instance field: private UnityEngine.Material RenderMaterial
-    void _set_RenderMaterial(UnityEngine::Material* value);
-    // Get instance field: private UnityEngine.Material SystemGestureMaterial
-    UnityEngine::Material* _get_SystemGestureMaterial();
-    // Set instance field: private UnityEngine.Material SystemGestureMaterial
-    void _set_SystemGestureMaterial(UnityEngine::Material* value);
+    // Get instance field reference: private UnityEngine.GameObject CapsuleGO
+    UnityEngine::GameObject*& dyn_CapsuleGO();
+    // Get instance field reference: private OVRBoneCapsule BoneCapsule
+    GlobalNamespace::OVRBoneCapsule*& dyn_BoneCapsule();
+    // Get instance field reference: private UnityEngine.Vector3 capsuleScale
+    UnityEngine::Vector3& dyn_capsuleScale();
+    // Get instance field reference: private UnityEngine.MeshRenderer Renderer
+    UnityEngine::MeshRenderer*& dyn_Renderer();
+    // Get instance field reference: private UnityEngine.Material RenderMaterial
+    UnityEngine::Material*& dyn_RenderMaterial();
+    // Get instance field reference: private UnityEngine.Material SystemGestureMaterial
+    UnityEngine::Material*& dyn_SystemGestureMaterial();
     // public System.Void .ctor(UnityEngine.GameObject rootGO, UnityEngine.Material renderMat, UnityEngine.Material systemGestureMat, System.Single scale, OVRBoneCapsule boneCapsule)
     // Offset: 0x1F48044
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

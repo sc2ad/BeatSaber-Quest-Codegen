@@ -41,10 +41,8 @@ namespace OVR::OpenVR {
     constexpr operator OVR::OpenVR::IVRExtendedDisplay() const noexcept {
       return FnTable;
     }
-    // Get instance field: private OVR.OpenVR.IVRExtendedDisplay FnTable
-    OVR::OpenVR::IVRExtendedDisplay _get_FnTable();
-    // Set instance field: private OVR.OpenVR.IVRExtendedDisplay FnTable
-    void _set_FnTable(OVR::OpenVR::IVRExtendedDisplay value);
+    // Get instance field reference: private OVR.OpenVR.IVRExtendedDisplay FnTable
+    OVR::OpenVR::IVRExtendedDisplay& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0x15BD890
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

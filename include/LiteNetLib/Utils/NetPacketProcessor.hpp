@@ -111,18 +111,12 @@ namespace LiteNetLib::Utils {
     static_assert(sizeof(LiteNetLib::Utils::NetDataWriter*) == 0x8);
     // Creating value type constructor for type: NetPacketProcessor
     NetPacketProcessor(LiteNetLib::Utils::NetSerializer* netSerializer_ = {}, System::Collections::Generic::Dictionary_2<uint64_t, LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate*>* callbacks_ = {}, LiteNetLib::Utils::NetDataWriter* netDataWriter_ = {}) noexcept : netSerializer{netSerializer_}, callbacks{callbacks_}, netDataWriter{netDataWriter_} {}
-    // Get instance field: private readonly LiteNetLib.Utils.NetSerializer _netSerializer
-    LiteNetLib::Utils::NetSerializer* _get__netSerializer();
-    // Set instance field: private readonly LiteNetLib.Utils.NetSerializer _netSerializer
-    void _set__netSerializer(LiteNetLib::Utils::NetSerializer* value);
-    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<System.UInt64,LiteNetLib.Utils.NetPacketProcessor/LiteNetLib.Utils.SubscribeDelegate> _callbacks
-    System::Collections::Generic::Dictionary_2<uint64_t, LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate*>* _get__callbacks();
-    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<System.UInt64,LiteNetLib.Utils.NetPacketProcessor/LiteNetLib.Utils.SubscribeDelegate> _callbacks
-    void _set__callbacks(System::Collections::Generic::Dictionary_2<uint64_t, LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate*>* value);
-    // Get instance field: private readonly LiteNetLib.Utils.NetDataWriter _netDataWriter
-    LiteNetLib::Utils::NetDataWriter* _get__netDataWriter();
-    // Set instance field: private readonly LiteNetLib.Utils.NetDataWriter _netDataWriter
-    void _set__netDataWriter(LiteNetLib::Utils::NetDataWriter* value);
+    // Get instance field reference: private readonly LiteNetLib.Utils.NetSerializer _netSerializer
+    LiteNetLib::Utils::NetSerializer*& dyn__netSerializer();
+    // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.UInt64,LiteNetLib.Utils.NetPacketProcessor/LiteNetLib.Utils.SubscribeDelegate> _callbacks
+    System::Collections::Generic::Dictionary_2<uint64_t, LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate*>*& dyn__callbacks();
+    // Get instance field reference: private readonly LiteNetLib.Utils.NetDataWriter _netDataWriter
+    LiteNetLib::Utils::NetDataWriter*& dyn__netDataWriter();
     // public System.Void .ctor(System.Int32 maxStringLength)
     // Offset: 0x2410DDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

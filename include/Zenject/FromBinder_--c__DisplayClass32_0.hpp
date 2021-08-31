@@ -57,10 +57,8 @@ namespace Zenject {
     constexpr operator System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>*() const noexcept {
       return gameObjectGetter;
     }
-    // Get instance field: public System.Func`2<Zenject.InjectContext,UnityEngine.GameObject> gameObjectGetter
-    System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>* _get_gameObjectGetter();
-    // Set instance field: public System.Func`2<Zenject.InjectContext,UnityEngine.GameObject> gameObjectGetter
-    void _set_gameObjectGetter(System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>* value);
+    // Get instance field reference: public System.Func`2<Zenject.InjectContext,UnityEngine.GameObject> gameObjectGetter
+    System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>*& dyn_gameObjectGetter();
     // Zenject.IProvider <FromComponentOn>b__0(Zenject.DiContainer container, System.Type type)
     // Offset: 0x165C458
     Zenject::IProvider* $FromComponentOn$b__0(Zenject::DiContainer* container, System::Type* type);

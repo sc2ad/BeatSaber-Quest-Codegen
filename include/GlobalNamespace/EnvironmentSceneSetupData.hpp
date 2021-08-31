@@ -32,10 +32,8 @@ namespace GlobalNamespace {
     constexpr operator bool() const noexcept {
       return hideBranding;
     }
-    // Get instance field: public readonly System.Boolean hideBranding
-    bool _get_hideBranding();
-    // Set instance field: public readonly System.Boolean hideBranding
-    void _set_hideBranding(bool value);
+    // Get instance field reference: public readonly System.Boolean hideBranding
+    bool& dyn_hideBranding();
     // public System.Void .ctor(System.Boolean hideBranding)
     // Offset: 0x1052C00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

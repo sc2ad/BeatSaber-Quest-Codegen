@@ -88,30 +88,18 @@ namespace GlobalNamespace {
     BombCutSoundEffectManager(float volume_ = {}, ::Array<UnityEngine::AudioClip*>* bombExplosionAudioClips_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::SaberManager* saberManager_ = {}, GlobalNamespace::BombCutSoundEffect::Pool* bombCutSoundEffectPool_ = {}, GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* randomSoundPicker_ = {}) noexcept : volume{volume_}, bombExplosionAudioClips{bombExplosionAudioClips_}, beatmapObjectManager{beatmapObjectManager_}, saberManager{saberManager_}, bombCutSoundEffectPool{bombCutSoundEffectPool_}, randomSoundPicker{randomSoundPicker_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Single _volume
-    float _get__volume();
-    // Set instance field: private System.Single _volume
-    void _set__volume(float value);
-    // Get instance field: private UnityEngine.AudioClip[] _bombExplosionAudioClips
-    ::Array<UnityEngine::AudioClip*>* _get__bombExplosionAudioClips();
-    // Set instance field: private UnityEngine.AudioClip[] _bombExplosionAudioClips
-    void _set__bombExplosionAudioClips(::Array<UnityEngine::AudioClip*>* value);
-    // Get instance field: private readonly BeatmapObjectManager _beatmapObjectManager
-    GlobalNamespace::BeatmapObjectManager* _get__beatmapObjectManager();
-    // Set instance field: private readonly BeatmapObjectManager _beatmapObjectManager
-    void _set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager* value);
-    // Get instance field: private readonly SaberManager saberManager
-    GlobalNamespace::SaberManager* _get_saberManager();
-    // Set instance field: private readonly SaberManager saberManager
-    void _set_saberManager(GlobalNamespace::SaberManager* value);
-    // Get instance field: private readonly BombCutSoundEffect/Pool _bombCutSoundEffectPool
-    GlobalNamespace::BombCutSoundEffect::Pool* _get__bombCutSoundEffectPool();
-    // Set instance field: private readonly BombCutSoundEffect/Pool _bombCutSoundEffectPool
-    void _set__bombCutSoundEffectPool(GlobalNamespace::BombCutSoundEffect::Pool* value);
-    // Get instance field: private RandomObjectPicker`1<UnityEngine.AudioClip> _randomSoundPicker
-    GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* _get__randomSoundPicker();
-    // Set instance field: private RandomObjectPicker`1<UnityEngine.AudioClip> _randomSoundPicker
-    void _set__randomSoundPicker(GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* value);
+    // Get instance field reference: private System.Single _volume
+    float& dyn__volume();
+    // Get instance field reference: private UnityEngine.AudioClip[] _bombExplosionAudioClips
+    ::Array<UnityEngine::AudioClip*>*& dyn__bombExplosionAudioClips();
+    // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
+    GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
+    // Get instance field reference: private readonly SaberManager saberManager
+    GlobalNamespace::SaberManager*& dyn_saberManager();
+    // Get instance field reference: private readonly BombCutSoundEffect/Pool _bombCutSoundEffectPool
+    GlobalNamespace::BombCutSoundEffect::Pool*& dyn__bombCutSoundEffectPool();
+    // Get instance field reference: private RandomObjectPicker`1<UnityEngine.AudioClip> _randomSoundPicker
+    GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>*& dyn__randomSoundPicker();
     // protected System.Void Start()
     // Offset: 0x10D27C4
     void Start();

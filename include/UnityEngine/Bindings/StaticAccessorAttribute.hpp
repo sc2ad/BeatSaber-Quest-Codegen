@@ -40,14 +40,10 @@ namespace UnityEngine::Bindings {
     static_assert(sizeof(UnityEngine::Bindings::StaticAccessorType) == 0x4);
     // Creating value type constructor for type: StaticAccessorAttribute
     StaticAccessorAttribute(::Il2CppString* Name_ = {}, UnityEngine::Bindings::StaticAccessorType Type_ = {}) noexcept : Name{Name_}, Type{Type_} {}
-    // Get instance field: private System.String <Name>k__BackingField
-    ::Il2CppString* _get_$Name$k__BackingField();
-    // Set instance field: private System.String <Name>k__BackingField
-    void _set_$Name$k__BackingField(::Il2CppString* value);
-    // Get instance field: private UnityEngine.Bindings.StaticAccessorType <Type>k__BackingField
-    UnityEngine::Bindings::StaticAccessorType _get_$Type$k__BackingField();
-    // Set instance field: private UnityEngine.Bindings.StaticAccessorType <Type>k__BackingField
-    void _set_$Type$k__BackingField(UnityEngine::Bindings::StaticAccessorType value);
+    // Get instance field reference: private System.String <Name>k__BackingField
+    ::Il2CppString*& dyn_$Name$k__BackingField();
+    // Get instance field reference: private UnityEngine.Bindings.StaticAccessorType <Type>k__BackingField
+    UnityEngine::Bindings::StaticAccessorType& dyn_$Type$k__BackingField();
     // public System.Void set_Name(System.String value)
     // Offset: 0x241858C
     void set_Name(::Il2CppString* value);

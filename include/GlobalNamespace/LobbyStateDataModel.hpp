@@ -109,34 +109,20 @@ namespace GlobalNamespace {
     operator GlobalNamespace::ILobbyStateDataModel() noexcept {
       return *reinterpret_cast<GlobalNamespace::ILobbyStateDataModel*>(this);
     }
-    // Get instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    GlobalNamespace::IMultiplayerSessionManager* _get__multiplayerSessionManager();
-    // Set instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    void _set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
-    // Get instance field: private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
-    GlobalNamespace::IUnifiedNetworkPlayerModel* _get__unifiedNetworkPlayerModel();
-    // Set instance field: private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
-    void _set__unifiedNetworkPlayerModel(GlobalNamespace::IUnifiedNetworkPlayerModel* value);
-    // Get instance field: private System.Collections.Generic.List`1<IConnectedPlayer> _connectedPlayers
-    System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* _get__connectedPlayers();
-    // Set instance field: private System.Collections.Generic.List`1<IConnectedPlayer> _connectedPlayers
-    void _set__connectedPlayers(System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* value);
-    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,IConnectedPlayer> _connectedPlayersById
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::IConnectedPlayer*>* _get__connectedPlayersById();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,IConnectedPlayer> _connectedPlayersById
-    void _set__connectedPlayersById(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::IConnectedPlayer*>* value);
-    // Get instance field: private GameplayServerMode _gameServerMode
-    GlobalNamespace::GameplayServerMode _get__gameServerMode();
-    // Set instance field: private GameplayServerMode _gameServerMode
-    void _set__gameServerMode(GlobalNamespace::GameplayServerMode value);
-    // Get instance field: private System.Action`1<IConnectedPlayer> playerConnectedEvent
-    System::Action_1<GlobalNamespace::IConnectedPlayer*>* _get_playerConnectedEvent();
-    // Set instance field: private System.Action`1<IConnectedPlayer> playerConnectedEvent
-    void _set_playerConnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
-    // Get instance field: private System.Action`1<IConnectedPlayer> playerDisconnectedEvent
-    System::Action_1<GlobalNamespace::IConnectedPlayer*>* _get_playerDisconnectedEvent();
-    // Set instance field: private System.Action`1<IConnectedPlayer> playerDisconnectedEvent
-    void _set_playerDisconnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
+    // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
+    // Get instance field reference: private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
+    GlobalNamespace::IUnifiedNetworkPlayerModel*& dyn__unifiedNetworkPlayerModel();
+    // Get instance field reference: private System.Collections.Generic.List`1<IConnectedPlayer> _connectedPlayers
+    System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>*& dyn__connectedPlayers();
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,IConnectedPlayer> _connectedPlayersById
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::IConnectedPlayer*>*& dyn__connectedPlayersById();
+    // Get instance field reference: private GameplayServerMode _gameServerMode
+    GlobalNamespace::GameplayServerMode& dyn__gameServerMode();
+    // Get instance field reference: private System.Action`1<IConnectedPlayer> playerConnectedEvent
+    System::Action_1<GlobalNamespace::IConnectedPlayer*>*& dyn_playerConnectedEvent();
+    // Get instance field reference: private System.Action`1<IConnectedPlayer> playerDisconnectedEvent
+    System::Action_1<GlobalNamespace::IConnectedPlayer*>*& dyn_playerDisconnectedEvent();
     // public System.Boolean get_isConnected()
     // Offset: 0x120E100
     bool get_isConnected();

@@ -42,10 +42,8 @@ namespace Zenject {
     constexpr operator Zenject::DiContainer*() const noexcept {
       return subContainer;
     }
-    // Get instance field: public Zenject.DiContainer subContainer
-    Zenject::DiContainer* _get_subContainer();
-    // Set instance field: public Zenject.DiContainer subContainer
-    void _set_subContainer(Zenject::DiContainer* value);
+    // Get instance field reference: public Zenject.DiContainer subContainer
+    Zenject::DiContainer*& dyn_subContainer();
     // Zenject.ISubContainerCreator <ByInstance>b__0(Zenject.DiContainer _)
     // Offset: 0x171F9C8
     Zenject::ISubContainerCreator* $ByInstance$b__0(Zenject::DiContainer* _);

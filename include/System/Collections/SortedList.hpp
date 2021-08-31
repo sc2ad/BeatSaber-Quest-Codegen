@@ -125,38 +125,22 @@ namespace System::Collections {
     static ::Array<::Il2CppObject*>* _get_emptyArray();
     // Set static field: static private System.Object[] emptyArray
     static void _set_emptyArray(::Array<::Il2CppObject*>* value);
-    // Get instance field: private System.Object[] keys
-    ::Array<::Il2CppObject*>* _get_keys();
-    // Set instance field: private System.Object[] keys
-    void _set_keys(::Array<::Il2CppObject*>* value);
-    // Get instance field: private System.Object[] values
-    ::Array<::Il2CppObject*>* _get_values();
-    // Set instance field: private System.Object[] values
-    void _set_values(::Array<::Il2CppObject*>* value);
-    // Get instance field: private System.Int32 _size
-    int _get__size();
-    // Set instance field: private System.Int32 _size
-    void _set__size(int value);
-    // Get instance field: private System.Int32 version
-    int _get_version();
-    // Set instance field: private System.Int32 version
-    void _set_version(int value);
-    // Get instance field: private System.Collections.IComparer comparer
-    System::Collections::IComparer* _get_comparer();
-    // Set instance field: private System.Collections.IComparer comparer
-    void _set_comparer(System::Collections::IComparer* value);
-    // Get instance field: private System.Collections.SortedList/System.Collections.KeyList keyList
-    System::Collections::SortedList::KeyList* _get_keyList();
-    // Set instance field: private System.Collections.SortedList/System.Collections.KeyList keyList
-    void _set_keyList(System::Collections::SortedList::KeyList* value);
-    // Get instance field: private System.Collections.SortedList/System.Collections.ValueList valueList
-    System::Collections::SortedList::ValueList* _get_valueList();
-    // Set instance field: private System.Collections.SortedList/System.Collections.ValueList valueList
-    void _set_valueList(System::Collections::SortedList::ValueList* value);
-    // Get instance field: private System.Object _syncRoot
-    ::Il2CppObject* _get__syncRoot();
-    // Set instance field: private System.Object _syncRoot
-    void _set__syncRoot(::Il2CppObject* value);
+    // Get instance field reference: private System.Object[] keys
+    ::Array<::Il2CppObject*>*& dyn_keys();
+    // Get instance field reference: private System.Object[] values
+    ::Array<::Il2CppObject*>*& dyn_values();
+    // Get instance field reference: private System.Int32 _size
+    int& dyn__size();
+    // Get instance field reference: private System.Int32 version
+    int& dyn_version();
+    // Get instance field reference: private System.Collections.IComparer comparer
+    System::Collections::IComparer*& dyn_comparer();
+    // Get instance field reference: private System.Collections.SortedList/System.Collections.KeyList keyList
+    System::Collections::SortedList::KeyList*& dyn_keyList();
+    // Get instance field reference: private System.Collections.SortedList/System.Collections.ValueList valueList
+    System::Collections::SortedList::ValueList*& dyn_valueList();
+    // Get instance field reference: private System.Object _syncRoot
+    ::Il2CppObject*& dyn__syncRoot();
     // public System.Int32 get_Capacity()
     // Offset: 0x19B5310
     int get_Capacity();

@@ -48,10 +48,8 @@ namespace System::Threading {
     constexpr operator System::Threading::ExecutionContext*() const noexcept {
       return m_ec;
     }
-    // Get instance field: private System.Threading.ExecutionContext m_ec
-    System::Threading::ExecutionContext* _get_m_ec();
-    // Set instance field: private System.Threading.ExecutionContext m_ec
-    void _set_m_ec(System::Threading::ExecutionContext* value);
+    // Get instance field reference: private System.Threading.ExecutionContext m_ec
+    System::Threading::ExecutionContext*& dyn_m_ec();
     // public System.Boolean get_IsNull()
     // Offset: 0x18F50A0
     bool get_IsNull();

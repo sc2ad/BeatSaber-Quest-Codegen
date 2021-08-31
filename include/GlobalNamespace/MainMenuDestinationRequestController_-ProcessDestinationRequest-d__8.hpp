@@ -88,34 +88,20 @@ namespace GlobalNamespace {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
-    // Get instance field: public System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: public System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
-    System::Runtime::CompilerServices::AsyncVoidMethodBuilder _get_$$t__builder();
-    // Set instance field: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
-    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncVoidMethodBuilder value);
-    // Get instance field: public MenuDestination menuDestination
-    GlobalNamespace::MenuDestination* _get_menuDestination();
-    // Set instance field: public MenuDestination menuDestination
-    void _set_menuDestination(GlobalNamespace::MenuDestination* value);
-    // Get instance field: public MainMenuDestinationRequestController <>4__this
-    GlobalNamespace::MainMenuDestinationRequestController* _get_$$4__this();
-    // Set instance field: public MainMenuDestinationRequestController <>4__this
-    void _set_$$4__this(GlobalNamespace::MainMenuDestinationRequestController* value);
-    // Get instance field: private MainMenuDestinationRequestController/<>c__DisplayClass8_0 <>8__1
-    GlobalNamespace::MainMenuDestinationRequestController::$$c__DisplayClass8_0* _get_$$8__1();
-    // Set instance field: private MainMenuDestinationRequestController/<>c__DisplayClass8_0 <>8__1
-    void _set_$$8__1(GlobalNamespace::MainMenuDestinationRequestController::$$c__DisplayClass8_0* value);
-    // Get instance field: private System.Threading.CancellationToken <cancellationToken>5__2
-    System::Threading::CancellationToken _get_$cancellationToken$5__2();
-    // Set instance field: private System.Threading.CancellationToken <cancellationToken>5__2
-    void _set_$cancellationToken$5__2(System::Threading::CancellationToken value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
-    System::Runtime::CompilerServices::TaskAwaiter _get_$$u__1();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
-    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter value);
+    // Get instance field reference: public System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
+    System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
+    // Get instance field reference: public MenuDestination menuDestination
+    GlobalNamespace::MenuDestination*& dyn_menuDestination();
+    // Get instance field reference: public MainMenuDestinationRequestController <>4__this
+    GlobalNamespace::MainMenuDestinationRequestController*& dyn_$$4__this();
+    // Get instance field reference: private MainMenuDestinationRequestController/<>c__DisplayClass8_0 <>8__1
+    GlobalNamespace::MainMenuDestinationRequestController::$$c__DisplayClass8_0*& dyn_$$8__1();
+    // Get instance field reference: private System.Threading.CancellationToken <cancellationToken>5__2
+    System::Threading::CancellationToken& dyn_$cancellationToken$5__2();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
     // Offset: 0x10E13E0
     void MoveNext();

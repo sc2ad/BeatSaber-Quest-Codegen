@@ -53,14 +53,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Func_2<UnityEngine::GameObject*, UnityEngine::GameObject*>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass1_0
     $$c__DisplayClass1_0(System::Func_2<UnityEngine::GameObject*, UnityEngine::GameObject*>* instantiateMixedRealityBackgroundCameraGameObject_ = {}, System::Func_2<UnityEngine::GameObject*, UnityEngine::GameObject*>* instantiateMixedRealityForegroundCameraGameObject_ = {}) noexcept : instantiateMixedRealityBackgroundCameraGameObject{instantiateMixedRealityBackgroundCameraGameObject_}, instantiateMixedRealityForegroundCameraGameObject{instantiateMixedRealityForegroundCameraGameObject_} {}
-    // Get instance field: public System.Func`2<UnityEngine.GameObject,UnityEngine.GameObject> instantiateMixedRealityBackgroundCameraGameObject
-    System::Func_2<UnityEngine::GameObject*, UnityEngine::GameObject*>* _get_instantiateMixedRealityBackgroundCameraGameObject();
-    // Set instance field: public System.Func`2<UnityEngine.GameObject,UnityEngine.GameObject> instantiateMixedRealityBackgroundCameraGameObject
-    void _set_instantiateMixedRealityBackgroundCameraGameObject(System::Func_2<UnityEngine::GameObject*, UnityEngine::GameObject*>* value);
-    // Get instance field: public System.Func`2<UnityEngine.GameObject,UnityEngine.GameObject> instantiateMixedRealityForegroundCameraGameObject
-    System::Func_2<UnityEngine::GameObject*, UnityEngine::GameObject*>* _get_instantiateMixedRealityForegroundCameraGameObject();
-    // Set instance field: public System.Func`2<UnityEngine.GameObject,UnityEngine.GameObject> instantiateMixedRealityForegroundCameraGameObject
-    void _set_instantiateMixedRealityForegroundCameraGameObject(System::Func_2<UnityEngine::GameObject*, UnityEngine::GameObject*>* value);
+    // Get instance field reference: public System.Func`2<UnityEngine.GameObject,UnityEngine.GameObject> instantiateMixedRealityBackgroundCameraGameObject
+    System::Func_2<UnityEngine::GameObject*, UnityEngine::GameObject*>*& dyn_instantiateMixedRealityBackgroundCameraGameObject();
+    // Get instance field reference: public System.Func`2<UnityEngine.GameObject,UnityEngine.GameObject> instantiateMixedRealityForegroundCameraGameObject
+    System::Func_2<UnityEngine::GameObject*, UnityEngine::GameObject*>*& dyn_instantiateMixedRealityForegroundCameraGameObject();
     // UnityEngine.GameObject <Init>b__0(UnityEngine.GameObject mainCameraGameObject, OVRManager/MrcCameraType cameraType)
     // Offset: 0x1266978
     UnityEngine::GameObject* $Init$b__0(UnityEngine::GameObject* mainCameraGameObject, GlobalNamespace::OVRManager_MrcCameraType cameraType);

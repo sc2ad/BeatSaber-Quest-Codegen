@@ -99,30 +99,18 @@ namespace System::Security::Principal {
     static System::IntPtr _get_invalidWindows();
     // Set static field: static private System.IntPtr invalidWindows
     static void _set_invalidWindows(System::IntPtr value);
-    // Get instance field: private System.IntPtr _token
-    System::IntPtr _get__token();
-    // Set instance field: private System.IntPtr _token
-    void _set__token(System::IntPtr value);
-    // Get instance field: private System.String _type
-    ::Il2CppString* _get__type();
-    // Set instance field: private System.String _type
-    void _set__type(::Il2CppString* value);
-    // Get instance field: private System.Security.Principal.WindowsAccountType _account
-    System::Security::Principal::WindowsAccountType _get__account();
-    // Set instance field: private System.Security.Principal.WindowsAccountType _account
-    void _set__account(System::Security::Principal::WindowsAccountType value);
-    // Get instance field: private System.Boolean _authenticated
-    bool _get__authenticated();
-    // Set instance field: private System.Boolean _authenticated
-    void _set__authenticated(bool value);
-    // Get instance field: private System.String _name
-    ::Il2CppString* _get__name();
-    // Set instance field: private System.String _name
-    void _set__name(::Il2CppString* value);
-    // Get instance field: private System.Runtime.Serialization.SerializationInfo _info
-    System::Runtime::Serialization::SerializationInfo* _get__info();
-    // Set instance field: private System.Runtime.Serialization.SerializationInfo _info
-    void _set__info(System::Runtime::Serialization::SerializationInfo* value);
+    // Get instance field reference: private System.IntPtr _token
+    System::IntPtr& dyn__token();
+    // Get instance field reference: private System.String _type
+    ::Il2CppString*& dyn__type();
+    // Get instance field reference: private System.Security.Principal.WindowsAccountType _account
+    System::Security::Principal::WindowsAccountType& dyn__account();
+    // Get instance field reference: private System.Boolean _authenticated
+    bool& dyn__authenticated();
+    // Get instance field reference: private System.String _name
+    ::Il2CppString*& dyn__name();
+    // Get instance field reference: private System.Runtime.Serialization.SerializationInfo _info
+    System::Runtime::Serialization::SerializationInfo*& dyn__info();
     // public System.Void .ctor(System.IntPtr userToken, System.String type, System.Security.Principal.WindowsAccountType acctType, System.Boolean isAuthenticated)
     // Offset: 0x1B4AE94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -57,18 +57,12 @@ namespace Zenject {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: $$c__DisplayClass22_0
     $$c__DisplayClass22_0(::Il2CppObject* subIdentifier_ = {}, Zenject::InjectSources source_ = {}, bool matchAll_ = {}) noexcept : subIdentifier{subIdentifier_}, source{source_}, matchAll{matchAll_} {}
-    // Get instance field: public System.Object subIdentifier
-    ::Il2CppObject* _get_subIdentifier();
-    // Set instance field: public System.Object subIdentifier
-    void _set_subIdentifier(::Il2CppObject* value);
-    // Get instance field: public Zenject.InjectSources source
-    Zenject::InjectSources _get_source();
-    // Set instance field: public Zenject.InjectSources source
-    void _set_source(Zenject::InjectSources value);
-    // Get instance field: public System.Boolean matchAll
-    bool _get_matchAll();
-    // Set instance field: public System.Boolean matchAll
-    void _set_matchAll(bool value);
+    // Get instance field reference: public System.Object subIdentifier
+    ::Il2CppObject*& dyn_subIdentifier();
+    // Get instance field reference: public Zenject.InjectSources source
+    Zenject::InjectSources& dyn_source();
+    // Get instance field reference: public System.Boolean matchAll
+    bool& dyn_matchAll();
     // Zenject.IProvider <FromResolveInternal>b__0(Zenject.DiContainer container, System.Type type)
     // Offset: 0x165C250
     Zenject::IProvider* $FromResolveInternal$b__0(Zenject::DiContainer* container, System::Type* type);

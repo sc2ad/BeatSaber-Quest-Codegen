@@ -48,18 +48,12 @@ namespace GlobalNamespace {
     PS4Helper(System::Action* didGoToBackgroundExecutionEvent_ = {}, System::Action* didGoToForegroundExecutionEvent_ = {}, bool backgroundExecution_ = {}) noexcept : didGoToBackgroundExecutionEvent{didGoToBackgroundExecutionEvent_}, didGoToForegroundExecutionEvent{didGoToForegroundExecutionEvent_}, backgroundExecution{backgroundExecution_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Action didGoToBackgroundExecutionEvent
-    System::Action* _get_didGoToBackgroundExecutionEvent();
-    // Set instance field: private System.Action didGoToBackgroundExecutionEvent
-    void _set_didGoToBackgroundExecutionEvent(System::Action* value);
-    // Get instance field: private System.Action didGoToForegroundExecutionEvent
-    System::Action* _get_didGoToForegroundExecutionEvent();
-    // Set instance field: private System.Action didGoToForegroundExecutionEvent
-    void _set_didGoToForegroundExecutionEvent(System::Action* value);
-    // Get instance field: private System.Boolean _backgroundExecution
-    bool _get__backgroundExecution();
-    // Set instance field: private System.Boolean _backgroundExecution
-    void _set__backgroundExecution(bool value);
+    // Get instance field reference: private System.Action didGoToBackgroundExecutionEvent
+    System::Action*& dyn_didGoToBackgroundExecutionEvent();
+    // Get instance field reference: private System.Action didGoToForegroundExecutionEvent
+    System::Action*& dyn_didGoToForegroundExecutionEvent();
+    // Get instance field reference: private System.Boolean _backgroundExecution
+    bool& dyn__backgroundExecution();
     // public System.Void add_didGoToBackgroundExecutionEvent(System.Action value)
     // Offset: 0x102DBEC
     void add_didGoToBackgroundExecutionEvent(System::Action* value);

@@ -43,14 +43,10 @@ namespace UnityEngine::EventSystems {
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
     // Creating value type constructor for type: OVRPointerEventData
     OVRPointerEventData(UnityEngine::Ray worldSpaceRay_ = {}, UnityEngine::Vector2 swipeStart_ = {}) noexcept : worldSpaceRay{worldSpaceRay_}, swipeStart{swipeStart_} {}
-    // Get instance field: public UnityEngine.Ray worldSpaceRay
-    UnityEngine::Ray _get_worldSpaceRay();
-    // Set instance field: public UnityEngine.Ray worldSpaceRay
-    void _set_worldSpaceRay(UnityEngine::Ray value);
-    // Get instance field: public UnityEngine.Vector2 swipeStart
-    UnityEngine::Vector2 _get_swipeStart();
-    // Set instance field: public UnityEngine.Vector2 swipeStart
-    void _set_swipeStart(UnityEngine::Vector2 value);
+    // Get instance field reference: public UnityEngine.Ray worldSpaceRay
+    UnityEngine::Ray& dyn_worldSpaceRay();
+    // Get instance field reference: public UnityEngine.Vector2 swipeStart
+    UnityEngine::Vector2& dyn_swipeStart();
     // public System.Void .ctor(UnityEngine.EventSystems.EventSystem eventSystem)
     // Offset: 0x1F4DC64
     // Implemented from: UnityEngine.EventSystems.PointerEventData

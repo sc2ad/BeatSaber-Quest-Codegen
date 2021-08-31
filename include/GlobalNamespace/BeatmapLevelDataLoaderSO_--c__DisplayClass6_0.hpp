@@ -61,18 +61,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::BeatmapLevelDataSO*>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass6_0
     $$c__DisplayClass6_0(UnityEngine::AssetBundleCreateRequest* asetBundleCreateRequest_ = {}, ::Il2CppString* levelDataAssetName_ = {}, System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::BeatmapLevelDataSO*>* taskSource_ = {}) noexcept : asetBundleCreateRequest{asetBundleCreateRequest_}, levelDataAssetName{levelDataAssetName_}, taskSource{taskSource_} {}
-    // Get instance field: public UnityEngine.AssetBundleCreateRequest asetBundleCreateRequest
-    UnityEngine::AssetBundleCreateRequest* _get_asetBundleCreateRequest();
-    // Set instance field: public UnityEngine.AssetBundleCreateRequest asetBundleCreateRequest
-    void _set_asetBundleCreateRequest(UnityEngine::AssetBundleCreateRequest* value);
-    // Get instance field: public System.String levelDataAssetName
-    ::Il2CppString* _get_levelDataAssetName();
-    // Set instance field: public System.String levelDataAssetName
-    void _set_levelDataAssetName(::Il2CppString* value);
-    // Get instance field: public System.Threading.Tasks.TaskCompletionSource`1<BeatmapLevelDataSO> taskSource
-    System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::BeatmapLevelDataSO*>* _get_taskSource();
-    // Set instance field: public System.Threading.Tasks.TaskCompletionSource`1<BeatmapLevelDataSO> taskSource
-    void _set_taskSource(System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::BeatmapLevelDataSO*>* value);
+    // Get instance field reference: public UnityEngine.AssetBundleCreateRequest asetBundleCreateRequest
+    UnityEngine::AssetBundleCreateRequest*& dyn_asetBundleCreateRequest();
+    // Get instance field reference: public System.String levelDataAssetName
+    ::Il2CppString*& dyn_levelDataAssetName();
+    // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<BeatmapLevelDataSO> taskSource
+    System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::BeatmapLevelDataSO*>*& dyn_taskSource();
     // System.Void <LoadBeatmalLevelDataAsync>b__0(UnityEngine.AsyncOperation asyncOperation)
     // Offset: 0x11F6B94
     void $LoadBeatmalLevelDataAsync$b__0(UnityEngine::AsyncOperation* asyncOperation);

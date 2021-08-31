@@ -36,14 +36,10 @@ namespace System::Text {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: UTF32Decoder
     UTF32Decoder(int iChar_ = {}, int readByteCount_ = {}) noexcept : iChar{iChar_}, readByteCount{readByteCount_} {}
-    // Get instance field: System.Int32 iChar
-    int _get_iChar();
-    // Set instance field: System.Int32 iChar
-    void _set_iChar(int value);
-    // Get instance field: System.Int32 readByteCount
-    int _get_readByteCount();
-    // Set instance field: System.Int32 readByteCount
-    void _set_readByteCount(int value);
+    // Get instance field reference: System.Int32 iChar
+    int& dyn_iChar();
+    // Get instance field reference: System.Int32 readByteCount
+    int& dyn_readByteCount();
     // public System.Void .ctor(System.Text.UTF32Encoding encoding)
     // Offset: 0x1D7C044
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

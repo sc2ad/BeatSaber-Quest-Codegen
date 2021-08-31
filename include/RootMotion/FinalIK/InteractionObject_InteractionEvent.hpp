@@ -78,30 +78,18 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Events::UnityEvent*) == 0x8);
     // Creating value type constructor for type: InteractionEvent
     InteractionEvent(float time_ = {}, bool pause_ = {}, bool pickUp_ = {}, ::Array<RootMotion::FinalIK::InteractionObject::AnimatorEvent*>* animations_ = {}, ::Array<RootMotion::FinalIK::InteractionObject::Message*>* messages_ = {}, UnityEngine::Events::UnityEvent* unityEvent_ = {}) noexcept : time{time_}, pause{pause_}, pickUp{pickUp_}, animations{animations_}, messages{messages_}, unityEvent{unityEvent_} {}
-    // Get instance field: public System.Single time
-    float _get_time();
-    // Set instance field: public System.Single time
-    void _set_time(float value);
-    // Get instance field: public System.Boolean pause
-    bool _get_pause();
-    // Set instance field: public System.Boolean pause
-    void _set_pause(bool value);
-    // Get instance field: public System.Boolean pickUp
-    bool _get_pickUp();
-    // Set instance field: public System.Boolean pickUp
-    void _set_pickUp(bool value);
-    // Get instance field: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.AnimatorEvent[] animations
-    ::Array<RootMotion::FinalIK::InteractionObject::AnimatorEvent*>* _get_animations();
-    // Set instance field: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.AnimatorEvent[] animations
-    void _set_animations(::Array<RootMotion::FinalIK::InteractionObject::AnimatorEvent*>* value);
-    // Get instance field: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.Message[] messages
-    ::Array<RootMotion::FinalIK::InteractionObject::Message*>* _get_messages();
-    // Set instance field: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.Message[] messages
-    void _set_messages(::Array<RootMotion::FinalIK::InteractionObject::Message*>* value);
-    // Get instance field: public UnityEngine.Events.UnityEvent unityEvent
-    UnityEngine::Events::UnityEvent* _get_unityEvent();
-    // Set instance field: public UnityEngine.Events.UnityEvent unityEvent
-    void _set_unityEvent(UnityEngine::Events::UnityEvent* value);
+    // Get instance field reference: public System.Single time
+    float& dyn_time();
+    // Get instance field reference: public System.Boolean pause
+    bool& dyn_pause();
+    // Get instance field reference: public System.Boolean pickUp
+    bool& dyn_pickUp();
+    // Get instance field reference: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.AnimatorEvent[] animations
+    ::Array<RootMotion::FinalIK::InteractionObject::AnimatorEvent*>*& dyn_animations();
+    // Get instance field reference: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.Message[] messages
+    ::Array<RootMotion::FinalIK::InteractionObject::Message*>*& dyn_messages();
+    // Get instance field reference: public UnityEngine.Events.UnityEvent unityEvent
+    UnityEngine::Events::UnityEvent*& dyn_unityEvent();
     // public System.Void Activate(UnityEngine.Transform t)
     // Offset: 0x1E8D180
     void Activate(UnityEngine::Transform* t);

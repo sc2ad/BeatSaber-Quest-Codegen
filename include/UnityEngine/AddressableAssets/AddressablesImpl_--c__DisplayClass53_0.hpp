@@ -40,10 +40,8 @@ namespace UnityEngine::AddressableAssets {
     constexpr operator UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*() const noexcept {
       return loc;
     }
-    // Get instance field: public UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator loc
-    UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* _get_loc();
-    // Set instance field: public UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator loc
-    void _set_loc(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* value);
+    // Get instance field reference: public UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator loc
+    UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*& dyn_loc();
     // System.Boolean <RemoveResourceLocator>b__0(UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.ResourceLocatorInfo l)
     // Offset: 0x1442680
     bool $RemoveResourceLocator$b__0(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo* l);

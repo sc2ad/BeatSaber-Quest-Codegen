@@ -54,18 +54,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_3<GlobalNamespace::ColorHueSlider*, float, GlobalNamespace::ColorChangeUIEventType>*) == 0x8);
     // Creating value type constructor for type: ColorHueSlider
     ColorHueSlider(UnityEngine::Color darkColor_ = {}, UnityEngine::Color lightColor_ = {}, System::Action_3<GlobalNamespace::ColorHueSlider*, float, GlobalNamespace::ColorChangeUIEventType>* colorHueDidChangeEvent_ = {}) noexcept : darkColor{darkColor_}, lightColor{lightColor_}, colorHueDidChangeEvent{colorHueDidChangeEvent_} {}
-    // Get instance field: private UnityEngine.Color _darkColor
-    UnityEngine::Color _get__darkColor();
-    // Set instance field: private UnityEngine.Color _darkColor
-    void _set__darkColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _lightColor
-    UnityEngine::Color _get__lightColor();
-    // Set instance field: private UnityEngine.Color _lightColor
-    void _set__lightColor(UnityEngine::Color value);
-    // Get instance field: private System.Action`3<ColorHueSlider,System.Single,ColorChangeUIEventType> colorHueDidChangeEvent
-    System::Action_3<GlobalNamespace::ColorHueSlider*, float, GlobalNamespace::ColorChangeUIEventType>* _get_colorHueDidChangeEvent();
-    // Set instance field: private System.Action`3<ColorHueSlider,System.Single,ColorChangeUIEventType> colorHueDidChangeEvent
-    void _set_colorHueDidChangeEvent(System::Action_3<GlobalNamespace::ColorHueSlider*, float, GlobalNamespace::ColorChangeUIEventType>* value);
+    // Get instance field reference: private UnityEngine.Color _darkColor
+    UnityEngine::Color& dyn__darkColor();
+    // Get instance field reference: private UnityEngine.Color _lightColor
+    UnityEngine::Color& dyn__lightColor();
+    // Get instance field reference: private System.Action`3<ColorHueSlider,System.Single,ColorChangeUIEventType> colorHueDidChangeEvent
+    System::Action_3<GlobalNamespace::ColorHueSlider*, float, GlobalNamespace::ColorChangeUIEventType>*& dyn_colorHueDidChangeEvent();
     // public System.Void add_colorHueDidChangeEvent(System.Action`3<ColorHueSlider,System.Single,ColorChangeUIEventType> value)
     // Offset: 0x10ED7FC
     void add_colorHueDidChangeEvent(System::Action_3<GlobalNamespace::ColorHueSlider*, float, GlobalNamespace::ColorChangeUIEventType>* value);

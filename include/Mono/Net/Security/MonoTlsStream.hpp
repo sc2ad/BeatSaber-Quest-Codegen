@@ -90,34 +90,20 @@ namespace Mono::Net::Security {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: MonoTlsStream
     MonoTlsStream(Mono::Security::Interface::MonoTlsProvider* provider_ = {}, System::Net::Sockets::NetworkStream* networkStream_ = {}, System::Net::HttpWebRequest* request_ = {}, Mono::Security::Interface::MonoTlsSettings* settings_ = {}, Mono::Security::Interface::IMonoSslStream* sslStream_ = {}, System::Net::WebExceptionStatus status_ = {}, bool CertificateValidationFailed_ = {}) noexcept : provider{provider_}, networkStream{networkStream_}, request{request_}, settings{settings_}, sslStream{sslStream_}, status{status_}, CertificateValidationFailed{CertificateValidationFailed_} {}
-    // Get instance field: private readonly Mono.Security.Interface.MonoTlsProvider provider
-    Mono::Security::Interface::MonoTlsProvider* _get_provider();
-    // Set instance field: private readonly Mono.Security.Interface.MonoTlsProvider provider
-    void _set_provider(Mono::Security::Interface::MonoTlsProvider* value);
-    // Get instance field: private readonly System.Net.Sockets.NetworkStream networkStream
-    System::Net::Sockets::NetworkStream* _get_networkStream();
-    // Set instance field: private readonly System.Net.Sockets.NetworkStream networkStream
-    void _set_networkStream(System::Net::Sockets::NetworkStream* value);
-    // Get instance field: private readonly System.Net.HttpWebRequest request
-    System::Net::HttpWebRequest* _get_request();
-    // Set instance field: private readonly System.Net.HttpWebRequest request
-    void _set_request(System::Net::HttpWebRequest* value);
-    // Get instance field: private readonly Mono.Security.Interface.MonoTlsSettings settings
-    Mono::Security::Interface::MonoTlsSettings* _get_settings();
-    // Set instance field: private readonly Mono.Security.Interface.MonoTlsSettings settings
-    void _set_settings(Mono::Security::Interface::MonoTlsSettings* value);
-    // Get instance field: private Mono.Security.Interface.IMonoSslStream sslStream
-    Mono::Security::Interface::IMonoSslStream* _get_sslStream();
-    // Set instance field: private Mono.Security.Interface.IMonoSslStream sslStream
-    void _set_sslStream(Mono::Security::Interface::IMonoSslStream* value);
-    // Get instance field: private System.Net.WebExceptionStatus status
-    System::Net::WebExceptionStatus _get_status();
-    // Set instance field: private System.Net.WebExceptionStatus status
-    void _set_status(System::Net::WebExceptionStatus value);
-    // Get instance field: private System.Boolean <CertificateValidationFailed>k__BackingField
-    bool _get_$CertificateValidationFailed$k__BackingField();
-    // Set instance field: private System.Boolean <CertificateValidationFailed>k__BackingField
-    void _set_$CertificateValidationFailed$k__BackingField(bool value);
+    // Get instance field reference: private readonly Mono.Security.Interface.MonoTlsProvider provider
+    Mono::Security::Interface::MonoTlsProvider*& dyn_provider();
+    // Get instance field reference: private readonly System.Net.Sockets.NetworkStream networkStream
+    System::Net::Sockets::NetworkStream*& dyn_networkStream();
+    // Get instance field reference: private readonly System.Net.HttpWebRequest request
+    System::Net::HttpWebRequest*& dyn_request();
+    // Get instance field reference: private readonly Mono.Security.Interface.MonoTlsSettings settings
+    Mono::Security::Interface::MonoTlsSettings*& dyn_settings();
+    // Get instance field reference: private Mono.Security.Interface.IMonoSslStream sslStream
+    Mono::Security::Interface::IMonoSslStream*& dyn_sslStream();
+    // Get instance field reference: private System.Net.WebExceptionStatus status
+    System::Net::WebExceptionStatus& dyn_status();
+    // Get instance field reference: private System.Boolean <CertificateValidationFailed>k__BackingField
+    bool& dyn_$CertificateValidationFailed$k__BackingField();
     // System.Net.HttpWebRequest get_Request()
     // Offset: 0x15EC284
     System::Net::HttpWebRequest* get_Request();

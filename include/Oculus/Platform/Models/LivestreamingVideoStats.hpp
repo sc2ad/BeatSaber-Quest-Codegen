@@ -40,18 +40,12 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: LivestreamingVideoStats
     LivestreamingVideoStats(int CommentCount_ = {}, int ReactionCount_ = {}, ::Il2CppString* TotalViews_ = {}) noexcept : CommentCount{CommentCount_}, ReactionCount{ReactionCount_}, TotalViews{TotalViews_} {}
-    // Get instance field: public readonly System.Int32 CommentCount
-    int _get_CommentCount();
-    // Set instance field: public readonly System.Int32 CommentCount
-    void _set_CommentCount(int value);
-    // Get instance field: public readonly System.Int32 ReactionCount
-    int _get_ReactionCount();
-    // Set instance field: public readonly System.Int32 ReactionCount
-    void _set_ReactionCount(int value);
-    // Get instance field: public readonly System.String TotalViews
-    ::Il2CppString* _get_TotalViews();
-    // Set instance field: public readonly System.String TotalViews
-    void _set_TotalViews(::Il2CppString* value);
+    // Get instance field reference: public readonly System.Int32 CommentCount
+    int& dyn_CommentCount();
+    // Get instance field reference: public readonly System.Int32 ReactionCount
+    int& dyn_ReactionCount();
+    // Get instance field reference: public readonly System.String TotalViews
+    ::Il2CppString*& dyn_TotalViews();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14EC3D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

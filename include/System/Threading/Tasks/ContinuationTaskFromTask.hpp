@@ -41,10 +41,8 @@ namespace System::Threading::Tasks {
     constexpr operator System::Threading::Tasks::Task*() const noexcept {
       return m_antecedent;
     }
-    // Get instance field: private System.Threading.Tasks.Task m_antecedent
-    System::Threading::Tasks::Task* _get_m_antecedent();
-    // Set instance field: private System.Threading.Tasks.Task m_antecedent
-    void _set_m_antecedent(System::Threading::Tasks::Task* value);
+    // Get instance field reference: private System.Threading.Tasks.Task m_antecedent
+    System::Threading::Tasks::Task*& dyn_m_antecedent();
     // public System.Void .ctor(System.Threading.Tasks.Task antecedent, System.Delegate action, System.Object state, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.Tasks.InternalTaskOptions internalOptions, ref System.Threading.StackCrawlMark stackMark)
     // Offset: 0x18FCA74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

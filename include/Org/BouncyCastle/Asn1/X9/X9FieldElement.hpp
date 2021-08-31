@@ -44,10 +44,8 @@ namespace Org::BouncyCastle::Asn1::X9 {
     constexpr operator Org::BouncyCastle::Math::EC::ECFieldElement*() const noexcept {
       return f;
     }
-    // Get instance field: private Org.BouncyCastle.Math.EC.ECFieldElement f
-    Org::BouncyCastle::Math::EC::ECFieldElement* _get_f();
-    // Set instance field: private Org.BouncyCastle.Math.EC.ECFieldElement f
-    void _set_f(Org::BouncyCastle::Math::EC::ECFieldElement* value);
+    // Get instance field reference: private Org.BouncyCastle.Math.EC.ECFieldElement f
+    Org::BouncyCastle::Math::EC::ECFieldElement*& dyn_f();
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECFieldElement f)
     // Offset: 0x1A08D84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

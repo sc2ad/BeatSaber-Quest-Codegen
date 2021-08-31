@@ -45,14 +45,10 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::Array<RootMotion::FinalIK::OffsetModifier::OffsetLimits*>*) == 0x8);
     // Creating value type constructor for type: Inertia
     Inertia(::Array<RootMotion::FinalIK::Inertia::Body*>* bodies_ = {}, ::Array<RootMotion::FinalIK::OffsetModifier::OffsetLimits*>* limits_ = {}) noexcept : bodies{bodies_}, limits{limits_} {}
-    // Get instance field: public RootMotion.FinalIK.Inertia/RootMotion.FinalIK.Body[] bodies
-    ::Array<RootMotion::FinalIK::Inertia::Body*>* _get_bodies();
-    // Set instance field: public RootMotion.FinalIK.Inertia/RootMotion.FinalIK.Body[] bodies
-    void _set_bodies(::Array<RootMotion::FinalIK::Inertia::Body*>* value);
-    // Get instance field: public RootMotion.FinalIK.OffsetModifier/RootMotion.FinalIK.OffsetLimits[] limits
-    ::Array<RootMotion::FinalIK::OffsetModifier::OffsetLimits*>* _get_limits();
-    // Set instance field: public RootMotion.FinalIK.OffsetModifier/RootMotion.FinalIK.OffsetLimits[] limits
-    void _set_limits(::Array<RootMotion::FinalIK::OffsetModifier::OffsetLimits*>* value);
+    // Get instance field reference: public RootMotion.FinalIK.Inertia/RootMotion.FinalIK.Body[] bodies
+    ::Array<RootMotion::FinalIK::Inertia::Body*>*& dyn_bodies();
+    // Get instance field reference: public RootMotion.FinalIK.OffsetModifier/RootMotion.FinalIK.OffsetLimits[] limits
+    ::Array<RootMotion::FinalIK::OffsetModifier::OffsetLimits*>*& dyn_limits();
     // public System.Void ResetBodies()
     // Offset: 0x1E8A19C
     void ResetBodies();

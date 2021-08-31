@@ -188,62 +188,34 @@ namespace GlobalNamespace {
     MenuTransitionsHelper(GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* appInitScenesTransitionSetupDataContainer_ = {}, GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData_ = {}, GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData_ = {}, GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData_ = {}, GlobalNamespace::TutorialScenesTransitionSetupDataSO* tutorialScenesTransitionSetupData_ = {}, GlobalNamespace::CreditsScenesTransitionSetupDataSO* creditsScenesTransitionSetupData_ = {}, GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO* beatmapEditorScenesTransitionSetupData_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>* standardLevelFinishedCallback_ = {}, System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>* multiplayerLevelFinishedCallback_ = {}, System::Action_1<GlobalNamespace::DisconnectedReason>* multiplayerDidDisconnectCallback_ = {}, System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>* missionLevelFinishedCallback_ = {}, System::Action* beatmapEditorFinishedCallback_ = {}) noexcept : appInitScenesTransitionSetupDataContainer{appInitScenesTransitionSetupDataContainer_}, standardLevelScenesTransitionSetupData{standardLevelScenesTransitionSetupData_}, multiplayerLevelScenesTransitionSetupData{multiplayerLevelScenesTransitionSetupData_}, missionLevelScenesTransitionSetupData{missionLevelScenesTransitionSetupData_}, tutorialScenesTransitionSetupData{tutorialScenesTransitionSetupData_}, creditsScenesTransitionSetupData{creditsScenesTransitionSetupData_}, beatmapEditorScenesTransitionSetupData{beatmapEditorScenesTransitionSetupData_}, mainSettingsModel{mainSettingsModel_}, gameScenesManager{gameScenesManager_}, standardLevelFinishedCallback{standardLevelFinishedCallback_}, multiplayerLevelFinishedCallback{multiplayerLevelFinishedCallback_}, multiplayerDidDisconnectCallback{multiplayerDidDisconnectCallback_}, missionLevelFinishedCallback{missionLevelFinishedCallback_}, beatmapEditorFinishedCallback{beatmapEditorFinishedCallback_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private AppInitScenesTransitionSetupDataContainerSO _appInitScenesTransitionSetupDataContainer
-    GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* _get__appInitScenesTransitionSetupDataContainer();
-    // Set instance field: private AppInitScenesTransitionSetupDataContainerSO _appInitScenesTransitionSetupDataContainer
-    void _set__appInitScenesTransitionSetupDataContainer(GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* value);
-    // Get instance field: private StandardLevelScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData
-    GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* _get__standardLevelScenesTransitionSetupData();
-    // Set instance field: private StandardLevelScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData
-    void _set__standardLevelScenesTransitionSetupData(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* value);
-    // Get instance field: private MultiplayerLevelScenesTransitionSetupDataSO _multiplayerLevelScenesTransitionSetupData
-    GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* _get__multiplayerLevelScenesTransitionSetupData();
-    // Set instance field: private MultiplayerLevelScenesTransitionSetupDataSO _multiplayerLevelScenesTransitionSetupData
-    void _set__multiplayerLevelScenesTransitionSetupData(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* value);
-    // Get instance field: private MissionLevelScenesTransitionSetupDataSO _missionLevelScenesTransitionSetupData
-    GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* _get__missionLevelScenesTransitionSetupData();
-    // Set instance field: private MissionLevelScenesTransitionSetupDataSO _missionLevelScenesTransitionSetupData
-    void _set__missionLevelScenesTransitionSetupData(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* value);
-    // Get instance field: private TutorialScenesTransitionSetupDataSO _tutorialScenesTransitionSetupData
-    GlobalNamespace::TutorialScenesTransitionSetupDataSO* _get__tutorialScenesTransitionSetupData();
-    // Set instance field: private TutorialScenesTransitionSetupDataSO _tutorialScenesTransitionSetupData
-    void _set__tutorialScenesTransitionSetupData(GlobalNamespace::TutorialScenesTransitionSetupDataSO* value);
-    // Get instance field: private CreditsScenesTransitionSetupDataSO _creditsScenesTransitionSetupData
-    GlobalNamespace::CreditsScenesTransitionSetupDataSO* _get__creditsScenesTransitionSetupData();
-    // Set instance field: private CreditsScenesTransitionSetupDataSO _creditsScenesTransitionSetupData
-    void _set__creditsScenesTransitionSetupData(GlobalNamespace::CreditsScenesTransitionSetupDataSO* value);
-    // Get instance field: private BeatmapEditorScenesTransitionSetupDataSO _beatmapEditorScenesTransitionSetupData
-    GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO* _get__beatmapEditorScenesTransitionSetupData();
-    // Set instance field: private BeatmapEditorScenesTransitionSetupDataSO _beatmapEditorScenesTransitionSetupData
-    void _set__beatmapEditorScenesTransitionSetupData(GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO* value);
-    // Get instance field: private MainSettingsModelSO _mainSettingsModel
-    GlobalNamespace::MainSettingsModelSO* _get__mainSettingsModel();
-    // Set instance field: private MainSettingsModelSO _mainSettingsModel
-    void _set__mainSettingsModel(GlobalNamespace::MainSettingsModelSO* value);
-    // Get instance field: private readonly GameScenesManager _gameScenesManager
-    GlobalNamespace::GameScenesManager* _get__gameScenesManager();
-    // Set instance field: private readonly GameScenesManager _gameScenesManager
-    void _set__gameScenesManager(GlobalNamespace::GameScenesManager* value);
-    // Get instance field: private System.Action`2<StandardLevelScenesTransitionSetupDataSO,LevelCompletionResults> _standardLevelFinishedCallback
-    System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>* _get__standardLevelFinishedCallback();
-    // Set instance field: private System.Action`2<StandardLevelScenesTransitionSetupDataSO,LevelCompletionResults> _standardLevelFinishedCallback
-    void _set__standardLevelFinishedCallback(System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>* value);
-    // Get instance field: private System.Action`2<MultiplayerLevelScenesTransitionSetupDataSO,MultiplayerResultsData> _multiplayerLevelFinishedCallback
-    System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>* _get__multiplayerLevelFinishedCallback();
-    // Set instance field: private System.Action`2<MultiplayerLevelScenesTransitionSetupDataSO,MultiplayerResultsData> _multiplayerLevelFinishedCallback
-    void _set__multiplayerLevelFinishedCallback(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>* value);
-    // Get instance field: private System.Action`1<DisconnectedReason> _multiplayerDidDisconnectCallback
-    System::Action_1<GlobalNamespace::DisconnectedReason>* _get__multiplayerDidDisconnectCallback();
-    // Set instance field: private System.Action`1<DisconnectedReason> _multiplayerDidDisconnectCallback
-    void _set__multiplayerDidDisconnectCallback(System::Action_1<GlobalNamespace::DisconnectedReason>* value);
-    // Get instance field: private System.Action`2<MissionLevelScenesTransitionSetupDataSO,MissionCompletionResults> _missionLevelFinishedCallback
-    System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>* _get__missionLevelFinishedCallback();
-    // Set instance field: private System.Action`2<MissionLevelScenesTransitionSetupDataSO,MissionCompletionResults> _missionLevelFinishedCallback
-    void _set__missionLevelFinishedCallback(System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>* value);
-    // Get instance field: private System.Action _beatmapEditorFinishedCallback
-    System::Action* _get__beatmapEditorFinishedCallback();
-    // Set instance field: private System.Action _beatmapEditorFinishedCallback
-    void _set__beatmapEditorFinishedCallback(System::Action* value);
+    // Get instance field reference: private AppInitScenesTransitionSetupDataContainerSO _appInitScenesTransitionSetupDataContainer
+    GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO*& dyn__appInitScenesTransitionSetupDataContainer();
+    // Get instance field reference: private StandardLevelScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData
+    GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*& dyn__standardLevelScenesTransitionSetupData();
+    // Get instance field reference: private MultiplayerLevelScenesTransitionSetupDataSO _multiplayerLevelScenesTransitionSetupData
+    GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*& dyn__multiplayerLevelScenesTransitionSetupData();
+    // Get instance field reference: private MissionLevelScenesTransitionSetupDataSO _missionLevelScenesTransitionSetupData
+    GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*& dyn__missionLevelScenesTransitionSetupData();
+    // Get instance field reference: private TutorialScenesTransitionSetupDataSO _tutorialScenesTransitionSetupData
+    GlobalNamespace::TutorialScenesTransitionSetupDataSO*& dyn__tutorialScenesTransitionSetupData();
+    // Get instance field reference: private CreditsScenesTransitionSetupDataSO _creditsScenesTransitionSetupData
+    GlobalNamespace::CreditsScenesTransitionSetupDataSO*& dyn__creditsScenesTransitionSetupData();
+    // Get instance field reference: private BeatmapEditorScenesTransitionSetupDataSO _beatmapEditorScenesTransitionSetupData
+    GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*& dyn__beatmapEditorScenesTransitionSetupData();
+    // Get instance field reference: private MainSettingsModelSO _mainSettingsModel
+    GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
+    // Get instance field reference: private readonly GameScenesManager _gameScenesManager
+    GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
+    // Get instance field reference: private System.Action`2<StandardLevelScenesTransitionSetupDataSO,LevelCompletionResults> _standardLevelFinishedCallback
+    System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>*& dyn__standardLevelFinishedCallback();
+    // Get instance field reference: private System.Action`2<MultiplayerLevelScenesTransitionSetupDataSO,MultiplayerResultsData> _multiplayerLevelFinishedCallback
+    System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>*& dyn__multiplayerLevelFinishedCallback();
+    // Get instance field reference: private System.Action`1<DisconnectedReason> _multiplayerDidDisconnectCallback
+    System::Action_1<GlobalNamespace::DisconnectedReason>*& dyn__multiplayerDidDisconnectCallback();
+    // Get instance field reference: private System.Action`2<MissionLevelScenesTransitionSetupDataSO,MissionCompletionResults> _missionLevelFinishedCallback
+    System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>*& dyn__missionLevelFinishedCallback();
+    // Get instance field reference: private System.Action _beatmapEditorFinishedCallback
+    System::Action*& dyn__beatmapEditorFinishedCallback();
     // public System.Void StartStandardLevel(System.String gameMode, IDifficultyBeatmap difficultyBeatmap, IPreviewBeatmapLevel previewBeatmapLevel, OverrideEnvironmentSettings overrideEnvironmentSettings, ColorScheme overrideColorScheme, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, PracticeSettings practiceSettings, System.String backButtonText, System.Boolean useTestNoteCutSoundEffects, System.Action beforeSceneSwitchCallback, System.Action`2<StandardLevelScenesTransitionSetupDataSO,LevelCompletionResults> levelFinishedCallback)
     // Offset: 0x10E6858
     void StartStandardLevel(::Il2CppString* gameMode, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, GlobalNamespace::ColorScheme* overrideColorScheme, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, GlobalNamespace::PracticeSettings* practiceSettings, ::Il2CppString* backButtonText, bool useTestNoteCutSoundEffects, System::Action* beforeSceneSwitchCallback, System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>* levelFinishedCallback);

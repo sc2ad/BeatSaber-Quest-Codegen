@@ -88,46 +88,26 @@ namespace Org::BouncyCastle::Crypto::Digests {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: RipeMD256Digest
     RipeMD256Digest(int H0_ = {}, int H1_ = {}, int H2_ = {}, int H3_ = {}, int H4_ = {}, int H5_ = {}, int H6_ = {}, int H7_ = {}, ::Array<int>* X_ = {}, int xOff_ = {}) noexcept : H0{H0_}, H1{H1_}, H2{H2_}, H3{H3_}, H4{H4_}, H5{H5_}, H6{H6_}, H7{H7_}, X{X_}, xOff{xOff_} {}
-    // Get instance field: private System.Int32 H0
-    int _get_H0();
-    // Set instance field: private System.Int32 H0
-    void _set_H0(int value);
-    // Get instance field: private System.Int32 H1
-    int _get_H1();
-    // Set instance field: private System.Int32 H1
-    void _set_H1(int value);
-    // Get instance field: private System.Int32 H2
-    int _get_H2();
-    // Set instance field: private System.Int32 H2
-    void _set_H2(int value);
-    // Get instance field: private System.Int32 H3
-    int _get_H3();
-    // Set instance field: private System.Int32 H3
-    void _set_H3(int value);
-    // Get instance field: private System.Int32 H4
-    int _get_H4();
-    // Set instance field: private System.Int32 H4
-    void _set_H4(int value);
-    // Get instance field: private System.Int32 H5
-    int _get_H5();
-    // Set instance field: private System.Int32 H5
-    void _set_H5(int value);
-    // Get instance field: private System.Int32 H6
-    int _get_H6();
-    // Set instance field: private System.Int32 H6
-    void _set_H6(int value);
-    // Get instance field: private System.Int32 H7
-    int _get_H7();
-    // Set instance field: private System.Int32 H7
-    void _set_H7(int value);
-    // Get instance field: private System.Int32[] X
-    ::Array<int>* _get_X();
-    // Set instance field: private System.Int32[] X
-    void _set_X(::Array<int>* value);
-    // Get instance field: private System.Int32 xOff
-    int _get_xOff();
-    // Set instance field: private System.Int32 xOff
-    void _set_xOff(int value);
+    // Get instance field reference: private System.Int32 H0
+    int& dyn_H0();
+    // Get instance field reference: private System.Int32 H1
+    int& dyn_H1();
+    // Get instance field reference: private System.Int32 H2
+    int& dyn_H2();
+    // Get instance field reference: private System.Int32 H3
+    int& dyn_H3();
+    // Get instance field reference: private System.Int32 H4
+    int& dyn_H4();
+    // Get instance field reference: private System.Int32 H5
+    int& dyn_H5();
+    // Get instance field reference: private System.Int32 H6
+    int& dyn_H6();
+    // Get instance field reference: private System.Int32 H7
+    int& dyn_H7();
+    // Get instance field reference: private System.Int32[] X
+    ::Array<int>*& dyn_X();
+    // Get instance field reference: private System.Int32 xOff
+    int& dyn_xOff();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.RipeMD256Digest t)
     // Offset: 0x1D68BD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

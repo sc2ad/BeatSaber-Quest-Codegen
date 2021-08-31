@@ -36,10 +36,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     constexpr operator ::Array<uint8_t>*() const noexcept {
       return key;
     }
-    // Get instance field: private readonly System.Byte[] key
-    ::Array<uint8_t>* _get_key();
-    // Set instance field: private readonly System.Byte[] key
-    void _set_key(::Array<uint8_t>* value);
+    // Get instance field reference: private readonly System.Byte[] key
+    ::Array<uint8_t>*& dyn_key();
     // public System.Void .ctor(System.Byte[] key)
     // Offset: 0x1271DDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

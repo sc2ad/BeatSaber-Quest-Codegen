@@ -71,26 +71,16 @@ namespace GlobalNamespace {
     MaterialPropertyValuesSetter(GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController_ = {}, ::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameFloatValuePair*>* floats_ = {}, ::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameVectorValuePair*>* vectors_ = {}, ::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameColorValuePair*>* colors_ = {}, ::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameIntValuePair*>* ints_ = {}) noexcept : materialPropertyBlockController{materialPropertyBlockController_}, floats{floats_}, vectors{vectors_}, colors{colors_}, ints{ints_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private MaterialPropertyBlockController _materialPropertyBlockController
-    GlobalNamespace::MaterialPropertyBlockController* _get__materialPropertyBlockController();
-    // Set instance field: private MaterialPropertyBlockController _materialPropertyBlockController
-    void _set__materialPropertyBlockController(GlobalNamespace::MaterialPropertyBlockController* value);
-    // Get instance field: private MaterialPropertyValuesSetter/PropertyNameFloatValuePair[] _floats
-    ::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameFloatValuePair*>* _get__floats();
-    // Set instance field: private MaterialPropertyValuesSetter/PropertyNameFloatValuePair[] _floats
-    void _set__floats(::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameFloatValuePair*>* value);
-    // Get instance field: private MaterialPropertyValuesSetter/PropertyNameVectorValuePair[] _vectors
-    ::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameVectorValuePair*>* _get__vectors();
-    // Set instance field: private MaterialPropertyValuesSetter/PropertyNameVectorValuePair[] _vectors
-    void _set__vectors(::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameVectorValuePair*>* value);
-    // Get instance field: private MaterialPropertyValuesSetter/PropertyNameColorValuePair[] _colors
-    ::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameColorValuePair*>* _get__colors();
-    // Set instance field: private MaterialPropertyValuesSetter/PropertyNameColorValuePair[] _colors
-    void _set__colors(::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameColorValuePair*>* value);
-    // Get instance field: private MaterialPropertyValuesSetter/PropertyNameIntValuePair[] _ints
-    ::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameIntValuePair*>* _get__ints();
-    // Set instance field: private MaterialPropertyValuesSetter/PropertyNameIntValuePair[] _ints
-    void _set__ints(::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameIntValuePair*>* value);
+    // Get instance field reference: private MaterialPropertyBlockController _materialPropertyBlockController
+    GlobalNamespace::MaterialPropertyBlockController*& dyn__materialPropertyBlockController();
+    // Get instance field reference: private MaterialPropertyValuesSetter/PropertyNameFloatValuePair[] _floats
+    ::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameFloatValuePair*>*& dyn__floats();
+    // Get instance field reference: private MaterialPropertyValuesSetter/PropertyNameVectorValuePair[] _vectors
+    ::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameVectorValuePair*>*& dyn__vectors();
+    // Get instance field reference: private MaterialPropertyValuesSetter/PropertyNameColorValuePair[] _colors
+    ::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameColorValuePair*>*& dyn__colors();
+    // Get instance field reference: private MaterialPropertyValuesSetter/PropertyNameIntValuePair[] _ints
+    ::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameIntValuePair*>*& dyn__ints();
     // protected System.Void Start()
     // Offset: 0x1E1C664
     void Start();

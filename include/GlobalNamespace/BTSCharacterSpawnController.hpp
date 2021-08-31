@@ -106,38 +106,22 @@ namespace GlobalNamespace {
     BTSCharacterSpawnController(GlobalNamespace::BTSCharacterSpawnAnimationController* characterSpawnAnimationController_ = {}, GlobalNamespace::BTSCharacterSpawnEventEffect* btsCharacterSpawnEventEffect_ = {}, GlobalNamespace::IGamePause* gamePause_ = {}, GlobalNamespace::ILevelEndActions* levelEndActions_ = {}, bool characterSpawned_ = {}, double playableDirectorTimeBeforePause_ = {}, float animatorNormalizedTimeBeforePause_ = {}, UnityEngine::Coroutine* despawnCharacterCoroutine_ = {}) noexcept : characterSpawnAnimationController{characterSpawnAnimationController_}, btsCharacterSpawnEventEffect{btsCharacterSpawnEventEffect_}, gamePause{gamePause_}, levelEndActions{levelEndActions_}, characterSpawned{characterSpawned_}, playableDirectorTimeBeforePause{playableDirectorTimeBeforePause_}, animatorNormalizedTimeBeforePause{animatorNormalizedTimeBeforePause_}, despawnCharacterCoroutine{despawnCharacterCoroutine_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private BTSCharacterSpawnAnimationController _characterSpawnAnimationController
-    GlobalNamespace::BTSCharacterSpawnAnimationController* _get__characterSpawnAnimationController();
-    // Set instance field: private BTSCharacterSpawnAnimationController _characterSpawnAnimationController
-    void _set__characterSpawnAnimationController(GlobalNamespace::BTSCharacterSpawnAnimationController* value);
-    // Get instance field: private BTSCharacterSpawnEventEffect _btsCharacterSpawnEventEffect
-    GlobalNamespace::BTSCharacterSpawnEventEffect* _get__btsCharacterSpawnEventEffect();
-    // Set instance field: private BTSCharacterSpawnEventEffect _btsCharacterSpawnEventEffect
-    void _set__btsCharacterSpawnEventEffect(GlobalNamespace::BTSCharacterSpawnEventEffect* value);
-    // Get instance field: private readonly IGamePause _gamePause
-    GlobalNamespace::IGamePause* _get__gamePause();
-    // Set instance field: private readonly IGamePause _gamePause
-    void _set__gamePause(GlobalNamespace::IGamePause* value);
-    // Get instance field: private readonly ILevelEndActions _levelEndActions
-    GlobalNamespace::ILevelEndActions* _get__levelEndActions();
-    // Set instance field: private readonly ILevelEndActions _levelEndActions
-    void _set__levelEndActions(GlobalNamespace::ILevelEndActions* value);
-    // Get instance field: private System.Boolean _characterSpawned
-    bool _get__characterSpawned();
-    // Set instance field: private System.Boolean _characterSpawned
-    void _set__characterSpawned(bool value);
-    // Get instance field: private System.Double _playableDirectorTimeBeforePause
-    double _get__playableDirectorTimeBeforePause();
-    // Set instance field: private System.Double _playableDirectorTimeBeforePause
-    void _set__playableDirectorTimeBeforePause(double value);
-    // Get instance field: private System.Single _animatorNormalizedTimeBeforePause
-    float _get__animatorNormalizedTimeBeforePause();
-    // Set instance field: private System.Single _animatorNormalizedTimeBeforePause
-    void _set__animatorNormalizedTimeBeforePause(float value);
-    // Get instance field: private UnityEngine.Coroutine _despawnCharacterCoroutine
-    UnityEngine::Coroutine* _get__despawnCharacterCoroutine();
-    // Set instance field: private UnityEngine.Coroutine _despawnCharacterCoroutine
-    void _set__despawnCharacterCoroutine(UnityEngine::Coroutine* value);
+    // Get instance field reference: private BTSCharacterSpawnAnimationController _characterSpawnAnimationController
+    GlobalNamespace::BTSCharacterSpawnAnimationController*& dyn__characterSpawnAnimationController();
+    // Get instance field reference: private BTSCharacterSpawnEventEffect _btsCharacterSpawnEventEffect
+    GlobalNamespace::BTSCharacterSpawnEventEffect*& dyn__btsCharacterSpawnEventEffect();
+    // Get instance field reference: private readonly IGamePause _gamePause
+    GlobalNamespace::IGamePause*& dyn__gamePause();
+    // Get instance field reference: private readonly ILevelEndActions _levelEndActions
+    GlobalNamespace::ILevelEndActions*& dyn__levelEndActions();
+    // Get instance field reference: private System.Boolean _characterSpawned
+    bool& dyn__characterSpawned();
+    // Get instance field reference: private System.Double _playableDirectorTimeBeforePause
+    double& dyn__playableDirectorTimeBeforePause();
+    // Get instance field reference: private System.Single _animatorNormalizedTimeBeforePause
+    float& dyn__animatorNormalizedTimeBeforePause();
+    // Get instance field reference: private UnityEngine.Coroutine _despawnCharacterCoroutine
+    UnityEngine::Coroutine*& dyn__despawnCharacterCoroutine();
     // public System.Boolean get_isCharacterVisible()
     // Offset: 0x1186F64
     bool get_isCharacterVisible();

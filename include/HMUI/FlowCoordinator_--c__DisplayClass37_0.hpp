@@ -54,22 +54,14 @@ namespace HMUI {
     static_assert(sizeof(HMUI::FlowCoordinator*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass37_0
     $$c__DisplayClass37_0(System::Action* finishedCallback_ = {}, HMUI::FlowCoordinator* flowCoordinator_ = {}, HMUI::FlowCoordinator* $$4__this_ = {}, HMUI::FlowCoordinator* flowCoordinatorToReplace_ = {}) noexcept : finishedCallback{finishedCallback_}, flowCoordinator{flowCoordinator_}, $$4__this{$$4__this_}, flowCoordinatorToReplace{flowCoordinatorToReplace_} {}
-    // Get instance field: public System.Action finishedCallback
-    System::Action* _get_finishedCallback();
-    // Set instance field: public System.Action finishedCallback
-    void _set_finishedCallback(System::Action* value);
-    // Get instance field: public HMUI.FlowCoordinator flowCoordinator
-    HMUI::FlowCoordinator* _get_flowCoordinator();
-    // Set instance field: public HMUI.FlowCoordinator flowCoordinator
-    void _set_flowCoordinator(HMUI::FlowCoordinator* value);
-    // Get instance field: public HMUI.FlowCoordinator <>4__this
-    HMUI::FlowCoordinator* _get_$$4__this();
-    // Set instance field: public HMUI.FlowCoordinator <>4__this
-    void _set_$$4__this(HMUI::FlowCoordinator* value);
-    // Get instance field: public HMUI.FlowCoordinator flowCoordinatorToReplace
-    HMUI::FlowCoordinator* _get_flowCoordinatorToReplace();
-    // Set instance field: public HMUI.FlowCoordinator flowCoordinatorToReplace
-    void _set_flowCoordinatorToReplace(HMUI::FlowCoordinator* value);
+    // Get instance field reference: public System.Action finishedCallback
+    System::Action*& dyn_finishedCallback();
+    // Get instance field reference: public HMUI.FlowCoordinator flowCoordinator
+    HMUI::FlowCoordinator*& dyn_flowCoordinator();
+    // Get instance field reference: public HMUI.FlowCoordinator <>4__this
+    HMUI::FlowCoordinator*& dyn_$$4__this();
+    // Get instance field reference: public HMUI.FlowCoordinator flowCoordinatorToReplace
+    HMUI::FlowCoordinator*& dyn_flowCoordinatorToReplace();
     // System.Void <ReplaceChildFlowCoordinator>b__0()
     // Offset: 0x136E12C
     void $ReplaceChildFlowCoordinator$b__0();

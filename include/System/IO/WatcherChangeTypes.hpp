@@ -63,10 +63,8 @@ namespace System::IO {
     static System::IO::WatcherChangeTypes _get_Renamed();
     // Set static field: static public System.IO.WatcherChangeTypes Renamed
     static void _set_Renamed(System::IO::WatcherChangeTypes value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.IO.WatcherChangeTypes
   #pragma pack(pop)
   static check_size<sizeof(WatcherChangeTypes), 0 + sizeof(int)> __System_IO_WatcherChangeTypesSizeCheck;

@@ -79,34 +79,20 @@ namespace Org::BouncyCastle::Crypto::Macs {
     operator Org::BouncyCastle::Crypto::IMac() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IMac*>(this);
     }
-    // Get instance field: private System.Int32 bufOff
-    int _get_bufOff();
-    // Set instance field: private System.Int32 bufOff
-    void _set_bufOff(int value);
-    // Get instance field: private System.Byte[] buf
-    ::Array<uint8_t>* _get_buf();
-    // Set instance field: private System.Byte[] buf
-    void _set_buf(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] mac
-    ::Array<uint8_t>* _get_mac();
-    // Set instance field: private System.Byte[] mac
-    void _set_mac(::Array<uint8_t>* value);
-    // Get instance field: private System.Boolean firstStep
-    bool _get_firstStep();
-    // Set instance field: private System.Boolean firstStep
-    void _set_firstStep(bool value);
-    // Get instance field: private System.Int32[] workingKey
-    ::Array<int>* _get_workingKey();
-    // Set instance field: private System.Int32[] workingKey
-    void _set_workingKey(::Array<int>* value);
-    // Get instance field: private System.Byte[] macIV
-    ::Array<uint8_t>* _get_macIV();
-    // Set instance field: private System.Byte[] macIV
-    void _set_macIV(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] S
-    ::Array<uint8_t>* _get_S();
-    // Set instance field: private System.Byte[] S
-    void _set_S(::Array<uint8_t>* value);
+    // Get instance field reference: private System.Int32 bufOff
+    int& dyn_bufOff();
+    // Get instance field reference: private System.Byte[] buf
+    ::Array<uint8_t>*& dyn_buf();
+    // Get instance field reference: private System.Byte[] mac
+    ::Array<uint8_t>*& dyn_mac();
+    // Get instance field reference: private System.Boolean firstStep
+    bool& dyn_firstStep();
+    // Get instance field reference: private System.Int32[] workingKey
+    ::Array<int>*& dyn_workingKey();
+    // Get instance field reference: private System.Byte[] macIV
+    ::Array<uint8_t>*& dyn_macIV();
+    // Get instance field reference: private System.Byte[] S
+    ::Array<uint8_t>*& dyn_S();
     // static private System.Int32[] GenerateWorkingKey(System.Byte[] userKey)
     // Offset: 0x190DBD0
     static ::Array<int>* GenerateWorkingKey(::Array<uint8_t>* userKey);

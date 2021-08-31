@@ -45,22 +45,14 @@ namespace System::Security::Cryptography {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: SignatureDescription
     SignatureDescription(::Il2CppString* strKey_ = {}, ::Il2CppString* strDigest_ = {}, ::Il2CppString* strFormatter_ = {}, ::Il2CppString* strDeformatter_ = {}) noexcept : strKey{strKey_}, strDigest{strDigest_}, strFormatter{strFormatter_}, strDeformatter{strDeformatter_} {}
-    // Get instance field: private System.String _strKey
-    ::Il2CppString* _get__strKey();
-    // Set instance field: private System.String _strKey
-    void _set__strKey(::Il2CppString* value);
-    // Get instance field: private System.String _strDigest
-    ::Il2CppString* _get__strDigest();
-    // Set instance field: private System.String _strDigest
-    void _set__strDigest(::Il2CppString* value);
-    // Get instance field: private System.String _strFormatter
-    ::Il2CppString* _get__strFormatter();
-    // Set instance field: private System.String _strFormatter
-    void _set__strFormatter(::Il2CppString* value);
-    // Get instance field: private System.String _strDeformatter
-    ::Il2CppString* _get__strDeformatter();
-    // Set instance field: private System.String _strDeformatter
-    void _set__strDeformatter(::Il2CppString* value);
+    // Get instance field reference: private System.String _strKey
+    ::Il2CppString*& dyn__strKey();
+    // Get instance field reference: private System.String _strDigest
+    ::Il2CppString*& dyn__strDigest();
+    // Get instance field reference: private System.String _strFormatter
+    ::Il2CppString*& dyn__strFormatter();
+    // Get instance field reference: private System.String _strDeformatter
+    ::Il2CppString*& dyn__strDeformatter();
     // public System.Void set_KeyAlgorithm(System.String value)
     // Offset: 0x1B45BC4
     void set_KeyAlgorithm(::Il2CppString* value);

@@ -50,14 +50,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*>*) == 0x8);
     // Creating value type constructor for type: BloomPrePassBackgroundColorsGradientElementWithLightId
     BloomPrePassBackgroundColorsGradientElementWithLightId(GlobalNamespace::BloomPrePassBackgroundColorsGradient* bloomPrePassBackgroundColorsGradient_ = {}, ::Array<GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*>* elements_ = {}) noexcept : bloomPrePassBackgroundColorsGradient{bloomPrePassBackgroundColorsGradient_}, elements{elements_} {}
-    // Get instance field: private BloomPrePassBackgroundColorsGradient _bloomPrePassBackgroundColorsGradient
-    GlobalNamespace::BloomPrePassBackgroundColorsGradient* _get__bloomPrePassBackgroundColorsGradient();
-    // Set instance field: private BloomPrePassBackgroundColorsGradient _bloomPrePassBackgroundColorsGradient
-    void _set__bloomPrePassBackgroundColorsGradient(GlobalNamespace::BloomPrePassBackgroundColorsGradient* value);
-    // Get instance field: private BloomPrePassBackgroundColorsGradientElementWithLightId/Elements[] _elements
-    ::Array<GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*>* _get__elements();
-    // Set instance field: private BloomPrePassBackgroundColorsGradientElementWithLightId/Elements[] _elements
-    void _set__elements(::Array<GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*>* value);
+    // Get instance field reference: private BloomPrePassBackgroundColorsGradient _bloomPrePassBackgroundColorsGradient
+    GlobalNamespace::BloomPrePassBackgroundColorsGradient*& dyn__bloomPrePassBackgroundColorsGradient();
+    // Get instance field reference: private BloomPrePassBackgroundColorsGradientElementWithLightId/Elements[] _elements
+    ::Array<GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*>*& dyn__elements();
     // public System.Void .ctor()
     // Offset: 0x1E1356C
     // Implemented from: LightWithIdMonoBehaviour

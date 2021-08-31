@@ -62,10 +62,8 @@ namespace System {
     static System::UIntPtr _get_Zero();
     // Set static field: static public readonly System.UIntPtr Zero
     static void _set_Zero(System::UIntPtr value);
-    // Get instance field: private System.Void* _pointer
-    void* _get__pointer();
-    // Set instance field: private System.Void* _pointer
-    void _set__pointer(void* value);
+    // Get instance field reference: private System.Void* _pointer
+    void*& dyn__pointer();
     // static public System.Int32 get_Size()
     // Offset: 0x232F730
     static int get_Size();

@@ -54,26 +54,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: RumbleData
     RumbleData(bool active_ = {}, bool continuous_ = {}, float strength_ = {}, float endTime_ = {}, float frequency_ = {}) noexcept : active{active_}, continuous{continuous_}, strength{strength_}, endTime{endTime_}, frequency{frequency_} {}
-    // Get instance field: public System.Boolean active
-    bool _get_active();
-    // Set instance field: public System.Boolean active
-    void _set_active(bool value);
-    // Get instance field: public System.Boolean continuous
-    bool _get_continuous();
-    // Set instance field: public System.Boolean continuous
-    void _set_continuous(bool value);
-    // Get instance field: public System.Single strength
-    float _get_strength();
-    // Set instance field: public System.Single strength
-    void _set_strength(float value);
-    // Get instance field: public System.Single endTime
-    float _get_endTime();
-    // Set instance field: public System.Single endTime
-    void _set_endTime(float value);
-    // Get instance field: public System.Single frequency
-    float _get_frequency();
-    // Set instance field: public System.Single frequency
-    void _set_frequency(float value);
+    // Get instance field reference: public System.Boolean active
+    bool& dyn_active();
+    // Get instance field reference: public System.Boolean continuous
+    bool& dyn_continuous();
+    // Get instance field reference: public System.Single strength
+    float& dyn_strength();
+    // Get instance field reference: public System.Single endTime
+    float& dyn_endTime();
+    // Get instance field reference: public System.Single frequency
+    float& dyn_frequency();
     // public System.Void .ctor()
     // Offset: 0x1265128
     // Implemented from: System.Object

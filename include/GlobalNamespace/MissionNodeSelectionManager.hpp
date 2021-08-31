@@ -65,22 +65,14 @@ namespace GlobalNamespace {
     MissionNodeSelectionManager(GlobalNamespace::MissionNodesManager* missionNodesManager_ = {}, System::Action_1<GlobalNamespace::MissionNodeVisualController*>* didSelectMissionNodeEvent_ = {}, ::Array<GlobalNamespace::MissionNode*>* missionNodes_ = {}, GlobalNamespace::MissionNodeVisualController* selectedNode_ = {}) noexcept : missionNodesManager{missionNodesManager_}, didSelectMissionNodeEvent{didSelectMissionNodeEvent_}, missionNodes{missionNodes_}, selectedNode{selectedNode_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private MissionNodesManager _missionNodesManager
-    GlobalNamespace::MissionNodesManager* _get__missionNodesManager();
-    // Set instance field: private MissionNodesManager _missionNodesManager
-    void _set__missionNodesManager(GlobalNamespace::MissionNodesManager* value);
-    // Get instance field: private System.Action`1<MissionNodeVisualController> didSelectMissionNodeEvent
-    System::Action_1<GlobalNamespace::MissionNodeVisualController*>* _get_didSelectMissionNodeEvent();
-    // Set instance field: private System.Action`1<MissionNodeVisualController> didSelectMissionNodeEvent
-    void _set_didSelectMissionNodeEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);
-    // Get instance field: private MissionNode[] _missionNodes
-    ::Array<GlobalNamespace::MissionNode*>* _get__missionNodes();
-    // Set instance field: private MissionNode[] _missionNodes
-    void _set__missionNodes(::Array<GlobalNamespace::MissionNode*>* value);
-    // Get instance field: private MissionNodeVisualController _selectedNode
-    GlobalNamespace::MissionNodeVisualController* _get__selectedNode();
-    // Set instance field: private MissionNodeVisualController _selectedNode
-    void _set__selectedNode(GlobalNamespace::MissionNodeVisualController* value);
+    // Get instance field reference: private MissionNodesManager _missionNodesManager
+    GlobalNamespace::MissionNodesManager*& dyn__missionNodesManager();
+    // Get instance field reference: private System.Action`1<MissionNodeVisualController> didSelectMissionNodeEvent
+    System::Action_1<GlobalNamespace::MissionNodeVisualController*>*& dyn_didSelectMissionNodeEvent();
+    // Get instance field reference: private MissionNode[] _missionNodes
+    ::Array<GlobalNamespace::MissionNode*>*& dyn__missionNodes();
+    // Get instance field reference: private MissionNodeVisualController _selectedNode
+    GlobalNamespace::MissionNodeVisualController*& dyn__selectedNode();
     // public System.Void add_didSelectMissionNodeEvent(System.Action`1<MissionNodeVisualController> value)
     // Offset: 0x11D57BC
     void add_didSelectMissionNodeEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);

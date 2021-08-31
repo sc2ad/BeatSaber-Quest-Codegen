@@ -59,18 +59,12 @@ namespace GlobalNamespace {
     ObstacleScaleUp(float fullScalePart_ = {}, UnityEngine::Transform* targetTransform_ = {}, GlobalNamespace::ObstacleController* obstacleController_ = {}) noexcept : fullScalePart{fullScalePart_}, targetTransform{targetTransform_}, obstacleController{obstacleController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Single _fullScalePart
-    float _get__fullScalePart();
-    // Set instance field: private System.Single _fullScalePart
-    void _set__fullScalePart(float value);
-    // Get instance field: private UnityEngine.Transform _targetTransform
-    UnityEngine::Transform* _get__targetTransform();
-    // Set instance field: private UnityEngine.Transform _targetTransform
-    void _set__targetTransform(UnityEngine::Transform* value);
-    // Get instance field: private ObstacleController _obstacleController
-    GlobalNamespace::ObstacleController* _get__obstacleController();
-    // Set instance field: private ObstacleController _obstacleController
-    void _set__obstacleController(GlobalNamespace::ObstacleController* value);
+    // Get instance field reference: private System.Single _fullScalePart
+    float& dyn__fullScalePart();
+    // Get instance field reference: private UnityEngine.Transform _targetTransform
+    UnityEngine::Transform*& dyn__targetTransform();
+    // Get instance field reference: private ObstacleController _obstacleController
+    GlobalNamespace::ObstacleController*& dyn__obstacleController();
     // protected System.Void Awake()
     // Offset: 0x123452C
     void Awake();

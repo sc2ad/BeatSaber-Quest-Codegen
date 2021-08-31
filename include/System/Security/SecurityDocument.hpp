@@ -37,10 +37,8 @@ namespace System::Security {
     constexpr operator ::Array<uint8_t>*() const noexcept {
       return m_data;
     }
-    // Get instance field: System.Byte[] m_data
-    ::Array<uint8_t>* _get_m_data();
-    // Set instance field: System.Byte[] m_data
-    void _set_m_data(::Array<uint8_t>* value);
+    // Get instance field reference: System.Byte[] m_data
+    ::Array<uint8_t>*& dyn_m_data();
     // public System.Void .ctor(System.Int32 numData)
     // Offset: 0x1B4BDC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

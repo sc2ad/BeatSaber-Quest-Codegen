@@ -39,14 +39,10 @@ namespace System::Runtime::ExceptionServices {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     // Creating value type constructor for type: ExceptionDispatchInfo
     ExceptionDispatchInfo(System::Exception* m_Exception_ = {}, ::Il2CppObject* m_stackTrace_ = {}) noexcept : m_Exception{m_Exception_}, m_stackTrace{m_stackTrace_} {}
-    // Get instance field: private System.Exception m_Exception
-    System::Exception* _get_m_Exception();
-    // Set instance field: private System.Exception m_Exception
-    void _set_m_Exception(System::Exception* value);
-    // Get instance field: private System.Object m_stackTrace
-    ::Il2CppObject* _get_m_stackTrace();
-    // Set instance field: private System.Object m_stackTrace
-    void _set_m_stackTrace(::Il2CppObject* value);
+    // Get instance field reference: private System.Exception m_Exception
+    System::Exception*& dyn_m_Exception();
+    // Get instance field reference: private System.Object m_stackTrace
+    ::Il2CppObject*& dyn_m_stackTrace();
     // System.Object get_BinaryStackTraceArray()
     // Offset: 0x1487C8C
     ::Il2CppObject* get_BinaryStackTraceArray();

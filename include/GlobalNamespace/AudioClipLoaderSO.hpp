@@ -53,10 +53,8 @@ namespace GlobalNamespace {
     AudioClipLoaderSO(bool isLoading_ = {}) noexcept : isLoading{isLoading_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Boolean _isLoading
-    bool _get__isLoading();
-    // Set instance field: private System.Boolean _isLoading
-    void _set__isLoading(bool value);
+    // Get instance field reference: private System.Boolean _isLoading
+    bool& dyn__isLoading();
     // public System.Void LoadAudioFile(System.String filePath, System.Action`1<UnityEngine.AudioClip> finishCallback)
     // Offset: 0x117CF2C
     void LoadAudioFile(::Il2CppString* filePath, System::Action_1<UnityEngine::AudioClip*>* finishCallback);

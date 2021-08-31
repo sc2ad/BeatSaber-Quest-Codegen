@@ -91,30 +91,18 @@ namespace UnityEngine::TestTools::Utils {
     static_assert(sizeof(System::Collections::IEnumerator*) == 0x8);
     // Creating value type constructor for type: CoroutineRunner
     CoroutineRunner(bool m_Running_ = {}, bool m_Timeout_ = {}, UnityEngine::MonoBehaviour* m_Controller_ = {}, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* m_Context_ = {}, UnityEngine::Coroutine* m_TimeOutCoroutine_ = {}, System::Collections::IEnumerator* m_TestCoroutine_ = {}) noexcept : m_Running{m_Running_}, m_Timeout{m_Timeout_}, m_Controller{m_Controller_}, m_Context{m_Context_}, m_TimeOutCoroutine{m_TimeOutCoroutine_}, m_TestCoroutine{m_TestCoroutine_} {}
-    // Get instance field: private System.Boolean m_Running
-    bool _get_m_Running();
-    // Set instance field: private System.Boolean m_Running
-    void _set_m_Running(bool value);
-    // Get instance field: private System.Boolean m_Timeout
-    bool _get_m_Timeout();
-    // Set instance field: private System.Boolean m_Timeout
-    void _set_m_Timeout(bool value);
-    // Get instance field: private readonly UnityEngine.MonoBehaviour m_Controller
-    UnityEngine::MonoBehaviour* _get_m_Controller();
-    // Set instance field: private readonly UnityEngine.MonoBehaviour m_Controller
-    void _set_m_Controller(UnityEngine::MonoBehaviour* value);
-    // Get instance field: private readonly UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext m_Context
-    UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* _get_m_Context();
-    // Set instance field: private readonly UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext m_Context
-    void _set_m_Context(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* value);
-    // Get instance field: private UnityEngine.Coroutine m_TimeOutCoroutine
-    UnityEngine::Coroutine* _get_m_TimeOutCoroutine();
-    // Set instance field: private UnityEngine.Coroutine m_TimeOutCoroutine
-    void _set_m_TimeOutCoroutine(UnityEngine::Coroutine* value);
-    // Get instance field: private System.Collections.IEnumerator m_TestCoroutine
-    System::Collections::IEnumerator* _get_m_TestCoroutine();
-    // Set instance field: private System.Collections.IEnumerator m_TestCoroutine
-    void _set_m_TestCoroutine(System::Collections::IEnumerator* value);
+    // Get instance field reference: private System.Boolean m_Running
+    bool& dyn_m_Running();
+    // Get instance field reference: private System.Boolean m_Timeout
+    bool& dyn_m_Timeout();
+    // Get instance field reference: private readonly UnityEngine.MonoBehaviour m_Controller
+    UnityEngine::MonoBehaviour*& dyn_m_Controller();
+    // Get instance field reference: private readonly UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext m_Context
+    UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*& dyn_m_Context();
+    // Get instance field reference: private UnityEngine.Coroutine m_TimeOutCoroutine
+    UnityEngine::Coroutine*& dyn_m_TimeOutCoroutine();
+    // Get instance field reference: private System.Collections.IEnumerator m_TestCoroutine
+    System::Collections::IEnumerator*& dyn_m_TestCoroutine();
     // public System.Void .ctor(UnityEngine.MonoBehaviour playmodeTestsController, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
     // Offset: 0x2402904
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

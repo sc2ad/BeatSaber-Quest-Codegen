@@ -104,38 +104,22 @@ namespace GlobalNamespace {
     static UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static void _set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock* value);
-    // Get instance field: private MulticolorAvatarPartPropertyBlockSetter/ColorData[] _colorDataList
-    ::Array<GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*>* _get__colorDataList();
-    // Set instance field: private MulticolorAvatarPartPropertyBlockSetter/ColorData[] _colorDataList
-    void _set__colorDataList(::Array<GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*>* value);
-    // Get instance field: private UnityEngine.Renderer _renderer
-    UnityEngine::Renderer* _get__renderer();
-    // Set instance field: private UnityEngine.Renderer _renderer
-    void _set__renderer(UnityEngine::Renderer* value);
-    // Get instance field: private System.Boolean _editInPlayMode
-    bool _get__editInPlayMode();
-    // Set instance field: private System.Boolean _editInPlayMode
-    void _set__editInPlayMode(bool value);
-    // Get instance field: private readonly UnityEngine.Vector4[] _colors
-    ::Array<UnityEngine::Vector4>* _get__colors();
-    // Set instance field: private readonly UnityEngine.Vector4[] _colors
-    void _set__colors(::Array<UnityEngine::Vector4>* value);
-    // Get instance field: private readonly UnityEngine.Vector4[] _rimLightColors
-    ::Array<UnityEngine::Vector4>* _get__rimLightColors();
-    // Set instance field: private readonly UnityEngine.Vector4[] _rimLightColors
-    void _set__rimLightColors(::Array<UnityEngine::Vector4>* value);
-    // Get instance field: private UnityEngine.Color[] _boostColors
-    ::Array<UnityEngine::Color>* _get__boostColors();
-    // Set instance field: private UnityEngine.Color[] _boostColors
-    void _set__boostColors(::Array<UnityEngine::Color>* value);
-    // Get instance field: private System.Boolean _highlighted
-    bool _get__highlighted();
-    // Set instance field: private System.Boolean _highlighted
-    void _set__highlighted(bool value);
-    // Get instance field: private System.Int32 _uvSegment
-    int _get__uvSegment();
-    // Set instance field: private System.Int32 _uvSegment
-    void _set__uvSegment(int value);
+    // Get instance field reference: private MulticolorAvatarPartPropertyBlockSetter/ColorData[] _colorDataList
+    ::Array<GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*>*& dyn__colorDataList();
+    // Get instance field reference: private UnityEngine.Renderer _renderer
+    UnityEngine::Renderer*& dyn__renderer();
+    // Get instance field reference: private System.Boolean _editInPlayMode
+    bool& dyn__editInPlayMode();
+    // Get instance field reference: private readonly UnityEngine.Vector4[] _colors
+    ::Array<UnityEngine::Vector4>*& dyn__colors();
+    // Get instance field reference: private readonly UnityEngine.Vector4[] _rimLightColors
+    ::Array<UnityEngine::Vector4>*& dyn__rimLightColors();
+    // Get instance field reference: private UnityEngine.Color[] _boostColors
+    ::Array<UnityEngine::Color>*& dyn__boostColors();
+    // Get instance field reference: private System.Boolean _highlighted
+    bool& dyn__highlighted();
+    // Get instance field reference: private System.Int32 _uvSegment
+    int& dyn__uvSegment();
     // protected System.Void OnValidate()
     // Offset: 0x11E10C4
     void OnValidate();

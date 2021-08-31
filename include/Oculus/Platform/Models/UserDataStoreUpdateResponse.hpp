@@ -32,10 +32,8 @@ namespace Oculus::Platform::Models {
     constexpr operator bool() const noexcept {
       return Success;
     }
-    // Get instance field: public readonly System.Boolean Success
-    bool _get_Success();
-    // Set instance field: public readonly System.Boolean Success
-    void _set_Success(bool value);
+    // Get instance field reference: public readonly System.Boolean Success
+    bool& dyn_Success();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14F0CD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

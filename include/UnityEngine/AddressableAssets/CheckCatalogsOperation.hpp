@@ -61,22 +61,14 @@ namespace UnityEngine::AddressableAssets {
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> m_DepOp;
     // Creating value type constructor for type: CheckCatalogsOperation
     CheckCatalogsOperation(UnityEngine::AddressableAssets::AddressablesImpl* m_Addressables_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* m_LocalHashes_ = {}, System::Collections::Generic::List_1<UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*>* m_LocatorInfos_ = {}, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> m_DepOp_ = {}) noexcept : m_Addressables{m_Addressables_}, m_LocalHashes{m_LocalHashes_}, m_LocatorInfos{m_LocatorInfos_}, m_DepOp{m_DepOp_} {}
-    // Get instance field: private UnityEngine.AddressableAssets.AddressablesImpl m_Addressables
-    UnityEngine::AddressableAssets::AddressablesImpl* _get_m_Addressables();
-    // Set instance field: private UnityEngine.AddressableAssets.AddressablesImpl m_Addressables
-    void _set_m_Addressables(UnityEngine::AddressableAssets::AddressablesImpl* value);
-    // Get instance field: private System.Collections.Generic.List`1<System.String> m_LocalHashes
-    System::Collections::Generic::List_1<::Il2CppString*>* _get_m_LocalHashes();
-    // Set instance field: private System.Collections.Generic.List`1<System.String> m_LocalHashes
-    void _set_m_LocalHashes(System::Collections::Generic::List_1<::Il2CppString*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.ResourceLocatorInfo> m_LocatorInfos
-    System::Collections::Generic::List_1<UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*>* _get_m_LocatorInfos();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.ResourceLocatorInfo> m_LocatorInfos
-    void _set_m_LocatorInfos(System::Collections::Generic::List_1<UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*>* value);
-    // Get instance field: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>> m_DepOp
-    UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> _get_m_DepOp();
-    // Set instance field: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>> m_DepOp
-    void _set_m_DepOp(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> value);
+    // Get instance field reference: private UnityEngine.AddressableAssets.AddressablesImpl m_Addressables
+    UnityEngine::AddressableAssets::AddressablesImpl*& dyn_m_Addressables();
+    // Get instance field reference: private System.Collections.Generic.List`1<System.String> m_LocalHashes
+    System::Collections::Generic::List_1<::Il2CppString*>*& dyn_m_LocalHashes();
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.ResourceLocatorInfo> m_LocatorInfos
+    System::Collections::Generic::List_1<UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*>*& dyn_m_LocatorInfos();
+    // Get instance field reference: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>> m_DepOp
+    UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>& dyn_m_DepOp();
     // public System.Void .ctor(UnityEngine.AddressableAssets.AddressablesImpl aa)
     // Offset: 0x1440B78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

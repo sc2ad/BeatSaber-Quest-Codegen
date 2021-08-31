@@ -208,10 +208,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRSkeleton::BoneId _get_Max();
     // Set static field: static public OVRSkeleton/BoneId Max
     static void _set_Max(GlobalNamespace::OVRSkeleton::BoneId value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // OVRSkeleton/BoneId
   #pragma pack(pop)
   static check_size<sizeof(OVRSkeleton::BoneId), 0 + sizeof(int)> __GlobalNamespace_OVRSkeleton_BoneIdSizeCheck;

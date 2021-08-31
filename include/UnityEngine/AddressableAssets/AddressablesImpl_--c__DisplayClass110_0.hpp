@@ -69,26 +69,16 @@ namespace UnityEngine::AddressableAssets {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: $$c__DisplayClass110_0
     $$c__DisplayClass110_0(UnityEngine::AddressableAssets::AddressablesImpl* $$4__this_ = {}, ::Il2CppObject* key_ = {}, UnityEngine::SceneManagement::LoadSceneMode loadMode_ = {}, bool activateOnLoad_ = {}, int priority_ = {}) noexcept : $$4__this{$$4__this_}, key{key_}, loadMode{loadMode_}, activateOnLoad{activateOnLoad_}, priority{priority_} {}
-    // Get instance field: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
-    UnityEngine::AddressableAssets::AddressablesImpl* _get_$$4__this();
-    // Set instance field: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
-    void _set_$$4__this(UnityEngine::AddressableAssets::AddressablesImpl* value);
-    // Get instance field: public System.Object key
-    ::Il2CppObject* _get_key();
-    // Set instance field: public System.Object key
-    void _set_key(::Il2CppObject* value);
-    // Get instance field: public UnityEngine.SceneManagement.LoadSceneMode loadMode
-    UnityEngine::SceneManagement::LoadSceneMode _get_loadMode();
-    // Set instance field: public UnityEngine.SceneManagement.LoadSceneMode loadMode
-    void _set_loadMode(UnityEngine::SceneManagement::LoadSceneMode value);
-    // Get instance field: public System.Boolean activateOnLoad
-    bool _get_activateOnLoad();
-    // Set instance field: public System.Boolean activateOnLoad
-    void _set_activateOnLoad(bool value);
-    // Get instance field: public System.Int32 priority
-    int _get_priority();
-    // Set instance field: public System.Int32 priority
-    void _set_priority(int value);
+    // Get instance field reference: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
+    UnityEngine::AddressableAssets::AddressablesImpl*& dyn_$$4__this();
+    // Get instance field reference: public System.Object key
+    ::Il2CppObject*& dyn_key();
+    // Get instance field reference: public UnityEngine.SceneManagement.LoadSceneMode loadMode
+    UnityEngine::SceneManagement::LoadSceneMode& dyn_loadMode();
+    // Get instance field reference: public System.Boolean activateOnLoad
+    bool& dyn_activateOnLoad();
+    // Get instance field reference: public System.Int32 priority
+    int& dyn_priority();
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> <LoadSceneWithChain>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle op)
     // Offset: 0x1442428
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> $LoadSceneWithChain$b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);

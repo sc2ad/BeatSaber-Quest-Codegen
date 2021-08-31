@@ -52,26 +52,16 @@ namespace System::Security::Cryptography {
     static_assert(sizeof(::Array<uint>*) == 0x8);
     // Creating value type constructor for type: SHA1Internal
     SHA1Internal(::Array<uint>* H_ = {}, uint64_t count_ = {}, ::Array<uint8_t>* ProcessingBuffer_ = {}, int ProcessingBufferCount_ = {}, ::Array<uint>* buff_ = {}) noexcept : H{H_}, count{count_}, ProcessingBuffer{ProcessingBuffer_}, ProcessingBufferCount{ProcessingBufferCount_}, buff{buff_} {}
-    // Get instance field: private System.UInt32[] _H
-    ::Array<uint>* _get__H();
-    // Set instance field: private System.UInt32[] _H
-    void _set__H(::Array<uint>* value);
-    // Get instance field: private System.UInt64 count
-    uint64_t _get_count();
-    // Set instance field: private System.UInt64 count
-    void _set_count(uint64_t value);
-    // Get instance field: private System.Byte[] _ProcessingBuffer
-    ::Array<uint8_t>* _get__ProcessingBuffer();
-    // Set instance field: private System.Byte[] _ProcessingBuffer
-    void _set__ProcessingBuffer(::Array<uint8_t>* value);
-    // Get instance field: private System.Int32 _ProcessingBufferCount
-    int _get__ProcessingBufferCount();
-    // Set instance field: private System.Int32 _ProcessingBufferCount
-    void _set__ProcessingBufferCount(int value);
-    // Get instance field: private System.UInt32[] buff
-    ::Array<uint>* _get_buff();
-    // Set instance field: private System.UInt32[] buff
-    void _set_buff(::Array<uint>* value);
+    // Get instance field reference: private System.UInt32[] _H
+    ::Array<uint>*& dyn__H();
+    // Get instance field reference: private System.UInt64 count
+    uint64_t& dyn_count();
+    // Get instance field reference: private System.Byte[] _ProcessingBuffer
+    ::Array<uint8_t>*& dyn__ProcessingBuffer();
+    // Get instance field reference: private System.Int32 _ProcessingBufferCount
+    int& dyn__ProcessingBufferCount();
+    // Get instance field reference: private System.UInt32[] buff
+    ::Array<uint>*& dyn_buff();
     // public System.Void HashCore(System.Byte[] rgb, System.Int32 ibStart, System.Int32 cbSize)
     // Offset: 0x1B40C00
     void HashCore(::Array<uint8_t>* rgb, int ibStart, int cbSize);

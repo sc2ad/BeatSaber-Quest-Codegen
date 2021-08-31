@@ -103,50 +103,28 @@ namespace Org::BouncyCastle::Crypto::Macs {
     operator Org::BouncyCastle::Crypto::IMac() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IMac*>(this);
     }
-    // Get instance field: private System.Byte g
-    uint8_t _get_g();
-    // Set instance field: private System.Byte g
-    void _set_g(uint8_t value);
-    // Get instance field: private System.Byte n
-    uint8_t _get_n();
-    // Set instance field: private System.Byte n
-    void _set_n(uint8_t value);
-    // Get instance field: private System.Byte[] P
-    ::Array<uint8_t>* _get_P();
-    // Set instance field: private System.Byte[] P
-    void _set_P(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte s
-    uint8_t _get_s();
-    // Set instance field: private System.Byte s
-    void _set_s(uint8_t value);
-    // Get instance field: private System.Byte[] T
-    ::Array<uint8_t>* _get_T();
-    // Set instance field: private System.Byte[] T
-    void _set_T(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] workingIV
-    ::Array<uint8_t>* _get_workingIV();
-    // Set instance field: private System.Byte[] workingIV
-    void _set_workingIV(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] workingKey
-    ::Array<uint8_t>* _get_workingKey();
-    // Set instance field: private System.Byte[] workingKey
-    void _set_workingKey(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte x1
-    uint8_t _get_x1();
-    // Set instance field: private System.Byte x1
-    void _set_x1(uint8_t value);
-    // Get instance field: private System.Byte x2
-    uint8_t _get_x2();
-    // Set instance field: private System.Byte x2
-    void _set_x2(uint8_t value);
-    // Get instance field: private System.Byte x3
-    uint8_t _get_x3();
-    // Set instance field: private System.Byte x3
-    void _set_x3(uint8_t value);
-    // Get instance field: private System.Byte x4
-    uint8_t _get_x4();
-    // Set instance field: private System.Byte x4
-    void _set_x4(uint8_t value);
+    // Get instance field reference: private System.Byte g
+    uint8_t& dyn_g();
+    // Get instance field reference: private System.Byte n
+    uint8_t& dyn_n();
+    // Get instance field reference: private System.Byte[] P
+    ::Array<uint8_t>*& dyn_P();
+    // Get instance field reference: private System.Byte s
+    uint8_t& dyn_s();
+    // Get instance field reference: private System.Byte[] T
+    ::Array<uint8_t>*& dyn_T();
+    // Get instance field reference: private System.Byte[] workingIV
+    ::Array<uint8_t>*& dyn_workingIV();
+    // Get instance field reference: private System.Byte[] workingKey
+    ::Array<uint8_t>*& dyn_workingKey();
+    // Get instance field reference: private System.Byte x1
+    uint8_t& dyn_x1();
+    // Get instance field reference: private System.Byte x2
+    uint8_t& dyn_x2();
+    // Get instance field reference: private System.Byte x3
+    uint8_t& dyn_x3();
+    // Get instance field reference: private System.Byte x4
+    uint8_t& dyn_x4();
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
     // Offset: 0x19116E0
     int DoFinal(::Array<uint8_t>* output, int outOff);

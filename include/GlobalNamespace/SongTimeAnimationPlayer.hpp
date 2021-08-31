@@ -48,14 +48,10 @@ namespace GlobalNamespace {
     SongTimeAnimationPlayer(GlobalNamespace::FloatSO* songTime_ = {}, UnityEngine::AnimationClip* animationClip_ = {}) noexcept : songTime{songTime_}, animationClip{animationClip_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private FloatSO _songTime
-    GlobalNamespace::FloatSO* _get__songTime();
-    // Set instance field: private FloatSO _songTime
-    void _set__songTime(GlobalNamespace::FloatSO* value);
-    // Get instance field: private UnityEngine.AnimationClip _animationClip
-    UnityEngine::AnimationClip* _get__animationClip();
-    // Set instance field: private UnityEngine.AnimationClip _animationClip
-    void _set__animationClip(UnityEngine::AnimationClip* value);
+    // Get instance field reference: private FloatSO _songTime
+    GlobalNamespace::FloatSO*& dyn__songTime();
+    // Get instance field reference: private UnityEngine.AnimationClip _animationClip
+    UnityEngine::AnimationClip*& dyn__animationClip();
     // protected System.Void Update()
     // Offset: 0x10826C4
     void Update();

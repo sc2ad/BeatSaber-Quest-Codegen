@@ -67,10 +67,8 @@ namespace System::Reflection {
     constexpr operator System::Reflection::EventInfo::AddEventAdapter*() const noexcept {
       return cached_add_event;
     }
-    // Get instance field: private System.Reflection.EventInfo/System.Reflection.AddEventAdapter cached_add_event
-    System::Reflection::EventInfo::AddEventAdapter* _get_cached_add_event();
-    // Set instance field: private System.Reflection.EventInfo/System.Reflection.AddEventAdapter cached_add_event
-    void _set_cached_add_event(System::Reflection::EventInfo::AddEventAdapter* value);
+    // Get instance field reference: private System.Reflection.EventInfo/System.Reflection.AddEventAdapter cached_add_event
+    System::Reflection::EventInfo::AddEventAdapter*& dyn_cached_add_event();
     // public System.Type get_EventHandlerType()
     // Offset: 0x1D19414
     System::Type* get_EventHandlerType();

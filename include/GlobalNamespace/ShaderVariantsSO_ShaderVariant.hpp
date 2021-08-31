@@ -46,14 +46,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Shader*) == 0x8);
     // Creating value type constructor for type: ShaderVariant
     ShaderVariant(::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>* variants_ = {}, UnityEngine::Shader* shader_ = {}) noexcept : variants{variants_}, shader{shader_} {}
-    // Get instance field: private ShaderVariantsSO/ShaderVariant/Variant[] _variants
-    ::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>* _get__variants();
-    // Set instance field: private ShaderVariantsSO/ShaderVariant/Variant[] _variants
-    void _set__variants(::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>* value);
-    // Get instance field: private UnityEngine.Shader _shader
-    UnityEngine::Shader* _get__shader();
-    // Set instance field: private UnityEngine.Shader _shader
-    void _set__shader(UnityEngine::Shader* value);
+    // Get instance field reference: private ShaderVariantsSO/ShaderVariant/Variant[] _variants
+    ::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>*& dyn__variants();
+    // Get instance field reference: private UnityEngine.Shader _shader
+    UnityEngine::Shader*& dyn__shader();
     // public ShaderVariantsSO/ShaderVariant/Variant[] get_variants()
     // Offset: 0x2394F94
     ::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>* get_variants();

@@ -40,10 +40,8 @@ namespace UnityEngine::Networking::PlayerConnection {
     constexpr operator bool() const noexcept {
       return msgReceived;
     }
-    // Get instance field: public System.Boolean msgReceived
-    bool _get_msgReceived();
-    // Set instance field: public System.Boolean msgReceived
-    void _set_msgReceived(bool value);
+    // Get instance field reference: public System.Boolean msgReceived
+    bool& dyn_msgReceived();
     // System.Void <BlockUntilRecvMsg>b__0(UnityEngine.Networking.PlayerConnection.MessageEventArgs args)
     // Offset: 0x1D08C78
     void $BlockUntilRecvMsg$b__0(UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);

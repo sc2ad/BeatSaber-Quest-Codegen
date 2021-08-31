@@ -44,10 +44,8 @@ namespace System::Security::Cryptography {
     static ::Array<System::Security::Cryptography::KeySizes*>* _get_s_legalKeySizes();
     // Set static field: static private System.Security.Cryptography.KeySizes[] s_legalKeySizes
     static void _set_s_legalKeySizes(::Array<System::Security::Cryptography::KeySizes*>* value);
-    // Get instance field: private System.Boolean m_use40bitSalt
-    bool _get_m_use40bitSalt();
-    // Set instance field: private System.Boolean m_use40bitSalt
-    void _set_m_use40bitSalt(bool value);
+    // Get instance field reference: private System.Boolean m_use40bitSalt
+    bool& dyn_m_use40bitSalt();
     // public override System.Int32 get_EffectiveKeySize()
     // Offset: 0x1992354
     // Implemented from: System.Security.Cryptography.RC2

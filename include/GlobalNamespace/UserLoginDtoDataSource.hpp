@@ -77,10 +77,8 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kVersion();
     // Set static field: static private System.String kVersion
     static void _set_kVersion(::Il2CppString* value);
-    // Get instance field: private readonly IPlatformUserModel _platformUserModel
-    GlobalNamespace::IPlatformUserModel* _get__platformUserModel();
-    // Set instance field: private readonly IPlatformUserModel _platformUserModel
-    void _set__platformUserModel(GlobalNamespace::IPlatformUserModel* value);
+    // Get instance field reference: private readonly IPlatformUserModel _platformUserModel
+    GlobalNamespace::IPlatformUserModel*& dyn__platformUserModel();
     // public System.Threading.Tasks.Task`1<System.String> GetPlatformUserIdAsync(System.Threading.CancellationToken cancellationToken)
     // Offset: 0x1358974
     System::Threading::Tasks::Task_1<::Il2CppString*>* GetPlatformUserIdAsync(System::Threading::CancellationToken cancellationToken);

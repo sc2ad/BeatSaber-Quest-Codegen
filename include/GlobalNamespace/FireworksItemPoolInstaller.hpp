@@ -43,14 +43,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::FireworkItemController*) == 0x8);
     // Creating value type constructor for type: FireworksItemPoolInstaller
     FireworksItemPoolInstaller(GlobalNamespace::FireworksController* fireworksController_ = {}, GlobalNamespace::FireworkItemController* fireworkItemControllerPrefab_ = {}) noexcept : fireworksController{fireworksController_}, fireworkItemControllerPrefab{fireworkItemControllerPrefab_} {}
-    // Get instance field: private FireworksController _fireworksController
-    GlobalNamespace::FireworksController* _get__fireworksController();
-    // Set instance field: private FireworksController _fireworksController
-    void _set__fireworksController(GlobalNamespace::FireworksController* value);
-    // Get instance field: private FireworkItemController _fireworkItemControllerPrefab
-    GlobalNamespace::FireworkItemController* _get__fireworkItemControllerPrefab();
-    // Set instance field: private FireworkItemController _fireworkItemControllerPrefab
-    void _set__fireworkItemControllerPrefab(GlobalNamespace::FireworkItemController* value);
+    // Get instance field reference: private FireworksController _fireworksController
+    GlobalNamespace::FireworksController*& dyn__fireworksController();
+    // Get instance field reference: private FireworkItemController _fireworkItemControllerPrefab
+    GlobalNamespace::FireworkItemController*& dyn__fireworkItemControllerPrefab();
     // public System.Void .ctor()
     // Offset: 0x1059380
     // Implemented from: Zenject.MonoInstaller

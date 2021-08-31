@@ -120,38 +120,22 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     static_assert(sizeof(NUnit::Framework::Internal::Execution::CountdownEvent*) == 0x8);
     // Creating value type constructor for type: CompositeWorkItem
     CompositeWorkItem(NUnit::Framework::Internal::TestSuite* suite_ = {}, NUnit::Framework::Internal::TestSuiteResult* suiteResult_ = {}, NUnit::Framework::Interfaces::ITestFilter* childFilter_ = {}, NUnit::Framework::Internal::Commands::TestCommand* setupCommand_ = {}, NUnit::Framework::Internal::Commands::TestCommand* teardownCommand_ = {}, System::Collections::Generic::List_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>* Children_ = {}, int countOrder_ = {}, NUnit::Framework::Internal::Execution::CountdownEvent* childTestCountdown_ = {}) noexcept : suite{suite_}, suiteResult{suiteResult_}, childFilter{childFilter_}, setupCommand{setupCommand_}, teardownCommand{teardownCommand_}, Children{Children_}, countOrder{countOrder_}, childTestCountdown{childTestCountdown_} {}
-    // Get instance field: private readonly NUnit.Framework.Internal.TestSuite _suite
-    NUnit::Framework::Internal::TestSuite* _get__suite();
-    // Set instance field: private readonly NUnit.Framework.Internal.TestSuite _suite
-    void _set__suite(NUnit::Framework::Internal::TestSuite* value);
-    // Get instance field: private readonly NUnit.Framework.Internal.TestSuiteResult _suiteResult
-    NUnit::Framework::Internal::TestSuiteResult* _get__suiteResult();
-    // Set instance field: private readonly NUnit.Framework.Internal.TestSuiteResult _suiteResult
-    void _set__suiteResult(NUnit::Framework::Internal::TestSuiteResult* value);
-    // Get instance field: private readonly NUnit.Framework.Interfaces.ITestFilter _childFilter
-    NUnit::Framework::Interfaces::ITestFilter* _get__childFilter();
-    // Set instance field: private readonly NUnit.Framework.Interfaces.ITestFilter _childFilter
-    void _set__childFilter(NUnit::Framework::Interfaces::ITestFilter* value);
-    // Get instance field: private NUnit.Framework.Internal.Commands.TestCommand _setupCommand
-    NUnit::Framework::Internal::Commands::TestCommand* _get__setupCommand();
-    // Set instance field: private NUnit.Framework.Internal.Commands.TestCommand _setupCommand
-    void _set__setupCommand(NUnit::Framework::Internal::Commands::TestCommand* value);
-    // Get instance field: private NUnit.Framework.Internal.Commands.TestCommand _teardownCommand
-    NUnit::Framework::Internal::Commands::TestCommand* _get__teardownCommand();
-    // Set instance field: private NUnit.Framework.Internal.Commands.TestCommand _teardownCommand
-    void _set__teardownCommand(NUnit::Framework::Internal::Commands::TestCommand* value);
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem> <Children>k__BackingField
-    System::Collections::Generic::List_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>* _get_$Children$k__BackingField();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem> <Children>k__BackingField
-    void _set_$Children$k__BackingField(System::Collections::Generic::List_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>* value);
-    // Get instance field: private System.Int32 _countOrder
-    int _get__countOrder();
-    // Set instance field: private System.Int32 _countOrder
-    void _set__countOrder(int value);
-    // Get instance field: private NUnit.Framework.Internal.Execution.CountdownEvent _childTestCountdown
-    NUnit::Framework::Internal::Execution::CountdownEvent* _get__childTestCountdown();
-    // Set instance field: private NUnit.Framework.Internal.Execution.CountdownEvent _childTestCountdown
-    void _set__childTestCountdown(NUnit::Framework::Internal::Execution::CountdownEvent* value);
+    // Get instance field reference: private readonly NUnit.Framework.Internal.TestSuite _suite
+    NUnit::Framework::Internal::TestSuite*& dyn__suite();
+    // Get instance field reference: private readonly NUnit.Framework.Internal.TestSuiteResult _suiteResult
+    NUnit::Framework::Internal::TestSuiteResult*& dyn__suiteResult();
+    // Get instance field reference: private readonly NUnit.Framework.Interfaces.ITestFilter _childFilter
+    NUnit::Framework::Interfaces::ITestFilter*& dyn__childFilter();
+    // Get instance field reference: private NUnit.Framework.Internal.Commands.TestCommand _setupCommand
+    NUnit::Framework::Internal::Commands::TestCommand*& dyn__setupCommand();
+    // Get instance field reference: private NUnit.Framework.Internal.Commands.TestCommand _teardownCommand
+    NUnit::Framework::Internal::Commands::TestCommand*& dyn__teardownCommand();
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem> <Children>k__BackingField
+    System::Collections::Generic::List_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>*& dyn_$Children$k__BackingField();
+    // Get instance field reference: private System.Int32 _countOrder
+    int& dyn__countOrder();
+    // Get instance field reference: private NUnit.Framework.Internal.Execution.CountdownEvent _childTestCountdown
+    NUnit::Framework::Internal::Execution::CountdownEvent*& dyn__childTestCountdown();
     // public System.Collections.Generic.List`1<UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem> get_Children()
     // Offset: 0x14B062C
     System::Collections::Generic::List_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>* get_Children();

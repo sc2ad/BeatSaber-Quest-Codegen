@@ -58,10 +58,8 @@ namespace Zenject {
     constexpr operator System::Func_2<Zenject::InjectContext*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>*() const noexcept {
       return method;
     }
-    // Get instance field: public System.Func`2<Zenject.InjectContext,System.Collections.Generic.IEnumerable`1<System.Object>> method
-    System::Func_2<Zenject::InjectContext*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>* _get_method();
-    // Set instance field: public System.Func`2<Zenject.InjectContext,System.Collections.Generic.IEnumerable`1<System.Object>> method
-    void _set_method(System::Func_2<Zenject::InjectContext*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>* value);
+    // Get instance field reference: public System.Func`2<Zenject.InjectContext,System.Collections.Generic.IEnumerable`1<System.Object>> method
+    System::Func_2<Zenject::InjectContext*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>*& dyn_method();
     // Zenject.IProvider <FromMethodMultipleUntyped>b__0(Zenject.DiContainer container, System.Type type)
     // Offset: 0x165E408
     Zenject::IProvider* $FromMethodMultipleUntyped$b__0(Zenject::DiContainer* container, System::Type* type);

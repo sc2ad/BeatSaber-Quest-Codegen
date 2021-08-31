@@ -39,10 +39,8 @@ namespace System::Text {
     EncoderReplacementFallback(::Il2CppString* strDefault_ = {}) noexcept : strDefault{strDefault_} {}
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
-    // Get instance field: private System.String strDefault
-    ::Il2CppString* _get_strDefault();
-    // Set instance field: private System.String strDefault
-    void _set_strDefault(::Il2CppString* value);
+    // Get instance field reference: private System.String strDefault
+    ::Il2CppString*& dyn_strDefault();
     // public System.String get_DefaultString()
     // Offset: 0x1D6C5C8
     ::Il2CppString* get_DefaultString();

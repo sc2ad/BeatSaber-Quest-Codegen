@@ -65,10 +65,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState _get_Completed();
       // Set static field: static public LevelDataAssetDownloadUpdate/AssetDownloadingState Completed
       static void _set_Completed(GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // LevelDataAssetDownloadUpdate/AssetDownloadingState
     #pragma pack(pop)
     static check_size<sizeof(LevelDataAssetDownloadUpdate::AssetDownloadingState), 0 + sizeof(int)> __GlobalNamespace_LevelDataAssetDownloadUpdate_AssetDownloadingStateSizeCheck;
@@ -103,22 +101,14 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public readonly System.String levelID
-    ::Il2CppString* _get_levelID();
-    // Set instance field: public readonly System.String levelID
-    void _set_levelID(::Il2CppString* value);
-    // Get instance field: public readonly System.UInt32 bytesTotal
-    uint _get_bytesTotal();
-    // Set instance field: public readonly System.UInt32 bytesTotal
-    void _set_bytesTotal(uint value);
-    // Get instance field: public readonly System.UInt32 bytesTransferred
-    uint _get_bytesTransferred();
-    // Set instance field: public readonly System.UInt32 bytesTransferred
-    void _set_bytesTransferred(uint value);
-    // Get instance field: public readonly LevelDataAssetDownloadUpdate/AssetDownloadingState assetDownloadingState
-    GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState _get_assetDownloadingState();
-    // Set instance field: public readonly LevelDataAssetDownloadUpdate/AssetDownloadingState assetDownloadingState
-    void _set_assetDownloadingState(GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState value);
+    // Get instance field reference: public readonly System.String levelID
+    ::Il2CppString*& dyn_levelID();
+    // Get instance field reference: public readonly System.UInt32 bytesTotal
+    uint& dyn_bytesTotal();
+    // Get instance field reference: public readonly System.UInt32 bytesTransferred
+    uint& dyn_bytesTransferred();
+    // Get instance field reference: public readonly LevelDataAssetDownloadUpdate/AssetDownloadingState assetDownloadingState
+    GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState& dyn_assetDownloadingState();
     // public System.Void .ctor(System.String levelID, System.UInt32 bytesTotal, System.UInt32 bytesTransferred, LevelDataAssetDownloadUpdate/AssetDownloadingState assetDownloadingState)
     // Offset: 0x114FED8
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

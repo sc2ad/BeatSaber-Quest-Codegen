@@ -65,26 +65,16 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public OVRPlugin/Bool IsValid
-    GlobalNamespace::OVRPlugin::Bool _get_IsValid();
-    // Set instance field: public OVRPlugin/Bool IsValid
-    void _set_IsValid(GlobalNamespace::OVRPlugin::Bool value);
-    // Get instance field: public System.Double LastChangedTimeSeconds
-    double _get_LastChangedTimeSeconds();
-    // Set instance field: public System.Double LastChangedTimeSeconds
-    void _set_LastChangedTimeSeconds(double value);
-    // Get instance field: public OVRPlugin/CameraStatus CameraStatusData
-    GlobalNamespace::OVRPlugin::CameraStatus _get_CameraStatusData();
-    // Set instance field: public OVRPlugin/CameraStatus CameraStatusData
-    void _set_CameraStatusData(GlobalNamespace::OVRPlugin::CameraStatus value);
-    // Get instance field: public OVRPlugin/Node AttachedToNode
-    GlobalNamespace::OVRPlugin::Node _get_AttachedToNode();
-    // Set instance field: public OVRPlugin/Node AttachedToNode
-    void _set_AttachedToNode(GlobalNamespace::OVRPlugin::Node value);
-    // Get instance field: public OVRPlugin/Posef RelativePose
-    GlobalNamespace::OVRPlugin::Posef _get_RelativePose();
-    // Set instance field: public OVRPlugin/Posef RelativePose
-    void _set_RelativePose(GlobalNamespace::OVRPlugin::Posef value);
+    // Get instance field reference: public OVRPlugin/Bool IsValid
+    GlobalNamespace::OVRPlugin::Bool& dyn_IsValid();
+    // Get instance field reference: public System.Double LastChangedTimeSeconds
+    double& dyn_LastChangedTimeSeconds();
+    // Get instance field reference: public OVRPlugin/CameraStatus CameraStatusData
+    GlobalNamespace::OVRPlugin::CameraStatus& dyn_CameraStatusData();
+    // Get instance field reference: public OVRPlugin/Node AttachedToNode
+    GlobalNamespace::OVRPlugin::Node& dyn_AttachedToNode();
+    // Get instance field reference: public OVRPlugin/Posef RelativePose
+    GlobalNamespace::OVRPlugin::Posef& dyn_RelativePose();
   }; // OVRPlugin/CameraExtrinsics
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::CameraExtrinsics), 24 + sizeof(GlobalNamespace::OVRPlugin::Posef)> __GlobalNamespace_OVRPlugin_CameraExtrinsicsSizeCheck;

@@ -61,10 +61,8 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::DisconnectedReason() const noexcept {
       return disconnectedReason;
     }
-    // Get instance field: public DisconnectedReason disconnectedReason
-    GlobalNamespace::DisconnectedReason _get_disconnectedReason();
-    // Set instance field: public DisconnectedReason disconnectedReason
-    void _set_disconnectedReason(GlobalNamespace::DisconnectedReason value);
+    // Get instance field reference: public DisconnectedReason disconnectedReason
+    GlobalNamespace::DisconnectedReason& dyn_disconnectedReason();
     // static public PacketPool`1<ConnectedPlayerManager/PlayerDisconnectedPacket> get_pool()
     // Offset: 0x1320CA8
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::PlayerDisconnectedPacket*>* get_pool();

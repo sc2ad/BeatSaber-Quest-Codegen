@@ -32,14 +32,10 @@ namespace System {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     // Creating value type constructor for type: MonoListItem
     MonoListItem(System::MonoListItem* next_ = {}, ::Il2CppObject* data_ = {}) noexcept : next{next_}, data{data_} {}
-    // Get instance field: private System.MonoListItem next
-    System::MonoListItem* _get_next();
-    // Set instance field: private System.MonoListItem next
-    void _set_next(System::MonoListItem* value);
-    // Get instance field: private System.Object data
-    ::Il2CppObject* _get_data();
-    // Set instance field: private System.Object data
-    void _set_data(::Il2CppObject* value);
+    // Get instance field reference: private System.MonoListItem next
+    System::MonoListItem*& dyn_next();
+    // Get instance field reference: private System.Object data
+    ::Il2CppObject*& dyn_data();
     // public System.Void .ctor()
     // Offset: 0x1839750
     // Implemented from: System.Object

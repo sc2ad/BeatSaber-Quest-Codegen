@@ -75,14 +75,10 @@ namespace UnityEngine::UI {
     static UnityEngine::UI::ObjectPool_1<UnityEngine::UI::LayoutRebuilder*>* _get_s_Rebuilders();
     // Set static field: static private UnityEngine.UI.ObjectPool`1<UnityEngine.UI.LayoutRebuilder> s_Rebuilders
     static void _set_s_Rebuilders(UnityEngine::UI::ObjectPool_1<UnityEngine::UI::LayoutRebuilder*>* value);
-    // Get instance field: private UnityEngine.RectTransform m_ToRebuild
-    UnityEngine::RectTransform* _get_m_ToRebuild();
-    // Set instance field: private UnityEngine.RectTransform m_ToRebuild
-    void _set_m_ToRebuild(UnityEngine::RectTransform* value);
-    // Get instance field: private System.Int32 m_CachedHashFromTransform
-    int _get_m_CachedHashFromTransform();
-    // Set instance field: private System.Int32 m_CachedHashFromTransform
-    void _set_m_CachedHashFromTransform(int value);
+    // Get instance field reference: private UnityEngine.RectTransform m_ToRebuild
+    UnityEngine::RectTransform*& dyn_m_ToRebuild();
+    // Get instance field reference: private System.Int32 m_CachedHashFromTransform
+    int& dyn_m_CachedHashFromTransform();
     // public UnityEngine.Transform get_transform()
     // Offset: 0x19CF208
     UnityEngine::Transform* get_transform();

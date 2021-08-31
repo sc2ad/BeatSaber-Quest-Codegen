@@ -95,10 +95,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::TimelineArrayReference::ArrayTypes _get_DirectionalLight();
       // Set static field: static public TimelineArrayReference/ArrayTypes DirectionalLight
       static void _set_DirectionalLight(GlobalNamespace::TimelineArrayReference::ArrayTypes value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // TimelineArrayReference/ArrayTypes
     #pragma pack(pop)
     static check_size<sizeof(TimelineArrayReference::ArrayTypes), 0 + sizeof(int)> __GlobalNamespace_TimelineArrayReference_ArrayTypesSizeCheck;
@@ -145,30 +143,18 @@ namespace GlobalNamespace {
     TimelineArrayReference(GlobalNamespace::TimelineArrayReference::ArrayTypes arrayType_ = {}, ::Array<GlobalNamespace::TubeBloomPrePassLight*>* tubeLightArray_ = {}, ::Array<UnityEngine::CanvasGroup*>* canvasGroupArray_ = {}, ::Array<TMPro::TextMeshPro*>* tmproArray_ = {}, ::Array<UnityEngine::Transform*>* transformArray_ = {}, ::Array<GlobalNamespace::DirectionalLight*>* directionalLights_ = {}) noexcept : arrayType{arrayType_}, tubeLightArray{tubeLightArray_}, canvasGroupArray{canvasGroupArray_}, tmproArray{tmproArray_}, transformArray{transformArray_}, directionalLights{directionalLights_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private TimelineArrayReference/ArrayTypes arrayType
-    GlobalNamespace::TimelineArrayReference::ArrayTypes _get_arrayType();
-    // Set instance field: private TimelineArrayReference/ArrayTypes arrayType
-    void _set_arrayType(GlobalNamespace::TimelineArrayReference::ArrayTypes value);
-    // Get instance field: public TubeBloomPrePassLight[] _tubeLightArray
-    ::Array<GlobalNamespace::TubeBloomPrePassLight*>* _get__tubeLightArray();
-    // Set instance field: public TubeBloomPrePassLight[] _tubeLightArray
-    void _set__tubeLightArray(::Array<GlobalNamespace::TubeBloomPrePassLight*>* value);
-    // Get instance field: public UnityEngine.CanvasGroup[] _canvasGroupArray
-    ::Array<UnityEngine::CanvasGroup*>* _get__canvasGroupArray();
-    // Set instance field: public UnityEngine.CanvasGroup[] _canvasGroupArray
-    void _set__canvasGroupArray(::Array<UnityEngine::CanvasGroup*>* value);
-    // Get instance field: public TMPro.TextMeshPro[] _tmproArray
-    ::Array<TMPro::TextMeshPro*>* _get__tmproArray();
-    // Set instance field: public TMPro.TextMeshPro[] _tmproArray
-    void _set__tmproArray(::Array<TMPro::TextMeshPro*>* value);
-    // Get instance field: public UnityEngine.Transform[] _transformArray
-    ::Array<UnityEngine::Transform*>* _get__transformArray();
-    // Set instance field: public UnityEngine.Transform[] _transformArray
-    void _set__transformArray(::Array<UnityEngine::Transform*>* value);
-    // Get instance field: public DirectionalLight[] _directionalLights
-    ::Array<GlobalNamespace::DirectionalLight*>* _get__directionalLights();
-    // Set instance field: public DirectionalLight[] _directionalLights
-    void _set__directionalLights(::Array<GlobalNamespace::DirectionalLight*>* value);
+    // Get instance field reference: private TimelineArrayReference/ArrayTypes arrayType
+    GlobalNamespace::TimelineArrayReference::ArrayTypes& dyn_arrayType();
+    // Get instance field reference: public TubeBloomPrePassLight[] _tubeLightArray
+    ::Array<GlobalNamespace::TubeBloomPrePassLight*>*& dyn__tubeLightArray();
+    // Get instance field reference: public UnityEngine.CanvasGroup[] _canvasGroupArray
+    ::Array<UnityEngine::CanvasGroup*>*& dyn__canvasGroupArray();
+    // Get instance field reference: public TMPro.TextMeshPro[] _tmproArray
+    ::Array<TMPro::TextMeshPro*>*& dyn__tmproArray();
+    // Get instance field reference: public UnityEngine.Transform[] _transformArray
+    ::Array<UnityEngine::Transform*>*& dyn__transformArray();
+    // Get instance field reference: public DirectionalLight[] _directionalLights
+    ::Array<GlobalNamespace::DirectionalLight*>*& dyn__directionalLights();
     // public System.Void .ctor()
     // Offset: 0x1095740
     // Implemented from: UnityEngine.MonoBehaviour

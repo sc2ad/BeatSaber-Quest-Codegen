@@ -77,10 +77,8 @@ namespace System {
       static System::UriParser::UriQuirksVersion _get_V3();
       // Set static field: static public System.UriParser/System.UriQuirksVersion V3
       static void _set_V3(System::UriParser::UriQuirksVersion value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // System.UriParser/System.UriQuirksVersion
     #pragma pack(pop)
     static check_size<sizeof(UriParser::UriQuirksVersion), 0 + sizeof(int)> __System_UriParser_UriQuirksVersionSizeCheck;
@@ -203,26 +201,16 @@ namespace System {
     static System::UriSyntaxFlags _get_FileSyntaxFlags();
     // Set static field: static private readonly System.UriSyntaxFlags FileSyntaxFlags
     static void _set_FileSyntaxFlags(System::UriSyntaxFlags value);
-    // Get instance field: private System.UriSyntaxFlags m_Flags
-    System::UriSyntaxFlags _get_m_Flags();
-    // Set instance field: private System.UriSyntaxFlags m_Flags
-    void _set_m_Flags(System::UriSyntaxFlags value);
-    // Get instance field: private System.UriSyntaxFlags m_UpdatableFlags
-    System::UriSyntaxFlags _get_m_UpdatableFlags();
-    // Set instance field: private System.UriSyntaxFlags m_UpdatableFlags
-    void _set_m_UpdatableFlags(System::UriSyntaxFlags value);
-    // Get instance field: private System.Boolean m_UpdatableFlagsUsed
-    bool _get_m_UpdatableFlagsUsed();
-    // Set instance field: private System.Boolean m_UpdatableFlagsUsed
-    void _set_m_UpdatableFlagsUsed(bool value);
-    // Get instance field: private System.Int32 m_Port
-    int _get_m_Port();
-    // Set instance field: private System.Int32 m_Port
-    void _set_m_Port(int value);
-    // Get instance field: private System.String m_Scheme
-    ::Il2CppString* _get_m_Scheme();
-    // Set instance field: private System.String m_Scheme
-    void _set_m_Scheme(::Il2CppString* value);
+    // Get instance field reference: private System.UriSyntaxFlags m_Flags
+    System::UriSyntaxFlags& dyn_m_Flags();
+    // Get instance field reference: private System.UriSyntaxFlags m_UpdatableFlags
+    System::UriSyntaxFlags& dyn_m_UpdatableFlags();
+    // Get instance field reference: private System.Boolean m_UpdatableFlagsUsed
+    bool& dyn_m_UpdatableFlagsUsed();
+    // Get instance field reference: private System.Int32 m_Port
+    int& dyn_m_Port();
+    // Get instance field reference: private System.String m_Scheme
+    ::Il2CppString*& dyn_m_Scheme();
     // System.String get_SchemeName()
     // Offset: 0x23ED494
     ::Il2CppString* get_SchemeName();

@@ -48,22 +48,14 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(System::DateTime) == 0x8);
     // Creating value type constructor for type: RoomInviteNotification
     RoomInviteNotification(uint64_t _ID_ = {}, uint64_t RoomID_ = {}, uint64_t SenderID_ = {}, System::DateTime SentTime_ = {}) noexcept : _ID{_ID_}, RoomID{RoomID_}, SenderID{SenderID_}, SentTime{SentTime_} {}
-    // Get instance field: public readonly System.UInt64 ID
-    uint64_t _get_ID();
-    // Set instance field: public readonly System.UInt64 ID
-    void _set_ID(uint64_t value);
-    // Get instance field: public readonly System.UInt64 RoomID
-    uint64_t _get_RoomID();
-    // Set instance field: public readonly System.UInt64 RoomID
-    void _set_RoomID(uint64_t value);
-    // Get instance field: public readonly System.UInt64 SenderID
-    uint64_t _get_SenderID();
-    // Set instance field: public readonly System.UInt64 SenderID
-    void _set_SenderID(uint64_t value);
-    // Get instance field: public readonly System.DateTime SentTime
-    System::DateTime _get_SentTime();
-    // Set instance field: public readonly System.DateTime SentTime
-    void _set_SentTime(System::DateTime value);
+    // Get instance field reference: public readonly System.UInt64 ID
+    uint64_t& dyn_ID();
+    // Get instance field reference: public readonly System.UInt64 RoomID
+    uint64_t& dyn_RoomID();
+    // Get instance field reference: public readonly System.UInt64 SenderID
+    uint64_t& dyn_SenderID();
+    // Get instance field reference: public readonly System.DateTime SentTime
+    System::DateTime& dyn_SentTime();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14EF6CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

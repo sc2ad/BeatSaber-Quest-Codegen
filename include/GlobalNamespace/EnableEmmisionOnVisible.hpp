@@ -44,14 +44,10 @@ namespace GlobalNamespace {
     EnableEmmisionOnVisible(::Array<UnityEngine::ParticleSystem*>* particleSystems_ = {}, ::Array<UnityEngine::ParticleSystem::EmissionModule>* emmisionModules_ = {}) noexcept : particleSystems{particleSystems_}, emmisionModules{emmisionModules_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.ParticleSystem[] _particleSystems
-    ::Array<UnityEngine::ParticleSystem*>* _get__particleSystems();
-    // Set instance field: private UnityEngine.ParticleSystem[] _particleSystems
-    void _set__particleSystems(::Array<UnityEngine::ParticleSystem*>* value);
-    // Get instance field: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule[] _emmisionModules
-    ::Array<UnityEngine::ParticleSystem::EmissionModule>* _get__emmisionModules();
-    // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule[] _emmisionModules
-    void _set__emmisionModules(::Array<UnityEngine::ParticleSystem::EmissionModule>* value);
+    // Get instance field reference: private UnityEngine.ParticleSystem[] _particleSystems
+    ::Array<UnityEngine::ParticleSystem*>*& dyn__particleSystems();
+    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule[] _emmisionModules
+    ::Array<UnityEngine::ParticleSystem::EmissionModule>*& dyn__emmisionModules();
     // protected System.Void Awake()
     // Offset: 0x125D638
     void Awake();

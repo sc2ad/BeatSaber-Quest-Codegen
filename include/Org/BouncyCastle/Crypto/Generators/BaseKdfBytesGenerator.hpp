@@ -61,22 +61,14 @@ namespace Org::BouncyCastle::Crypto::Generators {
     operator Org::BouncyCastle::Crypto::IDerivationFunction() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDerivationFunction*>(this);
     }
-    // Get instance field: private System.Int32 counterStart
-    int _get_counterStart();
-    // Set instance field: private System.Int32 counterStart
-    void _set_counterStart(int value);
-    // Get instance field: private Org.BouncyCastle.Crypto.IDigest digest
-    Org::BouncyCastle::Crypto::IDigest* _get_digest();
-    // Set instance field: private Org.BouncyCastle.Crypto.IDigest digest
-    void _set_digest(Org::BouncyCastle::Crypto::IDigest* value);
-    // Get instance field: private System.Byte[] shared
-    ::Array<uint8_t>* _get_shared();
-    // Set instance field: private System.Byte[] shared
-    void _set_shared(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] iv
-    ::Array<uint8_t>* _get_iv();
-    // Set instance field: private System.Byte[] iv
-    void _set_iv(::Array<uint8_t>* value);
+    // Get instance field reference: private System.Int32 counterStart
+    int& dyn_counterStart();
+    // Get instance field reference: private Org.BouncyCastle.Crypto.IDigest digest
+    Org::BouncyCastle::Crypto::IDigest*& dyn_digest();
+    // Get instance field reference: private System.Byte[] shared
+    ::Array<uint8_t>*& dyn_shared();
+    // Get instance field reference: private System.Byte[] iv
+    ::Array<uint8_t>*& dyn_iv();
     // public System.Void .ctor(System.Int32 counterStart, Org.BouncyCastle.Crypto.IDigest digest)
     // Offset: 0x19078B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

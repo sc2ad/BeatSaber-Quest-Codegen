@@ -71,22 +71,14 @@ namespace GlobalNamespace {
     TrailerGameplayManager(bool disableMainCamera_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, GlobalNamespace::GameSongController* gameSongController_ = {}, GlobalNamespace::MainCamera* mainCamera_ = {}) noexcept : disableMainCamera{disableMainCamera_}, gameScenesManager{gameScenesManager_}, gameSongController{gameSongController_}, mainCamera{mainCamera_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Boolean _disableMainCamera
-    bool _get__disableMainCamera();
-    // Set instance field: private System.Boolean _disableMainCamera
-    void _set__disableMainCamera(bool value);
-    // Get instance field: private GameScenesManager _gameScenesManager
-    GlobalNamespace::GameScenesManager* _get__gameScenesManager();
-    // Set instance field: private GameScenesManager _gameScenesManager
-    void _set__gameScenesManager(GlobalNamespace::GameScenesManager* value);
-    // Get instance field: private GameSongController _gameSongController
-    GlobalNamespace::GameSongController* _get__gameSongController();
-    // Set instance field: private GameSongController _gameSongController
-    void _set__gameSongController(GlobalNamespace::GameSongController* value);
-    // Get instance field: private MainCamera _mainCamera
-    GlobalNamespace::MainCamera* _get__mainCamera();
-    // Set instance field: private MainCamera _mainCamera
-    void _set__mainCamera(GlobalNamespace::MainCamera* value);
+    // Get instance field reference: private System.Boolean _disableMainCamera
+    bool& dyn__disableMainCamera();
+    // Get instance field reference: private GameScenesManager _gameScenesManager
+    GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
+    // Get instance field reference: private GameSongController _gameSongController
+    GlobalNamespace::GameSongController*& dyn__gameSongController();
+    // Get instance field reference: private MainCamera _mainCamera
+    GlobalNamespace::MainCamera*& dyn__mainCamera();
     // private System.Collections.IEnumerator Start()
     // Offset: 0x1097868
     System::Collections::IEnumerator* Start();

@@ -336,206 +336,106 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: Config
     Config(::Il2CppString* version_ = {}, int windowResolutionWidth_ = {}, int windowResolutionHeight_ = {}, GlobalNamespace::MainSettingsModelSO::WindowMode windowMode_ = {}, float vrResolutionScale_ = {}, float menuVRResolutionScaleMultiplier_ = {}, bool useFixedFoveatedRenderingDuringGameplay_ = {}, int antiAliasingLevel_ = {}, int mirrorGraphicsSettings_ = {}, int mainEffectGraphicsSettings_ = {}, int bloomGraphicsSettings_ = {}, int smokeGraphicsSettings_ = {}, bool burnMarkTrailsEnabled_ = {}, bool screenDisplacementEffectsEnabled_ = {}, float roomCenterX_ = {}, float roomCenterY_ = {}, float roomCenterZ_ = {}, float roomRotation_ = {}, float controllerPositionX_ = {}, float controllerPositionY_ = {}, float controllerPositionZ_ = {}, float controllerRotationX_ = {}, float controllerRotationY_ = {}, float controllerRotationZ_ = {}, int smoothCameraEnabled_ = {}, float smoothCameraFieldOfView_ = {}, float smoothCameraThirdPersonPositionX_ = {}, float smoothCameraThirdPersonPositionY_ = {}, float smoothCameraThirdPersonPositionZ_ = {}, float smoothCameraThirdPersonEulerAnglesX_ = {}, float smoothCameraThirdPersonEulerAnglesY_ = {}, float smoothCameraThirdPersonEulerAnglesZ_ = {}, int smoothCameraThirdPersonEnabled_ = {}, float smoothCameraRotationSmooth_ = {}, float smoothCameraPositionSmooth_ = {}, bool useCustomServerEnvironment_ = {}, ::Il2CppString* customServerHostName_ = {}, float volume_ = {}, float ambientVolumeScale_ = {}, bool controllersRumbleEnabled_ = {}, int enableAlphaFeatures_ = {}, int pauseButtonPressDurationLevel_ = {}, int maxShockwaveParticles_ = {}, bool overrideAudioLatency_ = {}, float audioLatency_ = {}, int maxNumberOfCutSoundEffects_ = {}, bool onlineServicesEnabled_ = {}, bool oculusMRCEnabled_ = {}, bool openVrThreadedHaptics_ = {}, ::Il2CppString* language_ = {}) noexcept : version{version_}, windowResolutionWidth{windowResolutionWidth_}, windowResolutionHeight{windowResolutionHeight_}, windowMode{windowMode_}, vrResolutionScale{vrResolutionScale_}, menuVRResolutionScaleMultiplier{menuVRResolutionScaleMultiplier_}, useFixedFoveatedRenderingDuringGameplay{useFixedFoveatedRenderingDuringGameplay_}, antiAliasingLevel{antiAliasingLevel_}, mirrorGraphicsSettings{mirrorGraphicsSettings_}, mainEffectGraphicsSettings{mainEffectGraphicsSettings_}, bloomGraphicsSettings{bloomGraphicsSettings_}, smokeGraphicsSettings{smokeGraphicsSettings_}, burnMarkTrailsEnabled{burnMarkTrailsEnabled_}, screenDisplacementEffectsEnabled{screenDisplacementEffectsEnabled_}, roomCenterX{roomCenterX_}, roomCenterY{roomCenterY_}, roomCenterZ{roomCenterZ_}, roomRotation{roomRotation_}, controllerPositionX{controllerPositionX_}, controllerPositionY{controllerPositionY_}, controllerPositionZ{controllerPositionZ_}, controllerRotationX{controllerRotationX_}, controllerRotationY{controllerRotationY_}, controllerRotationZ{controllerRotationZ_}, smoothCameraEnabled{smoothCameraEnabled_}, smoothCameraFieldOfView{smoothCameraFieldOfView_}, smoothCameraThirdPersonPositionX{smoothCameraThirdPersonPositionX_}, smoothCameraThirdPersonPositionY{smoothCameraThirdPersonPositionY_}, smoothCameraThirdPersonPositionZ{smoothCameraThirdPersonPositionZ_}, smoothCameraThirdPersonEulerAnglesX{smoothCameraThirdPersonEulerAnglesX_}, smoothCameraThirdPersonEulerAnglesY{smoothCameraThirdPersonEulerAnglesY_}, smoothCameraThirdPersonEulerAnglesZ{smoothCameraThirdPersonEulerAnglesZ_}, smoothCameraThirdPersonEnabled{smoothCameraThirdPersonEnabled_}, smoothCameraRotationSmooth{smoothCameraRotationSmooth_}, smoothCameraPositionSmooth{smoothCameraPositionSmooth_}, useCustomServerEnvironment{useCustomServerEnvironment_}, customServerHostName{customServerHostName_}, volume{volume_}, ambientVolumeScale{ambientVolumeScale_}, controllersRumbleEnabled{controllersRumbleEnabled_}, enableAlphaFeatures{enableAlphaFeatures_}, pauseButtonPressDurationLevel{pauseButtonPressDurationLevel_}, maxShockwaveParticles{maxShockwaveParticles_}, overrideAudioLatency{overrideAudioLatency_}, audioLatency{audioLatency_}, maxNumberOfCutSoundEffects{maxNumberOfCutSoundEffects_}, onlineServicesEnabled{onlineServicesEnabled_}, oculusMRCEnabled{oculusMRCEnabled_}, openVrThreadedHaptics{openVrThreadedHaptics_}, language{language_} {}
-    // Get instance field: public System.String version
-    ::Il2CppString* _get_version();
-    // Set instance field: public System.String version
-    void _set_version(::Il2CppString* value);
-    // Get instance field: public System.Int32 windowResolutionWidth
-    int _get_windowResolutionWidth();
-    // Set instance field: public System.Int32 windowResolutionWidth
-    void _set_windowResolutionWidth(int value);
-    // Get instance field: public System.Int32 windowResolutionHeight
-    int _get_windowResolutionHeight();
-    // Set instance field: public System.Int32 windowResolutionHeight
-    void _set_windowResolutionHeight(int value);
-    // Get instance field: public MainSettingsModelSO/WindowMode windowMode
-    GlobalNamespace::MainSettingsModelSO::WindowMode _get_windowMode();
-    // Set instance field: public MainSettingsModelSO/WindowMode windowMode
-    void _set_windowMode(GlobalNamespace::MainSettingsModelSO::WindowMode value);
-    // Get instance field: public System.Single vrResolutionScale
-    float _get_vrResolutionScale();
-    // Set instance field: public System.Single vrResolutionScale
-    void _set_vrResolutionScale(float value);
-    // Get instance field: public System.Single menuVRResolutionScaleMultiplier
-    float _get_menuVRResolutionScaleMultiplier();
-    // Set instance field: public System.Single menuVRResolutionScaleMultiplier
-    void _set_menuVRResolutionScaleMultiplier(float value);
-    // Get instance field: public System.Boolean useFixedFoveatedRenderingDuringGameplay
-    bool _get_useFixedFoveatedRenderingDuringGameplay();
-    // Set instance field: public System.Boolean useFixedFoveatedRenderingDuringGameplay
-    void _set_useFixedFoveatedRenderingDuringGameplay(bool value);
-    // Get instance field: public System.Int32 antiAliasingLevel
-    int _get_antiAliasingLevel();
-    // Set instance field: public System.Int32 antiAliasingLevel
-    void _set_antiAliasingLevel(int value);
-    // Get instance field: public System.Int32 mirrorGraphicsSettings
-    int _get_mirrorGraphicsSettings();
-    // Set instance field: public System.Int32 mirrorGraphicsSettings
-    void _set_mirrorGraphicsSettings(int value);
-    // Get instance field: public System.Int32 mainEffectGraphicsSettings
-    int _get_mainEffectGraphicsSettings();
-    // Set instance field: public System.Int32 mainEffectGraphicsSettings
-    void _set_mainEffectGraphicsSettings(int value);
-    // Get instance field: public System.Int32 bloomGraphicsSettings
-    int _get_bloomGraphicsSettings();
-    // Set instance field: public System.Int32 bloomGraphicsSettings
-    void _set_bloomGraphicsSettings(int value);
-    // Get instance field: public System.Int32 smokeGraphicsSettings
-    int _get_smokeGraphicsSettings();
-    // Set instance field: public System.Int32 smokeGraphicsSettings
-    void _set_smokeGraphicsSettings(int value);
-    // Get instance field: public System.Boolean burnMarkTrailsEnabled
-    bool _get_burnMarkTrailsEnabled();
-    // Set instance field: public System.Boolean burnMarkTrailsEnabled
-    void _set_burnMarkTrailsEnabled(bool value);
-    // Get instance field: public System.Boolean screenDisplacementEffectsEnabled
-    bool _get_screenDisplacementEffectsEnabled();
-    // Set instance field: public System.Boolean screenDisplacementEffectsEnabled
-    void _set_screenDisplacementEffectsEnabled(bool value);
-    // Get instance field: public System.Single roomCenterX
-    float _get_roomCenterX();
-    // Set instance field: public System.Single roomCenterX
-    void _set_roomCenterX(float value);
-    // Get instance field: public System.Single roomCenterY
-    float _get_roomCenterY();
-    // Set instance field: public System.Single roomCenterY
-    void _set_roomCenterY(float value);
-    // Get instance field: public System.Single roomCenterZ
-    float _get_roomCenterZ();
-    // Set instance field: public System.Single roomCenterZ
-    void _set_roomCenterZ(float value);
-    // Get instance field: public System.Single roomRotation
-    float _get_roomRotation();
-    // Set instance field: public System.Single roomRotation
-    void _set_roomRotation(float value);
-    // Get instance field: public System.Single controllerPositionX
-    float _get_controllerPositionX();
-    // Set instance field: public System.Single controllerPositionX
-    void _set_controllerPositionX(float value);
-    // Get instance field: public System.Single controllerPositionY
-    float _get_controllerPositionY();
-    // Set instance field: public System.Single controllerPositionY
-    void _set_controllerPositionY(float value);
-    // Get instance field: public System.Single controllerPositionZ
-    float _get_controllerPositionZ();
-    // Set instance field: public System.Single controllerPositionZ
-    void _set_controllerPositionZ(float value);
-    // Get instance field: public System.Single controllerRotationX
-    float _get_controllerRotationX();
-    // Set instance field: public System.Single controllerRotationX
-    void _set_controllerRotationX(float value);
-    // Get instance field: public System.Single controllerRotationY
-    float _get_controllerRotationY();
-    // Set instance field: public System.Single controllerRotationY
-    void _set_controllerRotationY(float value);
-    // Get instance field: public System.Single controllerRotationZ
-    float _get_controllerRotationZ();
-    // Set instance field: public System.Single controllerRotationZ
-    void _set_controllerRotationZ(float value);
-    // Get instance field: public System.Int32 smoothCameraEnabled
-    int _get_smoothCameraEnabled();
-    // Set instance field: public System.Int32 smoothCameraEnabled
-    void _set_smoothCameraEnabled(int value);
-    // Get instance field: public System.Single smoothCameraFieldOfView
-    float _get_smoothCameraFieldOfView();
-    // Set instance field: public System.Single smoothCameraFieldOfView
-    void _set_smoothCameraFieldOfView(float value);
-    // Get instance field: public System.Single smoothCameraThirdPersonPositionX
-    float _get_smoothCameraThirdPersonPositionX();
-    // Set instance field: public System.Single smoothCameraThirdPersonPositionX
-    void _set_smoothCameraThirdPersonPositionX(float value);
-    // Get instance field: public System.Single smoothCameraThirdPersonPositionY
-    float _get_smoothCameraThirdPersonPositionY();
-    // Set instance field: public System.Single smoothCameraThirdPersonPositionY
-    void _set_smoothCameraThirdPersonPositionY(float value);
-    // Get instance field: public System.Single smoothCameraThirdPersonPositionZ
-    float _get_smoothCameraThirdPersonPositionZ();
-    // Set instance field: public System.Single smoothCameraThirdPersonPositionZ
-    void _set_smoothCameraThirdPersonPositionZ(float value);
-    // Get instance field: public System.Single smoothCameraThirdPersonEulerAnglesX
-    float _get_smoothCameraThirdPersonEulerAnglesX();
-    // Set instance field: public System.Single smoothCameraThirdPersonEulerAnglesX
-    void _set_smoothCameraThirdPersonEulerAnglesX(float value);
-    // Get instance field: public System.Single smoothCameraThirdPersonEulerAnglesY
-    float _get_smoothCameraThirdPersonEulerAnglesY();
-    // Set instance field: public System.Single smoothCameraThirdPersonEulerAnglesY
-    void _set_smoothCameraThirdPersonEulerAnglesY(float value);
-    // Get instance field: public System.Single smoothCameraThirdPersonEulerAnglesZ
-    float _get_smoothCameraThirdPersonEulerAnglesZ();
-    // Set instance field: public System.Single smoothCameraThirdPersonEulerAnglesZ
-    void _set_smoothCameraThirdPersonEulerAnglesZ(float value);
-    // Get instance field: public System.Int32 smoothCameraThirdPersonEnabled
-    int _get_smoothCameraThirdPersonEnabled();
-    // Set instance field: public System.Int32 smoothCameraThirdPersonEnabled
-    void _set_smoothCameraThirdPersonEnabled(int value);
-    // Get instance field: public System.Single smoothCameraRotationSmooth
-    float _get_smoothCameraRotationSmooth();
-    // Set instance field: public System.Single smoothCameraRotationSmooth
-    void _set_smoothCameraRotationSmooth(float value);
-    // Get instance field: public System.Single smoothCameraPositionSmooth
-    float _get_smoothCameraPositionSmooth();
-    // Set instance field: public System.Single smoothCameraPositionSmooth
-    void _set_smoothCameraPositionSmooth(float value);
-    // Get instance field: public System.Boolean useCustomServerEnvironment
-    bool _get_useCustomServerEnvironment();
-    // Set instance field: public System.Boolean useCustomServerEnvironment
-    void _set_useCustomServerEnvironment(bool value);
-    // Get instance field: public System.String customServerHostName
-    ::Il2CppString* _get_customServerHostName();
-    // Set instance field: public System.String customServerHostName
-    void _set_customServerHostName(::Il2CppString* value);
-    // Get instance field: public System.Single volume
-    float _get_volume();
-    // Set instance field: public System.Single volume
-    void _set_volume(float value);
-    // Get instance field: public System.Single ambientVolumeScale
-    float _get_ambientVolumeScale();
-    // Set instance field: public System.Single ambientVolumeScale
-    void _set_ambientVolumeScale(float value);
-    // Get instance field: public System.Boolean controllersRumbleEnabled
-    bool _get_controllersRumbleEnabled();
-    // Set instance field: public System.Boolean controllersRumbleEnabled
-    void _set_controllersRumbleEnabled(bool value);
-    // Get instance field: public System.Int32 enableAlphaFeatures
-    int _get_enableAlphaFeatures();
-    // Set instance field: public System.Int32 enableAlphaFeatures
-    void _set_enableAlphaFeatures(int value);
-    // Get instance field: public System.Int32 pauseButtonPressDurationLevel
-    int _get_pauseButtonPressDurationLevel();
-    // Set instance field: public System.Int32 pauseButtonPressDurationLevel
-    void _set_pauseButtonPressDurationLevel(int value);
-    // Get instance field: public System.Int32 maxShockwaveParticles
-    int _get_maxShockwaveParticles();
-    // Set instance field: public System.Int32 maxShockwaveParticles
-    void _set_maxShockwaveParticles(int value);
-    // Get instance field: public System.Boolean overrideAudioLatency
-    bool _get_overrideAudioLatency();
-    // Set instance field: public System.Boolean overrideAudioLatency
-    void _set_overrideAudioLatency(bool value);
-    // Get instance field: public System.Single audioLatency
-    float _get_audioLatency();
-    // Set instance field: public System.Single audioLatency
-    void _set_audioLatency(float value);
-    // Get instance field: public System.Int32 maxNumberOfCutSoundEffects
-    int _get_maxNumberOfCutSoundEffects();
-    // Set instance field: public System.Int32 maxNumberOfCutSoundEffects
-    void _set_maxNumberOfCutSoundEffects(int value);
-    // Get instance field: public System.Boolean onlineServicesEnabled
-    bool _get_onlineServicesEnabled();
-    // Set instance field: public System.Boolean onlineServicesEnabled
-    void _set_onlineServicesEnabled(bool value);
-    // Get instance field: public System.Boolean oculusMRCEnabled
-    bool _get_oculusMRCEnabled();
-    // Set instance field: public System.Boolean oculusMRCEnabled
-    void _set_oculusMRCEnabled(bool value);
-    // Get instance field: public System.Boolean openVrThreadedHaptics
-    bool _get_openVrThreadedHaptics();
-    // Set instance field: public System.Boolean openVrThreadedHaptics
-    void _set_openVrThreadedHaptics(bool value);
-    // Get instance field: public System.String language
-    ::Il2CppString* _get_language();
-    // Set instance field: public System.String language
-    void _set_language(::Il2CppString* value);
+    // Get instance field reference: public System.String version
+    ::Il2CppString*& dyn_version();
+    // Get instance field reference: public System.Int32 windowResolutionWidth
+    int& dyn_windowResolutionWidth();
+    // Get instance field reference: public System.Int32 windowResolutionHeight
+    int& dyn_windowResolutionHeight();
+    // Get instance field reference: public MainSettingsModelSO/WindowMode windowMode
+    GlobalNamespace::MainSettingsModelSO::WindowMode& dyn_windowMode();
+    // Get instance field reference: public System.Single vrResolutionScale
+    float& dyn_vrResolutionScale();
+    // Get instance field reference: public System.Single menuVRResolutionScaleMultiplier
+    float& dyn_menuVRResolutionScaleMultiplier();
+    // Get instance field reference: public System.Boolean useFixedFoveatedRenderingDuringGameplay
+    bool& dyn_useFixedFoveatedRenderingDuringGameplay();
+    // Get instance field reference: public System.Int32 antiAliasingLevel
+    int& dyn_antiAliasingLevel();
+    // Get instance field reference: public System.Int32 mirrorGraphicsSettings
+    int& dyn_mirrorGraphicsSettings();
+    // Get instance field reference: public System.Int32 mainEffectGraphicsSettings
+    int& dyn_mainEffectGraphicsSettings();
+    // Get instance field reference: public System.Int32 bloomGraphicsSettings
+    int& dyn_bloomGraphicsSettings();
+    // Get instance field reference: public System.Int32 smokeGraphicsSettings
+    int& dyn_smokeGraphicsSettings();
+    // Get instance field reference: public System.Boolean burnMarkTrailsEnabled
+    bool& dyn_burnMarkTrailsEnabled();
+    // Get instance field reference: public System.Boolean screenDisplacementEffectsEnabled
+    bool& dyn_screenDisplacementEffectsEnabled();
+    // Get instance field reference: public System.Single roomCenterX
+    float& dyn_roomCenterX();
+    // Get instance field reference: public System.Single roomCenterY
+    float& dyn_roomCenterY();
+    // Get instance field reference: public System.Single roomCenterZ
+    float& dyn_roomCenterZ();
+    // Get instance field reference: public System.Single roomRotation
+    float& dyn_roomRotation();
+    // Get instance field reference: public System.Single controllerPositionX
+    float& dyn_controllerPositionX();
+    // Get instance field reference: public System.Single controllerPositionY
+    float& dyn_controllerPositionY();
+    // Get instance field reference: public System.Single controllerPositionZ
+    float& dyn_controllerPositionZ();
+    // Get instance field reference: public System.Single controllerRotationX
+    float& dyn_controllerRotationX();
+    // Get instance field reference: public System.Single controllerRotationY
+    float& dyn_controllerRotationY();
+    // Get instance field reference: public System.Single controllerRotationZ
+    float& dyn_controllerRotationZ();
+    // Get instance field reference: public System.Int32 smoothCameraEnabled
+    int& dyn_smoothCameraEnabled();
+    // Get instance field reference: public System.Single smoothCameraFieldOfView
+    float& dyn_smoothCameraFieldOfView();
+    // Get instance field reference: public System.Single smoothCameraThirdPersonPositionX
+    float& dyn_smoothCameraThirdPersonPositionX();
+    // Get instance field reference: public System.Single smoothCameraThirdPersonPositionY
+    float& dyn_smoothCameraThirdPersonPositionY();
+    // Get instance field reference: public System.Single smoothCameraThirdPersonPositionZ
+    float& dyn_smoothCameraThirdPersonPositionZ();
+    // Get instance field reference: public System.Single smoothCameraThirdPersonEulerAnglesX
+    float& dyn_smoothCameraThirdPersonEulerAnglesX();
+    // Get instance field reference: public System.Single smoothCameraThirdPersonEulerAnglesY
+    float& dyn_smoothCameraThirdPersonEulerAnglesY();
+    // Get instance field reference: public System.Single smoothCameraThirdPersonEulerAnglesZ
+    float& dyn_smoothCameraThirdPersonEulerAnglesZ();
+    // Get instance field reference: public System.Int32 smoothCameraThirdPersonEnabled
+    int& dyn_smoothCameraThirdPersonEnabled();
+    // Get instance field reference: public System.Single smoothCameraRotationSmooth
+    float& dyn_smoothCameraRotationSmooth();
+    // Get instance field reference: public System.Single smoothCameraPositionSmooth
+    float& dyn_smoothCameraPositionSmooth();
+    // Get instance field reference: public System.Boolean useCustomServerEnvironment
+    bool& dyn_useCustomServerEnvironment();
+    // Get instance field reference: public System.String customServerHostName
+    ::Il2CppString*& dyn_customServerHostName();
+    // Get instance field reference: public System.Single volume
+    float& dyn_volume();
+    // Get instance field reference: public System.Single ambientVolumeScale
+    float& dyn_ambientVolumeScale();
+    // Get instance field reference: public System.Boolean controllersRumbleEnabled
+    bool& dyn_controllersRumbleEnabled();
+    // Get instance field reference: public System.Int32 enableAlphaFeatures
+    int& dyn_enableAlphaFeatures();
+    // Get instance field reference: public System.Int32 pauseButtonPressDurationLevel
+    int& dyn_pauseButtonPressDurationLevel();
+    // Get instance field reference: public System.Int32 maxShockwaveParticles
+    int& dyn_maxShockwaveParticles();
+    // Get instance field reference: public System.Boolean overrideAudioLatency
+    bool& dyn_overrideAudioLatency();
+    // Get instance field reference: public System.Single audioLatency
+    float& dyn_audioLatency();
+    // Get instance field reference: public System.Int32 maxNumberOfCutSoundEffects
+    int& dyn_maxNumberOfCutSoundEffects();
+    // Get instance field reference: public System.Boolean onlineServicesEnabled
+    bool& dyn_onlineServicesEnabled();
+    // Get instance field reference: public System.Boolean oculusMRCEnabled
+    bool& dyn_oculusMRCEnabled();
+    // Get instance field reference: public System.Boolean openVrThreadedHaptics
+    bool& dyn_openVrThreadedHaptics();
+    // Get instance field reference: public System.String language
+    ::Il2CppString*& dyn_language();
     // public System.Void .ctor()
     // Offset: 0x10E2B70
     // Implemented from: System.Object

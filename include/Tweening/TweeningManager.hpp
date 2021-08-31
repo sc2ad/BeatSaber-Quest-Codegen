@@ -74,22 +74,14 @@ namespace Tweening {
     TweeningManager(System::Collections::Generic::List_1<Tweening::Tween*>* activeTweens_ = {}, System::Collections::Generic::HashSet_1<Tweening::Tween*>* activeTweensSet_ = {}, System::Collections::Generic::Dictionary_2<UnityEngine::Object*, System::Collections::Generic::HashSet_1<Tweening::Tween*>*>* tweensByOwner_ = {}, System::Collections::Generic::Queue_1<System::Collections::Generic::HashSet_1<Tweening::Tween*>*>* reusableTweenHashSets_ = {}) noexcept : activeTweens{activeTweens_}, activeTweensSet{activeTweensSet_}, tweensByOwner{tweensByOwner_}, reusableTweenHashSets{reusableTweenHashSets_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private readonly System.Collections.Generic.List`1<Tweening.Tween> _activeTweens
-    System::Collections::Generic::List_1<Tweening::Tween*>* _get__activeTweens();
-    // Set instance field: private readonly System.Collections.Generic.List`1<Tweening.Tween> _activeTweens
-    void _set__activeTweens(System::Collections::Generic::List_1<Tweening::Tween*>* value);
-    // Get instance field: private readonly System.Collections.Generic.HashSet`1<Tweening.Tween> _activeTweensSet
-    System::Collections::Generic::HashSet_1<Tweening::Tween*>* _get__activeTweensSet();
-    // Set instance field: private readonly System.Collections.Generic.HashSet`1<Tweening.Tween> _activeTweensSet
-    void _set__activeTweensSet(System::Collections::Generic::HashSet_1<Tweening::Tween*>* value);
-    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<UnityEngine.Object,System.Collections.Generic.HashSet`1<Tweening.Tween>> _tweensByOwner
-    System::Collections::Generic::Dictionary_2<UnityEngine::Object*, System::Collections::Generic::HashSet_1<Tweening::Tween*>*>* _get__tweensByOwner();
-    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<UnityEngine.Object,System.Collections.Generic.HashSet`1<Tweening.Tween>> _tweensByOwner
-    void _set__tweensByOwner(System::Collections::Generic::Dictionary_2<UnityEngine::Object*, System::Collections::Generic::HashSet_1<Tweening::Tween*>*>* value);
-    // Get instance field: private readonly System.Collections.Generic.Queue`1<System.Collections.Generic.HashSet`1<Tweening.Tween>> _reusableTweenHashSets
-    System::Collections::Generic::Queue_1<System::Collections::Generic::HashSet_1<Tweening::Tween*>*>* _get__reusableTweenHashSets();
-    // Set instance field: private readonly System.Collections.Generic.Queue`1<System.Collections.Generic.HashSet`1<Tweening.Tween>> _reusableTweenHashSets
-    void _set__reusableTweenHashSets(System::Collections::Generic::Queue_1<System::Collections::Generic::HashSet_1<Tweening::Tween*>*>* value);
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<Tweening.Tween> _activeTweens
+    System::Collections::Generic::List_1<Tweening::Tween*>*& dyn__activeTweens();
+    // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<Tweening.Tween> _activeTweensSet
+    System::Collections::Generic::HashSet_1<Tweening::Tween*>*& dyn__activeTweensSet();
+    // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<UnityEngine.Object,System.Collections.Generic.HashSet`1<Tweening.Tween>> _tweensByOwner
+    System::Collections::Generic::Dictionary_2<UnityEngine::Object*, System::Collections::Generic::HashSet_1<Tweening::Tween*>*>*& dyn__tweensByOwner();
+    // Get instance field reference: private readonly System.Collections.Generic.Queue`1<System.Collections.Generic.HashSet`1<Tweening.Tween>> _reusableTweenHashSets
+    System::Collections::Generic::Queue_1<System::Collections::Generic::HashSet_1<Tweening::Tween*>*>*& dyn__reusableTweenHashSets();
     // protected System.Void Start()
     // Offset: 0x109DB48
     void Start();

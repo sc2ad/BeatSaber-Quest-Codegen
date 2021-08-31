@@ -67,34 +67,20 @@ namespace UnityEngine::Scripting::APIUpdating {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.String className
-    ::Il2CppString* _get_className();
-    // Set instance field: public System.String className
-    void _set_className(::Il2CppString* value);
-    // Get instance field: public System.String nameSpace
-    ::Il2CppString* _get_nameSpace();
-    // Set instance field: public System.String nameSpace
-    void _set_nameSpace(::Il2CppString* value);
-    // Get instance field: public System.String assembly
-    ::Il2CppString* _get_assembly();
-    // Set instance field: public System.String assembly
-    void _set_assembly(::Il2CppString* value);
-    // Get instance field: public System.Boolean classHasChanged
-    bool _get_classHasChanged();
-    // Set instance field: public System.Boolean classHasChanged
-    void _set_classHasChanged(bool value);
-    // Get instance field: public System.Boolean nameSpaceHasChanged
-    bool _get_nameSpaceHasChanged();
-    // Set instance field: public System.Boolean nameSpaceHasChanged
-    void _set_nameSpaceHasChanged(bool value);
-    // Get instance field: public System.Boolean assemblyHasChanged
-    bool _get_assemblyHasChanged();
-    // Set instance field: public System.Boolean assemblyHasChanged
-    void _set_assemblyHasChanged(bool value);
-    // Get instance field: public System.Boolean autoUdpateAPI
-    bool _get_autoUdpateAPI();
-    // Set instance field: public System.Boolean autoUdpateAPI
-    void _set_autoUdpateAPI(bool value);
+    // Get instance field reference: public System.String className
+    ::Il2CppString*& dyn_className();
+    // Get instance field reference: public System.String nameSpace
+    ::Il2CppString*& dyn_nameSpace();
+    // Get instance field reference: public System.String assembly
+    ::Il2CppString*& dyn_assembly();
+    // Get instance field reference: public System.Boolean classHasChanged
+    bool& dyn_classHasChanged();
+    // Get instance field reference: public System.Boolean nameSpaceHasChanged
+    bool& dyn_nameSpaceHasChanged();
+    // Get instance field reference: public System.Boolean assemblyHasChanged
+    bool& dyn_assemblyHasChanged();
+    // Get instance field reference: public System.Boolean autoUdpateAPI
+    bool& dyn_autoUdpateAPI();
     // public System.Void Set(System.Boolean autoUpdateAPI, System.String sourceNamespace, System.String sourceAssembly, System.String sourceClassName)
     // Offset: 0x1C4EF10
     void Set(bool autoUpdateAPI, ::Il2CppString* sourceNamespace, ::Il2CppString* sourceAssembly, ::Il2CppString* sourceClassName);

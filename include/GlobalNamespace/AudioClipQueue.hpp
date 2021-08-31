@@ -57,18 +57,12 @@ namespace GlobalNamespace {
     AudioClipQueue(UnityEngine::AudioSource* audioSource_ = {}, System::Collections::Generic::List_1<UnityEngine::AudioClip*>* queue_ = {}, float delay_ = {}) noexcept : audioSource{audioSource_}, queue{queue_}, delay{delay_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.AudioSource _audioSource
-    UnityEngine::AudioSource* _get__audioSource();
-    // Set instance field: private UnityEngine.AudioSource _audioSource
-    void _set__audioSource(UnityEngine::AudioSource* value);
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.AudioClip> _queue
-    System::Collections::Generic::List_1<UnityEngine::AudioClip*>* _get__queue();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.AudioClip> _queue
-    void _set__queue(System::Collections::Generic::List_1<UnityEngine::AudioClip*>* value);
-    // Get instance field: private System.Single _delay
-    float _get__delay();
-    // Set instance field: private System.Single _delay
-    void _set__delay(float value);
+    // Get instance field reference: private UnityEngine.AudioSource _audioSource
+    UnityEngine::AudioSource*& dyn__audioSource();
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.AudioClip> _queue
+    System::Collections::Generic::List_1<UnityEngine::AudioClip*>*& dyn__queue();
+    // Get instance field reference: private System.Single _delay
+    float& dyn__delay();
     // protected System.Void Awake()
     // Offset: 0x117D41C
     void Awake();

@@ -115,42 +115,24 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Random*) == 0x8);
     // Creating value type constructor for type: DlcPromoExperimentModel
     DlcPromoExperimentModel(GlobalNamespace::AdditionalContentModel* additionalContentModel_ = {}, GlobalNamespace::IPlatformUserModel* platformUserModel_ = {}, GlobalNamespace::IAnalyticsModel* analyticsModel_ = {}, GlobalNamespace::DlcPromoExperimentDataSO* dlcPromoExperimentData_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, ::Array<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>* notOwnedMusicPackPromoInfos_ = {}, bool updatingNotOwnedPacks_ = {}, bool initialized_ = {}, System::Random* random_ = {}) noexcept : additionalContentModel{additionalContentModel_}, platformUserModel{platformUserModel_}, analyticsModel{analyticsModel_}, dlcPromoExperimentData{dlcPromoExperimentData_}, playerDataModel{playerDataModel_}, notOwnedMusicPackPromoInfos{notOwnedMusicPackPromoInfos_}, updatingNotOwnedPacks{updatingNotOwnedPacks_}, initialized{initialized_}, random{random_} {}
-    // Get instance field: private readonly AdditionalContentModel _additionalContentModel
-    GlobalNamespace::AdditionalContentModel* _get__additionalContentModel();
-    // Set instance field: private readonly AdditionalContentModel _additionalContentModel
-    void _set__additionalContentModel(GlobalNamespace::AdditionalContentModel* value);
-    // Get instance field: private readonly IPlatformUserModel _platformUserModel
-    GlobalNamespace::IPlatformUserModel* _get__platformUserModel();
-    // Set instance field: private readonly IPlatformUserModel _platformUserModel
-    void _set__platformUserModel(GlobalNamespace::IPlatformUserModel* value);
-    // Get instance field: private readonly IAnalyticsModel _analyticsModel
-    GlobalNamespace::IAnalyticsModel* _get__analyticsModel();
-    // Set instance field: private readonly IAnalyticsModel _analyticsModel
-    void _set__analyticsModel(GlobalNamespace::IAnalyticsModel* value);
-    // Get instance field: private DlcPromoExperimentDataSO _dlcPromoExperimentData
-    GlobalNamespace::DlcPromoExperimentDataSO* _get__dlcPromoExperimentData();
-    // Set instance field: private DlcPromoExperimentDataSO _dlcPromoExperimentData
-    void _set__dlcPromoExperimentData(GlobalNamespace::DlcPromoExperimentDataSO* value);
-    // Get instance field: private readonly PlayerDataModel _playerDataModel
-    GlobalNamespace::PlayerDataModel* _get__playerDataModel();
-    // Set instance field: private readonly PlayerDataModel _playerDataModel
-    void _set__playerDataModel(GlobalNamespace::PlayerDataModel* value);
-    // Get instance field: private DlcPromoExperimentDataSO/MusicPackPromoInfo[] _notOwnedMusicPackPromoInfos
-    ::Array<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>* _get__notOwnedMusicPackPromoInfos();
-    // Set instance field: private DlcPromoExperimentDataSO/MusicPackPromoInfo[] _notOwnedMusicPackPromoInfos
-    void _set__notOwnedMusicPackPromoInfos(::Array<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>* value);
-    // Get instance field: private System.Boolean _updatingNotOwnedPacks
-    bool _get__updatingNotOwnedPacks();
-    // Set instance field: private System.Boolean _updatingNotOwnedPacks
-    void _set__updatingNotOwnedPacks(bool value);
-    // Get instance field: private System.Boolean _initialized
-    bool _get__initialized();
-    // Set instance field: private System.Boolean _initialized
-    void _set__initialized(bool value);
-    // Get instance field: private System.Random _random
-    System::Random* _get__random();
-    // Set instance field: private System.Random _random
-    void _set__random(System::Random* value);
+    // Get instance field reference: private readonly AdditionalContentModel _additionalContentModel
+    GlobalNamespace::AdditionalContentModel*& dyn__additionalContentModel();
+    // Get instance field reference: private readonly IPlatformUserModel _platformUserModel
+    GlobalNamespace::IPlatformUserModel*& dyn__platformUserModel();
+    // Get instance field reference: private readonly IAnalyticsModel _analyticsModel
+    GlobalNamespace::IAnalyticsModel*& dyn__analyticsModel();
+    // Get instance field reference: private DlcPromoExperimentDataSO _dlcPromoExperimentData
+    GlobalNamespace::DlcPromoExperimentDataSO*& dyn__dlcPromoExperimentData();
+    // Get instance field reference: private readonly PlayerDataModel _playerDataModel
+    GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
+    // Get instance field reference: private DlcPromoExperimentDataSO/MusicPackPromoInfo[] _notOwnedMusicPackPromoInfos
+    ::Array<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>*& dyn__notOwnedMusicPackPromoInfos();
+    // Get instance field reference: private System.Boolean _updatingNotOwnedPacks
+    bool& dyn__updatingNotOwnedPacks();
+    // Get instance field reference: private System.Boolean _initialized
+    bool& dyn__initialized();
+    // Get instance field reference: private System.Random _random
+    System::Random*& dyn__random();
     // public System.Void InitAfterPlatformWasInitializedAsync(System.Boolean force)
     // Offset: 0x10FC59C
     void InitAfterPlatformWasInitializedAsync(bool force);

@@ -47,18 +47,12 @@ namespace System::Security {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
-    // Get instance field: private System.Int32 length
-    int _get_length();
-    // Set instance field: private System.Int32 length
-    void _set_length(int value);
-    // Get instance field: private System.Boolean disposed
-    bool _get_disposed();
-    // Set instance field: private System.Boolean disposed
-    void _set_disposed(bool value);
-    // Get instance field: private System.Byte[] data
-    ::Array<uint8_t>* _get_data();
-    // Set instance field: private System.Byte[] data
-    void _set_data(::Array<uint8_t>* value);
+    // Get instance field reference: private System.Int32 length
+    int& dyn_length();
+    // Get instance field reference: private System.Boolean disposed
+    bool& dyn_disposed();
+    // Get instance field reference: private System.Byte[] data
+    ::Array<uint8_t>*& dyn_data();
     // public System.Int32 get_Length()
     // Offset: 0x1B4BC44
     int get_Length();

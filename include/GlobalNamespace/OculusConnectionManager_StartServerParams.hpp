@@ -45,10 +45,8 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::OculusNetworkPlayerModel*() const noexcept {
       return oculusNetworkPlayerModel;
     }
-    // Get instance field: public OculusNetworkPlayerModel oculusNetworkPlayerModel
-    GlobalNamespace::OculusNetworkPlayerModel* _get_oculusNetworkPlayerModel();
-    // Set instance field: public OculusNetworkPlayerModel oculusNetworkPlayerModel
-    void _set_oculusNetworkPlayerModel(GlobalNamespace::OculusNetworkPlayerModel* value);
+    // Get instance field reference: public OculusNetworkPlayerModel oculusNetworkPlayerModel
+    GlobalNamespace::OculusNetworkPlayerModel*& dyn_oculusNetworkPlayerModel();
     // public System.Void .ctor()
     // Offset: 0x12397CC
     // Implemented from: System.Object

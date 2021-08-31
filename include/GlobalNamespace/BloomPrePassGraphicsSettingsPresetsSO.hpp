@@ -39,10 +39,8 @@ namespace GlobalNamespace {
     BloomPrePassGraphicsSettingsPresetsSO(::Array<GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::Preset*>* presets_ = {}) noexcept : presets{presets_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private BloomPrePassGraphicsSettingsPresetsSO/Preset[] _presets
-    ::Array<GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::Preset*>* _get__presets();
-    // Set instance field: private BloomPrePassGraphicsSettingsPresetsSO/Preset[] _presets
-    void _set__presets(::Array<GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::Preset*>* value);
+    // Get instance field reference: private BloomPrePassGraphicsSettingsPresetsSO/Preset[] _presets
+    ::Array<GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::Preset*>*& dyn__presets();
     // public BloomPrePassGraphicsSettingsPresetsSO/Preset[] get_presets()
     // Offset: 0x10D1AB4
     ::Array<GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::Preset*>* get_presets();

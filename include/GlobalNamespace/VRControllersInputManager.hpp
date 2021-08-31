@@ -114,10 +114,8 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kMenuButtonOculusTouch();
     // Set static field: static private System.String kMenuButtonOculusTouch
     static void _set_kMenuButtonOculusTouch(::Il2CppString* value);
-    // Get instance field: private IVRPlatformHelper _vrPlatformHelper
-    GlobalNamespace::IVRPlatformHelper* _get__vrPlatformHelper();
-    // Set instance field: private IVRPlatformHelper _vrPlatformHelper
-    void _set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper* value);
+    // Get instance field reference: private IVRPlatformHelper _vrPlatformHelper
+    GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
     // public System.Single TriggerValue(UnityEngine.XR.XRNode node)
     // Offset: 0x239BC5C
     float TriggerValue(UnityEngine::XR::XRNode node);

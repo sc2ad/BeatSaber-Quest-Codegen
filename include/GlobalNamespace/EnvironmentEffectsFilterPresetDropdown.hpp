@@ -73,18 +73,12 @@ namespace GlobalNamespace {
     EnvironmentEffectsFilterPresetDropdown(HMUI::SimpleTextDropdown* simpleTextDropdown_ = {}, System::Action_1<int>* didSelectCellWithIdxEvent_ = {}, System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::EnvironmentEffectsFilterPreset, ::Il2CppString*>*>* lightReductionAmountData_ = {}) noexcept : simpleTextDropdown{simpleTextDropdown_}, didSelectCellWithIdxEvent{didSelectCellWithIdxEvent_}, lightReductionAmountData{lightReductionAmountData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private HMUI.SimpleTextDropdown _simpleTextDropdown
-    HMUI::SimpleTextDropdown* _get__simpleTextDropdown();
-    // Set instance field: private HMUI.SimpleTextDropdown _simpleTextDropdown
-    void _set__simpleTextDropdown(HMUI::SimpleTextDropdown* value);
-    // Get instance field: private System.Action`1<System.Int32> didSelectCellWithIdxEvent
-    System::Action_1<int>* _get_didSelectCellWithIdxEvent();
-    // Set instance field: private System.Action`1<System.Int32> didSelectCellWithIdxEvent
-    void _set_didSelectCellWithIdxEvent(System::Action_1<int>* value);
-    // Get instance field: private System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<EnvironmentEffectsFilterPreset,System.String>> _lightReductionAmountData
-    System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::EnvironmentEffectsFilterPreset, ::Il2CppString*>*>* _get__lightReductionAmountData();
-    // Set instance field: private System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<EnvironmentEffectsFilterPreset,System.String>> _lightReductionAmountData
-    void _set__lightReductionAmountData(System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::EnvironmentEffectsFilterPreset, ::Il2CppString*>*>* value);
+    // Get instance field reference: private HMUI.SimpleTextDropdown _simpleTextDropdown
+    HMUI::SimpleTextDropdown*& dyn__simpleTextDropdown();
+    // Get instance field reference: private System.Action`1<System.Int32> didSelectCellWithIdxEvent
+    System::Action_1<int>*& dyn_didSelectCellWithIdxEvent();
+    // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<EnvironmentEffectsFilterPreset,System.String>> _lightReductionAmountData
+    System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::EnvironmentEffectsFilterPreset, ::Il2CppString*>*>*& dyn__lightReductionAmountData();
     // private System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<EnvironmentEffectsFilterPreset,System.String>> get_lightReductionAmountData()
     // Offset: 0x1051644
     System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::EnvironmentEffectsFilterPreset, ::Il2CppString*>*>* get_lightReductionAmountData();

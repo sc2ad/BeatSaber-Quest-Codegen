@@ -97,34 +97,20 @@ namespace Zenject {
     operator System::Collections::Generic::IEnumerator_1<System::Type*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<System::Type*>*>(this);
     }
-    // Get instance field: private System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: private System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: private System.Type <>2__current
-    System::Type* _get_$$2__current();
-    // Set instance field: private System.Type <>2__current
-    void _set_$$2__current(System::Type* value);
-    // Get instance field: private System.Int32 <>l__initialThreadId
-    int _get_$$l__initialThreadId();
-    // Set instance field: private System.Int32 <>l__initialThreadId
-    void _set_$$l__initialThreadId(int value);
-    // Get instance field: public Zenject.DiContainer <>4__this
-    Zenject::DiContainer* _get_$$4__this();
-    // Set instance field: public Zenject.DiContainer <>4__this
-    void _set_$$4__this(Zenject::DiContainer* value);
-    // Get instance field: private System.Type contract
-    System::Type* _get_contract();
-    // Set instance field: private System.Type contract
-    void _set_contract(System::Type* value);
-    // Get instance field: public System.Type <>3__contract
-    System::Type* _get_$$3__contract();
-    // Set instance field: public System.Type <>3__contract
-    void _set_$$3__contract(System::Type* value);
-    // Get instance field: private System.Collections.Generic.IEnumerator`1<Zenject.InjectableInfo> <>7__wrap1
-    System::Collections::Generic::IEnumerator_1<Zenject::InjectableInfo*>* _get_$$7__wrap1();
-    // Set instance field: private System.Collections.Generic.IEnumerator`1<Zenject.InjectableInfo> <>7__wrap1
-    void _set_$$7__wrap1(System::Collections::Generic::IEnumerator_1<Zenject::InjectableInfo*>* value);
+    // Get instance field reference: private System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: private System.Type <>2__current
+    System::Type*& dyn_$$2__current();
+    // Get instance field reference: private System.Int32 <>l__initialThreadId
+    int& dyn_$$l__initialThreadId();
+    // Get instance field reference: public Zenject.DiContainer <>4__this
+    Zenject::DiContainer*& dyn_$$4__this();
+    // Get instance field reference: private System.Type contract
+    System::Type*& dyn_contract();
+    // Get instance field reference: public System.Type <>3__contract
+    System::Type*& dyn_$$3__contract();
+    // Get instance field reference: private System.Collections.Generic.IEnumerator`1<Zenject.InjectableInfo> <>7__wrap1
+    System::Collections::Generic::IEnumerator_1<Zenject::InjectableInfo*>*& dyn_$$7__wrap1();
     // private System.Type System.Collections.Generic.IEnumerator<System.Type>.get_Current()
     // Offset: 0x1654F6C
     System::Type* System_Collections_Generic_IEnumerator$System_Type$_get_Current();

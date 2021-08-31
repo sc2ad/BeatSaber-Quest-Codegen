@@ -51,10 +51,8 @@ namespace UnityEngine::UI {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.UI.Graphic m_Graphic
-    UnityEngine::UI::Graphic* _get_m_Graphic();
-    // Set instance field: private UnityEngine.UI.Graphic m_Graphic
-    void _set_m_Graphic(UnityEngine::UI::Graphic* value);
+    // Get instance field reference: private UnityEngine.UI.Graphic m_Graphic
+    UnityEngine::UI::Graphic*& dyn_m_Graphic();
     // protected UnityEngine.UI.Graphic get_graphic()
     // Offset: 0x1471518
     UnityEngine::UI::Graphic* get_graphic();

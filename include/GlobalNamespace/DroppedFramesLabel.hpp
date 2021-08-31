@@ -79,38 +79,22 @@ namespace GlobalNamespace {
     DroppedFramesLabel(TMPro::TextMeshProUGUI* text_ = {}, int expectedFrameRate_ = {}, int resetInterval_ = {}, int totalNumberOfDroppedFrames_ = {}, float syncedFrameTime_ = {}, float intervalTime_ = {}, float maxFrameTimeInInterval_ = {}, int frameCountInInterval_ = {}) noexcept : text{text_}, expectedFrameRate{expectedFrameRate_}, resetInterval{resetInterval_}, totalNumberOfDroppedFrames{totalNumberOfDroppedFrames_}, syncedFrameTime{syncedFrameTime_}, intervalTime{intervalTime_}, maxFrameTimeInInterval{maxFrameTimeInInterval_}, frameCountInInterval{frameCountInInterval_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private TMPro.TextMeshProUGUI _text
-    TMPro::TextMeshProUGUI* _get__text();
-    // Set instance field: private TMPro.TextMeshProUGUI _text
-    void _set__text(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private System.Int32 _expectedFrameRate
-    int _get__expectedFrameRate();
-    // Set instance field: private System.Int32 _expectedFrameRate
-    void _set__expectedFrameRate(int value);
-    // Get instance field: private System.Int32 _resetInterval
-    int _get__resetInterval();
-    // Set instance field: private System.Int32 _resetInterval
-    void _set__resetInterval(int value);
-    // Get instance field: private System.Int32 _totalNumberOfDroppedFrames
-    int _get__totalNumberOfDroppedFrames();
-    // Set instance field: private System.Int32 _totalNumberOfDroppedFrames
-    void _set__totalNumberOfDroppedFrames(int value);
-    // Get instance field: private System.Single _syncedFrameTime
-    float _get__syncedFrameTime();
-    // Set instance field: private System.Single _syncedFrameTime
-    void _set__syncedFrameTime(float value);
-    // Get instance field: private System.Single _intervalTime
-    float _get__intervalTime();
-    // Set instance field: private System.Single _intervalTime
-    void _set__intervalTime(float value);
-    // Get instance field: private System.Single _maxFrameTimeInInterval
-    float _get__maxFrameTimeInInterval();
-    // Set instance field: private System.Single _maxFrameTimeInInterval
-    void _set__maxFrameTimeInInterval(float value);
-    // Get instance field: private System.Int32 _frameCountInInterval
-    int _get__frameCountInInterval();
-    // Set instance field: private System.Int32 _frameCountInInterval
-    void _set__frameCountInInterval(int value);
+    // Get instance field reference: private TMPro.TextMeshProUGUI _text
+    TMPro::TextMeshProUGUI*& dyn__text();
+    // Get instance field reference: private System.Int32 _expectedFrameRate
+    int& dyn__expectedFrameRate();
+    // Get instance field reference: private System.Int32 _resetInterval
+    int& dyn__resetInterval();
+    // Get instance field reference: private System.Int32 _totalNumberOfDroppedFrames
+    int& dyn__totalNumberOfDroppedFrames();
+    // Get instance field reference: private System.Single _syncedFrameTime
+    float& dyn__syncedFrameTime();
+    // Get instance field reference: private System.Single _intervalTime
+    float& dyn__intervalTime();
+    // Get instance field reference: private System.Single _maxFrameTimeInInterval
+    float& dyn__maxFrameTimeInInterval();
+    // Get instance field reference: private System.Int32 _frameCountInInterval
+    int& dyn__frameCountInInterval();
     // protected System.Void Start()
     // Offset: 0x125C200
     void Start();

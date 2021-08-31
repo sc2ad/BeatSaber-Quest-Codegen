@@ -41,14 +41,10 @@ namespace System::Security::Principal {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
-    // Get instance field: private System.IntPtr _token
-    System::IntPtr _get__token();
-    // Set instance field: private System.IntPtr _token
-    void _set__token(System::IntPtr value);
-    // Get instance field: private System.Boolean undo
-    bool _get_undo();
-    // Set instance field: private System.Boolean undo
-    void _set_undo(bool value);
+    // Get instance field reference: private System.IntPtr _token
+    System::IntPtr& dyn__token();
+    // Get instance field reference: private System.Boolean undo
+    bool& dyn_undo();
     // System.Void .ctor(System.IntPtr token)
     // Offset: 0x1B4B240
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

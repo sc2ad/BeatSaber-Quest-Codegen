@@ -61,22 +61,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::ColorSchemeSO*) == 0x8);
     // Creating value type constructor for type: EventsTestSceneSetup
     EventsTestSceneSetup(GlobalNamespace::BeatmapLevelSO* beatmapLevel_ = {}, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, GlobalNamespace::BeatmapDifficulty beatmapDifficulty_ = {}, GlobalNamespace::ColorSchemeSO* colorScheme_ = {}) noexcept : beatmapLevel{beatmapLevel_}, beatmapCharacteristic{beatmapCharacteristic_}, beatmapDifficulty{beatmapDifficulty_}, colorScheme{colorScheme_} {}
-    // Get instance field: private BeatmapLevelSO _beatmapLevel
-    GlobalNamespace::BeatmapLevelSO* _get__beatmapLevel();
-    // Set instance field: private BeatmapLevelSO _beatmapLevel
-    void _set__beatmapLevel(GlobalNamespace::BeatmapLevelSO* value);
-    // Get instance field: private BeatmapCharacteristicSO _beatmapCharacteristic
-    GlobalNamespace::BeatmapCharacteristicSO* _get__beatmapCharacteristic();
-    // Set instance field: private BeatmapCharacteristicSO _beatmapCharacteristic
-    void _set__beatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
-    // Get instance field: private BeatmapDifficulty _beatmapDifficulty
-    GlobalNamespace::BeatmapDifficulty _get__beatmapDifficulty();
-    // Set instance field: private BeatmapDifficulty _beatmapDifficulty
-    void _set__beatmapDifficulty(GlobalNamespace::BeatmapDifficulty value);
-    // Get instance field: private ColorSchemeSO _colorScheme
-    GlobalNamespace::ColorSchemeSO* _get__colorScheme();
-    // Set instance field: private ColorSchemeSO _colorScheme
-    void _set__colorScheme(GlobalNamespace::ColorSchemeSO* value);
+    // Get instance field reference: private BeatmapLevelSO _beatmapLevel
+    GlobalNamespace::BeatmapLevelSO*& dyn__beatmapLevel();
+    // Get instance field reference: private BeatmapCharacteristicSO _beatmapCharacteristic
+    GlobalNamespace::BeatmapCharacteristicSO*& dyn__beatmapCharacteristic();
+    // Get instance field reference: private BeatmapDifficulty _beatmapDifficulty
+    GlobalNamespace::BeatmapDifficulty& dyn__beatmapDifficulty();
+    // Get instance field reference: private ColorSchemeSO _colorScheme
+    GlobalNamespace::ColorSchemeSO*& dyn__colorScheme();
     // public System.Void .ctor()
     // Offset: 0x1054B9C
     // Implemented from: Zenject.MonoInstaller

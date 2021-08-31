@@ -44,14 +44,10 @@ namespace Zenject {
     static_assert(sizeof(Zenject::InjectableInfo*) == 0x8);
     // Creating value type constructor for type: InjectMemberInfo
     InjectMemberInfo(Zenject::ZenMemberSetterMethod* Setter_ = {}, Zenject::InjectableInfo* Info_ = {}) noexcept : Setter{Setter_}, Info{Info_} {}
-    // Get instance field: public readonly Zenject.ZenMemberSetterMethod Setter
-    Zenject::ZenMemberSetterMethod* _get_Setter();
-    // Set instance field: public readonly Zenject.ZenMemberSetterMethod Setter
-    void _set_Setter(Zenject::ZenMemberSetterMethod* value);
-    // Get instance field: public readonly Zenject.InjectableInfo Info
-    Zenject::InjectableInfo* _get_Info();
-    // Set instance field: public readonly Zenject.InjectableInfo Info
-    void _set_Info(Zenject::InjectableInfo* value);
+    // Get instance field reference: public readonly Zenject.ZenMemberSetterMethod Setter
+    Zenject::ZenMemberSetterMethod*& dyn_Setter();
+    // Get instance field reference: public readonly Zenject.InjectableInfo Info
+    Zenject::InjectableInfo*& dyn_Info();
     // public System.Void .ctor(Zenject.ZenMemberSetterMethod setter, Zenject.InjectableInfo info)
     // Offset: 0x2408D94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

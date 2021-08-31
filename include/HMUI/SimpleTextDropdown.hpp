@@ -97,26 +97,16 @@ namespace HMUI {
     static ::Il2CppString* _get_kCellReuseIdentifier();
     // Set static field: static private System.String kCellReuseIdentifier
     static void _set_kCellReuseIdentifier(::Il2CppString* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _text
-    TMPro::TextMeshProUGUI* _get__text();
-    // Set instance field: private TMPro.TextMeshProUGUI _text
-    void _set__text(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private SimpleTextTableCell _cellPrefab
-    GlobalNamespace::SimpleTextTableCell* _get__cellPrefab();
-    // Set instance field: private SimpleTextTableCell _cellPrefab
-    void _set__cellPrefab(GlobalNamespace::SimpleTextTableCell* value);
-    // Get instance field: private System.Single _cellSize
-    float _get__cellSize();
-    // Set instance field: private System.Single _cellSize
-    void _set__cellSize(float value);
-    // Get instance field: private System.Collections.Generic.IReadOnlyList`1<System.String> _texts
-    System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* _get__texts();
-    // Set instance field: private System.Collections.Generic.IReadOnlyList`1<System.String> _texts
-    void _set__texts(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* value);
-    // Get instance field: private System.Boolean _initialized
-    bool _get__initialized();
-    // Set instance field: private System.Boolean _initialized
-    void _set__initialized(bool value);
+    // Get instance field reference: private TMPro.TextMeshProUGUI _text
+    TMPro::TextMeshProUGUI*& dyn__text();
+    // Get instance field reference: private SimpleTextTableCell _cellPrefab
+    GlobalNamespace::SimpleTextTableCell*& dyn__cellPrefab();
+    // Get instance field reference: private System.Single _cellSize
+    float& dyn__cellSize();
+    // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<System.String> _texts
+    System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*& dyn__texts();
+    // Get instance field reference: private System.Boolean _initialized
+    bool& dyn__initialized();
     // private System.Void LazyInit()
     // Offset: 0x1301518
     void LazyInit();

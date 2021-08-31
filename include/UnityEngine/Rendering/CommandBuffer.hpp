@@ -86,10 +86,8 @@ namespace UnityEngine::Rendering {
     constexpr operator System::IntPtr() const noexcept {
       return m_Ptr;
     }
-    // Get instance field: System.IntPtr m_Ptr
-    System::IntPtr _get_m_Ptr();
-    // Set instance field: System.IntPtr m_Ptr
-    void _set_m_Ptr(System::IntPtr value);
+    // Get instance field reference: System.IntPtr m_Ptr
+    System::IntPtr& dyn_m_Ptr();
     // public System.Void set_name(System.String value)
     // Offset: 0x1C481DC
     void set_name(::Il2CppString* value);

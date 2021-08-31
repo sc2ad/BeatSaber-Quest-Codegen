@@ -62,22 +62,14 @@ namespace UnityEngine::Rendering {
     operator System::IEquatable_1<UnityEngine::Rendering::VertexAttributeDescriptor>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::Rendering::VertexAttributeDescriptor>*>(this);
     }
-    // Get instance field: private UnityEngine.Rendering.VertexAttribute <attribute>k__BackingField
-    UnityEngine::Rendering::VertexAttribute _get_$attribute$k__BackingField();
-    // Set instance field: private UnityEngine.Rendering.VertexAttribute <attribute>k__BackingField
-    void _set_$attribute$k__BackingField(UnityEngine::Rendering::VertexAttribute value);
-    // Get instance field: private UnityEngine.Rendering.VertexAttributeFormat <format>k__BackingField
-    UnityEngine::Rendering::VertexAttributeFormat _get_$format$k__BackingField();
-    // Set instance field: private UnityEngine.Rendering.VertexAttributeFormat <format>k__BackingField
-    void _set_$format$k__BackingField(UnityEngine::Rendering::VertexAttributeFormat value);
-    // Get instance field: private System.Int32 <dimension>k__BackingField
-    int _get_$dimension$k__BackingField();
-    // Set instance field: private System.Int32 <dimension>k__BackingField
-    void _set_$dimension$k__BackingField(int value);
-    // Get instance field: private System.Int32 <stream>k__BackingField
-    int _get_$stream$k__BackingField();
-    // Set instance field: private System.Int32 <stream>k__BackingField
-    void _set_$stream$k__BackingField(int value);
+    // Get instance field reference: private UnityEngine.Rendering.VertexAttribute <attribute>k__BackingField
+    UnityEngine::Rendering::VertexAttribute& dyn_$attribute$k__BackingField();
+    // Get instance field reference: private UnityEngine.Rendering.VertexAttributeFormat <format>k__BackingField
+    UnityEngine::Rendering::VertexAttributeFormat& dyn_$format$k__BackingField();
+    // Get instance field reference: private System.Int32 <dimension>k__BackingField
+    int& dyn_$dimension$k__BackingField();
+    // Get instance field reference: private System.Int32 <stream>k__BackingField
+    int& dyn_$stream$k__BackingField();
     // public UnityEngine.Rendering.VertexAttribute get_attribute()
     // Offset: 0x1C4C6F4
     UnityEngine::Rendering::VertexAttribute get_attribute();

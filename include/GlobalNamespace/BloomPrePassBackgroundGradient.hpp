@@ -41,10 +41,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Gradient*) == 0x8);
     // Creating value type constructor for type: BloomPrePassBackgroundGradient
     BloomPrePassBackgroundGradient(UnityEngine::Gradient* gradient_ = {}) noexcept : gradient{gradient_} {}
-    // Get instance field: private UnityEngine.Gradient _gradient
-    UnityEngine::Gradient* _get__gradient();
-    // Set instance field: private UnityEngine.Gradient _gradient
-    void _set__gradient(UnityEngine::Gradient* value);
+    // Get instance field reference: private UnityEngine.Gradient _gradient
+    UnityEngine::Gradient*& dyn__gradient();
     // public System.Void .ctor()
     // Offset: 0x1E13614
     // Implemented from: BloomPrePassBackgroundTextureGradient

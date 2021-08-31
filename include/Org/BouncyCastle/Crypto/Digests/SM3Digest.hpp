@@ -58,22 +58,14 @@ namespace Org::BouncyCastle::Crypto::Digests {
     static ::Array<uint>* _get_T();
     // Set static field: static private readonly System.UInt32[] T
     static void _set_T(::Array<uint>* value);
-    // Get instance field: private System.UInt32[] V
-    ::Array<uint>* _get_V();
-    // Set instance field: private System.UInt32[] V
-    void _set_V(::Array<uint>* value);
-    // Get instance field: private System.UInt32[] inwords
-    ::Array<uint>* _get_inwords();
-    // Set instance field: private System.UInt32[] inwords
-    void _set_inwords(::Array<uint>* value);
-    // Get instance field: private System.Int32 xOff
-    int _get_xOff();
-    // Set instance field: private System.Int32 xOff
-    void _set_xOff(int value);
-    // Get instance field: private System.UInt32[] W
-    ::Array<uint>* _get_W();
-    // Set instance field: private System.UInt32[] W
-    void _set_W(::Array<uint>* value);
+    // Get instance field reference: private System.UInt32[] V
+    ::Array<uint>*& dyn_V();
+    // Get instance field reference: private System.UInt32[] inwords
+    ::Array<uint>*& dyn_inwords();
+    // Get instance field reference: private System.Int32 xOff
+    int& dyn_xOff();
+    // Get instance field reference: private System.UInt32[] W
+    ::Array<uint>*& dyn_W();
     // static private System.Void .cctor()
     // Offset: 0x19224A4
     static void _cctor();

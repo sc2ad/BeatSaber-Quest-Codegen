@@ -121,50 +121,28 @@ namespace System::Net {
     static System::Threading::WaitCallback* _get_InvokeCB();
     // Set static field: static private System.Threading.WaitCallback InvokeCB
     static void _set_InvokeCB(System::Threading::WaitCallback* value);
-    // Get instance field: private System.Threading.ManualResetEvent handle
-    System::Threading::ManualResetEvent* _get_handle();
-    // Set instance field: private System.Threading.ManualResetEvent handle
-    void _set_handle(System::Threading::ManualResetEvent* value);
-    // Get instance field: private System.Boolean synch
-    bool _get_synch();
-    // Set instance field: private System.Boolean synch
-    void _set_synch(bool value);
-    // Get instance field: private System.Boolean completed
-    bool _get_completed();
-    // Set instance field: private System.Boolean completed
-    void _set_completed(bool value);
-    // Get instance field: private System.AsyncCallback cb
-    System::AsyncCallback* _get_cb();
-    // Set instance field: private System.AsyncCallback cb
-    void _set_cb(System::AsyncCallback* value);
-    // Get instance field: private System.Object state
-    ::Il2CppObject* _get_state();
-    // Set instance field: private System.Object state
-    void _set_state(::Il2CppObject* value);
-    // Get instance field: private System.Exception exception
-    System::Exception* _get_exception();
-    // Set instance field: private System.Exception exception
-    void _set_exception(System::Exception* value);
-    // Get instance field: private System.Net.HttpListenerContext context
-    System::Net::HttpListenerContext* _get_context();
-    // Set instance field: private System.Net.HttpListenerContext context
-    void _set_context(System::Net::HttpListenerContext* value);
-    // Get instance field: private System.Object locker
-    ::Il2CppObject* _get_locker();
-    // Set instance field: private System.Object locker
-    void _set_locker(::Il2CppObject* value);
-    // Get instance field: private System.Net.ListenerAsyncResult forward
-    System::Net::ListenerAsyncResult* _get_forward();
-    // Set instance field: private System.Net.ListenerAsyncResult forward
-    void _set_forward(System::Net::ListenerAsyncResult* value);
-    // Get instance field: System.Boolean EndCalled
-    bool _get_EndCalled();
-    // Set instance field: System.Boolean EndCalled
-    void _set_EndCalled(bool value);
-    // Get instance field: System.Boolean InGet
-    bool _get_InGet();
-    // Set instance field: System.Boolean InGet
-    void _set_InGet(bool value);
+    // Get instance field reference: private System.Threading.ManualResetEvent handle
+    System::Threading::ManualResetEvent*& dyn_handle();
+    // Get instance field reference: private System.Boolean synch
+    bool& dyn_synch();
+    // Get instance field reference: private System.Boolean completed
+    bool& dyn_completed();
+    // Get instance field reference: private System.AsyncCallback cb
+    System::AsyncCallback*& dyn_cb();
+    // Get instance field reference: private System.Object state
+    ::Il2CppObject*& dyn_state();
+    // Get instance field reference: private System.Exception exception
+    System::Exception*& dyn_exception();
+    // Get instance field reference: private System.Net.HttpListenerContext context
+    System::Net::HttpListenerContext*& dyn_context();
+    // Get instance field reference: private System.Object locker
+    ::Il2CppObject*& dyn_locker();
+    // Get instance field reference: private System.Net.ListenerAsyncResult forward
+    System::Net::ListenerAsyncResult*& dyn_forward();
+    // Get instance field reference: System.Boolean EndCalled
+    bool& dyn_EndCalled();
+    // Get instance field reference: System.Boolean InGet
+    bool& dyn_InGet();
     // public System.Object get_AsyncState()
     // Offset: 0x167DC14
     ::Il2CppObject* get_AsyncState();

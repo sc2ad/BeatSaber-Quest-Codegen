@@ -34,10 +34,8 @@ namespace System::Reflection {
     constexpr operator ::Il2CppString*() const noexcept {
       return m_keyFile;
     }
-    // Get instance field: private System.String m_keyFile
-    ::Il2CppString* _get_m_keyFile();
-    // Set instance field: private System.String m_keyFile
-    void _set_m_keyFile(::Il2CppString* value);
+    // Get instance field reference: private System.String m_keyFile
+    ::Il2CppString*& dyn_m_keyFile();
     // public System.Void .ctor(System.String keyFile)
     // Offset: 0x1D133EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

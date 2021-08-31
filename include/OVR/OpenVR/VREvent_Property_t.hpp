@@ -37,14 +37,10 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.UInt64 container
-    uint64_t _get_container();
-    // Set instance field: public System.UInt64 container
-    void _set_container(uint64_t value);
-    // Get instance field: public OVR.OpenVR.ETrackedDeviceProperty prop
-    OVR::OpenVR::ETrackedDeviceProperty _get_prop();
-    // Set instance field: public OVR.OpenVR.ETrackedDeviceProperty prop
-    void _set_prop(OVR::OpenVR::ETrackedDeviceProperty value);
+    // Get instance field reference: public System.UInt64 container
+    uint64_t& dyn_container();
+    // Get instance field reference: public OVR.OpenVR.ETrackedDeviceProperty prop
+    OVR::OpenVR::ETrackedDeviceProperty& dyn_prop();
   }; // OVR.OpenVR.VREvent_Property_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Property_t), 8 + sizeof(OVR::OpenVR::ETrackedDeviceProperty)> __OVR_OpenVR_VREvent_Property_tSizeCheck;

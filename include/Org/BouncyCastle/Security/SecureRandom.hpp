@@ -53,10 +53,8 @@ namespace Org::BouncyCastle::Security {
     static double _get_DoubleScale();
     // Set static field: static private readonly System.Double DoubleScale
     static void _set_DoubleScale(double value);
-    // Get instance field: protected readonly Org.BouncyCastle.Crypto.Prng.IRandomGenerator generator
-    Org::BouncyCastle::Crypto::Prng::IRandomGenerator* _get_generator();
-    // Set instance field: protected readonly Org.BouncyCastle.Crypto.Prng.IRandomGenerator generator
-    void _set_generator(Org::BouncyCastle::Crypto::Prng::IRandomGenerator* value);
+    // Get instance field reference: protected readonly Org.BouncyCastle.Crypto.Prng.IRandomGenerator generator
+    Org::BouncyCastle::Crypto::Prng::IRandomGenerator*& dyn_generator();
     // static private Org.BouncyCastle.Security.SecureRandom get_Master()
     // Offset: 0x13C3E54
     static Org::BouncyCastle::Security::SecureRandom* get_Master();

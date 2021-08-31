@@ -38,14 +38,10 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
     operator Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier*>(this);
     }
-    // Get instance field: private System.Byte[] H
-    ::Array<uint8_t>* _get_H();
-    // Set instance field: private System.Byte[] H
-    void _set_H(::Array<uint8_t>* value);
-    // Get instance field: private System.UInt32[][][] M
-    ::Array<::Array<::Array<uint>*>*>* _get_M();
-    // Set instance field: private System.UInt32[][][] M
-    void _set_M(::Array<::Array<::Array<uint>*>*>* value);
+    // Get instance field reference: private System.Byte[] H
+    ::Array<uint8_t>*& dyn_H();
+    // Get instance field reference: private System.UInt32[][][] M
+    ::Array<::Array<::Array<uint>*>*>*& dyn_M();
     // public System.Void Init(System.Byte[] H)
     // Offset: 0x191A958
     void Init(::Array<uint8_t>* H);

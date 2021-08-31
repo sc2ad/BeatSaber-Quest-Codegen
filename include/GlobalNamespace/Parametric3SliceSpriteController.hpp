@@ -161,54 +161,30 @@ namespace GlobalNamespace {
     static int _get__instanceCount();
     // Set static field: static private System.Int32 _instanceCount
     static void _set__instanceCount(int value);
-    // Get instance field: private System.Single _widthMultiplier
-    float _get__widthMultiplier();
-    // Set instance field: private System.Single _widthMultiplier
-    void _set__widthMultiplier(float value);
-    // Get instance field: public System.Single width
-    float _get_width();
-    // Set instance field: public System.Single width
-    void _set_width(float value);
-    // Get instance field: public System.Single length
-    float _get_length();
-    // Set instance field: public System.Single length
-    void _set_length(float value);
-    // Get instance field: public System.Single center
-    float _get_center();
-    // Set instance field: public System.Single center
-    void _set_center(float value);
-    // Get instance field: public UnityEngine.Color color
-    UnityEngine::Color _get_color();
-    // Set instance field: public UnityEngine.Color color
-    void _set_color(UnityEngine::Color value);
-    // Get instance field: public System.Single alphaMultiplier
-    float _get_alphaMultiplier();
-    // Set instance field: public System.Single alphaMultiplier
-    void _set_alphaMultiplier(float value);
-    // Get instance field: public System.Single minAlpha
-    float _get_minAlpha();
-    // Set instance field: public System.Single minAlpha
-    void _set_minAlpha(float value);
-    // Get instance field: public System.Single alphaStart
-    float _get_alphaStart();
-    // Set instance field: public System.Single alphaStart
-    void _set_alphaStart(float value);
-    // Get instance field: public System.Single alphaEnd
-    float _get_alphaEnd();
-    // Set instance field: public System.Single alphaEnd
-    void _set_alphaEnd(float value);
-    // Get instance field: private UnityEngine.MeshRenderer _meshRenderer
-    UnityEngine::MeshRenderer* _get__meshRenderer();
-    // Set instance field: private UnityEngine.MeshRenderer _meshRenderer
-    void _set__meshRenderer(UnityEngine::MeshRenderer* value);
-    // Get instance field: private UnityEngine.MeshFilter _meshFilter
-    UnityEngine::MeshFilter* _get__meshFilter();
-    // Set instance field: private UnityEngine.MeshFilter _meshFilter
-    void _set__meshFilter(UnityEngine::MeshFilter* value);
-    // Get instance field: private System.Boolean _isInitialized
-    bool _get__isInitialized();
-    // Set instance field: private System.Boolean _isInitialized
-    void _set__isInitialized(bool value);
+    // Get instance field reference: private System.Single _widthMultiplier
+    float& dyn__widthMultiplier();
+    // Get instance field reference: public System.Single width
+    float& dyn_width();
+    // Get instance field reference: public System.Single length
+    float& dyn_length();
+    // Get instance field reference: public System.Single center
+    float& dyn_center();
+    // Get instance field reference: public UnityEngine.Color color
+    UnityEngine::Color& dyn_color();
+    // Get instance field reference: public System.Single alphaMultiplier
+    float& dyn_alphaMultiplier();
+    // Get instance field reference: public System.Single minAlpha
+    float& dyn_minAlpha();
+    // Get instance field reference: public System.Single alphaStart
+    float& dyn_alphaStart();
+    // Get instance field reference: public System.Single alphaEnd
+    float& dyn_alphaEnd();
+    // Get instance field reference: private UnityEngine.MeshRenderer _meshRenderer
+    UnityEngine::MeshRenderer*& dyn__meshRenderer();
+    // Get instance field reference: private UnityEngine.MeshFilter _meshFilter
+    UnityEngine::MeshFilter*& dyn__meshFilter();
+    // Get instance field reference: private System.Boolean _isInitialized
+    bool& dyn__isInitialized();
     // protected System.Void Awake()
     // Offset: 0x1E1CFCC
     void Awake();

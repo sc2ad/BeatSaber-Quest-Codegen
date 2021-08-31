@@ -83,26 +83,16 @@ namespace System::IO {
     }
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
-    // Get instance field: System.IO.MonoIOStat _data
-    System::IO::MonoIOStat _get__data();
-    // Set instance field: System.IO.MonoIOStat _data
-    void _set__data(System::IO::MonoIOStat value);
-    // Get instance field: System.Int32 _dataInitialised
-    int _get__dataInitialised();
-    // Set instance field: System.Int32 _dataInitialised
-    void _set__dataInitialised(int value);
-    // Get instance field: protected System.String FullPath
-    ::Il2CppString* _get_FullPath();
-    // Set instance field: protected System.String FullPath
-    void _set_FullPath(::Il2CppString* value);
-    // Get instance field: protected System.String OriginalPath
-    ::Il2CppString* _get_OriginalPath();
-    // Set instance field: protected System.String OriginalPath
-    void _set_OriginalPath(::Il2CppString* value);
-    // Get instance field: private System.String _displayPath
-    ::Il2CppString* _get__displayPath();
-    // Set instance field: private System.String _displayPath
-    void _set__displayPath(::Il2CppString* value);
+    // Get instance field reference: System.IO.MonoIOStat _data
+    System::IO::MonoIOStat& dyn__data();
+    // Get instance field reference: System.Int32 _dataInitialised
+    int& dyn__dataInitialised();
+    // Get instance field reference: protected System.String FullPath
+    ::Il2CppString*& dyn_FullPath();
+    // Get instance field reference: protected System.String OriginalPath
+    ::Il2CppString*& dyn_OriginalPath();
+    // Get instance field reference: private System.String _displayPath
+    ::Il2CppString*& dyn__displayPath();
     // public System.String get_FullName()
     // Offset: 0x1976114
     ::Il2CppString* get_FullName();

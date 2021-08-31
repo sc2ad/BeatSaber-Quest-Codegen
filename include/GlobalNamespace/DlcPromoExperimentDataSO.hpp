@@ -77,34 +77,20 @@ namespace GlobalNamespace {
     DlcPromoExperimentDataSO(int defaultMusicPackPromoIndex_ = {}, ::Array<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>* musicPackPromoInfos_ = {}, GlobalNamespace::AbTestExperimentDefinitionSO* newDlcControlAbTestExperimentDefinition_ = {}, GlobalNamespace::AbTestExperimentDefinitionSO* newDlcPromoAbTestExperimentDefinition_ = {}, int cutOffTest1_ = {}, int cutOffTest2_ = {}, int minNumberOfNotOwnedPacks_ = {}) noexcept : defaultMusicPackPromoIndex{defaultMusicPackPromoIndex_}, musicPackPromoInfos{musicPackPromoInfos_}, newDlcControlAbTestExperimentDefinition{newDlcControlAbTestExperimentDefinition_}, newDlcPromoAbTestExperimentDefinition{newDlcPromoAbTestExperimentDefinition_}, cutOffTest1{cutOffTest1_}, cutOffTest2{cutOffTest2_}, minNumberOfNotOwnedPacks{minNumberOfNotOwnedPacks_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Int32 _defaultMusicPackPromoIndex
-    int _get__defaultMusicPackPromoIndex();
-    // Set instance field: private System.Int32 _defaultMusicPackPromoIndex
-    void _set__defaultMusicPackPromoIndex(int value);
-    // Get instance field: private DlcPromoExperimentDataSO/MusicPackPromoInfo[] _musicPackPromoInfos
-    ::Array<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>* _get__musicPackPromoInfos();
-    // Set instance field: private DlcPromoExperimentDataSO/MusicPackPromoInfo[] _musicPackPromoInfos
-    void _set__musicPackPromoInfos(::Array<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>* value);
-    // Get instance field: private AbTestExperimentDefinitionSO _newDlcControlAbTestExperimentDefinition
-    GlobalNamespace::AbTestExperimentDefinitionSO* _get__newDlcControlAbTestExperimentDefinition();
-    // Set instance field: private AbTestExperimentDefinitionSO _newDlcControlAbTestExperimentDefinition
-    void _set__newDlcControlAbTestExperimentDefinition(GlobalNamespace::AbTestExperimentDefinitionSO* value);
-    // Get instance field: private AbTestExperimentDefinitionSO _newDlcPromoAbTestExperimentDefinition
-    GlobalNamespace::AbTestExperimentDefinitionSO* _get__newDlcPromoAbTestExperimentDefinition();
-    // Set instance field: private AbTestExperimentDefinitionSO _newDlcPromoAbTestExperimentDefinition
-    void _set__newDlcPromoAbTestExperimentDefinition(GlobalNamespace::AbTestExperimentDefinitionSO* value);
-    // Get instance field: private System.Int32 _cutOffTest1
-    int _get__cutOffTest1();
-    // Set instance field: private System.Int32 _cutOffTest1
-    void _set__cutOffTest1(int value);
-    // Get instance field: private System.Int32 _cutOffTest2
-    int _get__cutOffTest2();
-    // Set instance field: private System.Int32 _cutOffTest2
-    void _set__cutOffTest2(int value);
-    // Get instance field: private System.Int32 _minNumberOfNotOwnedPacks
-    int _get__minNumberOfNotOwnedPacks();
-    // Set instance field: private System.Int32 _minNumberOfNotOwnedPacks
-    void _set__minNumberOfNotOwnedPacks(int value);
+    // Get instance field reference: private System.Int32 _defaultMusicPackPromoIndex
+    int& dyn__defaultMusicPackPromoIndex();
+    // Get instance field reference: private DlcPromoExperimentDataSO/MusicPackPromoInfo[] _musicPackPromoInfos
+    ::Array<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>*& dyn__musicPackPromoInfos();
+    // Get instance field reference: private AbTestExperimentDefinitionSO _newDlcControlAbTestExperimentDefinition
+    GlobalNamespace::AbTestExperimentDefinitionSO*& dyn__newDlcControlAbTestExperimentDefinition();
+    // Get instance field reference: private AbTestExperimentDefinitionSO _newDlcPromoAbTestExperimentDefinition
+    GlobalNamespace::AbTestExperimentDefinitionSO*& dyn__newDlcPromoAbTestExperimentDefinition();
+    // Get instance field reference: private System.Int32 _cutOffTest1
+    int& dyn__cutOffTest1();
+    // Get instance field reference: private System.Int32 _cutOffTest2
+    int& dyn__cutOffTest2();
+    // Get instance field reference: private System.Int32 _minNumberOfNotOwnedPacks
+    int& dyn__minNumberOfNotOwnedPacks();
     // public System.Int32 get_cutOffTest1()
     // Offset: 0x10FC4F8
     int get_cutOffTest1();

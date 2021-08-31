@@ -47,22 +47,14 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Int32 startCharIdx
-    int _get_startCharIdx();
-    // Set instance field: public System.Int32 startCharIdx
-    void _set_startCharIdx(int value);
-    // Get instance field: public System.Int32 height
-    int _get_height();
-    // Set instance field: public System.Int32 height
-    void _set_height(int value);
-    // Get instance field: public System.Single topY
-    float _get_topY();
-    // Set instance field: public System.Single topY
-    void _set_topY(float value);
-    // Get instance field: public System.Single leading
-    float _get_leading();
-    // Set instance field: public System.Single leading
-    void _set_leading(float value);
+    // Get instance field reference: public System.Int32 startCharIdx
+    int& dyn_startCharIdx();
+    // Get instance field reference: public System.Int32 height
+    int& dyn_height();
+    // Get instance field reference: public System.Single topY
+    float& dyn_topY();
+    // Get instance field reference: public System.Single leading
+    float& dyn_leading();
   }; // UnityEngine.UILineInfo
   #pragma pack(pop)
   static check_size<sizeof(UILineInfo), 12 + sizeof(float)> __UnityEngine_UILineInfoSizeCheck;

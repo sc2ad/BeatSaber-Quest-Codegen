@@ -44,10 +44,8 @@ namespace System::Security {
     constexpr operator ::Il2CppString*() const noexcept {
       return permissionState;
     }
-    // Get instance field: private System.String permissionState
-    ::Il2CppString* _get_permissionState();
-    // Set instance field: private System.String permissionState
-    void _set_permissionState(::Il2CppString* value);
+    // Get instance field reference: private System.String permissionState
+    ::Il2CppString*& dyn_permissionState();
     // public System.Void .ctor()
     // Offset: 0x1B4E258
     // Implemented from: System.SystemException

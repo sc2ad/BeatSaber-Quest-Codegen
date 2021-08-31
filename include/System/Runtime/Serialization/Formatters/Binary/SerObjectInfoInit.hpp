@@ -52,18 +52,12 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::SerStack*) == 0x8);
     // Creating value type constructor for type: SerObjectInfoInit
     SerObjectInfoInit(System::Collections::Hashtable* seenBeforeTable_ = {}, int objectInfoIdCount_ = {}, System::Runtime::Serialization::Formatters::Binary::SerStack* oiPool_ = {}) noexcept : seenBeforeTable{seenBeforeTable_}, objectInfoIdCount{objectInfoIdCount_}, oiPool{oiPool_} {}
-    // Get instance field: System.Collections.Hashtable seenBeforeTable
-    System::Collections::Hashtable* _get_seenBeforeTable();
-    // Set instance field: System.Collections.Hashtable seenBeforeTable
-    void _set_seenBeforeTable(System::Collections::Hashtable* value);
-    // Get instance field: System.Int32 objectInfoIdCount
-    int _get_objectInfoIdCount();
-    // Set instance field: System.Int32 objectInfoIdCount
-    void _set_objectInfoIdCount(int value);
-    // Get instance field: System.Runtime.Serialization.Formatters.Binary.SerStack oiPool
-    System::Runtime::Serialization::Formatters::Binary::SerStack* _get_oiPool();
-    // Set instance field: System.Runtime.Serialization.Formatters.Binary.SerStack oiPool
-    void _set_oiPool(System::Runtime::Serialization::Formatters::Binary::SerStack* value);
+    // Get instance field reference: System.Collections.Hashtable seenBeforeTable
+    System::Collections::Hashtable*& dyn_seenBeforeTable();
+    // Get instance field reference: System.Int32 objectInfoIdCount
+    int& dyn_objectInfoIdCount();
+    // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.SerStack oiPool
+    System::Runtime::Serialization::Formatters::Binary::SerStack*& dyn_oiPool();
     // public System.Void .ctor()
     // Offset: 0x1619B6C
     // Implemented from: System.Object

@@ -47,14 +47,10 @@ namespace UnityEngine::TestTools::Utils {
     operator UnityEngine::TestTools::Utils::IAssemblyWrapper() noexcept {
       return *reinterpret_cast<UnityEngine::TestTools::Utils::IAssemblyWrapper*>(this);
     }
-    // Get instance field: private readonly System.Reflection.Assembly <Assembly>k__BackingField
-    System::Reflection::Assembly* _get_$Assembly$k__BackingField();
-    // Set instance field: private readonly System.Reflection.Assembly <Assembly>k__BackingField
-    void _set_$Assembly$k__BackingField(System::Reflection::Assembly* value);
-    // Get instance field: private readonly System.Reflection.AssemblyName <Name>k__BackingField
-    System::Reflection::AssemblyName* _get_$Name$k__BackingField();
-    // Set instance field: private readonly System.Reflection.AssemblyName <Name>k__BackingField
-    void _set_$Name$k__BackingField(System::Reflection::AssemblyName* value);
+    // Get instance field reference: private readonly System.Reflection.Assembly <Assembly>k__BackingField
+    System::Reflection::Assembly*& dyn_$Assembly$k__BackingField();
+    // Get instance field reference: private readonly System.Reflection.AssemblyName <Name>k__BackingField
+    System::Reflection::AssemblyName*& dyn_$Name$k__BackingField();
     // public System.Reflection.Assembly get_Assembly()
     // Offset: 0x24028FC
     System::Reflection::Assembly* get_Assembly();

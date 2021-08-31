@@ -77,22 +77,14 @@ namespace System::Collections::Specialized {
     operator System::Collections::IDictionary() noexcept {
       return *reinterpret_cast<System::Collections::IDictionary*>(this);
     }
-    // Get instance field: private System.Collections.Specialized.ListDictionary/System.Collections.Specialized.DictionaryNode head
-    System::Collections::Specialized::ListDictionary::DictionaryNode* _get_head();
-    // Set instance field: private System.Collections.Specialized.ListDictionary/System.Collections.Specialized.DictionaryNode head
-    void _set_head(System::Collections::Specialized::ListDictionary::DictionaryNode* value);
-    // Get instance field: private System.Int32 version
-    int _get_version();
-    // Set instance field: private System.Int32 version
-    void _set_version(int value);
-    // Get instance field: private System.Int32 count
-    int _get_count();
-    // Set instance field: private System.Int32 count
-    void _set_count(int value);
-    // Get instance field: private System.Collections.IComparer comparer
-    System::Collections::IComparer* _get_comparer();
-    // Set instance field: private System.Collections.IComparer comparer
-    void _set_comparer(System::Collections::IComparer* value);
+    // Get instance field reference: private System.Collections.Specialized.ListDictionary/System.Collections.Specialized.DictionaryNode head
+    System::Collections::Specialized::ListDictionary::DictionaryNode*& dyn_head();
+    // Get instance field reference: private System.Int32 version
+    int& dyn_version();
+    // Get instance field reference: private System.Int32 count
+    int& dyn_count();
+    // Get instance field reference: private System.Collections.IComparer comparer
+    System::Collections::IComparer*& dyn_comparer();
     // public System.Object get_Item(System.Object key)
     // Offset: 0x18A94D4
     ::Il2CppObject* get_Item(::Il2CppObject* key);

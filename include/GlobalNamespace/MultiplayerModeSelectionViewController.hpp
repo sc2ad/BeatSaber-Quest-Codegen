@@ -94,10 +94,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton _get_GameBrowser();
       // Set static field: static public MultiplayerModeSelectionViewController/MenuButton GameBrowser
       static void _set_GameBrowser(GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // MultiplayerModeSelectionViewController/MenuButton
     #pragma pack(pop)
     static check_size<sizeof(MultiplayerModeSelectionViewController::MenuButton), 0 + sizeof(int)> __GlobalNamespace_MultiplayerModeSelectionViewController_MenuButtonSizeCheck;
@@ -154,38 +152,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>*) == 0x8);
     // Creating value type constructor for type: MultiplayerModeSelectionViewController
     MultiplayerModeSelectionViewController(UnityEngine::UI::Button* quickPlayButton_ = {}, UnityEngine::UI::Button* gameBrowserButton_ = {}, UnityEngine::UI::Button* joinWithCodeButton_ = {}, UnityEngine::UI::Button* createServerButton_ = {}, TMPro::TextMeshProUGUI* maintenanceMessageText_ = {}, TMPro::TextMeshProUGUI* customServerEndPointText_ = {}, GlobalNamespace::INetworkConfig* networkConfig_ = {}, System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>* didFinishEvent_ = {}) noexcept : quickPlayButton{quickPlayButton_}, gameBrowserButton{gameBrowserButton_}, joinWithCodeButton{joinWithCodeButton_}, createServerButton{createServerButton_}, maintenanceMessageText{maintenanceMessageText_}, customServerEndPointText{customServerEndPointText_}, networkConfig{networkConfig_}, didFinishEvent{didFinishEvent_} {}
-    // Get instance field: private UnityEngine.UI.Button _quickPlayButton
-    UnityEngine::UI::Button* _get__quickPlayButton();
-    // Set instance field: private UnityEngine.UI.Button _quickPlayButton
-    void _set__quickPlayButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _gameBrowserButton
-    UnityEngine::UI::Button* _get__gameBrowserButton();
-    // Set instance field: private UnityEngine.UI.Button _gameBrowserButton
-    void _set__gameBrowserButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _joinWithCodeButton
-    UnityEngine::UI::Button* _get__joinWithCodeButton();
-    // Set instance field: private UnityEngine.UI.Button _joinWithCodeButton
-    void _set__joinWithCodeButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _createServerButton
-    UnityEngine::UI::Button* _get__createServerButton();
-    // Set instance field: private UnityEngine.UI.Button _createServerButton
-    void _set__createServerButton(UnityEngine::UI::Button* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _maintenanceMessageText
-    TMPro::TextMeshProUGUI* _get__maintenanceMessageText();
-    // Set instance field: private TMPro.TextMeshProUGUI _maintenanceMessageText
-    void _set__maintenanceMessageText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _customServerEndPointText
-    TMPro::TextMeshProUGUI* _get__customServerEndPointText();
-    // Set instance field: private TMPro.TextMeshProUGUI _customServerEndPointText
-    void _set__customServerEndPointText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private readonly INetworkConfig _networkConfig
-    GlobalNamespace::INetworkConfig* _get__networkConfig();
-    // Set instance field: private readonly INetworkConfig _networkConfig
-    void _set__networkConfig(GlobalNamespace::INetworkConfig* value);
-    // Get instance field: private System.Action`2<MultiplayerModeSelectionViewController,MultiplayerModeSelectionViewController/MenuButton> didFinishEvent
-    System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>* _get_didFinishEvent();
-    // Set instance field: private System.Action`2<MultiplayerModeSelectionViewController,MultiplayerModeSelectionViewController/MenuButton> didFinishEvent
-    void _set_didFinishEvent(System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>* value);
+    // Get instance field reference: private UnityEngine.UI.Button _quickPlayButton
+    UnityEngine::UI::Button*& dyn__quickPlayButton();
+    // Get instance field reference: private UnityEngine.UI.Button _gameBrowserButton
+    UnityEngine::UI::Button*& dyn__gameBrowserButton();
+    // Get instance field reference: private UnityEngine.UI.Button _joinWithCodeButton
+    UnityEngine::UI::Button*& dyn__joinWithCodeButton();
+    // Get instance field reference: private UnityEngine.UI.Button _createServerButton
+    UnityEngine::UI::Button*& dyn__createServerButton();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _maintenanceMessageText
+    TMPro::TextMeshProUGUI*& dyn__maintenanceMessageText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _customServerEndPointText
+    TMPro::TextMeshProUGUI*& dyn__customServerEndPointText();
+    // Get instance field reference: private readonly INetworkConfig _networkConfig
+    GlobalNamespace::INetworkConfig*& dyn__networkConfig();
+    // Get instance field reference: private System.Action`2<MultiplayerModeSelectionViewController,MultiplayerModeSelectionViewController/MenuButton> didFinishEvent
+    System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`2<MultiplayerModeSelectionViewController,MultiplayerModeSelectionViewController/MenuButton> value)
     // Offset: 0x106C908
     void add_didFinishEvent(System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>* value);

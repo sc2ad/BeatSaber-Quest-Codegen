@@ -75,30 +75,18 @@ namespace System::Runtime::Serialization {
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
-    // Get instance field: private System.String[] m_members
-    ::Array<::Il2CppString*>* _get_m_members();
-    // Set instance field: private System.String[] m_members
-    void _set_m_members(::Array<::Il2CppString*>* value);
-    // Get instance field: private System.Object[] m_data
-    ::Array<::Il2CppObject*>* _get_m_data();
-    // Set instance field: private System.Object[] m_data
-    void _set_m_data(::Array<::Il2CppObject*>* value);
-    // Get instance field: private System.Type[] m_types
-    ::Array<System::Type*>* _get_m_types();
-    // Set instance field: private System.Type[] m_types
-    void _set_m_types(::Array<System::Type*>* value);
-    // Get instance field: private System.Int32 m_numItems
-    int _get_m_numItems();
-    // Set instance field: private System.Int32 m_numItems
-    void _set_m_numItems(int value);
-    // Get instance field: private System.Int32 m_currItem
-    int _get_m_currItem();
-    // Set instance field: private System.Int32 m_currItem
-    void _set_m_currItem(int value);
-    // Get instance field: private System.Boolean m_current
-    bool _get_m_current();
-    // Set instance field: private System.Boolean m_current
-    void _set_m_current(bool value);
+    // Get instance field reference: private System.String[] m_members
+    ::Array<::Il2CppString*>*& dyn_m_members();
+    // Get instance field reference: private System.Object[] m_data
+    ::Array<::Il2CppObject*>*& dyn_m_data();
+    // Get instance field reference: private System.Type[] m_types
+    ::Array<System::Type*>*& dyn_m_types();
+    // Get instance field reference: private System.Int32 m_numItems
+    int& dyn_m_numItems();
+    // Get instance field reference: private System.Int32 m_currItem
+    int& dyn_m_currItem();
+    // Get instance field reference: private System.Boolean m_current
+    bool& dyn_m_current();
     // private System.Object System.Collections.IEnumerator.get_Current()
     // Offset: 0x16BFE20
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();

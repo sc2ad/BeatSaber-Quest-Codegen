@@ -75,22 +75,14 @@ namespace Zenject {
     operator Zenject::IProvider() noexcept {
       return *reinterpret_cast<Zenject::IProvider*>(this);
     }
-    // Get instance field: private readonly Zenject.ISubContainerCreator _subContainerCreator
-    Zenject::ISubContainerCreator* _get__subContainerCreator();
-    // Set instance field: private readonly Zenject.ISubContainerCreator _subContainerCreator
-    void _set__subContainerCreator(Zenject::ISubContainerCreator* value);
-    // Get instance field: private readonly System.Type _dependencyType
-    System::Type* _get__dependencyType();
-    // Set instance field: private readonly System.Type _dependencyType
-    void _set__dependencyType(System::Type* value);
-    // Get instance field: private readonly System.Object _identifier
-    ::Il2CppObject* _get__identifier();
-    // Set instance field: private readonly System.Object _identifier
-    void _set__identifier(::Il2CppObject* value);
-    // Get instance field: private readonly System.Boolean _resolveAll
-    bool _get__resolveAll();
-    // Set instance field: private readonly System.Boolean _resolveAll
-    void _set__resolveAll(bool value);
+    // Get instance field reference: private readonly Zenject.ISubContainerCreator _subContainerCreator
+    Zenject::ISubContainerCreator*& dyn__subContainerCreator();
+    // Get instance field reference: private readonly System.Type _dependencyType
+    System::Type*& dyn__dependencyType();
+    // Get instance field reference: private readonly System.Object _identifier
+    ::Il2CppObject*& dyn__identifier();
+    // Get instance field reference: private readonly System.Boolean _resolveAll
+    bool& dyn__resolveAll();
     // public System.Boolean get_IsCached()
     // Offset: 0x1721C88
     bool get_IsCached();

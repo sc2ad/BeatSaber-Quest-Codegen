@@ -57,22 +57,14 @@ namespace GlobalNamespace {
     LeaderboardEntry(TMPro::TextMeshProUGUI* scoreText_ = {}, TMPro::TextMeshProUGUI* playerNameText_ = {}, TMPro::TextMeshProUGUI* rankText_ = {}, UnityEngine::Color color_ = {}) noexcept : scoreText{scoreText_}, playerNameText{playerNameText_}, rankText{rankText_}, color{color_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private TMPro.TextMeshProUGUI _scoreText
-    TMPro::TextMeshProUGUI* _get__scoreText();
-    // Set instance field: private TMPro.TextMeshProUGUI _scoreText
-    void _set__scoreText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _playerNameText
-    TMPro::TextMeshProUGUI* _get__playerNameText();
-    // Set instance field: private TMPro.TextMeshProUGUI _playerNameText
-    void _set__playerNameText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _rankText
-    TMPro::TextMeshProUGUI* _get__rankText();
-    // Set instance field: private TMPro.TextMeshProUGUI _rankText
-    void _set__rankText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private UnityEngine.Color _color
-    UnityEngine::Color _get__color();
-    // Set instance field: private UnityEngine.Color _color
-    void _set__color(UnityEngine::Color value);
+    // Get instance field reference: private TMPro.TextMeshProUGUI _scoreText
+    TMPro::TextMeshProUGUI*& dyn__scoreText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _playerNameText
+    TMPro::TextMeshProUGUI*& dyn__playerNameText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _rankText
+    TMPro::TextMeshProUGUI*& dyn__rankText();
+    // Get instance field reference: private UnityEngine.Color _color
+    UnityEngine::Color& dyn__color();
     // public System.Void SetScore(System.Int32 score, System.String playerName, System.Int32 rank, System.Boolean highlighted, System.Boolean showSeparator)
     // Offset: 0x11478C0
     void SetScore(int score, ::Il2CppString* playerName, int rank, bool highlighted, bool showSeparator);

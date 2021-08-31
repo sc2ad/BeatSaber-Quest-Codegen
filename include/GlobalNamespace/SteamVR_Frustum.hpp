@@ -70,34 +70,20 @@ namespace GlobalNamespace {
     SteamVR_Frustum(GlobalNamespace::SteamVR_TrackedObject::EIndex index_ = {}, float fovLeft_ = {}, float fovRight_ = {}, float fovTop_ = {}, float fovBottom_ = {}, float nearZ_ = {}, float farZ_ = {}) noexcept : index{index_}, fovLeft{fovLeft_}, fovRight{fovRight_}, fovTop{fovTop_}, fovBottom{fovBottom_}, nearZ{nearZ_}, farZ{farZ_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public SteamVR_TrackedObject/EIndex index
-    GlobalNamespace::SteamVR_TrackedObject::EIndex _get_index();
-    // Set instance field: public SteamVR_TrackedObject/EIndex index
-    void _set_index(GlobalNamespace::SteamVR_TrackedObject::EIndex value);
-    // Get instance field: public System.Single fovLeft
-    float _get_fovLeft();
-    // Set instance field: public System.Single fovLeft
-    void _set_fovLeft(float value);
-    // Get instance field: public System.Single fovRight
-    float _get_fovRight();
-    // Set instance field: public System.Single fovRight
-    void _set_fovRight(float value);
-    // Get instance field: public System.Single fovTop
-    float _get_fovTop();
-    // Set instance field: public System.Single fovTop
-    void _set_fovTop(float value);
-    // Get instance field: public System.Single fovBottom
-    float _get_fovBottom();
-    // Set instance field: public System.Single fovBottom
-    void _set_fovBottom(float value);
-    // Get instance field: public System.Single nearZ
-    float _get_nearZ();
-    // Set instance field: public System.Single nearZ
-    void _set_nearZ(float value);
-    // Get instance field: public System.Single farZ
-    float _get_farZ();
-    // Set instance field: public System.Single farZ
-    void _set_farZ(float value);
+    // Get instance field reference: public SteamVR_TrackedObject/EIndex index
+    GlobalNamespace::SteamVR_TrackedObject::EIndex& dyn_index();
+    // Get instance field reference: public System.Single fovLeft
+    float& dyn_fovLeft();
+    // Get instance field reference: public System.Single fovRight
+    float& dyn_fovRight();
+    // Get instance field reference: public System.Single fovTop
+    float& dyn_fovTop();
+    // Get instance field reference: public System.Single fovBottom
+    float& dyn_fovBottom();
+    // Get instance field reference: public System.Single nearZ
+    float& dyn_nearZ();
+    // Get instance field reference: public System.Single farZ
+    float& dyn_farZ();
     // public System.Void UpdateModel()
     // Offset: 0x14242D0
     void UpdateModel();

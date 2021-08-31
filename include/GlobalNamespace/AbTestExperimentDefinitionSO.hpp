@@ -68,10 +68,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::AbTestExperimentDefinitionSO::Group _get_Test2();
       // Set static field: static public AbTestExperimentDefinitionSO/Group Test2
       static void _set_Test2(GlobalNamespace::AbTestExperimentDefinitionSO::Group value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // AbTestExperimentDefinitionSO/Group
     #pragma pack(pop)
     static check_size<sizeof(AbTestExperimentDefinitionSO::Group), 0 + sizeof(int)> __GlobalNamespace_AbTestExperimentDefinitionSO_GroupSizeCheck;
@@ -118,30 +116,18 @@ namespace GlobalNamespace {
     AbTestExperimentDefinitionSO(::Il2CppString* experimentName_ = {}, float test1GroupSize_ = {}, float test2GroupSize_ = {}, float controlGroupSize_ = {}, ::Il2CppString* salt_ = {}, GlobalNamespace::AbTestExperimentDefinitionSO::Group currentUserTreatmentGroup_ = {}) noexcept : experimentName{experimentName_}, test1GroupSize{test1GroupSize_}, test2GroupSize{test2GroupSize_}, controlGroupSize{controlGroupSize_}, salt{salt_}, currentUserTreatmentGroup{currentUserTreatmentGroup_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.String _experimentName
-    ::Il2CppString* _get__experimentName();
-    // Set instance field: private System.String _experimentName
-    void _set__experimentName(::Il2CppString* value);
-    // Get instance field: private System.Single _test1GroupSize
-    float _get__test1GroupSize();
-    // Set instance field: private System.Single _test1GroupSize
-    void _set__test1GroupSize(float value);
-    // Get instance field: private System.Single _test2GroupSize
-    float _get__test2GroupSize();
-    // Set instance field: private System.Single _test2GroupSize
-    void _set__test2GroupSize(float value);
-    // Get instance field: private System.Single _controlGroupSize
-    float _get__controlGroupSize();
-    // Set instance field: private System.Single _controlGroupSize
-    void _set__controlGroupSize(float value);
-    // Get instance field: private System.String _salt
-    ::Il2CppString* _get__salt();
-    // Set instance field: private System.String _salt
-    void _set__salt(::Il2CppString* value);
-    // Get instance field: private AbTestExperimentDefinitionSO/Group _currentUserTreatmentGroup
-    GlobalNamespace::AbTestExperimentDefinitionSO::Group _get__currentUserTreatmentGroup();
-    // Set instance field: private AbTestExperimentDefinitionSO/Group _currentUserTreatmentGroup
-    void _set__currentUserTreatmentGroup(GlobalNamespace::AbTestExperimentDefinitionSO::Group value);
+    // Get instance field reference: private System.String _experimentName
+    ::Il2CppString*& dyn__experimentName();
+    // Get instance field reference: private System.Single _test1GroupSize
+    float& dyn__test1GroupSize();
+    // Get instance field reference: private System.Single _test2GroupSize
+    float& dyn__test2GroupSize();
+    // Get instance field reference: private System.Single _controlGroupSize
+    float& dyn__controlGroupSize();
+    // Get instance field reference: private System.String _salt
+    ::Il2CppString*& dyn__salt();
+    // Get instance field reference: private AbTestExperimentDefinitionSO/Group _currentUserTreatmentGroup
+    GlobalNamespace::AbTestExperimentDefinitionSO::Group& dyn__currentUserTreatmentGroup();
     // public System.Single get_test1GroupSize()
     // Offset: 0x1176464
     float get_test1GroupSize();

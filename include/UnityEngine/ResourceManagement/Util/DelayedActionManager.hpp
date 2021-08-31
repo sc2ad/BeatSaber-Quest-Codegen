@@ -91,22 +91,14 @@ namespace UnityEngine::ResourceManagement::Util {
       static int _get_s_Id();
       // Set static field: static private System.Int32 s_Id
       static void _set_s_Id(int value);
-      // Get instance field: private System.Int32 m_Id
-      int _get_m_Id();
-      // Set instance field: private System.Int32 m_Id
-      void _set_m_Id(int value);
-      // Get instance field: private System.Delegate m_Delegate
-      System::Delegate* _get_m_Delegate();
-      // Set instance field: private System.Delegate m_Delegate
-      void _set_m_Delegate(System::Delegate* value);
-      // Get instance field: private System.Object[] m_Target
-      ::Array<::Il2CppObject*>* _get_m_Target();
-      // Set instance field: private System.Object[] m_Target
-      void _set_m_Target(::Array<::Il2CppObject*>* value);
-      // Get instance field: private System.Single <InvocationTime>k__BackingField
-      float _get_$InvocationTime$k__BackingField();
-      // Set instance field: private System.Single <InvocationTime>k__BackingField
-      void _set_$InvocationTime$k__BackingField(float value);
+      // Get instance field reference: private System.Int32 m_Id
+      int& dyn_m_Id();
+      // Get instance field reference: private System.Delegate m_Delegate
+      System::Delegate*& dyn_m_Delegate();
+      // Get instance field reference: private System.Object[] m_Target
+      ::Array<::Il2CppObject*>*& dyn_m_Target();
+      // Get instance field reference: private System.Single <InvocationTime>k__BackingField
+      float& dyn_$InvocationTime$k__BackingField();
       // public System.Single get_InvocationTime()
       // Offset: 0x19F3EAC
       float get_InvocationTime();
@@ -177,26 +169,16 @@ namespace UnityEngine::ResourceManagement::Util {
     DelayedActionManager(::Array<System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>*>* m_Actions_ = {}, System::Collections::Generic::LinkedList_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>* m_DelayedActions_ = {}, System::Collections::Generic::Stack_1<System::Collections::Generic::LinkedListNode_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>*>* m_NodeCache_ = {}, int m_CollectionIndex_ = {}, bool m_DestroyOnCompletion_ = {}) noexcept : m_Actions{m_Actions_}, m_DelayedActions{m_DelayedActions_}, m_NodeCache{m_NodeCache_}, m_CollectionIndex{m_CollectionIndex_}, m_DestroyOnCompletion{m_DestroyOnCompletion_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.Util.DelayedActionManager/UnityEngine.ResourceManagement.Util.DelegateInfo>[] m_Actions
-    ::Array<System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>*>* _get_m_Actions();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.Util.DelayedActionManager/UnityEngine.ResourceManagement.Util.DelegateInfo>[] m_Actions
-    void _set_m_Actions(::Array<System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>*>* value);
-    // Get instance field: private System.Collections.Generic.LinkedList`1<UnityEngine.ResourceManagement.Util.DelayedActionManager/UnityEngine.ResourceManagement.Util.DelegateInfo> m_DelayedActions
-    System::Collections::Generic::LinkedList_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>* _get_m_DelayedActions();
-    // Set instance field: private System.Collections.Generic.LinkedList`1<UnityEngine.ResourceManagement.Util.DelayedActionManager/UnityEngine.ResourceManagement.Util.DelegateInfo> m_DelayedActions
-    void _set_m_DelayedActions(System::Collections::Generic::LinkedList_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>* value);
-    // Get instance field: private System.Collections.Generic.Stack`1<System.Collections.Generic.LinkedListNode`1<UnityEngine.ResourceManagement.Util.DelayedActionManager/UnityEngine.ResourceManagement.Util.DelegateInfo>> m_NodeCache
-    System::Collections::Generic::Stack_1<System::Collections::Generic::LinkedListNode_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>*>* _get_m_NodeCache();
-    // Set instance field: private System.Collections.Generic.Stack`1<System.Collections.Generic.LinkedListNode`1<UnityEngine.ResourceManagement.Util.DelayedActionManager/UnityEngine.ResourceManagement.Util.DelegateInfo>> m_NodeCache
-    void _set_m_NodeCache(System::Collections::Generic::Stack_1<System::Collections::Generic::LinkedListNode_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>*>* value);
-    // Get instance field: private System.Int32 m_CollectionIndex
-    int _get_m_CollectionIndex();
-    // Set instance field: private System.Int32 m_CollectionIndex
-    void _set_m_CollectionIndex(int value);
-    // Get instance field: private System.Boolean m_DestroyOnCompletion
-    bool _get_m_DestroyOnCompletion();
-    // Set instance field: private System.Boolean m_DestroyOnCompletion
-    void _set_m_DestroyOnCompletion(bool value);
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.Util.DelayedActionManager/UnityEngine.ResourceManagement.Util.DelegateInfo>[] m_Actions
+    ::Array<System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>*>*& dyn_m_Actions();
+    // Get instance field reference: private System.Collections.Generic.LinkedList`1<UnityEngine.ResourceManagement.Util.DelayedActionManager/UnityEngine.ResourceManagement.Util.DelegateInfo> m_DelayedActions
+    System::Collections::Generic::LinkedList_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>*& dyn_m_DelayedActions();
+    // Get instance field reference: private System.Collections.Generic.Stack`1<System.Collections.Generic.LinkedListNode`1<UnityEngine.ResourceManagement.Util.DelayedActionManager/UnityEngine.ResourceManagement.Util.DelegateInfo>> m_NodeCache
+    System::Collections::Generic::Stack_1<System::Collections::Generic::LinkedListNode_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>*>*& dyn_m_NodeCache();
+    // Get instance field reference: private System.Int32 m_CollectionIndex
+    int& dyn_m_CollectionIndex();
+    // Get instance field reference: private System.Boolean m_DestroyOnCompletion
+    bool& dyn_m_DestroyOnCompletion();
     // static public System.Boolean get_IsActive()
     // Offset: 0x19F3604
     static bool get_IsActive();

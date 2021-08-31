@@ -170,70 +170,38 @@ namespace GlobalNamespace {
     static float _get_kDisabledInteractionDuration();
     // Set static field: static private System.Single kDisabledInteractionDuration
     static void _set_kDisabledInteractionDuration(float value);
-    // Get instance field: private PauseAnimationController _pauseAnimationController
-    GlobalNamespace::PauseAnimationController* _get__pauseAnimationController();
-    // Set instance field: private PauseAnimationController _pauseAnimationController
-    void _set__pauseAnimationController(GlobalNamespace::PauseAnimationController* value);
-    // Get instance field: private LevelBar _levelBar
-    GlobalNamespace::LevelBar* _get__levelBar();
-    // Set instance field: private LevelBar _levelBar
-    void _set__levelBar(GlobalNamespace::LevelBar* value);
-    // Get instance field: private UnityEngine.UI.Button _continueButton
-    UnityEngine::UI::Button* _get__continueButton();
-    // Set instance field: private UnityEngine.UI.Button _continueButton
-    void _set__continueButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _restartButton
-    UnityEngine::UI::Button* _get__restartButton();
-    // Set instance field: private UnityEngine.UI.Button _restartButton
-    void _set__restartButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _backButton
-    UnityEngine::UI::Button* _get__backButton();
-    // Set instance field: private UnityEngine.UI.Button _backButton
-    void _set__backButton(UnityEngine::UI::Button* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _backButtonText
-    TMPro::TextMeshProUGUI* _get__backButtonText();
-    // Set instance field: private TMPro.TextMeshProUGUI _backButtonText
-    void _set__backButtonText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private UnityEngine.Transform _pauseContainerTransform
-    UnityEngine::Transform* _get__pauseContainerTransform();
-    // Set instance field: private UnityEngine.Transform _pauseContainerTransform
-    void _set__pauseContainerTransform(UnityEngine::Transform* value);
-    // Get instance field: private readonly PauseMenuManager/InitData _initData
-    GlobalNamespace::PauseMenuManager::InitData* _get__initData();
-    // Set instance field: private readonly PauseMenuManager/InitData _initData
-    void _set__initData(GlobalNamespace::PauseMenuManager::InitData* value);
-    // Get instance field: private readonly VRControllersInputManager _vrControllersInputManager
-    GlobalNamespace::VRControllersInputManager* _get__vrControllersInputManager();
-    // Set instance field: private readonly VRControllersInputManager _vrControllersInputManager
-    void _set__vrControllersInputManager(GlobalNamespace::VRControllersInputManager* value);
-    // Get instance field: private readonly EnvironmentSpawnRotation _environmentSpawnRotation
-    GlobalNamespace::EnvironmentSpawnRotation* _get__environmentSpawnRotation();
-    // Set instance field: private readonly EnvironmentSpawnRotation _environmentSpawnRotation
-    void _set__environmentSpawnRotation(GlobalNamespace::EnvironmentSpawnRotation* value);
-    // Get instance field: private System.Action didPressContinueButtonEvent
-    System::Action* _get_didPressContinueButtonEvent();
-    // Set instance field: private System.Action didPressContinueButtonEvent
-    void _set_didPressContinueButtonEvent(System::Action* value);
-    // Get instance field: private System.Action didPressMenuButtonEvent
-    System::Action* _get_didPressMenuButtonEvent();
-    // Set instance field: private System.Action didPressMenuButtonEvent
-    void _set_didPressMenuButtonEvent(System::Action* value);
-    // Get instance field: private System.Action didPressRestartButtonEvent
-    System::Action* _get_didPressRestartButtonEvent();
-    // Set instance field: private System.Action didPressRestartButtonEvent
-    void _set_didPressRestartButtonEvent(System::Action* value);
-    // Get instance field: private System.Action didFinishResumeAnimationEvent
-    System::Action* _get_didFinishResumeAnimationEvent();
-    // Set instance field: private System.Action didFinishResumeAnimationEvent
-    void _set_didFinishResumeAnimationEvent(System::Action* value);
-    // Get instance field: private HMUI.ButtonBinder _buttonBinder
-    HMUI::ButtonBinder* _get__buttonBinder();
-    // Set instance field: private HMUI.ButtonBinder _buttonBinder
-    void _set__buttonBinder(HMUI::ButtonBinder* value);
-    // Get instance field: private System.Single _disabledInteractionRemainingTime
-    float _get__disabledInteractionRemainingTime();
-    // Set instance field: private System.Single _disabledInteractionRemainingTime
-    void _set__disabledInteractionRemainingTime(float value);
+    // Get instance field reference: private PauseAnimationController _pauseAnimationController
+    GlobalNamespace::PauseAnimationController*& dyn__pauseAnimationController();
+    // Get instance field reference: private LevelBar _levelBar
+    GlobalNamespace::LevelBar*& dyn__levelBar();
+    // Get instance field reference: private UnityEngine.UI.Button _continueButton
+    UnityEngine::UI::Button*& dyn__continueButton();
+    // Get instance field reference: private UnityEngine.UI.Button _restartButton
+    UnityEngine::UI::Button*& dyn__restartButton();
+    // Get instance field reference: private UnityEngine.UI.Button _backButton
+    UnityEngine::UI::Button*& dyn__backButton();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _backButtonText
+    TMPro::TextMeshProUGUI*& dyn__backButtonText();
+    // Get instance field reference: private UnityEngine.Transform _pauseContainerTransform
+    UnityEngine::Transform*& dyn__pauseContainerTransform();
+    // Get instance field reference: private readonly PauseMenuManager/InitData _initData
+    GlobalNamespace::PauseMenuManager::InitData*& dyn__initData();
+    // Get instance field reference: private readonly VRControllersInputManager _vrControllersInputManager
+    GlobalNamespace::VRControllersInputManager*& dyn__vrControllersInputManager();
+    // Get instance field reference: private readonly EnvironmentSpawnRotation _environmentSpawnRotation
+    GlobalNamespace::EnvironmentSpawnRotation*& dyn__environmentSpawnRotation();
+    // Get instance field reference: private System.Action didPressContinueButtonEvent
+    System::Action*& dyn_didPressContinueButtonEvent();
+    // Get instance field reference: private System.Action didPressMenuButtonEvent
+    System::Action*& dyn_didPressMenuButtonEvent();
+    // Get instance field reference: private System.Action didPressRestartButtonEvent
+    System::Action*& dyn_didPressRestartButtonEvent();
+    // Get instance field reference: private System.Action didFinishResumeAnimationEvent
+    System::Action*& dyn_didFinishResumeAnimationEvent();
+    // Get instance field reference: private HMUI.ButtonBinder _buttonBinder
+    HMUI::ButtonBinder*& dyn__buttonBinder();
+    // Get instance field reference: private System.Single _disabledInteractionRemainingTime
+    float& dyn__disabledInteractionRemainingTime();
     // public System.Void add_didPressContinueButtonEvent(System.Action value)
     // Offset: 0x1031FD0
     void add_didPressContinueButtonEvent(System::Action* value);

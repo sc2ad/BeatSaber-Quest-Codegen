@@ -53,14 +53,10 @@ namespace GlobalNamespace {
     GameplayModifierInfoListItem(HMUI::HoverHint* hoverHint_ = {}, UnityEngine::UI::Image* iconImage_ = {}) noexcept : hoverHint{hoverHint_}, iconImage{iconImage_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private HMUI.HoverHint _hoverHint
-    HMUI::HoverHint* _get__hoverHint();
-    // Set instance field: private HMUI.HoverHint _hoverHint
-    void _set__hoverHint(HMUI::HoverHint* value);
-    // Get instance field: private UnityEngine.UI.Image _iconImage
-    UnityEngine::UI::Image* _get__iconImage();
-    // Set instance field: private UnityEngine.UI.Image _iconImage
-    void _set__iconImage(UnityEngine::UI::Image* value);
+    // Get instance field reference: private HMUI.HoverHint _hoverHint
+    HMUI::HoverHint*& dyn__hoverHint();
+    // Get instance field reference: private UnityEngine.UI.Image _iconImage
+    UnityEngine::UI::Image*& dyn__iconImage();
     // public System.Void SetModifier(GameplayModifierParamsSO modifierParam, System.Boolean showName)
     // Offset: 0x1107680
     void SetModifier(GlobalNamespace::GameplayModifierParamsSO* modifierParam, bool showName);

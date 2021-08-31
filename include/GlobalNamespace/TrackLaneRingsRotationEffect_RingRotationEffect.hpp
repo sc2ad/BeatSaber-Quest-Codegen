@@ -52,26 +52,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: RingRotationEffect
     RingRotationEffect(float rotationAngle_ = {}, float rotationStep_ = {}, float rotationFlexySpeed_ = {}, int rotationPropagationSpeed_ = {}, int progressPos_ = {}) noexcept : rotationAngle{rotationAngle_}, rotationStep{rotationStep_}, rotationFlexySpeed{rotationFlexySpeed_}, rotationPropagationSpeed{rotationPropagationSpeed_}, progressPos{progressPos_} {}
-    // Get instance field: public System.Single rotationAngle
-    float _get_rotationAngle();
-    // Set instance field: public System.Single rotationAngle
-    void _set_rotationAngle(float value);
-    // Get instance field: public System.Single rotationStep
-    float _get_rotationStep();
-    // Set instance field: public System.Single rotationStep
-    void _set_rotationStep(float value);
-    // Get instance field: public System.Single rotationFlexySpeed
-    float _get_rotationFlexySpeed();
-    // Set instance field: public System.Single rotationFlexySpeed
-    void _set_rotationFlexySpeed(float value);
-    // Get instance field: public System.Int32 rotationPropagationSpeed
-    int _get_rotationPropagationSpeed();
-    // Set instance field: public System.Int32 rotationPropagationSpeed
-    void _set_rotationPropagationSpeed(int value);
-    // Get instance field: public System.Int32 progressPos
-    int _get_progressPos();
-    // Set instance field: public System.Int32 progressPos
-    void _set_progressPos(int value);
+    // Get instance field reference: public System.Single rotationAngle
+    float& dyn_rotationAngle();
+    // Get instance field reference: public System.Single rotationStep
+    float& dyn_rotationStep();
+    // Get instance field reference: public System.Single rotationFlexySpeed
+    float& dyn_rotationFlexySpeed();
+    // Get instance field reference: public System.Int32 rotationPropagationSpeed
+    int& dyn_rotationPropagationSpeed();
+    // Get instance field reference: public System.Int32 progressPos
+    int& dyn_progressPos();
     // public System.Void .ctor()
     // Offset: 0x10965E0
     // Implemented from: System.Object

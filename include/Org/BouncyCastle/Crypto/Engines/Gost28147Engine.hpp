@@ -94,18 +94,12 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static System::Collections::IDictionary* _get_sBoxes();
     // Set static field: static private readonly System.Collections.IDictionary sBoxes
     static void _set_sBoxes(System::Collections::IDictionary* value);
-    // Get instance field: private System.Int32[] workingKey
-    ::Array<int>* _get_workingKey();
-    // Set instance field: private System.Int32[] workingKey
-    void _set_workingKey(::Array<int>* value);
-    // Get instance field: private System.Boolean forEncryption
-    bool _get_forEncryption();
-    // Set instance field: private System.Boolean forEncryption
-    void _set_forEncryption(bool value);
-    // Get instance field: private System.Byte[] S
-    ::Array<uint8_t>* _get_S();
-    // Set instance field: private System.Byte[] S
-    void _set_S(::Array<uint8_t>* value);
+    // Get instance field reference: private System.Int32[] workingKey
+    ::Array<int>*& dyn_workingKey();
+    // Get instance field reference: private System.Boolean forEncryption
+    bool& dyn_forEncryption();
+    // Get instance field reference: private System.Byte[] S
+    ::Array<uint8_t>*& dyn_S();
     // public System.String get_AlgorithmName()
     // Offset: 0x1E72888
     ::Il2CppString* get_AlgorithmName();

@@ -149,54 +149,30 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private readonly BeatmapObjectCallbackController/InitData _initData
-    GlobalNamespace::BeatmapObjectCallbackController::InitData* _get__initData();
-    // Set instance field: private readonly BeatmapObjectCallbackController/InitData _initData
-    void _set__initData(GlobalNamespace::BeatmapObjectCallbackController::InitData* value);
-    // Get instance field: private readonly IAudioTimeSource _audioTimeSource
-    GlobalNamespace::IAudioTimeSource* _get__audioTimeSource();
-    // Set instance field: private readonly IAudioTimeSource _audioTimeSource
-    void _set__audioTimeSource(GlobalNamespace::IAudioTimeSource* value);
-    // Get instance field: private readonly EnvironmentKeywords _environmentKeywords
-    GlobalNamespace::EnvironmentKeywords* _get__environmentKeywords();
-    // Set instance field: private readonly EnvironmentKeywords _environmentKeywords
-    void _set__environmentKeywords(GlobalNamespace::EnvironmentKeywords* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<BeatmapObjectData> _beatmapObjectDataCallbackCacheList
-    System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData*>* _get__beatmapObjectDataCallbackCacheList();
-    // Set instance field: private readonly System.Collections.Generic.List`1<BeatmapObjectData> _beatmapObjectDataCallbackCacheList
-    void _set__beatmapObjectDataCallbackCacheList(System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData*>* value);
-    // Get instance field: private System.Action`1<BeatmapEventData> beatmapEventDidTriggerEvent
-    System::Action_1<GlobalNamespace::BeatmapEventData*>* _get_beatmapEventDidTriggerEvent();
-    // Set instance field: private System.Action`1<BeatmapEventData> beatmapEventDidTriggerEvent
-    void _set_beatmapEventDidTriggerEvent(System::Action_1<GlobalNamespace::BeatmapEventData*>* value);
-    // Get instance field: private System.Action callbacksForThisFrameWereProcessedEvent
-    System::Action* _get_callbacksForThisFrameWereProcessedEvent();
-    // Set instance field: private System.Action callbacksForThisFrameWereProcessedEvent
-    void _set_callbacksForThisFrameWereProcessedEvent(System::Action* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<BeatmapObjectCallbackData> _beatmapObjectCallbackData
-    System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectCallbackData*>* _get__beatmapObjectCallbackData();
-    // Set instance field: private readonly System.Collections.Generic.List`1<BeatmapObjectCallbackData> _beatmapObjectCallbackData
-    void _set__beatmapObjectCallbackData(System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectCallbackData*>* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<BeatmapEventCallbackData> _beatmapEventCallbackData
-    System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventCallbackData*>* _get__beatmapEventCallbackData();
-    // Set instance field: private readonly System.Collections.Generic.List`1<BeatmapEventCallbackData> _beatmapEventCallbackData
-    void _set__beatmapEventCallbackData(System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventCallbackData*>* value);
-    // Get instance field: private System.Int32 _nextEventIndex
-    int _get__nextEventIndex();
-    // Set instance field: private System.Int32 _nextEventIndex
-    void _set__nextEventIndex(int value);
-    // Get instance field: private System.Single _spawningStartTime
-    float _get__spawningStartTime();
-    // Set instance field: private System.Single _spawningStartTime
-    void _set__spawningStartTime(float value);
-    // Get instance field: private IReadonlyBeatmapData _beatmapData
-    GlobalNamespace::IReadonlyBeatmapData* _get__beatmapData();
-    // Set instance field: private IReadonlyBeatmapData _beatmapData
-    void _set__beatmapData(GlobalNamespace::IReadonlyBeatmapData* value);
-    // Get instance field: private readonly System.Collections.Generic.HashSet`1<BeatmapEventType> _validEvents
-    System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>* _get__validEvents();
-    // Set instance field: private readonly System.Collections.Generic.HashSet`1<BeatmapEventType> _validEvents
-    void _set__validEvents(System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>* value);
+    // Get instance field reference: private readonly BeatmapObjectCallbackController/InitData _initData
+    GlobalNamespace::BeatmapObjectCallbackController::InitData*& dyn__initData();
+    // Get instance field reference: private readonly IAudioTimeSource _audioTimeSource
+    GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
+    // Get instance field reference: private readonly EnvironmentKeywords _environmentKeywords
+    GlobalNamespace::EnvironmentKeywords*& dyn__environmentKeywords();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<BeatmapObjectData> _beatmapObjectDataCallbackCacheList
+    System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData*>*& dyn__beatmapObjectDataCallbackCacheList();
+    // Get instance field reference: private System.Action`1<BeatmapEventData> beatmapEventDidTriggerEvent
+    System::Action_1<GlobalNamespace::BeatmapEventData*>*& dyn_beatmapEventDidTriggerEvent();
+    // Get instance field reference: private System.Action callbacksForThisFrameWereProcessedEvent
+    System::Action*& dyn_callbacksForThisFrameWereProcessedEvent();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<BeatmapObjectCallbackData> _beatmapObjectCallbackData
+    System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectCallbackData*>*& dyn__beatmapObjectCallbackData();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<BeatmapEventCallbackData> _beatmapEventCallbackData
+    System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventCallbackData*>*& dyn__beatmapEventCallbackData();
+    // Get instance field reference: private System.Int32 _nextEventIndex
+    int& dyn__nextEventIndex();
+    // Get instance field reference: private System.Single _spawningStartTime
+    float& dyn__spawningStartTime();
+    // Get instance field reference: private IReadonlyBeatmapData _beatmapData
+    GlobalNamespace::IReadonlyBeatmapData*& dyn__beatmapData();
+    // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<BeatmapEventType> _validEvents
+    System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>*& dyn__validEvents();
     // public System.Boolean get_isPaused()
     // Offset: 0x10C64D0
     bool get_isPaused();

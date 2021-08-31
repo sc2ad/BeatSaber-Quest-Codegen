@@ -58,26 +58,16 @@ namespace UnityEngine {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: AnimatorControllerParameter
     AnimatorControllerParameter(::Il2CppString* m_Name_ = {}, UnityEngine::AnimatorControllerParameterType m_Type_ = {}, float m_DefaultFloat_ = {}, int m_DefaultInt_ = {}, bool m_DefaultBool_ = {}) noexcept : m_Name{m_Name_}, m_Type{m_Type_}, m_DefaultFloat{m_DefaultFloat_}, m_DefaultInt{m_DefaultInt_}, m_DefaultBool{m_DefaultBool_} {}
-    // Get instance field: System.String m_Name
-    ::Il2CppString* _get_m_Name();
-    // Set instance field: System.String m_Name
-    void _set_m_Name(::Il2CppString* value);
-    // Get instance field: UnityEngine.AnimatorControllerParameterType m_Type
-    UnityEngine::AnimatorControllerParameterType _get_m_Type();
-    // Set instance field: UnityEngine.AnimatorControllerParameterType m_Type
-    void _set_m_Type(UnityEngine::AnimatorControllerParameterType value);
-    // Get instance field: System.Single m_DefaultFloat
-    float _get_m_DefaultFloat();
-    // Set instance field: System.Single m_DefaultFloat
-    void _set_m_DefaultFloat(float value);
-    // Get instance field: System.Int32 m_DefaultInt
-    int _get_m_DefaultInt();
-    // Set instance field: System.Int32 m_DefaultInt
-    void _set_m_DefaultInt(int value);
-    // Get instance field: System.Boolean m_DefaultBool
-    bool _get_m_DefaultBool();
-    // Set instance field: System.Boolean m_DefaultBool
-    void _set_m_DefaultBool(bool value);
+    // Get instance field reference: System.String m_Name
+    ::Il2CppString*& dyn_m_Name();
+    // Get instance field reference: UnityEngine.AnimatorControllerParameterType m_Type
+    UnityEngine::AnimatorControllerParameterType& dyn_m_Type();
+    // Get instance field reference: System.Single m_DefaultFloat
+    float& dyn_m_DefaultFloat();
+    // Get instance field reference: System.Int32 m_DefaultInt
+    int& dyn_m_DefaultInt();
+    // Get instance field reference: System.Boolean m_DefaultBool
+    bool& dyn_m_DefaultBool();
     // public System.String get_name()
     // Offset: 0x238D570
     ::Il2CppString* get_name();

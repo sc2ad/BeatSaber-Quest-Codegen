@@ -150,86 +150,46 @@ namespace System {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Int16 vt
-    int16_t _get_vt();
-    // Set instance field: public System.Int16 vt
-    void _set_vt(int16_t value);
-    // Get instance field: public System.UInt16 wReserved1
-    uint16_t _get_wReserved1();
-    // Set instance field: public System.UInt16 wReserved1
-    void _set_wReserved1(uint16_t value);
-    // Get instance field: public System.UInt16 wReserved2
-    uint16_t _get_wReserved2();
-    // Set instance field: public System.UInt16 wReserved2
-    void _set_wReserved2(uint16_t value);
-    // Get instance field: public System.UInt16 wReserved3
-    uint16_t _get_wReserved3();
-    // Set instance field: public System.UInt16 wReserved3
-    void _set_wReserved3(uint16_t value);
-    // Get instance field: public System.Int64 llVal
-    int64_t _get_llVal();
-    // Set instance field: public System.Int64 llVal
-    void _set_llVal(int64_t value);
-    // Get instance field: public System.Int32 lVal
-    int _get_lVal();
-    // Set instance field: public System.Int32 lVal
-    void _set_lVal(int value);
-    // Get instance field: public System.Byte bVal
-    uint8_t _get_bVal();
-    // Set instance field: public System.Byte bVal
-    void _set_bVal(uint8_t value);
-    // Get instance field: public System.Int16 iVal
-    int16_t _get_iVal();
-    // Set instance field: public System.Int16 iVal
-    void _set_iVal(int16_t value);
-    // Get instance field: public System.Single fltVal
-    float _get_fltVal();
-    // Set instance field: public System.Single fltVal
-    void _set_fltVal(float value);
-    // Get instance field: public System.Double dblVal
-    double _get_dblVal();
-    // Set instance field: public System.Double dblVal
-    void _set_dblVal(double value);
-    // Get instance field: public System.Int16 boolVal
-    int16_t _get_boolVal();
-    // Set instance field: public System.Int16 boolVal
-    void _set_boolVal(int16_t value);
-    // Get instance field: public System.IntPtr bstrVal
-    System::IntPtr _get_bstrVal();
-    // Set instance field: public System.IntPtr bstrVal
-    void _set_bstrVal(System::IntPtr value);
-    // Get instance field: public System.SByte cVal
-    int8_t _get_cVal();
-    // Set instance field: public System.SByte cVal
-    void _set_cVal(int8_t value);
-    // Get instance field: public System.UInt16 uiVal
-    uint16_t _get_uiVal();
-    // Set instance field: public System.UInt16 uiVal
-    void _set_uiVal(uint16_t value);
-    // Get instance field: public System.UInt32 ulVal
-    uint _get_ulVal();
-    // Set instance field: public System.UInt32 ulVal
-    void _set_ulVal(uint value);
-    // Get instance field: public System.UInt64 ullVal
-    uint64_t _get_ullVal();
-    // Set instance field: public System.UInt64 ullVal
-    void _set_ullVal(uint64_t value);
-    // Get instance field: public System.Int32 intVal
-    int _get_intVal();
-    // Set instance field: public System.Int32 intVal
-    void _set_intVal(int value);
-    // Get instance field: public System.UInt32 uintVal
-    uint _get_uintVal();
-    // Set instance field: public System.UInt32 uintVal
-    void _set_uintVal(uint value);
-    // Get instance field: public System.IntPtr pdispVal
-    System::IntPtr _get_pdispVal();
-    // Set instance field: public System.IntPtr pdispVal
-    void _set_pdispVal(System::IntPtr value);
-    // Get instance field: public System.BRECORD bRecord
-    System::BRECORD _get_bRecord();
-    // Set instance field: public System.BRECORD bRecord
-    void _set_bRecord(System::BRECORD value);
+    // Get instance field reference: public System.Int16 vt
+    int16_t& dyn_vt();
+    // Get instance field reference: public System.UInt16 wReserved1
+    uint16_t& dyn_wReserved1();
+    // Get instance field reference: public System.UInt16 wReserved2
+    uint16_t& dyn_wReserved2();
+    // Get instance field reference: public System.UInt16 wReserved3
+    uint16_t& dyn_wReserved3();
+    // Get instance field reference: public System.Int64 llVal
+    int64_t& dyn_llVal();
+    // Get instance field reference: public System.Int32 lVal
+    int& dyn_lVal();
+    // Get instance field reference: public System.Byte bVal
+    uint8_t& dyn_bVal();
+    // Get instance field reference: public System.Int16 iVal
+    int16_t& dyn_iVal();
+    // Get instance field reference: public System.Single fltVal
+    float& dyn_fltVal();
+    // Get instance field reference: public System.Double dblVal
+    double& dyn_dblVal();
+    // Get instance field reference: public System.Int16 boolVal
+    int16_t& dyn_boolVal();
+    // Get instance field reference: public System.IntPtr bstrVal
+    System::IntPtr& dyn_bstrVal();
+    // Get instance field reference: public System.SByte cVal
+    int8_t& dyn_cVal();
+    // Get instance field reference: public System.UInt16 uiVal
+    uint16_t& dyn_uiVal();
+    // Get instance field reference: public System.UInt32 ulVal
+    uint& dyn_ulVal();
+    // Get instance field reference: public System.UInt64 ullVal
+    uint64_t& dyn_ullVal();
+    // Get instance field reference: public System.Int32 intVal
+    int& dyn_intVal();
+    // Get instance field reference: public System.UInt32 uintVal
+    uint& dyn_uintVal();
+    // Get instance field reference: public System.IntPtr pdispVal
+    System::IntPtr& dyn_pdispVal();
+    // Get instance field reference: public System.BRECORD bRecord
+    System::BRECORD& dyn_bRecord();
     // public System.Void Clear()
     // Offset: 0x23317AC
     void Clear();

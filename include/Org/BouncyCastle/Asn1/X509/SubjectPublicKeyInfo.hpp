@@ -50,14 +50,10 @@ namespace Org::BouncyCastle::Asn1::X509 {
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerBitString*) == 0x8);
     // Creating value type constructor for type: SubjectPublicKeyInfo
     SubjectPublicKeyInfo(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID_ = {}, Org::BouncyCastle::Asn1::DerBitString* keyData_ = {}) noexcept : algID{algID_}, keyData{keyData_} {}
-    // Get instance field: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algID
-    Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* _get_algID();
-    // Set instance field: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algID
-    void _set_algID(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
-    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerBitString keyData
-    Org::BouncyCastle::Asn1::DerBitString* _get_keyData();
-    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerBitString keyData
-    void _set_keyData(Org::BouncyCastle::Asn1::DerBitString* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algID
+    Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& dyn_algID();
+    // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerBitString keyData
+    Org::BouncyCastle::Asn1::DerBitString*& dyn_keyData();
     // public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier get_AlgorithmID()
     // Offset: 0x19FCED4
     Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_AlgorithmID();

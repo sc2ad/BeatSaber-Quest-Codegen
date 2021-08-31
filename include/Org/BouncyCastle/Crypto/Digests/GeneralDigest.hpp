@@ -52,18 +52,12 @@ namespace Org::BouncyCastle::Crypto::Digests {
     operator Org::BouncyCastle::Utilities::IMemoable() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Utilities::IMemoable*>(this);
     }
-    // Get instance field: private System.Byte[] xBuf
-    ::Array<uint8_t>* _get_xBuf();
-    // Set instance field: private System.Byte[] xBuf
-    void _set_xBuf(::Array<uint8_t>* value);
-    // Get instance field: private System.Int32 xBufOff
-    int _get_xBufOff();
-    // Set instance field: private System.Int32 xBufOff
-    void _set_xBufOff(int value);
-    // Get instance field: private System.Int64 byteCount
-    int64_t _get_byteCount();
-    // Set instance field: private System.Int64 byteCount
-    void _set_byteCount(int64_t value);
+    // Get instance field reference: private System.Byte[] xBuf
+    ::Array<uint8_t>*& dyn_xBuf();
+    // Get instance field reference: private System.Int32 xBufOff
+    int& dyn_xBufOff();
+    // Get instance field reference: private System.Int64 byteCount
+    int64_t& dyn_byteCount();
     // public System.String get_AlgorithmName()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_AlgorithmName();

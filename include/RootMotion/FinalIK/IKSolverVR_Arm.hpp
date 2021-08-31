@@ -71,10 +71,8 @@ namespace RootMotion::FinalIK {
       static RootMotion::FinalIK::IKSolverVR::Arm::ShoulderRotationMode _get_FromTo();
       // Set static field: static public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Arm/RootMotion.FinalIK.ShoulderRotationMode FromTo
       static void _set_FromTo(RootMotion::FinalIK::IKSolverVR::Arm::ShoulderRotationMode value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Arm/RootMotion.FinalIK.ShoulderRotationMode
     #pragma pack(pop)
     static check_size<sizeof(IKSolverVR::Arm::ShoulderRotationMode), 0 + sizeof(int)> __RootMotion_FinalIK_IKSolverVR_Arm_ShoulderRotationModeSizeCheck;
@@ -277,114 +275,60 @@ namespace RootMotion::FinalIK {
     static float _get_pitchOffsetAngle();
     // Set static field: static private System.Single pitchOffsetAngle
     static void _set_pitchOffsetAngle(float value);
-    // Get instance field: public UnityEngine.Transform target
-    UnityEngine::Transform* _get_target();
-    // Set instance field: public UnityEngine.Transform target
-    void _set_target(UnityEngine::Transform* value);
-    // Get instance field: public UnityEngine.Transform bendGoal
-    UnityEngine::Transform* _get_bendGoal();
-    // Set instance field: public UnityEngine.Transform bendGoal
-    void _set_bendGoal(UnityEngine::Transform* value);
-    // Get instance field: public System.Single positionWeight
-    float _get_positionWeight();
-    // Set instance field: public System.Single positionWeight
-    void _set_positionWeight(float value);
-    // Get instance field: public System.Single rotationWeight
-    float _get_rotationWeight();
-    // Set instance field: public System.Single rotationWeight
-    void _set_rotationWeight(float value);
-    // Get instance field: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Arm/RootMotion.FinalIK.ShoulderRotationMode shoulderRotationMode
-    RootMotion::FinalIK::IKSolverVR::Arm::ShoulderRotationMode _get_shoulderRotationMode();
-    // Set instance field: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Arm/RootMotion.FinalIK.ShoulderRotationMode shoulderRotationMode
-    void _set_shoulderRotationMode(RootMotion::FinalIK::IKSolverVR::Arm::ShoulderRotationMode value);
-    // Get instance field: public System.Single shoulderRotationWeight
-    float _get_shoulderRotationWeight();
-    // Set instance field: public System.Single shoulderRotationWeight
-    void _set_shoulderRotationWeight(float value);
-    // Get instance field: public System.Single shoulderTwistWeight
-    float _get_shoulderTwistWeight();
-    // Set instance field: public System.Single shoulderTwistWeight
-    void _set_shoulderTwistWeight(float value);
-    // Get instance field: public System.Single bendGoalWeight
-    float _get_bendGoalWeight();
-    // Set instance field: public System.Single bendGoalWeight
-    void _set_bendGoalWeight(float value);
-    // Get instance field: public System.Single swivelOffset
-    float _get_swivelOffset();
-    // Set instance field: public System.Single swivelOffset
-    void _set_swivelOffset(float value);
-    // Get instance field: public UnityEngine.Vector3 wristToPalmAxis
-    UnityEngine::Vector3 _get_wristToPalmAxis();
-    // Set instance field: public UnityEngine.Vector3 wristToPalmAxis
-    void _set_wristToPalmAxis(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Vector3 palmToThumbAxis
-    UnityEngine::Vector3 _get_palmToThumbAxis();
-    // Set instance field: public UnityEngine.Vector3 palmToThumbAxis
-    void _set_palmToThumbAxis(UnityEngine::Vector3 value);
-    // Get instance field: public System.Single armLengthMlp
-    float _get_armLengthMlp();
-    // Set instance field: public System.Single armLengthMlp
-    void _set_armLengthMlp(float value);
-    // Get instance field: public UnityEngine.AnimationCurve stretchCurve
-    UnityEngine::AnimationCurve* _get_stretchCurve();
-    // Set instance field: public UnityEngine.AnimationCurve stretchCurve
-    void _set_stretchCurve(UnityEngine::AnimationCurve* value);
-    // Get instance field: public UnityEngine.Vector3 IKPosition
-    UnityEngine::Vector3 _get_IKPosition();
-    // Set instance field: public UnityEngine.Vector3 IKPosition
-    void _set_IKPosition(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Quaternion IKRotation
-    UnityEngine::Quaternion _get_IKRotation();
-    // Set instance field: public UnityEngine.Quaternion IKRotation
-    void _set_IKRotation(UnityEngine::Quaternion value);
-    // Get instance field: public UnityEngine.Vector3 bendDirection
-    UnityEngine::Vector3 _get_bendDirection();
-    // Set instance field: public UnityEngine.Vector3 bendDirection
-    void _set_bendDirection(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Vector3 handPositionOffset
-    UnityEngine::Vector3 _get_handPositionOffset();
-    // Set instance field: public UnityEngine.Vector3 handPositionOffset
-    void _set_handPositionOffset(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 <position>k__BackingField
-    UnityEngine::Vector3 _get_$position$k__BackingField();
-    // Set instance field: private UnityEngine.Vector3 <position>k__BackingField
-    void _set_$position$k__BackingField(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Quaternion <rotation>k__BackingField
-    UnityEngine::Quaternion _get_$rotation$k__BackingField();
-    // Set instance field: private UnityEngine.Quaternion <rotation>k__BackingField
-    void _set_$rotation$k__BackingField(UnityEngine::Quaternion value);
-    // Get instance field: private System.Boolean hasShoulder
-    bool _get_hasShoulder();
-    // Set instance field: private System.Boolean hasShoulder
-    void _set_hasShoulder(bool value);
-    // Get instance field: private UnityEngine.Vector3 chestForwardAxis
-    UnityEngine::Vector3 _get_chestForwardAxis();
-    // Set instance field: private UnityEngine.Vector3 chestForwardAxis
-    void _set_chestForwardAxis(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 chestUpAxis
-    UnityEngine::Vector3 _get_chestUpAxis();
-    // Set instance field: private UnityEngine.Vector3 chestUpAxis
-    void _set_chestUpAxis(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Quaternion chestRotation
-    UnityEngine::Quaternion _get_chestRotation();
-    // Set instance field: private UnityEngine.Quaternion chestRotation
-    void _set_chestRotation(UnityEngine::Quaternion value);
-    // Get instance field: private UnityEngine.Vector3 chestForward
-    UnityEngine::Vector3 _get_chestForward();
-    // Set instance field: private UnityEngine.Vector3 chestForward
-    void _set_chestForward(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 chestUp
-    UnityEngine::Vector3 _get_chestUp();
-    // Set instance field: private UnityEngine.Vector3 chestUp
-    void _set_chestUp(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Quaternion forearmRelToUpperArm
-    UnityEngine::Quaternion _get_forearmRelToUpperArm();
-    // Set instance field: private UnityEngine.Quaternion forearmRelToUpperArm
-    void _set_forearmRelToUpperArm(UnityEngine::Quaternion value);
-    // Get instance field: private UnityEngine.Vector3 upperArmBendAxis
-    UnityEngine::Vector3 _get_upperArmBendAxis();
-    // Set instance field: private UnityEngine.Vector3 upperArmBendAxis
-    void _set_upperArmBendAxis(UnityEngine::Vector3 value);
+    // Get instance field reference: public UnityEngine.Transform target
+    UnityEngine::Transform*& dyn_target();
+    // Get instance field reference: public UnityEngine.Transform bendGoal
+    UnityEngine::Transform*& dyn_bendGoal();
+    // Get instance field reference: public System.Single positionWeight
+    float& dyn_positionWeight();
+    // Get instance field reference: public System.Single rotationWeight
+    float& dyn_rotationWeight();
+    // Get instance field reference: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Arm/RootMotion.FinalIK.ShoulderRotationMode shoulderRotationMode
+    RootMotion::FinalIK::IKSolverVR::Arm::ShoulderRotationMode& dyn_shoulderRotationMode();
+    // Get instance field reference: public System.Single shoulderRotationWeight
+    float& dyn_shoulderRotationWeight();
+    // Get instance field reference: public System.Single shoulderTwistWeight
+    float& dyn_shoulderTwistWeight();
+    // Get instance field reference: public System.Single bendGoalWeight
+    float& dyn_bendGoalWeight();
+    // Get instance field reference: public System.Single swivelOffset
+    float& dyn_swivelOffset();
+    // Get instance field reference: public UnityEngine.Vector3 wristToPalmAxis
+    UnityEngine::Vector3& dyn_wristToPalmAxis();
+    // Get instance field reference: public UnityEngine.Vector3 palmToThumbAxis
+    UnityEngine::Vector3& dyn_palmToThumbAxis();
+    // Get instance field reference: public System.Single armLengthMlp
+    float& dyn_armLengthMlp();
+    // Get instance field reference: public UnityEngine.AnimationCurve stretchCurve
+    UnityEngine::AnimationCurve*& dyn_stretchCurve();
+    // Get instance field reference: public UnityEngine.Vector3 IKPosition
+    UnityEngine::Vector3& dyn_IKPosition();
+    // Get instance field reference: public UnityEngine.Quaternion IKRotation
+    UnityEngine::Quaternion& dyn_IKRotation();
+    // Get instance field reference: public UnityEngine.Vector3 bendDirection
+    UnityEngine::Vector3& dyn_bendDirection();
+    // Get instance field reference: public UnityEngine.Vector3 handPositionOffset
+    UnityEngine::Vector3& dyn_handPositionOffset();
+    // Get instance field reference: private UnityEngine.Vector3 <position>k__BackingField
+    UnityEngine::Vector3& dyn_$position$k__BackingField();
+    // Get instance field reference: private UnityEngine.Quaternion <rotation>k__BackingField
+    UnityEngine::Quaternion& dyn_$rotation$k__BackingField();
+    // Get instance field reference: private System.Boolean hasShoulder
+    bool& dyn_hasShoulder();
+    // Get instance field reference: private UnityEngine.Vector3 chestForwardAxis
+    UnityEngine::Vector3& dyn_chestForwardAxis();
+    // Get instance field reference: private UnityEngine.Vector3 chestUpAxis
+    UnityEngine::Vector3& dyn_chestUpAxis();
+    // Get instance field reference: private UnityEngine.Quaternion chestRotation
+    UnityEngine::Quaternion& dyn_chestRotation();
+    // Get instance field reference: private UnityEngine.Vector3 chestForward
+    UnityEngine::Vector3& dyn_chestForward();
+    // Get instance field reference: private UnityEngine.Vector3 chestUp
+    UnityEngine::Vector3& dyn_chestUp();
+    // Get instance field reference: private UnityEngine.Quaternion forearmRelToUpperArm
+    UnityEngine::Quaternion& dyn_forearmRelToUpperArm();
+    // Get instance field reference: private UnityEngine.Vector3 upperArmBendAxis
+    UnityEngine::Vector3& dyn_upperArmBendAxis();
     // public UnityEngine.Vector3 get_position()
     // Offset: 0x1E7BC24
     UnityEngine::Vector3 get_position();

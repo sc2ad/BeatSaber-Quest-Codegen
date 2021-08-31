@@ -51,10 +51,8 @@ namespace Zenject {
     constexpr operator Zenject::IGuiRenderable*() const noexcept {
       return renderable;
     }
-    // Get instance field: public Zenject.IGuiRenderable renderable
-    Zenject::IGuiRenderable* _get_renderable();
-    // Set instance field: public Zenject.IGuiRenderable renderable
-    void _set_renderable(Zenject::IGuiRenderable* value);
+    // Get instance field reference: public Zenject.IGuiRenderable renderable
+    Zenject::IGuiRenderable*& dyn_renderable();
     // System.Boolean <.ctor>b__1(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
     // Offset: 0x16604F0
     bool $_ctor$b__1(ModestTree::Util::ValuePair_2<System::Type*, int>* x);

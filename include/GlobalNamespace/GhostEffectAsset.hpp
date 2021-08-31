@@ -75,18 +75,12 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public GhostEffectBehaviour/GhostEffectType _ghostEffectType
-    GlobalNamespace::GhostEffectBehaviour::GhostEffectType _get__ghostEffectType();
-    // Set instance field: public GhostEffectBehaviour/GhostEffectType _ghostEffectType
-    void _set__ghostEffectType(GlobalNamespace::GhostEffectBehaviour::GhostEffectType value);
-    // Get instance field: public UnityEngine.ExposedReference`1<TimelineArrayReference> arrayReference
-    UnityEngine::ExposedReference_1<GlobalNamespace::TimelineArrayReference*> _get_arrayReference();
-    // Set instance field: public UnityEngine.ExposedReference`1<TimelineArrayReference> arrayReference
-    void _set_arrayReference(UnityEngine::ExposedReference_1<GlobalNamespace::TimelineArrayReference*> value);
-    // Get instance field: public GhostEffectBehaviour template
-    GlobalNamespace::GhostEffectBehaviour* _get_template();
-    // Set instance field: public GhostEffectBehaviour template
-    void _set_template(GlobalNamespace::GhostEffectBehaviour* value);
+    // Get instance field reference: public GhostEffectBehaviour/GhostEffectType _ghostEffectType
+    GlobalNamespace::GhostEffectBehaviour::GhostEffectType& dyn__ghostEffectType();
+    // Get instance field reference: public UnityEngine.ExposedReference`1<TimelineArrayReference> arrayReference
+    UnityEngine::ExposedReference_1<GlobalNamespace::TimelineArrayReference*>& dyn_arrayReference();
+    // Get instance field reference: public GhostEffectBehaviour template
+    GlobalNamespace::GhostEffectBehaviour*& dyn_template();
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
     // Offset: 0x11114A0
     UnityEngine::Timeline::ClipCaps get_clipCaps();

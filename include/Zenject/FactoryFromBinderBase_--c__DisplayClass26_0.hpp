@@ -49,14 +49,10 @@ namespace Zenject {
     static_assert(sizeof(Zenject::FactoryFromBinderBase*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass26_0
     $$c__DisplayClass26_0(UnityEngine::GameObject* gameObject_ = {}, Zenject::FactoryFromBinderBase* $$4__this_ = {}) noexcept : gameObject{gameObject_}, $$4__this{$$4__this_} {}
-    // Get instance field: public UnityEngine.GameObject gameObject
-    UnityEngine::GameObject* _get_gameObject();
-    // Set instance field: public UnityEngine.GameObject gameObject
-    void _set_gameObject(UnityEngine::GameObject* value);
-    // Get instance field: public Zenject.FactoryFromBinderBase <>4__this
-    Zenject::FactoryFromBinderBase* _get_$$4__this();
-    // Set instance field: public Zenject.FactoryFromBinderBase <>4__this
-    void _set_$$4__this(Zenject::FactoryFromBinderBase* value);
+    // Get instance field reference: public UnityEngine.GameObject gameObject
+    UnityEngine::GameObject*& dyn_gameObject();
+    // Get instance field reference: public Zenject.FactoryFromBinderBase <>4__this
+    Zenject::FactoryFromBinderBase*& dyn_$$4__this();
     // Zenject.IProvider <FromNewComponentOn>b__0(Zenject.DiContainer container)
     // Offset: 0x1657FBC
     Zenject::IProvider* $FromNewComponentOn$b__0(Zenject::DiContainer* container);

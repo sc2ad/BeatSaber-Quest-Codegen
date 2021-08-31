@@ -49,18 +49,12 @@ namespace RootMotion {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: BakerMuscle
     BakerMuscle(UnityEngine::AnimationCurve* curve_ = {}, int muscleIndex_ = {}, ::Il2CppString* propertyName_ = {}) noexcept : curve{curve_}, muscleIndex{muscleIndex_}, propertyName{propertyName_} {}
-    // Get instance field: public UnityEngine.AnimationCurve curve
-    UnityEngine::AnimationCurve* _get_curve();
-    // Set instance field: public UnityEngine.AnimationCurve curve
-    void _set_curve(UnityEngine::AnimationCurve* value);
-    // Get instance field: private System.Int32 muscleIndex
-    int _get_muscleIndex();
-    // Set instance field: private System.Int32 muscleIndex
-    void _set_muscleIndex(int value);
-    // Get instance field: private System.String propertyName
-    ::Il2CppString* _get_propertyName();
-    // Set instance field: private System.String propertyName
-    void _set_propertyName(::Il2CppString* value);
+    // Get instance field reference: public UnityEngine.AnimationCurve curve
+    UnityEngine::AnimationCurve*& dyn_curve();
+    // Get instance field reference: private System.Int32 muscleIndex
+    int& dyn_muscleIndex();
+    // Get instance field reference: private System.String propertyName
+    ::Il2CppString*& dyn_propertyName();
     // public System.Void .ctor(System.Int32 muscleIndex)
     // Offset: 0x1D26160
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

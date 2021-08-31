@@ -45,18 +45,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: BeatmapEventCallbackData
     BeatmapEventCallbackData(GlobalNamespace::BeatmapEventCallback* callback_ = {}, float aheadTime_ = {}, int nextEventIndex_ = {}) noexcept : callback{callback_}, aheadTime{aheadTime_}, nextEventIndex{nextEventIndex_} {}
-    // Get instance field: public readonly BeatmapEventCallback callback
-    GlobalNamespace::BeatmapEventCallback* _get_callback();
-    // Set instance field: public readonly BeatmapEventCallback callback
-    void _set_callback(GlobalNamespace::BeatmapEventCallback* value);
-    // Get instance field: public System.Single aheadTime
-    float _get_aheadTime();
-    // Set instance field: public System.Single aheadTime
-    void _set_aheadTime(float value);
-    // Get instance field: public System.Int32 nextEventIndex
-    int _get_nextEventIndex();
-    // Set instance field: public System.Int32 nextEventIndex
-    void _set_nextEventIndex(int value);
+    // Get instance field reference: public readonly BeatmapEventCallback callback
+    GlobalNamespace::BeatmapEventCallback*& dyn_callback();
+    // Get instance field reference: public System.Single aheadTime
+    float& dyn_aheadTime();
+    // Get instance field reference: public System.Int32 nextEventIndex
+    int& dyn_nextEventIndex();
     // public System.Void .ctor(BeatmapEventCallback callback, System.Single aheadTime)
     // Offset: 0x11F5794
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

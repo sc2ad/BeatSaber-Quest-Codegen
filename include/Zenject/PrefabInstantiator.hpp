@@ -110,34 +110,20 @@ namespace Zenject {
     operator Zenject::IPrefabInstantiator() noexcept {
       return *reinterpret_cast<Zenject::IPrefabInstantiator*>(this);
     }
-    // Get instance field: private readonly Zenject.IPrefabProvider _prefabProvider
-    Zenject::IPrefabProvider* _get__prefabProvider();
-    // Set instance field: private readonly Zenject.IPrefabProvider _prefabProvider
-    void _set__prefabProvider(Zenject::IPrefabProvider* value);
-    // Get instance field: private readonly Zenject.DiContainer _container
-    Zenject::DiContainer* _get__container();
-    // Set instance field: private readonly Zenject.DiContainer _container
-    void _set__container(Zenject::DiContainer* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> _extraArguments
-    System::Collections::Generic::List_1<Zenject::TypeValuePair>* _get__extraArguments();
-    // Set instance field: private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> _extraArguments
-    void _set__extraArguments(System::Collections::Generic::List_1<Zenject::TypeValuePair>* value);
-    // Get instance field: private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo
-    Zenject::GameObjectCreationParameters* _get__gameObjectBindInfo();
-    // Set instance field: private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo
-    void _set__gameObjectBindInfo(Zenject::GameObjectCreationParameters* value);
-    // Get instance field: private readonly System.Type _argumentTarget
-    System::Type* _get__argumentTarget();
-    // Set instance field: private readonly System.Type _argumentTarget
-    void _set__argumentTarget(System::Type* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<System.Type> _instantiateCallbackTypes
-    System::Collections::Generic::List_1<System::Type*>* _get__instantiateCallbackTypes();
-    // Set instance field: private readonly System.Collections.Generic.List`1<System.Type> _instantiateCallbackTypes
-    void _set__instantiateCallbackTypes(System::Collections::Generic::List_1<System::Type*>* value);
-    // Get instance field: private readonly System.Action`2<Zenject.InjectContext,System.Object> _instantiateCallback
-    System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* _get__instantiateCallback();
-    // Set instance field: private readonly System.Action`2<Zenject.InjectContext,System.Object> _instantiateCallback
-    void _set__instantiateCallback(System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* value);
+    // Get instance field reference: private readonly Zenject.IPrefabProvider _prefabProvider
+    Zenject::IPrefabProvider*& dyn__prefabProvider();
+    // Get instance field reference: private readonly Zenject.DiContainer _container
+    Zenject::DiContainer*& dyn__container();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> _extraArguments
+    System::Collections::Generic::List_1<Zenject::TypeValuePair>*& dyn__extraArguments();
+    // Get instance field reference: private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo
+    Zenject::GameObjectCreationParameters*& dyn__gameObjectBindInfo();
+    // Get instance field reference: private readonly System.Type _argumentTarget
+    System::Type*& dyn__argumentTarget();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Type> _instantiateCallbackTypes
+    System::Collections::Generic::List_1<System::Type*>*& dyn__instantiateCallbackTypes();
+    // Get instance field reference: private readonly System.Action`2<Zenject.InjectContext,System.Object> _instantiateCallback
+    System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*& dyn__instantiateCallback();
     // public Zenject.GameObjectCreationParameters get_GameObjectCreationParameters()
     // Offset: 0x1716170
     Zenject::GameObjectCreationParameters* get_GameObjectCreationParameters();

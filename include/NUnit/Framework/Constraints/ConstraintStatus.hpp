@@ -56,10 +56,8 @@ namespace NUnit::Framework::Constraints {
     static NUnit::Framework::Constraints::ConstraintStatus _get_Error();
     // Set static field: static public NUnit.Framework.Constraints.ConstraintStatus Error
     static void _set_Error(NUnit::Framework::Constraints::ConstraintStatus value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // NUnit.Framework.Constraints.ConstraintStatus
   #pragma pack(pop)
   static check_size<sizeof(ConstraintStatus), 0 + sizeof(int)> __NUnit_Framework_Constraints_ConstraintStatusSizeCheck;

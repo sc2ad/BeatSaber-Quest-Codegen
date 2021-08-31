@@ -46,10 +46,8 @@ namespace UnityEngine::ProBuilder {
     constexpr operator System::Collections::Generic::Dictionary_2<int, int>*() const noexcept {
       return lookup;
     }
-    // Get instance field: public System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> lookup
-    System::Collections::Generic::Dictionary_2<int, int>* _get_lookup();
-    // Set instance field: public System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> lookup
-    void _set_lookup(System::Collections::Generic::Dictionary_2<int, int>* value);
+    // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> lookup
+    System::Collections::Generic::Dictionary_2<int, int>*& dyn_lookup();
     // UnityEngine.ProBuilder.EdgeLookup <GetEdgeLookup>b__0(UnityEngine.ProBuilder.Edge x)
     // Offset: 0x1AEDDBC
     UnityEngine::ProBuilder::EdgeLookup $GetEdgeLookup$b__0(UnityEngine::ProBuilder::Edge x);

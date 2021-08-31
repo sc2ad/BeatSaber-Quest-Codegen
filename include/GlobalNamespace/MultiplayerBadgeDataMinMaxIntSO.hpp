@@ -56,14 +56,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: MultiplayerBadgeDataMinMaxIntSO
     MultiplayerBadgeDataMinMaxIntSO(GlobalNamespace::MultiplayerBadgeMinMax minMax_ = {}, float weightMultiplier_ = {}) noexcept : minMax{minMax_}, weightMultiplier{weightMultiplier_} {}
-    // Get instance field: private MultiplayerBadgeMinMax _minMax
-    GlobalNamespace::MultiplayerBadgeMinMax _get__minMax();
-    // Set instance field: private MultiplayerBadgeMinMax _minMax
-    void _set__minMax(GlobalNamespace::MultiplayerBadgeMinMax value);
-    // Get instance field: private System.Single _weightMultiplier
-    float _get__weightMultiplier();
-    // Set instance field: private System.Single _weightMultiplier
-    void _set__weightMultiplier(float value);
+    // Get instance field reference: private MultiplayerBadgeMinMax _minMax
+    GlobalNamespace::MultiplayerBadgeMinMax& dyn__minMax();
+    // Get instance field reference: private System.Single _weightMultiplier
+    float& dyn__weightMultiplier();
     // protected System.Int32 GetValue(MultiplayerPlayerResultsData result)
     // Offset: 0xFFFFFFFF
     int GetValue(GlobalNamespace::MultiplayerPlayerResultsData* result);

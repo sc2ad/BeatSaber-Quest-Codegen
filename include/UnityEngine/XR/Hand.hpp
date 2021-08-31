@@ -50,14 +50,10 @@ namespace UnityEngine::XR {
     operator System::IEquatable_1<UnityEngine::XR::Hand>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::XR::Hand>*>(this);
     }
-    // Get instance field: private System.UInt64 m_DeviceId
-    uint64_t _get_m_DeviceId();
-    // Set instance field: private System.UInt64 m_DeviceId
-    void _set_m_DeviceId(uint64_t value);
-    // Get instance field: private System.UInt32 m_FeatureIndex
-    uint _get_m_FeatureIndex();
-    // Set instance field: private System.UInt32 m_FeatureIndex
-    void _set_m_FeatureIndex(uint value);
+    // Get instance field reference: private System.UInt64 m_DeviceId
+    uint64_t& dyn_m_DeviceId();
+    // Get instance field reference: private System.UInt32 m_FeatureIndex
+    uint& dyn_m_FeatureIndex();
     // System.UInt64 get_deviceId()
     // Offset: 0x2409D0C
     uint64_t get_deviceId();

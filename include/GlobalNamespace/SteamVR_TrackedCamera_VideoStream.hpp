@@ -50,22 +50,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(uint64_t) == 0x8);
     // Creating value type constructor for type: VideoStream
     VideoStream(uint deviceIndex_ = {}, uint64_t handle_ = {}, bool hasCamera_ = {}, uint64_t refCount_ = {}) noexcept : deviceIndex{deviceIndex_}, handle{handle_}, hasCamera{hasCamera_}, refCount{refCount_} {}
-    // Get instance field: private System.UInt32 <deviceIndex>k__BackingField
-    uint _get_$deviceIndex$k__BackingField();
-    // Set instance field: private System.UInt32 <deviceIndex>k__BackingField
-    void _set_$deviceIndex$k__BackingField(uint value);
-    // Get instance field: private System.UInt64 _handle
-    uint64_t _get__handle();
-    // Set instance field: private System.UInt64 _handle
-    void _set__handle(uint64_t value);
-    // Get instance field: private System.Boolean _hasCamera
-    bool _get__hasCamera();
-    // Set instance field: private System.Boolean _hasCamera
-    void _set__hasCamera(bool value);
-    // Get instance field: private System.UInt64 refCount
-    uint64_t _get_refCount();
-    // Set instance field: private System.UInt64 refCount
-    void _set_refCount(uint64_t value);
+    // Get instance field reference: private System.UInt32 <deviceIndex>k__BackingField
+    uint& dyn_$deviceIndex$k__BackingField();
+    // Get instance field reference: private System.UInt64 _handle
+    uint64_t& dyn__handle();
+    // Get instance field reference: private System.Boolean _hasCamera
+    bool& dyn__hasCamera();
+    // Get instance field reference: private System.UInt64 refCount
+    uint64_t& dyn_refCount();
     // public System.UInt32 get_deviceIndex()
     // Offset: 0x16FD6B4
     uint get_deviceIndex();

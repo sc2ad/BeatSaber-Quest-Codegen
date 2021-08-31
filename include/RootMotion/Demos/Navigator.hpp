@@ -80,10 +80,8 @@ namespace RootMotion::Demos {
       static RootMotion::Demos::Navigator::State _get_OnPath();
       // Set static field: static public RootMotion.Demos.Navigator/RootMotion.Demos.State OnPath
       static void _set_OnPath(RootMotion::Demos::Navigator::State value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // RootMotion.Demos.Navigator/RootMotion.Demos.State
     #pragma pack(pop)
     static check_size<sizeof(Navigator::State), 0 + sizeof(int)> __RootMotion_Demos_Navigator_StateSizeCheck;
@@ -187,62 +185,34 @@ namespace RootMotion::Demos {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: Navigator
     Navigator(bool activeTargetSeeking_ = {}, float cornerRadius_ = {}, float recalculateOnPathDistance_ = {}, float maxSampleDistance_ = {}, float nextPathInterval_ = {}, UnityEngine::Vector3 normalizedDeltaPosition_ = {}, RootMotion::Demos::Navigator::State state_ = {}, UnityEngine::Transform* transform_ = {}, int cornerIndex_ = {}, ::Array<UnityEngine::Vector3>* corners_ = {}, UnityEngine::AI::NavMeshPath* path_ = {}, UnityEngine::Vector3 lastTargetPosition_ = {}, bool initiated_ = {}, float nextPathTime_ = {}) noexcept : activeTargetSeeking{activeTargetSeeking_}, cornerRadius{cornerRadius_}, recalculateOnPathDistance{recalculateOnPathDistance_}, maxSampleDistance{maxSampleDistance_}, nextPathInterval{nextPathInterval_}, normalizedDeltaPosition{normalizedDeltaPosition_}, state{state_}, transform{transform_}, cornerIndex{cornerIndex_}, corners{corners_}, path{path_}, lastTargetPosition{lastTargetPosition_}, initiated{initiated_}, nextPathTime{nextPathTime_} {}
-    // Get instance field: public System.Boolean activeTargetSeeking
-    bool _get_activeTargetSeeking();
-    // Set instance field: public System.Boolean activeTargetSeeking
-    void _set_activeTargetSeeking(bool value);
-    // Get instance field: public System.Single cornerRadius
-    float _get_cornerRadius();
-    // Set instance field: public System.Single cornerRadius
-    void _set_cornerRadius(float value);
-    // Get instance field: public System.Single recalculateOnPathDistance
-    float _get_recalculateOnPathDistance();
-    // Set instance field: public System.Single recalculateOnPathDistance
-    void _set_recalculateOnPathDistance(float value);
-    // Get instance field: public System.Single maxSampleDistance
-    float _get_maxSampleDistance();
-    // Set instance field: public System.Single maxSampleDistance
-    void _set_maxSampleDistance(float value);
-    // Get instance field: public System.Single nextPathInterval
-    float _get_nextPathInterval();
-    // Set instance field: public System.Single nextPathInterval
-    void _set_nextPathInterval(float value);
-    // Get instance field: private UnityEngine.Vector3 <normalizedDeltaPosition>k__BackingField
-    UnityEngine::Vector3 _get_$normalizedDeltaPosition$k__BackingField();
-    // Set instance field: private UnityEngine.Vector3 <normalizedDeltaPosition>k__BackingField
-    void _set_$normalizedDeltaPosition$k__BackingField(UnityEngine::Vector3 value);
-    // Get instance field: private RootMotion.Demos.Navigator/RootMotion.Demos.State <state>k__BackingField
-    RootMotion::Demos::Navigator::State _get_$state$k__BackingField();
-    // Set instance field: private RootMotion.Demos.Navigator/RootMotion.Demos.State <state>k__BackingField
-    void _set_$state$k__BackingField(RootMotion::Demos::Navigator::State value);
-    // Get instance field: private UnityEngine.Transform transform
-    UnityEngine::Transform* _get_transform();
-    // Set instance field: private UnityEngine.Transform transform
-    void _set_transform(UnityEngine::Transform* value);
-    // Get instance field: private System.Int32 cornerIndex
-    int _get_cornerIndex();
-    // Set instance field: private System.Int32 cornerIndex
-    void _set_cornerIndex(int value);
-    // Get instance field: private UnityEngine.Vector3[] corners
-    ::Array<UnityEngine::Vector3>* _get_corners();
-    // Set instance field: private UnityEngine.Vector3[] corners
-    void _set_corners(::Array<UnityEngine::Vector3>* value);
-    // Get instance field: private UnityEngine.AI.NavMeshPath path
-    UnityEngine::AI::NavMeshPath* _get_path();
-    // Set instance field: private UnityEngine.AI.NavMeshPath path
-    void _set_path(UnityEngine::AI::NavMeshPath* value);
-    // Get instance field: private UnityEngine.Vector3 lastTargetPosition
-    UnityEngine::Vector3 _get_lastTargetPosition();
-    // Set instance field: private UnityEngine.Vector3 lastTargetPosition
-    void _set_lastTargetPosition(UnityEngine::Vector3 value);
-    // Get instance field: private System.Boolean initiated
-    bool _get_initiated();
-    // Set instance field: private System.Boolean initiated
-    void _set_initiated(bool value);
-    // Get instance field: private System.Single nextPathTime
-    float _get_nextPathTime();
-    // Set instance field: private System.Single nextPathTime
-    void _set_nextPathTime(float value);
+    // Get instance field reference: public System.Boolean activeTargetSeeking
+    bool& dyn_activeTargetSeeking();
+    // Get instance field reference: public System.Single cornerRadius
+    float& dyn_cornerRadius();
+    // Get instance field reference: public System.Single recalculateOnPathDistance
+    float& dyn_recalculateOnPathDistance();
+    // Get instance field reference: public System.Single maxSampleDistance
+    float& dyn_maxSampleDistance();
+    // Get instance field reference: public System.Single nextPathInterval
+    float& dyn_nextPathInterval();
+    // Get instance field reference: private UnityEngine.Vector3 <normalizedDeltaPosition>k__BackingField
+    UnityEngine::Vector3& dyn_$normalizedDeltaPosition$k__BackingField();
+    // Get instance field reference: private RootMotion.Demos.Navigator/RootMotion.Demos.State <state>k__BackingField
+    RootMotion::Demos::Navigator::State& dyn_$state$k__BackingField();
+    // Get instance field reference: private UnityEngine.Transform transform
+    UnityEngine::Transform*& dyn_transform();
+    // Get instance field reference: private System.Int32 cornerIndex
+    int& dyn_cornerIndex();
+    // Get instance field reference: private UnityEngine.Vector3[] corners
+    ::Array<UnityEngine::Vector3>*& dyn_corners();
+    // Get instance field reference: private UnityEngine.AI.NavMeshPath path
+    UnityEngine::AI::NavMeshPath*& dyn_path();
+    // Get instance field reference: private UnityEngine.Vector3 lastTargetPosition
+    UnityEngine::Vector3& dyn_lastTargetPosition();
+    // Get instance field reference: private System.Boolean initiated
+    bool& dyn_initiated();
+    // Get instance field reference: private System.Single nextPathTime
+    float& dyn_nextPathTime();
     // public UnityEngine.Vector3 get_normalizedDeltaPosition()
     // Offset: 0x1D2E2AC
     UnityEngine::Vector3 get_normalizedDeltaPosition();

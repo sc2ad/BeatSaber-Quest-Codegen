@@ -53,22 +53,14 @@ namespace System::Security::Cryptography {
     static ::Array<uint>* _get__K();
     // Set static field: static private readonly System.UInt32[] _K
     static void _set__K(::Array<uint>* value);
-    // Get instance field: private System.Byte[] _buffer
-    ::Array<uint8_t>* _get__buffer();
-    // Set instance field: private System.Byte[] _buffer
-    void _set__buffer(::Array<uint8_t>* value);
-    // Get instance field: private System.Int64 _count
-    int64_t _get__count();
-    // Set instance field: private System.Int64 _count
-    void _set__count(int64_t value);
-    // Get instance field: private System.UInt32[] _stateSHA256
-    ::Array<uint>* _get__stateSHA256();
-    // Set instance field: private System.UInt32[] _stateSHA256
-    void _set__stateSHA256(::Array<uint>* value);
-    // Get instance field: private System.UInt32[] _W
-    ::Array<uint>* _get__W();
-    // Set instance field: private System.UInt32[] _W
-    void _set__W(::Array<uint>* value);
+    // Get instance field reference: private System.Byte[] _buffer
+    ::Array<uint8_t>*& dyn__buffer();
+    // Get instance field reference: private System.Int64 _count
+    int64_t& dyn__count();
+    // Get instance field reference: private System.UInt32[] _stateSHA256
+    ::Array<uint>*& dyn__stateSHA256();
+    // Get instance field reference: private System.UInt32[] _W
+    ::Array<uint>*& dyn__W();
     // static private System.Void .cctor()
     // Offset: 0x1B439DC
     static void _cctor();

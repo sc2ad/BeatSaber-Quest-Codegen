@@ -65,26 +65,16 @@ namespace UnityEngine::LowLevel {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Type type
-    System::Type* _get_type();
-    // Set instance field: public System.Type type
-    void _set_type(System::Type* value);
-    // Get instance field: public UnityEngine.LowLevel.PlayerLoopSystem/UnityEngine.LowLevel.UpdateFunction updateDelegate
-    UnityEngine::LowLevel::PlayerLoopSystem::UpdateFunction* _get_updateDelegate();
-    // Set instance field: public UnityEngine.LowLevel.PlayerLoopSystem/UnityEngine.LowLevel.UpdateFunction updateDelegate
-    void _set_updateDelegate(UnityEngine::LowLevel::PlayerLoopSystem::UpdateFunction* value);
-    // Get instance field: public System.IntPtr updateFunction
-    System::IntPtr _get_updateFunction();
-    // Set instance field: public System.IntPtr updateFunction
-    void _set_updateFunction(System::IntPtr value);
-    // Get instance field: public System.IntPtr loopConditionFunction
-    System::IntPtr _get_loopConditionFunction();
-    // Set instance field: public System.IntPtr loopConditionFunction
-    void _set_loopConditionFunction(System::IntPtr value);
-    // Get instance field: public System.Int32 numSubSystems
-    int _get_numSubSystems();
-    // Set instance field: public System.Int32 numSubSystems
-    void _set_numSubSystems(int value);
+    // Get instance field reference: public System.Type type
+    System::Type*& dyn_type();
+    // Get instance field reference: public UnityEngine.LowLevel.PlayerLoopSystem/UnityEngine.LowLevel.UpdateFunction updateDelegate
+    UnityEngine::LowLevel::PlayerLoopSystem::UpdateFunction*& dyn_updateDelegate();
+    // Get instance field reference: public System.IntPtr updateFunction
+    System::IntPtr& dyn_updateFunction();
+    // Get instance field reference: public System.IntPtr loopConditionFunction
+    System::IntPtr& dyn_loopConditionFunction();
+    // Get instance field reference: public System.Int32 numSubSystems
+    int& dyn_numSubSystems();
   }; // UnityEngine.LowLevel.PlayerLoopSystemInternal
   #pragma pack(pop)
   static check_size<sizeof(PlayerLoopSystemInternal), 32 + sizeof(int)> __UnityEngine_LowLevel_PlayerLoopSystemInternalSizeCheck;

@@ -49,22 +49,14 @@ namespace TMPro::SpriteAssetUtilities {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Single x
-    float _get_x();
-    // Set instance field: public System.Single x
-    void _set_x(float value);
-    // Get instance field: public System.Single y
-    float _get_y();
-    // Set instance field: public System.Single y
-    void _set_y(float value);
-    // Get instance field: public System.Single w
-    float _get_w();
-    // Set instance field: public System.Single w
-    void _set_w(float value);
-    // Get instance field: public System.Single h
-    float _get_h();
-    // Set instance field: public System.Single h
-    void _set_h(float value);
+    // Get instance field reference: public System.Single x
+    float& dyn_x();
+    // Get instance field reference: public System.Single y
+    float& dyn_y();
+    // Get instance field reference: public System.Single w
+    float& dyn_w();
+    // Get instance field reference: public System.Single h
+    float& dyn_h();
     // public override System.String ToString()
     // Offset: 0x1119080
     // Implemented from: System.ValueType

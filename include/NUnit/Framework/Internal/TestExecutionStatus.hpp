@@ -50,10 +50,8 @@ namespace NUnit::Framework::Internal {
     static NUnit::Framework::Internal::TestExecutionStatus _get_AbortRequested();
     // Set static field: static public NUnit.Framework.Internal.TestExecutionStatus AbortRequested
     static void _set_AbortRequested(NUnit::Framework::Internal::TestExecutionStatus value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // NUnit.Framework.Internal.TestExecutionStatus
   #pragma pack(pop)
   static check_size<sizeof(TestExecutionStatus), 0 + sizeof(int)> __NUnit_Framework_Internal_TestExecutionStatusSizeCheck;

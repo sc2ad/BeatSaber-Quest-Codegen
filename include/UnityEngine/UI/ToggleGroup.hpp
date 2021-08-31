@@ -58,14 +58,10 @@ namespace UnityEngine::UI {
     ToggleGroup(bool m_AllowSwitchOff_ = {}, System::Collections::Generic::List_1<UnityEngine::UI::Toggle*>* m_Toggles_ = {}) noexcept : m_AllowSwitchOff{m_AllowSwitchOff_}, m_Toggles{m_Toggles_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Boolean m_AllowSwitchOff
-    bool _get_m_AllowSwitchOff();
-    // Set instance field: private System.Boolean m_AllowSwitchOff
-    void _set_m_AllowSwitchOff(bool value);
-    // Get instance field: protected System.Collections.Generic.List`1<UnityEngine.UI.Toggle> m_Toggles
-    System::Collections::Generic::List_1<UnityEngine::UI::Toggle*>* _get_m_Toggles();
-    // Set instance field: protected System.Collections.Generic.List`1<UnityEngine.UI.Toggle> m_Toggles
-    void _set_m_Toggles(System::Collections::Generic::List_1<UnityEngine::UI::Toggle*>* value);
+    // Get instance field reference: private System.Boolean m_AllowSwitchOff
+    bool& dyn_m_AllowSwitchOff();
+    // Get instance field reference: protected System.Collections.Generic.List`1<UnityEngine.UI.Toggle> m_Toggles
+    System::Collections::Generic::List_1<UnityEngine::UI::Toggle*>*& dyn_m_Toggles();
     // public System.Boolean get_allowSwitchOff()
     // Offset: 0x23C80EC
     bool get_allowSwitchOff();

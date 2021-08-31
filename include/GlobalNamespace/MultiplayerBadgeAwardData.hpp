@@ -78,30 +78,18 @@ namespace GlobalNamespace {
     operator System::IComparable() noexcept {
       return *reinterpret_cast<System::IComparable*>(this);
     }
-    // Get instance field: private readonly IConnectedPlayer _awardedPlayer
-    GlobalNamespace::IConnectedPlayer* _get__awardedPlayer();
-    // Set instance field: private readonly IConnectedPlayer _awardedPlayer
-    void _set__awardedPlayer(GlobalNamespace::IConnectedPlayer* value);
-    // Get instance field: private readonly System.Single _weight
-    float _get__weight();
-    // Set instance field: private readonly System.Single _weight
-    void _set__weight(float value);
-    // Get instance field: private readonly System.String _title
-    ::Il2CppString* _get__title();
-    // Set instance field: private readonly System.String _title
-    void _set__title(::Il2CppString* value);
-    // Get instance field: private readonly System.String _subtitle
-    ::Il2CppString* _get__subtitle();
-    // Set instance field: private readonly System.String _subtitle
-    void _set__subtitle(::Il2CppString* value);
-    // Get instance field: private readonly UnityEngine.Sprite _icon
-    UnityEngine::Sprite* _get__icon();
-    // Set instance field: private readonly UnityEngine.Sprite _icon
-    void _set__icon(UnityEngine::Sprite* value);
-    // Get instance field: private readonly MultiplayerBadgeDataSO _badgeData
-    GlobalNamespace::MultiplayerBadgeDataSO* _get__badgeData();
-    // Set instance field: private readonly MultiplayerBadgeDataSO _badgeData
-    void _set__badgeData(GlobalNamespace::MultiplayerBadgeDataSO* value);
+    // Get instance field reference: private readonly IConnectedPlayer _awardedPlayer
+    GlobalNamespace::IConnectedPlayer*& dyn__awardedPlayer();
+    // Get instance field reference: private readonly System.Single _weight
+    float& dyn__weight();
+    // Get instance field reference: private readonly System.String _title
+    ::Il2CppString*& dyn__title();
+    // Get instance field reference: private readonly System.String _subtitle
+    ::Il2CppString*& dyn__subtitle();
+    // Get instance field reference: private readonly UnityEngine.Sprite _icon
+    UnityEngine::Sprite*& dyn__icon();
+    // Get instance field reference: private readonly MultiplayerBadgeDataSO _badgeData
+    GlobalNamespace::MultiplayerBadgeDataSO*& dyn__badgeData();
     // public IConnectedPlayer get_awardedPlayer()
     // Offset: 0x11A0808
     GlobalNamespace::IConnectedPlayer* get_awardedPlayer();

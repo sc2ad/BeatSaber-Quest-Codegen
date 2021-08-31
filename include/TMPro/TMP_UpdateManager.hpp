@@ -86,30 +86,18 @@ namespace TMPro {
     static TMPro::TMP_UpdateManager* _get_s_Instance();
     // Set static field: static private TMPro.TMP_UpdateManager s_Instance
     static void _set_s_Instance(TMPro::TMP_UpdateManager* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<TMPro.TMP_Text> m_LayoutRebuildQueue
-    System::Collections::Generic::List_1<TMPro::TMP_Text*>* _get_m_LayoutRebuildQueue();
-    // Set instance field: private readonly System.Collections.Generic.List`1<TMPro.TMP_Text> m_LayoutRebuildQueue
-    void _set_m_LayoutRebuildQueue(System::Collections::Generic::List_1<TMPro::TMP_Text*>* value);
-    // Get instance field: private System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_LayoutQueueLookup
-    System::Collections::Generic::Dictionary_2<int, int>* _get_m_LayoutQueueLookup();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_LayoutQueueLookup
-    void _set_m_LayoutQueueLookup(System::Collections::Generic::Dictionary_2<int, int>* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<TMPro.TMP_Text> m_GraphicRebuildQueue
-    System::Collections::Generic::List_1<TMPro::TMP_Text*>* _get_m_GraphicRebuildQueue();
-    // Set instance field: private readonly System.Collections.Generic.List`1<TMPro.TMP_Text> m_GraphicRebuildQueue
-    void _set_m_GraphicRebuildQueue(System::Collections::Generic::List_1<TMPro::TMP_Text*>* value);
-    // Get instance field: private System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_GraphicQueueLookup
-    System::Collections::Generic::Dictionary_2<int, int>* _get_m_GraphicQueueLookup();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_GraphicQueueLookup
-    void _set_m_GraphicQueueLookup(System::Collections::Generic::Dictionary_2<int, int>* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<TMPro.TMP_Text> m_InternalUpdateQueue
-    System::Collections::Generic::List_1<TMPro::TMP_Text*>* _get_m_InternalUpdateQueue();
-    // Set instance field: private readonly System.Collections.Generic.List`1<TMPro.TMP_Text> m_InternalUpdateQueue
-    void _set_m_InternalUpdateQueue(System::Collections::Generic::List_1<TMPro::TMP_Text*>* value);
-    // Get instance field: private System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_InternalUpdateLookup
-    System::Collections::Generic::Dictionary_2<int, int>* _get_m_InternalUpdateLookup();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_InternalUpdateLookup
-    void _set_m_InternalUpdateLookup(System::Collections::Generic::Dictionary_2<int, int>* value);
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<TMPro.TMP_Text> m_LayoutRebuildQueue
+    System::Collections::Generic::List_1<TMPro::TMP_Text*>*& dyn_m_LayoutRebuildQueue();
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_LayoutQueueLookup
+    System::Collections::Generic::Dictionary_2<int, int>*& dyn_m_LayoutQueueLookup();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<TMPro.TMP_Text> m_GraphicRebuildQueue
+    System::Collections::Generic::List_1<TMPro::TMP_Text*>*& dyn_m_GraphicRebuildQueue();
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_GraphicQueueLookup
+    System::Collections::Generic::Dictionary_2<int, int>*& dyn_m_GraphicQueueLookup();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<TMPro.TMP_Text> m_InternalUpdateQueue
+    System::Collections::Generic::List_1<TMPro::TMP_Text*>*& dyn_m_InternalUpdateQueue();
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_InternalUpdateLookup
+    System::Collections::Generic::Dictionary_2<int, int>*& dyn_m_InternalUpdateLookup();
     // static public TMPro.TMP_UpdateManager get_instance()
     // Offset: 0x1452DE4
     static TMPro::TMP_UpdateManager* get_instance();

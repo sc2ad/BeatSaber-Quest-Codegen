@@ -38,10 +38,8 @@ namespace UnityEngine::XR::WSA {
     WorldAnchor(UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate* OnTrackingChanged_ = {}) noexcept : OnTrackingChanged{OnTrackingChanged_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.XR.WSA.WorldAnchor/UnityEngine.XR.WSA.OnTrackingChangedDelegate OnTrackingChanged
-    UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate* _get_OnTrackingChanged();
-    // Set instance field: private UnityEngine.XR.WSA.WorldAnchor/UnityEngine.XR.WSA.OnTrackingChangedDelegate OnTrackingChanged
-    void _set_OnTrackingChanged(UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate* value);
+    // Get instance field reference: private UnityEngine.XR.WSA.WorldAnchor/UnityEngine.XR.WSA.OnTrackingChangedDelegate OnTrackingChanged
+    UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate*& dyn_OnTrackingChanged();
     // static private System.Void Internal_TriggerEventOnTrackingLost(UnityEngine.XR.WSA.WorldAnchor worldAnchor, System.Boolean located)
     // Offset: 0x241CBA0
     static void Internal_TriggerEventOnTrackingLost(UnityEngine::XR::WSA::WorldAnchor* worldAnchor, bool located);

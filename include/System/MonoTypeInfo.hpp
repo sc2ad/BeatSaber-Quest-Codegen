@@ -40,14 +40,10 @@ namespace System {
     static_assert(sizeof(System::Reflection::MonoCMethod*) == 0x8);
     // Creating value type constructor for type: MonoTypeInfo
     MonoTypeInfo(::Il2CppString* full_name_ = {}, System::Reflection::MonoCMethod* default_ctor_ = {}) noexcept : full_name{full_name_}, default_ctor{default_ctor_} {}
-    // Get instance field: public System.String full_name
-    ::Il2CppString* _get_full_name();
-    // Set instance field: public System.String full_name
-    void _set_full_name(::Il2CppString* value);
-    // Get instance field: public System.Reflection.MonoCMethod default_ctor
-    System::Reflection::MonoCMethod* _get_default_ctor();
-    // Set instance field: public System.Reflection.MonoCMethod default_ctor
-    void _set_default_ctor(System::Reflection::MonoCMethod* value);
+    // Get instance field reference: public System.String full_name
+    ::Il2CppString*& dyn_full_name();
+    // Get instance field reference: public System.Reflection.MonoCMethod default_ctor
+    System::Reflection::MonoCMethod*& dyn_default_ctor();
     // public System.Void .ctor()
     // Offset: 0x1839760
     // Implemented from: System.Object

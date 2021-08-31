@@ -59,14 +59,10 @@ namespace Zenject {
     static_assert(sizeof(System::Func_2<UnityEngine::Component*, bool>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass66_0
     $$c__DisplayClass66_0(bool includeInactive_ = {}, System::Func_2<UnityEngine::Component*, bool>* predicate_ = {}) noexcept : includeInactive{includeInactive_}, predicate{predicate_} {}
-    // Get instance field: public System.Boolean includeInactive
-    bool _get_includeInactive();
-    // Set instance field: public System.Boolean includeInactive
-    void _set_includeInactive(bool value);
-    // Get instance field: public System.Func`2<UnityEngine.Component,System.Boolean> predicate
-    System::Func_2<UnityEngine::Component*, bool>* _get_predicate();
-    // Set instance field: public System.Func`2<UnityEngine.Component,System.Boolean> predicate
-    void _set_predicate(System::Func_2<UnityEngine::Component*, bool>* value);
+    // Get instance field reference: public System.Boolean includeInactive
+    bool& dyn_includeInactive();
+    // Get instance field reference: public System.Func`2<UnityEngine.Component,System.Boolean> predicate
+    System::Func_2<UnityEngine::Component*, bool>*& dyn_predicate();
     // Zenject.IProvider <FromComponentsInHierarchyBase>b__0(Zenject.DiContainer container, System.Type concreteType)
     // Offset: 0x165E0DC
     Zenject::IProvider* $FromComponentsInHierarchyBase$b__0(Zenject::DiContainer* container, System::Type* concreteType);

@@ -210,94 +210,50 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: ResultsViewController
     ResultsViewController(UnityEngine::UI::Button* restartButton_ = {}, UnityEngine::UI::Button* continueButton_ = {}, UnityEngine::GameObject* clearedPanel_ = {}, TMPro::TextMeshProUGUI* scoreText_ = {}, UnityEngine::GameObject* newHighScoreText_ = {}, TMPro::TextMeshProUGUI* rankText_ = {}, TMPro::TextMeshProUGUI* goodCutsPercentageText_ = {}, TMPro::TextMeshProUGUI* comboText_ = {}, UnityEngine::GameObject* clearedBannerGo_ = {}, UnityEngine::GameObject* failedBannerGo_ = {}, GlobalNamespace::LevelBar* levelBar_ = {}, UnityEngine::AudioClip* levelClearedAudioClip_ = {}, GlobalNamespace::FireworksController* fireworksController_ = {}, GlobalNamespace::SongPreviewPlayer* songPreviewPlayer_ = {}, GlobalNamespace::ResultsEnvironmentManager* resultsEnvironmentManager_ = {}, System::Action_1<GlobalNamespace::ResultsViewController*>* continueButtonPressedEvent_ = {}, System::Action_1<GlobalNamespace::ResultsViewController*>* restartButtonPressedEvent_ = {}, GlobalNamespace::LevelCompletionResults* levelCompletionResults_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}, UnityEngine::Coroutine* startFireworksAfterDelayCoroutine_ = {}, bool newHighScore_ = {}, bool practice_ = {}) noexcept : restartButton{restartButton_}, continueButton{continueButton_}, clearedPanel{clearedPanel_}, scoreText{scoreText_}, newHighScoreText{newHighScoreText_}, rankText{rankText_}, goodCutsPercentageText{goodCutsPercentageText_}, comboText{comboText_}, clearedBannerGo{clearedBannerGo_}, failedBannerGo{failedBannerGo_}, levelBar{levelBar_}, levelClearedAudioClip{levelClearedAudioClip_}, fireworksController{fireworksController_}, songPreviewPlayer{songPreviewPlayer_}, resultsEnvironmentManager{resultsEnvironmentManager_}, continueButtonPressedEvent{continueButtonPressedEvent_}, restartButtonPressedEvent{restartButtonPressedEvent_}, levelCompletionResults{levelCompletionResults_}, difficultyBeatmap{difficultyBeatmap_}, startFireworksAfterDelayCoroutine{startFireworksAfterDelayCoroutine_}, newHighScore{newHighScore_}, practice{practice_} {}
-    // Get instance field: private UnityEngine.UI.Button _restartButton
-    UnityEngine::UI::Button* _get__restartButton();
-    // Set instance field: private UnityEngine.UI.Button _restartButton
-    void _set__restartButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _continueButton
-    UnityEngine::UI::Button* _get__continueButton();
-    // Set instance field: private UnityEngine.UI.Button _continueButton
-    void _set__continueButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.GameObject _clearedPanel
-    UnityEngine::GameObject* _get__clearedPanel();
-    // Set instance field: private UnityEngine.GameObject _clearedPanel
-    void _set__clearedPanel(UnityEngine::GameObject* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _scoreText
-    TMPro::TextMeshProUGUI* _get__scoreText();
-    // Set instance field: private TMPro.TextMeshProUGUI _scoreText
-    void _set__scoreText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private UnityEngine.GameObject _newHighScoreText
-    UnityEngine::GameObject* _get__newHighScoreText();
-    // Set instance field: private UnityEngine.GameObject _newHighScoreText
-    void _set__newHighScoreText(UnityEngine::GameObject* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _rankText
-    TMPro::TextMeshProUGUI* _get__rankText();
-    // Set instance field: private TMPro.TextMeshProUGUI _rankText
-    void _set__rankText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _goodCutsPercentageText
-    TMPro::TextMeshProUGUI* _get__goodCutsPercentageText();
-    // Set instance field: private TMPro.TextMeshProUGUI _goodCutsPercentageText
-    void _set__goodCutsPercentageText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _comboText
-    TMPro::TextMeshProUGUI* _get__comboText();
-    // Set instance field: private TMPro.TextMeshProUGUI _comboText
-    void _set__comboText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private UnityEngine.GameObject _clearedBannerGo
-    UnityEngine::GameObject* _get__clearedBannerGo();
-    // Set instance field: private UnityEngine.GameObject _clearedBannerGo
-    void _set__clearedBannerGo(UnityEngine::GameObject* value);
-    // Get instance field: private UnityEngine.GameObject _failedBannerGo
-    UnityEngine::GameObject* _get__failedBannerGo();
-    // Set instance field: private UnityEngine.GameObject _failedBannerGo
-    void _set__failedBannerGo(UnityEngine::GameObject* value);
-    // Get instance field: private LevelBar _levelBar
-    GlobalNamespace::LevelBar* _get__levelBar();
-    // Set instance field: private LevelBar _levelBar
-    void _set__levelBar(GlobalNamespace::LevelBar* value);
-    // Get instance field: private UnityEngine.AudioClip _levelClearedAudioClip
-    UnityEngine::AudioClip* _get__levelClearedAudioClip();
-    // Set instance field: private UnityEngine.AudioClip _levelClearedAudioClip
-    void _set__levelClearedAudioClip(UnityEngine::AudioClip* value);
-    // Get instance field: private readonly FireworksController _fireworksController
-    GlobalNamespace::FireworksController* _get__fireworksController();
-    // Set instance field: private readonly FireworksController _fireworksController
-    void _set__fireworksController(GlobalNamespace::FireworksController* value);
-    // Get instance field: private readonly SongPreviewPlayer _songPreviewPlayer
-    GlobalNamespace::SongPreviewPlayer* _get__songPreviewPlayer();
-    // Set instance field: private readonly SongPreviewPlayer _songPreviewPlayer
-    void _set__songPreviewPlayer(GlobalNamespace::SongPreviewPlayer* value);
-    // Get instance field: private readonly ResultsEnvironmentManager _resultsEnvironmentManager
-    GlobalNamespace::ResultsEnvironmentManager* _get__resultsEnvironmentManager();
-    // Set instance field: private readonly ResultsEnvironmentManager _resultsEnvironmentManager
-    void _set__resultsEnvironmentManager(GlobalNamespace::ResultsEnvironmentManager* value);
-    // Get instance field: private System.Action`1<ResultsViewController> continueButtonPressedEvent
-    System::Action_1<GlobalNamespace::ResultsViewController*>* _get_continueButtonPressedEvent();
-    // Set instance field: private System.Action`1<ResultsViewController> continueButtonPressedEvent
-    void _set_continueButtonPressedEvent(System::Action_1<GlobalNamespace::ResultsViewController*>* value);
-    // Get instance field: private System.Action`1<ResultsViewController> restartButtonPressedEvent
-    System::Action_1<GlobalNamespace::ResultsViewController*>* _get_restartButtonPressedEvent();
-    // Set instance field: private System.Action`1<ResultsViewController> restartButtonPressedEvent
-    void _set_restartButtonPressedEvent(System::Action_1<GlobalNamespace::ResultsViewController*>* value);
-    // Get instance field: private LevelCompletionResults _levelCompletionResults
-    GlobalNamespace::LevelCompletionResults* _get__levelCompletionResults();
-    // Set instance field: private LevelCompletionResults _levelCompletionResults
-    void _set__levelCompletionResults(GlobalNamespace::LevelCompletionResults* value);
-    // Get instance field: private IDifficultyBeatmap _difficultyBeatmap
-    GlobalNamespace::IDifficultyBeatmap* _get__difficultyBeatmap();
-    // Set instance field: private IDifficultyBeatmap _difficultyBeatmap
-    void _set__difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap* value);
-    // Get instance field: private UnityEngine.Coroutine _startFireworksAfterDelayCoroutine
-    UnityEngine::Coroutine* _get__startFireworksAfterDelayCoroutine();
-    // Set instance field: private UnityEngine.Coroutine _startFireworksAfterDelayCoroutine
-    void _set__startFireworksAfterDelayCoroutine(UnityEngine::Coroutine* value);
-    // Get instance field: private System.Boolean _newHighScore
-    bool _get__newHighScore();
-    // Set instance field: private System.Boolean _newHighScore
-    void _set__newHighScore(bool value);
-    // Get instance field: private System.Boolean _practice
-    bool _get__practice();
-    // Set instance field: private System.Boolean _practice
-    void _set__practice(bool value);
+    // Get instance field reference: private UnityEngine.UI.Button _restartButton
+    UnityEngine::UI::Button*& dyn__restartButton();
+    // Get instance field reference: private UnityEngine.UI.Button _continueButton
+    UnityEngine::UI::Button*& dyn__continueButton();
+    // Get instance field reference: private UnityEngine.GameObject _clearedPanel
+    UnityEngine::GameObject*& dyn__clearedPanel();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _scoreText
+    TMPro::TextMeshProUGUI*& dyn__scoreText();
+    // Get instance field reference: private UnityEngine.GameObject _newHighScoreText
+    UnityEngine::GameObject*& dyn__newHighScoreText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _rankText
+    TMPro::TextMeshProUGUI*& dyn__rankText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _goodCutsPercentageText
+    TMPro::TextMeshProUGUI*& dyn__goodCutsPercentageText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _comboText
+    TMPro::TextMeshProUGUI*& dyn__comboText();
+    // Get instance field reference: private UnityEngine.GameObject _clearedBannerGo
+    UnityEngine::GameObject*& dyn__clearedBannerGo();
+    // Get instance field reference: private UnityEngine.GameObject _failedBannerGo
+    UnityEngine::GameObject*& dyn__failedBannerGo();
+    // Get instance field reference: private LevelBar _levelBar
+    GlobalNamespace::LevelBar*& dyn__levelBar();
+    // Get instance field reference: private UnityEngine.AudioClip _levelClearedAudioClip
+    UnityEngine::AudioClip*& dyn__levelClearedAudioClip();
+    // Get instance field reference: private readonly FireworksController _fireworksController
+    GlobalNamespace::FireworksController*& dyn__fireworksController();
+    // Get instance field reference: private readonly SongPreviewPlayer _songPreviewPlayer
+    GlobalNamespace::SongPreviewPlayer*& dyn__songPreviewPlayer();
+    // Get instance field reference: private readonly ResultsEnvironmentManager _resultsEnvironmentManager
+    GlobalNamespace::ResultsEnvironmentManager*& dyn__resultsEnvironmentManager();
+    // Get instance field reference: private System.Action`1<ResultsViewController> continueButtonPressedEvent
+    System::Action_1<GlobalNamespace::ResultsViewController*>*& dyn_continueButtonPressedEvent();
+    // Get instance field reference: private System.Action`1<ResultsViewController> restartButtonPressedEvent
+    System::Action_1<GlobalNamespace::ResultsViewController*>*& dyn_restartButtonPressedEvent();
+    // Get instance field reference: private LevelCompletionResults _levelCompletionResults
+    GlobalNamespace::LevelCompletionResults*& dyn__levelCompletionResults();
+    // Get instance field reference: private IDifficultyBeatmap _difficultyBeatmap
+    GlobalNamespace::IDifficultyBeatmap*& dyn__difficultyBeatmap();
+    // Get instance field reference: private UnityEngine.Coroutine _startFireworksAfterDelayCoroutine
+    UnityEngine::Coroutine*& dyn__startFireworksAfterDelayCoroutine();
+    // Get instance field reference: private System.Boolean _newHighScore
+    bool& dyn__newHighScore();
+    // Get instance field reference: private System.Boolean _practice
+    bool& dyn__practice();
     // public System.Boolean get_practice()
     // Offset: 0x118C5C0
     bool get_practice();

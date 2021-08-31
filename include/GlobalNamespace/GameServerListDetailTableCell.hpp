@@ -57,18 +57,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(HMUI::ButtonBinder*) == 0x8);
     // Creating value type constructor for type: GameServerListDetailTableCell
     GameServerListDetailTableCell(UnityEngine::UI::Button* joinServerButton_ = {}, System::Action* joinServerButtonWasPressedEvent_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}) noexcept : joinServerButton{joinServerButton_}, joinServerButtonWasPressedEvent{joinServerButtonWasPressedEvent_}, buttonBinder{buttonBinder_} {}
-    // Get instance field: private UnityEngine.UI.Button _joinServerButton
-    UnityEngine::UI::Button* _get__joinServerButton();
-    // Set instance field: private UnityEngine.UI.Button _joinServerButton
-    void _set__joinServerButton(UnityEngine::UI::Button* value);
-    // Get instance field: private System.Action joinServerButtonWasPressedEvent
-    System::Action* _get_joinServerButtonWasPressedEvent();
-    // Set instance field: private System.Action joinServerButtonWasPressedEvent
-    void _set_joinServerButtonWasPressedEvent(System::Action* value);
-    // Get instance field: private readonly HMUI.ButtonBinder _buttonBinder
-    HMUI::ButtonBinder* _get__buttonBinder();
-    // Set instance field: private readonly HMUI.ButtonBinder _buttonBinder
-    void _set__buttonBinder(HMUI::ButtonBinder* value);
+    // Get instance field reference: private UnityEngine.UI.Button _joinServerButton
+    UnityEngine::UI::Button*& dyn__joinServerButton();
+    // Get instance field reference: private System.Action joinServerButtonWasPressedEvent
+    System::Action*& dyn_joinServerButtonWasPressedEvent();
+    // Get instance field reference: private readonly HMUI.ButtonBinder _buttonBinder
+    HMUI::ButtonBinder*& dyn__buttonBinder();
     // public System.Void add_joinServerButtonWasPressedEvent(System.Action value)
     // Offset: 0x10FF198
     void add_joinServerButtonWasPressedEvent(System::Action* value);

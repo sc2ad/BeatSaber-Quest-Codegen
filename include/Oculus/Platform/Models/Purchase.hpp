@@ -48,22 +48,14 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: Purchase
     Purchase(System::DateTime ExpirationTime_ = {}, System::DateTime GrantTime_ = {}, ::Il2CppString* _ID_ = {}, ::Il2CppString* Sku_ = {}) noexcept : ExpirationTime{ExpirationTime_}, GrantTime{GrantTime_}, _ID{_ID_}, Sku{Sku_} {}
-    // Get instance field: public readonly System.DateTime ExpirationTime
-    System::DateTime _get_ExpirationTime();
-    // Set instance field: public readonly System.DateTime ExpirationTime
-    void _set_ExpirationTime(System::DateTime value);
-    // Get instance field: public readonly System.DateTime GrantTime
-    System::DateTime _get_GrantTime();
-    // Set instance field: public readonly System.DateTime GrantTime
-    void _set_GrantTime(System::DateTime value);
-    // Get instance field: public readonly System.String ID
-    ::Il2CppString* _get_ID();
-    // Set instance field: public readonly System.String ID
-    void _set_ID(::Il2CppString* value);
-    // Get instance field: public readonly System.String Sku
-    ::Il2CppString* _get_Sku();
-    // Set instance field: public readonly System.String Sku
-    void _set_Sku(::Il2CppString* value);
+    // Get instance field reference: public readonly System.DateTime ExpirationTime
+    System::DateTime& dyn_ExpirationTime();
+    // Get instance field reference: public readonly System.DateTime GrantTime
+    System::DateTime& dyn_GrantTime();
+    // Get instance field reference: public readonly System.String ID
+    ::Il2CppString*& dyn_ID();
+    // Get instance field reference: public readonly System.String Sku
+    ::Il2CppString*& dyn_Sku();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14EF174
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

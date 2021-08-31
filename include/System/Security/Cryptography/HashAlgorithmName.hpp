@@ -46,10 +46,8 @@ namespace System::Security::Cryptography {
     constexpr operator ::Il2CppString*() const noexcept {
       return name;
     }
-    // Get instance field: private readonly System.String _name
-    ::Il2CppString* _get__name();
-    // Set instance field: private readonly System.String _name
-    void _set__name(::Il2CppString* value);
+    // Get instance field reference: private readonly System.String _name
+    ::Il2CppString*& dyn__name();
     // static public System.Security.Cryptography.HashAlgorithmName get_SHA256()
     // Offset: 0x19904C0
     static System::Security::Cryptography::HashAlgorithmName get_SHA256();

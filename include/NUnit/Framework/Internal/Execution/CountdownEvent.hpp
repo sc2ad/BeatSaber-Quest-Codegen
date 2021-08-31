@@ -51,22 +51,14 @@ namespace NUnit::Framework::Internal::Execution {
     static_assert(sizeof(System::Threading::ManualResetEvent*) == 0x8);
     // Creating value type constructor for type: CountdownEvent
     CountdownEvent(int initialCount_ = {}, int remainingCount_ = {}, ::Il2CppObject* lock_ = {}, System::Threading::ManualResetEvent* event_ = {}) noexcept : initialCount{initialCount_}, remainingCount{remainingCount_}, lock{lock_}, event{event_} {}
-    // Get instance field: private System.Int32 _initialCount
-    int _get__initialCount();
-    // Set instance field: private System.Int32 _initialCount
-    void _set__initialCount(int value);
-    // Get instance field: private System.Int32 _remainingCount
-    int _get__remainingCount();
-    // Set instance field: private System.Int32 _remainingCount
-    void _set__remainingCount(int value);
-    // Get instance field: private System.Object _lock
-    ::Il2CppObject* _get__lock();
-    // Set instance field: private System.Object _lock
-    void _set__lock(::Il2CppObject* value);
-    // Get instance field: private System.Threading.ManualResetEvent _event
-    System::Threading::ManualResetEvent* _get__event();
-    // Set instance field: private System.Threading.ManualResetEvent _event
-    void _set__event(System::Threading::ManualResetEvent* value);
+    // Get instance field reference: private System.Int32 _initialCount
+    int& dyn__initialCount();
+    // Get instance field reference: private System.Int32 _remainingCount
+    int& dyn__remainingCount();
+    // Get instance field reference: private System.Object _lock
+    ::Il2CppObject*& dyn__lock();
+    // Get instance field reference: private System.Threading.ManualResetEvent _event
+    System::Threading::ManualResetEvent*& dyn__event();
     // public System.Int32 get_CurrentCount()
     // Offset: 0x177A4D4
     int get_CurrentCount();

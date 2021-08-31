@@ -59,22 +59,14 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Creating value type constructor for type: EffectorLink
     EffectorLink(RootMotion::FinalIK::FullBodyBipedEffector effector_ = {}, float weight_ = {}, UnityEngine::Vector3 lastValue_ = {}, UnityEngine::Vector3 current_ = {}) noexcept : effector{effector_}, weight{weight_}, lastValue{lastValue_}, current{current_} {}
-    // Get instance field: public RootMotion.FinalIK.FullBodyBipedEffector effector
-    RootMotion::FinalIK::FullBodyBipedEffector _get_effector();
-    // Set instance field: public RootMotion.FinalIK.FullBodyBipedEffector effector
-    void _set_effector(RootMotion::FinalIK::FullBodyBipedEffector value);
-    // Get instance field: public System.Single weight
-    float _get_weight();
-    // Set instance field: public System.Single weight
-    void _set_weight(float value);
-    // Get instance field: private UnityEngine.Vector3 lastValue
-    UnityEngine::Vector3 _get_lastValue();
-    // Set instance field: private UnityEngine.Vector3 lastValue
-    void _set_lastValue(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 current
-    UnityEngine::Vector3 _get_current();
-    // Set instance field: private UnityEngine.Vector3 current
-    void _set_current(UnityEngine::Vector3 value);
+    // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedEffector effector
+    RootMotion::FinalIK::FullBodyBipedEffector& dyn_effector();
+    // Get instance field reference: public System.Single weight
+    float& dyn_weight();
+    // Get instance field reference: private UnityEngine.Vector3 lastValue
+    UnityEngine::Vector3& dyn_lastValue();
+    // Get instance field reference: private UnityEngine.Vector3 current
+    UnityEngine::Vector3& dyn_current();
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, UnityEngine.Vector3 offset, System.Single crossFader)
     // Offset: 0x1CCED4C
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, UnityEngine::Vector3 offset, float crossFader);

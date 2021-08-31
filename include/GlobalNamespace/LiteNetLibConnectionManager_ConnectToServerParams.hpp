@@ -57,22 +57,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: ConnectToServerParams
     ConnectToServerParams(System::Net::IPEndPoint* endPoint_ = {}, ::Il2CppString* serverUserId_ = {}, ::Il2CppString* serverUserName_ = {}, bool serverIsConnectionOwner_ = {}) noexcept : endPoint{endPoint_}, serverUserId{serverUserId_}, serverUserName{serverUserName_}, serverIsConnectionOwner{serverIsConnectionOwner_} {}
-    // Get instance field: public System.Net.IPEndPoint endPoint
-    System::Net::IPEndPoint* _get_endPoint();
-    // Set instance field: public System.Net.IPEndPoint endPoint
-    void _set_endPoint(System::Net::IPEndPoint* value);
-    // Get instance field: public System.String serverUserId
-    ::Il2CppString* _get_serverUserId();
-    // Set instance field: public System.String serverUserId
-    void _set_serverUserId(::Il2CppString* value);
-    // Get instance field: public System.String serverUserName
-    ::Il2CppString* _get_serverUserName();
-    // Set instance field: public System.String serverUserName
-    void _set_serverUserName(::Il2CppString* value);
-    // Get instance field: public System.Boolean serverIsConnectionOwner
-    bool _get_serverIsConnectionOwner();
-    // Set instance field: public System.Boolean serverIsConnectionOwner
-    void _set_serverIsConnectionOwner(bool value);
+    // Get instance field reference: public System.Net.IPEndPoint endPoint
+    System::Net::IPEndPoint*& dyn_endPoint();
+    // Get instance field reference: public System.String serverUserId
+    ::Il2CppString*& dyn_serverUserId();
+    // Get instance field reference: public System.String serverUserName
+    ::Il2CppString*& dyn_serverUserName();
+    // Get instance field reference: public System.Boolean serverIsConnectionOwner
+    bool& dyn_serverIsConnectionOwner();
     // public System.Void .ctor()
     // Offset: 0x132E070
     // Implemented from: LiteNetLibConnectionManager/LiteNetLibConnectionParamsBase

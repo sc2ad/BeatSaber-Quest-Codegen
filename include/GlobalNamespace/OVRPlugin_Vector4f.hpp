@@ -53,22 +53,14 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::Vector4f _get_zero();
     // Set static field: static public readonly OVRPlugin/Vector4f zero
     static void _set_zero(GlobalNamespace::OVRPlugin::Vector4f value);
-    // Get instance field: public System.Single x
-    float _get_x();
-    // Set instance field: public System.Single x
-    void _set_x(float value);
-    // Get instance field: public System.Single y
-    float _get_y();
-    // Set instance field: public System.Single y
-    void _set_y(float value);
-    // Get instance field: public System.Single z
-    float _get_z();
-    // Set instance field: public System.Single z
-    void _set_z(float value);
-    // Get instance field: public System.Single w
-    float _get_w();
-    // Set instance field: public System.Single w
-    void _set_w(float value);
+    // Get instance field reference: public System.Single x
+    float& dyn_x();
+    // Get instance field reference: public System.Single y
+    float& dyn_y();
+    // Get instance field reference: public System.Single z
+    float& dyn_z();
+    // Get instance field reference: public System.Single w
+    float& dyn_w();
     // static private System.Void .cctor()
     // Offset: 0x16330BC
     static void _cctor();

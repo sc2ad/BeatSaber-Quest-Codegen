@@ -41,10 +41,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::EnabledTransitionSO*) == 0x8);
     // Creating value type constructor for type: EnabledViewStateTransition
     EnabledViewStateTransition(GlobalNamespace::EnabledTransitionSO* transition_ = {}) noexcept : transition{transition_} {}
-    // Get instance field: private EnabledTransitionSO _transition
-    GlobalNamespace::EnabledTransitionSO* _get__transition();
-    // Set instance field: private EnabledTransitionSO _transition
-    void _set__transition(GlobalNamespace::EnabledTransitionSO* value);
+    // Get instance field reference: private EnabledTransitionSO _transition
+    GlobalNamespace::EnabledTransitionSO*& dyn__transition();
     // protected override BaseTransitionSO get_transition()
     // Offset: 0x1050020
     // Implemented from: BaseStateTransition

@@ -146,62 +146,34 @@ namespace System::Net::Sockets {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
-    // Get instance field: private System.Boolean disposed
-    bool _get_disposed();
-    // Set instance field: private System.Boolean disposed
-    void _set_disposed(bool value);
-    // Get instance field: System.Int32 in_progress
-    int _get_in_progress();
-    // Set instance field: System.Int32 in_progress
-    void _set_in_progress(int value);
-    // Get instance field: System.Net.EndPoint remote_ep
-    System::Net::EndPoint* _get_remote_ep();
-    // Set instance field: System.Net.EndPoint remote_ep
-    void _set_remote_ep(System::Net::EndPoint* value);
-    // Get instance field: System.Net.Sockets.Socket current_socket
-    System::Net::Sockets::Socket* _get_current_socket();
-    // Set instance field: System.Net.Sockets.Socket current_socket
-    void _set_current_socket(System::Net::Sockets::Socket* value);
-    // Get instance field: System.Net.Sockets.SocketAsyncResult socket_async_result
-    System::Net::Sockets::SocketAsyncResult* _get_socket_async_result();
-    // Set instance field: System.Net.Sockets.SocketAsyncResult socket_async_result
-    void _set_socket_async_result(System::Net::Sockets::SocketAsyncResult* value);
-    // Get instance field: private System.Net.Sockets.Socket <AcceptSocket>k__BackingField
-    System::Net::Sockets::Socket* _get_$AcceptSocket$k__BackingField();
-    // Set instance field: private System.Net.Sockets.Socket <AcceptSocket>k__BackingField
-    void _set_$AcceptSocket$k__BackingField(System::Net::Sockets::Socket* value);
-    // Get instance field: System.Collections.Generic.IList`1<System.ArraySegment`1<System.Byte>> m_BufferList
-    System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>* _get_m_BufferList();
-    // Set instance field: System.Collections.Generic.IList`1<System.ArraySegment`1<System.Byte>> m_BufferList
-    void _set_m_BufferList(System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>* value);
-    // Get instance field: private System.Int32 <BytesTransferred>k__BackingField
-    int _get_$BytesTransferred$k__BackingField();
-    // Set instance field: private System.Int32 <BytesTransferred>k__BackingField
-    void _set_$BytesTransferred$k__BackingField(int value);
-    // Get instance field: private System.Int32 <Count>k__BackingField
-    int _get_$Count$k__BackingField();
-    // Set instance field: private System.Int32 <Count>k__BackingField
-    void _set_$Count$k__BackingField(int value);
-    // Get instance field: private System.Net.Sockets.SocketAsyncOperation <LastOperation>k__BackingField
-    System::Net::Sockets::SocketAsyncOperation _get_$LastOperation$k__BackingField();
-    // Set instance field: private System.Net.Sockets.SocketAsyncOperation <LastOperation>k__BackingField
-    void _set_$LastOperation$k__BackingField(System::Net::Sockets::SocketAsyncOperation value);
-    // Get instance field: private System.Int32 <SendPacketsSendSize>k__BackingField
-    int _get_$SendPacketsSendSize$k__BackingField();
-    // Set instance field: private System.Int32 <SendPacketsSendSize>k__BackingField
-    void _set_$SendPacketsSendSize$k__BackingField(int value);
-    // Get instance field: private System.Net.Sockets.SocketError <SocketError>k__BackingField
-    System::Net::Sockets::SocketError _get_$SocketError$k__BackingField();
-    // Set instance field: private System.Net.Sockets.SocketError <SocketError>k__BackingField
-    void _set_$SocketError$k__BackingField(System::Net::Sockets::SocketError value);
-    // Get instance field: private System.Object <UserToken>k__BackingField
-    ::Il2CppObject* _get_$UserToken$k__BackingField();
-    // Set instance field: private System.Object <UserToken>k__BackingField
-    void _set_$UserToken$k__BackingField(::Il2CppObject* value);
-    // Get instance field: private System.EventHandler`1<System.Net.Sockets.SocketAsyncEventArgs> Completed
-    System::EventHandler_1<System::Net::Sockets::SocketAsyncEventArgs*>* _get_Completed();
-    // Set instance field: private System.EventHandler`1<System.Net.Sockets.SocketAsyncEventArgs> Completed
-    void _set_Completed(System::EventHandler_1<System::Net::Sockets::SocketAsyncEventArgs*>* value);
+    // Get instance field reference: private System.Boolean disposed
+    bool& dyn_disposed();
+    // Get instance field reference: System.Int32 in_progress
+    int& dyn_in_progress();
+    // Get instance field reference: System.Net.EndPoint remote_ep
+    System::Net::EndPoint*& dyn_remote_ep();
+    // Get instance field reference: System.Net.Sockets.Socket current_socket
+    System::Net::Sockets::Socket*& dyn_current_socket();
+    // Get instance field reference: System.Net.Sockets.SocketAsyncResult socket_async_result
+    System::Net::Sockets::SocketAsyncResult*& dyn_socket_async_result();
+    // Get instance field reference: private System.Net.Sockets.Socket <AcceptSocket>k__BackingField
+    System::Net::Sockets::Socket*& dyn_$AcceptSocket$k__BackingField();
+    // Get instance field reference: System.Collections.Generic.IList`1<System.ArraySegment`1<System.Byte>> m_BufferList
+    System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>*& dyn_m_BufferList();
+    // Get instance field reference: private System.Int32 <BytesTransferred>k__BackingField
+    int& dyn_$BytesTransferred$k__BackingField();
+    // Get instance field reference: private System.Int32 <Count>k__BackingField
+    int& dyn_$Count$k__BackingField();
+    // Get instance field reference: private System.Net.Sockets.SocketAsyncOperation <LastOperation>k__BackingField
+    System::Net::Sockets::SocketAsyncOperation& dyn_$LastOperation$k__BackingField();
+    // Get instance field reference: private System.Int32 <SendPacketsSendSize>k__BackingField
+    int& dyn_$SendPacketsSendSize$k__BackingField();
+    // Get instance field reference: private System.Net.Sockets.SocketError <SocketError>k__BackingField
+    System::Net::Sockets::SocketError& dyn_$SocketError$k__BackingField();
+    // Get instance field reference: private System.Object <UserToken>k__BackingField
+    ::Il2CppObject*& dyn_$UserToken$k__BackingField();
+    // Get instance field reference: private System.EventHandler`1<System.Net.Sockets.SocketAsyncEventArgs> Completed
+    System::EventHandler_1<System::Net::Sockets::SocketAsyncEventArgs*>*& dyn_Completed();
     // public System.Net.Sockets.Socket get_AcceptSocket()
     // Offset: 0x15C78E8
     System::Net::Sockets::Socket* get_AcceptSocket();

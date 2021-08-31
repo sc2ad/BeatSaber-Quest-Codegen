@@ -31,10 +31,8 @@ namespace RootMotion {
     Comments(::Il2CppString* text_ = {}) noexcept : text{text_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public System.String text
-    ::Il2CppString* _get_text();
-    // Set instance field: public System.String text
-    void _set_text(::Il2CppString* value);
+    // Get instance field reference: public System.String text
+    ::Il2CppString*& dyn_text();
     // public System.Void .ctor()
     // Offset: 0x1D2E130
     // Implemented from: UnityEngine.MonoBehaviour

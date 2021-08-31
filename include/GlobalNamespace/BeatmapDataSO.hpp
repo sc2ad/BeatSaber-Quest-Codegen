@@ -77,34 +77,20 @@ namespace GlobalNamespace {
     BeatmapDataSO(::Il2CppString* jsonData_ = {}, GlobalNamespace::BeatmapData* beatmapData_ = {}, float beatsPerMinute_ = {}, float shuffle_ = {}, float shufflePeriod_ = {}, bool hasRequiredDataForLoad_ = {}, GlobalNamespace::BeatmapDataLoader* beatmapDataLoader_ = {}) noexcept : jsonData{jsonData_}, beatmapData{beatmapData_}, beatsPerMinute{beatsPerMinute_}, shuffle{shuffle_}, shufflePeriod{shufflePeriod_}, hasRequiredDataForLoad{hasRequiredDataForLoad_}, beatmapDataLoader{beatmapDataLoader_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public System.String _jsonData
-    ::Il2CppString* _get__jsonData();
-    // Set instance field: public System.String _jsonData
-    void _set__jsonData(::Il2CppString* value);
-    // Get instance field: private BeatmapData _beatmapData
-    GlobalNamespace::BeatmapData* _get__beatmapData();
-    // Set instance field: private BeatmapData _beatmapData
-    void _set__beatmapData(GlobalNamespace::BeatmapData* value);
-    // Get instance field: private System.Single _beatsPerMinute
-    float _get__beatsPerMinute();
-    // Set instance field: private System.Single _beatsPerMinute
-    void _set__beatsPerMinute(float value);
-    // Get instance field: private System.Single _shuffle
-    float _get__shuffle();
-    // Set instance field: private System.Single _shuffle
-    void _set__shuffle(float value);
-    // Get instance field: private System.Single _shufflePeriod
-    float _get__shufflePeriod();
-    // Set instance field: private System.Single _shufflePeriod
-    void _set__shufflePeriod(float value);
-    // Get instance field: private System.Boolean _hasRequiredDataForLoad
-    bool _get__hasRequiredDataForLoad();
-    // Set instance field: private System.Boolean _hasRequiredDataForLoad
-    void _set__hasRequiredDataForLoad(bool value);
-    // Get instance field: private BeatmapDataLoader _beatmapDataLoader
-    GlobalNamespace::BeatmapDataLoader* _get__beatmapDataLoader();
-    // Set instance field: private BeatmapDataLoader _beatmapDataLoader
-    void _set__beatmapDataLoader(GlobalNamespace::BeatmapDataLoader* value);
+    // Get instance field reference: public System.String _jsonData
+    ::Il2CppString*& dyn__jsonData();
+    // Get instance field reference: private BeatmapData _beatmapData
+    GlobalNamespace::BeatmapData*& dyn__beatmapData();
+    // Get instance field reference: private System.Single _beatsPerMinute
+    float& dyn__beatsPerMinute();
+    // Get instance field reference: private System.Single _shuffle
+    float& dyn__shuffle();
+    // Get instance field reference: private System.Single _shufflePeriod
+    float& dyn__shufflePeriod();
+    // Get instance field reference: private System.Boolean _hasRequiredDataForLoad
+    bool& dyn__hasRequiredDataForLoad();
+    // Get instance field reference: private BeatmapDataLoader _beatmapDataLoader
+    GlobalNamespace::BeatmapDataLoader*& dyn__beatmapDataLoader();
     // public BeatmapData get_beatmapData()
     // Offset: 0x11F3178
     GlobalNamespace::BeatmapData* get_beatmapData();

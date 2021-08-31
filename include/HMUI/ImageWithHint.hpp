@@ -53,14 +53,10 @@ namespace HMUI {
     ImageWithHint(UnityEngine::UI::Image* image_ = {}, HMUI::HoverHint* hoverHint_ = {}) noexcept : image{image_}, hoverHint{hoverHint_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.UI.Image _image
-    UnityEngine::UI::Image* _get__image();
-    // Set instance field: private UnityEngine.UI.Image _image
-    void _set__image(UnityEngine::UI::Image* value);
-    // Get instance field: private HMUI.HoverHint _hoverHint
-    HMUI::HoverHint* _get__hoverHint();
-    // Set instance field: private HMUI.HoverHint _hoverHint
-    void _set__hoverHint(HMUI::HoverHint* value);
+    // Get instance field reference: private UnityEngine.UI.Image _image
+    UnityEngine::UI::Image*& dyn__image();
+    // Get instance field reference: private HMUI.HoverHint _hoverHint
+    HMUI::HoverHint*& dyn__hoverHint();
     // public UnityEngine.Sprite get_sprite()
     // Offset: 0x12F54D4
     UnityEngine::Sprite* get_sprite();

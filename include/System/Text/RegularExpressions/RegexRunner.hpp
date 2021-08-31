@@ -153,78 +153,42 @@ namespace System::Text::RegularExpressions {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: RegexRunner
     RegexRunner(int runtextbeg_ = {}, int runtextend_ = {}, int runtextstart_ = {}, ::Il2CppString* runtext_ = {}, int runtextpos_ = {}, ::Array<int>* runtrack_ = {}, int runtrackpos_ = {}, ::Array<int>* runstack_ = {}, int runstackpos_ = {}, ::Array<int>* runcrawl_ = {}, int runcrawlpos_ = {}, int runtrackcount_ = {}, System::Text::RegularExpressions::Match* runmatch_ = {}, System::Text::RegularExpressions::Regex* runregex_ = {}, int timeout_ = {}, bool ignoreTimeout_ = {}, int timeoutOccursAt_ = {}, int timeoutChecksToSkip_ = {}) noexcept : runtextbeg{runtextbeg_}, runtextend{runtextend_}, runtextstart{runtextstart_}, runtext{runtext_}, runtextpos{runtextpos_}, runtrack{runtrack_}, runtrackpos{runtrackpos_}, runstack{runstack_}, runstackpos{runstackpos_}, runcrawl{runcrawl_}, runcrawlpos{runcrawlpos_}, runtrackcount{runtrackcount_}, runmatch{runmatch_}, runregex{runregex_}, timeout{timeout_}, ignoreTimeout{ignoreTimeout_}, timeoutOccursAt{timeoutOccursAt_}, timeoutChecksToSkip{timeoutChecksToSkip_} {}
-    // Get instance field: protected internal System.Int32 runtextbeg
-    int _get_runtextbeg();
-    // Set instance field: protected internal System.Int32 runtextbeg
-    void _set_runtextbeg(int value);
-    // Get instance field: protected internal System.Int32 runtextend
-    int _get_runtextend();
-    // Set instance field: protected internal System.Int32 runtextend
-    void _set_runtextend(int value);
-    // Get instance field: protected internal System.Int32 runtextstart
-    int _get_runtextstart();
-    // Set instance field: protected internal System.Int32 runtextstart
-    void _set_runtextstart(int value);
-    // Get instance field: protected internal System.String runtext
-    ::Il2CppString* _get_runtext();
-    // Set instance field: protected internal System.String runtext
-    void _set_runtext(::Il2CppString* value);
-    // Get instance field: protected internal System.Int32 runtextpos
-    int _get_runtextpos();
-    // Set instance field: protected internal System.Int32 runtextpos
-    void _set_runtextpos(int value);
-    // Get instance field: protected internal System.Int32[] runtrack
-    ::Array<int>* _get_runtrack();
-    // Set instance field: protected internal System.Int32[] runtrack
-    void _set_runtrack(::Array<int>* value);
-    // Get instance field: protected internal System.Int32 runtrackpos
-    int _get_runtrackpos();
-    // Set instance field: protected internal System.Int32 runtrackpos
-    void _set_runtrackpos(int value);
-    // Get instance field: protected internal System.Int32[] runstack
-    ::Array<int>* _get_runstack();
-    // Set instance field: protected internal System.Int32[] runstack
-    void _set_runstack(::Array<int>* value);
-    // Get instance field: protected internal System.Int32 runstackpos
-    int _get_runstackpos();
-    // Set instance field: protected internal System.Int32 runstackpos
-    void _set_runstackpos(int value);
-    // Get instance field: protected internal System.Int32[] runcrawl
-    ::Array<int>* _get_runcrawl();
-    // Set instance field: protected internal System.Int32[] runcrawl
-    void _set_runcrawl(::Array<int>* value);
-    // Get instance field: protected internal System.Int32 runcrawlpos
-    int _get_runcrawlpos();
-    // Set instance field: protected internal System.Int32 runcrawlpos
-    void _set_runcrawlpos(int value);
-    // Get instance field: protected internal System.Int32 runtrackcount
-    int _get_runtrackcount();
-    // Set instance field: protected internal System.Int32 runtrackcount
-    void _set_runtrackcount(int value);
-    // Get instance field: protected internal System.Text.RegularExpressions.Match runmatch
-    System::Text::RegularExpressions::Match* _get_runmatch();
-    // Set instance field: protected internal System.Text.RegularExpressions.Match runmatch
-    void _set_runmatch(System::Text::RegularExpressions::Match* value);
-    // Get instance field: protected internal System.Text.RegularExpressions.Regex runregex
-    System::Text::RegularExpressions::Regex* _get_runregex();
-    // Set instance field: protected internal System.Text.RegularExpressions.Regex runregex
-    void _set_runregex(System::Text::RegularExpressions::Regex* value);
-    // Get instance field: private System.Int32 timeout
-    int _get_timeout();
-    // Set instance field: private System.Int32 timeout
-    void _set_timeout(int value);
-    // Get instance field: private System.Boolean ignoreTimeout
-    bool _get_ignoreTimeout();
-    // Set instance field: private System.Boolean ignoreTimeout
-    void _set_ignoreTimeout(bool value);
-    // Get instance field: private System.Int32 timeoutOccursAt
-    int _get_timeoutOccursAt();
-    // Set instance field: private System.Int32 timeoutOccursAt
-    void _set_timeoutOccursAt(int value);
-    // Get instance field: private System.Int32 timeoutChecksToSkip
-    int _get_timeoutChecksToSkip();
-    // Set instance field: private System.Int32 timeoutChecksToSkip
-    void _set_timeoutChecksToSkip(int value);
+    // Get instance field reference: protected internal System.Int32 runtextbeg
+    int& dyn_runtextbeg();
+    // Get instance field reference: protected internal System.Int32 runtextend
+    int& dyn_runtextend();
+    // Get instance field reference: protected internal System.Int32 runtextstart
+    int& dyn_runtextstart();
+    // Get instance field reference: protected internal System.String runtext
+    ::Il2CppString*& dyn_runtext();
+    // Get instance field reference: protected internal System.Int32 runtextpos
+    int& dyn_runtextpos();
+    // Get instance field reference: protected internal System.Int32[] runtrack
+    ::Array<int>*& dyn_runtrack();
+    // Get instance field reference: protected internal System.Int32 runtrackpos
+    int& dyn_runtrackpos();
+    // Get instance field reference: protected internal System.Int32[] runstack
+    ::Array<int>*& dyn_runstack();
+    // Get instance field reference: protected internal System.Int32 runstackpos
+    int& dyn_runstackpos();
+    // Get instance field reference: protected internal System.Int32[] runcrawl
+    ::Array<int>*& dyn_runcrawl();
+    // Get instance field reference: protected internal System.Int32 runcrawlpos
+    int& dyn_runcrawlpos();
+    // Get instance field reference: protected internal System.Int32 runtrackcount
+    int& dyn_runtrackcount();
+    // Get instance field reference: protected internal System.Text.RegularExpressions.Match runmatch
+    System::Text::RegularExpressions::Match*& dyn_runmatch();
+    // Get instance field reference: protected internal System.Text.RegularExpressions.Regex runregex
+    System::Text::RegularExpressions::Regex*& dyn_runregex();
+    // Get instance field reference: private System.Int32 timeout
+    int& dyn_timeout();
+    // Get instance field reference: private System.Boolean ignoreTimeout
+    bool& dyn_ignoreTimeout();
+    // Get instance field reference: private System.Int32 timeoutOccursAt
+    int& dyn_timeoutOccursAt();
+    // Get instance field reference: private System.Int32 timeoutChecksToSkip
+    int& dyn_timeoutChecksToSkip();
     // protected internal System.Text.RegularExpressions.Match Scan(System.Text.RegularExpressions.Regex regex, System.String text, System.Int32 textbeg, System.Int32 textend, System.Int32 textstart, System.Int32 prevlen, System.Boolean quick, System.TimeSpan timeout)
     // Offset: 0x19A0C10
     System::Text::RegularExpressions::Match* Scan(System::Text::RegularExpressions::Regex* regex, ::Il2CppString* text, int textbeg, int textend, int textstart, int prevlen, bool quick, System::TimeSpan timeout);

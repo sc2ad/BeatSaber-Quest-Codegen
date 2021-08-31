@@ -47,10 +47,8 @@ namespace GlobalNamespace {
     static int _get__globalNoiseTextureID();
     // Set static field: static private readonly System.Int32 _globalNoiseTextureID
     static void _set__globalNoiseTextureID(int value);
-    // Get instance field: private UnityEngine.Texture2D _noiseTexture
-    UnityEngine::Texture2D* _get__noiseTexture();
-    // Set instance field: private UnityEngine.Texture2D _noiseTexture
-    void _set__noiseTexture(UnityEngine::Texture2D* value);
+    // Get instance field reference: private UnityEngine.Texture2D _noiseTexture
+    UnityEngine::Texture2D*& dyn__noiseTexture();
     // public System.Void SetBlueNoiseShaderParams(System.Int32 cameraPixelWidth, System.Int32 cameraPixelHeight)
     // Offset: 0x1E15D30
     void SetBlueNoiseShaderParams(int cameraPixelWidth, int cameraPixelHeight);

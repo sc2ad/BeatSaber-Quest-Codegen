@@ -84,22 +84,14 @@ namespace System::Security {
     static ::Array<::Il2CppChar>* _get_invalid_chars();
     // Set static field: static private readonly System.Char[] invalid_chars
     static void _set_invalid_chars(::Array<::Il2CppChar>* value);
-    // Get instance field: private System.String text
-    ::Il2CppString* _get_text();
-    // Set instance field: private System.String text
-    void _set_text(::Il2CppString* value);
-    // Get instance field: private System.String tag
-    ::Il2CppString* _get_tag();
-    // Set instance field: private System.String tag
-    void _set_tag(::Il2CppString* value);
-    // Get instance field: private System.Collections.ArrayList attributes
-    System::Collections::ArrayList* _get_attributes();
-    // Set instance field: private System.Collections.ArrayList attributes
-    void _set_attributes(System::Collections::ArrayList* value);
-    // Get instance field: private System.Collections.ArrayList children
-    System::Collections::ArrayList* _get_children();
-    // Set instance field: private System.Collections.ArrayList children
-    void _set_children(System::Collections::ArrayList* value);
+    // Get instance field reference: private System.String text
+    ::Il2CppString*& dyn_text();
+    // Get instance field reference: private System.String tag
+    ::Il2CppString*& dyn_tag();
+    // Get instance field reference: private System.Collections.ArrayList attributes
+    System::Collections::ArrayList*& dyn_attributes();
+    // Get instance field reference: private System.Collections.ArrayList children
+    System::Collections::ArrayList*& dyn_children();
     // public System.Collections.Hashtable get_Attributes()
     // Offset: 0x1B4CC78
     System::Collections::Hashtable* get_Attributes();

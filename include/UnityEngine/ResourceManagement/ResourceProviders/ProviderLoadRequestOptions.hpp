@@ -30,10 +30,8 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     constexpr operator bool() const noexcept {
       return m_IgnoreFailures;
     }
-    // Get instance field: private System.Boolean m_IgnoreFailures
-    bool _get_m_IgnoreFailures();
-    // Set instance field: private System.Boolean m_IgnoreFailures
-    void _set_m_IgnoreFailures(bool value);
+    // Get instance field reference: private System.Boolean m_IgnoreFailures
+    bool& dyn_m_IgnoreFailures();
     // System.Boolean get_IgnoreFailures()
     // Offset: 0x19F0CDC
     bool get_IgnoreFailures();

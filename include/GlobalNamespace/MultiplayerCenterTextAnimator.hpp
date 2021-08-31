@@ -98,38 +98,22 @@ namespace GlobalNamespace {
     MultiplayerCenterTextAnimator(TMPro::TextMeshPro* text_ = {}, UnityEngine::Transform* scalingTarget_ = {}, Tweening::TweeningManager* tweeningManager_ = {}, Tweening::Tween_1<float>* fadeInTween_ = {}, Tweening::Tween_1<float>* fadeOutTween_ = {}, Tweening::Tween_1<float>* fontSizeTween_ = {}, Tweening::Tween_1<UnityEngine::Color>* colorTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* offsetTween_ = {}) noexcept : text{text_}, scalingTarget{scalingTarget_}, tweeningManager{tweeningManager_}, fadeInTween{fadeInTween_}, fadeOutTween{fadeOutTween_}, fontSizeTween{fontSizeTween_}, colorTween{colorTween_}, offsetTween{offsetTween_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private TMPro.TextMeshPro _text
-    TMPro::TextMeshPro* _get__text();
-    // Set instance field: private TMPro.TextMeshPro _text
-    void _set__text(TMPro::TextMeshPro* value);
-    // Get instance field: private UnityEngine.Transform _scalingTarget
-    UnityEngine::Transform* _get__scalingTarget();
-    // Set instance field: private UnityEngine.Transform _scalingTarget
-    void _set__scalingTarget(UnityEngine::Transform* value);
-    // Get instance field: private readonly Tweening.TweeningManager _tweeningManager
-    Tweening::TweeningManager* _get__tweeningManager();
-    // Set instance field: private readonly Tweening.TweeningManager _tweeningManager
-    void _set__tweeningManager(Tweening::TweeningManager* value);
-    // Get instance field: private Tweening.Tween`1<System.Single> _fadeInTween
-    Tweening::Tween_1<float>* _get__fadeInTween();
-    // Set instance field: private Tweening.Tween`1<System.Single> _fadeInTween
-    void _set__fadeInTween(Tweening::Tween_1<float>* value);
-    // Get instance field: private Tweening.Tween`1<System.Single> _fadeOutTween
-    Tweening::Tween_1<float>* _get__fadeOutTween();
-    // Set instance field: private Tweening.Tween`1<System.Single> _fadeOutTween
-    void _set__fadeOutTween(Tweening::Tween_1<float>* value);
-    // Get instance field: private Tweening.Tween`1<System.Single> _fontSizeTween
-    Tweening::Tween_1<float>* _get__fontSizeTween();
-    // Set instance field: private Tweening.Tween`1<System.Single> _fontSizeTween
-    void _set__fontSizeTween(Tweening::Tween_1<float>* value);
-    // Get instance field: private Tweening.Tween`1<UnityEngine.Color> _colorTween
-    Tweening::Tween_1<UnityEngine::Color>* _get__colorTween();
-    // Set instance field: private Tweening.Tween`1<UnityEngine.Color> _colorTween
-    void _set__colorTween(Tweening::Tween_1<UnityEngine::Color>* value);
-    // Get instance field: private Tweening.Tween`1<UnityEngine.Vector3> _offsetTween
-    Tweening::Tween_1<UnityEngine::Vector3>* _get__offsetTween();
-    // Set instance field: private Tweening.Tween`1<UnityEngine.Vector3> _offsetTween
-    void _set__offsetTween(Tweening::Tween_1<UnityEngine::Vector3>* value);
+    // Get instance field reference: private TMPro.TextMeshPro _text
+    TMPro::TextMeshPro*& dyn__text();
+    // Get instance field reference: private UnityEngine.Transform _scalingTarget
+    UnityEngine::Transform*& dyn__scalingTarget();
+    // Get instance field reference: private readonly Tweening.TweeningManager _tweeningManager
+    Tweening::TweeningManager*& dyn__tweeningManager();
+    // Get instance field reference: private Tweening.Tween`1<System.Single> _fadeInTween
+    Tweening::Tween_1<float>*& dyn__fadeInTween();
+    // Get instance field reference: private Tweening.Tween`1<System.Single> _fadeOutTween
+    Tweening::Tween_1<float>*& dyn__fadeOutTween();
+    // Get instance field reference: private Tweening.Tween`1<System.Single> _fontSizeTween
+    Tweening::Tween_1<float>*& dyn__fontSizeTween();
+    // Get instance field reference: private Tweening.Tween`1<UnityEngine.Color> _colorTween
+    Tweening::Tween_1<UnityEngine::Color>*& dyn__colorTween();
+    // Get instance field reference: private Tweening.Tween`1<UnityEngine.Vector3> _offsetTween
+    Tweening::Tween_1<UnityEngine::Vector3>*& dyn__offsetTween();
     // protected System.Void Awake()
     // Offset: 0x11A4660
     void Awake();

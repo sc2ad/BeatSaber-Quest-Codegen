@@ -90,50 +90,28 @@ namespace GlobalNamespace {
     static_assert(sizeof(int64_t) == 0x8);
     // Creating value type constructor for type: PlayerOverallStatsData
     PlayerOverallStatsData(int goodCutsCount_ = {}, int badCutsCount_ = {}, int missedCutsCount_ = {}, int64_t totalScore_ = {}, int playedLevelsCount_ = {}, int cleardLevelsCount_ = {}, int failedLevelsCount_ = {}, int fullComboCount_ = {}, float timePlayed_ = {}, int handDistanceTravelled_ = {}, int64_t cummulativeCutScoreWithoutMultiplier_ = {}) noexcept : goodCutsCount{goodCutsCount_}, badCutsCount{badCutsCount_}, missedCutsCount{missedCutsCount_}, totalScore{totalScore_}, playedLevelsCount{playedLevelsCount_}, cleardLevelsCount{cleardLevelsCount_}, failedLevelsCount{failedLevelsCount_}, fullComboCount{fullComboCount_}, timePlayed{timePlayed_}, handDistanceTravelled{handDistanceTravelled_}, cummulativeCutScoreWithoutMultiplier{cummulativeCutScoreWithoutMultiplier_} {}
-    // Get instance field: public System.Int32 goodCutsCount
-    int _get_goodCutsCount();
-    // Set instance field: public System.Int32 goodCutsCount
-    void _set_goodCutsCount(int value);
-    // Get instance field: public System.Int32 badCutsCount
-    int _get_badCutsCount();
-    // Set instance field: public System.Int32 badCutsCount
-    void _set_badCutsCount(int value);
-    // Get instance field: public System.Int32 missedCutsCount
-    int _get_missedCutsCount();
-    // Set instance field: public System.Int32 missedCutsCount
-    void _set_missedCutsCount(int value);
-    // Get instance field: public System.Int64 totalScore
-    int64_t _get_totalScore();
-    // Set instance field: public System.Int64 totalScore
-    void _set_totalScore(int64_t value);
-    // Get instance field: public System.Int32 playedLevelsCount
-    int _get_playedLevelsCount();
-    // Set instance field: public System.Int32 playedLevelsCount
-    void _set_playedLevelsCount(int value);
-    // Get instance field: public System.Int32 cleardLevelsCount
-    int _get_cleardLevelsCount();
-    // Set instance field: public System.Int32 cleardLevelsCount
-    void _set_cleardLevelsCount(int value);
-    // Get instance field: public System.Int32 failedLevelsCount
-    int _get_failedLevelsCount();
-    // Set instance field: public System.Int32 failedLevelsCount
-    void _set_failedLevelsCount(int value);
-    // Get instance field: public System.Int32 fullComboCount
-    int _get_fullComboCount();
-    // Set instance field: public System.Int32 fullComboCount
-    void _set_fullComboCount(int value);
-    // Get instance field: public System.Single timePlayed
-    float _get_timePlayed();
-    // Set instance field: public System.Single timePlayed
-    void _set_timePlayed(float value);
-    // Get instance field: public System.Int32 handDistanceTravelled
-    int _get_handDistanceTravelled();
-    // Set instance field: public System.Int32 handDistanceTravelled
-    void _set_handDistanceTravelled(int value);
-    // Get instance field: public System.Int64 cummulativeCutScoreWithoutMultiplier
-    int64_t _get_cummulativeCutScoreWithoutMultiplier();
-    // Set instance field: public System.Int64 cummulativeCutScoreWithoutMultiplier
-    void _set_cummulativeCutScoreWithoutMultiplier(int64_t value);
+    // Get instance field reference: public System.Int32 goodCutsCount
+    int& dyn_goodCutsCount();
+    // Get instance field reference: public System.Int32 badCutsCount
+    int& dyn_badCutsCount();
+    // Get instance field reference: public System.Int32 missedCutsCount
+    int& dyn_missedCutsCount();
+    // Get instance field reference: public System.Int64 totalScore
+    int64_t& dyn_totalScore();
+    // Get instance field reference: public System.Int32 playedLevelsCount
+    int& dyn_playedLevelsCount();
+    // Get instance field reference: public System.Int32 cleardLevelsCount
+    int& dyn_cleardLevelsCount();
+    // Get instance field reference: public System.Int32 failedLevelsCount
+    int& dyn_failedLevelsCount();
+    // Get instance field reference: public System.Int32 fullComboCount
+    int& dyn_fullComboCount();
+    // Get instance field reference: public System.Single timePlayed
+    float& dyn_timePlayed();
+    // Get instance field reference: public System.Int32 handDistanceTravelled
+    int& dyn_handDistanceTravelled();
+    // Get instance field reference: public System.Int64 cummulativeCutScoreWithoutMultiplier
+    int64_t& dyn_cummulativeCutScoreWithoutMultiplier();
     // public System.Void .ctor(System.Int32 goodCutsCount, System.Int32 badCutsCount, System.Int32 missedCutsCount, System.Int64 totalScore, System.Int32 playedLevelsCount, System.Int32 cleardLevelsCount, System.Int32 failedLevelsCount, System.Int32 fullComboCount, System.Single timePlayed, System.Int32 handDistanceTravelled, System.Int64 cummulativeCutScoreWithoutMultiplier)
     // Offset: 0x1139CB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

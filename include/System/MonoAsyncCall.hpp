@@ -59,30 +59,18 @@ namespace System {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     // Creating value type constructor for type: MonoAsyncCall
     MonoAsyncCall(::Il2CppObject* msg_ = {}, System::IntPtr cb_method_ = {}, ::Il2CppObject* cb_target_ = {}, ::Il2CppObject* state_ = {}, ::Il2CppObject* res_ = {}, ::Il2CppObject* out_args_ = {}) noexcept : msg{msg_}, cb_method{cb_method_}, cb_target{cb_target_}, state{state_}, res{res_}, out_args{out_args_} {}
-    // Get instance field: private System.Object msg
-    ::Il2CppObject* _get_msg();
-    // Set instance field: private System.Object msg
-    void _set_msg(::Il2CppObject* value);
-    // Get instance field: private System.IntPtr cb_method
-    System::IntPtr _get_cb_method();
-    // Set instance field: private System.IntPtr cb_method
-    void _set_cb_method(System::IntPtr value);
-    // Get instance field: private System.Object cb_target
-    ::Il2CppObject* _get_cb_target();
-    // Set instance field: private System.Object cb_target
-    void _set_cb_target(::Il2CppObject* value);
-    // Get instance field: private System.Object state
-    ::Il2CppObject* _get_state();
-    // Set instance field: private System.Object state
-    void _set_state(::Il2CppObject* value);
-    // Get instance field: private System.Object res
-    ::Il2CppObject* _get_res();
-    // Set instance field: private System.Object res
-    void _set_res(::Il2CppObject* value);
-    // Get instance field: private System.Object out_args
-    ::Il2CppObject* _get_out_args();
-    // Set instance field: private System.Object out_args
-    void _set_out_args(::Il2CppObject* value);
+    // Get instance field reference: private System.Object msg
+    ::Il2CppObject*& dyn_msg();
+    // Get instance field reference: private System.IntPtr cb_method
+    System::IntPtr& dyn_cb_method();
+    // Get instance field reference: private System.Object cb_target
+    ::Il2CppObject*& dyn_cb_target();
+    // Get instance field reference: private System.Object state
+    ::Il2CppObject*& dyn_state();
+    // Get instance field reference: private System.Object res
+    ::Il2CppObject*& dyn_res();
+    // Get instance field reference: private System.Object out_args
+    ::Il2CppObject*& dyn_out_args();
     // public System.Void .ctor()
     // Offset: 0x18375A0
     // Implemented from: System.Object

@@ -57,10 +57,8 @@ namespace GlobalNamespace {
     constexpr operator System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::PlatformUserAuthTokenData*>*() const noexcept {
       return tcs;
     }
-    // Get instance field: public System.Threading.Tasks.TaskCompletionSource`1<PlatformUserAuthTokenData> tcs
-    System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::PlatformUserAuthTokenData*>* _get_tcs();
-    // Set instance field: public System.Threading.Tasks.TaskCompletionSource`1<PlatformUserAuthTokenData> tcs
-    void _set_tcs(System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::PlatformUserAuthTokenData*>* value);
+    // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<PlatformUserAuthTokenData> tcs
+    System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::PlatformUserAuthTokenData*>*& dyn_tcs();
     // System.Void <GetUserAuthToken>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.UserProof> message)
     // Offset: 0x1023208
     void $GetUserAuthToken$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::UserProof*>* message);

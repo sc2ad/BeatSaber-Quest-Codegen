@@ -35,10 +35,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::SpawnRotationChevron*) == 0x8);
     // Creating value type constructor for type: SpawnChevronObjectPoolsInstaller
     SpawnChevronObjectPoolsInstaller(GlobalNamespace::SpawnRotationChevron* spawnRotationChevronPrefab_ = {}) noexcept : spawnRotationChevronPrefab{spawnRotationChevronPrefab_} {}
-    // Get instance field: private SpawnRotationChevron _spawnRotationChevronPrefab
-    GlobalNamespace::SpawnRotationChevron* _get__spawnRotationChevronPrefab();
-    // Set instance field: private SpawnRotationChevron _spawnRotationChevronPrefab
-    void _set__spawnRotationChevronPrefab(GlobalNamespace::SpawnRotationChevron* value);
+    // Get instance field reference: private SpawnRotationChevron _spawnRotationChevronPrefab
+    GlobalNamespace::SpawnRotationChevron*& dyn__spawnRotationChevronPrefab();
     // public System.Void .ctor()
     // Offset: 0x10827CC
     // Implemented from: Zenject.MonoInstaller

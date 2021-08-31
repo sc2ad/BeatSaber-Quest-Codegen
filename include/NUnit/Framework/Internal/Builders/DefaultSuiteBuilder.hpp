@@ -61,10 +61,8 @@ namespace NUnit::Framework::Internal::Builders {
     constexpr operator NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*() const noexcept {
       return defaultBuilder;
     }
-    // Get instance field: private NUnit.Framework.Internal.Builders.NUnitTestFixtureBuilder _defaultBuilder
-    NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder* _get__defaultBuilder();
-    // Set instance field: private NUnit.Framework.Internal.Builders.NUnitTestFixtureBuilder _defaultBuilder
-    void _set__defaultBuilder(NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder* value);
+    // Get instance field reference: private NUnit.Framework.Internal.Builders.NUnitTestFixtureBuilder _defaultBuilder
+    NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*& dyn__defaultBuilder();
     // public System.Boolean CanBuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
     // Offset: 0x1772210
     bool CanBuildFrom(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);

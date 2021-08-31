@@ -100,42 +100,24 @@ namespace GlobalNamespace {
     ColorSchemeColorsToggleGroup(GlobalNamespace::ColorSchemeColorToggleController* saberAColorToggleController_ = {}, GlobalNamespace::ColorSchemeColorToggleController* saberBColorToggleController_ = {}, GlobalNamespace::ColorSchemeColorToggleController* environmentColor0ToggleController_ = {}, GlobalNamespace::ColorSchemeColorToggleController* environmentColor1ToggleController_ = {}, GlobalNamespace::ColorSchemeColorToggleController* obstaclesColorToggleController_ = {}, System::Action_1<UnityEngine::Color>* selectedColorDidChangeEvent_ = {}, HMUI::ToggleBinder* toggleBinder_ = {}, GlobalNamespace::ColorSchemeColorToggleController* selectedColorToggleController_ = {}, GlobalNamespace::ColorScheme* colorScheme_ = {}) noexcept : saberAColorToggleController{saberAColorToggleController_}, saberBColorToggleController{saberBColorToggleController_}, environmentColor0ToggleController{environmentColor0ToggleController_}, environmentColor1ToggleController{environmentColor1ToggleController_}, obstaclesColorToggleController{obstaclesColorToggleController_}, selectedColorDidChangeEvent{selectedColorDidChangeEvent_}, toggleBinder{toggleBinder_}, selectedColorToggleController{selectedColorToggleController_}, colorScheme{colorScheme_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private ColorSchemeColorToggleController _saberAColorToggleController
-    GlobalNamespace::ColorSchemeColorToggleController* _get__saberAColorToggleController();
-    // Set instance field: private ColorSchemeColorToggleController _saberAColorToggleController
-    void _set__saberAColorToggleController(GlobalNamespace::ColorSchemeColorToggleController* value);
-    // Get instance field: private ColorSchemeColorToggleController _saberBColorToggleController
-    GlobalNamespace::ColorSchemeColorToggleController* _get__saberBColorToggleController();
-    // Set instance field: private ColorSchemeColorToggleController _saberBColorToggleController
-    void _set__saberBColorToggleController(GlobalNamespace::ColorSchemeColorToggleController* value);
-    // Get instance field: private ColorSchemeColorToggleController _environmentColor0ToggleController
-    GlobalNamespace::ColorSchemeColorToggleController* _get__environmentColor0ToggleController();
-    // Set instance field: private ColorSchemeColorToggleController _environmentColor0ToggleController
-    void _set__environmentColor0ToggleController(GlobalNamespace::ColorSchemeColorToggleController* value);
-    // Get instance field: private ColorSchemeColorToggleController _environmentColor1ToggleController
-    GlobalNamespace::ColorSchemeColorToggleController* _get__environmentColor1ToggleController();
-    // Set instance field: private ColorSchemeColorToggleController _environmentColor1ToggleController
-    void _set__environmentColor1ToggleController(GlobalNamespace::ColorSchemeColorToggleController* value);
-    // Get instance field: private ColorSchemeColorToggleController _obstaclesColorToggleController
-    GlobalNamespace::ColorSchemeColorToggleController* _get__obstaclesColorToggleController();
-    // Set instance field: private ColorSchemeColorToggleController _obstaclesColorToggleController
-    void _set__obstaclesColorToggleController(GlobalNamespace::ColorSchemeColorToggleController* value);
-    // Get instance field: private System.Action`1<UnityEngine.Color> selectedColorDidChangeEvent
-    System::Action_1<UnityEngine::Color>* _get_selectedColorDidChangeEvent();
-    // Set instance field: private System.Action`1<UnityEngine.Color> selectedColorDidChangeEvent
-    void _set_selectedColorDidChangeEvent(System::Action_1<UnityEngine::Color>* value);
-    // Get instance field: private HMUI.ToggleBinder _toggleBinder
-    HMUI::ToggleBinder* _get__toggleBinder();
-    // Set instance field: private HMUI.ToggleBinder _toggleBinder
-    void _set__toggleBinder(HMUI::ToggleBinder* value);
-    // Get instance field: private ColorSchemeColorToggleController _selectedColorToggleController
-    GlobalNamespace::ColorSchemeColorToggleController* _get__selectedColorToggleController();
-    // Set instance field: private ColorSchemeColorToggleController _selectedColorToggleController
-    void _set__selectedColorToggleController(GlobalNamespace::ColorSchemeColorToggleController* value);
-    // Get instance field: private ColorScheme _colorScheme
-    GlobalNamespace::ColorScheme* _get__colorScheme();
-    // Set instance field: private ColorScheme _colorScheme
-    void _set__colorScheme(GlobalNamespace::ColorScheme* value);
+    // Get instance field reference: private ColorSchemeColorToggleController _saberAColorToggleController
+    GlobalNamespace::ColorSchemeColorToggleController*& dyn__saberAColorToggleController();
+    // Get instance field reference: private ColorSchemeColorToggleController _saberBColorToggleController
+    GlobalNamespace::ColorSchemeColorToggleController*& dyn__saberBColorToggleController();
+    // Get instance field reference: private ColorSchemeColorToggleController _environmentColor0ToggleController
+    GlobalNamespace::ColorSchemeColorToggleController*& dyn__environmentColor0ToggleController();
+    // Get instance field reference: private ColorSchemeColorToggleController _environmentColor1ToggleController
+    GlobalNamespace::ColorSchemeColorToggleController*& dyn__environmentColor1ToggleController();
+    // Get instance field reference: private ColorSchemeColorToggleController _obstaclesColorToggleController
+    GlobalNamespace::ColorSchemeColorToggleController*& dyn__obstaclesColorToggleController();
+    // Get instance field reference: private System.Action`1<UnityEngine.Color> selectedColorDidChangeEvent
+    System::Action_1<UnityEngine::Color>*& dyn_selectedColorDidChangeEvent();
+    // Get instance field reference: private HMUI.ToggleBinder _toggleBinder
+    HMUI::ToggleBinder*& dyn__toggleBinder();
+    // Get instance field reference: private ColorSchemeColorToggleController _selectedColorToggleController
+    GlobalNamespace::ColorSchemeColorToggleController*& dyn__selectedColorToggleController();
+    // Get instance field reference: private ColorScheme _colorScheme
+    GlobalNamespace::ColorScheme*& dyn__colorScheme();
     // public UnityEngine.Color get_color()
     // Offset: 0x10EEE78
     UnityEngine::Color get_color();

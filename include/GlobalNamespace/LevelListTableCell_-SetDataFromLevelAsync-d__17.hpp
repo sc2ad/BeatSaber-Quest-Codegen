@@ -87,34 +87,20 @@ namespace GlobalNamespace {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
-    // Get instance field: public System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: public System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
-    System::Runtime::CompilerServices::AsyncVoidMethodBuilder _get_$$t__builder();
-    // Set instance field: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
-    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncVoidMethodBuilder value);
-    // Get instance field: public LevelListTableCell <>4__this
-    GlobalNamespace::LevelListTableCell* _get_$$4__this();
-    // Set instance field: public LevelListTableCell <>4__this
-    void _set_$$4__this(GlobalNamespace::LevelListTableCell* value);
-    // Get instance field: public IPreviewBeatmapLevel level
-    GlobalNamespace::IPreviewBeatmapLevel* _get_level();
-    // Set instance field: public IPreviewBeatmapLevel level
-    void _set_level(GlobalNamespace::IPreviewBeatmapLevel* value);
-    // Get instance field: public System.Boolean isFavorite
-    bool _get_isFavorite();
-    // Set instance field: public System.Boolean isFavorite
-    void _set_isFavorite(bool value);
-    // Get instance field: private System.Threading.CancellationToken <cancellationToken>5__2
-    System::Threading::CancellationToken _get_$cancellationToken$5__2();
-    // Set instance field: private System.Threading.CancellationToken <cancellationToken>5__2
-    void _set_$cancellationToken$5__2(System::Threading::CancellationToken value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<UnityEngine.Sprite> <>u__1
-    System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite*> _get_$$u__1();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<UnityEngine.Sprite> <>u__1
-    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite*> value);
+    // Get instance field reference: public System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
+    System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
+    // Get instance field reference: public LevelListTableCell <>4__this
+    GlobalNamespace::LevelListTableCell*& dyn_$$4__this();
+    // Get instance field reference: public IPreviewBeatmapLevel level
+    GlobalNamespace::IPreviewBeatmapLevel*& dyn_level();
+    // Get instance field reference: public System.Boolean isFavorite
+    bool& dyn_isFavorite();
+    // Get instance field reference: private System.Threading.CancellationToken <cancellationToken>5__2
+    System::Threading::CancellationToken& dyn_$cancellationToken$5__2();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<UnityEngine.Sprite> <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite*>& dyn_$$u__1();
     // private System.Void MoveNext()
     // Offset: 0x1152E58
     void MoveNext();

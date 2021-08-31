@@ -117,46 +117,26 @@ namespace Zenject {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
-    // Get instance field: private Zenject.BindingId _bindingId
-    Zenject::BindingId _get__bindingId();
-    // Set instance field: private Zenject.BindingId _bindingId
-    void _set__bindingId(Zenject::BindingId value);
-    // Get instance field: private System.Type _objectType
-    System::Type* _get__objectType();
-    // Set instance field: private System.Type _objectType
-    void _set__objectType(System::Type* value);
-    // Get instance field: private Zenject.InjectContext _parentContext
-    Zenject::InjectContext* _get__parentContext();
-    // Set instance field: private Zenject.InjectContext _parentContext
-    void _set__parentContext(Zenject::InjectContext* value);
-    // Get instance field: private System.Object _objectInstance
-    ::Il2CppObject* _get__objectInstance();
-    // Set instance field: private System.Object _objectInstance
-    void _set__objectInstance(::Il2CppObject* value);
-    // Get instance field: private System.String _memberName
-    ::Il2CppString* _get__memberName();
-    // Set instance field: private System.String _memberName
-    void _set__memberName(::Il2CppString* value);
-    // Get instance field: private System.Boolean _optional
-    bool _get__optional();
-    // Set instance field: private System.Boolean _optional
-    void _set__optional(bool value);
-    // Get instance field: private Zenject.InjectSources _sourceType
-    Zenject::InjectSources _get__sourceType();
-    // Set instance field: private Zenject.InjectSources _sourceType
-    void _set__sourceType(Zenject::InjectSources value);
-    // Get instance field: private System.Object _fallBackValue
-    ::Il2CppObject* _get__fallBackValue();
-    // Set instance field: private System.Object _fallBackValue
-    void _set__fallBackValue(::Il2CppObject* value);
-    // Get instance field: private System.Object _concreteIdentifier
-    ::Il2CppObject* _get__concreteIdentifier();
-    // Set instance field: private System.Object _concreteIdentifier
-    void _set__concreteIdentifier(::Il2CppObject* value);
-    // Get instance field: private Zenject.DiContainer _container
-    Zenject::DiContainer* _get__container();
-    // Set instance field: private Zenject.DiContainer _container
-    void _set__container(Zenject::DiContainer* value);
+    // Get instance field reference: private Zenject.BindingId _bindingId
+    Zenject::BindingId& dyn__bindingId();
+    // Get instance field reference: private System.Type _objectType
+    System::Type*& dyn__objectType();
+    // Get instance field reference: private Zenject.InjectContext _parentContext
+    Zenject::InjectContext*& dyn__parentContext();
+    // Get instance field reference: private System.Object _objectInstance
+    ::Il2CppObject*& dyn__objectInstance();
+    // Get instance field reference: private System.String _memberName
+    ::Il2CppString*& dyn__memberName();
+    // Get instance field reference: private System.Boolean _optional
+    bool& dyn__optional();
+    // Get instance field reference: private Zenject.InjectSources _sourceType
+    Zenject::InjectSources& dyn__sourceType();
+    // Get instance field reference: private System.Object _fallBackValue
+    ::Il2CppObject*& dyn__fallBackValue();
+    // Get instance field reference: private System.Object _concreteIdentifier
+    ::Il2CppObject*& dyn__concreteIdentifier();
+    // Get instance field reference: private Zenject.DiContainer _container
+    Zenject::DiContainer*& dyn__container();
     // public Zenject.BindingId get_BindingId()
     // Offset: 0x1661880
     Zenject::BindingId get_BindingId();

@@ -47,14 +47,10 @@ namespace Zenject::Internal {
     static_assert(sizeof(Zenject::InjectableInfo*) == 0x8);
     // Creating value type constructor for type: InjectParameterInfo
     InjectParameterInfo(System::Reflection::ParameterInfo* ParameterInfo_ = {}, Zenject::InjectableInfo* InjectableInfo_ = {}) noexcept : ParameterInfo{ParameterInfo_}, InjectableInfo{InjectableInfo_} {}
-    // Get instance field: public readonly System.Reflection.ParameterInfo ParameterInfo
-    System::Reflection::ParameterInfo* _get_ParameterInfo();
-    // Set instance field: public readonly System.Reflection.ParameterInfo ParameterInfo
-    void _set_ParameterInfo(System::Reflection::ParameterInfo* value);
-    // Get instance field: public readonly Zenject.InjectableInfo InjectableInfo
-    Zenject::InjectableInfo* _get_InjectableInfo();
-    // Set instance field: public readonly Zenject.InjectableInfo InjectableInfo
-    void _set_InjectableInfo(Zenject::InjectableInfo* value);
+    // Get instance field reference: public readonly System.Reflection.ParameterInfo ParameterInfo
+    System::Reflection::ParameterInfo*& dyn_ParameterInfo();
+    // Get instance field reference: public readonly Zenject.InjectableInfo InjectableInfo
+    Zenject::InjectableInfo*& dyn_InjectableInfo();
     // public System.Void .ctor(System.Reflection.ParameterInfo parameterInfo, Zenject.InjectableInfo injectableInfo)
     // Offset: 0x1665720
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

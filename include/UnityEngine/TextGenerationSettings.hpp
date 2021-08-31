@@ -156,78 +156,42 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public UnityEngine.Font font
-    UnityEngine::Font* _get_font();
-    // Set instance field: public UnityEngine.Font font
-    void _set_font(UnityEngine::Font* value);
-    // Get instance field: public UnityEngine.Color color
-    UnityEngine::Color _get_color();
-    // Set instance field: public UnityEngine.Color color
-    void _set_color(UnityEngine::Color value);
-    // Get instance field: public System.Int32 fontSize
-    int _get_fontSize();
-    // Set instance field: public System.Int32 fontSize
-    void _set_fontSize(int value);
-    // Get instance field: public System.Single lineSpacing
-    float _get_lineSpacing();
-    // Set instance field: public System.Single lineSpacing
-    void _set_lineSpacing(float value);
-    // Get instance field: public System.Boolean richText
-    bool _get_richText();
-    // Set instance field: public System.Boolean richText
-    void _set_richText(bool value);
-    // Get instance field: public System.Single scaleFactor
-    float _get_scaleFactor();
-    // Set instance field: public System.Single scaleFactor
-    void _set_scaleFactor(float value);
-    // Get instance field: public UnityEngine.FontStyle fontStyle
-    UnityEngine::FontStyle _get_fontStyle();
-    // Set instance field: public UnityEngine.FontStyle fontStyle
-    void _set_fontStyle(UnityEngine::FontStyle value);
-    // Get instance field: public UnityEngine.TextAnchor textAnchor
-    UnityEngine::TextAnchor _get_textAnchor();
-    // Set instance field: public UnityEngine.TextAnchor textAnchor
-    void _set_textAnchor(UnityEngine::TextAnchor value);
-    // Get instance field: public System.Boolean alignByGeometry
-    bool _get_alignByGeometry();
-    // Set instance field: public System.Boolean alignByGeometry
-    void _set_alignByGeometry(bool value);
-    // Get instance field: public System.Boolean resizeTextForBestFit
-    bool _get_resizeTextForBestFit();
-    // Set instance field: public System.Boolean resizeTextForBestFit
-    void _set_resizeTextForBestFit(bool value);
-    // Get instance field: public System.Int32 resizeTextMinSize
-    int _get_resizeTextMinSize();
-    // Set instance field: public System.Int32 resizeTextMinSize
-    void _set_resizeTextMinSize(int value);
-    // Get instance field: public System.Int32 resizeTextMaxSize
-    int _get_resizeTextMaxSize();
-    // Set instance field: public System.Int32 resizeTextMaxSize
-    void _set_resizeTextMaxSize(int value);
-    // Get instance field: public System.Boolean updateBounds
-    bool _get_updateBounds();
-    // Set instance field: public System.Boolean updateBounds
-    void _set_updateBounds(bool value);
-    // Get instance field: public UnityEngine.VerticalWrapMode verticalOverflow
-    UnityEngine::VerticalWrapMode _get_verticalOverflow();
-    // Set instance field: public UnityEngine.VerticalWrapMode verticalOverflow
-    void _set_verticalOverflow(UnityEngine::VerticalWrapMode value);
-    // Get instance field: public UnityEngine.HorizontalWrapMode horizontalOverflow
-    UnityEngine::HorizontalWrapMode _get_horizontalOverflow();
-    // Set instance field: public UnityEngine.HorizontalWrapMode horizontalOverflow
-    void _set_horizontalOverflow(UnityEngine::HorizontalWrapMode value);
-    // Get instance field: public UnityEngine.Vector2 generationExtents
-    UnityEngine::Vector2 _get_generationExtents();
-    // Set instance field: public UnityEngine.Vector2 generationExtents
-    void _set_generationExtents(UnityEngine::Vector2 value);
-    // Get instance field: public UnityEngine.Vector2 pivot
-    UnityEngine::Vector2 _get_pivot();
-    // Set instance field: public UnityEngine.Vector2 pivot
-    void _set_pivot(UnityEngine::Vector2 value);
-    // Get instance field: public System.Boolean generateOutOfBounds
-    bool _get_generateOutOfBounds();
-    // Set instance field: public System.Boolean generateOutOfBounds
-    void _set_generateOutOfBounds(bool value);
+    // Get instance field reference: public UnityEngine.Font font
+    UnityEngine::Font*& dyn_font();
+    // Get instance field reference: public UnityEngine.Color color
+    UnityEngine::Color& dyn_color();
+    // Get instance field reference: public System.Int32 fontSize
+    int& dyn_fontSize();
+    // Get instance field reference: public System.Single lineSpacing
+    float& dyn_lineSpacing();
+    // Get instance field reference: public System.Boolean richText
+    bool& dyn_richText();
+    // Get instance field reference: public System.Single scaleFactor
+    float& dyn_scaleFactor();
+    // Get instance field reference: public UnityEngine.FontStyle fontStyle
+    UnityEngine::FontStyle& dyn_fontStyle();
+    // Get instance field reference: public UnityEngine.TextAnchor textAnchor
+    UnityEngine::TextAnchor& dyn_textAnchor();
+    // Get instance field reference: public System.Boolean alignByGeometry
+    bool& dyn_alignByGeometry();
+    // Get instance field reference: public System.Boolean resizeTextForBestFit
+    bool& dyn_resizeTextForBestFit();
+    // Get instance field reference: public System.Int32 resizeTextMinSize
+    int& dyn_resizeTextMinSize();
+    // Get instance field reference: public System.Int32 resizeTextMaxSize
+    int& dyn_resizeTextMaxSize();
+    // Get instance field reference: public System.Boolean updateBounds
+    bool& dyn_updateBounds();
+    // Get instance field reference: public UnityEngine.VerticalWrapMode verticalOverflow
+    UnityEngine::VerticalWrapMode& dyn_verticalOverflow();
+    // Get instance field reference: public UnityEngine.HorizontalWrapMode horizontalOverflow
+    UnityEngine::HorizontalWrapMode& dyn_horizontalOverflow();
+    // Get instance field reference: public UnityEngine.Vector2 generationExtents
+    UnityEngine::Vector2& dyn_generationExtents();
+    // Get instance field reference: public UnityEngine.Vector2 pivot
+    UnityEngine::Vector2& dyn_pivot();
+    // Get instance field reference: public System.Boolean generateOutOfBounds
+    bool& dyn_generateOutOfBounds();
     // private System.Boolean CompareColors(UnityEngine.Color left, UnityEngine.Color right)
     // Offset: 0x24131EC
     bool CompareColors(UnityEngine::Color left, UnityEngine::Color right);

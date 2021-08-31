@@ -57,22 +57,14 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: TriangulationPoint
     TriangulationPoint(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* Edges_ = {}, double X_ = {}, double Y_ = {}, int Index_ = {}) noexcept : Edges{Edges_}, X{X_}, Y{Y_}, Index{Index_} {}
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint> <Edges>k__BackingField
-    System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* _get_$Edges$k__BackingField();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint> <Edges>k__BackingField
-    void _set_$Edges$k__BackingField(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* value);
-    // Get instance field: public System.Double X
-    double _get_X();
-    // Set instance field: public System.Double X
-    void _set_X(double value);
-    // Get instance field: public System.Double Y
-    double _get_Y();
-    // Set instance field: public System.Double Y
-    void _set_Y(double value);
-    // Get instance field: public System.Int32 Index
-    int _get_Index();
-    // Set instance field: public System.Int32 Index
-    void _set_Index(int value);
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint> <Edges>k__BackingField
+    System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>*& dyn_$Edges$k__BackingField();
+    // Get instance field reference: public System.Double X
+    double& dyn_X();
+    // Get instance field reference: public System.Double Y
+    double& dyn_Y();
+    // Get instance field reference: public System.Int32 Index
+    int& dyn_Index();
     // public System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint> get_Edges()
     // Offset: 0x23C47B8
     System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* get_Edges();

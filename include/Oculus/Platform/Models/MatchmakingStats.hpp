@@ -60,30 +60,18 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(uint) == 0x4);
     // Creating value type constructor for type: MatchmakingStats
     MatchmakingStats(uint DrawCount_ = {}, uint LossCount_ = {}, uint SkillLevel_ = {}, double SkillMean_ = {}, double SkillStandardDeviation_ = {}, uint WinCount_ = {}) noexcept : DrawCount{DrawCount_}, LossCount{LossCount_}, SkillLevel{SkillLevel_}, SkillMean{SkillMean_}, SkillStandardDeviation{SkillStandardDeviation_}, WinCount{WinCount_} {}
-    // Get instance field: public readonly System.UInt32 DrawCount
-    uint _get_DrawCount();
-    // Set instance field: public readonly System.UInt32 DrawCount
-    void _set_DrawCount(uint value);
-    // Get instance field: public readonly System.UInt32 LossCount
-    uint _get_LossCount();
-    // Set instance field: public readonly System.UInt32 LossCount
-    void _set_LossCount(uint value);
-    // Get instance field: public readonly System.UInt32 SkillLevel
-    uint _get_SkillLevel();
-    // Set instance field: public readonly System.UInt32 SkillLevel
-    void _set_SkillLevel(uint value);
-    // Get instance field: public readonly System.Double SkillMean
-    double _get_SkillMean();
-    // Set instance field: public readonly System.Double SkillMean
-    void _set_SkillMean(double value);
-    // Get instance field: public readonly System.Double SkillStandardDeviation
-    double _get_SkillStandardDeviation();
-    // Set instance field: public readonly System.Double SkillStandardDeviation
-    void _set_SkillStandardDeviation(double value);
-    // Get instance field: public readonly System.UInt32 WinCount
-    uint _get_WinCount();
-    // Set instance field: public readonly System.UInt32 WinCount
-    void _set_WinCount(uint value);
+    // Get instance field reference: public readonly System.UInt32 DrawCount
+    uint& dyn_DrawCount();
+    // Get instance field reference: public readonly System.UInt32 LossCount
+    uint& dyn_LossCount();
+    // Get instance field reference: public readonly System.UInt32 SkillLevel
+    uint& dyn_SkillLevel();
+    // Get instance field reference: public readonly System.Double SkillMean
+    double& dyn_SkillMean();
+    // Get instance field reference: public readonly System.Double SkillStandardDeviation
+    double& dyn_SkillStandardDeviation();
+    // Get instance field reference: public readonly System.UInt32 WinCount
+    uint& dyn_WinCount();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14ED14C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

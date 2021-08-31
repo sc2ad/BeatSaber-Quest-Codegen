@@ -54,26 +54,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*>*) == 0x8);
     // Creating value type constructor for type: LevelPackProductData
     LevelPackProductData(::Il2CppString* productLabel_ = {}, ::Il2CppString* categoryLabel_ = {}, ::Il2CppString* packId_ = {}, float packLevelPriceDiscountMul_ = {}, ::Array<GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*>* levelProductsData_ = {}) noexcept : productLabel{productLabel_}, categoryLabel{categoryLabel_}, packId{packId_}, packLevelPriceDiscountMul{packLevelPriceDiscountMul_}, levelProductsData{levelProductsData_} {}
-    // Get instance field: private System.String _productLabel
-    ::Il2CppString* _get__productLabel();
-    // Set instance field: private System.String _productLabel
-    void _set__productLabel(::Il2CppString* value);
-    // Get instance field: private System.String _categoryLabel
-    ::Il2CppString* _get__categoryLabel();
-    // Set instance field: private System.String _categoryLabel
-    void _set__categoryLabel(::Il2CppString* value);
-    // Get instance field: private System.String _packId
-    ::Il2CppString* _get__packId();
-    // Set instance field: private System.String _packId
-    void _set__packId(::Il2CppString* value);
-    // Get instance field: private System.Single _packLevelPriceDiscountMul
-    float _get__packLevelPriceDiscountMul();
-    // Set instance field: private System.Single _packLevelPriceDiscountMul
-    void _set__packLevelPriceDiscountMul(float value);
-    // Get instance field: private PS4LevelProductsModelSO/LevelProductData[] _levelProductsData
-    ::Array<GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*>* _get__levelProductsData();
-    // Set instance field: private PS4LevelProductsModelSO/LevelProductData[] _levelProductsData
-    void _set__levelProductsData(::Array<GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*>* value);
+    // Get instance field reference: private System.String _productLabel
+    ::Il2CppString*& dyn__productLabel();
+    // Get instance field reference: private System.String _categoryLabel
+    ::Il2CppString*& dyn__categoryLabel();
+    // Get instance field reference: private System.String _packId
+    ::Il2CppString*& dyn__packId();
+    // Get instance field reference: private System.Single _packLevelPriceDiscountMul
+    float& dyn__packLevelPriceDiscountMul();
+    // Get instance field reference: private PS4LevelProductsModelSO/LevelProductData[] _levelProductsData
+    ::Array<GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*>*& dyn__levelProductsData();
     // public System.String get_productLabel()
     // Offset: 0x102E4C4
     ::Il2CppString* get_productLabel();

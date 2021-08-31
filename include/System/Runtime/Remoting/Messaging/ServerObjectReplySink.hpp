@@ -52,14 +52,10 @@ namespace System::Runtime::Remoting::Messaging {
     operator System::Runtime::Remoting::Messaging::IMessageSink() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Messaging::IMessageSink*>(this);
     }
-    // Get instance field: private System.Runtime.Remoting.Messaging.IMessageSink _replySink
-    System::Runtime::Remoting::Messaging::IMessageSink* _get__replySink();
-    // Set instance field: private System.Runtime.Remoting.Messaging.IMessageSink _replySink
-    void _set__replySink(System::Runtime::Remoting::Messaging::IMessageSink* value);
-    // Get instance field: private System.Runtime.Remoting.ServerIdentity _identity
-    System::Runtime::Remoting::ServerIdentity* _get__identity();
-    // Set instance field: private System.Runtime.Remoting.ServerIdentity _identity
-    void _set__identity(System::Runtime::Remoting::ServerIdentity* value);
+    // Get instance field reference: private System.Runtime.Remoting.Messaging.IMessageSink _replySink
+    System::Runtime::Remoting::Messaging::IMessageSink*& dyn__replySink();
+    // Get instance field reference: private System.Runtime.Remoting.ServerIdentity _identity
+    System::Runtime::Remoting::ServerIdentity*& dyn__identity();
     // public System.Void .ctor(System.Runtime.Remoting.ServerIdentity identity, System.Runtime.Remoting.Messaging.IMessageSink replySink)
     // Offset: 0x1A530AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

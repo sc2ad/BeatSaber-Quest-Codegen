@@ -44,10 +44,8 @@ namespace Zenject {
     constexpr operator System::Type*() const noexcept {
       return type;
     }
-    // Get instance field: public System.Type type
-    System::Type* _get_type();
-    // Set instance field: public System.Type type
-    void _set_type(System::Type* value);
+    // Get instance field reference: public System.Type type
+    System::Type*& dyn_type();
     // Zenject.InjectTypeInfo/Zenject.InjectMemberInfo <CreateTypeInfoFromReflection>b__0(Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectFieldInfo x)
     // Offset: 0x23E6CF0
     Zenject::InjectTypeInfo::InjectMemberInfo* $CreateTypeInfoFromReflection$b__0(Zenject::Internal::ReflectionTypeInfo::InjectFieldInfo* x);

@@ -62,14 +62,10 @@ namespace Zenject {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: InitializableManager
     InitializableManager(System::Collections::Generic::List_1<Zenject::InitializableManager::InitializableInfo*>* initializables_ = {}, bool hasInitialized_ = {}) noexcept : initializables{initializables_}, hasInitialized{hasInitialized_} {}
-    // Get instance field: private System.Collections.Generic.List`1<Zenject.InitializableManager/Zenject.InitializableInfo> _initializables
-    System::Collections::Generic::List_1<Zenject::InitializableManager::InitializableInfo*>* _get__initializables();
-    // Set instance field: private System.Collections.Generic.List`1<Zenject.InitializableManager/Zenject.InitializableInfo> _initializables
-    void _set__initializables(System::Collections::Generic::List_1<Zenject::InitializableManager::InitializableInfo*>* value);
-    // Get instance field: private System.Boolean _hasInitialized
-    bool _get__hasInitialized();
-    // Set instance field: private System.Boolean _hasInitialized
-    void _set__hasInitialized(bool value);
+    // Get instance field reference: private System.Collections.Generic.List`1<Zenject.InitializableManager/Zenject.InitializableInfo> _initializables
+    System::Collections::Generic::List_1<Zenject::InitializableManager::InitializableInfo*>*& dyn__initializables();
+    // Get instance field reference: private System.Boolean _hasInitialized
+    bool& dyn__hasInitialized();
     // public System.Void .ctor(System.Collections.Generic.List`1<Zenject.IInitializable> initializables, System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities)
     // Offset: 0x1660DB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

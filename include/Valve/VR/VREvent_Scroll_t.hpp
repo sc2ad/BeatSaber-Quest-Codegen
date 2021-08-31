@@ -40,18 +40,12 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Single xdelta
-    float _get_xdelta();
-    // Set instance field: public System.Single xdelta
-    void _set_xdelta(float value);
-    // Get instance field: public System.Single ydelta
-    float _get_ydelta();
-    // Set instance field: public System.Single ydelta
-    void _set_ydelta(float value);
-    // Get instance field: public System.UInt32 repeatCount
-    uint _get_repeatCount();
-    // Set instance field: public System.UInt32 repeatCount
-    void _set_repeatCount(uint value);
+    // Get instance field reference: public System.Single xdelta
+    float& dyn_xdelta();
+    // Get instance field reference: public System.Single ydelta
+    float& dyn_ydelta();
+    // Get instance field reference: public System.UInt32 repeatCount
+    uint& dyn_repeatCount();
   }; // Valve.VR.VREvent_Scroll_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Scroll_t), 8 + sizeof(uint)> __Valve_VR_VREvent_Scroll_tSizeCheck;

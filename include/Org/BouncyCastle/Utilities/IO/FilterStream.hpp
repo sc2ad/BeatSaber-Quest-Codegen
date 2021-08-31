@@ -35,10 +35,8 @@ namespace Org::BouncyCastle::Utilities::IO {
     static_assert(sizeof(System::IO::Stream*) == 0x8);
     // Creating value type constructor for type: FilterStream
     FilterStream(System::IO::Stream* s_ = {}) noexcept : s{s_} {}
-    // Get instance field: protected readonly System.IO.Stream s
-    System::IO::Stream* _get_s();
-    // Set instance field: protected readonly System.IO.Stream s
-    void _set_s(System::IO::Stream* value);
+    // Get instance field reference: protected readonly System.IO.Stream s
+    System::IO::Stream*& dyn_s();
     // public System.Void .ctor(System.IO.Stream s)
     // Offset: 0x1FED540
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

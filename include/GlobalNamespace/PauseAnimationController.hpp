@@ -48,14 +48,10 @@ namespace GlobalNamespace {
     PauseAnimationController(UnityEngine::Animator* animator_ = {}, System::Action* resumeFromPauseAnimationDidFinishEvent_ = {}) noexcept : animator{animator_}, resumeFromPauseAnimationDidFinishEvent{resumeFromPauseAnimationDidFinishEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.Animator _animator
-    UnityEngine::Animator* _get__animator();
-    // Set instance field: private UnityEngine.Animator _animator
-    void _set__animator(UnityEngine::Animator* value);
-    // Get instance field: private System.Action resumeFromPauseAnimationDidFinishEvent
-    System::Action* _get_resumeFromPauseAnimationDidFinishEvent();
-    // Set instance field: private System.Action resumeFromPauseAnimationDidFinishEvent
-    void _set_resumeFromPauseAnimationDidFinishEvent(System::Action* value);
+    // Get instance field reference: private UnityEngine.Animator _animator
+    UnityEngine::Animator*& dyn__animator();
+    // Get instance field reference: private System.Action resumeFromPauseAnimationDidFinishEvent
+    System::Action*& dyn_resumeFromPauseAnimationDidFinishEvent();
     // public System.Void add_resumeFromPauseAnimationDidFinishEvent(System.Action value)
     // Offset: 0x1031244
     void add_resumeFromPauseAnimationDidFinishEvent(System::Action* value);

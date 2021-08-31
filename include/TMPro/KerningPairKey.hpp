@@ -44,18 +44,12 @@ namespace TMPro {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.UInt32 ascii_Left
-    uint _get_ascii_Left();
-    // Set instance field: public System.UInt32 ascii_Left
-    void _set_ascii_Left(uint value);
-    // Get instance field: public System.UInt32 ascii_Right
-    uint _get_ascii_Right();
-    // Set instance field: public System.UInt32 ascii_Right
-    void _set_ascii_Right(uint value);
-    // Get instance field: public System.UInt32 key
-    uint _get_key();
-    // Set instance field: public System.UInt32 key
-    void _set_key(uint value);
+    // Get instance field reference: public System.UInt32 ascii_Left
+    uint& dyn_ascii_Left();
+    // Get instance field reference: public System.UInt32 ascii_Right
+    uint& dyn_ascii_Right();
+    // Get instance field reference: public System.UInt32 key
+    uint& dyn_key();
     // public System.Void .ctor(System.UInt32 ascii_left, System.UInt32 ascii_right)
     // Offset: 0x11150D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -44,22 +44,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: GameServerListItem
     GameServerListItem(::Il2CppString* serverName_ = {}, int capacity_ = {}, int occupied_ = {}, bool password_ = {}) noexcept : serverName{serverName_}, capacity{capacity_}, occupied{occupied_}, password{password_} {}
-    // Get instance field: public readonly System.String serverName
-    ::Il2CppString* _get_serverName();
-    // Set instance field: public readonly System.String serverName
-    void _set_serverName(::Il2CppString* value);
-    // Get instance field: public readonly System.Int32 capacity
-    int _get_capacity();
-    // Set instance field: public readonly System.Int32 capacity
-    void _set_capacity(int value);
-    // Get instance field: public readonly System.Int32 occupied
-    int _get_occupied();
-    // Set instance field: public readonly System.Int32 occupied
-    void _set_occupied(int value);
-    // Get instance field: public readonly System.Boolean password
-    bool _get_password();
-    // Set instance field: public readonly System.Boolean password
-    void _set_password(bool value);
+    // Get instance field reference: public readonly System.String serverName
+    ::Il2CppString*& dyn_serverName();
+    // Get instance field reference: public readonly System.Int32 capacity
+    int& dyn_capacity();
+    // Get instance field reference: public readonly System.Int32 occupied
+    int& dyn_occupied();
+    // Get instance field reference: public readonly System.Boolean password
+    bool& dyn_password();
     // public System.Void .ctor(System.String serverName, System.Int32 capacity, System.Int32 occupied, System.Boolean password)
     // Offset: 0x10FF3FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

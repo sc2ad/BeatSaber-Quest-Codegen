@@ -102,38 +102,22 @@ namespace System::Runtime::Remoting::Lifetime {
     }
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
-    // Get instance field: private System.DateTime _leaseExpireTime
-    System::DateTime _get__leaseExpireTime();
-    // Set instance field: private System.DateTime _leaseExpireTime
-    void _set__leaseExpireTime(System::DateTime value);
-    // Get instance field: private System.Runtime.Remoting.Lifetime.LeaseState _currentState
-    System::Runtime::Remoting::Lifetime::LeaseState _get__currentState();
-    // Set instance field: private System.Runtime.Remoting.Lifetime.LeaseState _currentState
-    void _set__currentState(System::Runtime::Remoting::Lifetime::LeaseState value);
-    // Get instance field: private System.TimeSpan _initialLeaseTime
-    System::TimeSpan _get__initialLeaseTime();
-    // Set instance field: private System.TimeSpan _initialLeaseTime
-    void _set__initialLeaseTime(System::TimeSpan value);
-    // Get instance field: private System.TimeSpan _renewOnCallTime
-    System::TimeSpan _get__renewOnCallTime();
-    // Set instance field: private System.TimeSpan _renewOnCallTime
-    void _set__renewOnCallTime(System::TimeSpan value);
-    // Get instance field: private System.TimeSpan _sponsorshipTimeout
-    System::TimeSpan _get__sponsorshipTimeout();
-    // Set instance field: private System.TimeSpan _sponsorshipTimeout
-    void _set__sponsorshipTimeout(System::TimeSpan value);
-    // Get instance field: private System.Collections.ArrayList _sponsors
-    System::Collections::ArrayList* _get__sponsors();
-    // Set instance field: private System.Collections.ArrayList _sponsors
-    void _set__sponsors(System::Collections::ArrayList* value);
-    // Get instance field: private System.Collections.Queue _renewingSponsors
-    System::Collections::Queue* _get__renewingSponsors();
-    // Set instance field: private System.Collections.Queue _renewingSponsors
-    void _set__renewingSponsors(System::Collections::Queue* value);
-    // Get instance field: private System.Runtime.Remoting.Lifetime.Lease/System.Runtime.Remoting.Lifetime.RenewalDelegate _renewalDelegate
-    System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate* _get__renewalDelegate();
-    // Set instance field: private System.Runtime.Remoting.Lifetime.Lease/System.Runtime.Remoting.Lifetime.RenewalDelegate _renewalDelegate
-    void _set__renewalDelegate(System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate* value);
+    // Get instance field reference: private System.DateTime _leaseExpireTime
+    System::DateTime& dyn__leaseExpireTime();
+    // Get instance field reference: private System.Runtime.Remoting.Lifetime.LeaseState _currentState
+    System::Runtime::Remoting::Lifetime::LeaseState& dyn__currentState();
+    // Get instance field reference: private System.TimeSpan _initialLeaseTime
+    System::TimeSpan& dyn__initialLeaseTime();
+    // Get instance field reference: private System.TimeSpan _renewOnCallTime
+    System::TimeSpan& dyn__renewOnCallTime();
+    // Get instance field reference: private System.TimeSpan _sponsorshipTimeout
+    System::TimeSpan& dyn__sponsorshipTimeout();
+    // Get instance field reference: private System.Collections.ArrayList _sponsors
+    System::Collections::ArrayList*& dyn__sponsors();
+    // Get instance field reference: private System.Collections.Queue _renewingSponsors
+    System::Collections::Queue*& dyn__renewingSponsors();
+    // Get instance field reference: private System.Runtime.Remoting.Lifetime.Lease/System.Runtime.Remoting.Lifetime.RenewalDelegate _renewalDelegate
+    System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate*& dyn__renewalDelegate();
     // public System.TimeSpan get_CurrentLeaseTime()
     // Offset: 0x1A438BC
     System::TimeSpan get_CurrentLeaseTime();

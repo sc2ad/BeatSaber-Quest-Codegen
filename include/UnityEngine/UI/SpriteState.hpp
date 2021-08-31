@@ -60,22 +60,14 @@ namespace UnityEngine::UI {
     operator System::IEquatable_1<UnityEngine::UI::SpriteState>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::UI::SpriteState>*>(this);
     }
-    // Get instance field: private UnityEngine.Sprite m_HighlightedSprite
-    UnityEngine::Sprite* _get_m_HighlightedSprite();
-    // Set instance field: private UnityEngine.Sprite m_HighlightedSprite
-    void _set_m_HighlightedSprite(UnityEngine::Sprite* value);
-    // Get instance field: private UnityEngine.Sprite m_PressedSprite
-    UnityEngine::Sprite* _get_m_PressedSprite();
-    // Set instance field: private UnityEngine.Sprite m_PressedSprite
-    void _set_m_PressedSprite(UnityEngine::Sprite* value);
-    // Get instance field: private UnityEngine.Sprite m_SelectedSprite
-    UnityEngine::Sprite* _get_m_SelectedSprite();
-    // Set instance field: private UnityEngine.Sprite m_SelectedSprite
-    void _set_m_SelectedSprite(UnityEngine::Sprite* value);
-    // Get instance field: private UnityEngine.Sprite m_DisabledSprite
-    UnityEngine::Sprite* _get_m_DisabledSprite();
-    // Set instance field: private UnityEngine.Sprite m_DisabledSprite
-    void _set_m_DisabledSprite(UnityEngine::Sprite* value);
+    // Get instance field reference: private UnityEngine.Sprite m_HighlightedSprite
+    UnityEngine::Sprite*& dyn_m_HighlightedSprite();
+    // Get instance field reference: private UnityEngine.Sprite m_PressedSprite
+    UnityEngine::Sprite*& dyn_m_PressedSprite();
+    // Get instance field reference: private UnityEngine.Sprite m_SelectedSprite
+    UnityEngine::Sprite*& dyn_m_SelectedSprite();
+    // Get instance field reference: private UnityEngine.Sprite m_DisabledSprite
+    UnityEngine::Sprite*& dyn_m_DisabledSprite();
     // public UnityEngine.Sprite get_highlightedSprite()
     // Offset: 0x23C4A2C
     UnityEngine::Sprite* get_highlightedSprite();

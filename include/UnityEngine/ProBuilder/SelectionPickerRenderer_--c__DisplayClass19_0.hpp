@@ -44,14 +44,10 @@ namespace UnityEngine::ProBuilder {
     static_assert(sizeof(::Array<UnityEngine::ProBuilder::SharedVertex*>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass19_0
     $$c__DisplayClass19_0(::Array<UnityEngine::Vector3>* positions_ = {}, ::Array<UnityEngine::ProBuilder::SharedVertex*>* sharedVertices_ = {}) noexcept : positions{positions_}, sharedVertices{sharedVertices_} {}
-    // Get instance field: public UnityEngine.Vector3[] positions
-    ::Array<UnityEngine::Vector3>* _get_positions();
-    // Set instance field: public UnityEngine.Vector3[] positions
-    void _set_positions(::Array<UnityEngine::Vector3>* value);
-    // Get instance field: public UnityEngine.ProBuilder.SharedVertex[] sharedVertices
-    ::Array<UnityEngine::ProBuilder::SharedVertex*>* _get_sharedVertices();
-    // Set instance field: public UnityEngine.ProBuilder.SharedVertex[] sharedVertices
-    void _set_sharedVertices(::Array<UnityEngine::ProBuilder::SharedVertex*>* value);
+    // Get instance field reference: public UnityEngine.Vector3[] positions
+    ::Array<UnityEngine::Vector3>*& dyn_positions();
+    // Get instance field reference: public UnityEngine.ProBuilder.SharedVertex[] sharedVertices
+    ::Array<UnityEngine::ProBuilder::SharedVertex*>*& dyn_sharedVertices();
     // System.Int32 <PickVerticesInRect>b__0(System.Int32 x)
     // Offset: 0x1524728
     int $PickVerticesInRect$b__0(int x);

@@ -232,106 +232,56 @@ namespace UnityEngine::EventSystems {
     static_assert(sizeof(UnityEngine::EventSystems::PointerInputModule::MouseState*) == 0x8);
     // Creating value type constructor for type: OVRInputModule
     OVRInputModule(UnityEngine::Transform* rayTransform_ = {}, GlobalNamespace::OVRCursor* m_Cursor_ = {}, GlobalNamespace::OVRInput::Button joyPadClickButton_ = {}, UnityEngine::KeyCode gazeClickKey_ = {}, bool performSphereCastForGazepointer_ = {}, bool useRightStickScroll_ = {}, float rightStickDeadZone_ = {}, bool useSwipeScroll_ = {}, float swipeDragThreshold_ = {}, float swipeDragScale_ = {}, bool InvertSwipeXAxis_ = {}, GlobalNamespace::OVRRaycaster* activeGraphicRaycaster_ = {}, float angleDragThreshold_ = {}, float m_SpherecastRadius_ = {}, float m_NextAction_ = {}, UnityEngine::Vector2 m_LastMousePosition_ = {}, UnityEngine::Vector2 m_MousePosition_ = {}, ::Il2CppString* m_HorizontalAxis_ = {}, ::Il2CppString* m_VerticalAxis_ = {}, ::Il2CppString* m_SubmitButton_ = {}, ::Il2CppString* m_CancelButton_ = {}, float m_InputActionsPerSecond_ = {}, bool m_AllowActivationOnMobileDevice_ = {}, System::Collections::Generic::Dictionary_2<int, UnityEngine::EventSystems::OVRPointerEventData*>* m_VRRayPointerData_ = {}, UnityEngine::EventSystems::PointerInputModule::MouseState* m_MouseState_ = {}) noexcept : rayTransform{rayTransform_}, m_Cursor{m_Cursor_}, joyPadClickButton{joyPadClickButton_}, gazeClickKey{gazeClickKey_}, performSphereCastForGazepointer{performSphereCastForGazepointer_}, useRightStickScroll{useRightStickScroll_}, rightStickDeadZone{rightStickDeadZone_}, useSwipeScroll{useSwipeScroll_}, swipeDragThreshold{swipeDragThreshold_}, swipeDragScale{swipeDragScale_}, InvertSwipeXAxis{InvertSwipeXAxis_}, activeGraphicRaycaster{activeGraphicRaycaster_}, angleDragThreshold{angleDragThreshold_}, m_SpherecastRadius{m_SpherecastRadius_}, m_NextAction{m_NextAction_}, m_LastMousePosition{m_LastMousePosition_}, m_MousePosition{m_MousePosition_}, m_HorizontalAxis{m_HorizontalAxis_}, m_VerticalAxis{m_VerticalAxis_}, m_SubmitButton{m_SubmitButton_}, m_CancelButton{m_CancelButton_}, m_InputActionsPerSecond{m_InputActionsPerSecond_}, m_AllowActivationOnMobileDevice{m_AllowActivationOnMobileDevice_}, m_VRRayPointerData{m_VRRayPointerData_}, m_MouseState{m_MouseState_} {}
-    // Get instance field: public UnityEngine.Transform rayTransform
-    UnityEngine::Transform* _get_rayTransform();
-    // Set instance field: public UnityEngine.Transform rayTransform
-    void _set_rayTransform(UnityEngine::Transform* value);
-    // Get instance field: public OVRCursor m_Cursor
-    GlobalNamespace::OVRCursor* _get_m_Cursor();
-    // Set instance field: public OVRCursor m_Cursor
-    void _set_m_Cursor(GlobalNamespace::OVRCursor* value);
-    // Get instance field: public OVRInput/Button joyPadClickButton
-    GlobalNamespace::OVRInput::Button _get_joyPadClickButton();
-    // Set instance field: public OVRInput/Button joyPadClickButton
-    void _set_joyPadClickButton(GlobalNamespace::OVRInput::Button value);
-    // Get instance field: public UnityEngine.KeyCode gazeClickKey
-    UnityEngine::KeyCode _get_gazeClickKey();
-    // Set instance field: public UnityEngine.KeyCode gazeClickKey
-    void _set_gazeClickKey(UnityEngine::KeyCode value);
-    // Get instance field: public System.Boolean performSphereCastForGazepointer
-    bool _get_performSphereCastForGazepointer();
-    // Set instance field: public System.Boolean performSphereCastForGazepointer
-    void _set_performSphereCastForGazepointer(bool value);
-    // Get instance field: public System.Boolean useRightStickScroll
-    bool _get_useRightStickScroll();
-    // Set instance field: public System.Boolean useRightStickScroll
-    void _set_useRightStickScroll(bool value);
-    // Get instance field: public System.Single rightStickDeadZone
-    float _get_rightStickDeadZone();
-    // Set instance field: public System.Single rightStickDeadZone
-    void _set_rightStickDeadZone(float value);
-    // Get instance field: public System.Boolean useSwipeScroll
-    bool _get_useSwipeScroll();
-    // Set instance field: public System.Boolean useSwipeScroll
-    void _set_useSwipeScroll(bool value);
-    // Get instance field: public System.Single swipeDragThreshold
-    float _get_swipeDragThreshold();
-    // Set instance field: public System.Single swipeDragThreshold
-    void _set_swipeDragThreshold(float value);
-    // Get instance field: public System.Single swipeDragScale
-    float _get_swipeDragScale();
-    // Set instance field: public System.Single swipeDragScale
-    void _set_swipeDragScale(float value);
-    // Get instance field: public System.Boolean InvertSwipeXAxis
-    bool _get_InvertSwipeXAxis();
-    // Set instance field: public System.Boolean InvertSwipeXAxis
-    void _set_InvertSwipeXAxis(bool value);
-    // Get instance field: public OVRRaycaster activeGraphicRaycaster
-    GlobalNamespace::OVRRaycaster* _get_activeGraphicRaycaster();
-    // Set instance field: public OVRRaycaster activeGraphicRaycaster
-    void _set_activeGraphicRaycaster(GlobalNamespace::OVRRaycaster* value);
-    // Get instance field: public System.Single angleDragThreshold
-    float _get_angleDragThreshold();
-    // Set instance field: public System.Single angleDragThreshold
-    void _set_angleDragThreshold(float value);
-    // Get instance field: private System.Single m_SpherecastRadius
-    float _get_m_SpherecastRadius();
-    // Set instance field: private System.Single m_SpherecastRadius
-    void _set_m_SpherecastRadius(float value);
-    // Get instance field: private System.Single m_NextAction
-    float _get_m_NextAction();
-    // Set instance field: private System.Single m_NextAction
-    void _set_m_NextAction(float value);
-    // Get instance field: private UnityEngine.Vector2 m_LastMousePosition
-    UnityEngine::Vector2 _get_m_LastMousePosition();
-    // Set instance field: private UnityEngine.Vector2 m_LastMousePosition
-    void _set_m_LastMousePosition(UnityEngine::Vector2 value);
-    // Get instance field: private UnityEngine.Vector2 m_MousePosition
-    UnityEngine::Vector2 _get_m_MousePosition();
-    // Set instance field: private UnityEngine.Vector2 m_MousePosition
-    void _set_m_MousePosition(UnityEngine::Vector2 value);
-    // Get instance field: private System.String m_HorizontalAxis
-    ::Il2CppString* _get_m_HorizontalAxis();
-    // Set instance field: private System.String m_HorizontalAxis
-    void _set_m_HorizontalAxis(::Il2CppString* value);
-    // Get instance field: private System.String m_VerticalAxis
-    ::Il2CppString* _get_m_VerticalAxis();
-    // Set instance field: private System.String m_VerticalAxis
-    void _set_m_VerticalAxis(::Il2CppString* value);
-    // Get instance field: private System.String m_SubmitButton
-    ::Il2CppString* _get_m_SubmitButton();
-    // Set instance field: private System.String m_SubmitButton
-    void _set_m_SubmitButton(::Il2CppString* value);
-    // Get instance field: private System.String m_CancelButton
-    ::Il2CppString* _get_m_CancelButton();
-    // Set instance field: private System.String m_CancelButton
-    void _set_m_CancelButton(::Il2CppString* value);
-    // Get instance field: private System.Single m_InputActionsPerSecond
-    float _get_m_InputActionsPerSecond();
-    // Set instance field: private System.Single m_InputActionsPerSecond
-    void _set_m_InputActionsPerSecond(float value);
-    // Get instance field: private System.Boolean m_AllowActivationOnMobileDevice
-    bool _get_m_AllowActivationOnMobileDevice();
-    // Set instance field: private System.Boolean m_AllowActivationOnMobileDevice
-    void _set_m_AllowActivationOnMobileDevice(bool value);
-    // Get instance field: protected System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.OVRPointerEventData> m_VRRayPointerData
-    System::Collections::Generic::Dictionary_2<int, UnityEngine::EventSystems::OVRPointerEventData*>* _get_m_VRRayPointerData();
-    // Set instance field: protected System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.OVRPointerEventData> m_VRRayPointerData
-    void _set_m_VRRayPointerData(System::Collections::Generic::Dictionary_2<int, UnityEngine::EventSystems::OVRPointerEventData*>* value);
-    // Get instance field: private readonly UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.MouseState m_MouseState
-    UnityEngine::EventSystems::PointerInputModule::MouseState* _get_m_MouseState();
-    // Set instance field: private readonly UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.MouseState m_MouseState
-    void _set_m_MouseState(UnityEngine::EventSystems::PointerInputModule::MouseState* value);
+    // Get instance field reference: public UnityEngine.Transform rayTransform
+    UnityEngine::Transform*& dyn_rayTransform();
+    // Get instance field reference: public OVRCursor m_Cursor
+    GlobalNamespace::OVRCursor*& dyn_m_Cursor();
+    // Get instance field reference: public OVRInput/Button joyPadClickButton
+    GlobalNamespace::OVRInput::Button& dyn_joyPadClickButton();
+    // Get instance field reference: public UnityEngine.KeyCode gazeClickKey
+    UnityEngine::KeyCode& dyn_gazeClickKey();
+    // Get instance field reference: public System.Boolean performSphereCastForGazepointer
+    bool& dyn_performSphereCastForGazepointer();
+    // Get instance field reference: public System.Boolean useRightStickScroll
+    bool& dyn_useRightStickScroll();
+    // Get instance field reference: public System.Single rightStickDeadZone
+    float& dyn_rightStickDeadZone();
+    // Get instance field reference: public System.Boolean useSwipeScroll
+    bool& dyn_useSwipeScroll();
+    // Get instance field reference: public System.Single swipeDragThreshold
+    float& dyn_swipeDragThreshold();
+    // Get instance field reference: public System.Single swipeDragScale
+    float& dyn_swipeDragScale();
+    // Get instance field reference: public System.Boolean InvertSwipeXAxis
+    bool& dyn_InvertSwipeXAxis();
+    // Get instance field reference: public OVRRaycaster activeGraphicRaycaster
+    GlobalNamespace::OVRRaycaster*& dyn_activeGraphicRaycaster();
+    // Get instance field reference: public System.Single angleDragThreshold
+    float& dyn_angleDragThreshold();
+    // Get instance field reference: private System.Single m_SpherecastRadius
+    float& dyn_m_SpherecastRadius();
+    // Get instance field reference: private System.Single m_NextAction
+    float& dyn_m_NextAction();
+    // Get instance field reference: private UnityEngine.Vector2 m_LastMousePosition
+    UnityEngine::Vector2& dyn_m_LastMousePosition();
+    // Get instance field reference: private UnityEngine.Vector2 m_MousePosition
+    UnityEngine::Vector2& dyn_m_MousePosition();
+    // Get instance field reference: private System.String m_HorizontalAxis
+    ::Il2CppString*& dyn_m_HorizontalAxis();
+    // Get instance field reference: private System.String m_VerticalAxis
+    ::Il2CppString*& dyn_m_VerticalAxis();
+    // Get instance field reference: private System.String m_SubmitButton
+    ::Il2CppString*& dyn_m_SubmitButton();
+    // Get instance field reference: private System.String m_CancelButton
+    ::Il2CppString*& dyn_m_CancelButton();
+    // Get instance field reference: private System.Single m_InputActionsPerSecond
+    float& dyn_m_InputActionsPerSecond();
+    // Get instance field reference: private System.Boolean m_AllowActivationOnMobileDevice
+    bool& dyn_m_AllowActivationOnMobileDevice();
+    // Get instance field reference: protected System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.OVRPointerEventData> m_VRRayPointerData
+    System::Collections::Generic::Dictionary_2<int, UnityEngine::EventSystems::OVRPointerEventData*>*& dyn_m_VRRayPointerData();
+    // Get instance field reference: private readonly UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.MouseState m_MouseState
+    UnityEngine::EventSystems::PointerInputModule::MouseState*& dyn_m_MouseState();
     // public UnityEngine.EventSystems.OVRInputModule/UnityEngine.EventSystems.InputMode get_inputMode()
     // Offset: 0x1F4C228
     UnityEngine::EventSystems::OVRInputModule::InputMode get_inputMode();

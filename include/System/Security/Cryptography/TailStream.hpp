@@ -53,22 +53,14 @@ namespace System::Security::Cryptography {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: TailStream
     TailStream(::Array<uint8_t>* Buffer_ = {}, int BufferSize_ = {}, int BufferIndex_ = {}, bool BufferFull_ = {}) noexcept : Buffer{Buffer_}, BufferSize{BufferSize_}, BufferIndex{BufferIndex_}, BufferFull{BufferFull_} {}
-    // Get instance field: private System.Byte[] _Buffer
-    ::Array<uint8_t>* _get__Buffer();
-    // Set instance field: private System.Byte[] _Buffer
-    void _set__Buffer(::Array<uint8_t>* value);
-    // Get instance field: private System.Int32 _BufferSize
-    int _get__BufferSize();
-    // Set instance field: private System.Int32 _BufferSize
-    void _set__BufferSize(int value);
-    // Get instance field: private System.Int32 _BufferIndex
-    int _get__BufferIndex();
-    // Set instance field: private System.Int32 _BufferIndex
-    void _set__BufferIndex(int value);
-    // Get instance field: private System.Boolean _BufferFull
-    bool _get__BufferFull();
-    // Set instance field: private System.Boolean _BufferFull
-    void _set__BufferFull(bool value);
+    // Get instance field reference: private System.Byte[] _Buffer
+    ::Array<uint8_t>*& dyn__Buffer();
+    // Get instance field reference: private System.Int32 _BufferSize
+    int& dyn__BufferSize();
+    // Get instance field reference: private System.Int32 _BufferIndex
+    int& dyn__BufferIndex();
+    // Get instance field reference: private System.Boolean _BufferFull
+    bool& dyn__BufferFull();
     // public System.Byte[] get_Buffer()
     // Offset: 0x1B467FC
     ::Array<uint8_t>* get_Buffer();

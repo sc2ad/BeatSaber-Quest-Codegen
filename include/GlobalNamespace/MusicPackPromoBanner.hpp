@@ -92,26 +92,16 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kGetNow();
     // Set static field: static private System.String kGetNow
     static void _set_kGetNow(::Il2CppString* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _promoText
-    TMPro::TextMeshProUGUI* _get__promoText();
-    // Set instance field: private TMPro.TextMeshProUGUI _promoText
-    void _set__promoText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private UnityEngine.UI.Image _backgroundImage
-    UnityEngine::UI::Image* _get__backgroundImage();
-    // Set instance field: private UnityEngine.UI.Image _backgroundImage
-    void _set__backgroundImage(UnityEngine::UI::Image* value);
-    // Get instance field: private UnityEngine.UI.Image _coverImage
-    UnityEngine::UI::Image* _get__coverImage();
-    // Set instance field: private UnityEngine.UI.Image _coverImage
-    void _set__coverImage(UnityEngine::UI::Image* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _promoButtonText
-    TMPro::TextMeshProUGUI* _get__promoButtonText();
-    // Set instance field: private TMPro.TextMeshProUGUI _promoButtonText
-    void _set__promoButtonText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private IBeatmapLevelPack _currentPromoMusicPack
-    GlobalNamespace::IBeatmapLevelPack* _get__currentPromoMusicPack();
-    // Set instance field: private IBeatmapLevelPack _currentPromoMusicPack
-    void _set__currentPromoMusicPack(GlobalNamespace::IBeatmapLevelPack* value);
+    // Get instance field reference: private TMPro.TextMeshProUGUI _promoText
+    TMPro::TextMeshProUGUI*& dyn__promoText();
+    // Get instance field reference: private UnityEngine.UI.Image _backgroundImage
+    UnityEngine::UI::Image*& dyn__backgroundImage();
+    // Get instance field reference: private UnityEngine.UI.Image _coverImage
+    UnityEngine::UI::Image*& dyn__coverImage();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _promoButtonText
+    TMPro::TextMeshProUGUI*& dyn__promoButtonText();
+    // Get instance field reference: private IBeatmapLevelPack _currentPromoMusicPack
+    GlobalNamespace::IBeatmapLevelPack*& dyn__currentPromoMusicPack();
     // public IBeatmapLevelPack get_currentPromoMusicPack()
     // Offset: 0x103CE3C
     GlobalNamespace::IBeatmapLevelPack* get_currentPromoMusicPack();

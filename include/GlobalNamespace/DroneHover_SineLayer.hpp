@@ -34,14 +34,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: SineLayer
     SineLayer(float multiplier_ = {}, float offset_ = {}) noexcept : multiplier{multiplier_}, offset{offset_} {}
-    // Get instance field: public System.Single multiplier
-    float _get_multiplier();
-    // Set instance field: public System.Single multiplier
-    void _set_multiplier(float value);
-    // Get instance field: public System.Single offset
-    float _get_offset();
-    // Set instance field: public System.Single offset
-    void _set_offset(float value);
+    // Get instance field reference: public System.Single multiplier
+    float& dyn_multiplier();
+    // Get instance field reference: public System.Single offset
+    float& dyn_offset();
     // public System.Void .ctor()
     // Offset: 0x104BBAC
     // Implemented from: System.Object

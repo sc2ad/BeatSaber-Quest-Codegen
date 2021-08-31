@@ -75,10 +75,8 @@ namespace System::Security::Cryptography::X509Certificates {
     static System::Security::Cryptography::X509Certificates::X509KeyStorageFlags _get_EphemeralKeySet();
     // Set static field: static public System.Security.Cryptography.X509Certificates.X509KeyStorageFlags EphemeralKeySet
     static void _set_EphemeralKeySet(System::Security::Cryptography::X509Certificates::X509KeyStorageFlags value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Security.Cryptography.X509Certificates.X509KeyStorageFlags
   #pragma pack(pop)
   static check_size<sizeof(X509KeyStorageFlags), 0 + sizeof(int)> __System_Security_Cryptography_X509Certificates_X509KeyStorageFlagsSizeCheck;

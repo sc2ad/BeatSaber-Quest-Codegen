@@ -65,10 +65,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::EnvironmentSizeData::FloorType _get_CloseTo0();
       // Set static field: static public EnvironmentSizeData/FloorType CloseTo0
       static void _set_CloseTo0(GlobalNamespace::EnvironmentSizeData::FloorType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // EnvironmentSizeData/FloorType
     #pragma pack(pop)
     static check_size<sizeof(EnvironmentSizeData::FloorType), 0 + sizeof(int)> __GlobalNamespace_EnvironmentSizeData_FloorTypeSizeCheck;
@@ -107,10 +105,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::EnvironmentSizeData::CeilingType _get_LowCeiling();
       // Set static field: static public EnvironmentSizeData/CeilingType LowCeiling
       static void _set_LowCeiling(GlobalNamespace::EnvironmentSizeData::CeilingType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // EnvironmentSizeData/CeilingType
     #pragma pack(pop)
     static check_size<sizeof(EnvironmentSizeData::CeilingType), 0 + sizeof(int)> __GlobalNamespace_EnvironmentSizeData_CeilingTypeSizeCheck;
@@ -129,14 +125,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::EnvironmentSizeData::CeilingType) == 0x4);
     // Creating value type constructor for type: EnvironmentSizeData
     EnvironmentSizeData(GlobalNamespace::EnvironmentSizeData::FloorType floorType_ = {}, GlobalNamespace::EnvironmentSizeData::CeilingType ceilingType_ = {}) noexcept : floorType{floorType_}, ceilingType{ceilingType_} {}
-    // Get instance field: private EnvironmentSizeData/FloorType _floorType
-    GlobalNamespace::EnvironmentSizeData::FloorType _get__floorType();
-    // Set instance field: private EnvironmentSizeData/FloorType _floorType
-    void _set__floorType(GlobalNamespace::EnvironmentSizeData::FloorType value);
-    // Get instance field: private EnvironmentSizeData/CeilingType _ceilingType
-    GlobalNamespace::EnvironmentSizeData::CeilingType _get__ceilingType();
-    // Set instance field: private EnvironmentSizeData/CeilingType _ceilingType
-    void _set__ceilingType(GlobalNamespace::EnvironmentSizeData::CeilingType value);
+    // Get instance field reference: private EnvironmentSizeData/FloorType _floorType
+    GlobalNamespace::EnvironmentSizeData::FloorType& dyn__floorType();
+    // Get instance field reference: private EnvironmentSizeData/CeilingType _ceilingType
+    GlobalNamespace::EnvironmentSizeData::CeilingType& dyn__ceilingType();
     // public EnvironmentSizeData/FloorType get_floorType()
     // Offset: 0x1053178
     GlobalNamespace::EnvironmentSizeData::FloorType get_floorType();

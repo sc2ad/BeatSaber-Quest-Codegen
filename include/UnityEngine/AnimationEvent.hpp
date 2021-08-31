@@ -105,50 +105,28 @@ namespace UnityEngine {
     static_assert(sizeof(UnityEngine::AnimatorClipInfo) == 0x8);
     // Creating value type constructor for type: AnimationEvent
     AnimationEvent(float m_Time_ = {}, ::Il2CppString* m_FunctionName_ = {}, ::Il2CppString* m_StringParameter_ = {}, UnityEngine::Object* m_ObjectReferenceParameter_ = {}, float m_FloatParameter_ = {}, int m_IntParameter_ = {}, int m_MessageOptions_ = {}, UnityEngine::AnimationEventSource m_Source_ = {}, UnityEngine::AnimationState* m_StateSender_ = {}, UnityEngine::AnimatorStateInfo m_AnimatorStateInfo_ = {}, UnityEngine::AnimatorClipInfo m_AnimatorClipInfo_ = {}) noexcept : m_Time{m_Time_}, m_FunctionName{m_FunctionName_}, m_StringParameter{m_StringParameter_}, m_ObjectReferenceParameter{m_ObjectReferenceParameter_}, m_FloatParameter{m_FloatParameter_}, m_IntParameter{m_IntParameter_}, m_MessageOptions{m_MessageOptions_}, m_Source{m_Source_}, m_StateSender{m_StateSender_}, m_AnimatorStateInfo{m_AnimatorStateInfo_}, m_AnimatorClipInfo{m_AnimatorClipInfo_} {}
-    // Get instance field: System.Single m_Time
-    float _get_m_Time();
-    // Set instance field: System.Single m_Time
-    void _set_m_Time(float value);
-    // Get instance field: System.String m_FunctionName
-    ::Il2CppString* _get_m_FunctionName();
-    // Set instance field: System.String m_FunctionName
-    void _set_m_FunctionName(::Il2CppString* value);
-    // Get instance field: System.String m_StringParameter
-    ::Il2CppString* _get_m_StringParameter();
-    // Set instance field: System.String m_StringParameter
-    void _set_m_StringParameter(::Il2CppString* value);
-    // Get instance field: UnityEngine.Object m_ObjectReferenceParameter
-    UnityEngine::Object* _get_m_ObjectReferenceParameter();
-    // Set instance field: UnityEngine.Object m_ObjectReferenceParameter
-    void _set_m_ObjectReferenceParameter(UnityEngine::Object* value);
-    // Get instance field: System.Single m_FloatParameter
-    float _get_m_FloatParameter();
-    // Set instance field: System.Single m_FloatParameter
-    void _set_m_FloatParameter(float value);
-    // Get instance field: System.Int32 m_IntParameter
-    int _get_m_IntParameter();
-    // Set instance field: System.Int32 m_IntParameter
-    void _set_m_IntParameter(int value);
-    // Get instance field: System.Int32 m_MessageOptions
-    int _get_m_MessageOptions();
-    // Set instance field: System.Int32 m_MessageOptions
-    void _set_m_MessageOptions(int value);
-    // Get instance field: UnityEngine.AnimationEventSource m_Source
-    UnityEngine::AnimationEventSource _get_m_Source();
-    // Set instance field: UnityEngine.AnimationEventSource m_Source
-    void _set_m_Source(UnityEngine::AnimationEventSource value);
-    // Get instance field: UnityEngine.AnimationState m_StateSender
-    UnityEngine::AnimationState* _get_m_StateSender();
-    // Set instance field: UnityEngine.AnimationState m_StateSender
-    void _set_m_StateSender(UnityEngine::AnimationState* value);
-    // Get instance field: UnityEngine.AnimatorStateInfo m_AnimatorStateInfo
-    UnityEngine::AnimatorStateInfo _get_m_AnimatorStateInfo();
-    // Set instance field: UnityEngine.AnimatorStateInfo m_AnimatorStateInfo
-    void _set_m_AnimatorStateInfo(UnityEngine::AnimatorStateInfo value);
-    // Get instance field: UnityEngine.AnimatorClipInfo m_AnimatorClipInfo
-    UnityEngine::AnimatorClipInfo _get_m_AnimatorClipInfo();
-    // Set instance field: UnityEngine.AnimatorClipInfo m_AnimatorClipInfo
-    void _set_m_AnimatorClipInfo(UnityEngine::AnimatorClipInfo value);
+    // Get instance field reference: System.Single m_Time
+    float& dyn_m_Time();
+    // Get instance field reference: System.String m_FunctionName
+    ::Il2CppString*& dyn_m_FunctionName();
+    // Get instance field reference: System.String m_StringParameter
+    ::Il2CppString*& dyn_m_StringParameter();
+    // Get instance field reference: UnityEngine.Object m_ObjectReferenceParameter
+    UnityEngine::Object*& dyn_m_ObjectReferenceParameter();
+    // Get instance field reference: System.Single m_FloatParameter
+    float& dyn_m_FloatParameter();
+    // Get instance field reference: System.Int32 m_IntParameter
+    int& dyn_m_IntParameter();
+    // Get instance field reference: System.Int32 m_MessageOptions
+    int& dyn_m_MessageOptions();
+    // Get instance field reference: UnityEngine.AnimationEventSource m_Source
+    UnityEngine::AnimationEventSource& dyn_m_Source();
+    // Get instance field reference: UnityEngine.AnimationState m_StateSender
+    UnityEngine::AnimationState*& dyn_m_StateSender();
+    // Get instance field reference: UnityEngine.AnimatorStateInfo m_AnimatorStateInfo
+    UnityEngine::AnimatorStateInfo& dyn_m_AnimatorStateInfo();
+    // Get instance field reference: UnityEngine.AnimatorClipInfo m_AnimatorClipInfo
+    UnityEngine::AnimatorClipInfo& dyn_m_AnimatorClipInfo();
     // public System.Void .ctor()
     // Offset: 0x2384AEC
     // Implemented from: System.Object

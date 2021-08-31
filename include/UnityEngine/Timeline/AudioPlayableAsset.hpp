@@ -87,22 +87,14 @@ namespace UnityEngine::Timeline {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.AudioClip m_Clip
-    UnityEngine::AudioClip* _get_m_Clip();
-    // Set instance field: private UnityEngine.AudioClip m_Clip
-    void _set_m_Clip(UnityEngine::AudioClip* value);
-    // Get instance field: private System.Boolean m_Loop
-    bool _get_m_Loop();
-    // Set instance field: private System.Boolean m_Loop
-    void _set_m_Loop(bool value);
-    // Get instance field: private System.Single m_bufferingTime
-    float _get_m_bufferingTime();
-    // Set instance field: private System.Single m_bufferingTime
-    void _set_m_bufferingTime(float value);
-    // Get instance field: private UnityEngine.Timeline.AudioClipProperties m_ClipProperties
-    UnityEngine::Timeline::AudioClipProperties* _get_m_ClipProperties();
-    // Set instance field: private UnityEngine.Timeline.AudioClipProperties m_ClipProperties
-    void _set_m_ClipProperties(UnityEngine::Timeline::AudioClipProperties* value);
+    // Get instance field reference: private UnityEngine.AudioClip m_Clip
+    UnityEngine::AudioClip*& dyn_m_Clip();
+    // Get instance field reference: private System.Boolean m_Loop
+    bool& dyn_m_Loop();
+    // Get instance field reference: private System.Single m_bufferingTime
+    float& dyn_m_bufferingTime();
+    // Get instance field reference: private UnityEngine.Timeline.AudioClipProperties m_ClipProperties
+    UnityEngine::Timeline::AudioClipProperties*& dyn_m_ClipProperties();
     // System.Single get_bufferingTime()
     // Offset: 0x181A7D4
     float get_bufferingTime();

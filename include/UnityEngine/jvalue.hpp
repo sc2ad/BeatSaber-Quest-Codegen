@@ -79,42 +79,24 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Boolean z
-    bool _get_z();
-    // Set instance field: public System.Boolean z
-    void _set_z(bool value);
-    // Get instance field: public System.SByte b
-    int8_t _get_b();
-    // Set instance field: public System.SByte b
-    void _set_b(int8_t value);
-    // Get instance field: public System.Char c
-    ::Il2CppChar _get_c();
-    // Set instance field: public System.Char c
-    void _set_c(::Il2CppChar value);
-    // Get instance field: public System.Int16 s
-    int16_t _get_s();
-    // Set instance field: public System.Int16 s
-    void _set_s(int16_t value);
-    // Get instance field: public System.Int32 i
-    int _get_i();
-    // Set instance field: public System.Int32 i
-    void _set_i(int value);
-    // Get instance field: public System.Int64 j
-    int64_t _get_j();
-    // Set instance field: public System.Int64 j
-    void _set_j(int64_t value);
-    // Get instance field: public System.Single f
-    float _get_f();
-    // Set instance field: public System.Single f
-    void _set_f(float value);
-    // Get instance field: public System.Double d
-    double _get_d();
-    // Set instance field: public System.Double d
-    void _set_d(double value);
-    // Get instance field: public System.IntPtr l
-    System::IntPtr _get_l();
-    // Set instance field: public System.IntPtr l
-    void _set_l(System::IntPtr value);
+    // Get instance field reference: public System.Boolean z
+    bool& dyn_z();
+    // Get instance field reference: public System.SByte b
+    int8_t& dyn_b();
+    // Get instance field reference: public System.Char c
+    ::Il2CppChar& dyn_c();
+    // Get instance field reference: public System.Int16 s
+    int16_t& dyn_s();
+    // Get instance field reference: public System.Int32 i
+    int& dyn_i();
+    // Get instance field reference: public System.Int64 j
+    int64_t& dyn_j();
+    // Get instance field reference: public System.Single f
+    float& dyn_f();
+    // Get instance field reference: public System.Double d
+    double& dyn_d();
+    // Get instance field reference: public System.IntPtr l
+    System::IntPtr& dyn_l();
   }; // UnityEngine.jvalue
   // WARNING Not writing size check since size may be invalid!
 }

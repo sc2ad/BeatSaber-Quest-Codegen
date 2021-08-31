@@ -196,90 +196,48 @@ namespace System::Net {
     static System::Net::Comparer* _get_staticComparer();
     // Set static field: static private System.Net.Comparer staticComparer
     static void _set_staticComparer(System::Net::Comparer* value);
-    // Get instance field: private System.String m_comment
-    ::Il2CppString* _get_m_comment();
-    // Set instance field: private System.String m_comment
-    void _set_m_comment(::Il2CppString* value);
-    // Get instance field: private System.Uri m_commentUri
-    System::Uri* _get_m_commentUri();
-    // Set instance field: private System.Uri m_commentUri
-    void _set_m_commentUri(System::Uri* value);
-    // Get instance field: private System.Net.CookieVariant m_cookieVariant
-    System::Net::CookieVariant _get_m_cookieVariant();
-    // Set instance field: private System.Net.CookieVariant m_cookieVariant
-    void _set_m_cookieVariant(System::Net::CookieVariant value);
-    // Get instance field: private System.Boolean m_discard
-    bool _get_m_discard();
-    // Set instance field: private System.Boolean m_discard
-    void _set_m_discard(bool value);
-    // Get instance field: private System.String m_domain
-    ::Il2CppString* _get_m_domain();
-    // Set instance field: private System.String m_domain
-    void _set_m_domain(::Il2CppString* value);
-    // Get instance field: private System.Boolean m_domain_implicit
-    bool _get_m_domain_implicit();
-    // Set instance field: private System.Boolean m_domain_implicit
-    void _set_m_domain_implicit(bool value);
-    // Get instance field: private System.DateTime m_expires
-    System::DateTime _get_m_expires();
-    // Set instance field: private System.DateTime m_expires
-    void _set_m_expires(System::DateTime value);
-    // Get instance field: private System.String m_name
-    ::Il2CppString* _get_m_name();
-    // Set instance field: private System.String m_name
-    void _set_m_name(::Il2CppString* value);
-    // Get instance field: private System.String m_path
-    ::Il2CppString* _get_m_path();
-    // Set instance field: private System.String m_path
-    void _set_m_path(::Il2CppString* value);
-    // Get instance field: private System.Boolean m_path_implicit
-    bool _get_m_path_implicit();
-    // Set instance field: private System.Boolean m_path_implicit
-    void _set_m_path_implicit(bool value);
-    // Get instance field: private System.String m_port
-    ::Il2CppString* _get_m_port();
-    // Set instance field: private System.String m_port
-    void _set_m_port(::Il2CppString* value);
-    // Get instance field: private System.Boolean m_port_implicit
-    bool _get_m_port_implicit();
-    // Set instance field: private System.Boolean m_port_implicit
-    void _set_m_port_implicit(bool value);
-    // Get instance field: private System.Int32[] m_port_list
-    ::Array<int>* _get_m_port_list();
-    // Set instance field: private System.Int32[] m_port_list
-    void _set_m_port_list(::Array<int>* value);
-    // Get instance field: private System.Boolean m_secure
-    bool _get_m_secure();
-    // Set instance field: private System.Boolean m_secure
-    void _set_m_secure(bool value);
-    // Get instance field: private System.Boolean m_httpOnly
-    bool _get_m_httpOnly();
-    // Set instance field: private System.Boolean m_httpOnly
-    void _set_m_httpOnly(bool value);
-    // Get instance field: private System.DateTime m_timeStamp
-    System::DateTime _get_m_timeStamp();
-    // Set instance field: private System.DateTime m_timeStamp
-    void _set_m_timeStamp(System::DateTime value);
-    // Get instance field: private System.String m_value
-    ::Il2CppString* _get_m_value();
-    // Set instance field: private System.String m_value
-    void _set_m_value(::Il2CppString* value);
-    // Get instance field: private System.Int32 m_version
-    int _get_m_version();
-    // Set instance field: private System.Int32 m_version
-    void _set_m_version(int value);
-    // Get instance field: private System.String m_domainKey
-    ::Il2CppString* _get_m_domainKey();
-    // Set instance field: private System.String m_domainKey
-    void _set_m_domainKey(::Il2CppString* value);
-    // Get instance field: System.Boolean IsQuotedVersion
-    bool _get_IsQuotedVersion();
-    // Set instance field: System.Boolean IsQuotedVersion
-    void _set_IsQuotedVersion(bool value);
-    // Get instance field: System.Boolean IsQuotedDomain
-    bool _get_IsQuotedDomain();
-    // Set instance field: System.Boolean IsQuotedDomain
-    void _set_IsQuotedDomain(bool value);
+    // Get instance field reference: private System.String m_comment
+    ::Il2CppString*& dyn_m_comment();
+    // Get instance field reference: private System.Uri m_commentUri
+    System::Uri*& dyn_m_commentUri();
+    // Get instance field reference: private System.Net.CookieVariant m_cookieVariant
+    System::Net::CookieVariant& dyn_m_cookieVariant();
+    // Get instance field reference: private System.Boolean m_discard
+    bool& dyn_m_discard();
+    // Get instance field reference: private System.String m_domain
+    ::Il2CppString*& dyn_m_domain();
+    // Get instance field reference: private System.Boolean m_domain_implicit
+    bool& dyn_m_domain_implicit();
+    // Get instance field reference: private System.DateTime m_expires
+    System::DateTime& dyn_m_expires();
+    // Get instance field reference: private System.String m_name
+    ::Il2CppString*& dyn_m_name();
+    // Get instance field reference: private System.String m_path
+    ::Il2CppString*& dyn_m_path();
+    // Get instance field reference: private System.Boolean m_path_implicit
+    bool& dyn_m_path_implicit();
+    // Get instance field reference: private System.String m_port
+    ::Il2CppString*& dyn_m_port();
+    // Get instance field reference: private System.Boolean m_port_implicit
+    bool& dyn_m_port_implicit();
+    // Get instance field reference: private System.Int32[] m_port_list
+    ::Array<int>*& dyn_m_port_list();
+    // Get instance field reference: private System.Boolean m_secure
+    bool& dyn_m_secure();
+    // Get instance field reference: private System.Boolean m_httpOnly
+    bool& dyn_m_httpOnly();
+    // Get instance field reference: private System.DateTime m_timeStamp
+    System::DateTime& dyn_m_timeStamp();
+    // Get instance field reference: private System.String m_value
+    ::Il2CppString*& dyn_m_value();
+    // Get instance field reference: private System.Int32 m_version
+    int& dyn_m_version();
+    // Get instance field reference: private System.String m_domainKey
+    ::Il2CppString*& dyn_m_domainKey();
+    // Get instance field reference: System.Boolean IsQuotedVersion
+    bool& dyn_IsQuotedVersion();
+    // Get instance field reference: System.Boolean IsQuotedDomain
+    bool& dyn_IsQuotedDomain();
     // public System.String get_Comment()
     // Offset: 0x16D0B74
     ::Il2CppString* get_Comment();

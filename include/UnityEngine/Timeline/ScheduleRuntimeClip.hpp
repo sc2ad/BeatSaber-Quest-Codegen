@@ -80,30 +80,18 @@ namespace UnityEngine::Timeline {
     ScheduleRuntimeClip(UnityEngine::Timeline::TimelineClip* m_Clip_ = {}, UnityEngine::Playables::Playable m_Playable_ = {}, UnityEngine::Playables::Playable m_ParentMixer_ = {}, double m_StartDelay_ = {}, double m_FinishTail_ = {}, bool m_Started_ = {}) noexcept : m_Clip{m_Clip_}, m_Playable{m_Playable_}, m_ParentMixer{m_ParentMixer_}, m_StartDelay{m_StartDelay_}, m_FinishTail{m_FinishTail_}, m_Started{m_Started_} {}
     // Deleting conversion operator: operator int
     constexpr operator int() const noexcept = delete;
-    // Get instance field: private UnityEngine.Timeline.TimelineClip m_Clip
-    UnityEngine::Timeline::TimelineClip* _get_m_Clip();
-    // Set instance field: private UnityEngine.Timeline.TimelineClip m_Clip
-    void _set_m_Clip(UnityEngine::Timeline::TimelineClip* value);
-    // Get instance field: private UnityEngine.Playables.Playable m_Playable
-    UnityEngine::Playables::Playable _get_m_Playable();
-    // Set instance field: private UnityEngine.Playables.Playable m_Playable
-    void _set_m_Playable(UnityEngine::Playables::Playable value);
-    // Get instance field: private UnityEngine.Playables.Playable m_ParentMixer
-    UnityEngine::Playables::Playable _get_m_ParentMixer();
-    // Set instance field: private UnityEngine.Playables.Playable m_ParentMixer
-    void _set_m_ParentMixer(UnityEngine::Playables::Playable value);
-    // Get instance field: private System.Double m_StartDelay
-    double _get_m_StartDelay();
-    // Set instance field: private System.Double m_StartDelay
-    void _set_m_StartDelay(double value);
-    // Get instance field: private System.Double m_FinishTail
-    double _get_m_FinishTail();
-    // Set instance field: private System.Double m_FinishTail
-    void _set_m_FinishTail(double value);
-    // Get instance field: private System.Boolean m_Started
-    bool _get_m_Started();
-    // Set instance field: private System.Boolean m_Started
-    void _set_m_Started(bool value);
+    // Get instance field reference: private UnityEngine.Timeline.TimelineClip m_Clip
+    UnityEngine::Timeline::TimelineClip*& dyn_m_Clip();
+    // Get instance field reference: private UnityEngine.Playables.Playable m_Playable
+    UnityEngine::Playables::Playable& dyn_m_Playable();
+    // Get instance field reference: private UnityEngine.Playables.Playable m_ParentMixer
+    UnityEngine::Playables::Playable& dyn_m_ParentMixer();
+    // Get instance field reference: private System.Double m_StartDelay
+    double& dyn_m_StartDelay();
+    // Get instance field reference: private System.Double m_FinishTail
+    double& dyn_m_FinishTail();
+    // Get instance field reference: private System.Boolean m_Started
+    bool& dyn_m_Started();
     // public UnityEngine.Timeline.TimelineClip get_clip()
     // Offset: 0x1824C20
     UnityEngine::Timeline::TimelineClip* get_clip();

@@ -44,14 +44,10 @@ namespace GlobalNamespace {
     OVRProgressIndicator(UnityEngine::MeshRenderer* progressImage_ = {}, float currentProgress_ = {}) noexcept : progressImage{progressImage_}, currentProgress{currentProgress_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public UnityEngine.MeshRenderer progressImage
-    UnityEngine::MeshRenderer* _get_progressImage();
-    // Set instance field: public UnityEngine.MeshRenderer progressImage
-    void _set_progressImage(UnityEngine::MeshRenderer* value);
-    // Get instance field: public System.Single currentProgress
-    float _get_currentProgress();
-    // Set instance field: public System.Single currentProgress
-    void _set_currentProgress(float value);
+    // Get instance field reference: public UnityEngine.MeshRenderer progressImage
+    UnityEngine::MeshRenderer*& dyn_progressImage();
+    // Get instance field reference: public System.Single currentProgress
+    float& dyn_currentProgress();
     // private System.Void Awake()
     // Offset: 0x1633D0C
     void Awake();

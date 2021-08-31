@@ -79,10 +79,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::FullVRControllersRecorder::Mode _get_Off();
       // Set static field: static public FullVRControllersRecorder/Mode Off
       static void _set_Off(GlobalNamespace::FullVRControllersRecorder::Mode value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // FullVRControllersRecorder/Mode
     #pragma pack(pop)
     static check_size<sizeof(FullVRControllersRecorder::Mode), 0 + sizeof(int)> __GlobalNamespace_FullVRControllersRecorder_ModeSizeCheck;
@@ -163,50 +161,28 @@ namespace GlobalNamespace {
     FullVRControllersRecorder(::Il2CppString* recordingFilePath_ = {}, GlobalNamespace::FullVRControllersRecorder::Mode mode_ = {}, float timeOffset_ = {}, float othersSmooth_ = {}, float handsSmooth_ = {}, float playbackFloorOffset_ = {}, ::Array<GlobalNamespace::VRController*>* controllers_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, System::Action_1<GlobalNamespace::VRController*>* didSetControllerTransformEvent_ = {}, int keyframeIndex_ = {}, GlobalNamespace::VRControllersRecorderData* data_ = {}) noexcept : recordingFilePath{recordingFilePath_}, mode{mode_}, timeOffset{timeOffset_}, othersSmooth{othersSmooth_}, handsSmooth{handsSmooth_}, playbackFloorOffset{playbackFloorOffset_}, controllers{controllers_}, audioTimeSyncController{audioTimeSyncController_}, didSetControllerTransformEvent{didSetControllerTransformEvent_}, keyframeIndex{keyframeIndex_}, data{data_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.String _recordingFilePath
-    ::Il2CppString* _get__recordingFilePath();
-    // Set instance field: private System.String _recordingFilePath
-    void _set__recordingFilePath(::Il2CppString* value);
-    // Get instance field: private FullVRControllersRecorder/Mode _mode
-    GlobalNamespace::FullVRControllersRecorder::Mode _get__mode();
-    // Set instance field: private FullVRControllersRecorder/Mode _mode
-    void _set__mode(GlobalNamespace::FullVRControllersRecorder::Mode value);
-    // Get instance field: private System.Single _timeOffset
-    float _get__timeOffset();
-    // Set instance field: private System.Single _timeOffset
-    void _set__timeOffset(float value);
-    // Get instance field: private System.Single _othersSmooth
-    float _get__othersSmooth();
-    // Set instance field: private System.Single _othersSmooth
-    void _set__othersSmooth(float value);
-    // Get instance field: private System.Single _handsSmooth
-    float _get__handsSmooth();
-    // Set instance field: private System.Single _handsSmooth
-    void _set__handsSmooth(float value);
-    // Get instance field: private System.Single _playbackFloorOffset
-    float _get__playbackFloorOffset();
-    // Set instance field: private System.Single _playbackFloorOffset
-    void _set__playbackFloorOffset(float value);
-    // Get instance field: private VRController[] _controllers
-    ::Array<GlobalNamespace::VRController*>* _get__controllers();
-    // Set instance field: private VRController[] _controllers
-    void _set__controllers(::Array<GlobalNamespace::VRController*>* value);
-    // Get instance field: private AudioTimeSyncController _audioTimeSyncController
-    GlobalNamespace::AudioTimeSyncController* _get__audioTimeSyncController();
-    // Set instance field: private AudioTimeSyncController _audioTimeSyncController
-    void _set__audioTimeSyncController(GlobalNamespace::AudioTimeSyncController* value);
-    // Get instance field: private System.Action`1<VRController> didSetControllerTransformEvent
-    System::Action_1<GlobalNamespace::VRController*>* _get_didSetControllerTransformEvent();
-    // Set instance field: private System.Action`1<VRController> didSetControllerTransformEvent
-    void _set_didSetControllerTransformEvent(System::Action_1<GlobalNamespace::VRController*>* value);
-    // Get instance field: private System.Int32 _keyframeIndex
-    int _get__keyframeIndex();
-    // Set instance field: private System.Int32 _keyframeIndex
-    void _set__keyframeIndex(int value);
-    // Get instance field: private VRControllersRecorderData _data
-    GlobalNamespace::VRControllersRecorderData* _get__data();
-    // Set instance field: private VRControllersRecorderData _data
-    void _set__data(GlobalNamespace::VRControllersRecorderData* value);
+    // Get instance field reference: private System.String _recordingFilePath
+    ::Il2CppString*& dyn__recordingFilePath();
+    // Get instance field reference: private FullVRControllersRecorder/Mode _mode
+    GlobalNamespace::FullVRControllersRecorder::Mode& dyn__mode();
+    // Get instance field reference: private System.Single _timeOffset
+    float& dyn__timeOffset();
+    // Get instance field reference: private System.Single _othersSmooth
+    float& dyn__othersSmooth();
+    // Get instance field reference: private System.Single _handsSmooth
+    float& dyn__handsSmooth();
+    // Get instance field reference: private System.Single _playbackFloorOffset
+    float& dyn__playbackFloorOffset();
+    // Get instance field reference: private VRController[] _controllers
+    ::Array<GlobalNamespace::VRController*>*& dyn__controllers();
+    // Get instance field reference: private AudioTimeSyncController _audioTimeSyncController
+    GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
+    // Get instance field reference: private System.Action`1<VRController> didSetControllerTransformEvent
+    System::Action_1<GlobalNamespace::VRController*>*& dyn_didSetControllerTransformEvent();
+    // Get instance field reference: private System.Int32 _keyframeIndex
+    int& dyn__keyframeIndex();
+    // Get instance field reference: private VRControllersRecorderData _data
+    GlobalNamespace::VRControllersRecorderData*& dyn__data();
     // public System.Void add_didSetControllerTransformEvent(System.Action`1<VRController> value)
     // Offset: 0x105D1C8
     void add_didSetControllerTransformEvent(System::Action_1<GlobalNamespace::VRController*>* value);

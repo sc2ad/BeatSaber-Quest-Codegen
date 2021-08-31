@@ -71,18 +71,12 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IAsyncComputeManager() noexcept {
       return *reinterpret_cast<GlobalNamespace::IAsyncComputeManager*>(this);
     }
-    // Get instance field: private readonly System.Collections.Concurrent.BlockingCollection`1<AsyncComputeOperation> _asyncComputeRequests
-    System::Collections::Concurrent::BlockingCollection_1<GlobalNamespace::AsyncComputeOperation*>* _get__asyncComputeRequests();
-    // Set instance field: private readonly System.Collections.Concurrent.BlockingCollection`1<AsyncComputeOperation> _asyncComputeRequests
-    void _set__asyncComputeRequests(System::Collections::Concurrent::BlockingCollection_1<GlobalNamespace::AsyncComputeOperation*>* value);
-    // Get instance field: private readonly System.Threading.Thread _computeThread
-    System::Threading::Thread* _get__computeThread();
-    // Set instance field: private readonly System.Threading.Thread _computeThread
-    void _set__computeThread(System::Threading::Thread* value);
-    // Get instance field: private System.Boolean _disposed
-    bool _get__disposed();
-    // Set instance field: private System.Boolean _disposed
-    void _set__disposed(bool value);
+    // Get instance field reference: private readonly System.Collections.Concurrent.BlockingCollection`1<AsyncComputeOperation> _asyncComputeRequests
+    System::Collections::Concurrent::BlockingCollection_1<GlobalNamespace::AsyncComputeOperation*>*& dyn__asyncComputeRequests();
+    // Get instance field reference: private readonly System.Threading.Thread _computeThread
+    System::Threading::Thread*& dyn__computeThread();
+    // Get instance field reference: private System.Boolean _disposed
+    bool& dyn__disposed();
     // public System.Void Dispose()
     // Offset: 0x131BBD8
     void Dispose();

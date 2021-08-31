@@ -30,10 +30,8 @@ namespace System::Runtime::Remoting::Messaging {
     constexpr operator int() const noexcept {
       return index;
     }
-    // Get instance field: public System.Int32 index
-    int _get_index();
-    // Set instance field: public System.Int32 index
-    void _set_index(int value);
+    // Get instance field reference: public System.Int32 index
+    int& dyn_index();
     // public System.Void .ctor(System.Int32 i)
     // Offset: 0x1A45CD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

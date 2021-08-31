@@ -106,38 +106,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
     // Creating value type constructor for type: ServerPlayerListViewController
     ServerPlayerListViewController(GlobalNamespace::GameServerPlayersTableView* gameServerPlayersTableView_ = {}, GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel_ = {}, GlobalNamespace::ILobbyStateDataModel* lobbyStateDataModel_ = {}, GlobalNamespace::LobbyPlayerPermissionsModel* lobbyPlayerPermissionsModel_ = {}, GlobalNamespace::ILobbyGameStateController* lobbyGameStateController_ = {}, System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>* selectSuggestedBeatmapEvent_ = {}, System::Action_1<GlobalNamespace::GameplayModifiers*>* selectSuggestedGameplayModifiersEvent_ = {}, System::Action_1<::Il2CppString*>* kickPlayerEvent_ = {}) noexcept : gameServerPlayersTableView{gameServerPlayersTableView_}, lobbyPlayersDataModel{lobbyPlayersDataModel_}, lobbyStateDataModel{lobbyStateDataModel_}, lobbyPlayerPermissionsModel{lobbyPlayerPermissionsModel_}, lobbyGameStateController{lobbyGameStateController_}, selectSuggestedBeatmapEvent{selectSuggestedBeatmapEvent_}, selectSuggestedGameplayModifiersEvent{selectSuggestedGameplayModifiersEvent_}, kickPlayerEvent{kickPlayerEvent_} {}
-    // Get instance field: private GameServerPlayersTableView _gameServerPlayersTableView
-    GlobalNamespace::GameServerPlayersTableView* _get__gameServerPlayersTableView();
-    // Set instance field: private GameServerPlayersTableView _gameServerPlayersTableView
-    void _set__gameServerPlayersTableView(GlobalNamespace::GameServerPlayersTableView* value);
-    // Get instance field: private readonly ILobbyPlayersDataModel _lobbyPlayersDataModel
-    GlobalNamespace::ILobbyPlayersDataModel* _get__lobbyPlayersDataModel();
-    // Set instance field: private readonly ILobbyPlayersDataModel _lobbyPlayersDataModel
-    void _set__lobbyPlayersDataModel(GlobalNamespace::ILobbyPlayersDataModel* value);
-    // Get instance field: private readonly ILobbyStateDataModel _lobbyStateDataModel
-    GlobalNamespace::ILobbyStateDataModel* _get__lobbyStateDataModel();
-    // Set instance field: private readonly ILobbyStateDataModel _lobbyStateDataModel
-    void _set__lobbyStateDataModel(GlobalNamespace::ILobbyStateDataModel* value);
-    // Get instance field: private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
-    GlobalNamespace::LobbyPlayerPermissionsModel* _get__lobbyPlayerPermissionsModel();
-    // Set instance field: private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
-    void _set__lobbyPlayerPermissionsModel(GlobalNamespace::LobbyPlayerPermissionsModel* value);
-    // Get instance field: private readonly ILobbyGameStateController _lobbyGameStateController
-    GlobalNamespace::ILobbyGameStateController* _get__lobbyGameStateController();
-    // Set instance field: private readonly ILobbyGameStateController _lobbyGameStateController
-    void _set__lobbyGameStateController(GlobalNamespace::ILobbyGameStateController* value);
-    // Get instance field: private System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> selectSuggestedBeatmapEvent
-    System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>* _get_selectSuggestedBeatmapEvent();
-    // Set instance field: private System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> selectSuggestedBeatmapEvent
-    void _set_selectSuggestedBeatmapEvent(System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>* value);
-    // Get instance field: private System.Action`1<GameplayModifiers> selectSuggestedGameplayModifiersEvent
-    System::Action_1<GlobalNamespace::GameplayModifiers*>* _get_selectSuggestedGameplayModifiersEvent();
-    // Set instance field: private System.Action`1<GameplayModifiers> selectSuggestedGameplayModifiersEvent
-    void _set_selectSuggestedGameplayModifiersEvent(System::Action_1<GlobalNamespace::GameplayModifiers*>* value);
-    // Get instance field: private System.Action`1<System.String> kickPlayerEvent
-    System::Action_1<::Il2CppString*>* _get_kickPlayerEvent();
-    // Set instance field: private System.Action`1<System.String> kickPlayerEvent
-    void _set_kickPlayerEvent(System::Action_1<::Il2CppString*>* value);
+    // Get instance field reference: private GameServerPlayersTableView _gameServerPlayersTableView
+    GlobalNamespace::GameServerPlayersTableView*& dyn__gameServerPlayersTableView();
+    // Get instance field reference: private readonly ILobbyPlayersDataModel _lobbyPlayersDataModel
+    GlobalNamespace::ILobbyPlayersDataModel*& dyn__lobbyPlayersDataModel();
+    // Get instance field reference: private readonly ILobbyStateDataModel _lobbyStateDataModel
+    GlobalNamespace::ILobbyStateDataModel*& dyn__lobbyStateDataModel();
+    // Get instance field reference: private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
+    GlobalNamespace::LobbyPlayerPermissionsModel*& dyn__lobbyPlayerPermissionsModel();
+    // Get instance field reference: private readonly ILobbyGameStateController _lobbyGameStateController
+    GlobalNamespace::ILobbyGameStateController*& dyn__lobbyGameStateController();
+    // Get instance field reference: private System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> selectSuggestedBeatmapEvent
+    System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>*& dyn_selectSuggestedBeatmapEvent();
+    // Get instance field reference: private System.Action`1<GameplayModifiers> selectSuggestedGameplayModifiersEvent
+    System::Action_1<GlobalNamespace::GameplayModifiers*>*& dyn_selectSuggestedGameplayModifiersEvent();
+    // Get instance field reference: private System.Action`1<System.String> kickPlayerEvent
+    System::Action_1<::Il2CppString*>*& dyn_kickPlayerEvent();
     // public System.Void add_selectSuggestedBeatmapEvent(System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> value)
     // Offset: 0x119EA88
     void add_selectSuggestedBeatmapEvent(System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>* value);

@@ -56,18 +56,12 @@ namespace System::Runtime::Serialization {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private System.Type m_type
-    System::Type* _get_m_type();
-    // Set instance field: private System.Type m_type
-    void _set_m_type(System::Type* value);
-    // Get instance field: private System.Object m_value
-    ::Il2CppObject* _get_m_value();
-    // Set instance field: private System.Object m_value
-    void _set_m_value(::Il2CppObject* value);
-    // Get instance field: private System.String m_name
-    ::Il2CppString* _get_m_name();
-    // Set instance field: private System.String m_name
-    void _set_m_name(::Il2CppString* value);
+    // Get instance field reference: private System.Type m_type
+    System::Type*& dyn_m_type();
+    // Get instance field reference: private System.Object m_value
+    ::Il2CppObject*& dyn_m_value();
+    // Get instance field reference: private System.String m_name
+    ::Il2CppString*& dyn_m_name();
     // public System.Object get_Value()
     // Offset: 0x16BD790
     ::Il2CppObject* get_Value();

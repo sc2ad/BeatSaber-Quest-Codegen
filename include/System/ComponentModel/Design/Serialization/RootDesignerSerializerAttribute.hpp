@@ -44,18 +44,12 @@ namespace System::ComponentModel::Design::Serialization {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: RootDesignerSerializerAttribute
     RootDesignerSerializerAttribute(bool reloadable_ = {}, ::Il2CppString* serializerTypeName_ = {}, ::Il2CppString* serializerBaseTypeName_ = {}) noexcept : reloadable{reloadable_}, serializerTypeName{serializerTypeName_}, serializerBaseTypeName{serializerBaseTypeName_} {}
-    // Get instance field: private System.Boolean reloadable
-    bool _get_reloadable();
-    // Set instance field: private System.Boolean reloadable
-    void _set_reloadable(bool value);
-    // Get instance field: private System.String serializerTypeName
-    ::Il2CppString* _get_serializerTypeName();
-    // Set instance field: private System.String serializerTypeName
-    void _set_serializerTypeName(::Il2CppString* value);
-    // Get instance field: private System.String serializerBaseTypeName
-    ::Il2CppString* _get_serializerBaseTypeName();
-    // Set instance field: private System.String serializerBaseTypeName
-    void _set_serializerBaseTypeName(::Il2CppString* value);
+    // Get instance field reference: private System.Boolean reloadable
+    bool& dyn_reloadable();
+    // Get instance field reference: private System.String serializerTypeName
+    ::Il2CppString*& dyn_serializerTypeName();
+    // Get instance field reference: private System.String serializerBaseTypeName
+    ::Il2CppString*& dyn_serializerBaseTypeName();
     // public System.Void .ctor(System.String serializerTypeName, System.String baseSerializerTypeName, System.Boolean reloadable)
     // Offset: 0x18AED68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -39,14 +39,10 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Int32 dataOffset
-    int _get_dataOffset();
-    // Set instance field: public System.Int32 dataOffset
-    void _set_dataOffset(int value);
-    // Get instance field: public System.Int32[] entries
-    ::Array<int>* _get_entries();
-    // Set instance field: public System.Int32[] entries
-    void _set_entries(::Array<int>* value);
+    // Get instance field reference: public System.Int32 dataOffset
+    int& dyn_dataOffset();
+    // Get instance field reference: public System.Int32[] entries
+    ::Array<int>*& dyn_entries();
   }; // UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData/UnityEngine.AddressableAssets.ResourceLocators.Bucket
   #pragma pack(pop)
   static check_size<sizeof(ContentCatalogData::Bucket), 8 + sizeof(::Array<int>*)> __UnityEngine_AddressableAssets_ResourceLocators_ContentCatalogData_BucketSizeCheck;

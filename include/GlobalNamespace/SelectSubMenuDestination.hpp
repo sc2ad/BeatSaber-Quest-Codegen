@@ -88,10 +88,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::SelectSubMenuDestination::Destination _get_Multiplayer();
       // Set static field: static public SelectSubMenuDestination/Destination Multiplayer
       static void _set_Multiplayer(GlobalNamespace::SelectSubMenuDestination::Destination value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // SelectSubMenuDestination/Destination
     #pragma pack(pop)
     static check_size<sizeof(SelectSubMenuDestination::Destination), 0 + sizeof(int)> __GlobalNamespace_SelectSubMenuDestination_DestinationSizeCheck;
@@ -108,10 +106,8 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::SelectSubMenuDestination::Destination() const noexcept {
       return menuDestination;
     }
-    // Get instance field: public readonly SelectSubMenuDestination/Destination menuDestination
-    GlobalNamespace::SelectSubMenuDestination::Destination _get_menuDestination();
-    // Set instance field: public readonly SelectSubMenuDestination/Destination menuDestination
-    void _set_menuDestination(GlobalNamespace::SelectSubMenuDestination::Destination value);
+    // Get instance field reference: public readonly SelectSubMenuDestination/Destination menuDestination
+    GlobalNamespace::SelectSubMenuDestination::Destination& dyn_menuDestination();
     // public System.Void .ctor(SelectSubMenuDestination/Destination menuDestination)
     // Offset: 0x119DE40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

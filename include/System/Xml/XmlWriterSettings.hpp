@@ -211,98 +211,52 @@ namespace System::Xml {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: XmlWriterSettings
     XmlWriterSettings(bool useAsync_ = {}, System::Text::Encoding* encoding_ = {}, bool omitXmlDecl_ = {}, System::Xml::NewLineHandling newLineHandling_ = {}, ::Il2CppString* newLineChars_ = {}, System::Xml::TriState indent_ = {}, ::Il2CppString* indentChars_ = {}, bool newLineOnAttributes_ = {}, bool closeOutput_ = {}, System::Xml::NamespaceHandling namespaceHandling_ = {}, System::Xml::ConformanceLevel conformanceLevel_ = {}, bool checkCharacters_ = {}, bool writeEndDocumentOnClose_ = {}, System::Xml::XmlOutputMethod outputMethod_ = {}, System::Collections::Generic::List_1<System::Xml::XmlQualifiedName*>* cdataSections_ = {}, bool doNotEscapeUriAttributes_ = {}, bool mergeCDataSections_ = {}, ::Il2CppString* mediaType_ = {}, ::Il2CppString* docTypeSystem_ = {}, ::Il2CppString* docTypePublic_ = {}, System::Xml::XmlStandalone standalone_ = {}, bool autoXmlDecl_ = {}, bool isReadOnly_ = {}) noexcept : useAsync{useAsync_}, encoding{encoding_}, omitXmlDecl{omitXmlDecl_}, newLineHandling{newLineHandling_}, newLineChars{newLineChars_}, indent{indent_}, indentChars{indentChars_}, newLineOnAttributes{newLineOnAttributes_}, closeOutput{closeOutput_}, namespaceHandling{namespaceHandling_}, conformanceLevel{conformanceLevel_}, checkCharacters{checkCharacters_}, writeEndDocumentOnClose{writeEndDocumentOnClose_}, outputMethod{outputMethod_}, cdataSections{cdataSections_}, doNotEscapeUriAttributes{doNotEscapeUriAttributes_}, mergeCDataSections{mergeCDataSections_}, mediaType{mediaType_}, docTypeSystem{docTypeSystem_}, docTypePublic{docTypePublic_}, standalone{standalone_}, autoXmlDecl{autoXmlDecl_}, isReadOnly{isReadOnly_} {}
-    // Get instance field: private System.Boolean useAsync
-    bool _get_useAsync();
-    // Set instance field: private System.Boolean useAsync
-    void _set_useAsync(bool value);
-    // Get instance field: private System.Text.Encoding encoding
-    System::Text::Encoding* _get_encoding();
-    // Set instance field: private System.Text.Encoding encoding
-    void _set_encoding(System::Text::Encoding* value);
-    // Get instance field: private System.Boolean omitXmlDecl
-    bool _get_omitXmlDecl();
-    // Set instance field: private System.Boolean omitXmlDecl
-    void _set_omitXmlDecl(bool value);
-    // Get instance field: private System.Xml.NewLineHandling newLineHandling
-    System::Xml::NewLineHandling _get_newLineHandling();
-    // Set instance field: private System.Xml.NewLineHandling newLineHandling
-    void _set_newLineHandling(System::Xml::NewLineHandling value);
-    // Get instance field: private System.String newLineChars
-    ::Il2CppString* _get_newLineChars();
-    // Set instance field: private System.String newLineChars
-    void _set_newLineChars(::Il2CppString* value);
-    // Get instance field: private System.Xml.TriState indent
-    System::Xml::TriState _get_indent();
-    // Set instance field: private System.Xml.TriState indent
-    void _set_indent(System::Xml::TriState value);
-    // Get instance field: private System.String indentChars
-    ::Il2CppString* _get_indentChars();
-    // Set instance field: private System.String indentChars
-    void _set_indentChars(::Il2CppString* value);
-    // Get instance field: private System.Boolean newLineOnAttributes
-    bool _get_newLineOnAttributes();
-    // Set instance field: private System.Boolean newLineOnAttributes
-    void _set_newLineOnAttributes(bool value);
-    // Get instance field: private System.Boolean closeOutput
-    bool _get_closeOutput();
-    // Set instance field: private System.Boolean closeOutput
-    void _set_closeOutput(bool value);
-    // Get instance field: private System.Xml.NamespaceHandling namespaceHandling
-    System::Xml::NamespaceHandling _get_namespaceHandling();
-    // Set instance field: private System.Xml.NamespaceHandling namespaceHandling
-    void _set_namespaceHandling(System::Xml::NamespaceHandling value);
-    // Get instance field: private System.Xml.ConformanceLevel conformanceLevel
-    System::Xml::ConformanceLevel _get_conformanceLevel();
-    // Set instance field: private System.Xml.ConformanceLevel conformanceLevel
-    void _set_conformanceLevel(System::Xml::ConformanceLevel value);
-    // Get instance field: private System.Boolean checkCharacters
-    bool _get_checkCharacters();
-    // Set instance field: private System.Boolean checkCharacters
-    void _set_checkCharacters(bool value);
-    // Get instance field: private System.Boolean writeEndDocumentOnClose
-    bool _get_writeEndDocumentOnClose();
-    // Set instance field: private System.Boolean writeEndDocumentOnClose
-    void _set_writeEndDocumentOnClose(bool value);
-    // Get instance field: private System.Xml.XmlOutputMethod outputMethod
-    System::Xml::XmlOutputMethod _get_outputMethod();
-    // Set instance field: private System.Xml.XmlOutputMethod outputMethod
-    void _set_outputMethod(System::Xml::XmlOutputMethod value);
-    // Get instance field: private System.Collections.Generic.List`1<System.Xml.XmlQualifiedName> cdataSections
-    System::Collections::Generic::List_1<System::Xml::XmlQualifiedName*>* _get_cdataSections();
-    // Set instance field: private System.Collections.Generic.List`1<System.Xml.XmlQualifiedName> cdataSections
-    void _set_cdataSections(System::Collections::Generic::List_1<System::Xml::XmlQualifiedName*>* value);
-    // Get instance field: private System.Boolean doNotEscapeUriAttributes
-    bool _get_doNotEscapeUriAttributes();
-    // Set instance field: private System.Boolean doNotEscapeUriAttributes
-    void _set_doNotEscapeUriAttributes(bool value);
-    // Get instance field: private System.Boolean mergeCDataSections
-    bool _get_mergeCDataSections();
-    // Set instance field: private System.Boolean mergeCDataSections
-    void _set_mergeCDataSections(bool value);
-    // Get instance field: private System.String mediaType
-    ::Il2CppString* _get_mediaType();
-    // Set instance field: private System.String mediaType
-    void _set_mediaType(::Il2CppString* value);
-    // Get instance field: private System.String docTypeSystem
-    ::Il2CppString* _get_docTypeSystem();
-    // Set instance field: private System.String docTypeSystem
-    void _set_docTypeSystem(::Il2CppString* value);
-    // Get instance field: private System.String docTypePublic
-    ::Il2CppString* _get_docTypePublic();
-    // Set instance field: private System.String docTypePublic
-    void _set_docTypePublic(::Il2CppString* value);
-    // Get instance field: private System.Xml.XmlStandalone standalone
-    System::Xml::XmlStandalone _get_standalone();
-    // Set instance field: private System.Xml.XmlStandalone standalone
-    void _set_standalone(System::Xml::XmlStandalone value);
-    // Get instance field: private System.Boolean autoXmlDecl
-    bool _get_autoXmlDecl();
-    // Set instance field: private System.Boolean autoXmlDecl
-    void _set_autoXmlDecl(bool value);
-    // Get instance field: private System.Boolean isReadOnly
-    bool _get_isReadOnly();
-    // Set instance field: private System.Boolean isReadOnly
-    void _set_isReadOnly(bool value);
+    // Get instance field reference: private System.Boolean useAsync
+    bool& dyn_useAsync();
+    // Get instance field reference: private System.Text.Encoding encoding
+    System::Text::Encoding*& dyn_encoding();
+    // Get instance field reference: private System.Boolean omitXmlDecl
+    bool& dyn_omitXmlDecl();
+    // Get instance field reference: private System.Xml.NewLineHandling newLineHandling
+    System::Xml::NewLineHandling& dyn_newLineHandling();
+    // Get instance field reference: private System.String newLineChars
+    ::Il2CppString*& dyn_newLineChars();
+    // Get instance field reference: private System.Xml.TriState indent
+    System::Xml::TriState& dyn_indent();
+    // Get instance field reference: private System.String indentChars
+    ::Il2CppString*& dyn_indentChars();
+    // Get instance field reference: private System.Boolean newLineOnAttributes
+    bool& dyn_newLineOnAttributes();
+    // Get instance field reference: private System.Boolean closeOutput
+    bool& dyn_closeOutput();
+    // Get instance field reference: private System.Xml.NamespaceHandling namespaceHandling
+    System::Xml::NamespaceHandling& dyn_namespaceHandling();
+    // Get instance field reference: private System.Xml.ConformanceLevel conformanceLevel
+    System::Xml::ConformanceLevel& dyn_conformanceLevel();
+    // Get instance field reference: private System.Boolean checkCharacters
+    bool& dyn_checkCharacters();
+    // Get instance field reference: private System.Boolean writeEndDocumentOnClose
+    bool& dyn_writeEndDocumentOnClose();
+    // Get instance field reference: private System.Xml.XmlOutputMethod outputMethod
+    System::Xml::XmlOutputMethod& dyn_outputMethod();
+    // Get instance field reference: private System.Collections.Generic.List`1<System.Xml.XmlQualifiedName> cdataSections
+    System::Collections::Generic::List_1<System::Xml::XmlQualifiedName*>*& dyn_cdataSections();
+    // Get instance field reference: private System.Boolean doNotEscapeUriAttributes
+    bool& dyn_doNotEscapeUriAttributes();
+    // Get instance field reference: private System.Boolean mergeCDataSections
+    bool& dyn_mergeCDataSections();
+    // Get instance field reference: private System.String mediaType
+    ::Il2CppString*& dyn_mediaType();
+    // Get instance field reference: private System.String docTypeSystem
+    ::Il2CppString*& dyn_docTypeSystem();
+    // Get instance field reference: private System.String docTypePublic
+    ::Il2CppString*& dyn_docTypePublic();
+    // Get instance field reference: private System.Xml.XmlStandalone standalone
+    System::Xml::XmlStandalone& dyn_standalone();
+    // Get instance field reference: private System.Boolean autoXmlDecl
+    bool& dyn_autoXmlDecl();
+    // Get instance field reference: private System.Boolean isReadOnly
+    bool& dyn_isReadOnly();
     // public System.Boolean get_Async()
     // Offset: 0x23F01CC
     bool get_Async();

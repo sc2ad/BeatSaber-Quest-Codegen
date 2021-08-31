@@ -97,42 +97,24 @@ namespace System::Net {
     static_assert(sizeof(System::Net::ReadState) == 0x4);
     // Creating value type constructor for type: WebConnectionData
     WebConnectionData(System::Net::HttpWebRequest* request_ = {}, int StatusCode_ = {}, ::Il2CppString* StatusDescription_ = {}, System::Net::WebHeaderCollection* Headers_ = {}, System::Version* Version_ = {}, System::Version* ProxyVersion_ = {}, System::IO::Stream* stream_ = {}, ::Array<::Il2CppString*>* Challenge_ = {}, System::Net::ReadState readState_ = {}) noexcept : request{request_}, StatusCode{StatusCode_}, StatusDescription{StatusDescription_}, Headers{Headers_}, Version{Version_}, ProxyVersion{ProxyVersion_}, stream{stream_}, Challenge{Challenge_}, readState{readState_} {}
-    // Get instance field: private System.Net.HttpWebRequest _request
-    System::Net::HttpWebRequest* _get__request();
-    // Set instance field: private System.Net.HttpWebRequest _request
-    void _set__request(System::Net::HttpWebRequest* value);
-    // Get instance field: public System.Int32 StatusCode
-    int _get_StatusCode();
-    // Set instance field: public System.Int32 StatusCode
-    void _set_StatusCode(int value);
-    // Get instance field: public System.String StatusDescription
-    ::Il2CppString* _get_StatusDescription();
-    // Set instance field: public System.String StatusDescription
-    void _set_StatusDescription(::Il2CppString* value);
-    // Get instance field: public System.Net.WebHeaderCollection Headers
-    System::Net::WebHeaderCollection* _get_Headers();
-    // Set instance field: public System.Net.WebHeaderCollection Headers
-    void _set_Headers(System::Net::WebHeaderCollection* value);
-    // Get instance field: public System.Version Version
-    System::Version* _get_Version();
-    // Set instance field: public System.Version Version
-    void _set_Version(System::Version* value);
-    // Get instance field: public System.Version ProxyVersion
-    System::Version* _get_ProxyVersion();
-    // Set instance field: public System.Version ProxyVersion
-    void _set_ProxyVersion(System::Version* value);
-    // Get instance field: public System.IO.Stream stream
-    System::IO::Stream* _get_stream();
-    // Set instance field: public System.IO.Stream stream
-    void _set_stream(System::IO::Stream* value);
-    // Get instance field: public System.String[] Challenge
-    ::Array<::Il2CppString*>* _get_Challenge();
-    // Set instance field: public System.String[] Challenge
-    void _set_Challenge(::Array<::Il2CppString*>* value);
-    // Get instance field: private System.Net.ReadState _readState
-    System::Net::ReadState _get__readState();
-    // Set instance field: private System.Net.ReadState _readState
-    void _set__readState(System::Net::ReadState value);
+    // Get instance field reference: private System.Net.HttpWebRequest _request
+    System::Net::HttpWebRequest*& dyn__request();
+    // Get instance field reference: public System.Int32 StatusCode
+    int& dyn_StatusCode();
+    // Get instance field reference: public System.String StatusDescription
+    ::Il2CppString*& dyn_StatusDescription();
+    // Get instance field reference: public System.Net.WebHeaderCollection Headers
+    System::Net::WebHeaderCollection*& dyn_Headers();
+    // Get instance field reference: public System.Version Version
+    System::Version*& dyn_Version();
+    // Get instance field reference: public System.Version ProxyVersion
+    System::Version*& dyn_ProxyVersion();
+    // Get instance field reference: public System.IO.Stream stream
+    System::IO::Stream*& dyn_stream();
+    // Get instance field reference: public System.String[] Challenge
+    ::Array<::Il2CppString*>*& dyn_Challenge();
+    // Get instance field reference: private System.Net.ReadState _readState
+    System::Net::ReadState& dyn__readState();
     // public System.Net.HttpWebRequest get_request()
     // Offset: 0x15D1748
     System::Net::HttpWebRequest* get_request();

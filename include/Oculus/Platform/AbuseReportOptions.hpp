@@ -39,10 +39,8 @@ namespace Oculus::Platform {
     constexpr operator System::IntPtr() const noexcept {
       return Handle;
     }
-    // Get instance field: private System.IntPtr Handle
-    System::IntPtr _get_Handle();
-    // Set instance field: private System.IntPtr Handle
-    void _set_Handle(System::IntPtr value);
+    // Get instance field reference: private System.IntPtr Handle
+    System::IntPtr& dyn_Handle();
     // public System.Void SetPreventPeopleChooser(System.Boolean value)
     // Offset: 0x1C80954
     void SetPreventPeopleChooser(bool value);

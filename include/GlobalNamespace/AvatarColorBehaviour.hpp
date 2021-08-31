@@ -72,26 +72,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: AvatarColorBehaviour
     AvatarColorBehaviour(UnityEngine::Color startColor_ = {}, UnityEngine::Color endColor_ = {}, Tweening::EaseType easeType_ = {}, GlobalNamespace::AvatarVisualController* avatarVisualController_ = {}, float duration_ = {}) noexcept : startColor{startColor_}, endColor{endColor_}, easeType{easeType_}, avatarVisualController{avatarVisualController_}, duration{duration_} {}
-    // Get instance field: public UnityEngine.Color _startColor
-    UnityEngine::Color _get__startColor();
-    // Set instance field: public UnityEngine.Color _startColor
-    void _set__startColor(UnityEngine::Color value);
-    // Get instance field: public UnityEngine.Color _endColor
-    UnityEngine::Color _get__endColor();
-    // Set instance field: public UnityEngine.Color _endColor
-    void _set__endColor(UnityEngine::Color value);
-    // Get instance field: public Tweening.EaseType _easeType
-    Tweening::EaseType _get__easeType();
-    // Set instance field: public Tweening.EaseType _easeType
-    void _set__easeType(Tweening::EaseType value);
-    // Get instance field: private AvatarVisualController _avatarVisualController
-    GlobalNamespace::AvatarVisualController* _get__avatarVisualController();
-    // Set instance field: private AvatarVisualController _avatarVisualController
-    void _set__avatarVisualController(GlobalNamespace::AvatarVisualController* value);
-    // Get instance field: private System.Single _duration
-    float _get__duration();
-    // Set instance field: private System.Single _duration
-    void _set__duration(float value);
+    // Get instance field reference: public UnityEngine.Color _startColor
+    UnityEngine::Color& dyn__startColor();
+    // Get instance field reference: public UnityEngine.Color _endColor
+    UnityEngine::Color& dyn__endColor();
+    // Get instance field reference: public Tweening.EaseType _easeType
+    Tweening::EaseType& dyn__easeType();
+    // Get instance field reference: private AvatarVisualController _avatarVisualController
+    GlobalNamespace::AvatarVisualController*& dyn__avatarVisualController();
+    // Get instance field reference: private System.Single _duration
+    float& dyn__duration();
     // public System.Void .ctor()
     // Offset: 0x117FBEC
     // Implemented from: UnityEngine.Playables.PlayableBehaviour

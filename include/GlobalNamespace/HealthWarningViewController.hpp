@@ -102,42 +102,24 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action*) == 0x8);
     // Creating value type constructor for type: HealthWarningViewController
     HealthWarningViewController(UnityEngine::UI::Button* continueButton_ = {}, UnityEngine::UI::Button* privacyPolicyButton_ = {}, UnityEngine::UI::Button* openDataPrivacyPageButton_ = {}, UnityEngine::GameObject* privacyAgreeToPrivacyPolicyLabel_ = {}, GlobalNamespace::IAnalyticsModel* analyticsModel_ = {}, GlobalNamespace::AppStaticSettingsSO* appStaticSettings_ = {}, System::Action* privacyPolicyButtonPressedEvent_ = {}, System::Action* openDataPrivacyPageButtonPressedEvent_ = {}, System::Action* didFinishEvent_ = {}) noexcept : continueButton{continueButton_}, privacyPolicyButton{privacyPolicyButton_}, openDataPrivacyPageButton{openDataPrivacyPageButton_}, privacyAgreeToPrivacyPolicyLabel{privacyAgreeToPrivacyPolicyLabel_}, analyticsModel{analyticsModel_}, appStaticSettings{appStaticSettings_}, privacyPolicyButtonPressedEvent{privacyPolicyButtonPressedEvent_}, openDataPrivacyPageButtonPressedEvent{openDataPrivacyPageButtonPressedEvent_}, didFinishEvent{didFinishEvent_} {}
-    // Get instance field: private UnityEngine.UI.Button _continueButton
-    UnityEngine::UI::Button* _get__continueButton();
-    // Set instance field: private UnityEngine.UI.Button _continueButton
-    void _set__continueButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _privacyPolicyButton
-    UnityEngine::UI::Button* _get__privacyPolicyButton();
-    // Set instance field: private UnityEngine.UI.Button _privacyPolicyButton
-    void _set__privacyPolicyButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _openDataPrivacyPageButton
-    UnityEngine::UI::Button* _get__openDataPrivacyPageButton();
-    // Set instance field: private UnityEngine.UI.Button _openDataPrivacyPageButton
-    void _set__openDataPrivacyPageButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.GameObject _privacyAgreeToPrivacyPolicyLabel
-    UnityEngine::GameObject* _get__privacyAgreeToPrivacyPolicyLabel();
-    // Set instance field: private UnityEngine.GameObject _privacyAgreeToPrivacyPolicyLabel
-    void _set__privacyAgreeToPrivacyPolicyLabel(UnityEngine::GameObject* value);
-    // Get instance field: private IAnalyticsModel _analyticsModel
-    GlobalNamespace::IAnalyticsModel* _get__analyticsModel();
-    // Set instance field: private IAnalyticsModel _analyticsModel
-    void _set__analyticsModel(GlobalNamespace::IAnalyticsModel* value);
-    // Get instance field: private AppStaticSettingsSO _appStaticSettings
-    GlobalNamespace::AppStaticSettingsSO* _get__appStaticSettings();
-    // Set instance field: private AppStaticSettingsSO _appStaticSettings
-    void _set__appStaticSettings(GlobalNamespace::AppStaticSettingsSO* value);
-    // Get instance field: private System.Action privacyPolicyButtonPressedEvent
-    System::Action* _get_privacyPolicyButtonPressedEvent();
-    // Set instance field: private System.Action privacyPolicyButtonPressedEvent
-    void _set_privacyPolicyButtonPressedEvent(System::Action* value);
-    // Get instance field: private System.Action openDataPrivacyPageButtonPressedEvent
-    System::Action* _get_openDataPrivacyPageButtonPressedEvent();
-    // Set instance field: private System.Action openDataPrivacyPageButtonPressedEvent
-    void _set_openDataPrivacyPageButtonPressedEvent(System::Action* value);
-    // Get instance field: private System.Action didFinishEvent
-    System::Action* _get_didFinishEvent();
-    // Set instance field: private System.Action didFinishEvent
-    void _set_didFinishEvent(System::Action* value);
+    // Get instance field reference: private UnityEngine.UI.Button _continueButton
+    UnityEngine::UI::Button*& dyn__continueButton();
+    // Get instance field reference: private UnityEngine.UI.Button _privacyPolicyButton
+    UnityEngine::UI::Button*& dyn__privacyPolicyButton();
+    // Get instance field reference: private UnityEngine.UI.Button _openDataPrivacyPageButton
+    UnityEngine::UI::Button*& dyn__openDataPrivacyPageButton();
+    // Get instance field reference: private UnityEngine.GameObject _privacyAgreeToPrivacyPolicyLabel
+    UnityEngine::GameObject*& dyn__privacyAgreeToPrivacyPolicyLabel();
+    // Get instance field reference: private IAnalyticsModel _analyticsModel
+    GlobalNamespace::IAnalyticsModel*& dyn__analyticsModel();
+    // Get instance field reference: private AppStaticSettingsSO _appStaticSettings
+    GlobalNamespace::AppStaticSettingsSO*& dyn__appStaticSettings();
+    // Get instance field reference: private System.Action privacyPolicyButtonPressedEvent
+    System::Action*& dyn_privacyPolicyButtonPressedEvent();
+    // Get instance field reference: private System.Action openDataPrivacyPageButtonPressedEvent
+    System::Action*& dyn_openDataPrivacyPageButtonPressedEvent();
+    // Get instance field reference: private System.Action didFinishEvent
+    System::Action*& dyn_didFinishEvent();
     // public System.Void add_privacyPolicyButtonPressedEvent(System.Action value)
     // Offset: 0x1142BB4
     void add_privacyPolicyButtonPressedEvent(System::Action* value);

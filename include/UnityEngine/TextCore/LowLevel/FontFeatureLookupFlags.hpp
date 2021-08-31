@@ -51,10 +51,8 @@ namespace UnityEngine::TextCore::LowLevel {
     static UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags _get_IgnoreSpacingAdjustments();
     // Set static field: static public UnityEngine.TextCore.LowLevel.FontFeatureLookupFlags IgnoreSpacingAdjustments
     static void _set_IgnoreSpacingAdjustments(UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.TextCore.LowLevel.FontFeatureLookupFlags
   #pragma pack(pop)
   static check_size<sizeof(FontFeatureLookupFlags), 0 + sizeof(int)> __UnityEngine_TextCore_LowLevel_FontFeatureLookupFlagsSizeCheck;

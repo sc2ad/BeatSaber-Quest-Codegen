@@ -44,22 +44,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: AutoSetupData
     AutoSetupData(bool selectBasedOnSuggestions_ = {}, bool autoStartWhenAllReady_ = {}, bool forceAutoStartAfterSongSelection_ = {}, bool randomSongIfNoneSuggested_ = {}) noexcept : selectBasedOnSuggestions{selectBasedOnSuggestions_}, autoStartWhenAllReady{autoStartWhenAllReady_}, forceAutoStartAfterSongSelection{forceAutoStartAfterSongSelection_}, randomSongIfNoneSuggested{randomSongIfNoneSuggested_} {}
-    // Get instance field: public System.Boolean selectBasedOnSuggestions
-    bool _get_selectBasedOnSuggestions();
-    // Set instance field: public System.Boolean selectBasedOnSuggestions
-    void _set_selectBasedOnSuggestions(bool value);
-    // Get instance field: public System.Boolean autoStartWhenAllReady
-    bool _get_autoStartWhenAllReady();
-    // Set instance field: public System.Boolean autoStartWhenAllReady
-    void _set_autoStartWhenAllReady(bool value);
-    // Get instance field: public System.Boolean forceAutoStartAfterSongSelection
-    bool _get_forceAutoStartAfterSongSelection();
-    // Set instance field: public System.Boolean forceAutoStartAfterSongSelection
-    void _set_forceAutoStartAfterSongSelection(bool value);
-    // Get instance field: public System.Boolean randomSongIfNoneSuggested
-    bool _get_randomSongIfNoneSuggested();
-    // Set instance field: public System.Boolean randomSongIfNoneSuggested
-    void _set_randomSongIfNoneSuggested(bool value);
+    // Get instance field reference: public System.Boolean selectBasedOnSuggestions
+    bool& dyn_selectBasedOnSuggestions();
+    // Get instance field reference: public System.Boolean autoStartWhenAllReady
+    bool& dyn_autoStartWhenAllReady();
+    // Get instance field reference: public System.Boolean forceAutoStartAfterSongSelection
+    bool& dyn_forceAutoStartAfterSongSelection();
+    // Get instance field reference: public System.Boolean randomSongIfNoneSuggested
+    bool& dyn_randomSongIfNoneSuggested();
     // public System.Void .ctor()
     // Offset: 0x117F284
     // Implemented from: System.Object

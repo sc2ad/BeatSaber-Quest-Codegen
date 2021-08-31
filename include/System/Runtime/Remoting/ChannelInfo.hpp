@@ -36,10 +36,8 @@ namespace System::Runtime::Remoting {
     constexpr operator ::Array<::Il2CppObject*>*() const noexcept {
       return channelData;
     }
-    // Get instance field: private System.Object[] channelData
-    ::Array<::Il2CppObject*>* _get_channelData();
-    // Set instance field: private System.Object[] channelData
-    void _set_channelData(::Array<::Il2CppObject*>* value);
+    // Get instance field reference: private System.Object[] channelData
+    ::Array<::Il2CppObject*>*& dyn_channelData();
     // public System.Object[] get_ChannelData()
     // Offset: 0x148D874
     ::Array<::Il2CppObject*>* get_ChannelData();

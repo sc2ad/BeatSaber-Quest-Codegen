@@ -80,30 +80,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::PatternFightSceneSetupData*) == 0x8);
     // Creating value type constructor for type: PatternFightSceneSetup
     PatternFightSceneSetup(UnityEngine::AudioClip* testAudioClip_ = {}, float testAudioClipBPM_ = {}, GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter* beatmapObjectSpawnControllerPlayerHeightSetterPrefab_ = {}, GlobalNamespace::PlayerHeightDetector* playerHeightDetectorPrefab_ = {}, GlobalNamespace::AudioManagerSO* audioMixer_ = {}, GlobalNamespace::PatternFightSceneSetupData* sceneSetupData_ = {}) noexcept : testAudioClip{testAudioClip_}, testAudioClipBPM{testAudioClipBPM_}, beatmapObjectSpawnControllerPlayerHeightSetterPrefab{beatmapObjectSpawnControllerPlayerHeightSetterPrefab_}, playerHeightDetectorPrefab{playerHeightDetectorPrefab_}, audioMixer{audioMixer_}, sceneSetupData{sceneSetupData_} {}
-    // Get instance field: private UnityEngine.AudioClip _testAudioClip
-    UnityEngine::AudioClip* _get__testAudioClip();
-    // Set instance field: private UnityEngine.AudioClip _testAudioClip
-    void _set__testAudioClip(UnityEngine::AudioClip* value);
-    // Get instance field: private System.Single _testAudioClipBPM
-    float _get__testAudioClipBPM();
-    // Set instance field: private System.Single _testAudioClipBPM
-    void _set__testAudioClipBPM(float value);
-    // Get instance field: private BeatmapObjectSpawnControllerPlayerHeightSetter _beatmapObjectSpawnControllerPlayerHeightSetterPrefab
-    GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter* _get__beatmapObjectSpawnControllerPlayerHeightSetterPrefab();
-    // Set instance field: private BeatmapObjectSpawnControllerPlayerHeightSetter _beatmapObjectSpawnControllerPlayerHeightSetterPrefab
-    void _set__beatmapObjectSpawnControllerPlayerHeightSetterPrefab(GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter* value);
-    // Get instance field: private PlayerHeightDetector _playerHeightDetectorPrefab
-    GlobalNamespace::PlayerHeightDetector* _get__playerHeightDetectorPrefab();
-    // Set instance field: private PlayerHeightDetector _playerHeightDetectorPrefab
-    void _set__playerHeightDetectorPrefab(GlobalNamespace::PlayerHeightDetector* value);
-    // Get instance field: private AudioManagerSO _audioMixer
-    GlobalNamespace::AudioManagerSO* _get__audioMixer();
-    // Set instance field: private AudioManagerSO _audioMixer
-    void _set__audioMixer(GlobalNamespace::AudioManagerSO* value);
-    // Get instance field: private PatternFightSceneSetupData _sceneSetupData
-    GlobalNamespace::PatternFightSceneSetupData* _get__sceneSetupData();
-    // Set instance field: private PatternFightSceneSetupData _sceneSetupData
-    void _set__sceneSetupData(GlobalNamespace::PatternFightSceneSetupData* value);
+    // Get instance field reference: private UnityEngine.AudioClip _testAudioClip
+    UnityEngine::AudioClip*& dyn__testAudioClip();
+    // Get instance field reference: private System.Single _testAudioClipBPM
+    float& dyn__testAudioClipBPM();
+    // Get instance field reference: private BeatmapObjectSpawnControllerPlayerHeightSetter _beatmapObjectSpawnControllerPlayerHeightSetterPrefab
+    GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter*& dyn__beatmapObjectSpawnControllerPlayerHeightSetterPrefab();
+    // Get instance field reference: private PlayerHeightDetector _playerHeightDetectorPrefab
+    GlobalNamespace::PlayerHeightDetector*& dyn__playerHeightDetectorPrefab();
+    // Get instance field reference: private AudioManagerSO _audioMixer
+    GlobalNamespace::AudioManagerSO*& dyn__audioMixer();
+    // Get instance field reference: private PatternFightSceneSetupData _sceneSetupData
+    GlobalNamespace::PatternFightSceneSetupData*& dyn__sceneSetupData();
     // public System.Void .ctor()
     // Offset: 0x10305FC
     // Implemented from: Zenject.MonoInstaller

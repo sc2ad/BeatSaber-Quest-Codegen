@@ -43,10 +43,8 @@ namespace Zenject {
     AnimatorIkHandlerManager(System::Collections::Generic::List_1<Zenject::IAnimatorIkHandler*>* handlers_ = {}) noexcept : handlers{handlers_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Collections.Generic.List`1<Zenject.IAnimatorIkHandler> _handlers
-    System::Collections::Generic::List_1<Zenject::IAnimatorIkHandler*>* _get__handlers();
-    // Set instance field: private System.Collections.Generic.List`1<Zenject.IAnimatorIkHandler> _handlers
-    void _set__handlers(System::Collections::Generic::List_1<Zenject::IAnimatorIkHandler*>* value);
+    // Get instance field reference: private System.Collections.Generic.List`1<Zenject.IAnimatorIkHandler> _handlers
+    System::Collections::Generic::List_1<Zenject::IAnimatorIkHandler*>*& dyn__handlers();
     // public System.Void Construct(System.Collections.Generic.List`1<Zenject.IAnimatorIkHandler> handlers)
     // Offset: 0x13DA8E8
     void Construct(System::Collections::Generic::List_1<Zenject::IAnimatorIkHandler*>* handlers);

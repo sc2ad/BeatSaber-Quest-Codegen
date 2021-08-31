@@ -65,18 +65,12 @@ namespace GlobalNamespace {
     MenuSceneSetup(HMUI::FlowCoordinator* rootFlowCoordinator_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, HMUI::HierarchyManager* hierarchyManager_ = {}) noexcept : rootFlowCoordinator{rootFlowCoordinator_}, gameScenesManager{gameScenesManager_}, hierarchyManager{hierarchyManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private HMUI.FlowCoordinator _rootFlowCoordinator
-    HMUI::FlowCoordinator* _get__rootFlowCoordinator();
-    // Set instance field: private HMUI.FlowCoordinator _rootFlowCoordinator
-    void _set__rootFlowCoordinator(HMUI::FlowCoordinator* value);
-    // Get instance field: private readonly GameScenesManager _gameScenesManager
-    GlobalNamespace::GameScenesManager* _get__gameScenesManager();
-    // Set instance field: private readonly GameScenesManager _gameScenesManager
-    void _set__gameScenesManager(GlobalNamespace::GameScenesManager* value);
-    // Get instance field: private readonly HMUI.HierarchyManager _hierarchyManager
-    HMUI::HierarchyManager* _get__hierarchyManager();
-    // Set instance field: private readonly HMUI.HierarchyManager _hierarchyManager
-    void _set__hierarchyManager(HMUI::HierarchyManager* value);
+    // Get instance field reference: private HMUI.FlowCoordinator _rootFlowCoordinator
+    HMUI::FlowCoordinator*& dyn__rootFlowCoordinator();
+    // Get instance field reference: private readonly GameScenesManager _gameScenesManager
+    GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
+    // Get instance field reference: private readonly HMUI.HierarchyManager _hierarchyManager
+    HMUI::HierarchyManager*& dyn__hierarchyManager();
     // protected System.Collections.IEnumerator Start()
     // Offset: 0x10E63F4
     System::Collections::IEnumerator* Start();

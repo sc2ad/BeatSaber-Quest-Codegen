@@ -30,10 +30,8 @@ namespace GlobalNamespace {
     MissionHelpSO(::Il2CppString* missionHelpId_ = {}) noexcept : missionHelpId{missionHelpId_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.String _missionHelpId
-    ::Il2CppString* _get__missionHelpId();
-    // Set instance field: private System.String _missionHelpId
-    void _set__missionHelpId(::Il2CppString* value);
+    // Get instance field reference: private System.String _missionHelpId
+    ::Il2CppString*& dyn__missionHelpId();
     // public System.String get_missionHelpId()
     // Offset: 0x11D1128
     ::Il2CppString* get_missionHelpId();

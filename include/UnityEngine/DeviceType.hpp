@@ -56,10 +56,8 @@ namespace UnityEngine {
     static UnityEngine::DeviceType _get_Desktop();
     // Set static field: static public UnityEngine.DeviceType Desktop
     static void _set_Desktop(UnityEngine::DeviceType value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.DeviceType
   #pragma pack(pop)
   static check_size<sizeof(DeviceType), 0 + sizeof(int)> __UnityEngine_DeviceTypeSizeCheck;

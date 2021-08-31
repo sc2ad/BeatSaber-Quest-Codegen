@@ -32,10 +32,8 @@ namespace System::Net {
     constexpr operator int() const noexcept {
       return m_DurationMilliseconds;
     }
-    // Get instance field: private readonly System.Int32 m_DurationMilliseconds
-    int _get_m_DurationMilliseconds();
-    // Set instance field: private readonly System.Int32 m_DurationMilliseconds
-    void _set_m_DurationMilliseconds(int value);
+    // Get instance field reference: private readonly System.Int32 m_DurationMilliseconds
+    int& dyn_m_DurationMilliseconds();
     // System.Void .ctor(System.Int32 durationMilliseconds)
     // Offset: 0x15C9B2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

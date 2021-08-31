@@ -92,10 +92,8 @@ namespace System::Globalization {
       static System::Globalization::DateTimeFormatInfoScanner::FoundDatePattern _get_FoundYMDPatternFlag();
       // Set static field: static public System.Globalization.DateTimeFormatInfoScanner/System.Globalization.FoundDatePattern FoundYMDPatternFlag
       static void _set_FoundYMDPatternFlag(System::Globalization::DateTimeFormatInfoScanner::FoundDatePattern value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // System.Globalization.DateTimeFormatInfoScanner/System.Globalization.FoundDatePattern
     #pragma pack(pop)
     static check_size<sizeof(DateTimeFormatInfoScanner::FoundDatePattern), 0 + sizeof(int)> __System_Globalization_DateTimeFormatInfoScanner_FoundDatePatternSizeCheck;
@@ -118,14 +116,10 @@ namespace System::Globalization {
     static System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* _get_s_knownWords();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.String,System.String> s_knownWords
     static void _set_s_knownWords(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* value);
-    // Get instance field: System.Collections.Generic.List`1<System.String> m_dateWords
-    System::Collections::Generic::List_1<::Il2CppString*>* _get_m_dateWords();
-    // Set instance field: System.Collections.Generic.List`1<System.String> m_dateWords
-    void _set_m_dateWords(System::Collections::Generic::List_1<::Il2CppString*>* value);
-    // Get instance field: private System.Globalization.DateTimeFormatInfoScanner/System.Globalization.FoundDatePattern m_ymdFlags
-    System::Globalization::DateTimeFormatInfoScanner::FoundDatePattern _get_m_ymdFlags();
-    // Set instance field: private System.Globalization.DateTimeFormatInfoScanner/System.Globalization.FoundDatePattern m_ymdFlags
-    void _set_m_ymdFlags(System::Globalization::DateTimeFormatInfoScanner::FoundDatePattern value);
+    // Get instance field reference: System.Collections.Generic.List`1<System.String> m_dateWords
+    System::Collections::Generic::List_1<::Il2CppString*>*& dyn_m_dateWords();
+    // Get instance field reference: private System.Globalization.DateTimeFormatInfoScanner/System.Globalization.FoundDatePattern m_ymdFlags
+    System::Globalization::DateTimeFormatInfoScanner::FoundDatePattern& dyn_m_ymdFlags();
     // static private System.Collections.Generic.Dictionary`2<System.String,System.String> get_KnownWords()
     // Offset: 0x1A0F18C
     static System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* get_KnownWords();

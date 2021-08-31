@@ -54,18 +54,12 @@ namespace System::Net {
     static_assert(sizeof(System::Net::SimpleAsyncCallback*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass11_0
     $$c__DisplayClass11_0(System::Func_2<System::Net::SimpleAsyncResult*, bool>* func_ = {}, ::Il2CppObject* locker_ = {}, System::Net::SimpleAsyncCallback* callback_ = {}) noexcept : func{func_}, locker{locker_}, callback{callback_} {}
-    // Get instance field: public System.Func`2<System.Net.SimpleAsyncResult,System.Boolean> func
-    System::Func_2<System::Net::SimpleAsyncResult*, bool>* _get_func();
-    // Set instance field: public System.Func`2<System.Net.SimpleAsyncResult,System.Boolean> func
-    void _set_func(System::Func_2<System::Net::SimpleAsyncResult*, bool>* value);
-    // Get instance field: public System.Object locker
-    ::Il2CppObject* _get_locker();
-    // Set instance field: public System.Object locker
-    void _set_locker(::Il2CppObject* value);
-    // Get instance field: public System.Net.SimpleAsyncCallback callback
-    System::Net::SimpleAsyncCallback* _get_callback();
-    // Set instance field: public System.Net.SimpleAsyncCallback callback
-    void _set_callback(System::Net::SimpleAsyncCallback* value);
+    // Get instance field reference: public System.Func`2<System.Net.SimpleAsyncResult,System.Boolean> func
+    System::Func_2<System::Net::SimpleAsyncResult*, bool>*& dyn_func();
+    // Get instance field reference: public System.Object locker
+    ::Il2CppObject*& dyn_locker();
+    // Get instance field reference: public System.Net.SimpleAsyncCallback callback
+    System::Net::SimpleAsyncCallback*& dyn_callback();
     // System.Boolean <RunWithLock>b__0(System.Net.SimpleAsyncResult inner)
     // Offset: 0x14A3D34
     bool $RunWithLock$b__0(System::Net::SimpleAsyncResult* inner);

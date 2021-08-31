@@ -62,18 +62,12 @@ namespace UnityEngine::ProBuilder {
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
     // Creating value type constructor for type: Bounds2D
     Bounds2D(UnityEngine::Vector2 center_ = {}, UnityEngine::Vector2 m_Size_ = {}, UnityEngine::Vector2 m_Extents_ = {}) noexcept : center{center_}, m_Size{m_Size_}, m_Extents{m_Extents_} {}
-    // Get instance field: public UnityEngine.Vector2 center
-    UnityEngine::Vector2 _get_center();
-    // Set instance field: public UnityEngine.Vector2 center
-    void _set_center(UnityEngine::Vector2 value);
-    // Get instance field: private UnityEngine.Vector2 m_Size
-    UnityEngine::Vector2 _get_m_Size();
-    // Set instance field: private UnityEngine.Vector2 m_Size
-    void _set_m_Size(UnityEngine::Vector2 value);
-    // Get instance field: private UnityEngine.Vector2 m_Extents
-    UnityEngine::Vector2 _get_m_Extents();
-    // Set instance field: private UnityEngine.Vector2 m_Extents
-    void _set_m_Extents(UnityEngine::Vector2 value);
+    // Get instance field reference: public UnityEngine.Vector2 center
+    UnityEngine::Vector2& dyn_center();
+    // Get instance field reference: private UnityEngine.Vector2 m_Size
+    UnityEngine::Vector2& dyn_m_Size();
+    // Get instance field reference: private UnityEngine.Vector2 m_Extents
+    UnityEngine::Vector2& dyn_m_Extents();
     // public UnityEngine.Vector2 get_size()
     // Offset: 0x1FA5B0C
     UnityEngine::Vector2 get_size();

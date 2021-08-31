@@ -43,18 +43,12 @@ namespace JetBrains::Annotations {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: MacroAttribute
     MacroAttribute(::Il2CppString* Expression_ = {}, int Editable_ = {}, ::Il2CppString* Target_ = {}) noexcept : Expression{Expression_}, Editable{Editable_}, Target{Target_} {}
-    // Get instance field: private System.String <Expression>k__BackingField
-    ::Il2CppString* _get_$Expression$k__BackingField();
-    // Set instance field: private System.String <Expression>k__BackingField
-    void _set_$Expression$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.Int32 <Editable>k__BackingField
-    int _get_$Editable$k__BackingField();
-    // Set instance field: private System.Int32 <Editable>k__BackingField
-    void _set_$Editable$k__BackingField(int value);
-    // Get instance field: private System.String <Target>k__BackingField
-    ::Il2CppString* _get_$Target$k__BackingField();
-    // Set instance field: private System.String <Target>k__BackingField
-    void _set_$Target$k__BackingField(::Il2CppString* value);
+    // Get instance field reference: private System.String <Expression>k__BackingField
+    ::Il2CppString*& dyn_$Expression$k__BackingField();
+    // Get instance field reference: private System.Int32 <Editable>k__BackingField
+    int& dyn_$Editable$k__BackingField();
+    // Get instance field reference: private System.String <Target>k__BackingField
+    ::Il2CppString*& dyn_$Target$k__BackingField();
     // public System.String get_Expression()
     // Offset: 0x240854C
     ::Il2CppString* get_Expression();

@@ -87,26 +87,16 @@ namespace System::Reflection {
     static_assert(sizeof(System::Reflection::FieldAttributes) == 0x4);
     // Creating value type constructor for type: MonoField
     MonoField(System::IntPtr klass_ = {}, System::RuntimeFieldHandle fhandle_ = {}, ::Il2CppString* name_ = {}, System::Type* type_ = {}, System::Reflection::FieldAttributes attrs_ = {}) noexcept : klass{klass_}, fhandle{fhandle_}, name{name_}, type{type_}, attrs{attrs_} {}
-    // Get instance field: System.IntPtr klass
-    System::IntPtr _get_klass();
-    // Set instance field: System.IntPtr klass
-    void _set_klass(System::IntPtr value);
-    // Get instance field: System.RuntimeFieldHandle fhandle
-    System::RuntimeFieldHandle _get_fhandle();
-    // Set instance field: System.RuntimeFieldHandle fhandle
-    void _set_fhandle(System::RuntimeFieldHandle value);
-    // Get instance field: private System.String name
-    ::Il2CppString* _get_name();
-    // Set instance field: private System.String name
-    void _set_name(::Il2CppString* value);
-    // Get instance field: private System.Type type
-    System::Type* _get_type();
-    // Set instance field: private System.Type type
-    void _set_type(System::Type* value);
-    // Get instance field: private System.Reflection.FieldAttributes attrs
-    System::Reflection::FieldAttributes _get_attrs();
-    // Set instance field: private System.Reflection.FieldAttributes attrs
-    void _set_attrs(System::Reflection::FieldAttributes value);
+    // Get instance field reference: System.IntPtr klass
+    System::IntPtr& dyn_klass();
+    // Get instance field reference: System.RuntimeFieldHandle fhandle
+    System::RuntimeFieldHandle& dyn_fhandle();
+    // Get instance field reference: private System.String name
+    ::Il2CppString*& dyn_name();
+    // Get instance field reference: private System.Type type
+    System::Type*& dyn_type();
+    // Get instance field reference: private System.Reflection.FieldAttributes attrs
+    System::Reflection::FieldAttributes& dyn_attrs();
     // private System.Type ResolveType()
     // Offset: 0x1D1E340
     System::Type* ResolveType();

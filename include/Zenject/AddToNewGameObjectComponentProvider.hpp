@@ -63,10 +63,8 @@ namespace Zenject {
     constexpr operator Zenject::GameObjectCreationParameters*() const noexcept {
       return gameObjectBindInfo;
     }
-    // Get instance field: private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo
-    Zenject::GameObjectCreationParameters* _get__gameObjectBindInfo();
-    // Set instance field: private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo
-    void _set__gameObjectBindInfo(Zenject::GameObjectCreationParameters* value);
+    // Get instance field reference: private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo
+    Zenject::GameObjectCreationParameters*& dyn__gameObjectBindInfo();
     // public System.Void .ctor(Zenject.DiContainer container, System.Type componentType, System.Collections.Generic.IEnumerable`1<Zenject.TypeValuePair> extraArguments, Zenject.GameObjectCreationParameters gameObjectBindInfo, System.Object concreteIdentifier, System.Action`2<Zenject.InjectContext,System.Object> instantiateCallback)
     // Offset: 0x13DA6D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

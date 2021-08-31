@@ -76,34 +76,20 @@ namespace GlobalNamespace {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
-    // Get instance field: public System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: public System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<BeatmapLevelsModel/GetBeatmapLevelResult> <>t__builder
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelResult> _get_$$t__builder();
-    // Set instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<BeatmapLevelsModel/GetBeatmapLevelResult> <>t__builder
-    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelResult> value);
-    // Get instance field: public BeatmapLevelsModel <>4__this
-    GlobalNamespace::BeatmapLevelsModel* _get_$$4__this();
-    // Set instance field: public BeatmapLevelsModel <>4__this
-    void _set_$$4__this(GlobalNamespace::BeatmapLevelsModel* value);
-    // Get instance field: public System.String levelID
-    ::Il2CppString* _get_levelID();
-    // Set instance field: public System.String levelID
-    void _set_levelID(::Il2CppString* value);
-    // Get instance field: public System.Threading.CancellationToken cancellationToken
-    System::Threading::CancellationToken _get_cancellationToken();
-    // Set instance field: public System.Threading.CancellationToken cancellationToken
-    void _set_cancellationToken(System::Threading::CancellationToken value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<AdditionalContentModel/EntitlementStatus> <>u__1
-    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> _get_$$u__1();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<AdditionalContentModel/EntitlementStatus> <>u__1
-    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<BeatmapLevelLoader/LoadBeatmapLevelResult> <>u__2
-    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResult> _get_$$u__2();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<BeatmapLevelLoader/LoadBeatmapLevelResult> <>u__2
-    void _set_$$u__2(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResult> value);
+    // Get instance field reference: public System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<BeatmapLevelsModel/GetBeatmapLevelResult> <>t__builder
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelResult>& dyn_$$t__builder();
+    // Get instance field reference: public BeatmapLevelsModel <>4__this
+    GlobalNamespace::BeatmapLevelsModel*& dyn_$$4__this();
+    // Get instance field reference: public System.String levelID
+    ::Il2CppString*& dyn_levelID();
+    // Get instance field reference: public System.Threading.CancellationToken cancellationToken
+    System::Threading::CancellationToken& dyn_cancellationToken();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<AdditionalContentModel/EntitlementStatus> <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>& dyn_$$u__1();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<BeatmapLevelLoader/LoadBeatmapLevelResult> <>u__2
+    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResult>& dyn_$$u__2();
     // private System.Void MoveNext()
     // Offset: 0x10C4DB8
     void MoveNext();

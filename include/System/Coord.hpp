@@ -35,14 +35,10 @@ namespace System {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Int16 X
-    int16_t _get_X();
-    // Set instance field: public System.Int16 X
-    void _set_X(int16_t value);
-    // Get instance field: public System.Int16 Y
-    int16_t _get_Y();
-    // Set instance field: public System.Int16 Y
-    void _set_Y(int16_t value);
+    // Get instance field reference: public System.Int16 X
+    int16_t& dyn_X();
+    // Get instance field reference: public System.Int16 Y
+    int16_t& dyn_Y();
   }; // System.Coord
   #pragma pack(pop)
   static check_size<sizeof(Coord), 2 + sizeof(int16_t)> __System_CoordSizeCheck;

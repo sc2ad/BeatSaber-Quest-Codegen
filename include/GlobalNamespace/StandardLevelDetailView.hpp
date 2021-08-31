@@ -162,66 +162,36 @@ namespace GlobalNamespace {
     StandardLevelDetailView(UnityEngine::UI::Button* actionButton_ = {}, TMPro::TextMeshProUGUI* actionButtonText_ = {}, UnityEngine::UI::Button* practiceButton_ = {}, GlobalNamespace::LevelBar* levelBar_ = {}, GlobalNamespace::LevelParamsPanel* levelParamsPanel_ = {}, GlobalNamespace::BeatmapDifficultySegmentedControlController* beatmapDifficultySegmentedControlController_ = {}, GlobalNamespace::BeatmapCharacteristicSegmentedControlController* beatmapCharacteristicSegmentedControlController_ = {}, UnityEngine::UI::Toggle* favoriteToggle_ = {}, System::Action_2<GlobalNamespace::StandardLevelDetailView*, GlobalNamespace::IDifficultyBeatmap*>* didChangeDifficultyBeatmapEvent_ = {}, System::Action_2<GlobalNamespace::StandardLevelDetailView*, UnityEngine::UI::Toggle*>* didFavoriteToggleChangeEvent_ = {}, bool showPlayerStats_ = {}, GlobalNamespace::IBeatmapLevel* level_ = {}, GlobalNamespace::PlayerData* playerData_ = {}, GlobalNamespace::IDifficultyBeatmap* selectedDifficultyBeatmap_ = {}, HMUI::ToggleBinder* toggleBinder_ = {}) noexcept : actionButton{actionButton_}, actionButtonText{actionButtonText_}, practiceButton{practiceButton_}, levelBar{levelBar_}, levelParamsPanel{levelParamsPanel_}, beatmapDifficultySegmentedControlController{beatmapDifficultySegmentedControlController_}, beatmapCharacteristicSegmentedControlController{beatmapCharacteristicSegmentedControlController_}, favoriteToggle{favoriteToggle_}, didChangeDifficultyBeatmapEvent{didChangeDifficultyBeatmapEvent_}, didFavoriteToggleChangeEvent{didFavoriteToggleChangeEvent_}, showPlayerStats{showPlayerStats_}, level{level_}, playerData{playerData_}, selectedDifficultyBeatmap{selectedDifficultyBeatmap_}, toggleBinder{toggleBinder_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.UI.Button _actionButton
-    UnityEngine::UI::Button* _get__actionButton();
-    // Set instance field: private UnityEngine.UI.Button _actionButton
-    void _set__actionButton(UnityEngine::UI::Button* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _actionButtonText
-    TMPro::TextMeshProUGUI* _get__actionButtonText();
-    // Set instance field: private TMPro.TextMeshProUGUI _actionButtonText
-    void _set__actionButtonText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private UnityEngine.UI.Button _practiceButton
-    UnityEngine::UI::Button* _get__practiceButton();
-    // Set instance field: private UnityEngine.UI.Button _practiceButton
-    void _set__practiceButton(UnityEngine::UI::Button* value);
-    // Get instance field: private LevelBar _levelBar
-    GlobalNamespace::LevelBar* _get__levelBar();
-    // Set instance field: private LevelBar _levelBar
-    void _set__levelBar(GlobalNamespace::LevelBar* value);
-    // Get instance field: private LevelParamsPanel _levelParamsPanel
-    GlobalNamespace::LevelParamsPanel* _get__levelParamsPanel();
-    // Set instance field: private LevelParamsPanel _levelParamsPanel
-    void _set__levelParamsPanel(GlobalNamespace::LevelParamsPanel* value);
-    // Get instance field: private BeatmapDifficultySegmentedControlController _beatmapDifficultySegmentedControlController
-    GlobalNamespace::BeatmapDifficultySegmentedControlController* _get__beatmapDifficultySegmentedControlController();
-    // Set instance field: private BeatmapDifficultySegmentedControlController _beatmapDifficultySegmentedControlController
-    void _set__beatmapDifficultySegmentedControlController(GlobalNamespace::BeatmapDifficultySegmentedControlController* value);
-    // Get instance field: private BeatmapCharacteristicSegmentedControlController _beatmapCharacteristicSegmentedControlController
-    GlobalNamespace::BeatmapCharacteristicSegmentedControlController* _get__beatmapCharacteristicSegmentedControlController();
-    // Set instance field: private BeatmapCharacteristicSegmentedControlController _beatmapCharacteristicSegmentedControlController
-    void _set__beatmapCharacteristicSegmentedControlController(GlobalNamespace::BeatmapCharacteristicSegmentedControlController* value);
-    // Get instance field: private UnityEngine.UI.Toggle _favoriteToggle
-    UnityEngine::UI::Toggle* _get__favoriteToggle();
-    // Set instance field: private UnityEngine.UI.Toggle _favoriteToggle
-    void _set__favoriteToggle(UnityEngine::UI::Toggle* value);
-    // Get instance field: private System.Action`2<StandardLevelDetailView,IDifficultyBeatmap> didChangeDifficultyBeatmapEvent
-    System::Action_2<GlobalNamespace::StandardLevelDetailView*, GlobalNamespace::IDifficultyBeatmap*>* _get_didChangeDifficultyBeatmapEvent();
-    // Set instance field: private System.Action`2<StandardLevelDetailView,IDifficultyBeatmap> didChangeDifficultyBeatmapEvent
-    void _set_didChangeDifficultyBeatmapEvent(System::Action_2<GlobalNamespace::StandardLevelDetailView*, GlobalNamespace::IDifficultyBeatmap*>* value);
-    // Get instance field: private System.Action`2<StandardLevelDetailView,UnityEngine.UI.Toggle> didFavoriteToggleChangeEvent
-    System::Action_2<GlobalNamespace::StandardLevelDetailView*, UnityEngine::UI::Toggle*>* _get_didFavoriteToggleChangeEvent();
-    // Set instance field: private System.Action`2<StandardLevelDetailView,UnityEngine.UI.Toggle> didFavoriteToggleChangeEvent
-    void _set_didFavoriteToggleChangeEvent(System::Action_2<GlobalNamespace::StandardLevelDetailView*, UnityEngine::UI::Toggle*>* value);
-    // Get instance field: private System.Boolean _showPlayerStats
-    bool _get__showPlayerStats();
-    // Set instance field: private System.Boolean _showPlayerStats
-    void _set__showPlayerStats(bool value);
-    // Get instance field: private IBeatmapLevel _level
-    GlobalNamespace::IBeatmapLevel* _get__level();
-    // Set instance field: private IBeatmapLevel _level
-    void _set__level(GlobalNamespace::IBeatmapLevel* value);
-    // Get instance field: private PlayerData _playerData
-    GlobalNamespace::PlayerData* _get__playerData();
-    // Set instance field: private PlayerData _playerData
-    void _set__playerData(GlobalNamespace::PlayerData* value);
-    // Get instance field: private IDifficultyBeatmap _selectedDifficultyBeatmap
-    GlobalNamespace::IDifficultyBeatmap* _get__selectedDifficultyBeatmap();
-    // Set instance field: private IDifficultyBeatmap _selectedDifficultyBeatmap
-    void _set__selectedDifficultyBeatmap(GlobalNamespace::IDifficultyBeatmap* value);
-    // Get instance field: private HMUI.ToggleBinder _toggleBinder
-    HMUI::ToggleBinder* _get__toggleBinder();
-    // Set instance field: private HMUI.ToggleBinder _toggleBinder
-    void _set__toggleBinder(HMUI::ToggleBinder* value);
+    // Get instance field reference: private UnityEngine.UI.Button _actionButton
+    UnityEngine::UI::Button*& dyn__actionButton();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _actionButtonText
+    TMPro::TextMeshProUGUI*& dyn__actionButtonText();
+    // Get instance field reference: private UnityEngine.UI.Button _practiceButton
+    UnityEngine::UI::Button*& dyn__practiceButton();
+    // Get instance field reference: private LevelBar _levelBar
+    GlobalNamespace::LevelBar*& dyn__levelBar();
+    // Get instance field reference: private LevelParamsPanel _levelParamsPanel
+    GlobalNamespace::LevelParamsPanel*& dyn__levelParamsPanel();
+    // Get instance field reference: private BeatmapDifficultySegmentedControlController _beatmapDifficultySegmentedControlController
+    GlobalNamespace::BeatmapDifficultySegmentedControlController*& dyn__beatmapDifficultySegmentedControlController();
+    // Get instance field reference: private BeatmapCharacteristicSegmentedControlController _beatmapCharacteristicSegmentedControlController
+    GlobalNamespace::BeatmapCharacteristicSegmentedControlController*& dyn__beatmapCharacteristicSegmentedControlController();
+    // Get instance field reference: private UnityEngine.UI.Toggle _favoriteToggle
+    UnityEngine::UI::Toggle*& dyn__favoriteToggle();
+    // Get instance field reference: private System.Action`2<StandardLevelDetailView,IDifficultyBeatmap> didChangeDifficultyBeatmapEvent
+    System::Action_2<GlobalNamespace::StandardLevelDetailView*, GlobalNamespace::IDifficultyBeatmap*>*& dyn_didChangeDifficultyBeatmapEvent();
+    // Get instance field reference: private System.Action`2<StandardLevelDetailView,UnityEngine.UI.Toggle> didFavoriteToggleChangeEvent
+    System::Action_2<GlobalNamespace::StandardLevelDetailView*, UnityEngine::UI::Toggle*>*& dyn_didFavoriteToggleChangeEvent();
+    // Get instance field reference: private System.Boolean _showPlayerStats
+    bool& dyn__showPlayerStats();
+    // Get instance field reference: private IBeatmapLevel _level
+    GlobalNamespace::IBeatmapLevel*& dyn__level();
+    // Get instance field reference: private PlayerData _playerData
+    GlobalNamespace::PlayerData*& dyn__playerData();
+    // Get instance field reference: private IDifficultyBeatmap _selectedDifficultyBeatmap
+    GlobalNamespace::IDifficultyBeatmap*& dyn__selectedDifficultyBeatmap();
+    // Get instance field reference: private HMUI.ToggleBinder _toggleBinder
+    HMUI::ToggleBinder*& dyn__toggleBinder();
     // public IDifficultyBeatmap get_selectedDifficultyBeatmap()
     // Offset: 0x1085278
     GlobalNamespace::IDifficultyBeatmap* get_selectedDifficultyBeatmap();

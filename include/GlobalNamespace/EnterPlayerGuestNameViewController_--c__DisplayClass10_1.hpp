@@ -35,14 +35,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass10_1
     $$c__DisplayClass10_1(::Il2CppString* guestPlayerName_ = {}, GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0* CS$$$8__locals1_ = {}) noexcept : guestPlayerName{guestPlayerName_}, CS$$$8__locals1{CS$$$8__locals1_} {}
-    // Get instance field: public System.String guestPlayerName
-    ::Il2CppString* _get_guestPlayerName();
-    // Set instance field: public System.String guestPlayerName
-    void _set_guestPlayerName(::Il2CppString* value);
-    // Get instance field: public EnterPlayerGuestNameViewController/<>c__DisplayClass10_0 CS$<>8__locals1
-    GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0* _get_CS$$$8__locals1();
-    // Set instance field: public EnterPlayerGuestNameViewController/<>c__DisplayClass10_0 CS$<>8__locals1
-    void _set_CS$$$8__locals1(GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0* value);
+    // Get instance field reference: public System.String guestPlayerName
+    ::Il2CppString*& dyn_guestPlayerName();
+    // Get instance field reference: public EnterPlayerGuestNameViewController/<>c__DisplayClass10_0 CS$<>8__locals1
+    GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0*& dyn_CS$$$8__locals1();
     // System.Void <DidActivate>b__1()
     // Offset: 0x1050EA4
     void $DidActivate$b__1();

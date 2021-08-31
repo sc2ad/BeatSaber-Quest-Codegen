@@ -73,30 +73,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: InstancedMaterialLightWithId
     InstancedMaterialLightWithId(GlobalNamespace::MaterialPropertyBlockColorSetter* materialPropertyBlockColorSetter_ = {}, bool setColorOnly_ = {}, float intensity_ = {}, float minAlpha_ = {}, UnityEngine::Color color_ = {}, bool startColorWasSet_ = {}) noexcept : materialPropertyBlockColorSetter{materialPropertyBlockColorSetter_}, setColorOnly{setColorOnly_}, intensity{intensity_}, minAlpha{minAlpha_}, color{color_}, startColorWasSet{startColorWasSet_} {}
-    // Get instance field: private MaterialPropertyBlockColorSetter _materialPropertyBlockColorSetter
-    GlobalNamespace::MaterialPropertyBlockColorSetter* _get__materialPropertyBlockColorSetter();
-    // Set instance field: private MaterialPropertyBlockColorSetter _materialPropertyBlockColorSetter
-    void _set__materialPropertyBlockColorSetter(GlobalNamespace::MaterialPropertyBlockColorSetter* value);
-    // Get instance field: private System.Boolean _setColorOnly
-    bool _get__setColorOnly();
-    // Set instance field: private System.Boolean _setColorOnly
-    void _set__setColorOnly(bool value);
-    // Get instance field: private System.Single _intensity
-    float _get__intensity();
-    // Set instance field: private System.Single _intensity
-    void _set__intensity(float value);
-    // Get instance field: private System.Single _minAlpha
-    float _get__minAlpha();
-    // Set instance field: private System.Single _minAlpha
-    void _set__minAlpha(float value);
-    // Get instance field: private UnityEngine.Color _color
-    UnityEngine::Color _get__color();
-    // Set instance field: private UnityEngine.Color _color
-    void _set__color(UnityEngine::Color value);
-    // Get instance field: private System.Boolean _startColorWasSet
-    bool _get__startColorWasSet();
-    // Set instance field: private System.Boolean _startColorWasSet
-    void _set__startColorWasSet(bool value);
+    // Get instance field reference: private MaterialPropertyBlockColorSetter _materialPropertyBlockColorSetter
+    GlobalNamespace::MaterialPropertyBlockColorSetter*& dyn__materialPropertyBlockColorSetter();
+    // Get instance field reference: private System.Boolean _setColorOnly
+    bool& dyn__setColorOnly();
+    // Get instance field reference: private System.Single _intensity
+    float& dyn__intensity();
+    // Get instance field reference: private System.Single _minAlpha
+    float& dyn__minAlpha();
+    // Get instance field reference: private UnityEngine.Color _color
+    UnityEngine::Color& dyn__color();
+    // Get instance field reference: private System.Boolean _startColorWasSet
+    bool& dyn__startColorWasSet();
     // public System.Void .ctor()
     // Offset: 0x1E1743C
     // Implemented from: LightWithIdMonoBehaviour

@@ -37,10 +37,8 @@ namespace GlobalNamespace {
     BeatmapCharacteristicCollectionSO(::Array<GlobalNamespace::BeatmapCharacteristicSO*>* beatmapCharacteristics_ = {}) noexcept : beatmapCharacteristics{beatmapCharacteristics_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private BeatmapCharacteristicSO[] _beatmapCharacteristics
-    ::Array<GlobalNamespace::BeatmapCharacteristicSO*>* _get__beatmapCharacteristics();
-    // Set instance field: private BeatmapCharacteristicSO[] _beatmapCharacteristics
-    void _set__beatmapCharacteristics(::Array<GlobalNamespace::BeatmapCharacteristicSO*>* value);
+    // Get instance field reference: private BeatmapCharacteristicSO[] _beatmapCharacteristics
+    ::Array<GlobalNamespace::BeatmapCharacteristicSO*>*& dyn__beatmapCharacteristics();
     // public BeatmapCharacteristicSO[] get_beatmapCharacteristics()
     // Offset: 0x11EB8AC
     ::Array<GlobalNamespace::BeatmapCharacteristicSO*>* get_beatmapCharacteristics();

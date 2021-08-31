@@ -41,14 +41,10 @@ namespace Zenject {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: InitializableInfo
     InitializableInfo(Zenject::IInitializable* Initializable_ = {}, int Priority_ = {}) noexcept : Initializable{Initializable_}, Priority{Priority_} {}
-    // Get instance field: public Zenject.IInitializable Initializable
-    Zenject::IInitializable* _get_Initializable();
-    // Set instance field: public Zenject.IInitializable Initializable
-    void _set_Initializable(Zenject::IInitializable* value);
-    // Get instance field: public System.Int32 Priority
-    int _get_Priority();
-    // Set instance field: public System.Int32 Priority
-    void _set_Priority(int value);
+    // Get instance field reference: public Zenject.IInitializable Initializable
+    Zenject::IInitializable*& dyn_Initializable();
+    // Get instance field reference: public System.Int32 Priority
+    int& dyn_Priority();
     // public System.Void .ctor(Zenject.IInitializable initializable, System.Int32 priority)
     // Offset: 0x1661060
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

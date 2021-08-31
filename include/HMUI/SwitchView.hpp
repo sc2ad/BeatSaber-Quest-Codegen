@@ -67,10 +67,8 @@ namespace HMUI {
       static HMUI::SwitchView::AnimationType _get_SelectedState();
       // Set static field: static public HMUI.SwitchView/HMUI.AnimationType SelectedState
       static void _set_SelectedState(HMUI::SwitchView::AnimationType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // HMUI.SwitchView/HMUI.AnimationType
     #pragma pack(pop)
     static check_size<sizeof(SwitchView::AnimationType), 0 + sizeof(int)> __HMUI_SwitchView_AnimationTypeSizeCheck;
@@ -150,46 +148,26 @@ namespace HMUI {
     SwitchView(HMUI::SwitchView::AnimationType animationType_ = {}, UnityEngine::AnimationClip* normalAnimationClip_ = {}, UnityEngine::AnimationClip* highlightedAnimationClip_ = {}, UnityEngine::AnimationClip* pressedAnimationClip_ = {}, UnityEngine::AnimationClip* disabledAnimationClip_ = {}, UnityEngine::AnimationClip* onAnimationClip_ = {}, UnityEngine::AnimationClip* offAnimationClip_ = {}, UnityEngine::AnimationClip* selectedAnimationClip_ = {}, UnityEngine::AnimationClip* selectedAndHighlightedAnimationClip_ = {}, HMUI::ToggleWithCallbacks* toggle_ = {}) noexcept : animationType{animationType_}, normalAnimationClip{normalAnimationClip_}, highlightedAnimationClip{highlightedAnimationClip_}, pressedAnimationClip{pressedAnimationClip_}, disabledAnimationClip{disabledAnimationClip_}, onAnimationClip{onAnimationClip_}, offAnimationClip{offAnimationClip_}, selectedAnimationClip{selectedAnimationClip_}, selectedAndHighlightedAnimationClip{selectedAndHighlightedAnimationClip_}, toggle{toggle_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private HMUI.SwitchView/HMUI.AnimationType _animationType
-    HMUI::SwitchView::AnimationType _get__animationType();
-    // Set instance field: private HMUI.SwitchView/HMUI.AnimationType _animationType
-    void _set__animationType(HMUI::SwitchView::AnimationType value);
-    // Get instance field: private UnityEngine.AnimationClip _normalAnimationClip
-    UnityEngine::AnimationClip* _get__normalAnimationClip();
-    // Set instance field: private UnityEngine.AnimationClip _normalAnimationClip
-    void _set__normalAnimationClip(UnityEngine::AnimationClip* value);
-    // Get instance field: private UnityEngine.AnimationClip _highlightedAnimationClip
-    UnityEngine::AnimationClip* _get__highlightedAnimationClip();
-    // Set instance field: private UnityEngine.AnimationClip _highlightedAnimationClip
-    void _set__highlightedAnimationClip(UnityEngine::AnimationClip* value);
-    // Get instance field: private UnityEngine.AnimationClip _pressedAnimationClip
-    UnityEngine::AnimationClip* _get__pressedAnimationClip();
-    // Set instance field: private UnityEngine.AnimationClip _pressedAnimationClip
-    void _set__pressedAnimationClip(UnityEngine::AnimationClip* value);
-    // Get instance field: private UnityEngine.AnimationClip _disabledAnimationClip
-    UnityEngine::AnimationClip* _get__disabledAnimationClip();
-    // Set instance field: private UnityEngine.AnimationClip _disabledAnimationClip
-    void _set__disabledAnimationClip(UnityEngine::AnimationClip* value);
-    // Get instance field: private UnityEngine.AnimationClip _onAnimationClip
-    UnityEngine::AnimationClip* _get__onAnimationClip();
-    // Set instance field: private UnityEngine.AnimationClip _onAnimationClip
-    void _set__onAnimationClip(UnityEngine::AnimationClip* value);
-    // Get instance field: private UnityEngine.AnimationClip _offAnimationClip
-    UnityEngine::AnimationClip* _get__offAnimationClip();
-    // Set instance field: private UnityEngine.AnimationClip _offAnimationClip
-    void _set__offAnimationClip(UnityEngine::AnimationClip* value);
-    // Get instance field: private UnityEngine.AnimationClip _selectedAnimationClip
-    UnityEngine::AnimationClip* _get__selectedAnimationClip();
-    // Set instance field: private UnityEngine.AnimationClip _selectedAnimationClip
-    void _set__selectedAnimationClip(UnityEngine::AnimationClip* value);
-    // Get instance field: private UnityEngine.AnimationClip _selectedAndHighlightedAnimationClip
-    UnityEngine::AnimationClip* _get__selectedAndHighlightedAnimationClip();
-    // Set instance field: private UnityEngine.AnimationClip _selectedAndHighlightedAnimationClip
-    void _set__selectedAndHighlightedAnimationClip(UnityEngine::AnimationClip* value);
-    // Get instance field: private HMUI.ToggleWithCallbacks _toggle
-    HMUI::ToggleWithCallbacks* _get__toggle();
-    // Set instance field: private HMUI.ToggleWithCallbacks _toggle
-    void _set__toggle(HMUI::ToggleWithCallbacks* value);
+    // Get instance field reference: private HMUI.SwitchView/HMUI.AnimationType _animationType
+    HMUI::SwitchView::AnimationType& dyn__animationType();
+    // Get instance field reference: private UnityEngine.AnimationClip _normalAnimationClip
+    UnityEngine::AnimationClip*& dyn__normalAnimationClip();
+    // Get instance field reference: private UnityEngine.AnimationClip _highlightedAnimationClip
+    UnityEngine::AnimationClip*& dyn__highlightedAnimationClip();
+    // Get instance field reference: private UnityEngine.AnimationClip _pressedAnimationClip
+    UnityEngine::AnimationClip*& dyn__pressedAnimationClip();
+    // Get instance field reference: private UnityEngine.AnimationClip _disabledAnimationClip
+    UnityEngine::AnimationClip*& dyn__disabledAnimationClip();
+    // Get instance field reference: private UnityEngine.AnimationClip _onAnimationClip
+    UnityEngine::AnimationClip*& dyn__onAnimationClip();
+    // Get instance field reference: private UnityEngine.AnimationClip _offAnimationClip
+    UnityEngine::AnimationClip*& dyn__offAnimationClip();
+    // Get instance field reference: private UnityEngine.AnimationClip _selectedAnimationClip
+    UnityEngine::AnimationClip*& dyn__selectedAnimationClip();
+    // Get instance field reference: private UnityEngine.AnimationClip _selectedAndHighlightedAnimationClip
+    UnityEngine::AnimationClip*& dyn__selectedAndHighlightedAnimationClip();
+    // Get instance field reference: private HMUI.ToggleWithCallbacks _toggle
+    HMUI::ToggleWithCallbacks*& dyn__toggle();
     // protected System.Void Awake()
     // Offset: 0x1303790
     void Awake();

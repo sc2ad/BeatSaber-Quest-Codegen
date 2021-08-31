@@ -51,10 +51,8 @@ namespace System::Collections::Specialized {
     constexpr operator System::Collections::ArrayList*() const noexcept {
       return data;
     }
-    // Get instance field: private System.Collections.ArrayList data
-    System::Collections::ArrayList* _get_data();
-    // Set instance field: private System.Collections.ArrayList data
-    void _set_data(System::Collections::ArrayList* value);
+    // Get instance field reference: private System.Collections.ArrayList data
+    System::Collections::ArrayList*& dyn_data();
     // public System.String get_Item(System.Int32 index)
     // Offset: 0x18AD7C8
     ::Il2CppString* get_Item(int index);

@@ -67,26 +67,16 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: OVR.OpenVR.IVRIOBuffer/OVR.OpenVR._Open Open
-    OVR::OpenVR::IVRIOBuffer::_Open* _get_Open();
-    // Set instance field: OVR.OpenVR.IVRIOBuffer/OVR.OpenVR._Open Open
-    void _set_Open(OVR::OpenVR::IVRIOBuffer::_Open* value);
-    // Get instance field: OVR.OpenVR.IVRIOBuffer/OVR.OpenVR._Close Close
-    OVR::OpenVR::IVRIOBuffer::_Close* _get_Close();
-    // Set instance field: OVR.OpenVR.IVRIOBuffer/OVR.OpenVR._Close Close
-    void _set_Close(OVR::OpenVR::IVRIOBuffer::_Close* value);
-    // Get instance field: OVR.OpenVR.IVRIOBuffer/OVR.OpenVR._Read Read
-    OVR::OpenVR::IVRIOBuffer::_Read* _get_Read();
-    // Set instance field: OVR.OpenVR.IVRIOBuffer/OVR.OpenVR._Read Read
-    void _set_Read(OVR::OpenVR::IVRIOBuffer::_Read* value);
-    // Get instance field: OVR.OpenVR.IVRIOBuffer/OVR.OpenVR._Write Write
-    OVR::OpenVR::IVRIOBuffer::_Write* _get_Write();
-    // Set instance field: OVR.OpenVR.IVRIOBuffer/OVR.OpenVR._Write Write
-    void _set_Write(OVR::OpenVR::IVRIOBuffer::_Write* value);
-    // Get instance field: OVR.OpenVR.IVRIOBuffer/OVR.OpenVR._PropertyContainer PropertyContainer
-    OVR::OpenVR::IVRIOBuffer::_PropertyContainer* _get_PropertyContainer();
-    // Set instance field: OVR.OpenVR.IVRIOBuffer/OVR.OpenVR._PropertyContainer PropertyContainer
-    void _set_PropertyContainer(OVR::OpenVR::IVRIOBuffer::_PropertyContainer* value);
+    // Get instance field reference: OVR.OpenVR.IVRIOBuffer/OVR.OpenVR._Open Open
+    OVR::OpenVR::IVRIOBuffer::_Open*& dyn_Open();
+    // Get instance field reference: OVR.OpenVR.IVRIOBuffer/OVR.OpenVR._Close Close
+    OVR::OpenVR::IVRIOBuffer::_Close*& dyn_Close();
+    // Get instance field reference: OVR.OpenVR.IVRIOBuffer/OVR.OpenVR._Read Read
+    OVR::OpenVR::IVRIOBuffer::_Read*& dyn_Read();
+    // Get instance field reference: OVR.OpenVR.IVRIOBuffer/OVR.OpenVR._Write Write
+    OVR::OpenVR::IVRIOBuffer::_Write*& dyn_Write();
+    // Get instance field reference: OVR.OpenVR.IVRIOBuffer/OVR.OpenVR._PropertyContainer PropertyContainer
+    OVR::OpenVR::IVRIOBuffer::_PropertyContainer*& dyn_PropertyContainer();
   }; // OVR.OpenVR.IVRIOBuffer
   #pragma pack(pop)
   static check_size<sizeof(IVRIOBuffer), 32 + sizeof(OVR::OpenVR::IVRIOBuffer::_PropertyContainer*)> __OVR_OpenVR_IVRIOBufferSizeCheck;

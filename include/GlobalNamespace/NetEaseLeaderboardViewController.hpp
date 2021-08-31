@@ -93,34 +93,20 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: NetEaseLeaderboardViewController
     NetEaseLeaderboardViewController(GlobalNamespace::LeaderboardTableView* leaderboardTableView_ = {}, GlobalNamespace::LoadingControl* loadingControl_ = {}, GlobalNamespace::NetEaseManager* netEaseManager_ = {}, System::Collections::Generic::List_1<GlobalNamespace::LeaderboardTableView::ScoreData*>* scores_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}, bool refreshIsNeeded_ = {}, bool hasScoresData_ = {}) noexcept : leaderboardTableView{leaderboardTableView_}, loadingControl{loadingControl_}, netEaseManager{netEaseManager_}, scores{scores_}, difficultyBeatmap{difficultyBeatmap_}, refreshIsNeeded{refreshIsNeeded_}, hasScoresData{hasScoresData_} {}
-    // Get instance field: private LeaderboardTableView _leaderboardTableView
-    GlobalNamespace::LeaderboardTableView* _get__leaderboardTableView();
-    // Set instance field: private LeaderboardTableView _leaderboardTableView
-    void _set__leaderboardTableView(GlobalNamespace::LeaderboardTableView* value);
-    // Get instance field: private LoadingControl _loadingControl
-    GlobalNamespace::LoadingControl* _get__loadingControl();
-    // Set instance field: private LoadingControl _loadingControl
-    void _set__loadingControl(GlobalNamespace::LoadingControl* value);
-    // Get instance field: private NetEaseManager _netEaseManager
-    GlobalNamespace::NetEaseManager* _get__netEaseManager();
-    // Set instance field: private NetEaseManager _netEaseManager
-    void _set__netEaseManager(GlobalNamespace::NetEaseManager* value);
-    // Get instance field: private System.Collections.Generic.List`1<LeaderboardTableView/ScoreData> _scores
-    System::Collections::Generic::List_1<GlobalNamespace::LeaderboardTableView::ScoreData*>* _get__scores();
-    // Set instance field: private System.Collections.Generic.List`1<LeaderboardTableView/ScoreData> _scores
-    void _set__scores(System::Collections::Generic::List_1<GlobalNamespace::LeaderboardTableView::ScoreData*>* value);
-    // Get instance field: private IDifficultyBeatmap _difficultyBeatmap
-    GlobalNamespace::IDifficultyBeatmap* _get__difficultyBeatmap();
-    // Set instance field: private IDifficultyBeatmap _difficultyBeatmap
-    void _set__difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap* value);
-    // Get instance field: private System.Boolean _refreshIsNeeded
-    bool _get__refreshIsNeeded();
-    // Set instance field: private System.Boolean _refreshIsNeeded
-    void _set__refreshIsNeeded(bool value);
-    // Get instance field: private System.Boolean _hasScoresData
-    bool _get__hasScoresData();
-    // Set instance field: private System.Boolean _hasScoresData
-    void _set__hasScoresData(bool value);
+    // Get instance field reference: private LeaderboardTableView _leaderboardTableView
+    GlobalNamespace::LeaderboardTableView*& dyn__leaderboardTableView();
+    // Get instance field reference: private LoadingControl _loadingControl
+    GlobalNamespace::LoadingControl*& dyn__loadingControl();
+    // Get instance field reference: private NetEaseManager _netEaseManager
+    GlobalNamespace::NetEaseManager*& dyn__netEaseManager();
+    // Get instance field reference: private System.Collections.Generic.List`1<LeaderboardTableView/ScoreData> _scores
+    System::Collections::Generic::List_1<GlobalNamespace::LeaderboardTableView::ScoreData*>*& dyn__scores();
+    // Get instance field reference: private IDifficultyBeatmap _difficultyBeatmap
+    GlobalNamespace::IDifficultyBeatmap*& dyn__difficultyBeatmap();
+    // Get instance field reference: private System.Boolean _refreshIsNeeded
+    bool& dyn__refreshIsNeeded();
+    // Get instance field reference: private System.Boolean _hasScoresData
+    bool& dyn__hasScoresData();
     // private System.Void HandleLoadingControlDidPressRefreshButton()
     // Offset: 0x103F31C
     void HandleLoadingControlDidPressRefreshButton();

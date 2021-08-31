@@ -46,10 +46,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::PlatformLeaderboardsModel::UploadScoreResult _get_Failed();
     // Set static field: static public PlatformLeaderboardsModel/UploadScoreResult Failed
     static void _set_Failed(GlobalNamespace::PlatformLeaderboardsModel::UploadScoreResult value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // PlatformLeaderboardsModel/UploadScoreResult
   #pragma pack(pop)
   static check_size<sizeof(PlatformLeaderboardsModel::UploadScoreResult), 0 + sizeof(int)> __GlobalNamespace_PlatformLeaderboardsModel_UploadScoreResultSizeCheck;

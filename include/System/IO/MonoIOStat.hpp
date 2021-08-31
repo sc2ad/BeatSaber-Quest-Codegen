@@ -57,26 +57,16 @@ namespace System::IO {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.IO.FileAttributes fileAttributes
-    System::IO::FileAttributes _get_fileAttributes();
-    // Set instance field: public System.IO.FileAttributes fileAttributes
-    void _set_fileAttributes(System::IO::FileAttributes value);
-    // Get instance field: public System.Int64 Length
-    int64_t _get_Length();
-    // Set instance field: public System.Int64 Length
-    void _set_Length(int64_t value);
-    // Get instance field: public System.Int64 CreationTime
-    int64_t _get_CreationTime();
-    // Set instance field: public System.Int64 CreationTime
-    void _set_CreationTime(int64_t value);
-    // Get instance field: public System.Int64 LastAccessTime
-    int64_t _get_LastAccessTime();
-    // Set instance field: public System.Int64 LastAccessTime
-    void _set_LastAccessTime(int64_t value);
-    // Get instance field: public System.Int64 LastWriteTime
-    int64_t _get_LastWriteTime();
-    // Set instance field: public System.Int64 LastWriteTime
-    void _set_LastWriteTime(int64_t value);
+    // Get instance field reference: public System.IO.FileAttributes fileAttributes
+    System::IO::FileAttributes& dyn_fileAttributes();
+    // Get instance field reference: public System.Int64 Length
+    int64_t& dyn_Length();
+    // Get instance field reference: public System.Int64 CreationTime
+    int64_t& dyn_CreationTime();
+    // Get instance field reference: public System.Int64 LastAccessTime
+    int64_t& dyn_LastAccessTime();
+    // Get instance field reference: public System.Int64 LastWriteTime
+    int64_t& dyn_LastWriteTime();
   }; // System.IO.MonoIOStat
   #pragma pack(pop)
   static check_size<sizeof(MonoIOStat), 32 + sizeof(int64_t)> __System_IO_MonoIOStatSizeCheck;

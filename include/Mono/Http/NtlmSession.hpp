@@ -46,10 +46,8 @@ namespace Mono::Http {
     constexpr operator Mono::Security::Protocol::Ntlm::MessageBase*() const noexcept {
       return message;
     }
-    // Get instance field: private Mono.Security.Protocol.Ntlm.MessageBase message
-    Mono::Security::Protocol::Ntlm::MessageBase* _get_message();
-    // Set instance field: private Mono.Security.Protocol.Ntlm.MessageBase message
-    void _set_message(Mono::Security::Protocol::Ntlm::MessageBase* value);
+    // Get instance field reference: private Mono.Security.Protocol.Ntlm.MessageBase message
+    Mono::Security::Protocol::Ntlm::MessageBase*& dyn_message();
     // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
     // Offset: 0x15E0894
     System::Net::Authorization* Authenticate(::Il2CppString* challenge, System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);

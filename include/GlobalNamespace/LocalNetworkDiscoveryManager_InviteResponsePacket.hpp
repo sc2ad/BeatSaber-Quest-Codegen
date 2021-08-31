@@ -55,18 +55,12 @@ namespace GlobalNamespace {
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);
     }
-    // Get instance field: public System.String userId
-    ::Il2CppString* _get_userId();
-    // Set instance field: public System.String userId
-    void _set_userId(::Il2CppString* value);
-    // Get instance field: public System.Boolean accepted
-    bool _get_accepted();
-    // Set instance field: public System.Boolean accepted
-    void _set_accepted(bool value);
-    // Get instance field: public System.Boolean blocked
-    bool _get_blocked();
-    // Set instance field: public System.Boolean blocked
-    void _set_blocked(bool value);
+    // Get instance field reference: public System.String userId
+    ::Il2CppString*& dyn_userId();
+    // Get instance field reference: public System.Boolean accepted
+    bool& dyn_accepted();
+    // Get instance field reference: public System.Boolean blocked
+    bool& dyn_blocked();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0x10DA010
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);

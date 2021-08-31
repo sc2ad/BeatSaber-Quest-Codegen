@@ -122,10 +122,8 @@ namespace UnityEngine::UI {
       static UnityEngine::UI::Image::Type _get_Filled();
       // Set static field: static public UnityEngine.UI.Image/UnityEngine.UI.Type Filled
       static void _set_Filled(UnityEngine::UI::Image::Type value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // UnityEngine.UI.Image/UnityEngine.UI.Type
     #pragma pack(pop)
     static check_size<sizeof(Image::Type), 0 + sizeof(int)> __UnityEngine_UI_Image_TypeSizeCheck;
@@ -182,10 +180,8 @@ namespace UnityEngine::UI {
       static UnityEngine::UI::Image::FillMethod _get_Radial360();
       // Set static field: static public UnityEngine.UI.Image/UnityEngine.UI.FillMethod Radial360
       static void _set_Radial360(UnityEngine::UI::Image::FillMethod value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // UnityEngine.UI.Image/UnityEngine.UI.FillMethod
     #pragma pack(pop)
     static check_size<sizeof(Image::FillMethod), 0 + sizeof(int)> __UnityEngine_UI_Image_FillMethodSizeCheck;
@@ -324,62 +320,34 @@ namespace UnityEngine::UI {
     static bool _get_s_Initialized();
     // Set static field: static private System.Boolean s_Initialized
     static void _set_s_Initialized(bool value);
-    // Get instance field: private UnityEngine.Sprite m_Sprite
-    UnityEngine::Sprite* _get_m_Sprite();
-    // Set instance field: private UnityEngine.Sprite m_Sprite
-    void _set_m_Sprite(UnityEngine::Sprite* value);
-    // Get instance field: private UnityEngine.Sprite m_OverrideSprite
-    UnityEngine::Sprite* _get_m_OverrideSprite();
-    // Set instance field: private UnityEngine.Sprite m_OverrideSprite
-    void _set_m_OverrideSprite(UnityEngine::Sprite* value);
-    // Get instance field: private UnityEngine.UI.Image/UnityEngine.UI.Type m_Type
-    UnityEngine::UI::Image::Type _get_m_Type();
-    // Set instance field: private UnityEngine.UI.Image/UnityEngine.UI.Type m_Type
-    void _set_m_Type(UnityEngine::UI::Image::Type value);
-    // Get instance field: private System.Boolean m_PreserveAspect
-    bool _get_m_PreserveAspect();
-    // Set instance field: private System.Boolean m_PreserveAspect
-    void _set_m_PreserveAspect(bool value);
-    // Get instance field: private System.Boolean m_FillCenter
-    bool _get_m_FillCenter();
-    // Set instance field: private System.Boolean m_FillCenter
-    void _set_m_FillCenter(bool value);
-    // Get instance field: private UnityEngine.UI.Image/UnityEngine.UI.FillMethod m_FillMethod
-    UnityEngine::UI::Image::FillMethod _get_m_FillMethod();
-    // Set instance field: private UnityEngine.UI.Image/UnityEngine.UI.FillMethod m_FillMethod
-    void _set_m_FillMethod(UnityEngine::UI::Image::FillMethod value);
-    // Get instance field: private System.Single m_FillAmount
-    float _get_m_FillAmount();
-    // Set instance field: private System.Single m_FillAmount
-    void _set_m_FillAmount(float value);
-    // Get instance field: private System.Boolean m_FillClockwise
-    bool _get_m_FillClockwise();
-    // Set instance field: private System.Boolean m_FillClockwise
-    void _set_m_FillClockwise(bool value);
-    // Get instance field: private System.Int32 m_FillOrigin
-    int _get_m_FillOrigin();
-    // Set instance field: private System.Int32 m_FillOrigin
-    void _set_m_FillOrigin(int value);
-    // Get instance field: private System.Single m_AlphaHitTestMinimumThreshold
-    float _get_m_AlphaHitTestMinimumThreshold();
-    // Set instance field: private System.Single m_AlphaHitTestMinimumThreshold
-    void _set_m_AlphaHitTestMinimumThreshold(float value);
-    // Get instance field: private System.Boolean m_Tracked
-    bool _get_m_Tracked();
-    // Set instance field: private System.Boolean m_Tracked
-    void _set_m_Tracked(bool value);
-    // Get instance field: private System.Boolean m_UseSpriteMesh
-    bool _get_m_UseSpriteMesh();
-    // Set instance field: private System.Boolean m_UseSpriteMesh
-    void _set_m_UseSpriteMesh(bool value);
-    // Get instance field: private System.Single m_PixelsPerUnitMultiplier
-    float _get_m_PixelsPerUnitMultiplier();
-    // Set instance field: private System.Single m_PixelsPerUnitMultiplier
-    void _set_m_PixelsPerUnitMultiplier(float value);
-    // Get instance field: private System.Single m_CachedReferencePixelsPerUnit
-    float _get_m_CachedReferencePixelsPerUnit();
-    // Set instance field: private System.Single m_CachedReferencePixelsPerUnit
-    void _set_m_CachedReferencePixelsPerUnit(float value);
+    // Get instance field reference: private UnityEngine.Sprite m_Sprite
+    UnityEngine::Sprite*& dyn_m_Sprite();
+    // Get instance field reference: private UnityEngine.Sprite m_OverrideSprite
+    UnityEngine::Sprite*& dyn_m_OverrideSprite();
+    // Get instance field reference: private UnityEngine.UI.Image/UnityEngine.UI.Type m_Type
+    UnityEngine::UI::Image::Type& dyn_m_Type();
+    // Get instance field reference: private System.Boolean m_PreserveAspect
+    bool& dyn_m_PreserveAspect();
+    // Get instance field reference: private System.Boolean m_FillCenter
+    bool& dyn_m_FillCenter();
+    // Get instance field reference: private UnityEngine.UI.Image/UnityEngine.UI.FillMethod m_FillMethod
+    UnityEngine::UI::Image::FillMethod& dyn_m_FillMethod();
+    // Get instance field reference: private System.Single m_FillAmount
+    float& dyn_m_FillAmount();
+    // Get instance field reference: private System.Boolean m_FillClockwise
+    bool& dyn_m_FillClockwise();
+    // Get instance field reference: private System.Int32 m_FillOrigin
+    int& dyn_m_FillOrigin();
+    // Get instance field reference: private System.Single m_AlphaHitTestMinimumThreshold
+    float& dyn_m_AlphaHitTestMinimumThreshold();
+    // Get instance field reference: private System.Boolean m_Tracked
+    bool& dyn_m_Tracked();
+    // Get instance field reference: private System.Boolean m_UseSpriteMesh
+    bool& dyn_m_UseSpriteMesh();
+    // Get instance field reference: private System.Single m_PixelsPerUnitMultiplier
+    float& dyn_m_PixelsPerUnitMultiplier();
+    // Get instance field reference: private System.Single m_CachedReferencePixelsPerUnit
+    float& dyn_m_CachedReferencePixelsPerUnit();
     // public UnityEngine.Sprite get_sprite()
     // Offset: 0x193C9B8
     UnityEngine::Sprite* get_sprite();

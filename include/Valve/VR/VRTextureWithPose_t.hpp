@@ -34,10 +34,8 @@ namespace Valve::VR {
     constexpr operator Valve::VR::HmdMatrix34_t() const noexcept {
       return mDeviceToAbsoluteTracking;
     }
-    // Get instance field: public Valve.VR.HmdMatrix34_t mDeviceToAbsoluteTracking
-    Valve::VR::HmdMatrix34_t _get_mDeviceToAbsoluteTracking();
-    // Set instance field: public Valve.VR.HmdMatrix34_t mDeviceToAbsoluteTracking
-    void _set_mDeviceToAbsoluteTracking(Valve::VR::HmdMatrix34_t value);
+    // Get instance field reference: public Valve.VR.HmdMatrix34_t mDeviceToAbsoluteTracking
+    Valve::VR::HmdMatrix34_t& dyn_mDeviceToAbsoluteTracking();
   }; // Valve.VR.VRTextureWithPose_t
   #pragma pack(pop)
   static check_size<sizeof(VRTextureWithPose_t), 0 + sizeof(Valve::VR::HmdMatrix34_t)> __Valve_VR_VRTextureWithPose_tSizeCheck;

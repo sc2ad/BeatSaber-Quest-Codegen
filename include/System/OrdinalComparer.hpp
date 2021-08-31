@@ -32,10 +32,8 @@ namespace System {
     constexpr operator bool() const noexcept {
       return ignoreCase;
     }
-    // Get instance field: private System.Boolean _ignoreCase
-    bool _get__ignoreCase();
-    // Set instance field: private System.Boolean _ignoreCase
-    void _set__ignoreCase(bool value);
+    // Get instance field reference: private System.Boolean _ignoreCase
+    bool& dyn__ignoreCase();
     // System.Void .ctor(System.Boolean ignoreCase)
     // Offset: 0x1D0EEC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -76,42 +76,24 @@ namespace UnityEngine {
     static_assert(sizeof(::Array<UnityEngine::ContactPoint2D>*) == 0x8);
     // Creating value type constructor for type: Collision2D
     Collision2D(int m_Collider_ = {}, int m_OtherCollider_ = {}, int m_Rigidbody_ = {}, int m_OtherRigidbody_ = {}, UnityEngine::Vector2 m_RelativeVelocity_ = {}, int m_Enabled_ = {}, int m_ContactCount_ = {}, ::Array<UnityEngine::ContactPoint2D>* m_ReusedContacts_ = {}, ::Array<UnityEngine::ContactPoint2D>* m_LegacyContacts_ = {}) noexcept : m_Collider{m_Collider_}, m_OtherCollider{m_OtherCollider_}, m_Rigidbody{m_Rigidbody_}, m_OtherRigidbody{m_OtherRigidbody_}, m_RelativeVelocity{m_RelativeVelocity_}, m_Enabled{m_Enabled_}, m_ContactCount{m_ContactCount_}, m_ReusedContacts{m_ReusedContacts_}, m_LegacyContacts{m_LegacyContacts_} {}
-    // Get instance field: System.Int32 m_Collider
-    int _get_m_Collider();
-    // Set instance field: System.Int32 m_Collider
-    void _set_m_Collider(int value);
-    // Get instance field: System.Int32 m_OtherCollider
-    int _get_m_OtherCollider();
-    // Set instance field: System.Int32 m_OtherCollider
-    void _set_m_OtherCollider(int value);
-    // Get instance field: System.Int32 m_Rigidbody
-    int _get_m_Rigidbody();
-    // Set instance field: System.Int32 m_Rigidbody
-    void _set_m_Rigidbody(int value);
-    // Get instance field: System.Int32 m_OtherRigidbody
-    int _get_m_OtherRigidbody();
-    // Set instance field: System.Int32 m_OtherRigidbody
-    void _set_m_OtherRigidbody(int value);
-    // Get instance field: UnityEngine.Vector2 m_RelativeVelocity
-    UnityEngine::Vector2 _get_m_RelativeVelocity();
-    // Set instance field: UnityEngine.Vector2 m_RelativeVelocity
-    void _set_m_RelativeVelocity(UnityEngine::Vector2 value);
-    // Get instance field: System.Int32 m_Enabled
-    int _get_m_Enabled();
-    // Set instance field: System.Int32 m_Enabled
-    void _set_m_Enabled(int value);
-    // Get instance field: System.Int32 m_ContactCount
-    int _get_m_ContactCount();
-    // Set instance field: System.Int32 m_ContactCount
-    void _set_m_ContactCount(int value);
-    // Get instance field: UnityEngine.ContactPoint2D[] m_ReusedContacts
-    ::Array<UnityEngine::ContactPoint2D>* _get_m_ReusedContacts();
-    // Set instance field: UnityEngine.ContactPoint2D[] m_ReusedContacts
-    void _set_m_ReusedContacts(::Array<UnityEngine::ContactPoint2D>* value);
-    // Get instance field: UnityEngine.ContactPoint2D[] m_LegacyContacts
-    ::Array<UnityEngine::ContactPoint2D>* _get_m_LegacyContacts();
-    // Set instance field: UnityEngine.ContactPoint2D[] m_LegacyContacts
-    void _set_m_LegacyContacts(::Array<UnityEngine::ContactPoint2D>* value);
+    // Get instance field reference: System.Int32 m_Collider
+    int& dyn_m_Collider();
+    // Get instance field reference: System.Int32 m_OtherCollider
+    int& dyn_m_OtherCollider();
+    // Get instance field reference: System.Int32 m_Rigidbody
+    int& dyn_m_Rigidbody();
+    // Get instance field reference: System.Int32 m_OtherRigidbody
+    int& dyn_m_OtherRigidbody();
+    // Get instance field reference: UnityEngine.Vector2 m_RelativeVelocity
+    UnityEngine::Vector2& dyn_m_RelativeVelocity();
+    // Get instance field reference: System.Int32 m_Enabled
+    int& dyn_m_Enabled();
+    // Get instance field reference: System.Int32 m_ContactCount
+    int& dyn_m_ContactCount();
+    // Get instance field reference: UnityEngine.ContactPoint2D[] m_ReusedContacts
+    ::Array<UnityEngine::ContactPoint2D>*& dyn_m_ReusedContacts();
+    // Get instance field reference: UnityEngine.ContactPoint2D[] m_LegacyContacts
+    ::Array<UnityEngine::ContactPoint2D>*& dyn_m_LegacyContacts();
   }; // UnityEngine.Collision2D
   #pragma pack(pop)
   static check_size<sizeof(Collision2D), 56 + sizeof(::Array<UnityEngine::ContactPoint2D>*)> __UnityEngine_Collision2DSizeCheck;

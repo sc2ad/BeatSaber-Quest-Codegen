@@ -36,10 +36,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::EnvironmentSceneSetupData*) == 0x8);
     // Creating value type constructor for type: EnvironmentSceneSetup
     EnvironmentSceneSetup(GlobalNamespace::EnvironmentSceneSetupData* sceneSetupData_ = {}) noexcept : sceneSetupData{sceneSetupData_} {}
-    // Get instance field: private readonly EnvironmentSceneSetupData _sceneSetupData
-    GlobalNamespace::EnvironmentSceneSetupData* _get__sceneSetupData();
-    // Set instance field: private readonly EnvironmentSceneSetupData _sceneSetupData
-    void _set__sceneSetupData(GlobalNamespace::EnvironmentSceneSetupData* value);
+    // Get instance field reference: private readonly EnvironmentSceneSetupData _sceneSetupData
+    GlobalNamespace::EnvironmentSceneSetupData*& dyn__sceneSetupData();
     // public System.Void .ctor()
     // Offset: 0x1052BF8
     // Implemented from: Zenject.MonoInstaller

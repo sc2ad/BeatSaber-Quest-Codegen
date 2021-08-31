@@ -76,30 +76,18 @@ namespace GlobalNamespace {
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
-    // Get instance field: private System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: private System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: private System.Object <>2__current
-    ::Il2CppObject* _get_$$2__current();
-    // Set instance field: private System.Object <>2__current
-    void _set_$$2__current(::Il2CppObject* value);
-    // Get instance field: public System.Single duration
-    float _get_duration();
-    // Set instance field: public System.Single duration
-    void _set_duration(float value);
-    // Get instance field: public BloomFogParamsAnimator <>4__this
-    GlobalNamespace::BloomFogParamsAnimator* _get_$$4__this();
-    // Set instance field: public BloomFogParamsAnimator <>4__this
-    void _set_$$4__this(GlobalNamespace::BloomFogParamsAnimator* value);
-    // Get instance field: public BloomFogEnvironmentParams envFogParams
-    GlobalNamespace::BloomFogEnvironmentParams* _get_envFogParams();
-    // Set instance field: public BloomFogEnvironmentParams envFogParams
-    void _set_envFogParams(GlobalNamespace::BloomFogEnvironmentParams* value);
-    // Get instance field: private System.Single <elapsedTime>5__2
-    float _get_$elapsedTime$5__2();
-    // Set instance field: private System.Single <elapsedTime>5__2
-    void _set_$elapsedTime$5__2(float value);
+    // Get instance field reference: private System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: private System.Object <>2__current
+    ::Il2CppObject*& dyn_$$2__current();
+    // Get instance field reference: public System.Single duration
+    float& dyn_duration();
+    // Get instance field reference: public BloomFogParamsAnimator <>4__this
+    GlobalNamespace::BloomFogParamsAnimator*& dyn_$$4__this();
+    // Get instance field reference: public BloomFogEnvironmentParams envFogParams
+    GlobalNamespace::BloomFogEnvironmentParams*& dyn_envFogParams();
+    // Get instance field reference: private System.Single <elapsedTime>5__2
+    float& dyn_$elapsedTime$5__2();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
     // Offset: 0x1E11534
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();

@@ -111,54 +111,30 @@ namespace GlobalNamespace {
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
-    // Get instance field: private System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: private System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: private System.Object <>2__current
-    ::Il2CppObject* _get_$$2__current();
-    // Set instance field: private System.Object <>2__current
-    void _set_$$2__current(::Il2CppObject* value);
-    // Get instance field: public WaypointsTestMenuViewController <>4__this
-    GlobalNamespace::WaypointsTestMenuViewController* _get_$$4__this();
-    // Set instance field: public WaypointsTestMenuViewController <>4__this
-    void _set_$$4__this(GlobalNamespace::WaypointsTestMenuViewController* value);
-    // Get instance field: public System.Collections.Generic.List`1<BeatmapLevelSO> levels
-    System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelSO*>* _get_levels();
-    // Set instance field: public System.Collections.Generic.List`1<BeatmapLevelSO> levels
-    void _set_levels(System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelSO*>* value);
-    // Get instance field: private System.Int32 <count>5__2
-    int _get_$count$5__2();
-    // Set instance field: private System.Int32 <count>5__2
-    void _set_$count$5__2(int value);
-    // Get instance field: private System.Collections.Generic.List`1<BeatmapDifficulty> <difficultiesToCheck>5__3
-    System::Collections::Generic::List_1<GlobalNamespace::BeatmapDifficulty>* _get_$difficultiesToCheck$5__3();
-    // Set instance field: private System.Collections.Generic.List`1<BeatmapDifficulty> <difficultiesToCheck>5__3
-    void _set_$difficultiesToCheck$5__3(System::Collections::Generic::List_1<GlobalNamespace::BeatmapDifficulty>* value);
-    // Get instance field: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<BeatmapLevelSO> <>7__wrap3
-    typename System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelSO*>::Enumerator _get_$$7__wrap3();
-    // Set instance field: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<BeatmapLevelSO> <>7__wrap3
-    void _set_$$7__wrap3(typename System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelSO*>::Enumerator value);
-    // Get instance field: private BeatmapLevelSO <level>5__5
-    GlobalNamespace::BeatmapLevelSO* _get_$level$5__5();
-    // Set instance field: private BeatmapLevelSO <level>5__5
-    void _set_$level$5__5(GlobalNamespace::BeatmapLevelSO* value);
-    // Get instance field: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<BeatmapCharacteristicSO> <>7__wrap5
-    typename System::Collections::Generic::List_1<GlobalNamespace::BeatmapCharacteristicSO*>::Enumerator _get_$$7__wrap5();
-    // Set instance field: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<BeatmapCharacteristicSO> <>7__wrap5
-    void _set_$$7__wrap5(typename System::Collections::Generic::List_1<GlobalNamespace::BeatmapCharacteristicSO*>::Enumerator value);
-    // Get instance field: private BeatmapCharacteristicSO <characteristic>5__7
-    GlobalNamespace::BeatmapCharacteristicSO* _get_$characteristic$5__7();
-    // Set instance field: private BeatmapCharacteristicSO <characteristic>5__7
-    void _set_$characteristic$5__7(GlobalNamespace::BeatmapCharacteristicSO* value);
-    // Get instance field: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<BeatmapDifficulty> <>7__wrap7
-    typename System::Collections::Generic::List_1<GlobalNamespace::BeatmapDifficulty>::Enumerator _get_$$7__wrap7();
-    // Set instance field: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<BeatmapDifficulty> <>7__wrap7
-    void _set_$$7__wrap7(typename System::Collections::Generic::List_1<GlobalNamespace::BeatmapDifficulty>::Enumerator value);
-    // Get instance field: private BeatmapDifficulty <difficulty>5__9
-    GlobalNamespace::BeatmapDifficulty _get_$difficulty$5__9();
-    // Set instance field: private BeatmapDifficulty <difficulty>5__9
-    void _set_$difficulty$5__9(GlobalNamespace::BeatmapDifficulty value);
+    // Get instance field reference: private System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: private System.Object <>2__current
+    ::Il2CppObject*& dyn_$$2__current();
+    // Get instance field reference: public WaypointsTestMenuViewController <>4__this
+    GlobalNamespace::WaypointsTestMenuViewController*& dyn_$$4__this();
+    // Get instance field reference: public System.Collections.Generic.List`1<BeatmapLevelSO> levels
+    System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelSO*>*& dyn_levels();
+    // Get instance field reference: private System.Int32 <count>5__2
+    int& dyn_$count$5__2();
+    // Get instance field reference: private System.Collections.Generic.List`1<BeatmapDifficulty> <difficultiesToCheck>5__3
+    System::Collections::Generic::List_1<GlobalNamespace::BeatmapDifficulty>*& dyn_$difficultiesToCheck$5__3();
+    // Get instance field reference: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<BeatmapLevelSO> <>7__wrap3
+    typename System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelSO*>::Enumerator& dyn_$$7__wrap3();
+    // Get instance field reference: private BeatmapLevelSO <level>5__5
+    GlobalNamespace::BeatmapLevelSO*& dyn_$level$5__5();
+    // Get instance field reference: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<BeatmapCharacteristicSO> <>7__wrap5
+    typename System::Collections::Generic::List_1<GlobalNamespace::BeatmapCharacteristicSO*>::Enumerator& dyn_$$7__wrap5();
+    // Get instance field reference: private BeatmapCharacteristicSO <characteristic>5__7
+    GlobalNamespace::BeatmapCharacteristicSO*& dyn_$characteristic$5__7();
+    // Get instance field reference: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<BeatmapDifficulty> <>7__wrap7
+    typename System::Collections::Generic::List_1<GlobalNamespace::BeatmapDifficulty>::Enumerator& dyn_$$7__wrap7();
+    // Get instance field reference: private BeatmapDifficulty <difficulty>5__9
+    GlobalNamespace::BeatmapDifficulty& dyn_$difficulty$5__9();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
     // Offset: 0x1362DC4
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();

@@ -40,10 +40,8 @@ namespace UnityEngine::UI {
     constexpr operator System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>*() const noexcept {
       return m_Options;
     }
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/UnityEngine.UI.OptionData> m_Options
-    System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>* _get_m_Options();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/UnityEngine.UI.OptionData> m_Options
-    void _set_m_Options(System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>* value);
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/UnityEngine.UI.OptionData> m_Options
+    System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>*& dyn_m_Options();
     // public System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/UnityEngine.UI.OptionData> get_options()
     // Offset: 0x1935B60
     System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>* get_options();

@@ -79,38 +79,22 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: IKSolverHeuristic
     IKSolverHeuristic(UnityEngine::Transform* target_ = {}, float tolerance_ = {}, int maxIterations_ = {}, bool useRotationLimits_ = {}, bool XY_ = {}, ::Array<RootMotion::FinalIK::IKSolver::Bone*>* bones_ = {}, UnityEngine::Vector3 lastLocalDirection_ = {}, float chainLength_ = {}) noexcept : target{target_}, tolerance{tolerance_}, maxIterations{maxIterations_}, useRotationLimits{useRotationLimits_}, XY{XY_}, bones{bones_}, lastLocalDirection{lastLocalDirection_}, chainLength{chainLength_} {}
-    // Get instance field: public UnityEngine.Transform target
-    UnityEngine::Transform* _get_target();
-    // Set instance field: public UnityEngine.Transform target
-    void _set_target(UnityEngine::Transform* value);
-    // Get instance field: public System.Single tolerance
-    float _get_tolerance();
-    // Set instance field: public System.Single tolerance
-    void _set_tolerance(float value);
-    // Get instance field: public System.Int32 maxIterations
-    int _get_maxIterations();
-    // Set instance field: public System.Int32 maxIterations
-    void _set_maxIterations(int value);
-    // Get instance field: public System.Boolean useRotationLimits
-    bool _get_useRotationLimits();
-    // Set instance field: public System.Boolean useRotationLimits
-    void _set_useRotationLimits(bool value);
-    // Get instance field: public System.Boolean XY
-    bool _get_XY();
-    // Set instance field: public System.Boolean XY
-    void _set_XY(bool value);
-    // Get instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Bone[] bones
-    ::Array<RootMotion::FinalIK::IKSolver::Bone*>* _get_bones();
-    // Set instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Bone[] bones
-    void _set_bones(::Array<RootMotion::FinalIK::IKSolver::Bone*>* value);
-    // Get instance field: protected UnityEngine.Vector3 lastLocalDirection
-    UnityEngine::Vector3 _get_lastLocalDirection();
-    // Set instance field: protected UnityEngine.Vector3 lastLocalDirection
-    void _set_lastLocalDirection(UnityEngine::Vector3 value);
-    // Get instance field: protected System.Single chainLength
-    float _get_chainLength();
-    // Set instance field: protected System.Single chainLength
-    void _set_chainLength(float value);
+    // Get instance field reference: public UnityEngine.Transform target
+    UnityEngine::Transform*& dyn_target();
+    // Get instance field reference: public System.Single tolerance
+    float& dyn_tolerance();
+    // Get instance field reference: public System.Int32 maxIterations
+    int& dyn_maxIterations();
+    // Get instance field reference: public System.Boolean useRotationLimits
+    bool& dyn_useRotationLimits();
+    // Get instance field reference: public System.Boolean XY
+    bool& dyn_XY();
+    // Get instance field reference: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Bone[] bones
+    ::Array<RootMotion::FinalIK::IKSolver::Bone*>*& dyn_bones();
+    // Get instance field reference: protected UnityEngine.Vector3 lastLocalDirection
+    UnityEngine::Vector3& dyn_lastLocalDirection();
+    // Get instance field reference: protected System.Single chainLength
+    float& dyn_chainLength();
     // protected System.Int32 get_minBones()
     // Offset: 0x1CB4E34
     int get_minBones();

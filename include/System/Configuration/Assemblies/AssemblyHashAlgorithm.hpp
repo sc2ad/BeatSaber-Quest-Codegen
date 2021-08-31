@@ -69,10 +69,8 @@ namespace System::Configuration::Assemblies {
     static System::Configuration::Assemblies::AssemblyHashAlgorithm _get_SHA512();
     // Set static field: static public System.Configuration.Assemblies.AssemblyHashAlgorithm SHA512
     static void _set_SHA512(System::Configuration::Assemblies::AssemblyHashAlgorithm value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Configuration.Assemblies.AssemblyHashAlgorithm
   #pragma pack(pop)
   static check_size<sizeof(AssemblyHashAlgorithm), 0 + sizeof(int)> __System_Configuration_Assemblies_AssemblyHashAlgorithmSizeCheck;

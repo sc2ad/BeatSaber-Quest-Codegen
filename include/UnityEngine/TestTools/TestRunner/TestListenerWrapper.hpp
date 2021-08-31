@@ -56,14 +56,10 @@ namespace UnityEngine::TestTools::TestRunner {
     operator NUnit::Framework::Interfaces::ITestListener() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ITestListener*>(this);
     }
-    // Get instance field: private readonly UnityEngine.TestTools.TestRunner.TestFinishedEvent m_TestFinishedEvent
-    UnityEngine::TestTools::TestRunner::TestFinishedEvent* _get_m_TestFinishedEvent();
-    // Set instance field: private readonly UnityEngine.TestTools.TestRunner.TestFinishedEvent m_TestFinishedEvent
-    void _set_m_TestFinishedEvent(UnityEngine::TestTools::TestRunner::TestFinishedEvent* value);
-    // Get instance field: private readonly UnityEngine.TestTools.TestRunner.TestStartedEvent m_TestStartedEvent
-    UnityEngine::TestTools::TestRunner::TestStartedEvent* _get_m_TestStartedEvent();
-    // Set instance field: private readonly UnityEngine.TestTools.TestRunner.TestStartedEvent m_TestStartedEvent
-    void _set_m_TestStartedEvent(UnityEngine::TestTools::TestRunner::TestStartedEvent* value);
+    // Get instance field reference: private readonly UnityEngine.TestTools.TestRunner.TestFinishedEvent m_TestFinishedEvent
+    UnityEngine::TestTools::TestRunner::TestFinishedEvent*& dyn_m_TestFinishedEvent();
+    // Get instance field reference: private readonly UnityEngine.TestTools.TestRunner.TestStartedEvent m_TestStartedEvent
+    UnityEngine::TestTools::TestRunner::TestStartedEvent*& dyn_m_TestStartedEvent();
     // public System.Void .ctor(UnityEngine.TestTools.TestRunner.TestStartedEvent testStartedEvent, UnityEngine.TestTools.TestRunner.TestFinishedEvent testFinishedEvent)
     // Offset: 0x2401FF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

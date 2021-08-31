@@ -101,42 +101,24 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: EditColorController
     EditColorController(GlobalNamespace::HSVPanelController* hsvPanelController_ = {}, GlobalNamespace::PreviousColorPanelController* previousColorPanelController_ = {}, UnityEngine::UI::Button* cancelButton_ = {}, UnityEngine::UI::Button* applyButton_ = {}, System::Action_1<UnityEngine::Color>* didChangeColorEvent_ = {}, System::Action_1<bool>* didFinishEvent_ = {}, System::Action_1<UnityEngine::Color>* colorCallback_ = {}, UnityEngine::Color initialColor_ = {}, bool colorChanged_ = {}) noexcept : hsvPanelController{hsvPanelController_}, previousColorPanelController{previousColorPanelController_}, cancelButton{cancelButton_}, applyButton{applyButton_}, didChangeColorEvent{didChangeColorEvent_}, didFinishEvent{didFinishEvent_}, colorCallback{colorCallback_}, initialColor{initialColor_}, colorChanged{colorChanged_} {}
-    // Get instance field: private HSVPanelController _hsvPanelController
-    GlobalNamespace::HSVPanelController* _get__hsvPanelController();
-    // Set instance field: private HSVPanelController _hsvPanelController
-    void _set__hsvPanelController(GlobalNamespace::HSVPanelController* value);
-    // Get instance field: private PreviousColorPanelController _previousColorPanelController
-    GlobalNamespace::PreviousColorPanelController* _get__previousColorPanelController();
-    // Set instance field: private PreviousColorPanelController _previousColorPanelController
-    void _set__previousColorPanelController(GlobalNamespace::PreviousColorPanelController* value);
-    // Get instance field: private UnityEngine.UI.Button _cancelButton
-    UnityEngine::UI::Button* _get__cancelButton();
-    // Set instance field: private UnityEngine.UI.Button _cancelButton
-    void _set__cancelButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _applyButton
-    UnityEngine::UI::Button* _get__applyButton();
-    // Set instance field: private UnityEngine.UI.Button _applyButton
-    void _set__applyButton(UnityEngine::UI::Button* value);
-    // Get instance field: private System.Action`1<UnityEngine.Color> didChangeColorEvent
-    System::Action_1<UnityEngine::Color>* _get_didChangeColorEvent();
-    // Set instance field: private System.Action`1<UnityEngine.Color> didChangeColorEvent
-    void _set_didChangeColorEvent(System::Action_1<UnityEngine::Color>* value);
-    // Get instance field: private System.Action`1<System.Boolean> didFinishEvent
-    System::Action_1<bool>* _get_didFinishEvent();
-    // Set instance field: private System.Action`1<System.Boolean> didFinishEvent
-    void _set_didFinishEvent(System::Action_1<bool>* value);
-    // Get instance field: private System.Action`1<UnityEngine.Color> _colorCallback
-    System::Action_1<UnityEngine::Color>* _get__colorCallback();
-    // Set instance field: private System.Action`1<UnityEngine.Color> _colorCallback
-    void _set__colorCallback(System::Action_1<UnityEngine::Color>* value);
-    // Get instance field: private UnityEngine.Color _initialColor
-    UnityEngine::Color _get__initialColor();
-    // Set instance field: private UnityEngine.Color _initialColor
-    void _set__initialColor(UnityEngine::Color value);
-    // Get instance field: private System.Boolean _colorChanged
-    bool _get__colorChanged();
-    // Set instance field: private System.Boolean _colorChanged
-    void _set__colorChanged(bool value);
+    // Get instance field reference: private HSVPanelController _hsvPanelController
+    GlobalNamespace::HSVPanelController*& dyn__hsvPanelController();
+    // Get instance field reference: private PreviousColorPanelController _previousColorPanelController
+    GlobalNamespace::PreviousColorPanelController*& dyn__previousColorPanelController();
+    // Get instance field reference: private UnityEngine.UI.Button _cancelButton
+    UnityEngine::UI::Button*& dyn__cancelButton();
+    // Get instance field reference: private UnityEngine.UI.Button _applyButton
+    UnityEngine::UI::Button*& dyn__applyButton();
+    // Get instance field reference: private System.Action`1<UnityEngine.Color> didChangeColorEvent
+    System::Action_1<UnityEngine::Color>*& dyn_didChangeColorEvent();
+    // Get instance field reference: private System.Action`1<System.Boolean> didFinishEvent
+    System::Action_1<bool>*& dyn_didFinishEvent();
+    // Get instance field reference: private System.Action`1<UnityEngine.Color> _colorCallback
+    System::Action_1<UnityEngine::Color>*& dyn__colorCallback();
+    // Get instance field reference: private UnityEngine.Color _initialColor
+    UnityEngine::Color& dyn__initialColor();
+    // Get instance field reference: private System.Boolean _colorChanged
+    bool& dyn__colorChanged();
     // public System.Void add_didChangeColorEvent(System.Action`1<UnityEngine.Color> value)
     // Offset: 0x104C7E0
     void add_didChangeColorEvent(System::Action_1<UnityEngine::Color>* value);

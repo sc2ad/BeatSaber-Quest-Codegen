@@ -92,42 +92,24 @@ namespace System::Threading {
     RegisteredWaitHandle(System::Threading::WaitHandle* waitObject_ = {}, System::Threading::WaitOrTimerCallback* callback_ = {}, ::Il2CppObject* state_ = {}, System::Threading::WaitHandle* finalEvent_ = {}, System::Threading::ManualResetEvent* cancelEvent_ = {}, System::TimeSpan timeout_ = {}, int callsInProcess_ = {}, bool executeOnlyOnce_ = {}, bool unregistered_ = {}) noexcept : waitObject{waitObject_}, callback{callback_}, state{state_}, finalEvent{finalEvent_}, cancelEvent{cancelEvent_}, timeout{timeout_}, callsInProcess{callsInProcess_}, executeOnlyOnce{executeOnlyOnce_}, unregistered{unregistered_} {}
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
-    // Get instance field: private System.Threading.WaitHandle _waitObject
-    System::Threading::WaitHandle* _get__waitObject();
-    // Set instance field: private System.Threading.WaitHandle _waitObject
-    void _set__waitObject(System::Threading::WaitHandle* value);
-    // Get instance field: private System.Threading.WaitOrTimerCallback _callback
-    System::Threading::WaitOrTimerCallback* _get__callback();
-    // Set instance field: private System.Threading.WaitOrTimerCallback _callback
-    void _set__callback(System::Threading::WaitOrTimerCallback* value);
-    // Get instance field: private System.Object _state
-    ::Il2CppObject* _get__state();
-    // Set instance field: private System.Object _state
-    void _set__state(::Il2CppObject* value);
-    // Get instance field: private System.Threading.WaitHandle _finalEvent
-    System::Threading::WaitHandle* _get__finalEvent();
-    // Set instance field: private System.Threading.WaitHandle _finalEvent
-    void _set__finalEvent(System::Threading::WaitHandle* value);
-    // Get instance field: private System.Threading.ManualResetEvent _cancelEvent
-    System::Threading::ManualResetEvent* _get__cancelEvent();
-    // Set instance field: private System.Threading.ManualResetEvent _cancelEvent
-    void _set__cancelEvent(System::Threading::ManualResetEvent* value);
-    // Get instance field: private System.TimeSpan _timeout
-    System::TimeSpan _get__timeout();
-    // Set instance field: private System.TimeSpan _timeout
-    void _set__timeout(System::TimeSpan value);
-    // Get instance field: private System.Int32 _callsInProcess
-    int _get__callsInProcess();
-    // Set instance field: private System.Int32 _callsInProcess
-    void _set__callsInProcess(int value);
-    // Get instance field: private System.Boolean _executeOnlyOnce
-    bool _get__executeOnlyOnce();
-    // Set instance field: private System.Boolean _executeOnlyOnce
-    void _set__executeOnlyOnce(bool value);
-    // Get instance field: private System.Boolean _unregistered
-    bool _get__unregistered();
-    // Set instance field: private System.Boolean _unregistered
-    void _set__unregistered(bool value);
+    // Get instance field reference: private System.Threading.WaitHandle _waitObject
+    System::Threading::WaitHandle*& dyn__waitObject();
+    // Get instance field reference: private System.Threading.WaitOrTimerCallback _callback
+    System::Threading::WaitOrTimerCallback*& dyn__callback();
+    // Get instance field reference: private System.Object _state
+    ::Il2CppObject*& dyn__state();
+    // Get instance field reference: private System.Threading.WaitHandle _finalEvent
+    System::Threading::WaitHandle*& dyn__finalEvent();
+    // Get instance field reference: private System.Threading.ManualResetEvent _cancelEvent
+    System::Threading::ManualResetEvent*& dyn__cancelEvent();
+    // Get instance field reference: private System.TimeSpan _timeout
+    System::TimeSpan& dyn__timeout();
+    // Get instance field reference: private System.Int32 _callsInProcess
+    int& dyn__callsInProcess();
+    // Get instance field reference: private System.Boolean _executeOnlyOnce
+    bool& dyn__executeOnlyOnce();
+    // Get instance field reference: private System.Boolean _unregistered
+    bool& dyn__unregistered();
     // System.Void .ctor(System.Threading.WaitHandle waitObject, System.Threading.WaitOrTimerCallback callback, System.Object state, System.TimeSpan timeout, System.Boolean executeOnlyOnce)
     // Offset: 0x18F8798
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -244,26 +244,16 @@ namespace Org::BouncyCastle::Asn1::X509 {
     static System::Collections::Hashtable* _get_DefaultLookup();
     // Set static field: static public readonly System.Collections.Hashtable DefaultLookup
     static void _set_DefaultLookup(System::Collections::Hashtable* value);
-    // Get instance field: private readonly System.Collections.IList ordering
-    System::Collections::IList* _get_ordering();
-    // Set instance field: private readonly System.Collections.IList ordering
-    void _set_ordering(System::Collections::IList* value);
-    // Get instance field: private readonly Org.BouncyCastle.Asn1.X509.X509NameEntryConverter converter
-    Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* _get_converter();
-    // Set instance field: private readonly Org.BouncyCastle.Asn1.X509.X509NameEntryConverter converter
-    void _set_converter(Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* value);
-    // Get instance field: private System.Collections.IList values
-    System::Collections::IList* _get_values();
-    // Set instance field: private System.Collections.IList values
-    void _set_values(System::Collections::IList* value);
-    // Get instance field: private System.Collections.IList added
-    System::Collections::IList* _get_added();
-    // Set instance field: private System.Collections.IList added
-    void _set_added(System::Collections::IList* value);
-    // Get instance field: private Org.BouncyCastle.Asn1.Asn1Sequence seq
-    Org::BouncyCastle::Asn1::Asn1Sequence* _get_seq();
-    // Set instance field: private Org.BouncyCastle.Asn1.Asn1Sequence seq
-    void _set_seq(Org::BouncyCastle::Asn1::Asn1Sequence* value);
+    // Get instance field reference: private readonly System.Collections.IList ordering
+    System::Collections::IList*& dyn_ordering();
+    // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.X509NameEntryConverter converter
+    Org::BouncyCastle::Asn1::X509::X509NameEntryConverter*& dyn_converter();
+    // Get instance field reference: private System.Collections.IList values
+    System::Collections::IList*& dyn_values();
+    // Get instance field reference: private System.Collections.IList added
+    System::Collections::IList*& dyn_added();
+    // Get instance field reference: private Org.BouncyCastle.Asn1.Asn1Sequence seq
+    Org::BouncyCastle::Asn1::Asn1Sequence*& dyn_seq();
     // static public System.Boolean get_DefaultReverse()
     // Offset: 0x19FFF38
     static bool get_DefaultReverse();

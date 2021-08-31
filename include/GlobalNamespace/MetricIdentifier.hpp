@@ -83,26 +83,16 @@ namespace GlobalNamespace {
     operator System::IEquatable_1<GlobalNamespace::MetricIdentifier>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<GlobalNamespace::MetricIdentifier>*>(this);
     }
-    // Get instance field: public readonly System.String metricName
-    ::Il2CppString* _get_metricName();
-    // Set instance field: public readonly System.String metricName
-    void _set_metricName(::Il2CppString* value);
-    // Get instance field: private readonly System.ValueTuple`2<System.String,System.String> _tag0
-    System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> _get__tag0();
-    // Set instance field: private readonly System.ValueTuple`2<System.String,System.String> _tag0
-    void _set__tag0(System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> value);
-    // Get instance field: private readonly System.ValueTuple`2<System.String,System.String> _tag1
-    System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> _get__tag1();
-    // Set instance field: private readonly System.ValueTuple`2<System.String,System.String> _tag1
-    void _set__tag1(System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> value);
-    // Get instance field: private readonly System.ValueTuple`2<System.String,System.String> _tag2
-    System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> _get__tag2();
-    // Set instance field: private readonly System.ValueTuple`2<System.String,System.String> _tag2
-    void _set__tag2(System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> value);
-    // Get instance field: private readonly System.ValueTuple`2<System.String,System.String> _tag3
-    System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> _get__tag3();
-    // Set instance field: private readonly System.ValueTuple`2<System.String,System.String> _tag3
-    void _set__tag3(System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> value);
+    // Get instance field reference: public readonly System.String metricName
+    ::Il2CppString*& dyn_metricName();
+    // Get instance field reference: private readonly System.ValueTuple`2<System.String,System.String> _tag0
+    System::ValueTuple_2<::Il2CppString*, ::Il2CppString*>& dyn__tag0();
+    // Get instance field reference: private readonly System.ValueTuple`2<System.String,System.String> _tag1
+    System::ValueTuple_2<::Il2CppString*, ::Il2CppString*>& dyn__tag1();
+    // Get instance field reference: private readonly System.ValueTuple`2<System.String,System.String> _tag2
+    System::ValueTuple_2<::Il2CppString*, ::Il2CppString*>& dyn__tag2();
+    // Get instance field reference: private readonly System.ValueTuple`2<System.String,System.String> _tag3
+    System::ValueTuple_2<::Il2CppString*, ::Il2CppString*>& dyn__tag3();
     // public System.Int32 get_tagCount()
     // Offset: 0x16EB014
     int get_tagCount();

@@ -30,10 +30,8 @@ namespace Microsoft::Win32 {
     constexpr operator ::Il2CppString*() const noexcept {
       return value;
     }
-    // Get instance field: private System.String value
-    ::Il2CppString* _get_value();
-    // Set instance field: private System.String value
-    void _set_value(::Il2CppString* value);
+    // Get instance field reference: private System.String value
+    ::Il2CppString*& dyn_value();
     // public System.Void .ctor(System.String s)
     // Offset: 0x1A5E6F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

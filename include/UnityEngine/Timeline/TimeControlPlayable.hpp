@@ -53,14 +53,10 @@ namespace UnityEngine::Timeline {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: TimeControlPlayable
     TimeControlPlayable(UnityEngine::Timeline::ITimeControl* m_timeControl_ = {}, bool m_started_ = {}) noexcept : m_timeControl{m_timeControl_}, m_started{m_started_} {}
-    // Get instance field: private UnityEngine.Timeline.ITimeControl m_timeControl
-    UnityEngine::Timeline::ITimeControl* _get_m_timeControl();
-    // Set instance field: private UnityEngine.Timeline.ITimeControl m_timeControl
-    void _set_m_timeControl(UnityEngine::Timeline::ITimeControl* value);
-    // Get instance field: private System.Boolean m_started
-    bool _get_m_started();
-    // Set instance field: private System.Boolean m_started
-    void _set_m_started(bool value);
+    // Get instance field reference: private UnityEngine.Timeline.ITimeControl m_timeControl
+    UnityEngine::Timeline::ITimeControl*& dyn_m_timeControl();
+    // Get instance field reference: private System.Boolean m_started
+    bool& dyn_m_started();
     // static public UnityEngine.Playables.ScriptPlayable`1<UnityEngine.Timeline.TimeControlPlayable> Create(UnityEngine.Playables.PlayableGraph graph, UnityEngine.Timeline.ITimeControl timeControl)
     // Offset: 0x181DE00
     static UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::TimeControlPlayable*> Create(UnityEngine::Playables::PlayableGraph graph, UnityEngine::Timeline::ITimeControl* timeControl);

@@ -36,10 +36,8 @@ namespace System::Runtime::CompilerServices {
     constexpr operator int() const noexcept {
       return m_relaxations;
     }
-    // Get instance field: private System.Int32 m_relaxations
-    int _get_m_relaxations();
-    // Set instance field: private System.Int32 m_relaxations
-    void _set_m_relaxations(int value);
+    // Get instance field reference: private System.Int32 m_relaxations
+    int& dyn_m_relaxations();
     // public System.Int32 get_CompilationRelaxations()
     // Offset: 0x1486AF4
     int get_CompilationRelaxations();

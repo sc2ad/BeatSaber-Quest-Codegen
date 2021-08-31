@@ -71,10 +71,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRInput::Axis1D _get_Any();
     // Set static field: static public OVRInput/Axis1D Any
     static void _set_Any(GlobalNamespace::OVRInput::Axis1D value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // OVRInput/Axis1D
   #pragma pack(pop)
   static check_size<sizeof(OVRInput::Axis1D), 0 + sizeof(int)> __GlobalNamespace_OVRInput_Axis1DSizeCheck;

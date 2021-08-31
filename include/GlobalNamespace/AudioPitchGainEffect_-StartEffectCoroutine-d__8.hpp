@@ -82,34 +82,20 @@ namespace GlobalNamespace {
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
-    // Get instance field: private System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: private System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: private System.Object <>2__current
-    ::Il2CppObject* _get_$$2__current();
-    // Set instance field: private System.Object <>2__current
-    void _set_$$2__current(::Il2CppObject* value);
-    // Get instance field: public AudioPitchGainEffect <>4__this
-    GlobalNamespace::AudioPitchGainEffect* _get_$$4__this();
-    // Set instance field: public AudioPitchGainEffect <>4__this
-    void _set_$$4__this(GlobalNamespace::AudioPitchGainEffect* value);
-    // Get instance field: public System.Single volumeScale
-    float _get_volumeScale();
-    // Set instance field: public System.Single volumeScale
-    void _set_volumeScale(float value);
-    // Get instance field: public System.Action finishCallback
-    System::Action* _get_finishCallback();
-    // Set instance field: public System.Action finishCallback
-    void _set_finishCallback(System::Action* value);
-    // Get instance field: private System.Single <startPitch>5__2
-    float _get_$startPitch$5__2();
-    // Set instance field: private System.Single <startPitch>5__2
-    void _set_$startPitch$5__2(float value);
-    // Get instance field: private System.Single <time>5__3
-    float _get_$time$5__3();
-    // Set instance field: private System.Single <time>5__3
-    void _set_$time$5__3(float value);
+    // Get instance field reference: private System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: private System.Object <>2__current
+    ::Il2CppObject*& dyn_$$2__current();
+    // Get instance field reference: public AudioPitchGainEffect <>4__this
+    GlobalNamespace::AudioPitchGainEffect*& dyn_$$4__this();
+    // Get instance field reference: public System.Single volumeScale
+    float& dyn_volumeScale();
+    // Get instance field reference: public System.Action finishCallback
+    System::Action*& dyn_finishCallback();
+    // Get instance field reference: private System.Single <startPitch>5__2
+    float& dyn_$startPitch$5__2();
+    // Get instance field reference: private System.Single <time>5__3
+    float& dyn_$time$5__3();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
     // Offset: 0x117E4B8
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();

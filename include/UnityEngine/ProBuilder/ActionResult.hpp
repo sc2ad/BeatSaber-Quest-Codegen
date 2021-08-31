@@ -74,10 +74,8 @@ namespace UnityEngine::ProBuilder {
       static UnityEngine::ProBuilder::ActionResult::Status _get_NoChange();
       // Set static field: static public UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status NoChange
       static void _set_NoChange(UnityEngine::ProBuilder::ActionResult::Status value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status
     #pragma pack(pop)
     static check_size<sizeof(ActionResult::Status), 0 + sizeof(int)> __UnityEngine_ProBuilder_ActionResult_StatusSizeCheck;
@@ -98,14 +96,10 @@ namespace UnityEngine::ProBuilder {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: ActionResult
     ActionResult(UnityEngine::ProBuilder::ActionResult::Status status_ = {}, ::Il2CppString* notification_ = {}) noexcept : status{status_}, notification{notification_} {}
-    // Get instance field: private UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status <status>k__BackingField
-    UnityEngine::ProBuilder::ActionResult::Status _get_$status$k__BackingField();
-    // Set instance field: private UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status <status>k__BackingField
-    void _set_$status$k__BackingField(UnityEngine::ProBuilder::ActionResult::Status value);
-    // Get instance field: private System.String <notification>k__BackingField
-    ::Il2CppString* _get_$notification$k__BackingField();
-    // Set instance field: private System.String <notification>k__BackingField
-    void _set_$notification$k__BackingField(::Il2CppString* value);
+    // Get instance field reference: private UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status <status>k__BackingField
+    UnityEngine::ProBuilder::ActionResult::Status& dyn_$status$k__BackingField();
+    // Get instance field reference: private System.String <notification>k__BackingField
+    ::Il2CppString*& dyn_$notification$k__BackingField();
     // public UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status get_status()
     // Offset: 0x1FA3B8C
     UnityEngine::ProBuilder::ActionResult::Status get_status();

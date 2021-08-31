@@ -75,10 +75,8 @@ namespace System {
     static System::UnescapeMode _get_UnescapeAllOrThrow();
     // Set static field: static public System.UnescapeMode UnescapeAllOrThrow
     static void _set_UnescapeAllOrThrow(System::UnescapeMode value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.UnescapeMode
   #pragma pack(pop)
   static check_size<sizeof(UnescapeMode), 0 + sizeof(int)> __System_UnescapeModeSizeCheck;

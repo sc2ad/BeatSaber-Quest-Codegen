@@ -56,10 +56,8 @@ namespace TMPro {
     static TMPro::ColorMode _get_FourCornersGradient();
     // Set static field: static public TMPro.ColorMode FourCornersGradient
     static void _set_FourCornersGradient(TMPro::ColorMode value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // TMPro.ColorMode
   #pragma pack(pop)
   static check_size<sizeof(ColorMode), 0 + sizeof(int)> __TMPro_ColorModeSizeCheck;

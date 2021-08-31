@@ -238,114 +238,60 @@ namespace RootMotion::FinalIK {
     AimController(RootMotion::FinalIK::AimIK* ik_ = {}, float weight_ = {}, UnityEngine::Transform* target_ = {}, float targetSwitchSmoothTime_ = {}, float weightSmoothTime_ = {}, bool smoothTurnTowardsTarget_ = {}, float maxRadiansDelta_ = {}, float maxMagnitudeDelta_ = {}, float slerpSpeed_ = {}, UnityEngine::Vector3 pivotOffsetFromRoot_ = {}, float minDistance_ = {}, UnityEngine::Vector3 offset_ = {}, float maxRootAngle_ = {}, bool turnToTarget_ = {}, float turnToTargetTime_ = {}, bool useAnimatedAimDirection_ = {}, UnityEngine::Vector3 animatedAimDirection_ = {}, UnityEngine::Transform* lastTarget_ = {}, float switchWeight_ = {}, float switchWeightV_ = {}, float weightV_ = {}, UnityEngine::Vector3 lastPosition_ = {}, UnityEngine::Vector3 dir_ = {}, bool lastSmoothTowardsTarget_ = {}, bool turningToTarget_ = {}, float turnToTargetMlp_ = {}, float turnToTargetMlpV_ = {}) noexcept : ik{ik_}, weight{weight_}, target{target_}, targetSwitchSmoothTime{targetSwitchSmoothTime_}, weightSmoothTime{weightSmoothTime_}, smoothTurnTowardsTarget{smoothTurnTowardsTarget_}, maxRadiansDelta{maxRadiansDelta_}, maxMagnitudeDelta{maxMagnitudeDelta_}, slerpSpeed{slerpSpeed_}, pivotOffsetFromRoot{pivotOffsetFromRoot_}, minDistance{minDistance_}, offset{offset_}, maxRootAngle{maxRootAngle_}, turnToTarget{turnToTarget_}, turnToTargetTime{turnToTargetTime_}, useAnimatedAimDirection{useAnimatedAimDirection_}, animatedAimDirection{animatedAimDirection_}, lastTarget{lastTarget_}, switchWeight{switchWeight_}, switchWeightV{switchWeightV_}, weightV{weightV_}, lastPosition{lastPosition_}, dir{dir_}, lastSmoothTowardsTarget{lastSmoothTowardsTarget_}, turningToTarget{turningToTarget_}, turnToTargetMlp{turnToTargetMlp_}, turnToTargetMlpV{turnToTargetMlpV_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public RootMotion.FinalIK.AimIK ik
-    RootMotion::FinalIK::AimIK* _get_ik();
-    // Set instance field: public RootMotion.FinalIK.AimIK ik
-    void _set_ik(RootMotion::FinalIK::AimIK* value);
-    // Get instance field: public System.Single weight
-    float _get_weight();
-    // Set instance field: public System.Single weight
-    void _set_weight(float value);
-    // Get instance field: public UnityEngine.Transform target
-    UnityEngine::Transform* _get_target();
-    // Set instance field: public UnityEngine.Transform target
-    void _set_target(UnityEngine::Transform* value);
-    // Get instance field: public System.Single targetSwitchSmoothTime
-    float _get_targetSwitchSmoothTime();
-    // Set instance field: public System.Single targetSwitchSmoothTime
-    void _set_targetSwitchSmoothTime(float value);
-    // Get instance field: public System.Single weightSmoothTime
-    float _get_weightSmoothTime();
-    // Set instance field: public System.Single weightSmoothTime
-    void _set_weightSmoothTime(float value);
-    // Get instance field: public System.Boolean smoothTurnTowardsTarget
-    bool _get_smoothTurnTowardsTarget();
-    // Set instance field: public System.Boolean smoothTurnTowardsTarget
-    void _set_smoothTurnTowardsTarget(bool value);
-    // Get instance field: public System.Single maxRadiansDelta
-    float _get_maxRadiansDelta();
-    // Set instance field: public System.Single maxRadiansDelta
-    void _set_maxRadiansDelta(float value);
-    // Get instance field: public System.Single maxMagnitudeDelta
-    float _get_maxMagnitudeDelta();
-    // Set instance field: public System.Single maxMagnitudeDelta
-    void _set_maxMagnitudeDelta(float value);
-    // Get instance field: public System.Single slerpSpeed
-    float _get_slerpSpeed();
-    // Set instance field: public System.Single slerpSpeed
-    void _set_slerpSpeed(float value);
-    // Get instance field: public UnityEngine.Vector3 pivotOffsetFromRoot
-    UnityEngine::Vector3 _get_pivotOffsetFromRoot();
-    // Set instance field: public UnityEngine.Vector3 pivotOffsetFromRoot
-    void _set_pivotOffsetFromRoot(UnityEngine::Vector3 value);
-    // Get instance field: public System.Single minDistance
-    float _get_minDistance();
-    // Set instance field: public System.Single minDistance
-    void _set_minDistance(float value);
-    // Get instance field: public UnityEngine.Vector3 offset
-    UnityEngine::Vector3 _get_offset();
-    // Set instance field: public UnityEngine.Vector3 offset
-    void _set_offset(UnityEngine::Vector3 value);
-    // Get instance field: public System.Single maxRootAngle
-    float _get_maxRootAngle();
-    // Set instance field: public System.Single maxRootAngle
-    void _set_maxRootAngle(float value);
-    // Get instance field: public System.Boolean turnToTarget
-    bool _get_turnToTarget();
-    // Set instance field: public System.Boolean turnToTarget
-    void _set_turnToTarget(bool value);
-    // Get instance field: public System.Single turnToTargetTime
-    float _get_turnToTargetTime();
-    // Set instance field: public System.Single turnToTargetTime
-    void _set_turnToTargetTime(float value);
-    // Get instance field: public System.Boolean useAnimatedAimDirection
-    bool _get_useAnimatedAimDirection();
-    // Set instance field: public System.Boolean useAnimatedAimDirection
-    void _set_useAnimatedAimDirection(bool value);
-    // Get instance field: public UnityEngine.Vector3 animatedAimDirection
-    UnityEngine::Vector3 _get_animatedAimDirection();
-    // Set instance field: public UnityEngine.Vector3 animatedAimDirection
-    void _set_animatedAimDirection(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Transform lastTarget
-    UnityEngine::Transform* _get_lastTarget();
-    // Set instance field: private UnityEngine.Transform lastTarget
-    void _set_lastTarget(UnityEngine::Transform* value);
-    // Get instance field: private System.Single switchWeight
-    float _get_switchWeight();
-    // Set instance field: private System.Single switchWeight
-    void _set_switchWeight(float value);
-    // Get instance field: private System.Single switchWeightV
-    float _get_switchWeightV();
-    // Set instance field: private System.Single switchWeightV
-    void _set_switchWeightV(float value);
-    // Get instance field: private System.Single weightV
-    float _get_weightV();
-    // Set instance field: private System.Single weightV
-    void _set_weightV(float value);
-    // Get instance field: private UnityEngine.Vector3 lastPosition
-    UnityEngine::Vector3 _get_lastPosition();
-    // Set instance field: private UnityEngine.Vector3 lastPosition
-    void _set_lastPosition(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 dir
-    UnityEngine::Vector3 _get_dir();
-    // Set instance field: private UnityEngine.Vector3 dir
-    void _set_dir(UnityEngine::Vector3 value);
-    // Get instance field: private System.Boolean lastSmoothTowardsTarget
-    bool _get_lastSmoothTowardsTarget();
-    // Set instance field: private System.Boolean lastSmoothTowardsTarget
-    void _set_lastSmoothTowardsTarget(bool value);
-    // Get instance field: private System.Boolean turningToTarget
-    bool _get_turningToTarget();
-    // Set instance field: private System.Boolean turningToTarget
-    void _set_turningToTarget(bool value);
-    // Get instance field: private System.Single turnToTargetMlp
-    float _get_turnToTargetMlp();
-    // Set instance field: private System.Single turnToTargetMlp
-    void _set_turnToTargetMlp(float value);
-    // Get instance field: private System.Single turnToTargetMlpV
-    float _get_turnToTargetMlpV();
-    // Set instance field: private System.Single turnToTargetMlpV
-    void _set_turnToTargetMlpV(float value);
+    // Get instance field reference: public RootMotion.FinalIK.AimIK ik
+    RootMotion::FinalIK::AimIK*& dyn_ik();
+    // Get instance field reference: public System.Single weight
+    float& dyn_weight();
+    // Get instance field reference: public UnityEngine.Transform target
+    UnityEngine::Transform*& dyn_target();
+    // Get instance field reference: public System.Single targetSwitchSmoothTime
+    float& dyn_targetSwitchSmoothTime();
+    // Get instance field reference: public System.Single weightSmoothTime
+    float& dyn_weightSmoothTime();
+    // Get instance field reference: public System.Boolean smoothTurnTowardsTarget
+    bool& dyn_smoothTurnTowardsTarget();
+    // Get instance field reference: public System.Single maxRadiansDelta
+    float& dyn_maxRadiansDelta();
+    // Get instance field reference: public System.Single maxMagnitudeDelta
+    float& dyn_maxMagnitudeDelta();
+    // Get instance field reference: public System.Single slerpSpeed
+    float& dyn_slerpSpeed();
+    // Get instance field reference: public UnityEngine.Vector3 pivotOffsetFromRoot
+    UnityEngine::Vector3& dyn_pivotOffsetFromRoot();
+    // Get instance field reference: public System.Single minDistance
+    float& dyn_minDistance();
+    // Get instance field reference: public UnityEngine.Vector3 offset
+    UnityEngine::Vector3& dyn_offset();
+    // Get instance field reference: public System.Single maxRootAngle
+    float& dyn_maxRootAngle();
+    // Get instance field reference: public System.Boolean turnToTarget
+    bool& dyn_turnToTarget();
+    // Get instance field reference: public System.Single turnToTargetTime
+    float& dyn_turnToTargetTime();
+    // Get instance field reference: public System.Boolean useAnimatedAimDirection
+    bool& dyn_useAnimatedAimDirection();
+    // Get instance field reference: public UnityEngine.Vector3 animatedAimDirection
+    UnityEngine::Vector3& dyn_animatedAimDirection();
+    // Get instance field reference: private UnityEngine.Transform lastTarget
+    UnityEngine::Transform*& dyn_lastTarget();
+    // Get instance field reference: private System.Single switchWeight
+    float& dyn_switchWeight();
+    // Get instance field reference: private System.Single switchWeightV
+    float& dyn_switchWeightV();
+    // Get instance field reference: private System.Single weightV
+    float& dyn_weightV();
+    // Get instance field reference: private UnityEngine.Vector3 lastPosition
+    UnityEngine::Vector3& dyn_lastPosition();
+    // Get instance field reference: private UnityEngine.Vector3 dir
+    UnityEngine::Vector3& dyn_dir();
+    // Get instance field reference: private System.Boolean lastSmoothTowardsTarget
+    bool& dyn_lastSmoothTowardsTarget();
+    // Get instance field reference: private System.Boolean turningToTarget
+    bool& dyn_turningToTarget();
+    // Get instance field reference: private System.Single turnToTargetMlp
+    float& dyn_turnToTargetMlp();
+    // Get instance field reference: private System.Single turnToTargetMlpV
+    float& dyn_turnToTargetMlpV();
     // private UnityEngine.Vector3 get_pivot()
     // Offset: 0x1D2EDBC
     UnityEngine::Vector3 get_pivot();

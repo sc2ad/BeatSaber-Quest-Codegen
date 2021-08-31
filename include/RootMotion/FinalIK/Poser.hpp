@@ -64,26 +64,16 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: Poser
     Poser(UnityEngine::Transform* poseRoot_ = {}, float weight_ = {}, float localRotationWeight_ = {}, float localPositionWeight_ = {}, bool initiated_ = {}) noexcept : poseRoot{poseRoot_}, weight{weight_}, localRotationWeight{localRotationWeight_}, localPositionWeight{localPositionWeight_}, initiated{initiated_} {}
-    // Get instance field: public UnityEngine.Transform poseRoot
-    UnityEngine::Transform* _get_poseRoot();
-    // Set instance field: public UnityEngine.Transform poseRoot
-    void _set_poseRoot(UnityEngine::Transform* value);
-    // Get instance field: public System.Single weight
-    float _get_weight();
-    // Set instance field: public System.Single weight
-    void _set_weight(float value);
-    // Get instance field: public System.Single localRotationWeight
-    float _get_localRotationWeight();
-    // Set instance field: public System.Single localRotationWeight
-    void _set_localRotationWeight(float value);
-    // Get instance field: public System.Single localPositionWeight
-    float _get_localPositionWeight();
-    // Set instance field: public System.Single localPositionWeight
-    void _set_localPositionWeight(float value);
-    // Get instance field: private System.Boolean initiated
-    bool _get_initiated();
-    // Set instance field: private System.Boolean initiated
-    void _set_initiated(bool value);
+    // Get instance field reference: public UnityEngine.Transform poseRoot
+    UnityEngine::Transform*& dyn_poseRoot();
+    // Get instance field reference: public System.Single weight
+    float& dyn_weight();
+    // Get instance field reference: public System.Single localRotationWeight
+    float& dyn_localRotationWeight();
+    // Get instance field reference: public System.Single localPositionWeight
+    float& dyn_localPositionWeight();
+    // Get instance field reference: private System.Boolean initiated
+    bool& dyn_initiated();
     // public System.Void AutoMapping()
     // Offset: 0xFFFFFFFF
     void AutoMapping();

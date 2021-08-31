@@ -106,34 +106,20 @@ namespace Zenject {
     operator Zenject::IProvider() noexcept {
       return *reinterpret_cast<Zenject::IProvider*>(this);
     }
-    // Get instance field: private readonly Zenject.DiContainer _container
-    Zenject::DiContainer* _get__container();
-    // Set instance field: private readonly Zenject.DiContainer _container
-    void _set__container(Zenject::DiContainer* value);
-    // Get instance field: private readonly System.Type _resourceType
-    System::Type* _get__resourceType();
-    // Set instance field: private readonly System.Type _resourceType
-    void _set__resourceType(System::Type* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> _extraArguments
-    System::Collections::Generic::List_1<Zenject::TypeValuePair>* _get__extraArguments();
-    // Set instance field: private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> _extraArguments
-    void _set__extraArguments(System::Collections::Generic::List_1<Zenject::TypeValuePair>* value);
-    // Get instance field: private readonly System.Boolean _createNew
-    bool _get__createNew();
-    // Set instance field: private readonly System.Boolean _createNew
-    void _set__createNew(bool value);
-    // Get instance field: private readonly System.Object _concreteIdentifier
-    ::Il2CppObject* _get__concreteIdentifier();
-    // Set instance field: private readonly System.Object _concreteIdentifier
-    void _set__concreteIdentifier(::Il2CppObject* value);
-    // Get instance field: private readonly System.Action`2<Zenject.InjectContext,System.Object> _instantiateCallback
-    System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* _get__instantiateCallback();
-    // Set instance field: private readonly System.Action`2<Zenject.InjectContext,System.Object> _instantiateCallback
-    void _set__instantiateCallback(System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* value);
-    // Get instance field: private readonly UnityEngine.Object _resource
-    UnityEngine::Object* _get__resource();
-    // Set instance field: private readonly UnityEngine.Object _resource
-    void _set__resource(UnityEngine::Object* value);
+    // Get instance field reference: private readonly Zenject.DiContainer _container
+    Zenject::DiContainer*& dyn__container();
+    // Get instance field reference: private readonly System.Type _resourceType
+    System::Type*& dyn__resourceType();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> _extraArguments
+    System::Collections::Generic::List_1<Zenject::TypeValuePair>*& dyn__extraArguments();
+    // Get instance field reference: private readonly System.Boolean _createNew
+    bool& dyn__createNew();
+    // Get instance field reference: private readonly System.Object _concreteIdentifier
+    ::Il2CppObject*& dyn__concreteIdentifier();
+    // Get instance field reference: private readonly System.Action`2<Zenject.InjectContext,System.Object> _instantiateCallback
+    System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*& dyn__instantiateCallback();
+    // Get instance field reference: private readonly UnityEngine.Object _resource
+    UnityEngine::Object*& dyn__resource();
     // public System.Boolean get_IsCached()
     // Offset: 0x171D580
     bool get_IsCached();

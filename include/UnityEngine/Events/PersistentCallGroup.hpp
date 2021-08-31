@@ -48,10 +48,8 @@ namespace UnityEngine::Events {
     constexpr operator System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall*>*() const noexcept {
       return m_Calls;
     }
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall> m_Calls
-    System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall*>* _get_m_Calls();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall> m_Calls
-    void _set_m_Calls(System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall*>* value);
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall> m_Calls
+    System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall*>*& dyn_m_Calls();
     // public System.Void Initialize(UnityEngine.Events.InvokableCallList invokableList, UnityEngine.Events.UnityEventBase unityEventBase)
     // Offset: 0x1C28720
     void Initialize(UnityEngine::Events::InvokableCallList* invokableList, UnityEngine::Events::UnityEventBase* unityEventBase);

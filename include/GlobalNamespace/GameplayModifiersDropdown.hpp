@@ -81,22 +81,14 @@ namespace GlobalNamespace {
     GameplayModifiersDropdown(HMUI::SimpleTextDropdown* simpleTextDropdown_ = {}, GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel_ = {}, System::Action_1<int>* didSelectCellWithIdxEvent_ = {}, System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::GameplayModifierMask, ::Il2CppString*>*>* gameplayModifiersData_ = {}) noexcept : simpleTextDropdown{simpleTextDropdown_}, gameplayModifiersModel{gameplayModifiersModel_}, didSelectCellWithIdxEvent{didSelectCellWithIdxEvent_}, gameplayModifiersData{gameplayModifiersData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private HMUI.SimpleTextDropdown _simpleTextDropdown
-    HMUI::SimpleTextDropdown* _get__simpleTextDropdown();
-    // Set instance field: private HMUI.SimpleTextDropdown _simpleTextDropdown
-    void _set__simpleTextDropdown(HMUI::SimpleTextDropdown* value);
-    // Get instance field: private GameplayModifiersModelSO _gameplayModifiersModel
-    GlobalNamespace::GameplayModifiersModelSO* _get__gameplayModifiersModel();
-    // Set instance field: private GameplayModifiersModelSO _gameplayModifiersModel
-    void _set__gameplayModifiersModel(GlobalNamespace::GameplayModifiersModelSO* value);
-    // Get instance field: private System.Action`1<System.Int32> didSelectCellWithIdxEvent
-    System::Action_1<int>* _get_didSelectCellWithIdxEvent();
-    // Set instance field: private System.Action`1<System.Int32> didSelectCellWithIdxEvent
-    void _set_didSelectCellWithIdxEvent(System::Action_1<int>* value);
-    // Get instance field: private System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<GameplayModifierMask,System.String>> _gameplayModifiersData
-    System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::GameplayModifierMask, ::Il2CppString*>*>* _get__gameplayModifiersData();
-    // Set instance field: private System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<GameplayModifierMask,System.String>> _gameplayModifiersData
-    void _set__gameplayModifiersData(System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::GameplayModifierMask, ::Il2CppString*>*>* value);
+    // Get instance field reference: private HMUI.SimpleTextDropdown _simpleTextDropdown
+    HMUI::SimpleTextDropdown*& dyn__simpleTextDropdown();
+    // Get instance field reference: private GameplayModifiersModelSO _gameplayModifiersModel
+    GlobalNamespace::GameplayModifiersModelSO*& dyn__gameplayModifiersModel();
+    // Get instance field reference: private System.Action`1<System.Int32> didSelectCellWithIdxEvent
+    System::Action_1<int>*& dyn_didSelectCellWithIdxEvent();
+    // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<GameplayModifierMask,System.String>> _gameplayModifiersData
+    System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::GameplayModifierMask, ::Il2CppString*>*>*& dyn__gameplayModifiersData();
     // private System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<GameplayModifierMask,System.String>> get_gameplayModifiersData()
     // Offset: 0x110CD7C
     System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::GameplayModifierMask, ::Il2CppString*>*>* get_gameplayModifiersData();

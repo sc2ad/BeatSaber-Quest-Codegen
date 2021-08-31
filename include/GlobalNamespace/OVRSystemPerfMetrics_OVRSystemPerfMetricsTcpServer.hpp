@@ -44,14 +44,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer* _get_singleton();
     // Set static field: static public OVRSystemPerfMetrics/OVRSystemPerfMetricsTcpServer singleton
     static void _set_singleton(GlobalNamespace::OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer* value);
-    // Get instance field: private OVRNetwork/OVRNetworkTcpServer tcpServer
-    GlobalNamespace::OVRNetwork::OVRNetworkTcpServer* _get_tcpServer();
-    // Set instance field: private OVRNetwork/OVRNetworkTcpServer tcpServer
-    void _set_tcpServer(GlobalNamespace::OVRNetwork::OVRNetworkTcpServer* value);
-    // Get instance field: public System.Int32 listeningPort
-    int _get_listeningPort();
-    // Set instance field: public System.Int32 listeningPort
-    void _set_listeningPort(int value);
+    // Get instance field reference: private OVRNetwork/OVRNetworkTcpServer tcpServer
+    GlobalNamespace::OVRNetwork::OVRNetworkTcpServer*& dyn_tcpServer();
+    // Get instance field reference: public System.Int32 listeningPort
+    int& dyn_listeningPort();
     // private System.Void OnEnable()
     // Offset: 0x1F48B5C
     void OnEnable();

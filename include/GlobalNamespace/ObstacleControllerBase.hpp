@@ -47,14 +47,10 @@ namespace GlobalNamespace {
     ObstacleControllerBase(System::Action_1<GlobalNamespace::ObstacleControllerBase*>* didInitEvent_ = {}, System::Action_2<GlobalNamespace::ObstacleControllerBase*, float>* didStartDissolvingEvent_ = {}) noexcept : didInitEvent{didInitEvent_}, didStartDissolvingEvent{didStartDissolvingEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Action`1<ObstacleControllerBase> didInitEvent
-    System::Action_1<GlobalNamespace::ObstacleControllerBase*>* _get_didInitEvent();
-    // Set instance field: private System.Action`1<ObstacleControllerBase> didInitEvent
-    void _set_didInitEvent(System::Action_1<GlobalNamespace::ObstacleControllerBase*>* value);
-    // Get instance field: private System.Action`2<ObstacleControllerBase,System.Single> didStartDissolvingEvent
-    System::Action_2<GlobalNamespace::ObstacleControllerBase*, float>* _get_didStartDissolvingEvent();
-    // Set instance field: private System.Action`2<ObstacleControllerBase,System.Single> didStartDissolvingEvent
-    void _set_didStartDissolvingEvent(System::Action_2<GlobalNamespace::ObstacleControllerBase*, float>* value);
+    // Get instance field reference: private System.Action`1<ObstacleControllerBase> didInitEvent
+    System::Action_1<GlobalNamespace::ObstacleControllerBase*>*& dyn_didInitEvent();
+    // Get instance field reference: private System.Action`2<ObstacleControllerBase,System.Single> didStartDissolvingEvent
+    System::Action_2<GlobalNamespace::ObstacleControllerBase*, float>*& dyn_didStartDissolvingEvent();
     // public System.Void add_didInitEvent(System.Action`1<ObstacleControllerBase> value)
     // Offset: 0x12327BC
     void add_didInitEvent(System::Action_1<GlobalNamespace::ObstacleControllerBase*>* value);

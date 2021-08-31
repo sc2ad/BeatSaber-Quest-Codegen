@@ -96,14 +96,10 @@ namespace System::IO {
     static int _get__DefaultCopyBufferSize();
     // Set static field: static private System.Int32 _DefaultCopyBufferSize
     static void _set__DefaultCopyBufferSize(int value);
-    // Get instance field: private System.IO.Stream/System.IO.ReadWriteTask _activeReadWriteTask
-    System::IO::Stream::ReadWriteTask* _get__activeReadWriteTask();
-    // Set instance field: private System.IO.Stream/System.IO.ReadWriteTask _activeReadWriteTask
-    void _set__activeReadWriteTask(System::IO::Stream::ReadWriteTask* value);
-    // Get instance field: private System.Threading.SemaphoreSlim _asyncActiveSemaphore
-    System::Threading::SemaphoreSlim* _get__asyncActiveSemaphore();
-    // Set instance field: private System.Threading.SemaphoreSlim _asyncActiveSemaphore
-    void _set__asyncActiveSemaphore(System::Threading::SemaphoreSlim* value);
+    // Get instance field reference: private System.IO.Stream/System.IO.ReadWriteTask _activeReadWriteTask
+    System::IO::Stream::ReadWriteTask*& dyn__activeReadWriteTask();
+    // Get instance field reference: private System.Threading.SemaphoreSlim _asyncActiveSemaphore
+    System::Threading::SemaphoreSlim*& dyn__asyncActiveSemaphore();
     // public System.Boolean get_CanRead()
     // Offset: 0xFFFFFFFF
     bool get_CanRead();

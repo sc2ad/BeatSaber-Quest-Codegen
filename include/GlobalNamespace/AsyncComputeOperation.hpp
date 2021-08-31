@@ -41,14 +41,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Diagnostics::Stopwatch*) == 0x8);
     // Creating value type constructor for type: AsyncComputeOperation
     AsyncComputeOperation(int timeoutMs_ = {}, System::Diagnostics::Stopwatch* stopwatch_ = {}) noexcept : timeoutMs{timeoutMs_}, stopwatch{stopwatch_} {}
-    // Get instance field: private readonly System.Int32 _timeoutMs
-    int _get__timeoutMs();
-    // Set instance field: private readonly System.Int32 _timeoutMs
-    void _set__timeoutMs(int value);
-    // Get instance field: private readonly System.Diagnostics.Stopwatch _stopwatch
-    System::Diagnostics::Stopwatch* _get__stopwatch();
-    // Set instance field: private readonly System.Diagnostics.Stopwatch _stopwatch
-    void _set__stopwatch(System::Diagnostics::Stopwatch* value);
+    // Get instance field reference: private readonly System.Int32 _timeoutMs
+    int& dyn__timeoutMs();
+    // Get instance field reference: private readonly System.Diagnostics.Stopwatch _stopwatch
+    System::Diagnostics::Stopwatch*& dyn__stopwatch();
     // public System.Double get_elapsedTime()
     // Offset: 0x131BF68
     double get_elapsedTime();

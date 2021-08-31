@@ -66,22 +66,14 @@ namespace GlobalNamespace {
     SetSaberBladeParams(GlobalNamespace::SaberTypeObject* saber_ = {}, UnityEngine::MeshRenderer* meshRenderer_ = {}, ::Array<GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair*>* propertyTintColorPairs_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}) noexcept : saber{saber_}, meshRenderer{meshRenderer_}, propertyTintColorPairs{propertyTintColorPairs_}, colorManager{colorManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private SaberTypeObject _saber
-    GlobalNamespace::SaberTypeObject* _get__saber();
-    // Set instance field: private SaberTypeObject _saber
-    void _set__saber(GlobalNamespace::SaberTypeObject* value);
-    // Get instance field: private UnityEngine.MeshRenderer _meshRenderer
-    UnityEngine::MeshRenderer* _get__meshRenderer();
-    // Set instance field: private UnityEngine.MeshRenderer _meshRenderer
-    void _set__meshRenderer(UnityEngine::MeshRenderer* value);
-    // Get instance field: private SetSaberBladeParams/PropertyTintColorPair[] _propertyTintColorPairs
-    ::Array<GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair*>* _get__propertyTintColorPairs();
-    // Set instance field: private SetSaberBladeParams/PropertyTintColorPair[] _propertyTintColorPairs
-    void _set__propertyTintColorPairs(::Array<GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair*>* value);
-    // Get instance field: private ColorManager _colorManager
-    GlobalNamespace::ColorManager* _get__colorManager();
-    // Set instance field: private ColorManager _colorManager
-    void _set__colorManager(GlobalNamespace::ColorManager* value);
+    // Get instance field reference: private SaberTypeObject _saber
+    GlobalNamespace::SaberTypeObject*& dyn__saber();
+    // Get instance field reference: private UnityEngine.MeshRenderer _meshRenderer
+    UnityEngine::MeshRenderer*& dyn__meshRenderer();
+    // Get instance field reference: private SetSaberBladeParams/PropertyTintColorPair[] _propertyTintColorPairs
+    ::Array<GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair*>*& dyn__propertyTintColorPairs();
+    // Get instance field reference: private ColorManager _colorManager
+    GlobalNamespace::ColorManager*& dyn__colorManager();
     // protected System.Void Start()
     // Offset: 0x1077850
     void Start();

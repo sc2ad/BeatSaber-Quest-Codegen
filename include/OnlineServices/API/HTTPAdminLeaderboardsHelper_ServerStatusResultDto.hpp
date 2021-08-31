@@ -32,10 +32,8 @@ namespace OnlineServices::API {
     constexpr operator bool() const noexcept {
       return everythingOK;
     }
-    // Get instance field: public System.Boolean everythingOK
-    bool _get_everythingOK();
-    // Set instance field: public System.Boolean everythingOK
-    void _set_everythingOK(bool value);
+    // Get instance field reference: public System.Boolean everythingOK
+    bool& dyn_everythingOK();
     // public System.Void .ctor()
     // Offset: 0x10260AC
     // Implemented from: System.Object

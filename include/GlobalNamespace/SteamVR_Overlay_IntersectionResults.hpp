@@ -53,22 +53,14 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public UnityEngine.Vector3 point
-    UnityEngine::Vector3 _get_point();
-    // Set instance field: public UnityEngine.Vector3 point
-    void _set_point(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Vector3 normal
-    UnityEngine::Vector3 _get_normal();
-    // Set instance field: public UnityEngine.Vector3 normal
-    void _set_normal(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Vector2 UVs
-    UnityEngine::Vector2 _get_UVs();
-    // Set instance field: public UnityEngine.Vector2 UVs
-    void _set_UVs(UnityEngine::Vector2 value);
-    // Get instance field: public System.Single distance
-    float _get_distance();
-    // Set instance field: public System.Single distance
-    void _set_distance(float value);
+    // Get instance field reference: public UnityEngine.Vector3 point
+    UnityEngine::Vector3& dyn_point();
+    // Get instance field reference: public UnityEngine.Vector3 normal
+    UnityEngine::Vector3& dyn_normal();
+    // Get instance field reference: public UnityEngine.Vector2 UVs
+    UnityEngine::Vector2& dyn_UVs();
+    // Get instance field reference: public System.Single distance
+    float& dyn_distance();
   }; // SteamVR_Overlay/IntersectionResults
   #pragma pack(pop)
   static check_size<sizeof(SteamVR_Overlay::IntersectionResults), 32 + sizeof(float)> __GlobalNamespace_SteamVR_Overlay_IntersectionResultsSizeCheck;

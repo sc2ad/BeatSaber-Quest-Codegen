@@ -89,34 +89,20 @@ namespace GlobalNamespace {
     ScoreMultiplierUIController(::Array<TMPro::TextMeshProUGUI*>* multiplierTexts_ = {}, UnityEngine::UI::Image* multiplierProgressImage_ = {}, UnityEngine::Animator* multiplierAnimator_ = {}, GlobalNamespace::IScoreController* scoreController_ = {}, int prevMultiplier_ = {}, int multiplierIncreasedTriggerId_ = {}, float progressTarget_ = {}) noexcept : multiplierTexts{multiplierTexts_}, multiplierProgressImage{multiplierProgressImage_}, multiplierAnimator{multiplierAnimator_}, scoreController{scoreController_}, prevMultiplier{prevMultiplier_}, multiplierIncreasedTriggerId{multiplierIncreasedTriggerId_}, progressTarget{progressTarget_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private TMPro.TextMeshProUGUI[] _multiplierTexts
-    ::Array<TMPro::TextMeshProUGUI*>* _get__multiplierTexts();
-    // Set instance field: private TMPro.TextMeshProUGUI[] _multiplierTexts
-    void _set__multiplierTexts(::Array<TMPro::TextMeshProUGUI*>* value);
-    // Get instance field: private UnityEngine.UI.Image _multiplierProgressImage
-    UnityEngine::UI::Image* _get__multiplierProgressImage();
-    // Set instance field: private UnityEngine.UI.Image _multiplierProgressImage
-    void _set__multiplierProgressImage(UnityEngine::UI::Image* value);
-    // Get instance field: private UnityEngine.Animator _multiplierAnimator
-    UnityEngine::Animator* _get__multiplierAnimator();
-    // Set instance field: private UnityEngine.Animator _multiplierAnimator
-    void _set__multiplierAnimator(UnityEngine::Animator* value);
-    // Get instance field: private IScoreController _scoreController
-    GlobalNamespace::IScoreController* _get__scoreController();
-    // Set instance field: private IScoreController _scoreController
-    void _set__scoreController(GlobalNamespace::IScoreController* value);
-    // Get instance field: private System.Int32 _prevMultiplier
-    int _get__prevMultiplier();
-    // Set instance field: private System.Int32 _prevMultiplier
-    void _set__prevMultiplier(int value);
-    // Get instance field: private System.Int32 _multiplierIncreasedTriggerId
-    int _get__multiplierIncreasedTriggerId();
-    // Set instance field: private System.Int32 _multiplierIncreasedTriggerId
-    void _set__multiplierIncreasedTriggerId(int value);
-    // Get instance field: private System.Single _progressTarget
-    float _get__progressTarget();
-    // Set instance field: private System.Single _progressTarget
-    void _set__progressTarget(float value);
+    // Get instance field reference: private TMPro.TextMeshProUGUI[] _multiplierTexts
+    ::Array<TMPro::TextMeshProUGUI*>*& dyn__multiplierTexts();
+    // Get instance field reference: private UnityEngine.UI.Image _multiplierProgressImage
+    UnityEngine::UI::Image*& dyn__multiplierProgressImage();
+    // Get instance field reference: private UnityEngine.Animator _multiplierAnimator
+    UnityEngine::Animator*& dyn__multiplierAnimator();
+    // Get instance field reference: private IScoreController _scoreController
+    GlobalNamespace::IScoreController*& dyn__scoreController();
+    // Get instance field reference: private System.Int32 _prevMultiplier
+    int& dyn__prevMultiplier();
+    // Get instance field reference: private System.Int32 _multiplierIncreasedTriggerId
+    int& dyn__multiplierIncreasedTriggerId();
+    // Get instance field reference: private System.Single _progressTarget
+    float& dyn__progressTarget();
     // protected System.Void Start()
     // Offset: 0x119B6F4
     void Start();

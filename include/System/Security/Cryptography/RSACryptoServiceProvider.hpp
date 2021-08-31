@@ -96,30 +96,18 @@ namespace System::Security::Cryptography {
     static System::Security::Cryptography::CspProviderFlags _get_s_UseMachineKeyStore();
     // Set static field: static private System.Security.Cryptography.CspProviderFlags s_UseMachineKeyStore
     static void _set_s_UseMachineKeyStore(System::Security::Cryptography::CspProviderFlags value);
-    // Get instance field: private Mono.Security.Cryptography.KeyPairPersistence store
-    Mono::Security::Cryptography::KeyPairPersistence* _get_store();
-    // Set instance field: private Mono.Security.Cryptography.KeyPairPersistence store
-    void _set_store(Mono::Security::Cryptography::KeyPairPersistence* value);
-    // Get instance field: private System.Boolean persistKey
-    bool _get_persistKey();
-    // Set instance field: private System.Boolean persistKey
-    void _set_persistKey(bool value);
-    // Get instance field: private System.Boolean persisted
-    bool _get_persisted();
-    // Set instance field: private System.Boolean persisted
-    void _set_persisted(bool value);
-    // Get instance field: private System.Boolean privateKeyExportable
-    bool _get_privateKeyExportable();
-    // Set instance field: private System.Boolean privateKeyExportable
-    void _set_privateKeyExportable(bool value);
-    // Get instance field: private System.Boolean m_disposed
-    bool _get_m_disposed();
-    // Set instance field: private System.Boolean m_disposed
-    void _set_m_disposed(bool value);
-    // Get instance field: private Mono.Security.Cryptography.RSAManaged rsa
-    Mono::Security::Cryptography::RSAManaged* _get_rsa();
-    // Set instance field: private Mono.Security.Cryptography.RSAManaged rsa
-    void _set_rsa(Mono::Security::Cryptography::RSAManaged* value);
+    // Get instance field reference: private Mono.Security.Cryptography.KeyPairPersistence store
+    Mono::Security::Cryptography::KeyPairPersistence*& dyn_store();
+    // Get instance field reference: private System.Boolean persistKey
+    bool& dyn_persistKey();
+    // Get instance field reference: private System.Boolean persisted
+    bool& dyn_persisted();
+    // Get instance field reference: private System.Boolean privateKeyExportable
+    bool& dyn_privateKeyExportable();
+    // Get instance field reference: private System.Boolean m_disposed
+    bool& dyn_m_disposed();
+    // Get instance field reference: private Mono.Security.Cryptography.RSAManaged rsa
+    Mono::Security::Cryptography::RSAManaged*& dyn_rsa();
     // static public System.Boolean get_UseMachineKeyStore()
     // Offset: 0x1B3BE78
     static bool get_UseMachineKeyStore();

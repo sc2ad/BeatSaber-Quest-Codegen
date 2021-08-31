@@ -100,42 +100,24 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     operator UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(this);
     }
-    // Get instance field: private UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationMap m_Locator
-    UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* _get_m_Locator();
-    // Set instance field: private UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationMap m_Locator
-    void _set_m_Locator(UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* value);
-    // Get instance field: private System.String m_InternalId
-    ::Il2CppString* _get_m_InternalId();
-    // Set instance field: private System.String m_InternalId
-    void _set_m_InternalId(::Il2CppString* value);
-    // Get instance field: private System.String m_ProviderId
-    ::Il2CppString* _get_m_ProviderId();
-    // Set instance field: private System.String m_ProviderId
-    void _set_m_ProviderId(::Il2CppString* value);
-    // Get instance field: private System.Object m_Dependency
-    ::Il2CppObject* _get_m_Dependency();
-    // Set instance field: private System.Object m_Dependency
-    void _set_m_Dependency(::Il2CppObject* value);
-    // Get instance field: private System.Object m_Data
-    ::Il2CppObject* _get_m_Data();
-    // Set instance field: private System.Object m_Data
-    void _set_m_Data(::Il2CppObject* value);
-    // Get instance field: private System.Int32 m_HashCode
-    int _get_m_HashCode();
-    // Set instance field: private System.Int32 m_HashCode
-    void _set_m_HashCode(int value);
-    // Get instance field: private System.Int32 m_DependencyHashCode
-    int _get_m_DependencyHashCode();
-    // Set instance field: private System.Int32 m_DependencyHashCode
-    void _set_m_DependencyHashCode(int value);
-    // Get instance field: private System.String m_PrimaryKey
-    ::Il2CppString* _get_m_PrimaryKey();
-    // Set instance field: private System.String m_PrimaryKey
-    void _set_m_PrimaryKey(::Il2CppString* value);
-    // Get instance field: private System.Type m_Type
-    System::Type* _get_m_Type();
-    // Set instance field: private System.Type m_Type
-    void _set_m_Type(System::Type* value);
+    // Get instance field reference: private UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationMap m_Locator
+    UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*& dyn_m_Locator();
+    // Get instance field reference: private System.String m_InternalId
+    ::Il2CppString*& dyn_m_InternalId();
+    // Get instance field reference: private System.String m_ProviderId
+    ::Il2CppString*& dyn_m_ProviderId();
+    // Get instance field reference: private System.Object m_Dependency
+    ::Il2CppObject*& dyn_m_Dependency();
+    // Get instance field reference: private System.Object m_Data
+    ::Il2CppObject*& dyn_m_Data();
+    // Get instance field reference: private System.Int32 m_HashCode
+    int& dyn_m_HashCode();
+    // Get instance field reference: private System.Int32 m_DependencyHashCode
+    int& dyn_m_DependencyHashCode();
+    // Get instance field reference: private System.String m_PrimaryKey
+    ::Il2CppString*& dyn_m_PrimaryKey();
+    // Get instance field reference: private System.Type m_Type
+    System::Type*& dyn_m_Type();
     // public System.String get_InternalId()
     // Offset: 0x144A5AC
     ::Il2CppString* get_InternalId();

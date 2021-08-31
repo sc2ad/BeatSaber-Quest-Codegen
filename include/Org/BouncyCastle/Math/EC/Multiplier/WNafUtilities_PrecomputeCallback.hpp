@@ -60,18 +60,12 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     operator Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*>(this);
     }
-    // Get instance field: private readonly Org.BouncyCastle.Math.EC.ECPoint m_p
-    Org::BouncyCastle::Math::EC::ECPoint* _get_m_p();
-    // Set instance field: private readonly Org.BouncyCastle.Math.EC.ECPoint m_p
-    void _set_m_p(Org::BouncyCastle::Math::EC::ECPoint* value);
-    // Get instance field: private readonly System.Int32 m_minWidth
-    int _get_m_minWidth();
-    // Set instance field: private readonly System.Int32 m_minWidth
-    void _set_m_minWidth(int value);
-    // Get instance field: private readonly System.Boolean m_includeNegated
-    bool _get_m_includeNegated();
-    // Set instance field: private readonly System.Boolean m_includeNegated
-    void _set_m_includeNegated(bool value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.ECPoint m_p
+    Org::BouncyCastle::Math::EC::ECPoint*& dyn_m_p();
+    // Get instance field reference: private readonly System.Int32 m_minWidth
+    int& dyn_m_minWidth();
+    // Get instance field reference: private readonly System.Boolean m_includeNegated
+    bool& dyn_m_includeNegated();
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECPoint p, System.Int32 minWidth, System.Boolean includeNegated)
     // Offset: 0x1DCAD28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

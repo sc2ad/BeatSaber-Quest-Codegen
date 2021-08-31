@@ -71,26 +71,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
     // Creating value type constructor for type: ResultsTableCell
     ResultsTableCell(UnityEngine::GameObject* border_ = {}, TMPro::TextMeshProUGUI* orderText_ = {}, TMPro::TextMeshProUGUI* nameText_ = {}, TMPro::TextMeshProUGUI* scoreText_ = {}, TMPro::TextMeshProUGUI* rankText_ = {}) noexcept : border{border_}, orderText{orderText_}, nameText{nameText_}, scoreText{scoreText_}, rankText{rankText_} {}
-    // Get instance field: private UnityEngine.GameObject _border
-    UnityEngine::GameObject* _get__border();
-    // Set instance field: private UnityEngine.GameObject _border
-    void _set__border(UnityEngine::GameObject* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _orderText
-    TMPro::TextMeshProUGUI* _get__orderText();
-    // Set instance field: private TMPro.TextMeshProUGUI _orderText
-    void _set__orderText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _nameText
-    TMPro::TextMeshProUGUI* _get__nameText();
-    // Set instance field: private TMPro.TextMeshProUGUI _nameText
-    void _set__nameText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _scoreText
-    TMPro::TextMeshProUGUI* _get__scoreText();
-    // Set instance field: private TMPro.TextMeshProUGUI _scoreText
-    void _set__scoreText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _rankText
-    TMPro::TextMeshProUGUI* _get__rankText();
-    // Set instance field: private TMPro.TextMeshProUGUI _rankText
-    void _set__rankText(TMPro::TextMeshProUGUI* value);
+    // Get instance field reference: private UnityEngine.GameObject _border
+    UnityEngine::GameObject*& dyn__border();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _orderText
+    TMPro::TextMeshProUGUI*& dyn__orderText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _nameText
+    TMPro::TextMeshProUGUI*& dyn__nameText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _scoreText
+    TMPro::TextMeshProUGUI*& dyn__scoreText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _rankText
+    TMPro::TextMeshProUGUI*& dyn__rankText();
     // public System.Void SetData(System.Int32 order, IConnectedPlayer connectedPlayer, LevelCompletionResults levelCompletionResults)
     // Offset: 0x118BCC8
     void SetData(int order, GlobalNamespace::IConnectedPlayer* connectedPlayer, GlobalNamespace::LevelCompletionResults* levelCompletionResults);

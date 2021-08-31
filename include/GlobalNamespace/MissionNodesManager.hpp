@@ -105,42 +105,24 @@ namespace GlobalNamespace {
     MissionNodesManager(GlobalNamespace::MissionNode* rootMissionNode_ = {}, GlobalNamespace::MissionNode* finalMissionNode_ = {}, GlobalNamespace::MissionStagesManager* missionStagesManager_ = {}, UnityEngine::GameObject* connectionsParentObject_ = {}, UnityEngine::GameObject* missionNodesParentObject_ = {}, GlobalNamespace::CampaignProgressModel* missionProgressModel_ = {}, ::Array<GlobalNamespace::MissionNodeConnection*>* allMissionNodeConnections_ = {}, ::Array<GlobalNamespace::MissionNode*>* allMissionNodes_ = {}, bool isInitialized_ = {}) noexcept : rootMissionNode{rootMissionNode_}, finalMissionNode{finalMissionNode_}, missionStagesManager{missionStagesManager_}, connectionsParentObject{connectionsParentObject_}, missionNodesParentObject{missionNodesParentObject_}, missionProgressModel{missionProgressModel_}, allMissionNodeConnections{allMissionNodeConnections_}, allMissionNodes{allMissionNodes_}, isInitialized{isInitialized_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private MissionNode _rootMissionNode
-    GlobalNamespace::MissionNode* _get__rootMissionNode();
-    // Set instance field: private MissionNode _rootMissionNode
-    void _set__rootMissionNode(GlobalNamespace::MissionNode* value);
-    // Get instance field: private MissionNode _finalMissionNode
-    GlobalNamespace::MissionNode* _get__finalMissionNode();
-    // Set instance field: private MissionNode _finalMissionNode
-    void _set__finalMissionNode(GlobalNamespace::MissionNode* value);
-    // Get instance field: private MissionStagesManager _missionStagesManager
-    GlobalNamespace::MissionStagesManager* _get__missionStagesManager();
-    // Set instance field: private MissionStagesManager _missionStagesManager
-    void _set__missionStagesManager(GlobalNamespace::MissionStagesManager* value);
-    // Get instance field: private UnityEngine.GameObject _connectionsParentObject
-    UnityEngine::GameObject* _get__connectionsParentObject();
-    // Set instance field: private UnityEngine.GameObject _connectionsParentObject
-    void _set__connectionsParentObject(UnityEngine::GameObject* value);
-    // Get instance field: private UnityEngine.GameObject _missionNodesParentObject
-    UnityEngine::GameObject* _get__missionNodesParentObject();
-    // Set instance field: private UnityEngine.GameObject _missionNodesParentObject
-    void _set__missionNodesParentObject(UnityEngine::GameObject* value);
-    // Get instance field: private CampaignProgressModel _missionProgressModel
-    GlobalNamespace::CampaignProgressModel* _get__missionProgressModel();
-    // Set instance field: private CampaignProgressModel _missionProgressModel
-    void _set__missionProgressModel(GlobalNamespace::CampaignProgressModel* value);
-    // Get instance field: private MissionNodeConnection[] _allMissionNodeConnections
-    ::Array<GlobalNamespace::MissionNodeConnection*>* _get__allMissionNodeConnections();
-    // Set instance field: private MissionNodeConnection[] _allMissionNodeConnections
-    void _set__allMissionNodeConnections(::Array<GlobalNamespace::MissionNodeConnection*>* value);
-    // Get instance field: private MissionNode[] _allMissionNodes
-    ::Array<GlobalNamespace::MissionNode*>* _get__allMissionNodes();
-    // Set instance field: private MissionNode[] _allMissionNodes
-    void _set__allMissionNodes(::Array<GlobalNamespace::MissionNode*>* value);
-    // Get instance field: private System.Boolean _isInitialized
-    bool _get__isInitialized();
-    // Set instance field: private System.Boolean _isInitialized
-    void _set__isInitialized(bool value);
+    // Get instance field reference: private MissionNode _rootMissionNode
+    GlobalNamespace::MissionNode*& dyn__rootMissionNode();
+    // Get instance field reference: private MissionNode _finalMissionNode
+    GlobalNamespace::MissionNode*& dyn__finalMissionNode();
+    // Get instance field reference: private MissionStagesManager _missionStagesManager
+    GlobalNamespace::MissionStagesManager*& dyn__missionStagesManager();
+    // Get instance field reference: private UnityEngine.GameObject _connectionsParentObject
+    UnityEngine::GameObject*& dyn__connectionsParentObject();
+    // Get instance field reference: private UnityEngine.GameObject _missionNodesParentObject
+    UnityEngine::GameObject*& dyn__missionNodesParentObject();
+    // Get instance field reference: private CampaignProgressModel _missionProgressModel
+    GlobalNamespace::CampaignProgressModel*& dyn__missionProgressModel();
+    // Get instance field reference: private MissionNodeConnection[] _allMissionNodeConnections
+    ::Array<GlobalNamespace::MissionNodeConnection*>*& dyn__allMissionNodeConnections();
+    // Get instance field reference: private MissionNode[] _allMissionNodes
+    ::Array<GlobalNamespace::MissionNode*>*& dyn__allMissionNodes();
+    // Get instance field reference: private System.Boolean _isInitialized
+    bool& dyn__isInitialized();
     // public MissionNode get_rootMissionNode()
     // Offset: 0x11D6AA4
     GlobalNamespace::MissionNode* get_rootMissionNode();

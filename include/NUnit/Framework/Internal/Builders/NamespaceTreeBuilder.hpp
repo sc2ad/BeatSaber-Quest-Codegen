@@ -50,14 +50,10 @@ namespace NUnit::Framework::Internal::Builders {
     static_assert(sizeof(NUnit::Framework::Internal::TestSuite*) == 0x8);
     // Creating value type constructor for type: NamespaceTreeBuilder
     NamespaceTreeBuilder(System::Collections::Generic::Dictionary_2<::Il2CppString*, NUnit::Framework::Internal::TestSuite*>* namespaceSuites_ = {}, NUnit::Framework::Internal::TestSuite* rootSuite_ = {}) noexcept : namespaceSuites{namespaceSuites_}, rootSuite{rootSuite_} {}
-    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,NUnit.Framework.Internal.TestSuite> namespaceSuites
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, NUnit::Framework::Internal::TestSuite*>* _get_namespaceSuites();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,NUnit.Framework.Internal.TestSuite> namespaceSuites
-    void _set_namespaceSuites(System::Collections::Generic::Dictionary_2<::Il2CppString*, NUnit::Framework::Internal::TestSuite*>* value);
-    // Get instance field: private NUnit.Framework.Internal.TestSuite rootSuite
-    NUnit::Framework::Internal::TestSuite* _get_rootSuite();
-    // Set instance field: private NUnit.Framework.Internal.TestSuite rootSuite
-    void _set_rootSuite(NUnit::Framework::Internal::TestSuite* value);
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,NUnit.Framework.Internal.TestSuite> namespaceSuites
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, NUnit::Framework::Internal::TestSuite*>*& dyn_namespaceSuites();
+    // Get instance field reference: private NUnit.Framework.Internal.TestSuite rootSuite
+    NUnit::Framework::Internal::TestSuite*& dyn_rootSuite();
     // public NUnit.Framework.Internal.TestSuite get_RootSuite()
     // Offset: 0x1762A70
     NUnit::Framework::Internal::TestSuite* get_RootSuite();

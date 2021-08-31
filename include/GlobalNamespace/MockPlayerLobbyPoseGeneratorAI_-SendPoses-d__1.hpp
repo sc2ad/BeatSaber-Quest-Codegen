@@ -152,74 +152,40 @@ namespace GlobalNamespace {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
-    // Get instance field: public System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: public System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
-    System::Runtime::CompilerServices::AsyncVoidMethodBuilder _get_$$t__builder();
-    // Set instance field: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
-    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncVoidMethodBuilder value);
-    // Get instance field: public MockPlayerLobbyPoseGeneratorAI <>4__this
-    GlobalNamespace::MockPlayerLobbyPoseGeneratorAI* _get_$$4__this();
-    // Set instance field: public MockPlayerLobbyPoseGeneratorAI <>4__this
-    void _set_$$4__this(GlobalNamespace::MockPlayerLobbyPoseGeneratorAI* value);
-    // Get instance field: public System.Threading.CancellationToken cancellationToken
-    System::Threading::CancellationToken _get_cancellationToken();
-    // Set instance field: public System.Threading.CancellationToken cancellationToken
-    void _set_cancellationToken(System::Threading::CancellationToken value);
-    // Get instance field: private UnityEngine.Pose <headPose>5__2
-    UnityEngine::Pose _get_$headPose$5__2();
-    // Set instance field: private UnityEngine.Pose <headPose>5__2
-    void _set_$headPose$5__2(UnityEngine::Pose value);
-    // Get instance field: private UnityEngine.Pose <leftHandPose>5__3
-    UnityEngine::Pose _get_$leftHandPose$5__3();
-    // Set instance field: private UnityEngine.Pose <leftHandPose>5__3
-    void _set_$leftHandPose$5__3(UnityEngine::Pose value);
-    // Get instance field: private UnityEngine.Pose <rightHandPose>5__4
-    UnityEngine::Pose _get_$rightHandPose$5__4();
-    // Set instance field: private UnityEngine.Pose <rightHandPose>5__4
-    void _set_$rightHandPose$5__4(UnityEngine::Pose value);
-    // Get instance field: private System.Random <random>5__5
-    System::Random* _get_$random$5__5();
-    // Set instance field: private System.Random <random>5__5
-    void _set_$random$5__5(System::Random* value);
-    // Get instance field: private UnityEngine.Pose <lastHeadPoseTarget>5__6
-    UnityEngine::Pose _get_$lastHeadPoseTarget$5__6();
-    // Set instance field: private UnityEngine.Pose <lastHeadPoseTarget>5__6
-    void _set_$lastHeadPoseTarget$5__6(UnityEngine::Pose value);
-    // Get instance field: private UnityEngine.Pose <lastLeftHandPoseTarget>5__7
-    UnityEngine::Pose _get_$lastLeftHandPoseTarget$5__7();
-    // Set instance field: private UnityEngine.Pose <lastLeftHandPoseTarget>5__7
-    void _set_$lastLeftHandPoseTarget$5__7(UnityEngine::Pose value);
-    // Get instance field: private UnityEngine.Pose <lastRightHandPoseTarget>5__8
-    UnityEngine::Pose _get_$lastRightHandPoseTarget$5__8();
-    // Set instance field: private UnityEngine.Pose <lastRightHandPoseTarget>5__8
-    void _set_$lastRightHandPoseTarget$5__8(UnityEngine::Pose value);
-    // Get instance field: private System.Single <lastTargetTime>5__9
-    float _get_$lastTargetTime$5__9();
-    // Set instance field: private System.Single <lastTargetTime>5__9
-    void _set_$lastTargetTime$5__9(float value);
-    // Get instance field: private UnityEngine.Pose <headPoseTarget>5__10
-    UnityEngine::Pose _get_$headPoseTarget$5__10();
-    // Set instance field: private UnityEngine.Pose <headPoseTarget>5__10
-    void _set_$headPoseTarget$5__10(UnityEngine::Pose value);
-    // Get instance field: private UnityEngine.Pose <leftHandPoseTarget>5__11
-    UnityEngine::Pose _get_$leftHandPoseTarget$5__11();
-    // Set instance field: private UnityEngine.Pose <leftHandPoseTarget>5__11
-    void _set_$leftHandPoseTarget$5__11(UnityEngine::Pose value);
-    // Get instance field: private UnityEngine.Pose <rightHandPoseTarget>5__12
-    UnityEngine::Pose _get_$rightHandPoseTarget$5__12();
-    // Set instance field: private UnityEngine.Pose <rightHandPoseTarget>5__12
-    void _set_$rightHandPoseTarget$5__12(UnityEngine::Pose value);
-    // Get instance field: private System.Single <nextTargetTime>5__13
-    float _get_$nextTargetTime$5__13();
-    // Set instance field: private System.Single <nextTargetTime>5__13
-    void _set_$nextTargetTime$5__13(float value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
-    System::Runtime::CompilerServices::TaskAwaiter _get_$$u__1();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
-    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter value);
+    // Get instance field reference: public System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
+    System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
+    // Get instance field reference: public MockPlayerLobbyPoseGeneratorAI <>4__this
+    GlobalNamespace::MockPlayerLobbyPoseGeneratorAI*& dyn_$$4__this();
+    // Get instance field reference: public System.Threading.CancellationToken cancellationToken
+    System::Threading::CancellationToken& dyn_cancellationToken();
+    // Get instance field reference: private UnityEngine.Pose <headPose>5__2
+    UnityEngine::Pose& dyn_$headPose$5__2();
+    // Get instance field reference: private UnityEngine.Pose <leftHandPose>5__3
+    UnityEngine::Pose& dyn_$leftHandPose$5__3();
+    // Get instance field reference: private UnityEngine.Pose <rightHandPose>5__4
+    UnityEngine::Pose& dyn_$rightHandPose$5__4();
+    // Get instance field reference: private System.Random <random>5__5
+    System::Random*& dyn_$random$5__5();
+    // Get instance field reference: private UnityEngine.Pose <lastHeadPoseTarget>5__6
+    UnityEngine::Pose& dyn_$lastHeadPoseTarget$5__6();
+    // Get instance field reference: private UnityEngine.Pose <lastLeftHandPoseTarget>5__7
+    UnityEngine::Pose& dyn_$lastLeftHandPoseTarget$5__7();
+    // Get instance field reference: private UnityEngine.Pose <lastRightHandPoseTarget>5__8
+    UnityEngine::Pose& dyn_$lastRightHandPoseTarget$5__8();
+    // Get instance field reference: private System.Single <lastTargetTime>5__9
+    float& dyn_$lastTargetTime$5__9();
+    // Get instance field reference: private UnityEngine.Pose <headPoseTarget>5__10
+    UnityEngine::Pose& dyn_$headPoseTarget$5__10();
+    // Get instance field reference: private UnityEngine.Pose <leftHandPoseTarget>5__11
+    UnityEngine::Pose& dyn_$leftHandPoseTarget$5__11();
+    // Get instance field reference: private UnityEngine.Pose <rightHandPoseTarget>5__12
+    UnityEngine::Pose& dyn_$rightHandPoseTarget$5__12();
+    // Get instance field reference: private System.Single <nextTargetTime>5__13
+    float& dyn_$nextTargetTime$5__13();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
     // Offset: 0x23E4C00
     void MoveNext();

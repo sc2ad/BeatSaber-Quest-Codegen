@@ -79,22 +79,14 @@ namespace GlobalNamespace {
     static int _get_kMaxNumberOfDigits();
     // Set static field: static private System.Int32 kMaxNumberOfDigits
     static void _set_kMaxNumberOfDigits(int value);
-    // Get instance field: private TMPro.TextMeshProUGUI _scoreText
-    TMPro::TextMeshProUGUI* _get__scoreText();
-    // Set instance field: private TMPro.TextMeshProUGUI _scoreText
-    void _set__scoreText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private ScoreUIController/InitData _initData
-    GlobalNamespace::ScoreUIController::InitData* _get__initData();
-    // Set instance field: private ScoreUIController/InitData _initData
-    void _set__initData(GlobalNamespace::ScoreUIController::InitData* value);
-    // Get instance field: private readonly IScoreController _scoreController
-    GlobalNamespace::IScoreController* _get__scoreController();
-    // Set instance field: private readonly IScoreController _scoreController
-    void _set__scoreController(GlobalNamespace::IScoreController* value);
-    // Get instance field: private System.Text.StringBuilder _stringBuilder
-    System::Text::StringBuilder* _get__stringBuilder();
-    // Set instance field: private System.Text.StringBuilder _stringBuilder
-    void _set__stringBuilder(System::Text::StringBuilder* value);
+    // Get instance field reference: private TMPro.TextMeshProUGUI _scoreText
+    TMPro::TextMeshProUGUI*& dyn__scoreText();
+    // Get instance field reference: private ScoreUIController/InitData _initData
+    GlobalNamespace::ScoreUIController::InitData*& dyn__initData();
+    // Get instance field reference: private readonly IScoreController _scoreController
+    GlobalNamespace::IScoreController*& dyn__scoreController();
+    // Get instance field reference: private System.Text.StringBuilder _stringBuilder
+    System::Text::StringBuilder*& dyn__stringBuilder();
     // protected System.Void Start()
     // Offset: 0x119BF04
     void Start();

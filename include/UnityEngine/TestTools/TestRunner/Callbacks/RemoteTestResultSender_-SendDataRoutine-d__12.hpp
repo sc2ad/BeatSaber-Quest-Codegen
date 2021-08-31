@@ -61,26 +61,16 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
-    // Get instance field: private System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: private System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: private System.Object <>2__current
-    ::Il2CppObject* _get_$$2__current();
-    // Set instance field: private System.Object <>2__current
-    void _set_$$2__current(::Il2CppObject* value);
-    // Get instance field: public UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender <>4__this
-    UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender* _get_$$4__this();
-    // Set instance field: public UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender <>4__this
-    void _set_$$4__this(UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender* value);
-    // Get instance field: private System.Object <>7__wrap1
-    ::Il2CppObject* _get_$$7__wrap1();
-    // Set instance field: private System.Object <>7__wrap1
-    void _set_$$7__wrap1(::Il2CppObject* value);
-    // Get instance field: private System.Boolean <>7__wrap2
-    bool _get_$$7__wrap2();
-    // Set instance field: private System.Boolean <>7__wrap2
-    void _set_$$7__wrap2(bool value);
+    // Get instance field reference: private System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: private System.Object <>2__current
+    ::Il2CppObject*& dyn_$$2__current();
+    // Get instance field reference: public UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender <>4__this
+    UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender*& dyn_$$4__this();
+    // Get instance field reference: private System.Object <>7__wrap1
+    ::Il2CppObject*& dyn_$$7__wrap1();
+    // Get instance field reference: private System.Boolean <>7__wrap2
+    bool& dyn_$$7__wrap2();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
     // Offset: 0x14C5CDC
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();

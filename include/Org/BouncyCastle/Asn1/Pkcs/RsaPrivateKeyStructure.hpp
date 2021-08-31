@@ -84,38 +84,22 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
     // Creating value type constructor for type: RsaPrivateKeyStructure
     RsaPrivateKeyStructure(Org::BouncyCastle::Math::BigInteger* modulus_ = {}, Org::BouncyCastle::Math::BigInteger* publicExponent_ = {}, Org::BouncyCastle::Math::BigInteger* privateExponent_ = {}, Org::BouncyCastle::Math::BigInteger* prime1_ = {}, Org::BouncyCastle::Math::BigInteger* prime2_ = {}, Org::BouncyCastle::Math::BigInteger* exponent1_ = {}, Org::BouncyCastle::Math::BigInteger* exponent2_ = {}, Org::BouncyCastle::Math::BigInteger* coefficient_ = {}) noexcept : modulus{modulus_}, publicExponent{publicExponent_}, privateExponent{privateExponent_}, prime1{prime1_}, prime2{prime2_}, exponent1{exponent1_}, exponent2{exponent2_}, coefficient{coefficient_} {}
-    // Get instance field: private readonly Org.BouncyCastle.Math.BigInteger modulus
-    Org::BouncyCastle::Math::BigInteger* _get_modulus();
-    // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger modulus
-    void _set_modulus(Org::BouncyCastle::Math::BigInteger* value);
-    // Get instance field: private readonly Org.BouncyCastle.Math.BigInteger publicExponent
-    Org::BouncyCastle::Math::BigInteger* _get_publicExponent();
-    // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger publicExponent
-    void _set_publicExponent(Org::BouncyCastle::Math::BigInteger* value);
-    // Get instance field: private readonly Org.BouncyCastle.Math.BigInteger privateExponent
-    Org::BouncyCastle::Math::BigInteger* _get_privateExponent();
-    // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger privateExponent
-    void _set_privateExponent(Org::BouncyCastle::Math::BigInteger* value);
-    // Get instance field: private readonly Org.BouncyCastle.Math.BigInteger prime1
-    Org::BouncyCastle::Math::BigInteger* _get_prime1();
-    // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger prime1
-    void _set_prime1(Org::BouncyCastle::Math::BigInteger* value);
-    // Get instance field: private readonly Org.BouncyCastle.Math.BigInteger prime2
-    Org::BouncyCastle::Math::BigInteger* _get_prime2();
-    // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger prime2
-    void _set_prime2(Org::BouncyCastle::Math::BigInteger* value);
-    // Get instance field: private readonly Org.BouncyCastle.Math.BigInteger exponent1
-    Org::BouncyCastle::Math::BigInteger* _get_exponent1();
-    // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger exponent1
-    void _set_exponent1(Org::BouncyCastle::Math::BigInteger* value);
-    // Get instance field: private readonly Org.BouncyCastle.Math.BigInteger exponent2
-    Org::BouncyCastle::Math::BigInteger* _get_exponent2();
-    // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger exponent2
-    void _set_exponent2(Org::BouncyCastle::Math::BigInteger* value);
-    // Get instance field: private readonly Org.BouncyCastle.Math.BigInteger coefficient
-    Org::BouncyCastle::Math::BigInteger* _get_coefficient();
-    // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger coefficient
-    void _set_coefficient(Org::BouncyCastle::Math::BigInteger* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger modulus
+    Org::BouncyCastle::Math::BigInteger*& dyn_modulus();
+    // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger publicExponent
+    Org::BouncyCastle::Math::BigInteger*& dyn_publicExponent();
+    // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger privateExponent
+    Org::BouncyCastle::Math::BigInteger*& dyn_privateExponent();
+    // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger prime1
+    Org::BouncyCastle::Math::BigInteger*& dyn_prime1();
+    // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger prime2
+    Org::BouncyCastle::Math::BigInteger*& dyn_prime2();
+    // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger exponent1
+    Org::BouncyCastle::Math::BigInteger*& dyn_exponent1();
+    // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger exponent2
+    Org::BouncyCastle::Math::BigInteger*& dyn_exponent2();
+    // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger coefficient
+    Org::BouncyCastle::Math::BigInteger*& dyn_coefficient();
     // public Org.BouncyCastle.Math.BigInteger get_Modulus()
     // Offset: 0x17B50F4
     Org::BouncyCastle::Math::BigInteger* get_Modulus();

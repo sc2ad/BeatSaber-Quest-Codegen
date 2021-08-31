@@ -36,14 +36,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: LevelProductData
     LevelProductData(uint appId_ = {}, ::Il2CppString* levelId_ = {}) noexcept : appId{appId_}, levelId{levelId_} {}
-    // Get instance field: private System.UInt32 _appId
-    uint _get__appId();
-    // Set instance field: private System.UInt32 _appId
-    void _set__appId(uint value);
-    // Get instance field: private System.String _levelId
-    ::Il2CppString* _get__levelId();
-    // Set instance field: private System.String _levelId
-    void _set__levelId(::Il2CppString* value);
+    // Get instance field reference: private System.UInt32 _appId
+    uint& dyn__appId();
+    // Get instance field reference: private System.String _levelId
+    ::Il2CppString*& dyn__levelId();
     // public System.UInt32 get_appId()
     // Offset: 0x108D670
     uint get_appId();

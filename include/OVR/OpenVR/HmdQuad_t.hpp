@@ -48,22 +48,14 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public OVR.OpenVR.HmdVector3_t vCorners0
-    OVR::OpenVR::HmdVector3_t _get_vCorners0();
-    // Set instance field: public OVR.OpenVR.HmdVector3_t vCorners0
-    void _set_vCorners0(OVR::OpenVR::HmdVector3_t value);
-    // Get instance field: public OVR.OpenVR.HmdVector3_t vCorners1
-    OVR::OpenVR::HmdVector3_t _get_vCorners1();
-    // Set instance field: public OVR.OpenVR.HmdVector3_t vCorners1
-    void _set_vCorners1(OVR::OpenVR::HmdVector3_t value);
-    // Get instance field: public OVR.OpenVR.HmdVector3_t vCorners2
-    OVR::OpenVR::HmdVector3_t _get_vCorners2();
-    // Set instance field: public OVR.OpenVR.HmdVector3_t vCorners2
-    void _set_vCorners2(OVR::OpenVR::HmdVector3_t value);
-    // Get instance field: public OVR.OpenVR.HmdVector3_t vCorners3
-    OVR::OpenVR::HmdVector3_t _get_vCorners3();
-    // Set instance field: public OVR.OpenVR.HmdVector3_t vCorners3
-    void _set_vCorners3(OVR::OpenVR::HmdVector3_t value);
+    // Get instance field reference: public OVR.OpenVR.HmdVector3_t vCorners0
+    OVR::OpenVR::HmdVector3_t& dyn_vCorners0();
+    // Get instance field reference: public OVR.OpenVR.HmdVector3_t vCorners1
+    OVR::OpenVR::HmdVector3_t& dyn_vCorners1();
+    // Get instance field reference: public OVR.OpenVR.HmdVector3_t vCorners2
+    OVR::OpenVR::HmdVector3_t& dyn_vCorners2();
+    // Get instance field reference: public OVR.OpenVR.HmdVector3_t vCorners3
+    OVR::OpenVR::HmdVector3_t& dyn_vCorners3();
   }; // OVR.OpenVR.HmdQuad_t
   #pragma pack(pop)
   static check_size<sizeof(HmdQuad_t), 36 + sizeof(OVR::OpenVR::HmdVector3_t)> __OVR_OpenVR_HmdQuad_tSizeCheck;

@@ -81,10 +81,8 @@ namespace Microsoft::Win32 {
     static Microsoft::Win32::RegistryValueKind _get_None();
     // Set static field: static public Microsoft.Win32.RegistryValueKind None
     static void _set_None(Microsoft::Win32::RegistryValueKind value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Microsoft.Win32.RegistryValueKind
   #pragma pack(pop)
   static check_size<sizeof(RegistryValueKind), 0 + sizeof(int)> __Microsoft_Win32_RegistryValueKindSizeCheck;

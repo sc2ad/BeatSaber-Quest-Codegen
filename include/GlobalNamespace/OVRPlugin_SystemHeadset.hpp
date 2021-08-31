@@ -154,10 +154,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::SystemHeadset _get_PC_Placeholder_4107();
     // Set static field: static public OVRPlugin/SystemHeadset PC_Placeholder_4107
     static void _set_PC_Placeholder_4107(GlobalNamespace::OVRPlugin::SystemHeadset value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // OVRPlugin/SystemHeadset
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::SystemHeadset), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_SystemHeadsetSizeCheck;

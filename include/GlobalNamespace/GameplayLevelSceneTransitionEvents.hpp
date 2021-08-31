@@ -66,22 +66,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action*) == 0x8);
     // Creating value type constructor for type: GameplayLevelSceneTransitionEvents
     GameplayLevelSceneTransitionEvents(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData_ = {}, GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData_ = {}, GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData_ = {}, System::Action* anyGameplayLevelDidFinishEvent_ = {}) noexcept : standardLevelScenesTransitionSetupData{standardLevelScenesTransitionSetupData_}, missionLevelScenesTransitionSetupData{missionLevelScenesTransitionSetupData_}, multiplayerLevelScenesTransitionSetupData{multiplayerLevelScenesTransitionSetupData_}, anyGameplayLevelDidFinishEvent{anyGameplayLevelDidFinishEvent_} {}
-    // Get instance field: private readonly StandardLevelScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData
-    GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* _get__standardLevelScenesTransitionSetupData();
-    // Set instance field: private readonly StandardLevelScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData
-    void _set__standardLevelScenesTransitionSetupData(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* value);
-    // Get instance field: private readonly MissionLevelScenesTransitionSetupDataSO _missionLevelScenesTransitionSetupData
-    GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* _get__missionLevelScenesTransitionSetupData();
-    // Set instance field: private readonly MissionLevelScenesTransitionSetupDataSO _missionLevelScenesTransitionSetupData
-    void _set__missionLevelScenesTransitionSetupData(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* value);
-    // Get instance field: private readonly MultiplayerLevelScenesTransitionSetupDataSO _multiplayerLevelScenesTransitionSetupData
-    GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* _get__multiplayerLevelScenesTransitionSetupData();
-    // Set instance field: private readonly MultiplayerLevelScenesTransitionSetupDataSO _multiplayerLevelScenesTransitionSetupData
-    void _set__multiplayerLevelScenesTransitionSetupData(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* value);
-    // Get instance field: private System.Action anyGameplayLevelDidFinishEvent
-    System::Action* _get_anyGameplayLevelDidFinishEvent();
-    // Set instance field: private System.Action anyGameplayLevelDidFinishEvent
-    void _set_anyGameplayLevelDidFinishEvent(System::Action* value);
+    // Get instance field reference: private readonly StandardLevelScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData
+    GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*& dyn__standardLevelScenesTransitionSetupData();
+    // Get instance field reference: private readonly MissionLevelScenesTransitionSetupDataSO _missionLevelScenesTransitionSetupData
+    GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*& dyn__missionLevelScenesTransitionSetupData();
+    // Get instance field reference: private readonly MultiplayerLevelScenesTransitionSetupDataSO _multiplayerLevelScenesTransitionSetupData
+    GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*& dyn__multiplayerLevelScenesTransitionSetupData();
+    // Get instance field reference: private System.Action anyGameplayLevelDidFinishEvent
+    System::Action*& dyn_anyGameplayLevelDidFinishEvent();
     // public System.Void add_anyGameplayLevelDidFinishEvent(System.Action value)
     // Offset: 0x110C3A4
     void add_anyGameplayLevelDidFinishEvent(System::Action* value);

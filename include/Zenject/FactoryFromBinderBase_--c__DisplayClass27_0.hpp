@@ -57,14 +57,10 @@ namespace Zenject {
     static_assert(sizeof(Zenject::FactoryFromBinderBase*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass27_0
     $$c__DisplayClass27_0(System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>* gameObjectGetter_ = {}, Zenject::FactoryFromBinderBase* $$4__this_ = {}) noexcept : gameObjectGetter{gameObjectGetter_}, $$4__this{$$4__this_} {}
-    // Get instance field: public System.Func`2<Zenject.InjectContext,UnityEngine.GameObject> gameObjectGetter
-    System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>* _get_gameObjectGetter();
-    // Set instance field: public System.Func`2<Zenject.InjectContext,UnityEngine.GameObject> gameObjectGetter
-    void _set_gameObjectGetter(System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>* value);
-    // Get instance field: public Zenject.FactoryFromBinderBase <>4__this
-    Zenject::FactoryFromBinderBase* _get_$$4__this();
-    // Set instance field: public Zenject.FactoryFromBinderBase <>4__this
-    void _set_$$4__this(Zenject::FactoryFromBinderBase* value);
+    // Get instance field reference: public System.Func`2<Zenject.InjectContext,UnityEngine.GameObject> gameObjectGetter
+    System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>*& dyn_gameObjectGetter();
+    // Get instance field reference: public Zenject.FactoryFromBinderBase <>4__this
+    Zenject::FactoryFromBinderBase*& dyn_$$4__this();
     // Zenject.IProvider <FromNewComponentOn>b__0(Zenject.DiContainer container)
     // Offset: 0x16580A0
     Zenject::IProvider* $FromNewComponentOn$b__0(Zenject::DiContainer* container);

@@ -53,10 +53,8 @@ namespace MasterServer {
     }
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
-    // Get instance field: public readonly System.Byte[] random
-    ::Array<uint8_t>* _get_random();
-    // Set instance field: public readonly System.Byte[] random
-    void _set_random(::Array<uint8_t>* value);
+    // Get instance field reference: public readonly System.Byte[] random
+    ::Array<uint8_t>*& dyn_random();
     // static public PacketPool`1<MasterServer.ClientHelloRequest> get_pool()
     // Offset: 0x12133C0
     static GlobalNamespace::PacketPool_1<MasterServer::ClientHelloRequest*>* get_pool();

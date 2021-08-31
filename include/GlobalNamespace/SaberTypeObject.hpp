@@ -32,10 +32,8 @@ namespace GlobalNamespace {
     SaberTypeObject(GlobalNamespace::SaberType saberType_ = {}) noexcept : saberType{saberType_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private SaberType _saberType
-    GlobalNamespace::SaberType _get__saberType();
-    // Set instance field: private SaberType _saberType
-    void _set__saberType(GlobalNamespace::SaberType value);
+    // Get instance field reference: private SaberType _saberType
+    GlobalNamespace::SaberType& dyn__saberType();
     // public SaberType get_saberType()
     // Offset: 0x1197778
     GlobalNamespace::SaberType get_saberType();

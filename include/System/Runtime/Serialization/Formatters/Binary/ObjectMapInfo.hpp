@@ -51,22 +51,14 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(::Array<System::Type*>*) == 0x8);
     // Creating value type constructor for type: ObjectMapInfo
     ObjectMapInfo(int objectId_ = {}, int numMembers_ = {}, ::Array<::Il2CppString*>* memberNames_ = {}, ::Array<System::Type*>* memberTypes_ = {}) noexcept : objectId{objectId_}, numMembers{numMembers_}, memberNames{memberNames_}, memberTypes{memberTypes_} {}
-    // Get instance field: System.Int32 objectId
-    int _get_objectId();
-    // Set instance field: System.Int32 objectId
-    void _set_objectId(int value);
-    // Get instance field: private System.Int32 numMembers
-    int _get_numMembers();
-    // Set instance field: private System.Int32 numMembers
-    void _set_numMembers(int value);
-    // Get instance field: private System.String[] memberNames
-    ::Array<::Il2CppString*>* _get_memberNames();
-    // Set instance field: private System.String[] memberNames
-    void _set_memberNames(::Array<::Il2CppString*>* value);
-    // Get instance field: private System.Type[] memberTypes
-    ::Array<System::Type*>* _get_memberTypes();
-    // Set instance field: private System.Type[] memberTypes
-    void _set_memberTypes(::Array<System::Type*>* value);
+    // Get instance field reference: System.Int32 objectId
+    int& dyn_objectId();
+    // Get instance field reference: private System.Int32 numMembers
+    int& dyn_numMembers();
+    // Get instance field reference: private System.String[] memberNames
+    ::Array<::Il2CppString*>*& dyn_memberNames();
+    // Get instance field reference: private System.Type[] memberTypes
+    ::Array<System::Type*>*& dyn_memberTypes();
     // System.Void .ctor(System.Int32 objectId, System.Int32 numMembers, System.String[] memberNames, System.Type[] memberTypes)
     // Offset: 0x16194B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

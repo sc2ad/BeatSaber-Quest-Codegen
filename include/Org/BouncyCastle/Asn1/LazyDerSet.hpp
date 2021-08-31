@@ -44,10 +44,8 @@ namespace Org::BouncyCastle::Asn1 {
     LazyDerSet(::Array<uint8_t>* encoded_ = {}) noexcept : encoded{encoded_} {}
     // Deleting conversion operator: operator ::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>*
     constexpr operator ::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>*() const noexcept = delete;
-    // Get instance field: private System.Byte[] encoded
-    ::Array<uint8_t>* _get_encoded();
-    // Set instance field: private System.Byte[] encoded
-    void _set_encoded(::Array<uint8_t>* value);
+    // Get instance field reference: private System.Byte[] encoded
+    ::Array<uint8_t>*& dyn_encoded();
     // System.Void .ctor(System.Byte[] encoded)
     // Offset: 0x17ACCB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

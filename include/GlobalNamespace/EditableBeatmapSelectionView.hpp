@@ -74,26 +74,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: EditableBeatmapSelectionView
     EditableBeatmapSelectionView(UnityEngine::UI::Button* editButton_ = {}, UnityEngine::UI::Button* clearButton_ = {}, UnityEngine::CanvasGroup* levelBarCanvasGroup_ = {}, bool interactable_ = {}, bool showClearButton_ = {}) noexcept : editButton{editButton_}, clearButton{clearButton_}, levelBarCanvasGroup{levelBarCanvasGroup_}, interactable{interactable_}, showClearButton{showClearButton_} {}
-    // Get instance field: private UnityEngine.UI.Button _editButton
-    UnityEngine::UI::Button* _get__editButton();
-    // Set instance field: private UnityEngine.UI.Button _editButton
-    void _set__editButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _clearButton
-    UnityEngine::UI::Button* _get__clearButton();
-    // Set instance field: private UnityEngine.UI.Button _clearButton
-    void _set__clearButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.CanvasGroup _levelBarCanvasGroup
-    UnityEngine::CanvasGroup* _get__levelBarCanvasGroup();
-    // Set instance field: private UnityEngine.CanvasGroup _levelBarCanvasGroup
-    void _set__levelBarCanvasGroup(UnityEngine::CanvasGroup* value);
-    // Get instance field: private System.Boolean _interactable
-    bool _get__interactable();
-    // Set instance field: private System.Boolean _interactable
-    void _set__interactable(bool value);
-    // Get instance field: private System.Boolean <showClearButton>k__BackingField
-    bool _get_$showClearButton$k__BackingField();
-    // Set instance field: private System.Boolean <showClearButton>k__BackingField
-    void _set_$showClearButton$k__BackingField(bool value);
+    // Get instance field reference: private UnityEngine.UI.Button _editButton
+    UnityEngine::UI::Button*& dyn__editButton();
+    // Get instance field reference: private UnityEngine.UI.Button _clearButton
+    UnityEngine::UI::Button*& dyn__clearButton();
+    // Get instance field reference: private UnityEngine.CanvasGroup _levelBarCanvasGroup
+    UnityEngine::CanvasGroup*& dyn__levelBarCanvasGroup();
+    // Get instance field reference: private System.Boolean _interactable
+    bool& dyn__interactable();
+    // Get instance field reference: private System.Boolean <showClearButton>k__BackingField
+    bool& dyn_$showClearButton$k__BackingField();
     // public UnityEngine.UI.Button get_editButton()
     // Offset: 0x104F860
     UnityEngine::UI::Button* get_editButton();

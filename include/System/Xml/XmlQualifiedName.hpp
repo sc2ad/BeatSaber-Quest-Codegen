@@ -53,18 +53,12 @@ namespace System::Xml {
     static System::Xml::XmlQualifiedName* _get_Empty();
     // Set static field: static public readonly System.Xml.XmlQualifiedName Empty
     static void _set_Empty(System::Xml::XmlQualifiedName* value);
-    // Get instance field: private System.String name
-    ::Il2CppString* _get_name();
-    // Set instance field: private System.String name
-    void _set_name(::Il2CppString* value);
-    // Get instance field: private System.String ns
-    ::Il2CppString* _get_ns();
-    // Set instance field: private System.String ns
-    void _set_ns(::Il2CppString* value);
-    // Get instance field: private System.Int32 hash
-    int _get_hash();
-    // Set instance field: private System.Int32 hash
-    void _set_hash(int value);
+    // Get instance field reference: private System.String name
+    ::Il2CppString*& dyn_name();
+    // Get instance field reference: private System.String ns
+    ::Il2CppString*& dyn_ns();
+    // Get instance field reference: private System.Int32 hash
+    int& dyn_hash();
     // public System.String get_Namespace()
     // Offset: 0x195DA94
     ::Il2CppString* get_Namespace();

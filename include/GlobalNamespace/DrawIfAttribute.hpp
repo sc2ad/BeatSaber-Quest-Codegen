@@ -59,10 +59,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::DrawIfAttribute::DisablingType _get_DontDraw();
       // Set static field: static public DrawIfAttribute/DisablingType DontDraw
       static void _set_DontDraw(GlobalNamespace::DrawIfAttribute::DisablingType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // DrawIfAttribute/DisablingType
     #pragma pack(pop)
     static check_size<sizeof(DrawIfAttribute::DisablingType), 0 + sizeof(int)> __GlobalNamespace_DrawIfAttribute_DisablingTypeSizeCheck;
@@ -93,22 +91,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::DrawIfAttribute::DisablingType) == 0x4);
     // Creating value type constructor for type: DrawIfAttribute
     DrawIfAttribute(::Il2CppString* propertyName_ = {}, ::Il2CppObject* value_ = {}, ::Il2CppObject* orValue_ = {}, GlobalNamespace::DrawIfAttribute::DisablingType disablingType_ = {}) noexcept : propertyName{propertyName_}, value{value_}, orValue{orValue_}, disablingType{disablingType_} {}
-    // Get instance field: public readonly System.String propertyName
-    ::Il2CppString* _get_propertyName();
-    // Set instance field: public readonly System.String propertyName
-    void _set_propertyName(::Il2CppString* value);
-    // Get instance field: public readonly System.Object value
-    ::Il2CppObject* _get_value();
-    // Set instance field: public readonly System.Object value
-    void _set_value(::Il2CppObject* value);
-    // Get instance field: public readonly System.Object orValue
-    ::Il2CppObject* _get_orValue();
-    // Set instance field: public readonly System.Object orValue
-    void _set_orValue(::Il2CppObject* value);
-    // Get instance field: public readonly DrawIfAttribute/DisablingType disablingType
-    GlobalNamespace::DrawIfAttribute::DisablingType _get_disablingType();
-    // Set instance field: public readonly DrawIfAttribute/DisablingType disablingType
-    void _set_disablingType(GlobalNamespace::DrawIfAttribute::DisablingType value);
+    // Get instance field reference: public readonly System.String propertyName
+    ::Il2CppString*& dyn_propertyName();
+    // Get instance field reference: public readonly System.Object value
+    ::Il2CppObject*& dyn_value();
+    // Get instance field reference: public readonly System.Object orValue
+    ::Il2CppObject*& dyn_orValue();
+    // Get instance field reference: public readonly DrawIfAttribute/DisablingType disablingType
+    GlobalNamespace::DrawIfAttribute::DisablingType& dyn_disablingType();
     // public System.Void .ctor(System.String propertyName, System.Object value, DrawIfAttribute/DisablingType disablingType)
     // Offset: 0x125C170
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

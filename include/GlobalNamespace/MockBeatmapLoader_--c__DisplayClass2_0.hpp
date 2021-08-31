@@ -44,10 +44,8 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::BeatmapIdentifierNetSerializable*() const noexcept {
       return beatmap;
     }
-    // Get instance field: public BeatmapIdentifierNetSerializable beatmap
-    GlobalNamespace::BeatmapIdentifierNetSerializable* _get_beatmap();
-    // Set instance field: public BeatmapIdentifierNetSerializable beatmap
-    void _set_beatmap(GlobalNamespace::BeatmapIdentifierNetSerializable* value);
+    // Get instance field reference: public BeatmapIdentifierNetSerializable beatmap
+    GlobalNamespace::BeatmapIdentifierNetSerializable*& dyn_beatmap();
     // System.Boolean <GetBeatmapData>b__0(IDifficultyBeatmapSet bds)
     // Offset: 0x11DBC9C
     bool $GetBeatmapData$b__0(GlobalNamespace::IDifficultyBeatmapSet* bds);

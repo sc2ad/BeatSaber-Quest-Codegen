@@ -87,30 +87,18 @@ namespace MasterServer {
     }
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
-    // Get instance field: private System.String <userId>k__BackingField
-    ::Il2CppString* _get_$userId$k__BackingField();
-    // Set instance field: private System.String <userId>k__BackingField
-    void _set_$userId$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.String <userName>k__BackingField
-    ::Il2CppString* _get_$userName$k__BackingField();
-    // Set instance field: private System.String <userName>k__BackingField
-    void _set_$userName$k__BackingField(::Il2CppString* value);
-    // Get instance field: public System.Int32 offset
-    int _get_offset();
-    // Set instance field: public System.Int32 offset
-    void _set_offset(int value);
-    // Get instance field: public System.Int32 count
-    int _get_count();
-    // Set instance field: public System.Int32 count
-    void _set_count(int value);
-    // Get instance field: public BeatmapLevelSelectionMask selectionMask
-    GlobalNamespace::BeatmapLevelSelectionMask _get_selectionMask();
-    // Set instance field: public BeatmapLevelSelectionMask selectionMask
-    void _set_selectionMask(GlobalNamespace::BeatmapLevelSelectionMask value);
-    // Get instance field: public GameplayServerConfiguration configuration
-    GlobalNamespace::GameplayServerConfiguration _get_configuration();
-    // Set instance field: public GameplayServerConfiguration configuration
-    void _set_configuration(GlobalNamespace::GameplayServerConfiguration value);
+    // Get instance field reference: private System.String <userId>k__BackingField
+    ::Il2CppString*& dyn_$userId$k__BackingField();
+    // Get instance field reference: private System.String <userName>k__BackingField
+    ::Il2CppString*& dyn_$userName$k__BackingField();
+    // Get instance field reference: public System.Int32 offset
+    int& dyn_offset();
+    // Get instance field reference: public System.Int32 count
+    int& dyn_count();
+    // Get instance field reference: public BeatmapLevelSelectionMask selectionMask
+    GlobalNamespace::BeatmapLevelSelectionMask& dyn_selectionMask();
+    // Get instance field reference: public GameplayServerConfiguration configuration
+    GlobalNamespace::GameplayServerConfiguration& dyn_configuration();
     // static public PacketPool`1<MasterServer.GetPublicServersRequest> get_pool()
     // Offset: 0x1217524
     static GlobalNamespace::PacketPool_1<MasterServer::GetPublicServersRequest*>* get_pool();

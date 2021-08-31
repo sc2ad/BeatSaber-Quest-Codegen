@@ -91,42 +91,24 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::BeatmapCharacteristicSO*) == 0x8);
     // Creating value type constructor for type: PlayerLevelStatsData
     PlayerLevelStatsData(int highScore_ = {}, int maxCombo_ = {}, bool fullCombo_ = {}, GlobalNamespace::RankModel::Rank maxRank_ = {}, bool validScore_ = {}, int playCount_ = {}, ::Il2CppString* levelID_ = {}, GlobalNamespace::BeatmapDifficulty difficulty_ = {}, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}) noexcept : highScore{highScore_}, maxCombo{maxCombo_}, fullCombo{fullCombo_}, maxRank{maxRank_}, validScore{validScore_}, playCount{playCount_}, levelID{levelID_}, difficulty{difficulty_}, beatmapCharacteristic{beatmapCharacteristic_} {}
-    // Get instance field: private System.Int32 _highScore
-    int _get__highScore();
-    // Set instance field: private System.Int32 _highScore
-    void _set__highScore(int value);
-    // Get instance field: private System.Int32 _maxCombo
-    int _get__maxCombo();
-    // Set instance field: private System.Int32 _maxCombo
-    void _set__maxCombo(int value);
-    // Get instance field: private System.Boolean _fullCombo
-    bool _get__fullCombo();
-    // Set instance field: private System.Boolean _fullCombo
-    void _set__fullCombo(bool value);
-    // Get instance field: private RankModel/Rank _maxRank
-    GlobalNamespace::RankModel::Rank _get__maxRank();
-    // Set instance field: private RankModel/Rank _maxRank
-    void _set__maxRank(GlobalNamespace::RankModel::Rank value);
-    // Get instance field: private System.Boolean _validScore
-    bool _get__validScore();
-    // Set instance field: private System.Boolean _validScore
-    void _set__validScore(bool value);
-    // Get instance field: private System.Int32 _playCount
-    int _get__playCount();
-    // Set instance field: private System.Int32 _playCount
-    void _set__playCount(int value);
-    // Get instance field: private System.String _levelID
-    ::Il2CppString* _get__levelID();
-    // Set instance field: private System.String _levelID
-    void _set__levelID(::Il2CppString* value);
-    // Get instance field: private BeatmapDifficulty _difficulty
-    GlobalNamespace::BeatmapDifficulty _get__difficulty();
-    // Set instance field: private BeatmapDifficulty _difficulty
-    void _set__difficulty(GlobalNamespace::BeatmapDifficulty value);
-    // Get instance field: private BeatmapCharacteristicSO _beatmapCharacteristic
-    GlobalNamespace::BeatmapCharacteristicSO* _get__beatmapCharacteristic();
-    // Set instance field: private BeatmapCharacteristicSO _beatmapCharacteristic
-    void _set__beatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
+    // Get instance field reference: private System.Int32 _highScore
+    int& dyn__highScore();
+    // Get instance field reference: private System.Int32 _maxCombo
+    int& dyn__maxCombo();
+    // Get instance field reference: private System.Boolean _fullCombo
+    bool& dyn__fullCombo();
+    // Get instance field reference: private RankModel/Rank _maxRank
+    GlobalNamespace::RankModel::Rank& dyn__maxRank();
+    // Get instance field reference: private System.Boolean _validScore
+    bool& dyn__validScore();
+    // Get instance field reference: private System.Int32 _playCount
+    int& dyn__playCount();
+    // Get instance field reference: private System.String _levelID
+    ::Il2CppString*& dyn__levelID();
+    // Get instance field reference: private BeatmapDifficulty _difficulty
+    GlobalNamespace::BeatmapDifficulty& dyn__difficulty();
+    // Get instance field reference: private BeatmapCharacteristicSO _beatmapCharacteristic
+    GlobalNamespace::BeatmapCharacteristicSO*& dyn__beatmapCharacteristic();
     // public System.String get_levelID()
     // Offset: 0x113AAE0
     ::Il2CppString* get_levelID();

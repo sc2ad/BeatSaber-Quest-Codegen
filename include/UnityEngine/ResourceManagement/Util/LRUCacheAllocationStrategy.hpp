@@ -74,26 +74,16 @@ namespace UnityEngine::ResourceManagement::Util {
     operator UnityEngine::ResourceManagement::Util::IAllocationStrategy() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::Util::IAllocationStrategy*>(this);
     }
-    // Get instance field: private System.Int32 m_poolMaxSize
-    int _get_m_poolMaxSize();
-    // Set instance field: private System.Int32 m_poolMaxSize
-    void _set_m_poolMaxSize(int value);
-    // Get instance field: private System.Int32 m_poolInitialCapacity
-    int _get_m_poolInitialCapacity();
-    // Set instance field: private System.Int32 m_poolInitialCapacity
-    void _set_m_poolInitialCapacity(int value);
-    // Get instance field: private System.Int32 m_poolCacheMaxSize
-    int _get_m_poolCacheMaxSize();
-    // Set instance field: private System.Int32 m_poolCacheMaxSize
-    void _set_m_poolCacheMaxSize(int value);
-    // Get instance field: private System.Collections.Generic.List`1<System.Collections.Generic.List`1<System.Object>> m_poolCache
-    System::Collections::Generic::List_1<System::Collections::Generic::List_1<::Il2CppObject*>*>* _get_m_poolCache();
-    // Set instance field: private System.Collections.Generic.List`1<System.Collections.Generic.List`1<System.Object>> m_poolCache
-    void _set_m_poolCache(System::Collections::Generic::List_1<System::Collections::Generic::List_1<::Il2CppObject*>*>* value);
-    // Get instance field: private System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<System.Object>> m_cache
-    System::Collections::Generic::Dictionary_2<int, System::Collections::Generic::List_1<::Il2CppObject*>*>* _get_m_cache();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<System.Object>> m_cache
-    void _set_m_cache(System::Collections::Generic::Dictionary_2<int, System::Collections::Generic::List_1<::Il2CppObject*>*>* value);
+    // Get instance field reference: private System.Int32 m_poolMaxSize
+    int& dyn_m_poolMaxSize();
+    // Get instance field reference: private System.Int32 m_poolInitialCapacity
+    int& dyn_m_poolInitialCapacity();
+    // Get instance field reference: private System.Int32 m_poolCacheMaxSize
+    int& dyn_m_poolCacheMaxSize();
+    // Get instance field reference: private System.Collections.Generic.List`1<System.Collections.Generic.List`1<System.Object>> m_poolCache
+    System::Collections::Generic::List_1<System::Collections::Generic::List_1<::Il2CppObject*>*>*& dyn_m_poolCache();
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<System.Object>> m_cache
+    System::Collections::Generic::Dictionary_2<int, System::Collections::Generic::List_1<::Il2CppObject*>*>*& dyn_m_cache();
     // public System.Void .ctor(System.Int32 poolMaxSize, System.Int32 poolCapacity, System.Int32 poolCacheMaxSize, System.Int32 initialPoolCacheCapacity)
     // Offset: 0x19E8F00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

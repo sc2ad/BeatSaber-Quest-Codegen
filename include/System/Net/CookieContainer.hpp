@@ -89,30 +89,18 @@ namespace System::Net {
     static ::Array<System::Net::HeaderVariantInfo>* _get_HeaderInfo();
     // Set static field: static private readonly System.Net.HeaderVariantInfo[] HeaderInfo
     static void _set_HeaderInfo(::Array<System::Net::HeaderVariantInfo>* value);
-    // Get instance field: private System.Collections.Hashtable m_domainTable
-    System::Collections::Hashtable* _get_m_domainTable();
-    // Set instance field: private System.Collections.Hashtable m_domainTable
-    void _set_m_domainTable(System::Collections::Hashtable* value);
-    // Get instance field: private System.Int32 m_maxCookieSize
-    int _get_m_maxCookieSize();
-    // Set instance field: private System.Int32 m_maxCookieSize
-    void _set_m_maxCookieSize(int value);
-    // Get instance field: private System.Int32 m_maxCookies
-    int _get_m_maxCookies();
-    // Set instance field: private System.Int32 m_maxCookies
-    void _set_m_maxCookies(int value);
-    // Get instance field: private System.Int32 m_maxCookiesPerDomain
-    int _get_m_maxCookiesPerDomain();
-    // Set instance field: private System.Int32 m_maxCookiesPerDomain
-    void _set_m_maxCookiesPerDomain(int value);
-    // Get instance field: private System.Int32 m_count
-    int _get_m_count();
-    // Set instance field: private System.Int32 m_count
-    void _set_m_count(int value);
-    // Get instance field: private System.String m_fqdnMyDomain
-    ::Il2CppString* _get_m_fqdnMyDomain();
-    // Set instance field: private System.String m_fqdnMyDomain
-    void _set_m_fqdnMyDomain(::Il2CppString* value);
+    // Get instance field reference: private System.Collections.Hashtable m_domainTable
+    System::Collections::Hashtable*& dyn_m_domainTable();
+    // Get instance field reference: private System.Int32 m_maxCookieSize
+    int& dyn_m_maxCookieSize();
+    // Get instance field reference: private System.Int32 m_maxCookies
+    int& dyn_m_maxCookies();
+    // Get instance field reference: private System.Int32 m_maxCookiesPerDomain
+    int& dyn_m_maxCookiesPerDomain();
+    // Get instance field reference: private System.Int32 m_count
+    int& dyn_m_count();
+    // Get instance field reference: private System.String m_fqdnMyDomain
+    ::Il2CppString*& dyn_m_fqdnMyDomain();
     // static private System.Void .cctor()
     // Offset: 0x16D784C
     static void _cctor();

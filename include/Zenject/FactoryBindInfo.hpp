@@ -64,18 +64,12 @@ namespace Zenject {
     static_assert(sizeof(System::Collections::Generic::List_1<Zenject::TypeValuePair>*) == 0x8);
     // Creating value type constructor for type: FactoryBindInfo
     FactoryBindInfo(System::Type* FactoryType_ = {}, System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>* ProviderFunc_ = {}, System::Collections::Generic::List_1<Zenject::TypeValuePair>* Arguments_ = {}) noexcept : FactoryType{FactoryType_}, ProviderFunc{ProviderFunc_}, Arguments{Arguments_} {}
-    // Get instance field: private System.Type <FactoryType>k__BackingField
-    System::Type* _get_$FactoryType$k__BackingField();
-    // Set instance field: private System.Type <FactoryType>k__BackingField
-    void _set_$FactoryType$k__BackingField(System::Type* value);
-    // Get instance field: private System.Func`2<Zenject.DiContainer,Zenject.IProvider> <ProviderFunc>k__BackingField
-    System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>* _get_$ProviderFunc$k__BackingField();
-    // Set instance field: private System.Func`2<Zenject.DiContainer,Zenject.IProvider> <ProviderFunc>k__BackingField
-    void _set_$ProviderFunc$k__BackingField(System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<Zenject.TypeValuePair> <Arguments>k__BackingField
-    System::Collections::Generic::List_1<Zenject::TypeValuePair>* _get_$Arguments$k__BackingField();
-    // Set instance field: private System.Collections.Generic.List`1<Zenject.TypeValuePair> <Arguments>k__BackingField
-    void _set_$Arguments$k__BackingField(System::Collections::Generic::List_1<Zenject::TypeValuePair>* value);
+    // Get instance field reference: private System.Type <FactoryType>k__BackingField
+    System::Type*& dyn_$FactoryType$k__BackingField();
+    // Get instance field reference: private System.Func`2<Zenject.DiContainer,Zenject.IProvider> <ProviderFunc>k__BackingField
+    System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>*& dyn_$ProviderFunc$k__BackingField();
+    // Get instance field reference: private System.Collections.Generic.List`1<Zenject.TypeValuePair> <Arguments>k__BackingField
+    System::Collections::Generic::List_1<Zenject::TypeValuePair>*& dyn_$Arguments$k__BackingField();
     // public System.Type get_FactoryType()
     // Offset: 0x1656CA0
     System::Type* get_FactoryType();

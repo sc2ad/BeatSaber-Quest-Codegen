@@ -198,94 +198,50 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public Valve.VR.VREvent_Reserved_t reserved
-    Valve::VR::VREvent_Reserved_t _get_reserved();
-    // Set instance field: public Valve.VR.VREvent_Reserved_t reserved
-    void _set_reserved(Valve::VR::VREvent_Reserved_t value);
-    // Get instance field: public Valve.VR.VREvent_Controller_t controller
-    Valve::VR::VREvent_Controller_t _get_controller();
-    // Set instance field: public Valve.VR.VREvent_Controller_t controller
-    void _set_controller(Valve::VR::VREvent_Controller_t value);
-    // Get instance field: public Valve.VR.VREvent_Mouse_t mouse
-    Valve::VR::VREvent_Mouse_t _get_mouse();
-    // Set instance field: public Valve.VR.VREvent_Mouse_t mouse
-    void _set_mouse(Valve::VR::VREvent_Mouse_t value);
-    // Get instance field: public Valve.VR.VREvent_Scroll_t scroll
-    Valve::VR::VREvent_Scroll_t _get_scroll();
-    // Set instance field: public Valve.VR.VREvent_Scroll_t scroll
-    void _set_scroll(Valve::VR::VREvent_Scroll_t value);
-    // Get instance field: public Valve.VR.VREvent_Process_t process
-    Valve::VR::VREvent_Process_t _get_process();
-    // Set instance field: public Valve.VR.VREvent_Process_t process
-    void _set_process(Valve::VR::VREvent_Process_t value);
-    // Get instance field: public Valve.VR.VREvent_Notification_t notification
-    Valve::VR::VREvent_Notification_t _get_notification();
-    // Set instance field: public Valve.VR.VREvent_Notification_t notification
-    void _set_notification(Valve::VR::VREvent_Notification_t value);
-    // Get instance field: public Valve.VR.VREvent_Overlay_t overlay
-    Valve::VR::VREvent_Overlay_t _get_overlay();
-    // Set instance field: public Valve.VR.VREvent_Overlay_t overlay
-    void _set_overlay(Valve::VR::VREvent_Overlay_t value);
-    // Get instance field: public Valve.VR.VREvent_Status_t status
-    Valve::VR::VREvent_Status_t _get_status();
-    // Set instance field: public Valve.VR.VREvent_Status_t status
-    void _set_status(Valve::VR::VREvent_Status_t value);
-    // Get instance field: public Valve.VR.VREvent_Ipd_t ipd
-    Valve::VR::VREvent_Ipd_t _get_ipd();
-    // Set instance field: public Valve.VR.VREvent_Ipd_t ipd
-    void _set_ipd(Valve::VR::VREvent_Ipd_t value);
-    // Get instance field: public Valve.VR.VREvent_Chaperone_t chaperone
-    Valve::VR::VREvent_Chaperone_t _get_chaperone();
-    // Set instance field: public Valve.VR.VREvent_Chaperone_t chaperone
-    void _set_chaperone(Valve::VR::VREvent_Chaperone_t value);
-    // Get instance field: public Valve.VR.VREvent_PerformanceTest_t performanceTest
-    Valve::VR::VREvent_PerformanceTest_t _get_performanceTest();
-    // Set instance field: public Valve.VR.VREvent_PerformanceTest_t performanceTest
-    void _set_performanceTest(Valve::VR::VREvent_PerformanceTest_t value);
-    // Get instance field: public Valve.VR.VREvent_TouchPadMove_t touchPadMove
-    Valve::VR::VREvent_TouchPadMove_t _get_touchPadMove();
-    // Set instance field: public Valve.VR.VREvent_TouchPadMove_t touchPadMove
-    void _set_touchPadMove(Valve::VR::VREvent_TouchPadMove_t value);
-    // Get instance field: public Valve.VR.VREvent_SeatedZeroPoseReset_t seatedZeroPoseReset
-    Valve::VR::VREvent_SeatedZeroPoseReset_t _get_seatedZeroPoseReset();
-    // Set instance field: public Valve.VR.VREvent_SeatedZeroPoseReset_t seatedZeroPoseReset
-    void _set_seatedZeroPoseReset(Valve::VR::VREvent_SeatedZeroPoseReset_t value);
-    // Get instance field: public Valve.VR.VREvent_Screenshot_t screenshot
-    Valve::VR::VREvent_Screenshot_t _get_screenshot();
-    // Set instance field: public Valve.VR.VREvent_Screenshot_t screenshot
-    void _set_screenshot(Valve::VR::VREvent_Screenshot_t value);
-    // Get instance field: public Valve.VR.VREvent_ScreenshotProgress_t screenshotProgress
-    Valve::VR::VREvent_ScreenshotProgress_t _get_screenshotProgress();
-    // Set instance field: public Valve.VR.VREvent_ScreenshotProgress_t screenshotProgress
-    void _set_screenshotProgress(Valve::VR::VREvent_ScreenshotProgress_t value);
-    // Get instance field: public Valve.VR.VREvent_ApplicationLaunch_t applicationLaunch
-    Valve::VR::VREvent_ApplicationLaunch_t _get_applicationLaunch();
-    // Set instance field: public Valve.VR.VREvent_ApplicationLaunch_t applicationLaunch
-    void _set_applicationLaunch(Valve::VR::VREvent_ApplicationLaunch_t value);
-    // Get instance field: public Valve.VR.VREvent_EditingCameraSurface_t cameraSurface
-    Valve::VR::VREvent_EditingCameraSurface_t _get_cameraSurface();
-    // Set instance field: public Valve.VR.VREvent_EditingCameraSurface_t cameraSurface
-    void _set_cameraSurface(Valve::VR::VREvent_EditingCameraSurface_t value);
-    // Get instance field: public Valve.VR.VREvent_MessageOverlay_t messageOverlay
-    Valve::VR::VREvent_MessageOverlay_t _get_messageOverlay();
-    // Set instance field: public Valve.VR.VREvent_MessageOverlay_t messageOverlay
-    void _set_messageOverlay(Valve::VR::VREvent_MessageOverlay_t value);
-    // Get instance field: public Valve.VR.VREvent_Property_t property
-    Valve::VR::VREvent_Property_t _get_property();
-    // Set instance field: public Valve.VR.VREvent_Property_t property
-    void _set_property(Valve::VR::VREvent_Property_t value);
-    // Get instance field: public Valve.VR.VREvent_DualAnalog_t dualAnalog
-    Valve::VR::VREvent_DualAnalog_t _get_dualAnalog();
-    // Set instance field: public Valve.VR.VREvent_DualAnalog_t dualAnalog
-    void _set_dualAnalog(Valve::VR::VREvent_DualAnalog_t value);
-    // Get instance field: public Valve.VR.VREvent_HapticVibration_t hapticVibration
-    Valve::VR::VREvent_HapticVibration_t _get_hapticVibration();
-    // Set instance field: public Valve.VR.VREvent_HapticVibration_t hapticVibration
-    void _set_hapticVibration(Valve::VR::VREvent_HapticVibration_t value);
-    // Get instance field: public Valve.VR.VREvent_Keyboard_t keyboard
-    Valve::VR::VREvent_Keyboard_t _get_keyboard();
-    // Set instance field: public Valve.VR.VREvent_Keyboard_t keyboard
-    void _set_keyboard(Valve::VR::VREvent_Keyboard_t value);
+    // Get instance field reference: public Valve.VR.VREvent_Reserved_t reserved
+    Valve::VR::VREvent_Reserved_t& dyn_reserved();
+    // Get instance field reference: public Valve.VR.VREvent_Controller_t controller
+    Valve::VR::VREvent_Controller_t& dyn_controller();
+    // Get instance field reference: public Valve.VR.VREvent_Mouse_t mouse
+    Valve::VR::VREvent_Mouse_t& dyn_mouse();
+    // Get instance field reference: public Valve.VR.VREvent_Scroll_t scroll
+    Valve::VR::VREvent_Scroll_t& dyn_scroll();
+    // Get instance field reference: public Valve.VR.VREvent_Process_t process
+    Valve::VR::VREvent_Process_t& dyn_process();
+    // Get instance field reference: public Valve.VR.VREvent_Notification_t notification
+    Valve::VR::VREvent_Notification_t& dyn_notification();
+    // Get instance field reference: public Valve.VR.VREvent_Overlay_t overlay
+    Valve::VR::VREvent_Overlay_t& dyn_overlay();
+    // Get instance field reference: public Valve.VR.VREvent_Status_t status
+    Valve::VR::VREvent_Status_t& dyn_status();
+    // Get instance field reference: public Valve.VR.VREvent_Ipd_t ipd
+    Valve::VR::VREvent_Ipd_t& dyn_ipd();
+    // Get instance field reference: public Valve.VR.VREvent_Chaperone_t chaperone
+    Valve::VR::VREvent_Chaperone_t& dyn_chaperone();
+    // Get instance field reference: public Valve.VR.VREvent_PerformanceTest_t performanceTest
+    Valve::VR::VREvent_PerformanceTest_t& dyn_performanceTest();
+    // Get instance field reference: public Valve.VR.VREvent_TouchPadMove_t touchPadMove
+    Valve::VR::VREvent_TouchPadMove_t& dyn_touchPadMove();
+    // Get instance field reference: public Valve.VR.VREvent_SeatedZeroPoseReset_t seatedZeroPoseReset
+    Valve::VR::VREvent_SeatedZeroPoseReset_t& dyn_seatedZeroPoseReset();
+    // Get instance field reference: public Valve.VR.VREvent_Screenshot_t screenshot
+    Valve::VR::VREvent_Screenshot_t& dyn_screenshot();
+    // Get instance field reference: public Valve.VR.VREvent_ScreenshotProgress_t screenshotProgress
+    Valve::VR::VREvent_ScreenshotProgress_t& dyn_screenshotProgress();
+    // Get instance field reference: public Valve.VR.VREvent_ApplicationLaunch_t applicationLaunch
+    Valve::VR::VREvent_ApplicationLaunch_t& dyn_applicationLaunch();
+    // Get instance field reference: public Valve.VR.VREvent_EditingCameraSurface_t cameraSurface
+    Valve::VR::VREvent_EditingCameraSurface_t& dyn_cameraSurface();
+    // Get instance field reference: public Valve.VR.VREvent_MessageOverlay_t messageOverlay
+    Valve::VR::VREvent_MessageOverlay_t& dyn_messageOverlay();
+    // Get instance field reference: public Valve.VR.VREvent_Property_t property
+    Valve::VR::VREvent_Property_t& dyn_property();
+    // Get instance field reference: public Valve.VR.VREvent_DualAnalog_t dualAnalog
+    Valve::VR::VREvent_DualAnalog_t& dyn_dualAnalog();
+    // Get instance field reference: public Valve.VR.VREvent_HapticVibration_t hapticVibration
+    Valve::VR::VREvent_HapticVibration_t& dyn_hapticVibration();
+    // Get instance field reference: public Valve.VR.VREvent_Keyboard_t keyboard
+    Valve::VR::VREvent_Keyboard_t& dyn_keyboard();
   }; // Valve.VR.VREvent_Data_t
   // WARNING Not writing size check since size may be invalid!
 }

@@ -78,30 +78,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: BloomFogParamsBehaviour
     BloomFogParamsBehaviour(GlobalNamespace::BloomFogEnvironmentParams* bloomFogParams_ = {}, float blend_ = {}, GlobalNamespace::BloomFogSO* editorBloomFogSO_ = {}, bool initialized_ = {}, GlobalNamespace::BloomFogEnvironmentParams* originalBloomFogParams_ = {}, bool finished_ = {}) noexcept : bloomFogParams{bloomFogParams_}, blend{blend_}, editorBloomFogSO{editorBloomFogSO_}, initialized{initialized_}, originalBloomFogParams{originalBloomFogParams_}, finished{finished_} {}
-    // Get instance field: private BloomFogEnvironmentParams _bloomFogParams
-    GlobalNamespace::BloomFogEnvironmentParams* _get__bloomFogParams();
-    // Set instance field: private BloomFogEnvironmentParams _bloomFogParams
-    void _set__bloomFogParams(GlobalNamespace::BloomFogEnvironmentParams* value);
-    // Get instance field: public System.Single _blend
-    float _get__blend();
-    // Set instance field: public System.Single _blend
-    void _set__blend(float value);
-    // Get instance field: public BloomFogSO _editorBloomFogSO
-    GlobalNamespace::BloomFogSO* _get__editorBloomFogSO();
-    // Set instance field: public BloomFogSO _editorBloomFogSO
-    void _set__editorBloomFogSO(GlobalNamespace::BloomFogSO* value);
-    // Get instance field: private System.Boolean _initialized
-    bool _get__initialized();
-    // Set instance field: private System.Boolean _initialized
-    void _set__initialized(bool value);
-    // Get instance field: private BloomFogEnvironmentParams _originalBloomFogParams
-    GlobalNamespace::BloomFogEnvironmentParams* _get__originalBloomFogParams();
-    // Set instance field: private BloomFogEnvironmentParams _originalBloomFogParams
-    void _set__originalBloomFogParams(GlobalNamespace::BloomFogEnvironmentParams* value);
-    // Get instance field: private System.Boolean _finished
-    bool _get__finished();
-    // Set instance field: private System.Boolean _finished
-    void _set__finished(bool value);
+    // Get instance field reference: private BloomFogEnvironmentParams _bloomFogParams
+    GlobalNamespace::BloomFogEnvironmentParams*& dyn__bloomFogParams();
+    // Get instance field reference: public System.Single _blend
+    float& dyn__blend();
+    // Get instance field reference: public BloomFogSO _editorBloomFogSO
+    GlobalNamespace::BloomFogSO*& dyn__editorBloomFogSO();
+    // Get instance field reference: private System.Boolean _initialized
+    bool& dyn__initialized();
+    // Get instance field reference: private BloomFogEnvironmentParams _originalBloomFogParams
+    GlobalNamespace::BloomFogEnvironmentParams*& dyn__originalBloomFogParams();
+    // Get instance field reference: private System.Boolean _finished
+    bool& dyn__finished();
     // public System.Void .ctor()
     // Offset: 0x10D18B8
     // Implemented from: UnityEngine.Playables.PlayableBehaviour

@@ -41,14 +41,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<float>*) == 0x8);
     // Creating value type constructor for type: SpawnRotationProcessor
     SpawnRotationProcessor(float rotation_ = {}, ::Array<float>* rotations_ = {}) noexcept : rotation{rotation_}, rotations{rotations_} {}
-    // Get instance field: private System.Single _rotation
-    float _get__rotation();
-    // Set instance field: private System.Single _rotation
-    void _set__rotation(float value);
-    // Get instance field: private readonly System.Single[] _rotations
-    ::Array<float>* _get__rotations();
-    // Set instance field: private readonly System.Single[] _rotations
-    void _set__rotations(::Array<float>* value);
+    // Get instance field reference: private System.Single _rotation
+    float& dyn__rotation();
+    // Get instance field reference: private readonly System.Single[] _rotations
+    ::Array<float>*& dyn__rotations();
     // public System.Single get_rotation()
     // Offset: 0x1083F00
     float get_rotation();

@@ -98,46 +98,26 @@ namespace System::IO {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
-    // Get instance field: public System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: public System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder _get_$$t__builder();
-    // Set instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
-    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder value);
-    // Get instance field: public System.Int32 bufferSize
-    int _get_bufferSize();
-    // Set instance field: public System.Int32 bufferSize
-    void _set_bufferSize(int value);
-    // Get instance field: public System.IO.Stream destination
-    System::IO::Stream* _get_destination();
-    // Set instance field: public System.IO.Stream destination
-    void _set_destination(System::IO::Stream* value);
-    // Get instance field: private System.Byte[] <buffer>5__1
-    ::Array<uint8_t>* _get_$buffer$5__1();
-    // Set instance field: private System.Byte[] <buffer>5__1
-    void _set_$buffer$5__1(::Array<uint8_t>* value);
-    // Get instance field: private System.Int32 <bytesRead>5__2
-    int _get_$bytesRead$5__2();
-    // Set instance field: private System.Int32 <bytesRead>5__2
-    void _set_$bytesRead$5__2(int value);
-    // Get instance field: public System.Threading.CancellationToken cancellationToken
-    System::Threading::CancellationToken _get_cancellationToken();
-    // Set instance field: public System.Threading.CancellationToken cancellationToken
-    void _set_cancellationToken(System::Threading::CancellationToken value);
-    // Get instance field: public System.IO.Stream <>4__this
-    System::IO::Stream* _get_$$4__this();
-    // Set instance field: public System.IO.Stream <>4__this
-    void _set_$$4__this(System::IO::Stream* value);
-    // Get instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable/System.Runtime.CompilerServices.ConfiguredTaskAwaiter <>u__1
-    System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter _get_$$u__1();
-    // Set instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable/System.Runtime.CompilerServices.ConfiguredTaskAwaiter <>u__1
-    void _set_$$u__1(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter value);
-    // Get instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.Int32> <>u__2
-    typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter _get_$$u__2();
-    // Set instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.Int32> <>u__2
-    void _set_$$u__2(typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter value);
+    // Get instance field reference: public System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder& dyn_$$t__builder();
+    // Get instance field reference: public System.Int32 bufferSize
+    int& dyn_bufferSize();
+    // Get instance field reference: public System.IO.Stream destination
+    System::IO::Stream*& dyn_destination();
+    // Get instance field reference: private System.Byte[] <buffer>5__1
+    ::Array<uint8_t>*& dyn_$buffer$5__1();
+    // Get instance field reference: private System.Int32 <bytesRead>5__2
+    int& dyn_$bytesRead$5__2();
+    // Get instance field reference: public System.Threading.CancellationToken cancellationToken
+    System::Threading::CancellationToken& dyn_cancellationToken();
+    // Get instance field reference: public System.IO.Stream <>4__this
+    System::IO::Stream*& dyn_$$4__this();
+    // Get instance field reference: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable/System.Runtime.CompilerServices.ConfiguredTaskAwaiter <>u__1
+    System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter& dyn_$$u__1();
+    // Get instance field reference: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.Int32> <>u__2
+    typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter& dyn_$$u__2();
     // private System.Void MoveNext()
     // Offset: 0x197DB40
     void MoveNext();

@@ -136,62 +136,34 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Rigidbody*) == 0x8);
     // Creating value type constructor for type: GrounderIK
     GrounderIK(::Array<RootMotion::FinalIK::IK*>* legs_ = {}, UnityEngine::Transform* pelvis_ = {}, UnityEngine::Transform* characterRoot_ = {}, float rootRotationWeight_ = {}, float rootRotationSpeed_ = {}, float maxRootRotationAngle_ = {}, ::Array<UnityEngine::Transform*>* feet_ = {}, ::Array<UnityEngine::Quaternion>* footRotations_ = {}, UnityEngine::Vector3 animatedPelvisLocalPosition_ = {}, UnityEngine::Vector3 solvedPelvisLocalPosition_ = {}, int solvedFeet_ = {}, bool solved_ = {}, float lastWeight_ = {}, UnityEngine::Rigidbody* characterRootRigidbody_ = {}) noexcept : legs{legs_}, pelvis{pelvis_}, characterRoot{characterRoot_}, rootRotationWeight{rootRotationWeight_}, rootRotationSpeed{rootRotationSpeed_}, maxRootRotationAngle{maxRootRotationAngle_}, feet{feet_}, footRotations{footRotations_}, animatedPelvisLocalPosition{animatedPelvisLocalPosition_}, solvedPelvisLocalPosition{solvedPelvisLocalPosition_}, solvedFeet{solvedFeet_}, solved{solved_}, lastWeight{lastWeight_}, characterRootRigidbody{characterRootRigidbody_} {}
-    // Get instance field: public RootMotion.FinalIK.IK[] legs
-    ::Array<RootMotion::FinalIK::IK*>* _get_legs();
-    // Set instance field: public RootMotion.FinalIK.IK[] legs
-    void _set_legs(::Array<RootMotion::FinalIK::IK*>* value);
-    // Get instance field: public UnityEngine.Transform pelvis
-    UnityEngine::Transform* _get_pelvis();
-    // Set instance field: public UnityEngine.Transform pelvis
-    void _set_pelvis(UnityEngine::Transform* value);
-    // Get instance field: public UnityEngine.Transform characterRoot
-    UnityEngine::Transform* _get_characterRoot();
-    // Set instance field: public UnityEngine.Transform characterRoot
-    void _set_characterRoot(UnityEngine::Transform* value);
-    // Get instance field: public System.Single rootRotationWeight
-    float _get_rootRotationWeight();
-    // Set instance field: public System.Single rootRotationWeight
-    void _set_rootRotationWeight(float value);
-    // Get instance field: public System.Single rootRotationSpeed
-    float _get_rootRotationSpeed();
-    // Set instance field: public System.Single rootRotationSpeed
-    void _set_rootRotationSpeed(float value);
-    // Get instance field: public System.Single maxRootRotationAngle
-    float _get_maxRootRotationAngle();
-    // Set instance field: public System.Single maxRootRotationAngle
-    void _set_maxRootRotationAngle(float value);
-    // Get instance field: private UnityEngine.Transform[] feet
-    ::Array<UnityEngine::Transform*>* _get_feet();
-    // Set instance field: private UnityEngine.Transform[] feet
-    void _set_feet(::Array<UnityEngine::Transform*>* value);
-    // Get instance field: private UnityEngine.Quaternion[] footRotations
-    ::Array<UnityEngine::Quaternion>* _get_footRotations();
-    // Set instance field: private UnityEngine.Quaternion[] footRotations
-    void _set_footRotations(::Array<UnityEngine::Quaternion>* value);
-    // Get instance field: private UnityEngine.Vector3 animatedPelvisLocalPosition
-    UnityEngine::Vector3 _get_animatedPelvisLocalPosition();
-    // Set instance field: private UnityEngine.Vector3 animatedPelvisLocalPosition
-    void _set_animatedPelvisLocalPosition(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 solvedPelvisLocalPosition
-    UnityEngine::Vector3 _get_solvedPelvisLocalPosition();
-    // Set instance field: private UnityEngine.Vector3 solvedPelvisLocalPosition
-    void _set_solvedPelvisLocalPosition(UnityEngine::Vector3 value);
-    // Get instance field: private System.Int32 solvedFeet
-    int _get_solvedFeet();
-    // Set instance field: private System.Int32 solvedFeet
-    void _set_solvedFeet(int value);
-    // Get instance field: private System.Boolean solved
-    bool _get_solved();
-    // Set instance field: private System.Boolean solved
-    void _set_solved(bool value);
-    // Get instance field: private System.Single lastWeight
-    float _get_lastWeight();
-    // Set instance field: private System.Single lastWeight
-    void _set_lastWeight(float value);
-    // Get instance field: private UnityEngine.Rigidbody characterRootRigidbody
-    UnityEngine::Rigidbody* _get_characterRootRigidbody();
-    // Set instance field: private UnityEngine.Rigidbody characterRootRigidbody
-    void _set_characterRootRigidbody(UnityEngine::Rigidbody* value);
+    // Get instance field reference: public RootMotion.FinalIK.IK[] legs
+    ::Array<RootMotion::FinalIK::IK*>*& dyn_legs();
+    // Get instance field reference: public UnityEngine.Transform pelvis
+    UnityEngine::Transform*& dyn_pelvis();
+    // Get instance field reference: public UnityEngine.Transform characterRoot
+    UnityEngine::Transform*& dyn_characterRoot();
+    // Get instance field reference: public System.Single rootRotationWeight
+    float& dyn_rootRotationWeight();
+    // Get instance field reference: public System.Single rootRotationSpeed
+    float& dyn_rootRotationSpeed();
+    // Get instance field reference: public System.Single maxRootRotationAngle
+    float& dyn_maxRootRotationAngle();
+    // Get instance field reference: private UnityEngine.Transform[] feet
+    ::Array<UnityEngine::Transform*>*& dyn_feet();
+    // Get instance field reference: private UnityEngine.Quaternion[] footRotations
+    ::Array<UnityEngine::Quaternion>*& dyn_footRotations();
+    // Get instance field reference: private UnityEngine.Vector3 animatedPelvisLocalPosition
+    UnityEngine::Vector3& dyn_animatedPelvisLocalPosition();
+    // Get instance field reference: private UnityEngine.Vector3 solvedPelvisLocalPosition
+    UnityEngine::Vector3& dyn_solvedPelvisLocalPosition();
+    // Get instance field reference: private System.Int32 solvedFeet
+    int& dyn_solvedFeet();
+    // Get instance field reference: private System.Boolean solved
+    bool& dyn_solved();
+    // Get instance field reference: private System.Single lastWeight
+    float& dyn_lastWeight();
+    // Get instance field reference: private UnityEngine.Rigidbody characterRootRigidbody
+    UnityEngine::Rigidbody*& dyn_characterRootRigidbody();
     // private System.Boolean IsReadyToInitiate()
     // Offset: 0x1CC6238
     bool IsReadyToInitiate();

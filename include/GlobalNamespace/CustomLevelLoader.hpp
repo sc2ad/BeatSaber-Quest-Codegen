@@ -70,26 +70,16 @@ namespace GlobalNamespace {
     CustomLevelLoader(GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection_ = {}, GlobalNamespace::EnvironmentInfoSO* defaultEnvironmentInfo_ = {}, GlobalNamespace::EnvironmentInfoSO* defaultAllDirectionsEnvironmentInfo_ = {}, GlobalNamespace::EnvironmentsListSO* environmentSceneInfoCollection_ = {}, UnityEngine::Sprite* defaultPackCover_ = {}) noexcept : beatmapCharacteristicCollection{beatmapCharacteristicCollection_}, defaultEnvironmentInfo{defaultEnvironmentInfo_}, defaultAllDirectionsEnvironmentInfo{defaultAllDirectionsEnvironmentInfo_}, environmentSceneInfoCollection{environmentSceneInfoCollection_}, defaultPackCover{defaultPackCover_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
-    GlobalNamespace::BeatmapCharacteristicCollectionSO* _get__beatmapCharacteristicCollection();
-    // Set instance field: private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
-    void _set__beatmapCharacteristicCollection(GlobalNamespace::BeatmapCharacteristicCollectionSO* value);
-    // Get instance field: private EnvironmentInfoSO _defaultEnvironmentInfo
-    GlobalNamespace::EnvironmentInfoSO* _get__defaultEnvironmentInfo();
-    // Set instance field: private EnvironmentInfoSO _defaultEnvironmentInfo
-    void _set__defaultEnvironmentInfo(GlobalNamespace::EnvironmentInfoSO* value);
-    // Get instance field: private EnvironmentInfoSO _defaultAllDirectionsEnvironmentInfo
-    GlobalNamespace::EnvironmentInfoSO* _get__defaultAllDirectionsEnvironmentInfo();
-    // Set instance field: private EnvironmentInfoSO _defaultAllDirectionsEnvironmentInfo
-    void _set__defaultAllDirectionsEnvironmentInfo(GlobalNamespace::EnvironmentInfoSO* value);
-    // Get instance field: private EnvironmentsListSO _environmentSceneInfoCollection
-    GlobalNamespace::EnvironmentsListSO* _get__environmentSceneInfoCollection();
-    // Set instance field: private EnvironmentsListSO _environmentSceneInfoCollection
-    void _set__environmentSceneInfoCollection(GlobalNamespace::EnvironmentsListSO* value);
-    // Get instance field: private UnityEngine.Sprite _defaultPackCover
-    UnityEngine::Sprite* _get__defaultPackCover();
-    // Set instance field: private UnityEngine.Sprite _defaultPackCover
-    void _set__defaultPackCover(UnityEngine::Sprite* value);
+    // Get instance field reference: private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
+    GlobalNamespace::BeatmapCharacteristicCollectionSO*& dyn__beatmapCharacteristicCollection();
+    // Get instance field reference: private EnvironmentInfoSO _defaultEnvironmentInfo
+    GlobalNamespace::EnvironmentInfoSO*& dyn__defaultEnvironmentInfo();
+    // Get instance field reference: private EnvironmentInfoSO _defaultAllDirectionsEnvironmentInfo
+    GlobalNamespace::EnvironmentInfoSO*& dyn__defaultAllDirectionsEnvironmentInfo();
+    // Get instance field reference: private EnvironmentsListSO _environmentSceneInfoCollection
+    GlobalNamespace::EnvironmentsListSO*& dyn__environmentSceneInfoCollection();
+    // Get instance field reference: private UnityEngine.Sprite _defaultPackCover
+    UnityEngine::Sprite*& dyn__defaultPackCover();
     // public System.Void .ctor()
     // Offset: 0x10F6640
     // Implemented from: UnityEngine.MonoBehaviour

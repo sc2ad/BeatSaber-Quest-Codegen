@@ -57,14 +57,10 @@ namespace UnityEngine::AddressableAssets::Utility {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
-    // Get instance field: private UnityEngine.ResourceManagement.ResourceManager m_ResourceManager
-    UnityEngine::ResourceManagement::ResourceManager* _get_m_ResourceManager();
-    // Set instance field: private UnityEngine.ResourceManagement.ResourceManager m_ResourceManager
-    void _set_m_ResourceManager(UnityEngine::ResourceManagement::ResourceManager* value);
-    // Get instance field: private System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.AddressableAssets.Utility.DiagnosticInfo> m_cachedDiagnosticInfo
-    System::Collections::Generic::Dictionary_2<int, UnityEngine::AddressableAssets::Utility::DiagnosticInfo*>* _get_m_cachedDiagnosticInfo();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.AddressableAssets.Utility.DiagnosticInfo> m_cachedDiagnosticInfo
-    void _set_m_cachedDiagnosticInfo(System::Collections::Generic::Dictionary_2<int, UnityEngine::AddressableAssets::Utility::DiagnosticInfo*>* value);
+    // Get instance field reference: private UnityEngine.ResourceManagement.ResourceManager m_ResourceManager
+    UnityEngine::ResourceManagement::ResourceManager*& dyn_m_ResourceManager();
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.AddressableAssets.Utility.DiagnosticInfo> m_cachedDiagnosticInfo
+    System::Collections::Generic::Dictionary_2<int, UnityEngine::AddressableAssets::Utility::DiagnosticInfo*>*& dyn_m_cachedDiagnosticInfo();
     // public System.Void .ctor(UnityEngine.ResourceManagement.ResourceManager resourceManager)
     // Offset: 0x23E8358
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -55,18 +55,12 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static ::Array<uint8_t>* _get_RoundConstants();
     // Set static field: static private readonly System.Byte[] RoundConstants
     static void _set_RoundConstants(::Array<uint8_t>* value);
-    // Get instance field: private readonly System.UInt32[] k
-    ::Array<uint>* _get_k();
-    // Set instance field: private readonly System.UInt32[] k
-    void _set_k(::Array<uint>* value);
-    // Get instance field: private System.Boolean _initialised
-    bool _get__initialised();
-    // Set instance field: private System.Boolean _initialised
-    void _set__initialised(bool value);
-    // Get instance field: private System.Boolean _forEncryption
-    bool _get__forEncryption();
-    // Set instance field: private System.Boolean _forEncryption
-    void _set__forEncryption(bool value);
+    // Get instance field reference: private readonly System.UInt32[] k
+    ::Array<uint>*& dyn_k();
+    // Get instance field reference: private System.Boolean _initialised
+    bool& dyn__initialised();
+    // Get instance field reference: private System.Boolean _forEncryption
+    bool& dyn__forEncryption();
     // public System.String get_AlgorithmName()
     // Offset: 0x1E765CC
     ::Il2CppString* get_AlgorithmName();

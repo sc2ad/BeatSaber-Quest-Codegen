@@ -51,14 +51,10 @@ namespace Zenject {
     static_assert(sizeof(Zenject::PrefabResourceBindingFinalizer::$$c__DisplayClass5_0*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass5_1
     $$c__DisplayClass5_1(Zenject::PrefabInstantiatorCached* prefabCreator_ = {}, Zenject::PrefabResourceBindingFinalizer::$$c__DisplayClass5_0* CS$$$8__locals1_ = {}) noexcept : prefabCreator{prefabCreator_}, CS$$$8__locals1{CS$$$8__locals1_} {}
-    // Get instance field: public Zenject.PrefabInstantiatorCached prefabCreator
-    Zenject::PrefabInstantiatorCached* _get_prefabCreator();
-    // Set instance field: public Zenject.PrefabInstantiatorCached prefabCreator
-    void _set_prefabCreator(Zenject::PrefabInstantiatorCached* value);
-    // Get instance field: public Zenject.PrefabResourceBindingFinalizer/Zenject.<>c__DisplayClass5_0 CS$<>8__locals1
-    Zenject::PrefabResourceBindingFinalizer::$$c__DisplayClass5_0* _get_CS$$$8__locals1();
-    // Set instance field: public Zenject.PrefabResourceBindingFinalizer/Zenject.<>c__DisplayClass5_0 CS$<>8__locals1
-    void _set_CS$$$8__locals1(Zenject::PrefabResourceBindingFinalizer::$$c__DisplayClass5_0* value);
+    // Get instance field reference: public Zenject.PrefabInstantiatorCached prefabCreator
+    Zenject::PrefabInstantiatorCached*& dyn_prefabCreator();
+    // Get instance field reference: public Zenject.PrefabResourceBindingFinalizer/Zenject.<>c__DisplayClass5_0 CS$<>8__locals1
+    Zenject::PrefabResourceBindingFinalizer::$$c__DisplayClass5_0*& dyn_CS$$$8__locals1();
     // Zenject.IProvider <FinalizeBindingConcrete>b__1(Zenject.DiContainer _, System.Type concreteType)
     // Offset: 0x1717508
     Zenject::IProvider* $FinalizeBindingConcrete$b__1(Zenject::DiContainer* _, System::Type* concreteType);

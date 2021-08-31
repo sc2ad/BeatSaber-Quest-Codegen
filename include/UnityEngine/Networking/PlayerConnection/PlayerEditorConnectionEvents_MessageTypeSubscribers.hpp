@@ -49,18 +49,12 @@ namespace UnityEngine::Networking::PlayerConnection {
     static_assert(sizeof(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageEvent*) == 0x8);
     // Creating value type constructor for type: MessageTypeSubscribers
     MessageTypeSubscribers(::Il2CppString* m_messageTypeId_ = {}, int subscriberCount_ = {}, UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageEvent* messageCallback_ = {}) noexcept : m_messageTypeId{m_messageTypeId_}, subscriberCount{subscriberCount_}, messageCallback{messageCallback_} {}
-    // Get instance field: private System.String m_messageTypeId
-    ::Il2CppString* _get_m_messageTypeId();
-    // Set instance field: private System.String m_messageTypeId
-    void _set_m_messageTypeId(::Il2CppString* value);
-    // Get instance field: public System.Int32 subscriberCount
-    int _get_subscriberCount();
-    // Set instance field: public System.Int32 subscriberCount
-    void _set_subscriberCount(int value);
-    // Get instance field: public UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/UnityEngine.Networking.PlayerConnection.MessageEvent messageCallback
-    UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageEvent* _get_messageCallback();
-    // Set instance field: public UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/UnityEngine.Networking.PlayerConnection.MessageEvent messageCallback
-    void _set_messageCallback(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageEvent* value);
+    // Get instance field reference: private System.String m_messageTypeId
+    ::Il2CppString*& dyn_m_messageTypeId();
+    // Get instance field reference: public System.Int32 subscriberCount
+    int& dyn_subscriberCount();
+    // Get instance field reference: public UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/UnityEngine.Networking.PlayerConnection.MessageEvent messageCallback
+    UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageEvent*& dyn_messageCallback();
     // public System.Guid get_MessageTypeId()
     // Offset: 0x1D08B94
     System::Guid get_MessageTypeId();

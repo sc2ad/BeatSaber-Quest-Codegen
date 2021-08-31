@@ -34,10 +34,8 @@ namespace System::Reflection {
     constexpr operator bool() const noexcept {
       return m_delaySign;
     }
-    // Get instance field: private System.Boolean m_delaySign
-    bool _get_m_delaySign();
-    // Set instance field: private System.Boolean m_delaySign
-    void _set_m_delaySign(bool value);
+    // Get instance field reference: private System.Boolean m_delaySign
+    bool& dyn_m_delaySign();
     // public System.Void .ctor(System.Boolean delaySign)
     // Offset: 0x1D132C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

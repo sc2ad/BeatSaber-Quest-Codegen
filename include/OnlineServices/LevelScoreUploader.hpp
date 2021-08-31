@@ -99,30 +99,18 @@ namespace OnlineServices {
     static int _get_kMaxUploadAttempts();
     // Set static field: static private System.Int32 kMaxUploadAttempts
     static void _set_kMaxUploadAttempts(int value);
-    // Get instance field: private System.Action`1<System.String> scoreForLeaderboardDidUploadEvent
-    System::Action_1<::Il2CppString*>* _get_scoreForLeaderboardDidUploadEvent();
-    // Set instance field: private System.Action`1<System.String> scoreForLeaderboardDidUploadEvent
-    void _set_scoreForLeaderboardDidUploadEvent(System::Action_1<::Il2CppString*>* value);
-    // Get instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    System::Threading::CancellationTokenSource* _get__cancellationTokenSource();
-    // Set instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    void _set__cancellationTokenSource(System::Threading::CancellationTokenSource* value);
-    // Get instance field: private HTTPLeaderboardsModel _leaderboardsModel
-    GlobalNamespace::HTTPLeaderboardsModel* _get__leaderboardsModel();
-    // Set instance field: private HTTPLeaderboardsModel _leaderboardsModel
-    void _set__leaderboardsModel(GlobalNamespace::HTTPLeaderboardsModel* value);
-    // Get instance field: private System.Collections.Generic.List`1<OnlineServices.LevelScoreUploader/OnlineServices.LevelScoreResultsDataUploadInfo> _unsuccessfullySentLevelScoreResultsDataUploadInfos
-    System::Collections::Generic::List_1<OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*>* _get__unsuccessfullySentLevelScoreResultsDataUploadInfos();
-    // Set instance field: private System.Collections.Generic.List`1<OnlineServices.LevelScoreUploader/OnlineServices.LevelScoreResultsDataUploadInfo> _unsuccessfullySentLevelScoreResultsDataUploadInfos
-    void _set__unsuccessfullySentLevelScoreResultsDataUploadInfos(System::Collections::Generic::List_1<OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<OnlineServices.LevelScoreUploader/OnlineServices.LevelScoreResultsDataUploadInfo> _levelScoreResultsDataUploadInfos
-    System::Collections::Generic::List_1<OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*>* _get__levelScoreResultsDataUploadInfos();
-    // Set instance field: private System.Collections.Generic.List`1<OnlineServices.LevelScoreUploader/OnlineServices.LevelScoreResultsDataUploadInfo> _levelScoreResultsDataUploadInfos
-    void _set__levelScoreResultsDataUploadInfos(System::Collections::Generic::List_1<OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*>* value);
-    // Get instance field: private OnlineServices.PlatformOnlineServicesAvailabilityModel _platformOnlineServicesAvailabilityModel
-    OnlineServices::PlatformOnlineServicesAvailabilityModel* _get__platformOnlineServicesAvailabilityModel();
-    // Set instance field: private OnlineServices.PlatformOnlineServicesAvailabilityModel _platformOnlineServicesAvailabilityModel
-    void _set__platformOnlineServicesAvailabilityModel(OnlineServices::PlatformOnlineServicesAvailabilityModel* value);
+    // Get instance field reference: private System.Action`1<System.String> scoreForLeaderboardDidUploadEvent
+    System::Action_1<::Il2CppString*>*& dyn_scoreForLeaderboardDidUploadEvent();
+    // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
+    System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
+    // Get instance field reference: private HTTPLeaderboardsModel _leaderboardsModel
+    GlobalNamespace::HTTPLeaderboardsModel*& dyn__leaderboardsModel();
+    // Get instance field reference: private System.Collections.Generic.List`1<OnlineServices.LevelScoreUploader/OnlineServices.LevelScoreResultsDataUploadInfo> _unsuccessfullySentLevelScoreResultsDataUploadInfos
+    System::Collections::Generic::List_1<OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*>*& dyn__unsuccessfullySentLevelScoreResultsDataUploadInfos();
+    // Get instance field reference: private System.Collections.Generic.List`1<OnlineServices.LevelScoreUploader/OnlineServices.LevelScoreResultsDataUploadInfo> _levelScoreResultsDataUploadInfos
+    System::Collections::Generic::List_1<OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*>*& dyn__levelScoreResultsDataUploadInfos();
+    // Get instance field reference: private OnlineServices.PlatformOnlineServicesAvailabilityModel _platformOnlineServicesAvailabilityModel
+    OnlineServices::PlatformOnlineServicesAvailabilityModel*& dyn__platformOnlineServicesAvailabilityModel();
     // public System.Void add_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
     // Offset: 0x1029B5C
     void add_scoreForLeaderboardDidUploadEvent(System::Action_1<::Il2CppString*>* value);

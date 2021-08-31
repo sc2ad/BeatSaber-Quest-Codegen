@@ -96,34 +96,20 @@ namespace GlobalNamespace {
     MultiplayerLocalActiveClient(GlobalNamespace::PlayerTransforms* playerTransforms_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, GlobalNamespace::IScoreSyncStateManager* scoreSyncStateManager_ = {}, GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager_ = {}, GlobalNamespace::IGameplayRpcManager* rpcManager_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::IScoreController* scoreController_ = {}) noexcept : playerTransforms{playerTransforms_}, audioTimeSyncController{audioTimeSyncController_}, scoreSyncStateManager{scoreSyncStateManager_}, nodePoseSyncStateManager{nodePoseSyncStateManager_}, rpcManager{rpcManager_}, beatmapObjectManager{beatmapObjectManager_}, scoreController{scoreController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private readonly PlayerTransforms _playerTransforms
-    GlobalNamespace::PlayerTransforms* _get__playerTransforms();
-    // Set instance field: private readonly PlayerTransforms _playerTransforms
-    void _set__playerTransforms(GlobalNamespace::PlayerTransforms* value);
-    // Get instance field: private readonly AudioTimeSyncController _audioTimeSyncController
-    GlobalNamespace::AudioTimeSyncController* _get__audioTimeSyncController();
-    // Set instance field: private readonly AudioTimeSyncController _audioTimeSyncController
-    void _set__audioTimeSyncController(GlobalNamespace::AudioTimeSyncController* value);
-    // Get instance field: private readonly IScoreSyncStateManager _scoreSyncStateManager
-    GlobalNamespace::IScoreSyncStateManager* _get__scoreSyncStateManager();
-    // Set instance field: private readonly IScoreSyncStateManager _scoreSyncStateManager
-    void _set__scoreSyncStateManager(GlobalNamespace::IScoreSyncStateManager* value);
-    // Get instance field: private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
-    GlobalNamespace::INodePoseSyncStateManager* _get__nodePoseSyncStateManager();
-    // Set instance field: private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
-    void _set__nodePoseSyncStateManager(GlobalNamespace::INodePoseSyncStateManager* value);
-    // Get instance field: private readonly IGameplayRpcManager _rpcManager
-    GlobalNamespace::IGameplayRpcManager* _get__rpcManager();
-    // Set instance field: private readonly IGameplayRpcManager _rpcManager
-    void _set__rpcManager(GlobalNamespace::IGameplayRpcManager* value);
-    // Get instance field: private readonly BeatmapObjectManager _beatmapObjectManager
-    GlobalNamespace::BeatmapObjectManager* _get__beatmapObjectManager();
-    // Set instance field: private readonly BeatmapObjectManager _beatmapObjectManager
-    void _set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager* value);
-    // Get instance field: private readonly IScoreController _scoreController
-    GlobalNamespace::IScoreController* _get__scoreController();
-    // Set instance field: private readonly IScoreController _scoreController
-    void _set__scoreController(GlobalNamespace::IScoreController* value);
+    // Get instance field reference: private readonly PlayerTransforms _playerTransforms
+    GlobalNamespace::PlayerTransforms*& dyn__playerTransforms();
+    // Get instance field reference: private readonly AudioTimeSyncController _audioTimeSyncController
+    GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
+    // Get instance field reference: private readonly IScoreSyncStateManager _scoreSyncStateManager
+    GlobalNamespace::IScoreSyncStateManager*& dyn__scoreSyncStateManager();
+    // Get instance field reference: private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
+    GlobalNamespace::INodePoseSyncStateManager*& dyn__nodePoseSyncStateManager();
+    // Get instance field reference: private readonly IGameplayRpcManager _rpcManager
+    GlobalNamespace::IGameplayRpcManager*& dyn__rpcManager();
+    // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
+    GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
+    // Get instance field reference: private readonly IScoreController _scoreController
+    GlobalNamespace::IScoreController*& dyn__scoreController();
     // public BeatmapObjectManager get_beatmapObjectManager()
     // Offset: 0x1064CD0
     GlobalNamespace::BeatmapObjectManager* get_beatmapObjectManager();

@@ -36,14 +36,10 @@ namespace Mono::Security::Interface {
     static_assert(sizeof(Mono::Security::Interface::AlertDescription) == 0x1);
     // Creating value type constructor for type: Alert
     Alert(Mono::Security::Interface::AlertLevel level_ = {}, Mono::Security::Interface::AlertDescription description_ = {}) noexcept : level{level_}, description{description_} {}
-    // Get instance field: private Mono.Security.Interface.AlertLevel level
-    Mono::Security::Interface::AlertLevel _get_level();
-    // Set instance field: private Mono.Security.Interface.AlertLevel level
-    void _set_level(Mono::Security::Interface::AlertLevel value);
-    // Get instance field: private Mono.Security.Interface.AlertDescription description
-    Mono::Security::Interface::AlertDescription _get_description();
-    // Set instance field: private Mono.Security.Interface.AlertDescription description
-    void _set_description(Mono::Security::Interface::AlertDescription value);
+    // Get instance field reference: private Mono.Security.Interface.AlertLevel level
+    Mono::Security::Interface::AlertLevel& dyn_level();
+    // Get instance field reference: private Mono.Security.Interface.AlertDescription description
+    Mono::Security::Interface::AlertDescription& dyn_description();
     // public Mono.Security.Interface.AlertLevel get_Level()
     // Offset: 0x1E043B8
     Mono::Security::Interface::AlertLevel get_Level();

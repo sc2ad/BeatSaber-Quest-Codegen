@@ -44,18 +44,12 @@ namespace Zenject {
     static_assert(sizeof(Zenject::InjectSources) == 0x4);
     // Creating value type constructor for type: InjectAttributeBase
     InjectAttributeBase(bool Optional_ = {}, ::Il2CppObject* Id_ = {}, Zenject::InjectSources Source_ = {}) noexcept : Optional{Optional_}, Id{Id_}, Source{Source_} {}
-    // Get instance field: private System.Boolean <Optional>k__BackingField
-    bool _get_$Optional$k__BackingField();
-    // Set instance field: private System.Boolean <Optional>k__BackingField
-    void _set_$Optional$k__BackingField(bool value);
-    // Get instance field: private System.Object <Id>k__BackingField
-    ::Il2CppObject* _get_$Id$k__BackingField();
-    // Set instance field: private System.Object <Id>k__BackingField
-    void _set_$Id$k__BackingField(::Il2CppObject* value);
-    // Get instance field: private Zenject.InjectSources <Source>k__BackingField
-    Zenject::InjectSources _get_$Source$k__BackingField();
-    // Set instance field: private Zenject.InjectSources <Source>k__BackingField
-    void _set_$Source$k__BackingField(Zenject::InjectSources value);
+    // Get instance field reference: private System.Boolean <Optional>k__BackingField
+    bool& dyn_$Optional$k__BackingField();
+    // Get instance field reference: private System.Object <Id>k__BackingField
+    ::Il2CppObject*& dyn_$Id$k__BackingField();
+    // Get instance field reference: private Zenject.InjectSources <Source>k__BackingField
+    Zenject::InjectSources& dyn_$Source$k__BackingField();
     // public System.Boolean get_Optional()
     // Offset: 0x2408AC0
     bool get_Optional();

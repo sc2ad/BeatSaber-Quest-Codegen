@@ -102,42 +102,24 @@ namespace Org::BouncyCastle::Crypto::Modes {
     static int _get_BlockSize();
     // Set static field: static private readonly System.Int32 BlockSize
     static void _set_BlockSize(int value);
-    // Get instance field: private readonly Org.BouncyCastle.Crypto.IBlockCipher cipher
-    Org::BouncyCastle::Crypto::IBlockCipher* _get_cipher();
-    // Set instance field: private readonly Org.BouncyCastle.Crypto.IBlockCipher cipher
-    void _set_cipher(Org::BouncyCastle::Crypto::IBlockCipher* value);
-    // Get instance field: private readonly System.Byte[] macBlock
-    ::Array<uint8_t>* _get_macBlock();
-    // Set instance field: private readonly System.Byte[] macBlock
-    void _set_macBlock(::Array<uint8_t>* value);
-    // Get instance field: private System.Boolean forEncryption
-    bool _get_forEncryption();
-    // Set instance field: private System.Boolean forEncryption
-    void _set_forEncryption(bool value);
-    // Get instance field: private System.Byte[] nonce
-    ::Array<uint8_t>* _get_nonce();
-    // Set instance field: private System.Byte[] nonce
-    void _set_nonce(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] initialAssociatedText
-    ::Array<uint8_t>* _get_initialAssociatedText();
-    // Set instance field: private System.Byte[] initialAssociatedText
-    void _set_initialAssociatedText(::Array<uint8_t>* value);
-    // Get instance field: private System.Int32 macSize
-    int _get_macSize();
-    // Set instance field: private System.Int32 macSize
-    void _set_macSize(int value);
-    // Get instance field: private Org.BouncyCastle.Crypto.ICipherParameters keyParam
-    Org::BouncyCastle::Crypto::ICipherParameters* _get_keyParam();
-    // Set instance field: private Org.BouncyCastle.Crypto.ICipherParameters keyParam
-    void _set_keyParam(Org::BouncyCastle::Crypto::ICipherParameters* value);
-    // Get instance field: private readonly System.IO.MemoryStream associatedText
-    System::IO::MemoryStream* _get_associatedText();
-    // Set instance field: private readonly System.IO.MemoryStream associatedText
-    void _set_associatedText(System::IO::MemoryStream* value);
-    // Get instance field: private readonly System.IO.MemoryStream data
-    System::IO::MemoryStream* _get_data();
-    // Set instance field: private readonly System.IO.MemoryStream data
-    void _set_data(System::IO::MemoryStream* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IBlockCipher cipher
+    Org::BouncyCastle::Crypto::IBlockCipher*& dyn_cipher();
+    // Get instance field reference: private readonly System.Byte[] macBlock
+    ::Array<uint8_t>*& dyn_macBlock();
+    // Get instance field reference: private System.Boolean forEncryption
+    bool& dyn_forEncryption();
+    // Get instance field reference: private System.Byte[] nonce
+    ::Array<uint8_t>*& dyn_nonce();
+    // Get instance field reference: private System.Byte[] initialAssociatedText
+    ::Array<uint8_t>*& dyn_initialAssociatedText();
+    // Get instance field reference: private System.Int32 macSize
+    int& dyn_macSize();
+    // Get instance field reference: private Org.BouncyCastle.Crypto.ICipherParameters keyParam
+    Org::BouncyCastle::Crypto::ICipherParameters*& dyn_keyParam();
+    // Get instance field reference: private readonly System.IO.MemoryStream associatedText
+    System::IO::MemoryStream*& dyn_associatedText();
+    // Get instance field reference: private readonly System.IO.MemoryStream data
+    System::IO::MemoryStream*& dyn_data();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher)
     // Offset: 0x1912BB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

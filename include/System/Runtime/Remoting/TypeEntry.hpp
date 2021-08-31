@@ -33,14 +33,10 @@ namespace System::Runtime::Remoting {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: TypeEntry
     TypeEntry(::Il2CppString* assembly_name_ = {}, ::Il2CppString* type_name_ = {}) noexcept : assembly_name{assembly_name_}, type_name{type_name_} {}
-    // Get instance field: private System.String assembly_name
-    ::Il2CppString* _get_assembly_name();
-    // Set instance field: private System.String assembly_name
-    void _set_assembly_name(::Il2CppString* value);
-    // Get instance field: private System.String type_name
-    ::Il2CppString* _get_type_name();
-    // Set instance field: private System.String type_name
-    void _set_type_name(::Il2CppString* value);
+    // Get instance field reference: private System.String assembly_name
+    ::Il2CppString*& dyn_assembly_name();
+    // Get instance field reference: private System.String type_name
+    ::Il2CppString*& dyn_type_name();
     // public System.String get_AssemblyName()
     // Offset: 0x160EDC4
     ::Il2CppString* get_AssemblyName();

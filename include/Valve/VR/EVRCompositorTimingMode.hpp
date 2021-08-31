@@ -50,10 +50,8 @@ namespace Valve::VR {
     static Valve::VR::EVRCompositorTimingMode _get_Explicit_ApplicationPerformsPostPresentHandoff();
     // Set static field: static public Valve.VR.EVRCompositorTimingMode Explicit_ApplicationPerformsPostPresentHandoff
     static void _set_Explicit_ApplicationPerformsPostPresentHandoff(Valve::VR::EVRCompositorTimingMode value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Valve.VR.EVRCompositorTimingMode
   #pragma pack(pop)
   static check_size<sizeof(EVRCompositorTimingMode), 0 + sizeof(int)> __Valve_VR_EVRCompositorTimingModeSizeCheck;

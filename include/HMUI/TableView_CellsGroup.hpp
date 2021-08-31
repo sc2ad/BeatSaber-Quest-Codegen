@@ -47,14 +47,10 @@ namespace HMUI {
     static_assert(sizeof(System::Collections::Generic::List_1<HMUI::TableCell*>*) == 0x8);
     // Creating value type constructor for type: CellsGroup
     CellsGroup(::Il2CppString* reuseIdentifier_ = {}, System::Collections::Generic::List_1<HMUI::TableCell*>* cells_ = {}) noexcept : reuseIdentifier{reuseIdentifier_}, cells{cells_} {}
-    // Get instance field: private System.String _reuseIdentifier
-    ::Il2CppString* _get__reuseIdentifier();
-    // Set instance field: private System.String _reuseIdentifier
-    void _set__reuseIdentifier(::Il2CppString* value);
-    // Get instance field: private System.Collections.Generic.List`1<HMUI.TableCell> _cells
-    System::Collections::Generic::List_1<HMUI::TableCell*>* _get__cells();
-    // Set instance field: private System.Collections.Generic.List`1<HMUI.TableCell> _cells
-    void _set__cells(System::Collections::Generic::List_1<HMUI::TableCell*>* value);
+    // Get instance field reference: private System.String _reuseIdentifier
+    ::Il2CppString*& dyn__reuseIdentifier();
+    // Get instance field reference: private System.Collections.Generic.List`1<HMUI.TableCell> _cells
+    System::Collections::Generic::List_1<HMUI::TableCell*>*& dyn__cells();
     // public System.String get_reuseIdentifier()
     // Offset: 0x1305DBC
     ::Il2CppString* get_reuseIdentifier();

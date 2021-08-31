@@ -46,14 +46,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
     // Creating value type constructor for type: SimpleTextWithIconTableCell
     SimpleTextWithIconTableCell(TMPro::TextMeshProUGUI* text_ = {}, UnityEngine::UI::Image* icon_ = {}) noexcept : text{text_}, icon{icon_} {}
-    // Get instance field: private TMPro.TextMeshProUGUI _text
-    TMPro::TextMeshProUGUI* _get__text();
-    // Set instance field: private TMPro.TextMeshProUGUI _text
-    void _set__text(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private UnityEngine.UI.Image _icon
-    UnityEngine::UI::Image* _get__icon();
-    // Set instance field: private UnityEngine.UI.Image _icon
-    void _set__icon(UnityEngine::UI::Image* value);
+    // Get instance field reference: private TMPro.TextMeshProUGUI _text
+    TMPro::TextMeshProUGUI*& dyn__text();
+    // Get instance field reference: private UnityEngine.UI.Image _icon
+    UnityEngine::UI::Image*& dyn__icon();
     // public UnityEngine.UI.Image get_icon()
     // Offset: 0x23B4F9C
     UnityEngine::UI::Image* get_icon();

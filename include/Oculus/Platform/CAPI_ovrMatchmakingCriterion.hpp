@@ -59,22 +59,14 @@ namespace Oculus::Platform {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.String key_
-    ::Il2CppString* _get_key_();
-    // Set instance field: public System.String key_
-    void _set_key_(::Il2CppString* value);
-    // Get instance field: public Oculus.Platform.MatchmakingCriterionImportance importance_
-    Oculus::Platform::MatchmakingCriterionImportance _get_importance_();
-    // Set instance field: public Oculus.Platform.MatchmakingCriterionImportance importance_
-    void _set_importance_(Oculus::Platform::MatchmakingCriterionImportance value);
-    // Get instance field: public System.IntPtr parameterArray
-    System::IntPtr _get_parameterArray();
-    // Set instance field: public System.IntPtr parameterArray
-    void _set_parameterArray(System::IntPtr value);
-    // Get instance field: public System.UInt32 parameterArrayCount
-    uint _get_parameterArrayCount();
-    // Set instance field: public System.UInt32 parameterArrayCount
-    void _set_parameterArrayCount(uint value);
+    // Get instance field reference: public System.String key_
+    ::Il2CppString*& dyn_key_();
+    // Get instance field reference: public Oculus.Platform.MatchmakingCriterionImportance importance_
+    Oculus::Platform::MatchmakingCriterionImportance& dyn_importance_();
+    // Get instance field reference: public System.IntPtr parameterArray
+    System::IntPtr& dyn_parameterArray();
+    // Get instance field reference: public System.UInt32 parameterArrayCount
+    uint& dyn_parameterArrayCount();
     // public System.Void .ctor(System.String key, Oculus.Platform.MatchmakingCriterionImportance importance)
     // Offset: 0x14DBAB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

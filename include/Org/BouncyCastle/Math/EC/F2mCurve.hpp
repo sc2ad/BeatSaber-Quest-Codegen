@@ -80,26 +80,16 @@ namespace Org::BouncyCastle::Math::EC {
     F2mCurve(int m_ = {}, int k1_ = {}, int k2_ = {}, int k3_ = {}, Org::BouncyCastle::Math::EC::F2mPoint* m_infinity_ = {}) noexcept : m{m_}, k1{k1_}, k2{k2_}, k3{k3_}, m_infinity{m_infinity_} {}
     // Deleting conversion operator: operator ::Array<Org::BouncyCastle::Math::BigInteger*>*
     constexpr operator ::Array<Org::BouncyCastle::Math::BigInteger*>*() const noexcept = delete;
-    // Get instance field: private readonly System.Int32 m
-    int _get_m();
-    // Set instance field: private readonly System.Int32 m
-    void _set_m(int value);
-    // Get instance field: private readonly System.Int32 k1
-    int _get_k1();
-    // Set instance field: private readonly System.Int32 k1
-    void _set_k1(int value);
-    // Get instance field: private readonly System.Int32 k2
-    int _get_k2();
-    // Set instance field: private readonly System.Int32 k2
-    void _set_k2(int value);
-    // Get instance field: private readonly System.Int32 k3
-    int _get_k3();
-    // Set instance field: private readonly System.Int32 k3
-    void _set_k3(int value);
-    // Get instance field: protected readonly Org.BouncyCastle.Math.EC.F2mPoint m_infinity
-    Org::BouncyCastle::Math::EC::F2mPoint* _get_m_infinity();
-    // Set instance field: protected readonly Org.BouncyCastle.Math.EC.F2mPoint m_infinity
-    void _set_m_infinity(Org::BouncyCastle::Math::EC::F2mPoint* value);
+    // Get instance field reference: private readonly System.Int32 m
+    int& dyn_m();
+    // Get instance field reference: private readonly System.Int32 k1
+    int& dyn_k1();
+    // Get instance field reference: private readonly System.Int32 k2
+    int& dyn_k2();
+    // Get instance field reference: private readonly System.Int32 k3
+    int& dyn_k3();
+    // Get instance field reference: protected readonly Org.BouncyCastle.Math.EC.F2mPoint m_infinity
+    Org::BouncyCastle::Math::EC::F2mPoint*& dyn_m_infinity();
     // public System.Void .ctor(System.Int32 m, System.Int32 k, Org.BouncyCastle.Math.BigInteger a, Org.BouncyCastle.Math.BigInteger b, Org.BouncyCastle.Math.BigInteger order, Org.BouncyCastle.Math.BigInteger cofactor)
     // Offset: 0x2146334
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

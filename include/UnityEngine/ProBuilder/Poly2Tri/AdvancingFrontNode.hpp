@@ -59,26 +59,16 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     static_assert(sizeof(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*) == 0x8);
     // Creating value type constructor for type: AdvancingFrontNode
     AdvancingFrontNode(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Next_ = {}, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Prev_ = {}, double Value_ = {}, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* Point_ = {}, UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* Triangle_ = {}) noexcept : Next{Next_}, Prev{Prev_}, Value{Value_}, Point{Point_}, Triangle{Triangle_} {}
-    // Get instance field: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode Next
-    UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* _get_Next();
-    // Set instance field: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode Next
-    void _set_Next(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
-    // Get instance field: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode Prev
-    UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* _get_Prev();
-    // Set instance field: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode Prev
-    void _set_Prev(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
-    // Get instance field: public System.Double Value
-    double _get_Value();
-    // Set instance field: public System.Double Value
-    void _set_Value(double value);
-    // Get instance field: public UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint Point
-    UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* _get_Point();
-    // Set instance field: public UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint Point
-    void _set_Point(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
-    // Get instance field: public UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle Triangle
-    UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* _get_Triangle();
-    // Set instance field: public UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle Triangle
-    void _set_Triangle(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* value);
+    // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode Next
+    UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& dyn_Next();
+    // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode Prev
+    UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& dyn_Prev();
+    // Get instance field reference: public System.Double Value
+    double& dyn_Value();
+    // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint Point
+    UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& dyn_Point();
+    // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle Triangle
+    UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*& dyn_Triangle();
     // public System.Boolean get_HasNext()
     // Offset: 0x23BE414
     bool get_HasNext();

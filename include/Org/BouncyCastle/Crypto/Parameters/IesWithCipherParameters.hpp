@@ -28,10 +28,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     constexpr operator int() const noexcept {
       return cipherKeySize;
     }
-    // Get instance field: private System.Int32 cipherKeySize
-    int _get_cipherKeySize();
-    // Set instance field: private System.Int32 cipherKeySize
-    void _set_cipherKeySize(int value);
+    // Get instance field reference: private System.Int32 cipherKeySize
+    int& dyn_cipherKeySize();
     // public System.Int32 get_CipherKeySize()
     // Offset: 0x1275F04
     int get_CipherKeySize();

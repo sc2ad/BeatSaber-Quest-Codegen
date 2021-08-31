@@ -40,18 +40,12 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     static_assert(sizeof(::Array<uint>*) == 0x8);
     // Creating value type constructor for type: PointExt
     PointExt(::Array<uint>* x_ = {}, ::Array<uint>* y_ = {}, ::Array<uint>* z_ = {}) noexcept : x{x_}, y{y_}, z{z_} {}
-    // Get instance field: System.UInt32[] x
-    ::Array<uint>* _get_x();
-    // Set instance field: System.UInt32[] x
-    void _set_x(::Array<uint>* value);
-    // Get instance field: System.UInt32[] y
-    ::Array<uint>* _get_y();
-    // Set instance field: System.UInt32[] y
-    void _set_y(::Array<uint>* value);
-    // Get instance field: System.UInt32[] z
-    ::Array<uint>* _get_z();
-    // Set instance field: System.UInt32[] z
-    void _set_z(::Array<uint>* value);
+    // Get instance field reference: System.UInt32[] x
+    ::Array<uint>*& dyn_x();
+    // Get instance field reference: System.UInt32[] y
+    ::Array<uint>*& dyn_y();
+    // Get instance field reference: System.UInt32[] z
+    ::Array<uint>*& dyn_z();
     // public System.Void .ctor()
     // Offset: 0x1DD5A00
     // Implemented from: System.Object

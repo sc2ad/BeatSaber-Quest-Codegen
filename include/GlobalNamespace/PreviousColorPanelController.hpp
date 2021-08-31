@@ -90,30 +90,18 @@ namespace GlobalNamespace {
     static int _get_kMaxColors();
     // Set static field: static private System.Int32 kMaxColors
     static void _set_kMaxColors(int value);
-    // Get instance field: private UnityEngine.UI.Graphic[] _graphics
-    ::Array<UnityEngine::UI::Graphic*>* _get__graphics();
-    // Set instance field: private UnityEngine.UI.Graphic[] _graphics
-    void _set__graphics(::Array<UnityEngine::UI::Graphic*>* value);
-    // Get instance field: private UnityEngine.UI.Button _button
-    UnityEngine::UI::Button* _get__button();
-    // Set instance field: private UnityEngine.UI.Button _button
-    void _set__button(UnityEngine::UI::Button* value);
-    // Get instance field: private System.Action`1<UnityEngine.Color> colorWasSelectedEvent
-    System::Action_1<UnityEngine::Color>* _get_colorWasSelectedEvent();
-    // Set instance field: private System.Action`1<UnityEngine.Color> colorWasSelectedEvent
-    void _set_colorWasSelectedEvent(System::Action_1<UnityEngine::Color>* value);
-    // Get instance field: private HMUI.ButtonBinder _buttonBinder
-    HMUI::ButtonBinder* _get__buttonBinder();
-    // Set instance field: private HMUI.ButtonBinder _buttonBinder
-    void _set__buttonBinder(HMUI::ButtonBinder* value);
-    // Get instance field: private UnityEngine.Color _color
-    UnityEngine::Color _get__color();
-    // Set instance field: private UnityEngine.Color _color
-    void _set__color(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _graphicsColor
-    UnityEngine::Color _get__graphicsColor();
-    // Set instance field: private UnityEngine.Color _graphicsColor
-    void _set__graphicsColor(UnityEngine::Color value);
+    // Get instance field reference: private UnityEngine.UI.Graphic[] _graphics
+    ::Array<UnityEngine::UI::Graphic*>*& dyn__graphics();
+    // Get instance field reference: private UnityEngine.UI.Button _button
+    UnityEngine::UI::Button*& dyn__button();
+    // Get instance field reference: private System.Action`1<UnityEngine.Color> colorWasSelectedEvent
+    System::Action_1<UnityEngine::Color>*& dyn_colorWasSelectedEvent();
+    // Get instance field reference: private HMUI.ButtonBinder _buttonBinder
+    HMUI::ButtonBinder*& dyn__buttonBinder();
+    // Get instance field reference: private UnityEngine.Color _color
+    UnityEngine::Color& dyn__color();
+    // Get instance field reference: private UnityEngine.Color _graphicsColor
+    UnityEngine::Color& dyn__graphicsColor();
     // public System.Void add_colorWasSelectedEvent(System.Action`1<UnityEngine.Color> value)
     // Offset: 0x113FE1C
     void add_colorWasSelectedEvent(System::Action_1<UnityEngine::Color>* value);

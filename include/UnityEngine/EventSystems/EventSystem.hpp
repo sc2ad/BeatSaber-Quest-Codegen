@@ -122,42 +122,24 @@ namespace UnityEngine::EventSystems {
     static System::Comparison_1<UnityEngine::EventSystems::RaycastResult>* _get_s_RaycastComparer();
     // Set static field: static private readonly System.Comparison`1<UnityEngine.EventSystems.RaycastResult> s_RaycastComparer
     static void _set_s_RaycastComparer(System::Comparison_1<UnityEngine::EventSystems::RaycastResult>* value);
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule> m_SystemInputModules
-    System::Collections::Generic::List_1<UnityEngine::EventSystems::BaseInputModule*>* _get_m_SystemInputModules();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule> m_SystemInputModules
-    void _set_m_SystemInputModules(System::Collections::Generic::List_1<UnityEngine::EventSystems::BaseInputModule*>* value);
-    // Get instance field: private UnityEngine.EventSystems.BaseInputModule m_CurrentInputModule
-    UnityEngine::EventSystems::BaseInputModule* _get_m_CurrentInputModule();
-    // Set instance field: private UnityEngine.EventSystems.BaseInputModule m_CurrentInputModule
-    void _set_m_CurrentInputModule(UnityEngine::EventSystems::BaseInputModule* value);
-    // Get instance field: private UnityEngine.GameObject m_FirstSelected
-    UnityEngine::GameObject* _get_m_FirstSelected();
-    // Set instance field: private UnityEngine.GameObject m_FirstSelected
-    void _set_m_FirstSelected(UnityEngine::GameObject* value);
-    // Get instance field: private System.Boolean m_sendNavigationEvents
-    bool _get_m_sendNavigationEvents();
-    // Set instance field: private System.Boolean m_sendNavigationEvents
-    void _set_m_sendNavigationEvents(bool value);
-    // Get instance field: private System.Int32 m_DragThreshold
-    int _get_m_DragThreshold();
-    // Set instance field: private System.Int32 m_DragThreshold
-    void _set_m_DragThreshold(int value);
-    // Get instance field: private UnityEngine.GameObject m_CurrentSelected
-    UnityEngine::GameObject* _get_m_CurrentSelected();
-    // Set instance field: private UnityEngine.GameObject m_CurrentSelected
-    void _set_m_CurrentSelected(UnityEngine::GameObject* value);
-    // Get instance field: private System.Boolean m_HasFocus
-    bool _get_m_HasFocus();
-    // Set instance field: private System.Boolean m_HasFocus
-    void _set_m_HasFocus(bool value);
-    // Get instance field: private System.Boolean m_SelectionGuard
-    bool _get_m_SelectionGuard();
-    // Set instance field: private System.Boolean m_SelectionGuard
-    void _set_m_SelectionGuard(bool value);
-    // Get instance field: private UnityEngine.EventSystems.BaseEventData m_DummyData
-    UnityEngine::EventSystems::BaseEventData* _get_m_DummyData();
-    // Set instance field: private UnityEngine.EventSystems.BaseEventData m_DummyData
-    void _set_m_DummyData(UnityEngine::EventSystems::BaseEventData* value);
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule> m_SystemInputModules
+    System::Collections::Generic::List_1<UnityEngine::EventSystems::BaseInputModule*>*& dyn_m_SystemInputModules();
+    // Get instance field reference: private UnityEngine.EventSystems.BaseInputModule m_CurrentInputModule
+    UnityEngine::EventSystems::BaseInputModule*& dyn_m_CurrentInputModule();
+    // Get instance field reference: private UnityEngine.GameObject m_FirstSelected
+    UnityEngine::GameObject*& dyn_m_FirstSelected();
+    // Get instance field reference: private System.Boolean m_sendNavigationEvents
+    bool& dyn_m_sendNavigationEvents();
+    // Get instance field reference: private System.Int32 m_DragThreshold
+    int& dyn_m_DragThreshold();
+    // Get instance field reference: private UnityEngine.GameObject m_CurrentSelected
+    UnityEngine::GameObject*& dyn_m_CurrentSelected();
+    // Get instance field reference: private System.Boolean m_HasFocus
+    bool& dyn_m_HasFocus();
+    // Get instance field reference: private System.Boolean m_SelectionGuard
+    bool& dyn_m_SelectionGuard();
+    // Get instance field reference: private UnityEngine.EventSystems.BaseEventData m_DummyData
+    UnityEngine::EventSystems::BaseEventData*& dyn_m_DummyData();
     // static public UnityEngine.EventSystems.EventSystem get_current()
     // Offset: 0x146768C
     static UnityEngine::EventSystems::EventSystem* get_current();

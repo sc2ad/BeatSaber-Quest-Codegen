@@ -59,10 +59,8 @@ namespace GlobalNamespace {
     constexpr operator ::Il2CppString*() const noexcept {
       return secret;
     }
-    // Get instance field: public System.String secret
-    ::Il2CppString* _get_secret();
-    // Set instance field: public System.String secret
-    void _set_secret(::Il2CppString* value);
+    // Get instance field reference: public System.String secret
+    ::Il2CppString*& dyn_secret();
     // static public PacketPool`1<PartyMessageHandler/ConnectToMasterServerMessage> get_pool()
     // Offset: 0x16F2D50
     static GlobalNamespace::PacketPool_1<GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage*>* get_pool();

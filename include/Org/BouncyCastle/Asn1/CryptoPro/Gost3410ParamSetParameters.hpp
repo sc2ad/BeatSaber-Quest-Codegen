@@ -62,22 +62,14 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerInteger*) == 0x8);
     // Creating value type constructor for type: Gost3410ParamSetParameters
     Gost3410ParamSetParameters(int keySize_ = {}, Org::BouncyCastle::Asn1::DerInteger* p_ = {}, Org::BouncyCastle::Asn1::DerInteger* q_ = {}, Org::BouncyCastle::Asn1::DerInteger* a_ = {}) noexcept : keySize{keySize_}, p{p_}, q{q_}, a{a_} {}
-    // Get instance field: private readonly System.Int32 keySize
-    int _get_keySize();
-    // Set instance field: private readonly System.Int32 keySize
-    void _set_keySize(int value);
-    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerInteger p
-    Org::BouncyCastle::Asn1::DerInteger* _get_p();
-    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerInteger p
-    void _set_p(Org::BouncyCastle::Asn1::DerInteger* value);
-    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerInteger q
-    Org::BouncyCastle::Asn1::DerInteger* _get_q();
-    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerInteger q
-    void _set_q(Org::BouncyCastle::Asn1::DerInteger* value);
-    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerInteger a
-    Org::BouncyCastle::Asn1::DerInteger* _get_a();
-    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerInteger a
-    void _set_a(Org::BouncyCastle::Asn1::DerInteger* value);
+    // Get instance field reference: private readonly System.Int32 keySize
+    int& dyn_keySize();
+    // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerInteger p
+    Org::BouncyCastle::Asn1::DerInteger*& dyn_p();
+    // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerInteger q
+    Org::BouncyCastle::Asn1::DerInteger*& dyn_q();
+    // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerInteger a
+    Org::BouncyCastle::Asn1::DerInteger*& dyn_a();
     // public Org.BouncyCastle.Math.BigInteger get_P()
     // Offset: 0x17342E8
     Org::BouncyCastle::Math::BigInteger* get_P();

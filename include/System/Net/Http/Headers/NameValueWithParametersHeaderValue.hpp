@@ -50,10 +50,8 @@ namespace System::Net::Http::Headers {
     constexpr operator System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>*() const noexcept {
       return parameters;
     }
-    // Get instance field: private System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> parameters
-    System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>* _get_parameters();
-    // Set instance field: private System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> parameters
-    void _set_parameters(System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>* value);
+    // Get instance field reference: private System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> parameters
+    System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>*& dyn_parameters();
     // public System.Collections.Generic.ICollection`1<System.Net.Http.Headers.NameValueHeaderValue> get_Parameters()
     // Offset: 0x15A5578
     System::Collections::Generic::ICollection_1<System::Net::Http::Headers::NameValueHeaderValue*>* get_Parameters();

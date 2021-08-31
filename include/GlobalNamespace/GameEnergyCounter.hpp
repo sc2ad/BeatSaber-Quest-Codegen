@@ -187,90 +187,48 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Single _badNoteEnergyDrain
-    float _get__badNoteEnergyDrain();
-    // Set instance field: private System.Single _badNoteEnergyDrain
-    void _set__badNoteEnergyDrain(float value);
-    // Get instance field: private System.Single _missNoteEnergyDrain
-    float _get__missNoteEnergyDrain();
-    // Set instance field: private System.Single _missNoteEnergyDrain
-    void _set__missNoteEnergyDrain(float value);
-    // Get instance field: private System.Single _hitBombEnergyDrain
-    float _get__hitBombEnergyDrain();
-    // Set instance field: private System.Single _hitBombEnergyDrain
-    void _set__hitBombEnergyDrain(float value);
-    // Get instance field: private System.Single _goodNoteEnergyCharge
-    float _get__goodNoteEnergyCharge();
-    // Set instance field: private System.Single _goodNoteEnergyCharge
-    void _set__goodNoteEnergyCharge(float value);
-    // Get instance field: private System.Single _obstacleEnergyDrainPerSecond
-    float _get__obstacleEnergyDrainPerSecond();
-    // Set instance field: private System.Single _obstacleEnergyDrainPerSecond
-    void _set__obstacleEnergyDrainPerSecond(float value);
-    // Get instance field: private System.Int32 _batteryLives
-    int _get__batteryLives();
-    // Set instance field: private System.Int32 _batteryLives
-    void _set__batteryLives(int value);
-    // Get instance field: private readonly GameEnergyCounter/InitData _initData
-    GlobalNamespace::GameEnergyCounter::InitData* _get__initData();
-    // Set instance field: private readonly GameEnergyCounter/InitData _initData
-    void _set__initData(GlobalNamespace::GameEnergyCounter::InitData* value);
-    // Get instance field: private readonly SaberClashChecker _saberClashChecker
-    GlobalNamespace::SaberClashChecker* _get__saberClashChecker();
-    // Set instance field: private readonly SaberClashChecker _saberClashChecker
-    void _set__saberClashChecker(GlobalNamespace::SaberClashChecker* value);
-    // Get instance field: private readonly BeatmapObjectManager _beatmapObjectManager
-    GlobalNamespace::BeatmapObjectManager* _get__beatmapObjectManager();
-    // Set instance field: private readonly BeatmapObjectManager _beatmapObjectManager
-    void _set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager* value);
-    // Get instance field: private readonly PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
-    GlobalNamespace::PlayerHeadAndObstacleInteraction* _get__playerHeadAndObstacleInteraction();
-    // Set instance field: private readonly PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
-    void _set__playerHeadAndObstacleInteraction(GlobalNamespace::PlayerHeadAndObstacleInteraction* value);
-    // Get instance field: private System.Action didInitEvent
-    System::Action* _get_didInitEvent();
-    // Set instance field: private System.Action didInitEvent
-    void _set_didInitEvent(System::Action* value);
-    // Get instance field: private System.Action gameEnergyDidReach0Event
-    System::Action* _get_gameEnergyDidReach0Event();
-    // Set instance field: private System.Action gameEnergyDidReach0Event
-    void _set_gameEnergyDidReach0Event(System::Action* value);
-    // Get instance field: private System.Action`1<System.Single> gameEnergyDidChangeEvent
-    System::Action_1<float>* _get_gameEnergyDidChangeEvent();
-    // Set instance field: private System.Action`1<System.Single> gameEnergyDidChangeEvent
-    void _set_gameEnergyDidChangeEvent(System::Action_1<float>* value);
-    // Get instance field: private System.Single <energy>k__BackingField
-    float _get_$energy$k__BackingField();
-    // Set instance field: private System.Single <energy>k__BackingField
-    void _set_$energy$k__BackingField(float value);
-    // Get instance field: private GameplayModifiers/EnergyType <energyType>k__BackingField
-    GlobalNamespace::GameplayModifiers::EnergyType _get_$energyType$k__BackingField();
-    // Set instance field: private GameplayModifiers/EnergyType <energyType>k__BackingField
-    void _set_$energyType$k__BackingField(GlobalNamespace::GameplayModifiers::EnergyType value);
-    // Get instance field: private System.Boolean <noFail>k__BackingField
-    bool _get_$noFail$k__BackingField();
-    // Set instance field: private System.Boolean <noFail>k__BackingField
-    void _set_$noFail$k__BackingField(bool value);
-    // Get instance field: private System.Boolean <instaFail>k__BackingField
-    bool _get_$instaFail$k__BackingField();
-    // Set instance field: private System.Boolean <instaFail>k__BackingField
-    void _set_$instaFail$k__BackingField(bool value);
-    // Get instance field: private System.Boolean <failOnSaberClash>k__BackingField
-    bool _get_$failOnSaberClash$k__BackingField();
-    // Set instance field: private System.Boolean <failOnSaberClash>k__BackingField
-    void _set_$failOnSaberClash$k__BackingField(bool value);
-    // Get instance field: private System.Boolean _isInitialized
-    bool _get__isInitialized();
-    // Set instance field: private System.Boolean _isInitialized
-    void _set__isInitialized(bool value);
-    // Get instance field: private System.Boolean _didReach0Energy
-    bool _get__didReach0Energy();
-    // Set instance field: private System.Boolean _didReach0Energy
-    void _set__didReach0Energy(bool value);
-    // Get instance field: private System.Single _nextFrameEnergyChange
-    float _get__nextFrameEnergyChange();
-    // Set instance field: private System.Single _nextFrameEnergyChange
-    void _set__nextFrameEnergyChange(float value);
+    // Get instance field reference: private System.Single _badNoteEnergyDrain
+    float& dyn__badNoteEnergyDrain();
+    // Get instance field reference: private System.Single _missNoteEnergyDrain
+    float& dyn__missNoteEnergyDrain();
+    // Get instance field reference: private System.Single _hitBombEnergyDrain
+    float& dyn__hitBombEnergyDrain();
+    // Get instance field reference: private System.Single _goodNoteEnergyCharge
+    float& dyn__goodNoteEnergyCharge();
+    // Get instance field reference: private System.Single _obstacleEnergyDrainPerSecond
+    float& dyn__obstacleEnergyDrainPerSecond();
+    // Get instance field reference: private System.Int32 _batteryLives
+    int& dyn__batteryLives();
+    // Get instance field reference: private readonly GameEnergyCounter/InitData _initData
+    GlobalNamespace::GameEnergyCounter::InitData*& dyn__initData();
+    // Get instance field reference: private readonly SaberClashChecker _saberClashChecker
+    GlobalNamespace::SaberClashChecker*& dyn__saberClashChecker();
+    // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
+    GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
+    // Get instance field reference: private readonly PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
+    GlobalNamespace::PlayerHeadAndObstacleInteraction*& dyn__playerHeadAndObstacleInteraction();
+    // Get instance field reference: private System.Action didInitEvent
+    System::Action*& dyn_didInitEvent();
+    // Get instance field reference: private System.Action gameEnergyDidReach0Event
+    System::Action*& dyn_gameEnergyDidReach0Event();
+    // Get instance field reference: private System.Action`1<System.Single> gameEnergyDidChangeEvent
+    System::Action_1<float>*& dyn_gameEnergyDidChangeEvent();
+    // Get instance field reference: private System.Single <energy>k__BackingField
+    float& dyn_$energy$k__BackingField();
+    // Get instance field reference: private GameplayModifiers/EnergyType <energyType>k__BackingField
+    GlobalNamespace::GameplayModifiers::EnergyType& dyn_$energyType$k__BackingField();
+    // Get instance field reference: private System.Boolean <noFail>k__BackingField
+    bool& dyn_$noFail$k__BackingField();
+    // Get instance field reference: private System.Boolean <instaFail>k__BackingField
+    bool& dyn_$instaFail$k__BackingField();
+    // Get instance field reference: private System.Boolean <failOnSaberClash>k__BackingField
+    bool& dyn_$failOnSaberClash$k__BackingField();
+    // Get instance field reference: private System.Boolean _isInitialized
+    bool& dyn__isInitialized();
+    // Get instance field reference: private System.Boolean _didReach0Energy
+    bool& dyn__didReach0Energy();
+    // Get instance field reference: private System.Single _nextFrameEnergyChange
+    float& dyn__nextFrameEnergyChange();
     // public System.Boolean get_isInitialized()
     // Offset: 0x105E480
     bool get_isInitialized();

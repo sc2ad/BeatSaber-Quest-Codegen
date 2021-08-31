@@ -40,10 +40,8 @@ namespace Org::BouncyCastle::Asn1 {
     constexpr operator ::Il2CppString*() const noexcept {
       return str;
     }
-    // Get instance field: private readonly System.String str
-    ::Il2CppString* _get_str();
-    // Set instance field: private readonly System.String str
-    void _set_str(::Il2CppString* value);
+    // Get instance field reference: private readonly System.String str
+    ::Il2CppString*& dyn_str();
     // System.Void .ctor(System.Char[] str)
     // Offset: 0x1729A28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

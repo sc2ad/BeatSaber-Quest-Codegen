@@ -43,14 +43,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::MultiplayerLobbyAvatarPlace*) == 0x8);
     // Creating value type constructor for type: MultiplayerLobbyInstaller
     MultiplayerLobbyInstaller(GlobalNamespace::MultiplayerLobbyAvatarController* multiplayerLobbyAvatarControllerPrefab_ = {}, GlobalNamespace::MultiplayerLobbyAvatarPlace* multiplayerAvatarPlacePrefab_ = {}) noexcept : multiplayerLobbyAvatarControllerPrefab{multiplayerLobbyAvatarControllerPrefab_}, multiplayerAvatarPlacePrefab{multiplayerAvatarPlacePrefab_} {}
-    // Get instance field: private MultiplayerLobbyAvatarController _multiplayerLobbyAvatarControllerPrefab
-    GlobalNamespace::MultiplayerLobbyAvatarController* _get__multiplayerLobbyAvatarControllerPrefab();
-    // Set instance field: private MultiplayerLobbyAvatarController _multiplayerLobbyAvatarControllerPrefab
-    void _set__multiplayerLobbyAvatarControllerPrefab(GlobalNamespace::MultiplayerLobbyAvatarController* value);
-    // Get instance field: private MultiplayerLobbyAvatarPlace _multiplayerAvatarPlacePrefab
-    GlobalNamespace::MultiplayerLobbyAvatarPlace* _get__multiplayerAvatarPlacePrefab();
-    // Set instance field: private MultiplayerLobbyAvatarPlace _multiplayerAvatarPlacePrefab
-    void _set__multiplayerAvatarPlacePrefab(GlobalNamespace::MultiplayerLobbyAvatarPlace* value);
+    // Get instance field reference: private MultiplayerLobbyAvatarController _multiplayerLobbyAvatarControllerPrefab
+    GlobalNamespace::MultiplayerLobbyAvatarController*& dyn__multiplayerLobbyAvatarControllerPrefab();
+    // Get instance field reference: private MultiplayerLobbyAvatarPlace _multiplayerAvatarPlacePrefab
+    GlobalNamespace::MultiplayerLobbyAvatarPlace*& dyn__multiplayerAvatarPlacePrefab();
     // public System.Void .ctor()
     // Offset: 0x1064610
     // Implemented from: Zenject.MonoInstaller

@@ -49,22 +49,14 @@ namespace System::Runtime::Serialization {
     static ::Array<int>* _get_sizes();
     // Set static field: static private readonly System.Int32[] sizes
     static void _set_sizes(::Array<int>* value);
-    // Get instance field: System.Int32 m_currentCount
-    int _get_m_currentCount();
-    // Set instance field: System.Int32 m_currentCount
-    void _set_m_currentCount(int value);
-    // Get instance field: System.Int32 m_currentSize
-    int _get_m_currentSize();
-    // Set instance field: System.Int32 m_currentSize
-    void _set_m_currentSize(int value);
-    // Get instance field: System.Int64[] m_ids
-    ::Array<int64_t>* _get_m_ids();
-    // Set instance field: System.Int64[] m_ids
-    void _set_m_ids(::Array<int64_t>* value);
-    // Get instance field: System.Object[] m_objs
-    ::Array<::Il2CppObject*>* _get_m_objs();
-    // Set instance field: System.Object[] m_objs
-    void _set_m_objs(::Array<::Il2CppObject*>* value);
+    // Get instance field reference: System.Int32 m_currentCount
+    int& dyn_m_currentCount();
+    // Get instance field reference: System.Int32 m_currentSize
+    int& dyn_m_currentSize();
+    // Get instance field reference: System.Int64[] m_ids
+    ::Array<int64_t>*& dyn_m_ids();
+    // Get instance field reference: System.Object[] m_objs
+    ::Array<::Il2CppObject*>*& dyn_m_objs();
     // static private System.Void .cctor()
     // Offset: 0x16B9094
     static void _cctor();

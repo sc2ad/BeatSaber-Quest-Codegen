@@ -62,22 +62,14 @@ namespace GlobalNamespace {
     MissionLevelFinishedController(GlobalNamespace::PrepareLevelCompletionResults* prepareLevelCompletionResults_ = {}, GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelSceneSetupData_ = {}, GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager_ = {}, GlobalNamespace::ILevelEndActions* gameplayManager_ = {}) noexcept : prepareLevelCompletionResults{prepareLevelCompletionResults_}, missionLevelSceneSetupData{missionLevelSceneSetupData_}, missionObjectiveCheckersManager{missionObjectiveCheckersManager_}, gameplayManager{gameplayManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private PrepareLevelCompletionResults _prepareLevelCompletionResults
-    GlobalNamespace::PrepareLevelCompletionResults* _get__prepareLevelCompletionResults();
-    // Set instance field: private PrepareLevelCompletionResults _prepareLevelCompletionResults
-    void _set__prepareLevelCompletionResults(GlobalNamespace::PrepareLevelCompletionResults* value);
-    // Get instance field: private MissionLevelScenesTransitionSetupDataSO _missionLevelSceneSetupData
-    GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* _get__missionLevelSceneSetupData();
-    // Set instance field: private MissionLevelScenesTransitionSetupDataSO _missionLevelSceneSetupData
-    void _set__missionLevelSceneSetupData(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* value);
-    // Get instance field: private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
-    GlobalNamespace::MissionObjectiveCheckersManager* _get__missionObjectiveCheckersManager();
-    // Set instance field: private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
-    void _set__missionObjectiveCheckersManager(GlobalNamespace::MissionObjectiveCheckersManager* value);
-    // Get instance field: private ILevelEndActions _gameplayManager
-    GlobalNamespace::ILevelEndActions* _get__gameplayManager();
-    // Set instance field: private ILevelEndActions _gameplayManager
-    void _set__gameplayManager(GlobalNamespace::ILevelEndActions* value);
+    // Get instance field reference: private PrepareLevelCompletionResults _prepareLevelCompletionResults
+    GlobalNamespace::PrepareLevelCompletionResults*& dyn__prepareLevelCompletionResults();
+    // Get instance field reference: private MissionLevelScenesTransitionSetupDataSO _missionLevelSceneSetupData
+    GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*& dyn__missionLevelSceneSetupData();
+    // Get instance field reference: private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
+    GlobalNamespace::MissionObjectiveCheckersManager*& dyn__missionObjectiveCheckersManager();
+    // Get instance field reference: private ILevelEndActions _gameplayManager
+    GlobalNamespace::ILevelEndActions*& dyn__gameplayManager();
     // protected System.Void Start()
     // Offset: 0x11D2670
     void Start();

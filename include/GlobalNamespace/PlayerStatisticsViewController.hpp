@@ -76,14 +76,10 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: private System.String <text>k__BackingField
-      ::Il2CppString* _get_$text$k__BackingField();
-      // Set instance field: private System.String <text>k__BackingField
-      void _set_$text$k__BackingField(::Il2CppString* value);
-      // Get instance field: private System.Func`1<PlayerAllOverallStatsData/PlayerOverallStatsData> <playerOverallStatsDataFunc>k__BackingField
-      System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* _get_$playerOverallStatsDataFunc$k__BackingField();
-      // Set instance field: private System.Func`1<PlayerAllOverallStatsData/PlayerOverallStatsData> <playerOverallStatsDataFunc>k__BackingField
-      void _set_$playerOverallStatsDataFunc$k__BackingField(System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* value);
+      // Get instance field reference: private System.String <text>k__BackingField
+      ::Il2CppString*& dyn_$text$k__BackingField();
+      // Get instance field reference: private System.Func`1<PlayerAllOverallStatsData/PlayerOverallStatsData> <playerOverallStatsDataFunc>k__BackingField
+      System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>*& dyn_$playerOverallStatsDataFunc$k__BackingField();
       // public System.String get_text()
       // Offset: 0x113CD88
       ::Il2CppString* get_text();
@@ -199,66 +195,36 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<GlobalNamespace::PlayerStatisticsViewController::StatsScopeData>*) == 0x8);
     // Creating value type constructor for type: PlayerStatisticsViewController
     PlayerStatisticsViewController(HMUI::TextSegmentedControl* statsScopeSegmentedControl_ = {}, TMPro::TextMeshProUGUI* playedLevelsCountText_ = {}, TMPro::TextMeshProUGUI* clearedLevelsCountText_ = {}, TMPro::TextMeshProUGUI* failedLevelsCountText_ = {}, TMPro::TextMeshProUGUI* timePlayedText_ = {}, TMPro::TextMeshProUGUI* goodCutsCountText_ = {}, TMPro::TextMeshProUGUI* badCutsCountCountText_ = {}, TMPro::TextMeshProUGUI* missedCountText_ = {}, TMPro::TextMeshProUGUI* averageCutScoreText_ = {}, TMPro::TextMeshProUGUI* totalScoreText_ = {}, TMPro::TextMeshProUGUI* fullComboCountText_ = {}, TMPro::TextMeshProUGUI* handDistanceTravelledText_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, GlobalNamespace::AppStaticSettingsSO* appStaticSettings_ = {}, ::Array<GlobalNamespace::PlayerStatisticsViewController::StatsScopeData>* statsScopeDatas_ = {}) noexcept : statsScopeSegmentedControl{statsScopeSegmentedControl_}, playedLevelsCountText{playedLevelsCountText_}, clearedLevelsCountText{clearedLevelsCountText_}, failedLevelsCountText{failedLevelsCountText_}, timePlayedText{timePlayedText_}, goodCutsCountText{goodCutsCountText_}, badCutsCountCountText{badCutsCountCountText_}, missedCountText{missedCountText_}, averageCutScoreText{averageCutScoreText_}, totalScoreText{totalScoreText_}, fullComboCountText{fullComboCountText_}, handDistanceTravelledText{handDistanceTravelledText_}, playerDataModel{playerDataModel_}, appStaticSettings{appStaticSettings_}, statsScopeDatas{statsScopeDatas_} {}
-    // Get instance field: private HMUI.TextSegmentedControl _statsScopeSegmentedControl
-    HMUI::TextSegmentedControl* _get__statsScopeSegmentedControl();
-    // Set instance field: private HMUI.TextSegmentedControl _statsScopeSegmentedControl
-    void _set__statsScopeSegmentedControl(HMUI::TextSegmentedControl* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _playedLevelsCountText
-    TMPro::TextMeshProUGUI* _get__playedLevelsCountText();
-    // Set instance field: private TMPro.TextMeshProUGUI _playedLevelsCountText
-    void _set__playedLevelsCountText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _clearedLevelsCountText
-    TMPro::TextMeshProUGUI* _get__clearedLevelsCountText();
-    // Set instance field: private TMPro.TextMeshProUGUI _clearedLevelsCountText
-    void _set__clearedLevelsCountText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _failedLevelsCountText
-    TMPro::TextMeshProUGUI* _get__failedLevelsCountText();
-    // Set instance field: private TMPro.TextMeshProUGUI _failedLevelsCountText
-    void _set__failedLevelsCountText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _timePlayedText
-    TMPro::TextMeshProUGUI* _get__timePlayedText();
-    // Set instance field: private TMPro.TextMeshProUGUI _timePlayedText
-    void _set__timePlayedText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _goodCutsCountText
-    TMPro::TextMeshProUGUI* _get__goodCutsCountText();
-    // Set instance field: private TMPro.TextMeshProUGUI _goodCutsCountText
-    void _set__goodCutsCountText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _badCutsCountCountText
-    TMPro::TextMeshProUGUI* _get__badCutsCountCountText();
-    // Set instance field: private TMPro.TextMeshProUGUI _badCutsCountCountText
-    void _set__badCutsCountCountText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _missedCountText
-    TMPro::TextMeshProUGUI* _get__missedCountText();
-    // Set instance field: private TMPro.TextMeshProUGUI _missedCountText
-    void _set__missedCountText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _averageCutScoreText
-    TMPro::TextMeshProUGUI* _get__averageCutScoreText();
-    // Set instance field: private TMPro.TextMeshProUGUI _averageCutScoreText
-    void _set__averageCutScoreText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _totalScoreText
-    TMPro::TextMeshProUGUI* _get__totalScoreText();
-    // Set instance field: private TMPro.TextMeshProUGUI _totalScoreText
-    void _set__totalScoreText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _fullComboCountText
-    TMPro::TextMeshProUGUI* _get__fullComboCountText();
-    // Set instance field: private TMPro.TextMeshProUGUI _fullComboCountText
-    void _set__fullComboCountText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _handDistanceTravelledText
-    TMPro::TextMeshProUGUI* _get__handDistanceTravelledText();
-    // Set instance field: private TMPro.TextMeshProUGUI _handDistanceTravelledText
-    void _set__handDistanceTravelledText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private readonly PlayerDataModel _playerDataModel
-    GlobalNamespace::PlayerDataModel* _get__playerDataModel();
-    // Set instance field: private readonly PlayerDataModel _playerDataModel
-    void _set__playerDataModel(GlobalNamespace::PlayerDataModel* value);
-    // Get instance field: private readonly AppStaticSettingsSO _appStaticSettings
-    GlobalNamespace::AppStaticSettingsSO* _get__appStaticSettings();
-    // Set instance field: private readonly AppStaticSettingsSO _appStaticSettings
-    void _set__appStaticSettings(GlobalNamespace::AppStaticSettingsSO* value);
-    // Get instance field: private PlayerStatisticsViewController/StatsScopeData[] _statsScopeDatas
-    ::Array<GlobalNamespace::PlayerStatisticsViewController::StatsScopeData>* _get__statsScopeDatas();
-    // Set instance field: private PlayerStatisticsViewController/StatsScopeData[] _statsScopeDatas
-    void _set__statsScopeDatas(::Array<GlobalNamespace::PlayerStatisticsViewController::StatsScopeData>* value);
+    // Get instance field reference: private HMUI.TextSegmentedControl _statsScopeSegmentedControl
+    HMUI::TextSegmentedControl*& dyn__statsScopeSegmentedControl();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _playedLevelsCountText
+    TMPro::TextMeshProUGUI*& dyn__playedLevelsCountText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _clearedLevelsCountText
+    TMPro::TextMeshProUGUI*& dyn__clearedLevelsCountText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _failedLevelsCountText
+    TMPro::TextMeshProUGUI*& dyn__failedLevelsCountText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _timePlayedText
+    TMPro::TextMeshProUGUI*& dyn__timePlayedText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _goodCutsCountText
+    TMPro::TextMeshProUGUI*& dyn__goodCutsCountText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _badCutsCountCountText
+    TMPro::TextMeshProUGUI*& dyn__badCutsCountCountText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _missedCountText
+    TMPro::TextMeshProUGUI*& dyn__missedCountText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _averageCutScoreText
+    TMPro::TextMeshProUGUI*& dyn__averageCutScoreText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _totalScoreText
+    TMPro::TextMeshProUGUI*& dyn__totalScoreText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _fullComboCountText
+    TMPro::TextMeshProUGUI*& dyn__fullComboCountText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _handDistanceTravelledText
+    TMPro::TextMeshProUGUI*& dyn__handDistanceTravelledText();
+    // Get instance field reference: private readonly PlayerDataModel _playerDataModel
+    GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
+    // Get instance field reference: private readonly AppStaticSettingsSO _appStaticSettings
+    GlobalNamespace::AppStaticSettingsSO*& dyn__appStaticSettings();
+    // Get instance field reference: private PlayerStatisticsViewController/StatsScopeData[] _statsScopeDatas
+    ::Array<GlobalNamespace::PlayerStatisticsViewController::StatsScopeData>*& dyn__statsScopeDatas();
     // private System.Void UpdateView(PlayerAllOverallStatsData/PlayerOverallStatsData playerOverallStatsData)
     // Offset: 0x113C640
     void UpdateView(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* playerOverallStatsData);

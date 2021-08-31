@@ -85,10 +85,8 @@ namespace UnityEngine::UI {
       static UnityEngine::UI::CanvasScaler::ScaleMode _get_ConstantPhysicalSize();
       // Set static field: static public UnityEngine.UI.CanvasScaler/UnityEngine.UI.ScaleMode ConstantPhysicalSize
       static void _set_ConstantPhysicalSize(UnityEngine::UI::CanvasScaler::ScaleMode value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // UnityEngine.UI.CanvasScaler/UnityEngine.UI.ScaleMode
     #pragma pack(pop)
     static check_size<sizeof(CanvasScaler::ScaleMode), 0 + sizeof(int)> __UnityEngine_UI_CanvasScaler_ScaleModeSizeCheck;
@@ -133,10 +131,8 @@ namespace UnityEngine::UI {
       static UnityEngine::UI::CanvasScaler::ScreenMatchMode _get_Shrink();
       // Set static field: static public UnityEngine.UI.CanvasScaler/UnityEngine.UI.ScreenMatchMode Shrink
       static void _set_Shrink(UnityEngine::UI::CanvasScaler::ScreenMatchMode value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // UnityEngine.UI.CanvasScaler/UnityEngine.UI.ScreenMatchMode
     #pragma pack(pop)
     static check_size<sizeof(CanvasScaler::ScreenMatchMode), 0 + sizeof(int)> __UnityEngine_UI_CanvasScaler_ScreenMatchModeSizeCheck;
@@ -193,10 +189,8 @@ namespace UnityEngine::UI {
       static UnityEngine::UI::CanvasScaler::Unit _get_Picas();
       // Set static field: static public UnityEngine.UI.CanvasScaler/UnityEngine.UI.Unit Picas
       static void _set_Picas(UnityEngine::UI::CanvasScaler::Unit value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // UnityEngine.UI.CanvasScaler/UnityEngine.UI.Unit
     #pragma pack(pop)
     static check_size<sizeof(CanvasScaler::Unit), 0 + sizeof(int)> __UnityEngine_UI_CanvasScaler_UnitSizeCheck;
@@ -302,58 +296,32 @@ namespace UnityEngine::UI {
     static float _get_kLogBase();
     // Set static field: static private System.Single kLogBase
     static void _set_kLogBase(float value);
-    // Get instance field: private UnityEngine.UI.CanvasScaler/UnityEngine.UI.ScaleMode m_UiScaleMode
-    UnityEngine::UI::CanvasScaler::ScaleMode _get_m_UiScaleMode();
-    // Set instance field: private UnityEngine.UI.CanvasScaler/UnityEngine.UI.ScaleMode m_UiScaleMode
-    void _set_m_UiScaleMode(UnityEngine::UI::CanvasScaler::ScaleMode value);
-    // Get instance field: protected System.Single m_ReferencePixelsPerUnit
-    float _get_m_ReferencePixelsPerUnit();
-    // Set instance field: protected System.Single m_ReferencePixelsPerUnit
-    void _set_m_ReferencePixelsPerUnit(float value);
-    // Get instance field: protected System.Single m_ScaleFactor
-    float _get_m_ScaleFactor();
-    // Set instance field: protected System.Single m_ScaleFactor
-    void _set_m_ScaleFactor(float value);
-    // Get instance field: protected UnityEngine.Vector2 m_ReferenceResolution
-    UnityEngine::Vector2 _get_m_ReferenceResolution();
-    // Set instance field: protected UnityEngine.Vector2 m_ReferenceResolution
-    void _set_m_ReferenceResolution(UnityEngine::Vector2 value);
-    // Get instance field: protected UnityEngine.UI.CanvasScaler/UnityEngine.UI.ScreenMatchMode m_ScreenMatchMode
-    UnityEngine::UI::CanvasScaler::ScreenMatchMode _get_m_ScreenMatchMode();
-    // Set instance field: protected UnityEngine.UI.CanvasScaler/UnityEngine.UI.ScreenMatchMode m_ScreenMatchMode
-    void _set_m_ScreenMatchMode(UnityEngine::UI::CanvasScaler::ScreenMatchMode value);
-    // Get instance field: protected System.Single m_MatchWidthOrHeight
-    float _get_m_MatchWidthOrHeight();
-    // Set instance field: protected System.Single m_MatchWidthOrHeight
-    void _set_m_MatchWidthOrHeight(float value);
-    // Get instance field: protected UnityEngine.UI.CanvasScaler/UnityEngine.UI.Unit m_PhysicalUnit
-    UnityEngine::UI::CanvasScaler::Unit _get_m_PhysicalUnit();
-    // Set instance field: protected UnityEngine.UI.CanvasScaler/UnityEngine.UI.Unit m_PhysicalUnit
-    void _set_m_PhysicalUnit(UnityEngine::UI::CanvasScaler::Unit value);
-    // Get instance field: protected System.Single m_FallbackScreenDPI
-    float _get_m_FallbackScreenDPI();
-    // Set instance field: protected System.Single m_FallbackScreenDPI
-    void _set_m_FallbackScreenDPI(float value);
-    // Get instance field: protected System.Single m_DefaultSpriteDPI
-    float _get_m_DefaultSpriteDPI();
-    // Set instance field: protected System.Single m_DefaultSpriteDPI
-    void _set_m_DefaultSpriteDPI(float value);
-    // Get instance field: protected System.Single m_DynamicPixelsPerUnit
-    float _get_m_DynamicPixelsPerUnit();
-    // Set instance field: protected System.Single m_DynamicPixelsPerUnit
-    void _set_m_DynamicPixelsPerUnit(float value);
-    // Get instance field: private UnityEngine.Canvas m_Canvas
-    UnityEngine::Canvas* _get_m_Canvas();
-    // Set instance field: private UnityEngine.Canvas m_Canvas
-    void _set_m_Canvas(UnityEngine::Canvas* value);
-    // Get instance field: private System.Single m_PrevScaleFactor
-    float _get_m_PrevScaleFactor();
-    // Set instance field: private System.Single m_PrevScaleFactor
-    void _set_m_PrevScaleFactor(float value);
-    // Get instance field: private System.Single m_PrevReferencePixelsPerUnit
-    float _get_m_PrevReferencePixelsPerUnit();
-    // Set instance field: private System.Single m_PrevReferencePixelsPerUnit
-    void _set_m_PrevReferencePixelsPerUnit(float value);
+    // Get instance field reference: private UnityEngine.UI.CanvasScaler/UnityEngine.UI.ScaleMode m_UiScaleMode
+    UnityEngine::UI::CanvasScaler::ScaleMode& dyn_m_UiScaleMode();
+    // Get instance field reference: protected System.Single m_ReferencePixelsPerUnit
+    float& dyn_m_ReferencePixelsPerUnit();
+    // Get instance field reference: protected System.Single m_ScaleFactor
+    float& dyn_m_ScaleFactor();
+    // Get instance field reference: protected UnityEngine.Vector2 m_ReferenceResolution
+    UnityEngine::Vector2& dyn_m_ReferenceResolution();
+    // Get instance field reference: protected UnityEngine.UI.CanvasScaler/UnityEngine.UI.ScreenMatchMode m_ScreenMatchMode
+    UnityEngine::UI::CanvasScaler::ScreenMatchMode& dyn_m_ScreenMatchMode();
+    // Get instance field reference: protected System.Single m_MatchWidthOrHeight
+    float& dyn_m_MatchWidthOrHeight();
+    // Get instance field reference: protected UnityEngine.UI.CanvasScaler/UnityEngine.UI.Unit m_PhysicalUnit
+    UnityEngine::UI::CanvasScaler::Unit& dyn_m_PhysicalUnit();
+    // Get instance field reference: protected System.Single m_FallbackScreenDPI
+    float& dyn_m_FallbackScreenDPI();
+    // Get instance field reference: protected System.Single m_DefaultSpriteDPI
+    float& dyn_m_DefaultSpriteDPI();
+    // Get instance field reference: protected System.Single m_DynamicPixelsPerUnit
+    float& dyn_m_DynamicPixelsPerUnit();
+    // Get instance field reference: private UnityEngine.Canvas m_Canvas
+    UnityEngine::Canvas*& dyn_m_Canvas();
+    // Get instance field reference: private System.Single m_PrevScaleFactor
+    float& dyn_m_PrevScaleFactor();
+    // Get instance field reference: private System.Single m_PrevReferencePixelsPerUnit
+    float& dyn_m_PrevReferencePixelsPerUnit();
     // public UnityEngine.UI.CanvasScaler/UnityEngine.UI.ScaleMode get_uiScaleMode()
     // Offset: 0x1471CB8
     UnityEngine::UI::CanvasScaler::ScaleMode get_uiScaleMode();

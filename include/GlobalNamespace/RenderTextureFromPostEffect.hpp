@@ -45,14 +45,10 @@ namespace GlobalNamespace {
     RenderTextureFromPostEffect(UnityEngine::RenderTexture* targetTexture_ = {}, UnityEngine::Camera* camera_ = {}) noexcept : targetTexture{targetTexture_}, camera{camera_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public UnityEngine.RenderTexture _targetTexture
-    UnityEngine::RenderTexture* _get__targetTexture();
-    // Set instance field: public UnityEngine.RenderTexture _targetTexture
-    void _set__targetTexture(UnityEngine::RenderTexture* value);
-    // Get instance field: private UnityEngine.Camera _camera
-    UnityEngine::Camera* _get__camera();
-    // Set instance field: private UnityEngine.Camera _camera
-    void _set__camera(UnityEngine::Camera* value);
+    // Get instance field reference: public UnityEngine.RenderTexture _targetTexture
+    UnityEngine::RenderTexture*& dyn__targetTexture();
+    // Get instance field reference: private UnityEngine.Camera _camera
+    UnityEngine::Camera*& dyn__camera();
     // public UnityEngine.RenderTexture get_targetTexture()
     // Offset: 0x2394514
     UnityEngine::RenderTexture* get_targetTexture();

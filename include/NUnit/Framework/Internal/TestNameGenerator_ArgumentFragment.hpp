@@ -43,14 +43,10 @@ namespace NUnit::Framework::Internal {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: ArgumentFragment
     ArgumentFragment(int index_ = {}, int maxStringLength_ = {}) noexcept : index{index_}, maxStringLength{maxStringLength_} {}
-    // Get instance field: private System.Int32 _index
-    int _get__index();
-    // Set instance field: private System.Int32 _index
-    void _set__index(int value);
-    // Get instance field: private System.Int32 _maxStringLength
-    int _get__maxStringLength();
-    // Set instance field: private System.Int32 _maxStringLength
-    void _set__maxStringLength(int value);
+    // Get instance field reference: private System.Int32 _index
+    int& dyn__index();
+    // Get instance field reference: private System.Int32 _maxStringLength
+    int& dyn__maxStringLength();
     // public System.Void .ctor(System.Int32 index, System.Int32 maxStringLength)
     // Offset: 0x229E664
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

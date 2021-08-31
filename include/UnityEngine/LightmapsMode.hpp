@@ -45,10 +45,8 @@ namespace UnityEngine {
     static UnityEngine::LightmapsMode _get_CombinedDirectional();
     // Set static field: static public UnityEngine.LightmapsMode CombinedDirectional
     static void _set_CombinedDirectional(UnityEngine::LightmapsMode value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.LightmapsMode
   #pragma pack(pop)
   static check_size<sizeof(LightmapsMode), 0 + sizeof(int)> __UnityEngine_LightmapsModeSizeCheck;

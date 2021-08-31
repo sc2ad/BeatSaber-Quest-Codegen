@@ -47,14 +47,10 @@ namespace GlobalNamespace {
     LocalizedTextAsset(::Array<GlobalNamespace::LocalizedTextAsset::TextInfo*>* textInfos_ = {}, GlobalNamespace::LocalizedTextAsset::TextInfo* lastTextInfo_ = {}) noexcept : textInfos{textInfos_}, lastTextInfo{lastTextInfo_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private LocalizedTextAsset/TextInfo[] _textInfos
-    ::Array<GlobalNamespace::LocalizedTextAsset::TextInfo*>* _get__textInfos();
-    // Set instance field: private LocalizedTextAsset/TextInfo[] _textInfos
-    void _set__textInfos(::Array<GlobalNamespace::LocalizedTextAsset::TextInfo*>* value);
-    // Get instance field: private LocalizedTextAsset/TextInfo _lastTextInfo
-    GlobalNamespace::LocalizedTextAsset::TextInfo* _get__lastTextInfo();
-    // Set instance field: private LocalizedTextAsset/TextInfo _lastTextInfo
-    void _set__lastTextInfo(GlobalNamespace::LocalizedTextAsset::TextInfo* value);
+    // Get instance field reference: private LocalizedTextAsset/TextInfo[] _textInfos
+    ::Array<GlobalNamespace::LocalizedTextAsset::TextInfo*>*& dyn__textInfos();
+    // Get instance field reference: private LocalizedTextAsset/TextInfo _lastTextInfo
+    GlobalNamespace::LocalizedTextAsset::TextInfo*& dyn__lastTextInfo();
     // public LocalizedTextAsset/TextInfo[] get_textInfos()
     // Offset: 0x10DE380
     ::Array<GlobalNamespace::LocalizedTextAsset::TextInfo*>* get_textInfos();

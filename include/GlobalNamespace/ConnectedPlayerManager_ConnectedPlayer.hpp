@@ -155,70 +155,38 @@ namespace GlobalNamespace {
     static float _get_kFixedOffset();
     // Set static field: static private System.Single kFixedOffset
     static void _set_kFixedOffset(float value);
-    // Get instance field: private readonly System.String _userId
-    ::Il2CppString* _get__userId();
-    // Set instance field: private readonly System.String _userId
-    void _set__userId(::Il2CppString* value);
-    // Get instance field: private readonly System.String _userName
-    ::Il2CppString* _get__userName();
-    // Set instance field: private readonly System.String _userName
-    void _set__userName(::Il2CppString* value);
-    // Get instance field: private readonly System.Boolean _isMe
-    bool _get__isMe();
-    // Set instance field: private readonly System.Boolean _isMe
-    void _set__isMe(bool value);
-    // Get instance field: private readonly System.Boolean _isConnectionOwner
-    bool _get__isConnectionOwner();
-    // Set instance field: private readonly System.Boolean _isConnectionOwner
-    void _set__isConnectionOwner(bool value);
-    // Get instance field: private readonly ConnectedPlayerManager _manager
-    GlobalNamespace::ConnectedPlayerManager* _get__manager();
-    // Set instance field: private readonly ConnectedPlayerManager _manager
-    void _set__manager(GlobalNamespace::ConnectedPlayerManager* value);
-    // Get instance field: private readonly IConnection _connection
-    GlobalNamespace::IConnection* _get__connection();
-    // Set instance field: private readonly IConnection _connection
-    void _set__connection(GlobalNamespace::IConnection* value);
-    // Get instance field: private readonly ConnectedPlayerManager/ConnectedPlayer _parent
-    GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* _get__parent();
-    // Set instance field: private readonly ConnectedPlayerManager/ConnectedPlayer _parent
-    void _set__parent(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* value);
-    // Get instance field: private readonly System.Byte _connectionId
-    uint8_t _get__connectionId();
-    // Set instance field: private readonly System.Byte _connectionId
-    void _set__connectionId(uint8_t value);
-    // Get instance field: private readonly System.Byte _remoteConnectionId
-    uint8_t _get__remoteConnectionId();
-    // Set instance field: private readonly System.Byte _remoteConnectionId
-    void _set__remoteConnectionId(uint8_t value);
-    // Get instance field: private System.Int32 _sortIndex
-    int _get__sortIndex();
-    // Set instance field: private System.Int32 _sortIndex
-    void _set__sortIndex(int value);
-    // Get instance field: private System.Boolean _isConnected
-    bool _get__isConnected();
-    // Set instance field: private System.Boolean _isConnected
-    void _set__isConnected(bool value);
-    // Get instance field: private DisconnectedReason _disconnectedReason
-    GlobalNamespace::DisconnectedReason _get__disconnectedReason();
-    // Set instance field: private DisconnectedReason _disconnectedReason
-    void _set__disconnectedReason(GlobalNamespace::DisconnectedReason value);
-    // Get instance field: private System.Boolean _isKicked
-    bool _get__isKicked();
-    // Set instance field: private System.Boolean _isKicked
-    void _set__isKicked(bool value);
-    // Get instance field: private PlayerStateHash _playerState
-    GlobalNamespace::PlayerStateHash _get__playerState();
-    // Set instance field: private PlayerStateHash _playerState
-    void _set__playerState(GlobalNamespace::PlayerStateHash value);
-    // Get instance field: private MultiplayerAvatarData _playerAvatar
-    GlobalNamespace::MultiplayerAvatarData _get__playerAvatar();
-    // Set instance field: private MultiplayerAvatarData _playerAvatar
-    void _set__playerAvatar(GlobalNamespace::MultiplayerAvatarData value);
-    // Get instance field: private readonly RollingAverage _latency
-    GlobalNamespace::RollingAverage* _get__latency();
-    // Set instance field: private readonly RollingAverage _latency
-    void _set__latency(GlobalNamespace::RollingAverage* value);
+    // Get instance field reference: private readonly System.String _userId
+    ::Il2CppString*& dyn__userId();
+    // Get instance field reference: private readonly System.String _userName
+    ::Il2CppString*& dyn__userName();
+    // Get instance field reference: private readonly System.Boolean _isMe
+    bool& dyn__isMe();
+    // Get instance field reference: private readonly System.Boolean _isConnectionOwner
+    bool& dyn__isConnectionOwner();
+    // Get instance field reference: private readonly ConnectedPlayerManager _manager
+    GlobalNamespace::ConnectedPlayerManager*& dyn__manager();
+    // Get instance field reference: private readonly IConnection _connection
+    GlobalNamespace::IConnection*& dyn__connection();
+    // Get instance field reference: private readonly ConnectedPlayerManager/ConnectedPlayer _parent
+    GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*& dyn__parent();
+    // Get instance field reference: private readonly System.Byte _connectionId
+    uint8_t& dyn__connectionId();
+    // Get instance field reference: private readonly System.Byte _remoteConnectionId
+    uint8_t& dyn__remoteConnectionId();
+    // Get instance field reference: private System.Int32 _sortIndex
+    int& dyn__sortIndex();
+    // Get instance field reference: private System.Boolean _isConnected
+    bool& dyn__isConnected();
+    // Get instance field reference: private DisconnectedReason _disconnectedReason
+    GlobalNamespace::DisconnectedReason& dyn__disconnectedReason();
+    // Get instance field reference: private System.Boolean _isKicked
+    bool& dyn__isKicked();
+    // Get instance field reference: private PlayerStateHash _playerState
+    GlobalNamespace::PlayerStateHash& dyn__playerState();
+    // Get instance field reference: private MultiplayerAvatarData _playerAvatar
+    GlobalNamespace::MultiplayerAvatarData& dyn__playerAvatar();
+    // Get instance field reference: private readonly RollingAverage _latency
+    GlobalNamespace::RollingAverage*& dyn__latency();
     // public IConnection get_connection()
     // Offset: 0x1323848
     GlobalNamespace::IConnection* get_connection();

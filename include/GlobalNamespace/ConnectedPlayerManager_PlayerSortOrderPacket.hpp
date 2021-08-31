@@ -61,14 +61,10 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IPoolablePacket() noexcept {
       return *reinterpret_cast<GlobalNamespace::IPoolablePacket*>(this);
     }
-    // Get instance field: public System.String userId
-    ::Il2CppString* _get_userId();
-    // Set instance field: public System.String userId
-    void _set_userId(::Il2CppString* value);
-    // Get instance field: public System.Int32 sortIndex
-    int _get_sortIndex();
-    // Set instance field: public System.Int32 sortIndex
-    void _set_sortIndex(int value);
+    // Get instance field reference: public System.String userId
+    ::Il2CppString*& dyn_userId();
+    // Get instance field reference: public System.Int32 sortIndex
+    int& dyn_sortIndex();
     // static public PacketPool`1<ConnectedPlayerManager/PlayerSortOrderPacket> get_pool()
     // Offset: 0x1320CF0
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket*>* get_pool();

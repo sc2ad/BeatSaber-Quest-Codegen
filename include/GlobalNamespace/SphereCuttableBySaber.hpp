@@ -48,14 +48,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: SphereCuttableBySaber
     SphereCuttableBySaber(UnityEngine::SphereCollider* collider_ = {}, bool canBeCut_ = {}) noexcept : collider{collider_}, canBeCut{canBeCut_} {}
-    // Get instance field: private UnityEngine.SphereCollider _collider
-    UnityEngine::SphereCollider* _get__collider();
-    // Set instance field: private UnityEngine.SphereCollider _collider
-    void _set__collider(UnityEngine::SphereCollider* value);
-    // Get instance field: private System.Boolean _canBeCut
-    bool _get__canBeCut();
-    // Set instance field: private System.Boolean _canBeCut
-    void _set__canBeCut(bool value);
+    // Get instance field reference: private UnityEngine.SphereCollider _collider
+    UnityEngine::SphereCollider*& dyn__collider();
+    // Get instance field reference: private System.Boolean _canBeCut
+    bool& dyn__canBeCut();
     // protected System.Void Awake()
     // Offset: 0x10841E8
     void Awake();

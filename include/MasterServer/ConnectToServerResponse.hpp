@@ -130,10 +130,8 @@ namespace MasterServer {
       static MasterServer::ConnectToServerResponse::Result _get_UnknownError();
       // Set static field: static public MasterServer.ConnectToServerResponse/MasterServer.Result UnknownError
       static void _set_UnknownError(MasterServer::ConnectToServerResponse::Result value);
-      // Get instance field: public System.Byte value__
-      uint8_t _get_value__();
-      // Set instance field: public System.Byte value__
-      void _set_value__(uint8_t value);
+      // Get instance field reference: public System.Byte value__
+      uint8_t& dyn_value__();
     }; // MasterServer.ConnectToServerResponse/MasterServer.Result
     #pragma pack(pop)
     static check_size<sizeof(ConnectToServerResponse::Result), 0 + sizeof(uint8_t)> __MasterServer_ConnectToServerResponse_ResultSizeCheck;
@@ -226,58 +224,32 @@ namespace MasterServer {
     operator MasterServer::IUserServerToClientMessage() noexcept {
       return *reinterpret_cast<MasterServer::IUserServerToClientMessage*>(this);
     }
-    // Get instance field: public MasterServer.ConnectToServerResponse/MasterServer.Result result
-    MasterServer::ConnectToServerResponse::Result _get_result();
-    // Set instance field: public MasterServer.ConnectToServerResponse/MasterServer.Result result
-    void _set_result(MasterServer::ConnectToServerResponse::Result value);
-    // Get instance field: public System.String userId
-    ::Il2CppString* _get_userId();
-    // Set instance field: public System.String userId
-    void _set_userId(::Il2CppString* value);
-    // Get instance field: public System.String userName
-    ::Il2CppString* _get_userName();
-    // Set instance field: public System.String userName
-    void _set_userName(::Il2CppString* value);
-    // Get instance field: public System.String secret
-    ::Il2CppString* _get_secret();
-    // Set instance field: public System.String secret
-    void _set_secret(::Il2CppString* value);
-    // Get instance field: public System.String code
-    ::Il2CppString* _get_code();
-    // Set instance field: public System.String code
-    void _set_code(::Il2CppString* value);
-    // Get instance field: public BeatmapLevelSelectionMask selectionMask
-    GlobalNamespace::BeatmapLevelSelectionMask _get_selectionMask();
-    // Set instance field: public BeatmapLevelSelectionMask selectionMask
-    void _set_selectionMask(GlobalNamespace::BeatmapLevelSelectionMask value);
-    // Get instance field: public System.Boolean isConnectionOwner
-    bool _get_isConnectionOwner();
-    // Set instance field: public System.Boolean isConnectionOwner
-    void _set_isConnectionOwner(bool value);
-    // Get instance field: public System.Boolean isDedicatedServer
-    bool _get_isDedicatedServer();
-    // Set instance field: public System.Boolean isDedicatedServer
-    void _set_isDedicatedServer(bool value);
-    // Get instance field: public System.Net.IPEndPoint remoteEndPoint
-    System::Net::IPEndPoint* _get_remoteEndPoint();
-    // Set instance field: public System.Net.IPEndPoint remoteEndPoint
-    void _set_remoteEndPoint(System::Net::IPEndPoint* value);
-    // Get instance field: public readonly ByteArrayNetSerializable random
-    GlobalNamespace::ByteArrayNetSerializable* _get_random();
-    // Set instance field: public readonly ByteArrayNetSerializable random
-    void _set_random(GlobalNamespace::ByteArrayNetSerializable* value);
-    // Get instance field: public readonly ByteArrayNetSerializable publicKey
-    GlobalNamespace::ByteArrayNetSerializable* _get_publicKey();
-    // Set instance field: public readonly ByteArrayNetSerializable publicKey
-    void _set_publicKey(GlobalNamespace::ByteArrayNetSerializable* value);
-    // Get instance field: public GameplayServerConfiguration configuration
-    GlobalNamespace::GameplayServerConfiguration _get_configuration();
-    // Set instance field: public GameplayServerConfiguration configuration
-    void _set_configuration(GlobalNamespace::GameplayServerConfiguration value);
-    // Get instance field: public System.String managerId
-    ::Il2CppString* _get_managerId();
-    // Set instance field: public System.String managerId
-    void _set_managerId(::Il2CppString* value);
+    // Get instance field reference: public MasterServer.ConnectToServerResponse/MasterServer.Result result
+    MasterServer::ConnectToServerResponse::Result& dyn_result();
+    // Get instance field reference: public System.String userId
+    ::Il2CppString*& dyn_userId();
+    // Get instance field reference: public System.String userName
+    ::Il2CppString*& dyn_userName();
+    // Get instance field reference: public System.String secret
+    ::Il2CppString*& dyn_secret();
+    // Get instance field reference: public System.String code
+    ::Il2CppString*& dyn_code();
+    // Get instance field reference: public BeatmapLevelSelectionMask selectionMask
+    GlobalNamespace::BeatmapLevelSelectionMask& dyn_selectionMask();
+    // Get instance field reference: public System.Boolean isConnectionOwner
+    bool& dyn_isConnectionOwner();
+    // Get instance field reference: public System.Boolean isDedicatedServer
+    bool& dyn_isDedicatedServer();
+    // Get instance field reference: public System.Net.IPEndPoint remoteEndPoint
+    System::Net::IPEndPoint*& dyn_remoteEndPoint();
+    // Get instance field reference: public readonly ByteArrayNetSerializable random
+    GlobalNamespace::ByteArrayNetSerializable*& dyn_random();
+    // Get instance field reference: public readonly ByteArrayNetSerializable publicKey
+    GlobalNamespace::ByteArrayNetSerializable*& dyn_publicKey();
+    // Get instance field reference: public GameplayServerConfiguration configuration
+    GlobalNamespace::GameplayServerConfiguration& dyn_configuration();
+    // Get instance field reference: public System.String managerId
+    ::Il2CppString*& dyn_managerId();
     // static public IPacketPool`1<MasterServer.ConnectToServerResponse> get_pool()
     // Offset: 0x1215848
     static GlobalNamespace::IPacketPool_1<MasterServer::ConnectToServerResponse*>* get_pool();

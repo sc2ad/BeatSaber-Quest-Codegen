@@ -102,46 +102,26 @@ namespace GlobalNamespace {
     Saber(UnityEngine::Transform* saberBladeTopTransform_ = {}, UnityEngine::Transform* saberBladeBottomTransform_ = {}, UnityEngine::Transform* handleTransform_ = {}, GlobalNamespace::SaberTypeObject* saberType_ = {}, bool disableCutting_ = {}, GlobalNamespace::SaberMovementData* movementData_ = {}, UnityEngine::Vector3 saberBladeTopPos_ = {}, UnityEngine::Vector3 saberBladeBottomPos_ = {}, UnityEngine::Vector3 handlePos_ = {}, UnityEngine::Quaternion handleRot_ = {}) noexcept : saberBladeTopTransform{saberBladeTopTransform_}, saberBladeBottomTransform{saberBladeBottomTransform_}, handleTransform{handleTransform_}, saberType{saberType_}, disableCutting{disableCutting_}, movementData{movementData_}, saberBladeTopPos{saberBladeTopPos_}, saberBladeBottomPos{saberBladeBottomPos_}, handlePos{handlePos_}, handleRot{handleRot_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.Transform _saberBladeTopTransform
-    UnityEngine::Transform* _get__saberBladeTopTransform();
-    // Set instance field: private UnityEngine.Transform _saberBladeTopTransform
-    void _set__saberBladeTopTransform(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.Transform _saberBladeBottomTransform
-    UnityEngine::Transform* _get__saberBladeBottomTransform();
-    // Set instance field: private UnityEngine.Transform _saberBladeBottomTransform
-    void _set__saberBladeBottomTransform(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.Transform _handleTransform
-    UnityEngine::Transform* _get__handleTransform();
-    // Set instance field: private UnityEngine.Transform _handleTransform
-    void _set__handleTransform(UnityEngine::Transform* value);
-    // Get instance field: private SaberTypeObject _saberType
-    GlobalNamespace::SaberTypeObject* _get__saberType();
-    // Set instance field: private SaberTypeObject _saberType
-    void _set__saberType(GlobalNamespace::SaberTypeObject* value);
-    // Get instance field: private System.Boolean <disableCutting>k__BackingField
-    bool _get_$disableCutting$k__BackingField();
-    // Set instance field: private System.Boolean <disableCutting>k__BackingField
-    void _set_$disableCutting$k__BackingField(bool value);
-    // Get instance field: private readonly SaberMovementData _movementData
-    GlobalNamespace::SaberMovementData* _get__movementData();
-    // Set instance field: private readonly SaberMovementData _movementData
-    void _set__movementData(GlobalNamespace::SaberMovementData* value);
-    // Get instance field: private UnityEngine.Vector3 _saberBladeTopPos
-    UnityEngine::Vector3 _get__saberBladeTopPos();
-    // Set instance field: private UnityEngine.Vector3 _saberBladeTopPos
-    void _set__saberBladeTopPos(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 _saberBladeBottomPos
-    UnityEngine::Vector3 _get__saberBladeBottomPos();
-    // Set instance field: private UnityEngine.Vector3 _saberBladeBottomPos
-    void _set__saberBladeBottomPos(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 _handlePos
-    UnityEngine::Vector3 _get__handlePos();
-    // Set instance field: private UnityEngine.Vector3 _handlePos
-    void _set__handlePos(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Quaternion _handleRot
-    UnityEngine::Quaternion _get__handleRot();
-    // Set instance field: private UnityEngine.Quaternion _handleRot
-    void _set__handleRot(UnityEngine::Quaternion value);
+    // Get instance field reference: private UnityEngine.Transform _saberBladeTopTransform
+    UnityEngine::Transform*& dyn__saberBladeTopTransform();
+    // Get instance field reference: private UnityEngine.Transform _saberBladeBottomTransform
+    UnityEngine::Transform*& dyn__saberBladeBottomTransform();
+    // Get instance field reference: private UnityEngine.Transform _handleTransform
+    UnityEngine::Transform*& dyn__handleTransform();
+    // Get instance field reference: private SaberTypeObject _saberType
+    GlobalNamespace::SaberTypeObject*& dyn__saberType();
+    // Get instance field reference: private System.Boolean <disableCutting>k__BackingField
+    bool& dyn_$disableCutting$k__BackingField();
+    // Get instance field reference: private readonly SaberMovementData _movementData
+    GlobalNamespace::SaberMovementData*& dyn__movementData();
+    // Get instance field reference: private UnityEngine.Vector3 _saberBladeTopPos
+    UnityEngine::Vector3& dyn__saberBladeTopPos();
+    // Get instance field reference: private UnityEngine.Vector3 _saberBladeBottomPos
+    UnityEngine::Vector3& dyn__saberBladeBottomPos();
+    // Get instance field reference: private UnityEngine.Vector3 _handlePos
+    UnityEngine::Vector3& dyn__handlePos();
+    // Get instance field reference: private UnityEngine.Quaternion _handleRot
+    UnityEngine::Quaternion& dyn__handleRot();
     // public SaberType get_saberType()
     // Offset: 0x118FB88
     GlobalNamespace::SaberType get_saberType();

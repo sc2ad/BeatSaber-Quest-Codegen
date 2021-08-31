@@ -61,14 +61,10 @@ namespace Zenject {
     operator Zenject::IProvider() noexcept {
       return *reinterpret_cast<Zenject::IProvider*>(this);
     }
-    // Get instance field: private readonly Zenject.IPrefabInstantiator _prefabInstantiator
-    Zenject::IPrefabInstantiator* _get__prefabInstantiator();
-    // Set instance field: private readonly Zenject.IPrefabInstantiator _prefabInstantiator
-    void _set__prefabInstantiator(Zenject::IPrefabInstantiator* value);
-    // Get instance field: private readonly System.Type _componentType
-    System::Type* _get__componentType();
-    // Set instance field: private readonly System.Type _componentType
-    void _set__componentType(System::Type* value);
+    // Get instance field reference: private readonly Zenject.IPrefabInstantiator _prefabInstantiator
+    Zenject::IPrefabInstantiator*& dyn__prefabInstantiator();
+    // Get instance field reference: private readonly System.Type _componentType
+    System::Type*& dyn__componentType();
     // public System.Boolean get_IsCached()
     // Offset: 0x1663344
     bool get_IsCached();

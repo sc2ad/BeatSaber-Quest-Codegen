@@ -123,54 +123,30 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: Valve.VR.IVRTrackedCamera/Valve.VR._GetCameraErrorNameFromEnum GetCameraErrorNameFromEnum
-    Valve::VR::IVRTrackedCamera::_GetCameraErrorNameFromEnum* _get_GetCameraErrorNameFromEnum();
-    // Set instance field: Valve.VR.IVRTrackedCamera/Valve.VR._GetCameraErrorNameFromEnum GetCameraErrorNameFromEnum
-    void _set_GetCameraErrorNameFromEnum(Valve::VR::IVRTrackedCamera::_GetCameraErrorNameFromEnum* value);
-    // Get instance field: Valve.VR.IVRTrackedCamera/Valve.VR._HasCamera HasCamera
-    Valve::VR::IVRTrackedCamera::_HasCamera* _get_HasCamera();
-    // Set instance field: Valve.VR.IVRTrackedCamera/Valve.VR._HasCamera HasCamera
-    void _set_HasCamera(Valve::VR::IVRTrackedCamera::_HasCamera* value);
-    // Get instance field: Valve.VR.IVRTrackedCamera/Valve.VR._GetCameraFrameSize GetCameraFrameSize
-    Valve::VR::IVRTrackedCamera::_GetCameraFrameSize* _get_GetCameraFrameSize();
-    // Set instance field: Valve.VR.IVRTrackedCamera/Valve.VR._GetCameraFrameSize GetCameraFrameSize
-    void _set_GetCameraFrameSize(Valve::VR::IVRTrackedCamera::_GetCameraFrameSize* value);
-    // Get instance field: Valve.VR.IVRTrackedCamera/Valve.VR._GetCameraIntrinsics GetCameraIntrinsics
-    Valve::VR::IVRTrackedCamera::_GetCameraIntrinsics* _get_GetCameraIntrinsics();
-    // Set instance field: Valve.VR.IVRTrackedCamera/Valve.VR._GetCameraIntrinsics GetCameraIntrinsics
-    void _set_GetCameraIntrinsics(Valve::VR::IVRTrackedCamera::_GetCameraIntrinsics* value);
-    // Get instance field: Valve.VR.IVRTrackedCamera/Valve.VR._GetCameraProjection GetCameraProjection
-    Valve::VR::IVRTrackedCamera::_GetCameraProjection* _get_GetCameraProjection();
-    // Set instance field: Valve.VR.IVRTrackedCamera/Valve.VR._GetCameraProjection GetCameraProjection
-    void _set_GetCameraProjection(Valve::VR::IVRTrackedCamera::_GetCameraProjection* value);
-    // Get instance field: Valve.VR.IVRTrackedCamera/Valve.VR._AcquireVideoStreamingService AcquireVideoStreamingService
-    Valve::VR::IVRTrackedCamera::_AcquireVideoStreamingService* _get_AcquireVideoStreamingService();
-    // Set instance field: Valve.VR.IVRTrackedCamera/Valve.VR._AcquireVideoStreamingService AcquireVideoStreamingService
-    void _set_AcquireVideoStreamingService(Valve::VR::IVRTrackedCamera::_AcquireVideoStreamingService* value);
-    // Get instance field: Valve.VR.IVRTrackedCamera/Valve.VR._ReleaseVideoStreamingService ReleaseVideoStreamingService
-    Valve::VR::IVRTrackedCamera::_ReleaseVideoStreamingService* _get_ReleaseVideoStreamingService();
-    // Set instance field: Valve.VR.IVRTrackedCamera/Valve.VR._ReleaseVideoStreamingService ReleaseVideoStreamingService
-    void _set_ReleaseVideoStreamingService(Valve::VR::IVRTrackedCamera::_ReleaseVideoStreamingService* value);
-    // Get instance field: Valve.VR.IVRTrackedCamera/Valve.VR._GetVideoStreamFrameBuffer GetVideoStreamFrameBuffer
-    Valve::VR::IVRTrackedCamera::_GetVideoStreamFrameBuffer* _get_GetVideoStreamFrameBuffer();
-    // Set instance field: Valve.VR.IVRTrackedCamera/Valve.VR._GetVideoStreamFrameBuffer GetVideoStreamFrameBuffer
-    void _set_GetVideoStreamFrameBuffer(Valve::VR::IVRTrackedCamera::_GetVideoStreamFrameBuffer* value);
-    // Get instance field: Valve.VR.IVRTrackedCamera/Valve.VR._GetVideoStreamTextureSize GetVideoStreamTextureSize
-    Valve::VR::IVRTrackedCamera::_GetVideoStreamTextureSize* _get_GetVideoStreamTextureSize();
-    // Set instance field: Valve.VR.IVRTrackedCamera/Valve.VR._GetVideoStreamTextureSize GetVideoStreamTextureSize
-    void _set_GetVideoStreamTextureSize(Valve::VR::IVRTrackedCamera::_GetVideoStreamTextureSize* value);
-    // Get instance field: Valve.VR.IVRTrackedCamera/Valve.VR._GetVideoStreamTextureD3D11 GetVideoStreamTextureD3D11
-    Valve::VR::IVRTrackedCamera::_GetVideoStreamTextureD3D11* _get_GetVideoStreamTextureD3D11();
-    // Set instance field: Valve.VR.IVRTrackedCamera/Valve.VR._GetVideoStreamTextureD3D11 GetVideoStreamTextureD3D11
-    void _set_GetVideoStreamTextureD3D11(Valve::VR::IVRTrackedCamera::_GetVideoStreamTextureD3D11* value);
-    // Get instance field: Valve.VR.IVRTrackedCamera/Valve.VR._GetVideoStreamTextureGL GetVideoStreamTextureGL
-    Valve::VR::IVRTrackedCamera::_GetVideoStreamTextureGL* _get_GetVideoStreamTextureGL();
-    // Set instance field: Valve.VR.IVRTrackedCamera/Valve.VR._GetVideoStreamTextureGL GetVideoStreamTextureGL
-    void _set_GetVideoStreamTextureGL(Valve::VR::IVRTrackedCamera::_GetVideoStreamTextureGL* value);
-    // Get instance field: Valve.VR.IVRTrackedCamera/Valve.VR._ReleaseVideoStreamTextureGL ReleaseVideoStreamTextureGL
-    Valve::VR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL* _get_ReleaseVideoStreamTextureGL();
-    // Set instance field: Valve.VR.IVRTrackedCamera/Valve.VR._ReleaseVideoStreamTextureGL ReleaseVideoStreamTextureGL
-    void _set_ReleaseVideoStreamTextureGL(Valve::VR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL* value);
+    // Get instance field reference: Valve.VR.IVRTrackedCamera/Valve.VR._GetCameraErrorNameFromEnum GetCameraErrorNameFromEnum
+    Valve::VR::IVRTrackedCamera::_GetCameraErrorNameFromEnum*& dyn_GetCameraErrorNameFromEnum();
+    // Get instance field reference: Valve.VR.IVRTrackedCamera/Valve.VR._HasCamera HasCamera
+    Valve::VR::IVRTrackedCamera::_HasCamera*& dyn_HasCamera();
+    // Get instance field reference: Valve.VR.IVRTrackedCamera/Valve.VR._GetCameraFrameSize GetCameraFrameSize
+    Valve::VR::IVRTrackedCamera::_GetCameraFrameSize*& dyn_GetCameraFrameSize();
+    // Get instance field reference: Valve.VR.IVRTrackedCamera/Valve.VR._GetCameraIntrinsics GetCameraIntrinsics
+    Valve::VR::IVRTrackedCamera::_GetCameraIntrinsics*& dyn_GetCameraIntrinsics();
+    // Get instance field reference: Valve.VR.IVRTrackedCamera/Valve.VR._GetCameraProjection GetCameraProjection
+    Valve::VR::IVRTrackedCamera::_GetCameraProjection*& dyn_GetCameraProjection();
+    // Get instance field reference: Valve.VR.IVRTrackedCamera/Valve.VR._AcquireVideoStreamingService AcquireVideoStreamingService
+    Valve::VR::IVRTrackedCamera::_AcquireVideoStreamingService*& dyn_AcquireVideoStreamingService();
+    // Get instance field reference: Valve.VR.IVRTrackedCamera/Valve.VR._ReleaseVideoStreamingService ReleaseVideoStreamingService
+    Valve::VR::IVRTrackedCamera::_ReleaseVideoStreamingService*& dyn_ReleaseVideoStreamingService();
+    // Get instance field reference: Valve.VR.IVRTrackedCamera/Valve.VR._GetVideoStreamFrameBuffer GetVideoStreamFrameBuffer
+    Valve::VR::IVRTrackedCamera::_GetVideoStreamFrameBuffer*& dyn_GetVideoStreamFrameBuffer();
+    // Get instance field reference: Valve.VR.IVRTrackedCamera/Valve.VR._GetVideoStreamTextureSize GetVideoStreamTextureSize
+    Valve::VR::IVRTrackedCamera::_GetVideoStreamTextureSize*& dyn_GetVideoStreamTextureSize();
+    // Get instance field reference: Valve.VR.IVRTrackedCamera/Valve.VR._GetVideoStreamTextureD3D11 GetVideoStreamTextureD3D11
+    Valve::VR::IVRTrackedCamera::_GetVideoStreamTextureD3D11*& dyn_GetVideoStreamTextureD3D11();
+    // Get instance field reference: Valve.VR.IVRTrackedCamera/Valve.VR._GetVideoStreamTextureGL GetVideoStreamTextureGL
+    Valve::VR::IVRTrackedCamera::_GetVideoStreamTextureGL*& dyn_GetVideoStreamTextureGL();
+    // Get instance field reference: Valve.VR.IVRTrackedCamera/Valve.VR._ReleaseVideoStreamTextureGL ReleaseVideoStreamTextureGL
+    Valve::VR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL*& dyn_ReleaseVideoStreamTextureGL();
   }; // Valve.VR.IVRTrackedCamera
   #pragma pack(pop)
   static check_size<sizeof(IVRTrackedCamera), 88 + sizeof(Valve::VR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL*)> __Valve_VR_IVRTrackedCameraSizeCheck;

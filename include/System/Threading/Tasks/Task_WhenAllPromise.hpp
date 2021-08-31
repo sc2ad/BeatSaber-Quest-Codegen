@@ -43,14 +43,10 @@ namespace System::Threading::Tasks {
     operator System::Threading::Tasks::ITaskCompletionAction() noexcept {
       return *reinterpret_cast<System::Threading::Tasks::ITaskCompletionAction*>(this);
     }
-    // Get instance field: private readonly System.Threading.Tasks.Task[] m_tasks
-    ::Array<System::Threading::Tasks::Task*>* _get_m_tasks();
-    // Set instance field: private readonly System.Threading.Tasks.Task[] m_tasks
-    void _set_m_tasks(::Array<System::Threading::Tasks::Task*>* value);
-    // Get instance field: private System.Int32 m_count
-    int _get_m_count();
-    // Set instance field: private System.Int32 m_count
-    void _set_m_count(int value);
+    // Get instance field reference: private readonly System.Threading.Tasks.Task[] m_tasks
+    ::Array<System::Threading::Tasks::Task*>*& dyn_m_tasks();
+    // Get instance field reference: private System.Int32 m_count
+    int& dyn_m_count();
     // System.Void .ctor(System.Threading.Tasks.Task[] tasks)
     // Offset: 0x1873924
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -75,18 +75,12 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRControllerTest::BoolMonitor* _get_controllers();
     // Set static field: static private OVRControllerTest/BoolMonitor controllers
     static void _set_controllers(GlobalNamespace::OVRControllerTest::BoolMonitor* value);
-    // Get instance field: public UnityEngine.UI.Text uiText
-    UnityEngine::UI::Text* _get_uiText();
-    // Set instance field: public UnityEngine.UI.Text uiText
-    void _set_uiText(UnityEngine::UI::Text* value);
-    // Get instance field: private System.Collections.Generic.List`1<OVRControllerTest/BoolMonitor> monitors
-    System::Collections::Generic::List_1<GlobalNamespace::OVRControllerTest::BoolMonitor*>* _get_monitors();
-    // Set instance field: private System.Collections.Generic.List`1<OVRControllerTest/BoolMonitor> monitors
-    void _set_monitors(System::Collections::Generic::List_1<GlobalNamespace::OVRControllerTest::BoolMonitor*>* value);
-    // Get instance field: private System.Text.StringBuilder data
-    System::Text::StringBuilder* _get_data();
-    // Set instance field: private System.Text.StringBuilder data
-    void _set_data(System::Text::StringBuilder* value);
+    // Get instance field reference: public UnityEngine.UI.Text uiText
+    UnityEngine::UI::Text*& dyn_uiText();
+    // Get instance field reference: private System.Collections.Generic.List`1<OVRControllerTest/BoolMonitor> monitors
+    System::Collections::Generic::List_1<GlobalNamespace::OVRControllerTest::BoolMonitor*>*& dyn_monitors();
+    // Get instance field reference: private System.Text.StringBuilder data
+    System::Text::StringBuilder*& dyn_data();
     // private System.Void Start()
     // Offset: 0x12985E8
     void Start();

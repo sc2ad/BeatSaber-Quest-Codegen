@@ -64,18 +64,12 @@ namespace GlobalNamespace {
     BombCutSoundEffect(UnityEngine::AudioSource* audioSource_ = {}, System::Action_1<GlobalNamespace::BombCutSoundEffect*>* didFinishEvent_ = {}, GlobalNamespace::Saber* saber_ = {}) noexcept : audioSource{audioSource_}, didFinishEvent{didFinishEvent_}, saber{saber_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.AudioSource _audioSource
-    UnityEngine::AudioSource* _get__audioSource();
-    // Set instance field: private UnityEngine.AudioSource _audioSource
-    void _set__audioSource(UnityEngine::AudioSource* value);
-    // Get instance field: private System.Action`1<BombCutSoundEffect> didFinishEvent
-    System::Action_1<GlobalNamespace::BombCutSoundEffect*>* _get_didFinishEvent();
-    // Set instance field: private System.Action`1<BombCutSoundEffect> didFinishEvent
-    void _set_didFinishEvent(System::Action_1<GlobalNamespace::BombCutSoundEffect*>* value);
-    // Get instance field: private Saber _saber
-    GlobalNamespace::Saber* _get__saber();
-    // Set instance field: private Saber _saber
-    void _set__saber(GlobalNamespace::Saber* value);
+    // Get instance field reference: private UnityEngine.AudioSource _audioSource
+    UnityEngine::AudioSource*& dyn__audioSource();
+    // Get instance field reference: private System.Action`1<BombCutSoundEffect> didFinishEvent
+    System::Action_1<GlobalNamespace::BombCutSoundEffect*>*& dyn_didFinishEvent();
+    // Get instance field reference: private Saber _saber
+    GlobalNamespace::Saber*& dyn__saber();
     // public System.Void add_didFinishEvent(System.Action`1<BombCutSoundEffect> value)
     // Offset: 0x10D2488
     void add_didFinishEvent(System::Action_1<GlobalNamespace::BombCutSoundEffect*>* value);

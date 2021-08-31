@@ -159,62 +159,34 @@ namespace System::Net::Http {
     static int64_t _get_groupCounter();
     // Set static field: static private System.Int64 groupCounter
     static void _set_groupCounter(int64_t value);
-    // Get instance field: private System.Boolean allowAutoRedirect
-    bool _get_allowAutoRedirect();
-    // Set instance field: private System.Boolean allowAutoRedirect
-    void _set_allowAutoRedirect(bool value);
-    // Get instance field: private System.Net.DecompressionMethods automaticDecompression
-    System::Net::DecompressionMethods _get_automaticDecompression();
-    // Set instance field: private System.Net.DecompressionMethods automaticDecompression
-    void _set_automaticDecompression(System::Net::DecompressionMethods value);
-    // Get instance field: private System.Net.CookieContainer cookieContainer
-    System::Net::CookieContainer* _get_cookieContainer();
-    // Set instance field: private System.Net.CookieContainer cookieContainer
-    void _set_cookieContainer(System::Net::CookieContainer* value);
-    // Get instance field: private System.Net.ICredentials credentials
-    System::Net::ICredentials* _get_credentials();
-    // Set instance field: private System.Net.ICredentials credentials
-    void _set_credentials(System::Net::ICredentials* value);
-    // Get instance field: private System.Int32 maxAutomaticRedirections
-    int _get_maxAutomaticRedirections();
-    // Set instance field: private System.Int32 maxAutomaticRedirections
-    void _set_maxAutomaticRedirections(int value);
-    // Get instance field: private System.Int64 maxRequestContentBufferSize
-    int64_t _get_maxRequestContentBufferSize();
-    // Set instance field: private System.Int64 maxRequestContentBufferSize
-    void _set_maxRequestContentBufferSize(int64_t value);
-    // Get instance field: private System.Boolean preAuthenticate
-    bool _get_preAuthenticate();
-    // Set instance field: private System.Boolean preAuthenticate
-    void _set_preAuthenticate(bool value);
-    // Get instance field: private System.Net.IWebProxy proxy
-    System::Net::IWebProxy* _get_proxy();
-    // Set instance field: private System.Net.IWebProxy proxy
-    void _set_proxy(System::Net::IWebProxy* value);
-    // Get instance field: private System.Boolean useCookies
-    bool _get_useCookies();
-    // Set instance field: private System.Boolean useCookies
-    void _set_useCookies(bool value);
-    // Get instance field: private System.Boolean useDefaultCredentials
-    bool _get_useDefaultCredentials();
-    // Set instance field: private System.Boolean useDefaultCredentials
-    void _set_useDefaultCredentials(bool value);
-    // Get instance field: private System.Boolean useProxy
-    bool _get_useProxy();
-    // Set instance field: private System.Boolean useProxy
-    void _set_useProxy(bool value);
-    // Get instance field: private System.Boolean sentRequest
-    bool _get_sentRequest();
-    // Set instance field: private System.Boolean sentRequest
-    void _set_sentRequest(bool value);
-    // Get instance field: private System.String connectionGroupName
-    ::Il2CppString* _get_connectionGroupName();
-    // Set instance field: private System.String connectionGroupName
-    void _set_connectionGroupName(::Il2CppString* value);
-    // Get instance field: private System.Boolean disposed
-    bool _get_disposed();
-    // Set instance field: private System.Boolean disposed
-    void _set_disposed(bool value);
+    // Get instance field reference: private System.Boolean allowAutoRedirect
+    bool& dyn_allowAutoRedirect();
+    // Get instance field reference: private System.Net.DecompressionMethods automaticDecompression
+    System::Net::DecompressionMethods& dyn_automaticDecompression();
+    // Get instance field reference: private System.Net.CookieContainer cookieContainer
+    System::Net::CookieContainer*& dyn_cookieContainer();
+    // Get instance field reference: private System.Net.ICredentials credentials
+    System::Net::ICredentials*& dyn_credentials();
+    // Get instance field reference: private System.Int32 maxAutomaticRedirections
+    int& dyn_maxAutomaticRedirections();
+    // Get instance field reference: private System.Int64 maxRequestContentBufferSize
+    int64_t& dyn_maxRequestContentBufferSize();
+    // Get instance field reference: private System.Boolean preAuthenticate
+    bool& dyn_preAuthenticate();
+    // Get instance field reference: private System.Net.IWebProxy proxy
+    System::Net::IWebProxy*& dyn_proxy();
+    // Get instance field reference: private System.Boolean useCookies
+    bool& dyn_useCookies();
+    // Get instance field reference: private System.Boolean useDefaultCredentials
+    bool& dyn_useDefaultCredentials();
+    // Get instance field reference: private System.Boolean useProxy
+    bool& dyn_useProxy();
+    // Get instance field reference: private System.Boolean sentRequest
+    bool& dyn_sentRequest();
+    // Get instance field reference: private System.String connectionGroupName
+    ::Il2CppString*& dyn_connectionGroupName();
+    // Get instance field reference: private System.Boolean disposed
+    bool& dyn_disposed();
     // public System.Net.CookieContainer get_CookieContainer()
     // Offset: 0x15AC1FC
     System::Net::CookieContainer* get_CookieContainer();

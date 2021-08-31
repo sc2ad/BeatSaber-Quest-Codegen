@@ -599,206 +599,106 @@ namespace System::Globalization {
     static System::Globalization::DateTimeFormatInfo* _get_s_zhtwDTFI();
     // Set static field: static private System.Globalization.DateTimeFormatInfo s_zhtwDTFI
     static void _set_s_zhtwDTFI(System::Globalization::DateTimeFormatInfo* value);
-    // Get instance field: private System.Globalization.CultureData m_cultureData
-    System::Globalization::CultureData* _get_m_cultureData();
-    // Set instance field: private System.Globalization.CultureData m_cultureData
-    void _set_m_cultureData(System::Globalization::CultureData* value);
-    // Get instance field: System.String m_name
-    ::Il2CppString* _get_m_name();
-    // Set instance field: System.String m_name
-    void _set_m_name(::Il2CppString* value);
-    // Get instance field: private System.String m_langName
-    ::Il2CppString* _get_m_langName();
-    // Set instance field: private System.String m_langName
-    void _set_m_langName(::Il2CppString* value);
-    // Get instance field: private System.Globalization.CompareInfo m_compareInfo
-    System::Globalization::CompareInfo* _get_m_compareInfo();
-    // Set instance field: private System.Globalization.CompareInfo m_compareInfo
-    void _set_m_compareInfo(System::Globalization::CompareInfo* value);
-    // Get instance field: private System.Globalization.CultureInfo m_cultureInfo
-    System::Globalization::CultureInfo* _get_m_cultureInfo();
-    // Set instance field: private System.Globalization.CultureInfo m_cultureInfo
-    void _set_m_cultureInfo(System::Globalization::CultureInfo* value);
-    // Get instance field: System.String amDesignator
-    ::Il2CppString* _get_amDesignator();
-    // Set instance field: System.String amDesignator
-    void _set_amDesignator(::Il2CppString* value);
-    // Get instance field: System.String pmDesignator
-    ::Il2CppString* _get_pmDesignator();
-    // Set instance field: System.String pmDesignator
-    void _set_pmDesignator(::Il2CppString* value);
-    // Get instance field: System.String dateSeparator
-    ::Il2CppString* _get_dateSeparator();
-    // Set instance field: System.String dateSeparator
-    void _set_dateSeparator(::Il2CppString* value);
-    // Get instance field: System.String generalShortTimePattern
-    ::Il2CppString* _get_generalShortTimePattern();
-    // Set instance field: System.String generalShortTimePattern
-    void _set_generalShortTimePattern(::Il2CppString* value);
-    // Get instance field: System.String generalLongTimePattern
-    ::Il2CppString* _get_generalLongTimePattern();
-    // Set instance field: System.String generalLongTimePattern
-    void _set_generalLongTimePattern(::Il2CppString* value);
-    // Get instance field: System.String timeSeparator
-    ::Il2CppString* _get_timeSeparator();
-    // Set instance field: System.String timeSeparator
-    void _set_timeSeparator(::Il2CppString* value);
-    // Get instance field: System.String monthDayPattern
-    ::Il2CppString* _get_monthDayPattern();
-    // Set instance field: System.String monthDayPattern
-    void _set_monthDayPattern(::Il2CppString* value);
-    // Get instance field: System.String dateTimeOffsetPattern
-    ::Il2CppString* _get_dateTimeOffsetPattern();
-    // Set instance field: System.String dateTimeOffsetPattern
-    void _set_dateTimeOffsetPattern(::Il2CppString* value);
-    // Get instance field: System.Globalization.Calendar calendar
-    System::Globalization::Calendar* _get_calendar();
-    // Set instance field: System.Globalization.Calendar calendar
-    void _set_calendar(System::Globalization::Calendar* value);
-    // Get instance field: System.Int32 firstDayOfWeek
-    int _get_firstDayOfWeek();
-    // Set instance field: System.Int32 firstDayOfWeek
-    void _set_firstDayOfWeek(int value);
-    // Get instance field: System.Int32 calendarWeekRule
-    int _get_calendarWeekRule();
-    // Set instance field: System.Int32 calendarWeekRule
-    void _set_calendarWeekRule(int value);
-    // Get instance field: System.String fullDateTimePattern
-    ::Il2CppString* _get_fullDateTimePattern();
-    // Set instance field: System.String fullDateTimePattern
-    void _set_fullDateTimePattern(::Il2CppString* value);
-    // Get instance field: System.String[] abbreviatedDayNames
-    ::Array<::Il2CppString*>* _get_abbreviatedDayNames();
-    // Set instance field: System.String[] abbreviatedDayNames
-    void _set_abbreviatedDayNames(::Array<::Il2CppString*>* value);
-    // Get instance field: System.String[] m_superShortDayNames
-    ::Array<::Il2CppString*>* _get_m_superShortDayNames();
-    // Set instance field: System.String[] m_superShortDayNames
-    void _set_m_superShortDayNames(::Array<::Il2CppString*>* value);
-    // Get instance field: System.String[] dayNames
-    ::Array<::Il2CppString*>* _get_dayNames();
-    // Set instance field: System.String[] dayNames
-    void _set_dayNames(::Array<::Il2CppString*>* value);
-    // Get instance field: System.String[] abbreviatedMonthNames
-    ::Array<::Il2CppString*>* _get_abbreviatedMonthNames();
-    // Set instance field: System.String[] abbreviatedMonthNames
-    void _set_abbreviatedMonthNames(::Array<::Il2CppString*>* value);
-    // Get instance field: System.String[] monthNames
-    ::Array<::Il2CppString*>* _get_monthNames();
-    // Set instance field: System.String[] monthNames
-    void _set_monthNames(::Array<::Il2CppString*>* value);
-    // Get instance field: System.String[] genitiveMonthNames
-    ::Array<::Il2CppString*>* _get_genitiveMonthNames();
-    // Set instance field: System.String[] genitiveMonthNames
-    void _set_genitiveMonthNames(::Array<::Il2CppString*>* value);
-    // Get instance field: System.String[] m_genitiveAbbreviatedMonthNames
-    ::Array<::Il2CppString*>* _get_m_genitiveAbbreviatedMonthNames();
-    // Set instance field: System.String[] m_genitiveAbbreviatedMonthNames
-    void _set_m_genitiveAbbreviatedMonthNames(::Array<::Il2CppString*>* value);
-    // Get instance field: System.String[] leapYearMonthNames
-    ::Array<::Il2CppString*>* _get_leapYearMonthNames();
-    // Set instance field: System.String[] leapYearMonthNames
-    void _set_leapYearMonthNames(::Array<::Il2CppString*>* value);
-    // Get instance field: System.String longDatePattern
-    ::Il2CppString* _get_longDatePattern();
-    // Set instance field: System.String longDatePattern
-    void _set_longDatePattern(::Il2CppString* value);
-    // Get instance field: System.String shortDatePattern
-    ::Il2CppString* _get_shortDatePattern();
-    // Set instance field: System.String shortDatePattern
-    void _set_shortDatePattern(::Il2CppString* value);
-    // Get instance field: System.String yearMonthPattern
-    ::Il2CppString* _get_yearMonthPattern();
-    // Set instance field: System.String yearMonthPattern
-    void _set_yearMonthPattern(::Il2CppString* value);
-    // Get instance field: System.String longTimePattern
-    ::Il2CppString* _get_longTimePattern();
-    // Set instance field: System.String longTimePattern
-    void _set_longTimePattern(::Il2CppString* value);
-    // Get instance field: System.String shortTimePattern
-    ::Il2CppString* _get_shortTimePattern();
-    // Set instance field: System.String shortTimePattern
-    void _set_shortTimePattern(::Il2CppString* value);
-    // Get instance field: private System.String[] allYearMonthPatterns
-    ::Array<::Il2CppString*>* _get_allYearMonthPatterns();
-    // Set instance field: private System.String[] allYearMonthPatterns
-    void _set_allYearMonthPatterns(::Array<::Il2CppString*>* value);
-    // Get instance field: System.String[] allShortDatePatterns
-    ::Array<::Il2CppString*>* _get_allShortDatePatterns();
-    // Set instance field: System.String[] allShortDatePatterns
-    void _set_allShortDatePatterns(::Array<::Il2CppString*>* value);
-    // Get instance field: System.String[] allLongDatePatterns
-    ::Array<::Il2CppString*>* _get_allLongDatePatterns();
-    // Set instance field: System.String[] allLongDatePatterns
-    void _set_allLongDatePatterns(::Array<::Il2CppString*>* value);
-    // Get instance field: System.String[] allShortTimePatterns
-    ::Array<::Il2CppString*>* _get_allShortTimePatterns();
-    // Set instance field: System.String[] allShortTimePatterns
-    void _set_allShortTimePatterns(::Array<::Il2CppString*>* value);
-    // Get instance field: System.String[] allLongTimePatterns
-    ::Array<::Il2CppString*>* _get_allLongTimePatterns();
-    // Set instance field: System.String[] allLongTimePatterns
-    void _set_allLongTimePatterns(::Array<::Il2CppString*>* value);
-    // Get instance field: System.String[] m_eraNames
-    ::Array<::Il2CppString*>* _get_m_eraNames();
-    // Set instance field: System.String[] m_eraNames
-    void _set_m_eraNames(::Array<::Il2CppString*>* value);
-    // Get instance field: System.String[] m_abbrevEraNames
-    ::Array<::Il2CppString*>* _get_m_abbrevEraNames();
-    // Set instance field: System.String[] m_abbrevEraNames
-    void _set_m_abbrevEraNames(::Array<::Il2CppString*>* value);
-    // Get instance field: System.String[] m_abbrevEnglishEraNames
-    ::Array<::Il2CppString*>* _get_m_abbrevEnglishEraNames();
-    // Set instance field: System.String[] m_abbrevEnglishEraNames
-    void _set_m_abbrevEnglishEraNames(::Array<::Il2CppString*>* value);
-    // Get instance field: System.Int32[] optionalCalendars
-    ::Array<int>* _get_optionalCalendars();
-    // Set instance field: System.Int32[] optionalCalendars
-    void _set_optionalCalendars(::Array<int>* value);
-    // Get instance field: System.Boolean m_isReadOnly
-    bool _get_m_isReadOnly();
-    // Set instance field: System.Boolean m_isReadOnly
-    void _set_m_isReadOnly(bool value);
-    // Get instance field: System.Globalization.DateTimeFormatFlags formatFlags
-    System::Globalization::DateTimeFormatFlags _get_formatFlags();
-    // Set instance field: System.Globalization.DateTimeFormatFlags formatFlags
-    void _set_formatFlags(System::Globalization::DateTimeFormatFlags value);
-    // Get instance field: private System.Int32 CultureID
-    int _get_CultureID();
-    // Set instance field: private System.Int32 CultureID
-    void _set_CultureID(int value);
-    // Get instance field: private System.Boolean m_useUserOverride
-    bool _get_m_useUserOverride();
-    // Set instance field: private System.Boolean m_useUserOverride
-    void _set_m_useUserOverride(bool value);
-    // Get instance field: private System.Boolean bUseCalendarInfo
-    bool _get_bUseCalendarInfo();
-    // Set instance field: private System.Boolean bUseCalendarInfo
-    void _set_bUseCalendarInfo(bool value);
-    // Get instance field: private System.Int32 nDataItem
-    int _get_nDataItem();
-    // Set instance field: private System.Int32 nDataItem
-    void _set_nDataItem(int value);
-    // Get instance field: System.Boolean m_isDefaultCalendar
-    bool _get_m_isDefaultCalendar();
-    // Set instance field: System.Boolean m_isDefaultCalendar
-    void _set_m_isDefaultCalendar(bool value);
-    // Get instance field: System.String[] m_dateWords
-    ::Array<::Il2CppString*>* _get_m_dateWords();
-    // Set instance field: System.String[] m_dateWords
-    void _set_m_dateWords(::Array<::Il2CppString*>* value);
-    // Get instance field: private System.String m_fullTimeSpanPositivePattern
-    ::Il2CppString* _get_m_fullTimeSpanPositivePattern();
-    // Set instance field: private System.String m_fullTimeSpanPositivePattern
-    void _set_m_fullTimeSpanPositivePattern(::Il2CppString* value);
-    // Get instance field: private System.String m_fullTimeSpanNegativePattern
-    ::Il2CppString* _get_m_fullTimeSpanNegativePattern();
-    // Set instance field: private System.String m_fullTimeSpanNegativePattern
-    void _set_m_fullTimeSpanNegativePattern(::Il2CppString* value);
-    // Get instance field: private System.Globalization.TokenHashValue[] m_dtfiTokenHash
-    ::Array<System::Globalization::TokenHashValue*>* _get_m_dtfiTokenHash();
-    // Set instance field: private System.Globalization.TokenHashValue[] m_dtfiTokenHash
-    void _set_m_dtfiTokenHash(::Array<System::Globalization::TokenHashValue*>* value);
+    // Get instance field reference: private System.Globalization.CultureData m_cultureData
+    System::Globalization::CultureData*& dyn_m_cultureData();
+    // Get instance field reference: System.String m_name
+    ::Il2CppString*& dyn_m_name();
+    // Get instance field reference: private System.String m_langName
+    ::Il2CppString*& dyn_m_langName();
+    // Get instance field reference: private System.Globalization.CompareInfo m_compareInfo
+    System::Globalization::CompareInfo*& dyn_m_compareInfo();
+    // Get instance field reference: private System.Globalization.CultureInfo m_cultureInfo
+    System::Globalization::CultureInfo*& dyn_m_cultureInfo();
+    // Get instance field reference: System.String amDesignator
+    ::Il2CppString*& dyn_amDesignator();
+    // Get instance field reference: System.String pmDesignator
+    ::Il2CppString*& dyn_pmDesignator();
+    // Get instance field reference: System.String dateSeparator
+    ::Il2CppString*& dyn_dateSeparator();
+    // Get instance field reference: System.String generalShortTimePattern
+    ::Il2CppString*& dyn_generalShortTimePattern();
+    // Get instance field reference: System.String generalLongTimePattern
+    ::Il2CppString*& dyn_generalLongTimePattern();
+    // Get instance field reference: System.String timeSeparator
+    ::Il2CppString*& dyn_timeSeparator();
+    // Get instance field reference: System.String monthDayPattern
+    ::Il2CppString*& dyn_monthDayPattern();
+    // Get instance field reference: System.String dateTimeOffsetPattern
+    ::Il2CppString*& dyn_dateTimeOffsetPattern();
+    // Get instance field reference: System.Globalization.Calendar calendar
+    System::Globalization::Calendar*& dyn_calendar();
+    // Get instance field reference: System.Int32 firstDayOfWeek
+    int& dyn_firstDayOfWeek();
+    // Get instance field reference: System.Int32 calendarWeekRule
+    int& dyn_calendarWeekRule();
+    // Get instance field reference: System.String fullDateTimePattern
+    ::Il2CppString*& dyn_fullDateTimePattern();
+    // Get instance field reference: System.String[] abbreviatedDayNames
+    ::Array<::Il2CppString*>*& dyn_abbreviatedDayNames();
+    // Get instance field reference: System.String[] m_superShortDayNames
+    ::Array<::Il2CppString*>*& dyn_m_superShortDayNames();
+    // Get instance field reference: System.String[] dayNames
+    ::Array<::Il2CppString*>*& dyn_dayNames();
+    // Get instance field reference: System.String[] abbreviatedMonthNames
+    ::Array<::Il2CppString*>*& dyn_abbreviatedMonthNames();
+    // Get instance field reference: System.String[] monthNames
+    ::Array<::Il2CppString*>*& dyn_monthNames();
+    // Get instance field reference: System.String[] genitiveMonthNames
+    ::Array<::Il2CppString*>*& dyn_genitiveMonthNames();
+    // Get instance field reference: System.String[] m_genitiveAbbreviatedMonthNames
+    ::Array<::Il2CppString*>*& dyn_m_genitiveAbbreviatedMonthNames();
+    // Get instance field reference: System.String[] leapYearMonthNames
+    ::Array<::Il2CppString*>*& dyn_leapYearMonthNames();
+    // Get instance field reference: System.String longDatePattern
+    ::Il2CppString*& dyn_longDatePattern();
+    // Get instance field reference: System.String shortDatePattern
+    ::Il2CppString*& dyn_shortDatePattern();
+    // Get instance field reference: System.String yearMonthPattern
+    ::Il2CppString*& dyn_yearMonthPattern();
+    // Get instance field reference: System.String longTimePattern
+    ::Il2CppString*& dyn_longTimePattern();
+    // Get instance field reference: System.String shortTimePattern
+    ::Il2CppString*& dyn_shortTimePattern();
+    // Get instance field reference: private System.String[] allYearMonthPatterns
+    ::Array<::Il2CppString*>*& dyn_allYearMonthPatterns();
+    // Get instance field reference: System.String[] allShortDatePatterns
+    ::Array<::Il2CppString*>*& dyn_allShortDatePatterns();
+    // Get instance field reference: System.String[] allLongDatePatterns
+    ::Array<::Il2CppString*>*& dyn_allLongDatePatterns();
+    // Get instance field reference: System.String[] allShortTimePatterns
+    ::Array<::Il2CppString*>*& dyn_allShortTimePatterns();
+    // Get instance field reference: System.String[] allLongTimePatterns
+    ::Array<::Il2CppString*>*& dyn_allLongTimePatterns();
+    // Get instance field reference: System.String[] m_eraNames
+    ::Array<::Il2CppString*>*& dyn_m_eraNames();
+    // Get instance field reference: System.String[] m_abbrevEraNames
+    ::Array<::Il2CppString*>*& dyn_m_abbrevEraNames();
+    // Get instance field reference: System.String[] m_abbrevEnglishEraNames
+    ::Array<::Il2CppString*>*& dyn_m_abbrevEnglishEraNames();
+    // Get instance field reference: System.Int32[] optionalCalendars
+    ::Array<int>*& dyn_optionalCalendars();
+    // Get instance field reference: System.Boolean m_isReadOnly
+    bool& dyn_m_isReadOnly();
+    // Get instance field reference: System.Globalization.DateTimeFormatFlags formatFlags
+    System::Globalization::DateTimeFormatFlags& dyn_formatFlags();
+    // Get instance field reference: private System.Int32 CultureID
+    int& dyn_CultureID();
+    // Get instance field reference: private System.Boolean m_useUserOverride
+    bool& dyn_m_useUserOverride();
+    // Get instance field reference: private System.Boolean bUseCalendarInfo
+    bool& dyn_bUseCalendarInfo();
+    // Get instance field reference: private System.Int32 nDataItem
+    int& dyn_nDataItem();
+    // Get instance field reference: System.Boolean m_isDefaultCalendar
+    bool& dyn_m_isDefaultCalendar();
+    // Get instance field reference: System.String[] m_dateWords
+    ::Array<::Il2CppString*>*& dyn_m_dateWords();
+    // Get instance field reference: private System.String m_fullTimeSpanPositivePattern
+    ::Il2CppString*& dyn_m_fullTimeSpanPositivePattern();
+    // Get instance field reference: private System.String m_fullTimeSpanNegativePattern
+    ::Il2CppString*& dyn_m_fullTimeSpanNegativePattern();
+    // Get instance field reference: private System.Globalization.TokenHashValue[] m_dtfiTokenHash
+    ::Array<System::Globalization::TokenHashValue*>*& dyn_m_dtfiTokenHash();
     // private System.String get_CultureName()
     // Offset: 0x180E0D0
     ::Il2CppString* get_CultureName();

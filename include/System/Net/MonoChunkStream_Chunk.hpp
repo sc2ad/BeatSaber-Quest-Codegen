@@ -34,14 +34,10 @@ namespace System::Net {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: Chunk
     Chunk(::Array<uint8_t>* Bytes_ = {}, int Offset_ = {}) noexcept : Bytes{Bytes_}, Offset{Offset_} {}
-    // Get instance field: public System.Byte[] Bytes
-    ::Array<uint8_t>* _get_Bytes();
-    // Set instance field: public System.Byte[] Bytes
-    void _set_Bytes(::Array<uint8_t>* value);
-    // Get instance field: public System.Int32 Offset
-    int _get_Offset();
-    // Set instance field: public System.Int32 Offset
-    void _set_Offset(int value);
+    // Get instance field reference: public System.Byte[] Bytes
+    ::Array<uint8_t>*& dyn_Bytes();
+    // Get instance field reference: public System.Int32 Offset
+    int& dyn_Offset();
     // public System.Void .ctor(System.Byte[] chunk)
     // Offset: 0x167F5C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -90,34 +90,20 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::MultiplayerModeSettings*) == 0x8);
     // Creating value type constructor for type: JoinQuickPlayViewController
     JoinQuickPlayViewController(GlobalNamespace::BeatmapDifficultyDropdown* beatmapDifficultyDropdown_ = {}, GlobalNamespace::QuickPlaySongPacksDropdown* songPacksDropdown_ = {}, UnityEngine::UI::Toggle* levelSelectionToggle_ = {}, UnityEngine::UI::Button* joinButton_ = {}, UnityEngine::UI::Button* cancelJoinButton_ = {}, System::Action_1<bool>* didFinishEvent_ = {}, GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings_ = {}) noexcept : beatmapDifficultyDropdown{beatmapDifficultyDropdown_}, songPacksDropdown{songPacksDropdown_}, levelSelectionToggle{levelSelectionToggle_}, joinButton{joinButton_}, cancelJoinButton{cancelJoinButton_}, didFinishEvent{didFinishEvent_}, multiplayerModeSettings{multiplayerModeSettings_} {}
-    // Get instance field: private BeatmapDifficultyDropdown _beatmapDifficultyDropdown
-    GlobalNamespace::BeatmapDifficultyDropdown* _get__beatmapDifficultyDropdown();
-    // Set instance field: private BeatmapDifficultyDropdown _beatmapDifficultyDropdown
-    void _set__beatmapDifficultyDropdown(GlobalNamespace::BeatmapDifficultyDropdown* value);
-    // Get instance field: private QuickPlaySongPacksDropdown _songPacksDropdown
-    GlobalNamespace::QuickPlaySongPacksDropdown* _get__songPacksDropdown();
-    // Set instance field: private QuickPlaySongPacksDropdown _songPacksDropdown
-    void _set__songPacksDropdown(GlobalNamespace::QuickPlaySongPacksDropdown* value);
-    // Get instance field: private UnityEngine.UI.Toggle _levelSelectionToggle
-    UnityEngine::UI::Toggle* _get__levelSelectionToggle();
-    // Set instance field: private UnityEngine.UI.Toggle _levelSelectionToggle
-    void _set__levelSelectionToggle(UnityEngine::UI::Toggle* value);
-    // Get instance field: private UnityEngine.UI.Button _joinButton
-    UnityEngine::UI::Button* _get__joinButton();
-    // Set instance field: private UnityEngine.UI.Button _joinButton
-    void _set__joinButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _cancelJoinButton
-    UnityEngine::UI::Button* _get__cancelJoinButton();
-    // Set instance field: private UnityEngine.UI.Button _cancelJoinButton
-    void _set__cancelJoinButton(UnityEngine::UI::Button* value);
-    // Get instance field: private System.Action`1<System.Boolean> didFinishEvent
-    System::Action_1<bool>* _get_didFinishEvent();
-    // Set instance field: private System.Action`1<System.Boolean> didFinishEvent
-    void _set_didFinishEvent(System::Action_1<bool>* value);
-    // Get instance field: private MultiplayerModeSettings _multiplayerModeSettings
-    GlobalNamespace::MultiplayerModeSettings* _get__multiplayerModeSettings();
-    // Set instance field: private MultiplayerModeSettings _multiplayerModeSettings
-    void _set__multiplayerModeSettings(GlobalNamespace::MultiplayerModeSettings* value);
+    // Get instance field reference: private BeatmapDifficultyDropdown _beatmapDifficultyDropdown
+    GlobalNamespace::BeatmapDifficultyDropdown*& dyn__beatmapDifficultyDropdown();
+    // Get instance field reference: private QuickPlaySongPacksDropdown _songPacksDropdown
+    GlobalNamespace::QuickPlaySongPacksDropdown*& dyn__songPacksDropdown();
+    // Get instance field reference: private UnityEngine.UI.Toggle _levelSelectionToggle
+    UnityEngine::UI::Toggle*& dyn__levelSelectionToggle();
+    // Get instance field reference: private UnityEngine.UI.Button _joinButton
+    UnityEngine::UI::Button*& dyn__joinButton();
+    // Get instance field reference: private UnityEngine.UI.Button _cancelJoinButton
+    UnityEngine::UI::Button*& dyn__cancelJoinButton();
+    // Get instance field reference: private System.Action`1<System.Boolean> didFinishEvent
+    System::Action_1<bool>*& dyn_didFinishEvent();
+    // Get instance field reference: private MultiplayerModeSettings _multiplayerModeSettings
+    GlobalNamespace::MultiplayerModeSettings*& dyn__multiplayerModeSettings();
     // public MultiplayerModeSettings get_multiplayerModeSettings()
     // Offset: 0x1147160
     GlobalNamespace::MultiplayerModeSettings* get_multiplayerModeSettings();

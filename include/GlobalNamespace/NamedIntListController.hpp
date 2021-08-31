@@ -61,18 +61,12 @@ namespace GlobalNamespace {
     operator HMUI::IValueChanger_1<int>() noexcept {
       return *reinterpret_cast<HMUI::IValueChanger_1<int>*>(this);
     }
-    // Get instance field: private NamedIntListController/TextValuePair[] _textValuePairs
-    ::Array<GlobalNamespace::NamedIntListController::TextValuePair*>* _get__textValuePairs();
-    // Set instance field: private NamedIntListController/TextValuePair[] _textValuePairs
-    void _set__textValuePairs(::Array<GlobalNamespace::NamedIntListController::TextValuePair*>* value);
-    // Get instance field: private System.Int32 _value
-    int _get__value();
-    // Set instance field: private System.Int32 _value
-    void _set__value(int value);
-    // Get instance field: private System.Action`1<System.Int32> valueChangedEvent
-    System::Action_1<int>* _get_valueChangedEvent();
-    // Set instance field: private System.Action`1<System.Int32> valueChangedEvent
-    void _set_valueChangedEvent(System::Action_1<int>* value);
+    // Get instance field reference: private NamedIntListController/TextValuePair[] _textValuePairs
+    ::Array<GlobalNamespace::NamedIntListController::TextValuePair*>*& dyn__textValuePairs();
+    // Get instance field reference: private System.Int32 _value
+    int& dyn__value();
+    // Get instance field reference: private System.Action`1<System.Int32> valueChangedEvent
+    System::Action_1<int>*& dyn_valueChangedEvent();
     // public System.Void add_valueChangedEvent(System.Action`1<System.Int32> value)
     // Offset: 0x103D308
     void add_valueChangedEvent(System::Action_1<int>* value);

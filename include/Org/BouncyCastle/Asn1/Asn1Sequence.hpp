@@ -55,10 +55,8 @@ namespace Org::BouncyCastle::Asn1 {
     constexpr operator ::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>*() const noexcept {
       return elements;
     }
-    // Get instance field: Org.BouncyCastle.Asn1.Asn1Encodable[] elements
-    ::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>* _get_elements();
-    // Set instance field: Org.BouncyCastle.Asn1.Asn1Encodable[] elements
-    void _set_elements(::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>* value);
+    // Get instance field reference: Org.BouncyCastle.Asn1.Asn1Encodable[] elements
+    ::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>*& dyn_elements();
     // public Org.BouncyCastle.Asn1.Asn1Encodable get_Item(System.Int32 index)
     // Offset: 0x172BAD4
     Org::BouncyCastle::Asn1::Asn1Encodable* get_Item(int index);

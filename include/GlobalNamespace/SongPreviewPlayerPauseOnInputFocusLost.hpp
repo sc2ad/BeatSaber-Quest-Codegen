@@ -46,14 +46,10 @@ namespace GlobalNamespace {
     SongPreviewPlayerPauseOnInputFocusLost(GlobalNamespace::AudioPlayerBase* songPreviewPlayer_ = {}, GlobalNamespace::IVRPlatformHelper* vrPlatformHelper_ = {}) noexcept : songPreviewPlayer{songPreviewPlayer_}, vrPlatformHelper{vrPlatformHelper_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private AudioPlayerBase _songPreviewPlayer
-    GlobalNamespace::AudioPlayerBase* _get__songPreviewPlayer();
-    // Set instance field: private AudioPlayerBase _songPreviewPlayer
-    void _set__songPreviewPlayer(GlobalNamespace::AudioPlayerBase* value);
-    // Get instance field: private readonly IVRPlatformHelper _vrPlatformHelper
-    GlobalNamespace::IVRPlatformHelper* _get__vrPlatformHelper();
-    // Set instance field: private readonly IVRPlatformHelper _vrPlatformHelper
-    void _set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper* value);
+    // Get instance field reference: private AudioPlayerBase _songPreviewPlayer
+    GlobalNamespace::AudioPlayerBase*& dyn__songPreviewPlayer();
+    // Get instance field reference: private readonly IVRPlatformHelper _vrPlatformHelper
+    GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
     // protected System.Void Start()
     // Offset: 0x108183C
     void Start();

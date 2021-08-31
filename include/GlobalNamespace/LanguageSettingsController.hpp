@@ -35,10 +35,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::LanguageSO*) == 0x8);
     // Creating value type constructor for type: LanguageSettingsController
     LanguageSettingsController(GlobalNamespace::LanguageSO* settingsValue_ = {}) noexcept : settingsValue{settingsValue_} {}
-    // Get instance field: private LanguageSO _settingsValue
-    GlobalNamespace::LanguageSO* _get__settingsValue();
-    // Set instance field: private LanguageSO _settingsValue
-    void _set__settingsValue(GlobalNamespace::LanguageSO* value);
+    // Get instance field reference: private LanguageSO _settingsValue
+    GlobalNamespace::LanguageSO*& dyn__settingsValue();
     // public System.Void .ctor()
     // Offset: 0x11478B8
     // Implemented from: DropdownSettingsController

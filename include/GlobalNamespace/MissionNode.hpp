@@ -80,30 +80,18 @@ namespace GlobalNamespace {
     MissionNode(GlobalNamespace::MissionDataSO* missionDataSO_ = {}, ::Il2CppString* letterPartName_ = {}, int numberPartName_ = {}, UnityEngine::RectTransform* rectTransform_ = {}, GlobalNamespace::MissionNodeVisualController* missionNodeVisualController_ = {}, ::Array<GlobalNamespace::MissionNode*>* childNodes_ = {}) noexcept : missionDataSO{missionDataSO_}, letterPartName{letterPartName_}, numberPartName{numberPartName_}, rectTransform{rectTransform_}, missionNodeVisualController{missionNodeVisualController_}, childNodes{childNodes_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private MissionDataSO _missionDataSO
-    GlobalNamespace::MissionDataSO* _get__missionDataSO();
-    // Set instance field: private MissionDataSO _missionDataSO
-    void _set__missionDataSO(GlobalNamespace::MissionDataSO* value);
-    // Get instance field: private System.String _letterPartName
-    ::Il2CppString* _get__letterPartName();
-    // Set instance field: private System.String _letterPartName
-    void _set__letterPartName(::Il2CppString* value);
-    // Get instance field: private System.Int32 _numberPartName
-    int _get__numberPartName();
-    // Set instance field: private System.Int32 _numberPartName
-    void _set__numberPartName(int value);
-    // Get instance field: private UnityEngine.RectTransform _rectTransform
-    UnityEngine::RectTransform* _get__rectTransform();
-    // Set instance field: private UnityEngine.RectTransform _rectTransform
-    void _set__rectTransform(UnityEngine::RectTransform* value);
-    // Get instance field: private MissionNodeVisualController _missionNodeVisualController
-    GlobalNamespace::MissionNodeVisualController* _get__missionNodeVisualController();
-    // Set instance field: private MissionNodeVisualController _missionNodeVisualController
-    void _set__missionNodeVisualController(GlobalNamespace::MissionNodeVisualController* value);
-    // Get instance field: private MissionNode[] _childNodes
-    ::Array<GlobalNamespace::MissionNode*>* _get__childNodes();
-    // Set instance field: private MissionNode[] _childNodes
-    void _set__childNodes(::Array<GlobalNamespace::MissionNode*>* value);
+    // Get instance field reference: private MissionDataSO _missionDataSO
+    GlobalNamespace::MissionDataSO*& dyn__missionDataSO();
+    // Get instance field reference: private System.String _letterPartName
+    ::Il2CppString*& dyn__letterPartName();
+    // Get instance field reference: private System.Int32 _numberPartName
+    int& dyn__numberPartName();
+    // Get instance field reference: private UnityEngine.RectTransform _rectTransform
+    UnityEngine::RectTransform*& dyn__rectTransform();
+    // Get instance field reference: private MissionNodeVisualController _missionNodeVisualController
+    GlobalNamespace::MissionNodeVisualController*& dyn__missionNodeVisualController();
+    // Get instance field reference: private MissionNode[] _childNodes
+    ::Array<GlobalNamespace::MissionNode*>*& dyn__childNodes();
     // public MissionDataSO get_missionData()
     // Offset: 0x11D5378
     GlobalNamespace::MissionDataSO* get_missionData();

@@ -59,14 +59,10 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public UnityEngine.LogType Type
-      UnityEngine::LogType _get_Type();
-      // Set instance field: public UnityEngine.LogType Type
-      void _set_Type(UnityEngine::LogType value);
-      // Get instance field: public System.String Message
-      ::Il2CppString* _get_Message();
-      // Set instance field: public System.String Message
-      void _set_Message(::Il2CppString* value);
+      // Get instance field reference: public UnityEngine.LogType Type
+      UnityEngine::LogType& dyn_Type();
+      // Get instance field reference: public System.String Message
+      ::Il2CppString*& dyn_Message();
       // public System.Void .ctor(UnityEngine.LogType type, System.String message)
       // Offset: 0x1433860
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -87,10 +83,8 @@ namespace GlobalNamespace {
     constexpr operator System::Collections::Generic::List_1<GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>*() const noexcept {
       return m_RuntimeBuildLogs;
     }
-    // Get instance field: private System.Collections.Generic.List`1<PackedPlayModeBuildLogs/RuntimeBuildLog> m_RuntimeBuildLogs
-    System::Collections::Generic::List_1<GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>* _get_m_RuntimeBuildLogs();
-    // Set instance field: private System.Collections.Generic.List`1<PackedPlayModeBuildLogs/RuntimeBuildLog> m_RuntimeBuildLogs
-    void _set_m_RuntimeBuildLogs(System::Collections::Generic::List_1<GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>* value);
+    // Get instance field reference: private System.Collections.Generic.List`1<PackedPlayModeBuildLogs/RuntimeBuildLog> m_RuntimeBuildLogs
+    System::Collections::Generic::List_1<GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>*& dyn_m_RuntimeBuildLogs();
     // public System.Collections.Generic.List`1<PackedPlayModeBuildLogs/RuntimeBuildLog> get_RuntimeBuildLogs()
     // Offset: 0x14337E0
     System::Collections::Generic::List_1<GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>* get_RuntimeBuildLogs();

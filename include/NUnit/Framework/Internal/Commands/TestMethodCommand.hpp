@@ -47,14 +47,10 @@ namespace NUnit::Framework::Internal::Commands {
     TestMethodCommand(NUnit::Framework::Internal::TestMethod* testMethod_ = {}, ::Array<::Il2CppObject*>* arguments_ = {}) noexcept : testMethod{testMethod_}, arguments{arguments_} {}
     // Deleting conversion operator: operator NUnit::Framework::Internal::Test*
     constexpr operator NUnit::Framework::Internal::Test*() const noexcept = delete;
-    // Get instance field: private readonly NUnit.Framework.Internal.TestMethod testMethod
-    NUnit::Framework::Internal::TestMethod* _get_testMethod();
-    // Set instance field: private readonly NUnit.Framework.Internal.TestMethod testMethod
-    void _set_testMethod(NUnit::Framework::Internal::TestMethod* value);
-    // Get instance field: private readonly System.Object[] arguments
-    ::Array<::Il2CppObject*>* _get_arguments();
-    // Set instance field: private readonly System.Object[] arguments
-    void _set_arguments(::Array<::Il2CppObject*>* value);
+    // Get instance field reference: private readonly NUnit.Framework.Internal.TestMethod testMethod
+    NUnit::Framework::Internal::TestMethod*& dyn_testMethod();
+    // Get instance field reference: private readonly System.Object[] arguments
+    ::Array<::Il2CppObject*>*& dyn_arguments();
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod testMethod)
     // Offset: 0x1778948
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

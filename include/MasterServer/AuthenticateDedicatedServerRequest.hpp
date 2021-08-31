@@ -75,22 +75,14 @@ namespace MasterServer {
     operator MasterServer::IDedicatedServerMessage() noexcept {
       return *reinterpret_cast<MasterServer::IDedicatedServerMessage*>(this);
     }
-    // Get instance field: private System.String <dedicatedServerId>k__BackingField
-    ::Il2CppString* _get_$dedicatedServerId$k__BackingField();
-    // Set instance field: private System.String <dedicatedServerId>k__BackingField
-    void _set_$dedicatedServerId$k__BackingField(::Il2CppString* value);
-    // Get instance field: public readonly ByteArrayNetSerializable nonce
-    GlobalNamespace::ByteArrayNetSerializable* _get_nonce();
-    // Set instance field: public readonly ByteArrayNetSerializable nonce
-    void _set_nonce(GlobalNamespace::ByteArrayNetSerializable* value);
-    // Get instance field: public readonly ByteArrayNetSerializable hash
-    GlobalNamespace::ByteArrayNetSerializable* _get_hash();
-    // Set instance field: public readonly ByteArrayNetSerializable hash
-    void _set_hash(GlobalNamespace::ByteArrayNetSerializable* value);
-    // Get instance field: public System.Int64 timestamp
-    int64_t _get_timestamp();
-    // Set instance field: public System.Int64 timestamp
-    void _set_timestamp(int64_t value);
+    // Get instance field reference: private System.String <dedicatedServerId>k__BackingField
+    ::Il2CppString*& dyn_$dedicatedServerId$k__BackingField();
+    // Get instance field reference: public readonly ByteArrayNetSerializable nonce
+    GlobalNamespace::ByteArrayNetSerializable*& dyn_nonce();
+    // Get instance field reference: public readonly ByteArrayNetSerializable hash
+    GlobalNamespace::ByteArrayNetSerializable*& dyn_hash();
+    // Get instance field reference: public System.Int64 timestamp
+    int64_t& dyn_timestamp();
     // static public PacketPool`1<MasterServer.AuthenticateDedicatedServerRequest> get_pool()
     // Offset: 0x132E47C
     static GlobalNamespace::PacketPool_1<MasterServer::AuthenticateDedicatedServerRequest*>* get_pool();

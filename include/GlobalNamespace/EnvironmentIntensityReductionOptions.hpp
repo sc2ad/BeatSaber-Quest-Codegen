@@ -65,10 +65,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::EnvironmentIntensityReductionOptions::CompressExpandReductionType _get_RemoveWithStrobeFilter();
       // Set static field: static public EnvironmentIntensityReductionOptions/CompressExpandReductionType RemoveWithStrobeFilter
       static void _set_RemoveWithStrobeFilter(GlobalNamespace::EnvironmentIntensityReductionOptions::CompressExpandReductionType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // EnvironmentIntensityReductionOptions/CompressExpandReductionType
     #pragma pack(pop)
     static check_size<sizeof(EnvironmentIntensityReductionOptions::CompressExpandReductionType), 0 + sizeof(int)> __GlobalNamespace_EnvironmentIntensityReductionOptions_CompressExpandReductionTypeSizeCheck;
@@ -107,10 +105,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType _get_RemoveWithStrobeFilter();
       // Set static field: static public EnvironmentIntensityReductionOptions/RotateRingsReductionType RemoveWithStrobeFilter
       static void _set_RemoveWithStrobeFilter(GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // EnvironmentIntensityReductionOptions/RotateRingsReductionType
     #pragma pack(pop)
     static check_size<sizeof(EnvironmentIntensityReductionOptions::RotateRingsReductionType), 0 + sizeof(int)> __GlobalNamespace_EnvironmentIntensityReductionOptions_RotateRingsReductionTypeSizeCheck;
@@ -129,14 +125,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType) == 0x4);
     // Creating value type constructor for type: EnvironmentIntensityReductionOptions
     EnvironmentIntensityReductionOptions(GlobalNamespace::EnvironmentIntensityReductionOptions::CompressExpandReductionType compressExpand_ = {}, GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType rotateRings_ = {}) noexcept : compressExpand{compressExpand_}, rotateRings{rotateRings_} {}
-    // Get instance field: private EnvironmentIntensityReductionOptions/CompressExpandReductionType _compressExpand
-    GlobalNamespace::EnvironmentIntensityReductionOptions::CompressExpandReductionType _get__compressExpand();
-    // Set instance field: private EnvironmentIntensityReductionOptions/CompressExpandReductionType _compressExpand
-    void _set__compressExpand(GlobalNamespace::EnvironmentIntensityReductionOptions::CompressExpandReductionType value);
-    // Get instance field: private EnvironmentIntensityReductionOptions/RotateRingsReductionType _rotateRings
-    GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType _get__rotateRings();
-    // Set instance field: private EnvironmentIntensityReductionOptions/RotateRingsReductionType _rotateRings
-    void _set__rotateRings(GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType value);
+    // Get instance field reference: private EnvironmentIntensityReductionOptions/CompressExpandReductionType _compressExpand
+    GlobalNamespace::EnvironmentIntensityReductionOptions::CompressExpandReductionType& dyn__compressExpand();
+    // Get instance field reference: private EnvironmentIntensityReductionOptions/RotateRingsReductionType _rotateRings
+    GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType& dyn__rotateRings();
     // public EnvironmentIntensityReductionOptions/CompressExpandReductionType get_compressExpand()
     // Offset: 0x1051E20
     GlobalNamespace::EnvironmentIntensityReductionOptions::CompressExpandReductionType get_compressExpand();

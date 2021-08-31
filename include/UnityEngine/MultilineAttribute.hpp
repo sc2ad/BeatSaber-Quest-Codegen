@@ -33,10 +33,8 @@ namespace UnityEngine {
     constexpr operator int() const noexcept {
       return lines;
     }
-    // Get instance field: public readonly System.Int32 lines
-    int _get_lines();
-    // Set instance field: public readonly System.Int32 lines
-    void _set_lines(int value);
+    // Get instance field reference: public readonly System.Int32 lines
+    int& dyn_lines();
     // public System.Void .ctor()
     // Offset: 0x1D0712C
     // Implemented from: UnityEngine.PropertyAttribute

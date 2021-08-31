@@ -49,18 +49,12 @@ namespace System::Threading {
     static_assert(sizeof(System::Threading::ThreadPoolWorkQueue::QueueSegment*) == 0x8);
     // Creating value type constructor for type: QueueSegment
     QueueSegment(::Array<System::Threading::IThreadPoolWorkItem*>* nodes_ = {}, int indexes_ = {}, System::Threading::ThreadPoolWorkQueue::QueueSegment* Next_ = {}) noexcept : nodes{nodes_}, indexes{indexes_}, Next{Next_} {}
-    // Get instance field: readonly System.Threading.IThreadPoolWorkItem[] nodes
-    ::Array<System::Threading::IThreadPoolWorkItem*>* _get_nodes();
-    // Set instance field: readonly System.Threading.IThreadPoolWorkItem[] nodes
-    void _set_nodes(::Array<System::Threading::IThreadPoolWorkItem*>* value);
-    // Get instance field: private System.Int32 indexes
-    int _get_indexes();
-    // Set instance field: private System.Int32 indexes
-    void _set_indexes(int value);
-    // Get instance field: public System.Threading.ThreadPoolWorkQueue/System.Threading.QueueSegment Next
-    System::Threading::ThreadPoolWorkQueue::QueueSegment* _get_Next();
-    // Set instance field: public System.Threading.ThreadPoolWorkQueue/System.Threading.QueueSegment Next
-    void _set_Next(System::Threading::ThreadPoolWorkQueue::QueueSegment* value);
+    // Get instance field reference: readonly System.Threading.IThreadPoolWorkItem[] nodes
+    ::Array<System::Threading::IThreadPoolWorkItem*>*& dyn_nodes();
+    // Get instance field reference: private System.Int32 indexes
+    int& dyn_indexes();
+    // Get instance field reference: public System.Threading.ThreadPoolWorkQueue/System.Threading.QueueSegment Next
+    System::Threading::ThreadPoolWorkQueue::QueueSegment*& dyn_Next();
     // private System.Void GetIndexes(out System.Int32 upper, out System.Int32 lower)
     // Offset: 0x187AC9C
     void GetIndexes(ByRef<int> upper, ByRef<int> lower);

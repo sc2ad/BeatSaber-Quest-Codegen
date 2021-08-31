@@ -70,10 +70,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::FormattedFloatListSettingsController::ValueType _get_InvertedNormalized();
       // Set static field: static public FormattedFloatListSettingsController/ValueType InvertedNormalized
       static void _set_InvertedNormalized(GlobalNamespace::FormattedFloatListSettingsController::ValueType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // FormattedFloatListSettingsController/ValueType
     #pragma pack(pop)
     static check_size<sizeof(FormattedFloatListSettingsController::ValueType), 0 + sizeof(int)> __GlobalNamespace_FormattedFloatListSettingsController_ValueTypeSizeCheck;
@@ -130,38 +128,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: FormattedFloatListSettingsController
     FormattedFloatListSettingsController(::Array<float>* values_ = {}, ::Il2CppString* formattingString_ = {}, GlobalNamespace::FormattedFloatListSettingsController::ValueType valueType_ = {}, System::Action_2<GlobalNamespace::FormattedFloatListSettingsController*, float>* valueDidChangeEvent_ = {}, float value_ = {}, float min_ = {}, float max_ = {}, bool hasValue_ = {}) noexcept : values{values_}, formattingString{formattingString_}, valueType{valueType_}, valueDidChangeEvent{valueDidChangeEvent_}, value{value_}, min{min_}, max{max_}, hasValue{hasValue_} {}
-    // Get instance field: private System.Single[] _values
-    ::Array<float>* _get__values();
-    // Set instance field: private System.Single[] _values
-    void _set__values(::Array<float>* value);
-    // Get instance field: private System.String _formattingString
-    ::Il2CppString* _get__formattingString();
-    // Set instance field: private System.String _formattingString
-    void _set__formattingString(::Il2CppString* value);
-    // Get instance field: private FormattedFloatListSettingsController/ValueType valueType
-    GlobalNamespace::FormattedFloatListSettingsController::ValueType _get_valueType();
-    // Set instance field: private FormattedFloatListSettingsController/ValueType valueType
-    void _set_valueType(GlobalNamespace::FormattedFloatListSettingsController::ValueType value);
-    // Get instance field: private System.Action`2<FormattedFloatListSettingsController,System.Single> valueDidChangeEvent
-    System::Action_2<GlobalNamespace::FormattedFloatListSettingsController*, float>* _get_valueDidChangeEvent();
-    // Set instance field: private System.Action`2<FormattedFloatListSettingsController,System.Single> valueDidChangeEvent
-    void _set_valueDidChangeEvent(System::Action_2<GlobalNamespace::FormattedFloatListSettingsController*, float>* value);
-    // Get instance field: private System.Single _value
-    float _get__value();
-    // Set instance field: private System.Single _value
-    void _set__value(float value);
-    // Get instance field: private System.Single _min
-    float _get__min();
-    // Set instance field: private System.Single _min
-    void _set__min(float value);
-    // Get instance field: private System.Single _max
-    float _get__max();
-    // Set instance field: private System.Single _max
-    void _set__max(float value);
-    // Get instance field: private System.Boolean _hasValue
-    bool _get__hasValue();
-    // Set instance field: private System.Boolean _hasValue
-    void _set__hasValue(bool value);
+    // Get instance field reference: private System.Single[] _values
+    ::Array<float>*& dyn__values();
+    // Get instance field reference: private System.String _formattingString
+    ::Il2CppString*& dyn__formattingString();
+    // Get instance field reference: private FormattedFloatListSettingsController/ValueType valueType
+    GlobalNamespace::FormattedFloatListSettingsController::ValueType& dyn_valueType();
+    // Get instance field reference: private System.Action`2<FormattedFloatListSettingsController,System.Single> valueDidChangeEvent
+    System::Action_2<GlobalNamespace::FormattedFloatListSettingsController*, float>*& dyn_valueDidChangeEvent();
+    // Get instance field reference: private System.Single _value
+    float& dyn__value();
+    // Get instance field reference: private System.Single _min
+    float& dyn__min();
+    // Get instance field reference: private System.Single _max
+    float& dyn__max();
+    // Get instance field reference: private System.Boolean _hasValue
+    bool& dyn__hasValue();
     // public System.Single get_value()
     // Offset: 0x105C4E0
     float get_value();

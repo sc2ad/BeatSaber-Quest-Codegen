@@ -117,54 +117,30 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private UnityEngine.ParticleSystem/UnityEngine.Particle m_Particle
-    UnityEngine::ParticleSystem::Particle _get_m_Particle();
-    // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.Particle m_Particle
-    void _set_m_Particle(UnityEngine::ParticleSystem::Particle value);
-    // Get instance field: private System.Boolean m_PositionSet
-    bool _get_m_PositionSet();
-    // Set instance field: private System.Boolean m_PositionSet
-    void _set_m_PositionSet(bool value);
-    // Get instance field: private System.Boolean m_VelocitySet
-    bool _get_m_VelocitySet();
-    // Set instance field: private System.Boolean m_VelocitySet
-    void _set_m_VelocitySet(bool value);
-    // Get instance field: private System.Boolean m_AxisOfRotationSet
-    bool _get_m_AxisOfRotationSet();
-    // Set instance field: private System.Boolean m_AxisOfRotationSet
-    void _set_m_AxisOfRotationSet(bool value);
-    // Get instance field: private System.Boolean m_RotationSet
-    bool _get_m_RotationSet();
-    // Set instance field: private System.Boolean m_RotationSet
-    void _set_m_RotationSet(bool value);
-    // Get instance field: private System.Boolean m_AngularVelocitySet
-    bool _get_m_AngularVelocitySet();
-    // Set instance field: private System.Boolean m_AngularVelocitySet
-    void _set_m_AngularVelocitySet(bool value);
-    // Get instance field: private System.Boolean m_StartSizeSet
-    bool _get_m_StartSizeSet();
-    // Set instance field: private System.Boolean m_StartSizeSet
-    void _set_m_StartSizeSet(bool value);
-    // Get instance field: private System.Boolean m_StartColorSet
-    bool _get_m_StartColorSet();
-    // Set instance field: private System.Boolean m_StartColorSet
-    void _set_m_StartColorSet(bool value);
-    // Get instance field: private System.Boolean m_RandomSeedSet
-    bool _get_m_RandomSeedSet();
-    // Set instance field: private System.Boolean m_RandomSeedSet
-    void _set_m_RandomSeedSet(bool value);
-    // Get instance field: private System.Boolean m_StartLifetimeSet
-    bool _get_m_StartLifetimeSet();
-    // Set instance field: private System.Boolean m_StartLifetimeSet
-    void _set_m_StartLifetimeSet(bool value);
-    // Get instance field: private System.Boolean m_MeshIndexSet
-    bool _get_m_MeshIndexSet();
-    // Set instance field: private System.Boolean m_MeshIndexSet
-    void _set_m_MeshIndexSet(bool value);
-    // Get instance field: private System.Boolean m_ApplyShapeToPosition
-    bool _get_m_ApplyShapeToPosition();
-    // Set instance field: private System.Boolean m_ApplyShapeToPosition
-    void _set_m_ApplyShapeToPosition(bool value);
+    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.Particle m_Particle
+    UnityEngine::ParticleSystem::Particle& dyn_m_Particle();
+    // Get instance field reference: private System.Boolean m_PositionSet
+    bool& dyn_m_PositionSet();
+    // Get instance field reference: private System.Boolean m_VelocitySet
+    bool& dyn_m_VelocitySet();
+    // Get instance field reference: private System.Boolean m_AxisOfRotationSet
+    bool& dyn_m_AxisOfRotationSet();
+    // Get instance field reference: private System.Boolean m_RotationSet
+    bool& dyn_m_RotationSet();
+    // Get instance field reference: private System.Boolean m_AngularVelocitySet
+    bool& dyn_m_AngularVelocitySet();
+    // Get instance field reference: private System.Boolean m_StartSizeSet
+    bool& dyn_m_StartSizeSet();
+    // Get instance field reference: private System.Boolean m_StartColorSet
+    bool& dyn_m_StartColorSet();
+    // Get instance field reference: private System.Boolean m_RandomSeedSet
+    bool& dyn_m_RandomSeedSet();
+    // Get instance field reference: private System.Boolean m_StartLifetimeSet
+    bool& dyn_m_StartLifetimeSet();
+    // Get instance field reference: private System.Boolean m_MeshIndexSet
+    bool& dyn_m_MeshIndexSet();
+    // Get instance field reference: private System.Boolean m_ApplyShapeToPosition
+    bool& dyn_m_ApplyShapeToPosition();
     // public System.Void set_position(UnityEngine.Vector3 value)
     // Offset: 0x24157D0
     void set_position(UnityEngine::Vector3 value);

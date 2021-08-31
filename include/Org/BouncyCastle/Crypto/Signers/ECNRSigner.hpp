@@ -68,18 +68,12 @@ namespace Org::BouncyCastle::Crypto::Signers {
     operator Org::BouncyCastle::Crypto::IDsaExt() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDsaExt*>(this);
     }
-    // Get instance field: private System.Boolean forSigning
-    bool _get_forSigning();
-    // Set instance field: private System.Boolean forSigning
-    void _set_forSigning(bool value);
-    // Get instance field: private Org.BouncyCastle.Crypto.Parameters.ECKeyParameters key
-    Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* _get_key();
-    // Set instance field: private Org.BouncyCastle.Crypto.Parameters.ECKeyParameters key
-    void _set_key(Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* value);
-    // Get instance field: private Org.BouncyCastle.Security.SecureRandom random
-    Org::BouncyCastle::Security::SecureRandom* _get_random();
-    // Set instance field: private Org.BouncyCastle.Security.SecureRandom random
-    void _set_random(Org::BouncyCastle::Security::SecureRandom* value);
+    // Get instance field reference: private System.Boolean forSigning
+    bool& dyn_forSigning();
+    // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.ECKeyParameters key
+    Org::BouncyCastle::Crypto::Parameters::ECKeyParameters*& dyn_key();
+    // Get instance field reference: private Org.BouncyCastle.Security.SecureRandom random
+    Org::BouncyCastle::Security::SecureRandom*& dyn_random();
     // public Org.BouncyCastle.Math.BigInteger get_Order()
     // Offset: 0x127A94C
     Org::BouncyCastle::Math::BigInteger* get_Order();

@@ -44,10 +44,8 @@ namespace GlobalNamespace {
     CuttableBySaber(GlobalNamespace::CuttableBySaber::WasCutBySaberDelegate* wasCutBySaberEvent_ = {}) noexcept : wasCutBySaberEvent{wasCutBySaberEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private CuttableBySaber/WasCutBySaberDelegate wasCutBySaberEvent
-    GlobalNamespace::CuttableBySaber::WasCutBySaberDelegate* _get_wasCutBySaberEvent();
-    // Set instance field: private CuttableBySaber/WasCutBySaberDelegate wasCutBySaberEvent
-    void _set_wasCutBySaberEvent(GlobalNamespace::CuttableBySaber::WasCutBySaberDelegate* value);
+    // Get instance field reference: private CuttableBySaber/WasCutBySaberDelegate wasCutBySaberEvent
+    GlobalNamespace::CuttableBySaber::WasCutBySaberDelegate*& dyn_wasCutBySaberEvent();
     // public System.Boolean get_canBeCut()
     // Offset: 0xFFFFFFFF
     bool get_canBeCut();

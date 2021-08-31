@@ -126,50 +126,28 @@ namespace System {
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
     }
-    // Get instance field: private System.IntPtr method_ptr
-    System::IntPtr _get_method_ptr();
-    // Set instance field: private System.IntPtr method_ptr
-    void _set_method_ptr(System::IntPtr value);
-    // Get instance field: private System.IntPtr invoke_impl
-    System::IntPtr _get_invoke_impl();
-    // Set instance field: private System.IntPtr invoke_impl
-    void _set_invoke_impl(System::IntPtr value);
-    // Get instance field: private System.Object m_target
-    ::Il2CppObject* _get_m_target();
-    // Set instance field: private System.Object m_target
-    void _set_m_target(::Il2CppObject* value);
-    // Get instance field: private System.IntPtr method
-    System::IntPtr _get_method();
-    // Set instance field: private System.IntPtr method
-    void _set_method(System::IntPtr value);
-    // Get instance field: private System.IntPtr delegate_trampoline
-    System::IntPtr _get_delegate_trampoline();
-    // Set instance field: private System.IntPtr delegate_trampoline
-    void _set_delegate_trampoline(System::IntPtr value);
-    // Get instance field: private System.IntPtr extra_arg
-    System::IntPtr _get_extra_arg();
-    // Set instance field: private System.IntPtr extra_arg
-    void _set_extra_arg(System::IntPtr value);
-    // Get instance field: private System.IntPtr method_code
-    System::IntPtr _get_method_code();
-    // Set instance field: private System.IntPtr method_code
-    void _set_method_code(System::IntPtr value);
-    // Get instance field: private System.Reflection.MethodInfo method_info
-    System::Reflection::MethodInfo* _get_method_info();
-    // Set instance field: private System.Reflection.MethodInfo method_info
-    void _set_method_info(System::Reflection::MethodInfo* value);
-    // Get instance field: private System.Reflection.MethodInfo original_method_info
-    System::Reflection::MethodInfo* _get_original_method_info();
-    // Set instance field: private System.Reflection.MethodInfo original_method_info
-    void _set_original_method_info(System::Reflection::MethodInfo* value);
-    // Get instance field: private System.DelegateData data
-    System::DelegateData* _get_data();
-    // Set instance field: private System.DelegateData data
-    void _set_data(System::DelegateData* value);
-    // Get instance field: private System.Boolean method_is_virtual
-    bool _get_method_is_virtual();
-    // Set instance field: private System.Boolean method_is_virtual
-    void _set_method_is_virtual(bool value);
+    // Get instance field reference: private System.IntPtr method_ptr
+    System::IntPtr& dyn_method_ptr();
+    // Get instance field reference: private System.IntPtr invoke_impl
+    System::IntPtr& dyn_invoke_impl();
+    // Get instance field reference: private System.Object m_target
+    ::Il2CppObject*& dyn_m_target();
+    // Get instance field reference: private System.IntPtr method
+    System::IntPtr& dyn_method();
+    // Get instance field reference: private System.IntPtr delegate_trampoline
+    System::IntPtr& dyn_delegate_trampoline();
+    // Get instance field reference: private System.IntPtr extra_arg
+    System::IntPtr& dyn_extra_arg();
+    // Get instance field reference: private System.IntPtr method_code
+    System::IntPtr& dyn_method_code();
+    // Get instance field reference: private System.Reflection.MethodInfo method_info
+    System::Reflection::MethodInfo*& dyn_method_info();
+    // Get instance field reference: private System.Reflection.MethodInfo original_method_info
+    System::Reflection::MethodInfo*& dyn_original_method_info();
+    // Get instance field reference: private System.DelegateData data
+    System::DelegateData*& dyn_data();
+    // Get instance field reference: private System.Boolean method_is_virtual
+    bool& dyn_method_is_virtual();
     // public System.Reflection.MethodInfo get_Method()
     // Offset: 0x1B61A38
     System::Reflection::MethodInfo* get_Method();

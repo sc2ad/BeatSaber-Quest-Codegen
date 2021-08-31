@@ -61,18 +61,12 @@ namespace GlobalNamespace {
     CutoutAnimateEffect(::Array<GlobalNamespace::CutoutEffect*>* cuttoutEffects_ = {}, UnityEngine::AnimationCurve* transitionCurve_ = {}, bool animating_ = {}) noexcept : cuttoutEffects{cuttoutEffects_}, transitionCurve{transitionCurve_}, animating{animating_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private CutoutEffect[] _cuttoutEffects
-    ::Array<GlobalNamespace::CutoutEffect*>* _get__cuttoutEffects();
-    // Set instance field: private CutoutEffect[] _cuttoutEffects
-    void _set__cuttoutEffects(::Array<GlobalNamespace::CutoutEffect*>* value);
-    // Get instance field: private UnityEngine.AnimationCurve _transitionCurve
-    UnityEngine::AnimationCurve* _get__transitionCurve();
-    // Set instance field: private UnityEngine.AnimationCurve _transitionCurve
-    void _set__transitionCurve(UnityEngine::AnimationCurve* value);
-    // Get instance field: private System.Boolean <animating>k__BackingField
-    bool _get_$animating$k__BackingField();
-    // Set instance field: private System.Boolean <animating>k__BackingField
-    void _set_$animating$k__BackingField(bool value);
+    // Get instance field reference: private CutoutEffect[] _cuttoutEffects
+    ::Array<GlobalNamespace::CutoutEffect*>*& dyn__cuttoutEffects();
+    // Get instance field reference: private UnityEngine.AnimationCurve _transitionCurve
+    UnityEngine::AnimationCurve*& dyn__transitionCurve();
+    // Get instance field reference: private System.Boolean <animating>k__BackingField
+    bool& dyn_$animating$k__BackingField();
     // public System.Boolean get_animating()
     // Offset: 0x10F8060
     bool get_animating();

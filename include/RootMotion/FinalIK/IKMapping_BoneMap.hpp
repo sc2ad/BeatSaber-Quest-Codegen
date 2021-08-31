@@ -172,94 +172,50 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: BoneMap
     BoneMap(UnityEngine::Transform* transform_ = {}, int chainIndex_ = {}, int nodeIndex_ = {}, UnityEngine::Vector3 defaultLocalPosition_ = {}, UnityEngine::Quaternion defaultLocalRotation_ = {}, UnityEngine::Vector3 localSwingAxis_ = {}, UnityEngine::Vector3 localTwistAxis_ = {}, UnityEngine::Vector3 planePosition_ = {}, UnityEngine::Vector3 ikPosition_ = {}, UnityEngine::Quaternion defaultLocalTargetRotation_ = {}, UnityEngine::Quaternion maintainRotation_ = {}, float length_ = {}, UnityEngine::Quaternion animatedRotation_ = {}, UnityEngine::Transform* planeBone1_ = {}, UnityEngine::Transform* planeBone2_ = {}, UnityEngine::Transform* planeBone3_ = {}, int plane1ChainIndex_ = {}, int plane1NodeIndex_ = {}, int plane2ChainIndex_ = {}, int plane2NodeIndex_ = {}, int plane3ChainIndex_ = {}, int plane3NodeIndex_ = {}) noexcept : transform{transform_}, chainIndex{chainIndex_}, nodeIndex{nodeIndex_}, defaultLocalPosition{defaultLocalPosition_}, defaultLocalRotation{defaultLocalRotation_}, localSwingAxis{localSwingAxis_}, localTwistAxis{localTwistAxis_}, planePosition{planePosition_}, ikPosition{ikPosition_}, defaultLocalTargetRotation{defaultLocalTargetRotation_}, maintainRotation{maintainRotation_}, length{length_}, animatedRotation{animatedRotation_}, planeBone1{planeBone1_}, planeBone2{planeBone2_}, planeBone3{planeBone3_}, plane1ChainIndex{plane1ChainIndex_}, plane1NodeIndex{plane1NodeIndex_}, plane2ChainIndex{plane2ChainIndex_}, plane2NodeIndex{plane2NodeIndex_}, plane3ChainIndex{plane3ChainIndex_}, plane3NodeIndex{plane3NodeIndex_} {}
-    // Get instance field: public UnityEngine.Transform transform
-    UnityEngine::Transform* _get_transform();
-    // Set instance field: public UnityEngine.Transform transform
-    void _set_transform(UnityEngine::Transform* value);
-    // Get instance field: public System.Int32 chainIndex
-    int _get_chainIndex();
-    // Set instance field: public System.Int32 chainIndex
-    void _set_chainIndex(int value);
-    // Get instance field: public System.Int32 nodeIndex
-    int _get_nodeIndex();
-    // Set instance field: public System.Int32 nodeIndex
-    void _set_nodeIndex(int value);
-    // Get instance field: public UnityEngine.Vector3 defaultLocalPosition
-    UnityEngine::Vector3 _get_defaultLocalPosition();
-    // Set instance field: public UnityEngine.Vector3 defaultLocalPosition
-    void _set_defaultLocalPosition(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Quaternion defaultLocalRotation
-    UnityEngine::Quaternion _get_defaultLocalRotation();
-    // Set instance field: public UnityEngine.Quaternion defaultLocalRotation
-    void _set_defaultLocalRotation(UnityEngine::Quaternion value);
-    // Get instance field: public UnityEngine.Vector3 localSwingAxis
-    UnityEngine::Vector3 _get_localSwingAxis();
-    // Set instance field: public UnityEngine.Vector3 localSwingAxis
-    void _set_localSwingAxis(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Vector3 localTwistAxis
-    UnityEngine::Vector3 _get_localTwistAxis();
-    // Set instance field: public UnityEngine.Vector3 localTwistAxis
-    void _set_localTwistAxis(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Vector3 planePosition
-    UnityEngine::Vector3 _get_planePosition();
-    // Set instance field: public UnityEngine.Vector3 planePosition
-    void _set_planePosition(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Vector3 ikPosition
-    UnityEngine::Vector3 _get_ikPosition();
-    // Set instance field: public UnityEngine.Vector3 ikPosition
-    void _set_ikPosition(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Quaternion defaultLocalTargetRotation
-    UnityEngine::Quaternion _get_defaultLocalTargetRotation();
-    // Set instance field: public UnityEngine.Quaternion defaultLocalTargetRotation
-    void _set_defaultLocalTargetRotation(UnityEngine::Quaternion value);
-    // Get instance field: private UnityEngine.Quaternion maintainRotation
-    UnityEngine::Quaternion _get_maintainRotation();
-    // Set instance field: private UnityEngine.Quaternion maintainRotation
-    void _set_maintainRotation(UnityEngine::Quaternion value);
-    // Get instance field: public System.Single length
-    float _get_length();
-    // Set instance field: public System.Single length
-    void _set_length(float value);
-    // Get instance field: public UnityEngine.Quaternion animatedRotation
-    UnityEngine::Quaternion _get_animatedRotation();
-    // Set instance field: public UnityEngine.Quaternion animatedRotation
-    void _set_animatedRotation(UnityEngine::Quaternion value);
-    // Get instance field: private UnityEngine.Transform planeBone1
-    UnityEngine::Transform* _get_planeBone1();
-    // Set instance field: private UnityEngine.Transform planeBone1
-    void _set_planeBone1(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.Transform planeBone2
-    UnityEngine::Transform* _get_planeBone2();
-    // Set instance field: private UnityEngine.Transform planeBone2
-    void _set_planeBone2(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.Transform planeBone3
-    UnityEngine::Transform* _get_planeBone3();
-    // Set instance field: private UnityEngine.Transform planeBone3
-    void _set_planeBone3(UnityEngine::Transform* value);
-    // Get instance field: private System.Int32 plane1ChainIndex
-    int _get_plane1ChainIndex();
-    // Set instance field: private System.Int32 plane1ChainIndex
-    void _set_plane1ChainIndex(int value);
-    // Get instance field: private System.Int32 plane1NodeIndex
-    int _get_plane1NodeIndex();
-    // Set instance field: private System.Int32 plane1NodeIndex
-    void _set_plane1NodeIndex(int value);
-    // Get instance field: private System.Int32 plane2ChainIndex
-    int _get_plane2ChainIndex();
-    // Set instance field: private System.Int32 plane2ChainIndex
-    void _set_plane2ChainIndex(int value);
-    // Get instance field: private System.Int32 plane2NodeIndex
-    int _get_plane2NodeIndex();
-    // Set instance field: private System.Int32 plane2NodeIndex
-    void _set_plane2NodeIndex(int value);
-    // Get instance field: private System.Int32 plane3ChainIndex
-    int _get_plane3ChainIndex();
-    // Set instance field: private System.Int32 plane3ChainIndex
-    void _set_plane3ChainIndex(int value);
-    // Get instance field: private System.Int32 plane3NodeIndex
-    int _get_plane3NodeIndex();
-    // Set instance field: private System.Int32 plane3NodeIndex
-    void _set_plane3NodeIndex(int value);
+    // Get instance field reference: public UnityEngine.Transform transform
+    UnityEngine::Transform*& dyn_transform();
+    // Get instance field reference: public System.Int32 chainIndex
+    int& dyn_chainIndex();
+    // Get instance field reference: public System.Int32 nodeIndex
+    int& dyn_nodeIndex();
+    // Get instance field reference: public UnityEngine.Vector3 defaultLocalPosition
+    UnityEngine::Vector3& dyn_defaultLocalPosition();
+    // Get instance field reference: public UnityEngine.Quaternion defaultLocalRotation
+    UnityEngine::Quaternion& dyn_defaultLocalRotation();
+    // Get instance field reference: public UnityEngine.Vector3 localSwingAxis
+    UnityEngine::Vector3& dyn_localSwingAxis();
+    // Get instance field reference: public UnityEngine.Vector3 localTwistAxis
+    UnityEngine::Vector3& dyn_localTwistAxis();
+    // Get instance field reference: public UnityEngine.Vector3 planePosition
+    UnityEngine::Vector3& dyn_planePosition();
+    // Get instance field reference: public UnityEngine.Vector3 ikPosition
+    UnityEngine::Vector3& dyn_ikPosition();
+    // Get instance field reference: public UnityEngine.Quaternion defaultLocalTargetRotation
+    UnityEngine::Quaternion& dyn_defaultLocalTargetRotation();
+    // Get instance field reference: private UnityEngine.Quaternion maintainRotation
+    UnityEngine::Quaternion& dyn_maintainRotation();
+    // Get instance field reference: public System.Single length
+    float& dyn_length();
+    // Get instance field reference: public UnityEngine.Quaternion animatedRotation
+    UnityEngine::Quaternion& dyn_animatedRotation();
+    // Get instance field reference: private UnityEngine.Transform planeBone1
+    UnityEngine::Transform*& dyn_planeBone1();
+    // Get instance field reference: private UnityEngine.Transform planeBone2
+    UnityEngine::Transform*& dyn_planeBone2();
+    // Get instance field reference: private UnityEngine.Transform planeBone3
+    UnityEngine::Transform*& dyn_planeBone3();
+    // Get instance field reference: private System.Int32 plane1ChainIndex
+    int& dyn_plane1ChainIndex();
+    // Get instance field reference: private System.Int32 plane1NodeIndex
+    int& dyn_plane1NodeIndex();
+    // Get instance field reference: private System.Int32 plane2ChainIndex
+    int& dyn_plane2ChainIndex();
+    // Get instance field reference: private System.Int32 plane2NodeIndex
+    int& dyn_plane2NodeIndex();
+    // Get instance field reference: private System.Int32 plane3ChainIndex
+    int& dyn_plane3ChainIndex();
+    // Get instance field reference: private System.Int32 plane3NodeIndex
+    int& dyn_plane3NodeIndex();
     // public UnityEngine.Vector3 get_swingDirection()
     // Offset: 0x1CD37F0
     UnityEngine::Vector3 get_swingDirection();

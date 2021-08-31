@@ -75,38 +75,22 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.UInt32 unPacketNum
-    uint _get_unPacketNum();
-    // Set instance field: public System.UInt32 unPacketNum
-    void _set_unPacketNum(uint value);
-    // Get instance field: public System.UInt64 ulButtonPressed
-    uint64_t _get_ulButtonPressed();
-    // Set instance field: public System.UInt64 ulButtonPressed
-    void _set_ulButtonPressed(uint64_t value);
-    // Get instance field: public System.UInt64 ulButtonTouched
-    uint64_t _get_ulButtonTouched();
-    // Set instance field: public System.UInt64 ulButtonTouched
-    void _set_ulButtonTouched(uint64_t value);
-    // Get instance field: public OVR.OpenVR.VRControllerAxis_t rAxis0
-    OVR::OpenVR::VRControllerAxis_t _get_rAxis0();
-    // Set instance field: public OVR.OpenVR.VRControllerAxis_t rAxis0
-    void _set_rAxis0(OVR::OpenVR::VRControllerAxis_t value);
-    // Get instance field: public OVR.OpenVR.VRControllerAxis_t rAxis1
-    OVR::OpenVR::VRControllerAxis_t _get_rAxis1();
-    // Set instance field: public OVR.OpenVR.VRControllerAxis_t rAxis1
-    void _set_rAxis1(OVR::OpenVR::VRControllerAxis_t value);
-    // Get instance field: public OVR.OpenVR.VRControllerAxis_t rAxis2
-    OVR::OpenVR::VRControllerAxis_t _get_rAxis2();
-    // Set instance field: public OVR.OpenVR.VRControllerAxis_t rAxis2
-    void _set_rAxis2(OVR::OpenVR::VRControllerAxis_t value);
-    // Get instance field: public OVR.OpenVR.VRControllerAxis_t rAxis3
-    OVR::OpenVR::VRControllerAxis_t _get_rAxis3();
-    // Set instance field: public OVR.OpenVR.VRControllerAxis_t rAxis3
-    void _set_rAxis3(OVR::OpenVR::VRControllerAxis_t value);
-    // Get instance field: public OVR.OpenVR.VRControllerAxis_t rAxis4
-    OVR::OpenVR::VRControllerAxis_t _get_rAxis4();
-    // Set instance field: public OVR.OpenVR.VRControllerAxis_t rAxis4
-    void _set_rAxis4(OVR::OpenVR::VRControllerAxis_t value);
+    // Get instance field reference: public System.UInt32 unPacketNum
+    uint& dyn_unPacketNum();
+    // Get instance field reference: public System.UInt64 ulButtonPressed
+    uint64_t& dyn_ulButtonPressed();
+    // Get instance field reference: public System.UInt64 ulButtonTouched
+    uint64_t& dyn_ulButtonTouched();
+    // Get instance field reference: public OVR.OpenVR.VRControllerAxis_t rAxis0
+    OVR::OpenVR::VRControllerAxis_t& dyn_rAxis0();
+    // Get instance field reference: public OVR.OpenVR.VRControllerAxis_t rAxis1
+    OVR::OpenVR::VRControllerAxis_t& dyn_rAxis1();
+    // Get instance field reference: public OVR.OpenVR.VRControllerAxis_t rAxis2
+    OVR::OpenVR::VRControllerAxis_t& dyn_rAxis2();
+    // Get instance field reference: public OVR.OpenVR.VRControllerAxis_t rAxis3
+    OVR::OpenVR::VRControllerAxis_t& dyn_rAxis3();
+    // Get instance field reference: public OVR.OpenVR.VRControllerAxis_t rAxis4
+    OVR::OpenVR::VRControllerAxis_t& dyn_rAxis4();
   }; // OVR.OpenVR.VRControllerState_t
   #pragma pack(pop)
   static check_size<sizeof(VRControllerState_t), 56 + sizeof(OVR::OpenVR::VRControllerAxis_t)> __OVR_OpenVR_VRControllerState_tSizeCheck;

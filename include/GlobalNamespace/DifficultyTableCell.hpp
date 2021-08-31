@@ -63,22 +63,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::FillIndicator*) == 0x8);
     // Creating value type constructor for type: DifficultyTableCell
     DifficultyTableCell(TMPro::TextMeshProUGUI* difficultyText_ = {}, UnityEngine::UI::Image* bgImage_ = {}, UnityEngine::UI::Image* highlightImage_ = {}, GlobalNamespace::FillIndicator* fillIndicator_ = {}) noexcept : difficultyText{difficultyText_}, bgImage{bgImage_}, highlightImage{highlightImage_}, fillIndicator{fillIndicator_} {}
-    // Get instance field: private TMPro.TextMeshProUGUI _difficultyText
-    TMPro::TextMeshProUGUI* _get__difficultyText();
-    // Set instance field: private TMPro.TextMeshProUGUI _difficultyText
-    void _set__difficultyText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private UnityEngine.UI.Image _bgImage
-    UnityEngine::UI::Image* _get__bgImage();
-    // Set instance field: private UnityEngine.UI.Image _bgImage
-    void _set__bgImage(UnityEngine::UI::Image* value);
-    // Get instance field: private UnityEngine.UI.Image _highlightImage
-    UnityEngine::UI::Image* _get__highlightImage();
-    // Set instance field: private UnityEngine.UI.Image _highlightImage
-    void _set__highlightImage(UnityEngine::UI::Image* value);
-    // Get instance field: private FillIndicator _fillIndicator
-    GlobalNamespace::FillIndicator* _get__fillIndicator();
-    // Set instance field: private FillIndicator _fillIndicator
-    void _set__fillIndicator(GlobalNamespace::FillIndicator* value);
+    // Get instance field reference: private TMPro.TextMeshProUGUI _difficultyText
+    TMPro::TextMeshProUGUI*& dyn__difficultyText();
+    // Get instance field reference: private UnityEngine.UI.Image _bgImage
+    UnityEngine::UI::Image*& dyn__bgImage();
+    // Get instance field reference: private UnityEngine.UI.Image _highlightImage
+    UnityEngine::UI::Image*& dyn__highlightImage();
+    // Get instance field reference: private FillIndicator _fillIndicator
+    GlobalNamespace::FillIndicator*& dyn__fillIndicator();
     // public System.String get_difficultyText()
     // Offset: 0x10FB3F0
     ::Il2CppString* get_difficultyText();

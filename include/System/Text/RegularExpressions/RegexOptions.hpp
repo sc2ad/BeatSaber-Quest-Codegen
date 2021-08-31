@@ -93,10 +93,8 @@ namespace System::Text::RegularExpressions {
     static System::Text::RegularExpressions::RegexOptions _get_CultureInvariant();
     // Set static field: static public System.Text.RegularExpressions.RegexOptions CultureInvariant
     static void _set_CultureInvariant(System::Text::RegularExpressions::RegexOptions value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Text.RegularExpressions.RegexOptions
   #pragma pack(pop)
   static check_size<sizeof(RegexOptions), 0 + sizeof(int)> __System_Text_RegularExpressions_RegexOptionsSizeCheck;

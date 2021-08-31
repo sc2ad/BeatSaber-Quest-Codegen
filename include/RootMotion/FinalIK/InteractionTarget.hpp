@@ -116,46 +116,26 @@ namespace RootMotion::FinalIK {
     InteractionTarget(RootMotion::FinalIK::FullBodyBipedEffector effectorType_ = {}, ::Array<RootMotion::FinalIK::InteractionTarget::Multiplier*>* multipliers_ = {}, float interactionSpeedMlp_ = {}, UnityEngine::Transform* pivot_ = {}, UnityEngine::Vector3 twistAxis_ = {}, float twistWeight_ = {}, float swingWeight_ = {}, bool rotateOnce_ = {}, UnityEngine::Quaternion defaultLocalRotation_ = {}, UnityEngine::Transform* lastPivot_ = {}) noexcept : effectorType{effectorType_}, multipliers{multipliers_}, interactionSpeedMlp{interactionSpeedMlp_}, pivot{pivot_}, twistAxis{twistAxis_}, twistWeight{twistWeight_}, swingWeight{swingWeight_}, rotateOnce{rotateOnce_}, defaultLocalRotation{defaultLocalRotation_}, lastPivot{lastPivot_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public RootMotion.FinalIK.FullBodyBipedEffector effectorType
-    RootMotion::FinalIK::FullBodyBipedEffector _get_effectorType();
-    // Set instance field: public RootMotion.FinalIK.FullBodyBipedEffector effectorType
-    void _set_effectorType(RootMotion::FinalIK::FullBodyBipedEffector value);
-    // Get instance field: public RootMotion.FinalIK.InteractionTarget/RootMotion.FinalIK.Multiplier[] multipliers
-    ::Array<RootMotion::FinalIK::InteractionTarget::Multiplier*>* _get_multipliers();
-    // Set instance field: public RootMotion.FinalIK.InteractionTarget/RootMotion.FinalIK.Multiplier[] multipliers
-    void _set_multipliers(::Array<RootMotion::FinalIK::InteractionTarget::Multiplier*>* value);
-    // Get instance field: public System.Single interactionSpeedMlp
-    float _get_interactionSpeedMlp();
-    // Set instance field: public System.Single interactionSpeedMlp
-    void _set_interactionSpeedMlp(float value);
-    // Get instance field: public UnityEngine.Transform pivot
-    UnityEngine::Transform* _get_pivot();
-    // Set instance field: public UnityEngine.Transform pivot
-    void _set_pivot(UnityEngine::Transform* value);
-    // Get instance field: public UnityEngine.Vector3 twistAxis
-    UnityEngine::Vector3 _get_twistAxis();
-    // Set instance field: public UnityEngine.Vector3 twistAxis
-    void _set_twistAxis(UnityEngine::Vector3 value);
-    // Get instance field: public System.Single twistWeight
-    float _get_twistWeight();
-    // Set instance field: public System.Single twistWeight
-    void _set_twistWeight(float value);
-    // Get instance field: public System.Single swingWeight
-    float _get_swingWeight();
-    // Set instance field: public System.Single swingWeight
-    void _set_swingWeight(float value);
-    // Get instance field: public System.Boolean rotateOnce
-    bool _get_rotateOnce();
-    // Set instance field: public System.Boolean rotateOnce
-    void _set_rotateOnce(bool value);
-    // Get instance field: private UnityEngine.Quaternion defaultLocalRotation
-    UnityEngine::Quaternion _get_defaultLocalRotation();
-    // Set instance field: private UnityEngine.Quaternion defaultLocalRotation
-    void _set_defaultLocalRotation(UnityEngine::Quaternion value);
-    // Get instance field: private UnityEngine.Transform lastPivot
-    UnityEngine::Transform* _get_lastPivot();
-    // Set instance field: private UnityEngine.Transform lastPivot
-    void _set_lastPivot(UnityEngine::Transform* value);
+    // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedEffector effectorType
+    RootMotion::FinalIK::FullBodyBipedEffector& dyn_effectorType();
+    // Get instance field reference: public RootMotion.FinalIK.InteractionTarget/RootMotion.FinalIK.Multiplier[] multipliers
+    ::Array<RootMotion::FinalIK::InteractionTarget::Multiplier*>*& dyn_multipliers();
+    // Get instance field reference: public System.Single interactionSpeedMlp
+    float& dyn_interactionSpeedMlp();
+    // Get instance field reference: public UnityEngine.Transform pivot
+    UnityEngine::Transform*& dyn_pivot();
+    // Get instance field reference: public UnityEngine.Vector3 twistAxis
+    UnityEngine::Vector3& dyn_twistAxis();
+    // Get instance field reference: public System.Single twistWeight
+    float& dyn_twistWeight();
+    // Get instance field reference: public System.Single swingWeight
+    float& dyn_swingWeight();
+    // Get instance field reference: public System.Boolean rotateOnce
+    bool& dyn_rotateOnce();
+    // Get instance field reference: private UnityEngine.Quaternion defaultLocalRotation
+    UnityEngine::Quaternion& dyn_defaultLocalRotation();
+    // Get instance field reference: private UnityEngine.Transform lastPivot
+    UnityEngine::Transform*& dyn_lastPivot();
     // private System.Void OpenUserManual()
     // Offset: 0x1E92A90
     void OpenUserManual();

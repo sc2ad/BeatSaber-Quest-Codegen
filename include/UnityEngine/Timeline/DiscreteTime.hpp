@@ -55,10 +55,8 @@ namespace UnityEngine::Timeline {
     static UnityEngine::Timeline::DiscreteTime _get_kMaxTime();
     // Set static field: static public readonly UnityEngine.Timeline.DiscreteTime kMaxTime
     static void _set_kMaxTime(UnityEngine::Timeline::DiscreteTime value);
-    // Get instance field: private readonly System.Int64 m_DiscreteTime
-    int64_t _get_m_DiscreteTime();
-    // Set instance field: private readonly System.Int64 m_DiscreteTime
-    void _set_m_DiscreteTime(int64_t value);
+    // Get instance field reference: private readonly System.Int64 m_DiscreteTime
+    int64_t& dyn_m_DiscreteTime();
     // static public System.Double get_tickValue()
     // Offset: 0x182068C
     static double get_tickValue();

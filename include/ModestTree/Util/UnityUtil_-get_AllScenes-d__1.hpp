@@ -67,22 +67,14 @@ namespace ModestTree::Util {
     operator System::Collections::Generic::IEnumerator_1<UnityEngine::SceneManagement::Scene>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<UnityEngine::SceneManagement::Scene>*>(this);
     }
-    // Get instance field: private System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: private System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: private UnityEngine.SceneManagement.Scene <>2__current
-    UnityEngine::SceneManagement::Scene _get_$$2__current();
-    // Set instance field: private UnityEngine.SceneManagement.Scene <>2__current
-    void _set_$$2__current(UnityEngine::SceneManagement::Scene value);
-    // Get instance field: private System.Int32 <>l__initialThreadId
-    int _get_$$l__initialThreadId();
-    // Set instance field: private System.Int32 <>l__initialThreadId
-    void _set_$$l__initialThreadId(int value);
-    // Get instance field: private System.Int32 <i>5__2
-    int _get_$i$5__2();
-    // Set instance field: private System.Int32 <i>5__2
-    void _set_$i$5__2(int value);
+    // Get instance field reference: private System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: private UnityEngine.SceneManagement.Scene <>2__current
+    UnityEngine::SceneManagement::Scene& dyn_$$2__current();
+    // Get instance field reference: private System.Int32 <>l__initialThreadId
+    int& dyn_$$l__initialThreadId();
+    // Get instance field reference: private System.Int32 <i>5__2
+    int& dyn_$i$5__2();
     // private UnityEngine.SceneManagement.Scene System.Collections.Generic.IEnumerator<UnityEngine.SceneManagement.Scene>.get_Current()
     // Offset: 0x13D9854
     UnityEngine::SceneManagement::Scene System_Collections_Generic_IEnumerator$UnityEngine_SceneManagement_Scene$_get_Current();

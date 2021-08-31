@@ -111,50 +111,28 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: Body
     Body(UnityEngine::Transform* transform_ = {}, ::Array<RootMotion::FinalIK::Inertia::Body::EffectorLink*>* effectorLinks_ = {}, float speed_ = {}, float acceleration_ = {}, float matchVelocity_ = {}, float gravity_ = {}, UnityEngine::Vector3 delta_ = {}, UnityEngine::Vector3 lazyPoint_ = {}, UnityEngine::Vector3 direction_ = {}, UnityEngine::Vector3 lastPosition_ = {}, bool firstUpdate_ = {}) noexcept : transform{transform_}, effectorLinks{effectorLinks_}, speed{speed_}, acceleration{acceleration_}, matchVelocity{matchVelocity_}, gravity{gravity_}, delta{delta_}, lazyPoint{lazyPoint_}, direction{direction_}, lastPosition{lastPosition_}, firstUpdate{firstUpdate_} {}
-    // Get instance field: public UnityEngine.Transform transform
-    UnityEngine::Transform* _get_transform();
-    // Set instance field: public UnityEngine.Transform transform
-    void _set_transform(UnityEngine::Transform* value);
-    // Get instance field: public RootMotion.FinalIK.Inertia/RootMotion.FinalIK.Body/RootMotion.FinalIK.EffectorLink[] effectorLinks
-    ::Array<RootMotion::FinalIK::Inertia::Body::EffectorLink*>* _get_effectorLinks();
-    // Set instance field: public RootMotion.FinalIK.Inertia/RootMotion.FinalIK.Body/RootMotion.FinalIK.EffectorLink[] effectorLinks
-    void _set_effectorLinks(::Array<RootMotion::FinalIK::Inertia::Body::EffectorLink*>* value);
-    // Get instance field: public System.Single speed
-    float _get_speed();
-    // Set instance field: public System.Single speed
-    void _set_speed(float value);
-    // Get instance field: public System.Single acceleration
-    float _get_acceleration();
-    // Set instance field: public System.Single acceleration
-    void _set_acceleration(float value);
-    // Get instance field: public System.Single matchVelocity
-    float _get_matchVelocity();
-    // Set instance field: public System.Single matchVelocity
-    void _set_matchVelocity(float value);
-    // Get instance field: public System.Single gravity
-    float _get_gravity();
-    // Set instance field: public System.Single gravity
-    void _set_gravity(float value);
-    // Get instance field: private UnityEngine.Vector3 delta
-    UnityEngine::Vector3 _get_delta();
-    // Set instance field: private UnityEngine.Vector3 delta
-    void _set_delta(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 lazyPoint
-    UnityEngine::Vector3 _get_lazyPoint();
-    // Set instance field: private UnityEngine.Vector3 lazyPoint
-    void _set_lazyPoint(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 direction
-    UnityEngine::Vector3 _get_direction();
-    // Set instance field: private UnityEngine.Vector3 direction
-    void _set_direction(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 lastPosition
-    UnityEngine::Vector3 _get_lastPosition();
-    // Set instance field: private UnityEngine.Vector3 lastPosition
-    void _set_lastPosition(UnityEngine::Vector3 value);
-    // Get instance field: private System.Boolean firstUpdate
-    bool _get_firstUpdate();
-    // Set instance field: private System.Boolean firstUpdate
-    void _set_firstUpdate(bool value);
+    // Get instance field reference: public UnityEngine.Transform transform
+    UnityEngine::Transform*& dyn_transform();
+    // Get instance field reference: public RootMotion.FinalIK.Inertia/RootMotion.FinalIK.Body/RootMotion.FinalIK.EffectorLink[] effectorLinks
+    ::Array<RootMotion::FinalIK::Inertia::Body::EffectorLink*>*& dyn_effectorLinks();
+    // Get instance field reference: public System.Single speed
+    float& dyn_speed();
+    // Get instance field reference: public System.Single acceleration
+    float& dyn_acceleration();
+    // Get instance field reference: public System.Single matchVelocity
+    float& dyn_matchVelocity();
+    // Get instance field reference: public System.Single gravity
+    float& dyn_gravity();
+    // Get instance field reference: private UnityEngine.Vector3 delta
+    UnityEngine::Vector3& dyn_delta();
+    // Get instance field reference: private UnityEngine.Vector3 lazyPoint
+    UnityEngine::Vector3& dyn_lazyPoint();
+    // Get instance field reference: private UnityEngine.Vector3 direction
+    UnityEngine::Vector3& dyn_direction();
+    // Get instance field reference: private UnityEngine.Vector3 lastPosition
+    UnityEngine::Vector3& dyn_lastPosition();
+    // Get instance field reference: private System.Boolean firstUpdate
+    bool& dyn_firstUpdate();
     // public System.Void Reset()
     // Offset: 0x1E8A214
     void Reset();

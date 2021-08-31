@@ -69,30 +69,18 @@ namespace Org::BouncyCastle::Crypto::Engines {
     operator Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBlockCipher*>(this);
     }
-    // Get instance field: private System.UInt32 _a
-    uint _get__a();
-    // Set instance field: private System.UInt32 _a
-    void _set__a(uint value);
-    // Get instance field: private System.UInt32 _b
-    uint _get__b();
-    // Set instance field: private System.UInt32 _b
-    void _set__b(uint value);
-    // Get instance field: private System.UInt32 _c
-    uint _get__c();
-    // Set instance field: private System.UInt32 _c
-    void _set__c(uint value);
-    // Get instance field: private System.UInt32 _d
-    uint _get__d();
-    // Set instance field: private System.UInt32 _d
-    void _set__d(uint value);
-    // Get instance field: private System.Boolean _initialised
-    bool _get__initialised();
-    // Set instance field: private System.Boolean _initialised
-    void _set__initialised(bool value);
-    // Get instance field: private System.Boolean _forEncryption
-    bool _get__forEncryption();
-    // Set instance field: private System.Boolean _forEncryption
-    void _set__forEncryption(bool value);
+    // Get instance field reference: private System.UInt32 _a
+    uint& dyn__a();
+    // Get instance field reference: private System.UInt32 _b
+    uint& dyn__b();
+    // Get instance field reference: private System.UInt32 _c
+    uint& dyn__c();
+    // Get instance field reference: private System.UInt32 _d
+    uint& dyn__d();
+    // Get instance field reference: private System.Boolean _initialised
+    bool& dyn__initialised();
+    // Get instance field reference: private System.Boolean _forEncryption
+    bool& dyn__forEncryption();
     // public System.String get_AlgorithmName()
     // Offset: 0x1ECAFC8
     ::Il2CppString* get_AlgorithmName();

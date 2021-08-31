@@ -76,22 +76,14 @@ namespace Zenject {
     operator Zenject::ISubContainerCreator() noexcept {
       return *reinterpret_cast<Zenject::ISubContainerCreator*>(this);
     }
-    // Get instance field: private readonly System.Type _installerType
-    System::Type* _get__installerType();
-    // Set instance field: private readonly System.Type _installerType
-    void _set__installerType(System::Type* value);
-    // Get instance field: private readonly Zenject.DiContainer _container
-    Zenject::DiContainer* _get__container();
-    // Set instance field: private readonly Zenject.DiContainer _container
-    void _set__container(Zenject::DiContainer* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> _extraArgs
-    System::Collections::Generic::List_1<Zenject::TypeValuePair>* _get__extraArgs();
-    // Set instance field: private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> _extraArgs
-    void _set__extraArgs(System::Collections::Generic::List_1<Zenject::TypeValuePair>* value);
-    // Get instance field: private readonly Zenject.SubContainerCreatorBindInfo _containerBindInfo
-    Zenject::SubContainerCreatorBindInfo* _get__containerBindInfo();
-    // Set instance field: private readonly Zenject.SubContainerCreatorBindInfo _containerBindInfo
-    void _set__containerBindInfo(Zenject::SubContainerCreatorBindInfo* value);
+    // Get instance field reference: private readonly System.Type _installerType
+    System::Type*& dyn__installerType();
+    // Get instance field reference: private readonly Zenject.DiContainer _container
+    Zenject::DiContainer*& dyn__container();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> _extraArgs
+    System::Collections::Generic::List_1<Zenject::TypeValuePair>*& dyn__extraArgs();
+    // Get instance field reference: private readonly Zenject.SubContainerCreatorBindInfo _containerBindInfo
+    Zenject::SubContainerCreatorBindInfo*& dyn__containerBindInfo();
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.SubContainerCreatorBindInfo containerBindInfo, System.Type installerType, System.Collections.Generic.IEnumerable`1<Zenject.TypeValuePair> extraArgs)
     // Offset: 0x1720264
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

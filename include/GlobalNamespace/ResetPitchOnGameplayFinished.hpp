@@ -41,14 +41,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::AudioManagerSO*) == 0x8);
     // Creating value type constructor for type: ResetPitchOnGameplayFinished
     ResetPitchOnGameplayFinished(GlobalNamespace::GameplayLevelSceneTransitionEvents* gameplayLevelSceneTransitionEvents_ = {}, GlobalNamespace::AudioManagerSO* audioManager_ = {}) noexcept : gameplayLevelSceneTransitionEvents{gameplayLevelSceneTransitionEvents_}, audioManager{audioManager_} {}
-    // Get instance field: private readonly GameplayLevelSceneTransitionEvents _gameplayLevelSceneTransitionEvents
-    GlobalNamespace::GameplayLevelSceneTransitionEvents* _get__gameplayLevelSceneTransitionEvents();
-    // Set instance field: private readonly GameplayLevelSceneTransitionEvents _gameplayLevelSceneTransitionEvents
-    void _set__gameplayLevelSceneTransitionEvents(GlobalNamespace::GameplayLevelSceneTransitionEvents* value);
-    // Get instance field: private readonly AudioManagerSO _audioManager
-    GlobalNamespace::AudioManagerSO* _get__audioManager();
-    // Set instance field: private readonly AudioManagerSO _audioManager
-    void _set__audioManager(GlobalNamespace::AudioManagerSO* value);
+    // Get instance field reference: private readonly GameplayLevelSceneTransitionEvents _gameplayLevelSceneTransitionEvents
+    GlobalNamespace::GameplayLevelSceneTransitionEvents*& dyn__gameplayLevelSceneTransitionEvents();
+    // Get instance field reference: private readonly AudioManagerSO _audioManager
+    GlobalNamespace::AudioManagerSO*& dyn__audioManager();
     // public System.Void .ctor(GameplayLevelSceneTransitionEvents gameplayLevelSceneTransitionEvents, AudioManagerSO audioManager)
     // Offset: 0x118B734
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -47,10 +47,8 @@ namespace UnityEngine {
     constexpr operator int() const noexcept {
       return id;
     }
-    // Get instance field: System.Int32 id
-    int _get_id();
-    // Set instance field: System.Int32 id
-    void _set_id(int value);
+    // Get instance field reference: System.Int32 id
+    int& dyn_id();
     // public System.Void .ctor(System.String name)
     // Offset: 0x1C40320
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

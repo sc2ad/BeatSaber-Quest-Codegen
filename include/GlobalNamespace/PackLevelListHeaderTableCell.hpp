@@ -77,30 +77,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Threading::CancellationTokenSource*) == 0x8);
     // Creating value type constructor for type: PackLevelListHeaderTableCell
     PackLevelListHeaderTableCell(UnityEngine::Color selectedHighlightElementsColor_ = {}, TMPro::TextMeshProUGUI* text_ = {}, UnityEngine::UI::Image* bgImage_ = {}, UnityEngine::UI::Image* highlightImage_ = {}, UnityEngine::UI::Image* arrowImage_ = {}, System::Threading::CancellationTokenSource* cancellationTokenSource_ = {}) noexcept : selectedHighlightElementsColor{selectedHighlightElementsColor_}, text{text_}, bgImage{bgImage_}, highlightImage{highlightImage_}, arrowImage{arrowImage_}, cancellationTokenSource{cancellationTokenSource_} {}
-    // Get instance field: private UnityEngine.Color _selectedHighlightElementsColor
-    UnityEngine::Color _get__selectedHighlightElementsColor();
-    // Set instance field: private UnityEngine.Color _selectedHighlightElementsColor
-    void _set__selectedHighlightElementsColor(UnityEngine::Color value);
-    // Get instance field: private TMPro.TextMeshProUGUI _text
-    TMPro::TextMeshProUGUI* _get__text();
-    // Set instance field: private TMPro.TextMeshProUGUI _text
-    void _set__text(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private UnityEngine.UI.Image _bgImage
-    UnityEngine::UI::Image* _get__bgImage();
-    // Set instance field: private UnityEngine.UI.Image _bgImage
-    void _set__bgImage(UnityEngine::UI::Image* value);
-    // Get instance field: private UnityEngine.UI.Image _highlightImage
-    UnityEngine::UI::Image* _get__highlightImage();
-    // Set instance field: private UnityEngine.UI.Image _highlightImage
-    void _set__highlightImage(UnityEngine::UI::Image* value);
-    // Get instance field: private UnityEngine.UI.Image _arrowImage
-    UnityEngine::UI::Image* _get__arrowImage();
-    // Set instance field: private UnityEngine.UI.Image _arrowImage
-    void _set__arrowImage(UnityEngine::UI::Image* value);
-    // Get instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    System::Threading::CancellationTokenSource* _get__cancellationTokenSource();
-    // Set instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    void _set__cancellationTokenSource(System::Threading::CancellationTokenSource* value);
+    // Get instance field reference: private UnityEngine.Color _selectedHighlightElementsColor
+    UnityEngine::Color& dyn__selectedHighlightElementsColor();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _text
+    TMPro::TextMeshProUGUI*& dyn__text();
+    // Get instance field reference: private UnityEngine.UI.Image _bgImage
+    UnityEngine::UI::Image*& dyn__bgImage();
+    // Get instance field reference: private UnityEngine.UI.Image _highlightImage
+    UnityEngine::UI::Image*& dyn__highlightImage();
+    // Get instance field reference: private UnityEngine.UI.Image _arrowImage
+    UnityEngine::UI::Image*& dyn__arrowImage();
+    // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
+    System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
     // public System.String get_text()
     // Offset: 0x102EA1C
     ::Il2CppString* get_text();

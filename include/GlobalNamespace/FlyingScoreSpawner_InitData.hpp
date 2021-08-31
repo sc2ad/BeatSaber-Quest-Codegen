@@ -34,10 +34,8 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::FlyingScoreSpawner::SpawnPosition() const noexcept {
       return spawnPosition;
     }
-    // Get instance field: public readonly FlyingScoreSpawner/SpawnPosition spawnPosition
-    GlobalNamespace::FlyingScoreSpawner::SpawnPosition _get_spawnPosition();
-    // Set instance field: public readonly FlyingScoreSpawner/SpawnPosition spawnPosition
-    void _set_spawnPosition(GlobalNamespace::FlyingScoreSpawner::SpawnPosition value);
+    // Get instance field reference: public readonly FlyingScoreSpawner/SpawnPosition spawnPosition
+    GlobalNamespace::FlyingScoreSpawner::SpawnPosition& dyn_spawnPosition();
     // public System.Void .ctor(FlyingScoreSpawner/SpawnPosition spawnPosition)
     // Offset: 0x105B888
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

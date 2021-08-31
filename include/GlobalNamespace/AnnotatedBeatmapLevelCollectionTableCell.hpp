@@ -121,46 +121,26 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Threading::CancellationTokenSource*) == 0x8);
     // Creating value type constructor for type: AnnotatedBeatmapLevelCollectionTableCell
     AnnotatedBeatmapLevelCollectionTableCell(TMPro::TextMeshProUGUI* infoText_ = {}, UnityEngine::UI::Image* coverImage_ = {}, HMUI::ImageView* selectionImage_ = {}, ::Array<UnityEngine::GameObject*>* newPromoRibbonObjects_ = {}, UnityEngine::Color selectedColor0_ = {}, UnityEngine::Color selectedColor1_ = {}, UnityEngine::Color highlightedColor0_ = {}, UnityEngine::Color highlightedColor1_ = {}, GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection_ = {}, System::Threading::CancellationTokenSource* cancellationTokenSource_ = {}) noexcept : infoText{infoText_}, coverImage{coverImage_}, selectionImage{selectionImage_}, newPromoRibbonObjects{newPromoRibbonObjects_}, selectedColor0{selectedColor0_}, selectedColor1{selectedColor1_}, highlightedColor0{highlightedColor0_}, highlightedColor1{highlightedColor1_}, annotatedBeatmapLevelCollection{annotatedBeatmapLevelCollection_}, cancellationTokenSource{cancellationTokenSource_} {}
-    // Get instance field: private TMPro.TextMeshProUGUI _infoText
-    TMPro::TextMeshProUGUI* _get__infoText();
-    // Set instance field: private TMPro.TextMeshProUGUI _infoText
-    void _set__infoText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private UnityEngine.UI.Image _coverImage
-    UnityEngine::UI::Image* _get__coverImage();
-    // Set instance field: private UnityEngine.UI.Image _coverImage
-    void _set__coverImage(UnityEngine::UI::Image* value);
-    // Get instance field: private HMUI.ImageView _selectionImage
-    HMUI::ImageView* _get__selectionImage();
-    // Set instance field: private HMUI.ImageView _selectionImage
-    void _set__selectionImage(HMUI::ImageView* value);
-    // Get instance field: private UnityEngine.GameObject[] _newPromoRibbonObjects
-    ::Array<UnityEngine::GameObject*>* _get__newPromoRibbonObjects();
-    // Set instance field: private UnityEngine.GameObject[] _newPromoRibbonObjects
-    void _set__newPromoRibbonObjects(::Array<UnityEngine::GameObject*>* value);
-    // Get instance field: private UnityEngine.Color _selectedColor0
-    UnityEngine::Color _get__selectedColor0();
-    // Set instance field: private UnityEngine.Color _selectedColor0
-    void _set__selectedColor0(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _selectedColor1
-    UnityEngine::Color _get__selectedColor1();
-    // Set instance field: private UnityEngine.Color _selectedColor1
-    void _set__selectedColor1(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _highlightedColor0
-    UnityEngine::Color _get__highlightedColor0();
-    // Set instance field: private UnityEngine.Color _highlightedColor0
-    void _set__highlightedColor0(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _highlightedColor1
-    UnityEngine::Color _get__highlightedColor1();
-    // Set instance field: private UnityEngine.Color _highlightedColor1
-    void _set__highlightedColor1(UnityEngine::Color value);
-    // Get instance field: private IAnnotatedBeatmapLevelCollection _annotatedBeatmapLevelCollection
-    GlobalNamespace::IAnnotatedBeatmapLevelCollection* _get__annotatedBeatmapLevelCollection();
-    // Set instance field: private IAnnotatedBeatmapLevelCollection _annotatedBeatmapLevelCollection
-    void _set__annotatedBeatmapLevelCollection(GlobalNamespace::IAnnotatedBeatmapLevelCollection* value);
-    // Get instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    System::Threading::CancellationTokenSource* _get__cancellationTokenSource();
-    // Set instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    void _set__cancellationTokenSource(System::Threading::CancellationTokenSource* value);
+    // Get instance field reference: private TMPro.TextMeshProUGUI _infoText
+    TMPro::TextMeshProUGUI*& dyn__infoText();
+    // Get instance field reference: private UnityEngine.UI.Image _coverImage
+    UnityEngine::UI::Image*& dyn__coverImage();
+    // Get instance field reference: private HMUI.ImageView _selectionImage
+    HMUI::ImageView*& dyn__selectionImage();
+    // Get instance field reference: private UnityEngine.GameObject[] _newPromoRibbonObjects
+    ::Array<UnityEngine::GameObject*>*& dyn__newPromoRibbonObjects();
+    // Get instance field reference: private UnityEngine.Color _selectedColor0
+    UnityEngine::Color& dyn__selectedColor0();
+    // Get instance field reference: private UnityEngine.Color _selectedColor1
+    UnityEngine::Color& dyn__selectedColor1();
+    // Get instance field reference: private UnityEngine.Color _highlightedColor0
+    UnityEngine::Color& dyn__highlightedColor0();
+    // Get instance field reference: private UnityEngine.Color _highlightedColor1
+    UnityEngine::Color& dyn__highlightedColor1();
+    // Get instance field reference: private IAnnotatedBeatmapLevelCollection _annotatedBeatmapLevelCollection
+    GlobalNamespace::IAnnotatedBeatmapLevelCollection*& dyn__annotatedBeatmapLevelCollection();
+    // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
+    System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
     // public System.Void set_showNewRibbon(System.Boolean value)
     // Offset: 0x11791FC
     void set_showNewRibbon(bool value);

@@ -44,14 +44,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     static_assert(sizeof(UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_0*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass0_2
     $$c__DisplayClass0_2(int c_ = {}, UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_0* CS$$$8__locals1_ = {}) noexcept : c{c_}, CS$$$8__locals1{CS$$$8__locals1_} {}
-    // Get instance field: public System.Int32 c
-    int _get_c();
-    // Set instance field: public System.Int32 c
-    void _set_c(int value);
-    // Get instance field: public UnityEngine.ProBuilder.MeshOperations.Bevel/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass0_0 CS$<>8__locals1
-    UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_0* _get_CS$$$8__locals1();
-    // Set instance field: public UnityEngine.ProBuilder.MeshOperations.Bevel/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass0_0 CS$<>8__locals1
-    void _set_CS$$$8__locals1(UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_0* value);
+    // Get instance field reference: public System.Int32 c
+    int& dyn_c();
+    // Get instance field reference: public UnityEngine.ProBuilder.MeshOperations.Bevel/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass0_0 CS$<>8__locals1
+    UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_0*& dyn_CS$$$8__locals1();
     // System.Boolean <BevelEdges>b__5(UnityEngine.ProBuilder.WingedEdge x)
     // Offset: 0x154BD34
     bool $BevelEdges$b__5(UnityEngine::ProBuilder::WingedEdge* x);

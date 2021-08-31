@@ -111,42 +111,24 @@ namespace GlobalNamespace {
     GameEnergyUIPanel(UnityEngine::UI::Image* energyBar_ = {}, UnityEngine::Playables::PlayableDirector* playableDirector_ = {}, UnityEngine::UI::Image* batteryLifeSegmentPrefab_ = {}, float batterySegmentSeparatorWidth_ = {}, float batterySegmentHorizontalPadding_ = {}, GlobalNamespace::IGameEnergyCounter* gameEnergyCounter_ = {}, System::Collections::Generic::List_1<UnityEngine::UI::Image*>* batteryLifeSegments_ = {}, int activeBatteryLifeSegmentsCount_ = {}, UnityEngine::RectTransform* energyBarRectTransform_ = {}) noexcept : energyBar{energyBar_}, playableDirector{playableDirector_}, batteryLifeSegmentPrefab{batteryLifeSegmentPrefab_}, batterySegmentSeparatorWidth{batterySegmentSeparatorWidth_}, batterySegmentHorizontalPadding{batterySegmentHorizontalPadding_}, gameEnergyCounter{gameEnergyCounter_}, batteryLifeSegments{batteryLifeSegments_}, activeBatteryLifeSegmentsCount{activeBatteryLifeSegmentsCount_}, energyBarRectTransform{energyBarRectTransform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.UI.Image _energyBar
-    UnityEngine::UI::Image* _get__energyBar();
-    // Set instance field: private UnityEngine.UI.Image _energyBar
-    void _set__energyBar(UnityEngine::UI::Image* value);
-    // Get instance field: private UnityEngine.Playables.PlayableDirector _playableDirector
-    UnityEngine::Playables::PlayableDirector* _get__playableDirector();
-    // Set instance field: private UnityEngine.Playables.PlayableDirector _playableDirector
-    void _set__playableDirector(UnityEngine::Playables::PlayableDirector* value);
-    // Get instance field: private UnityEngine.UI.Image _batteryLifeSegmentPrefab
-    UnityEngine::UI::Image* _get__batteryLifeSegmentPrefab();
-    // Set instance field: private UnityEngine.UI.Image _batteryLifeSegmentPrefab
-    void _set__batteryLifeSegmentPrefab(UnityEngine::UI::Image* value);
-    // Get instance field: private System.Single _batterySegmentSeparatorWidth
-    float _get__batterySegmentSeparatorWidth();
-    // Set instance field: private System.Single _batterySegmentSeparatorWidth
-    void _set__batterySegmentSeparatorWidth(float value);
-    // Get instance field: private System.Single _batterySegmentHorizontalPadding
-    float _get__batterySegmentHorizontalPadding();
-    // Set instance field: private System.Single _batterySegmentHorizontalPadding
-    void _set__batterySegmentHorizontalPadding(float value);
-    // Get instance field: private readonly IGameEnergyCounter _gameEnergyCounter
-    GlobalNamespace::IGameEnergyCounter* _get__gameEnergyCounter();
-    // Set instance field: private readonly IGameEnergyCounter _gameEnergyCounter
-    void _set__gameEnergyCounter(GlobalNamespace::IGameEnergyCounter* value);
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.UI.Image> _batteryLifeSegments
-    System::Collections::Generic::List_1<UnityEngine::UI::Image*>* _get__batteryLifeSegments();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.UI.Image> _batteryLifeSegments
-    void _set__batteryLifeSegments(System::Collections::Generic::List_1<UnityEngine::UI::Image*>* value);
-    // Get instance field: private System.Int32 _activeBatteryLifeSegmentsCount
-    int _get__activeBatteryLifeSegmentsCount();
-    // Set instance field: private System.Int32 _activeBatteryLifeSegmentsCount
-    void _set__activeBatteryLifeSegmentsCount(int value);
-    // Get instance field: private UnityEngine.RectTransform _energyBarRectTransform
-    UnityEngine::RectTransform* _get__energyBarRectTransform();
-    // Set instance field: private UnityEngine.RectTransform _energyBarRectTransform
-    void _set__energyBarRectTransform(UnityEngine::RectTransform* value);
+    // Get instance field reference: private UnityEngine.UI.Image _energyBar
+    UnityEngine::UI::Image*& dyn__energyBar();
+    // Get instance field reference: private UnityEngine.Playables.PlayableDirector _playableDirector
+    UnityEngine::Playables::PlayableDirector*& dyn__playableDirector();
+    // Get instance field reference: private UnityEngine.UI.Image _batteryLifeSegmentPrefab
+    UnityEngine::UI::Image*& dyn__batteryLifeSegmentPrefab();
+    // Get instance field reference: private System.Single _batterySegmentSeparatorWidth
+    float& dyn__batterySegmentSeparatorWidth();
+    // Get instance field reference: private System.Single _batterySegmentHorizontalPadding
+    float& dyn__batterySegmentHorizontalPadding();
+    // Get instance field reference: private readonly IGameEnergyCounter _gameEnergyCounter
+    GlobalNamespace::IGameEnergyCounter*& dyn__gameEnergyCounter();
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.UI.Image> _batteryLifeSegments
+    System::Collections::Generic::List_1<UnityEngine::UI::Image*>*& dyn__batteryLifeSegments();
+    // Get instance field reference: private System.Int32 _activeBatteryLifeSegmentsCount
+    int& dyn__activeBatteryLifeSegmentsCount();
+    // Get instance field reference: private UnityEngine.RectTransform _energyBarRectTransform
+    UnityEngine::RectTransform*& dyn__energyBarRectTransform();
     // protected System.Void Start()
     // Offset: 0x105EB78
     void Start();

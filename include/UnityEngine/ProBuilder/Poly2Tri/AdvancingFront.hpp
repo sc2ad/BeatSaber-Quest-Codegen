@@ -47,18 +47,12 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     static_assert(sizeof(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*) == 0x8);
     // Creating value type constructor for type: AdvancingFront
     AdvancingFront(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Head_ = {}, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Tail_ = {}, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Search_ = {}) noexcept : Head{Head_}, Tail{Tail_}, Search{Search_} {}
-    // Get instance field: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode Head
-    UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* _get_Head();
-    // Set instance field: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode Head
-    void _set_Head(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
-    // Get instance field: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode Tail
-    UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* _get_Tail();
-    // Set instance field: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode Tail
-    void _set_Tail(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
-    // Get instance field: protected UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode Search
-    UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* _get_Search();
-    // Set instance field: protected UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode Search
-    void _set_Search(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
+    // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode Head
+    UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& dyn_Head();
+    // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode Tail
+    UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& dyn_Tail();
+    // Get instance field reference: protected UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode Search
+    UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& dyn_Search();
     // public System.Void .ctor(UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode head, UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode tail)
     // Offset: 0x23BE104
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

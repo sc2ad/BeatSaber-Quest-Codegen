@@ -42,14 +42,10 @@ namespace System::Net {
     static_assert(sizeof(System::Net::SimpleAsyncResult*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass9_0
     $$c__DisplayClass9_0(System::AsyncCallback* cb_ = {}, System::Net::SimpleAsyncResult* $$4__this_ = {}) noexcept : cb{cb_}, $$4__this{$$4__this_} {}
-    // Get instance field: public System.AsyncCallback cb
-    System::AsyncCallback* _get_cb();
-    // Set instance field: public System.AsyncCallback cb
-    void _set_cb(System::AsyncCallback* value);
-    // Get instance field: public System.Net.SimpleAsyncResult <>4__this
-    System::Net::SimpleAsyncResult* _get_$$4__this();
-    // Set instance field: public System.Net.SimpleAsyncResult <>4__this
-    void _set_$$4__this(System::Net::SimpleAsyncResult* value);
+    // Get instance field reference: public System.AsyncCallback cb
+    System::AsyncCallback*& dyn_cb();
+    // Get instance field reference: public System.Net.SimpleAsyncResult <>4__this
+    System::Net::SimpleAsyncResult*& dyn_$$4__this();
     // System.Void <.ctor>b__0(System.Net.SimpleAsyncResult result)
     // Offset: 0x14A3E7C
     void $_ctor$b__0(System::Net::SimpleAsyncResult* result);

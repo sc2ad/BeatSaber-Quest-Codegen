@@ -59,10 +59,8 @@ namespace GlobalNamespace {
     constexpr operator float() const noexcept {
       return latency;
     }
-    // Get instance field: public System.Single latency
-    float _get_latency();
-    // Set instance field: public System.Single latency
-    void _set_latency(float value);
+    // Get instance field reference: public System.Single latency
+    float& dyn_latency();
     // static public PacketPool`1<ConnectedPlayerManager/PlayerLatencyPacket> get_pool()
     // Offset: 0x1320C60
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::PlayerLatencyPacket*>* get_pool();

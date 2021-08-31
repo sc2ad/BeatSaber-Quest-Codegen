@@ -52,10 +52,8 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
     static UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::DependencyHashIndex _get_Count();
     // Set static field: static public UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/UnityEngine.AddressableAssets.ResourceProviders.DependencyHashIndex Count
     static void _set_Count(UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::DependencyHashIndex value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/UnityEngine.AddressableAssets.ResourceProviders.DependencyHashIndex
   #pragma pack(pop)
   static check_size<sizeof(ContentCatalogProvider::DependencyHashIndex), 0 + sizeof(int)> __UnityEngine_AddressableAssets_ResourceProviders_ContentCatalogProvider_DependencyHashIndexSizeCheck;

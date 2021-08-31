@@ -56,10 +56,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::NodePoseSyncState_NodePose _get_Count();
     // Set static field: static public NodePoseSyncState/NodePose Count
     static void _set_Count(GlobalNamespace::NodePoseSyncState_NodePose value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // NodePoseSyncState/NodePose
   #pragma pack(pop)
   static check_size<sizeof(NodePoseSyncState_NodePose), 0 + sizeof(int)> __GlobalNamespace_NodePoseSyncState_NodePoseSizeCheck;

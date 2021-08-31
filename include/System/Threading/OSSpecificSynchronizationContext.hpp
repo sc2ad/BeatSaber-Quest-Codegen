@@ -62,10 +62,8 @@ namespace System::Threading {
     static System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, System::Threading::OSSpecificSynchronizationContext*>* _get_s_ContextCache();
     // Set static field: static private readonly System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.Threading.OSSpecificSynchronizationContext> s_ContextCache
     static void _set_s_ContextCache(System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, System::Threading::OSSpecificSynchronizationContext*>* value);
-    // Get instance field: private System.Object m_OSSynchronizationContext
-    ::Il2CppObject* _get_m_OSSynchronizationContext();
-    // Set instance field: private System.Object m_OSSynchronizationContext
-    void _set_m_OSSynchronizationContext(::Il2CppObject* value);
+    // Get instance field reference: private System.Object m_OSSynchronizationContext
+    ::Il2CppObject*& dyn_m_OSSynchronizationContext();
     // private System.Void .ctor(System.Object osContext)
     // Offset: 0x18F7574
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -54,26 +54,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: MultiplayerModeSettings
     MultiplayerModeSettings(int createServerNumberOfPlayers_ = {}, ::Il2CppString* quickPlayDifficulty_ = {}, ::Array<uint8_t>* quickPlaySongPackMask_ = {}, ::Il2CppString* quickPlaySongPackMaskSerializedName_ = {}, bool quickPlayEnableLevelSelection_ = {}) noexcept : createServerNumberOfPlayers{createServerNumberOfPlayers_}, quickPlayDifficulty{quickPlayDifficulty_}, quickPlaySongPackMask{quickPlaySongPackMask_}, quickPlaySongPackMaskSerializedName{quickPlaySongPackMaskSerializedName_}, quickPlayEnableLevelSelection{quickPlayEnableLevelSelection_} {}
-    // Get instance field: public System.Int32 createServerNumberOfPlayers
-    int _get_createServerNumberOfPlayers();
-    // Set instance field: public System.Int32 createServerNumberOfPlayers
-    void _set_createServerNumberOfPlayers(int value);
-    // Get instance field: public System.String quickPlayDifficulty
-    ::Il2CppString* _get_quickPlayDifficulty();
-    // Set instance field: public System.String quickPlayDifficulty
-    void _set_quickPlayDifficulty(::Il2CppString* value);
-    // Get instance field: public System.Byte[] quickPlaySongPackMask
-    ::Array<uint8_t>* _get_quickPlaySongPackMask();
-    // Set instance field: public System.Byte[] quickPlaySongPackMask
-    void _set_quickPlaySongPackMask(::Array<uint8_t>* value);
-    // Get instance field: public System.String quickPlaySongPackMaskSerializedName
-    ::Il2CppString* _get_quickPlaySongPackMaskSerializedName();
-    // Set instance field: public System.String quickPlaySongPackMaskSerializedName
-    void _set_quickPlaySongPackMaskSerializedName(::Il2CppString* value);
-    // Get instance field: public System.Boolean quickPlayEnableLevelSelection
-    bool _get_quickPlayEnableLevelSelection();
-    // Set instance field: public System.Boolean quickPlayEnableLevelSelection
-    void _set_quickPlayEnableLevelSelection(bool value);
+    // Get instance field reference: public System.Int32 createServerNumberOfPlayers
+    int& dyn_createServerNumberOfPlayers();
+    // Get instance field reference: public System.String quickPlayDifficulty
+    ::Il2CppString*& dyn_quickPlayDifficulty();
+    // Get instance field reference: public System.Byte[] quickPlaySongPackMask
+    ::Array<uint8_t>*& dyn_quickPlaySongPackMask();
+    // Get instance field reference: public System.String quickPlaySongPackMaskSerializedName
+    ::Il2CppString*& dyn_quickPlaySongPackMaskSerializedName();
+    // Get instance field reference: public System.Boolean quickPlayEnableLevelSelection
+    bool& dyn_quickPlayEnableLevelSelection();
     // public System.Void .ctor()
     // Offset: 0x1137844
     // Implemented from: System.Object

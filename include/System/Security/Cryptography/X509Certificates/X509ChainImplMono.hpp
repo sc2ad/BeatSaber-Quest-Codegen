@@ -156,66 +156,36 @@ namespace System::Security::Cryptography::X509Certificates {
     static ::Array<System::Security::Cryptography::X509Certificates::X509ChainStatus>* _get_Empty();
     // Set static field: static private System.Security.Cryptography.X509Certificates.X509ChainStatus[] Empty
     static void _set_Empty(::Array<System::Security::Cryptography::X509Certificates::X509ChainStatus>* value);
-    // Get instance field: private System.Security.Cryptography.X509Certificates.StoreLocation location
-    System::Security::Cryptography::X509Certificates::StoreLocation _get_location();
-    // Set instance field: private System.Security.Cryptography.X509Certificates.StoreLocation location
-    void _set_location(System::Security::Cryptography::X509Certificates::StoreLocation value);
-    // Get instance field: private System.Security.Cryptography.X509Certificates.X509ChainElementCollection elements
-    System::Security::Cryptography::X509Certificates::X509ChainElementCollection* _get_elements();
-    // Set instance field: private System.Security.Cryptography.X509Certificates.X509ChainElementCollection elements
-    void _set_elements(System::Security::Cryptography::X509Certificates::X509ChainElementCollection* value);
-    // Get instance field: private System.Security.Cryptography.X509Certificates.X509ChainPolicy policy
-    System::Security::Cryptography::X509Certificates::X509ChainPolicy* _get_policy();
-    // Set instance field: private System.Security.Cryptography.X509Certificates.X509ChainPolicy policy
-    void _set_policy(System::Security::Cryptography::X509Certificates::X509ChainPolicy* value);
-    // Get instance field: private System.Security.Cryptography.X509Certificates.X509ChainStatus[] status
-    ::Array<System::Security::Cryptography::X509Certificates::X509ChainStatus>* _get_status();
-    // Set instance field: private System.Security.Cryptography.X509Certificates.X509ChainStatus[] status
-    void _set_status(::Array<System::Security::Cryptography::X509Certificates::X509ChainStatus>* value);
-    // Get instance field: private System.Int32 max_path_length
-    int _get_max_path_length();
-    // Set instance field: private System.Int32 max_path_length
-    void _set_max_path_length(int value);
-    // Get instance field: private System.Security.Cryptography.X509Certificates.X500DistinguishedName working_issuer_name
-    System::Security::Cryptography::X509Certificates::X500DistinguishedName* _get_working_issuer_name();
-    // Set instance field: private System.Security.Cryptography.X509Certificates.X500DistinguishedName working_issuer_name
-    void _set_working_issuer_name(System::Security::Cryptography::X509Certificates::X500DistinguishedName* value);
-    // Get instance field: private System.Security.Cryptography.AsymmetricAlgorithm working_public_key
-    System::Security::Cryptography::AsymmetricAlgorithm* _get_working_public_key();
-    // Set instance field: private System.Security.Cryptography.AsymmetricAlgorithm working_public_key
-    void _set_working_public_key(System::Security::Cryptography::AsymmetricAlgorithm* value);
-    // Get instance field: private System.Security.Cryptography.X509Certificates.X509ChainElement bce_restriction
-    System::Security::Cryptography::X509Certificates::X509ChainElement* _get_bce_restriction();
-    // Set instance field: private System.Security.Cryptography.X509Certificates.X509ChainElement bce_restriction
-    void _set_bce_restriction(System::Security::Cryptography::X509Certificates::X509ChainElement* value);
-    // Get instance field: private System.Security.Cryptography.X509Certificates.X509Certificate2Collection roots
-    System::Security::Cryptography::X509Certificates::X509Certificate2Collection* _get_roots();
-    // Set instance field: private System.Security.Cryptography.X509Certificates.X509Certificate2Collection roots
-    void _set_roots(System::Security::Cryptography::X509Certificates::X509Certificate2Collection* value);
-    // Get instance field: private System.Security.Cryptography.X509Certificates.X509Certificate2Collection cas
-    System::Security::Cryptography::X509Certificates::X509Certificate2Collection* _get_cas();
-    // Set instance field: private System.Security.Cryptography.X509Certificates.X509Certificate2Collection cas
-    void _set_cas(System::Security::Cryptography::X509Certificates::X509Certificate2Collection* value);
-    // Get instance field: private System.Security.Cryptography.X509Certificates.X509Store root_store
-    System::Security::Cryptography::X509Certificates::X509Store* _get_root_store();
-    // Set instance field: private System.Security.Cryptography.X509Certificates.X509Store root_store
-    void _set_root_store(System::Security::Cryptography::X509Certificates::X509Store* value);
-    // Get instance field: private System.Security.Cryptography.X509Certificates.X509Store ca_store
-    System::Security::Cryptography::X509Certificates::X509Store* _get_ca_store();
-    // Set instance field: private System.Security.Cryptography.X509Certificates.X509Store ca_store
-    void _set_ca_store(System::Security::Cryptography::X509Certificates::X509Store* value);
-    // Get instance field: private System.Security.Cryptography.X509Certificates.X509Store user_root_store
-    System::Security::Cryptography::X509Certificates::X509Store* _get_user_root_store();
-    // Set instance field: private System.Security.Cryptography.X509Certificates.X509Store user_root_store
-    void _set_user_root_store(System::Security::Cryptography::X509Certificates::X509Store* value);
-    // Get instance field: private System.Security.Cryptography.X509Certificates.X509Store user_ca_store
-    System::Security::Cryptography::X509Certificates::X509Store* _get_user_ca_store();
-    // Set instance field: private System.Security.Cryptography.X509Certificates.X509Store user_ca_store
-    void _set_user_ca_store(System::Security::Cryptography::X509Certificates::X509Store* value);
-    // Get instance field: private System.Security.Cryptography.X509Certificates.X509Certificate2Collection collection
-    System::Security::Cryptography::X509Certificates::X509Certificate2Collection* _get_collection();
-    // Set instance field: private System.Security.Cryptography.X509Certificates.X509Certificate2Collection collection
-    void _set_collection(System::Security::Cryptography::X509Certificates::X509Certificate2Collection* value);
+    // Get instance field reference: private System.Security.Cryptography.X509Certificates.StoreLocation location
+    System::Security::Cryptography::X509Certificates::StoreLocation& dyn_location();
+    // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509ChainElementCollection elements
+    System::Security::Cryptography::X509Certificates::X509ChainElementCollection*& dyn_elements();
+    // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509ChainPolicy policy
+    System::Security::Cryptography::X509Certificates::X509ChainPolicy*& dyn_policy();
+    // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509ChainStatus[] status
+    ::Array<System::Security::Cryptography::X509Certificates::X509ChainStatus>*& dyn_status();
+    // Get instance field reference: private System.Int32 max_path_length
+    int& dyn_max_path_length();
+    // Get instance field reference: private System.Security.Cryptography.X509Certificates.X500DistinguishedName working_issuer_name
+    System::Security::Cryptography::X509Certificates::X500DistinguishedName*& dyn_working_issuer_name();
+    // Get instance field reference: private System.Security.Cryptography.AsymmetricAlgorithm working_public_key
+    System::Security::Cryptography::AsymmetricAlgorithm*& dyn_working_public_key();
+    // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509ChainElement bce_restriction
+    System::Security::Cryptography::X509Certificates::X509ChainElement*& dyn_bce_restriction();
+    // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Certificate2Collection roots
+    System::Security::Cryptography::X509Certificates::X509Certificate2Collection*& dyn_roots();
+    // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Certificate2Collection cas
+    System::Security::Cryptography::X509Certificates::X509Certificate2Collection*& dyn_cas();
+    // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Store root_store
+    System::Security::Cryptography::X509Certificates::X509Store*& dyn_root_store();
+    // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Store ca_store
+    System::Security::Cryptography::X509Certificates::X509Store*& dyn_ca_store();
+    // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Store user_root_store
+    System::Security::Cryptography::X509Certificates::X509Store*& dyn_user_root_store();
+    // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Store user_ca_store
+    System::Security::Cryptography::X509Certificates::X509Store*& dyn_user_ca_store();
+    // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Certificate2Collection collection
+    System::Security::Cryptography::X509Certificates::X509Certificate2Collection*& dyn_collection();
     // private System.Security.Cryptography.X509Certificates.X509Certificate2Collection get_Roots()
     // Offset: 0x1861D94
     System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_Roots();

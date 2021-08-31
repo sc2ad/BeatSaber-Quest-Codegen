@@ -120,50 +120,28 @@ namespace GlobalNamespace {
     SongProgressUIController(UnityEngine::UI::Slider* slider_ = {}, UnityEngine::UI::Image* progressImage_ = {}, TMPro::TextMeshProUGUI* durationMinutesText_ = {}, TMPro::TextMeshProUGUI* durationSecondsText_ = {}, TMPro::TextMeshProUGUI* progressMinutesText_ = {}, TMPro::TextMeshProUGUI* progressSecondsText_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, int prevMinutes_ = {}, int prevSeconds_ = {}, System::Text::StringBuilder* stringBuilder_ = {}, UnityEngine::RectTransform* progressImageRectTransform_ = {}) noexcept : slider{slider_}, progressImage{progressImage_}, durationMinutesText{durationMinutesText_}, durationSecondsText{durationSecondsText_}, progressMinutesText{progressMinutesText_}, progressSecondsText{progressSecondsText_}, audioTimeSyncController{audioTimeSyncController_}, prevMinutes{prevMinutes_}, prevSeconds{prevSeconds_}, stringBuilder{stringBuilder_}, progressImageRectTransform{progressImageRectTransform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.UI.Slider _slider
-    UnityEngine::UI::Slider* _get__slider();
-    // Set instance field: private UnityEngine.UI.Slider _slider
-    void _set__slider(UnityEngine::UI::Slider* value);
-    // Get instance field: private UnityEngine.UI.Image _progressImage
-    UnityEngine::UI::Image* _get__progressImage();
-    // Set instance field: private UnityEngine.UI.Image _progressImage
-    void _set__progressImage(UnityEngine::UI::Image* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _durationMinutesText
-    TMPro::TextMeshProUGUI* _get__durationMinutesText();
-    // Set instance field: private TMPro.TextMeshProUGUI _durationMinutesText
-    void _set__durationMinutesText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _durationSecondsText
-    TMPro::TextMeshProUGUI* _get__durationSecondsText();
-    // Set instance field: private TMPro.TextMeshProUGUI _durationSecondsText
-    void _set__durationSecondsText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _progressMinutesText
-    TMPro::TextMeshProUGUI* _get__progressMinutesText();
-    // Set instance field: private TMPro.TextMeshProUGUI _progressMinutesText
-    void _set__progressMinutesText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _progressSecondsText
-    TMPro::TextMeshProUGUI* _get__progressSecondsText();
-    // Set instance field: private TMPro.TextMeshProUGUI _progressSecondsText
-    void _set__progressSecondsText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private readonly AudioTimeSyncController _audioTimeSyncController
-    GlobalNamespace::AudioTimeSyncController* _get__audioTimeSyncController();
-    // Set instance field: private readonly AudioTimeSyncController _audioTimeSyncController
-    void _set__audioTimeSyncController(GlobalNamespace::AudioTimeSyncController* value);
-    // Get instance field: private System.Int32 _prevMinutes
-    int _get__prevMinutes();
-    // Set instance field: private System.Int32 _prevMinutes
-    void _set__prevMinutes(int value);
-    // Get instance field: private System.Int32 _prevSeconds
-    int _get__prevSeconds();
-    // Set instance field: private System.Int32 _prevSeconds
-    void _set__prevSeconds(int value);
-    // Get instance field: private System.Text.StringBuilder _stringBuilder
-    System::Text::StringBuilder* _get__stringBuilder();
-    // Set instance field: private System.Text.StringBuilder _stringBuilder
-    void _set__stringBuilder(System::Text::StringBuilder* value);
-    // Get instance field: private UnityEngine.RectTransform _progressImageRectTransform
-    UnityEngine::RectTransform* _get__progressImageRectTransform();
-    // Set instance field: private UnityEngine.RectTransform _progressImageRectTransform
-    void _set__progressImageRectTransform(UnityEngine::RectTransform* value);
+    // Get instance field reference: private UnityEngine.UI.Slider _slider
+    UnityEngine::UI::Slider*& dyn__slider();
+    // Get instance field reference: private UnityEngine.UI.Image _progressImage
+    UnityEngine::UI::Image*& dyn__progressImage();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _durationMinutesText
+    TMPro::TextMeshProUGUI*& dyn__durationMinutesText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _durationSecondsText
+    TMPro::TextMeshProUGUI*& dyn__durationSecondsText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _progressMinutesText
+    TMPro::TextMeshProUGUI*& dyn__progressMinutesText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _progressSecondsText
+    TMPro::TextMeshProUGUI*& dyn__progressSecondsText();
+    // Get instance field reference: private readonly AudioTimeSyncController _audioTimeSyncController
+    GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
+    // Get instance field reference: private System.Int32 _prevMinutes
+    int& dyn__prevMinutes();
+    // Get instance field reference: private System.Int32 _prevSeconds
+    int& dyn__prevSeconds();
+    // Get instance field reference: private System.Text.StringBuilder _stringBuilder
+    System::Text::StringBuilder*& dyn__stringBuilder();
+    // Get instance field reference: private UnityEngine.RectTransform _progressImageRectTransform
+    UnityEngine::RectTransform*& dyn__progressImageRectTransform();
     // protected System.Void Start()
     // Offset: 0x1081C98
     void Start();

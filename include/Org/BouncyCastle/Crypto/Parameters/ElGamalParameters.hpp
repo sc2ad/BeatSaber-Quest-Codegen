@@ -51,18 +51,12 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     operator Org::BouncyCastle::Crypto::ICipherParameters() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);
     }
-    // Get instance field: private readonly Org.BouncyCastle.Math.BigInteger p
-    Org::BouncyCastle::Math::BigInteger* _get_p();
-    // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger p
-    void _set_p(Org::BouncyCastle::Math::BigInteger* value);
-    // Get instance field: private readonly Org.BouncyCastle.Math.BigInteger g
-    Org::BouncyCastle::Math::BigInteger* _get_g();
-    // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger g
-    void _set_g(Org::BouncyCastle::Math::BigInteger* value);
-    // Get instance field: private readonly System.Int32 l
-    int _get_l();
-    // Set instance field: private readonly System.Int32 l
-    void _set_l(int value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger p
+    Org::BouncyCastle::Math::BigInteger*& dyn_p();
+    // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger g
+    Org::BouncyCastle::Math::BigInteger*& dyn_g();
+    // Get instance field reference: private readonly System.Int32 l
+    int& dyn_l();
     // public Org.BouncyCastle.Math.BigInteger get_P()
     // Offset: 0x1275330
     Org::BouncyCastle::Math::BigInteger* get_P();

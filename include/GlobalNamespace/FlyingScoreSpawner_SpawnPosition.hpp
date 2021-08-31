@@ -46,10 +46,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::FlyingScoreSpawner::SpawnPosition _get_AboveGround();
     // Set static field: static public FlyingScoreSpawner/SpawnPosition AboveGround
     static void _set_AboveGround(GlobalNamespace::FlyingScoreSpawner::SpawnPosition value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // FlyingScoreSpawner/SpawnPosition
   #pragma pack(pop)
   static check_size<sizeof(FlyingScoreSpawner::SpawnPosition), 0 + sizeof(int)> __GlobalNamespace_FlyingScoreSpawner_SpawnPositionSizeCheck;

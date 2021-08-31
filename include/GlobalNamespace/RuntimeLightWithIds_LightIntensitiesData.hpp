@@ -42,10 +42,8 @@ namespace GlobalNamespace {
     constexpr operator float() const noexcept {
       return intensity;
     }
-    // Get instance field: private System.Single _intensity
-    float _get__intensity();
-    // Set instance field: private System.Single _intensity
-    void _set__intensity(float value);
+    // Get instance field reference: private System.Single _intensity
+    float& dyn__intensity();
     // public System.Single get_intensity()
     // Offset: 0x1E1F858
     float get_intensity();

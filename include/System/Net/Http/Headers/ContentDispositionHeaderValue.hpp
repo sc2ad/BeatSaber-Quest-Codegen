@@ -54,14 +54,10 @@ namespace System::Net::Http::Headers {
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
-    // Get instance field: private System.String dispositionType
-    ::Il2CppString* _get_dispositionType();
-    // Set instance field: private System.String dispositionType
-    void _set_dispositionType(::Il2CppString* value);
-    // Get instance field: private System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> parameters
-    System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>* _get_parameters();
-    // Set instance field: private System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> parameters
-    void _set_parameters(System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>* value);
+    // Get instance field reference: private System.String dispositionType
+    ::Il2CppString*& dyn_dispositionType();
+    // Get instance field reference: private System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> parameters
+    System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>*& dyn_parameters();
     // public System.Collections.Generic.ICollection`1<System.Net.Http.Headers.NameValueHeaderValue> get_Parameters()
     // Offset: 0x159E53C
     System::Collections::Generic::ICollection_1<System::Net::Http::Headers::NameValueHeaderValue*>* get_Parameters();

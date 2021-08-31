@@ -125,54 +125,30 @@ namespace System::Net {
     FtpWebResponse(System::IO::Stream* stream_ = {}, System::Uri* uri_ = {}, System::Net::FtpStatusCode statusCode_ = {}, System::DateTime lastModified_ = {}, ::Il2CppString* bannerMessage_ = {}, ::Il2CppString* welcomeMessage_ = {}, ::Il2CppString* exitMessage_ = {}, ::Il2CppString* statusDescription_ = {}, ::Il2CppString* method_ = {}, bool disposed_ = {}, System::Net::FtpWebRequest* request_ = {}, int64_t contentLength_ = {}) noexcept : stream{stream_}, uri{uri_}, statusCode{statusCode_}, lastModified{lastModified_}, bannerMessage{bannerMessage_}, welcomeMessage{welcomeMessage_}, exitMessage{exitMessage_}, statusDescription{statusDescription_}, method{method_}, disposed{disposed_}, request{request_}, contentLength{contentLength_} {}
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
-    // Get instance field: private System.IO.Stream stream
-    System::IO::Stream* _get_stream();
-    // Set instance field: private System.IO.Stream stream
-    void _set_stream(System::IO::Stream* value);
-    // Get instance field: private System.Uri uri
-    System::Uri* _get_uri();
-    // Set instance field: private System.Uri uri
-    void _set_uri(System::Uri* value);
-    // Get instance field: private System.Net.FtpStatusCode statusCode
-    System::Net::FtpStatusCode _get_statusCode();
-    // Set instance field: private System.Net.FtpStatusCode statusCode
-    void _set_statusCode(System::Net::FtpStatusCode value);
-    // Get instance field: private System.DateTime lastModified
-    System::DateTime _get_lastModified();
-    // Set instance field: private System.DateTime lastModified
-    void _set_lastModified(System::DateTime value);
-    // Get instance field: private System.String bannerMessage
-    ::Il2CppString* _get_bannerMessage();
-    // Set instance field: private System.String bannerMessage
-    void _set_bannerMessage(::Il2CppString* value);
-    // Get instance field: private System.String welcomeMessage
-    ::Il2CppString* _get_welcomeMessage();
-    // Set instance field: private System.String welcomeMessage
-    void _set_welcomeMessage(::Il2CppString* value);
-    // Get instance field: private System.String exitMessage
-    ::Il2CppString* _get_exitMessage();
-    // Set instance field: private System.String exitMessage
-    void _set_exitMessage(::Il2CppString* value);
-    // Get instance field: private System.String statusDescription
-    ::Il2CppString* _get_statusDescription();
-    // Set instance field: private System.String statusDescription
-    void _set_statusDescription(::Il2CppString* value);
-    // Get instance field: private System.String method
-    ::Il2CppString* _get_method();
-    // Set instance field: private System.String method
-    void _set_method(::Il2CppString* value);
-    // Get instance field: private System.Boolean disposed
-    bool _get_disposed();
-    // Set instance field: private System.Boolean disposed
-    void _set_disposed(bool value);
-    // Get instance field: private System.Net.FtpWebRequest request
-    System::Net::FtpWebRequest* _get_request();
-    // Set instance field: private System.Net.FtpWebRequest request
-    void _set_request(System::Net::FtpWebRequest* value);
-    // Get instance field: System.Int64 contentLength
-    int64_t _get_contentLength();
-    // Set instance field: System.Int64 contentLength
-    void _set_contentLength(int64_t value);
+    // Get instance field reference: private System.IO.Stream stream
+    System::IO::Stream*& dyn_stream();
+    // Get instance field reference: private System.Uri uri
+    System::Uri*& dyn_uri();
+    // Get instance field reference: private System.Net.FtpStatusCode statusCode
+    System::Net::FtpStatusCode& dyn_statusCode();
+    // Get instance field reference: private System.DateTime lastModified
+    System::DateTime& dyn_lastModified();
+    // Get instance field reference: private System.String bannerMessage
+    ::Il2CppString*& dyn_bannerMessage();
+    // Get instance field reference: private System.String welcomeMessage
+    ::Il2CppString*& dyn_welcomeMessage();
+    // Get instance field reference: private System.String exitMessage
+    ::Il2CppString*& dyn_exitMessage();
+    // Get instance field reference: private System.String statusDescription
+    ::Il2CppString*& dyn_statusDescription();
+    // Get instance field reference: private System.String method
+    ::Il2CppString*& dyn_method();
+    // Get instance field reference: private System.Boolean disposed
+    bool& dyn_disposed();
+    // Get instance field reference: private System.Net.FtpWebRequest request
+    System::Net::FtpWebRequest*& dyn_request();
+    // Get instance field reference: System.Int64 contentLength
+    int64_t& dyn_contentLength();
     // System.Void set_LastModified(System.DateTime value)
     // Offset: 0x1667EB8
     void set_LastModified(System::DateTime value);

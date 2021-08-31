@@ -55,14 +55,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     static int _get_SignatureSize();
     // Set static field: static public readonly System.Int32 SignatureSize
     static void _set_SignatureSize(int value);
-    // Get instance field: private readonly System.Byte[] data
-    ::Array<uint8_t>* _get_data();
-    // Set instance field: private readonly System.Byte[] data
-    void _set_data(::Array<uint8_t>* value);
-    // Get instance field: private Org.BouncyCastle.Crypto.Parameters.Ed448PublicKeyParameters cachedPublicKey
-    Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters* _get_cachedPublicKey();
-    // Set instance field: private Org.BouncyCastle.Crypto.Parameters.Ed448PublicKeyParameters cachedPublicKey
-    void _set_cachedPublicKey(Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters* value);
+    // Get instance field reference: private readonly System.Byte[] data
+    ::Array<uint8_t>*& dyn_data();
+    // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.Ed448PublicKeyParameters cachedPublicKey
+    Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters*& dyn_cachedPublicKey();
     // public System.Void .ctor(System.Byte[] buf, System.Int32 off)
     // Offset: 0x1274A4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

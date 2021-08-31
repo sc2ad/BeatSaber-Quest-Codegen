@@ -52,10 +52,8 @@ namespace UnityEngine::Experimental::Playables {
     constexpr operator UnityEngine::Playables::PlayableHandle() const noexcept {
       return m_Handle;
     }
-    // Get instance field: private UnityEngine.Playables.PlayableHandle m_Handle
-    UnityEngine::Playables::PlayableHandle _get_m_Handle();
-    // Set instance field: private UnityEngine.Playables.PlayableHandle m_Handle
-    void _set_m_Handle(UnityEngine::Playables::PlayableHandle value);
+    // Get instance field reference: private UnityEngine.Playables.PlayableHandle m_Handle
+    UnityEngine::Playables::PlayableHandle& dyn_m_Handle();
     // public UnityEngine.Playables.PlayableHandle GetHandle()
     // Offset: 0x1C2A9B0
     UnityEngine::Playables::PlayableHandle GetHandle();

@@ -42,18 +42,12 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private System.Boolean <IsDataValid>k__BackingField
-    bool _get_$IsDataValid$k__BackingField();
-    // Set instance field: private System.Boolean <IsDataValid>k__BackingField
-    void _set_$IsDataValid$k__BackingField(bool value);
-    // Get instance field: private System.Boolean <IsDataHighConfidence>k__BackingField
-    bool _get_$IsDataHighConfidence$k__BackingField();
-    // Set instance field: private System.Boolean <IsDataHighConfidence>k__BackingField
-    void _set_$IsDataHighConfidence$k__BackingField(bool value);
-    // Get instance field: private System.Boolean <ShouldUseSystemGestureMaterial>k__BackingField
-    bool _get_$ShouldUseSystemGestureMaterial$k__BackingField();
-    // Set instance field: private System.Boolean <ShouldUseSystemGestureMaterial>k__BackingField
-    void _set_$ShouldUseSystemGestureMaterial$k__BackingField(bool value);
+    // Get instance field reference: private System.Boolean <IsDataValid>k__BackingField
+    bool& dyn_$IsDataValid$k__BackingField();
+    // Get instance field reference: private System.Boolean <IsDataHighConfidence>k__BackingField
+    bool& dyn_$IsDataHighConfidence$k__BackingField();
+    // Get instance field reference: private System.Boolean <ShouldUseSystemGestureMaterial>k__BackingField
+    bool& dyn_$ShouldUseSystemGestureMaterial$k__BackingField();
     // public System.Boolean get_IsDataValid()
     // Offset: 0x13326A0
     bool get_IsDataValid();

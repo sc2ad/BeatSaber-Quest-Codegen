@@ -297,10 +297,8 @@ namespace System::Xml {
       static System::Xml::XmlWellFormedWriter::State _get_StartRootLevelAttr();
       // Set static field: static public System.Xml.XmlWellFormedWriter/System.Xml.State StartRootLevelAttr
       static void _set_StartRootLevelAttr(System::Xml::XmlWellFormedWriter::State value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // System.Xml.XmlWellFormedWriter/System.Xml.State
     #pragma pack(pop)
     static check_size<sizeof(XmlWellFormedWriter::State), 0 + sizeof(int)> __System_Xml_XmlWellFormedWriter_StateSizeCheck;
@@ -358,30 +356,18 @@ namespace System::Xml {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: System.Int32 prevNSTop
-      int _get_prevNSTop();
-      // Set instance field: System.Int32 prevNSTop
-      void _set_prevNSTop(int value);
-      // Get instance field: System.String prefix
-      ::Il2CppString* _get_prefix();
-      // Set instance field: System.String prefix
-      void _set_prefix(::Il2CppString* value);
-      // Get instance field: System.String localName
-      ::Il2CppString* _get_localName();
-      // Set instance field: System.String localName
-      void _set_localName(::Il2CppString* value);
-      // Get instance field: System.String namespaceUri
-      ::Il2CppString* _get_namespaceUri();
-      // Set instance field: System.String namespaceUri
-      void _set_namespaceUri(::Il2CppString* value);
-      // Get instance field: System.Xml.XmlSpace xmlSpace
-      System::Xml::XmlSpace _get_xmlSpace();
-      // Set instance field: System.Xml.XmlSpace xmlSpace
-      void _set_xmlSpace(System::Xml::XmlSpace value);
-      // Get instance field: System.String xmlLang
-      ::Il2CppString* _get_xmlLang();
-      // Set instance field: System.String xmlLang
-      void _set_xmlLang(::Il2CppString* value);
+      // Get instance field reference: System.Int32 prevNSTop
+      int& dyn_prevNSTop();
+      // Get instance field reference: System.String prefix
+      ::Il2CppString*& dyn_prefix();
+      // Get instance field reference: System.String localName
+      ::Il2CppString*& dyn_localName();
+      // Get instance field reference: System.String namespaceUri
+      ::Il2CppString*& dyn_namespaceUri();
+      // Get instance field reference: System.Xml.XmlSpace xmlSpace
+      System::Xml::XmlSpace& dyn_xmlSpace();
+      // Get instance field reference: System.String xmlLang
+      ::Il2CppString*& dyn_xmlLang();
       // System.Void Set(System.String prefix, System.String localName, System.String namespaceUri, System.Int32 prevNSTop)
       // Offset: 0x23EF5C0
       void Set(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* namespaceUri, int prevNSTop);
@@ -441,10 +427,8 @@ namespace System::Xml {
       static System::Xml::XmlWellFormedWriter::NamespaceKind _get_Special();
       // Set static field: static public System.Xml.XmlWellFormedWriter/System.Xml.NamespaceKind Special
       static void _set_Special(System::Xml::XmlWellFormedWriter::NamespaceKind value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // System.Xml.XmlWellFormedWriter/System.Xml.NamespaceKind
     #pragma pack(pop)
     static check_size<sizeof(XmlWellFormedWriter::NamespaceKind), 0 + sizeof(int)> __System_Xml_XmlWellFormedWriter_NamespaceKindSizeCheck;
@@ -486,22 +470,14 @@ namespace System::Xml {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: System.String prefix
-      ::Il2CppString* _get_prefix();
-      // Set instance field: System.String prefix
-      void _set_prefix(::Il2CppString* value);
-      // Get instance field: System.String namespaceUri
-      ::Il2CppString* _get_namespaceUri();
-      // Set instance field: System.String namespaceUri
-      void _set_namespaceUri(::Il2CppString* value);
-      // Get instance field: System.Xml.XmlWellFormedWriter/System.Xml.NamespaceKind kind
-      System::Xml::XmlWellFormedWriter::NamespaceKind _get_kind();
-      // Set instance field: System.Xml.XmlWellFormedWriter/System.Xml.NamespaceKind kind
-      void _set_kind(System::Xml::XmlWellFormedWriter::NamespaceKind value);
-      // Get instance field: System.Int32 prevNsIndex
-      int _get_prevNsIndex();
-      // Set instance field: System.Int32 prevNsIndex
-      void _set_prevNsIndex(int value);
+      // Get instance field reference: System.String prefix
+      ::Il2CppString*& dyn_prefix();
+      // Get instance field reference: System.String namespaceUri
+      ::Il2CppString*& dyn_namespaceUri();
+      // Get instance field reference: System.Xml.XmlWellFormedWriter/System.Xml.NamespaceKind kind
+      System::Xml::XmlWellFormedWriter::NamespaceKind& dyn_kind();
+      // Get instance field reference: System.Int32 prevNsIndex
+      int& dyn_prevNsIndex();
       // System.Void Set(System.String prefix, System.String namespaceUri, System.Xml.XmlWellFormedWriter/System.Xml.NamespaceKind kind)
       // Offset: 0x23EF63C
       void Set(::Il2CppString* prefix, ::Il2CppString* namespaceUri, System::Xml::XmlWellFormedWriter::NamespaceKind kind);
@@ -549,22 +525,14 @@ namespace System::Xml {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: System.String prefix
-      ::Il2CppString* _get_prefix();
-      // Set instance field: System.String prefix
-      void _set_prefix(::Il2CppString* value);
-      // Get instance field: System.String namespaceUri
-      ::Il2CppString* _get_namespaceUri();
-      // Set instance field: System.String namespaceUri
-      void _set_namespaceUri(::Il2CppString* value);
-      // Get instance field: System.String localName
-      ::Il2CppString* _get_localName();
-      // Set instance field: System.String localName
-      void _set_localName(::Il2CppString* value);
-      // Get instance field: System.Int32 prev
-      int _get_prev();
-      // Set instance field: System.Int32 prev
-      void _set_prev(int value);
+      // Get instance field reference: System.String prefix
+      ::Il2CppString*& dyn_prefix();
+      // Get instance field reference: System.String namespaceUri
+      ::Il2CppString*& dyn_namespaceUri();
+      // Get instance field reference: System.String localName
+      ::Il2CppString*& dyn_localName();
+      // Get instance field reference: System.Int32 prev
+      int& dyn_prev();
       // System.Void Set(System.String prefix, System.String localName, System.String namespaceUri)
       // Offset: 0x23EE4FC
       void Set(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* namespaceUri);
@@ -627,10 +595,8 @@ namespace System::Xml {
       static System::Xml::XmlWellFormedWriter::SpecialAttribute _get_XmlLang();
       // Set static field: static public System.Xml.XmlWellFormedWriter/System.Xml.SpecialAttribute XmlLang
       static void _set_XmlLang(System::Xml::XmlWellFormedWriter::SpecialAttribute value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // System.Xml.XmlWellFormedWriter/System.Xml.SpecialAttribute
     #pragma pack(pop)
     static check_size<sizeof(XmlWellFormedWriter::SpecialAttribute), 0 + sizeof(int)> __System_Xml_XmlWellFormedWriter_SpecialAttributeSizeCheck;
@@ -821,106 +787,56 @@ namespace System::Xml {
     static ::Array<System::Xml::XmlWellFormedWriter::State>* _get_StateTableAuto();
     // Set static field: static private readonly System.Xml.XmlWellFormedWriter/System.Xml.State[] StateTableAuto
     static void _set_StateTableAuto(::Array<System::Xml::XmlWellFormedWriter::State>* value);
-    // Get instance field: private System.Xml.XmlWriter writer
-    System::Xml::XmlWriter* _get_writer();
-    // Set instance field: private System.Xml.XmlWriter writer
-    void _set_writer(System::Xml::XmlWriter* value);
-    // Get instance field: private System.Xml.XmlRawWriter rawWriter
-    System::Xml::XmlRawWriter* _get_rawWriter();
-    // Set instance field: private System.Xml.XmlRawWriter rawWriter
-    void _set_rawWriter(System::Xml::XmlRawWriter* value);
-    // Get instance field: private System.Xml.IXmlNamespaceResolver predefinedNamespaces
-    System::Xml::IXmlNamespaceResolver* _get_predefinedNamespaces();
-    // Set instance field: private System.Xml.IXmlNamespaceResolver predefinedNamespaces
-    void _set_predefinedNamespaces(System::Xml::IXmlNamespaceResolver* value);
-    // Get instance field: private System.Xml.XmlWellFormedWriter/System.Xml.Namespace[] nsStack
-    ::Array<System::Xml::XmlWellFormedWriter::Namespace>* _get_nsStack();
-    // Set instance field: private System.Xml.XmlWellFormedWriter/System.Xml.Namespace[] nsStack
-    void _set_nsStack(::Array<System::Xml::XmlWellFormedWriter::Namespace>* value);
-    // Get instance field: private System.Int32 nsTop
-    int _get_nsTop();
-    // Set instance field: private System.Int32 nsTop
-    void _set_nsTop(int value);
-    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,System.Int32> nsHashtable
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* _get_nsHashtable();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,System.Int32> nsHashtable
-    void _set_nsHashtable(System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* value);
-    // Get instance field: private System.Boolean useNsHashtable
-    bool _get_useNsHashtable();
-    // Set instance field: private System.Boolean useNsHashtable
-    void _set_useNsHashtable(bool value);
-    // Get instance field: private System.Xml.XmlWellFormedWriter/System.Xml.ElementScope[] elemScopeStack
-    ::Array<System::Xml::XmlWellFormedWriter::ElementScope>* _get_elemScopeStack();
-    // Set instance field: private System.Xml.XmlWellFormedWriter/System.Xml.ElementScope[] elemScopeStack
-    void _set_elemScopeStack(::Array<System::Xml::XmlWellFormedWriter::ElementScope>* value);
-    // Get instance field: private System.Int32 elemTop
-    int _get_elemTop();
-    // Set instance field: private System.Int32 elemTop
-    void _set_elemTop(int value);
-    // Get instance field: private System.Xml.XmlWellFormedWriter/System.Xml.AttrName[] attrStack
-    ::Array<System::Xml::XmlWellFormedWriter::AttrName>* _get_attrStack();
-    // Set instance field: private System.Xml.XmlWellFormedWriter/System.Xml.AttrName[] attrStack
-    void _set_attrStack(::Array<System::Xml::XmlWellFormedWriter::AttrName>* value);
-    // Get instance field: private System.Int32 attrCount
-    int _get_attrCount();
-    // Set instance field: private System.Int32 attrCount
-    void _set_attrCount(int value);
-    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,System.Int32> attrHashTable
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* _get_attrHashTable();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,System.Int32> attrHashTable
-    void _set_attrHashTable(System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* value);
-    // Get instance field: private System.Xml.XmlWellFormedWriter/System.Xml.SpecialAttribute specAttr
-    System::Xml::XmlWellFormedWriter::SpecialAttribute _get_specAttr();
-    // Set instance field: private System.Xml.XmlWellFormedWriter/System.Xml.SpecialAttribute specAttr
-    void _set_specAttr(System::Xml::XmlWellFormedWriter::SpecialAttribute value);
-    // Get instance field: private System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache attrValueCache
-    System::Xml::XmlWellFormedWriter::AttributeValueCache* _get_attrValueCache();
-    // Set instance field: private System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache attrValueCache
-    void _set_attrValueCache(System::Xml::XmlWellFormedWriter::AttributeValueCache* value);
-    // Get instance field: private System.String curDeclPrefix
-    ::Il2CppString* _get_curDeclPrefix();
-    // Set instance field: private System.String curDeclPrefix
-    void _set_curDeclPrefix(::Il2CppString* value);
-    // Get instance field: private System.Xml.XmlWellFormedWriter/System.Xml.State[] stateTable
-    ::Array<System::Xml::XmlWellFormedWriter::State>* _get_stateTable();
-    // Set instance field: private System.Xml.XmlWellFormedWriter/System.Xml.State[] stateTable
-    void _set_stateTable(::Array<System::Xml::XmlWellFormedWriter::State>* value);
-    // Get instance field: private System.Xml.XmlWellFormedWriter/System.Xml.State currentState
-    System::Xml::XmlWellFormedWriter::State _get_currentState();
-    // Set instance field: private System.Xml.XmlWellFormedWriter/System.Xml.State currentState
-    void _set_currentState(System::Xml::XmlWellFormedWriter::State value);
-    // Get instance field: private System.Boolean checkCharacters
-    bool _get_checkCharacters();
-    // Set instance field: private System.Boolean checkCharacters
-    void _set_checkCharacters(bool value);
-    // Get instance field: private System.Boolean omitDuplNamespaces
-    bool _get_omitDuplNamespaces();
-    // Set instance field: private System.Boolean omitDuplNamespaces
-    void _set_omitDuplNamespaces(bool value);
-    // Get instance field: private System.Boolean writeEndDocumentOnClose
-    bool _get_writeEndDocumentOnClose();
-    // Set instance field: private System.Boolean writeEndDocumentOnClose
-    void _set_writeEndDocumentOnClose(bool value);
-    // Get instance field: private System.Xml.ConformanceLevel conformanceLevel
-    System::Xml::ConformanceLevel _get_conformanceLevel();
-    // Set instance field: private System.Xml.ConformanceLevel conformanceLevel
-    void _set_conformanceLevel(System::Xml::ConformanceLevel value);
-    // Get instance field: private System.Boolean dtdWritten
-    bool _get_dtdWritten();
-    // Set instance field: private System.Boolean dtdWritten
-    void _set_dtdWritten(bool value);
-    // Get instance field: private System.Boolean xmlDeclFollows
-    bool _get_xmlDeclFollows();
-    // Set instance field: private System.Boolean xmlDeclFollows
-    void _set_xmlDeclFollows(bool value);
-    // Get instance field: private System.Xml.XmlCharType xmlCharType
-    System::Xml::XmlCharType _get_xmlCharType();
-    // Set instance field: private System.Xml.XmlCharType xmlCharType
-    void _set_xmlCharType(System::Xml::XmlCharType value);
-    // Get instance field: private System.Xml.SecureStringHasher hasher
-    System::Xml::SecureStringHasher* _get_hasher();
-    // Set instance field: private System.Xml.SecureStringHasher hasher
-    void _set_hasher(System::Xml::SecureStringHasher* value);
+    // Get instance field reference: private System.Xml.XmlWriter writer
+    System::Xml::XmlWriter*& dyn_writer();
+    // Get instance field reference: private System.Xml.XmlRawWriter rawWriter
+    System::Xml::XmlRawWriter*& dyn_rawWriter();
+    // Get instance field reference: private System.Xml.IXmlNamespaceResolver predefinedNamespaces
+    System::Xml::IXmlNamespaceResolver*& dyn_predefinedNamespaces();
+    // Get instance field reference: private System.Xml.XmlWellFormedWriter/System.Xml.Namespace[] nsStack
+    ::Array<System::Xml::XmlWellFormedWriter::Namespace>*& dyn_nsStack();
+    // Get instance field reference: private System.Int32 nsTop
+    int& dyn_nsTop();
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.Int32> nsHashtable
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, int>*& dyn_nsHashtable();
+    // Get instance field reference: private System.Boolean useNsHashtable
+    bool& dyn_useNsHashtable();
+    // Get instance field reference: private System.Xml.XmlWellFormedWriter/System.Xml.ElementScope[] elemScopeStack
+    ::Array<System::Xml::XmlWellFormedWriter::ElementScope>*& dyn_elemScopeStack();
+    // Get instance field reference: private System.Int32 elemTop
+    int& dyn_elemTop();
+    // Get instance field reference: private System.Xml.XmlWellFormedWriter/System.Xml.AttrName[] attrStack
+    ::Array<System::Xml::XmlWellFormedWriter::AttrName>*& dyn_attrStack();
+    // Get instance field reference: private System.Int32 attrCount
+    int& dyn_attrCount();
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.Int32> attrHashTable
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, int>*& dyn_attrHashTable();
+    // Get instance field reference: private System.Xml.XmlWellFormedWriter/System.Xml.SpecialAttribute specAttr
+    System::Xml::XmlWellFormedWriter::SpecialAttribute& dyn_specAttr();
+    // Get instance field reference: private System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache attrValueCache
+    System::Xml::XmlWellFormedWriter::AttributeValueCache*& dyn_attrValueCache();
+    // Get instance field reference: private System.String curDeclPrefix
+    ::Il2CppString*& dyn_curDeclPrefix();
+    // Get instance field reference: private System.Xml.XmlWellFormedWriter/System.Xml.State[] stateTable
+    ::Array<System::Xml::XmlWellFormedWriter::State>*& dyn_stateTable();
+    // Get instance field reference: private System.Xml.XmlWellFormedWriter/System.Xml.State currentState
+    System::Xml::XmlWellFormedWriter::State& dyn_currentState();
+    // Get instance field reference: private System.Boolean checkCharacters
+    bool& dyn_checkCharacters();
+    // Get instance field reference: private System.Boolean omitDuplNamespaces
+    bool& dyn_omitDuplNamespaces();
+    // Get instance field reference: private System.Boolean writeEndDocumentOnClose
+    bool& dyn_writeEndDocumentOnClose();
+    // Get instance field reference: private System.Xml.ConformanceLevel conformanceLevel
+    System::Xml::ConformanceLevel& dyn_conformanceLevel();
+    // Get instance field reference: private System.Boolean dtdWritten
+    bool& dyn_dtdWritten();
+    // Get instance field reference: private System.Boolean xmlDeclFollows
+    bool& dyn_xmlDeclFollows();
+    // Get instance field reference: private System.Xml.XmlCharType xmlCharType
+    System::Xml::XmlCharType& dyn_xmlCharType();
+    // Get instance field reference: private System.Xml.SecureStringHasher hasher
+    System::Xml::SecureStringHasher*& dyn_hasher();
     // System.Xml.XmlRawWriter get_RawWriter()
     // Offset: 0x19662EC
     System::Xml::XmlRawWriter* get_RawWriter();

@@ -63,18 +63,12 @@ namespace LiteNetLib::Utils {
     static int _get_InitialSize();
     // Set static field: static private System.Int32 InitialSize
     static void _set_InitialSize(int value);
-    // Get instance field: protected System.Byte[] _data
-    ::Array<uint8_t>* _get__data();
-    // Set instance field: protected System.Byte[] _data
-    void _set__data(::Array<uint8_t>* value);
-    // Get instance field: protected System.Int32 _position
-    int _get__position();
-    // Set instance field: protected System.Int32 _position
-    void _set__position(int value);
-    // Get instance field: private readonly System.Boolean _autoResize
-    bool _get__autoResize();
-    // Set instance field: private readonly System.Boolean _autoResize
-    void _set__autoResize(bool value);
+    // Get instance field reference: protected System.Byte[] _data
+    ::Array<uint8_t>*& dyn__data();
+    // Get instance field reference: protected System.Int32 _position
+    int& dyn__position();
+    // Get instance field reference: private readonly System.Boolean _autoResize
+    bool& dyn__autoResize();
     // public System.Int32 get_Capacity()
     // Offset: 0x1C01078
     int get_Capacity();

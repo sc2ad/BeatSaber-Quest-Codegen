@@ -65,14 +65,10 @@ namespace GlobalNamespace {
     operator LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::BitMask128>() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::BitMask128>*>(this);
     }
-    // Get instance field: private readonly System.UInt64 _d0
-    uint64_t _get__d0();
-    // Set instance field: private readonly System.UInt64 _d0
-    void _set__d0(uint64_t value);
-    // Get instance field: private readonly System.UInt64 _d1
-    uint64_t _get__d1();
-    // Set instance field: private readonly System.UInt64 _d1
-    void _set__d1(uint64_t value);
+    // Get instance field reference: private readonly System.UInt64 _d0
+    uint64_t& dyn__d0();
+    // Get instance field reference: private readonly System.UInt64 _d1
+    uint64_t& dyn__d1();
     // public System.Int32 get_bitCount()
     // Offset: 0x237745C
     int get_bitCount();

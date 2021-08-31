@@ -50,18 +50,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: TrailElementCollection
     TrailElementCollection(int capacity_ = {}, ::Array<GlobalNamespace::TrailElement*>* snapshots_ = {}, int headIndex_ = {}) noexcept : capacity{capacity_}, snapshots{snapshots_}, headIndex{headIndex_} {}
-    // Get instance field: private readonly System.Int32 <capacity>k__BackingField
-    int _get_$capacity$k__BackingField();
-    // Set instance field: private readonly System.Int32 <capacity>k__BackingField
-    void _set_$capacity$k__BackingField(int value);
-    // Get instance field: private readonly TrailElement[] _snapshots
-    ::Array<GlobalNamespace::TrailElement*>* _get__snapshots();
-    // Set instance field: private readonly TrailElement[] _snapshots
-    void _set__snapshots(::Array<GlobalNamespace::TrailElement*>* value);
-    // Get instance field: private System.Int32 _headIndex
-    int _get__headIndex();
-    // Set instance field: private System.Int32 _headIndex
-    void _set__headIndex(int value);
+    // Get instance field reference: private readonly System.Int32 <capacity>k__BackingField
+    int& dyn_$capacity$k__BackingField();
+    // Get instance field reference: private readonly TrailElement[] _snapshots
+    ::Array<GlobalNamespace::TrailElement*>*& dyn__snapshots();
+    // Get instance field reference: private System.Int32 _headIndex
+    int& dyn__headIndex();
     // public System.Int32 get_capacity()
     // Offset: 0x1096E8C
     int get_capacity();

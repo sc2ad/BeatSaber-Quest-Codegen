@@ -297,118 +297,62 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::SelectMultiplayerLobbyDestination*) == 0x8);
     // Creating value type constructor for type: MultiplayerModeSelectionFlowCoordinator
     MultiplayerModeSelectionFlowCoordinator(UnityEngine::AudioClip* ambienceAudioClip_ = {}, GlobalNamespace::SongPackMaskModelSO* songPackMaskModel_ = {}, GlobalNamespace::GameServerBrowserFlowCoordinator* gameServerBrowserFlowCoordinator_ = {}, GlobalNamespace::GameServerLobbyFlowCoordinator* gameServerLobbyFlowCoordinator_ = {}, GlobalNamespace::MultiplayerModeSelectionViewController* multiplayerModeSelectionViewController_ = {}, GlobalNamespace::CreateServerViewController* createServerViewController_ = {}, GlobalNamespace::JoinQuickPlayViewController* joinQuickPlayViewController_ = {}, GlobalNamespace::ServerCodeEntryViewController* serverCodeEntryViewController_ = {}, GlobalNamespace::SimpleDialogPromptViewController* simpleDialogPromptViewController_ = {}, GlobalNamespace::JoiningLobbyViewController* joiningLobbyViewController_ = {}, GlobalNamespace::IUnifiedNetworkPlayerModel* unifiedNetworkPlayerModel_ = {}, GlobalNamespace::AvatarDataModel* avatarDataModel_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, GlobalNamespace::FadeInOutController* fadeInOutController_ = {}, GlobalNamespace::LobbyDataModelsManager* lobbyDataModelsManager_ = {}, GlobalNamespace::MultiplayerLobbyConnectionController* multiplayerLobbyConnectionController_ = {}, GlobalNamespace::IMasterServerAvailabilityModel* masterServerAvailabilityModel_ = {}, GlobalNamespace::IMasterServerQuickPlaySetupModel* masterServerQuickPlaySetupModel_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, GlobalNamespace::SongPreviewPlayer* songPreviewPlayer_ = {}, GlobalNamespace::IAnalyticsModel* analyticsModel_ = {}, GlobalNamespace::ILobbyGameStateController* lobbyGameStateController_ = {}, System::Action_1<GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>* didFinishEvent_ = {}, System::Threading::CancellationTokenSource* joiningLobbyCancellationTokenSource_ = {}, System::Threading::CancellationTokenSource* cancellationTokenSource_ = {}, System::Threading::Tasks::TaskCompletionSource_1<bool>* transitionFinishedTaskSource_ = {}, GlobalNamespace::MasterServerQuickPlaySetupData* masterServerQuickPlaySetupData_ = {}, GlobalNamespace::SelectMultiplayerLobbyDestination* lobbyDestination_ = {}) noexcept : ambienceAudioClip{ambienceAudioClip_}, songPackMaskModel{songPackMaskModel_}, gameServerBrowserFlowCoordinator{gameServerBrowserFlowCoordinator_}, gameServerLobbyFlowCoordinator{gameServerLobbyFlowCoordinator_}, multiplayerModeSelectionViewController{multiplayerModeSelectionViewController_}, createServerViewController{createServerViewController_}, joinQuickPlayViewController{joinQuickPlayViewController_}, serverCodeEntryViewController{serverCodeEntryViewController_}, simpleDialogPromptViewController{simpleDialogPromptViewController_}, joiningLobbyViewController{joiningLobbyViewController_}, unifiedNetworkPlayerModel{unifiedNetworkPlayerModel_}, avatarDataModel{avatarDataModel_}, multiplayerSessionManager{multiplayerSessionManager_}, fadeInOutController{fadeInOutController_}, lobbyDataModelsManager{lobbyDataModelsManager_}, multiplayerLobbyConnectionController{multiplayerLobbyConnectionController_}, masterServerAvailabilityModel{masterServerAvailabilityModel_}, masterServerQuickPlaySetupModel{masterServerQuickPlaySetupModel_}, playerDataModel{playerDataModel_}, songPreviewPlayer{songPreviewPlayer_}, analyticsModel{analyticsModel_}, lobbyGameStateController{lobbyGameStateController_}, didFinishEvent{didFinishEvent_}, joiningLobbyCancellationTokenSource{joiningLobbyCancellationTokenSource_}, cancellationTokenSource{cancellationTokenSource_}, transitionFinishedTaskSource{transitionFinishedTaskSource_}, masterServerQuickPlaySetupData{masterServerQuickPlaySetupData_}, lobbyDestination{lobbyDestination_} {}
-    // Get instance field: private UnityEngine.AudioClip _ambienceAudioClip
-    UnityEngine::AudioClip* _get__ambienceAudioClip();
-    // Set instance field: private UnityEngine.AudioClip _ambienceAudioClip
-    void _set__ambienceAudioClip(UnityEngine::AudioClip* value);
-    // Get instance field: private SongPackMaskModelSO _songPackMaskModel
-    GlobalNamespace::SongPackMaskModelSO* _get__songPackMaskModel();
-    // Set instance field: private SongPackMaskModelSO _songPackMaskModel
-    void _set__songPackMaskModel(GlobalNamespace::SongPackMaskModelSO* value);
-    // Get instance field: private readonly GameServerBrowserFlowCoordinator _gameServerBrowserFlowCoordinator
-    GlobalNamespace::GameServerBrowserFlowCoordinator* _get__gameServerBrowserFlowCoordinator();
-    // Set instance field: private readonly GameServerBrowserFlowCoordinator _gameServerBrowserFlowCoordinator
-    void _set__gameServerBrowserFlowCoordinator(GlobalNamespace::GameServerBrowserFlowCoordinator* value);
-    // Get instance field: private readonly GameServerLobbyFlowCoordinator _gameServerLobbyFlowCoordinator
-    GlobalNamespace::GameServerLobbyFlowCoordinator* _get__gameServerLobbyFlowCoordinator();
-    // Set instance field: private readonly GameServerLobbyFlowCoordinator _gameServerLobbyFlowCoordinator
-    void _set__gameServerLobbyFlowCoordinator(GlobalNamespace::GameServerLobbyFlowCoordinator* value);
-    // Get instance field: private readonly MultiplayerModeSelectionViewController _multiplayerModeSelectionViewController
-    GlobalNamespace::MultiplayerModeSelectionViewController* _get__multiplayerModeSelectionViewController();
-    // Set instance field: private readonly MultiplayerModeSelectionViewController _multiplayerModeSelectionViewController
-    void _set__multiplayerModeSelectionViewController(GlobalNamespace::MultiplayerModeSelectionViewController* value);
-    // Get instance field: private readonly CreateServerViewController _createServerViewController
-    GlobalNamespace::CreateServerViewController* _get__createServerViewController();
-    // Set instance field: private readonly CreateServerViewController _createServerViewController
-    void _set__createServerViewController(GlobalNamespace::CreateServerViewController* value);
-    // Get instance field: private readonly JoinQuickPlayViewController _joinQuickPlayViewController
-    GlobalNamespace::JoinQuickPlayViewController* _get__joinQuickPlayViewController();
-    // Set instance field: private readonly JoinQuickPlayViewController _joinQuickPlayViewController
-    void _set__joinQuickPlayViewController(GlobalNamespace::JoinQuickPlayViewController* value);
-    // Get instance field: private readonly ServerCodeEntryViewController _serverCodeEntryViewController
-    GlobalNamespace::ServerCodeEntryViewController* _get__serverCodeEntryViewController();
-    // Set instance field: private readonly ServerCodeEntryViewController _serverCodeEntryViewController
-    void _set__serverCodeEntryViewController(GlobalNamespace::ServerCodeEntryViewController* value);
-    // Get instance field: private readonly SimpleDialogPromptViewController _simpleDialogPromptViewController
-    GlobalNamespace::SimpleDialogPromptViewController* _get__simpleDialogPromptViewController();
-    // Set instance field: private readonly SimpleDialogPromptViewController _simpleDialogPromptViewController
-    void _set__simpleDialogPromptViewController(GlobalNamespace::SimpleDialogPromptViewController* value);
-    // Get instance field: private readonly JoiningLobbyViewController _joiningLobbyViewController
-    GlobalNamespace::JoiningLobbyViewController* _get__joiningLobbyViewController();
-    // Set instance field: private readonly JoiningLobbyViewController _joiningLobbyViewController
-    void _set__joiningLobbyViewController(GlobalNamespace::JoiningLobbyViewController* value);
-    // Get instance field: private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
-    GlobalNamespace::IUnifiedNetworkPlayerModel* _get__unifiedNetworkPlayerModel();
-    // Set instance field: private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
-    void _set__unifiedNetworkPlayerModel(GlobalNamespace::IUnifiedNetworkPlayerModel* value);
-    // Get instance field: private readonly AvatarDataModel _avatarDataModel
-    GlobalNamespace::AvatarDataModel* _get__avatarDataModel();
-    // Set instance field: private readonly AvatarDataModel _avatarDataModel
-    void _set__avatarDataModel(GlobalNamespace::AvatarDataModel* value);
-    // Get instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    GlobalNamespace::IMultiplayerSessionManager* _get__multiplayerSessionManager();
-    // Set instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    void _set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
-    // Get instance field: private readonly FadeInOutController _fadeInOutController
-    GlobalNamespace::FadeInOutController* _get__fadeInOutController();
-    // Set instance field: private readonly FadeInOutController _fadeInOutController
-    void _set__fadeInOutController(GlobalNamespace::FadeInOutController* value);
-    // Get instance field: private readonly LobbyDataModelsManager _lobbyDataModelsManager
-    GlobalNamespace::LobbyDataModelsManager* _get__lobbyDataModelsManager();
-    // Set instance field: private readonly LobbyDataModelsManager _lobbyDataModelsManager
-    void _set__lobbyDataModelsManager(GlobalNamespace::LobbyDataModelsManager* value);
-    // Get instance field: private readonly MultiplayerLobbyConnectionController _multiplayerLobbyConnectionController
-    GlobalNamespace::MultiplayerLobbyConnectionController* _get__multiplayerLobbyConnectionController();
-    // Set instance field: private readonly MultiplayerLobbyConnectionController _multiplayerLobbyConnectionController
-    void _set__multiplayerLobbyConnectionController(GlobalNamespace::MultiplayerLobbyConnectionController* value);
-    // Get instance field: private readonly IMasterServerAvailabilityModel _masterServerAvailabilityModel
-    GlobalNamespace::IMasterServerAvailabilityModel* _get__masterServerAvailabilityModel();
-    // Set instance field: private readonly IMasterServerAvailabilityModel _masterServerAvailabilityModel
-    void _set__masterServerAvailabilityModel(GlobalNamespace::IMasterServerAvailabilityModel* value);
-    // Get instance field: private readonly IMasterServerQuickPlaySetupModel _masterServerQuickPlaySetupModel
-    GlobalNamespace::IMasterServerQuickPlaySetupModel* _get__masterServerQuickPlaySetupModel();
-    // Set instance field: private readonly IMasterServerQuickPlaySetupModel _masterServerQuickPlaySetupModel
-    void _set__masterServerQuickPlaySetupModel(GlobalNamespace::IMasterServerQuickPlaySetupModel* value);
-    // Get instance field: private readonly PlayerDataModel _playerDataModel
-    GlobalNamespace::PlayerDataModel* _get__playerDataModel();
-    // Set instance field: private readonly PlayerDataModel _playerDataModel
-    void _set__playerDataModel(GlobalNamespace::PlayerDataModel* value);
-    // Get instance field: private readonly SongPreviewPlayer _songPreviewPlayer
-    GlobalNamespace::SongPreviewPlayer* _get__songPreviewPlayer();
-    // Set instance field: private readonly SongPreviewPlayer _songPreviewPlayer
-    void _set__songPreviewPlayer(GlobalNamespace::SongPreviewPlayer* value);
-    // Get instance field: private readonly IAnalyticsModel _analyticsModel
-    GlobalNamespace::IAnalyticsModel* _get__analyticsModel();
-    // Set instance field: private readonly IAnalyticsModel _analyticsModel
-    void _set__analyticsModel(GlobalNamespace::IAnalyticsModel* value);
-    // Get instance field: private readonly ILobbyGameStateController _lobbyGameStateController
-    GlobalNamespace::ILobbyGameStateController* _get__lobbyGameStateController();
-    // Set instance field: private readonly ILobbyGameStateController _lobbyGameStateController
-    void _set__lobbyGameStateController(GlobalNamespace::ILobbyGameStateController* value);
-    // Get instance field: private System.Action`1<MultiplayerModeSelectionFlowCoordinator> didFinishEvent
-    System::Action_1<GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>* _get_didFinishEvent();
-    // Set instance field: private System.Action`1<MultiplayerModeSelectionFlowCoordinator> didFinishEvent
-    void _set_didFinishEvent(System::Action_1<GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>* value);
-    // Get instance field: private System.Threading.CancellationTokenSource _joiningLobbyCancellationTokenSource
-    System::Threading::CancellationTokenSource* _get__joiningLobbyCancellationTokenSource();
-    // Set instance field: private System.Threading.CancellationTokenSource _joiningLobbyCancellationTokenSource
-    void _set__joiningLobbyCancellationTokenSource(System::Threading::CancellationTokenSource* value);
-    // Get instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    System::Threading::CancellationTokenSource* _get__cancellationTokenSource();
-    // Set instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    void _set__cancellationTokenSource(System::Threading::CancellationTokenSource* value);
-    // Get instance field: private System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> _transitionFinishedTaskSource
-    System::Threading::Tasks::TaskCompletionSource_1<bool>* _get__transitionFinishedTaskSource();
-    // Set instance field: private System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> _transitionFinishedTaskSource
-    void _set__transitionFinishedTaskSource(System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
-    // Get instance field: private MasterServerQuickPlaySetupData _masterServerQuickPlaySetupData
-    GlobalNamespace::MasterServerQuickPlaySetupData* _get__masterServerQuickPlaySetupData();
-    // Set instance field: private MasterServerQuickPlaySetupData _masterServerQuickPlaySetupData
-    void _set__masterServerQuickPlaySetupData(GlobalNamespace::MasterServerQuickPlaySetupData* value);
-    // Get instance field: private SelectMultiplayerLobbyDestination _lobbyDestination
-    GlobalNamespace::SelectMultiplayerLobbyDestination* _get__lobbyDestination();
-    // Set instance field: private SelectMultiplayerLobbyDestination _lobbyDestination
-    void _set__lobbyDestination(GlobalNamespace::SelectMultiplayerLobbyDestination* value);
+    // Get instance field reference: private UnityEngine.AudioClip _ambienceAudioClip
+    UnityEngine::AudioClip*& dyn__ambienceAudioClip();
+    // Get instance field reference: private SongPackMaskModelSO _songPackMaskModel
+    GlobalNamespace::SongPackMaskModelSO*& dyn__songPackMaskModel();
+    // Get instance field reference: private readonly GameServerBrowserFlowCoordinator _gameServerBrowserFlowCoordinator
+    GlobalNamespace::GameServerBrowserFlowCoordinator*& dyn__gameServerBrowserFlowCoordinator();
+    // Get instance field reference: private readonly GameServerLobbyFlowCoordinator _gameServerLobbyFlowCoordinator
+    GlobalNamespace::GameServerLobbyFlowCoordinator*& dyn__gameServerLobbyFlowCoordinator();
+    // Get instance field reference: private readonly MultiplayerModeSelectionViewController _multiplayerModeSelectionViewController
+    GlobalNamespace::MultiplayerModeSelectionViewController*& dyn__multiplayerModeSelectionViewController();
+    // Get instance field reference: private readonly CreateServerViewController _createServerViewController
+    GlobalNamespace::CreateServerViewController*& dyn__createServerViewController();
+    // Get instance field reference: private readonly JoinQuickPlayViewController _joinQuickPlayViewController
+    GlobalNamespace::JoinQuickPlayViewController*& dyn__joinQuickPlayViewController();
+    // Get instance field reference: private readonly ServerCodeEntryViewController _serverCodeEntryViewController
+    GlobalNamespace::ServerCodeEntryViewController*& dyn__serverCodeEntryViewController();
+    // Get instance field reference: private readonly SimpleDialogPromptViewController _simpleDialogPromptViewController
+    GlobalNamespace::SimpleDialogPromptViewController*& dyn__simpleDialogPromptViewController();
+    // Get instance field reference: private readonly JoiningLobbyViewController _joiningLobbyViewController
+    GlobalNamespace::JoiningLobbyViewController*& dyn__joiningLobbyViewController();
+    // Get instance field reference: private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
+    GlobalNamespace::IUnifiedNetworkPlayerModel*& dyn__unifiedNetworkPlayerModel();
+    // Get instance field reference: private readonly AvatarDataModel _avatarDataModel
+    GlobalNamespace::AvatarDataModel*& dyn__avatarDataModel();
+    // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
+    // Get instance field reference: private readonly FadeInOutController _fadeInOutController
+    GlobalNamespace::FadeInOutController*& dyn__fadeInOutController();
+    // Get instance field reference: private readonly LobbyDataModelsManager _lobbyDataModelsManager
+    GlobalNamespace::LobbyDataModelsManager*& dyn__lobbyDataModelsManager();
+    // Get instance field reference: private readonly MultiplayerLobbyConnectionController _multiplayerLobbyConnectionController
+    GlobalNamespace::MultiplayerLobbyConnectionController*& dyn__multiplayerLobbyConnectionController();
+    // Get instance field reference: private readonly IMasterServerAvailabilityModel _masterServerAvailabilityModel
+    GlobalNamespace::IMasterServerAvailabilityModel*& dyn__masterServerAvailabilityModel();
+    // Get instance field reference: private readonly IMasterServerQuickPlaySetupModel _masterServerQuickPlaySetupModel
+    GlobalNamespace::IMasterServerQuickPlaySetupModel*& dyn__masterServerQuickPlaySetupModel();
+    // Get instance field reference: private readonly PlayerDataModel _playerDataModel
+    GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
+    // Get instance field reference: private readonly SongPreviewPlayer _songPreviewPlayer
+    GlobalNamespace::SongPreviewPlayer*& dyn__songPreviewPlayer();
+    // Get instance field reference: private readonly IAnalyticsModel _analyticsModel
+    GlobalNamespace::IAnalyticsModel*& dyn__analyticsModel();
+    // Get instance field reference: private readonly ILobbyGameStateController _lobbyGameStateController
+    GlobalNamespace::ILobbyGameStateController*& dyn__lobbyGameStateController();
+    // Get instance field reference: private System.Action`1<MultiplayerModeSelectionFlowCoordinator> didFinishEvent
+    System::Action_1<GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>*& dyn_didFinishEvent();
+    // Get instance field reference: private System.Threading.CancellationTokenSource _joiningLobbyCancellationTokenSource
+    System::Threading::CancellationTokenSource*& dyn__joiningLobbyCancellationTokenSource();
+    // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
+    System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
+    // Get instance field reference: private System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> _transitionFinishedTaskSource
+    System::Threading::Tasks::TaskCompletionSource_1<bool>*& dyn__transitionFinishedTaskSource();
+    // Get instance field reference: private MasterServerQuickPlaySetupData _masterServerQuickPlaySetupData
+    GlobalNamespace::MasterServerQuickPlaySetupData*& dyn__masterServerQuickPlaySetupData();
+    // Get instance field reference: private SelectMultiplayerLobbyDestination _lobbyDestination
+    GlobalNamespace::SelectMultiplayerLobbyDestination*& dyn__lobbyDestination();
     // public System.Void add_didFinishEvent(System.Action`1<MultiplayerModeSelectionFlowCoordinator> value)
     // Offset: 0x106C4B4
     void add_didFinishEvent(System::Action_1<GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>* value);

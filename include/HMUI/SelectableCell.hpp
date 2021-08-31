@@ -94,10 +94,8 @@ namespace HMUI {
       static HMUI::SelectableCell::TransitionType _get_Animated();
       // Set static field: static public HMUI.SelectableCell/HMUI.TransitionType Animated
       static void _set_Animated(HMUI::SelectableCell::TransitionType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // HMUI.SelectableCell/HMUI.TransitionType
     #pragma pack(pop)
     static check_size<sizeof(SelectableCell::TransitionType), 0 + sizeof(int)> __HMUI_SelectableCell_TransitionTypeSizeCheck;
@@ -151,26 +149,16 @@ namespace HMUI {
     operator UnityEngine::EventSystems::ISubmitHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::ISubmitHandler*>(this);
     }
-    // Get instance field: private Signal _wasPressedSignal
-    GlobalNamespace::Signal* _get__wasPressedSignal();
-    // Set instance field: private Signal _wasPressedSignal
-    void _set__wasPressedSignal(GlobalNamespace::Signal* value);
-    // Get instance field: private System.Action`3<HMUI.SelectableCell,HMUI.SelectableCell/HMUI.TransitionType,System.Object> selectionDidChangeEvent
-    System::Action_3<HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType, ::Il2CppObject*>* _get_selectionDidChangeEvent();
-    // Set instance field: private System.Action`3<HMUI.SelectableCell,HMUI.SelectableCell/HMUI.TransitionType,System.Object> selectionDidChangeEvent
-    void _set_selectionDidChangeEvent(System::Action_3<HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType, ::Il2CppObject*>* value);
-    // Get instance field: private System.Action`2<HMUI.SelectableCell,HMUI.SelectableCell/HMUI.TransitionType> highlightDidChangeEvent
-    System::Action_2<HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType>* _get_highlightDidChangeEvent();
-    // Set instance field: private System.Action`2<HMUI.SelectableCell,HMUI.SelectableCell/HMUI.TransitionType> highlightDidChangeEvent
-    void _set_highlightDidChangeEvent(System::Action_2<HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType>* value);
-    // Get instance field: private System.Boolean <highlighted>k__BackingField
-    bool _get_$highlighted$k__BackingField();
-    // Set instance field: private System.Boolean <highlighted>k__BackingField
-    void _set_$highlighted$k__BackingField(bool value);
-    // Get instance field: private System.Boolean <selected>k__BackingField
-    bool _get_$selected$k__BackingField();
-    // Set instance field: private System.Boolean <selected>k__BackingField
-    void _set_$selected$k__BackingField(bool value);
+    // Get instance field reference: private Signal _wasPressedSignal
+    GlobalNamespace::Signal*& dyn__wasPressedSignal();
+    // Get instance field reference: private System.Action`3<HMUI.SelectableCell,HMUI.SelectableCell/HMUI.TransitionType,System.Object> selectionDidChangeEvent
+    System::Action_3<HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType, ::Il2CppObject*>*& dyn_selectionDidChangeEvent();
+    // Get instance field reference: private System.Action`2<HMUI.SelectableCell,HMUI.SelectableCell/HMUI.TransitionType> highlightDidChangeEvent
+    System::Action_2<HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType>*& dyn_highlightDidChangeEvent();
+    // Get instance field reference: private System.Boolean <highlighted>k__BackingField
+    bool& dyn_$highlighted$k__BackingField();
+    // Get instance field reference: private System.Boolean <selected>k__BackingField
+    bool& dyn_$selected$k__BackingField();
     // public System.Boolean get_highlighted()
     // Offset: 0x1300FD4
     bool get_highlighted();

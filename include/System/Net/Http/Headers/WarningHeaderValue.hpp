@@ -66,22 +66,14 @@ namespace System::Net::Http::Headers {
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
-    // Get instance field: private System.String <Agent>k__BackingField
-    ::Il2CppString* _get_$Agent$k__BackingField();
-    // Set instance field: private System.String <Agent>k__BackingField
-    void _set_$Agent$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.Int32 <Code>k__BackingField
-    int _get_$Code$k__BackingField();
-    // Set instance field: private System.Int32 <Code>k__BackingField
-    void _set_$Code$k__BackingField(int value);
-    // Get instance field: private System.Nullable`1<System.DateTimeOffset> <Date>k__BackingField
-    System::Nullable_1<System::DateTimeOffset> _get_$Date$k__BackingField();
-    // Set instance field: private System.Nullable`1<System.DateTimeOffset> <Date>k__BackingField
-    void _set_$Date$k__BackingField(System::Nullable_1<System::DateTimeOffset> value);
-    // Get instance field: private System.String <Text>k__BackingField
-    ::Il2CppString* _get_$Text$k__BackingField();
-    // Set instance field: private System.String <Text>k__BackingField
-    void _set_$Text$k__BackingField(::Il2CppString* value);
+    // Get instance field reference: private System.String <Agent>k__BackingField
+    ::Il2CppString*& dyn_$Agent$k__BackingField();
+    // Get instance field reference: private System.Int32 <Code>k__BackingField
+    int& dyn_$Code$k__BackingField();
+    // Get instance field reference: private System.Nullable`1<System.DateTimeOffset> <Date>k__BackingField
+    System::Nullable_1<System::DateTimeOffset>& dyn_$Date$k__BackingField();
+    // Get instance field reference: private System.String <Text>k__BackingField
+    ::Il2CppString*& dyn_$Text$k__BackingField();
     // public System.String get_Agent()
     // Offset: 0x15A9FA8
     ::Il2CppString* get_Agent();

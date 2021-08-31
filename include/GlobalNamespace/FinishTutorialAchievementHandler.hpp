@@ -54,18 +54,12 @@ namespace GlobalNamespace {
     FinishTutorialAchievementHandler(GlobalNamespace::AchievementsModelSO* achievementsModel_ = {}, GlobalNamespace::Signal* tutorialFinishedSignal_ = {}, GlobalNamespace::AchievementSO* finishTutorialAchievement_ = {}) noexcept : achievementsModel{achievementsModel_}, tutorialFinishedSignal{tutorialFinishedSignal_}, finishTutorialAchievement{finishTutorialAchievement_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private AchievementsModelSO _achievementsModel
-    GlobalNamespace::AchievementsModelSO* _get__achievementsModel();
-    // Set instance field: private AchievementsModelSO _achievementsModel
-    void _set__achievementsModel(GlobalNamespace::AchievementsModelSO* value);
-    // Get instance field: private Signal _tutorialFinishedSignal
-    GlobalNamespace::Signal* _get__tutorialFinishedSignal();
-    // Set instance field: private Signal _tutorialFinishedSignal
-    void _set__tutorialFinishedSignal(GlobalNamespace::Signal* value);
-    // Get instance field: private AchievementSO _finishTutorialAchievement
-    GlobalNamespace::AchievementSO* _get__finishTutorialAchievement();
-    // Set instance field: private AchievementSO _finishTutorialAchievement
-    void _set__finishTutorialAchievement(GlobalNamespace::AchievementSO* value);
+    // Get instance field reference: private AchievementsModelSO _achievementsModel
+    GlobalNamespace::AchievementsModelSO*& dyn__achievementsModel();
+    // Get instance field reference: private Signal _tutorialFinishedSignal
+    GlobalNamespace::Signal*& dyn__tutorialFinishedSignal();
+    // Get instance field reference: private AchievementSO _finishTutorialAchievement
+    GlobalNamespace::AchievementSO*& dyn__finishTutorialAchievement();
     // protected System.Void Start()
     // Offset: 0x1058084
     void Start();

@@ -33,10 +33,8 @@ namespace GlobalNamespace {
     constexpr operator ::Il2CppString*() const noexcept {
       return userId;
     }
-    // Get instance field: public System.String userId
-    ::Il2CppString* _get_userId();
-    // Set instance field: public System.String userId
-    void _set_userId(::Il2CppString* value);
+    // Get instance field reference: public System.String userId
+    ::Il2CppString*& dyn_userId();
     // System.Boolean <GetPositionOfPlayer>b__0(MultiplayerScoreProvider/RankedPlayer p)
     // Offset: 0x1037C9C
     bool $GetPositionOfPlayer$b__0(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* p);

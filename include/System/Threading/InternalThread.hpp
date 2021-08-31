@@ -279,162 +279,84 @@ namespace System::Threading {
     static_assert(sizeof(System::IntPtr) == 0x8);
     // Creating value type constructor for type: InternalThread
     InternalThread(int lock_thread_id_ = {}, System::IntPtr handle_ = {}, System::IntPtr native_handle_ = {}, System::IntPtr unused3_ = {}, System::IntPtr name_ = {}, int name_len_ = {}, System::Threading::ThreadState state_ = {}, ::Il2CppObject* abort_exc_ = {}, int abort_state_handle_ = {}, int64_t thread_id_ = {}, System::IntPtr debugger_thread_ = {}, System::UIntPtr static_data_ = {}, System::IntPtr runtime_thread_info_ = {}, ::Il2CppObject* current_appcontext_ = {}, ::Il2CppObject* root_domain_thread_ = {}, ::Array<uint8_t>* serialized_principal_ = {}, int serialized_principal_version_ = {}, System::IntPtr appdomain_refs_ = {}, int interruption_requested_ = {}, System::IntPtr synch_cs_ = {}, bool threadpool_thread_ = {}, bool thread_interrupt_requested_ = {}, int stack_size_ = {}, uint8_t apartment_state_ = {}, int critical_region_level_ = {}, int managed_id_ = {}, int small_id_ = {}, System::IntPtr manage_callback_ = {}, System::IntPtr unused4_ = {}, System::IntPtr flags_ = {}, System::IntPtr thread_pinning_ref_ = {}, System::IntPtr abort_protected_block_count_ = {}, int priority_ = {}, System::IntPtr owned_mutex_ = {}, System::IntPtr suspended_event_ = {}, int self_suspended_ = {}, System::IntPtr unused1_ = {}, System::IntPtr unused2_ = {}, System::IntPtr last_ = {}) noexcept : lock_thread_id{lock_thread_id_}, handle{handle_}, native_handle{native_handle_}, unused3{unused3_}, name{name_}, name_len{name_len_}, state{state_}, abort_exc{abort_exc_}, abort_state_handle{abort_state_handle_}, thread_id{thread_id_}, debugger_thread{debugger_thread_}, static_data{static_data_}, runtime_thread_info{runtime_thread_info_}, current_appcontext{current_appcontext_}, root_domain_thread{root_domain_thread_}, serialized_principal{serialized_principal_}, serialized_principal_version{serialized_principal_version_}, appdomain_refs{appdomain_refs_}, interruption_requested{interruption_requested_}, synch_cs{synch_cs_}, threadpool_thread{threadpool_thread_}, thread_interrupt_requested{thread_interrupt_requested_}, stack_size{stack_size_}, apartment_state{apartment_state_}, critical_region_level{critical_region_level_}, managed_id{managed_id_}, small_id{small_id_}, manage_callback{manage_callback_}, unused4{unused4_}, flags{flags_}, thread_pinning_ref{thread_pinning_ref_}, abort_protected_block_count{abort_protected_block_count_}, priority{priority_}, owned_mutex{owned_mutex_}, suspended_event{suspended_event_}, self_suspended{self_suspended_}, unused1{unused1_}, unused2{unused2_}, last{last_} {}
-    // Get instance field: private System.Int32 lock_thread_id
-    int _get_lock_thread_id();
-    // Set instance field: private System.Int32 lock_thread_id
-    void _set_lock_thread_id(int value);
-    // Get instance field: private System.IntPtr handle
-    System::IntPtr _get_handle();
-    // Set instance field: private System.IntPtr handle
-    void _set_handle(System::IntPtr value);
-    // Get instance field: private System.IntPtr native_handle
-    System::IntPtr _get_native_handle();
-    // Set instance field: private System.IntPtr native_handle
-    void _set_native_handle(System::IntPtr value);
-    // Get instance field: private System.IntPtr unused3
-    System::IntPtr _get_unused3();
-    // Set instance field: private System.IntPtr unused3
-    void _set_unused3(System::IntPtr value);
-    // Get instance field: private System.IntPtr name
-    System::IntPtr _get_name();
-    // Set instance field: private System.IntPtr name
-    void _set_name(System::IntPtr value);
-    // Get instance field: private System.Int32 name_len
-    int _get_name_len();
-    // Set instance field: private System.Int32 name_len
-    void _set_name_len(int value);
-    // Get instance field: private System.Threading.ThreadState state
-    System::Threading::ThreadState _get_state();
-    // Set instance field: private System.Threading.ThreadState state
-    void _set_state(System::Threading::ThreadState value);
-    // Get instance field: private System.Object abort_exc
-    ::Il2CppObject* _get_abort_exc();
-    // Set instance field: private System.Object abort_exc
-    void _set_abort_exc(::Il2CppObject* value);
-    // Get instance field: private System.Int32 abort_state_handle
-    int _get_abort_state_handle();
-    // Set instance field: private System.Int32 abort_state_handle
-    void _set_abort_state_handle(int value);
-    // Get instance field: System.Int64 thread_id
-    int64_t _get_thread_id();
-    // Set instance field: System.Int64 thread_id
-    void _set_thread_id(int64_t value);
-    // Get instance field: private System.IntPtr debugger_thread
-    System::IntPtr _get_debugger_thread();
-    // Set instance field: private System.IntPtr debugger_thread
-    void _set_debugger_thread(System::IntPtr value);
-    // Get instance field: private System.UIntPtr static_data
-    System::UIntPtr _get_static_data();
-    // Set instance field: private System.UIntPtr static_data
-    void _set_static_data(System::UIntPtr value);
-    // Get instance field: private System.IntPtr runtime_thread_info
-    System::IntPtr _get_runtime_thread_info();
-    // Set instance field: private System.IntPtr runtime_thread_info
-    void _set_runtime_thread_info(System::IntPtr value);
-    // Get instance field: private System.Object current_appcontext
-    ::Il2CppObject* _get_current_appcontext();
-    // Set instance field: private System.Object current_appcontext
-    void _set_current_appcontext(::Il2CppObject* value);
-    // Get instance field: private System.Object root_domain_thread
-    ::Il2CppObject* _get_root_domain_thread();
-    // Set instance field: private System.Object root_domain_thread
-    void _set_root_domain_thread(::Il2CppObject* value);
-    // Get instance field: System.Byte[] _serialized_principal
-    ::Array<uint8_t>* _get__serialized_principal();
-    // Set instance field: System.Byte[] _serialized_principal
-    void _set__serialized_principal(::Array<uint8_t>* value);
-    // Get instance field: System.Int32 _serialized_principal_version
-    int _get__serialized_principal_version();
-    // Set instance field: System.Int32 _serialized_principal_version
-    void _set__serialized_principal_version(int value);
-    // Get instance field: private System.IntPtr appdomain_refs
-    System::IntPtr _get_appdomain_refs();
-    // Set instance field: private System.IntPtr appdomain_refs
-    void _set_appdomain_refs(System::IntPtr value);
-    // Get instance field: private System.Int32 interruption_requested
-    int _get_interruption_requested();
-    // Set instance field: private System.Int32 interruption_requested
-    void _set_interruption_requested(int value);
-    // Get instance field: private System.IntPtr synch_cs
-    System::IntPtr _get_synch_cs();
-    // Set instance field: private System.IntPtr synch_cs
-    void _set_synch_cs(System::IntPtr value);
-    // Get instance field: System.Boolean threadpool_thread
-    bool _get_threadpool_thread();
-    // Set instance field: System.Boolean threadpool_thread
-    void _set_threadpool_thread(bool value);
-    // Get instance field: private System.Boolean thread_interrupt_requested
-    bool _get_thread_interrupt_requested();
-    // Set instance field: private System.Boolean thread_interrupt_requested
-    void _set_thread_interrupt_requested(bool value);
-    // Get instance field: System.Int32 stack_size
-    int _get_stack_size();
-    // Set instance field: System.Int32 stack_size
-    void _set_stack_size(int value);
-    // Get instance field: System.Byte apartment_state
-    uint8_t _get_apartment_state();
-    // Set instance field: System.Byte apartment_state
-    void _set_apartment_state(uint8_t value);
-    // Get instance field: System.Int32 critical_region_level
-    int _get_critical_region_level();
-    // Set instance field: System.Int32 critical_region_level
-    void _set_critical_region_level(int value);
-    // Get instance field: System.Int32 managed_id
-    int _get_managed_id();
-    // Set instance field: System.Int32 managed_id
-    void _set_managed_id(int value);
-    // Get instance field: private System.Int32 small_id
-    int _get_small_id();
-    // Set instance field: private System.Int32 small_id
-    void _set_small_id(int value);
-    // Get instance field: private System.IntPtr manage_callback
-    System::IntPtr _get_manage_callback();
-    // Set instance field: private System.IntPtr manage_callback
-    void _set_manage_callback(System::IntPtr value);
-    // Get instance field: private System.IntPtr unused4
-    System::IntPtr _get_unused4();
-    // Set instance field: private System.IntPtr unused4
-    void _set_unused4(System::IntPtr value);
-    // Get instance field: private System.IntPtr flags
-    System::IntPtr _get_flags();
-    // Set instance field: private System.IntPtr flags
-    void _set_flags(System::IntPtr value);
-    // Get instance field: private System.IntPtr thread_pinning_ref
-    System::IntPtr _get_thread_pinning_ref();
-    // Set instance field: private System.IntPtr thread_pinning_ref
-    void _set_thread_pinning_ref(System::IntPtr value);
-    // Get instance field: private System.IntPtr abort_protected_block_count
-    System::IntPtr _get_abort_protected_block_count();
-    // Set instance field: private System.IntPtr abort_protected_block_count
-    void _set_abort_protected_block_count(System::IntPtr value);
-    // Get instance field: private System.Int32 priority
-    int _get_priority();
-    // Set instance field: private System.Int32 priority
-    void _set_priority(int value);
-    // Get instance field: private System.IntPtr owned_mutex
-    System::IntPtr _get_owned_mutex();
-    // Set instance field: private System.IntPtr owned_mutex
-    void _set_owned_mutex(System::IntPtr value);
-    // Get instance field: private System.IntPtr suspended_event
-    System::IntPtr _get_suspended_event();
-    // Set instance field: private System.IntPtr suspended_event
-    void _set_suspended_event(System::IntPtr value);
-    // Get instance field: private System.Int32 self_suspended
-    int _get_self_suspended();
-    // Set instance field: private System.Int32 self_suspended
-    void _set_self_suspended(int value);
-    // Get instance field: private System.IntPtr unused1
-    System::IntPtr _get_unused1();
-    // Set instance field: private System.IntPtr unused1
-    void _set_unused1(System::IntPtr value);
-    // Get instance field: private System.IntPtr unused2
-    System::IntPtr _get_unused2();
-    // Set instance field: private System.IntPtr unused2
-    void _set_unused2(System::IntPtr value);
-    // Get instance field: private System.IntPtr last
-    System::IntPtr _get_last();
-    // Set instance field: private System.IntPtr last
-    void _set_last(System::IntPtr value);
+    // Get instance field reference: private System.Int32 lock_thread_id
+    int& dyn_lock_thread_id();
+    // Get instance field reference: private System.IntPtr handle
+    System::IntPtr& dyn_handle();
+    // Get instance field reference: private System.IntPtr native_handle
+    System::IntPtr& dyn_native_handle();
+    // Get instance field reference: private System.IntPtr unused3
+    System::IntPtr& dyn_unused3();
+    // Get instance field reference: private System.IntPtr name
+    System::IntPtr& dyn_name();
+    // Get instance field reference: private System.Int32 name_len
+    int& dyn_name_len();
+    // Get instance field reference: private System.Threading.ThreadState state
+    System::Threading::ThreadState& dyn_state();
+    // Get instance field reference: private System.Object abort_exc
+    ::Il2CppObject*& dyn_abort_exc();
+    // Get instance field reference: private System.Int32 abort_state_handle
+    int& dyn_abort_state_handle();
+    // Get instance field reference: System.Int64 thread_id
+    int64_t& dyn_thread_id();
+    // Get instance field reference: private System.IntPtr debugger_thread
+    System::IntPtr& dyn_debugger_thread();
+    // Get instance field reference: private System.UIntPtr static_data
+    System::UIntPtr& dyn_static_data();
+    // Get instance field reference: private System.IntPtr runtime_thread_info
+    System::IntPtr& dyn_runtime_thread_info();
+    // Get instance field reference: private System.Object current_appcontext
+    ::Il2CppObject*& dyn_current_appcontext();
+    // Get instance field reference: private System.Object root_domain_thread
+    ::Il2CppObject*& dyn_root_domain_thread();
+    // Get instance field reference: System.Byte[] _serialized_principal
+    ::Array<uint8_t>*& dyn__serialized_principal();
+    // Get instance field reference: System.Int32 _serialized_principal_version
+    int& dyn__serialized_principal_version();
+    // Get instance field reference: private System.IntPtr appdomain_refs
+    System::IntPtr& dyn_appdomain_refs();
+    // Get instance field reference: private System.Int32 interruption_requested
+    int& dyn_interruption_requested();
+    // Get instance field reference: private System.IntPtr synch_cs
+    System::IntPtr& dyn_synch_cs();
+    // Get instance field reference: System.Boolean threadpool_thread
+    bool& dyn_threadpool_thread();
+    // Get instance field reference: private System.Boolean thread_interrupt_requested
+    bool& dyn_thread_interrupt_requested();
+    // Get instance field reference: System.Int32 stack_size
+    int& dyn_stack_size();
+    // Get instance field reference: System.Byte apartment_state
+    uint8_t& dyn_apartment_state();
+    // Get instance field reference: System.Int32 critical_region_level
+    int& dyn_critical_region_level();
+    // Get instance field reference: System.Int32 managed_id
+    int& dyn_managed_id();
+    // Get instance field reference: private System.Int32 small_id
+    int& dyn_small_id();
+    // Get instance field reference: private System.IntPtr manage_callback
+    System::IntPtr& dyn_manage_callback();
+    // Get instance field reference: private System.IntPtr unused4
+    System::IntPtr& dyn_unused4();
+    // Get instance field reference: private System.IntPtr flags
+    System::IntPtr& dyn_flags();
+    // Get instance field reference: private System.IntPtr thread_pinning_ref
+    System::IntPtr& dyn_thread_pinning_ref();
+    // Get instance field reference: private System.IntPtr abort_protected_block_count
+    System::IntPtr& dyn_abort_protected_block_count();
+    // Get instance field reference: private System.Int32 priority
+    int& dyn_priority();
+    // Get instance field reference: private System.IntPtr owned_mutex
+    System::IntPtr& dyn_owned_mutex();
+    // Get instance field reference: private System.IntPtr suspended_event
+    System::IntPtr& dyn_suspended_event();
+    // Get instance field reference: private System.Int32 self_suspended
+    int& dyn_self_suspended();
+    // Get instance field reference: private System.IntPtr unused1
+    System::IntPtr& dyn_unused1();
+    // Get instance field reference: private System.IntPtr unused2
+    System::IntPtr& dyn_unused2();
+    // Get instance field reference: private System.IntPtr last
+    System::IntPtr& dyn_last();
     // private System.Void Thread_free_internal()
     // Offset: 0x18F5BA8
     void Thread_free_internal();

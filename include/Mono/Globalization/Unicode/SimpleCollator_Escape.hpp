@@ -55,26 +55,16 @@ namespace Mono::Globalization::Unicode {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.String Source
-    ::Il2CppString* _get_Source();
-    // Set instance field: public System.String Source
-    void _set_Source(::Il2CppString* value);
-    // Get instance field: public System.Int32 Index
-    int _get_Index();
-    // Set instance field: public System.Int32 Index
-    void _set_Index(int value);
-    // Get instance field: public System.Int32 Start
-    int _get_Start();
-    // Set instance field: public System.Int32 Start
-    void _set_Start(int value);
-    // Get instance field: public System.Int32 End
-    int _get_End();
-    // Set instance field: public System.Int32 End
-    void _set_End(int value);
-    // Get instance field: public System.Int32 Optional
-    int _get_Optional();
-    // Set instance field: public System.Int32 Optional
-    void _set_Optional(int value);
+    // Get instance field reference: public System.String Source
+    ::Il2CppString*& dyn_Source();
+    // Get instance field reference: public System.Int32 Index
+    int& dyn_Index();
+    // Get instance field reference: public System.Int32 Start
+    int& dyn_Start();
+    // Get instance field reference: public System.Int32 End
+    int& dyn_End();
+    // Get instance field reference: public System.Int32 Optional
+    int& dyn_Optional();
   }; // Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.Escape
   #pragma pack(pop)
   static check_size<sizeof(SimpleCollator::Escape), 20 + sizeof(int)> __Mono_Globalization_Unicode_SimpleCollator_EscapeSizeCheck;

@@ -91,30 +91,18 @@ namespace NUnit::Framework {
     operator System::Collections::Generic::IEnumerator_1<NUnit::Framework::Internal::TestSuite*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<NUnit::Framework::Internal::TestSuite*>*>(this);
     }
-    // Get instance field: private System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: private System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: private NUnit.Framework.Internal.TestSuite <>2__current
-    NUnit::Framework::Internal::TestSuite* _get_$$2__current();
-    // Set instance field: private NUnit.Framework.Internal.TestSuite <>2__current
-    void _set_$$2__current(NUnit::Framework::Internal::TestSuite* value);
-    // Get instance field: private System.Int32 <>l__initialThreadId
-    int _get_$$l__initialThreadId();
-    // Set instance field: private System.Int32 <>l__initialThreadId
-    void _set_$$l__initialThreadId(int value);
-    // Get instance field: private NUnit.Framework.Interfaces.ITypeInfo typeInfo
-    NUnit::Framework::Interfaces::ITypeInfo* _get_typeInfo();
-    // Set instance field: private NUnit.Framework.Interfaces.ITypeInfo typeInfo
-    void _set_typeInfo(NUnit::Framework::Interfaces::ITypeInfo* value);
-    // Get instance field: public NUnit.Framework.Interfaces.ITypeInfo <>3__typeInfo
-    NUnit::Framework::Interfaces::ITypeInfo* _get_$$3__typeInfo();
-    // Set instance field: public NUnit.Framework.Interfaces.ITypeInfo <>3__typeInfo
-    void _set_$$3__typeInfo(NUnit::Framework::Interfaces::ITypeInfo* value);
-    // Get instance field: public NUnit.Framework.TestFixtureAttribute <>4__this
-    NUnit::Framework::TestFixtureAttribute* _get_$$4__this();
-    // Set instance field: public NUnit.Framework.TestFixtureAttribute <>4__this
-    void _set_$$4__this(NUnit::Framework::TestFixtureAttribute* value);
+    // Get instance field reference: private System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: private NUnit.Framework.Internal.TestSuite <>2__current
+    NUnit::Framework::Internal::TestSuite*& dyn_$$2__current();
+    // Get instance field reference: private System.Int32 <>l__initialThreadId
+    int& dyn_$$l__initialThreadId();
+    // Get instance field reference: private NUnit.Framework.Interfaces.ITypeInfo typeInfo
+    NUnit::Framework::Interfaces::ITypeInfo*& dyn_typeInfo();
+    // Get instance field reference: public NUnit.Framework.Interfaces.ITypeInfo <>3__typeInfo
+    NUnit::Framework::Interfaces::ITypeInfo*& dyn_$$3__typeInfo();
+    // Get instance field reference: public NUnit.Framework.TestFixtureAttribute <>4__this
+    NUnit::Framework::TestFixtureAttribute*& dyn_$$4__this();
     // private NUnit.Framework.Internal.TestSuite System.Collections.Generic.IEnumerator<NUnit.Framework.Internal.TestSuite>.get_Current()
     // Offset: 0x22A56A8
     NUnit::Framework::Internal::TestSuite* System_Collections_Generic_IEnumerator$NUnit_Framework_Internal_TestSuite$_get_Current();

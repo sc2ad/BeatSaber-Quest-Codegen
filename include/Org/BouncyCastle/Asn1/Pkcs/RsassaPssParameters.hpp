@@ -78,22 +78,14 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     static Org::BouncyCastle::Asn1::DerInteger* _get_DefaultTrailerField();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerInteger DefaultTrailerField
     static void _set_DefaultTrailerField(Org::BouncyCastle::Asn1::DerInteger* value);
-    // Get instance field: private Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier hashAlgorithm
-    Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* _get_hashAlgorithm();
-    // Set instance field: private Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier hashAlgorithm
-    void _set_hashAlgorithm(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
-    // Get instance field: private Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier maskGenAlgorithm
-    Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* _get_maskGenAlgorithm();
-    // Set instance field: private Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier maskGenAlgorithm
-    void _set_maskGenAlgorithm(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
-    // Get instance field: private Org.BouncyCastle.Asn1.DerInteger saltLength
-    Org::BouncyCastle::Asn1::DerInteger* _get_saltLength();
-    // Set instance field: private Org.BouncyCastle.Asn1.DerInteger saltLength
-    void _set_saltLength(Org::BouncyCastle::Asn1::DerInteger* value);
-    // Get instance field: private Org.BouncyCastle.Asn1.DerInteger trailerField
-    Org::BouncyCastle::Asn1::DerInteger* _get_trailerField();
-    // Set instance field: private Org.BouncyCastle.Asn1.DerInteger trailerField
-    void _set_trailerField(Org::BouncyCastle::Asn1::DerInteger* value);
+    // Get instance field reference: private Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier hashAlgorithm
+    Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& dyn_hashAlgorithm();
+    // Get instance field reference: private Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier maskGenAlgorithm
+    Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& dyn_maskGenAlgorithm();
+    // Get instance field reference: private Org.BouncyCastle.Asn1.DerInteger saltLength
+    Org::BouncyCastle::Asn1::DerInteger*& dyn_saltLength();
+    // Get instance field reference: private Org.BouncyCastle.Asn1.DerInteger trailerField
+    Org::BouncyCastle::Asn1::DerInteger*& dyn_trailerField();
     // public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier get_HashAlgorithm()
     // Offset: 0x17B57FC
     Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm();

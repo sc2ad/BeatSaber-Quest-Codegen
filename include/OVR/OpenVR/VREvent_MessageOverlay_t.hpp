@@ -32,10 +32,8 @@ namespace OVR::OpenVR {
     constexpr operator uint() const noexcept {
       return unVRMessageOverlayResponse;
     }
-    // Get instance field: public System.UInt32 unVRMessageOverlayResponse
-    uint _get_unVRMessageOverlayResponse();
-    // Set instance field: public System.UInt32 unVRMessageOverlayResponse
-    void _set_unVRMessageOverlayResponse(uint value);
+    // Get instance field reference: public System.UInt32 unVRMessageOverlayResponse
+    uint& dyn_unVRMessageOverlayResponse();
   }; // OVR.OpenVR.VREvent_MessageOverlay_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_MessageOverlay_t), 0 + sizeof(uint)> __OVR_OpenVR_VREvent_MessageOverlay_tSizeCheck;

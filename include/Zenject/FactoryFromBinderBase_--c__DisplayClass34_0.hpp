@@ -44,14 +44,10 @@ namespace Zenject {
     static_assert(sizeof(Zenject::FactoryFromBinderBase*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass34_0
     $$c__DisplayClass34_0(::Il2CppString* resourcePath_ = {}, Zenject::FactoryFromBinderBase* $$4__this_ = {}) noexcept : resourcePath{resourcePath_}, $$4__this{$$4__this_} {}
-    // Get instance field: public System.String resourcePath
-    ::Il2CppString* _get_resourcePath();
-    // Set instance field: public System.String resourcePath
-    void _set_resourcePath(::Il2CppString* value);
-    // Get instance field: public Zenject.FactoryFromBinderBase <>4__this
-    Zenject::FactoryFromBinderBase* _get_$$4__this();
-    // Set instance field: public Zenject.FactoryFromBinderBase <>4__this
-    void _set_$$4__this(Zenject::FactoryFromBinderBase* value);
+    // Get instance field reference: public System.String resourcePath
+    ::Il2CppString*& dyn_resourcePath();
+    // Get instance field reference: public Zenject.FactoryFromBinderBase <>4__this
+    Zenject::FactoryFromBinderBase*& dyn_$$4__this();
     // Zenject.IProvider <FromResource>b__0(Zenject.DiContainer container)
     // Offset: 0x1658A28
     Zenject::IProvider* $FromResource$b__0(Zenject::DiContainer* container);

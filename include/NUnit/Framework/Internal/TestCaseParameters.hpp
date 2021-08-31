@@ -41,14 +41,10 @@ namespace NUnit::Framework::Internal {
     operator NUnit::Framework::Interfaces::ITestCaseData() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ITestCaseData*>(this);
     }
-    // Get instance field: private System.Object _expectedResult
-    ::Il2CppObject* _get__expectedResult();
-    // Set instance field: private System.Object _expectedResult
-    void _set__expectedResult(::Il2CppObject* value);
-    // Get instance field: private System.Boolean <HasExpectedResult>k__BackingField
-    bool _get_$HasExpectedResult$k__BackingField();
-    // Set instance field: private System.Boolean <HasExpectedResult>k__BackingField
-    void _set_$HasExpectedResult$k__BackingField(bool value);
+    // Get instance field reference: private System.Object _expectedResult
+    ::Il2CppObject*& dyn__expectedResult();
+    // Get instance field reference: private System.Boolean <HasExpectedResult>k__BackingField
+    bool& dyn_$HasExpectedResult$k__BackingField();
     // public System.Object get_ExpectedResult()
     // Offset: 0x229C4D4
     ::Il2CppObject* get_ExpectedResult();

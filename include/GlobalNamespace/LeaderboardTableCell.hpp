@@ -78,34 +78,20 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
     // Creating value type constructor for type: LeaderboardTableCell
     LeaderboardTableCell(TMPro::TextMeshProUGUI* rankText_ = {}, TMPro::TextMeshProUGUI* playerNameText_ = {}, TMPro::TextMeshProUGUI* scoreText_ = {}, TMPro::TextMeshProUGUI* fullComboText_ = {}, UnityEngine::Color normalColor_ = {}, UnityEngine::Color specialScoreColor_ = {}, UnityEngine::UI::Image* separatorImage_ = {}) noexcept : rankText{rankText_}, playerNameText{playerNameText_}, scoreText{scoreText_}, fullComboText{fullComboText_}, normalColor{normalColor_}, specialScoreColor{specialScoreColor_}, separatorImage{separatorImage_} {}
-    // Get instance field: private TMPro.TextMeshProUGUI _rankText
-    TMPro::TextMeshProUGUI* _get__rankText();
-    // Set instance field: private TMPro.TextMeshProUGUI _rankText
-    void _set__rankText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _playerNameText
-    TMPro::TextMeshProUGUI* _get__playerNameText();
-    // Set instance field: private TMPro.TextMeshProUGUI _playerNameText
-    void _set__playerNameText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _scoreText
-    TMPro::TextMeshProUGUI* _get__scoreText();
-    // Set instance field: private TMPro.TextMeshProUGUI _scoreText
-    void _set__scoreText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _fullComboText
-    TMPro::TextMeshProUGUI* _get__fullComboText();
-    // Set instance field: private TMPro.TextMeshProUGUI _fullComboText
-    void _set__fullComboText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private UnityEngine.Color _normalColor
-    UnityEngine::Color _get__normalColor();
-    // Set instance field: private UnityEngine.Color _normalColor
-    void _set__normalColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _specialScoreColor
-    UnityEngine::Color _get__specialScoreColor();
-    // Set instance field: private UnityEngine.Color _specialScoreColor
-    void _set__specialScoreColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.UI.Image _separatorImage
-    UnityEngine::UI::Image* _get__separatorImage();
-    // Set instance field: private UnityEngine.UI.Image _separatorImage
-    void _set__separatorImage(UnityEngine::UI::Image* value);
+    // Get instance field reference: private TMPro.TextMeshProUGUI _rankText
+    TMPro::TextMeshProUGUI*& dyn__rankText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _playerNameText
+    TMPro::TextMeshProUGUI*& dyn__playerNameText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _scoreText
+    TMPro::TextMeshProUGUI*& dyn__scoreText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _fullComboText
+    TMPro::TextMeshProUGUI*& dyn__fullComboText();
+    // Get instance field reference: private UnityEngine.Color _normalColor
+    UnityEngine::Color& dyn__normalColor();
+    // Get instance field reference: private UnityEngine.Color _specialScoreColor
+    UnityEngine::Color& dyn__specialScoreColor();
+    // Get instance field reference: private UnityEngine.UI.Image _separatorImage
+    UnityEngine::UI::Image*& dyn__separatorImage();
     // public System.Void set_rank(System.Int32 value)
     // Offset: 0x1148AC0
     void set_rank(int value);

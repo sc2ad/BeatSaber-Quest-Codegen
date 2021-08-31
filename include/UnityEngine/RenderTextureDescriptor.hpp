@@ -133,58 +133,32 @@ namespace UnityEngine {
     static ::Array<int>* _get_depthFormatBits();
     // Set static field: static private System.Int32[] depthFormatBits
     static void _set_depthFormatBits(::Array<int>* value);
-    // Get instance field: private System.Int32 <width>k__BackingField
-    int _get_$width$k__BackingField();
-    // Set instance field: private System.Int32 <width>k__BackingField
-    void _set_$width$k__BackingField(int value);
-    // Get instance field: private System.Int32 <height>k__BackingField
-    int _get_$height$k__BackingField();
-    // Set instance field: private System.Int32 <height>k__BackingField
-    void _set_$height$k__BackingField(int value);
-    // Get instance field: private System.Int32 <msaaSamples>k__BackingField
-    int _get_$msaaSamples$k__BackingField();
-    // Set instance field: private System.Int32 <msaaSamples>k__BackingField
-    void _set_$msaaSamples$k__BackingField(int value);
-    // Get instance field: private System.Int32 <volumeDepth>k__BackingField
-    int _get_$volumeDepth$k__BackingField();
-    // Set instance field: private System.Int32 <volumeDepth>k__BackingField
-    void _set_$volumeDepth$k__BackingField(int value);
-    // Get instance field: private System.Int32 <mipCount>k__BackingField
-    int _get_$mipCount$k__BackingField();
-    // Set instance field: private System.Int32 <mipCount>k__BackingField
-    void _set_$mipCount$k__BackingField(int value);
-    // Get instance field: private UnityEngine.Experimental.Rendering.GraphicsFormat _graphicsFormat
-    UnityEngine::Experimental::Rendering::GraphicsFormat _get__graphicsFormat();
-    // Set instance field: private UnityEngine.Experimental.Rendering.GraphicsFormat _graphicsFormat
-    void _set__graphicsFormat(UnityEngine::Experimental::Rendering::GraphicsFormat value);
-    // Get instance field: private UnityEngine.Experimental.Rendering.GraphicsFormat <stencilFormat>k__BackingField
-    UnityEngine::Experimental::Rendering::GraphicsFormat _get_$stencilFormat$k__BackingField();
-    // Set instance field: private UnityEngine.Experimental.Rendering.GraphicsFormat <stencilFormat>k__BackingField
-    void _set_$stencilFormat$k__BackingField(UnityEngine::Experimental::Rendering::GraphicsFormat value);
-    // Get instance field: private System.Int32 _depthBufferBits
-    int _get__depthBufferBits();
-    // Set instance field: private System.Int32 _depthBufferBits
-    void _set__depthBufferBits(int value);
-    // Get instance field: private UnityEngine.Rendering.TextureDimension <dimension>k__BackingField
-    UnityEngine::Rendering::TextureDimension _get_$dimension$k__BackingField();
-    // Set instance field: private UnityEngine.Rendering.TextureDimension <dimension>k__BackingField
-    void _set_$dimension$k__BackingField(UnityEngine::Rendering::TextureDimension value);
-    // Get instance field: private UnityEngine.Rendering.ShadowSamplingMode <shadowSamplingMode>k__BackingField
-    UnityEngine::Rendering::ShadowSamplingMode _get_$shadowSamplingMode$k__BackingField();
-    // Set instance field: private UnityEngine.Rendering.ShadowSamplingMode <shadowSamplingMode>k__BackingField
-    void _set_$shadowSamplingMode$k__BackingField(UnityEngine::Rendering::ShadowSamplingMode value);
-    // Get instance field: private UnityEngine.VRTextureUsage <vrUsage>k__BackingField
-    UnityEngine::VRTextureUsage _get_$vrUsage$k__BackingField();
-    // Set instance field: private UnityEngine.VRTextureUsage <vrUsage>k__BackingField
-    void _set_$vrUsage$k__BackingField(UnityEngine::VRTextureUsage value);
-    // Get instance field: private UnityEngine.RenderTextureCreationFlags _flags
-    UnityEngine::RenderTextureCreationFlags _get__flags();
-    // Set instance field: private UnityEngine.RenderTextureCreationFlags _flags
-    void _set__flags(UnityEngine::RenderTextureCreationFlags value);
-    // Get instance field: private UnityEngine.RenderTextureMemoryless <memoryless>k__BackingField
-    UnityEngine::RenderTextureMemoryless _get_$memoryless$k__BackingField();
-    // Set instance field: private UnityEngine.RenderTextureMemoryless <memoryless>k__BackingField
-    void _set_$memoryless$k__BackingField(UnityEngine::RenderTextureMemoryless value);
+    // Get instance field reference: private System.Int32 <width>k__BackingField
+    int& dyn_$width$k__BackingField();
+    // Get instance field reference: private System.Int32 <height>k__BackingField
+    int& dyn_$height$k__BackingField();
+    // Get instance field reference: private System.Int32 <msaaSamples>k__BackingField
+    int& dyn_$msaaSamples$k__BackingField();
+    // Get instance field reference: private System.Int32 <volumeDepth>k__BackingField
+    int& dyn_$volumeDepth$k__BackingField();
+    // Get instance field reference: private System.Int32 <mipCount>k__BackingField
+    int& dyn_$mipCount$k__BackingField();
+    // Get instance field reference: private UnityEngine.Experimental.Rendering.GraphicsFormat _graphicsFormat
+    UnityEngine::Experimental::Rendering::GraphicsFormat& dyn__graphicsFormat();
+    // Get instance field reference: private UnityEngine.Experimental.Rendering.GraphicsFormat <stencilFormat>k__BackingField
+    UnityEngine::Experimental::Rendering::GraphicsFormat& dyn_$stencilFormat$k__BackingField();
+    // Get instance field reference: private System.Int32 _depthBufferBits
+    int& dyn__depthBufferBits();
+    // Get instance field reference: private UnityEngine.Rendering.TextureDimension <dimension>k__BackingField
+    UnityEngine::Rendering::TextureDimension& dyn_$dimension$k__BackingField();
+    // Get instance field reference: private UnityEngine.Rendering.ShadowSamplingMode <shadowSamplingMode>k__BackingField
+    UnityEngine::Rendering::ShadowSamplingMode& dyn_$shadowSamplingMode$k__BackingField();
+    // Get instance field reference: private UnityEngine.VRTextureUsage <vrUsage>k__BackingField
+    UnityEngine::VRTextureUsage& dyn_$vrUsage$k__BackingField();
+    // Get instance field reference: private UnityEngine.RenderTextureCreationFlags _flags
+    UnityEngine::RenderTextureCreationFlags& dyn__flags();
+    // Get instance field reference: private UnityEngine.RenderTextureMemoryless <memoryless>k__BackingField
+    UnityEngine::RenderTextureMemoryless& dyn_$memoryless$k__BackingField();
     // public System.Int32 get_width()
     // Offset: 0x1C46A94
     int get_width();

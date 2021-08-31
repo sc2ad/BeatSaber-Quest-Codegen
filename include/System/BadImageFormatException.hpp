@@ -46,14 +46,10 @@ namespace System {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: BadImageFormatException
     BadImageFormatException(::Il2CppString* fileName_ = {}, ::Il2CppString* fusionLog_ = {}) noexcept : fileName{fileName_}, fusionLog{fusionLog_} {}
-    // Get instance field: private System.String _fileName
-    ::Il2CppString* _get__fileName();
-    // Set instance field: private System.String _fileName
-    void _set__fileName(::Il2CppString* value);
-    // Get instance field: private System.String _fusionLog
-    ::Il2CppString* _get__fusionLog();
-    // Set instance field: private System.String _fusionLog
-    void _set__fusionLog(::Il2CppString* value);
+    // Get instance field reference: private System.String _fileName
+    ::Il2CppString*& dyn__fileName();
+    // Get instance field reference: private System.String _fusionLog
+    ::Il2CppString*& dyn__fusionLog();
     // public System.String get_FusionLog()
     // Offset: 0x17D0D68
     ::Il2CppString* get_FusionLog();

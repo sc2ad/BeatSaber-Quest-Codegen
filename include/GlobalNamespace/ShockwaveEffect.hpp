@@ -64,22 +64,14 @@ namespace GlobalNamespace {
     ShockwaveEffect(UnityEngine::ParticleSystem* shockwavePS_ = {}, GlobalNamespace::IntSO* maxShockwaveParticles_ = {}, UnityEngine::ParticleSystem::EmitParams shockwavePSEmitParams_ = {}, float prevShockwaveParticleSpawnTime_ = {}) noexcept : shockwavePS{shockwavePS_}, maxShockwaveParticles{maxShockwaveParticles_}, shockwavePSEmitParams{shockwavePSEmitParams_}, prevShockwaveParticleSpawnTime{prevShockwaveParticleSpawnTime_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.ParticleSystem _shockwavePS
-    UnityEngine::ParticleSystem* _get__shockwavePS();
-    // Set instance field: private UnityEngine.ParticleSystem _shockwavePS
-    void _set__shockwavePS(UnityEngine::ParticleSystem* value);
-    // Get instance field: private IntSO _maxShockwaveParticles
-    GlobalNamespace::IntSO* _get__maxShockwaveParticles();
-    // Set instance field: private IntSO _maxShockwaveParticles
-    void _set__maxShockwaveParticles(GlobalNamespace::IntSO* value);
-    // Get instance field: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _shockwavePSEmitParams
-    UnityEngine::ParticleSystem::EmitParams _get__shockwavePSEmitParams();
-    // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _shockwavePSEmitParams
-    void _set__shockwavePSEmitParams(UnityEngine::ParticleSystem::EmitParams value);
-    // Get instance field: private System.Single _prevShockwaveParticleSpawnTime
-    float _get__prevShockwaveParticleSpawnTime();
-    // Set instance field: private System.Single _prevShockwaveParticleSpawnTime
-    void _set__prevShockwaveParticleSpawnTime(float value);
+    // Get instance field reference: private UnityEngine.ParticleSystem _shockwavePS
+    UnityEngine::ParticleSystem*& dyn__shockwavePS();
+    // Get instance field reference: private IntSO _maxShockwaveParticles
+    GlobalNamespace::IntSO*& dyn__maxShockwaveParticles();
+    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _shockwavePSEmitParams
+    UnityEngine::ParticleSystem::EmitParams& dyn__shockwavePSEmitParams();
+    // Get instance field reference: private System.Single _prevShockwaveParticleSpawnTime
+    float& dyn__prevShockwaveParticleSpawnTime();
     // protected System.Void Start()
     // Offset: 0x1078BCC
     void Start();

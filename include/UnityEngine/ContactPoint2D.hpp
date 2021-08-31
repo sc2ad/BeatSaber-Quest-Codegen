@@ -105,50 +105,28 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private UnityEngine.Vector2 m_Point
-    UnityEngine::Vector2 _get_m_Point();
-    // Set instance field: private UnityEngine.Vector2 m_Point
-    void _set_m_Point(UnityEngine::Vector2 value);
-    // Get instance field: private UnityEngine.Vector2 m_Normal
-    UnityEngine::Vector2 _get_m_Normal();
-    // Set instance field: private UnityEngine.Vector2 m_Normal
-    void _set_m_Normal(UnityEngine::Vector2 value);
-    // Get instance field: private UnityEngine.Vector2 m_RelativeVelocity
-    UnityEngine::Vector2 _get_m_RelativeVelocity();
-    // Set instance field: private UnityEngine.Vector2 m_RelativeVelocity
-    void _set_m_RelativeVelocity(UnityEngine::Vector2 value);
-    // Get instance field: private System.Single m_Separation
-    float _get_m_Separation();
-    // Set instance field: private System.Single m_Separation
-    void _set_m_Separation(float value);
-    // Get instance field: private System.Single m_NormalImpulse
-    float _get_m_NormalImpulse();
-    // Set instance field: private System.Single m_NormalImpulse
-    void _set_m_NormalImpulse(float value);
-    // Get instance field: private System.Single m_TangentImpulse
-    float _get_m_TangentImpulse();
-    // Set instance field: private System.Single m_TangentImpulse
-    void _set_m_TangentImpulse(float value);
-    // Get instance field: private System.Int32 m_Collider
-    int _get_m_Collider();
-    // Set instance field: private System.Int32 m_Collider
-    void _set_m_Collider(int value);
-    // Get instance field: private System.Int32 m_OtherCollider
-    int _get_m_OtherCollider();
-    // Set instance field: private System.Int32 m_OtherCollider
-    void _set_m_OtherCollider(int value);
-    // Get instance field: private System.Int32 m_Rigidbody
-    int _get_m_Rigidbody();
-    // Set instance field: private System.Int32 m_Rigidbody
-    void _set_m_Rigidbody(int value);
-    // Get instance field: private System.Int32 m_OtherRigidbody
-    int _get_m_OtherRigidbody();
-    // Set instance field: private System.Int32 m_OtherRigidbody
-    void _set_m_OtherRigidbody(int value);
-    // Get instance field: private System.Int32 m_Enabled
-    int _get_m_Enabled();
-    // Set instance field: private System.Int32 m_Enabled
-    void _set_m_Enabled(int value);
+    // Get instance field reference: private UnityEngine.Vector2 m_Point
+    UnityEngine::Vector2& dyn_m_Point();
+    // Get instance field reference: private UnityEngine.Vector2 m_Normal
+    UnityEngine::Vector2& dyn_m_Normal();
+    // Get instance field reference: private UnityEngine.Vector2 m_RelativeVelocity
+    UnityEngine::Vector2& dyn_m_RelativeVelocity();
+    // Get instance field reference: private System.Single m_Separation
+    float& dyn_m_Separation();
+    // Get instance field reference: private System.Single m_NormalImpulse
+    float& dyn_m_NormalImpulse();
+    // Get instance field reference: private System.Single m_TangentImpulse
+    float& dyn_m_TangentImpulse();
+    // Get instance field reference: private System.Int32 m_Collider
+    int& dyn_m_Collider();
+    // Get instance field reference: private System.Int32 m_OtherCollider
+    int& dyn_m_OtherCollider();
+    // Get instance field reference: private System.Int32 m_Rigidbody
+    int& dyn_m_Rigidbody();
+    // Get instance field reference: private System.Int32 m_OtherRigidbody
+    int& dyn_m_OtherRigidbody();
+    // Get instance field reference: private System.Int32 m_Enabled
+    int& dyn_m_Enabled();
   }; // UnityEngine.ContactPoint2D
   #pragma pack(pop)
   static check_size<sizeof(ContactPoint2D), 52 + sizeof(int)> __UnityEngine_ContactPoint2DSizeCheck;

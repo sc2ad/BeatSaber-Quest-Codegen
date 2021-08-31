@@ -46,14 +46,10 @@ namespace Org::BouncyCastle::Asn1::X509 {
     static_assert(sizeof(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*) == 0x8);
     // Creating value type constructor for type: DigestInfo
     DigestInfo(::Array<uint8_t>* digest_ = {}, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID_ = {}) noexcept : digest{digest_}, algID{algID_} {}
-    // Get instance field: private readonly System.Byte[] digest
-    ::Array<uint8_t>* _get_digest();
-    // Set instance field: private readonly System.Byte[] digest
-    void _set_digest(::Array<uint8_t>* value);
-    // Get instance field: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algID
-    Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* _get_algID();
-    // Set instance field: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algID
-    void _set_algID(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+    // Get instance field reference: private readonly System.Byte[] digest
+    ::Array<uint8_t>*& dyn_digest();
+    // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algID
+    Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& dyn_algID();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algID, System.Byte[] digest)
     // Offset: 0x19F957C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

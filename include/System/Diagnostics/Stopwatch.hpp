@@ -53,18 +53,12 @@ namespace System::Diagnostics {
     static bool _get_IsHighResolution();
     // Set static field: static public readonly System.Boolean IsHighResolution
     static void _set_IsHighResolution(bool value);
-    // Get instance field: private System.Int64 elapsed
-    int64_t _get_elapsed();
-    // Set instance field: private System.Int64 elapsed
-    void _set_elapsed(int64_t value);
-    // Get instance field: private System.Int64 started
-    int64_t _get_started();
-    // Set instance field: private System.Int64 started
-    void _set_started(int64_t value);
-    // Get instance field: private System.Boolean is_running
-    bool _get_is_running();
-    // Set instance field: private System.Boolean is_running
-    void _set_is_running(bool value);
+    // Get instance field reference: private System.Int64 elapsed
+    int64_t& dyn_elapsed();
+    // Get instance field reference: private System.Int64 started
+    int64_t& dyn_started();
+    // Get instance field reference: private System.Boolean is_running
+    bool& dyn_is_running();
     // public System.TimeSpan get_Elapsed()
     // Offset: 0x18B3690
     System::TimeSpan get_Elapsed();

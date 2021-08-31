@@ -101,34 +101,20 @@ namespace GlobalNamespace {
     static float _get_kFixedStartDelay();
     // Set static field: static private System.Single kFixedStartDelay
     static void _set_kFixedStartDelay(float value);
-    // Get instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    GlobalNamespace::IMultiplayerSessionManager* _get__multiplayerSessionManager();
-    // Set instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    void _set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
-    // Get instance field: private readonly IGameplayRpcManager _gameplayRpcManager
-    GlobalNamespace::IGameplayRpcManager* _get__gameplayRpcManager();
-    // Set instance field: private readonly IGameplayRpcManager _gameplayRpcManager
-    void _set__gameplayRpcManager(GlobalNamespace::IGameplayRpcManager* value);
-    // Get instance field: private readonly PlayersSpecificSettingsAtGameStartModel _playersAtGameStartModel
-    GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* _get__playersAtGameStartModel();
-    // Set instance field: private readonly PlayersSpecificSettingsAtGameStartModel _playersAtGameStartModel
-    void _set__playersAtGameStartModel(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* value);
-    // Get instance field: private readonly System.Collections.Generic.HashSet`1<System.String> _readyPlayers
-    System::Collections::Generic::HashSet_1<::Il2CppString*>* _get__readyPlayers();
-    // Set instance field: private readonly System.Collections.Generic.HashSet`1<System.String> _readyPlayers
-    void _set__readyPlayers(System::Collections::Generic::HashSet_1<::Il2CppString*>* value);
-    // Get instance field: private System.Boolean _started
-    bool _get__started();
-    // Set instance field: private System.Boolean _started
-    void _set__started(bool value);
-    // Get instance field: private System.Single _startTime
-    float _get__startTime();
-    // Set instance field: private System.Single _startTime
-    void _set__startTime(float value);
-    // Get instance field: private System.Action`1<System.Single> setSongStartSyncTimeEvent
-    System::Action_1<float>* _get_setSongStartSyncTimeEvent();
-    // Set instance field: private System.Action`1<System.Single> setSongStartSyncTimeEvent
-    void _set_setSongStartSyncTimeEvent(System::Action_1<float>* value);
+    // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
+    // Get instance field reference: private readonly IGameplayRpcManager _gameplayRpcManager
+    GlobalNamespace::IGameplayRpcManager*& dyn__gameplayRpcManager();
+    // Get instance field reference: private readonly PlayersSpecificSettingsAtGameStartModel _playersAtGameStartModel
+    GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*& dyn__playersAtGameStartModel();
+    // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<System.String> _readyPlayers
+    System::Collections::Generic::HashSet_1<::Il2CppString*>*& dyn__readyPlayers();
+    // Get instance field reference: private System.Boolean _started
+    bool& dyn__started();
+    // Get instance field reference: private System.Single _startTime
+    float& dyn__startTime();
+    // Get instance field reference: private System.Action`1<System.Single> setSongStartSyncTimeEvent
+    System::Action_1<float>*& dyn_setSongStartSyncTimeEvent();
     // public System.Single get_songStartSyncTime()
     // Offset: 0x16F911C
     float get_songStartSyncTime();

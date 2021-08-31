@@ -52,22 +52,14 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(uint64_t) == 0x8);
     // Creating value type constructor for type: AchievementDefinition
     AchievementDefinition(Oculus::Platform::AchievementType Type_ = {}, ::Il2CppString* Name_ = {}, uint BitfieldLength_ = {}, uint64_t Target_ = {}) noexcept : Type{Type_}, Name{Name_}, BitfieldLength{BitfieldLength_}, Target{Target_} {}
-    // Get instance field: public readonly Oculus.Platform.AchievementType Type
-    Oculus::Platform::AchievementType _get_Type();
-    // Set instance field: public readonly Oculus.Platform.AchievementType Type
-    void _set_Type(Oculus::Platform::AchievementType value);
-    // Get instance field: public readonly System.String Name
-    ::Il2CppString* _get_Name();
-    // Set instance field: public readonly System.String Name
-    void _set_Name(::Il2CppString* value);
-    // Get instance field: public readonly System.UInt32 BitfieldLength
-    uint _get_BitfieldLength();
-    // Set instance field: public readonly System.UInt32 BitfieldLength
-    void _set_BitfieldLength(uint value);
-    // Get instance field: public readonly System.UInt64 Target
-    uint64_t _get_Target();
-    // Set instance field: public readonly System.UInt64 Target
-    void _set_Target(uint64_t value);
+    // Get instance field reference: public readonly Oculus.Platform.AchievementType Type
+    Oculus::Platform::AchievementType& dyn_Type();
+    // Get instance field reference: public readonly System.String Name
+    ::Il2CppString*& dyn_Name();
+    // Get instance field reference: public readonly System.UInt32 BitfieldLength
+    uint& dyn_BitfieldLength();
+    // Get instance field reference: public readonly System.UInt64 Target
+    uint64_t& dyn_Target();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14F1384
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

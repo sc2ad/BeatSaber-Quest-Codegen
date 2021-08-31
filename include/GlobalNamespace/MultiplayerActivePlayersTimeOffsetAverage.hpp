@@ -52,18 +52,12 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IMultiplayerObservable() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMultiplayerObservable*>(this);
     }
-    // Get instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    GlobalNamespace::IMultiplayerSessionManager* _get__multiplayerSessionManager();
-    // Set instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    void _set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
-    // Get instance field: private System.Single _lastReturnedOffsetSyncTime
-    float _get__lastReturnedOffsetSyncTime();
-    // Set instance field: private System.Single _lastReturnedOffsetSyncTime
-    void _set__lastReturnedOffsetSyncTime(float value);
-    // Get instance field: private System.Single _timeOfLastValidReturnedTime
-    float _get__timeOfLastValidReturnedTime();
-    // Set instance field: private System.Single _timeOfLastValidReturnedTime
-    void _set__timeOfLastValidReturnedTime(float value);
+    // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
+    // Get instance field reference: private System.Single _lastReturnedOffsetSyncTime
+    float& dyn__lastReturnedOffsetSyncTime();
+    // Get instance field reference: private System.Single _timeOfLastValidReturnedTime
+    float& dyn__timeOfLastValidReturnedTime();
     // public System.Single get_offsetSyncTime()
     // Offset: 0x11E172C
     float get_offsetSyncTime();

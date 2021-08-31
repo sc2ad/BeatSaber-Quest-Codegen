@@ -45,10 +45,8 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
-    // Get instance field: private System.Boolean <messageHandled>k__BackingField
-    bool _get_$messageHandled$k__BackingField();
-    // Set instance field: private System.Boolean <messageHandled>k__BackingField
-    void _set_$messageHandled$k__BackingField(bool value);
+    // Get instance field reference: private System.Boolean <messageHandled>k__BackingField
+    bool& dyn_$messageHandled$k__BackingField();
     // public System.Boolean get_messageHandled()
     // Offset: 0x131CACC
     bool get_messageHandled();

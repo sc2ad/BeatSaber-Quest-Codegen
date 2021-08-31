@@ -56,10 +56,8 @@ namespace UnityEngine {
     static UnityEngine::VRTextureUsage _get_DeviceSpecific();
     // Set static field: static public UnityEngine.VRTextureUsage DeviceSpecific
     static void _set_DeviceSpecific(UnityEngine::VRTextureUsage value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.VRTextureUsage
   #pragma pack(pop)
   static check_size<sizeof(VRTextureUsage), 0 + sizeof(int)> __UnityEngine_VRTextureUsageSizeCheck;

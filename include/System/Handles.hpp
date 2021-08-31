@@ -50,10 +50,8 @@ namespace System {
     static System::Handles _get_STD_ERROR();
     // Set static field: static public System.Handles STD_ERROR
     static void _set_STD_ERROR(System::Handles value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Handles
   #pragma pack(pop)
   static check_size<sizeof(Handles), 0 + sizeof(int)> __System_HandlesSizeCheck;

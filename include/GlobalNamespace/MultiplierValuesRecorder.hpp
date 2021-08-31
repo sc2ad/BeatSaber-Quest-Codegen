@@ -62,14 +62,10 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public readonly System.Int32 multiplier
-      int _get_multiplier();
-      // Set instance field: public readonly System.Int32 multiplier
-      void _set_multiplier(int value);
-      // Get instance field: public readonly System.Single time
-      float _get_time();
-      // Set instance field: public readonly System.Single time
-      void _set_time(float value);
+      // Get instance field reference: public readonly System.Int32 multiplier
+      int& dyn_multiplier();
+      // Get instance field reference: public readonly System.Single time
+      float& dyn_time();
       // public System.Void .ctor(System.Int32 multiplier, System.Single time)
       // Offset: 0x103CDBC
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -102,18 +98,12 @@ namespace GlobalNamespace {
     MultiplierValuesRecorder(GlobalNamespace::IScoreController* scoreController_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, System::Collections::Generic::List_1<GlobalNamespace::MultiplierValuesRecorder::MultiplierValue>* multiplierValues_ = {}) noexcept : scoreController{scoreController_}, audioTimeSyncController{audioTimeSyncController_}, multiplierValues{multiplierValues_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private IScoreController _scoreController
-    GlobalNamespace::IScoreController* _get__scoreController();
-    // Set instance field: private IScoreController _scoreController
-    void _set__scoreController(GlobalNamespace::IScoreController* value);
-    // Get instance field: private AudioTimeSyncController _audioTimeSyncController
-    GlobalNamespace::AudioTimeSyncController* _get__audioTimeSyncController();
-    // Set instance field: private AudioTimeSyncController _audioTimeSyncController
-    void _set__audioTimeSyncController(GlobalNamespace::AudioTimeSyncController* value);
-    // Get instance field: private System.Collections.Generic.List`1<MultiplierValuesRecorder/MultiplierValue> _multiplierValues
-    System::Collections::Generic::List_1<GlobalNamespace::MultiplierValuesRecorder::MultiplierValue>* _get__multiplierValues();
-    // Set instance field: private System.Collections.Generic.List`1<MultiplierValuesRecorder/MultiplierValue> _multiplierValues
-    void _set__multiplierValues(System::Collections::Generic::List_1<GlobalNamespace::MultiplierValuesRecorder::MultiplierValue>* value);
+    // Get instance field reference: private IScoreController _scoreController
+    GlobalNamespace::IScoreController*& dyn__scoreController();
+    // Get instance field reference: private AudioTimeSyncController _audioTimeSyncController
+    GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
+    // Get instance field reference: private System.Collections.Generic.List`1<MultiplierValuesRecorder/MultiplierValue> _multiplierValues
+    System::Collections::Generic::List_1<GlobalNamespace::MultiplierValuesRecorder::MultiplierValue>*& dyn__multiplierValues();
     // public System.Collections.Generic.List`1<MultiplierValuesRecorder/MultiplierValue> get_multiplierValues()
     // Offset: 0x103CB18
     System::Collections::Generic::List_1<GlobalNamespace::MultiplierValuesRecorder::MultiplierValue>* get_multiplierValues();

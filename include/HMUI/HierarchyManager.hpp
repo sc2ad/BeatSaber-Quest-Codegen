@@ -64,18 +64,12 @@ namespace HMUI {
     HierarchyManager(HMUI::ScreenSystem* screenSystem_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, HMUI::FlowCoordinator* rootFlowCoordinator_ = {}) noexcept : screenSystem{screenSystem_}, gameScenesManager{gameScenesManager_}, rootFlowCoordinator{rootFlowCoordinator_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private HMUI.ScreenSystem _screenSystem
-    HMUI::ScreenSystem* _get__screenSystem();
-    // Set instance field: private HMUI.ScreenSystem _screenSystem
-    void _set__screenSystem(HMUI::ScreenSystem* value);
-    // Get instance field: private GameScenesManager _gameScenesManager
-    GlobalNamespace::GameScenesManager* _get__gameScenesManager();
-    // Set instance field: private GameScenesManager _gameScenesManager
-    void _set__gameScenesManager(GlobalNamespace::GameScenesManager* value);
-    // Get instance field: private HMUI.FlowCoordinator _rootFlowCoordinator
-    HMUI::FlowCoordinator* _get__rootFlowCoordinator();
-    // Set instance field: private HMUI.FlowCoordinator _rootFlowCoordinator
-    void _set__rootFlowCoordinator(HMUI::FlowCoordinator* value);
+    // Get instance field reference: private HMUI.ScreenSystem _screenSystem
+    HMUI::ScreenSystem*& dyn__screenSystem();
+    // Get instance field reference: private GameScenesManager _gameScenesManager
+    GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
+    // Get instance field reference: private HMUI.FlowCoordinator _rootFlowCoordinator
+    HMUI::FlowCoordinator*& dyn__rootFlowCoordinator();
     // protected System.Void Start()
     // Offset: 0x13729AC
     void Start();

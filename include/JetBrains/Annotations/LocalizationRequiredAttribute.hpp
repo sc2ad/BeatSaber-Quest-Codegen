@@ -33,10 +33,8 @@ namespace JetBrains::Annotations {
     constexpr operator bool() const noexcept {
       return Required;
     }
-    // Get instance field: private System.Boolean <Required>k__BackingField
-    bool _get_$Required$k__BackingField();
-    // Set instance field: private System.Boolean <Required>k__BackingField
-    void _set_$Required$k__BackingField(bool value);
+    // Get instance field reference: private System.Boolean <Required>k__BackingField
+    bool& dyn_$Required$k__BackingField();
     // public System.Boolean get_Required()
     // Offset: 0x2408538
     bool get_Required();

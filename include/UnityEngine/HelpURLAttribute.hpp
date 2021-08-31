@@ -34,10 +34,8 @@ namespace UnityEngine {
     constexpr operator ::Il2CppString*() const noexcept {
       return m_Url;
     }
-    // Get instance field: readonly System.String m_Url
-    ::Il2CppString* _get_m_Url();
-    // Set instance field: readonly System.String m_Url
-    void _set_m_Url(::Il2CppString* value);
+    // Get instance field reference: readonly System.String m_Url
+    ::Il2CppString*& dyn_m_Url();
     // public System.Void .ctor(System.String url)
     // Offset: 0x1C2F16C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

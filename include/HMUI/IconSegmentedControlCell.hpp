@@ -60,18 +60,12 @@ namespace HMUI {
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
     // Creating value type constructor for type: IconSegmentedControlCell
     IconSegmentedControlCell(UnityEngine::UI::Image* icon_ = {}, HMUI::HoverHint* hoverHint_ = {}, UnityEngine::GameObject* backgroundGameObject_ = {}) noexcept : icon{icon_}, hoverHint{hoverHint_}, backgroundGameObject{backgroundGameObject_} {}
-    // Get instance field: private UnityEngine.UI.Image _icon
-    UnityEngine::UI::Image* _get__icon();
-    // Set instance field: private UnityEngine.UI.Image _icon
-    void _set__icon(UnityEngine::UI::Image* value);
-    // Get instance field: private HMUI.HoverHint _hoverHint
-    HMUI::HoverHint* _get__hoverHint();
-    // Set instance field: private HMUI.HoverHint _hoverHint
-    void _set__hoverHint(HMUI::HoverHint* value);
-    // Get instance field: private UnityEngine.GameObject _backgroundGameObject
-    UnityEngine::GameObject* _get__backgroundGameObject();
-    // Set instance field: private UnityEngine.GameObject _backgroundGameObject
-    void _set__backgroundGameObject(UnityEngine::GameObject* value);
+    // Get instance field reference: private UnityEngine.UI.Image _icon
+    UnityEngine::UI::Image*& dyn__icon();
+    // Get instance field reference: private HMUI.HoverHint _hoverHint
+    HMUI::HoverHint*& dyn__hoverHint();
+    // Get instance field reference: private UnityEngine.GameObject _backgroundGameObject
+    UnityEngine::GameObject*& dyn__backgroundGameObject();
     // public UnityEngine.Sprite get_sprite()
     // Offset: 0x1374B80
     UnityEngine::Sprite* get_sprite();

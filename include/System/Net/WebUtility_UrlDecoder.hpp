@@ -67,30 +67,18 @@ namespace System::Net {
     static_assert(sizeof(System::Text::Encoding*) == 0x8);
     // Creating value type constructor for type: UrlDecoder
     UrlDecoder(int bufferSize_ = {}, int numChars_ = {}, ::Array<::Il2CppChar>* charBuffer_ = {}, int numBytes_ = {}, ::Array<uint8_t>* byteBuffer_ = {}, System::Text::Encoding* encoding_ = {}) noexcept : bufferSize{bufferSize_}, numChars{numChars_}, charBuffer{charBuffer_}, numBytes{numBytes_}, byteBuffer{byteBuffer_}, encoding{encoding_} {}
-    // Get instance field: private System.Int32 _bufferSize
-    int _get__bufferSize();
-    // Set instance field: private System.Int32 _bufferSize
-    void _set__bufferSize(int value);
-    // Get instance field: private System.Int32 _numChars
-    int _get__numChars();
-    // Set instance field: private System.Int32 _numChars
-    void _set__numChars(int value);
-    // Get instance field: private System.Char[] _charBuffer
-    ::Array<::Il2CppChar>* _get__charBuffer();
-    // Set instance field: private System.Char[] _charBuffer
-    void _set__charBuffer(::Array<::Il2CppChar>* value);
-    // Get instance field: private System.Int32 _numBytes
-    int _get__numBytes();
-    // Set instance field: private System.Int32 _numBytes
-    void _set__numBytes(int value);
-    // Get instance field: private System.Byte[] _byteBuffer
-    ::Array<uint8_t>* _get__byteBuffer();
-    // Set instance field: private System.Byte[] _byteBuffer
-    void _set__byteBuffer(::Array<uint8_t>* value);
-    // Get instance field: private System.Text.Encoding _encoding
-    System::Text::Encoding* _get__encoding();
-    // Set instance field: private System.Text.Encoding _encoding
-    void _set__encoding(System::Text::Encoding* value);
+    // Get instance field reference: private System.Int32 _bufferSize
+    int& dyn__bufferSize();
+    // Get instance field reference: private System.Int32 _numChars
+    int& dyn__numChars();
+    // Get instance field reference: private System.Char[] _charBuffer
+    ::Array<::Il2CppChar>*& dyn__charBuffer();
+    // Get instance field reference: private System.Int32 _numBytes
+    int& dyn__numBytes();
+    // Get instance field reference: private System.Byte[] _byteBuffer
+    ::Array<uint8_t>*& dyn__byteBuffer();
+    // Get instance field reference: private System.Text.Encoding _encoding
+    System::Text::Encoding*& dyn__encoding();
     // System.Void .ctor(System.Int32 bufferSize, System.Text.Encoding encoding)
     // Offset: 0x15DC324
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

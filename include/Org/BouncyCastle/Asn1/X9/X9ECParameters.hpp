@@ -86,30 +86,18 @@ namespace Org::BouncyCastle::Asn1::X9 {
     static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // Creating value type constructor for type: X9ECParameters
     X9ECParameters(Org::BouncyCastle::Asn1::X9::X9FieldID* fieldID_ = {}, Org::BouncyCastle::Math::EC::ECCurve* curve_ = {}, Org::BouncyCastle::Asn1::X9::X9ECPoint* g_ = {}, Org::BouncyCastle::Math::BigInteger* n_ = {}, Org::BouncyCastle::Math::BigInteger* h_ = {}, ::Array<uint8_t>* seed_ = {}) noexcept : fieldID{fieldID_}, curve{curve_}, g{g_}, n{n_}, h{h_}, seed{seed_} {}
-    // Get instance field: private Org.BouncyCastle.Asn1.X9.X9FieldID fieldID
-    Org::BouncyCastle::Asn1::X9::X9FieldID* _get_fieldID();
-    // Set instance field: private Org.BouncyCastle.Asn1.X9.X9FieldID fieldID
-    void _set_fieldID(Org::BouncyCastle::Asn1::X9::X9FieldID* value);
-    // Get instance field: private Org.BouncyCastle.Math.EC.ECCurve curve
-    Org::BouncyCastle::Math::EC::ECCurve* _get_curve();
-    // Set instance field: private Org.BouncyCastle.Math.EC.ECCurve curve
-    void _set_curve(Org::BouncyCastle::Math::EC::ECCurve* value);
-    // Get instance field: private Org.BouncyCastle.Asn1.X9.X9ECPoint g
-    Org::BouncyCastle::Asn1::X9::X9ECPoint* _get_g();
-    // Set instance field: private Org.BouncyCastle.Asn1.X9.X9ECPoint g
-    void _set_g(Org::BouncyCastle::Asn1::X9::X9ECPoint* value);
-    // Get instance field: private Org.BouncyCastle.Math.BigInteger n
-    Org::BouncyCastle::Math::BigInteger* _get_n();
-    // Set instance field: private Org.BouncyCastle.Math.BigInteger n
-    void _set_n(Org::BouncyCastle::Math::BigInteger* value);
-    // Get instance field: private Org.BouncyCastle.Math.BigInteger h
-    Org::BouncyCastle::Math::BigInteger* _get_h();
-    // Set instance field: private Org.BouncyCastle.Math.BigInteger h
-    void _set_h(Org::BouncyCastle::Math::BigInteger* value);
-    // Get instance field: private System.Byte[] seed
-    ::Array<uint8_t>* _get_seed();
-    // Set instance field: private System.Byte[] seed
-    void _set_seed(::Array<uint8_t>* value);
+    // Get instance field reference: private Org.BouncyCastle.Asn1.X9.X9FieldID fieldID
+    Org::BouncyCastle::Asn1::X9::X9FieldID*& dyn_fieldID();
+    // Get instance field reference: private Org.BouncyCastle.Math.EC.ECCurve curve
+    Org::BouncyCastle::Math::EC::ECCurve*& dyn_curve();
+    // Get instance field reference: private Org.BouncyCastle.Asn1.X9.X9ECPoint g
+    Org::BouncyCastle::Asn1::X9::X9ECPoint*& dyn_g();
+    // Get instance field reference: private Org.BouncyCastle.Math.BigInteger n
+    Org::BouncyCastle::Math::BigInteger*& dyn_n();
+    // Get instance field reference: private Org.BouncyCastle.Math.BigInteger h
+    Org::BouncyCastle::Math::BigInteger*& dyn_h();
+    // Get instance field reference: private System.Byte[] seed
+    ::Array<uint8_t>*& dyn_seed();
     // public Org.BouncyCastle.Math.EC.ECCurve get_Curve()
     // Offset: 0x1A09784
     Org::BouncyCastle::Math::EC::ECCurve* get_Curve();

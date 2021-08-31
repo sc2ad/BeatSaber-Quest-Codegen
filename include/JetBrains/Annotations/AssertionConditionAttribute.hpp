@@ -35,10 +35,8 @@ namespace JetBrains::Annotations {
     constexpr operator JetBrains::Annotations::AssertionConditionType() const noexcept {
       return ConditionType;
     }
-    // Get instance field: private JetBrains.Annotations.AssertionConditionType <ConditionType>k__BackingField
-    JetBrains::Annotations::AssertionConditionType _get_$ConditionType$k__BackingField();
-    // Set instance field: private JetBrains.Annotations.AssertionConditionType <ConditionType>k__BackingField
-    void _set_$ConditionType$k__BackingField(JetBrains::Annotations::AssertionConditionType value);
+    // Get instance field reference: private JetBrains.Annotations.AssertionConditionType <ConditionType>k__BackingField
+    JetBrains::Annotations::AssertionConditionType& dyn_$ConditionType$k__BackingField();
     // public JetBrains.Annotations.AssertionConditionType get_ConditionType()
     // Offset: 0x2408300
     JetBrains::Annotations::AssertionConditionType get_ConditionType();

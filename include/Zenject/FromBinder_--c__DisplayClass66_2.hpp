@@ -45,10 +45,8 @@ namespace Zenject {
     constexpr operator Zenject::InjectContext*() const noexcept {
       return ctx;
     }
-    // Get instance field: public Zenject.InjectContext ctx
-    Zenject::InjectContext* _get_ctx();
-    // Set instance field: public Zenject.InjectContext ctx
-    void _set_ctx(Zenject::InjectContext* value);
+    // Get instance field reference: public Zenject.InjectContext ctx
+    Zenject::InjectContext*& dyn_ctx();
     // System.Boolean <FromComponentsInHierarchyBase>b__3(UnityEngine.Component x)
     // Offset: 0x165E36C
     bool $FromComponentsInHierarchyBase$b__3(UnityEngine::Component* x);

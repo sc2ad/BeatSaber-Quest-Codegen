@@ -44,14 +44,10 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private System.String m_Name
-    ::Il2CppString* _get_m_Name();
-    // Set instance field: private System.String m_Name
-    void _set_m_Name(::Il2CppString* value);
-    // Get instance field: private UnityEngine.Hash128 m_Hash
-    UnityEngine::Hash128 _get_m_Hash();
-    // Set instance field: private UnityEngine.Hash128 m_Hash
-    void _set_m_Hash(UnityEngine::Hash128 value);
+    // Get instance field reference: private System.String m_Name
+    ::Il2CppString*& dyn_m_Name();
+    // Get instance field reference: private UnityEngine.Hash128 m_Hash
+    UnityEngine::Hash128& dyn_m_Hash();
     // public System.String get_name()
     // Offset: 0x1C1EC7C
     ::Il2CppString* get_name();

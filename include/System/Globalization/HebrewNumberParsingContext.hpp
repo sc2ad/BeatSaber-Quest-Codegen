@@ -41,14 +41,10 @@ namespace System::Globalization {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: System.Globalization.HebrewNumber/System.Globalization.HS state
-    System::Globalization::HebrewNumber::HS _get_state();
-    // Set instance field: System.Globalization.HebrewNumber/System.Globalization.HS state
-    void _set_state(System::Globalization::HebrewNumber::HS value);
-    // Get instance field: System.Int32 result
-    int _get_result();
-    // Set instance field: System.Int32 result
-    void _set_result(int value);
+    // Get instance field reference: System.Globalization.HebrewNumber/System.Globalization.HS state
+    System::Globalization::HebrewNumber::HS& dyn_state();
+    // Get instance field reference: System.Int32 result
+    int& dyn_result();
     // public System.Void .ctor(System.Int32 result)
     // Offset: 0x1A1885C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

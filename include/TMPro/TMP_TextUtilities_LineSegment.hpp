@@ -43,14 +43,10 @@ namespace TMPro {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public UnityEngine.Vector3 Point1
-    UnityEngine::Vector3 _get_Point1();
-    // Set instance field: public UnityEngine.Vector3 Point1
-    void _set_Point1(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Vector3 Point2
-    UnityEngine::Vector3 _get_Point2();
-    // Set instance field: public UnityEngine.Vector3 Point2
-    void _set_Point2(UnityEngine::Vector3 value);
+    // Get instance field reference: public UnityEngine.Vector3 Point1
+    UnityEngine::Vector3& dyn_Point1();
+    // Get instance field reference: public UnityEngine.Vector3 Point2
+    UnityEngine::Vector3& dyn_Point2();
     // public System.Void .ctor(UnityEngine.Vector3 p1, UnityEngine.Vector3 p2)
     // Offset: 0x1452DD4
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

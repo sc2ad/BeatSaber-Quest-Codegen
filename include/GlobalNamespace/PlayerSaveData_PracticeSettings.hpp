@@ -34,14 +34,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: PracticeSettings
     PracticeSettings(float startSongTime_ = {}, float songSpeedMul_ = {}) noexcept : startSongTime{startSongTime_}, songSpeedMul{songSpeedMul_} {}
-    // Get instance field: public System.Single startSongTime
-    float _get_startSongTime();
-    // Set instance field: public System.Single startSongTime
-    void _set_startSongTime(float value);
-    // Get instance field: public System.Single songSpeedMul
-    float _get_songSpeedMul();
-    // Set instance field: public System.Single songSpeedMul
-    void _set_songSpeedMul(float value);
+    // Get instance field reference: public System.Single startSongTime
+    float& dyn_startSongTime();
+    // Get instance field reference: public System.Single songSpeedMul
+    float& dyn_songSpeedMul();
     // public System.Void .ctor()
     // Offset: 0x113764C
     // Implemented from: System.Object

@@ -34,14 +34,10 @@ namespace System::Net::Sockets {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: LingerOption
     LingerOption(bool enabled_ = {}, int lingerTime_ = {}) noexcept : enabled{enabled_}, lingerTime{lingerTime_} {}
-    // Get instance field: private System.Boolean enabled
-    bool _get_enabled();
-    // Set instance field: private System.Boolean enabled
-    void _set_enabled(bool value);
-    // Get instance field: private System.Int32 lingerTime
-    int _get_lingerTime();
-    // Set instance field: private System.Int32 lingerTime
-    void _set_lingerTime(int value);
+    // Get instance field reference: private System.Boolean enabled
+    bool& dyn_enabled();
+    // Get instance field reference: private System.Int32 lingerTime
+    int& dyn_lingerTime();
     // public System.Void set_Enabled(System.Boolean value)
     // Offset: 0x14A4B78
     void set_Enabled(bool value);

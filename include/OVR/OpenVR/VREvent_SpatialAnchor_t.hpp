@@ -32,10 +32,8 @@ namespace OVR::OpenVR {
     constexpr operator uint() const noexcept {
       return unHandle;
     }
-    // Get instance field: public System.UInt32 unHandle
-    uint _get_unHandle();
-    // Set instance field: public System.UInt32 unHandle
-    void _set_unHandle(uint value);
+    // Get instance field reference: public System.UInt32 unHandle
+    uint& dyn_unHandle();
   }; // OVR.OpenVR.VREvent_SpatialAnchor_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_SpatialAnchor_t), 0 + sizeof(uint)> __OVR_OpenVR_VREvent_SpatialAnchor_tSizeCheck;

@@ -80,30 +80,18 @@ namespace MasterServer {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: MultipartMessageWaiter
     MultipartMessageWaiter(GlobalNamespace::SmallBufferPool* bufferPool_ = {}, ::Array<uint8_t>* buffer_ = {}, int length_ = {}, System::Collections::Generic::List_1<int>* ranges_ = {}, bool isComplete_ = {}, bool isDisposed_ = {}) noexcept : bufferPool{bufferPool_}, buffer{buffer_}, length{length_}, ranges{ranges_}, isComplete{isComplete_}, isDisposed{isDisposed_} {}
-    // Get instance field: private readonly SmallBufferPool _bufferPool
-    GlobalNamespace::SmallBufferPool* _get__bufferPool();
-    // Set instance field: private readonly SmallBufferPool _bufferPool
-    void _set__bufferPool(GlobalNamespace::SmallBufferPool* value);
-    // Get instance field: private System.Byte[] _buffer
-    ::Array<uint8_t>* _get__buffer();
-    // Set instance field: private System.Byte[] _buffer
-    void _set__buffer(::Array<uint8_t>* value);
-    // Get instance field: private System.Int32 _length
-    int _get__length();
-    // Set instance field: private System.Int32 _length
-    void _set__length(int value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<System.Int32> _ranges
-    System::Collections::Generic::List_1<int>* _get__ranges();
-    // Set instance field: private readonly System.Collections.Generic.List`1<System.Int32> _ranges
-    void _set__ranges(System::Collections::Generic::List_1<int>* value);
-    // Get instance field: private System.Boolean _isComplete
-    bool _get__isComplete();
-    // Set instance field: private System.Boolean _isComplete
-    void _set__isComplete(bool value);
-    // Get instance field: private System.Boolean _isDisposed
-    bool _get__isDisposed();
-    // Set instance field: private System.Boolean _isDisposed
-    void _set__isDisposed(bool value);
+    // Get instance field reference: private readonly SmallBufferPool _bufferPool
+    GlobalNamespace::SmallBufferPool*& dyn__bufferPool();
+    // Get instance field reference: private System.Byte[] _buffer
+    ::Array<uint8_t>*& dyn__buffer();
+    // Get instance field reference: private System.Int32 _length
+    int& dyn__length();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Int32> _ranges
+    System::Collections::Generic::List_1<int>*& dyn__ranges();
+    // Get instance field reference: private System.Boolean _isComplete
+    bool& dyn__isComplete();
+    // Get instance field reference: private System.Boolean _isDisposed
+    bool& dyn__isDisposed();
     // public System.Boolean get_isWaiting()
     // Offset: 0x121EA84
     bool get_isWaiting();

@@ -51,14 +51,10 @@ namespace LiteNetLib::Utils {
     static System::DateTime _get_Epoch();
     // Set static field: static private readonly System.DateTime Epoch
     static void _set_Epoch(System::DateTime value);
-    // Get instance field: private System.Byte[] <Bytes>k__BackingField
-    ::Array<uint8_t>* _get_$Bytes$k__BackingField();
-    // Set instance field: private System.Byte[] <Bytes>k__BackingField
-    void _set_$Bytes$k__BackingField(::Array<uint8_t>* value);
-    // Get instance field: private System.Nullable`1<System.DateTime> <DestinationTimestamp>k__BackingField
-    System::Nullable_1<System::DateTime> _get_$DestinationTimestamp$k__BackingField();
-    // Set instance field: private System.Nullable`1<System.DateTime> <DestinationTimestamp>k__BackingField
-    void _set_$DestinationTimestamp$k__BackingField(System::Nullable_1<System::DateTime> value);
+    // Get instance field reference: private System.Byte[] <Bytes>k__BackingField
+    ::Array<uint8_t>*& dyn_$Bytes$k__BackingField();
+    // Get instance field reference: private System.Nullable`1<System.DateTime> <DestinationTimestamp>k__BackingField
+    System::Nullable_1<System::DateTime>& dyn_$DestinationTimestamp$k__BackingField();
     // public System.Byte[] get_Bytes()
     // Offset: 0x241158C
     ::Array<uint8_t>* get_Bytes();

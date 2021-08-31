@@ -142,10 +142,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::MasterServerConnectionManager::ConnectionState _get_Disconnecting();
       // Set static field: static public MasterServerConnectionManager/ConnectionState Disconnecting
       static void _set_Disconnecting(GlobalNamespace::MasterServerConnectionManager::ConnectionState value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // MasterServerConnectionManager/ConnectionState
     #pragma pack(pop)
     static check_size<sizeof(MasterServerConnectionManager::ConnectionState), 0 + sizeof(int)> __GlobalNamespace_MasterServerConnectionManager_ConnectionStateSizeCheck;
@@ -254,70 +252,38 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IConnectionManager() noexcept {
       return *reinterpret_cast<GlobalNamespace::IConnectionManager*>(this);
     }
-    // Get instance field: private readonly MasterServer.ITimeProvider _timeProvider
-    MasterServer::ITimeProvider* _get__timeProvider();
-    // Set instance field: private readonly MasterServer.ITimeProvider _timeProvider
-    void _set__timeProvider(MasterServer::ITimeProvider* value);
-    // Get instance field: private readonly LiteNetLibConnectionManager _liteNetLibConnectionManager
-    GlobalNamespace::LiteNetLibConnectionManager* _get__liteNetLibConnectionManager();
-    // Set instance field: private readonly LiteNetLibConnectionManager _liteNetLibConnectionManager
-    void _set__liteNetLibConnectionManager(GlobalNamespace::LiteNetLibConnectionManager* value);
-    // Get instance field: private System.String _code
-    ::Il2CppString* _get__code();
-    // Set instance field: private System.String _code
-    void _set__code(::Il2CppString* value);
-    // Get instance field: private MasterServer.UserMessageHandler _messageHandler
-    MasterServer::UserMessageHandler* _get__messageHandler();
-    // Set instance field: private MasterServer.UserMessageHandler _messageHandler
-    void _set__messageHandler(MasterServer::UserMessageHandler* value);
-    // Get instance field: private BeatmapLevelSelectionMask _selectionMask
-    GlobalNamespace::BeatmapLevelSelectionMask _get__selectionMask();
-    // Set instance field: private BeatmapLevelSelectionMask _selectionMask
-    void _set__selectionMask(GlobalNamespace::BeatmapLevelSelectionMask value);
-    // Get instance field: private GameplayServerConfiguration _configuration
-    GlobalNamespace::GameplayServerConfiguration _get__configuration();
-    // Set instance field: private GameplayServerConfiguration _configuration
-    void _set__configuration(GlobalNamespace::GameplayServerConfiguration value);
-    // Get instance field: private System.String _managerId
-    ::Il2CppString* _get__managerId();
-    // Set instance field: private System.String _managerId
-    void _set__managerId(::Il2CppString* value);
-    // Get instance field: private MasterServerConnectionManager/ConnectionState _connectionState
-    GlobalNamespace::MasterServerConnectionManager::ConnectionState _get__connectionState();
-    // Set instance field: private MasterServerConnectionManager/ConnectionState _connectionState
-    void _set__connectionState(GlobalNamespace::MasterServerConnectionManager::ConnectionState value);
-    // Get instance field: private System.Threading.CancellationTokenSource _connectionCancellationTokenSource
-    System::Threading::CancellationTokenSource* _get__connectionCancellationTokenSource();
-    // Set instance field: private System.Threading.CancellationTokenSource _connectionCancellationTokenSource
-    void _set__connectionCancellationTokenSource(System::Threading::CancellationTokenSource* value);
-    // Get instance field: private System.Action onConnectedEvent
-    System::Action* _get_onConnectedEvent();
-    // Set instance field: private System.Action onConnectedEvent
-    void _set_onConnectedEvent(System::Action* value);
-    // Get instance field: private System.Action`1<DisconnectedReason> onDisconnectedEvent
-    System::Action_1<GlobalNamespace::DisconnectedReason>* _get_onDisconnectedEvent();
-    // Set instance field: private System.Action`1<DisconnectedReason> onDisconnectedEvent
-    void _set_onDisconnectedEvent(System::Action_1<GlobalNamespace::DisconnectedReason>* value);
-    // Get instance field: private System.Action`1<ConnectionFailedReason> onConnectionFailedEvent
-    System::Action_1<GlobalNamespace::ConnectionFailedReason>* _get_onConnectionFailedEvent();
-    // Set instance field: private System.Action`1<ConnectionFailedReason> onConnectionFailedEvent
-    void _set_onConnectionFailedEvent(System::Action_1<GlobalNamespace::ConnectionFailedReason>* value);
-    // Get instance field: private System.Action`1<IConnection> onConnectionConnectedEvent
-    System::Action_1<GlobalNamespace::IConnection*>* _get_onConnectionConnectedEvent();
-    // Set instance field: private System.Action`1<IConnection> onConnectionConnectedEvent
-    void _set_onConnectionConnectedEvent(System::Action_1<GlobalNamespace::IConnection*>* value);
-    // Get instance field: private System.Action`2<IConnection,DisconnectedReason> onConnectionDisconnectedEvent
-    System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>* _get_onConnectionDisconnectedEvent();
-    // Set instance field: private System.Action`2<IConnection,DisconnectedReason> onConnectionDisconnectedEvent
-    void _set_onConnectionDisconnectedEvent(System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>* value);
-    // Get instance field: private System.Action`2<IConnection,System.Single> onLatencyUpdatedEvent
-    System::Action_2<GlobalNamespace::IConnection*, float>* _get_onLatencyUpdatedEvent();
-    // Set instance field: private System.Action`2<IConnection,System.Single> onLatencyUpdatedEvent
-    void _set_onLatencyUpdatedEvent(System::Action_2<GlobalNamespace::IConnection*, float>* value);
-    // Get instance field: private System.Action`3<IConnection,LiteNetLib.Utils.NetDataReader,LiteNetLib.DeliveryMethod> onReceivedDataEvent
-    System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>* _get_onReceivedDataEvent();
-    // Set instance field: private System.Action`3<IConnection,LiteNetLib.Utils.NetDataReader,LiteNetLib.DeliveryMethod> onReceivedDataEvent
-    void _set_onReceivedDataEvent(System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>* value);
+    // Get instance field reference: private readonly MasterServer.ITimeProvider _timeProvider
+    MasterServer::ITimeProvider*& dyn__timeProvider();
+    // Get instance field reference: private readonly LiteNetLibConnectionManager _liteNetLibConnectionManager
+    GlobalNamespace::LiteNetLibConnectionManager*& dyn__liteNetLibConnectionManager();
+    // Get instance field reference: private System.String _code
+    ::Il2CppString*& dyn__code();
+    // Get instance field reference: private MasterServer.UserMessageHandler _messageHandler
+    MasterServer::UserMessageHandler*& dyn__messageHandler();
+    // Get instance field reference: private BeatmapLevelSelectionMask _selectionMask
+    GlobalNamespace::BeatmapLevelSelectionMask& dyn__selectionMask();
+    // Get instance field reference: private GameplayServerConfiguration _configuration
+    GlobalNamespace::GameplayServerConfiguration& dyn__configuration();
+    // Get instance field reference: private System.String _managerId
+    ::Il2CppString*& dyn__managerId();
+    // Get instance field reference: private MasterServerConnectionManager/ConnectionState _connectionState
+    GlobalNamespace::MasterServerConnectionManager::ConnectionState& dyn__connectionState();
+    // Get instance field reference: private System.Threading.CancellationTokenSource _connectionCancellationTokenSource
+    System::Threading::CancellationTokenSource*& dyn__connectionCancellationTokenSource();
+    // Get instance field reference: private System.Action onConnectedEvent
+    System::Action*& dyn_onConnectedEvent();
+    // Get instance field reference: private System.Action`1<DisconnectedReason> onDisconnectedEvent
+    System::Action_1<GlobalNamespace::DisconnectedReason>*& dyn_onDisconnectedEvent();
+    // Get instance field reference: private System.Action`1<ConnectionFailedReason> onConnectionFailedEvent
+    System::Action_1<GlobalNamespace::ConnectionFailedReason>*& dyn_onConnectionFailedEvent();
+    // Get instance field reference: private System.Action`1<IConnection> onConnectionConnectedEvent
+    System::Action_1<GlobalNamespace::IConnection*>*& dyn_onConnectionConnectedEvent();
+    // Get instance field reference: private System.Action`2<IConnection,DisconnectedReason> onConnectionDisconnectedEvent
+    System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>*& dyn_onConnectionDisconnectedEvent();
+    // Get instance field reference: private System.Action`2<IConnection,System.Single> onLatencyUpdatedEvent
+    System::Action_2<GlobalNamespace::IConnection*, float>*& dyn_onLatencyUpdatedEvent();
+    // Get instance field reference: private System.Action`3<IConnection,LiteNetLib.Utils.NetDataReader,LiteNetLib.DeliveryMethod> onReceivedDataEvent
+    System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>*& dyn_onReceivedDataEvent();
     // public System.String get_userId()
     // Offset: 0x1222D98
     ::Il2CppString* get_userId();

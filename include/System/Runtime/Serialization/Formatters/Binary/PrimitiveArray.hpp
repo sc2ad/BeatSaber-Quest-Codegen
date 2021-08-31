@@ -103,54 +103,30 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(::Array<uint64_t>*) == 0x8);
     // Creating value type constructor for type: PrimitiveArray
     PrimitiveArray(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code_ = {}, ::Array<bool>* booleanA_ = {}, ::Array<::Il2CppChar>* charA_ = {}, ::Array<double>* doubleA_ = {}, ::Array<int16_t>* int16A_ = {}, ::Array<int>* int32A_ = {}, ::Array<int64_t>* int64A_ = {}, ::Array<int8_t>* sbyteA_ = {}, ::Array<float>* singleA_ = {}, ::Array<uint16_t>* uint16A_ = {}, ::Array<uint>* uint32A_ = {}, ::Array<uint64_t>* uint64A_ = {}) noexcept : code{code_}, booleanA{booleanA_}, charA{charA_}, doubleA{doubleA_}, int16A{int16A_}, int32A{int32A_}, int64A{int64A_}, sbyteA{sbyteA_}, singleA{singleA_}, uint16A{uint16A_}, uint32A{uint32A_}, uint64A{uint64A_} {}
-    // Get instance field: private System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code
-    System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE _get_code();
-    // Set instance field: private System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code
-    void _set_code(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE value);
-    // Get instance field: private System.Boolean[] booleanA
-    ::Array<bool>* _get_booleanA();
-    // Set instance field: private System.Boolean[] booleanA
-    void _set_booleanA(::Array<bool>* value);
-    // Get instance field: private System.Char[] charA
-    ::Array<::Il2CppChar>* _get_charA();
-    // Set instance field: private System.Char[] charA
-    void _set_charA(::Array<::Il2CppChar>* value);
-    // Get instance field: private System.Double[] doubleA
-    ::Array<double>* _get_doubleA();
-    // Set instance field: private System.Double[] doubleA
-    void _set_doubleA(::Array<double>* value);
-    // Get instance field: private System.Int16[] int16A
-    ::Array<int16_t>* _get_int16A();
-    // Set instance field: private System.Int16[] int16A
-    void _set_int16A(::Array<int16_t>* value);
-    // Get instance field: private System.Int32[] int32A
-    ::Array<int>* _get_int32A();
-    // Set instance field: private System.Int32[] int32A
-    void _set_int32A(::Array<int>* value);
-    // Get instance field: private System.Int64[] int64A
-    ::Array<int64_t>* _get_int64A();
-    // Set instance field: private System.Int64[] int64A
-    void _set_int64A(::Array<int64_t>* value);
-    // Get instance field: private System.SByte[] sbyteA
-    ::Array<int8_t>* _get_sbyteA();
-    // Set instance field: private System.SByte[] sbyteA
-    void _set_sbyteA(::Array<int8_t>* value);
-    // Get instance field: private System.Single[] singleA
-    ::Array<float>* _get_singleA();
-    // Set instance field: private System.Single[] singleA
-    void _set_singleA(::Array<float>* value);
-    // Get instance field: private System.UInt16[] uint16A
-    ::Array<uint16_t>* _get_uint16A();
-    // Set instance field: private System.UInt16[] uint16A
-    void _set_uint16A(::Array<uint16_t>* value);
-    // Get instance field: private System.UInt32[] uint32A
-    ::Array<uint>* _get_uint32A();
-    // Set instance field: private System.UInt32[] uint32A
-    void _set_uint32A(::Array<uint>* value);
-    // Get instance field: private System.UInt64[] uint64A
-    ::Array<uint64_t>* _get_uint64A();
-    // Set instance field: private System.UInt64[] uint64A
-    void _set_uint64A(::Array<uint64_t>* value);
+    // Get instance field reference: private System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code
+    System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& dyn_code();
+    // Get instance field reference: private System.Boolean[] booleanA
+    ::Array<bool>*& dyn_booleanA();
+    // Get instance field reference: private System.Char[] charA
+    ::Array<::Il2CppChar>*& dyn_charA();
+    // Get instance field reference: private System.Double[] doubleA
+    ::Array<double>*& dyn_doubleA();
+    // Get instance field reference: private System.Int16[] int16A
+    ::Array<int16_t>*& dyn_int16A();
+    // Get instance field reference: private System.Int32[] int32A
+    ::Array<int>*& dyn_int32A();
+    // Get instance field reference: private System.Int64[] int64A
+    ::Array<int64_t>*& dyn_int64A();
+    // Get instance field reference: private System.SByte[] sbyteA
+    ::Array<int8_t>*& dyn_sbyteA();
+    // Get instance field reference: private System.Single[] singleA
+    ::Array<float>*& dyn_singleA();
+    // Get instance field reference: private System.UInt16[] uint16A
+    ::Array<uint16_t>*& dyn_uint16A();
+    // Get instance field reference: private System.UInt32[] uint32A
+    ::Array<uint>*& dyn_uint32A();
+    // Get instance field reference: private System.UInt64[] uint64A
+    ::Array<uint64_t>*& dyn_uint64A();
     // System.Void .ctor(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code, System.Array array)
     // Offset: 0x161C0C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

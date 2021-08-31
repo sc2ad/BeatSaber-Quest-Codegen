@@ -38,10 +38,8 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::Array<RootMotion::FinalIK::PenetrationAvoidance::Avoider*>*) == 0x8);
     // Creating value type constructor for type: PenetrationAvoidance
     PenetrationAvoidance(::Array<RootMotion::FinalIK::PenetrationAvoidance::Avoider*>* avoiders_ = {}) noexcept : avoiders{avoiders_} {}
-    // Get instance field: public RootMotion.FinalIK.PenetrationAvoidance/RootMotion.FinalIK.Avoider[] avoiders
-    ::Array<RootMotion::FinalIK::PenetrationAvoidance::Avoider*>* _get_avoiders();
-    // Set instance field: public RootMotion.FinalIK.PenetrationAvoidance/RootMotion.FinalIK.Avoider[] avoiders
-    void _set_avoiders(::Array<RootMotion::FinalIK::PenetrationAvoidance::Avoider*>* value);
+    // Get instance field reference: public RootMotion.FinalIK.PenetrationAvoidance/RootMotion.FinalIK.Avoider[] avoiders
+    ::Array<RootMotion::FinalIK::PenetrationAvoidance::Avoider*>*& dyn_avoiders();
     // public System.Void .ctor()
     // Offset: 0x1AD9468
     // Implemented from: RootMotion.FinalIK.OffsetModifier

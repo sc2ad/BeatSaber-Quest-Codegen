@@ -37,10 +37,8 @@ namespace UnityEngine {
     constexpr operator UnityEngine::ParticleSystem*() const noexcept {
       return m_ParticleSystem;
     }
-    // Get instance field: UnityEngine.ParticleSystem m_ParticleSystem
-    UnityEngine::ParticleSystem* _get_m_ParticleSystem();
-    // Set instance field: UnityEngine.ParticleSystem m_ParticleSystem
-    void _set_m_ParticleSystem(UnityEngine::ParticleSystem* value);
+    // Get instance field reference: UnityEngine.ParticleSystem m_ParticleSystem
+    UnityEngine::ParticleSystem*& dyn_m_ParticleSystem();
     // public System.Boolean get_enabled()
     // Offset: 0x24156B0
     bool get_enabled();

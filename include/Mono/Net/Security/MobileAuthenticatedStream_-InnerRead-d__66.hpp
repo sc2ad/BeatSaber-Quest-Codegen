@@ -73,34 +73,20 @@ namespace Mono::Net::Security {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
-    // Get instance field: public System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: public System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Int32> <>t__builder
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int> _get_$$t__builder();
-    // Set instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Int32> <>t__builder
-    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int> value);
-    // Get instance field: public Mono.Net.Security.MobileAuthenticatedStream <>4__this
-    Mono::Net::Security::MobileAuthenticatedStream* _get_$$4__this();
-    // Set instance field: public Mono.Net.Security.MobileAuthenticatedStream <>4__this
-    void _set_$$4__this(Mono::Net::Security::MobileAuthenticatedStream* value);
-    // Get instance field: public System.Threading.CancellationToken cancellationToken
-    System::Threading::CancellationToken _get_cancellationToken();
-    // Set instance field: public System.Threading.CancellationToken cancellationToken
-    void _set_cancellationToken(System::Threading::CancellationToken value);
-    // Get instance field: public System.Int32 requestedSize
-    int _get_requestedSize();
-    // Set instance field: public System.Int32 requestedSize
-    void _set_requestedSize(int value);
-    // Get instance field: public System.Boolean sync
-    bool _get_sync();
-    // Set instance field: public System.Boolean sync
-    void _set_sync(bool value);
-    // Get instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.Int32> <>u__1
-    typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter _get_$$u__1();
-    // Set instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.Int32> <>u__1
-    void _set_$$u__1(typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter value);
+    // Get instance field reference: public System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Int32> <>t__builder
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int>& dyn_$$t__builder();
+    // Get instance field reference: public Mono.Net.Security.MobileAuthenticatedStream <>4__this
+    Mono::Net::Security::MobileAuthenticatedStream*& dyn_$$4__this();
+    // Get instance field reference: public System.Threading.CancellationToken cancellationToken
+    System::Threading::CancellationToken& dyn_cancellationToken();
+    // Get instance field reference: public System.Int32 requestedSize
+    int& dyn_requestedSize();
+    // Get instance field reference: public System.Boolean sync
+    bool& dyn_sync();
+    // Get instance field reference: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.Int32> <>u__1
+    typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
     // Offset: 0x15E97D0
     void MoveNext();

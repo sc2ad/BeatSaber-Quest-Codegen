@@ -51,10 +51,8 @@ namespace System::Diagnostics {
     static System::Diagnostics::DebuggerBrowsableState _get_RootHidden();
     // Set static field: static public System.Diagnostics.DebuggerBrowsableState RootHidden
     static void _set_RootHidden(System::Diagnostics::DebuggerBrowsableState value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Diagnostics.DebuggerBrowsableState
   #pragma pack(pop)
   static check_size<sizeof(DebuggerBrowsableState), 0 + sizeof(int)> __System_Diagnostics_DebuggerBrowsableStateSizeCheck;

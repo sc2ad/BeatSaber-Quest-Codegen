@@ -93,46 +93,26 @@ namespace GlobalNamespace {
     TrackLaneRing(float prevRotZ_ = {}, float rotZ_ = {}, float destRotZ_ = {}, float rotationSpeed_ = {}, float prevPosZ_ = {}, float posZ_ = {}, float destPosZ_ = {}, float moveSpeed_ = {}, UnityEngine::Vector3 positionOffset_ = {}, UnityEngine::Transform* transform_ = {}) noexcept : prevRotZ{prevRotZ_}, rotZ{rotZ_}, destRotZ{destRotZ_}, rotationSpeed{rotationSpeed_}, prevPosZ{prevPosZ_}, posZ{posZ_}, destPosZ{destPosZ_}, moveSpeed{moveSpeed_}, positionOffset{positionOffset_}, transform{transform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Single _prevRotZ
-    float _get__prevRotZ();
-    // Set instance field: private System.Single _prevRotZ
-    void _set__prevRotZ(float value);
-    // Get instance field: private System.Single _rotZ
-    float _get__rotZ();
-    // Set instance field: private System.Single _rotZ
-    void _set__rotZ(float value);
-    // Get instance field: private System.Single _destRotZ
-    float _get__destRotZ();
-    // Set instance field: private System.Single _destRotZ
-    void _set__destRotZ(float value);
-    // Get instance field: private System.Single _rotationSpeed
-    float _get__rotationSpeed();
-    // Set instance field: private System.Single _rotationSpeed
-    void _set__rotationSpeed(float value);
-    // Get instance field: private System.Single _prevPosZ
-    float _get__prevPosZ();
-    // Set instance field: private System.Single _prevPosZ
-    void _set__prevPosZ(float value);
-    // Get instance field: private System.Single _posZ
-    float _get__posZ();
-    // Set instance field: private System.Single _posZ
-    void _set__posZ(float value);
-    // Get instance field: private System.Single _destPosZ
-    float _get__destPosZ();
-    // Set instance field: private System.Single _destPosZ
-    void _set__destPosZ(float value);
-    // Get instance field: private System.Single _moveSpeed
-    float _get__moveSpeed();
-    // Set instance field: private System.Single _moveSpeed
-    void _set__moveSpeed(float value);
-    // Get instance field: private UnityEngine.Vector3 _positionOffset
-    UnityEngine::Vector3 _get__positionOffset();
-    // Set instance field: private UnityEngine.Vector3 _positionOffset
-    void _set__positionOffset(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Transform _transform
-    UnityEngine::Transform* _get__transform();
-    // Set instance field: private UnityEngine.Transform _transform
-    void _set__transform(UnityEngine::Transform* value);
+    // Get instance field reference: private System.Single _prevRotZ
+    float& dyn__prevRotZ();
+    // Get instance field reference: private System.Single _rotZ
+    float& dyn__rotZ();
+    // Get instance field reference: private System.Single _destRotZ
+    float& dyn__destRotZ();
+    // Get instance field reference: private System.Single _rotationSpeed
+    float& dyn__rotationSpeed();
+    // Get instance field reference: private System.Single _prevPosZ
+    float& dyn__prevPosZ();
+    // Get instance field reference: private System.Single _posZ
+    float& dyn__posZ();
+    // Get instance field reference: private System.Single _destPosZ
+    float& dyn__destPosZ();
+    // Get instance field reference: private System.Single _moveSpeed
+    float& dyn__moveSpeed();
+    // Get instance field reference: private UnityEngine.Vector3 _positionOffset
+    UnityEngine::Vector3& dyn__positionOffset();
+    // Get instance field reference: private UnityEngine.Transform _transform
+    UnityEngine::Transform*& dyn__transform();
     // public System.Single get_destRotZ()
     // Offset: 0x1095748
     float get_destRotZ();

@@ -32,10 +32,8 @@ namespace GlobalNamespace {
     constexpr operator bool() const noexcept {
       return failOn0Energy;
     }
-    // Get instance field: public readonly System.Boolean failOn0Energy
-    bool _get_failOn0Energy();
-    // Set instance field: public readonly System.Boolean failOn0Energy
-    void _set_failOn0Energy(bool value);
+    // Get instance field reference: public readonly System.Boolean failOn0Energy
+    bool& dyn_failOn0Energy();
     // public System.Void .ctor(System.Boolean failOn0Energy)
     // Offset: 0x1068664
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

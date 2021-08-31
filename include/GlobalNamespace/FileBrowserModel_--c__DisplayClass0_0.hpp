@@ -60,22 +60,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_1<::Array<GlobalNamespace::FileBrowserItem*>*>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass0_0
     $$c__DisplayClass0_0(::Array<GlobalNamespace::FileBrowserItem*>* items_ = {}, ::Il2CppString* direcotryPath_ = {}, ::Array<::Il2CppString*>* extensions_ = {}, System::Action_1<::Array<GlobalNamespace::FileBrowserItem*>*>* callback_ = {}) noexcept : items{items_}, direcotryPath{direcotryPath_}, extensions{extensions_}, callback{callback_} {}
-    // Get instance field: public FileBrowserItem[] items
-    ::Array<GlobalNamespace::FileBrowserItem*>* _get_items();
-    // Set instance field: public FileBrowserItem[] items
-    void _set_items(::Array<GlobalNamespace::FileBrowserItem*>* value);
-    // Get instance field: public System.String direcotryPath
-    ::Il2CppString* _get_direcotryPath();
-    // Set instance field: public System.String direcotryPath
-    void _set_direcotryPath(::Il2CppString* value);
-    // Get instance field: public System.String[] extensions
-    ::Array<::Il2CppString*>* _get_extensions();
-    // Set instance field: public System.String[] extensions
-    void _set_extensions(::Array<::Il2CppString*>* value);
-    // Get instance field: public System.Action`1<FileBrowserItem[]> callback
-    System::Action_1<::Array<GlobalNamespace::FileBrowserItem*>*>* _get_callback();
-    // Set instance field: public System.Action`1<FileBrowserItem[]> callback
-    void _set_callback(System::Action_1<::Array<GlobalNamespace::FileBrowserItem*>*>* value);
+    // Get instance field reference: public FileBrowserItem[] items
+    ::Array<GlobalNamespace::FileBrowserItem*>*& dyn_items();
+    // Get instance field reference: public System.String direcotryPath
+    ::Il2CppString*& dyn_direcotryPath();
+    // Get instance field reference: public System.String[] extensions
+    ::Array<::Il2CppString*>*& dyn_extensions();
+    // Get instance field reference: public System.Action`1<FileBrowserItem[]> callback
+    System::Action_1<::Array<GlobalNamespace::FileBrowserItem*>*>*& dyn_callback();
     // System.Void <GetContentOfDirectory>b__0()
     // Offset: 0x1056540
     void $GetContentOfDirectory$b__0();

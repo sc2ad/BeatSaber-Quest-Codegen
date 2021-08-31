@@ -65,22 +65,14 @@ namespace MasterServer {
     static_assert(sizeof(GlobalNamespace::GameplayServerConfiguration) == 0x18);
     // Creating value type constructor for type: ConnectToServerRequest
     ConnectToServerRequest(GlobalNamespace::BeatmapLevelSelectionMask selectionMask_ = {}, ::Il2CppString* secret_ = {}, ::Il2CppString* code_ = {}, GlobalNamespace::GameplayServerConfiguration configuration_ = {}) noexcept : selectionMask{selectionMask_}, secret{secret_}, code{code_}, configuration{configuration_} {}
-    // Get instance field: public BeatmapLevelSelectionMask selectionMask
-    GlobalNamespace::BeatmapLevelSelectionMask _get_selectionMask();
-    // Set instance field: public BeatmapLevelSelectionMask selectionMask
-    void _set_selectionMask(GlobalNamespace::BeatmapLevelSelectionMask value);
-    // Get instance field: public System.String secret
-    ::Il2CppString* _get_secret();
-    // Set instance field: public System.String secret
-    void _set_secret(::Il2CppString* value);
-    // Get instance field: public System.String code
-    ::Il2CppString* _get_code();
-    // Set instance field: public System.String code
-    void _set_code(::Il2CppString* value);
-    // Get instance field: public GameplayServerConfiguration configuration
-    GlobalNamespace::GameplayServerConfiguration _get_configuration();
-    // Set instance field: public GameplayServerConfiguration configuration
-    void _set_configuration(GlobalNamespace::GameplayServerConfiguration value);
+    // Get instance field reference: public BeatmapLevelSelectionMask selectionMask
+    GlobalNamespace::BeatmapLevelSelectionMask& dyn_selectionMask();
+    // Get instance field reference: public System.String secret
+    ::Il2CppString*& dyn_secret();
+    // Get instance field reference: public System.String code
+    ::Il2CppString*& dyn_code();
+    // Get instance field reference: public GameplayServerConfiguration configuration
+    GlobalNamespace::GameplayServerConfiguration& dyn_configuration();
     // static public IPacketPool`1<MasterServer.ConnectToServerRequest> get_pool()
     // Offset: 0x12155CC
     static GlobalNamespace::IPacketPool_1<MasterServer::ConnectToServerRequest*>* get_pool();

@@ -41,14 +41,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: DynamicBoneCollider
     DynamicBoneCollider(float m_Radius_ = {}, float m_Height_ = {}) noexcept : m_Radius{m_Radius_}, m_Height{m_Height_} {}
-    // Get instance field: public System.Single m_Radius
-    float _get_m_Radius();
-    // Set instance field: public System.Single m_Radius
-    void _set_m_Radius(float value);
-    // Get instance field: public System.Single m_Height
-    float _get_m_Height();
-    // Set instance field: public System.Single m_Height
-    void _set_m_Height(float value);
+    // Get instance field reference: public System.Single m_Radius
+    float& dyn_m_Radius();
+    // Get instance field reference: public System.Single m_Height
+    float& dyn_m_Height();
     // private System.Void OnValidate()
     // Offset: 0x23FC9A4
     void OnValidate();

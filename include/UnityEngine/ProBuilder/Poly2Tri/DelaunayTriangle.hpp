@@ -56,26 +56,16 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: DelaunayTriangle
     DelaunayTriangle(UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> Points_ = {}, UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*> Neighbors_ = {}, UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 EdgeIsConstrained_ = {}, UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 EdgeIsDelaunay_ = {}, bool IsInterior_ = {}) noexcept : Points{Points_}, Neighbors{Neighbors_}, EdgeIsConstrained{EdgeIsConstrained_}, EdgeIsDelaunay{EdgeIsDelaunay_}, IsInterior{IsInterior_} {}
-    // Get instance field: public UnityEngine.ProBuilder.Poly2Tri.FixedArray3`1<UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint> Points
-    UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> _get_Points();
-    // Set instance field: public UnityEngine.ProBuilder.Poly2Tri.FixedArray3`1<UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint> Points
-    void _set_Points(UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> value);
-    // Get instance field: public UnityEngine.ProBuilder.Poly2Tri.FixedArray3`1<UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle> Neighbors
-    UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*> _get_Neighbors();
-    // Set instance field: public UnityEngine.ProBuilder.Poly2Tri.FixedArray3`1<UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle> Neighbors
-    void _set_Neighbors(UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*> value);
-    // Get instance field: public UnityEngine.ProBuilder.Poly2Tri.FixedBitArray3 EdgeIsConstrained
-    UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 _get_EdgeIsConstrained();
-    // Set instance field: public UnityEngine.ProBuilder.Poly2Tri.FixedBitArray3 EdgeIsConstrained
-    void _set_EdgeIsConstrained(UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 value);
-    // Get instance field: public UnityEngine.ProBuilder.Poly2Tri.FixedBitArray3 EdgeIsDelaunay
-    UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 _get_EdgeIsDelaunay();
-    // Set instance field: public UnityEngine.ProBuilder.Poly2Tri.FixedBitArray3 EdgeIsDelaunay
-    void _set_EdgeIsDelaunay(UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 value);
-    // Get instance field: private System.Boolean <IsInterior>k__BackingField
-    bool _get_$IsInterior$k__BackingField();
-    // Set instance field: private System.Boolean <IsInterior>k__BackingField
-    void _set_$IsInterior$k__BackingField(bool value);
+    // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.FixedArray3`1<UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint> Points
+    UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>& dyn_Points();
+    // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.FixedArray3`1<UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle> Neighbors
+    UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>& dyn_Neighbors();
+    // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.FixedBitArray3 EdgeIsConstrained
+    UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3& dyn_EdgeIsConstrained();
+    // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.FixedBitArray3 EdgeIsDelaunay
+    UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3& dyn_EdgeIsDelaunay();
+    // Get instance field reference: private System.Boolean <IsInterior>k__BackingField
+    bool& dyn_$IsInterior$k__BackingField();
     // public System.Boolean get_IsInterior()
     // Offset: 0x23C30F0
     bool get_IsInterior();

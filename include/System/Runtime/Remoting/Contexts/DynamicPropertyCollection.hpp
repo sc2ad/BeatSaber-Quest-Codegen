@@ -49,10 +49,8 @@ namespace System::Runtime::Remoting::Contexts {
     constexpr operator System::Collections::ArrayList*() const noexcept {
       return properties;
     }
-    // Get instance field: private System.Collections.ArrayList _properties
-    System::Collections::ArrayList* _get__properties();
-    // Set instance field: private System.Collections.ArrayList _properties
-    void _set__properties(System::Collections::ArrayList* value);
+    // Get instance field reference: private System.Collections.ArrayList _properties
+    System::Collections::ArrayList*& dyn__properties();
     // public System.Boolean get_HasProperties()
     // Offset: 0x1A421A4
     bool get_HasProperties();

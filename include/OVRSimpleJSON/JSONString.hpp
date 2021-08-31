@@ -46,10 +46,8 @@ namespace OVRSimpleJSON {
     constexpr operator ::Il2CppString*() const noexcept {
       return m_Data;
     }
-    // Get instance field: private System.String m_Data
-    ::Il2CppString* _get_m_Data();
-    // Set instance field: private System.String m_Data
-    void _set_m_Data(::Il2CppString* value);
+    // Get instance field reference: private System.String m_Data
+    ::Il2CppString*& dyn_m_Data();
     // public System.Void .ctor(System.String aData)
     // Offset: 0x1F45694
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -34,10 +34,8 @@ namespace System::Net::NetworkInformation {
     constexpr operator System::Net::NetworkInformation::Win32_MIB_IFROW() const noexcept {
       return info;
     }
-    // Get instance field: private System.Net.NetworkInformation.Win32_MIB_IFROW info
-    System::Net::NetworkInformation::Win32_MIB_IFROW _get_info();
-    // Set instance field: private System.Net.NetworkInformation.Win32_MIB_IFROW info
-    void _set_info(System::Net::NetworkInformation::Win32_MIB_IFROW value);
+    // Get instance field reference: private System.Net.NetworkInformation.Win32_MIB_IFROW info
+    System::Net::NetworkInformation::Win32_MIB_IFROW& dyn_info();
     // public System.Void .ctor(System.Net.NetworkInformation.Win32_MIB_IFROW info)
     // Offset: 0x149BFC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

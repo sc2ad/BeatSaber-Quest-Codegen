@@ -67,26 +67,16 @@ namespace HMUI {
     static_assert(sizeof(HMUI::FlowCoordinator*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass36_0
     $$c__DisplayClass36_0(bool immediately_ = {}, HMUI::FlowCoordinator* $$4__this_ = {}, System::Action* finishedCallback_ = {}, HMUI::ViewController* viewController_ = {}, HMUI::FlowCoordinator* flowCoordinator_ = {}) noexcept : immediately{immediately_}, $$4__this{$$4__this_}, finishedCallback{finishedCallback_}, viewController{viewController_}, flowCoordinator{flowCoordinator_} {}
-    // Get instance field: public System.Boolean immediately
-    bool _get_immediately();
-    // Set instance field: public System.Boolean immediately
-    void _set_immediately(bool value);
-    // Get instance field: public HMUI.FlowCoordinator <>4__this
-    HMUI::FlowCoordinator* _get_$$4__this();
-    // Set instance field: public HMUI.FlowCoordinator <>4__this
-    void _set_$$4__this(HMUI::FlowCoordinator* value);
-    // Get instance field: public System.Action finishedCallback
-    System::Action* _get_finishedCallback();
-    // Set instance field: public System.Action finishedCallback
-    void _set_finishedCallback(System::Action* value);
-    // Get instance field: public HMUI.ViewController viewController
-    HMUI::ViewController* _get_viewController();
-    // Set instance field: public HMUI.ViewController viewController
-    void _set_viewController(HMUI::ViewController* value);
-    // Get instance field: public HMUI.FlowCoordinator flowCoordinator
-    HMUI::FlowCoordinator* _get_flowCoordinator();
-    // Set instance field: public HMUI.FlowCoordinator flowCoordinator
-    void _set_flowCoordinator(HMUI::FlowCoordinator* value);
+    // Get instance field reference: public System.Boolean immediately
+    bool& dyn_immediately();
+    // Get instance field reference: public HMUI.FlowCoordinator <>4__this
+    HMUI::FlowCoordinator*& dyn_$$4__this();
+    // Get instance field reference: public System.Action finishedCallback
+    System::Action*& dyn_finishedCallback();
+    // Get instance field reference: public HMUI.ViewController viewController
+    HMUI::ViewController*& dyn_viewController();
+    // Get instance field reference: public HMUI.FlowCoordinator flowCoordinator
+    HMUI::FlowCoordinator*& dyn_flowCoordinator();
     // System.Void <DismissFlowCoordinator>b__0()
     // Offset: 0x136E088
     void $DismissFlowCoordinator$b__0();

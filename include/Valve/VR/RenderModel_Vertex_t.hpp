@@ -48,22 +48,14 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public Valve.VR.HmdVector3_t vPosition
-    Valve::VR::HmdVector3_t _get_vPosition();
-    // Set instance field: public Valve.VR.HmdVector3_t vPosition
-    void _set_vPosition(Valve::VR::HmdVector3_t value);
-    // Get instance field: public Valve.VR.HmdVector3_t vNormal
-    Valve::VR::HmdVector3_t _get_vNormal();
-    // Set instance field: public Valve.VR.HmdVector3_t vNormal
-    void _set_vNormal(Valve::VR::HmdVector3_t value);
-    // Get instance field: public System.Single rfTextureCoord0
-    float _get_rfTextureCoord0();
-    // Set instance field: public System.Single rfTextureCoord0
-    void _set_rfTextureCoord0(float value);
-    // Get instance field: public System.Single rfTextureCoord1
-    float _get_rfTextureCoord1();
-    // Set instance field: public System.Single rfTextureCoord1
-    void _set_rfTextureCoord1(float value);
+    // Get instance field reference: public Valve.VR.HmdVector3_t vPosition
+    Valve::VR::HmdVector3_t& dyn_vPosition();
+    // Get instance field reference: public Valve.VR.HmdVector3_t vNormal
+    Valve::VR::HmdVector3_t& dyn_vNormal();
+    // Get instance field reference: public System.Single rfTextureCoord0
+    float& dyn_rfTextureCoord0();
+    // Get instance field reference: public System.Single rfTextureCoord1
+    float& dyn_rfTextureCoord1();
   }; // Valve.VR.RenderModel_Vertex_t
   #pragma pack(pop)
   static check_size<sizeof(RenderModel_Vertex_t), 28 + sizeof(float)> __Valve_VR_RenderModel_Vertex_tSizeCheck;

@@ -39,10 +39,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     DsaKeyParameters(Org::BouncyCastle::Crypto::Parameters::DsaParameters* parameters_ = {}) noexcept : parameters{parameters_} {}
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
-    // Get instance field: private readonly Org.BouncyCastle.Crypto.Parameters.DsaParameters parameters
-    Org::BouncyCastle::Crypto::Parameters::DsaParameters* _get_parameters();
-    // Set instance field: private readonly Org.BouncyCastle.Crypto.Parameters.DsaParameters parameters
-    void _set_parameters(Org::BouncyCastle::Crypto::Parameters::DsaParameters* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Parameters.DsaParameters parameters
+    Org::BouncyCastle::Crypto::Parameters::DsaParameters*& dyn_parameters();
     // public Org.BouncyCastle.Crypto.Parameters.DsaParameters get_Parameters()
     // Offset: 0x12722D8
     Org::BouncyCastle::Crypto::Parameters::DsaParameters* get_Parameters();

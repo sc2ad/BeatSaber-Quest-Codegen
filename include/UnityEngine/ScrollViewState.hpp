@@ -52,26 +52,16 @@ namespace UnityEngine {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: ScrollViewState
     ScrollViewState(UnityEngine::Rect position_ = {}, UnityEngine::Rect visibleRect_ = {}, UnityEngine::Rect viewRect_ = {}, UnityEngine::Vector2 scrollPosition_ = {}, bool apply_ = {}) noexcept : position{position_}, visibleRect{visibleRect_}, viewRect{viewRect_}, scrollPosition{scrollPosition_}, apply{apply_} {}
-    // Get instance field: public UnityEngine.Rect position
-    UnityEngine::Rect _get_position();
-    // Set instance field: public UnityEngine.Rect position
-    void _set_position(UnityEngine::Rect value);
-    // Get instance field: public UnityEngine.Rect visibleRect
-    UnityEngine::Rect _get_visibleRect();
-    // Set instance field: public UnityEngine.Rect visibleRect
-    void _set_visibleRect(UnityEngine::Rect value);
-    // Get instance field: public UnityEngine.Rect viewRect
-    UnityEngine::Rect _get_viewRect();
-    // Set instance field: public UnityEngine.Rect viewRect
-    void _set_viewRect(UnityEngine::Rect value);
-    // Get instance field: public UnityEngine.Vector2 scrollPosition
-    UnityEngine::Vector2 _get_scrollPosition();
-    // Set instance field: public UnityEngine.Vector2 scrollPosition
-    void _set_scrollPosition(UnityEngine::Vector2 value);
-    // Get instance field: public System.Boolean apply
-    bool _get_apply();
-    // Set instance field: public System.Boolean apply
-    void _set_apply(bool value);
+    // Get instance field reference: public UnityEngine.Rect position
+    UnityEngine::Rect& dyn_position();
+    // Get instance field reference: public UnityEngine.Rect visibleRect
+    UnityEngine::Rect& dyn_visibleRect();
+    // Get instance field reference: public UnityEngine.Rect viewRect
+    UnityEngine::Rect& dyn_viewRect();
+    // Get instance field reference: public UnityEngine.Vector2 scrollPosition
+    UnityEngine::Vector2& dyn_scrollPosition();
+    // Get instance field reference: public System.Boolean apply
+    bool& dyn_apply();
     // public System.Void .ctor()
     // Offset: 0x1B35AF8
     // Implemented from: System.Object

@@ -50,10 +50,8 @@ namespace Valve::VR {
     constexpr operator Valve::VR::IVRChaperoneSetup() const noexcept {
       return FnTable;
     }
-    // Get instance field: private Valve.VR.IVRChaperoneSetup FnTable
-    Valve::VR::IVRChaperoneSetup _get_FnTable();
-    // Set instance field: private Valve.VR.IVRChaperoneSetup FnTable
-    void _set_FnTable(Valve::VR::IVRChaperoneSetup value);
+    // Get instance field reference: private Valve.VR.IVRChaperoneSetup FnTable
+    Valve::VR::IVRChaperoneSetup& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0x170A194
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

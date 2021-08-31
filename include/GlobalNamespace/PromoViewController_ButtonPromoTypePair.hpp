@@ -73,26 +73,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::IAnnotatedBeatmapLevelCollection*) == 0x8);
     // Creating value type constructor for type: ButtonPromoTypePair
     ButtonPromoTypePair(UnityEngine::UI::Button* button_ = {}, GlobalNamespace::PreviewBeatmapLevelPackSO* previewLevelPack_ = {}, GlobalNamespace::BeatmapLevelPackSO* levelPack_ = {}, GlobalNamespace::BeatmapLevelSO* beatmapLevel_ = {}, GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection_ = {}) noexcept : button{button_}, previewLevelPack{previewLevelPack_}, levelPack{levelPack_}, beatmapLevel{beatmapLevel_}, annotatedBeatmapLevelCollection{annotatedBeatmapLevelCollection_} {}
-    // Get instance field: public UnityEngine.UI.Button button
-    UnityEngine::UI::Button* _get_button();
-    // Set instance field: public UnityEngine.UI.Button button
-    void _set_button(UnityEngine::UI::Button* value);
-    // Get instance field: public PreviewBeatmapLevelPackSO previewLevelPack
-    GlobalNamespace::PreviewBeatmapLevelPackSO* _get_previewLevelPack();
-    // Set instance field: public PreviewBeatmapLevelPackSO previewLevelPack
-    void _set_previewLevelPack(GlobalNamespace::PreviewBeatmapLevelPackSO* value);
-    // Get instance field: public BeatmapLevelPackSO levelPack
-    GlobalNamespace::BeatmapLevelPackSO* _get_levelPack();
-    // Set instance field: public BeatmapLevelPackSO levelPack
-    void _set_levelPack(GlobalNamespace::BeatmapLevelPackSO* value);
-    // Get instance field: public BeatmapLevelSO beatmapLevel
-    GlobalNamespace::BeatmapLevelSO* _get_beatmapLevel();
-    // Set instance field: public BeatmapLevelSO beatmapLevel
-    void _set_beatmapLevel(GlobalNamespace::BeatmapLevelSO* value);
-    // Get instance field: private IAnnotatedBeatmapLevelCollection _annotatedBeatmapLevelCollection
-    GlobalNamespace::IAnnotatedBeatmapLevelCollection* _get__annotatedBeatmapLevelCollection();
-    // Set instance field: private IAnnotatedBeatmapLevelCollection _annotatedBeatmapLevelCollection
-    void _set__annotatedBeatmapLevelCollection(GlobalNamespace::IAnnotatedBeatmapLevelCollection* value);
+    // Get instance field reference: public UnityEngine.UI.Button button
+    UnityEngine::UI::Button*& dyn_button();
+    // Get instance field reference: public PreviewBeatmapLevelPackSO previewLevelPack
+    GlobalNamespace::PreviewBeatmapLevelPackSO*& dyn_previewLevelPack();
+    // Get instance field reference: public BeatmapLevelPackSO levelPack
+    GlobalNamespace::BeatmapLevelPackSO*& dyn_levelPack();
+    // Get instance field reference: public BeatmapLevelSO beatmapLevel
+    GlobalNamespace::BeatmapLevelSO*& dyn_beatmapLevel();
+    // Get instance field reference: private IAnnotatedBeatmapLevelCollection _annotatedBeatmapLevelCollection
+    GlobalNamespace::IAnnotatedBeatmapLevelCollection*& dyn__annotatedBeatmapLevelCollection();
     // public IAnnotatedBeatmapLevelCollection get_annotatedBeatmapLevelCollection()
     // Offset: 0x114087C
     GlobalNamespace::IAnnotatedBeatmapLevelCollection* get_annotatedBeatmapLevelCollection();

@@ -114,38 +114,22 @@ namespace Org::BouncyCastle::Math::EC {
     static_assert(sizeof(Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*) == 0x8);
     // Creating value type constructor for type: ECCurve
     ECCurve(Org::BouncyCastle::Math::Field::IFiniteField* m_field_ = {}, Org::BouncyCastle::Math::EC::ECFieldElement* m_a_ = {}, Org::BouncyCastle::Math::EC::ECFieldElement* m_b_ = {}, Org::BouncyCastle::Math::BigInteger* m_order_ = {}, Org::BouncyCastle::Math::BigInteger* m_cofactor_ = {}, int m_coord_ = {}, Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* m_endomorphism_ = {}, Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* m_multiplier_ = {}) noexcept : m_field{m_field_}, m_a{m_a_}, m_b{m_b_}, m_order{m_order_}, m_cofactor{m_cofactor_}, m_coord{m_coord_}, m_endomorphism{m_endomorphism_}, m_multiplier{m_multiplier_} {}
-    // Get instance field: protected readonly Org.BouncyCastle.Math.Field.IFiniteField m_field
-    Org::BouncyCastle::Math::Field::IFiniteField* _get_m_field();
-    // Set instance field: protected readonly Org.BouncyCastle.Math.Field.IFiniteField m_field
-    void _set_m_field(Org::BouncyCastle::Math::Field::IFiniteField* value);
-    // Get instance field: protected Org.BouncyCastle.Math.EC.ECFieldElement m_a
-    Org::BouncyCastle::Math::EC::ECFieldElement* _get_m_a();
-    // Set instance field: protected Org.BouncyCastle.Math.EC.ECFieldElement m_a
-    void _set_m_a(Org::BouncyCastle::Math::EC::ECFieldElement* value);
-    // Get instance field: protected Org.BouncyCastle.Math.EC.ECFieldElement m_b
-    Org::BouncyCastle::Math::EC::ECFieldElement* _get_m_b();
-    // Set instance field: protected Org.BouncyCastle.Math.EC.ECFieldElement m_b
-    void _set_m_b(Org::BouncyCastle::Math::EC::ECFieldElement* value);
-    // Get instance field: protected Org.BouncyCastle.Math.BigInteger m_order
-    Org::BouncyCastle::Math::BigInteger* _get_m_order();
-    // Set instance field: protected Org.BouncyCastle.Math.BigInteger m_order
-    void _set_m_order(Org::BouncyCastle::Math::BigInteger* value);
-    // Get instance field: protected Org.BouncyCastle.Math.BigInteger m_cofactor
-    Org::BouncyCastle::Math::BigInteger* _get_m_cofactor();
-    // Set instance field: protected Org.BouncyCastle.Math.BigInteger m_cofactor
-    void _set_m_cofactor(Org::BouncyCastle::Math::BigInteger* value);
-    // Get instance field: protected System.Int32 m_coord
-    int _get_m_coord();
-    // Set instance field: protected System.Int32 m_coord
-    void _set_m_coord(int value);
-    // Get instance field: protected Org.BouncyCastle.Math.EC.Endo.ECEndomorphism m_endomorphism
-    Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* _get_m_endomorphism();
-    // Set instance field: protected Org.BouncyCastle.Math.EC.Endo.ECEndomorphism m_endomorphism
-    void _set_m_endomorphism(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* value);
-    // Get instance field: protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier m_multiplier
-    Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* _get_m_multiplier();
-    // Set instance field: protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier m_multiplier
-    void _set_m_multiplier(Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* value);
+    // Get instance field reference: protected readonly Org.BouncyCastle.Math.Field.IFiniteField m_field
+    Org::BouncyCastle::Math::Field::IFiniteField*& dyn_m_field();
+    // Get instance field reference: protected Org.BouncyCastle.Math.EC.ECFieldElement m_a
+    Org::BouncyCastle::Math::EC::ECFieldElement*& dyn_m_a();
+    // Get instance field reference: protected Org.BouncyCastle.Math.EC.ECFieldElement m_b
+    Org::BouncyCastle::Math::EC::ECFieldElement*& dyn_m_b();
+    // Get instance field reference: protected Org.BouncyCastle.Math.BigInteger m_order
+    Org::BouncyCastle::Math::BigInteger*& dyn_m_order();
+    // Get instance field reference: protected Org.BouncyCastle.Math.BigInteger m_cofactor
+    Org::BouncyCastle::Math::BigInteger*& dyn_m_cofactor();
+    // Get instance field reference: protected System.Int32 m_coord
+    int& dyn_m_coord();
+    // Get instance field reference: protected Org.BouncyCastle.Math.EC.Endo.ECEndomorphism m_endomorphism
+    Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*& dyn_m_endomorphism();
+    // Get instance field reference: protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier m_multiplier
+    Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*& dyn_m_multiplier();
     // public System.Int32 get_FieldSize()
     // Offset: 0xFFFFFFFF
     int get_FieldSize();

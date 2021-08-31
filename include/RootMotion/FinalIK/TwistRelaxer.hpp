@@ -104,46 +104,26 @@ namespace RootMotion::FinalIK {
     TwistRelaxer(RootMotion::FinalIK::IK* ik_ = {}, UnityEngine::Transform* parent_ = {}, UnityEngine::Transform* child_ = {}, float weight_ = {}, float parentChildCrossfade_ = {}, float twistAngleOffset_ = {}, UnityEngine::Vector3 twistAxis_ = {}, UnityEngine::Vector3 axis_ = {}, UnityEngine::Vector3 axisRelativeToParentDefault_ = {}, UnityEngine::Vector3 axisRelativeToChildDefault_ = {}) noexcept : ik{ik_}, parent{parent_}, child{child_}, weight{weight_}, parentChildCrossfade{parentChildCrossfade_}, twistAngleOffset{twistAngleOffset_}, twistAxis{twistAxis_}, axis{axis_}, axisRelativeToParentDefault{axisRelativeToParentDefault_}, axisRelativeToChildDefault{axisRelativeToChildDefault_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public RootMotion.FinalIK.IK ik
-    RootMotion::FinalIK::IK* _get_ik();
-    // Set instance field: public RootMotion.FinalIK.IK ik
-    void _set_ik(RootMotion::FinalIK::IK* value);
-    // Get instance field: public UnityEngine.Transform parent
-    UnityEngine::Transform* _get_parent();
-    // Set instance field: public UnityEngine.Transform parent
-    void _set_parent(UnityEngine::Transform* value);
-    // Get instance field: public UnityEngine.Transform child
-    UnityEngine::Transform* _get_child();
-    // Set instance field: public UnityEngine.Transform child
-    void _set_child(UnityEngine::Transform* value);
-    // Get instance field: public System.Single weight
-    float _get_weight();
-    // Set instance field: public System.Single weight
-    void _set_weight(float value);
-    // Get instance field: public System.Single parentChildCrossfade
-    float _get_parentChildCrossfade();
-    // Set instance field: public System.Single parentChildCrossfade
-    void _set_parentChildCrossfade(float value);
-    // Get instance field: public System.Single twistAngleOffset
-    float _get_twistAngleOffset();
-    // Set instance field: public System.Single twistAngleOffset
-    void _set_twistAngleOffset(float value);
-    // Get instance field: private UnityEngine.Vector3 twistAxis
-    UnityEngine::Vector3 _get_twistAxis();
-    // Set instance field: private UnityEngine.Vector3 twistAxis
-    void _set_twistAxis(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 axis
-    UnityEngine::Vector3 _get_axis();
-    // Set instance field: private UnityEngine.Vector3 axis
-    void _set_axis(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 axisRelativeToParentDefault
-    UnityEngine::Vector3 _get_axisRelativeToParentDefault();
-    // Set instance field: private UnityEngine.Vector3 axisRelativeToParentDefault
-    void _set_axisRelativeToParentDefault(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 axisRelativeToChildDefault
-    UnityEngine::Vector3 _get_axisRelativeToChildDefault();
-    // Set instance field: private UnityEngine.Vector3 axisRelativeToChildDefault
-    void _set_axisRelativeToChildDefault(UnityEngine::Vector3 value);
+    // Get instance field reference: public RootMotion.FinalIK.IK ik
+    RootMotion::FinalIK::IK*& dyn_ik();
+    // Get instance field reference: public UnityEngine.Transform parent
+    UnityEngine::Transform*& dyn_parent();
+    // Get instance field reference: public UnityEngine.Transform child
+    UnityEngine::Transform*& dyn_child();
+    // Get instance field reference: public System.Single weight
+    float& dyn_weight();
+    // Get instance field reference: public System.Single parentChildCrossfade
+    float& dyn_parentChildCrossfade();
+    // Get instance field reference: public System.Single twistAngleOffset
+    float& dyn_twistAngleOffset();
+    // Get instance field reference: private UnityEngine.Vector3 twistAxis
+    UnityEngine::Vector3& dyn_twistAxis();
+    // Get instance field reference: private UnityEngine.Vector3 axis
+    UnityEngine::Vector3& dyn_axis();
+    // Get instance field reference: private UnityEngine.Vector3 axisRelativeToParentDefault
+    UnityEngine::Vector3& dyn_axisRelativeToParentDefault();
+    // Get instance field reference: private UnityEngine.Vector3 axisRelativeToChildDefault
+    UnityEngine::Vector3& dyn_axisRelativeToChildDefault();
     // public System.Void Relax()
     // Offset: 0x1AE09EC
     void Relax();

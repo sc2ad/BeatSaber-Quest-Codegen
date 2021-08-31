@@ -56,22 +56,14 @@ namespace GlobalNamespace {
     operator GlobalNamespace::BeatmapSaveData::ITime() noexcept {
       return *reinterpret_cast<GlobalNamespace::BeatmapSaveData::ITime*>(this);
     }
-    // Get instance field: private System.Single _time
-    float _get__time();
-    // Set instance field: private System.Single _time
-    void _set__time(float value);
-    // Get instance field: private System.Int32 _lineIndex
-    int _get__lineIndex();
-    // Set instance field: private System.Int32 _lineIndex
-    void _set__lineIndex(int value);
-    // Get instance field: private NoteLineLayer _lineLayer
-    GlobalNamespace::NoteLineLayer _get__lineLayer();
-    // Set instance field: private NoteLineLayer _lineLayer
-    void _set__lineLayer(GlobalNamespace::NoteLineLayer value);
-    // Get instance field: private OffsetDirection _offsetDirection
-    GlobalNamespace::OffsetDirection _get__offsetDirection();
-    // Set instance field: private OffsetDirection _offsetDirection
-    void _set__offsetDirection(GlobalNamespace::OffsetDirection value);
+    // Get instance field reference: private System.Single _time
+    float& dyn__time();
+    // Get instance field reference: private System.Int32 _lineIndex
+    int& dyn__lineIndex();
+    // Get instance field reference: private NoteLineLayer _lineLayer
+    GlobalNamespace::NoteLineLayer& dyn__lineLayer();
+    // Get instance field reference: private OffsetDirection _offsetDirection
+    GlobalNamespace::OffsetDirection& dyn__offsetDirection();
     // public System.Single get_time()
     // Offset: 0x10CF2B8
     float get_time();

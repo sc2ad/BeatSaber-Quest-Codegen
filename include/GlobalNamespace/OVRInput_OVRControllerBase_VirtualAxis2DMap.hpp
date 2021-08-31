@@ -54,26 +54,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::OVRInput::RawAxis2D) == 0x4);
     // Creating value type constructor for type: VirtualAxis2DMap
     VirtualAxis2DMap(GlobalNamespace::OVRInput::RawAxis2D None_ = {}, GlobalNamespace::OVRInput::RawAxis2D PrimaryThumbstick_ = {}, GlobalNamespace::OVRInput::RawAxis2D PrimaryTouchpad_ = {}, GlobalNamespace::OVRInput::RawAxis2D SecondaryThumbstick_ = {}, GlobalNamespace::OVRInput::RawAxis2D SecondaryTouchpad_ = {}) noexcept : None{None_}, PrimaryThumbstick{PrimaryThumbstick_}, PrimaryTouchpad{PrimaryTouchpad_}, SecondaryThumbstick{SecondaryThumbstick_}, SecondaryTouchpad{SecondaryTouchpad_} {}
-    // Get instance field: public OVRInput/RawAxis2D None
-    GlobalNamespace::OVRInput::RawAxis2D _get_None();
-    // Set instance field: public OVRInput/RawAxis2D None
-    void _set_None(GlobalNamespace::OVRInput::RawAxis2D value);
-    // Get instance field: public OVRInput/RawAxis2D PrimaryThumbstick
-    GlobalNamespace::OVRInput::RawAxis2D _get_PrimaryThumbstick();
-    // Set instance field: public OVRInput/RawAxis2D PrimaryThumbstick
-    void _set_PrimaryThumbstick(GlobalNamespace::OVRInput::RawAxis2D value);
-    // Get instance field: public OVRInput/RawAxis2D PrimaryTouchpad
-    GlobalNamespace::OVRInput::RawAxis2D _get_PrimaryTouchpad();
-    // Set instance field: public OVRInput/RawAxis2D PrimaryTouchpad
-    void _set_PrimaryTouchpad(GlobalNamespace::OVRInput::RawAxis2D value);
-    // Get instance field: public OVRInput/RawAxis2D SecondaryThumbstick
-    GlobalNamespace::OVRInput::RawAxis2D _get_SecondaryThumbstick();
-    // Set instance field: public OVRInput/RawAxis2D SecondaryThumbstick
-    void _set_SecondaryThumbstick(GlobalNamespace::OVRInput::RawAxis2D value);
-    // Get instance field: public OVRInput/RawAxis2D SecondaryTouchpad
-    GlobalNamespace::OVRInput::RawAxis2D _get_SecondaryTouchpad();
-    // Set instance field: public OVRInput/RawAxis2D SecondaryTouchpad
-    void _set_SecondaryTouchpad(GlobalNamespace::OVRInput::RawAxis2D value);
+    // Get instance field reference: public OVRInput/RawAxis2D None
+    GlobalNamespace::OVRInput::RawAxis2D& dyn_None();
+    // Get instance field reference: public OVRInput/RawAxis2D PrimaryThumbstick
+    GlobalNamespace::OVRInput::RawAxis2D& dyn_PrimaryThumbstick();
+    // Get instance field reference: public OVRInput/RawAxis2D PrimaryTouchpad
+    GlobalNamespace::OVRInput::RawAxis2D& dyn_PrimaryTouchpad();
+    // Get instance field reference: public OVRInput/RawAxis2D SecondaryThumbstick
+    GlobalNamespace::OVRInput::RawAxis2D& dyn_SecondaryThumbstick();
+    // Get instance field reference: public OVRInput/RawAxis2D SecondaryTouchpad
+    GlobalNamespace::OVRInput::RawAxis2D& dyn_SecondaryTouchpad();
     // public OVRInput/RawAxis2D ToRawMask(OVRInput/Axis2D virtualMask)
     // Offset: 0x153BEF0
     GlobalNamespace::OVRInput::RawAxis2D ToRawMask(GlobalNamespace::OVRInput::Axis2D virtualMask);

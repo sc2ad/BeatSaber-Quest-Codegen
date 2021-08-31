@@ -59,10 +59,8 @@ namespace GlobalNamespace {
     constexpr operator float() const noexcept {
       return syncTime;
     }
-    // Get instance field: public System.Single syncTime
-    float _get_syncTime();
-    // Set instance field: public System.Single syncTime
-    void _set_syncTime(float value);
+    // Get instance field reference: public System.Single syncTime
+    float& dyn_syncTime();
     // static public PacketPool`1<ConnectedPlayerManager/SyncTimePacket> get_pool()
     // Offset: 0x131E700
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::SyncTimePacket*>* get_pool();

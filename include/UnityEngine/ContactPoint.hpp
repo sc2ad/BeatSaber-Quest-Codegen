@@ -57,26 +57,16 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: UnityEngine.Vector3 m_Point
-    UnityEngine::Vector3 _get_m_Point();
-    // Set instance field: UnityEngine.Vector3 m_Point
-    void _set_m_Point(UnityEngine::Vector3 value);
-    // Get instance field: UnityEngine.Vector3 m_Normal
-    UnityEngine::Vector3 _get_m_Normal();
-    // Set instance field: UnityEngine.Vector3 m_Normal
-    void _set_m_Normal(UnityEngine::Vector3 value);
-    // Get instance field: System.Int32 m_ThisColliderInstanceID
-    int _get_m_ThisColliderInstanceID();
-    // Set instance field: System.Int32 m_ThisColliderInstanceID
-    void _set_m_ThisColliderInstanceID(int value);
-    // Get instance field: System.Int32 m_OtherColliderInstanceID
-    int _get_m_OtherColliderInstanceID();
-    // Set instance field: System.Int32 m_OtherColliderInstanceID
-    void _set_m_OtherColliderInstanceID(int value);
-    // Get instance field: System.Single m_Separation
-    float _get_m_Separation();
-    // Set instance field: System.Single m_Separation
-    void _set_m_Separation(float value);
+    // Get instance field reference: UnityEngine.Vector3 m_Point
+    UnityEngine::Vector3& dyn_m_Point();
+    // Get instance field reference: UnityEngine.Vector3 m_Normal
+    UnityEngine::Vector3& dyn_m_Normal();
+    // Get instance field reference: System.Int32 m_ThisColliderInstanceID
+    int& dyn_m_ThisColliderInstanceID();
+    // Get instance field reference: System.Int32 m_OtherColliderInstanceID
+    int& dyn_m_OtherColliderInstanceID();
+    // Get instance field reference: System.Single m_Separation
+    float& dyn_m_Separation();
   }; // UnityEngine.ContactPoint
   #pragma pack(pop)
   static check_size<sizeof(ContactPoint), 32 + sizeof(float)> __UnityEngine_ContactPointSizeCheck;

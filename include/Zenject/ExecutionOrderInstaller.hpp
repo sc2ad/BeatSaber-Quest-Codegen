@@ -42,10 +42,8 @@ namespace Zenject {
     ExecutionOrderInstaller(System::Collections::Generic::List_1<System::Type*>* typeOrder_ = {}) noexcept : typeOrder{typeOrder_} {}
     // Deleting conversion operator: operator Zenject::DiContainer*
     constexpr operator Zenject::DiContainer*() const noexcept = delete;
-    // Get instance field: private System.Collections.Generic.List`1<System.Type> _typeOrder
-    System::Collections::Generic::List_1<System::Type*>* _get__typeOrder();
-    // Set instance field: private System.Collections.Generic.List`1<System.Type> _typeOrder
-    void _set__typeOrder(System::Collections::Generic::List_1<System::Type*>* value);
+    // Get instance field reference: private System.Collections.Generic.List`1<System.Type> _typeOrder
+    System::Collections::Generic::List_1<System::Type*>*& dyn__typeOrder();
     // public System.Void .ctor(System.Collections.Generic.List`1<System.Type> typeOrder)
     // Offset: 0x1656AA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

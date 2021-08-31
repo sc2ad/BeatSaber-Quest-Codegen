@@ -40,10 +40,8 @@ namespace Zenject {
     constexpr operator ::Il2CppObject*() const noexcept {
       return instance;
     }
-    // Get instance field: public System.Object instance
-    ::Il2CppObject* _get_instance();
-    // Set instance field: public System.Object instance
-    void _set_instance(::Il2CppObject* value);
+    // Get instance field reference: public System.Object instance
+    ::Il2CppObject*& dyn_instance();
     // System.Boolean <WhenInjectedIntoInstance>b__0(Zenject.InjectContext r)
     // Offset: 0x13DF364
     bool $WhenInjectedIntoInstance$b__0(Zenject::InjectContext* r);

@@ -56,22 +56,14 @@ namespace Org::BouncyCastle::X509 {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: PemParser
     PemParser(::Il2CppString* header1_ = {}, ::Il2CppString* header2_ = {}, ::Il2CppString* footer1_ = {}, ::Il2CppString* footer2_ = {}) noexcept : header1{header1_}, header2{header2_}, footer1{footer1_}, footer2{footer2_} {}
-    // Get instance field: private readonly System.String _header1
-    ::Il2CppString* _get__header1();
-    // Set instance field: private readonly System.String _header1
-    void _set__header1(::Il2CppString* value);
-    // Get instance field: private readonly System.String _header2
-    ::Il2CppString* _get__header2();
-    // Set instance field: private readonly System.String _header2
-    void _set__header2(::Il2CppString* value);
-    // Get instance field: private readonly System.String _footer1
-    ::Il2CppString* _get__footer1();
-    // Set instance field: private readonly System.String _footer1
-    void _set__footer1(::Il2CppString* value);
-    // Get instance field: private readonly System.String _footer2
-    ::Il2CppString* _get__footer2();
-    // Set instance field: private readonly System.String _footer2
-    void _set__footer2(::Il2CppString* value);
+    // Get instance field reference: private readonly System.String _header1
+    ::Il2CppString*& dyn__header1();
+    // Get instance field reference: private readonly System.String _header2
+    ::Il2CppString*& dyn__header2();
+    // Get instance field reference: private readonly System.String _footer1
+    ::Il2CppString*& dyn__footer1();
+    // Get instance field reference: private readonly System.String _footer2
+    ::Il2CppString*& dyn__footer2();
     // System.Void .ctor(System.String type)
     // Offset: 0x1FEF008
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

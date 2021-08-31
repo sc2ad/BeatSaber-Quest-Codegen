@@ -49,14 +49,10 @@ namespace GlobalNamespace {
     PlayableDirectorTimer(UnityEngine::Playables::PlayableDirector* playableDirector_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}) noexcept : playableDirector{playableDirector_}, audioTimeSyncController{audioTimeSyncController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.Playables.PlayableDirector _playableDirector
-    UnityEngine::Playables::PlayableDirector* _get__playableDirector();
-    // Set instance field: private UnityEngine.Playables.PlayableDirector _playableDirector
-    void _set__playableDirector(UnityEngine::Playables::PlayableDirector* value);
-    // Get instance field: private AudioTimeSyncController _audioTimeSyncController
-    GlobalNamespace::AudioTimeSyncController* _get__audioTimeSyncController();
-    // Set instance field: private AudioTimeSyncController _audioTimeSyncController
-    void _set__audioTimeSyncController(GlobalNamespace::AudioTimeSyncController* value);
+    // Get instance field reference: private UnityEngine.Playables.PlayableDirector _playableDirector
+    UnityEngine::Playables::PlayableDirector*& dyn__playableDirector();
+    // Get instance field reference: private AudioTimeSyncController _audioTimeSyncController
+    GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
     // protected System.Void Update()
     // Offset: 0x1134764
     void Update();

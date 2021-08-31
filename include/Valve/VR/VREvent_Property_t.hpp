@@ -37,14 +37,10 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.UInt64 container
-    uint64_t _get_container();
-    // Set instance field: public System.UInt64 container
-    void _set_container(uint64_t value);
-    // Get instance field: public Valve.VR.ETrackedDeviceProperty prop
-    Valve::VR::ETrackedDeviceProperty _get_prop();
-    // Set instance field: public Valve.VR.ETrackedDeviceProperty prop
-    void _set_prop(Valve::VR::ETrackedDeviceProperty value);
+    // Get instance field reference: public System.UInt64 container
+    uint64_t& dyn_container();
+    // Get instance field reference: public Valve.VR.ETrackedDeviceProperty prop
+    Valve::VR::ETrackedDeviceProperty& dyn_prop();
   }; // Valve.VR.VREvent_Property_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Property_t), 8 + sizeof(Valve::VR::ETrackedDeviceProperty)> __Valve_VR_VREvent_Property_tSizeCheck;

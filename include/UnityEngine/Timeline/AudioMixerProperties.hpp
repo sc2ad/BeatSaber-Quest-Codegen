@@ -52,18 +52,12 @@ namespace UnityEngine::Timeline {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: AudioMixerProperties
     AudioMixerProperties(float volume_ = {}, float stereoPan_ = {}, float spatialBlend_ = {}) noexcept : volume{volume_}, stereoPan{stereoPan_}, spatialBlend{spatialBlend_} {}
-    // Get instance field: public System.Single volume
-    float _get_volume();
-    // Set instance field: public System.Single volume
-    void _set_volume(float value);
-    // Get instance field: public System.Single stereoPan
-    float _get_stereoPan();
-    // Set instance field: public System.Single stereoPan
-    void _set_stereoPan(float value);
-    // Get instance field: public System.Single spatialBlend
-    float _get_spatialBlend();
-    // Set instance field: public System.Single spatialBlend
-    void _set_spatialBlend(float value);
+    // Get instance field reference: public System.Single volume
+    float& dyn_volume();
+    // Get instance field reference: public System.Single stereoPan
+    float& dyn_stereoPan();
+    // Get instance field reference: public System.Single spatialBlend
+    float& dyn_spatialBlend();
     // public System.Void .ctor()
     // Offset: 0x181A7C4
     // Implemented from: UnityEngine.Playables.PlayableBehaviour

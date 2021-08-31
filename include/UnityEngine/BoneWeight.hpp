@@ -88,38 +88,22 @@ namespace UnityEngine {
     operator System::IEquatable_1<UnityEngine::BoneWeight>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::BoneWeight>*>(this);
     }
-    // Get instance field: private System.Single m_Weight0
-    float _get_m_Weight0();
-    // Set instance field: private System.Single m_Weight0
-    void _set_m_Weight0(float value);
-    // Get instance field: private System.Single m_Weight1
-    float _get_m_Weight1();
-    // Set instance field: private System.Single m_Weight1
-    void _set_m_Weight1(float value);
-    // Get instance field: private System.Single m_Weight2
-    float _get_m_Weight2();
-    // Set instance field: private System.Single m_Weight2
-    void _set_m_Weight2(float value);
-    // Get instance field: private System.Single m_Weight3
-    float _get_m_Weight3();
-    // Set instance field: private System.Single m_Weight3
-    void _set_m_Weight3(float value);
-    // Get instance field: private System.Int32 m_BoneIndex0
-    int _get_m_BoneIndex0();
-    // Set instance field: private System.Int32 m_BoneIndex0
-    void _set_m_BoneIndex0(int value);
-    // Get instance field: private System.Int32 m_BoneIndex1
-    int _get_m_BoneIndex1();
-    // Set instance field: private System.Int32 m_BoneIndex1
-    void _set_m_BoneIndex1(int value);
-    // Get instance field: private System.Int32 m_BoneIndex2
-    int _get_m_BoneIndex2();
-    // Set instance field: private System.Int32 m_BoneIndex2
-    void _set_m_BoneIndex2(int value);
-    // Get instance field: private System.Int32 m_BoneIndex3
-    int _get_m_BoneIndex3();
-    // Set instance field: private System.Int32 m_BoneIndex3
-    void _set_m_BoneIndex3(int value);
+    // Get instance field reference: private System.Single m_Weight0
+    float& dyn_m_Weight0();
+    // Get instance field reference: private System.Single m_Weight1
+    float& dyn_m_Weight1();
+    // Get instance field reference: private System.Single m_Weight2
+    float& dyn_m_Weight2();
+    // Get instance field reference: private System.Single m_Weight3
+    float& dyn_m_Weight3();
+    // Get instance field reference: private System.Int32 m_BoneIndex0
+    int& dyn_m_BoneIndex0();
+    // Get instance field reference: private System.Int32 m_BoneIndex1
+    int& dyn_m_BoneIndex1();
+    // Get instance field reference: private System.Int32 m_BoneIndex2
+    int& dyn_m_BoneIndex2();
+    // Get instance field reference: private System.Int32 m_BoneIndex3
+    int& dyn_m_BoneIndex3();
     // public System.Single get_weight0()
     // Offset: 0x1C1D8D8
     float get_weight0();

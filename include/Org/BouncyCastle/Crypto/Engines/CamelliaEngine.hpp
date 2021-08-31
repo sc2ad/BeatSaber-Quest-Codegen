@@ -91,30 +91,18 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static ::Array<uint>* _get_SBOX3_3033();
     // Set static field: static private readonly System.UInt32[] SBOX3_3033
     static void _set_SBOX3_3033(::Array<uint>* value);
-    // Get instance field: private System.Boolean initialised
-    bool _get_initialised();
-    // Set instance field: private System.Boolean initialised
-    void _set_initialised(bool value);
-    // Get instance field: private System.Boolean _keyIs128
-    bool _get__keyIs128();
-    // Set instance field: private System.Boolean _keyIs128
-    void _set__keyIs128(bool value);
-    // Get instance field: private System.UInt32[] subkey
-    ::Array<uint>* _get_subkey();
-    // Set instance field: private System.UInt32[] subkey
-    void _set_subkey(::Array<uint>* value);
-    // Get instance field: private System.UInt32[] kw
-    ::Array<uint>* _get_kw();
-    // Set instance field: private System.UInt32[] kw
-    void _set_kw(::Array<uint>* value);
-    // Get instance field: private System.UInt32[] ke
-    ::Array<uint>* _get_ke();
-    // Set instance field: private System.UInt32[] ke
-    void _set_ke(::Array<uint>* value);
-    // Get instance field: private System.UInt32[] state
-    ::Array<uint>* _get_state();
-    // Set instance field: private System.UInt32[] state
-    void _set_state(::Array<uint>* value);
+    // Get instance field reference: private System.Boolean initialised
+    bool& dyn_initialised();
+    // Get instance field reference: private System.Boolean _keyIs128
+    bool& dyn__keyIs128();
+    // Get instance field reference: private System.UInt32[] subkey
+    ::Array<uint>*& dyn_subkey();
+    // Get instance field reference: private System.UInt32[] kw
+    ::Array<uint>*& dyn_kw();
+    // Get instance field reference: private System.UInt32[] ke
+    ::Array<uint>*& dyn_ke();
+    // Get instance field reference: private System.UInt32[] state
+    ::Array<uint>*& dyn_state();
     // public System.String get_AlgorithmName()
     // Offset: 0x1E69340
     ::Il2CppString* get_AlgorithmName();

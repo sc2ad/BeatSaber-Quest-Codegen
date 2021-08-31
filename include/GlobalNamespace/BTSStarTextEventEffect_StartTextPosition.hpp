@@ -43,14 +43,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
     // Creating value type constructor for type: StartTextPosition
     StartTextPosition(int id_ = {}, UnityEngine::Transform* transform_ = {}) noexcept : id{id_}, transform{transform_} {}
-    // Get instance field: private System.Int32 _id
-    int _get__id();
-    // Set instance field: private System.Int32 _id
-    void _set__id(int value);
-    // Get instance field: private UnityEngine.Transform _transform
-    UnityEngine::Transform* _get__transform();
-    // Set instance field: private UnityEngine.Transform _transform
-    void _set__transform(UnityEngine::Transform* value);
+    // Get instance field reference: private System.Int32 _id
+    int& dyn__id();
+    // Get instance field reference: private UnityEngine.Transform _transform
+    UnityEngine::Transform*& dyn__transform();
     // public System.Int32 get_id()
     // Offset: 0x1189788
     int get_id();

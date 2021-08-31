@@ -78,10 +78,8 @@ namespace UnityEngine::Timeline {
     static UnityEngine::Timeline::TimelineAsset::MediaType _get_Group();
     // Set static field: static public UnityEngine.Timeline.TimelineAsset/UnityEngine.Timeline.MediaType Group
     static void _set_Group(UnityEngine::Timeline::TimelineAsset::MediaType value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.Timeline.TimelineAsset/UnityEngine.Timeline.MediaType
   #pragma pack(pop)
   static check_size<sizeof(TimelineAsset::MediaType), 0 + sizeof(int)> __UnityEngine_Timeline_TimelineAsset_MediaTypeSizeCheck;

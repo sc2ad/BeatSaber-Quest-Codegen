@@ -153,18 +153,12 @@ namespace LiteNetLib::Utils {
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<System::Type*, LiteNetLib::Utils::NetSerializer::CustomType*>*) == 0x8);
     // Creating value type constructor for type: NetSerializer
     NetSerializer(LiteNetLib::Utils::NetDataWriter* writer_ = {}, int maxStringLength_ = {}, System::Collections::Generic::Dictionary_2<System::Type*, LiteNetLib::Utils::NetSerializer::CustomType*>* registeredTypes_ = {}) noexcept : writer{writer_}, maxStringLength{maxStringLength_}, registeredTypes{registeredTypes_} {}
-    // Get instance field: private LiteNetLib.Utils.NetDataWriter _writer
-    LiteNetLib::Utils::NetDataWriter* _get__writer();
-    // Set instance field: private LiteNetLib.Utils.NetDataWriter _writer
-    void _set__writer(LiteNetLib::Utils::NetDataWriter* value);
-    // Get instance field: private readonly System.Int32 _maxStringLength
-    int _get__maxStringLength();
-    // Set instance field: private readonly System.Int32 _maxStringLength
-    void _set__maxStringLength(int value);
-    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<System.Type,LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.CustomType> _registeredTypes
-    System::Collections::Generic::Dictionary_2<System::Type*, LiteNetLib::Utils::NetSerializer::CustomType*>* _get__registeredTypes();
-    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<System.Type,LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.CustomType> _registeredTypes
-    void _set__registeredTypes(System::Collections::Generic::Dictionary_2<System::Type*, LiteNetLib::Utils::NetSerializer::CustomType*>* value);
+    // Get instance field reference: private LiteNetLib.Utils.NetDataWriter _writer
+    LiteNetLib::Utils::NetDataWriter*& dyn__writer();
+    // Get instance field reference: private readonly System.Int32 _maxStringLength
+    int& dyn__maxStringLength();
+    // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Type,LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.CustomType> _registeredTypes
+    System::Collections::Generic::Dictionary_2<System::Type*, LiteNetLib::Utils::NetSerializer::CustomType*>*& dyn__registeredTypes();
     // public System.Void .ctor(System.Int32 maxStringLength)
     // Offset: 0x2410E9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

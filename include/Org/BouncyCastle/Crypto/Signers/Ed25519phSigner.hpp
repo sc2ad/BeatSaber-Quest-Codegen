@@ -74,26 +74,16 @@ namespace Org::BouncyCastle::Crypto::Signers {
     operator Org::BouncyCastle::Crypto::ISigner() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ISigner*>(this);
     }
-    // Get instance field: private readonly Org.BouncyCastle.Crypto.IDigest prehash
-    Org::BouncyCastle::Crypto::IDigest* _get_prehash();
-    // Set instance field: private readonly Org.BouncyCastle.Crypto.IDigest prehash
-    void _set_prehash(Org::BouncyCastle::Crypto::IDigest* value);
-    // Get instance field: private readonly System.Byte[] context
-    ::Array<uint8_t>* _get_context();
-    // Set instance field: private readonly System.Byte[] context
-    void _set_context(::Array<uint8_t>* value);
-    // Get instance field: private System.Boolean forSigning
-    bool _get_forSigning();
-    // Set instance field: private System.Boolean forSigning
-    void _set_forSigning(bool value);
-    // Get instance field: private Org.BouncyCastle.Crypto.Parameters.Ed25519PrivateKeyParameters privateKey
-    Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* _get_privateKey();
-    // Set instance field: private Org.BouncyCastle.Crypto.Parameters.Ed25519PrivateKeyParameters privateKey
-    void _set_privateKey(Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* value);
-    // Get instance field: private Org.BouncyCastle.Crypto.Parameters.Ed25519PublicKeyParameters publicKey
-    Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* _get_publicKey();
-    // Set instance field: private Org.BouncyCastle.Crypto.Parameters.Ed25519PublicKeyParameters publicKey
-    void _set_publicKey(Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IDigest prehash
+    Org::BouncyCastle::Crypto::IDigest*& dyn_prehash();
+    // Get instance field reference: private readonly System.Byte[] context
+    ::Array<uint8_t>*& dyn_context();
+    // Get instance field reference: private System.Boolean forSigning
+    bool& dyn_forSigning();
+    // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.Ed25519PrivateKeyParameters privateKey
+    Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters*& dyn_privateKey();
+    // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.Ed25519PublicKeyParameters publicKey
+    Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*& dyn_publicKey();
     // public System.Void .ctor(System.Byte[] context)
     // Offset: 0x127B554
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -45,14 +45,10 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::Array<RootMotion::FinalIK::FullBodyBipedEffector>*) == 0x8);
     // Creating value type constructor for type: Interaction
     Interaction(RootMotion::FinalIK::InteractionObject* interactionObject_ = {}, ::Array<RootMotion::FinalIK::FullBodyBipedEffector>* effectors_ = {}) noexcept : interactionObject{interactionObject_}, effectors{effectors_} {}
-    // Get instance field: public RootMotion.FinalIK.InteractionObject interactionObject
-    RootMotion::FinalIK::InteractionObject* _get_interactionObject();
-    // Set instance field: public RootMotion.FinalIK.InteractionObject interactionObject
-    void _set_interactionObject(RootMotion::FinalIK::InteractionObject* value);
-    // Get instance field: public RootMotion.FinalIK.FullBodyBipedEffector[] effectors
-    ::Array<RootMotion::FinalIK::FullBodyBipedEffector>* _get_effectors();
-    // Set instance field: public RootMotion.FinalIK.FullBodyBipedEffector[] effectors
-    void _set_effectors(::Array<RootMotion::FinalIK::FullBodyBipedEffector>* value);
+    // Get instance field reference: public RootMotion.FinalIK.InteractionObject interactionObject
+    RootMotion::FinalIK::InteractionObject*& dyn_interactionObject();
+    // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedEffector[] effectors
+    ::Array<RootMotion::FinalIK::FullBodyBipedEffector>*& dyn_effectors();
     // public System.Void .ctor()
     // Offset: 0x1AD6BF8
     // Implemented from: System.Object

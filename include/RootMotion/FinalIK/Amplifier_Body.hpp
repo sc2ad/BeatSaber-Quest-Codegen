@@ -98,42 +98,24 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: Body
     Body(UnityEngine::Transform* transform_ = {}, UnityEngine::Transform* relativeTo_ = {}, ::Array<RootMotion::FinalIK::Amplifier::Body::EffectorLink*>* effectorLinks_ = {}, float verticalWeight_ = {}, float horizontalWeight_ = {}, float speed_ = {}, UnityEngine::Vector3 lastRelativePos_ = {}, UnityEngine::Vector3 smoothDelta_ = {}, bool firstUpdate_ = {}) noexcept : transform{transform_}, relativeTo{relativeTo_}, effectorLinks{effectorLinks_}, verticalWeight{verticalWeight_}, horizontalWeight{horizontalWeight_}, speed{speed_}, lastRelativePos{lastRelativePos_}, smoothDelta{smoothDelta_}, firstUpdate{firstUpdate_} {}
-    // Get instance field: public UnityEngine.Transform transform
-    UnityEngine::Transform* _get_transform();
-    // Set instance field: public UnityEngine.Transform transform
-    void _set_transform(UnityEngine::Transform* value);
-    // Get instance field: public UnityEngine.Transform relativeTo
-    UnityEngine::Transform* _get_relativeTo();
-    // Set instance field: public UnityEngine.Transform relativeTo
-    void _set_relativeTo(UnityEngine::Transform* value);
-    // Get instance field: public RootMotion.FinalIK.Amplifier/RootMotion.FinalIK.Body/RootMotion.FinalIK.EffectorLink[] effectorLinks
-    ::Array<RootMotion::FinalIK::Amplifier::Body::EffectorLink*>* _get_effectorLinks();
-    // Set instance field: public RootMotion.FinalIK.Amplifier/RootMotion.FinalIK.Body/RootMotion.FinalIK.EffectorLink[] effectorLinks
-    void _set_effectorLinks(::Array<RootMotion::FinalIK::Amplifier::Body::EffectorLink*>* value);
-    // Get instance field: public System.Single verticalWeight
-    float _get_verticalWeight();
-    // Set instance field: public System.Single verticalWeight
-    void _set_verticalWeight(float value);
-    // Get instance field: public System.Single horizontalWeight
-    float _get_horizontalWeight();
-    // Set instance field: public System.Single horizontalWeight
-    void _set_horizontalWeight(float value);
-    // Get instance field: public System.Single speed
-    float _get_speed();
-    // Set instance field: public System.Single speed
-    void _set_speed(float value);
-    // Get instance field: private UnityEngine.Vector3 lastRelativePos
-    UnityEngine::Vector3 _get_lastRelativePos();
-    // Set instance field: private UnityEngine.Vector3 lastRelativePos
-    void _set_lastRelativePos(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 smoothDelta
-    UnityEngine::Vector3 _get_smoothDelta();
-    // Set instance field: private UnityEngine.Vector3 smoothDelta
-    void _set_smoothDelta(UnityEngine::Vector3 value);
-    // Get instance field: private System.Boolean firstUpdate
-    bool _get_firstUpdate();
-    // Set instance field: private System.Boolean firstUpdate
-    void _set_firstUpdate(bool value);
+    // Get instance field reference: public UnityEngine.Transform transform
+    UnityEngine::Transform*& dyn_transform();
+    // Get instance field reference: public UnityEngine.Transform relativeTo
+    UnityEngine::Transform*& dyn_relativeTo();
+    // Get instance field reference: public RootMotion.FinalIK.Amplifier/RootMotion.FinalIK.Body/RootMotion.FinalIK.EffectorLink[] effectorLinks
+    ::Array<RootMotion::FinalIK::Amplifier::Body::EffectorLink*>*& dyn_effectorLinks();
+    // Get instance field reference: public System.Single verticalWeight
+    float& dyn_verticalWeight();
+    // Get instance field reference: public System.Single horizontalWeight
+    float& dyn_horizontalWeight();
+    // Get instance field reference: public System.Single speed
+    float& dyn_speed();
+    // Get instance field reference: private UnityEngine.Vector3 lastRelativePos
+    UnityEngine::Vector3& dyn_lastRelativePos();
+    // Get instance field reference: private UnityEngine.Vector3 smoothDelta
+    UnityEngine::Vector3& dyn_smoothDelta();
+    // Get instance field reference: private System.Boolean firstUpdate
+    bool& dyn_firstUpdate();
     // public System.Void Update(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single w, System.Single deltaTime)
     // Offset: 0x1D305E8
     void Update(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float w, float deltaTime);

@@ -94,42 +94,24 @@ namespace System::Diagnostics {
     static int _get_OFFSET_UNKNOWN();
     // Set static field: static public System.Int32 OFFSET_UNKNOWN
     static void _set_OFFSET_UNKNOWN(int value);
-    // Get instance field: private System.Int32 ilOffset
-    int _get_ilOffset();
-    // Set instance field: private System.Int32 ilOffset
-    void _set_ilOffset(int value);
-    // Get instance field: private System.Int32 nativeOffset
-    int _get_nativeOffset();
-    // Set instance field: private System.Int32 nativeOffset
-    void _set_nativeOffset(int value);
-    // Get instance field: private System.Int64 methodAddress
-    int64_t _get_methodAddress();
-    // Set instance field: private System.Int64 methodAddress
-    void _set_methodAddress(int64_t value);
-    // Get instance field: private System.UInt32 methodIndex
-    uint _get_methodIndex();
-    // Set instance field: private System.UInt32 methodIndex
-    void _set_methodIndex(uint value);
-    // Get instance field: private System.Reflection.MethodBase methodBase
-    System::Reflection::MethodBase* _get_methodBase();
-    // Set instance field: private System.Reflection.MethodBase methodBase
-    void _set_methodBase(System::Reflection::MethodBase* value);
-    // Get instance field: private System.String fileName
-    ::Il2CppString* _get_fileName();
-    // Set instance field: private System.String fileName
-    void _set_fileName(::Il2CppString* value);
-    // Get instance field: private System.Int32 lineNumber
-    int _get_lineNumber();
-    // Set instance field: private System.Int32 lineNumber
-    void _set_lineNumber(int value);
-    // Get instance field: private System.Int32 columnNumber
-    int _get_columnNumber();
-    // Set instance field: private System.Int32 columnNumber
-    void _set_columnNumber(int value);
-    // Get instance field: private System.String internalMethodName
-    ::Il2CppString* _get_internalMethodName();
-    // Set instance field: private System.String internalMethodName
-    void _set_internalMethodName(::Il2CppString* value);
+    // Get instance field reference: private System.Int32 ilOffset
+    int& dyn_ilOffset();
+    // Get instance field reference: private System.Int32 nativeOffset
+    int& dyn_nativeOffset();
+    // Get instance field reference: private System.Int64 methodAddress
+    int64_t& dyn_methodAddress();
+    // Get instance field reference: private System.UInt32 methodIndex
+    uint& dyn_methodIndex();
+    // Get instance field reference: private System.Reflection.MethodBase methodBase
+    System::Reflection::MethodBase*& dyn_methodBase();
+    // Get instance field reference: private System.String fileName
+    ::Il2CppString*& dyn_fileName();
+    // Get instance field reference: private System.Int32 lineNumber
+    int& dyn_lineNumber();
+    // Get instance field reference: private System.Int32 columnNumber
+    int& dyn_columnNumber();
+    // Get instance field reference: private System.String internalMethodName
+    ::Il2CppString*& dyn_internalMethodName();
     // public System.Void .ctor(System.Int32 skipFrames, System.Boolean fNeedFileInfo)
     // Offset: 0x1B64708
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

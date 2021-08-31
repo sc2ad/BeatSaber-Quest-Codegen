@@ -41,18 +41,12 @@ namespace Zenject {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: MemoryPoolBindInfo
     MemoryPoolBindInfo(Zenject::PoolExpandMethods ExpandMethod_ = {}, int InitialSize_ = {}, int MaxSize_ = {}) noexcept : ExpandMethod{ExpandMethod_}, InitialSize{InitialSize_}, MaxSize{MaxSize_} {}
-    // Get instance field: private Zenject.PoolExpandMethods <ExpandMethod>k__BackingField
-    Zenject::PoolExpandMethods _get_$ExpandMethod$k__BackingField();
-    // Set instance field: private Zenject.PoolExpandMethods <ExpandMethod>k__BackingField
-    void _set_$ExpandMethod$k__BackingField(Zenject::PoolExpandMethods value);
-    // Get instance field: private System.Int32 <InitialSize>k__BackingField
-    int _get_$InitialSize$k__BackingField();
-    // Set instance field: private System.Int32 <InitialSize>k__BackingField
-    void _set_$InitialSize$k__BackingField(int value);
-    // Get instance field: private System.Int32 <MaxSize>k__BackingField
-    int _get_$MaxSize$k__BackingField();
-    // Set instance field: private System.Int32 <MaxSize>k__BackingField
-    void _set_$MaxSize$k__BackingField(int value);
+    // Get instance field reference: private Zenject.PoolExpandMethods <ExpandMethod>k__BackingField
+    Zenject::PoolExpandMethods& dyn_$ExpandMethod$k__BackingField();
+    // Get instance field reference: private System.Int32 <InitialSize>k__BackingField
+    int& dyn_$InitialSize$k__BackingField();
+    // Get instance field reference: private System.Int32 <MaxSize>k__BackingField
+    int& dyn_$MaxSize$k__BackingField();
     // public Zenject.PoolExpandMethods get_ExpandMethod()
     // Offset: 0x1713204
     Zenject::PoolExpandMethods get_ExpandMethod();

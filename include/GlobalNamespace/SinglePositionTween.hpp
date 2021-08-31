@@ -68,14 +68,10 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public UnityEngine.ExposedReference`1<UnityEngine.Transform> transformReference
-    UnityEngine::ExposedReference_1<UnityEngine::Transform*> _get_transformReference();
-    // Set instance field: public UnityEngine.ExposedReference`1<UnityEngine.Transform> transformReference
-    void _set_transformReference(UnityEngine::ExposedReference_1<UnityEngine::Transform*> value);
-    // Get instance field: public CustomTweenBehaviour template
-    GlobalNamespace::CustomTweenBehaviour* _get_template();
-    // Set instance field: public CustomTweenBehaviour template
-    void _set_template(GlobalNamespace::CustomTweenBehaviour* value);
+    // Get instance field reference: public UnityEngine.ExposedReference`1<UnityEngine.Transform> transformReference
+    UnityEngine::ExposedReference_1<UnityEngine::Transform*>& dyn_transformReference();
+    // Get instance field reference: public CustomTweenBehaviour template
+    GlobalNamespace::CustomTweenBehaviour*& dyn_template();
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
     // Offset: 0x107D9C4
     UnityEngine::Timeline::ClipCaps get_clipCaps();

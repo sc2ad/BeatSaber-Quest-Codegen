@@ -62,18 +62,12 @@ namespace Org::BouncyCastle::X509 {
     operator Org::BouncyCastle::X509::IX509AttributeCertificate() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::X509::IX509AttributeCertificate*>(this);
     }
-    // Get instance field: private readonly Org.BouncyCastle.Asn1.X509.AttributeCertificate cert
-    Org::BouncyCastle::Asn1::X509::AttributeCertificate* _get_cert();
-    // Set instance field: private readonly Org.BouncyCastle.Asn1.X509.AttributeCertificate cert
-    void _set_cert(Org::BouncyCastle::Asn1::X509::AttributeCertificate* value);
-    // Get instance field: private readonly System.DateTime notBefore
-    System::DateTime _get_notBefore();
-    // Set instance field: private readonly System.DateTime notBefore
-    void _set_notBefore(System::DateTime value);
-    // Get instance field: private readonly System.DateTime notAfter
-    System::DateTime _get_notAfter();
-    // Set instance field: private readonly System.DateTime notAfter
-    void _set_notAfter(System::DateTime value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.AttributeCertificate cert
+    Org::BouncyCastle::Asn1::X509::AttributeCertificate*& dyn_cert();
+    // Get instance field reference: private readonly System.DateTime notBefore
+    System::DateTime& dyn_notBefore();
+    // Get instance field reference: private readonly System.DateTime notAfter
+    System::DateTime& dyn_notAfter();
     // public System.Void .ctor(System.IO.Stream encIn)
     // Offset: 0x1FF4594
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

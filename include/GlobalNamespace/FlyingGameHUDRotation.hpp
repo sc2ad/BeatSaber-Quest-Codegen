@@ -67,26 +67,16 @@ namespace GlobalNamespace {
     FlyingGameHUDRotation(float smooth_ = {}, GlobalNamespace::BeatLineManager* beatLineManager_ = {}, GlobalNamespace::EnvironmentSpawnRotation* environmentSpawnRotation_ = {}, float prevYAngle_ = {}, float yAngle_ = {}) noexcept : smooth{smooth_}, beatLineManager{beatLineManager_}, environmentSpawnRotation{environmentSpawnRotation_}, prevYAngle{prevYAngle_}, yAngle{yAngle_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Single _smooth
-    float _get__smooth();
-    // Set instance field: private System.Single _smooth
-    void _set__smooth(float value);
-    // Get instance field: private readonly BeatLineManager _beatLineManager
-    GlobalNamespace::BeatLineManager* _get__beatLineManager();
-    // Set instance field: private readonly BeatLineManager _beatLineManager
-    void _set__beatLineManager(GlobalNamespace::BeatLineManager* value);
-    // Get instance field: private readonly EnvironmentSpawnRotation _environmentSpawnRotation
-    GlobalNamespace::EnvironmentSpawnRotation* _get__environmentSpawnRotation();
-    // Set instance field: private readonly EnvironmentSpawnRotation _environmentSpawnRotation
-    void _set__environmentSpawnRotation(GlobalNamespace::EnvironmentSpawnRotation* value);
-    // Get instance field: private System.Single _prevYAngle
-    float _get__prevYAngle();
-    // Set instance field: private System.Single _prevYAngle
-    void _set__prevYAngle(float value);
-    // Get instance field: private System.Single _yAngle
-    float _get__yAngle();
-    // Set instance field: private System.Single _yAngle
-    void _set__yAngle(float value);
+    // Get instance field reference: private System.Single _smooth
+    float& dyn__smooth();
+    // Get instance field reference: private readonly BeatLineManager _beatLineManager
+    GlobalNamespace::BeatLineManager*& dyn__beatLineManager();
+    // Get instance field reference: private readonly EnvironmentSpawnRotation _environmentSpawnRotation
+    GlobalNamespace::EnvironmentSpawnRotation*& dyn__environmentSpawnRotation();
+    // Get instance field reference: private System.Single _prevYAngle
+    float& dyn__prevYAngle();
+    // Get instance field reference: private System.Single _yAngle
+    float& dyn__yAngle();
     // protected System.Void Start()
     // Offset: 0x105A530
     void Start();

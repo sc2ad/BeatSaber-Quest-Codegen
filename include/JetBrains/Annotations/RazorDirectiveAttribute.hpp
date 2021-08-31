@@ -33,10 +33,8 @@ namespace JetBrains::Annotations {
     constexpr operator ::Il2CppString*() const noexcept {
       return Directive;
     }
-    // Get instance field: private System.String <Directive>k__BackingField
-    ::Il2CppString* _get_$Directive$k__BackingField();
-    // Set instance field: private System.String <Directive>k__BackingField
-    void _set_$Directive$k__BackingField(::Il2CppString* value);
+    // Get instance field reference: private System.String <Directive>k__BackingField
+    ::Il2CppString*& dyn_$Directive$k__BackingField();
     // public System.String get_Directive()
     // Offset: 0x24087D0
     ::Il2CppString* get_Directive();

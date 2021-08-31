@@ -44,14 +44,10 @@ namespace UnityEngine::Timeline {
     static_assert(sizeof(UnityEngine::Timeline::TrackBindingFlags) == 0x4);
     // Creating value type constructor for type: TrackBindingTypeAttribute
     TrackBindingTypeAttribute(System::Type* type_ = {}, UnityEngine::Timeline::TrackBindingFlags flags_ = {}) noexcept : type{type_}, flags{flags_} {}
-    // Get instance field: public readonly System.Type type
-    System::Type* _get_type();
-    // Set instance field: public readonly System.Type type
-    void _set_type(System::Type* value);
-    // Get instance field: public readonly UnityEngine.Timeline.TrackBindingFlags flags
-    UnityEngine::Timeline::TrackBindingFlags _get_flags();
-    // Set instance field: public readonly UnityEngine.Timeline.TrackBindingFlags flags
-    void _set_flags(UnityEngine::Timeline::TrackBindingFlags value);
+    // Get instance field reference: public readonly System.Type type
+    System::Type*& dyn_type();
+    // Get instance field reference: public readonly UnityEngine.Timeline.TrackBindingFlags flags
+    UnityEngine::Timeline::TrackBindingFlags& dyn_flags();
     // public System.Void .ctor(System.Type type)
     // Offset: 0x23766A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

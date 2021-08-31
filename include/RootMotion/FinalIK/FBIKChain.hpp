@@ -82,10 +82,8 @@ namespace RootMotion::FinalIK {
       static RootMotion::FinalIK::FBIKChain::Smoothing _get_Cubic();
       // Set static field: static public RootMotion.FinalIK.FBIKChain/RootMotion.FinalIK.Smoothing Cubic
       static void _set_Cubic(RootMotion::FinalIK::FBIKChain::Smoothing value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // RootMotion.FinalIK.FBIKChain/RootMotion.FinalIK.Smoothing
     #pragma pack(pop)
     static check_size<sizeof(FBIKChain::Smoothing), 0 + sizeof(int)> __RootMotion_FinalIK_FBIKChain_SmoothingSizeCheck;
@@ -239,94 +237,50 @@ namespace RootMotion::FinalIK {
     static float _get_maxLimbLength();
     // Set static field: static private System.Single maxLimbLength
     static void _set_maxLimbLength(float value);
-    // Get instance field: public System.Single pin
-    float _get_pin();
-    // Set instance field: public System.Single pin
-    void _set_pin(float value);
-    // Get instance field: public System.Single pull
-    float _get_pull();
-    // Set instance field: public System.Single pull
-    void _set_pull(float value);
-    // Get instance field: public System.Single push
-    float _get_push();
-    // Set instance field: public System.Single push
-    void _set_push(float value);
-    // Get instance field: public System.Single pushParent
-    float _get_pushParent();
-    // Set instance field: public System.Single pushParent
-    void _set_pushParent(float value);
-    // Get instance field: public System.Single reach
-    float _get_reach();
-    // Set instance field: public System.Single reach
-    void _set_reach(float value);
-    // Get instance field: public RootMotion.FinalIK.FBIKChain/RootMotion.FinalIK.Smoothing reachSmoothing
-    RootMotion::FinalIK::FBIKChain::Smoothing _get_reachSmoothing();
-    // Set instance field: public RootMotion.FinalIK.FBIKChain/RootMotion.FinalIK.Smoothing reachSmoothing
-    void _set_reachSmoothing(RootMotion::FinalIK::FBIKChain::Smoothing value);
-    // Get instance field: public RootMotion.FinalIK.FBIKChain/RootMotion.FinalIK.Smoothing pushSmoothing
-    RootMotion::FinalIK::FBIKChain::Smoothing _get_pushSmoothing();
-    // Set instance field: public RootMotion.FinalIK.FBIKChain/RootMotion.FinalIK.Smoothing pushSmoothing
-    void _set_pushSmoothing(RootMotion::FinalIK::FBIKChain::Smoothing value);
-    // Get instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Node[] nodes
-    ::Array<RootMotion::FinalIK::IKSolver::Node*>* _get_nodes();
-    // Set instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Node[] nodes
-    void _set_nodes(::Array<RootMotion::FinalIK::IKSolver::Node*>* value);
-    // Get instance field: public System.Int32[] children
-    ::Array<int>* _get_children();
-    // Set instance field: public System.Int32[] children
-    void _set_children(::Array<int>* value);
-    // Get instance field: public RootMotion.FinalIK.FBIKChain/RootMotion.FinalIK.ChildConstraint[] childConstraints
-    ::Array<RootMotion::FinalIK::FBIKChain::ChildConstraint*>* _get_childConstraints();
-    // Set instance field: public RootMotion.FinalIK.FBIKChain/RootMotion.FinalIK.ChildConstraint[] childConstraints
-    void _set_childConstraints(::Array<RootMotion::FinalIK::FBIKChain::ChildConstraint*>* value);
-    // Get instance field: public RootMotion.FinalIK.IKConstraintBend bendConstraint
-    RootMotion::FinalIK::IKConstraintBend* _get_bendConstraint();
-    // Set instance field: public RootMotion.FinalIK.IKConstraintBend bendConstraint
-    void _set_bendConstraint(RootMotion::FinalIK::IKConstraintBend* value);
-    // Get instance field: private System.Single rootLength
-    float _get_rootLength();
-    // Set instance field: private System.Single rootLength
-    void _set_rootLength(float value);
-    // Get instance field: private System.Boolean initiated
-    bool _get_initiated();
-    // Set instance field: private System.Boolean initiated
-    void _set_initiated(bool value);
-    // Get instance field: private System.Single length
-    float _get_length();
-    // Set instance field: private System.Single length
-    void _set_length(float value);
-    // Get instance field: private System.Single distance
-    float _get_distance();
-    // Set instance field: private System.Single distance
-    void _set_distance(float value);
-    // Get instance field: private RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point p
-    RootMotion::FinalIK::IKSolver::Point* _get_p();
-    // Set instance field: private RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point p
-    void _set_p(RootMotion::FinalIK::IKSolver::Point* value);
-    // Get instance field: private System.Single reachForce
-    float _get_reachForce();
-    // Set instance field: private System.Single reachForce
-    void _set_reachForce(float value);
-    // Get instance field: private System.Single pullParentSum
-    float _get_pullParentSum();
-    // Set instance field: private System.Single pullParentSum
-    void _set_pullParentSum(float value);
-    // Get instance field: private System.Single[] crossFades
-    ::Array<float>* _get_crossFades();
-    // Set instance field: private System.Single[] crossFades
-    void _set_crossFades(::Array<float>* value);
-    // Get instance field: private System.Single sqrMag1
-    float _get_sqrMag1();
-    // Set instance field: private System.Single sqrMag1
-    void _set_sqrMag1(float value);
-    // Get instance field: private System.Single sqrMag2
-    float _get_sqrMag2();
-    // Set instance field: private System.Single sqrMag2
-    void _set_sqrMag2(float value);
-    // Get instance field: private System.Single sqrMagDif
-    float _get_sqrMagDif();
-    // Set instance field: private System.Single sqrMagDif
-    void _set_sqrMagDif(float value);
+    // Get instance field reference: public System.Single pin
+    float& dyn_pin();
+    // Get instance field reference: public System.Single pull
+    float& dyn_pull();
+    // Get instance field reference: public System.Single push
+    float& dyn_push();
+    // Get instance field reference: public System.Single pushParent
+    float& dyn_pushParent();
+    // Get instance field reference: public System.Single reach
+    float& dyn_reach();
+    // Get instance field reference: public RootMotion.FinalIK.FBIKChain/RootMotion.FinalIK.Smoothing reachSmoothing
+    RootMotion::FinalIK::FBIKChain::Smoothing& dyn_reachSmoothing();
+    // Get instance field reference: public RootMotion.FinalIK.FBIKChain/RootMotion.FinalIK.Smoothing pushSmoothing
+    RootMotion::FinalIK::FBIKChain::Smoothing& dyn_pushSmoothing();
+    // Get instance field reference: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Node[] nodes
+    ::Array<RootMotion::FinalIK::IKSolver::Node*>*& dyn_nodes();
+    // Get instance field reference: public System.Int32[] children
+    ::Array<int>*& dyn_children();
+    // Get instance field reference: public RootMotion.FinalIK.FBIKChain/RootMotion.FinalIK.ChildConstraint[] childConstraints
+    ::Array<RootMotion::FinalIK::FBIKChain::ChildConstraint*>*& dyn_childConstraints();
+    // Get instance field reference: public RootMotion.FinalIK.IKConstraintBend bendConstraint
+    RootMotion::FinalIK::IKConstraintBend*& dyn_bendConstraint();
+    // Get instance field reference: private System.Single rootLength
+    float& dyn_rootLength();
+    // Get instance field reference: private System.Boolean initiated
+    bool& dyn_initiated();
+    // Get instance field reference: private System.Single length
+    float& dyn_length();
+    // Get instance field reference: private System.Single distance
+    float& dyn_distance();
+    // Get instance field reference: private RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point p
+    RootMotion::FinalIK::IKSolver::Point*& dyn_p();
+    // Get instance field reference: private System.Single reachForce
+    float& dyn_reachForce();
+    // Get instance field reference: private System.Single pullParentSum
+    float& dyn_pullParentSum();
+    // Get instance field reference: private System.Single[] crossFades
+    ::Array<float>*& dyn_crossFades();
+    // Get instance field reference: private System.Single sqrMag1
+    float& dyn_sqrMag1();
+    // Get instance field reference: private System.Single sqrMag2
+    float& dyn_sqrMag2();
+    // Get instance field reference: private System.Single sqrMagDif
+    float& dyn_sqrMagDif();
     // public System.Void .ctor(System.Single pin, System.Single pull, params UnityEngine.Transform[] nodeTransforms)
     // Offset: 0x1D3716C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

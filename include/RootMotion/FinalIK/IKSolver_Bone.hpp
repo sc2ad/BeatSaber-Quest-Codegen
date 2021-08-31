@@ -66,26 +66,16 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: Bone
     Bone(float length_ = {}, float sqrMag_ = {}, UnityEngine::Vector3 axis_ = {}, RootMotion::FinalIK::RotationLimit* rotationLimit_ = {}, bool isLimited_ = {}) noexcept : length{length_}, sqrMag{sqrMag_}, axis{axis_}, rotationLimit{rotationLimit_}, isLimited{isLimited_} {}
-    // Get instance field: public System.Single length
-    float _get_length();
-    // Set instance field: public System.Single length
-    void _set_length(float value);
-    // Get instance field: public System.Single sqrMag
-    float _get_sqrMag();
-    // Set instance field: public System.Single sqrMag
-    void _set_sqrMag(float value);
-    // Get instance field: public UnityEngine.Vector3 axis
-    UnityEngine::Vector3 _get_axis();
-    // Set instance field: public UnityEngine.Vector3 axis
-    void _set_axis(UnityEngine::Vector3 value);
-    // Get instance field: private RootMotion.FinalIK.RotationLimit _rotationLimit
-    RootMotion::FinalIK::RotationLimit* _get__rotationLimit();
-    // Set instance field: private RootMotion.FinalIK.RotationLimit _rotationLimit
-    void _set__rotationLimit(RootMotion::FinalIK::RotationLimit* value);
-    // Get instance field: private System.Boolean isLimited
-    bool _get_isLimited();
-    // Set instance field: private System.Boolean isLimited
-    void _set_isLimited(bool value);
+    // Get instance field reference: public System.Single length
+    float& dyn_length();
+    // Get instance field reference: public System.Single sqrMag
+    float& dyn_sqrMag();
+    // Get instance field reference: public UnityEngine.Vector3 axis
+    UnityEngine::Vector3& dyn_axis();
+    // Get instance field reference: private RootMotion.FinalIK.RotationLimit _rotationLimit
+    RootMotion::FinalIK::RotationLimit*& dyn__rotationLimit();
+    // Get instance field reference: private System.Boolean isLimited
+    bool& dyn_isLimited();
     // public RootMotion.FinalIK.RotationLimit get_rotationLimit()
     // Offset: 0x1CD7E84
     RootMotion::FinalIK::RotationLimit* get_rotationLimit();

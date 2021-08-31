@@ -61,14 +61,10 @@ namespace Zenject {
     static_assert(sizeof(System::Collections::Generic::List_1<Zenject::TypeValuePair>*) == 0x8);
     // Creating value type constructor for type: SubContainerCreatorByNewPrefabInstaller
     SubContainerCreatorByNewPrefabInstaller(System::Type* installerType_ = {}, System::Collections::Generic::List_1<Zenject::TypeValuePair>* extraArgs_ = {}) noexcept : installerType{installerType_}, extraArgs{extraArgs_} {}
-    // Get instance field: private readonly System.Type _installerType
-    System::Type* _get__installerType();
-    // Set instance field: private readonly System.Type _installerType
-    void _set__installerType(System::Type* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> _extraArgs
-    System::Collections::Generic::List_1<Zenject::TypeValuePair>* _get__extraArgs();
-    // Set instance field: private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> _extraArgs
-    void _set__extraArgs(System::Collections::Generic::List_1<Zenject::TypeValuePair>* value);
+    // Get instance field reference: private readonly System.Type _installerType
+    System::Type*& dyn__installerType();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> _extraArgs
+    System::Collections::Generic::List_1<Zenject::TypeValuePair>*& dyn__extraArgs();
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.IPrefabProvider prefabProvider, Zenject.GameObjectCreationParameters gameObjectBindInfo, System.Type installerType, System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArgs)
     // Offset: 0x171F60C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

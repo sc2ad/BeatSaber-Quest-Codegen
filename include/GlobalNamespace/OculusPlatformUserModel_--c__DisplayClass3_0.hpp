@@ -60,14 +60,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::OculusPlatformUserModel*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass3_0
     $$c__DisplayClass3_0(System::Threading::Tasks::TaskCompletionSource_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>* tcs_ = {}, GlobalNamespace::OculusPlatformUserModel* $$4__this_ = {}) noexcept : tcs{tcs_}, $$4__this{$$4__this_} {}
-    // Get instance field: public System.Threading.Tasks.TaskCompletionSource`1<System.Collections.Generic.IReadOnlyList`1<System.String>> tcs
-    System::Threading::Tasks::TaskCompletionSource_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>* _get_tcs();
-    // Set instance field: public System.Threading.Tasks.TaskCompletionSource`1<System.Collections.Generic.IReadOnlyList`1<System.String>> tcs
-    void _set_tcs(System::Threading::Tasks::TaskCompletionSource_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>* value);
-    // Get instance field: public OculusPlatformUserModel <>4__this
-    GlobalNamespace::OculusPlatformUserModel* _get_$$4__this();
-    // Set instance field: public OculusPlatformUserModel <>4__this
-    void _set_$$4__this(GlobalNamespace::OculusPlatformUserModel* value);
+    // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<System.Collections.Generic.IReadOnlyList`1<System.String>> tcs
+    System::Threading::Tasks::TaskCompletionSource_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>*& dyn_tcs();
+    // Get instance field reference: public OculusPlatformUserModel <>4__this
+    GlobalNamespace::OculusPlatformUserModel*& dyn_$$4__this();
     // System.Void <GetUserFriendsUserIds>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.UserList> message)
     // Offset: 0x1022EF4
     void $GetUserFriendsUserIds$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::UserList*>* message);

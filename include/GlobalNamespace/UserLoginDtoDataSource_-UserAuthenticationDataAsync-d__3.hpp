@@ -88,34 +88,20 @@ namespace GlobalNamespace {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
-    // Get instance field: public System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: public System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<BeatSaberAPI.DataTransferObjects.UserAuthenticationData> <>t__builder
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<BeatSaberAPI::DataTransferObjects::UserAuthenticationData*> _get_$$t__builder();
-    // Set instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<BeatSaberAPI.DataTransferObjects.UserAuthenticationData> <>t__builder
-    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<BeatSaberAPI::DataTransferObjects::UserAuthenticationData*> value);
-    // Get instance field: public UserLoginDtoDataSource <>4__this
-    GlobalNamespace::UserLoginDtoDataSource* _get_$$4__this();
-    // Set instance field: public UserLoginDtoDataSource <>4__this
-    void _set_$$4__this(GlobalNamespace::UserLoginDtoDataSource* value);
-    // Get instance field: private UserInfo <userInfo>5__2
-    GlobalNamespace::UserInfo* _get_$userInfo$5__2();
-    // Set instance field: private UserInfo <userInfo>5__2
-    void _set_$userInfo$5__2(GlobalNamespace::UserInfo* value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<UserInfo> <>u__1
-    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::UserInfo*> _get_$$u__1();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<UserInfo> <>u__1
-    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::UserInfo*> value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Collections.Generic.IReadOnlyList`1<System.String>> <>u__2
-    System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*> _get_$$u__2();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Collections.Generic.IReadOnlyList`1<System.String>> <>u__2
-    void _set_$$u__2(System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*> value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<PlatformUserAuthTokenData> <>u__3
-    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::PlatformUserAuthTokenData*> _get_$$u__3();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<PlatformUserAuthTokenData> <>u__3
-    void _set_$$u__3(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::PlatformUserAuthTokenData*> value);
+    // Get instance field reference: public System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<BeatSaberAPI.DataTransferObjects.UserAuthenticationData> <>t__builder
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<BeatSaberAPI::DataTransferObjects::UserAuthenticationData*>& dyn_$$t__builder();
+    // Get instance field reference: public UserLoginDtoDataSource <>4__this
+    GlobalNamespace::UserLoginDtoDataSource*& dyn_$$4__this();
+    // Get instance field reference: private UserInfo <userInfo>5__2
+    GlobalNamespace::UserInfo*& dyn_$userInfo$5__2();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<UserInfo> <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::UserInfo*>& dyn_$$u__1();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Collections.Generic.IReadOnlyList`1<System.String>> <>u__2
+    System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>& dyn_$$u__2();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<PlatformUserAuthTokenData> <>u__3
+    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::PlatformUserAuthTokenData*>& dyn_$$u__3();
     // private System.Void MoveNext()
     // Offset: 0x13591D8
     void MoveNext();

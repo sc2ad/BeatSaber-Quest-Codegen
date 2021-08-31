@@ -45,10 +45,8 @@ namespace System::Security::Cryptography {
     constexpr operator System::Security::Cryptography::RijndaelManaged*() const noexcept {
       return m_rijndael;
     }
-    // Get instance field: private System.Security.Cryptography.RijndaelManaged m_rijndael
-    System::Security::Cryptography::RijndaelManaged* _get_m_rijndael();
-    // Set instance field: private System.Security.Cryptography.RijndaelManaged m_rijndael
-    void _set_m_rijndael(System::Security::Cryptography::RijndaelManaged* value);
+    // Get instance field reference: private System.Security.Cryptography.RijndaelManaged m_rijndael
+    System::Security::Cryptography::RijndaelManaged*& dyn_m_rijndael();
     // public override System.Int32 get_FeedbackSize()
     // Offset: 0x23B7B1C
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm

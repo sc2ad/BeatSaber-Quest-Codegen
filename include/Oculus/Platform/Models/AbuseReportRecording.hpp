@@ -32,10 +32,8 @@ namespace Oculus::Platform::Models {
     constexpr operator ::Il2CppString*() const noexcept {
       return RecordingUuid;
     }
-    // Get instance field: public readonly System.String RecordingUuid
-    ::Il2CppString* _get_RecordingUuid();
-    // Set instance field: public readonly System.String RecordingUuid
-    void _set_RecordingUuid(::Il2CppString* value);
+    // Get instance field reference: public readonly System.String RecordingUuid
+    ::Il2CppString*& dyn_RecordingUuid();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14E70F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

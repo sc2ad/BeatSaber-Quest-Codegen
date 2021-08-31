@@ -36,14 +36,10 @@ namespace System {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: ObsoleteAttribute
     ObsoleteAttribute(::Il2CppString* message_ = {}, bool error_ = {}) noexcept : message{message_}, error{error_} {}
-    // Get instance field: private System.String _message
-    ::Il2CppString* _get__message();
-    // Set instance field: private System.String _message
-    void _set__message(::Il2CppString* value);
-    // Get instance field: private System.Boolean _error
-    bool _get__error();
-    // Set instance field: private System.Boolean _error
-    void _set__error(bool value);
+    // Get instance field reference: private System.String _message
+    ::Il2CppString*& dyn__message();
+    // Get instance field reference: private System.Boolean _error
+    bool& dyn__error();
     // public System.String get_Message()
     // Offset: 0x1D0E848
     ::Il2CppString* get_Message();

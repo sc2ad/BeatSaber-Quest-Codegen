@@ -93,18 +93,12 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public UnityEngine.UI.Graphic graphic
-      UnityEngine::UI::Graphic* _get_graphic();
-      // Set instance field: public UnityEngine.UI.Graphic graphic
-      void _set_graphic(UnityEngine::UI::Graphic* value);
-      // Get instance field: public UnityEngine.Vector3 worldPos
-      UnityEngine::Vector3 _get_worldPos();
-      // Set instance field: public UnityEngine.Vector3 worldPos
-      void _set_worldPos(UnityEngine::Vector3 value);
-      // Get instance field: public System.Boolean fromMouse
-      bool _get_fromMouse();
-      // Set instance field: public System.Boolean fromMouse
-      void _set_fromMouse(bool value);
+      // Get instance field reference: public UnityEngine.UI.Graphic graphic
+      UnityEngine::UI::Graphic*& dyn_graphic();
+      // Get instance field reference: public UnityEngine.Vector3 worldPos
+      UnityEngine::Vector3& dyn_worldPos();
+      // Get instance field reference: public System.Boolean fromMouse
+      bool& dyn_fromMouse();
     }; // OVRRaycaster/RaycastHit
     #pragma pack(pop)
     static check_size<sizeof(OVRRaycaster::RaycastHit), 20 + sizeof(bool)> __GlobalNamespace_OVRRaycaster_RaycastHitSizeCheck;
@@ -146,22 +140,14 @@ namespace GlobalNamespace {
     static System::Collections::Generic::List_1<GlobalNamespace::OVRRaycaster::RaycastHit>* _get_s_SortedGraphics();
     // Set static field: static private readonly System.Collections.Generic.List`1<OVRRaycaster/RaycastHit> s_SortedGraphics
     static void _set_s_SortedGraphics(System::Collections::Generic::List_1<GlobalNamespace::OVRRaycaster::RaycastHit>* value);
-    // Get instance field: public UnityEngine.GameObject pointer
-    UnityEngine::GameObject* _get_pointer();
-    // Set instance field: public UnityEngine.GameObject pointer
-    void _set_pointer(UnityEngine::GameObject* value);
-    // Get instance field: public System.Int32 sortOrder
-    int _get_sortOrder();
-    // Set instance field: public System.Int32 sortOrder
-    void _set_sortOrder(int value);
-    // Get instance field: private UnityEngine.Canvas m_Canvas
-    UnityEngine::Canvas* _get_m_Canvas();
-    // Set instance field: private UnityEngine.Canvas m_Canvas
-    void _set_m_Canvas(UnityEngine::Canvas* value);
-    // Get instance field: private System.Collections.Generic.List`1<OVRRaycaster/RaycastHit> m_RaycastResults
-    System::Collections::Generic::List_1<GlobalNamespace::OVRRaycaster::RaycastHit>* _get_m_RaycastResults();
-    // Set instance field: private System.Collections.Generic.List`1<OVRRaycaster/RaycastHit> m_RaycastResults
-    void _set_m_RaycastResults(System::Collections::Generic::List_1<GlobalNamespace::OVRRaycaster::RaycastHit>* value);
+    // Get instance field reference: public UnityEngine.GameObject pointer
+    UnityEngine::GameObject*& dyn_pointer();
+    // Get instance field reference: public System.Int32 sortOrder
+    int& dyn_sortOrder();
+    // Get instance field reference: private UnityEngine.Canvas m_Canvas
+    UnityEngine::Canvas*& dyn_m_Canvas();
+    // Get instance field reference: private System.Collections.Generic.List`1<OVRRaycaster/RaycastHit> m_RaycastResults
+    System::Collections::Generic::List_1<GlobalNamespace::OVRRaycaster::RaycastHit>*& dyn_m_RaycastResults();
     // private System.Void Raycast(UnityEngine.EventSystems.PointerEventData eventData, System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> resultAppendList, UnityEngine.Ray ray, System.Boolean checkForBlocking)
     // Offset: 0x1634050
     void Raycast(UnityEngine::EventSystems::PointerEventData* eventData, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>* resultAppendList, UnityEngine::Ray ray, bool checkForBlocking);

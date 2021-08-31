@@ -37,14 +37,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Creating value type constructor for type: $$c__DisplayClass7_0
     $$c__DisplayClass7_0(GlobalNamespace::GhostDuplicationEffect* $$4__this_ = {}, UnityEngine::Vector3 direction_ = {}) noexcept : $$4__this{$$4__this_}, direction{direction_} {}
-    // Get instance field: public GhostDuplicationEffect <>4__this
-    GlobalNamespace::GhostDuplicationEffect* _get_$$4__this();
-    // Set instance field: public GhostDuplicationEffect <>4__this
-    void _set_$$4__this(GlobalNamespace::GhostDuplicationEffect* value);
-    // Get instance field: public UnityEngine.Vector3 direction
-    UnityEngine::Vector3 _get_direction();
-    // Set instance field: public UnityEngine.Vector3 direction
-    void _set_direction(UnityEngine::Vector3 value);
+    // Get instance field reference: public GhostDuplicationEffect <>4__this
+    GlobalNamespace::GhostDuplicationEffect*& dyn_$$4__this();
+    // Get instance field reference: public UnityEngine.Vector3 direction
+    UnityEngine::Vector3& dyn_direction();
     // System.Void <Animate>b__0(System.Single val)
     // Offset: 0x111120C
     void $Animate$b__0(float val);

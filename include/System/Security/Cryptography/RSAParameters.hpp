@@ -76,38 +76,22 @@ namespace System::Security::Cryptography {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Byte[] Exponent
-    ::Array<uint8_t>* _get_Exponent();
-    // Set instance field: public System.Byte[] Exponent
-    void _set_Exponent(::Array<uint8_t>* value);
-    // Get instance field: public System.Byte[] Modulus
-    ::Array<uint8_t>* _get_Modulus();
-    // Set instance field: public System.Byte[] Modulus
-    void _set_Modulus(::Array<uint8_t>* value);
-    // Get instance field: public System.Byte[] P
-    ::Array<uint8_t>* _get_P();
-    // Set instance field: public System.Byte[] P
-    void _set_P(::Array<uint8_t>* value);
-    // Get instance field: public System.Byte[] Q
-    ::Array<uint8_t>* _get_Q();
-    // Set instance field: public System.Byte[] Q
-    void _set_Q(::Array<uint8_t>* value);
-    // Get instance field: public System.Byte[] DP
-    ::Array<uint8_t>* _get_DP();
-    // Set instance field: public System.Byte[] DP
-    void _set_DP(::Array<uint8_t>* value);
-    // Get instance field: public System.Byte[] DQ
-    ::Array<uint8_t>* _get_DQ();
-    // Set instance field: public System.Byte[] DQ
-    void _set_DQ(::Array<uint8_t>* value);
-    // Get instance field: public System.Byte[] InverseQ
-    ::Array<uint8_t>* _get_InverseQ();
-    // Set instance field: public System.Byte[] InverseQ
-    void _set_InverseQ(::Array<uint8_t>* value);
-    // Get instance field: public System.Byte[] D
-    ::Array<uint8_t>* _get_D();
-    // Set instance field: public System.Byte[] D
-    void _set_D(::Array<uint8_t>* value);
+    // Get instance field reference: public System.Byte[] Exponent
+    ::Array<uint8_t>*& dyn_Exponent();
+    // Get instance field reference: public System.Byte[] Modulus
+    ::Array<uint8_t>*& dyn_Modulus();
+    // Get instance field reference: public System.Byte[] P
+    ::Array<uint8_t>*& dyn_P();
+    // Get instance field reference: public System.Byte[] Q
+    ::Array<uint8_t>*& dyn_Q();
+    // Get instance field reference: public System.Byte[] DP
+    ::Array<uint8_t>*& dyn_DP();
+    // Get instance field reference: public System.Byte[] DQ
+    ::Array<uint8_t>*& dyn_DQ();
+    // Get instance field reference: public System.Byte[] InverseQ
+    ::Array<uint8_t>*& dyn_InverseQ();
+    // Get instance field reference: public System.Byte[] D
+    ::Array<uint8_t>*& dyn_D();
   }; // System.Security.Cryptography.RSAParameters
   #pragma pack(pop)
   static check_size<sizeof(RSAParameters), 56 + sizeof(::Array<uint8_t>*)> __System_Security_Cryptography_RSAParametersSizeCheck;

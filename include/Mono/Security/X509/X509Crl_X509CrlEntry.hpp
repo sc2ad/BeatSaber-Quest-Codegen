@@ -54,18 +54,12 @@ namespace Mono::Security::X509 {
     static_assert(sizeof(Mono::Security::X509::X509ExtensionCollection*) == 0x8);
     // Creating value type constructor for type: X509CrlEntry
     X509CrlEntry(::Array<uint8_t>* sn_ = {}, System::DateTime revocationDate_ = {}, Mono::Security::X509::X509ExtensionCollection* extensions_ = {}) noexcept : sn{sn_}, revocationDate{revocationDate_}, extensions{extensions_} {}
-    // Get instance field: private System.Byte[] sn
-    ::Array<uint8_t>* _get_sn();
-    // Set instance field: private System.Byte[] sn
-    void _set_sn(::Array<uint8_t>* value);
-    // Get instance field: private System.DateTime revocationDate
-    System::DateTime _get_revocationDate();
-    // Set instance field: private System.DateTime revocationDate
-    void _set_revocationDate(System::DateTime value);
-    // Get instance field: private Mono.Security.X509.X509ExtensionCollection extensions
-    Mono::Security::X509::X509ExtensionCollection* _get_extensions();
-    // Set instance field: private Mono.Security.X509.X509ExtensionCollection extensions
-    void _set_extensions(Mono::Security::X509::X509ExtensionCollection* value);
+    // Get instance field reference: private System.Byte[] sn
+    ::Array<uint8_t>*& dyn_sn();
+    // Get instance field reference: private System.DateTime revocationDate
+    System::DateTime& dyn_revocationDate();
+    // Get instance field reference: private Mono.Security.X509.X509ExtensionCollection extensions
+    Mono::Security::X509::X509ExtensionCollection*& dyn_extensions();
     // public System.Byte[] get_SerialNumber()
     // Offset: 0x23D4330
     ::Array<uint8_t>* get_SerialNumber();

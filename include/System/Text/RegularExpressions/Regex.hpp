@@ -168,54 +168,30 @@ namespace System::Text::RegularExpressions {
     static int _get_cacheSize();
     // Set static field: static System.Int32 cacheSize
     static void _set_cacheSize(int value);
-    // Get instance field: protected internal System.String pattern
-    ::Il2CppString* _get_pattern();
-    // Set instance field: protected internal System.String pattern
-    void _set_pattern(::Il2CppString* value);
-    // Get instance field: protected internal System.Text.RegularExpressions.RegexRunnerFactory factory
-    System::Text::RegularExpressions::RegexRunnerFactory* _get_factory();
-    // Set instance field: protected internal System.Text.RegularExpressions.RegexRunnerFactory factory
-    void _set_factory(System::Text::RegularExpressions::RegexRunnerFactory* value);
-    // Get instance field: protected internal System.Text.RegularExpressions.RegexOptions roptions
-    System::Text::RegularExpressions::RegexOptions _get_roptions();
-    // Set instance field: protected internal System.Text.RegularExpressions.RegexOptions roptions
-    void _set_roptions(System::Text::RegularExpressions::RegexOptions value);
-    // Get instance field: protected internal System.TimeSpan internalMatchTimeout
-    System::TimeSpan _get_internalMatchTimeout();
-    // Set instance field: protected internal System.TimeSpan internalMatchTimeout
-    void _set_internalMatchTimeout(System::TimeSpan value);
-    // Get instance field: protected internal System.Collections.Hashtable caps
-    System::Collections::Hashtable* _get_caps();
-    // Set instance field: protected internal System.Collections.Hashtable caps
-    void _set_caps(System::Collections::Hashtable* value);
-    // Get instance field: protected internal System.Collections.Hashtable capnames
-    System::Collections::Hashtable* _get_capnames();
-    // Set instance field: protected internal System.Collections.Hashtable capnames
-    void _set_capnames(System::Collections::Hashtable* value);
-    // Get instance field: protected internal System.String[] capslist
-    ::Array<::Il2CppString*>* _get_capslist();
-    // Set instance field: protected internal System.String[] capslist
-    void _set_capslist(::Array<::Il2CppString*>* value);
-    // Get instance field: protected internal System.Int32 capsize
-    int _get_capsize();
-    // Set instance field: protected internal System.Int32 capsize
-    void _set_capsize(int value);
-    // Get instance field: System.Text.RegularExpressions.ExclusiveReference runnerref
-    System::Text::RegularExpressions::ExclusiveReference* _get_runnerref();
-    // Set instance field: System.Text.RegularExpressions.ExclusiveReference runnerref
-    void _set_runnerref(System::Text::RegularExpressions::ExclusiveReference* value);
-    // Get instance field: System.Text.RegularExpressions.SharedReference replref
-    System::Text::RegularExpressions::SharedReference* _get_replref();
-    // Set instance field: System.Text.RegularExpressions.SharedReference replref
-    void _set_replref(System::Text::RegularExpressions::SharedReference* value);
-    // Get instance field: System.Text.RegularExpressions.RegexCode code
-    System::Text::RegularExpressions::RegexCode* _get_code();
-    // Set instance field: System.Text.RegularExpressions.RegexCode code
-    void _set_code(System::Text::RegularExpressions::RegexCode* value);
-    // Get instance field: System.Boolean refsInitialized
-    bool _get_refsInitialized();
-    // Set instance field: System.Boolean refsInitialized
-    void _set_refsInitialized(bool value);
+    // Get instance field reference: protected internal System.String pattern
+    ::Il2CppString*& dyn_pattern();
+    // Get instance field reference: protected internal System.Text.RegularExpressions.RegexRunnerFactory factory
+    System::Text::RegularExpressions::RegexRunnerFactory*& dyn_factory();
+    // Get instance field reference: protected internal System.Text.RegularExpressions.RegexOptions roptions
+    System::Text::RegularExpressions::RegexOptions& dyn_roptions();
+    // Get instance field reference: protected internal System.TimeSpan internalMatchTimeout
+    System::TimeSpan& dyn_internalMatchTimeout();
+    // Get instance field reference: protected internal System.Collections.Hashtable caps
+    System::Collections::Hashtable*& dyn_caps();
+    // Get instance field reference: protected internal System.Collections.Hashtable capnames
+    System::Collections::Hashtable*& dyn_capnames();
+    // Get instance field reference: protected internal System.String[] capslist
+    ::Array<::Il2CppString*>*& dyn_capslist();
+    // Get instance field reference: protected internal System.Int32 capsize
+    int& dyn_capsize();
+    // Get instance field reference: System.Text.RegularExpressions.ExclusiveReference runnerref
+    System::Text::RegularExpressions::ExclusiveReference*& dyn_runnerref();
+    // Get instance field reference: System.Text.RegularExpressions.SharedReference replref
+    System::Text::RegularExpressions::SharedReference*& dyn_replref();
+    // Get instance field reference: System.Text.RegularExpressions.RegexCode code
+    System::Text::RegularExpressions::RegexCode*& dyn_code();
+    // Get instance field reference: System.Boolean refsInitialized
+    bool& dyn_refsInitialized();
     // public System.Text.RegularExpressions.RegexOptions get_Options()
     // Offset: 0x186A6E8
     System::Text::RegularExpressions::RegexOptions get_Options();

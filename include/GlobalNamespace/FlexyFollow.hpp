@@ -89,42 +89,24 @@ namespace GlobalNamespace {
     FlexyFollow(UnityEngine::GameObject* followObject_ = {}, float followSpeed_ = {}, UnityEngine::Vector3 offset_ = {}, bool fixedXOffset_ = {}, bool fixedYOffset_ = {}, bool fixedZOffset_ = {}, bool useLocalPosition_ = {}, UnityEngine::Transform* followTransform_ = {}, UnityEngine::Transform* transform_ = {}) noexcept : followObject{followObject_}, followSpeed{followSpeed_}, offset{offset_}, fixedXOffset{fixedXOffset_}, fixedYOffset{fixedYOffset_}, fixedZOffset{fixedZOffset_}, useLocalPosition{useLocalPosition_}, followTransform{followTransform_}, transform{transform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public UnityEngine.GameObject _followObject
-    UnityEngine::GameObject* _get__followObject();
-    // Set instance field: public UnityEngine.GameObject _followObject
-    void _set__followObject(UnityEngine::GameObject* value);
-    // Get instance field: public System.Single _followSpeed
-    float _get__followSpeed();
-    // Set instance field: public System.Single _followSpeed
-    void _set__followSpeed(float value);
-    // Get instance field: public UnityEngine.Vector3 _offset
-    UnityEngine::Vector3 _get__offset();
-    // Set instance field: public UnityEngine.Vector3 _offset
-    void _set__offset(UnityEngine::Vector3 value);
-    // Get instance field: public System.Boolean _fixedXOffset
-    bool _get__fixedXOffset();
-    // Set instance field: public System.Boolean _fixedXOffset
-    void _set__fixedXOffset(bool value);
-    // Get instance field: public System.Boolean _fixedYOffset
-    bool _get__fixedYOffset();
-    // Set instance field: public System.Boolean _fixedYOffset
-    void _set__fixedYOffset(bool value);
-    // Get instance field: public System.Boolean _fixedZOffset
-    bool _get__fixedZOffset();
-    // Set instance field: public System.Boolean _fixedZOffset
-    void _set__fixedZOffset(bool value);
-    // Get instance field: public System.Boolean _useLocalPosition
-    bool _get__useLocalPosition();
-    // Set instance field: public System.Boolean _useLocalPosition
-    void _set__useLocalPosition(bool value);
-    // Get instance field: private UnityEngine.Transform _followTransform
-    UnityEngine::Transform* _get__followTransform();
-    // Set instance field: private UnityEngine.Transform _followTransform
-    void _set__followTransform(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.Transform _transform
-    UnityEngine::Transform* _get__transform();
-    // Set instance field: private UnityEngine.Transform _transform
-    void _set__transform(UnityEngine::Transform* value);
+    // Get instance field reference: public UnityEngine.GameObject _followObject
+    UnityEngine::GameObject*& dyn__followObject();
+    // Get instance field reference: public System.Single _followSpeed
+    float& dyn__followSpeed();
+    // Get instance field reference: public UnityEngine.Vector3 _offset
+    UnityEngine::Vector3& dyn__offset();
+    // Get instance field reference: public System.Boolean _fixedXOffset
+    bool& dyn__fixedXOffset();
+    // Get instance field reference: public System.Boolean _fixedYOffset
+    bool& dyn__fixedYOffset();
+    // Get instance field reference: public System.Boolean _fixedZOffset
+    bool& dyn__fixedZOffset();
+    // Get instance field reference: public System.Boolean _useLocalPosition
+    bool& dyn__useLocalPosition();
+    // Get instance field reference: private UnityEngine.Transform _followTransform
+    UnityEngine::Transform*& dyn__followTransform();
+    // Get instance field reference: private UnityEngine.Transform _transform
+    UnityEngine::Transform*& dyn__transform();
     // protected System.Void Start()
     // Offset: 0x125FC68
     void Start();

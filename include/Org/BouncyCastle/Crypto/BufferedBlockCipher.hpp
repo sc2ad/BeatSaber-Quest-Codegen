@@ -57,22 +57,14 @@ namespace Org::BouncyCastle::Crypto {
     static_assert(sizeof(Org::BouncyCastle::Crypto::IBlockCipher*) == 0x8);
     // Creating value type constructor for type: BufferedBlockCipher
     BufferedBlockCipher(::Array<uint8_t>* buf_ = {}, int bufOff_ = {}, bool forEncryption_ = {}, Org::BouncyCastle::Crypto::IBlockCipher* cipher_ = {}) noexcept : buf{buf_}, bufOff{bufOff_}, forEncryption{forEncryption_}, cipher{cipher_} {}
-    // Get instance field: System.Byte[] buf
-    ::Array<uint8_t>* _get_buf();
-    // Set instance field: System.Byte[] buf
-    void _set_buf(::Array<uint8_t>* value);
-    // Get instance field: System.Int32 bufOff
-    int _get_bufOff();
-    // Set instance field: System.Int32 bufOff
-    void _set_bufOff(int value);
-    // Get instance field: System.Boolean forEncryption
-    bool _get_forEncryption();
-    // Set instance field: System.Boolean forEncryption
-    void _set_forEncryption(bool value);
-    // Get instance field: Org.BouncyCastle.Crypto.IBlockCipher cipher
-    Org::BouncyCastle::Crypto::IBlockCipher* _get_cipher();
-    // Set instance field: Org.BouncyCastle.Crypto.IBlockCipher cipher
-    void _set_cipher(Org::BouncyCastle::Crypto::IBlockCipher* value);
+    // Get instance field reference: System.Byte[] buf
+    ::Array<uint8_t>*& dyn_buf();
+    // Get instance field reference: System.Int32 bufOff
+    int& dyn_bufOff();
+    // Get instance field reference: System.Boolean forEncryption
+    bool& dyn_forEncryption();
+    // Get instance field reference: Org.BouncyCastle.Crypto.IBlockCipher cipher
+    Org::BouncyCastle::Crypto::IBlockCipher*& dyn_cipher();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher)
     // Offset: 0x1A0D3A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

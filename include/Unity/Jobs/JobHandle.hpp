@@ -38,14 +38,10 @@ namespace Unity::Jobs {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: System.IntPtr jobGroup
-    System::IntPtr _get_jobGroup();
-    // Set instance field: System.IntPtr jobGroup
-    void _set_jobGroup(System::IntPtr value);
-    // Get instance field: System.Int32 version
-    int _get_version();
-    // Set instance field: System.Int32 version
-    void _set_version(int value);
+    // Get instance field reference: System.IntPtr jobGroup
+    System::IntPtr& dyn_jobGroup();
+    // Get instance field reference: System.Int32 version
+    int& dyn_version();
     // static public System.Void ScheduleBatchedJobs()
     // Offset: 0x1C19790
     static void ScheduleBatchedJobs();

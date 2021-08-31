@@ -76,26 +76,16 @@ namespace GlobalNamespace {
     ColorStepValuePicker(UnityEngine::UI::Button* decButton_ = {}, UnityEngine::UI::Button* incButton_ = {}, HMUI::ImageView* valueImage_ = {}, System::Action* decButtonWasPressedEvent_ = {}, System::Action* incButtonWasPressedEvent_ = {}) noexcept : decButton{decButton_}, incButton{incButton_}, valueImage{valueImage_}, decButtonWasPressedEvent{decButtonWasPressedEvent_}, incButtonWasPressedEvent{incButtonWasPressedEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.UI.Button _decButton
-    UnityEngine::UI::Button* _get__decButton();
-    // Set instance field: private UnityEngine.UI.Button _decButton
-    void _set__decButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _incButton
-    UnityEngine::UI::Button* _get__incButton();
-    // Set instance field: private UnityEngine.UI.Button _incButton
-    void _set__incButton(UnityEngine::UI::Button* value);
-    // Get instance field: private HMUI.ImageView _valueImage
-    HMUI::ImageView* _get__valueImage();
-    // Set instance field: private HMUI.ImageView _valueImage
-    void _set__valueImage(HMUI::ImageView* value);
-    // Get instance field: private System.Action decButtonWasPressedEvent
-    System::Action* _get_decButtonWasPressedEvent();
-    // Set instance field: private System.Action decButtonWasPressedEvent
-    void _set_decButtonWasPressedEvent(System::Action* value);
-    // Get instance field: private System.Action incButtonWasPressedEvent
-    System::Action* _get_incButtonWasPressedEvent();
-    // Set instance field: private System.Action incButtonWasPressedEvent
-    void _set_incButtonWasPressedEvent(System::Action* value);
+    // Get instance field reference: private UnityEngine.UI.Button _decButton
+    UnityEngine::UI::Button*& dyn__decButton();
+    // Get instance field reference: private UnityEngine.UI.Button _incButton
+    UnityEngine::UI::Button*& dyn__incButton();
+    // Get instance field reference: private HMUI.ImageView _valueImage
+    HMUI::ImageView*& dyn__valueImage();
+    // Get instance field reference: private System.Action decButtonWasPressedEvent
+    System::Action*& dyn_decButtonWasPressedEvent();
+    // Get instance field reference: private System.Action incButtonWasPressedEvent
+    System::Action*& dyn_incButtonWasPressedEvent();
     // public UnityEngine.Color get_color()
     // Offset: 0x10F09CC
     UnityEngine::Color get_color();

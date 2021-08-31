@@ -78,34 +78,20 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: BoolMonitor
     BoolMonitor(::Il2CppString* m_name_ = {}, GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator* m_generator_ = {}, bool m_prevValue_ = {}, bool m_currentValue_ = {}, bool m_currentValueRecentlyChanged_ = {}, float m_displayTimeout_ = {}, float m_displayTimer_ = {}) noexcept : m_name{m_name_}, m_generator{m_generator_}, m_prevValue{m_prevValue_}, m_currentValue{m_currentValue_}, m_currentValueRecentlyChanged{m_currentValueRecentlyChanged_}, m_displayTimeout{m_displayTimeout_}, m_displayTimer{m_displayTimer_} {}
-    // Get instance field: private System.String m_name
-    ::Il2CppString* _get_m_name();
-    // Set instance field: private System.String m_name
-    void _set_m_name(::Il2CppString* value);
-    // Get instance field: private OVRHandTest/BoolMonitor/BoolGenerator m_generator
-    GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator* _get_m_generator();
-    // Set instance field: private OVRHandTest/BoolMonitor/BoolGenerator m_generator
-    void _set_m_generator(GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator* value);
-    // Get instance field: private System.Boolean m_prevValue
-    bool _get_m_prevValue();
-    // Set instance field: private System.Boolean m_prevValue
-    void _set_m_prevValue(bool value);
-    // Get instance field: private System.Boolean m_currentValue
-    bool _get_m_currentValue();
-    // Set instance field: private System.Boolean m_currentValue
-    void _set_m_currentValue(bool value);
-    // Get instance field: private System.Boolean m_currentValueRecentlyChanged
-    bool _get_m_currentValueRecentlyChanged();
-    // Set instance field: private System.Boolean m_currentValueRecentlyChanged
-    void _set_m_currentValueRecentlyChanged(bool value);
-    // Get instance field: private System.Single m_displayTimeout
-    float _get_m_displayTimeout();
-    // Set instance field: private System.Single m_displayTimeout
-    void _set_m_displayTimeout(float value);
-    // Get instance field: private System.Single m_displayTimer
-    float _get_m_displayTimer();
-    // Set instance field: private System.Single m_displayTimer
-    void _set_m_displayTimer(float value);
+    // Get instance field reference: private System.String m_name
+    ::Il2CppString*& dyn_m_name();
+    // Get instance field reference: private OVRHandTest/BoolMonitor/BoolGenerator m_generator
+    GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator*& dyn_m_generator();
+    // Get instance field reference: private System.Boolean m_prevValue
+    bool& dyn_m_prevValue();
+    // Get instance field reference: private System.Boolean m_currentValue
+    bool& dyn_m_currentValue();
+    // Get instance field reference: private System.Boolean m_currentValueRecentlyChanged
+    bool& dyn_m_currentValueRecentlyChanged();
+    // Get instance field reference: private System.Single m_displayTimeout
+    float& dyn_m_displayTimeout();
+    // Get instance field reference: private System.Single m_displayTimer
+    float& dyn_m_displayTimer();
     // public System.Void .ctor(System.String name, OVRHandTest/BoolMonitor/BoolGenerator generator, System.Single displayTimeout)
     // Offset: 0x1532630
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

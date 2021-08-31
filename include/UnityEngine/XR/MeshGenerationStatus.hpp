@@ -64,10 +64,8 @@ namespace UnityEngine::XR {
     static UnityEngine::XR::MeshGenerationStatus _get_UnknownError();
     // Set static field: static public UnityEngine.XR.MeshGenerationStatus UnknownError
     static void _set_UnknownError(UnityEngine::XR::MeshGenerationStatus value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.XR.MeshGenerationStatus
   #pragma pack(pop)
   static check_size<sizeof(MeshGenerationStatus), 0 + sizeof(int)> __UnityEngine_XR_MeshGenerationStatusSizeCheck;

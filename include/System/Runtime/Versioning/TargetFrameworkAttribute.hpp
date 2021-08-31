@@ -35,14 +35,10 @@ namespace System::Runtime::Versioning {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: TargetFrameworkAttribute
     TargetFrameworkAttribute(::Il2CppString* frameworkName_ = {}, ::Il2CppString* frameworkDisplayName_ = {}) noexcept : frameworkName{frameworkName_}, frameworkDisplayName{frameworkDisplayName_} {}
-    // Get instance field: private System.String _frameworkName
-    ::Il2CppString* _get__frameworkName();
-    // Set instance field: private System.String _frameworkName
-    void _set__frameworkName(::Il2CppString* value);
-    // Get instance field: private System.String _frameworkDisplayName
-    ::Il2CppString* _get__frameworkDisplayName();
-    // Set instance field: private System.String _frameworkDisplayName
-    void _set__frameworkDisplayName(::Il2CppString* value);
+    // Get instance field reference: private System.String _frameworkName
+    ::Il2CppString*& dyn__frameworkName();
+    // Get instance field reference: private System.String _frameworkDisplayName
+    ::Il2CppString*& dyn__frameworkDisplayName();
     // public System.Void set_FrameworkDisplayName(System.String value)
     // Offset: 0x16C0778
     void set_FrameworkDisplayName(::Il2CppString* value);

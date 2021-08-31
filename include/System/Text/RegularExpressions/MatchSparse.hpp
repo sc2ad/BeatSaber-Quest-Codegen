@@ -48,10 +48,8 @@ namespace System::Text::RegularExpressions {
     constexpr operator System::Collections::Hashtable*() const noexcept {
       return caps;
     }
-    // Get instance field: System.Collections.Hashtable _caps
-    System::Collections::Hashtable* _get__caps();
-    // Set instance field: System.Collections.Hashtable _caps
-    void _set__caps(System::Collections::Hashtable* value);
+    // Get instance field reference: System.Collections.Hashtable _caps
+    System::Collections::Hashtable*& dyn__caps();
     // System.Void .ctor(System.Text.RegularExpressions.Regex regex, System.Collections.Hashtable caps, System.Int32 capcount, System.String text, System.Int32 begpos, System.Int32 len, System.Int32 startpos)
     // Offset: 0x1869320
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -185,70 +185,38 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private Signal _missionToggleWasPressedSignal
-    GlobalNamespace::Signal* _get__missionToggleWasPressedSignal();
-    // Set instance field: private Signal _missionToggleWasPressedSignal
-    void _set__missionToggleWasPressedSignal(GlobalNamespace::Signal* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _text
-    TMPro::TextMeshProUGUI* _get__text();
-    // Set instance field: private TMPro.TextMeshProUGUI _text
-    void _set__text(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private UnityEngine.UI.Image _lockedImage
-    UnityEngine::UI::Image* _get__lockedImage();
-    // Set instance field: private UnityEngine.UI.Image _lockedImage
-    void _set__lockedImage(UnityEngine::UI::Image* value);
-    // Get instance field: private UnityEngine.UI.Image _clearedImage
-    UnityEngine::UI::Image* _get__clearedImage();
-    // Set instance field: private UnityEngine.UI.Image _clearedImage
-    void _set__clearedImage(UnityEngine::UI::Image* value);
-    // Get instance field: private UnityEngine.UI.Image _bgImage
-    UnityEngine::UI::Image* _get__bgImage();
-    // Set instance field: private UnityEngine.UI.Image _bgImage
-    void _set__bgImage(UnityEngine::UI::Image* value);
-    // Get instance field: private UnityEngine.UI.Image _strokeImage
-    UnityEngine::UI::Image* _get__strokeImage();
-    // Set instance field: private UnityEngine.UI.Image _strokeImage
-    void _set__strokeImage(UnityEngine::UI::Image* value);
-    // Get instance field: private HMUI.Interactable _vrInteractable
-    HMUI::Interactable* _get__vrInteractable();
-    // Set instance field: private HMUI.Interactable _vrInteractable
-    void _set__vrInteractable(HMUI::Interactable* value);
-    // Get instance field: private UnityEngine.Color _disabledColor
-    UnityEngine::Color _get__disabledColor();
-    // Set instance field: private UnityEngine.Color _disabledColor
-    void _set__disabledColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _normalColor
-    UnityEngine::Color _get__normalColor();
-    // Set instance field: private UnityEngine.Color _normalColor
-    void _set__normalColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _invertColor
-    UnityEngine::Color _get__invertColor();
-    // Set instance field: private UnityEngine.Color _invertColor
-    void _set__invertColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _highlightColor
-    UnityEngine::Color _get__highlightColor();
-    // Set instance field: private UnityEngine.Color _highlightColor
-    void _set__highlightColor(UnityEngine::Color value);
-    // Get instance field: private System.Action`1<MissionToggle> selectionDidChangeEvent
-    System::Action_1<GlobalNamespace::MissionToggle*>* _get_selectionDidChangeEvent();
-    // Set instance field: private System.Action`1<MissionToggle> selectionDidChangeEvent
-    void _set_selectionDidChangeEvent(System::Action_1<GlobalNamespace::MissionToggle*>* value);
-    // Get instance field: private System.Boolean _selected
-    bool _get__selected();
-    // Set instance field: private System.Boolean _selected
-    void _set__selected(bool value);
-    // Get instance field: private System.Boolean _highlighted
-    bool _get__highlighted();
-    // Set instance field: private System.Boolean _highlighted
-    void _set__highlighted(bool value);
-    // Get instance field: private System.Boolean _interactable
-    bool _get__interactable();
-    // Set instance field: private System.Boolean _interactable
-    void _set__interactable(bool value);
-    // Get instance field: private System.Boolean _missionCleared
-    bool _get__missionCleared();
-    // Set instance field: private System.Boolean _missionCleared
-    void _set__missionCleared(bool value);
+    // Get instance field reference: private Signal _missionToggleWasPressedSignal
+    GlobalNamespace::Signal*& dyn__missionToggleWasPressedSignal();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _text
+    TMPro::TextMeshProUGUI*& dyn__text();
+    // Get instance field reference: private UnityEngine.UI.Image _lockedImage
+    UnityEngine::UI::Image*& dyn__lockedImage();
+    // Get instance field reference: private UnityEngine.UI.Image _clearedImage
+    UnityEngine::UI::Image*& dyn__clearedImage();
+    // Get instance field reference: private UnityEngine.UI.Image _bgImage
+    UnityEngine::UI::Image*& dyn__bgImage();
+    // Get instance field reference: private UnityEngine.UI.Image _strokeImage
+    UnityEngine::UI::Image*& dyn__strokeImage();
+    // Get instance field reference: private HMUI.Interactable _vrInteractable
+    HMUI::Interactable*& dyn__vrInteractable();
+    // Get instance field reference: private UnityEngine.Color _disabledColor
+    UnityEngine::Color& dyn__disabledColor();
+    // Get instance field reference: private UnityEngine.Color _normalColor
+    UnityEngine::Color& dyn__normalColor();
+    // Get instance field reference: private UnityEngine.Color _invertColor
+    UnityEngine::Color& dyn__invertColor();
+    // Get instance field reference: private UnityEngine.Color _highlightColor
+    UnityEngine::Color& dyn__highlightColor();
+    // Get instance field reference: private System.Action`1<MissionToggle> selectionDidChangeEvent
+    System::Action_1<GlobalNamespace::MissionToggle*>*& dyn_selectionDidChangeEvent();
+    // Get instance field reference: private System.Boolean _selected
+    bool& dyn__selected();
+    // Get instance field reference: private System.Boolean _highlighted
+    bool& dyn__highlighted();
+    // Get instance field reference: private System.Boolean _interactable
+    bool& dyn__interactable();
+    // Get instance field reference: private System.Boolean _missionCleared
+    bool& dyn__missionCleared();
     // public System.Void set_missionCleared(System.Boolean value)
     // Offset: 0x11DA88C
     void set_missionCleared(bool value);

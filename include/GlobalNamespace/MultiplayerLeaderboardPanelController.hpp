@@ -46,14 +46,10 @@ namespace GlobalNamespace {
     MultiplayerLeaderboardPanelController(::Array<GlobalNamespace::MultiplayerLeaderboardPanelItem*>* items_ = {}, GlobalNamespace::MultiplayerScoreProvider* scoreProvider_ = {}) noexcept : items{items_}, scoreProvider{scoreProvider_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private MultiplayerLeaderboardPanelItem[] _items
-    ::Array<GlobalNamespace::MultiplayerLeaderboardPanelItem*>* _get__items();
-    // Set instance field: private MultiplayerLeaderboardPanelItem[] _items
-    void _set__items(::Array<GlobalNamespace::MultiplayerLeaderboardPanelItem*>* value);
-    // Get instance field: private readonly MultiplayerScoreProvider _scoreProvider
-    GlobalNamespace::MultiplayerScoreProvider* _get__scoreProvider();
-    // Set instance field: private readonly MultiplayerScoreProvider _scoreProvider
-    void _set__scoreProvider(GlobalNamespace::MultiplayerScoreProvider* value);
+    // Get instance field reference: private MultiplayerLeaderboardPanelItem[] _items
+    ::Array<GlobalNamespace::MultiplayerLeaderboardPanelItem*>*& dyn__items();
+    // Get instance field reference: private readonly MultiplayerScoreProvider _scoreProvider
+    GlobalNamespace::MultiplayerScoreProvider*& dyn__scoreProvider();
     // protected System.Void Start()
     // Offset: 0x11B3C74
     void Start();

@@ -71,14 +71,10 @@ namespace System::Security::Cryptography::X509Certificates {
     static System::Security::Cryptography::X509Certificates::X509KeyUsageFlags _get_all();
     // Set static field: static System.Security.Cryptography.X509Certificates.X509KeyUsageFlags all
     static void _set_all(System::Security::Cryptography::X509Certificates::X509KeyUsageFlags value);
-    // Get instance field: private System.Security.Cryptography.X509Certificates.X509KeyUsageFlags _keyUsages
-    System::Security::Cryptography::X509Certificates::X509KeyUsageFlags _get__keyUsages();
-    // Set instance field: private System.Security.Cryptography.X509Certificates.X509KeyUsageFlags _keyUsages
-    void _set__keyUsages(System::Security::Cryptography::X509Certificates::X509KeyUsageFlags value);
-    // Get instance field: private System.Security.Cryptography.AsnDecodeStatus _status
-    System::Security::Cryptography::AsnDecodeStatus _get__status();
-    // Set instance field: private System.Security.Cryptography.AsnDecodeStatus _status
-    void _set__status(System::Security::Cryptography::AsnDecodeStatus value);
+    // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509KeyUsageFlags _keyUsages
+    System::Security::Cryptography::X509Certificates::X509KeyUsageFlags& dyn__keyUsages();
+    // Get instance field reference: private System.Security.Cryptography.AsnDecodeStatus _status
+    System::Security::Cryptography::AsnDecodeStatus& dyn__status();
     // public System.Security.Cryptography.X509Certificates.X509KeyUsageFlags get_KeyUsages()
     // Offset: 0x185C0B4
     System::Security::Cryptography::X509Certificates::X509KeyUsageFlags get_KeyUsages();

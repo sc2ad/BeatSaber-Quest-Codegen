@@ -105,22 +105,14 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kQuickPlayOverrideSetupJson();
     // Set static field: static private System.String kQuickPlayOverrideSetupJson
     static void _set_kQuickPlayOverrideSetupJson(::Il2CppString* value);
-    // Get instance field: private readonly INetworkConfig _networkConfig
-    GlobalNamespace::INetworkConfig* _get__networkConfig();
-    // Set instance field: private readonly INetworkConfig _networkConfig
-    void _set__networkConfig(GlobalNamespace::INetworkConfig* value);
-    // Get instance field: private readonly System.Net.Http.HttpClient _client
-    System::Net::Http::HttpClient* _get__client();
-    // Set instance field: private readonly System.Net.Http.HttpClient _client
-    void _set__client(System::Net::Http::HttpClient* value);
-    // Get instance field: private System.Threading.Tasks.Task`1<MasterServerQuickPlaySetupData> _request
-    System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerQuickPlaySetupData*>* _get__request();
-    // Set instance field: private System.Threading.Tasks.Task`1<MasterServerQuickPlaySetupData> _request
-    void _set__request(System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerQuickPlaySetupData*>* value);
-    // Get instance field: private System.DateTime _lastRequestTime
-    System::DateTime _get__lastRequestTime();
-    // Set instance field: private System.DateTime _lastRequestTime
-    void _set__lastRequestTime(System::DateTime value);
+    // Get instance field reference: private readonly INetworkConfig _networkConfig
+    GlobalNamespace::INetworkConfig*& dyn__networkConfig();
+    // Get instance field reference: private readonly System.Net.Http.HttpClient _client
+    System::Net::Http::HttpClient*& dyn__client();
+    // Get instance field reference: private System.Threading.Tasks.Task`1<MasterServerQuickPlaySetupData> _request
+    System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerQuickPlaySetupData*>*& dyn__request();
+    // Get instance field reference: private System.DateTime _lastRequestTime
+    System::DateTime& dyn__lastRequestTime();
     // public System.Threading.Tasks.Task`1<MasterServerQuickPlaySetupData> GetQuickPlaySetupAsync(System.Threading.CancellationToken cancellationToken)
     // Offset: 0x10E52A0
     System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerQuickPlaySetupData*>* GetQuickPlaySetupAsync(System::Threading::CancellationToken cancellationToken);

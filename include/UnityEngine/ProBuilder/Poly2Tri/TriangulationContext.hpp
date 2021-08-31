@@ -89,34 +89,20 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: TriangulationContext
     TriangulationContext(UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* DebugContext_ = {}, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* Triangles_ = {}, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* Points_ = {}, UnityEngine::ProBuilder::Poly2Tri::TriangulationMode TriangulationMode_ = {}, UnityEngine::ProBuilder::Poly2Tri::Triangulatable* Triangulatable_ = {}, int StepCount_ = {}, bool IsDebugEnabled_ = {}) noexcept : DebugContext{DebugContext_}, Triangles{Triangles_}, Points{Points_}, TriangulationMode{TriangulationMode_}, Triangulatable{Triangulatable_}, StepCount{StepCount_}, IsDebugEnabled{IsDebugEnabled_} {}
-    // Get instance field: private UnityEngine.ProBuilder.Poly2Tri.TriangulationDebugContext <DebugContext>k__BackingField
-    UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* _get_$DebugContext$k__BackingField();
-    // Set instance field: private UnityEngine.ProBuilder.Poly2Tri.TriangulationDebugContext <DebugContext>k__BackingField
-    void _set_$DebugContext$k__BackingField(UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* value);
-    // Get instance field: public readonly System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle> Triangles
-    System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* _get_Triangles();
-    // Set instance field: public readonly System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle> Triangles
-    void _set_Triangles(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* value);
-    // Get instance field: public readonly System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint> Points
-    System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* _get_Points();
-    // Set instance field: public readonly System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint> Points
-    void _set_Points(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* value);
-    // Get instance field: private UnityEngine.ProBuilder.Poly2Tri.TriangulationMode <TriangulationMode>k__BackingField
-    UnityEngine::ProBuilder::Poly2Tri::TriangulationMode _get_$TriangulationMode$k__BackingField();
-    // Set instance field: private UnityEngine.ProBuilder.Poly2Tri.TriangulationMode <TriangulationMode>k__BackingField
-    void _set_$TriangulationMode$k__BackingField(UnityEngine::ProBuilder::Poly2Tri::TriangulationMode value);
-    // Get instance field: private UnityEngine.ProBuilder.Poly2Tri.Triangulatable <Triangulatable>k__BackingField
-    UnityEngine::ProBuilder::Poly2Tri::Triangulatable* _get_$Triangulatable$k__BackingField();
-    // Set instance field: private UnityEngine.ProBuilder.Poly2Tri.Triangulatable <Triangulatable>k__BackingField
-    void _set_$Triangulatable$k__BackingField(UnityEngine::ProBuilder::Poly2Tri::Triangulatable* value);
-    // Get instance field: private System.Int32 <StepCount>k__BackingField
-    int _get_$StepCount$k__BackingField();
-    // Set instance field: private System.Int32 <StepCount>k__BackingField
-    void _set_$StepCount$k__BackingField(int value);
-    // Get instance field: private System.Boolean <IsDebugEnabled>k__BackingField
-    bool _get_$IsDebugEnabled$k__BackingField();
-    // Set instance field: private System.Boolean <IsDebugEnabled>k__BackingField
-    void _set_$IsDebugEnabled$k__BackingField(bool value);
+    // Get instance field reference: private UnityEngine.ProBuilder.Poly2Tri.TriangulationDebugContext <DebugContext>k__BackingField
+    UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext*& dyn_$DebugContext$k__BackingField();
+    // Get instance field reference: public readonly System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle> Triangles
+    System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>*& dyn_Triangles();
+    // Get instance field reference: public readonly System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint> Points
+    System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*& dyn_Points();
+    // Get instance field reference: private UnityEngine.ProBuilder.Poly2Tri.TriangulationMode <TriangulationMode>k__BackingField
+    UnityEngine::ProBuilder::Poly2Tri::TriangulationMode& dyn_$TriangulationMode$k__BackingField();
+    // Get instance field reference: private UnityEngine.ProBuilder.Poly2Tri.Triangulatable <Triangulatable>k__BackingField
+    UnityEngine::ProBuilder::Poly2Tri::Triangulatable*& dyn_$Triangulatable$k__BackingField();
+    // Get instance field reference: private System.Int32 <StepCount>k__BackingField
+    int& dyn_$StepCount$k__BackingField();
+    // Get instance field reference: private System.Boolean <IsDebugEnabled>k__BackingField
+    bool& dyn_$IsDebugEnabled$k__BackingField();
     // public UnityEngine.ProBuilder.Poly2Tri.TriangulationDebugContext get_DebugContext()
     // Offset: 0x23C4778
     UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* get_DebugContext();

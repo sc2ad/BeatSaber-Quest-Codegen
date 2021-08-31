@@ -63,18 +63,12 @@ namespace Zenject {
     static_assert(sizeof(System::Action_1<Zenject::DiContainer*>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass13_0
     $$c__DisplayClass13_0(UnityEngine::Object* prefab_ = {}, Zenject::GameObjectCreationParameters* gameObjectInfo_ = {}, System::Action_1<Zenject::DiContainer*>* installerMethod_ = {}) noexcept : prefab{prefab_}, gameObjectInfo{gameObjectInfo_}, installerMethod{installerMethod_} {}
-    // Get instance field: public UnityEngine.Object prefab
-    UnityEngine::Object* _get_prefab();
-    // Set instance field: public UnityEngine.Object prefab
-    void _set_prefab(UnityEngine::Object* value);
-    // Get instance field: public Zenject.GameObjectCreationParameters gameObjectInfo
-    Zenject::GameObjectCreationParameters* _get_gameObjectInfo();
-    // Set instance field: public Zenject.GameObjectCreationParameters gameObjectInfo
-    void _set_gameObjectInfo(Zenject::GameObjectCreationParameters* value);
-    // Get instance field: public System.Action`1<Zenject.DiContainer> installerMethod
-    System::Action_1<Zenject::DiContainer*>* _get_installerMethod();
-    // Set instance field: public System.Action`1<Zenject.DiContainer> installerMethod
-    void _set_installerMethod(System::Action_1<Zenject::DiContainer*>* value);
+    // Get instance field reference: public UnityEngine.Object prefab
+    UnityEngine::Object*& dyn_prefab();
+    // Get instance field reference: public Zenject.GameObjectCreationParameters gameObjectInfo
+    Zenject::GameObjectCreationParameters*& dyn_gameObjectInfo();
+    // Get instance field reference: public System.Action`1<Zenject.DiContainer> installerMethod
+    System::Action_1<Zenject::DiContainer*>*& dyn_installerMethod();
     // Zenject.ISubContainerCreator <ByNewPrefabMethod>b__0(Zenject.DiContainer container)
     // Offset: 0x171F2E4
     Zenject::ISubContainerCreator* $ByNewPrefabMethod$b__0(Zenject::DiContainer* container);

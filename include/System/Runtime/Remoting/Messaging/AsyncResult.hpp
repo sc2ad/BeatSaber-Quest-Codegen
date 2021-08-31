@@ -168,70 +168,38 @@ namespace System::Runtime::Remoting::Messaging {
     static System::Threading::ContextCallback* _get_ccb();
     // Set static field: static System.Threading.ContextCallback ccb
     static void _set_ccb(System::Threading::ContextCallback* value);
-    // Get instance field: private System.Object async_state
-    ::Il2CppObject* _get_async_state();
-    // Set instance field: private System.Object async_state
-    void _set_async_state(::Il2CppObject* value);
-    // Get instance field: private System.Threading.WaitHandle handle
-    System::Threading::WaitHandle* _get_handle();
-    // Set instance field: private System.Threading.WaitHandle handle
-    void _set_handle(System::Threading::WaitHandle* value);
-    // Get instance field: private System.Object async_delegate
-    ::Il2CppObject* _get_async_delegate();
-    // Set instance field: private System.Object async_delegate
-    void _set_async_delegate(::Il2CppObject* value);
-    // Get instance field: private System.IntPtr data
-    System::IntPtr _get_data();
-    // Set instance field: private System.IntPtr data
-    void _set_data(System::IntPtr value);
-    // Get instance field: private System.Object object_data
-    ::Il2CppObject* _get_object_data();
-    // Set instance field: private System.Object object_data
-    void _set_object_data(::Il2CppObject* value);
-    // Get instance field: private System.Boolean sync_completed
-    bool _get_sync_completed();
-    // Set instance field: private System.Boolean sync_completed
-    void _set_sync_completed(bool value);
-    // Get instance field: private System.Boolean completed
-    bool _get_completed();
-    // Set instance field: private System.Boolean completed
-    void _set_completed(bool value);
-    // Get instance field: private System.Boolean endinvoke_called
-    bool _get_endinvoke_called();
-    // Set instance field: private System.Boolean endinvoke_called
-    void _set_endinvoke_called(bool value);
-    // Get instance field: private System.Object async_callback
-    ::Il2CppObject* _get_async_callback();
-    // Set instance field: private System.Object async_callback
-    void _set_async_callback(::Il2CppObject* value);
-    // Get instance field: private System.Threading.ExecutionContext current
-    System::Threading::ExecutionContext* _get_current();
-    // Set instance field: private System.Threading.ExecutionContext current
-    void _set_current(System::Threading::ExecutionContext* value);
-    // Get instance field: private System.Threading.ExecutionContext original
-    System::Threading::ExecutionContext* _get_original();
-    // Set instance field: private System.Threading.ExecutionContext original
-    void _set_original(System::Threading::ExecutionContext* value);
-    // Get instance field: private System.Int64 add_time
-    int64_t _get_add_time();
-    // Set instance field: private System.Int64 add_time
-    void _set_add_time(int64_t value);
-    // Get instance field: private System.Runtime.Remoting.Messaging.MonoMethodMessage call_message
-    System::Runtime::Remoting::Messaging::MonoMethodMessage* _get_call_message();
-    // Set instance field: private System.Runtime.Remoting.Messaging.MonoMethodMessage call_message
-    void _set_call_message(System::Runtime::Remoting::Messaging::MonoMethodMessage* value);
-    // Get instance field: private System.Runtime.Remoting.Messaging.IMessageCtrl message_ctrl
-    System::Runtime::Remoting::Messaging::IMessageCtrl* _get_message_ctrl();
-    // Set instance field: private System.Runtime.Remoting.Messaging.IMessageCtrl message_ctrl
-    void _set_message_ctrl(System::Runtime::Remoting::Messaging::IMessageCtrl* value);
-    // Get instance field: private System.Runtime.Remoting.Messaging.IMessage reply_message
-    System::Runtime::Remoting::Messaging::IMessage* _get_reply_message();
-    // Set instance field: private System.Runtime.Remoting.Messaging.IMessage reply_message
-    void _set_reply_message(System::Runtime::Remoting::Messaging::IMessage* value);
-    // Get instance field: private System.Threading.WaitCallback orig_cb
-    System::Threading::WaitCallback* _get_orig_cb();
-    // Set instance field: private System.Threading.WaitCallback orig_cb
-    void _set_orig_cb(System::Threading::WaitCallback* value);
+    // Get instance field reference: private System.Object async_state
+    ::Il2CppObject*& dyn_async_state();
+    // Get instance field reference: private System.Threading.WaitHandle handle
+    System::Threading::WaitHandle*& dyn_handle();
+    // Get instance field reference: private System.Object async_delegate
+    ::Il2CppObject*& dyn_async_delegate();
+    // Get instance field reference: private System.IntPtr data
+    System::IntPtr& dyn_data();
+    // Get instance field reference: private System.Object object_data
+    ::Il2CppObject*& dyn_object_data();
+    // Get instance field reference: private System.Boolean sync_completed
+    bool& dyn_sync_completed();
+    // Get instance field reference: private System.Boolean completed
+    bool& dyn_completed();
+    // Get instance field reference: private System.Boolean endinvoke_called
+    bool& dyn_endinvoke_called();
+    // Get instance field reference: private System.Object async_callback
+    ::Il2CppObject*& dyn_async_callback();
+    // Get instance field reference: private System.Threading.ExecutionContext current
+    System::Threading::ExecutionContext*& dyn_current();
+    // Get instance field reference: private System.Threading.ExecutionContext original
+    System::Threading::ExecutionContext*& dyn_original();
+    // Get instance field reference: private System.Int64 add_time
+    int64_t& dyn_add_time();
+    // Get instance field reference: private System.Runtime.Remoting.Messaging.MonoMethodMessage call_message
+    System::Runtime::Remoting::Messaging::MonoMethodMessage*& dyn_call_message();
+    // Get instance field reference: private System.Runtime.Remoting.Messaging.IMessageCtrl message_ctrl
+    System::Runtime::Remoting::Messaging::IMessageCtrl*& dyn_message_ctrl();
+    // Get instance field reference: private System.Runtime.Remoting.Messaging.IMessage reply_message
+    System::Runtime::Remoting::Messaging::IMessage*& dyn_reply_message();
+    // Get instance field reference: private System.Threading.WaitCallback orig_cb
+    System::Threading::WaitCallback*& dyn_orig_cb();
     // public System.Object get_AsyncState()
     // Offset: 0x1A457B8
     ::Il2CppObject* get_AsyncState();

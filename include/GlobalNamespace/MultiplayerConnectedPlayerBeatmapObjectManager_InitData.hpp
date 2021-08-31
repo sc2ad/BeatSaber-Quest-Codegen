@@ -42,18 +42,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: InitData
     InitData(bool disappearingArrows_ = {}, bool ghostNotes_ = {}, float notesUniformScale_ = {}) noexcept : disappearingArrows{disappearingArrows_}, ghostNotes{ghostNotes_}, notesUniformScale{notesUniformScale_} {}
-    // Get instance field: public readonly System.Boolean disappearingArrows
-    bool _get_disappearingArrows();
-    // Set instance field: public readonly System.Boolean disappearingArrows
-    void _set_disappearingArrows(bool value);
-    // Get instance field: public readonly System.Boolean ghostNotes
-    bool _get_ghostNotes();
-    // Set instance field: public readonly System.Boolean ghostNotes
-    void _set_ghostNotes(bool value);
-    // Get instance field: public readonly System.Single notesUniformScale
-    float _get_notesUniformScale();
-    // Set instance field: public readonly System.Single notesUniformScale
-    void _set_notesUniformScale(float value);
+    // Get instance field reference: public readonly System.Boolean disappearingArrows
+    bool& dyn_disappearingArrows();
+    // Get instance field reference: public readonly System.Boolean ghostNotes
+    bool& dyn_ghostNotes();
+    // Get instance field reference: public readonly System.Single notesUniformScale
+    float& dyn_notesUniformScale();
     // public System.Void .ctor(System.Boolean disappearingArrows, System.Boolean ghostNotes, System.Single notesUniformScale)
     // Offset: 0x11A6510
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

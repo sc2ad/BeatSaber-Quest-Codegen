@@ -42,14 +42,10 @@ namespace OnlineServices::API {
     static_assert(sizeof(OnlineServices::API::HTTPLeaderboardsOathHelper*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass10_0
     $$c__DisplayClass10_0(UnityEngine::Networking::UnityWebRequest* webRequest_ = {}, OnlineServices::API::HTTPLeaderboardsOathHelper* $$4__this_ = {}) noexcept : webRequest{webRequest_}, $$4__this{$$4__this_} {}
-    // Get instance field: public UnityEngine.Networking.UnityWebRequest webRequest
-    UnityEngine::Networking::UnityWebRequest* _get_webRequest();
-    // Set instance field: public UnityEngine.Networking.UnityWebRequest webRequest
-    void _set_webRequest(UnityEngine::Networking::UnityWebRequest* value);
-    // Get instance field: public OnlineServices.API.HTTPLeaderboardsOathHelper <>4__this
-    OnlineServices::API::HTTPLeaderboardsOathHelper* _get_$$4__this();
-    // Set instance field: public OnlineServices.API.HTTPLeaderboardsOathHelper <>4__this
-    void _set_$$4__this(OnlineServices::API::HTTPLeaderboardsOathHelper* value);
+    // Get instance field reference: public UnityEngine.Networking.UnityWebRequest webRequest
+    UnityEngine::Networking::UnityWebRequest*& dyn_webRequest();
+    // Get instance field reference: public OnlineServices.API.HTTPLeaderboardsOathHelper <>4__this
+    OnlineServices::API::HTTPLeaderboardsOathHelper*& dyn_$$4__this();
     // public System.Void .ctor()
     // Offset: 0x102731C
     // Implemented from: System.Object

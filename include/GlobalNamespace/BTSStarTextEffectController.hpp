@@ -77,22 +77,14 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kAnimationName();
     // Set static field: static private System.String kAnimationName
     static void _set_kAnimationName(::Il2CppString* value);
-    // Get instance field: private UnityEngine.Transform _transform
-    UnityEngine::Transform* _get__transform();
-    // Set instance field: private UnityEngine.Transform _transform
-    void _set__transform(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.SpriteRenderer _spriteRenderer
-    UnityEngine::SpriteRenderer* _get__spriteRenderer();
-    // Set instance field: private UnityEngine.SpriteRenderer _spriteRenderer
-    void _set__spriteRenderer(UnityEngine::SpriteRenderer* value);
-    // Get instance field: private UnityEngine.Animation _animation
-    UnityEngine::Animation* _get__animation();
-    // Set instance field: private UnityEngine.Animation _animation
-    void _set__animation(UnityEngine::Animation* value);
-    // Get instance field: private System.Single _currentAnimationDuration
-    float _get__currentAnimationDuration();
-    // Set instance field: private System.Single _currentAnimationDuration
-    void _set__currentAnimationDuration(float value);
+    // Get instance field reference: private UnityEngine.Transform _transform
+    UnityEngine::Transform*& dyn__transform();
+    // Get instance field reference: private UnityEngine.SpriteRenderer _spriteRenderer
+    UnityEngine::SpriteRenderer*& dyn__spriteRenderer();
+    // Get instance field reference: private UnityEngine.Animation _animation
+    UnityEngine::Animation*& dyn__animation();
+    // Get instance field reference: private System.Single _currentAnimationDuration
+    float& dyn__currentAnimationDuration();
     // public System.Single get_animationDuration()
     // Offset: 0x1188B90
     float get_animationDuration();

@@ -72,26 +72,16 @@ namespace NUnit::Framework::Internal {
     static_assert(sizeof(System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestResult*>*) == 0x8);
     // Creating value type constructor for type: TestSuiteResult
     TestSuiteResult(int passCount_ = {}, int failCount_ = {}, int skipCount_ = {}, int inconclusiveCount_ = {}, System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestResult*>* children_ = {}) noexcept : passCount{passCount_}, failCount{failCount_}, skipCount{skipCount_}, inconclusiveCount{inconclusiveCount_}, children{children_} {}
-    // Get instance field: private System.Int32 _passCount
-    int _get__passCount();
-    // Set instance field: private System.Int32 _passCount
-    void _set__passCount(int value);
-    // Get instance field: private System.Int32 _failCount
-    int _get__failCount();
-    // Set instance field: private System.Int32 _failCount
-    void _set__failCount(int value);
-    // Get instance field: private System.Int32 _skipCount
-    int _get__skipCount();
-    // Set instance field: private System.Int32 _skipCount
-    void _set__skipCount(int value);
-    // Get instance field: private System.Int32 _inconclusiveCount
-    int _get__inconclusiveCount();
-    // Set instance field: private System.Int32 _inconclusiveCount
-    void _set__inconclusiveCount(int value);
-    // Get instance field: private System.Collections.Generic.List`1<NUnit.Framework.Interfaces.ITestResult> _children
-    System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestResult*>* _get__children();
-    // Set instance field: private System.Collections.Generic.List`1<NUnit.Framework.Interfaces.ITestResult> _children
-    void _set__children(System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestResult*>* value);
+    // Get instance field reference: private System.Int32 _passCount
+    int& dyn__passCount();
+    // Get instance field reference: private System.Int32 _failCount
+    int& dyn__failCount();
+    // Get instance field reference: private System.Int32 _skipCount
+    int& dyn__skipCount();
+    // Get instance field reference: private System.Int32 _inconclusiveCount
+    int& dyn__inconclusiveCount();
+    // Get instance field reference: private System.Collections.Generic.List`1<NUnit.Framework.Interfaces.ITestResult> _children
+    System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestResult*>*& dyn__children();
     // public System.Void .ctor(NUnit.Framework.Internal.TestSuite suite)
     // Offset: 0x22A1BFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

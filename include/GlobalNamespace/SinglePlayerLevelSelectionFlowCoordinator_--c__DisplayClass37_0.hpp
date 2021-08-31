@@ -56,22 +56,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass37_0
     $$c__DisplayClass37_0(GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator* $$4__this_ = {}, System::Action* beforeSceneSwitchCallback_ = {}, bool practice_ = {}, System::Action* $$9__1_ = {}) noexcept : $$4__this{$$4__this_}, beforeSceneSwitchCallback{beforeSceneSwitchCallback_}, practice{practice_}, $$9__1{$$9__1_} {}
-    // Get instance field: public SinglePlayerLevelSelectionFlowCoordinator <>4__this
-    GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator* _get_$$4__this();
-    // Set instance field: public SinglePlayerLevelSelectionFlowCoordinator <>4__this
-    void _set_$$4__this(GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator* value);
-    // Get instance field: public System.Action beforeSceneSwitchCallback
-    System::Action* _get_beforeSceneSwitchCallback();
-    // Set instance field: public System.Action beforeSceneSwitchCallback
-    void _set_beforeSceneSwitchCallback(System::Action* value);
-    // Get instance field: public System.Boolean practice
-    bool _get_practice();
-    // Set instance field: public System.Boolean practice
-    void _set_practice(bool value);
-    // Get instance field: public System.Action <>9__1
-    System::Action* _get_$$9__1();
-    // Set instance field: public System.Action <>9__1
-    void _set_$$9__1(System::Action* value);
+    // Get instance field reference: public SinglePlayerLevelSelectionFlowCoordinator <>4__this
+    GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*& dyn_$$4__this();
+    // Get instance field reference: public System.Action beforeSceneSwitchCallback
+    System::Action*& dyn_beforeSceneSwitchCallback();
+    // Get instance field reference: public System.Boolean practice
+    bool& dyn_practice();
+    // Get instance field reference: public System.Action <>9__1
+    System::Action*& dyn_$$9__1();
     // System.Void <StartLevelOrShow360Prompt>b__0(System.Int32 buttonNumber)
     // Offset: 0x107D8D4
     void $StartLevelOrShow360Prompt$b__0(int buttonNumber);

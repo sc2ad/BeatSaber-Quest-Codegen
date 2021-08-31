@@ -41,14 +41,10 @@ namespace System::Net::NetworkInformation {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.UInt16 AddressFamily
-    uint16_t _get_AddressFamily();
-    // Set instance field: public System.UInt16 AddressFamily
-    void _set_AddressFamily(uint16_t value);
-    // Get instance field: public System.Byte[] AddressData
-    ::Array<uint8_t>* _get_AddressData();
-    // Set instance field: public System.Byte[] AddressData
-    void _set_AddressData(::Array<uint8_t>* value);
+    // Get instance field reference: public System.UInt16 AddressFamily
+    uint16_t& dyn_AddressFamily();
+    // Get instance field reference: public System.Byte[] AddressData
+    ::Array<uint8_t>*& dyn_AddressData();
   }; // System.Net.NetworkInformation.Win32_SOCKADDR
   #pragma pack(pop)
   static check_size<sizeof(Win32_SOCKADDR), 8 + sizeof(::Array<uint8_t>*)> __System_Net_NetworkInformation_Win32_SOCKADDRSizeCheck;

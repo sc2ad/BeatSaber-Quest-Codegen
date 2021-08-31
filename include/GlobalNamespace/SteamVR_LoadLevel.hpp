@@ -257,138 +257,72 @@ namespace GlobalNamespace {
     static GlobalNamespace::SteamVR_LoadLevel* _get__active();
     // Set static field: static private SteamVR_LoadLevel _active
     static void _set__active(GlobalNamespace::SteamVR_LoadLevel* value);
-    // Get instance field: public System.String levelName
-    ::Il2CppString* _get_levelName();
-    // Set instance field: public System.String levelName
-    void _set_levelName(::Il2CppString* value);
-    // Get instance field: public System.String internalProcessPath
-    ::Il2CppString* _get_internalProcessPath();
-    // Set instance field: public System.String internalProcessPath
-    void _set_internalProcessPath(::Il2CppString* value);
-    // Get instance field: public System.String internalProcessArgs
-    ::Il2CppString* _get_internalProcessArgs();
-    // Set instance field: public System.String internalProcessArgs
-    void _set_internalProcessArgs(::Il2CppString* value);
-    // Get instance field: public System.Boolean loadAdditive
-    bool _get_loadAdditive();
-    // Set instance field: public System.Boolean loadAdditive
-    void _set_loadAdditive(bool value);
-    // Get instance field: public System.Boolean loadAsync
-    bool _get_loadAsync();
-    // Set instance field: public System.Boolean loadAsync
-    void _set_loadAsync(bool value);
-    // Get instance field: public UnityEngine.Texture loadingScreen
-    UnityEngine::Texture* _get_loadingScreen();
-    // Set instance field: public UnityEngine.Texture loadingScreen
-    void _set_loadingScreen(UnityEngine::Texture* value);
-    // Get instance field: public UnityEngine.Texture progressBarEmpty
-    UnityEngine::Texture* _get_progressBarEmpty();
-    // Set instance field: public UnityEngine.Texture progressBarEmpty
-    void _set_progressBarEmpty(UnityEngine::Texture* value);
-    // Get instance field: public UnityEngine.Texture progressBarFull
-    UnityEngine::Texture* _get_progressBarFull();
-    // Set instance field: public UnityEngine.Texture progressBarFull
-    void _set_progressBarFull(UnityEngine::Texture* value);
-    // Get instance field: public System.Single loadingScreenWidthInMeters
-    float _get_loadingScreenWidthInMeters();
-    // Set instance field: public System.Single loadingScreenWidthInMeters
-    void _set_loadingScreenWidthInMeters(float value);
-    // Get instance field: public System.Single progressBarWidthInMeters
-    float _get_progressBarWidthInMeters();
-    // Set instance field: public System.Single progressBarWidthInMeters
-    void _set_progressBarWidthInMeters(float value);
-    // Get instance field: public System.Single loadingScreenDistance
-    float _get_loadingScreenDistance();
-    // Set instance field: public System.Single loadingScreenDistance
-    void _set_loadingScreenDistance(float value);
-    // Get instance field: public UnityEngine.Transform loadingScreenTransform
-    UnityEngine::Transform* _get_loadingScreenTransform();
-    // Set instance field: public UnityEngine.Transform loadingScreenTransform
-    void _set_loadingScreenTransform(UnityEngine::Transform* value);
-    // Get instance field: public UnityEngine.Transform progressBarTransform
-    UnityEngine::Transform* _get_progressBarTransform();
-    // Set instance field: public UnityEngine.Transform progressBarTransform
-    void _set_progressBarTransform(UnityEngine::Transform* value);
-    // Get instance field: public UnityEngine.Texture front
-    UnityEngine::Texture* _get_front();
-    // Set instance field: public UnityEngine.Texture front
-    void _set_front(UnityEngine::Texture* value);
-    // Get instance field: public UnityEngine.Texture back
-    UnityEngine::Texture* _get_back();
-    // Set instance field: public UnityEngine.Texture back
-    void _set_back(UnityEngine::Texture* value);
-    // Get instance field: public UnityEngine.Texture left
-    UnityEngine::Texture* _get_left();
-    // Set instance field: public UnityEngine.Texture left
-    void _set_left(UnityEngine::Texture* value);
-    // Get instance field: public UnityEngine.Texture right
-    UnityEngine::Texture* _get_right();
-    // Set instance field: public UnityEngine.Texture right
-    void _set_right(UnityEngine::Texture* value);
-    // Get instance field: public UnityEngine.Texture top
-    UnityEngine::Texture* _get_top();
-    // Set instance field: public UnityEngine.Texture top
-    void _set_top(UnityEngine::Texture* value);
-    // Get instance field: public UnityEngine.Texture bottom
-    UnityEngine::Texture* _get_bottom();
-    // Set instance field: public UnityEngine.Texture bottom
-    void _set_bottom(UnityEngine::Texture* value);
-    // Get instance field: public UnityEngine.Color backgroundColor
-    UnityEngine::Color _get_backgroundColor();
-    // Set instance field: public UnityEngine.Color backgroundColor
-    void _set_backgroundColor(UnityEngine::Color value);
-    // Get instance field: public System.Boolean showGrid
-    bool _get_showGrid();
-    // Set instance field: public System.Boolean showGrid
-    void _set_showGrid(bool value);
-    // Get instance field: public System.Single fadeOutTime
-    float _get_fadeOutTime();
-    // Set instance field: public System.Single fadeOutTime
-    void _set_fadeOutTime(float value);
-    // Get instance field: public System.Single fadeInTime
-    float _get_fadeInTime();
-    // Set instance field: public System.Single fadeInTime
-    void _set_fadeInTime(float value);
-    // Get instance field: public System.Single postLoadSettleTime
-    float _get_postLoadSettleTime();
-    // Set instance field: public System.Single postLoadSettleTime
-    void _set_postLoadSettleTime(float value);
-    // Get instance field: public System.Single loadingScreenFadeInTime
-    float _get_loadingScreenFadeInTime();
-    // Set instance field: public System.Single loadingScreenFadeInTime
-    void _set_loadingScreenFadeInTime(float value);
-    // Get instance field: public System.Single loadingScreenFadeOutTime
-    float _get_loadingScreenFadeOutTime();
-    // Set instance field: public System.Single loadingScreenFadeOutTime
-    void _set_loadingScreenFadeOutTime(float value);
-    // Get instance field: private System.Single fadeRate
-    float _get_fadeRate();
-    // Set instance field: private System.Single fadeRate
-    void _set_fadeRate(float value);
-    // Get instance field: private System.Single alpha
-    float _get_alpha();
-    // Set instance field: private System.Single alpha
-    void _set_alpha(float value);
-    // Get instance field: private UnityEngine.AsyncOperation async
-    UnityEngine::AsyncOperation* _get_async();
-    // Set instance field: private UnityEngine.AsyncOperation async
-    void _set_async(UnityEngine::AsyncOperation* value);
-    // Get instance field: private UnityEngine.RenderTexture renderTexture
-    UnityEngine::RenderTexture* _get_renderTexture();
-    // Set instance field: private UnityEngine.RenderTexture renderTexture
-    void _set_renderTexture(UnityEngine::RenderTexture* value);
-    // Get instance field: private System.UInt64 loadingScreenOverlayHandle
-    uint64_t _get_loadingScreenOverlayHandle();
-    // Set instance field: private System.UInt64 loadingScreenOverlayHandle
-    void _set_loadingScreenOverlayHandle(uint64_t value);
-    // Get instance field: private System.UInt64 progressBarOverlayHandle
-    uint64_t _get_progressBarOverlayHandle();
-    // Set instance field: private System.UInt64 progressBarOverlayHandle
-    void _set_progressBarOverlayHandle(uint64_t value);
-    // Get instance field: public System.Boolean autoTriggerOnEnable
-    bool _get_autoTriggerOnEnable();
-    // Set instance field: public System.Boolean autoTriggerOnEnable
-    void _set_autoTriggerOnEnable(bool value);
+    // Get instance field reference: public System.String levelName
+    ::Il2CppString*& dyn_levelName();
+    // Get instance field reference: public System.String internalProcessPath
+    ::Il2CppString*& dyn_internalProcessPath();
+    // Get instance field reference: public System.String internalProcessArgs
+    ::Il2CppString*& dyn_internalProcessArgs();
+    // Get instance field reference: public System.Boolean loadAdditive
+    bool& dyn_loadAdditive();
+    // Get instance field reference: public System.Boolean loadAsync
+    bool& dyn_loadAsync();
+    // Get instance field reference: public UnityEngine.Texture loadingScreen
+    UnityEngine::Texture*& dyn_loadingScreen();
+    // Get instance field reference: public UnityEngine.Texture progressBarEmpty
+    UnityEngine::Texture*& dyn_progressBarEmpty();
+    // Get instance field reference: public UnityEngine.Texture progressBarFull
+    UnityEngine::Texture*& dyn_progressBarFull();
+    // Get instance field reference: public System.Single loadingScreenWidthInMeters
+    float& dyn_loadingScreenWidthInMeters();
+    // Get instance field reference: public System.Single progressBarWidthInMeters
+    float& dyn_progressBarWidthInMeters();
+    // Get instance field reference: public System.Single loadingScreenDistance
+    float& dyn_loadingScreenDistance();
+    // Get instance field reference: public UnityEngine.Transform loadingScreenTransform
+    UnityEngine::Transform*& dyn_loadingScreenTransform();
+    // Get instance field reference: public UnityEngine.Transform progressBarTransform
+    UnityEngine::Transform*& dyn_progressBarTransform();
+    // Get instance field reference: public UnityEngine.Texture front
+    UnityEngine::Texture*& dyn_front();
+    // Get instance field reference: public UnityEngine.Texture back
+    UnityEngine::Texture*& dyn_back();
+    // Get instance field reference: public UnityEngine.Texture left
+    UnityEngine::Texture*& dyn_left();
+    // Get instance field reference: public UnityEngine.Texture right
+    UnityEngine::Texture*& dyn_right();
+    // Get instance field reference: public UnityEngine.Texture top
+    UnityEngine::Texture*& dyn_top();
+    // Get instance field reference: public UnityEngine.Texture bottom
+    UnityEngine::Texture*& dyn_bottom();
+    // Get instance field reference: public UnityEngine.Color backgroundColor
+    UnityEngine::Color& dyn_backgroundColor();
+    // Get instance field reference: public System.Boolean showGrid
+    bool& dyn_showGrid();
+    // Get instance field reference: public System.Single fadeOutTime
+    float& dyn_fadeOutTime();
+    // Get instance field reference: public System.Single fadeInTime
+    float& dyn_fadeInTime();
+    // Get instance field reference: public System.Single postLoadSettleTime
+    float& dyn_postLoadSettleTime();
+    // Get instance field reference: public System.Single loadingScreenFadeInTime
+    float& dyn_loadingScreenFadeInTime();
+    // Get instance field reference: public System.Single loadingScreenFadeOutTime
+    float& dyn_loadingScreenFadeOutTime();
+    // Get instance field reference: private System.Single fadeRate
+    float& dyn_fadeRate();
+    // Get instance field reference: private System.Single alpha
+    float& dyn_alpha();
+    // Get instance field reference: private UnityEngine.AsyncOperation async
+    UnityEngine::AsyncOperation*& dyn_async();
+    // Get instance field reference: private UnityEngine.RenderTexture renderTexture
+    UnityEngine::RenderTexture*& dyn_renderTexture();
+    // Get instance field reference: private System.UInt64 loadingScreenOverlayHandle
+    uint64_t& dyn_loadingScreenOverlayHandle();
+    // Get instance field reference: private System.UInt64 progressBarOverlayHandle
+    uint64_t& dyn_progressBarOverlayHandle();
+    // Get instance field reference: public System.Boolean autoTriggerOnEnable
+    bool& dyn_autoTriggerOnEnable();
     // static public System.Boolean get_loading()
     // Offset: 0x1425DD8
     static bool get_loading();

@@ -47,14 +47,10 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::OculusConnectionManager*>() noexcept {
       return *reinterpret_cast<GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::OculusConnectionManager*>*>(this);
     }
-    // Get instance field: public OculusNetworkPlayerModel oculusNetworkPlayerModel
-    GlobalNamespace::OculusNetworkPlayerModel* _get_oculusNetworkPlayerModel();
-    // Set instance field: public OculusNetworkPlayerModel oculusNetworkPlayerModel
-    void _set_oculusNetworkPlayerModel(GlobalNamespace::OculusNetworkPlayerModel* value);
-    // Get instance field: public System.UInt64 serverId
-    uint64_t _get_serverId();
-    // Set instance field: public System.UInt64 serverId
-    void _set_serverId(uint64_t value);
+    // Get instance field reference: public OculusNetworkPlayerModel oculusNetworkPlayerModel
+    GlobalNamespace::OculusNetworkPlayerModel*& dyn_oculusNetworkPlayerModel();
+    // Get instance field reference: public System.UInt64 serverId
+    uint64_t& dyn_serverId();
     // public System.Void .ctor()
     // Offset: 0x12394D4
     // Implemented from: System.Object

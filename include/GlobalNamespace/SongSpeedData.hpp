@@ -30,10 +30,8 @@ namespace GlobalNamespace {
     constexpr operator float() const noexcept {
       return speedMul;
     }
-    // Get instance field: public readonly System.Single speedMul
-    float _get_speedMul();
-    // Set instance field: public readonly System.Single speedMul
-    void _set_speedMul(float value);
+    // Get instance field reference: public readonly System.Single speedMul
+    float& dyn_speedMul();
     // public System.Void .ctor(System.Single speedMul)
     // Offset: 0x1081FA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -62,22 +62,14 @@ namespace HMUI {
     static_assert(sizeof(HMUI::ViewController*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass41_0
     $$c__DisplayClass41_0(HMUI::ViewController::AnimationType animationType_ = {}, HMUI::FlowCoordinator* $$4__this_ = {}, System::Action* finishedCallback_ = {}, HMUI::ViewController* originalTopViewController_ = {}) noexcept : animationType{animationType_}, $$4__this{$$4__this_}, finishedCallback{finishedCallback_}, originalTopViewController{originalTopViewController_} {}
-    // Get instance field: public HMUI.ViewController/HMUI.AnimationType animationType
-    HMUI::ViewController::AnimationType _get_animationType();
-    // Set instance field: public HMUI.ViewController/HMUI.AnimationType animationType
-    void _set_animationType(HMUI::ViewController::AnimationType value);
-    // Get instance field: public HMUI.FlowCoordinator <>4__this
-    HMUI::FlowCoordinator* _get_$$4__this();
-    // Set instance field: public HMUI.FlowCoordinator <>4__this
-    void _set_$$4__this(HMUI::FlowCoordinator* value);
-    // Get instance field: public System.Action finishedCallback
-    System::Action* _get_finishedCallback();
-    // Set instance field: public System.Action finishedCallback
-    void _set_finishedCallback(System::Action* value);
-    // Get instance field: public HMUI.ViewController originalTopViewController
-    HMUI::ViewController* _get_originalTopViewController();
-    // Set instance field: public HMUI.ViewController originalTopViewController
-    void _set_originalTopViewController(HMUI::ViewController* value);
+    // Get instance field reference: public HMUI.ViewController/HMUI.AnimationType animationType
+    HMUI::ViewController::AnimationType& dyn_animationType();
+    // Get instance field reference: public HMUI.FlowCoordinator <>4__this
+    HMUI::FlowCoordinator*& dyn_$$4__this();
+    // Get instance field reference: public System.Action finishedCallback
+    System::Action*& dyn_finishedCallback();
+    // Get instance field reference: public HMUI.ViewController originalTopViewController
+    HMUI::ViewController*& dyn_originalTopViewController();
     // System.Void <ReplaceTopViewController>b__0()
     // Offset: 0x136E2FC
     void $ReplaceTopViewController$b__0();

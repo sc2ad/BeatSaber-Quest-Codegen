@@ -69,30 +69,18 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     operator Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>(this);
     }
-    // Get instance field: System.Int32 m_promotionCountdown
-    int _get_m_promotionCountdown();
-    // Set instance field: System.Int32 m_promotionCountdown
-    void _set_m_promotionCountdown(int value);
-    // Get instance field: protected System.Int32 m_confWidth
-    int _get_m_confWidth();
-    // Set instance field: protected System.Int32 m_confWidth
-    void _set_m_confWidth(int value);
-    // Get instance field: protected Org.BouncyCastle.Math.EC.ECPoint[] m_preComp
-    ::Array<Org::BouncyCastle::Math::EC::ECPoint*>* _get_m_preComp();
-    // Set instance field: protected Org.BouncyCastle.Math.EC.ECPoint[] m_preComp
-    void _set_m_preComp(::Array<Org::BouncyCastle::Math::EC::ECPoint*>* value);
-    // Get instance field: protected Org.BouncyCastle.Math.EC.ECPoint[] m_preCompNeg
-    ::Array<Org::BouncyCastle::Math::EC::ECPoint*>* _get_m_preCompNeg();
-    // Set instance field: protected Org.BouncyCastle.Math.EC.ECPoint[] m_preCompNeg
-    void _set_m_preCompNeg(::Array<Org::BouncyCastle::Math::EC::ECPoint*>* value);
-    // Get instance field: protected Org.BouncyCastle.Math.EC.ECPoint m_twice
-    Org::BouncyCastle::Math::EC::ECPoint* _get_m_twice();
-    // Set instance field: protected Org.BouncyCastle.Math.EC.ECPoint m_twice
-    void _set_m_twice(Org::BouncyCastle::Math::EC::ECPoint* value);
-    // Get instance field: protected System.Int32 m_width
-    int _get_m_width();
-    // Set instance field: protected System.Int32 m_width
-    void _set_m_width(int value);
+    // Get instance field reference: System.Int32 m_promotionCountdown
+    int& dyn_m_promotionCountdown();
+    // Get instance field reference: protected System.Int32 m_confWidth
+    int& dyn_m_confWidth();
+    // Get instance field reference: protected Org.BouncyCastle.Math.EC.ECPoint[] m_preComp
+    ::Array<Org::BouncyCastle::Math::EC::ECPoint*>*& dyn_m_preComp();
+    // Get instance field reference: protected Org.BouncyCastle.Math.EC.ECPoint[] m_preCompNeg
+    ::Array<Org::BouncyCastle::Math::EC::ECPoint*>*& dyn_m_preCompNeg();
+    // Get instance field reference: protected Org.BouncyCastle.Math.EC.ECPoint m_twice
+    Org::BouncyCastle::Math::EC::ECPoint*& dyn_m_twice();
+    // Get instance field reference: protected System.Int32 m_width
+    int& dyn_m_width();
     // System.Int32 get_PromotionCountdown()
     // Offset: 0x1DCA0A4
     int get_PromotionCountdown();

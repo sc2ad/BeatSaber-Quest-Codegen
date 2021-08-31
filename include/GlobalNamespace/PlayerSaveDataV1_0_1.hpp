@@ -92,22 +92,14 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kCurrentVersion();
     // Set static field: static public System.String kCurrentVersion
     static void _set_kCurrentVersion(::Il2CppString* value);
-    // Get instance field: public System.String version
-    ::Il2CppString* _get_version();
-    // Set instance field: public System.String version
-    void _set_version(::Il2CppString* value);
-    // Get instance field: public System.Collections.Generic.List`1<PlayerSaveDataV1_0_1/LocalPlayer> localPlayers
-    System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveDataV1_0_1::LocalPlayer*>* _get_localPlayers();
-    // Set instance field: public System.Collections.Generic.List`1<PlayerSaveDataV1_0_1/LocalPlayer> localPlayers
-    void _set_localPlayers(System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveDataV1_0_1::LocalPlayer*>* value);
-    // Get instance field: public System.Collections.Generic.List`1<PlayerSaveDataV1_0_1/GuestPlayer> guestPlayers
-    System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveDataV1_0_1::GuestPlayer*>* _get_guestPlayers();
-    // Set instance field: public System.Collections.Generic.List`1<PlayerSaveDataV1_0_1/GuestPlayer> guestPlayers
-    void _set_guestPlayers(System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveDataV1_0_1::GuestPlayer*>* value);
-    // Get instance field: public BeatmapDifficulty lastSelectedBeatmapDifficulty
-    GlobalNamespace::BeatmapDifficulty _get_lastSelectedBeatmapDifficulty();
-    // Set instance field: public BeatmapDifficulty lastSelectedBeatmapDifficulty
-    void _set_lastSelectedBeatmapDifficulty(GlobalNamespace::BeatmapDifficulty value);
+    // Get instance field reference: public System.String version
+    ::Il2CppString*& dyn_version();
+    // Get instance field reference: public System.Collections.Generic.List`1<PlayerSaveDataV1_0_1/LocalPlayer> localPlayers
+    System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveDataV1_0_1::LocalPlayer*>*& dyn_localPlayers();
+    // Get instance field reference: public System.Collections.Generic.List`1<PlayerSaveDataV1_0_1/GuestPlayer> guestPlayers
+    System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveDataV1_0_1::GuestPlayer*>*& dyn_guestPlayers();
+    // Get instance field reference: public BeatmapDifficulty lastSelectedBeatmapDifficulty
+    GlobalNamespace::BeatmapDifficulty& dyn_lastSelectedBeatmapDifficulty();
     // public System.Void .ctor()
     // Offset: 0x113B44C
     // Implemented from: System.Object

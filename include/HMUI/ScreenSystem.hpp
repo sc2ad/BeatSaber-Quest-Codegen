@@ -107,46 +107,26 @@ namespace HMUI {
     ScreenSystem(HMUI::Screen* mainScreen_ = {}, HMUI::Screen* leftScreen_ = {}, HMUI::Screen* rightScreen_ = {}, HMUI::Screen* bottomScreen_ = {}, HMUI::Screen* topScreen_ = {}, UnityEngine::UI::Button* backButton_ = {}, HMUI::TitleViewController* titleViewController_ = {}, System::Action* backButtonWasPressedEvent_ = {}, bool backButtonIsVisible_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}) noexcept : mainScreen{mainScreen_}, leftScreen{leftScreen_}, rightScreen{rightScreen_}, bottomScreen{bottomScreen_}, topScreen{topScreen_}, backButton{backButton_}, titleViewController{titleViewController_}, backButtonWasPressedEvent{backButtonWasPressedEvent_}, backButtonIsVisible{backButtonIsVisible_}, buttonBinder{buttonBinder_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private HMUI.Screen _mainScreen
-    HMUI::Screen* _get__mainScreen();
-    // Set instance field: private HMUI.Screen _mainScreen
-    void _set__mainScreen(HMUI::Screen* value);
-    // Get instance field: private HMUI.Screen _leftScreen
-    HMUI::Screen* _get__leftScreen();
-    // Set instance field: private HMUI.Screen _leftScreen
-    void _set__leftScreen(HMUI::Screen* value);
-    // Get instance field: private HMUI.Screen _rightScreen
-    HMUI::Screen* _get__rightScreen();
-    // Set instance field: private HMUI.Screen _rightScreen
-    void _set__rightScreen(HMUI::Screen* value);
-    // Get instance field: private HMUI.Screen _bottomScreen
-    HMUI::Screen* _get__bottomScreen();
-    // Set instance field: private HMUI.Screen _bottomScreen
-    void _set__bottomScreen(HMUI::Screen* value);
-    // Get instance field: private HMUI.Screen _topScreen
-    HMUI::Screen* _get__topScreen();
-    // Set instance field: private HMUI.Screen _topScreen
-    void _set__topScreen(HMUI::Screen* value);
-    // Get instance field: private UnityEngine.UI.Button _backButton
-    UnityEngine::UI::Button* _get__backButton();
-    // Set instance field: private UnityEngine.UI.Button _backButton
-    void _set__backButton(UnityEngine::UI::Button* value);
-    // Get instance field: private HMUI.TitleViewController _titleViewController
-    HMUI::TitleViewController* _get__titleViewController();
-    // Set instance field: private HMUI.TitleViewController _titleViewController
-    void _set__titleViewController(HMUI::TitleViewController* value);
-    // Get instance field: private System.Action backButtonWasPressedEvent
-    System::Action* _get_backButtonWasPressedEvent();
-    // Set instance field: private System.Action backButtonWasPressedEvent
-    void _set_backButtonWasPressedEvent(System::Action* value);
-    // Get instance field: private System.Boolean _backButtonIsVisible
-    bool _get__backButtonIsVisible();
-    // Set instance field: private System.Boolean _backButtonIsVisible
-    void _set__backButtonIsVisible(bool value);
-    // Get instance field: private HMUI.ButtonBinder _buttonBinder
-    HMUI::ButtonBinder* _get__buttonBinder();
-    // Set instance field: private HMUI.ButtonBinder _buttonBinder
-    void _set__buttonBinder(HMUI::ButtonBinder* value);
+    // Get instance field reference: private HMUI.Screen _mainScreen
+    HMUI::Screen*& dyn__mainScreen();
+    // Get instance field reference: private HMUI.Screen _leftScreen
+    HMUI::Screen*& dyn__leftScreen();
+    // Get instance field reference: private HMUI.Screen _rightScreen
+    HMUI::Screen*& dyn__rightScreen();
+    // Get instance field reference: private HMUI.Screen _bottomScreen
+    HMUI::Screen*& dyn__bottomScreen();
+    // Get instance field reference: private HMUI.Screen _topScreen
+    HMUI::Screen*& dyn__topScreen();
+    // Get instance field reference: private UnityEngine.UI.Button _backButton
+    UnityEngine::UI::Button*& dyn__backButton();
+    // Get instance field reference: private HMUI.TitleViewController _titleViewController
+    HMUI::TitleViewController*& dyn__titleViewController();
+    // Get instance field reference: private System.Action backButtonWasPressedEvent
+    System::Action*& dyn_backButtonWasPressedEvent();
+    // Get instance field reference: private System.Boolean _backButtonIsVisible
+    bool& dyn__backButtonIsVisible();
+    // Get instance field reference: private HMUI.ButtonBinder _buttonBinder
+    HMUI::ButtonBinder*& dyn__buttonBinder();
     // public HMUI.TitleViewController get_titleViewController()
     // Offset: 0x12FB8BC
     HMUI::TitleViewController* get_titleViewController();

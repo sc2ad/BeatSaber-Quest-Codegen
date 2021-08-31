@@ -42,18 +42,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*>*) == 0x8);
     // Creating value type constructor for type: LevelPackProductData
     LevelPackProductData(uint bundleId_ = {}, ::Il2CppString* levelPackId_ = {}, ::Array<GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*>* levelProductsData_ = {}) noexcept : bundleId{bundleId_}, levelPackId{levelPackId_}, levelProductsData{levelProductsData_} {}
-    // Get instance field: private System.UInt32 _bundleId
-    uint _get__bundleId();
-    // Set instance field: private System.UInt32 _bundleId
-    void _set__bundleId(uint value);
-    // Get instance field: private System.String _levelPackId
-    ::Il2CppString* _get__levelPackId();
-    // Set instance field: private System.String _levelPackId
-    void _set__levelPackId(::Il2CppString* value);
-    // Get instance field: private SteamLevelProductsModelSO/LevelProductData[] _levelProductsData
-    ::Array<GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*>* _get__levelProductsData();
-    // Set instance field: private SteamLevelProductsModelSO/LevelProductData[] _levelProductsData
-    void _set__levelProductsData(::Array<GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*>* value);
+    // Get instance field reference: private System.UInt32 _bundleId
+    uint& dyn__bundleId();
+    // Get instance field reference: private System.String _levelPackId
+    ::Il2CppString*& dyn__levelPackId();
+    // Get instance field reference: private SteamLevelProductsModelSO/LevelProductData[] _levelProductsData
+    ::Array<GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*>*& dyn__levelProductsData();
     // public System.UInt32 get_bundleId()
     // Offset: 0x108D5F8
     uint get_bundleId();

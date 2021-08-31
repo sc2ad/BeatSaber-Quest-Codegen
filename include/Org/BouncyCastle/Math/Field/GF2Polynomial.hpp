@@ -36,10 +36,8 @@ namespace Org::BouncyCastle::Math::Field {
     constexpr operator ::Array<int>*() const noexcept {
       return exponents;
     }
-    // Get instance field: protected readonly System.Int32[] exponents
-    ::Array<int>* _get_exponents();
-    // Set instance field: protected readonly System.Int32[] exponents
-    void _set_exponents(::Array<int>* value);
+    // Get instance field reference: protected readonly System.Int32[] exponents
+    ::Array<int>*& dyn_exponents();
     // public System.Int32 get_Degree()
     // Offset: 0x1DD6EF8
     int get_Degree();

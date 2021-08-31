@@ -87,46 +87,26 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.UInt32 ConnectedControllers
-    uint _get_ConnectedControllers();
-    // Set instance field: public System.UInt32 ConnectedControllers
-    void _set_ConnectedControllers(uint value);
-    // Get instance field: public System.UInt32 Buttons
-    uint _get_Buttons();
-    // Set instance field: public System.UInt32 Buttons
-    void _set_Buttons(uint value);
-    // Get instance field: public System.UInt32 Touches
-    uint _get_Touches();
-    // Set instance field: public System.UInt32 Touches
-    void _set_Touches(uint value);
-    // Get instance field: public System.UInt32 NearTouches
-    uint _get_NearTouches();
-    // Set instance field: public System.UInt32 NearTouches
-    void _set_NearTouches(uint value);
-    // Get instance field: public System.Single LIndexTrigger
-    float _get_LIndexTrigger();
-    // Set instance field: public System.Single LIndexTrigger
-    void _set_LIndexTrigger(float value);
-    // Get instance field: public System.Single RIndexTrigger
-    float _get_RIndexTrigger();
-    // Set instance field: public System.Single RIndexTrigger
-    void _set_RIndexTrigger(float value);
-    // Get instance field: public System.Single LHandTrigger
-    float _get_LHandTrigger();
-    // Set instance field: public System.Single LHandTrigger
-    void _set_LHandTrigger(float value);
-    // Get instance field: public System.Single RHandTrigger
-    float _get_RHandTrigger();
-    // Set instance field: public System.Single RHandTrigger
-    void _set_RHandTrigger(float value);
-    // Get instance field: public OVRPlugin/Vector2f LThumbstick
-    GlobalNamespace::OVRPlugin::Vector2f _get_LThumbstick();
-    // Set instance field: public OVRPlugin/Vector2f LThumbstick
-    void _set_LThumbstick(GlobalNamespace::OVRPlugin::Vector2f value);
-    // Get instance field: public OVRPlugin/Vector2f RThumbstick
-    GlobalNamespace::OVRPlugin::Vector2f _get_RThumbstick();
-    // Set instance field: public OVRPlugin/Vector2f RThumbstick
-    void _set_RThumbstick(GlobalNamespace::OVRPlugin::Vector2f value);
+    // Get instance field reference: public System.UInt32 ConnectedControllers
+    uint& dyn_ConnectedControllers();
+    // Get instance field reference: public System.UInt32 Buttons
+    uint& dyn_Buttons();
+    // Get instance field reference: public System.UInt32 Touches
+    uint& dyn_Touches();
+    // Get instance field reference: public System.UInt32 NearTouches
+    uint& dyn_NearTouches();
+    // Get instance field reference: public System.Single LIndexTrigger
+    float& dyn_LIndexTrigger();
+    // Get instance field reference: public System.Single RIndexTrigger
+    float& dyn_RIndexTrigger();
+    // Get instance field reference: public System.Single LHandTrigger
+    float& dyn_LHandTrigger();
+    // Get instance field reference: public System.Single RHandTrigger
+    float& dyn_RHandTrigger();
+    // Get instance field reference: public OVRPlugin/Vector2f LThumbstick
+    GlobalNamespace::OVRPlugin::Vector2f& dyn_LThumbstick();
+    // Get instance field reference: public OVRPlugin/Vector2f RThumbstick
+    GlobalNamespace::OVRPlugin::Vector2f& dyn_RThumbstick();
   }; // OVRPlugin/ControllerState
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::ControllerState), 40 + sizeof(GlobalNamespace::OVRPlugin::Vector2f)> __GlobalNamespace_OVRPlugin_ControllerStateSizeCheck;

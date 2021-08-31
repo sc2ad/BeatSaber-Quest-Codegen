@@ -141,42 +141,24 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kOptionsCellIdentifier();
     // Set static field: static private System.String kOptionsCellIdentifier
     static void _set_kOptionsCellIdentifier(::Il2CppString* value);
-    // Get instance field: private HMUI.TableView _tableView
-    HMUI::TableView* _get__tableView();
-    // Set instance field: private HMUI.TableView _tableView
-    void _set__tableView(HMUI::TableView* value);
-    // Get instance field: private NetworkPlayerTableCell _playerCellPrefab
-    GlobalNamespace::NetworkPlayerTableCell* _get__playerCellPrefab();
-    // Set instance field: private NetworkPlayerTableCell _playerCellPrefab
-    void _set__playerCellPrefab(GlobalNamespace::NetworkPlayerTableCell* value);
-    // Get instance field: private NetworkPlayerOptionsTableCell _optionsCellPrefab
-    GlobalNamespace::NetworkPlayerOptionsTableCell* _get__optionsCellPrefab();
-    // Set instance field: private NetworkPlayerOptionsTableCell _optionsCellPrefab
-    void _set__optionsCellPrefab(GlobalNamespace::NetworkPlayerOptionsTableCell* value);
-    // Get instance field: private LevelPackHeaderTableCell _headerCellPrefab
-    GlobalNamespace::LevelPackHeaderTableCell* _get__headerCellPrefab();
-    // Set instance field: private LevelPackHeaderTableCell _headerCellPrefab
-    void _set__headerCellPrefab(GlobalNamespace::LevelPackHeaderTableCell* value);
-    // Get instance field: private System.Single _rowHeight
-    float _get__rowHeight();
-    // Set instance field: private System.Single _rowHeight
-    void _set__rowHeight(float value);
-    // Get instance field: private System.Collections.Generic.List`1<NetworkPlayersTableView/CellInfo> _cellInfo
-    System::Collections::Generic::List_1<GlobalNamespace::NetworkPlayersTableView::CellInfo*>* _get__cellInfo();
-    // Set instance field: private System.Collections.Generic.List`1<NetworkPlayersTableView/CellInfo> _cellInfo
-    void _set__cellInfo(System::Collections::Generic::List_1<GlobalNamespace::NetworkPlayersTableView::CellInfo*>* value);
-    // Get instance field: private System.Int32 _selectedCellIndex
-    int _get__selectedCellIndex();
-    // Set instance field: private System.Int32 _selectedCellIndex
-    void _set__selectedCellIndex(int value);
-    // Get instance field: private System.String _selectedPlayerID
-    ::Il2CppString* _get__selectedPlayerID();
-    // Set instance field: private System.String _selectedPlayerID
-    void _set__selectedPlayerID(::Il2CppString* value);
-    // Get instance field: private System.Boolean _selectedCellHasOptions
-    bool _get__selectedCellHasOptions();
-    // Set instance field: private System.Boolean _selectedCellHasOptions
-    void _set__selectedCellHasOptions(bool value);
+    // Get instance field reference: private HMUI.TableView _tableView
+    HMUI::TableView*& dyn__tableView();
+    // Get instance field reference: private NetworkPlayerTableCell _playerCellPrefab
+    GlobalNamespace::NetworkPlayerTableCell*& dyn__playerCellPrefab();
+    // Get instance field reference: private NetworkPlayerOptionsTableCell _optionsCellPrefab
+    GlobalNamespace::NetworkPlayerOptionsTableCell*& dyn__optionsCellPrefab();
+    // Get instance field reference: private LevelPackHeaderTableCell _headerCellPrefab
+    GlobalNamespace::LevelPackHeaderTableCell*& dyn__headerCellPrefab();
+    // Get instance field reference: private System.Single _rowHeight
+    float& dyn__rowHeight();
+    // Get instance field reference: private System.Collections.Generic.List`1<NetworkPlayersTableView/CellInfo> _cellInfo
+    System::Collections::Generic::List_1<GlobalNamespace::NetworkPlayersTableView::CellInfo*>*& dyn__cellInfo();
+    // Get instance field reference: private System.Int32 _selectedCellIndex
+    int& dyn__selectedCellIndex();
+    // Get instance field reference: private System.String _selectedPlayerID
+    ::Il2CppString*& dyn__selectedPlayerID();
+    // Get instance field reference: private System.Boolean _selectedCellHasOptions
+    bool& dyn__selectedCellHasOptions();
     // public System.Single CellSize()
     // Offset: 0x1043014
     float CellSize();

@@ -49,14 +49,10 @@ namespace GlobalNamespace {
     MainCameraCullingMask(UnityEngine::Camera* camera_ = {}, GlobalNamespace::MainCameraCullingMask::InitData* initData_ = {}) noexcept : camera{camera_}, initData{initData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.Camera _camera
-    UnityEngine::Camera* _get__camera();
-    // Set instance field: private UnityEngine.Camera _camera
-    void _set__camera(UnityEngine::Camera* value);
-    // Get instance field: private MainCameraCullingMask/InitData _initData
-    GlobalNamespace::MainCameraCullingMask::InitData* _get__initData();
-    // Set instance field: private MainCameraCullingMask/InitData _initData
-    void _set__initData(GlobalNamespace::MainCameraCullingMask::InitData* value);
+    // Get instance field reference: private UnityEngine.Camera _camera
+    UnityEngine::Camera*& dyn__camera();
+    // Get instance field reference: private MainCameraCullingMask/InitData _initData
+    GlobalNamespace::MainCameraCullingMask::InitData*& dyn__initData();
     // protected System.Void Start()
     // Offset: 0x23910B0
     void Start();

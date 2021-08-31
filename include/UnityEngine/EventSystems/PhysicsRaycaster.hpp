@@ -90,26 +90,16 @@ namespace UnityEngine::EventSystems {
     static int _get_kNoEventMaskSet();
     // Set static field: static protected System.Int32 kNoEventMaskSet
     static void _set_kNoEventMaskSet(int value);
-    // Get instance field: protected UnityEngine.Camera m_EventCamera
-    UnityEngine::Camera* _get_m_EventCamera();
-    // Set instance field: protected UnityEngine.Camera m_EventCamera
-    void _set_m_EventCamera(UnityEngine::Camera* value);
-    // Get instance field: protected UnityEngine.LayerMask m_EventMask
-    UnityEngine::LayerMask _get_m_EventMask();
-    // Set instance field: protected UnityEngine.LayerMask m_EventMask
-    void _set_m_EventMask(UnityEngine::LayerMask value);
-    // Get instance field: protected System.Int32 m_MaxRayIntersections
-    int _get_m_MaxRayIntersections();
-    // Set instance field: protected System.Int32 m_MaxRayIntersections
-    void _set_m_MaxRayIntersections(int value);
-    // Get instance field: protected System.Int32 m_LastMaxRayIntersections
-    int _get_m_LastMaxRayIntersections();
-    // Set instance field: protected System.Int32 m_LastMaxRayIntersections
-    void _set_m_LastMaxRayIntersections(int value);
-    // Get instance field: private UnityEngine.RaycastHit[] m_Hits
-    ::Array<UnityEngine::RaycastHit>* _get_m_Hits();
-    // Set instance field: private UnityEngine.RaycastHit[] m_Hits
-    void _set_m_Hits(::Array<UnityEngine::RaycastHit>* value);
+    // Get instance field reference: protected UnityEngine.Camera m_EventCamera
+    UnityEngine::Camera*& dyn_m_EventCamera();
+    // Get instance field reference: protected UnityEngine.LayerMask m_EventMask
+    UnityEngine::LayerMask& dyn_m_EventMask();
+    // Get instance field reference: protected System.Int32 m_MaxRayIntersections
+    int& dyn_m_MaxRayIntersections();
+    // Get instance field reference: protected System.Int32 m_LastMaxRayIntersections
+    int& dyn_m_LastMaxRayIntersections();
+    // Get instance field reference: private UnityEngine.RaycastHit[] m_Hits
+    ::Array<UnityEngine::RaycastHit>*& dyn_m_Hits();
     // public System.Int32 get_depth()
     // Offset: 0x146B324
     int get_depth();

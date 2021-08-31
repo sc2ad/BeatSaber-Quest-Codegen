@@ -35,14 +35,10 @@ namespace System::Net::NetworkInformation::MacOsStructs {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Byte sa_len
-    uint8_t _get_sa_len();
-    // Set instance field: public System.Byte sa_len
-    void _set_sa_len(uint8_t value);
-    // Get instance field: public System.Byte sa_family
-    uint8_t _get_sa_family();
-    // Set instance field: public System.Byte sa_family
-    void _set_sa_family(uint8_t value);
+    // Get instance field reference: public System.Byte sa_len
+    uint8_t& dyn_sa_len();
+    // Get instance field reference: public System.Byte sa_family
+    uint8_t& dyn_sa_family();
   }; // System.Net.NetworkInformation.MacOsStructs.sockaddr
   #pragma pack(pop)
   static check_size<sizeof(sockaddr), 1 + sizeof(uint8_t)> __System_Net_NetworkInformation_MacOsStructs_sockaddrSizeCheck;

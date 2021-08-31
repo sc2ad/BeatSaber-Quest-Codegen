@@ -50,14 +50,10 @@ namespace GlobalNamespace {
     TutorialNoteCutEffectSpawner(GlobalNamespace::FlyingTextSpawner* failFlyingTextSpawner_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}) noexcept : failFlyingTextSpawner{failFlyingTextSpawner_}, beatmapObjectManager{beatmapObjectManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private FlyingTextSpawner _failFlyingTextSpawner
-    GlobalNamespace::FlyingTextSpawner* _get__failFlyingTextSpawner();
-    // Set instance field: private FlyingTextSpawner _failFlyingTextSpawner
-    void _set__failFlyingTextSpawner(GlobalNamespace::FlyingTextSpawner* value);
-    // Get instance field: private readonly BeatmapObjectManager _beatmapObjectManager
-    GlobalNamespace::BeatmapObjectManager* _get__beatmapObjectManager();
-    // Set instance field: private readonly BeatmapObjectManager _beatmapObjectManager
-    void _set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager* value);
+    // Get instance field reference: private FlyingTextSpawner _failFlyingTextSpawner
+    GlobalNamespace::FlyingTextSpawner*& dyn__failFlyingTextSpawner();
+    // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
+    GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
     // protected System.Void Start()
     // Offset: 0x109B580
     void Start();

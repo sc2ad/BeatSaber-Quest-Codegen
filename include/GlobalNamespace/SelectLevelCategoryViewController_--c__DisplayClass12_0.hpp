@@ -33,10 +33,8 @@ namespace GlobalNamespace {
     constexpr operator ::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>*() const noexcept {
       return enabledLevelCategories;
     }
-    // Get instance field: public SelectLevelCategoryViewController/LevelCategory[] enabledLevelCategories
-    ::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* _get_enabledLevelCategories();
-    // Set instance field: public SelectLevelCategoryViewController/LevelCategory[] enabledLevelCategories
-    void _set_enabledLevelCategories(::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* value);
+    // Get instance field reference: public SelectLevelCategoryViewController/LevelCategory[] enabledLevelCategories
+    ::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>*& dyn_enabledLevelCategories();
     // System.Boolean <Setup>b__0(SelectLevelCategoryViewController/LevelCategoryInfo data)
     // Offset: 0x119DB74
     bool $Setup$b__0(GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo* data);

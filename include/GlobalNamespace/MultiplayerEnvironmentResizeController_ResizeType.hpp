@@ -53,10 +53,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeType _get_Length();
     // Set static field: static public MultiplayerEnvironmentResizeController/ResizeType Length
     static void _set_Length(GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeType value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // MultiplayerEnvironmentResizeController/ResizeType
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerEnvironmentResizeController::ResizeType), 0 + sizeof(int)> __GlobalNamespace_MultiplayerEnvironmentResizeController_ResizeTypeSizeCheck;

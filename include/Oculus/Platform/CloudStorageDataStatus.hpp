@@ -81,10 +81,8 @@ namespace Oculus::Platform {
     static Oculus::Platform::CloudStorageDataStatus _get_InConflict();
     // Set static field: static public Oculus.Platform.CloudStorageDataStatus InConflict
     static void _set_InConflict(Oculus::Platform::CloudStorageDataStatus value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Oculus.Platform.CloudStorageDataStatus
   #pragma pack(pop)
   static check_size<sizeof(CloudStorageDataStatus), 0 + sizeof(int)> __Oculus_Platform_CloudStorageDataStatusSizeCheck;

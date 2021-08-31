@@ -74,10 +74,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType _get_ReturnToMenu();
       // Set static field: static public PatternFightScenesTransitionSetupDataSO/PatternFightEndStateType ReturnToMenu
       static void _set_ReturnToMenu(GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // PatternFightScenesTransitionSetupDataSO/PatternFightEndStateType
     #pragma pack(pop)
     static check_size<sizeof(PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType), 0 + sizeof(int)> __GlobalNamespace_PatternFightScenesTransitionSetupDataSO_PatternFightEndStateTypeSizeCheck;
@@ -108,22 +106,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_2<GlobalNamespace::PatternFightScenesTransitionSetupDataSO*, GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType>*) == 0x8);
     // Creating value type constructor for type: PatternFightScenesTransitionSetupDataSO
     PatternFightScenesTransitionSetupDataSO(GlobalNamespace::EnvironmentInfoSO* environmentInfo_ = {}, GlobalNamespace::SceneInfo* patternFightSceneInfo_ = {}, GlobalNamespace::SceneInfo* gameCoreSceneInfo_ = {}, System::Action_2<GlobalNamespace::PatternFightScenesTransitionSetupDataSO*, GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType>* didFinishEvent_ = {}) noexcept : environmentInfo{environmentInfo_}, patternFightSceneInfo{patternFightSceneInfo_}, gameCoreSceneInfo{gameCoreSceneInfo_}, didFinishEvent{didFinishEvent_} {}
-    // Get instance field: private EnvironmentInfoSO _environmentInfo
-    GlobalNamespace::EnvironmentInfoSO* _get__environmentInfo();
-    // Set instance field: private EnvironmentInfoSO _environmentInfo
-    void _set__environmentInfo(GlobalNamespace::EnvironmentInfoSO* value);
-    // Get instance field: private SceneInfo _patternFightSceneInfo
-    GlobalNamespace::SceneInfo* _get__patternFightSceneInfo();
-    // Set instance field: private SceneInfo _patternFightSceneInfo
-    void _set__patternFightSceneInfo(GlobalNamespace::SceneInfo* value);
-    // Get instance field: private SceneInfo _gameCoreSceneInfo
-    GlobalNamespace::SceneInfo* _get__gameCoreSceneInfo();
-    // Set instance field: private SceneInfo _gameCoreSceneInfo
-    void _set__gameCoreSceneInfo(GlobalNamespace::SceneInfo* value);
-    // Get instance field: private System.Action`2<PatternFightScenesTransitionSetupDataSO,PatternFightScenesTransitionSetupDataSO/PatternFightEndStateType> didFinishEvent
-    System::Action_2<GlobalNamespace::PatternFightScenesTransitionSetupDataSO*, GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType>* _get_didFinishEvent();
-    // Set instance field: private System.Action`2<PatternFightScenesTransitionSetupDataSO,PatternFightScenesTransitionSetupDataSO/PatternFightEndStateType> didFinishEvent
-    void _set_didFinishEvent(System::Action_2<GlobalNamespace::PatternFightScenesTransitionSetupDataSO*, GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType>* value);
+    // Get instance field reference: private EnvironmentInfoSO _environmentInfo
+    GlobalNamespace::EnvironmentInfoSO*& dyn__environmentInfo();
+    // Get instance field reference: private SceneInfo _patternFightSceneInfo
+    GlobalNamespace::SceneInfo*& dyn__patternFightSceneInfo();
+    // Get instance field reference: private SceneInfo _gameCoreSceneInfo
+    GlobalNamespace::SceneInfo*& dyn__gameCoreSceneInfo();
+    // Get instance field reference: private System.Action`2<PatternFightScenesTransitionSetupDataSO,PatternFightScenesTransitionSetupDataSO/PatternFightEndStateType> didFinishEvent
+    System::Action_2<GlobalNamespace::PatternFightScenesTransitionSetupDataSO*, GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`2<PatternFightScenesTransitionSetupDataSO,PatternFightScenesTransitionSetupDataSO/PatternFightEndStateType> value)
     // Offset: 0x1030644
     void add_didFinishEvent(System::Action_2<GlobalNamespace::PatternFightScenesTransitionSetupDataSO*, GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType>* value);

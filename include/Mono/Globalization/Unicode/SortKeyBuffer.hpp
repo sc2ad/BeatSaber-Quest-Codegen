@@ -161,94 +161,50 @@ namespace Mono::Globalization::Unicode {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: SortKeyBuffer
     SortKeyBuffer(::Array<uint8_t>* l1b_ = {}, ::Array<uint8_t>* l2b_ = {}, ::Array<uint8_t>* l3b_ = {}, ::Array<uint8_t>* l4sb_ = {}, ::Array<uint8_t>* l4tb_ = {}, ::Array<uint8_t>* l4kb_ = {}, ::Array<uint8_t>* l4wb_ = {}, ::Array<uint8_t>* l5b_ = {}, ::Il2CppString* source_ = {}, int l1_ = {}, int l2_ = {}, int l3_ = {}, int l4s_ = {}, int l4t_ = {}, int l4k_ = {}, int l4w_ = {}, int l5_ = {}, int lcid_ = {}, System::Globalization::CompareOptions options_ = {}, bool processLevel2_ = {}, bool frenchSort_ = {}, bool frenchSorted_ = {}) noexcept : l1b{l1b_}, l2b{l2b_}, l3b{l3b_}, l4sb{l4sb_}, l4tb{l4tb_}, l4kb{l4kb_}, l4wb{l4wb_}, l5b{l5b_}, source{source_}, l1{l1_}, l2{l2_}, l3{l3_}, l4s{l4s_}, l4t{l4t_}, l4k{l4k_}, l4w{l4w_}, l5{l5_}, lcid{lcid_}, options{options_}, processLevel2{processLevel2_}, frenchSort{frenchSort_}, frenchSorted{frenchSorted_} {}
-    // Get instance field: private System.Byte[] l1b
-    ::Array<uint8_t>* _get_l1b();
-    // Set instance field: private System.Byte[] l1b
-    void _set_l1b(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] l2b
-    ::Array<uint8_t>* _get_l2b();
-    // Set instance field: private System.Byte[] l2b
-    void _set_l2b(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] l3b
-    ::Array<uint8_t>* _get_l3b();
-    // Set instance field: private System.Byte[] l3b
-    void _set_l3b(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] l4sb
-    ::Array<uint8_t>* _get_l4sb();
-    // Set instance field: private System.Byte[] l4sb
-    void _set_l4sb(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] l4tb
-    ::Array<uint8_t>* _get_l4tb();
-    // Set instance field: private System.Byte[] l4tb
-    void _set_l4tb(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] l4kb
-    ::Array<uint8_t>* _get_l4kb();
-    // Set instance field: private System.Byte[] l4kb
-    void _set_l4kb(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] l4wb
-    ::Array<uint8_t>* _get_l4wb();
-    // Set instance field: private System.Byte[] l4wb
-    void _set_l4wb(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] l5b
-    ::Array<uint8_t>* _get_l5b();
-    // Set instance field: private System.Byte[] l5b
-    void _set_l5b(::Array<uint8_t>* value);
-    // Get instance field: private System.String source
-    ::Il2CppString* _get_source();
-    // Set instance field: private System.String source
-    void _set_source(::Il2CppString* value);
-    // Get instance field: private System.Int32 l1
-    int _get_l1();
-    // Set instance field: private System.Int32 l1
-    void _set_l1(int value);
-    // Get instance field: private System.Int32 l2
-    int _get_l2();
-    // Set instance field: private System.Int32 l2
-    void _set_l2(int value);
-    // Get instance field: private System.Int32 l3
-    int _get_l3();
-    // Set instance field: private System.Int32 l3
-    void _set_l3(int value);
-    // Get instance field: private System.Int32 l4s
-    int _get_l4s();
-    // Set instance field: private System.Int32 l4s
-    void _set_l4s(int value);
-    // Get instance field: private System.Int32 l4t
-    int _get_l4t();
-    // Set instance field: private System.Int32 l4t
-    void _set_l4t(int value);
-    // Get instance field: private System.Int32 l4k
-    int _get_l4k();
-    // Set instance field: private System.Int32 l4k
-    void _set_l4k(int value);
-    // Get instance field: private System.Int32 l4w
-    int _get_l4w();
-    // Set instance field: private System.Int32 l4w
-    void _set_l4w(int value);
-    // Get instance field: private System.Int32 l5
-    int _get_l5();
-    // Set instance field: private System.Int32 l5
-    void _set_l5(int value);
-    // Get instance field: private System.Int32 lcid
-    int _get_lcid();
-    // Set instance field: private System.Int32 lcid
-    void _set_lcid(int value);
-    // Get instance field: private System.Globalization.CompareOptions options
-    System::Globalization::CompareOptions _get_options();
-    // Set instance field: private System.Globalization.CompareOptions options
-    void _set_options(System::Globalization::CompareOptions value);
-    // Get instance field: private System.Boolean processLevel2
-    bool _get_processLevel2();
-    // Set instance field: private System.Boolean processLevel2
-    void _set_processLevel2(bool value);
-    // Get instance field: private System.Boolean frenchSort
-    bool _get_frenchSort();
-    // Set instance field: private System.Boolean frenchSort
-    void _set_frenchSort(bool value);
-    // Get instance field: private System.Boolean frenchSorted
-    bool _get_frenchSorted();
-    // Set instance field: private System.Boolean frenchSorted
-    void _set_frenchSorted(bool value);
+    // Get instance field reference: private System.Byte[] l1b
+    ::Array<uint8_t>*& dyn_l1b();
+    // Get instance field reference: private System.Byte[] l2b
+    ::Array<uint8_t>*& dyn_l2b();
+    // Get instance field reference: private System.Byte[] l3b
+    ::Array<uint8_t>*& dyn_l3b();
+    // Get instance field reference: private System.Byte[] l4sb
+    ::Array<uint8_t>*& dyn_l4sb();
+    // Get instance field reference: private System.Byte[] l4tb
+    ::Array<uint8_t>*& dyn_l4tb();
+    // Get instance field reference: private System.Byte[] l4kb
+    ::Array<uint8_t>*& dyn_l4kb();
+    // Get instance field reference: private System.Byte[] l4wb
+    ::Array<uint8_t>*& dyn_l4wb();
+    // Get instance field reference: private System.Byte[] l5b
+    ::Array<uint8_t>*& dyn_l5b();
+    // Get instance field reference: private System.String source
+    ::Il2CppString*& dyn_source();
+    // Get instance field reference: private System.Int32 l1
+    int& dyn_l1();
+    // Get instance field reference: private System.Int32 l2
+    int& dyn_l2();
+    // Get instance field reference: private System.Int32 l3
+    int& dyn_l3();
+    // Get instance field reference: private System.Int32 l4s
+    int& dyn_l4s();
+    // Get instance field reference: private System.Int32 l4t
+    int& dyn_l4t();
+    // Get instance field reference: private System.Int32 l4k
+    int& dyn_l4k();
+    // Get instance field reference: private System.Int32 l4w
+    int& dyn_l4w();
+    // Get instance field reference: private System.Int32 l5
+    int& dyn_l5();
+    // Get instance field reference: private System.Int32 lcid
+    int& dyn_lcid();
+    // Get instance field reference: private System.Globalization.CompareOptions options
+    System::Globalization::CompareOptions& dyn_options();
+    // Get instance field reference: private System.Boolean processLevel2
+    bool& dyn_processLevel2();
+    // Get instance field reference: private System.Boolean frenchSort
+    bool& dyn_frenchSort();
+    // Get instance field reference: private System.Boolean frenchSorted
+    bool& dyn_frenchSorted();
     // public System.Void .ctor(System.Int32 lcid)
     // Offset: 0x1A694A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -39,14 +39,10 @@ namespace Org::BouncyCastle::Math::EC::Abc {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: SimpleBigDecimal
     SimpleBigDecimal(Org::BouncyCastle::Math::BigInteger* bigInt_ = {}, int scale_ = {}) noexcept : bigInt{bigInt_}, scale{scale_} {}
-    // Get instance field: private readonly Org.BouncyCastle.Math.BigInteger bigInt
-    Org::BouncyCastle::Math::BigInteger* _get_bigInt();
-    // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger bigInt
-    void _set_bigInt(Org::BouncyCastle::Math::BigInteger* value);
-    // Get instance field: private readonly System.Int32 scale
-    int _get_scale();
-    // Set instance field: private readonly System.Int32 scale
-    void _set_scale(int value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger bigInt
+    Org::BouncyCastle::Math::BigInteger*& dyn_bigInt();
+    // Get instance field reference: private readonly System.Int32 scale
+    int& dyn_scale();
     // public System.Int32 get_Scale()
     // Offset: 0x1DB06F0
     int get_Scale();

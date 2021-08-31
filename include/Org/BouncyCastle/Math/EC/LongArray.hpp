@@ -61,10 +61,8 @@ namespace Org::BouncyCastle::Math::EC {
     static ::Array<uint8_t>* _get_BitLengths();
     // Set static field: static readonly System.Byte[] BitLengths
     static void _set_BitLengths(::Array<uint8_t>* value);
-    // Get instance field: private System.Int64[] m_ints
-    ::Array<int64_t>* _get_m_ints();
-    // Set instance field: private System.Int64[] m_ints
-    void _set_m_ints(::Array<int64_t>* value);
+    // Get instance field reference: private System.Int64[] m_ints
+    ::Array<int64_t>*& dyn_m_ints();
     // public System.Void .ctor(System.Int32 intLen)
     // Offset: 0x1DC4EDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

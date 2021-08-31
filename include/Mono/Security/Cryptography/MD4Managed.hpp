@@ -54,26 +54,16 @@ namespace Mono::Security::Cryptography {
     static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // Creating value type constructor for type: MD4Managed
     MD4Managed(::Array<uint>* state_ = {}, ::Array<uint8_t>* buffer_ = {}, ::Array<uint>* count_ = {}, ::Array<uint>* x_ = {}, ::Array<uint8_t>* digest_ = {}) noexcept : state{state_}, buffer{buffer_}, count{count_}, x{x_}, digest{digest_} {}
-    // Get instance field: private System.UInt32[] state
-    ::Array<uint>* _get_state();
-    // Set instance field: private System.UInt32[] state
-    void _set_state(::Array<uint>* value);
-    // Get instance field: private System.Byte[] buffer
-    ::Array<uint8_t>* _get_buffer();
-    // Set instance field: private System.Byte[] buffer
-    void _set_buffer(::Array<uint8_t>* value);
-    // Get instance field: private System.UInt32[] count
-    ::Array<uint>* _get_count();
-    // Set instance field: private System.UInt32[] count
-    void _set_count(::Array<uint>* value);
-    // Get instance field: private System.UInt32[] x
-    ::Array<uint>* _get_x();
-    // Set instance field: private System.UInt32[] x
-    void _set_x(::Array<uint>* value);
-    // Get instance field: private System.Byte[] digest
-    ::Array<uint8_t>* _get_digest();
-    // Set instance field: private System.Byte[] digest
-    void _set_digest(::Array<uint8_t>* value);
+    // Get instance field reference: private System.UInt32[] state
+    ::Array<uint>*& dyn_state();
+    // Get instance field reference: private System.Byte[] buffer
+    ::Array<uint8_t>*& dyn_buffer();
+    // Get instance field reference: private System.UInt32[] count
+    ::Array<uint>*& dyn_count();
+    // Get instance field reference: private System.UInt32[] x
+    ::Array<uint>*& dyn_x();
+    // Get instance field reference: private System.Byte[] digest
+    ::Array<uint8_t>*& dyn_digest();
     // private System.Byte[] Padding(System.Int32 nLength)
     // Offset: 0x1E017B0
     ::Array<uint8_t>* Padding(int nLength);

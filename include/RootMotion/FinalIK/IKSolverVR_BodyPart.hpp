@@ -83,38 +83,22 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: BodyPart
     BodyPart(float sqrMag_ = {}, float mag_ = {}, ::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>* bones_ = {}, bool initiated_ = {}, UnityEngine::Vector3 rootPosition_ = {}, UnityEngine::Quaternion rootRotation_ = {}, int index_ = {}, int LOD_ = {}) noexcept : sqrMag{sqrMag_}, mag{mag_}, bones{bones_}, initiated{initiated_}, rootPosition{rootPosition_}, rootRotation{rootRotation_}, index{index_}, LOD{LOD_} {}
-    // Get instance field: private System.Single <sqrMag>k__BackingField
-    float _get_$sqrMag$k__BackingField();
-    // Set instance field: private System.Single <sqrMag>k__BackingField
-    void _set_$sqrMag$k__BackingField(float value);
-    // Get instance field: private System.Single <mag>k__BackingField
-    float _get_$mag$k__BackingField();
-    // Set instance field: private System.Single <mag>k__BackingField
-    void _set_$mag$k__BackingField(float value);
-    // Get instance field: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone[] bones
-    ::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>* _get_bones();
-    // Set instance field: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone[] bones
-    void _set_bones(::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>* value);
-    // Get instance field: protected System.Boolean initiated
-    bool _get_initiated();
-    // Set instance field: protected System.Boolean initiated
-    void _set_initiated(bool value);
-    // Get instance field: protected UnityEngine.Vector3 rootPosition
-    UnityEngine::Vector3 _get_rootPosition();
-    // Set instance field: protected UnityEngine.Vector3 rootPosition
-    void _set_rootPosition(UnityEngine::Vector3 value);
-    // Get instance field: protected UnityEngine.Quaternion rootRotation
-    UnityEngine::Quaternion _get_rootRotation();
-    // Set instance field: protected UnityEngine.Quaternion rootRotation
-    void _set_rootRotation(UnityEngine::Quaternion value);
-    // Get instance field: protected System.Int32 index
-    int _get_index();
-    // Set instance field: protected System.Int32 index
-    void _set_index(int value);
-    // Get instance field: protected System.Int32 LOD
-    int _get_LOD();
-    // Set instance field: protected System.Int32 LOD
-    void _set_LOD(int value);
+    // Get instance field reference: private System.Single <sqrMag>k__BackingField
+    float& dyn_$sqrMag$k__BackingField();
+    // Get instance field reference: private System.Single <mag>k__BackingField
+    float& dyn_$mag$k__BackingField();
+    // Get instance field reference: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone[] bones
+    ::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*& dyn_bones();
+    // Get instance field reference: protected System.Boolean initiated
+    bool& dyn_initiated();
+    // Get instance field reference: protected UnityEngine.Vector3 rootPosition
+    UnityEngine::Vector3& dyn_rootPosition();
+    // Get instance field reference: protected UnityEngine.Quaternion rootRotation
+    UnityEngine::Quaternion& dyn_rootRotation();
+    // Get instance field reference: protected System.Int32 index
+    int& dyn_index();
+    // Get instance field reference: protected System.Int32 LOD
+    int& dyn_LOD();
     // public System.Single get_sqrMag()
     // Offset: 0x1E7F8A4
     float get_sqrMag();

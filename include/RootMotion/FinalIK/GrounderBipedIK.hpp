@@ -97,42 +97,24 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: GrounderBipedIK
     GrounderBipedIK(RootMotion::FinalIK::BipedIK* ik_ = {}, float spineBend_ = {}, float spineSpeed_ = {}, ::Array<UnityEngine::Transform*>* feet_ = {}, ::Array<UnityEngine::Quaternion>* footRotations_ = {}, UnityEngine::Vector3 animatedPelvisLocalPosition_ = {}, UnityEngine::Vector3 solvedPelvisLocalPosition_ = {}, UnityEngine::Vector3 spineOffset_ = {}, float lastWeight_ = {}) noexcept : ik{ik_}, spineBend{spineBend_}, spineSpeed{spineSpeed_}, feet{feet_}, footRotations{footRotations_}, animatedPelvisLocalPosition{animatedPelvisLocalPosition_}, solvedPelvisLocalPosition{solvedPelvisLocalPosition_}, spineOffset{spineOffset_}, lastWeight{lastWeight_} {}
-    // Get instance field: public RootMotion.FinalIK.BipedIK ik
-    RootMotion::FinalIK::BipedIK* _get_ik();
-    // Set instance field: public RootMotion.FinalIK.BipedIK ik
-    void _set_ik(RootMotion::FinalIK::BipedIK* value);
-    // Get instance field: public System.Single spineBend
-    float _get_spineBend();
-    // Set instance field: public System.Single spineBend
-    void _set_spineBend(float value);
-    // Get instance field: public System.Single spineSpeed
-    float _get_spineSpeed();
-    // Set instance field: public System.Single spineSpeed
-    void _set_spineSpeed(float value);
-    // Get instance field: private UnityEngine.Transform[] feet
-    ::Array<UnityEngine::Transform*>* _get_feet();
-    // Set instance field: private UnityEngine.Transform[] feet
-    void _set_feet(::Array<UnityEngine::Transform*>* value);
-    // Get instance field: private UnityEngine.Quaternion[] footRotations
-    ::Array<UnityEngine::Quaternion>* _get_footRotations();
-    // Set instance field: private UnityEngine.Quaternion[] footRotations
-    void _set_footRotations(::Array<UnityEngine::Quaternion>* value);
-    // Get instance field: private UnityEngine.Vector3 animatedPelvisLocalPosition
-    UnityEngine::Vector3 _get_animatedPelvisLocalPosition();
-    // Set instance field: private UnityEngine.Vector3 animatedPelvisLocalPosition
-    void _set_animatedPelvisLocalPosition(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 solvedPelvisLocalPosition
-    UnityEngine::Vector3 _get_solvedPelvisLocalPosition();
-    // Set instance field: private UnityEngine.Vector3 solvedPelvisLocalPosition
-    void _set_solvedPelvisLocalPosition(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 spineOffset
-    UnityEngine::Vector3 _get_spineOffset();
-    // Set instance field: private UnityEngine.Vector3 spineOffset
-    void _set_spineOffset(UnityEngine::Vector3 value);
-    // Get instance field: private System.Single lastWeight
-    float _get_lastWeight();
-    // Set instance field: private System.Single lastWeight
-    void _set_lastWeight(float value);
+    // Get instance field reference: public RootMotion.FinalIK.BipedIK ik
+    RootMotion::FinalIK::BipedIK*& dyn_ik();
+    // Get instance field reference: public System.Single spineBend
+    float& dyn_spineBend();
+    // Get instance field reference: public System.Single spineSpeed
+    float& dyn_spineSpeed();
+    // Get instance field reference: private UnityEngine.Transform[] feet
+    ::Array<UnityEngine::Transform*>*& dyn_feet();
+    // Get instance field reference: private UnityEngine.Quaternion[] footRotations
+    ::Array<UnityEngine::Quaternion>*& dyn_footRotations();
+    // Get instance field reference: private UnityEngine.Vector3 animatedPelvisLocalPosition
+    UnityEngine::Vector3& dyn_animatedPelvisLocalPosition();
+    // Get instance field reference: private UnityEngine.Vector3 solvedPelvisLocalPosition
+    UnityEngine::Vector3& dyn_solvedPelvisLocalPosition();
+    // Get instance field reference: private UnityEngine.Vector3 spineOffset
+    UnityEngine::Vector3& dyn_spineOffset();
+    // Get instance field reference: private System.Single lastWeight
+    float& dyn_lastWeight();
     // private System.Boolean IsReadyToInitiate()
     // Offset: 0x1CC3FE8
     bool IsReadyToInitiate();

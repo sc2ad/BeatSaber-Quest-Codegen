@@ -84,26 +84,16 @@ namespace GlobalNamespace {
     MultiplayerScoreRingItem(TMPro::TextMeshProUGUI* scoreText_ = {}, TMPro::TextMeshProUGUI* nameText_ = {}, Tweening::TweeningManager* tweeningManager_ = {}, Tweening::Tween_1<UnityEngine::Color>* nameColorTween_ = {}, Tweening::Tween_1<UnityEngine::Color>* scoreColorTween_ = {}) noexcept : scoreText{scoreText_}, nameText{nameText_}, tweeningManager{tweeningManager_}, nameColorTween{nameColorTween_}, scoreColorTween{scoreColorTween_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private TMPro.TextMeshProUGUI _scoreText
-    TMPro::TextMeshProUGUI* _get__scoreText();
-    // Set instance field: private TMPro.TextMeshProUGUI _scoreText
-    void _set__scoreText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _nameText
-    TMPro::TextMeshProUGUI* _get__nameText();
-    // Set instance field: private TMPro.TextMeshProUGUI _nameText
-    void _set__nameText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private readonly Tweening.TweeningManager _tweeningManager
-    Tweening::TweeningManager* _get__tweeningManager();
-    // Set instance field: private readonly Tweening.TweeningManager _tweeningManager
-    void _set__tweeningManager(Tweening::TweeningManager* value);
-    // Get instance field: private Tweening.Tween`1<UnityEngine.Color> _nameColorTween
-    Tweening::Tween_1<UnityEngine::Color>* _get__nameColorTween();
-    // Set instance field: private Tweening.Tween`1<UnityEngine.Color> _nameColorTween
-    void _set__nameColorTween(Tweening::Tween_1<UnityEngine::Color>* value);
-    // Get instance field: private Tweening.Tween`1<UnityEngine.Color> _scoreColorTween
-    Tweening::Tween_1<UnityEngine::Color>* _get__scoreColorTween();
-    // Set instance field: private Tweening.Tween`1<UnityEngine.Color> _scoreColorTween
-    void _set__scoreColorTween(Tweening::Tween_1<UnityEngine::Color>* value);
+    // Get instance field reference: private TMPro.TextMeshProUGUI _scoreText
+    TMPro::TextMeshProUGUI*& dyn__scoreText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _nameText
+    TMPro::TextMeshProUGUI*& dyn__nameText();
+    // Get instance field reference: private readonly Tweening.TweeningManager _tweeningManager
+    Tweening::TweeningManager*& dyn__tweeningManager();
+    // Get instance field reference: private Tweening.Tween`1<UnityEngine.Color> _nameColorTween
+    Tweening::Tween_1<UnityEngine::Color>*& dyn__nameColorTween();
+    // Get instance field reference: private Tweening.Tween`1<UnityEngine.Color> _scoreColorTween
+    Tweening::Tween_1<UnityEngine::Color>*& dyn__scoreColorTween();
     // protected System.Void Awake()
     // Offset: 0x103803C
     void Awake();

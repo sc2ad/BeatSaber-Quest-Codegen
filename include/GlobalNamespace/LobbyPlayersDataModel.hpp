@@ -155,46 +155,26 @@ namespace GlobalNamespace {
     operator GlobalNamespace::ILobbyPlayersDataModel() noexcept {
       return *reinterpret_cast<GlobalNamespace::ILobbyPlayersDataModel*>(this);
     }
-    // Get instance field: private readonly IMenuRpcManager _menuRpcManager
-    GlobalNamespace::IMenuRpcManager* _get__menuRpcManager();
-    // Set instance field: private readonly IMenuRpcManager _menuRpcManager
-    void _set__menuRpcManager(GlobalNamespace::IMenuRpcManager* value);
-    // Get instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    GlobalNamespace::IMultiplayerSessionManager* _get__multiplayerSessionManager();
-    // Set instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    void _set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
-    // Get instance field: private readonly BeatmapLevelsModel _beatmapLevelsModel
-    GlobalNamespace::BeatmapLevelsModel* _get__beatmapLevelsModel();
-    // Set instance field: private readonly BeatmapLevelsModel _beatmapLevelsModel
-    void _set__beatmapLevelsModel(GlobalNamespace::BeatmapLevelsModel* value);
-    // Get instance field: private readonly BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
-    GlobalNamespace::BeatmapCharacteristicCollectionSO* _get__beatmapCharacteristicCollection();
-    // Set instance field: private readonly BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
-    void _set__beatmapCharacteristicCollection(GlobalNamespace::BeatmapCharacteristicCollectionSO* value);
-    // Get instance field: private readonly AdditionalContentModel _additionalContentModel
-    GlobalNamespace::AdditionalContentModel* _get__additionalContentModel();
-    // Set instance field: private readonly AdditionalContentModel _additionalContentModel
-    void _set__additionalContentModel(GlobalNamespace::AdditionalContentModel* value);
-    // Get instance field: private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
-    GlobalNamespace::LobbyPlayerPermissionsModel* _get__lobbyPlayerPermissionsModel();
-    // Set instance field: private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
-    void _set__lobbyPlayerPermissionsModel(GlobalNamespace::LobbyPlayerPermissionsModel* value);
-    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,ILobbyPlayerData> _playersData
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::ILobbyPlayerData*>* _get__playersData();
-    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,ILobbyPlayerData> _playersData
-    void _set__playersData(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::ILobbyPlayerData*>* value);
-    // Get instance field: private readonly System.Threading.CancellationTokenSource _cancellationTokenSource
-    System::Threading::CancellationTokenSource* _get__cancellationTokenSource();
-    // Set instance field: private readonly System.Threading.CancellationTokenSource _cancellationTokenSource
-    void _set__cancellationTokenSource(System::Threading::CancellationTokenSource* value);
-    // Get instance field: private System.String <partyOwnerId>k__BackingField
-    ::Il2CppString* _get_$partyOwnerId$k__BackingField();
-    // Set instance field: private System.String <partyOwnerId>k__BackingField
-    void _set_$partyOwnerId$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.Action`1<System.String> didChangeEvent
-    System::Action_1<::Il2CppString*>* _get_didChangeEvent();
-    // Set instance field: private System.Action`1<System.String> didChangeEvent
-    void _set_didChangeEvent(System::Action_1<::Il2CppString*>* value);
+    // Get instance field reference: private readonly IMenuRpcManager _menuRpcManager
+    GlobalNamespace::IMenuRpcManager*& dyn__menuRpcManager();
+    // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
+    // Get instance field reference: private readonly BeatmapLevelsModel _beatmapLevelsModel
+    GlobalNamespace::BeatmapLevelsModel*& dyn__beatmapLevelsModel();
+    // Get instance field reference: private readonly BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
+    GlobalNamespace::BeatmapCharacteristicCollectionSO*& dyn__beatmapCharacteristicCollection();
+    // Get instance field reference: private readonly AdditionalContentModel _additionalContentModel
+    GlobalNamespace::AdditionalContentModel*& dyn__additionalContentModel();
+    // Get instance field reference: private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
+    GlobalNamespace::LobbyPlayerPermissionsModel*& dyn__lobbyPlayerPermissionsModel();
+    // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,ILobbyPlayerData> _playersData
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::ILobbyPlayerData*>*& dyn__playersData();
+    // Get instance field reference: private readonly System.Threading.CancellationTokenSource _cancellationTokenSource
+    System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
+    // Get instance field reference: private System.String <partyOwnerId>k__BackingField
+    ::Il2CppString*& dyn_$partyOwnerId$k__BackingField();
+    // Get instance field reference: private System.Action`1<System.String> didChangeEvent
+    System::Action_1<::Il2CppString*>*& dyn_didChangeEvent();
     // public System.String get_localUserId()
     // Offset: 0x120795C
     ::Il2CppString* get_localUserId();

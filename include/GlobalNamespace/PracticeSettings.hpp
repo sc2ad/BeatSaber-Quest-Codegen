@@ -46,18 +46,12 @@ namespace GlobalNamespace {
     static float _get_kDelayBeforeStart();
     // Set static field: static public System.Single kDelayBeforeStart
     static void _set_kDelayBeforeStart(float value);
-    // Get instance field: private System.Single _startSongTime
-    float _get__startSongTime();
-    // Set instance field: private System.Single _startSongTime
-    void _set__startSongTime(float value);
-    // Get instance field: private System.Single _songSpeedMul
-    float _get__songSpeedMul();
-    // Set instance field: private System.Single _songSpeedMul
-    void _set__songSpeedMul(float value);
-    // Get instance field: private System.Boolean _startInAdvanceAndClearNotes
-    bool _get__startInAdvanceAndClearNotes();
-    // Set instance field: private System.Boolean _startInAdvanceAndClearNotes
-    void _set__startInAdvanceAndClearNotes(bool value);
+    // Get instance field reference: private System.Single _startSongTime
+    float& dyn__startSongTime();
+    // Get instance field reference: private System.Single _songSpeedMul
+    float& dyn__songSpeedMul();
+    // Get instance field reference: private System.Boolean _startInAdvanceAndClearNotes
+    bool& dyn__startInAdvanceAndClearNotes();
     // public System.Single get_startSongTime()
     // Offset: 0x113E220
     float get_startSongTime();

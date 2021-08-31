@@ -63,14 +63,10 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public readonly System.Single time
-      float _get_time();
-      // Set instance field: public readonly System.Single time
-      void _set_time(float value);
-      // Get instance field: public readonly System.Action action
-      System::Action* _get_action();
-      // Set instance field: public readonly System.Action action
-      void _set_action(System::Action* value);
+      // Get instance field reference: public readonly System.Single time
+      float& dyn_time();
+      // Get instance field reference: public readonly System.Action action
+      System::Action*& dyn_action();
       // public System.Void .ctor(System.Single time, System.Action action)
       // Offset: 0x16FB638
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -91,10 +87,8 @@ namespace GlobalNamespace {
     constexpr operator System::Collections::Generic::List_1<GlobalNamespace::SynchronizedActionQueue::SynchronizedAction>*() const noexcept {
       return synchronizedActionQueue;
     }
-    // Get instance field: private readonly System.Collections.Generic.List`1<SynchronizedActionQueue/SynchronizedAction> _synchronizedActionQueue
-    System::Collections::Generic::List_1<GlobalNamespace::SynchronizedActionQueue::SynchronizedAction>* _get__synchronizedActionQueue();
-    // Set instance field: private readonly System.Collections.Generic.List`1<SynchronizedActionQueue/SynchronizedAction> _synchronizedActionQueue
-    void _set__synchronizedActionQueue(System::Collections::Generic::List_1<GlobalNamespace::SynchronizedActionQueue::SynchronizedAction>* value);
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<SynchronizedActionQueue/SynchronizedAction> _synchronizedActionQueue
+    System::Collections::Generic::List_1<GlobalNamespace::SynchronizedActionQueue::SynchronizedAction>*& dyn__synchronizedActionQueue();
     // public System.Void Clear()
     // Offset: 0x16ED8F0
     void Clear();

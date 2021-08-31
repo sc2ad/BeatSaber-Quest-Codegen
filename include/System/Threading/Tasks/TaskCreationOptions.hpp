@@ -75,10 +75,8 @@ namespace System::Threading::Tasks {
     static System::Threading::Tasks::TaskCreationOptions _get_RunContinuationsAsynchronously();
     // Set static field: static public System.Threading.Tasks.TaskCreationOptions RunContinuationsAsynchronously
     static void _set_RunContinuationsAsynchronously(System::Threading::Tasks::TaskCreationOptions value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Threading.Tasks.TaskCreationOptions
   #pragma pack(pop)
   static check_size<sizeof(TaskCreationOptions), 0 + sizeof(int)> __System_Threading_Tasks_TaskCreationOptionsSizeCheck;

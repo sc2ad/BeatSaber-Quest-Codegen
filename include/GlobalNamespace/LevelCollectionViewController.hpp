@@ -166,62 +166,34 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::IPreviewBeatmapLevel*) == 0x8);
     // Creating value type constructor for type: LevelCollectionViewController
     LevelCollectionViewController(GlobalNamespace::LevelCollectionTableView* levelCollectionTableView_ = {}, UnityEngine::RectTransform* noDataInfoContainer_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, Zenject::DiContainer* container_ = {}, GlobalNamespace::AdditionalContentModel* additionalContentModel_ = {}, GlobalNamespace::SongPreviewPlayer* songPreviewPlayer_ = {}, DataModels::Levels::PerceivedLoudnessPerLevelModel* perceivedLoudnessPerLevelModel_ = {}, System::Action_2<GlobalNamespace::LevelCollectionViewController*, GlobalNamespace::IPreviewBeatmapLevel*>* didSelectLevelEvent_ = {}, System::Action_1<GlobalNamespace::LevelCollectionViewController*>* didSelectHeaderEvent_ = {}, bool showHeader_ = {}, System::Threading::CancellationTokenSource* cancellationTokenSource_ = {}, ::Il2CppString* songPlayerCrossfadignToLevelId_ = {}, UnityEngine::GameObject* noDataInfoGO_ = {}, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevelToBeSelected_ = {}) noexcept : levelCollectionTableView{levelCollectionTableView_}, noDataInfoContainer{noDataInfoContainer_}, playerDataModel{playerDataModel_}, container{container_}, additionalContentModel{additionalContentModel_}, songPreviewPlayer{songPreviewPlayer_}, perceivedLoudnessPerLevelModel{perceivedLoudnessPerLevelModel_}, didSelectLevelEvent{didSelectLevelEvent_}, didSelectHeaderEvent{didSelectHeaderEvent_}, showHeader{showHeader_}, cancellationTokenSource{cancellationTokenSource_}, songPlayerCrossfadignToLevelId{songPlayerCrossfadignToLevelId_}, noDataInfoGO{noDataInfoGO_}, previewBeatmapLevelToBeSelected{previewBeatmapLevelToBeSelected_} {}
-    // Get instance field: private LevelCollectionTableView _levelCollectionTableView
-    GlobalNamespace::LevelCollectionTableView* _get__levelCollectionTableView();
-    // Set instance field: private LevelCollectionTableView _levelCollectionTableView
-    void _set__levelCollectionTableView(GlobalNamespace::LevelCollectionTableView* value);
-    // Get instance field: private UnityEngine.RectTransform _noDataInfoContainer
-    UnityEngine::RectTransform* _get__noDataInfoContainer();
-    // Set instance field: private UnityEngine.RectTransform _noDataInfoContainer
-    void _set__noDataInfoContainer(UnityEngine::RectTransform* value);
-    // Get instance field: private PlayerDataModel _playerDataModel
-    GlobalNamespace::PlayerDataModel* _get__playerDataModel();
-    // Set instance field: private PlayerDataModel _playerDataModel
-    void _set__playerDataModel(GlobalNamespace::PlayerDataModel* value);
-    // Get instance field: private Zenject.DiContainer _container
-    Zenject::DiContainer* _get__container();
-    // Set instance field: private Zenject.DiContainer _container
-    void _set__container(Zenject::DiContainer* value);
-    // Get instance field: private AdditionalContentModel _additionalContentModel
-    GlobalNamespace::AdditionalContentModel* _get__additionalContentModel();
-    // Set instance field: private AdditionalContentModel _additionalContentModel
-    void _set__additionalContentModel(GlobalNamespace::AdditionalContentModel* value);
-    // Get instance field: private SongPreviewPlayer _songPreviewPlayer
-    GlobalNamespace::SongPreviewPlayer* _get__songPreviewPlayer();
-    // Set instance field: private SongPreviewPlayer _songPreviewPlayer
-    void _set__songPreviewPlayer(GlobalNamespace::SongPreviewPlayer* value);
-    // Get instance field: private DataModels.Levels.PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
-    DataModels::Levels::PerceivedLoudnessPerLevelModel* _get__perceivedLoudnessPerLevelModel();
-    // Set instance field: private DataModels.Levels.PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
-    void _set__perceivedLoudnessPerLevelModel(DataModels::Levels::PerceivedLoudnessPerLevelModel* value);
-    // Get instance field: private System.Action`2<LevelCollectionViewController,IPreviewBeatmapLevel> didSelectLevelEvent
-    System::Action_2<GlobalNamespace::LevelCollectionViewController*, GlobalNamespace::IPreviewBeatmapLevel*>* _get_didSelectLevelEvent();
-    // Set instance field: private System.Action`2<LevelCollectionViewController,IPreviewBeatmapLevel> didSelectLevelEvent
-    void _set_didSelectLevelEvent(System::Action_2<GlobalNamespace::LevelCollectionViewController*, GlobalNamespace::IPreviewBeatmapLevel*>* value);
-    // Get instance field: private System.Action`1<LevelCollectionViewController> didSelectHeaderEvent
-    System::Action_1<GlobalNamespace::LevelCollectionViewController*>* _get_didSelectHeaderEvent();
-    // Set instance field: private System.Action`1<LevelCollectionViewController> didSelectHeaderEvent
-    void _set_didSelectHeaderEvent(System::Action_1<GlobalNamespace::LevelCollectionViewController*>* value);
-    // Get instance field: private System.Boolean _showHeader
-    bool _get__showHeader();
-    // Set instance field: private System.Boolean _showHeader
-    void _set__showHeader(bool value);
-    // Get instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    System::Threading::CancellationTokenSource* _get__cancellationTokenSource();
-    // Set instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    void _set__cancellationTokenSource(System::Threading::CancellationTokenSource* value);
-    // Get instance field: private System.String _songPlayerCrossfadignToLevelId
-    ::Il2CppString* _get__songPlayerCrossfadignToLevelId();
-    // Set instance field: private System.String _songPlayerCrossfadignToLevelId
-    void _set__songPlayerCrossfadignToLevelId(::Il2CppString* value);
-    // Get instance field: private UnityEngine.GameObject _noDataInfoGO
-    UnityEngine::GameObject* _get__noDataInfoGO();
-    // Set instance field: private UnityEngine.GameObject _noDataInfoGO
-    void _set__noDataInfoGO(UnityEngine::GameObject* value);
-    // Get instance field: private IPreviewBeatmapLevel _previewBeatmapLevelToBeSelected
-    GlobalNamespace::IPreviewBeatmapLevel* _get__previewBeatmapLevelToBeSelected();
-    // Set instance field: private IPreviewBeatmapLevel _previewBeatmapLevelToBeSelected
-    void _set__previewBeatmapLevelToBeSelected(GlobalNamespace::IPreviewBeatmapLevel* value);
+    // Get instance field reference: private LevelCollectionTableView _levelCollectionTableView
+    GlobalNamespace::LevelCollectionTableView*& dyn__levelCollectionTableView();
+    // Get instance field reference: private UnityEngine.RectTransform _noDataInfoContainer
+    UnityEngine::RectTransform*& dyn__noDataInfoContainer();
+    // Get instance field reference: private PlayerDataModel _playerDataModel
+    GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
+    // Get instance field reference: private Zenject.DiContainer _container
+    Zenject::DiContainer*& dyn__container();
+    // Get instance field reference: private AdditionalContentModel _additionalContentModel
+    GlobalNamespace::AdditionalContentModel*& dyn__additionalContentModel();
+    // Get instance field reference: private SongPreviewPlayer _songPreviewPlayer
+    GlobalNamespace::SongPreviewPlayer*& dyn__songPreviewPlayer();
+    // Get instance field reference: private DataModels.Levels.PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
+    DataModels::Levels::PerceivedLoudnessPerLevelModel*& dyn__perceivedLoudnessPerLevelModel();
+    // Get instance field reference: private System.Action`2<LevelCollectionViewController,IPreviewBeatmapLevel> didSelectLevelEvent
+    System::Action_2<GlobalNamespace::LevelCollectionViewController*, GlobalNamespace::IPreviewBeatmapLevel*>*& dyn_didSelectLevelEvent();
+    // Get instance field reference: private System.Action`1<LevelCollectionViewController> didSelectHeaderEvent
+    System::Action_1<GlobalNamespace::LevelCollectionViewController*>*& dyn_didSelectHeaderEvent();
+    // Get instance field reference: private System.Boolean _showHeader
+    bool& dyn__showHeader();
+    // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
+    System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
+    // Get instance field reference: private System.String _songPlayerCrossfadignToLevelId
+    ::Il2CppString*& dyn__songPlayerCrossfadignToLevelId();
+    // Get instance field reference: private UnityEngine.GameObject _noDataInfoGO
+    UnityEngine::GameObject*& dyn__noDataInfoGO();
+    // Get instance field reference: private IPreviewBeatmapLevel _previewBeatmapLevelToBeSelected
+    GlobalNamespace::IPreviewBeatmapLevel*& dyn__previewBeatmapLevelToBeSelected();
     // public System.Void add_didSelectLevelEvent(System.Action`2<LevelCollectionViewController,IPreviewBeatmapLevel> value)
     // Offset: 0x114B8E8
     void add_didSelectLevelEvent(System::Action_2<GlobalNamespace::LevelCollectionViewController*, GlobalNamespace::IPreviewBeatmapLevel*>* value);

@@ -58,22 +58,14 @@ namespace UnityEngine::AddressableAssets {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: ResourceLocatorInfo
     ResourceLocatorInfo(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* Locator_ = {}, ::Il2CppString* LocalHash_ = {}, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* CatalogLocation_ = {}, bool ContentUpdateAvailable_ = {}) noexcept : Locator{Locator_}, LocalHash{LocalHash_}, CatalogLocation{CatalogLocation_}, ContentUpdateAvailable{ContentUpdateAvailable_} {}
-    // Get instance field: private UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator <Locator>k__BackingField
-    UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* _get_$Locator$k__BackingField();
-    // Set instance field: private UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator <Locator>k__BackingField
-    void _set_$Locator$k__BackingField(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* value);
-    // Get instance field: private System.String <LocalHash>k__BackingField
-    ::Il2CppString* _get_$LocalHash$k__BackingField();
-    // Set instance field: private System.String <LocalHash>k__BackingField
-    void _set_$LocalHash$k__BackingField(::Il2CppString* value);
-    // Get instance field: private UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation <CatalogLocation>k__BackingField
-    UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* _get_$CatalogLocation$k__BackingField();
-    // Set instance field: private UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation <CatalogLocation>k__BackingField
-    void _set_$CatalogLocation$k__BackingField(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
-    // Get instance field: private System.Boolean <ContentUpdateAvailable>k__BackingField
-    bool _get_$ContentUpdateAvailable$k__BackingField();
-    // Set instance field: private System.Boolean <ContentUpdateAvailable>k__BackingField
-    void _set_$ContentUpdateAvailable$k__BackingField(bool value);
+    // Get instance field reference: private UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator <Locator>k__BackingField
+    UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*& dyn_$Locator$k__BackingField();
+    // Get instance field reference: private System.String <LocalHash>k__BackingField
+    ::Il2CppString*& dyn_$LocalHash$k__BackingField();
+    // Get instance field reference: private UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation <CatalogLocation>k__BackingField
+    UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& dyn_$CatalogLocation$k__BackingField();
+    // Get instance field reference: private System.Boolean <ContentUpdateAvailable>k__BackingField
+    bool& dyn_$ContentUpdateAvailable$k__BackingField();
     // public UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator get_Locator()
     // Offset: 0x1442EB0
     UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* get_Locator();

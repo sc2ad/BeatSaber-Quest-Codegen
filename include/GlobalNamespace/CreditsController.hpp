@@ -120,46 +120,26 @@ namespace GlobalNamespace {
     CreditsController(GlobalNamespace::CreditsScenesTransitionSetupDataSO* creditsSceneSetupDataSO_ = {}, GlobalNamespace::AudioPlayerBase* audioPlayer_ = {}, UnityEngine::UI::Button* continueButton_ = {}, UnityEngine::RectTransform* contentRectTransform_ = {}, float overflowHeight_ = {}, UnityEngine::RectTransform* contentWrapper_ = {}, GlobalNamespace::IVRPlatformHelper* vrPlatformHelper_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}, bool didFinish_ = {}, bool isPaused_ = {}) noexcept : creditsSceneSetupDataSO{creditsSceneSetupDataSO_}, audioPlayer{audioPlayer_}, continueButton{continueButton_}, contentRectTransform{contentRectTransform_}, overflowHeight{overflowHeight_}, contentWrapper{contentWrapper_}, vrPlatformHelper{vrPlatformHelper_}, buttonBinder{buttonBinder_}, didFinish{didFinish_}, isPaused{isPaused_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private CreditsScenesTransitionSetupDataSO _creditsSceneSetupDataSO
-    GlobalNamespace::CreditsScenesTransitionSetupDataSO* _get__creditsSceneSetupDataSO();
-    // Set instance field: private CreditsScenesTransitionSetupDataSO _creditsSceneSetupDataSO
-    void _set__creditsSceneSetupDataSO(GlobalNamespace::CreditsScenesTransitionSetupDataSO* value);
-    // Get instance field: private AudioPlayerBase _audioPlayer
-    GlobalNamespace::AudioPlayerBase* _get__audioPlayer();
-    // Set instance field: private AudioPlayerBase _audioPlayer
-    void _set__audioPlayer(GlobalNamespace::AudioPlayerBase* value);
-    // Get instance field: private UnityEngine.UI.Button _continueButton
-    UnityEngine::UI::Button* _get__continueButton();
-    // Set instance field: private UnityEngine.UI.Button _continueButton
-    void _set__continueButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.RectTransform _contentRectTransform
-    UnityEngine::RectTransform* _get__contentRectTransform();
-    // Set instance field: private UnityEngine.RectTransform _contentRectTransform
-    void _set__contentRectTransform(UnityEngine::RectTransform* value);
-    // Get instance field: private System.Single _overflowHeight
-    float _get__overflowHeight();
-    // Set instance field: private System.Single _overflowHeight
-    void _set__overflowHeight(float value);
-    // Get instance field: private UnityEngine.RectTransform _contentWrapper
-    UnityEngine::RectTransform* _get__contentWrapper();
-    // Set instance field: private UnityEngine.RectTransform _contentWrapper
-    void _set__contentWrapper(UnityEngine::RectTransform* value);
-    // Get instance field: private readonly IVRPlatformHelper _vrPlatformHelper
-    GlobalNamespace::IVRPlatformHelper* _get__vrPlatformHelper();
-    // Set instance field: private readonly IVRPlatformHelper _vrPlatformHelper
-    void _set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper* value);
-    // Get instance field: private HMUI.ButtonBinder _buttonBinder
-    HMUI::ButtonBinder* _get__buttonBinder();
-    // Set instance field: private HMUI.ButtonBinder _buttonBinder
-    void _set__buttonBinder(HMUI::ButtonBinder* value);
-    // Get instance field: private System.Boolean _didFinish
-    bool _get__didFinish();
-    // Set instance field: private System.Boolean _didFinish
-    void _set__didFinish(bool value);
-    // Get instance field: private System.Boolean _isPaused
-    bool _get__isPaused();
-    // Set instance field: private System.Boolean _isPaused
-    void _set__isPaused(bool value);
+    // Get instance field reference: private CreditsScenesTransitionSetupDataSO _creditsSceneSetupDataSO
+    GlobalNamespace::CreditsScenesTransitionSetupDataSO*& dyn__creditsSceneSetupDataSO();
+    // Get instance field reference: private AudioPlayerBase _audioPlayer
+    GlobalNamespace::AudioPlayerBase*& dyn__audioPlayer();
+    // Get instance field reference: private UnityEngine.UI.Button _continueButton
+    UnityEngine::UI::Button*& dyn__continueButton();
+    // Get instance field reference: private UnityEngine.RectTransform _contentRectTransform
+    UnityEngine::RectTransform*& dyn__contentRectTransform();
+    // Get instance field reference: private System.Single _overflowHeight
+    float& dyn__overflowHeight();
+    // Get instance field reference: private UnityEngine.RectTransform _contentWrapper
+    UnityEngine::RectTransform*& dyn__contentWrapper();
+    // Get instance field reference: private readonly IVRPlatformHelper _vrPlatformHelper
+    GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
+    // Get instance field reference: private HMUI.ButtonBinder _buttonBinder
+    HMUI::ButtonBinder*& dyn__buttonBinder();
+    // Get instance field reference: private System.Boolean _didFinish
+    bool& dyn__didFinish();
+    // Get instance field reference: private System.Boolean _isPaused
+    bool& dyn__isPaused();
     // protected System.Void Start()
     // Offset: 0x10F4208
     void Start();

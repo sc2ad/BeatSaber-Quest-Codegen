@@ -55,14 +55,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(Tweening::Vector3Tween*) == 0x8);
     // Creating value type constructor for type: PositionRectTransformViewStateTransition
     PositionRectTransformViewStateTransition(GlobalNamespace::Vector3TransitionSO* transition_ = {}, Tweening::Vector3Tween* vectorTween_ = {}) noexcept : transition{transition_}, vectorTween{vectorTween_} {}
-    // Get instance field: private Vector3TransitionSO _transition
-    GlobalNamespace::Vector3TransitionSO* _get__transition();
-    // Set instance field: private Vector3TransitionSO _transition
-    void _set__transition(GlobalNamespace::Vector3TransitionSO* value);
-    // Get instance field: private Tweening.Vector3Tween _vectorTween
-    Tweening::Vector3Tween* _get__vectorTween();
-    // Set instance field: private Tweening.Vector3Tween _vectorTween
-    void _set__vectorTween(Tweening::Vector3Tween* value);
+    // Get instance field reference: private Vector3TransitionSO _transition
+    GlobalNamespace::Vector3TransitionSO*& dyn__transition();
+    // Get instance field reference: private Tweening.Vector3Tween _vectorTween
+    Tweening::Vector3Tween*& dyn__vectorTween();
     // private System.Void StartTween(UnityEngine.Vector3 endPosition)
     // Offset: 0x113D9D8
     void StartTween(UnityEngine::Vector3 endPosition);

@@ -104,26 +104,16 @@ namespace NUnit::Framework {
     operator NUnit::Framework::Interfaces::ITestFixtureData() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ITestFixtureData*>(this);
     }
-    // Get instance field: private readonly NUnit.Framework.Internal.Builders.NUnitTestFixtureBuilder _builder
-    NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder* _get__builder();
-    // Set instance field: private readonly NUnit.Framework.Internal.Builders.NUnitTestFixtureBuilder _builder
-    void _set__builder(NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder* value);
-    // Get instance field: private NUnit.Framework.Interfaces.RunState <RunState>k__BackingField
-    NUnit::Framework::Interfaces::RunState _get_$RunState$k__BackingField();
-    // Set instance field: private NUnit.Framework.Interfaces.RunState <RunState>k__BackingField
-    void _set_$RunState$k__BackingField(NUnit::Framework::Interfaces::RunState value);
-    // Get instance field: private System.Object[] <Arguments>k__BackingField
-    ::Array<::Il2CppObject*>* _get_$Arguments$k__BackingField();
-    // Set instance field: private System.Object[] <Arguments>k__BackingField
-    void _set_$Arguments$k__BackingField(::Array<::Il2CppObject*>* value);
-    // Get instance field: private NUnit.Framework.Interfaces.IPropertyBag <Properties>k__BackingField
-    NUnit::Framework::Interfaces::IPropertyBag* _get_$Properties$k__BackingField();
-    // Set instance field: private NUnit.Framework.Interfaces.IPropertyBag <Properties>k__BackingField
-    void _set_$Properties$k__BackingField(NUnit::Framework::Interfaces::IPropertyBag* value);
-    // Get instance field: private System.Type[] <TypeArgs>k__BackingField
-    ::Array<System::Type*>* _get_$TypeArgs$k__BackingField();
-    // Set instance field: private System.Type[] <TypeArgs>k__BackingField
-    void _set_$TypeArgs$k__BackingField(::Array<System::Type*>* value);
+    // Get instance field reference: private readonly NUnit.Framework.Internal.Builders.NUnitTestFixtureBuilder _builder
+    NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*& dyn__builder();
+    // Get instance field reference: private NUnit.Framework.Interfaces.RunState <RunState>k__BackingField
+    NUnit::Framework::Interfaces::RunState& dyn_$RunState$k__BackingField();
+    // Get instance field reference: private System.Object[] <Arguments>k__BackingField
+    ::Array<::Il2CppObject*>*& dyn_$Arguments$k__BackingField();
+    // Get instance field reference: private NUnit.Framework.Interfaces.IPropertyBag <Properties>k__BackingField
+    NUnit::Framework::Interfaces::IPropertyBag*& dyn_$Properties$k__BackingField();
+    // Get instance field reference: private System.Type[] <TypeArgs>k__BackingField
+    ::Array<System::Type*>*& dyn_$TypeArgs$k__BackingField();
     // public NUnit.Framework.Interfaces.RunState get_RunState()
     // Offset: 0x22A5554
     NUnit::Framework::Interfaces::RunState get_RunState();

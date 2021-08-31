@@ -40,18 +40,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: Elements
     Elements(int elementNumber_ = {}, float intensity_ = {}, float minIntensity_ = {}) noexcept : elementNumber{elementNumber_}, intensity{intensity_}, minIntensity{minIntensity_} {}
-    // Get instance field: public System.Int32 elementNumber
-    int _get_elementNumber();
-    // Set instance field: public System.Int32 elementNumber
-    void _set_elementNumber(int value);
-    // Get instance field: public System.Single intensity
-    float _get_intensity();
-    // Set instance field: public System.Single intensity
-    void _set_intensity(float value);
-    // Get instance field: public System.Single minIntensity
-    float _get_minIntensity();
-    // Set instance field: public System.Single minIntensity
-    void _set_minIntensity(float value);
+    // Get instance field reference: public System.Int32 elementNumber
+    int& dyn_elementNumber();
+    // Get instance field reference: public System.Single intensity
+    float& dyn_intensity();
+    // Get instance field reference: public System.Single minIntensity
+    float& dyn_minIntensity();
     // public System.Void .ctor()
     // Offset: 0x1E1358C
     // Implemented from: System.Object

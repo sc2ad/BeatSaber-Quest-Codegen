@@ -56,10 +56,8 @@ namespace LiteNetLib::Utils {
     static LiteNetLib::Utils::NtpLeapIndicator _get_AlarmCondition();
     // Set static field: static public LiteNetLib.Utils.NtpLeapIndicator AlarmCondition
     static void _set_AlarmCondition(LiteNetLib::Utils::NtpLeapIndicator value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // LiteNetLib.Utils.NtpLeapIndicator
   #pragma pack(pop)
   static check_size<sizeof(NtpLeapIndicator), 0 + sizeof(int)> __LiteNetLib_Utils_NtpLeapIndicatorSizeCheck;

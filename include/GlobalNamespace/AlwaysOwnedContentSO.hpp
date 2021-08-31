@@ -45,14 +45,10 @@ namespace GlobalNamespace {
     AlwaysOwnedContentSO(::Array<GlobalNamespace::BeatmapLevelPackSO*>* alwaysOwnedPacks_ = {}, ::Array<GlobalNamespace::BeatmapLevelSO*>* alwaysOwnedBeatmapLevels_ = {}) noexcept : alwaysOwnedPacks{alwaysOwnedPacks_}, alwaysOwnedBeatmapLevels{alwaysOwnedBeatmapLevels_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private BeatmapLevelPackSO[] _alwaysOwnedPacks
-    ::Array<GlobalNamespace::BeatmapLevelPackSO*>* _get__alwaysOwnedPacks();
-    // Set instance field: private BeatmapLevelPackSO[] _alwaysOwnedPacks
-    void _set__alwaysOwnedPacks(::Array<GlobalNamespace::BeatmapLevelPackSO*>* value);
-    // Get instance field: private BeatmapLevelSO[] _alwaysOwnedBeatmapLevels
-    ::Array<GlobalNamespace::BeatmapLevelSO*>* _get__alwaysOwnedBeatmapLevels();
-    // Set instance field: private BeatmapLevelSO[] _alwaysOwnedBeatmapLevels
-    void _set__alwaysOwnedBeatmapLevels(::Array<GlobalNamespace::BeatmapLevelSO*>* value);
+    // Get instance field reference: private BeatmapLevelPackSO[] _alwaysOwnedPacks
+    ::Array<GlobalNamespace::BeatmapLevelPackSO*>*& dyn__alwaysOwnedPacks();
+    // Get instance field reference: private BeatmapLevelSO[] _alwaysOwnedBeatmapLevels
+    ::Array<GlobalNamespace::BeatmapLevelSO*>*& dyn__alwaysOwnedBeatmapLevels();
     // public BeatmapLevelPackSO[] get_alwaysOwnedPacks()
     // Offset: 0x1178CF0
     ::Array<GlobalNamespace::BeatmapLevelPackSO*>* get_alwaysOwnedPacks();

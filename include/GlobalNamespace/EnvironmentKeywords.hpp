@@ -43,14 +43,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Collections::Generic::HashSet_1<::Il2CppString*>*) == 0x8);
     // Creating value type constructor for type: EnvironmentKeywords
     EnvironmentKeywords(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* environmentKeywords_ = {}, System::Collections::Generic::HashSet_1<::Il2CppString*>* environmentKeywordsSet_ = {}) noexcept : environmentKeywords{environmentKeywords_}, environmentKeywordsSet{environmentKeywordsSet_} {}
-    // Get instance field: private readonly System.Collections.Generic.IReadOnlyList`1<System.String> _environmentKeywords
-    System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* _get__environmentKeywords();
-    // Set instance field: private readonly System.Collections.Generic.IReadOnlyList`1<System.String> _environmentKeywords
-    void _set__environmentKeywords(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* value);
-    // Get instance field: private readonly System.Collections.Generic.HashSet`1<System.String> _environmentKeywordsSet
-    System::Collections::Generic::HashSet_1<::Il2CppString*>* _get__environmentKeywordsSet();
-    // Set instance field: private readonly System.Collections.Generic.HashSet`1<System.String> _environmentKeywordsSet
-    void _set__environmentKeywordsSet(System::Collections::Generic::HashSet_1<::Il2CppString*>* value);
+    // Get instance field reference: private readonly System.Collections.Generic.IReadOnlyList`1<System.String> _environmentKeywords
+    System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*& dyn__environmentKeywords();
+    // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<System.String> _environmentKeywordsSet
+    System::Collections::Generic::HashSet_1<::Il2CppString*>*& dyn__environmentKeywordsSet();
     // public System.Collections.Generic.IReadOnlyList`1<System.String> get_environmentKeywords()
     // Offset: 0x1051E38
     System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* get_environmentKeywords();

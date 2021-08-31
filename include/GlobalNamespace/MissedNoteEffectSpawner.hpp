@@ -72,26 +72,16 @@ namespace GlobalNamespace {
     MissedNoteEffectSpawner(GlobalNamespace::FlyingSpriteSpawner* missedNoteFlyingSpriteSpawner_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, GlobalNamespace::CoreGameHUDController::InitData* initData_ = {}, float spawnPosZ_ = {}) noexcept : missedNoteFlyingSpriteSpawner{missedNoteFlyingSpriteSpawner_}, beatmapObjectManager{beatmapObjectManager_}, audioTimeSyncController{audioTimeSyncController_}, initData{initData_}, spawnPosZ{spawnPosZ_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private FlyingSpriteSpawner _missedNoteFlyingSpriteSpawner
-    GlobalNamespace::FlyingSpriteSpawner* _get__missedNoteFlyingSpriteSpawner();
-    // Set instance field: private FlyingSpriteSpawner _missedNoteFlyingSpriteSpawner
-    void _set__missedNoteFlyingSpriteSpawner(GlobalNamespace::FlyingSpriteSpawner* value);
-    // Get instance field: private readonly BeatmapObjectManager _beatmapObjectManager
-    GlobalNamespace::BeatmapObjectManager* _get__beatmapObjectManager();
-    // Set instance field: private readonly BeatmapObjectManager _beatmapObjectManager
-    void _set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager* value);
-    // Get instance field: private readonly AudioTimeSyncController _audioTimeSyncController
-    GlobalNamespace::AudioTimeSyncController* _get__audioTimeSyncController();
-    // Set instance field: private readonly AudioTimeSyncController _audioTimeSyncController
-    void _set__audioTimeSyncController(GlobalNamespace::AudioTimeSyncController* value);
-    // Get instance field: private readonly CoreGameHUDController/InitData _initData
-    GlobalNamespace::CoreGameHUDController::InitData* _get__initData();
-    // Set instance field: private readonly CoreGameHUDController/InitData _initData
-    void _set__initData(GlobalNamespace::CoreGameHUDController::InitData* value);
-    // Get instance field: private System.Single _spawnPosZ
-    float _get__spawnPosZ();
-    // Set instance field: private System.Single _spawnPosZ
-    void _set__spawnPosZ(float value);
+    // Get instance field reference: private FlyingSpriteSpawner _missedNoteFlyingSpriteSpawner
+    GlobalNamespace::FlyingSpriteSpawner*& dyn__missedNoteFlyingSpriteSpawner();
+    // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
+    GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
+    // Get instance field reference: private readonly AudioTimeSyncController _audioTimeSyncController
+    GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
+    // Get instance field reference: private readonly CoreGameHUDController/InitData _initData
+    GlobalNamespace::CoreGameHUDController::InitData*& dyn__initData();
+    // Get instance field reference: private System.Single _spawnPosZ
+    float& dyn__spawnPosZ();
     // protected System.Void Start()
     // Offset: 0x11CFD9C
     void Start();

@@ -41,14 +41,10 @@ namespace TMPro {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public TMPro.TMP_FontAsset regularTypeface
-    TMPro::TMP_FontAsset* _get_regularTypeface();
-    // Set instance field: public TMPro.TMP_FontAsset regularTypeface
-    void _set_regularTypeface(TMPro::TMP_FontAsset* value);
-    // Get instance field: public TMPro.TMP_FontAsset italicTypeface
-    TMPro::TMP_FontAsset* _get_italicTypeface();
-    // Set instance field: public TMPro.TMP_FontAsset italicTypeface
-    void _set_italicTypeface(TMPro::TMP_FontAsset* value);
+    // Get instance field reference: public TMPro.TMP_FontAsset regularTypeface
+    TMPro::TMP_FontAsset*& dyn_regularTypeface();
+    // Get instance field reference: public TMPro.TMP_FontAsset italicTypeface
+    TMPro::TMP_FontAsset*& dyn_italicTypeface();
   }; // TMPro.TMP_FontWeightPair
   #pragma pack(pop)
   static check_size<sizeof(TMP_FontWeightPair), 8 + sizeof(TMPro::TMP_FontAsset*)> __TMPro_TMP_FontWeightPairSizeCheck;

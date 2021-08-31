@@ -42,14 +42,10 @@ namespace TMPro {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private System.UInt32 m_GlyphIndex
-    uint _get_m_GlyphIndex();
-    // Set instance field: private System.UInt32 m_GlyphIndex
-    void _set_m_GlyphIndex(uint value);
-    // Get instance field: private TMPro.TMP_GlyphValueRecord m_GlyphValueRecord
-    TMPro::TMP_GlyphValueRecord _get_m_GlyphValueRecord();
-    // Set instance field: private TMPro.TMP_GlyphValueRecord m_GlyphValueRecord
-    void _set_m_GlyphValueRecord(TMPro::TMP_GlyphValueRecord value);
+    // Get instance field reference: private System.UInt32 m_GlyphIndex
+    uint& dyn_m_GlyphIndex();
+    // Get instance field reference: private TMPro.TMP_GlyphValueRecord m_GlyphValueRecord
+    TMPro::TMP_GlyphValueRecord& dyn_m_GlyphValueRecord();
     // public System.UInt32 get_glyphIndex()
     // Offset: 0x1124DD4
     uint get_glyphIndex();

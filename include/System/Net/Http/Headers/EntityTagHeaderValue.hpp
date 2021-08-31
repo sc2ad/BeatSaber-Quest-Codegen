@@ -59,14 +59,10 @@ namespace System::Net::Http::Headers {
     static System::Net::Http::Headers::EntityTagHeaderValue* _get_any();
     // Set static field: static private readonly System.Net.Http.Headers.EntityTagHeaderValue any
     static void _set_any(System::Net::Http::Headers::EntityTagHeaderValue* value);
-    // Get instance field: private System.Boolean <IsWeak>k__BackingField
-    bool _get_$IsWeak$k__BackingField();
-    // Set instance field: private System.Boolean <IsWeak>k__BackingField
-    void _set_$IsWeak$k__BackingField(bool value);
-    // Get instance field: private System.String <Tag>k__BackingField
-    ::Il2CppString* _get_$Tag$k__BackingField();
-    // Set instance field: private System.String <Tag>k__BackingField
-    void _set_$Tag$k__BackingField(::Il2CppString* value);
+    // Get instance field reference: private System.Boolean <IsWeak>k__BackingField
+    bool& dyn_$IsWeak$k__BackingField();
+    // Get instance field reference: private System.String <Tag>k__BackingField
+    ::Il2CppString*& dyn_$Tag$k__BackingField();
     // public System.Boolean get_IsWeak()
     // Offset: 0x159F628
     bool get_IsWeak();

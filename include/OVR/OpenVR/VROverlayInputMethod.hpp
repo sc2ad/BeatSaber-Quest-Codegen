@@ -50,10 +50,8 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::VROverlayInputMethod _get_DualAnalog();
     // Set static field: static public OVR.OpenVR.VROverlayInputMethod DualAnalog
     static void _set_DualAnalog(OVR::OpenVR::VROverlayInputMethod value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // OVR.OpenVR.VROverlayInputMethod
   #pragma pack(pop)
   static check_size<sizeof(VROverlayInputMethod), 0 + sizeof(int)> __OVR_OpenVR_VROverlayInputMethodSizeCheck;

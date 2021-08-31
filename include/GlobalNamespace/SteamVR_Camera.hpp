@@ -98,22 +98,14 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_originSuffix();
     // Set static field: static private System.String originSuffix
     static void _set_originSuffix(::Il2CppString* value);
-    // Get instance field: private UnityEngine.Transform _head
-    UnityEngine::Transform* _get__head();
-    // Set instance field: private UnityEngine.Transform _head
-    void _set__head(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.Camera <camera>k__BackingField
-    UnityEngine::Camera* _get_$camera$k__BackingField();
-    // Set instance field: private UnityEngine.Camera <camera>k__BackingField
-    void _set_$camera$k__BackingField(UnityEngine::Camera* value);
-    // Get instance field: private UnityEngine.Transform _ears
-    UnityEngine::Transform* _get__ears();
-    // Set instance field: private UnityEngine.Transform _ears
-    void _set__ears(UnityEngine::Transform* value);
-    // Get instance field: public System.Boolean wireframe
-    bool _get_wireframe();
-    // Set instance field: public System.Boolean wireframe
-    void _set_wireframe(bool value);
+    // Get instance field reference: private UnityEngine.Transform _head
+    UnityEngine::Transform*& dyn__head();
+    // Get instance field reference: private UnityEngine.Camera <camera>k__BackingField
+    UnityEngine::Camera*& dyn_$camera$k__BackingField();
+    // Get instance field reference: private UnityEngine.Transform _ears
+    UnityEngine::Transform*& dyn__ears();
+    // Get instance field reference: public System.Boolean wireframe
+    bool& dyn_wireframe();
     // public UnityEngine.Transform get_head()
     // Offset: 0x141CF24
     UnityEngine::Transform* get_head();

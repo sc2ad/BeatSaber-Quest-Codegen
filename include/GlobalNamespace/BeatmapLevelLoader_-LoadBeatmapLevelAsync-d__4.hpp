@@ -93,42 +93,24 @@ namespace GlobalNamespace {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
-    // Get instance field: public System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: public System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<BeatmapLevelLoader/LoadBeatmapLevelResult> <>t__builder
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResult> _get_$$t__builder();
-    // Set instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<BeatmapLevelLoader/LoadBeatmapLevelResult> <>t__builder
-    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResult> value);
-    // Get instance field: public BeatmapLevelLoader <>4__this
-    GlobalNamespace::BeatmapLevelLoader* _get_$$4__this();
-    // Set instance field: public BeatmapLevelLoader <>4__this
-    void _set_$$4__this(GlobalNamespace::BeatmapLevelLoader* value);
-    // Get instance field: public IPreviewBeatmapLevel previewLevel
-    GlobalNamespace::IPreviewBeatmapLevel* _get_previewLevel();
-    // Set instance field: public IPreviewBeatmapLevel previewLevel
-    void _set_previewLevel(GlobalNamespace::IPreviewBeatmapLevel* value);
-    // Get instance field: public System.Threading.CancellationToken cancellationToken
-    System::Threading::CancellationToken _get_cancellationToken();
-    // Set instance field: public System.Threading.CancellationToken cancellationToken
-    void _set_cancellationToken(System::Threading::CancellationToken value);
-    // Get instance field: private IBeatmapLevel <level>5__2
-    GlobalNamespace::IBeatmapLevel* _get_$level$5__2();
-    // Set instance field: private IBeatmapLevel <level>5__2
-    void _set_$level$5__2(GlobalNamespace::IBeatmapLevel* value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<GetAssetBundleFileResult> <>u__1
-    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::GetAssetBundleFileResult> _get_$$u__1();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<GetAssetBundleFileResult> <>u__1
-    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::GetAssetBundleFileResult> value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> <>u__2
-    System::Runtime::CompilerServices::TaskAwaiter_1<bool> _get_$$u__2();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> <>u__2
-    void _set_$$u__2(System::Runtime::CompilerServices::TaskAwaiter_1<bool> value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<IBeatmapLevel> <>u__3
-    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IBeatmapLevel*> _get_$$u__3();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<IBeatmapLevel> <>u__3
-    void _set_$$u__3(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IBeatmapLevel*> value);
+    // Get instance field reference: public System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<BeatmapLevelLoader/LoadBeatmapLevelResult> <>t__builder
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResult>& dyn_$$t__builder();
+    // Get instance field reference: public BeatmapLevelLoader <>4__this
+    GlobalNamespace::BeatmapLevelLoader*& dyn_$$4__this();
+    // Get instance field reference: public IPreviewBeatmapLevel previewLevel
+    GlobalNamespace::IPreviewBeatmapLevel*& dyn_previewLevel();
+    // Get instance field reference: public System.Threading.CancellationToken cancellationToken
+    System::Threading::CancellationToken& dyn_cancellationToken();
+    // Get instance field reference: private IBeatmapLevel <level>5__2
+    GlobalNamespace::IBeatmapLevel*& dyn_$level$5__2();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<GetAssetBundleFileResult> <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::GetAssetBundleFileResult>& dyn_$$u__1();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> <>u__2
+    System::Runtime::CompilerServices::TaskAwaiter_1<bool>& dyn_$$u__2();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<IBeatmapLevel> <>u__3
+    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IBeatmapLevel*>& dyn_$$u__3();
     // private System.Void MoveNext()
     // Offset: 0x10C1894
     void MoveNext();

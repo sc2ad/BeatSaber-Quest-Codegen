@@ -189,78 +189,42 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::GameplayModifiers*) == 0x8);
     // Creating value type constructor for type: SimpleRetailDemoFlowCoordinator
     SimpleRetailDemoFlowCoordinator(GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper_ = {}, GlobalNamespace::MenuLightsPresetSO* defaultLightsPreset_ = {}, GlobalNamespace::BeatmapLevelSO* demoLevel1_ = {}, GlobalNamespace::BeatmapCharacteristicSO* demoLevel1Characteristic_ = {}, GlobalNamespace::BeatmapDifficulty demoLevel1Difficulty_ = {}, GlobalNamespace::BeatmapLevelSO* demoLevel2_ = {}, GlobalNamespace::BeatmapCharacteristicSO* demoLevel2Characteristic_ = {}, GlobalNamespace::BeatmapDifficulty demoLevel2Difficulty_ = {}, GlobalNamespace::SimpleRetailDemoViewController* simpleDemoViewController_ = {}, GlobalNamespace::HowToPlayViewController* howToPlayViewController_ = {}, GlobalNamespace::ResultsViewController* resultsViewController_ = {}, GlobalNamespace::MenuLightsManager* menuLightsManager_ = {}, GlobalNamespace::FadeInOutController* fadeInOut_ = {}, GlobalNamespace::IDifficultyBeatmap* level1DifficultyBeatmap_ = {}, GlobalNamespace::IDifficultyBeatmap* level2DifficultyBeatmap_ = {}, GlobalNamespace::IDifficultyBeatmap* selectedLevelDifficultyBeatmap_ = {}, bool quittingApplication_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}) noexcept : menuTransitionsHelper{menuTransitionsHelper_}, defaultLightsPreset{defaultLightsPreset_}, demoLevel1{demoLevel1_}, demoLevel1Characteristic{demoLevel1Characteristic_}, demoLevel1Difficulty{demoLevel1Difficulty_}, demoLevel2{demoLevel2_}, demoLevel2Characteristic{demoLevel2Characteristic_}, demoLevel2Difficulty{demoLevel2Difficulty_}, simpleDemoViewController{simpleDemoViewController_}, howToPlayViewController{howToPlayViewController_}, resultsViewController{resultsViewController_}, menuLightsManager{menuLightsManager_}, fadeInOut{fadeInOut_}, level1DifficultyBeatmap{level1DifficultyBeatmap_}, level2DifficultyBeatmap{level2DifficultyBeatmap_}, selectedLevelDifficultyBeatmap{selectedLevelDifficultyBeatmap_}, quittingApplication{quittingApplication_}, gameplayModifiers{gameplayModifiers_} {}
-    // Get instance field: private MenuTransitionsHelper _menuTransitionsHelper
-    GlobalNamespace::MenuTransitionsHelper* _get__menuTransitionsHelper();
-    // Set instance field: private MenuTransitionsHelper _menuTransitionsHelper
-    void _set__menuTransitionsHelper(GlobalNamespace::MenuTransitionsHelper* value);
-    // Get instance field: private MenuLightsPresetSO _defaultLightsPreset
-    GlobalNamespace::MenuLightsPresetSO* _get__defaultLightsPreset();
-    // Set instance field: private MenuLightsPresetSO _defaultLightsPreset
-    void _set__defaultLightsPreset(GlobalNamespace::MenuLightsPresetSO* value);
-    // Get instance field: private BeatmapLevelSO _demoLevel1
-    GlobalNamespace::BeatmapLevelSO* _get__demoLevel1();
-    // Set instance field: private BeatmapLevelSO _demoLevel1
-    void _set__demoLevel1(GlobalNamespace::BeatmapLevelSO* value);
-    // Get instance field: private BeatmapCharacteristicSO _demoLevel1Characteristic
-    GlobalNamespace::BeatmapCharacteristicSO* _get__demoLevel1Characteristic();
-    // Set instance field: private BeatmapCharacteristicSO _demoLevel1Characteristic
-    void _set__demoLevel1Characteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
-    // Get instance field: private BeatmapDifficulty _demoLevel1Difficulty
-    GlobalNamespace::BeatmapDifficulty _get__demoLevel1Difficulty();
-    // Set instance field: private BeatmapDifficulty _demoLevel1Difficulty
-    void _set__demoLevel1Difficulty(GlobalNamespace::BeatmapDifficulty value);
-    // Get instance field: private BeatmapLevelSO _demoLevel2
-    GlobalNamespace::BeatmapLevelSO* _get__demoLevel2();
-    // Set instance field: private BeatmapLevelSO _demoLevel2
-    void _set__demoLevel2(GlobalNamespace::BeatmapLevelSO* value);
-    // Get instance field: private BeatmapCharacteristicSO _demoLevel2Characteristic
-    GlobalNamespace::BeatmapCharacteristicSO* _get__demoLevel2Characteristic();
-    // Set instance field: private BeatmapCharacteristicSO _demoLevel2Characteristic
-    void _set__demoLevel2Characteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
-    // Get instance field: private BeatmapDifficulty _demoLevel2Difficulty
-    GlobalNamespace::BeatmapDifficulty _get__demoLevel2Difficulty();
-    // Set instance field: private BeatmapDifficulty _demoLevel2Difficulty
-    void _set__demoLevel2Difficulty(GlobalNamespace::BeatmapDifficulty value);
-    // Get instance field: private SimpleRetailDemoViewController _simpleDemoViewController
-    GlobalNamespace::SimpleRetailDemoViewController* _get__simpleDemoViewController();
-    // Set instance field: private SimpleRetailDemoViewController _simpleDemoViewController
-    void _set__simpleDemoViewController(GlobalNamespace::SimpleRetailDemoViewController* value);
-    // Get instance field: private readonly HowToPlayViewController _howToPlayViewController
-    GlobalNamespace::HowToPlayViewController* _get__howToPlayViewController();
-    // Set instance field: private readonly HowToPlayViewController _howToPlayViewController
-    void _set__howToPlayViewController(GlobalNamespace::HowToPlayViewController* value);
-    // Get instance field: private readonly ResultsViewController _resultsViewController
-    GlobalNamespace::ResultsViewController* _get__resultsViewController();
-    // Set instance field: private readonly ResultsViewController _resultsViewController
-    void _set__resultsViewController(GlobalNamespace::ResultsViewController* value);
-    // Get instance field: private readonly MenuLightsManager _menuLightsManager
-    GlobalNamespace::MenuLightsManager* _get__menuLightsManager();
-    // Set instance field: private readonly MenuLightsManager _menuLightsManager
-    void _set__menuLightsManager(GlobalNamespace::MenuLightsManager* value);
-    // Get instance field: private readonly FadeInOutController _fadeInOut
-    GlobalNamespace::FadeInOutController* _get__fadeInOut();
-    // Set instance field: private readonly FadeInOutController _fadeInOut
-    void _set__fadeInOut(GlobalNamespace::FadeInOutController* value);
-    // Get instance field: private IDifficultyBeatmap _level1DifficultyBeatmap
-    GlobalNamespace::IDifficultyBeatmap* _get__level1DifficultyBeatmap();
-    // Set instance field: private IDifficultyBeatmap _level1DifficultyBeatmap
-    void _set__level1DifficultyBeatmap(GlobalNamespace::IDifficultyBeatmap* value);
-    // Get instance field: private IDifficultyBeatmap _level2DifficultyBeatmap
-    GlobalNamespace::IDifficultyBeatmap* _get__level2DifficultyBeatmap();
-    // Set instance field: private IDifficultyBeatmap _level2DifficultyBeatmap
-    void _set__level2DifficultyBeatmap(GlobalNamespace::IDifficultyBeatmap* value);
-    // Get instance field: private IDifficultyBeatmap _selectedLevelDifficultyBeatmap
-    GlobalNamespace::IDifficultyBeatmap* _get__selectedLevelDifficultyBeatmap();
-    // Set instance field: private IDifficultyBeatmap _selectedLevelDifficultyBeatmap
-    void _set__selectedLevelDifficultyBeatmap(GlobalNamespace::IDifficultyBeatmap* value);
-    // Get instance field: private System.Boolean _quittingApplication
-    bool _get__quittingApplication();
-    // Set instance field: private System.Boolean _quittingApplication
-    void _set__quittingApplication(bool value);
-    // Get instance field: private readonly GameplayModifiers _gameplayModifiers
-    GlobalNamespace::GameplayModifiers* _get__gameplayModifiers();
-    // Set instance field: private readonly GameplayModifiers _gameplayModifiers
-    void _set__gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
+    // Get instance field reference: private MenuTransitionsHelper _menuTransitionsHelper
+    GlobalNamespace::MenuTransitionsHelper*& dyn__menuTransitionsHelper();
+    // Get instance field reference: private MenuLightsPresetSO _defaultLightsPreset
+    GlobalNamespace::MenuLightsPresetSO*& dyn__defaultLightsPreset();
+    // Get instance field reference: private BeatmapLevelSO _demoLevel1
+    GlobalNamespace::BeatmapLevelSO*& dyn__demoLevel1();
+    // Get instance field reference: private BeatmapCharacteristicSO _demoLevel1Characteristic
+    GlobalNamespace::BeatmapCharacteristicSO*& dyn__demoLevel1Characteristic();
+    // Get instance field reference: private BeatmapDifficulty _demoLevel1Difficulty
+    GlobalNamespace::BeatmapDifficulty& dyn__demoLevel1Difficulty();
+    // Get instance field reference: private BeatmapLevelSO _demoLevel2
+    GlobalNamespace::BeatmapLevelSO*& dyn__demoLevel2();
+    // Get instance field reference: private BeatmapCharacteristicSO _demoLevel2Characteristic
+    GlobalNamespace::BeatmapCharacteristicSO*& dyn__demoLevel2Characteristic();
+    // Get instance field reference: private BeatmapDifficulty _demoLevel2Difficulty
+    GlobalNamespace::BeatmapDifficulty& dyn__demoLevel2Difficulty();
+    // Get instance field reference: private SimpleRetailDemoViewController _simpleDemoViewController
+    GlobalNamespace::SimpleRetailDemoViewController*& dyn__simpleDemoViewController();
+    // Get instance field reference: private readonly HowToPlayViewController _howToPlayViewController
+    GlobalNamespace::HowToPlayViewController*& dyn__howToPlayViewController();
+    // Get instance field reference: private readonly ResultsViewController _resultsViewController
+    GlobalNamespace::ResultsViewController*& dyn__resultsViewController();
+    // Get instance field reference: private readonly MenuLightsManager _menuLightsManager
+    GlobalNamespace::MenuLightsManager*& dyn__menuLightsManager();
+    // Get instance field reference: private readonly FadeInOutController _fadeInOut
+    GlobalNamespace::FadeInOutController*& dyn__fadeInOut();
+    // Get instance field reference: private IDifficultyBeatmap _level1DifficultyBeatmap
+    GlobalNamespace::IDifficultyBeatmap*& dyn__level1DifficultyBeatmap();
+    // Get instance field reference: private IDifficultyBeatmap _level2DifficultyBeatmap
+    GlobalNamespace::IDifficultyBeatmap*& dyn__level2DifficultyBeatmap();
+    // Get instance field reference: private IDifficultyBeatmap _selectedLevelDifficultyBeatmap
+    GlobalNamespace::IDifficultyBeatmap*& dyn__selectedLevelDifficultyBeatmap();
+    // Get instance field reference: private System.Boolean _quittingApplication
+    bool& dyn__quittingApplication();
+    // Get instance field reference: private readonly GameplayModifiers _gameplayModifiers
+    GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
     // private System.Void HandleSimpleDemoViewControllerDidFinish(SimpleRetailDemoViewController viewController, SimpleRetailDemoViewController/MenuButton menuButton)
     // Offset: 0x107AF6C
     void HandleSimpleDemoViewControllerDidFinish(GlobalNamespace::SimpleRetailDemoViewController* viewController, GlobalNamespace::SimpleRetailDemoViewController::MenuButton menuButton);

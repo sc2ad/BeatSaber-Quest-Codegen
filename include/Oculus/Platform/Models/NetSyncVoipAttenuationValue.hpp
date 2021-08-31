@@ -34,14 +34,10 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: NetSyncVoipAttenuationValue
     NetSyncVoipAttenuationValue(float Decibels_ = {}, float Distance_ = {}) noexcept : Decibels{Decibels_}, Distance{Distance_} {}
-    // Get instance field: public readonly System.Single Decibels
-    float _get_Decibels();
-    // Set instance field: public readonly System.Single Decibels
-    void _set_Decibels(float value);
-    // Get instance field: public readonly System.Single Distance
-    float _get_Distance();
-    // Set instance field: public readonly System.Single Distance
-    void _set_Distance(float value);
+    // Get instance field reference: public readonly System.Single Decibels
+    float& dyn_Decibels();
+    // Get instance field reference: public readonly System.Single Distance
+    float& dyn_Distance();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14F23C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -39,10 +39,8 @@ namespace UnityEngine {
     constexpr operator UnityEngine::AndroidJavaRunnable*() const noexcept {
       return mRunnable;
     }
-    // Get instance field: private UnityEngine.AndroidJavaRunnable mRunnable
-    UnityEngine::AndroidJavaRunnable* _get_mRunnable();
-    // Set instance field: private UnityEngine.AndroidJavaRunnable mRunnable
-    void _set_mRunnable(UnityEngine::AndroidJavaRunnable* value);
+    // Get instance field reference: private UnityEngine.AndroidJavaRunnable mRunnable
+    UnityEngine::AndroidJavaRunnable*& dyn_mRunnable();
     // public System.Void .ctor(UnityEngine.AndroidJavaRunnable runnable)
     // Offset: 0x23B0A24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

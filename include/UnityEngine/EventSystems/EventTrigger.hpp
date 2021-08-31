@@ -157,10 +157,8 @@ namespace UnityEngine::EventSystems {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/UnityEngine.EventSystems.Entry> m_Delegates
-    System::Collections::Generic::List_1<UnityEngine::EventSystems::EventTrigger::Entry*>* _get_m_Delegates();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/UnityEngine.EventSystems.Entry> m_Delegates
-    void _set_m_Delegates(System::Collections::Generic::List_1<UnityEngine::EventSystems::EventTrigger::Entry*>* value);
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/UnityEngine.EventSystems.Entry> m_Delegates
+    System::Collections::Generic::List_1<UnityEngine::EventSystems::EventTrigger::Entry*>*& dyn_m_Delegates();
     // public System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/UnityEngine.EventSystems.Entry> get_delegates()
     // Offset: 0x14687D8
     System::Collections::Generic::List_1<UnityEngine::EventSystems::EventTrigger::Entry*>* get_delegates();

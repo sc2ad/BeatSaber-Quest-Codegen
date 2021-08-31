@@ -98,38 +98,22 @@ namespace GlobalNamespace {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
-    // Get instance field: public System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: public System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
-    System::Runtime::CompilerServices::AsyncVoidMethodBuilder _get_$$t__builder();
-    // Set instance field: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
-    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncVoidMethodBuilder value);
-    // Get instance field: public LevelBar <>4__this
-    GlobalNamespace::LevelBar* _get_$$4__this();
-    // Set instance field: public LevelBar <>4__this
-    void _set_$$4__this(GlobalNamespace::LevelBar* value);
-    // Get instance field: public IPreviewBeatmapLevel previewBeatmapLevel
-    GlobalNamespace::IPreviewBeatmapLevel* _get_previewBeatmapLevel();
-    // Set instance field: public IPreviewBeatmapLevel previewBeatmapLevel
-    void _set_previewBeatmapLevel(GlobalNamespace::IPreviewBeatmapLevel* value);
-    // Get instance field: public BeatmapDifficulty beatmapDifficulty
-    GlobalNamespace::BeatmapDifficulty _get_beatmapDifficulty();
-    // Set instance field: public BeatmapDifficulty beatmapDifficulty
-    void _set_beatmapDifficulty(GlobalNamespace::BeatmapDifficulty value);
-    // Get instance field: public BeatmapCharacteristicSO beatmapCharacteristic
-    GlobalNamespace::BeatmapCharacteristicSO* _get_beatmapCharacteristic();
-    // Set instance field: public BeatmapCharacteristicSO beatmapCharacteristic
-    void _set_beatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
-    // Get instance field: private System.Threading.CancellationToken <cancellationToken>5__2
-    System::Threading::CancellationToken _get_$cancellationToken$5__2();
-    // Set instance field: private System.Threading.CancellationToken <cancellationToken>5__2
-    void _set_$cancellationToken$5__2(System::Threading::CancellationToken value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<UnityEngine.Sprite> <>u__1
-    System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite*> _get_$$u__1();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<UnityEngine.Sprite> <>u__1
-    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite*> value);
+    // Get instance field reference: public System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
+    System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
+    // Get instance field reference: public LevelBar <>4__this
+    GlobalNamespace::LevelBar*& dyn_$$4__this();
+    // Get instance field reference: public IPreviewBeatmapLevel previewBeatmapLevel
+    GlobalNamespace::IPreviewBeatmapLevel*& dyn_previewBeatmapLevel();
+    // Get instance field reference: public BeatmapDifficulty beatmapDifficulty
+    GlobalNamespace::BeatmapDifficulty& dyn_beatmapDifficulty();
+    // Get instance field reference: public BeatmapCharacteristicSO beatmapCharacteristic
+    GlobalNamespace::BeatmapCharacteristicSO*& dyn_beatmapCharacteristic();
+    // Get instance field reference: private System.Threading.CancellationToken <cancellationToken>5__2
+    System::Threading::CancellationToken& dyn_$cancellationToken$5__2();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<UnityEngine.Sprite> <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite*>& dyn_$$u__1();
     // private System.Void MoveNext()
     // Offset: 0x1149F08
     void MoveNext();

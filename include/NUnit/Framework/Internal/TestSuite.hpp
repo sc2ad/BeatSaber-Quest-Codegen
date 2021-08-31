@@ -73,18 +73,12 @@ namespace NUnit::Framework::Internal {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: TestSuite
     TestSuite(System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITest*>* tests_ = {}, ::Array<::Il2CppObject*>* Arguments_ = {}, bool MaintainTestOrder_ = {}) noexcept : tests{tests_}, Arguments{Arguments_}, MaintainTestOrder{MaintainTestOrder_} {}
-    // Get instance field: private System.Collections.Generic.List`1<NUnit.Framework.Interfaces.ITest> tests
-    System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITest*>* _get_tests();
-    // Set instance field: private System.Collections.Generic.List`1<NUnit.Framework.Interfaces.ITest> tests
-    void _set_tests(System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITest*>* value);
-    // Get instance field: private System.Object[] <Arguments>k__BackingField
-    ::Array<::Il2CppObject*>* _get_$Arguments$k__BackingField();
-    // Set instance field: private System.Object[] <Arguments>k__BackingField
-    void _set_$Arguments$k__BackingField(::Array<::Il2CppObject*>* value);
-    // Get instance field: private System.Boolean <MaintainTestOrder>k__BackingField
-    bool _get_$MaintainTestOrder$k__BackingField();
-    // Set instance field: private System.Boolean <MaintainTestOrder>k__BackingField
-    void _set_$MaintainTestOrder$k__BackingField(bool value);
+    // Get instance field reference: private System.Collections.Generic.List`1<NUnit.Framework.Interfaces.ITest> tests
+    System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITest*>*& dyn_tests();
+    // Get instance field reference: private System.Object[] <Arguments>k__BackingField
+    ::Array<::Il2CppObject*>*& dyn_$Arguments$k__BackingField();
+    // Get instance field reference: private System.Boolean <MaintainTestOrder>k__BackingField
+    bool& dyn_$MaintainTestOrder$k__BackingField();
     // public System.Object[] get_Arguments()
     // Offset: 0x22A1B78
     ::Array<::Il2CppObject*>* get_Arguments();

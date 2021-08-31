@@ -34,14 +34,10 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.UInt32 handle
-    uint _get_handle();
-    // Set instance field: public System.UInt32 handle
-    void _set_handle(uint value);
-    // Get instance field: public System.UInt32 type
-    uint _get_type();
-    // Set instance field: public System.UInt32 type
-    void _set_type(uint value);
+    // Get instance field reference: public System.UInt32 handle
+    uint& dyn_handle();
+    // Get instance field reference: public System.UInt32 type
+    uint& dyn_type();
   }; // Valve.VR.VREvent_Screenshot_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Screenshot_t), 4 + sizeof(uint)> __Valve_VR_VREvent_Screenshot_tSizeCheck;

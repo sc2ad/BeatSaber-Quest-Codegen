@@ -75,18 +75,12 @@ namespace HMUI {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public System.Boolean unfolded
-      bool _get_unfolded();
-      // Set instance field: public System.Boolean unfolded
-      void _set_unfolded(bool value);
-      // Get instance field: public System.Int32 startBaseRow
-      int _get_startBaseRow();
-      // Set instance field: public System.Int32 startBaseRow
-      void _set_startBaseRow(int value);
-      // Get instance field: public System.Int32 numberOfBaseRows
-      int _get_numberOfBaseRows();
-      // Set instance field: public System.Int32 numberOfBaseRows
-      void _set_numberOfBaseRows(int value);
+      // Get instance field reference: public System.Boolean unfolded
+      bool& dyn_unfolded();
+      // Get instance field reference: public System.Int32 startBaseRow
+      int& dyn_startBaseRow();
+      // Get instance field reference: public System.Int32 numberOfBaseRows
+      int& dyn_numberOfBaseRows();
     }; // HMUI.SectionTableView/HMUI.Section
     #pragma pack(pop)
     static check_size<sizeof(SectionTableView::Section), 8 + sizeof(int)> __HMUI_SectionTableView_SectionSizeCheck;
@@ -129,26 +123,16 @@ namespace HMUI {
     operator HMUI::TableView::IDataSource() noexcept {
       return *reinterpret_cast<HMUI::TableView::IDataSource*>(this);
     }
-    // Get instance field: private System.Boolean _unfoldSectionsByDefault
-    bool _get__unfoldSectionsByDefault();
-    // Set instance field: private System.Boolean _unfoldSectionsByDefault
-    void _set__unfoldSectionsByDefault(bool value);
-    // Get instance field: private System.Action`3<HMUI.SectionTableView,System.Int32,System.Int32> didSelectRowInSectionEvent
-    System::Action_3<HMUI::SectionTableView*, int, int>* _get_didSelectRowInSectionEvent();
-    // Set instance field: private System.Action`3<HMUI.SectionTableView,System.Int32,System.Int32> didSelectRowInSectionEvent
-    void _set_didSelectRowInSectionEvent(System::Action_3<HMUI::SectionTableView*, int, int>* value);
-    // Get instance field: private System.Action`2<HMUI.SectionTableView,System.Int32> didSelectHeaderEvent
-    System::Action_2<HMUI::SectionTableView*, int>* _get_didSelectHeaderEvent();
-    // Set instance field: private System.Action`2<HMUI.SectionTableView,System.Int32> didSelectHeaderEvent
-    void _set_didSelectHeaderEvent(System::Action_2<HMUI::SectionTableView*, int>* value);
-    // Get instance field: private HMUI.SectionTableView/HMUI.IDataSource _dataSource
-    HMUI::SectionTableView::IDataSource* _get__dataSource();
-    // Set instance field: private HMUI.SectionTableView/HMUI.IDataSource _dataSource
-    void _set__dataSource(HMUI::SectionTableView::IDataSource* value);
-    // Get instance field: private HMUI.SectionTableView/HMUI.Section[] _sections
-    ::Array<HMUI::SectionTableView::Section>* _get__sections();
-    // Set instance field: private HMUI.SectionTableView/HMUI.Section[] _sections
-    void _set__sections(::Array<HMUI::SectionTableView::Section>* value);
+    // Get instance field reference: private System.Boolean _unfoldSectionsByDefault
+    bool& dyn__unfoldSectionsByDefault();
+    // Get instance field reference: private System.Action`3<HMUI.SectionTableView,System.Int32,System.Int32> didSelectRowInSectionEvent
+    System::Action_3<HMUI::SectionTableView*, int, int>*& dyn_didSelectRowInSectionEvent();
+    // Get instance field reference: private System.Action`2<HMUI.SectionTableView,System.Int32> didSelectHeaderEvent
+    System::Action_2<HMUI::SectionTableView*, int>*& dyn_didSelectHeaderEvent();
+    // Get instance field reference: private HMUI.SectionTableView/HMUI.IDataSource _dataSource
+    HMUI::SectionTableView::IDataSource*& dyn__dataSource();
+    // Get instance field reference: private HMUI.SectionTableView/HMUI.Section[] _sections
+    ::Array<HMUI::SectionTableView::Section>*& dyn__sections();
     // public HMUI.SectionTableView/HMUI.IDataSource get_dataSource()
     // Offset: 0x12FEB70
     HMUI::SectionTableView::IDataSource* get_dataSource();

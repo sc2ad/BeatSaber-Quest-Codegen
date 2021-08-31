@@ -80,30 +80,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(HMUI::InputFieldViewChangeBinder*) == 0x8);
     // Creating value type constructor for type: ServerCodeEntryViewController
     ServerCodeEntryViewController(HMUI::UIKeyboard* uiKeyboard_ = {}, HMUI::InputFieldView* codeInputField_ = {}, UnityEngine::UI::Button* joinButton_ = {}, UnityEngine::UI::Button* cancelButton_ = {}, System::Action_2<bool, ::Il2CppString*>* didFinishEvent_ = {}, HMUI::InputFieldViewChangeBinder* inputFieldViewChangeBinder_ = {}) noexcept : uiKeyboard{uiKeyboard_}, codeInputField{codeInputField_}, joinButton{joinButton_}, cancelButton{cancelButton_}, didFinishEvent{didFinishEvent_}, inputFieldViewChangeBinder{inputFieldViewChangeBinder_} {}
-    // Get instance field: private HMUI.UIKeyboard _uiKeyboard
-    HMUI::UIKeyboard* _get__uiKeyboard();
-    // Set instance field: private HMUI.UIKeyboard _uiKeyboard
-    void _set__uiKeyboard(HMUI::UIKeyboard* value);
-    // Get instance field: private HMUI.InputFieldView _codeInputField
-    HMUI::InputFieldView* _get__codeInputField();
-    // Set instance field: private HMUI.InputFieldView _codeInputField
-    void _set__codeInputField(HMUI::InputFieldView* value);
-    // Get instance field: private UnityEngine.UI.Button _joinButton
-    UnityEngine::UI::Button* _get__joinButton();
-    // Set instance field: private UnityEngine.UI.Button _joinButton
-    void _set__joinButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _cancelButton
-    UnityEngine::UI::Button* _get__cancelButton();
-    // Set instance field: private UnityEngine.UI.Button _cancelButton
-    void _set__cancelButton(UnityEngine::UI::Button* value);
-    // Get instance field: private System.Action`2<System.Boolean,System.String> didFinishEvent
-    System::Action_2<bool, ::Il2CppString*>* _get_didFinishEvent();
-    // Set instance field: private System.Action`2<System.Boolean,System.String> didFinishEvent
-    void _set_didFinishEvent(System::Action_2<bool, ::Il2CppString*>* value);
-    // Get instance field: private readonly HMUI.InputFieldViewChangeBinder _inputFieldViewChangeBinder
-    HMUI::InputFieldViewChangeBinder* _get__inputFieldViewChangeBinder();
-    // Set instance field: private readonly HMUI.InputFieldViewChangeBinder _inputFieldViewChangeBinder
-    void _set__inputFieldViewChangeBinder(HMUI::InputFieldViewChangeBinder* value);
+    // Get instance field reference: private HMUI.UIKeyboard _uiKeyboard
+    HMUI::UIKeyboard*& dyn__uiKeyboard();
+    // Get instance field reference: private HMUI.InputFieldView _codeInputField
+    HMUI::InputFieldView*& dyn__codeInputField();
+    // Get instance field reference: private UnityEngine.UI.Button _joinButton
+    UnityEngine::UI::Button*& dyn__joinButton();
+    // Get instance field reference: private UnityEngine.UI.Button _cancelButton
+    UnityEngine::UI::Button*& dyn__cancelButton();
+    // Get instance field reference: private System.Action`2<System.Boolean,System.String> didFinishEvent
+    System::Action_2<bool, ::Il2CppString*>*& dyn_didFinishEvent();
+    // Get instance field reference: private readonly HMUI.InputFieldViewChangeBinder _inputFieldViewChangeBinder
+    HMUI::InputFieldViewChangeBinder*& dyn__inputFieldViewChangeBinder();
     // public System.Void add_didFinishEvent(System.Action`2<System.Boolean,System.String> value)
     // Offset: 0x119E04C
     void add_didFinishEvent(System::Action_2<bool, ::Il2CppString*>* value);

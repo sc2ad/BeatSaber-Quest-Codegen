@@ -95,10 +95,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::AdditionalContentModel::EntitlementStatus _get_NotOwned();
       // Set static field: static public AdditionalContentModel/EntitlementStatus NotOwned
       static void _set_NotOwned(GlobalNamespace::AdditionalContentModel::EntitlementStatus value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // AdditionalContentModel/EntitlementStatus
     #pragma pack(pop)
     static check_size<sizeof(AdditionalContentModel::EntitlementStatus), 0 + sizeof(int)> __GlobalNamespace_AdditionalContentModel_EntitlementStatusSizeCheck;
@@ -137,10 +135,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::AdditionalContentModel::OpenProductStoreResult _get_Failed();
       // Set static field: static public AdditionalContentModel/OpenProductStoreResult Failed
       static void _set_Failed(GlobalNamespace::AdditionalContentModel::OpenProductStoreResult value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // AdditionalContentModel/OpenProductStoreResult
     #pragma pack(pop)
     static check_size<sizeof(AdditionalContentModel::OpenProductStoreResult), 0 + sizeof(int)> __GlobalNamespace_AdditionalContentModel_OpenProductStoreResultSizeCheck;
@@ -185,10 +181,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::AdditionalContentModel::IsPackBetterBuyThanLevelResult _get_Failed();
       // Set static field: static public AdditionalContentModel/IsPackBetterBuyThanLevelResult Failed
       static void _set_Failed(GlobalNamespace::AdditionalContentModel::IsPackBetterBuyThanLevelResult value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // AdditionalContentModel/IsPackBetterBuyThanLevelResult
     #pragma pack(pop)
     static check_size<sizeof(AdditionalContentModel::IsPackBetterBuyThanLevelResult), 0 + sizeof(int)> __GlobalNamespace_AdditionalContentModel_IsPackBetterBuyThanLevelResultSizeCheck;
@@ -210,14 +204,10 @@ namespace GlobalNamespace {
     AdditionalContentModel(GlobalNamespace::AlwaysOwnedContentContainerSO* alwaysOwnedContentContainer_ = {}, System::Action* didInvalidateDataEvent_ = {}) noexcept : alwaysOwnedContentContainer{alwaysOwnedContentContainer_}, didInvalidateDataEvent{didInvalidateDataEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private AlwaysOwnedContentContainerSO _alwaysOwnedContentContainer
-    GlobalNamespace::AlwaysOwnedContentContainerSO* _get__alwaysOwnedContentContainer();
-    // Set instance field: private AlwaysOwnedContentContainerSO _alwaysOwnedContentContainer
-    void _set__alwaysOwnedContentContainer(GlobalNamespace::AlwaysOwnedContentContainerSO* value);
-    // Get instance field: private System.Action didInvalidateDataEvent
-    System::Action* _get_didInvalidateDataEvent();
-    // Set instance field: private System.Action didInvalidateDataEvent
-    void _set_didInvalidateDataEvent(System::Action* value);
+    // Get instance field reference: private AlwaysOwnedContentContainerSO _alwaysOwnedContentContainer
+    GlobalNamespace::AlwaysOwnedContentContainerSO*& dyn__alwaysOwnedContentContainer();
+    // Get instance field reference: private System.Action didInvalidateDataEvent
+    System::Action*& dyn_didInvalidateDataEvent();
     // public System.Void add_didInvalidateDataEvent(System.Action value)
     // Offset: 0x1177BB4
     void add_didInvalidateDataEvent(System::Action* value);

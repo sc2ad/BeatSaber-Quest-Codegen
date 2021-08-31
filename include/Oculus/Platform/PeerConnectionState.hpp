@@ -60,10 +60,8 @@ namespace Oculus::Platform {
     static Oculus::Platform::PeerConnectionState _get_Closed();
     // Set static field: static public Oculus.Platform.PeerConnectionState Closed
     static void _set_Closed(Oculus::Platform::PeerConnectionState value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Oculus.Platform.PeerConnectionState
   #pragma pack(pop)
   static check_size<sizeof(PeerConnectionState), 0 + sizeof(int)> __Oculus_Platform_PeerConnectionStateSizeCheck;

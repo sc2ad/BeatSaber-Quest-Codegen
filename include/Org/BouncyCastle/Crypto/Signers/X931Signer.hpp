@@ -78,30 +78,18 @@ namespace Org::BouncyCastle::Crypto::Signers {
     operator Org::BouncyCastle::Crypto::ISigner() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ISigner*>(this);
     }
-    // Get instance field: private Org.BouncyCastle.Crypto.IDigest digest
-    Org::BouncyCastle::Crypto::IDigest* _get_digest();
-    // Set instance field: private Org.BouncyCastle.Crypto.IDigest digest
-    void _set_digest(Org::BouncyCastle::Crypto::IDigest* value);
-    // Get instance field: private Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher
-    Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* _get_cipher();
-    // Set instance field: private Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher
-    void _set_cipher(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* value);
-    // Get instance field: private Org.BouncyCastle.Crypto.Parameters.RsaKeyParameters kParam
-    Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* _get_kParam();
-    // Set instance field: private Org.BouncyCastle.Crypto.Parameters.RsaKeyParameters kParam
-    void _set_kParam(Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* value);
-    // Get instance field: private System.Int32 trailer
-    int _get_trailer();
-    // Set instance field: private System.Int32 trailer
-    void _set_trailer(int value);
-    // Get instance field: private System.Int32 keyBits
-    int _get_keyBits();
-    // Set instance field: private System.Int32 keyBits
-    void _set_keyBits(int value);
-    // Get instance field: private System.Byte[] block
-    ::Array<uint8_t>* _get_block();
-    // Set instance field: private System.Byte[] block
-    void _set_block(::Array<uint8_t>* value);
+    // Get instance field reference: private Org.BouncyCastle.Crypto.IDigest digest
+    Org::BouncyCastle::Crypto::IDigest*& dyn_digest();
+    // Get instance field reference: private Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher
+    Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*& dyn_cipher();
+    // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.RsaKeyParameters kParam
+    Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*& dyn_kParam();
+    // Get instance field reference: private System.Int32 trailer
+    int& dyn_trailer();
+    // Get instance field reference: private System.Int32 keyBits
+    int& dyn_keyBits();
+    // Get instance field reference: private System.Byte[] block
+    ::Array<uint8_t>*& dyn_block();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher, Org.BouncyCastle.Crypto.IDigest digest, System.Boolean isImplicit)
     // Offset: 0x12821A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -71,26 +71,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::MirrorRendererGraphicsSettingsPresets*) == 0x8);
     // Creating value type constructor for type: FakeMirrorObjectsInstaller
     FakeMirrorObjectsInstaller(GlobalNamespace::MirroredCubeNoteController* mirroredGameNoteControllerPrefab_ = {}, GlobalNamespace::MirroredBombNoteController* mirroredBombNoteControllerPrefab_ = {}, GlobalNamespace::MirroredObstacleController* mirroredObstacleControllerPrefab_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, GlobalNamespace::MirrorRendererGraphicsSettingsPresets* mirrorRendererGraphicsSettingsPresets_ = {}) noexcept : mirroredGameNoteControllerPrefab{mirroredGameNoteControllerPrefab_}, mirroredBombNoteControllerPrefab{mirroredBombNoteControllerPrefab_}, mirroredObstacleControllerPrefab{mirroredObstacleControllerPrefab_}, mainSettingsModel{mainSettingsModel_}, mirrorRendererGraphicsSettingsPresets{mirrorRendererGraphicsSettingsPresets_} {}
-    // Get instance field: private MirroredCubeNoteController _mirroredGameNoteControllerPrefab
-    GlobalNamespace::MirroredCubeNoteController* _get__mirroredGameNoteControllerPrefab();
-    // Set instance field: private MirroredCubeNoteController _mirroredGameNoteControllerPrefab
-    void _set__mirroredGameNoteControllerPrefab(GlobalNamespace::MirroredCubeNoteController* value);
-    // Get instance field: private MirroredBombNoteController _mirroredBombNoteControllerPrefab
-    GlobalNamespace::MirroredBombNoteController* _get__mirroredBombNoteControllerPrefab();
-    // Set instance field: private MirroredBombNoteController _mirroredBombNoteControllerPrefab
-    void _set__mirroredBombNoteControllerPrefab(GlobalNamespace::MirroredBombNoteController* value);
-    // Get instance field: private MirroredObstacleController _mirroredObstacleControllerPrefab
-    GlobalNamespace::MirroredObstacleController* _get__mirroredObstacleControllerPrefab();
-    // Set instance field: private MirroredObstacleController _mirroredObstacleControllerPrefab
-    void _set__mirroredObstacleControllerPrefab(GlobalNamespace::MirroredObstacleController* value);
-    // Get instance field: private MainSettingsModelSO _mainSettingsModel
-    GlobalNamespace::MainSettingsModelSO* _get__mainSettingsModel();
-    // Set instance field: private MainSettingsModelSO _mainSettingsModel
-    void _set__mainSettingsModel(GlobalNamespace::MainSettingsModelSO* value);
-    // Get instance field: private MirrorRendererGraphicsSettingsPresets _mirrorRendererGraphicsSettingsPresets
-    GlobalNamespace::MirrorRendererGraphicsSettingsPresets* _get__mirrorRendererGraphicsSettingsPresets();
-    // Set instance field: private MirrorRendererGraphicsSettingsPresets _mirrorRendererGraphicsSettingsPresets
-    void _set__mirrorRendererGraphicsSettingsPresets(GlobalNamespace::MirrorRendererGraphicsSettingsPresets* value);
+    // Get instance field reference: private MirroredCubeNoteController _mirroredGameNoteControllerPrefab
+    GlobalNamespace::MirroredCubeNoteController*& dyn__mirroredGameNoteControllerPrefab();
+    // Get instance field reference: private MirroredBombNoteController _mirroredBombNoteControllerPrefab
+    GlobalNamespace::MirroredBombNoteController*& dyn__mirroredBombNoteControllerPrefab();
+    // Get instance field reference: private MirroredObstacleController _mirroredObstacleControllerPrefab
+    GlobalNamespace::MirroredObstacleController*& dyn__mirroredObstacleControllerPrefab();
+    // Get instance field reference: private MainSettingsModelSO _mainSettingsModel
+    GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
+    // Get instance field reference: private MirrorRendererGraphicsSettingsPresets _mirrorRendererGraphicsSettingsPresets
+    GlobalNamespace::MirrorRendererGraphicsSettingsPresets*& dyn__mirrorRendererGraphicsSettingsPresets();
     // public MirroredCubeNoteController get_mirroredGameNoteControllerPrefab()
     // Offset: 0x1055494
     GlobalNamespace::MirroredCubeNoteController* get_mirroredGameNoteControllerPrefab();

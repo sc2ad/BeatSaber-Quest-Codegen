@@ -89,34 +89,20 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static System::Reflection::MemberInfo* _get_valueInfo();
     // Set static field: static System.Reflection.MemberInfo valueInfo
     static void _set_valueInfo(System::Reflection::MemberInfo* value);
-    // Get instance field: System.Runtime.Serialization.Formatters.Binary.ValueFixupEnum valueFixupEnum
-    System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum _get_valueFixupEnum();
-    // Set instance field: System.Runtime.Serialization.Formatters.Binary.ValueFixupEnum valueFixupEnum
-    void _set_valueFixupEnum(System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum value);
-    // Get instance field: System.Array arrayObj
-    System::Array* _get_arrayObj();
-    // Set instance field: System.Array arrayObj
-    void _set_arrayObj(System::Array* value);
-    // Get instance field: System.Int32[] indexMap
-    ::Array<int>* _get_indexMap();
-    // Set instance field: System.Int32[] indexMap
-    void _set_indexMap(::Array<int>* value);
-    // Get instance field: System.Object header
-    ::Il2CppObject* _get_header();
-    // Set instance field: System.Object header
-    void _set_header(::Il2CppObject* value);
-    // Get instance field: System.Object memberObject
-    ::Il2CppObject* _get_memberObject();
-    // Set instance field: System.Object memberObject
-    void _set_memberObject(::Il2CppObject* value);
-    // Get instance field: System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo objectInfo
-    System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* _get_objectInfo();
-    // Set instance field: System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo objectInfo
-    void _set_objectInfo(System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* value);
-    // Get instance field: System.String memberName
-    ::Il2CppString* _get_memberName();
-    // Set instance field: System.String memberName
-    void _set_memberName(::Il2CppString* value);
+    // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.ValueFixupEnum valueFixupEnum
+    System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum& dyn_valueFixupEnum();
+    // Get instance field reference: System.Array arrayObj
+    System::Array*& dyn_arrayObj();
+    // Get instance field reference: System.Int32[] indexMap
+    ::Array<int>*& dyn_indexMap();
+    // Get instance field reference: System.Object header
+    ::Il2CppObject*& dyn_header();
+    // Get instance field reference: System.Object memberObject
+    ::Il2CppObject*& dyn_memberObject();
+    // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo objectInfo
+    System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*& dyn_objectInfo();
+    // Get instance field reference: System.String memberName
+    ::Il2CppString*& dyn_memberName();
     // System.Void .ctor(System.Array arrayObj, System.Int32[] indexMap)
     // Offset: 0x161C980
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

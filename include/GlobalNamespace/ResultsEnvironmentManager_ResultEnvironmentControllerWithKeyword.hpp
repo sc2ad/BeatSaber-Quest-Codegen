@@ -41,14 +41,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::BaseResultsEnvironmentController*) == 0x8);
     // Creating value type constructor for type: ResultEnvironmentControllerWithKeyword
     ResultEnvironmentControllerWithKeyword(::Il2CppString* keyword_ = {}, GlobalNamespace::BaseResultsEnvironmentController* resultsEnvironmentController_ = {}) noexcept : keyword{keyword_}, resultsEnvironmentController{resultsEnvironmentController_} {}
-    // Get instance field: private System.String _keyword
-    ::Il2CppString* _get__keyword();
-    // Set instance field: private System.String _keyword
-    void _set__keyword(::Il2CppString* value);
-    // Get instance field: private BaseResultsEnvironmentController _resultsEnvironmentController
-    GlobalNamespace::BaseResultsEnvironmentController* _get__resultsEnvironmentController();
-    // Set instance field: private BaseResultsEnvironmentController _resultsEnvironmentController
-    void _set__resultsEnvironmentController(GlobalNamespace::BaseResultsEnvironmentController* value);
+    // Get instance field reference: private System.String _keyword
+    ::Il2CppString*& dyn__keyword();
+    // Get instance field reference: private BaseResultsEnvironmentController _resultsEnvironmentController
+    GlobalNamespace::BaseResultsEnvironmentController*& dyn__resultsEnvironmentController();
     // public System.String get_keyword()
     // Offset: 0x118BCB0
     ::Il2CppString* get_keyword();

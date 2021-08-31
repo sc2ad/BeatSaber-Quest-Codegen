@@ -50,10 +50,8 @@ namespace UnityEngine {
     static UnityEngine::QueryTriggerInteraction _get_Collide();
     // Set static field: static public UnityEngine.QueryTriggerInteraction Collide
     static void _set_Collide(UnityEngine::QueryTriggerInteraction value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.QueryTriggerInteraction
   #pragma pack(pop)
   static check_size<sizeof(QueryTriggerInteraction), 0 + sizeof(int)> __UnityEngine_QueryTriggerInteractionSizeCheck;

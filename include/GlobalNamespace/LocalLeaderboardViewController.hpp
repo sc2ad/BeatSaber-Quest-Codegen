@@ -140,58 +140,32 @@ namespace GlobalNamespace {
     static GlobalNamespace::LocalLeaderboardsModel::LeaderboardType _get__leaderboardType();
     // Set static field: static private LocalLeaderboardsModel/LeaderboardType _leaderboardType
     static void _set__leaderboardType(GlobalNamespace::LocalLeaderboardsModel::LeaderboardType value);
-    // Get instance field: private System.Int32 _maxNumberOfCells
-    int _get__maxNumberOfCells();
-    // Set instance field: private System.Int32 _maxNumberOfCells
-    void _set__maxNumberOfCells(int value);
-    // Get instance field: private LocalLeaderboardsModel _localLeaderboardsModel
-    GlobalNamespace::LocalLeaderboardsModel* _get__localLeaderboardsModel();
-    // Set instance field: private LocalLeaderboardsModel _localLeaderboardsModel
-    void _set__localLeaderboardsModel(GlobalNamespace::LocalLeaderboardsModel* value);
-    // Get instance field: private LocalLeaderboardTableView _leaderboardTableView
-    GlobalNamespace::LocalLeaderboardTableView* _get__leaderboardTableView();
-    // Set instance field: private LocalLeaderboardTableView _leaderboardTableView
-    void _set__leaderboardTableView(GlobalNamespace::LocalLeaderboardTableView* value);
-    // Get instance field: private UnityEngine.GameObject _clearLeaderboardsWrapper
-    UnityEngine::GameObject* _get__clearLeaderboardsWrapper();
-    // Set instance field: private UnityEngine.GameObject _clearLeaderboardsWrapper
-    void _set__clearLeaderboardsWrapper(UnityEngine::GameObject* value);
-    // Get instance field: private HMUI.NoTransitionsButton _clearLeaderboardsButton
-    HMUI::NoTransitionsButton* _get__clearLeaderboardsButton();
-    // Set instance field: private HMUI.NoTransitionsButton _clearLeaderboardsButton
-    void _set__clearLeaderboardsButton(HMUI::NoTransitionsButton* value);
-    // Get instance field: private HMUI.IconSegmentedControl _scopeSegmentedControl
-    HMUI::IconSegmentedControl* _get__scopeSegmentedControl();
-    // Set instance field: private HMUI.IconSegmentedControl _scopeSegmentedControl
-    void _set__scopeSegmentedControl(HMUI::IconSegmentedControl* value);
-    // Get instance field: private UnityEngine.Sprite _allTimeLeaderboardIcon
-    UnityEngine::Sprite* _get__allTimeLeaderboardIcon();
-    // Set instance field: private UnityEngine.Sprite _allTimeLeaderboardIcon
-    void _set__allTimeLeaderboardIcon(UnityEngine::Sprite* value);
-    // Get instance field: private UnityEngine.Sprite _todayLeaderboardIcon
-    UnityEngine::Sprite* _get__todayLeaderboardIcon();
-    // Set instance field: private UnityEngine.Sprite _todayLeaderboardIcon
-    void _set__todayLeaderboardIcon(UnityEngine::Sprite* value);
-    // Get instance field: private UnityEngine.Sprite _clearLeaderboardIcon
-    UnityEngine::Sprite* _get__clearLeaderboardIcon();
-    // Set instance field: private UnityEngine.Sprite _clearLeaderboardIcon
-    void _set__clearLeaderboardIcon(UnityEngine::Sprite* value);
-    // Get instance field: private PlayerDataModel _playerDataModel
-    GlobalNamespace::PlayerDataModel* _get__playerDataModel();
-    // Set instance field: private PlayerDataModel _playerDataModel
-    void _set__playerDataModel(GlobalNamespace::PlayerDataModel* value);
-    // Get instance field: private IDifficultyBeatmap _difficultyBeatmap
-    GlobalNamespace::IDifficultyBeatmap* _get__difficultyBeatmap();
-    // Set instance field: private IDifficultyBeatmap _difficultyBeatmap
-    void _set__difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap* value);
-    // Get instance field: private System.Boolean _refreshIsNeeded
-    bool _get__refreshIsNeeded();
-    // Set instance field: private System.Boolean _refreshIsNeeded
-    void _set__refreshIsNeeded(bool value);
-    // Get instance field: private System.Boolean _enableClear
-    bool _get__enableClear();
-    // Set instance field: private System.Boolean _enableClear
-    void _set__enableClear(bool value);
+    // Get instance field reference: private System.Int32 _maxNumberOfCells
+    int& dyn__maxNumberOfCells();
+    // Get instance field reference: private LocalLeaderboardsModel _localLeaderboardsModel
+    GlobalNamespace::LocalLeaderboardsModel*& dyn__localLeaderboardsModel();
+    // Get instance field reference: private LocalLeaderboardTableView _leaderboardTableView
+    GlobalNamespace::LocalLeaderboardTableView*& dyn__leaderboardTableView();
+    // Get instance field reference: private UnityEngine.GameObject _clearLeaderboardsWrapper
+    UnityEngine::GameObject*& dyn__clearLeaderboardsWrapper();
+    // Get instance field reference: private HMUI.NoTransitionsButton _clearLeaderboardsButton
+    HMUI::NoTransitionsButton*& dyn__clearLeaderboardsButton();
+    // Get instance field reference: private HMUI.IconSegmentedControl _scopeSegmentedControl
+    HMUI::IconSegmentedControl*& dyn__scopeSegmentedControl();
+    // Get instance field reference: private UnityEngine.Sprite _allTimeLeaderboardIcon
+    UnityEngine::Sprite*& dyn__allTimeLeaderboardIcon();
+    // Get instance field reference: private UnityEngine.Sprite _todayLeaderboardIcon
+    UnityEngine::Sprite*& dyn__todayLeaderboardIcon();
+    // Get instance field reference: private UnityEngine.Sprite _clearLeaderboardIcon
+    UnityEngine::Sprite*& dyn__clearLeaderboardIcon();
+    // Get instance field reference: private PlayerDataModel _playerDataModel
+    GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
+    // Get instance field reference: private IDifficultyBeatmap _difficultyBeatmap
+    GlobalNamespace::IDifficultyBeatmap*& dyn__difficultyBeatmap();
+    // Get instance field reference: private System.Boolean _refreshIsNeeded
+    bool& dyn__refreshIsNeeded();
+    // Get instance field reference: private System.Boolean _enableClear
+    bool& dyn__enableClear();
     // public LocalLeaderboardsModel get_leaderboardsModel()
     // Offset: 0x120F0A8
     GlobalNamespace::LocalLeaderboardsModel* get_leaderboardsModel();

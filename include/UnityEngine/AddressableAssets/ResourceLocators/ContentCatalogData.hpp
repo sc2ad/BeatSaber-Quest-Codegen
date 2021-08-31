@@ -148,62 +148,34 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     static int _get_k_EntryDataItemPerEntry();
     // Set static field: static private System.Int32 k_EntryDataItemPerEntry
     static void _set_k_EntryDataItemPerEntry(int value);
-    // Get instance field: System.String localHash
-    ::Il2CppString* _get_localHash();
-    // Set instance field: System.String localHash
-    void _set_localHash(::Il2CppString* value);
-    // Get instance field: UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location
-    UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* _get_location();
-    // Set instance field: UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location
-    void _set_location(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
-    // Get instance field: System.String m_LocatorId
-    ::Il2CppString* _get_m_LocatorId();
-    // Set instance field: System.String m_LocatorId
-    void _set_m_LocatorId(::Il2CppString* value);
-    // Get instance field: private UnityEngine.ResourceManagement.Util.ObjectInitializationData m_InstanceProviderData
-    UnityEngine::ResourceManagement::Util::ObjectInitializationData _get_m_InstanceProviderData();
-    // Set instance field: private UnityEngine.ResourceManagement.Util.ObjectInitializationData m_InstanceProviderData
-    void _set_m_InstanceProviderData(UnityEngine::ResourceManagement::Util::ObjectInitializationData value);
-    // Get instance field: private UnityEngine.ResourceManagement.Util.ObjectInitializationData m_SceneProviderData
-    UnityEngine::ResourceManagement::Util::ObjectInitializationData _get_m_SceneProviderData();
-    // Set instance field: private UnityEngine.ResourceManagement.Util.ObjectInitializationData m_SceneProviderData
-    void _set_m_SceneProviderData(UnityEngine::ResourceManagement::Util::ObjectInitializationData value);
-    // Get instance field: System.Collections.Generic.List`1<UnityEngine.ResourceManagement.Util.ObjectInitializationData> m_ResourceProviderData
-    System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::ObjectInitializationData>* _get_m_ResourceProviderData();
-    // Set instance field: System.Collections.Generic.List`1<UnityEngine.ResourceManagement.Util.ObjectInitializationData> m_ResourceProviderData
-    void _set_m_ResourceProviderData(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::ObjectInitializationData>* value);
-    // Get instance field: System.String[] m_ProviderIds
-    ::Array<::Il2CppString*>* _get_m_ProviderIds();
-    // Set instance field: System.String[] m_ProviderIds
-    void _set_m_ProviderIds(::Array<::Il2CppString*>* value);
-    // Get instance field: System.String[] m_InternalIds
-    ::Array<::Il2CppString*>* _get_m_InternalIds();
-    // Set instance field: System.String[] m_InternalIds
-    void _set_m_InternalIds(::Array<::Il2CppString*>* value);
-    // Get instance field: System.String m_KeyDataString
-    ::Il2CppString* _get_m_KeyDataString();
-    // Set instance field: System.String m_KeyDataString
-    void _set_m_KeyDataString(::Il2CppString* value);
-    // Get instance field: System.String m_BucketDataString
-    ::Il2CppString* _get_m_BucketDataString();
-    // Set instance field: System.String m_BucketDataString
-    void _set_m_BucketDataString(::Il2CppString* value);
-    // Get instance field: System.String m_EntryDataString
-    ::Il2CppString* _get_m_EntryDataString();
-    // Set instance field: System.String m_EntryDataString
-    void _set_m_EntryDataString(::Il2CppString* value);
-    // Get instance field: System.String m_ExtraDataString
-    ::Il2CppString* _get_m_ExtraDataString();
-    // Set instance field: System.String m_ExtraDataString
-    void _set_m_ExtraDataString(::Il2CppString* value);
-    // Get instance field: UnityEngine.ResourceManagement.Util.SerializedType[] m_resourceTypes
-    ::Array<UnityEngine::ResourceManagement::Util::SerializedType>* _get_m_resourceTypes();
-    // Set instance field: UnityEngine.ResourceManagement.Util.SerializedType[] m_resourceTypes
-    void _set_m_resourceTypes(::Array<UnityEngine::ResourceManagement::Util::SerializedType>* value);
-    // Get instance field: private System.String[] m_InternalIdPrefixes
-    ::Array<::Il2CppString*>* _get_m_InternalIdPrefixes();
-    // Set instance field: private System.String[] m_InternalIdPrefixes
-    void _set_m_InternalIdPrefixes(::Array<::Il2CppString*>* value);
+    // Get instance field reference: System.String localHash
+    ::Il2CppString*& dyn_localHash();
+    // Get instance field reference: UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location
+    UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& dyn_location();
+    // Get instance field reference: System.String m_LocatorId
+    ::Il2CppString*& dyn_m_LocatorId();
+    // Get instance field reference: private UnityEngine.ResourceManagement.Util.ObjectInitializationData m_InstanceProviderData
+    UnityEngine::ResourceManagement::Util::ObjectInitializationData& dyn_m_InstanceProviderData();
+    // Get instance field reference: private UnityEngine.ResourceManagement.Util.ObjectInitializationData m_SceneProviderData
+    UnityEngine::ResourceManagement::Util::ObjectInitializationData& dyn_m_SceneProviderData();
+    // Get instance field reference: System.Collections.Generic.List`1<UnityEngine.ResourceManagement.Util.ObjectInitializationData> m_ResourceProviderData
+    System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::ObjectInitializationData>*& dyn_m_ResourceProviderData();
+    // Get instance field reference: System.String[] m_ProviderIds
+    ::Array<::Il2CppString*>*& dyn_m_ProviderIds();
+    // Get instance field reference: System.String[] m_InternalIds
+    ::Array<::Il2CppString*>*& dyn_m_InternalIds();
+    // Get instance field reference: System.String m_KeyDataString
+    ::Il2CppString*& dyn_m_KeyDataString();
+    // Get instance field reference: System.String m_BucketDataString
+    ::Il2CppString*& dyn_m_BucketDataString();
+    // Get instance field reference: System.String m_EntryDataString
+    ::Il2CppString*& dyn_m_EntryDataString();
+    // Get instance field reference: System.String m_ExtraDataString
+    ::Il2CppString*& dyn_m_ExtraDataString();
+    // Get instance field reference: UnityEngine.ResourceManagement.Util.SerializedType[] m_resourceTypes
+    ::Array<UnityEngine::ResourceManagement::Util::SerializedType>*& dyn_m_resourceTypes();
+    // Get instance field reference: private System.String[] m_InternalIdPrefixes
+    ::Array<::Il2CppString*>*& dyn_m_InternalIdPrefixes();
     // public System.String get_ProviderId()
     // Offset: 0x1449998
     ::Il2CppString* get_ProviderId();

@@ -39,10 +39,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     constexpr operator int() const noexcept {
       return idRef;
     }
-    // Get instance field: System.Int32 idRef
-    int _get_idRef();
-    // Set instance field: System.Int32 idRef
-    void _set_idRef(int value);
+    // Get instance field reference: System.Int32 idRef
+    int& dyn_idRef();
     // System.Void Set(System.Int32 idRef)
     // Offset: 0x161846C
     void Set(int idRef);

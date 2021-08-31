@@ -176,82 +176,44 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public System.Single x
-      float _get_x();
-      // Set instance field: public System.Single x
-      void _set_x(float value);
-      // Get instance field: public System.Single y
-      float _get_y();
-      // Set instance field: public System.Single y
-      void _set_y(float value);
-      // Get instance field: public System.Single z
-      float _get_z();
-      // Set instance field: public System.Single z
-      void _set_z(float value);
-      // Get instance field: public System.Single rx
-      float _get_rx();
-      // Set instance field: public System.Single rx
-      void _set_rx(float value);
-      // Get instance field: public System.Single ry
-      float _get_ry();
-      // Set instance field: public System.Single ry
-      void _set_ry(float value);
-      // Get instance field: public System.Single rz
-      float _get_rz();
-      // Set instance field: public System.Single rz
-      void _set_rz(float value);
-      // Get instance field: public System.Single fov
-      float _get_fov();
-      // Set instance field: public System.Single fov
-      void _set_fov(float value);
-      // Get instance field: public System.Single near
-      float _get_near();
-      // Set instance field: public System.Single near
-      void _set_near(float value);
-      // Get instance field: public System.Single far
-      float _get_far();
-      // Set instance field: public System.Single far
-      void _set_far(float value);
-      // Get instance field: public System.Single sceneResolutionScale
-      float _get_sceneResolutionScale();
-      // Set instance field: public System.Single sceneResolutionScale
-      void _set_sceneResolutionScale(float value);
-      // Get instance field: public System.Single frameSkip
-      float _get_frameSkip();
-      // Set instance field: public System.Single frameSkip
-      void _set_frameSkip(float value);
-      // Get instance field: public System.Single nearOffset
-      float _get_nearOffset();
-      // Set instance field: public System.Single nearOffset
-      void _set_nearOffset(float value);
-      // Get instance field: public System.Single farOffset
-      float _get_farOffset();
-      // Set instance field: public System.Single farOffset
-      void _set_farOffset(float value);
-      // Get instance field: public System.Single hmdOffset
-      float _get_hmdOffset();
-      // Set instance field: public System.Single hmdOffset
-      void _set_hmdOffset(float value);
-      // Get instance field: public System.Single r
-      float _get_r();
-      // Set instance field: public System.Single r
-      void _set_r(float value);
-      // Get instance field: public System.Single g
-      float _get_g();
-      // Set instance field: public System.Single g
-      void _set_g(float value);
-      // Get instance field: public System.Single b
-      float _get_b();
-      // Set instance field: public System.Single b
-      void _set_b(float value);
-      // Get instance field: public System.Single a
-      float _get_a();
-      // Set instance field: public System.Single a
-      void _set_a(float value);
-      // Get instance field: public System.Boolean disableStandardAssets
-      bool _get_disableStandardAssets();
-      // Set instance field: public System.Boolean disableStandardAssets
-      void _set_disableStandardAssets(bool value);
+      // Get instance field reference: public System.Single x
+      float& dyn_x();
+      // Get instance field reference: public System.Single y
+      float& dyn_y();
+      // Get instance field reference: public System.Single z
+      float& dyn_z();
+      // Get instance field reference: public System.Single rx
+      float& dyn_rx();
+      // Get instance field reference: public System.Single ry
+      float& dyn_ry();
+      // Get instance field reference: public System.Single rz
+      float& dyn_rz();
+      // Get instance field reference: public System.Single fov
+      float& dyn_fov();
+      // Get instance field reference: public System.Single near
+      float& dyn_near();
+      // Get instance field reference: public System.Single far
+      float& dyn_far();
+      // Get instance field reference: public System.Single sceneResolutionScale
+      float& dyn_sceneResolutionScale();
+      // Get instance field reference: public System.Single frameSkip
+      float& dyn_frameSkip();
+      // Get instance field reference: public System.Single nearOffset
+      float& dyn_nearOffset();
+      // Get instance field reference: public System.Single farOffset
+      float& dyn_farOffset();
+      // Get instance field reference: public System.Single hmdOffset
+      float& dyn_hmdOffset();
+      // Get instance field reference: public System.Single r
+      float& dyn_r();
+      // Get instance field reference: public System.Single g
+      float& dyn_g();
+      // Get instance field reference: public System.Single b
+      float& dyn_b();
+      // Get instance field reference: public System.Single a
+      float& dyn_a();
+      // Get instance field reference: public System.Boolean disableStandardAssets
+      bool& dyn_disableStandardAssets();
     }; // SteamVR_ExternalCamera/Config
     #pragma pack(pop)
     static check_size<sizeof(SteamVR_ExternalCamera::Config), 72 + sizeof(bool)> __GlobalNamespace_SteamVR_ExternalCamera_ConfigSizeCheck;
@@ -334,54 +296,30 @@ namespace GlobalNamespace {
     SteamVR_ExternalCamera(GlobalNamespace::SteamVR_ExternalCamera::Config config_ = {}, ::Il2CppString* configPath_ = {}, System::IO::FileSystemWatcher* watcher_ = {}, UnityEngine::Camera* cam_ = {}, UnityEngine::Transform* target_ = {}, UnityEngine::GameObject* clipQuad_ = {}, UnityEngine::Material* clipMaterial_ = {}, UnityEngine::Material* colorMat_ = {}, UnityEngine::Material* alphaMat_ = {}, ::Array<UnityEngine::Camera*>* cameras_ = {}, ::Array<UnityEngine::Rect>* cameraRects_ = {}, float sceneResolutionScale_ = {}) noexcept : config{config_}, configPath{configPath_}, watcher{watcher_}, cam{cam_}, target{target_}, clipQuad{clipQuad_}, clipMaterial{clipMaterial_}, colorMat{colorMat_}, alphaMat{alphaMat_}, cameras{cameras_}, cameraRects{cameraRects_}, sceneResolutionScale{sceneResolutionScale_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public SteamVR_ExternalCamera/Config config
-    GlobalNamespace::SteamVR_ExternalCamera::Config _get_config();
-    // Set instance field: public SteamVR_ExternalCamera/Config config
-    void _set_config(GlobalNamespace::SteamVR_ExternalCamera::Config value);
-    // Get instance field: public System.String configPath
-    ::Il2CppString* _get_configPath();
-    // Set instance field: public System.String configPath
-    void _set_configPath(::Il2CppString* value);
-    // Get instance field: private System.IO.FileSystemWatcher watcher
-    System::IO::FileSystemWatcher* _get_watcher();
-    // Set instance field: private System.IO.FileSystemWatcher watcher
-    void _set_watcher(System::IO::FileSystemWatcher* value);
-    // Get instance field: private UnityEngine.Camera cam
-    UnityEngine::Camera* _get_cam();
-    // Set instance field: private UnityEngine.Camera cam
-    void _set_cam(UnityEngine::Camera* value);
-    // Get instance field: private UnityEngine.Transform target
-    UnityEngine::Transform* _get_target();
-    // Set instance field: private UnityEngine.Transform target
-    void _set_target(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.GameObject clipQuad
-    UnityEngine::GameObject* _get_clipQuad();
-    // Set instance field: private UnityEngine.GameObject clipQuad
-    void _set_clipQuad(UnityEngine::GameObject* value);
-    // Get instance field: private UnityEngine.Material clipMaterial
-    UnityEngine::Material* _get_clipMaterial();
-    // Set instance field: private UnityEngine.Material clipMaterial
-    void _set_clipMaterial(UnityEngine::Material* value);
-    // Get instance field: private UnityEngine.Material colorMat
-    UnityEngine::Material* _get_colorMat();
-    // Set instance field: private UnityEngine.Material colorMat
-    void _set_colorMat(UnityEngine::Material* value);
-    // Get instance field: private UnityEngine.Material alphaMat
-    UnityEngine::Material* _get_alphaMat();
-    // Set instance field: private UnityEngine.Material alphaMat
-    void _set_alphaMat(UnityEngine::Material* value);
-    // Get instance field: private UnityEngine.Camera[] cameras
-    ::Array<UnityEngine::Camera*>* _get_cameras();
-    // Set instance field: private UnityEngine.Camera[] cameras
-    void _set_cameras(::Array<UnityEngine::Camera*>* value);
-    // Get instance field: private UnityEngine.Rect[] cameraRects
-    ::Array<UnityEngine::Rect>* _get_cameraRects();
-    // Set instance field: private UnityEngine.Rect[] cameraRects
-    void _set_cameraRects(::Array<UnityEngine::Rect>* value);
-    // Get instance field: private System.Single sceneResolutionScale
-    float _get_sceneResolutionScale();
-    // Set instance field: private System.Single sceneResolutionScale
-    void _set_sceneResolutionScale(float value);
+    // Get instance field reference: public SteamVR_ExternalCamera/Config config
+    GlobalNamespace::SteamVR_ExternalCamera::Config& dyn_config();
+    // Get instance field reference: public System.String configPath
+    ::Il2CppString*& dyn_configPath();
+    // Get instance field reference: private System.IO.FileSystemWatcher watcher
+    System::IO::FileSystemWatcher*& dyn_watcher();
+    // Get instance field reference: private UnityEngine.Camera cam
+    UnityEngine::Camera*& dyn_cam();
+    // Get instance field reference: private UnityEngine.Transform target
+    UnityEngine::Transform*& dyn_target();
+    // Get instance field reference: private UnityEngine.GameObject clipQuad
+    UnityEngine::GameObject*& dyn_clipQuad();
+    // Get instance field reference: private UnityEngine.Material clipMaterial
+    UnityEngine::Material*& dyn_clipMaterial();
+    // Get instance field reference: private UnityEngine.Material colorMat
+    UnityEngine::Material*& dyn_colorMat();
+    // Get instance field reference: private UnityEngine.Material alphaMat
+    UnityEngine::Material*& dyn_alphaMat();
+    // Get instance field reference: private UnityEngine.Camera[] cameras
+    ::Array<UnityEngine::Camera*>*& dyn_cameras();
+    // Get instance field reference: private UnityEngine.Rect[] cameraRects
+    ::Array<UnityEngine::Rect>*& dyn_cameraRects();
+    // Get instance field reference: private System.Single sceneResolutionScale
+    float& dyn_sceneResolutionScale();
     // public System.Void ReadConfig()
     // Offset: 0x1421CB0
     void ReadConfig();

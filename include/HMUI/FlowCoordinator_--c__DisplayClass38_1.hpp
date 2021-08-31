@@ -42,14 +42,10 @@ namespace HMUI {
     static_assert(sizeof(HMUI::FlowCoordinator::$$c__DisplayClass38_0*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass38_1
     $$c__DisplayClass38_1(HMUI::ViewController* topViewController_ = {}, HMUI::FlowCoordinator::$$c__DisplayClass38_0* CS$$$8__locals1_ = {}) noexcept : topViewController{topViewController_}, CS$$$8__locals1{CS$$$8__locals1_} {}
-    // Get instance field: public HMUI.ViewController topViewController
-    HMUI::ViewController* _get_topViewController();
-    // Set instance field: public HMUI.ViewController topViewController
-    void _set_topViewController(HMUI::ViewController* value);
-    // Get instance field: public HMUI.FlowCoordinator/HMUI.<>c__DisplayClass38_0 CS$<>8__locals1
-    HMUI::FlowCoordinator::$$c__DisplayClass38_0* _get_CS$$$8__locals1();
-    // Set instance field: public HMUI.FlowCoordinator/HMUI.<>c__DisplayClass38_0 CS$<>8__locals1
-    void _set_CS$$$8__locals1(HMUI::FlowCoordinator::$$c__DisplayClass38_0* value);
+    // Get instance field reference: public HMUI.ViewController topViewController
+    HMUI::ViewController*& dyn_topViewController();
+    // Get instance field reference: public HMUI.FlowCoordinator/HMUI.<>c__DisplayClass38_0 CS$<>8__locals1
+    HMUI::FlowCoordinator::$$c__DisplayClass38_0*& dyn_CS$$$8__locals1();
     // System.Void <PresentViewController>b__0()
     // Offset: 0x136E1D4
     void $PresentViewController$b__0();

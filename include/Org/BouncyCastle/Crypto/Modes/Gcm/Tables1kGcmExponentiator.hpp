@@ -43,10 +43,8 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
     constexpr operator System::Collections::IList*() const noexcept {
       return lookupPowX2;
     }
-    // Get instance field: private System.Collections.IList lookupPowX2
-    System::Collections::IList* _get_lookupPowX2();
-    // Set instance field: private System.Collections.IList lookupPowX2
-    void _set_lookupPowX2(System::Collections::IList* value);
+    // Get instance field reference: private System.Collections.IList lookupPowX2
+    System::Collections::IList*& dyn_lookupPowX2();
     // public System.Void Init(System.Byte[] x)
     // Offset: 0x191A314
     void Init(::Array<uint8_t>* x);

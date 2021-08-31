@@ -43,14 +43,10 @@ namespace Mono::Net::Security {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: AsyncReadOrWriteRequest
     AsyncReadOrWriteRequest(Mono::Net::Security::BufferOffsetSize* UserBuffer_ = {}, int CurrentSize_ = {}) noexcept : UserBuffer{UserBuffer_}, CurrentSize{CurrentSize_} {}
-    // Get instance field: private readonly Mono.Net.Security.BufferOffsetSize <UserBuffer>k__BackingField
-    Mono::Net::Security::BufferOffsetSize* _get_$UserBuffer$k__BackingField();
-    // Set instance field: private readonly Mono.Net.Security.BufferOffsetSize <UserBuffer>k__BackingField
-    void _set_$UserBuffer$k__BackingField(Mono::Net::Security::BufferOffsetSize* value);
-    // Get instance field: private System.Int32 <CurrentSize>k__BackingField
-    int _get_$CurrentSize$k__BackingField();
-    // Set instance field: private System.Int32 <CurrentSize>k__BackingField
-    void _set_$CurrentSize$k__BackingField(int value);
+    // Get instance field reference: private readonly Mono.Net.Security.BufferOffsetSize <UserBuffer>k__BackingField
+    Mono::Net::Security::BufferOffsetSize*& dyn_$UserBuffer$k__BackingField();
+    // Get instance field reference: private System.Int32 <CurrentSize>k__BackingField
+    int& dyn_$CurrentSize$k__BackingField();
     // protected Mono.Net.Security.BufferOffsetSize get_UserBuffer()
     // Offset: 0x15E6624
     Mono::Net::Security::BufferOffsetSize* get_UserBuffer();

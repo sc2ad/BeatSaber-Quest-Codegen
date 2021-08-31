@@ -62,18 +62,12 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Rigidbody*) == 0x8);
     // Creating value type constructor for type: RotationOffset
     RotationOffset(int curveIndex_ = {}, ::Array<RootMotion::FinalIK::HitReactionVRIK::RotationOffset::RotationOffsetLink*>* offsetLinks_ = {}, UnityEngine::Rigidbody* rigidbody_ = {}) noexcept : curveIndex{curveIndex_}, offsetLinks{offsetLinks_}, rigidbody{rigidbody_} {}
-    // Get instance field: public System.Int32 curveIndex
-    int _get_curveIndex();
-    // Set instance field: public System.Int32 curveIndex
-    void _set_curveIndex(int value);
-    // Get instance field: public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.RotationOffset/RootMotion.FinalIK.RotationOffsetLink[] offsetLinks
-    ::Array<RootMotion::FinalIK::HitReactionVRIK::RotationOffset::RotationOffsetLink*>* _get_offsetLinks();
-    // Set instance field: public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.RotationOffset/RootMotion.FinalIK.RotationOffsetLink[] offsetLinks
-    void _set_offsetLinks(::Array<RootMotion::FinalIK::HitReactionVRIK::RotationOffset::RotationOffsetLink*>* value);
-    // Get instance field: private UnityEngine.Rigidbody rigidbody
-    UnityEngine::Rigidbody* _get_rigidbody();
-    // Set instance field: private UnityEngine.Rigidbody rigidbody
-    void _set_rigidbody(UnityEngine::Rigidbody* value);
+    // Get instance field reference: public System.Int32 curveIndex
+    int& dyn_curveIndex();
+    // Get instance field reference: public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.RotationOffset/RootMotion.FinalIK.RotationOffsetLink[] offsetLinks
+    ::Array<RootMotion::FinalIK::HitReactionVRIK::RotationOffset::RotationOffsetLink*>*& dyn_offsetLinks();
+    // Get instance field reference: private UnityEngine.Rigidbody rigidbody
+    UnityEngine::Rigidbody*& dyn_rigidbody();
     // public System.Void .ctor()
     // Offset: 0x1CCFFF8
     // Implemented from: RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.Offset

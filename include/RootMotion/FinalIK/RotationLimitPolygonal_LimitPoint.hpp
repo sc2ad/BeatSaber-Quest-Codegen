@@ -36,14 +36,10 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: LimitPoint
     LimitPoint(UnityEngine::Vector3 point_ = {}, float tangentWeight_ = {}) noexcept : point{point_}, tangentWeight{tangentWeight_} {}
-    // Get instance field: public UnityEngine.Vector3 point
-    UnityEngine::Vector3 _get_point();
-    // Set instance field: public UnityEngine.Vector3 point
-    void _set_point(UnityEngine::Vector3 value);
-    // Get instance field: public System.Single tangentWeight
-    float _get_tangentWeight();
-    // Set instance field: public System.Single tangentWeight
-    void _set_tangentWeight(float value);
+    // Get instance field reference: public UnityEngine.Vector3 point
+    UnityEngine::Vector3& dyn_point();
+    // Get instance field reference: public System.Single tangentWeight
+    float& dyn_tangentWeight();
     // public System.Void .ctor()
     // Offset: 0x1ADEC4C
     // Implemented from: System.Object

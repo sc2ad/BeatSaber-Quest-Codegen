@@ -66,18 +66,12 @@ namespace UnityEngine::ProBuilder {
     operator System::IEquatable_1<UnityEngine::ProBuilder::Triangle>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::ProBuilder::Triangle>*>(this);
     }
-    // Get instance field: private System.Int32 m_A
-    int _get_m_A();
-    // Set instance field: private System.Int32 m_A
-    void _set_m_A(int value);
-    // Get instance field: private System.Int32 m_B
-    int _get_m_B();
-    // Set instance field: private System.Int32 m_B
-    void _set_m_B(int value);
-    // Get instance field: private System.Int32 m_C
-    int _get_m_C();
-    // Set instance field: private System.Int32 m_C
-    void _set_m_C(int value);
+    // Get instance field reference: private System.Int32 m_A
+    int& dyn_m_A();
+    // Get instance field reference: private System.Int32 m_B
+    int& dyn_m_B();
+    // Get instance field reference: private System.Int32 m_C
+    int& dyn_m_C();
     // public System.Int32 get_a()
     // Offset: 0x22CC714
     int get_a();

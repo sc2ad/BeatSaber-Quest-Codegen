@@ -50,10 +50,8 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::ComponentMode _get_Face();
     // Set static field: static public UnityEngine.ProBuilder.ComponentMode Face
     static void _set_Face(UnityEngine::ProBuilder::ComponentMode value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.ProBuilder.ComponentMode
   #pragma pack(pop)
   static check_size<sizeof(ComponentMode), 0 + sizeof(int)> __UnityEngine_ProBuilder_ComponentModeSizeCheck;

@@ -78,34 +78,20 @@ namespace System {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: System.Object parsedEnum
-    ::Il2CppObject* _get_parsedEnum();
-    // Set instance field: System.Object parsedEnum
-    void _set_parsedEnum(::Il2CppObject* value);
-    // Get instance field: System.Boolean canThrow
-    bool _get_canThrow();
-    // Set instance field: System.Boolean canThrow
-    void _set_canThrow(bool value);
-    // Get instance field: System.Enum/System.ParseFailureKind m_failure
-    System::Enum::ParseFailureKind _get_m_failure();
-    // Set instance field: System.Enum/System.ParseFailureKind m_failure
-    void _set_m_failure(System::Enum::ParseFailureKind value);
-    // Get instance field: System.String m_failureMessageID
-    ::Il2CppString* _get_m_failureMessageID();
-    // Set instance field: System.String m_failureMessageID
-    void _set_m_failureMessageID(::Il2CppString* value);
-    // Get instance field: System.String m_failureParameter
-    ::Il2CppString* _get_m_failureParameter();
-    // Set instance field: System.String m_failureParameter
-    void _set_m_failureParameter(::Il2CppString* value);
-    // Get instance field: System.Object m_failureMessageFormatArgument
-    ::Il2CppObject* _get_m_failureMessageFormatArgument();
-    // Set instance field: System.Object m_failureMessageFormatArgument
-    void _set_m_failureMessageFormatArgument(::Il2CppObject* value);
-    // Get instance field: System.Exception m_innerException
-    System::Exception* _get_m_innerException();
-    // Set instance field: System.Exception m_innerException
-    void _set_m_innerException(System::Exception* value);
+    // Get instance field reference: System.Object parsedEnum
+    ::Il2CppObject*& dyn_parsedEnum();
+    // Get instance field reference: System.Boolean canThrow
+    bool& dyn_canThrow();
+    // Get instance field reference: System.Enum/System.ParseFailureKind m_failure
+    System::Enum::ParseFailureKind& dyn_m_failure();
+    // Get instance field reference: System.String m_failureMessageID
+    ::Il2CppString*& dyn_m_failureMessageID();
+    // Get instance field reference: System.String m_failureParameter
+    ::Il2CppString*& dyn_m_failureParameter();
+    // Get instance field reference: System.Object m_failureMessageFormatArgument
+    ::Il2CppObject*& dyn_m_failureMessageFormatArgument();
+    // Get instance field reference: System.Exception m_innerException
+    System::Exception*& dyn_m_innerException();
     // System.Void Init(System.Boolean canMethodThrow)
     // Offset: 0x17FD120
     void Init(bool canMethodThrow);

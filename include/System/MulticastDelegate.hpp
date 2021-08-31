@@ -45,10 +45,8 @@ namespace System {
     constexpr operator ::Array<System::Delegate*>*() const noexcept {
       return delegates;
     }
-    // Get instance field: private System.Delegate[] delegates
-    ::Array<System::Delegate*>* _get_delegates();
-    // Set instance field: private System.Delegate[] delegates
-    void _set_delegates(::Array<System::Delegate*>* value);
+    // Get instance field reference: private System.Delegate[] delegates
+    ::Array<System::Delegate*>*& dyn_delegates();
     // private System.Int32 LastIndexOf(System.Delegate[] haystack, System.Delegate[] needle)
     // Offset: 0x1839D3C
     int LastIndexOf(::Array<System::Delegate*>* haystack, ::Array<System::Delegate*>* needle);

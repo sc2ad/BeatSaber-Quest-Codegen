@@ -46,14 +46,10 @@ namespace GlobalNamespace {
     FadeOutSongPreviewPlayerOnSceneTransitionStart(GlobalNamespace::AudioPlayerBase* songPreviewPlayer_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}) noexcept : songPreviewPlayer{songPreviewPlayer_}, gameScenesManager{gameScenesManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private AudioPlayerBase _songPreviewPlayer
-    GlobalNamespace::AudioPlayerBase* _get__songPreviewPlayer();
-    // Set instance field: private AudioPlayerBase _songPreviewPlayer
-    void _set__songPreviewPlayer(GlobalNamespace::AudioPlayerBase* value);
-    // Get instance field: private GameScenesManager _gameScenesManager
-    GlobalNamespace::GameScenesManager* _get__gameScenesManager();
-    // Set instance field: private GameScenesManager _gameScenesManager
-    void _set__gameScenesManager(GlobalNamespace::GameScenesManager* value);
+    // Get instance field reference: private AudioPlayerBase _songPreviewPlayer
+    GlobalNamespace::AudioPlayerBase*& dyn__songPreviewPlayer();
+    // Get instance field reference: private GameScenesManager _gameScenesManager
+    GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
     // protected System.Void Start()
     // Offset: 0x105527C
     void Start();

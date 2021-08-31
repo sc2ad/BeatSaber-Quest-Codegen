@@ -48,14 +48,10 @@ namespace System::Reflection {
     static_assert(sizeof(::Array<System::Exception*>*) == 0x8);
     // Creating value type constructor for type: ReflectionTypeLoadException
     ReflectionTypeLoadException(::Array<System::Type*>* classes_ = {}, ::Array<System::Exception*>* exceptions_ = {}) noexcept : classes{classes_}, exceptions{exceptions_} {}
-    // Get instance field: private System.Type[] _classes
-    ::Array<System::Type*>* _get__classes();
-    // Set instance field: private System.Type[] _classes
-    void _set__classes(::Array<System::Type*>* value);
-    // Get instance field: private System.Exception[] _exceptions
-    ::Array<System::Exception*>* _get__exceptions();
-    // Set instance field: private System.Exception[] _exceptions
-    void _set__exceptions(::Array<System::Exception*>* value);
+    // Get instance field reference: private System.Type[] _classes
+    ::Array<System::Type*>*& dyn__classes();
+    // Get instance field reference: private System.Exception[] _exceptions
+    ::Array<System::Exception*>*& dyn__exceptions();
     // public System.Void .ctor(System.Type[] classes, System.Exception[] exceptions)
     // Offset: 0x1D222F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

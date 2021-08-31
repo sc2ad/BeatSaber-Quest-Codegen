@@ -207,114 +207,60 @@ namespace MasterServer {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
-    // Get instance field: public System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: public System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder _get_$$t__builder();
-    // Set instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
-    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder value);
-    // Get instance field: public MasterServer.BaseClientMessageHandler <>4__this
-    MasterServer::BaseClientMessageHandler* _get_$$4__this();
-    // Set instance field: public MasterServer.BaseClientMessageHandler <>4__this
-    void _set_$$4__this(MasterServer::BaseClientMessageHandler* value);
-    // Get instance field: private MasterServer.BaseClientMessageHandler/MasterServer.<>c__DisplayClass29_0 <>8__1
-    MasterServer::BaseClientMessageHandler::$$c__DisplayClass29_0* _get_$$8__1();
-    // Set instance field: private MasterServer.BaseClientMessageHandler/MasterServer.<>c__DisplayClass29_0 <>8__1
-    void _set_$$8__1(MasterServer::BaseClientMessageHandler::$$c__DisplayClass29_0* value);
-    // Get instance field: private System.Net.IPEndPoint <endPoint>5__2
-    System::Net::IPEndPoint* _get_$endPoint$5__2();
-    // Set instance field: private System.Net.IPEndPoint <endPoint>5__2
-    void _set_$endPoint$5__2(System::Net::IPEndPoint* value);
-    // Get instance field: private MasterServer.IMasterServerAuthenticateRequest <authenticationRequest>5__3
-    MasterServer::IMasterServerAuthenticateRequest* _get_$authenticationRequest$5__3();
-    // Set instance field: private MasterServer.IMasterServerAuthenticateRequest <authenticationRequest>5__3
-    void _set_$authenticationRequest$5__3(MasterServer::IMasterServerAuthenticateRequest* value);
-    // Get instance field: private System.Byte[] <clientRandom>5__4
-    ::Array<uint8_t>* _get_$clientRandom$5__4();
-    // Set instance field: private System.Byte[] <clientRandom>5__4
-    void _set_$clientRandom$5__4(::Array<uint8_t>* value);
-    // Get instance field: private System.Threading.Tasks.Task`1<IDiffieHellmanKeyPair> <generateKeysTask>5__5
-    System::Threading::Tasks::Task_1<GlobalNamespace::IDiffieHellmanKeyPair*>* _get_$generateKeysTask$5__5();
-    // Set instance field: private System.Threading.Tasks.Task`1<IDiffieHellmanKeyPair> <generateKeysTask>5__5
-    void _set_$generateKeysTask$5__5(System::Threading::Tasks::Task_1<GlobalNamespace::IDiffieHellmanKeyPair*>* value);
-    // Get instance field: private System.Threading.Tasks.Task`1<MasterServer.ServerCertificateRequest> <serverCertificateTask>5__6
-    System::Threading::Tasks::Task_1<MasterServer::ServerCertificateRequest*>* _get_$serverCertificateTask$5__6();
-    // Set instance field: private System.Threading.Tasks.Task`1<MasterServer.ServerCertificateRequest> <serverCertificateTask>5__6
-    void _set_$serverCertificateTask$5__6(System::Threading::Tasks::Task_1<MasterServer::ServerCertificateRequest*>* value);
-    // Get instance field: private System.Byte[] <serverRandom>5__7
-    ::Array<uint8_t>* _get_$serverRandom$5__7();
-    // Set instance field: private System.Byte[] <serverRandom>5__7
-    void _set_$serverRandom$5__7(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] <signature>5__8
-    ::Array<uint8_t>* _get_$signature$5__8();
-    // Set instance field: private System.Byte[] <signature>5__8
-    void _set_$signature$5__8(::Array<uint8_t>* value);
-    // Get instance field: private System.UInt32 <responseId>5__9
-    uint _get_$responseId$5__9();
-    // Set instance field: private System.UInt32 <responseId>5__9
-    void _set_$responseId$5__9(uint value);
-    // Get instance field: private System.Threading.Tasks.Task`1<System.Byte[]> <getPreMasterSecretTask>5__10
-    System::Threading::Tasks::Task_1<::Array<uint8_t>*>* _get_$getPreMasterSecretTask$5__10();
-    // Set instance field: private System.Threading.Tasks.Task`1<System.Byte[]> <getPreMasterSecretTask>5__10
-    void _set_$getPreMasterSecretTask$5__10(System::Threading::Tasks::Task_1<::Array<uint8_t>*>* value);
-    // Get instance field: private System.Threading.Tasks.Task`1<System.Boolean> <verifySignatureTask>5__11
-    System::Threading::Tasks::Task_1<bool>* _get_$verifySignatureTask$5__11();
-    // Set instance field: private System.Threading.Tasks.Task`1<System.Boolean> <verifySignatureTask>5__11
-    void _set_$verifySignatureTask$5__11(System::Threading::Tasks::Task_1<bool>* value);
-    // Get instance field: private IDiffieHellmanKeyPair <clientKeys>5__12
-    GlobalNamespace::IDiffieHellmanKeyPair* _get_$clientKeys$5__12();
-    // Set instance field: private IDiffieHellmanKeyPair <clientKeys>5__12
-    void _set_$clientKeys$5__12(GlobalNamespace::IDiffieHellmanKeyPair* value);
-    // Get instance field: private EncryptionUtility/IEncryptionState <encryptionState>5__13
-    GlobalNamespace::EncryptionUtility::IEncryptionState* _get_$encryptionState$5__13();
-    // Set instance field: private EncryptionUtility/IEncryptionState <encryptionState>5__13
-    void _set_$encryptionState$5__13(GlobalNamespace::EncryptionUtility::IEncryptionState* value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Net.IPEndPoint> <>u__1
-    System::Runtime::CompilerServices::TaskAwaiter_1<System::Net::IPEndPoint*> _get_$$u__1();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Net.IPEndPoint> <>u__1
-    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<System::Net::IPEndPoint*> value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServer.IMasterServerAuthenticateRequest> <>u__2
-    System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::IMasterServerAuthenticateRequest*> _get_$$u__2();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServer.IMasterServerAuthenticateRequest> <>u__2
-    void _set_$$u__2(System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::IMasterServerAuthenticateRequest*> value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServer.HelloVerifyRequest> <>u__3
-    System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::HelloVerifyRequest*> _get_$$u__3();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServer.HelloVerifyRequest> <>u__3
-    void _set_$$u__3(System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::HelloVerifyRequest*> value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServer.ServerHelloRequest> <>u__4
-    System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::ServerHelloRequest*> _get_$$u__4();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServer.ServerHelloRequest> <>u__4
-    void _set_$$u__4(System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::ServerHelloRequest*> value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServer.ServerCertificateRequest> <>u__5
-    System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::ServerCertificateRequest*> _get_$$u__5();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServer.ServerCertificateRequest> <>u__5
-    void _set_$$u__5(System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::ServerCertificateRequest*> value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<IDiffieHellmanKeyPair> <>u__6
-    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IDiffieHellmanKeyPair*> _get_$$u__6();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<IDiffieHellmanKeyPair> <>u__6
-    void _set_$$u__6(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IDiffieHellmanKeyPair*> value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> <>u__7
-    System::Runtime::CompilerServices::TaskAwaiter_1<bool> _get_$$u__7();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> <>u__7
-    void _set_$$u__7(System::Runtime::CompilerServices::TaskAwaiter_1<bool> value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServer.ChangeCipherSpecRequest> <>u__8
-    System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::ChangeCipherSpecRequest*> _get_$$u__8();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServer.ChangeCipherSpecRequest> <>u__8
-    void _set_$$u__8(System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::ChangeCipherSpecRequest*> value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> <>u__9
-    System::Runtime::CompilerServices::TaskAwaiter_1<::Array<uint8_t>*> _get_$$u__9();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> <>u__9
-    void _set_$$u__9(System::Runtime::CompilerServices::TaskAwaiter_1<::Array<uint8_t>*> value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<EncryptionUtility/IEncryptionState> <>u__10
-    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EncryptionUtility::IEncryptionState*> _get_$$u__10();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<EncryptionUtility/IEncryptionState> <>u__10
-    void _set_$$u__10(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EncryptionUtility::IEncryptionState*> value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServer.IMasterServerAuthenticateResponse> <>u__11
-    System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::IMasterServerAuthenticateResponse*> _get_$$u__11();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServer.IMasterServerAuthenticateResponse> <>u__11
-    void _set_$$u__11(System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::IMasterServerAuthenticateResponse*> value);
+    // Get instance field reference: public System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder& dyn_$$t__builder();
+    // Get instance field reference: public MasterServer.BaseClientMessageHandler <>4__this
+    MasterServer::BaseClientMessageHandler*& dyn_$$4__this();
+    // Get instance field reference: private MasterServer.BaseClientMessageHandler/MasterServer.<>c__DisplayClass29_0 <>8__1
+    MasterServer::BaseClientMessageHandler::$$c__DisplayClass29_0*& dyn_$$8__1();
+    // Get instance field reference: private System.Net.IPEndPoint <endPoint>5__2
+    System::Net::IPEndPoint*& dyn_$endPoint$5__2();
+    // Get instance field reference: private MasterServer.IMasterServerAuthenticateRequest <authenticationRequest>5__3
+    MasterServer::IMasterServerAuthenticateRequest*& dyn_$authenticationRequest$5__3();
+    // Get instance field reference: private System.Byte[] <clientRandom>5__4
+    ::Array<uint8_t>*& dyn_$clientRandom$5__4();
+    // Get instance field reference: private System.Threading.Tasks.Task`1<IDiffieHellmanKeyPair> <generateKeysTask>5__5
+    System::Threading::Tasks::Task_1<GlobalNamespace::IDiffieHellmanKeyPair*>*& dyn_$generateKeysTask$5__5();
+    // Get instance field reference: private System.Threading.Tasks.Task`1<MasterServer.ServerCertificateRequest> <serverCertificateTask>5__6
+    System::Threading::Tasks::Task_1<MasterServer::ServerCertificateRequest*>*& dyn_$serverCertificateTask$5__6();
+    // Get instance field reference: private System.Byte[] <serverRandom>5__7
+    ::Array<uint8_t>*& dyn_$serverRandom$5__7();
+    // Get instance field reference: private System.Byte[] <signature>5__8
+    ::Array<uint8_t>*& dyn_$signature$5__8();
+    // Get instance field reference: private System.UInt32 <responseId>5__9
+    uint& dyn_$responseId$5__9();
+    // Get instance field reference: private System.Threading.Tasks.Task`1<System.Byte[]> <getPreMasterSecretTask>5__10
+    System::Threading::Tasks::Task_1<::Array<uint8_t>*>*& dyn_$getPreMasterSecretTask$5__10();
+    // Get instance field reference: private System.Threading.Tasks.Task`1<System.Boolean> <verifySignatureTask>5__11
+    System::Threading::Tasks::Task_1<bool>*& dyn_$verifySignatureTask$5__11();
+    // Get instance field reference: private IDiffieHellmanKeyPair <clientKeys>5__12
+    GlobalNamespace::IDiffieHellmanKeyPair*& dyn_$clientKeys$5__12();
+    // Get instance field reference: private EncryptionUtility/IEncryptionState <encryptionState>5__13
+    GlobalNamespace::EncryptionUtility::IEncryptionState*& dyn_$encryptionState$5__13();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Net.IPEndPoint> <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter_1<System::Net::IPEndPoint*>& dyn_$$u__1();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServer.IMasterServerAuthenticateRequest> <>u__2
+    System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::IMasterServerAuthenticateRequest*>& dyn_$$u__2();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServer.HelloVerifyRequest> <>u__3
+    System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::HelloVerifyRequest*>& dyn_$$u__3();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServer.ServerHelloRequest> <>u__4
+    System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::ServerHelloRequest*>& dyn_$$u__4();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServer.ServerCertificateRequest> <>u__5
+    System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::ServerCertificateRequest*>& dyn_$$u__5();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<IDiffieHellmanKeyPair> <>u__6
+    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IDiffieHellmanKeyPair*>& dyn_$$u__6();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> <>u__7
+    System::Runtime::CompilerServices::TaskAwaiter_1<bool>& dyn_$$u__7();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServer.ChangeCipherSpecRequest> <>u__8
+    System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::ChangeCipherSpecRequest*>& dyn_$$u__8();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> <>u__9
+    System::Runtime::CompilerServices::TaskAwaiter_1<::Array<uint8_t>*>& dyn_$$u__9();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<EncryptionUtility/IEncryptionState> <>u__10
+    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EncryptionUtility::IEncryptionState*>& dyn_$$u__10();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServer.IMasterServerAuthenticateResponse> <>u__11
+    System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::IMasterServerAuthenticateResponse*>& dyn_$$u__11();
     // private System.Void MoveNext()
     // Offset: 0x12122D0
     void MoveNext();

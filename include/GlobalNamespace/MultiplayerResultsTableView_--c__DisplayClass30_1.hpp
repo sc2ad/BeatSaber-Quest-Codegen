@@ -42,10 +42,8 @@ namespace GlobalNamespace {
     constexpr operator UnityEngine::RectTransform*() const noexcept {
       return winnerRectTransform;
     }
-    // Get instance field: public UnityEngine.RectTransform winnerRectTransform
-    UnityEngine::RectTransform* _get_winnerRectTransform();
-    // Set instance field: public UnityEngine.RectTransform winnerRectTransform
-    void _set_winnerRectTransform(UnityEngine::RectTransform* value);
+    // Get instance field reference: public UnityEngine.RectTransform winnerRectTransform
+    UnityEngine::RectTransform*& dyn_winnerRectTransform();
     // System.Void <StartAnimation>b__3(UnityEngine.Vector2 val)
     // Offset: 0x1036774
     void $StartAnimation$b__3(UnityEngine::Vector2 val);

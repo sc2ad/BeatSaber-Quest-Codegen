@@ -175,14 +175,10 @@ namespace Zenject {
     static_assert(sizeof(Zenject::BindStatement*) == 0x8);
     // Creating value type constructor for type: FromBinder
     FromBinder(Zenject::DiContainer* BindContainer_ = {}, Zenject::BindStatement* BindStatement_ = {}) noexcept : BindContainer{BindContainer_}, BindStatement{BindStatement_} {}
-    // Get instance field: private Zenject.DiContainer <BindContainer>k__BackingField
-    Zenject::DiContainer* _get_$BindContainer$k__BackingField();
-    // Set instance field: private Zenject.DiContainer <BindContainer>k__BackingField
-    void _set_$BindContainer$k__BackingField(Zenject::DiContainer* value);
-    // Get instance field: private Zenject.BindStatement <BindStatement>k__BackingField
-    Zenject::BindStatement* _get_$BindStatement$k__BackingField();
-    // Set instance field: private Zenject.BindStatement <BindStatement>k__BackingField
-    void _set_$BindStatement$k__BackingField(Zenject::BindStatement* value);
+    // Get instance field reference: private Zenject.DiContainer <BindContainer>k__BackingField
+    Zenject::DiContainer*& dyn_$BindContainer$k__BackingField();
+    // Get instance field reference: private Zenject.BindStatement <BindStatement>k__BackingField
+    Zenject::BindStatement*& dyn_$BindStatement$k__BackingField();
     // protected Zenject.DiContainer get_BindContainer()
     // Offset: 0x1658F1C
     Zenject::DiContainer* get_BindContainer();

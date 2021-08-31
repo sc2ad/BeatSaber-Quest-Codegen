@@ -50,10 +50,8 @@ namespace Zenject {
     static Zenject::ScopeTypes _get_Singleton();
     // Set static field: static public Zenject.ScopeTypes Singleton
     static void _set_Singleton(Zenject::ScopeTypes value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Zenject.ScopeTypes
   #pragma pack(pop)
   static check_size<sizeof(ScopeTypes), 0 + sizeof(int)> __Zenject_ScopeTypesSizeCheck;

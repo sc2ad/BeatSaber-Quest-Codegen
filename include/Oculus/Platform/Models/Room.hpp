@@ -186,90 +186,48 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(uint) == 0x4);
     // Creating value type constructor for type: Room
     Room(uint64_t ApplicationID_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* DataStore_ = {}, ::Il2CppString* Description_ = {}, uint64_t _ID_ = {}, Oculus::Platform::Models::UserList* InvitedUsersOptional_ = {}, Oculus::Platform::Models::UserList* InvitedUsers_ = {}, bool IsMembershipLocked_ = {}, Oculus::Platform::RoomJoinPolicy JoinPolicy_ = {}, Oculus::Platform::RoomJoinability Joinability_ = {}, Oculus::Platform::Models::MatchmakingEnqueuedUserList* MatchedUsersOptional_ = {}, Oculus::Platform::Models::MatchmakingEnqueuedUserList* MatchedUsers_ = {}, uint MaxUsers_ = {}, ::Il2CppString* Name_ = {}, Oculus::Platform::Models::User* OwnerOptional_ = {}, Oculus::Platform::Models::User* Owner_ = {}, Oculus::Platform::Models::TeamList* TeamsOptional_ = {}, Oculus::Platform::Models::TeamList* Teams_ = {}, Oculus::Platform::RoomType Type_ = {}, Oculus::Platform::Models::UserList* UsersOptional_ = {}, Oculus::Platform::Models::UserList* Users_ = {}, uint Version_ = {}) noexcept : ApplicationID{ApplicationID_}, DataStore{DataStore_}, Description{Description_}, _ID{_ID_}, InvitedUsersOptional{InvitedUsersOptional_}, InvitedUsers{InvitedUsers_}, IsMembershipLocked{IsMembershipLocked_}, JoinPolicy{JoinPolicy_}, Joinability{Joinability_}, MatchedUsersOptional{MatchedUsersOptional_}, MatchedUsers{MatchedUsers_}, MaxUsers{MaxUsers_}, Name{Name_}, OwnerOptional{OwnerOptional_}, Owner{Owner_}, TeamsOptional{TeamsOptional_}, Teams{Teams_}, Type{Type_}, UsersOptional{UsersOptional_}, Users{Users_}, Version{Version_} {}
-    // Get instance field: public readonly System.UInt64 ApplicationID
-    uint64_t _get_ApplicationID();
-    // Set instance field: public readonly System.UInt64 ApplicationID
-    void _set_ApplicationID(uint64_t value);
-    // Get instance field: public readonly System.Collections.Generic.Dictionary`2<System.String,System.String> DataStore
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* _get_DataStore();
-    // Set instance field: public readonly System.Collections.Generic.Dictionary`2<System.String,System.String> DataStore
-    void _set_DataStore(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* value);
-    // Get instance field: public readonly System.String Description
-    ::Il2CppString* _get_Description();
-    // Set instance field: public readonly System.String Description
-    void _set_Description(::Il2CppString* value);
-    // Get instance field: public readonly System.UInt64 ID
-    uint64_t _get_ID();
-    // Set instance field: public readonly System.UInt64 ID
-    void _set_ID(uint64_t value);
-    // Get instance field: public readonly Oculus.Platform.Models.UserList InvitedUsersOptional
-    Oculus::Platform::Models::UserList* _get_InvitedUsersOptional();
-    // Set instance field: public readonly Oculus.Platform.Models.UserList InvitedUsersOptional
-    void _set_InvitedUsersOptional(Oculus::Platform::Models::UserList* value);
-    // Get instance field: public readonly Oculus.Platform.Models.UserList InvitedUsers
-    Oculus::Platform::Models::UserList* _get_InvitedUsers();
-    // Set instance field: public readonly Oculus.Platform.Models.UserList InvitedUsers
-    void _set_InvitedUsers(Oculus::Platform::Models::UserList* value);
-    // Get instance field: public readonly System.Boolean IsMembershipLocked
-    bool _get_IsMembershipLocked();
-    // Set instance field: public readonly System.Boolean IsMembershipLocked
-    void _set_IsMembershipLocked(bool value);
-    // Get instance field: public readonly Oculus.Platform.RoomJoinPolicy JoinPolicy
-    Oculus::Platform::RoomJoinPolicy _get_JoinPolicy();
-    // Set instance field: public readonly Oculus.Platform.RoomJoinPolicy JoinPolicy
-    void _set_JoinPolicy(Oculus::Platform::RoomJoinPolicy value);
-    // Get instance field: public readonly Oculus.Platform.RoomJoinability Joinability
-    Oculus::Platform::RoomJoinability _get_Joinability();
-    // Set instance field: public readonly Oculus.Platform.RoomJoinability Joinability
-    void _set_Joinability(Oculus::Platform::RoomJoinability value);
-    // Get instance field: public readonly Oculus.Platform.Models.MatchmakingEnqueuedUserList MatchedUsersOptional
-    Oculus::Platform::Models::MatchmakingEnqueuedUserList* _get_MatchedUsersOptional();
-    // Set instance field: public readonly Oculus.Platform.Models.MatchmakingEnqueuedUserList MatchedUsersOptional
-    void _set_MatchedUsersOptional(Oculus::Platform::Models::MatchmakingEnqueuedUserList* value);
-    // Get instance field: public readonly Oculus.Platform.Models.MatchmakingEnqueuedUserList MatchedUsers
-    Oculus::Platform::Models::MatchmakingEnqueuedUserList* _get_MatchedUsers();
-    // Set instance field: public readonly Oculus.Platform.Models.MatchmakingEnqueuedUserList MatchedUsers
-    void _set_MatchedUsers(Oculus::Platform::Models::MatchmakingEnqueuedUserList* value);
-    // Get instance field: public readonly System.UInt32 MaxUsers
-    uint _get_MaxUsers();
-    // Set instance field: public readonly System.UInt32 MaxUsers
-    void _set_MaxUsers(uint value);
-    // Get instance field: public readonly System.String Name
-    ::Il2CppString* _get_Name();
-    // Set instance field: public readonly System.String Name
-    void _set_Name(::Il2CppString* value);
-    // Get instance field: public readonly Oculus.Platform.Models.User OwnerOptional
-    Oculus::Platform::Models::User* _get_OwnerOptional();
-    // Set instance field: public readonly Oculus.Platform.Models.User OwnerOptional
-    void _set_OwnerOptional(Oculus::Platform::Models::User* value);
-    // Get instance field: public readonly Oculus.Platform.Models.User Owner
-    Oculus::Platform::Models::User* _get_Owner();
-    // Set instance field: public readonly Oculus.Platform.Models.User Owner
-    void _set_Owner(Oculus::Platform::Models::User* value);
-    // Get instance field: public readonly Oculus.Platform.Models.TeamList TeamsOptional
-    Oculus::Platform::Models::TeamList* _get_TeamsOptional();
-    // Set instance field: public readonly Oculus.Platform.Models.TeamList TeamsOptional
-    void _set_TeamsOptional(Oculus::Platform::Models::TeamList* value);
-    // Get instance field: public readonly Oculus.Platform.Models.TeamList Teams
-    Oculus::Platform::Models::TeamList* _get_Teams();
-    // Set instance field: public readonly Oculus.Platform.Models.TeamList Teams
-    void _set_Teams(Oculus::Platform::Models::TeamList* value);
-    // Get instance field: public readonly Oculus.Platform.RoomType Type
-    Oculus::Platform::RoomType _get_Type();
-    // Set instance field: public readonly Oculus.Platform.RoomType Type
-    void _set_Type(Oculus::Platform::RoomType value);
-    // Get instance field: public readonly Oculus.Platform.Models.UserList UsersOptional
-    Oculus::Platform::Models::UserList* _get_UsersOptional();
-    // Set instance field: public readonly Oculus.Platform.Models.UserList UsersOptional
-    void _set_UsersOptional(Oculus::Platform::Models::UserList* value);
-    // Get instance field: public readonly Oculus.Platform.Models.UserList Users
-    Oculus::Platform::Models::UserList* _get_Users();
-    // Set instance field: public readonly Oculus.Platform.Models.UserList Users
-    void _set_Users(Oculus::Platform::Models::UserList* value);
-    // Get instance field: public readonly System.UInt32 Version
-    uint _get_Version();
-    // Set instance field: public readonly System.UInt32 Version
-    void _set_Version(uint value);
+    // Get instance field reference: public readonly System.UInt64 ApplicationID
+    uint64_t& dyn_ApplicationID();
+    // Get instance field reference: public readonly System.Collections.Generic.Dictionary`2<System.String,System.String> DataStore
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*& dyn_DataStore();
+    // Get instance field reference: public readonly System.String Description
+    ::Il2CppString*& dyn_Description();
+    // Get instance field reference: public readonly System.UInt64 ID
+    uint64_t& dyn_ID();
+    // Get instance field reference: public readonly Oculus.Platform.Models.UserList InvitedUsersOptional
+    Oculus::Platform::Models::UserList*& dyn_InvitedUsersOptional();
+    // Get instance field reference: public readonly Oculus.Platform.Models.UserList InvitedUsers
+    Oculus::Platform::Models::UserList*& dyn_InvitedUsers();
+    // Get instance field reference: public readonly System.Boolean IsMembershipLocked
+    bool& dyn_IsMembershipLocked();
+    // Get instance field reference: public readonly Oculus.Platform.RoomJoinPolicy JoinPolicy
+    Oculus::Platform::RoomJoinPolicy& dyn_JoinPolicy();
+    // Get instance field reference: public readonly Oculus.Platform.RoomJoinability Joinability
+    Oculus::Platform::RoomJoinability& dyn_Joinability();
+    // Get instance field reference: public readonly Oculus.Platform.Models.MatchmakingEnqueuedUserList MatchedUsersOptional
+    Oculus::Platform::Models::MatchmakingEnqueuedUserList*& dyn_MatchedUsersOptional();
+    // Get instance field reference: public readonly Oculus.Platform.Models.MatchmakingEnqueuedUserList MatchedUsers
+    Oculus::Platform::Models::MatchmakingEnqueuedUserList*& dyn_MatchedUsers();
+    // Get instance field reference: public readonly System.UInt32 MaxUsers
+    uint& dyn_MaxUsers();
+    // Get instance field reference: public readonly System.String Name
+    ::Il2CppString*& dyn_Name();
+    // Get instance field reference: public readonly Oculus.Platform.Models.User OwnerOptional
+    Oculus::Platform::Models::User*& dyn_OwnerOptional();
+    // Get instance field reference: public readonly Oculus.Platform.Models.User Owner
+    Oculus::Platform::Models::User*& dyn_Owner();
+    // Get instance field reference: public readonly Oculus.Platform.Models.TeamList TeamsOptional
+    Oculus::Platform::Models::TeamList*& dyn_TeamsOptional();
+    // Get instance field reference: public readonly Oculus.Platform.Models.TeamList Teams
+    Oculus::Platform::Models::TeamList*& dyn_Teams();
+    // Get instance field reference: public readonly Oculus.Platform.RoomType Type
+    Oculus::Platform::RoomType& dyn_Type();
+    // Get instance field reference: public readonly Oculus.Platform.Models.UserList UsersOptional
+    Oculus::Platform::Models::UserList*& dyn_UsersOptional();
+    // Get instance field reference: public readonly Oculus.Platform.Models.UserList Users
+    Oculus::Platform::Models::UserList*& dyn_Users();
+    // Get instance field reference: public readonly System.UInt32 Version
+    uint& dyn_Version();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14ECD08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

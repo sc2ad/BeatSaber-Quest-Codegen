@@ -68,10 +68,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::MultiplayerLobbyState _get_Error();
     // Set static field: static public MultiplayerLobbyState Error
     static void _set_Error(GlobalNamespace::MultiplayerLobbyState value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // MultiplayerLobbyState
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerLobbyState), 0 + sizeof(int)> __GlobalNamespace_MultiplayerLobbyStateSizeCheck;

@@ -113,54 +113,30 @@ namespace Mono::Security::Cryptography {
     operator System::Security::Cryptography::ICryptoTransform() noexcept {
       return *reinterpret_cast<System::Security::Cryptography::ICryptoTransform*>(this);
     }
-    // Get instance field: protected System.Security.Cryptography.SymmetricAlgorithm algo
-    System::Security::Cryptography::SymmetricAlgorithm* _get_algo();
-    // Set instance field: protected System.Security.Cryptography.SymmetricAlgorithm algo
-    void _set_algo(System::Security::Cryptography::SymmetricAlgorithm* value);
-    // Get instance field: protected System.Boolean encrypt
-    bool _get_encrypt();
-    // Set instance field: protected System.Boolean encrypt
-    void _set_encrypt(bool value);
-    // Get instance field: protected System.Int32 BlockSizeByte
-    int _get_BlockSizeByte();
-    // Set instance field: protected System.Int32 BlockSizeByte
-    void _set_BlockSizeByte(int value);
-    // Get instance field: protected System.Byte[] temp
-    ::Array<uint8_t>* _get_temp();
-    // Set instance field: protected System.Byte[] temp
-    void _set_temp(::Array<uint8_t>* value);
-    // Get instance field: protected System.Byte[] temp2
-    ::Array<uint8_t>* _get_temp2();
-    // Set instance field: protected System.Byte[] temp2
-    void _set_temp2(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] workBuff
-    ::Array<uint8_t>* _get_workBuff();
-    // Set instance field: private System.Byte[] workBuff
-    void _set_workBuff(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] workout
-    ::Array<uint8_t>* _get_workout();
-    // Set instance field: private System.Byte[] workout
-    void _set_workout(::Array<uint8_t>* value);
-    // Get instance field: protected System.Security.Cryptography.PaddingMode padmode
-    System::Security::Cryptography::PaddingMode _get_padmode();
-    // Set instance field: protected System.Security.Cryptography.PaddingMode padmode
-    void _set_padmode(System::Security::Cryptography::PaddingMode value);
-    // Get instance field: protected System.Int32 FeedBackByte
-    int _get_FeedBackByte();
-    // Set instance field: protected System.Int32 FeedBackByte
-    void _set_FeedBackByte(int value);
-    // Get instance field: private System.Boolean m_disposed
-    bool _get_m_disposed();
-    // Set instance field: private System.Boolean m_disposed
-    void _set_m_disposed(bool value);
-    // Get instance field: protected System.Boolean lastBlock
-    bool _get_lastBlock();
-    // Set instance field: protected System.Boolean lastBlock
-    void _set_lastBlock(bool value);
-    // Get instance field: private System.Security.Cryptography.RandomNumberGenerator _rng
-    System::Security::Cryptography::RandomNumberGenerator* _get__rng();
-    // Set instance field: private System.Security.Cryptography.RandomNumberGenerator _rng
-    void _set__rng(System::Security::Cryptography::RandomNumberGenerator* value);
+    // Get instance field reference: protected System.Security.Cryptography.SymmetricAlgorithm algo
+    System::Security::Cryptography::SymmetricAlgorithm*& dyn_algo();
+    // Get instance field reference: protected System.Boolean encrypt
+    bool& dyn_encrypt();
+    // Get instance field reference: protected System.Int32 BlockSizeByte
+    int& dyn_BlockSizeByte();
+    // Get instance field reference: protected System.Byte[] temp
+    ::Array<uint8_t>*& dyn_temp();
+    // Get instance field reference: protected System.Byte[] temp2
+    ::Array<uint8_t>*& dyn_temp2();
+    // Get instance field reference: private System.Byte[] workBuff
+    ::Array<uint8_t>*& dyn_workBuff();
+    // Get instance field reference: private System.Byte[] workout
+    ::Array<uint8_t>*& dyn_workout();
+    // Get instance field reference: protected System.Security.Cryptography.PaddingMode padmode
+    System::Security::Cryptography::PaddingMode& dyn_padmode();
+    // Get instance field reference: protected System.Int32 FeedBackByte
+    int& dyn_FeedBackByte();
+    // Get instance field reference: private System.Boolean m_disposed
+    bool& dyn_m_disposed();
+    // Get instance field reference: protected System.Boolean lastBlock
+    bool& dyn_lastBlock();
+    // Get instance field reference: private System.Security.Cryptography.RandomNumberGenerator _rng
+    System::Security::Cryptography::RandomNumberGenerator*& dyn__rng();
     // public System.Boolean get_CanTransformMultipleBlocks()
     // Offset: 0x1A99BA8
     bool get_CanTransformMultipleBlocks();

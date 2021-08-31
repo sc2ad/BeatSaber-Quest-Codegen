@@ -35,14 +35,10 @@ namespace UnityEngine {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: WaitForSecondsRealtime
     WaitForSecondsRealtime(float waitTime_ = {}, float m_WaitUntilTime_ = {}) noexcept : waitTime{waitTime_}, m_WaitUntilTime{m_WaitUntilTime_} {}
-    // Get instance field: private System.Single <waitTime>k__BackingField
-    float _get_$waitTime$k__BackingField();
-    // Set instance field: private System.Single <waitTime>k__BackingField
-    void _set_$waitTime$k__BackingField(float value);
-    // Get instance field: private System.Single m_WaitUntilTime
-    float _get_m_WaitUntilTime();
-    // Set instance field: private System.Single m_WaitUntilTime
-    void _set_m_WaitUntilTime(float value);
+    // Get instance field reference: private System.Single <waitTime>k__BackingField
+    float& dyn_$waitTime$k__BackingField();
+    // Get instance field reference: private System.Single m_WaitUntilTime
+    float& dyn_m_WaitUntilTime();
     // public System.Single get_waitTime()
     // Offset: 0x236854C
     float get_waitTime();

@@ -125,62 +125,34 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public readonly System.Boolean speedOK
-    bool _get_speedOK();
-    // Set instance field: public readonly System.Boolean speedOK
-    void _set_speedOK(bool value);
-    // Get instance field: public readonly System.Boolean directionOK
-    bool _get_directionOK();
-    // Set instance field: public readonly System.Boolean directionOK
-    void _set_directionOK(bool value);
-    // Get instance field: public readonly System.Boolean saberTypeOK
-    bool _get_saberTypeOK();
-    // Set instance field: public readonly System.Boolean saberTypeOK
-    void _set_saberTypeOK(bool value);
-    // Get instance field: public readonly System.Boolean wasCutTooSoon
-    bool _get_wasCutTooSoon();
-    // Set instance field: public readonly System.Boolean wasCutTooSoon
-    void _set_wasCutTooSoon(bool value);
-    // Get instance field: public readonly System.Single saberSpeed
-    float _get_saberSpeed();
-    // Set instance field: public readonly System.Single saberSpeed
-    void _set_saberSpeed(float value);
-    // Get instance field: public readonly UnityEngine.Vector3 saberDir
-    UnityEngine::Vector3 _get_saberDir();
-    // Set instance field: public readonly UnityEngine.Vector3 saberDir
-    void _set_saberDir(UnityEngine::Vector3 value);
-    // Get instance field: public readonly SaberType saberType
-    GlobalNamespace::SaberType _get_saberType();
-    // Set instance field: public readonly SaberType saberType
-    void _set_saberType(GlobalNamespace::SaberType value);
-    // Get instance field: public readonly System.Single timeDeviation
-    float _get_timeDeviation();
-    // Set instance field: public readonly System.Single timeDeviation
-    void _set_timeDeviation(float value);
-    // Get instance field: public readonly System.Single cutDirDeviation
-    float _get_cutDirDeviation();
-    // Set instance field: public readonly System.Single cutDirDeviation
-    void _set_cutDirDeviation(float value);
-    // Get instance field: public readonly UnityEngine.Vector3 cutPoint
-    UnityEngine::Vector3 _get_cutPoint();
-    // Set instance field: public readonly UnityEngine.Vector3 cutPoint
-    void _set_cutPoint(UnityEngine::Vector3 value);
-    // Get instance field: public readonly UnityEngine.Vector3 cutNormal
-    UnityEngine::Vector3 _get_cutNormal();
-    // Set instance field: public readonly UnityEngine.Vector3 cutNormal
-    void _set_cutNormal(UnityEngine::Vector3 value);
-    // Get instance field: public readonly System.Single cutAngle
-    float _get_cutAngle();
-    // Set instance field: public readonly System.Single cutAngle
-    void _set_cutAngle(float value);
-    // Get instance field: public readonly System.Single cutDistanceToCenter
-    float _get_cutDistanceToCenter();
-    // Set instance field: public readonly System.Single cutDistanceToCenter
-    void _set_cutDistanceToCenter(float value);
-    // Get instance field: public readonly ISaberSwingRatingCounter swingRatingCounter
-    GlobalNamespace::ISaberSwingRatingCounter* _get_swingRatingCounter();
-    // Set instance field: public readonly ISaberSwingRatingCounter swingRatingCounter
-    void _set_swingRatingCounter(GlobalNamespace::ISaberSwingRatingCounter* value);
+    // Get instance field reference: public readonly System.Boolean speedOK
+    bool& dyn_speedOK();
+    // Get instance field reference: public readonly System.Boolean directionOK
+    bool& dyn_directionOK();
+    // Get instance field reference: public readonly System.Boolean saberTypeOK
+    bool& dyn_saberTypeOK();
+    // Get instance field reference: public readonly System.Boolean wasCutTooSoon
+    bool& dyn_wasCutTooSoon();
+    // Get instance field reference: public readonly System.Single saberSpeed
+    float& dyn_saberSpeed();
+    // Get instance field reference: public readonly UnityEngine.Vector3 saberDir
+    UnityEngine::Vector3& dyn_saberDir();
+    // Get instance field reference: public readonly SaberType saberType
+    GlobalNamespace::SaberType& dyn_saberType();
+    // Get instance field reference: public readonly System.Single timeDeviation
+    float& dyn_timeDeviation();
+    // Get instance field reference: public readonly System.Single cutDirDeviation
+    float& dyn_cutDirDeviation();
+    // Get instance field reference: public readonly UnityEngine.Vector3 cutPoint
+    UnityEngine::Vector3& dyn_cutPoint();
+    // Get instance field reference: public readonly UnityEngine.Vector3 cutNormal
+    UnityEngine::Vector3& dyn_cutNormal();
+    // Get instance field reference: public readonly System.Single cutAngle
+    float& dyn_cutAngle();
+    // Get instance field reference: public readonly System.Single cutDistanceToCenter
+    float& dyn_cutDistanceToCenter();
+    // Get instance field reference: public readonly ISaberSwingRatingCounter swingRatingCounter
+    GlobalNamespace::ISaberSwingRatingCounter*& dyn_swingRatingCounter();
     // public System.Boolean get_allIsOK()
     // Offset: 0x237B674
     bool get_allIsOK();

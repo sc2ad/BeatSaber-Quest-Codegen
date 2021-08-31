@@ -56,10 +56,8 @@ namespace Valve::VR {
     static Valve::VR::EVRApplicationTransitionState _get_VRApplicationTransition_NewAppLaunched();
     // Set static field: static public Valve.VR.EVRApplicationTransitionState VRApplicationTransition_NewAppLaunched
     static void _set_VRApplicationTransition_NewAppLaunched(Valve::VR::EVRApplicationTransitionState value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Valve.VR.EVRApplicationTransitionState
   #pragma pack(pop)
   static check_size<sizeof(EVRApplicationTransitionState), 0 + sizeof(int)> __Valve_VR_EVRApplicationTransitionStateSizeCheck;

@@ -30,10 +30,8 @@ namespace Oculus::Platform {
     CallbackRunner(bool IsPersistantBetweenSceneLoads_ = {}) noexcept : IsPersistantBetweenSceneLoads{IsPersistantBetweenSceneLoads_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public System.Boolean IsPersistantBetweenSceneLoads
-    bool _get_IsPersistantBetweenSceneLoads();
-    // Set instance field: public System.Boolean IsPersistantBetweenSceneLoads
-    void _set_IsPersistantBetweenSceneLoads(bool value);
+    // Get instance field reference: public System.Boolean IsPersistantBetweenSceneLoads
+    bool& dyn_IsPersistantBetweenSceneLoads();
     // static private System.Void ovr_UnityResetTestPlatform()
     // Offset: 0x14DC744
     static void ovr_UnityResetTestPlatform();

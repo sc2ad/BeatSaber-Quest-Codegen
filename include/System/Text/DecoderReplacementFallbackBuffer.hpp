@@ -47,18 +47,12 @@ namespace System::Text {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: DecoderReplacementFallbackBuffer
     DecoderReplacementFallbackBuffer(::Il2CppString* strDefault_ = {}, int fallbackCount_ = {}, int fallbackIndex_ = {}) noexcept : strDefault{strDefault_}, fallbackCount{fallbackCount_}, fallbackIndex{fallbackIndex_} {}
-    // Get instance field: private System.String strDefault
-    ::Il2CppString* _get_strDefault();
-    // Set instance field: private System.String strDefault
-    void _set_strDefault(::Il2CppString* value);
-    // Get instance field: private System.Int32 fallbackCount
-    int _get_fallbackCount();
-    // Set instance field: private System.Int32 fallbackCount
-    void _set_fallbackCount(int value);
-    // Get instance field: private System.Int32 fallbackIndex
-    int _get_fallbackIndex();
-    // Set instance field: private System.Int32 fallbackIndex
-    void _set_fallbackIndex(int value);
+    // Get instance field reference: private System.String strDefault
+    ::Il2CppString*& dyn_strDefault();
+    // Get instance field reference: private System.Int32 fallbackCount
+    int& dyn_fallbackCount();
+    // Get instance field reference: private System.Int32 fallbackIndex
+    int& dyn_fallbackIndex();
     // public System.Void .ctor(System.Text.DecoderReplacementFallback fallback)
     // Offset: 0x1C16C58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

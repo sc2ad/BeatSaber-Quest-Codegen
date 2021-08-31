@@ -55,22 +55,14 @@ namespace UnityEngine::EventSystems {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: TouchInputModule
     TouchInputModule(UnityEngine::Vector2 m_LastMousePosition_ = {}, UnityEngine::Vector2 m_MousePosition_ = {}, UnityEngine::EventSystems::PointerEventData* m_InputPointerEvent_ = {}, bool m_ForceModuleActive_ = {}) noexcept : m_LastMousePosition{m_LastMousePosition_}, m_MousePosition{m_MousePosition_}, m_InputPointerEvent{m_InputPointerEvent_}, m_ForceModuleActive{m_ForceModuleActive_} {}
-    // Get instance field: private UnityEngine.Vector2 m_LastMousePosition
-    UnityEngine::Vector2 _get_m_LastMousePosition();
-    // Set instance field: private UnityEngine.Vector2 m_LastMousePosition
-    void _set_m_LastMousePosition(UnityEngine::Vector2 value);
-    // Get instance field: private UnityEngine.Vector2 m_MousePosition
-    UnityEngine::Vector2 _get_m_MousePosition();
-    // Set instance field: private UnityEngine.Vector2 m_MousePosition
-    void _set_m_MousePosition(UnityEngine::Vector2 value);
-    // Get instance field: private UnityEngine.EventSystems.PointerEventData m_InputPointerEvent
-    UnityEngine::EventSystems::PointerEventData* _get_m_InputPointerEvent();
-    // Set instance field: private UnityEngine.EventSystems.PointerEventData m_InputPointerEvent
-    void _set_m_InputPointerEvent(UnityEngine::EventSystems::PointerEventData* value);
-    // Get instance field: private System.Boolean m_ForceModuleActive
-    bool _get_m_ForceModuleActive();
-    // Set instance field: private System.Boolean m_ForceModuleActive
-    void _set_m_ForceModuleActive(bool value);
+    // Get instance field reference: private UnityEngine.Vector2 m_LastMousePosition
+    UnityEngine::Vector2& dyn_m_LastMousePosition();
+    // Get instance field reference: private UnityEngine.Vector2 m_MousePosition
+    UnityEngine::Vector2& dyn_m_MousePosition();
+    // Get instance field reference: private UnityEngine.EventSystems.PointerEventData m_InputPointerEvent
+    UnityEngine::EventSystems::PointerEventData*& dyn_m_InputPointerEvent();
+    // Get instance field reference: private System.Boolean m_ForceModuleActive
+    bool& dyn_m_ForceModuleActive();
     // public System.Boolean get_allowActivationOnStandalone()
     // Offset: 0x146FE20
     bool get_allowActivationOnStandalone();

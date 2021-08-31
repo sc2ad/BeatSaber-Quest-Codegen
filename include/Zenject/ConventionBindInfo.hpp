@@ -71,14 +71,10 @@ namespace Zenject {
     static System::Collections::Generic::Dictionary_2<System::Reflection::Assembly*, ::Array<System::Type*>*>* _get__assemblyTypeCache();
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Reflection.Assembly,System.Type[]> _assemblyTypeCache
     static void _set__assemblyTypeCache(System::Collections::Generic::Dictionary_2<System::Reflection::Assembly*, ::Array<System::Type*>*>* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<System.Func`2<System.Type,System.Boolean>> _typeFilters
-    System::Collections::Generic::List_1<System::Func_2<System::Type*, bool>*>* _get__typeFilters();
-    // Set instance field: private readonly System.Collections.Generic.List`1<System.Func`2<System.Type,System.Boolean>> _typeFilters
-    void _set__typeFilters(System::Collections::Generic::List_1<System::Func_2<System::Type*, bool>*>* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<System.Func`2<System.Reflection.Assembly,System.Boolean>> _assemblyFilters
-    System::Collections::Generic::List_1<System::Func_2<System::Reflection::Assembly*, bool>*>* _get__assemblyFilters();
-    // Set instance field: private readonly System.Collections.Generic.List`1<System.Func`2<System.Reflection.Assembly,System.Boolean>> _assemblyFilters
-    void _set__assemblyFilters(System::Collections::Generic::List_1<System::Func_2<System::Reflection::Assembly*, bool>*>* value);
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Func`2<System.Type,System.Boolean>> _typeFilters
+    System::Collections::Generic::List_1<System::Func_2<System::Type*, bool>*>*& dyn__typeFilters();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Func`2<System.Reflection.Assembly,System.Boolean>> _assemblyFilters
+    System::Collections::Generic::List_1<System::Func_2<System::Reflection::Assembly*, bool>*>*& dyn__assemblyFilters();
     // static private System.Void .cctor()
     // Offset: 0x13E18F8
     static void _cctor();

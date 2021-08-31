@@ -63,30 +63,18 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public readonly UnityEngine.Vector3 moveStartPos
-    UnityEngine::Vector3 _get_moveStartPos();
-    // Set instance field: public readonly UnityEngine.Vector3 moveStartPos
-    void _set_moveStartPos(UnityEngine::Vector3 value);
-    // Get instance field: public readonly UnityEngine.Vector3 moveEndPos
-    UnityEngine::Vector3 _get_moveEndPos();
-    // Set instance field: public readonly UnityEngine.Vector3 moveEndPos
-    void _set_moveEndPos(UnityEngine::Vector3 value);
-    // Get instance field: public readonly UnityEngine.Vector3 jumpEndPos
-    UnityEngine::Vector3 _get_jumpEndPos();
-    // Set instance field: public readonly UnityEngine.Vector3 jumpEndPos
-    void _set_jumpEndPos(UnityEngine::Vector3 value);
-    // Get instance field: public readonly System.Single jumpGravity
-    float _get_jumpGravity();
-    // Set instance field: public readonly System.Single jumpGravity
-    void _set_jumpGravity(float value);
-    // Get instance field: public readonly System.Single moveDuration
-    float _get_moveDuration();
-    // Set instance field: public readonly System.Single moveDuration
-    void _set_moveDuration(float value);
-    // Get instance field: public readonly System.Single jumpDuration
-    float _get_jumpDuration();
-    // Set instance field: public readonly System.Single jumpDuration
-    void _set_jumpDuration(float value);
+    // Get instance field reference: public readonly UnityEngine.Vector3 moveStartPos
+    UnityEngine::Vector3& dyn_moveStartPos();
+    // Get instance field reference: public readonly UnityEngine.Vector3 moveEndPos
+    UnityEngine::Vector3& dyn_moveEndPos();
+    // Get instance field reference: public readonly UnityEngine.Vector3 jumpEndPos
+    UnityEngine::Vector3& dyn_jumpEndPos();
+    // Get instance field reference: public readonly System.Single jumpGravity
+    float& dyn_jumpGravity();
+    // Get instance field reference: public readonly System.Single moveDuration
+    float& dyn_moveDuration();
+    // Get instance field reference: public readonly System.Single jumpDuration
+    float& dyn_jumpDuration();
     // public System.Void .ctor(UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single jumpGravity, System.Single moveDuration, System.Single jumpDuration)
     // Offset: 0x10CD010
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

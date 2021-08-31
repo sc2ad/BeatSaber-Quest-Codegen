@@ -46,14 +46,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::LocalizedTextAsset*) == 0x8);
     // Creating value type constructor for type: PrivacyPolicyViewController
     PrivacyPolicyViewController(HMUI::TextPageScrollView* textPageScrollView_ = {}, GlobalNamespace::LocalizedTextAsset* privacyPolicyLocalizedTextAsset_ = {}) noexcept : textPageScrollView{textPageScrollView_}, privacyPolicyLocalizedTextAsset{privacyPolicyLocalizedTextAsset_} {}
-    // Get instance field: private HMUI.TextPageScrollView _textPageScrollView
-    HMUI::TextPageScrollView* _get__textPageScrollView();
-    // Set instance field: private HMUI.TextPageScrollView _textPageScrollView
-    void _set__textPageScrollView(HMUI::TextPageScrollView* value);
-    // Get instance field: private LocalizedTextAsset _privacyPolicyLocalizedTextAsset
-    GlobalNamespace::LocalizedTextAsset* _get__privacyPolicyLocalizedTextAsset();
-    // Set instance field: private LocalizedTextAsset _privacyPolicyLocalizedTextAsset
-    void _set__privacyPolicyLocalizedTextAsset(GlobalNamespace::LocalizedTextAsset* value);
+    // Get instance field reference: private HMUI.TextPageScrollView _textPageScrollView
+    HMUI::TextPageScrollView*& dyn__textPageScrollView();
+    // Get instance field reference: private LocalizedTextAsset _privacyPolicyLocalizedTextAsset
+    GlobalNamespace::LocalizedTextAsset*& dyn__privacyPolicyLocalizedTextAsset();
     // public System.Void .ctor()
     // Offset: 0x1140234
     // Implemented from: HMUI.ViewController

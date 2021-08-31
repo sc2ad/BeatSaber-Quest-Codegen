@@ -50,10 +50,8 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kPlayingCampaignRichPresenceLocalizationKey();
     // Set static field: static private System.String kPlayingCampaignRichPresenceLocalizationKey
     static void _set_kPlayingCampaignRichPresenceLocalizationKey(::Il2CppString* value);
-    // Get instance field: private System.String <localizedDescription>k__BackingField
-    ::Il2CppString* _get_$localizedDescription$k__BackingField();
-    // Set instance field: private System.String <localizedDescription>k__BackingField
-    void _set_$localizedDescription$k__BackingField(::Il2CppString* value);
+    // Get instance field reference: private System.String <localizedDescription>k__BackingField
+    ::Il2CppString*& dyn_$localizedDescription$k__BackingField();
     // public System.String get_apiName()
     // Offset: 0x113D2A4
     ::Il2CppString* get_apiName();

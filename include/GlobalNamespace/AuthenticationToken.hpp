@@ -107,10 +107,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::AuthenticationToken::Platform _get_Oculus();
       // Set static field: static public AuthenticationToken/Platform Oculus
       static void _set_Oculus(GlobalNamespace::AuthenticationToken::Platform value);
-      // Get instance field: public System.Byte value__
-      uint8_t _get_value__();
-      // Set instance field: public System.Byte value__
-      void _set_value__(uint8_t value);
+      // Get instance field reference: public System.Byte value__
+      uint8_t& dyn_value__();
     }; // AuthenticationToken/Platform
     #pragma pack(pop)
     static check_size<sizeof(AuthenticationToken::Platform), 0 + sizeof(uint8_t)> __GlobalNamespace_AuthenticationToken_PlatformSizeCheck;
@@ -151,22 +149,14 @@ namespace GlobalNamespace {
     operator LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::AuthenticationToken>() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::AuthenticationToken>*>(this);
     }
-    // Get instance field: public readonly AuthenticationToken/Platform platform
-    GlobalNamespace::AuthenticationToken::Platform _get_platform();
-    // Set instance field: public readonly AuthenticationToken/Platform platform
-    void _set_platform(GlobalNamespace::AuthenticationToken::Platform value);
-    // Get instance field: public readonly System.String userId
-    ::Il2CppString* _get_userId();
-    // Set instance field: public readonly System.String userId
-    void _set_userId(::Il2CppString* value);
-    // Get instance field: public readonly System.String userName
-    ::Il2CppString* _get_userName();
-    // Set instance field: public readonly System.String userName
-    void _set_userName(::Il2CppString* value);
-    // Get instance field: public readonly System.Byte[] sessionToken
-    ::Array<uint8_t>* _get_sessionToken();
-    // Set instance field: public readonly System.Byte[] sessionToken
-    void _set_sessionToken(::Array<uint8_t>* value);
+    // Get instance field reference: public readonly AuthenticationToken/Platform platform
+    GlobalNamespace::AuthenticationToken::Platform& dyn_platform();
+    // Get instance field reference: public readonly System.String userId
+    ::Il2CppString*& dyn_userId();
+    // Get instance field reference: public readonly System.String userName
+    ::Il2CppString*& dyn_userName();
+    // Get instance field reference: public readonly System.Byte[] sessionToken
+    ::Array<uint8_t>*& dyn_sessionToken();
     // public System.Void .ctor(AuthenticationToken/Platform platform, System.String userId, System.String userName, System.Byte[] sessionToken)
     // Offset: 0x131C0C4
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

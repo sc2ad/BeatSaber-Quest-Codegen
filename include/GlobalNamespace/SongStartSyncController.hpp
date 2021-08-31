@@ -117,46 +117,26 @@ namespace GlobalNamespace {
     static float _get_kAudioLoadTimeout();
     // Set static field: static private System.Single kAudioLoadTimeout
     static void _set_kAudioLoadTimeout(float value);
-    // Get instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    GlobalNamespace::IMultiplayerSessionManager* _get__multiplayerSessionManager();
-    // Set instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    void _set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
-    // Get instance field: private readonly IGameplayRpcManager _gameplayRpcManager
-    GlobalNamespace::IGameplayRpcManager* _get__gameplayRpcManager();
-    // Set instance field: private readonly IGameplayRpcManager _gameplayRpcManager
-    void _set__gameplayRpcManager(GlobalNamespace::IGameplayRpcManager* value);
-    // Get instance field: private System.Single _waitStartTime
-    float _get__waitStartTime();
-    // Set instance field: private System.Single _waitStartTime
-    void _set__waitStartTime(float value);
-    // Get instance field: private System.Boolean _songStarted
-    bool _get__songStarted();
-    // Set instance field: private System.Boolean _songStarted
-    void _set__songStarted(bool value);
-    // Get instance field: private System.Single _startTime
-    float _get__startTime();
-    // Set instance field: private System.Single _startTime
-    void _set__startTime(float value);
-    // Get instance field: private System.String _sessionGameId
-    ::Il2CppString* _get__sessionGameId();
-    // Set instance field: private System.String _sessionGameId
-    void _set__sessionGameId(::Il2CppString* value);
-    // Get instance field: private SongStartHandler _songStartHandler
-    GlobalNamespace::SongStartHandler* _get__songStartHandler();
-    // Set instance field: private SongStartHandler _songStartHandler
-    void _set__songStartHandler(GlobalNamespace::SongStartHandler* value);
-    // Get instance field: private System.Action syncStartFailedEvent
-    System::Action* _get_syncStartFailedEvent();
-    // Set instance field: private System.Action syncStartFailedEvent
-    void _set_syncStartFailedEvent(System::Action* value);
-    // Get instance field: private System.Action`1<System.Single> syncStartSuccessEvent
-    System::Action_1<float>* _get_syncStartSuccessEvent();
-    // Set instance field: private System.Action`1<System.Single> syncStartSuccessEvent
-    void _set_syncStartSuccessEvent(System::Action_1<float>* value);
-    // Get instance field: private System.Action`1<System.Single> syncResumeEvent
-    System::Action_1<float>* _get_syncResumeEvent();
-    // Set instance field: private System.Action`1<System.Single> syncResumeEvent
-    void _set_syncResumeEvent(System::Action_1<float>* value);
+    // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
+    // Get instance field reference: private readonly IGameplayRpcManager _gameplayRpcManager
+    GlobalNamespace::IGameplayRpcManager*& dyn__gameplayRpcManager();
+    // Get instance field reference: private System.Single _waitStartTime
+    float& dyn__waitStartTime();
+    // Get instance field reference: private System.Boolean _songStarted
+    bool& dyn__songStarted();
+    // Get instance field reference: private System.Single _startTime
+    float& dyn__startTime();
+    // Get instance field reference: private System.String _sessionGameId
+    ::Il2CppString*& dyn__sessionGameId();
+    // Get instance field reference: private SongStartHandler _songStartHandler
+    GlobalNamespace::SongStartHandler*& dyn__songStartHandler();
+    // Get instance field reference: private System.Action syncStartFailedEvent
+    System::Action*& dyn_syncStartFailedEvent();
+    // Get instance field reference: private System.Action`1<System.Single> syncStartSuccessEvent
+    System::Action_1<float>*& dyn_syncStartSuccessEvent();
+    // Get instance field reference: private System.Action`1<System.Single> syncResumeEvent
+    System::Action_1<float>*& dyn_syncResumeEvent();
     // public System.Boolean get_isSongStarted()
     // Offset: 0x1081FD8
     bool get_isSongStarted();

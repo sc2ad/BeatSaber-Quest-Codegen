@@ -41,14 +41,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: Keyframe
     Keyframe(::Array<GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform*>* transforms_ = {}, float time_ = {}) noexcept : transforms{transforms_}, time{time_} {}
-    // Get instance field: public VRTrackersRecorder/Keyframe/KeyframeTransform[] _transforms
-    ::Array<GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform*>* _get__transforms();
-    // Set instance field: public VRTrackersRecorder/Keyframe/KeyframeTransform[] _transforms
-    void _set__transforms(::Array<GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform*>* value);
-    // Get instance field: public System.Single _time
-    float _get__time();
-    // Set instance field: public System.Single _time
-    void _set__time(float value);
+    // Get instance field reference: public VRTrackersRecorder/Keyframe/KeyframeTransform[] _transforms
+    ::Array<GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform*>*& dyn__transforms();
+    // Get instance field reference: public System.Single _time
+    float& dyn__time();
     // public System.Void .ctor()
     // Offset: 0x135EA28
     // Implemented from: System.Object

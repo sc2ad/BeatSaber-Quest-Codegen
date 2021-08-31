@@ -118,70 +118,38 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: AvatarData
     AvatarData(::Il2CppString* headTopId_ = {}, ::Il2CppString* glassesId_ = {}, ::Il2CppString* facialHairId_ = {}, ::Il2CppString* handsId_ = {}, ::Il2CppString* clothesId_ = {}, ::Il2CppString* eyesId_ = {}, ::Il2CppString* mouthId_ = {}, UnityEngine::Color headTopPrimaryColor_ = {}, UnityEngine::Color headTopSecondaryColor_ = {}, UnityEngine::Color glassesColor_ = {}, UnityEngine::Color facialHairColor_ = {}, UnityEngine::Color handsColor_ = {}, UnityEngine::Color clothesPrimaryColor_ = {}, UnityEngine::Color clothesSecondaryColor_ = {}, UnityEngine::Color clothesDetailColor_ = {}, ::Il2CppString* skinColorId_ = {}) noexcept : headTopId{headTopId_}, glassesId{glassesId_}, facialHairId{facialHairId_}, handsId{handsId_}, clothesId{clothesId_}, eyesId{eyesId_}, mouthId{mouthId_}, headTopPrimaryColor{headTopPrimaryColor_}, headTopSecondaryColor{headTopSecondaryColor_}, glassesColor{glassesColor_}, facialHairColor{facialHairColor_}, handsColor{handsColor_}, clothesPrimaryColor{clothesPrimaryColor_}, clothesSecondaryColor{clothesSecondaryColor_}, clothesDetailColor{clothesDetailColor_}, skinColorId{skinColorId_} {}
-    // Get instance field: private System.String <headTopId>k__BackingField
-    ::Il2CppString* _get_$headTopId$k__BackingField();
-    // Set instance field: private System.String <headTopId>k__BackingField
-    void _set_$headTopId$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.String <glassesId>k__BackingField
-    ::Il2CppString* _get_$glassesId$k__BackingField();
-    // Set instance field: private System.String <glassesId>k__BackingField
-    void _set_$glassesId$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.String <facialHairId>k__BackingField
-    ::Il2CppString* _get_$facialHairId$k__BackingField();
-    // Set instance field: private System.String <facialHairId>k__BackingField
-    void _set_$facialHairId$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.String <handsId>k__BackingField
-    ::Il2CppString* _get_$handsId$k__BackingField();
-    // Set instance field: private System.String <handsId>k__BackingField
-    void _set_$handsId$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.String <clothesId>k__BackingField
-    ::Il2CppString* _get_$clothesId$k__BackingField();
-    // Set instance field: private System.String <clothesId>k__BackingField
-    void _set_$clothesId$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.String <eyesId>k__BackingField
-    ::Il2CppString* _get_$eyesId$k__BackingField();
-    // Set instance field: private System.String <eyesId>k__BackingField
-    void _set_$eyesId$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.String <mouthId>k__BackingField
-    ::Il2CppString* _get_$mouthId$k__BackingField();
-    // Set instance field: private System.String <mouthId>k__BackingField
-    void _set_$mouthId$k__BackingField(::Il2CppString* value);
-    // Get instance field: private UnityEngine.Color <headTopPrimaryColor>k__BackingField
-    UnityEngine::Color _get_$headTopPrimaryColor$k__BackingField();
-    // Set instance field: private UnityEngine.Color <headTopPrimaryColor>k__BackingField
-    void _set_$headTopPrimaryColor$k__BackingField(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color <headTopSecondaryColor>k__BackingField
-    UnityEngine::Color _get_$headTopSecondaryColor$k__BackingField();
-    // Set instance field: private UnityEngine.Color <headTopSecondaryColor>k__BackingField
-    void _set_$headTopSecondaryColor$k__BackingField(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color <glassesColor>k__BackingField
-    UnityEngine::Color _get_$glassesColor$k__BackingField();
-    // Set instance field: private UnityEngine.Color <glassesColor>k__BackingField
-    void _set_$glassesColor$k__BackingField(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color <facialHairColor>k__BackingField
-    UnityEngine::Color _get_$facialHairColor$k__BackingField();
-    // Set instance field: private UnityEngine.Color <facialHairColor>k__BackingField
-    void _set_$facialHairColor$k__BackingField(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color <handsColor>k__BackingField
-    UnityEngine::Color _get_$handsColor$k__BackingField();
-    // Set instance field: private UnityEngine.Color <handsColor>k__BackingField
-    void _set_$handsColor$k__BackingField(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color <clothesPrimaryColor>k__BackingField
-    UnityEngine::Color _get_$clothesPrimaryColor$k__BackingField();
-    // Set instance field: private UnityEngine.Color <clothesPrimaryColor>k__BackingField
-    void _set_$clothesPrimaryColor$k__BackingField(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color <clothesSecondaryColor>k__BackingField
-    UnityEngine::Color _get_$clothesSecondaryColor$k__BackingField();
-    // Set instance field: private UnityEngine.Color <clothesSecondaryColor>k__BackingField
-    void _set_$clothesSecondaryColor$k__BackingField(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color <clothesDetailColor>k__BackingField
-    UnityEngine::Color _get_$clothesDetailColor$k__BackingField();
-    // Set instance field: private UnityEngine.Color <clothesDetailColor>k__BackingField
-    void _set_$clothesDetailColor$k__BackingField(UnityEngine::Color value);
-    // Get instance field: private System.String <skinColorId>k__BackingField
-    ::Il2CppString* _get_$skinColorId$k__BackingField();
-    // Set instance field: private System.String <skinColorId>k__BackingField
-    void _set_$skinColorId$k__BackingField(::Il2CppString* value);
+    // Get instance field reference: private System.String <headTopId>k__BackingField
+    ::Il2CppString*& dyn_$headTopId$k__BackingField();
+    // Get instance field reference: private System.String <glassesId>k__BackingField
+    ::Il2CppString*& dyn_$glassesId$k__BackingField();
+    // Get instance field reference: private System.String <facialHairId>k__BackingField
+    ::Il2CppString*& dyn_$facialHairId$k__BackingField();
+    // Get instance field reference: private System.String <handsId>k__BackingField
+    ::Il2CppString*& dyn_$handsId$k__BackingField();
+    // Get instance field reference: private System.String <clothesId>k__BackingField
+    ::Il2CppString*& dyn_$clothesId$k__BackingField();
+    // Get instance field reference: private System.String <eyesId>k__BackingField
+    ::Il2CppString*& dyn_$eyesId$k__BackingField();
+    // Get instance field reference: private System.String <mouthId>k__BackingField
+    ::Il2CppString*& dyn_$mouthId$k__BackingField();
+    // Get instance field reference: private UnityEngine.Color <headTopPrimaryColor>k__BackingField
+    UnityEngine::Color& dyn_$headTopPrimaryColor$k__BackingField();
+    // Get instance field reference: private UnityEngine.Color <headTopSecondaryColor>k__BackingField
+    UnityEngine::Color& dyn_$headTopSecondaryColor$k__BackingField();
+    // Get instance field reference: private UnityEngine.Color <glassesColor>k__BackingField
+    UnityEngine::Color& dyn_$glassesColor$k__BackingField();
+    // Get instance field reference: private UnityEngine.Color <facialHairColor>k__BackingField
+    UnityEngine::Color& dyn_$facialHairColor$k__BackingField();
+    // Get instance field reference: private UnityEngine.Color <handsColor>k__BackingField
+    UnityEngine::Color& dyn_$handsColor$k__BackingField();
+    // Get instance field reference: private UnityEngine.Color <clothesPrimaryColor>k__BackingField
+    UnityEngine::Color& dyn_$clothesPrimaryColor$k__BackingField();
+    // Get instance field reference: private UnityEngine.Color <clothesSecondaryColor>k__BackingField
+    UnityEngine::Color& dyn_$clothesSecondaryColor$k__BackingField();
+    // Get instance field reference: private UnityEngine.Color <clothesDetailColor>k__BackingField
+    UnityEngine::Color& dyn_$clothesDetailColor$k__BackingField();
+    // Get instance field reference: private System.String <skinColorId>k__BackingField
+    ::Il2CppString*& dyn_$skinColorId$k__BackingField();
     // public System.String get_headTopId()
     // Offset: 0x117FD84
     ::Il2CppString* get_headTopId();

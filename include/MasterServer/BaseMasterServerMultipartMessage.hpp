@@ -85,26 +85,16 @@ namespace MasterServer {
     static int _get_kMaximumDataSize();
     // Set static field: static public System.Int32 kMaximumDataSize
     static void _set_kMaximumDataSize(int value);
-    // Get instance field: private System.UInt32 <multipartMessageId>k__BackingField
-    uint _get_$multipartMessageId$k__BackingField();
-    // Set instance field: private System.UInt32 <multipartMessageId>k__BackingField
-    void _set_$multipartMessageId$k__BackingField(uint value);
-    // Get instance field: private System.Int32 <offset>k__BackingField
-    int _get_$offset$k__BackingField();
-    // Set instance field: private System.Int32 <offset>k__BackingField
-    void _set_$offset$k__BackingField(int value);
-    // Get instance field: private System.Int32 <length>k__BackingField
-    int _get_$length$k__BackingField();
-    // Set instance field: private System.Int32 <length>k__BackingField
-    void _set_$length$k__BackingField(int value);
-    // Get instance field: private System.Int32 <totalLength>k__BackingField
-    int _get_$totalLength$k__BackingField();
-    // Set instance field: private System.Int32 <totalLength>k__BackingField
-    void _set_$totalLength$k__BackingField(int value);
-    // Get instance field: private readonly System.Byte[] _data
-    ::Array<uint8_t>* _get__data();
-    // Set instance field: private readonly System.Byte[] _data
-    void _set__data(::Array<uint8_t>* value);
+    // Get instance field reference: private System.UInt32 <multipartMessageId>k__BackingField
+    uint& dyn_$multipartMessageId$k__BackingField();
+    // Get instance field reference: private System.Int32 <offset>k__BackingField
+    int& dyn_$offset$k__BackingField();
+    // Get instance field reference: private System.Int32 <length>k__BackingField
+    int& dyn_$length$k__BackingField();
+    // Get instance field reference: private System.Int32 <totalLength>k__BackingField
+    int& dyn_$totalLength$k__BackingField();
+    // Get instance field reference: private readonly System.Byte[] _data
+    ::Array<uint8_t>*& dyn__data();
     // public System.UInt32 get_multipartMessageId()
     // Offset: 0x1214D98
     uint get_multipartMessageId();

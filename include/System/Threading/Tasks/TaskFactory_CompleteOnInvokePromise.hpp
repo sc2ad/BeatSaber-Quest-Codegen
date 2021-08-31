@@ -53,14 +53,10 @@ namespace System::Threading::Tasks {
     operator System::Threading::Tasks::ITaskCompletionAction() noexcept {
       return *reinterpret_cast<System::Threading::Tasks::ITaskCompletionAction*>(this);
     }
-    // Get instance field: private System.Collections.Generic.IList`1<System.Threading.Tasks.Task> _tasks
-    System::Collections::Generic::IList_1<System::Threading::Tasks::Task*>* _get__tasks();
-    // Set instance field: private System.Collections.Generic.IList`1<System.Threading.Tasks.Task> _tasks
-    void _set__tasks(System::Collections::Generic::IList_1<System::Threading::Tasks::Task*>* value);
-    // Get instance field: private System.Int32 m_firstTaskAlreadyCompleted
-    int _get_m_firstTaskAlreadyCompleted();
-    // Set instance field: private System.Int32 m_firstTaskAlreadyCompleted
-    void _set_m_firstTaskAlreadyCompleted(int value);
+    // Get instance field reference: private System.Collections.Generic.IList`1<System.Threading.Tasks.Task> _tasks
+    System::Collections::Generic::IList_1<System::Threading::Tasks::Task*>*& dyn__tasks();
+    // Get instance field reference: private System.Int32 m_firstTaskAlreadyCompleted
+    int& dyn_m_firstTaskAlreadyCompleted();
     // public System.Void .ctor(System.Collections.Generic.IList`1<System.Threading.Tasks.Task> tasks)
     // Offset: 0x1875DC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -64,26 +64,16 @@ namespace Assets::OVR::Scripts {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: FixRecord
     FixRecord(Assets::OVR::Scripts::FixMethodDelegate* fixMethod_ = {}, UnityEngine::Object* targetObject_ = {}, ::Array<::Il2CppString*>* buttonNames_ = {}, bool editModeRequired_ = {}, bool complete_ = {}) noexcept : fixMethod{fixMethod_}, targetObject{targetObject_}, buttonNames{buttonNames_}, editModeRequired{editModeRequired_}, complete{complete_} {}
-    // Get instance field: public Assets.OVR.Scripts.FixMethodDelegate fixMethod
-    Assets::OVR::Scripts::FixMethodDelegate* _get_fixMethod();
-    // Set instance field: public Assets.OVR.Scripts.FixMethodDelegate fixMethod
-    void _set_fixMethod(Assets::OVR::Scripts::FixMethodDelegate* value);
-    // Get instance field: public UnityEngine.Object targetObject
-    UnityEngine::Object* _get_targetObject();
-    // Set instance field: public UnityEngine.Object targetObject
-    void _set_targetObject(UnityEngine::Object* value);
-    // Get instance field: public System.String[] buttonNames
-    ::Array<::Il2CppString*>* _get_buttonNames();
-    // Set instance field: public System.String[] buttonNames
-    void _set_buttonNames(::Array<::Il2CppString*>* value);
-    // Get instance field: public System.Boolean editModeRequired
-    bool _get_editModeRequired();
-    // Set instance field: public System.Boolean editModeRequired
-    void _set_editModeRequired(bool value);
-    // Get instance field: public System.Boolean complete
-    bool _get_complete();
-    // Set instance field: public System.Boolean complete
-    void _set_complete(bool value);
+    // Get instance field reference: public Assets.OVR.Scripts.FixMethodDelegate fixMethod
+    Assets::OVR::Scripts::FixMethodDelegate*& dyn_fixMethod();
+    // Get instance field reference: public UnityEngine.Object targetObject
+    UnityEngine::Object*& dyn_targetObject();
+    // Get instance field reference: public System.String[] buttonNames
+    ::Array<::Il2CppString*>*& dyn_buttonNames();
+    // Get instance field reference: public System.Boolean editModeRequired
+    bool& dyn_editModeRequired();
+    // Get instance field reference: public System.Boolean complete
+    bool& dyn_complete();
     // public System.Void .ctor(System.String cat, System.String msg, Assets.OVR.Scripts.FixMethodDelegate fix, UnityEngine.Object target, System.Boolean editRequired, System.String[] buttons)
     // Offset: 0x15B1360
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

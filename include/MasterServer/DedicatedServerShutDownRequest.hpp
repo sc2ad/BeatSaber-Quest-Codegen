@@ -59,14 +59,10 @@ namespace MasterServer {
     operator MasterServer::IDedicatedServerClientToServerMessage() noexcept {
       return *reinterpret_cast<MasterServer::IDedicatedServerClientToServerMessage*>(this);
     }
-    // Get instance field: private System.String <dedicatedServerId>k__BackingField
-    ::Il2CppString* _get_$dedicatedServerId$k__BackingField();
-    // Set instance field: private System.String <dedicatedServerId>k__BackingField
-    void _set_$dedicatedServerId$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.Int64 <dedicatedServerCreationTime>k__BackingField
-    int64_t _get_$dedicatedServerCreationTime$k__BackingField();
-    // Set instance field: private System.Int64 <dedicatedServerCreationTime>k__BackingField
-    void _set_$dedicatedServerCreationTime$k__BackingField(int64_t value);
+    // Get instance field reference: private System.String <dedicatedServerId>k__BackingField
+    ::Il2CppString*& dyn_$dedicatedServerId$k__BackingField();
+    // Get instance field reference: private System.Int64 <dedicatedServerCreationTime>k__BackingField
+    int64_t& dyn_$dedicatedServerCreationTime$k__BackingField();
     // static public PacketPool`1<MasterServer.DedicatedServerShutDownRequest> get_pool()
     // Offset: 0x12173C4
     static GlobalNamespace::PacketPool_1<MasterServer::DedicatedServerShutDownRequest*>* get_pool();

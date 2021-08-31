@@ -163,62 +163,34 @@ namespace GlobalNamespace {
     LevelBar(HMUI::ImageView* songArtworkImageView_ = {}, TMPro::TextMeshProUGUI* songNameText_ = {}, TMPro::TextMeshProUGUI* authorNameText_ = {}, bool showSongSubName_ = {}, UnityEngine::GameObject* singleLineSongInfoContainer_ = {}, UnityEngine::GameObject* multiLineSongInfoContainer_ = {}, TMPro::TextMeshProUGUI* multiLineSongNameText_ = {}, TMPro::TextMeshProUGUI* multiLineAuthorNameText_ = {}, bool showDifficultyAndCharacteristic_ = {}, TMPro::TextMeshProUGUI* difficultyText_ = {}, HMUI::ImageView* characteristicIconImageView_ = {}, bool useArtworkBackground_ = {}, HMUI::ImageView* artworkBackgroundImage_ = {}, System::Threading::CancellationTokenSource* cancellationTokenSource_ = {}) noexcept : songArtworkImageView{songArtworkImageView_}, songNameText{songNameText_}, authorNameText{authorNameText_}, showSongSubName{showSongSubName_}, singleLineSongInfoContainer{singleLineSongInfoContainer_}, multiLineSongInfoContainer{multiLineSongInfoContainer_}, multiLineSongNameText{multiLineSongNameText_}, multiLineAuthorNameText{multiLineAuthorNameText_}, showDifficultyAndCharacteristic{showDifficultyAndCharacteristic_}, difficultyText{difficultyText_}, characteristicIconImageView{characteristicIconImageView_}, useArtworkBackground{useArtworkBackground_}, artworkBackgroundImage{artworkBackgroundImage_}, cancellationTokenSource{cancellationTokenSource_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private HMUI.ImageView _songArtworkImageView
-    HMUI::ImageView* _get__songArtworkImageView();
-    // Set instance field: private HMUI.ImageView _songArtworkImageView
-    void _set__songArtworkImageView(HMUI::ImageView* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _songNameText
-    TMPro::TextMeshProUGUI* _get__songNameText();
-    // Set instance field: private TMPro.TextMeshProUGUI _songNameText
-    void _set__songNameText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _authorNameText
-    TMPro::TextMeshProUGUI* _get__authorNameText();
-    // Set instance field: private TMPro.TextMeshProUGUI _authorNameText
-    void _set__authorNameText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private System.Boolean _showSongSubName
-    bool _get__showSongSubName();
-    // Set instance field: private System.Boolean _showSongSubName
-    void _set__showSongSubName(bool value);
-    // Get instance field: private UnityEngine.GameObject _singleLineSongInfoContainer
-    UnityEngine::GameObject* _get__singleLineSongInfoContainer();
-    // Set instance field: private UnityEngine.GameObject _singleLineSongInfoContainer
-    void _set__singleLineSongInfoContainer(UnityEngine::GameObject* value);
-    // Get instance field: private UnityEngine.GameObject _multiLineSongInfoContainer
-    UnityEngine::GameObject* _get__multiLineSongInfoContainer();
-    // Set instance field: private UnityEngine.GameObject _multiLineSongInfoContainer
-    void _set__multiLineSongInfoContainer(UnityEngine::GameObject* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _multiLineSongNameText
-    TMPro::TextMeshProUGUI* _get__multiLineSongNameText();
-    // Set instance field: private TMPro.TextMeshProUGUI _multiLineSongNameText
-    void _set__multiLineSongNameText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _multiLineAuthorNameText
-    TMPro::TextMeshProUGUI* _get__multiLineAuthorNameText();
-    // Set instance field: private TMPro.TextMeshProUGUI _multiLineAuthorNameText
-    void _set__multiLineAuthorNameText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private System.Boolean _showDifficultyAndCharacteristic
-    bool _get__showDifficultyAndCharacteristic();
-    // Set instance field: private System.Boolean _showDifficultyAndCharacteristic
-    void _set__showDifficultyAndCharacteristic(bool value);
-    // Get instance field: private TMPro.TextMeshProUGUI _difficultyText
-    TMPro::TextMeshProUGUI* _get__difficultyText();
-    // Set instance field: private TMPro.TextMeshProUGUI _difficultyText
-    void _set__difficultyText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private HMUI.ImageView _characteristicIconImageView
-    HMUI::ImageView* _get__characteristicIconImageView();
-    // Set instance field: private HMUI.ImageView _characteristicIconImageView
-    void _set__characteristicIconImageView(HMUI::ImageView* value);
-    // Get instance field: private System.Boolean _useArtworkBackground
-    bool _get__useArtworkBackground();
-    // Set instance field: private System.Boolean _useArtworkBackground
-    void _set__useArtworkBackground(bool value);
-    // Get instance field: private HMUI.ImageView _artworkBackgroundImage
-    HMUI::ImageView* _get__artworkBackgroundImage();
-    // Set instance field: private HMUI.ImageView _artworkBackgroundImage
-    void _set__artworkBackgroundImage(HMUI::ImageView* value);
-    // Get instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    System::Threading::CancellationTokenSource* _get__cancellationTokenSource();
-    // Set instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    void _set__cancellationTokenSource(System::Threading::CancellationTokenSource* value);
+    // Get instance field reference: private HMUI.ImageView _songArtworkImageView
+    HMUI::ImageView*& dyn__songArtworkImageView();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _songNameText
+    TMPro::TextMeshProUGUI*& dyn__songNameText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _authorNameText
+    TMPro::TextMeshProUGUI*& dyn__authorNameText();
+    // Get instance field reference: private System.Boolean _showSongSubName
+    bool& dyn__showSongSubName();
+    // Get instance field reference: private UnityEngine.GameObject _singleLineSongInfoContainer
+    UnityEngine::GameObject*& dyn__singleLineSongInfoContainer();
+    // Get instance field reference: private UnityEngine.GameObject _multiLineSongInfoContainer
+    UnityEngine::GameObject*& dyn__multiLineSongInfoContainer();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _multiLineSongNameText
+    TMPro::TextMeshProUGUI*& dyn__multiLineSongNameText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _multiLineAuthorNameText
+    TMPro::TextMeshProUGUI*& dyn__multiLineAuthorNameText();
+    // Get instance field reference: private System.Boolean _showDifficultyAndCharacteristic
+    bool& dyn__showDifficultyAndCharacteristic();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _difficultyText
+    TMPro::TextMeshProUGUI*& dyn__difficultyText();
+    // Get instance field reference: private HMUI.ImageView _characteristicIconImageView
+    HMUI::ImageView*& dyn__characteristicIconImageView();
+    // Get instance field reference: private System.Boolean _useArtworkBackground
+    bool& dyn__useArtworkBackground();
+    // Get instance field reference: private HMUI.ImageView _artworkBackgroundImage
+    HMUI::ImageView*& dyn__artworkBackgroundImage();
+    // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
+    System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
     // public System.Void set_hide(System.Boolean value)
     // Offset: 0x1149DCC
     void set_hide(bool value);

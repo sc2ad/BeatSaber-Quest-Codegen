@@ -31,10 +31,8 @@ namespace GlobalNamespace {
     HorizontalCameraFov(float horizontalFOV_ = {}) noexcept : horizontalFOV{horizontalFOV_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public System.Single _horizontalFOV
-    float _get__horizontalFOV();
-    // Set instance field: public System.Single _horizontalFOV
-    void _set__horizontalFOV(float value);
+    // Get instance field reference: public System.Single _horizontalFOV
+    float& dyn__horizontalFOV();
     // protected System.Void Awake()
     // Offset: 0x12651A0
     void Awake();

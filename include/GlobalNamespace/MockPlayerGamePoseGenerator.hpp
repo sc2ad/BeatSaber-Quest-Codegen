@@ -85,26 +85,16 @@ namespace GlobalNamespace {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
-    // Get instance field: protected readonly IMultiplayerSessionManager multiplayerSessionManager
-    GlobalNamespace::IMultiplayerSessionManager* _get_multiplayerSessionManager();
-    // Set instance field: protected readonly IMultiplayerSessionManager multiplayerSessionManager
-    void _set_multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
-    // Get instance field: protected readonly IGameplayRpcManager gameplayRpcManager
-    GlobalNamespace::IGameplayRpcManager* _get_gameplayRpcManager();
-    // Set instance field: protected readonly IGameplayRpcManager gameplayRpcManager
-    void _set_gameplayRpcManager(GlobalNamespace::IGameplayRpcManager* value);
-    // Get instance field: protected readonly System.Boolean leftHanded
-    bool _get_leftHanded();
-    // Set instance field: protected readonly System.Boolean leftHanded
-    void _set_leftHanded(bool value);
-    // Get instance field: protected readonly MockNodePoseSyncStateSender mockNodePoseSyncStateSender
-    GlobalNamespace::MockNodePoseSyncStateSender* _get_mockNodePoseSyncStateSender();
-    // Set instance field: protected readonly MockNodePoseSyncStateSender mockNodePoseSyncStateSender
-    void _set_mockNodePoseSyncStateSender(GlobalNamespace::MockNodePoseSyncStateSender* value);
-    // Get instance field: protected readonly MockScoreSyncStateSender mockScoreSyncStateSender
-    GlobalNamespace::MockScoreSyncStateSender* _get_mockScoreSyncStateSender();
-    // Set instance field: protected readonly MockScoreSyncStateSender mockScoreSyncStateSender
-    void _set_mockScoreSyncStateSender(GlobalNamespace::MockScoreSyncStateSender* value);
+    // Get instance field reference: protected readonly IMultiplayerSessionManager multiplayerSessionManager
+    GlobalNamespace::IMultiplayerSessionManager*& dyn_multiplayerSessionManager();
+    // Get instance field reference: protected readonly IGameplayRpcManager gameplayRpcManager
+    GlobalNamespace::IGameplayRpcManager*& dyn_gameplayRpcManager();
+    // Get instance field reference: protected readonly System.Boolean leftHanded
+    bool& dyn_leftHanded();
+    // Get instance field reference: protected readonly MockNodePoseSyncStateSender mockNodePoseSyncStateSender
+    GlobalNamespace::MockNodePoseSyncStateSender*& dyn_mockNodePoseSyncStateSender();
+    // Get instance field reference: protected readonly MockScoreSyncStateSender mockScoreSyncStateSender
+    GlobalNamespace::MockScoreSyncStateSender*& dyn_mockScoreSyncStateSender();
     // protected System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, IGameplayRpcManager gameplayRpcManager, System.Boolean leftHanded)
     // Offset: 0x23E0DC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -40,14 +40,10 @@ namespace System::Net::Configuration {
     static System::Net::Configuration::SettingsSectionInternal* _get_instance();
     // Set static field: static private readonly System.Net.Configuration.SettingsSectionInternal instance
     static void _set_instance(System::Net::Configuration::SettingsSectionInternal* value);
-    // Get instance field: readonly System.Boolean HttpListenerUnescapeRequestUrl
-    bool _get_HttpListenerUnescapeRequestUrl();
-    // Set instance field: readonly System.Boolean HttpListenerUnescapeRequestUrl
-    void _set_HttpListenerUnescapeRequestUrl(bool value);
-    // Get instance field: readonly System.Net.Sockets.IPProtectionLevel IPProtectionLevel
-    System::Net::Sockets::IPProtectionLevel _get_IPProtectionLevel();
-    // Set instance field: readonly System.Net.Sockets.IPProtectionLevel IPProtectionLevel
-    void _set_IPProtectionLevel(System::Net::Sockets::IPProtectionLevel value);
+    // Get instance field reference: readonly System.Boolean HttpListenerUnescapeRequestUrl
+    bool& dyn_HttpListenerUnescapeRequestUrl();
+    // Get instance field reference: readonly System.Net.Sockets.IPProtectionLevel IPProtectionLevel
+    System::Net::Sockets::IPProtectionLevel& dyn_IPProtectionLevel();
     // static System.Net.Configuration.SettingsSectionInternal get_Section()
     // Offset: 0x16D07AC
     static System::Net::Configuration::SettingsSectionInternal* get_Section();

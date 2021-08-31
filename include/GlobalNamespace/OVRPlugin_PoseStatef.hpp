@@ -69,30 +69,18 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::PoseStatef _get_identity();
     // Set static field: static public readonly OVRPlugin/PoseStatef identity
     static void _set_identity(GlobalNamespace::OVRPlugin::PoseStatef value);
-    // Get instance field: public OVRPlugin/Posef Pose
-    GlobalNamespace::OVRPlugin::Posef _get_Pose();
-    // Set instance field: public OVRPlugin/Posef Pose
-    void _set_Pose(GlobalNamespace::OVRPlugin::Posef value);
-    // Get instance field: public OVRPlugin/Vector3f Velocity
-    GlobalNamespace::OVRPlugin::Vector3f _get_Velocity();
-    // Set instance field: public OVRPlugin/Vector3f Velocity
-    void _set_Velocity(GlobalNamespace::OVRPlugin::Vector3f value);
-    // Get instance field: public OVRPlugin/Vector3f Acceleration
-    GlobalNamespace::OVRPlugin::Vector3f _get_Acceleration();
-    // Set instance field: public OVRPlugin/Vector3f Acceleration
-    void _set_Acceleration(GlobalNamespace::OVRPlugin::Vector3f value);
-    // Get instance field: public OVRPlugin/Vector3f AngularVelocity
-    GlobalNamespace::OVRPlugin::Vector3f _get_AngularVelocity();
-    // Set instance field: public OVRPlugin/Vector3f AngularVelocity
-    void _set_AngularVelocity(GlobalNamespace::OVRPlugin::Vector3f value);
-    // Get instance field: public OVRPlugin/Vector3f AngularAcceleration
-    GlobalNamespace::OVRPlugin::Vector3f _get_AngularAcceleration();
-    // Set instance field: public OVRPlugin/Vector3f AngularAcceleration
-    void _set_AngularAcceleration(GlobalNamespace::OVRPlugin::Vector3f value);
-    // Get instance field: public System.Double Time
-    double _get_Time();
-    // Set instance field: public System.Double Time
-    void _set_Time(double value);
+    // Get instance field reference: public OVRPlugin/Posef Pose
+    GlobalNamespace::OVRPlugin::Posef& dyn_Pose();
+    // Get instance field reference: public OVRPlugin/Vector3f Velocity
+    GlobalNamespace::OVRPlugin::Vector3f& dyn_Velocity();
+    // Get instance field reference: public OVRPlugin/Vector3f Acceleration
+    GlobalNamespace::OVRPlugin::Vector3f& dyn_Acceleration();
+    // Get instance field reference: public OVRPlugin/Vector3f AngularVelocity
+    GlobalNamespace::OVRPlugin::Vector3f& dyn_AngularVelocity();
+    // Get instance field reference: public OVRPlugin/Vector3f AngularAcceleration
+    GlobalNamespace::OVRPlugin::Vector3f& dyn_AngularAcceleration();
+    // Get instance field reference: public System.Double Time
+    double& dyn_Time();
     // static private System.Void .cctor()
     // Offset: 0x1632514
     static void _cctor();

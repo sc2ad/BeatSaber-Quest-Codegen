@@ -70,34 +70,20 @@ namespace BeatSaberAPI::DataTransferObjects {
     static_assert(sizeof(::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>*) == 0x8);
     // Creating value type constructor for type: LeaderboardQuery
     LeaderboardQuery(::Il2CppString* leaderboardId_ = {}, int count_ = {}, int fromRank_ = {}, BeatSaberAPI::DataTransferObjects::ScoresScope scope_ = {}, ::Array<::Il2CppString*>* friendsUserIds_ = {}, bool onlyWithSpecificGameplayModifiers_ = {}, ::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>* gameplayModifiers_ = {}) noexcept : leaderboardId{leaderboardId_}, count{count_}, fromRank{fromRank_}, scope{scope_}, friendsUserIds{friendsUserIds_}, onlyWithSpecificGameplayModifiers{onlyWithSpecificGameplayModifiers_}, gameplayModifiers{gameplayModifiers_} {}
-    // Get instance field: public System.String leaderboardId
-    ::Il2CppString* _get_leaderboardId();
-    // Set instance field: public System.String leaderboardId
-    void _set_leaderboardId(::Il2CppString* value);
-    // Get instance field: public System.Int32 count
-    int _get_count();
-    // Set instance field: public System.Int32 count
-    void _set_count(int value);
-    // Get instance field: public System.Int32 fromRank
-    int _get_fromRank();
-    // Set instance field: public System.Int32 fromRank
-    void _set_fromRank(int value);
-    // Get instance field: public BeatSaberAPI.DataTransferObjects.ScoresScope scope
-    BeatSaberAPI::DataTransferObjects::ScoresScope _get_scope();
-    // Set instance field: public BeatSaberAPI.DataTransferObjects.ScoresScope scope
-    void _set_scope(BeatSaberAPI::DataTransferObjects::ScoresScope value);
-    // Get instance field: public System.String[] friendsUserIds
-    ::Array<::Il2CppString*>* _get_friendsUserIds();
-    // Set instance field: public System.String[] friendsUserIds
-    void _set_friendsUserIds(::Array<::Il2CppString*>* value);
-    // Get instance field: public System.Boolean onlyWithSpecificGameplayModifiers
-    bool _get_onlyWithSpecificGameplayModifiers();
-    // Set instance field: public System.Boolean onlyWithSpecificGameplayModifiers
-    void _set_onlyWithSpecificGameplayModifiers(bool value);
-    // Get instance field: public BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers[] gameplayModifiers
-    ::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>* _get_gameplayModifiers();
-    // Set instance field: public BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers[] gameplayModifiers
-    void _set_gameplayModifiers(::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>* value);
+    // Get instance field reference: public System.String leaderboardId
+    ::Il2CppString*& dyn_leaderboardId();
+    // Get instance field reference: public System.Int32 count
+    int& dyn_count();
+    // Get instance field reference: public System.Int32 fromRank
+    int& dyn_fromRank();
+    // Get instance field reference: public BeatSaberAPI.DataTransferObjects.ScoresScope scope
+    BeatSaberAPI::DataTransferObjects::ScoresScope& dyn_scope();
+    // Get instance field reference: public System.String[] friendsUserIds
+    ::Array<::Il2CppString*>*& dyn_friendsUserIds();
+    // Get instance field reference: public System.Boolean onlyWithSpecificGameplayModifiers
+    bool& dyn_onlyWithSpecificGameplayModifiers();
+    // Get instance field reference: public BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers[] gameplayModifiers
+    ::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>*& dyn_gameplayModifiers();
     // public System.Void .ctor()
     // Offset: 0x11E8D64
     // Implemented from: System.Object

@@ -72,26 +72,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: MainSettingsMenuViewController
     MainSettingsMenuViewController(System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>* didSelectSettingsSubMenuEvent_ = {}, ::Array<GlobalNamespace::SettingsSubMenuInfo*>* settingsSubMenuInfos_ = {}, HMUI::TextSegmentedControl* settingsMenuSegmentedControl_ = {}, GlobalNamespace::SettingsSubMenuInfo* selectedSubMenuInfo_ = {}, int selectedSubMenuInfoIdx_ = {}) noexcept : didSelectSettingsSubMenuEvent{didSelectSettingsSubMenuEvent_}, settingsSubMenuInfos{settingsSubMenuInfos_}, settingsMenuSegmentedControl{settingsMenuSegmentedControl_}, selectedSubMenuInfo{selectedSubMenuInfo_}, selectedSubMenuInfoIdx{selectedSubMenuInfoIdx_} {}
-    // Get instance field: private System.Action`2<SettingsSubMenuInfo,System.Int32> didSelectSettingsSubMenuEvent
-    System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>* _get_didSelectSettingsSubMenuEvent();
-    // Set instance field: private System.Action`2<SettingsSubMenuInfo,System.Int32> didSelectSettingsSubMenuEvent
-    void _set_didSelectSettingsSubMenuEvent(System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>* value);
-    // Get instance field: private SettingsSubMenuInfo[] _settingsSubMenuInfos
-    ::Array<GlobalNamespace::SettingsSubMenuInfo*>* _get__settingsSubMenuInfos();
-    // Set instance field: private SettingsSubMenuInfo[] _settingsSubMenuInfos
-    void _set__settingsSubMenuInfos(::Array<GlobalNamespace::SettingsSubMenuInfo*>* value);
-    // Get instance field: private HMUI.TextSegmentedControl _settingsMenuSegmentedControl
-    HMUI::TextSegmentedControl* _get__settingsMenuSegmentedControl();
-    // Set instance field: private HMUI.TextSegmentedControl _settingsMenuSegmentedControl
-    void _set__settingsMenuSegmentedControl(HMUI::TextSegmentedControl* value);
-    // Get instance field: private SettingsSubMenuInfo _selectedSubMenuInfo
-    GlobalNamespace::SettingsSubMenuInfo* _get__selectedSubMenuInfo();
-    // Set instance field: private SettingsSubMenuInfo _selectedSubMenuInfo
-    void _set__selectedSubMenuInfo(GlobalNamespace::SettingsSubMenuInfo* value);
-    // Get instance field: private System.Int32 _selectedSubMenuInfoIdx
-    int _get__selectedSubMenuInfoIdx();
-    // Set instance field: private System.Int32 _selectedSubMenuInfoIdx
-    void _set__selectedSubMenuInfoIdx(int value);
+    // Get instance field reference: private System.Action`2<SettingsSubMenuInfo,System.Int32> didSelectSettingsSubMenuEvent
+    System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>*& dyn_didSelectSettingsSubMenuEvent();
+    // Get instance field reference: private SettingsSubMenuInfo[] _settingsSubMenuInfos
+    ::Array<GlobalNamespace::SettingsSubMenuInfo*>*& dyn__settingsSubMenuInfos();
+    // Get instance field reference: private HMUI.TextSegmentedControl _settingsMenuSegmentedControl
+    HMUI::TextSegmentedControl*& dyn__settingsMenuSegmentedControl();
+    // Get instance field reference: private SettingsSubMenuInfo _selectedSubMenuInfo
+    GlobalNamespace::SettingsSubMenuInfo*& dyn__selectedSubMenuInfo();
+    // Get instance field reference: private System.Int32 _selectedSubMenuInfoIdx
+    int& dyn__selectedSubMenuInfoIdx();
     // public System.Int32 get_numberOfSubMenus()
     // Offset: 0x10E2394
     int get_numberOfSubMenus();

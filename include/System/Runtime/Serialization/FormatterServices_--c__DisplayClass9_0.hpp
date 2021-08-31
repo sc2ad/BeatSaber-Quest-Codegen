@@ -50,10 +50,8 @@ namespace System::Runtime::Serialization {
     constexpr operator System::Type*() const noexcept {
       return type;
     }
-    // Get instance field: public System.Type type
-    System::Type* _get_type();
-    // Set instance field: public System.Type type
-    void _set_type(System::Type* value);
+    // Get instance field reference: public System.Type type
+    System::Type*& dyn_type();
     // System.Reflection.MemberInfo[] <GetSerializableMembers>b__0(System.Runtime.Serialization.MemberHolder _)
     // Offset: 0x1612174
     ::Array<System::Reflection::MemberInfo*>* $GetSerializableMembers$b__0(System::Runtime::Serialization::MemberHolder* _);

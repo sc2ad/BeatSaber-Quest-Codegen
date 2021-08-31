@@ -224,10 +224,8 @@ namespace Tweening {
     static Tweening::EaseType _get_InOutBounce();
     // Set static field: static public Tweening.EaseType InOutBounce
     static void _set_InOutBounce(Tweening::EaseType value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Tweening.EaseType
   #pragma pack(pop)
   static check_size<sizeof(EaseType), 0 + sizeof(int)> __Tweening_EaseTypeSizeCheck;

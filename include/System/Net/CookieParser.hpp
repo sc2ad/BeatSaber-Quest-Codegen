@@ -39,10 +39,8 @@ namespace System::Net {
     constexpr operator System::Net::CookieTokenizer*() const noexcept {
       return m_tokenizer;
     }
-    // Get instance field: private System.Net.CookieTokenizer m_tokenizer
-    System::Net::CookieTokenizer* _get_m_tokenizer();
-    // Set instance field: private System.Net.CookieTokenizer m_tokenizer
-    void _set_m_tokenizer(System::Net::CookieTokenizer* value);
+    // Get instance field reference: private System.Net.CookieTokenizer m_tokenizer
+    System::Net::CookieTokenizer*& dyn_m_tokenizer();
     // System.Void .ctor(System.String cookieString)
     // Offset: 0x16D6294
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

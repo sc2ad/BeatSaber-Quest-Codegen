@@ -71,30 +71,18 @@ namespace Org::BouncyCastle::Crypto::Modes {
     operator Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBlockCipher*>(this);
     }
-    // Get instance field: private System.Byte[] IV
-    ::Array<uint8_t>* _get_IV();
-    // Set instance field: private System.Byte[] IV
-    void _set_IV(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] cbcV
-    ::Array<uint8_t>* _get_cbcV();
-    // Set instance field: private System.Byte[] cbcV
-    void _set_cbcV(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] cbcNextV
-    ::Array<uint8_t>* _get_cbcNextV();
-    // Set instance field: private System.Byte[] cbcNextV
-    void _set_cbcNextV(::Array<uint8_t>* value);
-    // Get instance field: private System.Int32 blockSize
-    int _get_blockSize();
-    // Set instance field: private System.Int32 blockSize
-    void _set_blockSize(int value);
-    // Get instance field: private Org.BouncyCastle.Crypto.IBlockCipher cipher
-    Org::BouncyCastle::Crypto::IBlockCipher* _get_cipher();
-    // Set instance field: private Org.BouncyCastle.Crypto.IBlockCipher cipher
-    void _set_cipher(Org::BouncyCastle::Crypto::IBlockCipher* value);
-    // Get instance field: private System.Boolean encrypting
-    bool _get_encrypting();
-    // Set instance field: private System.Boolean encrypting
-    void _set_encrypting(bool value);
+    // Get instance field reference: private System.Byte[] IV
+    ::Array<uint8_t>*& dyn_IV();
+    // Get instance field reference: private System.Byte[] cbcV
+    ::Array<uint8_t>*& dyn_cbcV();
+    // Get instance field reference: private System.Byte[] cbcNextV
+    ::Array<uint8_t>*& dyn_cbcNextV();
+    // Get instance field reference: private System.Int32 blockSize
+    int& dyn_blockSize();
+    // Get instance field reference: private Org.BouncyCastle.Crypto.IBlockCipher cipher
+    Org::BouncyCastle::Crypto::IBlockCipher*& dyn_cipher();
+    // Get instance field reference: private System.Boolean encrypting
+    bool& dyn_encrypting();
     // public System.String get_AlgorithmName()
     // Offset: 0x191266C
     ::Il2CppString* get_AlgorithmName();

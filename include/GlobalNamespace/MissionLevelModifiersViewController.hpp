@@ -76,26 +76,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::GameplayModifiers*) == 0x8);
     // Creating value type constructor for type: MissionLevelModifiersViewController
     MissionLevelModifiersViewController(GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel_ = {}, GlobalNamespace::GameplayModifierInfoListItemsList* gameplayModifierInfoListItemsList_ = {}, UnityEngine::GameObject* modifiersPanel_ = {}, TMPro::TextMeshProUGUI* titleText_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}) noexcept : gameplayModifiersModel{gameplayModifiersModel_}, gameplayModifierInfoListItemsList{gameplayModifierInfoListItemsList_}, modifiersPanel{modifiersPanel_}, titleText{titleText_}, gameplayModifiers{gameplayModifiers_} {}
-    // Get instance field: private GameplayModifiersModelSO _gameplayModifiersModel
-    GlobalNamespace::GameplayModifiersModelSO* _get__gameplayModifiersModel();
-    // Set instance field: private GameplayModifiersModelSO _gameplayModifiersModel
-    void _set__gameplayModifiersModel(GlobalNamespace::GameplayModifiersModelSO* value);
-    // Get instance field: private GameplayModifierInfoListItemsList _gameplayModifierInfoListItemsList
-    GlobalNamespace::GameplayModifierInfoListItemsList* _get__gameplayModifierInfoListItemsList();
-    // Set instance field: private GameplayModifierInfoListItemsList _gameplayModifierInfoListItemsList
-    void _set__gameplayModifierInfoListItemsList(GlobalNamespace::GameplayModifierInfoListItemsList* value);
-    // Get instance field: private UnityEngine.GameObject _modifiersPanel
-    UnityEngine::GameObject* _get__modifiersPanel();
-    // Set instance field: private UnityEngine.GameObject _modifiersPanel
-    void _set__modifiersPanel(UnityEngine::GameObject* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _titleText
-    TMPro::TextMeshProUGUI* _get__titleText();
-    // Set instance field: private TMPro.TextMeshProUGUI _titleText
-    void _set__titleText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private GameplayModifiers _gameplayModifiers
-    GlobalNamespace::GameplayModifiers* _get__gameplayModifiers();
-    // Set instance field: private GameplayModifiers _gameplayModifiers
-    void _set__gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
+    // Get instance field reference: private GameplayModifiersModelSO _gameplayModifiersModel
+    GlobalNamespace::GameplayModifiersModelSO*& dyn__gameplayModifiersModel();
+    // Get instance field reference: private GameplayModifierInfoListItemsList _gameplayModifierInfoListItemsList
+    GlobalNamespace::GameplayModifierInfoListItemsList*& dyn__gameplayModifierInfoListItemsList();
+    // Get instance field reference: private UnityEngine.GameObject _modifiersPanel
+    UnityEngine::GameObject*& dyn__modifiersPanel();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _titleText
+    TMPro::TextMeshProUGUI*& dyn__titleText();
+    // Get instance field reference: private GameplayModifiers _gameplayModifiers
+    GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
     // public System.Void Setup(GameplayModifiers gameplayModifiers)
     // Offset: 0x11D34BC
     void Setup(GlobalNamespace::GameplayModifiers* gameplayModifiers);

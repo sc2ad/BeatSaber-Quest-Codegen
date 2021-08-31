@@ -30,10 +30,8 @@ namespace GlobalNamespace {
     NumberTag(int number_ = {}) noexcept : number{number_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public System.Int32 number
-    int _get_number();
-    // Set instance field: public System.Int32 number
-    void _set_number(int value);
+    // Get instance field reference: public System.Int32 number
+    int& dyn_number();
     // public System.Void .ctor()
     // Offset: 0x1266684
     // Implemented from: UnityEngine.MonoBehaviour

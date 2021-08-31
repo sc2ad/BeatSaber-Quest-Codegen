@@ -176,10 +176,8 @@ namespace System::Globalization {
     static System::Globalization::CalendarId _get_LAST_CALENDAR();
     // Set static field: static public System.Globalization.CalendarId LAST_CALENDAR
     static void _set_LAST_CALENDAR(System::Globalization::CalendarId value);
-    // Get instance field: public System.UInt16 value__
-    uint16_t _get_value__();
-    // Set instance field: public System.UInt16 value__
-    void _set_value__(uint16_t value);
+    // Get instance field reference: public System.UInt16 value__
+    uint16_t& dyn_value__();
   }; // System.Globalization.CalendarId
   #pragma pack(pop)
   static check_size<sizeof(CalendarId), 0 + sizeof(uint16_t)> __System_Globalization_CalendarIdSizeCheck;

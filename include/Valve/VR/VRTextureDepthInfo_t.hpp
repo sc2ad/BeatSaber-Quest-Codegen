@@ -47,18 +47,12 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.IntPtr handle
-    System::IntPtr _get_handle();
-    // Set instance field: public System.IntPtr handle
-    void _set_handle(System::IntPtr value);
-    // Get instance field: public Valve.VR.HmdMatrix44_t mProjection
-    Valve::VR::HmdMatrix44_t _get_mProjection();
-    // Set instance field: public Valve.VR.HmdMatrix44_t mProjection
-    void _set_mProjection(Valve::VR::HmdMatrix44_t value);
-    // Get instance field: public Valve.VR.HmdVector2_t vRange
-    Valve::VR::HmdVector2_t _get_vRange();
-    // Set instance field: public Valve.VR.HmdVector2_t vRange
-    void _set_vRange(Valve::VR::HmdVector2_t value);
+    // Get instance field reference: public System.IntPtr handle
+    System::IntPtr& dyn_handle();
+    // Get instance field reference: public Valve.VR.HmdMatrix44_t mProjection
+    Valve::VR::HmdMatrix44_t& dyn_mProjection();
+    // Get instance field reference: public Valve.VR.HmdVector2_t vRange
+    Valve::VR::HmdVector2_t& dyn_vRange();
   }; // Valve.VR.VRTextureDepthInfo_t
   #pragma pack(pop)
   static check_size<sizeof(VRTextureDepthInfo_t), 72 + sizeof(Valve::VR::HmdVector2_t)> __Valve_VR_VRTextureDepthInfo_tSizeCheck;

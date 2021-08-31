@@ -44,18 +44,12 @@ namespace Mono::Security::Interface {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: MonoTlsConnectionInfo
     MonoTlsConnectionInfo(Mono::Security::Interface::CipherSuiteCode CipherSuiteCode_ = {}, Mono::Security::Interface::TlsProtocols ProtocolVersion_ = {}, ::Il2CppString* PeerDomainName_ = {}) noexcept : CipherSuiteCode{CipherSuiteCode_}, ProtocolVersion{ProtocolVersion_}, PeerDomainName{PeerDomainName_} {}
-    // Get instance field: private Mono.Security.Interface.CipherSuiteCode <CipherSuiteCode>k__BackingField
-    Mono::Security::Interface::CipherSuiteCode _get_$CipherSuiteCode$k__BackingField();
-    // Set instance field: private Mono.Security.Interface.CipherSuiteCode <CipherSuiteCode>k__BackingField
-    void _set_$CipherSuiteCode$k__BackingField(Mono::Security::Interface::CipherSuiteCode value);
-    // Get instance field: private Mono.Security.Interface.TlsProtocols <ProtocolVersion>k__BackingField
-    Mono::Security::Interface::TlsProtocols _get_$ProtocolVersion$k__BackingField();
-    // Set instance field: private Mono.Security.Interface.TlsProtocols <ProtocolVersion>k__BackingField
-    void _set_$ProtocolVersion$k__BackingField(Mono::Security::Interface::TlsProtocols value);
-    // Get instance field: private System.String <PeerDomainName>k__BackingField
-    ::Il2CppString* _get_$PeerDomainName$k__BackingField();
-    // Set instance field: private System.String <PeerDomainName>k__BackingField
-    void _set_$PeerDomainName$k__BackingField(::Il2CppString* value);
+    // Get instance field reference: private Mono.Security.Interface.CipherSuiteCode <CipherSuiteCode>k__BackingField
+    Mono::Security::Interface::CipherSuiteCode& dyn_$CipherSuiteCode$k__BackingField();
+    // Get instance field reference: private Mono.Security.Interface.TlsProtocols <ProtocolVersion>k__BackingField
+    Mono::Security::Interface::TlsProtocols& dyn_$ProtocolVersion$k__BackingField();
+    // Get instance field reference: private System.String <PeerDomainName>k__BackingField
+    ::Il2CppString*& dyn_$PeerDomainName$k__BackingField();
     // public Mono.Security.Interface.CipherSuiteCode get_CipherSuiteCode()
     // Offset: 0x1E04FE0
     Mono::Security::Interface::CipherSuiteCode get_CipherSuiteCode();

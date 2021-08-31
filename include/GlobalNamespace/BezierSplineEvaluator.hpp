@@ -65,14 +65,10 @@ namespace GlobalNamespace {
     static float _get_kSlightBelowZero();
     // Set static field: static private System.Single kSlightBelowZero
     static void _set_kSlightBelowZero(float value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<BezierCurve> _segments
-    System::Collections::Generic::List_1<GlobalNamespace::BezierCurve>* _get__segments();
-    // Set instance field: private readonly System.Collections.Generic.List`1<BezierCurve> _segments
-    void _set__segments(System::Collections::Generic::List_1<GlobalNamespace::BezierCurve>* value);
-    // Get instance field: private System.Int32 _currentSegmentIndex
-    int _get__currentSegmentIndex();
-    // Set instance field: private System.Int32 _currentSegmentIndex
-    void _set__currentSegmentIndex(int value);
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<BezierCurve> _segments
+    System::Collections::Generic::List_1<GlobalNamespace::BezierCurve>*& dyn__segments();
+    // Get instance field reference: private System.Int32 _currentSegmentIndex
+    int& dyn__currentSegmentIndex();
     // public System.Void .ctor(BezierSpline spline)
     // Offset: 0x10CE9BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -117,46 +117,26 @@ namespace MasterServer {
     static_assert(sizeof(System::Action_1<GlobalNamespace::ConnectionFailedReason>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass13_0
     $$c__DisplayClass13_0(MasterServer::UserMessageHandler* $$4__this_ = {}, ::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, int offset_ = {}, int count_ = {}, GlobalNamespace::BeatmapLevelSelectionMask selectionMask_ = {}, GlobalNamespace::GameplayServerConfiguration configuration_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::Action_1<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PublicServerInfo>*>* onSuccess_ = {}, System::Action_1<GlobalNamespace::ConnectionFailedReason>* onFailure_ = {}) noexcept : $$4__this{$$4__this_}, userId{userId_}, userName{userName_}, offset{offset_}, count{count_}, selectionMask{selectionMask_}, configuration{configuration_}, cancellationToken{cancellationToken_}, onSuccess{onSuccess_}, onFailure{onFailure_} {}
-    // Get instance field: public MasterServer.UserMessageHandler <>4__this
-    MasterServer::UserMessageHandler* _get_$$4__this();
-    // Set instance field: public MasterServer.UserMessageHandler <>4__this
-    void _set_$$4__this(MasterServer::UserMessageHandler* value);
-    // Get instance field: public System.String userId
-    ::Il2CppString* _get_userId();
-    // Set instance field: public System.String userId
-    void _set_userId(::Il2CppString* value);
-    // Get instance field: public System.String userName
-    ::Il2CppString* _get_userName();
-    // Set instance field: public System.String userName
-    void _set_userName(::Il2CppString* value);
-    // Get instance field: public System.Int32 offset
-    int _get_offset();
-    // Set instance field: public System.Int32 offset
-    void _set_offset(int value);
-    // Get instance field: public System.Int32 count
-    int _get_count();
-    // Set instance field: public System.Int32 count
-    void _set_count(int value);
-    // Get instance field: public BeatmapLevelSelectionMask selectionMask
-    GlobalNamespace::BeatmapLevelSelectionMask _get_selectionMask();
-    // Set instance field: public BeatmapLevelSelectionMask selectionMask
-    void _set_selectionMask(GlobalNamespace::BeatmapLevelSelectionMask value);
-    // Get instance field: public GameplayServerConfiguration configuration
-    GlobalNamespace::GameplayServerConfiguration _get_configuration();
-    // Set instance field: public GameplayServerConfiguration configuration
-    void _set_configuration(GlobalNamespace::GameplayServerConfiguration value);
-    // Get instance field: public System.Threading.CancellationToken cancellationToken
-    System::Threading::CancellationToken _get_cancellationToken();
-    // Set instance field: public System.Threading.CancellationToken cancellationToken
-    void _set_cancellationToken(System::Threading::CancellationToken value);
-    // Get instance field: public System.Action`1<System.Collections.Generic.IReadOnlyList`1<PublicServerInfo>> onSuccess
-    System::Action_1<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PublicServerInfo>*>* _get_onSuccess();
-    // Set instance field: public System.Action`1<System.Collections.Generic.IReadOnlyList`1<PublicServerInfo>> onSuccess
-    void _set_onSuccess(System::Action_1<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PublicServerInfo>*>* value);
-    // Get instance field: public System.Action`1<ConnectionFailedReason> onFailure
-    System::Action_1<GlobalNamespace::ConnectionFailedReason>* _get_onFailure();
-    // Set instance field: public System.Action`1<ConnectionFailedReason> onFailure
-    void _set_onFailure(System::Action_1<GlobalNamespace::ConnectionFailedReason>* value);
+    // Get instance field reference: public MasterServer.UserMessageHandler <>4__this
+    MasterServer::UserMessageHandler*& dyn_$$4__this();
+    // Get instance field reference: public System.String userId
+    ::Il2CppString*& dyn_userId();
+    // Get instance field reference: public System.String userName
+    ::Il2CppString*& dyn_userName();
+    // Get instance field reference: public System.Int32 offset
+    int& dyn_offset();
+    // Get instance field reference: public System.Int32 count
+    int& dyn_count();
+    // Get instance field reference: public BeatmapLevelSelectionMask selectionMask
+    GlobalNamespace::BeatmapLevelSelectionMask& dyn_selectionMask();
+    // Get instance field reference: public GameplayServerConfiguration configuration
+    GlobalNamespace::GameplayServerConfiguration& dyn_configuration();
+    // Get instance field reference: public System.Threading.CancellationToken cancellationToken
+    System::Threading::CancellationToken& dyn_cancellationToken();
+    // Get instance field reference: public System.Action`1<System.Collections.Generic.IReadOnlyList`1<PublicServerInfo>> onSuccess
+    System::Action_1<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PublicServerInfo>*>*& dyn_onSuccess();
+    // Get instance field reference: public System.Action`1<ConnectionFailedReason> onFailure
+    System::Action_1<GlobalNamespace::ConnectionFailedReason>*& dyn_onFailure();
     // System.Threading.Tasks.Task <GetPublicServers>b__0()
     // Offset: 0x12217B4
     System::Threading::Tasks::Task* $GetPublicServers$b__0();

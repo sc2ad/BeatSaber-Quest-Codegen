@@ -55,14 +55,10 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::Array<RootMotion::FinalIK::HitReaction::HitPointBone*>*) == 0x8);
     // Creating value type constructor for type: HitReaction
     HitReaction(::Array<RootMotion::FinalIK::HitReaction::HitPointEffector*>* effectorHitPoints_ = {}, ::Array<RootMotion::FinalIK::HitReaction::HitPointBone*>* boneHitPoints_ = {}) noexcept : effectorHitPoints{effectorHitPoints_}, boneHitPoints{boneHitPoints_} {}
-    // Get instance field: public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointEffector[] effectorHitPoints
-    ::Array<RootMotion::FinalIK::HitReaction::HitPointEffector*>* _get_effectorHitPoints();
-    // Set instance field: public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointEffector[] effectorHitPoints
-    void _set_effectorHitPoints(::Array<RootMotion::FinalIK::HitReaction::HitPointEffector*>* value);
-    // Get instance field: public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointBone[] boneHitPoints
-    ::Array<RootMotion::FinalIK::HitReaction::HitPointBone*>* _get_boneHitPoints();
-    // Set instance field: public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointBone[] boneHitPoints
-    void _set_boneHitPoints(::Array<RootMotion::FinalIK::HitReaction::HitPointBone*>* value);
+    // Get instance field reference: public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointEffector[] effectorHitPoints
+    ::Array<RootMotion::FinalIK::HitReaction::HitPointEffector*>*& dyn_effectorHitPoints();
+    // Get instance field reference: public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointBone[] boneHitPoints
+    ::Array<RootMotion::FinalIK::HitReaction::HitPointBone*>*& dyn_boneHitPoints();
     // public System.Boolean get_inProgress()
     // Offset: 0x1CCDD2C
     bool get_inProgress();

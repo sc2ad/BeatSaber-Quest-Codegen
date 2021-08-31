@@ -42,14 +42,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::DisconnectPromptView*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass12_0
     $$c__DisplayClass12_0(System::Action* finishedCallback_ = {}, GlobalNamespace::DisconnectPromptView* $$4__this_ = {}) noexcept : finishedCallback{finishedCallback_}, $$4__this{$$4__this_} {}
-    // Get instance field: public System.Action finishedCallback
-    System::Action* _get_finishedCallback();
-    // Set instance field: public System.Action finishedCallback
-    void _set_finishedCallback(System::Action* value);
-    // Get instance field: public DisconnectPromptView <>4__this
-    GlobalNamespace::DisconnectPromptView* _get_$$4__this();
-    // Set instance field: public DisconnectPromptView <>4__this
-    void _set_$$4__this(GlobalNamespace::DisconnectPromptView* value);
+    // Get instance field reference: public System.Action finishedCallback
+    System::Action*& dyn_finishedCallback();
+    // Get instance field reference: public DisconnectPromptView <>4__this
+    GlobalNamespace::DisconnectPromptView*& dyn_$$4__this();
     // System.Void <Hide>b__0()
     // Offset: 0x10FC42C
     void $Hide$b__0();

@@ -52,22 +52,14 @@ namespace UnityEngine::Profiling::Experimental {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private Unity.Collections.NativeArray`1<System.Byte> <rawImageDataReference>k__BackingField
-    Unity::Collections::NativeArray_1<uint8_t> _get_$rawImageDataReference$k__BackingField();
-    // Set instance field: private Unity.Collections.NativeArray`1<System.Byte> <rawImageDataReference>k__BackingField
-    void _set_$rawImageDataReference$k__BackingField(Unity::Collections::NativeArray_1<uint8_t> value);
-    // Get instance field: private UnityEngine.TextureFormat <imageFormat>k__BackingField
-    UnityEngine::TextureFormat _get_$imageFormat$k__BackingField();
-    // Set instance field: private UnityEngine.TextureFormat <imageFormat>k__BackingField
-    void _set_$imageFormat$k__BackingField(UnityEngine::TextureFormat value);
-    // Get instance field: private System.Int32 <width>k__BackingField
-    int _get_$width$k__BackingField();
-    // Set instance field: private System.Int32 <width>k__BackingField
-    void _set_$width$k__BackingField(int value);
-    // Get instance field: private System.Int32 <height>k__BackingField
-    int _get_$height$k__BackingField();
-    // Set instance field: private System.Int32 <height>k__BackingField
-    void _set_$height$k__BackingField(int value);
+    // Get instance field reference: private Unity.Collections.NativeArray`1<System.Byte> <rawImageDataReference>k__BackingField
+    Unity::Collections::NativeArray_1<uint8_t>& dyn_$rawImageDataReference$k__BackingField();
+    // Get instance field reference: private UnityEngine.TextureFormat <imageFormat>k__BackingField
+    UnityEngine::TextureFormat& dyn_$imageFormat$k__BackingField();
+    // Get instance field reference: private System.Int32 <width>k__BackingField
+    int& dyn_$width$k__BackingField();
+    // Get instance field reference: private System.Int32 <height>k__BackingField
+    int& dyn_$height$k__BackingField();
     // public System.Void set_rawImageDataReference(Unity.Collections.NativeArray`1<System.Byte> value)
     // Offset: 0x1C3FE40
     void set_rawImageDataReference(Unity::Collections::NativeArray_1<uint8_t> value);

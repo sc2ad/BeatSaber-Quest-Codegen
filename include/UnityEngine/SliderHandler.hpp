@@ -104,46 +104,26 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private readonly UnityEngine.Rect position
-    UnityEngine::Rect _get_position();
-    // Set instance field: private readonly UnityEngine.Rect position
-    void _set_position(UnityEngine::Rect value);
-    // Get instance field: private readonly System.Single currentValue
-    float _get_currentValue();
-    // Set instance field: private readonly System.Single currentValue
-    void _set_currentValue(float value);
-    // Get instance field: private readonly System.Single size
-    float _get_size();
-    // Set instance field: private readonly System.Single size
-    void _set_size(float value);
-    // Get instance field: private readonly System.Single start
-    float _get_start();
-    // Set instance field: private readonly System.Single start
-    void _set_start(float value);
-    // Get instance field: private readonly System.Single end
-    float _get_end();
-    // Set instance field: private readonly System.Single end
-    void _set_end(float value);
-    // Get instance field: private readonly UnityEngine.GUIStyle slider
-    UnityEngine::GUIStyle* _get_slider();
-    // Set instance field: private readonly UnityEngine.GUIStyle slider
-    void _set_slider(UnityEngine::GUIStyle* value);
-    // Get instance field: private readonly UnityEngine.GUIStyle thumb
-    UnityEngine::GUIStyle* _get_thumb();
-    // Set instance field: private readonly UnityEngine.GUIStyle thumb
-    void _set_thumb(UnityEngine::GUIStyle* value);
-    // Get instance field: private readonly UnityEngine.GUIStyle thumbExtent
-    UnityEngine::GUIStyle* _get_thumbExtent();
-    // Set instance field: private readonly UnityEngine.GUIStyle thumbExtent
-    void _set_thumbExtent(UnityEngine::GUIStyle* value);
-    // Get instance field: private readonly System.Boolean horiz
-    bool _get_horiz();
-    // Set instance field: private readonly System.Boolean horiz
-    void _set_horiz(bool value);
-    // Get instance field: private readonly System.Int32 id
-    int _get_id();
-    // Set instance field: private readonly System.Int32 id
-    void _set_id(int value);
+    // Get instance field reference: private readonly UnityEngine.Rect position
+    UnityEngine::Rect& dyn_position();
+    // Get instance field reference: private readonly System.Single currentValue
+    float& dyn_currentValue();
+    // Get instance field reference: private readonly System.Single size
+    float& dyn_size();
+    // Get instance field reference: private readonly System.Single start
+    float& dyn_start();
+    // Get instance field reference: private readonly System.Single end
+    float& dyn_end();
+    // Get instance field reference: private readonly UnityEngine.GUIStyle slider
+    UnityEngine::GUIStyle*& dyn_slider();
+    // Get instance field reference: private readonly UnityEngine.GUIStyle thumb
+    UnityEngine::GUIStyle*& dyn_thumb();
+    // Get instance field reference: private readonly UnityEngine.GUIStyle thumbExtent
+    UnityEngine::GUIStyle*& dyn_thumbExtent();
+    // Get instance field reference: private readonly System.Boolean horiz
+    bool& dyn_horiz();
+    // Get instance field reference: private readonly System.Int32 id
+    int& dyn_id();
     // public System.Void .ctor(UnityEngine.Rect position, System.Single currentValue, System.Single size, System.Single start, System.Single end, UnityEngine.GUIStyle slider, UnityEngine.GUIStyle thumb, System.Boolean horiz, System.Int32 id, UnityEngine.GUIStyle thumbExtent)
     // Offset: 0x1B259E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

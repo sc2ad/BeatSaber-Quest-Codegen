@@ -51,10 +51,8 @@ namespace Valve::VR {
     constexpr operator Valve::VR::IVRTrackedCamera() const noexcept {
       return FnTable;
     }
-    // Get instance field: private Valve.VR.IVRTrackedCamera FnTable
-    Valve::VR::IVRTrackedCamera _get_FnTable();
-    // Set instance field: private Valve.VR.IVRTrackedCamera FnTable
-    void _set_FnTable(Valve::VR::IVRTrackedCamera value);
+    // Get instance field reference: private Valve.VR.IVRTrackedCamera FnTable
+    Valve::VR::IVRTrackedCamera& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0x170F4B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

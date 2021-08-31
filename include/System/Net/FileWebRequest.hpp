@@ -203,86 +203,46 @@ namespace System::Net {
     static System::Threading::WaitCallback* _get_s_GetResponseCallback();
     // Set static field: static private System.Threading.WaitCallback s_GetResponseCallback
     static void _set_s_GetResponseCallback(System::Threading::WaitCallback* value);
-    // Get instance field: private System.String m_connectionGroupName
-    ::Il2CppString* _get_m_connectionGroupName();
-    // Set instance field: private System.String m_connectionGroupName
-    void _set_m_connectionGroupName(::Il2CppString* value);
-    // Get instance field: private System.Int64 m_contentLength
-    int64_t _get_m_contentLength();
-    // Set instance field: private System.Int64 m_contentLength
-    void _set_m_contentLength(int64_t value);
-    // Get instance field: private System.Net.ICredentials m_credentials
-    System::Net::ICredentials* _get_m_credentials();
-    // Set instance field: private System.Net.ICredentials m_credentials
-    void _set_m_credentials(System::Net::ICredentials* value);
-    // Get instance field: private System.IO.FileAccess m_fileAccess
-    System::IO::FileAccess _get_m_fileAccess();
-    // Set instance field: private System.IO.FileAccess m_fileAccess
-    void _set_m_fileAccess(System::IO::FileAccess value);
-    // Get instance field: private System.Net.WebHeaderCollection m_headers
-    System::Net::WebHeaderCollection* _get_m_headers();
-    // Set instance field: private System.Net.WebHeaderCollection m_headers
-    void _set_m_headers(System::Net::WebHeaderCollection* value);
-    // Get instance field: private System.String m_method
-    ::Il2CppString* _get_m_method();
-    // Set instance field: private System.String m_method
-    void _set_m_method(::Il2CppString* value);
-    // Get instance field: private System.Boolean m_preauthenticate
-    bool _get_m_preauthenticate();
-    // Set instance field: private System.Boolean m_preauthenticate
-    void _set_m_preauthenticate(bool value);
-    // Get instance field: private System.Net.IWebProxy m_proxy
-    System::Net::IWebProxy* _get_m_proxy();
-    // Set instance field: private System.Net.IWebProxy m_proxy
-    void _set_m_proxy(System::Net::IWebProxy* value);
-    // Get instance field: private System.Threading.ManualResetEvent m_readerEvent
-    System::Threading::ManualResetEvent* _get_m_readerEvent();
-    // Set instance field: private System.Threading.ManualResetEvent m_readerEvent
-    void _set_m_readerEvent(System::Threading::ManualResetEvent* value);
-    // Get instance field: private System.Boolean m_readPending
-    bool _get_m_readPending();
-    // Set instance field: private System.Boolean m_readPending
-    void _set_m_readPending(bool value);
-    // Get instance field: private System.Net.WebResponse m_response
-    System::Net::WebResponse* _get_m_response();
-    // Set instance field: private System.Net.WebResponse m_response
-    void _set_m_response(System::Net::WebResponse* value);
-    // Get instance field: private System.IO.Stream m_stream
-    System::IO::Stream* _get_m_stream();
-    // Set instance field: private System.IO.Stream m_stream
-    void _set_m_stream(System::IO::Stream* value);
-    // Get instance field: private System.Boolean m_syncHint
-    bool _get_m_syncHint();
-    // Set instance field: private System.Boolean m_syncHint
-    void _set_m_syncHint(bool value);
-    // Get instance field: private System.Int32 m_timeout
-    int _get_m_timeout();
-    // Set instance field: private System.Int32 m_timeout
-    void _set_m_timeout(int value);
-    // Get instance field: private System.Uri m_uri
-    System::Uri* _get_m_uri();
-    // Set instance field: private System.Uri m_uri
-    void _set_m_uri(System::Uri* value);
-    // Get instance field: private System.Boolean m_writePending
-    bool _get_m_writePending();
-    // Set instance field: private System.Boolean m_writePending
-    void _set_m_writePending(bool value);
-    // Get instance field: private System.Boolean m_writing
-    bool _get_m_writing();
-    // Set instance field: private System.Boolean m_writing
-    void _set_m_writing(bool value);
-    // Get instance field: private System.Net.LazyAsyncResult m_WriteAResult
-    System::Net::LazyAsyncResult* _get_m_WriteAResult();
-    // Set instance field: private System.Net.LazyAsyncResult m_WriteAResult
-    void _set_m_WriteAResult(System::Net::LazyAsyncResult* value);
-    // Get instance field: private System.Net.LazyAsyncResult m_ReadAResult
-    System::Net::LazyAsyncResult* _get_m_ReadAResult();
-    // Set instance field: private System.Net.LazyAsyncResult m_ReadAResult
-    void _set_m_ReadAResult(System::Net::LazyAsyncResult* value);
-    // Get instance field: private System.Int32 m_Aborted
-    int _get_m_Aborted();
-    // Set instance field: private System.Int32 m_Aborted
-    void _set_m_Aborted(int value);
+    // Get instance field reference: private System.String m_connectionGroupName
+    ::Il2CppString*& dyn_m_connectionGroupName();
+    // Get instance field reference: private System.Int64 m_contentLength
+    int64_t& dyn_m_contentLength();
+    // Get instance field reference: private System.Net.ICredentials m_credentials
+    System::Net::ICredentials*& dyn_m_credentials();
+    // Get instance field reference: private System.IO.FileAccess m_fileAccess
+    System::IO::FileAccess& dyn_m_fileAccess();
+    // Get instance field reference: private System.Net.WebHeaderCollection m_headers
+    System::Net::WebHeaderCollection*& dyn_m_headers();
+    // Get instance field reference: private System.String m_method
+    ::Il2CppString*& dyn_m_method();
+    // Get instance field reference: private System.Boolean m_preauthenticate
+    bool& dyn_m_preauthenticate();
+    // Get instance field reference: private System.Net.IWebProxy m_proxy
+    System::Net::IWebProxy*& dyn_m_proxy();
+    // Get instance field reference: private System.Threading.ManualResetEvent m_readerEvent
+    System::Threading::ManualResetEvent*& dyn_m_readerEvent();
+    // Get instance field reference: private System.Boolean m_readPending
+    bool& dyn_m_readPending();
+    // Get instance field reference: private System.Net.WebResponse m_response
+    System::Net::WebResponse*& dyn_m_response();
+    // Get instance field reference: private System.IO.Stream m_stream
+    System::IO::Stream*& dyn_m_stream();
+    // Get instance field reference: private System.Boolean m_syncHint
+    bool& dyn_m_syncHint();
+    // Get instance field reference: private System.Int32 m_timeout
+    int& dyn_m_timeout();
+    // Get instance field reference: private System.Uri m_uri
+    System::Uri*& dyn_m_uri();
+    // Get instance field reference: private System.Boolean m_writePending
+    bool& dyn_m_writePending();
+    // Get instance field reference: private System.Boolean m_writing
+    bool& dyn_m_writing();
+    // Get instance field reference: private System.Net.LazyAsyncResult m_WriteAResult
+    System::Net::LazyAsyncResult*& dyn_m_WriteAResult();
+    // Get instance field reference: private System.Net.LazyAsyncResult m_ReadAResult
+    System::Net::LazyAsyncResult*& dyn_m_ReadAResult();
+    // Get instance field reference: private System.Int32 m_Aborted
+    int& dyn_m_Aborted();
     // System.Boolean get_Aborted()
     // Offset: 0x16DE810
     bool get_Aborted();

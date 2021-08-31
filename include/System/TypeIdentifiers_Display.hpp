@@ -42,14 +42,10 @@ namespace System {
     operator System::TypeIdentifier() noexcept {
       return *reinterpret_cast<System::TypeIdentifier*>(this);
     }
-    // Get instance field: private System.String displayName
-    ::Il2CppString* _get_displayName();
-    // Set instance field: private System.String displayName
-    void _set_displayName(::Il2CppString* value);
-    // Get instance field: private System.String internal_name
-    ::Il2CppString* _get_internal_name();
-    // Set instance field: private System.String internal_name
-    void _set_internal_name(::Il2CppString* value);
+    // Get instance field reference: private System.String displayName
+    ::Il2CppString*& dyn_displayName();
+    // Get instance field reference: private System.String internal_name
+    ::Il2CppString*& dyn_internal_name();
     // public System.String get_InternalName()
     // Offset: 0x232AA04
     ::Il2CppString* get_InternalName();

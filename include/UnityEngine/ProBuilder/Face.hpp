@@ -116,46 +116,26 @@ namespace UnityEngine::ProBuilder {
     static_assert(sizeof(::Array<UnityEngine::ProBuilder::Edge>*) == 0x8);
     // Creating value type constructor for type: Face
     Face(::Array<int>* m_Indexes_ = {}, int m_SmoothingGroup_ = {}, UnityEngine::ProBuilder::AutoUnwrapSettings m_Uv_ = {}, UnityEngine::Material* m_Material_ = {}, int m_SubmeshIndex_ = {}, bool m_ManualUV_ = {}, int elementGroup_ = {}, int m_TextureGroup_ = {}, ::Array<int>* m_DistinctIndexes_ = {}, ::Array<UnityEngine::ProBuilder::Edge>* m_Edges_ = {}) noexcept : m_Indexes{m_Indexes_}, m_SmoothingGroup{m_SmoothingGroup_}, m_Uv{m_Uv_}, m_Material{m_Material_}, m_SubmeshIndex{m_SubmeshIndex_}, m_ManualUV{m_ManualUV_}, elementGroup{elementGroup_}, m_TextureGroup{m_TextureGroup_}, m_DistinctIndexes{m_DistinctIndexes_}, m_Edges{m_Edges_} {}
-    // Get instance field: private System.Int32[] m_Indexes
-    ::Array<int>* _get_m_Indexes();
-    // Set instance field: private System.Int32[] m_Indexes
-    void _set_m_Indexes(::Array<int>* value);
-    // Get instance field: private System.Int32 m_SmoothingGroup
-    int _get_m_SmoothingGroup();
-    // Set instance field: private System.Int32 m_SmoothingGroup
-    void _set_m_SmoothingGroup(int value);
-    // Get instance field: private UnityEngine.ProBuilder.AutoUnwrapSettings m_Uv
-    UnityEngine::ProBuilder::AutoUnwrapSettings _get_m_Uv();
-    // Set instance field: private UnityEngine.ProBuilder.AutoUnwrapSettings m_Uv
-    void _set_m_Uv(UnityEngine::ProBuilder::AutoUnwrapSettings value);
-    // Get instance field: private UnityEngine.Material m_Material
-    UnityEngine::Material* _get_m_Material();
-    // Set instance field: private UnityEngine.Material m_Material
-    void _set_m_Material(UnityEngine::Material* value);
-    // Get instance field: private System.Int32 m_SubmeshIndex
-    int _get_m_SubmeshIndex();
-    // Set instance field: private System.Int32 m_SubmeshIndex
-    void _set_m_SubmeshIndex(int value);
-    // Get instance field: private System.Boolean m_ManualUV
-    bool _get_m_ManualUV();
-    // Set instance field: private System.Boolean m_ManualUV
-    void _set_m_ManualUV(bool value);
-    // Get instance field: System.Int32 elementGroup
-    int _get_elementGroup();
-    // Set instance field: System.Int32 elementGroup
-    void _set_elementGroup(int value);
-    // Get instance field: private System.Int32 m_TextureGroup
-    int _get_m_TextureGroup();
-    // Set instance field: private System.Int32 m_TextureGroup
-    void _set_m_TextureGroup(int value);
-    // Get instance field: private System.Int32[] m_DistinctIndexes
-    ::Array<int>* _get_m_DistinctIndexes();
-    // Set instance field: private System.Int32[] m_DistinctIndexes
-    void _set_m_DistinctIndexes(::Array<int>* value);
-    // Get instance field: private UnityEngine.ProBuilder.Edge[] m_Edges
-    ::Array<UnityEngine::ProBuilder::Edge>* _get_m_Edges();
-    // Set instance field: private UnityEngine.ProBuilder.Edge[] m_Edges
-    void _set_m_Edges(::Array<UnityEngine::ProBuilder::Edge>* value);
+    // Get instance field reference: private System.Int32[] m_Indexes
+    ::Array<int>*& dyn_m_Indexes();
+    // Get instance field reference: private System.Int32 m_SmoothingGroup
+    int& dyn_m_SmoothingGroup();
+    // Get instance field reference: private UnityEngine.ProBuilder.AutoUnwrapSettings m_Uv
+    UnityEngine::ProBuilder::AutoUnwrapSettings& dyn_m_Uv();
+    // Get instance field reference: private UnityEngine.Material m_Material
+    UnityEngine::Material*& dyn_m_Material();
+    // Get instance field reference: private System.Int32 m_SubmeshIndex
+    int& dyn_m_SubmeshIndex();
+    // Get instance field reference: private System.Boolean m_ManualUV
+    bool& dyn_m_ManualUV();
+    // Get instance field reference: System.Int32 elementGroup
+    int& dyn_elementGroup();
+    // Get instance field reference: private System.Int32 m_TextureGroup
+    int& dyn_m_TextureGroup();
+    // Get instance field reference: private System.Int32[] m_DistinctIndexes
+    ::Array<int>*& dyn_m_DistinctIndexes();
+    // Get instance field reference: private UnityEngine.ProBuilder.Edge[] m_Edges
+    ::Array<UnityEngine::ProBuilder::Edge>*& dyn_m_Edges();
     // public System.Boolean get_manualUV()
     // Offset: 0x1AEE9C0
     bool get_manualUV();

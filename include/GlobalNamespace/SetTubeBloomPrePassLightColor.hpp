@@ -45,14 +45,10 @@ namespace GlobalNamespace {
     SetTubeBloomPrePassLightColor(GlobalNamespace::ColorSO* color_ = {}, ::Array<GlobalNamespace::TubeBloomPrePassLight*>* tubeLights_ = {}) noexcept : color{color_}, tubeLights{tubeLights_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private ColorSO _color
-    GlobalNamespace::ColorSO* _get__color();
-    // Set instance field: private ColorSO _color
-    void _set__color(GlobalNamespace::ColorSO* value);
-    // Get instance field: private TubeBloomPrePassLight[] _tubeLights
-    ::Array<GlobalNamespace::TubeBloomPrePassLight*>* _get__tubeLights();
-    // Set instance field: private TubeBloomPrePassLight[] _tubeLights
-    void _set__tubeLights(::Array<GlobalNamespace::TubeBloomPrePassLight*>* value);
+    // Get instance field reference: private ColorSO _color
+    GlobalNamespace::ColorSO*& dyn__color();
+    // Get instance field reference: private TubeBloomPrePassLight[] _tubeLights
+    ::Array<GlobalNamespace::TubeBloomPrePassLight*>*& dyn__tubeLights();
     // protected System.Void Start()
     // Offset: 0x1077C60
     void Start();

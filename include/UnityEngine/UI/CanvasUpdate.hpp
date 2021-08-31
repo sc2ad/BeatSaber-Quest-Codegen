@@ -68,10 +68,8 @@ namespace UnityEngine::UI {
     static UnityEngine::UI::CanvasUpdate _get_MaxUpdateValue();
     // Set static field: static public UnityEngine.UI.CanvasUpdate MaxUpdateValue
     static void _set_MaxUpdateValue(UnityEngine::UI::CanvasUpdate value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.UI.CanvasUpdate
   #pragma pack(pop)
   static check_size<sizeof(CanvasUpdate), 0 + sizeof(int)> __UnityEngine_UI_CanvasUpdateSizeCheck;

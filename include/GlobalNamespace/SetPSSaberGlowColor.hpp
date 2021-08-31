@@ -56,18 +56,12 @@ namespace GlobalNamespace {
     SetPSSaberGlowColor(GlobalNamespace::SaberTypeObject* saber_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}, UnityEngine::ParticleSystem* particleSystem_ = {}) noexcept : saber{saber_}, colorManager{colorManager_}, particleSystem{particleSystem_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private SaberTypeObject _saber
-    GlobalNamespace::SaberTypeObject* _get__saber();
-    // Set instance field: private SaberTypeObject _saber
-    void _set__saber(GlobalNamespace::SaberTypeObject* value);
-    // Get instance field: private ColorManager _colorManager
-    GlobalNamespace::ColorManager* _get__colorManager();
-    // Set instance field: private ColorManager _colorManager
-    void _set__colorManager(GlobalNamespace::ColorManager* value);
-    // Get instance field: private UnityEngine.ParticleSystem _particleSystem
-    UnityEngine::ParticleSystem* _get__particleSystem();
-    // Set instance field: private UnityEngine.ParticleSystem _particleSystem
-    void _set__particleSystem(UnityEngine::ParticleSystem* value);
+    // Get instance field reference: private SaberTypeObject _saber
+    GlobalNamespace::SaberTypeObject*& dyn__saber();
+    // Get instance field reference: private ColorManager _colorManager
+    GlobalNamespace::ColorManager*& dyn__colorManager();
+    // Get instance field reference: private UnityEngine.ParticleSystem _particleSystem
+    UnityEngine::ParticleSystem*& dyn__particleSystem();
     // protected System.Void Start()
     // Offset: 0x10777B4
     void Start();

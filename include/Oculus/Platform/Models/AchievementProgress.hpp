@@ -56,26 +56,16 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(System::DateTime) == 0x8);
     // Creating value type constructor for type: AchievementProgress
     AchievementProgress(::Il2CppString* Bitfield_ = {}, uint64_t Count_ = {}, bool IsUnlocked_ = {}, ::Il2CppString* Name_ = {}, System::DateTime UnlockTime_ = {}) noexcept : Bitfield{Bitfield_}, Count{Count_}, IsUnlocked{IsUnlocked_}, Name{Name_}, UnlockTime{UnlockTime_} {}
-    // Get instance field: public readonly System.String Bitfield
-    ::Il2CppString* _get_Bitfield();
-    // Set instance field: public readonly System.String Bitfield
-    void _set_Bitfield(::Il2CppString* value);
-    // Get instance field: public readonly System.UInt64 Count
-    uint64_t _get_Count();
-    // Set instance field: public readonly System.UInt64 Count
-    void _set_Count(uint64_t value);
-    // Get instance field: public readonly System.Boolean IsUnlocked
-    bool _get_IsUnlocked();
-    // Set instance field: public readonly System.Boolean IsUnlocked
-    void _set_IsUnlocked(bool value);
-    // Get instance field: public readonly System.String Name
-    ::Il2CppString* _get_Name();
-    // Set instance field: public readonly System.String Name
-    void _set_Name(::Il2CppString* value);
-    // Get instance field: public readonly System.DateTime UnlockTime
-    System::DateTime _get_UnlockTime();
-    // Set instance field: public readonly System.DateTime UnlockTime
-    void _set_UnlockTime(System::DateTime value);
+    // Get instance field reference: public readonly System.String Bitfield
+    ::Il2CppString*& dyn_Bitfield();
+    // Get instance field reference: public readonly System.UInt64 Count
+    uint64_t& dyn_Count();
+    // Get instance field reference: public readonly System.Boolean IsUnlocked
+    bool& dyn_IsUnlocked();
+    // Get instance field reference: public readonly System.String Name
+    ::Il2CppString*& dyn_Name();
+    // Get instance field reference: public readonly System.DateTime UnlockTime
+    System::DateTime& dyn_UnlockTime();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14F143C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

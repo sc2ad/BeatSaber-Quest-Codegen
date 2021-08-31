@@ -60,14 +60,10 @@ namespace OVRSimpleJSON {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: JSONArray
     JSONArray(System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>* m_List_ = {}, bool _inline_ = {}) noexcept : m_List{m_List_}, _inline{_inline_} {}
-    // Get instance field: private System.Collections.Generic.List`1<OVRSimpleJSON.JSONNode> m_List
-    System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>* _get_m_List();
-    // Set instance field: private System.Collections.Generic.List`1<OVRSimpleJSON.JSONNode> m_List
-    void _set_m_List(System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>* value);
-    // Get instance field: private System.Boolean inline
-    bool _get_inline();
-    // Set instance field: private System.Boolean inline
-    void _set_inline(bool value);
+    // Get instance field reference: private System.Collections.Generic.List`1<OVRSimpleJSON.JSONNode> m_List
+    System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>*& dyn_m_List();
+    // Get instance field reference: private System.Boolean inline
+    bool& dyn_inline();
     // public override System.Boolean get_Inline()
     // Offset: 0x1638E04
     // Implemented from: OVRSimpleJSON.JSONNode

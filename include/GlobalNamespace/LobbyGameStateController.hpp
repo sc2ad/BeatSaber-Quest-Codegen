@@ -320,134 +320,70 @@ namespace GlobalNamespace {
     static float _get_kLongTimerSeconds();
     // Set static field: static public System.Single kLongTimerSeconds
     static void _set_kLongTimerSeconds(float value);
-    // Get instance field: private readonly ILobbyPlayersDataModel _lobbyPlayersDataModel
-    GlobalNamespace::ILobbyPlayersDataModel* _get__lobbyPlayersDataModel();
-    // Set instance field: private readonly ILobbyPlayersDataModel _lobbyPlayersDataModel
-    void _set__lobbyPlayersDataModel(GlobalNamespace::ILobbyPlayersDataModel* value);
-    // Get instance field: private readonly PlayerDataModel _playerDataModel
-    GlobalNamespace::PlayerDataModel* _get__playerDataModel();
-    // Set instance field: private readonly PlayerDataModel _playerDataModel
-    void _set__playerDataModel(GlobalNamespace::PlayerDataModel* value);
-    // Get instance field: private readonly IMenuRpcManager _menuRpcManager
-    GlobalNamespace::IMenuRpcManager* _get__menuRpcManager();
-    // Set instance field: private readonly IMenuRpcManager _menuRpcManager
-    void _set__menuRpcManager(GlobalNamespace::IMenuRpcManager* value);
-    // Get instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    GlobalNamespace::IMultiplayerSessionManager* _get__multiplayerSessionManager();
-    // Set instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    void _set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
-    // Get instance field: private readonly MultiplayerLevelLoader _multiplayerLevelLoader
-    GlobalNamespace::MultiplayerLevelLoader* _get__multiplayerLevelLoader();
-    // Set instance field: private readonly MultiplayerLevelLoader _multiplayerLevelLoader
-    void _set__multiplayerLevelLoader(GlobalNamespace::MultiplayerLevelLoader* value);
-    // Get instance field: private readonly MenuTransitionsHelper _menuTransitionsHelper
-    GlobalNamespace::MenuTransitionsHelper* _get__menuTransitionsHelper();
-    // Set instance field: private readonly MenuTransitionsHelper _menuTransitionsHelper
-    void _set__menuTransitionsHelper(GlobalNamespace::MenuTransitionsHelper* value);
-    // Get instance field: private readonly LobbyGameStateModel _lobbyGameStateModel
-    GlobalNamespace::LobbyGameStateModel* _get__lobbyGameStateModel();
-    // Set instance field: private readonly LobbyGameStateModel _lobbyGameStateModel
-    void _set__lobbyGameStateModel(GlobalNamespace::LobbyGameStateModel* value);
-    // Get instance field: private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
-    GlobalNamespace::LobbyPlayerPermissionsModel* _get__lobbyPlayerPermissionsModel();
-    // Set instance field: private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
-    void _set__lobbyPlayerPermissionsModel(GlobalNamespace::LobbyPlayerPermissionsModel* value);
-    // Get instance field: private System.Action gameStartedEvent
-    System::Action* _get_gameStartedEvent();
-    // Set instance field: private System.Action gameStartedEvent
-    void _set_gameStartedEvent(System::Action* value);
-    // Get instance field: private System.Action gameStartCancelledEvent
-    System::Action* _get_gameStartCancelledEvent();
-    // Set instance field: private System.Action gameStartCancelledEvent
-    void _set_gameStartCancelledEvent(System::Action* value);
-    // Get instance field: private System.Action countdownStartedEvent
-    System::Action* _get_countdownStartedEvent();
-    // Set instance field: private System.Action countdownStartedEvent
-    void _set_countdownStartedEvent(System::Action* value);
-    // Get instance field: private System.Action countdownCancelledEvent
-    System::Action* _get_countdownCancelledEvent();
-    // Set instance field: private System.Action countdownCancelledEvent
-    void _set_countdownCancelledEvent(System::Action* value);
-    // Get instance field: private System.Action songStillDownloadingEvent
-    System::Action* _get_songStillDownloadingEvent();
-    // Set instance field: private System.Action songStillDownloadingEvent
-    void _set_songStillDownloadingEvent(System::Action* value);
-    // Get instance field: private System.Action startTimeChangedEvent
-    System::Action* _get_startTimeChangedEvent();
-    // Set instance field: private System.Action startTimeChangedEvent
-    void _set_startTimeChangedEvent(System::Action* value);
-    // Get instance field: private System.Action`2<MultiplayerLevelScenesTransitionSetupDataSO,MultiplayerResultsData> levelFinishedEvent
-    System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>* _get_levelFinishedEvent();
-    // Set instance field: private System.Action`2<MultiplayerLevelScenesTransitionSetupDataSO,MultiplayerResultsData> levelFinishedEvent
-    void _set_levelFinishedEvent(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>* value);
-    // Get instance field: private System.Action`1<DisconnectedReason> levelDidGetDisconnectedEvent
-    System::Action_1<GlobalNamespace::DisconnectedReason>* _get_levelDidGetDisconnectedEvent();
-    // Set instance field: private System.Action`1<DisconnectedReason> levelDidGetDisconnectedEvent
-    void _set_levelDidGetDisconnectedEvent(System::Action_1<GlobalNamespace::DisconnectedReason>* value);
-    // Get instance field: private System.Action lobbyDisconnectedEvent
-    System::Action* _get_lobbyDisconnectedEvent();
-    // Set instance field: private System.Action lobbyDisconnectedEvent
-    void _set_lobbyDisconnectedEvent(System::Action* value);
-    // Get instance field: private System.Action beforeSceneSwitchCallbackEvent
-    System::Action* _get_beforeSceneSwitchCallbackEvent();
-    // Set instance field: private System.Action beforeSceneSwitchCallbackEvent
-    void _set_beforeSceneSwitchCallbackEvent(System::Action* value);
-    // Get instance field: private System.Action`1<MultiplayerLobbyState> lobbyStateChangedEvent
-    System::Action_1<GlobalNamespace::MultiplayerLobbyState>* _get_lobbyStateChangedEvent();
-    // Set instance field: private System.Action`1<MultiplayerLobbyState> lobbyStateChangedEvent
-    void _set_lobbyStateChangedEvent(System::Action_1<GlobalNamespace::MultiplayerLobbyState>* value);
-    // Get instance field: private System.Action`1<CannotStartGameReason> startButtonEnabledEvent
-    System::Action_1<GlobalNamespace::CannotStartGameReason>* _get_startButtonEnabledEvent();
-    // Set instance field: private System.Action`1<CannotStartGameReason> startButtonEnabledEvent
-    void _set_startButtonEnabledEvent(System::Action_1<GlobalNamespace::CannotStartGameReason>* value);
-    // Get instance field: private System.Action`1<PlayersMissingEntitlementsNetSerializable> playerMissingEntitlementsChangedEvent
-    System::Action_1<GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* _get_playerMissingEntitlementsChangedEvent();
-    // Set instance field: private System.Action`1<PlayersMissingEntitlementsNetSerializable> playerMissingEntitlementsChangedEvent
-    void _set_playerMissingEntitlementsChangedEvent(System::Action_1<GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* value);
-    // Get instance field: private System.Boolean <levelStartInitiated>k__BackingField
-    bool _get_$levelStartInitiated$k__BackingField();
-    // Set instance field: private System.Boolean <levelStartInitiated>k__BackingField
-    void _set_$levelStartInitiated$k__BackingField(bool value);
-    // Get instance field: private BeatmapIdentifierNetSerializable <startedBeatmapId>k__BackingField
-    GlobalNamespace::BeatmapIdentifierNetSerializable* _get_$startedBeatmapId$k__BackingField();
-    // Set instance field: private BeatmapIdentifierNetSerializable <startedBeatmapId>k__BackingField
-    void _set_$startedBeatmapId$k__BackingField(GlobalNamespace::BeatmapIdentifierNetSerializable* value);
-    // Get instance field: private System.Boolean <countdownStarted>k__BackingField
-    bool _get_$countdownStarted$k__BackingField();
-    // Set instance field: private System.Boolean <countdownStarted>k__BackingField
-    void _set_$countdownStarted$k__BackingField(bool value);
-    // Get instance field: private System.Single <countdownEndTime>k__BackingField
-    float _get_$countdownEndTime$k__BackingField();
-    // Set instance field: private System.Single <countdownEndTime>k__BackingField
-    void _set_$countdownEndTime$k__BackingField(float value);
-    // Get instance field: private System.Boolean <isDisconnected>k__BackingField
-    bool _get_$isDisconnected$k__BackingField();
-    // Set instance field: private System.Boolean <isDisconnected>k__BackingField
-    void _set_$isDisconnected$k__BackingField(bool value);
-    // Get instance field: private DisconnectedReason <disconnectedReason>k__BackingField
-    GlobalNamespace::DisconnectedReason _get_$disconnectedReason$k__BackingField();
-    // Set instance field: private DisconnectedReason <disconnectedReason>k__BackingField
-    void _set_$disconnectedReason$k__BackingField(GlobalNamespace::DisconnectedReason value);
-    // Get instance field: private System.Single _predictedStartTime
-    float _get__predictedStartTime();
-    // Set instance field: private System.Single _predictedStartTime
-    void _set__predictedStartTime(float value);
-    // Get instance field: private System.Single _startTime
-    float _get__startTime();
-    // Set instance field: private System.Single _startTime
-    void _set__startTime(float value);
-    // Get instance field: private System.Boolean _levelStartedOnTime
-    bool _get__levelStartedOnTime();
-    // Set instance field: private System.Boolean _levelStartedOnTime
-    void _set__levelStartedOnTime(bool value);
-    // Get instance field: private MultiplayerLobbyState _state
-    GlobalNamespace::MultiplayerLobbyState _get__state();
-    // Set instance field: private MultiplayerLobbyState _state
-    void _set__state(GlobalNamespace::MultiplayerLobbyState value);
-    // Get instance field: private CannotStartGameReason _cannotStartGameReason
-    GlobalNamespace::CannotStartGameReason _get__cannotStartGameReason();
-    // Set instance field: private CannotStartGameReason _cannotStartGameReason
-    void _set__cannotStartGameReason(GlobalNamespace::CannotStartGameReason value);
+    // Get instance field reference: private readonly ILobbyPlayersDataModel _lobbyPlayersDataModel
+    GlobalNamespace::ILobbyPlayersDataModel*& dyn__lobbyPlayersDataModel();
+    // Get instance field reference: private readonly PlayerDataModel _playerDataModel
+    GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
+    // Get instance field reference: private readonly IMenuRpcManager _menuRpcManager
+    GlobalNamespace::IMenuRpcManager*& dyn__menuRpcManager();
+    // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
+    // Get instance field reference: private readonly MultiplayerLevelLoader _multiplayerLevelLoader
+    GlobalNamespace::MultiplayerLevelLoader*& dyn__multiplayerLevelLoader();
+    // Get instance field reference: private readonly MenuTransitionsHelper _menuTransitionsHelper
+    GlobalNamespace::MenuTransitionsHelper*& dyn__menuTransitionsHelper();
+    // Get instance field reference: private readonly LobbyGameStateModel _lobbyGameStateModel
+    GlobalNamespace::LobbyGameStateModel*& dyn__lobbyGameStateModel();
+    // Get instance field reference: private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
+    GlobalNamespace::LobbyPlayerPermissionsModel*& dyn__lobbyPlayerPermissionsModel();
+    // Get instance field reference: private System.Action gameStartedEvent
+    System::Action*& dyn_gameStartedEvent();
+    // Get instance field reference: private System.Action gameStartCancelledEvent
+    System::Action*& dyn_gameStartCancelledEvent();
+    // Get instance field reference: private System.Action countdownStartedEvent
+    System::Action*& dyn_countdownStartedEvent();
+    // Get instance field reference: private System.Action countdownCancelledEvent
+    System::Action*& dyn_countdownCancelledEvent();
+    // Get instance field reference: private System.Action songStillDownloadingEvent
+    System::Action*& dyn_songStillDownloadingEvent();
+    // Get instance field reference: private System.Action startTimeChangedEvent
+    System::Action*& dyn_startTimeChangedEvent();
+    // Get instance field reference: private System.Action`2<MultiplayerLevelScenesTransitionSetupDataSO,MultiplayerResultsData> levelFinishedEvent
+    System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>*& dyn_levelFinishedEvent();
+    // Get instance field reference: private System.Action`1<DisconnectedReason> levelDidGetDisconnectedEvent
+    System::Action_1<GlobalNamespace::DisconnectedReason>*& dyn_levelDidGetDisconnectedEvent();
+    // Get instance field reference: private System.Action lobbyDisconnectedEvent
+    System::Action*& dyn_lobbyDisconnectedEvent();
+    // Get instance field reference: private System.Action beforeSceneSwitchCallbackEvent
+    System::Action*& dyn_beforeSceneSwitchCallbackEvent();
+    // Get instance field reference: private System.Action`1<MultiplayerLobbyState> lobbyStateChangedEvent
+    System::Action_1<GlobalNamespace::MultiplayerLobbyState>*& dyn_lobbyStateChangedEvent();
+    // Get instance field reference: private System.Action`1<CannotStartGameReason> startButtonEnabledEvent
+    System::Action_1<GlobalNamespace::CannotStartGameReason>*& dyn_startButtonEnabledEvent();
+    // Get instance field reference: private System.Action`1<PlayersMissingEntitlementsNetSerializable> playerMissingEntitlementsChangedEvent
+    System::Action_1<GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>*& dyn_playerMissingEntitlementsChangedEvent();
+    // Get instance field reference: private System.Boolean <levelStartInitiated>k__BackingField
+    bool& dyn_$levelStartInitiated$k__BackingField();
+    // Get instance field reference: private BeatmapIdentifierNetSerializable <startedBeatmapId>k__BackingField
+    GlobalNamespace::BeatmapIdentifierNetSerializable*& dyn_$startedBeatmapId$k__BackingField();
+    // Get instance field reference: private System.Boolean <countdownStarted>k__BackingField
+    bool& dyn_$countdownStarted$k__BackingField();
+    // Get instance field reference: private System.Single <countdownEndTime>k__BackingField
+    float& dyn_$countdownEndTime$k__BackingField();
+    // Get instance field reference: private System.Boolean <isDisconnected>k__BackingField
+    bool& dyn_$isDisconnected$k__BackingField();
+    // Get instance field reference: private DisconnectedReason <disconnectedReason>k__BackingField
+    GlobalNamespace::DisconnectedReason& dyn_$disconnectedReason$k__BackingField();
+    // Get instance field reference: private System.Single _predictedStartTime
+    float& dyn__predictedStartTime();
+    // Get instance field reference: private System.Single _startTime
+    float& dyn__startTime();
+    // Get instance field reference: private System.Boolean _levelStartedOnTime
+    bool& dyn__levelStartedOnTime();
+    // Get instance field reference: private MultiplayerLobbyState _state
+    GlobalNamespace::MultiplayerLobbyState& dyn__state();
+    // Get instance field reference: private CannotStartGameReason _cannotStartGameReason
+    GlobalNamespace::CannotStartGameReason& dyn__cannotStartGameReason();
     // public System.Single get_predictedCountdownEndTime()
     // Offset: 0x1203D74
     float get_predictedCountdownEndTime();

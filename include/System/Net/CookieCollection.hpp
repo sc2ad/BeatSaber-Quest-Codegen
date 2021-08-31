@@ -85,26 +85,16 @@ namespace System::Net {
     operator System::Collections::ICollection() noexcept {
       return *reinterpret_cast<System::Collections::ICollection*>(this);
     }
-    // Get instance field: System.Int32 m_version
-    int _get_m_version();
-    // Set instance field: System.Int32 m_version
-    void _set_m_version(int value);
-    // Get instance field: private System.Collections.ArrayList m_list
-    System::Collections::ArrayList* _get_m_list();
-    // Set instance field: private System.Collections.ArrayList m_list
-    void _set_m_list(System::Collections::ArrayList* value);
-    // Get instance field: private System.DateTime m_TimeStamp
-    System::DateTime _get_m_TimeStamp();
-    // Set instance field: private System.DateTime m_TimeStamp
-    void _set_m_TimeStamp(System::DateTime value);
-    // Get instance field: private System.Boolean m_has_other_versions
-    bool _get_m_has_other_versions();
-    // Set instance field: private System.Boolean m_has_other_versions
-    void _set_m_has_other_versions(bool value);
-    // Get instance field: private System.Boolean m_IsReadOnly
-    bool _get_m_IsReadOnly();
-    // Set instance field: private System.Boolean m_IsReadOnly
-    void _set_m_IsReadOnly(bool value);
+    // Get instance field reference: System.Int32 m_version
+    int& dyn_m_version();
+    // Get instance field reference: private System.Collections.ArrayList m_list
+    System::Collections::ArrayList*& dyn_m_list();
+    // Get instance field reference: private System.DateTime m_TimeStamp
+    System::DateTime& dyn_m_TimeStamp();
+    // Get instance field reference: private System.Boolean m_has_other_versions
+    bool& dyn_m_has_other_versions();
+    // Get instance field reference: private System.Boolean m_IsReadOnly
+    bool& dyn_m_IsReadOnly();
     // public System.Net.Cookie get_Item(System.Int32 index)
     // Offset: 0x16D2C28
     System::Net::Cookie* get_Item(int index);

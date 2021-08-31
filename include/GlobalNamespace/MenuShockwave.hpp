@@ -67,22 +67,14 @@ namespace GlobalNamespace {
     MenuShockwave(UnityEngine::ParticleSystem* shockwavePS_ = {}, VRUIControls::VRPointer* vrPointer_ = {}, ::Array<GlobalNamespace::Signal*>* buttonClickEvents_ = {}, UnityEngine::ParticleSystem::EmitParams shockwavePSEmitParams_ = {}) noexcept : shockwavePS{shockwavePS_}, vrPointer{vrPointer_}, buttonClickEvents{buttonClickEvents_}, shockwavePSEmitParams{shockwavePSEmitParams_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.ParticleSystem _shockwavePS
-    UnityEngine::ParticleSystem* _get__shockwavePS();
-    // Set instance field: private UnityEngine.ParticleSystem _shockwavePS
-    void _set__shockwavePS(UnityEngine::ParticleSystem* value);
-    // Get instance field: private VRUIControls.VRPointer _vrPointer
-    VRUIControls::VRPointer* _get__vrPointer();
-    // Set instance field: private VRUIControls.VRPointer _vrPointer
-    void _set__vrPointer(VRUIControls::VRPointer* value);
-    // Get instance field: private Signal[] _buttonClickEvents
-    ::Array<GlobalNamespace::Signal*>* _get__buttonClickEvents();
-    // Set instance field: private Signal[] _buttonClickEvents
-    void _set__buttonClickEvents(::Array<GlobalNamespace::Signal*>* value);
-    // Get instance field: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _shockwavePSEmitParams
-    UnityEngine::ParticleSystem::EmitParams _get__shockwavePSEmitParams();
-    // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _shockwavePSEmitParams
-    void _set__shockwavePSEmitParams(UnityEngine::ParticleSystem::EmitParams value);
+    // Get instance field reference: private UnityEngine.ParticleSystem _shockwavePS
+    UnityEngine::ParticleSystem*& dyn__shockwavePS();
+    // Get instance field reference: private VRUIControls.VRPointer _vrPointer
+    VRUIControls::VRPointer*& dyn__vrPointer();
+    // Get instance field reference: private Signal[] _buttonClickEvents
+    ::Array<GlobalNamespace::Signal*>*& dyn__buttonClickEvents();
+    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _shockwavePSEmitParams
+    UnityEngine::ParticleSystem::EmitParams& dyn__shockwavePSEmitParams();
     // protected System.Void Awake()
     // Offset: 0x10E65B4
     void Awake();

@@ -48,14 +48,10 @@ namespace GlobalNamespace {
     StandardLevelAnalytics(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData_ = {}, GlobalNamespace::IAnalyticsModel* analyticsModel_ = {}) noexcept : standardLevelScenesTransitionSetupData{standardLevelScenesTransitionSetupData_}, analyticsModel{analyticsModel_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private StandardLevelScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData
-    GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* _get__standardLevelScenesTransitionSetupData();
-    // Set instance field: private StandardLevelScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData
-    void _set__standardLevelScenesTransitionSetupData(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* value);
-    // Get instance field: private readonly IAnalyticsModel _analyticsModel
-    GlobalNamespace::IAnalyticsModel* _get__analyticsModel();
-    // Set instance field: private readonly IAnalyticsModel _analyticsModel
-    void _set__analyticsModel(GlobalNamespace::IAnalyticsModel* value);
+    // Get instance field reference: private StandardLevelScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData
+    GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*& dyn__standardLevelScenesTransitionSetupData();
+    // Get instance field reference: private readonly IAnalyticsModel _analyticsModel
+    GlobalNamespace::IAnalyticsModel*& dyn__analyticsModel();
     // protected System.Void Start()
     // Offset: 0x1084834
     void Start();

@@ -81,22 +81,14 @@ namespace UnityEngine::ProBuilder {
     static float _get_k_AreaError();
     // Set static field: static System.Single k_AreaError
     static void _set_k_AreaError(float value);
-    // Get instance field: private System.Single m_HardAngle
-    float _get_m_HardAngle();
-    // Set instance field: private System.Single m_HardAngle
-    void _set_m_HardAngle(float value);
-    // Get instance field: private System.Single m_PackMargin
-    float _get_m_PackMargin();
-    // Set instance field: private System.Single m_PackMargin
-    void _set_m_PackMargin(float value);
-    // Get instance field: private System.Single m_AngleError
-    float _get_m_AngleError();
-    // Set instance field: private System.Single m_AngleError
-    void _set_m_AngleError(float value);
-    // Get instance field: private System.Single m_AreaError
-    float _get_m_AreaError();
-    // Set instance field: private System.Single m_AreaError
-    void _set_m_AreaError(float value);
+    // Get instance field reference: private System.Single m_HardAngle
+    float& dyn_m_HardAngle();
+    // Get instance field reference: private System.Single m_PackMargin
+    float& dyn_m_PackMargin();
+    // Get instance field reference: private System.Single m_AngleError
+    float& dyn_m_AngleError();
+    // Get instance field reference: private System.Single m_AreaError
+    float& dyn_m_AreaError();
     // public System.Single get_hardAngle()
     // Offset: 0x22CCDF0
     float get_hardAngle();

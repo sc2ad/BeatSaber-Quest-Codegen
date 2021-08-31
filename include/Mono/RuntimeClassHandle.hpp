@@ -48,10 +48,8 @@ namespace Mono {
     constexpr operator Mono::RuntimeStructs::MonoClass*() const noexcept {
       return value;
     }
-    // Get instance field: private Mono.RuntimeStructs/Mono.MonoClass* value
-    Mono::RuntimeStructs::MonoClass* _get_value();
-    // Set instance field: private Mono.RuntimeStructs/Mono.MonoClass* value
-    void _set_value(Mono::RuntimeStructs::MonoClass* value);
+    // Get instance field reference: private Mono.RuntimeStructs/Mono.MonoClass* value
+    Mono::RuntimeStructs::MonoClass*& dyn_value();
     // Mono.RuntimeStructs/Mono.MonoClass* get_Value()
     // Offset: 0x1A73510
     Mono::RuntimeStructs::MonoClass* get_Value();

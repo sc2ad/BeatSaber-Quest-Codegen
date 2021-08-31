@@ -40,10 +40,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     static int _get_SecretSize();
     // Set static field: static public readonly System.Int32 SecretSize
     static void _set_SecretSize(int value);
-    // Get instance field: private readonly System.Byte[] data
-    ::Array<uint8_t>* _get_data();
-    // Set instance field: private readonly System.Byte[] data
-    void _set_data(::Array<uint8_t>* value);
+    // Get instance field reference: private readonly System.Byte[] data
+    ::Array<uint8_t>*& dyn_data();
     // public System.Void .ctor(System.Byte[] buf, System.Int32 off)
     // Offset: 0x1277460
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

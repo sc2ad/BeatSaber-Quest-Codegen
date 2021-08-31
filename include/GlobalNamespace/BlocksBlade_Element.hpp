@@ -34,14 +34,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: Element
     Element(int idx_ = {}, float velocity_ = {}) noexcept : idx{idx_}, velocity{velocity_} {}
-    // Get instance field: public System.Int32 idx
-    int _get_idx();
-    // Set instance field: public System.Int32 idx
-    void _set_idx(int value);
-    // Get instance field: public System.Single velocity
-    float _get_velocity();
-    // Set instance field: public System.Single velocity
-    void _set_velocity(float value);
+    // Get instance field reference: public System.Int32 idx
+    int& dyn_idx();
+    // Get instance field reference: public System.Single velocity
+    float& dyn_velocity();
     // public System.Void .ctor()
     // Offset: 0x10D0ECC
     // Implemented from: System.Object

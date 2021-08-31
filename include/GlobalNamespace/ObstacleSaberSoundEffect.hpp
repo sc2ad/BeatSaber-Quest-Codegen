@@ -76,26 +76,16 @@ namespace GlobalNamespace {
     static float _get_kSmooth();
     // Set static field: static private System.Single kSmooth
     static void _set_kSmooth(float value);
-    // Get instance field: private ObstacleSaberSparkleEffectManager _obstacleSaberSparkleEffectManager
-    GlobalNamespace::ObstacleSaberSparkleEffectManager* _get__obstacleSaberSparkleEffectManager();
-    // Set instance field: private ObstacleSaberSparkleEffectManager _obstacleSaberSparkleEffectManager
-    void _set__obstacleSaberSparkleEffectManager(GlobalNamespace::ObstacleSaberSparkleEffectManager* value);
-    // Get instance field: private SaberType _saberType
-    GlobalNamespace::SaberType _get__saberType();
-    // Set instance field: private SaberType _saberType
-    void _set__saberType(GlobalNamespace::SaberType value);
-    // Get instance field: private UnityEngine.AudioSource _audioSource
-    UnityEngine::AudioSource* _get__audioSource();
-    // Set instance field: private UnityEngine.AudioSource _audioSource
-    void _set__audioSource(UnityEngine::AudioSource* value);
-    // Get instance field: private System.Single _volume
-    float _get__volume();
-    // Set instance field: private System.Single _volume
-    void _set__volume(float value);
-    // Get instance field: private System.Single _targetVolume
-    float _get__targetVolume();
-    // Set instance field: private System.Single _targetVolume
-    void _set__targetVolume(float value);
+    // Get instance field reference: private ObstacleSaberSparkleEffectManager _obstacleSaberSparkleEffectManager
+    GlobalNamespace::ObstacleSaberSparkleEffectManager*& dyn__obstacleSaberSparkleEffectManager();
+    // Get instance field reference: private SaberType _saberType
+    GlobalNamespace::SaberType& dyn__saberType();
+    // Get instance field reference: private UnityEngine.AudioSource _audioSource
+    UnityEngine::AudioSource*& dyn__audioSource();
+    // Get instance field reference: private System.Single _volume
+    float& dyn__volume();
+    // Get instance field reference: private System.Single _targetVolume
+    float& dyn__targetVolume();
     // protected System.Void Awake()
     // Offset: 0x1232CE0
     void Awake();

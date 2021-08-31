@@ -63,26 +63,16 @@ namespace System::Net {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: CallbackContext
     CallbackContext(::Il2CppObject* request_ = {}, System::Security::Cryptography::X509Certificates::X509Certificate* certificate_ = {}, System::Security::Cryptography::X509Certificates::X509Chain* chain_ = {}, System::Net::Security::SslPolicyErrors sslPolicyErrors_ = {}, bool result_ = {}) noexcept : request{request_}, certificate{certificate_}, chain{chain_}, sslPolicyErrors{sslPolicyErrors_}, result{result_} {}
-    // Get instance field: readonly System.Object request
-    ::Il2CppObject* _get_request();
-    // Set instance field: readonly System.Object request
-    void _set_request(::Il2CppObject* value);
-    // Get instance field: readonly System.Security.Cryptography.X509Certificates.X509Certificate certificate
-    System::Security::Cryptography::X509Certificates::X509Certificate* _get_certificate();
-    // Set instance field: readonly System.Security.Cryptography.X509Certificates.X509Certificate certificate
-    void _set_certificate(System::Security::Cryptography::X509Certificates::X509Certificate* value);
-    // Get instance field: readonly System.Security.Cryptography.X509Certificates.X509Chain chain
-    System::Security::Cryptography::X509Certificates::X509Chain* _get_chain();
-    // Set instance field: readonly System.Security.Cryptography.X509Certificates.X509Chain chain
-    void _set_chain(System::Security::Cryptography::X509Certificates::X509Chain* value);
-    // Get instance field: readonly System.Net.Security.SslPolicyErrors sslPolicyErrors
-    System::Net::Security::SslPolicyErrors _get_sslPolicyErrors();
-    // Set instance field: readonly System.Net.Security.SslPolicyErrors sslPolicyErrors
-    void _set_sslPolicyErrors(System::Net::Security::SslPolicyErrors value);
-    // Get instance field: System.Boolean result
-    bool _get_result();
-    // Set instance field: System.Boolean result
-    void _set_result(bool value);
+    // Get instance field reference: readonly System.Object request
+    ::Il2CppObject*& dyn_request();
+    // Get instance field reference: readonly System.Security.Cryptography.X509Certificates.X509Certificate certificate
+    System::Security::Cryptography::X509Certificates::X509Certificate*& dyn_certificate();
+    // Get instance field reference: readonly System.Security.Cryptography.X509Certificates.X509Chain chain
+    System::Security::Cryptography::X509Certificates::X509Chain*& dyn_chain();
+    // Get instance field reference: readonly System.Net.Security.SslPolicyErrors sslPolicyErrors
+    System::Net::Security::SslPolicyErrors& dyn_sslPolicyErrors();
+    // Get instance field reference: System.Boolean result
+    bool& dyn_result();
     // System.Void .ctor(System.Object request, System.Security.Cryptography.X509Certificates.X509Certificate certificate, System.Security.Cryptography.X509Certificates.X509Chain chain, System.Net.Security.SslPolicyErrors sslPolicyErrors)
     // Offset: 0x14A08F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

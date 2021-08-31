@@ -107,34 +107,20 @@ namespace GlobalNamespace {
     static int _get_kMaxNumberOfCells();
     // Set static field: static private System.Int32 kMaxNumberOfCells
     static void _set_kMaxNumberOfCells(int value);
-    // Get instance field: private LocalLeaderboardsModel _localLeaderboardsModel
-    GlobalNamespace::LocalLeaderboardsModel* _get__localLeaderboardsModel();
-    // Set instance field: private LocalLeaderboardsModel _localLeaderboardsModel
-    void _set__localLeaderboardsModel(GlobalNamespace::LocalLeaderboardsModel* value);
-    // Get instance field: private UnityEngine.UI.Button _playButton
-    UnityEngine::UI::Button* _get__playButton();
-    // Set instance field: private UnityEngine.UI.Button _playButton
-    void _set__playButton(UnityEngine::UI::Button* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _songNameText
-    TMPro::TextMeshProUGUI* _get__songNameText();
-    // Set instance field: private TMPro.TextMeshProUGUI _songNameText
-    void _set__songNameText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _difficultyText
-    TMPro::TextMeshProUGUI* _get__difficultyText();
-    // Set instance field: private TMPro.TextMeshProUGUI _difficultyText
-    void _set__difficultyText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private LocalLeaderboardTableView _localLeaderboardTableView
-    GlobalNamespace::LocalLeaderboardTableView* _get__localLeaderboardTableView();
-    // Set instance field: private LocalLeaderboardTableView _localLeaderboardTableView
-    void _set__localLeaderboardTableView(GlobalNamespace::LocalLeaderboardTableView* value);
-    // Get instance field: private System.Action`1<DemoMenuLevelPanelView> playButtonWasPressedEvent
-    System::Action_1<GlobalNamespace::DemoMenuLevelPanelView*>* _get_playButtonWasPressedEvent();
-    // Set instance field: private System.Action`1<DemoMenuLevelPanelView> playButtonWasPressedEvent
-    void _set_playButtonWasPressedEvent(System::Action_1<GlobalNamespace::DemoMenuLevelPanelView*>* value);
-    // Get instance field: private HMUI.ButtonBinder _buttonBinder
-    HMUI::ButtonBinder* _get__buttonBinder();
-    // Set instance field: private HMUI.ButtonBinder _buttonBinder
-    void _set__buttonBinder(HMUI::ButtonBinder* value);
+    // Get instance field reference: private LocalLeaderboardsModel _localLeaderboardsModel
+    GlobalNamespace::LocalLeaderboardsModel*& dyn__localLeaderboardsModel();
+    // Get instance field reference: private UnityEngine.UI.Button _playButton
+    UnityEngine::UI::Button*& dyn__playButton();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _songNameText
+    TMPro::TextMeshProUGUI*& dyn__songNameText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _difficultyText
+    TMPro::TextMeshProUGUI*& dyn__difficultyText();
+    // Get instance field reference: private LocalLeaderboardTableView _localLeaderboardTableView
+    GlobalNamespace::LocalLeaderboardTableView*& dyn__localLeaderboardTableView();
+    // Get instance field reference: private System.Action`1<DemoMenuLevelPanelView> playButtonWasPressedEvent
+    System::Action_1<GlobalNamespace::DemoMenuLevelPanelView*>*& dyn_playButtonWasPressedEvent();
+    // Get instance field reference: private HMUI.ButtonBinder _buttonBinder
+    HMUI::ButtonBinder*& dyn__buttonBinder();
     // public System.Void add_playButtonWasPressedEvent(System.Action`1<DemoMenuLevelPanelView> value)
     // Offset: 0x10FABF0
     void add_playButtonWasPressedEvent(System::Action_1<GlobalNamespace::DemoMenuLevelPanelView*>* value);

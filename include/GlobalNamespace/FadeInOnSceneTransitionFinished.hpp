@@ -54,14 +54,10 @@ namespace GlobalNamespace {
     FadeInOnSceneTransitionFinished(GlobalNamespace::FadeInOutController* fadeInOut_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}) noexcept : fadeInOut{fadeInOut_}, gameScenesManager{gameScenesManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private FadeInOutController _fadeInOut
-    GlobalNamespace::FadeInOutController* _get__fadeInOut();
-    // Set instance field: private FadeInOutController _fadeInOut
-    void _set__fadeInOut(GlobalNamespace::FadeInOutController* value);
-    // Get instance field: private GameScenesManager _gameScenesManager
-    GlobalNamespace::GameScenesManager* _get__gameScenesManager();
-    // Set instance field: private GameScenesManager _gameScenesManager
-    void _set__gameScenesManager(GlobalNamespace::GameScenesManager* value);
+    // Get instance field reference: private FadeInOutController _fadeInOut
+    GlobalNamespace::FadeInOutController*& dyn__fadeInOut();
+    // Get instance field reference: private GameScenesManager _gameScenesManager
+    GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
     // protected System.Void OnEnable()
     // Offset: 0x2390514
     void OnEnable();

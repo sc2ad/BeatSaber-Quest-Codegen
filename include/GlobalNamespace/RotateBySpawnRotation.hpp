@@ -80,34 +80,20 @@ namespace GlobalNamespace {
     RotateBySpawnRotation(float aheadTime_ = {}, float smooth_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, GlobalNamespace::SpawnRotationProcessor* spawnRotationProcessor_ = {}, GlobalNamespace::BeatmapEventCallbackData* eventCallbackData_ = {}, float currentRotation_ = {}, float prevRotation_ = {}) noexcept : aheadTime{aheadTime_}, smooth{smooth_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, spawnRotationProcessor{spawnRotationProcessor_}, eventCallbackData{eventCallbackData_}, currentRotation{currentRotation_}, prevRotation{prevRotation_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Single _aheadTime
-    float _get__aheadTime();
-    // Set instance field: private System.Single _aheadTime
-    void _set__aheadTime(float value);
-    // Get instance field: private System.Single _smooth
-    float _get__smooth();
-    // Set instance field: private System.Single _smooth
-    void _set__smooth(float value);
-    // Get instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
-    GlobalNamespace::IBeatmapObjectCallbackController* _get__beatmapObjectCallbackController();
-    // Set instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
-    void _set__beatmapObjectCallbackController(GlobalNamespace::IBeatmapObjectCallbackController* value);
-    // Get instance field: private readonly SpawnRotationProcessor _spawnRotationProcessor
-    GlobalNamespace::SpawnRotationProcessor* _get__spawnRotationProcessor();
-    // Set instance field: private readonly SpawnRotationProcessor _spawnRotationProcessor
-    void _set__spawnRotationProcessor(GlobalNamespace::SpawnRotationProcessor* value);
-    // Get instance field: private BeatmapEventCallbackData _eventCallbackData
-    GlobalNamespace::BeatmapEventCallbackData* _get__eventCallbackData();
-    // Set instance field: private BeatmapEventCallbackData _eventCallbackData
-    void _set__eventCallbackData(GlobalNamespace::BeatmapEventCallbackData* value);
-    // Get instance field: private System.Single _currentRotation
-    float _get__currentRotation();
-    // Set instance field: private System.Single _currentRotation
-    void _set__currentRotation(float value);
-    // Get instance field: private System.Single _prevRotation
-    float _get__prevRotation();
-    // Set instance field: private System.Single _prevRotation
-    void _set__prevRotation(float value);
+    // Get instance field reference: private System.Single _aheadTime
+    float& dyn__aheadTime();
+    // Get instance field reference: private System.Single _smooth
+    float& dyn__smooth();
+    // Get instance field reference: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    GlobalNamespace::IBeatmapObjectCallbackController*& dyn__beatmapObjectCallbackController();
+    // Get instance field reference: private readonly SpawnRotationProcessor _spawnRotationProcessor
+    GlobalNamespace::SpawnRotationProcessor*& dyn__spawnRotationProcessor();
+    // Get instance field reference: private BeatmapEventCallbackData _eventCallbackData
+    GlobalNamespace::BeatmapEventCallbackData*& dyn__eventCallbackData();
+    // Get instance field reference: private System.Single _currentRotation
+    float& dyn__currentRotation();
+    // Get instance field reference: private System.Single _prevRotation
+    float& dyn__prevRotation();
     // protected System.Void Awake()
     // Offset: 0x118EA7C
     void Awake();

@@ -65,18 +65,12 @@ namespace UnityEngine::Timeline {
     operator UnityEngine::Timeline::ITimelineEvaluateCallback() noexcept {
       return *reinterpret_cast<UnityEngine::Timeline::ITimelineEvaluateCallback*>(this);
     }
-    // Get instance field: private UnityEngine.Animations.AnimationPlayableOutput m_Output
-    UnityEngine::Animations::AnimationPlayableOutput _get_m_Output();
-    // Set instance field: private UnityEngine.Animations.AnimationPlayableOutput m_Output
-    void _set_m_Output(UnityEngine::Animations::AnimationPlayableOutput value);
-    // Get instance field: private UnityEngine.Playables.PlayableGraph m_Graph
-    UnityEngine::Playables::PlayableGraph _get_m_Graph();
-    // Set instance field: private UnityEngine.Playables.PlayableGraph m_Graph
-    void _set_m_Graph(UnityEngine::Playables::PlayableGraph value);
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.Experimental.Animations.IAnimationWindowPreview> m_PreviewComponents
-    System::Collections::Generic::List_1<UnityEngine::Experimental::Animations::IAnimationWindowPreview*>* _get_m_PreviewComponents();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Experimental.Animations.IAnimationWindowPreview> m_PreviewComponents
-    void _set_m_PreviewComponents(System::Collections::Generic::List_1<UnityEngine::Experimental::Animations::IAnimationWindowPreview*>* value);
+    // Get instance field reference: private UnityEngine.Animations.AnimationPlayableOutput m_Output
+    UnityEngine::Animations::AnimationPlayableOutput& dyn_m_Output();
+    // Get instance field reference: private UnityEngine.Playables.PlayableGraph m_Graph
+    UnityEngine::Playables::PlayableGraph& dyn_m_Graph();
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Experimental.Animations.IAnimationWindowPreview> m_PreviewComponents
+    System::Collections::Generic::List_1<UnityEngine::Experimental::Animations::IAnimationWindowPreview*>*& dyn_m_PreviewComponents();
     // public System.Void .ctor(UnityEngine.Animations.AnimationPlayableOutput output)
     // Offset: 0x18167B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

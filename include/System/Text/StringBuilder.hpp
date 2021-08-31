@@ -116,26 +116,16 @@ namespace System::Text {
     static int _get_MaxChunkSize();
     // Set static field: static System.Int32 MaxChunkSize
     static void _set_MaxChunkSize(int value);
-    // Get instance field: System.Char[] m_ChunkChars
-    ::Array<::Il2CppChar>* _get_m_ChunkChars();
-    // Set instance field: System.Char[] m_ChunkChars
-    void _set_m_ChunkChars(::Array<::Il2CppChar>* value);
-    // Get instance field: System.Text.StringBuilder m_ChunkPrevious
-    System::Text::StringBuilder* _get_m_ChunkPrevious();
-    // Set instance field: System.Text.StringBuilder m_ChunkPrevious
-    void _set_m_ChunkPrevious(System::Text::StringBuilder* value);
-    // Get instance field: System.Int32 m_ChunkLength
-    int _get_m_ChunkLength();
-    // Set instance field: System.Int32 m_ChunkLength
-    void _set_m_ChunkLength(int value);
-    // Get instance field: System.Int32 m_ChunkOffset
-    int _get_m_ChunkOffset();
-    // Set instance field: System.Int32 m_ChunkOffset
-    void _set_m_ChunkOffset(int value);
-    // Get instance field: System.Int32 m_MaxCapacity
-    int _get_m_MaxCapacity();
-    // Set instance field: System.Int32 m_MaxCapacity
-    void _set_m_MaxCapacity(int value);
+    // Get instance field reference: System.Char[] m_ChunkChars
+    ::Array<::Il2CppChar>*& dyn_m_ChunkChars();
+    // Get instance field reference: System.Text.StringBuilder m_ChunkPrevious
+    System::Text::StringBuilder*& dyn_m_ChunkPrevious();
+    // Get instance field reference: System.Int32 m_ChunkLength
+    int& dyn_m_ChunkLength();
+    // Get instance field reference: System.Int32 m_ChunkOffset
+    int& dyn_m_ChunkOffset();
+    // Get instance field reference: System.Int32 m_MaxCapacity
+    int& dyn_m_MaxCapacity();
     // public System.Int32 get_Capacity()
     // Offset: 0x1D76C7C
     int get_Capacity();

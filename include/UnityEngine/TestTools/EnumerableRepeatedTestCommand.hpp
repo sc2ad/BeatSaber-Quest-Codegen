@@ -55,10 +55,8 @@ namespace UnityEngine::TestTools {
     operator UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand() noexcept {
       return *reinterpret_cast<UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*>(this);
     }
-    // Get instance field: private System.Int32 repeatCount
-    int _get_repeatCount();
-    // Set instance field: private System.Int32 repeatCount
-    void _set_repeatCount(int value);
+    // Get instance field reference: private System.Int32 repeatCount
+    int& dyn_repeatCount();
     // public System.Void .ctor(NUnit.Framework.RepeatAttribute/NUnit.Framework.RepeatedTestCommand commandToReplace)
     // Offset: 0x14B7130
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

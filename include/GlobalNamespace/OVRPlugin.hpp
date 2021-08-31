@@ -387,10 +387,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVRPlugin::XrApi _get_EnumSize();
       // Set static field: static public OVRPlugin/XrApi EnumSize
       static void _set_EnumSize(GlobalNamespace::OVRPlugin::XrApi value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // OVRPlugin/XrApi
     #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::XrApi), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_XrApiSizeCheck;
@@ -430,18 +428,12 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVRPlugin::Vector3f _get_zero();
       // Set static field: static public readonly OVRPlugin/Vector3f zero
       static void _set_zero(GlobalNamespace::OVRPlugin::Vector3f value);
-      // Get instance field: public System.Single x
-      float _get_x();
-      // Set instance field: public System.Single x
-      void _set_x(float value);
-      // Get instance field: public System.Single y
-      float _get_y();
-      // Set instance field: public System.Single y
-      void _set_y(float value);
-      // Get instance field: public System.Single z
-      float _get_z();
-      // Set instance field: public System.Single z
-      void _set_z(float value);
+      // Get instance field reference: public System.Single x
+      float& dyn_x();
+      // Get instance field reference: public System.Single y
+      float& dyn_y();
+      // Get instance field reference: public System.Single z
+      float& dyn_z();
       // static private System.Void .cctor()
       // Offset: 0x1632E88
       static void _cctor();
@@ -495,22 +487,14 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVRPlugin::Quatf _get_identity();
       // Set static field: static public readonly OVRPlugin/Quatf identity
       static void _set_identity(GlobalNamespace::OVRPlugin::Quatf value);
-      // Get instance field: public System.Single x
-      float _get_x();
-      // Set instance field: public System.Single x
-      void _set_x(float value);
-      // Get instance field: public System.Single y
-      float _get_y();
-      // Set instance field: public System.Single y
-      void _set_y(float value);
-      // Get instance field: public System.Single z
-      float _get_z();
-      // Set instance field: public System.Single z
-      void _set_z(float value);
-      // Get instance field: public System.Single w
-      float _get_w();
-      // Set instance field: public System.Single w
-      void _set_w(float value);
+      // Get instance field reference: public System.Single x
+      float& dyn_x();
+      // Get instance field reference: public System.Single y
+      float& dyn_y();
+      // Get instance field reference: public System.Single z
+      float& dyn_z();
+      // Get instance field reference: public System.Single w
+      float& dyn_w();
       // static private System.Void .cctor()
       // Offset: 0x16329A4
       static void _cctor();
@@ -552,14 +536,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVRPlugin::Posef _get_identity();
       // Set static field: static public readonly OVRPlugin/Posef identity
       static void _set_identity(GlobalNamespace::OVRPlugin::Posef value);
-      // Get instance field: public OVRPlugin/Quatf Orientation
-      GlobalNamespace::OVRPlugin::Quatf _get_Orientation();
-      // Set instance field: public OVRPlugin/Quatf Orientation
-      void _set_Orientation(GlobalNamespace::OVRPlugin::Quatf value);
-      // Get instance field: public OVRPlugin/Vector3f Position
-      GlobalNamespace::OVRPlugin::Vector3f _get_Position();
-      // Set instance field: public OVRPlugin/Vector3f Position
-      void _set_Position(GlobalNamespace::OVRPlugin::Vector3f value);
+      // Get instance field reference: public OVRPlugin/Quatf Orientation
+      GlobalNamespace::OVRPlugin::Quatf& dyn_Orientation();
+      // Get instance field reference: public OVRPlugin/Vector3f Position
+      GlobalNamespace::OVRPlugin::Vector3f& dyn_Position();
       // static private System.Void .cctor()
       // Offset: 0x16326FC
       static void _cctor();
@@ -606,10 +586,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVRPlugin::TrackingConfidence _get_High();
       // Set static field: static public OVRPlugin/TrackingConfidence High
       static void _set_High(GlobalNamespace::OVRPlugin::TrackingConfidence value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // OVRPlugin/TrackingConfidence
     #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::TrackingConfidence), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_TrackingConfidenceSizeCheck;
@@ -667,10 +645,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVRPlugin::HandStatus _get_MenuPressed();
       // Set static field: static public OVRPlugin/HandStatus MenuPressed
       static void _set_MenuPressed(GlobalNamespace::OVRPlugin::HandStatus value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // OVRPlugin/HandStatus
     #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::HandStatus), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_HandStatusSizeCheck;
@@ -871,10 +847,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVRPlugin::BoneId _get_Max();
       // Set static field: static public OVRPlugin/BoneId Max
       static void _set_Max(GlobalNamespace::OVRPlugin::BoneId value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // OVRPlugin/BoneId
     #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::BoneId), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_BoneIdSizeCheck;
@@ -932,10 +906,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVRPlugin::HandFingerPinch _get_Pinky();
       // Set static field: static public OVRPlugin/HandFingerPinch Pinky
       static void _set_Pinky(GlobalNamespace::OVRPlugin::HandFingerPinch value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // OVRPlugin/HandFingerPinch
     #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::HandFingerPinch), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_HandFingerPinchSizeCheck;
@@ -1205,174 +1177,90 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public OVRPlugin/HandStatus Status
-      GlobalNamespace::OVRPlugin::HandStatus _get_Status();
-      // Set instance field: public OVRPlugin/HandStatus Status
-      void _set_Status(GlobalNamespace::OVRPlugin::HandStatus value);
-      // Get instance field: public OVRPlugin/Posef RootPose
-      GlobalNamespace::OVRPlugin::Posef _get_RootPose();
-      // Set instance field: public OVRPlugin/Posef RootPose
-      void _set_RootPose(GlobalNamespace::OVRPlugin::Posef value);
-      // Get instance field: public OVRPlugin/Quatf BoneRotations_0
-      GlobalNamespace::OVRPlugin::Quatf _get_BoneRotations_0();
-      // Set instance field: public OVRPlugin/Quatf BoneRotations_0
-      void _set_BoneRotations_0(GlobalNamespace::OVRPlugin::Quatf value);
-      // Get instance field: public OVRPlugin/Quatf BoneRotations_1
-      GlobalNamespace::OVRPlugin::Quatf _get_BoneRotations_1();
-      // Set instance field: public OVRPlugin/Quatf BoneRotations_1
-      void _set_BoneRotations_1(GlobalNamespace::OVRPlugin::Quatf value);
-      // Get instance field: public OVRPlugin/Quatf BoneRotations_2
-      GlobalNamespace::OVRPlugin::Quatf _get_BoneRotations_2();
-      // Set instance field: public OVRPlugin/Quatf BoneRotations_2
-      void _set_BoneRotations_2(GlobalNamespace::OVRPlugin::Quatf value);
-      // Get instance field: public OVRPlugin/Quatf BoneRotations_3
-      GlobalNamespace::OVRPlugin::Quatf _get_BoneRotations_3();
-      // Set instance field: public OVRPlugin/Quatf BoneRotations_3
-      void _set_BoneRotations_3(GlobalNamespace::OVRPlugin::Quatf value);
-      // Get instance field: public OVRPlugin/Quatf BoneRotations_4
-      GlobalNamespace::OVRPlugin::Quatf _get_BoneRotations_4();
-      // Set instance field: public OVRPlugin/Quatf BoneRotations_4
-      void _set_BoneRotations_4(GlobalNamespace::OVRPlugin::Quatf value);
-      // Get instance field: public OVRPlugin/Quatf BoneRotations_5
-      GlobalNamespace::OVRPlugin::Quatf _get_BoneRotations_5();
-      // Set instance field: public OVRPlugin/Quatf BoneRotations_5
-      void _set_BoneRotations_5(GlobalNamespace::OVRPlugin::Quatf value);
-      // Get instance field: public OVRPlugin/Quatf BoneRotations_6
-      GlobalNamespace::OVRPlugin::Quatf _get_BoneRotations_6();
-      // Set instance field: public OVRPlugin/Quatf BoneRotations_6
-      void _set_BoneRotations_6(GlobalNamespace::OVRPlugin::Quatf value);
-      // Get instance field: public OVRPlugin/Quatf BoneRotations_7
-      GlobalNamespace::OVRPlugin::Quatf _get_BoneRotations_7();
-      // Set instance field: public OVRPlugin/Quatf BoneRotations_7
-      void _set_BoneRotations_7(GlobalNamespace::OVRPlugin::Quatf value);
-      // Get instance field: public OVRPlugin/Quatf BoneRotations_8
-      GlobalNamespace::OVRPlugin::Quatf _get_BoneRotations_8();
-      // Set instance field: public OVRPlugin/Quatf BoneRotations_8
-      void _set_BoneRotations_8(GlobalNamespace::OVRPlugin::Quatf value);
-      // Get instance field: public OVRPlugin/Quatf BoneRotations_9
-      GlobalNamespace::OVRPlugin::Quatf _get_BoneRotations_9();
-      // Set instance field: public OVRPlugin/Quatf BoneRotations_9
-      void _set_BoneRotations_9(GlobalNamespace::OVRPlugin::Quatf value);
-      // Get instance field: public OVRPlugin/Quatf BoneRotations_10
-      GlobalNamespace::OVRPlugin::Quatf _get_BoneRotations_10();
-      // Set instance field: public OVRPlugin/Quatf BoneRotations_10
-      void _set_BoneRotations_10(GlobalNamespace::OVRPlugin::Quatf value);
-      // Get instance field: public OVRPlugin/Quatf BoneRotations_11
-      GlobalNamespace::OVRPlugin::Quatf _get_BoneRotations_11();
-      // Set instance field: public OVRPlugin/Quatf BoneRotations_11
-      void _set_BoneRotations_11(GlobalNamespace::OVRPlugin::Quatf value);
-      // Get instance field: public OVRPlugin/Quatf BoneRotations_12
-      GlobalNamespace::OVRPlugin::Quatf _get_BoneRotations_12();
-      // Set instance field: public OVRPlugin/Quatf BoneRotations_12
-      void _set_BoneRotations_12(GlobalNamespace::OVRPlugin::Quatf value);
-      // Get instance field: public OVRPlugin/Quatf BoneRotations_13
-      GlobalNamespace::OVRPlugin::Quatf _get_BoneRotations_13();
-      // Set instance field: public OVRPlugin/Quatf BoneRotations_13
-      void _set_BoneRotations_13(GlobalNamespace::OVRPlugin::Quatf value);
-      // Get instance field: public OVRPlugin/Quatf BoneRotations_14
-      GlobalNamespace::OVRPlugin::Quatf _get_BoneRotations_14();
-      // Set instance field: public OVRPlugin/Quatf BoneRotations_14
-      void _set_BoneRotations_14(GlobalNamespace::OVRPlugin::Quatf value);
-      // Get instance field: public OVRPlugin/Quatf BoneRotations_15
-      GlobalNamespace::OVRPlugin::Quatf _get_BoneRotations_15();
-      // Set instance field: public OVRPlugin/Quatf BoneRotations_15
-      void _set_BoneRotations_15(GlobalNamespace::OVRPlugin::Quatf value);
-      // Get instance field: public OVRPlugin/Quatf BoneRotations_16
-      GlobalNamespace::OVRPlugin::Quatf _get_BoneRotations_16();
-      // Set instance field: public OVRPlugin/Quatf BoneRotations_16
-      void _set_BoneRotations_16(GlobalNamespace::OVRPlugin::Quatf value);
-      // Get instance field: public OVRPlugin/Quatf BoneRotations_17
-      GlobalNamespace::OVRPlugin::Quatf _get_BoneRotations_17();
-      // Set instance field: public OVRPlugin/Quatf BoneRotations_17
-      void _set_BoneRotations_17(GlobalNamespace::OVRPlugin::Quatf value);
-      // Get instance field: public OVRPlugin/Quatf BoneRotations_18
-      GlobalNamespace::OVRPlugin::Quatf _get_BoneRotations_18();
-      // Set instance field: public OVRPlugin/Quatf BoneRotations_18
-      void _set_BoneRotations_18(GlobalNamespace::OVRPlugin::Quatf value);
-      // Get instance field: public OVRPlugin/Quatf BoneRotations_19
-      GlobalNamespace::OVRPlugin::Quatf _get_BoneRotations_19();
-      // Set instance field: public OVRPlugin/Quatf BoneRotations_19
-      void _set_BoneRotations_19(GlobalNamespace::OVRPlugin::Quatf value);
-      // Get instance field: public OVRPlugin/Quatf BoneRotations_20
-      GlobalNamespace::OVRPlugin::Quatf _get_BoneRotations_20();
-      // Set instance field: public OVRPlugin/Quatf BoneRotations_20
-      void _set_BoneRotations_20(GlobalNamespace::OVRPlugin::Quatf value);
-      // Get instance field: public OVRPlugin/Quatf BoneRotations_21
-      GlobalNamespace::OVRPlugin::Quatf _get_BoneRotations_21();
-      // Set instance field: public OVRPlugin/Quatf BoneRotations_21
-      void _set_BoneRotations_21(GlobalNamespace::OVRPlugin::Quatf value);
-      // Get instance field: public OVRPlugin/Quatf BoneRotations_22
-      GlobalNamespace::OVRPlugin::Quatf _get_BoneRotations_22();
-      // Set instance field: public OVRPlugin/Quatf BoneRotations_22
-      void _set_BoneRotations_22(GlobalNamespace::OVRPlugin::Quatf value);
-      // Get instance field: public OVRPlugin/Quatf BoneRotations_23
-      GlobalNamespace::OVRPlugin::Quatf _get_BoneRotations_23();
-      // Set instance field: public OVRPlugin/Quatf BoneRotations_23
-      void _set_BoneRotations_23(GlobalNamespace::OVRPlugin::Quatf value);
-      // Get instance field: public OVRPlugin/HandFingerPinch Pinches
-      GlobalNamespace::OVRPlugin::HandFingerPinch _get_Pinches();
-      // Set instance field: public OVRPlugin/HandFingerPinch Pinches
-      void _set_Pinches(GlobalNamespace::OVRPlugin::HandFingerPinch value);
-      // Get instance field: public System.Single PinchStrength_0
-      float _get_PinchStrength_0();
-      // Set instance field: public System.Single PinchStrength_0
-      void _set_PinchStrength_0(float value);
-      // Get instance field: public System.Single PinchStrength_1
-      float _get_PinchStrength_1();
-      // Set instance field: public System.Single PinchStrength_1
-      void _set_PinchStrength_1(float value);
-      // Get instance field: public System.Single PinchStrength_2
-      float _get_PinchStrength_2();
-      // Set instance field: public System.Single PinchStrength_2
-      void _set_PinchStrength_2(float value);
-      // Get instance field: public System.Single PinchStrength_3
-      float _get_PinchStrength_3();
-      // Set instance field: public System.Single PinchStrength_3
-      void _set_PinchStrength_3(float value);
-      // Get instance field: public System.Single PinchStrength_4
-      float _get_PinchStrength_4();
-      // Set instance field: public System.Single PinchStrength_4
-      void _set_PinchStrength_4(float value);
-      // Get instance field: public OVRPlugin/Posef PointerPose
-      GlobalNamespace::OVRPlugin::Posef _get_PointerPose();
-      // Set instance field: public OVRPlugin/Posef PointerPose
-      void _set_PointerPose(GlobalNamespace::OVRPlugin::Posef value);
-      // Get instance field: public System.Single HandScale
-      float _get_HandScale();
-      // Set instance field: public System.Single HandScale
-      void _set_HandScale(float value);
-      // Get instance field: public OVRPlugin/TrackingConfidence HandConfidence
-      GlobalNamespace::OVRPlugin::TrackingConfidence _get_HandConfidence();
-      // Set instance field: public OVRPlugin/TrackingConfidence HandConfidence
-      void _set_HandConfidence(GlobalNamespace::OVRPlugin::TrackingConfidence value);
-      // Get instance field: public OVRPlugin/TrackingConfidence FingerConfidences_0
-      GlobalNamespace::OVRPlugin::TrackingConfidence _get_FingerConfidences_0();
-      // Set instance field: public OVRPlugin/TrackingConfidence FingerConfidences_0
-      void _set_FingerConfidences_0(GlobalNamespace::OVRPlugin::TrackingConfidence value);
-      // Get instance field: public OVRPlugin/TrackingConfidence FingerConfidences_1
-      GlobalNamespace::OVRPlugin::TrackingConfidence _get_FingerConfidences_1();
-      // Set instance field: public OVRPlugin/TrackingConfidence FingerConfidences_1
-      void _set_FingerConfidences_1(GlobalNamespace::OVRPlugin::TrackingConfidence value);
-      // Get instance field: public OVRPlugin/TrackingConfidence FingerConfidences_2
-      GlobalNamespace::OVRPlugin::TrackingConfidence _get_FingerConfidences_2();
-      // Set instance field: public OVRPlugin/TrackingConfidence FingerConfidences_2
-      void _set_FingerConfidences_2(GlobalNamespace::OVRPlugin::TrackingConfidence value);
-      // Get instance field: public OVRPlugin/TrackingConfidence FingerConfidences_3
-      GlobalNamespace::OVRPlugin::TrackingConfidence _get_FingerConfidences_3();
-      // Set instance field: public OVRPlugin/TrackingConfidence FingerConfidences_3
-      void _set_FingerConfidences_3(GlobalNamespace::OVRPlugin::TrackingConfidence value);
-      // Get instance field: public OVRPlugin/TrackingConfidence FingerConfidences_4
-      GlobalNamespace::OVRPlugin::TrackingConfidence _get_FingerConfidences_4();
-      // Set instance field: public OVRPlugin/TrackingConfidence FingerConfidences_4
-      void _set_FingerConfidences_4(GlobalNamespace::OVRPlugin::TrackingConfidence value);
-      // Get instance field: public System.Double RequestedTimeStamp
-      double _get_RequestedTimeStamp();
-      // Set instance field: public System.Double RequestedTimeStamp
-      void _set_RequestedTimeStamp(double value);
-      // Get instance field: public System.Double SampleTimeStamp
-      double _get_SampleTimeStamp();
-      // Set instance field: public System.Double SampleTimeStamp
-      void _set_SampleTimeStamp(double value);
+      // Get instance field reference: public OVRPlugin/HandStatus Status
+      GlobalNamespace::OVRPlugin::HandStatus& dyn_Status();
+      // Get instance field reference: public OVRPlugin/Posef RootPose
+      GlobalNamespace::OVRPlugin::Posef& dyn_RootPose();
+      // Get instance field reference: public OVRPlugin/Quatf BoneRotations_0
+      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_0();
+      // Get instance field reference: public OVRPlugin/Quatf BoneRotations_1
+      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_1();
+      // Get instance field reference: public OVRPlugin/Quatf BoneRotations_2
+      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_2();
+      // Get instance field reference: public OVRPlugin/Quatf BoneRotations_3
+      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_3();
+      // Get instance field reference: public OVRPlugin/Quatf BoneRotations_4
+      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_4();
+      // Get instance field reference: public OVRPlugin/Quatf BoneRotations_5
+      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_5();
+      // Get instance field reference: public OVRPlugin/Quatf BoneRotations_6
+      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_6();
+      // Get instance field reference: public OVRPlugin/Quatf BoneRotations_7
+      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_7();
+      // Get instance field reference: public OVRPlugin/Quatf BoneRotations_8
+      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_8();
+      // Get instance field reference: public OVRPlugin/Quatf BoneRotations_9
+      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_9();
+      // Get instance field reference: public OVRPlugin/Quatf BoneRotations_10
+      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_10();
+      // Get instance field reference: public OVRPlugin/Quatf BoneRotations_11
+      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_11();
+      // Get instance field reference: public OVRPlugin/Quatf BoneRotations_12
+      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_12();
+      // Get instance field reference: public OVRPlugin/Quatf BoneRotations_13
+      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_13();
+      // Get instance field reference: public OVRPlugin/Quatf BoneRotations_14
+      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_14();
+      // Get instance field reference: public OVRPlugin/Quatf BoneRotations_15
+      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_15();
+      // Get instance field reference: public OVRPlugin/Quatf BoneRotations_16
+      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_16();
+      // Get instance field reference: public OVRPlugin/Quatf BoneRotations_17
+      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_17();
+      // Get instance field reference: public OVRPlugin/Quatf BoneRotations_18
+      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_18();
+      // Get instance field reference: public OVRPlugin/Quatf BoneRotations_19
+      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_19();
+      // Get instance field reference: public OVRPlugin/Quatf BoneRotations_20
+      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_20();
+      // Get instance field reference: public OVRPlugin/Quatf BoneRotations_21
+      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_21();
+      // Get instance field reference: public OVRPlugin/Quatf BoneRotations_22
+      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_22();
+      // Get instance field reference: public OVRPlugin/Quatf BoneRotations_23
+      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_23();
+      // Get instance field reference: public OVRPlugin/HandFingerPinch Pinches
+      GlobalNamespace::OVRPlugin::HandFingerPinch& dyn_Pinches();
+      // Get instance field reference: public System.Single PinchStrength_0
+      float& dyn_PinchStrength_0();
+      // Get instance field reference: public System.Single PinchStrength_1
+      float& dyn_PinchStrength_1();
+      // Get instance field reference: public System.Single PinchStrength_2
+      float& dyn_PinchStrength_2();
+      // Get instance field reference: public System.Single PinchStrength_3
+      float& dyn_PinchStrength_3();
+      // Get instance field reference: public System.Single PinchStrength_4
+      float& dyn_PinchStrength_4();
+      // Get instance field reference: public OVRPlugin/Posef PointerPose
+      GlobalNamespace::OVRPlugin::Posef& dyn_PointerPose();
+      // Get instance field reference: public System.Single HandScale
+      float& dyn_HandScale();
+      // Get instance field reference: public OVRPlugin/TrackingConfidence HandConfidence
+      GlobalNamespace::OVRPlugin::TrackingConfidence& dyn_HandConfidence();
+      // Get instance field reference: public OVRPlugin/TrackingConfidence FingerConfidences_0
+      GlobalNamespace::OVRPlugin::TrackingConfidence& dyn_FingerConfidences_0();
+      // Get instance field reference: public OVRPlugin/TrackingConfidence FingerConfidences_1
+      GlobalNamespace::OVRPlugin::TrackingConfidence& dyn_FingerConfidences_1();
+      // Get instance field reference: public OVRPlugin/TrackingConfidence FingerConfidences_2
+      GlobalNamespace::OVRPlugin::TrackingConfidence& dyn_FingerConfidences_2();
+      // Get instance field reference: public OVRPlugin/TrackingConfidence FingerConfidences_3
+      GlobalNamespace::OVRPlugin::TrackingConfidence& dyn_FingerConfidences_3();
+      // Get instance field reference: public OVRPlugin/TrackingConfidence FingerConfidences_4
+      GlobalNamespace::OVRPlugin::TrackingConfidence& dyn_FingerConfidences_4();
+      // Get instance field reference: public System.Double RequestedTimeStamp
+      double& dyn_RequestedTimeStamp();
+      // Get instance field reference: public System.Double SampleTimeStamp
+      double& dyn_SampleTimeStamp();
     }; // OVRPlugin/HandStateInternal
     #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::HandStateInternal), 504 + sizeof(double)> __GlobalNamespace_OVRPlugin_HandStateInternalSizeCheck;
@@ -1416,22 +1304,14 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public System.Int16 BoneIndex
-      int16_t _get_BoneIndex();
-      // Set instance field: public System.Int16 BoneIndex
-      void _set_BoneIndex(int16_t value);
-      // Get instance field: public OVRPlugin/Vector3f StartPoint
-      GlobalNamespace::OVRPlugin::Vector3f _get_StartPoint();
-      // Set instance field: public OVRPlugin/Vector3f StartPoint
-      void _set_StartPoint(GlobalNamespace::OVRPlugin::Vector3f value);
-      // Get instance field: public OVRPlugin/Vector3f EndPoint
-      GlobalNamespace::OVRPlugin::Vector3f _get_EndPoint();
-      // Set instance field: public OVRPlugin/Vector3f EndPoint
-      void _set_EndPoint(GlobalNamespace::OVRPlugin::Vector3f value);
-      // Get instance field: public System.Single Radius
-      float _get_Radius();
-      // Set instance field: public System.Single Radius
-      void _set_Radius(float value);
+      // Get instance field reference: public System.Int16 BoneIndex
+      int16_t& dyn_BoneIndex();
+      // Get instance field reference: public OVRPlugin/Vector3f StartPoint
+      GlobalNamespace::OVRPlugin::Vector3f& dyn_StartPoint();
+      // Get instance field reference: public OVRPlugin/Vector3f EndPoint
+      GlobalNamespace::OVRPlugin::Vector3f& dyn_EndPoint();
+      // Get instance field reference: public System.Single Radius
+      float& dyn_Radius();
     }; // OVRPlugin/BoneCapsule
     #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::BoneCapsule), 28 + sizeof(float)> __GlobalNamespace_OVRPlugin_BoneCapsuleSizeCheck;
@@ -1469,18 +1349,12 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public OVRPlugin/BoneId Id
-      GlobalNamespace::OVRPlugin::BoneId _get_Id();
-      // Set instance field: public OVRPlugin/BoneId Id
-      void _set_Id(GlobalNamespace::OVRPlugin::BoneId value);
-      // Get instance field: public System.Int16 ParentBoneIndex
-      int16_t _get_ParentBoneIndex();
-      // Set instance field: public System.Int16 ParentBoneIndex
-      void _set_ParentBoneIndex(int16_t value);
-      // Get instance field: public OVRPlugin/Posef Pose
-      GlobalNamespace::OVRPlugin::Posef _get_Pose();
-      // Set instance field: public OVRPlugin/Posef Pose
-      void _set_Pose(GlobalNamespace::OVRPlugin::Posef value);
+      // Get instance field reference: public OVRPlugin/BoneId Id
+      GlobalNamespace::OVRPlugin::BoneId& dyn_Id();
+      // Get instance field reference: public System.Int16 ParentBoneIndex
+      int16_t& dyn_ParentBoneIndex();
+      // Get instance field reference: public OVRPlugin/Posef Pose
+      GlobalNamespace::OVRPlugin::Posef& dyn_Pose();
     }; // OVRPlugin/Bone
     #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::Bone), 8 + sizeof(GlobalNamespace::OVRPlugin::Posef)> __GlobalNamespace_OVRPlugin_BoneSizeCheck;
@@ -1525,10 +1399,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVRPlugin::SkeletonType _get_HandRight();
       // Set static field: static public OVRPlugin/SkeletonType HandRight
       static void _set_HandRight(GlobalNamespace::OVRPlugin::SkeletonType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // OVRPlugin/SkeletonType
     #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::SkeletonType), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_SkeletonTypeSizeCheck;
@@ -1578,26 +1450,16 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public OVRPlugin/SkeletonType Type
-      GlobalNamespace::OVRPlugin::SkeletonType _get_Type();
-      // Set instance field: public OVRPlugin/SkeletonType Type
-      void _set_Type(GlobalNamespace::OVRPlugin::SkeletonType value);
-      // Get instance field: public System.UInt32 NumBones
-      uint _get_NumBones();
-      // Set instance field: public System.UInt32 NumBones
-      void _set_NumBones(uint value);
-      // Get instance field: public System.UInt32 NumBoneCapsules
-      uint _get_NumBoneCapsules();
-      // Set instance field: public System.UInt32 NumBoneCapsules
-      void _set_NumBoneCapsules(uint value);
-      // Get instance field: public OVRPlugin/Bone[] Bones
-      ::Array<GlobalNamespace::OVRPlugin::Bone>* _get_Bones();
-      // Set instance field: public OVRPlugin/Bone[] Bones
-      void _set_Bones(::Array<GlobalNamespace::OVRPlugin::Bone>* value);
-      // Get instance field: public OVRPlugin/BoneCapsule[] BoneCapsules
-      ::Array<GlobalNamespace::OVRPlugin::BoneCapsule>* _get_BoneCapsules();
-      // Set instance field: public OVRPlugin/BoneCapsule[] BoneCapsules
-      void _set_BoneCapsules(::Array<GlobalNamespace::OVRPlugin::BoneCapsule>* value);
+      // Get instance field reference: public OVRPlugin/SkeletonType Type
+      GlobalNamespace::OVRPlugin::SkeletonType& dyn_Type();
+      // Get instance field reference: public System.UInt32 NumBones
+      uint& dyn_NumBones();
+      // Get instance field reference: public System.UInt32 NumBoneCapsules
+      uint& dyn_NumBoneCapsules();
+      // Get instance field reference: public OVRPlugin/Bone[] Bones
+      ::Array<GlobalNamespace::OVRPlugin::Bone>*& dyn_Bones();
+      // Get instance field reference: public OVRPlugin/BoneCapsule[] BoneCapsules
+      ::Array<GlobalNamespace::OVRPlugin::BoneCapsule>*& dyn_BoneCapsules();
     }; // OVRPlugin/Skeleton
     #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::Skeleton), 24 + sizeof(::Array<GlobalNamespace::OVRPlugin::BoneCapsule>*)> __GlobalNamespace_OVRPlugin_SkeletonSizeCheck;
@@ -2047,294 +1909,150 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public OVRPlugin/SkeletonType Type
-      GlobalNamespace::OVRPlugin::SkeletonType _get_Type();
-      // Set instance field: public OVRPlugin/SkeletonType Type
-      void _set_Type(GlobalNamespace::OVRPlugin::SkeletonType value);
-      // Get instance field: public System.UInt32 NumBones
-      uint _get_NumBones();
-      // Set instance field: public System.UInt32 NumBones
-      void _set_NumBones(uint value);
-      // Get instance field: public System.UInt32 NumBoneCapsules
-      uint _get_NumBoneCapsules();
-      // Set instance field: public System.UInt32 NumBoneCapsules
-      void _set_NumBoneCapsules(uint value);
-      // Get instance field: public OVRPlugin/Bone Bones_0
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_0();
-      // Set instance field: public OVRPlugin/Bone Bones_0
-      void _set_Bones_0(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_1
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_1();
-      // Set instance field: public OVRPlugin/Bone Bones_1
-      void _set_Bones_1(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_2
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_2();
-      // Set instance field: public OVRPlugin/Bone Bones_2
-      void _set_Bones_2(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_3
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_3();
-      // Set instance field: public OVRPlugin/Bone Bones_3
-      void _set_Bones_3(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_4
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_4();
-      // Set instance field: public OVRPlugin/Bone Bones_4
-      void _set_Bones_4(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_5
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_5();
-      // Set instance field: public OVRPlugin/Bone Bones_5
-      void _set_Bones_5(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_6
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_6();
-      // Set instance field: public OVRPlugin/Bone Bones_6
-      void _set_Bones_6(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_7
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_7();
-      // Set instance field: public OVRPlugin/Bone Bones_7
-      void _set_Bones_7(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_8
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_8();
-      // Set instance field: public OVRPlugin/Bone Bones_8
-      void _set_Bones_8(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_9
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_9();
-      // Set instance field: public OVRPlugin/Bone Bones_9
-      void _set_Bones_9(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_10
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_10();
-      // Set instance field: public OVRPlugin/Bone Bones_10
-      void _set_Bones_10(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_11
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_11();
-      // Set instance field: public OVRPlugin/Bone Bones_11
-      void _set_Bones_11(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_12
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_12();
-      // Set instance field: public OVRPlugin/Bone Bones_12
-      void _set_Bones_12(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_13
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_13();
-      // Set instance field: public OVRPlugin/Bone Bones_13
-      void _set_Bones_13(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_14
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_14();
-      // Set instance field: public OVRPlugin/Bone Bones_14
-      void _set_Bones_14(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_15
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_15();
-      // Set instance field: public OVRPlugin/Bone Bones_15
-      void _set_Bones_15(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_16
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_16();
-      // Set instance field: public OVRPlugin/Bone Bones_16
-      void _set_Bones_16(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_17
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_17();
-      // Set instance field: public OVRPlugin/Bone Bones_17
-      void _set_Bones_17(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_18
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_18();
-      // Set instance field: public OVRPlugin/Bone Bones_18
-      void _set_Bones_18(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_19
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_19();
-      // Set instance field: public OVRPlugin/Bone Bones_19
-      void _set_Bones_19(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_20
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_20();
-      // Set instance field: public OVRPlugin/Bone Bones_20
-      void _set_Bones_20(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_21
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_21();
-      // Set instance field: public OVRPlugin/Bone Bones_21
-      void _set_Bones_21(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_22
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_22();
-      // Set instance field: public OVRPlugin/Bone Bones_22
-      void _set_Bones_22(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_23
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_23();
-      // Set instance field: public OVRPlugin/Bone Bones_23
-      void _set_Bones_23(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_24
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_24();
-      // Set instance field: public OVRPlugin/Bone Bones_24
-      void _set_Bones_24(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_25
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_25();
-      // Set instance field: public OVRPlugin/Bone Bones_25
-      void _set_Bones_25(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_26
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_26();
-      // Set instance field: public OVRPlugin/Bone Bones_26
-      void _set_Bones_26(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_27
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_27();
-      // Set instance field: public OVRPlugin/Bone Bones_27
-      void _set_Bones_27(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_28
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_28();
-      // Set instance field: public OVRPlugin/Bone Bones_28
-      void _set_Bones_28(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_29
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_29();
-      // Set instance field: public OVRPlugin/Bone Bones_29
-      void _set_Bones_29(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_30
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_30();
-      // Set instance field: public OVRPlugin/Bone Bones_30
-      void _set_Bones_30(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_31
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_31();
-      // Set instance field: public OVRPlugin/Bone Bones_31
-      void _set_Bones_31(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_32
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_32();
-      // Set instance field: public OVRPlugin/Bone Bones_32
-      void _set_Bones_32(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_33
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_33();
-      // Set instance field: public OVRPlugin/Bone Bones_33
-      void _set_Bones_33(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_34
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_34();
-      // Set instance field: public OVRPlugin/Bone Bones_34
-      void _set_Bones_34(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_35
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_35();
-      // Set instance field: public OVRPlugin/Bone Bones_35
-      void _set_Bones_35(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_36
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_36();
-      // Set instance field: public OVRPlugin/Bone Bones_36
-      void _set_Bones_36(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_37
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_37();
-      // Set instance field: public OVRPlugin/Bone Bones_37
-      void _set_Bones_37(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_38
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_38();
-      // Set instance field: public OVRPlugin/Bone Bones_38
-      void _set_Bones_38(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_39
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_39();
-      // Set instance field: public OVRPlugin/Bone Bones_39
-      void _set_Bones_39(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_40
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_40();
-      // Set instance field: public OVRPlugin/Bone Bones_40
-      void _set_Bones_40(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_41
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_41();
-      // Set instance field: public OVRPlugin/Bone Bones_41
-      void _set_Bones_41(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_42
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_42();
-      // Set instance field: public OVRPlugin/Bone Bones_42
-      void _set_Bones_42(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_43
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_43();
-      // Set instance field: public OVRPlugin/Bone Bones_43
-      void _set_Bones_43(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_44
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_44();
-      // Set instance field: public OVRPlugin/Bone Bones_44
-      void _set_Bones_44(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_45
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_45();
-      // Set instance field: public OVRPlugin/Bone Bones_45
-      void _set_Bones_45(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_46
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_46();
-      // Set instance field: public OVRPlugin/Bone Bones_46
-      void _set_Bones_46(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_47
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_47();
-      // Set instance field: public OVRPlugin/Bone Bones_47
-      void _set_Bones_47(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_48
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_48();
-      // Set instance field: public OVRPlugin/Bone Bones_48
-      void _set_Bones_48(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/Bone Bones_49
-      GlobalNamespace::OVRPlugin::Bone _get_Bones_49();
-      // Set instance field: public OVRPlugin/Bone Bones_49
-      void _set_Bones_49(GlobalNamespace::OVRPlugin::Bone value);
-      // Get instance field: public OVRPlugin/BoneCapsule BoneCapsules_0
-      GlobalNamespace::OVRPlugin::BoneCapsule _get_BoneCapsules_0();
-      // Set instance field: public OVRPlugin/BoneCapsule BoneCapsules_0
-      void _set_BoneCapsules_0(GlobalNamespace::OVRPlugin::BoneCapsule value);
-      // Get instance field: public OVRPlugin/BoneCapsule BoneCapsules_1
-      GlobalNamespace::OVRPlugin::BoneCapsule _get_BoneCapsules_1();
-      // Set instance field: public OVRPlugin/BoneCapsule BoneCapsules_1
-      void _set_BoneCapsules_1(GlobalNamespace::OVRPlugin::BoneCapsule value);
-      // Get instance field: public OVRPlugin/BoneCapsule BoneCapsules_2
-      GlobalNamespace::OVRPlugin::BoneCapsule _get_BoneCapsules_2();
-      // Set instance field: public OVRPlugin/BoneCapsule BoneCapsules_2
-      void _set_BoneCapsules_2(GlobalNamespace::OVRPlugin::BoneCapsule value);
-      // Get instance field: public OVRPlugin/BoneCapsule BoneCapsules_3
-      GlobalNamespace::OVRPlugin::BoneCapsule _get_BoneCapsules_3();
-      // Set instance field: public OVRPlugin/BoneCapsule BoneCapsules_3
-      void _set_BoneCapsules_3(GlobalNamespace::OVRPlugin::BoneCapsule value);
-      // Get instance field: public OVRPlugin/BoneCapsule BoneCapsules_4
-      GlobalNamespace::OVRPlugin::BoneCapsule _get_BoneCapsules_4();
-      // Set instance field: public OVRPlugin/BoneCapsule BoneCapsules_4
-      void _set_BoneCapsules_4(GlobalNamespace::OVRPlugin::BoneCapsule value);
-      // Get instance field: public OVRPlugin/BoneCapsule BoneCapsules_5
-      GlobalNamespace::OVRPlugin::BoneCapsule _get_BoneCapsules_5();
-      // Set instance field: public OVRPlugin/BoneCapsule BoneCapsules_5
-      void _set_BoneCapsules_5(GlobalNamespace::OVRPlugin::BoneCapsule value);
-      // Get instance field: public OVRPlugin/BoneCapsule BoneCapsules_6
-      GlobalNamespace::OVRPlugin::BoneCapsule _get_BoneCapsules_6();
-      // Set instance field: public OVRPlugin/BoneCapsule BoneCapsules_6
-      void _set_BoneCapsules_6(GlobalNamespace::OVRPlugin::BoneCapsule value);
-      // Get instance field: public OVRPlugin/BoneCapsule BoneCapsules_7
-      GlobalNamespace::OVRPlugin::BoneCapsule _get_BoneCapsules_7();
-      // Set instance field: public OVRPlugin/BoneCapsule BoneCapsules_7
-      void _set_BoneCapsules_7(GlobalNamespace::OVRPlugin::BoneCapsule value);
-      // Get instance field: public OVRPlugin/BoneCapsule BoneCapsules_8
-      GlobalNamespace::OVRPlugin::BoneCapsule _get_BoneCapsules_8();
-      // Set instance field: public OVRPlugin/BoneCapsule BoneCapsules_8
-      void _set_BoneCapsules_8(GlobalNamespace::OVRPlugin::BoneCapsule value);
-      // Get instance field: public OVRPlugin/BoneCapsule BoneCapsules_9
-      GlobalNamespace::OVRPlugin::BoneCapsule _get_BoneCapsules_9();
-      // Set instance field: public OVRPlugin/BoneCapsule BoneCapsules_9
-      void _set_BoneCapsules_9(GlobalNamespace::OVRPlugin::BoneCapsule value);
-      // Get instance field: public OVRPlugin/BoneCapsule BoneCapsules_10
-      GlobalNamespace::OVRPlugin::BoneCapsule _get_BoneCapsules_10();
-      // Set instance field: public OVRPlugin/BoneCapsule BoneCapsules_10
-      void _set_BoneCapsules_10(GlobalNamespace::OVRPlugin::BoneCapsule value);
-      // Get instance field: public OVRPlugin/BoneCapsule BoneCapsules_11
-      GlobalNamespace::OVRPlugin::BoneCapsule _get_BoneCapsules_11();
-      // Set instance field: public OVRPlugin/BoneCapsule BoneCapsules_11
-      void _set_BoneCapsules_11(GlobalNamespace::OVRPlugin::BoneCapsule value);
-      // Get instance field: public OVRPlugin/BoneCapsule BoneCapsules_12
-      GlobalNamespace::OVRPlugin::BoneCapsule _get_BoneCapsules_12();
-      // Set instance field: public OVRPlugin/BoneCapsule BoneCapsules_12
-      void _set_BoneCapsules_12(GlobalNamespace::OVRPlugin::BoneCapsule value);
-      // Get instance field: public OVRPlugin/BoneCapsule BoneCapsules_13
-      GlobalNamespace::OVRPlugin::BoneCapsule _get_BoneCapsules_13();
-      // Set instance field: public OVRPlugin/BoneCapsule BoneCapsules_13
-      void _set_BoneCapsules_13(GlobalNamespace::OVRPlugin::BoneCapsule value);
-      // Get instance field: public OVRPlugin/BoneCapsule BoneCapsules_14
-      GlobalNamespace::OVRPlugin::BoneCapsule _get_BoneCapsules_14();
-      // Set instance field: public OVRPlugin/BoneCapsule BoneCapsules_14
-      void _set_BoneCapsules_14(GlobalNamespace::OVRPlugin::BoneCapsule value);
-      // Get instance field: public OVRPlugin/BoneCapsule BoneCapsules_15
-      GlobalNamespace::OVRPlugin::BoneCapsule _get_BoneCapsules_15();
-      // Set instance field: public OVRPlugin/BoneCapsule BoneCapsules_15
-      void _set_BoneCapsules_15(GlobalNamespace::OVRPlugin::BoneCapsule value);
-      // Get instance field: public OVRPlugin/BoneCapsule BoneCapsules_16
-      GlobalNamespace::OVRPlugin::BoneCapsule _get_BoneCapsules_16();
-      // Set instance field: public OVRPlugin/BoneCapsule BoneCapsules_16
-      void _set_BoneCapsules_16(GlobalNamespace::OVRPlugin::BoneCapsule value);
-      // Get instance field: public OVRPlugin/BoneCapsule BoneCapsules_17
-      GlobalNamespace::OVRPlugin::BoneCapsule _get_BoneCapsules_17();
-      // Set instance field: public OVRPlugin/BoneCapsule BoneCapsules_17
-      void _set_BoneCapsules_17(GlobalNamespace::OVRPlugin::BoneCapsule value);
-      // Get instance field: public OVRPlugin/BoneCapsule BoneCapsules_18
-      GlobalNamespace::OVRPlugin::BoneCapsule _get_BoneCapsules_18();
-      // Set instance field: public OVRPlugin/BoneCapsule BoneCapsules_18
-      void _set_BoneCapsules_18(GlobalNamespace::OVRPlugin::BoneCapsule value);
+      // Get instance field reference: public OVRPlugin/SkeletonType Type
+      GlobalNamespace::OVRPlugin::SkeletonType& dyn_Type();
+      // Get instance field reference: public System.UInt32 NumBones
+      uint& dyn_NumBones();
+      // Get instance field reference: public System.UInt32 NumBoneCapsules
+      uint& dyn_NumBoneCapsules();
+      // Get instance field reference: public OVRPlugin/Bone Bones_0
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_0();
+      // Get instance field reference: public OVRPlugin/Bone Bones_1
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_1();
+      // Get instance field reference: public OVRPlugin/Bone Bones_2
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_2();
+      // Get instance field reference: public OVRPlugin/Bone Bones_3
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_3();
+      // Get instance field reference: public OVRPlugin/Bone Bones_4
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_4();
+      // Get instance field reference: public OVRPlugin/Bone Bones_5
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_5();
+      // Get instance field reference: public OVRPlugin/Bone Bones_6
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_6();
+      // Get instance field reference: public OVRPlugin/Bone Bones_7
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_7();
+      // Get instance field reference: public OVRPlugin/Bone Bones_8
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_8();
+      // Get instance field reference: public OVRPlugin/Bone Bones_9
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_9();
+      // Get instance field reference: public OVRPlugin/Bone Bones_10
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_10();
+      // Get instance field reference: public OVRPlugin/Bone Bones_11
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_11();
+      // Get instance field reference: public OVRPlugin/Bone Bones_12
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_12();
+      // Get instance field reference: public OVRPlugin/Bone Bones_13
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_13();
+      // Get instance field reference: public OVRPlugin/Bone Bones_14
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_14();
+      // Get instance field reference: public OVRPlugin/Bone Bones_15
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_15();
+      // Get instance field reference: public OVRPlugin/Bone Bones_16
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_16();
+      // Get instance field reference: public OVRPlugin/Bone Bones_17
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_17();
+      // Get instance field reference: public OVRPlugin/Bone Bones_18
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_18();
+      // Get instance field reference: public OVRPlugin/Bone Bones_19
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_19();
+      // Get instance field reference: public OVRPlugin/Bone Bones_20
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_20();
+      // Get instance field reference: public OVRPlugin/Bone Bones_21
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_21();
+      // Get instance field reference: public OVRPlugin/Bone Bones_22
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_22();
+      // Get instance field reference: public OVRPlugin/Bone Bones_23
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_23();
+      // Get instance field reference: public OVRPlugin/Bone Bones_24
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_24();
+      // Get instance field reference: public OVRPlugin/Bone Bones_25
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_25();
+      // Get instance field reference: public OVRPlugin/Bone Bones_26
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_26();
+      // Get instance field reference: public OVRPlugin/Bone Bones_27
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_27();
+      // Get instance field reference: public OVRPlugin/Bone Bones_28
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_28();
+      // Get instance field reference: public OVRPlugin/Bone Bones_29
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_29();
+      // Get instance field reference: public OVRPlugin/Bone Bones_30
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_30();
+      // Get instance field reference: public OVRPlugin/Bone Bones_31
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_31();
+      // Get instance field reference: public OVRPlugin/Bone Bones_32
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_32();
+      // Get instance field reference: public OVRPlugin/Bone Bones_33
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_33();
+      // Get instance field reference: public OVRPlugin/Bone Bones_34
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_34();
+      // Get instance field reference: public OVRPlugin/Bone Bones_35
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_35();
+      // Get instance field reference: public OVRPlugin/Bone Bones_36
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_36();
+      // Get instance field reference: public OVRPlugin/Bone Bones_37
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_37();
+      // Get instance field reference: public OVRPlugin/Bone Bones_38
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_38();
+      // Get instance field reference: public OVRPlugin/Bone Bones_39
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_39();
+      // Get instance field reference: public OVRPlugin/Bone Bones_40
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_40();
+      // Get instance field reference: public OVRPlugin/Bone Bones_41
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_41();
+      // Get instance field reference: public OVRPlugin/Bone Bones_42
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_42();
+      // Get instance field reference: public OVRPlugin/Bone Bones_43
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_43();
+      // Get instance field reference: public OVRPlugin/Bone Bones_44
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_44();
+      // Get instance field reference: public OVRPlugin/Bone Bones_45
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_45();
+      // Get instance field reference: public OVRPlugin/Bone Bones_46
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_46();
+      // Get instance field reference: public OVRPlugin/Bone Bones_47
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_47();
+      // Get instance field reference: public OVRPlugin/Bone Bones_48
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_48();
+      // Get instance field reference: public OVRPlugin/Bone Bones_49
+      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_49();
+      // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_0
+      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_0();
+      // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_1
+      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_1();
+      // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_2
+      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_2();
+      // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_3
+      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_3();
+      // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_4
+      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_4();
+      // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_5
+      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_5();
+      // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_6
+      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_6();
+      // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_7
+      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_7();
+      // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_8
+      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_8();
+      // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_9
+      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_9();
+      // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_10
+      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_10();
+      // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_11
+      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_11();
+      // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_12
+      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_12();
+      // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_13
+      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_13();
+      // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_14
+      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_14();
+      // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_15
+      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_15();
+      // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_16
+      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_16();
+      // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_17
+      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_17();
+      // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_18
+      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_18();
     }; // OVRPlugin/Skeleton2Internal
     #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::Skeleton2Internal), 2388 + sizeof(GlobalNamespace::OVRPlugin::BoneCapsule)> __GlobalNamespace_OVRPlugin_Skeleton2InternalSizeCheck;

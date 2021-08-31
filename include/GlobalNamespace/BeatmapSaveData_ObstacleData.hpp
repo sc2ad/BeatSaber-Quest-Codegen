@@ -60,26 +60,16 @@ namespace GlobalNamespace {
     operator GlobalNamespace::BeatmapSaveData::ITime() noexcept {
       return *reinterpret_cast<GlobalNamespace::BeatmapSaveData::ITime*>(this);
     }
-    // Get instance field: private System.Single _time
-    float _get__time();
-    // Set instance field: private System.Single _time
-    void _set__time(float value);
-    // Get instance field: private System.Int32 _lineIndex
-    int _get__lineIndex();
-    // Set instance field: private System.Int32 _lineIndex
-    void _set__lineIndex(int value);
-    // Get instance field: private ObstacleType _type
-    GlobalNamespace::ObstacleType _get__type();
-    // Set instance field: private ObstacleType _type
-    void _set__type(GlobalNamespace::ObstacleType value);
-    // Get instance field: private System.Single _duration
-    float _get__duration();
-    // Set instance field: private System.Single _duration
-    void _set__duration(float value);
-    // Get instance field: private System.Int32 _width
-    int _get__width();
-    // Set instance field: private System.Int32 _width
-    void _set__width(int value);
+    // Get instance field reference: private System.Single _time
+    float& dyn__time();
+    // Get instance field reference: private System.Int32 _lineIndex
+    int& dyn__lineIndex();
+    // Get instance field reference: private ObstacleType _type
+    GlobalNamespace::ObstacleType& dyn__type();
+    // Get instance field reference: private System.Single _duration
+    float& dyn__duration();
+    // Get instance field reference: private System.Int32 _width
+    int& dyn__width();
     // public System.Single get_time()
     // Offset: 0x10CF1AC
     float get_time();

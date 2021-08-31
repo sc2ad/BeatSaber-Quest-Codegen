@@ -87,34 +87,20 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IGamePause() noexcept {
       return *reinterpret_cast<GlobalNamespace::IGamePause*>(this);
     }
-    // Get instance field: private readonly TutorialSongController _tutorialSongController
-    GlobalNamespace::TutorialSongController* _get__tutorialSongController();
-    // Set instance field: private readonly TutorialSongController _tutorialSongController
-    void _set__tutorialSongController(GlobalNamespace::TutorialSongController* value);
-    // Get instance field: private readonly SaberManager _saberManager
-    GlobalNamespace::SaberManager* _get__saberManager();
-    // Set instance field: private readonly SaberManager _saberManager
-    void _set__saberManager(GlobalNamespace::SaberManager* value);
-    // Get instance field: private readonly AudioListenerController _audioListenerController
-    GlobalNamespace::AudioListenerController* _get__audioListenerController();
-    // Set instance field: private readonly AudioListenerController _audioListenerController
-    void _set__audioListenerController(GlobalNamespace::AudioListenerController* value);
-    // Get instance field: private System.Action didPauseEvent
-    System::Action* _get_didPauseEvent();
-    // Set instance field: private System.Action didPauseEvent
-    void _set_didPauseEvent(System::Action* value);
-    // Get instance field: private System.Action willResumeEvent
-    System::Action* _get_willResumeEvent();
-    // Set instance field: private System.Action willResumeEvent
-    void _set_willResumeEvent(System::Action* value);
-    // Get instance field: private System.Action didResumeEvent
-    System::Action* _get_didResumeEvent();
-    // Set instance field: private System.Action didResumeEvent
-    void _set_didResumeEvent(System::Action* value);
-    // Get instance field: private System.Boolean _pause
-    bool _get__pause();
-    // Set instance field: private System.Boolean _pause
-    void _set__pause(bool value);
+    // Get instance field reference: private readonly TutorialSongController _tutorialSongController
+    GlobalNamespace::TutorialSongController*& dyn__tutorialSongController();
+    // Get instance field reference: private readonly SaberManager _saberManager
+    GlobalNamespace::SaberManager*& dyn__saberManager();
+    // Get instance field reference: private readonly AudioListenerController _audioListenerController
+    GlobalNamespace::AudioListenerController*& dyn__audioListenerController();
+    // Get instance field reference: private System.Action didPauseEvent
+    System::Action*& dyn_didPauseEvent();
+    // Get instance field reference: private System.Action willResumeEvent
+    System::Action*& dyn_willResumeEvent();
+    // Get instance field reference: private System.Action didResumeEvent
+    System::Action*& dyn_didResumeEvent();
+    // Get instance field reference: private System.Boolean _pause
+    bool& dyn__pause();
     // public System.Void add_didPauseEvent(System.Action value)
     // Offset: 0x109B8E4
     void add_didPauseEvent(System::Action* value);

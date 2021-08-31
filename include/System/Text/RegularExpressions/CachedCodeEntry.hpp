@@ -94,42 +94,24 @@ namespace System::Text::RegularExpressions {
     static_assert(sizeof(System::Text::RegularExpressions::SharedReference*) == 0x8);
     // Creating value type constructor for type: CachedCodeEntry
     CachedCodeEntry(::Il2CppString* key_ = {}, System::Text::RegularExpressions::RegexCode* code_ = {}, System::Collections::Hashtable* caps_ = {}, System::Collections::Hashtable* capnames_ = {}, ::Array<::Il2CppString*>* capslist_ = {}, int capsize_ = {}, System::Text::RegularExpressions::RegexRunnerFactory* factory_ = {}, System::Text::RegularExpressions::ExclusiveReference* runnerref_ = {}, System::Text::RegularExpressions::SharedReference* replref_ = {}) noexcept : key{key_}, code{code_}, caps{caps_}, capnames{capnames_}, capslist{capslist_}, capsize{capsize_}, factory{factory_}, runnerref{runnerref_}, replref{replref_} {}
-    // Get instance field: System.String _key
-    ::Il2CppString* _get__key();
-    // Set instance field: System.String _key
-    void _set__key(::Il2CppString* value);
-    // Get instance field: System.Text.RegularExpressions.RegexCode _code
-    System::Text::RegularExpressions::RegexCode* _get__code();
-    // Set instance field: System.Text.RegularExpressions.RegexCode _code
-    void _set__code(System::Text::RegularExpressions::RegexCode* value);
-    // Get instance field: System.Collections.Hashtable _caps
-    System::Collections::Hashtable* _get__caps();
-    // Set instance field: System.Collections.Hashtable _caps
-    void _set__caps(System::Collections::Hashtable* value);
-    // Get instance field: System.Collections.Hashtable _capnames
-    System::Collections::Hashtable* _get__capnames();
-    // Set instance field: System.Collections.Hashtable _capnames
-    void _set__capnames(System::Collections::Hashtable* value);
-    // Get instance field: System.String[] _capslist
-    ::Array<::Il2CppString*>* _get__capslist();
-    // Set instance field: System.String[] _capslist
-    void _set__capslist(::Array<::Il2CppString*>* value);
-    // Get instance field: System.Int32 _capsize
-    int _get__capsize();
-    // Set instance field: System.Int32 _capsize
-    void _set__capsize(int value);
-    // Get instance field: System.Text.RegularExpressions.RegexRunnerFactory _factory
-    System::Text::RegularExpressions::RegexRunnerFactory* _get__factory();
-    // Set instance field: System.Text.RegularExpressions.RegexRunnerFactory _factory
-    void _set__factory(System::Text::RegularExpressions::RegexRunnerFactory* value);
-    // Get instance field: System.Text.RegularExpressions.ExclusiveReference _runnerref
-    System::Text::RegularExpressions::ExclusiveReference* _get__runnerref();
-    // Set instance field: System.Text.RegularExpressions.ExclusiveReference _runnerref
-    void _set__runnerref(System::Text::RegularExpressions::ExclusiveReference* value);
-    // Get instance field: System.Text.RegularExpressions.SharedReference _replref
-    System::Text::RegularExpressions::SharedReference* _get__replref();
-    // Set instance field: System.Text.RegularExpressions.SharedReference _replref
-    void _set__replref(System::Text::RegularExpressions::SharedReference* value);
+    // Get instance field reference: System.String _key
+    ::Il2CppString*& dyn__key();
+    // Get instance field reference: System.Text.RegularExpressions.RegexCode _code
+    System::Text::RegularExpressions::RegexCode*& dyn__code();
+    // Get instance field reference: System.Collections.Hashtable _caps
+    System::Collections::Hashtable*& dyn__caps();
+    // Get instance field reference: System.Collections.Hashtable _capnames
+    System::Collections::Hashtable*& dyn__capnames();
+    // Get instance field reference: System.String[] _capslist
+    ::Array<::Il2CppString*>*& dyn__capslist();
+    // Get instance field reference: System.Int32 _capsize
+    int& dyn__capsize();
+    // Get instance field reference: System.Text.RegularExpressions.RegexRunnerFactory _factory
+    System::Text::RegularExpressions::RegexRunnerFactory*& dyn__factory();
+    // Get instance field reference: System.Text.RegularExpressions.ExclusiveReference _runnerref
+    System::Text::RegularExpressions::ExclusiveReference*& dyn__runnerref();
+    // Get instance field reference: System.Text.RegularExpressions.SharedReference _replref
+    System::Text::RegularExpressions::SharedReference*& dyn__replref();
     // System.Void .ctor(System.String key, System.Collections.Hashtable capnames, System.String[] capslist, System.Text.RegularExpressions.RegexCode code, System.Collections.Hashtable caps, System.Int32 capsize, System.Text.RegularExpressions.ExclusiveReference runner, System.Text.RegularExpressions.SharedReference repl)
     // Offset: 0x18675F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

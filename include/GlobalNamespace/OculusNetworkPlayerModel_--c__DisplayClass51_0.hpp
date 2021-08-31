@@ -48,14 +48,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::OculusNetworkPlayerModel*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass51_0
     $$c__DisplayClass51_0(GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer* player_ = {}, GlobalNamespace::OculusNetworkPlayerModel* $$4__this_ = {}) noexcept : player{player_}, $$4__this{$$4__this_} {}
-    // Get instance field: public OculusNetworkPlayerModel/OculusNetworkPlayer player
-    GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer* _get_player();
-    // Set instance field: public OculusNetworkPlayerModel/OculusNetworkPlayer player
-    void _set_player(GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer* value);
-    // Get instance field: public OculusNetworkPlayerModel <>4__this
-    GlobalNamespace::OculusNetworkPlayerModel* _get_$$4__this();
-    // Set instance field: public OculusNetworkPlayerModel <>4__this
-    void _set_$$4__this(GlobalNamespace::OculusNetworkPlayerModel* value);
+    // Get instance field reference: public OculusNetworkPlayerModel/OculusNetworkPlayer player
+    GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer*& dyn_player();
+    // Get instance field reference: public OculusNetworkPlayerModel <>4__this
+    GlobalNamespace::OculusNetworkPlayerModel*& dyn_$$4__this();
     // System.Void <HandleRoomInviteReceived>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.Room> result)
     // Offset: 0x123C190
     void $HandleRoomInviteReceived$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::Room*>* result);

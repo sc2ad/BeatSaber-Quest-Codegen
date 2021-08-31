@@ -40,18 +40,12 @@ namespace TMPro {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Int32 startIndex
-    int _get_startIndex();
-    // Set instance field: public System.Int32 startIndex
-    void _set_startIndex(int value);
-    // Get instance field: public System.Int32 length
-    int _get_length();
-    // Set instance field: public System.Int32 length
-    void _set_length(int value);
-    // Get instance field: public System.Int32 hashCode
-    int _get_hashCode();
-    // Set instance field: public System.Int32 hashCode
-    void _set_hashCode(int value);
+    // Get instance field reference: public System.Int32 startIndex
+    int& dyn_startIndex();
+    // Get instance field reference: public System.Int32 length
+    int& dyn_length();
+    // Get instance field reference: public System.Int32 hashCode
+    int& dyn_hashCode();
   }; // TMPro.TagAttribute
   #pragma pack(pop)
   static check_size<sizeof(TagAttribute), 8 + sizeof(int)> __TMPro_TagAttributeSizeCheck;

@@ -44,10 +44,8 @@ namespace OVRSimpleJSON {
     static OVRSimpleJSON::JSONContainerType _get_Object();
     // Set static field: static public OVRSimpleJSON.JSONContainerType Object
     static void _set_Object(OVRSimpleJSON::JSONContainerType value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // OVRSimpleJSON.JSONContainerType
   #pragma pack(pop)
   static check_size<sizeof(JSONContainerType), 0 + sizeof(int)> __OVRSimpleJSON_JSONContainerTypeSizeCheck;

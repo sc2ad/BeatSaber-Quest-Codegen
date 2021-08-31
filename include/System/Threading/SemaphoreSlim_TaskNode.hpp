@@ -42,14 +42,10 @@ namespace System::Threading {
     static_assert(sizeof(System::Threading::SemaphoreSlim::TaskNode*) == 0x8);
     // Creating value type constructor for type: TaskNode
     TaskNode(System::Threading::SemaphoreSlim::TaskNode* Prev_ = {}, System::Threading::SemaphoreSlim::TaskNode* Next_ = {}) noexcept : Prev{Prev_}, Next{Next_} {}
-    // Get instance field: System.Threading.SemaphoreSlim/System.Threading.TaskNode Prev
-    System::Threading::SemaphoreSlim::TaskNode* _get_Prev();
-    // Set instance field: System.Threading.SemaphoreSlim/System.Threading.TaskNode Prev
-    void _set_Prev(System::Threading::SemaphoreSlim::TaskNode* value);
-    // Get instance field: System.Threading.SemaphoreSlim/System.Threading.TaskNode Next
-    System::Threading::SemaphoreSlim::TaskNode* _get_Next();
-    // Set instance field: System.Threading.SemaphoreSlim/System.Threading.TaskNode Next
-    void _set_Next(System::Threading::SemaphoreSlim::TaskNode* value);
+    // Get instance field reference: System.Threading.SemaphoreSlim/System.Threading.TaskNode Prev
+    System::Threading::SemaphoreSlim::TaskNode*& dyn_Prev();
+    // Get instance field reference: System.Threading.SemaphoreSlim/System.Threading.TaskNode Next
+    System::Threading::SemaphoreSlim::TaskNode*& dyn_Next();
     // private System.Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
     // Offset: 0x18FAEB0
     void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();

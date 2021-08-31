@@ -35,10 +35,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::ColorSchemeSO*) == 0x8);
     // Creating value type constructor for type: ShaderWarmupSceneSetup
     ShaderWarmupSceneSetup(GlobalNamespace::ColorSchemeSO* sharedWarmupColorScheme_ = {}) noexcept : sharedWarmupColorScheme{sharedWarmupColorScheme_} {}
-    // Get instance field: private ColorSchemeSO _sharedWarmupColorScheme
-    GlobalNamespace::ColorSchemeSO* _get__sharedWarmupColorScheme();
-    // Set instance field: private ColorSchemeSO _sharedWarmupColorScheme
-    void _set__sharedWarmupColorScheme(GlobalNamespace::ColorSchemeSO* value);
+    // Get instance field reference: private ColorSchemeSO _sharedWarmupColorScheme
+    GlobalNamespace::ColorSchemeSO*& dyn__sharedWarmupColorScheme();
     // public System.Void .ctor()
     // Offset: 0x107881C
     // Implemented from: Zenject.MonoInstaller

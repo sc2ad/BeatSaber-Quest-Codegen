@@ -87,30 +87,18 @@ namespace GlobalNamespace {
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
-    // Get instance field: private System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: private System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: private System.Object <>2__current
-    ::Il2CppObject* _get_$$2__current();
-    // Set instance field: private System.Object <>2__current
-    void _set_$$2__current(::Il2CppObject* value);
-    // Get instance field: public System.Boolean useCache
-    bool _get_useCache();
-    // Set instance field: public System.Boolean useCache
-    void _set_useCache(bool value);
-    // Get instance field: public System.String filePath
-    ::Il2CppString* _get_filePath();
-    // Set instance field: public System.String filePath
-    void _set_filePath(::Il2CppString* value);
-    // Get instance field: public System.Action`1<UnityEngine.Texture2D> finishedCallback
-    System::Action_1<UnityEngine::Texture2D*>* _get_finishedCallback();
-    // Set instance field: public System.Action`1<UnityEngine.Texture2D> finishedCallback
-    void _set_finishedCallback(System::Action_1<UnityEngine::Texture2D*>* value);
-    // Get instance field: private UnityEngine.Networking.UnityWebRequest <uwr>5__2
-    UnityEngine::Networking::UnityWebRequest* _get_$uwr$5__2();
-    // Set instance field: private UnityEngine.Networking.UnityWebRequest <uwr>5__2
-    void _set_$uwr$5__2(UnityEngine::Networking::UnityWebRequest* value);
+    // Get instance field reference: private System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: private System.Object <>2__current
+    ::Il2CppObject*& dyn_$$2__current();
+    // Get instance field reference: public System.Boolean useCache
+    bool& dyn_useCache();
+    // Get instance field reference: public System.String filePath
+    ::Il2CppString*& dyn_filePath();
+    // Get instance field reference: public System.Action`1<UnityEngine.Texture2D> finishedCallback
+    System::Action_1<UnityEngine::Texture2D*>*& dyn_finishedCallback();
+    // Get instance field reference: private UnityEngine.Networking.UnityWebRequest <uwr>5__2
+    UnityEngine::Networking::UnityWebRequest*& dyn_$uwr$5__2();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
     // Offset: 0x107BD68
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();

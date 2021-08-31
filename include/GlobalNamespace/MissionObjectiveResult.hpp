@@ -47,18 +47,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: MissionObjectiveResult
     MissionObjectiveResult(GlobalNamespace::MissionObjective* missionObjective_ = {}, bool cleared_ = {}, int value_ = {}) noexcept : missionObjective{missionObjective_}, cleared{cleared_}, value{value_} {}
-    // Get instance field: private MissionObjective <missionObjective>k__BackingField
-    GlobalNamespace::MissionObjective* _get_$missionObjective$k__BackingField();
-    // Set instance field: private MissionObjective <missionObjective>k__BackingField
-    void _set_$missionObjective$k__BackingField(GlobalNamespace::MissionObjective* value);
-    // Get instance field: private System.Boolean <cleared>k__BackingField
-    bool _get_$cleared$k__BackingField();
-    // Set instance field: private System.Boolean <cleared>k__BackingField
-    void _set_$cleared$k__BackingField(bool value);
-    // Get instance field: private System.Int32 <value>k__BackingField
-    int _get_$value$k__BackingField();
-    // Set instance field: private System.Int32 <value>k__BackingField
-    void _set_$value$k__BackingField(int value);
+    // Get instance field reference: private MissionObjective <missionObjective>k__BackingField
+    GlobalNamespace::MissionObjective*& dyn_$missionObjective$k__BackingField();
+    // Get instance field reference: private System.Boolean <cleared>k__BackingField
+    bool& dyn_$cleared$k__BackingField();
+    // Get instance field reference: private System.Int32 <value>k__BackingField
+    int& dyn_$value$k__BackingField();
     // public MissionObjective get_missionObjective()
     // Offset: 0x11D86CC
     GlobalNamespace::MissionObjective* get_missionObjective();

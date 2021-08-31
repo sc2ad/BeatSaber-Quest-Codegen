@@ -94,50 +94,28 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
     // Creating value type constructor for type: LeaderboardUploadData
     LeaderboardUploadData(::Il2CppString* playerName_ = {}, ::Il2CppString* playerId_ = {}, ::Il2CppString* score_ = {}, ::Il2CppString* leaderboardId_ = {}, ::Il2CppString* songName_ = {}, ::Il2CppString* songSubName_ = {}, ::Il2CppString* authorName_ = {}, ::Il2CppString* bpm_ = {}, ::Il2CppString* difficulty_ = {}, ::Il2CppString* infoHash_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* modifiers_ = {}) noexcept : playerName{playerName_}, playerId{playerId_}, score{score_}, leaderboardId{leaderboardId_}, songName{songName_}, songSubName{songSubName_}, authorName{authorName_}, bpm{bpm_}, difficulty{difficulty_}, infoHash{infoHash_}, modifiers{modifiers_} {}
-    // Get instance field: public System.String playerName
-    ::Il2CppString* _get_playerName();
-    // Set instance field: public System.String playerName
-    void _set_playerName(::Il2CppString* value);
-    // Get instance field: public System.String playerId
-    ::Il2CppString* _get_playerId();
-    // Set instance field: public System.String playerId
-    void _set_playerId(::Il2CppString* value);
-    // Get instance field: public System.String score
-    ::Il2CppString* _get_score();
-    // Set instance field: public System.String score
-    void _set_score(::Il2CppString* value);
-    // Get instance field: public System.String leaderboardId
-    ::Il2CppString* _get_leaderboardId();
-    // Set instance field: public System.String leaderboardId
-    void _set_leaderboardId(::Il2CppString* value);
-    // Get instance field: public System.String songName
-    ::Il2CppString* _get_songName();
-    // Set instance field: public System.String songName
-    void _set_songName(::Il2CppString* value);
-    // Get instance field: public System.String songSubName
-    ::Il2CppString* _get_songSubName();
-    // Set instance field: public System.String songSubName
-    void _set_songSubName(::Il2CppString* value);
-    // Get instance field: public System.String authorName
-    ::Il2CppString* _get_authorName();
-    // Set instance field: public System.String authorName
-    void _set_authorName(::Il2CppString* value);
-    // Get instance field: public System.String bpm
-    ::Il2CppString* _get_bpm();
-    // Set instance field: public System.String bpm
-    void _set_bpm(::Il2CppString* value);
-    // Get instance field: public System.String difficulty
-    ::Il2CppString* _get_difficulty();
-    // Set instance field: public System.String difficulty
-    void _set_difficulty(::Il2CppString* value);
-    // Get instance field: public System.String infoHash
-    ::Il2CppString* _get_infoHash();
-    // Set instance field: public System.String infoHash
-    void _set_infoHash(::Il2CppString* value);
-    // Get instance field: public System.Collections.Generic.List`1<System.String> modifiers
-    System::Collections::Generic::List_1<::Il2CppString*>* _get_modifiers();
-    // Set instance field: public System.Collections.Generic.List`1<System.String> modifiers
-    void _set_modifiers(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    // Get instance field reference: public System.String playerName
+    ::Il2CppString*& dyn_playerName();
+    // Get instance field reference: public System.String playerId
+    ::Il2CppString*& dyn_playerId();
+    // Get instance field reference: public System.String score
+    ::Il2CppString*& dyn_score();
+    // Get instance field reference: public System.String leaderboardId
+    ::Il2CppString*& dyn_leaderboardId();
+    // Get instance field reference: public System.String songName
+    ::Il2CppString*& dyn_songName();
+    // Get instance field reference: public System.String songSubName
+    ::Il2CppString*& dyn_songSubName();
+    // Get instance field reference: public System.String authorName
+    ::Il2CppString*& dyn_authorName();
+    // Get instance field reference: public System.String bpm
+    ::Il2CppString*& dyn_bpm();
+    // Get instance field reference: public System.String difficulty
+    ::Il2CppString*& dyn_difficulty();
+    // Get instance field reference: public System.String infoHash
+    ::Il2CppString*& dyn_infoHash();
+    // Get instance field reference: public System.Collections.Generic.List`1<System.String> modifiers
+    System::Collections::Generic::List_1<::Il2CppString*>*& dyn_modifiers();
     // public System.Void .ctor(System.String playerName, System.String playerId, System.String score, System.String leaderboardId, System.String songName, System.String songSubName, System.String authorName, System.String bpm, System.String difficulty, System.String infoHash, System.Collections.Generic.List`1<System.String> modifiers)
     // Offset: 0x1149024
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

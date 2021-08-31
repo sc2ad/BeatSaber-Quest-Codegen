@@ -52,18 +52,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
     // Creating value type constructor for type: FileBrowserTableCell
     FileBrowserTableCell(TMPro::TextMeshProUGUI* text_ = {}, UnityEngine::UI::Image* bgImage_ = {}, UnityEngine::UI::Image* highlightImage_ = {}) noexcept : text{text_}, bgImage{bgImage_}, highlightImage{highlightImage_} {}
-    // Get instance field: private TMPro.TextMeshProUGUI _text
-    TMPro::TextMeshProUGUI* _get__text();
-    // Set instance field: private TMPro.TextMeshProUGUI _text
-    void _set__text(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private UnityEngine.UI.Image _bgImage
-    UnityEngine::UI::Image* _get__bgImage();
-    // Set instance field: private UnityEngine.UI.Image _bgImage
-    void _set__bgImage(UnityEngine::UI::Image* value);
-    // Get instance field: private UnityEngine.UI.Image _highlightImage
-    UnityEngine::UI::Image* _get__highlightImage();
-    // Set instance field: private UnityEngine.UI.Image _highlightImage
-    void _set__highlightImage(UnityEngine::UI::Image* value);
+    // Get instance field reference: private TMPro.TextMeshProUGUI _text
+    TMPro::TextMeshProUGUI*& dyn__text();
+    // Get instance field reference: private UnityEngine.UI.Image _bgImage
+    UnityEngine::UI::Image*& dyn__bgImage();
+    // Get instance field reference: private UnityEngine.UI.Image _highlightImage
+    UnityEngine::UI::Image*& dyn__highlightImage();
     // public System.String get_text()
     // Offset: 0x10565E4
     ::Il2CppString* get_text();

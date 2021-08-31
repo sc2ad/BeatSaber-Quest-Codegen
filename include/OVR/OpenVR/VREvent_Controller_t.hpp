@@ -32,10 +32,8 @@ namespace OVR::OpenVR {
     constexpr operator uint() const noexcept {
       return button;
     }
-    // Get instance field: public System.UInt32 button
-    uint _get_button();
-    // Set instance field: public System.UInt32 button
-    void _set_button(uint value);
+    // Get instance field reference: public System.UInt32 button
+    uint& dyn_button();
   }; // OVR.OpenVR.VREvent_Controller_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Controller_t), 0 + sizeof(uint)> __OVR_OpenVR_VREvent_Controller_tSizeCheck;

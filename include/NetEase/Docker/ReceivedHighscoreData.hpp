@@ -65,22 +65,14 @@ namespace NetEase::Docker {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private System.Boolean <FetchingSuccessful>k__BackingField
-    bool _get_$FetchingSuccessful$k__BackingField();
-    // Set instance field: private System.Boolean <FetchingSuccessful>k__BackingField
-    void _set_$FetchingSuccessful$k__BackingField(bool value);
-    // Get instance field: private System.Int32 <HighscoreCode>k__BackingField
-    int _get_$HighscoreCode$k__BackingField();
-    // Set instance field: private System.Int32 <HighscoreCode>k__BackingField
-    void _set_$HighscoreCode$k__BackingField(int value);
-    // Get instance field: private System.String <Track>k__BackingField
-    ::Il2CppString* _get_$Track$k__BackingField();
-    // Set instance field: private System.String <Track>k__BackingField
-    void _set_$Track$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.Collections.Generic.List`1<NetEase.Docker.ScoreData> <Scores>k__BackingField
-    System::Collections::Generic::List_1<NetEase::Docker::ScoreData>* _get_$Scores$k__BackingField();
-    // Set instance field: private System.Collections.Generic.List`1<NetEase.Docker.ScoreData> <Scores>k__BackingField
-    void _set_$Scores$k__BackingField(System::Collections::Generic::List_1<NetEase::Docker::ScoreData>* value);
+    // Get instance field reference: private System.Boolean <FetchingSuccessful>k__BackingField
+    bool& dyn_$FetchingSuccessful$k__BackingField();
+    // Get instance field reference: private System.Int32 <HighscoreCode>k__BackingField
+    int& dyn_$HighscoreCode$k__BackingField();
+    // Get instance field reference: private System.String <Track>k__BackingField
+    ::Il2CppString*& dyn_$Track$k__BackingField();
+    // Get instance field reference: private System.Collections.Generic.List`1<NetEase.Docker.ScoreData> <Scores>k__BackingField
+    System::Collections::Generic::List_1<NetEase::Docker::ScoreData>*& dyn_$Scores$k__BackingField();
     // public System.Boolean get_FetchingSuccessful()
     // Offset: 0x2418BE0
     bool get_FetchingSuccessful();

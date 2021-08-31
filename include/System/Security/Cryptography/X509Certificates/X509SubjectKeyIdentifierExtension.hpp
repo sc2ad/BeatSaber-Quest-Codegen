@@ -76,18 +76,12 @@ namespace System::Security::Cryptography::X509Certificates {
     static ::Il2CppString* _get_friendlyName();
     // Set static field: static System.String friendlyName
     static void _set_friendlyName(::Il2CppString* value);
-    // Get instance field: private System.Byte[] _subjectKeyIdentifier
-    ::Array<uint8_t>* _get__subjectKeyIdentifier();
-    // Set instance field: private System.Byte[] _subjectKeyIdentifier
-    void _set__subjectKeyIdentifier(::Array<uint8_t>* value);
-    // Get instance field: private System.String _ski
-    ::Il2CppString* _get__ski();
-    // Set instance field: private System.String _ski
-    void _set__ski(::Il2CppString* value);
-    // Get instance field: private System.Security.Cryptography.AsnDecodeStatus _status
-    System::Security::Cryptography::AsnDecodeStatus _get__status();
-    // Set instance field: private System.Security.Cryptography.AsnDecodeStatus _status
-    void _set__status(System::Security::Cryptography::AsnDecodeStatus value);
+    // Get instance field reference: private System.Byte[] _subjectKeyIdentifier
+    ::Array<uint8_t>*& dyn__subjectKeyIdentifier();
+    // Get instance field reference: private System.String _ski
+    ::Il2CppString*& dyn__ski();
+    // Get instance field reference: private System.Security.Cryptography.AsnDecodeStatus _status
+    System::Security::Cryptography::AsnDecodeStatus& dyn__status();
     // public System.String get_SubjectKeyIdentifier()
     // Offset: 0x185BFE8
     ::Il2CppString* get_SubjectKeyIdentifier();

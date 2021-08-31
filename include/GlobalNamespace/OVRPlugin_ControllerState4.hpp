@@ -297,182 +297,94 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.UInt32 ConnectedControllers
-    uint _get_ConnectedControllers();
-    // Set instance field: public System.UInt32 ConnectedControllers
-    void _set_ConnectedControllers(uint value);
-    // Get instance field: public System.UInt32 Buttons
-    uint _get_Buttons();
-    // Set instance field: public System.UInt32 Buttons
-    void _set_Buttons(uint value);
-    // Get instance field: public System.UInt32 Touches
-    uint _get_Touches();
-    // Set instance field: public System.UInt32 Touches
-    void _set_Touches(uint value);
-    // Get instance field: public System.UInt32 NearTouches
-    uint _get_NearTouches();
-    // Set instance field: public System.UInt32 NearTouches
-    void _set_NearTouches(uint value);
-    // Get instance field: public System.Single LIndexTrigger
-    float _get_LIndexTrigger();
-    // Set instance field: public System.Single LIndexTrigger
-    void _set_LIndexTrigger(float value);
-    // Get instance field: public System.Single RIndexTrigger
-    float _get_RIndexTrigger();
-    // Set instance field: public System.Single RIndexTrigger
-    void _set_RIndexTrigger(float value);
-    // Get instance field: public System.Single LHandTrigger
-    float _get_LHandTrigger();
-    // Set instance field: public System.Single LHandTrigger
-    void _set_LHandTrigger(float value);
-    // Get instance field: public System.Single RHandTrigger
-    float _get_RHandTrigger();
-    // Set instance field: public System.Single RHandTrigger
-    void _set_RHandTrigger(float value);
-    // Get instance field: public OVRPlugin/Vector2f LThumbstick
-    GlobalNamespace::OVRPlugin::Vector2f _get_LThumbstick();
-    // Set instance field: public OVRPlugin/Vector2f LThumbstick
-    void _set_LThumbstick(GlobalNamespace::OVRPlugin::Vector2f value);
-    // Get instance field: public OVRPlugin/Vector2f RThumbstick
-    GlobalNamespace::OVRPlugin::Vector2f _get_RThumbstick();
-    // Set instance field: public OVRPlugin/Vector2f RThumbstick
-    void _set_RThumbstick(GlobalNamespace::OVRPlugin::Vector2f value);
-    // Get instance field: public OVRPlugin/Vector2f LTouchpad
-    GlobalNamespace::OVRPlugin::Vector2f _get_LTouchpad();
-    // Set instance field: public OVRPlugin/Vector2f LTouchpad
-    void _set_LTouchpad(GlobalNamespace::OVRPlugin::Vector2f value);
-    // Get instance field: public OVRPlugin/Vector2f RTouchpad
-    GlobalNamespace::OVRPlugin::Vector2f _get_RTouchpad();
-    // Set instance field: public OVRPlugin/Vector2f RTouchpad
-    void _set_RTouchpad(GlobalNamespace::OVRPlugin::Vector2f value);
-    // Get instance field: public System.Byte LBatteryPercentRemaining
-    uint8_t _get_LBatteryPercentRemaining();
-    // Set instance field: public System.Byte LBatteryPercentRemaining
-    void _set_LBatteryPercentRemaining(uint8_t value);
-    // Get instance field: public System.Byte RBatteryPercentRemaining
-    uint8_t _get_RBatteryPercentRemaining();
-    // Set instance field: public System.Byte RBatteryPercentRemaining
-    void _set_RBatteryPercentRemaining(uint8_t value);
-    // Get instance field: public System.Byte LRecenterCount
-    uint8_t _get_LRecenterCount();
-    // Set instance field: public System.Byte LRecenterCount
-    void _set_LRecenterCount(uint8_t value);
-    // Get instance field: public System.Byte RRecenterCount
-    uint8_t _get_RRecenterCount();
-    // Set instance field: public System.Byte RRecenterCount
-    void _set_RRecenterCount(uint8_t value);
-    // Get instance field: public System.Byte Reserved_27
-    uint8_t _get_Reserved_27();
-    // Set instance field: public System.Byte Reserved_27
-    void _set_Reserved_27(uint8_t value);
-    // Get instance field: public System.Byte Reserved_26
-    uint8_t _get_Reserved_26();
-    // Set instance field: public System.Byte Reserved_26
-    void _set_Reserved_26(uint8_t value);
-    // Get instance field: public System.Byte Reserved_25
-    uint8_t _get_Reserved_25();
-    // Set instance field: public System.Byte Reserved_25
-    void _set_Reserved_25(uint8_t value);
-    // Get instance field: public System.Byte Reserved_24
-    uint8_t _get_Reserved_24();
-    // Set instance field: public System.Byte Reserved_24
-    void _set_Reserved_24(uint8_t value);
-    // Get instance field: public System.Byte Reserved_23
-    uint8_t _get_Reserved_23();
-    // Set instance field: public System.Byte Reserved_23
-    void _set_Reserved_23(uint8_t value);
-    // Get instance field: public System.Byte Reserved_22
-    uint8_t _get_Reserved_22();
-    // Set instance field: public System.Byte Reserved_22
-    void _set_Reserved_22(uint8_t value);
-    // Get instance field: public System.Byte Reserved_21
-    uint8_t _get_Reserved_21();
-    // Set instance field: public System.Byte Reserved_21
-    void _set_Reserved_21(uint8_t value);
-    // Get instance field: public System.Byte Reserved_20
-    uint8_t _get_Reserved_20();
-    // Set instance field: public System.Byte Reserved_20
-    void _set_Reserved_20(uint8_t value);
-    // Get instance field: public System.Byte Reserved_19
-    uint8_t _get_Reserved_19();
-    // Set instance field: public System.Byte Reserved_19
-    void _set_Reserved_19(uint8_t value);
-    // Get instance field: public System.Byte Reserved_18
-    uint8_t _get_Reserved_18();
-    // Set instance field: public System.Byte Reserved_18
-    void _set_Reserved_18(uint8_t value);
-    // Get instance field: public System.Byte Reserved_17
-    uint8_t _get_Reserved_17();
-    // Set instance field: public System.Byte Reserved_17
-    void _set_Reserved_17(uint8_t value);
-    // Get instance field: public System.Byte Reserved_16
-    uint8_t _get_Reserved_16();
-    // Set instance field: public System.Byte Reserved_16
-    void _set_Reserved_16(uint8_t value);
-    // Get instance field: public System.Byte Reserved_15
-    uint8_t _get_Reserved_15();
-    // Set instance field: public System.Byte Reserved_15
-    void _set_Reserved_15(uint8_t value);
-    // Get instance field: public System.Byte Reserved_14
-    uint8_t _get_Reserved_14();
-    // Set instance field: public System.Byte Reserved_14
-    void _set_Reserved_14(uint8_t value);
-    // Get instance field: public System.Byte Reserved_13
-    uint8_t _get_Reserved_13();
-    // Set instance field: public System.Byte Reserved_13
-    void _set_Reserved_13(uint8_t value);
-    // Get instance field: public System.Byte Reserved_12
-    uint8_t _get_Reserved_12();
-    // Set instance field: public System.Byte Reserved_12
-    void _set_Reserved_12(uint8_t value);
-    // Get instance field: public System.Byte Reserved_11
-    uint8_t _get_Reserved_11();
-    // Set instance field: public System.Byte Reserved_11
-    void _set_Reserved_11(uint8_t value);
-    // Get instance field: public System.Byte Reserved_10
-    uint8_t _get_Reserved_10();
-    // Set instance field: public System.Byte Reserved_10
-    void _set_Reserved_10(uint8_t value);
-    // Get instance field: public System.Byte Reserved_09
-    uint8_t _get_Reserved_09();
-    // Set instance field: public System.Byte Reserved_09
-    void _set_Reserved_09(uint8_t value);
-    // Get instance field: public System.Byte Reserved_08
-    uint8_t _get_Reserved_08();
-    // Set instance field: public System.Byte Reserved_08
-    void _set_Reserved_08(uint8_t value);
-    // Get instance field: public System.Byte Reserved_07
-    uint8_t _get_Reserved_07();
-    // Set instance field: public System.Byte Reserved_07
-    void _set_Reserved_07(uint8_t value);
-    // Get instance field: public System.Byte Reserved_06
-    uint8_t _get_Reserved_06();
-    // Set instance field: public System.Byte Reserved_06
-    void _set_Reserved_06(uint8_t value);
-    // Get instance field: public System.Byte Reserved_05
-    uint8_t _get_Reserved_05();
-    // Set instance field: public System.Byte Reserved_05
-    void _set_Reserved_05(uint8_t value);
-    // Get instance field: public System.Byte Reserved_04
-    uint8_t _get_Reserved_04();
-    // Set instance field: public System.Byte Reserved_04
-    void _set_Reserved_04(uint8_t value);
-    // Get instance field: public System.Byte Reserved_03
-    uint8_t _get_Reserved_03();
-    // Set instance field: public System.Byte Reserved_03
-    void _set_Reserved_03(uint8_t value);
-    // Get instance field: public System.Byte Reserved_02
-    uint8_t _get_Reserved_02();
-    // Set instance field: public System.Byte Reserved_02
-    void _set_Reserved_02(uint8_t value);
-    // Get instance field: public System.Byte Reserved_01
-    uint8_t _get_Reserved_01();
-    // Set instance field: public System.Byte Reserved_01
-    void _set_Reserved_01(uint8_t value);
-    // Get instance field: public System.Byte Reserved_00
-    uint8_t _get_Reserved_00();
-    // Set instance field: public System.Byte Reserved_00
-    void _set_Reserved_00(uint8_t value);
+    // Get instance field reference: public System.UInt32 ConnectedControllers
+    uint& dyn_ConnectedControllers();
+    // Get instance field reference: public System.UInt32 Buttons
+    uint& dyn_Buttons();
+    // Get instance field reference: public System.UInt32 Touches
+    uint& dyn_Touches();
+    // Get instance field reference: public System.UInt32 NearTouches
+    uint& dyn_NearTouches();
+    // Get instance field reference: public System.Single LIndexTrigger
+    float& dyn_LIndexTrigger();
+    // Get instance field reference: public System.Single RIndexTrigger
+    float& dyn_RIndexTrigger();
+    // Get instance field reference: public System.Single LHandTrigger
+    float& dyn_LHandTrigger();
+    // Get instance field reference: public System.Single RHandTrigger
+    float& dyn_RHandTrigger();
+    // Get instance field reference: public OVRPlugin/Vector2f LThumbstick
+    GlobalNamespace::OVRPlugin::Vector2f& dyn_LThumbstick();
+    // Get instance field reference: public OVRPlugin/Vector2f RThumbstick
+    GlobalNamespace::OVRPlugin::Vector2f& dyn_RThumbstick();
+    // Get instance field reference: public OVRPlugin/Vector2f LTouchpad
+    GlobalNamespace::OVRPlugin::Vector2f& dyn_LTouchpad();
+    // Get instance field reference: public OVRPlugin/Vector2f RTouchpad
+    GlobalNamespace::OVRPlugin::Vector2f& dyn_RTouchpad();
+    // Get instance field reference: public System.Byte LBatteryPercentRemaining
+    uint8_t& dyn_LBatteryPercentRemaining();
+    // Get instance field reference: public System.Byte RBatteryPercentRemaining
+    uint8_t& dyn_RBatteryPercentRemaining();
+    // Get instance field reference: public System.Byte LRecenterCount
+    uint8_t& dyn_LRecenterCount();
+    // Get instance field reference: public System.Byte RRecenterCount
+    uint8_t& dyn_RRecenterCount();
+    // Get instance field reference: public System.Byte Reserved_27
+    uint8_t& dyn_Reserved_27();
+    // Get instance field reference: public System.Byte Reserved_26
+    uint8_t& dyn_Reserved_26();
+    // Get instance field reference: public System.Byte Reserved_25
+    uint8_t& dyn_Reserved_25();
+    // Get instance field reference: public System.Byte Reserved_24
+    uint8_t& dyn_Reserved_24();
+    // Get instance field reference: public System.Byte Reserved_23
+    uint8_t& dyn_Reserved_23();
+    // Get instance field reference: public System.Byte Reserved_22
+    uint8_t& dyn_Reserved_22();
+    // Get instance field reference: public System.Byte Reserved_21
+    uint8_t& dyn_Reserved_21();
+    // Get instance field reference: public System.Byte Reserved_20
+    uint8_t& dyn_Reserved_20();
+    // Get instance field reference: public System.Byte Reserved_19
+    uint8_t& dyn_Reserved_19();
+    // Get instance field reference: public System.Byte Reserved_18
+    uint8_t& dyn_Reserved_18();
+    // Get instance field reference: public System.Byte Reserved_17
+    uint8_t& dyn_Reserved_17();
+    // Get instance field reference: public System.Byte Reserved_16
+    uint8_t& dyn_Reserved_16();
+    // Get instance field reference: public System.Byte Reserved_15
+    uint8_t& dyn_Reserved_15();
+    // Get instance field reference: public System.Byte Reserved_14
+    uint8_t& dyn_Reserved_14();
+    // Get instance field reference: public System.Byte Reserved_13
+    uint8_t& dyn_Reserved_13();
+    // Get instance field reference: public System.Byte Reserved_12
+    uint8_t& dyn_Reserved_12();
+    // Get instance field reference: public System.Byte Reserved_11
+    uint8_t& dyn_Reserved_11();
+    // Get instance field reference: public System.Byte Reserved_10
+    uint8_t& dyn_Reserved_10();
+    // Get instance field reference: public System.Byte Reserved_09
+    uint8_t& dyn_Reserved_09();
+    // Get instance field reference: public System.Byte Reserved_08
+    uint8_t& dyn_Reserved_08();
+    // Get instance field reference: public System.Byte Reserved_07
+    uint8_t& dyn_Reserved_07();
+    // Get instance field reference: public System.Byte Reserved_06
+    uint8_t& dyn_Reserved_06();
+    // Get instance field reference: public System.Byte Reserved_05
+    uint8_t& dyn_Reserved_05();
+    // Get instance field reference: public System.Byte Reserved_04
+    uint8_t& dyn_Reserved_04();
+    // Get instance field reference: public System.Byte Reserved_03
+    uint8_t& dyn_Reserved_03();
+    // Get instance field reference: public System.Byte Reserved_02
+    uint8_t& dyn_Reserved_02();
+    // Get instance field reference: public System.Byte Reserved_01
+    uint8_t& dyn_Reserved_01();
+    // Get instance field reference: public System.Byte Reserved_00
+    uint8_t& dyn_Reserved_00();
     // public System.Void .ctor(OVRPlugin/ControllerState2 cs)
     // Offset: 0x1626B98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

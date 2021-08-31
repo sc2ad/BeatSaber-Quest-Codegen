@@ -98,38 +98,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelPackCollectionSO*>*) == 0x8);
     // Creating value type constructor for type: SongPackMaskItem
     SongPackMaskItem(GlobalNamespace::SongPackMaskModelSO::SongPackDataType type_ = {}, GlobalNamespace::BeatmapLevelPackSO* beatmapLevelPack_ = {}, GlobalNamespace::PreviewBeatmapLevelPackSO* previewBeatmapLevelPack_ = {}, ::Il2CppString* serializedName_ = {}, GlobalNamespace::BeatmapLevelPackCollectionSO* levelPackCollection_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelPackSO*>* beatmapLevelPacks_ = {}, System::Collections::Generic::List_1<GlobalNamespace::PreviewBeatmapLevelPackSO*>* previewBeatmapLevelPacks_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelPackCollectionSO*>* levelPackCollections_ = {}) noexcept : type{type_}, beatmapLevelPack{beatmapLevelPack_}, previewBeatmapLevelPack{previewBeatmapLevelPack_}, serializedName{serializedName_}, levelPackCollection{levelPackCollection_}, beatmapLevelPacks{beatmapLevelPacks_}, previewBeatmapLevelPacks{previewBeatmapLevelPacks_}, levelPackCollections{levelPackCollections_} {}
-    // Get instance field: public SongPackMaskModelSO/SongPackDataType _type
-    GlobalNamespace::SongPackMaskModelSO::SongPackDataType _get__type();
-    // Set instance field: public SongPackMaskModelSO/SongPackDataType _type
-    void _set__type(GlobalNamespace::SongPackMaskModelSO::SongPackDataType value);
-    // Get instance field: public BeatmapLevelPackSO _beatmapLevelPack
-    GlobalNamespace::BeatmapLevelPackSO* _get__beatmapLevelPack();
-    // Set instance field: public BeatmapLevelPackSO _beatmapLevelPack
-    void _set__beatmapLevelPack(GlobalNamespace::BeatmapLevelPackSO* value);
-    // Get instance field: public PreviewBeatmapLevelPackSO _previewBeatmapLevelPack
-    GlobalNamespace::PreviewBeatmapLevelPackSO* _get__previewBeatmapLevelPack();
-    // Set instance field: public PreviewBeatmapLevelPackSO _previewBeatmapLevelPack
-    void _set__previewBeatmapLevelPack(GlobalNamespace::PreviewBeatmapLevelPackSO* value);
-    // Get instance field: public System.String _serializedName
-    ::Il2CppString* _get__serializedName();
-    // Set instance field: public System.String _serializedName
-    void _set__serializedName(::Il2CppString* value);
-    // Get instance field: public BeatmapLevelPackCollectionSO _levelPackCollection
-    GlobalNamespace::BeatmapLevelPackCollectionSO* _get__levelPackCollection();
-    // Set instance field: public BeatmapLevelPackCollectionSO _levelPackCollection
-    void _set__levelPackCollection(GlobalNamespace::BeatmapLevelPackCollectionSO* value);
-    // Get instance field: public System.Collections.Generic.List`1<BeatmapLevelPackSO> _beatmapLevelPacks
-    System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelPackSO*>* _get__beatmapLevelPacks();
-    // Set instance field: public System.Collections.Generic.List`1<BeatmapLevelPackSO> _beatmapLevelPacks
-    void _set__beatmapLevelPacks(System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelPackSO*>* value);
-    // Get instance field: public System.Collections.Generic.List`1<PreviewBeatmapLevelPackSO> _previewBeatmapLevelPacks
-    System::Collections::Generic::List_1<GlobalNamespace::PreviewBeatmapLevelPackSO*>* _get__previewBeatmapLevelPacks();
-    // Set instance field: public System.Collections.Generic.List`1<PreviewBeatmapLevelPackSO> _previewBeatmapLevelPacks
-    void _set__previewBeatmapLevelPacks(System::Collections::Generic::List_1<GlobalNamespace::PreviewBeatmapLevelPackSO*>* value);
-    // Get instance field: public System.Collections.Generic.List`1<BeatmapLevelPackCollectionSO> _levelPackCollections
-    System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelPackCollectionSO*>* _get__levelPackCollections();
-    // Set instance field: public System.Collections.Generic.List`1<BeatmapLevelPackCollectionSO> _levelPackCollections
-    void _set__levelPackCollections(System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelPackCollectionSO*>* value);
+    // Get instance field reference: public SongPackMaskModelSO/SongPackDataType _type
+    GlobalNamespace::SongPackMaskModelSO::SongPackDataType& dyn__type();
+    // Get instance field reference: public BeatmapLevelPackSO _beatmapLevelPack
+    GlobalNamespace::BeatmapLevelPackSO*& dyn__beatmapLevelPack();
+    // Get instance field reference: public PreviewBeatmapLevelPackSO _previewBeatmapLevelPack
+    GlobalNamespace::PreviewBeatmapLevelPackSO*& dyn__previewBeatmapLevelPack();
+    // Get instance field reference: public System.String _serializedName
+    ::Il2CppString*& dyn__serializedName();
+    // Get instance field reference: public BeatmapLevelPackCollectionSO _levelPackCollection
+    GlobalNamespace::BeatmapLevelPackCollectionSO*& dyn__levelPackCollection();
+    // Get instance field reference: public System.Collections.Generic.List`1<BeatmapLevelPackSO> _beatmapLevelPacks
+    System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelPackSO*>*& dyn__beatmapLevelPacks();
+    // Get instance field reference: public System.Collections.Generic.List`1<PreviewBeatmapLevelPackSO> _previewBeatmapLevelPacks
+    System::Collections::Generic::List_1<GlobalNamespace::PreviewBeatmapLevelPackSO*>*& dyn__previewBeatmapLevelPacks();
+    // Get instance field reference: public System.Collections.Generic.List`1<BeatmapLevelPackCollectionSO> _levelPackCollections
+    System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelPackCollectionSO*>*& dyn__levelPackCollections();
     // public System.String get_serializedName()
     // Offset: 0x107F988
     ::Il2CppString* get_serializedName();

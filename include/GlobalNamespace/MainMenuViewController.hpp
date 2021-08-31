@@ -128,10 +128,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::MainMenuViewController::MenuButton _get_HowToPlay();
       // Set static field: static public MainMenuViewController/MenuButton HowToPlay
       static void _set_HowToPlay(GlobalNamespace::MainMenuViewController::MenuButton value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // MainMenuViewController/MenuButton
     #pragma pack(pop)
     static check_size<sizeof(MainMenuViewController::MenuButton), 0 + sizeof(int)> __GlobalNamespace_MainMenuViewController_MenuButtonSizeCheck;
@@ -231,66 +229,36 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_1<GlobalNamespace::IBeatmapLevelPack*>*) == 0x8);
     // Creating value type constructor for type: MainMenuViewController
     MainMenuViewController(UnityEngine::UI::Button* soloButton_ = {}, UnityEngine::UI::Button* partyButton_ = {}, UnityEngine::UI::Button* campaignButton_ = {}, UnityEngine::UI::Button* quitButton_ = {}, UnityEngine::UI::Button* howToPlayButton_ = {}, UnityEngine::UI::Button* beatmapEditorButton_ = {}, UnityEngine::UI::Button* multiplayerButton_ = {}, UnityEngine::UI::Button* optionsButton_ = {}, UnityEngine::UI::Button* musicPackPromoButton_ = {}, GlobalNamespace::MusicPackPromoBanner* musicPackPromoBanner_ = {}, GlobalNamespace::DlcPromoExperimentModel* dlcPromoExperimentModel_ = {}, GlobalNamespace::AppStaticSettingsSO* appStaticSettings_ = {}, GlobalNamespace::IAnalyticsModel* analyticsModel_ = {}, System::Action_2<GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton>* didFinishEvent_ = {}, System::Action_1<GlobalNamespace::IBeatmapLevelPack*>* musicPackPromoButtonWasPressedEvent_ = {}) noexcept : soloButton{soloButton_}, partyButton{partyButton_}, campaignButton{campaignButton_}, quitButton{quitButton_}, howToPlayButton{howToPlayButton_}, beatmapEditorButton{beatmapEditorButton_}, multiplayerButton{multiplayerButton_}, optionsButton{optionsButton_}, musicPackPromoButton{musicPackPromoButton_}, musicPackPromoBanner{musicPackPromoBanner_}, dlcPromoExperimentModel{dlcPromoExperimentModel_}, appStaticSettings{appStaticSettings_}, analyticsModel{analyticsModel_}, didFinishEvent{didFinishEvent_}, musicPackPromoButtonWasPressedEvent{musicPackPromoButtonWasPressedEvent_} {}
-    // Get instance field: private UnityEngine.UI.Button _soloButton
-    UnityEngine::UI::Button* _get__soloButton();
-    // Set instance field: private UnityEngine.UI.Button _soloButton
-    void _set__soloButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _partyButton
-    UnityEngine::UI::Button* _get__partyButton();
-    // Set instance field: private UnityEngine.UI.Button _partyButton
-    void _set__partyButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _campaignButton
-    UnityEngine::UI::Button* _get__campaignButton();
-    // Set instance field: private UnityEngine.UI.Button _campaignButton
-    void _set__campaignButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _quitButton
-    UnityEngine::UI::Button* _get__quitButton();
-    // Set instance field: private UnityEngine.UI.Button _quitButton
-    void _set__quitButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _howToPlayButton
-    UnityEngine::UI::Button* _get__howToPlayButton();
-    // Set instance field: private UnityEngine.UI.Button _howToPlayButton
-    void _set__howToPlayButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _beatmapEditorButton
-    UnityEngine::UI::Button* _get__beatmapEditorButton();
-    // Set instance field: private UnityEngine.UI.Button _beatmapEditorButton
-    void _set__beatmapEditorButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _multiplayerButton
-    UnityEngine::UI::Button* _get__multiplayerButton();
-    // Set instance field: private UnityEngine.UI.Button _multiplayerButton
-    void _set__multiplayerButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _optionsButton
-    UnityEngine::UI::Button* _get__optionsButton();
-    // Set instance field: private UnityEngine.UI.Button _optionsButton
-    void _set__optionsButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _musicPackPromoButton
-    UnityEngine::UI::Button* _get__musicPackPromoButton();
-    // Set instance field: private UnityEngine.UI.Button _musicPackPromoButton
-    void _set__musicPackPromoButton(UnityEngine::UI::Button* value);
-    // Get instance field: private MusicPackPromoBanner _musicPackPromoBanner
-    GlobalNamespace::MusicPackPromoBanner* _get__musicPackPromoBanner();
-    // Set instance field: private MusicPackPromoBanner _musicPackPromoBanner
-    void _set__musicPackPromoBanner(GlobalNamespace::MusicPackPromoBanner* value);
-    // Get instance field: private readonly DlcPromoExperimentModel _dlcPromoExperimentModel
-    GlobalNamespace::DlcPromoExperimentModel* _get__dlcPromoExperimentModel();
-    // Set instance field: private readonly DlcPromoExperimentModel _dlcPromoExperimentModel
-    void _set__dlcPromoExperimentModel(GlobalNamespace::DlcPromoExperimentModel* value);
-    // Get instance field: private readonly AppStaticSettingsSO _appStaticSettings
-    GlobalNamespace::AppStaticSettingsSO* _get__appStaticSettings();
-    // Set instance field: private readonly AppStaticSettingsSO _appStaticSettings
-    void _set__appStaticSettings(GlobalNamespace::AppStaticSettingsSO* value);
-    // Get instance field: private readonly IAnalyticsModel _analyticsModel
-    GlobalNamespace::IAnalyticsModel* _get__analyticsModel();
-    // Set instance field: private readonly IAnalyticsModel _analyticsModel
-    void _set__analyticsModel(GlobalNamespace::IAnalyticsModel* value);
-    // Get instance field: private System.Action`2<MainMenuViewController,MainMenuViewController/MenuButton> didFinishEvent
-    System::Action_2<GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton>* _get_didFinishEvent();
-    // Set instance field: private System.Action`2<MainMenuViewController,MainMenuViewController/MenuButton> didFinishEvent
-    void _set_didFinishEvent(System::Action_2<GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton>* value);
-    // Get instance field: private System.Action`1<IBeatmapLevelPack> musicPackPromoButtonWasPressedEvent
-    System::Action_1<GlobalNamespace::IBeatmapLevelPack*>* _get_musicPackPromoButtonWasPressedEvent();
-    // Set instance field: private System.Action`1<IBeatmapLevelPack> musicPackPromoButtonWasPressedEvent
-    void _set_musicPackPromoButtonWasPressedEvent(System::Action_1<GlobalNamespace::IBeatmapLevelPack*>* value);
+    // Get instance field reference: private UnityEngine.UI.Button _soloButton
+    UnityEngine::UI::Button*& dyn__soloButton();
+    // Get instance field reference: private UnityEngine.UI.Button _partyButton
+    UnityEngine::UI::Button*& dyn__partyButton();
+    // Get instance field reference: private UnityEngine.UI.Button _campaignButton
+    UnityEngine::UI::Button*& dyn__campaignButton();
+    // Get instance field reference: private UnityEngine.UI.Button _quitButton
+    UnityEngine::UI::Button*& dyn__quitButton();
+    // Get instance field reference: private UnityEngine.UI.Button _howToPlayButton
+    UnityEngine::UI::Button*& dyn__howToPlayButton();
+    // Get instance field reference: private UnityEngine.UI.Button _beatmapEditorButton
+    UnityEngine::UI::Button*& dyn__beatmapEditorButton();
+    // Get instance field reference: private UnityEngine.UI.Button _multiplayerButton
+    UnityEngine::UI::Button*& dyn__multiplayerButton();
+    // Get instance field reference: private UnityEngine.UI.Button _optionsButton
+    UnityEngine::UI::Button*& dyn__optionsButton();
+    // Get instance field reference: private UnityEngine.UI.Button _musicPackPromoButton
+    UnityEngine::UI::Button*& dyn__musicPackPromoButton();
+    // Get instance field reference: private MusicPackPromoBanner _musicPackPromoBanner
+    GlobalNamespace::MusicPackPromoBanner*& dyn__musicPackPromoBanner();
+    // Get instance field reference: private readonly DlcPromoExperimentModel _dlcPromoExperimentModel
+    GlobalNamespace::DlcPromoExperimentModel*& dyn__dlcPromoExperimentModel();
+    // Get instance field reference: private readonly AppStaticSettingsSO _appStaticSettings
+    GlobalNamespace::AppStaticSettingsSO*& dyn__appStaticSettings();
+    // Get instance field reference: private readonly IAnalyticsModel _analyticsModel
+    GlobalNamespace::IAnalyticsModel*& dyn__analyticsModel();
+    // Get instance field reference: private System.Action`2<MainMenuViewController,MainMenuViewController/MenuButton> didFinishEvent
+    System::Action_2<GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton>*& dyn_didFinishEvent();
+    // Get instance field reference: private System.Action`1<IBeatmapLevelPack> musicPackPromoButtonWasPressedEvent
+    System::Action_1<GlobalNamespace::IBeatmapLevelPack*>*& dyn_musicPackPromoButtonWasPressedEvent();
     // public System.Void add_didFinishEvent(System.Action`2<MainMenuViewController,MainMenuViewController/MenuButton> value)
     // Offset: 0x10DEE18
     void add_didFinishEvent(System::Action_2<GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton>* value);

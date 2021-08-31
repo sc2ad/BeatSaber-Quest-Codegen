@@ -40,18 +40,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: LevelProductData
     LevelProductData(::Il2CppString* entitlementLabel_ = {}, ::Il2CppString* productLabel_ = {}, ::Il2CppString* levelId_ = {}) noexcept : entitlementLabel{entitlementLabel_}, productLabel{productLabel_}, levelId{levelId_} {}
-    // Get instance field: private System.String _entitlementLabel
-    ::Il2CppString* _get__entitlementLabel();
-    // Set instance field: private System.String _entitlementLabel
-    void _set__entitlementLabel(::Il2CppString* value);
-    // Get instance field: private System.String _productLabel
-    ::Il2CppString* _get__productLabel();
-    // Set instance field: private System.String _productLabel
-    void _set__productLabel(::Il2CppString* value);
-    // Get instance field: private System.String _levelId
-    ::Il2CppString* _get__levelId();
-    // Set instance field: private System.String _levelId
-    void _set__levelId(::Il2CppString* value);
+    // Get instance field reference: private System.String _entitlementLabel
+    ::Il2CppString*& dyn__entitlementLabel();
+    // Get instance field reference: private System.String _productLabel
+    ::Il2CppString*& dyn__productLabel();
+    // Get instance field reference: private System.String _levelId
+    ::Il2CppString*& dyn__levelId();
     // public System.String get_entitlementLabel()
     // Offset: 0x102E54C
     ::Il2CppString* get_entitlementLabel();

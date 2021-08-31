@@ -77,30 +77,18 @@ namespace GlobalNamespace {
     BasicUIAudioManager(::Array<GlobalNamespace::Signal*>* buttonClickEvents_ = {}, UnityEngine::AudioSource* audioSource_ = {}, ::Array<UnityEngine::AudioClip*>* clickSounds_ = {}, float minPitch_ = {}, float maxPitch_ = {}, GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* randomSoundPicker_ = {}) noexcept : buttonClickEvents{buttonClickEvents_}, audioSource{audioSource_}, clickSounds{clickSounds_}, minPitch{minPitch_}, maxPitch{maxPitch_}, randomSoundPicker{randomSoundPicker_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private Signal[] _buttonClickEvents
-    ::Array<GlobalNamespace::Signal*>* _get__buttonClickEvents();
-    // Set instance field: private Signal[] _buttonClickEvents
-    void _set__buttonClickEvents(::Array<GlobalNamespace::Signal*>* value);
-    // Get instance field: private UnityEngine.AudioSource _audioSource
-    UnityEngine::AudioSource* _get__audioSource();
-    // Set instance field: private UnityEngine.AudioSource _audioSource
-    void _set__audioSource(UnityEngine::AudioSource* value);
-    // Get instance field: private UnityEngine.AudioClip[] _clickSounds
-    ::Array<UnityEngine::AudioClip*>* _get__clickSounds();
-    // Set instance field: private UnityEngine.AudioClip[] _clickSounds
-    void _set__clickSounds(::Array<UnityEngine::AudioClip*>* value);
-    // Get instance field: private System.Single _minPitch
-    float _get__minPitch();
-    // Set instance field: private System.Single _minPitch
-    void _set__minPitch(float value);
-    // Get instance field: private System.Single _maxPitch
-    float _get__maxPitch();
-    // Set instance field: private System.Single _maxPitch
-    void _set__maxPitch(float value);
-    // Get instance field: private RandomObjectPicker`1<UnityEngine.AudioClip> _randomSoundPicker
-    GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* _get__randomSoundPicker();
-    // Set instance field: private RandomObjectPicker`1<UnityEngine.AudioClip> _randomSoundPicker
-    void _set__randomSoundPicker(GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* value);
+    // Get instance field reference: private Signal[] _buttonClickEvents
+    ::Array<GlobalNamespace::Signal*>*& dyn__buttonClickEvents();
+    // Get instance field reference: private UnityEngine.AudioSource _audioSource
+    UnityEngine::AudioSource*& dyn__audioSource();
+    // Get instance field reference: private UnityEngine.AudioClip[] _clickSounds
+    ::Array<UnityEngine::AudioClip*>*& dyn__clickSounds();
+    // Get instance field reference: private System.Single _minPitch
+    float& dyn__minPitch();
+    // Get instance field reference: private System.Single _maxPitch
+    float& dyn__maxPitch();
+    // Get instance field reference: private RandomObjectPicker`1<UnityEngine.AudioClip> _randomSoundPicker
+    GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>*& dyn__randomSoundPicker();
     // protected System.Void Start()
     // Offset: 0x11E71F8
     void Start();

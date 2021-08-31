@@ -104,50 +104,28 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::Array<UnityEngine::Quaternion>*) == 0x8);
     // Creating value type constructor for type: IKSolverArm
     IKSolverArm(float IKRotationWeight_ = {}, UnityEngine::Quaternion IKRotation_ = {}, RootMotion::FinalIK::IKSolver::Point* chest_ = {}, RootMotion::FinalIK::IKSolver::Point* shoulder_ = {}, RootMotion::FinalIK::IKSolver::Point* upperArm_ = {}, RootMotion::FinalIK::IKSolver::Point* forearm_ = {}, RootMotion::FinalIK::IKSolver::Point* hand_ = {}, bool isLeft_ = {}, RootMotion::FinalIK::IKSolverVR::Arm* arm_ = {}, ::Array<UnityEngine::Vector3>* positions_ = {}, ::Array<UnityEngine::Quaternion>* rotations_ = {}) noexcept : IKRotationWeight{IKRotationWeight_}, IKRotation{IKRotation_}, chest{chest_}, shoulder{shoulder_}, upperArm{upperArm_}, forearm{forearm_}, hand{hand_}, isLeft{isLeft_}, arm{arm_}, positions{positions_}, rotations{rotations_} {}
-    // Get instance field: public System.Single IKRotationWeight
-    float _get_IKRotationWeight();
-    // Set instance field: public System.Single IKRotationWeight
-    void _set_IKRotationWeight(float value);
-    // Get instance field: public UnityEngine.Quaternion IKRotation
-    UnityEngine::Quaternion _get_IKRotation();
-    // Set instance field: public UnityEngine.Quaternion IKRotation
-    void _set_IKRotation(UnityEngine::Quaternion value);
-    // Get instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point chest
-    RootMotion::FinalIK::IKSolver::Point* _get_chest();
-    // Set instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point chest
-    void _set_chest(RootMotion::FinalIK::IKSolver::Point* value);
-    // Get instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point shoulder
-    RootMotion::FinalIK::IKSolver::Point* _get_shoulder();
-    // Set instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point shoulder
-    void _set_shoulder(RootMotion::FinalIK::IKSolver::Point* value);
-    // Get instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point upperArm
-    RootMotion::FinalIK::IKSolver::Point* _get_upperArm();
-    // Set instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point upperArm
-    void _set_upperArm(RootMotion::FinalIK::IKSolver::Point* value);
-    // Get instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point forearm
-    RootMotion::FinalIK::IKSolver::Point* _get_forearm();
-    // Set instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point forearm
-    void _set_forearm(RootMotion::FinalIK::IKSolver::Point* value);
-    // Get instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point hand
-    RootMotion::FinalIK::IKSolver::Point* _get_hand();
-    // Set instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point hand
-    void _set_hand(RootMotion::FinalIK::IKSolver::Point* value);
-    // Get instance field: public System.Boolean isLeft
-    bool _get_isLeft();
-    // Set instance field: public System.Boolean isLeft
-    void _set_isLeft(bool value);
-    // Get instance field: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Arm arm
-    RootMotion::FinalIK::IKSolverVR::Arm* _get_arm();
-    // Set instance field: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Arm arm
-    void _set_arm(RootMotion::FinalIK::IKSolverVR::Arm* value);
-    // Get instance field: private UnityEngine.Vector3[] positions
-    ::Array<UnityEngine::Vector3>* _get_positions();
-    // Set instance field: private UnityEngine.Vector3[] positions
-    void _set_positions(::Array<UnityEngine::Vector3>* value);
-    // Get instance field: private UnityEngine.Quaternion[] rotations
-    ::Array<UnityEngine::Quaternion>* _get_rotations();
-    // Set instance field: private UnityEngine.Quaternion[] rotations
-    void _set_rotations(::Array<UnityEngine::Quaternion>* value);
+    // Get instance field reference: public System.Single IKRotationWeight
+    float& dyn_IKRotationWeight();
+    // Get instance field reference: public UnityEngine.Quaternion IKRotation
+    UnityEngine::Quaternion& dyn_IKRotation();
+    // Get instance field reference: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point chest
+    RootMotion::FinalIK::IKSolver::Point*& dyn_chest();
+    // Get instance field reference: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point shoulder
+    RootMotion::FinalIK::IKSolver::Point*& dyn_shoulder();
+    // Get instance field reference: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point upperArm
+    RootMotion::FinalIK::IKSolver::Point*& dyn_upperArm();
+    // Get instance field reference: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point forearm
+    RootMotion::FinalIK::IKSolver::Point*& dyn_forearm();
+    // Get instance field reference: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point hand
+    RootMotion::FinalIK::IKSolver::Point*& dyn_hand();
+    // Get instance field reference: public System.Boolean isLeft
+    bool& dyn_isLeft();
+    // Get instance field reference: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Arm arm
+    RootMotion::FinalIK::IKSolverVR::Arm*& dyn_arm();
+    // Get instance field reference: private UnityEngine.Vector3[] positions
+    ::Array<UnityEngine::Vector3>*& dyn_positions();
+    // Get instance field reference: private UnityEngine.Quaternion[] rotations
+    ::Array<UnityEngine::Quaternion>*& dyn_rotations();
     // public System.Boolean SetChain(UnityEngine.Transform chest, UnityEngine.Transform shoulder, UnityEngine.Transform upperArm, UnityEngine.Transform forearm, UnityEngine.Transform hand, UnityEngine.Transform root)
     // Offset: 0x1CAA54C
     bool SetChain(UnityEngine::Transform* chest, UnityEngine::Transform* shoulder, UnityEngine::Transform* upperArm, UnityEngine::Transform* forearm, UnityEngine::Transform* hand, UnityEngine::Transform* root);

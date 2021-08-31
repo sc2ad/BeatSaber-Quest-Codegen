@@ -40,10 +40,8 @@ namespace System {
     constexpr operator ::Il2CppString*() const noexcept {
       return objectName;
     }
-    // Get instance field: private System.String objectName
-    ::Il2CppString* _get_objectName();
-    // Set instance field: private System.String objectName
-    void _set_objectName(::Il2CppString* value);
+    // Get instance field reference: private System.String objectName
+    ::Il2CppString*& dyn_objectName();
     // public System.String get_ObjectName()
     // Offset: 0x1D0E5B8
     ::Il2CppString* get_ObjectName();

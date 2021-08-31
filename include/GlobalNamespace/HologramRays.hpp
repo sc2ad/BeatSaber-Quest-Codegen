@@ -185,74 +185,40 @@ namespace GlobalNamespace {
     static UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static void _set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock* value);
-    // Get instance field: private TubeBloomPrePassLight _bloomLight
-    GlobalNamespace::TubeBloomPrePassLight* _get__bloomLight();
-    // Set instance field: private TubeBloomPrePassLight _bloomLight
-    void _set__bloomLight(GlobalNamespace::TubeBloomPrePassLight* value);
-    // Get instance field: private UnityEngine.MeshRenderer _raysMeshRenderer
-    UnityEngine::MeshRenderer* _get__raysMeshRenderer();
-    // Set instance field: private UnityEngine.MeshRenderer _raysMeshRenderer
-    void _set__raysMeshRenderer(UnityEngine::MeshRenderer* value);
-    // Get instance field: private UnityEngine.Transform _targetTransform
-    UnityEngine::Transform* _get__targetTransform();
-    // Set instance field: private UnityEngine.Transform _targetTransform
-    void _set__targetTransform(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.Transform _laserHolderTransform
-    UnityEngine::Transform* _get__laserHolderTransform();
-    // Set instance field: private UnityEngine.Transform _laserHolderTransform
-    void _set__laserHolderTransform(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.Transform _hologramRaysTransform
-    UnityEngine::Transform* _get__hologramRaysTransform();
-    // Set instance field: private UnityEngine.Transform _hologramRaysTransform
-    void _set__hologramRaysTransform(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.Mesh _hologramRaysMesh
-    UnityEngine::Mesh* _get__hologramRaysMesh();
-    // Set instance field: private UnityEngine.Mesh _hologramRaysMesh
-    void _set__hologramRaysMesh(UnityEngine::Mesh* value);
-    // Get instance field: private System.Single _topYPosition
-    float _get__topYPosition();
-    // Set instance field: private System.Single _topYPosition
-    void _set__topYPosition(float value);
-    // Get instance field: private System.Single _bottomYPosition
-    float _get__bottomYPosition();
-    // Set instance field: private System.Single _bottomYPosition
-    void _set__bottomYPosition(float value);
-    // Get instance field: private System.Single cachedExtent
-    float _get_cachedExtent();
-    // Set instance field: private System.Single cachedExtent
-    void _set_cachedExtent(float value);
-    // Get instance field: private readonly Tweening.TweeningManager _tweeningManager
-    Tweening::TweeningManager* _get__tweeningManager();
-    // Set instance field: private readonly Tweening.TweeningManager _tweeningManager
-    void _set__tweeningManager(Tweening::TweeningManager* value);
-    // Get instance field: private Tweening.FloatTween _transitionTween
-    Tweening::FloatTween* _get__transitionTween();
-    // Set instance field: private Tweening.FloatTween _transitionTween
-    void _set__transitionTween(Tweening::FloatTween* value);
-    // Get instance field: private UnityEngine.Color _bloomColor
-    UnityEngine::Color _get__bloomColor();
-    // Set instance field: private UnityEngine.Color _bloomColor
-    void _set__bloomColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _bloomTransparentColor
-    UnityEngine::Color _get__bloomTransparentColor();
-    // Set instance field: private UnityEngine.Color _bloomTransparentColor
-    void _set__bloomTransparentColor(UnityEngine::Color value);
-    // Get instance field: private System.Single _alpha
-    float _get__alpha();
-    // Set instance field: private System.Single _alpha
-    void _set__alpha(float value);
-    // Get instance field: private System.Single _raysDistance
-    float _get__raysDistance();
-    // Set instance field: private System.Single _raysDistance
-    void _set__raysDistance(float value);
-    // Get instance field: private UnityEngine.Vector3 _raysLocalScale
-    UnityEngine::Vector3 _get__raysLocalScale();
-    // Set instance field: private UnityEngine.Vector3 _raysLocalScale
-    void _set__raysLocalScale(UnityEngine::Vector3 value);
-    // Get instance field: private System.Boolean boundsInitialized
-    bool _get_boundsInitialized();
-    // Set instance field: private System.Boolean boundsInitialized
-    void _set_boundsInitialized(bool value);
+    // Get instance field reference: private TubeBloomPrePassLight _bloomLight
+    GlobalNamespace::TubeBloomPrePassLight*& dyn__bloomLight();
+    // Get instance field reference: private UnityEngine.MeshRenderer _raysMeshRenderer
+    UnityEngine::MeshRenderer*& dyn__raysMeshRenderer();
+    // Get instance field reference: private UnityEngine.Transform _targetTransform
+    UnityEngine::Transform*& dyn__targetTransform();
+    // Get instance field reference: private UnityEngine.Transform _laserHolderTransform
+    UnityEngine::Transform*& dyn__laserHolderTransform();
+    // Get instance field reference: private UnityEngine.Transform _hologramRaysTransform
+    UnityEngine::Transform*& dyn__hologramRaysTransform();
+    // Get instance field reference: private UnityEngine.Mesh _hologramRaysMesh
+    UnityEngine::Mesh*& dyn__hologramRaysMesh();
+    // Get instance field reference: private System.Single _topYPosition
+    float& dyn__topYPosition();
+    // Get instance field reference: private System.Single _bottomYPosition
+    float& dyn__bottomYPosition();
+    // Get instance field reference: private System.Single cachedExtent
+    float& dyn_cachedExtent();
+    // Get instance field reference: private readonly Tweening.TweeningManager _tweeningManager
+    Tweening::TweeningManager*& dyn__tweeningManager();
+    // Get instance field reference: private Tweening.FloatTween _transitionTween
+    Tweening::FloatTween*& dyn__transitionTween();
+    // Get instance field reference: private UnityEngine.Color _bloomColor
+    UnityEngine::Color& dyn__bloomColor();
+    // Get instance field reference: private UnityEngine.Color _bloomTransparentColor
+    UnityEngine::Color& dyn__bloomTransparentColor();
+    // Get instance field reference: private System.Single _alpha
+    float& dyn__alpha();
+    // Get instance field reference: private System.Single _raysDistance
+    float& dyn__raysDistance();
+    // Get instance field reference: private UnityEngine.Vector3 _raysLocalScale
+    UnityEngine::Vector3& dyn__raysLocalScale();
+    // Get instance field reference: private System.Boolean boundsInitialized
+    bool& dyn_boundsInitialized();
     // static private System.Void RuntimeInit()
     // Offset: 0x1143C6C
     static void RuntimeInit();

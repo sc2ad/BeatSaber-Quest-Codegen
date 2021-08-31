@@ -67,18 +67,12 @@ namespace UnityEngine::AddressableAssets {
     static_assert(sizeof(System::Type*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass72_0
     $$c__DisplayClass72_0(UnityEngine::AddressableAssets::AddressablesImpl* $$4__this_ = {}, ::Il2CppObject* key_ = {}, System::Type* type_ = {}) noexcept : $$4__this{$$4__this_}, key{key_}, type{type_} {}
-    // Get instance field: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
-    UnityEngine::AddressableAssets::AddressablesImpl* _get_$$4__this();
-    // Set instance field: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
-    void _set_$$4__this(UnityEngine::AddressableAssets::AddressablesImpl* value);
-    // Get instance field: public System.Object key
-    ::Il2CppObject* _get_key();
-    // Set instance field: public System.Object key
-    void _set_key(::Il2CppObject* value);
-    // Get instance field: public System.Type type
-    System::Type* _get_type();
-    // Set instance field: public System.Type type
-    void _set_type(System::Type* value);
+    // Get instance field reference: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
+    UnityEngine::AddressableAssets::AddressablesImpl*& dyn_$$4__this();
+    // Get instance field reference: public System.Object key
+    ::Il2CppObject*& dyn_key();
+    // Get instance field reference: public System.Type type
+    System::Type*& dyn_type();
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>> <LoadResourceLocationsWithChain>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle op)
     // Offset: 0x144277C
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> $LoadResourceLocationsWithChain$b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);

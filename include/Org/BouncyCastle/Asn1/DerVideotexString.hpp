@@ -40,10 +40,8 @@ namespace Org::BouncyCastle::Asn1 {
     constexpr operator ::Array<uint8_t>*() const noexcept {
       return mString;
     }
-    // Get instance field: private readonly System.Byte[] mString
-    ::Array<uint8_t>* _get_mString();
-    // Set instance field: private readonly System.Byte[] mString
-    void _set_mString(::Array<uint8_t>* value);
+    // Get instance field reference: private readonly System.Byte[] mString
+    ::Array<uint8_t>*& dyn_mString();
     // public System.Void .ctor(System.Byte[] encoding)
     // Offset: 0x172A544
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

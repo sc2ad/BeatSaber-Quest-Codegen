@@ -56,10 +56,8 @@ namespace UnityEngine::Playables {
     static UnityEngine::Playables::PlayableOutput _get_m_NullPlayableOutput();
     // Set static field: static private readonly UnityEngine.Playables.PlayableOutput m_NullPlayableOutput
     static void _set_m_NullPlayableOutput(UnityEngine::Playables::PlayableOutput value);
-    // Get instance field: private UnityEngine.Playables.PlayableOutputHandle m_Handle
-    UnityEngine::Playables::PlayableOutputHandle _get_m_Handle();
-    // Set instance field: private UnityEngine.Playables.PlayableOutputHandle m_Handle
-    void _set_m_Handle(UnityEngine::Playables::PlayableOutputHandle value);
+    // Get instance field reference: private UnityEngine.Playables.PlayableOutputHandle m_Handle
+    UnityEngine::Playables::PlayableOutputHandle& dyn_m_Handle();
     // static public UnityEngine.Playables.PlayableOutput get_Null()
     // Offset: 0x1D0B518
     static UnityEngine::Playables::PlayableOutput get_Null();

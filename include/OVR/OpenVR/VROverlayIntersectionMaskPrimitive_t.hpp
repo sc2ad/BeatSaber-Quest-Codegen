@@ -36,14 +36,10 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public OVR.OpenVR.EVROverlayIntersectionMaskPrimitiveType m_nPrimitiveType
-    OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType _get_m_nPrimitiveType();
-    // Set instance field: public OVR.OpenVR.EVROverlayIntersectionMaskPrimitiveType m_nPrimitiveType
-    void _set_m_nPrimitiveType(OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType value);
-    // Get instance field: public OVR.OpenVR.VROverlayIntersectionMaskPrimitive_Data_t m_Primitive
-    OVR::OpenVR::VROverlayIntersectionMaskPrimitive_Data_t _get_m_Primitive();
-    // Set instance field: public OVR.OpenVR.VROverlayIntersectionMaskPrimitive_Data_t m_Primitive
-    void _set_m_Primitive(OVR::OpenVR::VROverlayIntersectionMaskPrimitive_Data_t value);
+    // Get instance field reference: public OVR.OpenVR.EVROverlayIntersectionMaskPrimitiveType m_nPrimitiveType
+    OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType& dyn_m_nPrimitiveType();
+    // Get instance field reference: public OVR.OpenVR.VROverlayIntersectionMaskPrimitive_Data_t m_Primitive
+    OVR::OpenVR::VROverlayIntersectionMaskPrimitive_Data_t& dyn_m_Primitive();
   }; // OVR.OpenVR.VROverlayIntersectionMaskPrimitive_t
   // WARNING Not writing size check since size may be invalid!
 }

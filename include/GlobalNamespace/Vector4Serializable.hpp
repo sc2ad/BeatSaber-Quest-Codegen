@@ -74,22 +74,14 @@ namespace GlobalNamespace {
     operator System::IEquatable_1<GlobalNamespace::Vector4Serializable>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<GlobalNamespace::Vector4Serializable>*>(this);
     }
-    // Get instance field: private System.Int32 _x
-    int _get__x();
-    // Set instance field: private System.Int32 _x
-    void _set__x(int value);
-    // Get instance field: private System.Int32 _y
-    int _get__y();
-    // Set instance field: private System.Int32 _y
-    void _set__y(int value);
-    // Get instance field: private System.Int32 _z
-    int _get__z();
-    // Set instance field: private System.Int32 _z
-    void _set__z(int value);
-    // Get instance field: private System.Int32 _w
-    int _get__w();
-    // Set instance field: private System.Int32 _w
-    void _set__w(int value);
+    // Get instance field reference: private System.Int32 _x
+    int& dyn__x();
+    // Get instance field reference: private System.Int32 _y
+    int& dyn__y();
+    // Get instance field reference: private System.Int32 _z
+    int& dyn__z();
+    // Get instance field reference: private System.Int32 _w
+    int& dyn__w();
     // public System.Void .ctor(UnityEngine.Vector4 v)
     // Offset: 0x237EE40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

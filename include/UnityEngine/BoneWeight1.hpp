@@ -46,14 +46,10 @@ namespace UnityEngine {
     operator System::IEquatable_1<UnityEngine::BoneWeight1>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::BoneWeight1>*>(this);
     }
-    // Get instance field: private System.Single m_Weight
-    float _get_m_Weight();
-    // Set instance field: private System.Single m_Weight
-    void _set_m_Weight(float value);
-    // Get instance field: private System.Int32 m_BoneIndex
-    int _get_m_BoneIndex();
-    // Set instance field: private System.Int32 m_BoneIndex
-    void _set_m_BoneIndex(int value);
+    // Get instance field reference: private System.Single m_Weight
+    float& dyn_m_Weight();
+    // Get instance field reference: private System.Int32 m_BoneIndex
+    int& dyn_m_BoneIndex();
     // public System.Single get_weight()
     // Offset: 0x1C1DBF8
     float get_weight();

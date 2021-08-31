@@ -52,26 +52,16 @@ namespace TMPro {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Int32 firstCharacterIndex
-    int _get_firstCharacterIndex();
-    // Set instance field: public System.Int32 firstCharacterIndex
-    void _set_firstCharacterIndex(int value);
-    // Get instance field: public System.Int32 lastCharacterIndex
-    int _get_lastCharacterIndex();
-    // Set instance field: public System.Int32 lastCharacterIndex
-    void _set_lastCharacterIndex(int value);
-    // Get instance field: public System.Single ascender
-    float _get_ascender();
-    // Set instance field: public System.Single ascender
-    void _set_ascender(float value);
-    // Get instance field: public System.Single baseLine
-    float _get_baseLine();
-    // Set instance field: public System.Single baseLine
-    void _set_baseLine(float value);
-    // Get instance field: public System.Single descender
-    float _get_descender();
-    // Set instance field: public System.Single descender
-    void _set_descender(float value);
+    // Get instance field reference: public System.Int32 firstCharacterIndex
+    int& dyn_firstCharacterIndex();
+    // Get instance field reference: public System.Int32 lastCharacterIndex
+    int& dyn_lastCharacterIndex();
+    // Get instance field reference: public System.Single ascender
+    float& dyn_ascender();
+    // Get instance field reference: public System.Single baseLine
+    float& dyn_baseLine();
+    // Get instance field reference: public System.Single descender
+    float& dyn_descender();
   }; // TMPro.TMP_PageInfo
   #pragma pack(pop)
   static check_size<sizeof(TMP_PageInfo), 16 + sizeof(float)> __TMPro_TMP_PageInfoSizeCheck;

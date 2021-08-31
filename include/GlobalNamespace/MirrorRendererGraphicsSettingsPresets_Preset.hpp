@@ -68,10 +68,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset::MirrorType _get_RenderedMirror();
       // Set static field: static public MirrorRendererGraphicsSettingsPresets/Preset/MirrorType RenderedMirror
       static void _set_RenderedMirror(GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset::MirrorType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // MirrorRendererGraphicsSettingsPresets/Preset/MirrorType
     #pragma pack(pop)
     static check_size<sizeof(MirrorRendererGraphicsSettingsPresets::Preset::MirrorType), 0 + sizeof(int)> __GlobalNamespace_MirrorRendererGraphicsSettingsPresets_Preset_MirrorTypeSizeCheck;
@@ -128,38 +126,22 @@ namespace GlobalNamespace {
     Preset(GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset::MirrorType mirrorType_ = {}, UnityEngine::LayerMask reflectLayers_ = {}, int stereoTextureWidth_ = {}, int stereoTextureHeight_ = {}, int monoTextureWidth_ = {}, int monoTextureHeight_ = {}, int maxAntiAliasing_ = {}, bool enableBloomPrePassFog_ = {}) noexcept : mirrorType{mirrorType_}, reflectLayers{reflectLayers_}, stereoTextureWidth{stereoTextureWidth_}, stereoTextureHeight{stereoTextureHeight_}, monoTextureWidth{monoTextureWidth_}, monoTextureHeight{monoTextureHeight_}, maxAntiAliasing{maxAntiAliasing_}, enableBloomPrePassFog{enableBloomPrePassFog_} {}
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
-    // Get instance field: public MirrorRendererGraphicsSettingsPresets/Preset/MirrorType mirrorType
-    GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset::MirrorType _get_mirrorType();
-    // Set instance field: public MirrorRendererGraphicsSettingsPresets/Preset/MirrorType mirrorType
-    void _set_mirrorType(GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset::MirrorType value);
-    // Get instance field: public UnityEngine.LayerMask reflectLayers
-    UnityEngine::LayerMask _get_reflectLayers();
-    // Set instance field: public UnityEngine.LayerMask reflectLayers
-    void _set_reflectLayers(UnityEngine::LayerMask value);
-    // Get instance field: public System.Int32 stereoTextureWidth
-    int _get_stereoTextureWidth();
-    // Set instance field: public System.Int32 stereoTextureWidth
-    void _set_stereoTextureWidth(int value);
-    // Get instance field: public System.Int32 stereoTextureHeight
-    int _get_stereoTextureHeight();
-    // Set instance field: public System.Int32 stereoTextureHeight
-    void _set_stereoTextureHeight(int value);
-    // Get instance field: public System.Int32 monoTextureWidth
-    int _get_monoTextureWidth();
-    // Set instance field: public System.Int32 monoTextureWidth
-    void _set_monoTextureWidth(int value);
-    // Get instance field: public System.Int32 monoTextureHeight
-    int _get_monoTextureHeight();
-    // Set instance field: public System.Int32 monoTextureHeight
-    void _set_monoTextureHeight(int value);
-    // Get instance field: public System.Int32 maxAntiAliasing
-    int _get_maxAntiAliasing();
-    // Set instance field: public System.Int32 maxAntiAliasing
-    void _set_maxAntiAliasing(int value);
-    // Get instance field: public System.Boolean enableBloomPrePassFog
-    bool _get_enableBloomPrePassFog();
-    // Set instance field: public System.Boolean enableBloomPrePassFog
-    void _set_enableBloomPrePassFog(bool value);
+    // Get instance field reference: public MirrorRendererGraphicsSettingsPresets/Preset/MirrorType mirrorType
+    GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset::MirrorType& dyn_mirrorType();
+    // Get instance field reference: public UnityEngine.LayerMask reflectLayers
+    UnityEngine::LayerMask& dyn_reflectLayers();
+    // Get instance field reference: public System.Int32 stereoTextureWidth
+    int& dyn_stereoTextureWidth();
+    // Get instance field reference: public System.Int32 stereoTextureHeight
+    int& dyn_stereoTextureHeight();
+    // Get instance field reference: public System.Int32 monoTextureWidth
+    int& dyn_monoTextureWidth();
+    // Get instance field reference: public System.Int32 monoTextureHeight
+    int& dyn_monoTextureHeight();
+    // Get instance field reference: public System.Int32 maxAntiAliasing
+    int& dyn_maxAntiAliasing();
+    // Get instance field reference: public System.Boolean enableBloomPrePassFog
+    bool& dyn_enableBloomPrePassFog();
     // public System.Void .ctor()
     // Offset: 0x10E78C0
     // Implemented from: NamedPreset

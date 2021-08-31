@@ -58,30 +58,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: EnabledTransitionSO
     EnabledTransitionSO(bool normalState_ = {}, bool highlightedState_ = {}, bool pressedState_ = {}, bool disabledState_ = {}, bool selectedState_ = {}, bool selectedAndHighlightedState_ = {}) noexcept : normalState{normalState_}, highlightedState{highlightedState_}, pressedState{pressedState_}, disabledState{disabledState_}, selectedState{selectedState_}, selectedAndHighlightedState{selectedAndHighlightedState_} {}
-    // Get instance field: private System.Boolean _normalState
-    bool _get__normalState();
-    // Set instance field: private System.Boolean _normalState
-    void _set__normalState(bool value);
-    // Get instance field: private System.Boolean _highlightedState
-    bool _get__highlightedState();
-    // Set instance field: private System.Boolean _highlightedState
-    void _set__highlightedState(bool value);
-    // Get instance field: private System.Boolean _pressedState
-    bool _get__pressedState();
-    // Set instance field: private System.Boolean _pressedState
-    void _set__pressedState(bool value);
-    // Get instance field: private System.Boolean _disabledState
-    bool _get__disabledState();
-    // Set instance field: private System.Boolean _disabledState
-    void _set__disabledState(bool value);
-    // Get instance field: private System.Boolean _selectedState
-    bool _get__selectedState();
-    // Set instance field: private System.Boolean _selectedState
-    void _set__selectedState(bool value);
-    // Get instance field: private System.Boolean _selectedAndHighlightedState
-    bool _get__selectedAndHighlightedState();
-    // Set instance field: private System.Boolean _selectedAndHighlightedState
-    void _set__selectedAndHighlightedState(bool value);
+    // Get instance field reference: private System.Boolean _normalState
+    bool& dyn__normalState();
+    // Get instance field reference: private System.Boolean _highlightedState
+    bool& dyn__highlightedState();
+    // Get instance field reference: private System.Boolean _pressedState
+    bool& dyn__pressedState();
+    // Get instance field reference: private System.Boolean _disabledState
+    bool& dyn__disabledState();
+    // Get instance field reference: private System.Boolean _selectedState
+    bool& dyn__selectedState();
+    // Get instance field reference: private System.Boolean _selectedAndHighlightedState
+    bool& dyn__selectedAndHighlightedState();
     // public System.Boolean get_normalState()
     // Offset: 0x104FFE8
     bool get_normalState();

@@ -40,10 +40,8 @@ namespace GlobalNamespace {
     constexpr operator System::Collections::Generic::List_1<GlobalNamespace::LeaderboardScoreUploader::ScoreData*>*() const noexcept {
       return scores;
     }
-    // Get instance field: public System.Collections.Generic.List`1<LeaderboardScoreUploader/ScoreData> scores
-    System::Collections::Generic::List_1<GlobalNamespace::LeaderboardScoreUploader::ScoreData*>* _get_scores();
-    // Set instance field: public System.Collections.Generic.List`1<LeaderboardScoreUploader/ScoreData> scores
-    void _set_scores(System::Collections::Generic::List_1<GlobalNamespace::LeaderboardScoreUploader::ScoreData*>* value);
+    // Get instance field reference: public System.Collections.Generic.List`1<LeaderboardScoreUploader/ScoreData> scores
+    System::Collections::Generic::List_1<GlobalNamespace::LeaderboardScoreUploader::ScoreData*>*& dyn_scores();
     // public System.Void .ctor()
     // Offset: 0x1148060
     // Implemented from: System.Object

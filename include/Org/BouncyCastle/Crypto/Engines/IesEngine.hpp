@@ -98,42 +98,24 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static_assert(sizeof(Org::BouncyCastle::Crypto::Parameters::IesParameters*) == 0x8);
     // Creating value type constructor for type: IesEngine
     IesEngine(Org::BouncyCastle::Crypto::IBasicAgreement* agree_ = {}, Org::BouncyCastle::Crypto::IDerivationFunction* kdf_ = {}, Org::BouncyCastle::Crypto::IMac* mac_ = {}, Org::BouncyCastle::Crypto::BufferedBlockCipher* cipher_ = {}, ::Array<uint8_t>* macBuf_ = {}, bool forEncryption_ = {}, Org::BouncyCastle::Crypto::ICipherParameters* privParam_ = {}, Org::BouncyCastle::Crypto::ICipherParameters* pubParam_ = {}, Org::BouncyCastle::Crypto::Parameters::IesParameters* param_ = {}) noexcept : agree{agree_}, kdf{kdf_}, mac{mac_}, cipher{cipher_}, macBuf{macBuf_}, forEncryption{forEncryption_}, privParam{privParam_}, pubParam{pubParam_}, param{param_} {}
-    // Get instance field: private readonly Org.BouncyCastle.Crypto.IBasicAgreement agree
-    Org::BouncyCastle::Crypto::IBasicAgreement* _get_agree();
-    // Set instance field: private readonly Org.BouncyCastle.Crypto.IBasicAgreement agree
-    void _set_agree(Org::BouncyCastle::Crypto::IBasicAgreement* value);
-    // Get instance field: private readonly Org.BouncyCastle.Crypto.IDerivationFunction kdf
-    Org::BouncyCastle::Crypto::IDerivationFunction* _get_kdf();
-    // Set instance field: private readonly Org.BouncyCastle.Crypto.IDerivationFunction kdf
-    void _set_kdf(Org::BouncyCastle::Crypto::IDerivationFunction* value);
-    // Get instance field: private readonly Org.BouncyCastle.Crypto.IMac mac
-    Org::BouncyCastle::Crypto::IMac* _get_mac();
-    // Set instance field: private readonly Org.BouncyCastle.Crypto.IMac mac
-    void _set_mac(Org::BouncyCastle::Crypto::IMac* value);
-    // Get instance field: private readonly Org.BouncyCastle.Crypto.BufferedBlockCipher cipher
-    Org::BouncyCastle::Crypto::BufferedBlockCipher* _get_cipher();
-    // Set instance field: private readonly Org.BouncyCastle.Crypto.BufferedBlockCipher cipher
-    void _set_cipher(Org::BouncyCastle::Crypto::BufferedBlockCipher* value);
-    // Get instance field: private readonly System.Byte[] macBuf
-    ::Array<uint8_t>* _get_macBuf();
-    // Set instance field: private readonly System.Byte[] macBuf
-    void _set_macBuf(::Array<uint8_t>* value);
-    // Get instance field: private System.Boolean forEncryption
-    bool _get_forEncryption();
-    // Set instance field: private System.Boolean forEncryption
-    void _set_forEncryption(bool value);
-    // Get instance field: private Org.BouncyCastle.Crypto.ICipherParameters privParam
-    Org::BouncyCastle::Crypto::ICipherParameters* _get_privParam();
-    // Set instance field: private Org.BouncyCastle.Crypto.ICipherParameters privParam
-    void _set_privParam(Org::BouncyCastle::Crypto::ICipherParameters* value);
-    // Get instance field: private Org.BouncyCastle.Crypto.ICipherParameters pubParam
-    Org::BouncyCastle::Crypto::ICipherParameters* _get_pubParam();
-    // Set instance field: private Org.BouncyCastle.Crypto.ICipherParameters pubParam
-    void _set_pubParam(Org::BouncyCastle::Crypto::ICipherParameters* value);
-    // Get instance field: private Org.BouncyCastle.Crypto.Parameters.IesParameters param
-    Org::BouncyCastle::Crypto::Parameters::IesParameters* _get_param();
-    // Set instance field: private Org.BouncyCastle.Crypto.Parameters.IesParameters param
-    void _set_param(Org::BouncyCastle::Crypto::Parameters::IesParameters* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IBasicAgreement agree
+    Org::BouncyCastle::Crypto::IBasicAgreement*& dyn_agree();
+    // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IDerivationFunction kdf
+    Org::BouncyCastle::Crypto::IDerivationFunction*& dyn_kdf();
+    // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IMac mac
+    Org::BouncyCastle::Crypto::IMac*& dyn_mac();
+    // Get instance field reference: private readonly Org.BouncyCastle.Crypto.BufferedBlockCipher cipher
+    Org::BouncyCastle::Crypto::BufferedBlockCipher*& dyn_cipher();
+    // Get instance field reference: private readonly System.Byte[] macBuf
+    ::Array<uint8_t>*& dyn_macBuf();
+    // Get instance field reference: private System.Boolean forEncryption
+    bool& dyn_forEncryption();
+    // Get instance field reference: private Org.BouncyCastle.Crypto.ICipherParameters privParam
+    Org::BouncyCastle::Crypto::ICipherParameters*& dyn_privParam();
+    // Get instance field reference: private Org.BouncyCastle.Crypto.ICipherParameters pubParam
+    Org::BouncyCastle::Crypto::ICipherParameters*& dyn_pubParam();
+    // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.IesParameters param
+    Org::BouncyCastle::Crypto::Parameters::IesParameters*& dyn_param();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBasicAgreement agree, Org.BouncyCastle.Crypto.IDerivationFunction kdf, Org.BouncyCastle.Crypto.IMac mac)
     // Offset: 0x1E753E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

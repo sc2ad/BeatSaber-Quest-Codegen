@@ -119,46 +119,26 @@ namespace HMUI {
     operator HMUI::SegmentedControl::IDataSource() noexcept {
       return *reinterpret_cast<HMUI::SegmentedControl::IDataSource*>(this);
     }
-    // Get instance field: private System.Single _fontSize
-    float _get__fontSize();
-    // Set instance field: private System.Single _fontSize
-    void _set__fontSize(float value);
-    // Get instance field: private System.Boolean _overrideCellSize
-    bool _get__overrideCellSize();
-    // Set instance field: private System.Boolean _overrideCellSize
-    void _set__overrideCellSize(bool value);
-    // Get instance field: private System.Single _padding
-    float _get__padding();
-    // Set instance field: private System.Single _padding
-    void _set__padding(float value);
-    // Get instance field: private System.Boolean _hideCellBackground
-    bool _get__hideCellBackground();
-    // Set instance field: private System.Boolean _hideCellBackground
-    void _set__hideCellBackground(bool value);
-    // Get instance field: private HMUI.TextSegmentedControlCell _firstCellPrefab
-    HMUI::TextSegmentedControlCell* _get__firstCellPrefab();
-    // Set instance field: private HMUI.TextSegmentedControlCell _firstCellPrefab
-    void _set__firstCellPrefab(HMUI::TextSegmentedControlCell* value);
-    // Get instance field: private HMUI.TextSegmentedControlCell _lastCellPrefab
-    HMUI::TextSegmentedControlCell* _get__lastCellPrefab();
-    // Set instance field: private HMUI.TextSegmentedControlCell _lastCellPrefab
-    void _set__lastCellPrefab(HMUI::TextSegmentedControlCell* value);
-    // Get instance field: private HMUI.TextSegmentedControlCell _singleCellPrefab
-    HMUI::TextSegmentedControlCell* _get__singleCellPrefab();
-    // Set instance field: private HMUI.TextSegmentedControlCell _singleCellPrefab
-    void _set__singleCellPrefab(HMUI::TextSegmentedControlCell* value);
-    // Get instance field: private HMUI.TextSegmentedControlCell _middleCellPrefab
-    HMUI::TextSegmentedControlCell* _get__middleCellPrefab();
-    // Set instance field: private HMUI.TextSegmentedControlCell _middleCellPrefab
-    void _set__middleCellPrefab(HMUI::TextSegmentedControlCell* value);
-    // Get instance field: private readonly Zenject.DiContainer _container
-    Zenject::DiContainer* _get__container();
-    // Set instance field: private readonly Zenject.DiContainer _container
-    void _set__container(Zenject::DiContainer* value);
-    // Get instance field: private System.Collections.Generic.IReadOnlyList`1<System.String> _texts
-    System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* _get__texts();
-    // Set instance field: private System.Collections.Generic.IReadOnlyList`1<System.String> _texts
-    void _set__texts(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* value);
+    // Get instance field reference: private System.Single _fontSize
+    float& dyn__fontSize();
+    // Get instance field reference: private System.Boolean _overrideCellSize
+    bool& dyn__overrideCellSize();
+    // Get instance field reference: private System.Single _padding
+    float& dyn__padding();
+    // Get instance field reference: private System.Boolean _hideCellBackground
+    bool& dyn__hideCellBackground();
+    // Get instance field reference: private HMUI.TextSegmentedControlCell _firstCellPrefab
+    HMUI::TextSegmentedControlCell*& dyn__firstCellPrefab();
+    // Get instance field reference: private HMUI.TextSegmentedControlCell _lastCellPrefab
+    HMUI::TextSegmentedControlCell*& dyn__lastCellPrefab();
+    // Get instance field reference: private HMUI.TextSegmentedControlCell _singleCellPrefab
+    HMUI::TextSegmentedControlCell*& dyn__singleCellPrefab();
+    // Get instance field reference: private HMUI.TextSegmentedControlCell _middleCellPrefab
+    HMUI::TextSegmentedControlCell*& dyn__middleCellPrefab();
+    // Get instance field reference: private readonly Zenject.DiContainer _container
+    Zenject::DiContainer*& dyn__container();
+    // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<System.String> _texts
+    System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*& dyn__texts();
     // public System.Void SetTexts(System.Collections.Generic.IReadOnlyList`1<System.String> texts)
     // Offset: 0x1305E68
     void SetTexts(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* texts);

@@ -73,26 +73,16 @@ namespace Org::BouncyCastle::Asn1 {
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Object*) == 0x8);
     // Creating value type constructor for type: DerExternal
     DerExternal(Org::BouncyCastle::Asn1::DerObjectIdentifier* directReference_ = {}, Org::BouncyCastle::Asn1::DerInteger* indirectReference_ = {}, Org::BouncyCastle::Asn1::Asn1Object* dataValueDescriptor_ = {}, int encoding_ = {}, Org::BouncyCastle::Asn1::Asn1Object* externalContent_ = {}) noexcept : directReference{directReference_}, indirectReference{indirectReference_}, dataValueDescriptor{dataValueDescriptor_}, encoding{encoding_}, externalContent{externalContent_} {}
-    // Get instance field: private Org.BouncyCastle.Asn1.DerObjectIdentifier directReference
-    Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_directReference();
-    // Set instance field: private Org.BouncyCastle.Asn1.DerObjectIdentifier directReference
-    void _set_directReference(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-    // Get instance field: private Org.BouncyCastle.Asn1.DerInteger indirectReference
-    Org::BouncyCastle::Asn1::DerInteger* _get_indirectReference();
-    // Set instance field: private Org.BouncyCastle.Asn1.DerInteger indirectReference
-    void _set_indirectReference(Org::BouncyCastle::Asn1::DerInteger* value);
-    // Get instance field: private Org.BouncyCastle.Asn1.Asn1Object dataValueDescriptor
-    Org::BouncyCastle::Asn1::Asn1Object* _get_dataValueDescriptor();
-    // Set instance field: private Org.BouncyCastle.Asn1.Asn1Object dataValueDescriptor
-    void _set_dataValueDescriptor(Org::BouncyCastle::Asn1::Asn1Object* value);
-    // Get instance field: private System.Int32 encoding
-    int _get_encoding();
-    // Set instance field: private System.Int32 encoding
-    void _set_encoding(int value);
-    // Get instance field: private Org.BouncyCastle.Asn1.Asn1Object externalContent
-    Org::BouncyCastle::Asn1::Asn1Object* _get_externalContent();
-    // Set instance field: private Org.BouncyCastle.Asn1.Asn1Object externalContent
-    void _set_externalContent(Org::BouncyCastle::Asn1::Asn1Object* value);
+    // Get instance field reference: private Org.BouncyCastle.Asn1.DerObjectIdentifier directReference
+    Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_directReference();
+    // Get instance field reference: private Org.BouncyCastle.Asn1.DerInteger indirectReference
+    Org::BouncyCastle::Asn1::DerInteger*& dyn_indirectReference();
+    // Get instance field reference: private Org.BouncyCastle.Asn1.Asn1Object dataValueDescriptor
+    Org::BouncyCastle::Asn1::Asn1Object*& dyn_dataValueDescriptor();
+    // Get instance field reference: private System.Int32 encoding
+    int& dyn_encoding();
+    // Get instance field reference: private Org.BouncyCastle.Asn1.Asn1Object externalContent
+    Org::BouncyCastle::Asn1::Asn1Object*& dyn_externalContent();
     // public Org.BouncyCastle.Asn1.Asn1Object get_DataValueDescriptor()
     // Offset: 0x1736ED8
     Org::BouncyCastle::Asn1::Asn1Object* get_DataValueDescriptor();

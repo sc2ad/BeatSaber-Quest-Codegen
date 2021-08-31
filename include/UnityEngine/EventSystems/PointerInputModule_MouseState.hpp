@@ -42,10 +42,8 @@ namespace UnityEngine::EventSystems {
     constexpr operator System::Collections::Generic::List_1<UnityEngine::EventSystems::PointerInputModule::ButtonState*>*() const noexcept {
       return m_TrackedButtons;
     }
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.ButtonState> m_TrackedButtons
-    System::Collections::Generic::List_1<UnityEngine::EventSystems::PointerInputModule::ButtonState*>* _get_m_TrackedButtons();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.ButtonState> m_TrackedButtons
-    void _set_m_TrackedButtons(System::Collections::Generic::List_1<UnityEngine::EventSystems::PointerInputModule::ButtonState*>* value);
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.ButtonState> m_TrackedButtons
+    System::Collections::Generic::List_1<UnityEngine::EventSystems::PointerInputModule::ButtonState*>*& dyn_m_TrackedButtons();
     // public System.Boolean AnyPressesThisFrame()
     // Offset: 0x146D8E8
     bool AnyPressesThisFrame();

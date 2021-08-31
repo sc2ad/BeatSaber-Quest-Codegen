@@ -58,18 +58,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass94_0
     $$c__DisplayClass94_0(GlobalNamespace::LobbyGameStateController* $$4__this_ = {}, System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::MultiplayerGameState>* getGameStateAsyncTcs_ = {}, System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>* getPlayerPermissionAsyncTcs_ = {}) noexcept : $$4__this{$$4__this_}, getGameStateAsyncTcs{getGameStateAsyncTcs_}, getPlayerPermissionAsyncTcs{getPlayerPermissionAsyncTcs_} {}
-    // Get instance field: public LobbyGameStateController <>4__this
-    GlobalNamespace::LobbyGameStateController* _get_$$4__this();
-    // Set instance field: public LobbyGameStateController <>4__this
-    void _set_$$4__this(GlobalNamespace::LobbyGameStateController* value);
-    // Get instance field: public System.Threading.Tasks.TaskCompletionSource`1<MultiplayerGameState> getGameStateAsyncTcs
-    System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::MultiplayerGameState>* _get_getGameStateAsyncTcs();
-    // Set instance field: public System.Threading.Tasks.TaskCompletionSource`1<MultiplayerGameState> getGameStateAsyncTcs
-    void _set_getGameStateAsyncTcs(System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::MultiplayerGameState>* value);
-    // Get instance field: public System.Threading.Tasks.TaskCompletionSource`1<PlayersLobbyPermissionConfigurationNetSerializable> getPlayerPermissionAsyncTcs
-    System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>* _get_getPlayerPermissionAsyncTcs();
-    // Set instance field: public System.Threading.Tasks.TaskCompletionSource`1<PlayersLobbyPermissionConfigurationNetSerializable> getPlayerPermissionAsyncTcs
-    void _set_getPlayerPermissionAsyncTcs(System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>* value);
+    // Get instance field reference: public LobbyGameStateController <>4__this
+    GlobalNamespace::LobbyGameStateController*& dyn_$$4__this();
+    // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<MultiplayerGameState> getGameStateAsyncTcs
+    System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::MultiplayerGameState>*& dyn_getGameStateAsyncTcs();
+    // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<PlayersLobbyPermissionConfigurationNetSerializable> getPlayerPermissionAsyncTcs
+    System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>*& dyn_getPlayerPermissionAsyncTcs();
     // System.Void <GetGameStateAndConfigurationAsync>g__HandleSetMultiplayerGameState|0(System.String userId, MultiplayerGameState newMultiplayerGameState)
     // Offset: 0x1206CB0
     void $GetGameStateAndConfigurationAsync$g__HandleSetMultiplayerGameState_0(::Il2CppString* userId, GlobalNamespace::MultiplayerGameState newMultiplayerGameState);

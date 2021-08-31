@@ -60,14 +60,10 @@ namespace HMUI {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: InputFieldViewChangeBinder
     InputFieldViewChangeBinder(System::Collections::Generic::List_1<System::Tuple_2<HMUI::InputFieldView*, UnityEngine::Events::UnityAction_1<HMUI::InputFieldView*>*>*>* bindings_ = {}, bool enabled_ = {}) noexcept : bindings{bindings_}, enabled{enabled_} {}
-    // Get instance field: private System.Collections.Generic.List`1<System.Tuple`2<HMUI.InputFieldView,UnityEngine.Events.UnityAction`1<HMUI.InputFieldView>>> _bindings
-    System::Collections::Generic::List_1<System::Tuple_2<HMUI::InputFieldView*, UnityEngine::Events::UnityAction_1<HMUI::InputFieldView*>*>*>* _get__bindings();
-    // Set instance field: private System.Collections.Generic.List`1<System.Tuple`2<HMUI.InputFieldView,UnityEngine.Events.UnityAction`1<HMUI.InputFieldView>>> _bindings
-    void _set__bindings(System::Collections::Generic::List_1<System::Tuple_2<HMUI::InputFieldView*, UnityEngine::Events::UnityAction_1<HMUI::InputFieldView*>*>*>* value);
-    // Get instance field: private System.Boolean _enabled
-    bool _get__enabled();
-    // Set instance field: private System.Boolean _enabled
-    void _set__enabled(bool value);
+    // Get instance field reference: private System.Collections.Generic.List`1<System.Tuple`2<HMUI.InputFieldView,UnityEngine.Events.UnityAction`1<HMUI.InputFieldView>>> _bindings
+    System::Collections::Generic::List_1<System::Tuple_2<HMUI::InputFieldView*, UnityEngine::Events::UnityAction_1<HMUI::InputFieldView*>*>*>*& dyn__bindings();
+    // Get instance field reference: private System.Boolean _enabled
+    bool& dyn__enabled();
     // private System.Void Init()
     // Offset: 0x12F6878
     void Init();

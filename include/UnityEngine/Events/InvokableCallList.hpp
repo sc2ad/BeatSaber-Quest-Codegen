@@ -62,22 +62,14 @@ namespace UnityEngine::Events {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: InvokableCallList
     InvokableCallList(System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall*>* m_PersistentCalls_ = {}, System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall*>* m_RuntimeCalls_ = {}, System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall*>* m_ExecutingCalls_ = {}, bool m_NeedsUpdate_ = {}) noexcept : m_PersistentCalls{m_PersistentCalls_}, m_RuntimeCalls{m_RuntimeCalls_}, m_ExecutingCalls{m_ExecutingCalls_}, m_NeedsUpdate{m_NeedsUpdate_} {}
-    // Get instance field: private readonly System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall> m_PersistentCalls
-    System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall*>* _get_m_PersistentCalls();
-    // Set instance field: private readonly System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall> m_PersistentCalls
-    void _set_m_PersistentCalls(System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall*>* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall> m_RuntimeCalls
-    System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall*>* _get_m_RuntimeCalls();
-    // Set instance field: private readonly System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall> m_RuntimeCalls
-    void _set_m_RuntimeCalls(System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall*>* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall> m_ExecutingCalls
-    System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall*>* _get_m_ExecutingCalls();
-    // Set instance field: private readonly System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall> m_ExecutingCalls
-    void _set_m_ExecutingCalls(System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall*>* value);
-    // Get instance field: private System.Boolean m_NeedsUpdate
-    bool _get_m_NeedsUpdate();
-    // Set instance field: private System.Boolean m_NeedsUpdate
-    void _set_m_NeedsUpdate(bool value);
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall> m_PersistentCalls
+    System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall*>*& dyn_m_PersistentCalls();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall> m_RuntimeCalls
+    System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall*>*& dyn_m_RuntimeCalls();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall> m_ExecutingCalls
+    System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall*>*& dyn_m_ExecutingCalls();
+    // Get instance field reference: private System.Boolean m_NeedsUpdate
+    bool& dyn_m_NeedsUpdate();
     // public System.Void AddPersistentInvokableCall(UnityEngine.Events.BaseInvokableCall call)
     // Offset: 0x1C279F8
     void AddPersistentInvokableCall(UnityEngine::Events::BaseInvokableCall* call);

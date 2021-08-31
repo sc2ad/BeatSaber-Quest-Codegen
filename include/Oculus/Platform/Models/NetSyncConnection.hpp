@@ -60,26 +60,16 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: NetSyncConnection
     NetSyncConnection(int64_t ConnectionId_ = {}, Oculus::Platform::NetSyncDisconnectReason DisconnectReason_ = {}, uint64_t SessionId_ = {}, Oculus::Platform::NetSyncConnectionStatus Status_ = {}, ::Il2CppString* ZoneId_ = {}) noexcept : ConnectionId{ConnectionId_}, DisconnectReason{DisconnectReason_}, SessionId{SessionId_}, Status{Status_}, ZoneId{ZoneId_} {}
-    // Get instance field: public readonly System.Int64 ConnectionId
-    int64_t _get_ConnectionId();
-    // Set instance field: public readonly System.Int64 ConnectionId
-    void _set_ConnectionId(int64_t value);
-    // Get instance field: public readonly Oculus.Platform.NetSyncDisconnectReason DisconnectReason
-    Oculus::Platform::NetSyncDisconnectReason _get_DisconnectReason();
-    // Set instance field: public readonly Oculus.Platform.NetSyncDisconnectReason DisconnectReason
-    void _set_DisconnectReason(Oculus::Platform::NetSyncDisconnectReason value);
-    // Get instance field: public readonly System.UInt64 SessionId
-    uint64_t _get_SessionId();
-    // Set instance field: public readonly System.UInt64 SessionId
-    void _set_SessionId(uint64_t value);
-    // Get instance field: public readonly Oculus.Platform.NetSyncConnectionStatus Status
-    Oculus::Platform::NetSyncConnectionStatus _get_Status();
-    // Set instance field: public readonly Oculus.Platform.NetSyncConnectionStatus Status
-    void _set_Status(Oculus::Platform::NetSyncConnectionStatus value);
-    // Get instance field: public readonly System.String ZoneId
-    ::Il2CppString* _get_ZoneId();
-    // Set instance field: public readonly System.String ZoneId
-    void _set_ZoneId(::Il2CppString* value);
+    // Get instance field reference: public readonly System.Int64 ConnectionId
+    int64_t& dyn_ConnectionId();
+    // Get instance field reference: public readonly Oculus.Platform.NetSyncDisconnectReason DisconnectReason
+    Oculus::Platform::NetSyncDisconnectReason& dyn_DisconnectReason();
+    // Get instance field reference: public readonly System.UInt64 SessionId
+    uint64_t& dyn_SessionId();
+    // Get instance field reference: public readonly Oculus.Platform.NetSyncConnectionStatus Status
+    Oculus::Platform::NetSyncConnectionStatus& dyn_Status();
+    // Get instance field reference: public readonly System.String ZoneId
+    ::Il2CppString*& dyn_ZoneId();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14ED304
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

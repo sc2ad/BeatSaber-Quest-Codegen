@@ -67,18 +67,12 @@ namespace System::Collections::Specialized {
     operator System::Collections::IDictionary() noexcept {
       return *reinterpret_cast<System::Collections::IDictionary*>(this);
     }
-    // Get instance field: private System.Collections.Specialized.ListDictionary list
-    System::Collections::Specialized::ListDictionary* _get_list();
-    // Set instance field: private System.Collections.Specialized.ListDictionary list
-    void _set_list(System::Collections::Specialized::ListDictionary* value);
-    // Get instance field: private System.Collections.Hashtable hashtable
-    System::Collections::Hashtable* _get_hashtable();
-    // Set instance field: private System.Collections.Hashtable hashtable
-    void _set_hashtable(System::Collections::Hashtable* value);
-    // Get instance field: private System.Boolean caseInsensitive
-    bool _get_caseInsensitive();
-    // Set instance field: private System.Boolean caseInsensitive
-    void _set_caseInsensitive(bool value);
+    // Get instance field reference: private System.Collections.Specialized.ListDictionary list
+    System::Collections::Specialized::ListDictionary*& dyn_list();
+    // Get instance field reference: private System.Collections.Hashtable hashtable
+    System::Collections::Hashtable*& dyn_hashtable();
+    // Get instance field reference: private System.Boolean caseInsensitive
+    bool& dyn_caseInsensitive();
     // public System.Object get_Item(System.Object key)
     // Offset: 0x18A93F0
     ::Il2CppObject* get_Item(::Il2CppObject* key);

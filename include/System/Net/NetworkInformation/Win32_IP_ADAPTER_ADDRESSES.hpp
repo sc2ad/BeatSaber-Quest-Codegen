@@ -255,150 +255,78 @@ namespace System::Net::NetworkInformation {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Net.NetworkInformation.AlignmentUnion Alignment
-    System::Net::NetworkInformation::AlignmentUnion _get_Alignment();
-    // Set instance field: public System.Net.NetworkInformation.AlignmentUnion Alignment
-    void _set_Alignment(System::Net::NetworkInformation::AlignmentUnion value);
-    // Get instance field: public System.IntPtr Next
-    System::IntPtr _get_Next();
-    // Set instance field: public System.IntPtr Next
-    void _set_Next(System::IntPtr value);
-    // Get instance field: public System.String AdapterName
-    ::Il2CppString* _get_AdapterName();
-    // Set instance field: public System.String AdapterName
-    void _set_AdapterName(::Il2CppString* value);
-    // Get instance field: public System.IntPtr FirstUnicastAddress
-    System::IntPtr _get_FirstUnicastAddress();
-    // Set instance field: public System.IntPtr FirstUnicastAddress
-    void _set_FirstUnicastAddress(System::IntPtr value);
-    // Get instance field: public System.IntPtr FirstAnycastAddress
-    System::IntPtr _get_FirstAnycastAddress();
-    // Set instance field: public System.IntPtr FirstAnycastAddress
-    void _set_FirstAnycastAddress(System::IntPtr value);
-    // Get instance field: public System.IntPtr FirstMulticastAddress
-    System::IntPtr _get_FirstMulticastAddress();
-    // Set instance field: public System.IntPtr FirstMulticastAddress
-    void _set_FirstMulticastAddress(System::IntPtr value);
-    // Get instance field: public System.IntPtr FirstDnsServerAddress
-    System::IntPtr _get_FirstDnsServerAddress();
-    // Set instance field: public System.IntPtr FirstDnsServerAddress
-    void _set_FirstDnsServerAddress(System::IntPtr value);
-    // Get instance field: public System.String DnsSuffix
-    ::Il2CppString* _get_DnsSuffix();
-    // Set instance field: public System.String DnsSuffix
-    void _set_DnsSuffix(::Il2CppString* value);
-    // Get instance field: public System.String Description
-    ::Il2CppString* _get_Description();
-    // Set instance field: public System.String Description
-    void _set_Description(::Il2CppString* value);
-    // Get instance field: public System.String FriendlyName
-    ::Il2CppString* _get_FriendlyName();
-    // Set instance field: public System.String FriendlyName
-    void _set_FriendlyName(::Il2CppString* value);
-    // Get instance field: public System.Byte[] PhysicalAddress
-    ::Array<uint8_t>* _get_PhysicalAddress();
-    // Set instance field: public System.Byte[] PhysicalAddress
-    void _set_PhysicalAddress(::Array<uint8_t>* value);
-    // Get instance field: public System.UInt32 PhysicalAddressLength
-    uint _get_PhysicalAddressLength();
-    // Set instance field: public System.UInt32 PhysicalAddressLength
-    void _set_PhysicalAddressLength(uint value);
-    // Get instance field: public System.UInt32 Flags
-    uint _get_Flags();
-    // Set instance field: public System.UInt32 Flags
-    void _set_Flags(uint value);
-    // Get instance field: public System.UInt32 Mtu
-    uint _get_Mtu();
-    // Set instance field: public System.UInt32 Mtu
-    void _set_Mtu(uint value);
-    // Get instance field: public System.Net.NetworkInformation.NetworkInterfaceType IfType
-    System::Net::NetworkInformation::NetworkInterfaceType _get_IfType();
-    // Set instance field: public System.Net.NetworkInformation.NetworkInterfaceType IfType
-    void _set_IfType(System::Net::NetworkInformation::NetworkInterfaceType value);
-    // Get instance field: public System.Net.NetworkInformation.OperationalStatus OperStatus
-    System::Net::NetworkInformation::OperationalStatus _get_OperStatus();
-    // Set instance field: public System.Net.NetworkInformation.OperationalStatus OperStatus
-    void _set_OperStatus(System::Net::NetworkInformation::OperationalStatus value);
-    // Get instance field: public System.Int32 Ipv6IfIndex
-    int _get_Ipv6IfIndex();
-    // Set instance field: public System.Int32 Ipv6IfIndex
-    void _set_Ipv6IfIndex(int value);
-    // Get instance field: public System.UInt32[] ZoneIndices
-    ::Array<uint>* _get_ZoneIndices();
-    // Set instance field: public System.UInt32[] ZoneIndices
-    void _set_ZoneIndices(::Array<uint>* value);
-    // Get instance field: public System.IntPtr FirstPrefix
-    System::IntPtr _get_FirstPrefix();
-    // Set instance field: public System.IntPtr FirstPrefix
-    void _set_FirstPrefix(System::IntPtr value);
-    // Get instance field: public System.UInt64 TransmitLinkSpeed
-    uint64_t _get_TransmitLinkSpeed();
-    // Set instance field: public System.UInt64 TransmitLinkSpeed
-    void _set_TransmitLinkSpeed(uint64_t value);
-    // Get instance field: public System.UInt64 ReceiveLinkSpeed
-    uint64_t _get_ReceiveLinkSpeed();
-    // Set instance field: public System.UInt64 ReceiveLinkSpeed
-    void _set_ReceiveLinkSpeed(uint64_t value);
-    // Get instance field: public System.IntPtr FirstWinsServerAddress
-    System::IntPtr _get_FirstWinsServerAddress();
-    // Set instance field: public System.IntPtr FirstWinsServerAddress
-    void _set_FirstWinsServerAddress(System::IntPtr value);
-    // Get instance field: public System.IntPtr FirstGatewayAddress
-    System::IntPtr _get_FirstGatewayAddress();
-    // Set instance field: public System.IntPtr FirstGatewayAddress
-    void _set_FirstGatewayAddress(System::IntPtr value);
-    // Get instance field: public System.UInt32 Ipv4Metric
-    uint _get_Ipv4Metric();
-    // Set instance field: public System.UInt32 Ipv4Metric
-    void _set_Ipv4Metric(uint value);
-    // Get instance field: public System.UInt32 Ipv6Metric
-    uint _get_Ipv6Metric();
-    // Set instance field: public System.UInt32 Ipv6Metric
-    void _set_Ipv6Metric(uint value);
-    // Get instance field: public System.UInt64 Luid
-    uint64_t _get_Luid();
-    // Set instance field: public System.UInt64 Luid
-    void _set_Luid(uint64_t value);
-    // Get instance field: public System.Net.NetworkInformation.Win32_SOCKET_ADDRESS Dhcpv4Server
-    System::Net::NetworkInformation::Win32_SOCKET_ADDRESS _get_Dhcpv4Server();
-    // Set instance field: public System.Net.NetworkInformation.Win32_SOCKET_ADDRESS Dhcpv4Server
-    void _set_Dhcpv4Server(System::Net::NetworkInformation::Win32_SOCKET_ADDRESS value);
-    // Get instance field: public System.UInt32 CompartmentId
-    uint _get_CompartmentId();
-    // Set instance field: public System.UInt32 CompartmentId
-    void _set_CompartmentId(uint value);
-    // Get instance field: public System.UInt64 NetworkGuid
-    uint64_t _get_NetworkGuid();
-    // Set instance field: public System.UInt64 NetworkGuid
-    void _set_NetworkGuid(uint64_t value);
-    // Get instance field: public System.Int32 ConnectionType
-    int _get_ConnectionType();
-    // Set instance field: public System.Int32 ConnectionType
-    void _set_ConnectionType(int value);
-    // Get instance field: public System.Int32 TunnelType
-    int _get_TunnelType();
-    // Set instance field: public System.Int32 TunnelType
-    void _set_TunnelType(int value);
-    // Get instance field: public System.Net.NetworkInformation.Win32_SOCKET_ADDRESS Dhcpv6Server
-    System::Net::NetworkInformation::Win32_SOCKET_ADDRESS _get_Dhcpv6Server();
-    // Set instance field: public System.Net.NetworkInformation.Win32_SOCKET_ADDRESS Dhcpv6Server
-    void _set_Dhcpv6Server(System::Net::NetworkInformation::Win32_SOCKET_ADDRESS value);
-    // Get instance field: public System.Byte[] Dhcpv6ClientDuid
-    ::Array<uint8_t>* _get_Dhcpv6ClientDuid();
-    // Set instance field: public System.Byte[] Dhcpv6ClientDuid
-    void _set_Dhcpv6ClientDuid(::Array<uint8_t>* value);
-    // Get instance field: public System.UInt64 Dhcpv6ClientDuidLength
-    uint64_t _get_Dhcpv6ClientDuidLength();
-    // Set instance field: public System.UInt64 Dhcpv6ClientDuidLength
-    void _set_Dhcpv6ClientDuidLength(uint64_t value);
-    // Get instance field: public System.UInt64 Dhcpv6Iaid
-    uint64_t _get_Dhcpv6Iaid();
-    // Set instance field: public System.UInt64 Dhcpv6Iaid
-    void _set_Dhcpv6Iaid(uint64_t value);
-    // Get instance field: public System.IntPtr FirstDnsSuffix
-    System::IntPtr _get_FirstDnsSuffix();
-    // Set instance field: public System.IntPtr FirstDnsSuffix
-    void _set_FirstDnsSuffix(System::IntPtr value);
+    // Get instance field reference: public System.Net.NetworkInformation.AlignmentUnion Alignment
+    System::Net::NetworkInformation::AlignmentUnion& dyn_Alignment();
+    // Get instance field reference: public System.IntPtr Next
+    System::IntPtr& dyn_Next();
+    // Get instance field reference: public System.String AdapterName
+    ::Il2CppString*& dyn_AdapterName();
+    // Get instance field reference: public System.IntPtr FirstUnicastAddress
+    System::IntPtr& dyn_FirstUnicastAddress();
+    // Get instance field reference: public System.IntPtr FirstAnycastAddress
+    System::IntPtr& dyn_FirstAnycastAddress();
+    // Get instance field reference: public System.IntPtr FirstMulticastAddress
+    System::IntPtr& dyn_FirstMulticastAddress();
+    // Get instance field reference: public System.IntPtr FirstDnsServerAddress
+    System::IntPtr& dyn_FirstDnsServerAddress();
+    // Get instance field reference: public System.String DnsSuffix
+    ::Il2CppString*& dyn_DnsSuffix();
+    // Get instance field reference: public System.String Description
+    ::Il2CppString*& dyn_Description();
+    // Get instance field reference: public System.String FriendlyName
+    ::Il2CppString*& dyn_FriendlyName();
+    // Get instance field reference: public System.Byte[] PhysicalAddress
+    ::Array<uint8_t>*& dyn_PhysicalAddress();
+    // Get instance field reference: public System.UInt32 PhysicalAddressLength
+    uint& dyn_PhysicalAddressLength();
+    // Get instance field reference: public System.UInt32 Flags
+    uint& dyn_Flags();
+    // Get instance field reference: public System.UInt32 Mtu
+    uint& dyn_Mtu();
+    // Get instance field reference: public System.Net.NetworkInformation.NetworkInterfaceType IfType
+    System::Net::NetworkInformation::NetworkInterfaceType& dyn_IfType();
+    // Get instance field reference: public System.Net.NetworkInformation.OperationalStatus OperStatus
+    System::Net::NetworkInformation::OperationalStatus& dyn_OperStatus();
+    // Get instance field reference: public System.Int32 Ipv6IfIndex
+    int& dyn_Ipv6IfIndex();
+    // Get instance field reference: public System.UInt32[] ZoneIndices
+    ::Array<uint>*& dyn_ZoneIndices();
+    // Get instance field reference: public System.IntPtr FirstPrefix
+    System::IntPtr& dyn_FirstPrefix();
+    // Get instance field reference: public System.UInt64 TransmitLinkSpeed
+    uint64_t& dyn_TransmitLinkSpeed();
+    // Get instance field reference: public System.UInt64 ReceiveLinkSpeed
+    uint64_t& dyn_ReceiveLinkSpeed();
+    // Get instance field reference: public System.IntPtr FirstWinsServerAddress
+    System::IntPtr& dyn_FirstWinsServerAddress();
+    // Get instance field reference: public System.IntPtr FirstGatewayAddress
+    System::IntPtr& dyn_FirstGatewayAddress();
+    // Get instance field reference: public System.UInt32 Ipv4Metric
+    uint& dyn_Ipv4Metric();
+    // Get instance field reference: public System.UInt32 Ipv6Metric
+    uint& dyn_Ipv6Metric();
+    // Get instance field reference: public System.UInt64 Luid
+    uint64_t& dyn_Luid();
+    // Get instance field reference: public System.Net.NetworkInformation.Win32_SOCKET_ADDRESS Dhcpv4Server
+    System::Net::NetworkInformation::Win32_SOCKET_ADDRESS& dyn_Dhcpv4Server();
+    // Get instance field reference: public System.UInt32 CompartmentId
+    uint& dyn_CompartmentId();
+    // Get instance field reference: public System.UInt64 NetworkGuid
+    uint64_t& dyn_NetworkGuid();
+    // Get instance field reference: public System.Int32 ConnectionType
+    int& dyn_ConnectionType();
+    // Get instance field reference: public System.Int32 TunnelType
+    int& dyn_TunnelType();
+    // Get instance field reference: public System.Net.NetworkInformation.Win32_SOCKET_ADDRESS Dhcpv6Server
+    System::Net::NetworkInformation::Win32_SOCKET_ADDRESS& dyn_Dhcpv6Server();
+    // Get instance field reference: public System.Byte[] Dhcpv6ClientDuid
+    ::Array<uint8_t>*& dyn_Dhcpv6ClientDuid();
+    // Get instance field reference: public System.UInt64 Dhcpv6ClientDuidLength
+    uint64_t& dyn_Dhcpv6ClientDuidLength();
+    // Get instance field reference: public System.UInt64 Dhcpv6Iaid
+    uint64_t& dyn_Dhcpv6Iaid();
+    // Get instance field reference: public System.IntPtr FirstDnsSuffix
+    System::IntPtr& dyn_FirstDnsSuffix();
   }; // System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES
   #pragma pack(pop)
   static check_size<sizeof(Win32_IP_ADAPTER_ADDRESSES), 256 + sizeof(System::IntPtr)> __System_Net_NetworkInformation_Win32_IP_ADAPTER_ADDRESSESSizeCheck;

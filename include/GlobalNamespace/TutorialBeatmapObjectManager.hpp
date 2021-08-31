@@ -75,22 +75,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::TutorialBeatmapObjectManager::InitData*) == 0x8);
     // Creating value type constructor for type: TutorialBeatmapObjectManager
     TutorialBeatmapObjectManager(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::TutorialNoteController*>* tutorialNotePoolContainer_ = {}, GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BombNoteController*>* bombNotePoolContainer_ = {}, GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::ObstacleController*>* obstaclePoolContainer_ = {}, GlobalNamespace::TutorialBeatmapObjectManager::InitData* initData_ = {}) noexcept : tutorialNotePoolContainer{tutorialNotePoolContainer_}, bombNotePoolContainer{bombNotePoolContainer_}, obstaclePoolContainer{obstaclePoolContainer_}, initData{initData_} {}
-    // Get instance field: private MemoryPoolContainer`1<TutorialNoteController> _tutorialNotePoolContainer
-    GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::TutorialNoteController*>* _get__tutorialNotePoolContainer();
-    // Set instance field: private MemoryPoolContainer`1<TutorialNoteController> _tutorialNotePoolContainer
-    void _set__tutorialNotePoolContainer(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::TutorialNoteController*>* value);
-    // Get instance field: private MemoryPoolContainer`1<BombNoteController> _bombNotePoolContainer
-    GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BombNoteController*>* _get__bombNotePoolContainer();
-    // Set instance field: private MemoryPoolContainer`1<BombNoteController> _bombNotePoolContainer
-    void _set__bombNotePoolContainer(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BombNoteController*>* value);
-    // Get instance field: private MemoryPoolContainer`1<ObstacleController> _obstaclePoolContainer
-    GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::ObstacleController*>* _get__obstaclePoolContainer();
-    // Set instance field: private MemoryPoolContainer`1<ObstacleController> _obstaclePoolContainer
-    void _set__obstaclePoolContainer(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::ObstacleController*>* value);
-    // Get instance field: private TutorialBeatmapObjectManager/InitData _initData
-    GlobalNamespace::TutorialBeatmapObjectManager::InitData* _get__initData();
-    // Set instance field: private TutorialBeatmapObjectManager/InitData _initData
-    void _set__initData(GlobalNamespace::TutorialBeatmapObjectManager::InitData* value);
+    // Get instance field reference: private MemoryPoolContainer`1<TutorialNoteController> _tutorialNotePoolContainer
+    GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::TutorialNoteController*>*& dyn__tutorialNotePoolContainer();
+    // Get instance field reference: private MemoryPoolContainer`1<BombNoteController> _bombNotePoolContainer
+    GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BombNoteController*>*& dyn__bombNotePoolContainer();
+    // Get instance field reference: private MemoryPoolContainer`1<ObstacleController> _obstaclePoolContainer
+    GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::ObstacleController*>*& dyn__obstaclePoolContainer();
+    // Get instance field reference: private TutorialBeatmapObjectManager/InitData _initData
+    GlobalNamespace::TutorialBeatmapObjectManager::InitData*& dyn__initData();
     // private System.Void Init(TutorialBeatmapObjectManager/InitData initData, TutorialNoteController/Pool tutorialNotePool, BombNoteController/Pool bombNotePool, ObstacleController/Pool obstaclePool)
     // Offset: 0x1098AD0
     void Init(GlobalNamespace::TutorialBeatmapObjectManager::InitData* initData, GlobalNamespace::TutorialNoteController::Pool* tutorialNotePool, GlobalNamespace::BombNoteController::Pool* bombNotePool, GlobalNamespace::ObstacleController::Pool* obstaclePool);

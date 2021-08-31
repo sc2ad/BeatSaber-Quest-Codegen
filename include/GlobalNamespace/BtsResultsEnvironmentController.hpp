@@ -98,26 +98,16 @@ namespace GlobalNamespace {
     static GlobalNamespace::BeatmapEventType _get_kCharacterDisplayEventType();
     // Set static field: static private BeatmapEventType kCharacterDisplayEventType
     static void _set_kCharacterDisplayEventType(GlobalNamespace::BeatmapEventType value);
-    // Get instance field: private UnityEngine.GameObject _btsCharacterAnimationWrapper
-    UnityEngine::GameObject* _get__btsCharacterAnimationWrapper();
-    // Set instance field: private UnityEngine.GameObject _btsCharacterAnimationWrapper
-    void _set__btsCharacterAnimationWrapper(UnityEngine::GameObject* value);
-    // Get instance field: private BTSCharacterDataModel _btsCharacterDataModel
-    GlobalNamespace::BTSCharacterDataModel* _get__btsCharacterDataModel();
-    // Set instance field: private BTSCharacterDataModel _btsCharacterDataModel
-    void _set__btsCharacterDataModel(GlobalNamespace::BTSCharacterDataModel* value);
-    // Get instance field: private UnityEngine.Playables.PlayableDirector _btsCharactersResultsAppearPlayableDirector
-    UnityEngine::Playables::PlayableDirector* _get__btsCharactersResultsAppearPlayableDirector();
-    // Set instance field: private UnityEngine.Playables.PlayableDirector _btsCharactersResultsAppearPlayableDirector
-    void _set__btsCharactersResultsAppearPlayableDirector(UnityEngine::Playables::PlayableDirector* value);
-    // Get instance field: private BtsResultsEnvironmentController/BTSResultCharacterPlaceWithAnimation[] _resultPlacesWithAnimations
-    ::Array<GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*>* _get__resultPlacesWithAnimations();
-    // Set instance field: private BtsResultsEnvironmentController/BTSResultCharacterPlaceWithAnimation[] _resultPlacesWithAnimations
-    void _set__resultPlacesWithAnimations(::Array<GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> _handles
-    System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* _get__handles();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> _handles
-    void _set__handles(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
+    // Get instance field reference: private UnityEngine.GameObject _btsCharacterAnimationWrapper
+    UnityEngine::GameObject*& dyn__btsCharacterAnimationWrapper();
+    // Get instance field reference: private BTSCharacterDataModel _btsCharacterDataModel
+    GlobalNamespace::BTSCharacterDataModel*& dyn__btsCharacterDataModel();
+    // Get instance field reference: private UnityEngine.Playables.PlayableDirector _btsCharactersResultsAppearPlayableDirector
+    UnityEngine::Playables::PlayableDirector*& dyn__btsCharactersResultsAppearPlayableDirector();
+    // Get instance field reference: private BtsResultsEnvironmentController/BTSResultCharacterPlaceWithAnimation[] _resultPlacesWithAnimations
+    ::Array<GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*>*& dyn__resultPlacesWithAnimations();
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> _handles
+    System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& dyn__handles();
     // private System.Void SpawnBtsCharacters(BTSCharacterDataModel/PrefabWithId btsCharacterPrefabToSpawn, System.Boolean useAlternativeMaterial)
     // Offset: 0x10D3E7C
     void SpawnBtsCharacters(GlobalNamespace::BTSCharacterDataModel::PrefabWithId* btsCharacterPrefabToSpawn, bool useAlternativeMaterial);

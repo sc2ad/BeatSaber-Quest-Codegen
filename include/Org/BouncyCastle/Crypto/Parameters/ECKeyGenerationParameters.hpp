@@ -53,14 +53,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerObjectIdentifier*) == 0x8);
     // Creating value type constructor for type: ECKeyGenerationParameters
     ECKeyGenerationParameters(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* domainParams_ = {}, Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet_ = {}) noexcept : domainParams{domainParams_}, publicKeyParamSet{publicKeyParamSet_} {}
-    // Get instance field: private readonly Org.BouncyCastle.Crypto.Parameters.ECDomainParameters domainParams
-    Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* _get_domainParams();
-    // Set instance field: private readonly Org.BouncyCastle.Crypto.Parameters.ECDomainParameters domainParams
-    void _set_domainParams(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* value);
-    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet
-    Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_publicKeyParamSet();
-    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet
-    void _set_publicKeyParamSet(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Parameters.ECDomainParameters domainParams
+    Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*& dyn_domainParams();
+    // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet
+    Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_publicKeyParamSet();
     // public Org.BouncyCastle.Crypto.Parameters.ECDomainParameters get_DomainParameters()
     // Offset: 0x12735AC
     Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* get_DomainParameters();

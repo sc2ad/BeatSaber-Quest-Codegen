@@ -44,10 +44,8 @@ namespace Zenject {
     constexpr operator UnityEngine::Object*() const noexcept {
       return prefab;
     }
-    // Get instance field: private readonly UnityEngine.Object _prefab
-    UnityEngine::Object* _get__prefab();
-    // Set instance field: private readonly UnityEngine.Object _prefab
-    void _set__prefab(UnityEngine::Object* value);
+    // Get instance field reference: private readonly UnityEngine.Object _prefab
+    UnityEngine::Object*& dyn__prefab();
     // public System.Void .ctor(UnityEngine.Object prefab)
     // Offset: 0x171596C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

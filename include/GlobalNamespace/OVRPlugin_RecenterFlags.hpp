@@ -52,10 +52,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::RecenterFlags _get_Count();
     // Set static field: static public OVRPlugin/RecenterFlags Count
     static void _set_Count(GlobalNamespace::OVRPlugin::RecenterFlags value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // OVRPlugin/RecenterFlags
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::RecenterFlags), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_RecenterFlagsSizeCheck;

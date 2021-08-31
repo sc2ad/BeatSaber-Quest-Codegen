@@ -32,10 +32,8 @@ namespace Oculus::Platform::Models {
     constexpr operator bool() const noexcept {
       return StreamingEnabled;
     }
-    // Get instance field: public readonly System.Boolean StreamingEnabled
-    bool _get_StreamingEnabled();
-    // Set instance field: public readonly System.Boolean StreamingEnabled
-    void _set_StreamingEnabled(bool value);
+    // Get instance field reference: public readonly System.Boolean StreamingEnabled
+    bool& dyn_StreamingEnabled();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14EBE8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

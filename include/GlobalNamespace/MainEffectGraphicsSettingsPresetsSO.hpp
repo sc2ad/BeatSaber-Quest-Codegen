@@ -39,10 +39,8 @@ namespace GlobalNamespace {
     MainEffectGraphicsSettingsPresetsSO(::Array<GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset*>* presets_ = {}) noexcept : presets{presets_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private MainEffectGraphicsSettingsPresetsSO/Preset[] _presets
-    ::Array<GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset*>* _get__presets();
-    // Set instance field: private MainEffectGraphicsSettingsPresetsSO/Preset[] _presets
-    void _set__presets(::Array<GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset*>* value);
+    // Get instance field reference: private MainEffectGraphicsSettingsPresetsSO/Preset[] _presets
+    ::Array<GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset*>*& dyn__presets();
     // public MainEffectGraphicsSettingsPresetsSO/Preset[] get_presets()
     // Offset: 0x10DEA10
     ::Array<GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset*>* get_presets();

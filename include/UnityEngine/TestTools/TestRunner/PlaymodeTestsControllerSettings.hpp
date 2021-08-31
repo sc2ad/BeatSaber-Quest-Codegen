@@ -63,22 +63,14 @@ namespace UnityEngine::TestTools::TestRunner {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: PlaymodeTestsControllerSettings
     PlaymodeTestsControllerSettings(::Array<UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*>* filters_ = {}, bool sceneBased_ = {}, ::Il2CppString* originalScene_ = {}, ::Il2CppString* bootstrapScene_ = {}) noexcept : filters{filters_}, sceneBased{sceneBased_}, originalScene{originalScene_}, bootstrapScene{bootstrapScene_} {}
-    // Get instance field: public UnityEngine.TestTools.TestRunner.GUI.RuntimeTestRunnerFilter[] filters
-    ::Array<UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*>* _get_filters();
-    // Set instance field: public UnityEngine.TestTools.TestRunner.GUI.RuntimeTestRunnerFilter[] filters
-    void _set_filters(::Array<UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*>* value);
-    // Get instance field: public System.Boolean sceneBased
-    bool _get_sceneBased();
-    // Set instance field: public System.Boolean sceneBased
-    void _set_sceneBased(bool value);
-    // Get instance field: public System.String originalScene
-    ::Il2CppString* _get_originalScene();
-    // Set instance field: public System.String originalScene
-    void _set_originalScene(::Il2CppString* value);
-    // Get instance field: public System.String bootstrapScene
-    ::Il2CppString* _get_bootstrapScene();
-    // Set instance field: public System.String bootstrapScene
-    void _set_bootstrapScene(::Il2CppString* value);
+    // Get instance field reference: public UnityEngine.TestTools.TestRunner.GUI.RuntimeTestRunnerFilter[] filters
+    ::Array<UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*>*& dyn_filters();
+    // Get instance field reference: public System.Boolean sceneBased
+    bool& dyn_sceneBased();
+    // Get instance field reference: public System.String originalScene
+    ::Il2CppString*& dyn_originalScene();
+    // Get instance field reference: public System.String bootstrapScene
+    ::Il2CppString*& dyn_bootstrapScene();
     // NUnit.Framework.Interfaces.ITestFilter BuildNUnitFilter()
     // Offset: 0x14C8A08
     NUnit::Framework::Interfaces::ITestFilter* BuildNUnitFilter();

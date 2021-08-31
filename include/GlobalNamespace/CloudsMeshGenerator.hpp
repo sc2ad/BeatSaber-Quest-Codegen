@@ -109,38 +109,22 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public UnityEngine.Mesh precisionOpaqueMesh
-      UnityEngine::Mesh* _get_precisionOpaqueMesh();
-      // Set instance field: public UnityEngine.Mesh precisionOpaqueMesh
-      void _set_precisionOpaqueMesh(UnityEngine::Mesh* value);
-      // Get instance field: public UnityEngine.Mesh lowPolyMesh
-      UnityEngine::Mesh* _get_lowPolyMesh();
-      // Set instance field: public UnityEngine.Mesh lowPolyMesh
-      void _set_lowPolyMesh(UnityEngine::Mesh* value);
-      // Get instance field: public System.Single sizeModifier
-      float _get_sizeModifier();
-      // Set instance field: public System.Single sizeModifier
-      void _set_sizeModifier(float value);
-      // Get instance field: public System.Single bottomThreshold
-      float _get_bottomThreshold();
-      // Set instance field: public System.Single bottomThreshold
-      void _set_bottomThreshold(float value);
-      // Get instance field: public System.Int32 weight
-      int _get_weight();
-      // Set instance field: public System.Int32 weight
-      void _set_weight(int value);
-      // Get instance field: public System.Int32 precisionVertexCount
-      int _get_precisionVertexCount();
-      // Set instance field: public System.Int32 precisionVertexCount
-      void _set_precisionVertexCount(int value);
-      // Get instance field: public System.Int32 lowPolyVertexCount
-      int _get_lowPolyVertexCount();
-      // Set instance field: public System.Int32 lowPolyVertexCount
-      void _set_lowPolyVertexCount(int value);
-      // Get instance field: public System.Int32 generatedCount
-      int _get_generatedCount();
-      // Set instance field: public System.Int32 generatedCount
-      void _set_generatedCount(int value);
+      // Get instance field reference: public UnityEngine.Mesh precisionOpaqueMesh
+      UnityEngine::Mesh*& dyn_precisionOpaqueMesh();
+      // Get instance field reference: public UnityEngine.Mesh lowPolyMesh
+      UnityEngine::Mesh*& dyn_lowPolyMesh();
+      // Get instance field reference: public System.Single sizeModifier
+      float& dyn_sizeModifier();
+      // Get instance field reference: public System.Single bottomThreshold
+      float& dyn_bottomThreshold();
+      // Get instance field reference: public System.Int32 weight
+      int& dyn_weight();
+      // Get instance field reference: public System.Int32 precisionVertexCount
+      int& dyn_precisionVertexCount();
+      // Get instance field reference: public System.Int32 lowPolyVertexCount
+      int& dyn_lowPolyVertexCount();
+      // Get instance field reference: public System.Int32 generatedCount
+      int& dyn_generatedCount();
     }; // CloudsMeshGenerator/Cloud
     #pragma pack(pop)
     static check_size<sizeof(CloudsMeshGenerator::Cloud), 36 + sizeof(int)> __GlobalNamespace_CloudsMeshGenerator_CloudSizeCheck;
@@ -190,26 +174,16 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public System.Single radius
-      float _get_radius();
-      // Set instance field: public System.Single radius
-      void _set_radius(float value);
-      // Get instance field: public System.Single normalizedRadius
-      float _get_normalizedRadius();
-      // Set instance field: public System.Single normalizedRadius
-      void _set_normalizedRadius(float value);
-      // Get instance field: public System.Int32 meshCount
-      int _get_meshCount();
-      // Set instance field: public System.Int32 meshCount
-      void _set_meshCount(int value);
-      // Get instance field: public System.Int32[] cloudIDs
-      ::Array<int>* _get_cloudIDs();
-      // Set instance field: public System.Int32[] cloudIDs
-      void _set_cloudIDs(::Array<int>* value);
-      // Get instance field: public System.Single sizeMultiplier
-      float _get_sizeMultiplier();
-      // Set instance field: public System.Single sizeMultiplier
-      void _set_sizeMultiplier(float value);
+      // Get instance field reference: public System.Single radius
+      float& dyn_radius();
+      // Get instance field reference: public System.Single normalizedRadius
+      float& dyn_normalizedRadius();
+      // Get instance field reference: public System.Int32 meshCount
+      int& dyn_meshCount();
+      // Get instance field reference: public System.Int32[] cloudIDs
+      ::Array<int>*& dyn_cloudIDs();
+      // Get instance field reference: public System.Single sizeMultiplier
+      float& dyn_sizeMultiplier();
     }; // CloudsMeshGenerator/Ring
     #pragma pack(pop)
     static check_size<sizeof(CloudsMeshGenerator::Ring), 24 + sizeof(float)> __GlobalNamespace_CloudsMeshGenerator_RingSizeCheck;
@@ -247,18 +221,12 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public UnityEngine.Transform transform
-      UnityEngine::Transform* _get_transform();
-      // Set instance field: public UnityEngine.Transform transform
-      void _set_transform(UnityEngine::Transform* value);
-      // Get instance field: public System.Single distance
-      float _get_distance();
-      // Set instance field: public System.Single distance
-      void _set_distance(float value);
-      // Get instance field: public System.Single radius
-      float _get_radius();
-      // Set instance field: public System.Single radius
-      void _set_radius(float value);
+      // Get instance field reference: public UnityEngine.Transform transform
+      UnityEngine::Transform*& dyn_transform();
+      // Get instance field reference: public System.Single distance
+      float& dyn_distance();
+      // Get instance field reference: public System.Single radius
+      float& dyn_radius();
     }; // CloudsMeshGenerator/ProhibitedRadius
     #pragma pack(pop)
     static check_size<sizeof(CloudsMeshGenerator::ProhibitedRadius), 12 + sizeof(float)> __GlobalNamespace_CloudsMeshGenerator_ProhibitedRadiusSizeCheck;
@@ -300,22 +268,14 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public System.Single normalizedStart
-      float _get_normalizedStart();
-      // Set instance field: public System.Single normalizedStart
-      void _set_normalizedStart(float value);
-      // Get instance field: public System.Single normalizedEnd
-      float _get_normalizedEnd();
-      // Set instance field: public System.Single normalizedEnd
-      void _set_normalizedEnd(float value);
-      // Get instance field: public System.Single absoluteStart
-      float _get_absoluteStart();
-      // Set instance field: public System.Single absoluteStart
-      void _set_absoluteStart(float value);
-      // Get instance field: public System.Single absoluteEnd
-      float _get_absoluteEnd();
-      // Set instance field: public System.Single absoluteEnd
-      void _set_absoluteEnd(float value);
+      // Get instance field reference: public System.Single normalizedStart
+      float& dyn_normalizedStart();
+      // Get instance field reference: public System.Single normalizedEnd
+      float& dyn_normalizedEnd();
+      // Get instance field reference: public System.Single absoluteStart
+      float& dyn_absoluteStart();
+      // Get instance field reference: public System.Single absoluteEnd
+      float& dyn_absoluteEnd();
     }; // CloudsMeshGenerator/RadiusChunk
     #pragma pack(pop)
     static check_size<sizeof(CloudsMeshGenerator::RadiusChunk), 12 + sizeof(float)> __GlobalNamespace_CloudsMeshGenerator_RadiusChunkSizeCheck;
@@ -549,138 +509,72 @@ namespace GlobalNamespace {
     CloudsMeshGenerator(UnityEngine::MeshFilter* meshFilter_ = {}, ::Il2CppString* meshName_ = {}, bool pauseGenerator_ = {}, bool bottomPushEnabled_ = {}, float bottomPushDistance_ = {}, UnityEngine::Vector2 bottomScaleTopBottom_ = {}, float bottomHorizontalScale_ = {}, bool drawRingGizmos_ = {}, ::Array<GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius>* prohibitedRadii_ = {}, UnityEngine::Vector2 meshSize_ = {}, float sizeRandomness_ = {}, float ratioRandomness_ = {}, float perMeshRadiusOffset_ = {}, UnityEngine::Gradient* possibleColors_ = {}, int randomSeed_ = {}, float heightRandomness_ = {}, float ringRotationRandomness_ = {}, int ringCount_ = {}, float meshesPerRadius_ = {}, UnityEngine::Vector2 radiusCloseFar_ = {}, UnityEngine::Vector2 sizeCloseFar_ = {}, UnityEngine::AnimationCurve* heightCloseFar_ = {}, float lowPolyThreshold_ = {}, bool flipNormals_ = {}, bool curveMesh_ = {}, ::Array<GlobalNamespace::CloudsMeshGenerator::Cloud>* clouds_ = {}, int meshCount_ = {}, int vertexCount_ = {}, UnityEngine::Mesh* generatedMesh_ = {}, UnityEngine::Bounds meshBounds_ = {}, ::Array<GlobalNamespace::CloudsMeshGenerator::RadiusChunk>* radiusChunks_ = {}, ::Array<GlobalNamespace::CloudsMeshGenerator::Ring>* rings_ = {}, ::Array<GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius>* sortedProhibitedRadii_ = {}) noexcept : meshFilter{meshFilter_}, meshName{meshName_}, pauseGenerator{pauseGenerator_}, bottomPushEnabled{bottomPushEnabled_}, bottomPushDistance{bottomPushDistance_}, bottomScaleTopBottom{bottomScaleTopBottom_}, bottomHorizontalScale{bottomHorizontalScale_}, drawRingGizmos{drawRingGizmos_}, prohibitedRadii{prohibitedRadii_}, meshSize{meshSize_}, sizeRandomness{sizeRandomness_}, ratioRandomness{ratioRandomness_}, perMeshRadiusOffset{perMeshRadiusOffset_}, possibleColors{possibleColors_}, randomSeed{randomSeed_}, heightRandomness{heightRandomness_}, ringRotationRandomness{ringRotationRandomness_}, ringCount{ringCount_}, meshesPerRadius{meshesPerRadius_}, radiusCloseFar{radiusCloseFar_}, sizeCloseFar{sizeCloseFar_}, heightCloseFar{heightCloseFar_}, lowPolyThreshold{lowPolyThreshold_}, flipNormals{flipNormals_}, curveMesh{curveMesh_}, clouds{clouds_}, meshCount{meshCount_}, vertexCount{vertexCount_}, generatedMesh{generatedMesh_}, meshBounds{meshBounds_}, radiusChunks{radiusChunks_}, rings{rings_}, sortedProhibitedRadii{sortedProhibitedRadii_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.MeshFilter _meshFilter
-    UnityEngine::MeshFilter* _get__meshFilter();
-    // Set instance field: private UnityEngine.MeshFilter _meshFilter
-    void _set__meshFilter(UnityEngine::MeshFilter* value);
-    // Get instance field: private System.String _meshName
-    ::Il2CppString* _get__meshName();
-    // Set instance field: private System.String _meshName
-    void _set__meshName(::Il2CppString* value);
-    // Get instance field: private System.Boolean _pauseGenerator
-    bool _get__pauseGenerator();
-    // Set instance field: private System.Boolean _pauseGenerator
-    void _set__pauseGenerator(bool value);
-    // Get instance field: private System.Boolean _bottomPushEnabled
-    bool _get__bottomPushEnabled();
-    // Set instance field: private System.Boolean _bottomPushEnabled
-    void _set__bottomPushEnabled(bool value);
-    // Get instance field: private System.Single _bottomPushDistance
-    float _get__bottomPushDistance();
-    // Set instance field: private System.Single _bottomPushDistance
-    void _set__bottomPushDistance(float value);
-    // Get instance field: private UnityEngine.Vector2 _bottomScaleTopBottom
-    UnityEngine::Vector2 _get__bottomScaleTopBottom();
-    // Set instance field: private UnityEngine.Vector2 _bottomScaleTopBottom
-    void _set__bottomScaleTopBottom(UnityEngine::Vector2 value);
-    // Get instance field: private System.Single _bottomHorizontalScale
-    float _get__bottomHorizontalScale();
-    // Set instance field: private System.Single _bottomHorizontalScale
-    void _set__bottomHorizontalScale(float value);
-    // Get instance field: private System.Boolean _drawRingGizmos
-    bool _get__drawRingGizmos();
-    // Set instance field: private System.Boolean _drawRingGizmos
-    void _set__drawRingGizmos(bool value);
-    // Get instance field: private CloudsMeshGenerator/ProhibitedRadius[] _prohibitedRadii
-    ::Array<GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius>* _get__prohibitedRadii();
-    // Set instance field: private CloudsMeshGenerator/ProhibitedRadius[] _prohibitedRadii
-    void _set__prohibitedRadii(::Array<GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius>* value);
-    // Get instance field: private UnityEngine.Vector2 _meshSize
-    UnityEngine::Vector2 _get__meshSize();
-    // Set instance field: private UnityEngine.Vector2 _meshSize
-    void _set__meshSize(UnityEngine::Vector2 value);
-    // Get instance field: private System.Single _sizeRandomness
-    float _get__sizeRandomness();
-    // Set instance field: private System.Single _sizeRandomness
-    void _set__sizeRandomness(float value);
-    // Get instance field: private System.Single _ratioRandomness
-    float _get__ratioRandomness();
-    // Set instance field: private System.Single _ratioRandomness
-    void _set__ratioRandomness(float value);
-    // Get instance field: private System.Single _perMeshRadiusOffset
-    float _get__perMeshRadiusOffset();
-    // Set instance field: private System.Single _perMeshRadiusOffset
-    void _set__perMeshRadiusOffset(float value);
-    // Get instance field: private UnityEngine.Gradient _possibleColors
-    UnityEngine::Gradient* _get__possibleColors();
-    // Set instance field: private UnityEngine.Gradient _possibleColors
-    void _set__possibleColors(UnityEngine::Gradient* value);
-    // Get instance field: private System.Int32 _randomSeed
-    int _get__randomSeed();
-    // Set instance field: private System.Int32 _randomSeed
-    void _set__randomSeed(int value);
-    // Get instance field: private System.Single _heightRandomness
-    float _get__heightRandomness();
-    // Set instance field: private System.Single _heightRandomness
-    void _set__heightRandomness(float value);
-    // Get instance field: private System.Single _ringRotationRandomness
-    float _get__ringRotationRandomness();
-    // Set instance field: private System.Single _ringRotationRandomness
-    void _set__ringRotationRandomness(float value);
-    // Get instance field: private System.Int32 _ringCount
-    int _get__ringCount();
-    // Set instance field: private System.Int32 _ringCount
-    void _set__ringCount(int value);
-    // Get instance field: private System.Single _meshesPerRadius
-    float _get__meshesPerRadius();
-    // Set instance field: private System.Single _meshesPerRadius
-    void _set__meshesPerRadius(float value);
-    // Get instance field: private UnityEngine.Vector2 _radiusCloseFar
-    UnityEngine::Vector2 _get__radiusCloseFar();
-    // Set instance field: private UnityEngine.Vector2 _radiusCloseFar
-    void _set__radiusCloseFar(UnityEngine::Vector2 value);
-    // Get instance field: private UnityEngine.Vector2 _sizeCloseFar
-    UnityEngine::Vector2 _get__sizeCloseFar();
-    // Set instance field: private UnityEngine.Vector2 _sizeCloseFar
-    void _set__sizeCloseFar(UnityEngine::Vector2 value);
-    // Get instance field: private UnityEngine.AnimationCurve _heightCloseFar
-    UnityEngine::AnimationCurve* _get__heightCloseFar();
-    // Set instance field: private UnityEngine.AnimationCurve _heightCloseFar
-    void _set__heightCloseFar(UnityEngine::AnimationCurve* value);
-    // Get instance field: private System.Single _lowPolyThreshold
-    float _get__lowPolyThreshold();
-    // Set instance field: private System.Single _lowPolyThreshold
-    void _set__lowPolyThreshold(float value);
-    // Get instance field: private System.Boolean _flipNormals
-    bool _get__flipNormals();
-    // Set instance field: private System.Boolean _flipNormals
-    void _set__flipNormals(bool value);
-    // Get instance field: private System.Boolean _curveMesh
-    bool _get__curveMesh();
-    // Set instance field: private System.Boolean _curveMesh
-    void _set__curveMesh(bool value);
-    // Get instance field: private CloudsMeshGenerator/Cloud[] _clouds
-    ::Array<GlobalNamespace::CloudsMeshGenerator::Cloud>* _get__clouds();
-    // Set instance field: private CloudsMeshGenerator/Cloud[] _clouds
-    void _set__clouds(::Array<GlobalNamespace::CloudsMeshGenerator::Cloud>* value);
-    // Get instance field: private System.Int32 _meshCount
-    int _get__meshCount();
-    // Set instance field: private System.Int32 _meshCount
-    void _set__meshCount(int value);
-    // Get instance field: private System.Int32 _vertexCount
-    int _get__vertexCount();
-    // Set instance field: private System.Int32 _vertexCount
-    void _set__vertexCount(int value);
-    // Get instance field: private UnityEngine.Mesh _generatedMesh
-    UnityEngine::Mesh* _get__generatedMesh();
-    // Set instance field: private UnityEngine.Mesh _generatedMesh
-    void _set__generatedMesh(UnityEngine::Mesh* value);
-    // Get instance field: private UnityEngine.Bounds _meshBounds
-    UnityEngine::Bounds _get__meshBounds();
-    // Set instance field: private UnityEngine.Bounds _meshBounds
-    void _set__meshBounds(UnityEngine::Bounds value);
-    // Get instance field: private CloudsMeshGenerator/RadiusChunk[] _radiusChunks
-    ::Array<GlobalNamespace::CloudsMeshGenerator::RadiusChunk>* _get__radiusChunks();
-    // Set instance field: private CloudsMeshGenerator/RadiusChunk[] _radiusChunks
-    void _set__radiusChunks(::Array<GlobalNamespace::CloudsMeshGenerator::RadiusChunk>* value);
-    // Get instance field: private CloudsMeshGenerator/Ring[] _rings
-    ::Array<GlobalNamespace::CloudsMeshGenerator::Ring>* _get__rings();
-    // Set instance field: private CloudsMeshGenerator/Ring[] _rings
-    void _set__rings(::Array<GlobalNamespace::CloudsMeshGenerator::Ring>* value);
-    // Get instance field: private CloudsMeshGenerator/ProhibitedRadius[] _sortedProhibitedRadii
-    ::Array<GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius>* _get__sortedProhibitedRadii();
-    // Set instance field: private CloudsMeshGenerator/ProhibitedRadius[] _sortedProhibitedRadii
-    void _set__sortedProhibitedRadii(::Array<GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius>* value);
+    // Get instance field reference: private UnityEngine.MeshFilter _meshFilter
+    UnityEngine::MeshFilter*& dyn__meshFilter();
+    // Get instance field reference: private System.String _meshName
+    ::Il2CppString*& dyn__meshName();
+    // Get instance field reference: private System.Boolean _pauseGenerator
+    bool& dyn__pauseGenerator();
+    // Get instance field reference: private System.Boolean _bottomPushEnabled
+    bool& dyn__bottomPushEnabled();
+    // Get instance field reference: private System.Single _bottomPushDistance
+    float& dyn__bottomPushDistance();
+    // Get instance field reference: private UnityEngine.Vector2 _bottomScaleTopBottom
+    UnityEngine::Vector2& dyn__bottomScaleTopBottom();
+    // Get instance field reference: private System.Single _bottomHorizontalScale
+    float& dyn__bottomHorizontalScale();
+    // Get instance field reference: private System.Boolean _drawRingGizmos
+    bool& dyn__drawRingGizmos();
+    // Get instance field reference: private CloudsMeshGenerator/ProhibitedRadius[] _prohibitedRadii
+    ::Array<GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius>*& dyn__prohibitedRadii();
+    // Get instance field reference: private UnityEngine.Vector2 _meshSize
+    UnityEngine::Vector2& dyn__meshSize();
+    // Get instance field reference: private System.Single _sizeRandomness
+    float& dyn__sizeRandomness();
+    // Get instance field reference: private System.Single _ratioRandomness
+    float& dyn__ratioRandomness();
+    // Get instance field reference: private System.Single _perMeshRadiusOffset
+    float& dyn__perMeshRadiusOffset();
+    // Get instance field reference: private UnityEngine.Gradient _possibleColors
+    UnityEngine::Gradient*& dyn__possibleColors();
+    // Get instance field reference: private System.Int32 _randomSeed
+    int& dyn__randomSeed();
+    // Get instance field reference: private System.Single _heightRandomness
+    float& dyn__heightRandomness();
+    // Get instance field reference: private System.Single _ringRotationRandomness
+    float& dyn__ringRotationRandomness();
+    // Get instance field reference: private System.Int32 _ringCount
+    int& dyn__ringCount();
+    // Get instance field reference: private System.Single _meshesPerRadius
+    float& dyn__meshesPerRadius();
+    // Get instance field reference: private UnityEngine.Vector2 _radiusCloseFar
+    UnityEngine::Vector2& dyn__radiusCloseFar();
+    // Get instance field reference: private UnityEngine.Vector2 _sizeCloseFar
+    UnityEngine::Vector2& dyn__sizeCloseFar();
+    // Get instance field reference: private UnityEngine.AnimationCurve _heightCloseFar
+    UnityEngine::AnimationCurve*& dyn__heightCloseFar();
+    // Get instance field reference: private System.Single _lowPolyThreshold
+    float& dyn__lowPolyThreshold();
+    // Get instance field reference: private System.Boolean _flipNormals
+    bool& dyn__flipNormals();
+    // Get instance field reference: private System.Boolean _curveMesh
+    bool& dyn__curveMesh();
+    // Get instance field reference: private CloudsMeshGenerator/Cloud[] _clouds
+    ::Array<GlobalNamespace::CloudsMeshGenerator::Cloud>*& dyn__clouds();
+    // Get instance field reference: private System.Int32 _meshCount
+    int& dyn__meshCount();
+    // Get instance field reference: private System.Int32 _vertexCount
+    int& dyn__vertexCount();
+    // Get instance field reference: private UnityEngine.Mesh _generatedMesh
+    UnityEngine::Mesh*& dyn__generatedMesh();
+    // Get instance field reference: private UnityEngine.Bounds _meshBounds
+    UnityEngine::Bounds& dyn__meshBounds();
+    // Get instance field reference: private CloudsMeshGenerator/RadiusChunk[] _radiusChunks
+    ::Array<GlobalNamespace::CloudsMeshGenerator::RadiusChunk>*& dyn__radiusChunks();
+    // Get instance field reference: private CloudsMeshGenerator/Ring[] _rings
+    ::Array<GlobalNamespace::CloudsMeshGenerator::Ring>*& dyn__rings();
+    // Get instance field reference: private CloudsMeshGenerator/ProhibitedRadius[] _sortedProhibitedRadii
+    ::Array<GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius>*& dyn__sortedProhibitedRadii();
     // public System.Void .ctor()
     // Offset: 0x10ED054
     // Implemented from: UnityEngine.MonoBehaviour

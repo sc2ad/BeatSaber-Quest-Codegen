@@ -46,10 +46,8 @@ namespace UnityEngine::UI {
     static UnityEngine::UI::Slider::Axis _get_Vertical();
     // Set static field: static public UnityEngine.UI.Slider/UnityEngine.UI.Axis Vertical
     static void _set_Vertical(UnityEngine::UI::Slider::Axis value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.UI.Slider/UnityEngine.UI.Axis
   #pragma pack(pop)
   static check_size<sizeof(Slider::Axis), 0 + sizeof(int)> __UnityEngine_UI_Slider_AxisSizeCheck;

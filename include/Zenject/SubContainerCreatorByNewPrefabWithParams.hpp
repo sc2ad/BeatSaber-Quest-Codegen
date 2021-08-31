@@ -77,22 +77,14 @@ namespace Zenject {
     operator Zenject::ISubContainerCreator() noexcept {
       return *reinterpret_cast<Zenject::ISubContainerCreator*>(this);
     }
-    // Get instance field: private readonly Zenject.DiContainer _container
-    Zenject::DiContainer* _get__container();
-    // Set instance field: private readonly Zenject.DiContainer _container
-    void _set__container(Zenject::DiContainer* value);
-    // Get instance field: private readonly Zenject.IPrefabProvider _prefabProvider
-    Zenject::IPrefabProvider* _get__prefabProvider();
-    // Set instance field: private readonly Zenject.IPrefabProvider _prefabProvider
-    void _set__prefabProvider(Zenject::IPrefabProvider* value);
-    // Get instance field: private readonly System.Type _installerType
-    System::Type* _get__installerType();
-    // Set instance field: private readonly System.Type _installerType
-    void _set__installerType(System::Type* value);
-    // Get instance field: private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo
-    Zenject::GameObjectCreationParameters* _get__gameObjectBindInfo();
-    // Set instance field: private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo
-    void _set__gameObjectBindInfo(Zenject::GameObjectCreationParameters* value);
+    // Get instance field reference: private readonly Zenject.DiContainer _container
+    Zenject::DiContainer*& dyn__container();
+    // Get instance field reference: private readonly Zenject.IPrefabProvider _prefabProvider
+    Zenject::IPrefabProvider*& dyn__prefabProvider();
+    // Get instance field reference: private readonly System.Type _installerType
+    System::Type*& dyn__installerType();
+    // Get instance field reference: private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo
+    Zenject::GameObjectCreationParameters*& dyn__gameObjectBindInfo();
     // protected Zenject.DiContainer get_Container()
     // Offset: 0x1721414
     Zenject::DiContainer* get_Container();

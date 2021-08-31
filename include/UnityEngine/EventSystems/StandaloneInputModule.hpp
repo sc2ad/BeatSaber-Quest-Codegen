@@ -121,62 +121,34 @@ namespace UnityEngine::EventSystems {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: StandaloneInputModule
     StandaloneInputModule(float m_PrevActionTime_ = {}, UnityEngine::Vector2 m_LastMoveVector_ = {}, int m_ConsecutiveMoveCount_ = {}, UnityEngine::Vector2 m_LastMousePosition_ = {}, UnityEngine::Vector2 m_MousePosition_ = {}, UnityEngine::GameObject* m_CurrentFocusedGameObject_ = {}, UnityEngine::EventSystems::PointerEventData* m_InputPointerEvent_ = {}, ::Il2CppString* m_HorizontalAxis_ = {}, ::Il2CppString* m_VerticalAxis_ = {}, ::Il2CppString* m_SubmitButton_ = {}, ::Il2CppString* m_CancelButton_ = {}, float m_InputActionsPerSecond_ = {}, float m_RepeatDelay_ = {}, bool m_ForceModuleActive_ = {}) noexcept : m_PrevActionTime{m_PrevActionTime_}, m_LastMoveVector{m_LastMoveVector_}, m_ConsecutiveMoveCount{m_ConsecutiveMoveCount_}, m_LastMousePosition{m_LastMousePosition_}, m_MousePosition{m_MousePosition_}, m_CurrentFocusedGameObject{m_CurrentFocusedGameObject_}, m_InputPointerEvent{m_InputPointerEvent_}, m_HorizontalAxis{m_HorizontalAxis_}, m_VerticalAxis{m_VerticalAxis_}, m_SubmitButton{m_SubmitButton_}, m_CancelButton{m_CancelButton_}, m_InputActionsPerSecond{m_InputActionsPerSecond_}, m_RepeatDelay{m_RepeatDelay_}, m_ForceModuleActive{m_ForceModuleActive_} {}
-    // Get instance field: private System.Single m_PrevActionTime
-    float _get_m_PrevActionTime();
-    // Set instance field: private System.Single m_PrevActionTime
-    void _set_m_PrevActionTime(float value);
-    // Get instance field: private UnityEngine.Vector2 m_LastMoveVector
-    UnityEngine::Vector2 _get_m_LastMoveVector();
-    // Set instance field: private UnityEngine.Vector2 m_LastMoveVector
-    void _set_m_LastMoveVector(UnityEngine::Vector2 value);
-    // Get instance field: private System.Int32 m_ConsecutiveMoveCount
-    int _get_m_ConsecutiveMoveCount();
-    // Set instance field: private System.Int32 m_ConsecutiveMoveCount
-    void _set_m_ConsecutiveMoveCount(int value);
-    // Get instance field: private UnityEngine.Vector2 m_LastMousePosition
-    UnityEngine::Vector2 _get_m_LastMousePosition();
-    // Set instance field: private UnityEngine.Vector2 m_LastMousePosition
-    void _set_m_LastMousePosition(UnityEngine::Vector2 value);
-    // Get instance field: private UnityEngine.Vector2 m_MousePosition
-    UnityEngine::Vector2 _get_m_MousePosition();
-    // Set instance field: private UnityEngine.Vector2 m_MousePosition
-    void _set_m_MousePosition(UnityEngine::Vector2 value);
-    // Get instance field: private UnityEngine.GameObject m_CurrentFocusedGameObject
-    UnityEngine::GameObject* _get_m_CurrentFocusedGameObject();
-    // Set instance field: private UnityEngine.GameObject m_CurrentFocusedGameObject
-    void _set_m_CurrentFocusedGameObject(UnityEngine::GameObject* value);
-    // Get instance field: private UnityEngine.EventSystems.PointerEventData m_InputPointerEvent
-    UnityEngine::EventSystems::PointerEventData* _get_m_InputPointerEvent();
-    // Set instance field: private UnityEngine.EventSystems.PointerEventData m_InputPointerEvent
-    void _set_m_InputPointerEvent(UnityEngine::EventSystems::PointerEventData* value);
-    // Get instance field: private System.String m_HorizontalAxis
-    ::Il2CppString* _get_m_HorizontalAxis();
-    // Set instance field: private System.String m_HorizontalAxis
-    void _set_m_HorizontalAxis(::Il2CppString* value);
-    // Get instance field: private System.String m_VerticalAxis
-    ::Il2CppString* _get_m_VerticalAxis();
-    // Set instance field: private System.String m_VerticalAxis
-    void _set_m_VerticalAxis(::Il2CppString* value);
-    // Get instance field: private System.String m_SubmitButton
-    ::Il2CppString* _get_m_SubmitButton();
-    // Set instance field: private System.String m_SubmitButton
-    void _set_m_SubmitButton(::Il2CppString* value);
-    // Get instance field: private System.String m_CancelButton
-    ::Il2CppString* _get_m_CancelButton();
-    // Set instance field: private System.String m_CancelButton
-    void _set_m_CancelButton(::Il2CppString* value);
-    // Get instance field: private System.Single m_InputActionsPerSecond
-    float _get_m_InputActionsPerSecond();
-    // Set instance field: private System.Single m_InputActionsPerSecond
-    void _set_m_InputActionsPerSecond(float value);
-    // Get instance field: private System.Single m_RepeatDelay
-    float _get_m_RepeatDelay();
-    // Set instance field: private System.Single m_RepeatDelay
-    void _set_m_RepeatDelay(float value);
-    // Get instance field: private System.Boolean m_ForceModuleActive
-    bool _get_m_ForceModuleActive();
-    // Set instance field: private System.Boolean m_ForceModuleActive
-    void _set_m_ForceModuleActive(bool value);
+    // Get instance field reference: private System.Single m_PrevActionTime
+    float& dyn_m_PrevActionTime();
+    // Get instance field reference: private UnityEngine.Vector2 m_LastMoveVector
+    UnityEngine::Vector2& dyn_m_LastMoveVector();
+    // Get instance field reference: private System.Int32 m_ConsecutiveMoveCount
+    int& dyn_m_ConsecutiveMoveCount();
+    // Get instance field reference: private UnityEngine.Vector2 m_LastMousePosition
+    UnityEngine::Vector2& dyn_m_LastMousePosition();
+    // Get instance field reference: private UnityEngine.Vector2 m_MousePosition
+    UnityEngine::Vector2& dyn_m_MousePosition();
+    // Get instance field reference: private UnityEngine.GameObject m_CurrentFocusedGameObject
+    UnityEngine::GameObject*& dyn_m_CurrentFocusedGameObject();
+    // Get instance field reference: private UnityEngine.EventSystems.PointerEventData m_InputPointerEvent
+    UnityEngine::EventSystems::PointerEventData*& dyn_m_InputPointerEvent();
+    // Get instance field reference: private System.String m_HorizontalAxis
+    ::Il2CppString*& dyn_m_HorizontalAxis();
+    // Get instance field reference: private System.String m_VerticalAxis
+    ::Il2CppString*& dyn_m_VerticalAxis();
+    // Get instance field reference: private System.String m_SubmitButton
+    ::Il2CppString*& dyn_m_SubmitButton();
+    // Get instance field reference: private System.String m_CancelButton
+    ::Il2CppString*& dyn_m_CancelButton();
+    // Get instance field reference: private System.Single m_InputActionsPerSecond
+    float& dyn_m_InputActionsPerSecond();
+    // Get instance field reference: private System.Single m_RepeatDelay
+    float& dyn_m_RepeatDelay();
+    // Get instance field reference: private System.Boolean m_ForceModuleActive
+    bool& dyn_m_ForceModuleActive();
     // public UnityEngine.EventSystems.StandaloneInputModule/UnityEngine.EventSystems.InputMode get_inputMode()
     // Offset: 0x146DEA8
     UnityEngine::EventSystems::StandaloneInputModule::InputMode get_inputMode();

@@ -107,42 +107,24 @@ namespace System::Net {
     operator System::IAsyncResult() noexcept {
       return *reinterpret_cast<System::IAsyncResult*>(this);
     }
-    // Get instance field: private System.Threading.ManualResetEvent handle
-    System::Threading::ManualResetEvent* _get_handle();
-    // Set instance field: private System.Threading.ManualResetEvent handle
-    void _set_handle(System::Threading::ManualResetEvent* value);
-    // Get instance field: private System.Boolean synch
-    bool _get_synch();
-    // Set instance field: private System.Boolean synch
-    void _set_synch(bool value);
-    // Get instance field: private System.Boolean isCompleted
-    bool _get_isCompleted();
-    // Set instance field: private System.Boolean isCompleted
-    void _set_isCompleted(bool value);
-    // Get instance field: private readonly System.Net.SimpleAsyncCallback cb
-    System::Net::SimpleAsyncCallback* _get_cb();
-    // Set instance field: private readonly System.Net.SimpleAsyncCallback cb
-    void _set_cb(System::Net::SimpleAsyncCallback* value);
-    // Get instance field: private System.Object state
-    ::Il2CppObject* _get_state();
-    // Set instance field: private System.Object state
-    void _set_state(::Il2CppObject* value);
-    // Get instance field: private System.Boolean callbackDone
-    bool _get_callbackDone();
-    // Set instance field: private System.Boolean callbackDone
-    void _set_callbackDone(bool value);
-    // Get instance field: private System.Exception exc
-    System::Exception* _get_exc();
-    // Set instance field: private System.Exception exc
-    void _set_exc(System::Exception* value);
-    // Get instance field: private System.Object locker
-    ::Il2CppObject* _get_locker();
-    // Set instance field: private System.Object locker
-    void _set_locker(::Il2CppObject* value);
-    // Get instance field: private System.Nullable`1<System.Boolean> user_read_synch
-    System::Nullable_1<bool> _get_user_read_synch();
-    // Set instance field: private System.Nullable`1<System.Boolean> user_read_synch
-    void _set_user_read_synch(System::Nullable_1<bool> value);
+    // Get instance field reference: private System.Threading.ManualResetEvent handle
+    System::Threading::ManualResetEvent*& dyn_handle();
+    // Get instance field reference: private System.Boolean synch
+    bool& dyn_synch();
+    // Get instance field reference: private System.Boolean isCompleted
+    bool& dyn_isCompleted();
+    // Get instance field reference: private readonly System.Net.SimpleAsyncCallback cb
+    System::Net::SimpleAsyncCallback*& dyn_cb();
+    // Get instance field reference: private System.Object state
+    ::Il2CppObject*& dyn_state();
+    // Get instance field reference: private System.Boolean callbackDone
+    bool& dyn_callbackDone();
+    // Get instance field reference: private System.Exception exc
+    System::Exception*& dyn_exc();
+    // Get instance field reference: private System.Object locker
+    ::Il2CppObject*& dyn_locker();
+    // Get instance field reference: private System.Nullable`1<System.Boolean> user_read_synch
+    System::Nullable_1<bool>& dyn_user_read_synch();
     // public System.Object get_AsyncState()
     // Offset: 0x14A3C5C
     ::Il2CppObject* get_AsyncState();

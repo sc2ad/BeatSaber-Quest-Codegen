@@ -200,10 +200,8 @@ namespace System::Net::NetworkInformation {
     static System::Net::NetworkInformation::NetworkInterfaceType _get_Wwanpp2();
     // Set static field: static public System.Net.NetworkInformation.NetworkInterfaceType Wwanpp2
     static void _set_Wwanpp2(System::Net::NetworkInformation::NetworkInterfaceType value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Net.NetworkInformation.NetworkInterfaceType
   #pragma pack(pop)
   static check_size<sizeof(NetworkInterfaceType), 0 + sizeof(int)> __System_Net_NetworkInformation_NetworkInterfaceTypeSizeCheck;

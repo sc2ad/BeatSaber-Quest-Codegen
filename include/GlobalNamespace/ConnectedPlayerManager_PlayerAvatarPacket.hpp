@@ -61,10 +61,8 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::MultiplayerAvatarData() const noexcept {
       return playerAvatar;
     }
-    // Get instance field: public MultiplayerAvatarData playerAvatar
-    GlobalNamespace::MultiplayerAvatarData _get_playerAvatar();
-    // Set instance field: public MultiplayerAvatarData playerAvatar
-    void _set_playerAvatar(GlobalNamespace::MultiplayerAvatarData value);
+    // Get instance field reference: public MultiplayerAvatarData playerAvatar
+    GlobalNamespace::MultiplayerAvatarData& dyn_playerAvatar();
     // static public PacketPool`1<ConnectedPlayerManager/PlayerAvatarPacket> get_pool()
     // Offset: 0x1320D80
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::PlayerAvatarPacket*>* get_pool();

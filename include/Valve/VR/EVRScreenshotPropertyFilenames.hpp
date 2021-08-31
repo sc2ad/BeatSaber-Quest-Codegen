@@ -44,10 +44,8 @@ namespace Valve::VR {
     static Valve::VR::EVRScreenshotPropertyFilenames _get_VR();
     // Set static field: static public Valve.VR.EVRScreenshotPropertyFilenames VR
     static void _set_VR(Valve::VR::EVRScreenshotPropertyFilenames value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Valve.VR.EVRScreenshotPropertyFilenames
   #pragma pack(pop)
   static check_size<sizeof(EVRScreenshotPropertyFilenames), 0 + sizeof(int)> __Valve_VR_EVRScreenshotPropertyFilenamesSizeCheck;

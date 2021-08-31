@@ -50,10 +50,8 @@ namespace System::Net::Configuration {
     static System::Net::Configuration::UnicodeEncodingConformance _get_Compat();
     // Set static field: static public System.Net.Configuration.UnicodeEncodingConformance Compat
     static void _set_Compat(System::Net::Configuration::UnicodeEncodingConformance value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Net.Configuration.UnicodeEncodingConformance
   #pragma pack(pop)
   static check_size<sizeof(UnicodeEncodingConformance), 0 + sizeof(int)> __System_Net_Configuration_UnicodeEncodingConformanceSizeCheck;

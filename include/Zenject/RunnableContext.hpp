@@ -46,14 +46,10 @@ namespace Zenject {
     static bool _get__staticAutoRun();
     // Set static field: static private System.Boolean _staticAutoRun
     static void _set__staticAutoRun(bool value);
-    // Get instance field: private System.Boolean _autoRun
-    bool _get__autoRun();
-    // Set instance field: private System.Boolean _autoRun
-    void _set__autoRun(bool value);
-    // Get instance field: private System.Boolean <Initialized>k__BackingField
-    bool _get_$Initialized$k__BackingField();
-    // Set instance field: private System.Boolean <Initialized>k__BackingField
-    void _set_$Initialized$k__BackingField(bool value);
+    // Get instance field reference: private System.Boolean _autoRun
+    bool& dyn__autoRun();
+    // Get instance field reference: private System.Boolean <Initialized>k__BackingField
+    bool& dyn_$Initialized$k__BackingField();
     // public System.Boolean get_Initialized()
     // Offset: 0x171A214
     bool get_Initialized();

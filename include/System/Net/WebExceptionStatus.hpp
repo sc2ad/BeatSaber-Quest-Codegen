@@ -158,10 +158,8 @@ namespace System::Net {
     static System::Net::WebExceptionStatus _get_RequestProhibitedByProxy();
     // Set static field: static public System.Net.WebExceptionStatus RequestProhibitedByProxy
     static void _set_RequestProhibitedByProxy(System::Net::WebExceptionStatus value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Net.WebExceptionStatus
   #pragma pack(pop)
   static check_size<sizeof(WebExceptionStatus), 0 + sizeof(int)> __System_Net_WebExceptionStatusSizeCheck;

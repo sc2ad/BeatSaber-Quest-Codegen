@@ -209,10 +209,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::EditAvatarViewController::AvatarEditPart _get_ClothesModelDetailColor();
       // Set static field: static public EditAvatarViewController/AvatarEditPart ClothesModelDetailColor
       static void _set_ClothesModelDetailColor(GlobalNamespace::EditAvatarViewController::AvatarEditPart value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // EditAvatarViewController/AvatarEditPart
     #pragma pack(pop)
     static check_size<sizeof(EditAvatarViewController::AvatarEditPart), 0 + sizeof(int)> __GlobalNamespace_EditAvatarViewController_AvatarEditPartSizeCheck;
@@ -401,114 +399,60 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kCreateApplyButtonLocalizationKey();
     // Set static field: static private System.String kCreateApplyButtonLocalizationKey
     static void _set_kCreateApplyButtonLocalizationKey(::Il2CppString* value);
-    // Get instance field: private NamedColorListController _skinColorValuePicker
-    GlobalNamespace::NamedColorListController* _get__skinColorValuePicker();
-    // Set instance field: private NamedColorListController _skinColorValuePicker
-    void _set__skinColorValuePicker(GlobalNamespace::NamedColorListController* value);
-    // Get instance field: private NamedIntListController _headTopValuePicker
-    GlobalNamespace::NamedIntListController* _get__headTopValuePicker();
-    // Set instance field: private NamedIntListController _headTopValuePicker
-    void _set__headTopValuePicker(GlobalNamespace::NamedIntListController* value);
-    // Get instance field: private NamedIntListController _eyesValuePicker
-    GlobalNamespace::NamedIntListController* _get__eyesValuePicker();
-    // Set instance field: private NamedIntListController _eyesValuePicker
-    void _set__eyesValuePicker(GlobalNamespace::NamedIntListController* value);
-    // Get instance field: private NamedIntListController _handsValuePicker
-    GlobalNamespace::NamedIntListController* _get__handsValuePicker();
-    // Set instance field: private NamedIntListController _handsValuePicker
-    void _set__handsValuePicker(GlobalNamespace::NamedIntListController* value);
-    // Get instance field: private NamedIntListController _clothesValuePicker
-    GlobalNamespace::NamedIntListController* _get__clothesValuePicker();
-    // Set instance field: private NamedIntListController _clothesValuePicker
-    void _set__clothesValuePicker(GlobalNamespace::NamedIntListController* value);
-    // Get instance field: private ColorPickerButtonController _headTopPrimaryColorButtonController
-    GlobalNamespace::ColorPickerButtonController* _get__headTopPrimaryColorButtonController();
-    // Set instance field: private ColorPickerButtonController _headTopPrimaryColorButtonController
-    void _set__headTopPrimaryColorButtonController(GlobalNamespace::ColorPickerButtonController* value);
-    // Get instance field: private ColorPickerButtonController _headTopSecondaryColorButtonController
-    GlobalNamespace::ColorPickerButtonController* _get__headTopSecondaryColorButtonController();
-    // Set instance field: private ColorPickerButtonController _headTopSecondaryColorButtonController
-    void _set__headTopSecondaryColorButtonController(GlobalNamespace::ColorPickerButtonController* value);
-    // Get instance field: private ColorPickerButtonController _handsColorButtonController
-    GlobalNamespace::ColorPickerButtonController* _get__handsColorButtonController();
-    // Set instance field: private ColorPickerButtonController _handsColorButtonController
-    void _set__handsColorButtonController(GlobalNamespace::ColorPickerButtonController* value);
-    // Get instance field: private ColorPickerButtonController _clothesColorButtonControllerPrimary
-    GlobalNamespace::ColorPickerButtonController* _get__clothesColorButtonControllerPrimary();
-    // Set instance field: private ColorPickerButtonController _clothesColorButtonControllerPrimary
-    void _set__clothesColorButtonControllerPrimary(GlobalNamespace::ColorPickerButtonController* value);
-    // Get instance field: private ColorPickerButtonController _clothesColorButtonControllerSecondary
-    GlobalNamespace::ColorPickerButtonController* _get__clothesColorButtonControllerSecondary();
-    // Set instance field: private ColorPickerButtonController _clothesColorButtonControllerSecondary
-    void _set__clothesColorButtonControllerSecondary(GlobalNamespace::ColorPickerButtonController* value);
-    // Get instance field: private ColorPickerButtonController _clothesColorButtonControllerDetail
-    GlobalNamespace::ColorPickerButtonController* _get__clothesColorButtonControllerDetail();
-    // Set instance field: private ColorPickerButtonController _clothesColorButtonControllerDetail
-    void _set__clothesColorButtonControllerDetail(GlobalNamespace::ColorPickerButtonController* value);
-    // Get instance field: private UnityEngine.UI.Button _randomizeAllButton
-    UnityEngine::UI::Button* _get__randomizeAllButton();
-    // Set instance field: private UnityEngine.UI.Button _randomizeAllButton
-    void _set__randomizeAllButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _undoButton
-    UnityEngine::UI::Button* _get__undoButton();
-    // Set instance field: private UnityEngine.UI.Button _undoButton
-    void _set__undoButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _redoButton
-    UnityEngine::UI::Button* _get__redoButton();
-    // Set instance field: private UnityEngine.UI.Button _redoButton
-    void _set__redoButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _applyButton
-    UnityEngine::UI::Button* _get__applyButton();
-    // Set instance field: private UnityEngine.UI.Button _applyButton
-    void _set__applyButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _cancelButton
-    UnityEngine::UI::Button* _get__cancelButton();
-    // Set instance field: private UnityEngine.UI.Button _cancelButton
-    void _set__cancelButton(UnityEngine::UI::Button* value);
-    // Get instance field: private HMUI.CurvedTextMeshPro _applyButtonText
-    HMUI::CurvedTextMeshPro* _get__applyButtonText();
-    // Set instance field: private HMUI.CurvedTextMeshPro _applyButtonText
-    void _set__applyButtonText(HMUI::CurvedTextMeshPro* value);
-    // Get instance field: private UnityEngine.UI.Image _eyesPreviewImage
-    UnityEngine::UI::Image* _get__eyesPreviewImage();
-    // Set instance field: private UnityEngine.UI.Image _eyesPreviewImage
-    void _set__eyesPreviewImage(UnityEngine::UI::Image* value);
-    // Get instance field: private readonly AvatarPartsModel _avatarPartsModel
-    GlobalNamespace::AvatarPartsModel* _get__avatarPartsModel();
-    // Set instance field: private readonly AvatarPartsModel _avatarPartsModel
-    void _set__avatarPartsModel(GlobalNamespace::AvatarPartsModel* value);
-    // Get instance field: private readonly AvatarDataModel _avatarDataModel
-    GlobalNamespace::AvatarDataModel* _get__avatarDataModel();
-    // Set instance field: private readonly AvatarDataModel _avatarDataModel
-    void _set__avatarDataModel(GlobalNamespace::AvatarDataModel* value);
-    // Get instance field: private readonly PlayerDataModel _playerDataModel
-    GlobalNamespace::PlayerDataModel* _get__playerDataModel();
-    // Set instance field: private readonly PlayerDataModel _playerDataModel
-    void _set__playerDataModel(GlobalNamespace::PlayerDataModel* value);
-    // Get instance field: private System.Action didFinishEvent
-    System::Action* _get_didFinishEvent();
-    // Set instance field: private System.Action didFinishEvent
-    void _set_didFinishEvent(System::Action* value);
-    // Get instance field: private System.Action`4<System.Action`1<UnityEngine.Color>,UnityEngine.Color,EditAvatarViewController/AvatarEditPart,System.Int32> didRequestColorChangeEvent
-    System::Action_4<System::Action_1<UnityEngine::Color>*, UnityEngine::Color, GlobalNamespace::EditAvatarViewController::AvatarEditPart, int>* _get_didRequestColorChangeEvent();
-    // Set instance field: private System.Action`4<System.Action`1<UnityEngine.Color>,UnityEngine.Color,EditAvatarViewController/AvatarEditPart,System.Int32> didRequestColorChangeEvent
-    void _set_didRequestColorChangeEvent(System::Action_4<System::Action_1<UnityEngine::Color>*, UnityEngine::Color, GlobalNamespace::EditAvatarViewController::AvatarEditPart, int>* value);
-    // Get instance field: private System.Action`1<EditAvatarViewController/AvatarEditPart> didChangedAvatarPartEvent
-    System::Action_1<GlobalNamespace::EditAvatarViewController::AvatarEditPart>* _get_didChangedAvatarPartEvent();
-    // Set instance field: private System.Action`1<EditAvatarViewController/AvatarEditPart> didChangedAvatarPartEvent
-    void _set_didChangedAvatarPartEvent(System::Action_1<GlobalNamespace::EditAvatarViewController::AvatarEditPart>* value);
-    // Get instance field: private readonly AvatarEditHistory _avatarEditHistory
-    GlobalNamespace::AvatarEditHistory* _get__avatarEditHistory();
-    // Set instance field: private readonly AvatarEditHistory _avatarEditHistory
-    void _set__avatarEditHistory(GlobalNamespace::AvatarEditHistory* value);
-    // Get instance field: private HMUI.ValueChangedBinder`1<System.Int32> _intPickerBinder
-    HMUI::ValueChangedBinder_1<int>* _get__intPickerBinder();
-    // Set instance field: private HMUI.ValueChangedBinder`1<System.Int32> _intPickerBinder
-    void _set__intPickerBinder(HMUI::ValueChangedBinder_1<int>* value);
-    // Get instance field: private EditAvatarViewController/AvatarEditPart _lastEditedPart
-    GlobalNamespace::EditAvatarViewController::AvatarEditPart _get__lastEditedPart();
-    // Set instance field: private EditAvatarViewController/AvatarEditPart _lastEditedPart
-    void _set__lastEditedPart(GlobalNamespace::EditAvatarViewController::AvatarEditPart value);
+    // Get instance field reference: private NamedColorListController _skinColorValuePicker
+    GlobalNamespace::NamedColorListController*& dyn__skinColorValuePicker();
+    // Get instance field reference: private NamedIntListController _headTopValuePicker
+    GlobalNamespace::NamedIntListController*& dyn__headTopValuePicker();
+    // Get instance field reference: private NamedIntListController _eyesValuePicker
+    GlobalNamespace::NamedIntListController*& dyn__eyesValuePicker();
+    // Get instance field reference: private NamedIntListController _handsValuePicker
+    GlobalNamespace::NamedIntListController*& dyn__handsValuePicker();
+    // Get instance field reference: private NamedIntListController _clothesValuePicker
+    GlobalNamespace::NamedIntListController*& dyn__clothesValuePicker();
+    // Get instance field reference: private ColorPickerButtonController _headTopPrimaryColorButtonController
+    GlobalNamespace::ColorPickerButtonController*& dyn__headTopPrimaryColorButtonController();
+    // Get instance field reference: private ColorPickerButtonController _headTopSecondaryColorButtonController
+    GlobalNamespace::ColorPickerButtonController*& dyn__headTopSecondaryColorButtonController();
+    // Get instance field reference: private ColorPickerButtonController _handsColorButtonController
+    GlobalNamespace::ColorPickerButtonController*& dyn__handsColorButtonController();
+    // Get instance field reference: private ColorPickerButtonController _clothesColorButtonControllerPrimary
+    GlobalNamespace::ColorPickerButtonController*& dyn__clothesColorButtonControllerPrimary();
+    // Get instance field reference: private ColorPickerButtonController _clothesColorButtonControllerSecondary
+    GlobalNamespace::ColorPickerButtonController*& dyn__clothesColorButtonControllerSecondary();
+    // Get instance field reference: private ColorPickerButtonController _clothesColorButtonControllerDetail
+    GlobalNamespace::ColorPickerButtonController*& dyn__clothesColorButtonControllerDetail();
+    // Get instance field reference: private UnityEngine.UI.Button _randomizeAllButton
+    UnityEngine::UI::Button*& dyn__randomizeAllButton();
+    // Get instance field reference: private UnityEngine.UI.Button _undoButton
+    UnityEngine::UI::Button*& dyn__undoButton();
+    // Get instance field reference: private UnityEngine.UI.Button _redoButton
+    UnityEngine::UI::Button*& dyn__redoButton();
+    // Get instance field reference: private UnityEngine.UI.Button _applyButton
+    UnityEngine::UI::Button*& dyn__applyButton();
+    // Get instance field reference: private UnityEngine.UI.Button _cancelButton
+    UnityEngine::UI::Button*& dyn__cancelButton();
+    // Get instance field reference: private HMUI.CurvedTextMeshPro _applyButtonText
+    HMUI::CurvedTextMeshPro*& dyn__applyButtonText();
+    // Get instance field reference: private UnityEngine.UI.Image _eyesPreviewImage
+    UnityEngine::UI::Image*& dyn__eyesPreviewImage();
+    // Get instance field reference: private readonly AvatarPartsModel _avatarPartsModel
+    GlobalNamespace::AvatarPartsModel*& dyn__avatarPartsModel();
+    // Get instance field reference: private readonly AvatarDataModel _avatarDataModel
+    GlobalNamespace::AvatarDataModel*& dyn__avatarDataModel();
+    // Get instance field reference: private readonly PlayerDataModel _playerDataModel
+    GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
+    // Get instance field reference: private System.Action didFinishEvent
+    System::Action*& dyn_didFinishEvent();
+    // Get instance field reference: private System.Action`4<System.Action`1<UnityEngine.Color>,UnityEngine.Color,EditAvatarViewController/AvatarEditPart,System.Int32> didRequestColorChangeEvent
+    System::Action_4<System::Action_1<UnityEngine::Color>*, UnityEngine::Color, GlobalNamespace::EditAvatarViewController::AvatarEditPart, int>*& dyn_didRequestColorChangeEvent();
+    // Get instance field reference: private System.Action`1<EditAvatarViewController/AvatarEditPart> didChangedAvatarPartEvent
+    System::Action_1<GlobalNamespace::EditAvatarViewController::AvatarEditPart>*& dyn_didChangedAvatarPartEvent();
+    // Get instance field reference: private readonly AvatarEditHistory _avatarEditHistory
+    GlobalNamespace::AvatarEditHistory*& dyn__avatarEditHistory();
+    // Get instance field reference: private HMUI.ValueChangedBinder`1<System.Int32> _intPickerBinder
+    HMUI::ValueChangedBinder_1<int>*& dyn__intPickerBinder();
+    // Get instance field reference: private EditAvatarViewController/AvatarEditPart _lastEditedPart
+    GlobalNamespace::EditAvatarViewController::AvatarEditPart& dyn__lastEditedPart();
     // public System.Void add_didFinishEvent(System.Action value)
     // Offset: 0x104C738
     void add_didFinishEvent(System::Action* value);

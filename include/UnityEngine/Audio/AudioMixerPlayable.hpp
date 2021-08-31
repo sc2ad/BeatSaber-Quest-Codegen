@@ -65,10 +65,8 @@ namespace UnityEngine::Audio {
     constexpr operator UnityEngine::Playables::PlayableHandle() const noexcept {
       return m_Handle;
     }
-    // Get instance field: private UnityEngine.Playables.PlayableHandle m_Handle
-    UnityEngine::Playables::PlayableHandle _get_m_Handle();
-    // Set instance field: private UnityEngine.Playables.PlayableHandle m_Handle
-    void _set_m_Handle(UnityEngine::Playables::PlayableHandle value);
+    // Get instance field reference: private UnityEngine.Playables.PlayableHandle m_Handle
+    UnityEngine::Playables::PlayableHandle& dyn_m_Handle();
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0x23FEA84
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

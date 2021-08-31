@@ -59,10 +59,8 @@ namespace Zenject {
     constexpr operator Zenject::IPrefabInstantiator*() const noexcept {
       return prefabCreator;
     }
-    // Get instance field: private readonly Zenject.IPrefabInstantiator _prefabCreator
-    Zenject::IPrefabInstantiator* _get__prefabCreator();
-    // Set instance field: private readonly Zenject.IPrefabInstantiator _prefabCreator
-    void _set__prefabCreator(Zenject::IPrefabInstantiator* value);
+    // Get instance field reference: private readonly Zenject.IPrefabInstantiator _prefabCreator
+    Zenject::IPrefabInstantiator*& dyn__prefabCreator();
     // public System.Boolean get_IsCached()
     // Offset: 0x1715FF4
     bool get_IsCached();

@@ -68,34 +68,20 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: Keyframe
     Keyframe(UnityEngine::Vector3 pos1_ = {}, UnityEngine::Vector3 pos2_ = {}, UnityEngine::Vector3 pos3_ = {}, UnityEngine::Quaternion rot1_ = {}, UnityEngine::Quaternion rot2_ = {}, UnityEngine::Quaternion rot3_ = {}, float time_ = {}) noexcept : pos1{pos1_}, pos2{pos2_}, pos3{pos3_}, rot1{rot1_}, rot2{rot2_}, rot3{rot3_}, time{time_} {}
-    // Get instance field: public UnityEngine.Vector3 _pos1
-    UnityEngine::Vector3 _get__pos1();
-    // Set instance field: public UnityEngine.Vector3 _pos1
-    void _set__pos1(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Vector3 _pos2
-    UnityEngine::Vector3 _get__pos2();
-    // Set instance field: public UnityEngine.Vector3 _pos2
-    void _set__pos2(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Vector3 _pos3
-    UnityEngine::Vector3 _get__pos3();
-    // Set instance field: public UnityEngine.Vector3 _pos3
-    void _set__pos3(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Quaternion _rot1
-    UnityEngine::Quaternion _get__rot1();
-    // Set instance field: public UnityEngine.Quaternion _rot1
-    void _set__rot1(UnityEngine::Quaternion value);
-    // Get instance field: public UnityEngine.Quaternion _rot2
-    UnityEngine::Quaternion _get__rot2();
-    // Set instance field: public UnityEngine.Quaternion _rot2
-    void _set__rot2(UnityEngine::Quaternion value);
-    // Get instance field: public UnityEngine.Quaternion _rot3
-    UnityEngine::Quaternion _get__rot3();
-    // Set instance field: public UnityEngine.Quaternion _rot3
-    void _set__rot3(UnityEngine::Quaternion value);
-    // Get instance field: public System.Single _time
-    float _get__time();
-    // Set instance field: public System.Single _time
-    void _set__time(float value);
+    // Get instance field reference: public UnityEngine.Vector3 _pos1
+    UnityEngine::Vector3& dyn__pos1();
+    // Get instance field reference: public UnityEngine.Vector3 _pos2
+    UnityEngine::Vector3& dyn__pos2();
+    // Get instance field reference: public UnityEngine.Vector3 _pos3
+    UnityEngine::Vector3& dyn__pos3();
+    // Get instance field reference: public UnityEngine.Quaternion _rot1
+    UnityEngine::Quaternion& dyn__rot1();
+    // Get instance field reference: public UnityEngine.Quaternion _rot2
+    UnityEngine::Quaternion& dyn__rot2();
+    // Get instance field reference: public UnityEngine.Quaternion _rot3
+    UnityEngine::Quaternion& dyn__rot3();
+    // Get instance field reference: public System.Single _time
+    float& dyn__time();
     // public System.Void .ctor()
     // Offset: 0x135B6D0
     // Implemented from: System.Object

@@ -75,30 +75,18 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static int _get_BlockSize();
     // Set static field: static protected readonly System.Int32 BlockSize
     static void _set_BlockSize(int value);
-    // Get instance field: protected System.Boolean encrypting
-    bool _get_encrypting();
-    // Set instance field: protected System.Boolean encrypting
-    void _set_encrypting(bool value);
-    // Get instance field: protected System.Int32[] wKey
-    ::Array<int>* _get_wKey();
-    // Set instance field: protected System.Int32[] wKey
-    void _set_wKey(::Array<int>* value);
-    // Get instance field: protected System.Int32 X0
-    int _get_X0();
-    // Set instance field: protected System.Int32 X0
-    void _set_X0(int value);
-    // Get instance field: protected System.Int32 X1
-    int _get_X1();
-    // Set instance field: protected System.Int32 X1
-    void _set_X1(int value);
-    // Get instance field: protected System.Int32 X2
-    int _get_X2();
-    // Set instance field: protected System.Int32 X2
-    void _set_X2(int value);
-    // Get instance field: protected System.Int32 X3
-    int _get_X3();
-    // Set instance field: protected System.Int32 X3
-    void _set_X3(int value);
+    // Get instance field reference: protected System.Boolean encrypting
+    bool& dyn_encrypting();
+    // Get instance field reference: protected System.Int32[] wKey
+    ::Array<int>*& dyn_wKey();
+    // Get instance field reference: protected System.Int32 X0
+    int& dyn_X0();
+    // Get instance field reference: protected System.Int32 X1
+    int& dyn_X1();
+    // Get instance field reference: protected System.Int32 X2
+    int& dyn_X2();
+    // Get instance field reference: protected System.Int32 X3
+    int& dyn_X3();
     // public System.String get_AlgorithmName()
     // Offset: 0x1ECA014
     ::Il2CppString* get_AlgorithmName();

@@ -39,10 +39,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::AvatarColorBehaviour*) == 0x8);
     // Creating value type constructor for type: CustomControlPlayableAsset
     CustomControlPlayableAsset(GlobalNamespace::AvatarColorBehaviour* _template_ = {}) noexcept : _template{_template_} {}
-    // Get instance field: public AvatarColorBehaviour _template
-    GlobalNamespace::AvatarColorBehaviour* _get__template();
-    // Set instance field: public AvatarColorBehaviour _template
-    void _set__template(GlobalNamespace::AvatarColorBehaviour* value);
+    // Get instance field reference: public AvatarColorBehaviour _template
+    GlobalNamespace::AvatarColorBehaviour*& dyn__template();
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
     // Offset: 0x10F64E4
     UnityEngine::Timeline::ClipCaps get_clipCaps();

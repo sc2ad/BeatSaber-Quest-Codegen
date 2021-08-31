@@ -38,18 +38,12 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: SerStack
     SerStack(::Array<::Il2CppObject*>* objects_ = {}, ::Il2CppString* stackId_ = {}, int top_ = {}) noexcept : objects{objects_}, stackId{stackId_}, top{top_} {}
-    // Get instance field: System.Object[] objects
-    ::Array<::Il2CppObject*>* _get_objects();
-    // Set instance field: System.Object[] objects
-    void _set_objects(::Array<::Il2CppObject*>* value);
-    // Get instance field: System.String stackId
-    ::Il2CppString* _get_stackId();
-    // Set instance field: System.String stackId
-    void _set_stackId(::Il2CppString* value);
-    // Get instance field: System.Int32 top
-    int _get_top();
-    // Set instance field: System.Int32 top
-    void _set_top(int value);
+    // Get instance field reference: System.Object[] objects
+    ::Array<::Il2CppObject*>*& dyn_objects();
+    // Get instance field reference: System.String stackId
+    ::Il2CppString*& dyn_stackId();
+    // Get instance field reference: System.Int32 top
+    int& dyn_top();
     // System.Void .ctor(System.String stackId)
     // Offset: 0x1619AD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

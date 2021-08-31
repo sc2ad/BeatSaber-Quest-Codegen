@@ -59,26 +59,16 @@ namespace System::Runtime::Remoting {
     static_assert(sizeof(System::Collections::IList*) == 0x8);
     // Creating value type constructor for type: ProviderData
     ProviderData(::Il2CppString* Ref_ = {}, ::Il2CppString* Type_ = {}, ::Il2CppString* Id_ = {}, System::Collections::Hashtable* CustomProperties_ = {}, System::Collections::IList* CustomData_ = {}) noexcept : Ref{Ref_}, Type{Type_}, Id{Id_}, CustomProperties{CustomProperties_}, CustomData{CustomData_} {}
-    // Get instance field: System.String Ref
-    ::Il2CppString* _get_Ref();
-    // Set instance field: System.String Ref
-    void _set_Ref(::Il2CppString* value);
-    // Get instance field: System.String Type
-    ::Il2CppString* _get_Type();
-    // Set instance field: System.String Type
-    void _set_Type(::Il2CppString* value);
-    // Get instance field: System.String Id
-    ::Il2CppString* _get_Id();
-    // Set instance field: System.String Id
-    void _set_Id(::Il2CppString* value);
-    // Get instance field: System.Collections.Hashtable CustomProperties
-    System::Collections::Hashtable* _get_CustomProperties();
-    // Set instance field: System.Collections.Hashtable CustomProperties
-    void _set_CustomProperties(System::Collections::Hashtable* value);
-    // Get instance field: System.Collections.IList CustomData
-    System::Collections::IList* _get_CustomData();
-    // Set instance field: System.Collections.IList CustomData
-    void _set_CustomData(System::Collections::IList* value);
+    // Get instance field reference: System.String Ref
+    ::Il2CppString*& dyn_Ref();
+    // Get instance field reference: System.String Type
+    ::Il2CppString*& dyn_Type();
+    // Get instance field reference: System.String Id
+    ::Il2CppString*& dyn_Id();
+    // Get instance field reference: System.Collections.Hashtable CustomProperties
+    System::Collections::Hashtable*& dyn_CustomProperties();
+    // Get instance field reference: System.Collections.IList CustomData
+    System::Collections::IList*& dyn_CustomData();
     // public System.Void CopyFrom(System.Runtime.Remoting.ProviderData other)
     // Offset: 0x1A55848
     void CopyFrom(System::Runtime::Remoting::ProviderData* other);

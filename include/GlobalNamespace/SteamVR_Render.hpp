@@ -144,50 +144,28 @@ namespace GlobalNamespace {
     static bool _get__pauseRendering();
     // Set static field: static private System.Boolean _pauseRendering
     static void _set__pauseRendering(bool value);
-    // Get instance field: public System.Boolean pauseGameWhenDashboardIsVisible
-    bool _get_pauseGameWhenDashboardIsVisible();
-    // Set instance field: public System.Boolean pauseGameWhenDashboardIsVisible
-    void _set_pauseGameWhenDashboardIsVisible(bool value);
-    // Get instance field: public System.Boolean lockPhysicsUpdateRateToRenderFrequency
-    bool _get_lockPhysicsUpdateRateToRenderFrequency();
-    // Set instance field: public System.Boolean lockPhysicsUpdateRateToRenderFrequency
-    void _set_lockPhysicsUpdateRateToRenderFrequency(bool value);
-    // Get instance field: public SteamVR_ExternalCamera externalCamera
-    GlobalNamespace::SteamVR_ExternalCamera* _get_externalCamera();
-    // Set instance field: public SteamVR_ExternalCamera externalCamera
-    void _set_externalCamera(GlobalNamespace::SteamVR_ExternalCamera* value);
-    // Get instance field: public System.String externalCameraConfigPath
-    ::Il2CppString* _get_externalCameraConfigPath();
-    // Set instance field: public System.String externalCameraConfigPath
-    void _set_externalCameraConfigPath(::Il2CppString* value);
-    // Get instance field: public Valve.VR.ETrackingUniverseOrigin trackingSpace
-    Valve::VR::ETrackingUniverseOrigin _get_trackingSpace();
-    // Set instance field: public Valve.VR.ETrackingUniverseOrigin trackingSpace
-    void _set_trackingSpace(Valve::VR::ETrackingUniverseOrigin value);
-    // Get instance field: private SteamVR_Camera[] cameras
-    ::Array<GlobalNamespace::SteamVR_Camera*>* _get_cameras();
-    // Set instance field: private SteamVR_Camera[] cameras
-    void _set_cameras(::Array<GlobalNamespace::SteamVR_Camera*>* value);
-    // Get instance field: public Valve.VR.TrackedDevicePose_t[] poses
-    ::Array<Valve::VR::TrackedDevicePose_t>* _get_poses();
-    // Set instance field: public Valve.VR.TrackedDevicePose_t[] poses
-    void _set_poses(::Array<Valve::VR::TrackedDevicePose_t>* value);
-    // Get instance field: public Valve.VR.TrackedDevicePose_t[] gamePoses
-    ::Array<Valve::VR::TrackedDevicePose_t>* _get_gamePoses();
-    // Set instance field: public Valve.VR.TrackedDevicePose_t[] gamePoses
-    void _set_gamePoses(::Array<Valve::VR::TrackedDevicePose_t>* value);
-    // Get instance field: private UnityEngine.WaitForEndOfFrame waitForEndOfFrame
-    UnityEngine::WaitForEndOfFrame* _get_waitForEndOfFrame();
-    // Set instance field: private UnityEngine.WaitForEndOfFrame waitForEndOfFrame
-    void _set_waitForEndOfFrame(UnityEngine::WaitForEndOfFrame* value);
-    // Get instance field: private System.Single sceneResolutionScale
-    float _get_sceneResolutionScale();
-    // Set instance field: private System.Single sceneResolutionScale
-    void _set_sceneResolutionScale(float value);
-    // Get instance field: private System.Single timeScale
-    float _get_timeScale();
-    // Set instance field: private System.Single timeScale
-    void _set_timeScale(float value);
+    // Get instance field reference: public System.Boolean pauseGameWhenDashboardIsVisible
+    bool& dyn_pauseGameWhenDashboardIsVisible();
+    // Get instance field reference: public System.Boolean lockPhysicsUpdateRateToRenderFrequency
+    bool& dyn_lockPhysicsUpdateRateToRenderFrequency();
+    // Get instance field reference: public SteamVR_ExternalCamera externalCamera
+    GlobalNamespace::SteamVR_ExternalCamera*& dyn_externalCamera();
+    // Get instance field reference: public System.String externalCameraConfigPath
+    ::Il2CppString*& dyn_externalCameraConfigPath();
+    // Get instance field reference: public Valve.VR.ETrackingUniverseOrigin trackingSpace
+    Valve::VR::ETrackingUniverseOrigin& dyn_trackingSpace();
+    // Get instance field reference: private SteamVR_Camera[] cameras
+    ::Array<GlobalNamespace::SteamVR_Camera*>*& dyn_cameras();
+    // Get instance field reference: public Valve.VR.TrackedDevicePose_t[] poses
+    ::Array<Valve::VR::TrackedDevicePose_t>*& dyn_poses();
+    // Get instance field reference: public Valve.VR.TrackedDevicePose_t[] gamePoses
+    ::Array<Valve::VR::TrackedDevicePose_t>*& dyn_gamePoses();
+    // Get instance field reference: private UnityEngine.WaitForEndOfFrame waitForEndOfFrame
+    UnityEngine::WaitForEndOfFrame*& dyn_waitForEndOfFrame();
+    // Get instance field reference: private System.Single sceneResolutionScale
+    float& dyn_sceneResolutionScale();
+    // Get instance field reference: private System.Single timeScale
+    float& dyn_timeScale();
     // static public Valve.VR.EVREye get_eye()
     // Offset: 0x142BFE4
     static Valve::VR::EVREye get_eye();

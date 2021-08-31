@@ -77,14 +77,10 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IPlatformUserModel() noexcept {
       return *reinterpret_cast<GlobalNamespace::IPlatformUserModel*>(this);
     }
-    // Get instance field: private System.String[] _friendsUserIds
-    ::Array<::Il2CppString*>* _get__friendsUserIds();
-    // Set instance field: private System.String[] _friendsUserIds
-    void _set__friendsUserIds(::Array<::Il2CppString*>* value);
-    // Get instance field: private UserInfo _userInfo
-    GlobalNamespace::UserInfo* _get__userInfo();
-    // Set instance field: private UserInfo _userInfo
-    void _set__userInfo(GlobalNamespace::UserInfo* value);
+    // Get instance field reference: private System.String[] _friendsUserIds
+    ::Array<::Il2CppString*>*& dyn__friendsUserIds();
+    // Get instance field reference: private UserInfo _userInfo
+    GlobalNamespace::UserInfo*& dyn__userInfo();
     // public System.Threading.Tasks.Task`1<UserInfo> GetUserInfo()
     // Offset: 0x10229A4
     System::Threading::Tasks::Task_1<GlobalNamespace::UserInfo*>* GetUserInfo();

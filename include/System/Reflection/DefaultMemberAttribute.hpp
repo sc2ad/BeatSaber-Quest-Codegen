@@ -34,10 +34,8 @@ namespace System::Reflection {
     constexpr operator ::Il2CppString*() const noexcept {
       return m_memberName;
     }
-    // Get instance field: private System.String m_memberName
-    ::Il2CppString* _get_m_memberName();
-    // Set instance field: private System.String m_memberName
-    void _set_m_memberName(::Il2CppString* value);
+    // Get instance field reference: private System.String m_memberName
+    ::Il2CppString*& dyn_m_memberName();
     // public System.String get_MemberName()
     // Offset: 0x1D1667C
     ::Il2CppString* get_MemberName();

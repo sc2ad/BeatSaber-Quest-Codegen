@@ -63,14 +63,10 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IDiffieHellmanKeyPair() noexcept {
       return *reinterpret_cast<GlobalNamespace::IDiffieHellmanKeyPair*>(this);
     }
-    // Get instance field: private readonly Org.BouncyCastle.Crypto.Agreement.ECDHBasicAgreement _ecdhBasicAgreement
-    Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement* _get__ecdhBasicAgreement();
-    // Set instance field: private readonly Org.BouncyCastle.Crypto.Agreement.ECDHBasicAgreement _ecdhBasicAgreement
-    void _set__ecdhBasicAgreement(Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement* value);
-    // Get instance field: private readonly System.Byte[] _publicKey
-    ::Array<uint8_t>* _get__publicKey();
-    // Set instance field: private readonly System.Byte[] _publicKey
-    void _set__publicKey(::Array<uint8_t>* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Agreement.ECDHBasicAgreement _ecdhBasicAgreement
+    Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement*& dyn__ecdhBasicAgreement();
+    // Get instance field reference: private readonly System.Byte[] _publicKey
+    ::Array<uint8_t>*& dyn__publicKey();
     // public System.Byte[] get_publicKey()
     // Offset: 0x13250A0
     ::Array<uint8_t>* get_publicKey();

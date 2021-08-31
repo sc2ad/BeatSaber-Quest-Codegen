@@ -45,14 +45,10 @@ namespace UnityEngine::ProBuilder {
     operator System::Collections::Generic::IEnumerator_1<UnityEngine::ProBuilder::WingedEdge*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<UnityEngine::ProBuilder::WingedEdge*>*>(this);
     }
-    // Get instance field: private UnityEngine.ProBuilder.WingedEdge m_Start
-    UnityEngine::ProBuilder::WingedEdge* _get_m_Start();
-    // Set instance field: private UnityEngine.ProBuilder.WingedEdge m_Start
-    void _set_m_Start(UnityEngine::ProBuilder::WingedEdge* value);
-    // Get instance field: private UnityEngine.ProBuilder.WingedEdge m_Current
-    UnityEngine::ProBuilder::WingedEdge* _get_m_Current();
-    // Set instance field: private UnityEngine.ProBuilder.WingedEdge m_Current
-    void _set_m_Current(UnityEngine::ProBuilder::WingedEdge* value);
+    // Get instance field reference: private UnityEngine.ProBuilder.WingedEdge m_Start
+    UnityEngine::ProBuilder::WingedEdge*& dyn_m_Start();
+    // Get instance field reference: private UnityEngine.ProBuilder.WingedEdge m_Current
+    UnityEngine::ProBuilder::WingedEdge*& dyn_m_Current();
     // public UnityEngine.ProBuilder.WingedEdge get_Current()
     // Offset: 0x22C9058
     UnityEngine::ProBuilder::WingedEdge* get_Current();

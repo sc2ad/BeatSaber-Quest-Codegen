@@ -138,70 +138,38 @@ namespace GlobalNamespace {
     VisualMetronome(UnityEngine::AudioSource* audioSource_ = {}, float leftPadding_ = {}, float rightPadding_ = {}, UnityEngine::RectTransform* ticker_ = {}, UnityEngine::RectTransform* movingTicker_ = {}, UnityEngine::UI::Image* tickerImage_ = {}, UnityEngine::UI::Image* movingTickerImage_ = {}, float metronomeInterval_ = {}, UnityEngine::Vector2 normalTickerSize_ = {}, UnityEngine::Vector2 tickTickerSize0_ = {}, UnityEngine::Vector2 tickTickerSize1_ = {}, float smooth_ = {}, float prevAudioTime_ = {}, float zeroOffset_ = {}, float direction_ = {}, bool dontTickThisFrame_ = {}) noexcept : audioSource{audioSource_}, leftPadding{leftPadding_}, rightPadding{rightPadding_}, ticker{ticker_}, movingTicker{movingTicker_}, tickerImage{tickerImage_}, movingTickerImage{movingTickerImage_}, metronomeInterval{metronomeInterval_}, normalTickerSize{normalTickerSize_}, tickTickerSize0{tickTickerSize0_}, tickTickerSize1{tickTickerSize1_}, smooth{smooth_}, prevAudioTime{prevAudioTime_}, zeroOffset{zeroOffset_}, direction{direction_}, dontTickThisFrame{dontTickThisFrame_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.AudioSource _audioSource
-    UnityEngine::AudioSource* _get__audioSource();
-    // Set instance field: private UnityEngine.AudioSource _audioSource
-    void _set__audioSource(UnityEngine::AudioSource* value);
-    // Get instance field: private System.Single _leftPadding
-    float _get__leftPadding();
-    // Set instance field: private System.Single _leftPadding
-    void _set__leftPadding(float value);
-    // Get instance field: private System.Single _rightPadding
-    float _get__rightPadding();
-    // Set instance field: private System.Single _rightPadding
-    void _set__rightPadding(float value);
-    // Get instance field: private UnityEngine.RectTransform _ticker
-    UnityEngine::RectTransform* _get__ticker();
-    // Set instance field: private UnityEngine.RectTransform _ticker
-    void _set__ticker(UnityEngine::RectTransform* value);
-    // Get instance field: private UnityEngine.RectTransform _movingTicker
-    UnityEngine::RectTransform* _get__movingTicker();
-    // Set instance field: private UnityEngine.RectTransform _movingTicker
-    void _set__movingTicker(UnityEngine::RectTransform* value);
-    // Get instance field: private UnityEngine.UI.Image _tickerImage
-    UnityEngine::UI::Image* _get__tickerImage();
-    // Set instance field: private UnityEngine.UI.Image _tickerImage
-    void _set__tickerImage(UnityEngine::UI::Image* value);
-    // Get instance field: private UnityEngine.UI.Image _movingTickerImage
-    UnityEngine::UI::Image* _get__movingTickerImage();
-    // Set instance field: private UnityEngine.UI.Image _movingTickerImage
-    void _set__movingTickerImage(UnityEngine::UI::Image* value);
-    // Get instance field: private System.Single _metronomeInterval
-    float _get__metronomeInterval();
-    // Set instance field: private System.Single _metronomeInterval
-    void _set__metronomeInterval(float value);
-    // Get instance field: private UnityEngine.Vector2 _normalTickerSize
-    UnityEngine::Vector2 _get__normalTickerSize();
-    // Set instance field: private UnityEngine.Vector2 _normalTickerSize
-    void _set__normalTickerSize(UnityEngine::Vector2 value);
-    // Get instance field: private UnityEngine.Vector2 _tickTickerSize0
-    UnityEngine::Vector2 _get__tickTickerSize0();
-    // Set instance field: private UnityEngine.Vector2 _tickTickerSize0
-    void _set__tickTickerSize0(UnityEngine::Vector2 value);
-    // Get instance field: private UnityEngine.Vector2 _tickTickerSize1
-    UnityEngine::Vector2 _get__tickTickerSize1();
-    // Set instance field: private UnityEngine.Vector2 _tickTickerSize1
-    void _set__tickTickerSize1(UnityEngine::Vector2 value);
-    // Get instance field: private System.Single _smooth
-    float _get__smooth();
-    // Set instance field: private System.Single _smooth
-    void _set__smooth(float value);
-    // Get instance field: private System.Single _prevAudioTime
-    float _get__prevAudioTime();
-    // Set instance field: private System.Single _prevAudioTime
-    void _set__prevAudioTime(float value);
-    // Get instance field: private System.Single _zeroOffset
-    float _get__zeroOffset();
-    // Set instance field: private System.Single _zeroOffset
-    void _set__zeroOffset(float value);
-    // Get instance field: private System.Single _direction
-    float _get__direction();
-    // Set instance field: private System.Single _direction
-    void _set__direction(float value);
-    // Get instance field: private System.Boolean _dontTickThisFrame
-    bool _get__dontTickThisFrame();
-    // Set instance field: private System.Boolean _dontTickThisFrame
-    void _set__dontTickThisFrame(bool value);
+    // Get instance field reference: private UnityEngine.AudioSource _audioSource
+    UnityEngine::AudioSource*& dyn__audioSource();
+    // Get instance field reference: private System.Single _leftPadding
+    float& dyn__leftPadding();
+    // Get instance field reference: private System.Single _rightPadding
+    float& dyn__rightPadding();
+    // Get instance field reference: private UnityEngine.RectTransform _ticker
+    UnityEngine::RectTransform*& dyn__ticker();
+    // Get instance field reference: private UnityEngine.RectTransform _movingTicker
+    UnityEngine::RectTransform*& dyn__movingTicker();
+    // Get instance field reference: private UnityEngine.UI.Image _tickerImage
+    UnityEngine::UI::Image*& dyn__tickerImage();
+    // Get instance field reference: private UnityEngine.UI.Image _movingTickerImage
+    UnityEngine::UI::Image*& dyn__movingTickerImage();
+    // Get instance field reference: private System.Single _metronomeInterval
+    float& dyn__metronomeInterval();
+    // Get instance field reference: private UnityEngine.Vector2 _normalTickerSize
+    UnityEngine::Vector2& dyn__normalTickerSize();
+    // Get instance field reference: private UnityEngine.Vector2 _tickTickerSize0
+    UnityEngine::Vector2& dyn__tickTickerSize0();
+    // Get instance field reference: private UnityEngine.Vector2 _tickTickerSize1
+    UnityEngine::Vector2& dyn__tickTickerSize1();
+    // Get instance field reference: private System.Single _smooth
+    float& dyn__smooth();
+    // Get instance field reference: private System.Single _prevAudioTime
+    float& dyn__prevAudioTime();
+    // Get instance field reference: private System.Single _zeroOffset
+    float& dyn__zeroOffset();
+    // Get instance field reference: private System.Single _direction
+    float& dyn__direction();
+    // Get instance field reference: private System.Boolean _dontTickThisFrame
+    bool& dyn__dontTickThisFrame();
     // public System.Void set_tickerColor(UnityEngine.Color value)
     // Offset: 0x135FD28
     void set_tickerColor(UnityEngine::Color value);

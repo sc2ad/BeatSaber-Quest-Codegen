@@ -83,34 +83,20 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: OVR.OpenVR.IVRScreenshots/OVR.OpenVR._RequestScreenshot RequestScreenshot
-    OVR::OpenVR::IVRScreenshots::_RequestScreenshot* _get_RequestScreenshot();
-    // Set instance field: OVR.OpenVR.IVRScreenshots/OVR.OpenVR._RequestScreenshot RequestScreenshot
-    void _set_RequestScreenshot(OVR::OpenVR::IVRScreenshots::_RequestScreenshot* value);
-    // Get instance field: OVR.OpenVR.IVRScreenshots/OVR.OpenVR._HookScreenshot HookScreenshot
-    OVR::OpenVR::IVRScreenshots::_HookScreenshot* _get_HookScreenshot();
-    // Set instance field: OVR.OpenVR.IVRScreenshots/OVR.OpenVR._HookScreenshot HookScreenshot
-    void _set_HookScreenshot(OVR::OpenVR::IVRScreenshots::_HookScreenshot* value);
-    // Get instance field: OVR.OpenVR.IVRScreenshots/OVR.OpenVR._GetScreenshotPropertyType GetScreenshotPropertyType
-    OVR::OpenVR::IVRScreenshots::_GetScreenshotPropertyType* _get_GetScreenshotPropertyType();
-    // Set instance field: OVR.OpenVR.IVRScreenshots/OVR.OpenVR._GetScreenshotPropertyType GetScreenshotPropertyType
-    void _set_GetScreenshotPropertyType(OVR::OpenVR::IVRScreenshots::_GetScreenshotPropertyType* value);
-    // Get instance field: OVR.OpenVR.IVRScreenshots/OVR.OpenVR._GetScreenshotPropertyFilename GetScreenshotPropertyFilename
-    OVR::OpenVR::IVRScreenshots::_GetScreenshotPropertyFilename* _get_GetScreenshotPropertyFilename();
-    // Set instance field: OVR.OpenVR.IVRScreenshots/OVR.OpenVR._GetScreenshotPropertyFilename GetScreenshotPropertyFilename
-    void _set_GetScreenshotPropertyFilename(OVR::OpenVR::IVRScreenshots::_GetScreenshotPropertyFilename* value);
-    // Get instance field: OVR.OpenVR.IVRScreenshots/OVR.OpenVR._UpdateScreenshotProgress UpdateScreenshotProgress
-    OVR::OpenVR::IVRScreenshots::_UpdateScreenshotProgress* _get_UpdateScreenshotProgress();
-    // Set instance field: OVR.OpenVR.IVRScreenshots/OVR.OpenVR._UpdateScreenshotProgress UpdateScreenshotProgress
-    void _set_UpdateScreenshotProgress(OVR::OpenVR::IVRScreenshots::_UpdateScreenshotProgress* value);
-    // Get instance field: OVR.OpenVR.IVRScreenshots/OVR.OpenVR._TakeStereoScreenshot TakeStereoScreenshot
-    OVR::OpenVR::IVRScreenshots::_TakeStereoScreenshot* _get_TakeStereoScreenshot();
-    // Set instance field: OVR.OpenVR.IVRScreenshots/OVR.OpenVR._TakeStereoScreenshot TakeStereoScreenshot
-    void _set_TakeStereoScreenshot(OVR::OpenVR::IVRScreenshots::_TakeStereoScreenshot* value);
-    // Get instance field: OVR.OpenVR.IVRScreenshots/OVR.OpenVR._SubmitScreenshot SubmitScreenshot
-    OVR::OpenVR::IVRScreenshots::_SubmitScreenshot* _get_SubmitScreenshot();
-    // Set instance field: OVR.OpenVR.IVRScreenshots/OVR.OpenVR._SubmitScreenshot SubmitScreenshot
-    void _set_SubmitScreenshot(OVR::OpenVR::IVRScreenshots::_SubmitScreenshot* value);
+    // Get instance field reference: OVR.OpenVR.IVRScreenshots/OVR.OpenVR._RequestScreenshot RequestScreenshot
+    OVR::OpenVR::IVRScreenshots::_RequestScreenshot*& dyn_RequestScreenshot();
+    // Get instance field reference: OVR.OpenVR.IVRScreenshots/OVR.OpenVR._HookScreenshot HookScreenshot
+    OVR::OpenVR::IVRScreenshots::_HookScreenshot*& dyn_HookScreenshot();
+    // Get instance field reference: OVR.OpenVR.IVRScreenshots/OVR.OpenVR._GetScreenshotPropertyType GetScreenshotPropertyType
+    OVR::OpenVR::IVRScreenshots::_GetScreenshotPropertyType*& dyn_GetScreenshotPropertyType();
+    // Get instance field reference: OVR.OpenVR.IVRScreenshots/OVR.OpenVR._GetScreenshotPropertyFilename GetScreenshotPropertyFilename
+    OVR::OpenVR::IVRScreenshots::_GetScreenshotPropertyFilename*& dyn_GetScreenshotPropertyFilename();
+    // Get instance field reference: OVR.OpenVR.IVRScreenshots/OVR.OpenVR._UpdateScreenshotProgress UpdateScreenshotProgress
+    OVR::OpenVR::IVRScreenshots::_UpdateScreenshotProgress*& dyn_UpdateScreenshotProgress();
+    // Get instance field reference: OVR.OpenVR.IVRScreenshots/OVR.OpenVR._TakeStereoScreenshot TakeStereoScreenshot
+    OVR::OpenVR::IVRScreenshots::_TakeStereoScreenshot*& dyn_TakeStereoScreenshot();
+    // Get instance field reference: OVR.OpenVR.IVRScreenshots/OVR.OpenVR._SubmitScreenshot SubmitScreenshot
+    OVR::OpenVR::IVRScreenshots::_SubmitScreenshot*& dyn_SubmitScreenshot();
   }; // OVR.OpenVR.IVRScreenshots
   #pragma pack(pop)
   static check_size<sizeof(IVRScreenshots), 48 + sizeof(OVR::OpenVR::IVRScreenshots::_SubmitScreenshot*)> __OVR_OpenVR_IVRScreenshotsSizeCheck;

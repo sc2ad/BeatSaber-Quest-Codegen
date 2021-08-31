@@ -43,10 +43,8 @@ namespace System::Runtime::InteropServices {
     constexpr operator int() const noexcept {
       return handle;
     }
-    // Get instance field: private System.Int32 handle
-    int _get_handle();
-    // Set instance field: private System.Int32 handle
-    void _set_handle(int value);
+    // Get instance field reference: private System.Int32 handle
+    int& dyn_handle();
     // public System.Boolean get_IsAllocated()
     // Offset: 0x1488634
     bool get_IsAllocated();

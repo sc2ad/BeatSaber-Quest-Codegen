@@ -70,26 +70,16 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IBeatmapLevelPack() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevelPack*>(this);
     }
-    // Get instance field: private System.String _packID
-    ::Il2CppString* _get__packID();
-    // Set instance field: private System.String _packID
-    void _set__packID(::Il2CppString* value);
-    // Get instance field: private System.String _packName
-    ::Il2CppString* _get__packName();
-    // Set instance field: private System.String _packName
-    void _set__packName(::Il2CppString* value);
-    // Get instance field: private System.String _shortPackName
-    ::Il2CppString* _get__shortPackName();
-    // Set instance field: private System.String _shortPackName
-    void _set__shortPackName(::Il2CppString* value);
-    // Get instance field: private UnityEngine.Sprite _coverImage
-    UnityEngine::Sprite* _get__coverImage();
-    // Set instance field: private UnityEngine.Sprite _coverImage
-    void _set__coverImage(UnityEngine::Sprite* value);
-    // Get instance field: private CustomBeatmapLevelCollection _customBeatmapLevelCollection
-    GlobalNamespace::CustomBeatmapLevelCollection* _get__customBeatmapLevelCollection();
-    // Set instance field: private CustomBeatmapLevelCollection _customBeatmapLevelCollection
-    void _set__customBeatmapLevelCollection(GlobalNamespace::CustomBeatmapLevelCollection* value);
+    // Get instance field reference: private System.String _packID
+    ::Il2CppString*& dyn__packID();
+    // Get instance field reference: private System.String _packName
+    ::Il2CppString*& dyn__packName();
+    // Get instance field reference: private System.String _shortPackName
+    ::Il2CppString*& dyn__shortPackName();
+    // Get instance field reference: private UnityEngine.Sprite _coverImage
+    UnityEngine::Sprite*& dyn__coverImage();
+    // Get instance field reference: private CustomBeatmapLevelCollection _customBeatmapLevelCollection
+    GlobalNamespace::CustomBeatmapLevelCollection*& dyn__customBeatmapLevelCollection();
     // public System.String get_packID()
     // Offset: 0x10F6458
     ::Il2CppString* get_packID();

@@ -63,30 +63,18 @@ namespace TMPro {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Int32 nameHashCode
-    int _get_nameHashCode();
-    // Set instance field: public System.Int32 nameHashCode
-    void _set_nameHashCode(int value);
-    // Get instance field: public System.Int32 valueHashCode
-    int _get_valueHashCode();
-    // Set instance field: public System.Int32 valueHashCode
-    void _set_valueHashCode(int value);
-    // Get instance field: public TMPro.TagValueType valueType
-    TMPro::TagValueType _get_valueType();
-    // Set instance field: public TMPro.TagValueType valueType
-    void _set_valueType(TMPro::TagValueType value);
-    // Get instance field: public System.Int32 valueStartIndex
-    int _get_valueStartIndex();
-    // Set instance field: public System.Int32 valueStartIndex
-    void _set_valueStartIndex(int value);
-    // Get instance field: public System.Int32 valueLength
-    int _get_valueLength();
-    // Set instance field: public System.Int32 valueLength
-    void _set_valueLength(int value);
-    // Get instance field: public TMPro.TagUnitType unitType
-    TMPro::TagUnitType _get_unitType();
-    // Set instance field: public TMPro.TagUnitType unitType
-    void _set_unitType(TMPro::TagUnitType value);
+    // Get instance field reference: public System.Int32 nameHashCode
+    int& dyn_nameHashCode();
+    // Get instance field reference: public System.Int32 valueHashCode
+    int& dyn_valueHashCode();
+    // Get instance field reference: public TMPro.TagValueType valueType
+    TMPro::TagValueType& dyn_valueType();
+    // Get instance field reference: public System.Int32 valueStartIndex
+    int& dyn_valueStartIndex();
+    // Get instance field reference: public System.Int32 valueLength
+    int& dyn_valueLength();
+    // Get instance field reference: public TMPro.TagUnitType unitType
+    TMPro::TagUnitType& dyn_unitType();
   }; // TMPro.RichTextTagAttribute
   #pragma pack(pop)
   static check_size<sizeof(RichTextTagAttribute), 20 + sizeof(TMPro::TagUnitType)> __TMPro_RichTextTagAttributeSizeCheck;

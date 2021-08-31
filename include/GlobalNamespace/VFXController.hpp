@@ -63,18 +63,12 @@ namespace GlobalNamespace {
     VFXController(::Array<UnityEngine::ParticleSystem*>* particleSystems_ = {}, UnityEngine::Animation* animation_ = {}, bool deactivateAfterAnimationDuration_ = {}) noexcept : particleSystems{particleSystems_}, animation{animation_}, deactivateAfterAnimationDuration{deactivateAfterAnimationDuration_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.ParticleSystem[] _particleSystems
-    ::Array<UnityEngine::ParticleSystem*>* _get__particleSystems();
-    // Set instance field: private UnityEngine.ParticleSystem[] _particleSystems
-    void _set__particleSystems(::Array<UnityEngine::ParticleSystem*>* value);
-    // Get instance field: private UnityEngine.Animation _animation
-    UnityEngine::Animation* _get__animation();
-    // Set instance field: private UnityEngine.Animation _animation
-    void _set__animation(UnityEngine::Animation* value);
-    // Get instance field: private System.Boolean _deactivateAfterAnimationDuration
-    bool _get__deactivateAfterAnimationDuration();
-    // Set instance field: private System.Boolean _deactivateAfterAnimationDuration
-    void _set__deactivateAfterAnimationDuration(bool value);
+    // Get instance field reference: private UnityEngine.ParticleSystem[] _particleSystems
+    ::Array<UnityEngine::ParticleSystem*>*& dyn__particleSystems();
+    // Get instance field reference: private UnityEngine.Animation _animation
+    UnityEngine::Animation*& dyn__animation();
+    // Get instance field reference: private System.Boolean _deactivateAfterAnimationDuration
+    bool& dyn__deactivateAfterAnimationDuration();
     // public UnityEngine.Animation get_animation()
     // Offset: 0x239B778
     UnityEngine::Animation* get_animation();

@@ -158,10 +158,8 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRApplicationError _get_InvalidParameter();
     // Set static field: static public OVR.OpenVR.EVRApplicationError InvalidParameter
     static void _set_InvalidParameter(OVR::OpenVR::EVRApplicationError value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // OVR.OpenVR.EVRApplicationError
   #pragma pack(pop)
   static check_size<sizeof(EVRApplicationError), 0 + sizeof(int)> __OVR_OpenVR_EVRApplicationErrorSizeCheck;

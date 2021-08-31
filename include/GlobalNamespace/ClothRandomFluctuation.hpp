@@ -98,38 +98,22 @@ namespace GlobalNamespace {
     ClothRandomFluctuation(UnityEngine::Cloth* cloth_ = {}, bool useLocalExternalFluctuations_ = {}, UnityEngine::Vector3 externalFluctuations_ = {}, bool useLocalRandomFluctuations_ = {}, UnityEngine::Vector3 minFluctuations_ = {}, UnityEngine::Vector3 maxFluctuations_ = {}, System::Collections::Generic::List_1<GlobalNamespace::ClothRandomFluctuation::SineLayer*>* compoundSins_ = {}, float speed_ = {}) noexcept : cloth{cloth_}, useLocalExternalFluctuations{useLocalExternalFluctuations_}, externalFluctuations{externalFluctuations_}, useLocalRandomFluctuations{useLocalRandomFluctuations_}, minFluctuations{minFluctuations_}, maxFluctuations{maxFluctuations_}, compoundSins{compoundSins_}, speed{speed_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.Cloth _cloth
-    UnityEngine::Cloth* _get__cloth();
-    // Set instance field: private UnityEngine.Cloth _cloth
-    void _set__cloth(UnityEngine::Cloth* value);
-    // Get instance field: private System.Boolean _useLocalExternalFluctuations
-    bool _get__useLocalExternalFluctuations();
-    // Set instance field: private System.Boolean _useLocalExternalFluctuations
-    void _set__useLocalExternalFluctuations(bool value);
-    // Get instance field: private UnityEngine.Vector3 _externalFluctuations
-    UnityEngine::Vector3 _get__externalFluctuations();
-    // Set instance field: private UnityEngine.Vector3 _externalFluctuations
-    void _set__externalFluctuations(UnityEngine::Vector3 value);
-    // Get instance field: private System.Boolean _useLocalRandomFluctuations
-    bool _get__useLocalRandomFluctuations();
-    // Set instance field: private System.Boolean _useLocalRandomFluctuations
-    void _set__useLocalRandomFluctuations(bool value);
-    // Get instance field: private UnityEngine.Vector3 _minFluctuations
-    UnityEngine::Vector3 _get__minFluctuations();
-    // Set instance field: private UnityEngine.Vector3 _minFluctuations
-    void _set__minFluctuations(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 _maxFluctuations
-    UnityEngine::Vector3 _get__maxFluctuations();
-    // Set instance field: private UnityEngine.Vector3 _maxFluctuations
-    void _set__maxFluctuations(UnityEngine::Vector3 value);
-    // Get instance field: private System.Collections.Generic.List`1<ClothRandomFluctuation/SineLayer> _compoundSins
-    System::Collections::Generic::List_1<GlobalNamespace::ClothRandomFluctuation::SineLayer*>* _get__compoundSins();
-    // Set instance field: private System.Collections.Generic.List`1<ClothRandomFluctuation/SineLayer> _compoundSins
-    void _set__compoundSins(System::Collections::Generic::List_1<GlobalNamespace::ClothRandomFluctuation::SineLayer*>* value);
-    // Get instance field: private System.Single _speed
-    float _get__speed();
-    // Set instance field: private System.Single _speed
-    void _set__speed(float value);
+    // Get instance field reference: private UnityEngine.Cloth _cloth
+    UnityEngine::Cloth*& dyn__cloth();
+    // Get instance field reference: private System.Boolean _useLocalExternalFluctuations
+    bool& dyn__useLocalExternalFluctuations();
+    // Get instance field reference: private UnityEngine.Vector3 _externalFluctuations
+    UnityEngine::Vector3& dyn__externalFluctuations();
+    // Get instance field reference: private System.Boolean _useLocalRandomFluctuations
+    bool& dyn__useLocalRandomFluctuations();
+    // Get instance field reference: private UnityEngine.Vector3 _minFluctuations
+    UnityEngine::Vector3& dyn__minFluctuations();
+    // Get instance field reference: private UnityEngine.Vector3 _maxFluctuations
+    UnityEngine::Vector3& dyn__maxFluctuations();
+    // Get instance field reference: private System.Collections.Generic.List`1<ClothRandomFluctuation/SineLayer> _compoundSins
+    System::Collections::Generic::List_1<GlobalNamespace::ClothRandomFluctuation::SineLayer*>*& dyn__compoundSins();
+    // Get instance field reference: private System.Single _speed
+    float& dyn__speed();
     // protected System.Void Update()
     // Offset: 0x10ECCD4
     void Update();

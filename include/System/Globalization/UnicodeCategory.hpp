@@ -213,10 +213,8 @@ namespace System::Globalization {
     static System::Globalization::UnicodeCategory _get_OtherNotAssigned();
     // Set static field: static public System.Globalization.UnicodeCategory OtherNotAssigned
     static void _set_OtherNotAssigned(System::Globalization::UnicodeCategory value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Globalization.UnicodeCategory
   #pragma pack(pop)
   static check_size<sizeof(UnicodeCategory), 0 + sizeof(int)> __System_Globalization_UnicodeCategorySizeCheck;

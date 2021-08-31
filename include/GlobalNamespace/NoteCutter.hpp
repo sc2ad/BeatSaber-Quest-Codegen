@@ -62,18 +62,12 @@ namespace GlobalNamespace {
     static int _get_kMaxNumberOfColliders();
     // Set static field: static private System.Int32 kMaxNumberOfColliders
     static void _set_kMaxNumberOfColliders(int value);
-    // Get instance field: private readonly UnityEngine.Collider[] _colliders
-    ::Array<UnityEngine::Collider*>* _get__colliders();
-    // Set instance field: private readonly UnityEngine.Collider[] _colliders
-    void _set__colliders(::Array<UnityEngine::Collider*>* value);
-    // Get instance field: private readonly NoteCutter/CuttableBySaberSortParams[] _cuttableBySaberSortParams
-    ::Array<GlobalNamespace::NoteCutter::CuttableBySaberSortParams*>* _get__cuttableBySaberSortParams();
-    // Set instance field: private readonly NoteCutter/CuttableBySaberSortParams[] _cuttableBySaberSortParams
-    void _set__cuttableBySaberSortParams(::Array<GlobalNamespace::NoteCutter::CuttableBySaberSortParams*>* value);
-    // Get instance field: private readonly NoteCutter/CuttableBySaberSortParamsComparer _comparer
-    GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer* _get__comparer();
-    // Set instance field: private readonly NoteCutter/CuttableBySaberSortParamsComparer _comparer
-    void _set__comparer(GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer* value);
+    // Get instance field reference: private readonly UnityEngine.Collider[] _colliders
+    ::Array<UnityEngine::Collider*>*& dyn__colliders();
+    // Get instance field reference: private readonly NoteCutter/CuttableBySaberSortParams[] _cuttableBySaberSortParams
+    ::Array<GlobalNamespace::NoteCutter::CuttableBySaberSortParams*>*& dyn__cuttableBySaberSortParams();
+    // Get instance field reference: private readonly NoteCutter/CuttableBySaberSortParamsComparer _comparer
+    GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer*& dyn__comparer();
     // public System.Void Cut(Saber saber)
     // Offset: 0x1048AC0
     void Cut(GlobalNamespace::Saber* saber);

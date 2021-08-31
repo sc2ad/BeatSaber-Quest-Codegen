@@ -79,38 +79,22 @@ namespace RootMotion::FinalIK {
     FBBIKArmBending(RootMotion::FinalIK::FullBodyBipedIK* ik_ = {}, UnityEngine::Vector3 bendDirectionOffsetLeft_ = {}, UnityEngine::Vector3 bendDirectionOffsetRight_ = {}, UnityEngine::Vector3 characterSpaceBendOffsetLeft_ = {}, UnityEngine::Vector3 characterSpaceBendOffsetRight_ = {}, UnityEngine::Quaternion leftHandTargetRotation_ = {}, UnityEngine::Quaternion rightHandTargetRotation_ = {}, bool initiated_ = {}) noexcept : ik{ik_}, bendDirectionOffsetLeft{bendDirectionOffsetLeft_}, bendDirectionOffsetRight{bendDirectionOffsetRight_}, characterSpaceBendOffsetLeft{characterSpaceBendOffsetLeft_}, characterSpaceBendOffsetRight{characterSpaceBendOffsetRight_}, leftHandTargetRotation{leftHandTargetRotation_}, rightHandTargetRotation{rightHandTargetRotation_}, initiated{initiated_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public RootMotion.FinalIK.FullBodyBipedIK ik
-    RootMotion::FinalIK::FullBodyBipedIK* _get_ik();
-    // Set instance field: public RootMotion.FinalIK.FullBodyBipedIK ik
-    void _set_ik(RootMotion::FinalIK::FullBodyBipedIK* value);
-    // Get instance field: public UnityEngine.Vector3 bendDirectionOffsetLeft
-    UnityEngine::Vector3 _get_bendDirectionOffsetLeft();
-    // Set instance field: public UnityEngine.Vector3 bendDirectionOffsetLeft
-    void _set_bendDirectionOffsetLeft(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Vector3 bendDirectionOffsetRight
-    UnityEngine::Vector3 _get_bendDirectionOffsetRight();
-    // Set instance field: public UnityEngine.Vector3 bendDirectionOffsetRight
-    void _set_bendDirectionOffsetRight(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Vector3 characterSpaceBendOffsetLeft
-    UnityEngine::Vector3 _get_characterSpaceBendOffsetLeft();
-    // Set instance field: public UnityEngine.Vector3 characterSpaceBendOffsetLeft
-    void _set_characterSpaceBendOffsetLeft(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Vector3 characterSpaceBendOffsetRight
-    UnityEngine::Vector3 _get_characterSpaceBendOffsetRight();
-    // Set instance field: public UnityEngine.Vector3 characterSpaceBendOffsetRight
-    void _set_characterSpaceBendOffsetRight(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Quaternion leftHandTargetRotation
-    UnityEngine::Quaternion _get_leftHandTargetRotation();
-    // Set instance field: private UnityEngine.Quaternion leftHandTargetRotation
-    void _set_leftHandTargetRotation(UnityEngine::Quaternion value);
-    // Get instance field: private UnityEngine.Quaternion rightHandTargetRotation
-    UnityEngine::Quaternion _get_rightHandTargetRotation();
-    // Set instance field: private UnityEngine.Quaternion rightHandTargetRotation
-    void _set_rightHandTargetRotation(UnityEngine::Quaternion value);
-    // Get instance field: private System.Boolean initiated
-    bool _get_initiated();
-    // Set instance field: private System.Boolean initiated
-    void _set_initiated(bool value);
+    // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedIK ik
+    RootMotion::FinalIK::FullBodyBipedIK*& dyn_ik();
+    // Get instance field reference: public UnityEngine.Vector3 bendDirectionOffsetLeft
+    UnityEngine::Vector3& dyn_bendDirectionOffsetLeft();
+    // Get instance field reference: public UnityEngine.Vector3 bendDirectionOffsetRight
+    UnityEngine::Vector3& dyn_bendDirectionOffsetRight();
+    // Get instance field reference: public UnityEngine.Vector3 characterSpaceBendOffsetLeft
+    UnityEngine::Vector3& dyn_characterSpaceBendOffsetLeft();
+    // Get instance field reference: public UnityEngine.Vector3 characterSpaceBendOffsetRight
+    UnityEngine::Vector3& dyn_characterSpaceBendOffsetRight();
+    // Get instance field reference: private UnityEngine.Quaternion leftHandTargetRotation
+    UnityEngine::Quaternion& dyn_leftHandTargetRotation();
+    // Get instance field reference: private UnityEngine.Quaternion rightHandTargetRotation
+    UnityEngine::Quaternion& dyn_rightHandTargetRotation();
+    // Get instance field reference: private System.Boolean initiated
+    bool& dyn_initiated();
     // private System.Void LateUpdate()
     // Offset: 0x1D3372C
     void LateUpdate();

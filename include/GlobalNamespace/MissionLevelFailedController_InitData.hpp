@@ -32,10 +32,8 @@ namespace GlobalNamespace {
     constexpr operator bool() const noexcept {
       return autoRestart;
     }
-    // Get instance field: public readonly System.Boolean autoRestart
-    bool _get_autoRestart();
-    // Set instance field: public readonly System.Boolean autoRestart
-    void _set_autoRestart(bool value);
+    // Get instance field reference: public readonly System.Boolean autoRestart
+    bool& dyn_autoRestart();
     // public System.Void .ctor(System.Boolean autoRestart)
     // Offset: 0x11D104C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

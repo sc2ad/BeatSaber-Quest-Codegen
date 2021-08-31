@@ -63,14 +63,10 @@ namespace System::ComponentModel {
     static ::Il2CppObject* _get_EventDisposed();
     // Set static field: static private readonly System.Object EventDisposed
     static void _set_EventDisposed(::Il2CppObject* value);
-    // Get instance field: private System.ComponentModel.ISite site
-    System::ComponentModel::ISite* _get_site();
-    // Set instance field: private System.ComponentModel.ISite site
-    void _set_site(System::ComponentModel::ISite* value);
-    // Get instance field: private System.ComponentModel.EventHandlerList events
-    System::ComponentModel::EventHandlerList* _get_events();
-    // Set instance field: private System.ComponentModel.EventHandlerList events
-    void _set_events(System::ComponentModel::EventHandlerList* value);
+    // Get instance field reference: private System.ComponentModel.ISite site
+    System::ComponentModel::ISite*& dyn_site();
+    // Get instance field reference: private System.ComponentModel.EventHandlerList events
+    System::ComponentModel::EventHandlerList*& dyn_events();
     // protected System.Boolean get_CanRaiseEvents()
     // Offset: 0x18AE00C
     bool get_CanRaiseEvents();

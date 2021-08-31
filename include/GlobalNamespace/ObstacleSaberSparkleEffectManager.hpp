@@ -150,62 +150,34 @@ namespace GlobalNamespace {
     ObstacleSaberSparkleEffectManager(GlobalNamespace::ObstacleSaberSparkleEffect* obstacleSaberSparkleEffectPrefab_ = {}, Libraries::HM::HMLib::VR::HapticPresetSO* rumblePreset_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::SaberManager* saberManager_ = {}, GlobalNamespace::HapticFeedbackController* hapticFeedbackController_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}, System::Action_1<GlobalNamespace::SaberType>* sparkleEffectDidStartEvent_ = {}, System::Action_1<GlobalNamespace::SaberType>* sparkleEffectDidEndEvent_ = {}, ::Array<GlobalNamespace::Saber*>* sabers_ = {}, ::Array<GlobalNamespace::ObstacleSaberSparkleEffect*>* effects_ = {}, ::Array<UnityEngine::Transform*>* effectsTransforms_ = {}, ::Array<bool>* isSystemActive_ = {}, ::Array<bool>* wasSystemActive_ = {}, ::Array<UnityEngine::Vector3>* burnMarkPositions_ = {}) noexcept : obstacleSaberSparkleEffectPrefab{obstacleSaberSparkleEffectPrefab_}, rumblePreset{rumblePreset_}, beatmapObjectManager{beatmapObjectManager_}, saberManager{saberManager_}, hapticFeedbackController{hapticFeedbackController_}, colorManager{colorManager_}, sparkleEffectDidStartEvent{sparkleEffectDidStartEvent_}, sparkleEffectDidEndEvent{sparkleEffectDidEndEvent_}, sabers{sabers_}, effects{effects_}, effectsTransforms{effectsTransforms_}, isSystemActive{isSystemActive_}, wasSystemActive{wasSystemActive_}, burnMarkPositions{burnMarkPositions_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private ObstacleSaberSparkleEffect _obstacleSaberSparkleEffectPrefab
-    GlobalNamespace::ObstacleSaberSparkleEffect* _get__obstacleSaberSparkleEffectPrefab();
-    // Set instance field: private ObstacleSaberSparkleEffect _obstacleSaberSparkleEffectPrefab
-    void _set__obstacleSaberSparkleEffectPrefab(GlobalNamespace::ObstacleSaberSparkleEffect* value);
-    // Get instance field: private Libraries.HM.HMLib.VR.HapticPresetSO _rumblePreset
-    Libraries::HM::HMLib::VR::HapticPresetSO* _get__rumblePreset();
-    // Set instance field: private Libraries.HM.HMLib.VR.HapticPresetSO _rumblePreset
-    void _set__rumblePreset(Libraries::HM::HMLib::VR::HapticPresetSO* value);
-    // Get instance field: private readonly BeatmapObjectManager _beatmapObjectManager
-    GlobalNamespace::BeatmapObjectManager* _get__beatmapObjectManager();
-    // Set instance field: private readonly BeatmapObjectManager _beatmapObjectManager
-    void _set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager* value);
-    // Get instance field: private readonly SaberManager _saberManager
-    GlobalNamespace::SaberManager* _get__saberManager();
-    // Set instance field: private readonly SaberManager _saberManager
-    void _set__saberManager(GlobalNamespace::SaberManager* value);
-    // Get instance field: private readonly HapticFeedbackController _hapticFeedbackController
-    GlobalNamespace::HapticFeedbackController* _get__hapticFeedbackController();
-    // Set instance field: private readonly HapticFeedbackController _hapticFeedbackController
-    void _set__hapticFeedbackController(GlobalNamespace::HapticFeedbackController* value);
-    // Get instance field: private readonly ColorManager _colorManager
-    GlobalNamespace::ColorManager* _get__colorManager();
-    // Set instance field: private readonly ColorManager _colorManager
-    void _set__colorManager(GlobalNamespace::ColorManager* value);
-    // Get instance field: private System.Action`1<SaberType> sparkleEffectDidStartEvent
-    System::Action_1<GlobalNamespace::SaberType>* _get_sparkleEffectDidStartEvent();
-    // Set instance field: private System.Action`1<SaberType> sparkleEffectDidStartEvent
-    void _set_sparkleEffectDidStartEvent(System::Action_1<GlobalNamespace::SaberType>* value);
-    // Get instance field: private System.Action`1<SaberType> sparkleEffectDidEndEvent
-    System::Action_1<GlobalNamespace::SaberType>* _get_sparkleEffectDidEndEvent();
-    // Set instance field: private System.Action`1<SaberType> sparkleEffectDidEndEvent
-    void _set_sparkleEffectDidEndEvent(System::Action_1<GlobalNamespace::SaberType>* value);
-    // Get instance field: private Saber[] _sabers
-    ::Array<GlobalNamespace::Saber*>* _get__sabers();
-    // Set instance field: private Saber[] _sabers
-    void _set__sabers(::Array<GlobalNamespace::Saber*>* value);
-    // Get instance field: private ObstacleSaberSparkleEffect[] _effects
-    ::Array<GlobalNamespace::ObstacleSaberSparkleEffect*>* _get__effects();
-    // Set instance field: private ObstacleSaberSparkleEffect[] _effects
-    void _set__effects(::Array<GlobalNamespace::ObstacleSaberSparkleEffect*>* value);
-    // Get instance field: private UnityEngine.Transform[] _effectsTransforms
-    ::Array<UnityEngine::Transform*>* _get__effectsTransforms();
-    // Set instance field: private UnityEngine.Transform[] _effectsTransforms
-    void _set__effectsTransforms(::Array<UnityEngine::Transform*>* value);
-    // Get instance field: private System.Boolean[] _isSystemActive
-    ::Array<bool>* _get__isSystemActive();
-    // Set instance field: private System.Boolean[] _isSystemActive
-    void _set__isSystemActive(::Array<bool>* value);
-    // Get instance field: private System.Boolean[] _wasSystemActive
-    ::Array<bool>* _get__wasSystemActive();
-    // Set instance field: private System.Boolean[] _wasSystemActive
-    void _set__wasSystemActive(::Array<bool>* value);
-    // Get instance field: private UnityEngine.Vector3[] _burnMarkPositions
-    ::Array<UnityEngine::Vector3>* _get__burnMarkPositions();
-    // Set instance field: private UnityEngine.Vector3[] _burnMarkPositions
-    void _set__burnMarkPositions(::Array<UnityEngine::Vector3>* value);
+    // Get instance field reference: private ObstacleSaberSparkleEffect _obstacleSaberSparkleEffectPrefab
+    GlobalNamespace::ObstacleSaberSparkleEffect*& dyn__obstacleSaberSparkleEffectPrefab();
+    // Get instance field reference: private Libraries.HM.HMLib.VR.HapticPresetSO _rumblePreset
+    Libraries::HM::HMLib::VR::HapticPresetSO*& dyn__rumblePreset();
+    // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
+    GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
+    // Get instance field reference: private readonly SaberManager _saberManager
+    GlobalNamespace::SaberManager*& dyn__saberManager();
+    // Get instance field reference: private readonly HapticFeedbackController _hapticFeedbackController
+    GlobalNamespace::HapticFeedbackController*& dyn__hapticFeedbackController();
+    // Get instance field reference: private readonly ColorManager _colorManager
+    GlobalNamespace::ColorManager*& dyn__colorManager();
+    // Get instance field reference: private System.Action`1<SaberType> sparkleEffectDidStartEvent
+    System::Action_1<GlobalNamespace::SaberType>*& dyn_sparkleEffectDidStartEvent();
+    // Get instance field reference: private System.Action`1<SaberType> sparkleEffectDidEndEvent
+    System::Action_1<GlobalNamespace::SaberType>*& dyn_sparkleEffectDidEndEvent();
+    // Get instance field reference: private Saber[] _sabers
+    ::Array<GlobalNamespace::Saber*>*& dyn__sabers();
+    // Get instance field reference: private ObstacleSaberSparkleEffect[] _effects
+    ::Array<GlobalNamespace::ObstacleSaberSparkleEffect*>*& dyn__effects();
+    // Get instance field reference: private UnityEngine.Transform[] _effectsTransforms
+    ::Array<UnityEngine::Transform*>*& dyn__effectsTransforms();
+    // Get instance field reference: private System.Boolean[] _isSystemActive
+    ::Array<bool>*& dyn__isSystemActive();
+    // Get instance field reference: private System.Boolean[] _wasSystemActive
+    ::Array<bool>*& dyn__wasSystemActive();
+    // Get instance field reference: private UnityEngine.Vector3[] _burnMarkPositions
+    ::Array<UnityEngine::Vector3>*& dyn__burnMarkPositions();
     // public System.Void add_sparkleEffectDidStartEvent(System.Action`1<SaberType> value)
     // Offset: 0x1232DD4
     void add_sparkleEffectDidStartEvent(System::Action_1<GlobalNamespace::SaberType>* value);

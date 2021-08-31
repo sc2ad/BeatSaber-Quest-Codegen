@@ -144,10 +144,8 @@ namespace System {
     static System::Reflection::BindingFlags _get_DeclaredOnlyLookup();
     // Set static field: static System.Reflection.BindingFlags DeclaredOnlyLookup
     static void _set_DeclaredOnlyLookup(System::Reflection::BindingFlags value);
-    // Get instance field: System.RuntimeTypeHandle _impl
-    System::RuntimeTypeHandle _get__impl();
-    // Set instance field: System.RuntimeTypeHandle _impl
-    void _set__impl(System::RuntimeTypeHandle value);
+    // Get instance field reference: System.RuntimeTypeHandle _impl
+    System::RuntimeTypeHandle& dyn__impl();
     // public System.Reflection.MethodBase get_DeclaringMethod()
     // Offset: 0x2326D64
     System::Reflection::MethodBase* get_DeclaringMethod();

@@ -89,38 +89,22 @@ namespace System::Reflection {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Type declaring_type
-    System::Type* _get_declaring_type();
-    // Set instance field: public System.Type declaring_type
-    void _set_declaring_type(System::Type* value);
-    // Get instance field: public System.Type reflected_type
-    System::Type* _get_reflected_type();
-    // Set instance field: public System.Type reflected_type
-    void _set_reflected_type(System::Type* value);
-    // Get instance field: public System.String name
-    ::Il2CppString* _get_name();
-    // Set instance field: public System.String name
-    void _set_name(::Il2CppString* value);
-    // Get instance field: public System.Reflection.MethodInfo add_method
-    System::Reflection::MethodInfo* _get_add_method();
-    // Set instance field: public System.Reflection.MethodInfo add_method
-    void _set_add_method(System::Reflection::MethodInfo* value);
-    // Get instance field: public System.Reflection.MethodInfo remove_method
-    System::Reflection::MethodInfo* _get_remove_method();
-    // Set instance field: public System.Reflection.MethodInfo remove_method
-    void _set_remove_method(System::Reflection::MethodInfo* value);
-    // Get instance field: public System.Reflection.MethodInfo raise_method
-    System::Reflection::MethodInfo* _get_raise_method();
-    // Set instance field: public System.Reflection.MethodInfo raise_method
-    void _set_raise_method(System::Reflection::MethodInfo* value);
-    // Get instance field: public System.Reflection.EventAttributes attrs
-    System::Reflection::EventAttributes _get_attrs();
-    // Set instance field: public System.Reflection.EventAttributes attrs
-    void _set_attrs(System::Reflection::EventAttributes value);
-    // Get instance field: public System.Reflection.MethodInfo[] other_methods
-    ::Array<System::Reflection::MethodInfo*>* _get_other_methods();
-    // Set instance field: public System.Reflection.MethodInfo[] other_methods
-    void _set_other_methods(::Array<System::Reflection::MethodInfo*>* value);
+    // Get instance field reference: public System.Type declaring_type
+    System::Type*& dyn_declaring_type();
+    // Get instance field reference: public System.Type reflected_type
+    System::Type*& dyn_reflected_type();
+    // Get instance field reference: public System.String name
+    ::Il2CppString*& dyn_name();
+    // Get instance field reference: public System.Reflection.MethodInfo add_method
+    System::Reflection::MethodInfo*& dyn_add_method();
+    // Get instance field reference: public System.Reflection.MethodInfo remove_method
+    System::Reflection::MethodInfo*& dyn_remove_method();
+    // Get instance field reference: public System.Reflection.MethodInfo raise_method
+    System::Reflection::MethodInfo*& dyn_raise_method();
+    // Get instance field reference: public System.Reflection.EventAttributes attrs
+    System::Reflection::EventAttributes& dyn_attrs();
+    // Get instance field reference: public System.Reflection.MethodInfo[] other_methods
+    ::Array<System::Reflection::MethodInfo*>*& dyn_other_methods();
     // static private System.Void get_event_info(System.Reflection.MonoEvent ev, out System.Reflection.MonoEventInfo info)
     // Offset: 0x1D1E32C
     static void get_event_info(System::Reflection::MonoEvent* ev, ByRef<System::Reflection::MonoEventInfo> info);

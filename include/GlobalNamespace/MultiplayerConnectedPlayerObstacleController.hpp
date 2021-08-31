@@ -43,10 +43,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController*) == 0x8);
     // Creating value type constructor for type: MultiplayerConnectedPlayerObstacleController
     MultiplayerConnectedPlayerObstacleController(GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController* multiplayerConnectedPlayerObstacleClippingController_ = {}) noexcept : multiplayerConnectedPlayerObstacleClippingController{multiplayerConnectedPlayerObstacleClippingController_} {}
-    // Get instance field: private MultiplayerConnectedPlayerObstacleClippingController _multiplayerConnectedPlayerObstacleClippingController
-    GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController* _get__multiplayerConnectedPlayerObstacleClippingController();
-    // Set instance field: private MultiplayerConnectedPlayerObstacleClippingController _multiplayerConnectedPlayerObstacleClippingController
-    void _set__multiplayerConnectedPlayerObstacleClippingController(GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController* value);
+    // Get instance field reference: private MultiplayerConnectedPlayerObstacleClippingController _multiplayerConnectedPlayerObstacleClippingController
+    GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController*& dyn__multiplayerConnectedPlayerObstacleClippingController();
     // public System.Void .ctor()
     // Offset: 0x11AA484
     // Implemented from: ObstacleController

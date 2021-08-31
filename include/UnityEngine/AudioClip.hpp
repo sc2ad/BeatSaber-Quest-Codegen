@@ -51,14 +51,10 @@ namespace UnityEngine {
     AudioClip(UnityEngine::AudioClip::PCMReaderCallback* m_PCMReaderCallback_ = {}, UnityEngine::AudioClip::PCMSetPositionCallback* m_PCMSetPositionCallback_ = {}) noexcept : m_PCMReaderCallback{m_PCMReaderCallback_}, m_PCMSetPositionCallback{m_PCMSetPositionCallback_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.AudioClip/UnityEngine.PCMReaderCallback m_PCMReaderCallback
-    UnityEngine::AudioClip::PCMReaderCallback* _get_m_PCMReaderCallback();
-    // Set instance field: private UnityEngine.AudioClip/UnityEngine.PCMReaderCallback m_PCMReaderCallback
-    void _set_m_PCMReaderCallback(UnityEngine::AudioClip::PCMReaderCallback* value);
-    // Get instance field: private UnityEngine.AudioClip/UnityEngine.PCMSetPositionCallback m_PCMSetPositionCallback
-    UnityEngine::AudioClip::PCMSetPositionCallback* _get_m_PCMSetPositionCallback();
-    // Set instance field: private UnityEngine.AudioClip/UnityEngine.PCMSetPositionCallback m_PCMSetPositionCallback
-    void _set_m_PCMSetPositionCallback(UnityEngine::AudioClip::PCMSetPositionCallback* value);
+    // Get instance field reference: private UnityEngine.AudioClip/UnityEngine.PCMReaderCallback m_PCMReaderCallback
+    UnityEngine::AudioClip::PCMReaderCallback*& dyn_m_PCMReaderCallback();
+    // Get instance field reference: private UnityEngine.AudioClip/UnityEngine.PCMSetPositionCallback m_PCMSetPositionCallback
+    UnityEngine::AudioClip::PCMSetPositionCallback*& dyn_m_PCMSetPositionCallback();
     // public System.Single get_length()
     // Offset: 0x23FE110
     float get_length();

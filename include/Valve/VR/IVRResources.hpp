@@ -43,14 +43,10 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: Valve.VR.IVRResources/Valve.VR._LoadSharedResource LoadSharedResource
-    Valve::VR::IVRResources::_LoadSharedResource* _get_LoadSharedResource();
-    // Set instance field: Valve.VR.IVRResources/Valve.VR._LoadSharedResource LoadSharedResource
-    void _set_LoadSharedResource(Valve::VR::IVRResources::_LoadSharedResource* value);
-    // Get instance field: Valve.VR.IVRResources/Valve.VR._GetResourceFullPath GetResourceFullPath
-    Valve::VR::IVRResources::_GetResourceFullPath* _get_GetResourceFullPath();
-    // Set instance field: Valve.VR.IVRResources/Valve.VR._GetResourceFullPath GetResourceFullPath
-    void _set_GetResourceFullPath(Valve::VR::IVRResources::_GetResourceFullPath* value);
+    // Get instance field reference: Valve.VR.IVRResources/Valve.VR._LoadSharedResource LoadSharedResource
+    Valve::VR::IVRResources::_LoadSharedResource*& dyn_LoadSharedResource();
+    // Get instance field reference: Valve.VR.IVRResources/Valve.VR._GetResourceFullPath GetResourceFullPath
+    Valve::VR::IVRResources::_GetResourceFullPath*& dyn_GetResourceFullPath();
   }; // Valve.VR.IVRResources
   #pragma pack(pop)
   static check_size<sizeof(IVRResources), 8 + sizeof(Valve::VR::IVRResources::_GetResourceFullPath*)> __Valve_VR_IVRResourcesSizeCheck;

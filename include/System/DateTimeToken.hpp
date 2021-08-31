@@ -45,18 +45,12 @@ namespace System {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: System.DateTimeParse/System.DTT dtt
-    System::DateTimeParse::DTT _get_dtt();
-    // Set instance field: System.DateTimeParse/System.DTT dtt
-    void _set_dtt(System::DateTimeParse::DTT value);
-    // Get instance field: System.TokenType suffix
-    System::TokenType _get_suffix();
-    // Set instance field: System.TokenType suffix
-    void _set_suffix(System::TokenType value);
-    // Get instance field: System.Int32 num
-    int _get_num();
-    // Set instance field: System.Int32 num
-    void _set_num(int value);
+    // Get instance field reference: System.DateTimeParse/System.DTT dtt
+    System::DateTimeParse::DTT& dyn_dtt();
+    // Get instance field reference: System.TokenType suffix
+    System::TokenType& dyn_suffix();
+    // Get instance field reference: System.Int32 num
+    int& dyn_num();
   }; // System.DateTimeToken
   #pragma pack(pop)
   static check_size<sizeof(DateTimeToken), 8 + sizeof(int)> __System_DateTimeTokenSizeCheck;

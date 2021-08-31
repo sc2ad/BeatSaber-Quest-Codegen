@@ -48,18 +48,12 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     static ::Il2CppString* _get_PRECOMP_NAME();
     // Set static field: static readonly System.String PRECOMP_NAME
     static void _set_PRECOMP_NAME(::Il2CppString* value);
-    // Get instance field: private System.Boolean failed
-    bool _get_failed();
-    // Set instance field: private System.Boolean failed
-    void _set_failed(bool value);
-    // Get instance field: private System.Boolean curveEquationPassed
-    bool _get_curveEquationPassed();
-    // Set instance field: private System.Boolean curveEquationPassed
-    void _set_curveEquationPassed(bool value);
-    // Get instance field: private System.Boolean orderPassed
-    bool _get_orderPassed();
-    // Set instance field: private System.Boolean orderPassed
-    void _set_orderPassed(bool value);
+    // Get instance field reference: private System.Boolean failed
+    bool& dyn_failed();
+    // Get instance field reference: private System.Boolean curveEquationPassed
+    bool& dyn_curveEquationPassed();
+    // Get instance field reference: private System.Boolean orderPassed
+    bool& dyn_orderPassed();
     // static private System.Void .cctor()
     // Offset: 0x1DC9828
     static void _cctor();

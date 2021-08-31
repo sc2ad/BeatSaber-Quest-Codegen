@@ -70,30 +70,18 @@ namespace HMUI {
     ButtonStaticAnimations(HMUI::NoTransitionsButton* button_ = {}, UnityEngine::AnimationClip* normalClip_ = {}, UnityEngine::AnimationClip* highlightedClip_ = {}, UnityEngine::AnimationClip* pressedClip_ = {}, UnityEngine::AnimationClip* disabledClip_ = {}, bool didStart_ = {}) noexcept : button{button_}, normalClip{normalClip_}, highlightedClip{highlightedClip_}, pressedClip{pressedClip_}, disabledClip{disabledClip_}, didStart{didStart_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private HMUI.NoTransitionsButton _button
-    HMUI::NoTransitionsButton* _get__button();
-    // Set instance field: private HMUI.NoTransitionsButton _button
-    void _set__button(HMUI::NoTransitionsButton* value);
-    // Get instance field: private UnityEngine.AnimationClip _normalClip
-    UnityEngine::AnimationClip* _get__normalClip();
-    // Set instance field: private UnityEngine.AnimationClip _normalClip
-    void _set__normalClip(UnityEngine::AnimationClip* value);
-    // Get instance field: private UnityEngine.AnimationClip _highlightedClip
-    UnityEngine::AnimationClip* _get__highlightedClip();
-    // Set instance field: private UnityEngine.AnimationClip _highlightedClip
-    void _set__highlightedClip(UnityEngine::AnimationClip* value);
-    // Get instance field: private UnityEngine.AnimationClip _pressedClip
-    UnityEngine::AnimationClip* _get__pressedClip();
-    // Set instance field: private UnityEngine.AnimationClip _pressedClip
-    void _set__pressedClip(UnityEngine::AnimationClip* value);
-    // Get instance field: private UnityEngine.AnimationClip _disabledClip
-    UnityEngine::AnimationClip* _get__disabledClip();
-    // Set instance field: private UnityEngine.AnimationClip _disabledClip
-    void _set__disabledClip(UnityEngine::AnimationClip* value);
-    // Get instance field: private System.Boolean _didStart
-    bool _get__didStart();
-    // Set instance field: private System.Boolean _didStart
-    void _set__didStart(bool value);
+    // Get instance field reference: private HMUI.NoTransitionsButton _button
+    HMUI::NoTransitionsButton*& dyn__button();
+    // Get instance field reference: private UnityEngine.AnimationClip _normalClip
+    UnityEngine::AnimationClip*& dyn__normalClip();
+    // Get instance field reference: private UnityEngine.AnimationClip _highlightedClip
+    UnityEngine::AnimationClip*& dyn__highlightedClip();
+    // Get instance field reference: private UnityEngine.AnimationClip _pressedClip
+    UnityEngine::AnimationClip*& dyn__pressedClip();
+    // Get instance field reference: private UnityEngine.AnimationClip _disabledClip
+    UnityEngine::AnimationClip*& dyn__disabledClip();
+    // Get instance field reference: private System.Boolean _didStart
+    bool& dyn__didStart();
     // protected System.Void Awake()
     // Offset: 0x1366CF0
     void Awake();

@@ -41,14 +41,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: InitData
     InitData(GlobalNamespace::IReadonlyBeatmapData* beatmapData_ = {}, float spawningStartTime_ = {}) noexcept : beatmapData{beatmapData_}, spawningStartTime{spawningStartTime_} {}
-    // Get instance field: public readonly IReadonlyBeatmapData beatmapData
-    GlobalNamespace::IReadonlyBeatmapData* _get_beatmapData();
-    // Set instance field: public readonly IReadonlyBeatmapData beatmapData
-    void _set_beatmapData(GlobalNamespace::IReadonlyBeatmapData* value);
-    // Get instance field: public readonly System.Single spawningStartTime
-    float _get_spawningStartTime();
-    // Set instance field: public readonly System.Single spawningStartTime
-    void _set_spawningStartTime(float value);
+    // Get instance field reference: public readonly IReadonlyBeatmapData beatmapData
+    GlobalNamespace::IReadonlyBeatmapData*& dyn_beatmapData();
+    // Get instance field reference: public readonly System.Single spawningStartTime
+    float& dyn_spawningStartTime();
     // public System.Void .ctor(IReadonlyBeatmapData beatmapData, System.Single spawningStartTime)
     // Offset: 0x10C7FD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

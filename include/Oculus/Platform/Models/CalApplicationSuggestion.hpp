@@ -34,14 +34,10 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: CalApplicationSuggestion
     CalApplicationSuggestion(uint64_t _ID_ = {}, ::Il2CppString* SocialContext_ = {}) noexcept : _ID{_ID_}, SocialContext{SocialContext_} {}
-    // Get instance field: public readonly System.UInt64 ID
-    uint64_t _get_ID();
-    // Set instance field: public readonly System.UInt64 ID
-    void _set_ID(uint64_t value);
-    // Get instance field: public readonly System.String SocialContext
-    ::Il2CppString* _get_SocialContext();
-    // Set instance field: public readonly System.String SocialContext
-    void _set_SocialContext(::Il2CppString* value);
+    // Get instance field reference: public readonly System.UInt64 ID
+    uint64_t& dyn_ID();
+    // Get instance field reference: public readonly System.String SocialContext
+    ::Il2CppString*& dyn_SocialContext();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14F15B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

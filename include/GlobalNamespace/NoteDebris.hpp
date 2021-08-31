@@ -147,46 +147,26 @@ namespace GlobalNamespace {
     static ::Array<UnityEngine::Vector3>* _get__meshVertices();
     // Set static field: static private UnityEngine.Vector3[] _meshVertices
     static void _set__meshVertices(::Array<UnityEngine::Vector3>* value);
-    // Get instance field: private UnityEngine.Transform _meshTransform
-    UnityEngine::Transform* _get__meshTransform();
-    // Set instance field: private UnityEngine.Transform _meshTransform
-    void _set__meshTransform(UnityEngine::Transform* value);
-    // Get instance field: private NoteDebrisPhysics _physics
-    GlobalNamespace::NoteDebrisPhysics* _get__physics();
-    // Set instance field: private NoteDebrisPhysics _physics
-    void _set__physics(GlobalNamespace::NoteDebrisPhysics* value);
-    // Get instance field: private MaterialPropertyBlockController _materialPropertyBlockController
-    GlobalNamespace::MaterialPropertyBlockController* _get__materialPropertyBlockController();
-    // Set instance field: private MaterialPropertyBlockController _materialPropertyBlockController
-    void _set__materialPropertyBlockController(GlobalNamespace::MaterialPropertyBlockController* value);
-    // Get instance field: private UnityEngine.AnimationCurve _cutoutCurve
-    UnityEngine::AnimationCurve* _get__cutoutCurve();
-    // Set instance field: private UnityEngine.AnimationCurve _cutoutCurve
-    void _set__cutoutCurve(UnityEngine::AnimationCurve* value);
-    // Get instance field: private System.Single _maxCutPointCenterDistance
-    float _get__maxCutPointCenterDistance();
-    // Set instance field: private System.Single _maxCutPointCenterDistance
-    void _set__maxCutPointCenterDistance(float value);
-    // Get instance field: private UnityEngine.Mesh _centroidComputationMesh
-    UnityEngine::Mesh* _get__centroidComputationMesh();
-    // Set instance field: private UnityEngine.Mesh _centroidComputationMesh
-    void _set__centroidComputationMesh(UnityEngine::Mesh* value);
-    // Get instance field: private readonly ColorManager _colorManager
-    GlobalNamespace::ColorManager* _get__colorManager();
-    // Set instance field: private readonly ColorManager _colorManager
-    void _set__colorManager(GlobalNamespace::ColorManager* value);
-    // Get instance field: private System.Single _elapsedTime
-    float _get__elapsedTime();
-    // Set instance field: private System.Single _elapsedTime
-    void _set__elapsedTime(float value);
-    // Get instance field: private System.Single _lifeTime
-    float _get__lifeTime();
-    // Set instance field: private System.Single _lifeTime
-    void _set__lifeTime(float value);
-    // Get instance field: private readonly LazyCopyHashSet`1<INoteDebrisDidFinishEvent> _didFinishEvent
-    GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteDebrisDidFinishEvent*>* _get__didFinishEvent();
-    // Set instance field: private readonly LazyCopyHashSet`1<INoteDebrisDidFinishEvent> _didFinishEvent
-    void _set__didFinishEvent(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteDebrisDidFinishEvent*>* value);
+    // Get instance field reference: private UnityEngine.Transform _meshTransform
+    UnityEngine::Transform*& dyn__meshTransform();
+    // Get instance field reference: private NoteDebrisPhysics _physics
+    GlobalNamespace::NoteDebrisPhysics*& dyn__physics();
+    // Get instance field reference: private MaterialPropertyBlockController _materialPropertyBlockController
+    GlobalNamespace::MaterialPropertyBlockController*& dyn__materialPropertyBlockController();
+    // Get instance field reference: private UnityEngine.AnimationCurve _cutoutCurve
+    UnityEngine::AnimationCurve*& dyn__cutoutCurve();
+    // Get instance field reference: private System.Single _maxCutPointCenterDistance
+    float& dyn__maxCutPointCenterDistance();
+    // Get instance field reference: private UnityEngine.Mesh _centroidComputationMesh
+    UnityEngine::Mesh*& dyn__centroidComputationMesh();
+    // Get instance field reference: private readonly ColorManager _colorManager
+    GlobalNamespace::ColorManager*& dyn__colorManager();
+    // Get instance field reference: private System.Single _elapsedTime
+    float& dyn__elapsedTime();
+    // Get instance field reference: private System.Single _lifeTime
+    float& dyn__lifeTime();
+    // Get instance field reference: private readonly LazyCopyHashSet`1<INoteDebrisDidFinishEvent> _didFinishEvent
+    GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteDebrisDidFinishEvent*>*& dyn__didFinishEvent();
     // public ILazyCopyHashSet`1<INoteDebrisDidFinishEvent> get_didFinishEvent()
     // Offset: 0x10492AC
     GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteDebrisDidFinishEvent*>* get_didFinishEvent();

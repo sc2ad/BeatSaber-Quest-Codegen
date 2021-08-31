@@ -110,62 +110,34 @@ namespace LeaderboardsDTO {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: LevelScoreResultDTO
     LevelScoreResultDTO(::Il2CppString* guid_ = {}, ::Il2CppString* guids_ = {}, ::Il2CppString* guidInstance_ = {}, int rawScore_ = {}, int modifiedScore_ = {}, bool fullCombo_ = {}, int goodCutsCount_ = {}, int badCutsCount_ = {}, int missedCount_ = {}, int maxCombo_ = {}, ::Array<LeaderboardsDTO::GameplayModifiersDto>* gameplayModifiers_ = {}, ::Il2CppString* leaderboardId_ = {}, ::Il2CppString* deviceModel_ = {}, ::Il2CppString* extraDataBase64_ = {}) noexcept : guid{guid_}, guids{guids_}, guidInstance{guidInstance_}, rawScore{rawScore_}, modifiedScore{modifiedScore_}, fullCombo{fullCombo_}, goodCutsCount{goodCutsCount_}, badCutsCount{badCutsCount_}, missedCount{missedCount_}, maxCombo{maxCombo_}, gameplayModifiers{gameplayModifiers_}, leaderboardId{leaderboardId_}, deviceModel{deviceModel_}, extraDataBase64{extraDataBase64_} {}
-    // Get instance field: public System.String guid
-    ::Il2CppString* _get_guid();
-    // Set instance field: public System.String guid
-    void _set_guid(::Il2CppString* value);
-    // Get instance field: public System.String guids
-    ::Il2CppString* _get_guids();
-    // Set instance field: public System.String guids
-    void _set_guids(::Il2CppString* value);
-    // Get instance field: public System.String guidInstance
-    ::Il2CppString* _get_guidInstance();
-    // Set instance field: public System.String guidInstance
-    void _set_guidInstance(::Il2CppString* value);
-    // Get instance field: public System.Int32 rawScore
-    int _get_rawScore();
-    // Set instance field: public System.Int32 rawScore
-    void _set_rawScore(int value);
-    // Get instance field: public System.Int32 modifiedScore
-    int _get_modifiedScore();
-    // Set instance field: public System.Int32 modifiedScore
-    void _set_modifiedScore(int value);
-    // Get instance field: public System.Boolean fullCombo
-    bool _get_fullCombo();
-    // Set instance field: public System.Boolean fullCombo
-    void _set_fullCombo(bool value);
-    // Get instance field: public System.Int32 goodCutsCount
-    int _get_goodCutsCount();
-    // Set instance field: public System.Int32 goodCutsCount
-    void _set_goodCutsCount(int value);
-    // Get instance field: public System.Int32 badCutsCount
-    int _get_badCutsCount();
-    // Set instance field: public System.Int32 badCutsCount
-    void _set_badCutsCount(int value);
-    // Get instance field: public System.Int32 missedCount
-    int _get_missedCount();
-    // Set instance field: public System.Int32 missedCount
-    void _set_missedCount(int value);
-    // Get instance field: public System.Int32 maxCombo
-    int _get_maxCombo();
-    // Set instance field: public System.Int32 maxCombo
-    void _set_maxCombo(int value);
-    // Get instance field: public LeaderboardsDTO.GameplayModifiersDto[] gameplayModifiers
-    ::Array<LeaderboardsDTO::GameplayModifiersDto>* _get_gameplayModifiers();
-    // Set instance field: public LeaderboardsDTO.GameplayModifiersDto[] gameplayModifiers
-    void _set_gameplayModifiers(::Array<LeaderboardsDTO::GameplayModifiersDto>* value);
-    // Get instance field: public System.String leaderboardId
-    ::Il2CppString* _get_leaderboardId();
-    // Set instance field: public System.String leaderboardId
-    void _set_leaderboardId(::Il2CppString* value);
-    // Get instance field: public System.String deviceModel
-    ::Il2CppString* _get_deviceModel();
-    // Set instance field: public System.String deviceModel
-    void _set_deviceModel(::Il2CppString* value);
-    // Get instance field: public System.String extraDataBase64
-    ::Il2CppString* _get_extraDataBase64();
-    // Set instance field: public System.String extraDataBase64
-    void _set_extraDataBase64(::Il2CppString* value);
+    // Get instance field reference: public System.String guid
+    ::Il2CppString*& dyn_guid();
+    // Get instance field reference: public System.String guids
+    ::Il2CppString*& dyn_guids();
+    // Get instance field reference: public System.String guidInstance
+    ::Il2CppString*& dyn_guidInstance();
+    // Get instance field reference: public System.Int32 rawScore
+    int& dyn_rawScore();
+    // Get instance field reference: public System.Int32 modifiedScore
+    int& dyn_modifiedScore();
+    // Get instance field reference: public System.Boolean fullCombo
+    bool& dyn_fullCombo();
+    // Get instance field reference: public System.Int32 goodCutsCount
+    int& dyn_goodCutsCount();
+    // Get instance field reference: public System.Int32 badCutsCount
+    int& dyn_badCutsCount();
+    // Get instance field reference: public System.Int32 missedCount
+    int& dyn_missedCount();
+    // Get instance field reference: public System.Int32 maxCombo
+    int& dyn_maxCombo();
+    // Get instance field reference: public LeaderboardsDTO.GameplayModifiersDto[] gameplayModifiers
+    ::Array<LeaderboardsDTO::GameplayModifiersDto>*& dyn_gameplayModifiers();
+    // Get instance field reference: public System.String leaderboardId
+    ::Il2CppString*& dyn_leaderboardId();
+    // Get instance field reference: public System.String deviceModel
+    ::Il2CppString*& dyn_deviceModel();
+    // Get instance field reference: public System.String extraDataBase64
+    ::Il2CppString*& dyn_extraDataBase64();
     // public System.Void .ctor()
     // Offset: 0x11490D0
     // Implemented from: System.Object

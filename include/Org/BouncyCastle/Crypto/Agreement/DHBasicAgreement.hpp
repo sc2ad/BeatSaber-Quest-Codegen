@@ -57,14 +57,10 @@ namespace Org::BouncyCastle::Crypto::Agreement {
     operator Org::BouncyCastle::Crypto::IBasicAgreement() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBasicAgreement*>(this);
     }
-    // Get instance field: private Org.BouncyCastle.Crypto.Parameters.DHPrivateKeyParameters key
-    Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* _get_key();
-    // Set instance field: private Org.BouncyCastle.Crypto.Parameters.DHPrivateKeyParameters key
-    void _set_key(Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* value);
-    // Get instance field: private Org.BouncyCastle.Crypto.Parameters.DHParameters dhParams
-    Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_dhParams();
-    // Set instance field: private Org.BouncyCastle.Crypto.Parameters.DHParameters dhParams
-    void _set_dhParams(Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
+    // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.DHPrivateKeyParameters key
+    Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*& dyn_key();
+    // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.DHParameters dhParams
+    Org::BouncyCastle::Crypto::Parameters::DHParameters*& dyn_dhParams();
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
     // Offset: 0x1A0A9F8
     void Init(Org::BouncyCastle::Crypto::ICipherParameters* parameters);

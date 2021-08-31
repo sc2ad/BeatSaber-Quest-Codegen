@@ -50,14 +50,10 @@ namespace System::Reflection {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private System.Type argumentType
-    System::Type* _get_argumentType();
-    // Set instance field: private System.Type argumentType
-    void _set_argumentType(System::Type* value);
-    // Get instance field: private System.Object value
-    ::Il2CppObject* _get_value();
-    // Set instance field: private System.Object value
-    void _set_value(::Il2CppObject* value);
+    // Get instance field reference: private System.Type argumentType
+    System::Type*& dyn_argumentType();
+    // Get instance field reference: private System.Object value
+    ::Il2CppObject*& dyn_value();
     // public System.Void .ctor(System.Type argumentType, System.Object value)
     // Offset: 0x1D16460
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

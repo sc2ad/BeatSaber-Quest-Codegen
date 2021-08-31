@@ -52,18 +52,12 @@ namespace TMPro {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.UInt32 firstGlyphIndex
-    uint _get_firstGlyphIndex();
-    // Set instance field: public System.UInt32 firstGlyphIndex
-    void _set_firstGlyphIndex(uint value);
-    // Get instance field: public System.UInt32 secondGlyphIndex
-    uint _get_secondGlyphIndex();
-    // Set instance field: public System.UInt32 secondGlyphIndex
-    void _set_secondGlyphIndex(uint value);
-    // Get instance field: public System.Int64 key
-    int64_t _get_key();
-    // Set instance field: public System.Int64 key
-    void _set_key(int64_t value);
+    // Get instance field reference: public System.UInt32 firstGlyphIndex
+    uint& dyn_firstGlyphIndex();
+    // Get instance field reference: public System.UInt32 secondGlyphIndex
+    uint& dyn_secondGlyphIndex();
+    // Get instance field reference: public System.Int64 key
+    int64_t& dyn_key();
     // public System.Void .ctor(System.UInt32 firstGlyphIndex, System.UInt32 secondGlyphIndex)
     // Offset: 0x1114E44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

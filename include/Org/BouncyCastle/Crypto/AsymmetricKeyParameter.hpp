@@ -36,10 +36,8 @@ namespace Org::BouncyCastle::Crypto {
     constexpr operator bool() const noexcept {
       return privateKey;
     }
-    // Get instance field: private readonly System.Boolean privateKey
-    bool _get_privateKey();
-    // Set instance field: private readonly System.Boolean privateKey
-    void _set_privateKey(bool value);
+    // Get instance field reference: private readonly System.Boolean privateKey
+    bool& dyn_privateKey();
     // public System.Boolean get_IsPrivate()
     // Offset: 0x1A0B888
     bool get_IsPrivate();

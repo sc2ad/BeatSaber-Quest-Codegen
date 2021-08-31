@@ -42,18 +42,12 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public Valve.VR.HmdMatrix34_t mTrackingToComponentRenderModel
-    Valve::VR::HmdMatrix34_t _get_mTrackingToComponentRenderModel();
-    // Set instance field: public Valve.VR.HmdMatrix34_t mTrackingToComponentRenderModel
-    void _set_mTrackingToComponentRenderModel(Valve::VR::HmdMatrix34_t value);
-    // Get instance field: public Valve.VR.HmdMatrix34_t mTrackingToComponentLocal
-    Valve::VR::HmdMatrix34_t _get_mTrackingToComponentLocal();
-    // Set instance field: public Valve.VR.HmdMatrix34_t mTrackingToComponentLocal
-    void _set_mTrackingToComponentLocal(Valve::VR::HmdMatrix34_t value);
-    // Get instance field: public System.UInt32 uProperties
-    uint _get_uProperties();
-    // Set instance field: public System.UInt32 uProperties
-    void _set_uProperties(uint value);
+    // Get instance field reference: public Valve.VR.HmdMatrix34_t mTrackingToComponentRenderModel
+    Valve::VR::HmdMatrix34_t& dyn_mTrackingToComponentRenderModel();
+    // Get instance field reference: public Valve.VR.HmdMatrix34_t mTrackingToComponentLocal
+    Valve::VR::HmdMatrix34_t& dyn_mTrackingToComponentLocal();
+    // Get instance field reference: public System.UInt32 uProperties
+    uint& dyn_uProperties();
   }; // Valve.VR.RenderModel_ComponentState_t
   #pragma pack(pop)
   static check_size<sizeof(RenderModel_ComponentState_t), 96 + sizeof(uint)> __Valve_VR_RenderModel_ComponentState_tSizeCheck;

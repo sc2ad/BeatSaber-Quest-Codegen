@@ -32,10 +32,8 @@ namespace GlobalNamespace {
     constexpr operator bool() const noexcept {
       return checkingEnabled;
     }
-    // Get instance field: public readonly System.Boolean checkingEnabled
-    bool _get_checkingEnabled();
-    // Set instance field: public readonly System.Boolean checkingEnabled
-    void _set_checkingEnabled(bool value);
+    // Get instance field reference: public readonly System.Boolean checkingEnabled
+    bool& dyn_checkingEnabled();
     // public System.Void .ctor(System.Boolean checkingEnabled)
     // Offset: 0x1197AA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

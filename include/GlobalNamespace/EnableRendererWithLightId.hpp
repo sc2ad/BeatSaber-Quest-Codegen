@@ -51,18 +51,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: EnableRendererWithLightId
     EnableRendererWithLightId(UnityEngine::Renderer* renderer_ = {}, float hideAlphaRangeMin_ = {}, float hideAlphaRangeMax_ = {}) noexcept : renderer{renderer_}, hideAlphaRangeMin{hideAlphaRangeMin_}, hideAlphaRangeMax{hideAlphaRangeMax_} {}
-    // Get instance field: private UnityEngine.Renderer _renderer
-    UnityEngine::Renderer* _get__renderer();
-    // Set instance field: private UnityEngine.Renderer _renderer
-    void _set__renderer(UnityEngine::Renderer* value);
-    // Get instance field: private System.Single _hideAlphaRangeMin
-    float _get__hideAlphaRangeMin();
-    // Set instance field: private System.Single _hideAlphaRangeMin
-    void _set__hideAlphaRangeMin(float value);
-    // Get instance field: private System.Single _hideAlphaRangeMax
-    float _get__hideAlphaRangeMax();
-    // Set instance field: private System.Single _hideAlphaRangeMax
-    void _set__hideAlphaRangeMax(float value);
+    // Get instance field reference: private UnityEngine.Renderer _renderer
+    UnityEngine::Renderer*& dyn__renderer();
+    // Get instance field reference: private System.Single _hideAlphaRangeMin
+    float& dyn__hideAlphaRangeMin();
+    // Get instance field reference: private System.Single _hideAlphaRangeMax
+    float& dyn__hideAlphaRangeMax();
     // public System.Void .ctor()
     // Offset: 0x1E16EC4
     // Implemented from: LightWithIdMonoBehaviour

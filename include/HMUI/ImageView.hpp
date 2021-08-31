@@ -76,10 +76,8 @@ namespace HMUI {
       static HMUI::ImageView::GradientDirection _get_Vertical();
       // Set static field: static public HMUI.ImageView/HMUI.GradientDirection Vertical
       static void _set_Vertical(HMUI::ImageView::GradientDirection value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // HMUI.ImageView/HMUI.GradientDirection
     #pragma pack(pop)
     static check_size<sizeof(ImageView::GradientDirection), 0 + sizeof(int)> __HMUI_ImageView_GradientDirectionSizeCheck;
@@ -177,34 +175,20 @@ namespace HMUI {
     static ::Array<UnityEngine::Vector3>* _get_s_Uv();
     // Set static field: static private readonly UnityEngine.Vector3[] s_Uv
     static void _set_s_Uv(::Array<UnityEngine::Vector3>* value);
-    // Get instance field: private System.Single _skew
-    float _get__skew();
-    // Set instance field: private System.Single _skew
-    void _set__skew(float value);
-    // Get instance field: private System.Boolean _gradient
-    bool _get__gradient();
-    // Set instance field: private System.Boolean _gradient
-    void _set__gradient(bool value);
-    // Get instance field: private UnityEngine.Color _color0
-    UnityEngine::Color _get__color0();
-    // Set instance field: private UnityEngine.Color _color0
-    void _set__color0(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _color1
-    UnityEngine::Color _get__color1();
-    // Set instance field: private UnityEngine.Color _color1
-    void _set__color1(UnityEngine::Color value);
-    // Get instance field: private HMUI.ImageView/HMUI.GradientDirection _gradientDirection
-    HMUI::ImageView::GradientDirection _get__gradientDirection();
-    // Set instance field: private HMUI.ImageView/HMUI.GradientDirection _gradientDirection
-    void _set__gradientDirection(HMUI::ImageView::GradientDirection value);
-    // Get instance field: private System.Boolean _flipGradientColors
-    bool _get__flipGradientColors();
-    // Set instance field: private System.Boolean _flipGradientColors
-    void _set__flipGradientColors(bool value);
-    // Get instance field: private readonly HMUI.CurvedCanvasSettingsHelper _curvedCanvasSettingsHelper
-    HMUI::CurvedCanvasSettingsHelper* _get__curvedCanvasSettingsHelper();
-    // Set instance field: private readonly HMUI.CurvedCanvasSettingsHelper _curvedCanvasSettingsHelper
-    void _set__curvedCanvasSettingsHelper(HMUI::CurvedCanvasSettingsHelper* value);
+    // Get instance field reference: private System.Single _skew
+    float& dyn__skew();
+    // Get instance field reference: private System.Boolean _gradient
+    bool& dyn__gradient();
+    // Get instance field reference: private UnityEngine.Color _color0
+    UnityEngine::Color& dyn__color0();
+    // Get instance field reference: private UnityEngine.Color _color1
+    UnityEngine::Color& dyn__color1();
+    // Get instance field reference: private HMUI.ImageView/HMUI.GradientDirection _gradientDirection
+    HMUI::ImageView::GradientDirection& dyn__gradientDirection();
+    // Get instance field reference: private System.Boolean _flipGradientColors
+    bool& dyn__flipGradientColors();
+    // Get instance field reference: private readonly HMUI.CurvedCanvasSettingsHelper _curvedCanvasSettingsHelper
+    HMUI::CurvedCanvasSettingsHelper*& dyn__curvedCanvasSettingsHelper();
     // public System.Boolean get_gradient()
     // Offset: 0x1374BA4
     bool get_gradient();

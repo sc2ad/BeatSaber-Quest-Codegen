@@ -71,26 +71,16 @@ namespace GlobalNamespace {
     BeatmapObjectSpawnCenter(::Array<GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance*>* distances_ = {}, float defaultDistnace_ = {}, System::Action_1<float>* spawnCenterDistanceWasFoundEvent_ = {}, bool spawnCenterDistanceWasFound_ = {}, float spawnCenterDistance_ = {}) noexcept : distances{distances_}, defaultDistnace{defaultDistnace_}, spawnCenterDistanceWasFoundEvent{spawnCenterDistanceWasFoundEvent_}, spawnCenterDistanceWasFound{spawnCenterDistanceWasFound_}, spawnCenterDistance{spawnCenterDistance_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private BeatmapObjectSpawnCenter/PlayerCountToDistance[] _distances
-    ::Array<GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance*>* _get__distances();
-    // Set instance field: private BeatmapObjectSpawnCenter/PlayerCountToDistance[] _distances
-    void _set__distances(::Array<GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance*>* value);
-    // Get instance field: private System.Single _defaultDistnace
-    float _get__defaultDistnace();
-    // Set instance field: private System.Single _defaultDistnace
-    void _set__defaultDistnace(float value);
-    // Get instance field: private System.Action`1<System.Single> spawnCenterDistanceWasFoundEvent
-    System::Action_1<float>* _get_spawnCenterDistanceWasFoundEvent();
-    // Set instance field: private System.Action`1<System.Single> spawnCenterDistanceWasFoundEvent
-    void _set_spawnCenterDistanceWasFoundEvent(System::Action_1<float>* value);
-    // Get instance field: private System.Boolean _spawnCenterDistanceWasFound
-    bool _get__spawnCenterDistanceWasFound();
-    // Set instance field: private System.Boolean _spawnCenterDistanceWasFound
-    void _set__spawnCenterDistanceWasFound(bool value);
-    // Get instance field: private System.Single _spawnCenterDistance
-    float _get__spawnCenterDistance();
-    // Set instance field: private System.Single _spawnCenterDistance
-    void _set__spawnCenterDistance(float value);
+    // Get instance field reference: private BeatmapObjectSpawnCenter/PlayerCountToDistance[] _distances
+    ::Array<GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance*>*& dyn__distances();
+    // Get instance field reference: private System.Single _defaultDistnace
+    float& dyn__defaultDistnace();
+    // Get instance field reference: private System.Action`1<System.Single> spawnCenterDistanceWasFoundEvent
+    System::Action_1<float>*& dyn_spawnCenterDistanceWasFoundEvent();
+    // Get instance field reference: private System.Boolean _spawnCenterDistanceWasFound
+    bool& dyn__spawnCenterDistanceWasFound();
+    // Get instance field reference: private System.Single _spawnCenterDistance
+    float& dyn__spawnCenterDistance();
     // public System.Single get_spawnCenterDistance()
     // Offset: 0x10CB094
     float get_spawnCenterDistance();

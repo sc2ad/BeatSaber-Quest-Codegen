@@ -50,14 +50,10 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     static_assert(sizeof(Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme*) == 0x8);
     // Creating value type constructor for type: PbeS2Parameters
     PbeS2Parameters(Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* func_ = {}, Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* scheme_ = {}) noexcept : func{func_}, scheme{scheme_} {}
-    // Get instance field: private readonly Org.BouncyCastle.Asn1.Pkcs.KeyDerivationFunc func
-    Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* _get_func();
-    // Set instance field: private readonly Org.BouncyCastle.Asn1.Pkcs.KeyDerivationFunc func
-    void _set_func(Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* value);
-    // Get instance field: private readonly Org.BouncyCastle.Asn1.Pkcs.EncryptionScheme scheme
-    Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* _get_scheme();
-    // Set instance field: private readonly Org.BouncyCastle.Asn1.Pkcs.EncryptionScheme scheme
-    void _set_scheme(Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Pkcs.KeyDerivationFunc func
+    Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc*& dyn_func();
+    // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Pkcs.EncryptionScheme scheme
+    Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme*& dyn_scheme();
     // public Org.BouncyCastle.Asn1.Pkcs.KeyDerivationFunc get_KeyDerivationFunc()
     // Offset: 0x17B1F38
     Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* get_KeyDerivationFunc();

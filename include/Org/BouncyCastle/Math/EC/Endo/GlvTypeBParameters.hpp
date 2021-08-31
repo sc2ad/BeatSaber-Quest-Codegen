@@ -50,18 +50,12 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     static_assert(sizeof(Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*) == 0x8);
     // Creating value type constructor for type: GlvTypeBParameters
     GlvTypeBParameters(Org::BouncyCastle::Math::BigInteger* m_beta_ = {}, Org::BouncyCastle::Math::BigInteger* m_lambda_ = {}, Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* m_splitParams_ = {}) noexcept : m_beta{m_beta_}, m_lambda{m_lambda_}, m_splitParams{m_splitParams_} {}
-    // Get instance field: protected readonly Org.BouncyCastle.Math.BigInteger m_beta
-    Org::BouncyCastle::Math::BigInteger* _get_m_beta();
-    // Set instance field: protected readonly Org.BouncyCastle.Math.BigInteger m_beta
-    void _set_m_beta(Org::BouncyCastle::Math::BigInteger* value);
-    // Get instance field: protected readonly Org.BouncyCastle.Math.BigInteger m_lambda
-    Org::BouncyCastle::Math::BigInteger* _get_m_lambda();
-    // Set instance field: protected readonly Org.BouncyCastle.Math.BigInteger m_lambda
-    void _set_m_lambda(Org::BouncyCastle::Math::BigInteger* value);
-    // Get instance field: protected readonly Org.BouncyCastle.Math.EC.Endo.ScalarSplitParameters m_splitParams
-    Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* _get_m_splitParams();
-    // Set instance field: protected readonly Org.BouncyCastle.Math.EC.Endo.ScalarSplitParameters m_splitParams
-    void _set_m_splitParams(Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* value);
+    // Get instance field reference: protected readonly Org.BouncyCastle.Math.BigInteger m_beta
+    Org::BouncyCastle::Math::BigInteger*& dyn_m_beta();
+    // Get instance field reference: protected readonly Org.BouncyCastle.Math.BigInteger m_lambda
+    Org::BouncyCastle::Math::BigInteger*& dyn_m_lambda();
+    // Get instance field reference: protected readonly Org.BouncyCastle.Math.EC.Endo.ScalarSplitParameters m_splitParams
+    Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*& dyn_m_splitParams();
     // public Org.BouncyCastle.Math.BigInteger get_Beta()
     // Offset: 0x2146138
     Org::BouncyCastle::Math::BigInteger* get_Beta();

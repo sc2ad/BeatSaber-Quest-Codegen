@@ -68,10 +68,8 @@ namespace BeatSaberAPI::DataTransferObjects {
     static BeatSaberAPI::DataTransferObjects::UserPlatform _get_OculusQuest();
     // Set static field: static public BeatSaberAPI.DataTransferObjects.UserPlatform OculusQuest
     static void _set_OculusQuest(BeatSaberAPI::DataTransferObjects::UserPlatform value);
-    // Get instance field: public System.Byte value__
-    uint8_t _get_value__();
-    // Set instance field: public System.Byte value__
-    void _set_value__(uint8_t value);
+    // Get instance field reference: public System.Byte value__
+    uint8_t& dyn_value__();
   }; // BeatSaberAPI.DataTransferObjects.UserPlatform
   #pragma pack(pop)
   static check_size<sizeof(UserPlatform), 0 + sizeof(uint8_t)> __BeatSaberAPI_DataTransferObjects_UserPlatformSizeCheck;

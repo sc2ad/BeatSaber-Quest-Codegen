@@ -45,10 +45,8 @@ namespace Zenject::Internal {
     constexpr operator System::Reflection::FieldInfo*() const noexcept {
       return x;
     }
-    // Get instance field: public System.Reflection.FieldInfo x
-    System::Reflection::FieldInfo* _get_x();
-    // Set instance field: public System.Reflection.FieldInfo x
-    void _set_x(System::Reflection::FieldInfo* value);
+    // Get instance field reference: public System.Reflection.FieldInfo x
+    System::Reflection::FieldInfo*& dyn_x();
     // System.Boolean <GetFieldInfos>b__2(System.Type a)
     // Offset: 0x166615C
     bool $GetFieldInfos$b__2(System::Type* a);

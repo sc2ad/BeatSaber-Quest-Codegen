@@ -162,78 +162,42 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<float>*) == 0x8);
     // Creating value type constructor for type: CustomTweenBehaviour
     CustomTweenBehaviour(::Array<UnityEngine::Transform*>* transforms_ = {}, bool startLocationCurrentPosition_ = {}, UnityEngine::Vector3 startLocalPos_ = {}, UnityEngine::Vector3 endLocalPos_ = {}, Tweening::EaseType easeType_ = {}, bool endXRelativeToSelfRotation_ = {}, float elementDelay_ = {}, bool lockX_ = {}, bool lockY_ = {}, bool lockZ_ = {}, bool randomizeOrder_ = {}, float randomizedMinDurationMultiplier_ = {}, float duration_ = {}, float perItemDuration_ = {}, ::Array<UnityEngine::Vector3>* originalLocalPos_ = {}, bool initialized_ = {}, ::Array<int>* randomizedOrder_ = {}, ::Array<float>* randomizedDuration_ = {}) noexcept : transforms{transforms_}, startLocationCurrentPosition{startLocationCurrentPosition_}, startLocalPos{startLocalPos_}, endLocalPos{endLocalPos_}, easeType{easeType_}, endXRelativeToSelfRotation{endXRelativeToSelfRotation_}, elementDelay{elementDelay_}, lockX{lockX_}, lockY{lockY_}, lockZ{lockZ_}, randomizeOrder{randomizeOrder_}, randomizedMinDurationMultiplier{randomizedMinDurationMultiplier_}, duration{duration_}, perItemDuration{perItemDuration_}, originalLocalPos{originalLocalPos_}, initialized{initialized_}, randomizedOrder{randomizedOrder_}, randomizedDuration{randomizedDuration_} {}
-    // Get instance field: public UnityEngine.Transform[] _transforms
-    ::Array<UnityEngine::Transform*>* _get__transforms();
-    // Set instance field: public UnityEngine.Transform[] _transforms
-    void _set__transforms(::Array<UnityEngine::Transform*>* value);
-    // Get instance field: public System.Boolean startLocationCurrentPosition
-    bool _get_startLocationCurrentPosition();
-    // Set instance field: public System.Boolean startLocationCurrentPosition
-    void _set_startLocationCurrentPosition(bool value);
-    // Get instance field: public UnityEngine.Vector3 startLocalPos
-    UnityEngine::Vector3 _get_startLocalPos();
-    // Set instance field: public UnityEngine.Vector3 startLocalPos
-    void _set_startLocalPos(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Vector3 endLocalPos
-    UnityEngine::Vector3 _get_endLocalPos();
-    // Set instance field: public UnityEngine.Vector3 endLocalPos
-    void _set_endLocalPos(UnityEngine::Vector3 value);
-    // Get instance field: public Tweening.EaseType easeType
-    Tweening::EaseType _get_easeType();
-    // Set instance field: public Tweening.EaseType easeType
-    void _set_easeType(Tweening::EaseType value);
-    // Get instance field: public System.Boolean endXRelativeToSelfRotation
-    bool _get_endXRelativeToSelfRotation();
-    // Set instance field: public System.Boolean endXRelativeToSelfRotation
-    void _set_endXRelativeToSelfRotation(bool value);
-    // Get instance field: public System.Single elementDelay
-    float _get_elementDelay();
-    // Set instance field: public System.Single elementDelay
-    void _set_elementDelay(float value);
-    // Get instance field: public System.Boolean _lockX
-    bool _get__lockX();
-    // Set instance field: public System.Boolean _lockX
-    void _set__lockX(bool value);
-    // Get instance field: public System.Boolean _lockY
-    bool _get__lockY();
-    // Set instance field: public System.Boolean _lockY
-    void _set__lockY(bool value);
-    // Get instance field: public System.Boolean _lockZ
-    bool _get__lockZ();
-    // Set instance field: public System.Boolean _lockZ
-    void _set__lockZ(bool value);
-    // Get instance field: public System.Boolean _randomizeOrder
-    bool _get__randomizeOrder();
-    // Set instance field: public System.Boolean _randomizeOrder
-    void _set__randomizeOrder(bool value);
-    // Get instance field: public System.Single _randomizedMinDurationMultiplier
-    float _get__randomizedMinDurationMultiplier();
-    // Set instance field: public System.Single _randomizedMinDurationMultiplier
-    void _set__randomizedMinDurationMultiplier(float value);
-    // Get instance field: private System.Single _duration
-    float _get__duration();
-    // Set instance field: private System.Single _duration
-    void _set__duration(float value);
-    // Get instance field: private System.Single _perItemDuration
-    float _get__perItemDuration();
-    // Set instance field: private System.Single _perItemDuration
-    void _set__perItemDuration(float value);
-    // Get instance field: private UnityEngine.Vector3[] _originalLocalPos
-    ::Array<UnityEngine::Vector3>* _get__originalLocalPos();
-    // Set instance field: private UnityEngine.Vector3[] _originalLocalPos
-    void _set__originalLocalPos(::Array<UnityEngine::Vector3>* value);
-    // Get instance field: private System.Boolean _initialized
-    bool _get__initialized();
-    // Set instance field: private System.Boolean _initialized
-    void _set__initialized(bool value);
-    // Get instance field: private System.Int32[] _randomizedOrder
-    ::Array<int>* _get__randomizedOrder();
-    // Set instance field: private System.Int32[] _randomizedOrder
-    void _set__randomizedOrder(::Array<int>* value);
-    // Get instance field: private System.Single[] _randomizedDuration
-    ::Array<float>* _get__randomizedDuration();
-    // Set instance field: private System.Single[] _randomizedDuration
-    void _set__randomizedDuration(::Array<float>* value);
+    // Get instance field reference: public UnityEngine.Transform[] _transforms
+    ::Array<UnityEngine::Transform*>*& dyn__transforms();
+    // Get instance field reference: public System.Boolean startLocationCurrentPosition
+    bool& dyn_startLocationCurrentPosition();
+    // Get instance field reference: public UnityEngine.Vector3 startLocalPos
+    UnityEngine::Vector3& dyn_startLocalPos();
+    // Get instance field reference: public UnityEngine.Vector3 endLocalPos
+    UnityEngine::Vector3& dyn_endLocalPos();
+    // Get instance field reference: public Tweening.EaseType easeType
+    Tweening::EaseType& dyn_easeType();
+    // Get instance field reference: public System.Boolean endXRelativeToSelfRotation
+    bool& dyn_endXRelativeToSelfRotation();
+    // Get instance field reference: public System.Single elementDelay
+    float& dyn_elementDelay();
+    // Get instance field reference: public System.Boolean _lockX
+    bool& dyn__lockX();
+    // Get instance field reference: public System.Boolean _lockY
+    bool& dyn__lockY();
+    // Get instance field reference: public System.Boolean _lockZ
+    bool& dyn__lockZ();
+    // Get instance field reference: public System.Boolean _randomizeOrder
+    bool& dyn__randomizeOrder();
+    // Get instance field reference: public System.Single _randomizedMinDurationMultiplier
+    float& dyn__randomizedMinDurationMultiplier();
+    // Get instance field reference: private System.Single _duration
+    float& dyn__duration();
+    // Get instance field reference: private System.Single _perItemDuration
+    float& dyn__perItemDuration();
+    // Get instance field reference: private UnityEngine.Vector3[] _originalLocalPos
+    ::Array<UnityEngine::Vector3>*& dyn__originalLocalPos();
+    // Get instance field reference: private System.Boolean _initialized
+    bool& dyn__initialized();
+    // Get instance field reference: private System.Int32[] _randomizedOrder
+    ::Array<int>*& dyn__randomizedOrder();
+    // Get instance field reference: private System.Single[] _randomizedDuration
+    ::Array<float>*& dyn__randomizedDuration();
     // public System.Void .ctor()
     // Offset: 0x10F7AA4
     // Implemented from: UnityEngine.Playables.PlayableBehaviour

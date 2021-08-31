@@ -68,22 +68,14 @@ namespace GlobalNamespace {
     static float _get_kTimeRowEpsilon();
     // Set static field: static private System.Single kTimeRowEpsilon
     static void _set_kTimeRowEpsilon(float value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<NoteData> _currentTimeRowColorNotes
-    System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* _get__currentTimeRowColorNotes();
-    // Set instance field: private readonly System.Collections.Generic.List`1<NoteData> _currentTimeRowColorNotes
-    void _set__currentTimeRowColorNotes(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<NoteData> _currentTimeRowAllNotes
-    System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* _get__currentTimeRowAllNotes();
-    // Set instance field: private readonly System.Collections.Generic.List`1<NoteData> _currentTimeRowAllNotes
-    void _set__currentTimeRowAllNotes(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<NoteData>[] _notesInColumns
-    ::Array<System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*>* _get__notesInColumns();
-    // Set instance field: private readonly System.Collections.Generic.List`1<NoteData>[] _notesInColumns
-    void _set__notesInColumns(::Array<System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*>* value);
-    // Get instance field: private System.Single _prevBasicNotesTimeRowTime
-    float _get__prevBasicNotesTimeRowTime();
-    // Set instance field: private System.Single _prevBasicNotesTimeRowTime
-    void _set__prevBasicNotesTimeRowTime(float value);
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<NoteData> _currentTimeRowColorNotes
+    System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*& dyn__currentTimeRowColorNotes();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<NoteData> _currentTimeRowAllNotes
+    System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*& dyn__currentTimeRowAllNotes();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<NoteData>[] _notesInColumns
+    ::Array<System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*>*& dyn__notesInColumns();
+    // Get instance field reference: private System.Single _prevBasicNotesTimeRowTime
+    float& dyn__prevBasicNotesTimeRowTime();
     // public System.Void .ctor(System.Int32 numberOfLines)
     // Offset: 0x240C940
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

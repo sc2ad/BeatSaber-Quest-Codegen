@@ -123,54 +123,30 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: OVR.OpenVR.IVRSettings/OVR.OpenVR._GetSettingsErrorNameFromEnum GetSettingsErrorNameFromEnum
-    OVR::OpenVR::IVRSettings::_GetSettingsErrorNameFromEnum* _get_GetSettingsErrorNameFromEnum();
-    // Set instance field: OVR.OpenVR.IVRSettings/OVR.OpenVR._GetSettingsErrorNameFromEnum GetSettingsErrorNameFromEnum
-    void _set_GetSettingsErrorNameFromEnum(OVR::OpenVR::IVRSettings::_GetSettingsErrorNameFromEnum* value);
-    // Get instance field: OVR.OpenVR.IVRSettings/OVR.OpenVR._Sync Sync
-    OVR::OpenVR::IVRSettings::_Sync* _get_Sync();
-    // Set instance field: OVR.OpenVR.IVRSettings/OVR.OpenVR._Sync Sync
-    void _set_Sync(OVR::OpenVR::IVRSettings::_Sync* value);
-    // Get instance field: OVR.OpenVR.IVRSettings/OVR.OpenVR._SetBool SetBool
-    OVR::OpenVR::IVRSettings::_SetBool* _get_SetBool();
-    // Set instance field: OVR.OpenVR.IVRSettings/OVR.OpenVR._SetBool SetBool
-    void _set_SetBool(OVR::OpenVR::IVRSettings::_SetBool* value);
-    // Get instance field: OVR.OpenVR.IVRSettings/OVR.OpenVR._SetInt32 SetInt32
-    OVR::OpenVR::IVRSettings::_SetInt32* _get_SetInt32();
-    // Set instance field: OVR.OpenVR.IVRSettings/OVR.OpenVR._SetInt32 SetInt32
-    void _set_SetInt32(OVR::OpenVR::IVRSettings::_SetInt32* value);
-    // Get instance field: OVR.OpenVR.IVRSettings/OVR.OpenVR._SetFloat SetFloat
-    OVR::OpenVR::IVRSettings::_SetFloat* _get_SetFloat();
-    // Set instance field: OVR.OpenVR.IVRSettings/OVR.OpenVR._SetFloat SetFloat
-    void _set_SetFloat(OVR::OpenVR::IVRSettings::_SetFloat* value);
-    // Get instance field: OVR.OpenVR.IVRSettings/OVR.OpenVR._SetString SetString
-    OVR::OpenVR::IVRSettings::_SetString* _get_SetString();
-    // Set instance field: OVR.OpenVR.IVRSettings/OVR.OpenVR._SetString SetString
-    void _set_SetString(OVR::OpenVR::IVRSettings::_SetString* value);
-    // Get instance field: OVR.OpenVR.IVRSettings/OVR.OpenVR._GetBool GetBool
-    OVR::OpenVR::IVRSettings::_GetBool* _get_GetBool();
-    // Set instance field: OVR.OpenVR.IVRSettings/OVR.OpenVR._GetBool GetBool
-    void _set_GetBool(OVR::OpenVR::IVRSettings::_GetBool* value);
-    // Get instance field: OVR.OpenVR.IVRSettings/OVR.OpenVR._GetInt32 GetInt32
-    OVR::OpenVR::IVRSettings::_GetInt32* _get_GetInt32();
-    // Set instance field: OVR.OpenVR.IVRSettings/OVR.OpenVR._GetInt32 GetInt32
-    void _set_GetInt32(OVR::OpenVR::IVRSettings::_GetInt32* value);
-    // Get instance field: OVR.OpenVR.IVRSettings/OVR.OpenVR._GetFloat GetFloat
-    OVR::OpenVR::IVRSettings::_GetFloat* _get_GetFloat();
-    // Set instance field: OVR.OpenVR.IVRSettings/OVR.OpenVR._GetFloat GetFloat
-    void _set_GetFloat(OVR::OpenVR::IVRSettings::_GetFloat* value);
-    // Get instance field: OVR.OpenVR.IVRSettings/OVR.OpenVR._GetString GetString
-    OVR::OpenVR::IVRSettings::_GetString* _get_GetString();
-    // Set instance field: OVR.OpenVR.IVRSettings/OVR.OpenVR._GetString GetString
-    void _set_GetString(OVR::OpenVR::IVRSettings::_GetString* value);
-    // Get instance field: OVR.OpenVR.IVRSettings/OVR.OpenVR._RemoveSection RemoveSection
-    OVR::OpenVR::IVRSettings::_RemoveSection* _get_RemoveSection();
-    // Set instance field: OVR.OpenVR.IVRSettings/OVR.OpenVR._RemoveSection RemoveSection
-    void _set_RemoveSection(OVR::OpenVR::IVRSettings::_RemoveSection* value);
-    // Get instance field: OVR.OpenVR.IVRSettings/OVR.OpenVR._RemoveKeyInSection RemoveKeyInSection
-    OVR::OpenVR::IVRSettings::_RemoveKeyInSection* _get_RemoveKeyInSection();
-    // Set instance field: OVR.OpenVR.IVRSettings/OVR.OpenVR._RemoveKeyInSection RemoveKeyInSection
-    void _set_RemoveKeyInSection(OVR::OpenVR::IVRSettings::_RemoveKeyInSection* value);
+    // Get instance field reference: OVR.OpenVR.IVRSettings/OVR.OpenVR._GetSettingsErrorNameFromEnum GetSettingsErrorNameFromEnum
+    OVR::OpenVR::IVRSettings::_GetSettingsErrorNameFromEnum*& dyn_GetSettingsErrorNameFromEnum();
+    // Get instance field reference: OVR.OpenVR.IVRSettings/OVR.OpenVR._Sync Sync
+    OVR::OpenVR::IVRSettings::_Sync*& dyn_Sync();
+    // Get instance field reference: OVR.OpenVR.IVRSettings/OVR.OpenVR._SetBool SetBool
+    OVR::OpenVR::IVRSettings::_SetBool*& dyn_SetBool();
+    // Get instance field reference: OVR.OpenVR.IVRSettings/OVR.OpenVR._SetInt32 SetInt32
+    OVR::OpenVR::IVRSettings::_SetInt32*& dyn_SetInt32();
+    // Get instance field reference: OVR.OpenVR.IVRSettings/OVR.OpenVR._SetFloat SetFloat
+    OVR::OpenVR::IVRSettings::_SetFloat*& dyn_SetFloat();
+    // Get instance field reference: OVR.OpenVR.IVRSettings/OVR.OpenVR._SetString SetString
+    OVR::OpenVR::IVRSettings::_SetString*& dyn_SetString();
+    // Get instance field reference: OVR.OpenVR.IVRSettings/OVR.OpenVR._GetBool GetBool
+    OVR::OpenVR::IVRSettings::_GetBool*& dyn_GetBool();
+    // Get instance field reference: OVR.OpenVR.IVRSettings/OVR.OpenVR._GetInt32 GetInt32
+    OVR::OpenVR::IVRSettings::_GetInt32*& dyn_GetInt32();
+    // Get instance field reference: OVR.OpenVR.IVRSettings/OVR.OpenVR._GetFloat GetFloat
+    OVR::OpenVR::IVRSettings::_GetFloat*& dyn_GetFloat();
+    // Get instance field reference: OVR.OpenVR.IVRSettings/OVR.OpenVR._GetString GetString
+    OVR::OpenVR::IVRSettings::_GetString*& dyn_GetString();
+    // Get instance field reference: OVR.OpenVR.IVRSettings/OVR.OpenVR._RemoveSection RemoveSection
+    OVR::OpenVR::IVRSettings::_RemoveSection*& dyn_RemoveSection();
+    // Get instance field reference: OVR.OpenVR.IVRSettings/OVR.OpenVR._RemoveKeyInSection RemoveKeyInSection
+    OVR::OpenVR::IVRSettings::_RemoveKeyInSection*& dyn_RemoveKeyInSection();
   }; // OVR.OpenVR.IVRSettings
   #pragma pack(pop)
   static check_size<sizeof(IVRSettings), 88 + sizeof(OVR::OpenVR::IVRSettings::_RemoveKeyInSection*)> __OVR_OpenVR_IVRSettingsSizeCheck;

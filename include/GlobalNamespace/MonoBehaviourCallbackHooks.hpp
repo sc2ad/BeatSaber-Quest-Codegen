@@ -37,10 +37,8 @@ namespace GlobalNamespace {
     MonoBehaviourCallbackHooks(System::Action_1<float>* m_OnUpdateDelegate_ = {}) noexcept : m_OnUpdateDelegate{m_OnUpdateDelegate_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: System.Action`1<System.Single> m_OnUpdateDelegate
-    System::Action_1<float>* _get_m_OnUpdateDelegate();
-    // Set instance field: System.Action`1<System.Single> m_OnUpdateDelegate
-    void _set_m_OnUpdateDelegate(System::Action_1<float>* value);
+    // Get instance field reference: System.Action`1<System.Single> m_OnUpdateDelegate
+    System::Action_1<float>*& dyn_m_OnUpdateDelegate();
     // public System.Void add_OnUpdateDelegate(System.Action`1<System.Single> value)
     // Offset: 0x19E4034
     void add_OnUpdateDelegate(System::Action_1<float>* value);

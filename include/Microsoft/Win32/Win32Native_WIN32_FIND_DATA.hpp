@@ -36,14 +36,10 @@ namespace Microsoft::Win32 {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: WIN32_FIND_DATA
     WIN32_FIND_DATA(int dwFileAttributes_ = {}, ::Il2CppString* cFileName_ = {}) noexcept : dwFileAttributes{dwFileAttributes_}, cFileName{cFileName_} {}
-    // Get instance field: System.Int32 dwFileAttributes
-    int _get_dwFileAttributes();
-    // Set instance field: System.Int32 dwFileAttributes
-    void _set_dwFileAttributes(int value);
-    // Get instance field: System.String cFileName
-    ::Il2CppString* _get_cFileName();
-    // Set instance field: System.String cFileName
-    void _set_cFileName(::Il2CppString* value);
+    // Get instance field reference: System.Int32 dwFileAttributes
+    int& dyn_dwFileAttributes();
+    // Get instance field reference: System.String cFileName
+    ::Il2CppString*& dyn_cFileName();
     // public System.Void .ctor()
     // Offset: 0x1A6465C
     // Implemented from: System.Object

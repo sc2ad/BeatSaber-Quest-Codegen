@@ -43,10 +43,8 @@ namespace Org::BouncyCastle::Crypto::Generators {
     constexpr operator Org::BouncyCastle::Crypto::IDigest*() const noexcept {
       return digest;
     }
-    // Get instance field: private readonly Org.BouncyCastle.Crypto.IDigest digest
-    Org::BouncyCastle::Crypto::IDigest* _get_digest();
-    // Set instance field: private readonly Org.BouncyCastle.Crypto.IDigest digest
-    void _set_digest(Org::BouncyCastle::Crypto::IDigest* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IDigest digest
+    Org::BouncyCastle::Crypto::IDigest*& dyn_digest();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDigest digest)
     // Offset: 0x1909D74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

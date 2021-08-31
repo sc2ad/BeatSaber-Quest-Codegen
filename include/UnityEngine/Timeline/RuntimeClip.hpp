@@ -60,18 +60,12 @@ namespace UnityEngine::Timeline {
     RuntimeClip(UnityEngine::Timeline::TimelineClip* m_Clip_ = {}, UnityEngine::Playables::Playable m_Playable_ = {}, UnityEngine::Playables::Playable m_ParentMixer_ = {}) noexcept : m_Clip{m_Clip_}, m_Playable{m_Playable_}, m_ParentMixer{m_ParentMixer_} {}
     // Deleting conversion operator: operator int
     constexpr operator int() const noexcept = delete;
-    // Get instance field: private UnityEngine.Timeline.TimelineClip m_Clip
-    UnityEngine::Timeline::TimelineClip* _get_m_Clip();
-    // Set instance field: private UnityEngine.Timeline.TimelineClip m_Clip
-    void _set_m_Clip(UnityEngine::Timeline::TimelineClip* value);
-    // Get instance field: private UnityEngine.Playables.Playable m_Playable
-    UnityEngine::Playables::Playable _get_m_Playable();
-    // Set instance field: private UnityEngine.Playables.Playable m_Playable
-    void _set_m_Playable(UnityEngine::Playables::Playable value);
-    // Get instance field: private UnityEngine.Playables.Playable m_ParentMixer
-    UnityEngine::Playables::Playable _get_m_ParentMixer();
-    // Set instance field: private UnityEngine.Playables.Playable m_ParentMixer
-    void _set_m_ParentMixer(UnityEngine::Playables::Playable value);
+    // Get instance field reference: private UnityEngine.Timeline.TimelineClip m_Clip
+    UnityEngine::Timeline::TimelineClip*& dyn_m_Clip();
+    // Get instance field reference: private UnityEngine.Playables.Playable m_Playable
+    UnityEngine::Playables::Playable& dyn_m_Playable();
+    // Get instance field reference: private UnityEngine.Playables.Playable m_ParentMixer
+    UnityEngine::Playables::Playable& dyn_m_ParentMixer();
     // public UnityEngine.Timeline.TimelineClip get_clip()
     // Offset: 0x1824458
     UnityEngine::Timeline::TimelineClip* get_clip();

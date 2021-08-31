@@ -44,10 +44,8 @@ namespace Org::BouncyCastle::Crypto::Generators {
     constexpr operator Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*() const noexcept {
       return param;
     }
-    // Get instance field: private Org.BouncyCastle.Crypto.Parameters.DHKeyGenerationParameters param
-    Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters* _get_param();
-    // Set instance field: private Org.BouncyCastle.Crypto.Parameters.DHKeyGenerationParameters param
-    void _set_param(Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters* value);
+    // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.DHKeyGenerationParameters param
+    Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*& dyn_param();
     // public System.Void Init(Org.BouncyCastle.Crypto.KeyGenerationParameters parameters)
     // Offset: 0x1907F60
     void Init(Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);

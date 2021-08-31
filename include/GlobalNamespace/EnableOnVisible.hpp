@@ -48,14 +48,10 @@ namespace GlobalNamespace {
     EnableOnVisible(System::Action_1<bool>* VisibilityChangedEvent_ = {}, ::Array<UnityEngine::Behaviour*>* components_ = {}) noexcept : VisibilityChangedEvent{VisibilityChangedEvent_}, components{components_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Action`1<System.Boolean> VisibilityChangedEvent
-    System::Action_1<bool>* _get_VisibilityChangedEvent();
-    // Set instance field: private System.Action`1<System.Boolean> VisibilityChangedEvent
-    void _set_VisibilityChangedEvent(System::Action_1<bool>* value);
-    // Get instance field: public UnityEngine.Behaviour[] _components
-    ::Array<UnityEngine::Behaviour*>* _get__components();
-    // Set instance field: public UnityEngine.Behaviour[] _components
-    void _set__components(::Array<UnityEngine::Behaviour*>* value);
+    // Get instance field reference: private System.Action`1<System.Boolean> VisibilityChangedEvent
+    System::Action_1<bool>*& dyn_VisibilityChangedEvent();
+    // Get instance field reference: public UnityEngine.Behaviour[] _components
+    ::Array<UnityEngine::Behaviour*>*& dyn__components();
     // public System.Void add_VisibilityChangedEvent(System.Action`1<System.Boolean> value)
     // Offset: 0x125D848
     void add_VisibilityChangedEvent(System::Action_1<bool>* value);

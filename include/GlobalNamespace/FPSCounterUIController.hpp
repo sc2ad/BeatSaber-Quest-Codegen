@@ -97,38 +97,22 @@ namespace GlobalNamespace {
     FPSCounterUIController(float uiUpdateTimeInterval_ = {}, TMPro::TextMeshProUGUI* currentFPSText_ = {}, TMPro::TextMeshProUGUI* lowestFPSText_ = {}, TMPro::TextMeshProUGUI* highestFPSText_ = {}, TMPro::TextMeshProUGUI* droppedFramesText_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, GlobalNamespace::FPSCounter* fpsCounter_ = {}, float timeToUpdateUI_ = {}) noexcept : uiUpdateTimeInterval{uiUpdateTimeInterval_}, currentFPSText{currentFPSText_}, lowestFPSText{lowestFPSText_}, highestFPSText{highestFPSText_}, droppedFramesText{droppedFramesText_}, gameScenesManager{gameScenesManager_}, fpsCounter{fpsCounter_}, timeToUpdateUI{timeToUpdateUI_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Single _uiUpdateTimeInterval
-    float _get__uiUpdateTimeInterval();
-    // Set instance field: private System.Single _uiUpdateTimeInterval
-    void _set__uiUpdateTimeInterval(float value);
-    // Get instance field: private TMPro.TextMeshProUGUI _currentFPSText
-    TMPro::TextMeshProUGUI* _get__currentFPSText();
-    // Set instance field: private TMPro.TextMeshProUGUI _currentFPSText
-    void _set__currentFPSText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _lowestFPSText
-    TMPro::TextMeshProUGUI* _get__lowestFPSText();
-    // Set instance field: private TMPro.TextMeshProUGUI _lowestFPSText
-    void _set__lowestFPSText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _highestFPSText
-    TMPro::TextMeshProUGUI* _get__highestFPSText();
-    // Set instance field: private TMPro.TextMeshProUGUI _highestFPSText
-    void _set__highestFPSText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _droppedFramesText
-    TMPro::TextMeshProUGUI* _get__droppedFramesText();
-    // Set instance field: private TMPro.TextMeshProUGUI _droppedFramesText
-    void _set__droppedFramesText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private readonly GameScenesManager _gameScenesManager
-    GlobalNamespace::GameScenesManager* _get__gameScenesManager();
-    // Set instance field: private readonly GameScenesManager _gameScenesManager
-    void _set__gameScenesManager(GlobalNamespace::GameScenesManager* value);
-    // Get instance field: private FPSCounter _fpsCounter
-    GlobalNamespace::FPSCounter* _get__fpsCounter();
-    // Set instance field: private FPSCounter _fpsCounter
-    void _set__fpsCounter(GlobalNamespace::FPSCounter* value);
-    // Get instance field: private System.Single _timeToUpdateUI
-    float _get__timeToUpdateUI();
-    // Set instance field: private System.Single _timeToUpdateUI
-    void _set__timeToUpdateUI(float value);
+    // Get instance field reference: private System.Single _uiUpdateTimeInterval
+    float& dyn__uiUpdateTimeInterval();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _currentFPSText
+    TMPro::TextMeshProUGUI*& dyn__currentFPSText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _lowestFPSText
+    TMPro::TextMeshProUGUI*& dyn__lowestFPSText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _highestFPSText
+    TMPro::TextMeshProUGUI*& dyn__highestFPSText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _droppedFramesText
+    TMPro::TextMeshProUGUI*& dyn__droppedFramesText();
+    // Get instance field reference: private readonly GameScenesManager _gameScenesManager
+    GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
+    // Get instance field reference: private FPSCounter _fpsCounter
+    GlobalNamespace::FPSCounter*& dyn__fpsCounter();
+    // Get instance field reference: private System.Single _timeToUpdateUI
+    float& dyn__timeToUpdateUI();
     // protected System.Void Awake()
     // Offset: 0x1054F34
     void Awake();

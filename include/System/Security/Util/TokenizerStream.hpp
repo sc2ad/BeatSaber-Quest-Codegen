@@ -81,38 +81,22 @@ namespace System::Security::Util {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: TokenizerStream
     TokenizerStream(int m_countTokens_ = {}, System::Security::Util::TokenizerShortBlock* m_headTokens_ = {}, System::Security::Util::TokenizerShortBlock* m_lastTokens_ = {}, System::Security::Util::TokenizerShortBlock* m_currentTokens_ = {}, int m_indexTokens_ = {}, System::Security::Util::TokenizerStringBlock* m_headStrings_ = {}, System::Security::Util::TokenizerStringBlock* m_currentStrings_ = {}, int m_indexStrings_ = {}) noexcept : m_countTokens{m_countTokens_}, m_headTokens{m_headTokens_}, m_lastTokens{m_lastTokens_}, m_currentTokens{m_currentTokens_}, m_indexTokens{m_indexTokens_}, m_headStrings{m_headStrings_}, m_currentStrings{m_currentStrings_}, m_indexStrings{m_indexStrings_} {}
-    // Get instance field: private System.Int32 m_countTokens
-    int _get_m_countTokens();
-    // Set instance field: private System.Int32 m_countTokens
-    void _set_m_countTokens(int value);
-    // Get instance field: private System.Security.Util.TokenizerShortBlock m_headTokens
-    System::Security::Util::TokenizerShortBlock* _get_m_headTokens();
-    // Set instance field: private System.Security.Util.TokenizerShortBlock m_headTokens
-    void _set_m_headTokens(System::Security::Util::TokenizerShortBlock* value);
-    // Get instance field: private System.Security.Util.TokenizerShortBlock m_lastTokens
-    System::Security::Util::TokenizerShortBlock* _get_m_lastTokens();
-    // Set instance field: private System.Security.Util.TokenizerShortBlock m_lastTokens
-    void _set_m_lastTokens(System::Security::Util::TokenizerShortBlock* value);
-    // Get instance field: private System.Security.Util.TokenizerShortBlock m_currentTokens
-    System::Security::Util::TokenizerShortBlock* _get_m_currentTokens();
-    // Set instance field: private System.Security.Util.TokenizerShortBlock m_currentTokens
-    void _set_m_currentTokens(System::Security::Util::TokenizerShortBlock* value);
-    // Get instance field: private System.Int32 m_indexTokens
-    int _get_m_indexTokens();
-    // Set instance field: private System.Int32 m_indexTokens
-    void _set_m_indexTokens(int value);
-    // Get instance field: private System.Security.Util.TokenizerStringBlock m_headStrings
-    System::Security::Util::TokenizerStringBlock* _get_m_headStrings();
-    // Set instance field: private System.Security.Util.TokenizerStringBlock m_headStrings
-    void _set_m_headStrings(System::Security::Util::TokenizerStringBlock* value);
-    // Get instance field: private System.Security.Util.TokenizerStringBlock m_currentStrings
-    System::Security::Util::TokenizerStringBlock* _get_m_currentStrings();
-    // Set instance field: private System.Security.Util.TokenizerStringBlock m_currentStrings
-    void _set_m_currentStrings(System::Security::Util::TokenizerStringBlock* value);
-    // Get instance field: private System.Int32 m_indexStrings
-    int _get_m_indexStrings();
-    // Set instance field: private System.Int32 m_indexStrings
-    void _set_m_indexStrings(int value);
+    // Get instance field reference: private System.Int32 m_countTokens
+    int& dyn_m_countTokens();
+    // Get instance field reference: private System.Security.Util.TokenizerShortBlock m_headTokens
+    System::Security::Util::TokenizerShortBlock*& dyn_m_headTokens();
+    // Get instance field reference: private System.Security.Util.TokenizerShortBlock m_lastTokens
+    System::Security::Util::TokenizerShortBlock*& dyn_m_lastTokens();
+    // Get instance field reference: private System.Security.Util.TokenizerShortBlock m_currentTokens
+    System::Security::Util::TokenizerShortBlock*& dyn_m_currentTokens();
+    // Get instance field reference: private System.Int32 m_indexTokens
+    int& dyn_m_indexTokens();
+    // Get instance field reference: private System.Security.Util.TokenizerStringBlock m_headStrings
+    System::Security::Util::TokenizerStringBlock*& dyn_m_headStrings();
+    // Get instance field reference: private System.Security.Util.TokenizerStringBlock m_currentStrings
+    System::Security::Util::TokenizerStringBlock*& dyn_m_currentStrings();
+    // Get instance field reference: private System.Int32 m_indexStrings
+    int& dyn_m_indexStrings();
     // System.Void AddToken(System.Int16 token)
     // Offset: 0x1C02EB4
     void AddToken(int16_t token);

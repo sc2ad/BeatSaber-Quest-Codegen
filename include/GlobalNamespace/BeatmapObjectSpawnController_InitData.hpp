@@ -52,26 +52,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: InitData
     InitData(float beatsPerMinute_ = {}, int noteLinesCount_ = {}, float noteJumpMovementSpeed_ = {}, float noteJumpStartBeatOffset_ = {}, float jumpOffsetY_ = {}) noexcept : beatsPerMinute{beatsPerMinute_}, noteLinesCount{noteLinesCount_}, noteJumpMovementSpeed{noteJumpMovementSpeed_}, noteJumpStartBeatOffset{noteJumpStartBeatOffset_}, jumpOffsetY{jumpOffsetY_} {}
-    // Get instance field: public readonly System.Single beatsPerMinute
-    float _get_beatsPerMinute();
-    // Set instance field: public readonly System.Single beatsPerMinute
-    void _set_beatsPerMinute(float value);
-    // Get instance field: public readonly System.Int32 noteLinesCount
-    int _get_noteLinesCount();
-    // Set instance field: public readonly System.Int32 noteLinesCount
-    void _set_noteLinesCount(int value);
-    // Get instance field: public readonly System.Single noteJumpMovementSpeed
-    float _get_noteJumpMovementSpeed();
-    // Set instance field: public readonly System.Single noteJumpMovementSpeed
-    void _set_noteJumpMovementSpeed(float value);
-    // Get instance field: public readonly System.Single noteJumpStartBeatOffset
-    float _get_noteJumpStartBeatOffset();
-    // Set instance field: public readonly System.Single noteJumpStartBeatOffset
-    void _set_noteJumpStartBeatOffset(float value);
-    // Get instance field: public readonly System.Single jumpOffsetY
-    float _get_jumpOffsetY();
-    // Set instance field: public readonly System.Single jumpOffsetY
-    void _set_jumpOffsetY(float value);
+    // Get instance field reference: public readonly System.Single beatsPerMinute
+    float& dyn_beatsPerMinute();
+    // Get instance field reference: public readonly System.Int32 noteLinesCount
+    int& dyn_noteLinesCount();
+    // Get instance field reference: public readonly System.Single noteJumpMovementSpeed
+    float& dyn_noteJumpMovementSpeed();
+    // Get instance field reference: public readonly System.Single noteJumpStartBeatOffset
+    float& dyn_noteJumpStartBeatOffset();
+    // Get instance field reference: public readonly System.Single jumpOffsetY
+    float& dyn_jumpOffsetY();
     // public System.Void .ctor(System.Single beatsPerMinute, System.Int32 noteLinesCount, System.Single noteJumpMovementSpeed, System.Single noteJumpStartBeatOffset, System.Single jumpOffsetY)
     // Offset: 0x10CCB54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

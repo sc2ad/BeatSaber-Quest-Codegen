@@ -38,14 +38,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     operator Org::BouncyCastle::Crypto::ICipherParameters() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);
     }
-    // Get instance field: private Org.BouncyCastle.Crypto.ICipherParameters parameters
-    Org::BouncyCastle::Crypto::ICipherParameters* _get_parameters();
-    // Set instance field: private Org.BouncyCastle.Crypto.ICipherParameters parameters
-    void _set_parameters(Org::BouncyCastle::Crypto::ICipherParameters* value);
-    // Get instance field: private System.Byte[] sBox
-    ::Array<uint8_t>* _get_sBox();
-    // Set instance field: private System.Byte[] sBox
-    void _set_sBox(::Array<uint8_t>* value);
+    // Get instance field reference: private Org.BouncyCastle.Crypto.ICipherParameters parameters
+    Org::BouncyCastle::Crypto::ICipherParameters*& dyn_parameters();
+    // Get instance field reference: private System.Byte[] sBox
+    ::Array<uint8_t>*& dyn_sBox();
     // public Org.BouncyCastle.Crypto.ICipherParameters get_Parameters()
     // Offset: 0x1276148
     Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();

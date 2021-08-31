@@ -65,14 +65,10 @@ namespace MasterServer {
     static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass29_0
     $$c__DisplayClass29_0(MasterServer::BaseClientMessageHandler* $$4__this_ = {}, ::Array<uint8_t>* serverPublicKey_ = {}) noexcept : $$4__this{$$4__this_}, serverPublicKey{serverPublicKey_} {}
-    // Get instance field: public MasterServer.BaseClientMessageHandler <>4__this
-    MasterServer::BaseClientMessageHandler* _get_$$4__this();
-    // Set instance field: public MasterServer.BaseClientMessageHandler <>4__this
-    void _set_$$4__this(MasterServer::BaseClientMessageHandler* value);
-    // Get instance field: public System.Byte[] serverPublicKey
-    ::Array<uint8_t>* _get_serverPublicKey();
-    // Set instance field: public System.Byte[] serverPublicKey
-    void _set_serverPublicKey(::Array<uint8_t>* value);
+    // Get instance field reference: public MasterServer.BaseClientMessageHandler <>4__this
+    MasterServer::BaseClientMessageHandler*& dyn_$$4__this();
+    // Get instance field reference: public System.Byte[] serverPublicKey
+    ::Array<uint8_t>*& dyn_serverPublicKey();
     // System.Threading.Tasks.Task`1<MasterServer.HelloVerifyRequest> <AuthenticateWithMasterServerAsyncInternal>b__0(System.UInt32 protocolVersion, System.Net.IPEndPoint ep, MasterServer.IMasterServerReliableRequest request, System.Threading.CancellationToken ct)
     // Offset: 0x1211A48
     System::Threading::Tasks::Task_1<MasterServer::HelloVerifyRequest*>* $AuthenticateWithMasterServerAsyncInternal$b__0(uint protocolVersion, System::Net::IPEndPoint* ep, MasterServer::IMasterServerReliableRequest* request, System::Threading::CancellationToken ct);

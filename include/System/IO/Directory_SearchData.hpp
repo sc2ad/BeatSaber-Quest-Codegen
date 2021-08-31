@@ -42,18 +42,12 @@ namespace System::IO {
     static_assert(sizeof(System::IO::SearchOption) == 0x4);
     // Creating value type constructor for type: SearchData
     SearchData(::Il2CppString* fullPath_ = {}, ::Il2CppString* userPath_ = {}, System::IO::SearchOption searchOption_ = {}) noexcept : fullPath{fullPath_}, userPath{userPath_}, searchOption{searchOption_} {}
-    // Get instance field: public readonly System.String fullPath
-    ::Il2CppString* _get_fullPath();
-    // Set instance field: public readonly System.String fullPath
-    void _set_fullPath(::Il2CppString* value);
-    // Get instance field: public readonly System.String userPath
-    ::Il2CppString* _get_userPath();
-    // Set instance field: public readonly System.String userPath
-    void _set_userPath(::Il2CppString* value);
-    // Get instance field: public readonly System.IO.SearchOption searchOption
-    System::IO::SearchOption _get_searchOption();
-    // Set instance field: public readonly System.IO.SearchOption searchOption
-    void _set_searchOption(System::IO::SearchOption value);
+    // Get instance field reference: public readonly System.String fullPath
+    ::Il2CppString*& dyn_fullPath();
+    // Get instance field reference: public readonly System.String userPath
+    ::Il2CppString*& dyn_userPath();
+    // Get instance field reference: public readonly System.IO.SearchOption searchOption
+    System::IO::SearchOption& dyn_searchOption();
     // public System.Void .ctor(System.String fullPath, System.String userPath, System.IO.SearchOption searchOption)
     // Offset: 0x196CBF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

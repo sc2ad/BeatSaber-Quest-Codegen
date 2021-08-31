@@ -40,10 +40,8 @@ namespace Zenject {
     constexpr operator System::Type*() const noexcept {
       return attribute;
     }
-    // Get instance field: public System.Type attribute
-    System::Type* _get_attribute();
-    // Set instance field: public System.Type attribute
-    void _set_attribute(System::Type* value);
+    // Get instance field reference: public System.Type attribute
+    System::Type*& dyn_attribute();
     // System.Boolean <WithoutAttribute>b__0(System.Type t)
     // Offset: 0x13E26D0
     bool $WithoutAttribute$b__0(System::Type* t);

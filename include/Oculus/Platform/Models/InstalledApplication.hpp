@@ -54,26 +54,16 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: InstalledApplication
     InstalledApplication(::Il2CppString* ApplicationId_ = {}, ::Il2CppString* PackageName_ = {}, ::Il2CppString* Status_ = {}, int VersionCode_ = {}, ::Il2CppString* VersionName_ = {}) noexcept : ApplicationId{ApplicationId_}, PackageName{PackageName_}, Status{Status_}, VersionCode{VersionCode_}, VersionName{VersionName_} {}
-    // Get instance field: public readonly System.String ApplicationId
-    ::Il2CppString* _get_ApplicationId();
-    // Set instance field: public readonly System.String ApplicationId
-    void _set_ApplicationId(::Il2CppString* value);
-    // Get instance field: public readonly System.String PackageName
-    ::Il2CppString* _get_PackageName();
-    // Set instance field: public readonly System.String PackageName
-    void _set_PackageName(::Il2CppString* value);
-    // Get instance field: public readonly System.String Status
-    ::Il2CppString* _get_Status();
-    // Set instance field: public readonly System.String Status
-    void _set_Status(::Il2CppString* value);
-    // Get instance field: public readonly System.Int32 VersionCode
-    int _get_VersionCode();
-    // Set instance field: public readonly System.Int32 VersionCode
-    void _set_VersionCode(int value);
-    // Get instance field: public readonly System.String VersionName
-    ::Il2CppString* _get_VersionName();
-    // Set instance field: public readonly System.String VersionName
-    void _set_VersionName(::Il2CppString* value);
+    // Get instance field reference: public readonly System.String ApplicationId
+    ::Il2CppString*& dyn_ApplicationId();
+    // Get instance field reference: public readonly System.String PackageName
+    ::Il2CppString*& dyn_PackageName();
+    // Get instance field reference: public readonly System.String Status
+    ::Il2CppString*& dyn_Status();
+    // Get instance field reference: public readonly System.Int32 VersionCode
+    int& dyn_VersionCode();
+    // Get instance field reference: public readonly System.String VersionName
+    ::Il2CppString*& dyn_VersionName();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14F18FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

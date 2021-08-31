@@ -40,14 +40,10 @@ namespace UnityEngine {
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
-    // Get instance field: private UnityEngine.Animation m_Outer
-    UnityEngine::Animation* _get_m_Outer();
-    // Set instance field: private UnityEngine.Animation m_Outer
-    void _set_m_Outer(UnityEngine::Animation* value);
-    // Get instance field: private System.Int32 m_CurrentIndex
-    int _get_m_CurrentIndex();
-    // Set instance field: private System.Int32 m_CurrentIndex
-    void _set_m_CurrentIndex(int value);
+    // Get instance field reference: private UnityEngine.Animation m_Outer
+    UnityEngine::Animation*& dyn_m_Outer();
+    // Get instance field reference: private System.Int32 m_CurrentIndex
+    int& dyn_m_CurrentIndex();
     // public System.Object get_Current()
     // Offset: 0x2383F44
     ::Il2CppObject* get_Current();

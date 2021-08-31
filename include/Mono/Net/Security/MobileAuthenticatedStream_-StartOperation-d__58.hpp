@@ -85,34 +85,20 @@ namespace Mono::Net::Security {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
-    // Get instance field: public System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: public System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Int32> <>t__builder
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int> _get_$$t__builder();
-    // Set instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Int32> <>t__builder
-    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int> value);
-    // Get instance field: public Mono.Net.Security.MobileAuthenticatedStream <>4__this
-    Mono::Net::Security::MobileAuthenticatedStream* _get_$$4__this();
-    // Set instance field: public Mono.Net.Security.MobileAuthenticatedStream <>4__this
-    void _set_$$4__this(Mono::Net::Security::MobileAuthenticatedStream* value);
-    // Get instance field: public Mono.Net.Security.MobileAuthenticatedStream/Mono.Net.Security.OperationType type
-    Mono::Net::Security::MobileAuthenticatedStream::OperationType _get_type();
-    // Set instance field: public Mono.Net.Security.MobileAuthenticatedStream/Mono.Net.Security.OperationType type
-    void _set_type(Mono::Net::Security::MobileAuthenticatedStream::OperationType value);
-    // Get instance field: public Mono.Net.Security.AsyncProtocolRequest asyncRequest
-    Mono::Net::Security::AsyncProtocolRequest* _get_asyncRequest();
-    // Set instance field: public Mono.Net.Security.AsyncProtocolRequest asyncRequest
-    void _set_asyncRequest(Mono::Net::Security::AsyncProtocolRequest* value);
-    // Get instance field: public System.Threading.CancellationToken cancellationToken
-    System::Threading::CancellationToken _get_cancellationToken();
-    // Set instance field: public System.Threading.CancellationToken cancellationToken
-    void _set_cancellationToken(System::Threading::CancellationToken value);
-    // Get instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<Mono.Net.Security.AsyncProtocolResult> <>u__1
-    typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<Mono::Net::Security::AsyncProtocolResult*>::ConfiguredTaskAwaiter _get_$$u__1();
-    // Set instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<Mono.Net.Security.AsyncProtocolResult> <>u__1
-    void _set_$$u__1(typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<Mono::Net::Security::AsyncProtocolResult*>::ConfiguredTaskAwaiter value);
+    // Get instance field reference: public System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Int32> <>t__builder
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int>& dyn_$$t__builder();
+    // Get instance field reference: public Mono.Net.Security.MobileAuthenticatedStream <>4__this
+    Mono::Net::Security::MobileAuthenticatedStream*& dyn_$$4__this();
+    // Get instance field reference: public Mono.Net.Security.MobileAuthenticatedStream/Mono.Net.Security.OperationType type
+    Mono::Net::Security::MobileAuthenticatedStream::OperationType& dyn_type();
+    // Get instance field reference: public Mono.Net.Security.AsyncProtocolRequest asyncRequest
+    Mono::Net::Security::AsyncProtocolRequest*& dyn_asyncRequest();
+    // Get instance field reference: public System.Threading.CancellationToken cancellationToken
+    System::Threading::CancellationToken& dyn_cancellationToken();
+    // Get instance field reference: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<Mono.Net.Security.AsyncProtocolResult> <>u__1
+    typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<Mono::Net::Security::AsyncProtocolResult*>::ConfiguredTaskAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
     // Offset: 0x15EA70C
     void MoveNext();

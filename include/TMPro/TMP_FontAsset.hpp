@@ -339,170 +339,88 @@ namespace TMPro {
     static System::Collections::Generic::List_1<uint>* _get_s_MissingCharacterList();
     // Set static field: static System.Collections.Generic.List`1<System.UInt32> s_MissingCharacterList
     static void _set_s_MissingCharacterList(System::Collections::Generic::List_1<uint>* value);
-    // Get instance field: private System.String m_Version
-    ::Il2CppString* _get_m_Version();
-    // Set instance field: private System.String m_Version
-    void _set_m_Version(::Il2CppString* value);
-    // Get instance field: System.String m_SourceFontFileGUID
-    ::Il2CppString* _get_m_SourceFontFileGUID();
-    // Set instance field: System.String m_SourceFontFileGUID
-    void _set_m_SourceFontFileGUID(::Il2CppString* value);
-    // Get instance field: private UnityEngine.Font m_SourceFontFile
-    UnityEngine::Font* _get_m_SourceFontFile();
-    // Set instance field: private UnityEngine.Font m_SourceFontFile
-    void _set_m_SourceFontFile(UnityEngine::Font* value);
-    // Get instance field: private TMPro.AtlasPopulationMode m_AtlasPopulationMode
-    TMPro::AtlasPopulationMode _get_m_AtlasPopulationMode();
-    // Set instance field: private TMPro.AtlasPopulationMode m_AtlasPopulationMode
-    void _set_m_AtlasPopulationMode(TMPro::AtlasPopulationMode value);
-    // Get instance field: private UnityEngine.TextCore.FaceInfo m_FaceInfo
-    UnityEngine::TextCore::FaceInfo _get_m_FaceInfo();
-    // Set instance field: private UnityEngine.TextCore.FaceInfo m_FaceInfo
-    void _set_m_FaceInfo(UnityEngine::TextCore::FaceInfo value);
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.TextCore.Glyph> m_GlyphTable
-    System::Collections::Generic::List_1<UnityEngine::TextCore::Glyph*>* _get_m_GlyphTable();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.TextCore.Glyph> m_GlyphTable
-    void _set_m_GlyphTable(System::Collections::Generic::List_1<UnityEngine::TextCore::Glyph*>* value);
-    // Get instance field: private System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.TextCore.Glyph> m_GlyphLookupDictionary
-    System::Collections::Generic::Dictionary_2<uint, UnityEngine::TextCore::Glyph*>* _get_m_GlyphLookupDictionary();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.TextCore.Glyph> m_GlyphLookupDictionary
-    void _set_m_GlyphLookupDictionary(System::Collections::Generic::Dictionary_2<uint, UnityEngine::TextCore::Glyph*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<TMPro.TMP_Character> m_CharacterTable
-    System::Collections::Generic::List_1<TMPro::TMP_Character*>* _get_m_CharacterTable();
-    // Set instance field: private System.Collections.Generic.List`1<TMPro.TMP_Character> m_CharacterTable
-    void _set_m_CharacterTable(System::Collections::Generic::List_1<TMPro::TMP_Character*>* value);
-    // Get instance field: private System.Collections.Generic.Dictionary`2<System.UInt32,TMPro.TMP_Character> m_CharacterLookupDictionary
-    System::Collections::Generic::Dictionary_2<uint, TMPro::TMP_Character*>* _get_m_CharacterLookupDictionary();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<System.UInt32,TMPro.TMP_Character> m_CharacterLookupDictionary
-    void _set_m_CharacterLookupDictionary(System::Collections::Generic::Dictionary_2<uint, TMPro::TMP_Character*>* value);
-    // Get instance field: private UnityEngine.Texture2D m_AtlasTexture
-    UnityEngine::Texture2D* _get_m_AtlasTexture();
-    // Set instance field: private UnityEngine.Texture2D m_AtlasTexture
-    void _set_m_AtlasTexture(UnityEngine::Texture2D* value);
-    // Get instance field: private UnityEngine.Texture2D[] m_AtlasTextures
-    ::Array<UnityEngine::Texture2D*>* _get_m_AtlasTextures();
-    // Set instance field: private UnityEngine.Texture2D[] m_AtlasTextures
-    void _set_m_AtlasTextures(::Array<UnityEngine::Texture2D*>* value);
-    // Get instance field: System.Int32 m_AtlasTextureIndex
-    int _get_m_AtlasTextureIndex();
-    // Set instance field: System.Int32 m_AtlasTextureIndex
-    void _set_m_AtlasTextureIndex(int value);
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> m_UsedGlyphRects
-    System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>* _get_m_UsedGlyphRects();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> m_UsedGlyphRects
-    void _set_m_UsedGlyphRects(System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>* value);
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> m_FreeGlyphRects
-    System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>* _get_m_FreeGlyphRects();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> m_FreeGlyphRects
-    void _set_m_FreeGlyphRects(System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>* value);
-    // Get instance field: private TMPro.FaceInfo_Legacy m_fontInfo
-    TMPro::FaceInfo_Legacy* _get_m_fontInfo();
-    // Set instance field: private TMPro.FaceInfo_Legacy m_fontInfo
-    void _set_m_fontInfo(TMPro::FaceInfo_Legacy* value);
-    // Get instance field: public UnityEngine.Texture2D atlas
-    UnityEngine::Texture2D* _get_atlas();
-    // Set instance field: public UnityEngine.Texture2D atlas
-    void _set_atlas(UnityEngine::Texture2D* value);
-    // Get instance field: private System.Int32 m_AtlasWidth
-    int _get_m_AtlasWidth();
-    // Set instance field: private System.Int32 m_AtlasWidth
-    void _set_m_AtlasWidth(int value);
-    // Get instance field: private System.Int32 m_AtlasHeight
-    int _get_m_AtlasHeight();
-    // Set instance field: private System.Int32 m_AtlasHeight
-    void _set_m_AtlasHeight(int value);
-    // Get instance field: private System.Int32 m_AtlasPadding
-    int _get_m_AtlasPadding();
-    // Set instance field: private System.Int32 m_AtlasPadding
-    void _set_m_AtlasPadding(int value);
-    // Get instance field: private UnityEngine.TextCore.LowLevel.GlyphRenderMode m_AtlasRenderMode
-    UnityEngine::TextCore::LowLevel::GlyphRenderMode _get_m_AtlasRenderMode();
-    // Set instance field: private UnityEngine.TextCore.LowLevel.GlyphRenderMode m_AtlasRenderMode
-    void _set_m_AtlasRenderMode(UnityEngine::TextCore::LowLevel::GlyphRenderMode value);
-    // Get instance field: System.Collections.Generic.List`1<TMPro.TMP_Glyph> m_glyphInfoList
-    System::Collections::Generic::List_1<TMPro::TMP_Glyph*>* _get_m_glyphInfoList();
-    // Set instance field: System.Collections.Generic.List`1<TMPro.TMP_Glyph> m_glyphInfoList
-    void _set_m_glyphInfoList(System::Collections::Generic::List_1<TMPro::TMP_Glyph*>* value);
-    // Get instance field: TMPro.KerningTable m_KerningTable
-    TMPro::KerningTable* _get_m_KerningTable();
-    // Set instance field: TMPro.KerningTable m_KerningTable
-    void _set_m_KerningTable(TMPro::KerningTable* value);
-    // Get instance field: private TMPro.TMP_FontFeatureTable m_FontFeatureTable
-    TMPro::TMP_FontFeatureTable* _get_m_FontFeatureTable();
-    // Set instance field: private TMPro.TMP_FontFeatureTable m_FontFeatureTable
-    void _set_m_FontFeatureTable(TMPro::TMP_FontFeatureTable* value);
-    // Get instance field: private System.Collections.Generic.List`1<TMPro.TMP_FontAsset> fallbackFontAssets
-    System::Collections::Generic::List_1<TMPro::TMP_FontAsset*>* _get_fallbackFontAssets();
-    // Set instance field: private System.Collections.Generic.List`1<TMPro.TMP_FontAsset> fallbackFontAssets
-    void _set_fallbackFontAssets(System::Collections::Generic::List_1<TMPro::TMP_FontAsset*>* value);
-    // Get instance field: public System.Collections.Generic.List`1<TMPro.TMP_FontAsset> m_FallbackFontAssetTable
-    System::Collections::Generic::List_1<TMPro::TMP_FontAsset*>* _get_m_FallbackFontAssetTable();
-    // Set instance field: public System.Collections.Generic.List`1<TMPro.TMP_FontAsset> m_FallbackFontAssetTable
-    void _set_m_FallbackFontAssetTable(System::Collections::Generic::List_1<TMPro::TMP_FontAsset*>* value);
-    // Get instance field: TMPro.FontAssetCreationSettings m_CreationSettings
-    TMPro::FontAssetCreationSettings _get_m_CreationSettings();
-    // Set instance field: TMPro.FontAssetCreationSettings m_CreationSettings
-    void _set_m_CreationSettings(TMPro::FontAssetCreationSettings value);
-    // Get instance field: private TMPro.TMP_FontWeightPair[] m_FontWeightTable
-    ::Array<TMPro::TMP_FontWeightPair>* _get_m_FontWeightTable();
-    // Set instance field: private TMPro.TMP_FontWeightPair[] m_FontWeightTable
-    void _set_m_FontWeightTable(::Array<TMPro::TMP_FontWeightPair>* value);
-    // Get instance field: private TMPro.TMP_FontWeightPair[] fontWeights
-    ::Array<TMPro::TMP_FontWeightPair>* _get_fontWeights();
-    // Set instance field: private TMPro.TMP_FontWeightPair[] fontWeights
-    void _set_fontWeights(::Array<TMPro::TMP_FontWeightPair>* value);
-    // Get instance field: public System.Single normalStyle
-    float _get_normalStyle();
-    // Set instance field: public System.Single normalStyle
-    void _set_normalStyle(float value);
-    // Get instance field: public System.Single normalSpacingOffset
-    float _get_normalSpacingOffset();
-    // Set instance field: public System.Single normalSpacingOffset
-    void _set_normalSpacingOffset(float value);
-    // Get instance field: public System.Single boldStyle
-    float _get_boldStyle();
-    // Set instance field: public System.Single boldStyle
-    void _set_boldStyle(float value);
-    // Get instance field: public System.Single boldSpacing
-    float _get_boldSpacing();
-    // Set instance field: public System.Single boldSpacing
-    void _set_boldSpacing(float value);
-    // Get instance field: public System.Byte italicStyle
-    uint8_t _get_italicStyle();
-    // Set instance field: public System.Byte italicStyle
-    void _set_italicStyle(uint8_t value);
-    // Get instance field: public System.Byte tabSize
-    uint8_t _get_tabSize();
-    // Set instance field: public System.Byte tabSize
-    void _set_tabSize(uint8_t value);
-    // Get instance field: private System.Byte m_oldTabSize
-    uint8_t _get_m_oldTabSize();
-    // Set instance field: private System.Byte m_oldTabSize
-    void _set_m_oldTabSize(uint8_t value);
-    // Get instance field: System.Boolean m_IsFontAssetLookupTablesDirty
-    bool _get_m_IsFontAssetLookupTablesDirty();
-    // Set instance field: System.Boolean m_IsFontAssetLookupTablesDirty
-    void _set_m_IsFontAssetLookupTablesDirty(bool value);
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.TextCore.Glyph> m_GlyphsToPack
-    System::Collections::Generic::List_1<UnityEngine::TextCore::Glyph*>* _get_m_GlyphsToPack();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.TextCore.Glyph> m_GlyphsToPack
-    void _set_m_GlyphsToPack(System::Collections::Generic::List_1<UnityEngine::TextCore::Glyph*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.TextCore.Glyph> m_GlyphsPacked
-    System::Collections::Generic::List_1<UnityEngine::TextCore::Glyph*>* _get_m_GlyphsPacked();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.TextCore.Glyph> m_GlyphsPacked
-    void _set_m_GlyphsPacked(System::Collections::Generic::List_1<UnityEngine::TextCore::Glyph*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.TextCore.Glyph> m_GlyphsToRender
-    System::Collections::Generic::List_1<UnityEngine::TextCore::Glyph*>* _get_m_GlyphsToRender();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.TextCore.Glyph> m_GlyphsToRender
-    void _set_m_GlyphsToRender(System::Collections::Generic::List_1<UnityEngine::TextCore::Glyph*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<System.UInt32> m_GlyphIndexList
-    System::Collections::Generic::List_1<uint>* _get_m_GlyphIndexList();
-    // Set instance field: private System.Collections.Generic.List`1<System.UInt32> m_GlyphIndexList
-    void _set_m_GlyphIndexList(System::Collections::Generic::List_1<uint>* value);
-    // Get instance field: private System.Collections.Generic.List`1<TMPro.TMP_Character> m_CharactersToAdd
-    System::Collections::Generic::List_1<TMPro::TMP_Character*>* _get_m_CharactersToAdd();
-    // Set instance field: private System.Collections.Generic.List`1<TMPro.TMP_Character> m_CharactersToAdd
-    void _set_m_CharactersToAdd(System::Collections::Generic::List_1<TMPro::TMP_Character*>* value);
+    // Get instance field reference: private System.String m_Version
+    ::Il2CppString*& dyn_m_Version();
+    // Get instance field reference: System.String m_SourceFontFileGUID
+    ::Il2CppString*& dyn_m_SourceFontFileGUID();
+    // Get instance field reference: private UnityEngine.Font m_SourceFontFile
+    UnityEngine::Font*& dyn_m_SourceFontFile();
+    // Get instance field reference: private TMPro.AtlasPopulationMode m_AtlasPopulationMode
+    TMPro::AtlasPopulationMode& dyn_m_AtlasPopulationMode();
+    // Get instance field reference: private UnityEngine.TextCore.FaceInfo m_FaceInfo
+    UnityEngine::TextCore::FaceInfo& dyn_m_FaceInfo();
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.TextCore.Glyph> m_GlyphTable
+    System::Collections::Generic::List_1<UnityEngine::TextCore::Glyph*>*& dyn_m_GlyphTable();
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.TextCore.Glyph> m_GlyphLookupDictionary
+    System::Collections::Generic::Dictionary_2<uint, UnityEngine::TextCore::Glyph*>*& dyn_m_GlyphLookupDictionary();
+    // Get instance field reference: private System.Collections.Generic.List`1<TMPro.TMP_Character> m_CharacterTable
+    System::Collections::Generic::List_1<TMPro::TMP_Character*>*& dyn_m_CharacterTable();
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.UInt32,TMPro.TMP_Character> m_CharacterLookupDictionary
+    System::Collections::Generic::Dictionary_2<uint, TMPro::TMP_Character*>*& dyn_m_CharacterLookupDictionary();
+    // Get instance field reference: private UnityEngine.Texture2D m_AtlasTexture
+    UnityEngine::Texture2D*& dyn_m_AtlasTexture();
+    // Get instance field reference: private UnityEngine.Texture2D[] m_AtlasTextures
+    ::Array<UnityEngine::Texture2D*>*& dyn_m_AtlasTextures();
+    // Get instance field reference: System.Int32 m_AtlasTextureIndex
+    int& dyn_m_AtlasTextureIndex();
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> m_UsedGlyphRects
+    System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*& dyn_m_UsedGlyphRects();
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> m_FreeGlyphRects
+    System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*& dyn_m_FreeGlyphRects();
+    // Get instance field reference: private TMPro.FaceInfo_Legacy m_fontInfo
+    TMPro::FaceInfo_Legacy*& dyn_m_fontInfo();
+    // Get instance field reference: public UnityEngine.Texture2D atlas
+    UnityEngine::Texture2D*& dyn_atlas();
+    // Get instance field reference: private System.Int32 m_AtlasWidth
+    int& dyn_m_AtlasWidth();
+    // Get instance field reference: private System.Int32 m_AtlasHeight
+    int& dyn_m_AtlasHeight();
+    // Get instance field reference: private System.Int32 m_AtlasPadding
+    int& dyn_m_AtlasPadding();
+    // Get instance field reference: private UnityEngine.TextCore.LowLevel.GlyphRenderMode m_AtlasRenderMode
+    UnityEngine::TextCore::LowLevel::GlyphRenderMode& dyn_m_AtlasRenderMode();
+    // Get instance field reference: System.Collections.Generic.List`1<TMPro.TMP_Glyph> m_glyphInfoList
+    System::Collections::Generic::List_1<TMPro::TMP_Glyph*>*& dyn_m_glyphInfoList();
+    // Get instance field reference: TMPro.KerningTable m_KerningTable
+    TMPro::KerningTable*& dyn_m_KerningTable();
+    // Get instance field reference: private TMPro.TMP_FontFeatureTable m_FontFeatureTable
+    TMPro::TMP_FontFeatureTable*& dyn_m_FontFeatureTable();
+    // Get instance field reference: private System.Collections.Generic.List`1<TMPro.TMP_FontAsset> fallbackFontAssets
+    System::Collections::Generic::List_1<TMPro::TMP_FontAsset*>*& dyn_fallbackFontAssets();
+    // Get instance field reference: public System.Collections.Generic.List`1<TMPro.TMP_FontAsset> m_FallbackFontAssetTable
+    System::Collections::Generic::List_1<TMPro::TMP_FontAsset*>*& dyn_m_FallbackFontAssetTable();
+    // Get instance field reference: TMPro.FontAssetCreationSettings m_CreationSettings
+    TMPro::FontAssetCreationSettings& dyn_m_CreationSettings();
+    // Get instance field reference: private TMPro.TMP_FontWeightPair[] m_FontWeightTable
+    ::Array<TMPro::TMP_FontWeightPair>*& dyn_m_FontWeightTable();
+    // Get instance field reference: private TMPro.TMP_FontWeightPair[] fontWeights
+    ::Array<TMPro::TMP_FontWeightPair>*& dyn_fontWeights();
+    // Get instance field reference: public System.Single normalStyle
+    float& dyn_normalStyle();
+    // Get instance field reference: public System.Single normalSpacingOffset
+    float& dyn_normalSpacingOffset();
+    // Get instance field reference: public System.Single boldStyle
+    float& dyn_boldStyle();
+    // Get instance field reference: public System.Single boldSpacing
+    float& dyn_boldSpacing();
+    // Get instance field reference: public System.Byte italicStyle
+    uint8_t& dyn_italicStyle();
+    // Get instance field reference: public System.Byte tabSize
+    uint8_t& dyn_tabSize();
+    // Get instance field reference: private System.Byte m_oldTabSize
+    uint8_t& dyn_m_oldTabSize();
+    // Get instance field reference: System.Boolean m_IsFontAssetLookupTablesDirty
+    bool& dyn_m_IsFontAssetLookupTablesDirty();
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.TextCore.Glyph> m_GlyphsToPack
+    System::Collections::Generic::List_1<UnityEngine::TextCore::Glyph*>*& dyn_m_GlyphsToPack();
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.TextCore.Glyph> m_GlyphsPacked
+    System::Collections::Generic::List_1<UnityEngine::TextCore::Glyph*>*& dyn_m_GlyphsPacked();
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.TextCore.Glyph> m_GlyphsToRender
+    System::Collections::Generic::List_1<UnityEngine::TextCore::Glyph*>*& dyn_m_GlyphsToRender();
+    // Get instance field reference: private System.Collections.Generic.List`1<System.UInt32> m_GlyphIndexList
+    System::Collections::Generic::List_1<uint>*& dyn_m_GlyphIndexList();
+    // Get instance field reference: private System.Collections.Generic.List`1<TMPro.TMP_Character> m_CharactersToAdd
+    System::Collections::Generic::List_1<TMPro::TMP_Character*>*& dyn_m_CharactersToAdd();
     // public System.String get_version()
     // Offset: 0x111E338
     ::Il2CppString* get_version();

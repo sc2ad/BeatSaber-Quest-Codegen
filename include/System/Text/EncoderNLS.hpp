@@ -76,26 +76,16 @@ namespace System::Text {
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
     }
-    // Get instance field: System.Char charLeftOver
-    ::Il2CppChar _get_charLeftOver();
-    // Set instance field: System.Char charLeftOver
-    void _set_charLeftOver(::Il2CppChar value);
-    // Get instance field: protected System.Text.Encoding m_encoding
-    System::Text::Encoding* _get_m_encoding();
-    // Set instance field: protected System.Text.Encoding m_encoding
-    void _set_m_encoding(System::Text::Encoding* value);
-    // Get instance field: protected System.Boolean m_mustFlush
-    bool _get_m_mustFlush();
-    // Set instance field: protected System.Boolean m_mustFlush
-    void _set_m_mustFlush(bool value);
-    // Get instance field: System.Boolean m_throwOnOverflow
-    bool _get_m_throwOnOverflow();
-    // Set instance field: System.Boolean m_throwOnOverflow
-    void _set_m_throwOnOverflow(bool value);
-    // Get instance field: System.Int32 m_charsUsed
-    int _get_m_charsUsed();
-    // Set instance field: System.Int32 m_charsUsed
-    void _set_m_charsUsed(int value);
+    // Get instance field reference: System.Char charLeftOver
+    ::Il2CppChar& dyn_charLeftOver();
+    // Get instance field reference: protected System.Text.Encoding m_encoding
+    System::Text::Encoding*& dyn_m_encoding();
+    // Get instance field reference: protected System.Boolean m_mustFlush
+    bool& dyn_m_mustFlush();
+    // Get instance field reference: System.Boolean m_throwOnOverflow
+    bool& dyn_m_throwOnOverflow();
+    // Get instance field reference: System.Int32 m_charsUsed
+    int& dyn_m_charsUsed();
     // public System.Text.Encoding get_Encoding()
     // Offset: 0x1D6C374
     System::Text::Encoding* get_Encoding();

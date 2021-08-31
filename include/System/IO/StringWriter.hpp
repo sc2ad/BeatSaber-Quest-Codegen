@@ -55,14 +55,10 @@ namespace System::IO {
     static System::Text::UnicodeEncoding* _get_m_encoding();
     // Set static field: static private System.Text.UnicodeEncoding m_encoding
     static void _set_m_encoding(System::Text::UnicodeEncoding* value);
-    // Get instance field: private System.Text.StringBuilder _sb
-    System::Text::StringBuilder* _get__sb();
-    // Set instance field: private System.Text.StringBuilder _sb
-    void _set__sb(System::Text::StringBuilder* value);
-    // Get instance field: private System.Boolean _isOpen
-    bool _get__isOpen();
-    // Set instance field: private System.Boolean _isOpen
-    void _set__isOpen(bool value);
+    // Get instance field reference: private System.Text.StringBuilder _sb
+    System::Text::StringBuilder*& dyn__sb();
+    // Get instance field reference: private System.Boolean _isOpen
+    bool& dyn__isOpen();
     // public System.Void .ctor(System.Text.StringBuilder sb)
     // Offset: 0x182C904
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

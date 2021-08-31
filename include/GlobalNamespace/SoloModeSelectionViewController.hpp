@@ -85,10 +85,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::SoloModeSelectionViewController::MenuType _get_Back();
       // Set static field: static public SoloModeSelectionViewController/MenuType Back
       static void _set_Back(GlobalNamespace::SoloModeSelectionViewController::MenuType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // SoloModeSelectionViewController/MenuType
     #pragma pack(pop)
     static check_size<sizeof(SoloModeSelectionViewController::MenuType), 0 + sizeof(int)> __GlobalNamespace_SoloModeSelectionViewController_MenuTypeSizeCheck;
@@ -125,26 +123,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_2<GlobalNamespace::SoloModeSelectionViewController*, GlobalNamespace::SoloModeSelectionViewController::MenuType>*) == 0x8);
     // Creating value type constructor for type: SoloModeSelectionViewController
     SoloModeSelectionViewController(UnityEngine::UI::Button* freePlayModeButton_ = {}, UnityEngine::UI::Button* oneSaberModeButton_ = {}, UnityEngine::UI::Button* noArrowsModeButton_ = {}, UnityEngine::UI::Button* dismissButton_ = {}, System::Action_2<GlobalNamespace::SoloModeSelectionViewController*, GlobalNamespace::SoloModeSelectionViewController::MenuType>* didFinishEvent_ = {}) noexcept : freePlayModeButton{freePlayModeButton_}, oneSaberModeButton{oneSaberModeButton_}, noArrowsModeButton{noArrowsModeButton_}, dismissButton{dismissButton_}, didFinishEvent{didFinishEvent_} {}
-    // Get instance field: private UnityEngine.UI.Button _freePlayModeButton
-    UnityEngine::UI::Button* _get__freePlayModeButton();
-    // Set instance field: private UnityEngine.UI.Button _freePlayModeButton
-    void _set__freePlayModeButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _oneSaberModeButton
-    UnityEngine::UI::Button* _get__oneSaberModeButton();
-    // Set instance field: private UnityEngine.UI.Button _oneSaberModeButton
-    void _set__oneSaberModeButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _noArrowsModeButton
-    UnityEngine::UI::Button* _get__noArrowsModeButton();
-    // Set instance field: private UnityEngine.UI.Button _noArrowsModeButton
-    void _set__noArrowsModeButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _dismissButton
-    UnityEngine::UI::Button* _get__dismissButton();
-    // Set instance field: private UnityEngine.UI.Button _dismissButton
-    void _set__dismissButton(UnityEngine::UI::Button* value);
-    // Get instance field: private System.Action`2<SoloModeSelectionViewController,SoloModeSelectionViewController/MenuType> didFinishEvent
-    System::Action_2<GlobalNamespace::SoloModeSelectionViewController*, GlobalNamespace::SoloModeSelectionViewController::MenuType>* _get_didFinishEvent();
-    // Set instance field: private System.Action`2<SoloModeSelectionViewController,SoloModeSelectionViewController/MenuType> didFinishEvent
-    void _set_didFinishEvent(System::Action_2<GlobalNamespace::SoloModeSelectionViewController*, GlobalNamespace::SoloModeSelectionViewController::MenuType>* value);
+    // Get instance field reference: private UnityEngine.UI.Button _freePlayModeButton
+    UnityEngine::UI::Button*& dyn__freePlayModeButton();
+    // Get instance field reference: private UnityEngine.UI.Button _oneSaberModeButton
+    UnityEngine::UI::Button*& dyn__oneSaberModeButton();
+    // Get instance field reference: private UnityEngine.UI.Button _noArrowsModeButton
+    UnityEngine::UI::Button*& dyn__noArrowsModeButton();
+    // Get instance field reference: private UnityEngine.UI.Button _dismissButton
+    UnityEngine::UI::Button*& dyn__dismissButton();
+    // Get instance field reference: private System.Action`2<SoloModeSelectionViewController,SoloModeSelectionViewController/MenuType> didFinishEvent
+    System::Action_2<GlobalNamespace::SoloModeSelectionViewController*, GlobalNamespace::SoloModeSelectionViewController::MenuType>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`2<SoloModeSelectionViewController,SoloModeSelectionViewController/MenuType> value)
     // Offset: 0x107EB14
     void add_didFinishEvent(System::Action_2<GlobalNamespace::SoloModeSelectionViewController*, GlobalNamespace::SoloModeSelectionViewController::MenuType>* value);

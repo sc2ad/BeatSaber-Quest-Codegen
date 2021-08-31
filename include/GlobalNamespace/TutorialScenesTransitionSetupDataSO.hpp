@@ -78,10 +78,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType _get_Restart();
       // Set static field: static public TutorialScenesTransitionSetupDataSO/TutorialEndStateType Restart
       static void _set_Restart(GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // TutorialScenesTransitionSetupDataSO/TutorialEndStateType
     #pragma pack(pop)
     static check_size<sizeof(TutorialScenesTransitionSetupDataSO::TutorialEndStateType), 0 + sizeof(int)> __GlobalNamespace_TutorialScenesTransitionSetupDataSO_TutorialEndStateTypeSizeCheck;
@@ -112,22 +110,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_2<GlobalNamespace::TutorialScenesTransitionSetupDataSO*, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>*) == 0x8);
     // Creating value type constructor for type: TutorialScenesTransitionSetupDataSO
     TutorialScenesTransitionSetupDataSO(GlobalNamespace::EnvironmentInfoSO* environmentInfo_ = {}, GlobalNamespace::SceneInfo* tutorialSceneInfo_ = {}, GlobalNamespace::SceneInfo* gameCoreSceneInfo_ = {}, System::Action_2<GlobalNamespace::TutorialScenesTransitionSetupDataSO*, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>* didFinishEvent_ = {}) noexcept : environmentInfo{environmentInfo_}, tutorialSceneInfo{tutorialSceneInfo_}, gameCoreSceneInfo{gameCoreSceneInfo_}, didFinishEvent{didFinishEvent_} {}
-    // Get instance field: private EnvironmentInfoSO _environmentInfo
-    GlobalNamespace::EnvironmentInfoSO* _get__environmentInfo();
-    // Set instance field: private EnvironmentInfoSO _environmentInfo
-    void _set__environmentInfo(GlobalNamespace::EnvironmentInfoSO* value);
-    // Get instance field: private SceneInfo _tutorialSceneInfo
-    GlobalNamespace::SceneInfo* _get__tutorialSceneInfo();
-    // Set instance field: private SceneInfo _tutorialSceneInfo
-    void _set__tutorialSceneInfo(GlobalNamespace::SceneInfo* value);
-    // Get instance field: private SceneInfo _gameCoreSceneInfo
-    GlobalNamespace::SceneInfo* _get__gameCoreSceneInfo();
-    // Set instance field: private SceneInfo _gameCoreSceneInfo
-    void _set__gameCoreSceneInfo(GlobalNamespace::SceneInfo* value);
-    // Get instance field: private System.Action`2<TutorialScenesTransitionSetupDataSO,TutorialScenesTransitionSetupDataSO/TutorialEndStateType> didFinishEvent
-    System::Action_2<GlobalNamespace::TutorialScenesTransitionSetupDataSO*, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>* _get_didFinishEvent();
-    // Set instance field: private System.Action`2<TutorialScenesTransitionSetupDataSO,TutorialScenesTransitionSetupDataSO/TutorialEndStateType> didFinishEvent
-    void _set_didFinishEvent(System::Action_2<GlobalNamespace::TutorialScenesTransitionSetupDataSO*, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>* value);
+    // Get instance field reference: private EnvironmentInfoSO _environmentInfo
+    GlobalNamespace::EnvironmentInfoSO*& dyn__environmentInfo();
+    // Get instance field reference: private SceneInfo _tutorialSceneInfo
+    GlobalNamespace::SceneInfo*& dyn__tutorialSceneInfo();
+    // Get instance field reference: private SceneInfo _gameCoreSceneInfo
+    GlobalNamespace::SceneInfo*& dyn__gameCoreSceneInfo();
+    // Get instance field reference: private System.Action`2<TutorialScenesTransitionSetupDataSO,TutorialScenesTransitionSetupDataSO/TutorialEndStateType> didFinishEvent
+    System::Action_2<GlobalNamespace::TutorialScenesTransitionSetupDataSO*, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`2<TutorialScenesTransitionSetupDataSO,TutorialScenesTransitionSetupDataSO/TutorialEndStateType> value)
     // Offset: 0x109BE48
     void add_didFinishEvent(System::Action_2<GlobalNamespace::TutorialScenesTransitionSetupDataSO*, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>* value);

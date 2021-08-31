@@ -97,10 +97,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType _get_Edit();
       // Set static field: static public EditAvatarFlowCoordinator/EditAvatarType Edit
       static void _set_Edit(GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // EditAvatarFlowCoordinator/EditAvatarType
     #pragma pack(pop)
     static check_size<sizeof(EditAvatarFlowCoordinator::EditAvatarType), 0 + sizeof(int)> __GlobalNamespace_EditAvatarFlowCoordinator_EditAvatarTypeSizeCheck;
@@ -166,42 +164,24 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>*) == 0x8);
     // Creating value type constructor for type: EditAvatarFlowCoordinator
     EditAvatarFlowCoordinator(GlobalNamespace::AvatarVisualController* avatarVisualController_ = {}, GlobalNamespace::AvatarTweenController* avatarTweenController_ = {}, UnityEngine::GameObject* avatarContainerGameObject_ = {}, GlobalNamespace::EditAvatarViewController* editAvatarViewController_ = {}, GlobalNamespace::EditColorController* editColorViewController_ = {}, GlobalNamespace::AvatarDataModel* avatarDataModel_ = {}, System::Collections::Generic::Dictionary_2<GlobalNamespace::EditAvatarViewController::AvatarEditPart, System::Action*>* parameterChangedAnimationCallbacks_ = {}, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType editAvatarType_ = {}, System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>* didFinishEvent_ = {}) noexcept : avatarVisualController{avatarVisualController_}, avatarTweenController{avatarTweenController_}, avatarContainerGameObject{avatarContainerGameObject_}, editAvatarViewController{editAvatarViewController_}, editColorViewController{editColorViewController_}, avatarDataModel{avatarDataModel_}, parameterChangedAnimationCallbacks{parameterChangedAnimationCallbacks_}, editAvatarType{editAvatarType_}, didFinishEvent{didFinishEvent_} {}
-    // Get instance field: private AvatarVisualController _avatarVisualController
-    GlobalNamespace::AvatarVisualController* _get__avatarVisualController();
-    // Set instance field: private AvatarVisualController _avatarVisualController
-    void _set__avatarVisualController(GlobalNamespace::AvatarVisualController* value);
-    // Get instance field: private AvatarTweenController _avatarTweenController
-    GlobalNamespace::AvatarTweenController* _get__avatarTweenController();
-    // Set instance field: private AvatarTweenController _avatarTweenController
-    void _set__avatarTweenController(GlobalNamespace::AvatarTweenController* value);
-    // Get instance field: private UnityEngine.GameObject _avatarContainerGameObject
-    UnityEngine::GameObject* _get__avatarContainerGameObject();
-    // Set instance field: private UnityEngine.GameObject _avatarContainerGameObject
-    void _set__avatarContainerGameObject(UnityEngine::GameObject* value);
-    // Get instance field: private readonly EditAvatarViewController _editAvatarViewController
-    GlobalNamespace::EditAvatarViewController* _get__editAvatarViewController();
-    // Set instance field: private readonly EditAvatarViewController _editAvatarViewController
-    void _set__editAvatarViewController(GlobalNamespace::EditAvatarViewController* value);
-    // Get instance field: private readonly EditColorController _editColorViewController
-    GlobalNamespace::EditColorController* _get__editColorViewController();
-    // Set instance field: private readonly EditColorController _editColorViewController
-    void _set__editColorViewController(GlobalNamespace::EditColorController* value);
-    // Get instance field: private readonly AvatarDataModel _avatarDataModel
-    GlobalNamespace::AvatarDataModel* _get__avatarDataModel();
-    // Set instance field: private readonly AvatarDataModel _avatarDataModel
-    void _set__avatarDataModel(GlobalNamespace::AvatarDataModel* value);
-    // Get instance field: private System.Collections.Generic.Dictionary`2<EditAvatarViewController/AvatarEditPart,System.Action> _parameterChangedAnimationCallbacks
-    System::Collections::Generic::Dictionary_2<GlobalNamespace::EditAvatarViewController::AvatarEditPart, System::Action*>* _get__parameterChangedAnimationCallbacks();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<EditAvatarViewController/AvatarEditPart,System.Action> _parameterChangedAnimationCallbacks
-    void _set__parameterChangedAnimationCallbacks(System::Collections::Generic::Dictionary_2<GlobalNamespace::EditAvatarViewController::AvatarEditPart, System::Action*>* value);
-    // Get instance field: private EditAvatarFlowCoordinator/EditAvatarType _editAvatarType
-    GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType _get__editAvatarType();
-    // Set instance field: private EditAvatarFlowCoordinator/EditAvatarType _editAvatarType
-    void _set__editAvatarType(GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType value);
-    // Get instance field: private System.Action`2<EditAvatarFlowCoordinator,EditAvatarFlowCoordinator/EditAvatarType> didFinishEvent
-    System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>* _get_didFinishEvent();
-    // Set instance field: private System.Action`2<EditAvatarFlowCoordinator,EditAvatarFlowCoordinator/EditAvatarType> didFinishEvent
-    void _set_didFinishEvent(System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>* value);
+    // Get instance field reference: private AvatarVisualController _avatarVisualController
+    GlobalNamespace::AvatarVisualController*& dyn__avatarVisualController();
+    // Get instance field reference: private AvatarTweenController _avatarTweenController
+    GlobalNamespace::AvatarTweenController*& dyn__avatarTweenController();
+    // Get instance field reference: private UnityEngine.GameObject _avatarContainerGameObject
+    UnityEngine::GameObject*& dyn__avatarContainerGameObject();
+    // Get instance field reference: private readonly EditAvatarViewController _editAvatarViewController
+    GlobalNamespace::EditAvatarViewController*& dyn__editAvatarViewController();
+    // Get instance field reference: private readonly EditColorController _editColorViewController
+    GlobalNamespace::EditColorController*& dyn__editColorViewController();
+    // Get instance field reference: private readonly AvatarDataModel _avatarDataModel
+    GlobalNamespace::AvatarDataModel*& dyn__avatarDataModel();
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<EditAvatarViewController/AvatarEditPart,System.Action> _parameterChangedAnimationCallbacks
+    System::Collections::Generic::Dictionary_2<GlobalNamespace::EditAvatarViewController::AvatarEditPart, System::Action*>*& dyn__parameterChangedAnimationCallbacks();
+    // Get instance field reference: private EditAvatarFlowCoordinator/EditAvatarType _editAvatarType
+    GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType& dyn__editAvatarType();
+    // Get instance field reference: private System.Action`2<EditAvatarFlowCoordinator,EditAvatarFlowCoordinator/EditAvatarType> didFinishEvent
+    System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`2<EditAvatarFlowCoordinator,EditAvatarFlowCoordinator/EditAvatarType> value)
     // Offset: 0x104C03C
     void add_didFinishEvent(System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>* value);

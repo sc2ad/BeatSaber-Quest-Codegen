@@ -112,38 +112,22 @@ namespace System::Runtime::Remoting::Proxies {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     // Creating value type constructor for type: RealProxy
     RealProxy(System::Type* class_to_proxy_ = {}, System::Runtime::Remoting::Contexts::Context* targetContext_ = {}, System::MarshalByRefObject* server_ = {}, int targetDomainId_ = {}, ::Il2CppString* targetUri_ = {}, System::Runtime::Remoting::Identity* objectIdentity_ = {}, ::Il2CppObject* objTP_ = {}, ::Il2CppObject* stubData_ = {}) noexcept : class_to_proxy{class_to_proxy_}, targetContext{targetContext_}, server{server_}, targetDomainId{targetDomainId_}, targetUri{targetUri_}, objectIdentity{objectIdentity_}, objTP{objTP_}, stubData{stubData_} {}
-    // Get instance field: private System.Type class_to_proxy
-    System::Type* _get_class_to_proxy();
-    // Set instance field: private System.Type class_to_proxy
-    void _set_class_to_proxy(System::Type* value);
-    // Get instance field: System.Runtime.Remoting.Contexts.Context _targetContext
-    System::Runtime::Remoting::Contexts::Context* _get__targetContext();
-    // Set instance field: System.Runtime.Remoting.Contexts.Context _targetContext
-    void _set__targetContext(System::Runtime::Remoting::Contexts::Context* value);
-    // Get instance field: System.MarshalByRefObject _server
-    System::MarshalByRefObject* _get__server();
-    // Set instance field: System.MarshalByRefObject _server
-    void _set__server(System::MarshalByRefObject* value);
-    // Get instance field: private System.Int32 _targetDomainId
-    int _get__targetDomainId();
-    // Set instance field: private System.Int32 _targetDomainId
-    void _set__targetDomainId(int value);
-    // Get instance field: System.String _targetUri
-    ::Il2CppString* _get__targetUri();
-    // Set instance field: System.String _targetUri
-    void _set__targetUri(::Il2CppString* value);
-    // Get instance field: System.Runtime.Remoting.Identity _objectIdentity
-    System::Runtime::Remoting::Identity* _get__objectIdentity();
-    // Set instance field: System.Runtime.Remoting.Identity _objectIdentity
-    void _set__objectIdentity(System::Runtime::Remoting::Identity* value);
-    // Get instance field: private System.Object _objTP
-    ::Il2CppObject* _get__objTP();
-    // Set instance field: private System.Object _objTP
-    void _set__objTP(::Il2CppObject* value);
-    // Get instance field: private System.Object _stubData
-    ::Il2CppObject* _get__stubData();
-    // Set instance field: private System.Object _stubData
-    void _set__stubData(::Il2CppObject* value);
+    // Get instance field reference: private System.Type class_to_proxy
+    System::Type*& dyn_class_to_proxy();
+    // Get instance field reference: System.Runtime.Remoting.Contexts.Context _targetContext
+    System::Runtime::Remoting::Contexts::Context*& dyn__targetContext();
+    // Get instance field reference: System.MarshalByRefObject _server
+    System::MarshalByRefObject*& dyn__server();
+    // Get instance field reference: private System.Int32 _targetDomainId
+    int& dyn__targetDomainId();
+    // Get instance field reference: System.String _targetUri
+    ::Il2CppString*& dyn__targetUri();
+    // Get instance field reference: System.Runtime.Remoting.Identity _objectIdentity
+    System::Runtime::Remoting::Identity*& dyn__objectIdentity();
+    // Get instance field reference: private System.Object _objTP
+    ::Il2CppObject*& dyn__objTP();
+    // Get instance field reference: private System.Object _stubData
+    ::Il2CppObject*& dyn__stubData();
     // System.Runtime.Remoting.Identity get_ObjectIdentity()
     // Offset: 0x1A56468
     System::Runtime::Remoting::Identity* get_ObjectIdentity();

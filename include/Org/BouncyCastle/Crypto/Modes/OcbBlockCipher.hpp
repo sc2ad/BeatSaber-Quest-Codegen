@@ -174,94 +174,50 @@ namespace Org::BouncyCastle::Crypto::Modes {
     operator Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*>(this);
     }
-    // Get instance field: private readonly Org.BouncyCastle.Crypto.IBlockCipher hashCipher
-    Org::BouncyCastle::Crypto::IBlockCipher* _get_hashCipher();
-    // Set instance field: private readonly Org.BouncyCastle.Crypto.IBlockCipher hashCipher
-    void _set_hashCipher(Org::BouncyCastle::Crypto::IBlockCipher* value);
-    // Get instance field: private readonly Org.BouncyCastle.Crypto.IBlockCipher mainCipher
-    Org::BouncyCastle::Crypto::IBlockCipher* _get_mainCipher();
-    // Set instance field: private readonly Org.BouncyCastle.Crypto.IBlockCipher mainCipher
-    void _set_mainCipher(Org::BouncyCastle::Crypto::IBlockCipher* value);
-    // Get instance field: private System.Boolean forEncryption
-    bool _get_forEncryption();
-    // Set instance field: private System.Boolean forEncryption
-    void _set_forEncryption(bool value);
-    // Get instance field: private System.Int32 macSize
-    int _get_macSize();
-    // Set instance field: private System.Int32 macSize
-    void _set_macSize(int value);
-    // Get instance field: private System.Byte[] initialAssociatedText
-    ::Array<uint8_t>* _get_initialAssociatedText();
-    // Set instance field: private System.Byte[] initialAssociatedText
-    void _set_initialAssociatedText(::Array<uint8_t>* value);
-    // Get instance field: private System.Collections.IList L
-    System::Collections::IList* _get_L();
-    // Set instance field: private System.Collections.IList L
-    void _set_L(System::Collections::IList* value);
-    // Get instance field: private System.Byte[] L_Asterisk
-    ::Array<uint8_t>* _get_L_Asterisk();
-    // Set instance field: private System.Byte[] L_Asterisk
-    void _set_L_Asterisk(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] L_Dollar
-    ::Array<uint8_t>* _get_L_Dollar();
-    // Set instance field: private System.Byte[] L_Dollar
-    void _set_L_Dollar(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] KtopInput
-    ::Array<uint8_t>* _get_KtopInput();
-    // Set instance field: private System.Byte[] KtopInput
-    void _set_KtopInput(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] Stretch
-    ::Array<uint8_t>* _get_Stretch();
-    // Set instance field: private System.Byte[] Stretch
-    void _set_Stretch(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] OffsetMAIN_0
-    ::Array<uint8_t>* _get_OffsetMAIN_0();
-    // Set instance field: private System.Byte[] OffsetMAIN_0
-    void _set_OffsetMAIN_0(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] hashBlock
-    ::Array<uint8_t>* _get_hashBlock();
-    // Set instance field: private System.Byte[] hashBlock
-    void _set_hashBlock(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] mainBlock
-    ::Array<uint8_t>* _get_mainBlock();
-    // Set instance field: private System.Byte[] mainBlock
-    void _set_mainBlock(::Array<uint8_t>* value);
-    // Get instance field: private System.Int32 hashBlockPos
-    int _get_hashBlockPos();
-    // Set instance field: private System.Int32 hashBlockPos
-    void _set_hashBlockPos(int value);
-    // Get instance field: private System.Int32 mainBlockPos
-    int _get_mainBlockPos();
-    // Set instance field: private System.Int32 mainBlockPos
-    void _set_mainBlockPos(int value);
-    // Get instance field: private System.Int64 hashBlockCount
-    int64_t _get_hashBlockCount();
-    // Set instance field: private System.Int64 hashBlockCount
-    void _set_hashBlockCount(int64_t value);
-    // Get instance field: private System.Int64 mainBlockCount
-    int64_t _get_mainBlockCount();
-    // Set instance field: private System.Int64 mainBlockCount
-    void _set_mainBlockCount(int64_t value);
-    // Get instance field: private System.Byte[] OffsetHASH
-    ::Array<uint8_t>* _get_OffsetHASH();
-    // Set instance field: private System.Byte[] OffsetHASH
-    void _set_OffsetHASH(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] Sum
-    ::Array<uint8_t>* _get_Sum();
-    // Set instance field: private System.Byte[] Sum
-    void _set_Sum(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] OffsetMAIN
-    ::Array<uint8_t>* _get_OffsetMAIN();
-    // Set instance field: private System.Byte[] OffsetMAIN
-    void _set_OffsetMAIN(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] Checksum
-    ::Array<uint8_t>* _get_Checksum();
-    // Set instance field: private System.Byte[] Checksum
-    void _set_Checksum(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] macBlock
-    ::Array<uint8_t>* _get_macBlock();
-    // Set instance field: private System.Byte[] macBlock
-    void _set_macBlock(::Array<uint8_t>* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IBlockCipher hashCipher
+    Org::BouncyCastle::Crypto::IBlockCipher*& dyn_hashCipher();
+    // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IBlockCipher mainCipher
+    Org::BouncyCastle::Crypto::IBlockCipher*& dyn_mainCipher();
+    // Get instance field reference: private System.Boolean forEncryption
+    bool& dyn_forEncryption();
+    // Get instance field reference: private System.Int32 macSize
+    int& dyn_macSize();
+    // Get instance field reference: private System.Byte[] initialAssociatedText
+    ::Array<uint8_t>*& dyn_initialAssociatedText();
+    // Get instance field reference: private System.Collections.IList L
+    System::Collections::IList*& dyn_L();
+    // Get instance field reference: private System.Byte[] L_Asterisk
+    ::Array<uint8_t>*& dyn_L_Asterisk();
+    // Get instance field reference: private System.Byte[] L_Dollar
+    ::Array<uint8_t>*& dyn_L_Dollar();
+    // Get instance field reference: private System.Byte[] KtopInput
+    ::Array<uint8_t>*& dyn_KtopInput();
+    // Get instance field reference: private System.Byte[] Stretch
+    ::Array<uint8_t>*& dyn_Stretch();
+    // Get instance field reference: private System.Byte[] OffsetMAIN_0
+    ::Array<uint8_t>*& dyn_OffsetMAIN_0();
+    // Get instance field reference: private System.Byte[] hashBlock
+    ::Array<uint8_t>*& dyn_hashBlock();
+    // Get instance field reference: private System.Byte[] mainBlock
+    ::Array<uint8_t>*& dyn_mainBlock();
+    // Get instance field reference: private System.Int32 hashBlockPos
+    int& dyn_hashBlockPos();
+    // Get instance field reference: private System.Int32 mainBlockPos
+    int& dyn_mainBlockPos();
+    // Get instance field reference: private System.Int64 hashBlockCount
+    int64_t& dyn_hashBlockCount();
+    // Get instance field reference: private System.Int64 mainBlockCount
+    int64_t& dyn_mainBlockCount();
+    // Get instance field reference: private System.Byte[] OffsetHASH
+    ::Array<uint8_t>*& dyn_OffsetHASH();
+    // Get instance field reference: private System.Byte[] Sum
+    ::Array<uint8_t>*& dyn_Sum();
+    // Get instance field reference: private System.Byte[] OffsetMAIN
+    ::Array<uint8_t>*& dyn_OffsetMAIN();
+    // Get instance field reference: private System.Byte[] Checksum
+    ::Array<uint8_t>*& dyn_Checksum();
+    // Get instance field reference: private System.Byte[] macBlock
+    ::Array<uint8_t>*& dyn_macBlock();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher hashCipher, Org.BouncyCastle.Crypto.IBlockCipher mainCipher)
     // Offset: 0x191D0D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

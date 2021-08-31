@@ -371,178 +371,92 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._SetTrackingSpace SetTrackingSpace
-    Valve::VR::IVRCompositor::_SetTrackingSpace* _get_SetTrackingSpace();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._SetTrackingSpace SetTrackingSpace
-    void _set_SetTrackingSpace(Valve::VR::IVRCompositor::_SetTrackingSpace* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._GetTrackingSpace GetTrackingSpace
-    Valve::VR::IVRCompositor::_GetTrackingSpace* _get_GetTrackingSpace();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._GetTrackingSpace GetTrackingSpace
-    void _set_GetTrackingSpace(Valve::VR::IVRCompositor::_GetTrackingSpace* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._WaitGetPoses WaitGetPoses
-    Valve::VR::IVRCompositor::_WaitGetPoses* _get_WaitGetPoses();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._WaitGetPoses WaitGetPoses
-    void _set_WaitGetPoses(Valve::VR::IVRCompositor::_WaitGetPoses* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._GetLastPoses GetLastPoses
-    Valve::VR::IVRCompositor::_GetLastPoses* _get_GetLastPoses();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._GetLastPoses GetLastPoses
-    void _set_GetLastPoses(Valve::VR::IVRCompositor::_GetLastPoses* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._GetLastPoseForTrackedDeviceIndex GetLastPoseForTrackedDeviceIndex
-    Valve::VR::IVRCompositor::_GetLastPoseForTrackedDeviceIndex* _get_GetLastPoseForTrackedDeviceIndex();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._GetLastPoseForTrackedDeviceIndex GetLastPoseForTrackedDeviceIndex
-    void _set_GetLastPoseForTrackedDeviceIndex(Valve::VR::IVRCompositor::_GetLastPoseForTrackedDeviceIndex* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._Submit Submit
-    Valve::VR::IVRCompositor::_Submit* _get_Submit();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._Submit Submit
-    void _set_Submit(Valve::VR::IVRCompositor::_Submit* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._ClearLastSubmittedFrame ClearLastSubmittedFrame
-    Valve::VR::IVRCompositor::_ClearLastSubmittedFrame* _get_ClearLastSubmittedFrame();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._ClearLastSubmittedFrame ClearLastSubmittedFrame
-    void _set_ClearLastSubmittedFrame(Valve::VR::IVRCompositor::_ClearLastSubmittedFrame* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._PostPresentHandoff PostPresentHandoff
-    Valve::VR::IVRCompositor::_PostPresentHandoff* _get_PostPresentHandoff();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._PostPresentHandoff PostPresentHandoff
-    void _set_PostPresentHandoff(Valve::VR::IVRCompositor::_PostPresentHandoff* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._GetFrameTiming GetFrameTiming
-    Valve::VR::IVRCompositor::_GetFrameTiming* _get_GetFrameTiming();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._GetFrameTiming GetFrameTiming
-    void _set_GetFrameTiming(Valve::VR::IVRCompositor::_GetFrameTiming* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._GetFrameTimings GetFrameTimings
-    Valve::VR::IVRCompositor::_GetFrameTimings* _get_GetFrameTimings();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._GetFrameTimings GetFrameTimings
-    void _set_GetFrameTimings(Valve::VR::IVRCompositor::_GetFrameTimings* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._GetFrameTimeRemaining GetFrameTimeRemaining
-    Valve::VR::IVRCompositor::_GetFrameTimeRemaining* _get_GetFrameTimeRemaining();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._GetFrameTimeRemaining GetFrameTimeRemaining
-    void _set_GetFrameTimeRemaining(Valve::VR::IVRCompositor::_GetFrameTimeRemaining* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._GetCumulativeStats GetCumulativeStats
-    Valve::VR::IVRCompositor::_GetCumulativeStats* _get_GetCumulativeStats();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._GetCumulativeStats GetCumulativeStats
-    void _set_GetCumulativeStats(Valve::VR::IVRCompositor::_GetCumulativeStats* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._FadeToColor FadeToColor
-    Valve::VR::IVRCompositor::_FadeToColor* _get_FadeToColor();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._FadeToColor FadeToColor
-    void _set_FadeToColor(Valve::VR::IVRCompositor::_FadeToColor* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._GetCurrentFadeColor GetCurrentFadeColor
-    Valve::VR::IVRCompositor::_GetCurrentFadeColor* _get_GetCurrentFadeColor();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._GetCurrentFadeColor GetCurrentFadeColor
-    void _set_GetCurrentFadeColor(Valve::VR::IVRCompositor::_GetCurrentFadeColor* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._FadeGrid FadeGrid
-    Valve::VR::IVRCompositor::_FadeGrid* _get_FadeGrid();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._FadeGrid FadeGrid
-    void _set_FadeGrid(Valve::VR::IVRCompositor::_FadeGrid* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._GetCurrentGridAlpha GetCurrentGridAlpha
-    Valve::VR::IVRCompositor::_GetCurrentGridAlpha* _get_GetCurrentGridAlpha();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._GetCurrentGridAlpha GetCurrentGridAlpha
-    void _set_GetCurrentGridAlpha(Valve::VR::IVRCompositor::_GetCurrentGridAlpha* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._SetSkyboxOverride SetSkyboxOverride
-    Valve::VR::IVRCompositor::_SetSkyboxOverride* _get_SetSkyboxOverride();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._SetSkyboxOverride SetSkyboxOverride
-    void _set_SetSkyboxOverride(Valve::VR::IVRCompositor::_SetSkyboxOverride* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._ClearSkyboxOverride ClearSkyboxOverride
-    Valve::VR::IVRCompositor::_ClearSkyboxOverride* _get_ClearSkyboxOverride();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._ClearSkyboxOverride ClearSkyboxOverride
-    void _set_ClearSkyboxOverride(Valve::VR::IVRCompositor::_ClearSkyboxOverride* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._CompositorBringToFront CompositorBringToFront
-    Valve::VR::IVRCompositor::_CompositorBringToFront* _get_CompositorBringToFront();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._CompositorBringToFront CompositorBringToFront
-    void _set_CompositorBringToFront(Valve::VR::IVRCompositor::_CompositorBringToFront* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._CompositorGoToBack CompositorGoToBack
-    Valve::VR::IVRCompositor::_CompositorGoToBack* _get_CompositorGoToBack();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._CompositorGoToBack CompositorGoToBack
-    void _set_CompositorGoToBack(Valve::VR::IVRCompositor::_CompositorGoToBack* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._CompositorQuit CompositorQuit
-    Valve::VR::IVRCompositor::_CompositorQuit* _get_CompositorQuit();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._CompositorQuit CompositorQuit
-    void _set_CompositorQuit(Valve::VR::IVRCompositor::_CompositorQuit* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._IsFullscreen IsFullscreen
-    Valve::VR::IVRCompositor::_IsFullscreen* _get_IsFullscreen();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._IsFullscreen IsFullscreen
-    void _set_IsFullscreen(Valve::VR::IVRCompositor::_IsFullscreen* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._GetCurrentSceneFocusProcess GetCurrentSceneFocusProcess
-    Valve::VR::IVRCompositor::_GetCurrentSceneFocusProcess* _get_GetCurrentSceneFocusProcess();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._GetCurrentSceneFocusProcess GetCurrentSceneFocusProcess
-    void _set_GetCurrentSceneFocusProcess(Valve::VR::IVRCompositor::_GetCurrentSceneFocusProcess* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._GetLastFrameRenderer GetLastFrameRenderer
-    Valve::VR::IVRCompositor::_GetLastFrameRenderer* _get_GetLastFrameRenderer();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._GetLastFrameRenderer GetLastFrameRenderer
-    void _set_GetLastFrameRenderer(Valve::VR::IVRCompositor::_GetLastFrameRenderer* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._CanRenderScene CanRenderScene
-    Valve::VR::IVRCompositor::_CanRenderScene* _get_CanRenderScene();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._CanRenderScene CanRenderScene
-    void _set_CanRenderScene(Valve::VR::IVRCompositor::_CanRenderScene* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._ShowMirrorWindow ShowMirrorWindow
-    Valve::VR::IVRCompositor::_ShowMirrorWindow* _get_ShowMirrorWindow();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._ShowMirrorWindow ShowMirrorWindow
-    void _set_ShowMirrorWindow(Valve::VR::IVRCompositor::_ShowMirrorWindow* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._HideMirrorWindow HideMirrorWindow
-    Valve::VR::IVRCompositor::_HideMirrorWindow* _get_HideMirrorWindow();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._HideMirrorWindow HideMirrorWindow
-    void _set_HideMirrorWindow(Valve::VR::IVRCompositor::_HideMirrorWindow* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._IsMirrorWindowVisible IsMirrorWindowVisible
-    Valve::VR::IVRCompositor::_IsMirrorWindowVisible* _get_IsMirrorWindowVisible();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._IsMirrorWindowVisible IsMirrorWindowVisible
-    void _set_IsMirrorWindowVisible(Valve::VR::IVRCompositor::_IsMirrorWindowVisible* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._CompositorDumpImages CompositorDumpImages
-    Valve::VR::IVRCompositor::_CompositorDumpImages* _get_CompositorDumpImages();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._CompositorDumpImages CompositorDumpImages
-    void _set_CompositorDumpImages(Valve::VR::IVRCompositor::_CompositorDumpImages* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._ShouldAppRenderWithLowResources ShouldAppRenderWithLowResources
-    Valve::VR::IVRCompositor::_ShouldAppRenderWithLowResources* _get_ShouldAppRenderWithLowResources();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._ShouldAppRenderWithLowResources ShouldAppRenderWithLowResources
-    void _set_ShouldAppRenderWithLowResources(Valve::VR::IVRCompositor::_ShouldAppRenderWithLowResources* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._ForceInterleavedReprojectionOn ForceInterleavedReprojectionOn
-    Valve::VR::IVRCompositor::_ForceInterleavedReprojectionOn* _get_ForceInterleavedReprojectionOn();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._ForceInterleavedReprojectionOn ForceInterleavedReprojectionOn
-    void _set_ForceInterleavedReprojectionOn(Valve::VR::IVRCompositor::_ForceInterleavedReprojectionOn* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._ForceReconnectProcess ForceReconnectProcess
-    Valve::VR::IVRCompositor::_ForceReconnectProcess* _get_ForceReconnectProcess();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._ForceReconnectProcess ForceReconnectProcess
-    void _set_ForceReconnectProcess(Valve::VR::IVRCompositor::_ForceReconnectProcess* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._SuspendRendering SuspendRendering
-    Valve::VR::IVRCompositor::_SuspendRendering* _get_SuspendRendering();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._SuspendRendering SuspendRendering
-    void _set_SuspendRendering(Valve::VR::IVRCompositor::_SuspendRendering* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._GetMirrorTextureD3D11 GetMirrorTextureD3D11
-    Valve::VR::IVRCompositor::_GetMirrorTextureD3D11* _get_GetMirrorTextureD3D11();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._GetMirrorTextureD3D11 GetMirrorTextureD3D11
-    void _set_GetMirrorTextureD3D11(Valve::VR::IVRCompositor::_GetMirrorTextureD3D11* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._ReleaseMirrorTextureD3D11 ReleaseMirrorTextureD3D11
-    Valve::VR::IVRCompositor::_ReleaseMirrorTextureD3D11* _get_ReleaseMirrorTextureD3D11();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._ReleaseMirrorTextureD3D11 ReleaseMirrorTextureD3D11
-    void _set_ReleaseMirrorTextureD3D11(Valve::VR::IVRCompositor::_ReleaseMirrorTextureD3D11* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._GetMirrorTextureGL GetMirrorTextureGL
-    Valve::VR::IVRCompositor::_GetMirrorTextureGL* _get_GetMirrorTextureGL();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._GetMirrorTextureGL GetMirrorTextureGL
-    void _set_GetMirrorTextureGL(Valve::VR::IVRCompositor::_GetMirrorTextureGL* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._ReleaseSharedGLTexture ReleaseSharedGLTexture
-    Valve::VR::IVRCompositor::_ReleaseSharedGLTexture* _get_ReleaseSharedGLTexture();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._ReleaseSharedGLTexture ReleaseSharedGLTexture
-    void _set_ReleaseSharedGLTexture(Valve::VR::IVRCompositor::_ReleaseSharedGLTexture* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._LockGLSharedTextureForAccess LockGLSharedTextureForAccess
-    Valve::VR::IVRCompositor::_LockGLSharedTextureForAccess* _get_LockGLSharedTextureForAccess();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._LockGLSharedTextureForAccess LockGLSharedTextureForAccess
-    void _set_LockGLSharedTextureForAccess(Valve::VR::IVRCompositor::_LockGLSharedTextureForAccess* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._UnlockGLSharedTextureForAccess UnlockGLSharedTextureForAccess
-    Valve::VR::IVRCompositor::_UnlockGLSharedTextureForAccess* _get_UnlockGLSharedTextureForAccess();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._UnlockGLSharedTextureForAccess UnlockGLSharedTextureForAccess
-    void _set_UnlockGLSharedTextureForAccess(Valve::VR::IVRCompositor::_UnlockGLSharedTextureForAccess* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._GetVulkanInstanceExtensionsRequired GetVulkanInstanceExtensionsRequired
-    Valve::VR::IVRCompositor::_GetVulkanInstanceExtensionsRequired* _get_GetVulkanInstanceExtensionsRequired();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._GetVulkanInstanceExtensionsRequired GetVulkanInstanceExtensionsRequired
-    void _set_GetVulkanInstanceExtensionsRequired(Valve::VR::IVRCompositor::_GetVulkanInstanceExtensionsRequired* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._GetVulkanDeviceExtensionsRequired GetVulkanDeviceExtensionsRequired
-    Valve::VR::IVRCompositor::_GetVulkanDeviceExtensionsRequired* _get_GetVulkanDeviceExtensionsRequired();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._GetVulkanDeviceExtensionsRequired GetVulkanDeviceExtensionsRequired
-    void _set_GetVulkanDeviceExtensionsRequired(Valve::VR::IVRCompositor::_GetVulkanDeviceExtensionsRequired* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._SetExplicitTimingMode SetExplicitTimingMode
-    Valve::VR::IVRCompositor::_SetExplicitTimingMode* _get_SetExplicitTimingMode();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._SetExplicitTimingMode SetExplicitTimingMode
-    void _set_SetExplicitTimingMode(Valve::VR::IVRCompositor::_SetExplicitTimingMode* value);
-    // Get instance field: Valve.VR.IVRCompositor/Valve.VR._SubmitExplicitTimingData SubmitExplicitTimingData
-    Valve::VR::IVRCompositor::_SubmitExplicitTimingData* _get_SubmitExplicitTimingData();
-    // Set instance field: Valve.VR.IVRCompositor/Valve.VR._SubmitExplicitTimingData SubmitExplicitTimingData
-    void _set_SubmitExplicitTimingData(Valve::VR::IVRCompositor::_SubmitExplicitTimingData* value);
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._SetTrackingSpace SetTrackingSpace
+    Valve::VR::IVRCompositor::_SetTrackingSpace*& dyn_SetTrackingSpace();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._GetTrackingSpace GetTrackingSpace
+    Valve::VR::IVRCompositor::_GetTrackingSpace*& dyn_GetTrackingSpace();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._WaitGetPoses WaitGetPoses
+    Valve::VR::IVRCompositor::_WaitGetPoses*& dyn_WaitGetPoses();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._GetLastPoses GetLastPoses
+    Valve::VR::IVRCompositor::_GetLastPoses*& dyn_GetLastPoses();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._GetLastPoseForTrackedDeviceIndex GetLastPoseForTrackedDeviceIndex
+    Valve::VR::IVRCompositor::_GetLastPoseForTrackedDeviceIndex*& dyn_GetLastPoseForTrackedDeviceIndex();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._Submit Submit
+    Valve::VR::IVRCompositor::_Submit*& dyn_Submit();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._ClearLastSubmittedFrame ClearLastSubmittedFrame
+    Valve::VR::IVRCompositor::_ClearLastSubmittedFrame*& dyn_ClearLastSubmittedFrame();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._PostPresentHandoff PostPresentHandoff
+    Valve::VR::IVRCompositor::_PostPresentHandoff*& dyn_PostPresentHandoff();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._GetFrameTiming GetFrameTiming
+    Valve::VR::IVRCompositor::_GetFrameTiming*& dyn_GetFrameTiming();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._GetFrameTimings GetFrameTimings
+    Valve::VR::IVRCompositor::_GetFrameTimings*& dyn_GetFrameTimings();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._GetFrameTimeRemaining GetFrameTimeRemaining
+    Valve::VR::IVRCompositor::_GetFrameTimeRemaining*& dyn_GetFrameTimeRemaining();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._GetCumulativeStats GetCumulativeStats
+    Valve::VR::IVRCompositor::_GetCumulativeStats*& dyn_GetCumulativeStats();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._FadeToColor FadeToColor
+    Valve::VR::IVRCompositor::_FadeToColor*& dyn_FadeToColor();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._GetCurrentFadeColor GetCurrentFadeColor
+    Valve::VR::IVRCompositor::_GetCurrentFadeColor*& dyn_GetCurrentFadeColor();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._FadeGrid FadeGrid
+    Valve::VR::IVRCompositor::_FadeGrid*& dyn_FadeGrid();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._GetCurrentGridAlpha GetCurrentGridAlpha
+    Valve::VR::IVRCompositor::_GetCurrentGridAlpha*& dyn_GetCurrentGridAlpha();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._SetSkyboxOverride SetSkyboxOverride
+    Valve::VR::IVRCompositor::_SetSkyboxOverride*& dyn_SetSkyboxOverride();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._ClearSkyboxOverride ClearSkyboxOverride
+    Valve::VR::IVRCompositor::_ClearSkyboxOverride*& dyn_ClearSkyboxOverride();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._CompositorBringToFront CompositorBringToFront
+    Valve::VR::IVRCompositor::_CompositorBringToFront*& dyn_CompositorBringToFront();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._CompositorGoToBack CompositorGoToBack
+    Valve::VR::IVRCompositor::_CompositorGoToBack*& dyn_CompositorGoToBack();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._CompositorQuit CompositorQuit
+    Valve::VR::IVRCompositor::_CompositorQuit*& dyn_CompositorQuit();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._IsFullscreen IsFullscreen
+    Valve::VR::IVRCompositor::_IsFullscreen*& dyn_IsFullscreen();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._GetCurrentSceneFocusProcess GetCurrentSceneFocusProcess
+    Valve::VR::IVRCompositor::_GetCurrentSceneFocusProcess*& dyn_GetCurrentSceneFocusProcess();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._GetLastFrameRenderer GetLastFrameRenderer
+    Valve::VR::IVRCompositor::_GetLastFrameRenderer*& dyn_GetLastFrameRenderer();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._CanRenderScene CanRenderScene
+    Valve::VR::IVRCompositor::_CanRenderScene*& dyn_CanRenderScene();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._ShowMirrorWindow ShowMirrorWindow
+    Valve::VR::IVRCompositor::_ShowMirrorWindow*& dyn_ShowMirrorWindow();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._HideMirrorWindow HideMirrorWindow
+    Valve::VR::IVRCompositor::_HideMirrorWindow*& dyn_HideMirrorWindow();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._IsMirrorWindowVisible IsMirrorWindowVisible
+    Valve::VR::IVRCompositor::_IsMirrorWindowVisible*& dyn_IsMirrorWindowVisible();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._CompositorDumpImages CompositorDumpImages
+    Valve::VR::IVRCompositor::_CompositorDumpImages*& dyn_CompositorDumpImages();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._ShouldAppRenderWithLowResources ShouldAppRenderWithLowResources
+    Valve::VR::IVRCompositor::_ShouldAppRenderWithLowResources*& dyn_ShouldAppRenderWithLowResources();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._ForceInterleavedReprojectionOn ForceInterleavedReprojectionOn
+    Valve::VR::IVRCompositor::_ForceInterleavedReprojectionOn*& dyn_ForceInterleavedReprojectionOn();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._ForceReconnectProcess ForceReconnectProcess
+    Valve::VR::IVRCompositor::_ForceReconnectProcess*& dyn_ForceReconnectProcess();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._SuspendRendering SuspendRendering
+    Valve::VR::IVRCompositor::_SuspendRendering*& dyn_SuspendRendering();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._GetMirrorTextureD3D11 GetMirrorTextureD3D11
+    Valve::VR::IVRCompositor::_GetMirrorTextureD3D11*& dyn_GetMirrorTextureD3D11();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._ReleaseMirrorTextureD3D11 ReleaseMirrorTextureD3D11
+    Valve::VR::IVRCompositor::_ReleaseMirrorTextureD3D11*& dyn_ReleaseMirrorTextureD3D11();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._GetMirrorTextureGL GetMirrorTextureGL
+    Valve::VR::IVRCompositor::_GetMirrorTextureGL*& dyn_GetMirrorTextureGL();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._ReleaseSharedGLTexture ReleaseSharedGLTexture
+    Valve::VR::IVRCompositor::_ReleaseSharedGLTexture*& dyn_ReleaseSharedGLTexture();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._LockGLSharedTextureForAccess LockGLSharedTextureForAccess
+    Valve::VR::IVRCompositor::_LockGLSharedTextureForAccess*& dyn_LockGLSharedTextureForAccess();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._UnlockGLSharedTextureForAccess UnlockGLSharedTextureForAccess
+    Valve::VR::IVRCompositor::_UnlockGLSharedTextureForAccess*& dyn_UnlockGLSharedTextureForAccess();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._GetVulkanInstanceExtensionsRequired GetVulkanInstanceExtensionsRequired
+    Valve::VR::IVRCompositor::_GetVulkanInstanceExtensionsRequired*& dyn_GetVulkanInstanceExtensionsRequired();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._GetVulkanDeviceExtensionsRequired GetVulkanDeviceExtensionsRequired
+    Valve::VR::IVRCompositor::_GetVulkanDeviceExtensionsRequired*& dyn_GetVulkanDeviceExtensionsRequired();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._SetExplicitTimingMode SetExplicitTimingMode
+    Valve::VR::IVRCompositor::_SetExplicitTimingMode*& dyn_SetExplicitTimingMode();
+    // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._SubmitExplicitTimingData SubmitExplicitTimingData
+    Valve::VR::IVRCompositor::_SubmitExplicitTimingData*& dyn_SubmitExplicitTimingData();
   }; // Valve.VR.IVRCompositor
   #pragma pack(pop)
   static check_size<sizeof(IVRCompositor), 336 + sizeof(Valve::VR::IVRCompositor::_SubmitExplicitTimingData*)> __Valve_VR_IVRCompositorSizeCheck;

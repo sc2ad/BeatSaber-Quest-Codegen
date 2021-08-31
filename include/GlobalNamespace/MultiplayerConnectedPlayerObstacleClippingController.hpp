@@ -51,10 +51,8 @@ namespace GlobalNamespace {
     static int _get__clippingPlaneNormalID();
     // Set static field: static private readonly System.Int32 _clippingPlaneNormalID
     static void _set__clippingPlaneNormalID(int value);
-    // Get instance field: private MaterialPropertyBlockController[] _materialPropertyBlockControllers
-    ::Array<GlobalNamespace::MaterialPropertyBlockController*>* _get__materialPropertyBlockControllers();
-    // Set instance field: private MaterialPropertyBlockController[] _materialPropertyBlockControllers
-    void _set__materialPropertyBlockControllers(::Array<GlobalNamespace::MaterialPropertyBlockController*>* value);
+    // Get instance field reference: private MaterialPropertyBlockController[] _materialPropertyBlockControllers
+    ::Array<GlobalNamespace::MaterialPropertyBlockController*>*& dyn__materialPropertyBlockControllers();
     // public System.Void SetClippingParams(UnityEngine.Vector3 position, UnityEngine.Vector3 normal)
     // Offset: 0x11AA020
     void SetClippingParams(UnityEngine::Vector3 position, UnityEngine::Vector3 normal);

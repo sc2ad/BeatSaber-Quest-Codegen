@@ -94,34 +94,20 @@ namespace GlobalNamespace {
     AudioPitchGainEffect(UnityEngine::AudioSource* audioSource_ = {}, float duration_ = {}, UnityEngine::AnimationCurve* pitchCurve_ = {}, UnityEngine::AnimationCurve* gainCurve_ = {}, UnityEngine::Coroutine* currentCoroutine_ = {}, float startPitch_ = {}, float startVolume_ = {}) noexcept : audioSource{audioSource_}, duration{duration_}, pitchCurve{pitchCurve_}, gainCurve{gainCurve_}, currentCoroutine{currentCoroutine_}, startPitch{startPitch_}, startVolume{startVolume_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.AudioSource _audioSource
-    UnityEngine::AudioSource* _get__audioSource();
-    // Set instance field: private UnityEngine.AudioSource _audioSource
-    void _set__audioSource(UnityEngine::AudioSource* value);
-    // Get instance field: private System.Single _duration
-    float _get__duration();
-    // Set instance field: private System.Single _duration
-    void _set__duration(float value);
-    // Get instance field: private UnityEngine.AnimationCurve _pitchCurve
-    UnityEngine::AnimationCurve* _get__pitchCurve();
-    // Set instance field: private UnityEngine.AnimationCurve _pitchCurve
-    void _set__pitchCurve(UnityEngine::AnimationCurve* value);
-    // Get instance field: private UnityEngine.AnimationCurve _gainCurve
-    UnityEngine::AnimationCurve* _get__gainCurve();
-    // Set instance field: private UnityEngine.AnimationCurve _gainCurve
-    void _set__gainCurve(UnityEngine::AnimationCurve* value);
-    // Get instance field: private UnityEngine.Coroutine _currentCoroutine
-    UnityEngine::Coroutine* _get__currentCoroutine();
-    // Set instance field: private UnityEngine.Coroutine _currentCoroutine
-    void _set__currentCoroutine(UnityEngine::Coroutine* value);
-    // Get instance field: private System.Single _startPitch
-    float _get__startPitch();
-    // Set instance field: private System.Single _startPitch
-    void _set__startPitch(float value);
-    // Get instance field: private System.Single _startVolume
-    float _get__startVolume();
-    // Set instance field: private System.Single _startVolume
-    void _set__startVolume(float value);
+    // Get instance field reference: private UnityEngine.AudioSource _audioSource
+    UnityEngine::AudioSource*& dyn__audioSource();
+    // Get instance field reference: private System.Single _duration
+    float& dyn__duration();
+    // Get instance field reference: private UnityEngine.AnimationCurve _pitchCurve
+    UnityEngine::AnimationCurve*& dyn__pitchCurve();
+    // Get instance field reference: private UnityEngine.AnimationCurve _gainCurve
+    UnityEngine::AnimationCurve*& dyn__gainCurve();
+    // Get instance field reference: private UnityEngine.Coroutine _currentCoroutine
+    UnityEngine::Coroutine*& dyn__currentCoroutine();
+    // Get instance field reference: private System.Single _startPitch
+    float& dyn__startPitch();
+    // Get instance field reference: private System.Single _startVolume
+    float& dyn__startVolume();
     // protected System.Void Start()
     // Offset: 0x117E1A0
     void Start();

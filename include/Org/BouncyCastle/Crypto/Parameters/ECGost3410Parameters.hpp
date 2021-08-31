@@ -49,18 +49,12 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     ECGost3410Parameters(Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet_ = {}, Org::BouncyCastle::Asn1::DerObjectIdentifier* digestParamSet_ = {}, Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionParamSet_ = {}) noexcept : publicKeyParamSet{publicKeyParamSet_}, digestParamSet{digestParamSet_}, encryptionParamSet{encryptionParamSet_} {}
     // Deleting conversion operator: operator Org::BouncyCastle::Asn1::DerObjectIdentifier*
     constexpr operator Org::BouncyCastle::Asn1::DerObjectIdentifier*() const noexcept = delete;
-    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier _publicKeyParamSet
-    Org::BouncyCastle::Asn1::DerObjectIdentifier* _get__publicKeyParamSet();
-    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier _publicKeyParamSet
-    void _set__publicKeyParamSet(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier _digestParamSet
-    Org::BouncyCastle::Asn1::DerObjectIdentifier* _get__digestParamSet();
-    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier _digestParamSet
-    void _set__digestParamSet(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier _encryptionParamSet
-    Org::BouncyCastle::Asn1::DerObjectIdentifier* _get__encryptionParamSet();
-    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier _encryptionParamSet
-    void _set__encryptionParamSet(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier _publicKeyParamSet
+    Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn__publicKeyParamSet();
+    // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier _digestParamSet
+    Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn__digestParamSet();
+    // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier _encryptionParamSet
+    Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn__encryptionParamSet();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Parameters.ECNamedDomainParameters dp, Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet, Org.BouncyCastle.Asn1.DerObjectIdentifier digestParamSet, Org.BouncyCastle.Asn1.DerObjectIdentifier encryptionParamSet)
     // Offset: 0x127348C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

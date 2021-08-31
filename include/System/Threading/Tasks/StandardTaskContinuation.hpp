@@ -53,18 +53,12 @@ namespace System::Threading::Tasks {
     static_assert(sizeof(System::Threading::Tasks::TaskScheduler*) == 0x8);
     // Creating value type constructor for type: StandardTaskContinuation
     StandardTaskContinuation(System::Threading::Tasks::Task* m_task_ = {}, System::Threading::Tasks::TaskContinuationOptions m_options_ = {}, System::Threading::Tasks::TaskScheduler* m_taskScheduler_ = {}) noexcept : m_task{m_task_}, m_options{m_options_}, m_taskScheduler{m_taskScheduler_} {}
-    // Get instance field: readonly System.Threading.Tasks.Task m_task
-    System::Threading::Tasks::Task* _get_m_task();
-    // Set instance field: readonly System.Threading.Tasks.Task m_task
-    void _set_m_task(System::Threading::Tasks::Task* value);
-    // Get instance field: readonly System.Threading.Tasks.TaskContinuationOptions m_options
-    System::Threading::Tasks::TaskContinuationOptions _get_m_options();
-    // Set instance field: readonly System.Threading.Tasks.TaskContinuationOptions m_options
-    void _set_m_options(System::Threading::Tasks::TaskContinuationOptions value);
-    // Get instance field: private readonly System.Threading.Tasks.TaskScheduler m_taskScheduler
-    System::Threading::Tasks::TaskScheduler* _get_m_taskScheduler();
-    // Set instance field: private readonly System.Threading.Tasks.TaskScheduler m_taskScheduler
-    void _set_m_taskScheduler(System::Threading::Tasks::TaskScheduler* value);
+    // Get instance field reference: readonly System.Threading.Tasks.Task m_task
+    System::Threading::Tasks::Task*& dyn_m_task();
+    // Get instance field reference: readonly System.Threading.Tasks.TaskContinuationOptions m_options
+    System::Threading::Tasks::TaskContinuationOptions& dyn_m_options();
+    // Get instance field reference: private readonly System.Threading.Tasks.TaskScheduler m_taskScheduler
+    System::Threading::Tasks::TaskScheduler*& dyn_m_taskScheduler();
     // System.Void .ctor(System.Threading.Tasks.Task task, System.Threading.Tasks.TaskContinuationOptions options, System.Threading.Tasks.TaskScheduler scheduler)
     // Offset: 0x18FCDC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

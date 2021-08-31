@@ -69,30 +69,18 @@ namespace System::Security::Cryptography {
     static ::Array<uint8_t>* _get_pitable();
     // Set static field: static private readonly System.Byte[] pitable
     static void _set_pitable(::Array<uint8_t>* value);
-    // Get instance field: private System.UInt16 R0
-    uint16_t _get_R0();
-    // Set instance field: private System.UInt16 R0
-    void _set_R0(uint16_t value);
-    // Get instance field: private System.UInt16 R1
-    uint16_t _get_R1();
-    // Set instance field: private System.UInt16 R1
-    void _set_R1(uint16_t value);
-    // Get instance field: private System.UInt16 R2
-    uint16_t _get_R2();
-    // Set instance field: private System.UInt16 R2
-    void _set_R2(uint16_t value);
-    // Get instance field: private System.UInt16 R3
-    uint16_t _get_R3();
-    // Set instance field: private System.UInt16 R3
-    void _set_R3(uint16_t value);
-    // Get instance field: private System.UInt16[] K
-    ::Array<uint16_t>* _get_K();
-    // Set instance field: private System.UInt16[] K
-    void _set_K(::Array<uint16_t>* value);
-    // Get instance field: private System.Int32 j
-    int _get_j();
-    // Set instance field: private System.Int32 j
-    void _set_j(int value);
+    // Get instance field reference: private System.UInt16 R0
+    uint16_t& dyn_R0();
+    // Get instance field reference: private System.UInt16 R1
+    uint16_t& dyn_R1();
+    // Get instance field reference: private System.UInt16 R2
+    uint16_t& dyn_R2();
+    // Get instance field reference: private System.UInt16 R3
+    uint16_t& dyn_R3();
+    // Get instance field reference: private System.UInt16[] K
+    ::Array<uint16_t>*& dyn_K();
+    // Get instance field reference: private System.Int32 j
+    int& dyn_j();
     // public System.Void .ctor(System.Security.Cryptography.RC2 rc2Algo, System.Boolean encryption, System.Byte[] key, System.Byte[] iv)
     // Offset: 0x199241C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

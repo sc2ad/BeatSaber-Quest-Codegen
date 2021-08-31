@@ -92,26 +92,16 @@ namespace Zenject {
     operator Zenject::IProvider() noexcept {
       return *reinterpret_cast<Zenject::IProvider*>(this);
     }
-    // Get instance field: private readonly System.Type _componentType
-    System::Type* _get__componentType();
-    // Set instance field: private readonly System.Type _componentType
-    void _set__componentType(System::Type* value);
-    // Get instance field: private readonly Zenject.DiContainer _container
-    Zenject::DiContainer* _get__container();
-    // Set instance field: private readonly Zenject.DiContainer _container
-    void _set__container(Zenject::DiContainer* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> _extraArguments
-    System::Collections::Generic::List_1<Zenject::TypeValuePair>* _get__extraArguments();
-    // Set instance field: private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> _extraArguments
-    void _set__extraArguments(System::Collections::Generic::List_1<Zenject::TypeValuePair>* value);
-    // Get instance field: private readonly System.Object _concreteIdentifier
-    ::Il2CppObject* _get__concreteIdentifier();
-    // Set instance field: private readonly System.Object _concreteIdentifier
-    void _set__concreteIdentifier(::Il2CppObject* value);
-    // Get instance field: private readonly System.Action`2<Zenject.InjectContext,System.Object> _instantiateCallback
-    System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* _get__instantiateCallback();
-    // Set instance field: private readonly System.Action`2<Zenject.InjectContext,System.Object> _instantiateCallback
-    void _set__instantiateCallback(System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* value);
+    // Get instance field reference: private readonly System.Type _componentType
+    System::Type*& dyn__componentType();
+    // Get instance field reference: private readonly Zenject.DiContainer _container
+    Zenject::DiContainer*& dyn__container();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> _extraArguments
+    System::Collections::Generic::List_1<Zenject::TypeValuePair>*& dyn__extraArguments();
+    // Get instance field reference: private readonly System.Object _concreteIdentifier
+    ::Il2CppObject*& dyn__concreteIdentifier();
+    // Get instance field reference: private readonly System.Action`2<Zenject.InjectContext,System.Object> _instantiateCallback
+    System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*& dyn__instantiateCallback();
     // public System.Boolean get_IsCached()
     // Offset: 0x13DA2C0
     bool get_IsCached();

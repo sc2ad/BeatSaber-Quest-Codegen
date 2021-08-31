@@ -44,14 +44,10 @@ namespace System::Runtime::Remoting::Messaging {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     // Creating value type constructor for type: IllogicalCallContext
     IllogicalCallContext(System::Collections::Hashtable* m_Datastore_ = {}, ::Il2CppObject* m_HostContext_ = {}) noexcept : m_Datastore{m_Datastore_}, m_HostContext{m_HostContext_} {}
-    // Get instance field: private System.Collections.Hashtable m_Datastore
-    System::Collections::Hashtable* _get_m_Datastore();
-    // Set instance field: private System.Collections.Hashtable m_Datastore
-    void _set_m_Datastore(System::Collections::Hashtable* value);
-    // Get instance field: private System.Object m_HostContext
-    ::Il2CppObject* _get_m_HostContext();
-    // Set instance field: private System.Object m_HostContext
-    void _set_m_HostContext(::Il2CppObject* value);
+    // Get instance field reference: private System.Collections.Hashtable m_Datastore
+    System::Collections::Hashtable*& dyn_m_Datastore();
+    // Get instance field reference: private System.Object m_HostContext
+    ::Il2CppObject*& dyn_m_HostContext();
     // private System.Collections.Hashtable get_Datastore()
     // Offset: 0x1A4C118
     System::Collections::Hashtable* get_Datastore();

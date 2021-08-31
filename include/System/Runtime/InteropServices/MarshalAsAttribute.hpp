@@ -94,46 +94,26 @@ namespace System::Runtime::InteropServices {
     static_assert(sizeof(int16_t) == 0x2);
     // Creating value type constructor for type: MarshalAsAttribute
     MarshalAsAttribute(::Il2CppString* MarshalCookie_ = {}, ::Il2CppString* MarshalType_ = {}, System::Type* MarshalTypeRef_ = {}, System::Type* SafeArrayUserDefinedSubType_ = {}, System::Runtime::InteropServices::UnmanagedType utype_ = {}, System::Runtime::InteropServices::UnmanagedType ArraySubType_ = {}, System::Runtime::InteropServices::VarEnum SafeArraySubType_ = {}, int SizeConst_ = {}, int IidParameterIndex_ = {}, int16_t SizeParamIndex_ = {}) noexcept : MarshalCookie{MarshalCookie_}, MarshalType{MarshalType_}, MarshalTypeRef{MarshalTypeRef_}, SafeArrayUserDefinedSubType{SafeArrayUserDefinedSubType_}, utype{utype_}, ArraySubType{ArraySubType_}, SafeArraySubType{SafeArraySubType_}, SizeConst{SizeConst_}, IidParameterIndex{IidParameterIndex_}, SizeParamIndex{SizeParamIndex_} {}
-    // Get instance field: public System.String MarshalCookie
-    ::Il2CppString* _get_MarshalCookie();
-    // Set instance field: public System.String MarshalCookie
-    void _set_MarshalCookie(::Il2CppString* value);
-    // Get instance field: public System.String MarshalType
-    ::Il2CppString* _get_MarshalType();
-    // Set instance field: public System.String MarshalType
-    void _set_MarshalType(::Il2CppString* value);
-    // Get instance field: public System.Type MarshalTypeRef
-    System::Type* _get_MarshalTypeRef();
-    // Set instance field: public System.Type MarshalTypeRef
-    void _set_MarshalTypeRef(System::Type* value);
-    // Get instance field: public System.Type SafeArrayUserDefinedSubType
-    System::Type* _get_SafeArrayUserDefinedSubType();
-    // Set instance field: public System.Type SafeArrayUserDefinedSubType
-    void _set_SafeArrayUserDefinedSubType(System::Type* value);
-    // Get instance field: private System.Runtime.InteropServices.UnmanagedType utype
-    System::Runtime::InteropServices::UnmanagedType _get_utype();
-    // Set instance field: private System.Runtime.InteropServices.UnmanagedType utype
-    void _set_utype(System::Runtime::InteropServices::UnmanagedType value);
-    // Get instance field: public System.Runtime.InteropServices.UnmanagedType ArraySubType
-    System::Runtime::InteropServices::UnmanagedType _get_ArraySubType();
-    // Set instance field: public System.Runtime.InteropServices.UnmanagedType ArraySubType
-    void _set_ArraySubType(System::Runtime::InteropServices::UnmanagedType value);
-    // Get instance field: public System.Runtime.InteropServices.VarEnum SafeArraySubType
-    System::Runtime::InteropServices::VarEnum _get_SafeArraySubType();
-    // Set instance field: public System.Runtime.InteropServices.VarEnum SafeArraySubType
-    void _set_SafeArraySubType(System::Runtime::InteropServices::VarEnum value);
-    // Get instance field: public System.Int32 SizeConst
-    int _get_SizeConst();
-    // Set instance field: public System.Int32 SizeConst
-    void _set_SizeConst(int value);
-    // Get instance field: public System.Int32 IidParameterIndex
-    int _get_IidParameterIndex();
-    // Set instance field: public System.Int32 IidParameterIndex
-    void _set_IidParameterIndex(int value);
-    // Get instance field: public System.Int16 SizeParamIndex
-    int16_t _get_SizeParamIndex();
-    // Set instance field: public System.Int16 SizeParamIndex
-    void _set_SizeParamIndex(int16_t value);
+    // Get instance field reference: public System.String MarshalCookie
+    ::Il2CppString*& dyn_MarshalCookie();
+    // Get instance field reference: public System.String MarshalType
+    ::Il2CppString*& dyn_MarshalType();
+    // Get instance field reference: public System.Type MarshalTypeRef
+    System::Type*& dyn_MarshalTypeRef();
+    // Get instance field reference: public System.Type SafeArrayUserDefinedSubType
+    System::Type*& dyn_SafeArrayUserDefinedSubType();
+    // Get instance field reference: private System.Runtime.InteropServices.UnmanagedType utype
+    System::Runtime::InteropServices::UnmanagedType& dyn_utype();
+    // Get instance field reference: public System.Runtime.InteropServices.UnmanagedType ArraySubType
+    System::Runtime::InteropServices::UnmanagedType& dyn_ArraySubType();
+    // Get instance field reference: public System.Runtime.InteropServices.VarEnum SafeArraySubType
+    System::Runtime::InteropServices::VarEnum& dyn_SafeArraySubType();
+    // Get instance field reference: public System.Int32 SizeConst
+    int& dyn_SizeConst();
+    // Get instance field reference: public System.Int32 IidParameterIndex
+    int& dyn_IidParameterIndex();
+    // Get instance field reference: public System.Int16 SizeParamIndex
+    int16_t& dyn_SizeParamIndex();
     // System.Runtime.InteropServices.MarshalAsAttribute Copy()
     // Offset: 0x148967C
     System::Runtime::InteropServices::MarshalAsAttribute* Copy();

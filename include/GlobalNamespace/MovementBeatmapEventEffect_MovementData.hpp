@@ -34,10 +34,8 @@ namespace GlobalNamespace {
     constexpr operator UnityEngine::Vector3() const noexcept {
       return localPositionOffset;
     }
-    // Get instance field: private UnityEngine.Vector3 _localPositionOffset
-    UnityEngine::Vector3 _get__localPositionOffset();
-    // Set instance field: private UnityEngine.Vector3 _localPositionOffset
-    void _set__localPositionOffset(UnityEngine::Vector3 value);
+    // Get instance field reference: private UnityEngine.Vector3 _localPositionOffset
+    UnityEngine::Vector3& dyn__localPositionOffset();
     // public UnityEngine.Vector3 get_localPositionOffset()
     // Offset: 0x11E0F34
     UnityEngine::Vector3 get_localPositionOffset();

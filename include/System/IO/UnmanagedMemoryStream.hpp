@@ -105,42 +105,24 @@ namespace System::IO {
     static_assert(sizeof(System::Threading::Tasks::Task_1<int>*) == 0x8);
     // Creating value type constructor for type: UnmanagedMemoryStream
     UnmanagedMemoryStream(System::Runtime::InteropServices::SafeBuffer* buffer_ = {}, uint8_t* mem_ = {}, int64_t length_ = {}, int64_t capacity_ = {}, int64_t position_ = {}, int64_t offset_ = {}, System::IO::FileAccess access_ = {}, bool isOpen_ = {}, System::Threading::Tasks::Task_1<int>* lastReadTask_ = {}) noexcept : buffer{buffer_}, mem{mem_}, length{length_}, capacity{capacity_}, position{position_}, offset{offset_}, access{access_}, isOpen{isOpen_}, lastReadTask{lastReadTask_} {}
-    // Get instance field: private System.Runtime.InteropServices.SafeBuffer _buffer
-    System::Runtime::InteropServices::SafeBuffer* _get__buffer();
-    // Set instance field: private System.Runtime.InteropServices.SafeBuffer _buffer
-    void _set__buffer(System::Runtime::InteropServices::SafeBuffer* value);
-    // Get instance field: private System.Byte* _mem
-    uint8_t* _get__mem();
-    // Set instance field: private System.Byte* _mem
-    void _set__mem(uint8_t* value);
-    // Get instance field: private System.Int64 _length
-    int64_t _get__length();
-    // Set instance field: private System.Int64 _length
-    void _set__length(int64_t value);
-    // Get instance field: private System.Int64 _capacity
-    int64_t _get__capacity();
-    // Set instance field: private System.Int64 _capacity
-    void _set__capacity(int64_t value);
-    // Get instance field: private System.Int64 _position
-    int64_t _get__position();
-    // Set instance field: private System.Int64 _position
-    void _set__position(int64_t value);
-    // Get instance field: private System.Int64 _offset
-    int64_t _get__offset();
-    // Set instance field: private System.Int64 _offset
-    void _set__offset(int64_t value);
-    // Get instance field: private System.IO.FileAccess _access
-    System::IO::FileAccess _get__access();
-    // Set instance field: private System.IO.FileAccess _access
-    void _set__access(System::IO::FileAccess value);
-    // Get instance field: System.Boolean _isOpen
-    bool _get__isOpen();
-    // Set instance field: System.Boolean _isOpen
-    void _set__isOpen(bool value);
-    // Get instance field: private System.Threading.Tasks.Task`1<System.Int32> _lastReadTask
-    System::Threading::Tasks::Task_1<int>* _get__lastReadTask();
-    // Set instance field: private System.Threading.Tasks.Task`1<System.Int32> _lastReadTask
-    void _set__lastReadTask(System::Threading::Tasks::Task_1<int>* value);
+    // Get instance field reference: private System.Runtime.InteropServices.SafeBuffer _buffer
+    System::Runtime::InteropServices::SafeBuffer*& dyn__buffer();
+    // Get instance field reference: private System.Byte* _mem
+    uint8_t*& dyn__mem();
+    // Get instance field reference: private System.Int64 _length
+    int64_t& dyn__length();
+    // Get instance field reference: private System.Int64 _capacity
+    int64_t& dyn__capacity();
+    // Get instance field reference: private System.Int64 _position
+    int64_t& dyn__position();
+    // Get instance field reference: private System.Int64 _offset
+    int64_t& dyn__offset();
+    // Get instance field reference: private System.IO.FileAccess _access
+    System::IO::FileAccess& dyn__access();
+    // Get instance field reference: System.Boolean _isOpen
+    bool& dyn__isOpen();
+    // Get instance field reference: private System.Threading.Tasks.Task`1<System.Int32> _lastReadTask
+    System::Threading::Tasks::Task_1<int>*& dyn__lastReadTask();
     // public System.Byte* get_PositionPointer()
     // Offset: 0x1830060
     uint8_t* get_PositionPointer();

@@ -34,14 +34,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: PlayerCountToDistance
     PlayerCountToDistance(int playerCount_ = {}, float distance_ = {}) noexcept : playerCount{playerCount_}, distance{distance_} {}
-    // Get instance field: private System.Int32 _playerCount
-    int _get__playerCount();
-    // Set instance field: private System.Int32 _playerCount
-    void _set__playerCount(int value);
-    // Get instance field: private System.Single _distance
-    float _get__distance();
-    // Set instance field: private System.Single _distance
-    void _set__distance(float value);
+    // Get instance field reference: private System.Int32 _playerCount
+    int& dyn__playerCount();
+    // Get instance field reference: private System.Single _distance
+    float& dyn__distance();
     // public System.Int32 get_playerCount()
     // Offset: 0x10CB3A8
     int get_playerCount();

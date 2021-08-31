@@ -52,18 +52,12 @@ namespace System::Threading::Tasks {
     static_assert(sizeof(System::Threading::Timer*) == 0x8);
     // Creating value type constructor for type: DelayPromise
     DelayPromise(System::Threading::CancellationToken Token_ = {}, System::Threading::CancellationTokenRegistration Registration_ = {}, System::Threading::Timer* Timer_ = {}) noexcept : Token{Token_}, Registration{Registration_}, Timer{Timer_} {}
-    // Get instance field: readonly System.Threading.CancellationToken Token
-    System::Threading::CancellationToken _get_Token();
-    // Set instance field: readonly System.Threading.CancellationToken Token
-    void _set_Token(System::Threading::CancellationToken value);
-    // Get instance field: System.Threading.CancellationTokenRegistration Registration
-    System::Threading::CancellationTokenRegistration _get_Registration();
-    // Set instance field: System.Threading.CancellationTokenRegistration Registration
-    void _set_Registration(System::Threading::CancellationTokenRegistration value);
-    // Get instance field: System.Threading.Timer Timer
-    System::Threading::Timer* _get_Timer();
-    // Set instance field: System.Threading.Timer Timer
-    void _set_Timer(System::Threading::Timer* value);
+    // Get instance field reference: readonly System.Threading.CancellationToken Token
+    System::Threading::CancellationToken& dyn_Token();
+    // Get instance field reference: System.Threading.CancellationTokenRegistration Registration
+    System::Threading::CancellationTokenRegistration& dyn_Registration();
+    // Get instance field reference: System.Threading.Timer Timer
+    System::Threading::Timer*& dyn_Timer();
     // System.Void .ctor(System.Threading.CancellationToken token)
     // Offset: 0x1873700
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

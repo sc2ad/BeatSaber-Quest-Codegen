@@ -34,14 +34,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: PropertyValuePairBase
     PropertyValuePairBase(::Il2CppString* propertyName_ = {}, int propertyId_ = {}) noexcept : propertyName{propertyName_}, propertyId{propertyId_} {}
-    // Get instance field: private System.String _propertyName
-    ::Il2CppString* _get__propertyName();
-    // Set instance field: private System.String _propertyName
-    void _set__propertyName(::Il2CppString* value);
-    // Get instance field: private System.Int32 <propertyId>k__BackingField
-    int _get_$propertyId$k__BackingField();
-    // Set instance field: private System.Int32 <propertyId>k__BackingField
-    void _set_$propertyId$k__BackingField(int value);
+    // Get instance field reference: private System.String _propertyName
+    ::Il2CppString*& dyn__propertyName();
+    // Get instance field reference: private System.Int32 <propertyId>k__BackingField
+    int& dyn_$propertyId$k__BackingField();
     // public System.Int32 get_propertyId()
     // Offset: 0x1E1CB7C
     int get_propertyId();

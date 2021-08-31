@@ -33,10 +33,8 @@ namespace System::Runtime::CompilerServices {
     constexpr operator bool() const noexcept {
       return m_wrapNonExceptionThrows;
     }
-    // Get instance field: private System.Boolean m_wrapNonExceptionThrows
-    bool _get_m_wrapNonExceptionThrows();
-    // Set instance field: private System.Boolean m_wrapNonExceptionThrows
-    void _set_m_wrapNonExceptionThrows(bool value);
+    // Get instance field reference: private System.Boolean m_wrapNonExceptionThrows
+    bool& dyn_m_wrapNonExceptionThrows();
     // public System.Void set_WrapNonExceptionThrows(System.Boolean value)
     // Offset: 0x1486EA0
     void set_WrapNonExceptionThrows(bool value);

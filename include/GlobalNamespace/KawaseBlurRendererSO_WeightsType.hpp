@@ -52,10 +52,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::KawaseBlurRendererSO::WeightsType _get_AlphaAndDepthWeights();
     // Set static field: static public KawaseBlurRendererSO/WeightsType AlphaAndDepthWeights
     static void _set_AlphaAndDepthWeights(GlobalNamespace::KawaseBlurRendererSO::WeightsType value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // KawaseBlurRendererSO/WeightsType
   #pragma pack(pop)
   static check_size<sizeof(KawaseBlurRendererSO::WeightsType), 0 + sizeof(int)> __GlobalNamespace_KawaseBlurRendererSO_WeightsTypeSizeCheck;

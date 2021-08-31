@@ -112,42 +112,24 @@ namespace GlobalNamespace {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
-    // Get instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    GlobalNamespace::IMultiplayerSessionManager* _get__multiplayerSessionManager();
-    // Set instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    void _set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
-    // Get instance field: private readonly IGameplayRpcManager _gameplayRpcManager
-    GlobalNamespace::IGameplayRpcManager* _get__gameplayRpcManager();
-    // Set instance field: private readonly IGameplayRpcManager _gameplayRpcManager
-    void _set__gameplayRpcManager(GlobalNamespace::IGameplayRpcManager* value);
-    // Get instance field: private readonly PlayersSpecificSettingsAtGameStartModel _playersAtGameStartModel
-    GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* _get__playersAtGameStartModel();
-    // Set instance field: private readonly PlayersSpecificSettingsAtGameStartModel _playersAtGameStartModel
-    void _set__playersAtGameStartModel(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* value);
-    // Get instance field: private readonly System.Collections.Generic.HashSet`1<System.String> _readyPlayers
-    System::Collections::Generic::HashSet_1<::Il2CppString*>* _get__readyPlayers();
-    // Set instance field: private readonly System.Collections.Generic.HashSet`1<System.String> _readyPlayers
-    void _set__readyPlayers(System::Collections::Generic::HashSet_1<::Il2CppString*>* value);
-    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,PlayerSpecificSettingsNetSerializable> _playersSpecificSettings
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* _get__playersSpecificSettings();
-    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,PlayerSpecificSettingsNetSerializable> _playersSpecificSettings
-    void _set__playersSpecificSettings(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* value);
-    // Get instance field: private System.Boolean _started
-    bool _get__started();
-    // Set instance field: private System.Boolean _started
-    void _set__started(bool value);
-    // Get instance field: private System.String _sessionGameId
-    ::Il2CppString* _get__sessionGameId();
-    // Set instance field: private System.String _sessionGameId
-    void _set__sessionGameId(::Il2CppString* value);
-    // Get instance field: private System.Action`1<System.String> sceneSetupDidFinishEvent
-    System::Action_1<::Il2CppString*>* _get_sceneSetupDidFinishEvent();
-    // Set instance field: private System.Action`1<System.String> sceneSetupDidFinishEvent
-    void _set_sceneSetupDidFinishEvent(System::Action_1<::Il2CppString*>* value);
-    // Get instance field: private System.Action`1<System.String> sceneSetupDidReceiveTooLateEvent
-    System::Action_1<::Il2CppString*>* _get_sceneSetupDidReceiveTooLateEvent();
-    // Set instance field: private System.Action`1<System.String> sceneSetupDidReceiveTooLateEvent
-    void _set_sceneSetupDidReceiveTooLateEvent(System::Action_1<::Il2CppString*>* value);
+    // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
+    // Get instance field reference: private readonly IGameplayRpcManager _gameplayRpcManager
+    GlobalNamespace::IGameplayRpcManager*& dyn__gameplayRpcManager();
+    // Get instance field reference: private readonly PlayersSpecificSettingsAtGameStartModel _playersAtGameStartModel
+    GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*& dyn__playersAtGameStartModel();
+    // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<System.String> _readyPlayers
+    System::Collections::Generic::HashSet_1<::Il2CppString*>*& dyn__readyPlayers();
+    // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,PlayerSpecificSettingsNetSerializable> _playersSpecificSettings
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsNetSerializable*>*& dyn__playersSpecificSettings();
+    // Get instance field reference: private System.Boolean _started
+    bool& dyn__started();
+    // Get instance field reference: private System.String _sessionGameId
+    ::Il2CppString*& dyn__sessionGameId();
+    // Get instance field reference: private System.Action`1<System.String> sceneSetupDidFinishEvent
+    System::Action_1<::Il2CppString*>*& dyn_sceneSetupDidFinishEvent();
+    // Get instance field reference: private System.Action`1<System.String> sceneSetupDidReceiveTooLateEvent
+    System::Action_1<::Il2CppString*>*& dyn_sceneSetupDidReceiveTooLateEvent();
     // public System.Void add_sceneSetupDidFinishEvent(System.Action`1<System.String> value)
     // Offset: 0x16F6904
     void add_sceneSetupDidFinishEvent(System::Action_1<::Il2CppString*>* value);

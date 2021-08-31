@@ -50,10 +50,8 @@ namespace TMPro {
     static TMPro::MaskingTypes _get_MaskSoft();
     // Set static field: static public TMPro.MaskingTypes MaskSoft
     static void _set_MaskSoft(TMPro::MaskingTypes value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // TMPro.MaskingTypes
   #pragma pack(pop)
   static check_size<sizeof(MaskingTypes), 0 + sizeof(int)> __TMPro_MaskingTypesSizeCheck;

@@ -42,18 +42,12 @@ namespace TMPro {
     static_assert(sizeof(::Array<UnityEngine::Color>*) == 0x8);
     // Creating value type constructor for type: Compute_DT_EventArgs
     Compute_DT_EventArgs(TMPro::Compute_DistanceTransform_EventTypes EventType_ = {}, float ProgressPercentage_ = {}, ::Array<UnityEngine::Color>* Colors_ = {}) noexcept : EventType{EventType_}, ProgressPercentage{ProgressPercentage_}, Colors{Colors_} {}
-    // Get instance field: public TMPro.Compute_DistanceTransform_EventTypes EventType
-    TMPro::Compute_DistanceTransform_EventTypes _get_EventType();
-    // Set instance field: public TMPro.Compute_DistanceTransform_EventTypes EventType
-    void _set_EventType(TMPro::Compute_DistanceTransform_EventTypes value);
-    // Get instance field: public System.Single ProgressPercentage
-    float _get_ProgressPercentage();
-    // Set instance field: public System.Single ProgressPercentage
-    void _set_ProgressPercentage(float value);
-    // Get instance field: public UnityEngine.Color[] Colors
-    ::Array<UnityEngine::Color>* _get_Colors();
-    // Set instance field: public UnityEngine.Color[] Colors
-    void _set_Colors(::Array<UnityEngine::Color>* value);
+    // Get instance field reference: public TMPro.Compute_DistanceTransform_EventTypes EventType
+    TMPro::Compute_DistanceTransform_EventTypes& dyn_EventType();
+    // Get instance field reference: public System.Single ProgressPercentage
+    float& dyn_ProgressPercentage();
+    // Get instance field reference: public UnityEngine.Color[] Colors
+    ::Array<UnityEngine::Color>*& dyn_Colors();
     // public System.Void .ctor(TMPro.Compute_DistanceTransform_EventTypes type, System.Single progress)
     // Offset: 0x11145CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

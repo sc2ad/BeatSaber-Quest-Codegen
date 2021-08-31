@@ -243,98 +243,52 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kCellIdentifier();
     // Set static field: static private System.String kCellIdentifier
     static void _set_kCellIdentifier(::Il2CppString* value);
-    // Get instance field: private HMUI.TableView _tableView
-    HMUI::TableView* _get__tableView();
-    // Set instance field: private HMUI.TableView _tableView
-    void _set__tableView(HMUI::TableView* value);
-    // Get instance field: private UnityEngine.RectTransform _tableViewRectTransform
-    UnityEngine::RectTransform* _get__tableViewRectTransform();
-    // Set instance field: private UnityEngine.RectTransform _tableViewRectTransform
-    void _set__tableViewRectTransform(UnityEngine::RectTransform* value);
-    // Get instance field: private MultiplayerResultsTableCell _winnerTableCell
-    GlobalNamespace::MultiplayerResultsTableCell* _get__winnerTableCell();
-    // Set instance field: private MultiplayerResultsTableCell _winnerTableCell
-    void _set__winnerTableCell(GlobalNamespace::MultiplayerResultsTableCell* value);
-    // Get instance field: private MultiplayerResultsTableCell _cellPrefab
-    GlobalNamespace::MultiplayerResultsTableCell* _get__cellPrefab();
-    // Set instance field: private MultiplayerResultsTableCell _cellPrefab
-    void _set__cellPrefab(GlobalNamespace::MultiplayerResultsTableCell* value);
-    // Get instance field: private System.Single _startRowXPosition
-    float _get__startRowXPosition();
-    // Set instance field: private System.Single _startRowXPosition
-    void _set__startRowXPosition(float value);
-    // Get instance field: private System.Single _rowHeight
-    float _get__rowHeight();
-    // Set instance field: private System.Single _rowHeight
-    void _set__rowHeight(float value);
-    // Get instance field: private System.Single _rowXOffset
-    float _get__rowXOffset();
-    // Set instance field: private System.Single _rowXOffset
-    void _set__rowXOffset(float value);
-    // Get instance field: private System.Single _animationDuration
-    float _get__animationDuration();
-    // Set instance field: private System.Single _animationDuration
-    void _set__animationDuration(float value);
-    // Get instance field: private System.Single _animationSeparationTime
-    float _get__animationSeparationTime();
-    // Set instance field: private System.Single _animationSeparationTime
-    void _set__animationSeparationTime(float value);
-    // Get instance field: private System.Single _winnerAnimationDuration
-    float _get__winnerAnimationDuration();
-    // Set instance field: private System.Single _winnerAnimationDuration
-    void _set__winnerAnimationDuration(float value);
-    // Get instance field: private System.Single _duelTablePosXOffset
-    float _get__duelTablePosXOffset();
-    // Set instance field: private System.Single _duelTablePosXOffset
-    void _set__duelTablePosXOffset(float value);
-    // Get instance field: private MultiplayerOffsetPositionByLocalPlayerPosition _multiplayerOffsetByLocalPlayerPosition
-    GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* _get__multiplayerOffsetByLocalPlayerPosition();
-    // Set instance field: private MultiplayerOffsetPositionByLocalPlayerPosition _multiplayerOffsetByLocalPlayerPosition
-    void _set__multiplayerOffsetByLocalPlayerPosition(GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* value);
-    // Get instance field: private UnityEngine.AudioSource _outroSfxAudioSource
-    UnityEngine::AudioSource* _get__outroSfxAudioSource();
-    // Set instance field: private UnityEngine.AudioSource _outroSfxAudioSource
-    void _set__outroSfxAudioSource(UnityEngine::AudioSource* value);
-    // Get instance field: private UnityEngine.AudioClip[] _rowSlideAudioClips
-    ::Array<UnityEngine::AudioClip*>* _get__rowSlideAudioClips();
-    // Set instance field: private UnityEngine.AudioClip[] _rowSlideAudioClips
-    void _set__rowSlideAudioClips(::Array<UnityEngine::AudioClip*>* value);
-    // Get instance field: private UnityEngine.AudioClip _avatarSlideAudioClip
-    UnityEngine::AudioClip* _get__avatarSlideAudioClip();
-    // Set instance field: private UnityEngine.AudioClip _avatarSlideAudioClip
-    void _set__avatarSlideAudioClip(UnityEngine::AudioClip* value);
-    // Get instance field: private readonly Tweening.TweeningManager _tweeningManager
-    Tweening::TweeningManager* _get__tweeningManager();
-    // Set instance field: private readonly Tweening.TweeningManager _tweeningManager
-    void _set__tweeningManager(Tweening::TweeningManager* value);
-    // Get instance field: private readonly MultiplayerLayoutProvider _layoutProvider
-    GlobalNamespace::MultiplayerLayoutProvider* _get__layoutProvider();
-    // Set instance field: private readonly MultiplayerLayoutProvider _layoutProvider
-    void _set__layoutProvider(GlobalNamespace::MultiplayerLayoutProvider* value);
-    // Get instance field: private readonly Zenject.DiContainer _container
-    Zenject::DiContainer* _get__container();
-    // Set instance field: private readonly Zenject.DiContainer _container
-    void _set__container(Zenject::DiContainer* value);
-    // Get instance field: private System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> _dataList
-    System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* _get__dataList();
-    // Set instance field: private System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> _dataList
-    void _set__dataList(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* value);
-    // Get instance field: private UnityEngine.Vector3 _positionOffset
-    UnityEngine::Vector3 _get__positionOffset();
-    // Set instance field: private UnityEngine.Vector3 _positionOffset
-    void _set__positionOffset(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Quaternion _rotationOffset
-    UnityEngine::Quaternion _get__rotationOffset();
-    // Set instance field: private UnityEngine.Quaternion _rotationOffset
-    void _set__rotationOffset(UnityEngine::Quaternion value);
-    // Get instance field: private UnityEngine.Vector3 _lastParentPosition
-    UnityEngine::Vector3 _get__lastParentPosition();
-    // Set instance field: private UnityEngine.Vector3 _lastParentPosition
-    void _set__lastParentPosition(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Quaternion _lastParentRotation
-    UnityEngine::Quaternion _get__lastParentRotation();
-    // Set instance field: private UnityEngine.Quaternion _lastParentRotation
-    void _set__lastParentRotation(UnityEngine::Quaternion value);
+    // Get instance field reference: private HMUI.TableView _tableView
+    HMUI::TableView*& dyn__tableView();
+    // Get instance field reference: private UnityEngine.RectTransform _tableViewRectTransform
+    UnityEngine::RectTransform*& dyn__tableViewRectTransform();
+    // Get instance field reference: private MultiplayerResultsTableCell _winnerTableCell
+    GlobalNamespace::MultiplayerResultsTableCell*& dyn__winnerTableCell();
+    // Get instance field reference: private MultiplayerResultsTableCell _cellPrefab
+    GlobalNamespace::MultiplayerResultsTableCell*& dyn__cellPrefab();
+    // Get instance field reference: private System.Single _startRowXPosition
+    float& dyn__startRowXPosition();
+    // Get instance field reference: private System.Single _rowHeight
+    float& dyn__rowHeight();
+    // Get instance field reference: private System.Single _rowXOffset
+    float& dyn__rowXOffset();
+    // Get instance field reference: private System.Single _animationDuration
+    float& dyn__animationDuration();
+    // Get instance field reference: private System.Single _animationSeparationTime
+    float& dyn__animationSeparationTime();
+    // Get instance field reference: private System.Single _winnerAnimationDuration
+    float& dyn__winnerAnimationDuration();
+    // Get instance field reference: private System.Single _duelTablePosXOffset
+    float& dyn__duelTablePosXOffset();
+    // Get instance field reference: private MultiplayerOffsetPositionByLocalPlayerPosition _multiplayerOffsetByLocalPlayerPosition
+    GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*& dyn__multiplayerOffsetByLocalPlayerPosition();
+    // Get instance field reference: private UnityEngine.AudioSource _outroSfxAudioSource
+    UnityEngine::AudioSource*& dyn__outroSfxAudioSource();
+    // Get instance field reference: private UnityEngine.AudioClip[] _rowSlideAudioClips
+    ::Array<UnityEngine::AudioClip*>*& dyn__rowSlideAudioClips();
+    // Get instance field reference: private UnityEngine.AudioClip _avatarSlideAudioClip
+    UnityEngine::AudioClip*& dyn__avatarSlideAudioClip();
+    // Get instance field reference: private readonly Tweening.TweeningManager _tweeningManager
+    Tweening::TweeningManager*& dyn__tweeningManager();
+    // Get instance field reference: private readonly MultiplayerLayoutProvider _layoutProvider
+    GlobalNamespace::MultiplayerLayoutProvider*& dyn__layoutProvider();
+    // Get instance field reference: private readonly Zenject.DiContainer _container
+    Zenject::DiContainer*& dyn__container();
+    // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> _dataList
+    System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*& dyn__dataList();
+    // Get instance field reference: private UnityEngine.Vector3 _positionOffset
+    UnityEngine::Vector3& dyn__positionOffset();
+    // Get instance field reference: private UnityEngine.Quaternion _rotationOffset
+    UnityEngine::Quaternion& dyn__rotationOffset();
+    // Get instance field reference: private UnityEngine.Vector3 _lastParentPosition
+    UnityEngine::Vector3& dyn__lastParentPosition();
+    // Get instance field reference: private UnityEngine.Quaternion _lastParentRotation
+    UnityEngine::Quaternion& dyn__lastParentRotation();
     // public System.Single CellSize()
     // Offset: 0x1035448
     float CellSize();

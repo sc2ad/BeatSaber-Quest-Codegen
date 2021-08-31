@@ -47,22 +47,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: $$c__DisplayClass18_0
     $$c__DisplayClass18_0(::Array<uint8_t>* preMasterSecret_ = {}, ::Array<uint8_t>* serverSeed_ = {}, ::Array<uint8_t>* clientSeed_ = {}, bool isClient_ = {}) noexcept : preMasterSecret{preMasterSecret_}, serverSeed{serverSeed_}, clientSeed{clientSeed_}, isClient{isClient_} {}
-    // Get instance field: public System.Byte[] preMasterSecret
-    ::Array<uint8_t>* _get_preMasterSecret();
-    // Set instance field: public System.Byte[] preMasterSecret
-    void _set_preMasterSecret(::Array<uint8_t>* value);
-    // Get instance field: public System.Byte[] serverSeed
-    ::Array<uint8_t>* _get_serverSeed();
-    // Set instance field: public System.Byte[] serverSeed
-    void _set_serverSeed(::Array<uint8_t>* value);
-    // Get instance field: public System.Byte[] clientSeed
-    ::Array<uint8_t>* _get_clientSeed();
-    // Set instance field: public System.Byte[] clientSeed
-    void _set_clientSeed(::Array<uint8_t>* value);
-    // Get instance field: public System.Boolean isClient
-    bool _get_isClient();
-    // Set instance field: public System.Boolean isClient
-    void _set_isClient(bool value);
+    // Get instance field reference: public System.Byte[] preMasterSecret
+    ::Array<uint8_t>*& dyn_preMasterSecret();
+    // Get instance field reference: public System.Byte[] serverSeed
+    ::Array<uint8_t>*& dyn_serverSeed();
+    // Get instance field reference: public System.Byte[] clientSeed
+    ::Array<uint8_t>*& dyn_clientSeed();
+    // Get instance field reference: public System.Boolean isClient
+    bool& dyn_isClient();
     // EncryptionUtility/IEncryptionState <CreateEncryptionStateAsync>b__0()
     // Offset: 0x13273CC
     GlobalNamespace::EncryptionUtility::IEncryptionState* $CreateEncryptionStateAsync$b__0();

@@ -51,14 +51,10 @@ namespace UnityEngine::Timeline {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Double m_Time
-    double _get_m_Time();
-    // Set instance field: private System.Double m_Time
-    void _set_m_Time(double value);
-    // Get instance field: private UnityEngine.Timeline.TrackAsset <parent>k__BackingField
-    UnityEngine::Timeline::TrackAsset* _get_$parent$k__BackingField();
-    // Set instance field: private UnityEngine.Timeline.TrackAsset <parent>k__BackingField
-    void _set_$parent$k__BackingField(UnityEngine::Timeline::TrackAsset* value);
+    // Get instance field reference: private System.Double m_Time
+    double& dyn_m_Time();
+    // Get instance field reference: private UnityEngine.Timeline.TrackAsset <parent>k__BackingField
+    UnityEngine::Timeline::TrackAsset*& dyn_$parent$k__BackingField();
     // public UnityEngine.Timeline.TrackAsset get_parent()
     // Offset: 0x1821CAC
     UnityEngine::Timeline::TrackAsset* get_parent();

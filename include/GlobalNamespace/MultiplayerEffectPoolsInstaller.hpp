@@ -49,18 +49,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::NoteDebris*) == 0x8);
     // Creating value type constructor for type: MultiplayerEffectPoolsInstaller
     MultiplayerEffectPoolsInstaller(GlobalNamespace::BoolSO* noteDebrisHDConditionVariable_ = {}, GlobalNamespace::NoteDebris* noteDebrisHDPrefab_ = {}, GlobalNamespace::NoteDebris* noteDebrisLWPrefab_ = {}) noexcept : noteDebrisHDConditionVariable{noteDebrisHDConditionVariable_}, noteDebrisHDPrefab{noteDebrisHDPrefab_}, noteDebrisLWPrefab{noteDebrisLWPrefab_} {}
-    // Get instance field: private BoolSO _noteDebrisHDConditionVariable
-    GlobalNamespace::BoolSO* _get__noteDebrisHDConditionVariable();
-    // Set instance field: private BoolSO _noteDebrisHDConditionVariable
-    void _set__noteDebrisHDConditionVariable(GlobalNamespace::BoolSO* value);
-    // Get instance field: private NoteDebris _noteDebrisHDPrefab
-    GlobalNamespace::NoteDebris* _get__noteDebrisHDPrefab();
-    // Set instance field: private NoteDebris _noteDebrisHDPrefab
-    void _set__noteDebrisHDPrefab(GlobalNamespace::NoteDebris* value);
-    // Get instance field: private NoteDebris _noteDebrisLWPrefab
-    GlobalNamespace::NoteDebris* _get__noteDebrisLWPrefab();
-    // Set instance field: private NoteDebris _noteDebrisLWPrefab
-    void _set__noteDebrisLWPrefab(GlobalNamespace::NoteDebris* value);
+    // Get instance field reference: private BoolSO _noteDebrisHDConditionVariable
+    GlobalNamespace::BoolSO*& dyn__noteDebrisHDConditionVariable();
+    // Get instance field reference: private NoteDebris _noteDebrisHDPrefab
+    GlobalNamespace::NoteDebris*& dyn__noteDebrisHDPrefab();
+    // Get instance field reference: private NoteDebris _noteDebrisLWPrefab
+    GlobalNamespace::NoteDebris*& dyn__noteDebrisLWPrefab();
     // public System.Void .ctor()
     // Offset: 0x11AFDA0
     // Implemented from: Zenject.MonoInstaller

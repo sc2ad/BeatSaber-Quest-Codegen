@@ -66,26 +66,16 @@ namespace System {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: System.Version m_parsedVersion
-    System::Version* _get_m_parsedVersion();
-    // Set instance field: System.Version m_parsedVersion
-    void _set_m_parsedVersion(System::Version* value);
-    // Get instance field: System.Version/System.ParseFailureKind m_failure
-    System::Version::ParseFailureKind _get_m_failure();
-    // Set instance field: System.Version/System.ParseFailureKind m_failure
-    void _set_m_failure(System::Version::ParseFailureKind value);
-    // Get instance field: System.String m_exceptionArgument
-    ::Il2CppString* _get_m_exceptionArgument();
-    // Set instance field: System.String m_exceptionArgument
-    void _set_m_exceptionArgument(::Il2CppString* value);
-    // Get instance field: System.String m_argumentName
-    ::Il2CppString* _get_m_argumentName();
-    // Set instance field: System.String m_argumentName
-    void _set_m_argumentName(::Il2CppString* value);
-    // Get instance field: System.Boolean m_canThrow
-    bool _get_m_canThrow();
-    // Set instance field: System.Boolean m_canThrow
-    void _set_m_canThrow(bool value);
+    // Get instance field reference: System.Version m_parsedVersion
+    System::Version*& dyn_m_parsedVersion();
+    // Get instance field reference: System.Version/System.ParseFailureKind m_failure
+    System::Version::ParseFailureKind& dyn_m_failure();
+    // Get instance field reference: System.String m_exceptionArgument
+    ::Il2CppString*& dyn_m_exceptionArgument();
+    // Get instance field reference: System.String m_argumentName
+    ::Il2CppString*& dyn_m_argumentName();
+    // Get instance field reference: System.Boolean m_canThrow
+    bool& dyn_m_canThrow();
     // System.Void Init(System.String argumentName, System.Boolean canThrow)
     // Offset: 0x2332768
     void Init(::Il2CppString* argumentName, bool canThrow);

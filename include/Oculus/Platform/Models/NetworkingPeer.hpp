@@ -34,14 +34,10 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(Oculus::Platform::PeerConnectionState) == 0x4);
     // Creating value type constructor for type: NetworkingPeer
     NetworkingPeer(uint64_t _ID_ = {}, Oculus::Platform::PeerConnectionState State_ = {}) noexcept : _ID{_ID_}, State{State_} {}
-    // Get instance field: private System.UInt64 <ID>k__BackingField
-    uint64_t _get_$ID$k__BackingField();
-    // Set instance field: private System.UInt64 <ID>k__BackingField
-    void _set_$ID$k__BackingField(uint64_t value);
-    // Get instance field: private Oculus.Platform.PeerConnectionState <State>k__BackingField
-    Oculus::Platform::PeerConnectionState _get_$State$k__BackingField();
-    // Set instance field: private Oculus.Platform.PeerConnectionState <State>k__BackingField
-    void _set_$State$k__BackingField(Oculus::Platform::PeerConnectionState value);
+    // Get instance field reference: private System.UInt64 <ID>k__BackingField
+    uint64_t& dyn_$ID$k__BackingField();
+    // Get instance field reference: private Oculus.Platform.PeerConnectionState <State>k__BackingField
+    Oculus::Platform::PeerConnectionState& dyn_$State$k__BackingField();
     // public System.UInt64 get_ID()
     // Offset: 0x14F2460
     uint64_t get_ID();

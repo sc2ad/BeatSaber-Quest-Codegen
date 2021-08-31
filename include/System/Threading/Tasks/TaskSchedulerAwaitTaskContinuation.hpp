@@ -48,10 +48,8 @@ namespace System::Threading::Tasks {
     constexpr operator System::Threading::Tasks::TaskScheduler*() const noexcept {
       return m_scheduler;
     }
-    // Get instance field: private readonly System.Threading.Tasks.TaskScheduler m_scheduler
-    System::Threading::Tasks::TaskScheduler* _get_m_scheduler();
-    // Set instance field: private readonly System.Threading.Tasks.TaskScheduler m_scheduler
-    void _set_m_scheduler(System::Threading::Tasks::TaskScheduler* value);
+    // Get instance field reference: private readonly System.Threading.Tasks.TaskScheduler m_scheduler
+    System::Threading::Tasks::TaskScheduler*& dyn_m_scheduler();
     // System.Void .ctor(System.Threading.Tasks.TaskScheduler scheduler, System.Action action, System.Boolean flowExecutionContext, ref System.Threading.StackCrawlMark stackMark)
     // Offset: 0x1876670
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -71,26 +71,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: TabBarViewController
     TabBarViewController(HMUI::TextSegmentedControl* segmentedControll_ = {}, UnityEngine::UI::ContentSizeFitter* contentSizeFilter_ = {}, ::Array<::Il2CppString*>* labels_ = {}, ::Array<GlobalNamespace::TabBarViewController::TabBarItem*>* items_ = {}, bool shouldReloadData_ = {}) noexcept : segmentedControll{segmentedControll_}, contentSizeFilter{contentSizeFilter_}, labels{labels_}, items{items_}, shouldReloadData{shouldReloadData_} {}
-    // Get instance field: private HMUI.TextSegmentedControl _segmentedControll
-    HMUI::TextSegmentedControl* _get__segmentedControll();
-    // Set instance field: private HMUI.TextSegmentedControl _segmentedControll
-    void _set__segmentedControll(HMUI::TextSegmentedControl* value);
-    // Get instance field: private UnityEngine.UI.ContentSizeFitter _contentSizeFilter
-    UnityEngine::UI::ContentSizeFitter* _get__contentSizeFilter();
-    // Set instance field: private UnityEngine.UI.ContentSizeFitter _contentSizeFilter
-    void _set__contentSizeFilter(UnityEngine::UI::ContentSizeFitter* value);
-    // Get instance field: private System.String[] _labels
-    ::Array<::Il2CppString*>* _get__labels();
-    // Set instance field: private System.String[] _labels
-    void _set__labels(::Array<::Il2CppString*>* value);
-    // Get instance field: private TabBarViewController/TabBarItem[] _items
-    ::Array<GlobalNamespace::TabBarViewController::TabBarItem*>* _get__items();
-    // Set instance field: private TabBarViewController/TabBarItem[] _items
-    void _set__items(::Array<GlobalNamespace::TabBarViewController::TabBarItem*>* value);
-    // Get instance field: private System.Boolean _shouldReloadData
-    bool _get__shouldReloadData();
-    // Set instance field: private System.Boolean _shouldReloadData
-    void _set__shouldReloadData(bool value);
+    // Get instance field reference: private HMUI.TextSegmentedControl _segmentedControll
+    HMUI::TextSegmentedControl*& dyn__segmentedControll();
+    // Get instance field reference: private UnityEngine.UI.ContentSizeFitter _contentSizeFilter
+    UnityEngine::UI::ContentSizeFitter*& dyn__contentSizeFilter();
+    // Get instance field reference: private System.String[] _labels
+    ::Array<::Il2CppString*>*& dyn__labels();
+    // Get instance field reference: private TabBarViewController/TabBarItem[] _items
+    ::Array<GlobalNamespace::TabBarViewController::TabBarItem*>*& dyn__items();
+    // Get instance field reference: private System.Boolean _shouldReloadData
+    bool& dyn__shouldReloadData();
     // public System.Boolean get_sizeToFit()
     // Offset: 0x1090CF8
     bool get_sizeToFit();

@@ -115,34 +115,20 @@ namespace System::Threading {
     static System::Action_1<::Il2CppObject*>* _get_s_cancellationTokenCanceledEventHandler();
     // Set static field: static private System.Action`1<System.Object> s_cancellationTokenCanceledEventHandler
     static void _set_s_cancellationTokenCanceledEventHandler(System::Action_1<::Il2CppObject*>* value);
-    // Get instance field: private System.Int32 m_currentCount
-    int _get_m_currentCount();
-    // Set instance field: private System.Int32 m_currentCount
-    void _set_m_currentCount(int value);
-    // Get instance field: private readonly System.Int32 m_maxCount
-    int _get_m_maxCount();
-    // Set instance field: private readonly System.Int32 m_maxCount
-    void _set_m_maxCount(int value);
-    // Get instance field: private System.Int32 m_waitCount
-    int _get_m_waitCount();
-    // Set instance field: private System.Int32 m_waitCount
-    void _set_m_waitCount(int value);
-    // Get instance field: private System.Object m_lockObj
-    ::Il2CppObject* _get_m_lockObj();
-    // Set instance field: private System.Object m_lockObj
-    void _set_m_lockObj(::Il2CppObject* value);
-    // Get instance field: private System.Threading.ManualResetEvent m_waitHandle
-    System::Threading::ManualResetEvent* _get_m_waitHandle();
-    // Set instance field: private System.Threading.ManualResetEvent m_waitHandle
-    void _set_m_waitHandle(System::Threading::ManualResetEvent* value);
-    // Get instance field: private System.Threading.SemaphoreSlim/System.Threading.TaskNode m_asyncHead
-    System::Threading::SemaphoreSlim::TaskNode* _get_m_asyncHead();
-    // Set instance field: private System.Threading.SemaphoreSlim/System.Threading.TaskNode m_asyncHead
-    void _set_m_asyncHead(System::Threading::SemaphoreSlim::TaskNode* value);
-    // Get instance field: private System.Threading.SemaphoreSlim/System.Threading.TaskNode m_asyncTail
-    System::Threading::SemaphoreSlim::TaskNode* _get_m_asyncTail();
-    // Set instance field: private System.Threading.SemaphoreSlim/System.Threading.TaskNode m_asyncTail
-    void _set_m_asyncTail(System::Threading::SemaphoreSlim::TaskNode* value);
+    // Get instance field reference: private System.Int32 m_currentCount
+    int& dyn_m_currentCount();
+    // Get instance field reference: private readonly System.Int32 m_maxCount
+    int& dyn_m_maxCount();
+    // Get instance field reference: private System.Int32 m_waitCount
+    int& dyn_m_waitCount();
+    // Get instance field reference: private System.Object m_lockObj
+    ::Il2CppObject*& dyn_m_lockObj();
+    // Get instance field reference: private System.Threading.ManualResetEvent m_waitHandle
+    System::Threading::ManualResetEvent*& dyn_m_waitHandle();
+    // Get instance field reference: private System.Threading.SemaphoreSlim/System.Threading.TaskNode m_asyncHead
+    System::Threading::SemaphoreSlim::TaskNode*& dyn_m_asyncHead();
+    // Get instance field reference: private System.Threading.SemaphoreSlim/System.Threading.TaskNode m_asyncTail
+    System::Threading::SemaphoreSlim::TaskNode*& dyn_m_asyncTail();
     // public System.Int32 get_CurrentCount()
     // Offset: 0x18F901C
     int get_CurrentCount();

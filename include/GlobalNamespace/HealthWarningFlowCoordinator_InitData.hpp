@@ -39,10 +39,8 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::ScenesTransitionSetupDataSO*() const noexcept {
       return nextScenesTransitionSetupData;
     }
-    // Get instance field: public readonly ScenesTransitionSetupDataSO nextScenesTransitionSetupData
-    GlobalNamespace::ScenesTransitionSetupDataSO* _get_nextScenesTransitionSetupData();
-    // Set instance field: public readonly ScenesTransitionSetupDataSO nextScenesTransitionSetupData
-    void _set_nextScenesTransitionSetupData(GlobalNamespace::ScenesTransitionSetupDataSO* value);
+    // Get instance field reference: public readonly ScenesTransitionSetupDataSO nextScenesTransitionSetupData
+    GlobalNamespace::ScenesTransitionSetupDataSO*& dyn_nextScenesTransitionSetupData();
     // public System.Void .ctor(ScenesTransitionSetupDataSO nextScenesTransitionSetupData)
     // Offset: 0x11434F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

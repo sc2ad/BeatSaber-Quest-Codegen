@@ -43,14 +43,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::AddressableAssets::AssetReference*) == 0x8);
     // Creating value type constructor for type: PrefabWithId
     PrefabWithId(int id_ = {}, UnityEngine::AddressableAssets::AssetReference* prefabAssetReference_ = {}) noexcept : id{id_}, prefabAssetReference{prefabAssetReference_} {}
-    // Get instance field: private System.Int32 _id
-    int _get__id();
-    // Set instance field: private System.Int32 _id
-    void _set__id(int value);
-    // Get instance field: private UnityEngine.AddressableAssets.AssetReference _prefabAssetReference
-    UnityEngine::AddressableAssets::AssetReference* _get__prefabAssetReference();
-    // Set instance field: private UnityEngine.AddressableAssets.AssetReference _prefabAssetReference
-    void _set__prefabAssetReference(UnityEngine::AddressableAssets::AssetReference* value);
+    // Get instance field reference: private System.Int32 _id
+    int& dyn__id();
+    // Get instance field reference: private UnityEngine.AddressableAssets.AssetReference _prefabAssetReference
+    UnityEngine::AddressableAssets::AssetReference*& dyn__prefabAssetReference();
     // public System.Int32 get_id()
     // Offset: 0x11866B8
     int get_id();

@@ -91,10 +91,8 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
       static UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::GroupOperationSettings _get_AllowFailedDependencies();
       // Set static field: static public UnityEngine.ResourceManagement.AsyncOperations.GroupOperation/UnityEngine.ResourceManagement.AsyncOperations.GroupOperationSettings AllowFailedDependencies
       static void _set_AllowFailedDependencies(UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::GroupOperationSettings value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // UnityEngine.ResourceManagement.AsyncOperations.GroupOperation/UnityEngine.ResourceManagement.AsyncOperations.GroupOperationSettings
     #pragma pack(pop)
     static check_size<sizeof(GroupOperation::GroupOperationSettings), 0 + sizeof(int)> __UnityEngine_ResourceManagement_AsyncOperations_GroupOperation_GroupOperationSettingsSizeCheck;
@@ -147,30 +145,18 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     static int _get_k_MaxDisplayedLocationLength();
     // Set static field: static private System.Int32 k_MaxDisplayedLocationLength
     static void _set_k_MaxDisplayedLocationLength(int value);
-    // Get instance field: private System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> m_InternalOnComplete
-    System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* _get_m_InternalOnComplete();
-    // Set instance field: private System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> m_InternalOnComplete
-    void _set_m_InternalOnComplete(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
-    // Get instance field: private System.Int32 m_LoadedCount
-    int _get_m_LoadedCount();
-    // Set instance field: private System.Int32 m_LoadedCount
-    void _set_m_LoadedCount(int value);
-    // Get instance field: private UnityEngine.ResourceManagement.AsyncOperations.GroupOperation/UnityEngine.ResourceManagement.AsyncOperations.GroupOperationSettings m_Settings
-    UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::GroupOperationSettings _get_m_Settings();
-    // Set instance field: private UnityEngine.ResourceManagement.AsyncOperations.GroupOperation/UnityEngine.ResourceManagement.AsyncOperations.GroupOperationSettings m_Settings
-    void _set_m_Settings(UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::GroupOperationSettings value);
-    // Get instance field: private System.String debugName
-    ::Il2CppString* _get_debugName();
-    // Set instance field: private System.String debugName
-    void _set_debugName(::Il2CppString* value);
-    // Get instance field: private System.Int32 <UnityEngine.ResourceManagement.AsyncOperations.ICachable.Hash>k__BackingField
-    int _get_$UnityEngine_ResourceManagement_AsyncOperations_ICachable_Hash$k__BackingField();
-    // Set instance field: private System.Int32 <UnityEngine.ResourceManagement.AsyncOperations.ICachable.Hash>k__BackingField
-    void _set_$UnityEngine_ResourceManagement_AsyncOperations_ICachable_Hash$k__BackingField(int value);
-    // Get instance field: private System.Collections.Generic.HashSet`1<System.String> m_CachedDependencyLocations
-    System::Collections::Generic::HashSet_1<::Il2CppString*>* _get_m_CachedDependencyLocations();
-    // Set instance field: private System.Collections.Generic.HashSet`1<System.String> m_CachedDependencyLocations
-    void _set_m_CachedDependencyLocations(System::Collections::Generic::HashSet_1<::Il2CppString*>* value);
+    // Get instance field reference: private System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> m_InternalOnComplete
+    System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& dyn_m_InternalOnComplete();
+    // Get instance field reference: private System.Int32 m_LoadedCount
+    int& dyn_m_LoadedCount();
+    // Get instance field reference: private UnityEngine.ResourceManagement.AsyncOperations.GroupOperation/UnityEngine.ResourceManagement.AsyncOperations.GroupOperationSettings m_Settings
+    UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::GroupOperationSettings& dyn_m_Settings();
+    // Get instance field reference: private System.String debugName
+    ::Il2CppString*& dyn_debugName();
+    // Get instance field reference: private System.Int32 <UnityEngine.ResourceManagement.AsyncOperations.ICachable.Hash>k__BackingField
+    int& dyn_$UnityEngine_ResourceManagement_AsyncOperations_ICachable_Hash$k__BackingField();
+    // Get instance field reference: private System.Collections.Generic.HashSet`1<System.String> m_CachedDependencyLocations
+    System::Collections::Generic::HashSet_1<::Il2CppString*>*& dyn_m_CachedDependencyLocations();
     // private System.Int32 UnityEngine.ResourceManagement.AsyncOperations.ICachable.get_Hash()
     // Offset: 0x19E5B84
     int UnityEngine_ResourceManagement_AsyncOperations_ICachable_get_Hash();

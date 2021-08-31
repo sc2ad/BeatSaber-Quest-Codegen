@@ -92,10 +92,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::NoteCutDirection _get_None();
     // Set static field: static public NoteCutDirection None
     static void _set_None(GlobalNamespace::NoteCutDirection value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // NoteCutDirection
   #pragma pack(pop)
   static check_size<sizeof(NoteCutDirection), 0 + sizeof(int)> __GlobalNamespace_NoteCutDirectionSizeCheck;

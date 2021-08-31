@@ -73,34 +73,20 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.UInt64 cpuTimePresentCalled
-    uint64_t _get_cpuTimePresentCalled();
-    // Set instance field: public System.UInt64 cpuTimePresentCalled
-    void _set_cpuTimePresentCalled(uint64_t value);
-    // Get instance field: public System.Double cpuFrameTime
-    double _get_cpuFrameTime();
-    // Set instance field: public System.Double cpuFrameTime
-    void _set_cpuFrameTime(double value);
-    // Get instance field: public System.UInt64 cpuTimeFrameComplete
-    uint64_t _get_cpuTimeFrameComplete();
-    // Set instance field: public System.UInt64 cpuTimeFrameComplete
-    void _set_cpuTimeFrameComplete(uint64_t value);
-    // Get instance field: public System.Double gpuFrameTime
-    double _get_gpuFrameTime();
-    // Set instance field: public System.Double gpuFrameTime
-    void _set_gpuFrameTime(double value);
-    // Get instance field: public System.Single heightScale
-    float _get_heightScale();
-    // Set instance field: public System.Single heightScale
-    void _set_heightScale(float value);
-    // Get instance field: public System.Single widthScale
-    float _get_widthScale();
-    // Set instance field: public System.Single widthScale
-    void _set_widthScale(float value);
-    // Get instance field: public System.UInt32 syncInterval
-    uint _get_syncInterval();
-    // Set instance field: public System.UInt32 syncInterval
-    void _set_syncInterval(uint value);
+    // Get instance field reference: public System.UInt64 cpuTimePresentCalled
+    uint64_t& dyn_cpuTimePresentCalled();
+    // Get instance field reference: public System.Double cpuFrameTime
+    double& dyn_cpuFrameTime();
+    // Get instance field reference: public System.UInt64 cpuTimeFrameComplete
+    uint64_t& dyn_cpuTimeFrameComplete();
+    // Get instance field reference: public System.Double gpuFrameTime
+    double& dyn_gpuFrameTime();
+    // Get instance field reference: public System.Single heightScale
+    float& dyn_heightScale();
+    // Get instance field reference: public System.Single widthScale
+    float& dyn_widthScale();
+    // Get instance field reference: public System.UInt32 syncInterval
+    uint& dyn_syncInterval();
   }; // UnityEngine.FrameTiming
   #pragma pack(pop)
   static check_size<sizeof(FrameTiming), 40 + sizeof(uint)> __UnityEngine_FrameTimingSizeCheck;

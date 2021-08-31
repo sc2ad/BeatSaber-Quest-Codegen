@@ -94,34 +94,20 @@ namespace HMUI {
     static System::Text::StringBuilder* _get__stringBuilder();
     // Set static field: static private readonly System.Text.StringBuilder _stringBuilder
     static void _set__stringBuilder(System::Text::StringBuilder* value);
-    // Get instance field: private System.String _textPrefix
-    ::Il2CppString* _get__textPrefix();
-    // Set instance field: private System.String _textPrefix
-    void _set__textPrefix(::Il2CppString* value);
-    // Get instance field: private UnityEngine.Color _color0
-    UnityEngine::Color _get__color0();
-    // Set instance field: private UnityEngine.Color _color0
-    void _set__color0(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _color1
-    UnityEngine::Color _get__color1();
-    // Set instance field: private UnityEngine.Color _color1
-    void _set__color1(UnityEngine::Color value);
-    // Get instance field: private HMUI.ImageView[] _gradientImages
-    ::Array<HMUI::ImageView*>* _get__gradientImages();
-    // Set instance field: private HMUI.ImageView[] _gradientImages
-    void _set__gradientImages(::Array<HMUI::ImageView*>* value);
-    // Get instance field: private UnityEngine.Color _darkColor
-    UnityEngine::Color _get__darkColor();
-    // Set instance field: private UnityEngine.Color _darkColor
-    void _set__darkColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _lightColor
-    UnityEngine::Color _get__lightColor();
-    // Set instance field: private UnityEngine.Color _lightColor
-    void _set__lightColor(UnityEngine::Color value);
-    // Get instance field: private System.Action`3<HMUI.ColorGradientSlider,UnityEngine.Color,ColorChangeUIEventType> colorDidChangeEvent
-    System::Action_3<HMUI::ColorGradientSlider*, UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* _get_colorDidChangeEvent();
-    // Set instance field: private System.Action`3<HMUI.ColorGradientSlider,UnityEngine.Color,ColorChangeUIEventType> colorDidChangeEvent
-    void _set_colorDidChangeEvent(System::Action_3<HMUI::ColorGradientSlider*, UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);
+    // Get instance field reference: private System.String _textPrefix
+    ::Il2CppString*& dyn__textPrefix();
+    // Get instance field reference: private UnityEngine.Color _color0
+    UnityEngine::Color& dyn__color0();
+    // Get instance field reference: private UnityEngine.Color _color1
+    UnityEngine::Color& dyn__color1();
+    // Get instance field reference: private HMUI.ImageView[] _gradientImages
+    ::Array<HMUI::ImageView*>*& dyn__gradientImages();
+    // Get instance field reference: private UnityEngine.Color _darkColor
+    UnityEngine::Color& dyn__darkColor();
+    // Get instance field reference: private UnityEngine.Color _lightColor
+    UnityEngine::Color& dyn__lightColor();
+    // Get instance field reference: private System.Action`3<HMUI.ColorGradientSlider,UnityEngine.Color,ColorChangeUIEventType> colorDidChangeEvent
+    System::Action_3<HMUI::ColorGradientSlider*, UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>*& dyn_colorDidChangeEvent();
     // public System.Void add_colorDidChangeEvent(System.Action`3<HMUI.ColorGradientSlider,UnityEngine.Color,ColorChangeUIEventType> value)
     // Offset: 0x1368108
     void add_colorDidChangeEvent(System::Action_3<HMUI::ColorGradientSlider*, UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);

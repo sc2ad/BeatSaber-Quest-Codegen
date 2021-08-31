@@ -79,42 +79,24 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Boolean bActive
-    bool _get_bActive();
-    // Set instance field: public System.Boolean bActive
-    void _set_bActive(bool value);
-    // Get instance field: public System.UInt64 activeOrigin
-    uint64_t _get_activeOrigin();
-    // Set instance field: public System.UInt64 activeOrigin
-    void _set_activeOrigin(uint64_t value);
-    // Get instance field: public System.Single x
-    float _get_x();
-    // Set instance field: public System.Single x
-    void _set_x(float value);
-    // Get instance field: public System.Single y
-    float _get_y();
-    // Set instance field: public System.Single y
-    void _set_y(float value);
-    // Get instance field: public System.Single z
-    float _get_z();
-    // Set instance field: public System.Single z
-    void _set_z(float value);
-    // Get instance field: public System.Single deltaX
-    float _get_deltaX();
-    // Set instance field: public System.Single deltaX
-    void _set_deltaX(float value);
-    // Get instance field: public System.Single deltaY
-    float _get_deltaY();
-    // Set instance field: public System.Single deltaY
-    void _set_deltaY(float value);
-    // Get instance field: public System.Single deltaZ
-    float _get_deltaZ();
-    // Set instance field: public System.Single deltaZ
-    void _set_deltaZ(float value);
-    // Get instance field: public System.Single fUpdateTime
-    float _get_fUpdateTime();
-    // Set instance field: public System.Single fUpdateTime
-    void _set_fUpdateTime(float value);
+    // Get instance field reference: public System.Boolean bActive
+    bool& dyn_bActive();
+    // Get instance field reference: public System.UInt64 activeOrigin
+    uint64_t& dyn_activeOrigin();
+    // Get instance field reference: public System.Single x
+    float& dyn_x();
+    // Get instance field reference: public System.Single y
+    float& dyn_y();
+    // Get instance field reference: public System.Single z
+    float& dyn_z();
+    // Get instance field reference: public System.Single deltaX
+    float& dyn_deltaX();
+    // Get instance field reference: public System.Single deltaY
+    float& dyn_deltaY();
+    // Get instance field reference: public System.Single deltaZ
+    float& dyn_deltaZ();
+    // Get instance field reference: public System.Single fUpdateTime
+    float& dyn_fUpdateTime();
   }; // OVR.OpenVR.InputAnalogActionData_t
   #pragma pack(pop)
   static check_size<sizeof(InputAnalogActionData_t), 40 + sizeof(float)> __OVR_OpenVR_InputAnalogActionData_tSizeCheck;

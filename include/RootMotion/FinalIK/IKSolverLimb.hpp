@@ -87,10 +87,8 @@ namespace RootMotion::FinalIK {
       static RootMotion::FinalIK::IKSolverLimb::BendModifier _get_Goal();
       // Set static field: static public RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.BendModifier Goal
       static void _set_Goal(RootMotion::FinalIK::IKSolverLimb::BendModifier value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.BendModifier
     #pragma pack(pop)
     static check_size<sizeof(IKSolverLimb::BendModifier), 0 + sizeof(int)> __RootMotion_FinalIK_IKSolverLimb_BendModifierSizeCheck;
@@ -126,18 +124,12 @@ namespace RootMotion::FinalIK {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public UnityEngine.Vector3 direction
-      UnityEngine::Vector3 _get_direction();
-      // Set instance field: public UnityEngine.Vector3 direction
-      void _set_direction(UnityEngine::Vector3 value);
-      // Get instance field: public UnityEngine.Vector3 axis
-      UnityEngine::Vector3 _get_axis();
-      // Set instance field: public UnityEngine.Vector3 axis
-      void _set_axis(UnityEngine::Vector3 value);
-      // Get instance field: public System.Single dot
-      float _get_dot();
-      // Set instance field: public System.Single dot
-      void _set_dot(float value);
+      // Get instance field reference: public UnityEngine.Vector3 direction
+      UnityEngine::Vector3& dyn_direction();
+      // Get instance field reference: public UnityEngine.Vector3 axis
+      UnityEngine::Vector3& dyn_axis();
+      // Get instance field reference: public System.Single dot
+      float& dyn_dot();
       // public System.Void .ctor(UnityEngine.Vector3 direction, UnityEngine.Vector3 axis)
       // Offset: 0x1CB7888
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -254,70 +246,38 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>*) == 0x8);
     // Creating value type constructor for type: IKSolverLimb
     IKSolverLimb(UnityEngine::AvatarIKGoal goal_ = {}, RootMotion::FinalIK::IKSolverLimb::BendModifier bendModifier_ = {}, float maintainRotationWeight_ = {}, float bendModifierWeight_ = {}, UnityEngine::Transform* bendGoal_ = {}, bool maintainBendFor1Frame_ = {}, bool maintainRotationFor1Frame_ = {}, UnityEngine::Quaternion defaultRootRotation_ = {}, UnityEngine::Quaternion parentDefaultRotation_ = {}, UnityEngine::Quaternion bone3RotationBeforeSolve_ = {}, UnityEngine::Quaternion maintainRotation_ = {}, UnityEngine::Quaternion bone3DefaultRotation_ = {}, UnityEngine::Vector3 bendNormal_ = {}, UnityEngine::Vector3 animationNormal_ = {}, ::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>* axisDirectionsLeft_ = {}, ::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>* axisDirectionsRight_ = {}) noexcept : goal{goal_}, bendModifier{bendModifier_}, maintainRotationWeight{maintainRotationWeight_}, bendModifierWeight{bendModifierWeight_}, bendGoal{bendGoal_}, maintainBendFor1Frame{maintainBendFor1Frame_}, maintainRotationFor1Frame{maintainRotationFor1Frame_}, defaultRootRotation{defaultRootRotation_}, parentDefaultRotation{parentDefaultRotation_}, bone3RotationBeforeSolve{bone3RotationBeforeSolve_}, maintainRotation{maintainRotation_}, bone3DefaultRotation{bone3DefaultRotation_}, bendNormal{bendNormal_}, animationNormal{animationNormal_}, axisDirectionsLeft{axisDirectionsLeft_}, axisDirectionsRight{axisDirectionsRight_} {}
-    // Get instance field: public UnityEngine.AvatarIKGoal goal
-    UnityEngine::AvatarIKGoal _get_goal();
-    // Set instance field: public UnityEngine.AvatarIKGoal goal
-    void _set_goal(UnityEngine::AvatarIKGoal value);
-    // Get instance field: public RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.BendModifier bendModifier
-    RootMotion::FinalIK::IKSolverLimb::BendModifier _get_bendModifier();
-    // Set instance field: public RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.BendModifier bendModifier
-    void _set_bendModifier(RootMotion::FinalIK::IKSolverLimb::BendModifier value);
-    // Get instance field: public System.Single maintainRotationWeight
-    float _get_maintainRotationWeight();
-    // Set instance field: public System.Single maintainRotationWeight
-    void _set_maintainRotationWeight(float value);
-    // Get instance field: public System.Single bendModifierWeight
-    float _get_bendModifierWeight();
-    // Set instance field: public System.Single bendModifierWeight
-    void _set_bendModifierWeight(float value);
-    // Get instance field: public UnityEngine.Transform bendGoal
-    UnityEngine::Transform* _get_bendGoal();
-    // Set instance field: public UnityEngine.Transform bendGoal
-    void _set_bendGoal(UnityEngine::Transform* value);
-    // Get instance field: private System.Boolean maintainBendFor1Frame
-    bool _get_maintainBendFor1Frame();
-    // Set instance field: private System.Boolean maintainBendFor1Frame
-    void _set_maintainBendFor1Frame(bool value);
-    // Get instance field: private System.Boolean maintainRotationFor1Frame
-    bool _get_maintainRotationFor1Frame();
-    // Set instance field: private System.Boolean maintainRotationFor1Frame
-    void _set_maintainRotationFor1Frame(bool value);
-    // Get instance field: private UnityEngine.Quaternion defaultRootRotation
-    UnityEngine::Quaternion _get_defaultRootRotation();
-    // Set instance field: private UnityEngine.Quaternion defaultRootRotation
-    void _set_defaultRootRotation(UnityEngine::Quaternion value);
-    // Get instance field: private UnityEngine.Quaternion parentDefaultRotation
-    UnityEngine::Quaternion _get_parentDefaultRotation();
-    // Set instance field: private UnityEngine.Quaternion parentDefaultRotation
-    void _set_parentDefaultRotation(UnityEngine::Quaternion value);
-    // Get instance field: private UnityEngine.Quaternion bone3RotationBeforeSolve
-    UnityEngine::Quaternion _get_bone3RotationBeforeSolve();
-    // Set instance field: private UnityEngine.Quaternion bone3RotationBeforeSolve
-    void _set_bone3RotationBeforeSolve(UnityEngine::Quaternion value);
-    // Get instance field: private UnityEngine.Quaternion maintainRotation
-    UnityEngine::Quaternion _get_maintainRotation();
-    // Set instance field: private UnityEngine.Quaternion maintainRotation
-    void _set_maintainRotation(UnityEngine::Quaternion value);
-    // Get instance field: private UnityEngine.Quaternion bone3DefaultRotation
-    UnityEngine::Quaternion _get_bone3DefaultRotation();
-    // Set instance field: private UnityEngine.Quaternion bone3DefaultRotation
-    void _set_bone3DefaultRotation(UnityEngine::Quaternion value);
-    // Get instance field: private UnityEngine.Vector3 _bendNormal
-    UnityEngine::Vector3 _get__bendNormal();
-    // Set instance field: private UnityEngine.Vector3 _bendNormal
-    void _set__bendNormal(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 animationNormal
-    UnityEngine::Vector3 _get_animationNormal();
-    // Set instance field: private UnityEngine.Vector3 animationNormal
-    void _set_animationNormal(UnityEngine::Vector3 value);
-    // Get instance field: private RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.AxisDirection[] axisDirectionsLeft
-    ::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>* _get_axisDirectionsLeft();
-    // Set instance field: private RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.AxisDirection[] axisDirectionsLeft
-    void _set_axisDirectionsLeft(::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>* value);
-    // Get instance field: private RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.AxisDirection[] axisDirectionsRight
-    ::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>* _get_axisDirectionsRight();
-    // Set instance field: private RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.AxisDirection[] axisDirectionsRight
-    void _set_axisDirectionsRight(::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>* value);
+    // Get instance field reference: public UnityEngine.AvatarIKGoal goal
+    UnityEngine::AvatarIKGoal& dyn_goal();
+    // Get instance field reference: public RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.BendModifier bendModifier
+    RootMotion::FinalIK::IKSolverLimb::BendModifier& dyn_bendModifier();
+    // Get instance field reference: public System.Single maintainRotationWeight
+    float& dyn_maintainRotationWeight();
+    // Get instance field reference: public System.Single bendModifierWeight
+    float& dyn_bendModifierWeight();
+    // Get instance field reference: public UnityEngine.Transform bendGoal
+    UnityEngine::Transform*& dyn_bendGoal();
+    // Get instance field reference: private System.Boolean maintainBendFor1Frame
+    bool& dyn_maintainBendFor1Frame();
+    // Get instance field reference: private System.Boolean maintainRotationFor1Frame
+    bool& dyn_maintainRotationFor1Frame();
+    // Get instance field reference: private UnityEngine.Quaternion defaultRootRotation
+    UnityEngine::Quaternion& dyn_defaultRootRotation();
+    // Get instance field reference: private UnityEngine.Quaternion parentDefaultRotation
+    UnityEngine::Quaternion& dyn_parentDefaultRotation();
+    // Get instance field reference: private UnityEngine.Quaternion bone3RotationBeforeSolve
+    UnityEngine::Quaternion& dyn_bone3RotationBeforeSolve();
+    // Get instance field reference: private UnityEngine.Quaternion maintainRotation
+    UnityEngine::Quaternion& dyn_maintainRotation();
+    // Get instance field reference: private UnityEngine.Quaternion bone3DefaultRotation
+    UnityEngine::Quaternion& dyn_bone3DefaultRotation();
+    // Get instance field reference: private UnityEngine.Vector3 _bendNormal
+    UnityEngine::Vector3& dyn__bendNormal();
+    // Get instance field reference: private UnityEngine.Vector3 animationNormal
+    UnityEngine::Vector3& dyn_animationNormal();
+    // Get instance field reference: private RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.AxisDirection[] axisDirectionsLeft
+    ::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>*& dyn_axisDirectionsLeft();
+    // Get instance field reference: private RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.AxisDirection[] axisDirectionsRight
+    ::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>*& dyn_axisDirectionsRight();
     // private RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.AxisDirection[] get_axisDirections()
     // Offset: 0x1CB786C
     ::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>* get_axisDirections();

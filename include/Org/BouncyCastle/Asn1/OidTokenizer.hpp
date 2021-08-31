@@ -32,14 +32,10 @@ namespace Org::BouncyCastle::Asn1 {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: OidTokenizer
     OidTokenizer(::Il2CppString* oid_ = {}, int index_ = {}) noexcept : oid{oid_}, index{index_} {}
-    // Get instance field: private System.String oid
-    ::Il2CppString* _get_oid();
-    // Set instance field: private System.String oid
-    void _set_oid(::Il2CppString* value);
-    // Get instance field: private System.Int32 index
-    int _get_index();
-    // Set instance field: private System.Int32 index
-    void _set_index(int value);
+    // Get instance field reference: private System.String oid
+    ::Il2CppString*& dyn_oid();
+    // Get instance field reference: private System.Int32 index
+    int& dyn_index();
     // public System.Boolean get_HasMoreTokens()
     // Offset: 0x17AF55C
     bool get_HasMoreTokens();

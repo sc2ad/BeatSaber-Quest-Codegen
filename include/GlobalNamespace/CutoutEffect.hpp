@@ -74,26 +74,16 @@ namespace GlobalNamespace {
     static int _get__cutoutTexOffsetPropertyID();
     // Set static field: static private readonly System.Int32 _cutoutTexOffsetPropertyID
     static void _set__cutoutTexOffsetPropertyID(int value);
-    // Get instance field: private MaterialPropertyBlockController _materialPropertyBlockController
-    GlobalNamespace::MaterialPropertyBlockController* _get__materialPropertyBlockController();
-    // Set instance field: private MaterialPropertyBlockController _materialPropertyBlockController
-    void _set__materialPropertyBlockController(GlobalNamespace::MaterialPropertyBlockController* value);
-    // Get instance field: private BoolSO _useRandomCutoutOffset
-    GlobalNamespace::BoolSO* _get__useRandomCutoutOffset();
-    // Set instance field: private BoolSO _useRandomCutoutOffset
-    void _set__useRandomCutoutOffset(GlobalNamespace::BoolSO* value);
-    // Get instance field: private UnityEngine.Vector3 _cutoutOffset
-    UnityEngine::Vector3 _get__cutoutOffset();
-    // Set instance field: private UnityEngine.Vector3 _cutoutOffset
-    void _set__cutoutOffset(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 _randomNoiseTexOffset
-    UnityEngine::Vector3 _get__randomNoiseTexOffset();
-    // Set instance field: private UnityEngine.Vector3 _randomNoiseTexOffset
-    void _set__randomNoiseTexOffset(UnityEngine::Vector3 value);
-    // Get instance field: private System.Single _cutout
-    float _get__cutout();
-    // Set instance field: private System.Single _cutout
-    void _set__cutout(float value);
+    // Get instance field reference: private MaterialPropertyBlockController _materialPropertyBlockController
+    GlobalNamespace::MaterialPropertyBlockController*& dyn__materialPropertyBlockController();
+    // Get instance field reference: private BoolSO _useRandomCutoutOffset
+    GlobalNamespace::BoolSO*& dyn__useRandomCutoutOffset();
+    // Get instance field reference: private UnityEngine.Vector3 _cutoutOffset
+    UnityEngine::Vector3& dyn__cutoutOffset();
+    // Get instance field reference: private UnityEngine.Vector3 _randomNoiseTexOffset
+    UnityEngine::Vector3& dyn__randomNoiseTexOffset();
+    // Get instance field reference: private System.Single _cutout
+    float& dyn__cutout();
     // public System.Boolean get_useRandomCutoutOffset()
     // Offset: 0x10F8500
     bool get_useRandomCutoutOffset();

@@ -30,10 +30,8 @@ namespace GlobalNamespace {
     OVRWaitCursor(UnityEngine::Vector3 rotateSpeeds_ = {}) noexcept : rotateSpeeds{rotateSpeeds_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public UnityEngine.Vector3 rotateSpeeds
-    UnityEngine::Vector3 _get_rotateSpeeds();
-    // Set instance field: public UnityEngine.Vector3 rotateSpeeds
-    void _set_rotateSpeeds(UnityEngine::Vector3 value);
+    // Get instance field reference: public UnityEngine.Vector3 rotateSpeeds
+    UnityEngine::Vector3& dyn_rotateSpeeds();
     // private System.Void Update()
     // Offset: 0x1F4BFF8
     void Update();

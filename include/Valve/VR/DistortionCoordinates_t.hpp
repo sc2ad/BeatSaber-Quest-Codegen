@@ -58,30 +58,18 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Single rfRed0
-    float _get_rfRed0();
-    // Set instance field: public System.Single rfRed0
-    void _set_rfRed0(float value);
-    // Get instance field: public System.Single rfRed1
-    float _get_rfRed1();
-    // Set instance field: public System.Single rfRed1
-    void _set_rfRed1(float value);
-    // Get instance field: public System.Single rfGreen0
-    float _get_rfGreen0();
-    // Set instance field: public System.Single rfGreen0
-    void _set_rfGreen0(float value);
-    // Get instance field: public System.Single rfGreen1
-    float _get_rfGreen1();
-    // Set instance field: public System.Single rfGreen1
-    void _set_rfGreen1(float value);
-    // Get instance field: public System.Single rfBlue0
-    float _get_rfBlue0();
-    // Set instance field: public System.Single rfBlue0
-    void _set_rfBlue0(float value);
-    // Get instance field: public System.Single rfBlue1
-    float _get_rfBlue1();
-    // Set instance field: public System.Single rfBlue1
-    void _set_rfBlue1(float value);
+    // Get instance field reference: public System.Single rfRed0
+    float& dyn_rfRed0();
+    // Get instance field reference: public System.Single rfRed1
+    float& dyn_rfRed1();
+    // Get instance field reference: public System.Single rfGreen0
+    float& dyn_rfGreen0();
+    // Get instance field reference: public System.Single rfGreen1
+    float& dyn_rfGreen1();
+    // Get instance field reference: public System.Single rfBlue0
+    float& dyn_rfBlue0();
+    // Get instance field reference: public System.Single rfBlue1
+    float& dyn_rfBlue1();
   }; // Valve.VR.DistortionCoordinates_t
   #pragma pack(pop)
   static check_size<sizeof(DistortionCoordinates_t), 20 + sizeof(float)> __Valve_VR_DistortionCoordinates_tSizeCheck;

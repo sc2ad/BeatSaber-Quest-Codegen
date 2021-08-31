@@ -85,30 +85,18 @@ namespace Zenject {
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*) == 0x8);
     // Creating value type constructor for type: SceneDecoratorContext
     SceneDecoratorContext(System::Collections::Generic::List_1<Zenject::MonoInstaller*>* lateInstallers_ = {}, System::Collections::Generic::List_1<Zenject::MonoInstaller*>* lateInstallerPrefabs_ = {}, System::Collections::Generic::List_1<Zenject::ScriptableObjectInstaller*>* lateScriptableObjectInstallers_ = {}, ::Il2CppString* decoratedContractName_ = {}, Zenject::DiContainer* container_ = {}, System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>* injectableMonoBehaviours_ = {}) noexcept : lateInstallers{lateInstallers_}, lateInstallerPrefabs{lateInstallerPrefabs_}, lateScriptableObjectInstallers{lateScriptableObjectInstallers_}, decoratedContractName{decoratedContractName_}, container{container_}, injectableMonoBehaviours{injectableMonoBehaviours_} {}
-    // Get instance field: private System.Collections.Generic.List`1<Zenject.MonoInstaller> _lateInstallers
-    System::Collections::Generic::List_1<Zenject::MonoInstaller*>* _get__lateInstallers();
-    // Set instance field: private System.Collections.Generic.List`1<Zenject.MonoInstaller> _lateInstallers
-    void _set__lateInstallers(System::Collections::Generic::List_1<Zenject::MonoInstaller*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<Zenject.MonoInstaller> _lateInstallerPrefabs
-    System::Collections::Generic::List_1<Zenject::MonoInstaller*>* _get__lateInstallerPrefabs();
-    // Set instance field: private System.Collections.Generic.List`1<Zenject.MonoInstaller> _lateInstallerPrefabs
-    void _set__lateInstallerPrefabs(System::Collections::Generic::List_1<Zenject::MonoInstaller*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<Zenject.ScriptableObjectInstaller> _lateScriptableObjectInstallers
-    System::Collections::Generic::List_1<Zenject::ScriptableObjectInstaller*>* _get__lateScriptableObjectInstallers();
-    // Set instance field: private System.Collections.Generic.List`1<Zenject.ScriptableObjectInstaller> _lateScriptableObjectInstallers
-    void _set__lateScriptableObjectInstallers(System::Collections::Generic::List_1<Zenject::ScriptableObjectInstaller*>* value);
-    // Get instance field: private System.String _decoratedContractName
-    ::Il2CppString* _get__decoratedContractName();
-    // Set instance field: private System.String _decoratedContractName
-    void _set__decoratedContractName(::Il2CppString* value);
-    // Get instance field: private Zenject.DiContainer _container
-    Zenject::DiContainer* _get__container();
-    // Set instance field: private Zenject.DiContainer _container
-    void _set__container(Zenject::DiContainer* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> _injectableMonoBehaviours
-    System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>* _get__injectableMonoBehaviours();
-    // Set instance field: private readonly System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> _injectableMonoBehaviours
-    void _set__injectableMonoBehaviours(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>* value);
+    // Get instance field reference: private System.Collections.Generic.List`1<Zenject.MonoInstaller> _lateInstallers
+    System::Collections::Generic::List_1<Zenject::MonoInstaller*>*& dyn__lateInstallers();
+    // Get instance field reference: private System.Collections.Generic.List`1<Zenject.MonoInstaller> _lateInstallerPrefabs
+    System::Collections::Generic::List_1<Zenject::MonoInstaller*>*& dyn__lateInstallerPrefabs();
+    // Get instance field reference: private System.Collections.Generic.List`1<Zenject.ScriptableObjectInstaller> _lateScriptableObjectInstallers
+    System::Collections::Generic::List_1<Zenject::ScriptableObjectInstaller*>*& dyn__lateScriptableObjectInstallers();
+    // Get instance field reference: private System.String _decoratedContractName
+    ::Il2CppString*& dyn__decoratedContractName();
+    // Get instance field reference: private Zenject.DiContainer _container
+    Zenject::DiContainer*& dyn__container();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> _injectableMonoBehaviours
+    System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*& dyn__injectableMonoBehaviours();
     // public System.Collections.Generic.IEnumerable`1<Zenject.MonoInstaller> get_LateInstallers()
     // Offset: 0x171CCB0
     System::Collections::Generic::IEnumerable_1<Zenject::MonoInstaller*>* get_LateInstallers();

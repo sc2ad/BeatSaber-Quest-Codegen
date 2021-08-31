@@ -275,130 +275,68 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: Valve.VR.IVRApplications/Valve.VR._AddApplicationManifest AddApplicationManifest
-    Valve::VR::IVRApplications::_AddApplicationManifest* _get_AddApplicationManifest();
-    // Set instance field: Valve.VR.IVRApplications/Valve.VR._AddApplicationManifest AddApplicationManifest
-    void _set_AddApplicationManifest(Valve::VR::IVRApplications::_AddApplicationManifest* value);
-    // Get instance field: Valve.VR.IVRApplications/Valve.VR._RemoveApplicationManifest RemoveApplicationManifest
-    Valve::VR::IVRApplications::_RemoveApplicationManifest* _get_RemoveApplicationManifest();
-    // Set instance field: Valve.VR.IVRApplications/Valve.VR._RemoveApplicationManifest RemoveApplicationManifest
-    void _set_RemoveApplicationManifest(Valve::VR::IVRApplications::_RemoveApplicationManifest* value);
-    // Get instance field: Valve.VR.IVRApplications/Valve.VR._IsApplicationInstalled IsApplicationInstalled
-    Valve::VR::IVRApplications::_IsApplicationInstalled* _get_IsApplicationInstalled();
-    // Set instance field: Valve.VR.IVRApplications/Valve.VR._IsApplicationInstalled IsApplicationInstalled
-    void _set_IsApplicationInstalled(Valve::VR::IVRApplications::_IsApplicationInstalled* value);
-    // Get instance field: Valve.VR.IVRApplications/Valve.VR._GetApplicationCount GetApplicationCount
-    Valve::VR::IVRApplications::_GetApplicationCount* _get_GetApplicationCount();
-    // Set instance field: Valve.VR.IVRApplications/Valve.VR._GetApplicationCount GetApplicationCount
-    void _set_GetApplicationCount(Valve::VR::IVRApplications::_GetApplicationCount* value);
-    // Get instance field: Valve.VR.IVRApplications/Valve.VR._GetApplicationKeyByIndex GetApplicationKeyByIndex
-    Valve::VR::IVRApplications::_GetApplicationKeyByIndex* _get_GetApplicationKeyByIndex();
-    // Set instance field: Valve.VR.IVRApplications/Valve.VR._GetApplicationKeyByIndex GetApplicationKeyByIndex
-    void _set_GetApplicationKeyByIndex(Valve::VR::IVRApplications::_GetApplicationKeyByIndex* value);
-    // Get instance field: Valve.VR.IVRApplications/Valve.VR._GetApplicationKeyByProcessId GetApplicationKeyByProcessId
-    Valve::VR::IVRApplications::_GetApplicationKeyByProcessId* _get_GetApplicationKeyByProcessId();
-    // Set instance field: Valve.VR.IVRApplications/Valve.VR._GetApplicationKeyByProcessId GetApplicationKeyByProcessId
-    void _set_GetApplicationKeyByProcessId(Valve::VR::IVRApplications::_GetApplicationKeyByProcessId* value);
-    // Get instance field: Valve.VR.IVRApplications/Valve.VR._LaunchApplication LaunchApplication
-    Valve::VR::IVRApplications::_LaunchApplication* _get_LaunchApplication();
-    // Set instance field: Valve.VR.IVRApplications/Valve.VR._LaunchApplication LaunchApplication
-    void _set_LaunchApplication(Valve::VR::IVRApplications::_LaunchApplication* value);
-    // Get instance field: Valve.VR.IVRApplications/Valve.VR._LaunchTemplateApplication LaunchTemplateApplication
-    Valve::VR::IVRApplications::_LaunchTemplateApplication* _get_LaunchTemplateApplication();
-    // Set instance field: Valve.VR.IVRApplications/Valve.VR._LaunchTemplateApplication LaunchTemplateApplication
-    void _set_LaunchTemplateApplication(Valve::VR::IVRApplications::_LaunchTemplateApplication* value);
-    // Get instance field: Valve.VR.IVRApplications/Valve.VR._LaunchApplicationFromMimeType LaunchApplicationFromMimeType
-    Valve::VR::IVRApplications::_LaunchApplicationFromMimeType* _get_LaunchApplicationFromMimeType();
-    // Set instance field: Valve.VR.IVRApplications/Valve.VR._LaunchApplicationFromMimeType LaunchApplicationFromMimeType
-    void _set_LaunchApplicationFromMimeType(Valve::VR::IVRApplications::_LaunchApplicationFromMimeType* value);
-    // Get instance field: Valve.VR.IVRApplications/Valve.VR._LaunchDashboardOverlay LaunchDashboardOverlay
-    Valve::VR::IVRApplications::_LaunchDashboardOverlay* _get_LaunchDashboardOverlay();
-    // Set instance field: Valve.VR.IVRApplications/Valve.VR._LaunchDashboardOverlay LaunchDashboardOverlay
-    void _set_LaunchDashboardOverlay(Valve::VR::IVRApplications::_LaunchDashboardOverlay* value);
-    // Get instance field: Valve.VR.IVRApplications/Valve.VR._CancelApplicationLaunch CancelApplicationLaunch
-    Valve::VR::IVRApplications::_CancelApplicationLaunch* _get_CancelApplicationLaunch();
-    // Set instance field: Valve.VR.IVRApplications/Valve.VR._CancelApplicationLaunch CancelApplicationLaunch
-    void _set_CancelApplicationLaunch(Valve::VR::IVRApplications::_CancelApplicationLaunch* value);
-    // Get instance field: Valve.VR.IVRApplications/Valve.VR._IdentifyApplication IdentifyApplication
-    Valve::VR::IVRApplications::_IdentifyApplication* _get_IdentifyApplication();
-    // Set instance field: Valve.VR.IVRApplications/Valve.VR._IdentifyApplication IdentifyApplication
-    void _set_IdentifyApplication(Valve::VR::IVRApplications::_IdentifyApplication* value);
-    // Get instance field: Valve.VR.IVRApplications/Valve.VR._GetApplicationProcessId GetApplicationProcessId
-    Valve::VR::IVRApplications::_GetApplicationProcessId* _get_GetApplicationProcessId();
-    // Set instance field: Valve.VR.IVRApplications/Valve.VR._GetApplicationProcessId GetApplicationProcessId
-    void _set_GetApplicationProcessId(Valve::VR::IVRApplications::_GetApplicationProcessId* value);
-    // Get instance field: Valve.VR.IVRApplications/Valve.VR._GetApplicationsErrorNameFromEnum GetApplicationsErrorNameFromEnum
-    Valve::VR::IVRApplications::_GetApplicationsErrorNameFromEnum* _get_GetApplicationsErrorNameFromEnum();
-    // Set instance field: Valve.VR.IVRApplications/Valve.VR._GetApplicationsErrorNameFromEnum GetApplicationsErrorNameFromEnum
-    void _set_GetApplicationsErrorNameFromEnum(Valve::VR::IVRApplications::_GetApplicationsErrorNameFromEnum* value);
-    // Get instance field: Valve.VR.IVRApplications/Valve.VR._GetApplicationPropertyString GetApplicationPropertyString
-    Valve::VR::IVRApplications::_GetApplicationPropertyString* _get_GetApplicationPropertyString();
-    // Set instance field: Valve.VR.IVRApplications/Valve.VR._GetApplicationPropertyString GetApplicationPropertyString
-    void _set_GetApplicationPropertyString(Valve::VR::IVRApplications::_GetApplicationPropertyString* value);
-    // Get instance field: Valve.VR.IVRApplications/Valve.VR._GetApplicationPropertyBool GetApplicationPropertyBool
-    Valve::VR::IVRApplications::_GetApplicationPropertyBool* _get_GetApplicationPropertyBool();
-    // Set instance field: Valve.VR.IVRApplications/Valve.VR._GetApplicationPropertyBool GetApplicationPropertyBool
-    void _set_GetApplicationPropertyBool(Valve::VR::IVRApplications::_GetApplicationPropertyBool* value);
-    // Get instance field: Valve.VR.IVRApplications/Valve.VR._GetApplicationPropertyUint64 GetApplicationPropertyUint64
-    Valve::VR::IVRApplications::_GetApplicationPropertyUint64* _get_GetApplicationPropertyUint64();
-    // Set instance field: Valve.VR.IVRApplications/Valve.VR._GetApplicationPropertyUint64 GetApplicationPropertyUint64
-    void _set_GetApplicationPropertyUint64(Valve::VR::IVRApplications::_GetApplicationPropertyUint64* value);
-    // Get instance field: Valve.VR.IVRApplications/Valve.VR._SetApplicationAutoLaunch SetApplicationAutoLaunch
-    Valve::VR::IVRApplications::_SetApplicationAutoLaunch* _get_SetApplicationAutoLaunch();
-    // Set instance field: Valve.VR.IVRApplications/Valve.VR._SetApplicationAutoLaunch SetApplicationAutoLaunch
-    void _set_SetApplicationAutoLaunch(Valve::VR::IVRApplications::_SetApplicationAutoLaunch* value);
-    // Get instance field: Valve.VR.IVRApplications/Valve.VR._GetApplicationAutoLaunch GetApplicationAutoLaunch
-    Valve::VR::IVRApplications::_GetApplicationAutoLaunch* _get_GetApplicationAutoLaunch();
-    // Set instance field: Valve.VR.IVRApplications/Valve.VR._GetApplicationAutoLaunch GetApplicationAutoLaunch
-    void _set_GetApplicationAutoLaunch(Valve::VR::IVRApplications::_GetApplicationAutoLaunch* value);
-    // Get instance field: Valve.VR.IVRApplications/Valve.VR._SetDefaultApplicationForMimeType SetDefaultApplicationForMimeType
-    Valve::VR::IVRApplications::_SetDefaultApplicationForMimeType* _get_SetDefaultApplicationForMimeType();
-    // Set instance field: Valve.VR.IVRApplications/Valve.VR._SetDefaultApplicationForMimeType SetDefaultApplicationForMimeType
-    void _set_SetDefaultApplicationForMimeType(Valve::VR::IVRApplications::_SetDefaultApplicationForMimeType* value);
-    // Get instance field: Valve.VR.IVRApplications/Valve.VR._GetDefaultApplicationForMimeType GetDefaultApplicationForMimeType
-    Valve::VR::IVRApplications::_GetDefaultApplicationForMimeType* _get_GetDefaultApplicationForMimeType();
-    // Set instance field: Valve.VR.IVRApplications/Valve.VR._GetDefaultApplicationForMimeType GetDefaultApplicationForMimeType
-    void _set_GetDefaultApplicationForMimeType(Valve::VR::IVRApplications::_GetDefaultApplicationForMimeType* value);
-    // Get instance field: Valve.VR.IVRApplications/Valve.VR._GetApplicationSupportedMimeTypes GetApplicationSupportedMimeTypes
-    Valve::VR::IVRApplications::_GetApplicationSupportedMimeTypes* _get_GetApplicationSupportedMimeTypes();
-    // Set instance field: Valve.VR.IVRApplications/Valve.VR._GetApplicationSupportedMimeTypes GetApplicationSupportedMimeTypes
-    void _set_GetApplicationSupportedMimeTypes(Valve::VR::IVRApplications::_GetApplicationSupportedMimeTypes* value);
-    // Get instance field: Valve.VR.IVRApplications/Valve.VR._GetApplicationsThatSupportMimeType GetApplicationsThatSupportMimeType
-    Valve::VR::IVRApplications::_GetApplicationsThatSupportMimeType* _get_GetApplicationsThatSupportMimeType();
-    // Set instance field: Valve.VR.IVRApplications/Valve.VR._GetApplicationsThatSupportMimeType GetApplicationsThatSupportMimeType
-    void _set_GetApplicationsThatSupportMimeType(Valve::VR::IVRApplications::_GetApplicationsThatSupportMimeType* value);
-    // Get instance field: Valve.VR.IVRApplications/Valve.VR._GetApplicationLaunchArguments GetApplicationLaunchArguments
-    Valve::VR::IVRApplications::_GetApplicationLaunchArguments* _get_GetApplicationLaunchArguments();
-    // Set instance field: Valve.VR.IVRApplications/Valve.VR._GetApplicationLaunchArguments GetApplicationLaunchArguments
-    void _set_GetApplicationLaunchArguments(Valve::VR::IVRApplications::_GetApplicationLaunchArguments* value);
-    // Get instance field: Valve.VR.IVRApplications/Valve.VR._GetStartingApplication GetStartingApplication
-    Valve::VR::IVRApplications::_GetStartingApplication* _get_GetStartingApplication();
-    // Set instance field: Valve.VR.IVRApplications/Valve.VR._GetStartingApplication GetStartingApplication
-    void _set_GetStartingApplication(Valve::VR::IVRApplications::_GetStartingApplication* value);
-    // Get instance field: Valve.VR.IVRApplications/Valve.VR._GetTransitionState GetTransitionState
-    Valve::VR::IVRApplications::_GetTransitionState* _get_GetTransitionState();
-    // Set instance field: Valve.VR.IVRApplications/Valve.VR._GetTransitionState GetTransitionState
-    void _set_GetTransitionState(Valve::VR::IVRApplications::_GetTransitionState* value);
-    // Get instance field: Valve.VR.IVRApplications/Valve.VR._PerformApplicationPrelaunchCheck PerformApplicationPrelaunchCheck
-    Valve::VR::IVRApplications::_PerformApplicationPrelaunchCheck* _get_PerformApplicationPrelaunchCheck();
-    // Set instance field: Valve.VR.IVRApplications/Valve.VR._PerformApplicationPrelaunchCheck PerformApplicationPrelaunchCheck
-    void _set_PerformApplicationPrelaunchCheck(Valve::VR::IVRApplications::_PerformApplicationPrelaunchCheck* value);
-    // Get instance field: Valve.VR.IVRApplications/Valve.VR._GetApplicationsTransitionStateNameFromEnum GetApplicationsTransitionStateNameFromEnum
-    Valve::VR::IVRApplications::_GetApplicationsTransitionStateNameFromEnum* _get_GetApplicationsTransitionStateNameFromEnum();
-    // Set instance field: Valve.VR.IVRApplications/Valve.VR._GetApplicationsTransitionStateNameFromEnum GetApplicationsTransitionStateNameFromEnum
-    void _set_GetApplicationsTransitionStateNameFromEnum(Valve::VR::IVRApplications::_GetApplicationsTransitionStateNameFromEnum* value);
-    // Get instance field: Valve.VR.IVRApplications/Valve.VR._IsQuitUserPromptRequested IsQuitUserPromptRequested
-    Valve::VR::IVRApplications::_IsQuitUserPromptRequested* _get_IsQuitUserPromptRequested();
-    // Set instance field: Valve.VR.IVRApplications/Valve.VR._IsQuitUserPromptRequested IsQuitUserPromptRequested
-    void _set_IsQuitUserPromptRequested(Valve::VR::IVRApplications::_IsQuitUserPromptRequested* value);
-    // Get instance field: Valve.VR.IVRApplications/Valve.VR._LaunchInternalProcess LaunchInternalProcess
-    Valve::VR::IVRApplications::_LaunchInternalProcess* _get_LaunchInternalProcess();
-    // Set instance field: Valve.VR.IVRApplications/Valve.VR._LaunchInternalProcess LaunchInternalProcess
-    void _set_LaunchInternalProcess(Valve::VR::IVRApplications::_LaunchInternalProcess* value);
-    // Get instance field: Valve.VR.IVRApplications/Valve.VR._GetCurrentSceneProcessId GetCurrentSceneProcessId
-    Valve::VR::IVRApplications::_GetCurrentSceneProcessId* _get_GetCurrentSceneProcessId();
-    // Set instance field: Valve.VR.IVRApplications/Valve.VR._GetCurrentSceneProcessId GetCurrentSceneProcessId
-    void _set_GetCurrentSceneProcessId(Valve::VR::IVRApplications::_GetCurrentSceneProcessId* value);
+    // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._AddApplicationManifest AddApplicationManifest
+    Valve::VR::IVRApplications::_AddApplicationManifest*& dyn_AddApplicationManifest();
+    // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._RemoveApplicationManifest RemoveApplicationManifest
+    Valve::VR::IVRApplications::_RemoveApplicationManifest*& dyn_RemoveApplicationManifest();
+    // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._IsApplicationInstalled IsApplicationInstalled
+    Valve::VR::IVRApplications::_IsApplicationInstalled*& dyn_IsApplicationInstalled();
+    // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetApplicationCount GetApplicationCount
+    Valve::VR::IVRApplications::_GetApplicationCount*& dyn_GetApplicationCount();
+    // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetApplicationKeyByIndex GetApplicationKeyByIndex
+    Valve::VR::IVRApplications::_GetApplicationKeyByIndex*& dyn_GetApplicationKeyByIndex();
+    // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetApplicationKeyByProcessId GetApplicationKeyByProcessId
+    Valve::VR::IVRApplications::_GetApplicationKeyByProcessId*& dyn_GetApplicationKeyByProcessId();
+    // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._LaunchApplication LaunchApplication
+    Valve::VR::IVRApplications::_LaunchApplication*& dyn_LaunchApplication();
+    // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._LaunchTemplateApplication LaunchTemplateApplication
+    Valve::VR::IVRApplications::_LaunchTemplateApplication*& dyn_LaunchTemplateApplication();
+    // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._LaunchApplicationFromMimeType LaunchApplicationFromMimeType
+    Valve::VR::IVRApplications::_LaunchApplicationFromMimeType*& dyn_LaunchApplicationFromMimeType();
+    // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._LaunchDashboardOverlay LaunchDashboardOverlay
+    Valve::VR::IVRApplications::_LaunchDashboardOverlay*& dyn_LaunchDashboardOverlay();
+    // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._CancelApplicationLaunch CancelApplicationLaunch
+    Valve::VR::IVRApplications::_CancelApplicationLaunch*& dyn_CancelApplicationLaunch();
+    // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._IdentifyApplication IdentifyApplication
+    Valve::VR::IVRApplications::_IdentifyApplication*& dyn_IdentifyApplication();
+    // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetApplicationProcessId GetApplicationProcessId
+    Valve::VR::IVRApplications::_GetApplicationProcessId*& dyn_GetApplicationProcessId();
+    // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetApplicationsErrorNameFromEnum GetApplicationsErrorNameFromEnum
+    Valve::VR::IVRApplications::_GetApplicationsErrorNameFromEnum*& dyn_GetApplicationsErrorNameFromEnum();
+    // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetApplicationPropertyString GetApplicationPropertyString
+    Valve::VR::IVRApplications::_GetApplicationPropertyString*& dyn_GetApplicationPropertyString();
+    // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetApplicationPropertyBool GetApplicationPropertyBool
+    Valve::VR::IVRApplications::_GetApplicationPropertyBool*& dyn_GetApplicationPropertyBool();
+    // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetApplicationPropertyUint64 GetApplicationPropertyUint64
+    Valve::VR::IVRApplications::_GetApplicationPropertyUint64*& dyn_GetApplicationPropertyUint64();
+    // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._SetApplicationAutoLaunch SetApplicationAutoLaunch
+    Valve::VR::IVRApplications::_SetApplicationAutoLaunch*& dyn_SetApplicationAutoLaunch();
+    // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetApplicationAutoLaunch GetApplicationAutoLaunch
+    Valve::VR::IVRApplications::_GetApplicationAutoLaunch*& dyn_GetApplicationAutoLaunch();
+    // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._SetDefaultApplicationForMimeType SetDefaultApplicationForMimeType
+    Valve::VR::IVRApplications::_SetDefaultApplicationForMimeType*& dyn_SetDefaultApplicationForMimeType();
+    // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetDefaultApplicationForMimeType GetDefaultApplicationForMimeType
+    Valve::VR::IVRApplications::_GetDefaultApplicationForMimeType*& dyn_GetDefaultApplicationForMimeType();
+    // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetApplicationSupportedMimeTypes GetApplicationSupportedMimeTypes
+    Valve::VR::IVRApplications::_GetApplicationSupportedMimeTypes*& dyn_GetApplicationSupportedMimeTypes();
+    // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetApplicationsThatSupportMimeType GetApplicationsThatSupportMimeType
+    Valve::VR::IVRApplications::_GetApplicationsThatSupportMimeType*& dyn_GetApplicationsThatSupportMimeType();
+    // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetApplicationLaunchArguments GetApplicationLaunchArguments
+    Valve::VR::IVRApplications::_GetApplicationLaunchArguments*& dyn_GetApplicationLaunchArguments();
+    // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetStartingApplication GetStartingApplication
+    Valve::VR::IVRApplications::_GetStartingApplication*& dyn_GetStartingApplication();
+    // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetTransitionState GetTransitionState
+    Valve::VR::IVRApplications::_GetTransitionState*& dyn_GetTransitionState();
+    // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._PerformApplicationPrelaunchCheck PerformApplicationPrelaunchCheck
+    Valve::VR::IVRApplications::_PerformApplicationPrelaunchCheck*& dyn_PerformApplicationPrelaunchCheck();
+    // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetApplicationsTransitionStateNameFromEnum GetApplicationsTransitionStateNameFromEnum
+    Valve::VR::IVRApplications::_GetApplicationsTransitionStateNameFromEnum*& dyn_GetApplicationsTransitionStateNameFromEnum();
+    // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._IsQuitUserPromptRequested IsQuitUserPromptRequested
+    Valve::VR::IVRApplications::_IsQuitUserPromptRequested*& dyn_IsQuitUserPromptRequested();
+    // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._LaunchInternalProcess LaunchInternalProcess
+    Valve::VR::IVRApplications::_LaunchInternalProcess*& dyn_LaunchInternalProcess();
+    // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetCurrentSceneProcessId GetCurrentSceneProcessId
+    Valve::VR::IVRApplications::_GetCurrentSceneProcessId*& dyn_GetCurrentSceneProcessId();
   }; // Valve.VR.IVRApplications
   #pragma pack(pop)
   static check_size<sizeof(IVRApplications), 240 + sizeof(Valve::VR::IVRApplications::_GetCurrentSceneProcessId*)> __Valve_VR_IVRApplicationsSizeCheck;

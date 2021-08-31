@@ -46,10 +46,8 @@ namespace System {
     constexpr operator ::Il2CppObject*() const noexcept {
       return identity;
     }
-    // Get instance field: private System.Object _identity
-    ::Il2CppObject* _get__identity();
-    // Set instance field: private System.Object _identity
-    void _set__identity(::Il2CppObject* value);
+    // Get instance field reference: private System.Object _identity
+    ::Il2CppObject*& dyn__identity();
     // System.Runtime.Remoting.ServerIdentity get_ObjectIdentity()
     // Offset: 0x18360F8
     System::Runtime::Remoting::ServerIdentity* get_ObjectIdentity();

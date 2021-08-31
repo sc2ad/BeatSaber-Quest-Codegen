@@ -61,18 +61,12 @@ namespace Zenject {
     static_assert(sizeof(System::Collections::Generic::List_1<System::Type*>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass5_0
     $$c__DisplayClass5_0(Zenject::PrefabBindingFinalizer* $$4__this_ = {}, Zenject::DiContainer* container_ = {}, System::Collections::Generic::List_1<System::Type*>* concreteTypes_ = {}) noexcept : $$4__this{$$4__this_}, container{container_}, concreteTypes{concreteTypes_} {}
-    // Get instance field: public Zenject.PrefabBindingFinalizer <>4__this
-    Zenject::PrefabBindingFinalizer* _get_$$4__this();
-    // Set instance field: public Zenject.PrefabBindingFinalizer <>4__this
-    void _set_$$4__this(Zenject::PrefabBindingFinalizer* value);
-    // Get instance field: public Zenject.DiContainer container
-    Zenject::DiContainer* _get_container();
-    // Set instance field: public Zenject.DiContainer container
-    void _set_container(Zenject::DiContainer* value);
-    // Get instance field: public System.Collections.Generic.List`1<System.Type> concreteTypes
-    System::Collections::Generic::List_1<System::Type*>* _get_concreteTypes();
-    // Set instance field: public System.Collections.Generic.List`1<System.Type> concreteTypes
-    void _set_concreteTypes(System::Collections::Generic::List_1<System::Type*>* value);
+    // Get instance field reference: public Zenject.PrefabBindingFinalizer <>4__this
+    Zenject::PrefabBindingFinalizer*& dyn_$$4__this();
+    // Get instance field reference: public Zenject.DiContainer container
+    Zenject::DiContainer*& dyn_container();
+    // Get instance field reference: public System.Collections.Generic.List`1<System.Type> concreteTypes
+    System::Collections::Generic::List_1<System::Type*>*& dyn_concreteTypes();
     // Zenject.IProvider <FinalizeBindingConcrete>b__0(Zenject.DiContainer _, System.Type concreteType)
     // Offset: 0x1715C7C
     Zenject::IProvider* $FinalizeBindingConcrete$b__0(Zenject::DiContainer* _, System::Type* concreteType);

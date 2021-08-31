@@ -51,10 +51,8 @@ namespace GlobalNamespace {
     OculusMRCManager(GlobalNamespace::IVRPlatformHelper* vrPlatformHelper_ = {}) noexcept : vrPlatformHelper{vrPlatformHelper_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private IVRPlatformHelper _vrPlatformHelper
-    GlobalNamespace::IVRPlatformHelper* _get__vrPlatformHelper();
-    // Set instance field: private IVRPlatformHelper _vrPlatformHelper
-    void _set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper* value);
+    // Get instance field reference: private IVRPlatformHelper _vrPlatformHelper
+    GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
     // public System.Void Init(System.Func`2<UnityEngine.GameObject,UnityEngine.GameObject> instantiateMixedRealityBackgroundCameraGameObject, System.Func`2<UnityEngine.GameObject,UnityEngine.GameObject> instantiateMixedRealityForegroundCameraGameObject)
     // Offset: 0x126668C
     void Init(System::Func_2<UnityEngine::GameObject*, UnityEngine::GameObject*>* instantiateMixedRealityBackgroundCameraGameObject, System::Func_2<UnityEngine::GameObject*, UnityEngine::GameObject*>* instantiateMixedRealityForegroundCameraGameObject);

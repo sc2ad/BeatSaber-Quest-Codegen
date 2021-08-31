@@ -62,18 +62,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::OculusBeatmapDataAssetFileModel*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass15_0
     $$c__DisplayClass15_0(System::Threading::CancellationToken cancellationToken_ = {}, System::Threading::Tasks::TaskCompletionSource_1<bool>* taskSource_ = {}, GlobalNamespace::OculusBeatmapDataAssetFileModel* $$4__this_ = {}) noexcept : cancellationToken{cancellationToken_}, taskSource{taskSource_}, $$4__this{$$4__this_} {}
-    // Get instance field: public System.Threading.CancellationToken cancellationToken
-    System::Threading::CancellationToken _get_cancellationToken();
-    // Set instance field: public System.Threading.CancellationToken cancellationToken
-    void _set_cancellationToken(System::Threading::CancellationToken value);
-    // Get instance field: public System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> taskSource
-    System::Threading::Tasks::TaskCompletionSource_1<bool>* _get_taskSource();
-    // Set instance field: public System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> taskSource
-    void _set_taskSource(System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
-    // Get instance field: public OculusBeatmapDataAssetFileModel <>4__this
-    GlobalNamespace::OculusBeatmapDataAssetFileModel* _get_$$4__this();
-    // Set instance field: public OculusBeatmapDataAssetFileModel <>4__this
-    void _set_$$4__this(GlobalNamespace::OculusBeatmapDataAssetFileModel* value);
+    // Get instance field reference: public System.Threading.CancellationToken cancellationToken
+    System::Threading::CancellationToken& dyn_cancellationToken();
+    // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> taskSource
+    System::Threading::Tasks::TaskCompletionSource_1<bool>*& dyn_taskSource();
+    // Get instance field reference: public OculusBeatmapDataAssetFileModel <>4__this
+    GlobalNamespace::OculusBeatmapDataAssetFileModel*& dyn_$$4__this();
     // System.Void <ReloadAssetDetailsForAllLevelsAsync>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.AssetDetailsList> getListMsg)
     // Offset: 0x12359A0
     void $ReloadAssetDetailsForAllLevelsAsync$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetDetailsList*>* getListMsg);

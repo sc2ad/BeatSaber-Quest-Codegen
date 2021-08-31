@@ -69,10 +69,8 @@ namespace System::Globalization {
     static System::Globalization::GregorianCalendarTypes _get_TransliteratedFrench();
     // Set static field: static public System.Globalization.GregorianCalendarTypes TransliteratedFrench
     static void _set_TransliteratedFrench(System::Globalization::GregorianCalendarTypes value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Globalization.GregorianCalendarTypes
   #pragma pack(pop)
   static check_size<sizeof(GregorianCalendarTypes), 0 + sizeof(int)> __System_Globalization_GregorianCalendarTypesSizeCheck;

@@ -37,14 +37,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::LeaderboardScoreUploader*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass14_0
     $$c__DisplayClass14_0(GlobalNamespace::LeaderboardScoreUploader::ScoreData* scoreData_ = {}, GlobalNamespace::LeaderboardScoreUploader* $$4__this_ = {}) noexcept : scoreData{scoreData_}, $$4__this{$$4__this_} {}
-    // Get instance field: public LeaderboardScoreUploader/ScoreData scoreData
-    GlobalNamespace::LeaderboardScoreUploader::ScoreData* _get_scoreData();
-    // Set instance field: public LeaderboardScoreUploader/ScoreData scoreData
-    void _set_scoreData(GlobalNamespace::LeaderboardScoreUploader::ScoreData* value);
-    // Get instance field: public LeaderboardScoreUploader <>4__this
-    GlobalNamespace::LeaderboardScoreUploader* _get_$$4__this();
-    // Set instance field: public LeaderboardScoreUploader <>4__this
-    void _set_$$4__this(GlobalNamespace::LeaderboardScoreUploader* value);
+    // Get instance field reference: public LeaderboardScoreUploader/ScoreData scoreData
+    GlobalNamespace::LeaderboardScoreUploader::ScoreData*& dyn_scoreData();
+    // Get instance field reference: public LeaderboardScoreUploader <>4__this
+    GlobalNamespace::LeaderboardScoreUploader*& dyn_$$4__this();
     // System.Void <UploadScoresCoroutine>b__0(PlatformLeaderboardsModel/UploadScoreResult result)
     // Offset: 0x11481E4
     void $UploadScoresCoroutine$b__0(GlobalNamespace::PlatformLeaderboardsModel::UploadScoreResult result);

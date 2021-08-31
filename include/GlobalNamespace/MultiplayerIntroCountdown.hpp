@@ -170,78 +170,42 @@ namespace GlobalNamespace {
     MultiplayerIntroCountdown(float textAppearDuration_ = {}, float textDisappearDuration_ = {}, float goDisappearDuration_ = {}, float partsDistance_ = {}, UnityEngine::Vector3 startLocalPosition_ = {}, UnityEngine::Vector3 targetLocalPosition_ = {}, UnityEngine::AudioClip* readyClip_ = {}, UnityEngine::AudioClip* setClip_ = {}, UnityEngine::AudioClip* goClip_ = {}, UnityEngine::AudioClip* buildUpClip_ = {}, GlobalNamespace::MultiplayerIntroCountdownTextController* textController0_ = {}, GlobalNamespace::MultiplayerIntroCountdownTextController* textController1_ = {}, UnityEngine::AudioSource* audioSource_ = {}, GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* multiplayerOffsetByLocalPlayerPosition_ = {}, Tweening::TweeningManager* tweeningManager_ = {}, GlobalNamespace::MultiplayerIntroCountdownTextController* currentTextController_ = {}, float fontSize_ = {}, float alpha_ = {}) noexcept : textAppearDuration{textAppearDuration_}, textDisappearDuration{textDisappearDuration_}, goDisappearDuration{goDisappearDuration_}, partsDistance{partsDistance_}, startLocalPosition{startLocalPosition_}, targetLocalPosition{targetLocalPosition_}, readyClip{readyClip_}, setClip{setClip_}, goClip{goClip_}, buildUpClip{buildUpClip_}, textController0{textController0_}, textController1{textController1_}, audioSource{audioSource_}, multiplayerOffsetByLocalPlayerPosition{multiplayerOffsetByLocalPlayerPosition_}, tweeningManager{tweeningManager_}, currentTextController{currentTextController_}, fontSize{fontSize_}, alpha{alpha_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Single _textAppearDuration
-    float _get__textAppearDuration();
-    // Set instance field: private System.Single _textAppearDuration
-    void _set__textAppearDuration(float value);
-    // Get instance field: private System.Single _textDisappearDuration
-    float _get__textDisappearDuration();
-    // Set instance field: private System.Single _textDisappearDuration
-    void _set__textDisappearDuration(float value);
-    // Get instance field: private System.Single _goDisappearDuration
-    float _get__goDisappearDuration();
-    // Set instance field: private System.Single _goDisappearDuration
-    void _set__goDisappearDuration(float value);
-    // Get instance field: private System.Single _partsDistance
-    float _get__partsDistance();
-    // Set instance field: private System.Single _partsDistance
-    void _set__partsDistance(float value);
-    // Get instance field: private UnityEngine.Vector3 _startLocalPosition
-    UnityEngine::Vector3 _get__startLocalPosition();
-    // Set instance field: private UnityEngine.Vector3 _startLocalPosition
-    void _set__startLocalPosition(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 _targetLocalPosition
-    UnityEngine::Vector3 _get__targetLocalPosition();
-    // Set instance field: private UnityEngine.Vector3 _targetLocalPosition
-    void _set__targetLocalPosition(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.AudioClip _readyClip
-    UnityEngine::AudioClip* _get__readyClip();
-    // Set instance field: private UnityEngine.AudioClip _readyClip
-    void _set__readyClip(UnityEngine::AudioClip* value);
-    // Get instance field: private UnityEngine.AudioClip _setClip
-    UnityEngine::AudioClip* _get__setClip();
-    // Set instance field: private UnityEngine.AudioClip _setClip
-    void _set__setClip(UnityEngine::AudioClip* value);
-    // Get instance field: private UnityEngine.AudioClip _goClip
-    UnityEngine::AudioClip* _get__goClip();
-    // Set instance field: private UnityEngine.AudioClip _goClip
-    void _set__goClip(UnityEngine::AudioClip* value);
-    // Get instance field: private UnityEngine.AudioClip _buildUpClip
-    UnityEngine::AudioClip* _get__buildUpClip();
-    // Set instance field: private UnityEngine.AudioClip _buildUpClip
-    void _set__buildUpClip(UnityEngine::AudioClip* value);
-    // Get instance field: private MultiplayerIntroCountdownTextController _textController0
-    GlobalNamespace::MultiplayerIntroCountdownTextController* _get__textController0();
-    // Set instance field: private MultiplayerIntroCountdownTextController _textController0
-    void _set__textController0(GlobalNamespace::MultiplayerIntroCountdownTextController* value);
-    // Get instance field: private MultiplayerIntroCountdownTextController _textController1
-    GlobalNamespace::MultiplayerIntroCountdownTextController* _get__textController1();
-    // Set instance field: private MultiplayerIntroCountdownTextController _textController1
-    void _set__textController1(GlobalNamespace::MultiplayerIntroCountdownTextController* value);
-    // Get instance field: private UnityEngine.AudioSource _audioSource
-    UnityEngine::AudioSource* _get__audioSource();
-    // Set instance field: private UnityEngine.AudioSource _audioSource
-    void _set__audioSource(UnityEngine::AudioSource* value);
-    // Get instance field: private MultiplayerOffsetPositionByLocalPlayerPosition _multiplayerOffsetByLocalPlayerPosition
-    GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* _get__multiplayerOffsetByLocalPlayerPosition();
-    // Set instance field: private MultiplayerOffsetPositionByLocalPlayerPosition _multiplayerOffsetByLocalPlayerPosition
-    void _set__multiplayerOffsetByLocalPlayerPosition(GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* value);
-    // Get instance field: private readonly Tweening.TweeningManager _tweeningManager
-    Tweening::TweeningManager* _get__tweeningManager();
-    // Set instance field: private readonly Tweening.TweeningManager _tweeningManager
-    void _set__tweeningManager(Tweening::TweeningManager* value);
-    // Get instance field: private MultiplayerIntroCountdownTextController _currentTextController
-    GlobalNamespace::MultiplayerIntroCountdownTextController* _get__currentTextController();
-    // Set instance field: private MultiplayerIntroCountdownTextController _currentTextController
-    void _set__currentTextController(GlobalNamespace::MultiplayerIntroCountdownTextController* value);
-    // Get instance field: private System.Single _fontSize
-    float _get__fontSize();
-    // Set instance field: private System.Single _fontSize
-    void _set__fontSize(float value);
-    // Get instance field: private System.Single _alpha
-    float _get__alpha();
-    // Set instance field: private System.Single _alpha
-    void _set__alpha(float value);
+    // Get instance field reference: private System.Single _textAppearDuration
+    float& dyn__textAppearDuration();
+    // Get instance field reference: private System.Single _textDisappearDuration
+    float& dyn__textDisappearDuration();
+    // Get instance field reference: private System.Single _goDisappearDuration
+    float& dyn__goDisappearDuration();
+    // Get instance field reference: private System.Single _partsDistance
+    float& dyn__partsDistance();
+    // Get instance field reference: private UnityEngine.Vector3 _startLocalPosition
+    UnityEngine::Vector3& dyn__startLocalPosition();
+    // Get instance field reference: private UnityEngine.Vector3 _targetLocalPosition
+    UnityEngine::Vector3& dyn__targetLocalPosition();
+    // Get instance field reference: private UnityEngine.AudioClip _readyClip
+    UnityEngine::AudioClip*& dyn__readyClip();
+    // Get instance field reference: private UnityEngine.AudioClip _setClip
+    UnityEngine::AudioClip*& dyn__setClip();
+    // Get instance field reference: private UnityEngine.AudioClip _goClip
+    UnityEngine::AudioClip*& dyn__goClip();
+    // Get instance field reference: private UnityEngine.AudioClip _buildUpClip
+    UnityEngine::AudioClip*& dyn__buildUpClip();
+    // Get instance field reference: private MultiplayerIntroCountdownTextController _textController0
+    GlobalNamespace::MultiplayerIntroCountdownTextController*& dyn__textController0();
+    // Get instance field reference: private MultiplayerIntroCountdownTextController _textController1
+    GlobalNamespace::MultiplayerIntroCountdownTextController*& dyn__textController1();
+    // Get instance field reference: private UnityEngine.AudioSource _audioSource
+    UnityEngine::AudioSource*& dyn__audioSource();
+    // Get instance field reference: private MultiplayerOffsetPositionByLocalPlayerPosition _multiplayerOffsetByLocalPlayerPosition
+    GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*& dyn__multiplayerOffsetByLocalPlayerPosition();
+    // Get instance field reference: private readonly Tweening.TweeningManager _tweeningManager
+    Tweening::TweeningManager*& dyn__tweeningManager();
+    // Get instance field reference: private MultiplayerIntroCountdownTextController _currentTextController
+    GlobalNamespace::MultiplayerIntroCountdownTextController*& dyn__currentTextController();
+    // Get instance field reference: private System.Single _fontSize
+    float& dyn__fontSize();
+    // Get instance field reference: private System.Single _alpha
+    float& dyn__alpha();
     // public System.Single get_textAppearDuration()
     // Offset: 0x11B2354
     float get_textAppearDuration();

@@ -41,14 +41,10 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private OVRPlugin/Vector2f Pos
-    GlobalNamespace::OVRPlugin::Vector2f _get_Pos();
-    // Set instance field: private OVRPlugin/Vector2f Pos
-    void _set_Pos(GlobalNamespace::OVRPlugin::Vector2f value);
-    // Get instance field: private OVRPlugin/Sizef Size
-    GlobalNamespace::OVRPlugin::Sizef _get_Size();
-    // Set instance field: private OVRPlugin/Sizef Size
-    void _set_Size(GlobalNamespace::OVRPlugin::Sizef value);
+    // Get instance field reference: private OVRPlugin/Vector2f Pos
+    GlobalNamespace::OVRPlugin::Vector2f& dyn_Pos();
+    // Get instance field reference: private OVRPlugin/Sizef Size
+    GlobalNamespace::OVRPlugin::Sizef& dyn_Size();
   }; // OVRPlugin/Rectf
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Rectf), 8 + sizeof(GlobalNamespace::OVRPlugin::Sizef)> __GlobalNamespace_OVRPlugin_RectfSizeCheck;

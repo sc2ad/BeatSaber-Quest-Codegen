@@ -78,30 +78,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::SongPackMasksModel*) == 0x8);
     // Creating value type constructor for type: GameServerListTableCell
     GameServerListTableCell(HMUI::CurvedTextMeshPro* serverName_ = {}, HMUI::CurvedTextMeshPro* difficultiesText_ = {}, HMUI::CurvedTextMeshPro* musicPackText_ = {}, HMUI::CurvedTextMeshPro* playerCount_ = {}, UnityEngine::GameObject* passwordProtected_ = {}, GlobalNamespace::SongPackMasksModel* songPackMasksModel_ = {}) noexcept : serverName{serverName_}, difficultiesText{difficultiesText_}, musicPackText{musicPackText_}, playerCount{playerCount_}, passwordProtected{passwordProtected_}, songPackMasksModel{songPackMasksModel_} {}
-    // Get instance field: private HMUI.CurvedTextMeshPro _serverName
-    HMUI::CurvedTextMeshPro* _get__serverName();
-    // Set instance field: private HMUI.CurvedTextMeshPro _serverName
-    void _set__serverName(HMUI::CurvedTextMeshPro* value);
-    // Get instance field: private HMUI.CurvedTextMeshPro _difficultiesText
-    HMUI::CurvedTextMeshPro* _get__difficultiesText();
-    // Set instance field: private HMUI.CurvedTextMeshPro _difficultiesText
-    void _set__difficultiesText(HMUI::CurvedTextMeshPro* value);
-    // Get instance field: private HMUI.CurvedTextMeshPro _musicPackText
-    HMUI::CurvedTextMeshPro* _get__musicPackText();
-    // Set instance field: private HMUI.CurvedTextMeshPro _musicPackText
-    void _set__musicPackText(HMUI::CurvedTextMeshPro* value);
-    // Get instance field: private HMUI.CurvedTextMeshPro _playerCount
-    HMUI::CurvedTextMeshPro* _get__playerCount();
-    // Set instance field: private HMUI.CurvedTextMeshPro _playerCount
-    void _set__playerCount(HMUI::CurvedTextMeshPro* value);
-    // Get instance field: private UnityEngine.GameObject _passwordProtected
-    UnityEngine::GameObject* _get__passwordProtected();
-    // Set instance field: private UnityEngine.GameObject _passwordProtected
-    void _set__passwordProtected(UnityEngine::GameObject* value);
-    // Get instance field: private readonly SongPackMasksModel _songPackMasksModel
-    GlobalNamespace::SongPackMasksModel* _get__songPackMasksModel();
-    // Set instance field: private readonly SongPackMasksModel _songPackMasksModel
-    void _set__songPackMasksModel(GlobalNamespace::SongPackMasksModel* value);
+    // Get instance field reference: private HMUI.CurvedTextMeshPro _serverName
+    HMUI::CurvedTextMeshPro*& dyn__serverName();
+    // Get instance field reference: private HMUI.CurvedTextMeshPro _difficultiesText
+    HMUI::CurvedTextMeshPro*& dyn__difficultiesText();
+    // Get instance field reference: private HMUI.CurvedTextMeshPro _musicPackText
+    HMUI::CurvedTextMeshPro*& dyn__musicPackText();
+    // Get instance field reference: private HMUI.CurvedTextMeshPro _playerCount
+    HMUI::CurvedTextMeshPro*& dyn__playerCount();
+    // Get instance field reference: private UnityEngine.GameObject _passwordProtected
+    UnityEngine::GameObject*& dyn__passwordProtected();
+    // Get instance field reference: private readonly SongPackMasksModel _songPackMasksModel
+    GlobalNamespace::SongPackMasksModel*& dyn__songPackMasksModel();
     // public System.Void SetData(INetworkPlayer player)
     // Offset: 0x10FF450
     void SetData(GlobalNamespace::INetworkPlayer* player);

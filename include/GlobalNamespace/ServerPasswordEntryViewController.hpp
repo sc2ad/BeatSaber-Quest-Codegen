@@ -67,22 +67,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::INetworkPlayer*) == 0x8);
     // Creating value type constructor for type: ServerPasswordEntryViewController
     ServerPasswordEntryViewController(HMUI::InputFieldView* passwordInput_ = {}, HMUI::UIKeyboard* uiKeyboard_ = {}, System::Action_2<GlobalNamespace::INetworkPlayer*, ::Il2CppString*>* didFinishEvent_ = {}, GlobalNamespace::INetworkPlayer* selectedNetworkPlayer_ = {}) noexcept : passwordInput{passwordInput_}, uiKeyboard{uiKeyboard_}, didFinishEvent{didFinishEvent_}, selectedNetworkPlayer{selectedNetworkPlayer_} {}
-    // Get instance field: private HMUI.InputFieldView _passwordInput
-    HMUI::InputFieldView* _get__passwordInput();
-    // Set instance field: private HMUI.InputFieldView _passwordInput
-    void _set__passwordInput(HMUI::InputFieldView* value);
-    // Get instance field: private HMUI.UIKeyboard _uiKeyboard
-    HMUI::UIKeyboard* _get__uiKeyboard();
-    // Set instance field: private HMUI.UIKeyboard _uiKeyboard
-    void _set__uiKeyboard(HMUI::UIKeyboard* value);
-    // Get instance field: private System.Action`2<INetworkPlayer,System.String> didFinishEvent
-    System::Action_2<GlobalNamespace::INetworkPlayer*, ::Il2CppString*>* _get_didFinishEvent();
-    // Set instance field: private System.Action`2<INetworkPlayer,System.String> didFinishEvent
-    void _set_didFinishEvent(System::Action_2<GlobalNamespace::INetworkPlayer*, ::Il2CppString*>* value);
-    // Get instance field: private INetworkPlayer _selectedNetworkPlayer
-    GlobalNamespace::INetworkPlayer* _get__selectedNetworkPlayer();
-    // Set instance field: private INetworkPlayer _selectedNetworkPlayer
-    void _set__selectedNetworkPlayer(GlobalNamespace::INetworkPlayer* value);
+    // Get instance field reference: private HMUI.InputFieldView _passwordInput
+    HMUI::InputFieldView*& dyn__passwordInput();
+    // Get instance field reference: private HMUI.UIKeyboard _uiKeyboard
+    HMUI::UIKeyboard*& dyn__uiKeyboard();
+    // Get instance field reference: private System.Action`2<INetworkPlayer,System.String> didFinishEvent
+    System::Action_2<GlobalNamespace::INetworkPlayer*, ::Il2CppString*>*& dyn_didFinishEvent();
+    // Get instance field reference: private INetworkPlayer _selectedNetworkPlayer
+    GlobalNamespace::INetworkPlayer*& dyn__selectedNetworkPlayer();
     // public System.Void add_didFinishEvent(System.Action`2<INetworkPlayer,System.String> value)
     // Offset: 0x119E6C8
     void add_didFinishEvent(System::Action_2<GlobalNamespace::INetworkPlayer*, ::Il2CppString*>* value);

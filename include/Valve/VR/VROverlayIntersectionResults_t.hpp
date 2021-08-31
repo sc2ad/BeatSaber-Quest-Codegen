@@ -50,22 +50,14 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public Valve.VR.HmdVector3_t vPoint
-    Valve::VR::HmdVector3_t _get_vPoint();
-    // Set instance field: public Valve.VR.HmdVector3_t vPoint
-    void _set_vPoint(Valve::VR::HmdVector3_t value);
-    // Get instance field: public Valve.VR.HmdVector3_t vNormal
-    Valve::VR::HmdVector3_t _get_vNormal();
-    // Set instance field: public Valve.VR.HmdVector3_t vNormal
-    void _set_vNormal(Valve::VR::HmdVector3_t value);
-    // Get instance field: public Valve.VR.HmdVector2_t vUVs
-    Valve::VR::HmdVector2_t _get_vUVs();
-    // Set instance field: public Valve.VR.HmdVector2_t vUVs
-    void _set_vUVs(Valve::VR::HmdVector2_t value);
-    // Get instance field: public System.Single fDistance
-    float _get_fDistance();
-    // Set instance field: public System.Single fDistance
-    void _set_fDistance(float value);
+    // Get instance field reference: public Valve.VR.HmdVector3_t vPoint
+    Valve::VR::HmdVector3_t& dyn_vPoint();
+    // Get instance field reference: public Valve.VR.HmdVector3_t vNormal
+    Valve::VR::HmdVector3_t& dyn_vNormal();
+    // Get instance field reference: public Valve.VR.HmdVector2_t vUVs
+    Valve::VR::HmdVector2_t& dyn_vUVs();
+    // Get instance field reference: public System.Single fDistance
+    float& dyn_fDistance();
   }; // Valve.VR.VROverlayIntersectionResults_t
   #pragma pack(pop)
   static check_size<sizeof(VROverlayIntersectionResults_t), 32 + sizeof(float)> __Valve_VR_VROverlayIntersectionResults_tSizeCheck;

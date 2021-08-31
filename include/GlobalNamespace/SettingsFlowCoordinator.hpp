@@ -85,10 +85,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::SettingsFlowCoordinator::FinishAction _get_Apply();
       // Set static field: static public SettingsFlowCoordinator/FinishAction Apply
       static void _set_Apply(GlobalNamespace::SettingsFlowCoordinator::FinishAction value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // SettingsFlowCoordinator/FinishAction
     #pragma pack(pop)
     static check_size<sizeof(SettingsFlowCoordinator::FinishAction), 0 + sizeof(int)> __GlobalNamespace_SettingsFlowCoordinator_FinishActionSizeCheck;
@@ -126,22 +124,14 @@ namespace GlobalNamespace {
     static int _get__selectedSettingsSubMenuInfoIdx();
     // Set static field: static private System.Int32 _selectedSettingsSubMenuInfoIdx
     static void _set__selectedSettingsSubMenuInfoIdx(int value);
-    // Get instance field: private MainSettingsModelSO _mainSettingsModel
-    GlobalNamespace::MainSettingsModelSO* _get__mainSettingsModel();
-    // Set instance field: private MainSettingsModelSO _mainSettingsModel
-    void _set__mainSettingsModel(GlobalNamespace::MainSettingsModelSO* value);
-    // Get instance field: private MainSettingsMenuViewController _mainSettingsMenuViewController
-    GlobalNamespace::MainSettingsMenuViewController* _get__mainSettingsMenuViewController();
-    // Set instance field: private MainSettingsMenuViewController _mainSettingsMenuViewController
-    void _set__mainSettingsMenuViewController(GlobalNamespace::MainSettingsMenuViewController* value);
-    // Get instance field: private SettingsNavigationController _settingsNavigationController
-    GlobalNamespace::SettingsNavigationController* _get__settingsNavigationController();
-    // Set instance field: private SettingsNavigationController _settingsNavigationController
-    void _set__settingsNavigationController(GlobalNamespace::SettingsNavigationController* value);
-    // Get instance field: private System.Action`2<SettingsFlowCoordinator,SettingsFlowCoordinator/FinishAction> didFinishEvent
-    System::Action_2<GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction>* _get_didFinishEvent();
-    // Set instance field: private System.Action`2<SettingsFlowCoordinator,SettingsFlowCoordinator/FinishAction> didFinishEvent
-    void _set_didFinishEvent(System::Action_2<GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction>* value);
+    // Get instance field reference: private MainSettingsModelSO _mainSettingsModel
+    GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
+    // Get instance field reference: private MainSettingsMenuViewController _mainSettingsMenuViewController
+    GlobalNamespace::MainSettingsMenuViewController*& dyn__mainSettingsMenuViewController();
+    // Get instance field reference: private SettingsNavigationController _settingsNavigationController
+    GlobalNamespace::SettingsNavigationController*& dyn__settingsNavigationController();
+    // Get instance field reference: private System.Action`2<SettingsFlowCoordinator,SettingsFlowCoordinator/FinishAction> didFinishEvent
+    System::Action_2<GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`2<SettingsFlowCoordinator,SettingsFlowCoordinator/FinishAction> value)
     // Offset: 0x1077CEC
     void add_didFinishEvent(System::Action_2<GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction>* value);

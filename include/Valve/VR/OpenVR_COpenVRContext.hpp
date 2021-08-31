@@ -115,50 +115,28 @@ namespace Valve::VR {
     static_assert(sizeof(Valve::VR::CVRTrackedCamera*) == 0x8);
     // Creating value type constructor for type: COpenVRContext
     COpenVRContext(Valve::VR::CVRSystem* m_pVRSystem_ = {}, Valve::VR::CVRChaperone* m_pVRChaperone_ = {}, Valve::VR::CVRChaperoneSetup* m_pVRChaperoneSetup_ = {}, Valve::VR::CVRCompositor* m_pVRCompositor_ = {}, Valve::VR::CVROverlay* m_pVROverlay_ = {}, Valve::VR::CVRRenderModels* m_pVRRenderModels_ = {}, Valve::VR::CVRExtendedDisplay* m_pVRExtendedDisplay_ = {}, Valve::VR::CVRSettings* m_pVRSettings_ = {}, Valve::VR::CVRApplications* m_pVRApplications_ = {}, Valve::VR::CVRScreenshots* m_pVRScreenshots_ = {}, Valve::VR::CVRTrackedCamera* m_pVRTrackedCamera_ = {}) noexcept : m_pVRSystem{m_pVRSystem_}, m_pVRChaperone{m_pVRChaperone_}, m_pVRChaperoneSetup{m_pVRChaperoneSetup_}, m_pVRCompositor{m_pVRCompositor_}, m_pVROverlay{m_pVROverlay_}, m_pVRRenderModels{m_pVRRenderModels_}, m_pVRExtendedDisplay{m_pVRExtendedDisplay_}, m_pVRSettings{m_pVRSettings_}, m_pVRApplications{m_pVRApplications_}, m_pVRScreenshots{m_pVRScreenshots_}, m_pVRTrackedCamera{m_pVRTrackedCamera_} {}
-    // Get instance field: private Valve.VR.CVRSystem m_pVRSystem
-    Valve::VR::CVRSystem* _get_m_pVRSystem();
-    // Set instance field: private Valve.VR.CVRSystem m_pVRSystem
-    void _set_m_pVRSystem(Valve::VR::CVRSystem* value);
-    // Get instance field: private Valve.VR.CVRChaperone m_pVRChaperone
-    Valve::VR::CVRChaperone* _get_m_pVRChaperone();
-    // Set instance field: private Valve.VR.CVRChaperone m_pVRChaperone
-    void _set_m_pVRChaperone(Valve::VR::CVRChaperone* value);
-    // Get instance field: private Valve.VR.CVRChaperoneSetup m_pVRChaperoneSetup
-    Valve::VR::CVRChaperoneSetup* _get_m_pVRChaperoneSetup();
-    // Set instance field: private Valve.VR.CVRChaperoneSetup m_pVRChaperoneSetup
-    void _set_m_pVRChaperoneSetup(Valve::VR::CVRChaperoneSetup* value);
-    // Get instance field: private Valve.VR.CVRCompositor m_pVRCompositor
-    Valve::VR::CVRCompositor* _get_m_pVRCompositor();
-    // Set instance field: private Valve.VR.CVRCompositor m_pVRCompositor
-    void _set_m_pVRCompositor(Valve::VR::CVRCompositor* value);
-    // Get instance field: private Valve.VR.CVROverlay m_pVROverlay
-    Valve::VR::CVROverlay* _get_m_pVROverlay();
-    // Set instance field: private Valve.VR.CVROverlay m_pVROverlay
-    void _set_m_pVROverlay(Valve::VR::CVROverlay* value);
-    // Get instance field: private Valve.VR.CVRRenderModels m_pVRRenderModels
-    Valve::VR::CVRRenderModels* _get_m_pVRRenderModels();
-    // Set instance field: private Valve.VR.CVRRenderModels m_pVRRenderModels
-    void _set_m_pVRRenderModels(Valve::VR::CVRRenderModels* value);
-    // Get instance field: private Valve.VR.CVRExtendedDisplay m_pVRExtendedDisplay
-    Valve::VR::CVRExtendedDisplay* _get_m_pVRExtendedDisplay();
-    // Set instance field: private Valve.VR.CVRExtendedDisplay m_pVRExtendedDisplay
-    void _set_m_pVRExtendedDisplay(Valve::VR::CVRExtendedDisplay* value);
-    // Get instance field: private Valve.VR.CVRSettings m_pVRSettings
-    Valve::VR::CVRSettings* _get_m_pVRSettings();
-    // Set instance field: private Valve.VR.CVRSettings m_pVRSettings
-    void _set_m_pVRSettings(Valve::VR::CVRSettings* value);
-    // Get instance field: private Valve.VR.CVRApplications m_pVRApplications
-    Valve::VR::CVRApplications* _get_m_pVRApplications();
-    // Set instance field: private Valve.VR.CVRApplications m_pVRApplications
-    void _set_m_pVRApplications(Valve::VR::CVRApplications* value);
-    // Get instance field: private Valve.VR.CVRScreenshots m_pVRScreenshots
-    Valve::VR::CVRScreenshots* _get_m_pVRScreenshots();
-    // Set instance field: private Valve.VR.CVRScreenshots m_pVRScreenshots
-    void _set_m_pVRScreenshots(Valve::VR::CVRScreenshots* value);
-    // Get instance field: private Valve.VR.CVRTrackedCamera m_pVRTrackedCamera
-    Valve::VR::CVRTrackedCamera* _get_m_pVRTrackedCamera();
-    // Set instance field: private Valve.VR.CVRTrackedCamera m_pVRTrackedCamera
-    void _set_m_pVRTrackedCamera(Valve::VR::CVRTrackedCamera* value);
+    // Get instance field reference: private Valve.VR.CVRSystem m_pVRSystem
+    Valve::VR::CVRSystem*& dyn_m_pVRSystem();
+    // Get instance field reference: private Valve.VR.CVRChaperone m_pVRChaperone
+    Valve::VR::CVRChaperone*& dyn_m_pVRChaperone();
+    // Get instance field reference: private Valve.VR.CVRChaperoneSetup m_pVRChaperoneSetup
+    Valve::VR::CVRChaperoneSetup*& dyn_m_pVRChaperoneSetup();
+    // Get instance field reference: private Valve.VR.CVRCompositor m_pVRCompositor
+    Valve::VR::CVRCompositor*& dyn_m_pVRCompositor();
+    // Get instance field reference: private Valve.VR.CVROverlay m_pVROverlay
+    Valve::VR::CVROverlay*& dyn_m_pVROverlay();
+    // Get instance field reference: private Valve.VR.CVRRenderModels m_pVRRenderModels
+    Valve::VR::CVRRenderModels*& dyn_m_pVRRenderModels();
+    // Get instance field reference: private Valve.VR.CVRExtendedDisplay m_pVRExtendedDisplay
+    Valve::VR::CVRExtendedDisplay*& dyn_m_pVRExtendedDisplay();
+    // Get instance field reference: private Valve.VR.CVRSettings m_pVRSettings
+    Valve::VR::CVRSettings*& dyn_m_pVRSettings();
+    // Get instance field reference: private Valve.VR.CVRApplications m_pVRApplications
+    Valve::VR::CVRApplications*& dyn_m_pVRApplications();
+    // Get instance field reference: private Valve.VR.CVRScreenshots m_pVRScreenshots
+    Valve::VR::CVRScreenshots*& dyn_m_pVRScreenshots();
+    // Get instance field reference: private Valve.VR.CVRTrackedCamera m_pVRTrackedCamera
+    Valve::VR::CVRTrackedCamera*& dyn_m_pVRTrackedCamera();
     // public System.Void Clear()
     // Offset: 0x23C9798
     void Clear();

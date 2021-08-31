@@ -46,10 +46,8 @@ namespace System::Collections {
     constexpr operator System::Globalization::CompareInfo*() const noexcept {
       return m_compareInfo;
     }
-    // Get instance field: private System.Globalization.CompareInfo m_compareInfo
-    System::Globalization::CompareInfo* _get_m_compareInfo();
-    // Set instance field: private System.Globalization.CompareInfo m_compareInfo
-    void _set_m_compareInfo(System::Globalization::CompareInfo* value);
+    // Get instance field reference: private System.Globalization.CompareInfo m_compareInfo
+    System::Globalization::CompareInfo*& dyn_m_compareInfo();
     // static public System.Collections.CaseInsensitiveComparer get_Default()
     // Offset: 0x17D956C
     static System::Collections::CaseInsensitiveComparer* get_Default();

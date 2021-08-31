@@ -48,18 +48,12 @@ namespace NUnit::Framework::Internal {
     static_assert(sizeof(::Array<::Il2CppObject*>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass9_0
     $$c__DisplayClass9_0(System::Reflection::MethodInfo* method_ = {}, ::Il2CppObject* fixture_ = {}, ::Array<::Il2CppObject*>* args_ = {}) noexcept : method{method_}, fixture{fixture_}, args{args_} {}
-    // Get instance field: public System.Reflection.MethodInfo method
-    System::Reflection::MethodInfo* _get_method();
-    // Set instance field: public System.Reflection.MethodInfo method
-    void _set_method(System::Reflection::MethodInfo* value);
-    // Get instance field: public System.Object fixture
-    ::Il2CppObject* _get_fixture();
-    // Set instance field: public System.Object fixture
-    void _set_fixture(::Il2CppObject* value);
-    // Get instance field: public System.Object[] args
-    ::Array<::Il2CppObject*>* _get_args();
-    // Set instance field: public System.Object[] args
-    void _set_args(::Array<::Il2CppObject*>* value);
+    // Get instance field reference: public System.Reflection.MethodInfo method
+    System::Reflection::MethodInfo*& dyn_method();
+    // Get instance field reference: public System.Object fixture
+    ::Il2CppObject*& dyn_fixture();
+    // Get instance field reference: public System.Object[] args
+    ::Array<::Il2CppObject*>*& dyn_args();
     // System.Object <InvokeMethod>b__0()
     // Offset: 0x229AD68
     ::Il2CppObject* $InvokeMethod$b__0();

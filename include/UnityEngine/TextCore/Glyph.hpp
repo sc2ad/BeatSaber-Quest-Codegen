@@ -63,26 +63,16 @@ namespace UnityEngine::TextCore {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: Glyph
     Glyph(uint m_Index_ = {}, UnityEngine::TextCore::GlyphMetrics m_Metrics_ = {}, UnityEngine::TextCore::GlyphRect m_GlyphRect_ = {}, float m_Scale_ = {}, int m_AtlasIndex_ = {}) noexcept : m_Index{m_Index_}, m_Metrics{m_Metrics_}, m_GlyphRect{m_GlyphRect_}, m_Scale{m_Scale_}, m_AtlasIndex{m_AtlasIndex_} {}
-    // Get instance field: private System.UInt32 m_Index
-    uint _get_m_Index();
-    // Set instance field: private System.UInt32 m_Index
-    void _set_m_Index(uint value);
-    // Get instance field: private UnityEngine.TextCore.GlyphMetrics m_Metrics
-    UnityEngine::TextCore::GlyphMetrics _get_m_Metrics();
-    // Set instance field: private UnityEngine.TextCore.GlyphMetrics m_Metrics
-    void _set_m_Metrics(UnityEngine::TextCore::GlyphMetrics value);
-    // Get instance field: private UnityEngine.TextCore.GlyphRect m_GlyphRect
-    UnityEngine::TextCore::GlyphRect _get_m_GlyphRect();
-    // Set instance field: private UnityEngine.TextCore.GlyphRect m_GlyphRect
-    void _set_m_GlyphRect(UnityEngine::TextCore::GlyphRect value);
-    // Get instance field: private System.Single m_Scale
-    float _get_m_Scale();
-    // Set instance field: private System.Single m_Scale
-    void _set_m_Scale(float value);
-    // Get instance field: private System.Int32 m_AtlasIndex
-    int _get_m_AtlasIndex();
-    // Set instance field: private System.Int32 m_AtlasIndex
-    void _set_m_AtlasIndex(int value);
+    // Get instance field reference: private System.UInt32 m_Index
+    uint& dyn_m_Index();
+    // Get instance field reference: private UnityEngine.TextCore.GlyphMetrics m_Metrics
+    UnityEngine::TextCore::GlyphMetrics& dyn_m_Metrics();
+    // Get instance field reference: private UnityEngine.TextCore.GlyphRect m_GlyphRect
+    UnityEngine::TextCore::GlyphRect& dyn_m_GlyphRect();
+    // Get instance field reference: private System.Single m_Scale
+    float& dyn_m_Scale();
+    // Get instance field reference: private System.Int32 m_AtlasIndex
+    int& dyn_m_AtlasIndex();
     // public System.UInt32 get_index()
     // Offset: 0x23F7478
     uint get_index();

@@ -158,86 +158,46 @@ namespace System::Globalization {
     static System::Globalization::CultureData* _get_s_Invariant();
     // Set static field: static private System.Globalization.CultureData s_Invariant
     static void _set_s_Invariant(System::Globalization::CultureData* value);
-    // Get instance field: private System.String sAM1159
-    ::Il2CppString* _get_sAM1159();
-    // Set instance field: private System.String sAM1159
-    void _set_sAM1159(::Il2CppString* value);
-    // Get instance field: private System.String sPM2359
-    ::Il2CppString* _get_sPM2359();
-    // Set instance field: private System.String sPM2359
-    void _set_sPM2359(::Il2CppString* value);
-    // Get instance field: private System.String sTimeSeparator
-    ::Il2CppString* _get_sTimeSeparator();
-    // Set instance field: private System.String sTimeSeparator
-    void _set_sTimeSeparator(::Il2CppString* value);
-    // Get instance field: private System.String[] saLongTimes
-    ::Array<::Il2CppString*>* _get_saLongTimes();
-    // Set instance field: private System.String[] saLongTimes
-    void _set_saLongTimes(::Array<::Il2CppString*>* value);
-    // Get instance field: private System.String[] saShortTimes
-    ::Array<::Il2CppString*>* _get_saShortTimes();
-    // Set instance field: private System.String[] saShortTimes
-    void _set_saShortTimes(::Array<::Il2CppString*>* value);
-    // Get instance field: private System.Int32 iFirstDayOfWeek
-    int _get_iFirstDayOfWeek();
-    // Set instance field: private System.Int32 iFirstDayOfWeek
-    void _set_iFirstDayOfWeek(int value);
-    // Get instance field: private System.Int32 iFirstWeekOfYear
-    int _get_iFirstWeekOfYear();
-    // Set instance field: private System.Int32 iFirstWeekOfYear
-    void _set_iFirstWeekOfYear(int value);
-    // Get instance field: private System.Int32[] waCalendars
-    ::Array<int>* _get_waCalendars();
-    // Set instance field: private System.Int32[] waCalendars
-    void _set_waCalendars(::Array<int>* value);
-    // Get instance field: private System.Globalization.CalendarData[] calendars
-    ::Array<System::Globalization::CalendarData*>* _get_calendars();
-    // Set instance field: private System.Globalization.CalendarData[] calendars
-    void _set_calendars(::Array<System::Globalization::CalendarData*>* value);
-    // Get instance field: private System.String sISO639Language
-    ::Il2CppString* _get_sISO639Language();
-    // Set instance field: private System.String sISO639Language
-    void _set_sISO639Language(::Il2CppString* value);
-    // Get instance field: private readonly System.String sRealName
-    ::Il2CppString* _get_sRealName();
-    // Set instance field: private readonly System.String sRealName
-    void _set_sRealName(::Il2CppString* value);
-    // Get instance field: private System.Boolean bUseOverrides
-    bool _get_bUseOverrides();
-    // Set instance field: private System.Boolean bUseOverrides
-    void _set_bUseOverrides(bool value);
-    // Get instance field: private System.Int32 calendarId
-    int _get_calendarId();
-    // Set instance field: private System.Int32 calendarId
-    void _set_calendarId(int value);
-    // Get instance field: private System.Int32 numberIndex
-    int _get_numberIndex();
-    // Set instance field: private System.Int32 numberIndex
-    void _set_numberIndex(int value);
-    // Get instance field: private System.Int32 iDefaultAnsiCodePage
-    int _get_iDefaultAnsiCodePage();
-    // Set instance field: private System.Int32 iDefaultAnsiCodePage
-    void _set_iDefaultAnsiCodePage(int value);
-    // Get instance field: private System.Int32 iDefaultOemCodePage
-    int _get_iDefaultOemCodePage();
-    // Set instance field: private System.Int32 iDefaultOemCodePage
-    void _set_iDefaultOemCodePage(int value);
-    // Get instance field: private System.Int32 iDefaultMacCodePage
-    int _get_iDefaultMacCodePage();
-    // Set instance field: private System.Int32 iDefaultMacCodePage
-    void _set_iDefaultMacCodePage(int value);
-    // Get instance field: private System.Int32 iDefaultEbcdicCodePage
-    int _get_iDefaultEbcdicCodePage();
-    // Set instance field: private System.Int32 iDefaultEbcdicCodePage
-    void _set_iDefaultEbcdicCodePage(int value);
-    // Get instance field: private System.Boolean isRightToLeft
-    bool _get_isRightToLeft();
-    // Set instance field: private System.Boolean isRightToLeft
-    void _set_isRightToLeft(bool value);
-    // Get instance field: private System.String sListSeparator
-    ::Il2CppString* _get_sListSeparator();
-    // Set instance field: private System.String sListSeparator
-    void _set_sListSeparator(::Il2CppString* value);
+    // Get instance field reference: private System.String sAM1159
+    ::Il2CppString*& dyn_sAM1159();
+    // Get instance field reference: private System.String sPM2359
+    ::Il2CppString*& dyn_sPM2359();
+    // Get instance field reference: private System.String sTimeSeparator
+    ::Il2CppString*& dyn_sTimeSeparator();
+    // Get instance field reference: private System.String[] saLongTimes
+    ::Array<::Il2CppString*>*& dyn_saLongTimes();
+    // Get instance field reference: private System.String[] saShortTimes
+    ::Array<::Il2CppString*>*& dyn_saShortTimes();
+    // Get instance field reference: private System.Int32 iFirstDayOfWeek
+    int& dyn_iFirstDayOfWeek();
+    // Get instance field reference: private System.Int32 iFirstWeekOfYear
+    int& dyn_iFirstWeekOfYear();
+    // Get instance field reference: private System.Int32[] waCalendars
+    ::Array<int>*& dyn_waCalendars();
+    // Get instance field reference: private System.Globalization.CalendarData[] calendars
+    ::Array<System::Globalization::CalendarData*>*& dyn_calendars();
+    // Get instance field reference: private System.String sISO639Language
+    ::Il2CppString*& dyn_sISO639Language();
+    // Get instance field reference: private readonly System.String sRealName
+    ::Il2CppString*& dyn_sRealName();
+    // Get instance field reference: private System.Boolean bUseOverrides
+    bool& dyn_bUseOverrides();
+    // Get instance field reference: private System.Int32 calendarId
+    int& dyn_calendarId();
+    // Get instance field reference: private System.Int32 numberIndex
+    int& dyn_numberIndex();
+    // Get instance field reference: private System.Int32 iDefaultAnsiCodePage
+    int& dyn_iDefaultAnsiCodePage();
+    // Get instance field reference: private System.Int32 iDefaultOemCodePage
+    int& dyn_iDefaultOemCodePage();
+    // Get instance field reference: private System.Int32 iDefaultMacCodePage
+    int& dyn_iDefaultMacCodePage();
+    // Get instance field reference: private System.Int32 iDefaultEbcdicCodePage
+    int& dyn_iDefaultEbcdicCodePage();
+    // Get instance field reference: private System.Boolean isRightToLeft
+    bool& dyn_isRightToLeft();
+    // Get instance field reference: private System.String sListSeparator
+    ::Il2CppString*& dyn_sListSeparator();
     // static public System.Globalization.CultureData get_Invariant()
     // Offset: 0x1808A84
     static System::Globalization::CultureData* get_Invariant();

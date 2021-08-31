@@ -59,14 +59,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::OculusPlatformUserModel*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass2_0
     $$c__DisplayClass2_0(System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::UserInfo*>* tcs_ = {}, GlobalNamespace::OculusPlatformUserModel* $$4__this_ = {}) noexcept : tcs{tcs_}, $$4__this{$$4__this_} {}
-    // Get instance field: public System.Threading.Tasks.TaskCompletionSource`1<UserInfo> tcs
-    System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::UserInfo*>* _get_tcs();
-    // Set instance field: public System.Threading.Tasks.TaskCompletionSource`1<UserInfo> tcs
-    void _set_tcs(System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::UserInfo*>* value);
-    // Get instance field: public OculusPlatformUserModel <>4__this
-    GlobalNamespace::OculusPlatformUserModel* _get_$$4__this();
-    // Set instance field: public OculusPlatformUserModel <>4__this
-    void _set_$$4__this(GlobalNamespace::OculusPlatformUserModel* value);
+    // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<UserInfo> tcs
+    System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::UserInfo*>*& dyn_tcs();
+    // Get instance field reference: public OculusPlatformUserModel <>4__this
+    GlobalNamespace::OculusPlatformUserModel*& dyn_$$4__this();
     // System.Void <GetUserInfo>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.User> message)
     // Offset: 0x1022DE0
     void $GetUserInfo$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::User*>* message);

@@ -146,10 +146,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::LocalNetworkDiscoveryManager::PacketType _get_InviteResponse();
       // Set static field: static public LocalNetworkDiscoveryManager/PacketType InviteResponse
       static void _set_InviteResponse(GlobalNamespace::LocalNetworkDiscoveryManager::PacketType value);
-      // Get instance field: public System.Byte value__
-      uint8_t _get_value__();
-      // Set instance field: public System.Byte value__
-      void _set_value__(uint8_t value);
+      // Get instance field reference: public System.Byte value__
+      uint8_t& dyn_value__();
     }; // LocalNetworkDiscoveryManager/PacketType
     #pragma pack(pop)
     static check_size<sizeof(LocalNetworkDiscoveryManager::PacketType), 0 + sizeof(uint8_t)> __GlobalNamespace_LocalNetworkDiscoveryManager_PacketTypeSizeCheck;
@@ -254,58 +252,32 @@ namespace GlobalNamespace {
     static uint _get_kSignature();
     // Set static field: static private System.UInt32 kSignature
     static void _set_kSignature(uint value);
-    // Get instance field: private LocalNetworkDiscoveryManager/PeerUpdatedDelegate peerUpdatedEvent
-    GlobalNamespace::LocalNetworkDiscoveryManager::PeerUpdatedDelegate* _get_peerUpdatedEvent();
-    // Set instance field: private LocalNetworkDiscoveryManager/PeerUpdatedDelegate peerUpdatedEvent
-    void _set_peerUpdatedEvent(GlobalNamespace::LocalNetworkDiscoveryManager::PeerUpdatedDelegate* value);
-    // Get instance field: private LocalNetworkDiscoveryManager/JoinRequestedDelegate joinRequestedEvent
-    GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestedDelegate* _get_joinRequestedEvent();
-    // Set instance field: private LocalNetworkDiscoveryManager/JoinRequestedDelegate joinRequestedEvent
-    void _set_joinRequestedEvent(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestedDelegate* value);
-    // Get instance field: private LocalNetworkDiscoveryManager/JoinRespondedDelegate joinRespondedEvent
-    GlobalNamespace::LocalNetworkDiscoveryManager::JoinRespondedDelegate* _get_joinRespondedEvent();
-    // Set instance field: private LocalNetworkDiscoveryManager/JoinRespondedDelegate joinRespondedEvent
-    void _set_joinRespondedEvent(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRespondedDelegate* value);
-    // Get instance field: private LocalNetworkDiscoveryManager/InviteRequestedDelegate inviteRequestedEvent
-    GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestedDelegate* _get_inviteRequestedEvent();
-    // Set instance field: private LocalNetworkDiscoveryManager/InviteRequestedDelegate inviteRequestedEvent
-    void _set_inviteRequestedEvent(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestedDelegate* value);
-    // Get instance field: private LocalNetworkDiscoveryManager/InviteRespondedDelegate inviteRespondedEvent
-    GlobalNamespace::LocalNetworkDiscoveryManager::InviteRespondedDelegate* _get_inviteRespondedEvent();
-    // Set instance field: private LocalNetworkDiscoveryManager/InviteRespondedDelegate inviteRespondedEvent
-    void _set_inviteRespondedEvent(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRespondedDelegate* value);
-    // Get instance field: private LiteNetLib.NetManager _netManager
-    LiteNetLib::NetManager* _get__netManager();
-    // Set instance field: private LiteNetLib.NetManager _netManager
-    void _set__netManager(LiteNetLib::NetManager* value);
-    // Get instance field: private readonly NetworkPacketSerializer`2<LocalNetworkDiscoveryManager/PacketType,System.Net.IPEndPoint> _packetSerializer
-    GlobalNamespace::NetworkPacketSerializer_2<GlobalNamespace::LocalNetworkDiscoveryManager::PacketType, System::Net::IPEndPoint*>* _get__packetSerializer();
-    // Set instance field: private readonly NetworkPacketSerializer`2<LocalNetworkDiscoveryManager/PacketType,System.Net.IPEndPoint> _packetSerializer
-    void _set__packetSerializer(GlobalNamespace::NetworkPacketSerializer_2<GlobalNamespace::LocalNetworkDiscoveryManager::PacketType, System::Net::IPEndPoint*>* value);
-    // Get instance field: private readonly LiteNetLib.Utils.NetDataWriter _netDataWriter
-    LiteNetLib::Utils::NetDataWriter* _get__netDataWriter();
-    // Set instance field: private readonly LiteNetLib.Utils.NetDataWriter _netDataWriter
-    void _set__netDataWriter(LiteNetLib::Utils::NetDataWriter* value);
-    // Get instance field: private readonly LocalNetworkDiscoveryManager/BroadcastPacket _broadcastPacket
-    GlobalNamespace::LocalNetworkDiscoveryManager::BroadcastPacket* _get__broadcastPacket();
-    // Set instance field: private readonly LocalNetworkDiscoveryManager/BroadcastPacket _broadcastPacket
-    void _set__broadcastPacket(GlobalNamespace::LocalNetworkDiscoveryManager::BroadcastPacket* value);
-    // Get instance field: private System.Int32 _discoveryPort
-    int _get__discoveryPort();
-    // Set instance field: private System.Int32 _discoveryPort
-    void _set__discoveryPort(int value);
-    // Get instance field: private System.Boolean _initialized
-    bool _get__initialized();
-    // Set instance field: private System.Boolean _initialized
-    void _set__initialized(bool value);
-    // Get instance field: private System.Boolean _enableBroadcasting
-    bool _get__enableBroadcasting();
-    // Set instance field: private System.Boolean _enableBroadcasting
-    void _set__enableBroadcasting(bool value);
-    // Get instance field: private System.Single _lastBroadcastTime
-    float _get__lastBroadcastTime();
-    // Set instance field: private System.Single _lastBroadcastTime
-    void _set__lastBroadcastTime(float value);
+    // Get instance field reference: private LocalNetworkDiscoveryManager/PeerUpdatedDelegate peerUpdatedEvent
+    GlobalNamespace::LocalNetworkDiscoveryManager::PeerUpdatedDelegate*& dyn_peerUpdatedEvent();
+    // Get instance field reference: private LocalNetworkDiscoveryManager/JoinRequestedDelegate joinRequestedEvent
+    GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestedDelegate*& dyn_joinRequestedEvent();
+    // Get instance field reference: private LocalNetworkDiscoveryManager/JoinRespondedDelegate joinRespondedEvent
+    GlobalNamespace::LocalNetworkDiscoveryManager::JoinRespondedDelegate*& dyn_joinRespondedEvent();
+    // Get instance field reference: private LocalNetworkDiscoveryManager/InviteRequestedDelegate inviteRequestedEvent
+    GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestedDelegate*& dyn_inviteRequestedEvent();
+    // Get instance field reference: private LocalNetworkDiscoveryManager/InviteRespondedDelegate inviteRespondedEvent
+    GlobalNamespace::LocalNetworkDiscoveryManager::InviteRespondedDelegate*& dyn_inviteRespondedEvent();
+    // Get instance field reference: private LiteNetLib.NetManager _netManager
+    LiteNetLib::NetManager*& dyn__netManager();
+    // Get instance field reference: private readonly NetworkPacketSerializer`2<LocalNetworkDiscoveryManager/PacketType,System.Net.IPEndPoint> _packetSerializer
+    GlobalNamespace::NetworkPacketSerializer_2<GlobalNamespace::LocalNetworkDiscoveryManager::PacketType, System::Net::IPEndPoint*>*& dyn__packetSerializer();
+    // Get instance field reference: private readonly LiteNetLib.Utils.NetDataWriter _netDataWriter
+    LiteNetLib::Utils::NetDataWriter*& dyn__netDataWriter();
+    // Get instance field reference: private readonly LocalNetworkDiscoveryManager/BroadcastPacket _broadcastPacket
+    GlobalNamespace::LocalNetworkDiscoveryManager::BroadcastPacket*& dyn__broadcastPacket();
+    // Get instance field reference: private System.Int32 _discoveryPort
+    int& dyn__discoveryPort();
+    // Get instance field reference: private System.Boolean _initialized
+    bool& dyn__initialized();
+    // Get instance field reference: private System.Boolean _enableBroadcasting
+    bool& dyn__enableBroadcasting();
+    // Get instance field reference: private System.Single _lastBroadcastTime
+    float& dyn__lastBroadcastTime();
     // public System.String get_userId()
     // Offset: 0x10D6BBC
     ::Il2CppString* get_userId();

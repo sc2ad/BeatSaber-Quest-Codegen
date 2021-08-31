@@ -92,34 +92,20 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::ObstacleController*, GlobalNamespace::MirroredObstacleController*>*) == 0x8);
     // Creating value type constructor for type: MirroredBeatmapObjectManager
     MirroredBeatmapObjectManager(GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::MirroredCubeNoteController*>* mirroredCubeNotePoolContainer_ = {}, GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::MirroredBombNoteController*>* mirroredBombNotePoolContainer_ = {}, GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::MirroredObstacleController*>* mirroredObstaclePoolContainer_ = {}, System::Collections::Generic::Dictionary_2<GlobalNamespace::ICubeNoteMirrorable*, GlobalNamespace::MirroredCubeNoteController*>* cubeNoteControllersToMirroredCubeNoteControllers_ = {}, System::Collections::Generic::Dictionary_2<GlobalNamespace::INoteMirrorable*, GlobalNamespace::MirroredBombNoteController*>* bombNoteControllersToMirroredBombNoteControllers_ = {}, System::Collections::Generic::Dictionary_2<GlobalNamespace::ObstacleController*, GlobalNamespace::MirroredObstacleController*>* obstacleControllersToMirroredObstacleControllers_ = {}) noexcept : beatmapObjectManager{beatmapObjectManager_}, mirroredCubeNotePoolContainer{mirroredCubeNotePoolContainer_}, mirroredBombNotePoolContainer{mirroredBombNotePoolContainer_}, mirroredObstaclePoolContainer{mirroredObstaclePoolContainer_}, cubeNoteControllersToMirroredCubeNoteControllers{cubeNoteControllersToMirroredCubeNoteControllers_}, bombNoteControllersToMirroredBombNoteControllers{bombNoteControllersToMirroredBombNoteControllers_}, obstacleControllersToMirroredObstacleControllers{obstacleControllersToMirroredObstacleControllers_} {}
-    // Get instance field: private readonly BeatmapObjectManager _beatmapObjectManager
-    GlobalNamespace::BeatmapObjectManager* _get__beatmapObjectManager();
-    // Set instance field: private readonly BeatmapObjectManager _beatmapObjectManager
-    void _set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager* value);
-    // Get instance field: private readonly MemoryPoolContainer`1<MirroredCubeNoteController> _mirroredCubeNotePoolContainer
-    GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::MirroredCubeNoteController*>* _get__mirroredCubeNotePoolContainer();
-    // Set instance field: private readonly MemoryPoolContainer`1<MirroredCubeNoteController> _mirroredCubeNotePoolContainer
-    void _set__mirroredCubeNotePoolContainer(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::MirroredCubeNoteController*>* value);
-    // Get instance field: private readonly MemoryPoolContainer`1<MirroredBombNoteController> _mirroredBombNotePoolContainer
-    GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::MirroredBombNoteController*>* _get__mirroredBombNotePoolContainer();
-    // Set instance field: private readonly MemoryPoolContainer`1<MirroredBombNoteController> _mirroredBombNotePoolContainer
-    void _set__mirroredBombNotePoolContainer(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::MirroredBombNoteController*>* value);
-    // Get instance field: private readonly MemoryPoolContainer`1<MirroredObstacleController> _mirroredObstaclePoolContainer
-    GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::MirroredObstacleController*>* _get__mirroredObstaclePoolContainer();
-    // Set instance field: private readonly MemoryPoolContainer`1<MirroredObstacleController> _mirroredObstaclePoolContainer
-    void _set__mirroredObstaclePoolContainer(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::MirroredObstacleController*>* value);
-    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<ICubeNoteMirrorable,MirroredCubeNoteController> _cubeNoteControllersToMirroredCubeNoteControllers
-    System::Collections::Generic::Dictionary_2<GlobalNamespace::ICubeNoteMirrorable*, GlobalNamespace::MirroredCubeNoteController*>* _get__cubeNoteControllersToMirroredCubeNoteControllers();
-    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<ICubeNoteMirrorable,MirroredCubeNoteController> _cubeNoteControllersToMirroredCubeNoteControllers
-    void _set__cubeNoteControllersToMirroredCubeNoteControllers(System::Collections::Generic::Dictionary_2<GlobalNamespace::ICubeNoteMirrorable*, GlobalNamespace::MirroredCubeNoteController*>* value);
-    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<INoteMirrorable,MirroredBombNoteController> _bombNoteControllersToMirroredBombNoteControllers
-    System::Collections::Generic::Dictionary_2<GlobalNamespace::INoteMirrorable*, GlobalNamespace::MirroredBombNoteController*>* _get__bombNoteControllersToMirroredBombNoteControllers();
-    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<INoteMirrorable,MirroredBombNoteController> _bombNoteControllersToMirroredBombNoteControllers
-    void _set__bombNoteControllersToMirroredBombNoteControllers(System::Collections::Generic::Dictionary_2<GlobalNamespace::INoteMirrorable*, GlobalNamespace::MirroredBombNoteController*>* value);
-    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<ObstacleController,MirroredObstacleController> _obstacleControllersToMirroredObstacleControllers
-    System::Collections::Generic::Dictionary_2<GlobalNamespace::ObstacleController*, GlobalNamespace::MirroredObstacleController*>* _get__obstacleControllersToMirroredObstacleControllers();
-    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<ObstacleController,MirroredObstacleController> _obstacleControllersToMirroredObstacleControllers
-    void _set__obstacleControllersToMirroredObstacleControllers(System::Collections::Generic::Dictionary_2<GlobalNamespace::ObstacleController*, GlobalNamespace::MirroredObstacleController*>* value);
+    // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
+    GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
+    // Get instance field reference: private readonly MemoryPoolContainer`1<MirroredCubeNoteController> _mirroredCubeNotePoolContainer
+    GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::MirroredCubeNoteController*>*& dyn__mirroredCubeNotePoolContainer();
+    // Get instance field reference: private readonly MemoryPoolContainer`1<MirroredBombNoteController> _mirroredBombNotePoolContainer
+    GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::MirroredBombNoteController*>*& dyn__mirroredBombNotePoolContainer();
+    // Get instance field reference: private readonly MemoryPoolContainer`1<MirroredObstacleController> _mirroredObstaclePoolContainer
+    GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::MirroredObstacleController*>*& dyn__mirroredObstaclePoolContainer();
+    // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<ICubeNoteMirrorable,MirroredCubeNoteController> _cubeNoteControllersToMirroredCubeNoteControllers
+    System::Collections::Generic::Dictionary_2<GlobalNamespace::ICubeNoteMirrorable*, GlobalNamespace::MirroredCubeNoteController*>*& dyn__cubeNoteControllersToMirroredCubeNoteControllers();
+    // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<INoteMirrorable,MirroredBombNoteController> _bombNoteControllersToMirroredBombNoteControllers
+    System::Collections::Generic::Dictionary_2<GlobalNamespace::INoteMirrorable*, GlobalNamespace::MirroredBombNoteController*>*& dyn__bombNoteControllersToMirroredBombNoteControllers();
+    // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<ObstacleController,MirroredObstacleController> _obstacleControllersToMirroredObstacleControllers
+    System::Collections::Generic::Dictionary_2<GlobalNamespace::ObstacleController*, GlobalNamespace::MirroredObstacleController*>*& dyn__obstacleControllersToMirroredObstacleControllers();
     // private System.Void .ctor(BeatmapObjectManager beatmapObjectManager, MirroredCubeNoteController/Pool mirroredCubeNotePool, MirroredBombNoteController/Pool mirroredBombNotePool, MirroredObstacleController/Pool mirroredObstaclePool)
     // Offset: 0x10E7910
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

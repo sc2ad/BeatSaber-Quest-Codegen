@@ -40,10 +40,8 @@ namespace GlobalNamespace {
     constexpr operator ::Il2CppString*() const noexcept {
       return levelId;
     }
-    // Get instance field: public System.String levelId
-    ::Il2CppString* _get_levelId();
-    // Set instance field: public System.String levelId
-    void _set_levelId(::Il2CppString* value);
+    // Get instance field reference: public System.String levelId
+    ::Il2CppString*& dyn_levelId();
     // System.Boolean <GetLevelPreviewForLevelId>b__1(IPreviewBeatmapLevel beatmapLevel)
     // Offset: 0x10C4CF4
     bool $GetLevelPreviewForLevelId$b__1(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);

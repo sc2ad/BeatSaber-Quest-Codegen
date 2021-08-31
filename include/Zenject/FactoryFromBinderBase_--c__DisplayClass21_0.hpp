@@ -44,14 +44,10 @@ namespace Zenject {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass21_0
     $$c__DisplayClass21_0(Zenject::FactoryFromBinderBase* $$4__this_ = {}, ::Il2CppObject* subIdentifier_ = {}) noexcept : $$4__this{$$4__this_}, subIdentifier{subIdentifier_} {}
-    // Get instance field: public Zenject.FactoryFromBinderBase <>4__this
-    Zenject::FactoryFromBinderBase* _get_$$4__this();
-    // Set instance field: public Zenject.FactoryFromBinderBase <>4__this
-    void _set_$$4__this(Zenject::FactoryFromBinderBase* value);
-    // Get instance field: public System.Object subIdentifier
-    ::Il2CppObject* _get_subIdentifier();
-    // Set instance field: public System.Object subIdentifier
-    void _set_subIdentifier(::Il2CppObject* value);
+    // Get instance field reference: public Zenject.FactoryFromBinderBase <>4__this
+    Zenject::FactoryFromBinderBase*& dyn_$$4__this();
+    // Get instance field reference: public System.Object subIdentifier
+    ::Il2CppObject*& dyn_subIdentifier();
     // Zenject.IProvider <FromResolve>b__0(Zenject.DiContainer container)
     // Offset: 0x1657D8C
     Zenject::IProvider* $FromResolve$b__0(Zenject::DiContainer* container);

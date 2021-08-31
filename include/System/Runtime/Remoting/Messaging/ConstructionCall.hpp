@@ -103,34 +103,20 @@ namespace System::Runtime::Remoting::Messaging {
     operator System::Runtime::Remoting::Activation::IConstructionCallMessage() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Activation::IConstructionCallMessage*>(this);
     }
-    // Get instance field: private System.Runtime.Remoting.Activation.IActivator _activator
-    System::Runtime::Remoting::Activation::IActivator* _get__activator();
-    // Set instance field: private System.Runtime.Remoting.Activation.IActivator _activator
-    void _set__activator(System::Runtime::Remoting::Activation::IActivator* value);
-    // Get instance field: private System.Object[] _activationAttributes
-    ::Array<::Il2CppObject*>* _get__activationAttributes();
-    // Set instance field: private System.Object[] _activationAttributes
-    void _set__activationAttributes(::Array<::Il2CppObject*>* value);
-    // Get instance field: private System.Collections.IList _contextProperties
-    System::Collections::IList* _get__contextProperties();
-    // Set instance field: private System.Collections.IList _contextProperties
-    void _set__contextProperties(System::Collections::IList* value);
-    // Get instance field: private System.Type _activationType
-    System::Type* _get__activationType();
-    // Set instance field: private System.Type _activationType
-    void _set__activationType(System::Type* value);
-    // Get instance field: private System.String _activationTypeName
-    ::Il2CppString* _get__activationTypeName();
-    // Set instance field: private System.String _activationTypeName
-    void _set__activationTypeName(::Il2CppString* value);
-    // Get instance field: private System.Boolean _isContextOk
-    bool _get__isContextOk();
-    // Set instance field: private System.Boolean _isContextOk
-    void _set__isContextOk(bool value);
-    // Get instance field: private System.Runtime.Remoting.Proxies.RemotingProxy _sourceProxy
-    System::Runtime::Remoting::Proxies::RemotingProxy* _get__sourceProxy();
-    // Set instance field: private System.Runtime.Remoting.Proxies.RemotingProxy _sourceProxy
-    void _set__sourceProxy(System::Runtime::Remoting::Proxies::RemotingProxy* value);
+    // Get instance field reference: private System.Runtime.Remoting.Activation.IActivator _activator
+    System::Runtime::Remoting::Activation::IActivator*& dyn__activator();
+    // Get instance field reference: private System.Object[] _activationAttributes
+    ::Array<::Il2CppObject*>*& dyn__activationAttributes();
+    // Get instance field reference: private System.Collections.IList _contextProperties
+    System::Collections::IList*& dyn__contextProperties();
+    // Get instance field reference: private System.Type _activationType
+    System::Type*& dyn__activationType();
+    // Get instance field reference: private System.String _activationTypeName
+    ::Il2CppString*& dyn__activationTypeName();
+    // Get instance field reference: private System.Boolean _isContextOk
+    bool& dyn__isContextOk();
+    // Get instance field reference: private System.Runtime.Remoting.Proxies.RemotingProxy _sourceProxy
+    System::Runtime::Remoting::Proxies::RemotingProxy*& dyn__sourceProxy();
     // System.Boolean get_IsContextOk()
     // Offset: 0x1A4992C
     bool get_IsContextOk();

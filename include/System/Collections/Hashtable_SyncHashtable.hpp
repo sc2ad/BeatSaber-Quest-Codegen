@@ -56,10 +56,8 @@ namespace System::Collections {
     constexpr operator System::Collections::Hashtable*() const noexcept {
       return table;
     }
-    // Get instance field: protected System.Collections.Hashtable _table
-    System::Collections::Hashtable* _get__table();
-    // Set instance field: protected System.Collections.Hashtable _table
-    void _set__table(System::Collections::Hashtable* value);
+    // Get instance field reference: protected System.Collections.Hashtable _table
+    System::Collections::Hashtable*& dyn__table();
     // System.Void .ctor(System.Collections.Hashtable table)
     // Offset: 0x19B18E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

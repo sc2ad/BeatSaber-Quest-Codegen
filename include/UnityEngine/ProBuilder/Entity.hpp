@@ -35,10 +35,8 @@ namespace UnityEngine::ProBuilder {
     Entity(UnityEngine::ProBuilder::EntityType m_EntityType_ = {}) noexcept : m_EntityType{m_EntityType_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.ProBuilder.EntityType m_EntityType
-    UnityEngine::ProBuilder::EntityType _get_m_EntityType();
-    // Set instance field: private UnityEngine.ProBuilder.EntityType m_EntityType
-    void _set_m_EntityType(UnityEngine::ProBuilder::EntityType value);
+    // Get instance field reference: private UnityEngine.ProBuilder.EntityType m_EntityType
+    UnityEngine::ProBuilder::EntityType& dyn_m_EntityType();
     // public UnityEngine.ProBuilder.EntityType get_entityType()
     // Offset: 0x1AEE7FC
     UnityEngine::ProBuilder::EntityType get_entityType();

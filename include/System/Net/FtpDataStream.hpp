@@ -77,26 +77,16 @@ namespace System::Net {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: FtpDataStream
     FtpDataStream(System::Net::FtpWebRequest* request_ = {}, System::IO::Stream* networkStream_ = {}, bool disposed_ = {}, bool isRead_ = {}, int totalRead_ = {}) noexcept : request{request_}, networkStream{networkStream_}, disposed{disposed_}, isRead{isRead_}, totalRead{totalRead_} {}
-    // Get instance field: private System.Net.FtpWebRequest request
-    System::Net::FtpWebRequest* _get_request();
-    // Set instance field: private System.Net.FtpWebRequest request
-    void _set_request(System::Net::FtpWebRequest* value);
-    // Get instance field: private System.IO.Stream networkStream
-    System::IO::Stream* _get_networkStream();
-    // Set instance field: private System.IO.Stream networkStream
-    void _set_networkStream(System::IO::Stream* value);
-    // Get instance field: private System.Boolean disposed
-    bool _get_disposed();
-    // Set instance field: private System.Boolean disposed
-    void _set_disposed(bool value);
-    // Get instance field: private System.Boolean isRead
-    bool _get_isRead();
-    // Set instance field: private System.Boolean isRead
-    void _set_isRead(bool value);
-    // Get instance field: private System.Int32 totalRead
-    int _get_totalRead();
-    // Set instance field: private System.Int32 totalRead
-    void _set_totalRead(int value);
+    // Get instance field reference: private System.Net.FtpWebRequest request
+    System::Net::FtpWebRequest*& dyn_request();
+    // Get instance field reference: private System.IO.Stream networkStream
+    System::IO::Stream*& dyn_networkStream();
+    // Get instance field reference: private System.Boolean disposed
+    bool& dyn_disposed();
+    // Get instance field reference: private System.Boolean isRead
+    bool& dyn_isRead();
+    // Get instance field reference: private System.Int32 totalRead
+    int& dyn_totalRead();
     // System.Void .ctor(System.Net.FtpWebRequest request, System.IO.Stream stream, System.Boolean isRead)
     // Offset: 0x16E1A1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

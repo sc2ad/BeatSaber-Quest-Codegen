@@ -83,30 +83,18 @@ namespace Zenject::Internal {
     static_assert(sizeof(System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectMethodInfo*>*) == 0x8);
     // Creating value type constructor for type: ReflectionTypeInfo
     ReflectionTypeInfo(System::Type* Type_ = {}, System::Type* BaseType_ = {}, System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectPropertyInfo*>* InjectProperties_ = {}, System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectFieldInfo*>* InjectFields_ = {}, Zenject::Internal::ReflectionTypeInfo::InjectConstructorInfo* InjectConstructor_ = {}, System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectMethodInfo*>* InjectMethods_ = {}) noexcept : Type{Type_}, BaseType{BaseType_}, InjectProperties{InjectProperties_}, InjectFields{InjectFields_}, InjectConstructor{InjectConstructor_}, InjectMethods{InjectMethods_} {}
-    // Get instance field: public readonly System.Type Type
-    System::Type* _get_Type();
-    // Set instance field: public readonly System.Type Type
-    void _set_Type(System::Type* value);
-    // Get instance field: public readonly System.Type BaseType
-    System::Type* _get_BaseType();
-    // Set instance field: public readonly System.Type BaseType
-    void _set_BaseType(System::Type* value);
-    // Get instance field: public readonly System.Collections.Generic.List`1<Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectPropertyInfo> InjectProperties
-    System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectPropertyInfo*>* _get_InjectProperties();
-    // Set instance field: public readonly System.Collections.Generic.List`1<Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectPropertyInfo> InjectProperties
-    void _set_InjectProperties(System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectPropertyInfo*>* value);
-    // Get instance field: public readonly System.Collections.Generic.List`1<Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectFieldInfo> InjectFields
-    System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectFieldInfo*>* _get_InjectFields();
-    // Set instance field: public readonly System.Collections.Generic.List`1<Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectFieldInfo> InjectFields
-    void _set_InjectFields(System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectFieldInfo*>* value);
-    // Get instance field: public readonly Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectConstructorInfo InjectConstructor
-    Zenject::Internal::ReflectionTypeInfo::InjectConstructorInfo* _get_InjectConstructor();
-    // Set instance field: public readonly Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectConstructorInfo InjectConstructor
-    void _set_InjectConstructor(Zenject::Internal::ReflectionTypeInfo::InjectConstructorInfo* value);
-    // Get instance field: public readonly System.Collections.Generic.List`1<Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectMethodInfo> InjectMethods
-    System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectMethodInfo*>* _get_InjectMethods();
-    // Set instance field: public readonly System.Collections.Generic.List`1<Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectMethodInfo> InjectMethods
-    void _set_InjectMethods(System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectMethodInfo*>* value);
+    // Get instance field reference: public readonly System.Type Type
+    System::Type*& dyn_Type();
+    // Get instance field reference: public readonly System.Type BaseType
+    System::Type*& dyn_BaseType();
+    // Get instance field reference: public readonly System.Collections.Generic.List`1<Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectPropertyInfo> InjectProperties
+    System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectPropertyInfo*>*& dyn_InjectProperties();
+    // Get instance field reference: public readonly System.Collections.Generic.List`1<Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectFieldInfo> InjectFields
+    System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectFieldInfo*>*& dyn_InjectFields();
+    // Get instance field reference: public readonly Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectConstructorInfo InjectConstructor
+    Zenject::Internal::ReflectionTypeInfo::InjectConstructorInfo*& dyn_InjectConstructor();
+    // Get instance field reference: public readonly System.Collections.Generic.List`1<Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectMethodInfo> InjectMethods
+    System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectMethodInfo*>*& dyn_InjectMethods();
     // public System.Void .ctor(System.Type type, System.Type baseType, Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectConstructorInfo injectConstructor, System.Collections.Generic.List`1<Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectMethodInfo> injectMethods, System.Collections.Generic.List`1<Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectFieldInfo> injectFields, System.Collections.Generic.List`1<Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectPropertyInfo> injectProperties)
     // Offset: 0x166508C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

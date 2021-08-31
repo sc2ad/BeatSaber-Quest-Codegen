@@ -85,30 +85,18 @@ namespace System::Globalization {
     static ::Array<int>* _get_DaysToMonth366();
     // Set static field: static readonly System.Int32[] DaysToMonth366
     static void _set_DaysToMonth366(::Array<int>* value);
-    // Get instance field: System.Int32 m_maxYear
-    int _get_m_maxYear();
-    // Set instance field: System.Int32 m_maxYear
-    void _set_m_maxYear(int value);
-    // Get instance field: System.Int32 m_minYear
-    int _get_m_minYear();
-    // Set instance field: System.Int32 m_minYear
-    void _set_m_minYear(int value);
-    // Get instance field: System.Globalization.Calendar m_Cal
-    System::Globalization::Calendar* _get_m_Cal();
-    // Set instance field: System.Globalization.Calendar m_Cal
-    void _set_m_Cal(System::Globalization::Calendar* value);
-    // Get instance field: System.Globalization.EraInfo[] m_EraInfo
-    ::Array<System::Globalization::EraInfo*>* _get_m_EraInfo();
-    // Set instance field: System.Globalization.EraInfo[] m_EraInfo
-    void _set_m_EraInfo(::Array<System::Globalization::EraInfo*>* value);
-    // Get instance field: System.Int32[] m_eras
-    ::Array<int>* _get_m_eras();
-    // Set instance field: System.Int32[] m_eras
-    void _set_m_eras(::Array<int>* value);
-    // Get instance field: System.DateTime m_minDate
-    System::DateTime _get_m_minDate();
-    // Set instance field: System.DateTime m_minDate
-    void _set_m_minDate(System::DateTime value);
+    // Get instance field reference: System.Int32 m_maxYear
+    int& dyn_m_maxYear();
+    // Get instance field reference: System.Int32 m_minYear
+    int& dyn_m_minYear();
+    // Get instance field reference: System.Globalization.Calendar m_Cal
+    System::Globalization::Calendar*& dyn_m_Cal();
+    // Get instance field reference: System.Globalization.EraInfo[] m_EraInfo
+    ::Array<System::Globalization::EraInfo*>*& dyn_m_EraInfo();
+    // Get instance field reference: System.Int32[] m_eras
+    ::Array<int>*& dyn_m_eras();
+    // Get instance field reference: System.DateTime m_minDate
+    System::DateTime& dyn_m_minDate();
     // System.Int32 get_MaxYear()
     // Offset: 0x1A160F8
     int get_MaxYear();

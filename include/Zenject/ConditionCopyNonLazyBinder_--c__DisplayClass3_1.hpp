@@ -45,10 +45,8 @@ namespace Zenject {
     constexpr operator Zenject::InjectContext*() const noexcept {
       return r;
     }
-    // Get instance field: public Zenject.InjectContext r
-    Zenject::InjectContext* _get_r();
-    // Set instance field: public Zenject.InjectContext r
-    void _set_r(Zenject::InjectContext* value);
+    // Get instance field reference: public Zenject.InjectContext r
+    Zenject::InjectContext*& dyn_r();
     // System.Boolean <WhenInjectedInto>b__1(System.Type x)
     // Offset: 0x13DF460
     bool $WhenInjectedInto$b__1(System::Type* x);

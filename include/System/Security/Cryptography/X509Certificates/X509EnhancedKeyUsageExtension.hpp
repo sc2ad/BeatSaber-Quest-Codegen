@@ -48,14 +48,10 @@ namespace System::Security::Cryptography::X509Certificates {
     X509EnhancedKeyUsageExtension(System::Security::Cryptography::OidCollection* enhKeyUsage_ = {}, System::Security::Cryptography::AsnDecodeStatus status_ = {}) noexcept : enhKeyUsage{enhKeyUsage_}, status{status_} {}
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
-    // Get instance field: private System.Security.Cryptography.OidCollection _enhKeyUsage
-    System::Security::Cryptography::OidCollection* _get__enhKeyUsage();
-    // Set instance field: private System.Security.Cryptography.OidCollection _enhKeyUsage
-    void _set__enhKeyUsage(System::Security::Cryptography::OidCollection* value);
-    // Get instance field: private System.Security.Cryptography.AsnDecodeStatus _status
-    System::Security::Cryptography::AsnDecodeStatus _get__status();
-    // Set instance field: private System.Security.Cryptography.AsnDecodeStatus _status
-    void _set__status(System::Security::Cryptography::AsnDecodeStatus value);
+    // Get instance field reference: private System.Security.Cryptography.OidCollection _enhKeyUsage
+    System::Security::Cryptography::OidCollection*& dyn__enhKeyUsage();
+    // Get instance field reference: private System.Security.Cryptography.AsnDecodeStatus _status
+    System::Security::Cryptography::AsnDecodeStatus& dyn__status();
     // public System.Void .ctor(System.Security.Cryptography.AsnEncodedData encodedEnhancedKeyUsages, System.Boolean critical)
     // Offset: 0x1864C64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

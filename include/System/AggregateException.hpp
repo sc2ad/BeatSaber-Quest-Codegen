@@ -60,10 +60,8 @@ namespace System {
     constexpr operator System::Collections::ObjectModel::ReadOnlyCollection_1<System::Exception*>*() const noexcept {
       return m_innerExceptions;
     }
-    // Get instance field: private System.Collections.ObjectModel.ReadOnlyCollection`1<System.Exception> m_innerExceptions
-    System::Collections::ObjectModel::ReadOnlyCollection_1<System::Exception*>* _get_m_innerExceptions();
-    // Set instance field: private System.Collections.ObjectModel.ReadOnlyCollection`1<System.Exception> m_innerExceptions
-    void _set_m_innerExceptions(System::Collections::ObjectModel::ReadOnlyCollection_1<System::Exception*>* value);
+    // Get instance field reference: private System.Collections.ObjectModel.ReadOnlyCollection`1<System.Exception> m_innerExceptions
+    System::Collections::ObjectModel::ReadOnlyCollection_1<System::Exception*>*& dyn_m_innerExceptions();
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<System.Exception> get_InnerExceptions()
     // Offset: 0x17C5E68
     System::Collections::ObjectModel::ReadOnlyCollection_1<System::Exception*>* get_InnerExceptions();

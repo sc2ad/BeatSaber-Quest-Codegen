@@ -1239,10 +1239,8 @@ namespace Oculus::Platform {
       static Oculus::Platform::Message::MessageType _get_Platform_InitializeWindowsAsynchronous();
       // Set static field: static public Oculus.Platform.Message/Oculus.Platform.MessageType Platform_InitializeWindowsAsynchronous
       static void _set_Platform_InitializeWindowsAsynchronous(Oculus::Platform::Message::MessageType value);
-      // Get instance field: public System.UInt32 value__
-      uint _get_value__();
-      // Set instance field: public System.UInt32 value__
-      void _set_value__(uint value);
+      // Get instance field reference: public System.UInt32 value__
+      uint& dyn_value__();
     }; // Oculus.Platform.Message/Oculus.Platform.MessageType
     #pragma pack(pop)
     static check_size<sizeof(Message::MessageType), 0 + sizeof(uint)> __Oculus_Platform_Message_MessageTypeSizeCheck;
@@ -1273,18 +1271,12 @@ namespace Oculus::Platform {
     static Oculus::Platform::Message::ExtraMessageTypesHandler* _get_$HandleExtraMessageTypes$k__BackingField();
     // Set static field: static private Oculus.Platform.Message/Oculus.Platform.ExtraMessageTypesHandler <HandleExtraMessageTypes>k__BackingField
     static void _set_$HandleExtraMessageTypes$k__BackingField(Oculus::Platform::Message::ExtraMessageTypesHandler* value);
-    // Get instance field: private Oculus.Platform.Message/Oculus.Platform.MessageType type
-    Oculus::Platform::Message::MessageType _get_type();
-    // Set instance field: private Oculus.Platform.Message/Oculus.Platform.MessageType type
-    void _set_type(Oculus::Platform::Message::MessageType value);
-    // Get instance field: private System.UInt64 requestID
-    uint64_t _get_requestID();
-    // Set instance field: private System.UInt64 requestID
-    void _set_requestID(uint64_t value);
-    // Get instance field: private Oculus.Platform.Models.Error error
-    Oculus::Platform::Models::Error* _get_error();
-    // Set instance field: private Oculus.Platform.Models.Error error
-    void _set_error(Oculus::Platform::Models::Error* value);
+    // Get instance field reference: private Oculus.Platform.Message/Oculus.Platform.MessageType type
+    Oculus::Platform::Message::MessageType& dyn_type();
+    // Get instance field reference: private System.UInt64 requestID
+    uint64_t& dyn_requestID();
+    // Get instance field reference: private Oculus.Platform.Models.Error error
+    Oculus::Platform::Models::Error*& dyn_error();
     // public Oculus.Platform.Message/Oculus.Platform.MessageType get_Type()
     // Offset: 0x14E387C
     Oculus::Platform::Message::MessageType get_Type();

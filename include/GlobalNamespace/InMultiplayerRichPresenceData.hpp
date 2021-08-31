@@ -58,18 +58,12 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kInMultiplayerLobbyRichPresenceLocalizationKey();
     // Set static field: static private System.String kInMultiplayerLobbyRichPresenceLocalizationKey
     static void _set_kInMultiplayerLobbyRichPresenceLocalizationKey(::Il2CppString* value);
-    // Get instance field: private System.String <apiName>k__BackingField
-    ::Il2CppString* _get_$apiName$k__BackingField();
-    // Set instance field: private System.String <apiName>k__BackingField
-    void _set_$apiName$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.String <localizedDescription>k__BackingField
-    ::Il2CppString* _get_$localizedDescription$k__BackingField();
-    // Set instance field: private System.String <localizedDescription>k__BackingField
-    void _set_$localizedDescription$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.String <multiplayerLobbyCode>k__BackingField
-    ::Il2CppString* _get_$multiplayerLobbyCode$k__BackingField();
-    // Set instance field: private System.String <multiplayerLobbyCode>k__BackingField
-    void _set_$multiplayerLobbyCode$k__BackingField(::Il2CppString* value);
+    // Get instance field reference: private System.String <apiName>k__BackingField
+    ::Il2CppString*& dyn_$apiName$k__BackingField();
+    // Get instance field reference: private System.String <localizedDescription>k__BackingField
+    ::Il2CppString*& dyn_$localizedDescription$k__BackingField();
+    // Get instance field reference: private System.String <multiplayerLobbyCode>k__BackingField
+    ::Il2CppString*& dyn_$multiplayerLobbyCode$k__BackingField();
     // public System.String get_apiName()
     // Offset: 0x11454D4
     ::Il2CppString* get_apiName();

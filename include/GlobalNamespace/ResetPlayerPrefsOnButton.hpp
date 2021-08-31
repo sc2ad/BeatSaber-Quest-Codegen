@@ -32,10 +32,8 @@ namespace GlobalNamespace {
     ResetPlayerPrefsOnButton(UnityEngine::KeyCode keyCode_ = {}) noexcept : keyCode{keyCode_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.KeyCode _keyCode
-    UnityEngine::KeyCode _get__keyCode();
-    // Set instance field: private UnityEngine.KeyCode _keyCode
-    void _set__keyCode(UnityEngine::KeyCode value);
+    // Get instance field reference: private UnityEngine.KeyCode _keyCode
+    UnityEngine::KeyCode& dyn__keyCode();
     // private System.Void Update()
     // Offset: 0x239693C
     void Update();

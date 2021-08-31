@@ -93,38 +93,22 @@ namespace GlobalNamespace {
     OVRGrabbable(bool m_allowOffhandGrab_ = {}, bool m_snapPosition_ = {}, bool m_snapOrientation_ = {}, UnityEngine::Transform* m_snapOffset_ = {}, ::Array<UnityEngine::Collider*>* m_grabPoints_ = {}, bool m_grabbedKinematic_ = {}, UnityEngine::Collider* m_grabbedCollider_ = {}, GlobalNamespace::OVRGrabber* m_grabbedBy_ = {}) noexcept : m_allowOffhandGrab{m_allowOffhandGrab_}, m_snapPosition{m_snapPosition_}, m_snapOrientation{m_snapOrientation_}, m_snapOffset{m_snapOffset_}, m_grabPoints{m_grabPoints_}, m_grabbedKinematic{m_grabbedKinematic_}, m_grabbedCollider{m_grabbedCollider_}, m_grabbedBy{m_grabbedBy_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: protected System.Boolean m_allowOffhandGrab
-    bool _get_m_allowOffhandGrab();
-    // Set instance field: protected System.Boolean m_allowOffhandGrab
-    void _set_m_allowOffhandGrab(bool value);
-    // Get instance field: protected System.Boolean m_snapPosition
-    bool _get_m_snapPosition();
-    // Set instance field: protected System.Boolean m_snapPosition
-    void _set_m_snapPosition(bool value);
-    // Get instance field: protected System.Boolean m_snapOrientation
-    bool _get_m_snapOrientation();
-    // Set instance field: protected System.Boolean m_snapOrientation
-    void _set_m_snapOrientation(bool value);
-    // Get instance field: protected UnityEngine.Transform m_snapOffset
-    UnityEngine::Transform* _get_m_snapOffset();
-    // Set instance field: protected UnityEngine.Transform m_snapOffset
-    void _set_m_snapOffset(UnityEngine::Transform* value);
-    // Get instance field: protected UnityEngine.Collider[] m_grabPoints
-    ::Array<UnityEngine::Collider*>* _get_m_grabPoints();
-    // Set instance field: protected UnityEngine.Collider[] m_grabPoints
-    void _set_m_grabPoints(::Array<UnityEngine::Collider*>* value);
-    // Get instance field: protected System.Boolean m_grabbedKinematic
-    bool _get_m_grabbedKinematic();
-    // Set instance field: protected System.Boolean m_grabbedKinematic
-    void _set_m_grabbedKinematic(bool value);
-    // Get instance field: protected UnityEngine.Collider m_grabbedCollider
-    UnityEngine::Collider* _get_m_grabbedCollider();
-    // Set instance field: protected UnityEngine.Collider m_grabbedCollider
-    void _set_m_grabbedCollider(UnityEngine::Collider* value);
-    // Get instance field: protected OVRGrabber m_grabbedBy
-    GlobalNamespace::OVRGrabber* _get_m_grabbedBy();
-    // Set instance field: protected OVRGrabber m_grabbedBy
-    void _set_m_grabbedBy(GlobalNamespace::OVRGrabber* value);
+    // Get instance field reference: protected System.Boolean m_allowOffhandGrab
+    bool& dyn_m_allowOffhandGrab();
+    // Get instance field reference: protected System.Boolean m_snapPosition
+    bool& dyn_m_snapPosition();
+    // Get instance field reference: protected System.Boolean m_snapOrientation
+    bool& dyn_m_snapOrientation();
+    // Get instance field reference: protected UnityEngine.Transform m_snapOffset
+    UnityEngine::Transform*& dyn_m_snapOffset();
+    // Get instance field reference: protected UnityEngine.Collider[] m_grabPoints
+    ::Array<UnityEngine::Collider*>*& dyn_m_grabPoints();
+    // Get instance field reference: protected System.Boolean m_grabbedKinematic
+    bool& dyn_m_grabbedKinematic();
+    // Get instance field reference: protected UnityEngine.Collider m_grabbedCollider
+    UnityEngine::Collider*& dyn_m_grabbedCollider();
+    // Get instance field reference: protected OVRGrabber m_grabbedBy
+    GlobalNamespace::OVRGrabber*& dyn_m_grabbedBy();
     // public System.Boolean get_allowOffhandGrab()
     // Offset: 0x152EB34
     bool get_allowOffhandGrab();

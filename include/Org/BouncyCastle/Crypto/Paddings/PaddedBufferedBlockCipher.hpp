@@ -46,10 +46,8 @@ namespace Org::BouncyCastle::Crypto::Paddings {
     constexpr operator Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*() const noexcept {
       return padding;
     }
-    // Get instance field: private readonly Org.BouncyCastle.Crypto.Paddings.IBlockCipherPadding padding
-    Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* _get_padding();
-    // Set instance field: private readonly Org.BouncyCastle.Crypto.Paddings.IBlockCipherPadding padding
-    void _set_padding(Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Paddings.IBlockCipherPadding padding
+    Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*& dyn_padding();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher, Org.BouncyCastle.Crypto.Paddings.IBlockCipherPadding padding)
     // Offset: 0x126EC8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

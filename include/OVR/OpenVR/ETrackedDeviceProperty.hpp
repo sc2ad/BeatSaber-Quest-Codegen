@@ -980,10 +980,8 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::ETrackedDeviceProperty _get_Prop_TrackedDeviceProperty_Max();
     // Set static field: static public OVR.OpenVR.ETrackedDeviceProperty Prop_TrackedDeviceProperty_Max
     static void _set_Prop_TrackedDeviceProperty_Max(OVR::OpenVR::ETrackedDeviceProperty value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // OVR.OpenVR.ETrackedDeviceProperty
   #pragma pack(pop)
   static check_size<sizeof(ETrackedDeviceProperty), 0 + sizeof(int)> __OVR_OpenVR_ETrackedDevicePropertySizeCheck;

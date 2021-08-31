@@ -61,10 +61,8 @@ namespace NUnit::Framework::Internal {
     static int _get_PrefixLength();
     // Set static field: static public readonly System.Int32 PrefixLength
     static void _set_PrefixLength(int value);
-    // Get instance field: private System.Int32 maxLineLength
-    int _get_maxLineLength();
-    // Set instance field: private System.Int32 maxLineLength
-    void _set_maxLineLength(int value);
+    // Get instance field reference: private System.Int32 maxLineLength
+    int& dyn_maxLineLength();
     // public System.Void .ctor(System.String userMessage, params System.Object[] args)
     // Offset: 0x22A2788
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -45,14 +45,10 @@ namespace GlobalNamespace {
     BookmarksFoldersModel(::Array<::Il2CppString*>* myFolders_ = {}, ::Array<GlobalNamespace::FileBrowserItem*>* bookmarksFolders_ = {}) noexcept : myFolders{myFolders_}, bookmarksFolders{bookmarksFolders_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.String[] myFolders
-    ::Array<::Il2CppString*>* _get_myFolders();
-    // Set instance field: private System.String[] myFolders
-    void _set_myFolders(::Array<::Il2CppString*>* value);
-    // Get instance field: private FileBrowserItem[] _bookmarksFolders
-    ::Array<GlobalNamespace::FileBrowserItem*>* _get__bookmarksFolders();
-    // Set instance field: private FileBrowserItem[] _bookmarksFolders
-    void _set__bookmarksFolders(::Array<GlobalNamespace::FileBrowserItem*>* value);
+    // Get instance field reference: private System.String[] myFolders
+    ::Array<::Il2CppString*>*& dyn_myFolders();
+    // Get instance field reference: private FileBrowserItem[] _bookmarksFolders
+    ::Array<GlobalNamespace::FileBrowserItem*>*& dyn__bookmarksFolders();
     // public FileBrowserItem[] get_bookmarksFolders()
     // Offset: 0x10D3254
     ::Array<GlobalNamespace::FileBrowserItem*>* get_bookmarksFolders();

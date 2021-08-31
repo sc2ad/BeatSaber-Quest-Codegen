@@ -79,26 +79,16 @@ namespace System::Net {
     static ::Array<uint8_t>* _get_crlf();
     // Set static field: static private System.Byte[] crlf
     static void _set_crlf(::Array<uint8_t>* value);
-    // Get instance field: private System.Net.HttpListenerResponse response
-    System::Net::HttpListenerResponse* _get_response();
-    // Set instance field: private System.Net.HttpListenerResponse response
-    void _set_response(System::Net::HttpListenerResponse* value);
-    // Get instance field: private System.Boolean ignore_errors
-    bool _get_ignore_errors();
-    // Set instance field: private System.Boolean ignore_errors
-    void _set_ignore_errors(bool value);
-    // Get instance field: private System.Boolean disposed
-    bool _get_disposed();
-    // Set instance field: private System.Boolean disposed
-    void _set_disposed(bool value);
-    // Get instance field: private System.Boolean trailer_sent
-    bool _get_trailer_sent();
-    // Set instance field: private System.Boolean trailer_sent
-    void _set_trailer_sent(bool value);
-    // Get instance field: private System.IO.Stream stream
-    System::IO::Stream* _get_stream();
-    // Set instance field: private System.IO.Stream stream
-    void _set_stream(System::IO::Stream* value);
+    // Get instance field reference: private System.Net.HttpListenerResponse response
+    System::Net::HttpListenerResponse*& dyn_response();
+    // Get instance field reference: private System.Boolean ignore_errors
+    bool& dyn_ignore_errors();
+    // Get instance field reference: private System.Boolean disposed
+    bool& dyn_disposed();
+    // Get instance field reference: private System.Boolean trailer_sent
+    bool& dyn_trailer_sent();
+    // Get instance field reference: private System.IO.Stream stream
+    System::IO::Stream*& dyn_stream();
     // System.Void .ctor(System.IO.Stream stream, System.Net.HttpListenerResponse response, System.Boolean ignore_errors)
     // Offset: 0x149D874
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

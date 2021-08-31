@@ -67,26 +67,16 @@ namespace Mono::Net {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
-    // Get instance field: public System.IntPtr script
-    System::IntPtr _get_script();
-    // Set instance field: public System.IntPtr script
-    void _set_script(System::IntPtr value);
-    // Get instance field: public System.IntPtr targetUri
-    System::IntPtr _get_targetUri();
-    // Set instance field: public System.IntPtr targetUri
-    void _set_targetUri(System::IntPtr value);
-    // Get instance field: public System.IntPtr error
-    System::IntPtr _get_error();
-    // Set instance field: public System.IntPtr error
-    void _set_error(System::IntPtr value);
-    // Get instance field: public System.IntPtr result
-    System::IntPtr _get_result();
-    // Set instance field: public System.IntPtr result
-    void _set_result(System::IntPtr value);
-    // Get instance field: public System.Threading.ManualResetEvent evt
-    System::Threading::ManualResetEvent* _get_evt();
-    // Set instance field: public System.Threading.ManualResetEvent evt
-    void _set_evt(System::Threading::ManualResetEvent* value);
+    // Get instance field reference: public System.IntPtr script
+    System::IntPtr& dyn_script();
+    // Get instance field reference: public System.IntPtr targetUri
+    System::IntPtr& dyn_targetUri();
+    // Get instance field reference: public System.IntPtr error
+    System::IntPtr& dyn_error();
+    // Get instance field reference: public System.IntPtr result
+    System::IntPtr& dyn_result();
+    // Get instance field reference: public System.Threading.ManualResetEvent evt
+    System::Threading::ManualResetEvent*& dyn_evt();
     // public System.Void Dispose()
     // Offset: 0x15E3EB0
     void Dispose();

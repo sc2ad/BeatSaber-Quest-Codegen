@@ -117,38 +117,22 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private readonly IScoreController _scoreController
-    GlobalNamespace::IScoreController* _get__scoreController();
-    // Set instance field: private readonly IScoreController _scoreController
-    void _set__scoreController(GlobalNamespace::IScoreController* value);
-    // Get instance field: private readonly BeatmapObjectManager _beatmapObjectManager
-    GlobalNamespace::BeatmapObjectManager* _get__beatmapObjectManager();
-    // Set instance field: private readonly BeatmapObjectManager _beatmapObjectManager
-    void _set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager* value);
-    // Get instance field: private readonly PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
-    GlobalNamespace::PlayerHeadAndObstacleInteraction* _get__playerHeadAndObstacleInteraction();
-    // Set instance field: private readonly PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
-    void _set__playerHeadAndObstacleInteraction(GlobalNamespace::PlayerHeadAndObstacleInteraction* value);
-    // Get instance field: private readonly AudioTimeSyncController _audioTimeSyncController
-    GlobalNamespace::AudioTimeSyncController* _get__audioTimeSyncController();
-    // Set instance field: private readonly AudioTimeSyncController _audioTimeSyncController
-    void _set__audioTimeSyncController(GlobalNamespace::AudioTimeSyncController* value);
-    // Get instance field: private readonly BeatmapObjectExecutionRatingsRecorder/CutScoreHandler/Pool _cutScoreHandlerPool
-    GlobalNamespace::BeatmapObjectExecutionRatingsRecorder_CutScoreHandler::Pool* _get__cutScoreHandlerPool();
-    // Set instance field: private readonly BeatmapObjectExecutionRatingsRecorder/CutScoreHandler/Pool _cutScoreHandlerPool
-    void _set__cutScoreHandlerPool(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder_CutScoreHandler::Pool* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<BeatmapObjectExecutionRating> _beatmapObjectExecutionRatings
-    System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectExecutionRating*>* _get__beatmapObjectExecutionRatings();
-    // Set instance field: private readonly System.Collections.Generic.List`1<BeatmapObjectExecutionRating> _beatmapObjectExecutionRatings
-    void _set__beatmapObjectExecutionRatings(System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectExecutionRating*>* value);
-    // Get instance field: private readonly System.Collections.Generic.HashSet`1<ObstacleData> _hitObstacles
-    System::Collections::Generic::HashSet_1<GlobalNamespace::ObstacleData*>* _get__hitObstacles();
-    // Set instance field: private readonly System.Collections.Generic.HashSet`1<ObstacleData> _hitObstacles
-    void _set__hitObstacles(System::Collections::Generic::HashSet_1<GlobalNamespace::ObstacleData*>* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<ObstacleController> _prevIntersectingObstacles
-    System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* _get__prevIntersectingObstacles();
-    // Set instance field: private readonly System.Collections.Generic.List`1<ObstacleController> _prevIntersectingObstacles
-    void _set__prevIntersectingObstacles(System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* value);
+    // Get instance field reference: private readonly IScoreController _scoreController
+    GlobalNamespace::IScoreController*& dyn__scoreController();
+    // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
+    GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
+    // Get instance field reference: private readonly PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
+    GlobalNamespace::PlayerHeadAndObstacleInteraction*& dyn__playerHeadAndObstacleInteraction();
+    // Get instance field reference: private readonly AudioTimeSyncController _audioTimeSyncController
+    GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
+    // Get instance field reference: private readonly BeatmapObjectExecutionRatingsRecorder/CutScoreHandler/Pool _cutScoreHandlerPool
+    GlobalNamespace::BeatmapObjectExecutionRatingsRecorder_CutScoreHandler::Pool*& dyn__cutScoreHandlerPool();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<BeatmapObjectExecutionRating> _beatmapObjectExecutionRatings
+    System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectExecutionRating*>*& dyn__beatmapObjectExecutionRatings();
+    // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<ObstacleData> _hitObstacles
+    System::Collections::Generic::HashSet_1<GlobalNamespace::ObstacleData*>*& dyn__hitObstacles();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<ObstacleController> _prevIntersectingObstacles
+    System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>*& dyn__prevIntersectingObstacles();
     // public System.Collections.Generic.List`1<BeatmapObjectExecutionRating> get_beatmapObjectExecutionRatings()
     // Offset: 0x10C8034
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectExecutionRating*>* get_beatmapObjectExecutionRatings();

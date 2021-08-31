@@ -42,10 +42,8 @@ namespace GlobalNamespace {
     TutorialNoTransitionInstaller(GlobalNamespace::TutorialScenesTransitionSetupDataSO* scenesTransitionSetupData_ = {}) noexcept : scenesTransitionSetupData{scenesTransitionSetupData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private TutorialScenesTransitionSetupDataSO _scenesTransitionSetupData
-    GlobalNamespace::TutorialScenesTransitionSetupDataSO* _get__scenesTransitionSetupData();
-    // Set instance field: private TutorialScenesTransitionSetupDataSO _scenesTransitionSetupData
-    void _set__scenesTransitionSetupData(GlobalNamespace::TutorialScenesTransitionSetupDataSO* value);
+    // Get instance field reference: private TutorialScenesTransitionSetupDataSO _scenesTransitionSetupData
+    GlobalNamespace::TutorialScenesTransitionSetupDataSO*& dyn__scenesTransitionSetupData();
     // public System.Void .ctor()
     // Offset: 0x109AE08
     // Implemented from: Zenject.NoTransitionInstaller

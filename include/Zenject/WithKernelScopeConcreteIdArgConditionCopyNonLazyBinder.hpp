@@ -40,10 +40,8 @@ namespace Zenject {
     static_assert(sizeof(Zenject::SubContainerCreatorBindInfo*) == 0x8);
     // Creating value type constructor for type: WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder
     WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder(Zenject::SubContainerCreatorBindInfo* subContainerBindInfo_ = {}) noexcept : subContainerBindInfo{subContainerBindInfo_} {}
-    // Get instance field: private Zenject.SubContainerCreatorBindInfo _subContainerBindInfo
-    Zenject::SubContainerCreatorBindInfo* _get__subContainerBindInfo();
-    // Set instance field: private Zenject.SubContainerCreatorBindInfo _subContainerBindInfo
-    void _set__subContainerBindInfo(Zenject::SubContainerCreatorBindInfo* value);
+    // Get instance field reference: private Zenject.SubContainerCreatorBindInfo _subContainerBindInfo
+    Zenject::SubContainerCreatorBindInfo*& dyn__subContainerBindInfo();
     // public System.Void .ctor(Zenject.SubContainerCreatorBindInfo subContainerBindInfo, Zenject.BindInfo bindInfo)
     // Offset: 0x23E6FA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

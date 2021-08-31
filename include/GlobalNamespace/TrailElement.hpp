@@ -46,22 +46,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: TrailElement
     TrailElement(UnityEngine::Vector3 position_ = {}, UnityEngine::Vector3 normal_ = {}, float distance_ = {}, float time_ = {}) noexcept : position{position_}, normal{normal_}, distance{distance_}, time{time_} {}
-    // Get instance field: private UnityEngine.Vector3 <position>k__BackingField
-    UnityEngine::Vector3 _get_$position$k__BackingField();
-    // Set instance field: private UnityEngine.Vector3 <position>k__BackingField
-    void _set_$position$k__BackingField(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 <normal>k__BackingField
-    UnityEngine::Vector3 _get_$normal$k__BackingField();
-    // Set instance field: private UnityEngine.Vector3 <normal>k__BackingField
-    void _set_$normal$k__BackingField(UnityEngine::Vector3 value);
-    // Get instance field: private System.Single <distance>k__BackingField
-    float _get_$distance$k__BackingField();
-    // Set instance field: private System.Single <distance>k__BackingField
-    void _set_$distance$k__BackingField(float value);
-    // Get instance field: private System.Single <time>k__BackingField
-    float _get_$time$k__BackingField();
-    // Set instance field: private System.Single <time>k__BackingField
-    void _set_$time$k__BackingField(float value);
+    // Get instance field reference: private UnityEngine.Vector3 <position>k__BackingField
+    UnityEngine::Vector3& dyn_$position$k__BackingField();
+    // Get instance field reference: private UnityEngine.Vector3 <normal>k__BackingField
+    UnityEngine::Vector3& dyn_$normal$k__BackingField();
+    // Get instance field reference: private System.Single <distance>k__BackingField
+    float& dyn_$distance$k__BackingField();
+    // Get instance field reference: private System.Single <time>k__BackingField
+    float& dyn_$time$k__BackingField();
     // public UnityEngine.Vector3 get_position()
     // Offset: 0x1096D2C
     UnityEngine::Vector3 get_position();

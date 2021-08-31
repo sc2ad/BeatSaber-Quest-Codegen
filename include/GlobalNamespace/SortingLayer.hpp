@@ -37,10 +37,8 @@ namespace GlobalNamespace {
     SortingLayer(UnityEngine::Renderer* renderer_ = {}) noexcept : renderer{renderer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.Renderer _renderer
-    UnityEngine::Renderer* _get__renderer();
-    // Set instance field: private UnityEngine.Renderer _renderer
-    void _set__renderer(UnityEngine::Renderer* value);
+    // Get instance field reference: private UnityEngine.Renderer _renderer
+    UnityEngine::Renderer*& dyn__renderer();
     // public UnityEngine.Renderer get_renderer()
     // Offset: 0x2398F04
     UnityEngine::Renderer* get_renderer();

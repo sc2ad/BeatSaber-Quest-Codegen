@@ -53,10 +53,8 @@ namespace Oculus::Platform {
     static Oculus::Platform::ChallengeCreationType _get_DeveloperCreated();
     // Set static field: static public Oculus.Platform.ChallengeCreationType DeveloperCreated
     static void _set_DeveloperCreated(Oculus::Platform::ChallengeCreationType value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Oculus.Platform.ChallengeCreationType
   #pragma pack(pop)
   static check_size<sizeof(ChallengeCreationType), 0 + sizeof(int)> __Oculus_Platform_ChallengeCreationTypeSizeCheck;

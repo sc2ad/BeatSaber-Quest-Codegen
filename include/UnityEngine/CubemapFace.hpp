@@ -74,10 +74,8 @@ namespace UnityEngine {
     static UnityEngine::CubemapFace _get_NegativeZ();
     // Set static field: static public UnityEngine.CubemapFace NegativeZ
     static void _set_NegativeZ(UnityEngine::CubemapFace value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.CubemapFace
   #pragma pack(pop)
   static check_size<sizeof(CubemapFace), 0 + sizeof(int)> __UnityEngine_CubemapFaceSizeCheck;

@@ -56,10 +56,8 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRControllerAxisType _get_k_eControllerAxis_Trigger();
     // Set static field: static public OVR.OpenVR.EVRControllerAxisType k_eControllerAxis_Trigger
     static void _set_k_eControllerAxis_Trigger(OVR::OpenVR::EVRControllerAxisType value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // OVR.OpenVR.EVRControllerAxisType
   #pragma pack(pop)
   static check_size<sizeof(EVRControllerAxisType), 0 + sizeof(int)> __OVR_OpenVR_EVRControllerAxisTypeSizeCheck;

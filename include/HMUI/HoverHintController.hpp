@@ -77,18 +77,12 @@ namespace HMUI {
     static float _get_kHideHintDelay();
     // Set static field: static private System.Single kHideHintDelay
     static void _set_kHideHintDelay(float value);
-    // Get instance field: private HMUI.HoverHintPanel _hoverHintPanelPrefab
-    HMUI::HoverHintPanel* _get__hoverHintPanelPrefab();
-    // Set instance field: private HMUI.HoverHintPanel _hoverHintPanelPrefab
-    void _set__hoverHintPanelPrefab(HMUI::HoverHintPanel* value);
-    // Get instance field: private HMUI.HoverHintPanel _hoverHintPanel
-    HMUI::HoverHintPanel* _get__hoverHintPanel();
-    // Set instance field: private HMUI.HoverHintPanel _hoverHintPanel
-    void _set__hoverHintPanel(HMUI::HoverHintPanel* value);
-    // Get instance field: private System.Boolean _isHiding
-    bool _get__isHiding();
-    // Set instance field: private System.Boolean _isHiding
-    void _set__isHiding(bool value);
+    // Get instance field reference: private HMUI.HoverHintPanel _hoverHintPanelPrefab
+    HMUI::HoverHintPanel*& dyn__hoverHintPanelPrefab();
+    // Get instance field reference: private HMUI.HoverHintPanel _hoverHintPanel
+    HMUI::HoverHintPanel*& dyn__hoverHintPanel();
+    // Get instance field reference: private System.Boolean _isHiding
+    bool& dyn__isHiding();
     // protected System.Void Awake()
     // Offset: 0x1373264
     void Awake();

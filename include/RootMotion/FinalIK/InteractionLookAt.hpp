@@ -85,38 +85,22 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: InteractionLookAt
     InteractionLookAt(RootMotion::FinalIK::LookAtIK* ik_ = {}, float lerpSpeed_ = {}, float weightSpeed_ = {}, bool isPaused_ = {}, UnityEngine::Transform* lookAtTarget_ = {}, float stopLookTime_ = {}, float weight_ = {}, bool firstFBBIKSolve_ = {}) noexcept : ik{ik_}, lerpSpeed{lerpSpeed_}, weightSpeed{weightSpeed_}, isPaused{isPaused_}, lookAtTarget{lookAtTarget_}, stopLookTime{stopLookTime_}, weight{weight_}, firstFBBIKSolve{firstFBBIKSolve_} {}
-    // Get instance field: public RootMotion.FinalIK.LookAtIK ik
-    RootMotion::FinalIK::LookAtIK* _get_ik();
-    // Set instance field: public RootMotion.FinalIK.LookAtIK ik
-    void _set_ik(RootMotion::FinalIK::LookAtIK* value);
-    // Get instance field: public System.Single lerpSpeed
-    float _get_lerpSpeed();
-    // Set instance field: public System.Single lerpSpeed
-    void _set_lerpSpeed(float value);
-    // Get instance field: public System.Single weightSpeed
-    float _get_weightSpeed();
-    // Set instance field: public System.Single weightSpeed
-    void _set_weightSpeed(float value);
-    // Get instance field: public System.Boolean isPaused
-    bool _get_isPaused();
-    // Set instance field: public System.Boolean isPaused
-    void _set_isPaused(bool value);
-    // Get instance field: private UnityEngine.Transform lookAtTarget
-    UnityEngine::Transform* _get_lookAtTarget();
-    // Set instance field: private UnityEngine.Transform lookAtTarget
-    void _set_lookAtTarget(UnityEngine::Transform* value);
-    // Get instance field: private System.Single stopLookTime
-    float _get_stopLookTime();
-    // Set instance field: private System.Single stopLookTime
-    void _set_stopLookTime(float value);
-    // Get instance field: private System.Single weight
-    float _get_weight();
-    // Set instance field: private System.Single weight
-    void _set_weight(float value);
-    // Get instance field: private System.Boolean firstFBBIKSolve
-    bool _get_firstFBBIKSolve();
-    // Set instance field: private System.Boolean firstFBBIKSolve
-    void _set_firstFBBIKSolve(bool value);
+    // Get instance field reference: public RootMotion.FinalIK.LookAtIK ik
+    RootMotion::FinalIK::LookAtIK*& dyn_ik();
+    // Get instance field reference: public System.Single lerpSpeed
+    float& dyn_lerpSpeed();
+    // Get instance field reference: public System.Single weightSpeed
+    float& dyn_weightSpeed();
+    // Get instance field reference: public System.Boolean isPaused
+    bool& dyn_isPaused();
+    // Get instance field reference: private UnityEngine.Transform lookAtTarget
+    UnityEngine::Transform*& dyn_lookAtTarget();
+    // Get instance field reference: private System.Single stopLookTime
+    float& dyn_stopLookTime();
+    // Get instance field reference: private System.Single weight
+    float& dyn_weight();
+    // Get instance field reference: private System.Boolean firstFBBIKSolve
+    bool& dyn_firstFBBIKSolve();
     // public System.Void Look(UnityEngine.Transform target, System.Single time)
     // Offset: 0x1E8D890
     void Look(UnityEngine::Transform* target, float time);

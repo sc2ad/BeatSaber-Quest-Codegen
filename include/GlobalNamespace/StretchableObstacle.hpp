@@ -116,42 +116,24 @@ namespace GlobalNamespace {
     static int _get__addColorID();
     // Set static field: static private readonly System.Int32 _addColorID
     static void _set__addColorID(int value);
-    // Get instance field: private System.Single _edgeSize
-    float _get__edgeSize();
-    // Set instance field: private System.Single _edgeSize
-    void _set__edgeSize(float value);
-    // Get instance field: private System.Single _coreOffset
-    float _get__coreOffset();
-    // Set instance field: private System.Single _coreOffset
-    void _set__coreOffset(float value);
-    // Get instance field: private System.Single _addColorMultiplier
-    float _get__addColorMultiplier();
-    // Set instance field: private System.Single _addColorMultiplier
-    void _set__addColorMultiplier(float value);
-    // Get instance field: private System.Single _obstacleCoreLerpToWhiteFactor
-    float _get__obstacleCoreLerpToWhiteFactor();
-    // Set instance field: private System.Single _obstacleCoreLerpToWhiteFactor
-    void _set__obstacleCoreLerpToWhiteFactor(float value);
-    // Get instance field: private UnityEngine.Transform _obstacleCore
-    UnityEngine::Transform* _get__obstacleCore();
-    // Set instance field: private UnityEngine.Transform _obstacleCore
-    void _set__obstacleCore(UnityEngine::Transform* value);
-    // Get instance field: private MaterialPropertyBlockController[] _materialPropertyBlockControllers
-    ::Array<GlobalNamespace::MaterialPropertyBlockController*>* _get__materialPropertyBlockControllers();
-    // Set instance field: private MaterialPropertyBlockController[] _materialPropertyBlockControllers
-    void _set__materialPropertyBlockControllers(::Array<GlobalNamespace::MaterialPropertyBlockController*>* value);
-    // Get instance field: private ParametricBoxFrameController _obstacleFrame
-    GlobalNamespace::ParametricBoxFrameController* _get__obstacleFrame();
-    // Set instance field: private ParametricBoxFrameController _obstacleFrame
-    void _set__obstacleFrame(GlobalNamespace::ParametricBoxFrameController* value);
-    // Get instance field: private ParametricBoxFakeGlowController _obstacleFakeGlow
-    GlobalNamespace::ParametricBoxFakeGlowController* _get__obstacleFakeGlow();
-    // Set instance field: private ParametricBoxFakeGlowController _obstacleFakeGlow
-    void _set__obstacleFakeGlow(GlobalNamespace::ParametricBoxFakeGlowController* value);
-    // Get instance field: private UnityEngine.Bounds _bounds
-    UnityEngine::Bounds _get__bounds();
-    // Set instance field: private UnityEngine.Bounds _bounds
-    void _set__bounds(UnityEngine::Bounds value);
+    // Get instance field reference: private System.Single _edgeSize
+    float& dyn__edgeSize();
+    // Get instance field reference: private System.Single _coreOffset
+    float& dyn__coreOffset();
+    // Get instance field reference: private System.Single _addColorMultiplier
+    float& dyn__addColorMultiplier();
+    // Get instance field reference: private System.Single _obstacleCoreLerpToWhiteFactor
+    float& dyn__obstacleCoreLerpToWhiteFactor();
+    // Get instance field reference: private UnityEngine.Transform _obstacleCore
+    UnityEngine::Transform*& dyn__obstacleCore();
+    // Get instance field reference: private MaterialPropertyBlockController[] _materialPropertyBlockControllers
+    ::Array<GlobalNamespace::MaterialPropertyBlockController*>*& dyn__materialPropertyBlockControllers();
+    // Get instance field reference: private ParametricBoxFrameController _obstacleFrame
+    GlobalNamespace::ParametricBoxFrameController*& dyn__obstacleFrame();
+    // Get instance field reference: private ParametricBoxFakeGlowController _obstacleFakeGlow
+    GlobalNamespace::ParametricBoxFakeGlowController*& dyn__obstacleFakeGlow();
+    // Get instance field reference: private UnityEngine.Bounds _bounds
+    UnityEngine::Bounds& dyn__bounds();
     // public UnityEngine.Bounds get_bounds()
     // Offset: 0x1090420
     UnityEngine::Bounds get_bounds();

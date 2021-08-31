@@ -160,26 +160,16 @@ namespace Org::BouncyCastle::Math {
     static ::Array<int>* _get_ExpWindowThresholds();
     // Set static field: static private readonly System.Int32[] ExpWindowThresholds
     static void _set_ExpWindowThresholds(::Array<int>* value);
-    // Get instance field: private System.Int32[] magnitude
-    ::Array<int>* _get_magnitude();
-    // Set instance field: private System.Int32[] magnitude
-    void _set_magnitude(::Array<int>* value);
-    // Get instance field: private System.Int32 sign
-    int _get_sign();
-    // Set instance field: private System.Int32 sign
-    void _set_sign(int value);
-    // Get instance field: private System.Int32 nBits
-    int _get_nBits();
-    // Set instance field: private System.Int32 nBits
-    void _set_nBits(int value);
-    // Get instance field: private System.Int32 nBitLength
-    int _get_nBitLength();
-    // Set instance field: private System.Int32 nBitLength
-    void _set_nBitLength(int value);
-    // Get instance field: private System.Int32 mQuote
-    int _get_mQuote();
-    // Set instance field: private System.Int32 mQuote
-    void _set_mQuote(int value);
+    // Get instance field reference: private System.Int32[] magnitude
+    ::Array<int>*& dyn_magnitude();
+    // Get instance field reference: private System.Int32 sign
+    int& dyn_sign();
+    // Get instance field reference: private System.Int32 nBits
+    int& dyn_nBits();
+    // Get instance field reference: private System.Int32 nBitLength
+    int& dyn_nBitLength();
+    // Get instance field reference: private System.Int32 mQuote
+    int& dyn_mQuote();
     // public System.Int32 get_BitCount()
     // Offset: 0x1287954
     int get_BitCount();

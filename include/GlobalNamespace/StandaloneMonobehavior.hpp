@@ -84,22 +84,14 @@ namespace GlobalNamespace {
     StandaloneMonobehavior(bool isReady_ = {}, float startTime_ = {}, ::Array<UnityEngine::FrameTiming>* lastFrameTimings_ = {}, int lastFrameTimeCount_ = {}) noexcept : isReady{isReady_}, startTime{startTime_}, lastFrameTimings{lastFrameTimings_}, lastFrameTimeCount{lastFrameTimeCount_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Boolean _isReady
-    bool _get__isReady();
-    // Set instance field: private System.Boolean _isReady
-    void _set__isReady(bool value);
-    // Get instance field: private System.Single _startTime
-    float _get__startTime();
-    // Set instance field: private System.Single _startTime
-    void _set__startTime(float value);
-    // Get instance field: private UnityEngine.FrameTiming[] _lastFrameTimings
-    ::Array<UnityEngine::FrameTiming>* _get__lastFrameTimings();
-    // Set instance field: private UnityEngine.FrameTiming[] _lastFrameTimings
-    void _set__lastFrameTimings(::Array<UnityEngine::FrameTiming>* value);
-    // Get instance field: private System.Int32 _lastFrameTimeCount
-    int _get__lastFrameTimeCount();
-    // Set instance field: private System.Int32 _lastFrameTimeCount
-    void _set__lastFrameTimeCount(int value);
+    // Get instance field reference: private System.Boolean _isReady
+    bool& dyn__isReady();
+    // Get instance field reference: private System.Single _startTime
+    float& dyn__startTime();
+    // Get instance field reference: private UnityEngine.FrameTiming[] _lastFrameTimings
+    ::Array<UnityEngine::FrameTiming>*& dyn__lastFrameTimings();
+    // Get instance field reference: private System.Int32 _lastFrameTimeCount
+    int& dyn__lastFrameTimeCount();
     // public System.Single get_objectLifeTime()
     // Offset: 0x16FA780
     float get_objectLifeTime();

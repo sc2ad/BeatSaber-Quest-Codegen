@@ -81,10 +81,8 @@ namespace System::IO {
     static System::IO::NotifyFilters _get_Size();
     // Set static field: static public System.IO.NotifyFilters Size
     static void _set_Size(System::IO::NotifyFilters value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.IO.NotifyFilters
   #pragma pack(pop)
   static check_size<sizeof(NotifyFilters), 0 + sizeof(int)> __System_IO_NotifyFiltersSizeCheck;

@@ -34,10 +34,8 @@ namespace System::Reflection {
     constexpr operator ::Il2CppString*() const noexcept {
       return m_defaultAlias;
     }
-    // Get instance field: private System.String m_defaultAlias
-    ::Il2CppString* _get_m_defaultAlias();
-    // Set instance field: private System.String m_defaultAlias
-    void _set_m_defaultAlias(::Il2CppString* value);
+    // Get instance field reference: private System.String m_defaultAlias
+    ::Il2CppString*& dyn_m_defaultAlias();
     // public System.Void .ctor(System.String defaultAlias)
     // Offset: 0x1D1329C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

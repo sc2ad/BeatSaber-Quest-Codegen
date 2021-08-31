@@ -45,14 +45,10 @@ namespace GlobalNamespace {
     PlayAudioOnGameEventController(GlobalNamespace::AudioClipQueue* audioClipQueue_ = {}, ::Array<GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*>* eventAudioBindings_ = {}) noexcept : audioClipQueue{audioClipQueue_}, eventAudioBindings{eventAudioBindings_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private AudioClipQueue _audioClipQueue
-    GlobalNamespace::AudioClipQueue* _get__audioClipQueue();
-    // Set instance field: private AudioClipQueue _audioClipQueue
-    void _set__audioClipQueue(GlobalNamespace::AudioClipQueue* value);
-    // Get instance field: private PlayAudioOnGameEventController/EventAudioBinding[] _eventAudioBindings
-    ::Array<GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*>* _get__eventAudioBindings();
-    // Set instance field: private PlayAudioOnGameEventController/EventAudioBinding[] _eventAudioBindings
-    void _set__eventAudioBindings(::Array<GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*>* value);
+    // Get instance field reference: private AudioClipQueue _audioClipQueue
+    GlobalNamespace::AudioClipQueue*& dyn__audioClipQueue();
+    // Get instance field reference: private PlayAudioOnGameEventController/EventAudioBinding[] _eventAudioBindings
+    ::Array<GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*>*& dyn__eventAudioBindings();
     // protected System.Void Awake()
     // Offset: 0x1134448
     void Awake();

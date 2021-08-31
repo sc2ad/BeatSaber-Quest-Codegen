@@ -106,54 +106,30 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::ColorSO*) == 0x8);
     // Creating value type constructor for type: GradientTransitionSO
     GradientTransitionSO(GlobalNamespace::ColorSO* normalColor1_ = {}, GlobalNamespace::ColorSO* normalColor2_ = {}, GlobalNamespace::ColorSO* highlightColor1_ = {}, GlobalNamespace::ColorSO* highlightColor2_ = {}, GlobalNamespace::ColorSO* pressedColor1_ = {}, GlobalNamespace::ColorSO* pressedColor2_ = {}, GlobalNamespace::ColorSO* disabledColor1_ = {}, GlobalNamespace::ColorSO* disabledColor2_ = {}, GlobalNamespace::ColorSO* selectedColor1_ = {}, GlobalNamespace::ColorSO* selectedColor2_ = {}, GlobalNamespace::ColorSO* selectedAndHighlightedColor1_ = {}, GlobalNamespace::ColorSO* selectedAndHighlightedColor2_ = {}) noexcept : normalColor1{normalColor1_}, normalColor2{normalColor2_}, highlightColor1{highlightColor1_}, highlightColor2{highlightColor2_}, pressedColor1{pressedColor1_}, pressedColor2{pressedColor2_}, disabledColor1{disabledColor1_}, disabledColor2{disabledColor2_}, selectedColor1{selectedColor1_}, selectedColor2{selectedColor2_}, selectedAndHighlightedColor1{selectedAndHighlightedColor1_}, selectedAndHighlightedColor2{selectedAndHighlightedColor2_} {}
-    // Get instance field: private ColorSO _normalColor1
-    GlobalNamespace::ColorSO* _get__normalColor1();
-    // Set instance field: private ColorSO _normalColor1
-    void _set__normalColor1(GlobalNamespace::ColorSO* value);
-    // Get instance field: private ColorSO _normalColor2
-    GlobalNamespace::ColorSO* _get__normalColor2();
-    // Set instance field: private ColorSO _normalColor2
-    void _set__normalColor2(GlobalNamespace::ColorSO* value);
-    // Get instance field: private ColorSO _highlightColor1
-    GlobalNamespace::ColorSO* _get__highlightColor1();
-    // Set instance field: private ColorSO _highlightColor1
-    void _set__highlightColor1(GlobalNamespace::ColorSO* value);
-    // Get instance field: private ColorSO _highlightColor2
-    GlobalNamespace::ColorSO* _get__highlightColor2();
-    // Set instance field: private ColorSO _highlightColor2
-    void _set__highlightColor2(GlobalNamespace::ColorSO* value);
-    // Get instance field: private ColorSO _pressedColor1
-    GlobalNamespace::ColorSO* _get__pressedColor1();
-    // Set instance field: private ColorSO _pressedColor1
-    void _set__pressedColor1(GlobalNamespace::ColorSO* value);
-    // Get instance field: private ColorSO _pressedColor2
-    GlobalNamespace::ColorSO* _get__pressedColor2();
-    // Set instance field: private ColorSO _pressedColor2
-    void _set__pressedColor2(GlobalNamespace::ColorSO* value);
-    // Get instance field: private ColorSO _disabledColor1
-    GlobalNamespace::ColorSO* _get__disabledColor1();
-    // Set instance field: private ColorSO _disabledColor1
-    void _set__disabledColor1(GlobalNamespace::ColorSO* value);
-    // Get instance field: private ColorSO _disabledColor2
-    GlobalNamespace::ColorSO* _get__disabledColor2();
-    // Set instance field: private ColorSO _disabledColor2
-    void _set__disabledColor2(GlobalNamespace::ColorSO* value);
-    // Get instance field: private ColorSO _selectedColor1
-    GlobalNamespace::ColorSO* _get__selectedColor1();
-    // Set instance field: private ColorSO _selectedColor1
-    void _set__selectedColor1(GlobalNamespace::ColorSO* value);
-    // Get instance field: private ColorSO _selectedColor2
-    GlobalNamespace::ColorSO* _get__selectedColor2();
-    // Set instance field: private ColorSO _selectedColor2
-    void _set__selectedColor2(GlobalNamespace::ColorSO* value);
-    // Get instance field: private ColorSO _selectedAndHighlightedColor1
-    GlobalNamespace::ColorSO* _get__selectedAndHighlightedColor1();
-    // Set instance field: private ColorSO _selectedAndHighlightedColor1
-    void _set__selectedAndHighlightedColor1(GlobalNamespace::ColorSO* value);
-    // Get instance field: private ColorSO _selectedAndHighlightedColor2
-    GlobalNamespace::ColorSO* _get__selectedAndHighlightedColor2();
-    // Set instance field: private ColorSO _selectedAndHighlightedColor2
-    void _set__selectedAndHighlightedColor2(GlobalNamespace::ColorSO* value);
+    // Get instance field reference: private ColorSO _normalColor1
+    GlobalNamespace::ColorSO*& dyn__normalColor1();
+    // Get instance field reference: private ColorSO _normalColor2
+    GlobalNamespace::ColorSO*& dyn__normalColor2();
+    // Get instance field reference: private ColorSO _highlightColor1
+    GlobalNamespace::ColorSO*& dyn__highlightColor1();
+    // Get instance field reference: private ColorSO _highlightColor2
+    GlobalNamespace::ColorSO*& dyn__highlightColor2();
+    // Get instance field reference: private ColorSO _pressedColor1
+    GlobalNamespace::ColorSO*& dyn__pressedColor1();
+    // Get instance field reference: private ColorSO _pressedColor2
+    GlobalNamespace::ColorSO*& dyn__pressedColor2();
+    // Get instance field reference: private ColorSO _disabledColor1
+    GlobalNamespace::ColorSO*& dyn__disabledColor1();
+    // Get instance field reference: private ColorSO _disabledColor2
+    GlobalNamespace::ColorSO*& dyn__disabledColor2();
+    // Get instance field reference: private ColorSO _selectedColor1
+    GlobalNamespace::ColorSO*& dyn__selectedColor1();
+    // Get instance field reference: private ColorSO _selectedColor2
+    GlobalNamespace::ColorSO*& dyn__selectedColor2();
+    // Get instance field reference: private ColorSO _selectedAndHighlightedColor1
+    GlobalNamespace::ColorSO*& dyn__selectedAndHighlightedColor1();
+    // Get instance field reference: private ColorSO _selectedAndHighlightedColor2
+    GlobalNamespace::ColorSO*& dyn__selectedAndHighlightedColor2();
     // public UnityEngine.Color get_normalColor1()
     // Offset: 0x11120A8
     UnityEngine::Color get_normalColor1();

@@ -91,18 +91,12 @@ namespace System::Security::Cryptography {
     static ::Array<uint>* _get_iT3();
     // Set static field: static private readonly System.UInt32[] iT3
     static void _set_iT3(::Array<uint>* value);
-    // Get instance field: private System.UInt32[] expandedKey
-    ::Array<uint>* _get_expandedKey();
-    // Set instance field: private System.UInt32[] expandedKey
-    void _set_expandedKey(::Array<uint>* value);
-    // Get instance field: private System.Int32 Nk
-    int _get_Nk();
-    // Set instance field: private System.Int32 Nk
-    void _set_Nk(int value);
-    // Get instance field: private System.Int32 Nr
-    int _get_Nr();
-    // Set instance field: private System.Int32 Nr
-    void _set_Nr(int value);
+    // Get instance field reference: private System.UInt32[] expandedKey
+    ::Array<uint>*& dyn_expandedKey();
+    // Get instance field reference: private System.Int32 Nk
+    int& dyn_Nk();
+    // Get instance field reference: private System.Int32 Nr
+    int& dyn_Nr();
     // public System.Void .ctor(System.Security.Cryptography.Aes algo, System.Boolean encryption, System.Byte[] key, System.Byte[] iv)
     // Offset: 0x23B7078
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

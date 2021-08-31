@@ -74,26 +74,16 @@ namespace GlobalNamespace {
     MultiplayerCenterResizeController(float platformWidth_ = {}, GlobalNamespace::MultiplayerLayoutProvider* layoutProvider_ = {}, System::Action_1<float>* edgeDistanceFromCenterWasCalculatedEvent_ = {}, bool isEdgeDistanceFromCenterCalculated_ = {}, float edgeDistanceFromCenter_ = {}) noexcept : platformWidth{platformWidth_}, layoutProvider{layoutProvider_}, edgeDistanceFromCenterWasCalculatedEvent{edgeDistanceFromCenterWasCalculatedEvent_}, isEdgeDistanceFromCenterCalculated{isEdgeDistanceFromCenterCalculated_}, edgeDistanceFromCenter{edgeDistanceFromCenter_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Single _platformWidth
-    float _get__platformWidth();
-    // Set instance field: private System.Single _platformWidth
-    void _set__platformWidth(float value);
-    // Get instance field: private readonly MultiplayerLayoutProvider _layoutProvider
-    GlobalNamespace::MultiplayerLayoutProvider* _get__layoutProvider();
-    // Set instance field: private readonly MultiplayerLayoutProvider _layoutProvider
-    void _set__layoutProvider(GlobalNamespace::MultiplayerLayoutProvider* value);
-    // Get instance field: private System.Action`1<System.Single> edgeDistanceFromCenterWasCalculatedEvent
-    System::Action_1<float>* _get_edgeDistanceFromCenterWasCalculatedEvent();
-    // Set instance field: private System.Action`1<System.Single> edgeDistanceFromCenterWasCalculatedEvent
-    void _set_edgeDistanceFromCenterWasCalculatedEvent(System::Action_1<float>* value);
-    // Get instance field: private System.Boolean <isEdgeDistanceFromCenterCalculated>k__BackingField
-    bool _get_$isEdgeDistanceFromCenterCalculated$k__BackingField();
-    // Set instance field: private System.Boolean <isEdgeDistanceFromCenterCalculated>k__BackingField
-    void _set_$isEdgeDistanceFromCenterCalculated$k__BackingField(bool value);
-    // Get instance field: private System.Single <edgeDistanceFromCenter>k__BackingField
-    float _get_$edgeDistanceFromCenter$k__BackingField();
-    // Set instance field: private System.Single <edgeDistanceFromCenter>k__BackingField
-    void _set_$edgeDistanceFromCenter$k__BackingField(float value);
+    // Get instance field reference: private System.Single _platformWidth
+    float& dyn__platformWidth();
+    // Get instance field reference: private readonly MultiplayerLayoutProvider _layoutProvider
+    GlobalNamespace::MultiplayerLayoutProvider*& dyn__layoutProvider();
+    // Get instance field reference: private System.Action`1<System.Single> edgeDistanceFromCenterWasCalculatedEvent
+    System::Action_1<float>*& dyn_edgeDistanceFromCenterWasCalculatedEvent();
+    // Get instance field reference: private System.Boolean <isEdgeDistanceFromCenterCalculated>k__BackingField
+    bool& dyn_$isEdgeDistanceFromCenterCalculated$k__BackingField();
+    // Get instance field reference: private System.Single <edgeDistanceFromCenter>k__BackingField
+    float& dyn_$edgeDistanceFromCenter$k__BackingField();
     // public System.Boolean get_isEdgeDistanceFromCenterCalculated()
     // Offset: 0x11A42C0
     bool get_isEdgeDistanceFromCenterCalculated();

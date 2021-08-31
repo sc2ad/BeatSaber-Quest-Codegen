@@ -36,14 +36,10 @@ namespace GlobalNamespace {
     OVRAudioSourceTest(float period_ = {}, float nextActionTime_ = {}) noexcept : period{period_}, nextActionTime{nextActionTime_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public System.Single period
-    float _get_period();
-    // Set instance field: public System.Single period
-    void _set_period(float value);
-    // Get instance field: private System.Single nextActionTime
-    float _get_nextActionTime();
-    // Set instance field: private System.Single nextActionTime
-    void _set_nextActionTime(float value);
+    // Get instance field reference: public System.Single period
+    float& dyn_period();
+    // Get instance field reference: private System.Single nextActionTime
+    float& dyn_nextActionTime();
     // private System.Void Start()
     // Offset: 0x1293A0C
     void Start();

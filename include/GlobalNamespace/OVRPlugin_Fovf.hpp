@@ -49,22 +49,14 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Single UpTan
-    float _get_UpTan();
-    // Set instance field: public System.Single UpTan
-    void _set_UpTan(float value);
-    // Get instance field: public System.Single DownTan
-    float _get_DownTan();
-    // Set instance field: public System.Single DownTan
-    void _set_DownTan(float value);
-    // Get instance field: public System.Single LeftTan
-    float _get_LeftTan();
-    // Set instance field: public System.Single LeftTan
-    void _set_LeftTan(float value);
-    // Get instance field: public System.Single RightTan
-    float _get_RightTan();
-    // Set instance field: public System.Single RightTan
-    void _set_RightTan(float value);
+    // Get instance field reference: public System.Single UpTan
+    float& dyn_UpTan();
+    // Get instance field reference: public System.Single DownTan
+    float& dyn_DownTan();
+    // Get instance field reference: public System.Single LeftTan
+    float& dyn_LeftTan();
+    // Get instance field reference: public System.Single RightTan
+    float& dyn_RightTan();
   }; // OVRPlugin/Fovf
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Fovf), 12 + sizeof(float)> __GlobalNamespace_OVRPlugin_FovfSizeCheck;

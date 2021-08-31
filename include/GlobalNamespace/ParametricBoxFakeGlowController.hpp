@@ -102,38 +102,22 @@ namespace GlobalNamespace {
     static int _get__sizeParamsID();
     // Set static field: static private readonly System.Int32 _sizeParamsID
     static void _set__sizeParamsID(int value);
-    // Get instance field: public System.Single width
-    float _get_width();
-    // Set instance field: public System.Single width
-    void _set_width(float value);
-    // Get instance field: public System.Single height
-    float _get_height();
-    // Set instance field: public System.Single height
-    void _set_height(float value);
-    // Get instance field: public System.Single length
-    float _get_length();
-    // Set instance field: public System.Single length
-    void _set_length(float value);
-    // Get instance field: public System.Single edgeSize
-    float _get_edgeSize();
-    // Set instance field: public System.Single edgeSize
-    void _set_edgeSize(float value);
-    // Get instance field: public System.Single edgeSizeMultiplier
-    float _get_edgeSizeMultiplier();
-    // Set instance field: public System.Single edgeSizeMultiplier
-    void _set_edgeSizeMultiplier(float value);
-    // Get instance field: public UnityEngine.Color color
-    UnityEngine::Color _get_color();
-    // Set instance field: public UnityEngine.Color color
-    void _set_color(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.MeshRenderer _meshRenderer
-    UnityEngine::MeshRenderer* _get__meshRenderer();
-    // Set instance field: private UnityEngine.MeshRenderer _meshRenderer
-    void _set__meshRenderer(UnityEngine::MeshRenderer* value);
-    // Get instance field: private MaterialPropertyBlockController _materialPropertyBlockController
-    GlobalNamespace::MaterialPropertyBlockController* _get__materialPropertyBlockController();
-    // Set instance field: private MaterialPropertyBlockController _materialPropertyBlockController
-    void _set__materialPropertyBlockController(GlobalNamespace::MaterialPropertyBlockController* value);
+    // Get instance field reference: public System.Single width
+    float& dyn_width();
+    // Get instance field reference: public System.Single height
+    float& dyn_height();
+    // Get instance field reference: public System.Single length
+    float& dyn_length();
+    // Get instance field reference: public System.Single edgeSize
+    float& dyn_edgeSize();
+    // Get instance field reference: public System.Single edgeSizeMultiplier
+    float& dyn_edgeSizeMultiplier();
+    // Get instance field reference: public UnityEngine.Color color
+    UnityEngine::Color& dyn_color();
+    // Get instance field reference: private UnityEngine.MeshRenderer _meshRenderer
+    UnityEngine::MeshRenderer*& dyn__meshRenderer();
+    // Get instance field reference: private MaterialPropertyBlockController _materialPropertyBlockController
+    GlobalNamespace::MaterialPropertyBlockController*& dyn__materialPropertyBlockController();
     // public System.Void set_localPosition(UnityEngine.Vector3 value)
     // Offset: 0x1E1DFE4
     void set_localPosition(UnityEngine::Vector3 value);

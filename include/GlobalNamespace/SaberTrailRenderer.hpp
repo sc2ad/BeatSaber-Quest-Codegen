@@ -135,54 +135,30 @@ namespace GlobalNamespace {
     static float _get_kMotionBlurStrength();
     // Set static field: static private System.Single kMotionBlurStrength
     static void _set_kMotionBlurStrength(float value);
-    // Get instance field: private UnityEngine.MeshRenderer _meshRenderer
-    UnityEngine::MeshRenderer* _get__meshRenderer();
-    // Set instance field: private UnityEngine.MeshRenderer _meshRenderer
-    void _set__meshRenderer(UnityEngine::MeshRenderer* value);
-    // Get instance field: private UnityEngine.MeshFilter _meshFilter
-    UnityEngine::MeshFilter* _get__meshFilter();
-    // Set instance field: private UnityEngine.MeshFilter _meshFilter
-    void _set__meshFilter(UnityEngine::MeshFilter* value);
-    // Get instance field: private UnityEngine.Mesh _mesh
-    UnityEngine::Mesh* _get__mesh();
-    // Set instance field: private UnityEngine.Mesh _mesh
-    void _set__mesh(UnityEngine::Mesh* value);
-    // Get instance field: private UnityEngine.Vector3[] _vertices
-    ::Array<UnityEngine::Vector3>* _get__vertices();
-    // Set instance field: private UnityEngine.Vector3[] _vertices
-    void _set__vertices(::Array<UnityEngine::Vector3>* value);
-    // Get instance field: private System.Int32[] _indices
-    ::Array<int>* _get__indices();
-    // Set instance field: private System.Int32[] _indices
-    void _set__indices(::Array<int>* value);
-    // Get instance field: private UnityEngine.Vector2[] _uvs
-    ::Array<UnityEngine::Vector2>* _get__uvs();
-    // Set instance field: private UnityEngine.Vector2[] _uvs
-    void _set__uvs(::Array<UnityEngine::Vector2>* value);
-    // Get instance field: private UnityEngine.Color[] _colors
-    ::Array<UnityEngine::Color>* _get__colors();
-    // Set instance field: private UnityEngine.Color[] _colors
-    void _set__colors(::Array<UnityEngine::Color>* value);
-    // Get instance field: private System.Single _trailWidth
-    float _get__trailWidth();
-    // Set instance field: private System.Single _trailWidth
-    void _set__trailWidth(float value);
-    // Get instance field: private System.Single _trailDuration
-    float _get__trailDuration();
-    // Set instance field: private System.Single _trailDuration
-    void _set__trailDuration(float value);
-    // Get instance field: private System.Single _segmentDuration
-    float _get__segmentDuration();
-    // Set instance field: private System.Single _segmentDuration
-    void _set__segmentDuration(float value);
-    // Get instance field: private System.Int32 _granularity
-    int _get__granularity();
-    // Set instance field: private System.Int32 _granularity
-    void _set__granularity(int value);
-    // Get instance field: private System.Single _whiteSectionMaxDuration
-    float _get__whiteSectionMaxDuration();
-    // Set instance field: private System.Single _whiteSectionMaxDuration
-    void _set__whiteSectionMaxDuration(float value);
+    // Get instance field reference: private UnityEngine.MeshRenderer _meshRenderer
+    UnityEngine::MeshRenderer*& dyn__meshRenderer();
+    // Get instance field reference: private UnityEngine.MeshFilter _meshFilter
+    UnityEngine::MeshFilter*& dyn__meshFilter();
+    // Get instance field reference: private UnityEngine.Mesh _mesh
+    UnityEngine::Mesh*& dyn__mesh();
+    // Get instance field reference: private UnityEngine.Vector3[] _vertices
+    ::Array<UnityEngine::Vector3>*& dyn__vertices();
+    // Get instance field reference: private System.Int32[] _indices
+    ::Array<int>*& dyn__indices();
+    // Get instance field reference: private UnityEngine.Vector2[] _uvs
+    ::Array<UnityEngine::Vector2>*& dyn__uvs();
+    // Get instance field reference: private UnityEngine.Color[] _colors
+    ::Array<UnityEngine::Color>*& dyn__colors();
+    // Get instance field reference: private System.Single _trailWidth
+    float& dyn__trailWidth();
+    // Get instance field reference: private System.Single _trailDuration
+    float& dyn__trailDuration();
+    // Get instance field reference: private System.Single _segmentDuration
+    float& dyn__segmentDuration();
+    // Get instance field reference: private System.Int32 _granularity
+    int& dyn__granularity();
+    // Get instance field reference: private System.Single _whiteSectionMaxDuration
+    float& dyn__whiteSectionMaxDuration();
     // public System.Void Init(System.Single trailWidth, System.Single trailDuration, System.Int32 granularity, System.Single whiteSectionMaxDuration)
     // Offset: 0x1196C0C
     void Init(float trailWidth, float trailDuration, int granularity, float whiteSectionMaxDuration);

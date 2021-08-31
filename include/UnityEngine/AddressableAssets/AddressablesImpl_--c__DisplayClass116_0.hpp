@@ -47,14 +47,10 @@ namespace UnityEngine::AddressableAssets {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: $$c__DisplayClass116_0
     $$c__DisplayClass116_0(UnityEngine::AddressableAssets::AddressablesImpl* $$4__this_ = {}, bool autoReleaseHandle_ = {}) noexcept : $$4__this{$$4__this_}, autoReleaseHandle{autoReleaseHandle_} {}
-    // Get instance field: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
-    UnityEngine::AddressableAssets::AddressablesImpl* _get_$$4__this();
-    // Set instance field: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
-    void _set_$$4__this(UnityEngine::AddressableAssets::AddressablesImpl* value);
-    // Get instance field: public System.Boolean autoReleaseHandle
-    bool _get_autoReleaseHandle();
-    // Set instance field: public System.Boolean autoReleaseHandle
-    void _set_autoReleaseHandle(bool value);
+    // Get instance field reference: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
+    UnityEngine::AddressableAssets::AddressablesImpl*& dyn_$$4__this();
+    // Get instance field reference: public System.Boolean autoReleaseHandle
+    bool& dyn_autoReleaseHandle();
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> <CreateUnloadSceneWithChain>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle completedHandle)
     // Offset: 0x1442458
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> $CreateUnloadSceneWithChain$b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle completedHandle);

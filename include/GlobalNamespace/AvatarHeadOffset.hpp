@@ -46,14 +46,10 @@ namespace GlobalNamespace {
     AvatarHeadOffset(UnityEngine::Vector3 positionOffset_ = {}, GlobalNamespace::AvatarPoseController* avatarPoseController_ = {}) noexcept : positionOffset{positionOffset_}, avatarPoseController{avatarPoseController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.Vector3 _positionOffset
-    UnityEngine::Vector3 _get__positionOffset();
-    // Set instance field: private UnityEngine.Vector3 _positionOffset
-    void _set__positionOffset(UnityEngine::Vector3 value);
-    // Get instance field: private readonly AvatarPoseController _avatarPoseController
-    GlobalNamespace::AvatarPoseController* _get__avatarPoseController();
-    // Set instance field: private readonly AvatarPoseController _avatarPoseController
-    void _set__avatarPoseController(GlobalNamespace::AvatarPoseController* value);
+    // Get instance field reference: private UnityEngine.Vector3 _positionOffset
+    UnityEngine::Vector3& dyn__positionOffset();
+    // Get instance field reference: private readonly AvatarPoseController _avatarPoseController
+    GlobalNamespace::AvatarPoseController*& dyn__avatarPoseController();
     // protected System.Void Start()
     // Offset: 0x1180EFC
     void Start();

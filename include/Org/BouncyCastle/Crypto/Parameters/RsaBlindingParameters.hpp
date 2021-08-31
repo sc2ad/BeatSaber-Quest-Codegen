@@ -33,10 +33,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     constexpr operator Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*() const noexcept {
       return publicKey;
     }
-    // Get instance field: private readonly Org.BouncyCastle.Crypto.Parameters.RsaKeyParameters publicKey
-    Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* _get_publicKey();
-    // Set instance field: private readonly Org.BouncyCastle.Crypto.Parameters.RsaKeyParameters publicKey
-    void _set_publicKey(Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Parameters.RsaKeyParameters publicKey
+    Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*& dyn_publicKey();
     // public Org.BouncyCastle.Crypto.Parameters.RsaKeyParameters get_PublicKey()
     // Offset: 0x12761C4
     Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* get_PublicKey();

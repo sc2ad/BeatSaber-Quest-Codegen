@@ -51,22 +51,14 @@ namespace System::Net {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: IPHostEntry
     IPHostEntry(::Il2CppString* hostName_ = {}, ::Array<::Il2CppString*>* aliases_ = {}, ::Array<System::Net::IPAddress*>* addressList_ = {}, bool isTrustedHost_ = {}) noexcept : hostName{hostName_}, aliases{aliases_}, addressList{addressList_}, isTrustedHost{isTrustedHost_} {}
-    // Get instance field: private System.String hostName
-    ::Il2CppString* _get_hostName();
-    // Set instance field: private System.String hostName
-    void _set_hostName(::Il2CppString* value);
-    // Get instance field: private System.String[] aliases
-    ::Array<::Il2CppString*>* _get_aliases();
-    // Set instance field: private System.String[] aliases
-    void _set_aliases(::Array<::Il2CppString*>* value);
-    // Get instance field: private System.Net.IPAddress[] addressList
-    ::Array<System::Net::IPAddress*>* _get_addressList();
-    // Set instance field: private System.Net.IPAddress[] addressList
-    void _set_addressList(::Array<System::Net::IPAddress*>* value);
-    // Get instance field: System.Boolean isTrustedHost
-    bool _get_isTrustedHost();
-    // Set instance field: System.Boolean isTrustedHost
-    void _set_isTrustedHost(bool value);
+    // Get instance field reference: private System.String hostName
+    ::Il2CppString*& dyn_hostName();
+    // Get instance field reference: private System.String[] aliases
+    ::Array<::Il2CppString*>*& dyn_aliases();
+    // Get instance field reference: private System.Net.IPAddress[] addressList
+    ::Array<System::Net::IPAddress*>*& dyn_addressList();
+    // Get instance field reference: System.Boolean isTrustedHost
+    bool& dyn_isTrustedHost();
     // public System.String get_HostName()
     // Offset: 0x167CAAC
     ::Il2CppString* get_HostName();

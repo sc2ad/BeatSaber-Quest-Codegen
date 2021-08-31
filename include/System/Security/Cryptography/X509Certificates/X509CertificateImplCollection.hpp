@@ -50,10 +50,8 @@ namespace System::Security::Cryptography::X509Certificates {
     constexpr operator System::Collections::Generic::List_1<System::Security::Cryptography::X509Certificates::X509CertificateImpl*>*() const noexcept {
       return list;
     }
-    // Get instance field: private System.Collections.Generic.List`1<System.Security.Cryptography.X509Certificates.X509CertificateImpl> list
-    System::Collections::Generic::List_1<System::Security::Cryptography::X509Certificates::X509CertificateImpl*>* _get_list();
-    // Set instance field: private System.Collections.Generic.List`1<System.Security.Cryptography.X509Certificates.X509CertificateImpl> list
-    void _set_list(System::Collections::Generic::List_1<System::Security::Cryptography::X509Certificates::X509CertificateImpl*>* value);
+    // Get instance field reference: private System.Collections.Generic.List`1<System.Security.Cryptography.X509Certificates.X509CertificateImpl> list
+    System::Collections::Generic::List_1<System::Security::Cryptography::X509Certificates::X509CertificateImpl*>*& dyn_list();
     // public System.Int32 get_Count()
     // Offset: 0x185FEF0
     int get_Count();

@@ -195,98 +195,52 @@ namespace GlobalNamespace {
     static float _get_kFadeSpeed();
     // Set static field: static private System.Single kFadeSpeed
     static void _set_kFadeSpeed(float value);
-    // Get instance field: private ColorSO _lightColor0
-    GlobalNamespace::ColorSO* _get__lightColor0();
-    // Set instance field: private ColorSO _lightColor0
-    void _set__lightColor0(GlobalNamespace::ColorSO* value);
-    // Get instance field: private ColorSO _lightColor1
-    GlobalNamespace::ColorSO* _get__lightColor1();
-    // Set instance field: private ColorSO _lightColor1
-    void _set__lightColor1(GlobalNamespace::ColorSO* value);
-    // Get instance field: private ColorSO _highlightColor0
-    GlobalNamespace::ColorSO* _get__highlightColor0();
-    // Set instance field: private ColorSO _highlightColor0
-    void _set__highlightColor0(GlobalNamespace::ColorSO* value);
-    // Get instance field: private ColorSO _highlightColor1
-    GlobalNamespace::ColorSO* _get__highlightColor1();
-    // Set instance field: private ColorSO _highlightColor1
-    void _set__highlightColor1(GlobalNamespace::ColorSO* value);
-    // Get instance field: private ColorSO _lightColor0Boost
-    GlobalNamespace::ColorSO* _get__lightColor0Boost();
-    // Set instance field: private ColorSO _lightColor0Boost
-    void _set__lightColor0Boost(GlobalNamespace::ColorSO* value);
-    // Get instance field: private ColorSO _lightColor1Boost
-    GlobalNamespace::ColorSO* _get__lightColor1Boost();
-    // Set instance field: private ColorSO _lightColor1Boost
-    void _set__lightColor1Boost(GlobalNamespace::ColorSO* value);
-    // Get instance field: private ColorSO _highlightColor0Boost
-    GlobalNamespace::ColorSO* _get__highlightColor0Boost();
-    // Set instance field: private ColorSO _highlightColor0Boost
-    void _set__highlightColor0Boost(GlobalNamespace::ColorSO* value);
-    // Get instance field: private ColorSO _highlightColor1Boost
-    GlobalNamespace::ColorSO* _get__highlightColor1Boost();
-    // Set instance field: private ColorSO _highlightColor1Boost
-    void _set__highlightColor1Boost(GlobalNamespace::ColorSO* value);
-    // Get instance field: private System.Single _offColorIntensity
-    float _get__offColorIntensity();
-    // Set instance field: private System.Single _offColorIntensity
-    void _set__offColorIntensity(float value);
-    // Get instance field: private System.Boolean _lightOnStart
-    bool _get__lightOnStart();
-    // Set instance field: private System.Boolean _lightOnStart
-    void _set__lightOnStart(bool value);
-    // Get instance field: private System.Int32 _lightsID
-    int _get__lightsID();
-    // Set instance field: private System.Int32 _lightsID
-    void _set__lightsID(int value);
-    // Get instance field: private BeatmapEventType _event
-    GlobalNamespace::BeatmapEventType _get__event();
-    // Set instance field: private BeatmapEventType _event
-    void _set__event(GlobalNamespace::BeatmapEventType value);
-    // Get instance field: private BeatmapEventType _colorBoostEvent
-    GlobalNamespace::BeatmapEventType _get__colorBoostEvent();
-    // Set instance field: private BeatmapEventType _colorBoostEvent
-    void _set__colorBoostEvent(GlobalNamespace::BeatmapEventType value);
-    // Get instance field: private readonly LightWithIdManager _lightManager
-    GlobalNamespace::LightWithIdManager* _get__lightManager();
-    // Set instance field: private readonly LightWithIdManager _lightManager
-    void _set__lightManager(GlobalNamespace::LightWithIdManager* value);
-    // Get instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
-    GlobalNamespace::IBeatmapObjectCallbackController* _get__beatmapObjectCallbackController();
-    // Set instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
-    void _set__beatmapObjectCallbackController(GlobalNamespace::IBeatmapObjectCallbackController* value);
-    // Get instance field: private System.Boolean _lightIsOn
-    bool _get__lightIsOn();
-    // Set instance field: private System.Boolean _lightIsOn
-    void _set__lightIsOn(bool value);
-    // Get instance field: private UnityEngine.Color _offColor
-    UnityEngine::Color _get__offColor();
-    // Set instance field: private UnityEngine.Color _offColor
-    void _set__offColor(UnityEngine::Color value);
-    // Get instance field: private System.Single _highlightValue
-    float _get__highlightValue();
-    // Set instance field: private System.Single _highlightValue
-    void _set__highlightValue(float value);
-    // Get instance field: private UnityEngine.Color _afterHighlightColor
-    UnityEngine::Color _get__afterHighlightColor();
-    // Set instance field: private UnityEngine.Color _afterHighlightColor
-    void _set__afterHighlightColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _highlightColor
-    UnityEngine::Color _get__highlightColor();
-    // Set instance field: private UnityEngine.Color _highlightColor
-    void _set__highlightColor(UnityEngine::Color value);
-    // Get instance field: private System.Boolean _initialized
-    bool _get__initialized();
-    // Set instance field: private System.Boolean _initialized
-    void _set__initialized(bool value);
-    // Get instance field: private System.Boolean _colorBoost
-    bool _get__colorBoost();
-    // Set instance field: private System.Boolean _colorBoost
-    void _set__colorBoost(bool value);
-    // Get instance field: private System.Int32 _prevLightSwitchBeatmapEventDataValue
-    int _get__prevLightSwitchBeatmapEventDataValue();
-    // Set instance field: private System.Int32 _prevLightSwitchBeatmapEventDataValue
-    void _set__prevLightSwitchBeatmapEventDataValue(int value);
+    // Get instance field reference: private ColorSO _lightColor0
+    GlobalNamespace::ColorSO*& dyn__lightColor0();
+    // Get instance field reference: private ColorSO _lightColor1
+    GlobalNamespace::ColorSO*& dyn__lightColor1();
+    // Get instance field reference: private ColorSO _highlightColor0
+    GlobalNamespace::ColorSO*& dyn__highlightColor0();
+    // Get instance field reference: private ColorSO _highlightColor1
+    GlobalNamespace::ColorSO*& dyn__highlightColor1();
+    // Get instance field reference: private ColorSO _lightColor0Boost
+    GlobalNamespace::ColorSO*& dyn__lightColor0Boost();
+    // Get instance field reference: private ColorSO _lightColor1Boost
+    GlobalNamespace::ColorSO*& dyn__lightColor1Boost();
+    // Get instance field reference: private ColorSO _highlightColor0Boost
+    GlobalNamespace::ColorSO*& dyn__highlightColor0Boost();
+    // Get instance field reference: private ColorSO _highlightColor1Boost
+    GlobalNamespace::ColorSO*& dyn__highlightColor1Boost();
+    // Get instance field reference: private System.Single _offColorIntensity
+    float& dyn__offColorIntensity();
+    // Get instance field reference: private System.Boolean _lightOnStart
+    bool& dyn__lightOnStart();
+    // Get instance field reference: private System.Int32 _lightsID
+    int& dyn__lightsID();
+    // Get instance field reference: private BeatmapEventType _event
+    GlobalNamespace::BeatmapEventType& dyn__event();
+    // Get instance field reference: private BeatmapEventType _colorBoostEvent
+    GlobalNamespace::BeatmapEventType& dyn__colorBoostEvent();
+    // Get instance field reference: private readonly LightWithIdManager _lightManager
+    GlobalNamespace::LightWithIdManager*& dyn__lightManager();
+    // Get instance field reference: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    GlobalNamespace::IBeatmapObjectCallbackController*& dyn__beatmapObjectCallbackController();
+    // Get instance field reference: private System.Boolean _lightIsOn
+    bool& dyn__lightIsOn();
+    // Get instance field reference: private UnityEngine.Color _offColor
+    UnityEngine::Color& dyn__offColor();
+    // Get instance field reference: private System.Single _highlightValue
+    float& dyn__highlightValue();
+    // Get instance field reference: private UnityEngine.Color _afterHighlightColor
+    UnityEngine::Color& dyn__afterHighlightColor();
+    // Get instance field reference: private UnityEngine.Color _highlightColor
+    UnityEngine::Color& dyn__highlightColor();
+    // Get instance field reference: private System.Boolean _initialized
+    bool& dyn__initialized();
+    // Get instance field reference: private System.Boolean _colorBoost
+    bool& dyn__colorBoost();
+    // Get instance field reference: private System.Int32 _prevLightSwitchBeatmapEventDataValue
+    int& dyn__prevLightSwitchBeatmapEventDataValue();
     // public System.Int32 get_lightsId()
     // Offset: 0x120035C
     int get_lightsId();

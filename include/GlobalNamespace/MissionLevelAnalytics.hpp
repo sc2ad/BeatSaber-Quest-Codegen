@@ -48,14 +48,10 @@ namespace GlobalNamespace {
     MissionLevelAnalytics(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData_ = {}, GlobalNamespace::IAnalyticsModel* analyticsModel_ = {}) noexcept : missionLevelScenesTransitionSetupData{missionLevelScenesTransitionSetupData_}, analyticsModel{analyticsModel_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private MissionLevelScenesTransitionSetupDataSO _missionLevelScenesTransitionSetupData
-    GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* _get__missionLevelScenesTransitionSetupData();
-    // Set instance field: private MissionLevelScenesTransitionSetupDataSO _missionLevelScenesTransitionSetupData
-    void _set__missionLevelScenesTransitionSetupData(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* value);
-    // Get instance field: private readonly IAnalyticsModel _analyticsModel
-    GlobalNamespace::IAnalyticsModel* _get__analyticsModel();
-    // Set instance field: private readonly IAnalyticsModel _analyticsModel
-    void _set__analyticsModel(GlobalNamespace::IAnalyticsModel* value);
+    // Get instance field reference: private MissionLevelScenesTransitionSetupDataSO _missionLevelScenesTransitionSetupData
+    GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*& dyn__missionLevelScenesTransitionSetupData();
+    // Get instance field reference: private readonly IAnalyticsModel _analyticsModel
+    GlobalNamespace::IAnalyticsModel*& dyn__analyticsModel();
     // protected System.Void Start()
     // Offset: 0x11D14C4
     void Start();

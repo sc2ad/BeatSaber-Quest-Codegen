@@ -42,14 +42,10 @@ namespace GlobalNamespace {
     operator GlobalNamespace::INetworkPlayerModelPartyConfig_1<GlobalNamespace::UnifiedNetworkPlayerModel*>() noexcept {
       return *reinterpret_cast<GlobalNamespace::INetworkPlayerModelPartyConfig_1<GlobalNamespace::UnifiedNetworkPlayerModel*>*>(this);
     }
-    // Get instance field: public System.String secret
-    ::Il2CppString* _get_secret();
-    // Set instance field: public System.String secret
-    void _set_secret(::Il2CppString* value);
-    // Get instance field: public System.String code
-    ::Il2CppString* _get_code();
-    // Set instance field: public System.String code
-    void _set_code(::Il2CppString* value);
+    // Get instance field reference: public System.String secret
+    ::Il2CppString*& dyn_secret();
+    // Get instance field reference: public System.String code
+    ::Il2CppString*& dyn_code();
     // public System.Void .ctor()
     // Offset: 0x135836C
     // Implemented from: BaseNetworkPlayerModel/PartyConfig

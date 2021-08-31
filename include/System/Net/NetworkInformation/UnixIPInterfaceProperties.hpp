@@ -67,14 +67,10 @@ namespace System::Net::NetworkInformation {
     static System::Text::RegularExpressions::Regex* _get_search();
     // Set static field: static private System.Text.RegularExpressions.Regex search
     static void _set_search(System::Text::RegularExpressions::Regex* value);
-    // Get instance field: protected System.Net.NetworkInformation.UnixNetworkInterface iface
-    System::Net::NetworkInformation::UnixNetworkInterface* _get_iface();
-    // Set instance field: protected System.Net.NetworkInformation.UnixNetworkInterface iface
-    void _set_iface(System::Net::NetworkInformation::UnixNetworkInterface* value);
-    // Get instance field: private System.Collections.Generic.List`1<System.Net.IPAddress> addresses
-    System::Collections::Generic::List_1<System::Net::IPAddress*>* _get_addresses();
-    // Set instance field: private System.Collections.Generic.List`1<System.Net.IPAddress> addresses
-    void _set_addresses(System::Collections::Generic::List_1<System::Net::IPAddress*>* value);
+    // Get instance field reference: protected System.Net.NetworkInformation.UnixNetworkInterface iface
+    System::Net::NetworkInformation::UnixNetworkInterface*& dyn_iface();
+    // Get instance field reference: private System.Collections.Generic.List`1<System.Net.IPAddress> addresses
+    System::Collections::Generic::List_1<System::Net::IPAddress*>*& dyn_addresses();
     // public System.Void .ctor(System.Net.NetworkInformation.UnixNetworkInterface iface, System.Collections.Generic.List`1<System.Net.IPAddress> addresses)
     // Offset: 0x1497D8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

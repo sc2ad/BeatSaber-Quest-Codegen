@@ -77,10 +77,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVRPlatformMenu::eHandler _get_RetreatOneLevel();
       // Set static field: static public OVRPlatformMenu/eHandler RetreatOneLevel
       static void _set_RetreatOneLevel(GlobalNamespace::OVRPlatformMenu::eHandler value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // OVRPlatformMenu/eHandler
     #pragma pack(pop)
     static check_size<sizeof(OVRPlatformMenu::eHandler), 0 + sizeof(int)> __GlobalNamespace_OVRPlatformMenu_eHandlerSizeCheck;
@@ -111,18 +109,12 @@ namespace GlobalNamespace {
     static System::Collections::Generic::Stack_1<::Il2CppString*>* _get_sceneStack();
     // Set static field: static private System.Collections.Generic.Stack`1<System.String> sceneStack
     static void _set_sceneStack(System::Collections::Generic::Stack_1<::Il2CppString*>* value);
-    // Get instance field: private OVRInput/RawButton inputCode
-    GlobalNamespace::OVRInput::RawButton _get_inputCode();
-    // Set instance field: private OVRInput/RawButton inputCode
-    void _set_inputCode(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRPlatformMenu/eHandler shortPressHandler
-    GlobalNamespace::OVRPlatformMenu::eHandler _get_shortPressHandler();
-    // Set instance field: public OVRPlatformMenu/eHandler shortPressHandler
-    void _set_shortPressHandler(GlobalNamespace::OVRPlatformMenu::eHandler value);
-    // Get instance field: public System.Func`1<System.Boolean> OnShortPress
-    System::Func_1<bool>* _get_OnShortPress();
-    // Set instance field: public System.Func`1<System.Boolean> OnShortPress
-    void _set_OnShortPress(System::Func_1<bool>* value);
+    // Get instance field reference: private OVRInput/RawButton inputCode
+    GlobalNamespace::OVRInput::RawButton& dyn_inputCode();
+    // Get instance field reference: public OVRPlatformMenu/eHandler shortPressHandler
+    GlobalNamespace::OVRPlatformMenu::eHandler& dyn_shortPressHandler();
+    // Get instance field reference: public System.Func`1<System.Boolean> OnShortPress
+    System::Func_1<bool>*& dyn_OnShortPress();
     // private OVRPlatformMenu/eBackButtonAction HandleBackButtonState()
     // Offset: 0x1342AB4
     GlobalNamespace::OVRPlatformMenu::eBackButtonAction HandleBackButtonState();

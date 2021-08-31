@@ -55,22 +55,14 @@ namespace GlobalNamespace {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
-    // Get instance field: public System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: public System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<NetEase.Docker.LogoutData> <>t__builder
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<NetEase::Docker::LogoutData> _get_$$t__builder();
-    // Set instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<NetEase.Docker.LogoutData> <>t__builder
-    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<NetEase::Docker::LogoutData> value);
-    // Get instance field: public NetEaseManager <>4__this
-    GlobalNamespace::NetEaseManager* _get_$$4__this();
-    // Set instance field: public NetEaseManager <>4__this
-    void _set_$$4__this(GlobalNamespace::NetEaseManager* value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<NetEase.Docker.LogoutData> <>u__1
-    System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::LogoutData> _get_$$u__1();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<NetEase.Docker.LogoutData> <>u__1
-    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::LogoutData> value);
+    // Get instance field reference: public System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<NetEase.Docker.LogoutData> <>t__builder
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<NetEase::Docker::LogoutData>& dyn_$$t__builder();
+    // Get instance field reference: public NetEaseManager <>4__this
+    GlobalNamespace::NetEaseManager*& dyn_$$4__this();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<NetEase.Docker.LogoutData> <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::LogoutData>& dyn_$$u__1();
     // private System.Void MoveNext()
     // Offset: 0x1040C0C
     void MoveNext();

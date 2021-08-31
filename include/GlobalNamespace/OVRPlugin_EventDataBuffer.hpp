@@ -41,14 +41,10 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public OVRPlugin/EventType EventType
-    GlobalNamespace::OVRPlugin::EventType _get_EventType();
-    // Set instance field: public OVRPlugin/EventType EventType
-    void _set_EventType(GlobalNamespace::OVRPlugin::EventType value);
-    // Get instance field: public System.Byte[] EventData
-    ::Array<uint8_t>* _get_EventData();
-    // Set instance field: public System.Byte[] EventData
-    void _set_EventData(::Array<uint8_t>* value);
+    // Get instance field reference: public OVRPlugin/EventType EventType
+    GlobalNamespace::OVRPlugin::EventType& dyn_EventType();
+    // Get instance field reference: public System.Byte[] EventData
+    ::Array<uint8_t>*& dyn_EventData();
   }; // OVRPlugin/EventDataBuffer
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::EventDataBuffer), 8 + sizeof(::Array<uint8_t>*)> __GlobalNamespace_OVRPlugin_EventDataBufferSizeCheck;

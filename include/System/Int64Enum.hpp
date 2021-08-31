@@ -32,10 +32,8 @@ namespace System {
     constexpr operator int64_t() const noexcept {
       return value;
     }
-    // Get instance field: public System.Int64 value__
-    int64_t _get_value__();
-    // Set instance field: public System.Int64 value__
-    void _set_value__(int64_t value);
+    // Get instance field reference: public System.Int64 value__
+    int64_t& dyn_value__();
   }; // System.Int64Enum
   #pragma pack(pop)
   static check_size<sizeof(Int64Enum), 0 + sizeof(int64_t)> __System_Int64EnumSizeCheck;

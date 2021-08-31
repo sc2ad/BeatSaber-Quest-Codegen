@@ -53,18 +53,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_1<bool>*) == 0x8);
     // Creating value type constructor for type: OnlineServicesViewController
     OnlineServicesViewController(UnityEngine::UI::Button* enableButton_ = {}, UnityEngine::UI::Button* dontEnableButton_ = {}, System::Action_1<bool>* didFinishEvent_ = {}) noexcept : enableButton{enableButton_}, dontEnableButton{dontEnableButton_}, didFinishEvent{didFinishEvent_} {}
-    // Get instance field: private UnityEngine.UI.Button _enableButton
-    UnityEngine::UI::Button* _get__enableButton();
-    // Set instance field: private UnityEngine.UI.Button _enableButton
-    void _set__enableButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _dontEnableButton
-    UnityEngine::UI::Button* _get__dontEnableButton();
-    // Set instance field: private UnityEngine.UI.Button _dontEnableButton
-    void _set__dontEnableButton(UnityEngine::UI::Button* value);
-    // Get instance field: private System.Action`1<System.Boolean> didFinishEvent
-    System::Action_1<bool>* _get_didFinishEvent();
-    // Set instance field: private System.Action`1<System.Boolean> didFinishEvent
-    void _set_didFinishEvent(System::Action_1<bool>* value);
+    // Get instance field reference: private UnityEngine.UI.Button _enableButton
+    UnityEngine::UI::Button*& dyn__enableButton();
+    // Get instance field reference: private UnityEngine.UI.Button _dontEnableButton
+    UnityEngine::UI::Button*& dyn__dontEnableButton();
+    // Get instance field reference: private System.Action`1<System.Boolean> didFinishEvent
+    System::Action_1<bool>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`1<System.Boolean> value)
     // Offset: 0x102BF7C
     void add_didFinishEvent(System::Action_1<bool>* value);

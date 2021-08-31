@@ -34,10 +34,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::MirroredCubeNoteController*) == 0x8);
     // Creating value type constructor for type: MirroredDisappearingArrowController
     MirroredDisappearingArrowController(GlobalNamespace::MirroredCubeNoteController* mirroredGameNoteController_ = {}) noexcept : mirroredGameNoteController{mirroredGameNoteController_} {}
-    // Get instance field: private MirroredCubeNoteController _mirroredGameNoteController
-    GlobalNamespace::MirroredCubeNoteController* _get__mirroredGameNoteController();
-    // Set instance field: private MirroredCubeNoteController _mirroredGameNoteController
-    void _set__mirroredGameNoteController(GlobalNamespace::MirroredCubeNoteController* value);
+    // Get instance field reference: private MirroredCubeNoteController _mirroredGameNoteController
+    GlobalNamespace::MirroredCubeNoteController*& dyn__mirroredGameNoteController();
     // protected MirroredCubeNoteController get_gameNoteController()
     // Offset: 0x10E8BA8
     GlobalNamespace::MirroredCubeNoteController* get_gameNoteController();

@@ -103,50 +103,28 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public OVRPlugin/HandStatus Status
-    GlobalNamespace::OVRPlugin::HandStatus _get_Status();
-    // Set instance field: public OVRPlugin/HandStatus Status
-    void _set_Status(GlobalNamespace::OVRPlugin::HandStatus value);
-    // Get instance field: public OVRPlugin/Posef RootPose
-    GlobalNamespace::OVRPlugin::Posef _get_RootPose();
-    // Set instance field: public OVRPlugin/Posef RootPose
-    void _set_RootPose(GlobalNamespace::OVRPlugin::Posef value);
-    // Get instance field: public OVRPlugin/Quatf[] BoneRotations
-    ::Array<GlobalNamespace::OVRPlugin::Quatf>* _get_BoneRotations();
-    // Set instance field: public OVRPlugin/Quatf[] BoneRotations
-    void _set_BoneRotations(::Array<GlobalNamespace::OVRPlugin::Quatf>* value);
-    // Get instance field: public OVRPlugin/HandFingerPinch Pinches
-    GlobalNamespace::OVRPlugin::HandFingerPinch _get_Pinches();
-    // Set instance field: public OVRPlugin/HandFingerPinch Pinches
-    void _set_Pinches(GlobalNamespace::OVRPlugin::HandFingerPinch value);
-    // Get instance field: public System.Single[] PinchStrength
-    ::Array<float>* _get_PinchStrength();
-    // Set instance field: public System.Single[] PinchStrength
-    void _set_PinchStrength(::Array<float>* value);
-    // Get instance field: public OVRPlugin/Posef PointerPose
-    GlobalNamespace::OVRPlugin::Posef _get_PointerPose();
-    // Set instance field: public OVRPlugin/Posef PointerPose
-    void _set_PointerPose(GlobalNamespace::OVRPlugin::Posef value);
-    // Get instance field: public System.Single HandScale
-    float _get_HandScale();
-    // Set instance field: public System.Single HandScale
-    void _set_HandScale(float value);
-    // Get instance field: public OVRPlugin/TrackingConfidence HandConfidence
-    GlobalNamespace::OVRPlugin::TrackingConfidence _get_HandConfidence();
-    // Set instance field: public OVRPlugin/TrackingConfidence HandConfidence
-    void _set_HandConfidence(GlobalNamespace::OVRPlugin::TrackingConfidence value);
-    // Get instance field: public OVRPlugin/TrackingConfidence[] FingerConfidences
-    ::Array<GlobalNamespace::OVRPlugin::TrackingConfidence>* _get_FingerConfidences();
-    // Set instance field: public OVRPlugin/TrackingConfidence[] FingerConfidences
-    void _set_FingerConfidences(::Array<GlobalNamespace::OVRPlugin::TrackingConfidence>* value);
-    // Get instance field: public System.Double RequestedTimeStamp
-    double _get_RequestedTimeStamp();
-    // Set instance field: public System.Double RequestedTimeStamp
-    void _set_RequestedTimeStamp(double value);
-    // Get instance field: public System.Double SampleTimeStamp
-    double _get_SampleTimeStamp();
-    // Set instance field: public System.Double SampleTimeStamp
-    void _set_SampleTimeStamp(double value);
+    // Get instance field reference: public OVRPlugin/HandStatus Status
+    GlobalNamespace::OVRPlugin::HandStatus& dyn_Status();
+    // Get instance field reference: public OVRPlugin/Posef RootPose
+    GlobalNamespace::OVRPlugin::Posef& dyn_RootPose();
+    // Get instance field reference: public OVRPlugin/Quatf[] BoneRotations
+    ::Array<GlobalNamespace::OVRPlugin::Quatf>*& dyn_BoneRotations();
+    // Get instance field reference: public OVRPlugin/HandFingerPinch Pinches
+    GlobalNamespace::OVRPlugin::HandFingerPinch& dyn_Pinches();
+    // Get instance field reference: public System.Single[] PinchStrength
+    ::Array<float>*& dyn_PinchStrength();
+    // Get instance field reference: public OVRPlugin/Posef PointerPose
+    GlobalNamespace::OVRPlugin::Posef& dyn_PointerPose();
+    // Get instance field reference: public System.Single HandScale
+    float& dyn_HandScale();
+    // Get instance field reference: public OVRPlugin/TrackingConfidence HandConfidence
+    GlobalNamespace::OVRPlugin::TrackingConfidence& dyn_HandConfidence();
+    // Get instance field reference: public OVRPlugin/TrackingConfidence[] FingerConfidences
+    ::Array<GlobalNamespace::OVRPlugin::TrackingConfidence>*& dyn_FingerConfidences();
+    // Get instance field reference: public System.Double RequestedTimeStamp
+    double& dyn_RequestedTimeStamp();
+    // Get instance field reference: public System.Double SampleTimeStamp
+    double& dyn_SampleTimeStamp();
   }; // OVRPlugin/HandState
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::HandState), 112 + sizeof(double)> __GlobalNamespace_OVRPlugin_HandStateSizeCheck;

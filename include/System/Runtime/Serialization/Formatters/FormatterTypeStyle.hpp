@@ -51,10 +51,8 @@ namespace System::Runtime::Serialization::Formatters {
     static System::Runtime::Serialization::Formatters::FormatterTypeStyle _get_XsdString();
     // Set static field: static public System.Runtime.Serialization.Formatters.FormatterTypeStyle XsdString
     static void _set_XsdString(System::Runtime::Serialization::Formatters::FormatterTypeStyle value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Runtime.Serialization.Formatters.FormatterTypeStyle
   #pragma pack(pop)
   static check_size<sizeof(FormatterTypeStyle), 0 + sizeof(int)> __System_Runtime_Serialization_Formatters_FormatterTypeStyleSizeCheck;

@@ -36,14 +36,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: LeaderboardIdData
     LeaderboardIdData(uint ps4LeaderboardId_ = {}, ::Il2CppString* leaderboardId_ = {}) noexcept : ps4LeaderboardId{ps4LeaderboardId_}, leaderboardId{leaderboardId_} {}
-    // Get instance field: private System.UInt32 _ps4LeaderboardId
-    uint _get__ps4LeaderboardId();
-    // Set instance field: private System.UInt32 _ps4LeaderboardId
-    void _set__ps4LeaderboardId(uint value);
-    // Get instance field: private System.String _leaderboardId
-    ::Il2CppString* _get__leaderboardId();
-    // Set instance field: private System.String _leaderboardId
-    void _set__leaderboardId(::Il2CppString* value);
+    // Get instance field reference: private System.UInt32 _ps4LeaderboardId
+    uint& dyn__ps4LeaderboardId();
+    // Get instance field reference: private System.String _leaderboardId
+    ::Il2CppString*& dyn__leaderboardId();
     // public System.UInt32 get_ps4LeaderboardId()
     // Offset: 0x102E168
     uint get_ps4LeaderboardId();

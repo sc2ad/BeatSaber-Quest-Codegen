@@ -68,22 +68,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(typename Oculus::Platform::Message_1<Oculus::Platform::Models::PurchaseList*>::Callback*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass12_0
     $$c__DisplayClass12_0(System::Threading::CancellationToken cancellationToken_ = {}, System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult>* getViewerPurchasesTaskSource_ = {}, GlobalNamespace::OculusPlatformAdditionalContentModel* $$4__this_ = {}, typename Oculus::Platform::Message_1<Oculus::Platform::Models::PurchaseList*>::Callback* $$9__1_ = {}) noexcept : cancellationToken{cancellationToken_}, getViewerPurchasesTaskSource{getViewerPurchasesTaskSource_}, $$4__this{$$4__this_}, $$9__1{$$9__1_} {}
-    // Get instance field: public System.Threading.CancellationToken cancellationToken
-    System::Threading::CancellationToken _get_cancellationToken();
-    // Set instance field: public System.Threading.CancellationToken cancellationToken
-    void _set_cancellationToken(System::Threading::CancellationToken value);
-    // Get instance field: public System.Threading.Tasks.TaskCompletionSource`1<AdditionalContentModel/UpdateEntitlementsResult> getViewerPurchasesTaskSource
-    System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult>* _get_getViewerPurchasesTaskSource();
-    // Set instance field: public System.Threading.Tasks.TaskCompletionSource`1<AdditionalContentModel/UpdateEntitlementsResult> getViewerPurchasesTaskSource
-    void _set_getViewerPurchasesTaskSource(System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult>* value);
-    // Get instance field: public OculusPlatformAdditionalContentModel <>4__this
-    GlobalNamespace::OculusPlatformAdditionalContentModel* _get_$$4__this();
-    // Set instance field: public OculusPlatformAdditionalContentModel <>4__this
-    void _set_$$4__this(GlobalNamespace::OculusPlatformAdditionalContentModel* value);
-    // Get instance field: public Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.PurchaseList> <>9__1
-    typename Oculus::Platform::Message_1<Oculus::Platform::Models::PurchaseList*>::Callback* _get_$$9__1();
-    // Set instance field: public Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.PurchaseList> <>9__1
-    void _set_$$9__1(typename Oculus::Platform::Message_1<Oculus::Platform::Models::PurchaseList*>::Callback* value);
+    // Get instance field reference: public System.Threading.CancellationToken cancellationToken
+    System::Threading::CancellationToken& dyn_cancellationToken();
+    // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<AdditionalContentModel/UpdateEntitlementsResult> getViewerPurchasesTaskSource
+    System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult>*& dyn_getViewerPurchasesTaskSource();
+    // Get instance field reference: public OculusPlatformAdditionalContentModel <>4__this
+    GlobalNamespace::OculusPlatformAdditionalContentModel*& dyn_$$4__this();
+    // Get instance field reference: public Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.PurchaseList> <>9__1
+    typename Oculus::Platform::Message_1<Oculus::Platform::Models::PurchaseList*>::Callback*& dyn_$$9__1();
     // System.Void <CheckForNewEntitlementsAsync>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.AssetDetailsList> getListMsg)
     // Offset: 0x123F088
     void $CheckForNewEntitlementsAsync$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetDetailsList*>* getListMsg);

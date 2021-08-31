@@ -128,42 +128,24 @@ namespace Org::BouncyCastle::Crypto::Digests {
     static ::Array<int16_t>* _get_EIGHT();
     // Set static field: static private readonly System.Int16[] EIGHT
     static void _set_EIGHT(::Array<int16_t>* value);
-    // Get instance field: private readonly System.Int64[] _rc
-    ::Array<int64_t>* _get__rc();
-    // Set instance field: private readonly System.Int64[] _rc
-    void _set__rc(::Array<int64_t>* value);
-    // Get instance field: private System.Byte[] _buffer
-    ::Array<uint8_t>* _get__buffer();
-    // Set instance field: private System.Byte[] _buffer
-    void _set__buffer(::Array<uint8_t>* value);
-    // Get instance field: private System.Int32 _bufferPos
-    int _get__bufferPos();
-    // Set instance field: private System.Int32 _bufferPos
-    void _set__bufferPos(int value);
-    // Get instance field: private System.Int16[] _bitCount
-    ::Array<int16_t>* _get__bitCount();
-    // Set instance field: private System.Int16[] _bitCount
-    void _set__bitCount(::Array<int16_t>* value);
-    // Get instance field: private System.Int64[] _hash
-    ::Array<int64_t>* _get__hash();
-    // Set instance field: private System.Int64[] _hash
-    void _set__hash(::Array<int64_t>* value);
-    // Get instance field: private System.Int64[] _K
-    ::Array<int64_t>* _get__K();
-    // Set instance field: private System.Int64[] _K
-    void _set__K(::Array<int64_t>* value);
-    // Get instance field: private System.Int64[] _L
-    ::Array<int64_t>* _get__L();
-    // Set instance field: private System.Int64[] _L
-    void _set__L(::Array<int64_t>* value);
-    // Get instance field: private System.Int64[] _block
-    ::Array<int64_t>* _get__block();
-    // Set instance field: private System.Int64[] _block
-    void _set__block(::Array<int64_t>* value);
-    // Get instance field: private System.Int64[] _state
-    ::Array<int64_t>* _get__state();
-    // Set instance field: private System.Int64[] _state
-    void _set__state(::Array<int64_t>* value);
+    // Get instance field reference: private readonly System.Int64[] _rc
+    ::Array<int64_t>*& dyn__rc();
+    // Get instance field reference: private System.Byte[] _buffer
+    ::Array<uint8_t>*& dyn__buffer();
+    // Get instance field reference: private System.Int32 _bufferPos
+    int& dyn__bufferPos();
+    // Get instance field reference: private System.Int16[] _bitCount
+    ::Array<int16_t>*& dyn__bitCount();
+    // Get instance field reference: private System.Int64[] _hash
+    ::Array<int64_t>*& dyn__hash();
+    // Get instance field reference: private System.Int64[] _K
+    ::Array<int64_t>*& dyn__K();
+    // Get instance field reference: private System.Int64[] _L
+    ::Array<int64_t>*& dyn__L();
+    // Get instance field reference: private System.Int64[] _block
+    ::Array<int64_t>*& dyn__block();
+    // Get instance field reference: private System.Int64[] _state
+    ::Array<int64_t>*& dyn__state();
     // public System.String get_AlgorithmName()
     // Offset: 0x1928788
     ::Il2CppString* get_AlgorithmName();

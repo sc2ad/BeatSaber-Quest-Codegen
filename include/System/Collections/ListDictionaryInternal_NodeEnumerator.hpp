@@ -59,22 +59,14 @@ namespace System::Collections {
     operator System::Collections::IDictionaryEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IDictionaryEnumerator*>(this);
     }
-    // Get instance field: private System.Collections.ListDictionaryInternal list
-    System::Collections::ListDictionaryInternal* _get_list();
-    // Set instance field: private System.Collections.ListDictionaryInternal list
-    void _set_list(System::Collections::ListDictionaryInternal* value);
-    // Get instance field: private System.Collections.ListDictionaryInternal/System.Collections.DictionaryNode current
-    System::Collections::ListDictionaryInternal::DictionaryNode* _get_current();
-    // Set instance field: private System.Collections.ListDictionaryInternal/System.Collections.DictionaryNode current
-    void _set_current(System::Collections::ListDictionaryInternal::DictionaryNode* value);
-    // Get instance field: private System.Int32 version
-    int _get_version();
-    // Set instance field: private System.Int32 version
-    void _set_version(int value);
-    // Get instance field: private System.Boolean start
-    bool _get_start();
-    // Set instance field: private System.Boolean start
-    void _set_start(bool value);
+    // Get instance field reference: private System.Collections.ListDictionaryInternal list
+    System::Collections::ListDictionaryInternal*& dyn_list();
+    // Get instance field reference: private System.Collections.ListDictionaryInternal/System.Collections.DictionaryNode current
+    System::Collections::ListDictionaryInternal::DictionaryNode*& dyn_current();
+    // Get instance field reference: private System.Int32 version
+    int& dyn_version();
+    // Get instance field reference: private System.Boolean start
+    bool& dyn_start();
     // public System.Object get_Current()
     // Offset: 0x19B3114
     ::Il2CppObject* get_Current();

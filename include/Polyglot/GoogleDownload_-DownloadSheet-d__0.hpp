@@ -105,42 +105,24 @@ namespace Polyglot {
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
-    // Get instance field: private System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: private System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: private System.Object <>2__current
-    ::Il2CppObject* _get_$$2__current();
-    // Set instance field: private System.Object <>2__current
-    void _set_$$2__current(::Il2CppObject* value);
-    // Get instance field: public System.Func`2<System.Single,System.Boolean> progressbar
-    System::Func_2<float, bool>* _get_progressbar();
-    // Set instance field: public System.Func`2<System.Single,System.Boolean> progressbar
-    void _set_progressbar(System::Func_2<float, bool>* value);
-    // Get instance field: public System.Action`1<System.String> done
-    System::Action_1<::Il2CppString*>* _get_done();
-    // Set instance field: public System.Action`1<System.String> done
-    void _set_done(System::Action_1<::Il2CppString*>* value);
-    // Get instance field: public System.String docsId
-    ::Il2CppString* _get_docsId();
-    // Set instance field: public System.String docsId
-    void _set_docsId(::Il2CppString* value);
-    // Get instance field: public System.String sheetId
-    ::Il2CppString* _get_sheetId();
-    // Set instance field: public System.String sheetId
-    void _set_sheetId(::Il2CppString* value);
-    // Get instance field: public Polyglot.GoogleDriveDownloadFormat format
-    Polyglot::GoogleDriveDownloadFormat _get_format();
-    // Set instance field: public Polyglot.GoogleDriveDownloadFormat format
-    void _set_format(Polyglot::GoogleDriveDownloadFormat value);
-    // Get instance field: private System.String <url>5__2
-    ::Il2CppString* _get_$url$5__2();
-    // Set instance field: private System.String <url>5__2
-    void _set_$url$5__2(::Il2CppString* value);
-    // Get instance field: private UnityEngine.Networking.UnityWebRequest <www>5__3
-    UnityEngine::Networking::UnityWebRequest* _get_$www$5__3();
-    // Set instance field: private UnityEngine.Networking.UnityWebRequest <www>5__3
-    void _set_$www$5__3(UnityEngine::Networking::UnityWebRequest* value);
+    // Get instance field reference: private System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: private System.Object <>2__current
+    ::Il2CppObject*& dyn_$$2__current();
+    // Get instance field reference: public System.Func`2<System.Single,System.Boolean> progressbar
+    System::Func_2<float, bool>*& dyn_progressbar();
+    // Get instance field reference: public System.Action`1<System.String> done
+    System::Action_1<::Il2CppString*>*& dyn_done();
+    // Get instance field reference: public System.String docsId
+    ::Il2CppString*& dyn_docsId();
+    // Get instance field reference: public System.String sheetId
+    ::Il2CppString*& dyn_sheetId();
+    // Get instance field reference: public Polyglot.GoogleDriveDownloadFormat format
+    Polyglot::GoogleDriveDownloadFormat& dyn_format();
+    // Get instance field reference: private System.String <url>5__2
+    ::Il2CppString*& dyn_$url$5__2();
+    // Get instance field reference: private UnityEngine.Networking.UnityWebRequest <www>5__3
+    UnityEngine::Networking::UnityWebRequest*& dyn_$www$5__3();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
     // Offset: 0x237FB98
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();

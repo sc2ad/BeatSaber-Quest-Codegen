@@ -136,70 +136,38 @@ namespace System {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: System.Int32 Year
-    int _get_Year();
-    // Set instance field: System.Int32 Year
-    void _set_Year(int value);
-    // Get instance field: System.Int32 Month
-    int _get_Month();
-    // Set instance field: System.Int32 Month
-    void _set_Month(int value);
-    // Get instance field: System.Int32 Day
-    int _get_Day();
-    // Set instance field: System.Int32 Day
-    void _set_Day(int value);
-    // Get instance field: System.Int32 Hour
-    int _get_Hour();
-    // Set instance field: System.Int32 Hour
-    void _set_Hour(int value);
-    // Get instance field: System.Int32 Minute
-    int _get_Minute();
-    // Set instance field: System.Int32 Minute
-    void _set_Minute(int value);
-    // Get instance field: System.Int32 Second
-    int _get_Second();
-    // Set instance field: System.Int32 Second
-    void _set_Second(int value);
-    // Get instance field: System.Double fraction
-    double _get_fraction();
-    // Set instance field: System.Double fraction
-    void _set_fraction(double value);
-    // Get instance field: System.Int32 era
-    int _get_era();
-    // Set instance field: System.Int32 era
-    void _set_era(int value);
-    // Get instance field: System.ParseFlags flags
-    System::ParseFlags _get_flags();
-    // Set instance field: System.ParseFlags flags
-    void _set_flags(System::ParseFlags value);
-    // Get instance field: System.TimeSpan timeZoneOffset
-    System::TimeSpan _get_timeZoneOffset();
-    // Set instance field: System.TimeSpan timeZoneOffset
-    void _set_timeZoneOffset(System::TimeSpan value);
-    // Get instance field: System.Globalization.Calendar calendar
-    System::Globalization::Calendar* _get_calendar();
-    // Set instance field: System.Globalization.Calendar calendar
-    void _set_calendar(System::Globalization::Calendar* value);
-    // Get instance field: System.DateTime parsedDate
-    System::DateTime _get_parsedDate();
-    // Set instance field: System.DateTime parsedDate
-    void _set_parsedDate(System::DateTime value);
-    // Get instance field: System.ParseFailureKind failure
-    System::ParseFailureKind _get_failure();
-    // Set instance field: System.ParseFailureKind failure
-    void _set_failure(System::ParseFailureKind value);
-    // Get instance field: System.String failureMessageID
-    ::Il2CppString* _get_failureMessageID();
-    // Set instance field: System.String failureMessageID
-    void _set_failureMessageID(::Il2CppString* value);
-    // Get instance field: System.Object failureMessageFormatArgument
-    ::Il2CppObject* _get_failureMessageFormatArgument();
-    // Set instance field: System.Object failureMessageFormatArgument
-    void _set_failureMessageFormatArgument(::Il2CppObject* value);
-    // Get instance field: System.String failureArgumentName
-    ::Il2CppString* _get_failureArgumentName();
-    // Set instance field: System.String failureArgumentName
-    void _set_failureArgumentName(::Il2CppString* value);
+    // Get instance field reference: System.Int32 Year
+    int& dyn_Year();
+    // Get instance field reference: System.Int32 Month
+    int& dyn_Month();
+    // Get instance field reference: System.Int32 Day
+    int& dyn_Day();
+    // Get instance field reference: System.Int32 Hour
+    int& dyn_Hour();
+    // Get instance field reference: System.Int32 Minute
+    int& dyn_Minute();
+    // Get instance field reference: System.Int32 Second
+    int& dyn_Second();
+    // Get instance field reference: System.Double fraction
+    double& dyn_fraction();
+    // Get instance field reference: System.Int32 era
+    int& dyn_era();
+    // Get instance field reference: System.ParseFlags flags
+    System::ParseFlags& dyn_flags();
+    // Get instance field reference: System.TimeSpan timeZoneOffset
+    System::TimeSpan& dyn_timeZoneOffset();
+    // Get instance field reference: System.Globalization.Calendar calendar
+    System::Globalization::Calendar*& dyn_calendar();
+    // Get instance field reference: System.DateTime parsedDate
+    System::DateTime& dyn_parsedDate();
+    // Get instance field reference: System.ParseFailureKind failure
+    System::ParseFailureKind& dyn_failure();
+    // Get instance field reference: System.String failureMessageID
+    ::Il2CppString*& dyn_failureMessageID();
+    // Get instance field reference: System.Object failureMessageFormatArgument
+    ::Il2CppObject*& dyn_failureMessageFormatArgument();
+    // Get instance field reference: System.String failureArgumentName
+    ::Il2CppString*& dyn_failureArgumentName();
     // System.Void Init()
     // Offset: 0x1B5154C
     void Init();

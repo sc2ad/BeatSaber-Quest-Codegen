@@ -45,14 +45,10 @@ namespace Org::BouncyCastle::Asn1::X509 {
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerGeneralizedTime*) == 0x8);
     // Creating value type constructor for type: AttCertValidityPeriod
     AttCertValidityPeriod(Org::BouncyCastle::Asn1::DerGeneralizedTime* notBeforeTime_ = {}, Org::BouncyCastle::Asn1::DerGeneralizedTime* notAfterTime_ = {}) noexcept : notBeforeTime{notBeforeTime_}, notAfterTime{notAfterTime_} {}
-    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerGeneralizedTime notBeforeTime
-    Org::BouncyCastle::Asn1::DerGeneralizedTime* _get_notBeforeTime();
-    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerGeneralizedTime notBeforeTime
-    void _set_notBeforeTime(Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
-    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerGeneralizedTime notAfterTime
-    Org::BouncyCastle::Asn1::DerGeneralizedTime* _get_notAfterTime();
-    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerGeneralizedTime notAfterTime
-    void _set_notAfterTime(Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerGeneralizedTime notBeforeTime
+    Org::BouncyCastle::Asn1::DerGeneralizedTime*& dyn_notBeforeTime();
+    // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerGeneralizedTime notAfterTime
+    Org::BouncyCastle::Asn1::DerGeneralizedTime*& dyn_notAfterTime();
     // public Org.BouncyCastle.Asn1.DerGeneralizedTime get_NotBeforeTime()
     // Offset: 0x19F6BB4
     Org::BouncyCastle::Asn1::DerGeneralizedTime* get_NotBeforeTime();

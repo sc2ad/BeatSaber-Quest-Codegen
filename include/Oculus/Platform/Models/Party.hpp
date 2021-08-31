@@ -91,42 +91,24 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
     // Creating value type constructor for type: Party
     Party(uint64_t _ID_ = {}, Oculus::Platform::Models::UserList* InvitedUsersOptional_ = {}, Oculus::Platform::Models::UserList* InvitedUsers_ = {}, Oculus::Platform::Models::User* LeaderOptional_ = {}, Oculus::Platform::Models::User* Leader_ = {}, Oculus::Platform::Models::Room* RoomOptional_ = {}, Oculus::Platform::Models::Room* Room_ = {}, Oculus::Platform::Models::UserList* UsersOptional_ = {}, Oculus::Platform::Models::UserList* Users_ = {}) noexcept : _ID{_ID_}, InvitedUsersOptional{InvitedUsersOptional_}, InvitedUsers{InvitedUsers_}, LeaderOptional{LeaderOptional_}, Leader{Leader_}, RoomOptional{RoomOptional_}, Room{Room_}, UsersOptional{UsersOptional_}, Users{Users_} {}
-    // Get instance field: public readonly System.UInt64 ID
-    uint64_t _get_ID();
-    // Set instance field: public readonly System.UInt64 ID
-    void _set_ID(uint64_t value);
-    // Get instance field: public readonly Oculus.Platform.Models.UserList InvitedUsersOptional
-    Oculus::Platform::Models::UserList* _get_InvitedUsersOptional();
-    // Set instance field: public readonly Oculus.Platform.Models.UserList InvitedUsersOptional
-    void _set_InvitedUsersOptional(Oculus::Platform::Models::UserList* value);
-    // Get instance field: public readonly Oculus.Platform.Models.UserList InvitedUsers
-    Oculus::Platform::Models::UserList* _get_InvitedUsers();
-    // Set instance field: public readonly Oculus.Platform.Models.UserList InvitedUsers
-    void _set_InvitedUsers(Oculus::Platform::Models::UserList* value);
-    // Get instance field: public readonly Oculus.Platform.Models.User LeaderOptional
-    Oculus::Platform::Models::User* _get_LeaderOptional();
-    // Set instance field: public readonly Oculus.Platform.Models.User LeaderOptional
-    void _set_LeaderOptional(Oculus::Platform::Models::User* value);
-    // Get instance field: public readonly Oculus.Platform.Models.User Leader
-    Oculus::Platform::Models::User* _get_Leader();
-    // Set instance field: public readonly Oculus.Platform.Models.User Leader
-    void _set_Leader(Oculus::Platform::Models::User* value);
-    // Get instance field: public readonly Oculus.Platform.Models.Room RoomOptional
-    Oculus::Platform::Models::Room* _get_RoomOptional();
-    // Set instance field: public readonly Oculus.Platform.Models.Room RoomOptional
-    void _set_RoomOptional(Oculus::Platform::Models::Room* value);
-    // Get instance field: public readonly Oculus.Platform.Models.Room Room
-    Oculus::Platform::Models::Room* _get_Room();
-    // Set instance field: public readonly Oculus.Platform.Models.Room Room
-    void _set_Room(Oculus::Platform::Models::Room* value);
-    // Get instance field: public readonly Oculus.Platform.Models.UserList UsersOptional
-    Oculus::Platform::Models::UserList* _get_UsersOptional();
-    // Set instance field: public readonly Oculus.Platform.Models.UserList UsersOptional
-    void _set_UsersOptional(Oculus::Platform::Models::UserList* value);
-    // Get instance field: public readonly Oculus.Platform.Models.UserList Users
-    Oculus::Platform::Models::UserList* _get_Users();
-    // Set instance field: public readonly Oculus.Platform.Models.UserList Users
-    void _set_Users(Oculus::Platform::Models::UserList* value);
+    // Get instance field reference: public readonly System.UInt64 ID
+    uint64_t& dyn_ID();
+    // Get instance field reference: public readonly Oculus.Platform.Models.UserList InvitedUsersOptional
+    Oculus::Platform::Models::UserList*& dyn_InvitedUsersOptional();
+    // Get instance field reference: public readonly Oculus.Platform.Models.UserList InvitedUsers
+    Oculus::Platform::Models::UserList*& dyn_InvitedUsers();
+    // Get instance field reference: public readonly Oculus.Platform.Models.User LeaderOptional
+    Oculus::Platform::Models::User*& dyn_LeaderOptional();
+    // Get instance field reference: public readonly Oculus.Platform.Models.User Leader
+    Oculus::Platform::Models::User*& dyn_Leader();
+    // Get instance field reference: public readonly Oculus.Platform.Models.Room RoomOptional
+    Oculus::Platform::Models::Room*& dyn_RoomOptional();
+    // Get instance field reference: public readonly Oculus.Platform.Models.Room Room
+    Oculus::Platform::Models::Room*& dyn_Room();
+    // Get instance field reference: public readonly Oculus.Platform.Models.UserList UsersOptional
+    Oculus::Platform::Models::UserList*& dyn_UsersOptional();
+    // Get instance field reference: public readonly Oculus.Platform.Models.UserList Users
+    Oculus::Platform::Models::UserList*& dyn_Users();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14EE15C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

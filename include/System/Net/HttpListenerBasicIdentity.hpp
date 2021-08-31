@@ -32,10 +32,8 @@ namespace System::Net {
     constexpr operator ::Il2CppString*() const noexcept {
       return password;
     }
-    // Get instance field: private System.String password
-    ::Il2CppString* _get_password();
-    // Set instance field: private System.String password
-    void _set_password(::Il2CppString* value);
+    // Get instance field reference: private System.String password
+    ::Il2CppString*& dyn_password();
     // public System.Void .ctor(System.String username, System.String password)
     // Offset: 0x1670240
     // Implemented from: System.Security.Principal.GenericIdentity

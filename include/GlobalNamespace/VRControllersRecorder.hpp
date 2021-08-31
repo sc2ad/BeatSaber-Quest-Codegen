@@ -96,10 +96,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::VRControllersRecorder::Mode _get_Off();
       // Set static field: static public VRControllersRecorder/Mode Off
       static void _set_Off(GlobalNamespace::VRControllersRecorder::Mode value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // VRControllersRecorder/Mode
     #pragma pack(pop)
     static check_size<sizeof(VRControllersRecorder::Mode), 0 + sizeof(int)> __GlobalNamespace_VRControllersRecorder_ModeSizeCheck;
@@ -248,94 +246,50 @@ namespace GlobalNamespace {
     VRControllersRecorder(UnityEngine::TextAsset* recordingTextAsset_ = {}, ::Il2CppString* recordingFileName_ = {}, GlobalNamespace::VRControllersRecorder::Mode mode_ = {}, bool dontMoveHead_ = {}, bool changeToNonVRCamera_ = {}, bool adjustSabersPositionBasedOnHeadPosition_ = {}, UnityEngine::Vector3 headRotationOffset_ = {}, UnityEngine::Vector3 headPositionOffset_ = {}, float headSmooth_ = {}, float cameraFOV_ = {}, float controllersTimeOffset_ = {}, float controllersSmooth_ = {}, GlobalNamespace::VRController* controller0_ = {}, GlobalNamespace::VRController* controller1_ = {}, UnityEngine::Transform* headTransform_ = {}, UnityEngine::Camera* camera_ = {}, UnityEngine::Camera* recorderCamera_ = {}, UnityEngine::Transform* spawnRotationTransform_ = {}, UnityEngine::Transform* originTransform_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, System::Collections::Generic::List_1<GlobalNamespace::VRControllersRecorder::Keyframe*>* keyframes_ = {}, int keyframeIndex_ = {}) noexcept : recordingTextAsset{recordingTextAsset_}, recordingFileName{recordingFileName_}, mode{mode_}, dontMoveHead{dontMoveHead_}, changeToNonVRCamera{changeToNonVRCamera_}, adjustSabersPositionBasedOnHeadPosition{adjustSabersPositionBasedOnHeadPosition_}, headRotationOffset{headRotationOffset_}, headPositionOffset{headPositionOffset_}, headSmooth{headSmooth_}, cameraFOV{cameraFOV_}, controllersTimeOffset{controllersTimeOffset_}, controllersSmooth{controllersSmooth_}, controller0{controller0_}, controller1{controller1_}, headTransform{headTransform_}, camera{camera_}, recorderCamera{recorderCamera_}, spawnRotationTransform{spawnRotationTransform_}, originTransform{originTransform_}, audioTimeSyncController{audioTimeSyncController_}, keyframes{keyframes_}, keyframeIndex{keyframeIndex_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.TextAsset _recordingTextAsset
-    UnityEngine::TextAsset* _get__recordingTextAsset();
-    // Set instance field: private UnityEngine.TextAsset _recordingTextAsset
-    void _set__recordingTextAsset(UnityEngine::TextAsset* value);
-    // Get instance field: private System.String _recordingFileName
-    ::Il2CppString* _get__recordingFileName();
-    // Set instance field: private System.String _recordingFileName
-    void _set__recordingFileName(::Il2CppString* value);
-    // Get instance field: private VRControllersRecorder/Mode _mode
-    GlobalNamespace::VRControllersRecorder::Mode _get__mode();
-    // Set instance field: private VRControllersRecorder/Mode _mode
-    void _set__mode(GlobalNamespace::VRControllersRecorder::Mode value);
-    // Get instance field: private System.Boolean _dontMoveHead
-    bool _get__dontMoveHead();
-    // Set instance field: private System.Boolean _dontMoveHead
-    void _set__dontMoveHead(bool value);
-    // Get instance field: private System.Boolean _changeToNonVRCamera
-    bool _get__changeToNonVRCamera();
-    // Set instance field: private System.Boolean _changeToNonVRCamera
-    void _set__changeToNonVRCamera(bool value);
-    // Get instance field: private System.Boolean _adjustSabersPositionBasedOnHeadPosition
-    bool _get__adjustSabersPositionBasedOnHeadPosition();
-    // Set instance field: private System.Boolean _adjustSabersPositionBasedOnHeadPosition
-    void _set__adjustSabersPositionBasedOnHeadPosition(bool value);
-    // Get instance field: private UnityEngine.Vector3 _headRotationOffset
-    UnityEngine::Vector3 _get__headRotationOffset();
-    // Set instance field: private UnityEngine.Vector3 _headRotationOffset
-    void _set__headRotationOffset(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 _headPositionOffset
-    UnityEngine::Vector3 _get__headPositionOffset();
-    // Set instance field: private UnityEngine.Vector3 _headPositionOffset
-    void _set__headPositionOffset(UnityEngine::Vector3 value);
-    // Get instance field: private System.Single _headSmooth
-    float _get__headSmooth();
-    // Set instance field: private System.Single _headSmooth
-    void _set__headSmooth(float value);
-    // Get instance field: private System.Single _cameraFOV
-    float _get__cameraFOV();
-    // Set instance field: private System.Single _cameraFOV
-    void _set__cameraFOV(float value);
-    // Get instance field: private System.Single _controllersTimeOffset
-    float _get__controllersTimeOffset();
-    // Set instance field: private System.Single _controllersTimeOffset
-    void _set__controllersTimeOffset(float value);
-    // Get instance field: private System.Single _controllersSmooth
-    float _get__controllersSmooth();
-    // Set instance field: private System.Single _controllersSmooth
-    void _set__controllersSmooth(float value);
-    // Get instance field: private VRController _controller0
-    GlobalNamespace::VRController* _get__controller0();
-    // Set instance field: private VRController _controller0
-    void _set__controller0(GlobalNamespace::VRController* value);
-    // Get instance field: private VRController _controller1
-    GlobalNamespace::VRController* _get__controller1();
-    // Set instance field: private VRController _controller1
-    void _set__controller1(GlobalNamespace::VRController* value);
-    // Get instance field: private UnityEngine.Transform _headTransform
-    UnityEngine::Transform* _get__headTransform();
-    // Set instance field: private UnityEngine.Transform _headTransform
-    void _set__headTransform(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.Camera _camera
-    UnityEngine::Camera* _get__camera();
-    // Set instance field: private UnityEngine.Camera _camera
-    void _set__camera(UnityEngine::Camera* value);
-    // Get instance field: private UnityEngine.Camera _recorderCamera
-    UnityEngine::Camera* _get__recorderCamera();
-    // Set instance field: private UnityEngine.Camera _recorderCamera
-    void _set__recorderCamera(UnityEngine::Camera* value);
-    // Get instance field: private UnityEngine.Transform _spawnRotationTransform
-    UnityEngine::Transform* _get__spawnRotationTransform();
-    // Set instance field: private UnityEngine.Transform _spawnRotationTransform
-    void _set__spawnRotationTransform(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.Transform _originTransform
-    UnityEngine::Transform* _get__originTransform();
-    // Set instance field: private UnityEngine.Transform _originTransform
-    void _set__originTransform(UnityEngine::Transform* value);
-    // Get instance field: private readonly AudioTimeSyncController _audioTimeSyncController
-    GlobalNamespace::AudioTimeSyncController* _get__audioTimeSyncController();
-    // Set instance field: private readonly AudioTimeSyncController _audioTimeSyncController
-    void _set__audioTimeSyncController(GlobalNamespace::AudioTimeSyncController* value);
-    // Get instance field: private System.Collections.Generic.List`1<VRControllersRecorder/Keyframe> _keyframes
-    System::Collections::Generic::List_1<GlobalNamespace::VRControllersRecorder::Keyframe*>* _get__keyframes();
-    // Set instance field: private System.Collections.Generic.List`1<VRControllersRecorder/Keyframe> _keyframes
-    void _set__keyframes(System::Collections::Generic::List_1<GlobalNamespace::VRControllersRecorder::Keyframe*>* value);
-    // Get instance field: private System.Int32 _keyframeIndex
-    int _get__keyframeIndex();
-    // Set instance field: private System.Int32 _keyframeIndex
-    void _set__keyframeIndex(int value);
+    // Get instance field reference: private UnityEngine.TextAsset _recordingTextAsset
+    UnityEngine::TextAsset*& dyn__recordingTextAsset();
+    // Get instance field reference: private System.String _recordingFileName
+    ::Il2CppString*& dyn__recordingFileName();
+    // Get instance field reference: private VRControllersRecorder/Mode _mode
+    GlobalNamespace::VRControllersRecorder::Mode& dyn__mode();
+    // Get instance field reference: private System.Boolean _dontMoveHead
+    bool& dyn__dontMoveHead();
+    // Get instance field reference: private System.Boolean _changeToNonVRCamera
+    bool& dyn__changeToNonVRCamera();
+    // Get instance field reference: private System.Boolean _adjustSabersPositionBasedOnHeadPosition
+    bool& dyn__adjustSabersPositionBasedOnHeadPosition();
+    // Get instance field reference: private UnityEngine.Vector3 _headRotationOffset
+    UnityEngine::Vector3& dyn__headRotationOffset();
+    // Get instance field reference: private UnityEngine.Vector3 _headPositionOffset
+    UnityEngine::Vector3& dyn__headPositionOffset();
+    // Get instance field reference: private System.Single _headSmooth
+    float& dyn__headSmooth();
+    // Get instance field reference: private System.Single _cameraFOV
+    float& dyn__cameraFOV();
+    // Get instance field reference: private System.Single _controllersTimeOffset
+    float& dyn__controllersTimeOffset();
+    // Get instance field reference: private System.Single _controllersSmooth
+    float& dyn__controllersSmooth();
+    // Get instance field reference: private VRController _controller0
+    GlobalNamespace::VRController*& dyn__controller0();
+    // Get instance field reference: private VRController _controller1
+    GlobalNamespace::VRController*& dyn__controller1();
+    // Get instance field reference: private UnityEngine.Transform _headTransform
+    UnityEngine::Transform*& dyn__headTransform();
+    // Get instance field reference: private UnityEngine.Camera _camera
+    UnityEngine::Camera*& dyn__camera();
+    // Get instance field reference: private UnityEngine.Camera _recorderCamera
+    UnityEngine::Camera*& dyn__recorderCamera();
+    // Get instance field reference: private UnityEngine.Transform _spawnRotationTransform
+    UnityEngine::Transform*& dyn__spawnRotationTransform();
+    // Get instance field reference: private UnityEngine.Transform _originTransform
+    UnityEngine::Transform*& dyn__originTransform();
+    // Get instance field reference: private readonly AudioTimeSyncController _audioTimeSyncController
+    GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
+    // Get instance field reference: private System.Collections.Generic.List`1<VRControllersRecorder/Keyframe> _keyframes
+    System::Collections::Generic::List_1<GlobalNamespace::VRControllersRecorder::Keyframe*>*& dyn__keyframes();
+    // Get instance field reference: private System.Int32 _keyframeIndex
+    int& dyn__keyframeIndex();
     // public VRControllersRecorder/Mode get_mode()
     // Offset: 0x1359CCC
     GlobalNamespace::VRControllersRecorder::Mode get_mode();

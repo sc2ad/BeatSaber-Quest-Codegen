@@ -60,22 +60,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(HMUI::ImageView*) == 0x8);
     // Creating value type constructor for type: TextOnlyTableCell
     TextOnlyTableCell(UnityEngine::Color selectedHighlightColor_ = {}, TMPro::TextMeshProUGUI* text_ = {}, HMUI::ImageView* bgImage_ = {}, HMUI::ImageView* highlightImage_ = {}) noexcept : selectedHighlightColor{selectedHighlightColor_}, text{text_}, bgImage{bgImage_}, highlightImage{highlightImage_} {}
-    // Get instance field: private UnityEngine.Color _selectedHighlightColor
-    UnityEngine::Color _get__selectedHighlightColor();
-    // Set instance field: private UnityEngine.Color _selectedHighlightColor
-    void _set__selectedHighlightColor(UnityEngine::Color value);
-    // Get instance field: private TMPro.TextMeshProUGUI _text
-    TMPro::TextMeshProUGUI* _get__text();
-    // Set instance field: private TMPro.TextMeshProUGUI _text
-    void _set__text(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private HMUI.ImageView _bgImage
-    HMUI::ImageView* _get__bgImage();
-    // Set instance field: private HMUI.ImageView _bgImage
-    void _set__bgImage(HMUI::ImageView* value);
-    // Get instance field: private HMUI.ImageView _highlightImage
-    HMUI::ImageView* _get__highlightImage();
-    // Set instance field: private HMUI.ImageView _highlightImage
-    void _set__highlightImage(HMUI::ImageView* value);
+    // Get instance field reference: private UnityEngine.Color _selectedHighlightColor
+    UnityEngine::Color& dyn__selectedHighlightColor();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _text
+    TMPro::TextMeshProUGUI*& dyn__text();
+    // Get instance field reference: private HMUI.ImageView _bgImage
+    HMUI::ImageView*& dyn__bgImage();
+    // Get instance field reference: private HMUI.ImageView _highlightImage
+    HMUI::ImageView*& dyn__highlightImage();
     // public System.String get_text()
     // Offset: 0x10955DC
     ::Il2CppString* get_text();

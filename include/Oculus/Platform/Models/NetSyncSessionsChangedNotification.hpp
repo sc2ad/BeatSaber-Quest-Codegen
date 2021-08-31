@@ -41,14 +41,10 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(Oculus::Platform::Models::NetSyncSessionList*) == 0x8);
     // Creating value type constructor for type: NetSyncSessionsChangedNotification
     NetSyncSessionsChangedNotification(int64_t ConnectionId_ = {}, Oculus::Platform::Models::NetSyncSessionList* Sessions_ = {}) noexcept : ConnectionId{ConnectionId_}, Sessions{Sessions_} {}
-    // Get instance field: public readonly System.Int64 ConnectionId
-    int64_t _get_ConnectionId();
-    // Set instance field: public readonly System.Int64 ConnectionId
-    void _set_ConnectionId(int64_t value);
-    // Get instance field: public readonly Oculus.Platform.Models.NetSyncSessionList Sessions
-    Oculus::Platform::Models::NetSyncSessionList* _get_Sessions();
-    // Set instance field: public readonly Oculus.Platform.Models.NetSyncSessionList Sessions
-    void _set_Sessions(Oculus::Platform::Models::NetSyncSessionList* value);
+    // Get instance field reference: public readonly System.Int64 ConnectionId
+    int64_t& dyn_ConnectionId();
+    // Get instance field reference: public readonly Oculus.Platform.Models.NetSyncSessionList Sessions
+    Oculus::Platform::Models::NetSyncSessionList*& dyn_Sessions();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14ED7BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

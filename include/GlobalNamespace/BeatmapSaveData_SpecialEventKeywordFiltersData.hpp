@@ -40,10 +40,8 @@ namespace GlobalNamespace {
     constexpr operator System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*>*() const noexcept {
       return keywords;
     }
-    // Get instance field: private System.Collections.Generic.List`1<BeatmapSaveData/SpecialEventsForKeyword> _keywords
-    System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*>* _get__keywords();
-    // Set instance field: private System.Collections.Generic.List`1<BeatmapSaveData/SpecialEventsForKeyword> _keywords
-    void _set__keywords(System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*>* value);
+    // Get instance field reference: private System.Collections.Generic.List`1<BeatmapSaveData/SpecialEventsForKeyword> _keywords
+    System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*>*& dyn__keywords();
     // public System.Collections.Generic.List`1<BeatmapSaveData/SpecialEventsForKeyword> get_keywords()
     // Offset: 0x10CF23C
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*>* get_keywords();

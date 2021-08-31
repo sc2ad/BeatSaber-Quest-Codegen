@@ -46,10 +46,8 @@ namespace UnityEngine {
     static UnityEngine::Camera::StereoscopicEye _get_Right();
     // Set static field: static public UnityEngine.Camera/UnityEngine.StereoscopicEye Right
     static void _set_Right(UnityEngine::Camera::StereoscopicEye value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.Camera/UnityEngine.StereoscopicEye
   #pragma pack(pop)
   static check_size<sizeof(Camera::StereoscopicEye), 0 + sizeof(int)> __UnityEngine_Camera_StereoscopicEyeSizeCheck;

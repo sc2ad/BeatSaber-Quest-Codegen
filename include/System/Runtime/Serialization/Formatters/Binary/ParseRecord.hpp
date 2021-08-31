@@ -309,166 +309,86 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static int _get_parseRecordIdCount();
     // Set static field: static System.Int32 parseRecordIdCount
     static void _set_parseRecordIdCount(int value);
-    // Get instance field: System.Runtime.Serialization.Formatters.Binary.InternalParseTypeE PRparseTypeEnum
-    System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE _get_PRparseTypeEnum();
-    // Set instance field: System.Runtime.Serialization.Formatters.Binary.InternalParseTypeE PRparseTypeEnum
-    void _set_PRparseTypeEnum(System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE value);
-    // Get instance field: System.Runtime.Serialization.Formatters.Binary.InternalObjectTypeE PRobjectTypeEnum
-    System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE _get_PRobjectTypeEnum();
-    // Set instance field: System.Runtime.Serialization.Formatters.Binary.InternalObjectTypeE PRobjectTypeEnum
-    void _set_PRobjectTypeEnum(System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE value);
-    // Get instance field: System.Runtime.Serialization.Formatters.Binary.InternalArrayTypeE PRarrayTypeEnum
-    System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE _get_PRarrayTypeEnum();
-    // Set instance field: System.Runtime.Serialization.Formatters.Binary.InternalArrayTypeE PRarrayTypeEnum
-    void _set_PRarrayTypeEnum(System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE value);
-    // Get instance field: System.Runtime.Serialization.Formatters.Binary.InternalMemberTypeE PRmemberTypeEnum
-    System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE _get_PRmemberTypeEnum();
-    // Set instance field: System.Runtime.Serialization.Formatters.Binary.InternalMemberTypeE PRmemberTypeEnum
-    void _set_PRmemberTypeEnum(System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE value);
-    // Get instance field: System.Runtime.Serialization.Formatters.Binary.InternalMemberValueE PRmemberValueEnum
-    System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE _get_PRmemberValueEnum();
-    // Set instance field: System.Runtime.Serialization.Formatters.Binary.InternalMemberValueE PRmemberValueEnum
-    void _set_PRmemberValueEnum(System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE value);
-    // Get instance field: System.Runtime.Serialization.Formatters.Binary.InternalObjectPositionE PRobjectPositionEnum
-    System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE _get_PRobjectPositionEnum();
-    // Set instance field: System.Runtime.Serialization.Formatters.Binary.InternalObjectPositionE PRobjectPositionEnum
-    void _set_PRobjectPositionEnum(System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE value);
-    // Get instance field: System.String PRname
-    ::Il2CppString* _get_PRname();
-    // Set instance field: System.String PRname
-    void _set_PRname(::Il2CppString* value);
-    // Get instance field: System.String PRvalue
-    ::Il2CppString* _get_PRvalue();
-    // Set instance field: System.String PRvalue
-    void _set_PRvalue(::Il2CppString* value);
-    // Get instance field: System.Object PRvarValue
-    ::Il2CppObject* _get_PRvarValue();
-    // Set instance field: System.Object PRvarValue
-    void _set_PRvarValue(::Il2CppObject* value);
-    // Get instance field: System.String PRkeyDt
-    ::Il2CppString* _get_PRkeyDt();
-    // Set instance field: System.String PRkeyDt
-    void _set_PRkeyDt(::Il2CppString* value);
-    // Get instance field: System.Type PRdtType
-    System::Type* _get_PRdtType();
-    // Set instance field: System.Type PRdtType
-    void _set_PRdtType(System::Type* value);
-    // Get instance field: System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE PRdtTypeCode
-    System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE _get_PRdtTypeCode();
-    // Set instance field: System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE PRdtTypeCode
-    void _set_PRdtTypeCode(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE value);
-    // Get instance field: System.Boolean PRisEnum
-    bool _get_PRisEnum();
-    // Set instance field: System.Boolean PRisEnum
-    void _set_PRisEnum(bool value);
-    // Get instance field: System.Int64 PRobjectId
-    int64_t _get_PRobjectId();
-    // Set instance field: System.Int64 PRobjectId
-    void _set_PRobjectId(int64_t value);
-    // Get instance field: System.Int64 PRidRef
-    int64_t _get_PRidRef();
-    // Set instance field: System.Int64 PRidRef
-    void _set_PRidRef(int64_t value);
-    // Get instance field: System.String PRarrayElementTypeString
-    ::Il2CppString* _get_PRarrayElementTypeString();
-    // Set instance field: System.String PRarrayElementTypeString
-    void _set_PRarrayElementTypeString(::Il2CppString* value);
-    // Get instance field: System.Type PRarrayElementType
-    System::Type* _get_PRarrayElementType();
-    // Set instance field: System.Type PRarrayElementType
-    void _set_PRarrayElementType(System::Type* value);
-    // Get instance field: System.Boolean PRisArrayVariant
-    bool _get_PRisArrayVariant();
-    // Set instance field: System.Boolean PRisArrayVariant
-    void _set_PRisArrayVariant(bool value);
-    // Get instance field: System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE PRarrayElementTypeCode
-    System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE _get_PRarrayElementTypeCode();
-    // Set instance field: System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE PRarrayElementTypeCode
-    void _set_PRarrayElementTypeCode(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE value);
-    // Get instance field: System.Int32 PRrank
-    int _get_PRrank();
-    // Set instance field: System.Int32 PRrank
-    void _set_PRrank(int value);
-    // Get instance field: System.Int32[] PRlengthA
-    ::Array<int>* _get_PRlengthA();
-    // Set instance field: System.Int32[] PRlengthA
-    void _set_PRlengthA(::Array<int>* value);
-    // Get instance field: System.Int32[] PRpositionA
-    ::Array<int>* _get_PRpositionA();
-    // Set instance field: System.Int32[] PRpositionA
-    void _set_PRpositionA(::Array<int>* value);
-    // Get instance field: System.Int32[] PRlowerBoundA
-    ::Array<int>* _get_PRlowerBoundA();
-    // Set instance field: System.Int32[] PRlowerBoundA
-    void _set_PRlowerBoundA(::Array<int>* value);
-    // Get instance field: System.Int32[] PRupperBoundA
-    ::Array<int>* _get_PRupperBoundA();
-    // Set instance field: System.Int32[] PRupperBoundA
-    void _set_PRupperBoundA(::Array<int>* value);
-    // Get instance field: System.Int32[] PRindexMap
-    ::Array<int>* _get_PRindexMap();
-    // Set instance field: System.Int32[] PRindexMap
-    void _set_PRindexMap(::Array<int>* value);
-    // Get instance field: System.Int32 PRmemberIndex
-    int _get_PRmemberIndex();
-    // Set instance field: System.Int32 PRmemberIndex
-    void _set_PRmemberIndex(int value);
-    // Get instance field: System.Int32 PRlinearlength
-    int _get_PRlinearlength();
-    // Set instance field: System.Int32 PRlinearlength
-    void _set_PRlinearlength(int value);
-    // Get instance field: System.Int32[] PRrectangularMap
-    ::Array<int>* _get_PRrectangularMap();
-    // Set instance field: System.Int32[] PRrectangularMap
-    void _set_PRrectangularMap(::Array<int>* value);
-    // Get instance field: System.Boolean PRisLowerBound
-    bool _get_PRisLowerBound();
-    // Set instance field: System.Boolean PRisLowerBound
-    void _set_PRisLowerBound(bool value);
-    // Get instance field: System.Int64 PRtopId
-    int64_t _get_PRtopId();
-    // Set instance field: System.Int64 PRtopId
-    void _set_PRtopId(int64_t value);
-    // Get instance field: System.Int64 PRheaderId
-    int64_t _get_PRheaderId();
-    // Set instance field: System.Int64 PRheaderId
-    void _set_PRheaderId(int64_t value);
-    // Get instance field: System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo PRobjectInfo
-    System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* _get_PRobjectInfo();
-    // Set instance field: System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo PRobjectInfo
-    void _set_PRobjectInfo(System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* value);
-    // Get instance field: System.Boolean PRisValueTypeFixup
-    bool _get_PRisValueTypeFixup();
-    // Set instance field: System.Boolean PRisValueTypeFixup
-    void _set_PRisValueTypeFixup(bool value);
-    // Get instance field: System.Object PRnewObj
-    ::Il2CppObject* _get_PRnewObj();
-    // Set instance field: System.Object PRnewObj
-    void _set_PRnewObj(::Il2CppObject* value);
-    // Get instance field: System.Object[] PRobjectA
-    ::Array<::Il2CppObject*>* _get_PRobjectA();
-    // Set instance field: System.Object[] PRobjectA
-    void _set_PRobjectA(::Array<::Il2CppObject*>* value);
-    // Get instance field: System.Runtime.Serialization.Formatters.Binary.PrimitiveArray PRprimitiveArray
-    System::Runtime::Serialization::Formatters::Binary::PrimitiveArray* _get_PRprimitiveArray();
-    // Set instance field: System.Runtime.Serialization.Formatters.Binary.PrimitiveArray PRprimitiveArray
-    void _set_PRprimitiveArray(System::Runtime::Serialization::Formatters::Binary::PrimitiveArray* value);
-    // Get instance field: System.Boolean PRisRegistered
-    bool _get_PRisRegistered();
-    // Set instance field: System.Boolean PRisRegistered
-    void _set_PRisRegistered(bool value);
-    // Get instance field: System.Object[] PRmemberData
-    ::Array<::Il2CppObject*>* _get_PRmemberData();
-    // Set instance field: System.Object[] PRmemberData
-    void _set_PRmemberData(::Array<::Il2CppObject*>* value);
-    // Get instance field: System.Runtime.Serialization.SerializationInfo PRsi
-    System::Runtime::Serialization::SerializationInfo* _get_PRsi();
-    // Set instance field: System.Runtime.Serialization.SerializationInfo PRsi
-    void _set_PRsi(System::Runtime::Serialization::SerializationInfo* value);
-    // Get instance field: System.Int32 PRnullCount
-    int _get_PRnullCount();
-    // Set instance field: System.Int32 PRnullCount
-    void _set_PRnullCount(int value);
+    // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalParseTypeE PRparseTypeEnum
+    System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE& dyn_PRparseTypeEnum();
+    // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalObjectTypeE PRobjectTypeEnum
+    System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE& dyn_PRobjectTypeEnum();
+    // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalArrayTypeE PRarrayTypeEnum
+    System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE& dyn_PRarrayTypeEnum();
+    // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalMemberTypeE PRmemberTypeEnum
+    System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE& dyn_PRmemberTypeEnum();
+    // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalMemberValueE PRmemberValueEnum
+    System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE& dyn_PRmemberValueEnum();
+    // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalObjectPositionE PRobjectPositionEnum
+    System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE& dyn_PRobjectPositionEnum();
+    // Get instance field reference: System.String PRname
+    ::Il2CppString*& dyn_PRname();
+    // Get instance field reference: System.String PRvalue
+    ::Il2CppString*& dyn_PRvalue();
+    // Get instance field reference: System.Object PRvarValue
+    ::Il2CppObject*& dyn_PRvarValue();
+    // Get instance field reference: System.String PRkeyDt
+    ::Il2CppString*& dyn_PRkeyDt();
+    // Get instance field reference: System.Type PRdtType
+    System::Type*& dyn_PRdtType();
+    // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE PRdtTypeCode
+    System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& dyn_PRdtTypeCode();
+    // Get instance field reference: System.Boolean PRisEnum
+    bool& dyn_PRisEnum();
+    // Get instance field reference: System.Int64 PRobjectId
+    int64_t& dyn_PRobjectId();
+    // Get instance field reference: System.Int64 PRidRef
+    int64_t& dyn_PRidRef();
+    // Get instance field reference: System.String PRarrayElementTypeString
+    ::Il2CppString*& dyn_PRarrayElementTypeString();
+    // Get instance field reference: System.Type PRarrayElementType
+    System::Type*& dyn_PRarrayElementType();
+    // Get instance field reference: System.Boolean PRisArrayVariant
+    bool& dyn_PRisArrayVariant();
+    // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE PRarrayElementTypeCode
+    System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& dyn_PRarrayElementTypeCode();
+    // Get instance field reference: System.Int32 PRrank
+    int& dyn_PRrank();
+    // Get instance field reference: System.Int32[] PRlengthA
+    ::Array<int>*& dyn_PRlengthA();
+    // Get instance field reference: System.Int32[] PRpositionA
+    ::Array<int>*& dyn_PRpositionA();
+    // Get instance field reference: System.Int32[] PRlowerBoundA
+    ::Array<int>*& dyn_PRlowerBoundA();
+    // Get instance field reference: System.Int32[] PRupperBoundA
+    ::Array<int>*& dyn_PRupperBoundA();
+    // Get instance field reference: System.Int32[] PRindexMap
+    ::Array<int>*& dyn_PRindexMap();
+    // Get instance field reference: System.Int32 PRmemberIndex
+    int& dyn_PRmemberIndex();
+    // Get instance field reference: System.Int32 PRlinearlength
+    int& dyn_PRlinearlength();
+    // Get instance field reference: System.Int32[] PRrectangularMap
+    ::Array<int>*& dyn_PRrectangularMap();
+    // Get instance field reference: System.Boolean PRisLowerBound
+    bool& dyn_PRisLowerBound();
+    // Get instance field reference: System.Int64 PRtopId
+    int64_t& dyn_PRtopId();
+    // Get instance field reference: System.Int64 PRheaderId
+    int64_t& dyn_PRheaderId();
+    // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo PRobjectInfo
+    System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*& dyn_PRobjectInfo();
+    // Get instance field reference: System.Boolean PRisValueTypeFixup
+    bool& dyn_PRisValueTypeFixup();
+    // Get instance field reference: System.Object PRnewObj
+    ::Il2CppObject*& dyn_PRnewObj();
+    // Get instance field reference: System.Object[] PRobjectA
+    ::Array<::Il2CppObject*>*& dyn_PRobjectA();
+    // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.PrimitiveArray PRprimitiveArray
+    System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*& dyn_PRprimitiveArray();
+    // Get instance field reference: System.Boolean PRisRegistered
+    bool& dyn_PRisRegistered();
+    // Get instance field reference: System.Object[] PRmemberData
+    ::Array<::Il2CppObject*>*& dyn_PRmemberData();
+    // Get instance field reference: System.Runtime.Serialization.SerializationInfo PRsi
+    System::Runtime::Serialization::SerializationInfo*& dyn_PRsi();
+    // Get instance field reference: System.Int32 PRnullCount
+    int& dyn_PRnullCount();
     // static private System.Void .cctor()
     // Offset: 0x1620180
     static void _cctor();

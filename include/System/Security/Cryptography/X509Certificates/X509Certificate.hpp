@@ -82,22 +82,14 @@ namespace System::Security::Cryptography::X509Certificates {
     operator System::Runtime::Serialization::IDeserializationCallback() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::IDeserializationCallback*>(this);
     }
-    // Get instance field: private System.Security.Cryptography.X509Certificates.X509CertificateImpl impl
-    System::Security::Cryptography::X509Certificates::X509CertificateImpl* _get_impl();
-    // Set instance field: private System.Security.Cryptography.X509Certificates.X509CertificateImpl impl
-    void _set_impl(System::Security::Cryptography::X509Certificates::X509CertificateImpl* value);
-    // Get instance field: private System.Boolean hideDates
-    bool _get_hideDates();
-    // Set instance field: private System.Boolean hideDates
-    void _set_hideDates(bool value);
-    // Get instance field: private System.String issuer_name
-    ::Il2CppString* _get_issuer_name();
-    // Set instance field: private System.String issuer_name
-    void _set_issuer_name(::Il2CppString* value);
-    // Get instance field: private System.String subject_name
-    ::Il2CppString* _get_subject_name();
-    // Set instance field: private System.String subject_name
-    void _set_subject_name(::Il2CppString* value);
+    // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509CertificateImpl impl
+    System::Security::Cryptography::X509Certificates::X509CertificateImpl*& dyn_impl();
+    // Get instance field reference: private System.Boolean hideDates
+    bool& dyn_hideDates();
+    // Get instance field reference: private System.String issuer_name
+    ::Il2CppString*& dyn_issuer_name();
+    // Get instance field reference: private System.String subject_name
+    ::Il2CppString*& dyn_subject_name();
     // System.Security.Cryptography.X509Certificates.X509CertificateImpl get_Impl()
     // Offset: 0x1B48778
     System::Security::Cryptography::X509Certificates::X509CertificateImpl* get_Impl();

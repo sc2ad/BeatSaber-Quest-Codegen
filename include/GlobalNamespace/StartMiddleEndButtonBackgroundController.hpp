@@ -60,22 +60,14 @@ namespace GlobalNamespace {
     StartMiddleEndButtonBackgroundController(UnityEngine::Sprite* startSprite_ = {}, UnityEngine::Sprite* middleSprite_ = {}, UnityEngine::Sprite* endSprite_ = {}, HMUI::ImageView* image_ = {}) noexcept : startSprite{startSprite_}, middleSprite{middleSprite_}, endSprite{endSprite_}, image{image_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.Sprite _startSprite
-    UnityEngine::Sprite* _get__startSprite();
-    // Set instance field: private UnityEngine.Sprite _startSprite
-    void _set__startSprite(UnityEngine::Sprite* value);
-    // Get instance field: private UnityEngine.Sprite _middleSprite
-    UnityEngine::Sprite* _get__middleSprite();
-    // Set instance field: private UnityEngine.Sprite _middleSprite
-    void _set__middleSprite(UnityEngine::Sprite* value);
-    // Get instance field: private UnityEngine.Sprite _endSprite
-    UnityEngine::Sprite* _get__endSprite();
-    // Set instance field: private UnityEngine.Sprite _endSprite
-    void _set__endSprite(UnityEngine::Sprite* value);
-    // Get instance field: private HMUI.ImageView _image
-    HMUI::ImageView* _get__image();
-    // Set instance field: private HMUI.ImageView _image
-    void _set__image(HMUI::ImageView* value);
+    // Get instance field reference: private UnityEngine.Sprite _startSprite
+    UnityEngine::Sprite*& dyn__startSprite();
+    // Get instance field reference: private UnityEngine.Sprite _middleSprite
+    UnityEngine::Sprite*& dyn__middleSprite();
+    // Get instance field reference: private UnityEngine.Sprite _endSprite
+    UnityEngine::Sprite*& dyn__endSprite();
+    // Get instance field reference: private HMUI.ImageView _image
+    HMUI::ImageView*& dyn__image();
     // public System.Void SetStartSprite()
     // Offset: 0x108D0A8
     void SetStartSprite();

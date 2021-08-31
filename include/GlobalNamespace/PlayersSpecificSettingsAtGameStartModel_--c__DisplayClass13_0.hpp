@@ -40,10 +40,8 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::IConnectedPlayer*() const noexcept {
       return player;
     }
-    // Get instance field: public IConnectedPlayer player
-    GlobalNamespace::IConnectedPlayer* _get_player();
-    // Set instance field: public IConnectedPlayer player
-    void _set_player(GlobalNamespace::IConnectedPlayer* value);
+    // Get instance field reference: public IConnectedPlayer player
+    GlobalNamespace::IConnectedPlayer*& dyn_player();
     // System.Boolean <SaveFromNetSerializable>b__0(IConnectedPlayer p)
     // Offset: 0x16F4F74
     bool $SaveFromNetSerializable$b__0(GlobalNamespace::IConnectedPlayer* p);

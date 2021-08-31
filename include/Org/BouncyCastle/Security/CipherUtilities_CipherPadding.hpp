@@ -226,10 +226,8 @@ namespace Org::BouncyCastle::Security {
     static Org::BouncyCastle::Security::CipherUtilities::CipherPadding _get_ZEROBYTEPADDING();
     // Set static field: static public Org.BouncyCastle.Security.CipherUtilities/Org.BouncyCastle.Security.CipherPadding ZEROBYTEPADDING
     static void _set_ZEROBYTEPADDING(Org::BouncyCastle::Security::CipherUtilities::CipherPadding value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Org.BouncyCastle.Security.CipherUtilities/Org.BouncyCastle.Security.CipherPadding
   #pragma pack(pop)
   static check_size<sizeof(CipherUtilities::CipherPadding), 0 + sizeof(int)> __Org_BouncyCastle_Security_CipherUtilities_CipherPaddingSizeCheck;

@@ -128,54 +128,30 @@ namespace System::Security::Cryptography {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: CryptoStream
     CryptoStream(System::IO::Stream* stream_ = {}, System::Security::Cryptography::ICryptoTransform* Transform_ = {}, ::Array<uint8_t>* InputBuffer_ = {}, int InputBufferIndex_ = {}, int InputBlockSize_ = {}, ::Array<uint8_t>* OutputBuffer_ = {}, int OutputBufferIndex_ = {}, int OutputBlockSize_ = {}, System::Security::Cryptography::CryptoStreamMode transformMode_ = {}, bool canRead_ = {}, bool canWrite_ = {}, bool finalBlockTransformed_ = {}) noexcept : stream{stream_}, Transform{Transform_}, InputBuffer{InputBuffer_}, InputBufferIndex{InputBufferIndex_}, InputBlockSize{InputBlockSize_}, OutputBuffer{OutputBuffer_}, OutputBufferIndex{OutputBufferIndex_}, OutputBlockSize{OutputBlockSize_}, transformMode{transformMode_}, canRead{canRead_}, canWrite{canWrite_}, finalBlockTransformed{finalBlockTransformed_} {}
-    // Get instance field: private System.IO.Stream _stream
-    System::IO::Stream* _get__stream();
-    // Set instance field: private System.IO.Stream _stream
-    void _set__stream(System::IO::Stream* value);
-    // Get instance field: private System.Security.Cryptography.ICryptoTransform _Transform
-    System::Security::Cryptography::ICryptoTransform* _get__Transform();
-    // Set instance field: private System.Security.Cryptography.ICryptoTransform _Transform
-    void _set__Transform(System::Security::Cryptography::ICryptoTransform* value);
-    // Get instance field: private System.Byte[] _InputBuffer
-    ::Array<uint8_t>* _get__InputBuffer();
-    // Set instance field: private System.Byte[] _InputBuffer
-    void _set__InputBuffer(::Array<uint8_t>* value);
-    // Get instance field: private System.Int32 _InputBufferIndex
-    int _get__InputBufferIndex();
-    // Set instance field: private System.Int32 _InputBufferIndex
-    void _set__InputBufferIndex(int value);
-    // Get instance field: private System.Int32 _InputBlockSize
-    int _get__InputBlockSize();
-    // Set instance field: private System.Int32 _InputBlockSize
-    void _set__InputBlockSize(int value);
-    // Get instance field: private System.Byte[] _OutputBuffer
-    ::Array<uint8_t>* _get__OutputBuffer();
-    // Set instance field: private System.Byte[] _OutputBuffer
-    void _set__OutputBuffer(::Array<uint8_t>* value);
-    // Get instance field: private System.Int32 _OutputBufferIndex
-    int _get__OutputBufferIndex();
-    // Set instance field: private System.Int32 _OutputBufferIndex
-    void _set__OutputBufferIndex(int value);
-    // Get instance field: private System.Int32 _OutputBlockSize
-    int _get__OutputBlockSize();
-    // Set instance field: private System.Int32 _OutputBlockSize
-    void _set__OutputBlockSize(int value);
-    // Get instance field: private System.Security.Cryptography.CryptoStreamMode _transformMode
-    System::Security::Cryptography::CryptoStreamMode _get__transformMode();
-    // Set instance field: private System.Security.Cryptography.CryptoStreamMode _transformMode
-    void _set__transformMode(System::Security::Cryptography::CryptoStreamMode value);
-    // Get instance field: private System.Boolean _canRead
-    bool _get__canRead();
-    // Set instance field: private System.Boolean _canRead
-    void _set__canRead(bool value);
-    // Get instance field: private System.Boolean _canWrite
-    bool _get__canWrite();
-    // Set instance field: private System.Boolean _canWrite
-    void _set__canWrite(bool value);
-    // Get instance field: private System.Boolean _finalBlockTransformed
-    bool _get__finalBlockTransformed();
-    // Set instance field: private System.Boolean _finalBlockTransformed
-    void _set__finalBlockTransformed(bool value);
+    // Get instance field reference: private System.IO.Stream _stream
+    System::IO::Stream*& dyn__stream();
+    // Get instance field reference: private System.Security.Cryptography.ICryptoTransform _Transform
+    System::Security::Cryptography::ICryptoTransform*& dyn__Transform();
+    // Get instance field reference: private System.Byte[] _InputBuffer
+    ::Array<uint8_t>*& dyn__InputBuffer();
+    // Get instance field reference: private System.Int32 _InputBufferIndex
+    int& dyn__InputBufferIndex();
+    // Get instance field reference: private System.Int32 _InputBlockSize
+    int& dyn__InputBlockSize();
+    // Get instance field reference: private System.Byte[] _OutputBuffer
+    ::Array<uint8_t>*& dyn__OutputBuffer();
+    // Get instance field reference: private System.Int32 _OutputBufferIndex
+    int& dyn__OutputBufferIndex();
+    // Get instance field reference: private System.Int32 _OutputBlockSize
+    int& dyn__OutputBlockSize();
+    // Get instance field reference: private System.Security.Cryptography.CryptoStreamMode _transformMode
+    System::Security::Cryptography::CryptoStreamMode& dyn__transformMode();
+    // Get instance field reference: private System.Boolean _canRead
+    bool& dyn__canRead();
+    // Get instance field reference: private System.Boolean _canWrite
+    bool& dyn__canWrite();
+    // Get instance field reference: private System.Boolean _finalBlockTransformed
+    bool& dyn__finalBlockTransformed();
     // public System.Boolean get_HasFlushedFinalBlock()
     // Offset: 0x1988A6C
     bool get_HasFlushedFinalBlock();

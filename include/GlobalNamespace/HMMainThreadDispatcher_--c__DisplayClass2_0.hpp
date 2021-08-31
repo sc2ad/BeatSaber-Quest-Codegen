@@ -42,14 +42,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Collections::IEnumerator*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass2_0
     $$c__DisplayClass2_0(GlobalNamespace::HMMainThreadDispatcher* $$4__this_ = {}, System::Collections::IEnumerator* action_ = {}) noexcept : $$4__this{$$4__this_}, action{action_} {}
-    // Get instance field: public HMMainThreadDispatcher <>4__this
-    GlobalNamespace::HMMainThreadDispatcher* _get_$$4__this();
-    // Set instance field: public HMMainThreadDispatcher <>4__this
-    void _set_$$4__this(GlobalNamespace::HMMainThreadDispatcher* value);
-    // Get instance field: public System.Collections.IEnumerator action
-    System::Collections::IEnumerator* _get_action();
-    // Set instance field: public System.Collections.IEnumerator action
-    void _set_action(System::Collections::IEnumerator* value);
+    // Get instance field reference: public HMMainThreadDispatcher <>4__this
+    GlobalNamespace::HMMainThreadDispatcher*& dyn_$$4__this();
+    // Get instance field reference: public System.Collections.IEnumerator action
+    System::Collections::IEnumerator*& dyn_action();
     // System.Void <Enqueue>b__0()
     // Offset: 0x1264658
     void $Enqueue$b__0();

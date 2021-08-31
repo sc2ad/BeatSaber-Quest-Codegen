@@ -70,22 +70,14 @@ namespace UnityEngine {
     operator System::IComparable() noexcept {
       return *reinterpret_cast<System::IComparable*>(this);
     }
-    // Get instance field: private System.UInt32 m_u32_0
-    uint _get_m_u32_0();
-    // Set instance field: private System.UInt32 m_u32_0
-    void _set_m_u32_0(uint value);
-    // Get instance field: private System.UInt32 m_u32_1
-    uint _get_m_u32_1();
-    // Set instance field: private System.UInt32 m_u32_1
-    void _set_m_u32_1(uint value);
-    // Get instance field: private System.UInt32 m_u32_2
-    uint _get_m_u32_2();
-    // Set instance field: private System.UInt32 m_u32_2
-    void _set_m_u32_2(uint value);
-    // Get instance field: private System.UInt32 m_u32_3
-    uint _get_m_u32_3();
-    // Set instance field: private System.UInt32 m_u32_3
-    void _set_m_u32_3(uint value);
+    // Get instance field reference: private System.UInt32 m_u32_0
+    uint& dyn_m_u32_0();
+    // Get instance field reference: private System.UInt32 m_u32_1
+    uint& dyn_m_u32_1();
+    // Get instance field reference: private System.UInt32 m_u32_2
+    uint& dyn_m_u32_2();
+    // Get instance field reference: private System.UInt32 m_u32_3
+    uint& dyn_m_u32_3();
     // public System.Boolean get_isValid()
     // Offset: 0x1C2EBFC
     bool get_isValid();

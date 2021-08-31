@@ -69,22 +69,14 @@ namespace System::Net::Sockets {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: TcpListener
     TcpListener(System::Net::IPEndPoint* m_ServerSocketEP_ = {}, System::Net::Sockets::Socket* m_ServerSocket_ = {}, bool m_Active_ = {}, bool m_ExclusiveAddressUse_ = {}) noexcept : m_ServerSocketEP{m_ServerSocketEP_}, m_ServerSocket{m_ServerSocket_}, m_Active{m_Active_}, m_ExclusiveAddressUse{m_ExclusiveAddressUse_} {}
-    // Get instance field: private System.Net.IPEndPoint m_ServerSocketEP
-    System::Net::IPEndPoint* _get_m_ServerSocketEP();
-    // Set instance field: private System.Net.IPEndPoint m_ServerSocketEP
-    void _set_m_ServerSocketEP(System::Net::IPEndPoint* value);
-    // Get instance field: private System.Net.Sockets.Socket m_ServerSocket
-    System::Net::Sockets::Socket* _get_m_ServerSocket();
-    // Set instance field: private System.Net.Sockets.Socket m_ServerSocket
-    void _set_m_ServerSocket(System::Net::Sockets::Socket* value);
-    // Get instance field: private System.Boolean m_Active
-    bool _get_m_Active();
-    // Set instance field: private System.Boolean m_Active
-    void _set_m_Active(bool value);
-    // Get instance field: private System.Boolean m_ExclusiveAddressUse
-    bool _get_m_ExclusiveAddressUse();
-    // Set instance field: private System.Boolean m_ExclusiveAddressUse
-    void _set_m_ExclusiveAddressUse(bool value);
+    // Get instance field reference: private System.Net.IPEndPoint m_ServerSocketEP
+    System::Net::IPEndPoint*& dyn_m_ServerSocketEP();
+    // Get instance field reference: private System.Net.Sockets.Socket m_ServerSocket
+    System::Net::Sockets::Socket*& dyn_m_ServerSocket();
+    // Get instance field reference: private System.Boolean m_Active
+    bool& dyn_m_Active();
+    // Get instance field reference: private System.Boolean m_ExclusiveAddressUse
+    bool& dyn_m_ExclusiveAddressUse();
     // public System.Net.EndPoint get_LocalEndpoint()
     // Offset: 0x15C8ACC
     System::Net::EndPoint* get_LocalEndpoint();

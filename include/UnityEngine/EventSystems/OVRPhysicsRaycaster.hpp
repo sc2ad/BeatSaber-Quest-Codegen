@@ -67,14 +67,10 @@ namespace UnityEngine::EventSystems {
     static int _get_kNoEventMaskSet();
     // Set static field: static protected System.Int32 kNoEventMaskSet
     static void _set_kNoEventMaskSet(int value);
-    // Get instance field: protected UnityEngine.LayerMask m_EventMask
-    UnityEngine::LayerMask _get_m_EventMask();
-    // Set instance field: protected UnityEngine.LayerMask m_EventMask
-    void _set_m_EventMask(UnityEngine::LayerMask value);
-    // Get instance field: public System.Int32 sortOrder
-    int _get_sortOrder();
-    // Set instance field: public System.Int32 sortOrder
-    void _set_sortOrder(int value);
+    // Get instance field reference: protected UnityEngine.LayerMask m_EventMask
+    UnityEngine::LayerMask& dyn_m_EventMask();
+    // Get instance field reference: public System.Int32 sortOrder
+    int& dyn_sortOrder();
     // public System.Int32 get_depth()
     // Offset: 0x1F4F6FC
     int get_depth();

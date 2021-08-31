@@ -58,14 +58,10 @@ namespace Zenject {
     operator Zenject::ILateDisposable() noexcept {
       return *reinterpret_cast<Zenject::ILateDisposable*>(this);
     }
-    // Get instance field: private readonly System.Collections.Generic.List`1<Zenject.IMemoryPool> _poolFactories
-    System::Collections::Generic::List_1<Zenject::IMemoryPool*>* _get__poolFactories();
-    // Set instance field: private readonly System.Collections.Generic.List`1<Zenject.IMemoryPool> _poolFactories
-    void _set__poolFactories(System::Collections::Generic::List_1<Zenject::IMemoryPool*>* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<System.Type> _ignoredPools
-    System::Collections::Generic::List_1<System::Type*>* _get__ignoredPools();
-    // Set instance field: private readonly System.Collections.Generic.List`1<System.Type> _ignoredPools
-    void _set__ignoredPools(System::Collections::Generic::List_1<System::Type*>* value);
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.IMemoryPool> _poolFactories
+    System::Collections::Generic::List_1<Zenject::IMemoryPool*>*& dyn__poolFactories();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Type> _ignoredPools
+    System::Collections::Generic::List_1<System::Type*>*& dyn__ignoredPools();
     // public System.Void .ctor(System.Collections.Generic.List`1<Zenject.IMemoryPool> poolFactories, System.Collections.Generic.List`1<System.Type> ignoredPools)
     // Offset: 0x1713E28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

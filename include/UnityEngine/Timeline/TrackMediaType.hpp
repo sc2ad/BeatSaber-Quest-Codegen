@@ -36,10 +36,8 @@ namespace UnityEngine::Timeline {
     constexpr operator UnityEngine::Timeline::TimelineAsset::MediaType() const noexcept {
       return m_MediaType;
     }
-    // Get instance field: public readonly UnityEngine.Timeline.TimelineAsset/UnityEngine.Timeline.MediaType m_MediaType
-    UnityEngine::Timeline::TimelineAsset::MediaType _get_m_MediaType();
-    // Set instance field: public readonly UnityEngine.Timeline.TimelineAsset/UnityEngine.Timeline.MediaType m_MediaType
-    void _set_m_MediaType(UnityEngine::Timeline::TimelineAsset::MediaType value);
+    // Get instance field reference: public readonly UnityEngine.Timeline.TimelineAsset/UnityEngine.Timeline.MediaType m_MediaType
+    UnityEngine::Timeline::TimelineAsset::MediaType& dyn_m_MediaType();
     // public System.Void .ctor(UnityEngine.Timeline.TimelineAsset/UnityEngine.Timeline.MediaType mt)
     // Offset: 0x23767EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

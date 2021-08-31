@@ -50,14 +50,10 @@ namespace GlobalNamespace {
     StandardLevelBuyView(GlobalNamespace::LevelBar* levelBar_ = {}, UnityEngine::UI::Button* buyButton_ = {}) noexcept : levelBar{levelBar_}, buyButton{buyButton_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private LevelBar _levelBar
-    GlobalNamespace::LevelBar* _get__levelBar();
-    // Set instance field: private LevelBar _levelBar
-    void _set__levelBar(GlobalNamespace::LevelBar* value);
-    // Get instance field: private UnityEngine.UI.Button _buyButton
-    UnityEngine::UI::Button* _get__buyButton();
-    // Set instance field: private UnityEngine.UI.Button _buyButton
-    void _set__buyButton(UnityEngine::UI::Button* value);
+    // Get instance field reference: private LevelBar _levelBar
+    GlobalNamespace::LevelBar*& dyn__levelBar();
+    // Get instance field reference: private UnityEngine.UI.Button _buyButton
+    UnityEngine::UI::Button*& dyn__buyButton();
     // public UnityEngine.UI.Button get_buyButton()
     // Offset: 0x1084FBC
     UnityEngine::UI::Button* get_buyButton();

@@ -38,18 +38,12 @@ namespace Il2CppInspector::DLL {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: AttributeAttribute
     AttributeAttribute(::Il2CppString* Name_ = {}, ::Il2CppString* RVA_ = {}, ::Il2CppString* Offset_ = {}) noexcept : Name{Name_}, RVA{RVA_}, Offset{Offset_} {}
-    // Get instance field: public System.String Name
-    ::Il2CppString* _get_Name();
-    // Set instance field: public System.String Name
-    void _set_Name(::Il2CppString* value);
-    // Get instance field: public System.String RVA
-    ::Il2CppString* _get_RVA();
-    // Set instance field: public System.String RVA
-    void _set_RVA(::Il2CppString* value);
-    // Get instance field: public System.String Offset
-    ::Il2CppString* _get_Offset();
-    // Set instance field: public System.String Offset
-    void _set_Offset(::Il2CppString* value);
+    // Get instance field reference: public System.String Name
+    ::Il2CppString*& dyn_Name();
+    // Get instance field reference: public System.String RVA
+    ::Il2CppString*& dyn_RVA();
+    // Get instance field reference: public System.String Offset
+    ::Il2CppString*& dyn_Offset();
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Attribute

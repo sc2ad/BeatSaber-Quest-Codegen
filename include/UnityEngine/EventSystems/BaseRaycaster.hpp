@@ -50,10 +50,8 @@ namespace UnityEngine::EventSystems {
     BaseRaycaster(UnityEngine::EventSystems::BaseRaycaster* m_RootRaycaster_ = {}) noexcept : m_RootRaycaster{m_RootRaycaster_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.EventSystems.BaseRaycaster m_RootRaycaster
-    UnityEngine::EventSystems::BaseRaycaster* _get_m_RootRaycaster();
-    // Set instance field: private UnityEngine.EventSystems.BaseRaycaster m_RootRaycaster
-    void _set_m_RootRaycaster(UnityEngine::EventSystems::BaseRaycaster* value);
+    // Get instance field reference: private UnityEngine.EventSystems.BaseRaycaster m_RootRaycaster
+    UnityEngine::EventSystems::BaseRaycaster*& dyn_m_RootRaycaster();
     // public UnityEngine.Camera get_eventCamera()
     // Offset: 0xFFFFFFFF
     UnityEngine::Camera* get_eventCamera();

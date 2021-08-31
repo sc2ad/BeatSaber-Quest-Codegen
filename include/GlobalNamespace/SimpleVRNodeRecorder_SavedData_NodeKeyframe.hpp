@@ -74,38 +74,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: NodeKeyframe
     NodeKeyframe(float posX_ = {}, float posY_ = {}, float posZ_ = {}, float rotX_ = {}, float rotY_ = {}, float rotZ_ = {}, float rotW_ = {}, float time_ = {}) noexcept : posX{posX_}, posY{posY_}, posZ{posZ_}, rotX{rotX_}, rotY{rotY_}, rotZ{rotZ_}, rotW{rotW_}, time{time_} {}
-    // Get instance field: public System.Single posX
-    float _get_posX();
-    // Set instance field: public System.Single posX
-    void _set_posX(float value);
-    // Get instance field: public System.Single posY
-    float _get_posY();
-    // Set instance field: public System.Single posY
-    void _set_posY(float value);
-    // Get instance field: public System.Single posZ
-    float _get_posZ();
-    // Set instance field: public System.Single posZ
-    void _set_posZ(float value);
-    // Get instance field: public System.Single rotX
-    float _get_rotX();
-    // Set instance field: public System.Single rotX
-    void _set_rotX(float value);
-    // Get instance field: public System.Single rotY
-    float _get_rotY();
-    // Set instance field: public System.Single rotY
-    void _set_rotY(float value);
-    // Get instance field: public System.Single rotZ
-    float _get_rotZ();
-    // Set instance field: public System.Single rotZ
-    void _set_rotZ(float value);
-    // Get instance field: public System.Single rotW
-    float _get_rotW();
-    // Set instance field: public System.Single rotW
-    void _set_rotW(float value);
-    // Get instance field: public System.Single time
-    float _get_time();
-    // Set instance field: public System.Single time
-    void _set_time(float value);
+    // Get instance field reference: public System.Single posX
+    float& dyn_posX();
+    // Get instance field reference: public System.Single posY
+    float& dyn_posY();
+    // Get instance field reference: public System.Single posZ
+    float& dyn_posZ();
+    // Get instance field reference: public System.Single rotX
+    float& dyn_rotX();
+    // Get instance field reference: public System.Single rotY
+    float& dyn_rotY();
+    // Get instance field reference: public System.Single rotZ
+    float& dyn_rotZ();
+    // Get instance field reference: public System.Single rotW
+    float& dyn_rotW();
+    // Get instance field reference: public System.Single time
+    float& dyn_time();
     // public UnityEngine.Vector3 get_pos()
     // Offset: 0x107C994
     UnityEngine::Vector3 get_pos();

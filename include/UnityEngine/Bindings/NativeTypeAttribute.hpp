@@ -47,18 +47,12 @@ namespace UnityEngine::Bindings {
     static_assert(sizeof(UnityEngine::Bindings::CodegenOptions) == 0x4);
     // Creating value type constructor for type: NativeTypeAttribute
     NativeTypeAttribute(::Il2CppString* Header_ = {}, ::Il2CppString* IntermediateScriptingStructName_ = {}, UnityEngine::Bindings::CodegenOptions CodegenOptions_ = {}) noexcept : Header{Header_}, IntermediateScriptingStructName{IntermediateScriptingStructName_}, CodegenOptions{CodegenOptions_} {}
-    // Get instance field: private System.String <Header>k__BackingField
-    ::Il2CppString* _get_$Header$k__BackingField();
-    // Set instance field: private System.String <Header>k__BackingField
-    void _set_$Header$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.String <IntermediateScriptingStructName>k__BackingField
-    ::Il2CppString* _get_$IntermediateScriptingStructName$k__BackingField();
-    // Set instance field: private System.String <IntermediateScriptingStructName>k__BackingField
-    void _set_$IntermediateScriptingStructName$k__BackingField(::Il2CppString* value);
-    // Get instance field: private UnityEngine.Bindings.CodegenOptions <CodegenOptions>k__BackingField
-    UnityEngine::Bindings::CodegenOptions _get_$CodegenOptions$k__BackingField();
-    // Set instance field: private UnityEngine.Bindings.CodegenOptions <CodegenOptions>k__BackingField
-    void _set_$CodegenOptions$k__BackingField(UnityEngine::Bindings::CodegenOptions value);
+    // Get instance field reference: private System.String <Header>k__BackingField
+    ::Il2CppString*& dyn_$Header$k__BackingField();
+    // Get instance field reference: private System.String <IntermediateScriptingStructName>k__BackingField
+    ::Il2CppString*& dyn_$IntermediateScriptingStructName$k__BackingField();
+    // Get instance field reference: private UnityEngine.Bindings.CodegenOptions <CodegenOptions>k__BackingField
+    UnityEngine::Bindings::CodegenOptions& dyn_$CodegenOptions$k__BackingField();
     // public System.Void set_Header(System.String value)
     // Offset: 0x24183B0
     void set_Header(::Il2CppString* value);

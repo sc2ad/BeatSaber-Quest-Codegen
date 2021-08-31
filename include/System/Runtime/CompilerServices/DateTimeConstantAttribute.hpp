@@ -32,10 +32,8 @@ namespace System::Runtime::CompilerServices {
     constexpr operator System::DateTime() const noexcept {
       return date;
     }
-    // Get instance field: private System.DateTime date
-    System::DateTime _get_date();
-    // Set instance field: private System.DateTime date
-    void _set_date(System::DateTime value);
+    // Get instance field reference: private System.DateTime date
+    System::DateTime& dyn_date();
     // public override System.Object get_Value()
     // Offset: 0x1486C9C
     // Implemented from: System.Runtime.CompilerServices.CustomConstantAttribute

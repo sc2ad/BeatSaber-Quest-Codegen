@@ -69,22 +69,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::StandardLevelDetailViewController*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass48_0
     $$c__DisplayClass48_0(System::Action* handleDidPressRefreshButton_ = {}, System::Action_2<GlobalNamespace::StandardLevelDetailView*, GlobalNamespace::IDifficultyBeatmap*>* handleDidChangeDifficultyBeatmap_ = {}, System::Action_2<GlobalNamespace::StandardLevelDetailView*, UnityEngine::UI::Toggle*>* handleDidFavoriteToggleChange_ = {}, GlobalNamespace::StandardLevelDetailViewController* $$4__this_ = {}) noexcept : handleDidPressRefreshButton{handleDidPressRefreshButton_}, handleDidChangeDifficultyBeatmap{handleDidChangeDifficultyBeatmap_}, handleDidFavoriteToggleChange{handleDidFavoriteToggleChange_}, $$4__this{$$4__this_} {}
-    // Get instance field: public System.Action handleDidPressRefreshButton
-    System::Action* _get_handleDidPressRefreshButton();
-    // Set instance field: public System.Action handleDidPressRefreshButton
-    void _set_handleDidPressRefreshButton(System::Action* value);
-    // Get instance field: public System.Action`2<StandardLevelDetailView,IDifficultyBeatmap> handleDidChangeDifficultyBeatmap
-    System::Action_2<GlobalNamespace::StandardLevelDetailView*, GlobalNamespace::IDifficultyBeatmap*>* _get_handleDidChangeDifficultyBeatmap();
-    // Set instance field: public System.Action`2<StandardLevelDetailView,IDifficultyBeatmap> handleDidChangeDifficultyBeatmap
-    void _set_handleDidChangeDifficultyBeatmap(System::Action_2<GlobalNamespace::StandardLevelDetailView*, GlobalNamespace::IDifficultyBeatmap*>* value);
-    // Get instance field: public System.Action`2<StandardLevelDetailView,UnityEngine.UI.Toggle> handleDidFavoriteToggleChange
-    System::Action_2<GlobalNamespace::StandardLevelDetailView*, UnityEngine::UI::Toggle*>* _get_handleDidFavoriteToggleChange();
-    // Set instance field: public System.Action`2<StandardLevelDetailView,UnityEngine.UI.Toggle> handleDidFavoriteToggleChange
-    void _set_handleDidFavoriteToggleChange(System::Action_2<GlobalNamespace::StandardLevelDetailView*, UnityEngine::UI::Toggle*>* value);
-    // Get instance field: public StandardLevelDetailViewController <>4__this
-    GlobalNamespace::StandardLevelDetailViewController* _get_$$4__this();
-    // Set instance field: public StandardLevelDetailViewController <>4__this
-    void _set_$$4__this(GlobalNamespace::StandardLevelDetailViewController* value);
+    // Get instance field reference: public System.Action handleDidPressRefreshButton
+    System::Action*& dyn_handleDidPressRefreshButton();
+    // Get instance field reference: public System.Action`2<StandardLevelDetailView,IDifficultyBeatmap> handleDidChangeDifficultyBeatmap
+    System::Action_2<GlobalNamespace::StandardLevelDetailView*, GlobalNamespace::IDifficultyBeatmap*>*& dyn_handleDidChangeDifficultyBeatmap();
+    // Get instance field reference: public System.Action`2<StandardLevelDetailView,UnityEngine.UI.Toggle> handleDidFavoriteToggleChange
+    System::Action_2<GlobalNamespace::StandardLevelDetailView*, UnityEngine::UI::Toggle*>*& dyn_handleDidFavoriteToggleChange();
+    // Get instance field reference: public StandardLevelDetailViewController <>4__this
+    GlobalNamespace::StandardLevelDetailViewController*& dyn_$$4__this();
     // System.Void <DidActivate>b__2()
     // Offset: 0x1088460
     void $DidActivate$b__2();

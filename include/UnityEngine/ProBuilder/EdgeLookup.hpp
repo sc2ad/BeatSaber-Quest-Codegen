@@ -69,14 +69,10 @@ namespace UnityEngine::ProBuilder {
     operator System::IEquatable_1<UnityEngine::ProBuilder::EdgeLookup>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::ProBuilder::EdgeLookup>*>(this);
     }
-    // Get instance field: private UnityEngine.ProBuilder.Edge m_Local
-    UnityEngine::ProBuilder::Edge _get_m_Local();
-    // Set instance field: private UnityEngine.ProBuilder.Edge m_Local
-    void _set_m_Local(UnityEngine::ProBuilder::Edge value);
-    // Get instance field: private UnityEngine.ProBuilder.Edge m_Common
-    UnityEngine::ProBuilder::Edge _get_m_Common();
-    // Set instance field: private UnityEngine.ProBuilder.Edge m_Common
-    void _set_m_Common(UnityEngine::ProBuilder::Edge value);
+    // Get instance field reference: private UnityEngine.ProBuilder.Edge m_Local
+    UnityEngine::ProBuilder::Edge& dyn_m_Local();
+    // Get instance field reference: private UnityEngine.ProBuilder.Edge m_Common
+    UnityEngine::ProBuilder::Edge& dyn_m_Common();
     // public UnityEngine.ProBuilder.Edge get_local()
     // Offset: 0x1AED568
     UnityEngine::ProBuilder::Edge get_local();

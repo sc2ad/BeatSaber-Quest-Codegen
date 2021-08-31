@@ -93,46 +93,26 @@ namespace System::Text {
     static_assert(sizeof(System::Text::EncoderFallbackBuffer*) == 0x8);
     // Creating value type constructor for type: EncodingByteBuffer
     EncodingByteBuffer(uint8_t* bytes_ = {}, uint8_t* byteStart_ = {}, uint8_t* byteEnd_ = {}, ::Il2CppChar* chars_ = {}, ::Il2CppChar* charStart_ = {}, ::Il2CppChar* charEnd_ = {}, int byteCountResult_ = {}, System::Text::Encoding* enc_ = {}, System::Text::EncoderNLS* encoder_ = {}, System::Text::EncoderFallbackBuffer* fallbackBuffer_ = {}) noexcept : bytes{bytes_}, byteStart{byteStart_}, byteEnd{byteEnd_}, chars{chars_}, charStart{charStart_}, charEnd{charEnd_}, byteCountResult{byteCountResult_}, enc{enc_}, encoder{encoder_}, fallbackBuffer{fallbackBuffer_} {}
-    // Get instance field: private System.Byte* bytes
-    uint8_t* _get_bytes();
-    // Set instance field: private System.Byte* bytes
-    void _set_bytes(uint8_t* value);
-    // Get instance field: private System.Byte* byteStart
-    uint8_t* _get_byteStart();
-    // Set instance field: private System.Byte* byteStart
-    void _set_byteStart(uint8_t* value);
-    // Get instance field: private System.Byte* byteEnd
-    uint8_t* _get_byteEnd();
-    // Set instance field: private System.Byte* byteEnd
-    void _set_byteEnd(uint8_t* value);
-    // Get instance field: private System.Char* chars
-    ::Il2CppChar* _get_chars();
-    // Set instance field: private System.Char* chars
-    void _set_chars(::Il2CppChar* value);
-    // Get instance field: private System.Char* charStart
-    ::Il2CppChar* _get_charStart();
-    // Set instance field: private System.Char* charStart
-    void _set_charStart(::Il2CppChar* value);
-    // Get instance field: private System.Char* charEnd
-    ::Il2CppChar* _get_charEnd();
-    // Set instance field: private System.Char* charEnd
-    void _set_charEnd(::Il2CppChar* value);
-    // Get instance field: private System.Int32 byteCountResult
-    int _get_byteCountResult();
-    // Set instance field: private System.Int32 byteCountResult
-    void _set_byteCountResult(int value);
-    // Get instance field: private System.Text.Encoding enc
-    System::Text::Encoding* _get_enc();
-    // Set instance field: private System.Text.Encoding enc
-    void _set_enc(System::Text::Encoding* value);
-    // Get instance field: private System.Text.EncoderNLS encoder
-    System::Text::EncoderNLS* _get_encoder();
-    // Set instance field: private System.Text.EncoderNLS encoder
-    void _set_encoder(System::Text::EncoderNLS* value);
-    // Get instance field: System.Text.EncoderFallbackBuffer fallbackBuffer
-    System::Text::EncoderFallbackBuffer* _get_fallbackBuffer();
-    // Set instance field: System.Text.EncoderFallbackBuffer fallbackBuffer
-    void _set_fallbackBuffer(System::Text::EncoderFallbackBuffer* value);
+    // Get instance field reference: private System.Byte* bytes
+    uint8_t*& dyn_bytes();
+    // Get instance field reference: private System.Byte* byteStart
+    uint8_t*& dyn_byteStart();
+    // Get instance field reference: private System.Byte* byteEnd
+    uint8_t*& dyn_byteEnd();
+    // Get instance field reference: private System.Char* chars
+    ::Il2CppChar*& dyn_chars();
+    // Get instance field reference: private System.Char* charStart
+    ::Il2CppChar*& dyn_charStart();
+    // Get instance field reference: private System.Char* charEnd
+    ::Il2CppChar*& dyn_charEnd();
+    // Get instance field reference: private System.Int32 byteCountResult
+    int& dyn_byteCountResult();
+    // Get instance field reference: private System.Text.Encoding enc
+    System::Text::Encoding*& dyn_enc();
+    // Get instance field reference: private System.Text.EncoderNLS encoder
+    System::Text::EncoderNLS*& dyn_encoder();
+    // Get instance field reference: System.Text.EncoderFallbackBuffer fallbackBuffer
+    System::Text::EncoderFallbackBuffer*& dyn_fallbackBuffer();
     // System.Boolean get_MoreData()
     // Offset: 0x1D71280
     bool get_MoreData();

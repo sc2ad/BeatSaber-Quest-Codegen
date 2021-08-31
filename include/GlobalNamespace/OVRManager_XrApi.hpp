@@ -56,10 +56,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRManager_XrApi _get_OpenXR();
     // Set static field: static public OVRManager/XrApi OpenXR
     static void _set_OpenXR(GlobalNamespace::OVRManager_XrApi value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // OVRManager/XrApi
   #pragma pack(pop)
   static check_size<sizeof(OVRManager_XrApi), 0 + sizeof(int)> __GlobalNamespace_OVRManager_XrApiSizeCheck;

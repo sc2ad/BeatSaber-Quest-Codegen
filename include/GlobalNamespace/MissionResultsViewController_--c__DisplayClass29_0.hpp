@@ -60,22 +60,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<GlobalNamespace::MissionObjectiveResult*>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass29_0
     $$c__DisplayClass29_0(bool levelCleared_ = {}, GlobalNamespace::MissionResultsViewController* $$4__this_ = {}, ::Array<GlobalNamespace::MissionObjective*>* missionObjectives_ = {}, ::Array<GlobalNamespace::MissionObjectiveResult*>* missionObjectiveResults_ = {}) noexcept : levelCleared{levelCleared_}, $$4__this{$$4__this_}, missionObjectives{missionObjectives_}, missionObjectiveResults{missionObjectiveResults_} {}
-    // Get instance field: public System.Boolean levelCleared
-    bool _get_levelCleared();
-    // Set instance field: public System.Boolean levelCleared
-    void _set_levelCleared(bool value);
-    // Get instance field: public MissionResultsViewController <>4__this
-    GlobalNamespace::MissionResultsViewController* _get_$$4__this();
-    // Set instance field: public MissionResultsViewController <>4__this
-    void _set_$$4__this(GlobalNamespace::MissionResultsViewController* value);
-    // Get instance field: public MissionObjective[] missionObjectives
-    ::Array<GlobalNamespace::MissionObjective*>* _get_missionObjectives();
-    // Set instance field: public MissionObjective[] missionObjectives
-    void _set_missionObjectives(::Array<GlobalNamespace::MissionObjective*>* value);
-    // Get instance field: public MissionObjectiveResult[] missionObjectiveResults
-    ::Array<GlobalNamespace::MissionObjectiveResult*>* _get_missionObjectiveResults();
-    // Set instance field: public MissionObjectiveResult[] missionObjectiveResults
-    void _set_missionObjectiveResults(::Array<GlobalNamespace::MissionObjectiveResult*>* value);
+    // Get instance field reference: public System.Boolean levelCleared
+    bool& dyn_levelCleared();
+    // Get instance field reference: public MissionResultsViewController <>4__this
+    GlobalNamespace::MissionResultsViewController*& dyn_$$4__this();
+    // Get instance field reference: public MissionObjective[] missionObjectives
+    ::Array<GlobalNamespace::MissionObjective*>*& dyn_missionObjectives();
+    // Get instance field reference: public MissionObjectiveResult[] missionObjectiveResults
+    ::Array<GlobalNamespace::MissionObjectiveResult*>*& dyn_missionObjectiveResults();
     // System.Void <SetDataToUI>b__0(System.Int32 idx, ResultObjectiveListItem objectiveListItem)
     // Offset: 0x11D93FC
     void $SetDataToUI$b__0(int idx, GlobalNamespace::ResultObjectiveListItem* objectiveListItem);

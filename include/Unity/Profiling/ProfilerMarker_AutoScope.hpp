@@ -49,10 +49,8 @@ namespace Unity::Profiling {
     constexpr operator System::IntPtr() const noexcept {
       return m_Ptr;
     }
-    // Get instance field: readonly System.IntPtr m_Ptr
-    System::IntPtr _get_m_Ptr();
-    // Set instance field: readonly System.IntPtr m_Ptr
-    void _set_m_Ptr(System::IntPtr value);
+    // Get instance field reference: readonly System.IntPtr m_Ptr
+    System::IntPtr& dyn_m_Ptr();
     // System.Void .ctor(System.IntPtr markerPtr)
     // Offset: 0x1C19934
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

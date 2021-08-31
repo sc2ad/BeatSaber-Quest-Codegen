@@ -35,14 +35,10 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.UInt64 overlayHandle
-    uint64_t _get_overlayHandle();
-    // Set instance field: public System.UInt64 overlayHandle
-    void _set_overlayHandle(uint64_t value);
-    // Get instance field: public System.UInt64 devicePath
-    uint64_t _get_devicePath();
-    // Set instance field: public System.UInt64 devicePath
-    void _set_devicePath(uint64_t value);
+    // Get instance field reference: public System.UInt64 overlayHandle
+    uint64_t& dyn_overlayHandle();
+    // Get instance field reference: public System.UInt64 devicePath
+    uint64_t& dyn_devicePath();
   }; // OVR.OpenVR.VREvent_Overlay_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Overlay_t), 8 + sizeof(uint64_t)> __OVR_OpenVR_VREvent_Overlay_tSizeCheck;

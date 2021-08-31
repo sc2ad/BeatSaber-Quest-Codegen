@@ -356,94 +356,50 @@ namespace Zenject {
     operator Zenject::IInstantiator() noexcept {
       return *reinterpret_cast<Zenject::IInstantiator*>(this);
     }
-    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<System.Type,Zenject.Internal.IDecoratorProvider> _decorators
-    System::Collections::Generic::Dictionary_2<System::Type*, Zenject::Internal::IDecoratorProvider*>* _get__decorators();
-    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<System.Type,Zenject.Internal.IDecoratorProvider> _decorators
-    void _set__decorators(System::Collections::Generic::Dictionary_2<System::Type*, Zenject::Internal::IDecoratorProvider*>* value);
-    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<Zenject.BindingId,System.Collections.Generic.List`1<Zenject.DiContainer/Zenject.ProviderInfo>> _providers
-    System::Collections::Generic::Dictionary_2<Zenject::BindingId, System::Collections::Generic::List_1<Zenject::DiContainer::ProviderInfo*>*>* _get__providers();
-    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<Zenject.BindingId,System.Collections.Generic.List`1<Zenject.DiContainer/Zenject.ProviderInfo>> _providers
-    void _set__providers(System::Collections::Generic::Dictionary_2<Zenject::BindingId, System::Collections::Generic::List_1<Zenject::DiContainer::ProviderInfo*>*>* value);
-    // Get instance field: private readonly Zenject.DiContainer[][] _containerLookups
-    ::Array<::Array<Zenject::DiContainer*>*>* _get__containerLookups();
-    // Set instance field: private readonly Zenject.DiContainer[][] _containerLookups
-    void _set__containerLookups(::Array<::Array<Zenject::DiContainer*>*>* value);
-    // Get instance field: private readonly System.Collections.Generic.HashSet`1<Zenject.Internal.LookupId> _resolvesInProgress
-    System::Collections::Generic::HashSet_1<Zenject::Internal::LookupId*>* _get__resolvesInProgress();
-    // Set instance field: private readonly System.Collections.Generic.HashSet`1<Zenject.Internal.LookupId> _resolvesInProgress
-    void _set__resolvesInProgress(System::Collections::Generic::HashSet_1<Zenject::Internal::LookupId*>* value);
-    // Get instance field: private readonly System.Collections.Generic.HashSet`1<Zenject.Internal.LookupId> _resolvesTwiceInProgress
-    System::Collections::Generic::HashSet_1<Zenject::Internal::LookupId*>* _get__resolvesTwiceInProgress();
-    // Set instance field: private readonly System.Collections.Generic.HashSet`1<Zenject.Internal.LookupId> _resolvesTwiceInProgress
-    void _set__resolvesTwiceInProgress(System::Collections::Generic::HashSet_1<Zenject::Internal::LookupId*>* value);
-    // Get instance field: private readonly Zenject.LazyInstanceInjector _lazyInjector
-    Zenject::LazyInstanceInjector* _get__lazyInjector();
-    // Set instance field: private readonly Zenject.LazyInstanceInjector _lazyInjector
-    void _set__lazyInjector(Zenject::LazyInstanceInjector* value);
-    // Get instance field: private readonly Zenject.Internal.SingletonMarkRegistry _singletonMarkRegistry
-    Zenject::Internal::SingletonMarkRegistry* _get__singletonMarkRegistry();
-    // Set instance field: private readonly Zenject.Internal.SingletonMarkRegistry _singletonMarkRegistry
-    void _set__singletonMarkRegistry(Zenject::Internal::SingletonMarkRegistry* value);
-    // Get instance field: private readonly System.Collections.Generic.Queue`1<Zenject.BindStatement> _currentBindings
-    System::Collections::Generic::Queue_1<Zenject::BindStatement*>* _get__currentBindings();
-    // Set instance field: private readonly System.Collections.Generic.Queue`1<Zenject.BindStatement> _currentBindings
-    void _set__currentBindings(System::Collections::Generic::Queue_1<Zenject::BindStatement*>* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<Zenject.BindStatement> _childBindings
-    System::Collections::Generic::List_1<Zenject::BindStatement*>* _get__childBindings();
-    // Set instance field: private readonly System.Collections.Generic.List`1<Zenject.BindStatement> _childBindings
-    void _set__childBindings(System::Collections::Generic::List_1<Zenject::BindStatement*>* value);
-    // Get instance field: private readonly System.Collections.Generic.HashSet`1<System.Type> _validatedTypes
-    System::Collections::Generic::HashSet_1<System::Type*>* _get__validatedTypes();
-    // Set instance field: private readonly System.Collections.Generic.HashSet`1<System.Type> _validatedTypes
-    void _set__validatedTypes(System::Collections::Generic::HashSet_1<System::Type*>* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<Zenject.IValidatable> _validationQueue
-    System::Collections::Generic::List_1<Zenject::IValidatable*>* _get__validationQueue();
-    // Set instance field: private readonly System.Collections.Generic.List`1<Zenject.IValidatable> _validationQueue
-    void _set__validationQueue(System::Collections::Generic::List_1<Zenject::IValidatable*>* value);
-    // Get instance field: private UnityEngine.Transform _contextTransform
-    UnityEngine::Transform* _get__contextTransform();
-    // Set instance field: private UnityEngine.Transform _contextTransform
-    void _set__contextTransform(UnityEngine::Transform* value);
-    // Get instance field: private System.Boolean _hasLookedUpContextTransform
-    bool _get__hasLookedUpContextTransform();
-    // Set instance field: private System.Boolean _hasLookedUpContextTransform
-    void _set__hasLookedUpContextTransform(bool value);
-    // Get instance field: private UnityEngine.Transform _inheritedDefaultParent
-    UnityEngine::Transform* _get__inheritedDefaultParent();
-    // Set instance field: private UnityEngine.Transform _inheritedDefaultParent
-    void _set__inheritedDefaultParent(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.Transform _explicitDefaultParent
-    UnityEngine::Transform* _get__explicitDefaultParent();
-    // Set instance field: private UnityEngine.Transform _explicitDefaultParent
-    void _set__explicitDefaultParent(UnityEngine::Transform* value);
-    // Get instance field: private System.Boolean _hasExplicitDefaultParent
-    bool _get__hasExplicitDefaultParent();
-    // Set instance field: private System.Boolean _hasExplicitDefaultParent
-    void _set__hasExplicitDefaultParent(bool value);
-    // Get instance field: private Zenject.ZenjectSettings _settings
-    Zenject::ZenjectSettings* _get__settings();
-    // Set instance field: private Zenject.ZenjectSettings _settings
-    void _set__settings(Zenject::ZenjectSettings* value);
-    // Get instance field: private System.Boolean _hasResolvedRoots
-    bool _get__hasResolvedRoots();
-    // Set instance field: private System.Boolean _hasResolvedRoots
-    void _set__hasResolvedRoots(bool value);
-    // Get instance field: private System.Boolean _isFinalizingBinding
-    bool _get__isFinalizingBinding();
-    // Set instance field: private System.Boolean _isFinalizingBinding
-    void _set__isFinalizingBinding(bool value);
-    // Get instance field: private System.Boolean _isValidating
-    bool _get__isValidating();
-    // Set instance field: private System.Boolean _isValidating
-    void _set__isValidating(bool value);
-    // Get instance field: private System.Boolean _isInstalling
-    bool _get__isInstalling();
-    // Set instance field: private System.Boolean _isInstalling
-    void _set__isInstalling(bool value);
-    // Get instance field: private System.Boolean <AssertOnNewGameObjects>k__BackingField
-    bool _get_$AssertOnNewGameObjects$k__BackingField();
-    // Set instance field: private System.Boolean <AssertOnNewGameObjects>k__BackingField
-    void _set_$AssertOnNewGameObjects$k__BackingField(bool value);
+    // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Type,Zenject.Internal.IDecoratorProvider> _decorators
+    System::Collections::Generic::Dictionary_2<System::Type*, Zenject::Internal::IDecoratorProvider*>*& dyn__decorators();
+    // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<Zenject.BindingId,System.Collections.Generic.List`1<Zenject.DiContainer/Zenject.ProviderInfo>> _providers
+    System::Collections::Generic::Dictionary_2<Zenject::BindingId, System::Collections::Generic::List_1<Zenject::DiContainer::ProviderInfo*>*>*& dyn__providers();
+    // Get instance field reference: private readonly Zenject.DiContainer[][] _containerLookups
+    ::Array<::Array<Zenject::DiContainer*>*>*& dyn__containerLookups();
+    // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<Zenject.Internal.LookupId> _resolvesInProgress
+    System::Collections::Generic::HashSet_1<Zenject::Internal::LookupId*>*& dyn__resolvesInProgress();
+    // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<Zenject.Internal.LookupId> _resolvesTwiceInProgress
+    System::Collections::Generic::HashSet_1<Zenject::Internal::LookupId*>*& dyn__resolvesTwiceInProgress();
+    // Get instance field reference: private readonly Zenject.LazyInstanceInjector _lazyInjector
+    Zenject::LazyInstanceInjector*& dyn__lazyInjector();
+    // Get instance field reference: private readonly Zenject.Internal.SingletonMarkRegistry _singletonMarkRegistry
+    Zenject::Internal::SingletonMarkRegistry*& dyn__singletonMarkRegistry();
+    // Get instance field reference: private readonly System.Collections.Generic.Queue`1<Zenject.BindStatement> _currentBindings
+    System::Collections::Generic::Queue_1<Zenject::BindStatement*>*& dyn__currentBindings();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.BindStatement> _childBindings
+    System::Collections::Generic::List_1<Zenject::BindStatement*>*& dyn__childBindings();
+    // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<System.Type> _validatedTypes
+    System::Collections::Generic::HashSet_1<System::Type*>*& dyn__validatedTypes();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.IValidatable> _validationQueue
+    System::Collections::Generic::List_1<Zenject::IValidatable*>*& dyn__validationQueue();
+    // Get instance field reference: private UnityEngine.Transform _contextTransform
+    UnityEngine::Transform*& dyn__contextTransform();
+    // Get instance field reference: private System.Boolean _hasLookedUpContextTransform
+    bool& dyn__hasLookedUpContextTransform();
+    // Get instance field reference: private UnityEngine.Transform _inheritedDefaultParent
+    UnityEngine::Transform*& dyn__inheritedDefaultParent();
+    // Get instance field reference: private UnityEngine.Transform _explicitDefaultParent
+    UnityEngine::Transform*& dyn__explicitDefaultParent();
+    // Get instance field reference: private System.Boolean _hasExplicitDefaultParent
+    bool& dyn__hasExplicitDefaultParent();
+    // Get instance field reference: private Zenject.ZenjectSettings _settings
+    Zenject::ZenjectSettings*& dyn__settings();
+    // Get instance field reference: private System.Boolean _hasResolvedRoots
+    bool& dyn__hasResolvedRoots();
+    // Get instance field reference: private System.Boolean _isFinalizingBinding
+    bool& dyn__isFinalizingBinding();
+    // Get instance field reference: private System.Boolean _isValidating
+    bool& dyn__isValidating();
+    // Get instance field reference: private System.Boolean _isInstalling
+    bool& dyn__isInstalling();
+    // Get instance field reference: private System.Boolean <AssertOnNewGameObjects>k__BackingField
+    bool& dyn_$AssertOnNewGameObjects$k__BackingField();
     // public Zenject.ZenjectSettings get_Settings()
     // Offset: 0x13E42B8
     Zenject::ZenjectSettings* get_Settings();

@@ -84,30 +84,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::EulaViewController::InitData*) == 0x8);
     // Creating value type constructor for type: EulaViewController
     EulaViewController(UnityEngine::UI::Button* agreeButton_ = {}, UnityEngine::UI::Button* doNotAgreeButton_ = {}, HMUI::TextPageScrollView* textPageScrollView_ = {}, GlobalNamespace::LocalizedTextAsset* eulaLocalizedTextAsset_ = {}, System::Action_1<bool>* didFinishEvent_ = {}, GlobalNamespace::EulaViewController::InitData* initData_ = {}) noexcept : agreeButton{agreeButton_}, doNotAgreeButton{doNotAgreeButton_}, textPageScrollView{textPageScrollView_}, eulaLocalizedTextAsset{eulaLocalizedTextAsset_}, didFinishEvent{didFinishEvent_}, initData{initData_} {}
-    // Get instance field: private UnityEngine.UI.Button _agreeButton
-    UnityEngine::UI::Button* _get__agreeButton();
-    // Set instance field: private UnityEngine.UI.Button _agreeButton
-    void _set__agreeButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _doNotAgreeButton
-    UnityEngine::UI::Button* _get__doNotAgreeButton();
-    // Set instance field: private UnityEngine.UI.Button _doNotAgreeButton
-    void _set__doNotAgreeButton(UnityEngine::UI::Button* value);
-    // Get instance field: private HMUI.TextPageScrollView _textPageScrollView
-    HMUI::TextPageScrollView* _get__textPageScrollView();
-    // Set instance field: private HMUI.TextPageScrollView _textPageScrollView
-    void _set__textPageScrollView(HMUI::TextPageScrollView* value);
-    // Get instance field: private LocalizedTextAsset _eulaLocalizedTextAsset
-    GlobalNamespace::LocalizedTextAsset* _get__eulaLocalizedTextAsset();
-    // Set instance field: private LocalizedTextAsset _eulaLocalizedTextAsset
-    void _set__eulaLocalizedTextAsset(GlobalNamespace::LocalizedTextAsset* value);
-    // Get instance field: private System.Action`1<System.Boolean> didFinishEvent
-    System::Action_1<bool>* _get_didFinishEvent();
-    // Set instance field: private System.Action`1<System.Boolean> didFinishEvent
-    void _set_didFinishEvent(System::Action_1<bool>* value);
-    // Get instance field: private EulaViewController/InitData _initData
-    GlobalNamespace::EulaViewController::InitData* _get__initData();
-    // Set instance field: private EulaViewController/InitData _initData
-    void _set__initData(GlobalNamespace::EulaViewController::InitData* value);
+    // Get instance field reference: private UnityEngine.UI.Button _agreeButton
+    UnityEngine::UI::Button*& dyn__agreeButton();
+    // Get instance field reference: private UnityEngine.UI.Button _doNotAgreeButton
+    UnityEngine::UI::Button*& dyn__doNotAgreeButton();
+    // Get instance field reference: private HMUI.TextPageScrollView _textPageScrollView
+    HMUI::TextPageScrollView*& dyn__textPageScrollView();
+    // Get instance field reference: private LocalizedTextAsset _eulaLocalizedTextAsset
+    GlobalNamespace::LocalizedTextAsset*& dyn__eulaLocalizedTextAsset();
+    // Get instance field reference: private System.Action`1<System.Boolean> didFinishEvent
+    System::Action_1<bool>*& dyn_didFinishEvent();
+    // Get instance field reference: private EulaViewController/InitData _initData
+    GlobalNamespace::EulaViewController::InitData*& dyn__initData();
     // public System.Void add_didFinishEvent(System.Action`1<System.Boolean> value)
     // Offset: 0x1053ADC
     void add_didFinishEvent(System::Action_1<bool>* value);

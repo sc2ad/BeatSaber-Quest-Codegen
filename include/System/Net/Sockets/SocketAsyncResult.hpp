@@ -178,78 +178,42 @@ namespace System::Net::Sockets {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: SocketAsyncResult
     SocketAsyncResult(System::Net::Sockets::Socket* socket_ = {}, System::Net::Sockets::SocketOperation operation_ = {}, System::Exception* DelayedException_ = {}, System::Net::EndPoint* EndPoint_ = {}, ::Array<uint8_t>* Buffer_ = {}, int Offset_ = {}, int Size_ = {}, System::Net::Sockets::SocketFlags SockFlags_ = {}, System::Net::Sockets::Socket* AcceptSocket_ = {}, ::Array<System::Net::IPAddress*>* Addresses_ = {}, int Port_ = {}, System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>* Buffers_ = {}, bool ReuseSocket_ = {}, int CurrentAddress_ = {}, System::Net::Sockets::Socket* AcceptedSocket_ = {}, int Total_ = {}, int error_ = {}, int EndCalled_ = {}) noexcept : socket{socket_}, operation{operation_}, DelayedException{DelayedException_}, EndPoint{EndPoint_}, Buffer{Buffer_}, Offset{Offset_}, Size{Size_}, SockFlags{SockFlags_}, AcceptSocket{AcceptSocket_}, Addresses{Addresses_}, Port{Port_}, Buffers{Buffers_}, ReuseSocket{ReuseSocket_}, CurrentAddress{CurrentAddress_}, AcceptedSocket{AcceptedSocket_}, Total{Total_}, error{error_}, EndCalled{EndCalled_} {}
-    // Get instance field: public System.Net.Sockets.Socket socket
-    System::Net::Sockets::Socket* _get_socket();
-    // Set instance field: public System.Net.Sockets.Socket socket
-    void _set_socket(System::Net::Sockets::Socket* value);
-    // Get instance field: public System.Net.Sockets.SocketOperation operation
-    System::Net::Sockets::SocketOperation _get_operation();
-    // Set instance field: public System.Net.Sockets.SocketOperation operation
-    void _set_operation(System::Net::Sockets::SocketOperation value);
-    // Get instance field: private System.Exception DelayedException
-    System::Exception* _get_DelayedException();
-    // Set instance field: private System.Exception DelayedException
-    void _set_DelayedException(System::Exception* value);
-    // Get instance field: public System.Net.EndPoint EndPoint
-    System::Net::EndPoint* _get_EndPoint();
-    // Set instance field: public System.Net.EndPoint EndPoint
-    void _set_EndPoint(System::Net::EndPoint* value);
-    // Get instance field: public System.Byte[] Buffer
-    ::Array<uint8_t>* _get_Buffer();
-    // Set instance field: public System.Byte[] Buffer
-    void _set_Buffer(::Array<uint8_t>* value);
-    // Get instance field: public System.Int32 Offset
-    int _get_Offset();
-    // Set instance field: public System.Int32 Offset
-    void _set_Offset(int value);
-    // Get instance field: public System.Int32 Size
-    int _get_Size();
-    // Set instance field: public System.Int32 Size
-    void _set_Size(int value);
-    // Get instance field: public System.Net.Sockets.SocketFlags SockFlags
-    System::Net::Sockets::SocketFlags _get_SockFlags();
-    // Set instance field: public System.Net.Sockets.SocketFlags SockFlags
-    void _set_SockFlags(System::Net::Sockets::SocketFlags value);
-    // Get instance field: public System.Net.Sockets.Socket AcceptSocket
-    System::Net::Sockets::Socket* _get_AcceptSocket();
-    // Set instance field: public System.Net.Sockets.Socket AcceptSocket
-    void _set_AcceptSocket(System::Net::Sockets::Socket* value);
-    // Get instance field: public System.Net.IPAddress[] Addresses
-    ::Array<System::Net::IPAddress*>* _get_Addresses();
-    // Set instance field: public System.Net.IPAddress[] Addresses
-    void _set_Addresses(::Array<System::Net::IPAddress*>* value);
-    // Get instance field: public System.Int32 Port
-    int _get_Port();
-    // Set instance field: public System.Int32 Port
-    void _set_Port(int value);
-    // Get instance field: public System.Collections.Generic.IList`1<System.ArraySegment`1<System.Byte>> Buffers
-    System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>* _get_Buffers();
-    // Set instance field: public System.Collections.Generic.IList`1<System.ArraySegment`1<System.Byte>> Buffers
-    void _set_Buffers(System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>* value);
-    // Get instance field: public System.Boolean ReuseSocket
-    bool _get_ReuseSocket();
-    // Set instance field: public System.Boolean ReuseSocket
-    void _set_ReuseSocket(bool value);
-    // Get instance field: public System.Int32 CurrentAddress
-    int _get_CurrentAddress();
-    // Set instance field: public System.Int32 CurrentAddress
-    void _set_CurrentAddress(int value);
-    // Get instance field: public System.Net.Sockets.Socket AcceptedSocket
-    System::Net::Sockets::Socket* _get_AcceptedSocket();
-    // Set instance field: public System.Net.Sockets.Socket AcceptedSocket
-    void _set_AcceptedSocket(System::Net::Sockets::Socket* value);
-    // Get instance field: public System.Int32 Total
-    int _get_Total();
-    // Set instance field: public System.Int32 Total
-    void _set_Total(int value);
-    // Get instance field: System.Int32 error
-    int _get_error();
-    // Set instance field: System.Int32 error
-    void _set_error(int value);
-    // Get instance field: public System.Int32 EndCalled
-    int _get_EndCalled();
-    // Set instance field: public System.Int32 EndCalled
-    void _set_EndCalled(int value);
+    // Get instance field reference: public System.Net.Sockets.Socket socket
+    System::Net::Sockets::Socket*& dyn_socket();
+    // Get instance field reference: public System.Net.Sockets.SocketOperation operation
+    System::Net::Sockets::SocketOperation& dyn_operation();
+    // Get instance field reference: private System.Exception DelayedException
+    System::Exception*& dyn_DelayedException();
+    // Get instance field reference: public System.Net.EndPoint EndPoint
+    System::Net::EndPoint*& dyn_EndPoint();
+    // Get instance field reference: public System.Byte[] Buffer
+    ::Array<uint8_t>*& dyn_Buffer();
+    // Get instance field reference: public System.Int32 Offset
+    int& dyn_Offset();
+    // Get instance field reference: public System.Int32 Size
+    int& dyn_Size();
+    // Get instance field reference: public System.Net.Sockets.SocketFlags SockFlags
+    System::Net::Sockets::SocketFlags& dyn_SockFlags();
+    // Get instance field reference: public System.Net.Sockets.Socket AcceptSocket
+    System::Net::Sockets::Socket*& dyn_AcceptSocket();
+    // Get instance field reference: public System.Net.IPAddress[] Addresses
+    ::Array<System::Net::IPAddress*>*& dyn_Addresses();
+    // Get instance field reference: public System.Int32 Port
+    int& dyn_Port();
+    // Get instance field reference: public System.Collections.Generic.IList`1<System.ArraySegment`1<System.Byte>> Buffers
+    System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>*& dyn_Buffers();
+    // Get instance field reference: public System.Boolean ReuseSocket
+    bool& dyn_ReuseSocket();
+    // Get instance field reference: public System.Int32 CurrentAddress
+    int& dyn_CurrentAddress();
+    // Get instance field reference: public System.Net.Sockets.Socket AcceptedSocket
+    System::Net::Sockets::Socket*& dyn_AcceptedSocket();
+    // Get instance field reference: public System.Int32 Total
+    int& dyn_Total();
+    // Get instance field reference: System.Int32 error
+    int& dyn_error();
+    // Get instance field reference: public System.Int32 EndCalled
+    int& dyn_EndCalled();
     // public System.IntPtr get_Handle()
     // Offset: 0x15C7D04
     System::IntPtr get_Handle();

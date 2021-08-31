@@ -84,14 +84,10 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kCurrentVersion();
     // Set static field: static public System.String kCurrentVersion
     static void _set_kCurrentVersion(::Il2CppString* value);
-    // Get instance field: public System.Collections.Generic.List`1<PlayerSaveData/LocalPlayer> localPlayers
-    System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::LocalPlayer*>* _get_localPlayers();
-    // Set instance field: public System.Collections.Generic.List`1<PlayerSaveData/LocalPlayer> localPlayers
-    void _set_localPlayers(System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::LocalPlayer*>* value);
-    // Get instance field: public System.Collections.Generic.List`1<PlayerSaveData/GuestPlayer> guestPlayers
-    System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::GuestPlayer*>* _get_guestPlayers();
-    // Set instance field: public System.Collections.Generic.List`1<PlayerSaveData/GuestPlayer> guestPlayers
-    void _set_guestPlayers(System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::GuestPlayer*>* value);
+    // Get instance field reference: public System.Collections.Generic.List`1<PlayerSaveData/LocalPlayer> localPlayers
+    System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::LocalPlayer*>*& dyn_localPlayers();
+    // Get instance field reference: public System.Collections.Generic.List`1<PlayerSaveData/GuestPlayer> guestPlayers
+    System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::GuestPlayer*>*& dyn_guestPlayers();
     // public System.Void .ctor()
     // Offset: 0x11375A0
     // Implemented from: VersionSaveData

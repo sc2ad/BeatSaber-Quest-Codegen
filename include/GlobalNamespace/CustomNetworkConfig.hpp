@@ -69,30 +69,18 @@ namespace GlobalNamespace {
     operator GlobalNamespace::INetworkConfig() noexcept {
       return *reinterpret_cast<GlobalNamespace::INetworkConfig*>(this);
     }
-    // Get instance field: private System.Int32 <maxPartySize>k__BackingField
-    int _get_$maxPartySize$k__BackingField();
-    // Set instance field: private System.Int32 <maxPartySize>k__BackingField
-    void _set_$maxPartySize$k__BackingField(int value);
-    // Get instance field: private System.Int32 <discoveryPort>k__BackingField
-    int _get_$discoveryPort$k__BackingField();
-    // Set instance field: private System.Int32 <discoveryPort>k__BackingField
-    void _set_$discoveryPort$k__BackingField(int value);
-    // Get instance field: private System.Int32 <partyPort>k__BackingField
-    int _get_$partyPort$k__BackingField();
-    // Set instance field: private System.Int32 <partyPort>k__BackingField
-    void _set_$partyPort$k__BackingField(int value);
-    // Get instance field: private System.Int32 <multiplayerPort>k__BackingField
-    int _get_$multiplayerPort$k__BackingField();
-    // Set instance field: private System.Int32 <multiplayerPort>k__BackingField
-    void _set_$multiplayerPort$k__BackingField(int value);
-    // Get instance field: private MasterServerEndPoint <masterServerEndPoint>k__BackingField
-    GlobalNamespace::MasterServerEndPoint* _get_$masterServerEndPoint$k__BackingField();
-    // Set instance field: private MasterServerEndPoint <masterServerEndPoint>k__BackingField
-    void _set_$masterServerEndPoint$k__BackingField(GlobalNamespace::MasterServerEndPoint* value);
-    // Get instance field: private System.String <masterServerStatusUrl>k__BackingField
-    ::Il2CppString* _get_$masterServerStatusUrl$k__BackingField();
-    // Set instance field: private System.String <masterServerStatusUrl>k__BackingField
-    void _set_$masterServerStatusUrl$k__BackingField(::Il2CppString* value);
+    // Get instance field reference: private System.Int32 <maxPartySize>k__BackingField
+    int& dyn_$maxPartySize$k__BackingField();
+    // Get instance field reference: private System.Int32 <discoveryPort>k__BackingField
+    int& dyn_$discoveryPort$k__BackingField();
+    // Get instance field reference: private System.Int32 <partyPort>k__BackingField
+    int& dyn_$partyPort$k__BackingField();
+    // Get instance field reference: private System.Int32 <multiplayerPort>k__BackingField
+    int& dyn_$multiplayerPort$k__BackingField();
+    // Get instance field reference: private MasterServerEndPoint <masterServerEndPoint>k__BackingField
+    GlobalNamespace::MasterServerEndPoint*& dyn_$masterServerEndPoint$k__BackingField();
+    // Get instance field reference: private System.String <masterServerStatusUrl>k__BackingField
+    ::Il2CppString*& dyn_$masterServerStatusUrl$k__BackingField();
     // public System.Int32 get_maxPartySize()
     // Offset: 0x13242D8
     int get_maxPartySize();

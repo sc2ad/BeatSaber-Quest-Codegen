@@ -54,18 +54,12 @@ namespace GlobalNamespace {
     MenuLightsPresetSO(GlobalNamespace::ColorSO* playersPlaceNeonsColor_ = {}, float playersPlaceNeonsIntensity_ = {}, ::Array<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*>* lightIdColorPairs_ = {}) noexcept : playersPlaceNeonsColor{playersPlaceNeonsColor_}, playersPlaceNeonsIntensity{playersPlaceNeonsIntensity_}, lightIdColorPairs{lightIdColorPairs_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private ColorSO _playersPlaceNeonsColor
-    GlobalNamespace::ColorSO* _get__playersPlaceNeonsColor();
-    // Set instance field: private ColorSO _playersPlaceNeonsColor
-    void _set__playersPlaceNeonsColor(GlobalNamespace::ColorSO* value);
-    // Get instance field: private System.Single _playersPlaceNeonsIntensity
-    float _get__playersPlaceNeonsIntensity();
-    // Set instance field: private System.Single _playersPlaceNeonsIntensity
-    void _set__playersPlaceNeonsIntensity(float value);
-    // Get instance field: private MenuLightsPresetSO/LightIdColorPair[] _lightIdColorPairs
-    ::Array<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*>* _get__lightIdColorPairs();
-    // Set instance field: private MenuLightsPresetSO/LightIdColorPair[] _lightIdColorPairs
-    void _set__lightIdColorPairs(::Array<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*>* value);
+    // Get instance field reference: private ColorSO _playersPlaceNeonsColor
+    GlobalNamespace::ColorSO*& dyn__playersPlaceNeonsColor();
+    // Get instance field reference: private System.Single _playersPlaceNeonsIntensity
+    float& dyn__playersPlaceNeonsIntensity();
+    // Get instance field reference: private MenuLightsPresetSO/LightIdColorPair[] _lightIdColorPairs
+    ::Array<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*>*& dyn__lightIdColorPairs();
     // public ColorSO get_playersPlaceNeonsColor()
     // Offset: 0x10E6348
     GlobalNamespace::ColorSO* get_playersPlaceNeonsColor();

@@ -45,10 +45,8 @@ namespace UnityEngine::ProBuilder {
     EntityBehaviour(bool manageVisibility_ = {}) noexcept : manageVisibility{manageVisibility_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public System.Boolean manageVisibility
-    bool _get_manageVisibility();
-    // Set instance field: public System.Boolean manageVisibility
-    void _set_manageVisibility(bool value);
+    // Get instance field reference: public System.Boolean manageVisibility
+    bool& dyn_manageVisibility();
     // public System.Void Initialize()
     // Offset: 0xFFFFFFFF
     void Initialize();

@@ -91,42 +91,24 @@ namespace NetEase::Docker {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private System.String <Track>k__BackingField
-    ::Il2CppString* _get_$Track$k__BackingField();
-    // Set instance field: private System.String <Track>k__BackingField
-    void _set_$Track$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.Int32 <Difficulty>k__BackingField
-    int _get_$Difficulty$k__BackingField();
-    // Set instance field: private System.Int32 <Difficulty>k__BackingField
-    void _set_$Difficulty$k__BackingField(int value);
-    // Get instance field: private System.Int32 <Score>k__BackingField
-    int _get_$Score$k__BackingField();
-    // Set instance field: private System.Int32 <Score>k__BackingField
-    void _set_$Score$k__BackingField(int value);
-    // Get instance field: private System.Int64 <TimeStamp>k__BackingField
-    int64_t _get_$TimeStamp$k__BackingField();
-    // Set instance field: private System.Int64 <TimeStamp>k__BackingField
-    void _set_$TimeStamp$k__BackingField(int64_t value);
-    // Get instance field: private System.Boolean <PlayedUntilEnd>k__BackingField
-    bool _get_$PlayedUntilEnd$k__BackingField();
-    // Set instance field: private System.Boolean <PlayedUntilEnd>k__BackingField
-    void _set_$PlayedUntilEnd$k__BackingField(bool value);
-    // Get instance field: private System.Single <AccuracyPercentage>k__BackingField
-    float _get_$AccuracyPercentage$k__BackingField();
-    // Set instance field: private System.Single <AccuracyPercentage>k__BackingField
-    void _set_$AccuracyPercentage$k__BackingField(float value);
-    // Get instance field: private System.Int32 <NoOfHits>k__BackingField
-    int _get_$NoOfHits$k__BackingField();
-    // Set instance field: private System.Int32 <NoOfHits>k__BackingField
-    void _set_$NoOfHits$k__BackingField(int value);
-    // Get instance field: private System.Int32 <NoOfMisses>k__BackingField
-    int _get_$NoOfMisses$k__BackingField();
-    // Set instance field: private System.Int32 <NoOfMisses>k__BackingField
-    void _set_$NoOfMisses$k__BackingField(int value);
-    // Get instance field: private System.Int32 <NoOfBombsHit>k__BackingField
-    int _get_$NoOfBombsHit$k__BackingField();
-    // Set instance field: private System.Int32 <NoOfBombsHit>k__BackingField
-    void _set_$NoOfBombsHit$k__BackingField(int value);
+    // Get instance field reference: private System.String <Track>k__BackingField
+    ::Il2CppString*& dyn_$Track$k__BackingField();
+    // Get instance field reference: private System.Int32 <Difficulty>k__BackingField
+    int& dyn_$Difficulty$k__BackingField();
+    // Get instance field reference: private System.Int32 <Score>k__BackingField
+    int& dyn_$Score$k__BackingField();
+    // Get instance field reference: private System.Int64 <TimeStamp>k__BackingField
+    int64_t& dyn_$TimeStamp$k__BackingField();
+    // Get instance field reference: private System.Boolean <PlayedUntilEnd>k__BackingField
+    bool& dyn_$PlayedUntilEnd$k__BackingField();
+    // Get instance field reference: private System.Single <AccuracyPercentage>k__BackingField
+    float& dyn_$AccuracyPercentage$k__BackingField();
+    // Get instance field reference: private System.Int32 <NoOfHits>k__BackingField
+    int& dyn_$NoOfHits$k__BackingField();
+    // Get instance field reference: private System.Int32 <NoOfMisses>k__BackingField
+    int& dyn_$NoOfMisses$k__BackingField();
+    // Get instance field reference: private System.Int32 <NoOfBombsHit>k__BackingField
+    int& dyn_$NoOfBombsHit$k__BackingField();
     // public System.Void set_Track(System.String value)
     // Offset: 0x2418C5C
     void set_Track(::Il2CppString* value);

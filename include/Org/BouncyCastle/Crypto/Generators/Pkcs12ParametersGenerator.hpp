@@ -51,18 +51,12 @@ namespace Org::BouncyCastle::Crypto::Generators {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: Pkcs12ParametersGenerator
     Pkcs12ParametersGenerator(Org::BouncyCastle::Crypto::IDigest* digest_ = {}, int u_ = {}, int v_ = {}) noexcept : digest{digest_}, u{u_}, v{v_} {}
-    // Get instance field: private readonly Org.BouncyCastle.Crypto.IDigest digest
-    Org::BouncyCastle::Crypto::IDigest* _get_digest();
-    // Set instance field: private readonly Org.BouncyCastle.Crypto.IDigest digest
-    void _set_digest(Org::BouncyCastle::Crypto::IDigest* value);
-    // Get instance field: private readonly System.Int32 u
-    int _get_u();
-    // Set instance field: private readonly System.Int32 u
-    void _set_u(int value);
-    // Get instance field: private readonly System.Int32 v
-    int _get_v();
-    // Set instance field: private readonly System.Int32 v
-    void _set_v(int value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IDigest digest
+    Org::BouncyCastle::Crypto::IDigest*& dyn_digest();
+    // Get instance field reference: private readonly System.Int32 u
+    int& dyn_u();
+    // Get instance field reference: private readonly System.Int32 v
+    int& dyn_v();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDigest digest)
     // Offset: 0x19092CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

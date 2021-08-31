@@ -87,34 +87,20 @@ namespace GlobalNamespace {
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);
     }
-    // Get instance field: public System.UInt32 version
-    uint _get_version();
-    // Set instance field: public System.UInt32 version
-    void _set_version(uint value);
-    // Get instance field: public System.String userId
-    ::Il2CppString* _get_userId();
-    // Set instance field: public System.String userId
-    void _set_userId(::Il2CppString* value);
-    // Get instance field: public System.String userName
-    ::Il2CppString* _get_userName();
-    // Set instance field: public System.String userName
-    void _set_userName(::Il2CppString* value);
-    // Get instance field: public System.Int32 currentPartySize
-    int _get_currentPartySize();
-    // Set instance field: public System.Int32 currentPartySize
-    void _set_currentPartySize(int value);
-    // Get instance field: public System.Boolean isPartyOwner
-    bool _get_isPartyOwner();
-    // Set instance field: public System.Boolean isPartyOwner
-    void _set_isPartyOwner(bool value);
-    // Get instance field: public BeatmapLevelSelectionMask selectionMask
-    GlobalNamespace::BeatmapLevelSelectionMask _get_selectionMask();
-    // Set instance field: public BeatmapLevelSelectionMask selectionMask
-    void _set_selectionMask(GlobalNamespace::BeatmapLevelSelectionMask value);
-    // Get instance field: public GameplayServerConfiguration configuration
-    GlobalNamespace::GameplayServerConfiguration _get_configuration();
-    // Set instance field: public GameplayServerConfiguration configuration
-    void _set_configuration(GlobalNamespace::GameplayServerConfiguration value);
+    // Get instance field reference: public System.UInt32 version
+    uint& dyn_version();
+    // Get instance field reference: public System.String userId
+    ::Il2CppString*& dyn_userId();
+    // Get instance field reference: public System.String userName
+    ::Il2CppString*& dyn_userName();
+    // Get instance field reference: public System.Int32 currentPartySize
+    int& dyn_currentPartySize();
+    // Get instance field reference: public System.Boolean isPartyOwner
+    bool& dyn_isPartyOwner();
+    // Get instance field reference: public BeatmapLevelSelectionMask selectionMask
+    GlobalNamespace::BeatmapLevelSelectionMask& dyn_selectionMask();
+    // Get instance field reference: public GameplayServerConfiguration configuration
+    GlobalNamespace::GameplayServerConfiguration& dyn_configuration();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0x10D9B38
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);

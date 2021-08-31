@@ -50,10 +50,8 @@ namespace UnityEngine {
     static UnityEngine::ColorSpace _get_Linear();
     // Set static field: static public UnityEngine.ColorSpace Linear
     static void _set_Linear(UnityEngine::ColorSpace value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.ColorSpace
   #pragma pack(pop)
   static check_size<sizeof(ColorSpace), 0 + sizeof(int)> __UnityEngine_ColorSpaceSizeCheck;

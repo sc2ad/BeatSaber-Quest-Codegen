@@ -44,10 +44,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::ObstacleType _get_Top();
     // Set static field: static public ObstacleType Top
     static void _set_Top(GlobalNamespace::ObstacleType value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // ObstacleType
   #pragma pack(pop)
   static check_size<sizeof(ObstacleType), 0 + sizeof(int)> __GlobalNamespace_ObstacleTypeSizeCheck;

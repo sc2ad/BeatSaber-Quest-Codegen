@@ -125,50 +125,28 @@ namespace UnityEngine::AddressableAssets::Initialization {
     static ::Il2CppString* _get_kCatalogAddress();
     // Set static field: static public System.String kCatalogAddress
     static void _set_kCatalogAddress(::Il2CppString* value);
-    // Get instance field: private System.String m_buildTarget
-    ::Il2CppString* _get_m_buildTarget();
-    // Set instance field: private System.String m_buildTarget
-    void _set_m_buildTarget(::Il2CppString* value);
-    // Get instance field: private System.String m_SettingsHash
-    ::Il2CppString* _get_m_SettingsHash();
-    // Set instance field: private System.String m_SettingsHash
-    void _set_m_SettingsHash(::Il2CppString* value);
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationData> m_CatalogLocations
-    System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>* _get_m_CatalogLocations();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationData> m_CatalogLocations
-    void _set_m_CatalogLocations(System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>* value);
-    // Get instance field: private System.Boolean m_ProfileEvents
-    bool _get_m_ProfileEvents();
-    // Set instance field: private System.Boolean m_ProfileEvents
-    void _set_m_ProfileEvents(bool value);
-    // Get instance field: private System.Boolean m_LogResourceManagerExceptions
-    bool _get_m_LogResourceManagerExceptions();
-    // Set instance field: private System.Boolean m_LogResourceManagerExceptions
-    void _set_m_LogResourceManagerExceptions(bool value);
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.Util.ObjectInitializationData> m_ExtraInitializationData
-    System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::ObjectInitializationData>* _get_m_ExtraInitializationData();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.Util.ObjectInitializationData> m_ExtraInitializationData
-    void _set_m_ExtraInitializationData(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::ObjectInitializationData>* value);
-    // Get instance field: private System.Boolean m_DisableCatalogUpdateOnStart
-    bool _get_m_DisableCatalogUpdateOnStart();
-    // Set instance field: private System.Boolean m_DisableCatalogUpdateOnStart
-    void _set_m_DisableCatalogUpdateOnStart(bool value);
-    // Get instance field: private System.Boolean m_IsLocalCatalogInBundle
-    bool _get_m_IsLocalCatalogInBundle();
-    // Set instance field: private System.Boolean m_IsLocalCatalogInBundle
-    void _set_m_IsLocalCatalogInBundle(bool value);
-    // Get instance field: private UnityEngine.ResourceManagement.Util.SerializedType m_CertificateHandlerType
-    UnityEngine::ResourceManagement::Util::SerializedType _get_m_CertificateHandlerType();
-    // Set instance field: private UnityEngine.ResourceManagement.Util.SerializedType m_CertificateHandlerType
-    void _set_m_CertificateHandlerType(UnityEngine::ResourceManagement::Util::SerializedType value);
-    // Get instance field: private System.String m_AddressablesVersion
-    ::Il2CppString* _get_m_AddressablesVersion();
-    // Set instance field: private System.String m_AddressablesVersion
-    void _set_m_AddressablesVersion(::Il2CppString* value);
-    // Get instance field: private System.Int32 m_maxConcurrentWebRequests
-    int _get_m_maxConcurrentWebRequests();
-    // Set instance field: private System.Int32 m_maxConcurrentWebRequests
-    void _set_m_maxConcurrentWebRequests(int value);
+    // Get instance field reference: private System.String m_buildTarget
+    ::Il2CppString*& dyn_m_buildTarget();
+    // Get instance field reference: private System.String m_SettingsHash
+    ::Il2CppString*& dyn_m_SettingsHash();
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationData> m_CatalogLocations
+    System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>*& dyn_m_CatalogLocations();
+    // Get instance field reference: private System.Boolean m_ProfileEvents
+    bool& dyn_m_ProfileEvents();
+    // Get instance field reference: private System.Boolean m_LogResourceManagerExceptions
+    bool& dyn_m_LogResourceManagerExceptions();
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.Util.ObjectInitializationData> m_ExtraInitializationData
+    System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::ObjectInitializationData>*& dyn_m_ExtraInitializationData();
+    // Get instance field reference: private System.Boolean m_DisableCatalogUpdateOnStart
+    bool& dyn_m_DisableCatalogUpdateOnStart();
+    // Get instance field reference: private System.Boolean m_IsLocalCatalogInBundle
+    bool& dyn_m_IsLocalCatalogInBundle();
+    // Get instance field reference: private UnityEngine.ResourceManagement.Util.SerializedType m_CertificateHandlerType
+    UnityEngine::ResourceManagement::Util::SerializedType& dyn_m_CertificateHandlerType();
+    // Get instance field reference: private System.String m_AddressablesVersion
+    ::Il2CppString*& dyn_m_AddressablesVersion();
+    // Get instance field reference: private System.Int32 m_maxConcurrentWebRequests
+    int& dyn_m_maxConcurrentWebRequests();
     // public System.String get_BuildTarget()
     // Offset: 0x1449054
     ::Il2CppString* get_BuildTarget();

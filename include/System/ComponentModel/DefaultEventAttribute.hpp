@@ -37,10 +37,8 @@ namespace System::ComponentModel {
     static System::ComponentModel::DefaultEventAttribute* _get_Default();
     // Set static field: static public readonly System.ComponentModel.DefaultEventAttribute Default
     static void _set_Default(System::ComponentModel::DefaultEventAttribute* value);
-    // Get instance field: private readonly System.String name
-    ::Il2CppString* _get_name();
-    // Set instance field: private readonly System.String name
-    void _set_name(::Il2CppString* value);
+    // Get instance field reference: private readonly System.String name
+    ::Il2CppString*& dyn_name();
     // public System.String get_Name()
     // Offset: 0x18AE71C
     ::Il2CppString* get_Name();

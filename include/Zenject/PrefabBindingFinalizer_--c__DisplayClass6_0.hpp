@@ -49,14 +49,10 @@ namespace Zenject {
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass6_0
     $$c__DisplayClass6_0(Zenject::PrefabBindingFinalizer* $$4__this_ = {}, Zenject::DiContainer* container_ = {}) noexcept : $$4__this{$$4__this_}, container{container_} {}
-    // Get instance field: public Zenject.PrefabBindingFinalizer <>4__this
-    Zenject::PrefabBindingFinalizer* _get_$$4__this();
-    // Set instance field: public Zenject.PrefabBindingFinalizer <>4__this
-    void _set_$$4__this(Zenject::PrefabBindingFinalizer* value);
-    // Get instance field: public Zenject.DiContainer container
-    Zenject::DiContainer* _get_container();
-    // Set instance field: public Zenject.DiContainer container
-    void _set_container(Zenject::DiContainer* value);
+    // Get instance field reference: public Zenject.PrefabBindingFinalizer <>4__this
+    Zenject::PrefabBindingFinalizer*& dyn_$$4__this();
+    // Get instance field reference: public Zenject.DiContainer container
+    Zenject::DiContainer*& dyn_container();
     // Zenject.IProvider <FinalizeBindingSelf>b__0(Zenject.DiContainer _, System.Type contractType)
     // Offset: 0x1715E20
     Zenject::IProvider* $FinalizeBindingSelf$b__0(Zenject::DiContainer* _, System::Type* contractType);

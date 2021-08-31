@@ -44,14 +44,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::BeatmapEventType>*) == 0x8);
     // Creating value type constructor for type: SpecialEventsForKeyword
     SpecialEventsForKeyword(::Il2CppString* keyword_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::BeatmapEventType>* specialEvents_ = {}) noexcept : keyword{keyword_}, specialEvents{specialEvents_} {}
-    // Get instance field: private System.String _keyword
-    ::Il2CppString* _get__keyword();
-    // Set instance field: private System.String _keyword
-    void _set__keyword(::Il2CppString* value);
-    // Get instance field: private System.Collections.Generic.List`1<BeatmapSaveData/BeatmapEventType> _specialEvents
-    System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::BeatmapEventType>* _get__specialEvents();
-    // Set instance field: private System.Collections.Generic.List`1<BeatmapSaveData/BeatmapEventType> _specialEvents
-    void _set__specialEvents(System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::BeatmapEventType>* value);
+    // Get instance field reference: private System.String _keyword
+    ::Il2CppString*& dyn__keyword();
+    // Get instance field reference: private System.Collections.Generic.List`1<BeatmapSaveData/BeatmapEventType> _specialEvents
+    System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::BeatmapEventType>*& dyn__specialEvents();
     // public System.String get_keyword()
     // Offset: 0x10CF270
     ::Il2CppString* get_keyword();

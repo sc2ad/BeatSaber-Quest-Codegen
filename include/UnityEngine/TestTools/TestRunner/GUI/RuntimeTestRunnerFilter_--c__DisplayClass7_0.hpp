@@ -51,10 +51,8 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     constexpr operator System::Func_2<::Il2CppString*, NUnit::Framework::Internal::TestFilter*>*() const noexcept {
       return builder;
     }
-    // Get instance field: public System.Func`2<System.String,NUnit.Framework.Internal.TestFilter> builder
-    System::Func_2<::Il2CppString*, NUnit::Framework::Internal::TestFilter*>* _get_builder();
-    // Set instance field: public System.Func`2<System.String,NUnit.Framework.Internal.TestFilter> builder
-    void _set_builder(System::Func_2<::Il2CppString*, NUnit::Framework::Internal::TestFilter*>* value);
+    // Get instance field reference: public System.Func`2<System.String,NUnit.Framework.Internal.TestFilter> builder
+    System::Func_2<::Il2CppString*, NUnit::Framework::Internal::TestFilter*>*& dyn_builder();
     // NUnit.Framework.Interfaces.ITestFilter <AddFilters>b__1(System.String v)
     // Offset: 0x14C72E0
     NUnit::Framework::Interfaces::ITestFilter* $AddFilters$b__1(::Il2CppString* v);

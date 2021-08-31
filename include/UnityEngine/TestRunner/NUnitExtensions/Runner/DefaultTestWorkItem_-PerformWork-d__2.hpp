@@ -92,34 +92,20 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
-    // Get instance field: private System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: private System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: private System.Object <>2__current
-    ::Il2CppObject* _get_$$2__current();
-    // Set instance field: private System.Object <>2__current
-    void _set_$$2__current(::Il2CppObject* value);
-    // Get instance field: private System.Int32 <>l__initialThreadId
-    int _get_$$l__initialThreadId();
-    // Set instance field: private System.Int32 <>l__initialThreadId
-    void _set_$$l__initialThreadId(int value);
-    // Get instance field: public UnityEngine.TestRunner.NUnitExtensions.Runner.DefaultTestWorkItem <>4__this
-    UnityEngine::TestRunner::NUnitExtensions::Runner::DefaultTestWorkItem* _get_$$4__this();
-    // Set instance field: public UnityEngine.TestRunner.NUnitExtensions.Runner.DefaultTestWorkItem <>4__this
-    void _set_$$4__this(UnityEngine::TestRunner::NUnitExtensions::Runner::DefaultTestWorkItem* value);
-    // Get instance field: private System.Collections.IEnumerator <>7__wrap1
-    System::Collections::IEnumerator* _get_$$7__wrap1();
-    // Set instance field: private System.Collections.IEnumerator <>7__wrap1
-    void _set_$$7__wrap1(System::Collections::IEnumerator* value);
-    // Get instance field: private UnityEngine.TestTools.IEditModeTestYieldInstruction <editModeTestYieldInstruction>5__3
-    UnityEngine::TestTools::IEditModeTestYieldInstruction* _get_$editModeTestYieldInstruction$5__3();
-    // Set instance field: private UnityEngine.TestTools.IEditModeTestYieldInstruction <editModeTestYieldInstruction>5__3
-    void _set_$editModeTestYieldInstruction$5__3(UnityEngine::TestTools::IEditModeTestYieldInstruction* value);
-    // Get instance field: private System.Collections.IEnumerator <enumerator>5__4
-    System::Collections::IEnumerator* _get_$enumerator$5__4();
-    // Set instance field: private System.Collections.IEnumerator <enumerator>5__4
-    void _set_$enumerator$5__4(System::Collections::IEnumerator* value);
+    // Get instance field reference: private System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: private System.Object <>2__current
+    ::Il2CppObject*& dyn_$$2__current();
+    // Get instance field reference: private System.Int32 <>l__initialThreadId
+    int& dyn_$$l__initialThreadId();
+    // Get instance field reference: public UnityEngine.TestRunner.NUnitExtensions.Runner.DefaultTestWorkItem <>4__this
+    UnityEngine::TestRunner::NUnitExtensions::Runner::DefaultTestWorkItem*& dyn_$$4__this();
+    // Get instance field reference: private System.Collections.IEnumerator <>7__wrap1
+    System::Collections::IEnumerator*& dyn_$$7__wrap1();
+    // Get instance field reference: private UnityEngine.TestTools.IEditModeTestYieldInstruction <editModeTestYieldInstruction>5__3
+    UnityEngine::TestTools::IEditModeTestYieldInstruction*& dyn_$editModeTestYieldInstruction$5__3();
+    // Get instance field reference: private System.Collections.IEnumerator <enumerator>5__4
+    System::Collections::IEnumerator*& dyn_$enumerator$5__4();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
     // Offset: 0x14B5C40
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();

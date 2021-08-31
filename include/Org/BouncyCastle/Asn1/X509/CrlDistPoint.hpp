@@ -46,10 +46,8 @@ namespace Org::BouncyCastle::Asn1::X509 {
     constexpr operator Org::BouncyCastle::Asn1::Asn1Sequence*() const noexcept {
       return seq;
     }
-    // Get instance field: readonly Org.BouncyCastle.Asn1.Asn1Sequence seq
-    Org::BouncyCastle::Asn1::Asn1Sequence* _get_seq();
-    // Set instance field: readonly Org.BouncyCastle.Asn1.Asn1Sequence seq
-    void _set_seq(Org::BouncyCastle::Asn1::Asn1Sequence* value);
+    // Get instance field reference: readonly Org.BouncyCastle.Asn1.Asn1Sequence seq
+    Org::BouncyCastle::Asn1::Asn1Sequence*& dyn_seq();
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
     // Offset: 0x19F8904
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -42,14 +42,10 @@ namespace HMUI {
     static_assert(sizeof(HMUI::UIKeyboard*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass13_0
     $$c__DisplayClass13_0(HMUI::UIKeyboardKey* key_ = {}, HMUI::UIKeyboard* $$4__this_ = {}) noexcept : key{key_}, $$4__this{$$4__this_} {}
-    // Get instance field: public HMUI.UIKeyboardKey key
-    HMUI::UIKeyboardKey* _get_key();
-    // Set instance field: public HMUI.UIKeyboardKey key
-    void _set_key(HMUI::UIKeyboardKey* value);
-    // Get instance field: public HMUI.UIKeyboard <>4__this
-    HMUI::UIKeyboard* _get_$$4__this();
-    // Set instance field: public HMUI.UIKeyboard <>4__this
-    void _set_$$4__this(HMUI::UIKeyboard* value);
+    // Get instance field reference: public HMUI.UIKeyboardKey key
+    HMUI::UIKeyboardKey*& dyn_key();
+    // Get instance field reference: public HMUI.UIKeyboard <>4__this
+    HMUI::UIKeyboard*& dyn_$$4__this();
     // System.Void <Awake>b__2()
     // Offset: 0x13086AC
     void $Awake$b__2();

@@ -52,26 +52,16 @@ namespace NUnit::Framework::Constraints {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: FailurePoint
     FailurePoint(int64_t Position_ = {}, ::Il2CppObject* ExpectedValue_ = {}, ::Il2CppObject* ActualValue_ = {}, bool ExpectedHasData_ = {}, bool ActualHasData_ = {}) noexcept : Position{Position_}, ExpectedValue{ExpectedValue_}, ActualValue{ActualValue_}, ExpectedHasData{ExpectedHasData_}, ActualHasData{ActualHasData_} {}
-    // Get instance field: public System.Int64 Position
-    int64_t _get_Position();
-    // Set instance field: public System.Int64 Position
-    void _set_Position(int64_t value);
-    // Get instance field: public System.Object ExpectedValue
-    ::Il2CppObject* _get_ExpectedValue();
-    // Set instance field: public System.Object ExpectedValue
-    void _set_ExpectedValue(::Il2CppObject* value);
-    // Get instance field: public System.Object ActualValue
-    ::Il2CppObject* _get_ActualValue();
-    // Set instance field: public System.Object ActualValue
-    void _set_ActualValue(::Il2CppObject* value);
-    // Get instance field: public System.Boolean ExpectedHasData
-    bool _get_ExpectedHasData();
-    // Set instance field: public System.Boolean ExpectedHasData
-    void _set_ExpectedHasData(bool value);
-    // Get instance field: public System.Boolean ActualHasData
-    bool _get_ActualHasData();
-    // Set instance field: public System.Boolean ActualHasData
-    void _set_ActualHasData(bool value);
+    // Get instance field reference: public System.Int64 Position
+    int64_t& dyn_Position();
+    // Get instance field reference: public System.Object ExpectedValue
+    ::Il2CppObject*& dyn_ExpectedValue();
+    // Get instance field reference: public System.Object ActualValue
+    ::Il2CppObject*& dyn_ActualValue();
+    // Get instance field reference: public System.Boolean ExpectedHasData
+    bool& dyn_ExpectedHasData();
+    // Get instance field reference: public System.Boolean ActualHasData
+    bool& dyn_ActualHasData();
     // public System.Void .ctor()
     // Offset: 0x176DFC0
     // Implemented from: System.Object

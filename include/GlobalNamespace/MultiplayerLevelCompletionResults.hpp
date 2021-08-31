@@ -111,10 +111,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::MultiplayerLevelCompletionResults::MultiplayerLevelEndState _get_Quit();
       // Set static field: static public MultiplayerLevelCompletionResults/MultiplayerLevelEndState Quit
       static void _set_Quit(GlobalNamespace::MultiplayerLevelCompletionResults::MultiplayerLevelEndState value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // MultiplayerLevelCompletionResults/MultiplayerLevelEndState
     #pragma pack(pop)
     static check_size<sizeof(MultiplayerLevelCompletionResults::MultiplayerLevelEndState), 0 + sizeof(int)> __GlobalNamespace_MultiplayerLevelCompletionResults_MultiplayerLevelEndStateSizeCheck;
@@ -143,14 +141,10 @@ namespace GlobalNamespace {
     operator System::IComparable() noexcept {
       return *reinterpret_cast<System::IComparable*>(this);
     }
-    // Get instance field: private readonly MultiplayerLevelCompletionResults/MultiplayerLevelEndState _levelEndState
-    GlobalNamespace::MultiplayerLevelCompletionResults::MultiplayerLevelEndState _get__levelEndState();
-    // Set instance field: private readonly MultiplayerLevelCompletionResults/MultiplayerLevelEndState _levelEndState
-    void _set__levelEndState(GlobalNamespace::MultiplayerLevelCompletionResults::MultiplayerLevelEndState value);
-    // Get instance field: private readonly LevelCompletionResults _levelCompletionResults
-    GlobalNamespace::LevelCompletionResults* _get__levelCompletionResults();
-    // Set instance field: private readonly LevelCompletionResults _levelCompletionResults
-    void _set__levelCompletionResults(GlobalNamespace::LevelCompletionResults* value);
+    // Get instance field reference: private readonly MultiplayerLevelCompletionResults/MultiplayerLevelEndState _levelEndState
+    GlobalNamespace::MultiplayerLevelCompletionResults::MultiplayerLevelEndState& dyn__levelEndState();
+    // Get instance field reference: private readonly LevelCompletionResults _levelCompletionResults
+    GlobalNamespace::LevelCompletionResults*& dyn__levelCompletionResults();
     // public MultiplayerLevelCompletionResults/MultiplayerLevelEndState get_levelEndState()
     // Offset: 0x16EBA2C
     GlobalNamespace::MultiplayerLevelCompletionResults::MultiplayerLevelEndState get_levelEndState();

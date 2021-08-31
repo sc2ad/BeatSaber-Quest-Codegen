@@ -87,34 +87,20 @@ namespace GlobalNamespace {
     FireworksController(UnityEngine::Vector3 spawnSize_ = {}, float minSpawnInterval_ = {}, float maxSpawnInterval_ = {}, ::Array<GlobalNamespace::DirectionalLight*>* directionalLights_ = {}, float lightsIntensity_ = {}, int currentLightId_ = {}, GlobalNamespace::FireworkItemController::Pool* fireworkItemPool_ = {}) noexcept : spawnSize{spawnSize_}, minSpawnInterval{minSpawnInterval_}, maxSpawnInterval{maxSpawnInterval_}, directionalLights{directionalLights_}, lightsIntensity{lightsIntensity_}, currentLightId{currentLightId_}, fireworkItemPool{fireworkItemPool_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.Vector3 _spawnSize
-    UnityEngine::Vector3 _get__spawnSize();
-    // Set instance field: private UnityEngine.Vector3 _spawnSize
-    void _set__spawnSize(UnityEngine::Vector3 value);
-    // Get instance field: private System.Single _minSpawnInterval
-    float _get__minSpawnInterval();
-    // Set instance field: private System.Single _minSpawnInterval
-    void _set__minSpawnInterval(float value);
-    // Get instance field: private System.Single _maxSpawnInterval
-    float _get__maxSpawnInterval();
-    // Set instance field: private System.Single _maxSpawnInterval
-    void _set__maxSpawnInterval(float value);
-    // Get instance field: private DirectionalLight[] _directionalLights
-    ::Array<GlobalNamespace::DirectionalLight*>* _get__directionalLights();
-    // Set instance field: private DirectionalLight[] _directionalLights
-    void _set__directionalLights(::Array<GlobalNamespace::DirectionalLight*>* value);
-    // Get instance field: private System.Single _lightsIntensity
-    float _get__lightsIntensity();
-    // Set instance field: private System.Single _lightsIntensity
-    void _set__lightsIntensity(float value);
-    // Get instance field: private System.Int32 _currentLightId
-    int _get__currentLightId();
-    // Set instance field: private System.Int32 _currentLightId
-    void _set__currentLightId(int value);
-    // Get instance field: private readonly FireworkItemController/Pool _fireworkItemPool
-    GlobalNamespace::FireworkItemController::Pool* _get__fireworkItemPool();
-    // Set instance field: private readonly FireworkItemController/Pool _fireworkItemPool
-    void _set__fireworkItemPool(GlobalNamespace::FireworkItemController::Pool* value);
+    // Get instance field reference: private UnityEngine.Vector3 _spawnSize
+    UnityEngine::Vector3& dyn__spawnSize();
+    // Get instance field reference: private System.Single _minSpawnInterval
+    float& dyn__minSpawnInterval();
+    // Get instance field reference: private System.Single _maxSpawnInterval
+    float& dyn__maxSpawnInterval();
+    // Get instance field reference: private DirectionalLight[] _directionalLights
+    ::Array<GlobalNamespace::DirectionalLight*>*& dyn__directionalLights();
+    // Get instance field reference: private System.Single _lightsIntensity
+    float& dyn__lightsIntensity();
+    // Get instance field reference: private System.Int32 _currentLightId
+    int& dyn__currentLightId();
+    // Get instance field reference: private readonly FireworkItemController/Pool _fireworkItemPool
+    GlobalNamespace::FireworkItemController::Pool*& dyn__fireworkItemPool();
     // protected System.Void OnEnable()
     // Offset: 0x1058D38
     void OnEnable();

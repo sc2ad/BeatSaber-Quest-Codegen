@@ -49,14 +49,10 @@ namespace GlobalNamespace {
     TutorialBasicNoteSpawnData(GlobalNamespace::NoteCutDirection cutDirection_ = {}, GlobalNamespace::ColorType colorType_ = {}) noexcept : cutDirection{cutDirection_}, colorType{colorType_} {}
     // Deleting conversion operator: operator GlobalNamespace::NoteLineLayer
     constexpr operator GlobalNamespace::NoteLineLayer() const noexcept = delete;
-    // Get instance field: public readonly NoteCutDirection cutDirection
-    GlobalNamespace::NoteCutDirection _get_cutDirection();
-    // Set instance field: public readonly NoteCutDirection cutDirection
-    void _set_cutDirection(GlobalNamespace::NoteCutDirection value);
-    // Get instance field: public readonly ColorType colorType
-    GlobalNamespace::ColorType _get_colorType();
-    // Set instance field: public readonly ColorType colorType
-    void _set_colorType(GlobalNamespace::ColorType value);
+    // Get instance field reference: public readonly NoteCutDirection cutDirection
+    GlobalNamespace::NoteCutDirection& dyn_cutDirection();
+    // Get instance field reference: public readonly ColorType colorType
+    GlobalNamespace::ColorType& dyn_colorType();
     // public System.Void .ctor(Signal signal, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 lineIndex, NoteLineLayer noteLineLayer, NoteCutDirection cutDirection, ColorType colorType)
     // Offset: 0x109C48C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

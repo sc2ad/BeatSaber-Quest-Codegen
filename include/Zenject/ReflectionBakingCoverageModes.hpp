@@ -50,10 +50,8 @@ namespace Zenject {
     static Zenject::ReflectionBakingCoverageModes _get_FallbackToDirectReflectionWithWarning();
     // Set static field: static public Zenject.ReflectionBakingCoverageModes FallbackToDirectReflectionWithWarning
     static void _set_FallbackToDirectReflectionWithWarning(Zenject::ReflectionBakingCoverageModes value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Zenject.ReflectionBakingCoverageModes
   #pragma pack(pop)
   static check_size<sizeof(ReflectionBakingCoverageModes), 0 + sizeof(int)> __Zenject_ReflectionBakingCoverageModesSizeCheck;

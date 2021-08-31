@@ -191,58 +191,32 @@ namespace TMPro {
     static TMPro::TMP_Dropdown::OptionData* _get_s_NoOptionData();
     // Set static field: static private TMPro.TMP_Dropdown/TMPro.OptionData s_NoOptionData
     static void _set_s_NoOptionData(TMPro::TMP_Dropdown::OptionData* value);
-    // Get instance field: private UnityEngine.RectTransform m_Template
-    UnityEngine::RectTransform* _get_m_Template();
-    // Set instance field: private UnityEngine.RectTransform m_Template
-    void _set_m_Template(UnityEngine::RectTransform* value);
-    // Get instance field: private TMPro.TMP_Text m_CaptionText
-    TMPro::TMP_Text* _get_m_CaptionText();
-    // Set instance field: private TMPro.TMP_Text m_CaptionText
-    void _set_m_CaptionText(TMPro::TMP_Text* value);
-    // Get instance field: private UnityEngine.UI.Image m_CaptionImage
-    UnityEngine::UI::Image* _get_m_CaptionImage();
-    // Set instance field: private UnityEngine.UI.Image m_CaptionImage
-    void _set_m_CaptionImage(UnityEngine::UI::Image* value);
-    // Get instance field: private TMPro.TMP_Text m_ItemText
-    TMPro::TMP_Text* _get_m_ItemText();
-    // Set instance field: private TMPro.TMP_Text m_ItemText
-    void _set_m_ItemText(TMPro::TMP_Text* value);
-    // Get instance field: private UnityEngine.UI.Image m_ItemImage
-    UnityEngine::UI::Image* _get_m_ItemImage();
-    // Set instance field: private UnityEngine.UI.Image m_ItemImage
-    void _set_m_ItemImage(UnityEngine::UI::Image* value);
-    // Get instance field: private System.Int32 m_Value
-    int _get_m_Value();
-    // Set instance field: private System.Int32 m_Value
-    void _set_m_Value(int value);
-    // Get instance field: private TMPro.TMP_Dropdown/TMPro.OptionDataList m_Options
-    TMPro::TMP_Dropdown::OptionDataList* _get_m_Options();
-    // Set instance field: private TMPro.TMP_Dropdown/TMPro.OptionDataList m_Options
-    void _set_m_Options(TMPro::TMP_Dropdown::OptionDataList* value);
-    // Get instance field: private TMPro.TMP_Dropdown/TMPro.DropdownEvent m_OnValueChanged
-    TMPro::TMP_Dropdown::DropdownEvent* _get_m_OnValueChanged();
-    // Set instance field: private TMPro.TMP_Dropdown/TMPro.DropdownEvent m_OnValueChanged
-    void _set_m_OnValueChanged(TMPro::TMP_Dropdown::DropdownEvent* value);
-    // Get instance field: private UnityEngine.GameObject m_Dropdown
-    UnityEngine::GameObject* _get_m_Dropdown();
-    // Set instance field: private UnityEngine.GameObject m_Dropdown
-    void _set_m_Dropdown(UnityEngine::GameObject* value);
-    // Get instance field: private UnityEngine.GameObject m_Blocker
-    UnityEngine::GameObject* _get_m_Blocker();
-    // Set instance field: private UnityEngine.GameObject m_Blocker
-    void _set_m_Blocker(UnityEngine::GameObject* value);
-    // Get instance field: private System.Collections.Generic.List`1<TMPro.TMP_Dropdown/TMPro.DropdownItem> m_Items
-    System::Collections::Generic::List_1<TMPro::TMP_Dropdown::DropdownItem*>* _get_m_Items();
-    // Set instance field: private System.Collections.Generic.List`1<TMPro.TMP_Dropdown/TMPro.DropdownItem> m_Items
-    void _set_m_Items(System::Collections::Generic::List_1<TMPro::TMP_Dropdown::DropdownItem*>* value);
-    // Get instance field: private TMPro.TweenRunner`1<TMPro.FloatTween> m_AlphaTweenRunner
-    TMPro::TweenRunner_1<TMPro::FloatTween>* _get_m_AlphaTweenRunner();
-    // Set instance field: private TMPro.TweenRunner`1<TMPro.FloatTween> m_AlphaTweenRunner
-    void _set_m_AlphaTweenRunner(TMPro::TweenRunner_1<TMPro::FloatTween>* value);
-    // Get instance field: private System.Boolean validTemplate
-    bool _get_validTemplate();
-    // Set instance field: private System.Boolean validTemplate
-    void _set_validTemplate(bool value);
+    // Get instance field reference: private UnityEngine.RectTransform m_Template
+    UnityEngine::RectTransform*& dyn_m_Template();
+    // Get instance field reference: private TMPro.TMP_Text m_CaptionText
+    TMPro::TMP_Text*& dyn_m_CaptionText();
+    // Get instance field reference: private UnityEngine.UI.Image m_CaptionImage
+    UnityEngine::UI::Image*& dyn_m_CaptionImage();
+    // Get instance field reference: private TMPro.TMP_Text m_ItemText
+    TMPro::TMP_Text*& dyn_m_ItemText();
+    // Get instance field reference: private UnityEngine.UI.Image m_ItemImage
+    UnityEngine::UI::Image*& dyn_m_ItemImage();
+    // Get instance field reference: private System.Int32 m_Value
+    int& dyn_m_Value();
+    // Get instance field reference: private TMPro.TMP_Dropdown/TMPro.OptionDataList m_Options
+    TMPro::TMP_Dropdown::OptionDataList*& dyn_m_Options();
+    // Get instance field reference: private TMPro.TMP_Dropdown/TMPro.DropdownEvent m_OnValueChanged
+    TMPro::TMP_Dropdown::DropdownEvent*& dyn_m_OnValueChanged();
+    // Get instance field reference: private UnityEngine.GameObject m_Dropdown
+    UnityEngine::GameObject*& dyn_m_Dropdown();
+    // Get instance field reference: private UnityEngine.GameObject m_Blocker
+    UnityEngine::GameObject*& dyn_m_Blocker();
+    // Get instance field reference: private System.Collections.Generic.List`1<TMPro.TMP_Dropdown/TMPro.DropdownItem> m_Items
+    System::Collections::Generic::List_1<TMPro::TMP_Dropdown::DropdownItem*>*& dyn_m_Items();
+    // Get instance field reference: private TMPro.TweenRunner`1<TMPro.FloatTween> m_AlphaTweenRunner
+    TMPro::TweenRunner_1<TMPro::FloatTween>*& dyn_m_AlphaTweenRunner();
+    // Get instance field reference: private System.Boolean validTemplate
+    bool& dyn_validTemplate();
     // public UnityEngine.RectTransform get_template()
     // Offset: 0x111B7B8
     UnityEngine::RectTransform* get_template();

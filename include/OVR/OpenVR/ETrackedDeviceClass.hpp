@@ -74,10 +74,8 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::ETrackedDeviceClass _get_Max();
     // Set static field: static public OVR.OpenVR.ETrackedDeviceClass Max
     static void _set_Max(OVR::OpenVR::ETrackedDeviceClass value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // OVR.OpenVR.ETrackedDeviceClass
   #pragma pack(pop)
   static check_size<sizeof(ETrackedDeviceClass), 0 + sizeof(int)> __OVR_OpenVR_ETrackedDeviceClassSizeCheck;

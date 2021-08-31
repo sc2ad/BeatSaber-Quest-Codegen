@@ -81,22 +81,14 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kMainEffectEnabledKeyword();
     // Set static field: static private System.String kMainEffectEnabledKeyword
     static void _set_kMainEffectEnabledKeyword(::Il2CppString* value);
-    // Get instance field: private MainEffectContainerSO _mainEffectContainer
-    GlobalNamespace::MainEffectContainerSO* _get__mainEffectContainer();
-    // Set instance field: private MainEffectContainerSO _mainEffectContainer
-    void _set__mainEffectContainer(GlobalNamespace::MainEffectContainerSO* value);
-    // Get instance field: private FloatSO _fadeValue
-    GlobalNamespace::FloatSO* _get__fadeValue();
-    // Set instance field: private FloatSO _fadeValue
-    void _set__fadeValue(GlobalNamespace::FloatSO* value);
-    // Get instance field: private System.Action`1<UnityEngine.RenderTexture> afterImageEffectEvent
-    System::Action_1<UnityEngine::RenderTexture*>* _get_afterImageEffectEvent();
-    // Set instance field: private System.Action`1<UnityEngine.RenderTexture> afterImageEffectEvent
-    void _set_afterImageEffectEvent(System::Action_1<UnityEngine::RenderTexture*>* value);
-    // Get instance field: private ImageEffectController _imageEffectController
-    GlobalNamespace::ImageEffectController* _get__imageEffectController();
-    // Set instance field: private ImageEffectController _imageEffectController
-    void _set__imageEffectController(GlobalNamespace::ImageEffectController* value);
+    // Get instance field reference: private MainEffectContainerSO _mainEffectContainer
+    GlobalNamespace::MainEffectContainerSO*& dyn__mainEffectContainer();
+    // Get instance field reference: private FloatSO _fadeValue
+    GlobalNamespace::FloatSO*& dyn__fadeValue();
+    // Get instance field reference: private System.Action`1<UnityEngine.RenderTexture> afterImageEffectEvent
+    System::Action_1<UnityEngine::RenderTexture*>*& dyn_afterImageEffectEvent();
+    // Get instance field reference: private ImageEffectController _imageEffectController
+    GlobalNamespace::ImageEffectController*& dyn__imageEffectController();
     // public System.Void add_afterImageEffectEvent(System.Action`1<UnityEngine.RenderTexture> value)
     // Offset: 0x239134C
     void add_afterImageEffectEvent(System::Action_1<UnityEngine::RenderTexture*>* value);

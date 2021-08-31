@@ -39,10 +39,8 @@ namespace System::Net {
     constexpr operator System::Net::WebConnection*() const noexcept {
       return Connection;
     }
-    // Get instance field: public System.Net.WebConnection Connection
-    System::Net::WebConnection* _get_Connection();
-    // Set instance field: public System.Net.WebConnection Connection
-    void _set_Connection(System::Net::WebConnection* value);
+    // Get instance field reference: public System.Net.WebConnection Connection
+    System::Net::WebConnection*& dyn_Connection();
     // public System.Void Abort(System.Object sender, System.EventArgs args)
     // Offset: 0x15D16A4
     void Abort(::Il2CppObject* sender, System::EventArgs* args);

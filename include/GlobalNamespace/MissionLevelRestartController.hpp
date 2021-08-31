@@ -59,18 +59,12 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private MissionLevelScenesTransitionSetupDataSO _missionLevelSceneSetupData
-    GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* _get__missionLevelSceneSetupData();
-    // Set instance field: private MissionLevelScenesTransitionSetupDataSO _missionLevelSceneSetupData
-    void _set__missionLevelSceneSetupData(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* value);
-    // Get instance field: private PrepareLevelCompletionResults _prepareLevelCompletionResults
-    GlobalNamespace::PrepareLevelCompletionResults* _get__prepareLevelCompletionResults();
-    // Set instance field: private PrepareLevelCompletionResults _prepareLevelCompletionResults
-    void _set__prepareLevelCompletionResults(GlobalNamespace::PrepareLevelCompletionResults* value);
-    // Get instance field: private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
-    GlobalNamespace::MissionObjectiveCheckersManager* _get__missionObjectiveCheckersManager();
-    // Set instance field: private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
-    void _set__missionObjectiveCheckersManager(GlobalNamespace::MissionObjectiveCheckersManager* value);
+    // Get instance field reference: private MissionLevelScenesTransitionSetupDataSO _missionLevelSceneSetupData
+    GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*& dyn__missionLevelSceneSetupData();
+    // Get instance field reference: private PrepareLevelCompletionResults _prepareLevelCompletionResults
+    GlobalNamespace::PrepareLevelCompletionResults*& dyn__prepareLevelCompletionResults();
+    // Get instance field reference: private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
+    GlobalNamespace::MissionObjectiveCheckersManager*& dyn__missionObjectiveCheckersManager();
     // public System.Void RestartLevel()
     // Offset: 0x11D3CA0
     void RestartLevel();

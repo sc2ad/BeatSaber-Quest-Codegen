@@ -67,22 +67,14 @@ namespace HMUI {
     InteractableTextMeshPro(float interactionAlpha_ = {}, float noInteractionAlpha_ = {}, TMPro::TextMeshProUGUI* text_ = {}, System::Collections::Generic::List_1<UnityEngine::CanvasGroup*>* canvasGroupCache_ = {}) noexcept : interactionAlpha{interactionAlpha_}, noInteractionAlpha{noInteractionAlpha_}, text{text_}, canvasGroupCache{canvasGroupCache_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Single _interactionAlpha
-    float _get__interactionAlpha();
-    // Set instance field: private System.Single _interactionAlpha
-    void _set__interactionAlpha(float value);
-    // Get instance field: private System.Single _noInteractionAlpha
-    float _get__noInteractionAlpha();
-    // Set instance field: private System.Single _noInteractionAlpha
-    void _set__noInteractionAlpha(float value);
-    // Get instance field: private TMPro.TextMeshProUGUI _text
-    TMPro::TextMeshProUGUI* _get__text();
-    // Set instance field: private TMPro.TextMeshProUGUI _text
-    void _set__text(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<UnityEngine.CanvasGroup> _canvasGroupCache
-    System::Collections::Generic::List_1<UnityEngine::CanvasGroup*>* _get__canvasGroupCache();
-    // Set instance field: private readonly System.Collections.Generic.List`1<UnityEngine.CanvasGroup> _canvasGroupCache
-    void _set__canvasGroupCache(System::Collections::Generic::List_1<UnityEngine::CanvasGroup*>* value);
+    // Get instance field reference: private System.Single _interactionAlpha
+    float& dyn__interactionAlpha();
+    // Get instance field reference: private System.Single _noInteractionAlpha
+    float& dyn__noInteractionAlpha();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _text
+    TMPro::TextMeshProUGUI*& dyn__text();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.CanvasGroup> _canvasGroupCache
+    System::Collections::Generic::List_1<UnityEngine::CanvasGroup*>*& dyn__canvasGroupCache();
     // public System.Void .ctor()
     // Offset: 0x12F73D8
     // Implemented from: UnityEngine.EventSystems.UIBehaviour

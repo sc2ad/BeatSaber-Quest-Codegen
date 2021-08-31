@@ -46,18 +46,12 @@ namespace System::Security::Policy {
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
-    // Get instance field: private System.Collections.IEnumerator currentEnum
-    System::Collections::IEnumerator* _get_currentEnum();
-    // Set instance field: private System.Collections.IEnumerator currentEnum
-    void _set_currentEnum(System::Collections::IEnumerator* value);
-    // Get instance field: private System.Collections.IEnumerator hostEnum
-    System::Collections::IEnumerator* _get_hostEnum();
-    // Set instance field: private System.Collections.IEnumerator hostEnum
-    void _set_hostEnum(System::Collections::IEnumerator* value);
-    // Get instance field: private System.Collections.IEnumerator assemblyEnum
-    System::Collections::IEnumerator* _get_assemblyEnum();
-    // Set instance field: private System.Collections.IEnumerator assemblyEnum
-    void _set_assemblyEnum(System::Collections::IEnumerator* value);
+    // Get instance field reference: private System.Collections.IEnumerator currentEnum
+    System::Collections::IEnumerator*& dyn_currentEnum();
+    // Get instance field reference: private System.Collections.IEnumerator hostEnum
+    System::Collections::IEnumerator*& dyn_hostEnum();
+    // Get instance field reference: private System.Collections.IEnumerator assemblyEnum
+    System::Collections::IEnumerator*& dyn_assemblyEnum();
     // public System.Object get_Current()
     // Offset: 0x1B4A7C0
     ::Il2CppObject* get_Current();

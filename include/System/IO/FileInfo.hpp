@@ -41,10 +41,8 @@ namespace System::IO {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: FileInfo
     FileInfo(::Il2CppString* name_ = {}) noexcept : name{name_} {}
-    // Get instance field: private System.String _name
-    ::Il2CppString* _get__name();
-    // Set instance field: private System.String _name
-    void _set__name(::Il2CppString* value);
+    // Get instance field reference: private System.String _name
+    ::Il2CppString*& dyn__name();
     // public System.String get_DirectoryName()
     // Offset: 0x196FD90
     ::Il2CppString* get_DirectoryName();

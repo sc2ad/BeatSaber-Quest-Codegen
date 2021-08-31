@@ -42,10 +42,8 @@ namespace System::Security::Cryptography::X509Certificates {
     X509CertificateImplMono(Mono::Security::X509::X509Certificate* x509_ = {}) noexcept : x509{x509_} {}
     // Deleting conversion operator: operator ::Array<uint8_t>*
     constexpr operator ::Array<uint8_t>*() const noexcept = delete;
-    // Get instance field: private Mono.Security.X509.X509Certificate x509
-    Mono::Security::X509::X509Certificate* _get_x509();
-    // Set instance field: private Mono.Security.X509.X509Certificate x509
-    void _set_x509(Mono::Security::X509::X509Certificate* value);
+    // Get instance field reference: private Mono.Security.X509.X509Certificate x509
+    Mono::Security::X509::X509Certificate*& dyn_x509();
     // public System.Void .ctor(Mono.Security.X509.X509Certificate x509)
     // Offset: 0x1B49594
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

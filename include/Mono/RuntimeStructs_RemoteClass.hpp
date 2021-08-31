@@ -57,26 +57,16 @@ namespace Mono {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: System.IntPtr default_vtable
-    System::IntPtr _get_default_vtable();
-    // Set instance field: System.IntPtr default_vtable
-    void _set_default_vtable(System::IntPtr value);
-    // Get instance field: System.IntPtr xdomain_vtable
-    System::IntPtr _get_xdomain_vtable();
-    // Set instance field: System.IntPtr xdomain_vtable
-    void _set_xdomain_vtable(System::IntPtr value);
-    // Get instance field: Mono.RuntimeStructs/Mono.MonoClass* proxy_class
-    Mono::RuntimeStructs::MonoClass* _get_proxy_class();
-    // Set instance field: Mono.RuntimeStructs/Mono.MonoClass* proxy_class
-    void _set_proxy_class(Mono::RuntimeStructs::MonoClass* value);
-    // Get instance field: System.IntPtr proxy_class_name
-    System::IntPtr _get_proxy_class_name();
-    // Set instance field: System.IntPtr proxy_class_name
-    void _set_proxy_class_name(System::IntPtr value);
-    // Get instance field: System.UInt32 interface_count
-    uint _get_interface_count();
-    // Set instance field: System.UInt32 interface_count
-    void _set_interface_count(uint value);
+    // Get instance field reference: System.IntPtr default_vtable
+    System::IntPtr& dyn_default_vtable();
+    // Get instance field reference: System.IntPtr xdomain_vtable
+    System::IntPtr& dyn_xdomain_vtable();
+    // Get instance field reference: Mono.RuntimeStructs/Mono.MonoClass* proxy_class
+    Mono::RuntimeStructs::MonoClass*& dyn_proxy_class();
+    // Get instance field reference: System.IntPtr proxy_class_name
+    System::IntPtr& dyn_proxy_class_name();
+    // Get instance field reference: System.UInt32 interface_count
+    uint& dyn_interface_count();
   }; // Mono.RuntimeStructs/Mono.RemoteClass
   #pragma pack(pop)
   static check_size<sizeof(RuntimeStructs::RemoteClass), 32 + sizeof(uint)> __Mono_RuntimeStructs_RemoteClassSizeCheck;

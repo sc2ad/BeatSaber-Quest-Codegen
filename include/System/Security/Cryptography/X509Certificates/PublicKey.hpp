@@ -68,22 +68,14 @@ namespace System::Security::Cryptography::X509Certificates {
     static ::Array<uint8_t>* _get_Empty();
     // Set static field: static private System.Byte[] Empty
     static void _set_Empty(::Array<uint8_t>* value);
-    // Get instance field: private System.Security.Cryptography.AsymmetricAlgorithm _key
-    System::Security::Cryptography::AsymmetricAlgorithm* _get__key();
-    // Set instance field: private System.Security.Cryptography.AsymmetricAlgorithm _key
-    void _set__key(System::Security::Cryptography::AsymmetricAlgorithm* value);
-    // Get instance field: private System.Security.Cryptography.AsnEncodedData _keyValue
-    System::Security::Cryptography::AsnEncodedData* _get__keyValue();
-    // Set instance field: private System.Security.Cryptography.AsnEncodedData _keyValue
-    void _set__keyValue(System::Security::Cryptography::AsnEncodedData* value);
-    // Get instance field: private System.Security.Cryptography.AsnEncodedData _params
-    System::Security::Cryptography::AsnEncodedData* _get__params();
-    // Set instance field: private System.Security.Cryptography.AsnEncodedData _params
-    void _set__params(System::Security::Cryptography::AsnEncodedData* value);
-    // Get instance field: private System.Security.Cryptography.Oid _oid
-    System::Security::Cryptography::Oid* _get__oid();
-    // Set instance field: private System.Security.Cryptography.Oid _oid
-    void _set__oid(System::Security::Cryptography::Oid* value);
+    // Get instance field reference: private System.Security.Cryptography.AsymmetricAlgorithm _key
+    System::Security::Cryptography::AsymmetricAlgorithm*& dyn__key();
+    // Get instance field reference: private System.Security.Cryptography.AsnEncodedData _keyValue
+    System::Security::Cryptography::AsnEncodedData*& dyn__keyValue();
+    // Get instance field reference: private System.Security.Cryptography.AsnEncodedData _params
+    System::Security::Cryptography::AsnEncodedData*& dyn__params();
+    // Get instance field reference: private System.Security.Cryptography.Oid _oid
+    System::Security::Cryptography::Oid*& dyn__oid();
     // public System.Security.Cryptography.AsnEncodedData get_EncodedKeyValue()
     // Offset: 0x1857850
     System::Security::Cryptography::AsnEncodedData* get_EncodedKeyValue();

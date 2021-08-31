@@ -143,58 +143,32 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kCharacterActivationStreamName();
     // Set static field: static private System.String kCharacterActivationStreamName
     static void _set_kCharacterActivationStreamName(::Il2CppString* value);
-    // Get instance field: private UnityEngine.Playables.PlayableDirector _spawnCharacterPlayableDirector
-    UnityEngine::Playables::PlayableDirector* _get__spawnCharacterPlayableDirector();
-    // Set instance field: private UnityEngine.Playables.PlayableDirector _spawnCharacterPlayableDirector
-    void _set__spawnCharacterPlayableDirector(UnityEngine::Playables::PlayableDirector* value);
-    // Get instance field: private JumpReceiver _jumpReceiver
-    GlobalNamespace::JumpReceiver* _get__jumpReceiver();
-    // Set instance field: private JumpReceiver _jumpReceiver
-    void _set__jumpReceiver(GlobalNamespace::JumpReceiver* value);
-    // Get instance field: private System.Single _appearAnimationEndTime
-    float _get__appearAnimationEndTime();
-    // Set instance field: private System.Single _appearAnimationEndTime
-    void _set__appearAnimationEndTime(float value);
-    // Get instance field: private System.Single _disappearAnimationStartTime
-    float _get__disappearAnimationStartTime();
-    // Set instance field: private System.Single _disappearAnimationStartTime
-    void _set__disappearAnimationStartTime(float value);
-    // Get instance field: private MaterialPropertyBlockColorSetter _rimLightColorSetter
-    GlobalNamespace::MaterialPropertyBlockColorSetter* _get__rimLightColorSetter();
-    // Set instance field: private MaterialPropertyBlockColorSetter _rimLightColorSetter
-    void _set__rimLightColorSetter(GlobalNamespace::MaterialPropertyBlockColorSetter* value);
-    // Get instance field: private MaterialPropertyBlockFloatAnimator _rimLightIntensityAnimator
-    GlobalNamespace::MaterialPropertyBlockFloatAnimator* _get__rimLightIntensityAnimator();
-    // Set instance field: private MaterialPropertyBlockFloatAnimator _rimLightIntensityAnimator
-    void _set__rimLightIntensityAnimator(GlobalNamespace::MaterialPropertyBlockFloatAnimator* value);
-    // Get instance field: private MaterialPropertyBlockFloatAnimator _rimLightEdgeStartAnimator
-    GlobalNamespace::MaterialPropertyBlockFloatAnimator* _get__rimLightEdgeStartAnimator();
-    // Set instance field: private MaterialPropertyBlockFloatAnimator _rimLightEdgeStartAnimator
-    void _set__rimLightEdgeStartAnimator(GlobalNamespace::MaterialPropertyBlockFloatAnimator* value);
-    // Get instance field: private readonly SongSpeedData _songSpeedData
-    GlobalNamespace::SongSpeedData* _get__songSpeedData();
-    // Set instance field: private readonly SongSpeedData _songSpeedData
-    void _set__songSpeedData(GlobalNamespace::SongSpeedData* value);
-    // Get instance field: private UnityEngine.Timeline.ActivationTrack _characterActivationTrack
-    UnityEngine::Timeline::ActivationTrack* _get__characterActivationTrack();
-    // Set instance field: private UnityEngine.Timeline.ActivationTrack _characterActivationTrack
-    void _set__characterActivationTrack(UnityEngine::Timeline::ActivationTrack* value);
-    // Get instance field: private BTSCharacter _currentBtsCharacter
-    GlobalNamespace::BTSCharacter* _get__currentBtsCharacter();
-    // Set instance field: private BTSCharacter _currentBtsCharacter
-    void _set__currentBtsCharacter(GlobalNamespace::BTSCharacter* value);
-    // Get instance field: private System.Single _defaultSpawnCharacterDuration
-    float _get__defaultSpawnCharacterDuration();
-    // Set instance field: private System.Single _defaultSpawnCharacterDuration
-    void _set__defaultSpawnCharacterDuration(float value);
-    // Get instance field: private System.Double _playableDirectorTimeBeforePause
-    double _get__playableDirectorTimeBeforePause();
-    // Set instance field: private System.Double _playableDirectorTimeBeforePause
-    void _set__playableDirectorTimeBeforePause(double value);
-    // Get instance field: private System.Single _animatorNormalizedTimeBeforePause
-    float _get__animatorNormalizedTimeBeforePause();
-    // Set instance field: private System.Single _animatorNormalizedTimeBeforePause
-    void _set__animatorNormalizedTimeBeforePause(float value);
+    // Get instance field reference: private UnityEngine.Playables.PlayableDirector _spawnCharacterPlayableDirector
+    UnityEngine::Playables::PlayableDirector*& dyn__spawnCharacterPlayableDirector();
+    // Get instance field reference: private JumpReceiver _jumpReceiver
+    GlobalNamespace::JumpReceiver*& dyn__jumpReceiver();
+    // Get instance field reference: private System.Single _appearAnimationEndTime
+    float& dyn__appearAnimationEndTime();
+    // Get instance field reference: private System.Single _disappearAnimationStartTime
+    float& dyn__disappearAnimationStartTime();
+    // Get instance field reference: private MaterialPropertyBlockColorSetter _rimLightColorSetter
+    GlobalNamespace::MaterialPropertyBlockColorSetter*& dyn__rimLightColorSetter();
+    // Get instance field reference: private MaterialPropertyBlockFloatAnimator _rimLightIntensityAnimator
+    GlobalNamespace::MaterialPropertyBlockFloatAnimator*& dyn__rimLightIntensityAnimator();
+    // Get instance field reference: private MaterialPropertyBlockFloatAnimator _rimLightEdgeStartAnimator
+    GlobalNamespace::MaterialPropertyBlockFloatAnimator*& dyn__rimLightEdgeStartAnimator();
+    // Get instance field reference: private readonly SongSpeedData _songSpeedData
+    GlobalNamespace::SongSpeedData*& dyn__songSpeedData();
+    // Get instance field reference: private UnityEngine.Timeline.ActivationTrack _characterActivationTrack
+    UnityEngine::Timeline::ActivationTrack*& dyn__characterActivationTrack();
+    // Get instance field reference: private BTSCharacter _currentBtsCharacter
+    GlobalNamespace::BTSCharacter*& dyn__currentBtsCharacter();
+    // Get instance field reference: private System.Single _defaultSpawnCharacterDuration
+    float& dyn__defaultSpawnCharacterDuration();
+    // Get instance field reference: private System.Double _playableDirectorTimeBeforePause
+    double& dyn__playableDirectorTimeBeforePause();
+    // Get instance field reference: private System.Single _animatorNormalizedTimeBeforePause
+    float& dyn__animatorNormalizedTimeBeforePause();
     // public System.Boolean get_isCharacterVisible()
     // Offset: 0x118680C
     bool get_isCharacterVisible();

@@ -45,14 +45,10 @@ namespace GlobalNamespace {
     OVRMRAudioFilter(bool running_ = {}, GlobalNamespace::OVRExternalComposition* composition_ = {}) noexcept : running{running_}, composition{composition_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Boolean running
-    bool _get_running();
-    // Set instance field: private System.Boolean running
-    void _set_running(bool value);
-    // Get instance field: public OVRExternalComposition composition
-    GlobalNamespace::OVRExternalComposition* _get_composition();
-    // Set instance field: public OVRExternalComposition composition
-    void _set_composition(GlobalNamespace::OVRExternalComposition* value);
+    // Get instance field reference: private System.Boolean running
+    bool& dyn_running();
+    // Get instance field reference: public OVRExternalComposition composition
+    GlobalNamespace::OVRExternalComposition*& dyn_composition();
     // private System.Void Start()
     // Offset: 0x153ED20
     void Start();

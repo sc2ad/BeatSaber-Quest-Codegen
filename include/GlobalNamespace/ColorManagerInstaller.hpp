@@ -35,10 +35,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::ColorSchemeSO*) == 0x8);
     // Creating value type constructor for type: ColorManagerInstaller
     ColorManagerInstaller(GlobalNamespace::ColorSchemeSO* menuColorScheme_ = {}) noexcept : menuColorScheme{menuColorScheme_} {}
-    // Get instance field: private ColorSchemeSO _menuColorScheme
-    GlobalNamespace::ColorSchemeSO* _get__menuColorScheme();
-    // Set instance field: private ColorSchemeSO _menuColorScheme
-    void _set__menuColorScheme(GlobalNamespace::ColorSchemeSO* value);
+    // Get instance field reference: private ColorSchemeSO _menuColorScheme
+    GlobalNamespace::ColorSchemeSO*& dyn__menuColorScheme();
     // public System.Void .ctor()
     // Offset: 0x10EDE78
     // Implemented from: Zenject.MonoInstaller

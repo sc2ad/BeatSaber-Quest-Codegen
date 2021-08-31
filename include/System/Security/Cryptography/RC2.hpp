@@ -48,10 +48,8 @@ namespace System::Security::Cryptography {
     static ::Array<System::Security::Cryptography::KeySizes*>* _get_s_legalKeySizes();
     // Set static field: static private System.Security.Cryptography.KeySizes[] s_legalKeySizes
     static void _set_s_legalKeySizes(::Array<System::Security::Cryptography::KeySizes*>* value);
-    // Get instance field: protected System.Int32 EffectiveKeySizeValue
-    int _get_EffectiveKeySizeValue();
-    // Set instance field: protected System.Int32 EffectiveKeySizeValue
-    void _set_EffectiveKeySizeValue(int value);
+    // Get instance field reference: protected System.Int32 EffectiveKeySizeValue
+    int& dyn_EffectiveKeySizeValue();
     // public System.Int32 get_EffectiveKeySize()
     // Offset: 0x19920D4
     int get_EffectiveKeySize();

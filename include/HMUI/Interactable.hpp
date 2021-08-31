@@ -30,10 +30,8 @@ namespace HMUI {
     Interactable(bool interactable_ = {}) noexcept : interactable{interactable_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Boolean _interactable
-    bool _get__interactable();
-    // Set instance field: private System.Boolean _interactable
-    void _set__interactable(bool value);
+    // Get instance field reference: private System.Boolean _interactable
+    bool& dyn__interactable();
     // public System.Boolean get_interactable()
     // Offset: 0x12F721C
     bool get_interactable();

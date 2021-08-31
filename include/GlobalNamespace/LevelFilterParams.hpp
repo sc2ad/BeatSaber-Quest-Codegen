@@ -144,66 +144,36 @@ namespace GlobalNamespace {
     static ::Array<float>* _get_bpmValues();
     // Set static field: static public readonly System.Single[] bpmValues
     static void _set_bpmValues(::Array<float>* value);
-    // Get instance field: private System.Boolean <filterByLevelIds>k__BackingField
-    bool _get_$filterByLevelIds$k__BackingField();
-    // Set instance field: private System.Boolean <filterByLevelIds>k__BackingField
-    void _set_$filterByLevelIds$k__BackingField(bool value);
-    // Get instance field: private System.Collections.Generic.HashSet`1<System.String> <beatmapLevelIds>k__BackingField
-    System::Collections::Generic::HashSet_1<::Il2CppString*>* _get_$beatmapLevelIds$k__BackingField();
-    // Set instance field: private System.Collections.Generic.HashSet`1<System.String> <beatmapLevelIds>k__BackingField
-    void _set_$beatmapLevelIds$k__BackingField(System::Collections::Generic::HashSet_1<::Il2CppString*>* value);
-    // Get instance field: private System.Boolean <filterByOwned>k__BackingField
-    bool _get_$filterByOwned$k__BackingField();
-    // Set instance field: private System.Boolean <filterByOwned>k__BackingField
-    void _set_$filterByOwned$k__BackingField(bool value);
-    // Get instance field: private System.String <searchText>k__BackingField
-    ::Il2CppString* _get_$searchText$k__BackingField();
-    // Set instance field: private System.String <searchText>k__BackingField
-    void _set_$searchText$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.Boolean <filterByDifficulty>k__BackingField
-    bool _get_$filterByDifficulty$k__BackingField();
-    // Set instance field: private System.Boolean <filterByDifficulty>k__BackingField
-    void _set_$filterByDifficulty$k__BackingField(bool value);
-    // Get instance field: private BeatmapDifficultyMask <filteredDifficulty>k__BackingField
-    GlobalNamespace::BeatmapDifficultyMask _get_$filteredDifficulty$k__BackingField();
-    // Set instance field: private BeatmapDifficultyMask <filteredDifficulty>k__BackingField
-    void _set_$filteredDifficulty$k__BackingField(GlobalNamespace::BeatmapDifficultyMask value);
-    // Get instance field: private System.Boolean <filterBySongPacks>k__BackingField
-    bool _get_$filterBySongPacks$k__BackingField();
-    // Set instance field: private System.Boolean <filterBySongPacks>k__BackingField
-    void _set_$filterBySongPacks$k__BackingField(bool value);
-    // Get instance field: private SongPackMask <filteredSongPacks>k__BackingField
-    GlobalNamespace::SongPackMask _get_$filteredSongPacks$k__BackingField();
-    // Set instance field: private SongPackMask <filteredSongPacks>k__BackingField
-    void _set_$filteredSongPacks$k__BackingField(GlobalNamespace::SongPackMask value);
-    // Get instance field: private System.Boolean <filterByCharacteristic>k__BackingField
-    bool _get_$filterByCharacteristic$k__BackingField();
-    // Set instance field: private System.Boolean <filterByCharacteristic>k__BackingField
-    void _set_$filterByCharacteristic$k__BackingField(bool value);
-    // Get instance field: private BeatmapCharacteristicSO <filteredCharacteristic>k__BackingField
-    GlobalNamespace::BeatmapCharacteristicSO* _get_$filteredCharacteristic$k__BackingField();
-    // Set instance field: private BeatmapCharacteristicSO <filteredCharacteristic>k__BackingField
-    void _set_$filteredCharacteristic$k__BackingField(GlobalNamespace::BeatmapCharacteristicSO* value);
-    // Get instance field: private System.Boolean <filterByNotPlayedYet>k__BackingField
-    bool _get_$filterByNotPlayedYet$k__BackingField();
-    // Set instance field: private System.Boolean <filterByNotPlayedYet>k__BackingField
-    void _set_$filterByNotPlayedYet$k__BackingField(bool value);
-    // Get instance field: private System.Boolean <filterByMinBpm>k__BackingField
-    bool _get_$filterByMinBpm$k__BackingField();
-    // Set instance field: private System.Boolean <filterByMinBpm>k__BackingField
-    void _set_$filterByMinBpm$k__BackingField(bool value);
-    // Get instance field: private System.Single <filteredMinBpm>k__BackingField
-    float _get_$filteredMinBpm$k__BackingField();
-    // Set instance field: private System.Single <filteredMinBpm>k__BackingField
-    void _set_$filteredMinBpm$k__BackingField(float value);
-    // Get instance field: private System.Boolean <filterByMaxBpm>k__BackingField
-    bool _get_$filterByMaxBpm$k__BackingField();
-    // Set instance field: private System.Boolean <filterByMaxBpm>k__BackingField
-    void _set_$filterByMaxBpm$k__BackingField(bool value);
-    // Get instance field: private System.Single <filteredMaxBpm>k__BackingField
-    float _get_$filteredMaxBpm$k__BackingField();
-    // Set instance field: private System.Single <filteredMaxBpm>k__BackingField
-    void _set_$filteredMaxBpm$k__BackingField(float value);
+    // Get instance field reference: private System.Boolean <filterByLevelIds>k__BackingField
+    bool& dyn_$filterByLevelIds$k__BackingField();
+    // Get instance field reference: private System.Collections.Generic.HashSet`1<System.String> <beatmapLevelIds>k__BackingField
+    System::Collections::Generic::HashSet_1<::Il2CppString*>*& dyn_$beatmapLevelIds$k__BackingField();
+    // Get instance field reference: private System.Boolean <filterByOwned>k__BackingField
+    bool& dyn_$filterByOwned$k__BackingField();
+    // Get instance field reference: private System.String <searchText>k__BackingField
+    ::Il2CppString*& dyn_$searchText$k__BackingField();
+    // Get instance field reference: private System.Boolean <filterByDifficulty>k__BackingField
+    bool& dyn_$filterByDifficulty$k__BackingField();
+    // Get instance field reference: private BeatmapDifficultyMask <filteredDifficulty>k__BackingField
+    GlobalNamespace::BeatmapDifficultyMask& dyn_$filteredDifficulty$k__BackingField();
+    // Get instance field reference: private System.Boolean <filterBySongPacks>k__BackingField
+    bool& dyn_$filterBySongPacks$k__BackingField();
+    // Get instance field reference: private SongPackMask <filteredSongPacks>k__BackingField
+    GlobalNamespace::SongPackMask& dyn_$filteredSongPacks$k__BackingField();
+    // Get instance field reference: private System.Boolean <filterByCharacteristic>k__BackingField
+    bool& dyn_$filterByCharacteristic$k__BackingField();
+    // Get instance field reference: private BeatmapCharacteristicSO <filteredCharacteristic>k__BackingField
+    GlobalNamespace::BeatmapCharacteristicSO*& dyn_$filteredCharacteristic$k__BackingField();
+    // Get instance field reference: private System.Boolean <filterByNotPlayedYet>k__BackingField
+    bool& dyn_$filterByNotPlayedYet$k__BackingField();
+    // Get instance field reference: private System.Boolean <filterByMinBpm>k__BackingField
+    bool& dyn_$filterByMinBpm$k__BackingField();
+    // Get instance field reference: private System.Single <filteredMinBpm>k__BackingField
+    float& dyn_$filteredMinBpm$k__BackingField();
+    // Get instance field reference: private System.Boolean <filterByMaxBpm>k__BackingField
+    bool& dyn_$filterByMaxBpm$k__BackingField();
+    // Get instance field reference: private System.Single <filteredMaxBpm>k__BackingField
+    float& dyn_$filteredMaxBpm$k__BackingField();
     // public System.Boolean get_filterByLevelIds()
     // Offset: 0x114FF38
     bool get_filterByLevelIds();

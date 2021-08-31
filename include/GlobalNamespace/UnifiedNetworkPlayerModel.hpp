@@ -262,102 +262,54 @@ namespace GlobalNamespace {
     static float _get_kServerTimeoutPeriod();
     // Set static field: static private System.Single kServerTimeoutPeriod
     static void _set_kServerTimeoutPeriod(float value);
-    // Get instance field: private readonly PlatformNetworkPlayerModel _platformNetworkPlayerModel
-    GlobalNamespace::PlatformNetworkPlayerModel* _get__platformNetworkPlayerModel();
-    // Set instance field: private readonly PlatformNetworkPlayerModel _platformNetworkPlayerModel
-    void _set__platformNetworkPlayerModel(GlobalNamespace::PlatformNetworkPlayerModel* value);
-    // Get instance field: private readonly LocalNetworkPlayerModel _localNetworkPlayerModel
-    GlobalNamespace::LocalNetworkPlayerModel* _get__localNetworkPlayerModel();
-    // Set instance field: private readonly LocalNetworkPlayerModel _localNetworkPlayerModel
-    void _set__localNetworkPlayerModel(GlobalNamespace::LocalNetworkPlayerModel* value);
-    // Get instance field: private readonly IPlatformUserModel _platformUserModel
-    GlobalNamespace::IPlatformUserModel* _get__platformUserModel();
-    // Set instance field: private readonly IPlatformUserModel _platformUserModel
-    void _set__platformUserModel(GlobalNamespace::IPlatformUserModel* value);
-    // Get instance field: private readonly INetworkConfig _networkConfig
-    GlobalNamespace::INetworkConfig* _get__networkConfig();
-    // Set instance field: private readonly INetworkConfig _networkConfig
-    void _set__networkConfig(GlobalNamespace::INetworkConfig* value);
-    // Get instance field: private IAuthenticationTokenProvider _authenticationTokenProvider
-    GlobalNamespace::IAuthenticationTokenProvider* _get__authenticationTokenProvider();
-    // Set instance field: private IAuthenticationTokenProvider _authenticationTokenProvider
-    void _set__authenticationTokenProvider(GlobalNamespace::IAuthenticationTokenProvider* value);
-    // Get instance field: private UnifiedNetworkPlayerModel/UnifiedNetworkPlayer _localPlayer
-    GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer* _get__localPlayer();
-    // Set instance field: private UnifiedNetworkPlayerModel/UnifiedNetworkPlayer _localPlayer
-    void _set__localPlayer(GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer* value);
-    // Get instance field: private System.Boolean _networkingFailed
-    bool _get__networkingFailed();
-    // Set instance field: private System.Boolean _networkingFailed
-    void _set__networkingFailed(bool value);
-    // Get instance field: private System.Boolean _masterServerUnreachable
-    bool _get__masterServerUnreachable();
-    // Set instance field: private System.Boolean _masterServerUnreachable
-    void _set__masterServerUnreachable(bool value);
-    // Get instance field: private System.Int32 _currentPlayerCount
-    int _get__currentPlayerCount();
-    // Set instance field: private System.Int32 _currentPlayerCount
-    void _set__currentPlayerCount(int value);
-    // Get instance field: private System.Action`1<System.Int32> partySizeChangedEvent
-    System::Action_1<int>* _get_partySizeChangedEvent();
-    // Set instance field: private System.Action`1<System.Int32> partySizeChangedEvent
-    void _set_partySizeChangedEvent(System::Action_1<int>* value);
-    // Get instance field: private System.Action partyRefreshingEvent
-    System::Action* _get_partyRefreshingEvent();
-    // Set instance field: private System.Action partyRefreshingEvent
-    void _set_partyRefreshingEvent(System::Action* value);
-    // Get instance field: private System.Action`1<INetworkPlayerModel> partyChangedEvent
-    System::Action_1<GlobalNamespace::INetworkPlayerModel*>* _get_partyChangedEvent();
-    // Set instance field: private System.Action`1<INetworkPlayerModel> partyChangedEvent
-    void _set_partyChangedEvent(System::Action_1<GlobalNamespace::INetworkPlayerModel*>* value);
-    // Get instance field: private System.Action`1<INetworkPlayer> joinRequestedEvent
-    System::Action_1<GlobalNamespace::INetworkPlayer*>* _get_joinRequestedEvent();
-    // Set instance field: private System.Action`1<INetworkPlayer> joinRequestedEvent
-    void _set_joinRequestedEvent(System::Action_1<GlobalNamespace::INetworkPlayer*>* value);
-    // Get instance field: private System.Action`1<INetworkPlayer> inviteRequestedEvent
-    System::Action_1<GlobalNamespace::INetworkPlayer*>* _get_inviteRequestedEvent();
-    // Set instance field: private System.Action`1<INetworkPlayer> inviteRequestedEvent
-    void _set_inviteRequestedEvent(System::Action_1<GlobalNamespace::INetworkPlayer*>* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<UnifiedNetworkPlayerModel/UnifiedNetworkPlayer> _partyPlayers
-    System::Collections::Generic::List_1<GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer*>* _get__partyPlayers();
-    // Set instance field: private readonly System.Collections.Generic.List`1<UnifiedNetworkPlayerModel/UnifiedNetworkPlayer> _partyPlayers
-    void _set__partyPlayers(System::Collections::Generic::List_1<GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer*>* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<UnifiedNetworkPlayerModel/UnifiedNetworkServer> _publicServers
-    System::Collections::Generic::List_1<GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkServer*>* _get__publicServers();
-    // Set instance field: private readonly System.Collections.Generic.List`1<UnifiedNetworkPlayerModel/UnifiedNetworkServer> _publicServers
-    void _set__publicServers(System::Collections::Generic::List_1<GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkServer*>* value);
-    // Get instance field: private PartyMessageHandler _partyMessageHandler
-    GlobalNamespace::PartyMessageHandler* _get__partyMessageHandler();
-    // Set instance field: private PartyMessageHandler _partyMessageHandler
-    void _set__partyMessageHandler(GlobalNamespace::PartyMessageHandler* value);
-    // Get instance field: private PartyMessageHandler _friendPartyMessageHandler
-    GlobalNamespace::PartyMessageHandler* _get__friendPartyMessageHandler();
-    // Set instance field: private PartyMessageHandler _friendPartyMessageHandler
-    void _set__friendPartyMessageHandler(GlobalNamespace::PartyMessageHandler* value);
-    // Get instance field: private PartyMessageHandler _localNetworkPartyMessageHandler
-    GlobalNamespace::PartyMessageHandler* _get__localNetworkPartyMessageHandler();
-    // Set instance field: private PartyMessageHandler _localNetworkPartyMessageHandler
-    void _set__localNetworkPartyMessageHandler(GlobalNamespace::PartyMessageHandler* value);
-    // Get instance field: private System.Single _lastServerRefresh
-    float _get__lastServerRefresh();
-    // Set instance field: private System.Single _lastServerRefresh
-    void _set__lastServerRefresh(float value);
-    // Get instance field: private System.Boolean _isRefreshing
-    bool _get__isRefreshing();
-    // Set instance field: private System.Boolean _isRefreshing
-    void _set__isRefreshing(bool value);
-    // Get instance field: private System.Boolean _filterChanged
-    bool _get__filterChanged();
-    // Set instance field: private System.Boolean _filterChanged
-    void _set__filterChanged(bool value);
-    // Get instance field: private readonly MasterServerConnectionManager/StartClientParams _cachedStartClientParams
-    GlobalNamespace::MasterServerConnectionManager::StartClientParams* _get__cachedStartClientParams();
-    // Set instance field: private readonly MasterServerConnectionManager/StartClientParams _cachedStartClientParams
-    void _set__cachedStartClientParams(GlobalNamespace::MasterServerConnectionManager::StartClientParams* value);
-    // Get instance field: private readonly MasterServerConnectionManager/ConnectToServerParams _cachedConnectToServerParams
-    GlobalNamespace::MasterServerConnectionManager::ConnectToServerParams* _get__cachedConnectToServerParams();
-    // Set instance field: private readonly MasterServerConnectionManager/ConnectToServerParams _cachedConnectToServerParams
-    void _set__cachedConnectToServerParams(GlobalNamespace::MasterServerConnectionManager::ConnectToServerParams* value);
+    // Get instance field reference: private readonly PlatformNetworkPlayerModel _platformNetworkPlayerModel
+    GlobalNamespace::PlatformNetworkPlayerModel*& dyn__platformNetworkPlayerModel();
+    // Get instance field reference: private readonly LocalNetworkPlayerModel _localNetworkPlayerModel
+    GlobalNamespace::LocalNetworkPlayerModel*& dyn__localNetworkPlayerModel();
+    // Get instance field reference: private readonly IPlatformUserModel _platformUserModel
+    GlobalNamespace::IPlatformUserModel*& dyn__platformUserModel();
+    // Get instance field reference: private readonly INetworkConfig _networkConfig
+    GlobalNamespace::INetworkConfig*& dyn__networkConfig();
+    // Get instance field reference: private IAuthenticationTokenProvider _authenticationTokenProvider
+    GlobalNamespace::IAuthenticationTokenProvider*& dyn__authenticationTokenProvider();
+    // Get instance field reference: private UnifiedNetworkPlayerModel/UnifiedNetworkPlayer _localPlayer
+    GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer*& dyn__localPlayer();
+    // Get instance field reference: private System.Boolean _networkingFailed
+    bool& dyn__networkingFailed();
+    // Get instance field reference: private System.Boolean _masterServerUnreachable
+    bool& dyn__masterServerUnreachable();
+    // Get instance field reference: private System.Int32 _currentPlayerCount
+    int& dyn__currentPlayerCount();
+    // Get instance field reference: private System.Action`1<System.Int32> partySizeChangedEvent
+    System::Action_1<int>*& dyn_partySizeChangedEvent();
+    // Get instance field reference: private System.Action partyRefreshingEvent
+    System::Action*& dyn_partyRefreshingEvent();
+    // Get instance field reference: private System.Action`1<INetworkPlayerModel> partyChangedEvent
+    System::Action_1<GlobalNamespace::INetworkPlayerModel*>*& dyn_partyChangedEvent();
+    // Get instance field reference: private System.Action`1<INetworkPlayer> joinRequestedEvent
+    System::Action_1<GlobalNamespace::INetworkPlayer*>*& dyn_joinRequestedEvent();
+    // Get instance field reference: private System.Action`1<INetworkPlayer> inviteRequestedEvent
+    System::Action_1<GlobalNamespace::INetworkPlayer*>*& dyn_inviteRequestedEvent();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<UnifiedNetworkPlayerModel/UnifiedNetworkPlayer> _partyPlayers
+    System::Collections::Generic::List_1<GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer*>*& dyn__partyPlayers();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<UnifiedNetworkPlayerModel/UnifiedNetworkServer> _publicServers
+    System::Collections::Generic::List_1<GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkServer*>*& dyn__publicServers();
+    // Get instance field reference: private PartyMessageHandler _partyMessageHandler
+    GlobalNamespace::PartyMessageHandler*& dyn__partyMessageHandler();
+    // Get instance field reference: private PartyMessageHandler _friendPartyMessageHandler
+    GlobalNamespace::PartyMessageHandler*& dyn__friendPartyMessageHandler();
+    // Get instance field reference: private PartyMessageHandler _localNetworkPartyMessageHandler
+    GlobalNamespace::PartyMessageHandler*& dyn__localNetworkPartyMessageHandler();
+    // Get instance field reference: private System.Single _lastServerRefresh
+    float& dyn__lastServerRefresh();
+    // Get instance field reference: private System.Boolean _isRefreshing
+    bool& dyn__isRefreshing();
+    // Get instance field reference: private System.Boolean _filterChanged
+    bool& dyn__filterChanged();
+    // Get instance field reference: private readonly MasterServerConnectionManager/StartClientParams _cachedStartClientParams
+    GlobalNamespace::MasterServerConnectionManager::StartClientParams*& dyn__cachedStartClientParams();
+    // Get instance field reference: private readonly MasterServerConnectionManager/ConnectToServerParams _cachedConnectToServerParams
+    GlobalNamespace::MasterServerConnectionManager::ConnectToServerParams*& dyn__cachedConnectToServerParams();
     // public System.Boolean get_hasNetworkingFailed()
     // Offset: 0x1353F7C
     bool get_hasNetworkingFailed();

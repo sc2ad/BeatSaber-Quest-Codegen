@@ -86,46 +86,26 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: User
     User(::Il2CppString* DisplayName_ = {}, uint64_t _ID_ = {}, ::Il2CppString* ImageURL_ = {}, ::Il2CppString* InviteToken_ = {}, ::Il2CppString* OculusID_ = {}, ::Il2CppString* Presence_ = {}, ::Il2CppString* PresenceDeeplinkMessage_ = {}, ::Il2CppString* PresenceDestinationApiName_ = {}, Oculus::Platform::UserPresenceStatus PresenceStatus_ = {}, ::Il2CppString* SmallImageUrl_ = {}) noexcept : DisplayName{DisplayName_}, _ID{_ID_}, ImageURL{ImageURL_}, InviteToken{InviteToken_}, OculusID{OculusID_}, Presence{Presence_}, PresenceDeeplinkMessage{PresenceDeeplinkMessage_}, PresenceDestinationApiName{PresenceDestinationApiName_}, PresenceStatus{PresenceStatus_}, SmallImageUrl{SmallImageUrl_} {}
-    // Get instance field: public readonly System.String DisplayName
-    ::Il2CppString* _get_DisplayName();
-    // Set instance field: public readonly System.String DisplayName
-    void _set_DisplayName(::Il2CppString* value);
-    // Get instance field: public readonly System.UInt64 ID
-    uint64_t _get_ID();
-    // Set instance field: public readonly System.UInt64 ID
-    void _set_ID(uint64_t value);
-    // Get instance field: public readonly System.String ImageURL
-    ::Il2CppString* _get_ImageURL();
-    // Set instance field: public readonly System.String ImageURL
-    void _set_ImageURL(::Il2CppString* value);
-    // Get instance field: public readonly System.String InviteToken
-    ::Il2CppString* _get_InviteToken();
-    // Set instance field: public readonly System.String InviteToken
-    void _set_InviteToken(::Il2CppString* value);
-    // Get instance field: public readonly System.String OculusID
-    ::Il2CppString* _get_OculusID();
-    // Set instance field: public readonly System.String OculusID
-    void _set_OculusID(::Il2CppString* value);
-    // Get instance field: public readonly System.String Presence
-    ::Il2CppString* _get_Presence();
-    // Set instance field: public readonly System.String Presence
-    void _set_Presence(::Il2CppString* value);
-    // Get instance field: public readonly System.String PresenceDeeplinkMessage
-    ::Il2CppString* _get_PresenceDeeplinkMessage();
-    // Set instance field: public readonly System.String PresenceDeeplinkMessage
-    void _set_PresenceDeeplinkMessage(::Il2CppString* value);
-    // Get instance field: public readonly System.String PresenceDestinationApiName
-    ::Il2CppString* _get_PresenceDestinationApiName();
-    // Set instance field: public readonly System.String PresenceDestinationApiName
-    void _set_PresenceDestinationApiName(::Il2CppString* value);
-    // Get instance field: public readonly Oculus.Platform.UserPresenceStatus PresenceStatus
-    Oculus::Platform::UserPresenceStatus _get_PresenceStatus();
-    // Set instance field: public readonly Oculus.Platform.UserPresenceStatus PresenceStatus
-    void _set_PresenceStatus(Oculus::Platform::UserPresenceStatus value);
-    // Get instance field: public readonly System.String SmallImageUrl
-    ::Il2CppString* _get_SmallImageUrl();
-    // Set instance field: public readonly System.String SmallImageUrl
-    void _set_SmallImageUrl(::Il2CppString* value);
+    // Get instance field reference: public readonly System.String DisplayName
+    ::Il2CppString*& dyn_DisplayName();
+    // Get instance field reference: public readonly System.UInt64 ID
+    uint64_t& dyn_ID();
+    // Get instance field reference: public readonly System.String ImageURL
+    ::Il2CppString*& dyn_ImageURL();
+    // Get instance field reference: public readonly System.String InviteToken
+    ::Il2CppString*& dyn_InviteToken();
+    // Get instance field reference: public readonly System.String OculusID
+    ::Il2CppString*& dyn_OculusID();
+    // Get instance field reference: public readonly System.String Presence
+    ::Il2CppString*& dyn_Presence();
+    // Get instance field reference: public readonly System.String PresenceDeeplinkMessage
+    ::Il2CppString*& dyn_PresenceDeeplinkMessage();
+    // Get instance field reference: public readonly System.String PresenceDestinationApiName
+    ::Il2CppString*& dyn_PresenceDestinationApiName();
+    // Get instance field reference: public readonly Oculus.Platform.UserPresenceStatus PresenceStatus
+    Oculus::Platform::UserPresenceStatus& dyn_PresenceStatus();
+    // Get instance field reference: public readonly System.String SmallImageUrl
+    ::Il2CppString*& dyn_SmallImageUrl();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14F07FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

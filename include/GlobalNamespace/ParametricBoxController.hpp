@@ -144,54 +144,30 @@ namespace GlobalNamespace {
     static int _get__widthEndID();
     // Set static field: static private readonly System.Int32 _widthEndID
     static void _set__widthEndID(int value);
-    // Get instance field: public System.Single width
-    float _get_width();
-    // Set instance field: public System.Single width
-    void _set_width(float value);
-    // Get instance field: public System.Single height
-    float _get_height();
-    // Set instance field: public System.Single height
-    void _set_height(float value);
-    // Get instance field: public System.Single length
-    float _get_length();
-    // Set instance field: public System.Single length
-    void _set_length(float value);
-    // Get instance field: public System.Single heightCenter
-    float _get_heightCenter();
-    // Set instance field: public System.Single heightCenter
-    void _set_heightCenter(float value);
-    // Get instance field: public UnityEngine.Color color
-    UnityEngine::Color _get_color();
-    // Set instance field: public UnityEngine.Color color
-    void _set_color(UnityEngine::Color value);
-    // Get instance field: public System.Single alphaMultiplier
-    float _get_alphaMultiplier();
-    // Set instance field: public System.Single alphaMultiplier
-    void _set_alphaMultiplier(float value);
-    // Get instance field: public System.Single minAlpha
-    float _get_minAlpha();
-    // Set instance field: public System.Single minAlpha
-    void _set_minAlpha(float value);
-    // Get instance field: public System.Single alphaStart
-    float _get_alphaStart();
-    // Set instance field: public System.Single alphaStart
-    void _set_alphaStart(float value);
-    // Get instance field: public System.Single alphaEnd
-    float _get_alphaEnd();
-    // Set instance field: public System.Single alphaEnd
-    void _set_alphaEnd(float value);
-    // Get instance field: public System.Single widthStart
-    float _get_widthStart();
-    // Set instance field: public System.Single widthStart
-    void _set_widthStart(float value);
-    // Get instance field: public System.Single widthEnd
-    float _get_widthEnd();
-    // Set instance field: public System.Single widthEnd
-    void _set_widthEnd(float value);
-    // Get instance field: private UnityEngine.MeshRenderer _meshRenderer
-    UnityEngine::MeshRenderer* _get__meshRenderer();
-    // Set instance field: private UnityEngine.MeshRenderer _meshRenderer
-    void _set__meshRenderer(UnityEngine::MeshRenderer* value);
+    // Get instance field reference: public System.Single width
+    float& dyn_width();
+    // Get instance field reference: public System.Single height
+    float& dyn_height();
+    // Get instance field reference: public System.Single length
+    float& dyn_length();
+    // Get instance field reference: public System.Single heightCenter
+    float& dyn_heightCenter();
+    // Get instance field reference: public UnityEngine.Color color
+    UnityEngine::Color& dyn_color();
+    // Get instance field reference: public System.Single alphaMultiplier
+    float& dyn_alphaMultiplier();
+    // Get instance field reference: public System.Single minAlpha
+    float& dyn_minAlpha();
+    // Get instance field reference: public System.Single alphaStart
+    float& dyn_alphaStart();
+    // Get instance field reference: public System.Single alphaEnd
+    float& dyn_alphaEnd();
+    // Get instance field reference: public System.Single widthStart
+    float& dyn_widthStart();
+    // Get instance field reference: public System.Single widthEnd
+    float& dyn_widthEnd();
+    // Get instance field reference: private UnityEngine.MeshRenderer _meshRenderer
+    UnityEngine::MeshRenderer*& dyn__meshRenderer();
     // protected System.Void Awake()
     // Offset: 0x1E1DBBC
     void Awake();

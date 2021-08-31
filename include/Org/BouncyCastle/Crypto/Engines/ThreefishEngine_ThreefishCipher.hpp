@@ -34,14 +34,10 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static_assert(sizeof(::Array<uint64_t>*) == 0x8);
     // Creating value type constructor for type: ThreefishCipher
     ThreefishCipher(::Array<uint64_t>* t_ = {}, ::Array<uint64_t>* kw_ = {}) noexcept : t{t_}, kw{kw_} {}
-    // Get instance field: protected readonly System.UInt64[] t
-    ::Array<uint64_t>* _get_t();
-    // Set instance field: protected readonly System.UInt64[] t
-    void _set_t(::Array<uint64_t>* value);
-    // Get instance field: protected readonly System.UInt64[] kw
-    ::Array<uint64_t>* _get_kw();
-    // Set instance field: protected readonly System.UInt64[] kw
-    void _set_kw(::Array<uint64_t>* value);
+    // Get instance field reference: protected readonly System.UInt64[] t
+    ::Array<uint64_t>*& dyn_t();
+    // Get instance field reference: protected readonly System.UInt64[] kw
+    ::Array<uint64_t>*& dyn_kw();
     // protected System.Void .ctor(System.UInt64[] kw, System.UInt64[] t)
     // Offset: 0x1ECC69C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

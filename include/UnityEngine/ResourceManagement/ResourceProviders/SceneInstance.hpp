@@ -48,14 +48,10 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private UnityEngine.SceneManagement.Scene m_Scene
-    UnityEngine::SceneManagement::Scene _get_m_Scene();
-    // Set instance field: private UnityEngine.SceneManagement.Scene m_Scene
-    void _set_m_Scene(UnityEngine::SceneManagement::Scene value);
-    // Get instance field: UnityEngine.AsyncOperation m_Operation
-    UnityEngine::AsyncOperation* _get_m_Operation();
-    // Set instance field: UnityEngine.AsyncOperation m_Operation
-    void _set_m_Operation(UnityEngine::AsyncOperation* value);
+    // Get instance field reference: private UnityEngine.SceneManagement.Scene m_Scene
+    UnityEngine::SceneManagement::Scene& dyn_m_Scene();
+    // Get instance field reference: UnityEngine.AsyncOperation m_Operation
+    UnityEngine::AsyncOperation*& dyn_m_Operation();
     // public UnityEngine.SceneManagement.Scene get_Scene()
     // Offset: 0x19F110C
     UnityEngine::SceneManagement::Scene get_Scene();

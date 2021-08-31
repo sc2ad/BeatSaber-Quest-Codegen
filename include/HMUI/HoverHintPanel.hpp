@@ -76,30 +76,18 @@ namespace HMUI {
     HoverHintPanel(TMPro::TextMeshProUGUI* text_ = {}, UnityEngine::Vector2 padding_ = {}, UnityEngine::Vector2 containerPadding_ = {}, float separator_ = {}, float zOffset_ = {}, bool isShown_ = {}) noexcept : text{text_}, padding{padding_}, containerPadding{containerPadding_}, separator{separator_}, zOffset{zOffset_}, isShown{isShown_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private TMPro.TextMeshProUGUI _text
-    TMPro::TextMeshProUGUI* _get__text();
-    // Set instance field: private TMPro.TextMeshProUGUI _text
-    void _set__text(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private UnityEngine.Vector2 _padding
-    UnityEngine::Vector2 _get__padding();
-    // Set instance field: private UnityEngine.Vector2 _padding
-    void _set__padding(UnityEngine::Vector2 value);
-    // Get instance field: private UnityEngine.Vector2 _containerPadding
-    UnityEngine::Vector2 _get__containerPadding();
-    // Set instance field: private UnityEngine.Vector2 _containerPadding
-    void _set__containerPadding(UnityEngine::Vector2 value);
-    // Get instance field: private System.Single _separator
-    float _get__separator();
-    // Set instance field: private System.Single _separator
-    void _set__separator(float value);
-    // Get instance field: private System.Single _zOffset
-    float _get__zOffset();
-    // Set instance field: private System.Single _zOffset
-    void _set__zOffset(float value);
-    // Get instance field: private System.Boolean <isShown>k__BackingField
-    bool _get_$isShown$k__BackingField();
-    // Set instance field: private System.Boolean <isShown>k__BackingField
-    void _set_$isShown$k__BackingField(bool value);
+    // Get instance field reference: private TMPro.TextMeshProUGUI _text
+    TMPro::TextMeshProUGUI*& dyn__text();
+    // Get instance field reference: private UnityEngine.Vector2 _padding
+    UnityEngine::Vector2& dyn__padding();
+    // Get instance field reference: private UnityEngine.Vector2 _containerPadding
+    UnityEngine::Vector2& dyn__containerPadding();
+    // Get instance field reference: private System.Single _separator
+    float& dyn__separator();
+    // Get instance field reference: private System.Single _zOffset
+    float& dyn__zOffset();
+    // Get instance field reference: private System.Boolean <isShown>k__BackingField
+    bool& dyn_$isShown$k__BackingField();
     // public System.Boolean get_isShown()
     // Offset: 0x1373D1C
     bool get_isShown();

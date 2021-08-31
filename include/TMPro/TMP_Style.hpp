@@ -58,30 +58,18 @@ namespace TMPro {
     static_assert(sizeof(::Array<int>*) == 0x8);
     // Creating value type constructor for type: TMP_Style
     TMP_Style(::Il2CppString* m_Name_ = {}, int m_HashCode_ = {}, ::Il2CppString* m_OpeningDefinition_ = {}, ::Il2CppString* m_ClosingDefinition_ = {}, ::Array<int>* m_OpeningTagArray_ = {}, ::Array<int>* m_ClosingTagArray_ = {}) noexcept : m_Name{m_Name_}, m_HashCode{m_HashCode_}, m_OpeningDefinition{m_OpeningDefinition_}, m_ClosingDefinition{m_ClosingDefinition_}, m_OpeningTagArray{m_OpeningTagArray_}, m_ClosingTagArray{m_ClosingTagArray_} {}
-    // Get instance field: private System.String m_Name
-    ::Il2CppString* _get_m_Name();
-    // Set instance field: private System.String m_Name
-    void _set_m_Name(::Il2CppString* value);
-    // Get instance field: private System.Int32 m_HashCode
-    int _get_m_HashCode();
-    // Set instance field: private System.Int32 m_HashCode
-    void _set_m_HashCode(int value);
-    // Get instance field: private System.String m_OpeningDefinition
-    ::Il2CppString* _get_m_OpeningDefinition();
-    // Set instance field: private System.String m_OpeningDefinition
-    void _set_m_OpeningDefinition(::Il2CppString* value);
-    // Get instance field: private System.String m_ClosingDefinition
-    ::Il2CppString* _get_m_ClosingDefinition();
-    // Set instance field: private System.String m_ClosingDefinition
-    void _set_m_ClosingDefinition(::Il2CppString* value);
-    // Get instance field: private System.Int32[] m_OpeningTagArray
-    ::Array<int>* _get_m_OpeningTagArray();
-    // Set instance field: private System.Int32[] m_OpeningTagArray
-    void _set_m_OpeningTagArray(::Array<int>* value);
-    // Get instance field: private System.Int32[] m_ClosingTagArray
-    ::Array<int>* _get_m_ClosingTagArray();
-    // Set instance field: private System.Int32[] m_ClosingTagArray
-    void _set_m_ClosingTagArray(::Array<int>* value);
+    // Get instance field reference: private System.String m_Name
+    ::Il2CppString*& dyn_m_Name();
+    // Get instance field reference: private System.Int32 m_HashCode
+    int& dyn_m_HashCode();
+    // Get instance field reference: private System.String m_OpeningDefinition
+    ::Il2CppString*& dyn_m_OpeningDefinition();
+    // Get instance field reference: private System.String m_ClosingDefinition
+    ::Il2CppString*& dyn_m_ClosingDefinition();
+    // Get instance field reference: private System.Int32[] m_OpeningTagArray
+    ::Array<int>*& dyn_m_OpeningTagArray();
+    // Get instance field reference: private System.Int32[] m_ClosingTagArray
+    ::Array<int>*& dyn_m_ClosingTagArray();
     // public System.String get_name()
     // Offset: 0x115F380
     ::Il2CppString* get_name();

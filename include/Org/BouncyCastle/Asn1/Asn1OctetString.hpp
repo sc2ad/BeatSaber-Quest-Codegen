@@ -50,10 +50,8 @@ namespace Org::BouncyCastle::Asn1 {
     constexpr operator ::Array<uint8_t>*() const noexcept {
       return str;
     }
-    // Get instance field: System.Byte[] str
-    ::Array<uint8_t>* _get_str();
-    // Set instance field: System.Byte[] str
-    void _set_str(::Array<uint8_t>* value);
+    // Get instance field reference: System.Byte[] str
+    ::Array<uint8_t>*& dyn_str();
     // System.Void .ctor(System.Byte[] str)
     // Offset: 0x172B1CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

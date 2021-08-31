@@ -117,18 +117,12 @@ namespace System::Threading {
     static int _get_MaxWaitHandles();
     // Set static field: static System.Int32 MaxWaitHandles
     static void _set_MaxWaitHandles(int value);
-    // Get instance field: private System.IntPtr waitHandle
-    System::IntPtr _get_waitHandle();
-    // Set instance field: private System.IntPtr waitHandle
-    void _set_waitHandle(System::IntPtr value);
-    // Get instance field: Microsoft.Win32.SafeHandles.SafeWaitHandle safeWaitHandle
-    Microsoft::Win32::SafeHandles::SafeWaitHandle* _get_safeWaitHandle();
-    // Set instance field: Microsoft.Win32.SafeHandles.SafeWaitHandle safeWaitHandle
-    void _set_safeWaitHandle(Microsoft::Win32::SafeHandles::SafeWaitHandle* value);
-    // Get instance field: System.Boolean hasThreadAffinity
-    bool _get_hasThreadAffinity();
-    // Set instance field: System.Boolean hasThreadAffinity
-    void _set_hasThreadAffinity(bool value);
+    // Get instance field reference: private System.IntPtr waitHandle
+    System::IntPtr& dyn_waitHandle();
+    // Get instance field reference: Microsoft.Win32.SafeHandles.SafeWaitHandle safeWaitHandle
+    Microsoft::Win32::SafeHandles::SafeWaitHandle*& dyn_safeWaitHandle();
+    // Get instance field reference: System.Boolean hasThreadAffinity
+    bool& dyn_hasThreadAffinity();
     // public System.Void set_Handle(System.IntPtr value)
     // Offset: 0x187CFD0
     void set_Handle(System::IntPtr value);

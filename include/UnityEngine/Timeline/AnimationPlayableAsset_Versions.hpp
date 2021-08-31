@@ -46,10 +46,8 @@ namespace UnityEngine::Timeline {
     static UnityEngine::Timeline::AnimationPlayableAsset::Versions _get_RotationAsEuler();
     // Set static field: static public UnityEngine.Timeline.AnimationPlayableAsset/UnityEngine.Timeline.Versions RotationAsEuler
     static void _set_RotationAsEuler(UnityEngine::Timeline::AnimationPlayableAsset::Versions value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.Timeline.AnimationPlayableAsset/UnityEngine.Timeline.Versions
   #pragma pack(pop)
   static check_size<sizeof(AnimationPlayableAsset::Versions), 0 + sizeof(int)> __UnityEngine_Timeline_AnimationPlayableAsset_VersionsSizeCheck;

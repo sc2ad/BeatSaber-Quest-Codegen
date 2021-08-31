@@ -88,34 +88,20 @@ namespace GlobalNamespace {
     static_assert(sizeof(Valve::VR::CameraVideoStreamFrameHeader_t) == 0x62);
     // Creating value type constructor for type: VideoStreamTexture
     VideoStreamTexture(bool undistorted_ = {}, Valve::VR::VRTextureBounds_t frameBounds_ = {}, UnityEngine::Texture2D* texture_ = {}, int prevFrameCount_ = {}, uint glTextureId_ = {}, GlobalNamespace::SteamVR_TrackedCamera::VideoStream* videostream_ = {}, Valve::VR::CameraVideoStreamFrameHeader_t header_ = {}) noexcept : undistorted{undistorted_}, frameBounds{frameBounds_}, texture{texture_}, prevFrameCount{prevFrameCount_}, glTextureId{glTextureId_}, videostream{videostream_}, header{header_} {}
-    // Get instance field: private System.Boolean <undistorted>k__BackingField
-    bool _get_$undistorted$k__BackingField();
-    // Set instance field: private System.Boolean <undistorted>k__BackingField
-    void _set_$undistorted$k__BackingField(bool value);
-    // Get instance field: private Valve.VR.VRTextureBounds_t <frameBounds>k__BackingField
-    Valve::VR::VRTextureBounds_t _get_$frameBounds$k__BackingField();
-    // Set instance field: private Valve.VR.VRTextureBounds_t <frameBounds>k__BackingField
-    void _set_$frameBounds$k__BackingField(Valve::VR::VRTextureBounds_t value);
-    // Get instance field: private UnityEngine.Texture2D _texture
-    UnityEngine::Texture2D* _get__texture();
-    // Set instance field: private UnityEngine.Texture2D _texture
-    void _set__texture(UnityEngine::Texture2D* value);
-    // Get instance field: private System.Int32 prevFrameCount
-    int _get_prevFrameCount();
-    // Set instance field: private System.Int32 prevFrameCount
-    void _set_prevFrameCount(int value);
-    // Get instance field: private System.UInt32 glTextureId
-    uint _get_glTextureId();
-    // Set instance field: private System.UInt32 glTextureId
-    void _set_glTextureId(uint value);
-    // Get instance field: private SteamVR_TrackedCamera/VideoStream videostream
-    GlobalNamespace::SteamVR_TrackedCamera::VideoStream* _get_videostream();
-    // Set instance field: private SteamVR_TrackedCamera/VideoStream videostream
-    void _set_videostream(GlobalNamespace::SteamVR_TrackedCamera::VideoStream* value);
-    // Get instance field: private Valve.VR.CameraVideoStreamFrameHeader_t header
-    Valve::VR::CameraVideoStreamFrameHeader_t _get_header();
-    // Set instance field: private Valve.VR.CameraVideoStreamFrameHeader_t header
-    void _set_header(Valve::VR::CameraVideoStreamFrameHeader_t value);
+    // Get instance field reference: private System.Boolean <undistorted>k__BackingField
+    bool& dyn_$undistorted$k__BackingField();
+    // Get instance field reference: private Valve.VR.VRTextureBounds_t <frameBounds>k__BackingField
+    Valve::VR::VRTextureBounds_t& dyn_$frameBounds$k__BackingField();
+    // Get instance field reference: private UnityEngine.Texture2D _texture
+    UnityEngine::Texture2D*& dyn__texture();
+    // Get instance field reference: private System.Int32 prevFrameCount
+    int& dyn_prevFrameCount();
+    // Get instance field reference: private System.UInt32 glTextureId
+    uint& dyn_glTextureId();
+    // Get instance field reference: private SteamVR_TrackedCamera/VideoStream videostream
+    GlobalNamespace::SteamVR_TrackedCamera::VideoStream*& dyn_videostream();
+    // Get instance field reference: private Valve.VR.CameraVideoStreamFrameHeader_t header
+    Valve::VR::CameraVideoStreamFrameHeader_t& dyn_header();
     // public System.Boolean get_undistorted()
     // Offset: 0x16FD85C
     bool get_undistorted();

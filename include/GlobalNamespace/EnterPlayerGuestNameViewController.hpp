@@ -99,30 +99,18 @@ namespace GlobalNamespace {
     static int _get_kMaxShowPlayer();
     // Set static field: static private System.Int32 kMaxShowPlayer
     static void _set_kMaxShowPlayer(int value);
-    // Get instance field: private StringSignal _playerNameWasEnteredSignal
-    GlobalNamespace::StringSignal* _get__playerNameWasEnteredSignal();
-    // Set instance field: private StringSignal _playerNameWasEnteredSignal
-    void _set__playerNameWasEnteredSignal(GlobalNamespace::StringSignal* value);
-    // Get instance field: private HMUI.UIKeyboard _uiKeyboard
-    HMUI::UIKeyboard* _get__uiKeyboard();
-    // Set instance field: private HMUI.UIKeyboard _uiKeyboard
-    void _set__uiKeyboard(HMUI::UIKeyboard* value);
-    // Get instance field: private HMUI.InputFieldView _nameInputFieldView
-    HMUI::InputFieldView* _get__nameInputFieldView();
-    // Set instance field: private HMUI.InputFieldView _nameInputFieldView
-    void _set__nameInputFieldView(HMUI::InputFieldView* value);
-    // Get instance field: private GuestNameButtonsListItemsList _guestNameButtonsListItemsList
-    GlobalNamespace::GuestNameButtonsListItemsList* _get__guestNameButtonsListItemsList();
-    // Set instance field: private GuestNameButtonsListItemsList _guestNameButtonsListItemsList
-    void _set__guestNameButtonsListItemsList(GlobalNamespace::GuestNameButtonsListItemsList* value);
-    // Get instance field: private readonly PlayerDataModel _playerDataModel
-    GlobalNamespace::PlayerDataModel* _get__playerDataModel();
-    // Set instance field: private readonly PlayerDataModel _playerDataModel
-    void _set__playerDataModel(GlobalNamespace::PlayerDataModel* value);
-    // Get instance field: private EnterPlayerGuestNameViewController/FinishDelegate _didFinishCallback
-    GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate* _get__didFinishCallback();
-    // Set instance field: private EnterPlayerGuestNameViewController/FinishDelegate _didFinishCallback
-    void _set__didFinishCallback(GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate* value);
+    // Get instance field reference: private StringSignal _playerNameWasEnteredSignal
+    GlobalNamespace::StringSignal*& dyn__playerNameWasEnteredSignal();
+    // Get instance field reference: private HMUI.UIKeyboard _uiKeyboard
+    HMUI::UIKeyboard*& dyn__uiKeyboard();
+    // Get instance field reference: private HMUI.InputFieldView _nameInputFieldView
+    HMUI::InputFieldView*& dyn__nameInputFieldView();
+    // Get instance field reference: private GuestNameButtonsListItemsList _guestNameButtonsListItemsList
+    GlobalNamespace::GuestNameButtonsListItemsList*& dyn__guestNameButtonsListItemsList();
+    // Get instance field reference: private readonly PlayerDataModel _playerDataModel
+    GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
+    // Get instance field reference: private EnterPlayerGuestNameViewController/FinishDelegate _didFinishCallback
+    GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate*& dyn__didFinishCallback();
     // public System.Void Init(EnterPlayerGuestNameViewController/FinishDelegate didFinishCallback)
     // Offset: 0x10505D8
     void Init(GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate* didFinishCallback);

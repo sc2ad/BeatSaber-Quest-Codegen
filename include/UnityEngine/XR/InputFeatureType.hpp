@@ -98,10 +98,8 @@ namespace UnityEngine::XR {
     static UnityEngine::XR::InputFeatureType _get_kUnityXRInputFeatureTypeInvalid();
     // Set static field: static public UnityEngine.XR.InputFeatureType kUnityXRInputFeatureTypeInvalid
     static void _set_kUnityXRInputFeatureTypeInvalid(UnityEngine::XR::InputFeatureType value);
-    // Get instance field: public System.UInt32 value__
-    uint _get_value__();
-    // Set instance field: public System.UInt32 value__
-    void _set_value__(uint value);
+    // Get instance field reference: public System.UInt32 value__
+    uint& dyn_value__();
   }; // UnityEngine.XR.InputFeatureType
   #pragma pack(pop)
   static check_size<sizeof(InputFeatureType), 0 + sizeof(uint)> __UnityEngine_XR_InputFeatureTypeSizeCheck;

@@ -73,26 +73,16 @@ namespace Zenject {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: $$c__DisplayClass15_0
     $$c__DisplayClass15_0(Zenject::PrefabInstantiator* $$4__this_ = {}, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args_ = {}, UnityEngine::GameObject* gameObject_ = {}, Zenject::InjectContext* context_ = {}, bool shouldMakeActive_ = {}) noexcept : $$4__this{$$4__this_}, args{args_}, gameObject{gameObject_}, context{context_}, shouldMakeActive{shouldMakeActive_} {}
-    // Get instance field: public Zenject.PrefabInstantiator <>4__this
-    Zenject::PrefabInstantiator* _get_$$4__this();
-    // Set instance field: public Zenject.PrefabInstantiator <>4__this
-    void _set_$$4__this(Zenject::PrefabInstantiator* value);
-    // Get instance field: public System.Collections.Generic.List`1<Zenject.TypeValuePair> args
-    System::Collections::Generic::List_1<Zenject::TypeValuePair>* _get_args();
-    // Set instance field: public System.Collections.Generic.List`1<Zenject.TypeValuePair> args
-    void _set_args(System::Collections::Generic::List_1<Zenject::TypeValuePair>* value);
-    // Get instance field: public UnityEngine.GameObject gameObject
-    UnityEngine::GameObject* _get_gameObject();
-    // Set instance field: public UnityEngine.GameObject gameObject
-    void _set_gameObject(UnityEngine::GameObject* value);
-    // Get instance field: public Zenject.InjectContext context
-    Zenject::InjectContext* _get_context();
-    // Set instance field: public Zenject.InjectContext context
-    void _set_context(Zenject::InjectContext* value);
-    // Get instance field: public System.Boolean shouldMakeActive
-    bool _get_shouldMakeActive();
-    // Set instance field: public System.Boolean shouldMakeActive
-    void _set_shouldMakeActive(bool value);
+    // Get instance field reference: public Zenject.PrefabInstantiator <>4__this
+    Zenject::PrefabInstantiator*& dyn_$$4__this();
+    // Get instance field reference: public System.Collections.Generic.List`1<Zenject.TypeValuePair> args
+    System::Collections::Generic::List_1<Zenject::TypeValuePair>*& dyn_args();
+    // Get instance field reference: public UnityEngine.GameObject gameObject
+    UnityEngine::GameObject*& dyn_gameObject();
+    // Get instance field reference: public Zenject.InjectContext context
+    Zenject::InjectContext*& dyn_context();
+    // Get instance field reference: public System.Boolean shouldMakeActive
+    bool& dyn_shouldMakeActive();
     // System.Void <Instantiate>b__0()
     // Offset: 0x17163CC
     void $Instantiate$b__0();

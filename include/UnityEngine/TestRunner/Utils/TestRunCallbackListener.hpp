@@ -63,10 +63,8 @@ namespace UnityEngine::TestRunner::Utils {
     TestRunCallbackListener(::Array<UnityEngine::TestRunner::ITestRunCallback*>* m_Callbacks_ = {}) noexcept : m_Callbacks{m_Callbacks_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.TestRunner.ITestRunCallback[] m_Callbacks
-    ::Array<UnityEngine::TestRunner::ITestRunCallback*>* _get_m_Callbacks();
-    // Set instance field: private UnityEngine.TestRunner.ITestRunCallback[] m_Callbacks
-    void _set_m_Callbacks(::Array<UnityEngine::TestRunner::ITestRunCallback*>* value);
+    // Get instance field reference: private UnityEngine.TestRunner.ITestRunCallback[] m_Callbacks
+    ::Array<UnityEngine::TestRunner::ITestRunCallback*>*& dyn_m_Callbacks();
     // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
     // Offset: 0x14BDB08
     void RunStarted(NUnit::Framework::Interfaces::ITest* testsToRun);

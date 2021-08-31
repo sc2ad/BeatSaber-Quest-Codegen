@@ -78,26 +78,16 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IMenuButtonTrigger() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMenuButtonTrigger*>(this);
     }
-    // Get instance field: private System.Action menuButtonTriggeredEvent
-    System::Action* _get_menuButtonTriggeredEvent();
-    // Set instance field: private System.Action menuButtonTriggeredEvent
-    void _set_menuButtonTriggeredEvent(System::Action* value);
-    // Get instance field: private System.Single _pressDuration
-    float _get__pressDuration();
-    // Set instance field: private System.Single _pressDuration
-    void _set__pressDuration(float value);
-    // Get instance field: private System.Single _timer
-    float _get__timer();
-    // Set instance field: private System.Single _timer
-    void _set__timer(float value);
-    // Get instance field: private System.Boolean _waitingForButtonRelease
-    bool _get__waitingForButtonRelease();
-    // Set instance field: private System.Boolean _waitingForButtonRelease
-    void _set__waitingForButtonRelease(bool value);
-    // Get instance field: private VRControllersInputManager _vrControllersInputManager
-    GlobalNamespace::VRControllersInputManager* _get__vrControllersInputManager();
-    // Set instance field: private VRControllersInputManager _vrControllersInputManager
-    void _set__vrControllersInputManager(GlobalNamespace::VRControllersInputManager* value);
+    // Get instance field reference: private System.Action menuButtonTriggeredEvent
+    System::Action*& dyn_menuButtonTriggeredEvent();
+    // Get instance field reference: private System.Single _pressDuration
+    float& dyn__pressDuration();
+    // Get instance field reference: private System.Single _timer
+    float& dyn__timer();
+    // Get instance field reference: private System.Boolean _waitingForButtonRelease
+    bool& dyn__waitingForButtonRelease();
+    // Get instance field reference: private VRControllersInputManager _vrControllersInputManager
+    GlobalNamespace::VRControllersInputManager*& dyn__vrControllersInputManager();
     // public System.Void add_menuButtonTriggeredEvent(System.Action value)
     // Offset: 0x10FAA04
     void add_menuButtonTriggeredEvent(System::Action* value);

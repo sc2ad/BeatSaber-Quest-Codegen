@@ -88,38 +88,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: SpriteLightWithId
     SpriteLightWithId(UnityEngine::SpriteRenderer* spriteRenderer_ = {}, bool hideIfAlphaOutOfRange_ = {}, float hideAlphaRangeMin_ = {}, float hideAlphaRangeMax_ = {}, float intensity_ = {}, float minAlpha_ = {}, bool setColorOnly_ = {}, bool setOnlyOnce_ = {}) noexcept : spriteRenderer{spriteRenderer_}, hideIfAlphaOutOfRange{hideIfAlphaOutOfRange_}, hideAlphaRangeMin{hideAlphaRangeMin_}, hideAlphaRangeMax{hideAlphaRangeMax_}, intensity{intensity_}, minAlpha{minAlpha_}, setColorOnly{setColorOnly_}, setOnlyOnce{setOnlyOnce_} {}
-    // Get instance field: private UnityEngine.SpriteRenderer _spriteRenderer
-    UnityEngine::SpriteRenderer* _get__spriteRenderer();
-    // Set instance field: private UnityEngine.SpriteRenderer _spriteRenderer
-    void _set__spriteRenderer(UnityEngine::SpriteRenderer* value);
-    // Get instance field: private System.Boolean _hideIfAlphaOutOfRange
-    bool _get__hideIfAlphaOutOfRange();
-    // Set instance field: private System.Boolean _hideIfAlphaOutOfRange
-    void _set__hideIfAlphaOutOfRange(bool value);
-    // Get instance field: private System.Single _hideAlphaRangeMin
-    float _get__hideAlphaRangeMin();
-    // Set instance field: private System.Single _hideAlphaRangeMin
-    void _set__hideAlphaRangeMin(float value);
-    // Get instance field: private System.Single _hideAlphaRangeMax
-    float _get__hideAlphaRangeMax();
-    // Set instance field: private System.Single _hideAlphaRangeMax
-    void _set__hideAlphaRangeMax(float value);
-    // Get instance field: private System.Single _intensity
-    float _get__intensity();
-    // Set instance field: private System.Single _intensity
-    void _set__intensity(float value);
-    // Get instance field: private System.Single _minAlpha
-    float _get__minAlpha();
-    // Set instance field: private System.Single _minAlpha
-    void _set__minAlpha(float value);
-    // Get instance field: private System.Boolean _setColorOnly
-    bool _get__setColorOnly();
-    // Set instance field: private System.Boolean _setColorOnly
-    void _set__setColorOnly(bool value);
-    // Get instance field: private System.Boolean _setOnlyOnce
-    bool _get__setOnlyOnce();
-    // Set instance field: private System.Boolean _setOnlyOnce
-    void _set__setOnlyOnce(bool value);
+    // Get instance field reference: private UnityEngine.SpriteRenderer _spriteRenderer
+    UnityEngine::SpriteRenderer*& dyn__spriteRenderer();
+    // Get instance field reference: private System.Boolean _hideIfAlphaOutOfRange
+    bool& dyn__hideIfAlphaOutOfRange();
+    // Get instance field reference: private System.Single _hideAlphaRangeMin
+    float& dyn__hideAlphaRangeMin();
+    // Get instance field reference: private System.Single _hideAlphaRangeMax
+    float& dyn__hideAlphaRangeMax();
+    // Get instance field reference: private System.Single _intensity
+    float& dyn__intensity();
+    // Get instance field reference: private System.Single _minAlpha
+    float& dyn__minAlpha();
+    // Get instance field reference: private System.Boolean _setColorOnly
+    bool& dyn__setColorOnly();
+    // Get instance field reference: private System.Boolean _setOnlyOnce
+    bool& dyn__setOnlyOnce();
     // public UnityEngine.Color get_color()
     // Offset: 0x1E1F898
     UnityEngine::Color get_color();

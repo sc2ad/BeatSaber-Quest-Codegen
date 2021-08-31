@@ -72,14 +72,10 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public readonly UnityEngine.Vector3 pos
-      UnityEngine::Vector3 _get_pos();
-      // Set instance field: public readonly UnityEngine.Vector3 pos
-      void _set_pos(UnityEngine::Vector3 value);
-      // Get instance field: public readonly UnityEngine.Quaternion rot
-      UnityEngine::Quaternion _get_rot();
-      // Set instance field: public readonly UnityEngine.Quaternion rot
-      void _set_rot(UnityEngine::Quaternion value);
+      // Get instance field reference: public readonly UnityEngine.Vector3 pos
+      UnityEngine::Vector3& dyn_pos();
+      // Get instance field reference: public readonly UnityEngine.Quaternion rot
+      UnityEngine::Quaternion& dyn_rot();
       // public System.Void .ctor(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
       // Offset: 0x135C938
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -105,14 +101,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::VRControllersRecorderData::Keyframe*>*) == 0x8);
     // Creating value type constructor for type: VRControllersRecorderData
     VRControllersRecorderData(::Array<GlobalNamespace::VRControllersRecorderData::NodeInfo*>* nodesInfo_ = {}, System::Collections::Generic::List_1<GlobalNamespace::VRControllersRecorderData::Keyframe*>* keyframes_ = {}) noexcept : nodesInfo{nodesInfo_}, keyframes{keyframes_} {}
-    // Get instance field: public readonly VRControllersRecorderData/NodeInfo[] nodesInfo
-    ::Array<GlobalNamespace::VRControllersRecorderData::NodeInfo*>* _get_nodesInfo();
-    // Set instance field: public readonly VRControllersRecorderData/NodeInfo[] nodesInfo
-    void _set_nodesInfo(::Array<GlobalNamespace::VRControllersRecorderData::NodeInfo*>* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<VRControllersRecorderData/Keyframe> _keyframes
-    System::Collections::Generic::List_1<GlobalNamespace::VRControllersRecorderData::Keyframe*>* _get__keyframes();
-    // Set instance field: private readonly System.Collections.Generic.List`1<VRControllersRecorderData/Keyframe> _keyframes
-    void _set__keyframes(System::Collections::Generic::List_1<GlobalNamespace::VRControllersRecorderData::Keyframe*>* value);
+    // Get instance field reference: public readonly VRControllersRecorderData/NodeInfo[] nodesInfo
+    ::Array<GlobalNamespace::VRControllersRecorderData::NodeInfo*>*& dyn_nodesInfo();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<VRControllersRecorderData/Keyframe> _keyframes
+    System::Collections::Generic::List_1<GlobalNamespace::VRControllersRecorderData::Keyframe*>*& dyn__keyframes();
     // public System.Int32 get_numberOfKeyframes()
     // Offset: 0x135C8B0
     int get_numberOfKeyframes();

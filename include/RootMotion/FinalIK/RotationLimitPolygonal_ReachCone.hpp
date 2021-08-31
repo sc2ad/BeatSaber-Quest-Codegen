@@ -48,22 +48,14 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Creating value type constructor for type: ReachCone
     ReachCone(::Array<UnityEngine::Vector3>* tetrahedron_ = {}, float volume_ = {}, UnityEngine::Vector3 S_ = {}, UnityEngine::Vector3 B_ = {}) noexcept : tetrahedron{tetrahedron_}, volume{volume_}, S{S_}, B{B_} {}
-    // Get instance field: public UnityEngine.Vector3[] tetrahedron
-    ::Array<UnityEngine::Vector3>* _get_tetrahedron();
-    // Set instance field: public UnityEngine.Vector3[] tetrahedron
-    void _set_tetrahedron(::Array<UnityEngine::Vector3>* value);
-    // Get instance field: public System.Single volume
-    float _get_volume();
-    // Set instance field: public System.Single volume
-    void _set_volume(float value);
-    // Get instance field: public UnityEngine.Vector3 S
-    UnityEngine::Vector3 _get_S();
-    // Set instance field: public UnityEngine.Vector3 S
-    void _set_S(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Vector3 B
-    UnityEngine::Vector3 _get_B();
-    // Set instance field: public UnityEngine.Vector3 B
-    void _set_B(UnityEngine::Vector3 value);
+    // Get instance field reference: public UnityEngine.Vector3[] tetrahedron
+    ::Array<UnityEngine::Vector3>*& dyn_tetrahedron();
+    // Get instance field reference: public System.Single volume
+    float& dyn_volume();
+    // Get instance field reference: public UnityEngine.Vector3 S
+    UnityEngine::Vector3& dyn_S();
+    // Get instance field reference: public UnityEngine.Vector3 B
+    UnityEngine::Vector3& dyn_B();
     // public UnityEngine.Vector3 get_o()
     // Offset: 0x1ADFAD8
     UnityEngine::Vector3 get_o();

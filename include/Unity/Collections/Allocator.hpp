@@ -69,10 +69,8 @@ namespace Unity::Collections {
     static Unity::Collections::Allocator _get_AudioKernel();
     // Set static field: static public Unity.Collections.Allocator AudioKernel
     static void _set_AudioKernel(Unity::Collections::Allocator value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Unity.Collections.Allocator
   #pragma pack(pop)
   static check_size<sizeof(Allocator), 0 + sizeof(int)> __Unity_Collections_AllocatorSizeCheck;

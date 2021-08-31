@@ -47,10 +47,8 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::ColorScheme*() const noexcept {
       return colorScheme;
     }
-    // Get instance field: private readonly ColorScheme _colorScheme
-    GlobalNamespace::ColorScheme* _get__colorScheme();
-    // Set instance field: private readonly ColorScheme _colorScheme
-    void _set__colorScheme(GlobalNamespace::ColorScheme* value);
+    // Get instance field reference: private readonly ColorScheme _colorScheme
+    GlobalNamespace::ColorScheme*& dyn__colorScheme();
     // public UnityEngine.Color get_obstaclesColor()
     // Offset: 0x10EDC08
     UnityEngine::Color get_obstaclesColor();

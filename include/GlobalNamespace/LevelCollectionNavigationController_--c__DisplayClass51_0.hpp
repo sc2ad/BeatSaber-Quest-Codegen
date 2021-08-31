@@ -42,14 +42,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(HMUI::ViewController*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass51_0
     $$c__DisplayClass51_0(GlobalNamespace::LevelCollectionNavigationController* $$4__this_ = {}, HMUI::ViewController* viewController_ = {}) noexcept : $$4__this{$$4__this_}, viewController{viewController_} {}
-    // Get instance field: public LevelCollectionNavigationController <>4__this
-    GlobalNamespace::LevelCollectionNavigationController* _get_$$4__this();
-    // Set instance field: public LevelCollectionNavigationController <>4__this
-    void _set_$$4__this(GlobalNamespace::LevelCollectionNavigationController* value);
-    // Get instance field: public HMUI.ViewController viewController
-    HMUI::ViewController* _get_viewController();
-    // Set instance field: public HMUI.ViewController viewController
-    void _set_viewController(HMUI::ViewController* value);
+    // Get instance field reference: public LevelCollectionNavigationController <>4__this
+    GlobalNamespace::LevelCollectionNavigationController*& dyn_$$4__this();
+    // Get instance field reference: public HMUI.ViewController viewController
+    HMUI::ViewController*& dyn_viewController();
     // System.Void <PresentDetailViewController>b__0()
     // Offset: 0x114CD64
     void $PresentDetailViewController$b__0();

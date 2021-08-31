@@ -37,10 +37,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Threading::CancellationTokenSource*) == 0x8);
     // Creating value type constructor for type: HMAsyncRequestWithCancellationToken
     HMAsyncRequestWithCancellationToken(System::Threading::CancellationTokenSource* cancellationTokenSource_ = {}) noexcept : cancellationTokenSource{cancellationTokenSource_} {}
-    // Get instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    System::Threading::CancellationTokenSource* _get__cancellationTokenSource();
-    // Set instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    void _set__cancellationTokenSource(System::Threading::CancellationTokenSource* value);
+    // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
+    System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
     // public System.Threading.CancellationTokenSource get_cancellationTokenSource()
     // Offset: 0x1149D88
     System::Threading::CancellationTokenSource* get_cancellationTokenSource();

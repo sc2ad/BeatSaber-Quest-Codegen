@@ -69,10 +69,8 @@ namespace System {
     static System::StringComparison _get_OrdinalIgnoreCase();
     // Set static field: static public System.StringComparison OrdinalIgnoreCase
     static void _set_OrdinalIgnoreCase(System::StringComparison value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.StringComparison
   #pragma pack(pop)
   static check_size<sizeof(StringComparison), 0 + sizeof(int)> __System_StringComparisonSizeCheck;

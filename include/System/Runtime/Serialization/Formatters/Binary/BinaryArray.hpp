@@ -91,42 +91,24 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum) == 0x4);
     // Creating value type constructor for type: BinaryArray
     BinaryArray(int objectId_ = {}, int rank_ = {}, ::Array<int>* lengthA_ = {}, ::Array<int>* lowerBoundA_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum_ = {}, ::Il2CppObject* typeInformation_ = {}, int assemId_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum binaryArrayTypeEnum_ = {}) noexcept : objectId{objectId_}, rank{rank_}, lengthA{lengthA_}, lowerBoundA{lowerBoundA_}, binaryTypeEnum{binaryTypeEnum_}, typeInformation{typeInformation_}, assemId{assemId_}, binaryHeaderEnum{binaryHeaderEnum_}, binaryArrayTypeEnum{binaryArrayTypeEnum_} {}
-    // Get instance field: System.Int32 objectId
-    int _get_objectId();
-    // Set instance field: System.Int32 objectId
-    void _set_objectId(int value);
-    // Get instance field: System.Int32 rank
-    int _get_rank();
-    // Set instance field: System.Int32 rank
-    void _set_rank(int value);
-    // Get instance field: System.Int32[] lengthA
-    ::Array<int>* _get_lengthA();
-    // Set instance field: System.Int32[] lengthA
-    void _set_lengthA(::Array<int>* value);
-    // Get instance field: System.Int32[] lowerBoundA
-    ::Array<int>* _get_lowerBoundA();
-    // Set instance field: System.Int32[] lowerBoundA
-    void _set_lowerBoundA(::Array<int>* value);
-    // Get instance field: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum binaryTypeEnum
-    System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum _get_binaryTypeEnum();
-    // Set instance field: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum binaryTypeEnum
-    void _set_binaryTypeEnum(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum value);
-    // Get instance field: System.Object typeInformation
-    ::Il2CppObject* _get_typeInformation();
-    // Set instance field: System.Object typeInformation
-    void _set_typeInformation(::Il2CppObject* value);
-    // Get instance field: System.Int32 assemId
-    int _get_assemId();
-    // Set instance field: System.Int32 assemId
-    void _set_assemId(int value);
-    // Get instance field: private System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum
-    System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum _get_binaryHeaderEnum();
-    // Set instance field: private System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum
-    void _set_binaryHeaderEnum(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum value);
-    // Get instance field: System.Runtime.Serialization.Formatters.Binary.BinaryArrayTypeEnum binaryArrayTypeEnum
-    System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum _get_binaryArrayTypeEnum();
-    // Set instance field: System.Runtime.Serialization.Formatters.Binary.BinaryArrayTypeEnum binaryArrayTypeEnum
-    void _set_binaryArrayTypeEnum(System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum value);
+    // Get instance field reference: System.Int32 objectId
+    int& dyn_objectId();
+    // Get instance field reference: System.Int32 rank
+    int& dyn_rank();
+    // Get instance field reference: System.Int32[] lengthA
+    ::Array<int>*& dyn_lengthA();
+    // Get instance field reference: System.Int32[] lowerBoundA
+    ::Array<int>*& dyn_lowerBoundA();
+    // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum binaryTypeEnum
+    System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum& dyn_binaryTypeEnum();
+    // Get instance field reference: System.Object typeInformation
+    ::Il2CppObject*& dyn_typeInformation();
+    // Get instance field reference: System.Int32 assemId
+    int& dyn_assemId();
+    // Get instance field reference: private System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum
+    System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum& dyn_binaryHeaderEnum();
+    // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.BinaryArrayTypeEnum binaryArrayTypeEnum
+    System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum& dyn_binaryArrayTypeEnum();
     // System.Void .ctor(System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum)
     // Offset: 0x161222C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

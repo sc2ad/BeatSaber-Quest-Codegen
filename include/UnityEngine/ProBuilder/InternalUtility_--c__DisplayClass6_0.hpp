@@ -33,10 +33,8 @@ namespace UnityEngine::ProBuilder {
     constexpr operator ::Il2CppString*() const noexcept {
       return valid;
     }
-    // Get instance field: public System.String valid
-    ::Il2CppString* _get_valid();
-    // Set instance field: public System.String valid
-    void _set_valid(::Il2CppString* value);
+    // Get instance field reference: public System.String valid
+    ::Il2CppString*& dyn_valid();
     // System.Boolean <TryParseColor>b__0(System.Char c)
     // Offset: 0x1AF633C
     bool $TryParseColor$b__0(::Il2CppChar c);

@@ -93,26 +93,16 @@ namespace GlobalNamespace {
     static float _get_kLifeTimeOffset();
     // Set static field: static private System.Single kLifeTimeOffset
     static void _set_kLifeTimeOffset(float value);
-    // Get instance field: private System.Single _rotation
-    float _get__rotation();
-    // Set instance field: private System.Single _rotation
-    void _set__rotation(float value);
-    // Get instance field: private System.Single _cutDirMultiplier
-    float _get__cutDirMultiplier();
-    // Set instance field: private System.Single _cutDirMultiplier
-    void _set__cutDirMultiplier(float value);
-    // Get instance field: private System.Single _fromCenterSpeed
-    float _get__fromCenterSpeed();
-    // Set instance field: private System.Single _fromCenterSpeed
-    void _set__fromCenterSpeed(float value);
-    // Get instance field: private System.Single _moveSpeedMultiplier
-    float _get__moveSpeedMultiplier();
-    // Set instance field: private System.Single _moveSpeedMultiplier
-    void _set__moveSpeedMultiplier(float value);
-    // Get instance field: private readonly NoteDebris/Pool _noteDebrisPool
-    GlobalNamespace::NoteDebris::Pool* _get__noteDebrisPool();
-    // Set instance field: private readonly NoteDebris/Pool _noteDebrisPool
-    void _set__noteDebrisPool(GlobalNamespace::NoteDebris::Pool* value);
+    // Get instance field reference: private System.Single _rotation
+    float& dyn__rotation();
+    // Get instance field reference: private System.Single _cutDirMultiplier
+    float& dyn__cutDirMultiplier();
+    // Get instance field reference: private System.Single _fromCenterSpeed
+    float& dyn__fromCenterSpeed();
+    // Get instance field reference: private System.Single _moveSpeedMultiplier
+    float& dyn__moveSpeedMultiplier();
+    // Get instance field reference: private readonly NoteDebris/Pool _noteDebrisPool
+    GlobalNamespace::NoteDebris::Pool*& dyn__noteDebrisPool();
     // public System.Void SpawnDebris(UnityEngine.Vector3 cutPoint, UnityEngine.Vector3 cutNormal, System.Single saberSpeed, UnityEngine.Vector3 saberDir, UnityEngine.Vector3 notePos, UnityEngine.Quaternion noteRotation, UnityEngine.Vector3 noteScale, ColorType colorType, System.Single timeToNextColorNote, UnityEngine.Vector3 moveVec)
     // Offset: 0x122C11C
     void SpawnDebris(UnityEngine::Vector3 cutPoint, UnityEngine::Vector3 cutNormal, float saberSpeed, UnityEngine::Vector3 saberDir, UnityEngine::Vector3 notePos, UnityEngine::Quaternion noteRotation, UnityEngine::Vector3 noteScale, GlobalNamespace::ColorType colorType, float timeToNextColorNote, UnityEngine::Vector3 moveVec);

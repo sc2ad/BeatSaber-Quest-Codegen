@@ -44,14 +44,10 @@ namespace HMUI {
     static_assert(sizeof(HMUI::SegmentedControl*) == 0x8);
     // Creating value type constructor for type: SegmentedControlCell
     SegmentedControlCell(int cellNumber_ = {}, HMUI::SegmentedControl* segmentedControl_ = {}) noexcept : cellNumber{cellNumber_}, segmentedControl{segmentedControl_} {}
-    // Get instance field: private System.Int32 <cellNumber>k__BackingField
-    int _get_$cellNumber$k__BackingField();
-    // Set instance field: private System.Int32 <cellNumber>k__BackingField
-    void _set_$cellNumber$k__BackingField(int value);
-    // Get instance field: private HMUI.SegmentedControl _segmentedControl
-    HMUI::SegmentedControl* _get__segmentedControl();
-    // Set instance field: private HMUI.SegmentedControl _segmentedControl
-    void _set__segmentedControl(HMUI::SegmentedControl* value);
+    // Get instance field reference: private System.Int32 <cellNumber>k__BackingField
+    int& dyn_$cellNumber$k__BackingField();
+    // Get instance field reference: private HMUI.SegmentedControl _segmentedControl
+    HMUI::SegmentedControl*& dyn__segmentedControl();
     // public System.Int32 get_cellNumber()
     // Offset: 0x1300E3C
     int get_cellNumber();

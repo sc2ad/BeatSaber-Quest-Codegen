@@ -60,10 +60,8 @@ namespace Oculus::Platform {
     static Oculus::Platform::AchievementType _get_Count();
     // Set static field: static public Oculus.Platform.AchievementType Count
     static void _set_Count(Oculus::Platform::AchievementType value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Oculus.Platform.AchievementType
   #pragma pack(pop)
   static check_size<sizeof(AchievementType), 0 + sizeof(int)> __Oculus_Platform_AchievementTypeSizeCheck;

@@ -115,46 +115,26 @@ namespace GlobalNamespace {
     LoadingControl(UnityEngine::GameObject* loadingContainer_ = {}, TMPro::TextMeshProUGUI* loadingText_ = {}, TMPro::TextMeshProUGUI* refreshText_ = {}, UnityEngine::UI::Button* refreshButton_ = {}, UnityEngine::GameObject* refreshContainer_ = {}, UnityEngine::GameObject* downloadingContainer_ = {}, TMPro::TextMeshProUGUI* downloadingText_ = {}, UnityEngine::UI::Image* donwloadingProgressImage_ = {}, System::Action* didPressRefreshButtonEvent_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}) noexcept : loadingContainer{loadingContainer_}, loadingText{loadingText_}, refreshText{refreshText_}, refreshButton{refreshButton_}, refreshContainer{refreshContainer_}, downloadingContainer{downloadingContainer_}, downloadingText{downloadingText_}, donwloadingProgressImage{donwloadingProgressImage_}, didPressRefreshButtonEvent{didPressRefreshButtonEvent_}, buttonBinder{buttonBinder_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.GameObject _loadingContainer
-    UnityEngine::GameObject* _get__loadingContainer();
-    // Set instance field: private UnityEngine.GameObject _loadingContainer
-    void _set__loadingContainer(UnityEngine::GameObject* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _loadingText
-    TMPro::TextMeshProUGUI* _get__loadingText();
-    // Set instance field: private TMPro.TextMeshProUGUI _loadingText
-    void _set__loadingText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _refreshText
-    TMPro::TextMeshProUGUI* _get__refreshText();
-    // Set instance field: private TMPro.TextMeshProUGUI _refreshText
-    void _set__refreshText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private UnityEngine.UI.Button _refreshButton
-    UnityEngine::UI::Button* _get__refreshButton();
-    // Set instance field: private UnityEngine.UI.Button _refreshButton
-    void _set__refreshButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.GameObject _refreshContainer
-    UnityEngine::GameObject* _get__refreshContainer();
-    // Set instance field: private UnityEngine.GameObject _refreshContainer
-    void _set__refreshContainer(UnityEngine::GameObject* value);
-    // Get instance field: private UnityEngine.GameObject _downloadingContainer
-    UnityEngine::GameObject* _get__downloadingContainer();
-    // Set instance field: private UnityEngine.GameObject _downloadingContainer
-    void _set__downloadingContainer(UnityEngine::GameObject* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _downloadingText
-    TMPro::TextMeshProUGUI* _get__downloadingText();
-    // Set instance field: private TMPro.TextMeshProUGUI _downloadingText
-    void _set__downloadingText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private UnityEngine.UI.Image _donwloadingProgressImage
-    UnityEngine::UI::Image* _get__donwloadingProgressImage();
-    // Set instance field: private UnityEngine.UI.Image _donwloadingProgressImage
-    void _set__donwloadingProgressImage(UnityEngine::UI::Image* value);
-    // Get instance field: private System.Action didPressRefreshButtonEvent
-    System::Action* _get_didPressRefreshButtonEvent();
-    // Set instance field: private System.Action didPressRefreshButtonEvent
-    void _set_didPressRefreshButtonEvent(System::Action* value);
-    // Get instance field: private HMUI.ButtonBinder _buttonBinder
-    HMUI::ButtonBinder* _get__buttonBinder();
-    // Set instance field: private HMUI.ButtonBinder _buttonBinder
-    void _set__buttonBinder(HMUI::ButtonBinder* value);
+    // Get instance field reference: private UnityEngine.GameObject _loadingContainer
+    UnityEngine::GameObject*& dyn__loadingContainer();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _loadingText
+    TMPro::TextMeshProUGUI*& dyn__loadingText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _refreshText
+    TMPro::TextMeshProUGUI*& dyn__refreshText();
+    // Get instance field reference: private UnityEngine.UI.Button _refreshButton
+    UnityEngine::UI::Button*& dyn__refreshButton();
+    // Get instance field reference: private UnityEngine.GameObject _refreshContainer
+    UnityEngine::GameObject*& dyn__refreshContainer();
+    // Get instance field reference: private UnityEngine.GameObject _downloadingContainer
+    UnityEngine::GameObject*& dyn__downloadingContainer();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _downloadingText
+    TMPro::TextMeshProUGUI*& dyn__downloadingText();
+    // Get instance field reference: private UnityEngine.UI.Image _donwloadingProgressImage
+    UnityEngine::UI::Image*& dyn__donwloadingProgressImage();
+    // Get instance field reference: private System.Action didPressRefreshButtonEvent
+    System::Action*& dyn_didPressRefreshButtonEvent();
+    // Get instance field reference: private HMUI.ButtonBinder _buttonBinder
+    HMUI::ButtonBinder*& dyn__buttonBinder();
     // public System.Boolean get_isLoading()
     // Offset: 0x1201FAC
     bool get_isLoading();

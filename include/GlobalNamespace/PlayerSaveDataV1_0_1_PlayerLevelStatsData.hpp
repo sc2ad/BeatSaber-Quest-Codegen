@@ -78,38 +78,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: PlayerLevelStatsData
     PlayerLevelStatsData(::Il2CppString* levelId_ = {}, GlobalNamespace::BeatmapDifficulty difficulty_ = {}, int highScore_ = {}, int maxCombo_ = {}, bool fullCombo_ = {}, GlobalNamespace::RankModel::Rank maxRank_ = {}, bool validScore_ = {}, int playCount_ = {}) noexcept : levelId{levelId_}, difficulty{difficulty_}, highScore{highScore_}, maxCombo{maxCombo_}, fullCombo{fullCombo_}, maxRank{maxRank_}, validScore{validScore_}, playCount{playCount_} {}
-    // Get instance field: public System.String levelId
-    ::Il2CppString* _get_levelId();
-    // Set instance field: public System.String levelId
-    void _set_levelId(::Il2CppString* value);
-    // Get instance field: public BeatmapDifficulty difficulty
-    GlobalNamespace::BeatmapDifficulty _get_difficulty();
-    // Set instance field: public BeatmapDifficulty difficulty
-    void _set_difficulty(GlobalNamespace::BeatmapDifficulty value);
-    // Get instance field: public System.Int32 highScore
-    int _get_highScore();
-    // Set instance field: public System.Int32 highScore
-    void _set_highScore(int value);
-    // Get instance field: public System.Int32 maxCombo
-    int _get_maxCombo();
-    // Set instance field: public System.Int32 maxCombo
-    void _set_maxCombo(int value);
-    // Get instance field: public System.Boolean fullCombo
-    bool _get_fullCombo();
-    // Set instance field: public System.Boolean fullCombo
-    void _set_fullCombo(bool value);
-    // Get instance field: public RankModel/Rank maxRank
-    GlobalNamespace::RankModel::Rank _get_maxRank();
-    // Set instance field: public RankModel/Rank maxRank
-    void _set_maxRank(GlobalNamespace::RankModel::Rank value);
-    // Get instance field: public System.Boolean validScore
-    bool _get_validScore();
-    // Set instance field: public System.Boolean validScore
-    void _set_validScore(bool value);
-    // Get instance field: public System.Int32 playCount
-    int _get_playCount();
-    // Set instance field: public System.Int32 playCount
-    void _set_playCount(int value);
+    // Get instance field reference: public System.String levelId
+    ::Il2CppString*& dyn_levelId();
+    // Get instance field reference: public BeatmapDifficulty difficulty
+    GlobalNamespace::BeatmapDifficulty& dyn_difficulty();
+    // Get instance field reference: public System.Int32 highScore
+    int& dyn_highScore();
+    // Get instance field reference: public System.Int32 maxCombo
+    int& dyn_maxCombo();
+    // Get instance field reference: public System.Boolean fullCombo
+    bool& dyn_fullCombo();
+    // Get instance field reference: public RankModel/Rank maxRank
+    GlobalNamespace::RankModel::Rank& dyn_maxRank();
+    // Get instance field reference: public System.Boolean validScore
+    bool& dyn_validScore();
+    // Get instance field reference: public System.Int32 playCount
+    int& dyn_playCount();
     // public System.Void .ctor()
     // Offset: 0x113B570
     // Implemented from: System.Object

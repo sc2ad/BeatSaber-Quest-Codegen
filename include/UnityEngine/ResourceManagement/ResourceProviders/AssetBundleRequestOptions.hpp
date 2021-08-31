@@ -108,46 +108,26 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     operator UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData*>(this);
     }
-    // Get instance field: private System.String m_Hash
-    ::Il2CppString* _get_m_Hash();
-    // Set instance field: private System.String m_Hash
-    void _set_m_Hash(::Il2CppString* value);
-    // Get instance field: private System.UInt32 m_Crc
-    uint _get_m_Crc();
-    // Set instance field: private System.UInt32 m_Crc
-    void _set_m_Crc(uint value);
-    // Get instance field: private System.Int32 m_Timeout
-    int _get_m_Timeout();
-    // Set instance field: private System.Int32 m_Timeout
-    void _set_m_Timeout(int value);
-    // Get instance field: private System.Boolean m_ChunkedTransfer
-    bool _get_m_ChunkedTransfer();
-    // Set instance field: private System.Boolean m_ChunkedTransfer
-    void _set_m_ChunkedTransfer(bool value);
-    // Get instance field: private System.Int32 m_RedirectLimit
-    int _get_m_RedirectLimit();
-    // Set instance field: private System.Int32 m_RedirectLimit
-    void _set_m_RedirectLimit(int value);
-    // Get instance field: private System.Int32 m_RetryCount
-    int _get_m_RetryCount();
-    // Set instance field: private System.Int32 m_RetryCount
-    void _set_m_RetryCount(int value);
-    // Get instance field: private System.String m_BundleName
-    ::Il2CppString* _get_m_BundleName();
-    // Set instance field: private System.String m_BundleName
-    void _set_m_BundleName(::Il2CppString* value);
-    // Get instance field: private System.Int64 m_BundleSize
-    int64_t _get_m_BundleSize();
-    // Set instance field: private System.Int64 m_BundleSize
-    void _set_m_BundleSize(int64_t value);
-    // Get instance field: private System.Boolean m_UseCrcForCachedBundles
-    bool _get_m_UseCrcForCachedBundles();
-    // Set instance field: private System.Boolean m_UseCrcForCachedBundles
-    void _set_m_UseCrcForCachedBundles(bool value);
-    // Get instance field: private System.Boolean m_ClearOtherCachedVersionsWhenLoaded
-    bool _get_m_ClearOtherCachedVersionsWhenLoaded();
-    // Set instance field: private System.Boolean m_ClearOtherCachedVersionsWhenLoaded
-    void _set_m_ClearOtherCachedVersionsWhenLoaded(bool value);
+    // Get instance field reference: private System.String m_Hash
+    ::Il2CppString*& dyn_m_Hash();
+    // Get instance field reference: private System.UInt32 m_Crc
+    uint& dyn_m_Crc();
+    // Get instance field reference: private System.Int32 m_Timeout
+    int& dyn_m_Timeout();
+    // Get instance field reference: private System.Boolean m_ChunkedTransfer
+    bool& dyn_m_ChunkedTransfer();
+    // Get instance field reference: private System.Int32 m_RedirectLimit
+    int& dyn_m_RedirectLimit();
+    // Get instance field reference: private System.Int32 m_RetryCount
+    int& dyn_m_RetryCount();
+    // Get instance field reference: private System.String m_BundleName
+    ::Il2CppString*& dyn_m_BundleName();
+    // Get instance field reference: private System.Int64 m_BundleSize
+    int64_t& dyn_m_BundleSize();
+    // Get instance field reference: private System.Boolean m_UseCrcForCachedBundles
+    bool& dyn_m_UseCrcForCachedBundles();
+    // Get instance field reference: private System.Boolean m_ClearOtherCachedVersionsWhenLoaded
+    bool& dyn_m_ClearOtherCachedVersionsWhenLoaded();
     // public System.String get_Hash()
     // Offset: 0x19ECF7C
     ::Il2CppString* get_Hash();

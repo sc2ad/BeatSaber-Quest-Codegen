@@ -92,30 +92,18 @@ namespace Zenject {
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
     // Creating value type constructor for type: GameObjectContext
     GameObjectContext(System::Action* PreInstall_ = {}, System::Action* PostInstall_ = {}, System::Action* PreResolve_ = {}, System::Action* PostResolve_ = {}, Zenject::MonoKernel* kernel_ = {}, Zenject::DiContainer* container_ = {}) noexcept : PreInstall{PreInstall_}, PostInstall{PostInstall_}, PreResolve{PreResolve_}, PostResolve{PostResolve_}, kernel{kernel_}, container{container_} {}
-    // Get instance field: private System.Action PreInstall
-    System::Action* _get_PreInstall();
-    // Set instance field: private System.Action PreInstall
-    void _set_PreInstall(System::Action* value);
-    // Get instance field: private System.Action PostInstall
-    System::Action* _get_PostInstall();
-    // Set instance field: private System.Action PostInstall
-    void _set_PostInstall(System::Action* value);
-    // Get instance field: private System.Action PreResolve
-    System::Action* _get_PreResolve();
-    // Set instance field: private System.Action PreResolve
-    void _set_PreResolve(System::Action* value);
-    // Get instance field: private System.Action PostResolve
-    System::Action* _get_PostResolve();
-    // Set instance field: private System.Action PostResolve
-    void _set_PostResolve(System::Action* value);
-    // Get instance field: private Zenject.MonoKernel _kernel
-    Zenject::MonoKernel* _get__kernel();
-    // Set instance field: private Zenject.MonoKernel _kernel
-    void _set__kernel(Zenject::MonoKernel* value);
-    // Get instance field: private Zenject.DiContainer _container
-    Zenject::DiContainer* _get__container();
-    // Set instance field: private Zenject.DiContainer _container
-    void _set__container(Zenject::DiContainer* value);
+    // Get instance field reference: private System.Action PreInstall
+    System::Action*& dyn_PreInstall();
+    // Get instance field reference: private System.Action PostInstall
+    System::Action*& dyn_PostInstall();
+    // Get instance field reference: private System.Action PreResolve
+    System::Action*& dyn_PreResolve();
+    // Get instance field reference: private System.Action PostResolve
+    System::Action*& dyn_PostResolve();
+    // Get instance field reference: private Zenject.MonoKernel _kernel
+    Zenject::MonoKernel*& dyn__kernel();
+    // Get instance field reference: private Zenject.DiContainer _container
+    Zenject::DiContainer*& dyn__container();
     // public System.Void add_PreInstall(System.Action value)
     // Offset: 0x165E564
     void add_PreInstall(System::Action* value);

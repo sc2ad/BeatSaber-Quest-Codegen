@@ -38,10 +38,8 @@ namespace Zenject {
     constexpr operator Zenject::BindInfo*() const noexcept {
       return bindInfo;
     }
-    // Get instance field: private Zenject.BindInfo _bindInfo
-    Zenject::BindInfo* _get__bindInfo();
-    // Set instance field: private Zenject.BindInfo _bindInfo
-    void _set__bindInfo(Zenject::BindInfo* value);
+    // Get instance field reference: private Zenject.BindInfo _bindInfo
+    Zenject::BindInfo*& dyn__bindInfo();
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
     // Offset: 0x1660CE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

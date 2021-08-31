@@ -69,10 +69,8 @@ namespace UnityEngine::Timeline {
     static UnityEngine::Timeline::MatchTargetFields _get_RotationZ();
     // Set static field: static public UnityEngine.Timeline.MatchTargetFields RotationZ
     static void _set_RotationZ(UnityEngine::Timeline::MatchTargetFields value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.Timeline.MatchTargetFields
   #pragma pack(pop)
   static check_size<sizeof(MatchTargetFields), 0 + sizeof(int)> __UnityEngine_Timeline_MatchTargetFieldsSizeCheck;

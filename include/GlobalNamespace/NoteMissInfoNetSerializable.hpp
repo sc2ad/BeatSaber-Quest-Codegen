@@ -69,22 +69,14 @@ namespace GlobalNamespace {
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);
     }
-    // Get instance field: private ColorType <colorType>k__BackingField
-    GlobalNamespace::ColorType _get_$colorType$k__BackingField();
-    // Set instance field: private ColorType <colorType>k__BackingField
-    void _set_$colorType$k__BackingField(GlobalNamespace::ColorType value);
-    // Get instance field: private System.Single <noteTime>k__BackingField
-    float _get_$noteTime$k__BackingField();
-    // Set instance field: private System.Single <noteTime>k__BackingField
-    void _set_$noteTime$k__BackingField(float value);
-    // Get instance field: private System.Int32 <noteLineIndex>k__BackingField
-    int _get_$noteLineIndex$k__BackingField();
-    // Set instance field: private System.Int32 <noteLineIndex>k__BackingField
-    void _set_$noteLineIndex$k__BackingField(int value);
-    // Get instance field: private NoteLineLayer <noteLineLayer>k__BackingField
-    GlobalNamespace::NoteLineLayer _get_$noteLineLayer$k__BackingField();
-    // Set instance field: private NoteLineLayer <noteLineLayer>k__BackingField
-    void _set_$noteLineLayer$k__BackingField(GlobalNamespace::NoteLineLayer value);
+    // Get instance field reference: private ColorType <colorType>k__BackingField
+    GlobalNamespace::ColorType& dyn_$colorType$k__BackingField();
+    // Get instance field reference: private System.Single <noteTime>k__BackingField
+    float& dyn_$noteTime$k__BackingField();
+    // Get instance field reference: private System.Int32 <noteLineIndex>k__BackingField
+    int& dyn_$noteLineIndex$k__BackingField();
+    // Get instance field reference: private NoteLineLayer <noteLineLayer>k__BackingField
+    GlobalNamespace::NoteLineLayer& dyn_$noteLineLayer$k__BackingField();
     // public ColorType get_colorType()
     // Offset: 0x237BF78
     GlobalNamespace::ColorType get_colorType();

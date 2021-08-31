@@ -74,10 +74,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::TextFadeTransitions::State _get_FadingIn();
       // Set static field: static public TextFadeTransitions/State FadingIn
       static void _set_FadingIn(GlobalNamespace::TextFadeTransitions::State value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // TextFadeTransitions/State
     #pragma pack(pop)
     static check_size<sizeof(TextFadeTransitions::State), 0 + sizeof(int)> __GlobalNamespace_TextFadeTransitions_StateSizeCheck;
@@ -123,30 +121,18 @@ namespace GlobalNamespace {
     TextFadeTransitions(TMPro::TextMeshProUGUI* textLabel_ = {}, UnityEngine::CanvasGroup* canvasGroup_ = {}, float fadeDuration_ = {}, GlobalNamespace::TextFadeTransitions::State state_ = {}, ::Il2CppString* nextText_ = {}, float fade_ = {}) noexcept : textLabel{textLabel_}, canvasGroup{canvasGroup_}, fadeDuration{fadeDuration_}, state{state_}, nextText{nextText_}, fade{fade_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private TMPro.TextMeshProUGUI _textLabel
-    TMPro::TextMeshProUGUI* _get__textLabel();
-    // Set instance field: private TMPro.TextMeshProUGUI _textLabel
-    void _set__textLabel(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private UnityEngine.CanvasGroup _canvasGroup
-    UnityEngine::CanvasGroup* _get__canvasGroup();
-    // Set instance field: private UnityEngine.CanvasGroup _canvasGroup
-    void _set__canvasGroup(UnityEngine::CanvasGroup* value);
-    // Get instance field: private System.Single _fadeDuration
-    float _get__fadeDuration();
-    // Set instance field: private System.Single _fadeDuration
-    void _set__fadeDuration(float value);
-    // Get instance field: private TextFadeTransitions/State _state
-    GlobalNamespace::TextFadeTransitions::State _get__state();
-    // Set instance field: private TextFadeTransitions/State _state
-    void _set__state(GlobalNamespace::TextFadeTransitions::State value);
-    // Get instance field: private System.String _nextText
-    ::Il2CppString* _get__nextText();
-    // Set instance field: private System.String _nextText
-    void _set__nextText(::Il2CppString* value);
-    // Get instance field: private System.Single _fade
-    float _get__fade();
-    // Set instance field: private System.Single _fade
-    void _set__fade(float value);
+    // Get instance field reference: private TMPro.TextMeshProUGUI _textLabel
+    TMPro::TextMeshProUGUI*& dyn__textLabel();
+    // Get instance field reference: private UnityEngine.CanvasGroup _canvasGroup
+    UnityEngine::CanvasGroup*& dyn__canvasGroup();
+    // Get instance field reference: private System.Single _fadeDuration
+    float& dyn__fadeDuration();
+    // Get instance field reference: private TextFadeTransitions/State _state
+    GlobalNamespace::TextFadeTransitions::State& dyn__state();
+    // Get instance field reference: private System.String _nextText
+    ::Il2CppString*& dyn__nextText();
+    // Get instance field reference: private System.Single _fade
+    float& dyn__fade();
     // protected System.Void Awake()
     // Offset: 0x1095250
     void Awake();

@@ -42,18 +42,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: OverrideEnvironmentSettings
     OverrideEnvironmentSettings(bool overrideEnvironments_ = {}, ::Il2CppString* overrideNormalEnvironmentName_ = {}, ::Il2CppString* override360EnvironmentName_ = {}) noexcept : overrideEnvironments{overrideEnvironments_}, overrideNormalEnvironmentName{overrideNormalEnvironmentName_}, override360EnvironmentName{override360EnvironmentName_} {}
-    // Get instance field: public System.Boolean overrideEnvironments
-    bool _get_overrideEnvironments();
-    // Set instance field: public System.Boolean overrideEnvironments
-    void _set_overrideEnvironments(bool value);
-    // Get instance field: public System.String overrideNormalEnvironmentName
-    ::Il2CppString* _get_overrideNormalEnvironmentName();
-    // Set instance field: public System.String overrideNormalEnvironmentName
-    void _set_overrideNormalEnvironmentName(::Il2CppString* value);
-    // Get instance field: public System.String override360EnvironmentName
-    ::Il2CppString* _get_override360EnvironmentName();
-    // Set instance field: public System.String override360EnvironmentName
-    void _set_override360EnvironmentName(::Il2CppString* value);
+    // Get instance field reference: public System.Boolean overrideEnvironments
+    bool& dyn_overrideEnvironments();
+    // Get instance field reference: public System.String overrideNormalEnvironmentName
+    ::Il2CppString*& dyn_overrideNormalEnvironmentName();
+    // Get instance field reference: public System.String override360EnvironmentName
+    ::Il2CppString*& dyn_override360EnvironmentName();
     // public System.Void .ctor()
     // Offset: 0x113783C
     // Implemented from: System.Object

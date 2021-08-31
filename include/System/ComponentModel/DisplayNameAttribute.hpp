@@ -37,10 +37,8 @@ namespace System::ComponentModel {
     static System::ComponentModel::DisplayNameAttribute* _get_Default();
     // Set static field: static public readonly System.ComponentModel.DisplayNameAttribute Default
     static void _set_Default(System::ComponentModel::DisplayNameAttribute* value);
-    // Get instance field: private System.String _displayName
-    ::Il2CppString* _get__displayName();
-    // Set instance field: private System.String _displayName
-    void _set__displayName(::Il2CppString* value);
+    // Get instance field reference: private System.String _displayName
+    ::Il2CppString*& dyn__displayName();
     // public System.String get_DisplayName()
     // Offset: 0x18AF4CC
     ::Il2CppString* get_DisplayName();

@@ -53,18 +53,12 @@ namespace GlobalNamespace {
     VRControllersValueSOOffsets(GlobalNamespace::Vector3SO* positionOffset_ = {}, GlobalNamespace::Vector3SO* rotationOffset_ = {}, bool mirror_ = {}) noexcept : positionOffset{positionOffset_}, rotationOffset{rotationOffset_}, mirror{mirror_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private Vector3SO _positionOffset
-    GlobalNamespace::Vector3SO* _get__positionOffset();
-    // Set instance field: private Vector3SO _positionOffset
-    void _set__positionOffset(GlobalNamespace::Vector3SO* value);
-    // Get instance field: private Vector3SO _rotationOffset
-    GlobalNamespace::Vector3SO* _get__rotationOffset();
-    // Set instance field: private Vector3SO _rotationOffset
-    void _set__rotationOffset(GlobalNamespace::Vector3SO* value);
-    // Get instance field: private System.Boolean _mirror
-    bool _get__mirror();
-    // Set instance field: private System.Boolean _mirror
-    void _set__mirror(bool value);
+    // Get instance field reference: private Vector3SO _positionOffset
+    GlobalNamespace::Vector3SO*& dyn__positionOffset();
+    // Get instance field reference: private Vector3SO _rotationOffset
+    GlobalNamespace::Vector3SO*& dyn__rotationOffset();
+    // Get instance field reference: private System.Boolean _mirror
+    bool& dyn__mirror();
     // public override UnityEngine.Vector3 get_positionOffset()
     // Offset: 0x135D240
     // Implemented from: VRControllerTransformOffset

@@ -55,18 +55,12 @@ namespace Zenject {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: $$c__DisplayClass56_0
     $$c__DisplayClass56_0(::Il2CppString* resourcePath_ = {}, Zenject::FromBinder* $$4__this_ = {}, bool createNew_ = {}) noexcept : resourcePath{resourcePath_}, $$4__this{$$4__this_}, createNew{createNew_} {}
-    // Get instance field: public System.String resourcePath
-    ::Il2CppString* _get_resourcePath();
-    // Set instance field: public System.String resourcePath
-    void _set_resourcePath(::Il2CppString* value);
-    // Get instance field: public Zenject.FromBinder <>4__this
-    Zenject::FromBinder* _get_$$4__this();
-    // Set instance field: public Zenject.FromBinder <>4__this
-    void _set_$$4__this(Zenject::FromBinder* value);
-    // Get instance field: public System.Boolean createNew
-    bool _get_createNew();
-    // Set instance field: public System.Boolean createNew
-    void _set_createNew(bool value);
+    // Get instance field reference: public System.String resourcePath
+    ::Il2CppString*& dyn_resourcePath();
+    // Get instance field reference: public Zenject.FromBinder <>4__this
+    Zenject::FromBinder*& dyn_$$4__this();
+    // Get instance field reference: public System.Boolean createNew
+    bool& dyn_createNew();
     // Zenject.IProvider <FromScriptableObjectResourceInternal>b__0(Zenject.DiContainer container, System.Type type)
     // Offset: 0x165C70C
     Zenject::IProvider* $FromScriptableObjectResourceInternal$b__0(Zenject::DiContainer* container, System::Type* type);

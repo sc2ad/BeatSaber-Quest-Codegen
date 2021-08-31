@@ -53,10 +53,8 @@ namespace UnityEngine::Timeline {
     constexpr operator UnityEngine::GameObject*() const noexcept {
       return m_Instance;
     }
-    // Get instance field: private UnityEngine.GameObject m_Instance
-    UnityEngine::GameObject* _get_m_Instance();
-    // Set instance field: private UnityEngine.GameObject m_Instance
-    void _set_m_Instance(UnityEngine::GameObject* value);
+    // Get instance field reference: private UnityEngine.GameObject m_Instance
+    UnityEngine::GameObject*& dyn_m_Instance();
     // public UnityEngine.GameObject get_prefabInstance()
     // Offset: 0x1823E84
     UnityEngine::GameObject* get_prefabInstance();

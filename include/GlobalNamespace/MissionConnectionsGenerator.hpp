@@ -71,22 +71,14 @@ namespace GlobalNamespace {
     MissionConnectionsGenerator(GlobalNamespace::MissionNodesManager* missionNodesManager_ = {}, GlobalNamespace::MissionNodeConnection* nodeConnectionPref_ = {}, UnityEngine::GameObject* connectionsCanvas_ = {}, System::Collections::Generic::List_1<GlobalNamespace::MissionNode*>* missionNodes_ = {}) noexcept : missionNodesManager{missionNodesManager_}, nodeConnectionPref{nodeConnectionPref_}, connectionsCanvas{connectionsCanvas_}, missionNodes{missionNodes_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private MissionNodesManager _missionNodesManager
-    GlobalNamespace::MissionNodesManager* _get__missionNodesManager();
-    // Set instance field: private MissionNodesManager _missionNodesManager
-    void _set__missionNodesManager(GlobalNamespace::MissionNodesManager* value);
-    // Get instance field: private MissionNodeConnection _nodeConnectionPref
-    GlobalNamespace::MissionNodeConnection* _get__nodeConnectionPref();
-    // Set instance field: private MissionNodeConnection _nodeConnectionPref
-    void _set__nodeConnectionPref(GlobalNamespace::MissionNodeConnection* value);
-    // Get instance field: private UnityEngine.GameObject _connectionsCanvas
-    UnityEngine::GameObject* _get__connectionsCanvas();
-    // Set instance field: private UnityEngine.GameObject _connectionsCanvas
-    void _set__connectionsCanvas(UnityEngine::GameObject* value);
-    // Get instance field: private System.Collections.Generic.List`1<MissionNode> _missionNodes
-    System::Collections::Generic::List_1<GlobalNamespace::MissionNode*>* _get__missionNodes();
-    // Set instance field: private System.Collections.Generic.List`1<MissionNode> _missionNodes
-    void _set__missionNodes(System::Collections::Generic::List_1<GlobalNamespace::MissionNode*>* value);
+    // Get instance field reference: private MissionNodesManager _missionNodesManager
+    GlobalNamespace::MissionNodesManager*& dyn__missionNodesManager();
+    // Get instance field reference: private MissionNodeConnection _nodeConnectionPref
+    GlobalNamespace::MissionNodeConnection*& dyn__nodeConnectionPref();
+    // Get instance field reference: private UnityEngine.GameObject _connectionsCanvas
+    UnityEngine::GameObject*& dyn__connectionsCanvas();
+    // Get instance field reference: private System.Collections.Generic.List`1<MissionNode> _missionNodes
+    System::Collections::Generic::List_1<GlobalNamespace::MissionNode*>*& dyn__missionNodes();
     // private MissionNode get__rootMissionNode()
     // Offset: 0x11D04C0
     GlobalNamespace::MissionNode* get__rootMissionNode();

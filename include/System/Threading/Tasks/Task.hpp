@@ -371,38 +371,22 @@ namespace System::Threading::Tasks {
     static System::Predicate_1<::Il2CppObject*>* _get_s_IsTaskContinuationNullPredicate();
     // Set static field: static private readonly System.Predicate`1<System.Object> s_IsTaskContinuationNullPredicate
     static void _set_s_IsTaskContinuationNullPredicate(System::Predicate_1<::Il2CppObject*>* value);
-    // Get instance field: private System.Int32 m_taskId
-    int _get_m_taskId();
-    // Set instance field: private System.Int32 m_taskId
-    void _set_m_taskId(int value);
-    // Get instance field: System.Object m_action
-    ::Il2CppObject* _get_m_action();
-    // Set instance field: System.Object m_action
-    void _set_m_action(::Il2CppObject* value);
-    // Get instance field: System.Object m_stateObject
-    ::Il2CppObject* _get_m_stateObject();
-    // Set instance field: System.Object m_stateObject
-    void _set_m_stateObject(::Il2CppObject* value);
-    // Get instance field: System.Threading.Tasks.TaskScheduler m_taskScheduler
-    System::Threading::Tasks::TaskScheduler* _get_m_taskScheduler();
-    // Set instance field: System.Threading.Tasks.TaskScheduler m_taskScheduler
-    void _set_m_taskScheduler(System::Threading::Tasks::TaskScheduler* value);
-    // Get instance field: readonly System.Threading.Tasks.Task m_parent
-    System::Threading::Tasks::Task* _get_m_parent();
-    // Set instance field: readonly System.Threading.Tasks.Task m_parent
-    void _set_m_parent(System::Threading::Tasks::Task* value);
-    // Get instance field: System.Int32 m_stateFlags
-    int _get_m_stateFlags();
-    // Set instance field: System.Int32 m_stateFlags
-    void _set_m_stateFlags(int value);
-    // Get instance field: private System.Object m_continuationObject
-    ::Il2CppObject* _get_m_continuationObject();
-    // Set instance field: private System.Object m_continuationObject
-    void _set_m_continuationObject(::Il2CppObject* value);
-    // Get instance field: System.Threading.Tasks.Task/System.Threading.Tasks.ContingentProperties m_contingentProperties
-    System::Threading::Tasks::Task::ContingentProperties* _get_m_contingentProperties();
-    // Set instance field: System.Threading.Tasks.Task/System.Threading.Tasks.ContingentProperties m_contingentProperties
-    void _set_m_contingentProperties(System::Threading::Tasks::Task::ContingentProperties* value);
+    // Get instance field reference: private System.Int32 m_taskId
+    int& dyn_m_taskId();
+    // Get instance field reference: System.Object m_action
+    ::Il2CppObject*& dyn_m_action();
+    // Get instance field reference: System.Object m_stateObject
+    ::Il2CppObject*& dyn_m_stateObject();
+    // Get instance field reference: System.Threading.Tasks.TaskScheduler m_taskScheduler
+    System::Threading::Tasks::TaskScheduler*& dyn_m_taskScheduler();
+    // Get instance field reference: readonly System.Threading.Tasks.Task m_parent
+    System::Threading::Tasks::Task*& dyn_m_parent();
+    // Get instance field reference: System.Int32 m_stateFlags
+    int& dyn_m_stateFlags();
+    // Get instance field reference: private System.Object m_continuationObject
+    ::Il2CppObject*& dyn_m_continuationObject();
+    // Get instance field reference: System.Threading.Tasks.Task/System.Threading.Tasks.ContingentProperties m_contingentProperties
+    System::Threading::Tasks::Task::ContingentProperties*& dyn_m_contingentProperties();
     // System.Threading.Tasks.TaskCreationOptions get_Options()
     // Offset: 0x18FE450
     System::Threading::Tasks::TaskCreationOptions get_Options();

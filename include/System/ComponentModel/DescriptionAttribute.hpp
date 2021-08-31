@@ -37,10 +37,8 @@ namespace System::ComponentModel {
     static System::ComponentModel::DescriptionAttribute* _get_Default();
     // Set static field: static public readonly System.ComponentModel.DescriptionAttribute Default
     static void _set_Default(System::ComponentModel::DescriptionAttribute* value);
-    // Get instance field: private System.String description
-    ::Il2CppString* _get_description();
-    // Set instance field: private System.String description
-    void _set_description(::Il2CppString* value);
+    // Get instance field reference: private System.String description
+    ::Il2CppString*& dyn_description();
     // public System.String get_Description()
     // Offset: 0x18AEBEC
     ::Il2CppString* get_Description();

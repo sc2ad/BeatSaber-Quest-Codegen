@@ -208,10 +208,8 @@ namespace UnityEngine::Networking {
     static UnityEngine::Networking::UnityWebRequest::UnityWebRequestError _get_NoInternetConnection();
     // Set static field: static public UnityEngine.Networking.UnityWebRequest/UnityEngine.Networking.UnityWebRequestError NoInternetConnection
     static void _set_NoInternetConnection(UnityEngine::Networking::UnityWebRequest::UnityWebRequestError value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.Networking.UnityWebRequest/UnityEngine.Networking.UnityWebRequestError
   #pragma pack(pop)
   static check_size<sizeof(UnityWebRequest::UnityWebRequestError), 0 + sizeof(int)> __UnityEngine_Networking_UnityWebRequest_UnityWebRequestErrorSizeCheck;

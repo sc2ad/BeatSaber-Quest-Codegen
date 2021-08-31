@@ -73,22 +73,14 @@ namespace System::Runtime::Remoting::Messaging {
     operator System::Collections::IDictionary() noexcept {
       return *reinterpret_cast<System::Collections::IDictionary*>(this);
     }
-    // Get instance field: private System.Collections.IDictionary _internalProperties
-    System::Collections::IDictionary* _get__internalProperties();
-    // Set instance field: private System.Collections.IDictionary _internalProperties
-    void _set__internalProperties(System::Collections::IDictionary* value);
-    // Get instance field: protected System.Runtime.Remoting.Messaging.IMethodMessage _message
-    System::Runtime::Remoting::Messaging::IMethodMessage* _get__message();
-    // Set instance field: protected System.Runtime.Remoting.Messaging.IMethodMessage _message
-    void _set__message(System::Runtime::Remoting::Messaging::IMethodMessage* value);
-    // Get instance field: private System.String[] _methodKeys
-    ::Array<::Il2CppString*>* _get__methodKeys();
-    // Set instance field: private System.String[] _methodKeys
-    void _set__methodKeys(::Array<::Il2CppString*>* value);
-    // Get instance field: private System.Boolean _ownProperties
-    bool _get__ownProperties();
-    // Set instance field: private System.Boolean _ownProperties
-    void _set__ownProperties(bool value);
+    // Get instance field reference: private System.Collections.IDictionary _internalProperties
+    System::Collections::IDictionary*& dyn__internalProperties();
+    // Get instance field reference: protected System.Runtime.Remoting.Messaging.IMethodMessage _message
+    System::Runtime::Remoting::Messaging::IMethodMessage*& dyn__message();
+    // Get instance field reference: private System.String[] _methodKeys
+    ::Array<::Il2CppString*>*& dyn__methodKeys();
+    // Get instance field reference: private System.Boolean _ownProperties
+    bool& dyn__ownProperties();
     // System.Collections.IDictionary get_InternalDictionary()
     // Offset: 0x1A46E74
     System::Collections::IDictionary* get_InternalDictionary();

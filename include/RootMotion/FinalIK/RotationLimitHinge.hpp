@@ -62,30 +62,18 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: RotationLimitHinge
     RotationLimitHinge(bool useLimits_ = {}, float min_ = {}, float max_ = {}, float zeroAxisDisplayOffset_ = {}, UnityEngine::Quaternion lastRotation_ = {}, float lastAngle_ = {}) noexcept : useLimits{useLimits_}, min{min_}, max{max_}, zeroAxisDisplayOffset{zeroAxisDisplayOffset_}, lastRotation{lastRotation_}, lastAngle{lastAngle_} {}
-    // Get instance field: public System.Boolean useLimits
-    bool _get_useLimits();
-    // Set instance field: public System.Boolean useLimits
-    void _set_useLimits(bool value);
-    // Get instance field: public System.Single min
-    float _get_min();
-    // Set instance field: public System.Single min
-    void _set_min(float value);
-    // Get instance field: public System.Single max
-    float _get_max();
-    // Set instance field: public System.Single max
-    void _set_max(float value);
-    // Get instance field: public System.Single zeroAxisDisplayOffset
-    float _get_zeroAxisDisplayOffset();
-    // Set instance field: public System.Single zeroAxisDisplayOffset
-    void _set_zeroAxisDisplayOffset(float value);
-    // Get instance field: private UnityEngine.Quaternion lastRotation
-    UnityEngine::Quaternion _get_lastRotation();
-    // Set instance field: private UnityEngine.Quaternion lastRotation
-    void _set_lastRotation(UnityEngine::Quaternion value);
-    // Get instance field: private System.Single lastAngle
-    float _get_lastAngle();
-    // Set instance field: private System.Single lastAngle
-    void _set_lastAngle(float value);
+    // Get instance field reference: public System.Boolean useLimits
+    bool& dyn_useLimits();
+    // Get instance field reference: public System.Single min
+    float& dyn_min();
+    // Get instance field reference: public System.Single max
+    float& dyn_max();
+    // Get instance field reference: public System.Single zeroAxisDisplayOffset
+    float& dyn_zeroAxisDisplayOffset();
+    // Get instance field reference: private UnityEngine.Quaternion lastRotation
+    UnityEngine::Quaternion& dyn_lastRotation();
+    // Get instance field reference: private System.Single lastAngle
+    float& dyn_lastAngle();
     // private System.Void OpenUserManual()
     // Offset: 0x1ADD6E4
     void OpenUserManual();

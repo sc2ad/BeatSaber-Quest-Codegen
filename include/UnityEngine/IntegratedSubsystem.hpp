@@ -50,14 +50,10 @@ namespace UnityEngine {
     operator UnityEngine::ISubsystem() noexcept {
       return *reinterpret_cast<UnityEngine::ISubsystem*>(this);
     }
-    // Get instance field: System.IntPtr m_Ptr
-    System::IntPtr _get_m_Ptr();
-    // Set instance field: System.IntPtr m_Ptr
-    void _set_m_Ptr(System::IntPtr value);
-    // Get instance field: UnityEngine.ISubsystemDescriptor m_subsystemDescriptor
-    UnityEngine::ISubsystemDescriptor* _get_m_subsystemDescriptor();
-    // Set instance field: UnityEngine.ISubsystemDescriptor m_subsystemDescriptor
-    void _set_m_subsystemDescriptor(UnityEngine::ISubsystemDescriptor* value);
+    // Get instance field reference: System.IntPtr m_Ptr
+    System::IntPtr& dyn_m_Ptr();
+    // Get instance field reference: UnityEngine.ISubsystemDescriptor m_subsystemDescriptor
+    UnityEngine::ISubsystemDescriptor*& dyn_m_subsystemDescriptor();
     // System.Void SetHandle(UnityEngine.IntegratedSubsystem inst)
     // Offset: 0x241B204
     void SetHandle(UnityEngine::IntegratedSubsystem* inst);

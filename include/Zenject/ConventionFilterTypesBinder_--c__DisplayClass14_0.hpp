@@ -40,10 +40,8 @@ namespace Zenject {
     constexpr operator ::Il2CppString*() const noexcept {
       return suffix;
     }
-    // Get instance field: public System.String suffix
-    ::Il2CppString* _get_suffix();
-    // Set instance field: public System.String suffix
-    void _set_suffix(::Il2CppString* value);
+    // Get instance field reference: public System.String suffix
+    ::Il2CppString*& dyn_suffix();
     // System.Boolean <WithSuffix>b__0(System.Type t)
     // Offset: 0x13E243C
     bool $WithSuffix$b__0(System::Type* t);

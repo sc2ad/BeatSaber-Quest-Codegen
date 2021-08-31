@@ -42,10 +42,8 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     constexpr operator System::IO::TextReader*() const noexcept {
       return reader;
     }
-    // Get instance field: private readonly System.IO.TextReader reader
-    System::IO::TextReader* _get_reader();
-    // Set instance field: private readonly System.IO.TextReader reader
-    void _set_reader(System::IO::TextReader* value);
+    // Get instance field reference: private readonly System.IO.TextReader reader
+    System::IO::TextReader*& dyn_reader();
     // public System.Void .ctor(System.IO.TextReader reader)
     // Offset: 0x1FEDAB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -102,46 +102,26 @@ namespace GlobalNamespace {
     AvatarPoseRestrictions(float maxHeadSquareDistanceFromCenter_ = {}, float minHeadYPos_ = {}, float maxHeadYPos_ = {}, float minHandXZSquareDistanceFromHeadCenter_ = {}, float maxHandXZSquareDistanceFromHeadCenter_ = {}, float minHandYDistanceFromHeadCenter_ = {}, float maxHandYDistanceFromHeadCenter_ = {}, bool forceHeadPosition_ = {}, UnityEngine::Vector3 centerHeadOffset_ = {}, GlobalNamespace::AvatarPoseController* avatarPoseController_ = {}) noexcept : maxHeadSquareDistanceFromCenter{maxHeadSquareDistanceFromCenter_}, minHeadYPos{minHeadYPos_}, maxHeadYPos{maxHeadYPos_}, minHandXZSquareDistanceFromHeadCenter{minHandXZSquareDistanceFromHeadCenter_}, maxHandXZSquareDistanceFromHeadCenter{maxHandXZSquareDistanceFromHeadCenter_}, minHandYDistanceFromHeadCenter{minHandYDistanceFromHeadCenter_}, maxHandYDistanceFromHeadCenter{maxHandYDistanceFromHeadCenter_}, forceHeadPosition{forceHeadPosition_}, centerHeadOffset{centerHeadOffset_}, avatarPoseController{avatarPoseController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Single _maxHeadSquareDistanceFromCenter
-    float _get__maxHeadSquareDistanceFromCenter();
-    // Set instance field: private System.Single _maxHeadSquareDistanceFromCenter
-    void _set__maxHeadSquareDistanceFromCenter(float value);
-    // Get instance field: private System.Single _minHeadYPos
-    float _get__minHeadYPos();
-    // Set instance field: private System.Single _minHeadYPos
-    void _set__minHeadYPos(float value);
-    // Get instance field: private System.Single _maxHeadYPos
-    float _get__maxHeadYPos();
-    // Set instance field: private System.Single _maxHeadYPos
-    void _set__maxHeadYPos(float value);
-    // Get instance field: private System.Single _minHandXZSquareDistanceFromHeadCenter
-    float _get__minHandXZSquareDistanceFromHeadCenter();
-    // Set instance field: private System.Single _minHandXZSquareDistanceFromHeadCenter
-    void _set__minHandXZSquareDistanceFromHeadCenter(float value);
-    // Get instance field: private System.Single _maxHandXZSquareDistanceFromHeadCenter
-    float _get__maxHandXZSquareDistanceFromHeadCenter();
-    // Set instance field: private System.Single _maxHandXZSquareDistanceFromHeadCenter
-    void _set__maxHandXZSquareDistanceFromHeadCenter(float value);
-    // Get instance field: private System.Single _minHandYDistanceFromHeadCenter
-    float _get__minHandYDistanceFromHeadCenter();
-    // Set instance field: private System.Single _minHandYDistanceFromHeadCenter
-    void _set__minHandYDistanceFromHeadCenter(float value);
-    // Get instance field: private System.Single _maxHandYDistanceFromHeadCenter
-    float _get__maxHandYDistanceFromHeadCenter();
-    // Set instance field: private System.Single _maxHandYDistanceFromHeadCenter
-    void _set__maxHandYDistanceFromHeadCenter(float value);
-    // Get instance field: private System.Boolean _forceHeadPosition
-    bool _get__forceHeadPosition();
-    // Set instance field: private System.Boolean _forceHeadPosition
-    void _set__forceHeadPosition(bool value);
-    // Get instance field: private UnityEngine.Vector3 _centerHeadOffset
-    UnityEngine::Vector3 _get__centerHeadOffset();
-    // Set instance field: private UnityEngine.Vector3 _centerHeadOffset
-    void _set__centerHeadOffset(UnityEngine::Vector3 value);
-    // Get instance field: private readonly AvatarPoseController _avatarPoseController
-    GlobalNamespace::AvatarPoseController* _get__avatarPoseController();
-    // Set instance field: private readonly AvatarPoseController _avatarPoseController
-    void _set__avatarPoseController(GlobalNamespace::AvatarPoseController* value);
+    // Get instance field reference: private System.Single _maxHeadSquareDistanceFromCenter
+    float& dyn__maxHeadSquareDistanceFromCenter();
+    // Get instance field reference: private System.Single _minHeadYPos
+    float& dyn__minHeadYPos();
+    // Get instance field reference: private System.Single _maxHeadYPos
+    float& dyn__maxHeadYPos();
+    // Get instance field reference: private System.Single _minHandXZSquareDistanceFromHeadCenter
+    float& dyn__minHandXZSquareDistanceFromHeadCenter();
+    // Get instance field reference: private System.Single _maxHandXZSquareDistanceFromHeadCenter
+    float& dyn__maxHandXZSquareDistanceFromHeadCenter();
+    // Get instance field reference: private System.Single _minHandYDistanceFromHeadCenter
+    float& dyn__minHandYDistanceFromHeadCenter();
+    // Get instance field reference: private System.Single _maxHandYDistanceFromHeadCenter
+    float& dyn__maxHandYDistanceFromHeadCenter();
+    // Get instance field reference: private System.Boolean _forceHeadPosition
+    bool& dyn__forceHeadPosition();
+    // Get instance field reference: private UnityEngine.Vector3 _centerHeadOffset
+    UnityEngine::Vector3& dyn__centerHeadOffset();
+    // Get instance field reference: private readonly AvatarPoseController _avatarPoseController
+    GlobalNamespace::AvatarPoseController*& dyn__avatarPoseController();
     // protected System.Void Start()
     // Offset: 0x1182B40
     void Start();

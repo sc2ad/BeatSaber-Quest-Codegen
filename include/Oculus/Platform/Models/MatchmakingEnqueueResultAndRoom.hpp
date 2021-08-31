@@ -43,14 +43,10 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(Oculus::Platform::Models::Room*) == 0x8);
     // Creating value type constructor for type: MatchmakingEnqueueResultAndRoom
     MatchmakingEnqueueResultAndRoom(Oculus::Platform::Models::MatchmakingEnqueueResult* MatchmakingEnqueueResult_ = {}, Oculus::Platform::Models::Room* Room_ = {}) noexcept : MatchmakingEnqueueResult{MatchmakingEnqueueResult_}, Room{Room_} {}
-    // Get instance field: public readonly Oculus.Platform.Models.MatchmakingEnqueueResult MatchmakingEnqueueResult
-    Oculus::Platform::Models::MatchmakingEnqueueResult* _get_MatchmakingEnqueueResult();
-    // Set instance field: public readonly Oculus.Platform.Models.MatchmakingEnqueueResult MatchmakingEnqueueResult
-    void _set_MatchmakingEnqueueResult(Oculus::Platform::Models::MatchmakingEnqueueResult* value);
-    // Get instance field: public readonly Oculus.Platform.Models.Room Room
-    Oculus::Platform::Models::Room* _get_Room();
-    // Set instance field: public readonly Oculus.Platform.Models.Room Room
-    void _set_Room(Oculus::Platform::Models::Room* value);
+    // Get instance field reference: public readonly Oculus.Platform.Models.MatchmakingEnqueueResult MatchmakingEnqueueResult
+    Oculus::Platform::Models::MatchmakingEnqueueResult*& dyn_MatchmakingEnqueueResult();
+    // Get instance field reference: public readonly Oculus.Platform.Models.Room Room
+    Oculus::Platform::Models::Room*& dyn_Room();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14ECB48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

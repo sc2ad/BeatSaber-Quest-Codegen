@@ -76,30 +76,18 @@ namespace Org::BouncyCastle::Crypto::Digests {
     static ::Array<uint8_t>* _get_S();
     // Set static field: static private readonly System.Byte[] S
     static void _set_S(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] X
-    ::Array<uint8_t>* _get_X();
-    // Set instance field: private System.Byte[] X
-    void _set_X(::Array<uint8_t>* value);
-    // Get instance field: private System.Int32 xOff
-    int _get_xOff();
-    // Set instance field: private System.Int32 xOff
-    void _set_xOff(int value);
-    // Get instance field: private System.Byte[] M
-    ::Array<uint8_t>* _get_M();
-    // Set instance field: private System.Byte[] M
-    void _set_M(::Array<uint8_t>* value);
-    // Get instance field: private System.Int32 mOff
-    int _get_mOff();
-    // Set instance field: private System.Int32 mOff
-    void _set_mOff(int value);
-    // Get instance field: private System.Byte[] C
-    ::Array<uint8_t>* _get_C();
-    // Set instance field: private System.Byte[] C
-    void _set_C(::Array<uint8_t>* value);
-    // Get instance field: private System.Int32 COff
-    int _get_COff();
-    // Set instance field: private System.Int32 COff
-    void _set_COff(int value);
+    // Get instance field reference: private System.Byte[] X
+    ::Array<uint8_t>*& dyn_X();
+    // Get instance field reference: private System.Int32 xOff
+    int& dyn_xOff();
+    // Get instance field reference: private System.Byte[] M
+    ::Array<uint8_t>*& dyn_M();
+    // Get instance field reference: private System.Int32 mOff
+    int& dyn_mOff();
+    // Get instance field reference: private System.Byte[] C
+    ::Array<uint8_t>*& dyn_C();
+    // Get instance field reference: private System.Int32 COff
+    int& dyn_COff();
     // public System.String get_AlgorithmName()
     // Offset: 0x1D6301C
     ::Il2CppString* get_AlgorithmName();

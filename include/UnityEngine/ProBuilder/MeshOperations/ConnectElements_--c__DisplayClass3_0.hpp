@@ -46,10 +46,8 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     constexpr operator System::Collections::Generic::HashSet_1<int>*() const noexcept {
       return appended;
     }
-    // Get instance field: public System.Collections.Generic.HashSet`1<System.Int32> appended
-    System::Collections::Generic::HashSet_1<int>* _get_appended();
-    // Set instance field: public System.Collections.Generic.HashSet`1<System.Int32> appended
-    void _set_appended(System::Collections::Generic::HashSet_1<int>* value);
+    // Get instance field reference: public System.Collections.Generic.HashSet`1<System.Int32> appended
+    System::Collections::Generic::HashSet_1<int>*& dyn_appended();
     // System.Boolean <Connect>b__3(UnityEngine.ProBuilder.Edge x)
     // Offset: 0x1553084
     bool $Connect$b__3(UnityEngine::ProBuilder::Edge x);

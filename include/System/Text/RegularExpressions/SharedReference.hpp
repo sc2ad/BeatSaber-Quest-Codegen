@@ -37,10 +37,8 @@ namespace System::Text::RegularExpressions {
     constexpr operator System::WeakReference*() const noexcept {
       return ref;
     }
-    // Get instance field: private System.WeakReference _ref
-    System::WeakReference* _get__ref();
-    // Set instance field: private System.WeakReference _ref
-    void _set__ref(System::WeakReference* value);
+    // Get instance field reference: private System.WeakReference _ref
+    System::WeakReference*& dyn__ref();
     // public System.Void .ctor()
     // Offset: 0x19A2738
     // Implemented from: System.Object

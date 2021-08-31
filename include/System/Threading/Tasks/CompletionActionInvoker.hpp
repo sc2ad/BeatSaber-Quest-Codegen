@@ -52,14 +52,10 @@ namespace System::Threading::Tasks {
     operator System::Threading::IThreadPoolWorkItem() noexcept {
       return *reinterpret_cast<System::Threading::IThreadPoolWorkItem*>(this);
     }
-    // Get instance field: private readonly System.Threading.Tasks.ITaskCompletionAction m_action
-    System::Threading::Tasks::ITaskCompletionAction* _get_m_action();
-    // Set instance field: private readonly System.Threading.Tasks.ITaskCompletionAction m_action
-    void _set_m_action(System::Threading::Tasks::ITaskCompletionAction* value);
-    // Get instance field: private readonly System.Threading.Tasks.Task m_completingTask
-    System::Threading::Tasks::Task* _get_m_completingTask();
-    // Set instance field: private readonly System.Threading.Tasks.Task m_completingTask
-    void _set_m_completingTask(System::Threading::Tasks::Task* value);
+    // Get instance field reference: private readonly System.Threading.Tasks.ITaskCompletionAction m_action
+    System::Threading::Tasks::ITaskCompletionAction*& dyn_m_action();
+    // Get instance field reference: private readonly System.Threading.Tasks.Task m_completingTask
+    System::Threading::Tasks::Task*& dyn_m_completingTask();
     // System.Void .ctor(System.Threading.Tasks.ITaskCompletionAction action, System.Threading.Tasks.Task completingTask)
     // Offset: 0x18FC980
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

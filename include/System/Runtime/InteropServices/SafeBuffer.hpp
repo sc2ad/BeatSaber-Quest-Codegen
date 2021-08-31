@@ -28,10 +28,8 @@ namespace System::Runtime::InteropServices {
     constexpr operator bool() const noexcept {
       return inited;
     }
-    // Get instance field: private System.Boolean inited
-    bool _get_inited();
-    // Set instance field: private System.Boolean inited
-    void _set_inited(bool value);
+    // Get instance field reference: private System.Boolean inited
+    bool& dyn_inited();
     // public System.Void AcquirePointer(ref System.Byte* pointer)
     // Offset: 0x14897B0
     void AcquirePointer(ByRef<uint8_t*> pointer);

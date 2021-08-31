@@ -40,18 +40,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData*) == 0x8);
     // Creating value type constructor for type: PlayerAllOverallStatsData
     PlayerAllOverallStatsData(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData* campaignOverallStatsData_ = {}, GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData* soloFreePlayOverallStatsData_ = {}, GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData* partyFreePlayOverallStatsData_ = {}) noexcept : campaignOverallStatsData{campaignOverallStatsData_}, soloFreePlayOverallStatsData{soloFreePlayOverallStatsData_}, partyFreePlayOverallStatsData{partyFreePlayOverallStatsData_} {}
-    // Get instance field: public PlayerSaveDataV1_0_1/PlayerOverallStatsData campaignOverallStatsData
-    GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData* _get_campaignOverallStatsData();
-    // Set instance field: public PlayerSaveDataV1_0_1/PlayerOverallStatsData campaignOverallStatsData
-    void _set_campaignOverallStatsData(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData* value);
-    // Get instance field: public PlayerSaveDataV1_0_1/PlayerOverallStatsData soloFreePlayOverallStatsData
-    GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData* _get_soloFreePlayOverallStatsData();
-    // Set instance field: public PlayerSaveDataV1_0_1/PlayerOverallStatsData soloFreePlayOverallStatsData
-    void _set_soloFreePlayOverallStatsData(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData* value);
-    // Get instance field: public PlayerSaveDataV1_0_1/PlayerOverallStatsData partyFreePlayOverallStatsData
-    GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData* _get_partyFreePlayOverallStatsData();
-    // Set instance field: public PlayerSaveDataV1_0_1/PlayerOverallStatsData partyFreePlayOverallStatsData
-    void _set_partyFreePlayOverallStatsData(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData* value);
+    // Get instance field reference: public PlayerSaveDataV1_0_1/PlayerOverallStatsData campaignOverallStatsData
+    GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData*& dyn_campaignOverallStatsData();
+    // Get instance field reference: public PlayerSaveDataV1_0_1/PlayerOverallStatsData soloFreePlayOverallStatsData
+    GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData*& dyn_soloFreePlayOverallStatsData();
+    // Get instance field reference: public PlayerSaveDataV1_0_1/PlayerOverallStatsData partyFreePlayOverallStatsData
+    GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData*& dyn_partyFreePlayOverallStatsData();
     // public System.Void .ctor(PlayerSaveDataV1_0_1/PlayerOverallStatsData campaignOverallStatsData, PlayerSaveDataV1_0_1/PlayerOverallStatsData soloFreePlayOverallStatsData, PlayerSaveDataV1_0_1/PlayerOverallStatsData partyFreePlayOverallStatsData)
     // Offset: 0x113B530
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -99,10 +99,8 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kToStringSuffix();
     // Set static field: static private System.String kToStringSuffix
     static void _set_kToStringSuffix(::Il2CppString* value);
-    // Get instance field: private readonly BitMaskSparse _bloomFilter
-    GlobalNamespace::BitMaskSparse* _get__bloomFilter();
-    // Set instance field: private readonly BitMaskSparse _bloomFilter
-    void _set__bloomFilter(GlobalNamespace::BitMaskSparse* value);
+    // Get instance field reference: private readonly BitMaskSparse _bloomFilter
+    GlobalNamespace::BitMaskSparse*& dyn__bloomFilter();
     // public System.Void .ctor(System.String level)
     // Offset: 0x2376E68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

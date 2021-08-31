@@ -67,10 +67,8 @@ namespace System::Security::Cryptography::X509Certificates {
     static ::Array<uint8_t>* _get_Empty();
     // Set static field: static private System.Byte[] Empty
     static void _set_Empty(::Array<uint8_t>* value);
-    // Get instance field: private System.Collections.ArrayList _list
-    System::Collections::ArrayList* _get__list();
-    // Set instance field: private System.Collections.ArrayList _list
-    void _set__list(System::Collections::ArrayList* value);
+    // Get instance field reference: private System.Collections.ArrayList _list
+    System::Collections::ArrayList*& dyn__list();
     // public System.Int32 get_Count()
     // Offset: 0x185C090
     int get_Count();

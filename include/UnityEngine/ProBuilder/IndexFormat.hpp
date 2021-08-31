@@ -50,10 +50,8 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::IndexFormat _get_Both();
     // Set static field: static public UnityEngine.ProBuilder.IndexFormat Both
     static void _set_Both(UnityEngine::ProBuilder::IndexFormat value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.ProBuilder.IndexFormat
   #pragma pack(pop)
   static check_size<sizeof(IndexFormat), 0 + sizeof(int)> __UnityEngine_ProBuilder_IndexFormatSizeCheck;

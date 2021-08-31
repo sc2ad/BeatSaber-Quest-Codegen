@@ -67,26 +67,16 @@ namespace GlobalNamespace {
     static float _get_kLookAheadTime();
     // Set static field: static private System.Single kLookAheadTime
     static void _set_kLookAheadTime(float value);
-    // Get instance field: private readonly IAudioTimeSource _audioTimeSource
-    GlobalNamespace::IAudioTimeSource* _get__audioTimeSource();
-    // Set instance field: private readonly IAudioTimeSource _audioTimeSource
-    void _set__audioTimeSource(GlobalNamespace::IAudioTimeSource* value);
-    // Get instance field: private readonly UnityEngine.Vector2 _gravity
-    UnityEngine::Vector2 _get__gravity();
-    // Set instance field: private readonly UnityEngine.Vector2 _gravity
-    void _set__gravity(UnityEngine::Vector2 value);
-    // Get instance field: private readonly UnityEngine.Vector2 _normalizedGravity
-    UnityEngine::Vector2 _get__normalizedGravity();
-    // Set instance field: private readonly UnityEngine.Vector2 _normalizedGravity
-    void _set__normalizedGravity(UnityEngine::Vector2 value);
-    // Get instance field: private readonly BezierSplineEvaluator _bezierSplineEvaluator
-    GlobalNamespace::BezierSplineEvaluator* _get__bezierSplineEvaluator();
-    // Set instance field: private readonly BezierSplineEvaluator _bezierSplineEvaluator
-    void _set__bezierSplineEvaluator(GlobalNamespace::BezierSplineEvaluator* value);
-    // Get instance field: private System.Single _currentAcceleration
-    float _get__currentAcceleration();
-    // Set instance field: private System.Single _currentAcceleration
-    void _set__currentAcceleration(float value);
+    // Get instance field reference: private readonly IAudioTimeSource _audioTimeSource
+    GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
+    // Get instance field reference: private readonly UnityEngine.Vector2 _gravity
+    UnityEngine::Vector2& dyn__gravity();
+    // Get instance field reference: private readonly UnityEngine.Vector2 _normalizedGravity
+    UnityEngine::Vector2& dyn__normalizedGravity();
+    // Get instance field reference: private readonly BezierSplineEvaluator _bezierSplineEvaluator
+    GlobalNamespace::BezierSplineEvaluator*& dyn__bezierSplineEvaluator();
+    // Get instance field reference: private System.Single _currentAcceleration
+    float& dyn__currentAcceleration();
     // public System.Void .ctor(IAudioTimeSource audioTimeSource, BezierSplineEvaluator bezierSplineEvaluator, UnityEngine.Vector2 gravity)
     // Offset: 0x10C5634
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

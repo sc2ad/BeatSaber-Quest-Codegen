@@ -58,10 +58,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::CameraAnchorType _get_CameraAnchorType_EnumSize();
     // Set static field: static public OVRPlugin/CameraAnchorType CameraAnchorType_EnumSize
     static void _set_CameraAnchorType_EnumSize(GlobalNamespace::OVRPlugin::CameraAnchorType value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // OVRPlugin/CameraAnchorType
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::CameraAnchorType), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_CameraAnchorTypeSizeCheck;

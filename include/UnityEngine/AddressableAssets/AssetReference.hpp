@@ -82,22 +82,14 @@ namespace UnityEngine::AddressableAssets {
     operator UnityEngine::AddressableAssets::IKeyEvaluator() noexcept {
       return *reinterpret_cast<UnityEngine::AddressableAssets::IKeyEvaluator*>(this);
     }
-    // Get instance field: private System.String m_AssetGUID
-    ::Il2CppString* _get_m_AssetGUID();
-    // Set instance field: private System.String m_AssetGUID
-    void _set_m_AssetGUID(::Il2CppString* value);
-    // Get instance field: private System.String m_SubObjectName
-    ::Il2CppString* _get_m_SubObjectName();
-    // Set instance field: private System.String m_SubObjectName
-    void _set_m_SubObjectName(::Il2CppString* value);
-    // Get instance field: private System.String m_SubObjectType
-    ::Il2CppString* _get_m_SubObjectType();
-    // Set instance field: private System.String m_SubObjectType
-    void _set_m_SubObjectType(::Il2CppString* value);
-    // Get instance field: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle m_Operation
-    UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle _get_m_Operation();
-    // Set instance field: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle m_Operation
-    void _set_m_Operation(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle value);
+    // Get instance field reference: private System.String m_AssetGUID
+    ::Il2CppString*& dyn_m_AssetGUID();
+    // Get instance field reference: private System.String m_SubObjectName
+    ::Il2CppString*& dyn_m_SubObjectName();
+    // Get instance field reference: private System.String m_SubObjectType
+    ::Il2CppString*& dyn_m_SubObjectType();
+    // Get instance field reference: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle m_Operation
+    UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle& dyn_m_Operation();
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle get_OperationHandle()
     // Offset: 0x14432B8
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle get_OperationHandle();

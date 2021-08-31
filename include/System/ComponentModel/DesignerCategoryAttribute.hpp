@@ -49,10 +49,8 @@ namespace System::ComponentModel {
     static System::ComponentModel::DesignerCategoryAttribute* _get_Generic();
     // Set static field: static public readonly System.ComponentModel.DesignerCategoryAttribute Generic
     static void _set_Generic(System::ComponentModel::DesignerCategoryAttribute* value);
-    // Get instance field: private System.String category
-    ::Il2CppString* _get_category();
-    // Set instance field: private System.String category
-    void _set_category(::Il2CppString* value);
+    // Get instance field reference: private System.String category
+    ::Il2CppString*& dyn_category();
     // public System.Void .ctor(System.String category)
     // Offset: 0x18AF0C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

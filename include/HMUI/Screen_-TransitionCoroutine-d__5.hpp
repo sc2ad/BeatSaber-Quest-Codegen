@@ -89,38 +89,22 @@ namespace HMUI {
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
-    // Get instance field: private System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: private System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: private System.Object <>2__current
-    ::Il2CppObject* _get_$$2__current();
-    // Set instance field: private System.Object <>2__current
-    void _set_$$2__current(::Il2CppObject* value);
-    // Get instance field: public HMUI.Screen <>4__this
-    HMUI::Screen* _get_$$4__this();
-    // Set instance field: public HMUI.Screen <>4__this
-    void _set_$$4__this(HMUI::Screen* value);
-    // Get instance field: public HMUI.ViewController newRootViewController
-    HMUI::ViewController* _get_newRootViewController();
-    // Set instance field: public HMUI.ViewController newRootViewController
-    void _set_newRootViewController(HMUI::ViewController* value);
-    // Get instance field: public HMUI.ViewController/HMUI.AnimationType animationType
-    HMUI::ViewController::AnimationType _get_animationType();
-    // Set instance field: public HMUI.ViewController/HMUI.AnimationType animationType
-    void _set_animationType(HMUI::ViewController::AnimationType value);
-    // Get instance field: private HMUI.ViewController <oldRootViewController>5__2
-    HMUI::ViewController* _get_$oldRootViewController$5__2();
-    // Set instance field: private HMUI.ViewController <oldRootViewController>5__2
-    void _set_$oldRootViewController$5__2(HMUI::ViewController* value);
-    // Get instance field: private System.Single <oldRootViewControllerStartAlpha>5__3
-    float _get_$oldRootViewControllerStartAlpha$5__3();
-    // Set instance field: private System.Single <oldRootViewControllerStartAlpha>5__3
-    void _set_$oldRootViewControllerStartAlpha$5__3(float value);
-    // Get instance field: private System.Single <elapsedTime>5__4
-    float _get_$elapsedTime$5__4();
-    // Set instance field: private System.Single <elapsedTime>5__4
-    void _set_$elapsedTime$5__4(float value);
+    // Get instance field reference: private System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: private System.Object <>2__current
+    ::Il2CppObject*& dyn_$$2__current();
+    // Get instance field reference: public HMUI.Screen <>4__this
+    HMUI::Screen*& dyn_$$4__this();
+    // Get instance field reference: public HMUI.ViewController newRootViewController
+    HMUI::ViewController*& dyn_newRootViewController();
+    // Get instance field reference: public HMUI.ViewController/HMUI.AnimationType animationType
+    HMUI::ViewController::AnimationType& dyn_animationType();
+    // Get instance field reference: private HMUI.ViewController <oldRootViewController>5__2
+    HMUI::ViewController*& dyn_$oldRootViewController$5__2();
+    // Get instance field reference: private System.Single <oldRootViewControllerStartAlpha>5__3
+    float& dyn_$oldRootViewControllerStartAlpha$5__3();
+    // Get instance field reference: private System.Single <elapsedTime>5__4
+    float& dyn_$elapsedTime$5__4();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
     // Offset: 0x12FB3C8
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();

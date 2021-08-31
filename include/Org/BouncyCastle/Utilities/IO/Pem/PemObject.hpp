@@ -45,18 +45,12 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // Creating value type constructor for type: PemObject
     PemObject(::Il2CppString* type_ = {}, System::Collections::IList* headers_ = {}, ::Array<uint8_t>* content_ = {}) noexcept : type{type_}, headers{headers_}, content{content_} {}
-    // Get instance field: private System.String type
-    ::Il2CppString* _get_type();
-    // Set instance field: private System.String type
-    void _set_type(::Il2CppString* value);
-    // Get instance field: private System.Collections.IList headers
-    System::Collections::IList* _get_headers();
-    // Set instance field: private System.Collections.IList headers
-    void _set_headers(System::Collections::IList* value);
-    // Get instance field: private System.Byte[] content
-    ::Array<uint8_t>* _get_content();
-    // Set instance field: private System.Byte[] content
-    void _set_content(::Array<uint8_t>* value);
+    // Get instance field reference: private System.String type
+    ::Il2CppString*& dyn_type();
+    // Get instance field reference: private System.Collections.IList headers
+    System::Collections::IList*& dyn_headers();
+    // Get instance field reference: private System.Byte[] content
+    ::Array<uint8_t>*& dyn_content();
     // public System.String get_Type()
     // Offset: 0x1FEDAA0
     ::Il2CppString* get_Type();

@@ -57,10 +57,8 @@ namespace System::Net::Http::Headers {
     static System::Net::Http::Headers::HttpHeaderKind _get_Content();
     // Set static field: static public System.Net.Http.Headers.HttpHeaderKind Content
     static void _set_Content(System::Net::Http::Headers::HttpHeaderKind value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Net.Http.Headers.HttpHeaderKind
   #pragma pack(pop)
   static check_size<sizeof(HttpHeaderKind), 0 + sizeof(int)> __System_Net_Http_Headers_HttpHeaderKindSizeCheck;

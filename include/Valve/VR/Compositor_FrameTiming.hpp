@@ -169,102 +169,54 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.UInt32 m_nSize
-    uint _get_m_nSize();
-    // Set instance field: public System.UInt32 m_nSize
-    void _set_m_nSize(uint value);
-    // Get instance field: public System.UInt32 m_nFrameIndex
-    uint _get_m_nFrameIndex();
-    // Set instance field: public System.UInt32 m_nFrameIndex
-    void _set_m_nFrameIndex(uint value);
-    // Get instance field: public System.UInt32 m_nNumFramePresents
-    uint _get_m_nNumFramePresents();
-    // Set instance field: public System.UInt32 m_nNumFramePresents
-    void _set_m_nNumFramePresents(uint value);
-    // Get instance field: public System.UInt32 m_nNumMisPresented
-    uint _get_m_nNumMisPresented();
-    // Set instance field: public System.UInt32 m_nNumMisPresented
-    void _set_m_nNumMisPresented(uint value);
-    // Get instance field: public System.UInt32 m_nNumDroppedFrames
-    uint _get_m_nNumDroppedFrames();
-    // Set instance field: public System.UInt32 m_nNumDroppedFrames
-    void _set_m_nNumDroppedFrames(uint value);
-    // Get instance field: public System.UInt32 m_nReprojectionFlags
-    uint _get_m_nReprojectionFlags();
-    // Set instance field: public System.UInt32 m_nReprojectionFlags
-    void _set_m_nReprojectionFlags(uint value);
-    // Get instance field: public System.Double m_flSystemTimeInSeconds
-    double _get_m_flSystemTimeInSeconds();
-    // Set instance field: public System.Double m_flSystemTimeInSeconds
-    void _set_m_flSystemTimeInSeconds(double value);
-    // Get instance field: public System.Single m_flPreSubmitGpuMs
-    float _get_m_flPreSubmitGpuMs();
-    // Set instance field: public System.Single m_flPreSubmitGpuMs
-    void _set_m_flPreSubmitGpuMs(float value);
-    // Get instance field: public System.Single m_flPostSubmitGpuMs
-    float _get_m_flPostSubmitGpuMs();
-    // Set instance field: public System.Single m_flPostSubmitGpuMs
-    void _set_m_flPostSubmitGpuMs(float value);
-    // Get instance field: public System.Single m_flTotalRenderGpuMs
-    float _get_m_flTotalRenderGpuMs();
-    // Set instance field: public System.Single m_flTotalRenderGpuMs
-    void _set_m_flTotalRenderGpuMs(float value);
-    // Get instance field: public System.Single m_flCompositorRenderGpuMs
-    float _get_m_flCompositorRenderGpuMs();
-    // Set instance field: public System.Single m_flCompositorRenderGpuMs
-    void _set_m_flCompositorRenderGpuMs(float value);
-    // Get instance field: public System.Single m_flCompositorRenderCpuMs
-    float _get_m_flCompositorRenderCpuMs();
-    // Set instance field: public System.Single m_flCompositorRenderCpuMs
-    void _set_m_flCompositorRenderCpuMs(float value);
-    // Get instance field: public System.Single m_flCompositorIdleCpuMs
-    float _get_m_flCompositorIdleCpuMs();
-    // Set instance field: public System.Single m_flCompositorIdleCpuMs
-    void _set_m_flCompositorIdleCpuMs(float value);
-    // Get instance field: public System.Single m_flClientFrameIntervalMs
-    float _get_m_flClientFrameIntervalMs();
-    // Set instance field: public System.Single m_flClientFrameIntervalMs
-    void _set_m_flClientFrameIntervalMs(float value);
-    // Get instance field: public System.Single m_flPresentCallCpuMs
-    float _get_m_flPresentCallCpuMs();
-    // Set instance field: public System.Single m_flPresentCallCpuMs
-    void _set_m_flPresentCallCpuMs(float value);
-    // Get instance field: public System.Single m_flWaitForPresentCpuMs
-    float _get_m_flWaitForPresentCpuMs();
-    // Set instance field: public System.Single m_flWaitForPresentCpuMs
-    void _set_m_flWaitForPresentCpuMs(float value);
-    // Get instance field: public System.Single m_flSubmitFrameMs
-    float _get_m_flSubmitFrameMs();
-    // Set instance field: public System.Single m_flSubmitFrameMs
-    void _set_m_flSubmitFrameMs(float value);
-    // Get instance field: public System.Single m_flWaitGetPosesCalledMs
-    float _get_m_flWaitGetPosesCalledMs();
-    // Set instance field: public System.Single m_flWaitGetPosesCalledMs
-    void _set_m_flWaitGetPosesCalledMs(float value);
-    // Get instance field: public System.Single m_flNewPosesReadyMs
-    float _get_m_flNewPosesReadyMs();
-    // Set instance field: public System.Single m_flNewPosesReadyMs
-    void _set_m_flNewPosesReadyMs(float value);
-    // Get instance field: public System.Single m_flNewFrameReadyMs
-    float _get_m_flNewFrameReadyMs();
-    // Set instance field: public System.Single m_flNewFrameReadyMs
-    void _set_m_flNewFrameReadyMs(float value);
-    // Get instance field: public System.Single m_flCompositorUpdateStartMs
-    float _get_m_flCompositorUpdateStartMs();
-    // Set instance field: public System.Single m_flCompositorUpdateStartMs
-    void _set_m_flCompositorUpdateStartMs(float value);
-    // Get instance field: public System.Single m_flCompositorUpdateEndMs
-    float _get_m_flCompositorUpdateEndMs();
-    // Set instance field: public System.Single m_flCompositorUpdateEndMs
-    void _set_m_flCompositorUpdateEndMs(float value);
-    // Get instance field: public System.Single m_flCompositorRenderStartMs
-    float _get_m_flCompositorRenderStartMs();
-    // Set instance field: public System.Single m_flCompositorRenderStartMs
-    void _set_m_flCompositorRenderStartMs(float value);
-    // Get instance field: public Valve.VR.TrackedDevicePose_t m_HmdPose
-    Valve::VR::TrackedDevicePose_t _get_m_HmdPose();
-    // Set instance field: public Valve.VR.TrackedDevicePose_t m_HmdPose
-    void _set_m_HmdPose(Valve::VR::TrackedDevicePose_t value);
+    // Get instance field reference: public System.UInt32 m_nSize
+    uint& dyn_m_nSize();
+    // Get instance field reference: public System.UInt32 m_nFrameIndex
+    uint& dyn_m_nFrameIndex();
+    // Get instance field reference: public System.UInt32 m_nNumFramePresents
+    uint& dyn_m_nNumFramePresents();
+    // Get instance field reference: public System.UInt32 m_nNumMisPresented
+    uint& dyn_m_nNumMisPresented();
+    // Get instance field reference: public System.UInt32 m_nNumDroppedFrames
+    uint& dyn_m_nNumDroppedFrames();
+    // Get instance field reference: public System.UInt32 m_nReprojectionFlags
+    uint& dyn_m_nReprojectionFlags();
+    // Get instance field reference: public System.Double m_flSystemTimeInSeconds
+    double& dyn_m_flSystemTimeInSeconds();
+    // Get instance field reference: public System.Single m_flPreSubmitGpuMs
+    float& dyn_m_flPreSubmitGpuMs();
+    // Get instance field reference: public System.Single m_flPostSubmitGpuMs
+    float& dyn_m_flPostSubmitGpuMs();
+    // Get instance field reference: public System.Single m_flTotalRenderGpuMs
+    float& dyn_m_flTotalRenderGpuMs();
+    // Get instance field reference: public System.Single m_flCompositorRenderGpuMs
+    float& dyn_m_flCompositorRenderGpuMs();
+    // Get instance field reference: public System.Single m_flCompositorRenderCpuMs
+    float& dyn_m_flCompositorRenderCpuMs();
+    // Get instance field reference: public System.Single m_flCompositorIdleCpuMs
+    float& dyn_m_flCompositorIdleCpuMs();
+    // Get instance field reference: public System.Single m_flClientFrameIntervalMs
+    float& dyn_m_flClientFrameIntervalMs();
+    // Get instance field reference: public System.Single m_flPresentCallCpuMs
+    float& dyn_m_flPresentCallCpuMs();
+    // Get instance field reference: public System.Single m_flWaitForPresentCpuMs
+    float& dyn_m_flWaitForPresentCpuMs();
+    // Get instance field reference: public System.Single m_flSubmitFrameMs
+    float& dyn_m_flSubmitFrameMs();
+    // Get instance field reference: public System.Single m_flWaitGetPosesCalledMs
+    float& dyn_m_flWaitGetPosesCalledMs();
+    // Get instance field reference: public System.Single m_flNewPosesReadyMs
+    float& dyn_m_flNewPosesReadyMs();
+    // Get instance field reference: public System.Single m_flNewFrameReadyMs
+    float& dyn_m_flNewFrameReadyMs();
+    // Get instance field reference: public System.Single m_flCompositorUpdateStartMs
+    float& dyn_m_flCompositorUpdateStartMs();
+    // Get instance field reference: public System.Single m_flCompositorUpdateEndMs
+    float& dyn_m_flCompositorUpdateEndMs();
+    // Get instance field reference: public System.Single m_flCompositorRenderStartMs
+    float& dyn_m_flCompositorRenderStartMs();
+    // Get instance field reference: public Valve.VR.TrackedDevicePose_t m_HmdPose
+    Valve::VR::TrackedDevicePose_t& dyn_m_HmdPose();
   }; // Valve.VR.Compositor_FrameTiming
   #pragma pack(pop)
   static check_size<sizeof(Compositor_FrameTiming), 96 + sizeof(Valve::VR::TrackedDevicePose_t)> __Valve_VR_Compositor_FrameTimingSizeCheck;

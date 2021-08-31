@@ -54,18 +54,12 @@ namespace System {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private System.Object[] keys
-    ::Array<::Il2CppObject*>* _get_keys();
-    // Set instance field: private System.Object[] keys
-    void _set_keys(::Array<::Il2CppObject*>* value);
-    // Get instance field: private System.Object[] items
-    ::Array<::Il2CppObject*>* _get_items();
-    // Set instance field: private System.Object[] items
-    void _set_items(::Array<::Il2CppObject*>* value);
-    // Get instance field: private System.Collections.IComparer comparer
-    System::Collections::IComparer* _get_comparer();
-    // Set instance field: private System.Collections.IComparer comparer
-    void _set_comparer(System::Collections::IComparer* value);
+    // Get instance field reference: private System.Object[] keys
+    ::Array<::Il2CppObject*>*& dyn_keys();
+    // Get instance field reference: private System.Object[] items
+    ::Array<::Il2CppObject*>*& dyn_items();
+    // Get instance field reference: private System.Collections.IComparer comparer
+    System::Collections::IComparer*& dyn_comparer();
     // System.Void .ctor(System.Object[] keys, System.Object[] items, System.Collections.IComparer comparer)
     // Offset: 0x17CC98C
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

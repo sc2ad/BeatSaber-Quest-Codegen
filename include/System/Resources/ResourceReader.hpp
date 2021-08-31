@@ -156,62 +156,34 @@ namespace System::Resources {
     operator System::Resources::IResourceReader() noexcept {
       return *reinterpret_cast<System::Resources::IResourceReader*>(this);
     }
-    // Get instance field: private System.IO.BinaryReader _store
-    System::IO::BinaryReader* _get__store();
-    // Set instance field: private System.IO.BinaryReader _store
-    void _set__store(System::IO::BinaryReader* value);
-    // Get instance field: System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceLocator> _resCache
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>* _get__resCache();
-    // Set instance field: System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceLocator> _resCache
-    void _set__resCache(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>* value);
-    // Get instance field: private System.Int64 _nameSectionOffset
-    int64_t _get__nameSectionOffset();
-    // Set instance field: private System.Int64 _nameSectionOffset
-    void _set__nameSectionOffset(int64_t value);
-    // Get instance field: private System.Int64 _dataSectionOffset
-    int64_t _get__dataSectionOffset();
-    // Set instance field: private System.Int64 _dataSectionOffset
-    void _set__dataSectionOffset(int64_t value);
-    // Get instance field: private System.Int32[] _nameHashes
-    ::Array<int>* _get__nameHashes();
-    // Set instance field: private System.Int32[] _nameHashes
-    void _set__nameHashes(::Array<int>* value);
-    // Get instance field: private System.Int32* _nameHashesPtr
-    int* _get__nameHashesPtr();
-    // Set instance field: private System.Int32* _nameHashesPtr
-    void _set__nameHashesPtr(int* value);
-    // Get instance field: private System.Int32[] _namePositions
-    ::Array<int>* _get__namePositions();
-    // Set instance field: private System.Int32[] _namePositions
-    void _set__namePositions(::Array<int>* value);
-    // Get instance field: private System.Int32* _namePositionsPtr
-    int* _get__namePositionsPtr();
-    // Set instance field: private System.Int32* _namePositionsPtr
-    void _set__namePositionsPtr(int* value);
-    // Get instance field: private System.RuntimeType[] _typeTable
-    ::Array<System::RuntimeType*>* _get__typeTable();
-    // Set instance field: private System.RuntimeType[] _typeTable
-    void _set__typeTable(::Array<System::RuntimeType*>* value);
-    // Get instance field: private System.Int32[] _typeNamePositions
-    ::Array<int>* _get__typeNamePositions();
-    // Set instance field: private System.Int32[] _typeNamePositions
-    void _set__typeNamePositions(::Array<int>* value);
-    // Get instance field: private System.Runtime.Serialization.Formatters.Binary.BinaryFormatter _objFormatter
-    System::Runtime::Serialization::Formatters::Binary::BinaryFormatter* _get__objFormatter();
-    // Set instance field: private System.Runtime.Serialization.Formatters.Binary.BinaryFormatter _objFormatter
-    void _set__objFormatter(System::Runtime::Serialization::Formatters::Binary::BinaryFormatter* value);
-    // Get instance field: private System.Int32 _numResources
-    int _get__numResources();
-    // Set instance field: private System.Int32 _numResources
-    void _set__numResources(int value);
-    // Get instance field: private System.IO.UnmanagedMemoryStream _ums
-    System::IO::UnmanagedMemoryStream* _get__ums();
-    // Set instance field: private System.IO.UnmanagedMemoryStream _ums
-    void _set__ums(System::IO::UnmanagedMemoryStream* value);
-    // Get instance field: private System.Int32 _version
-    int _get__version();
-    // Set instance field: private System.Int32 _version
-    void _set__version(int value);
+    // Get instance field reference: private System.IO.BinaryReader _store
+    System::IO::BinaryReader*& dyn__store();
+    // Get instance field reference: System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceLocator> _resCache
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>*& dyn__resCache();
+    // Get instance field reference: private System.Int64 _nameSectionOffset
+    int64_t& dyn__nameSectionOffset();
+    // Get instance field reference: private System.Int64 _dataSectionOffset
+    int64_t& dyn__dataSectionOffset();
+    // Get instance field reference: private System.Int32[] _nameHashes
+    ::Array<int>*& dyn__nameHashes();
+    // Get instance field reference: private System.Int32* _nameHashesPtr
+    int*& dyn__nameHashesPtr();
+    // Get instance field reference: private System.Int32[] _namePositions
+    ::Array<int>*& dyn__namePositions();
+    // Get instance field reference: private System.Int32* _namePositionsPtr
+    int*& dyn__namePositionsPtr();
+    // Get instance field reference: private System.RuntimeType[] _typeTable
+    ::Array<System::RuntimeType*>*& dyn__typeTable();
+    // Get instance field reference: private System.Int32[] _typeNamePositions
+    ::Array<int>*& dyn__typeNamePositions();
+    // Get instance field reference: private System.Runtime.Serialization.Formatters.Binary.BinaryFormatter _objFormatter
+    System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*& dyn__objFormatter();
+    // Get instance field reference: private System.Int32 _numResources
+    int& dyn__numResources();
+    // Get instance field reference: private System.IO.UnmanagedMemoryStream _ums
+    System::IO::UnmanagedMemoryStream*& dyn__ums();
+    // Get instance field reference: private System.Int32 _version
+    int& dyn__version();
     // System.Void .ctor(System.IO.Stream stream, System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceLocator> resCache)
     // Offset: 0x147FCF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

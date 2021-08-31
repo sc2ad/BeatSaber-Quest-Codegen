@@ -142,50 +142,28 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private GameplayModifiersModelSO _gameplayModifiersModel
-    GlobalNamespace::GameplayModifiersModelSO* _get__gameplayModifiersModel();
-    // Set instance field: private GameplayModifiersModelSO _gameplayModifiersModel
-    void _set__gameplayModifiersModel(GlobalNamespace::GameplayModifiersModelSO* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _totalMultiplierValueText
-    TMPro::TextMeshProUGUI* _get__totalMultiplierValueText();
-    // Set instance field: private TMPro.TextMeshProUGUI _totalMultiplierValueText
-    void _set__totalMultiplierValueText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _maxRankValueText
-    TMPro::TextMeshProUGUI* _get__maxRankValueText();
-    // Set instance field: private TMPro.TextMeshProUGUI _maxRankValueText
-    void _set__maxRankValueText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private UnityEngine.Color _positiveColor
-    UnityEngine::Color _get__positiveColor();
-    // Set instance field: private UnityEngine.Color _positiveColor
-    void _set__positiveColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _negativeColor
-    UnityEngine::Color _get__negativeColor();
-    // Set instance field: private UnityEngine.Color _negativeColor
-    void _set__negativeColor(UnityEngine::Color value);
-    // Get instance field: private System.Action didChangeGameplayModifiersEvent
-    System::Action* _get_didChangeGameplayModifiersEvent();
-    // Set instance field: private System.Action didChangeGameplayModifiersEvent
-    void _set_didChangeGameplayModifiersEvent(System::Action* value);
-    // Get instance field: private GameplayModifiers _gameplayModifiers
-    GlobalNamespace::GameplayModifiers* _get__gameplayModifiers();
-    // Set instance field: private GameplayModifiers _gameplayModifiers
-    void _set__gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
-    // Get instance field: private HMUI.ToggleBinder _toggleBinder
-    HMUI::ToggleBinder* _get__toggleBinder();
-    // Set instance field: private HMUI.ToggleBinder _toggleBinder
-    void _set__toggleBinder(HMUI::ToggleBinder* value);
-    // Get instance field: private GameplayModifierToggle[] _gameplayModifierToggles
-    ::Array<GlobalNamespace::GameplayModifierToggle*>* _get__gameplayModifierToggles();
-    // Set instance field: private GameplayModifierToggle[] _gameplayModifierToggles
-    void _set__gameplayModifierToggles(::Array<GlobalNamespace::GameplayModifierToggle*>* value);
-    // Get instance field: private System.Boolean _changingGameplayModifierToggles
-    bool _get__changingGameplayModifierToggles();
-    // Set instance field: private System.Boolean _changingGameplayModifierToggles
-    void _set__changingGameplayModifierToggles(bool value);
-    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<GameplayModifierParamsSO,UnityEngine.UI.Toggle> _toggleForGameplayModifierParam
-    System::Collections::Generic::Dictionary_2<GlobalNamespace::GameplayModifierParamsSO*, UnityEngine::UI::Toggle*>* _get__toggleForGameplayModifierParam();
-    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<GameplayModifierParamsSO,UnityEngine.UI.Toggle> _toggleForGameplayModifierParam
-    void _set__toggleForGameplayModifierParam(System::Collections::Generic::Dictionary_2<GlobalNamespace::GameplayModifierParamsSO*, UnityEngine::UI::Toggle*>* value);
+    // Get instance field reference: private GameplayModifiersModelSO _gameplayModifiersModel
+    GlobalNamespace::GameplayModifiersModelSO*& dyn__gameplayModifiersModel();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _totalMultiplierValueText
+    TMPro::TextMeshProUGUI*& dyn__totalMultiplierValueText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _maxRankValueText
+    TMPro::TextMeshProUGUI*& dyn__maxRankValueText();
+    // Get instance field reference: private UnityEngine.Color _positiveColor
+    UnityEngine::Color& dyn__positiveColor();
+    // Get instance field reference: private UnityEngine.Color _negativeColor
+    UnityEngine::Color& dyn__negativeColor();
+    // Get instance field reference: private System.Action didChangeGameplayModifiersEvent
+    System::Action*& dyn_didChangeGameplayModifiersEvent();
+    // Get instance field reference: private GameplayModifiers _gameplayModifiers
+    GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
+    // Get instance field reference: private HMUI.ToggleBinder _toggleBinder
+    HMUI::ToggleBinder*& dyn__toggleBinder();
+    // Get instance field reference: private GameplayModifierToggle[] _gameplayModifierToggles
+    ::Array<GlobalNamespace::GameplayModifierToggle*>*& dyn__gameplayModifierToggles();
+    // Get instance field reference: private System.Boolean _changingGameplayModifierToggles
+    bool& dyn__changingGameplayModifierToggles();
+    // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<GameplayModifierParamsSO,UnityEngine.UI.Toggle> _toggleForGameplayModifierParam
+    System::Collections::Generic::Dictionary_2<GlobalNamespace::GameplayModifierParamsSO*, UnityEngine::UI::Toggle*>*& dyn__toggleForGameplayModifierParam();
     // public GameplayModifiers get_gameplayModifiers()
     // Offset: 0x110F4C8
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();

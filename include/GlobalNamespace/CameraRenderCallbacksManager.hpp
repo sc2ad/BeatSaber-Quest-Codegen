@@ -62,14 +62,10 @@ namespace GlobalNamespace {
     static System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CameraRenderCallbacksManager*>* _get__callbackManagers();
     // Set static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CameraRenderCallbacksManager> _callbackManagers
     static void _set__callbackManagers(System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CameraRenderCallbacksManager*>* value);
-    // Get instance field: protected System.Collections.Generic.HashSet`1<CameraRenderCallbacksManager/ICameraRenderCallbacks> _observers
-    System::Collections::Generic::HashSet_1<GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*>* _get__observers();
-    // Set instance field: protected System.Collections.Generic.HashSet`1<CameraRenderCallbacksManager/ICameraRenderCallbacks> _observers
-    void _set__observers(System::Collections::Generic::HashSet_1<GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*>* value);
-    // Get instance field: private UnityEngine.Camera _camera
-    UnityEngine::Camera* _get__camera();
-    // Set instance field: private UnityEngine.Camera _camera
-    void _set__camera(UnityEngine::Camera* value);
+    // Get instance field reference: protected System.Collections.Generic.HashSet`1<CameraRenderCallbacksManager/ICameraRenderCallbacks> _observers
+    System::Collections::Generic::HashSet_1<GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*>*& dyn__observers();
+    // Get instance field reference: private UnityEngine.Camera _camera
+    UnityEngine::Camera*& dyn__camera();
     // static public System.Void RegisterForCameraCallbacks(UnityEngine.Camera camera, CameraRenderCallbacksManager/ICameraRenderCallbacks observer)
     // Offset: 0x1E161D0
     static void RegisterForCameraCallbacks(UnityEngine::Camera* camera, GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks* observer);

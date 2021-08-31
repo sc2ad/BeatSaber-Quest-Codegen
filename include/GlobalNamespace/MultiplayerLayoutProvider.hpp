@@ -48,18 +48,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>*) == 0x8);
     // Creating value type constructor for type: MultiplayerLayoutProvider
     MultiplayerLayoutProvider(GlobalNamespace::MultiplayerPlayerLayout layout_ = {}, int activePlayerSpotsCount_ = {}, System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>* playersLayoutWasCalculatedEvent_ = {}) noexcept : layout{layout_}, activePlayerSpotsCount{activePlayerSpotsCount_}, playersLayoutWasCalculatedEvent{playersLayoutWasCalculatedEvent_} {}
-    // Get instance field: private MultiplayerPlayerLayout <layout>k__BackingField
-    GlobalNamespace::MultiplayerPlayerLayout _get_$layout$k__BackingField();
-    // Set instance field: private MultiplayerPlayerLayout <layout>k__BackingField
-    void _set_$layout$k__BackingField(GlobalNamespace::MultiplayerPlayerLayout value);
-    // Get instance field: private System.Int32 <activePlayerSpotsCount>k__BackingField
-    int _get_$activePlayerSpotsCount$k__BackingField();
-    // Set instance field: private System.Int32 <activePlayerSpotsCount>k__BackingField
-    void _set_$activePlayerSpotsCount$k__BackingField(int value);
-    // Get instance field: private System.Action`2<MultiplayerPlayerLayout,System.Int32> playersLayoutWasCalculatedEvent
-    System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>* _get_playersLayoutWasCalculatedEvent();
-    // Set instance field: private System.Action`2<MultiplayerPlayerLayout,System.Int32> playersLayoutWasCalculatedEvent
-    void _set_playersLayoutWasCalculatedEvent(System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>* value);
+    // Get instance field reference: private MultiplayerPlayerLayout <layout>k__BackingField
+    GlobalNamespace::MultiplayerPlayerLayout& dyn_$layout$k__BackingField();
+    // Get instance field reference: private System.Int32 <activePlayerSpotsCount>k__BackingField
+    int& dyn_$activePlayerSpotsCount$k__BackingField();
+    // Get instance field reference: private System.Action`2<MultiplayerPlayerLayout,System.Int32> playersLayoutWasCalculatedEvent
+    System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>*& dyn_playersLayoutWasCalculatedEvent();
     // public MultiplayerPlayerLayout get_layout()
     // Offset: 0x11B3644
     GlobalNamespace::MultiplayerPlayerLayout get_layout();

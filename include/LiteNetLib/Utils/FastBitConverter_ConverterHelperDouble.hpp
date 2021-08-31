@@ -36,14 +36,10 @@ namespace LiteNetLib::Utils {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.UInt64 Along
-    uint64_t _get_Along();
-    // Set instance field: public System.UInt64 Along
-    void _set_Along(uint64_t value);
-    // Get instance field: public System.Double Adouble
-    double _get_Adouble();
-    // Set instance field: public System.Double Adouble
-    void _set_Adouble(double value);
+    // Get instance field reference: public System.UInt64 Along
+    uint64_t& dyn_Along();
+    // Get instance field reference: public System.Double Adouble
+    double& dyn_Adouble();
   }; // LiteNetLib.Utils.FastBitConverter/LiteNetLib.Utils.ConverterHelperDouble
   // WARNING Not writing size check since size may be invalid!
 }

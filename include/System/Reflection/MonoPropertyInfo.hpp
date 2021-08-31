@@ -77,30 +77,18 @@ namespace System::Reflection {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Type parent
-    System::Type* _get_parent();
-    // Set instance field: public System.Type parent
-    void _set_parent(System::Type* value);
-    // Get instance field: public System.Type declaring_type
-    System::Type* _get_declaring_type();
-    // Set instance field: public System.Type declaring_type
-    void _set_declaring_type(System::Type* value);
-    // Get instance field: public System.String name
-    ::Il2CppString* _get_name();
-    // Set instance field: public System.String name
-    void _set_name(::Il2CppString* value);
-    // Get instance field: public System.Reflection.MethodInfo get_method
-    System::Reflection::MethodInfo* _get_get_method();
-    // Set instance field: public System.Reflection.MethodInfo get_method
-    void _set_get_method(System::Reflection::MethodInfo* value);
-    // Get instance field: public System.Reflection.MethodInfo set_method
-    System::Reflection::MethodInfo* _get_set_method();
-    // Set instance field: public System.Reflection.MethodInfo set_method
-    void _set_set_method(System::Reflection::MethodInfo* value);
-    // Get instance field: public System.Reflection.PropertyAttributes attrs
-    System::Reflection::PropertyAttributes _get_attrs();
-    // Set instance field: public System.Reflection.PropertyAttributes attrs
-    void _set_attrs(System::Reflection::PropertyAttributes value);
+    // Get instance field reference: public System.Type parent
+    System::Type*& dyn_parent();
+    // Get instance field reference: public System.Type declaring_type
+    System::Type*& dyn_declaring_type();
+    // Get instance field reference: public System.String name
+    ::Il2CppString*& dyn_name();
+    // Get instance field reference: public System.Reflection.MethodInfo get_method
+    System::Reflection::MethodInfo*& dyn_get_method();
+    // Get instance field reference: public System.Reflection.MethodInfo set_method
+    System::Reflection::MethodInfo*& dyn_set_method();
+    // Get instance field reference: public System.Reflection.PropertyAttributes attrs
+    System::Reflection::PropertyAttributes& dyn_attrs();
     // static System.Void get_property_info(System.Reflection.MonoProperty prop, ref System.Reflection.MonoPropertyInfo info, System.Reflection.PInfo req_info)
     // Offset: 0x1D1FDFC
     static void get_property_info(System::Reflection::MonoProperty* prop, ByRef<System::Reflection::MonoPropertyInfo> info, System::Reflection::PInfo req_info);

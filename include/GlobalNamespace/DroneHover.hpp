@@ -109,46 +109,26 @@ namespace GlobalNamespace {
     DroneHover(UnityEngine::Vector3 hoverAreaPerAxis_ = {}, float speed_ = {}, System::Collections::Generic::List_1<GlobalNamespace::DroneHover::SineLayer*>* compoundSins_ = {}, System::Collections::Generic::List_1<UnityEngine::Transform*>* tiltTransforms_ = {}, float maxTiltAmount_ = {}, float tiltSpeed_ = {}, float tiltAheadOfTime_ = {}, bool tiltToTarget_ = {}, UnityEngine::Vector3 startPos_ = {}, UnityEngine::Cloth* cloth_ = {}) noexcept : hoverAreaPerAxis{hoverAreaPerAxis_}, speed{speed_}, compoundSins{compoundSins_}, tiltTransforms{tiltTransforms_}, maxTiltAmount{maxTiltAmount_}, tiltSpeed{tiltSpeed_}, tiltAheadOfTime{tiltAheadOfTime_}, tiltToTarget{tiltToTarget_}, startPos{startPos_}, cloth{cloth_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.Vector3 _hoverAreaPerAxis
-    UnityEngine::Vector3 _get__hoverAreaPerAxis();
-    // Set instance field: private UnityEngine.Vector3 _hoverAreaPerAxis
-    void _set__hoverAreaPerAxis(UnityEngine::Vector3 value);
-    // Get instance field: private System.Single _speed
-    float _get__speed();
-    // Set instance field: private System.Single _speed
-    void _set__speed(float value);
-    // Get instance field: private System.Collections.Generic.List`1<DroneHover/SineLayer> _compoundSins
-    System::Collections::Generic::List_1<GlobalNamespace::DroneHover::SineLayer*>* _get__compoundSins();
-    // Set instance field: private System.Collections.Generic.List`1<DroneHover/SineLayer> _compoundSins
-    void _set__compoundSins(System::Collections::Generic::List_1<GlobalNamespace::DroneHover::SineLayer*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.Transform> _tiltTransforms
-    System::Collections::Generic::List_1<UnityEngine::Transform*>* _get__tiltTransforms();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Transform> _tiltTransforms
-    void _set__tiltTransforms(System::Collections::Generic::List_1<UnityEngine::Transform*>* value);
-    // Get instance field: private System.Single _maxTiltAmount
-    float _get__maxTiltAmount();
-    // Set instance field: private System.Single _maxTiltAmount
-    void _set__maxTiltAmount(float value);
-    // Get instance field: private System.Single _tiltSpeed
-    float _get__tiltSpeed();
-    // Set instance field: private System.Single _tiltSpeed
-    void _set__tiltSpeed(float value);
-    // Get instance field: private System.Single _tiltAheadOfTime
-    float _get__tiltAheadOfTime();
-    // Set instance field: private System.Single _tiltAheadOfTime
-    void _set__tiltAheadOfTime(float value);
-    // Get instance field: private System.Boolean _tiltToTarget
-    bool _get__tiltToTarget();
-    // Set instance field: private System.Boolean _tiltToTarget
-    void _set__tiltToTarget(bool value);
-    // Get instance field: private UnityEngine.Vector3 _startPos
-    UnityEngine::Vector3 _get__startPos();
-    // Set instance field: private UnityEngine.Vector3 _startPos
-    void _set__startPos(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Cloth _cloth
-    UnityEngine::Cloth* _get__cloth();
-    // Set instance field: private UnityEngine.Cloth _cloth
-    void _set__cloth(UnityEngine::Cloth* value);
+    // Get instance field reference: private UnityEngine.Vector3 _hoverAreaPerAxis
+    UnityEngine::Vector3& dyn__hoverAreaPerAxis();
+    // Get instance field reference: private System.Single _speed
+    float& dyn__speed();
+    // Get instance field reference: private System.Collections.Generic.List`1<DroneHover/SineLayer> _compoundSins
+    System::Collections::Generic::List_1<GlobalNamespace::DroneHover::SineLayer*>*& dyn__compoundSins();
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Transform> _tiltTransforms
+    System::Collections::Generic::List_1<UnityEngine::Transform*>*& dyn__tiltTransforms();
+    // Get instance field reference: private System.Single _maxTiltAmount
+    float& dyn__maxTiltAmount();
+    // Get instance field reference: private System.Single _tiltSpeed
+    float& dyn__tiltSpeed();
+    // Get instance field reference: private System.Single _tiltAheadOfTime
+    float& dyn__tiltAheadOfTime();
+    // Get instance field reference: private System.Boolean _tiltToTarget
+    bool& dyn__tiltToTarget();
+    // Get instance field reference: private UnityEngine.Vector3 _startPos
+    UnityEngine::Vector3& dyn__startPos();
+    // Get instance field reference: private UnityEngine.Cloth _cloth
+    UnityEngine::Cloth*& dyn__cloth();
     // protected System.Void Start()
     // Offset: 0x104B520
     void Start();

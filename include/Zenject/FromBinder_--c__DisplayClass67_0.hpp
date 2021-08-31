@@ -52,10 +52,8 @@ namespace Zenject {
     constexpr operator System::Func_2<Zenject::InjectContext*, ::Il2CppObject*>*() const noexcept {
       return method;
     }
-    // Get instance field: public System.Func`2<Zenject.InjectContext,System.Object> method
-    System::Func_2<Zenject::InjectContext*, ::Il2CppObject*>* _get_method();
-    // Set instance field: public System.Func`2<Zenject.InjectContext,System.Object> method
-    void _set_method(System::Func_2<Zenject::InjectContext*, ::Il2CppObject*>* value);
+    // Get instance field reference: public System.Func`2<Zenject.InjectContext,System.Object> method
+    System::Func_2<Zenject::InjectContext*, ::Il2CppObject*>*& dyn_method();
     // Zenject.IProvider <FromMethodUntyped>b__0(Zenject.DiContainer container, System.Type type)
     // Offset: 0x165E390
     Zenject::IProvider* $FromMethodUntyped$b__0(Zenject::DiContainer* container, System::Type* type);

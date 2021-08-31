@@ -56,18 +56,12 @@ namespace GlobalNamespace {
     MultiplayerConnectedPlayerEffectsSpawner(GlobalNamespace::NoteDebrisSpawner* noteDebrisSpawner_ = {}, GlobalNamespace::BombExplosionEffect* bombExplosionEffect_ = {}, GlobalNamespace::IConnectedPlayerNoteEventManager* noteEventManager_ = {}) noexcept : noteDebrisSpawner{noteDebrisSpawner_}, bombExplosionEffect{bombExplosionEffect_}, noteEventManager{noteEventManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private NoteDebrisSpawner _noteDebrisSpawner
-    GlobalNamespace::NoteDebrisSpawner* _get__noteDebrisSpawner();
-    // Set instance field: private NoteDebrisSpawner _noteDebrisSpawner
-    void _set__noteDebrisSpawner(GlobalNamespace::NoteDebrisSpawner* value);
-    // Get instance field: private BombExplosionEffect _bombExplosionEffect
-    GlobalNamespace::BombExplosionEffect* _get__bombExplosionEffect();
-    // Set instance field: private BombExplosionEffect _bombExplosionEffect
-    void _set__bombExplosionEffect(GlobalNamespace::BombExplosionEffect* value);
-    // Get instance field: private readonly IConnectedPlayerNoteEventManager _noteEventManager
-    GlobalNamespace::IConnectedPlayerNoteEventManager* _get__noteEventManager();
-    // Set instance field: private readonly IConnectedPlayerNoteEventManager _noteEventManager
-    void _set__noteEventManager(GlobalNamespace::IConnectedPlayerNoteEventManager* value);
+    // Get instance field reference: private NoteDebrisSpawner _noteDebrisSpawner
+    GlobalNamespace::NoteDebrisSpawner*& dyn__noteDebrisSpawner();
+    // Get instance field reference: private BombExplosionEffect _bombExplosionEffect
+    GlobalNamespace::BombExplosionEffect*& dyn__bombExplosionEffect();
+    // Get instance field reference: private readonly IConnectedPlayerNoteEventManager _noteEventManager
+    GlobalNamespace::IConnectedPlayerNoteEventManager*& dyn__noteEventManager();
     // protected System.Void Start()
     // Offset: 0x11A663C
     void Start();

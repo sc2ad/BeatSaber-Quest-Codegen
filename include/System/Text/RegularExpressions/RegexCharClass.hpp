@@ -89,22 +89,14 @@ namespace System::Text::RegularExpressions {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: System.Char _chMin
-      ::Il2CppChar _get__chMin();
-      // Set instance field: System.Char _chMin
-      void _set__chMin(::Il2CppChar value);
-      // Get instance field: System.Char _chMax
-      ::Il2CppChar _get__chMax();
-      // Set instance field: System.Char _chMax
-      void _set__chMax(::Il2CppChar value);
-      // Get instance field: System.Int32 _lcOp
-      int _get__lcOp();
-      // Set instance field: System.Int32 _lcOp
-      void _set__lcOp(int value);
-      // Get instance field: System.Int32 _data
-      int _get__data();
-      // Set instance field: System.Int32 _data
-      void _set__data(int value);
+      // Get instance field reference: System.Char _chMin
+      ::Il2CppChar& dyn__chMin();
+      // Get instance field reference: System.Char _chMax
+      ::Il2CppChar& dyn__chMax();
+      // Get instance field reference: System.Int32 _lcOp
+      int& dyn__lcOp();
+      // Get instance field reference: System.Int32 _data
+      int& dyn__data();
       // System.Void .ctor(System.Char chMin, System.Char chMax, System.Int32 lcOp, System.Int32 data)
       // Offset: 0x1996278
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -203,26 +195,16 @@ namespace System::Text::RegularExpressions {
     static ::Array<System::Text::RegularExpressions::RegexCharClass::LowerCaseMapping>* _get__lcTable();
     // Set static field: static private readonly System.Text.RegularExpressions.RegexCharClass/System.Text.RegularExpressions.LowerCaseMapping[] _lcTable
     static void _set__lcTable(::Array<System::Text::RegularExpressions::RegexCharClass::LowerCaseMapping>* value);
-    // Get instance field: private System.Collections.Generic.List`1<System.Text.RegularExpressions.RegexCharClass/System.Text.RegularExpressions.SingleRange> _rangelist
-    System::Collections::Generic::List_1<System::Text::RegularExpressions::RegexCharClass::SingleRange*>* _get__rangelist();
-    // Set instance field: private System.Collections.Generic.List`1<System.Text.RegularExpressions.RegexCharClass/System.Text.RegularExpressions.SingleRange> _rangelist
-    void _set__rangelist(System::Collections::Generic::List_1<System::Text::RegularExpressions::RegexCharClass::SingleRange*>* value);
-    // Get instance field: private System.Text.StringBuilder _categories
-    System::Text::StringBuilder* _get__categories();
-    // Set instance field: private System.Text.StringBuilder _categories
-    void _set__categories(System::Text::StringBuilder* value);
-    // Get instance field: private System.Boolean _canonical
-    bool _get__canonical();
-    // Set instance field: private System.Boolean _canonical
-    void _set__canonical(bool value);
-    // Get instance field: private System.Boolean _negate
-    bool _get__negate();
-    // Set instance field: private System.Boolean _negate
-    void _set__negate(bool value);
-    // Get instance field: private System.Text.RegularExpressions.RegexCharClass _subtractor
-    System::Text::RegularExpressions::RegexCharClass* _get__subtractor();
-    // Set instance field: private System.Text.RegularExpressions.RegexCharClass _subtractor
-    void _set__subtractor(System::Text::RegularExpressions::RegexCharClass* value);
+    // Get instance field reference: private System.Collections.Generic.List`1<System.Text.RegularExpressions.RegexCharClass/System.Text.RegularExpressions.SingleRange> _rangelist
+    System::Collections::Generic::List_1<System::Text::RegularExpressions::RegexCharClass::SingleRange*>*& dyn__rangelist();
+    // Get instance field reference: private System.Text.StringBuilder _categories
+    System::Text::StringBuilder*& dyn__categories();
+    // Get instance field reference: private System.Boolean _canonical
+    bool& dyn__canonical();
+    // Get instance field reference: private System.Boolean _negate
+    bool& dyn__negate();
+    // Get instance field reference: private System.Text.RegularExpressions.RegexCharClass _subtractor
+    System::Text::RegularExpressions::RegexCharClass*& dyn__subtractor();
     // System.Boolean get_CanMerge()
     // Offset: 0x1870CD8
     bool get_CanMerge();

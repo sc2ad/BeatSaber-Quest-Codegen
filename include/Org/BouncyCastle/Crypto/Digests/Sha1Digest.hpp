@@ -72,34 +72,20 @@ namespace Org::BouncyCastle::Crypto::Digests {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: Sha1Digest
     Sha1Digest(uint H1_ = {}, uint H2_ = {}, uint H3_ = {}, uint H4_ = {}, uint H5_ = {}, ::Array<uint>* X_ = {}, int xOff_ = {}) noexcept : H1{H1_}, H2{H2_}, H3{H3_}, H4{H4_}, H5{H5_}, X{X_}, xOff{xOff_} {}
-    // Get instance field: private System.UInt32 H1
-    uint _get_H1();
-    // Set instance field: private System.UInt32 H1
-    void _set_H1(uint value);
-    // Get instance field: private System.UInt32 H2
-    uint _get_H2();
-    // Set instance field: private System.UInt32 H2
-    void _set_H2(uint value);
-    // Get instance field: private System.UInt32 H3
-    uint _get_H3();
-    // Set instance field: private System.UInt32 H3
-    void _set_H3(uint value);
-    // Get instance field: private System.UInt32 H4
-    uint _get_H4();
-    // Set instance field: private System.UInt32 H4
-    void _set_H4(uint value);
-    // Get instance field: private System.UInt32 H5
-    uint _get_H5();
-    // Set instance field: private System.UInt32 H5
-    void _set_H5(uint value);
-    // Get instance field: private System.UInt32[] X
-    ::Array<uint>* _get_X();
-    // Set instance field: private System.UInt32[] X
-    void _set_X(::Array<uint>* value);
-    // Get instance field: private System.Int32 xOff
-    int _get_xOff();
-    // Set instance field: private System.Int32 xOff
-    void _set_xOff(int value);
+    // Get instance field reference: private System.UInt32 H1
+    uint& dyn_H1();
+    // Get instance field reference: private System.UInt32 H2
+    uint& dyn_H2();
+    // Get instance field reference: private System.UInt32 H3
+    uint& dyn_H3();
+    // Get instance field reference: private System.UInt32 H4
+    uint& dyn_H4();
+    // Get instance field reference: private System.UInt32 H5
+    uint& dyn_H5();
+    // Get instance field reference: private System.UInt32[] X
+    ::Array<uint>*& dyn_X();
+    // Get instance field reference: private System.Int32 xOff
+    int& dyn_xOff();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.Sha1Digest t)
     // Offset: 0x1923150
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

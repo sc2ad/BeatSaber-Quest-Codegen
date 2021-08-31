@@ -59,14 +59,10 @@ namespace System::Reflection {
     MonoEvent(System::IntPtr klass_ = {}, System::IntPtr handle_ = {}) noexcept : klass{klass_}, handle{handle_} {}
     // Deleting conversion operator: operator System::Reflection::EventInfo::AddEventAdapter*
     constexpr operator System::Reflection::EventInfo::AddEventAdapter*() const noexcept = delete;
-    // Get instance field: private System.IntPtr klass
-    System::IntPtr _get_klass();
-    // Set instance field: private System.IntPtr klass
-    void _set_klass(System::IntPtr value);
-    // Get instance field: private System.IntPtr handle
-    System::IntPtr _get_handle();
-    // Set instance field: private System.IntPtr handle
-    void _set_handle(System::IntPtr value);
+    // Get instance field reference: private System.IntPtr klass
+    System::IntPtr& dyn_klass();
+    // Get instance field reference: private System.IntPtr handle
+    System::IntPtr& dyn_handle();
     // public override System.Type get_DeclaringType()
     // Offset: 0x1D1E098
     // Implemented from: System.Reflection.MemberInfo

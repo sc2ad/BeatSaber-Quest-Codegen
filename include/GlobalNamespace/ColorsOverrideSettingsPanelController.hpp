@@ -144,54 +144,30 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.UI.Toggle _overrideColorsToggle
-    UnityEngine::UI::Toggle* _get__overrideColorsToggle();
-    // Set instance field: private UnityEngine.UI.Toggle _overrideColorsToggle
-    void _set__overrideColorsToggle(UnityEngine::UI::Toggle* value);
-    // Get instance field: private UnityEngine.GameObject _detailsPanelGO
-    UnityEngine::GameObject* _get__detailsPanelGO();
-    // Set instance field: private UnityEngine.GameObject _detailsPanelGO
-    void _set__detailsPanelGO(UnityEngine::GameObject* value);
-    // Get instance field: private ColorSchemeDropdown _colorSchemeDropDown
-    GlobalNamespace::ColorSchemeDropdown* _get__colorSchemeDropDown();
-    // Set instance field: private ColorSchemeDropdown _colorSchemeDropDown
-    void _set__colorSchemeDropDown(GlobalNamespace::ColorSchemeDropdown* value);
-    // Get instance field: private EditColorSchemeController _editColorSchemeController
-    GlobalNamespace::EditColorSchemeController* _get__editColorSchemeController();
-    // Set instance field: private EditColorSchemeController _editColorSchemeController
-    void _set__editColorSchemeController(GlobalNamespace::EditColorSchemeController* value);
-    // Get instance field: private HMUI.ModalView _editColorSchemeModalView
-    HMUI::ModalView* _get__editColorSchemeModalView();
-    // Set instance field: private HMUI.ModalView _editColorSchemeModalView
-    void _set__editColorSchemeModalView(HMUI::ModalView* value);
-    // Get instance field: private UnityEngine.UI.Button _editColorSchemeButton
-    UnityEngine::UI::Button* _get__editColorSchemeButton();
-    // Set instance field: private UnityEngine.UI.Button _editColorSchemeButton
-    void _set__editColorSchemeButton(UnityEngine::UI::Button* value);
-    // Get instance field: private HMUI.PanelAnimationSO _presentPanelAnimation
-    HMUI::PanelAnimationSO* _get__presentPanelAnimation();
-    // Set instance field: private HMUI.PanelAnimationSO _presentPanelAnimation
-    void _set__presentPanelAnimation(HMUI::PanelAnimationSO* value);
-    // Get instance field: private HMUI.PanelAnimationSO _dismissPanelAnimation
-    HMUI::PanelAnimationSO* _get__dismissPanelAnimation();
-    // Set instance field: private HMUI.PanelAnimationSO _dismissPanelAnimation
-    void _set__dismissPanelAnimation(HMUI::PanelAnimationSO* value);
-    // Get instance field: private readonly IAnalyticsModel _analyticsModel
-    GlobalNamespace::IAnalyticsModel* _get__analyticsModel();
-    // Set instance field: private readonly IAnalyticsModel _analyticsModel
-    void _set__analyticsModel(GlobalNamespace::IAnalyticsModel* value);
-    // Get instance field: private ColorSchemesSettings _colorSchemesSettings
-    GlobalNamespace::ColorSchemesSettings* _get__colorSchemesSettings();
-    // Set instance field: private ColorSchemesSettings _colorSchemesSettings
-    void _set__colorSchemesSettings(GlobalNamespace::ColorSchemesSettings* value);
-    // Get instance field: private System.Boolean _initialized
-    bool _get__initialized();
-    // Set instance field: private System.Boolean _initialized
-    void _set__initialized(bool value);
-    // Get instance field: private HMUI.ButtonBinder _buttonBinder
-    HMUI::ButtonBinder* _get__buttonBinder();
-    // Set instance field: private HMUI.ButtonBinder _buttonBinder
-    void _set__buttonBinder(HMUI::ButtonBinder* value);
+    // Get instance field reference: private UnityEngine.UI.Toggle _overrideColorsToggle
+    UnityEngine::UI::Toggle*& dyn__overrideColorsToggle();
+    // Get instance field reference: private UnityEngine.GameObject _detailsPanelGO
+    UnityEngine::GameObject*& dyn__detailsPanelGO();
+    // Get instance field reference: private ColorSchemeDropdown _colorSchemeDropDown
+    GlobalNamespace::ColorSchemeDropdown*& dyn__colorSchemeDropDown();
+    // Get instance field reference: private EditColorSchemeController _editColorSchemeController
+    GlobalNamespace::EditColorSchemeController*& dyn__editColorSchemeController();
+    // Get instance field reference: private HMUI.ModalView _editColorSchemeModalView
+    HMUI::ModalView*& dyn__editColorSchemeModalView();
+    // Get instance field reference: private UnityEngine.UI.Button _editColorSchemeButton
+    UnityEngine::UI::Button*& dyn__editColorSchemeButton();
+    // Get instance field reference: private HMUI.PanelAnimationSO _presentPanelAnimation
+    HMUI::PanelAnimationSO*& dyn__presentPanelAnimation();
+    // Get instance field reference: private HMUI.PanelAnimationSO _dismissPanelAnimation
+    HMUI::PanelAnimationSO*& dyn__dismissPanelAnimation();
+    // Get instance field reference: private readonly IAnalyticsModel _analyticsModel
+    GlobalNamespace::IAnalyticsModel*& dyn__analyticsModel();
+    // Get instance field reference: private ColorSchemesSettings _colorSchemesSettings
+    GlobalNamespace::ColorSchemesSettings*& dyn__colorSchemesSettings();
+    // Get instance field reference: private System.Boolean _initialized
+    bool& dyn__initialized();
+    // Get instance field reference: private HMUI.ButtonBinder _buttonBinder
+    HMUI::ButtonBinder*& dyn__buttonBinder();
     // public ColorSchemesSettings get_colorSchemesSettings()
     // Offset: 0x10F1264
     GlobalNamespace::ColorSchemesSettings* get_colorSchemesSettings();

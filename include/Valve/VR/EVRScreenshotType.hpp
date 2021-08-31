@@ -68,10 +68,8 @@ namespace Valve::VR {
     static Valve::VR::EVRScreenshotType _get_StereoPanorama();
     // Set static field: static public Valve.VR.EVRScreenshotType StereoPanorama
     static void _set_StereoPanorama(Valve::VR::EVRScreenshotType value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Valve.VR.EVRScreenshotType
   #pragma pack(pop)
   static check_size<sizeof(EVRScreenshotType), 0 + sizeof(int)> __Valve_VR_EVRScreenshotTypeSizeCheck;

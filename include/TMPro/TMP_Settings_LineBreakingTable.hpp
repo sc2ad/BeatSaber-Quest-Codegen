@@ -42,14 +42,10 @@ namespace TMPro {
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>*) == 0x8);
     // Creating value type constructor for type: LineBreakingTable
     LineBreakingTable(System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>* leadingCharacters_ = {}, System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>* followingCharacters_ = {}) noexcept : leadingCharacters{leadingCharacters_}, followingCharacters{followingCharacters_} {}
-    // Get instance field: public System.Collections.Generic.Dictionary`2<System.Int32,System.Char> leadingCharacters
-    System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>* _get_leadingCharacters();
-    // Set instance field: public System.Collections.Generic.Dictionary`2<System.Int32,System.Char> leadingCharacters
-    void _set_leadingCharacters(System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>* value);
-    // Get instance field: public System.Collections.Generic.Dictionary`2<System.Int32,System.Char> followingCharacters
-    System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>* _get_followingCharacters();
-    // Set instance field: public System.Collections.Generic.Dictionary`2<System.Int32,System.Char> followingCharacters
-    void _set_followingCharacters(System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>* value);
+    // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.Int32,System.Char> leadingCharacters
+    System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>*& dyn_leadingCharacters();
+    // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.Int32,System.Char> followingCharacters
+    System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>*& dyn_followingCharacters();
     // public System.Void .ctor()
     // Offset: 0x115CB4C
     // Implemented from: System.Object

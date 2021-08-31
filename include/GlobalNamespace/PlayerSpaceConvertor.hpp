@@ -30,10 +30,8 @@ namespace GlobalNamespace {
     PlayerSpaceConvertor(UnityEngine::Quaternion worldToPlayerSpaceRotation_ = {}) noexcept : worldToPlayerSpaceRotation{worldToPlayerSpaceRotation_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.Quaternion _worldToPlayerSpaceRotation
-    UnityEngine::Quaternion _get__worldToPlayerSpaceRotation();
-    // Set instance field: private UnityEngine.Quaternion _worldToPlayerSpaceRotation
-    void _set__worldToPlayerSpaceRotation(UnityEngine::Quaternion value);
+    // Get instance field reference: private UnityEngine.Quaternion _worldToPlayerSpaceRotation
+    UnityEngine::Quaternion& dyn__worldToPlayerSpaceRotation();
     // public UnityEngine.Quaternion get_worldToPlayerSpaceRotation()
     // Offset: 0x113C12C
     UnityEngine::Quaternion get_worldToPlayerSpaceRotation();

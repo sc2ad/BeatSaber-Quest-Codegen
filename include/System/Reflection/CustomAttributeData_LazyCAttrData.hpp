@@ -49,18 +49,12 @@ namespace System::Reflection {
     static_assert(sizeof(uint) == 0x4);
     // Creating value type constructor for type: LazyCAttrData
     LazyCAttrData(System::Reflection::Assembly* assembly_ = {}, System::IntPtr data_ = {}, uint data_length_ = {}) noexcept : assembly{assembly_}, data{data_}, data_length{data_length_} {}
-    // Get instance field: System.Reflection.Assembly assembly
-    System::Reflection::Assembly* _get_assembly();
-    // Set instance field: System.Reflection.Assembly assembly
-    void _set_assembly(System::Reflection::Assembly* value);
-    // Get instance field: System.IntPtr data
-    System::IntPtr _get_data();
-    // Set instance field: System.IntPtr data
-    void _set_data(System::IntPtr value);
-    // Get instance field: System.UInt32 data_length
-    uint _get_data_length();
-    // Set instance field: System.UInt32 data_length
-    void _set_data_length(uint value);
+    // Get instance field reference: System.Reflection.Assembly assembly
+    System::Reflection::Assembly*& dyn_assembly();
+    // Get instance field reference: System.IntPtr data
+    System::IntPtr& dyn_data();
+    // Get instance field reference: System.UInt32 data_length
+    uint& dyn_data_length();
     // public System.Void .ctor()
     // Offset: 0x1D147F8
     // Implemented from: System.Object

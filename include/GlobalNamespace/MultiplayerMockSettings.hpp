@@ -81,30 +81,18 @@ namespace GlobalNamespace {
     MultiplayerMockSettings(bool isEnabled_ = {}, GlobalNamespace::MockPlayerSettings* localPlayer_ = {}, System::Collections::Generic::List_1<GlobalNamespace::MockPlayerSettings*>* otherPlayers_ = {}, GlobalNamespace::MockServerSettings* quickplayServer_ = {}, GlobalNamespace::MasterServerAvailabilityData* masterServerAvailabilityData_ = {}, GlobalNamespace::MasterServerQuickPlaySetupData* masterServerQuickPlaySetupData_ = {}) noexcept : isEnabled{isEnabled_}, localPlayer{localPlayer_}, otherPlayers{otherPlayers_}, quickplayServer{quickplayServer_}, masterServerAvailabilityData{masterServerAvailabilityData_}, masterServerQuickPlaySetupData{masterServerQuickPlaySetupData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Boolean _isEnabled
-    bool _get__isEnabled();
-    // Set instance field: private System.Boolean _isEnabled
-    void _set__isEnabled(bool value);
-    // Get instance field: private MockPlayerSettings _localPlayer
-    GlobalNamespace::MockPlayerSettings* _get__localPlayer();
-    // Set instance field: private MockPlayerSettings _localPlayer
-    void _set__localPlayer(GlobalNamespace::MockPlayerSettings* value);
-    // Get instance field: private System.Collections.Generic.List`1<MockPlayerSettings> _otherPlayers
-    System::Collections::Generic::List_1<GlobalNamespace::MockPlayerSettings*>* _get__otherPlayers();
-    // Set instance field: private System.Collections.Generic.List`1<MockPlayerSettings> _otherPlayers
-    void _set__otherPlayers(System::Collections::Generic::List_1<GlobalNamespace::MockPlayerSettings*>* value);
-    // Get instance field: private MockServerSettings _quickplayServer
-    GlobalNamespace::MockServerSettings* _get__quickplayServer();
-    // Set instance field: private MockServerSettings _quickplayServer
-    void _set__quickplayServer(GlobalNamespace::MockServerSettings* value);
-    // Get instance field: private MasterServerAvailabilityData _masterServerAvailabilityData
-    GlobalNamespace::MasterServerAvailabilityData* _get__masterServerAvailabilityData();
-    // Set instance field: private MasterServerAvailabilityData _masterServerAvailabilityData
-    void _set__masterServerAvailabilityData(GlobalNamespace::MasterServerAvailabilityData* value);
-    // Get instance field: private MasterServerQuickPlaySetupData _masterServerQuickPlaySetupData
-    GlobalNamespace::MasterServerQuickPlaySetupData* _get__masterServerQuickPlaySetupData();
-    // Set instance field: private MasterServerQuickPlaySetupData _masterServerQuickPlaySetupData
-    void _set__masterServerQuickPlaySetupData(GlobalNamespace::MasterServerQuickPlaySetupData* value);
+    // Get instance field reference: private System.Boolean _isEnabled
+    bool& dyn__isEnabled();
+    // Get instance field reference: private MockPlayerSettings _localPlayer
+    GlobalNamespace::MockPlayerSettings*& dyn__localPlayer();
+    // Get instance field reference: private System.Collections.Generic.List`1<MockPlayerSettings> _otherPlayers
+    System::Collections::Generic::List_1<GlobalNamespace::MockPlayerSettings*>*& dyn__otherPlayers();
+    // Get instance field reference: private MockServerSettings _quickplayServer
+    GlobalNamespace::MockServerSettings*& dyn__quickplayServer();
+    // Get instance field reference: private MasterServerAvailabilityData _masterServerAvailabilityData
+    GlobalNamespace::MasterServerAvailabilityData*& dyn__masterServerAvailabilityData();
+    // Get instance field reference: private MasterServerQuickPlaySetupData _masterServerQuickPlaySetupData
+    GlobalNamespace::MasterServerQuickPlaySetupData*& dyn__masterServerQuickPlaySetupData();
     // public MockServerSettings get_quickplayServer()
     // Offset: 0x106C32C
     GlobalNamespace::MockServerSettings* get_quickplayServer();

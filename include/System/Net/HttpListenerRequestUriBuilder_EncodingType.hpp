@@ -46,10 +46,8 @@ namespace System::Net {
     static System::Net::HttpListenerRequestUriBuilder::EncodingType _get_Secondary();
     // Set static field: static public System.Net.HttpListenerRequestUriBuilder/System.Net.EncodingType Secondary
     static void _set_Secondary(System::Net::HttpListenerRequestUriBuilder::EncodingType value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Net.HttpListenerRequestUriBuilder/System.Net.EncodingType
   #pragma pack(pop)
   static check_size<sizeof(HttpListenerRequestUriBuilder::EncodingType), 0 + sizeof(int)> __System_Net_HttpListenerRequestUriBuilder_EncodingTypeSizeCheck;

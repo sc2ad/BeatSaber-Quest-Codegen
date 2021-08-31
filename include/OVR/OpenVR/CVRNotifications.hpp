@@ -47,10 +47,8 @@ namespace OVR::OpenVR {
     constexpr operator OVR::OpenVR::IVRNotifications() const noexcept {
       return FnTable;
     }
-    // Get instance field: private OVR.OpenVR.IVRNotifications FnTable
-    OVR::OpenVR::IVRNotifications _get_FnTable();
-    // Set instance field: private OVR.OpenVR.IVRNotifications FnTable
-    void _set_FnTable(OVR::OpenVR::IVRNotifications value);
+    // Get instance field reference: private OVR.OpenVR.IVRNotifications FnTable
+    OVR::OpenVR::IVRNotifications& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0x15BDF08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

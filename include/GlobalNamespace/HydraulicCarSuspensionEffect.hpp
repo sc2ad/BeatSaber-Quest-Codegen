@@ -122,50 +122,28 @@ namespace GlobalNamespace {
     HydraulicCarSuspensionEffect(GlobalNamespace::BeatmapEventType contractEvent_ = {}, ::Array<int>* contractEventValues_ = {}, GlobalNamespace::BeatmapEventType expandEvent_ = {}, ::Array<int>* expandEventValues_ = {}, UnityEngine::SpringJoint* springJoint_ = {}, float contractDistance_ = {}, float expandDistance_ = {}, UnityEngine::Rigidbody* rigidbody_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, System::Collections::Generic::HashSet_1<int>* contractEventValuesHashSet_ = {}, System::Collections::Generic::HashSet_1<int>* expandEventValuesHashSet_ = {}) noexcept : contractEvent{contractEvent_}, contractEventValues{contractEventValues_}, expandEvent{expandEvent_}, expandEventValues{expandEventValues_}, springJoint{springJoint_}, contractDistance{contractDistance_}, expandDistance{expandDistance_}, rigidbody{rigidbody_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, contractEventValuesHashSet{contractEventValuesHashSet_}, expandEventValuesHashSet{expandEventValuesHashSet_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private BeatmapEventType _contractEvent
-    GlobalNamespace::BeatmapEventType _get__contractEvent();
-    // Set instance field: private BeatmapEventType _contractEvent
-    void _set__contractEvent(GlobalNamespace::BeatmapEventType value);
-    // Get instance field: private System.Int32[] _contractEventValues
-    ::Array<int>* _get__contractEventValues();
-    // Set instance field: private System.Int32[] _contractEventValues
-    void _set__contractEventValues(::Array<int>* value);
-    // Get instance field: private BeatmapEventType _expandEvent
-    GlobalNamespace::BeatmapEventType _get__expandEvent();
-    // Set instance field: private BeatmapEventType _expandEvent
-    void _set__expandEvent(GlobalNamespace::BeatmapEventType value);
-    // Get instance field: private System.Int32[] _expandEventValues
-    ::Array<int>* _get__expandEventValues();
-    // Set instance field: private System.Int32[] _expandEventValues
-    void _set__expandEventValues(::Array<int>* value);
-    // Get instance field: private UnityEngine.SpringJoint _springJoint
-    UnityEngine::SpringJoint* _get__springJoint();
-    // Set instance field: private UnityEngine.SpringJoint _springJoint
-    void _set__springJoint(UnityEngine::SpringJoint* value);
-    // Get instance field: private System.Single _contractDistance
-    float _get__contractDistance();
-    // Set instance field: private System.Single _contractDistance
-    void _set__contractDistance(float value);
-    // Get instance field: private System.Single _expandDistance
-    float _get__expandDistance();
-    // Set instance field: private System.Single _expandDistance
-    void _set__expandDistance(float value);
-    // Get instance field: private UnityEngine.Rigidbody _rigidbody
-    UnityEngine::Rigidbody* _get__rigidbody();
-    // Set instance field: private UnityEngine.Rigidbody _rigidbody
-    void _set__rigidbody(UnityEngine::Rigidbody* value);
-    // Get instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
-    GlobalNamespace::IBeatmapObjectCallbackController* _get__beatmapObjectCallbackController();
-    // Set instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
-    void _set__beatmapObjectCallbackController(GlobalNamespace::IBeatmapObjectCallbackController* value);
-    // Get instance field: private System.Collections.Generic.HashSet`1<System.Int32> _contractEventValuesHashSet
-    System::Collections::Generic::HashSet_1<int>* _get__contractEventValuesHashSet();
-    // Set instance field: private System.Collections.Generic.HashSet`1<System.Int32> _contractEventValuesHashSet
-    void _set__contractEventValuesHashSet(System::Collections::Generic::HashSet_1<int>* value);
-    // Get instance field: private System.Collections.Generic.HashSet`1<System.Int32> _expandEventValuesHashSet
-    System::Collections::Generic::HashSet_1<int>* _get__expandEventValuesHashSet();
-    // Set instance field: private System.Collections.Generic.HashSet`1<System.Int32> _expandEventValuesHashSet
-    void _set__expandEventValuesHashSet(System::Collections::Generic::HashSet_1<int>* value);
+    // Get instance field reference: private BeatmapEventType _contractEvent
+    GlobalNamespace::BeatmapEventType& dyn__contractEvent();
+    // Get instance field reference: private System.Int32[] _contractEventValues
+    ::Array<int>*& dyn__contractEventValues();
+    // Get instance field reference: private BeatmapEventType _expandEvent
+    GlobalNamespace::BeatmapEventType& dyn__expandEvent();
+    // Get instance field reference: private System.Int32[] _expandEventValues
+    ::Array<int>*& dyn__expandEventValues();
+    // Get instance field reference: private UnityEngine.SpringJoint _springJoint
+    UnityEngine::SpringJoint*& dyn__springJoint();
+    // Get instance field reference: private System.Single _contractDistance
+    float& dyn__contractDistance();
+    // Get instance field reference: private System.Single _expandDistance
+    float& dyn__expandDistance();
+    // Get instance field reference: private UnityEngine.Rigidbody _rigidbody
+    UnityEngine::Rigidbody*& dyn__rigidbody();
+    // Get instance field reference: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    GlobalNamespace::IBeatmapObjectCallbackController*& dyn__beatmapObjectCallbackController();
+    // Get instance field reference: private System.Collections.Generic.HashSet`1<System.Int32> _contractEventValuesHashSet
+    System::Collections::Generic::HashSet_1<int>*& dyn__contractEventValuesHashSet();
+    // Get instance field reference: private System.Collections.Generic.HashSet`1<System.Int32> _expandEventValuesHashSet
+    System::Collections::Generic::HashSet_1<int>*& dyn__expandEventValuesHashSet();
     // protected System.Void Start()
     // Offset: 0x1144EB0
     void Start();

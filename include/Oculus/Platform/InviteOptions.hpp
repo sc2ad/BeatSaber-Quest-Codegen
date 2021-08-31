@@ -32,10 +32,8 @@ namespace Oculus::Platform {
     constexpr operator System::IntPtr() const noexcept {
       return Handle;
     }
-    // Get instance field: private System.IntPtr Handle
-    System::IntPtr _get_Handle();
-    // Set instance field: private System.IntPtr Handle
-    void _set_Handle(System::IntPtr value);
+    // Get instance field reference: private System.IntPtr Handle
+    System::IntPtr& dyn_Handle();
     // static public System.IntPtr op_Explicit(Oculus.Platform.InviteOptions options)
     // Offset: 0x14E00E0
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();

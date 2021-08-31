@@ -51,10 +51,8 @@ namespace System::Security::Principal {
     static System::Security::Principal::PrincipalPolicy _get_WindowsPrincipal();
     // Set static field: static public System.Security.Principal.PrincipalPolicy WindowsPrincipal
     static void _set_WindowsPrincipal(System::Security::Principal::PrincipalPolicy value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Security.Principal.PrincipalPolicy
   #pragma pack(pop)
   static check_size<sizeof(PrincipalPolicy), 0 + sizeof(int)> __System_Security_Principal_PrincipalPolicySizeCheck;

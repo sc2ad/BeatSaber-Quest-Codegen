@@ -37,10 +37,8 @@ namespace System {
     constexpr operator System::LocalDataStore*() const noexcept {
       return m_Store;
     }
-    // Get instance field: private System.LocalDataStore m_Store
-    System::LocalDataStore* _get_m_Store();
-    // Set instance field: private System.LocalDataStore m_Store
-    void _set_m_Store(System::LocalDataStore* value);
+    // Get instance field reference: private System.LocalDataStore m_Store
+    System::LocalDataStore*& dyn_m_Store();
     // public System.LocalDataStore get_Store()
     // Offset: 0x1835834
     System::LocalDataStore* get_Store();

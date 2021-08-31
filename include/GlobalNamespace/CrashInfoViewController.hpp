@@ -48,14 +48,10 @@ namespace GlobalNamespace {
     CrashInfoViewController(GlobalNamespace::CrashManagerSO* crashManager_ = {}, TMPro::TextMeshProUGUI* text_ = {}) noexcept : crashManager{crashManager_}, text{text_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private CrashManagerSO _crashManager
-    GlobalNamespace::CrashManagerSO* _get__crashManager();
-    // Set instance field: private CrashManagerSO _crashManager
-    void _set__crashManager(GlobalNamespace::CrashManagerSO* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _text
-    TMPro::TextMeshProUGUI* _get__text();
-    // Set instance field: private TMPro.TextMeshProUGUI _text
-    void _set__text(TMPro::TextMeshProUGUI* value);
+    // Get instance field reference: private CrashManagerSO _crashManager
+    GlobalNamespace::CrashManagerSO*& dyn__crashManager();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _text
+    TMPro::TextMeshProUGUI*& dyn__text();
     // protected System.Void Start()
     // Offset: 0x10F39C0
     void Start();

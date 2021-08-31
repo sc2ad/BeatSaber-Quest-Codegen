@@ -35,10 +35,8 @@ namespace HMUI {
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
     // Creating value type constructor for type: TextPageScrollView
     TextPageScrollView(TMPro::TextMeshProUGUI* text_ = {}) noexcept : text{text_} {}
-    // Get instance field: private TMPro.TextMeshProUGUI _text
-    TMPro::TextMeshProUGUI* _get__text();
-    // Set instance field: private TMPro.TextMeshProUGUI _text
-    void _set__text(TMPro::TextMeshProUGUI* value);
+    // Get instance field reference: private TMPro.TextMeshProUGUI _text
+    TMPro::TextMeshProUGUI*& dyn__text();
     // public System.Void SetText(System.String text)
     // Offset: 0x1305DD4
     void SetText(::Il2CppString* text);

@@ -64,22 +64,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: ColorSchemesSettings
     ColorSchemesSettings(bool overrideDefaultColors_ = {}, System::Collections::Generic::List_1<GlobalNamespace::ColorScheme*>* colorSchemesList_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::ColorScheme*>* colorSchemesDict_ = {}, ::Il2CppString* selectedColorSchemeId_ = {}) noexcept : overrideDefaultColors{overrideDefaultColors_}, colorSchemesList{colorSchemesList_}, colorSchemesDict{colorSchemesDict_}, selectedColorSchemeId{selectedColorSchemeId_} {}
-    // Get instance field: public System.Boolean overrideDefaultColors
-    bool _get_overrideDefaultColors();
-    // Set instance field: public System.Boolean overrideDefaultColors
-    void _set_overrideDefaultColors(bool value);
-    // Get instance field: private System.Collections.Generic.List`1<ColorScheme> _colorSchemesList
-    System::Collections::Generic::List_1<GlobalNamespace::ColorScheme*>* _get__colorSchemesList();
-    // Set instance field: private System.Collections.Generic.List`1<ColorScheme> _colorSchemesList
-    void _set__colorSchemesList(System::Collections::Generic::List_1<GlobalNamespace::ColorScheme*>* value);
-    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,ColorScheme> _colorSchemesDict
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::ColorScheme*>* _get__colorSchemesDict();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,ColorScheme> _colorSchemesDict
-    void _set__colorSchemesDict(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::ColorScheme*>* value);
-    // Get instance field: private System.String _selectedColorSchemeId
-    ::Il2CppString* _get__selectedColorSchemeId();
-    // Set instance field: private System.String _selectedColorSchemeId
-    void _set__selectedColorSchemeId(::Il2CppString* value);
+    // Get instance field reference: public System.Boolean overrideDefaultColors
+    bool& dyn_overrideDefaultColors();
+    // Get instance field reference: private System.Collections.Generic.List`1<ColorScheme> _colorSchemesList
+    System::Collections::Generic::List_1<GlobalNamespace::ColorScheme*>*& dyn__colorSchemesList();
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,ColorScheme> _colorSchemesDict
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::ColorScheme*>*& dyn__colorSchemesDict();
+    // Get instance field reference: private System.String _selectedColorSchemeId
+    ::Il2CppString*& dyn__selectedColorSchemeId();
     // public System.String get_selectedColorSchemeId()
     // Offset: 0x10F0178
     ::Il2CppString* get_selectedColorSchemeId();

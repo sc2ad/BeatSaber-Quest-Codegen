@@ -70,18 +70,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(Tweening::ColorTween*) == 0x8);
     // Creating value type constructor for type: GradientImageViewStateTransition
     GradientImageViewStateTransition(GlobalNamespace::GradientTransitionSO* transition_ = {}, Tweening::ColorTween* colorTweenA_ = {}, Tweening::ColorTween* colorTweenB_ = {}) noexcept : transition{transition_}, colorTweenA{colorTweenA_}, colorTweenB{colorTweenB_} {}
-    // Get instance field: private GradientTransitionSO _transition
-    GlobalNamespace::GradientTransitionSO* _get__transition();
-    // Set instance field: private GradientTransitionSO _transition
-    void _set__transition(GlobalNamespace::GradientTransitionSO* value);
-    // Get instance field: private Tweening.ColorTween _colorTweenA
-    Tweening::ColorTween* _get__colorTweenA();
-    // Set instance field: private Tweening.ColorTween _colorTweenA
-    void _set__colorTweenA(Tweening::ColorTween* value);
-    // Get instance field: private Tweening.ColorTween _colorTweenB
-    Tweening::ColorTween* _get__colorTweenB();
-    // Set instance field: private Tweening.ColorTween _colorTweenB
-    void _set__colorTweenB(Tweening::ColorTween* value);
+    // Get instance field reference: private GradientTransitionSO _transition
+    GlobalNamespace::GradientTransitionSO*& dyn__transition();
+    // Get instance field reference: private Tweening.ColorTween _colorTweenA
+    Tweening::ColorTween*& dyn__colorTweenA();
+    // Get instance field reference: private Tweening.ColorTween _colorTweenB
+    Tweening::ColorTween*& dyn__colorTweenB();
     // private System.Void StartTweens(UnityEngine.Color endColor1, UnityEngine.Color endColor2)
     // Offset: 0x11120C0
     void StartTweens(UnityEngine::Color endColor1, UnityEngine::Color endColor2);

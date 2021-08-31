@@ -69,14 +69,10 @@ namespace GlobalNamespace {
     operator System::IEquatable_1<GlobalNamespace::PoseSerializable>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<GlobalNamespace::PoseSerializable>*>(this);
     }
-    // Get instance field: public Vector3Serializable position
-    GlobalNamespace::Vector3Serializable _get_position();
-    // Set instance field: public Vector3Serializable position
-    void _set_position(GlobalNamespace::Vector3Serializable value);
-    // Get instance field: public QuaternionSerializable rotation
-    GlobalNamespace::QuaternionSerializable _get_rotation();
-    // Set instance field: public QuaternionSerializable rotation
-    void _set_rotation(GlobalNamespace::QuaternionSerializable value);
+    // Get instance field reference: public Vector3Serializable position
+    GlobalNamespace::Vector3Serializable& dyn_position();
+    // Get instance field reference: public QuaternionSerializable rotation
+    GlobalNamespace::QuaternionSerializable& dyn_rotation();
     // static public PoseSerializable get_identity()
     // Offset: 0x237C7B4
     static GlobalNamespace::PoseSerializable get_identity();

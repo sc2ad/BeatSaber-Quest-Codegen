@@ -35,14 +35,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::UIKeyboard*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass21_0
     $$c__DisplayClass21_0(::Il2CppString* key_ = {}, GlobalNamespace::UIKeyboard* $$4__this_ = {}) noexcept : key{key_}, $$4__this{$$4__this_} {}
-    // Get instance field: public System.String key
-    ::Il2CppString* _get_key();
-    // Set instance field: public System.String key
-    void _set_key(::Il2CppString* value);
-    // Get instance field: public UIKeyboard <>4__this
-    GlobalNamespace::UIKeyboard* _get_$$4__this();
-    // Set instance field: public UIKeyboard <>4__this
-    void _set_$$4__this(GlobalNamespace::UIKeyboard* value);
+    // Get instance field reference: public System.String key
+    ::Il2CppString*& dyn_key();
+    // Get instance field reference: public UIKeyboard <>4__this
+    GlobalNamespace::UIKeyboard*& dyn_$$4__this();
     // System.Void <Awake>b__4()
     // Offset: 0x1352D8C
     void $Awake$b__4();

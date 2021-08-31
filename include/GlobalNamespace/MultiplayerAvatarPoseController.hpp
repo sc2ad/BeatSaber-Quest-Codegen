@@ -55,18 +55,12 @@ namespace GlobalNamespace {
     MultiplayerAvatarPoseController(GlobalNamespace::AvatarPoseController* avatarPoseController_ = {}, GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager_ = {}, GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}) noexcept : avatarPoseController{avatarPoseController_}, nodePoseSyncStateManager{nodePoseSyncStateManager_}, connectedPlayer{connectedPlayer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private AvatarPoseController _avatarPoseController
-    GlobalNamespace::AvatarPoseController* _get__avatarPoseController();
-    // Set instance field: private AvatarPoseController _avatarPoseController
-    void _set__avatarPoseController(GlobalNamespace::AvatarPoseController* value);
-    // Get instance field: private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
-    GlobalNamespace::INodePoseSyncStateManager* _get__nodePoseSyncStateManager();
-    // Set instance field: private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
-    void _set__nodePoseSyncStateManager(GlobalNamespace::INodePoseSyncStateManager* value);
-    // Get instance field: private IConnectedPlayer _connectedPlayer
-    GlobalNamespace::IConnectedPlayer* _get__connectedPlayer();
-    // Set instance field: private IConnectedPlayer _connectedPlayer
-    void _set__connectedPlayer(GlobalNamespace::IConnectedPlayer* value);
+    // Get instance field reference: private AvatarPoseController _avatarPoseController
+    GlobalNamespace::AvatarPoseController*& dyn__avatarPoseController();
+    // Get instance field reference: private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
+    GlobalNamespace::INodePoseSyncStateManager*& dyn__nodePoseSyncStateManager();
+    // Get instance field reference: private IConnectedPlayer _connectedPlayer
+    GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
     // public System.Void set_connectedPlayer(IConnectedPlayer value)
     // Offset: 0x11E1ABC
     void set_connectedPlayer(GlobalNamespace::IConnectedPlayer* value);

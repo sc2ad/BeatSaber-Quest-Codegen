@@ -76,10 +76,8 @@ namespace OVRSimpleJSON {
       static OVRSimpleJSON::JSONNode::Enumerator::Type _get_Object();
       // Set static field: static public OVRSimpleJSON.JSONNode/OVRSimpleJSON.Enumerator/OVRSimpleJSON.Type Object
       static void _set_Object(OVRSimpleJSON::JSONNode::Enumerator::Type value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // OVRSimpleJSON.JSONNode/OVRSimpleJSON.Enumerator/OVRSimpleJSON.Type
     #pragma pack(pop)
     static check_size<sizeof(JSONNode::Enumerator::Type), 0 + sizeof(int)> __OVRSimpleJSON_JSONNode_Enumerator_TypeSizeCheck;
@@ -104,18 +102,12 @@ namespace OVRSimpleJSON {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private OVRSimpleJSON.JSONNode/OVRSimpleJSON.Enumerator/OVRSimpleJSON.Type type
-    OVRSimpleJSON::JSONNode::Enumerator::Type _get_type();
-    // Set instance field: private OVRSimpleJSON.JSONNode/OVRSimpleJSON.Enumerator/OVRSimpleJSON.Type type
-    void _set_type(OVRSimpleJSON::JSONNode::Enumerator::Type value);
-    // Get instance field: private System.Collections.Generic.Dictionary`2/System.Collections.Generic.Enumerator<System.String,OVRSimpleJSON.JSONNode> m_Object
-    typename System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator _get_m_Object();
-    // Set instance field: private System.Collections.Generic.Dictionary`2/System.Collections.Generic.Enumerator<System.String,OVRSimpleJSON.JSONNode> m_Object
-    void _set_m_Object(typename System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator value);
-    // Get instance field: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<OVRSimpleJSON.JSONNode> m_Array
-    typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator _get_m_Array();
-    // Set instance field: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<OVRSimpleJSON.JSONNode> m_Array
-    void _set_m_Array(typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator value);
+    // Get instance field reference: private OVRSimpleJSON.JSONNode/OVRSimpleJSON.Enumerator/OVRSimpleJSON.Type type
+    OVRSimpleJSON::JSONNode::Enumerator::Type& dyn_type();
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2/System.Collections.Generic.Enumerator<System.String,OVRSimpleJSON.JSONNode> m_Object
+    typename System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator& dyn_m_Object();
+    // Get instance field reference: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<OVRSimpleJSON.JSONNode> m_Array
+    typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator& dyn_m_Array();
     // public System.Boolean get_IsValid()
     // Offset: 0x1F436BC
     bool get_IsValid();

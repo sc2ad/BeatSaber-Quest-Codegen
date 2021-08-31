@@ -160,62 +160,34 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<GlobalNamespace::BeatmapCharacteristicSO*>*) == 0x8);
     // Creating value type constructor for type: LevelSelectionNavigationController
     LevelSelectionNavigationController(GlobalNamespace::LevelFilteringNavigationController* levelFilteringNavigationController_ = {}, GlobalNamespace::LevelCollectionNavigationController* levelCollectionNavigationController_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, System::Action_2<GlobalNamespace::LevelSelectionNavigationController*, GlobalNamespace::StandardLevelDetailViewController::ContentType>* didChangeLevelDetailContentEvent_ = {}, System::Action_2<GlobalNamespace::LevelSelectionNavigationController*, GlobalNamespace::IBeatmapLevelPack*>* didSelectLevelPackEvent_ = {}, System::Action_1<GlobalNamespace::LevelSelectionNavigationController*>* didPressActionButtonEvent_ = {}, System::Action_2<GlobalNamespace::LevelSelectionNavigationController*, GlobalNamespace::IBeatmapLevel*>* didPressPracticeButtonEvent_ = {}, System::Action_2<GlobalNamespace::LevelSelectionNavigationController*, GlobalNamespace::IDifficultyBeatmap*>* didChangeDifficultyBeatmapEvent_ = {}, bool hidePacksIfOneOrNone_ = {}, bool hidePracticeButton_ = {}, bool showPlayerStatsInDetailView_ = {}, ::Il2CppString* actionButtonText_ = {}, GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask_ = {}, ::Array<GlobalNamespace::BeatmapCharacteristicSO*>* notAllowedCharacteristics_ = {}) noexcept : levelFilteringNavigationController{levelFilteringNavigationController_}, levelCollectionNavigationController{levelCollectionNavigationController_}, playerDataModel{playerDataModel_}, didChangeLevelDetailContentEvent{didChangeLevelDetailContentEvent_}, didSelectLevelPackEvent{didSelectLevelPackEvent_}, didPressActionButtonEvent{didPressActionButtonEvent_}, didPressPracticeButtonEvent{didPressPracticeButtonEvent_}, didChangeDifficultyBeatmapEvent{didChangeDifficultyBeatmapEvent_}, hidePacksIfOneOrNone{hidePacksIfOneOrNone_}, hidePracticeButton{hidePracticeButton_}, showPlayerStatsInDetailView{showPlayerStatsInDetailView_}, actionButtonText{actionButtonText_}, allowedBeatmapDifficultyMask{allowedBeatmapDifficultyMask_}, notAllowedCharacteristics{notAllowedCharacteristics_} {}
-    // Get instance field: private readonly LevelFilteringNavigationController _levelFilteringNavigationController
-    GlobalNamespace::LevelFilteringNavigationController* _get__levelFilteringNavigationController();
-    // Set instance field: private readonly LevelFilteringNavigationController _levelFilteringNavigationController
-    void _set__levelFilteringNavigationController(GlobalNamespace::LevelFilteringNavigationController* value);
-    // Get instance field: private readonly LevelCollectionNavigationController _levelCollectionNavigationController
-    GlobalNamespace::LevelCollectionNavigationController* _get__levelCollectionNavigationController();
-    // Set instance field: private readonly LevelCollectionNavigationController _levelCollectionNavigationController
-    void _set__levelCollectionNavigationController(GlobalNamespace::LevelCollectionNavigationController* value);
-    // Get instance field: private readonly PlayerDataModel _playerDataModel
-    GlobalNamespace::PlayerDataModel* _get__playerDataModel();
-    // Set instance field: private readonly PlayerDataModel _playerDataModel
-    void _set__playerDataModel(GlobalNamespace::PlayerDataModel* value);
-    // Get instance field: private System.Action`2<LevelSelectionNavigationController,StandardLevelDetailViewController/ContentType> didChangeLevelDetailContentEvent
-    System::Action_2<GlobalNamespace::LevelSelectionNavigationController*, GlobalNamespace::StandardLevelDetailViewController::ContentType>* _get_didChangeLevelDetailContentEvent();
-    // Set instance field: private System.Action`2<LevelSelectionNavigationController,StandardLevelDetailViewController/ContentType> didChangeLevelDetailContentEvent
-    void _set_didChangeLevelDetailContentEvent(System::Action_2<GlobalNamespace::LevelSelectionNavigationController*, GlobalNamespace::StandardLevelDetailViewController::ContentType>* value);
-    // Get instance field: private System.Action`2<LevelSelectionNavigationController,IBeatmapLevelPack> didSelectLevelPackEvent
-    System::Action_2<GlobalNamespace::LevelSelectionNavigationController*, GlobalNamespace::IBeatmapLevelPack*>* _get_didSelectLevelPackEvent();
-    // Set instance field: private System.Action`2<LevelSelectionNavigationController,IBeatmapLevelPack> didSelectLevelPackEvent
-    void _set_didSelectLevelPackEvent(System::Action_2<GlobalNamespace::LevelSelectionNavigationController*, GlobalNamespace::IBeatmapLevelPack*>* value);
-    // Get instance field: private System.Action`1<LevelSelectionNavigationController> didPressActionButtonEvent
-    System::Action_1<GlobalNamespace::LevelSelectionNavigationController*>* _get_didPressActionButtonEvent();
-    // Set instance field: private System.Action`1<LevelSelectionNavigationController> didPressActionButtonEvent
-    void _set_didPressActionButtonEvent(System::Action_1<GlobalNamespace::LevelSelectionNavigationController*>* value);
-    // Get instance field: private System.Action`2<LevelSelectionNavigationController,IBeatmapLevel> didPressPracticeButtonEvent
-    System::Action_2<GlobalNamespace::LevelSelectionNavigationController*, GlobalNamespace::IBeatmapLevel*>* _get_didPressPracticeButtonEvent();
-    // Set instance field: private System.Action`2<LevelSelectionNavigationController,IBeatmapLevel> didPressPracticeButtonEvent
-    void _set_didPressPracticeButtonEvent(System::Action_2<GlobalNamespace::LevelSelectionNavigationController*, GlobalNamespace::IBeatmapLevel*>* value);
-    // Get instance field: private System.Action`2<LevelSelectionNavigationController,IDifficultyBeatmap> didChangeDifficultyBeatmapEvent
-    System::Action_2<GlobalNamespace::LevelSelectionNavigationController*, GlobalNamespace::IDifficultyBeatmap*>* _get_didChangeDifficultyBeatmapEvent();
-    // Set instance field: private System.Action`2<LevelSelectionNavigationController,IDifficultyBeatmap> didChangeDifficultyBeatmapEvent
-    void _set_didChangeDifficultyBeatmapEvent(System::Action_2<GlobalNamespace::LevelSelectionNavigationController*, GlobalNamespace::IDifficultyBeatmap*>* value);
-    // Get instance field: private System.Boolean _hidePacksIfOneOrNone
-    bool _get__hidePacksIfOneOrNone();
-    // Set instance field: private System.Boolean _hidePacksIfOneOrNone
-    void _set__hidePacksIfOneOrNone(bool value);
-    // Get instance field: private System.Boolean _hidePracticeButton
-    bool _get__hidePracticeButton();
-    // Set instance field: private System.Boolean _hidePracticeButton
-    void _set__hidePracticeButton(bool value);
-    // Get instance field: private System.Boolean _showPlayerStatsInDetailView
-    bool _get__showPlayerStatsInDetailView();
-    // Set instance field: private System.Boolean _showPlayerStatsInDetailView
-    void _set__showPlayerStatsInDetailView(bool value);
-    // Get instance field: private System.String _actionButtonText
-    ::Il2CppString* _get__actionButtonText();
-    // Set instance field: private System.String _actionButtonText
-    void _set__actionButtonText(::Il2CppString* value);
-    // Get instance field: private BeatmapDifficultyMask _allowedBeatmapDifficultyMask
-    GlobalNamespace::BeatmapDifficultyMask _get__allowedBeatmapDifficultyMask();
-    // Set instance field: private BeatmapDifficultyMask _allowedBeatmapDifficultyMask
-    void _set__allowedBeatmapDifficultyMask(GlobalNamespace::BeatmapDifficultyMask value);
-    // Get instance field: private BeatmapCharacteristicSO[] _notAllowedCharacteristics
-    ::Array<GlobalNamespace::BeatmapCharacteristicSO*>* _get__notAllowedCharacteristics();
-    // Set instance field: private BeatmapCharacteristicSO[] _notAllowedCharacteristics
-    void _set__notAllowedCharacteristics(::Array<GlobalNamespace::BeatmapCharacteristicSO*>* value);
+    // Get instance field reference: private readonly LevelFilteringNavigationController _levelFilteringNavigationController
+    GlobalNamespace::LevelFilteringNavigationController*& dyn__levelFilteringNavigationController();
+    // Get instance field reference: private readonly LevelCollectionNavigationController _levelCollectionNavigationController
+    GlobalNamespace::LevelCollectionNavigationController*& dyn__levelCollectionNavigationController();
+    // Get instance field reference: private readonly PlayerDataModel _playerDataModel
+    GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
+    // Get instance field reference: private System.Action`2<LevelSelectionNavigationController,StandardLevelDetailViewController/ContentType> didChangeLevelDetailContentEvent
+    System::Action_2<GlobalNamespace::LevelSelectionNavigationController*, GlobalNamespace::StandardLevelDetailViewController::ContentType>*& dyn_didChangeLevelDetailContentEvent();
+    // Get instance field reference: private System.Action`2<LevelSelectionNavigationController,IBeatmapLevelPack> didSelectLevelPackEvent
+    System::Action_2<GlobalNamespace::LevelSelectionNavigationController*, GlobalNamespace::IBeatmapLevelPack*>*& dyn_didSelectLevelPackEvent();
+    // Get instance field reference: private System.Action`1<LevelSelectionNavigationController> didPressActionButtonEvent
+    System::Action_1<GlobalNamespace::LevelSelectionNavigationController*>*& dyn_didPressActionButtonEvent();
+    // Get instance field reference: private System.Action`2<LevelSelectionNavigationController,IBeatmapLevel> didPressPracticeButtonEvent
+    System::Action_2<GlobalNamespace::LevelSelectionNavigationController*, GlobalNamespace::IBeatmapLevel*>*& dyn_didPressPracticeButtonEvent();
+    // Get instance field reference: private System.Action`2<LevelSelectionNavigationController,IDifficultyBeatmap> didChangeDifficultyBeatmapEvent
+    System::Action_2<GlobalNamespace::LevelSelectionNavigationController*, GlobalNamespace::IDifficultyBeatmap*>*& dyn_didChangeDifficultyBeatmapEvent();
+    // Get instance field reference: private System.Boolean _hidePacksIfOneOrNone
+    bool& dyn__hidePacksIfOneOrNone();
+    // Get instance field reference: private System.Boolean _hidePracticeButton
+    bool& dyn__hidePracticeButton();
+    // Get instance field reference: private System.Boolean _showPlayerStatsInDetailView
+    bool& dyn__showPlayerStatsInDetailView();
+    // Get instance field reference: private System.String _actionButtonText
+    ::Il2CppString*& dyn__actionButtonText();
+    // Get instance field reference: private BeatmapDifficultyMask _allowedBeatmapDifficultyMask
+    GlobalNamespace::BeatmapDifficultyMask& dyn__allowedBeatmapDifficultyMask();
+    // Get instance field reference: private BeatmapCharacteristicSO[] _notAllowedCharacteristics
+    ::Array<GlobalNamespace::BeatmapCharacteristicSO*>*& dyn__notAllowedCharacteristics();
     // public IDifficultyBeatmap get_selectedDifficultyBeatmap()
     // Offset: 0x11FBB20
     GlobalNamespace::IDifficultyBeatmap* get_selectedDifficultyBeatmap();

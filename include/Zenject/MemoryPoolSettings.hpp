@@ -44,18 +44,12 @@ namespace Zenject {
     static Zenject::MemoryPoolSettings* _get_Default();
     // Set static field: static public readonly Zenject.MemoryPoolSettings Default
     static void _set_Default(Zenject::MemoryPoolSettings* value);
-    // Get instance field: public System.Int32 InitialSize
-    int _get_InitialSize();
-    // Set instance field: public System.Int32 InitialSize
-    void _set_InitialSize(int value);
-    // Get instance field: public System.Int32 MaxSize
-    int _get_MaxSize();
-    // Set instance field: public System.Int32 MaxSize
-    void _set_MaxSize(int value);
-    // Get instance field: public Zenject.PoolExpandMethods ExpandMethod
-    Zenject::PoolExpandMethods _get_ExpandMethod();
-    // Set instance field: public Zenject.PoolExpandMethods ExpandMethod
-    void _set_ExpandMethod(Zenject::PoolExpandMethods value);
+    // Get instance field reference: public System.Int32 InitialSize
+    int& dyn_InitialSize();
+    // Get instance field reference: public System.Int32 MaxSize
+    int& dyn_MaxSize();
+    // Get instance field reference: public Zenject.PoolExpandMethods ExpandMethod
+    Zenject::PoolExpandMethods& dyn_ExpandMethod();
     // public System.Void .ctor(System.Int32 initialSize, System.Int32 maxSize, Zenject.PoolExpandMethods expandMethod)
     // Offset: 0x1713268
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

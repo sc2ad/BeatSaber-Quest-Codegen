@@ -46,10 +46,8 @@ namespace Zenject {
     constexpr operator System::Collections::Generic::IEnumerable_1<::Il2CppString*>*() const noexcept {
       return namespaces;
     }
-    // Get instance field: public System.Collections.Generic.IEnumerable`1<System.String> namespaces
-    System::Collections::Generic::IEnumerable_1<::Il2CppString*>* _get_namespaces();
-    // Set instance field: public System.Collections.Generic.IEnumerable`1<System.String> namespaces
-    void _set_namespaces(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* value);
+    // Get instance field reference: public System.Collections.Generic.IEnumerable`1<System.String> namespaces
+    System::Collections::Generic::IEnumerable_1<::Il2CppString*>*& dyn_namespaces();
     // System.Boolean <InNamespaces>b__0(System.Type t)
     // Offset: 0x13E236C
     bool $InNamespaces$b__0(System::Type* t);

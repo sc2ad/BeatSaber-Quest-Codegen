@@ -36,14 +36,10 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(uint64_t) == 0x8);
     // Creating value type constructor for type: LaunchReportFlowResult
     LaunchReportFlowResult(bool DidCancel_ = {}, uint64_t UserReportId_ = {}) noexcept : DidCancel{DidCancel_}, UserReportId{UserReportId_} {}
-    // Get instance field: public readonly System.Boolean DidCancel
-    bool _get_DidCancel();
-    // Set instance field: public readonly System.Boolean DidCancel
-    void _set_DidCancel(bool value);
-    // Get instance field: public readonly System.UInt64 UserReportId
-    uint64_t _get_UserReportId();
-    // Set instance field: public readonly System.UInt64 UserReportId
-    void _set_UserReportId(uint64_t value);
+    // Get instance field reference: public readonly System.Boolean DidCancel
+    bool& dyn_DidCancel();
+    // Get instance field reference: public readonly System.UInt64 UserReportId
+    uint64_t& dyn_UserReportId();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14EB124
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

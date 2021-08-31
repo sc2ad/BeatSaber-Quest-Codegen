@@ -122,42 +122,24 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::MenuTransitionsHelper*) == 0x8);
     // Creating value type constructor for type: NetEaseArcadeFlowCoordinator
     NetEaseArcadeFlowCoordinator(GlobalNamespace::MenuLightsPresetSO* defaultLightsPreset_ = {}, GlobalNamespace::NetEaseLeaderboardViewController* netEaseLeaderboardViewController_ = {}, GlobalNamespace::TabBarViewController* tabBarViewController_ = {}, GlobalNamespace::NetEaseManager* netEaseManager_ = {}, GlobalNamespace::MenuLightsManager* menuLightsManager_ = {}, GlobalNamespace::ResultsViewController* resultsViewController_ = {}, GlobalNamespace::LocalLeaderboardViewController* localLeaderboardViewController_ = {}, GlobalNamespace::HowToPlayViewController* howToPlayViewController_ = {}, GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper_ = {}) noexcept : defaultLightsPreset{defaultLightsPreset_}, netEaseLeaderboardViewController{netEaseLeaderboardViewController_}, tabBarViewController{tabBarViewController_}, netEaseManager{netEaseManager_}, menuLightsManager{menuLightsManager_}, resultsViewController{resultsViewController_}, localLeaderboardViewController{localLeaderboardViewController_}, howToPlayViewController{howToPlayViewController_}, menuTransitionsHelper{menuTransitionsHelper_} {}
-    // Get instance field: private MenuLightsPresetSO _defaultLightsPreset
-    GlobalNamespace::MenuLightsPresetSO* _get__defaultLightsPreset();
-    // Set instance field: private MenuLightsPresetSO _defaultLightsPreset
-    void _set__defaultLightsPreset(GlobalNamespace::MenuLightsPresetSO* value);
-    // Get instance field: private NetEaseLeaderboardViewController _netEaseLeaderboardViewController
-    GlobalNamespace::NetEaseLeaderboardViewController* _get__netEaseLeaderboardViewController();
-    // Set instance field: private NetEaseLeaderboardViewController _netEaseLeaderboardViewController
-    void _set__netEaseLeaderboardViewController(GlobalNamespace::NetEaseLeaderboardViewController* value);
-    // Get instance field: private TabBarViewController _tabBarViewController
-    GlobalNamespace::TabBarViewController* _get__tabBarViewController();
-    // Set instance field: private TabBarViewController _tabBarViewController
-    void _set__tabBarViewController(GlobalNamespace::TabBarViewController* value);
-    // Get instance field: private NetEaseManager _netEaseManager
-    GlobalNamespace::NetEaseManager* _get__netEaseManager();
-    // Set instance field: private NetEaseManager _netEaseManager
-    void _set__netEaseManager(GlobalNamespace::NetEaseManager* value);
-    // Get instance field: private MenuLightsManager _menuLightsManager
-    GlobalNamespace::MenuLightsManager* _get__menuLightsManager();
-    // Set instance field: private MenuLightsManager _menuLightsManager
-    void _set__menuLightsManager(GlobalNamespace::MenuLightsManager* value);
-    // Get instance field: private ResultsViewController _resultsViewController
-    GlobalNamespace::ResultsViewController* _get__resultsViewController();
-    // Set instance field: private ResultsViewController _resultsViewController
-    void _set__resultsViewController(GlobalNamespace::ResultsViewController* value);
-    // Get instance field: private LocalLeaderboardViewController _localLeaderboardViewController
-    GlobalNamespace::LocalLeaderboardViewController* _get__localLeaderboardViewController();
-    // Set instance field: private LocalLeaderboardViewController _localLeaderboardViewController
-    void _set__localLeaderboardViewController(GlobalNamespace::LocalLeaderboardViewController* value);
-    // Get instance field: private HowToPlayViewController _howToPlayViewController
-    GlobalNamespace::HowToPlayViewController* _get__howToPlayViewController();
-    // Set instance field: private HowToPlayViewController _howToPlayViewController
-    void _set__howToPlayViewController(GlobalNamespace::HowToPlayViewController* value);
-    // Get instance field: private readonly MenuTransitionsHelper _menuTransitionsHelper
-    GlobalNamespace::MenuTransitionsHelper* _get__menuTransitionsHelper();
-    // Set instance field: private readonly MenuTransitionsHelper _menuTransitionsHelper
-    void _set__menuTransitionsHelper(GlobalNamespace::MenuTransitionsHelper* value);
+    // Get instance field reference: private MenuLightsPresetSO _defaultLightsPreset
+    GlobalNamespace::MenuLightsPresetSO*& dyn__defaultLightsPreset();
+    // Get instance field reference: private NetEaseLeaderboardViewController _netEaseLeaderboardViewController
+    GlobalNamespace::NetEaseLeaderboardViewController*& dyn__netEaseLeaderboardViewController();
+    // Get instance field reference: private TabBarViewController _tabBarViewController
+    GlobalNamespace::TabBarViewController*& dyn__tabBarViewController();
+    // Get instance field reference: private NetEaseManager _netEaseManager
+    GlobalNamespace::NetEaseManager*& dyn__netEaseManager();
+    // Get instance field reference: private MenuLightsManager _menuLightsManager
+    GlobalNamespace::MenuLightsManager*& dyn__menuLightsManager();
+    // Get instance field reference: private ResultsViewController _resultsViewController
+    GlobalNamespace::ResultsViewController*& dyn__resultsViewController();
+    // Get instance field reference: private LocalLeaderboardViewController _localLeaderboardViewController
+    GlobalNamespace::LocalLeaderboardViewController*& dyn__localLeaderboardViewController();
+    // Get instance field reference: private HowToPlayViewController _howToPlayViewController
+    GlobalNamespace::HowToPlayViewController*& dyn__howToPlayViewController();
+    // Get instance field reference: private readonly MenuTransitionsHelper _menuTransitionsHelper
+    GlobalNamespace::MenuTransitionsHelper*& dyn__menuTransitionsHelper();
     // private System.Void ProcessScore(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap, GameplayModifiers gameplayModifiers, System.Boolean practice)
     // Offset: 0x103E53C
     void ProcessScore(GlobalNamespace::LevelCompletionResults* levelCompletionResults, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::GameplayModifiers* gameplayModifiers, bool practice);

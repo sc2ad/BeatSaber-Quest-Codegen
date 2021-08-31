@@ -71,26 +71,16 @@ namespace System {
     operator System::IAsyncResult() noexcept {
       return *reinterpret_cast<System::IAsyncResult*>(this);
     }
-    // Get instance field: private System.AsyncCallback async_callback
-    System::AsyncCallback* _get_async_callback();
-    // Set instance field: private System.AsyncCallback async_callback
-    void _set_async_callback(System::AsyncCallback* value);
-    // Get instance field: private System.Object async_state
-    ::Il2CppObject* _get_async_state();
-    // Set instance field: private System.Object async_state
-    void _set_async_state(::Il2CppObject* value);
-    // Get instance field: private System.Threading.ManualResetEvent wait_handle
-    System::Threading::ManualResetEvent* _get_wait_handle();
-    // Set instance field: private System.Threading.ManualResetEvent wait_handle
-    void _set_wait_handle(System::Threading::ManualResetEvent* value);
-    // Get instance field: private System.Boolean completed_synchronously
-    bool _get_completed_synchronously();
-    // Set instance field: private System.Boolean completed_synchronously
-    void _set_completed_synchronously(bool value);
-    // Get instance field: private System.Boolean completed
-    bool _get_completed();
-    // Set instance field: private System.Boolean completed
-    void _set_completed(bool value);
+    // Get instance field reference: private System.AsyncCallback async_callback
+    System::AsyncCallback*& dyn_async_callback();
+    // Get instance field reference: private System.Object async_state
+    ::Il2CppObject*& dyn_async_state();
+    // Get instance field reference: private System.Threading.ManualResetEvent wait_handle
+    System::Threading::ManualResetEvent*& dyn_wait_handle();
+    // Get instance field reference: private System.Boolean completed_synchronously
+    bool& dyn_completed_synchronously();
+    // Get instance field reference: private System.Boolean completed
+    bool& dyn_completed();
     // public System.AsyncCallback get_AsyncCallback()
     // Offset: 0x18BE0D4
     System::AsyncCallback* get_AsyncCallback();

@@ -55,14 +55,10 @@ namespace Org::BouncyCastle::Asn1 {
     static_assert(sizeof(::Array<::Array<uint8_t>*>*) == 0x8);
     // Creating value type constructor for type: Asn1InputStream
     Asn1InputStream(int limit_ = {}, ::Array<::Array<uint8_t>*>* tmpBuffers_ = {}) noexcept : limit{limit_}, tmpBuffers{tmpBuffers_} {}
-    // Get instance field: private readonly System.Int32 limit
-    int _get_limit();
-    // Set instance field: private readonly System.Int32 limit
-    void _set_limit(int value);
-    // Get instance field: private readonly System.Byte[][] tmpBuffers
-    ::Array<::Array<uint8_t>*>* _get_tmpBuffers();
-    // Set instance field: private readonly System.Byte[][] tmpBuffers
-    void _set_tmpBuffers(::Array<::Array<uint8_t>*>* value);
+    // Get instance field reference: private readonly System.Int32 limit
+    int& dyn_limit();
+    // Get instance field reference: private readonly System.Byte[][] tmpBuffers
+    ::Array<::Array<uint8_t>*>*& dyn_tmpBuffers();
     // System.Int32 get_Limit()
     // Offset: 0x17292AC
     int get_Limit();

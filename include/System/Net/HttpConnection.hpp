@@ -122,10 +122,8 @@ namespace System::Net {
       static System::Net::HttpConnection::InputState _get_Headers();
       // Set static field: static public System.Net.HttpConnection/System.Net.InputState Headers
       static void _set_Headers(System::Net::HttpConnection::InputState value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // System.Net.HttpConnection/System.Net.InputState
     #pragma pack(pop)
     static check_size<sizeof(HttpConnection::InputState), 0 + sizeof(int)> __System_Net_HttpConnection_InputStateSizeCheck;
@@ -170,10 +168,8 @@ namespace System::Net {
       static System::Net::HttpConnection::LineState _get_LF();
       // Set static field: static public System.Net.HttpConnection/System.Net.LineState LF
       static void _set_LF(System::Net::HttpConnection::LineState value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // System.Net.HttpConnection/System.Net.LineState
     #pragma pack(pop)
     static check_size<sizeof(HttpConnection::LineState), 0 + sizeof(int)> __System_Net_HttpConnection_LineStateSizeCheck;
@@ -340,106 +336,56 @@ namespace System::Net {
     static System::AsyncCallback* _get_onread_cb();
     // Set static field: static private System.AsyncCallback onread_cb
     static void _set_onread_cb(System::AsyncCallback* value);
-    // Get instance field: private System.Net.Sockets.Socket sock
-    System::Net::Sockets::Socket* _get_sock();
-    // Set instance field: private System.Net.Sockets.Socket sock
-    void _set_sock(System::Net::Sockets::Socket* value);
-    // Get instance field: private System.IO.Stream stream
-    System::IO::Stream* _get_stream();
-    // Set instance field: private System.IO.Stream stream
-    void _set_stream(System::IO::Stream* value);
-    // Get instance field: private System.Net.EndPointListener epl
-    System::Net::EndPointListener* _get_epl();
-    // Set instance field: private System.Net.EndPointListener epl
-    void _set_epl(System::Net::EndPointListener* value);
-    // Get instance field: private System.IO.MemoryStream ms
-    System::IO::MemoryStream* _get_ms();
-    // Set instance field: private System.IO.MemoryStream ms
-    void _set_ms(System::IO::MemoryStream* value);
-    // Get instance field: private System.Byte[] buffer
-    ::Array<uint8_t>* _get_buffer();
-    // Set instance field: private System.Byte[] buffer
-    void _set_buffer(::Array<uint8_t>* value);
-    // Get instance field: private System.Net.HttpListenerContext context
-    System::Net::HttpListenerContext* _get_context();
-    // Set instance field: private System.Net.HttpListenerContext context
-    void _set_context(System::Net::HttpListenerContext* value);
-    // Get instance field: private System.Text.StringBuilder current_line
-    System::Text::StringBuilder* _get_current_line();
-    // Set instance field: private System.Text.StringBuilder current_line
-    void _set_current_line(System::Text::StringBuilder* value);
-    // Get instance field: private System.Net.ListenerPrefix prefix
-    System::Net::ListenerPrefix* _get_prefix();
-    // Set instance field: private System.Net.ListenerPrefix prefix
-    void _set_prefix(System::Net::ListenerPrefix* value);
-    // Get instance field: private System.Net.RequestStream i_stream
-    System::Net::RequestStream* _get_i_stream();
-    // Set instance field: private System.Net.RequestStream i_stream
-    void _set_i_stream(System::Net::RequestStream* value);
-    // Get instance field: private System.Net.ResponseStream o_stream
-    System::Net::ResponseStream* _get_o_stream();
-    // Set instance field: private System.Net.ResponseStream o_stream
-    void _set_o_stream(System::Net::ResponseStream* value);
-    // Get instance field: private System.Boolean chunked
-    bool _get_chunked();
-    // Set instance field: private System.Boolean chunked
-    void _set_chunked(bool value);
-    // Get instance field: private System.Int32 reuses
-    int _get_reuses();
-    // Set instance field: private System.Int32 reuses
-    void _set_reuses(int value);
-    // Get instance field: private System.Boolean context_bound
-    bool _get_context_bound();
-    // Set instance field: private System.Boolean context_bound
-    void _set_context_bound(bool value);
-    // Get instance field: private System.Boolean secure
-    bool _get_secure();
-    // Set instance field: private System.Boolean secure
-    void _set_secure(bool value);
-    // Get instance field: private System.Security.Cryptography.X509Certificates.X509Certificate cert
-    System::Security::Cryptography::X509Certificates::X509Certificate* _get_cert();
-    // Set instance field: private System.Security.Cryptography.X509Certificates.X509Certificate cert
-    void _set_cert(System::Security::Cryptography::X509Certificates::X509Certificate* value);
-    // Get instance field: private System.Int32 s_timeout
-    int _get_s_timeout();
-    // Set instance field: private System.Int32 s_timeout
-    void _set_s_timeout(int value);
-    // Get instance field: private System.Threading.Timer timer
-    System::Threading::Timer* _get_timer();
-    // Set instance field: private System.Threading.Timer timer
-    void _set_timer(System::Threading::Timer* value);
-    // Get instance field: private System.Net.IPEndPoint local_ep
-    System::Net::IPEndPoint* _get_local_ep();
-    // Set instance field: private System.Net.IPEndPoint local_ep
-    void _set_local_ep(System::Net::IPEndPoint* value);
-    // Get instance field: private System.Net.HttpListener last_listener
-    System::Net::HttpListener* _get_last_listener();
-    // Set instance field: private System.Net.HttpListener last_listener
-    void _set_last_listener(System::Net::HttpListener* value);
-    // Get instance field: private System.Int32[] client_cert_errors
-    ::Array<int>* _get_client_cert_errors();
-    // Set instance field: private System.Int32[] client_cert_errors
-    void _set_client_cert_errors(::Array<int>* value);
-    // Get instance field: private System.Security.Cryptography.X509Certificates.X509Certificate2 client_cert
-    System::Security::Cryptography::X509Certificates::X509Certificate2* _get_client_cert();
-    // Set instance field: private System.Security.Cryptography.X509Certificates.X509Certificate2 client_cert
-    void _set_client_cert(System::Security::Cryptography::X509Certificates::X509Certificate2* value);
-    // Get instance field: private System.Net.Security.SslStream ssl_stream
-    System::Net::Security::SslStream* _get_ssl_stream();
-    // Set instance field: private System.Net.Security.SslStream ssl_stream
-    void _set_ssl_stream(System::Net::Security::SslStream* value);
-    // Get instance field: private System.Net.HttpConnection/System.Net.InputState input_state
-    System::Net::HttpConnection::InputState _get_input_state();
-    // Set instance field: private System.Net.HttpConnection/System.Net.InputState input_state
-    void _set_input_state(System::Net::HttpConnection::InputState value);
-    // Get instance field: private System.Net.HttpConnection/System.Net.LineState line_state
-    System::Net::HttpConnection::LineState _get_line_state();
-    // Set instance field: private System.Net.HttpConnection/System.Net.LineState line_state
-    void _set_line_state(System::Net::HttpConnection::LineState value);
-    // Get instance field: private System.Int32 position
-    int _get_position();
-    // Set instance field: private System.Int32 position
-    void _set_position(int value);
+    // Get instance field reference: private System.Net.Sockets.Socket sock
+    System::Net::Sockets::Socket*& dyn_sock();
+    // Get instance field reference: private System.IO.Stream stream
+    System::IO::Stream*& dyn_stream();
+    // Get instance field reference: private System.Net.EndPointListener epl
+    System::Net::EndPointListener*& dyn_epl();
+    // Get instance field reference: private System.IO.MemoryStream ms
+    System::IO::MemoryStream*& dyn_ms();
+    // Get instance field reference: private System.Byte[] buffer
+    ::Array<uint8_t>*& dyn_buffer();
+    // Get instance field reference: private System.Net.HttpListenerContext context
+    System::Net::HttpListenerContext*& dyn_context();
+    // Get instance field reference: private System.Text.StringBuilder current_line
+    System::Text::StringBuilder*& dyn_current_line();
+    // Get instance field reference: private System.Net.ListenerPrefix prefix
+    System::Net::ListenerPrefix*& dyn_prefix();
+    // Get instance field reference: private System.Net.RequestStream i_stream
+    System::Net::RequestStream*& dyn_i_stream();
+    // Get instance field reference: private System.Net.ResponseStream o_stream
+    System::Net::ResponseStream*& dyn_o_stream();
+    // Get instance field reference: private System.Boolean chunked
+    bool& dyn_chunked();
+    // Get instance field reference: private System.Int32 reuses
+    int& dyn_reuses();
+    // Get instance field reference: private System.Boolean context_bound
+    bool& dyn_context_bound();
+    // Get instance field reference: private System.Boolean secure
+    bool& dyn_secure();
+    // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Certificate cert
+    System::Security::Cryptography::X509Certificates::X509Certificate*& dyn_cert();
+    // Get instance field reference: private System.Int32 s_timeout
+    int& dyn_s_timeout();
+    // Get instance field reference: private System.Threading.Timer timer
+    System::Threading::Timer*& dyn_timer();
+    // Get instance field reference: private System.Net.IPEndPoint local_ep
+    System::Net::IPEndPoint*& dyn_local_ep();
+    // Get instance field reference: private System.Net.HttpListener last_listener
+    System::Net::HttpListener*& dyn_last_listener();
+    // Get instance field reference: private System.Int32[] client_cert_errors
+    ::Array<int>*& dyn_client_cert_errors();
+    // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Certificate2 client_cert
+    System::Security::Cryptography::X509Certificates::X509Certificate2*& dyn_client_cert();
+    // Get instance field reference: private System.Net.Security.SslStream ssl_stream
+    System::Net::Security::SslStream*& dyn_ssl_stream();
+    // Get instance field reference: private System.Net.HttpConnection/System.Net.InputState input_state
+    System::Net::HttpConnection::InputState& dyn_input_state();
+    // Get instance field reference: private System.Net.HttpConnection/System.Net.LineState line_state
+    System::Net::HttpConnection::LineState& dyn_line_state();
+    // Get instance field reference: private System.Int32 position
+    int& dyn_position();
     // public System.Int32 get_Reuses()
     // Offset: 0x166A51C
     int get_Reuses();

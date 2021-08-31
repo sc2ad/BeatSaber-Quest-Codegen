@@ -48,22 +48,14 @@ namespace System {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private System.IntPtr sig
-    System::IntPtr _get_sig();
-    // Set instance field: private System.IntPtr sig
-    void _set_sig(System::IntPtr value);
-    // Get instance field: private System.IntPtr args
-    System::IntPtr _get_args();
-    // Set instance field: private System.IntPtr args
-    void _set_args(System::IntPtr value);
-    // Get instance field: private System.Int32 next_arg
-    int _get_next_arg();
-    // Set instance field: private System.Int32 next_arg
-    void _set_next_arg(int value);
-    // Get instance field: private System.Int32 num_args
-    int _get_num_args();
-    // Set instance field: private System.Int32 num_args
-    void _set_num_args(int value);
+    // Get instance field reference: private System.IntPtr sig
+    System::IntPtr& dyn_sig();
+    // Get instance field reference: private System.IntPtr args
+    System::IntPtr& dyn_args();
+    // Get instance field reference: private System.Int32 next_arg
+    int& dyn_next_arg();
+    // Get instance field reference: private System.Int32 num_args
+    int& dyn_num_args();
     // public override System.Boolean Equals(System.Object o)
     // Offset: 0x17C7A68
     // Implemented from: System.ValueType

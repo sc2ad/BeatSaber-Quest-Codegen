@@ -83,30 +83,18 @@ namespace Org::BouncyCastle::Crypto::Macs {
     operator Org::BouncyCastle::Crypto::IMac() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IMac*>(this);
     }
-    // Get instance field: private System.Byte[] mac
-    ::Array<uint8_t>* _get_mac();
-    // Set instance field: private System.Byte[] mac
-    void _set_mac(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] Buffer
-    ::Array<uint8_t>* _get_Buffer();
-    // Set instance field: private System.Byte[] Buffer
-    void _set_Buffer(::Array<uint8_t>* value);
-    // Get instance field: private System.Int32 bufOff
-    int _get_bufOff();
-    // Set instance field: private System.Int32 bufOff
-    void _set_bufOff(int value);
-    // Get instance field: private Org.BouncyCastle.Crypto.Macs.MacCFBBlockCipher cipher
-    Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher* _get_cipher();
-    // Set instance field: private Org.BouncyCastle.Crypto.Macs.MacCFBBlockCipher cipher
-    void _set_cipher(Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher* value);
-    // Get instance field: private Org.BouncyCastle.Crypto.Paddings.IBlockCipherPadding padding
-    Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* _get_padding();
-    // Set instance field: private Org.BouncyCastle.Crypto.Paddings.IBlockCipherPadding padding
-    void _set_padding(Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* value);
-    // Get instance field: private System.Int32 macSize
-    int _get_macSize();
-    // Set instance field: private System.Int32 macSize
-    void _set_macSize(int value);
+    // Get instance field reference: private System.Byte[] mac
+    ::Array<uint8_t>*& dyn_mac();
+    // Get instance field reference: private System.Byte[] Buffer
+    ::Array<uint8_t>*& dyn_Buffer();
+    // Get instance field reference: private System.Int32 bufOff
+    int& dyn_bufOff();
+    // Get instance field reference: private Org.BouncyCastle.Crypto.Macs.MacCFBBlockCipher cipher
+    Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher*& dyn_cipher();
+    // Get instance field reference: private Org.BouncyCastle.Crypto.Paddings.IBlockCipherPadding padding
+    Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*& dyn_padding();
+    // Get instance field reference: private System.Int32 macSize
+    int& dyn_macSize();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher)
     // Offset: 0x190CD70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

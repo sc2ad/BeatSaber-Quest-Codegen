@@ -128,66 +128,36 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::EnvironmentEffectsFilterPreset) == 0x4);
     // Creating value type constructor for type: PlayerSpecificSettings
     PlayerSpecificSettings(bool leftHanded_ = {}, float playerHeight_ = {}, bool automaticPlayerHeight_ = {}, float sfxVolume_ = {}, bool reduceDebris_ = {}, bool noTextsAndHuds_ = {}, bool noFailEffects_ = {}, bool advancedHud_ = {}, bool autoRestart_ = {}, float saberTrailIntensity_ = {}, float noteJumpStartBeatOffset_ = {}, bool hideNoteSpawnEffect_ = {}, bool adaptiveSfx_ = {}, GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterDefaultPreset_ = {}, GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterExpertPlusPreset_ = {}) noexcept : leftHanded{leftHanded_}, playerHeight{playerHeight_}, automaticPlayerHeight{automaticPlayerHeight_}, sfxVolume{sfxVolume_}, reduceDebris{reduceDebris_}, noTextsAndHuds{noTextsAndHuds_}, noFailEffects{noFailEffects_}, advancedHud{advancedHud_}, autoRestart{autoRestart_}, saberTrailIntensity{saberTrailIntensity_}, noteJumpStartBeatOffset{noteJumpStartBeatOffset_}, hideNoteSpawnEffect{hideNoteSpawnEffect_}, adaptiveSfx{adaptiveSfx_}, environmentEffectsFilterDefaultPreset{environmentEffectsFilterDefaultPreset_}, environmentEffectsFilterExpertPlusPreset{environmentEffectsFilterExpertPlusPreset_} {}
-    // Get instance field: private System.Boolean _leftHanded
-    bool _get__leftHanded();
-    // Set instance field: private System.Boolean _leftHanded
-    void _set__leftHanded(bool value);
-    // Get instance field: private System.Single _playerHeight
-    float _get__playerHeight();
-    // Set instance field: private System.Single _playerHeight
-    void _set__playerHeight(float value);
-    // Get instance field: private System.Boolean _automaticPlayerHeight
-    bool _get__automaticPlayerHeight();
-    // Set instance field: private System.Boolean _automaticPlayerHeight
-    void _set__automaticPlayerHeight(bool value);
-    // Get instance field: private System.Single _sfxVolume
-    float _get__sfxVolume();
-    // Set instance field: private System.Single _sfxVolume
-    void _set__sfxVolume(float value);
-    // Get instance field: private System.Boolean _reduceDebris
-    bool _get__reduceDebris();
-    // Set instance field: private System.Boolean _reduceDebris
-    void _set__reduceDebris(bool value);
-    // Get instance field: private System.Boolean _noTextsAndHuds
-    bool _get__noTextsAndHuds();
-    // Set instance field: private System.Boolean _noTextsAndHuds
-    void _set__noTextsAndHuds(bool value);
-    // Get instance field: private System.Boolean _noFailEffects
-    bool _get__noFailEffects();
-    // Set instance field: private System.Boolean _noFailEffects
-    void _set__noFailEffects(bool value);
-    // Get instance field: private System.Boolean _advancedHud
-    bool _get__advancedHud();
-    // Set instance field: private System.Boolean _advancedHud
-    void _set__advancedHud(bool value);
-    // Get instance field: private System.Boolean _autoRestart
-    bool _get__autoRestart();
-    // Set instance field: private System.Boolean _autoRestart
-    void _set__autoRestart(bool value);
-    // Get instance field: private System.Single _saberTrailIntensity
-    float _get__saberTrailIntensity();
-    // Set instance field: private System.Single _saberTrailIntensity
-    void _set__saberTrailIntensity(float value);
-    // Get instance field: private System.Single _noteJumpStartBeatOffset
-    float _get__noteJumpStartBeatOffset();
-    // Set instance field: private System.Single _noteJumpStartBeatOffset
-    void _set__noteJumpStartBeatOffset(float value);
-    // Get instance field: private System.Boolean _hideNoteSpawnEffect
-    bool _get__hideNoteSpawnEffect();
-    // Set instance field: private System.Boolean _hideNoteSpawnEffect
-    void _set__hideNoteSpawnEffect(bool value);
-    // Get instance field: private System.Boolean _adaptiveSfx
-    bool _get__adaptiveSfx();
-    // Set instance field: private System.Boolean _adaptiveSfx
-    void _set__adaptiveSfx(bool value);
-    // Get instance field: private EnvironmentEffectsFilterPreset _environmentEffectsFilterDefaultPreset
-    GlobalNamespace::EnvironmentEffectsFilterPreset _get__environmentEffectsFilterDefaultPreset();
-    // Set instance field: private EnvironmentEffectsFilterPreset _environmentEffectsFilterDefaultPreset
-    void _set__environmentEffectsFilterDefaultPreset(GlobalNamespace::EnvironmentEffectsFilterPreset value);
-    // Get instance field: private EnvironmentEffectsFilterPreset _environmentEffectsFilterExpertPlusPreset
-    GlobalNamespace::EnvironmentEffectsFilterPreset _get__environmentEffectsFilterExpertPlusPreset();
-    // Set instance field: private EnvironmentEffectsFilterPreset _environmentEffectsFilterExpertPlusPreset
-    void _set__environmentEffectsFilterExpertPlusPreset(GlobalNamespace::EnvironmentEffectsFilterPreset value);
+    // Get instance field reference: private System.Boolean _leftHanded
+    bool& dyn__leftHanded();
+    // Get instance field reference: private System.Single _playerHeight
+    float& dyn__playerHeight();
+    // Get instance field reference: private System.Boolean _automaticPlayerHeight
+    bool& dyn__automaticPlayerHeight();
+    // Get instance field reference: private System.Single _sfxVolume
+    float& dyn__sfxVolume();
+    // Get instance field reference: private System.Boolean _reduceDebris
+    bool& dyn__reduceDebris();
+    // Get instance field reference: private System.Boolean _noTextsAndHuds
+    bool& dyn__noTextsAndHuds();
+    // Get instance field reference: private System.Boolean _noFailEffects
+    bool& dyn__noFailEffects();
+    // Get instance field reference: private System.Boolean _advancedHud
+    bool& dyn__advancedHud();
+    // Get instance field reference: private System.Boolean _autoRestart
+    bool& dyn__autoRestart();
+    // Get instance field reference: private System.Single _saberTrailIntensity
+    float& dyn__saberTrailIntensity();
+    // Get instance field reference: private System.Single _noteJumpStartBeatOffset
+    float& dyn__noteJumpStartBeatOffset();
+    // Get instance field reference: private System.Boolean _hideNoteSpawnEffect
+    bool& dyn__hideNoteSpawnEffect();
+    // Get instance field reference: private System.Boolean _adaptiveSfx
+    bool& dyn__adaptiveSfx();
+    // Get instance field reference: private EnvironmentEffectsFilterPreset _environmentEffectsFilterDefaultPreset
+    GlobalNamespace::EnvironmentEffectsFilterPreset& dyn__environmentEffectsFilterDefaultPreset();
+    // Get instance field reference: private EnvironmentEffectsFilterPreset _environmentEffectsFilterExpertPlusPreset
+    GlobalNamespace::EnvironmentEffectsFilterPreset& dyn__environmentEffectsFilterExpertPlusPreset();
     // public System.Boolean get_leftHanded()
     // Offset: 0x113C1FC
     bool get_leftHanded();

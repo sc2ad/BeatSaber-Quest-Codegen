@@ -66,14 +66,10 @@ namespace Zenject {
     operator Zenject::IProvider() noexcept {
       return *reinterpret_cast<Zenject::IProvider*>(this);
     }
-    // Get instance field: private readonly Zenject.IProvider _creator
-    Zenject::IProvider* _get__creator();
-    // Set instance field: private readonly Zenject.IProvider _creator
-    void _set__creator(Zenject::IProvider* value);
-    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<System.Type,Zenject.CachedProvider> _providerMap
-    System::Collections::Generic::Dictionary_2<System::Type*, Zenject::CachedProvider*>* _get__providerMap();
-    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<System.Type,Zenject.CachedProvider> _providerMap
-    void _set__providerMap(System::Collections::Generic::Dictionary_2<System::Type*, Zenject::CachedProvider*>* value);
+    // Get instance field reference: private readonly Zenject.IProvider _creator
+    Zenject::IProvider*& dyn__creator();
+    // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Type,Zenject.CachedProvider> _providerMap
+    System::Collections::Generic::Dictionary_2<System::Type*, Zenject::CachedProvider*>*& dyn__providerMap();
     // public System.Boolean get_IsCached()
     // Offset: 0x13DE318
     bool get_IsCached();

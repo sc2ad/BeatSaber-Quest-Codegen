@@ -222,138 +222,72 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::OVRInput::RawButton) == 0x4);
     // Creating value type constructor for type: VirtualButtonMap
     VirtualButtonMap(GlobalNamespace::OVRInput::RawButton None_ = {}, GlobalNamespace::OVRInput::RawButton One_ = {}, GlobalNamespace::OVRInput::RawButton Two_ = {}, GlobalNamespace::OVRInput::RawButton Three_ = {}, GlobalNamespace::OVRInput::RawButton Four_ = {}, GlobalNamespace::OVRInput::RawButton Start_ = {}, GlobalNamespace::OVRInput::RawButton Back_ = {}, GlobalNamespace::OVRInput::RawButton PrimaryShoulder_ = {}, GlobalNamespace::OVRInput::RawButton PrimaryIndexTrigger_ = {}, GlobalNamespace::OVRInput::RawButton PrimaryHandTrigger_ = {}, GlobalNamespace::OVRInput::RawButton PrimaryThumbstick_ = {}, GlobalNamespace::OVRInput::RawButton PrimaryThumbstickUp_ = {}, GlobalNamespace::OVRInput::RawButton PrimaryThumbstickDown_ = {}, GlobalNamespace::OVRInput::RawButton PrimaryThumbstickLeft_ = {}, GlobalNamespace::OVRInput::RawButton PrimaryThumbstickRight_ = {}, GlobalNamespace::OVRInput::RawButton PrimaryTouchpad_ = {}, GlobalNamespace::OVRInput::RawButton SecondaryShoulder_ = {}, GlobalNamespace::OVRInput::RawButton SecondaryIndexTrigger_ = {}, GlobalNamespace::OVRInput::RawButton SecondaryHandTrigger_ = {}, GlobalNamespace::OVRInput::RawButton SecondaryThumbstick_ = {}, GlobalNamespace::OVRInput::RawButton SecondaryThumbstickUp_ = {}, GlobalNamespace::OVRInput::RawButton SecondaryThumbstickDown_ = {}, GlobalNamespace::OVRInput::RawButton SecondaryThumbstickLeft_ = {}, GlobalNamespace::OVRInput::RawButton SecondaryThumbstickRight_ = {}, GlobalNamespace::OVRInput::RawButton SecondaryTouchpad_ = {}, GlobalNamespace::OVRInput::RawButton DpadUp_ = {}, GlobalNamespace::OVRInput::RawButton DpadDown_ = {}, GlobalNamespace::OVRInput::RawButton DpadLeft_ = {}, GlobalNamespace::OVRInput::RawButton DpadRight_ = {}, GlobalNamespace::OVRInput::RawButton Up_ = {}, GlobalNamespace::OVRInput::RawButton Down_ = {}, GlobalNamespace::OVRInput::RawButton Left_ = {}, GlobalNamespace::OVRInput::RawButton Right_ = {}) noexcept : None{None_}, One{One_}, Two{Two_}, Three{Three_}, Four{Four_}, Start{Start_}, Back{Back_}, PrimaryShoulder{PrimaryShoulder_}, PrimaryIndexTrigger{PrimaryIndexTrigger_}, PrimaryHandTrigger{PrimaryHandTrigger_}, PrimaryThumbstick{PrimaryThumbstick_}, PrimaryThumbstickUp{PrimaryThumbstickUp_}, PrimaryThumbstickDown{PrimaryThumbstickDown_}, PrimaryThumbstickLeft{PrimaryThumbstickLeft_}, PrimaryThumbstickRight{PrimaryThumbstickRight_}, PrimaryTouchpad{PrimaryTouchpad_}, SecondaryShoulder{SecondaryShoulder_}, SecondaryIndexTrigger{SecondaryIndexTrigger_}, SecondaryHandTrigger{SecondaryHandTrigger_}, SecondaryThumbstick{SecondaryThumbstick_}, SecondaryThumbstickUp{SecondaryThumbstickUp_}, SecondaryThumbstickDown{SecondaryThumbstickDown_}, SecondaryThumbstickLeft{SecondaryThumbstickLeft_}, SecondaryThumbstickRight{SecondaryThumbstickRight_}, SecondaryTouchpad{SecondaryTouchpad_}, DpadUp{DpadUp_}, DpadDown{DpadDown_}, DpadLeft{DpadLeft_}, DpadRight{DpadRight_}, Up{Up_}, Down{Down_}, Left{Left_}, Right{Right_} {}
-    // Get instance field: public OVRInput/RawButton None
-    GlobalNamespace::OVRInput::RawButton _get_None();
-    // Set instance field: public OVRInput/RawButton None
-    void _set_None(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRInput/RawButton One
-    GlobalNamespace::OVRInput::RawButton _get_One();
-    // Set instance field: public OVRInput/RawButton One
-    void _set_One(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRInput/RawButton Two
-    GlobalNamespace::OVRInput::RawButton _get_Two();
-    // Set instance field: public OVRInput/RawButton Two
-    void _set_Two(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRInput/RawButton Three
-    GlobalNamespace::OVRInput::RawButton _get_Three();
-    // Set instance field: public OVRInput/RawButton Three
-    void _set_Three(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRInput/RawButton Four
-    GlobalNamespace::OVRInput::RawButton _get_Four();
-    // Set instance field: public OVRInput/RawButton Four
-    void _set_Four(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRInput/RawButton Start
-    GlobalNamespace::OVRInput::RawButton _get_Start();
-    // Set instance field: public OVRInput/RawButton Start
-    void _set_Start(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRInput/RawButton Back
-    GlobalNamespace::OVRInput::RawButton _get_Back();
-    // Set instance field: public OVRInput/RawButton Back
-    void _set_Back(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRInput/RawButton PrimaryShoulder
-    GlobalNamespace::OVRInput::RawButton _get_PrimaryShoulder();
-    // Set instance field: public OVRInput/RawButton PrimaryShoulder
-    void _set_PrimaryShoulder(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRInput/RawButton PrimaryIndexTrigger
-    GlobalNamespace::OVRInput::RawButton _get_PrimaryIndexTrigger();
-    // Set instance field: public OVRInput/RawButton PrimaryIndexTrigger
-    void _set_PrimaryIndexTrigger(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRInput/RawButton PrimaryHandTrigger
-    GlobalNamespace::OVRInput::RawButton _get_PrimaryHandTrigger();
-    // Set instance field: public OVRInput/RawButton PrimaryHandTrigger
-    void _set_PrimaryHandTrigger(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRInput/RawButton PrimaryThumbstick
-    GlobalNamespace::OVRInput::RawButton _get_PrimaryThumbstick();
-    // Set instance field: public OVRInput/RawButton PrimaryThumbstick
-    void _set_PrimaryThumbstick(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRInput/RawButton PrimaryThumbstickUp
-    GlobalNamespace::OVRInput::RawButton _get_PrimaryThumbstickUp();
-    // Set instance field: public OVRInput/RawButton PrimaryThumbstickUp
-    void _set_PrimaryThumbstickUp(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRInput/RawButton PrimaryThumbstickDown
-    GlobalNamespace::OVRInput::RawButton _get_PrimaryThumbstickDown();
-    // Set instance field: public OVRInput/RawButton PrimaryThumbstickDown
-    void _set_PrimaryThumbstickDown(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRInput/RawButton PrimaryThumbstickLeft
-    GlobalNamespace::OVRInput::RawButton _get_PrimaryThumbstickLeft();
-    // Set instance field: public OVRInput/RawButton PrimaryThumbstickLeft
-    void _set_PrimaryThumbstickLeft(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRInput/RawButton PrimaryThumbstickRight
-    GlobalNamespace::OVRInput::RawButton _get_PrimaryThumbstickRight();
-    // Set instance field: public OVRInput/RawButton PrimaryThumbstickRight
-    void _set_PrimaryThumbstickRight(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRInput/RawButton PrimaryTouchpad
-    GlobalNamespace::OVRInput::RawButton _get_PrimaryTouchpad();
-    // Set instance field: public OVRInput/RawButton PrimaryTouchpad
-    void _set_PrimaryTouchpad(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRInput/RawButton SecondaryShoulder
-    GlobalNamespace::OVRInput::RawButton _get_SecondaryShoulder();
-    // Set instance field: public OVRInput/RawButton SecondaryShoulder
-    void _set_SecondaryShoulder(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRInput/RawButton SecondaryIndexTrigger
-    GlobalNamespace::OVRInput::RawButton _get_SecondaryIndexTrigger();
-    // Set instance field: public OVRInput/RawButton SecondaryIndexTrigger
-    void _set_SecondaryIndexTrigger(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRInput/RawButton SecondaryHandTrigger
-    GlobalNamespace::OVRInput::RawButton _get_SecondaryHandTrigger();
-    // Set instance field: public OVRInput/RawButton SecondaryHandTrigger
-    void _set_SecondaryHandTrigger(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRInput/RawButton SecondaryThumbstick
-    GlobalNamespace::OVRInput::RawButton _get_SecondaryThumbstick();
-    // Set instance field: public OVRInput/RawButton SecondaryThumbstick
-    void _set_SecondaryThumbstick(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRInput/RawButton SecondaryThumbstickUp
-    GlobalNamespace::OVRInput::RawButton _get_SecondaryThumbstickUp();
-    // Set instance field: public OVRInput/RawButton SecondaryThumbstickUp
-    void _set_SecondaryThumbstickUp(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRInput/RawButton SecondaryThumbstickDown
-    GlobalNamespace::OVRInput::RawButton _get_SecondaryThumbstickDown();
-    // Set instance field: public OVRInput/RawButton SecondaryThumbstickDown
-    void _set_SecondaryThumbstickDown(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRInput/RawButton SecondaryThumbstickLeft
-    GlobalNamespace::OVRInput::RawButton _get_SecondaryThumbstickLeft();
-    // Set instance field: public OVRInput/RawButton SecondaryThumbstickLeft
-    void _set_SecondaryThumbstickLeft(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRInput/RawButton SecondaryThumbstickRight
-    GlobalNamespace::OVRInput::RawButton _get_SecondaryThumbstickRight();
-    // Set instance field: public OVRInput/RawButton SecondaryThumbstickRight
-    void _set_SecondaryThumbstickRight(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRInput/RawButton SecondaryTouchpad
-    GlobalNamespace::OVRInput::RawButton _get_SecondaryTouchpad();
-    // Set instance field: public OVRInput/RawButton SecondaryTouchpad
-    void _set_SecondaryTouchpad(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRInput/RawButton DpadUp
-    GlobalNamespace::OVRInput::RawButton _get_DpadUp();
-    // Set instance field: public OVRInput/RawButton DpadUp
-    void _set_DpadUp(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRInput/RawButton DpadDown
-    GlobalNamespace::OVRInput::RawButton _get_DpadDown();
-    // Set instance field: public OVRInput/RawButton DpadDown
-    void _set_DpadDown(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRInput/RawButton DpadLeft
-    GlobalNamespace::OVRInput::RawButton _get_DpadLeft();
-    // Set instance field: public OVRInput/RawButton DpadLeft
-    void _set_DpadLeft(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRInput/RawButton DpadRight
-    GlobalNamespace::OVRInput::RawButton _get_DpadRight();
-    // Set instance field: public OVRInput/RawButton DpadRight
-    void _set_DpadRight(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRInput/RawButton Up
-    GlobalNamespace::OVRInput::RawButton _get_Up();
-    // Set instance field: public OVRInput/RawButton Up
-    void _set_Up(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRInput/RawButton Down
-    GlobalNamespace::OVRInput::RawButton _get_Down();
-    // Set instance field: public OVRInput/RawButton Down
-    void _set_Down(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRInput/RawButton Left
-    GlobalNamespace::OVRInput::RawButton _get_Left();
-    // Set instance field: public OVRInput/RawButton Left
-    void _set_Left(GlobalNamespace::OVRInput::RawButton value);
-    // Get instance field: public OVRInput/RawButton Right
-    GlobalNamespace::OVRInput::RawButton _get_Right();
-    // Set instance field: public OVRInput/RawButton Right
-    void _set_Right(GlobalNamespace::OVRInput::RawButton value);
+    // Get instance field reference: public OVRInput/RawButton None
+    GlobalNamespace::OVRInput::RawButton& dyn_None();
+    // Get instance field reference: public OVRInput/RawButton One
+    GlobalNamespace::OVRInput::RawButton& dyn_One();
+    // Get instance field reference: public OVRInput/RawButton Two
+    GlobalNamespace::OVRInput::RawButton& dyn_Two();
+    // Get instance field reference: public OVRInput/RawButton Three
+    GlobalNamespace::OVRInput::RawButton& dyn_Three();
+    // Get instance field reference: public OVRInput/RawButton Four
+    GlobalNamespace::OVRInput::RawButton& dyn_Four();
+    // Get instance field reference: public OVRInput/RawButton Start
+    GlobalNamespace::OVRInput::RawButton& dyn_Start();
+    // Get instance field reference: public OVRInput/RawButton Back
+    GlobalNamespace::OVRInput::RawButton& dyn_Back();
+    // Get instance field reference: public OVRInput/RawButton PrimaryShoulder
+    GlobalNamespace::OVRInput::RawButton& dyn_PrimaryShoulder();
+    // Get instance field reference: public OVRInput/RawButton PrimaryIndexTrigger
+    GlobalNamespace::OVRInput::RawButton& dyn_PrimaryIndexTrigger();
+    // Get instance field reference: public OVRInput/RawButton PrimaryHandTrigger
+    GlobalNamespace::OVRInput::RawButton& dyn_PrimaryHandTrigger();
+    // Get instance field reference: public OVRInput/RawButton PrimaryThumbstick
+    GlobalNamespace::OVRInput::RawButton& dyn_PrimaryThumbstick();
+    // Get instance field reference: public OVRInput/RawButton PrimaryThumbstickUp
+    GlobalNamespace::OVRInput::RawButton& dyn_PrimaryThumbstickUp();
+    // Get instance field reference: public OVRInput/RawButton PrimaryThumbstickDown
+    GlobalNamespace::OVRInput::RawButton& dyn_PrimaryThumbstickDown();
+    // Get instance field reference: public OVRInput/RawButton PrimaryThumbstickLeft
+    GlobalNamespace::OVRInput::RawButton& dyn_PrimaryThumbstickLeft();
+    // Get instance field reference: public OVRInput/RawButton PrimaryThumbstickRight
+    GlobalNamespace::OVRInput::RawButton& dyn_PrimaryThumbstickRight();
+    // Get instance field reference: public OVRInput/RawButton PrimaryTouchpad
+    GlobalNamespace::OVRInput::RawButton& dyn_PrimaryTouchpad();
+    // Get instance field reference: public OVRInput/RawButton SecondaryShoulder
+    GlobalNamespace::OVRInput::RawButton& dyn_SecondaryShoulder();
+    // Get instance field reference: public OVRInput/RawButton SecondaryIndexTrigger
+    GlobalNamespace::OVRInput::RawButton& dyn_SecondaryIndexTrigger();
+    // Get instance field reference: public OVRInput/RawButton SecondaryHandTrigger
+    GlobalNamespace::OVRInput::RawButton& dyn_SecondaryHandTrigger();
+    // Get instance field reference: public OVRInput/RawButton SecondaryThumbstick
+    GlobalNamespace::OVRInput::RawButton& dyn_SecondaryThumbstick();
+    // Get instance field reference: public OVRInput/RawButton SecondaryThumbstickUp
+    GlobalNamespace::OVRInput::RawButton& dyn_SecondaryThumbstickUp();
+    // Get instance field reference: public OVRInput/RawButton SecondaryThumbstickDown
+    GlobalNamespace::OVRInput::RawButton& dyn_SecondaryThumbstickDown();
+    // Get instance field reference: public OVRInput/RawButton SecondaryThumbstickLeft
+    GlobalNamespace::OVRInput::RawButton& dyn_SecondaryThumbstickLeft();
+    // Get instance field reference: public OVRInput/RawButton SecondaryThumbstickRight
+    GlobalNamespace::OVRInput::RawButton& dyn_SecondaryThumbstickRight();
+    // Get instance field reference: public OVRInput/RawButton SecondaryTouchpad
+    GlobalNamespace::OVRInput::RawButton& dyn_SecondaryTouchpad();
+    // Get instance field reference: public OVRInput/RawButton DpadUp
+    GlobalNamespace::OVRInput::RawButton& dyn_DpadUp();
+    // Get instance field reference: public OVRInput/RawButton DpadDown
+    GlobalNamespace::OVRInput::RawButton& dyn_DpadDown();
+    // Get instance field reference: public OVRInput/RawButton DpadLeft
+    GlobalNamespace::OVRInput::RawButton& dyn_DpadLeft();
+    // Get instance field reference: public OVRInput/RawButton DpadRight
+    GlobalNamespace::OVRInput::RawButton& dyn_DpadRight();
+    // Get instance field reference: public OVRInput/RawButton Up
+    GlobalNamespace::OVRInput::RawButton& dyn_Up();
+    // Get instance field reference: public OVRInput/RawButton Down
+    GlobalNamespace::OVRInput::RawButton& dyn_Down();
+    // Get instance field reference: public OVRInput/RawButton Left
+    GlobalNamespace::OVRInput::RawButton& dyn_Left();
+    // Get instance field reference: public OVRInput/RawButton Right
+    GlobalNamespace::OVRInput::RawButton& dyn_Right();
     // public OVRInput/RawButton ToRawMask(OVRInput/Button virtualMask)
     // Offset: 0x153BB60
     GlobalNamespace::OVRInput::RawButton ToRawMask(GlobalNamespace::OVRInput::Button virtualMask);

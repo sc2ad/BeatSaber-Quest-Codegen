@@ -68,14 +68,10 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     }
     // Deleting conversion operator: operator NUnit::Framework::Internal::Test*
     constexpr operator NUnit::Framework::Internal::Test*() const noexcept = delete;
-    // Get instance field: private NUnit.Framework.Interfaces.ResultState m_ResultState
-    NUnit::Framework::Interfaces::ResultState* _get_m_ResultState();
-    // Set instance field: private NUnit.Framework.Interfaces.ResultState m_ResultState
-    void _set_m_ResultState(NUnit::Framework::Interfaces::ResultState* value);
-    // Get instance field: private System.String m_Message
-    ::Il2CppString* _get_m_Message();
-    // Set instance field: private System.String m_Message
-    void _set_m_Message(::Il2CppString* value);
+    // Get instance field reference: private NUnit.Framework.Interfaces.ResultState m_ResultState
+    NUnit::Framework::Interfaces::ResultState*& dyn_m_ResultState();
+    // Get instance field reference: private System.String m_Message
+    ::Il2CppString*& dyn_m_Message();
     // public System.Void .ctor(NUnit.Framework.Internal.Test test, NUnit.Framework.Interfaces.ResultState resultState, System.String message)
     // Offset: 0x14B5DB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

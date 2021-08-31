@@ -105,38 +105,22 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator uint64_t
     constexpr operator uint64_t() const noexcept = delete;
-    // Get instance field: private System.Int32 _afterCutScoreWithMultiplier
-    int _get__afterCutScoreWithMultiplier();
-    // Set instance field: private System.Int32 _afterCutScoreWithMultiplier
-    void _set__afterCutScoreWithMultiplier(int value);
-    // Get instance field: private System.Int32 _beforeCutScoreWithMultiplier
-    int _get__beforeCutScoreWithMultiplier();
-    // Set instance field: private System.Int32 _beforeCutScoreWithMultiplier
-    void _set__beforeCutScoreWithMultiplier(int value);
-    // Get instance field: private System.Int32 _cutDistanceScoreWithMultiplier
-    int _get__cutDistanceScoreWithMultiplier();
-    // Set instance field: private System.Int32 _cutDistanceScoreWithMultiplier
-    void _set__cutDistanceScoreWithMultiplier(int value);
-    // Get instance field: private System.Int32 _multiplier
-    int _get__multiplier();
-    // Set instance field: private System.Int32 _multiplier
-    void _set__multiplier(int value);
-    // Get instance field: private ISaberSwingRatingCounter _saberSwingRatingCounter
-    GlobalNamespace::ISaberSwingRatingCounter* _get__saberSwingRatingCounter();
-    // Set instance field: private ISaberSwingRatingCounter _saberSwingRatingCounter
-    void _set__saberSwingRatingCounter(GlobalNamespace::ISaberSwingRatingCounter* value);
-    // Get instance field: private System.Single _cutDistanceToCenter
-    float _get__cutDistanceToCenter();
-    // Set instance field: private System.Single _cutDistanceToCenter
-    void _set__cutDistanceToCenter(float value);
-    // Get instance field: private System.Boolean _initialized
-    bool _get__initialized();
-    // Set instance field: private System.Boolean _initialized
-    void _set__initialized(bool value);
-    // Get instance field: private readonly LazyCopyHashSet`1<ICutScoreBufferDidFinishEvent> _didFinishEvent
-    GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ICutScoreBufferDidFinishEvent*>* _get__didFinishEvent();
-    // Set instance field: private readonly LazyCopyHashSet`1<ICutScoreBufferDidFinishEvent> _didFinishEvent
-    void _set__didFinishEvent(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ICutScoreBufferDidFinishEvent*>* value);
+    // Get instance field reference: private System.Int32 _afterCutScoreWithMultiplier
+    int& dyn__afterCutScoreWithMultiplier();
+    // Get instance field reference: private System.Int32 _beforeCutScoreWithMultiplier
+    int& dyn__beforeCutScoreWithMultiplier();
+    // Get instance field reference: private System.Int32 _cutDistanceScoreWithMultiplier
+    int& dyn__cutDistanceScoreWithMultiplier();
+    // Get instance field reference: private System.Int32 _multiplier
+    int& dyn__multiplier();
+    // Get instance field reference: private ISaberSwingRatingCounter _saberSwingRatingCounter
+    GlobalNamespace::ISaberSwingRatingCounter*& dyn__saberSwingRatingCounter();
+    // Get instance field reference: private System.Single _cutDistanceToCenter
+    float& dyn__cutDistanceToCenter();
+    // Get instance field reference: private System.Boolean _initialized
+    bool& dyn__initialized();
+    // Get instance field reference: private readonly LazyCopyHashSet`1<ICutScoreBufferDidFinishEvent> _didFinishEvent
+    GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ICutScoreBufferDidFinishEvent*>*& dyn__didFinishEvent();
     // public System.Int32 get_scoreWithMultiplier()
     // Offset: 0x10F7B30
     int get_scoreWithMultiplier();

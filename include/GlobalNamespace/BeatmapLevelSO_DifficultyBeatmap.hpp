@@ -85,34 +85,20 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IDifficultyBeatmap() noexcept {
       return *reinterpret_cast<GlobalNamespace::IDifficultyBeatmap*>(this);
     }
-    // Get instance field: private BeatmapDifficulty _difficulty
-    GlobalNamespace::BeatmapDifficulty _get__difficulty();
-    // Set instance field: private BeatmapDifficulty _difficulty
-    void _set__difficulty(GlobalNamespace::BeatmapDifficulty value);
-    // Get instance field: private System.Int32 _difficultyRank
-    int _get__difficultyRank();
-    // Set instance field: private System.Int32 _difficultyRank
-    void _set__difficultyRank(int value);
-    // Get instance field: private System.Single _noteJumpMovementSpeed
-    float _get__noteJumpMovementSpeed();
-    // Set instance field: private System.Single _noteJumpMovementSpeed
-    void _set__noteJumpMovementSpeed(float value);
-    // Get instance field: private System.Single _noteJumpStartBeatOffset
-    float _get__noteJumpStartBeatOffset();
-    // Set instance field: private System.Single _noteJumpStartBeatOffset
-    void _set__noteJumpStartBeatOffset(float value);
-    // Get instance field: private BeatmapDataSO _beatmapData
-    GlobalNamespace::BeatmapDataSO* _get__beatmapData();
-    // Set instance field: private BeatmapDataSO _beatmapData
-    void _set__beatmapData(GlobalNamespace::BeatmapDataSO* value);
-    // Get instance field: private IBeatmapLevel _parentLevel
-    GlobalNamespace::IBeatmapLevel* _get__parentLevel();
-    // Set instance field: private IBeatmapLevel _parentLevel
-    void _set__parentLevel(GlobalNamespace::IBeatmapLevel* value);
-    // Get instance field: private IDifficultyBeatmapSet _parentDifficultyBeatmapSet
-    GlobalNamespace::IDifficultyBeatmapSet* _get__parentDifficultyBeatmapSet();
-    // Set instance field: private IDifficultyBeatmapSet _parentDifficultyBeatmapSet
-    void _set__parentDifficultyBeatmapSet(GlobalNamespace::IDifficultyBeatmapSet* value);
+    // Get instance field reference: private BeatmapDifficulty _difficulty
+    GlobalNamespace::BeatmapDifficulty& dyn__difficulty();
+    // Get instance field reference: private System.Int32 _difficultyRank
+    int& dyn__difficultyRank();
+    // Get instance field reference: private System.Single _noteJumpMovementSpeed
+    float& dyn__noteJumpMovementSpeed();
+    // Get instance field reference: private System.Single _noteJumpStartBeatOffset
+    float& dyn__noteJumpStartBeatOffset();
+    // Get instance field reference: private BeatmapDataSO _beatmapData
+    GlobalNamespace::BeatmapDataSO*& dyn__beatmapData();
+    // Get instance field reference: private IBeatmapLevel _parentLevel
+    GlobalNamespace::IBeatmapLevel*& dyn__parentLevel();
+    // Get instance field reference: private IDifficultyBeatmapSet _parentDifficultyBeatmapSet
+    GlobalNamespace::IDifficultyBeatmapSet*& dyn__parentDifficultyBeatmapSet();
     // public BeatmapDifficulty get_difficulty()
     // Offset: 0x10C352C
     GlobalNamespace::BeatmapDifficulty get_difficulty();

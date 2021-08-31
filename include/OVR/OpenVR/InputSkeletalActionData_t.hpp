@@ -43,18 +43,12 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Boolean bActive
-    bool _get_bActive();
-    // Set instance field: public System.Boolean bActive
-    void _set_bActive(bool value);
-    // Get instance field: public System.UInt64 activeOrigin
-    uint64_t _get_activeOrigin();
-    // Set instance field: public System.UInt64 activeOrigin
-    void _set_activeOrigin(uint64_t value);
-    // Get instance field: public System.UInt32 boneCount
-    uint _get_boneCount();
-    // Set instance field: public System.UInt32 boneCount
-    void _set_boneCount(uint value);
+    // Get instance field reference: public System.Boolean bActive
+    bool& dyn_bActive();
+    // Get instance field reference: public System.UInt64 activeOrigin
+    uint64_t& dyn_activeOrigin();
+    // Get instance field reference: public System.UInt32 boneCount
+    uint& dyn_boneCount();
   }; // OVR.OpenVR.InputSkeletalActionData_t
   #pragma pack(pop)
   static check_size<sizeof(InputSkeletalActionData_t), 16 + sizeof(uint)> __OVR_OpenVR_InputSkeletalActionData_tSizeCheck;

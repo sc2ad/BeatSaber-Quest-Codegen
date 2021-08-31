@@ -76,10 +76,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::Billboard::RotationMode _get_ZAxis();
       // Set static field: static public Billboard/RotationMode ZAxis
       static void _set_ZAxis(GlobalNamespace::Billboard::RotationMode value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // Billboard/RotationMode
     #pragma pack(pop)
     static check_size<sizeof(Billboard::RotationMode), 0 + sizeof(int)> __GlobalNamespace_Billboard_RotationModeSizeCheck;
@@ -108,18 +106,12 @@ namespace GlobalNamespace {
     Billboard(GlobalNamespace::Billboard::RotationMode rotationMode_ = {}, bool flipDirection_ = {}, UnityEngine::Transform* transform_ = {}) noexcept : rotationMode{rotationMode_}, flipDirection{flipDirection_}, transform{transform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private Billboard/RotationMode _rotationMode
-    GlobalNamespace::Billboard::RotationMode _get__rotationMode();
-    // Set instance field: private Billboard/RotationMode _rotationMode
-    void _set__rotationMode(GlobalNamespace::Billboard::RotationMode value);
-    // Get instance field: private System.Boolean _flipDirection
-    bool _get__flipDirection();
-    // Set instance field: private System.Boolean _flipDirection
-    void _set__flipDirection(bool value);
-    // Get instance field: private UnityEngine.Transform _transform
-    UnityEngine::Transform* _get__transform();
-    // Set instance field: private UnityEngine.Transform _transform
-    void _set__transform(UnityEngine::Transform* value);
+    // Get instance field reference: private Billboard/RotationMode _rotationMode
+    GlobalNamespace::Billboard::RotationMode& dyn__rotationMode();
+    // Get instance field reference: private System.Boolean _flipDirection
+    bool& dyn__flipDirection();
+    // Get instance field reference: private UnityEngine.Transform _transform
+    UnityEngine::Transform*& dyn__transform();
     // protected System.Void Awake()
     // Offset: 0x1257B40
     void Awake();

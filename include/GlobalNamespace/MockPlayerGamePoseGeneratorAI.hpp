@@ -74,14 +74,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: MockPlayerGamePoseGeneratorAI
     MockPlayerGamePoseGeneratorAI(GlobalNamespace::IMockPlayerScoreCalculator* scoreCalculator_ = {}, int lastKnowScore_ = {}) noexcept : scoreCalculator{scoreCalculator_}, lastKnowScore{lastKnowScore_} {}
-    // Get instance field: private readonly IMockPlayerScoreCalculator _scoreCalculator
-    GlobalNamespace::IMockPlayerScoreCalculator* _get__scoreCalculator();
-    // Set instance field: private readonly IMockPlayerScoreCalculator _scoreCalculator
-    void _set__scoreCalculator(GlobalNamespace::IMockPlayerScoreCalculator* value);
-    // Get instance field: private System.Int32 _lastKnowScore
-    int _get__lastKnowScore();
-    // Set instance field: private System.Int32 _lastKnowScore
-    void _set__lastKnowScore(int value);
+    // Get instance field reference: private readonly IMockPlayerScoreCalculator _scoreCalculator
+    GlobalNamespace::IMockPlayerScoreCalculator*& dyn__scoreCalculator();
+    // Get instance field reference: private System.Int32 _lastKnowScore
+    int& dyn__lastKnowScore();
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, IGameplayRpcManager gameplayRpcManager, IMockPlayerScoreCalculator scoreCalculator, System.Boolean leftHanded)
     // Offset: 0x23E1358
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

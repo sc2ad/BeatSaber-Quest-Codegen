@@ -59,14 +59,10 @@ namespace GlobalNamespace {
     static System::Collections::Generic::List_1<GlobalNamespace::PointLight*>* _get__lights();
     // Set static field: static private System.Collections.Generic.List`1<PointLight> _lights
     static void _set__lights(System::Collections::Generic::List_1<GlobalNamespace::PointLight*>* value);
-    // Get instance field: public UnityEngine.Color color
-    UnityEngine::Color _get_color();
-    // Set instance field: public UnityEngine.Color color
-    void _set_color(UnityEngine::Color value);
-    // Get instance field: public System.Single intensity
-    float _get_intensity();
-    // Set instance field: public System.Single intensity
-    void _set_intensity(float value);
+    // Get instance field reference: public UnityEngine.Color color
+    UnityEngine::Color& dyn_color();
+    // Get instance field reference: public System.Single intensity
+    float& dyn_intensity();
     // static public System.Collections.Generic.List`1<PointLight> get_lights()
     // Offset: 0x1E1E8D0
     static System::Collections::Generic::List_1<GlobalNamespace::PointLight*>* get_lights();

@@ -44,10 +44,8 @@ namespace System::Runtime::Remoting::Messaging {
     static System::Runtime::Remoting::Messaging::ArgInfoType _get_Out();
     // Set static field: static public System.Runtime.Remoting.Messaging.ArgInfoType Out
     static void _set_Out(System::Runtime::Remoting::Messaging::ArgInfoType value);
-    // Get instance field: public System.Byte value__
-    uint8_t _get_value__();
-    // Set instance field: public System.Byte value__
-    void _set_value__(uint8_t value);
+    // Get instance field reference: public System.Byte value__
+    uint8_t& dyn_value__();
   }; // System.Runtime.Remoting.Messaging.ArgInfoType
   #pragma pack(pop)
   static check_size<sizeof(ArgInfoType), 0 + sizeof(uint8_t)> __System_Runtime_Remoting_Messaging_ArgInfoTypeSizeCheck;

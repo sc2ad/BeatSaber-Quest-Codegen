@@ -122,10 +122,8 @@ namespace LeaderboardsDTO {
     static LeaderboardsDTO::GameplayModifiersDto _get_GhostNotes();
     // Set static field: static public LeaderboardsDTO.GameplayModifiersDto GhostNotes
     static void _set_GhostNotes(LeaderboardsDTO::GameplayModifiersDto value);
-    // Get instance field: public System.UInt32 value__
-    uint _get_value__();
-    // Set instance field: public System.UInt32 value__
-    void _set_value__(uint value);
+    // Get instance field reference: public System.UInt32 value__
+    uint& dyn_value__();
   }; // LeaderboardsDTO.GameplayModifiersDto
   #pragma pack(pop)
   static check_size<sizeof(GameplayModifiersDto), 0 + sizeof(uint)> __LeaderboardsDTO_GameplayModifiersDtoSizeCheck;

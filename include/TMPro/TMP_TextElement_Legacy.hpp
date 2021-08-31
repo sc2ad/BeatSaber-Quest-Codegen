@@ -74,42 +74,24 @@ namespace TMPro {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: TMP_TextElement_Legacy
     TMP_TextElement_Legacy(int id_ = {}, float x_ = {}, float y_ = {}, float width_ = {}, float height_ = {}, float xOffset_ = {}, float yOffset_ = {}, float xAdvance_ = {}, float scale_ = {}) noexcept : id{id_}, x{x_}, y{y_}, width{width_}, height{height_}, xOffset{xOffset_}, yOffset{yOffset_}, xAdvance{xAdvance_}, scale{scale_} {}
-    // Get instance field: public System.Int32 id
-    int _get_id();
-    // Set instance field: public System.Int32 id
-    void _set_id(int value);
-    // Get instance field: public System.Single x
-    float _get_x();
-    // Set instance field: public System.Single x
-    void _set_x(float value);
-    // Get instance field: public System.Single y
-    float _get_y();
-    // Set instance field: public System.Single y
-    void _set_y(float value);
-    // Get instance field: public System.Single width
-    float _get_width();
-    // Set instance field: public System.Single width
-    void _set_width(float value);
-    // Get instance field: public System.Single height
-    float _get_height();
-    // Set instance field: public System.Single height
-    void _set_height(float value);
-    // Get instance field: public System.Single xOffset
-    float _get_xOffset();
-    // Set instance field: public System.Single xOffset
-    void _set_xOffset(float value);
-    // Get instance field: public System.Single yOffset
-    float _get_yOffset();
-    // Set instance field: public System.Single yOffset
-    void _set_yOffset(float value);
-    // Get instance field: public System.Single xAdvance
-    float _get_xAdvance();
-    // Set instance field: public System.Single xAdvance
-    void _set_xAdvance(float value);
-    // Get instance field: public System.Single scale
-    float _get_scale();
-    // Set instance field: public System.Single scale
-    void _set_scale(float value);
+    // Get instance field reference: public System.Int32 id
+    int& dyn_id();
+    // Get instance field reference: public System.Single x
+    float& dyn_x();
+    // Get instance field reference: public System.Single y
+    float& dyn_y();
+    // Get instance field reference: public System.Single width
+    float& dyn_width();
+    // Get instance field reference: public System.Single height
+    float& dyn_height();
+    // Get instance field reference: public System.Single xOffset
+    float& dyn_xOffset();
+    // Get instance field reference: public System.Single yOffset
+    float& dyn_yOffset();
+    // Get instance field reference: public System.Single xAdvance
+    float& dyn_xAdvance();
+    // Get instance field reference: public System.Single scale
+    float& dyn_scale();
     // public System.Void .ctor()
     // Offset: 0x144E128
     // Implemented from: System.Object

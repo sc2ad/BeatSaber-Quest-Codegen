@@ -48,14 +48,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_1<Zenject::DiContainer*>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass31_0
     $$c__DisplayClass31_0(GlobalNamespace::GameScenesManager* $$4__this_ = {}, System::Action_1<Zenject::DiContainer*>* finishCallback_ = {}) noexcept : $$4__this{$$4__this_}, finishCallback{finishCallback_} {}
-    // Get instance field: public GameScenesManager <>4__this
-    GlobalNamespace::GameScenesManager* _get_$$4__this();
-    // Set instance field: public GameScenesManager <>4__this
-    void _set_$$4__this(GlobalNamespace::GameScenesManager* value);
-    // Get instance field: public System.Action`1<Zenject.DiContainer> finishCallback
-    System::Action_1<Zenject::DiContainer*>* _get_finishCallback();
-    // Set instance field: public System.Action`1<Zenject.DiContainer> finishCallback
-    void _set_finishCallback(System::Action_1<Zenject::DiContainer*>* value);
+    // Get instance field reference: public GameScenesManager <>4__this
+    GlobalNamespace::GameScenesManager*& dyn_$$4__this();
+    // Get instance field reference: public System.Action`1<Zenject.DiContainer> finishCallback
+    System::Action_1<Zenject::DiContainer*>*& dyn_finishCallback();
     // System.Void <PopScenes>b__0(Zenject.DiContainer container)
     // Offset: 0x1262578
     void $PopScenes$b__0(Zenject::DiContainer* container);

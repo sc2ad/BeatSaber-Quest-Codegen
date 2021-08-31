@@ -43,14 +43,10 @@ namespace GlobalNamespace {
     CrashManagerSO(::Il2CppString* logString_ = {}, ::Il2CppString* stackTrace_ = {}) noexcept : logString{logString_}, stackTrace{stackTrace_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.String _logString
-    ::Il2CppString* _get__logString();
-    // Set instance field: private System.String _logString
-    void _set__logString(::Il2CppString* value);
-    // Get instance field: private System.String _stackTrace
-    ::Il2CppString* _get__stackTrace();
-    // Set instance field: private System.String _stackTrace
-    void _set__stackTrace(::Il2CppString* value);
+    // Get instance field reference: private System.String _logString
+    ::Il2CppString*& dyn__logString();
+    // Get instance field reference: private System.String _stackTrace
+    ::Il2CppString*& dyn__stackTrace();
     // public System.String get_logString()
     // Offset: 0x10F3A40
     ::Il2CppString* get_logString();

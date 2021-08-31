@@ -50,10 +50,8 @@ namespace System::Security::Cryptography::X509Certificates {
     static System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierHashAlgorithm _get_CapiSha1();
     // Set static field: static public System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm CapiSha1
     static void _set_CapiSha1(System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierHashAlgorithm value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm
   #pragma pack(pop)
   static check_size<sizeof(X509SubjectKeyIdentifierHashAlgorithm), 0 + sizeof(int)> __System_Security_Cryptography_X509Certificates_X509SubjectKeyIdentifierHashAlgorithmSizeCheck;

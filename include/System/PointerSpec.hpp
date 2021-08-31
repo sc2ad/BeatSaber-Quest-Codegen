@@ -48,10 +48,8 @@ namespace System {
     constexpr operator int() const noexcept {
       return pointer_level;
     }
-    // Get instance field: private System.Int32 pointer_level
-    int _get_pointer_level();
-    // Set instance field: private System.Int32 pointer_level
-    void _set_pointer_level(int value);
+    // Get instance field reference: private System.Int32 pointer_level
+    int& dyn_pointer_level();
     // System.Void .ctor(System.Int32 pointer_level)
     // Offset: 0x1D11BC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

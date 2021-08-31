@@ -62,10 +62,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::ObstacleExecutionRating::Rating _get_NotGood();
       // Set static field: static public ObstacleExecutionRating/Rating NotGood
       static void _set_NotGood(GlobalNamespace::ObstacleExecutionRating::Rating value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // ObstacleExecutionRating/Rating
     #pragma pack(pop)
     static check_size<sizeof(ObstacleExecutionRating::Rating), 0 + sizeof(int)> __GlobalNamespace_ObstacleExecutionRating_RatingSizeCheck;
@@ -82,10 +80,8 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::ObstacleExecutionRating::Rating() const noexcept {
       return rating;
     }
-    // Get instance field: private ObstacleExecutionRating/Rating <rating>k__BackingField
-    GlobalNamespace::ObstacleExecutionRating::Rating _get_$rating$k__BackingField();
-    // Set instance field: private ObstacleExecutionRating/Rating <rating>k__BackingField
-    void _set_$rating$k__BackingField(GlobalNamespace::ObstacleExecutionRating::Rating value);
+    // Get instance field reference: private ObstacleExecutionRating/Rating <rating>k__BackingField
+    GlobalNamespace::ObstacleExecutionRating::Rating& dyn_$rating$k__BackingField();
     // public ObstacleExecutionRating/Rating get_rating()
     // Offset: 0x1232C8C
     GlobalNamespace::ObstacleExecutionRating::Rating get_rating();

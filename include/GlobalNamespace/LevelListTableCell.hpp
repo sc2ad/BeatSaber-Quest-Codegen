@@ -165,74 +165,40 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: LevelListTableCell
     LevelListTableCell(UnityEngine::UI::Image* backgroundImage_ = {}, UnityEngine::CanvasGroup* canvasGroup_ = {}, UnityEngine::UI::Image* coverImage_ = {}, TMPro::TextMeshProUGUI* songNameText_ = {}, TMPro::TextMeshProUGUI* songAuthorText_ = {}, UnityEngine::UI::Image* favoritesBadgeImage_ = {}, TMPro::TextMeshProUGUI* songDurationText_ = {}, TMPro::TextMeshProUGUI* songBpmText_ = {}, UnityEngine::Color highlightBackgroundColor_ = {}, UnityEngine::Color selectedBackgroundColor_ = {}, UnityEngine::Color selectedAndHighlightedBackgroundColor_ = {}, float notOwnedAlpha_ = {}, System::Threading::CancellationTokenSource* refreshingAvailabilityCancellationTokenSource_ = {}, System::Threading::CancellationTokenSource* settingDataCancellationTokenSource_ = {}, bool notOwned_ = {}, ::Il2CppString* refreshingAvailabilityLevelID_ = {}, ::Il2CppString* settingDataFromLevelId_ = {}) noexcept : backgroundImage{backgroundImage_}, canvasGroup{canvasGroup_}, coverImage{coverImage_}, songNameText{songNameText_}, songAuthorText{songAuthorText_}, favoritesBadgeImage{favoritesBadgeImage_}, songDurationText{songDurationText_}, songBpmText{songBpmText_}, highlightBackgroundColor{highlightBackgroundColor_}, selectedBackgroundColor{selectedBackgroundColor_}, selectedAndHighlightedBackgroundColor{selectedAndHighlightedBackgroundColor_}, notOwnedAlpha{notOwnedAlpha_}, refreshingAvailabilityCancellationTokenSource{refreshingAvailabilityCancellationTokenSource_}, settingDataCancellationTokenSource{settingDataCancellationTokenSource_}, notOwned{notOwned_}, refreshingAvailabilityLevelID{refreshingAvailabilityLevelID_}, settingDataFromLevelId{settingDataFromLevelId_} {}
-    // Get instance field: private UnityEngine.UI.Image _backgroundImage
-    UnityEngine::UI::Image* _get__backgroundImage();
-    // Set instance field: private UnityEngine.UI.Image _backgroundImage
-    void _set__backgroundImage(UnityEngine::UI::Image* value);
-    // Get instance field: private UnityEngine.CanvasGroup _canvasGroup
-    UnityEngine::CanvasGroup* _get__canvasGroup();
-    // Set instance field: private UnityEngine.CanvasGroup _canvasGroup
-    void _set__canvasGroup(UnityEngine::CanvasGroup* value);
-    // Get instance field: private UnityEngine.UI.Image _coverImage
-    UnityEngine::UI::Image* _get__coverImage();
-    // Set instance field: private UnityEngine.UI.Image _coverImage
-    void _set__coverImage(UnityEngine::UI::Image* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _songNameText
-    TMPro::TextMeshProUGUI* _get__songNameText();
-    // Set instance field: private TMPro.TextMeshProUGUI _songNameText
-    void _set__songNameText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _songAuthorText
-    TMPro::TextMeshProUGUI* _get__songAuthorText();
-    // Set instance field: private TMPro.TextMeshProUGUI _songAuthorText
-    void _set__songAuthorText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private UnityEngine.UI.Image _favoritesBadgeImage
-    UnityEngine::UI::Image* _get__favoritesBadgeImage();
-    // Set instance field: private UnityEngine.UI.Image _favoritesBadgeImage
-    void _set__favoritesBadgeImage(UnityEngine::UI::Image* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _songDurationText
-    TMPro::TextMeshProUGUI* _get__songDurationText();
-    // Set instance field: private TMPro.TextMeshProUGUI _songDurationText
-    void _set__songDurationText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _songBpmText
-    TMPro::TextMeshProUGUI* _get__songBpmText();
-    // Set instance field: private TMPro.TextMeshProUGUI _songBpmText
-    void _set__songBpmText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private UnityEngine.Color _highlightBackgroundColor
-    UnityEngine::Color _get__highlightBackgroundColor();
-    // Set instance field: private UnityEngine.Color _highlightBackgroundColor
-    void _set__highlightBackgroundColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _selectedBackgroundColor
-    UnityEngine::Color _get__selectedBackgroundColor();
-    // Set instance field: private UnityEngine.Color _selectedBackgroundColor
-    void _set__selectedBackgroundColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _selectedAndHighlightedBackgroundColor
-    UnityEngine::Color _get__selectedAndHighlightedBackgroundColor();
-    // Set instance field: private UnityEngine.Color _selectedAndHighlightedBackgroundColor
-    void _set__selectedAndHighlightedBackgroundColor(UnityEngine::Color value);
-    // Get instance field: private System.Single _notOwnedAlpha
-    float _get__notOwnedAlpha();
-    // Set instance field: private System.Single _notOwnedAlpha
-    void _set__notOwnedAlpha(float value);
-    // Get instance field: private System.Threading.CancellationTokenSource _refreshingAvailabilityCancellationTokenSource
-    System::Threading::CancellationTokenSource* _get__refreshingAvailabilityCancellationTokenSource();
-    // Set instance field: private System.Threading.CancellationTokenSource _refreshingAvailabilityCancellationTokenSource
-    void _set__refreshingAvailabilityCancellationTokenSource(System::Threading::CancellationTokenSource* value);
-    // Get instance field: private System.Threading.CancellationTokenSource _settingDataCancellationTokenSource
-    System::Threading::CancellationTokenSource* _get__settingDataCancellationTokenSource();
-    // Set instance field: private System.Threading.CancellationTokenSource _settingDataCancellationTokenSource
-    void _set__settingDataCancellationTokenSource(System::Threading::CancellationTokenSource* value);
-    // Get instance field: private System.Boolean _notOwned
-    bool _get__notOwned();
-    // Set instance field: private System.Boolean _notOwned
-    void _set__notOwned(bool value);
-    // Get instance field: private System.String _refreshingAvailabilityLevelID
-    ::Il2CppString* _get__refreshingAvailabilityLevelID();
-    // Set instance field: private System.String _refreshingAvailabilityLevelID
-    void _set__refreshingAvailabilityLevelID(::Il2CppString* value);
-    // Get instance field: private System.String _settingDataFromLevelId
-    ::Il2CppString* _get__settingDataFromLevelId();
-    // Set instance field: private System.String _settingDataFromLevelId
-    void _set__settingDataFromLevelId(::Il2CppString* value);
+    // Get instance field reference: private UnityEngine.UI.Image _backgroundImage
+    UnityEngine::UI::Image*& dyn__backgroundImage();
+    // Get instance field reference: private UnityEngine.CanvasGroup _canvasGroup
+    UnityEngine::CanvasGroup*& dyn__canvasGroup();
+    // Get instance field reference: private UnityEngine.UI.Image _coverImage
+    UnityEngine::UI::Image*& dyn__coverImage();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _songNameText
+    TMPro::TextMeshProUGUI*& dyn__songNameText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _songAuthorText
+    TMPro::TextMeshProUGUI*& dyn__songAuthorText();
+    // Get instance field reference: private UnityEngine.UI.Image _favoritesBadgeImage
+    UnityEngine::UI::Image*& dyn__favoritesBadgeImage();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _songDurationText
+    TMPro::TextMeshProUGUI*& dyn__songDurationText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _songBpmText
+    TMPro::TextMeshProUGUI*& dyn__songBpmText();
+    // Get instance field reference: private UnityEngine.Color _highlightBackgroundColor
+    UnityEngine::Color& dyn__highlightBackgroundColor();
+    // Get instance field reference: private UnityEngine.Color _selectedBackgroundColor
+    UnityEngine::Color& dyn__selectedBackgroundColor();
+    // Get instance field reference: private UnityEngine.Color _selectedAndHighlightedBackgroundColor
+    UnityEngine::Color& dyn__selectedAndHighlightedBackgroundColor();
+    // Get instance field reference: private System.Single _notOwnedAlpha
+    float& dyn__notOwnedAlpha();
+    // Get instance field reference: private System.Threading.CancellationTokenSource _refreshingAvailabilityCancellationTokenSource
+    System::Threading::CancellationTokenSource*& dyn__refreshingAvailabilityCancellationTokenSource();
+    // Get instance field reference: private System.Threading.CancellationTokenSource _settingDataCancellationTokenSource
+    System::Threading::CancellationTokenSource*& dyn__settingDataCancellationTokenSource();
+    // Get instance field reference: private System.Boolean _notOwned
+    bool& dyn__notOwned();
+    // Get instance field reference: private System.String _refreshingAvailabilityLevelID
+    ::Il2CppString*& dyn__refreshingAvailabilityLevelID();
+    // Get instance field reference: private System.String _settingDataFromLevelId
+    ::Il2CppString*& dyn__settingDataFromLevelId();
     // public System.Void SetDataFromLevelAsync(IPreviewBeatmapLevel level, System.Boolean isFavorite)
     // Offset: 0x114D964
     void SetDataFromLevelAsync(GlobalNamespace::IPreviewBeatmapLevel* level, bool isFavorite);

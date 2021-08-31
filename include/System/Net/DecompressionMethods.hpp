@@ -51,10 +51,8 @@ namespace System::Net {
     static System::Net::DecompressionMethods _get_Deflate();
     // Set static field: static public System.Net.DecompressionMethods Deflate
     static void _set_Deflate(System::Net::DecompressionMethods value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Net.DecompressionMethods
   #pragma pack(pop)
   static check_size<sizeof(DecompressionMethods), 0 + sizeof(int)> __System_Net_DecompressionMethodsSizeCheck;

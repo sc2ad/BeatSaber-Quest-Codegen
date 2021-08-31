@@ -55,10 +55,8 @@ namespace MasterServer {
     constexpr operator GlobalNamespace::ByteArrayNetSerializable*() const noexcept {
       return cookie;
     }
-    // Get instance field: public readonly ByteArrayNetSerializable cookie
-    GlobalNamespace::ByteArrayNetSerializable* _get_cookie();
-    // Set instance field: public readonly ByteArrayNetSerializable cookie
-    void _set_cookie(GlobalNamespace::ByteArrayNetSerializable* value);
+    // Get instance field reference: public readonly ByteArrayNetSerializable cookie
+    GlobalNamespace::ByteArrayNetSerializable*& dyn_cookie();
     // static public PacketPool`1<MasterServer.HelloVerifyRequest> get_pool()
     // Offset: 0x1217E44
     static GlobalNamespace::PacketPool_1<MasterServer::HelloVerifyRequest*>* get_pool();

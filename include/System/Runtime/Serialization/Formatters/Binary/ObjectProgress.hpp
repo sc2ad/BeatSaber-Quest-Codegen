@@ -164,82 +164,44 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static int _get_opRecordIdCount();
     // Set static field: static System.Int32 opRecordIdCount
     static void _set_opRecordIdCount(int value);
-    // Get instance field: System.Boolean isInitial
-    bool _get_isInitial();
-    // Set instance field: System.Boolean isInitial
-    void _set_isInitial(bool value);
-    // Get instance field: System.Int32 count
-    int _get_count();
-    // Set instance field: System.Int32 count
-    void _set_count(int value);
-    // Get instance field: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum expectedType
-    System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum _get_expectedType();
-    // Set instance field: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum expectedType
-    void _set_expectedType(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum value);
-    // Get instance field: System.Object expectedTypeInformation
-    ::Il2CppObject* _get_expectedTypeInformation();
-    // Set instance field: System.Object expectedTypeInformation
-    void _set_expectedTypeInformation(::Il2CppObject* value);
-    // Get instance field: System.String name
-    ::Il2CppString* _get_name();
-    // Set instance field: System.String name
-    void _set_name(::Il2CppString* value);
-    // Get instance field: System.Runtime.Serialization.Formatters.Binary.InternalObjectTypeE objectTypeEnum
-    System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE _get_objectTypeEnum();
-    // Set instance field: System.Runtime.Serialization.Formatters.Binary.InternalObjectTypeE objectTypeEnum
-    void _set_objectTypeEnum(System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE value);
-    // Get instance field: System.Runtime.Serialization.Formatters.Binary.InternalMemberTypeE memberTypeEnum
-    System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE _get_memberTypeEnum();
-    // Set instance field: System.Runtime.Serialization.Formatters.Binary.InternalMemberTypeE memberTypeEnum
-    void _set_memberTypeEnum(System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE value);
-    // Get instance field: System.Runtime.Serialization.Formatters.Binary.InternalMemberValueE memberValueEnum
-    System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE _get_memberValueEnum();
-    // Set instance field: System.Runtime.Serialization.Formatters.Binary.InternalMemberValueE memberValueEnum
-    void _set_memberValueEnum(System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE value);
-    // Get instance field: System.Type dtType
-    System::Type* _get_dtType();
-    // Set instance field: System.Type dtType
-    void _set_dtType(System::Type* value);
-    // Get instance field: System.Int32 numItems
-    int _get_numItems();
-    // Set instance field: System.Int32 numItems
-    void _set_numItems(int value);
-    // Get instance field: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum binaryTypeEnum
-    System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum _get_binaryTypeEnum();
-    // Set instance field: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum binaryTypeEnum
-    void _set_binaryTypeEnum(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum value);
-    // Get instance field: System.Object typeInformation
-    ::Il2CppObject* _get_typeInformation();
-    // Set instance field: System.Object typeInformation
-    void _set_typeInformation(::Il2CppObject* value);
-    // Get instance field: System.Int32 nullCount
-    int _get_nullCount();
-    // Set instance field: System.Int32 nullCount
-    void _set_nullCount(int value);
-    // Get instance field: System.Int32 memberLength
-    int _get_memberLength();
-    // Set instance field: System.Int32 memberLength
-    void _set_memberLength(int value);
-    // Get instance field: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum[] binaryTypeEnumA
-    ::Array<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>* _get_binaryTypeEnumA();
-    // Set instance field: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum[] binaryTypeEnumA
-    void _set_binaryTypeEnumA(::Array<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>* value);
-    // Get instance field: System.Object[] typeInformationA
-    ::Array<::Il2CppObject*>* _get_typeInformationA();
-    // Set instance field: System.Object[] typeInformationA
-    void _set_typeInformationA(::Array<::Il2CppObject*>* value);
-    // Get instance field: System.String[] memberNames
-    ::Array<::Il2CppString*>* _get_memberNames();
-    // Set instance field: System.String[] memberNames
-    void _set_memberNames(::Array<::Il2CppString*>* value);
-    // Get instance field: System.Type[] memberTypes
-    ::Array<System::Type*>* _get_memberTypes();
-    // Set instance field: System.Type[] memberTypes
-    void _set_memberTypes(::Array<System::Type*>* value);
-    // Get instance field: System.Runtime.Serialization.Formatters.Binary.ParseRecord pr
-    System::Runtime::Serialization::Formatters::Binary::ParseRecord* _get_pr();
-    // Set instance field: System.Runtime.Serialization.Formatters.Binary.ParseRecord pr
-    void _set_pr(System::Runtime::Serialization::Formatters::Binary::ParseRecord* value);
+    // Get instance field reference: System.Boolean isInitial
+    bool& dyn_isInitial();
+    // Get instance field reference: System.Int32 count
+    int& dyn_count();
+    // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum expectedType
+    System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum& dyn_expectedType();
+    // Get instance field reference: System.Object expectedTypeInformation
+    ::Il2CppObject*& dyn_expectedTypeInformation();
+    // Get instance field reference: System.String name
+    ::Il2CppString*& dyn_name();
+    // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalObjectTypeE objectTypeEnum
+    System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE& dyn_objectTypeEnum();
+    // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalMemberTypeE memberTypeEnum
+    System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE& dyn_memberTypeEnum();
+    // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalMemberValueE memberValueEnum
+    System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE& dyn_memberValueEnum();
+    // Get instance field reference: System.Type dtType
+    System::Type*& dyn_dtType();
+    // Get instance field reference: System.Int32 numItems
+    int& dyn_numItems();
+    // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum binaryTypeEnum
+    System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum& dyn_binaryTypeEnum();
+    // Get instance field reference: System.Object typeInformation
+    ::Il2CppObject*& dyn_typeInformation();
+    // Get instance field reference: System.Int32 nullCount
+    int& dyn_nullCount();
+    // Get instance field reference: System.Int32 memberLength
+    int& dyn_memberLength();
+    // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum[] binaryTypeEnumA
+    ::Array<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>*& dyn_binaryTypeEnumA();
+    // Get instance field reference: System.Object[] typeInformationA
+    ::Array<::Il2CppObject*>*& dyn_typeInformationA();
+    // Get instance field reference: System.String[] memberNames
+    ::Array<::Il2CppString*>*& dyn_memberNames();
+    // Get instance field reference: System.Type[] memberTypes
+    ::Array<System::Type*>*& dyn_memberTypes();
+    // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.ParseRecord pr
+    System::Runtime::Serialization::Formatters::Binary::ParseRecord*& dyn_pr();
     // static private System.Void .cctor()
     // Offset: 0x1619A0C
     static void _cctor();

@@ -100,10 +100,8 @@ namespace System::Reflection {
     static System::Reflection::ParameterAttributes _get_Reserved4();
     // Set static field: static public System.Reflection.ParameterAttributes Reserved4
     static void _set_Reserved4(System::Reflection::ParameterAttributes value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Reflection.ParameterAttributes
   #pragma pack(pop)
   static check_size<sizeof(ParameterAttributes), 0 + sizeof(int)> __System_Reflection_ParameterAttributesSizeCheck;

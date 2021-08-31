@@ -122,10 +122,8 @@ namespace System::Security::Cryptography::X509Certificates {
     static System::Security::Cryptography::X509Certificates::X509FindType _get_FindBySubjectKeyIdentifier();
     // Set static field: static public System.Security.Cryptography.X509Certificates.X509FindType FindBySubjectKeyIdentifier
     static void _set_FindBySubjectKeyIdentifier(System::Security::Cryptography::X509Certificates::X509FindType value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Security.Cryptography.X509Certificates.X509FindType
   #pragma pack(pop)
   static check_size<sizeof(X509FindType), 0 + sizeof(int)> __System_Security_Cryptography_X509Certificates_X509FindTypeSizeCheck;

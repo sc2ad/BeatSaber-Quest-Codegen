@@ -314,150 +314,78 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Int32 _feverModeRequiredCombo
-    int _get__feverModeRequiredCombo();
-    // Set instance field: private System.Int32 _feverModeRequiredCombo
-    void _set__feverModeRequiredCombo(int value);
-    // Get instance field: private System.Single _feverModeDuration
-    float _get__feverModeDuration();
-    // Set instance field: private System.Single _feverModeDuration
-    void _set__feverModeDuration(float value);
-    // Get instance field: private GameplayModifiersModelSO _gameplayModifiersModel
-    GlobalNamespace::GameplayModifiersModelSO* _get__gameplayModifiersModel();
-    // Set instance field: private GameplayModifiersModelSO _gameplayModifiersModel
-    void _set__gameplayModifiersModel(GlobalNamespace::GameplayModifiersModelSO* value);
-    // Get instance field: private readonly GameplayModifiers _gameplayModifiers
-    GlobalNamespace::GameplayModifiers* _get__gameplayModifiers();
-    // Set instance field: private readonly GameplayModifiers _gameplayModifiers
-    void _set__gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
-    // Get instance field: private readonly BeatmapObjectManager _beatmapObjectManager
-    GlobalNamespace::BeatmapObjectManager* _get__beatmapObjectManager();
-    // Set instance field: private readonly BeatmapObjectManager _beatmapObjectManager
-    void _set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager* value);
-    // Get instance field: private readonly PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
-    GlobalNamespace::PlayerHeadAndObstacleInteraction* _get__playerHeadAndObstacleInteraction();
-    // Set instance field: private readonly PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
-    void _set__playerHeadAndObstacleInteraction(GlobalNamespace::PlayerHeadAndObstacleInteraction* value);
-    // Get instance field: private readonly AudioTimeSyncController _audioTimeSyncController
-    GlobalNamespace::AudioTimeSyncController* _get__audioTimeSyncController();
-    // Set instance field: private readonly AudioTimeSyncController _audioTimeSyncController
-    void _set__audioTimeSyncController(GlobalNamespace::AudioTimeSyncController* value);
-    // Get instance field: private readonly IGameEnergyCounter _gameEnergyCounter
-    GlobalNamespace::IGameEnergyCounter* _get__gameEnergyCounter();
-    // Set instance field: private readonly IGameEnergyCounter _gameEnergyCounter
-    void _set__gameEnergyCounter(GlobalNamespace::IGameEnergyCounter* value);
-    // Get instance field: private readonly CutScoreBuffer/Pool _cutScoreBufferPool
-    GlobalNamespace::CutScoreBuffer::Pool* _get__cutScoreBufferPool();
-    // Set instance field: private readonly CutScoreBuffer/Pool _cutScoreBufferPool
-    void _set__cutScoreBufferPool(GlobalNamespace::CutScoreBuffer::Pool* value);
-    // Get instance field: private NoteWasCutDelegate noteWasCutEvent
-    GlobalNamespace::NoteWasCutDelegate* _get_noteWasCutEvent();
-    // Set instance field: private NoteWasCutDelegate noteWasCutEvent
-    void _set_noteWasCutEvent(GlobalNamespace::NoteWasCutDelegate* value);
-    // Get instance field: private System.Action`2<NoteData,System.Int32> noteWasMissedEvent
-    System::Action_2<GlobalNamespace::NoteData*, int>* _get_noteWasMissedEvent();
-    // Set instance field: private System.Action`2<NoteData,System.Int32> noteWasMissedEvent
-    void _set_noteWasMissedEvent(System::Action_2<GlobalNamespace::NoteData*, int>* value);
-    // Get instance field: private System.Action`2<System.Int32,System.Int32> scoreDidChangeEvent
-    System::Action_2<int, int>* _get_scoreDidChangeEvent();
-    // Set instance field: private System.Action`2<System.Int32,System.Int32> scoreDidChangeEvent
-    void _set_scoreDidChangeEvent(System::Action_2<int, int>* value);
-    // Get instance field: private System.Action`2<System.Int32,System.Int32> immediateMaxPossibleScoreDidChangeEvent
-    System::Action_2<int, int>* _get_immediateMaxPossibleScoreDidChangeEvent();
-    // Set instance field: private System.Action`2<System.Int32,System.Int32> immediateMaxPossibleScoreDidChangeEvent
-    void _set_immediateMaxPossibleScoreDidChangeEvent(System::Action_2<int, int>* value);
-    // Get instance field: private System.Action`2<System.Int32,System.Single> multiplierDidChangeEvent
-    System::Action_2<int, float>* _get_multiplierDidChangeEvent();
-    // Set instance field: private System.Action`2<System.Int32,System.Single> multiplierDidChangeEvent
-    void _set_multiplierDidChangeEvent(System::Action_2<int, float>* value);
-    // Get instance field: private System.Action`1<System.Int32> comboDidChangeEvent
-    System::Action_1<int>* _get_comboDidChangeEvent();
-    // Set instance field: private System.Action`1<System.Int32> comboDidChangeEvent
-    void _set_comboDidChangeEvent(System::Action_1<int>* value);
-    // Get instance field: private System.Action`1<System.Single> feverModeChargeProgressDidChangeEvent
-    System::Action_1<float>* _get_feverModeChargeProgressDidChangeEvent();
-    // Set instance field: private System.Action`1<System.Single> feverModeChargeProgressDidChangeEvent
-    void _set_feverModeChargeProgressDidChangeEvent(System::Action_1<float>* value);
-    // Get instance field: private System.Action feverDidStartEvent
-    System::Action* _get_feverDidStartEvent();
-    // Set instance field: private System.Action feverDidStartEvent
-    void _set_feverDidStartEvent(System::Action* value);
-    // Get instance field: private System.Action feverDidFinishEvent
-    System::Action* _get_feverDidFinishEvent();
-    // Set instance field: private System.Action feverDidFinishEvent
-    void _set_feverDidFinishEvent(System::Action* value);
-    // Get instance field: private System.Action comboBreakingEventHappenedEvent
-    System::Action* _get_comboBreakingEventHappenedEvent();
-    // Set instance field: private System.Action comboBreakingEventHappenedEvent
-    void _set_comboBreakingEventHappenedEvent(System::Action* value);
-    // Get instance field: private System.Int32 _baseRawScore
-    int _get__baseRawScore();
-    // Set instance field: private System.Int32 _baseRawScore
-    void _set__baseRawScore(int value);
-    // Get instance field: private System.Int32 _prevFrameRawScore
-    int _get__prevFrameRawScore();
-    // Set instance field: private System.Int32 _prevFrameRawScore
-    void _set__prevFrameRawScore(int value);
-    // Get instance field: private System.Int32 _multiplier
-    int _get__multiplier();
-    // Set instance field: private System.Int32 _multiplier
-    void _set__multiplier(int value);
-    // Get instance field: private System.Int32 _multiplierIncreaseProgress
-    int _get__multiplierIncreaseProgress();
-    // Set instance field: private System.Int32 _multiplierIncreaseProgress
-    void _set__multiplierIncreaseProgress(int value);
-    // Get instance field: private System.Int32 _multiplierIncreaseMaxProgress
-    int _get__multiplierIncreaseMaxProgress();
-    // Set instance field: private System.Int32 _multiplierIncreaseMaxProgress
-    void _set__multiplierIncreaseMaxProgress(int value);
-    // Get instance field: private System.Int32 _combo
-    int _get__combo();
-    // Set instance field: private System.Int32 _combo
-    void _set__combo(int value);
-    // Get instance field: private System.Int32 _maxCombo
-    int _get__maxCombo();
-    // Set instance field: private System.Int32 _maxCombo
-    void _set__maxCombo(int value);
-    // Get instance field: private System.Boolean _feverIsActive
-    bool _get__feverIsActive();
-    // Set instance field: private System.Boolean _feverIsActive
-    void _set__feverIsActive(bool value);
-    // Get instance field: private System.Single _feverStartTime
-    float _get__feverStartTime();
-    // Set instance field: private System.Single _feverStartTime
-    void _set__feverStartTime(float value);
-    // Get instance field: private System.Int32 _feverCombo
-    int _get__feverCombo();
-    // Set instance field: private System.Int32 _feverCombo
-    void _set__feverCombo(int value);
-    // Get instance field: private System.Boolean _playerHeadWasInObstacle
-    bool _get__playerHeadWasInObstacle();
-    // Set instance field: private System.Boolean _playerHeadWasInObstacle
-    void _set__playerHeadWasInObstacle(bool value);
-    // Get instance field: private System.Int32 _immediateMaxPossibleRawScore
-    int _get__immediateMaxPossibleRawScore();
-    // Set instance field: private System.Int32 _immediateMaxPossibleRawScore
-    void _set__immediateMaxPossibleRawScore(int value);
-    // Get instance field: private System.Int32 _cutOrMissedNotes
-    int _get__cutOrMissedNotes();
-    // Set instance field: private System.Int32 _cutOrMissedNotes
-    void _set__cutOrMissedNotes(int value);
-    // Get instance field: private System.Single _gameplayModifiersScoreMultiplier
-    float _get__gameplayModifiersScoreMultiplier();
-    // Set instance field: private System.Single _gameplayModifiersScoreMultiplier
-    void _set__gameplayModifiersScoreMultiplier(float value);
-    // Get instance field: private System.Single _prevFrameGameplayModifiersScoreMultiplier
-    float _get__prevFrameGameplayModifiersScoreMultiplier();
-    // Set instance field: private System.Single _prevFrameGameplayModifiersScoreMultiplier
-    void _set__prevFrameGameplayModifiersScoreMultiplier(float value);
-    // Get instance field: private System.Collections.Generic.List`1<GameplayModifierParamsSO> _gameplayModifierParams
-    System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* _get__gameplayModifierParams();
-    // Set instance field: private System.Collections.Generic.List`1<GameplayModifierParamsSO> _gameplayModifierParams
-    void _set__gameplayModifierParams(System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* value);
-    // Get instance field: private MemoryPoolContainer`1<CutScoreBuffer> _cutScoreBufferMemoryPoolContainer
-    GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::CutScoreBuffer*>* _get__cutScoreBufferMemoryPoolContainer();
-    // Set instance field: private MemoryPoolContainer`1<CutScoreBuffer> _cutScoreBufferMemoryPoolContainer
-    void _set__cutScoreBufferMemoryPoolContainer(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::CutScoreBuffer*>* value);
+    // Get instance field reference: private System.Int32 _feverModeRequiredCombo
+    int& dyn__feverModeRequiredCombo();
+    // Get instance field reference: private System.Single _feverModeDuration
+    float& dyn__feverModeDuration();
+    // Get instance field reference: private GameplayModifiersModelSO _gameplayModifiersModel
+    GlobalNamespace::GameplayModifiersModelSO*& dyn__gameplayModifiersModel();
+    // Get instance field reference: private readonly GameplayModifiers _gameplayModifiers
+    GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
+    // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
+    GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
+    // Get instance field reference: private readonly PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
+    GlobalNamespace::PlayerHeadAndObstacleInteraction*& dyn__playerHeadAndObstacleInteraction();
+    // Get instance field reference: private readonly AudioTimeSyncController _audioTimeSyncController
+    GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
+    // Get instance field reference: private readonly IGameEnergyCounter _gameEnergyCounter
+    GlobalNamespace::IGameEnergyCounter*& dyn__gameEnergyCounter();
+    // Get instance field reference: private readonly CutScoreBuffer/Pool _cutScoreBufferPool
+    GlobalNamespace::CutScoreBuffer::Pool*& dyn__cutScoreBufferPool();
+    // Get instance field reference: private NoteWasCutDelegate noteWasCutEvent
+    GlobalNamespace::NoteWasCutDelegate*& dyn_noteWasCutEvent();
+    // Get instance field reference: private System.Action`2<NoteData,System.Int32> noteWasMissedEvent
+    System::Action_2<GlobalNamespace::NoteData*, int>*& dyn_noteWasMissedEvent();
+    // Get instance field reference: private System.Action`2<System.Int32,System.Int32> scoreDidChangeEvent
+    System::Action_2<int, int>*& dyn_scoreDidChangeEvent();
+    // Get instance field reference: private System.Action`2<System.Int32,System.Int32> immediateMaxPossibleScoreDidChangeEvent
+    System::Action_2<int, int>*& dyn_immediateMaxPossibleScoreDidChangeEvent();
+    // Get instance field reference: private System.Action`2<System.Int32,System.Single> multiplierDidChangeEvent
+    System::Action_2<int, float>*& dyn_multiplierDidChangeEvent();
+    // Get instance field reference: private System.Action`1<System.Int32> comboDidChangeEvent
+    System::Action_1<int>*& dyn_comboDidChangeEvent();
+    // Get instance field reference: private System.Action`1<System.Single> feverModeChargeProgressDidChangeEvent
+    System::Action_1<float>*& dyn_feverModeChargeProgressDidChangeEvent();
+    // Get instance field reference: private System.Action feverDidStartEvent
+    System::Action*& dyn_feverDidStartEvent();
+    // Get instance field reference: private System.Action feverDidFinishEvent
+    System::Action*& dyn_feverDidFinishEvent();
+    // Get instance field reference: private System.Action comboBreakingEventHappenedEvent
+    System::Action*& dyn_comboBreakingEventHappenedEvent();
+    // Get instance field reference: private System.Int32 _baseRawScore
+    int& dyn__baseRawScore();
+    // Get instance field reference: private System.Int32 _prevFrameRawScore
+    int& dyn__prevFrameRawScore();
+    // Get instance field reference: private System.Int32 _multiplier
+    int& dyn__multiplier();
+    // Get instance field reference: private System.Int32 _multiplierIncreaseProgress
+    int& dyn__multiplierIncreaseProgress();
+    // Get instance field reference: private System.Int32 _multiplierIncreaseMaxProgress
+    int& dyn__multiplierIncreaseMaxProgress();
+    // Get instance field reference: private System.Int32 _combo
+    int& dyn__combo();
+    // Get instance field reference: private System.Int32 _maxCombo
+    int& dyn__maxCombo();
+    // Get instance field reference: private System.Boolean _feverIsActive
+    bool& dyn__feverIsActive();
+    // Get instance field reference: private System.Single _feverStartTime
+    float& dyn__feverStartTime();
+    // Get instance field reference: private System.Int32 _feverCombo
+    int& dyn__feverCombo();
+    // Get instance field reference: private System.Boolean _playerHeadWasInObstacle
+    bool& dyn__playerHeadWasInObstacle();
+    // Get instance field reference: private System.Int32 _immediateMaxPossibleRawScore
+    int& dyn__immediateMaxPossibleRawScore();
+    // Get instance field reference: private System.Int32 _cutOrMissedNotes
+    int& dyn__cutOrMissedNotes();
+    // Get instance field reference: private System.Single _gameplayModifiersScoreMultiplier
+    float& dyn__gameplayModifiersScoreMultiplier();
+    // Get instance field reference: private System.Single _prevFrameGameplayModifiersScoreMultiplier
+    float& dyn__prevFrameGameplayModifiersScoreMultiplier();
+    // Get instance field reference: private System.Collections.Generic.List`1<GameplayModifierParamsSO> _gameplayModifierParams
+    System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*& dyn__gameplayModifierParams();
+    // Get instance field reference: private MemoryPoolContainer`1<CutScoreBuffer> _cutScoreBufferMemoryPoolContainer
+    GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::CutScoreBuffer*>*& dyn__cutScoreBufferMemoryPoolContainer();
     // public System.Int32 get_prevFrameRawScore()
     // Offset: 0x119A334
     int get_prevFrameRawScore();

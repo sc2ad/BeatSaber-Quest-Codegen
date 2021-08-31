@@ -232,90 +232,48 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kRetryTextKey();
     // Set static field: static private System.String kRetryTextKey
     static void _set_kRetryTextKey(::Il2CppString* value);
-    // Get instance field: private UnityEngine.UI.Button _startGameReadyButton
-    UnityEngine::UI::Button* _get__startGameReadyButton();
-    // Set instance field: private UnityEngine.UI.Button _startGameReadyButton
-    void _set__startGameReadyButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _cancelGameUnreadyButton
-    UnityEngine::UI::Button* _get__cancelGameUnreadyButton();
-    // Set instance field: private UnityEngine.UI.Button _cancelGameUnreadyButton
-    void _set__cancelGameUnreadyButton(UnityEngine::UI::Button* value);
-    // Get instance field: private Polyglot.LocalizedTextMeshProUGUI _startReadyText
-    Polyglot::LocalizedTextMeshProUGUI* _get__startReadyText();
-    // Set instance field: private Polyglot.LocalizedTextMeshProUGUI _startReadyText
-    void _set__startReadyText(Polyglot::LocalizedTextMeshProUGUI* value);
-    // Get instance field: private Polyglot.LocalizedTextMeshProUGUI _cancelUnreadyText
-    Polyglot::LocalizedTextMeshProUGUI* _get__cancelUnreadyText();
-    // Set instance field: private Polyglot.LocalizedTextMeshProUGUI _cancelUnreadyText
-    void _set__cancelUnreadyText(Polyglot::LocalizedTextMeshProUGUI* value);
-    // Get instance field: private GameServersFilterText _serverSettings
-    GlobalNamespace::GameServersFilterText* _get__serverSettings();
-    // Set instance field: private GameServersFilterText _serverSettings
-    void _set__serverSettings(GlobalNamespace::GameServersFilterText* value);
-    // Get instance field: private UnityEngine.GameObject _suggestionHeader
-    UnityEngine::GameObject* _get__suggestionHeader();
-    // Set instance field: private UnityEngine.GameObject _suggestionHeader
-    void _set__suggestionHeader(UnityEngine::GameObject* value);
-    // Get instance field: private EditableBeatmapSelectionView _beatmapSelectionView
-    GlobalNamespace::EditableBeatmapSelectionView* _get__beatmapSelectionView();
-    // Set instance field: private EditableBeatmapSelectionView _beatmapSelectionView
-    void _set__beatmapSelectionView(GlobalNamespace::EditableBeatmapSelectionView* value);
-    // Get instance field: private EditableModifiersSelectionView _modifiersSelectionView
-    GlobalNamespace::EditableModifiersSelectionView* _get__modifiersSelectionView();
-    // Set instance field: private EditableModifiersSelectionView _modifiersSelectionView
-    void _set__modifiersSelectionView(GlobalNamespace::EditableModifiersSelectionView* value);
-    // Get instance field: private HMUI.HoverHint _cantStartGameHoverHint
-    HMUI::HoverHint* _get__cantStartGameHoverHint();
-    // Set instance field: private HMUI.HoverHint _cantStartGameHoverHint
-    void _set__cantStartGameHoverHint(HMUI::HoverHint* value);
-    // Get instance field: private UnityEngine.GameObject _playerMissingLevelHoverHintWrapper
-    UnityEngine::GameObject* _get__playerMissingLevelHoverHintWrapper();
-    // Set instance field: private UnityEngine.GameObject _playerMissingLevelHoverHintWrapper
-    void _set__playerMissingLevelHoverHintWrapper(UnityEngine::GameObject* value);
-    // Get instance field: private HMUI.HoverHint _playersMissingLevelHoverHint
-    HMUI::HoverHint* _get__playersMissingLevelHoverHint();
-    // Set instance field: private HMUI.HoverHint _playersMissingLevelHoverHint
-    void _set__playersMissingLevelHoverHint(HMUI::HoverHint* value);
-    // Get instance field: private UnityEngine.GameObject _spectatorWarningTextWrapper
-    UnityEngine::GameObject* _get__spectatorWarningTextWrapper();
-    // Set instance field: private UnityEngine.GameObject _spectatorWarningTextWrapper
-    void _set__spectatorWarningTextWrapper(UnityEngine::GameObject* value);
-    // Get instance field: private readonly HMUI.ToggleBinder _toggleBinder
-    HMUI::ToggleBinder* _get__toggleBinder();
-    // Set instance field: private readonly HMUI.ToggleBinder _toggleBinder
-    void _set__toggleBinder(HMUI::ToggleBinder* value);
-    // Get instance field: private System.Action selectBeatmapEvent
-    System::Action* _get_selectBeatmapEvent();
-    // Set instance field: private System.Action selectBeatmapEvent
-    void _set_selectBeatmapEvent(System::Action* value);
-    // Get instance field: private System.Action selectModifiersEvent
-    System::Action* _get_selectModifiersEvent();
-    // Set instance field: private System.Action selectModifiersEvent
-    void _set_selectModifiersEvent(System::Action* value);
-    // Get instance field: private System.Action startGameOrReadyEvent
-    System::Action* _get_startGameOrReadyEvent();
-    // Set instance field: private System.Action startGameOrReadyEvent
-    void _set_startGameOrReadyEvent(System::Action* value);
-    // Get instance field: private System.Action cancelGameOrUnreadyEvent
-    System::Action* _get_cancelGameOrUnreadyEvent();
-    // Set instance field: private System.Action cancelGameOrUnreadyEvent
-    void _set_cancelGameOrUnreadyEvent(System::Action* value);
-    // Get instance field: private System.Action clearSuggestedBeatmapEvent
-    System::Action* _get_clearSuggestedBeatmapEvent();
-    // Set instance field: private System.Action clearSuggestedBeatmapEvent
-    void _set_clearSuggestedBeatmapEvent(System::Action* value);
-    // Get instance field: private System.Action clearSuggestedModifiersEvent
-    System::Action* _get_clearSuggestedModifiersEvent();
-    // Set instance field: private System.Action clearSuggestedModifiersEvent
-    void _set_clearSuggestedModifiersEvent(System::Action* value);
-    // Get instance field: private System.Boolean _isPartyOwner
-    bool _get__isPartyOwner();
-    // Set instance field: private System.Boolean _isPartyOwner
-    void _set__isPartyOwner(bool value);
-    // Get instance field: private System.Boolean _isQuickStart
-    bool _get__isQuickStart();
-    // Set instance field: private System.Boolean _isQuickStart
-    void _set__isQuickStart(bool value);
+    // Get instance field reference: private UnityEngine.UI.Button _startGameReadyButton
+    UnityEngine::UI::Button*& dyn__startGameReadyButton();
+    // Get instance field reference: private UnityEngine.UI.Button _cancelGameUnreadyButton
+    UnityEngine::UI::Button*& dyn__cancelGameUnreadyButton();
+    // Get instance field reference: private Polyglot.LocalizedTextMeshProUGUI _startReadyText
+    Polyglot::LocalizedTextMeshProUGUI*& dyn__startReadyText();
+    // Get instance field reference: private Polyglot.LocalizedTextMeshProUGUI _cancelUnreadyText
+    Polyglot::LocalizedTextMeshProUGUI*& dyn__cancelUnreadyText();
+    // Get instance field reference: private GameServersFilterText _serverSettings
+    GlobalNamespace::GameServersFilterText*& dyn__serverSettings();
+    // Get instance field reference: private UnityEngine.GameObject _suggestionHeader
+    UnityEngine::GameObject*& dyn__suggestionHeader();
+    // Get instance field reference: private EditableBeatmapSelectionView _beatmapSelectionView
+    GlobalNamespace::EditableBeatmapSelectionView*& dyn__beatmapSelectionView();
+    // Get instance field reference: private EditableModifiersSelectionView _modifiersSelectionView
+    GlobalNamespace::EditableModifiersSelectionView*& dyn__modifiersSelectionView();
+    // Get instance field reference: private HMUI.HoverHint _cantStartGameHoverHint
+    HMUI::HoverHint*& dyn__cantStartGameHoverHint();
+    // Get instance field reference: private UnityEngine.GameObject _playerMissingLevelHoverHintWrapper
+    UnityEngine::GameObject*& dyn__playerMissingLevelHoverHintWrapper();
+    // Get instance field reference: private HMUI.HoverHint _playersMissingLevelHoverHint
+    HMUI::HoverHint*& dyn__playersMissingLevelHoverHint();
+    // Get instance field reference: private UnityEngine.GameObject _spectatorWarningTextWrapper
+    UnityEngine::GameObject*& dyn__spectatorWarningTextWrapper();
+    // Get instance field reference: private readonly HMUI.ToggleBinder _toggleBinder
+    HMUI::ToggleBinder*& dyn__toggleBinder();
+    // Get instance field reference: private System.Action selectBeatmapEvent
+    System::Action*& dyn_selectBeatmapEvent();
+    // Get instance field reference: private System.Action selectModifiersEvent
+    System::Action*& dyn_selectModifiersEvent();
+    // Get instance field reference: private System.Action startGameOrReadyEvent
+    System::Action*& dyn_startGameOrReadyEvent();
+    // Get instance field reference: private System.Action cancelGameOrUnreadyEvent
+    System::Action*& dyn_cancelGameOrUnreadyEvent();
+    // Get instance field reference: private System.Action clearSuggestedBeatmapEvent
+    System::Action*& dyn_clearSuggestedBeatmapEvent();
+    // Get instance field reference: private System.Action clearSuggestedModifiersEvent
+    System::Action*& dyn_clearSuggestedModifiersEvent();
+    // Get instance field reference: private System.Boolean _isPartyOwner
+    bool& dyn__isPartyOwner();
+    // Get instance field reference: private System.Boolean _isQuickStart
+    bool& dyn__isQuickStart();
     // public System.Void add_selectBeatmapEvent(System.Action value)
     // Offset: 0x120CAD8
     void add_selectBeatmapEvent(System::Action* value);

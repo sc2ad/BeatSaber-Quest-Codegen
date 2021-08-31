@@ -65,18 +65,12 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     operator System::Collections::Generic::IEnumerable_1<bool>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<bool>*>(this);
     }
-    // Get instance field: public System.Boolean _0
-    bool _get__0();
-    // Set instance field: public System.Boolean _0
-    void _set__0(bool value);
-    // Get instance field: public System.Boolean _1
-    bool _get__1();
-    // Set instance field: public System.Boolean _1
-    void _set__1(bool value);
-    // Get instance field: public System.Boolean _2
-    bool _get__2();
-    // Set instance field: public System.Boolean _2
-    void _set__2(bool value);
+    // Get instance field reference: public System.Boolean _0
+    bool& dyn__0();
+    // Get instance field reference: public System.Boolean _1
+    bool& dyn__1();
+    // Get instance field reference: public System.Boolean _2
+    bool& dyn__2();
     // public System.Boolean get_Item(System.Int32 index)
     // Offset: 0x23C2274
     bool get_Item(int index);

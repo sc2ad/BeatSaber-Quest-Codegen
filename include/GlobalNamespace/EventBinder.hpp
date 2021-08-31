@@ -43,10 +43,8 @@ namespace GlobalNamespace {
     constexpr operator System::Collections::Generic::List_1<System::Action*>*() const noexcept {
       return unsubscribes;
     }
-    // Get instance field: private System.Collections.Generic.List`1<System.Action> _unsubscribes
-    System::Collections::Generic::List_1<System::Action*>* _get__unsubscribes();
-    // Set instance field: private System.Collections.Generic.List`1<System.Action> _unsubscribes
-    void _set__unsubscribes(System::Collections::Generic::List_1<System::Action*>* value);
+    // Get instance field reference: private System.Collections.Generic.List`1<System.Action> _unsubscribes
+    System::Collections::Generic::List_1<System::Action*>*& dyn__unsubscribes();
     // public System.Void Bind(System.Action subscribe, System.Action unsubscribe)
     // Offset: 0x125DD48
     void Bind(System::Action* subscribe, System::Action* unsubscribe);

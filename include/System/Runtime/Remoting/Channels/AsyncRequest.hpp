@@ -41,14 +41,10 @@ namespace System::Runtime::Remoting::Channels {
     static_assert(sizeof(System::Runtime::Remoting::Messaging::IMessage*) == 0x8);
     // Creating value type constructor for type: AsyncRequest
     AsyncRequest(System::Runtime::Remoting::Messaging::IMessageSink* ReplySink_ = {}, System::Runtime::Remoting::Messaging::IMessage* MsgRequest_ = {}) noexcept : ReplySink{ReplySink_}, MsgRequest{MsgRequest_} {}
-    // Get instance field: System.Runtime.Remoting.Messaging.IMessageSink ReplySink
-    System::Runtime::Remoting::Messaging::IMessageSink* _get_ReplySink();
-    // Set instance field: System.Runtime.Remoting.Messaging.IMessageSink ReplySink
-    void _set_ReplySink(System::Runtime::Remoting::Messaging::IMessageSink* value);
-    // Get instance field: System.Runtime.Remoting.Messaging.IMessage MsgRequest
-    System::Runtime::Remoting::Messaging::IMessage* _get_MsgRequest();
-    // Set instance field: System.Runtime.Remoting.Messaging.IMessage MsgRequest
-    void _set_MsgRequest(System::Runtime::Remoting::Messaging::IMessage* value);
+    // Get instance field reference: System.Runtime.Remoting.Messaging.IMessageSink ReplySink
+    System::Runtime::Remoting::Messaging::IMessageSink*& dyn_ReplySink();
+    // Get instance field reference: System.Runtime.Remoting.Messaging.IMessage MsgRequest
+    System::Runtime::Remoting::Messaging::IMessage*& dyn_MsgRequest();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMessage msgRequest, System.Runtime.Remoting.Messaging.IMessageSink replySink)
     // Offset: 0x148D87C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

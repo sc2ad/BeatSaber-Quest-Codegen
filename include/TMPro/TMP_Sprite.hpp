@@ -63,26 +63,16 @@ namespace TMPro {
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
     // Creating value type constructor for type: TMP_Sprite
     TMP_Sprite(::Il2CppString* name_ = {}, int hashCode_ = {}, int unicode_ = {}, UnityEngine::Vector2 pivot_ = {}, UnityEngine::Sprite* sprite_ = {}) noexcept : name{name_}, hashCode{hashCode_}, unicode{unicode_}, pivot{pivot_}, sprite{sprite_} {}
-    // Get instance field: public System.String name
-    ::Il2CppString* _get_name();
-    // Set instance field: public System.String name
-    void _set_name(::Il2CppString* value);
-    // Get instance field: public System.Int32 hashCode
-    int _get_hashCode();
-    // Set instance field: public System.Int32 hashCode
-    void _set_hashCode(int value);
-    // Get instance field: public System.Int32 unicode
-    int _get_unicode();
-    // Set instance field: public System.Int32 unicode
-    void _set_unicode(int value);
-    // Get instance field: public UnityEngine.Vector2 pivot
-    UnityEngine::Vector2 _get_pivot();
-    // Set instance field: public UnityEngine.Vector2 pivot
-    void _set_pivot(UnityEngine::Vector2 value);
-    // Get instance field: public UnityEngine.Sprite sprite
-    UnityEngine::Sprite* _get_sprite();
-    // Set instance field: public UnityEngine.Sprite sprite
-    void _set_sprite(UnityEngine::Sprite* value);
+    // Get instance field reference: public System.String name
+    ::Il2CppString*& dyn_name();
+    // Get instance field reference: public System.Int32 hashCode
+    int& dyn_hashCode();
+    // Get instance field reference: public System.Int32 unicode
+    int& dyn_unicode();
+    // Get instance field reference: public UnityEngine.Vector2 pivot
+    UnityEngine::Vector2& dyn_pivot();
+    // Get instance field reference: public UnityEngine.Sprite sprite
+    UnityEngine::Sprite*& dyn_sprite();
     // public System.Void .ctor()
     // Offset: 0x115CC74
     // Implemented from: TMPro.TMP_TextElement_Legacy

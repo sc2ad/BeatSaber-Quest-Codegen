@@ -50,10 +50,8 @@ namespace Valve::VR {
     static Valve::VR::ETrackingUniverseOrigin _get_TrackingUniverseRawAndUncalibrated();
     // Set static field: static public Valve.VR.ETrackingUniverseOrigin TrackingUniverseRawAndUncalibrated
     static void _set_TrackingUniverseRawAndUncalibrated(Valve::VR::ETrackingUniverseOrigin value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Valve.VR.ETrackingUniverseOrigin
   #pragma pack(pop)
   static check_size<sizeof(ETrackingUniverseOrigin), 0 + sizeof(int)> __Valve_VR_ETrackingUniverseOriginSizeCheck;

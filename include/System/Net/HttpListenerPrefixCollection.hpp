@@ -59,14 +59,10 @@ namespace System::Net {
     operator System::Collections::Generic::ICollection_1<::Il2CppString*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::ICollection_1<::Il2CppString*>*>(this);
     }
-    // Get instance field: private System.Collections.Generic.List`1<System.String> prefixes
-    System::Collections::Generic::List_1<::Il2CppString*>* _get_prefixes();
-    // Set instance field: private System.Collections.Generic.List`1<System.String> prefixes
-    void _set_prefixes(System::Collections::Generic::List_1<::Il2CppString*>* value);
-    // Get instance field: private System.Net.HttpListener listener
-    System::Net::HttpListener* _get_listener();
-    // Set instance field: private System.Net.HttpListener listener
-    void _set_listener(System::Net::HttpListener* value);
+    // Get instance field reference: private System.Collections.Generic.List`1<System.String> prefixes
+    System::Collections::Generic::List_1<::Il2CppString*>*& dyn_prefixes();
+    // Get instance field reference: private System.Net.HttpListener listener
+    System::Net::HttpListener*& dyn_listener();
     // public System.Int32 get_Count()
     // Offset: 0x166FF60
     int get_Count();

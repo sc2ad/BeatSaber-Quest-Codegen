@@ -34,14 +34,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: BeatmapEditorSceneSetupData
     BeatmapEditorSceneSetupData(::Il2CppString* levelDirPath_ = {}, ::Il2CppString* levelAssetPath_ = {}) noexcept : levelDirPath{levelDirPath_}, levelAssetPath{levelAssetPath_} {}
-    // Get instance field: private System.String _levelDirPath
-    ::Il2CppString* _get__levelDirPath();
-    // Set instance field: private System.String _levelDirPath
-    void _set__levelDirPath(::Il2CppString* value);
-    // Get instance field: private System.String _levelAssetPath
-    ::Il2CppString* _get__levelAssetPath();
-    // Set instance field: private System.String _levelAssetPath
-    void _set__levelAssetPath(::Il2CppString* value);
+    // Get instance field reference: private System.String _levelDirPath
+    ::Il2CppString*& dyn__levelDirPath();
+    // Get instance field reference: private System.String _levelAssetPath
+    ::Il2CppString*& dyn__levelAssetPath();
     // public System.String get_levelDirPath()
     // Offset: 0x11F4F18
     ::Il2CppString* get_levelDirPath();

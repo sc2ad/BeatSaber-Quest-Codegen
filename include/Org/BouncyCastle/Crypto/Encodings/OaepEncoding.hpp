@@ -70,26 +70,16 @@ namespace Org::BouncyCastle::Crypto::Encodings {
     operator Org::BouncyCastle::Crypto::IAsymmetricBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(this);
     }
-    // Get instance field: private System.Byte[] defHash
-    ::Array<uint8_t>* _get_defHash();
-    // Set instance field: private System.Byte[] defHash
-    void _set_defHash(::Array<uint8_t>* value);
-    // Get instance field: private Org.BouncyCastle.Crypto.IDigest mgf1Hash
-    Org::BouncyCastle::Crypto::IDigest* _get_mgf1Hash();
-    // Set instance field: private Org.BouncyCastle.Crypto.IDigest mgf1Hash
-    void _set_mgf1Hash(Org::BouncyCastle::Crypto::IDigest* value);
-    // Get instance field: private Org.BouncyCastle.Crypto.IAsymmetricBlockCipher engine
-    Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* _get_engine();
-    // Set instance field: private Org.BouncyCastle.Crypto.IAsymmetricBlockCipher engine
-    void _set_engine(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* value);
-    // Get instance field: private Org.BouncyCastle.Security.SecureRandom random
-    Org::BouncyCastle::Security::SecureRandom* _get_random();
-    // Set instance field: private Org.BouncyCastle.Security.SecureRandom random
-    void _set_random(Org::BouncyCastle::Security::SecureRandom* value);
-    // Get instance field: private System.Boolean forEncryption
-    bool _get_forEncryption();
-    // Set instance field: private System.Boolean forEncryption
-    void _set_forEncryption(bool value);
+    // Get instance field reference: private System.Byte[] defHash
+    ::Array<uint8_t>*& dyn_defHash();
+    // Get instance field reference: private Org.BouncyCastle.Crypto.IDigest mgf1Hash
+    Org::BouncyCastle::Crypto::IDigest*& dyn_mgf1Hash();
+    // Get instance field reference: private Org.BouncyCastle.Crypto.IAsymmetricBlockCipher engine
+    Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*& dyn_engine();
+    // Get instance field reference: private Org.BouncyCastle.Security.SecureRandom random
+    Org::BouncyCastle::Security::SecureRandom*& dyn_random();
+    // Get instance field reference: private System.Boolean forEncryption
+    bool& dyn_forEncryption();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher)
     // Offset: 0x192FB84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -45,10 +45,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     static_assert(sizeof(Org::BouncyCastle::Math::EC::ECPoint*) == 0x8);
     // Creating value type constructor for type: ECPublicKeyParameters
     ECPublicKeyParameters(Org::BouncyCastle::Math::EC::ECPoint* q_ = {}) noexcept : q{q_} {}
-    // Get instance field: private readonly Org.BouncyCastle.Math.EC.ECPoint q
-    Org::BouncyCastle::Math::EC::ECPoint* _get_q();
-    // Set instance field: private readonly Org.BouncyCastle.Math.EC.ECPoint q
-    void _set_q(Org::BouncyCastle::Math::EC::ECPoint* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.ECPoint q
+    Org::BouncyCastle::Math::EC::ECPoint*& dyn_q();
     // public Org.BouncyCastle.Math.EC.ECPoint get_Q()
     // Offset: 0x1274208
     Org::BouncyCastle::Math::EC::ECPoint* get_Q();

@@ -154,82 +154,44 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
     // Creating value type constructor for type: RemoteTestResultData
     RemoteTestResultData(::Il2CppString* testId_ = {}, ::Il2CppString* name_ = {}, ::Il2CppString* fullName_ = {}, ::Il2CppString* resultState_ = {}, NUnit::Framework::Interfaces::TestStatus testStatus_ = {}, double duration_ = {}, System::DateTime startTime_ = {}, System::DateTime endTime_ = {}, ::Il2CppString* message_ = {}, ::Il2CppString* stackTrace_ = {}, int assertCount_ = {}, int failCount_ = {}, int passCount_ = {}, int skipCount_ = {}, int inconclusiveCount_ = {}, bool hasChildren_ = {}, ::Il2CppString* output_ = {}, ::Il2CppString* xml_ = {}, ::Array<::Il2CppString*>* childrenIds_ = {}) noexcept : testId{testId_}, name{name_}, fullName{fullName_}, resultState{resultState_}, testStatus{testStatus_}, duration{duration_}, startTime{startTime_}, endTime{endTime_}, message{message_}, stackTrace{stackTrace_}, assertCount{assertCount_}, failCount{failCount_}, passCount{passCount_}, skipCount{skipCount_}, inconclusiveCount{inconclusiveCount_}, hasChildren{hasChildren_}, output{output_}, xml{xml_}, childrenIds{childrenIds_} {}
-    // Get instance field: public System.String testId
-    ::Il2CppString* _get_testId();
-    // Set instance field: public System.String testId
-    void _set_testId(::Il2CppString* value);
-    // Get instance field: public System.String name
-    ::Il2CppString* _get_name();
-    // Set instance field: public System.String name
-    void _set_name(::Il2CppString* value);
-    // Get instance field: public System.String fullName
-    ::Il2CppString* _get_fullName();
-    // Set instance field: public System.String fullName
-    void _set_fullName(::Il2CppString* value);
-    // Get instance field: public System.String resultState
-    ::Il2CppString* _get_resultState();
-    // Set instance field: public System.String resultState
-    void _set_resultState(::Il2CppString* value);
-    // Get instance field: public NUnit.Framework.Interfaces.TestStatus testStatus
-    NUnit::Framework::Interfaces::TestStatus _get_testStatus();
-    // Set instance field: public NUnit.Framework.Interfaces.TestStatus testStatus
-    void _set_testStatus(NUnit::Framework::Interfaces::TestStatus value);
-    // Get instance field: public System.Double duration
-    double _get_duration();
-    // Set instance field: public System.Double duration
-    void _set_duration(double value);
-    // Get instance field: public System.DateTime startTime
-    System::DateTime _get_startTime();
-    // Set instance field: public System.DateTime startTime
-    void _set_startTime(System::DateTime value);
-    // Get instance field: public System.DateTime endTime
-    System::DateTime _get_endTime();
-    // Set instance field: public System.DateTime endTime
-    void _set_endTime(System::DateTime value);
-    // Get instance field: public System.String message
-    ::Il2CppString* _get_message();
-    // Set instance field: public System.String message
-    void _set_message(::Il2CppString* value);
-    // Get instance field: public System.String stackTrace
-    ::Il2CppString* _get_stackTrace();
-    // Set instance field: public System.String stackTrace
-    void _set_stackTrace(::Il2CppString* value);
-    // Get instance field: public System.Int32 assertCount
-    int _get_assertCount();
-    // Set instance field: public System.Int32 assertCount
-    void _set_assertCount(int value);
-    // Get instance field: public System.Int32 failCount
-    int _get_failCount();
-    // Set instance field: public System.Int32 failCount
-    void _set_failCount(int value);
-    // Get instance field: public System.Int32 passCount
-    int _get_passCount();
-    // Set instance field: public System.Int32 passCount
-    void _set_passCount(int value);
-    // Get instance field: public System.Int32 skipCount
-    int _get_skipCount();
-    // Set instance field: public System.Int32 skipCount
-    void _set_skipCount(int value);
-    // Get instance field: public System.Int32 inconclusiveCount
-    int _get_inconclusiveCount();
-    // Set instance field: public System.Int32 inconclusiveCount
-    void _set_inconclusiveCount(int value);
-    // Get instance field: public System.Boolean hasChildren
-    bool _get_hasChildren();
-    // Set instance field: public System.Boolean hasChildren
-    void _set_hasChildren(bool value);
-    // Get instance field: public System.String output
-    ::Il2CppString* _get_output();
-    // Set instance field: public System.String output
-    void _set_output(::Il2CppString* value);
-    // Get instance field: public System.String xml
-    ::Il2CppString* _get_xml();
-    // Set instance field: public System.String xml
-    void _set_xml(::Il2CppString* value);
-    // Get instance field: public System.String[] childrenIds
-    ::Array<::Il2CppString*>* _get_childrenIds();
-    // Set instance field: public System.String[] childrenIds
-    void _set_childrenIds(::Array<::Il2CppString*>* value);
+    // Get instance field reference: public System.String testId
+    ::Il2CppString*& dyn_testId();
+    // Get instance field reference: public System.String name
+    ::Il2CppString*& dyn_name();
+    // Get instance field reference: public System.String fullName
+    ::Il2CppString*& dyn_fullName();
+    // Get instance field reference: public System.String resultState
+    ::Il2CppString*& dyn_resultState();
+    // Get instance field reference: public NUnit.Framework.Interfaces.TestStatus testStatus
+    NUnit::Framework::Interfaces::TestStatus& dyn_testStatus();
+    // Get instance field reference: public System.Double duration
+    double& dyn_duration();
+    // Get instance field reference: public System.DateTime startTime
+    System::DateTime& dyn_startTime();
+    // Get instance field reference: public System.DateTime endTime
+    System::DateTime& dyn_endTime();
+    // Get instance field reference: public System.String message
+    ::Il2CppString*& dyn_message();
+    // Get instance field reference: public System.String stackTrace
+    ::Il2CppString*& dyn_stackTrace();
+    // Get instance field reference: public System.Int32 assertCount
+    int& dyn_assertCount();
+    // Get instance field reference: public System.Int32 failCount
+    int& dyn_failCount();
+    // Get instance field reference: public System.Int32 passCount
+    int& dyn_passCount();
+    // Get instance field reference: public System.Int32 skipCount
+    int& dyn_skipCount();
+    // Get instance field reference: public System.Int32 inconclusiveCount
+    int& dyn_inconclusiveCount();
+    // Get instance field reference: public System.Boolean hasChildren
+    bool& dyn_hasChildren();
+    // Get instance field reference: public System.String output
+    ::Il2CppString*& dyn_output();
+    // Get instance field reference: public System.String xml
+    ::Il2CppString*& dyn_xml();
+    // Get instance field reference: public System.String[] childrenIds
+    ::Array<::Il2CppString*>*& dyn_childrenIds();
     // System.Void .ctor(NUnit.Framework.Interfaces.ITestResult result)
     // Offset: 0x14BC9EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

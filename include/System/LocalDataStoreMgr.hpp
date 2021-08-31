@@ -92,26 +92,16 @@ namespace System {
     static int _get_LargeSlotTableSizeIncrease();
     // Set static field: static private System.Int32 LargeSlotTableSizeIncrease
     static void _set_LargeSlotTableSizeIncrease(int value);
-    // Get instance field: private System.Boolean[] m_SlotInfoTable
-    ::Array<bool>* _get_m_SlotInfoTable();
-    // Set instance field: private System.Boolean[] m_SlotInfoTable
-    void _set_m_SlotInfoTable(::Array<bool>* value);
-    // Get instance field: private System.Int32 m_FirstAvailableSlot
-    int _get_m_FirstAvailableSlot();
-    // Set instance field: private System.Int32 m_FirstAvailableSlot
-    void _set_m_FirstAvailableSlot(int value);
-    // Get instance field: private System.Collections.Generic.List`1<System.LocalDataStore> m_ManagedLocalDataStores
-    System::Collections::Generic::List_1<System::LocalDataStore*>* _get_m_ManagedLocalDataStores();
-    // Set instance field: private System.Collections.Generic.List`1<System.LocalDataStore> m_ManagedLocalDataStores
-    void _set_m_ManagedLocalDataStores(System::Collections::Generic::List_1<System::LocalDataStore*>* value);
-    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,System.LocalDataStoreSlot> m_KeyToSlotMap
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::LocalDataStoreSlot*>* _get_m_KeyToSlotMap();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,System.LocalDataStoreSlot> m_KeyToSlotMap
-    void _set_m_KeyToSlotMap(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::LocalDataStoreSlot*>* value);
-    // Get instance field: private System.Int64 m_CookieGenerator
-    int64_t _get_m_CookieGenerator();
-    // Set instance field: private System.Int64 m_CookieGenerator
-    void _set_m_CookieGenerator(int64_t value);
+    // Get instance field reference: private System.Boolean[] m_SlotInfoTable
+    ::Array<bool>*& dyn_m_SlotInfoTable();
+    // Get instance field reference: private System.Int32 m_FirstAvailableSlot
+    int& dyn_m_FirstAvailableSlot();
+    // Get instance field reference: private System.Collections.Generic.List`1<System.LocalDataStore> m_ManagedLocalDataStores
+    System::Collections::Generic::List_1<System::LocalDataStore*>*& dyn_m_ManagedLocalDataStores();
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.LocalDataStoreSlot> m_KeyToSlotMap
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::LocalDataStoreSlot*>*& dyn_m_KeyToSlotMap();
+    // Get instance field reference: private System.Int64 m_CookieGenerator
+    int64_t& dyn_m_CookieGenerator();
     // public System.LocalDataStoreHolder CreateLocalDataStore()
     // Offset: 0x183583C
     System::LocalDataStoreHolder* CreateLocalDataStore();

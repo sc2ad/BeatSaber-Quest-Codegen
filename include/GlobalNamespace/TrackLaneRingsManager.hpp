@@ -63,26 +63,16 @@ namespace GlobalNamespace {
     TrackLaneRingsManager(GlobalNamespace::TrackLaneRing* trackLaneRingPrefab_ = {}, int ringCount_ = {}, float ringPositionStep_ = {}, bool spawnAsChildren_ = {}, ::Array<GlobalNamespace::TrackLaneRing*>* rings_ = {}) noexcept : trackLaneRingPrefab{trackLaneRingPrefab_}, ringCount{ringCount_}, ringPositionStep{ringPositionStep_}, spawnAsChildren{spawnAsChildren_}, rings{rings_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private TrackLaneRing _trackLaneRingPrefab
-    GlobalNamespace::TrackLaneRing* _get__trackLaneRingPrefab();
-    // Set instance field: private TrackLaneRing _trackLaneRingPrefab
-    void _set__trackLaneRingPrefab(GlobalNamespace::TrackLaneRing* value);
-    // Get instance field: private System.Int32 _ringCount
-    int _get__ringCount();
-    // Set instance field: private System.Int32 _ringCount
-    void _set__ringCount(int value);
-    // Get instance field: private System.Single _ringPositionStep
-    float _get__ringPositionStep();
-    // Set instance field: private System.Single _ringPositionStep
-    void _set__ringPositionStep(float value);
-    // Get instance field: private System.Boolean _spawnAsChildren
-    bool _get__spawnAsChildren();
-    // Set instance field: private System.Boolean _spawnAsChildren
-    void _set__spawnAsChildren(bool value);
-    // Get instance field: private TrackLaneRing[] _rings
-    ::Array<GlobalNamespace::TrackLaneRing*>* _get__rings();
-    // Set instance field: private TrackLaneRing[] _rings
-    void _set__rings(::Array<GlobalNamespace::TrackLaneRing*>* value);
+    // Get instance field reference: private TrackLaneRing _trackLaneRingPrefab
+    GlobalNamespace::TrackLaneRing*& dyn__trackLaneRingPrefab();
+    // Get instance field reference: private System.Int32 _ringCount
+    int& dyn__ringCount();
+    // Get instance field reference: private System.Single _ringPositionStep
+    float& dyn__ringPositionStep();
+    // Get instance field reference: private System.Boolean _spawnAsChildren
+    bool& dyn__spawnAsChildren();
+    // Get instance field reference: private TrackLaneRing[] _rings
+    ::Array<GlobalNamespace::TrackLaneRing*>*& dyn__rings();
     // public System.Single get_ringPositionStep()
     // Offset: 0x10959E0
     float get_ringPositionStep();

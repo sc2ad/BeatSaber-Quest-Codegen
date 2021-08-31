@@ -56,10 +56,8 @@ namespace Valve::VR {
     static Valve::VR::EVRControllerAxisType _get_k_eControllerAxis_Trigger();
     // Set static field: static public Valve.VR.EVRControllerAxisType k_eControllerAxis_Trigger
     static void _set_k_eControllerAxis_Trigger(Valve::VR::EVRControllerAxisType value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Valve.VR.EVRControllerAxisType
   #pragma pack(pop)
   static check_size<sizeof(EVRControllerAxisType), 0 + sizeof(int)> __Valve_VR_EVRControllerAxisTypeSizeCheck;

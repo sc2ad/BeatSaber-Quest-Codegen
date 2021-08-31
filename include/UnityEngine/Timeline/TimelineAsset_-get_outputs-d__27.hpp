@@ -88,30 +88,18 @@ namespace UnityEngine::Timeline {
     operator System::Collections::Generic::IEnumerator_1<UnityEngine::Playables::PlayableBinding>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<UnityEngine::Playables::PlayableBinding>*>(this);
     }
-    // Get instance field: private System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: private System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: private UnityEngine.Playables.PlayableBinding <>2__current
-    UnityEngine::Playables::PlayableBinding _get_$$2__current();
-    // Set instance field: private UnityEngine.Playables.PlayableBinding <>2__current
-    void _set_$$2__current(UnityEngine::Playables::PlayableBinding value);
-    // Get instance field: private System.Int32 <>l__initialThreadId
-    int _get_$$l__initialThreadId();
-    // Set instance field: private System.Int32 <>l__initialThreadId
-    void _set_$$l__initialThreadId(int value);
-    // Get instance field: public UnityEngine.Timeline.TimelineAsset <>4__this
-    UnityEngine::Timeline::TimelineAsset* _get_$$4__this();
-    // Set instance field: public UnityEngine.Timeline.TimelineAsset <>4__this
-    void _set_$$4__this(UnityEngine::Timeline::TimelineAsset* value);
-    // Get instance field: private System.Collections.Generic.IEnumerator`1<UnityEngine.Timeline.TrackAsset> <>7__wrap1
-    System::Collections::Generic::IEnumerator_1<UnityEngine::Timeline::TrackAsset*>* _get_$$7__wrap1();
-    // Set instance field: private System.Collections.Generic.IEnumerator`1<UnityEngine.Timeline.TrackAsset> <>7__wrap1
-    void _set_$$7__wrap1(System::Collections::Generic::IEnumerator_1<UnityEngine::Timeline::TrackAsset*>* value);
-    // Get instance field: private System.Collections.Generic.IEnumerator`1<UnityEngine.Playables.PlayableBinding> <>7__wrap2
-    System::Collections::Generic::IEnumerator_1<UnityEngine::Playables::PlayableBinding>* _get_$$7__wrap2();
-    // Set instance field: private System.Collections.Generic.IEnumerator`1<UnityEngine.Playables.PlayableBinding> <>7__wrap2
-    void _set_$$7__wrap2(System::Collections::Generic::IEnumerator_1<UnityEngine::Playables::PlayableBinding>* value);
+    // Get instance field reference: private System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: private UnityEngine.Playables.PlayableBinding <>2__current
+    UnityEngine::Playables::PlayableBinding& dyn_$$2__current();
+    // Get instance field reference: private System.Int32 <>l__initialThreadId
+    int& dyn_$$l__initialThreadId();
+    // Get instance field reference: public UnityEngine.Timeline.TimelineAsset <>4__this
+    UnityEngine::Timeline::TimelineAsset*& dyn_$$4__this();
+    // Get instance field reference: private System.Collections.Generic.IEnumerator`1<UnityEngine.Timeline.TrackAsset> <>7__wrap1
+    System::Collections::Generic::IEnumerator_1<UnityEngine::Timeline::TrackAsset*>*& dyn_$$7__wrap1();
+    // Get instance field reference: private System.Collections.Generic.IEnumerator`1<UnityEngine.Playables.PlayableBinding> <>7__wrap2
+    System::Collections::Generic::IEnumerator_1<UnityEngine::Playables::PlayableBinding>*& dyn_$$7__wrap2();
     // private UnityEngine.Playables.PlayableBinding System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current()
     // Offset: 0x236A278
     UnityEngine::Playables::PlayableBinding System_Collections_Generic_IEnumerator$UnityEngine_Playables_PlayableBinding$_get_Current();

@@ -71,10 +71,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::TiledMultiResLevel _get_EnumSize();
     // Set static field: static public OVRPlugin/TiledMultiResLevel EnumSize
     static void _set_EnumSize(GlobalNamespace::OVRPlugin::TiledMultiResLevel value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // OVRPlugin/TiledMultiResLevel
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::TiledMultiResLevel), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_TiledMultiResLevelSizeCheck;

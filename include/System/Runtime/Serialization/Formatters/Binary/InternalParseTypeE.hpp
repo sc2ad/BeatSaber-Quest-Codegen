@@ -110,10 +110,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE _get_BodyEnd();
     // Set static field: static public System.Runtime.Serialization.Formatters.Binary.InternalParseTypeE BodyEnd
     static void _set_BodyEnd(System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Runtime.Serialization.Formatters.Binary.InternalParseTypeE
   #pragma pack(pop)
   static check_size<sizeof(InternalParseTypeE), 0 + sizeof(int)> __System_Runtime_Serialization_Formatters_Binary_InternalParseTypeESizeCheck;

@@ -109,42 +109,24 @@ namespace GlobalNamespace {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
-    // Get instance field: public System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: public System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<IBeatmapLevelCollection> <>t__builder
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::IBeatmapLevelCollection*> _get_$$t__builder();
-    // Set instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<IBeatmapLevelCollection> <>t__builder
-    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::IBeatmapLevelCollection*> value);
-    // Get instance field: public LevelFilterParams levelFilterParams
-    GlobalNamespace::LevelFilterParams* _get_levelFilterParams();
-    // Set instance field: public LevelFilterParams levelFilterParams
-    void _set_levelFilterParams(GlobalNamespace::LevelFilterParams* value);
-    // Get instance field: public PlayerDataModel playerDataModel
-    GlobalNamespace::PlayerDataModel* _get_playerDataModel();
-    // Set instance field: public PlayerDataModel playerDataModel
-    void _set_playerDataModel(GlobalNamespace::PlayerDataModel* value);
-    // Get instance field: public IBeatmapLevelPack[] beatmapLevelPacks
-    ::Array<GlobalNamespace::IBeatmapLevelPack*>* _get_beatmapLevelPacks();
-    // Set instance field: public IBeatmapLevelPack[] beatmapLevelPacks
-    void _set_beatmapLevelPacks(::Array<GlobalNamespace::IBeatmapLevelPack*>* value);
-    // Get instance field: public AdditionalContentModel additionalContentModel
-    GlobalNamespace::AdditionalContentModel* _get_additionalContentModel();
-    // Set instance field: public AdditionalContentModel additionalContentModel
-    void _set_additionalContentModel(GlobalNamespace::AdditionalContentModel* value);
-    // Get instance field: public System.Threading.CancellationToken cancellationToken
-    System::Threading::CancellationToken _get_cancellationToken();
-    // Set instance field: public System.Threading.CancellationToken cancellationToken
-    void _set_cancellationToken(System::Threading::CancellationToken value);
-    // Get instance field: private BeatmapLevelFilterModel/<>c__DisplayClass0_0 <>8__1
-    GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0* _get_$$8__1();
-    // Set instance field: private BeatmapLevelFilterModel/<>c__DisplayClass0_0 <>8__1
-    void _set_$$8__1(GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0* value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Collections.Generic.List`1<IPreviewBeatmapLevel>> <>u__1
-    System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::List_1<GlobalNamespace::IPreviewBeatmapLevel*>*> _get_$$u__1();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Collections.Generic.List`1<IPreviewBeatmapLevel>> <>u__1
-    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::List_1<GlobalNamespace::IPreviewBeatmapLevel*>*> value);
+    // Get instance field reference: public System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<IBeatmapLevelCollection> <>t__builder
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::IBeatmapLevelCollection*>& dyn_$$t__builder();
+    // Get instance field reference: public LevelFilterParams levelFilterParams
+    GlobalNamespace::LevelFilterParams*& dyn_levelFilterParams();
+    // Get instance field reference: public PlayerDataModel playerDataModel
+    GlobalNamespace::PlayerDataModel*& dyn_playerDataModel();
+    // Get instance field reference: public IBeatmapLevelPack[] beatmapLevelPacks
+    ::Array<GlobalNamespace::IBeatmapLevelPack*>*& dyn_beatmapLevelPacks();
+    // Get instance field reference: public AdditionalContentModel additionalContentModel
+    GlobalNamespace::AdditionalContentModel*& dyn_additionalContentModel();
+    // Get instance field reference: public System.Threading.CancellationToken cancellationToken
+    System::Threading::CancellationToken& dyn_cancellationToken();
+    // Get instance field reference: private BeatmapLevelFilterModel/<>c__DisplayClass0_0 <>8__1
+    GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0*& dyn_$$8__1();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Collections.Generic.List`1<IPreviewBeatmapLevel>> <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::List_1<GlobalNamespace::IPreviewBeatmapLevel*>*>& dyn_$$u__1();
     // private System.Void MoveNext()
     // Offset: 0x10C0D94
     void MoveNext();

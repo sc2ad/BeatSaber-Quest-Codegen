@@ -104,38 +104,22 @@ namespace UnityEngine::TestTools::NUnitExtensions {
     operator System::Collections::Generic::IEnumerator_1<NUnit::Framework::Interfaces::ITest*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<NUnit::Framework::Interfaces::ITest*>*>(this);
     }
-    // Get instance field: private System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: private System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: private NUnit.Framework.Interfaces.ITest <>2__current
-    NUnit::Framework::Interfaces::ITest* _get_$$2__current();
-    // Set instance field: private NUnit.Framework.Interfaces.ITest <>2__current
-    void _set_$$2__current(NUnit::Framework::Interfaces::ITest* value);
-    // Get instance field: public UnityEngine.TestTools.NUnitExtensions.UnityTestAssemblyBuilder <>4__this
-    UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder* _get_$$4__this();
-    // Set instance field: public UnityEngine.TestTools.NUnitExtensions.UnityTestAssemblyBuilder <>4__this
-    void _set_$$4__this(UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder* value);
-    // Get instance field: public System.Reflection.Assembly[] assemblies
-    ::Array<System::Reflection::Assembly*>* _get_assemblies();
-    // Set instance field: public System.Reflection.Assembly[] assemblies
-    void _set_assemblies(::Array<System::Reflection::Assembly*>* value);
-    // Get instance field: public UnityEngine.TestTools.TestPlatform[] testPlatforms
-    ::Array<UnityEngine::TestTools::TestPlatform>* _get_testPlatforms();
-    // Set instance field: public UnityEngine.TestTools.TestPlatform[] testPlatforms
-    void _set_testPlatforms(::Array<UnityEngine::TestTools::TestPlatform>* value);
-    // Get instance field: public System.Collections.Generic.IDictionary`2<System.String,System.Object> options
-    System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>* _get_options();
-    // Set instance field: public System.Collections.Generic.IDictionary`2<System.String,System.Object> options
-    void _set_options(System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>* value);
-    // Get instance field: private NUnit.Framework.Internal.TestSuite <suite>5__2
-    NUnit::Framework::Internal::TestSuite* _get_$suite$5__2();
-    // Set instance field: private NUnit.Framework.Internal.TestSuite <suite>5__2
-    void _set_$suite$5__2(NUnit::Framework::Internal::TestSuite* value);
-    // Get instance field: private System.Int32 <index>5__3
-    int _get_$index$5__3();
-    // Set instance field: private System.Int32 <index>5__3
-    void _set_$index$5__3(int value);
+    // Get instance field reference: private System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: private NUnit.Framework.Interfaces.ITest <>2__current
+    NUnit::Framework::Interfaces::ITest*& dyn_$$2__current();
+    // Get instance field reference: public UnityEngine.TestTools.NUnitExtensions.UnityTestAssemblyBuilder <>4__this
+    UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder*& dyn_$$4__this();
+    // Get instance field reference: public System.Reflection.Assembly[] assemblies
+    ::Array<System::Reflection::Assembly*>*& dyn_assemblies();
+    // Get instance field reference: public UnityEngine.TestTools.TestPlatform[] testPlatforms
+    ::Array<UnityEngine::TestTools::TestPlatform>*& dyn_testPlatforms();
+    // Get instance field reference: public System.Collections.Generic.IDictionary`2<System.String,System.Object> options
+    System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*& dyn_options();
+    // Get instance field reference: private NUnit.Framework.Internal.TestSuite <suite>5__2
+    NUnit::Framework::Internal::TestSuite*& dyn_$suite$5__2();
+    // Get instance field reference: private System.Int32 <index>5__3
+    int& dyn_$index$5__3();
     // private NUnit.Framework.Interfaces.ITest System.Collections.Generic.IEnumerator<NUnit.Framework.Interfaces.ITest>.get_Current()
     // Offset: 0x14C3214
     NUnit::Framework::Interfaces::ITest* System_Collections_Generic_IEnumerator$NUnit_Framework_Interfaces_ITest$_get_Current();

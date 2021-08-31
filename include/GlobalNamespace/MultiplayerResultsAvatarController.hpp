@@ -47,14 +47,10 @@ namespace GlobalNamespace {
     MultiplayerResultsAvatarController(GlobalNamespace::AvatarVisualController* avatarVisualController_ = {}, GlobalNamespace::MultiplayerAvatarPoseController* multiplayerAvatarPoseController_ = {}) noexcept : avatarVisualController{avatarVisualController_}, multiplayerAvatarPoseController{multiplayerAvatarPoseController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private AvatarVisualController _avatarVisualController
-    GlobalNamespace::AvatarVisualController* _get__avatarVisualController();
-    // Set instance field: private AvatarVisualController _avatarVisualController
-    void _set__avatarVisualController(GlobalNamespace::AvatarVisualController* value);
-    // Get instance field: private MultiplayerAvatarPoseController _multiplayerAvatarPoseController
-    GlobalNamespace::MultiplayerAvatarPoseController* _get__multiplayerAvatarPoseController();
-    // Set instance field: private MultiplayerAvatarPoseController _multiplayerAvatarPoseController
-    void _set__multiplayerAvatarPoseController(GlobalNamespace::MultiplayerAvatarPoseController* value);
+    // Get instance field reference: private AvatarVisualController _avatarVisualController
+    GlobalNamespace::AvatarVisualController*& dyn__avatarVisualController();
+    // Get instance field reference: private MultiplayerAvatarPoseController _multiplayerAvatarPoseController
+    GlobalNamespace::MultiplayerAvatarPoseController*& dyn__multiplayerAvatarPoseController();
     // public System.Void SetScale(System.Single scale)
     // Offset: 0x10760DC
     void SetScale(float scale);

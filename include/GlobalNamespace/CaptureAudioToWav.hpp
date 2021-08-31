@@ -63,26 +63,16 @@ namespace GlobalNamespace {
     CaptureAudioToWav(::Il2CppString* fileName_ = {}, int sampleRate_ = {}, int headerSize_ = {}, bool recording_ = {}, System::IO::FileStream* fileStream_ = {}) noexcept : fileName{fileName_}, sampleRate{sampleRate_}, headerSize{headerSize_}, recording{recording_}, fileStream{fileStream_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.String _fileName
-    ::Il2CppString* _get__fileName();
-    // Set instance field: private System.String _fileName
-    void _set__fileName(::Il2CppString* value);
-    // Get instance field: private System.Int32 _sampleRate
-    int _get__sampleRate();
-    // Set instance field: private System.Int32 _sampleRate
-    void _set__sampleRate(int value);
-    // Get instance field: private System.Int32 _headerSize
-    int _get__headerSize();
-    // Set instance field: private System.Int32 _headerSize
-    void _set__headerSize(int value);
-    // Get instance field: private System.Boolean _recording
-    bool _get__recording();
-    // Set instance field: private System.Boolean _recording
-    void _set__recording(bool value);
-    // Get instance field: private System.IO.FileStream _fileStream
-    System::IO::FileStream* _get__fileStream();
-    // Set instance field: private System.IO.FileStream _fileStream
-    void _set__fileStream(System::IO::FileStream* value);
+    // Get instance field reference: private System.String _fileName
+    ::Il2CppString*& dyn__fileName();
+    // Get instance field reference: private System.Int32 _sampleRate
+    int& dyn__sampleRate();
+    // Get instance field reference: private System.Int32 _headerSize
+    int& dyn__headerSize();
+    // Get instance field reference: private System.Boolean _recording
+    bool& dyn__recording();
+    // Get instance field reference: private System.IO.FileStream _fileStream
+    System::IO::FileStream*& dyn__fileStream();
     // protected System.Void Awake()
     // Offset: 0x1257E70
     void Awake();

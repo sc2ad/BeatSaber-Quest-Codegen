@@ -34,14 +34,10 @@ namespace Mono::Math {
     static_assert(sizeof(Mono::Math::BigInteger*) == 0x8);
     // Creating value type constructor for type: ModulusRing
     ModulusRing(Mono::Math::BigInteger* mod_ = {}, Mono::Math::BigInteger* constant_ = {}) noexcept : mod{mod_}, constant{constant_} {}
-    // Get instance field: private Mono.Math.BigInteger mod
-    Mono::Math::BigInteger* _get_mod();
-    // Set instance field: private Mono.Math.BigInteger mod
-    void _set_mod(Mono::Math::BigInteger* value);
-    // Get instance field: private Mono.Math.BigInteger constant
-    Mono::Math::BigInteger* _get_constant();
-    // Set instance field: private Mono.Math.BigInteger constant
-    void _set_constant(Mono::Math::BigInteger* value);
+    // Get instance field reference: private Mono.Math.BigInteger mod
+    Mono::Math::BigInteger*& dyn_mod();
+    // Get instance field reference: private Mono.Math.BigInteger constant
+    Mono::Math::BigInteger*& dyn_constant();
     // public System.Void .ctor(Mono.Math.BigInteger modulus)
     // Offset: 0x1DFAB58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

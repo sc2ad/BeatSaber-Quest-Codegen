@@ -60,14 +60,10 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IBeatmapLevelData() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevelData*>(this);
     }
-    // Get instance field: private UnityEngine.AudioClip _audioClip
-    UnityEngine::AudioClip* _get__audioClip();
-    // Set instance field: private UnityEngine.AudioClip _audioClip
-    void _set__audioClip(UnityEngine::AudioClip* value);
-    // Get instance field: private BeatmapLevelDataLoaderSO/BeatmapLevelFromPreview/BeatmapLevelData/DifficultyBeatmapSet[] _difficultyBeatmapSets
-    ::Array<GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData::DifficultyBeatmapSet*>* _get__difficultyBeatmapSets();
-    // Set instance field: private BeatmapLevelDataLoaderSO/BeatmapLevelFromPreview/BeatmapLevelData/DifficultyBeatmapSet[] _difficultyBeatmapSets
-    void _set__difficultyBeatmapSets(::Array<GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData::DifficultyBeatmapSet*>* value);
+    // Get instance field reference: private UnityEngine.AudioClip _audioClip
+    UnityEngine::AudioClip*& dyn__audioClip();
+    // Get instance field reference: private BeatmapLevelDataLoaderSO/BeatmapLevelFromPreview/BeatmapLevelData/DifficultyBeatmapSet[] _difficultyBeatmapSets
+    ::Array<GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData::DifficultyBeatmapSet*>*& dyn__difficultyBeatmapSets();
     // public UnityEngine.AudioClip get_audioClip()
     // Offset: 0x11F8D30
     UnityEngine::AudioClip* get_audioClip();

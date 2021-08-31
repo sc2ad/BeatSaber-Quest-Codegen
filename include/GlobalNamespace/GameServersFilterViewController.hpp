@@ -129,58 +129,32 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: GameServersFilterViewController
     GameServersFilterViewController(UnityEngine::UI::Toggle* filterByDifficultyToggle_ = {}, UnityEngine::UI::Button* filterByDifficultyButton_ = {}, GlobalNamespace::BeatmapDifficultyDropdown* beatmapDifficultyDropdown_ = {}, UnityEngine::UI::Toggle* filterByModifiersToggle_ = {}, UnityEngine::UI::Button* filterByModifiersButton_ = {}, GlobalNamespace::GameplayModifiersDropdown* gameplayModifiersDropdown_ = {}, UnityEngine::UI::Toggle* filterBySongsToggle_ = {}, UnityEngine::UI::Button* filterBySongsButton_ = {}, GlobalNamespace::SongPacksDropdown* songPacksDropdown_ = {}, UnityEngine::UI::Toggle* showFullToggle_ = {}, UnityEngine::UI::Toggle* showPasswordProtectedToggle_ = {}, HMUI::ToggleBinder* toggleBinder_ = {}, bool showInternetGames_ = {}) noexcept : filterByDifficultyToggle{filterByDifficultyToggle_}, filterByDifficultyButton{filterByDifficultyButton_}, beatmapDifficultyDropdown{beatmapDifficultyDropdown_}, filterByModifiersToggle{filterByModifiersToggle_}, filterByModifiersButton{filterByModifiersButton_}, gameplayModifiersDropdown{gameplayModifiersDropdown_}, filterBySongsToggle{filterBySongsToggle_}, filterBySongsButton{filterBySongsButton_}, songPacksDropdown{songPacksDropdown_}, showFullToggle{showFullToggle_}, showPasswordProtectedToggle{showPasswordProtectedToggle_}, toggleBinder{toggleBinder_}, showInternetGames{showInternetGames_} {}
-    // Get instance field: private UnityEngine.UI.Toggle _filterByDifficultyToggle
-    UnityEngine::UI::Toggle* _get__filterByDifficultyToggle();
-    // Set instance field: private UnityEngine.UI.Toggle _filterByDifficultyToggle
-    void _set__filterByDifficultyToggle(UnityEngine::UI::Toggle* value);
-    // Get instance field: private UnityEngine.UI.Button _filterByDifficultyButton
-    UnityEngine::UI::Button* _get__filterByDifficultyButton();
-    // Set instance field: private UnityEngine.UI.Button _filterByDifficultyButton
-    void _set__filterByDifficultyButton(UnityEngine::UI::Button* value);
-    // Get instance field: private BeatmapDifficultyDropdown _beatmapDifficultyDropdown
-    GlobalNamespace::BeatmapDifficultyDropdown* _get__beatmapDifficultyDropdown();
-    // Set instance field: private BeatmapDifficultyDropdown _beatmapDifficultyDropdown
-    void _set__beatmapDifficultyDropdown(GlobalNamespace::BeatmapDifficultyDropdown* value);
-    // Get instance field: private UnityEngine.UI.Toggle _filterByModifiersToggle
-    UnityEngine::UI::Toggle* _get__filterByModifiersToggle();
-    // Set instance field: private UnityEngine.UI.Toggle _filterByModifiersToggle
-    void _set__filterByModifiersToggle(UnityEngine::UI::Toggle* value);
-    // Get instance field: private UnityEngine.UI.Button _filterByModifiersButton
-    UnityEngine::UI::Button* _get__filterByModifiersButton();
-    // Set instance field: private UnityEngine.UI.Button _filterByModifiersButton
-    void _set__filterByModifiersButton(UnityEngine::UI::Button* value);
-    // Get instance field: private GameplayModifiersDropdown _gameplayModifiersDropdown
-    GlobalNamespace::GameplayModifiersDropdown* _get__gameplayModifiersDropdown();
-    // Set instance field: private GameplayModifiersDropdown _gameplayModifiersDropdown
-    void _set__gameplayModifiersDropdown(GlobalNamespace::GameplayModifiersDropdown* value);
-    // Get instance field: private UnityEngine.UI.Toggle _filterBySongsToggle
-    UnityEngine::UI::Toggle* _get__filterBySongsToggle();
-    // Set instance field: private UnityEngine.UI.Toggle _filterBySongsToggle
-    void _set__filterBySongsToggle(UnityEngine::UI::Toggle* value);
-    // Get instance field: private UnityEngine.UI.Button _filterBySongsButton
-    UnityEngine::UI::Button* _get__filterBySongsButton();
-    // Set instance field: private UnityEngine.UI.Button _filterBySongsButton
-    void _set__filterBySongsButton(UnityEngine::UI::Button* value);
-    // Get instance field: private SongPacksDropdown _songPacksDropdown
-    GlobalNamespace::SongPacksDropdown* _get__songPacksDropdown();
-    // Set instance field: private SongPacksDropdown _songPacksDropdown
-    void _set__songPacksDropdown(GlobalNamespace::SongPacksDropdown* value);
-    // Get instance field: private UnityEngine.UI.Toggle _showFullToggle
-    UnityEngine::UI::Toggle* _get__showFullToggle();
-    // Set instance field: private UnityEngine.UI.Toggle _showFullToggle
-    void _set__showFullToggle(UnityEngine::UI::Toggle* value);
-    // Get instance field: private UnityEngine.UI.Toggle _showPasswordProtectedToggle
-    UnityEngine::UI::Toggle* _get__showPasswordProtectedToggle();
-    // Set instance field: private UnityEngine.UI.Toggle _showPasswordProtectedToggle
-    void _set__showPasswordProtectedToggle(UnityEngine::UI::Toggle* value);
-    // Get instance field: private readonly HMUI.ToggleBinder _toggleBinder
-    HMUI::ToggleBinder* _get__toggleBinder();
-    // Set instance field: private readonly HMUI.ToggleBinder _toggleBinder
-    void _set__toggleBinder(HMUI::ToggleBinder* value);
-    // Get instance field: private System.Boolean _showInternetGames
-    bool _get__showInternetGames();
-    // Set instance field: private System.Boolean _showInternetGames
-    void _set__showInternetGames(bool value);
+    // Get instance field reference: private UnityEngine.UI.Toggle _filterByDifficultyToggle
+    UnityEngine::UI::Toggle*& dyn__filterByDifficultyToggle();
+    // Get instance field reference: private UnityEngine.UI.Button _filterByDifficultyButton
+    UnityEngine::UI::Button*& dyn__filterByDifficultyButton();
+    // Get instance field reference: private BeatmapDifficultyDropdown _beatmapDifficultyDropdown
+    GlobalNamespace::BeatmapDifficultyDropdown*& dyn__beatmapDifficultyDropdown();
+    // Get instance field reference: private UnityEngine.UI.Toggle _filterByModifiersToggle
+    UnityEngine::UI::Toggle*& dyn__filterByModifiersToggle();
+    // Get instance field reference: private UnityEngine.UI.Button _filterByModifiersButton
+    UnityEngine::UI::Button*& dyn__filterByModifiersButton();
+    // Get instance field reference: private GameplayModifiersDropdown _gameplayModifiersDropdown
+    GlobalNamespace::GameplayModifiersDropdown*& dyn__gameplayModifiersDropdown();
+    // Get instance field reference: private UnityEngine.UI.Toggle _filterBySongsToggle
+    UnityEngine::UI::Toggle*& dyn__filterBySongsToggle();
+    // Get instance field reference: private UnityEngine.UI.Button _filterBySongsButton
+    UnityEngine::UI::Button*& dyn__filterBySongsButton();
+    // Get instance field reference: private SongPacksDropdown _songPacksDropdown
+    GlobalNamespace::SongPacksDropdown*& dyn__songPacksDropdown();
+    // Get instance field reference: private UnityEngine.UI.Toggle _showFullToggle
+    UnityEngine::UI::Toggle*& dyn__showFullToggle();
+    // Get instance field reference: private UnityEngine.UI.Toggle _showPasswordProtectedToggle
+    UnityEngine::UI::Toggle*& dyn__showPasswordProtectedToggle();
+    // Get instance field reference: private readonly HMUI.ToggleBinder _toggleBinder
+    HMUI::ToggleBinder*& dyn__toggleBinder();
+    // Get instance field reference: private System.Boolean _showInternetGames
+    bool& dyn__showInternetGames();
     // public GameServersFilter get_gameServersFilter()
     // Offset: 0x1109400
     GlobalNamespace::GameServersFilter* get_gameServersFilter();

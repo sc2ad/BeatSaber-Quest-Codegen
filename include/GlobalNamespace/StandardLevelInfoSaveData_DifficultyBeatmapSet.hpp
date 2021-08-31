@@ -34,14 +34,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmap*>*) == 0x8);
     // Creating value type constructor for type: DifficultyBeatmapSet
     DifficultyBeatmapSet(::Il2CppString* beatmapCharacteristicName_ = {}, ::Array<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmap*>* difficultyBeatmaps_ = {}) noexcept : beatmapCharacteristicName{beatmapCharacteristicName_}, difficultyBeatmaps{difficultyBeatmaps_} {}
-    // Get instance field: private System.String _beatmapCharacteristicName
-    ::Il2CppString* _get__beatmapCharacteristicName();
-    // Set instance field: private System.String _beatmapCharacteristicName
-    void _set__beatmapCharacteristicName(::Il2CppString* value);
-    // Get instance field: private StandardLevelInfoSaveData/DifficultyBeatmap[] _difficultyBeatmaps
-    ::Array<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmap*>* _get__difficultyBeatmaps();
-    // Set instance field: private StandardLevelInfoSaveData/DifficultyBeatmap[] _difficultyBeatmaps
-    void _set__difficultyBeatmaps(::Array<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmap*>* value);
+    // Get instance field reference: private System.String _beatmapCharacteristicName
+    ::Il2CppString*& dyn__beatmapCharacteristicName();
+    // Get instance field reference: private StandardLevelInfoSaveData/DifficultyBeatmap[] _difficultyBeatmaps
+    ::Array<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmap*>*& dyn__difficultyBeatmaps();
     // public System.String get_beatmapCharacteristicName()
     // Offset: 0x108C2E4
     ::Il2CppString* get_beatmapCharacteristicName();

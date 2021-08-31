@@ -97,34 +97,20 @@ namespace GlobalNamespace {
     PlayerHeightSettingsController(TMPro::TextMeshProUGUI* text_ = {}, UnityEngine::UI::Button* setButton_ = {}, GlobalNamespace::Vector3SO* roomCenter_ = {}, GlobalNamespace::IVRPlatformHelper* vrPlatformHelper_ = {}, System::Action_1<float>* valueDidChangeEvent_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}, float value_ = {}) noexcept : text{text_}, setButton{setButton_}, roomCenter{roomCenter_}, vrPlatformHelper{vrPlatformHelper_}, valueDidChangeEvent{valueDidChangeEvent_}, buttonBinder{buttonBinder_}, value{value_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private TMPro.TextMeshProUGUI _text
-    TMPro::TextMeshProUGUI* _get__text();
-    // Set instance field: private TMPro.TextMeshProUGUI _text
-    void _set__text(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private UnityEngine.UI.Button _setButton
-    UnityEngine::UI::Button* _get__setButton();
-    // Set instance field: private UnityEngine.UI.Button _setButton
-    void _set__setButton(UnityEngine::UI::Button* value);
-    // Get instance field: private Vector3SO _roomCenter
-    GlobalNamespace::Vector3SO* _get__roomCenter();
-    // Set instance field: private Vector3SO _roomCenter
-    void _set__roomCenter(GlobalNamespace::Vector3SO* value);
-    // Get instance field: private readonly IVRPlatformHelper _vrPlatformHelper
-    GlobalNamespace::IVRPlatformHelper* _get__vrPlatformHelper();
-    // Set instance field: private readonly IVRPlatformHelper _vrPlatformHelper
-    void _set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper* value);
-    // Get instance field: private System.Action`1<System.Single> valueDidChangeEvent
-    System::Action_1<float>* _get_valueDidChangeEvent();
-    // Set instance field: private System.Action`1<System.Single> valueDidChangeEvent
-    void _set_valueDidChangeEvent(System::Action_1<float>* value);
-    // Get instance field: private HMUI.ButtonBinder _buttonBinder
-    HMUI::ButtonBinder* _get__buttonBinder();
-    // Set instance field: private HMUI.ButtonBinder _buttonBinder
-    void _set__buttonBinder(HMUI::ButtonBinder* value);
-    // Get instance field: private System.Single _value
-    float _get__value();
-    // Set instance field: private System.Single _value
-    void _set__value(float value);
+    // Get instance field reference: private TMPro.TextMeshProUGUI _text
+    TMPro::TextMeshProUGUI*& dyn__text();
+    // Get instance field reference: private UnityEngine.UI.Button _setButton
+    UnityEngine::UI::Button*& dyn__setButton();
+    // Get instance field reference: private Vector3SO _roomCenter
+    GlobalNamespace::Vector3SO*& dyn__roomCenter();
+    // Get instance field reference: private readonly IVRPlatformHelper _vrPlatformHelper
+    GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
+    // Get instance field reference: private System.Action`1<System.Single> valueDidChangeEvent
+    System::Action_1<float>*& dyn_valueDidChangeEvent();
+    // Get instance field reference: private HMUI.ButtonBinder _buttonBinder
+    HMUI::ButtonBinder*& dyn__buttonBinder();
+    // Get instance field reference: private System.Single _value
+    float& dyn__value();
     // public System.Single get_value()
     // Offset: 0x113A858
     float get_value();

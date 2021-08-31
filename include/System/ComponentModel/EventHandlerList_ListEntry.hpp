@@ -43,18 +43,12 @@ namespace System::ComponentModel {
     static_assert(sizeof(System::Delegate*) == 0x8);
     // Creating value type constructor for type: ListEntry
     ListEntry(System::ComponentModel::EventHandlerList::ListEntry* next_ = {}, ::Il2CppObject* key_ = {}, System::Delegate* handler_ = {}) noexcept : next{next_}, key{key_}, handler{handler_} {}
-    // Get instance field: System.ComponentModel.EventHandlerList/System.ComponentModel.ListEntry next
-    System::ComponentModel::EventHandlerList::ListEntry* _get_next();
-    // Set instance field: System.ComponentModel.EventHandlerList/System.ComponentModel.ListEntry next
-    void _set_next(System::ComponentModel::EventHandlerList::ListEntry* value);
-    // Get instance field: System.Object key
-    ::Il2CppObject* _get_key();
-    // Set instance field: System.Object key
-    void _set_key(::Il2CppObject* value);
-    // Get instance field: System.Delegate handler
-    System::Delegate* _get_handler();
-    // Set instance field: System.Delegate handler
-    void _set_handler(System::Delegate* value);
+    // Get instance field reference: System.ComponentModel.EventHandlerList/System.ComponentModel.ListEntry next
+    System::ComponentModel::EventHandlerList::ListEntry*& dyn_next();
+    // Get instance field reference: System.Object key
+    ::Il2CppObject*& dyn_key();
+    // Get instance field reference: System.Delegate handler
+    System::Delegate*& dyn_handler();
   }; // System.ComponentModel.EventHandlerList/System.ComponentModel.ListEntry
   #pragma pack(pop)
   static check_size<sizeof(EventHandlerList::ListEntry), 32 + sizeof(System::Delegate*)> __System_ComponentModel_EventHandlerList_ListEntrySizeCheck;

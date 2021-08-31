@@ -41,10 +41,8 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(RootMotion::FinalIK::IKSolverLimb*) == 0x8);
     // Creating value type constructor for type: LimbIK
     LimbIK(RootMotion::FinalIK::IKSolverLimb* solver_ = {}) noexcept : solver{solver_} {}
-    // Get instance field: public RootMotion.FinalIK.IKSolverLimb solver
-    RootMotion::FinalIK::IKSolverLimb* _get_solver();
-    // Set instance field: public RootMotion.FinalIK.IKSolverLimb solver
-    void _set_solver(RootMotion::FinalIK::IKSolverLimb* value);
+    // Get instance field reference: public RootMotion.FinalIK.IKSolverLimb solver
+    RootMotion::FinalIK::IKSolverLimb*& dyn_solver();
     // private System.Void SupportGroup()
     // Offset: 0x1AD6E38
     void SupportGroup();

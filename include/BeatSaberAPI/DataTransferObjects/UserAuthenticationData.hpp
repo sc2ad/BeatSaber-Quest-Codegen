@@ -68,34 +68,20 @@ namespace BeatSaberAPI::DataTransferObjects {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: UserAuthenticationData
     UserAuthenticationData(BeatSaberAPI::DataTransferObjects::UserPlatform userPlatform_ = {}, BeatSaberAPI::DataTransferObjects::PlatformEnviroment platformEnviroment_ = {}, ::Il2CppString* platformUserId_ = {}, ::Il2CppString* platformAuthToken_ = {}, ::Il2CppString* bsAuthToken_ = {}, ::Il2CppString* gameBuildVersion_ = {}, ::Il2CppString* publicUserDisplayName_ = {}) noexcept : userPlatform{userPlatform_}, platformEnviroment{platformEnviroment_}, platformUserId{platformUserId_}, platformAuthToken{platformAuthToken_}, bsAuthToken{bsAuthToken_}, gameBuildVersion{gameBuildVersion_}, publicUserDisplayName{publicUserDisplayName_} {}
-    // Get instance field: public BeatSaberAPI.DataTransferObjects.UserPlatform userPlatform
-    BeatSaberAPI::DataTransferObjects::UserPlatform _get_userPlatform();
-    // Set instance field: public BeatSaberAPI.DataTransferObjects.UserPlatform userPlatform
-    void _set_userPlatform(BeatSaberAPI::DataTransferObjects::UserPlatform value);
-    // Get instance field: public BeatSaberAPI.DataTransferObjects.PlatformEnviroment platformEnviroment
-    BeatSaberAPI::DataTransferObjects::PlatformEnviroment _get_platformEnviroment();
-    // Set instance field: public BeatSaberAPI.DataTransferObjects.PlatformEnviroment platformEnviroment
-    void _set_platformEnviroment(BeatSaberAPI::DataTransferObjects::PlatformEnviroment value);
-    // Get instance field: public System.String platformUserId
-    ::Il2CppString* _get_platformUserId();
-    // Set instance field: public System.String platformUserId
-    void _set_platformUserId(::Il2CppString* value);
-    // Get instance field: public System.String platformAuthToken
-    ::Il2CppString* _get_platformAuthToken();
-    // Set instance field: public System.String platformAuthToken
-    void _set_platformAuthToken(::Il2CppString* value);
-    // Get instance field: public System.String bsAuthToken
-    ::Il2CppString* _get_bsAuthToken();
-    // Set instance field: public System.String bsAuthToken
-    void _set_bsAuthToken(::Il2CppString* value);
-    // Get instance field: public System.String gameBuildVersion
-    ::Il2CppString* _get_gameBuildVersion();
-    // Set instance field: public System.String gameBuildVersion
-    void _set_gameBuildVersion(::Il2CppString* value);
-    // Get instance field: public System.String publicUserDisplayName
-    ::Il2CppString* _get_publicUserDisplayName();
-    // Set instance field: public System.String publicUserDisplayName
-    void _set_publicUserDisplayName(::Il2CppString* value);
+    // Get instance field reference: public BeatSaberAPI.DataTransferObjects.UserPlatform userPlatform
+    BeatSaberAPI::DataTransferObjects::UserPlatform& dyn_userPlatform();
+    // Get instance field reference: public BeatSaberAPI.DataTransferObjects.PlatformEnviroment platformEnviroment
+    BeatSaberAPI::DataTransferObjects::PlatformEnviroment& dyn_platformEnviroment();
+    // Get instance field reference: public System.String platformUserId
+    ::Il2CppString*& dyn_platformUserId();
+    // Get instance field reference: public System.String platformAuthToken
+    ::Il2CppString*& dyn_platformAuthToken();
+    // Get instance field reference: public System.String bsAuthToken
+    ::Il2CppString*& dyn_bsAuthToken();
+    // Get instance field reference: public System.String gameBuildVersion
+    ::Il2CppString*& dyn_gameBuildVersion();
+    // Get instance field reference: public System.String publicUserDisplayName
+    ::Il2CppString*& dyn_publicUserDisplayName();
     // public System.Void .ctor()
     // Offset: 0x11E8D8C
     // Implemented from: System.Object

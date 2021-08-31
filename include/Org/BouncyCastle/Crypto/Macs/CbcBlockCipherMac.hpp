@@ -72,26 +72,16 @@ namespace Org::BouncyCastle::Crypto::Macs {
     operator Org::BouncyCastle::Crypto::IMac() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IMac*>(this);
     }
-    // Get instance field: private System.Byte[] buf
-    ::Array<uint8_t>* _get_buf();
-    // Set instance field: private System.Byte[] buf
-    void _set_buf(::Array<uint8_t>* value);
-    // Get instance field: private System.Int32 bufOff
-    int _get_bufOff();
-    // Set instance field: private System.Int32 bufOff
-    void _set_bufOff(int value);
-    // Get instance field: private Org.BouncyCastle.Crypto.IBlockCipher cipher
-    Org::BouncyCastle::Crypto::IBlockCipher* _get_cipher();
-    // Set instance field: private Org.BouncyCastle.Crypto.IBlockCipher cipher
-    void _set_cipher(Org::BouncyCastle::Crypto::IBlockCipher* value);
-    // Get instance field: private Org.BouncyCastle.Crypto.Paddings.IBlockCipherPadding padding
-    Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* _get_padding();
-    // Set instance field: private Org.BouncyCastle.Crypto.Paddings.IBlockCipherPadding padding
-    void _set_padding(Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* value);
-    // Get instance field: private System.Int32 macSize
-    int _get_macSize();
-    // Set instance field: private System.Int32 macSize
-    void _set_macSize(int value);
+    // Get instance field reference: private System.Byte[] buf
+    ::Array<uint8_t>*& dyn_buf();
+    // Get instance field reference: private System.Int32 bufOff
+    int& dyn_bufOff();
+    // Get instance field reference: private Org.BouncyCastle.Crypto.IBlockCipher cipher
+    Org::BouncyCastle::Crypto::IBlockCipher*& dyn_cipher();
+    // Get instance field reference: private Org.BouncyCastle.Crypto.Paddings.IBlockCipherPadding padding
+    Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*& dyn_padding();
+    // Get instance field reference: private System.Int32 macSize
+    int& dyn_macSize();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher)
     // Offset: 0x190C2B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

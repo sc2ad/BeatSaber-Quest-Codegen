@@ -68,14 +68,10 @@ namespace Zenject {
     operator Zenject::IPrefabInstantiator() noexcept {
       return *reinterpret_cast<Zenject::IPrefabInstantiator*>(this);
     }
-    // Get instance field: private readonly Zenject.IPrefabInstantiator _subInstantiator
-    Zenject::IPrefabInstantiator* _get__subInstantiator();
-    // Set instance field: private readonly Zenject.IPrefabInstantiator _subInstantiator
-    void _set__subInstantiator(Zenject::IPrefabInstantiator* value);
-    // Get instance field: private UnityEngine.GameObject _gameObject
-    UnityEngine::GameObject* _get__gameObject();
-    // Set instance field: private UnityEngine.GameObject _gameObject
-    void _set__gameObject(UnityEngine::GameObject* value);
+    // Get instance field reference: private readonly Zenject.IPrefabInstantiator _subInstantiator
+    Zenject::IPrefabInstantiator*& dyn__subInstantiator();
+    // Get instance field reference: private UnityEngine.GameObject _gameObject
+    UnityEngine::GameObject*& dyn__gameObject();
     // public System.Collections.Generic.List`1<Zenject.TypeValuePair> get_ExtraArguments()
     // Offset: 0x171687C
     System::Collections::Generic::List_1<Zenject::TypeValuePair>* get_ExtraArguments();

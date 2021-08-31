@@ -52,14 +52,10 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerInteger*) == 0x8);
     // Creating value type constructor for type: PbeParameter
     PbeParameter(Org::BouncyCastle::Asn1::Asn1OctetString* salt_ = {}, Org::BouncyCastle::Asn1::DerInteger* iterationCount_ = {}) noexcept : salt{salt_}, iterationCount{iterationCount_} {}
-    // Get instance field: private readonly Org.BouncyCastle.Asn1.Asn1OctetString salt
-    Org::BouncyCastle::Asn1::Asn1OctetString* _get_salt();
-    // Set instance field: private readonly Org.BouncyCastle.Asn1.Asn1OctetString salt
-    void _set_salt(Org::BouncyCastle::Asn1::Asn1OctetString* value);
-    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerInteger iterationCount
-    Org::BouncyCastle::Asn1::DerInteger* _get_iterationCount();
-    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerInteger iterationCount
-    void _set_iterationCount(Org::BouncyCastle::Asn1::DerInteger* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1OctetString salt
+    Org::BouncyCastle::Asn1::Asn1OctetString*& dyn_salt();
+    // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerInteger iterationCount
+    Org::BouncyCastle::Asn1::DerInteger*& dyn_iterationCount();
     // public Org.BouncyCastle.Math.BigInteger get_IterationCount()
     // Offset: 0x17B198C
     Org::BouncyCastle::Math::BigInteger* get_IterationCount();

@@ -61,22 +61,14 @@ namespace Org::BouncyCastle::Asn1 {
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
-    // Get instance field: private readonly System.Byte[] octets
-    ::Array<uint8_t>* _get_octets();
-    // Set instance field: private readonly System.Byte[] octets
-    void _set_octets(::Array<uint8_t>* value);
-    // Get instance field: private readonly System.Int32 chunkSize
-    int _get_chunkSize();
-    // Set instance field: private readonly System.Int32 chunkSize
-    void _set_chunkSize(int value);
-    // Get instance field: private Org.BouncyCastle.Asn1.DerOctetString currentChunk
-    Org::BouncyCastle::Asn1::DerOctetString* _get_currentChunk();
-    // Set instance field: private Org.BouncyCastle.Asn1.DerOctetString currentChunk
-    void _set_currentChunk(Org::BouncyCastle::Asn1::DerOctetString* value);
-    // Get instance field: private System.Int32 nextChunkPos
-    int _get_nextChunkPos();
-    // Set instance field: private System.Int32 nextChunkPos
-    void _set_nextChunkPos(int value);
+    // Get instance field reference: private readonly System.Byte[] octets
+    ::Array<uint8_t>*& dyn_octets();
+    // Get instance field reference: private readonly System.Int32 chunkSize
+    int& dyn_chunkSize();
+    // Get instance field reference: private Org.BouncyCastle.Asn1.DerOctetString currentChunk
+    Org::BouncyCastle::Asn1::DerOctetString*& dyn_currentChunk();
+    // Get instance field reference: private System.Int32 nextChunkPos
+    int& dyn_nextChunkPos();
     // public System.Object get_Current()
     // Offset: 0x172EFAC
     ::Il2CppObject* get_Current();

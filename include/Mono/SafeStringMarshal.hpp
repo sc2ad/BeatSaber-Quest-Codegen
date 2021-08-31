@@ -47,14 +47,10 @@ namespace Mono {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
-    // Get instance field: private readonly System.String str
-    ::Il2CppString* _get_str();
-    // Set instance field: private readonly System.String str
-    void _set_str(::Il2CppString* value);
-    // Get instance field: private System.IntPtr marshaled_string
-    System::IntPtr _get_marshaled_string();
-    // Set instance field: private System.IntPtr marshaled_string
-    void _set_marshaled_string(System::IntPtr value);
+    // Get instance field reference: private readonly System.String str
+    ::Il2CppString*& dyn_str();
+    // Get instance field reference: private System.IntPtr marshaled_string
+    System::IntPtr& dyn_marshaled_string();
     // public System.IntPtr get_Value()
     // Offset: 0x1A73F20
     System::IntPtr get_Value();

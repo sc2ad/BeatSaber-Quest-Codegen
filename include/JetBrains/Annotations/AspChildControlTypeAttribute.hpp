@@ -42,14 +42,10 @@ namespace JetBrains::Annotations {
     static_assert(sizeof(System::Type*) == 0x8);
     // Creating value type constructor for type: AspChildControlTypeAttribute
     AspChildControlTypeAttribute(::Il2CppString* TagName_ = {}, System::Type* ControlType_ = {}) noexcept : TagName{TagName_}, ControlType{ControlType_} {}
-    // Get instance field: private System.String <TagName>k__BackingField
-    ::Il2CppString* _get_$TagName$k__BackingField();
-    // Set instance field: private System.String <TagName>k__BackingField
-    void _set_$TagName$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.Type <ControlType>k__BackingField
-    System::Type* _get_$ControlType$k__BackingField();
-    // Set instance field: private System.Type <ControlType>k__BackingField
-    void _set_$ControlType$k__BackingField(System::Type* value);
+    // Get instance field reference: private System.String <TagName>k__BackingField
+    ::Il2CppString*& dyn_$TagName$k__BackingField();
+    // Get instance field reference: private System.Type <ControlType>k__BackingField
+    System::Type*& dyn_$ControlType$k__BackingField();
     // public System.String get_TagName()
     // Offset: 0x2407F90
     ::Il2CppString* get_TagName();

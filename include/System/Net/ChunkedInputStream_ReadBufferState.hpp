@@ -61,26 +61,16 @@ namespace System::Net {
     static_assert(sizeof(System::Net::HttpStreamAsyncResult*) == 0x8);
     // Creating value type constructor for type: ReadBufferState
     ReadBufferState(::Array<uint8_t>* Buffer_ = {}, int Offset_ = {}, int Count_ = {}, int InitialCount_ = {}, System::Net::HttpStreamAsyncResult* Ares_ = {}) noexcept : Buffer{Buffer_}, Offset{Offset_}, Count{Count_}, InitialCount{InitialCount_}, Ares{Ares_} {}
-    // Get instance field: public System.Byte[] Buffer
-    ::Array<uint8_t>* _get_Buffer();
-    // Set instance field: public System.Byte[] Buffer
-    void _set_Buffer(::Array<uint8_t>* value);
-    // Get instance field: public System.Int32 Offset
-    int _get_Offset();
-    // Set instance field: public System.Int32 Offset
-    void _set_Offset(int value);
-    // Get instance field: public System.Int32 Count
-    int _get_Count();
-    // Set instance field: public System.Int32 Count
-    void _set_Count(int value);
-    // Get instance field: public System.Int32 InitialCount
-    int _get_InitialCount();
-    // Set instance field: public System.Int32 InitialCount
-    void _set_InitialCount(int value);
-    // Get instance field: public System.Net.HttpStreamAsyncResult Ares
-    System::Net::HttpStreamAsyncResult* _get_Ares();
-    // Set instance field: public System.Net.HttpStreamAsyncResult Ares
-    void _set_Ares(System::Net::HttpStreamAsyncResult* value);
+    // Get instance field reference: public System.Byte[] Buffer
+    ::Array<uint8_t>*& dyn_Buffer();
+    // Get instance field reference: public System.Int32 Offset
+    int& dyn_Offset();
+    // Get instance field reference: public System.Int32 Count
+    int& dyn_Count();
+    // Get instance field reference: public System.Int32 InitialCount
+    int& dyn_InitialCount();
+    // Get instance field reference: public System.Net.HttpStreamAsyncResult Ares
+    System::Net::HttpStreamAsyncResult*& dyn_Ares();
     // public System.Void .ctor(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Net.HttpStreamAsyncResult ares)
     // Offset: 0x16CF998
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

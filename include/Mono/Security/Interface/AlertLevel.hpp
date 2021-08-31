@@ -44,10 +44,8 @@ namespace Mono::Security::Interface {
     static Mono::Security::Interface::AlertLevel _get_Fatal();
     // Set static field: static public Mono.Security.Interface.AlertLevel Fatal
     static void _set_Fatal(Mono::Security::Interface::AlertLevel value);
-    // Get instance field: public System.Byte value__
-    uint8_t _get_value__();
-    // Set instance field: public System.Byte value__
-    void _set_value__(uint8_t value);
+    // Get instance field reference: public System.Byte value__
+    uint8_t& dyn_value__();
   }; // Mono.Security.Interface.AlertLevel
   #pragma pack(pop)
   static check_size<sizeof(AlertLevel), 0 + sizeof(uint8_t)> __Mono_Security_Interface_AlertLevelSizeCheck;

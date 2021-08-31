@@ -98,38 +98,22 @@ namespace GlobalNamespace {
     MultiplayerPositionHUDController(TMPro::TextMeshProUGUI* playerCountText_ = {}, TMPro::TextMeshProUGUI* positionText_ = {}, UnityEngine::CanvasGroup* canvasGroup_ = {}, UnityEngine::GameObject* firstPlayerAnimationGo_ = {}, GlobalNamespace::MultiplayerScoreProvider* scoreProvider_ = {}, GlobalNamespace::MultiplayerPlayersManager* playersManager_ = {}, GlobalNamespace::CoreGameHUDController::InitData* initData_ = {}, int prevPosition_ = {}) noexcept : playerCountText{playerCountText_}, positionText{positionText_}, canvasGroup{canvasGroup_}, firstPlayerAnimationGo{firstPlayerAnimationGo_}, scoreProvider{scoreProvider_}, playersManager{playersManager_}, initData{initData_}, prevPosition{prevPosition_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private TMPro.TextMeshProUGUI _playerCountText
-    TMPro::TextMeshProUGUI* _get__playerCountText();
-    // Set instance field: private TMPro.TextMeshProUGUI _playerCountText
-    void _set__playerCountText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _positionText
-    TMPro::TextMeshProUGUI* _get__positionText();
-    // Set instance field: private TMPro.TextMeshProUGUI _positionText
-    void _set__positionText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private UnityEngine.CanvasGroup _canvasGroup
-    UnityEngine::CanvasGroup* _get__canvasGroup();
-    // Set instance field: private UnityEngine.CanvasGroup _canvasGroup
-    void _set__canvasGroup(UnityEngine::CanvasGroup* value);
-    // Get instance field: private UnityEngine.GameObject _firstPlayerAnimationGo
-    UnityEngine::GameObject* _get__firstPlayerAnimationGo();
-    // Set instance field: private UnityEngine.GameObject _firstPlayerAnimationGo
-    void _set__firstPlayerAnimationGo(UnityEngine::GameObject* value);
-    // Get instance field: private readonly MultiplayerScoreProvider _scoreProvider
-    GlobalNamespace::MultiplayerScoreProvider* _get__scoreProvider();
-    // Set instance field: private readonly MultiplayerScoreProvider _scoreProvider
-    void _set__scoreProvider(GlobalNamespace::MultiplayerScoreProvider* value);
-    // Get instance field: private readonly MultiplayerPlayersManager _playersManager
-    GlobalNamespace::MultiplayerPlayersManager* _get__playersManager();
-    // Set instance field: private readonly MultiplayerPlayersManager _playersManager
-    void _set__playersManager(GlobalNamespace::MultiplayerPlayersManager* value);
-    // Get instance field: private readonly CoreGameHUDController/InitData _initData
-    GlobalNamespace::CoreGameHUDController::InitData* _get__initData();
-    // Set instance field: private readonly CoreGameHUDController/InitData _initData
-    void _set__initData(GlobalNamespace::CoreGameHUDController::InitData* value);
-    // Get instance field: private System.Int32 _prevPosition
-    int _get__prevPosition();
-    // Set instance field: private System.Int32 _prevPosition
-    void _set__prevPosition(int value);
+    // Get instance field reference: private TMPro.TextMeshProUGUI _playerCountText
+    TMPro::TextMeshProUGUI*& dyn__playerCountText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _positionText
+    TMPro::TextMeshProUGUI*& dyn__positionText();
+    // Get instance field reference: private UnityEngine.CanvasGroup _canvasGroup
+    UnityEngine::CanvasGroup*& dyn__canvasGroup();
+    // Get instance field reference: private UnityEngine.GameObject _firstPlayerAnimationGo
+    UnityEngine::GameObject*& dyn__firstPlayerAnimationGo();
+    // Get instance field reference: private readonly MultiplayerScoreProvider _scoreProvider
+    GlobalNamespace::MultiplayerScoreProvider*& dyn__scoreProvider();
+    // Get instance field reference: private readonly MultiplayerPlayersManager _playersManager
+    GlobalNamespace::MultiplayerPlayersManager*& dyn__playersManager();
+    // Get instance field reference: private readonly CoreGameHUDController/InitData _initData
+    GlobalNamespace::CoreGameHUDController::InitData*& dyn__initData();
+    // Get instance field reference: private System.Int32 _prevPosition
+    int& dyn__prevPosition();
     // public System.Void set_alpha(System.Single value)
     // Offset: 0x1067288
     void set_alpha(float value);

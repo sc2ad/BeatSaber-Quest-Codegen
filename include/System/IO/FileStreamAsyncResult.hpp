@@ -98,42 +98,24 @@ namespace System::IO {
     operator System::IAsyncResult() noexcept {
       return *reinterpret_cast<System::IAsyncResult*>(this);
     }
-    // Get instance field: private System.Object state
-    ::Il2CppObject* _get_state();
-    // Set instance field: private System.Object state
-    void _set_state(::Il2CppObject* value);
-    // Get instance field: private System.Boolean completed
-    bool _get_completed();
-    // Set instance field: private System.Boolean completed
-    void _set_completed(bool value);
-    // Get instance field: private System.Threading.ManualResetEvent wh
-    System::Threading::ManualResetEvent* _get_wh();
-    // Set instance field: private System.Threading.ManualResetEvent wh
-    void _set_wh(System::Threading::ManualResetEvent* value);
-    // Get instance field: private System.AsyncCallback cb
-    System::AsyncCallback* _get_cb();
-    // Set instance field: private System.AsyncCallback cb
-    void _set_cb(System::AsyncCallback* value);
-    // Get instance field: private System.Boolean completedSynch
-    bool _get_completedSynch();
-    // Set instance field: private System.Boolean completedSynch
-    void _set_completedSynch(bool value);
-    // Get instance field: public System.Int32 Count
-    int _get_Count();
-    // Set instance field: public System.Int32 Count
-    void _set_Count(int value);
-    // Get instance field: public System.Int32 OriginalCount
-    int _get_OriginalCount();
-    // Set instance field: public System.Int32 OriginalCount
-    void _set_OriginalCount(int value);
-    // Get instance field: public System.Int32 BytesRead
-    int _get_BytesRead();
-    // Set instance field: public System.Int32 BytesRead
-    void _set_BytesRead(int value);
-    // Get instance field: private System.AsyncCallback realcb
-    System::AsyncCallback* _get_realcb();
-    // Set instance field: private System.AsyncCallback realcb
-    void _set_realcb(System::AsyncCallback* value);
+    // Get instance field reference: private System.Object state
+    ::Il2CppObject*& dyn_state();
+    // Get instance field reference: private System.Boolean completed
+    bool& dyn_completed();
+    // Get instance field reference: private System.Threading.ManualResetEvent wh
+    System::Threading::ManualResetEvent*& dyn_wh();
+    // Get instance field reference: private System.AsyncCallback cb
+    System::AsyncCallback*& dyn_cb();
+    // Get instance field reference: private System.Boolean completedSynch
+    bool& dyn_completedSynch();
+    // Get instance field reference: public System.Int32 Count
+    int& dyn_Count();
+    // Get instance field reference: public System.Int32 OriginalCount
+    int& dyn_OriginalCount();
+    // Get instance field reference: public System.Int32 BytesRead
+    int& dyn_BytesRead();
+    // Get instance field reference: private System.AsyncCallback realcb
+    System::AsyncCallback*& dyn_realcb();
     // public System.Object get_AsyncState()
     // Offset: 0x1976038
     ::Il2CppObject* get_AsyncState();

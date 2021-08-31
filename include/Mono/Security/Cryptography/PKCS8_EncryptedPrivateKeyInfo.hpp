@@ -48,22 +48,14 @@ namespace Mono::Security::Cryptography {
     static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // Creating value type constructor for type: EncryptedPrivateKeyInfo
     EncryptedPrivateKeyInfo(::Il2CppString* algorithm_ = {}, ::Array<uint8_t>* salt_ = {}, int iterations_ = {}, ::Array<uint8_t>* data_ = {}) noexcept : algorithm{algorithm_}, salt{salt_}, iterations{iterations_}, data{data_} {}
-    // Get instance field: private System.String _algorithm
-    ::Il2CppString* _get__algorithm();
-    // Set instance field: private System.String _algorithm
-    void _set__algorithm(::Il2CppString* value);
-    // Get instance field: private System.Byte[] _salt
-    ::Array<uint8_t>* _get__salt();
-    // Set instance field: private System.Byte[] _salt
-    void _set__salt(::Array<uint8_t>* value);
-    // Get instance field: private System.Int32 _iterations
-    int _get__iterations();
-    // Set instance field: private System.Int32 _iterations
-    void _set__iterations(int value);
-    // Get instance field: private System.Byte[] _data
-    ::Array<uint8_t>* _get__data();
-    // Set instance field: private System.Byte[] _data
-    void _set__data(::Array<uint8_t>* value);
+    // Get instance field reference: private System.String _algorithm
+    ::Il2CppString*& dyn__algorithm();
+    // Get instance field reference: private System.Byte[] _salt
+    ::Array<uint8_t>*& dyn__salt();
+    // Get instance field reference: private System.Int32 _iterations
+    int& dyn__iterations();
+    // Get instance field reference: private System.Byte[] _data
+    ::Array<uint8_t>*& dyn__data();
     // public System.String get_Algorithm()
     // Offset: 0x1E02444
     ::Il2CppString* get_Algorithm();

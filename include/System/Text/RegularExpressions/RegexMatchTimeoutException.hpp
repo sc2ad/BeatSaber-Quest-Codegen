@@ -49,18 +49,12 @@ namespace System::Text::RegularExpressions {
     static_assert(sizeof(System::TimeSpan) == 0x8);
     // Creating value type constructor for type: RegexMatchTimeoutException
     RegexMatchTimeoutException(::Il2CppString* regexInput_ = {}, ::Il2CppString* regexPattern_ = {}, System::TimeSpan matchTimeout_ = {}) noexcept : regexInput{regexInput_}, regexPattern{regexPattern_}, matchTimeout{matchTimeout_} {}
-    // Get instance field: private System.String regexInput
-    ::Il2CppString* _get_regexInput();
-    // Set instance field: private System.String regexInput
-    void _set_regexInput(::Il2CppString* value);
-    // Get instance field: private System.String regexPattern
-    ::Il2CppString* _get_regexPattern();
-    // Set instance field: private System.String regexPattern
-    void _set_regexPattern(::Il2CppString* value);
-    // Get instance field: private System.TimeSpan matchTimeout
-    System::TimeSpan _get_matchTimeout();
-    // Set instance field: private System.TimeSpan matchTimeout
-    void _set_matchTimeout(System::TimeSpan value);
+    // Get instance field reference: private System.String regexInput
+    ::Il2CppString*& dyn_regexInput();
+    // Get instance field reference: private System.String regexPattern
+    ::Il2CppString*& dyn_regexPattern();
+    // Get instance field reference: private System.TimeSpan matchTimeout
+    System::TimeSpan& dyn_matchTimeout();
     // public System.Void .ctor(System.String regexInput, System.String regexPattern, System.TimeSpan matchTimeout)
     // Offset: 0x1999E54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

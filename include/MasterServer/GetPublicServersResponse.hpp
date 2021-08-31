@@ -90,10 +90,8 @@ namespace MasterServer {
       static MasterServer::GetPublicServersResponse::Result _get_UnknownError();
       // Set static field: static public MasterServer.GetPublicServersResponse/MasterServer.Result UnknownError
       static void _set_UnknownError(MasterServer::GetPublicServersResponse::Result value);
-      // Get instance field: public System.Byte value__
-      uint8_t _get_value__();
-      // Set instance field: public System.Byte value__
-      void _set_value__(uint8_t value);
+      // Get instance field reference: public System.Byte value__
+      uint8_t& dyn_value__();
     }; // MasterServer.GetPublicServersResponse/MasterServer.Result
     #pragma pack(pop)
     static check_size<sizeof(GetPublicServersResponse::Result), 0 + sizeof(uint8_t)> __MasterServer_GetPublicServersResponse_ResultSizeCheck;
@@ -118,14 +116,10 @@ namespace MasterServer {
     operator MasterServer::IUserServerToClientMessage() noexcept {
       return *reinterpret_cast<MasterServer::IUserServerToClientMessage*>(this);
     }
-    // Get instance field: public MasterServer.GetPublicServersResponse/MasterServer.Result result
-    MasterServer::GetPublicServersResponse::Result _get_result();
-    // Set instance field: public MasterServer.GetPublicServersResponse/MasterServer.Result result
-    void _set_result(MasterServer::GetPublicServersResponse::Result value);
-    // Get instance field: public readonly System.Collections.Generic.List`1<PublicServerInfo> publicServers
-    System::Collections::Generic::List_1<GlobalNamespace::PublicServerInfo>* _get_publicServers();
-    // Set instance field: public readonly System.Collections.Generic.List`1<PublicServerInfo> publicServers
-    void _set_publicServers(System::Collections::Generic::List_1<GlobalNamespace::PublicServerInfo>* value);
+    // Get instance field reference: public MasterServer.GetPublicServersResponse/MasterServer.Result result
+    MasterServer::GetPublicServersResponse::Result& dyn_result();
+    // Get instance field reference: public readonly System.Collections.Generic.List`1<PublicServerInfo> publicServers
+    System::Collections::Generic::List_1<GlobalNamespace::PublicServerInfo>*& dyn_publicServers();
     // static public IPacketPool`1<MasterServer.GetPublicServersResponse> get_pool()
     // Offset: 0x1217768
     static GlobalNamespace::IPacketPool_1<MasterServer::GetPublicServersResponse*>* get_pool();

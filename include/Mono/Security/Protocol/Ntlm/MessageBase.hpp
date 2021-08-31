@@ -38,14 +38,10 @@ namespace Mono::Security::Protocol::Ntlm {
     static ::Array<uint8_t>* _get_header();
     // Set static field: static private System.Byte[] header
     static void _set_header(::Array<uint8_t>* value);
-    // Get instance field: private System.Int32 _type
-    int _get__type();
-    // Set instance field: private System.Int32 _type
-    void _set__type(int value);
-    // Get instance field: private Mono.Security.Protocol.Ntlm.NtlmFlags _flags
-    Mono::Security::Protocol::Ntlm::NtlmFlags _get__flags();
-    // Set instance field: private Mono.Security.Protocol.Ntlm.NtlmFlags _flags
-    void _set__flags(Mono::Security::Protocol::Ntlm::NtlmFlags value);
+    // Get instance field reference: private System.Int32 _type
+    int& dyn__type();
+    // Get instance field reference: private Mono.Security.Protocol.Ntlm.NtlmFlags _flags
+    Mono::Security::Protocol::Ntlm::NtlmFlags& dyn__flags();
     // public Mono.Security.Protocol.Ntlm.NtlmFlags get_Flags()
     // Offset: 0x1E081F0
     Mono::Security::Protocol::Ntlm::NtlmFlags get_Flags();

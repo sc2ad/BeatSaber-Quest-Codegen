@@ -173,78 +173,42 @@ namespace TMPro {
     operator UnityEngine::UI::ILayoutElement() noexcept {
       return *reinterpret_cast<UnityEngine::UI::ILayoutElement*>(this);
     }
-    // Get instance field: private System.Boolean m_hasFontAssetChanged
-    bool _get_m_hasFontAssetChanged();
-    // Set instance field: private System.Boolean m_hasFontAssetChanged
-    void _set_m_hasFontAssetChanged(bool value);
-    // Get instance field: protected TMPro.TMP_SubMeshUI[] m_subTextObjects
-    ::Array<TMPro::TMP_SubMeshUI*>* _get_m_subTextObjects();
-    // Set instance field: protected TMPro.TMP_SubMeshUI[] m_subTextObjects
-    void _set_m_subTextObjects(::Array<TMPro::TMP_SubMeshUI*>* value);
-    // Get instance field: private System.Single m_previousLossyScaleY
-    float _get_m_previousLossyScaleY();
-    // Set instance field: private System.Single m_previousLossyScaleY
-    void _set_m_previousLossyScaleY(float value);
-    // Get instance field: private UnityEngine.Vector3[] m_RectTransformCorners
-    ::Array<UnityEngine::Vector3>* _get_m_RectTransformCorners();
-    // Set instance field: private UnityEngine.Vector3[] m_RectTransformCorners
-    void _set_m_RectTransformCorners(::Array<UnityEngine::Vector3>* value);
-    // Get instance field: private UnityEngine.CanvasRenderer m_canvasRenderer
-    UnityEngine::CanvasRenderer* _get_m_canvasRenderer();
-    // Set instance field: private UnityEngine.CanvasRenderer m_canvasRenderer
-    void _set_m_canvasRenderer(UnityEngine::CanvasRenderer* value);
-    // Get instance field: private UnityEngine.Canvas m_canvas
-    UnityEngine::Canvas* _get_m_canvas();
-    // Set instance field: private UnityEngine.Canvas m_canvas
-    void _set_m_canvas(UnityEngine::Canvas* value);
-    // Get instance field: private System.Boolean m_isFirstAllocation
-    bool _get_m_isFirstAllocation();
-    // Set instance field: private System.Boolean m_isFirstAllocation
-    void _set_m_isFirstAllocation(bool value);
-    // Get instance field: private System.Int32 m_max_characters
-    int _get_m_max_characters();
-    // Set instance field: private System.Int32 m_max_characters
-    void _set_m_max_characters(int value);
-    // Get instance field: private System.Boolean m_isMaskingEnabled
-    bool _get_m_isMaskingEnabled();
-    // Set instance field: private System.Boolean m_isMaskingEnabled
-    void _set_m_isMaskingEnabled(bool value);
-    // Get instance field: private UnityEngine.Material m_baseMaterial
-    UnityEngine::Material* _get_m_baseMaterial();
-    // Set instance field: private UnityEngine.Material m_baseMaterial
-    void _set_m_baseMaterial(UnityEngine::Material* value);
-    // Get instance field: private System.Boolean m_isScrollRegionSet
-    bool _get_m_isScrollRegionSet();
-    // Set instance field: private System.Boolean m_isScrollRegionSet
-    void _set_m_isScrollRegionSet(bool value);
-    // Get instance field: private System.Int32 m_stencilID
-    int _get_m_stencilID();
-    // Set instance field: private System.Int32 m_stencilID
-    void _set_m_stencilID(int value);
-    // Get instance field: private UnityEngine.Vector4 m_maskOffset
-    UnityEngine::Vector4 _get_m_maskOffset();
-    // Set instance field: private UnityEngine.Vector4 m_maskOffset
-    void _set_m_maskOffset(UnityEngine::Vector4 value);
-    // Get instance field: private UnityEngine.Matrix4x4 m_EnvMapMatrix
-    UnityEngine::Matrix4x4 _get_m_EnvMapMatrix();
-    // Set instance field: private UnityEngine.Matrix4x4 m_EnvMapMatrix
-    void _set_m_EnvMapMatrix(UnityEngine::Matrix4x4 value);
-    // Get instance field: private System.Boolean m_isRegisteredForEvents
-    bool _get_m_isRegisteredForEvents();
-    // Set instance field: private System.Boolean m_isRegisteredForEvents
-    void _set_m_isRegisteredForEvents(bool value);
-    // Get instance field: private System.Int32 m_recursiveCountA
-    int _get_m_recursiveCountA();
-    // Set instance field: private System.Int32 m_recursiveCountA
-    void _set_m_recursiveCountA(int value);
-    // Get instance field: private System.Int32 loopCountA
-    int _get_loopCountA();
-    // Set instance field: private System.Int32 loopCountA
-    void _set_loopCountA(int value);
-    // Get instance field: private System.Boolean m_isRebuildingLayout
-    bool _get_m_isRebuildingLayout();
-    // Set instance field: private System.Boolean m_isRebuildingLayout
-    void _set_m_isRebuildingLayout(bool value);
+    // Get instance field reference: private System.Boolean m_hasFontAssetChanged
+    bool& dyn_m_hasFontAssetChanged();
+    // Get instance field reference: protected TMPro.TMP_SubMeshUI[] m_subTextObjects
+    ::Array<TMPro::TMP_SubMeshUI*>*& dyn_m_subTextObjects();
+    // Get instance field reference: private System.Single m_previousLossyScaleY
+    float& dyn_m_previousLossyScaleY();
+    // Get instance field reference: private UnityEngine.Vector3[] m_RectTransformCorners
+    ::Array<UnityEngine::Vector3>*& dyn_m_RectTransformCorners();
+    // Get instance field reference: private UnityEngine.CanvasRenderer m_canvasRenderer
+    UnityEngine::CanvasRenderer*& dyn_m_canvasRenderer();
+    // Get instance field reference: private UnityEngine.Canvas m_canvas
+    UnityEngine::Canvas*& dyn_m_canvas();
+    // Get instance field reference: private System.Boolean m_isFirstAllocation
+    bool& dyn_m_isFirstAllocation();
+    // Get instance field reference: private System.Int32 m_max_characters
+    int& dyn_m_max_characters();
+    // Get instance field reference: private System.Boolean m_isMaskingEnabled
+    bool& dyn_m_isMaskingEnabled();
+    // Get instance field reference: private UnityEngine.Material m_baseMaterial
+    UnityEngine::Material*& dyn_m_baseMaterial();
+    // Get instance field reference: private System.Boolean m_isScrollRegionSet
+    bool& dyn_m_isScrollRegionSet();
+    // Get instance field reference: private System.Int32 m_stencilID
+    int& dyn_m_stencilID();
+    // Get instance field reference: private UnityEngine.Vector4 m_maskOffset
+    UnityEngine::Vector4& dyn_m_maskOffset();
+    // Get instance field reference: private UnityEngine.Matrix4x4 m_EnvMapMatrix
+    UnityEngine::Matrix4x4& dyn_m_EnvMapMatrix();
+    // Get instance field reference: private System.Boolean m_isRegisteredForEvents
+    bool& dyn_m_isRegisteredForEvents();
+    // Get instance field reference: private System.Int32 m_recursiveCountA
+    int& dyn_m_recursiveCountA();
+    // Get instance field reference: private System.Int32 loopCountA
+    int& dyn_loopCountA();
+    // Get instance field reference: private System.Boolean m_isRebuildingLayout
+    bool& dyn_m_isRebuildingLayout();
     // public UnityEngine.Vector4 get_maskOffset()
     // Offset: 0x1C3DD88
     UnityEngine::Vector4 get_maskOffset();

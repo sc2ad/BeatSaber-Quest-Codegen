@@ -56,26 +56,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::XR::XRNode) == 0x4);
     // Creating value type constructor for type: HapticInfo
     HapticInfo(bool playingHaptics_ = {}, float hapticsDurationPlayed_ = {}, float hapticsDuration_ = {}, float hapticAmplitude_ = {}, UnityEngine::XR::XRNode node_ = {}) noexcept : playingHaptics{playingHaptics_}, hapticsDurationPlayed{hapticsDurationPlayed_}, hapticsDuration{hapticsDuration_}, hapticAmplitude{hapticAmplitude_}, node{node_} {}
-    // Get instance field: public System.Boolean playingHaptics
-    bool _get_playingHaptics();
-    // Set instance field: public System.Boolean playingHaptics
-    void _set_playingHaptics(bool value);
-    // Get instance field: public System.Single hapticsDurationPlayed
-    float _get_hapticsDurationPlayed();
-    // Set instance field: public System.Single hapticsDurationPlayed
-    void _set_hapticsDurationPlayed(float value);
-    // Get instance field: public System.Single hapticsDuration
-    float _get_hapticsDuration();
-    // Set instance field: public System.Single hapticsDuration
-    void _set_hapticsDuration(float value);
-    // Get instance field: public System.Single hapticAmplitude
-    float _get_hapticAmplitude();
-    // Set instance field: public System.Single hapticAmplitude
-    void _set_hapticAmplitude(float value);
-    // Get instance field: public UnityEngine.XR.XRNode node
-    UnityEngine::XR::XRNode _get_node();
-    // Set instance field: public UnityEngine.XR.XRNode node
-    void _set_node(UnityEngine::XR::XRNode value);
+    // Get instance field reference: public System.Boolean playingHaptics
+    bool& dyn_playingHaptics();
+    // Get instance field reference: public System.Single hapticsDurationPlayed
+    float& dyn_hapticsDurationPlayed();
+    // Get instance field reference: public System.Single hapticsDuration
+    float& dyn_hapticsDuration();
+    // Get instance field reference: public System.Single hapticAmplitude
+    float& dyn_hapticAmplitude();
+    // Get instance field reference: public UnityEngine.XR.XRNode node
+    UnityEngine::XR::XRNode& dyn_node();
     // public System.Void .ctor()
     // Offset: 0x153AC04
     // Implemented from: System.Object

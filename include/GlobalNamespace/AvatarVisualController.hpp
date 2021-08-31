@@ -178,86 +178,46 @@ namespace GlobalNamespace {
     AvatarVisualController(UnityEngine::MeshFilter* headTopMeshFilter_ = {}, UnityEngine::MeshFilter* glassesMeshFilter_ = {}, UnityEngine::MeshFilter* facialHairMeshFilter_ = {}, UnityEngine::MeshFilter* leftHandsHairMeshFilter_ = {}, UnityEngine::MeshFilter* rightHandsHairMeshFilter_ = {}, UnityEngine::SpriteRenderer* eyesSprite_ = {}, UnityEngine::SpriteRenderer* mouthSprite_ = {}, UnityEngine::MeshFilter* bodyMeshFilter_ = {}, GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter* headTopPropertyBlockColorSetter_ = {}, GlobalNamespace::AvatarPropertyBlockColorSetter* glassesPropertyBlockColorSetter_ = {}, GlobalNamespace::AvatarPropertyBlockColorSetter* facialHairPropertyBlockColorSetter_ = {}, GlobalNamespace::AvatarPropertyBlockColorSetter* skinPropertyBlockColorSetter_ = {}, GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter* clothesPropertyBlockSetter_ = {}, GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter* leftHandPropertyBlockSetter_ = {}, GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter* rightHandPropertyBlockSetter_ = {}, GlobalNamespace::AvatarPartsModel* avatarPartsModel_ = {}, System::Collections::Generic::Dictionary_2<GlobalNamespace::EditAvatarViewController::AvatarEditPart, GlobalNamespace::AvatarVisualController::HighlighterDelegate*>* avatarPartHighlightSetters_ = {}, UnityEngine::Color lightColor_ = {}, GlobalNamespace::AvatarData* avatarData_ = {}, GlobalNamespace::AvatarVisualController::HighlighterDelegate* currentHighlighter_ = {}) noexcept : headTopMeshFilter{headTopMeshFilter_}, glassesMeshFilter{glassesMeshFilter_}, facialHairMeshFilter{facialHairMeshFilter_}, leftHandsHairMeshFilter{leftHandsHairMeshFilter_}, rightHandsHairMeshFilter{rightHandsHairMeshFilter_}, eyesSprite{eyesSprite_}, mouthSprite{mouthSprite_}, bodyMeshFilter{bodyMeshFilter_}, headTopPropertyBlockColorSetter{headTopPropertyBlockColorSetter_}, glassesPropertyBlockColorSetter{glassesPropertyBlockColorSetter_}, facialHairPropertyBlockColorSetter{facialHairPropertyBlockColorSetter_}, skinPropertyBlockColorSetter{skinPropertyBlockColorSetter_}, clothesPropertyBlockSetter{clothesPropertyBlockSetter_}, leftHandPropertyBlockSetter{leftHandPropertyBlockSetter_}, rightHandPropertyBlockSetter{rightHandPropertyBlockSetter_}, avatarPartsModel{avatarPartsModel_}, avatarPartHighlightSetters{avatarPartHighlightSetters_}, lightColor{lightColor_}, avatarData{avatarData_}, currentHighlighter{currentHighlighter_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.MeshFilter _headTopMeshFilter
-    UnityEngine::MeshFilter* _get__headTopMeshFilter();
-    // Set instance field: private UnityEngine.MeshFilter _headTopMeshFilter
-    void _set__headTopMeshFilter(UnityEngine::MeshFilter* value);
-    // Get instance field: private UnityEngine.MeshFilter _glassesMeshFilter
-    UnityEngine::MeshFilter* _get__glassesMeshFilter();
-    // Set instance field: private UnityEngine.MeshFilter _glassesMeshFilter
-    void _set__glassesMeshFilter(UnityEngine::MeshFilter* value);
-    // Get instance field: private UnityEngine.MeshFilter _facialHairMeshFilter
-    UnityEngine::MeshFilter* _get__facialHairMeshFilter();
-    // Set instance field: private UnityEngine.MeshFilter _facialHairMeshFilter
-    void _set__facialHairMeshFilter(UnityEngine::MeshFilter* value);
-    // Get instance field: private UnityEngine.MeshFilter _leftHandsHairMeshFilter
-    UnityEngine::MeshFilter* _get__leftHandsHairMeshFilter();
-    // Set instance field: private UnityEngine.MeshFilter _leftHandsHairMeshFilter
-    void _set__leftHandsHairMeshFilter(UnityEngine::MeshFilter* value);
-    // Get instance field: private UnityEngine.MeshFilter _rightHandsHairMeshFilter
-    UnityEngine::MeshFilter* _get__rightHandsHairMeshFilter();
-    // Set instance field: private UnityEngine.MeshFilter _rightHandsHairMeshFilter
-    void _set__rightHandsHairMeshFilter(UnityEngine::MeshFilter* value);
-    // Get instance field: private UnityEngine.SpriteRenderer _eyesSprite
-    UnityEngine::SpriteRenderer* _get__eyesSprite();
-    // Set instance field: private UnityEngine.SpriteRenderer _eyesSprite
-    void _set__eyesSprite(UnityEngine::SpriteRenderer* value);
-    // Get instance field: private UnityEngine.SpriteRenderer _mouthSprite
-    UnityEngine::SpriteRenderer* _get__mouthSprite();
-    // Set instance field: private UnityEngine.SpriteRenderer _mouthSprite
-    void _set__mouthSprite(UnityEngine::SpriteRenderer* value);
-    // Get instance field: private UnityEngine.MeshFilter _bodyMeshFilter
-    UnityEngine::MeshFilter* _get__bodyMeshFilter();
-    // Set instance field: private UnityEngine.MeshFilter _bodyMeshFilter
-    void _set__bodyMeshFilter(UnityEngine::MeshFilter* value);
-    // Get instance field: private MulticolorAvatarPartPropertyBlockSetter _headTopPropertyBlockColorSetter
-    GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter* _get__headTopPropertyBlockColorSetter();
-    // Set instance field: private MulticolorAvatarPartPropertyBlockSetter _headTopPropertyBlockColorSetter
-    void _set__headTopPropertyBlockColorSetter(GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter* value);
-    // Get instance field: private AvatarPropertyBlockColorSetter _glassesPropertyBlockColorSetter
-    GlobalNamespace::AvatarPropertyBlockColorSetter* _get__glassesPropertyBlockColorSetter();
-    // Set instance field: private AvatarPropertyBlockColorSetter _glassesPropertyBlockColorSetter
-    void _set__glassesPropertyBlockColorSetter(GlobalNamespace::AvatarPropertyBlockColorSetter* value);
-    // Get instance field: private AvatarPropertyBlockColorSetter _facialHairPropertyBlockColorSetter
-    GlobalNamespace::AvatarPropertyBlockColorSetter* _get__facialHairPropertyBlockColorSetter();
-    // Set instance field: private AvatarPropertyBlockColorSetter _facialHairPropertyBlockColorSetter
-    void _set__facialHairPropertyBlockColorSetter(GlobalNamespace::AvatarPropertyBlockColorSetter* value);
-    // Get instance field: private AvatarPropertyBlockColorSetter _skinPropertyBlockColorSetter
-    GlobalNamespace::AvatarPropertyBlockColorSetter* _get__skinPropertyBlockColorSetter();
-    // Set instance field: private AvatarPropertyBlockColorSetter _skinPropertyBlockColorSetter
-    void _set__skinPropertyBlockColorSetter(GlobalNamespace::AvatarPropertyBlockColorSetter* value);
-    // Get instance field: private MulticolorAvatarPartPropertyBlockSetter _clothesPropertyBlockSetter
-    GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter* _get__clothesPropertyBlockSetter();
-    // Set instance field: private MulticolorAvatarPartPropertyBlockSetter _clothesPropertyBlockSetter
-    void _set__clothesPropertyBlockSetter(GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter* value);
-    // Get instance field: private MulticolorAvatarPartPropertyBlockSetter _leftHandPropertyBlockSetter
-    GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter* _get__leftHandPropertyBlockSetter();
-    // Set instance field: private MulticolorAvatarPartPropertyBlockSetter _leftHandPropertyBlockSetter
-    void _set__leftHandPropertyBlockSetter(GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter* value);
-    // Get instance field: private MulticolorAvatarPartPropertyBlockSetter _rightHandPropertyBlockSetter
-    GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter* _get__rightHandPropertyBlockSetter();
-    // Set instance field: private MulticolorAvatarPartPropertyBlockSetter _rightHandPropertyBlockSetter
-    void _set__rightHandPropertyBlockSetter(GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter* value);
-    // Get instance field: private readonly AvatarPartsModel _avatarPartsModel
-    GlobalNamespace::AvatarPartsModel* _get__avatarPartsModel();
-    // Set instance field: private readonly AvatarPartsModel _avatarPartsModel
-    void _set__avatarPartsModel(GlobalNamespace::AvatarPartsModel* value);
-    // Get instance field: private System.Collections.Generic.Dictionary`2<EditAvatarViewController/AvatarEditPart,AvatarVisualController/HighlighterDelegate> _avatarPartHighlightSetters
-    System::Collections::Generic::Dictionary_2<GlobalNamespace::EditAvatarViewController::AvatarEditPart, GlobalNamespace::AvatarVisualController::HighlighterDelegate*>* _get__avatarPartHighlightSetters();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<EditAvatarViewController/AvatarEditPart,AvatarVisualController/HighlighterDelegate> _avatarPartHighlightSetters
-    void _set__avatarPartHighlightSetters(System::Collections::Generic::Dictionary_2<GlobalNamespace::EditAvatarViewController::AvatarEditPart, GlobalNamespace::AvatarVisualController::HighlighterDelegate*>* value);
-    // Get instance field: private UnityEngine.Color _lightColor
-    UnityEngine::Color _get__lightColor();
-    // Set instance field: private UnityEngine.Color _lightColor
-    void _set__lightColor(UnityEngine::Color value);
-    // Get instance field: private AvatarData _avatarData
-    GlobalNamespace::AvatarData* _get__avatarData();
-    // Set instance field: private AvatarData _avatarData
-    void _set__avatarData(GlobalNamespace::AvatarData* value);
-    // Get instance field: private AvatarVisualController/HighlighterDelegate _currentHighlighter
-    GlobalNamespace::AvatarVisualController::HighlighterDelegate* _get__currentHighlighter();
-    // Set instance field: private AvatarVisualController/HighlighterDelegate _currentHighlighter
-    void _set__currentHighlighter(GlobalNamespace::AvatarVisualController::HighlighterDelegate* value);
+    // Get instance field reference: private UnityEngine.MeshFilter _headTopMeshFilter
+    UnityEngine::MeshFilter*& dyn__headTopMeshFilter();
+    // Get instance field reference: private UnityEngine.MeshFilter _glassesMeshFilter
+    UnityEngine::MeshFilter*& dyn__glassesMeshFilter();
+    // Get instance field reference: private UnityEngine.MeshFilter _facialHairMeshFilter
+    UnityEngine::MeshFilter*& dyn__facialHairMeshFilter();
+    // Get instance field reference: private UnityEngine.MeshFilter _leftHandsHairMeshFilter
+    UnityEngine::MeshFilter*& dyn__leftHandsHairMeshFilter();
+    // Get instance field reference: private UnityEngine.MeshFilter _rightHandsHairMeshFilter
+    UnityEngine::MeshFilter*& dyn__rightHandsHairMeshFilter();
+    // Get instance field reference: private UnityEngine.SpriteRenderer _eyesSprite
+    UnityEngine::SpriteRenderer*& dyn__eyesSprite();
+    // Get instance field reference: private UnityEngine.SpriteRenderer _mouthSprite
+    UnityEngine::SpriteRenderer*& dyn__mouthSprite();
+    // Get instance field reference: private UnityEngine.MeshFilter _bodyMeshFilter
+    UnityEngine::MeshFilter*& dyn__bodyMeshFilter();
+    // Get instance field reference: private MulticolorAvatarPartPropertyBlockSetter _headTopPropertyBlockColorSetter
+    GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter*& dyn__headTopPropertyBlockColorSetter();
+    // Get instance field reference: private AvatarPropertyBlockColorSetter _glassesPropertyBlockColorSetter
+    GlobalNamespace::AvatarPropertyBlockColorSetter*& dyn__glassesPropertyBlockColorSetter();
+    // Get instance field reference: private AvatarPropertyBlockColorSetter _facialHairPropertyBlockColorSetter
+    GlobalNamespace::AvatarPropertyBlockColorSetter*& dyn__facialHairPropertyBlockColorSetter();
+    // Get instance field reference: private AvatarPropertyBlockColorSetter _skinPropertyBlockColorSetter
+    GlobalNamespace::AvatarPropertyBlockColorSetter*& dyn__skinPropertyBlockColorSetter();
+    // Get instance field reference: private MulticolorAvatarPartPropertyBlockSetter _clothesPropertyBlockSetter
+    GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter*& dyn__clothesPropertyBlockSetter();
+    // Get instance field reference: private MulticolorAvatarPartPropertyBlockSetter _leftHandPropertyBlockSetter
+    GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter*& dyn__leftHandPropertyBlockSetter();
+    // Get instance field reference: private MulticolorAvatarPartPropertyBlockSetter _rightHandPropertyBlockSetter
+    GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter*& dyn__rightHandPropertyBlockSetter();
+    // Get instance field reference: private readonly AvatarPartsModel _avatarPartsModel
+    GlobalNamespace::AvatarPartsModel*& dyn__avatarPartsModel();
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<EditAvatarViewController/AvatarEditPart,AvatarVisualController/HighlighterDelegate> _avatarPartHighlightSetters
+    System::Collections::Generic::Dictionary_2<GlobalNamespace::EditAvatarViewController::AvatarEditPart, GlobalNamespace::AvatarVisualController::HighlighterDelegate*>*& dyn__avatarPartHighlightSetters();
+    // Get instance field reference: private UnityEngine.Color _lightColor
+    UnityEngine::Color& dyn__lightColor();
+    // Get instance field reference: private AvatarData _avatarData
+    GlobalNamespace::AvatarData*& dyn__avatarData();
+    // Get instance field reference: private AvatarVisualController/HighlighterDelegate _currentHighlighter
+    GlobalNamespace::AvatarVisualController::HighlighterDelegate*& dyn__currentHighlighter();
     // public UnityEngine.Color get_lightColor()
     // Offset: 0x1185058
     UnityEngine::Color get_lightColor();

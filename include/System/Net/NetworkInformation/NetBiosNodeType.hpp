@@ -62,10 +62,8 @@ namespace System::Net::NetworkInformation {
     static System::Net::NetworkInformation::NetBiosNodeType _get_Hybrid();
     // Set static field: static public System.Net.NetworkInformation.NetBiosNodeType Hybrid
     static void _set_Hybrid(System::Net::NetworkInformation::NetBiosNodeType value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Net.NetworkInformation.NetBiosNodeType
   #pragma pack(pop)
   static check_size<sizeof(NetBiosNodeType), 0 + sizeof(int)> __System_Net_NetworkInformation_NetBiosNodeTypeSizeCheck;

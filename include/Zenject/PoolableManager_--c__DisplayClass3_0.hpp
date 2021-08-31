@@ -51,10 +51,8 @@ namespace Zenject {
     constexpr operator Zenject::IPoolable*() const noexcept {
       return poolable;
     }
-    // Get instance field: public Zenject.IPoolable poolable
-    Zenject::IPoolable* _get_poolable();
-    // Set instance field: public Zenject.IPoolable poolable
-    void _set_poolable(Zenject::IPoolable* value);
+    // Get instance field reference: public Zenject.IPoolable poolable
+    Zenject::IPoolable*& dyn_poolable();
     // System.Boolean <CreatePoolableInfo>b__0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
     // Offset: 0x1714B50
     bool $CreatePoolableInfo$b__0(ModestTree::Util::ValuePair_2<System::Type*, int>* x);

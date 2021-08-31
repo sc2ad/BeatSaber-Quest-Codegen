@@ -73,10 +73,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVRHeadsetEmulator::OpMode _get_AlwaysOn();
       // Set static field: static public OVRHeadsetEmulator/OpMode AlwaysOn
       static void _set_AlwaysOn(GlobalNamespace::OVRHeadsetEmulator::OpMode value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // OVRHeadsetEmulator/OpMode
     #pragma pack(pop)
     static check_size<sizeof(OVRHeadsetEmulator::OpMode), 0 + sizeof(int)> __GlobalNamespace_OVRHeadsetEmulator_OpModeSizeCheck;
@@ -193,54 +191,30 @@ namespace GlobalNamespace {
     static float _get_MAX_ROLL();
     // Set static field: static private System.Single MAX_ROLL
     static void _set_MAX_ROLL(float value);
-    // Get instance field: public OVRHeadsetEmulator/OpMode opMode
-    GlobalNamespace::OVRHeadsetEmulator::OpMode _get_opMode();
-    // Set instance field: public OVRHeadsetEmulator/OpMode opMode
-    void _set_opMode(GlobalNamespace::OVRHeadsetEmulator::OpMode value);
-    // Get instance field: public System.Boolean resetHmdPoseOnRelease
-    bool _get_resetHmdPoseOnRelease();
-    // Set instance field: public System.Boolean resetHmdPoseOnRelease
-    void _set_resetHmdPoseOnRelease(bool value);
-    // Get instance field: public System.Boolean resetHmdPoseByMiddleMouseButton
-    bool _get_resetHmdPoseByMiddleMouseButton();
-    // Set instance field: public System.Boolean resetHmdPoseByMiddleMouseButton
-    void _set_resetHmdPoseByMiddleMouseButton(bool value);
-    // Get instance field: public UnityEngine.KeyCode[] activateKeys
-    ::Array<UnityEngine::KeyCode>* _get_activateKeys();
-    // Set instance field: public UnityEngine.KeyCode[] activateKeys
-    void _set_activateKeys(::Array<UnityEngine::KeyCode>* value);
-    // Get instance field: public UnityEngine.KeyCode[] pitchKeys
-    ::Array<UnityEngine::KeyCode>* _get_pitchKeys();
-    // Set instance field: public UnityEngine.KeyCode[] pitchKeys
-    void _set_pitchKeys(::Array<UnityEngine::KeyCode>* value);
-    // Get instance field: private OVRManager manager
-    GlobalNamespace::OVRManager* _get_manager();
-    // Set instance field: private OVRManager manager
-    void _set_manager(GlobalNamespace::OVRManager* value);
-    // Get instance field: private System.Boolean lastFrameEmulationActivated
-    bool _get_lastFrameEmulationActivated();
-    // Set instance field: private System.Boolean lastFrameEmulationActivated
-    void _set_lastFrameEmulationActivated(bool value);
-    // Get instance field: private UnityEngine.Vector3 recordedHeadPoseRelativeOffsetTranslation
-    UnityEngine::Vector3 _get_recordedHeadPoseRelativeOffsetTranslation();
-    // Set instance field: private UnityEngine.Vector3 recordedHeadPoseRelativeOffsetTranslation
-    void _set_recordedHeadPoseRelativeOffsetTranslation(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 recordedHeadPoseRelativeOffsetRotation
-    UnityEngine::Vector3 _get_recordedHeadPoseRelativeOffsetRotation();
-    // Set instance field: private UnityEngine.Vector3 recordedHeadPoseRelativeOffsetRotation
-    void _set_recordedHeadPoseRelativeOffsetRotation(UnityEngine::Vector3 value);
-    // Get instance field: private System.Boolean hasSentEvent
-    bool _get_hasSentEvent();
-    // Set instance field: private System.Boolean hasSentEvent
-    void _set_hasSentEvent(bool value);
-    // Get instance field: private System.Boolean emulatorHasInitialized
-    bool _get_emulatorHasInitialized();
-    // Set instance field: private System.Boolean emulatorHasInitialized
-    void _set_emulatorHasInitialized(bool value);
-    // Get instance field: private UnityEngine.CursorLockMode previousCursorLockMode
-    UnityEngine::CursorLockMode _get_previousCursorLockMode();
-    // Set instance field: private UnityEngine.CursorLockMode previousCursorLockMode
-    void _set_previousCursorLockMode(UnityEngine::CursorLockMode value);
+    // Get instance field reference: public OVRHeadsetEmulator/OpMode opMode
+    GlobalNamespace::OVRHeadsetEmulator::OpMode& dyn_opMode();
+    // Get instance field reference: public System.Boolean resetHmdPoseOnRelease
+    bool& dyn_resetHmdPoseOnRelease();
+    // Get instance field reference: public System.Boolean resetHmdPoseByMiddleMouseButton
+    bool& dyn_resetHmdPoseByMiddleMouseButton();
+    // Get instance field reference: public UnityEngine.KeyCode[] activateKeys
+    ::Array<UnityEngine::KeyCode>*& dyn_activateKeys();
+    // Get instance field reference: public UnityEngine.KeyCode[] pitchKeys
+    ::Array<UnityEngine::KeyCode>*& dyn_pitchKeys();
+    // Get instance field reference: private OVRManager manager
+    GlobalNamespace::OVRManager*& dyn_manager();
+    // Get instance field reference: private System.Boolean lastFrameEmulationActivated
+    bool& dyn_lastFrameEmulationActivated();
+    // Get instance field reference: private UnityEngine.Vector3 recordedHeadPoseRelativeOffsetTranslation
+    UnityEngine::Vector3& dyn_recordedHeadPoseRelativeOffsetTranslation();
+    // Get instance field reference: private UnityEngine.Vector3 recordedHeadPoseRelativeOffsetRotation
+    UnityEngine::Vector3& dyn_recordedHeadPoseRelativeOffsetRotation();
+    // Get instance field reference: private System.Boolean hasSentEvent
+    bool& dyn_hasSentEvent();
+    // Get instance field reference: private System.Boolean emulatorHasInitialized
+    bool& dyn_emulatorHasInitialized();
+    // Get instance field reference: private UnityEngine.CursorLockMode previousCursorLockMode
+    UnityEngine::CursorLockMode& dyn_previousCursorLockMode();
     // private System.Void Start()
     // Offset: 0x1536178
     void Start();

@@ -40,18 +40,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: InitData
     InitData(float volumeOffset_ = {}, float maxVolume_ = {}, bool adaptiveSfx_ = {}) noexcept : volumeOffset{volumeOffset_}, maxVolume{maxVolume_}, adaptiveSfx{adaptiveSfx_} {}
-    // Get instance field: public readonly System.Single volumeOffset
-    float _get_volumeOffset();
-    // Set instance field: public readonly System.Single volumeOffset
-    void _set_volumeOffset(float value);
-    // Get instance field: public readonly System.Single maxVolume
-    float _get_maxVolume();
-    // Set instance field: public readonly System.Single maxVolume
-    void _set_maxVolume(float value);
-    // Get instance field: public readonly System.Boolean adaptiveSfx
-    bool _get_adaptiveSfx();
-    // Set instance field: public readonly System.Boolean adaptiveSfx
-    void _set_adaptiveSfx(bool value);
+    // Get instance field reference: public readonly System.Single volumeOffset
+    float& dyn_volumeOffset();
+    // Get instance field reference: public readonly System.Single maxVolume
+    float& dyn_maxVolume();
+    // Get instance field reference: public readonly System.Boolean adaptiveSfx
+    bool& dyn_adaptiveSfx();
     // public System.Void .ctor(System.Single volumeOffset, System.Boolean adaptiveSfx, System.Single maxVolume)
     // Offset: 0x117F798
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

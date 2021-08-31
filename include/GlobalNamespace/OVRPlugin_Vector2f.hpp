@@ -37,14 +37,10 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Single x
-    float _get_x();
-    // Set instance field: public System.Single x
-    void _set_x(float value);
-    // Get instance field: public System.Single y
-    float _get_y();
-    // Set instance field: public System.Single y
-    void _set_y(float value);
+    // Get instance field reference: public System.Single x
+    float& dyn_x();
+    // Get instance field reference: public System.Single y
+    float& dyn_y();
   }; // OVRPlugin/Vector2f
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Vector2f), 4 + sizeof(float)> __GlobalNamespace_OVRPlugin_Vector2fSizeCheck;

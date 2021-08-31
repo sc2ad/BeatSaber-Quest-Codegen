@@ -118,10 +118,8 @@ namespace UnityEngine::ProBuilder {
       static UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor _get_None();
       // Set static field: static public UnityEngine.ProBuilder.AutoUnwrapSettings/UnityEngine.ProBuilder.Anchor None
       static void _set_None(UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // UnityEngine.ProBuilder.AutoUnwrapSettings/UnityEngine.ProBuilder.Anchor
     #pragma pack(pop)
     static check_size<sizeof(AutoUnwrapSettings::Anchor), 0 + sizeof(int)> __UnityEngine_ProBuilder_AutoUnwrapSettings_AnchorSizeCheck;
@@ -166,10 +164,8 @@ namespace UnityEngine::ProBuilder {
       static UnityEngine::ProBuilder::AutoUnwrapSettings::Fill _get_Stretch();
       // Set static field: static public UnityEngine.ProBuilder.AutoUnwrapSettings/UnityEngine.ProBuilder.Fill Stretch
       static void _set_Stretch(UnityEngine::ProBuilder::AutoUnwrapSettings::Fill value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // UnityEngine.ProBuilder.AutoUnwrapSettings/UnityEngine.ProBuilder.Fill
     #pragma pack(pop)
     static check_size<sizeof(AutoUnwrapSettings::Fill), 0 + sizeof(int)> __UnityEngine_ProBuilder_AutoUnwrapSettings_FillSizeCheck;
@@ -243,42 +239,24 @@ namespace UnityEngine::ProBuilder {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private System.Boolean m_UseWorldSpace
-    bool _get_m_UseWorldSpace();
-    // Set instance field: private System.Boolean m_UseWorldSpace
-    void _set_m_UseWorldSpace(bool value);
-    // Get instance field: private System.Boolean m_FlipU
-    bool _get_m_FlipU();
-    // Set instance field: private System.Boolean m_FlipU
-    void _set_m_FlipU(bool value);
-    // Get instance field: private System.Boolean m_FlipV
-    bool _get_m_FlipV();
-    // Set instance field: private System.Boolean m_FlipV
-    void _set_m_FlipV(bool value);
-    // Get instance field: private System.Boolean m_SwapUV
-    bool _get_m_SwapUV();
-    // Set instance field: private System.Boolean m_SwapUV
-    void _set_m_SwapUV(bool value);
-    // Get instance field: private UnityEngine.ProBuilder.AutoUnwrapSettings/UnityEngine.ProBuilder.Fill m_Fill
-    UnityEngine::ProBuilder::AutoUnwrapSettings::Fill _get_m_Fill();
-    // Set instance field: private UnityEngine.ProBuilder.AutoUnwrapSettings/UnityEngine.ProBuilder.Fill m_Fill
-    void _set_m_Fill(UnityEngine::ProBuilder::AutoUnwrapSettings::Fill value);
-    // Get instance field: private UnityEngine.Vector2 m_Scale
-    UnityEngine::Vector2 _get_m_Scale();
-    // Set instance field: private UnityEngine.Vector2 m_Scale
-    void _set_m_Scale(UnityEngine::Vector2 value);
-    // Get instance field: private UnityEngine.Vector2 m_Offset
-    UnityEngine::Vector2 _get_m_Offset();
-    // Set instance field: private UnityEngine.Vector2 m_Offset
-    void _set_m_Offset(UnityEngine::Vector2 value);
-    // Get instance field: private System.Single m_Rotation
-    float _get_m_Rotation();
-    // Set instance field: private System.Single m_Rotation
-    void _set_m_Rotation(float value);
-    // Get instance field: private UnityEngine.ProBuilder.AutoUnwrapSettings/UnityEngine.ProBuilder.Anchor m_Anchor
-    UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor _get_m_Anchor();
-    // Set instance field: private UnityEngine.ProBuilder.AutoUnwrapSettings/UnityEngine.ProBuilder.Anchor m_Anchor
-    void _set_m_Anchor(UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor value);
+    // Get instance field reference: private System.Boolean m_UseWorldSpace
+    bool& dyn_m_UseWorldSpace();
+    // Get instance field reference: private System.Boolean m_FlipU
+    bool& dyn_m_FlipU();
+    // Get instance field reference: private System.Boolean m_FlipV
+    bool& dyn_m_FlipV();
+    // Get instance field reference: private System.Boolean m_SwapUV
+    bool& dyn_m_SwapUV();
+    // Get instance field reference: private UnityEngine.ProBuilder.AutoUnwrapSettings/UnityEngine.ProBuilder.Fill m_Fill
+    UnityEngine::ProBuilder::AutoUnwrapSettings::Fill& dyn_m_Fill();
+    // Get instance field reference: private UnityEngine.Vector2 m_Scale
+    UnityEngine::Vector2& dyn_m_Scale();
+    // Get instance field reference: private UnityEngine.Vector2 m_Offset
+    UnityEngine::Vector2& dyn_m_Offset();
+    // Get instance field reference: private System.Single m_Rotation
+    float& dyn_m_Rotation();
+    // Get instance field reference: private UnityEngine.ProBuilder.AutoUnwrapSettings/UnityEngine.ProBuilder.Anchor m_Anchor
+    UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor& dyn_m_Anchor();
     // static public UnityEngine.ProBuilder.AutoUnwrapSettings get_defaultAutoUnwrapSettings()
     // Offset: 0x1FA4038
     static UnityEngine::ProBuilder::AutoUnwrapSettings get_defaultAutoUnwrapSettings();

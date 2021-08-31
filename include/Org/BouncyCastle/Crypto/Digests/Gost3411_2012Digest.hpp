@@ -98,42 +98,24 @@ namespace Org::BouncyCastle::Crypto::Digests {
     static ::Array<::Array<uint64_t>*>* _get_T();
     // Set static field: static private readonly System.UInt64[][] T
     static void _set_T(::Array<::Array<uint64_t>*>* value);
-    // Get instance field: private readonly System.Byte[] IV
-    ::Array<uint8_t>* _get_IV();
-    // Set instance field: private readonly System.Byte[] IV
-    void _set_IV(::Array<uint8_t>* value);
-    // Get instance field: private readonly System.Byte[] N
-    ::Array<uint8_t>* _get_N();
-    // Set instance field: private readonly System.Byte[] N
-    void _set_N(::Array<uint8_t>* value);
-    // Get instance field: private readonly System.Byte[] Sigma
-    ::Array<uint8_t>* _get_Sigma();
-    // Set instance field: private readonly System.Byte[] Sigma
-    void _set_Sigma(::Array<uint8_t>* value);
-    // Get instance field: private readonly System.Byte[] Ki
-    ::Array<uint8_t>* _get_Ki();
-    // Set instance field: private readonly System.Byte[] Ki
-    void _set_Ki(::Array<uint8_t>* value);
-    // Get instance field: private readonly System.Byte[] m
-    ::Array<uint8_t>* _get_m();
-    // Set instance field: private readonly System.Byte[] m
-    void _set_m(::Array<uint8_t>* value);
-    // Get instance field: private readonly System.Byte[] h
-    ::Array<uint8_t>* _get_h();
-    // Set instance field: private readonly System.Byte[] h
-    void _set_h(::Array<uint8_t>* value);
-    // Get instance field: private readonly System.Byte[] tmp
-    ::Array<uint8_t>* _get_tmp();
-    // Set instance field: private readonly System.Byte[] tmp
-    void _set_tmp(::Array<uint8_t>* value);
-    // Get instance field: private readonly System.Byte[] block
-    ::Array<uint8_t>* _get_block();
-    // Set instance field: private readonly System.Byte[] block
-    void _set_block(::Array<uint8_t>* value);
-    // Get instance field: private System.Int32 bOff
-    int _get_bOff();
-    // Set instance field: private System.Int32 bOff
-    void _set_bOff(int value);
+    // Get instance field reference: private readonly System.Byte[] IV
+    ::Array<uint8_t>*& dyn_IV();
+    // Get instance field reference: private readonly System.Byte[] N
+    ::Array<uint8_t>*& dyn_N();
+    // Get instance field reference: private readonly System.Byte[] Sigma
+    ::Array<uint8_t>*& dyn_Sigma();
+    // Get instance field reference: private readonly System.Byte[] Ki
+    ::Array<uint8_t>*& dyn_Ki();
+    // Get instance field reference: private readonly System.Byte[] m
+    ::Array<uint8_t>*& dyn_m();
+    // Get instance field reference: private readonly System.Byte[] h
+    ::Array<uint8_t>*& dyn_h();
+    // Get instance field reference: private readonly System.Byte[] tmp
+    ::Array<uint8_t>*& dyn_tmp();
+    // Get instance field reference: private readonly System.Byte[] block
+    ::Array<uint8_t>*& dyn_block();
+    // Get instance field reference: private System.Int32 bOff
+    int& dyn_bOff();
     // public System.String get_AlgorithmName()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_AlgorithmName();

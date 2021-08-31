@@ -37,10 +37,8 @@ namespace GlobalNamespace {
     ColorSchemeSO(GlobalNamespace::ColorScheme* colorScheme_ = {}) noexcept : colorScheme{colorScheme_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private ColorScheme _colorScheme
-    GlobalNamespace::ColorScheme* _get__colorScheme();
-    // Set instance field: private ColorScheme _colorScheme
-    void _set__colorScheme(GlobalNamespace::ColorScheme* value);
+    // Get instance field reference: private ColorScheme _colorScheme
+    GlobalNamespace::ColorScheme*& dyn__colorScheme();
     // public ColorScheme get_colorScheme()
     // Offset: 0x241F208
     GlobalNamespace::ColorScheme* get_colorScheme();

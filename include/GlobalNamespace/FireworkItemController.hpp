@@ -194,78 +194,42 @@ namespace GlobalNamespace {
     FireworkItemController(::Array<GlobalNamespace::FireworkItemController::FireworkItemParticleSystem*>* particleSystems_ = {}, ::Array<GlobalNamespace::TubeBloomPrePassLight*>* lights_ = {}, UnityEngine::AudioSource* audioSource_ = {}, float lightFlashDuration_ = {}, UnityEngine::AnimationCurve* lightIntensityCurve_ = {}, float lightIntensityMultiplier_ = {}, bool randomizeColor_ = {}, UnityEngine::Color lightsColor_ = {}, UnityEngine::Gradient* lightsColorGradient_ = {}, bool randomizeSpeed_ = {}, float minSpeedMultiplier_ = {}, float maxSpeedMultiplier_ = {}, ::Array<UnityEngine::AudioClip*>* explosionClips_ = {}, GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* randomAudioPicker_ = {}, GlobalNamespace::DirectionalLight* directionalLight_ = {}, float directionalLightIntensity_ = {}, bool initialized_ = {}, System::Action_1<GlobalNamespace::FireworkItemController*>* didFinishEvent_ = {}) noexcept : particleSystems{particleSystems_}, lights{lights_}, audioSource{audioSource_}, lightFlashDuration{lightFlashDuration_}, lightIntensityCurve{lightIntensityCurve_}, lightIntensityMultiplier{lightIntensityMultiplier_}, randomizeColor{randomizeColor_}, lightsColor{lightsColor_}, lightsColorGradient{lightsColorGradient_}, randomizeSpeed{randomizeSpeed_}, minSpeedMultiplier{minSpeedMultiplier_}, maxSpeedMultiplier{maxSpeedMultiplier_}, explosionClips{explosionClips_}, randomAudioPicker{randomAudioPicker_}, directionalLight{directionalLight_}, directionalLightIntensity{directionalLightIntensity_}, initialized{initialized_}, didFinishEvent{didFinishEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private FireworkItemController/FireworkItemParticleSystem[] _particleSystems
-    ::Array<GlobalNamespace::FireworkItemController::FireworkItemParticleSystem*>* _get__particleSystems();
-    // Set instance field: private FireworkItemController/FireworkItemParticleSystem[] _particleSystems
-    void _set__particleSystems(::Array<GlobalNamespace::FireworkItemController::FireworkItemParticleSystem*>* value);
-    // Get instance field: private TubeBloomPrePassLight[] _lights
-    ::Array<GlobalNamespace::TubeBloomPrePassLight*>* _get__lights();
-    // Set instance field: private TubeBloomPrePassLight[] _lights
-    void _set__lights(::Array<GlobalNamespace::TubeBloomPrePassLight*>* value);
-    // Get instance field: private UnityEngine.AudioSource _audioSource
-    UnityEngine::AudioSource* _get__audioSource();
-    // Set instance field: private UnityEngine.AudioSource _audioSource
-    void _set__audioSource(UnityEngine::AudioSource* value);
-    // Get instance field: private System.Single _lightFlashDuration
-    float _get__lightFlashDuration();
-    // Set instance field: private System.Single _lightFlashDuration
-    void _set__lightFlashDuration(float value);
-    // Get instance field: private UnityEngine.AnimationCurve _lightIntensityCurve
-    UnityEngine::AnimationCurve* _get__lightIntensityCurve();
-    // Set instance field: private UnityEngine.AnimationCurve _lightIntensityCurve
-    void _set__lightIntensityCurve(UnityEngine::AnimationCurve* value);
-    // Get instance field: private System.Single _lightIntensityMultiplier
-    float _get__lightIntensityMultiplier();
-    // Set instance field: private System.Single _lightIntensityMultiplier
-    void _set__lightIntensityMultiplier(float value);
-    // Get instance field: private System.Boolean _randomizeColor
-    bool _get__randomizeColor();
-    // Set instance field: private System.Boolean _randomizeColor
-    void _set__randomizeColor(bool value);
-    // Get instance field: private UnityEngine.Color _lightsColor
-    UnityEngine::Color _get__lightsColor();
-    // Set instance field: private UnityEngine.Color _lightsColor
-    void _set__lightsColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Gradient _lightsColorGradient
-    UnityEngine::Gradient* _get__lightsColorGradient();
-    // Set instance field: private UnityEngine.Gradient _lightsColorGradient
-    void _set__lightsColorGradient(UnityEngine::Gradient* value);
-    // Get instance field: private System.Boolean _randomizeSpeed
-    bool _get__randomizeSpeed();
-    // Set instance field: private System.Boolean _randomizeSpeed
-    void _set__randomizeSpeed(bool value);
-    // Get instance field: private System.Single _minSpeedMultiplier
-    float _get__minSpeedMultiplier();
-    // Set instance field: private System.Single _minSpeedMultiplier
-    void _set__minSpeedMultiplier(float value);
-    // Get instance field: private System.Single _maxSpeedMultiplier
-    float _get__maxSpeedMultiplier();
-    // Set instance field: private System.Single _maxSpeedMultiplier
-    void _set__maxSpeedMultiplier(float value);
-    // Get instance field: private UnityEngine.AudioClip[] _explosionClips
-    ::Array<UnityEngine::AudioClip*>* _get__explosionClips();
-    // Set instance field: private UnityEngine.AudioClip[] _explosionClips
-    void _set__explosionClips(::Array<UnityEngine::AudioClip*>* value);
-    // Get instance field: private RandomObjectPicker`1<UnityEngine.AudioClip> _randomAudioPicker
-    GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* _get__randomAudioPicker();
-    // Set instance field: private RandomObjectPicker`1<UnityEngine.AudioClip> _randomAudioPicker
-    void _set__randomAudioPicker(GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* value);
-    // Get instance field: private DirectionalLight _directionalLight
-    GlobalNamespace::DirectionalLight* _get__directionalLight();
-    // Set instance field: private DirectionalLight _directionalLight
-    void _set__directionalLight(GlobalNamespace::DirectionalLight* value);
-    // Get instance field: private System.Single _directionalLightIntensity
-    float _get__directionalLightIntensity();
-    // Set instance field: private System.Single _directionalLightIntensity
-    void _set__directionalLightIntensity(float value);
-    // Get instance field: private System.Boolean _initialized
-    bool _get__initialized();
-    // Set instance field: private System.Boolean _initialized
-    void _set__initialized(bool value);
-    // Get instance field: private System.Action`1<FireworkItemController> didFinishEvent
-    System::Action_1<GlobalNamespace::FireworkItemController*>* _get_didFinishEvent();
-    // Set instance field: private System.Action`1<FireworkItemController> didFinishEvent
-    void _set_didFinishEvent(System::Action_1<GlobalNamespace::FireworkItemController*>* value);
+    // Get instance field reference: private FireworkItemController/FireworkItemParticleSystem[] _particleSystems
+    ::Array<GlobalNamespace::FireworkItemController::FireworkItemParticleSystem*>*& dyn__particleSystems();
+    // Get instance field reference: private TubeBloomPrePassLight[] _lights
+    ::Array<GlobalNamespace::TubeBloomPrePassLight*>*& dyn__lights();
+    // Get instance field reference: private UnityEngine.AudioSource _audioSource
+    UnityEngine::AudioSource*& dyn__audioSource();
+    // Get instance field reference: private System.Single _lightFlashDuration
+    float& dyn__lightFlashDuration();
+    // Get instance field reference: private UnityEngine.AnimationCurve _lightIntensityCurve
+    UnityEngine::AnimationCurve*& dyn__lightIntensityCurve();
+    // Get instance field reference: private System.Single _lightIntensityMultiplier
+    float& dyn__lightIntensityMultiplier();
+    // Get instance field reference: private System.Boolean _randomizeColor
+    bool& dyn__randomizeColor();
+    // Get instance field reference: private UnityEngine.Color _lightsColor
+    UnityEngine::Color& dyn__lightsColor();
+    // Get instance field reference: private UnityEngine.Gradient _lightsColorGradient
+    UnityEngine::Gradient*& dyn__lightsColorGradient();
+    // Get instance field reference: private System.Boolean _randomizeSpeed
+    bool& dyn__randomizeSpeed();
+    // Get instance field reference: private System.Single _minSpeedMultiplier
+    float& dyn__minSpeedMultiplier();
+    // Get instance field reference: private System.Single _maxSpeedMultiplier
+    float& dyn__maxSpeedMultiplier();
+    // Get instance field reference: private UnityEngine.AudioClip[] _explosionClips
+    ::Array<UnityEngine::AudioClip*>*& dyn__explosionClips();
+    // Get instance field reference: private RandomObjectPicker`1<UnityEngine.AudioClip> _randomAudioPicker
+    GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>*& dyn__randomAudioPicker();
+    // Get instance field reference: private DirectionalLight _directionalLight
+    GlobalNamespace::DirectionalLight*& dyn__directionalLight();
+    // Get instance field reference: private System.Single _directionalLightIntensity
+    float& dyn__directionalLightIntensity();
+    // Get instance field reference: private System.Boolean _initialized
+    bool& dyn__initialized();
+    // Get instance field reference: private System.Action`1<FireworkItemController> didFinishEvent
+    System::Action_1<GlobalNamespace::FireworkItemController*>*& dyn_didFinishEvent();
     // public System.Void set_directionalLight(DirectionalLight value)
     // Offset: 0x10581C8
     void set_directionalLight(GlobalNamespace::DirectionalLight* value);

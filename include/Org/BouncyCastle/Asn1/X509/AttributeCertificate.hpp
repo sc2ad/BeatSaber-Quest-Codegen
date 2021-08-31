@@ -58,18 +58,12 @@ namespace Org::BouncyCastle::Asn1::X509 {
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerBitString*) == 0x8);
     // Creating value type constructor for type: AttributeCertificate
     AttributeCertificate(Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* acinfo_ = {}, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signatureAlgorithm_ = {}, Org::BouncyCastle::Asn1::DerBitString* signatureValue_ = {}) noexcept : acinfo{acinfo_}, signatureAlgorithm{signatureAlgorithm_}, signatureValue{signatureValue_} {}
-    // Get instance field: private readonly Org.BouncyCastle.Asn1.X509.AttributeCertificateInfo acinfo
-    Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* _get_acinfo();
-    // Set instance field: private readonly Org.BouncyCastle.Asn1.X509.AttributeCertificateInfo acinfo
-    void _set_acinfo(Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* value);
-    // Get instance field: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier signatureAlgorithm
-    Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* _get_signatureAlgorithm();
-    // Set instance field: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier signatureAlgorithm
-    void _set_signatureAlgorithm(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
-    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerBitString signatureValue
-    Org::BouncyCastle::Asn1::DerBitString* _get_signatureValue();
-    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerBitString signatureValue
-    void _set_signatureValue(Org::BouncyCastle::Asn1::DerBitString* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.AttributeCertificateInfo acinfo
+    Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo*& dyn_acinfo();
+    // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier signatureAlgorithm
+    Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& dyn_signatureAlgorithm();
+    // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerBitString signatureValue
+    Org::BouncyCastle::Asn1::DerBitString*& dyn_signatureValue();
     // public Org.BouncyCastle.Asn1.X509.AttributeCertificateInfo get_ACInfo()
     // Offset: 0x19F705C
     Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* get_ACInfo();

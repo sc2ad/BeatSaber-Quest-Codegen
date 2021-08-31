@@ -71,30 +71,18 @@ namespace GlobalNamespace {
     BombExplosionEffect(UnityEngine::ParticleSystem* debrisPS_ = {}, UnityEngine::ParticleSystem* explosionPS_ = {}, int debrisCount_ = {}, int explosionParticlesCount_ = {}, UnityEngine::ParticleSystem::EmitParams emitParams_ = {}, UnityEngine::ParticleSystem::EmitParams explosionPSEmitParams_ = {}) noexcept : debrisPS{debrisPS_}, explosionPS{explosionPS_}, debrisCount{debrisCount_}, explosionParticlesCount{explosionParticlesCount_}, emitParams{emitParams_}, explosionPSEmitParams{explosionPSEmitParams_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.ParticleSystem _debrisPS
-    UnityEngine::ParticleSystem* _get__debrisPS();
-    // Set instance field: private UnityEngine.ParticleSystem _debrisPS
-    void _set__debrisPS(UnityEngine::ParticleSystem* value);
-    // Get instance field: private UnityEngine.ParticleSystem _explosionPS
-    UnityEngine::ParticleSystem* _get__explosionPS();
-    // Set instance field: private UnityEngine.ParticleSystem _explosionPS
-    void _set__explosionPS(UnityEngine::ParticleSystem* value);
-    // Get instance field: private System.Int32 _debrisCount
-    int _get__debrisCount();
-    // Set instance field: private System.Int32 _debrisCount
-    void _set__debrisCount(int value);
-    // Get instance field: private System.Int32 _explosionParticlesCount
-    int _get__explosionParticlesCount();
-    // Set instance field: private System.Int32 _explosionParticlesCount
-    void _set__explosionParticlesCount(int value);
-    // Get instance field: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _emitParams
-    UnityEngine::ParticleSystem::EmitParams _get__emitParams();
-    // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _emitParams
-    void _set__emitParams(UnityEngine::ParticleSystem::EmitParams value);
-    // Get instance field: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _explosionPSEmitParams
-    UnityEngine::ParticleSystem::EmitParams _get__explosionPSEmitParams();
-    // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _explosionPSEmitParams
-    void _set__explosionPSEmitParams(UnityEngine::ParticleSystem::EmitParams value);
+    // Get instance field reference: private UnityEngine.ParticleSystem _debrisPS
+    UnityEngine::ParticleSystem*& dyn__debrisPS();
+    // Get instance field reference: private UnityEngine.ParticleSystem _explosionPS
+    UnityEngine::ParticleSystem*& dyn__explosionPS();
+    // Get instance field reference: private System.Int32 _debrisCount
+    int& dyn__debrisCount();
+    // Get instance field reference: private System.Int32 _explosionParticlesCount
+    int& dyn__explosionParticlesCount();
+    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _emitParams
+    UnityEngine::ParticleSystem::EmitParams& dyn__emitParams();
+    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _explosionPSEmitParams
+    UnityEngine::ParticleSystem::EmitParams& dyn__explosionPSEmitParams();
     // protected System.Void Awake()
     // Offset: 0x10D2BBC
     void Awake();

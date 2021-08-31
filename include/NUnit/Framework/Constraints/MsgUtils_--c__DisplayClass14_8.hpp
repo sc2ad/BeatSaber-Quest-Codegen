@@ -40,10 +40,8 @@ namespace NUnit::Framework::Constraints {
     constexpr operator NUnit::Framework::Constraints::ValueFormatter*() const noexcept {
       return next;
     }
-    // Get instance field: public NUnit.Framework.Constraints.ValueFormatter next
-    NUnit::Framework::Constraints::ValueFormatter* _get_next();
-    // Set instance field: public NUnit.Framework.Constraints.ValueFormatter next
-    void _set_next(NUnit::Framework::Constraints::ValueFormatter* value);
+    // Get instance field reference: public NUnit.Framework.Constraints.ValueFormatter next
+    NUnit::Framework::Constraints::ValueFormatter*& dyn_next();
     // System.String <.cctor>b__19(System.Object val)
     // Offset: 0x176B260
     ::Il2CppString* $_cctor$b__19(::Il2CppObject* val);

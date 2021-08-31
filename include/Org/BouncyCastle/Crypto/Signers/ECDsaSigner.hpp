@@ -80,18 +80,12 @@ namespace Org::BouncyCastle::Crypto::Signers {
     static Org::BouncyCastle::Math::BigInteger* _get_Eight();
     // Set static field: static private readonly Org.BouncyCastle.Math.BigInteger Eight
     static void _set_Eight(Org::BouncyCastle::Math::BigInteger* value);
-    // Get instance field: protected readonly Org.BouncyCastle.Crypto.Signers.IDsaKCalculator kCalculator
-    Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* _get_kCalculator();
-    // Set instance field: protected readonly Org.BouncyCastle.Crypto.Signers.IDsaKCalculator kCalculator
-    void _set_kCalculator(Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* value);
-    // Get instance field: protected Org.BouncyCastle.Crypto.Parameters.ECKeyParameters key
-    Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* _get_key();
-    // Set instance field: protected Org.BouncyCastle.Crypto.Parameters.ECKeyParameters key
-    void _set_key(Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* value);
-    // Get instance field: protected Org.BouncyCastle.Security.SecureRandom random
-    Org::BouncyCastle::Security::SecureRandom* _get_random();
-    // Set instance field: protected Org.BouncyCastle.Security.SecureRandom random
-    void _set_random(Org::BouncyCastle::Security::SecureRandom* value);
+    // Get instance field reference: protected readonly Org.BouncyCastle.Crypto.Signers.IDsaKCalculator kCalculator
+    Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*& dyn_kCalculator();
+    // Get instance field reference: protected Org.BouncyCastle.Crypto.Parameters.ECKeyParameters key
+    Org::BouncyCastle::Crypto::Parameters::ECKeyParameters*& dyn_key();
+    // Get instance field reference: protected Org.BouncyCastle.Security.SecureRandom random
+    Org::BouncyCastle::Security::SecureRandom*& dyn_random();
     // public Org.BouncyCastle.Math.BigInteger get_Order()
     // Offset: 0x12798C8
     Org::BouncyCastle::Math::BigInteger* get_Order();

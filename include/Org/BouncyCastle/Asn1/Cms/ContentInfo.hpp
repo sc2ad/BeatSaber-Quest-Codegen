@@ -45,14 +45,10 @@ namespace Org::BouncyCastle::Asn1::Cms {
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Encodable*) == 0x8);
     // Creating value type constructor for type: ContentInfo
     ContentInfo(Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType_ = {}, Org::BouncyCastle::Asn1::Asn1Encodable* content_ = {}) noexcept : contentType{contentType_}, content{content_} {}
-    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier contentType
-    Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_contentType();
-    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier contentType
-    void _set_contentType(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-    // Get instance field: private readonly Org.BouncyCastle.Asn1.Asn1Encodable content
-    Org::BouncyCastle::Asn1::Asn1Encodable* _get_content();
-    // Set instance field: private readonly Org.BouncyCastle.Asn1.Asn1Encodable content
-    void _set_content(Org::BouncyCastle::Asn1::Asn1Encodable* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier contentType
+    Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_contentType();
+    // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1Encodable content
+    Org::BouncyCastle::Asn1::Asn1Encodable*& dyn_content();
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
     // Offset: 0x1730E20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

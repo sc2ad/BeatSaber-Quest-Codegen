@@ -51,18 +51,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::MultiplayerResultsPyramidViewAvatar*) == 0x8);
     // Creating value type constructor for type: MultiplayerObjectInstaller
     MultiplayerObjectInstaller(GlobalNamespace::MultiplayerScoreRingItem* inEnvironmentTextsPrefab_ = {}, GlobalNamespace::FireworkItemController* fireworkItemControllerPrefab_ = {}, GlobalNamespace::MultiplayerResultsPyramidViewAvatar* multiplayerResultsPyramidViewAvatarPrefab_ = {}) noexcept : inEnvironmentTextsPrefab{inEnvironmentTextsPrefab_}, fireworkItemControllerPrefab{fireworkItemControllerPrefab_}, multiplayerResultsPyramidViewAvatarPrefab{multiplayerResultsPyramidViewAvatarPrefab_} {}
-    // Get instance field: private MultiplayerScoreRingItem _inEnvironmentTextsPrefab
-    GlobalNamespace::MultiplayerScoreRingItem* _get__inEnvironmentTextsPrefab();
-    // Set instance field: private MultiplayerScoreRingItem _inEnvironmentTextsPrefab
-    void _set__inEnvironmentTextsPrefab(GlobalNamespace::MultiplayerScoreRingItem* value);
-    // Get instance field: private FireworkItemController _fireworkItemControllerPrefab
-    GlobalNamespace::FireworkItemController* _get__fireworkItemControllerPrefab();
-    // Set instance field: private FireworkItemController _fireworkItemControllerPrefab
-    void _set__fireworkItemControllerPrefab(GlobalNamespace::FireworkItemController* value);
-    // Get instance field: private MultiplayerResultsPyramidViewAvatar _multiplayerResultsPyramidViewAvatarPrefab
-    GlobalNamespace::MultiplayerResultsPyramidViewAvatar* _get__multiplayerResultsPyramidViewAvatarPrefab();
-    // Set instance field: private MultiplayerResultsPyramidViewAvatar _multiplayerResultsPyramidViewAvatarPrefab
-    void _set__multiplayerResultsPyramidViewAvatarPrefab(GlobalNamespace::MultiplayerResultsPyramidViewAvatar* value);
+    // Get instance field reference: private MultiplayerScoreRingItem _inEnvironmentTextsPrefab
+    GlobalNamespace::MultiplayerScoreRingItem*& dyn__inEnvironmentTextsPrefab();
+    // Get instance field reference: private FireworkItemController _fireworkItemControllerPrefab
+    GlobalNamespace::FireworkItemController*& dyn__fireworkItemControllerPrefab();
+    // Get instance field reference: private MultiplayerResultsPyramidViewAvatar _multiplayerResultsPyramidViewAvatarPrefab
+    GlobalNamespace::MultiplayerResultsPyramidViewAvatar*& dyn__multiplayerResultsPyramidViewAvatarPrefab();
     // public System.Void .ctor()
     // Offset: 0x106FF38
     // Implemented from: Zenject.MonoInstaller

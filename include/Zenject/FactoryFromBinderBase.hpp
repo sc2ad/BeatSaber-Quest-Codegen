@@ -113,18 +113,12 @@ namespace Zenject {
     static_assert(sizeof(System::Type*) == 0x8);
     // Creating value type constructor for type: FactoryFromBinderBase
     FactoryFromBinderBase(Zenject::DiContainer* BindContainer_ = {}, Zenject::FactoryBindInfo* FactoryBindInfo_ = {}, System::Type* ContractType_ = {}) noexcept : BindContainer{BindContainer_}, FactoryBindInfo{FactoryBindInfo_}, ContractType{ContractType_} {}
-    // Get instance field: private Zenject.DiContainer <BindContainer>k__BackingField
-    Zenject::DiContainer* _get_$BindContainer$k__BackingField();
-    // Set instance field: private Zenject.DiContainer <BindContainer>k__BackingField
-    void _set_$BindContainer$k__BackingField(Zenject::DiContainer* value);
-    // Get instance field: private Zenject.FactoryBindInfo <FactoryBindInfo>k__BackingField
-    Zenject::FactoryBindInfo* _get_$FactoryBindInfo$k__BackingField();
-    // Set instance field: private Zenject.FactoryBindInfo <FactoryBindInfo>k__BackingField
-    void _set_$FactoryBindInfo$k__BackingField(Zenject::FactoryBindInfo* value);
-    // Get instance field: private System.Type <ContractType>k__BackingField
-    System::Type* _get_$ContractType$k__BackingField();
-    // Set instance field: private System.Type <ContractType>k__BackingField
-    void _set_$ContractType$k__BackingField(System::Type* value);
+    // Get instance field reference: private Zenject.DiContainer <BindContainer>k__BackingField
+    Zenject::DiContainer*& dyn_$BindContainer$k__BackingField();
+    // Get instance field reference: private Zenject.FactoryBindInfo <FactoryBindInfo>k__BackingField
+    Zenject::FactoryBindInfo*& dyn_$FactoryBindInfo$k__BackingField();
+    // Get instance field reference: private System.Type <ContractType>k__BackingField
+    System::Type*& dyn_$ContractType$k__BackingField();
     // Zenject.DiContainer get_BindContainer()
     // Offset: 0x1656D88
     Zenject::DiContainer* get_BindContainer();

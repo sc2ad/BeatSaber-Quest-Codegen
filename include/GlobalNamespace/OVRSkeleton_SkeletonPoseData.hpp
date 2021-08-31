@@ -65,30 +65,18 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private OVRPlugin/Posef <RootPose>k__BackingField
-    GlobalNamespace::OVRPlugin::Posef _get_$RootPose$k__BackingField();
-    // Set instance field: private OVRPlugin/Posef <RootPose>k__BackingField
-    void _set_$RootPose$k__BackingField(GlobalNamespace::OVRPlugin::Posef value);
-    // Get instance field: private System.Single <RootScale>k__BackingField
-    float _get_$RootScale$k__BackingField();
-    // Set instance field: private System.Single <RootScale>k__BackingField
-    void _set_$RootScale$k__BackingField(float value);
-    // Get instance field: private OVRPlugin/Quatf[] <BoneRotations>k__BackingField
-    ::Array<GlobalNamespace::OVRPlugin::Quatf>* _get_$BoneRotations$k__BackingField();
-    // Set instance field: private OVRPlugin/Quatf[] <BoneRotations>k__BackingField
-    void _set_$BoneRotations$k__BackingField(::Array<GlobalNamespace::OVRPlugin::Quatf>* value);
-    // Get instance field: private System.Boolean <IsDataValid>k__BackingField
-    bool _get_$IsDataValid$k__BackingField();
-    // Set instance field: private System.Boolean <IsDataValid>k__BackingField
-    void _set_$IsDataValid$k__BackingField(bool value);
-    // Get instance field: private System.Boolean <IsDataHighConfidence>k__BackingField
-    bool _get_$IsDataHighConfidence$k__BackingField();
-    // Set instance field: private System.Boolean <IsDataHighConfidence>k__BackingField
-    void _set_$IsDataHighConfidence$k__BackingField(bool value);
-    // Get instance field: private System.Int32 <SkeletonChangedCount>k__BackingField
-    int _get_$SkeletonChangedCount$k__BackingField();
-    // Set instance field: private System.Int32 <SkeletonChangedCount>k__BackingField
-    void _set_$SkeletonChangedCount$k__BackingField(int value);
+    // Get instance field reference: private OVRPlugin/Posef <RootPose>k__BackingField
+    GlobalNamespace::OVRPlugin::Posef& dyn_$RootPose$k__BackingField();
+    // Get instance field reference: private System.Single <RootScale>k__BackingField
+    float& dyn_$RootScale$k__BackingField();
+    // Get instance field reference: private OVRPlugin/Quatf[] <BoneRotations>k__BackingField
+    ::Array<GlobalNamespace::OVRPlugin::Quatf>*& dyn_$BoneRotations$k__BackingField();
+    // Get instance field reference: private System.Boolean <IsDataValid>k__BackingField
+    bool& dyn_$IsDataValid$k__BackingField();
+    // Get instance field reference: private System.Boolean <IsDataHighConfidence>k__BackingField
+    bool& dyn_$IsDataHighConfidence$k__BackingField();
+    // Get instance field reference: private System.Int32 <SkeletonChangedCount>k__BackingField
+    int& dyn_$SkeletonChangedCount$k__BackingField();
     // public OVRPlugin/Posef get_RootPose()
     // Offset: 0x1F475B8
     GlobalNamespace::OVRPlugin::Posef get_RootPose();

@@ -132,70 +132,38 @@ namespace GlobalNamespace {
     MultiplayerTimelineMock(::Array<UnityEngine::GameObject*>* connectedPlayerIntroAnimators_ = {}, ::Array<UnityEngine::GameObject*>* connectedPlayerScoreRingItems_ = {}, ::Array<UnityEngine::GameObject*>* connectedPlayerOutroAnimators_ = {}, UnityEngine::GameObject* localPlayerIntroAnimator_ = {}, UnityEngine::GameObject* localPlayerScoreRingItem_ = {}, UnityEngine::GameObject* localPlayerOutroAnimator_ = {}, UnityEngine::GameObject* connectedDuelIntroAnimator_ = {}, UnityEngine::GameObject* connectedDuelOutroAnimator_ = {}, UnityEngine::GameObject* localDuelIntroAnimator_ = {}, UnityEngine::GameObject* localDuelOutroAnimator_ = {}, ::Array<UnityEngine::GameObject*>* resultAvatars_ = {}, ::Array<UnityEngine::GameObject*>* badgeTimelines_ = {}, UnityEngine::GameObject* resultsMocks_ = {}, UnityEngine::GameObject* ringsGroup_ = {}, UnityEngine::GameObject* playersGroup_ = {}, UnityEngine::GameObject* duelGroup_ = {}) noexcept : connectedPlayerIntroAnimators{connectedPlayerIntroAnimators_}, connectedPlayerScoreRingItems{connectedPlayerScoreRingItems_}, connectedPlayerOutroAnimators{connectedPlayerOutroAnimators_}, localPlayerIntroAnimator{localPlayerIntroAnimator_}, localPlayerScoreRingItem{localPlayerScoreRingItem_}, localPlayerOutroAnimator{localPlayerOutroAnimator_}, connectedDuelIntroAnimator{connectedDuelIntroAnimator_}, connectedDuelOutroAnimator{connectedDuelOutroAnimator_}, localDuelIntroAnimator{localDuelIntroAnimator_}, localDuelOutroAnimator{localDuelOutroAnimator_}, resultAvatars{resultAvatars_}, badgeTimelines{badgeTimelines_}, resultsMocks{resultsMocks_}, ringsGroup{ringsGroup_}, playersGroup{playersGroup_}, duelGroup{duelGroup_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.GameObject[] _connectedPlayerIntroAnimators
-    ::Array<UnityEngine::GameObject*>* _get__connectedPlayerIntroAnimators();
-    // Set instance field: private UnityEngine.GameObject[] _connectedPlayerIntroAnimators
-    void _set__connectedPlayerIntroAnimators(::Array<UnityEngine::GameObject*>* value);
-    // Get instance field: private UnityEngine.GameObject[] _connectedPlayerScoreRingItems
-    ::Array<UnityEngine::GameObject*>* _get__connectedPlayerScoreRingItems();
-    // Set instance field: private UnityEngine.GameObject[] _connectedPlayerScoreRingItems
-    void _set__connectedPlayerScoreRingItems(::Array<UnityEngine::GameObject*>* value);
-    // Get instance field: private UnityEngine.GameObject[] _connectedPlayerOutroAnimators
-    ::Array<UnityEngine::GameObject*>* _get__connectedPlayerOutroAnimators();
-    // Set instance field: private UnityEngine.GameObject[] _connectedPlayerOutroAnimators
-    void _set__connectedPlayerOutroAnimators(::Array<UnityEngine::GameObject*>* value);
-    // Get instance field: private UnityEngine.GameObject _localPlayerIntroAnimator
-    UnityEngine::GameObject* _get__localPlayerIntroAnimator();
-    // Set instance field: private UnityEngine.GameObject _localPlayerIntroAnimator
-    void _set__localPlayerIntroAnimator(UnityEngine::GameObject* value);
-    // Get instance field: private UnityEngine.GameObject _localPlayerScoreRingItem
-    UnityEngine::GameObject* _get__localPlayerScoreRingItem();
-    // Set instance field: private UnityEngine.GameObject _localPlayerScoreRingItem
-    void _set__localPlayerScoreRingItem(UnityEngine::GameObject* value);
-    // Get instance field: private UnityEngine.GameObject _localPlayerOutroAnimator
-    UnityEngine::GameObject* _get__localPlayerOutroAnimator();
-    // Set instance field: private UnityEngine.GameObject _localPlayerOutroAnimator
-    void _set__localPlayerOutroAnimator(UnityEngine::GameObject* value);
-    // Get instance field: private UnityEngine.GameObject _connectedDuelIntroAnimator
-    UnityEngine::GameObject* _get__connectedDuelIntroAnimator();
-    // Set instance field: private UnityEngine.GameObject _connectedDuelIntroAnimator
-    void _set__connectedDuelIntroAnimator(UnityEngine::GameObject* value);
-    // Get instance field: private UnityEngine.GameObject _connectedDuelOutroAnimator
-    UnityEngine::GameObject* _get__connectedDuelOutroAnimator();
-    // Set instance field: private UnityEngine.GameObject _connectedDuelOutroAnimator
-    void _set__connectedDuelOutroAnimator(UnityEngine::GameObject* value);
-    // Get instance field: private UnityEngine.GameObject _localDuelIntroAnimator
-    UnityEngine::GameObject* _get__localDuelIntroAnimator();
-    // Set instance field: private UnityEngine.GameObject _localDuelIntroAnimator
-    void _set__localDuelIntroAnimator(UnityEngine::GameObject* value);
-    // Get instance field: private UnityEngine.GameObject _localDuelOutroAnimator
-    UnityEngine::GameObject* _get__localDuelOutroAnimator();
-    // Set instance field: private UnityEngine.GameObject _localDuelOutroAnimator
-    void _set__localDuelOutroAnimator(UnityEngine::GameObject* value);
-    // Get instance field: private UnityEngine.GameObject[] _resultAvatars
-    ::Array<UnityEngine::GameObject*>* _get__resultAvatars();
-    // Set instance field: private UnityEngine.GameObject[] _resultAvatars
-    void _set__resultAvatars(::Array<UnityEngine::GameObject*>* value);
-    // Get instance field: private UnityEngine.GameObject[] _badgeTimelines
-    ::Array<UnityEngine::GameObject*>* _get__badgeTimelines();
-    // Set instance field: private UnityEngine.GameObject[] _badgeTimelines
-    void _set__badgeTimelines(::Array<UnityEngine::GameObject*>* value);
-    // Get instance field: private UnityEngine.GameObject _resultsMocks
-    UnityEngine::GameObject* _get__resultsMocks();
-    // Set instance field: private UnityEngine.GameObject _resultsMocks
-    void _set__resultsMocks(UnityEngine::GameObject* value);
-    // Get instance field: private UnityEngine.GameObject _ringsGroup
-    UnityEngine::GameObject* _get__ringsGroup();
-    // Set instance field: private UnityEngine.GameObject _ringsGroup
-    void _set__ringsGroup(UnityEngine::GameObject* value);
-    // Get instance field: private UnityEngine.GameObject _playersGroup
-    UnityEngine::GameObject* _get__playersGroup();
-    // Set instance field: private UnityEngine.GameObject _playersGroup
-    void _set__playersGroup(UnityEngine::GameObject* value);
-    // Get instance field: private UnityEngine.GameObject _duelGroup
-    UnityEngine::GameObject* _get__duelGroup();
-    // Set instance field: private UnityEngine.GameObject _duelGroup
-    void _set__duelGroup(UnityEngine::GameObject* value);
+    // Get instance field reference: private UnityEngine.GameObject[] _connectedPlayerIntroAnimators
+    ::Array<UnityEngine::GameObject*>*& dyn__connectedPlayerIntroAnimators();
+    // Get instance field reference: private UnityEngine.GameObject[] _connectedPlayerScoreRingItems
+    ::Array<UnityEngine::GameObject*>*& dyn__connectedPlayerScoreRingItems();
+    // Get instance field reference: private UnityEngine.GameObject[] _connectedPlayerOutroAnimators
+    ::Array<UnityEngine::GameObject*>*& dyn__connectedPlayerOutroAnimators();
+    // Get instance field reference: private UnityEngine.GameObject _localPlayerIntroAnimator
+    UnityEngine::GameObject*& dyn__localPlayerIntroAnimator();
+    // Get instance field reference: private UnityEngine.GameObject _localPlayerScoreRingItem
+    UnityEngine::GameObject*& dyn__localPlayerScoreRingItem();
+    // Get instance field reference: private UnityEngine.GameObject _localPlayerOutroAnimator
+    UnityEngine::GameObject*& dyn__localPlayerOutroAnimator();
+    // Get instance field reference: private UnityEngine.GameObject _connectedDuelIntroAnimator
+    UnityEngine::GameObject*& dyn__connectedDuelIntroAnimator();
+    // Get instance field reference: private UnityEngine.GameObject _connectedDuelOutroAnimator
+    UnityEngine::GameObject*& dyn__connectedDuelOutroAnimator();
+    // Get instance field reference: private UnityEngine.GameObject _localDuelIntroAnimator
+    UnityEngine::GameObject*& dyn__localDuelIntroAnimator();
+    // Get instance field reference: private UnityEngine.GameObject _localDuelOutroAnimator
+    UnityEngine::GameObject*& dyn__localDuelOutroAnimator();
+    // Get instance field reference: private UnityEngine.GameObject[] _resultAvatars
+    ::Array<UnityEngine::GameObject*>*& dyn__resultAvatars();
+    // Get instance field reference: private UnityEngine.GameObject[] _badgeTimelines
+    ::Array<UnityEngine::GameObject*>*& dyn__badgeTimelines();
+    // Get instance field reference: private UnityEngine.GameObject _resultsMocks
+    UnityEngine::GameObject*& dyn__resultsMocks();
+    // Get instance field reference: private UnityEngine.GameObject _ringsGroup
+    UnityEngine::GameObject*& dyn__ringsGroup();
+    // Get instance field reference: private UnityEngine.GameObject _playersGroup
+    UnityEngine::GameObject*& dyn__playersGroup();
+    // Get instance field reference: private UnityEngine.GameObject _duelGroup
+    UnityEngine::GameObject*& dyn__duelGroup();
     // public UnityEngine.GameObject[] get_connectedPlayerIntroAnimators()
     // Offset: 0x103B9D8
     ::Array<UnityEngine::GameObject*>* get_connectedPlayerIntroAnimators();

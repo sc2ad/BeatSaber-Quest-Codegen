@@ -56,10 +56,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::GameStateType _get_RunningLevel();
     // Set static field: static public GameStateType RunningLevel
     static void _set_RunningLevel(GlobalNamespace::GameStateType value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // GameStateType
   #pragma pack(pop)
   static check_size<sizeof(GameStateType), 0 + sizeof(int)> __GlobalNamespace_GameStateTypeSizeCheck;

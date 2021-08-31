@@ -53,10 +53,8 @@ namespace Oculus::Platform {
     static Oculus::Platform::PermissionType _get_WriteExternalStorage();
     // Set static field: static public Oculus.Platform.PermissionType WriteExternalStorage
     static void _set_WriteExternalStorage(Oculus::Platform::PermissionType value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Oculus.Platform.PermissionType
   #pragma pack(pop)
   static check_size<sizeof(PermissionType), 0 + sizeof(int)> __Oculus_Platform_PermissionTypeSizeCheck;

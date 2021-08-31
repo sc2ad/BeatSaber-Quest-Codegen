@@ -55,18 +55,12 @@ namespace GlobalNamespace {
     DeactivateAnimatorOnInputFocusCapture(UnityEngine::Animator* animator_ = {}, GlobalNamespace::IVRPlatformHelper* vrPlatformHelper_ = {}, bool wasEnabled_ = {}) noexcept : animator{animator_}, vrPlatformHelper{vrPlatformHelper_}, wasEnabled{wasEnabled_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.Animator _animator
-    UnityEngine::Animator* _get__animator();
-    // Set instance field: private UnityEngine.Animator _animator
-    void _set__animator(UnityEngine::Animator* value);
-    // Get instance field: private readonly IVRPlatformHelper _vrPlatformHelper
-    GlobalNamespace::IVRPlatformHelper* _get__vrPlatformHelper();
-    // Set instance field: private readonly IVRPlatformHelper _vrPlatformHelper
-    void _set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper* value);
-    // Get instance field: private System.Boolean _wasEnabled
-    bool _get__wasEnabled();
-    // Set instance field: private System.Boolean _wasEnabled
-    void _set__wasEnabled(bool value);
+    // Get instance field reference: private UnityEngine.Animator _animator
+    UnityEngine::Animator*& dyn__animator();
+    // Get instance field reference: private readonly IVRPlatformHelper _vrPlatformHelper
+    GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
+    // Get instance field reference: private System.Boolean _wasEnabled
+    bool& dyn__wasEnabled();
     // protected System.Void Start()
     // Offset: 0x125A6E0
     void Start();

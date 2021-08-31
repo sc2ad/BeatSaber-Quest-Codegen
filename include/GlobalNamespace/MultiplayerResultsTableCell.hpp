@@ -137,62 +137,34 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Color) == 0x10);
     // Creating value type constructor for type: MultiplayerResultsTableCell
     MultiplayerResultsTableCell(TMPro::TextMeshProUGUI* positionText_ = {}, TMPro::TextMeshProUGUI* nameText_ = {}, TMPro::TextMeshProUGUI* scoreText_ = {}, TMPro::TextMeshProUGUI* rankText_ = {}, ::Array<GlobalNamespace::TubeBloomPrePassLight*>* lights_ = {}, UnityEngine::UI::Image* backgroundImage_ = {}, UnityEngine::CanvasGroup* canvasGroup_ = {}, GlobalNamespace::MultiplayerResultsAvatarController* multiplayerResultsAvatarController_ = {}, float avatarScale_ = {}, UnityEngine::Color normalSecondPlayerColor_ = {}, UnityEngine::Color normalLastPlayerColor_ = {}, UnityEngine::Color localPlayerColor_ = {}, UnityEngine::Color winnerColor_ = {}, UnityEngine::Color lightColor_ = {}) noexcept : positionText{positionText_}, nameText{nameText_}, scoreText{scoreText_}, rankText{rankText_}, lights{lights_}, backgroundImage{backgroundImage_}, canvasGroup{canvasGroup_}, multiplayerResultsAvatarController{multiplayerResultsAvatarController_}, avatarScale{avatarScale_}, normalSecondPlayerColor{normalSecondPlayerColor_}, normalLastPlayerColor{normalLastPlayerColor_}, localPlayerColor{localPlayerColor_}, winnerColor{winnerColor_}, lightColor{lightColor_} {}
-    // Get instance field: private TMPro.TextMeshProUGUI _positionText
-    TMPro::TextMeshProUGUI* _get__positionText();
-    // Set instance field: private TMPro.TextMeshProUGUI _positionText
-    void _set__positionText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _nameText
-    TMPro::TextMeshProUGUI* _get__nameText();
-    // Set instance field: private TMPro.TextMeshProUGUI _nameText
-    void _set__nameText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _scoreText
-    TMPro::TextMeshProUGUI* _get__scoreText();
-    // Set instance field: private TMPro.TextMeshProUGUI _scoreText
-    void _set__scoreText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _rankText
-    TMPro::TextMeshProUGUI* _get__rankText();
-    // Set instance field: private TMPro.TextMeshProUGUI _rankText
-    void _set__rankText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TubeBloomPrePassLight[] _lights
-    ::Array<GlobalNamespace::TubeBloomPrePassLight*>* _get__lights();
-    // Set instance field: private TubeBloomPrePassLight[] _lights
-    void _set__lights(::Array<GlobalNamespace::TubeBloomPrePassLight*>* value);
-    // Get instance field: private UnityEngine.UI.Image _backgroundImage
-    UnityEngine::UI::Image* _get__backgroundImage();
-    // Set instance field: private UnityEngine.UI.Image _backgroundImage
-    void _set__backgroundImage(UnityEngine::UI::Image* value);
-    // Get instance field: private UnityEngine.CanvasGroup _canvasGroup
-    UnityEngine::CanvasGroup* _get__canvasGroup();
-    // Set instance field: private UnityEngine.CanvasGroup _canvasGroup
-    void _set__canvasGroup(UnityEngine::CanvasGroup* value);
-    // Get instance field: private MultiplayerResultsAvatarController _multiplayerResultsAvatarController
-    GlobalNamespace::MultiplayerResultsAvatarController* _get__multiplayerResultsAvatarController();
-    // Set instance field: private MultiplayerResultsAvatarController _multiplayerResultsAvatarController
-    void _set__multiplayerResultsAvatarController(GlobalNamespace::MultiplayerResultsAvatarController* value);
-    // Get instance field: private System.Single _avatarScale
-    float _get__avatarScale();
-    // Set instance field: private System.Single _avatarScale
-    void _set__avatarScale(float value);
-    // Get instance field: private UnityEngine.Color _normalSecondPlayerColor
-    UnityEngine::Color _get__normalSecondPlayerColor();
-    // Set instance field: private UnityEngine.Color _normalSecondPlayerColor
-    void _set__normalSecondPlayerColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _normalLastPlayerColor
-    UnityEngine::Color _get__normalLastPlayerColor();
-    // Set instance field: private UnityEngine.Color _normalLastPlayerColor
-    void _set__normalLastPlayerColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _localPlayerColor
-    UnityEngine::Color _get__localPlayerColor();
-    // Set instance field: private UnityEngine.Color _localPlayerColor
-    void _set__localPlayerColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _winnerColor
-    UnityEngine::Color _get__winnerColor();
-    // Set instance field: private UnityEngine.Color _winnerColor
-    void _set__winnerColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _lightColor
-    UnityEngine::Color _get__lightColor();
-    // Set instance field: private UnityEngine.Color _lightColor
-    void _set__lightColor(UnityEngine::Color value);
+    // Get instance field reference: private TMPro.TextMeshProUGUI _positionText
+    TMPro::TextMeshProUGUI*& dyn__positionText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _nameText
+    TMPro::TextMeshProUGUI*& dyn__nameText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _scoreText
+    TMPro::TextMeshProUGUI*& dyn__scoreText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _rankText
+    TMPro::TextMeshProUGUI*& dyn__rankText();
+    // Get instance field reference: private TubeBloomPrePassLight[] _lights
+    ::Array<GlobalNamespace::TubeBloomPrePassLight*>*& dyn__lights();
+    // Get instance field reference: private UnityEngine.UI.Image _backgroundImage
+    UnityEngine::UI::Image*& dyn__backgroundImage();
+    // Get instance field reference: private UnityEngine.CanvasGroup _canvasGroup
+    UnityEngine::CanvasGroup*& dyn__canvasGroup();
+    // Get instance field reference: private MultiplayerResultsAvatarController _multiplayerResultsAvatarController
+    GlobalNamespace::MultiplayerResultsAvatarController*& dyn__multiplayerResultsAvatarController();
+    // Get instance field reference: private System.Single _avatarScale
+    float& dyn__avatarScale();
+    // Get instance field reference: private UnityEngine.Color _normalSecondPlayerColor
+    UnityEngine::Color& dyn__normalSecondPlayerColor();
+    // Get instance field reference: private UnityEngine.Color _normalLastPlayerColor
+    UnityEngine::Color& dyn__normalLastPlayerColor();
+    // Get instance field reference: private UnityEngine.Color _localPlayerColor
+    UnityEngine::Color& dyn__localPlayerColor();
+    // Get instance field reference: private UnityEngine.Color _winnerColor
+    UnityEngine::Color& dyn__winnerColor();
+    // Get instance field reference: private UnityEngine.Color _lightColor
+    UnityEngine::Color& dyn__lightColor();
     // public System.Void set_alpha(System.Single value)
     // Offset: 0x1034FDC
     void set_alpha(float value);

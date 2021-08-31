@@ -49,14 +49,10 @@ namespace RootMotion::FinalIK {
     AimPoser(float angleBuffer_ = {}, ::Array<RootMotion::FinalIK::AimPoser::Pose*>* poses_ = {}) noexcept : angleBuffer{angleBuffer_}, poses{poses_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public System.Single angleBuffer
-    float _get_angleBuffer();
-    // Set instance field: public System.Single angleBuffer
-    void _set_angleBuffer(float value);
-    // Get instance field: public RootMotion.FinalIK.AimPoser/RootMotion.FinalIK.Pose[] poses
-    ::Array<RootMotion::FinalIK::AimPoser::Pose*>* _get_poses();
-    // Set instance field: public RootMotion.FinalIK.AimPoser/RootMotion.FinalIK.Pose[] poses
-    void _set_poses(::Array<RootMotion::FinalIK::AimPoser::Pose*>* value);
+    // Get instance field reference: public System.Single angleBuffer
+    float& dyn_angleBuffer();
+    // Get instance field reference: public RootMotion.FinalIK.AimPoser/RootMotion.FinalIK.Pose[] poses
+    ::Array<RootMotion::FinalIK::AimPoser::Pose*>*& dyn_poses();
     // public RootMotion.FinalIK.AimPoser/RootMotion.FinalIK.Pose GetPose(UnityEngine.Vector3 localDirection)
     // Offset: 0x1D3003C
     RootMotion::FinalIK::AimPoser::Pose* GetPose(UnityEngine::Vector3 localDirection);

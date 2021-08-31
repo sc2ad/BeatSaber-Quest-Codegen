@@ -38,14 +38,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     operator Org::BouncyCastle::Crypto::IDerivationParameters() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDerivationParameters*>(this);
     }
-    // Get instance field: private System.Byte[] iv
-    ::Array<uint8_t>* _get_iv();
-    // Set instance field: private System.Byte[] iv
-    void _set_iv(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] shared
-    ::Array<uint8_t>* _get_shared();
-    // Set instance field: private System.Byte[] shared
-    void _set_shared(::Array<uint8_t>* value);
+    // Get instance field reference: private System.Byte[] iv
+    ::Array<uint8_t>*& dyn_iv();
+    // Get instance field reference: private System.Byte[] shared
+    ::Array<uint8_t>*& dyn_shared();
     // public System.Void .ctor(System.Byte[] shared, System.Byte[] iv)
     // Offset: 0x1275F14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

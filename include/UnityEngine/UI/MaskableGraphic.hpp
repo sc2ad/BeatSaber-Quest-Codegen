@@ -129,46 +129,26 @@ namespace UnityEngine::UI {
     operator UnityEngine::UI::IMaskable() noexcept {
       return *reinterpret_cast<UnityEngine::UI::IMaskable*>(this);
     }
-    // Get instance field: protected System.Boolean m_ShouldRecalculateStencil
-    bool _get_m_ShouldRecalculateStencil();
-    // Set instance field: protected System.Boolean m_ShouldRecalculateStencil
-    void _set_m_ShouldRecalculateStencil(bool value);
-    // Get instance field: protected UnityEngine.Material m_MaskMaterial
-    UnityEngine::Material* _get_m_MaskMaterial();
-    // Set instance field: protected UnityEngine.Material m_MaskMaterial
-    void _set_m_MaskMaterial(UnityEngine::Material* value);
-    // Get instance field: private UnityEngine.UI.RectMask2D m_ParentMask
-    UnityEngine::UI::RectMask2D* _get_m_ParentMask();
-    // Set instance field: private UnityEngine.UI.RectMask2D m_ParentMask
-    void _set_m_ParentMask(UnityEngine::UI::RectMask2D* value);
-    // Get instance field: private System.Boolean m_Maskable
-    bool _get_m_Maskable();
-    // Set instance field: private System.Boolean m_Maskable
-    void _set_m_Maskable(bool value);
-    // Get instance field: private System.Boolean m_IsMaskingGraphic
-    bool _get_m_IsMaskingGraphic();
-    // Set instance field: private System.Boolean m_IsMaskingGraphic
-    void _set_m_IsMaskingGraphic(bool value);
-    // Get instance field: protected System.Boolean m_IncludeForMasking
-    bool _get_m_IncludeForMasking();
-    // Set instance field: protected System.Boolean m_IncludeForMasking
-    void _set_m_IncludeForMasking(bool value);
-    // Get instance field: private UnityEngine.UI.MaskableGraphic/UnityEngine.UI.CullStateChangedEvent m_OnCullStateChanged
-    UnityEngine::UI::MaskableGraphic::CullStateChangedEvent* _get_m_OnCullStateChanged();
-    // Set instance field: private UnityEngine.UI.MaskableGraphic/UnityEngine.UI.CullStateChangedEvent m_OnCullStateChanged
-    void _set_m_OnCullStateChanged(UnityEngine::UI::MaskableGraphic::CullStateChangedEvent* value);
-    // Get instance field: protected System.Boolean m_ShouldRecalculate
-    bool _get_m_ShouldRecalculate();
-    // Set instance field: protected System.Boolean m_ShouldRecalculate
-    void _set_m_ShouldRecalculate(bool value);
-    // Get instance field: protected System.Int32 m_StencilValue
-    int _get_m_StencilValue();
-    // Set instance field: protected System.Int32 m_StencilValue
-    void _set_m_StencilValue(int value);
-    // Get instance field: private readonly UnityEngine.Vector3[] m_Corners
-    ::Array<UnityEngine::Vector3>* _get_m_Corners();
-    // Set instance field: private readonly UnityEngine.Vector3[] m_Corners
-    void _set_m_Corners(::Array<UnityEngine::Vector3>* value);
+    // Get instance field reference: protected System.Boolean m_ShouldRecalculateStencil
+    bool& dyn_m_ShouldRecalculateStencil();
+    // Get instance field reference: protected UnityEngine.Material m_MaskMaterial
+    UnityEngine::Material*& dyn_m_MaskMaterial();
+    // Get instance field reference: private UnityEngine.UI.RectMask2D m_ParentMask
+    UnityEngine::UI::RectMask2D*& dyn_m_ParentMask();
+    // Get instance field reference: private System.Boolean m_Maskable
+    bool& dyn_m_Maskable();
+    // Get instance field reference: private System.Boolean m_IsMaskingGraphic
+    bool& dyn_m_IsMaskingGraphic();
+    // Get instance field reference: protected System.Boolean m_IncludeForMasking
+    bool& dyn_m_IncludeForMasking();
+    // Get instance field reference: private UnityEngine.UI.MaskableGraphic/UnityEngine.UI.CullStateChangedEvent m_OnCullStateChanged
+    UnityEngine::UI::MaskableGraphic::CullStateChangedEvent*& dyn_m_OnCullStateChanged();
+    // Get instance field reference: protected System.Boolean m_ShouldRecalculate
+    bool& dyn_m_ShouldRecalculate();
+    // Get instance field reference: protected System.Int32 m_StencilValue
+    int& dyn_m_StencilValue();
+    // Get instance field reference: private readonly UnityEngine.Vector3[] m_Corners
+    ::Array<UnityEngine::Vector3>*& dyn_m_Corners();
     // public UnityEngine.UI.MaskableGraphic/UnityEngine.UI.CullStateChangedEvent get_onCullStateChanged()
     // Offset: 0x19D3088
     UnityEngine::UI::MaskableGraphic::CullStateChangedEvent* get_onCullStateChanged();

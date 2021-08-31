@@ -82,10 +82,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::LevelCompletionResults::LevelEndStateType _get_Failed();
       // Set static field: static public LevelCompletionResults/LevelEndStateType Failed
       static void _set_Failed(GlobalNamespace::LevelCompletionResults::LevelEndStateType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // LevelCompletionResults/LevelEndStateType
     #pragma pack(pop)
     static check_size<sizeof(LevelCompletionResults::LevelEndStateType), 0 + sizeof(int)> __GlobalNamespace_LevelCompletionResults_LevelEndStateTypeSizeCheck;
@@ -130,10 +128,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::LevelCompletionResults::LevelEndAction _get_Restart();
       // Set static field: static public LevelCompletionResults/LevelEndAction Restart
       static void _set_Restart(GlobalNamespace::LevelCompletionResults::LevelEndAction value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // LevelCompletionResults/LevelEndAction
     #pragma pack(pop)
     static check_size<sizeof(LevelCompletionResults::LevelEndAction), 0 + sizeof(int)> __GlobalNamespace_LevelCompletionResults_LevelEndActionSizeCheck;
@@ -324,122 +320,64 @@ namespace GlobalNamespace {
     operator System::IComparable() noexcept {
       return *reinterpret_cast<System::IComparable*>(this);
     }
-    // Get instance field: public readonly GameplayModifiers gameplayModifiers
-    GlobalNamespace::GameplayModifiers* _get_gameplayModifiers();
-    // Set instance field: public readonly GameplayModifiers gameplayModifiers
-    void _set_gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
-    // Get instance field: public readonly System.Int32 modifiedScore
-    int _get_modifiedScore();
-    // Set instance field: public readonly System.Int32 modifiedScore
-    void _set_modifiedScore(int value);
-    // Get instance field: public readonly System.Int32 rawScore
-    int _get_rawScore();
-    // Set instance field: public readonly System.Int32 rawScore
-    void _set_rawScore(int value);
-    // Get instance field: public readonly RankModel/Rank rank
-    GlobalNamespace::RankModel::Rank _get_rank();
-    // Set instance field: public readonly RankModel/Rank rank
-    void _set_rank(GlobalNamespace::RankModel::Rank value);
-    // Get instance field: public readonly System.Boolean fullCombo
-    bool _get_fullCombo();
-    // Set instance field: public readonly System.Boolean fullCombo
-    void _set_fullCombo(bool value);
-    // Get instance field: public readonly System.Single leftSaberMovementDistance
-    float _get_leftSaberMovementDistance();
-    // Set instance field: public readonly System.Single leftSaberMovementDistance
-    void _set_leftSaberMovementDistance(float value);
-    // Get instance field: public readonly System.Single rightSaberMovementDistance
-    float _get_rightSaberMovementDistance();
-    // Set instance field: public readonly System.Single rightSaberMovementDistance
-    void _set_rightSaberMovementDistance(float value);
-    // Get instance field: public readonly System.Single leftHandMovementDistance
-    float _get_leftHandMovementDistance();
-    // Set instance field: public readonly System.Single leftHandMovementDistance
-    void _set_leftHandMovementDistance(float value);
-    // Get instance field: public readonly System.Single rightHandMovementDistance
-    float _get_rightHandMovementDistance();
-    // Set instance field: public readonly System.Single rightHandMovementDistance
-    void _set_rightHandMovementDistance(float value);
-    // Get instance field: public readonly System.Single songDuration
-    float _get_songDuration();
-    // Set instance field: public readonly System.Single songDuration
-    void _set_songDuration(float value);
-    // Get instance field: public readonly LevelCompletionResults/LevelEndStateType levelEndStateType
-    GlobalNamespace::LevelCompletionResults::LevelEndStateType _get_levelEndStateType();
-    // Set instance field: public readonly LevelCompletionResults/LevelEndStateType levelEndStateType
-    void _set_levelEndStateType(GlobalNamespace::LevelCompletionResults::LevelEndStateType value);
-    // Get instance field: public readonly LevelCompletionResults/LevelEndAction levelEndAction
-    GlobalNamespace::LevelCompletionResults::LevelEndAction _get_levelEndAction();
-    // Set instance field: public readonly LevelCompletionResults/LevelEndAction levelEndAction
-    void _set_levelEndAction(GlobalNamespace::LevelCompletionResults::LevelEndAction value);
-    // Get instance field: public readonly System.Single energy
-    float _get_energy();
-    // Set instance field: public readonly System.Single energy
-    void _set_energy(float value);
-    // Get instance field: public readonly System.Int32 goodCutsCount
-    int _get_goodCutsCount();
-    // Set instance field: public readonly System.Int32 goodCutsCount
-    void _set_goodCutsCount(int value);
-    // Get instance field: public readonly System.Int32 badCutsCount
-    int _get_badCutsCount();
-    // Set instance field: public readonly System.Int32 badCutsCount
-    void _set_badCutsCount(int value);
-    // Get instance field: public readonly System.Int32 missedCount
-    int _get_missedCount();
-    // Set instance field: public readonly System.Int32 missedCount
-    void _set_missedCount(int value);
-    // Get instance field: public readonly System.Int32 notGoodCount
-    int _get_notGoodCount();
-    // Set instance field: public readonly System.Int32 notGoodCount
-    void _set_notGoodCount(int value);
-    // Get instance field: public readonly System.Int32 okCount
-    int _get_okCount();
-    // Set instance field: public readonly System.Int32 okCount
-    void _set_okCount(int value);
-    // Get instance field: public readonly System.Int32 averageCutScore
-    int _get_averageCutScore();
-    // Set instance field: public readonly System.Int32 averageCutScore
-    void _set_averageCutScore(int value);
-    // Get instance field: public readonly System.Int32 maxCutScore
-    int _get_maxCutScore();
-    // Set instance field: public readonly System.Int32 maxCutScore
-    void _set_maxCutScore(int value);
-    // Get instance field: public readonly System.Single averageCutDistanceRawScore
-    float _get_averageCutDistanceRawScore();
-    // Set instance field: public readonly System.Single averageCutDistanceRawScore
-    void _set_averageCutDistanceRawScore(float value);
-    // Get instance field: public readonly System.Int32 maxCombo
-    int _get_maxCombo();
-    // Set instance field: public readonly System.Int32 maxCombo
-    void _set_maxCombo(int value);
-    // Get instance field: public readonly System.Single minDirDeviation
-    float _get_minDirDeviation();
-    // Set instance field: public readonly System.Single minDirDeviation
-    void _set_minDirDeviation(float value);
-    // Get instance field: public readonly System.Single maxDirDeviation
-    float _get_maxDirDeviation();
-    // Set instance field: public readonly System.Single maxDirDeviation
-    void _set_maxDirDeviation(float value);
-    // Get instance field: public readonly System.Single averageDirDeviation
-    float _get_averageDirDeviation();
-    // Set instance field: public readonly System.Single averageDirDeviation
-    void _set_averageDirDeviation(float value);
-    // Get instance field: public readonly System.Single minTimeDeviation
-    float _get_minTimeDeviation();
-    // Set instance field: public readonly System.Single minTimeDeviation
-    void _set_minTimeDeviation(float value);
-    // Get instance field: public readonly System.Single maxTimeDeviation
-    float _get_maxTimeDeviation();
-    // Set instance field: public readonly System.Single maxTimeDeviation
-    void _set_maxTimeDeviation(float value);
-    // Get instance field: public readonly System.Single averageTimeDeviation
-    float _get_averageTimeDeviation();
-    // Set instance field: public readonly System.Single averageTimeDeviation
-    void _set_averageTimeDeviation(float value);
-    // Get instance field: public readonly System.Single endSongTime
-    float _get_endSongTime();
-    // Set instance field: public readonly System.Single endSongTime
-    void _set_endSongTime(float value);
+    // Get instance field reference: public readonly GameplayModifiers gameplayModifiers
+    GlobalNamespace::GameplayModifiers*& dyn_gameplayModifiers();
+    // Get instance field reference: public readonly System.Int32 modifiedScore
+    int& dyn_modifiedScore();
+    // Get instance field reference: public readonly System.Int32 rawScore
+    int& dyn_rawScore();
+    // Get instance field reference: public readonly RankModel/Rank rank
+    GlobalNamespace::RankModel::Rank& dyn_rank();
+    // Get instance field reference: public readonly System.Boolean fullCombo
+    bool& dyn_fullCombo();
+    // Get instance field reference: public readonly System.Single leftSaberMovementDistance
+    float& dyn_leftSaberMovementDistance();
+    // Get instance field reference: public readonly System.Single rightSaberMovementDistance
+    float& dyn_rightSaberMovementDistance();
+    // Get instance field reference: public readonly System.Single leftHandMovementDistance
+    float& dyn_leftHandMovementDistance();
+    // Get instance field reference: public readonly System.Single rightHandMovementDistance
+    float& dyn_rightHandMovementDistance();
+    // Get instance field reference: public readonly System.Single songDuration
+    float& dyn_songDuration();
+    // Get instance field reference: public readonly LevelCompletionResults/LevelEndStateType levelEndStateType
+    GlobalNamespace::LevelCompletionResults::LevelEndStateType& dyn_levelEndStateType();
+    // Get instance field reference: public readonly LevelCompletionResults/LevelEndAction levelEndAction
+    GlobalNamespace::LevelCompletionResults::LevelEndAction& dyn_levelEndAction();
+    // Get instance field reference: public readonly System.Single energy
+    float& dyn_energy();
+    // Get instance field reference: public readonly System.Int32 goodCutsCount
+    int& dyn_goodCutsCount();
+    // Get instance field reference: public readonly System.Int32 badCutsCount
+    int& dyn_badCutsCount();
+    // Get instance field reference: public readonly System.Int32 missedCount
+    int& dyn_missedCount();
+    // Get instance field reference: public readonly System.Int32 notGoodCount
+    int& dyn_notGoodCount();
+    // Get instance field reference: public readonly System.Int32 okCount
+    int& dyn_okCount();
+    // Get instance field reference: public readonly System.Int32 averageCutScore
+    int& dyn_averageCutScore();
+    // Get instance field reference: public readonly System.Int32 maxCutScore
+    int& dyn_maxCutScore();
+    // Get instance field reference: public readonly System.Single averageCutDistanceRawScore
+    float& dyn_averageCutDistanceRawScore();
+    // Get instance field reference: public readonly System.Int32 maxCombo
+    int& dyn_maxCombo();
+    // Get instance field reference: public readonly System.Single minDirDeviation
+    float& dyn_minDirDeviation();
+    // Get instance field reference: public readonly System.Single maxDirDeviation
+    float& dyn_maxDirDeviation();
+    // Get instance field reference: public readonly System.Single averageDirDeviation
+    float& dyn_averageDirDeviation();
+    // Get instance field reference: public readonly System.Single minTimeDeviation
+    float& dyn_minTimeDeviation();
+    // Get instance field reference: public readonly System.Single maxTimeDeviation
+    float& dyn_maxTimeDeviation();
+    // Get instance field reference: public readonly System.Single averageTimeDeviation
+    float& dyn_averageTimeDeviation();
+    // Get instance field reference: public readonly System.Single endSongTime
+    float& dyn_endSongTime();
     // public System.Void .ctor(GameplayModifiers gameplayModifiers, System.Int32 modifiedScore, System.Int32 rawScore, RankModel/Rank rank, System.Boolean fullCombo, System.Single leftSaberMovementDistance, System.Single rightSaberMovementDistance, System.Single leftHandMovementDistance, System.Single rightHandMovementDistance, System.Single songDuration, LevelCompletionResults/LevelEndStateType levelEndStateType, LevelCompletionResults/LevelEndAction levelEndAction, System.Single energy, System.Int32 goodCutsCount, System.Int32 badCutsCount, System.Int32 missedCount, System.Int32 notGoodCount, System.Int32 okCount, System.Int32 averageCutScore, System.Int32 maxCutScore, System.Single averageCutDistanceRawScore, System.Int32 maxCombo, System.Single minDirDeviation, System.Single maxDirDeviation, System.Single averageDirDeviation, System.Single minTimeDeviation, System.Single maxTimeDeviation, System.Single averageTimeDeviation, System.Single endSongTime)
     // Offset: 0x2379F50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

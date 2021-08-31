@@ -116,30 +116,18 @@ namespace System::Net {
     static int _get_NumberOfLabels();
     // Set static field: static System.Int32 NumberOfLabels
     static void _set_NumberOfLabels(int value);
-    // Get instance field: System.Int64 m_Address
-    int64_t _get_m_Address();
-    // Set instance field: System.Int64 m_Address
-    void _set_m_Address(int64_t value);
-    // Get instance field: System.String m_ToString
-    ::Il2CppString* _get_m_ToString();
-    // Set instance field: System.String m_ToString
-    void _set_m_ToString(::Il2CppString* value);
-    // Get instance field: private System.Net.Sockets.AddressFamily m_Family
-    System::Net::Sockets::AddressFamily _get_m_Family();
-    // Set instance field: private System.Net.Sockets.AddressFamily m_Family
-    void _set_m_Family(System::Net::Sockets::AddressFamily value);
-    // Get instance field: private System.UInt16[] m_Numbers
-    ::Array<uint16_t>* _get_m_Numbers();
-    // Set instance field: private System.UInt16[] m_Numbers
-    void _set_m_Numbers(::Array<uint16_t>* value);
-    // Get instance field: private System.Int64 m_ScopeId
-    int64_t _get_m_ScopeId();
-    // Set instance field: private System.Int64 m_ScopeId
-    void _set_m_ScopeId(int64_t value);
-    // Get instance field: private System.Int32 m_HashCode
-    int _get_m_HashCode();
-    // Set instance field: private System.Int32 m_HashCode
-    void _set_m_HashCode(int value);
+    // Get instance field reference: System.Int64 m_Address
+    int64_t& dyn_m_Address();
+    // Get instance field reference: System.String m_ToString
+    ::Il2CppString*& dyn_m_ToString();
+    // Get instance field reference: private System.Net.Sockets.AddressFamily m_Family
+    System::Net::Sockets::AddressFamily& dyn_m_Family();
+    // Get instance field reference: private System.UInt16[] m_Numbers
+    ::Array<uint16_t>*& dyn_m_Numbers();
+    // Get instance field reference: private System.Int64 m_ScopeId
+    int64_t& dyn_m_ScopeId();
+    // Get instance field reference: private System.Int32 m_HashCode
+    int& dyn_m_HashCode();
     // public System.Net.Sockets.AddressFamily get_AddressFamily()
     // Offset: 0x167B7DC
     System::Net::Sockets::AddressFamily get_AddressFamily();

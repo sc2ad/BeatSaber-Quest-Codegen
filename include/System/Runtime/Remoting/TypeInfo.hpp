@@ -51,18 +51,12 @@ namespace System::Runtime::Remoting {
     operator System::Runtime::Remoting::IRemotingTypeInfo() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::IRemotingTypeInfo*>(this);
     }
-    // Get instance field: private System.String serverType
-    ::Il2CppString* _get_serverType();
-    // Set instance field: private System.String serverType
-    void _set_serverType(::Il2CppString* value);
-    // Get instance field: private System.String[] serverHierarchy
-    ::Array<::Il2CppString*>* _get_serverHierarchy();
-    // Set instance field: private System.String[] serverHierarchy
-    void _set_serverHierarchy(::Array<::Il2CppString*>* value);
-    // Get instance field: private System.String[] interfacesImplemented
-    ::Array<::Il2CppString*>* _get_interfacesImplemented();
-    // Set instance field: private System.String[] interfacesImplemented
-    void _set_interfacesImplemented(::Array<::Il2CppString*>* value);
+    // Get instance field reference: private System.String serverType
+    ::Il2CppString*& dyn_serverType();
+    // Get instance field reference: private System.String[] serverHierarchy
+    ::Array<::Il2CppString*>*& dyn_serverHierarchy();
+    // Get instance field reference: private System.String[] interfacesImplemented
+    ::Array<::Il2CppString*>*& dyn_interfacesImplemented();
     // public System.String get_TypeName()
     // Offset: 0x160EDE4
     ::Il2CppString* get_TypeName();

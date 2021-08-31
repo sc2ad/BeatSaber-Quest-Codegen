@@ -39,14 +39,10 @@ namespace System::Runtime::ConstrainedExecution {
     static_assert(sizeof(System::Runtime::ConstrainedExecution::Cer) == 0x4);
     // Creating value type constructor for type: ReliabilityContractAttribute
     ReliabilityContractAttribute(System::Runtime::ConstrainedExecution::Consistency consistency_ = {}, System::Runtime::ConstrainedExecution::Cer cer_ = {}) noexcept : consistency{consistency_}, cer{cer_} {}
-    // Get instance field: private System.Runtime.ConstrainedExecution.Consistency _consistency
-    System::Runtime::ConstrainedExecution::Consistency _get__consistency();
-    // Set instance field: private System.Runtime.ConstrainedExecution.Consistency _consistency
-    void _set__consistency(System::Runtime::ConstrainedExecution::Consistency value);
-    // Get instance field: private System.Runtime.ConstrainedExecution.Cer _cer
-    System::Runtime::ConstrainedExecution::Cer _get__cer();
-    // Set instance field: private System.Runtime.ConstrainedExecution.Cer _cer
-    void _set__cer(System::Runtime::ConstrainedExecution::Cer value);
+    // Get instance field reference: private System.Runtime.ConstrainedExecution.Consistency _consistency
+    System::Runtime::ConstrainedExecution::Consistency& dyn__consistency();
+    // Get instance field reference: private System.Runtime.ConstrainedExecution.Cer _cer
+    System::Runtime::ConstrainedExecution::Cer& dyn__cer();
     // public System.Void .ctor(System.Runtime.ConstrainedExecution.Consistency consistencyGuarantee, System.Runtime.ConstrainedExecution.Cer cer)
     // Offset: 0x1487B28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

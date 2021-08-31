@@ -77,30 +77,18 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::MasterServerConnectionManager*>() noexcept {
       return *reinterpret_cast<GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::MasterServerConnectionManager*>*>(this);
     }
-    // Get instance field: public MasterServerEndPoint masterServerEndPoint
-    GlobalNamespace::MasterServerEndPoint* _get_masterServerEndPoint();
-    // Set instance field: public MasterServerEndPoint masterServerEndPoint
-    void _set_masterServerEndPoint(GlobalNamespace::MasterServerEndPoint* value);
-    // Get instance field: public IAuthenticationTokenProvider authenticationTokenProvider
-    GlobalNamespace::IAuthenticationTokenProvider* _get_authenticationTokenProvider();
-    // Set instance field: public IAuthenticationTokenProvider authenticationTokenProvider
-    void _set_authenticationTokenProvider(GlobalNamespace::IAuthenticationTokenProvider* value);
-    // Get instance field: public System.String userId
-    ::Il2CppString* _get_userId();
-    // Set instance field: public System.String userId
-    void _set_userId(::Il2CppString* value);
-    // Get instance field: public System.String userName
-    ::Il2CppString* _get_userName();
-    // Set instance field: public System.String userName
-    void _set_userName(::Il2CppString* value);
-    // Get instance field: public BeatmapLevelSelectionMask selectionMask
-    GlobalNamespace::BeatmapLevelSelectionMask _get_selectionMask();
-    // Set instance field: public BeatmapLevelSelectionMask selectionMask
-    void _set_selectionMask(GlobalNamespace::BeatmapLevelSelectionMask value);
-    // Get instance field: public GameplayServerConfiguration configuration
-    GlobalNamespace::GameplayServerConfiguration _get_configuration();
-    // Set instance field: public GameplayServerConfiguration configuration
-    void _set_configuration(GlobalNamespace::GameplayServerConfiguration value);
+    // Get instance field reference: public MasterServerEndPoint masterServerEndPoint
+    GlobalNamespace::MasterServerEndPoint*& dyn_masterServerEndPoint();
+    // Get instance field reference: public IAuthenticationTokenProvider authenticationTokenProvider
+    GlobalNamespace::IAuthenticationTokenProvider*& dyn_authenticationTokenProvider();
+    // Get instance field reference: public System.String userId
+    ::Il2CppString*& dyn_userId();
+    // Get instance field reference: public System.String userName
+    ::Il2CppString*& dyn_userName();
+    // Get instance field reference: public BeatmapLevelSelectionMask selectionMask
+    GlobalNamespace::BeatmapLevelSelectionMask& dyn_selectionMask();
+    // Get instance field reference: public GameplayServerConfiguration configuration
+    GlobalNamespace::GameplayServerConfiguration& dyn_configuration();
     // protected System.Void .ctor()
     // Offset: 0x12245CC
     // Implemented from: System.Object

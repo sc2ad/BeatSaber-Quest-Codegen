@@ -234,102 +234,54 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(System::Type*) == 0x8);
     // Creating value type constructor for type: ObjectReader
     ObjectReader(System::IO::Stream* m_stream_ = {}, System::Runtime::Serialization::ISurrogateSelector* m_surrogates_ = {}, System::Runtime::Serialization::StreamingContext m_context_ = {}, System::Runtime::Serialization::ObjectManager* m_objectManager_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalFE* formatterEnums_ = {}, System::Runtime::Serialization::SerializationBinder* m_binder_ = {}, int64_t topId_ = {}, bool bSimpleAssembly_ = {}, ::Il2CppObject* handlerObject_ = {}, ::Il2CppObject* m_topObject_ = {}, ::Array<System::Runtime::Remoting::Messaging::Header*>* headers_ = {}, System::Runtime::Remoting::Messaging::HeaderHandler* handler_ = {}, System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit_ = {}, System::Runtime::Serialization::IFormatterConverter* m_formatterConverter_ = {}, System::Runtime::Serialization::Formatters::Binary::SerStack* stack_ = {}, System::Runtime::Serialization::Formatters::Binary::SerStack* valueFixupStack_ = {}, ::Array<::Il2CppObject*>* crossAppDomainArray_ = {}, bool bFullDeserialization_ = {}, bool bOldFormatDetected_ = {}, System::Runtime::Serialization::Formatters::Binary::IntSizedArray* valTypeObjectIdTable_ = {}, System::Runtime::Serialization::Formatters::Binary::NameCache* typeCache_ = {}, ::Il2CppString* previousAssemblyString_ = {}, ::Il2CppString* previousName_ = {}, System::Type* previousType_ = {}) noexcept : m_stream{m_stream_}, m_surrogates{m_surrogates_}, m_context{m_context_}, m_objectManager{m_objectManager_}, formatterEnums{formatterEnums_}, m_binder{m_binder_}, topId{topId_}, bSimpleAssembly{bSimpleAssembly_}, handlerObject{handlerObject_}, m_topObject{m_topObject_}, headers{headers_}, handler{handler_}, serObjectInfoInit{serObjectInfoInit_}, m_formatterConverter{m_formatterConverter_}, stack{stack_}, valueFixupStack{valueFixupStack_}, crossAppDomainArray{crossAppDomainArray_}, bFullDeserialization{bFullDeserialization_}, bOldFormatDetected{bOldFormatDetected_}, valTypeObjectIdTable{valTypeObjectIdTable_}, typeCache{typeCache_}, previousAssemblyString{previousAssemblyString_}, previousName{previousName_}, previousType{previousType_} {}
-    // Get instance field: System.IO.Stream m_stream
-    System::IO::Stream* _get_m_stream();
-    // Set instance field: System.IO.Stream m_stream
-    void _set_m_stream(System::IO::Stream* value);
-    // Get instance field: System.Runtime.Serialization.ISurrogateSelector m_surrogates
-    System::Runtime::Serialization::ISurrogateSelector* _get_m_surrogates();
-    // Set instance field: System.Runtime.Serialization.ISurrogateSelector m_surrogates
-    void _set_m_surrogates(System::Runtime::Serialization::ISurrogateSelector* value);
-    // Get instance field: System.Runtime.Serialization.StreamingContext m_context
-    System::Runtime::Serialization::StreamingContext _get_m_context();
-    // Set instance field: System.Runtime.Serialization.StreamingContext m_context
-    void _set_m_context(System::Runtime::Serialization::StreamingContext value);
-    // Get instance field: System.Runtime.Serialization.ObjectManager m_objectManager
-    System::Runtime::Serialization::ObjectManager* _get_m_objectManager();
-    // Set instance field: System.Runtime.Serialization.ObjectManager m_objectManager
-    void _set_m_objectManager(System::Runtime::Serialization::ObjectManager* value);
-    // Get instance field: System.Runtime.Serialization.Formatters.Binary.InternalFE formatterEnums
-    System::Runtime::Serialization::Formatters::Binary::InternalFE* _get_formatterEnums();
-    // Set instance field: System.Runtime.Serialization.Formatters.Binary.InternalFE formatterEnums
-    void _set_formatterEnums(System::Runtime::Serialization::Formatters::Binary::InternalFE* value);
-    // Get instance field: System.Runtime.Serialization.SerializationBinder m_binder
-    System::Runtime::Serialization::SerializationBinder* _get_m_binder();
-    // Set instance field: System.Runtime.Serialization.SerializationBinder m_binder
-    void _set_m_binder(System::Runtime::Serialization::SerializationBinder* value);
-    // Get instance field: System.Int64 topId
-    int64_t _get_topId();
-    // Set instance field: System.Int64 topId
-    void _set_topId(int64_t value);
-    // Get instance field: System.Boolean bSimpleAssembly
-    bool _get_bSimpleAssembly();
-    // Set instance field: System.Boolean bSimpleAssembly
-    void _set_bSimpleAssembly(bool value);
-    // Get instance field: System.Object handlerObject
-    ::Il2CppObject* _get_handlerObject();
-    // Set instance field: System.Object handlerObject
-    void _set_handlerObject(::Il2CppObject* value);
-    // Get instance field: System.Object m_topObject
-    ::Il2CppObject* _get_m_topObject();
-    // Set instance field: System.Object m_topObject
-    void _set_m_topObject(::Il2CppObject* value);
-    // Get instance field: System.Runtime.Remoting.Messaging.Header[] headers
-    ::Array<System::Runtime::Remoting::Messaging::Header*>* _get_headers();
-    // Set instance field: System.Runtime.Remoting.Messaging.Header[] headers
-    void _set_headers(::Array<System::Runtime::Remoting::Messaging::Header*>* value);
-    // Get instance field: System.Runtime.Remoting.Messaging.HeaderHandler handler
-    System::Runtime::Remoting::Messaging::HeaderHandler* _get_handler();
-    // Set instance field: System.Runtime.Remoting.Messaging.HeaderHandler handler
-    void _set_handler(System::Runtime::Remoting::Messaging::HeaderHandler* value);
-    // Get instance field: System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit serObjectInfoInit
-    System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* _get_serObjectInfoInit();
-    // Set instance field: System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit serObjectInfoInit
-    void _set_serObjectInfoInit(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* value);
-    // Get instance field: System.Runtime.Serialization.IFormatterConverter m_formatterConverter
-    System::Runtime::Serialization::IFormatterConverter* _get_m_formatterConverter();
-    // Set instance field: System.Runtime.Serialization.IFormatterConverter m_formatterConverter
-    void _set_m_formatterConverter(System::Runtime::Serialization::IFormatterConverter* value);
-    // Get instance field: System.Runtime.Serialization.Formatters.Binary.SerStack stack
-    System::Runtime::Serialization::Formatters::Binary::SerStack* _get_stack();
-    // Set instance field: System.Runtime.Serialization.Formatters.Binary.SerStack stack
-    void _set_stack(System::Runtime::Serialization::Formatters::Binary::SerStack* value);
-    // Get instance field: private System.Runtime.Serialization.Formatters.Binary.SerStack valueFixupStack
-    System::Runtime::Serialization::Formatters::Binary::SerStack* _get_valueFixupStack();
-    // Set instance field: private System.Runtime.Serialization.Formatters.Binary.SerStack valueFixupStack
-    void _set_valueFixupStack(System::Runtime::Serialization::Formatters::Binary::SerStack* value);
-    // Get instance field: System.Object[] crossAppDomainArray
-    ::Array<::Il2CppObject*>* _get_crossAppDomainArray();
-    // Set instance field: System.Object[] crossAppDomainArray
-    void _set_crossAppDomainArray(::Array<::Il2CppObject*>* value);
-    // Get instance field: private System.Boolean bFullDeserialization
-    bool _get_bFullDeserialization();
-    // Set instance field: private System.Boolean bFullDeserialization
-    void _set_bFullDeserialization(bool value);
-    // Get instance field: private System.Boolean bOldFormatDetected
-    bool _get_bOldFormatDetected();
-    // Set instance field: private System.Boolean bOldFormatDetected
-    void _set_bOldFormatDetected(bool value);
-    // Get instance field: private System.Runtime.Serialization.Formatters.Binary.IntSizedArray valTypeObjectIdTable
-    System::Runtime::Serialization::Formatters::Binary::IntSizedArray* _get_valTypeObjectIdTable();
-    // Set instance field: private System.Runtime.Serialization.Formatters.Binary.IntSizedArray valTypeObjectIdTable
-    void _set_valTypeObjectIdTable(System::Runtime::Serialization::Formatters::Binary::IntSizedArray* value);
-    // Get instance field: private System.Runtime.Serialization.Formatters.Binary.NameCache typeCache
-    System::Runtime::Serialization::Formatters::Binary::NameCache* _get_typeCache();
-    // Set instance field: private System.Runtime.Serialization.Formatters.Binary.NameCache typeCache
-    void _set_typeCache(System::Runtime::Serialization::Formatters::Binary::NameCache* value);
-    // Get instance field: private System.String previousAssemblyString
-    ::Il2CppString* _get_previousAssemblyString();
-    // Set instance field: private System.String previousAssemblyString
-    void _set_previousAssemblyString(::Il2CppString* value);
-    // Get instance field: private System.String previousName
-    ::Il2CppString* _get_previousName();
-    // Set instance field: private System.String previousName
-    void _set_previousName(::Il2CppString* value);
-    // Get instance field: private System.Type previousType
-    System::Type* _get_previousType();
-    // Set instance field: private System.Type previousType
-    void _set_previousType(System::Type* value);
+    // Get instance field reference: System.IO.Stream m_stream
+    System::IO::Stream*& dyn_m_stream();
+    // Get instance field reference: System.Runtime.Serialization.ISurrogateSelector m_surrogates
+    System::Runtime::Serialization::ISurrogateSelector*& dyn_m_surrogates();
+    // Get instance field reference: System.Runtime.Serialization.StreamingContext m_context
+    System::Runtime::Serialization::StreamingContext& dyn_m_context();
+    // Get instance field reference: System.Runtime.Serialization.ObjectManager m_objectManager
+    System::Runtime::Serialization::ObjectManager*& dyn_m_objectManager();
+    // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalFE formatterEnums
+    System::Runtime::Serialization::Formatters::Binary::InternalFE*& dyn_formatterEnums();
+    // Get instance field reference: System.Runtime.Serialization.SerializationBinder m_binder
+    System::Runtime::Serialization::SerializationBinder*& dyn_m_binder();
+    // Get instance field reference: System.Int64 topId
+    int64_t& dyn_topId();
+    // Get instance field reference: System.Boolean bSimpleAssembly
+    bool& dyn_bSimpleAssembly();
+    // Get instance field reference: System.Object handlerObject
+    ::Il2CppObject*& dyn_handlerObject();
+    // Get instance field reference: System.Object m_topObject
+    ::Il2CppObject*& dyn_m_topObject();
+    // Get instance field reference: System.Runtime.Remoting.Messaging.Header[] headers
+    ::Array<System::Runtime::Remoting::Messaging::Header*>*& dyn_headers();
+    // Get instance field reference: System.Runtime.Remoting.Messaging.HeaderHandler handler
+    System::Runtime::Remoting::Messaging::HeaderHandler*& dyn_handler();
+    // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit serObjectInfoInit
+    System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*& dyn_serObjectInfoInit();
+    // Get instance field reference: System.Runtime.Serialization.IFormatterConverter m_formatterConverter
+    System::Runtime::Serialization::IFormatterConverter*& dyn_m_formatterConverter();
+    // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.SerStack stack
+    System::Runtime::Serialization::Formatters::Binary::SerStack*& dyn_stack();
+    // Get instance field reference: private System.Runtime.Serialization.Formatters.Binary.SerStack valueFixupStack
+    System::Runtime::Serialization::Formatters::Binary::SerStack*& dyn_valueFixupStack();
+    // Get instance field reference: System.Object[] crossAppDomainArray
+    ::Array<::Il2CppObject*>*& dyn_crossAppDomainArray();
+    // Get instance field reference: private System.Boolean bFullDeserialization
+    bool& dyn_bFullDeserialization();
+    // Get instance field reference: private System.Boolean bOldFormatDetected
+    bool& dyn_bOldFormatDetected();
+    // Get instance field reference: private System.Runtime.Serialization.Formatters.Binary.IntSizedArray valTypeObjectIdTable
+    System::Runtime::Serialization::Formatters::Binary::IntSizedArray*& dyn_valTypeObjectIdTable();
+    // Get instance field reference: private System.Runtime.Serialization.Formatters.Binary.NameCache typeCache
+    System::Runtime::Serialization::Formatters::Binary::NameCache*& dyn_typeCache();
+    // Get instance field reference: private System.String previousAssemblyString
+    ::Il2CppString*& dyn_previousAssemblyString();
+    // Get instance field reference: private System.String previousName
+    ::Il2CppString*& dyn_previousName();
+    // Get instance field reference: private System.Type previousType
+    System::Type*& dyn_previousType();
     // private System.Runtime.Serialization.Formatters.Binary.SerStack get_ValueFixupStack()
     // Offset: 0x1619A60
     System::Runtime::Serialization::Formatters::Binary::SerStack* get_ValueFixupStack();

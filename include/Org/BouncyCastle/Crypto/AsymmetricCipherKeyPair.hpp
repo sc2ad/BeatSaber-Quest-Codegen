@@ -39,14 +39,10 @@ namespace Org::BouncyCastle::Crypto {
     static_assert(sizeof(Org::BouncyCastle::Crypto::AsymmetricKeyParameter*) == 0x8);
     // Creating value type constructor for type: AsymmetricCipherKeyPair
     AsymmetricCipherKeyPair(Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicParameter_ = {}, Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateParameter_ = {}) noexcept : publicParameter{publicParameter_}, privateParameter{privateParameter_} {}
-    // Get instance field: private readonly Org.BouncyCastle.Crypto.AsymmetricKeyParameter publicParameter
-    Org::BouncyCastle::Crypto::AsymmetricKeyParameter* _get_publicParameter();
-    // Set instance field: private readonly Org.BouncyCastle.Crypto.AsymmetricKeyParameter publicParameter
-    void _set_publicParameter(Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
-    // Get instance field: private readonly Org.BouncyCastle.Crypto.AsymmetricKeyParameter privateParameter
-    Org::BouncyCastle::Crypto::AsymmetricKeyParameter* _get_privateParameter();
-    // Set instance field: private readonly Org.BouncyCastle.Crypto.AsymmetricKeyParameter privateParameter
-    void _set_privateParameter(Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Crypto.AsymmetricKeyParameter publicParameter
+    Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& dyn_publicParameter();
+    // Get instance field reference: private readonly Org.BouncyCastle.Crypto.AsymmetricKeyParameter privateParameter
+    Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& dyn_privateParameter();
     // public Org.BouncyCastle.Crypto.AsymmetricKeyParameter get_Public()
     // Offset: 0x1A0B848
     Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Public();

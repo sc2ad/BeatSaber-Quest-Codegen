@@ -55,26 +55,16 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private System.Int32 m_MeshInstanceID
-    int _get_m_MeshInstanceID();
-    // Set instance field: private System.Int32 m_MeshInstanceID
-    void _set_m_MeshInstanceID(int value);
-    // Get instance field: private System.Int32 m_SubMeshIndex
-    int _get_m_SubMeshIndex();
-    // Set instance field: private System.Int32 m_SubMeshIndex
-    void _set_m_SubMeshIndex(int value);
-    // Get instance field: private UnityEngine.Matrix4x4 m_Transform
-    UnityEngine::Matrix4x4 _get_m_Transform();
-    // Set instance field: private UnityEngine.Matrix4x4 m_Transform
-    void _set_m_Transform(UnityEngine::Matrix4x4 value);
-    // Get instance field: private UnityEngine.Vector4 m_LightmapScaleOffset
-    UnityEngine::Vector4 _get_m_LightmapScaleOffset();
-    // Set instance field: private UnityEngine.Vector4 m_LightmapScaleOffset
-    void _set_m_LightmapScaleOffset(UnityEngine::Vector4 value);
-    // Get instance field: private UnityEngine.Vector4 m_RealtimeLightmapScaleOffset
-    UnityEngine::Vector4 _get_m_RealtimeLightmapScaleOffset();
-    // Set instance field: private UnityEngine.Vector4 m_RealtimeLightmapScaleOffset
-    void _set_m_RealtimeLightmapScaleOffset(UnityEngine::Vector4 value);
+    // Get instance field reference: private System.Int32 m_MeshInstanceID
+    int& dyn_m_MeshInstanceID();
+    // Get instance field reference: private System.Int32 m_SubMeshIndex
+    int& dyn_m_SubMeshIndex();
+    // Get instance field reference: private UnityEngine.Matrix4x4 m_Transform
+    UnityEngine::Matrix4x4& dyn_m_Transform();
+    // Get instance field reference: private UnityEngine.Vector4 m_LightmapScaleOffset
+    UnityEngine::Vector4& dyn_m_LightmapScaleOffset();
+    // Get instance field reference: private UnityEngine.Vector4 m_RealtimeLightmapScaleOffset
+    UnityEngine::Vector4& dyn_m_RealtimeLightmapScaleOffset();
   }; // UnityEngine.CombineInstance
   #pragma pack(pop)
   static check_size<sizeof(CombineInstance), 88 + sizeof(UnityEngine::Vector4)> __UnityEngine_CombineInstanceSizeCheck;

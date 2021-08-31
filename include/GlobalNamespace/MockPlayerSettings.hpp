@@ -107,58 +107,32 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Color) == 0x10);
     // Creating value type constructor for type: MockPlayerSettings
     MockPlayerSettings(::Il2CppString* userName_ = {}, ::Il2CppString* userId_ = {}, int sortIndex_ = {}, float latency_ = {}, bool autoConnect_ = {}, bool inactiveByDefault_ = {}, GlobalNamespace::MockPlayerMovementType movementType_ = {}, ::Il2CppString* recodingFile_ = {}, float aiCubeHitChance_ = {}, bool leftHanded_ = {}, UnityEngine::Color saberAColor_ = {}, UnityEngine::Color saberBColor_ = {}, UnityEngine::Color obstaclesColor_ = {}) noexcept : userName{userName_}, userId{userId_}, sortIndex{sortIndex_}, latency{latency_}, autoConnect{autoConnect_}, inactiveByDefault{inactiveByDefault_}, movementType{movementType_}, recodingFile{recodingFile_}, aiCubeHitChance{aiCubeHitChance_}, leftHanded{leftHanded_}, saberAColor{saberAColor_}, saberBColor{saberBColor_}, obstaclesColor{obstaclesColor_} {}
-    // Get instance field: private System.String _userName
-    ::Il2CppString* _get__userName();
-    // Set instance field: private System.String _userName
-    void _set__userName(::Il2CppString* value);
-    // Get instance field: private System.String _userId
-    ::Il2CppString* _get__userId();
-    // Set instance field: private System.String _userId
-    void _set__userId(::Il2CppString* value);
-    // Get instance field: private System.Int32 _sortIndex
-    int _get__sortIndex();
-    // Set instance field: private System.Int32 _sortIndex
-    void _set__sortIndex(int value);
-    // Get instance field: private System.Single _latency
-    float _get__latency();
-    // Set instance field: private System.Single _latency
-    void _set__latency(float value);
-    // Get instance field: private System.Boolean _autoConnect
-    bool _get__autoConnect();
-    // Set instance field: private System.Boolean _autoConnect
-    void _set__autoConnect(bool value);
-    // Get instance field: private System.Boolean _inactiveByDefault
-    bool _get__inactiveByDefault();
-    // Set instance field: private System.Boolean _inactiveByDefault
-    void _set__inactiveByDefault(bool value);
-    // Get instance field: private MockPlayerMovementType _movementType
-    GlobalNamespace::MockPlayerMovementType _get__movementType();
-    // Set instance field: private MockPlayerMovementType _movementType
-    void _set__movementType(GlobalNamespace::MockPlayerMovementType value);
-    // Get instance field: private System.String _recodingFile
-    ::Il2CppString* _get__recodingFile();
-    // Set instance field: private System.String _recodingFile
-    void _set__recodingFile(::Il2CppString* value);
-    // Get instance field: private System.Single _aiCubeHitChance
-    float _get__aiCubeHitChance();
-    // Set instance field: private System.Single _aiCubeHitChance
-    void _set__aiCubeHitChance(float value);
-    // Get instance field: private System.Boolean _leftHanded
-    bool _get__leftHanded();
-    // Set instance field: private System.Boolean _leftHanded
-    void _set__leftHanded(bool value);
-    // Get instance field: private UnityEngine.Color _saberAColor
-    UnityEngine::Color _get__saberAColor();
-    // Set instance field: private UnityEngine.Color _saberAColor
-    void _set__saberAColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _saberBColor
-    UnityEngine::Color _get__saberBColor();
-    // Set instance field: private UnityEngine.Color _saberBColor
-    void _set__saberBColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _obstaclesColor
-    UnityEngine::Color _get__obstaclesColor();
-    // Set instance field: private UnityEngine.Color _obstaclesColor
-    void _set__obstaclesColor(UnityEngine::Color value);
+    // Get instance field reference: private System.String _userName
+    ::Il2CppString*& dyn__userName();
+    // Get instance field reference: private System.String _userId
+    ::Il2CppString*& dyn__userId();
+    // Get instance field reference: private System.Int32 _sortIndex
+    int& dyn__sortIndex();
+    // Get instance field reference: private System.Single _latency
+    float& dyn__latency();
+    // Get instance field reference: private System.Boolean _autoConnect
+    bool& dyn__autoConnect();
+    // Get instance field reference: private System.Boolean _inactiveByDefault
+    bool& dyn__inactiveByDefault();
+    // Get instance field reference: private MockPlayerMovementType _movementType
+    GlobalNamespace::MockPlayerMovementType& dyn__movementType();
+    // Get instance field reference: private System.String _recodingFile
+    ::Il2CppString*& dyn__recodingFile();
+    // Get instance field reference: private System.Single _aiCubeHitChance
+    float& dyn__aiCubeHitChance();
+    // Get instance field reference: private System.Boolean _leftHanded
+    bool& dyn__leftHanded();
+    // Get instance field reference: private UnityEngine.Color _saberAColor
+    UnityEngine::Color& dyn__saberAColor();
+    // Get instance field reference: private UnityEngine.Color _saberBColor
+    UnityEngine::Color& dyn__saberBColor();
+    // Get instance field reference: private UnityEngine.Color _obstaclesColor
+    UnityEngine::Color& dyn__obstaclesColor();
     // public System.String get_userName()
     // Offset: 0x11DFEA8
     ::Il2CppString* get_userName();

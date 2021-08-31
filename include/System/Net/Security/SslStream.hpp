@@ -70,14 +70,10 @@ namespace System::Net::Security {
     static_assert(sizeof(Mono::Security::Interface::IMonoSslStream*) == 0x8);
     // Creating value type constructor for type: SslStream
     SslStream(Mono::Security::Interface::MonoTlsProvider* provider_ = {}, Mono::Security::Interface::IMonoSslStream* impl_ = {}) noexcept : provider{provider_}, impl{impl_} {}
-    // Get instance field: private Mono.Security.Interface.MonoTlsProvider provider
-    Mono::Security::Interface::MonoTlsProvider* _get_provider();
-    // Set instance field: private Mono.Security.Interface.MonoTlsProvider provider
-    void _set_provider(Mono::Security::Interface::MonoTlsProvider* value);
-    // Get instance field: private Mono.Security.Interface.IMonoSslStream impl
-    Mono::Security::Interface::IMonoSslStream* _get_impl();
-    // Set instance field: private Mono.Security.Interface.IMonoSslStream impl
-    void _set_impl(Mono::Security::Interface::IMonoSslStream* value);
+    // Get instance field reference: private Mono.Security.Interface.MonoTlsProvider provider
+    Mono::Security::Interface::MonoTlsProvider*& dyn_provider();
+    // Get instance field reference: private Mono.Security.Interface.IMonoSslStream impl
+    Mono::Security::Interface::IMonoSslStream*& dyn_impl();
     // Mono.Security.Interface.IMonoSslStream get_Impl()
     // Offset: 0x149F64C
     Mono::Security::Interface::IMonoSslStream* get_Impl();

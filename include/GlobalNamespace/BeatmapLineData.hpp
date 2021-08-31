@@ -52,10 +52,8 @@ namespace GlobalNamespace {
     constexpr operator System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData*>*() const noexcept {
       return beatmapObjectsData;
     }
-    // Get instance field: private readonly System.Collections.Generic.List`1<BeatmapObjectData> _beatmapObjectsData
-    System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData*>* _get__beatmapObjectsData();
-    // Set instance field: private readonly System.Collections.Generic.List`1<BeatmapObjectData> _beatmapObjectsData
-    void _set__beatmapObjectsData(System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData*>* value);
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<BeatmapObjectData> _beatmapObjectsData
+    System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData*>*& dyn__beatmapObjectsData();
     // public System.Collections.Generic.IReadOnlyList`1<BeatmapObjectData> get_beatmapObjectsData()
     // Offset: 0x240C7BC
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::BeatmapObjectData*>* get_beatmapObjectsData();

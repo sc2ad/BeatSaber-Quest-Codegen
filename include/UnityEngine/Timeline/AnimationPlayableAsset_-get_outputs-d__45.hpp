@@ -71,22 +71,14 @@ namespace UnityEngine::Timeline {
     operator System::Collections::Generic::IEnumerator_1<UnityEngine::Playables::PlayableBinding>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<UnityEngine::Playables::PlayableBinding>*>(this);
     }
-    // Get instance field: private System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: private System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: private UnityEngine.Playables.PlayableBinding <>2__current
-    UnityEngine::Playables::PlayableBinding _get_$$2__current();
-    // Set instance field: private UnityEngine.Playables.PlayableBinding <>2__current
-    void _set_$$2__current(UnityEngine::Playables::PlayableBinding value);
-    // Get instance field: private System.Int32 <>l__initialThreadId
-    int _get_$$l__initialThreadId();
-    // Set instance field: private System.Int32 <>l__initialThreadId
-    void _set_$$l__initialThreadId(int value);
-    // Get instance field: public UnityEngine.Timeline.AnimationPlayableAsset <>4__this
-    UnityEngine::Timeline::AnimationPlayableAsset* _get_$$4__this();
-    // Set instance field: public UnityEngine.Timeline.AnimationPlayableAsset <>4__this
-    void _set_$$4__this(UnityEngine::Timeline::AnimationPlayableAsset* value);
+    // Get instance field reference: private System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: private UnityEngine.Playables.PlayableBinding <>2__current
+    UnityEngine::Playables::PlayableBinding& dyn_$$2__current();
+    // Get instance field reference: private System.Int32 <>l__initialThreadId
+    int& dyn_$$l__initialThreadId();
+    // Get instance field reference: public UnityEngine.Timeline.AnimationPlayableAsset <>4__this
+    UnityEngine::Timeline::AnimationPlayableAsset*& dyn_$$4__this();
     // private UnityEngine.Playables.PlayableBinding System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current()
     // Offset: 0x1816630
     UnityEngine::Playables::PlayableBinding System_Collections_Generic_IEnumerator$UnityEngine_Playables_PlayableBinding$_get_Current();

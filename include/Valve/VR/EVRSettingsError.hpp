@@ -68,10 +68,8 @@ namespace Valve::VR {
     static Valve::VR::EVRSettingsError _get_UnsetSettingHasNoDefault();
     // Set static field: static public Valve.VR.EVRSettingsError UnsetSettingHasNoDefault
     static void _set_UnsetSettingHasNoDefault(Valve::VR::EVRSettingsError value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Valve.VR.EVRSettingsError
   #pragma pack(pop)
   static check_size<sizeof(EVRSettingsError), 0 + sizeof(int)> __Valve_VR_EVRSettingsErrorSizeCheck;

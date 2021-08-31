@@ -36,14 +36,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: PredefinedPack
     PredefinedPack(int order_ = {}, ::Il2CppString* packId_ = {}) noexcept : order{order_}, packId{packId_} {}
-    // Get instance field: public System.Int32 order
-    int _get_order();
-    // Set instance field: public System.Int32 order
-    void _set_order(int value);
-    // Get instance field: public System.String packId
-    ::Il2CppString* _get_packId();
-    // Set instance field: public System.String packId
-    void _set_packId(::Il2CppString* value);
+    // Get instance field reference: public System.Int32 order
+    int& dyn_order();
+    // Get instance field reference: public System.String packId
+    ::Il2CppString*& dyn_packId();
     // public System.Void .ctor()
     // Offset: 0x10E5298
     // Implemented from: System.Object

@@ -168,70 +168,38 @@ namespace GlobalNamespace {
     MultiplayerScoreRingManager(float delayBetweenScoreUpdates_ = {}, float centerDistanceOffset_ = {}, GlobalNamespace::MultiplayerController* multiplayerController_ = {}, GlobalNamespace::MultiplayerPlayersManager* multiplayerPlayersManager_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, GlobalNamespace::BeatmapObjectSpawnCenter* spawnCenter_ = {}, GlobalNamespace::MultiplayerLayoutProvider* layoutProvider_ = {}, GlobalNamespace::MultiplayerScoreProvider* scoreProvider_ = {}, GlobalNamespace::MultiplayerScoreRingItem::Pool* scoreRingItemPool_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerScoreRingItem*>* scoreRingItems_ = {}, System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* allActivePlayers_ = {}, int currentlyScoreUpdateIndex_ = {}, float timeSinceLastScoreUpdate_ = {}, GlobalNamespace::MultiplayerScoreRingItem* firstPlayerItem_ = {}, bool spawnCenterDistanceFound_ = {}, bool playersSpawned_ = {}) noexcept : delayBetweenScoreUpdates{delayBetweenScoreUpdates_}, centerDistanceOffset{centerDistanceOffset_}, multiplayerController{multiplayerController_}, multiplayerPlayersManager{multiplayerPlayersManager_}, multiplayerSessionManager{multiplayerSessionManager_}, spawnCenter{spawnCenter_}, layoutProvider{layoutProvider_}, scoreProvider{scoreProvider_}, scoreRingItemPool{scoreRingItemPool_}, scoreRingItems{scoreRingItems_}, allActivePlayers{allActivePlayers_}, currentlyScoreUpdateIndex{currentlyScoreUpdateIndex_}, timeSinceLastScoreUpdate{timeSinceLastScoreUpdate_}, firstPlayerItem{firstPlayerItem_}, spawnCenterDistanceFound{spawnCenterDistanceFound_}, playersSpawned{playersSpawned_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Single _delayBetweenScoreUpdates
-    float _get__delayBetweenScoreUpdates();
-    // Set instance field: private System.Single _delayBetweenScoreUpdates
-    void _set__delayBetweenScoreUpdates(float value);
-    // Get instance field: private System.Single _centerDistanceOffset
-    float _get__centerDistanceOffset();
-    // Set instance field: private System.Single _centerDistanceOffset
-    void _set__centerDistanceOffset(float value);
-    // Get instance field: private readonly MultiplayerController _multiplayerController
-    GlobalNamespace::MultiplayerController* _get__multiplayerController();
-    // Set instance field: private readonly MultiplayerController _multiplayerController
-    void _set__multiplayerController(GlobalNamespace::MultiplayerController* value);
-    // Get instance field: private readonly MultiplayerPlayersManager _multiplayerPlayersManager
-    GlobalNamespace::MultiplayerPlayersManager* _get__multiplayerPlayersManager();
-    // Set instance field: private readonly MultiplayerPlayersManager _multiplayerPlayersManager
-    void _set__multiplayerPlayersManager(GlobalNamespace::MultiplayerPlayersManager* value);
-    // Get instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    GlobalNamespace::IMultiplayerSessionManager* _get__multiplayerSessionManager();
-    // Set instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    void _set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
-    // Get instance field: private readonly BeatmapObjectSpawnCenter _spawnCenter
-    GlobalNamespace::BeatmapObjectSpawnCenter* _get__spawnCenter();
-    // Set instance field: private readonly BeatmapObjectSpawnCenter _spawnCenter
-    void _set__spawnCenter(GlobalNamespace::BeatmapObjectSpawnCenter* value);
-    // Get instance field: private readonly MultiplayerLayoutProvider _layoutProvider
-    GlobalNamespace::MultiplayerLayoutProvider* _get__layoutProvider();
-    // Set instance field: private readonly MultiplayerLayoutProvider _layoutProvider
-    void _set__layoutProvider(GlobalNamespace::MultiplayerLayoutProvider* value);
-    // Get instance field: private readonly MultiplayerScoreProvider _scoreProvider
-    GlobalNamespace::MultiplayerScoreProvider* _get__scoreProvider();
-    // Set instance field: private readonly MultiplayerScoreProvider _scoreProvider
-    void _set__scoreProvider(GlobalNamespace::MultiplayerScoreProvider* value);
-    // Get instance field: private readonly MultiplayerScoreRingItem/Pool _scoreRingItemPool
-    GlobalNamespace::MultiplayerScoreRingItem::Pool* _get__scoreRingItemPool();
-    // Set instance field: private readonly MultiplayerScoreRingItem/Pool _scoreRingItemPool
-    void _set__scoreRingItemPool(GlobalNamespace::MultiplayerScoreRingItem::Pool* value);
-    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerScoreRingItem> _scoreRingItems
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerScoreRingItem*>* _get__scoreRingItems();
-    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerScoreRingItem> _scoreRingItems
-    void _set__scoreRingItems(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerScoreRingItem*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<IConnectedPlayer> _allActivePlayers
-    System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* _get__allActivePlayers();
-    // Set instance field: private System.Collections.Generic.List`1<IConnectedPlayer> _allActivePlayers
-    void _set__allActivePlayers(System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* value);
-    // Get instance field: private System.Int32 _currentlyScoreUpdateIndex
-    int _get__currentlyScoreUpdateIndex();
-    // Set instance field: private System.Int32 _currentlyScoreUpdateIndex
-    void _set__currentlyScoreUpdateIndex(int value);
-    // Get instance field: private System.Single _timeSinceLastScoreUpdate
-    float _get__timeSinceLastScoreUpdate();
-    // Set instance field: private System.Single _timeSinceLastScoreUpdate
-    void _set__timeSinceLastScoreUpdate(float value);
-    // Get instance field: private MultiplayerScoreRingItem _firstPlayerItem
-    GlobalNamespace::MultiplayerScoreRingItem* _get__firstPlayerItem();
-    // Set instance field: private MultiplayerScoreRingItem _firstPlayerItem
-    void _set__firstPlayerItem(GlobalNamespace::MultiplayerScoreRingItem* value);
-    // Get instance field: private System.Boolean _spawnCenterDistanceFound
-    bool _get__spawnCenterDistanceFound();
-    // Set instance field: private System.Boolean _spawnCenterDistanceFound
-    void _set__spawnCenterDistanceFound(bool value);
-    // Get instance field: private System.Boolean _playersSpawned
-    bool _get__playersSpawned();
-    // Set instance field: private System.Boolean _playersSpawned
-    void _set__playersSpawned(bool value);
+    // Get instance field reference: private System.Single _delayBetweenScoreUpdates
+    float& dyn__delayBetweenScoreUpdates();
+    // Get instance field reference: private System.Single _centerDistanceOffset
+    float& dyn__centerDistanceOffset();
+    // Get instance field reference: private readonly MultiplayerController _multiplayerController
+    GlobalNamespace::MultiplayerController*& dyn__multiplayerController();
+    // Get instance field reference: private readonly MultiplayerPlayersManager _multiplayerPlayersManager
+    GlobalNamespace::MultiplayerPlayersManager*& dyn__multiplayerPlayersManager();
+    // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
+    // Get instance field reference: private readonly BeatmapObjectSpawnCenter _spawnCenter
+    GlobalNamespace::BeatmapObjectSpawnCenter*& dyn__spawnCenter();
+    // Get instance field reference: private readonly MultiplayerLayoutProvider _layoutProvider
+    GlobalNamespace::MultiplayerLayoutProvider*& dyn__layoutProvider();
+    // Get instance field reference: private readonly MultiplayerScoreProvider _scoreProvider
+    GlobalNamespace::MultiplayerScoreProvider*& dyn__scoreProvider();
+    // Get instance field reference: private readonly MultiplayerScoreRingItem/Pool _scoreRingItemPool
+    GlobalNamespace::MultiplayerScoreRingItem::Pool*& dyn__scoreRingItemPool();
+    // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerScoreRingItem> _scoreRingItems
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerScoreRingItem*>*& dyn__scoreRingItems();
+    // Get instance field reference: private System.Collections.Generic.List`1<IConnectedPlayer> _allActivePlayers
+    System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>*& dyn__allActivePlayers();
+    // Get instance field reference: private System.Int32 _currentlyScoreUpdateIndex
+    int& dyn__currentlyScoreUpdateIndex();
+    // Get instance field reference: private System.Single _timeSinceLastScoreUpdate
+    float& dyn__timeSinceLastScoreUpdate();
+    // Get instance field reference: private MultiplayerScoreRingItem _firstPlayerItem
+    GlobalNamespace::MultiplayerScoreRingItem*& dyn__firstPlayerItem();
+    // Get instance field reference: private System.Boolean _spawnCenterDistanceFound
+    bool& dyn__spawnCenterDistanceFound();
+    // Get instance field reference: private System.Boolean _playersSpawned
+    bool& dyn__playersSpawned();
     // protected System.Void Start()
     // Offset: 0x1038520
     void Start();

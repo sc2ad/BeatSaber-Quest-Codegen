@@ -68,22 +68,14 @@ namespace System::Reflection {
     operator System::Runtime::Serialization::IDeserializationCallback() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::IDeserializationCallback*>(this);
     }
-    // Get instance field: private System.Byte[] _publicKey
-    ::Array<uint8_t>* _get__publicKey();
-    // Set instance field: private System.Byte[] _publicKey
-    void _set__publicKey(::Array<uint8_t>* value);
-    // Get instance field: private System.String _keyPairContainer
-    ::Il2CppString* _get__keyPairContainer();
-    // Set instance field: private System.String _keyPairContainer
-    void _set__keyPairContainer(::Il2CppString* value);
-    // Get instance field: private System.Boolean _keyPairExported
-    bool _get__keyPairExported();
-    // Set instance field: private System.Boolean _keyPairExported
-    void _set__keyPairExported(bool value);
-    // Get instance field: private System.Byte[] _keyPairArray
-    ::Array<uint8_t>* _get__keyPairArray();
-    // Set instance field: private System.Byte[] _keyPairArray
-    void _set__keyPairArray(::Array<uint8_t>* value);
+    // Get instance field reference: private System.Byte[] _publicKey
+    ::Array<uint8_t>*& dyn__publicKey();
+    // Get instance field reference: private System.String _keyPairContainer
+    ::Il2CppString*& dyn__keyPairContainer();
+    // Get instance field reference: private System.Boolean _keyPairExported
+    bool& dyn__keyPairExported();
+    // Get instance field reference: private System.Byte[] _keyPairArray
+    ::Array<uint8_t>*& dyn__keyPairArray();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x147DB04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

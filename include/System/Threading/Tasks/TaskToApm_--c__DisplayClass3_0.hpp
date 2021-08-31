@@ -44,14 +44,10 @@ namespace System::Threading::Tasks {
     static_assert(sizeof(System::IAsyncResult*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass3_0
     $$c__DisplayClass3_0(System::AsyncCallback* callback_ = {}, System::IAsyncResult* asyncResult_ = {}) noexcept : callback{callback_}, asyncResult{asyncResult_} {}
-    // Get instance field: public System.AsyncCallback callback
-    System::AsyncCallback* _get_callback();
-    // Set instance field: public System.AsyncCallback callback
-    void _set_callback(System::AsyncCallback* value);
-    // Get instance field: public System.IAsyncResult asyncResult
-    System::IAsyncResult* _get_asyncResult();
-    // Set instance field: public System.IAsyncResult asyncResult
-    void _set_asyncResult(System::IAsyncResult* value);
+    // Get instance field reference: public System.AsyncCallback callback
+    System::AsyncCallback*& dyn_callback();
+    // Get instance field reference: public System.IAsyncResult asyncResult
+    System::IAsyncResult*& dyn_asyncResult();
     // System.Void <InvokeCallbackWhenTaskCompletes>b__0()
     // Offset: 0x1876EFC
     void $InvokeCallbackWhenTaskCompletes$b__0();

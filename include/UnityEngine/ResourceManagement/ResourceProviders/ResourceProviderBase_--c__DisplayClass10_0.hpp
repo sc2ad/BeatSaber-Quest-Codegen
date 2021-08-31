@@ -41,18 +41,12 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass10_0
     $$c__DisplayClass10_0(UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase* $$4__this_ = {}, ::Il2CppString* id_ = {}, ::Il2CppString* data_ = {}) noexcept : $$4__this{$$4__this_}, id{id_}, data{data_} {}
-    // Get instance field: public UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase <>4__this
-    UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase* _get_$$4__this();
-    // Set instance field: public UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase <>4__this
-    void _set_$$4__this(UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase* value);
-    // Get instance field: public System.String id
-    ::Il2CppString* _get_id();
-    // Set instance field: public System.String id
-    void _set_id(::Il2CppString* value);
-    // Get instance field: public System.String data
-    ::Il2CppString* _get_data();
-    // Set instance field: public System.String data
-    void _set_data(::Il2CppString* value);
+    // Get instance field reference: public UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase <>4__this
+    UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase*& dyn_$$4__this();
+    // Get instance field reference: public System.String id
+    ::Il2CppString*& dyn_id();
+    // Get instance field reference: public System.String data
+    ::Il2CppString*& dyn_data();
     // System.Boolean <InitializeAsync>b__0()
     // Offset: 0x19F0FCC
     bool $InitializeAsync$b__0();

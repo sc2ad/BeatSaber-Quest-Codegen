@@ -50,14 +50,10 @@ namespace System {
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
     }
-    // Get instance field: private System.Boolean isLongReference
-    bool _get_isLongReference();
-    // Set instance field: private System.Boolean isLongReference
-    void _set_isLongReference(bool value);
-    // Get instance field: private System.Runtime.InteropServices.GCHandle gcHandle
-    System::Runtime::InteropServices::GCHandle _get_gcHandle();
-    // Set instance field: private System.Runtime.InteropServices.GCHandle gcHandle
-    void _set_gcHandle(System::Runtime::InteropServices::GCHandle value);
+    // Get instance field reference: private System.Boolean isLongReference
+    bool& dyn_isLongReference();
+    // Get instance field reference: private System.Runtime.InteropServices.GCHandle gcHandle
+    System::Runtime::InteropServices::GCHandle& dyn_gcHandle();
     // public System.Object get_Target()
     // Offset: 0x23332E4
     ::Il2CppObject* get_Target();

@@ -40,10 +40,8 @@ namespace Zenject {
     constexpr operator System::Type*() const noexcept {
       return parentType;
     }
-    // Get instance field: public System.Type parentType
-    System::Type* _get_parentType();
-    // Set instance field: public System.Type parentType
-    void _set_parentType(System::Type* value);
+    // Get instance field reference: public System.Type parentType
+    System::Type*& dyn_parentType();
     // System.Boolean <DerivingFrom>b__0(System.Type type)
     // Offset: 0x13E2584
     bool $DerivingFrom$b__0(System::Type* type);

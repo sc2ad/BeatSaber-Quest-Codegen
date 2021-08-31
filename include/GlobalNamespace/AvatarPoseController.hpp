@@ -103,42 +103,24 @@ namespace GlobalNamespace {
     AvatarPoseController(UnityEngine::Transform* headTransform_ = {}, UnityEngine::Transform* leftHandTransform_ = {}, UnityEngine::Transform* rightHandTransform_ = {}, UnityEngine::Transform* bodyTransform_ = {}, GlobalNamespace::HeadBodyOffsetSO* headBodyOffset_ = {}, GlobalNamespace::AvatarPoseController::PositionsWillBeSetDelegate* earlyPositionsWillBeSetCallback_ = {}, GlobalNamespace::AvatarPoseController::LatePositionsWillBeSetDelegate* latePositionsWillBeSetCallback_ = {}, GlobalNamespace::AvatarPoseController::RotationsWillBeSetDelegate* earlyRotationsWillBeSetCallback_ = {}, System::Action_1<UnityEngine::Vector3>* didUpdatePoseEvent_ = {}) noexcept : headTransform{headTransform_}, leftHandTransform{leftHandTransform_}, rightHandTransform{rightHandTransform_}, bodyTransform{bodyTransform_}, headBodyOffset{headBodyOffset_}, earlyPositionsWillBeSetCallback{earlyPositionsWillBeSetCallback_}, latePositionsWillBeSetCallback{latePositionsWillBeSetCallback_}, earlyRotationsWillBeSetCallback{earlyRotationsWillBeSetCallback_}, didUpdatePoseEvent{didUpdatePoseEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: protected UnityEngine.Transform _headTransform
-    UnityEngine::Transform* _get__headTransform();
-    // Set instance field: protected UnityEngine.Transform _headTransform
-    void _set__headTransform(UnityEngine::Transform* value);
-    // Get instance field: protected UnityEngine.Transform _leftHandTransform
-    UnityEngine::Transform* _get__leftHandTransform();
-    // Set instance field: protected UnityEngine.Transform _leftHandTransform
-    void _set__leftHandTransform(UnityEngine::Transform* value);
-    // Get instance field: protected UnityEngine.Transform _rightHandTransform
-    UnityEngine::Transform* _get__rightHandTransform();
-    // Set instance field: protected UnityEngine.Transform _rightHandTransform
-    void _set__rightHandTransform(UnityEngine::Transform* value);
-    // Get instance field: protected UnityEngine.Transform _bodyTransform
-    UnityEngine::Transform* _get__bodyTransform();
-    // Set instance field: protected UnityEngine.Transform _bodyTransform
-    void _set__bodyTransform(UnityEngine::Transform* value);
-    // Get instance field: protected HeadBodyOffsetSO _headBodyOffset
-    GlobalNamespace::HeadBodyOffsetSO* _get__headBodyOffset();
-    // Set instance field: protected HeadBodyOffsetSO _headBodyOffset
-    void _set__headBodyOffset(GlobalNamespace::HeadBodyOffsetSO* value);
-    // Get instance field: private AvatarPoseController/PositionsWillBeSetDelegate <earlyPositionsWillBeSetCallback>k__BackingField
-    GlobalNamespace::AvatarPoseController::PositionsWillBeSetDelegate* _get_$earlyPositionsWillBeSetCallback$k__BackingField();
-    // Set instance field: private AvatarPoseController/PositionsWillBeSetDelegate <earlyPositionsWillBeSetCallback>k__BackingField
-    void _set_$earlyPositionsWillBeSetCallback$k__BackingField(GlobalNamespace::AvatarPoseController::PositionsWillBeSetDelegate* value);
-    // Get instance field: private AvatarPoseController/LatePositionsWillBeSetDelegate <latePositionsWillBeSetCallback>k__BackingField
-    GlobalNamespace::AvatarPoseController::LatePositionsWillBeSetDelegate* _get_$latePositionsWillBeSetCallback$k__BackingField();
-    // Set instance field: private AvatarPoseController/LatePositionsWillBeSetDelegate <latePositionsWillBeSetCallback>k__BackingField
-    void _set_$latePositionsWillBeSetCallback$k__BackingField(GlobalNamespace::AvatarPoseController::LatePositionsWillBeSetDelegate* value);
-    // Get instance field: private AvatarPoseController/RotationsWillBeSetDelegate <earlyRotationsWillBeSetCallback>k__BackingField
-    GlobalNamespace::AvatarPoseController::RotationsWillBeSetDelegate* _get_$earlyRotationsWillBeSetCallback$k__BackingField();
-    // Set instance field: private AvatarPoseController/RotationsWillBeSetDelegate <earlyRotationsWillBeSetCallback>k__BackingField
-    void _set_$earlyRotationsWillBeSetCallback$k__BackingField(GlobalNamespace::AvatarPoseController::RotationsWillBeSetDelegate* value);
-    // Get instance field: private System.Action`1<UnityEngine.Vector3> didUpdatePoseEvent
-    System::Action_1<UnityEngine::Vector3>* _get_didUpdatePoseEvent();
-    // Set instance field: private System.Action`1<UnityEngine.Vector3> didUpdatePoseEvent
-    void _set_didUpdatePoseEvent(System::Action_1<UnityEngine::Vector3>* value);
+    // Get instance field reference: protected UnityEngine.Transform _headTransform
+    UnityEngine::Transform*& dyn__headTransform();
+    // Get instance field reference: protected UnityEngine.Transform _leftHandTransform
+    UnityEngine::Transform*& dyn__leftHandTransform();
+    // Get instance field reference: protected UnityEngine.Transform _rightHandTransform
+    UnityEngine::Transform*& dyn__rightHandTransform();
+    // Get instance field reference: protected UnityEngine.Transform _bodyTransform
+    UnityEngine::Transform*& dyn__bodyTransform();
+    // Get instance field reference: protected HeadBodyOffsetSO _headBodyOffset
+    GlobalNamespace::HeadBodyOffsetSO*& dyn__headBodyOffset();
+    // Get instance field reference: private AvatarPoseController/PositionsWillBeSetDelegate <earlyPositionsWillBeSetCallback>k__BackingField
+    GlobalNamespace::AvatarPoseController::PositionsWillBeSetDelegate*& dyn_$earlyPositionsWillBeSetCallback$k__BackingField();
+    // Get instance field reference: private AvatarPoseController/LatePositionsWillBeSetDelegate <latePositionsWillBeSetCallback>k__BackingField
+    GlobalNamespace::AvatarPoseController::LatePositionsWillBeSetDelegate*& dyn_$latePositionsWillBeSetCallback$k__BackingField();
+    // Get instance field reference: private AvatarPoseController/RotationsWillBeSetDelegate <earlyRotationsWillBeSetCallback>k__BackingField
+    GlobalNamespace::AvatarPoseController::RotationsWillBeSetDelegate*& dyn_$earlyRotationsWillBeSetCallback$k__BackingField();
+    // Get instance field reference: private System.Action`1<UnityEngine.Vector3> didUpdatePoseEvent
+    System::Action_1<UnityEngine::Vector3>*& dyn_didUpdatePoseEvent();
     // public AvatarPoseController/PositionsWillBeSetDelegate get_earlyPositionsWillBeSetCallback()
     // Offset: 0x11816D4
     GlobalNamespace::AvatarPoseController::PositionsWillBeSetDelegate* get_earlyPositionsWillBeSetCallback();

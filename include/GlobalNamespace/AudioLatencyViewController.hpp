@@ -111,42 +111,24 @@ namespace GlobalNamespace {
     static_assert(sizeof(HMUI::ToggleBinder*) == 0x8);
     // Creating value type constructor for type: AudioLatencyViewController
     AudioLatencyViewController(GlobalNamespace::FloatSO* audioLatency_ = {}, GlobalNamespace::BoolSO* overrideAudioLatency_ = {}, UnityEngine::CanvasGroup* setupCanvasGroup_ = {}, UnityEngine::UI::Toggle* overrideAudioLatencyToggle_ = {}, HMUI::RangeValuesTextSlider* slider_ = {}, GlobalNamespace::VisualMetronome* visualMetronome_ = {}, float disabledAlpha_ = {}, GlobalNamespace::SongPreviewPlayer* songPreviewPlayer_ = {}, HMUI::ToggleBinder* toggleBinder_ = {}) noexcept : audioLatency{audioLatency_}, overrideAudioLatency{overrideAudioLatency_}, setupCanvasGroup{setupCanvasGroup_}, overrideAudioLatencyToggle{overrideAudioLatencyToggle_}, slider{slider_}, visualMetronome{visualMetronome_}, disabledAlpha{disabledAlpha_}, songPreviewPlayer{songPreviewPlayer_}, toggleBinder{toggleBinder_} {}
-    // Get instance field: private FloatSO _audioLatency
-    GlobalNamespace::FloatSO* _get__audioLatency();
-    // Set instance field: private FloatSO _audioLatency
-    void _set__audioLatency(GlobalNamespace::FloatSO* value);
-    // Get instance field: private BoolSO _overrideAudioLatency
-    GlobalNamespace::BoolSO* _get__overrideAudioLatency();
-    // Set instance field: private BoolSO _overrideAudioLatency
-    void _set__overrideAudioLatency(GlobalNamespace::BoolSO* value);
-    // Get instance field: private UnityEngine.CanvasGroup _setupCanvasGroup
-    UnityEngine::CanvasGroup* _get__setupCanvasGroup();
-    // Set instance field: private UnityEngine.CanvasGroup _setupCanvasGroup
-    void _set__setupCanvasGroup(UnityEngine::CanvasGroup* value);
-    // Get instance field: private UnityEngine.UI.Toggle _overrideAudioLatencyToggle
-    UnityEngine::UI::Toggle* _get__overrideAudioLatencyToggle();
-    // Set instance field: private UnityEngine.UI.Toggle _overrideAudioLatencyToggle
-    void _set__overrideAudioLatencyToggle(UnityEngine::UI::Toggle* value);
-    // Get instance field: private HMUI.RangeValuesTextSlider _slider
-    HMUI::RangeValuesTextSlider* _get__slider();
-    // Set instance field: private HMUI.RangeValuesTextSlider _slider
-    void _set__slider(HMUI::RangeValuesTextSlider* value);
-    // Get instance field: private VisualMetronome _visualMetronome
-    GlobalNamespace::VisualMetronome* _get__visualMetronome();
-    // Set instance field: private VisualMetronome _visualMetronome
-    void _set__visualMetronome(GlobalNamespace::VisualMetronome* value);
-    // Get instance field: private System.Single _disabledAlpha
-    float _get__disabledAlpha();
-    // Set instance field: private System.Single _disabledAlpha
-    void _set__disabledAlpha(float value);
-    // Get instance field: private readonly SongPreviewPlayer _songPreviewPlayer
-    GlobalNamespace::SongPreviewPlayer* _get__songPreviewPlayer();
-    // Set instance field: private readonly SongPreviewPlayer _songPreviewPlayer
-    void _set__songPreviewPlayer(GlobalNamespace::SongPreviewPlayer* value);
-    // Get instance field: private HMUI.ToggleBinder _toggleBinder
-    HMUI::ToggleBinder* _get__toggleBinder();
-    // Set instance field: private HMUI.ToggleBinder _toggleBinder
-    void _set__toggleBinder(HMUI::ToggleBinder* value);
+    // Get instance field reference: private FloatSO _audioLatency
+    GlobalNamespace::FloatSO*& dyn__audioLatency();
+    // Get instance field reference: private BoolSO _overrideAudioLatency
+    GlobalNamespace::BoolSO*& dyn__overrideAudioLatency();
+    // Get instance field reference: private UnityEngine.CanvasGroup _setupCanvasGroup
+    UnityEngine::CanvasGroup*& dyn__setupCanvasGroup();
+    // Get instance field reference: private UnityEngine.UI.Toggle _overrideAudioLatencyToggle
+    UnityEngine::UI::Toggle*& dyn__overrideAudioLatencyToggle();
+    // Get instance field reference: private HMUI.RangeValuesTextSlider _slider
+    HMUI::RangeValuesTextSlider*& dyn__slider();
+    // Get instance field reference: private VisualMetronome _visualMetronome
+    GlobalNamespace::VisualMetronome*& dyn__visualMetronome();
+    // Get instance field reference: private System.Single _disabledAlpha
+    float& dyn__disabledAlpha();
+    // Get instance field reference: private readonly SongPreviewPlayer _songPreviewPlayer
+    GlobalNamespace::SongPreviewPlayer*& dyn__songPreviewPlayer();
+    // Get instance field reference: private HMUI.ToggleBinder _toggleBinder
+    HMUI::ToggleBinder*& dyn__toggleBinder();
     // private System.Void SliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
     // Offset: 0x117DCA8
     void SliderValueDidChange(HMUI::RangeValuesTextSlider* slider, float value);

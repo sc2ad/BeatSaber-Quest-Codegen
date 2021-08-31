@@ -50,10 +50,8 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus _get_Failed();
     // Set static field: static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationStatus Failed
     static void _set_Failed(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationStatus
   #pragma pack(pop)
   static check_size<sizeof(AsyncOperationStatus), 0 + sizeof(int)> __UnityEngine_ResourceManagement_AsyncOperations_AsyncOperationStatusSizeCheck;

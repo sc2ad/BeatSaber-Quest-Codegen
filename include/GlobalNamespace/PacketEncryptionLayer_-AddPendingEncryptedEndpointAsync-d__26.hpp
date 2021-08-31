@@ -93,42 +93,24 @@ namespace GlobalNamespace {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
-    // Get instance field: public System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: public System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder _get_$$t__builder();
-    // Set instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
-    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder value);
-    // Get instance field: public System.Byte[] preMasterSecret
-    ::Array<uint8_t>* _get_preMasterSecret();
-    // Set instance field: public System.Byte[] preMasterSecret
-    void _set_preMasterSecret(::Array<uint8_t>* value);
-    // Get instance field: public System.Byte[] serverRandom
-    ::Array<uint8_t>* _get_serverRandom();
-    // Set instance field: public System.Byte[] serverRandom
-    void _set_serverRandom(::Array<uint8_t>* value);
-    // Get instance field: public System.Byte[] clientRandom
-    ::Array<uint8_t>* _get_clientRandom();
-    // Set instance field: public System.Byte[] clientRandom
-    void _set_clientRandom(::Array<uint8_t>* value);
-    // Get instance field: public System.Boolean isClient
-    bool _get_isClient();
-    // Set instance field: public System.Boolean isClient
-    void _set_isClient(bool value);
-    // Get instance field: public PacketEncryptionLayer <>4__this
-    GlobalNamespace::PacketEncryptionLayer* _get_$$4__this();
-    // Set instance field: public PacketEncryptionLayer <>4__this
-    void _set_$$4__this(GlobalNamespace::PacketEncryptionLayer* value);
-    // Get instance field: public System.Net.IPEndPoint endPoint
-    System::Net::IPEndPoint* _get_endPoint();
-    // Set instance field: public System.Net.IPEndPoint endPoint
-    void _set_endPoint(System::Net::IPEndPoint* value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<EncryptionUtility/IEncryptionState> <>u__1
-    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EncryptionUtility::IEncryptionState*> _get_$$u__1();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<EncryptionUtility/IEncryptionState> <>u__1
-    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EncryptionUtility::IEncryptionState*> value);
+    // Get instance field reference: public System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder& dyn_$$t__builder();
+    // Get instance field reference: public System.Byte[] preMasterSecret
+    ::Array<uint8_t>*& dyn_preMasterSecret();
+    // Get instance field reference: public System.Byte[] serverRandom
+    ::Array<uint8_t>*& dyn_serverRandom();
+    // Get instance field reference: public System.Byte[] clientRandom
+    ::Array<uint8_t>*& dyn_clientRandom();
+    // Get instance field reference: public System.Boolean isClient
+    bool& dyn_isClient();
+    // Get instance field reference: public PacketEncryptionLayer <>4__this
+    GlobalNamespace::PacketEncryptionLayer*& dyn_$$4__this();
+    // Get instance field reference: public System.Net.IPEndPoint endPoint
+    System::Net::IPEndPoint*& dyn_endPoint();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<EncryptionUtility/IEncryptionState> <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EncryptionUtility::IEncryptionState*>& dyn_$$u__1();
     // private System.Void MoveNext()
     // Offset: 0x16F2334
     void MoveNext();

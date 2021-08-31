@@ -46,14 +46,10 @@ namespace System::Net::Http::Headers {
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
-    // Get instance field: private System.Nullable`1<System.DateTimeOffset> <Date>k__BackingField
-    System::Nullable_1<System::DateTimeOffset> _get_$Date$k__BackingField();
-    // Set instance field: private System.Nullable`1<System.DateTimeOffset> <Date>k__BackingField
-    void _set_$Date$k__BackingField(System::Nullable_1<System::DateTimeOffset> value);
-    // Get instance field: private System.Net.Http.Headers.EntityTagHeaderValue <EntityTag>k__BackingField
-    System::Net::Http::Headers::EntityTagHeaderValue* _get_$EntityTag$k__BackingField();
-    // Set instance field: private System.Net.Http.Headers.EntityTagHeaderValue <EntityTag>k__BackingField
-    void _set_$EntityTag$k__BackingField(System::Net::Http::Headers::EntityTagHeaderValue* value);
+    // Get instance field reference: private System.Nullable`1<System.DateTimeOffset> <Date>k__BackingField
+    System::Nullable_1<System::DateTimeOffset>& dyn_$Date$k__BackingField();
+    // Get instance field reference: private System.Net.Http.Headers.EntityTagHeaderValue <EntityTag>k__BackingField
+    System::Net::Http::Headers::EntityTagHeaderValue*& dyn_$EntityTag$k__BackingField();
     // public System.Nullable`1<System.DateTimeOffset> get_Date()
     // Offset: 0x15A6F0C
     System::Nullable_1<System::DateTimeOffset> get_Date();

@@ -90,42 +90,24 @@ namespace System::IO {
     static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
     // Creating value type constructor for type: DefaultWatcherData
     DefaultWatcherData(System::IO::FileSystemWatcher* FSW_ = {}, ::Il2CppString* Directory_ = {}, ::Il2CppString* FileMask_ = {}, bool IncludeSubdirs_ = {}, bool Enabled_ = {}, bool NoWildcards_ = {}, System::DateTime DisabledTime_ = {}, ::Il2CppObject* FilesLock_ = {}, System::Collections::Hashtable* Files_ = {}) noexcept : FSW{FSW_}, Directory{Directory_}, FileMask{FileMask_}, IncludeSubdirs{IncludeSubdirs_}, Enabled{Enabled_}, NoWildcards{NoWildcards_}, DisabledTime{DisabledTime_}, FilesLock{FilesLock_}, Files{Files_} {}
-    // Get instance field: public System.IO.FileSystemWatcher FSW
-    System::IO::FileSystemWatcher* _get_FSW();
-    // Set instance field: public System.IO.FileSystemWatcher FSW
-    void _set_FSW(System::IO::FileSystemWatcher* value);
-    // Get instance field: public System.String Directory
-    ::Il2CppString* _get_Directory();
-    // Set instance field: public System.String Directory
-    void _set_Directory(::Il2CppString* value);
-    // Get instance field: public System.String FileMask
-    ::Il2CppString* _get_FileMask();
-    // Set instance field: public System.String FileMask
-    void _set_FileMask(::Il2CppString* value);
-    // Get instance field: public System.Boolean IncludeSubdirs
-    bool _get_IncludeSubdirs();
-    // Set instance field: public System.Boolean IncludeSubdirs
-    void _set_IncludeSubdirs(bool value);
-    // Get instance field: public System.Boolean Enabled
-    bool _get_Enabled();
-    // Set instance field: public System.Boolean Enabled
-    void _set_Enabled(bool value);
-    // Get instance field: public System.Boolean NoWildcards
-    bool _get_NoWildcards();
-    // Set instance field: public System.Boolean NoWildcards
-    void _set_NoWildcards(bool value);
-    // Get instance field: public System.DateTime DisabledTime
-    System::DateTime _get_DisabledTime();
-    // Set instance field: public System.DateTime DisabledTime
-    void _set_DisabledTime(System::DateTime value);
-    // Get instance field: public System.Object FilesLock
-    ::Il2CppObject* _get_FilesLock();
-    // Set instance field: public System.Object FilesLock
-    void _set_FilesLock(::Il2CppObject* value);
-    // Get instance field: public System.Collections.Hashtable Files
-    System::Collections::Hashtable* _get_Files();
-    // Set instance field: public System.Collections.Hashtable Files
-    void _set_Files(System::Collections::Hashtable* value);
+    // Get instance field reference: public System.IO.FileSystemWatcher FSW
+    System::IO::FileSystemWatcher*& dyn_FSW();
+    // Get instance field reference: public System.String Directory
+    ::Il2CppString*& dyn_Directory();
+    // Get instance field reference: public System.String FileMask
+    ::Il2CppString*& dyn_FileMask();
+    // Get instance field reference: public System.Boolean IncludeSubdirs
+    bool& dyn_IncludeSubdirs();
+    // Get instance field reference: public System.Boolean Enabled
+    bool& dyn_Enabled();
+    // Get instance field reference: public System.Boolean NoWildcards
+    bool& dyn_NoWildcards();
+    // Get instance field reference: public System.DateTime DisabledTime
+    System::DateTime& dyn_DisabledTime();
+    // Get instance field reference: public System.Object FilesLock
+    ::Il2CppObject*& dyn_FilesLock();
+    // Get instance field reference: public System.Collections.Hashtable Files
+    System::Collections::Hashtable*& dyn_Files();
     // public System.Void .ctor()
     // Offset: 0x18B99F4
     // Implemented from: System.Object

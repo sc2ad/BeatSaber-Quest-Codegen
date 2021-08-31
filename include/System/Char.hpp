@@ -128,10 +128,8 @@ namespace System {
     static int _get_LOW_SURROGATE_END();
     // Set static field: static System.Int32 LOW_SURROGATE_END
     static void _set_LOW_SURROGATE_END(int value);
-    // Get instance field: System.Char m_value
-    ::Il2CppChar _get_m_value();
-    // Set instance field: System.Char m_value
-    void _set_m_value(::Il2CppChar value);
+    // Get instance field reference: System.Char m_value
+    ::Il2CppChar& dyn_m_value();
     // static private System.Void .cctor()
     // Offset: 0x17D6C84
     static void _cctor();

@@ -81,30 +81,18 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     operator System::Collections::Generic::IEnumerator_1<bool>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<bool>*>(this);
     }
-    // Get instance field: private System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: private System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: private System.Boolean <>2__current
-    bool _get_$$2__current();
-    // Set instance field: private System.Boolean <>2__current
-    void _set_$$2__current(bool value);
-    // Get instance field: private System.Int32 <>l__initialThreadId
-    int _get_$$l__initialThreadId();
-    // Set instance field: private System.Int32 <>l__initialThreadId
-    void _set_$$l__initialThreadId(int value);
-    // Get instance field: public UnityEngine.ProBuilder.Poly2Tri.FixedBitArray3 <>4__this
-    UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 _get_$$4__this();
-    // Set instance field: public UnityEngine.ProBuilder.Poly2Tri.FixedBitArray3 <>4__this
-    void _set_$$4__this(UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 value);
-    // Get instance field: public UnityEngine.ProBuilder.Poly2Tri.FixedBitArray3 <>3__<>4__this
-    UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 _get_$$3__$$4__this();
-    // Set instance field: public UnityEngine.ProBuilder.Poly2Tri.FixedBitArray3 <>3__<>4__this
-    void _set_$$3__$$4__this(UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 value);
-    // Get instance field: private System.Int32 <i>5__2
-    int _get_$i$5__2();
-    // Set instance field: private System.Int32 <i>5__2
-    void _set_$i$5__2(int value);
+    // Get instance field reference: private System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: private System.Boolean <>2__current
+    bool& dyn_$$2__current();
+    // Get instance field reference: private System.Int32 <>l__initialThreadId
+    int& dyn_$$l__initialThreadId();
+    // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.FixedBitArray3 <>4__this
+    UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3& dyn_$$4__this();
+    // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.FixedBitArray3 <>3__<>4__this
+    UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3& dyn_$$3__$$4__this();
+    // Get instance field reference: private System.Int32 <i>5__2
+    int& dyn_$i$5__2();
     // private System.Boolean System.Collections.Generic.IEnumerator<System.Boolean>.get_Current()
     // Offset: 0x23C3678
     bool System_Collections_Generic_IEnumerator$System_Boolean$_get_Current();

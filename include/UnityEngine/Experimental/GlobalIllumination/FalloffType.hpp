@@ -62,10 +62,8 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     static UnityEngine::Experimental::GlobalIllumination::FalloffType _get_Undefined();
     // Set static field: static public UnityEngine.Experimental.GlobalIllumination.FalloffType Undefined
     static void _set_Undefined(UnityEngine::Experimental::GlobalIllumination::FalloffType value);
-    // Get instance field: public System.Byte value__
-    uint8_t _get_value__();
-    // Set instance field: public System.Byte value__
-    void _set_value__(uint8_t value);
+    // Get instance field reference: public System.Byte value__
+    uint8_t& dyn_value__();
   }; // UnityEngine.Experimental.GlobalIllumination.FalloffType
   #pragma pack(pop)
   static check_size<sizeof(FalloffType), 0 + sizeof(uint8_t)> __UnityEngine_Experimental_GlobalIllumination_FalloffTypeSizeCheck;

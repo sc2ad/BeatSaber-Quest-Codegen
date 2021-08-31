@@ -131,58 +131,32 @@ namespace OVR::OpenVR {
     static_assert(sizeof(OVR::OpenVR::CVRSpatialAnchors*) == 0x8);
     // Creating value type constructor for type: COpenVRContext
     COpenVRContext(OVR::OpenVR::CVRSystem* m_pVRSystem_ = {}, OVR::OpenVR::CVRChaperone* m_pVRChaperone_ = {}, OVR::OpenVR::CVRChaperoneSetup* m_pVRChaperoneSetup_ = {}, OVR::OpenVR::CVRCompositor* m_pVRCompositor_ = {}, OVR::OpenVR::CVROverlay* m_pVROverlay_ = {}, OVR::OpenVR::CVRRenderModels* m_pVRRenderModels_ = {}, OVR::OpenVR::CVRExtendedDisplay* m_pVRExtendedDisplay_ = {}, OVR::OpenVR::CVRSettings* m_pVRSettings_ = {}, OVR::OpenVR::CVRApplications* m_pVRApplications_ = {}, OVR::OpenVR::CVRScreenshots* m_pVRScreenshots_ = {}, OVR::OpenVR::CVRTrackedCamera* m_pVRTrackedCamera_ = {}, OVR::OpenVR::CVRInput* m_pVRInput_ = {}, OVR::OpenVR::CVRSpatialAnchors* m_pVRSpatialAnchors_ = {}) noexcept : m_pVRSystem{m_pVRSystem_}, m_pVRChaperone{m_pVRChaperone_}, m_pVRChaperoneSetup{m_pVRChaperoneSetup_}, m_pVRCompositor{m_pVRCompositor_}, m_pVROverlay{m_pVROverlay_}, m_pVRRenderModels{m_pVRRenderModels_}, m_pVRExtendedDisplay{m_pVRExtendedDisplay_}, m_pVRSettings{m_pVRSettings_}, m_pVRApplications{m_pVRApplications_}, m_pVRScreenshots{m_pVRScreenshots_}, m_pVRTrackedCamera{m_pVRTrackedCamera_}, m_pVRInput{m_pVRInput_}, m_pVRSpatialAnchors{m_pVRSpatialAnchors_} {}
-    // Get instance field: private OVR.OpenVR.CVRSystem m_pVRSystem
-    OVR::OpenVR::CVRSystem* _get_m_pVRSystem();
-    // Set instance field: private OVR.OpenVR.CVRSystem m_pVRSystem
-    void _set_m_pVRSystem(OVR::OpenVR::CVRSystem* value);
-    // Get instance field: private OVR.OpenVR.CVRChaperone m_pVRChaperone
-    OVR::OpenVR::CVRChaperone* _get_m_pVRChaperone();
-    // Set instance field: private OVR.OpenVR.CVRChaperone m_pVRChaperone
-    void _set_m_pVRChaperone(OVR::OpenVR::CVRChaperone* value);
-    // Get instance field: private OVR.OpenVR.CVRChaperoneSetup m_pVRChaperoneSetup
-    OVR::OpenVR::CVRChaperoneSetup* _get_m_pVRChaperoneSetup();
-    // Set instance field: private OVR.OpenVR.CVRChaperoneSetup m_pVRChaperoneSetup
-    void _set_m_pVRChaperoneSetup(OVR::OpenVR::CVRChaperoneSetup* value);
-    // Get instance field: private OVR.OpenVR.CVRCompositor m_pVRCompositor
-    OVR::OpenVR::CVRCompositor* _get_m_pVRCompositor();
-    // Set instance field: private OVR.OpenVR.CVRCompositor m_pVRCompositor
-    void _set_m_pVRCompositor(OVR::OpenVR::CVRCompositor* value);
-    // Get instance field: private OVR.OpenVR.CVROverlay m_pVROverlay
-    OVR::OpenVR::CVROverlay* _get_m_pVROverlay();
-    // Set instance field: private OVR.OpenVR.CVROverlay m_pVROverlay
-    void _set_m_pVROverlay(OVR::OpenVR::CVROverlay* value);
-    // Get instance field: private OVR.OpenVR.CVRRenderModels m_pVRRenderModels
-    OVR::OpenVR::CVRRenderModels* _get_m_pVRRenderModels();
-    // Set instance field: private OVR.OpenVR.CVRRenderModels m_pVRRenderModels
-    void _set_m_pVRRenderModels(OVR::OpenVR::CVRRenderModels* value);
-    // Get instance field: private OVR.OpenVR.CVRExtendedDisplay m_pVRExtendedDisplay
-    OVR::OpenVR::CVRExtendedDisplay* _get_m_pVRExtendedDisplay();
-    // Set instance field: private OVR.OpenVR.CVRExtendedDisplay m_pVRExtendedDisplay
-    void _set_m_pVRExtendedDisplay(OVR::OpenVR::CVRExtendedDisplay* value);
-    // Get instance field: private OVR.OpenVR.CVRSettings m_pVRSettings
-    OVR::OpenVR::CVRSettings* _get_m_pVRSettings();
-    // Set instance field: private OVR.OpenVR.CVRSettings m_pVRSettings
-    void _set_m_pVRSettings(OVR::OpenVR::CVRSettings* value);
-    // Get instance field: private OVR.OpenVR.CVRApplications m_pVRApplications
-    OVR::OpenVR::CVRApplications* _get_m_pVRApplications();
-    // Set instance field: private OVR.OpenVR.CVRApplications m_pVRApplications
-    void _set_m_pVRApplications(OVR::OpenVR::CVRApplications* value);
-    // Get instance field: private OVR.OpenVR.CVRScreenshots m_pVRScreenshots
-    OVR::OpenVR::CVRScreenshots* _get_m_pVRScreenshots();
-    // Set instance field: private OVR.OpenVR.CVRScreenshots m_pVRScreenshots
-    void _set_m_pVRScreenshots(OVR::OpenVR::CVRScreenshots* value);
-    // Get instance field: private OVR.OpenVR.CVRTrackedCamera m_pVRTrackedCamera
-    OVR::OpenVR::CVRTrackedCamera* _get_m_pVRTrackedCamera();
-    // Set instance field: private OVR.OpenVR.CVRTrackedCamera m_pVRTrackedCamera
-    void _set_m_pVRTrackedCamera(OVR::OpenVR::CVRTrackedCamera* value);
-    // Get instance field: private OVR.OpenVR.CVRInput m_pVRInput
-    OVR::OpenVR::CVRInput* _get_m_pVRInput();
-    // Set instance field: private OVR.OpenVR.CVRInput m_pVRInput
-    void _set_m_pVRInput(OVR::OpenVR::CVRInput* value);
-    // Get instance field: private OVR.OpenVR.CVRSpatialAnchors m_pVRSpatialAnchors
-    OVR::OpenVR::CVRSpatialAnchors* _get_m_pVRSpatialAnchors();
-    // Set instance field: private OVR.OpenVR.CVRSpatialAnchors m_pVRSpatialAnchors
-    void _set_m_pVRSpatialAnchors(OVR::OpenVR::CVRSpatialAnchors* value);
+    // Get instance field reference: private OVR.OpenVR.CVRSystem m_pVRSystem
+    OVR::OpenVR::CVRSystem*& dyn_m_pVRSystem();
+    // Get instance field reference: private OVR.OpenVR.CVRChaperone m_pVRChaperone
+    OVR::OpenVR::CVRChaperone*& dyn_m_pVRChaperone();
+    // Get instance field reference: private OVR.OpenVR.CVRChaperoneSetup m_pVRChaperoneSetup
+    OVR::OpenVR::CVRChaperoneSetup*& dyn_m_pVRChaperoneSetup();
+    // Get instance field reference: private OVR.OpenVR.CVRCompositor m_pVRCompositor
+    OVR::OpenVR::CVRCompositor*& dyn_m_pVRCompositor();
+    // Get instance field reference: private OVR.OpenVR.CVROverlay m_pVROverlay
+    OVR::OpenVR::CVROverlay*& dyn_m_pVROverlay();
+    // Get instance field reference: private OVR.OpenVR.CVRRenderModels m_pVRRenderModels
+    OVR::OpenVR::CVRRenderModels*& dyn_m_pVRRenderModels();
+    // Get instance field reference: private OVR.OpenVR.CVRExtendedDisplay m_pVRExtendedDisplay
+    OVR::OpenVR::CVRExtendedDisplay*& dyn_m_pVRExtendedDisplay();
+    // Get instance field reference: private OVR.OpenVR.CVRSettings m_pVRSettings
+    OVR::OpenVR::CVRSettings*& dyn_m_pVRSettings();
+    // Get instance field reference: private OVR.OpenVR.CVRApplications m_pVRApplications
+    OVR::OpenVR::CVRApplications*& dyn_m_pVRApplications();
+    // Get instance field reference: private OVR.OpenVR.CVRScreenshots m_pVRScreenshots
+    OVR::OpenVR::CVRScreenshots*& dyn_m_pVRScreenshots();
+    // Get instance field reference: private OVR.OpenVR.CVRTrackedCamera m_pVRTrackedCamera
+    OVR::OpenVR::CVRTrackedCamera*& dyn_m_pVRTrackedCamera();
+    // Get instance field reference: private OVR.OpenVR.CVRInput m_pVRInput
+    OVR::OpenVR::CVRInput*& dyn_m_pVRInput();
+    // Get instance field reference: private OVR.OpenVR.CVRSpatialAnchors m_pVRSpatialAnchors
+    OVR::OpenVR::CVRSpatialAnchors*& dyn_m_pVRSpatialAnchors();
     // public System.Void Clear()
     // Offset: 0x12935DC
     void Clear();

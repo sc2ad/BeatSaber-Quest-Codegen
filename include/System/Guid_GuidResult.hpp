@@ -78,34 +78,20 @@ namespace System {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: System.Guid parsedGuid
-    System::Guid _get_parsedGuid();
-    // Set instance field: System.Guid parsedGuid
-    void _set_parsedGuid(System::Guid value);
-    // Get instance field: System.Guid/System.GuidParseThrowStyle throwStyle
-    System::Guid::GuidParseThrowStyle _get_throwStyle();
-    // Set instance field: System.Guid/System.GuidParseThrowStyle throwStyle
-    void _set_throwStyle(System::Guid::GuidParseThrowStyle value);
-    // Get instance field: System.Guid/System.ParseFailureKind m_failure
-    System::Guid::ParseFailureKind _get_m_failure();
-    // Set instance field: System.Guid/System.ParseFailureKind m_failure
-    void _set_m_failure(System::Guid::ParseFailureKind value);
-    // Get instance field: System.String m_failureMessageID
-    ::Il2CppString* _get_m_failureMessageID();
-    // Set instance field: System.String m_failureMessageID
-    void _set_m_failureMessageID(::Il2CppString* value);
-    // Get instance field: System.Object m_failureMessageFormatArgument
-    ::Il2CppObject* _get_m_failureMessageFormatArgument();
-    // Set instance field: System.Object m_failureMessageFormatArgument
-    void _set_m_failureMessageFormatArgument(::Il2CppObject* value);
-    // Get instance field: System.String m_failureArgumentName
-    ::Il2CppString* _get_m_failureArgumentName();
-    // Set instance field: System.String m_failureArgumentName
-    void _set_m_failureArgumentName(::Il2CppString* value);
-    // Get instance field: System.Exception m_innerException
-    System::Exception* _get_m_innerException();
-    // Set instance field: System.Exception m_innerException
-    void _set_m_innerException(System::Exception* value);
+    // Get instance field reference: System.Guid parsedGuid
+    System::Guid& dyn_parsedGuid();
+    // Get instance field reference: System.Guid/System.GuidParseThrowStyle throwStyle
+    System::Guid::GuidParseThrowStyle& dyn_throwStyle();
+    // Get instance field reference: System.Guid/System.ParseFailureKind m_failure
+    System::Guid::ParseFailureKind& dyn_m_failure();
+    // Get instance field reference: System.String m_failureMessageID
+    ::Il2CppString*& dyn_m_failureMessageID();
+    // Get instance field reference: System.Object m_failureMessageFormatArgument
+    ::Il2CppObject*& dyn_m_failureMessageFormatArgument();
+    // Get instance field reference: System.String m_failureArgumentName
+    ::Il2CppString*& dyn_m_failureArgumentName();
+    // Get instance field reference: System.Exception m_innerException
+    System::Exception*& dyn_m_innerException();
     // System.Void Init(System.Guid/System.GuidParseThrowStyle canThrow)
     // Offset: 0x1A20758
     void Init(System::Guid::GuidParseThrowStyle canThrow);

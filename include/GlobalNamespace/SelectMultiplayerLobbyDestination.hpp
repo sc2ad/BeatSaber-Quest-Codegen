@@ -34,14 +34,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: SelectMultiplayerLobbyDestination
     SelectMultiplayerLobbyDestination(::Il2CppString* lobbySecret_ = {}, ::Il2CppString* lobbyCode_ = {}) noexcept : lobbySecret{lobbySecret_}, lobbyCode{lobbyCode_} {}
-    // Get instance field: public readonly System.String lobbySecret
-    ::Il2CppString* _get_lobbySecret();
-    // Set instance field: public readonly System.String lobbySecret
-    void _set_lobbySecret(::Il2CppString* value);
-    // Get instance field: public readonly System.String lobbyCode
-    ::Il2CppString* _get_lobbyCode();
-    // Set instance field: public readonly System.String lobbyCode
-    void _set_lobbyCode(::Il2CppString* value);
+    // Get instance field reference: public readonly System.String lobbySecret
+    ::Il2CppString*& dyn_lobbySecret();
+    // Get instance field reference: public readonly System.String lobbyCode
+    ::Il2CppString*& dyn_lobbyCode();
     // public System.Void .ctor(System.UInt64 roomId)
     // Offset: 0x119DD50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

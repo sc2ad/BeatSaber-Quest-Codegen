@@ -55,26 +55,16 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public UnityEngine.AudioSpeakerMode speakerMode
-    UnityEngine::AudioSpeakerMode _get_speakerMode();
-    // Set instance field: public UnityEngine.AudioSpeakerMode speakerMode
-    void _set_speakerMode(UnityEngine::AudioSpeakerMode value);
-    // Get instance field: public System.Int32 dspBufferSize
-    int _get_dspBufferSize();
-    // Set instance field: public System.Int32 dspBufferSize
-    void _set_dspBufferSize(int value);
-    // Get instance field: public System.Int32 sampleRate
-    int _get_sampleRate();
-    // Set instance field: public System.Int32 sampleRate
-    void _set_sampleRate(int value);
-    // Get instance field: public System.Int32 numRealVoices
-    int _get_numRealVoices();
-    // Set instance field: public System.Int32 numRealVoices
-    void _set_numRealVoices(int value);
-    // Get instance field: public System.Int32 numVirtualVoices
-    int _get_numVirtualVoices();
-    // Set instance field: public System.Int32 numVirtualVoices
-    void _set_numVirtualVoices(int value);
+    // Get instance field reference: public UnityEngine.AudioSpeakerMode speakerMode
+    UnityEngine::AudioSpeakerMode& dyn_speakerMode();
+    // Get instance field reference: public System.Int32 dspBufferSize
+    int& dyn_dspBufferSize();
+    // Get instance field reference: public System.Int32 sampleRate
+    int& dyn_sampleRate();
+    // Get instance field reference: public System.Int32 numRealVoices
+    int& dyn_numRealVoices();
+    // Get instance field reference: public System.Int32 numVirtualVoices
+    int& dyn_numVirtualVoices();
   }; // UnityEngine.AudioConfiguration
   #pragma pack(pop)
   static check_size<sizeof(AudioConfiguration), 16 + sizeof(int)> __UnityEngine_AudioConfigurationSizeCheck;

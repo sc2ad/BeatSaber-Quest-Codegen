@@ -48,14 +48,10 @@ namespace GlobalNamespace {
     SignalListener(GlobalNamespace::Signal* signal_ = {}, UnityEngine::Events::UnityEvent* unityEvent_ = {}) noexcept : signal{signal_}, unityEvent{unityEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private Signal _signal
-    GlobalNamespace::Signal* _get__signal();
-    // Set instance field: private Signal _signal
-    void _set__signal(GlobalNamespace::Signal* value);
-    // Get instance field: private UnityEngine.Events.UnityEvent _unityEvent
-    UnityEngine::Events::UnityEvent* _get__unityEvent();
-    // Set instance field: private UnityEngine.Events.UnityEvent _unityEvent
-    void _set__unityEvent(UnityEngine::Events::UnityEvent* value);
+    // Get instance field reference: private Signal _signal
+    GlobalNamespace::Signal*& dyn__signal();
+    // Get instance field reference: private UnityEngine.Events.UnityEvent _unityEvent
+    UnityEngine::Events::UnityEvent*& dyn__unityEvent();
     // protected System.Void OnEnable()
     // Offset: 0x2397F2C
     void OnEnable();

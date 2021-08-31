@@ -38,14 +38,10 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public Valve.VR.IVRSystem/Valve.VR._GetControllerState pGetControllerState
-    Valve::VR::IVRSystem::_GetControllerState* _get_pGetControllerState();
-    // Set instance field: public Valve.VR.IVRSystem/Valve.VR._GetControllerState pGetControllerState
-    void _set_pGetControllerState(Valve::VR::IVRSystem::_GetControllerState* value);
-    // Get instance field: public Valve.VR.CVRSystem/Valve.VR._GetControllerStatePacked pGetControllerStatePacked
-    Valve::VR::CVRSystem::_GetControllerStatePacked* _get_pGetControllerStatePacked();
-    // Set instance field: public Valve.VR.CVRSystem/Valve.VR._GetControllerStatePacked pGetControllerStatePacked
-    void _set_pGetControllerStatePacked(Valve::VR::CVRSystem::_GetControllerStatePacked* value);
+    // Get instance field reference: public Valve.VR.IVRSystem/Valve.VR._GetControllerState pGetControllerState
+    Valve::VR::IVRSystem::_GetControllerState*& dyn_pGetControllerState();
+    // Get instance field reference: public Valve.VR.CVRSystem/Valve.VR._GetControllerStatePacked pGetControllerStatePacked
+    Valve::VR::CVRSystem::_GetControllerStatePacked*& dyn_pGetControllerStatePacked();
   }; // Valve.VR.CVRSystem/Valve.VR.GetControllerStateUnion
   // WARNING Not writing size check since size may be invalid!
 }

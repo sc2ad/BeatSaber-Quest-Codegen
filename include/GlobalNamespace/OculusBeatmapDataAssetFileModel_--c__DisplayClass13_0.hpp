@@ -68,22 +68,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Threading::Tasks::TaskCompletionSource_1<bool>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass13_0
     $$c__DisplayClass13_0(GlobalNamespace::OculusBeatmapDataAssetFileModel* $$4__this_ = {}, ::Il2CppString* levelId_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::Threading::Tasks::TaskCompletionSource_1<bool>* taskSource_ = {}) noexcept : $$4__this{$$4__this_}, levelId{levelId_}, cancellationToken{cancellationToken_}, taskSource{taskSource_} {}
-    // Get instance field: public OculusBeatmapDataAssetFileModel <>4__this
-    GlobalNamespace::OculusBeatmapDataAssetFileModel* _get_$$4__this();
-    // Set instance field: public OculusBeatmapDataAssetFileModel <>4__this
-    void _set_$$4__this(GlobalNamespace::OculusBeatmapDataAssetFileModel* value);
-    // Get instance field: public System.String levelId
-    ::Il2CppString* _get_levelId();
-    // Set instance field: public System.String levelId
-    void _set_levelId(::Il2CppString* value);
-    // Get instance field: public System.Threading.CancellationToken cancellationToken
-    System::Threading::CancellationToken _get_cancellationToken();
-    // Set instance field: public System.Threading.CancellationToken cancellationToken
-    void _set_cancellationToken(System::Threading::CancellationToken value);
-    // Get instance field: public System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> taskSource
-    System::Threading::Tasks::TaskCompletionSource_1<bool>* _get_taskSource();
-    // Set instance field: public System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> taskSource
-    void _set_taskSource(System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
+    // Get instance field reference: public OculusBeatmapDataAssetFileModel <>4__this
+    GlobalNamespace::OculusBeatmapDataAssetFileModel*& dyn_$$4__this();
+    // Get instance field reference: public System.String levelId
+    ::Il2CppString*& dyn_levelId();
+    // Get instance field reference: public System.Threading.CancellationToken cancellationToken
+    System::Threading::CancellationToken& dyn_cancellationToken();
+    // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> taskSource
+    System::Threading::Tasks::TaskCompletionSource_1<bool>*& dyn_taskSource();
     // System.Void <TryDeleteAssetBundleFileForPreviewLevelAsync>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.AssetFileDeleteResult> msg)
     // Offset: 0x1235864
     void $TryDeleteAssetBundleFileForPreviewLevelAsync$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDeleteResult*>* msg);

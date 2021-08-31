@@ -45,14 +45,10 @@ namespace GlobalNamespace {
     NoteTrailParticleSystem(UnityEngine::ParticleSystem* particleSystem_ = {}, UnityEngine::ParticleSystem::EmitParams emitParams_ = {}) noexcept : particleSystem{particleSystem_}, emitParams{emitParams_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.ParticleSystem _particleSystem
-    UnityEngine::ParticleSystem* _get__particleSystem();
-    // Set instance field: private UnityEngine.ParticleSystem _particleSystem
-    void _set__particleSystem(UnityEngine::ParticleSystem* value);
-    // Get instance field: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _emitParams
-    UnityEngine::ParticleSystem::EmitParams _get__emitParams();
-    // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _emitParams
-    void _set__emitParams(UnityEngine::ParticleSystem::EmitParams value);
+    // Get instance field reference: private UnityEngine.ParticleSystem _particleSystem
+    UnityEngine::ParticleSystem*& dyn__particleSystem();
+    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _emitParams
+    UnityEngine::ParticleSystem::EmitParams& dyn__emitParams();
     // protected System.Void Awake()
     // Offset: 0x1230FD0
     void Awake();

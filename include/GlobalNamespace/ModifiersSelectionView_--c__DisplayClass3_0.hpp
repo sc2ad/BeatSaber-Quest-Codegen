@@ -48,10 +48,8 @@ namespace GlobalNamespace {
     constexpr operator System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*() const noexcept {
       return modifierParams;
     }
-    // Get instance field: public System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParams
-    System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* _get_modifierParams();
-    // Set instance field: public System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParams
-    void _set_modifierParams(System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* value);
+    // Get instance field reference: public System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParams
+    System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*& dyn_modifierParams();
     // System.Void <SetGameplayModifiers>b__0(System.Int32 idx, GameplayModifierInfoListItem item)
     // Offset: 0x11E0114
     void $SetGameplayModifiers$b__0(int idx, GlobalNamespace::GameplayModifierInfoListItem* item);

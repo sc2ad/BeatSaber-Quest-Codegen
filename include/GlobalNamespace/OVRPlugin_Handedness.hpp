@@ -52,10 +52,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::Handedness _get_RightHanded();
     // Set static field: static public OVRPlugin/Handedness RightHanded
     static void _set_RightHanded(GlobalNamespace::OVRPlugin::Handedness value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // OVRPlugin/Handedness
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Handedness), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_HandednessSizeCheck;

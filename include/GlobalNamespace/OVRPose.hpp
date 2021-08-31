@@ -41,14 +41,10 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public UnityEngine.Vector3 position
-    UnityEngine::Vector3 _get_position();
-    // Set instance field: public UnityEngine.Vector3 position
-    void _set_position(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Quaternion orientation
-    UnityEngine::Quaternion _get_orientation();
-    // Set instance field: public UnityEngine.Quaternion orientation
-    void _set_orientation(UnityEngine::Quaternion value);
+    // Get instance field reference: public UnityEngine.Vector3 position
+    UnityEngine::Vector3& dyn_position();
+    // Get instance field reference: public UnityEngine.Quaternion orientation
+    UnityEngine::Quaternion& dyn_orientation();
     // static public OVRPose get_identity()
     // Offset: 0x163333C
     static GlobalNamespace::OVRPose get_identity();

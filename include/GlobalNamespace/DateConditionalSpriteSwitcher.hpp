@@ -68,26 +68,16 @@ namespace GlobalNamespace {
     DateConditionalSpriteSwitcher(int day_ = {}, int month_ = {}, UnityEngine::Sprite* falseSprite_ = {}, UnityEngine::Sprite* trueSprite_ = {}, GlobalNamespace::ConditionalSpriteSwitcher* conditionalSpriteSwitcher_ = {}) noexcept : day{day_}, month{month_}, falseSprite{falseSprite_}, trueSprite{trueSprite_}, conditionalSpriteSwitcher{conditionalSpriteSwitcher_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Int32 _day
-    int _get__day();
-    // Set instance field: private System.Int32 _day
-    void _set__day(int value);
-    // Get instance field: private System.Int32 _month
-    int _get__month();
-    // Set instance field: private System.Int32 _month
-    void _set__month(int value);
-    // Get instance field: private UnityEngine.Sprite _falseSprite
-    UnityEngine::Sprite* _get__falseSprite();
-    // Set instance field: private UnityEngine.Sprite _falseSprite
-    void _set__falseSprite(UnityEngine::Sprite* value);
-    // Get instance field: private UnityEngine.Sprite _trueSprite
-    UnityEngine::Sprite* _get__trueSprite();
-    // Set instance field: private UnityEngine.Sprite _trueSprite
-    void _set__trueSprite(UnityEngine::Sprite* value);
-    // Get instance field: private ConditionalSpriteSwitcher _conditionalSpriteSwitcher
-    GlobalNamespace::ConditionalSpriteSwitcher* _get__conditionalSpriteSwitcher();
-    // Set instance field: private ConditionalSpriteSwitcher _conditionalSpriteSwitcher
-    void _set__conditionalSpriteSwitcher(GlobalNamespace::ConditionalSpriteSwitcher* value);
+    // Get instance field reference: private System.Int32 _day
+    int& dyn__day();
+    // Get instance field reference: private System.Int32 _month
+    int& dyn__month();
+    // Get instance field reference: private UnityEngine.Sprite _falseSprite
+    UnityEngine::Sprite*& dyn__falseSprite();
+    // Get instance field reference: private UnityEngine.Sprite _trueSprite
+    UnityEngine::Sprite*& dyn__trueSprite();
+    // Get instance field reference: private ConditionalSpriteSwitcher _conditionalSpriteSwitcher
+    GlobalNamespace::ConditionalSpriteSwitcher*& dyn__conditionalSpriteSwitcher();
     // protected System.Void Awake()
     // Offset: 0x10F9E18
     void Awake();

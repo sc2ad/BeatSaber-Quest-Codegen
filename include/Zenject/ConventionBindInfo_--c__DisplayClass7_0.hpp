@@ -43,10 +43,8 @@ namespace Zenject {
     constexpr operator System::Type*() const noexcept {
       return type;
     }
-    // Get instance field: public System.Type type
-    System::Type* _get_type();
-    // Set instance field: public System.Type type
-    void _set_type(System::Type* value);
+    // Get instance field reference: public System.Type type
+    System::Type*& dyn_type();
     // System.Boolean <ShouldIncludeType>b__0(System.Func`2<System.Type,System.Boolean> predicate)
     // Offset: 0x13E19D8
     bool $ShouldIncludeType$b__0(System::Func_2<System::Type*, bool>* predicate);

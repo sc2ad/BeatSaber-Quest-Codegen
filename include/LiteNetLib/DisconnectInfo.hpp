@@ -52,18 +52,12 @@ namespace LiteNetLib {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public LiteNetLib.DisconnectReason Reason
-    LiteNetLib::DisconnectReason _get_Reason();
-    // Set instance field: public LiteNetLib.DisconnectReason Reason
-    void _set_Reason(LiteNetLib::DisconnectReason value);
-    // Get instance field: public System.Net.Sockets.SocketError SocketErrorCode
-    System::Net::Sockets::SocketError _get_SocketErrorCode();
-    // Set instance field: public System.Net.Sockets.SocketError SocketErrorCode
-    void _set_SocketErrorCode(System::Net::Sockets::SocketError value);
-    // Get instance field: public LiteNetLib.NetPacketReader AdditionalData
-    LiteNetLib::NetPacketReader* _get_AdditionalData();
-    // Set instance field: public LiteNetLib.NetPacketReader AdditionalData
-    void _set_AdditionalData(LiteNetLib::NetPacketReader* value);
+    // Get instance field reference: public LiteNetLib.DisconnectReason Reason
+    LiteNetLib::DisconnectReason& dyn_Reason();
+    // Get instance field reference: public System.Net.Sockets.SocketError SocketErrorCode
+    System::Net::Sockets::SocketError& dyn_SocketErrorCode();
+    // Get instance field reference: public LiteNetLib.NetPacketReader AdditionalData
+    LiteNetLib::NetPacketReader*& dyn_AdditionalData();
   }; // LiteNetLib.DisconnectInfo
   #pragma pack(pop)
   static check_size<sizeof(DisconnectInfo), 8 + sizeof(LiteNetLib::NetPacketReader*)> __LiteNetLib_DisconnectInfoSizeCheck;

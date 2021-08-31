@@ -88,38 +88,22 @@ namespace GlobalNamespace {
     TrackLaneRingsRotationEffect(GlobalNamespace::TrackLaneRingsManager* trackLaneRingsManager_ = {}, float startupRotationAngle_ = {}, float startupRotationStep_ = {}, int startupRotationPropagationSpeed_ = {}, float startupRotationFlexySpeed_ = {}, System::Collections::Generic::List_1<GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect*>* activeRingRotationEffects_ = {}, System::Collections::Generic::List_1<GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect*>* ringRotationEffectsPool_ = {}, System::Collections::Generic::List_1<int>* ringRotationEffectsToDelete_ = {}) noexcept : trackLaneRingsManager{trackLaneRingsManager_}, startupRotationAngle{startupRotationAngle_}, startupRotationStep{startupRotationStep_}, startupRotationPropagationSpeed{startupRotationPropagationSpeed_}, startupRotationFlexySpeed{startupRotationFlexySpeed_}, activeRingRotationEffects{activeRingRotationEffects_}, ringRotationEffectsPool{ringRotationEffectsPool_}, ringRotationEffectsToDelete{ringRotationEffectsToDelete_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private TrackLaneRingsManager _trackLaneRingsManager
-    GlobalNamespace::TrackLaneRingsManager* _get__trackLaneRingsManager();
-    // Set instance field: private TrackLaneRingsManager _trackLaneRingsManager
-    void _set__trackLaneRingsManager(GlobalNamespace::TrackLaneRingsManager* value);
-    // Get instance field: private System.Single _startupRotationAngle
-    float _get__startupRotationAngle();
-    // Set instance field: private System.Single _startupRotationAngle
-    void _set__startupRotationAngle(float value);
-    // Get instance field: private System.Single _startupRotationStep
-    float _get__startupRotationStep();
-    // Set instance field: private System.Single _startupRotationStep
-    void _set__startupRotationStep(float value);
-    // Get instance field: private System.Int32 _startupRotationPropagationSpeed
-    int _get__startupRotationPropagationSpeed();
-    // Set instance field: private System.Int32 _startupRotationPropagationSpeed
-    void _set__startupRotationPropagationSpeed(int value);
-    // Get instance field: private System.Single _startupRotationFlexySpeed
-    float _get__startupRotationFlexySpeed();
-    // Set instance field: private System.Single _startupRotationFlexySpeed
-    void _set__startupRotationFlexySpeed(float value);
-    // Get instance field: private System.Collections.Generic.List`1<TrackLaneRingsRotationEffect/RingRotationEffect> _activeRingRotationEffects
-    System::Collections::Generic::List_1<GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect*>* _get__activeRingRotationEffects();
-    // Set instance field: private System.Collections.Generic.List`1<TrackLaneRingsRotationEffect/RingRotationEffect> _activeRingRotationEffects
-    void _set__activeRingRotationEffects(System::Collections::Generic::List_1<GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<TrackLaneRingsRotationEffect/RingRotationEffect> _ringRotationEffectsPool
-    System::Collections::Generic::List_1<GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect*>* _get__ringRotationEffectsPool();
-    // Set instance field: private System.Collections.Generic.List`1<TrackLaneRingsRotationEffect/RingRotationEffect> _ringRotationEffectsPool
-    void _set__ringRotationEffectsPool(System::Collections::Generic::List_1<GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<System.Int32> ringRotationEffectsToDelete
-    System::Collections::Generic::List_1<int>* _get_ringRotationEffectsToDelete();
-    // Set instance field: private System.Collections.Generic.List`1<System.Int32> ringRotationEffectsToDelete
-    void _set_ringRotationEffectsToDelete(System::Collections::Generic::List_1<int>* value);
+    // Get instance field reference: private TrackLaneRingsManager _trackLaneRingsManager
+    GlobalNamespace::TrackLaneRingsManager*& dyn__trackLaneRingsManager();
+    // Get instance field reference: private System.Single _startupRotationAngle
+    float& dyn__startupRotationAngle();
+    // Get instance field reference: private System.Single _startupRotationStep
+    float& dyn__startupRotationStep();
+    // Get instance field reference: private System.Int32 _startupRotationPropagationSpeed
+    int& dyn__startupRotationPropagationSpeed();
+    // Get instance field reference: private System.Single _startupRotationFlexySpeed
+    float& dyn__startupRotationFlexySpeed();
+    // Get instance field reference: private System.Collections.Generic.List`1<TrackLaneRingsRotationEffect/RingRotationEffect> _activeRingRotationEffects
+    System::Collections::Generic::List_1<GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect*>*& dyn__activeRingRotationEffects();
+    // Get instance field reference: private System.Collections.Generic.List`1<TrackLaneRingsRotationEffect/RingRotationEffect> _ringRotationEffectsPool
+    System::Collections::Generic::List_1<GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect*>*& dyn__ringRotationEffectsPool();
+    // Get instance field reference: private System.Collections.Generic.List`1<System.Int32> ringRotationEffectsToDelete
+    System::Collections::Generic::List_1<int>*& dyn_ringRotationEffectsToDelete();
     // protected System.Void Awake()
     // Offset: 0x10964D0
     void Awake();

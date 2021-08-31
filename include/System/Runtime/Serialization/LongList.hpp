@@ -44,22 +44,14 @@ namespace System::Runtime::Serialization {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: LongList
     LongList(::Array<int64_t>* m_values_ = {}, int m_count_ = {}, int m_totalItems_ = {}, int m_currentItem_ = {}) noexcept : m_values{m_values_}, m_count{m_count_}, m_totalItems{m_totalItems_}, m_currentItem{m_currentItem_} {}
-    // Get instance field: private System.Int64[] m_values
-    ::Array<int64_t>* _get_m_values();
-    // Set instance field: private System.Int64[] m_values
-    void _set_m_values(::Array<int64_t>* value);
-    // Get instance field: private System.Int32 m_count
-    int _get_m_count();
-    // Set instance field: private System.Int32 m_count
-    void _set_m_count(int value);
-    // Get instance field: private System.Int32 m_totalItems
-    int _get_m_totalItems();
-    // Set instance field: private System.Int32 m_totalItems
-    void _set_m_totalItems(int value);
-    // Get instance field: private System.Int32 m_currentItem
-    int _get_m_currentItem();
-    // Set instance field: private System.Int32 m_currentItem
-    void _set_m_currentItem(int value);
+    // Get instance field reference: private System.Int64[] m_values
+    ::Array<int64_t>*& dyn_m_values();
+    // Get instance field reference: private System.Int32 m_count
+    int& dyn_m_count();
+    // Get instance field reference: private System.Int32 m_totalItems
+    int& dyn_m_totalItems();
+    // Get instance field reference: private System.Int32 m_currentItem
+    int& dyn_m_currentItem();
     // System.Int32 get_Count()
     // Offset: 0x16B70EC
     int get_Count();

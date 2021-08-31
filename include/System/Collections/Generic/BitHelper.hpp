@@ -46,22 +46,14 @@ namespace System::Collections::Generic {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: BitHelper
     BitHelper(int length_ = {}, int* arrayPtr_ = {}, ::Array<int>* array_ = {}, bool useStackAlloc_ = {}) noexcept : length{length_}, arrayPtr{arrayPtr_}, array{array_}, useStackAlloc{useStackAlloc_} {}
-    // Get instance field: private readonly System.Int32 _length
-    int _get__length();
-    // Set instance field: private readonly System.Int32 _length
-    void _set__length(int value);
-    // Get instance field: private readonly System.Int32* _arrayPtr
-    int* _get__arrayPtr();
-    // Set instance field: private readonly System.Int32* _arrayPtr
-    void _set__arrayPtr(int* value);
-    // Get instance field: private readonly System.Int32[] _array
-    ::Array<int>* _get__array();
-    // Set instance field: private readonly System.Int32[] _array
-    void _set__array(::Array<int>* value);
-    // Get instance field: private readonly System.Boolean _useStackAlloc
-    bool _get__useStackAlloc();
-    // Set instance field: private readonly System.Boolean _useStackAlloc
-    void _set__useStackAlloc(bool value);
+    // Get instance field reference: private readonly System.Int32 _length
+    int& dyn__length();
+    // Get instance field reference: private readonly System.Int32* _arrayPtr
+    int*& dyn__arrayPtr();
+    // Get instance field reference: private readonly System.Int32[] _array
+    ::Array<int>*& dyn__array();
+    // Get instance field reference: private readonly System.Boolean _useStackAlloc
+    bool& dyn__useStackAlloc();
     // System.Void .ctor(System.Int32* bitArrayPtr, System.Int32 length)
     // Offset: 0x23B5C08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -103,58 +103,32 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.IntPtr m_pVRSystem
-    System::IntPtr _get_m_pVRSystem();
-    // Set instance field: public System.IntPtr m_pVRSystem
-    void _set_m_pVRSystem(System::IntPtr value);
-    // Get instance field: public System.IntPtr m_pVRChaperone
-    System::IntPtr _get_m_pVRChaperone();
-    // Set instance field: public System.IntPtr m_pVRChaperone
-    void _set_m_pVRChaperone(System::IntPtr value);
-    // Get instance field: public System.IntPtr m_pVRChaperoneSetup
-    System::IntPtr _get_m_pVRChaperoneSetup();
-    // Set instance field: public System.IntPtr m_pVRChaperoneSetup
-    void _set_m_pVRChaperoneSetup(System::IntPtr value);
-    // Get instance field: public System.IntPtr m_pVRCompositor
-    System::IntPtr _get_m_pVRCompositor();
-    // Set instance field: public System.IntPtr m_pVRCompositor
-    void _set_m_pVRCompositor(System::IntPtr value);
-    // Get instance field: public System.IntPtr m_pVROverlay
-    System::IntPtr _get_m_pVROverlay();
-    // Set instance field: public System.IntPtr m_pVROverlay
-    void _set_m_pVROverlay(System::IntPtr value);
-    // Get instance field: public System.IntPtr m_pVRResources
-    System::IntPtr _get_m_pVRResources();
-    // Set instance field: public System.IntPtr m_pVRResources
-    void _set_m_pVRResources(System::IntPtr value);
-    // Get instance field: public System.IntPtr m_pVRRenderModels
-    System::IntPtr _get_m_pVRRenderModels();
-    // Set instance field: public System.IntPtr m_pVRRenderModels
-    void _set_m_pVRRenderModels(System::IntPtr value);
-    // Get instance field: public System.IntPtr m_pVRExtendedDisplay
-    System::IntPtr _get_m_pVRExtendedDisplay();
-    // Set instance field: public System.IntPtr m_pVRExtendedDisplay
-    void _set_m_pVRExtendedDisplay(System::IntPtr value);
-    // Get instance field: public System.IntPtr m_pVRSettings
-    System::IntPtr _get_m_pVRSettings();
-    // Set instance field: public System.IntPtr m_pVRSettings
-    void _set_m_pVRSettings(System::IntPtr value);
-    // Get instance field: public System.IntPtr m_pVRApplications
-    System::IntPtr _get_m_pVRApplications();
-    // Set instance field: public System.IntPtr m_pVRApplications
-    void _set_m_pVRApplications(System::IntPtr value);
-    // Get instance field: public System.IntPtr m_pVRTrackedCamera
-    System::IntPtr _get_m_pVRTrackedCamera();
-    // Set instance field: public System.IntPtr m_pVRTrackedCamera
-    void _set_m_pVRTrackedCamera(System::IntPtr value);
-    // Get instance field: public System.IntPtr m_pVRScreenshots
-    System::IntPtr _get_m_pVRScreenshots();
-    // Set instance field: public System.IntPtr m_pVRScreenshots
-    void _set_m_pVRScreenshots(System::IntPtr value);
-    // Get instance field: public System.IntPtr m_pVRDriverManager
-    System::IntPtr _get_m_pVRDriverManager();
-    // Set instance field: public System.IntPtr m_pVRDriverManager
-    void _set_m_pVRDriverManager(System::IntPtr value);
+    // Get instance field reference: public System.IntPtr m_pVRSystem
+    System::IntPtr& dyn_m_pVRSystem();
+    // Get instance field reference: public System.IntPtr m_pVRChaperone
+    System::IntPtr& dyn_m_pVRChaperone();
+    // Get instance field reference: public System.IntPtr m_pVRChaperoneSetup
+    System::IntPtr& dyn_m_pVRChaperoneSetup();
+    // Get instance field reference: public System.IntPtr m_pVRCompositor
+    System::IntPtr& dyn_m_pVRCompositor();
+    // Get instance field reference: public System.IntPtr m_pVROverlay
+    System::IntPtr& dyn_m_pVROverlay();
+    // Get instance field reference: public System.IntPtr m_pVRResources
+    System::IntPtr& dyn_m_pVRResources();
+    // Get instance field reference: public System.IntPtr m_pVRRenderModels
+    System::IntPtr& dyn_m_pVRRenderModels();
+    // Get instance field reference: public System.IntPtr m_pVRExtendedDisplay
+    System::IntPtr& dyn_m_pVRExtendedDisplay();
+    // Get instance field reference: public System.IntPtr m_pVRSettings
+    System::IntPtr& dyn_m_pVRSettings();
+    // Get instance field reference: public System.IntPtr m_pVRApplications
+    System::IntPtr& dyn_m_pVRApplications();
+    // Get instance field reference: public System.IntPtr m_pVRTrackedCamera
+    System::IntPtr& dyn_m_pVRTrackedCamera();
+    // Get instance field reference: public System.IntPtr m_pVRScreenshots
+    System::IntPtr& dyn_m_pVRScreenshots();
+    // Get instance field reference: public System.IntPtr m_pVRDriverManager
+    System::IntPtr& dyn_m_pVRDriverManager();
   }; // Valve.VR.COpenVRContext
   #pragma pack(pop)
   static check_size<sizeof(COpenVRContext), 96 + sizeof(System::IntPtr)> __Valve_VR_COpenVRContextSizeCheck;

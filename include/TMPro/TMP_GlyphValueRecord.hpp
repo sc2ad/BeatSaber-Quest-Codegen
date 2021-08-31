@@ -52,22 +52,14 @@ namespace TMPro {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private System.Single m_XPlacement
-    float _get_m_XPlacement();
-    // Set instance field: private System.Single m_XPlacement
-    void _set_m_XPlacement(float value);
-    // Get instance field: private System.Single m_YPlacement
-    float _get_m_YPlacement();
-    // Set instance field: private System.Single m_YPlacement
-    void _set_m_YPlacement(float value);
-    // Get instance field: private System.Single m_XAdvance
-    float _get_m_XAdvance();
-    // Set instance field: private System.Single m_XAdvance
-    void _set_m_XAdvance(float value);
-    // Get instance field: private System.Single m_YAdvance
-    float _get_m_YAdvance();
-    // Set instance field: private System.Single m_YAdvance
-    void _set_m_YAdvance(float value);
+    // Get instance field reference: private System.Single m_XPlacement
+    float& dyn_m_XPlacement();
+    // Get instance field reference: private System.Single m_YPlacement
+    float& dyn_m_YPlacement();
+    // Get instance field reference: private System.Single m_XAdvance
+    float& dyn_m_XAdvance();
+    // Get instance field reference: private System.Single m_YAdvance
+    float& dyn_m_YAdvance();
     // public System.Single get_xPlacement()
     // Offset: 0x1124F20
     float get_xPlacement();

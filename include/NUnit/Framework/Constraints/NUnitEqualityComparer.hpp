@@ -111,26 +111,16 @@ namespace NUnit::Framework::Constraints {
     static System::Type* _get_GameObjectType();
     // Set static field: static private readonly System.Type GameObjectType
     static void _set_GameObjectType(System::Type* value);
-    // Get instance field: private System.Boolean caseInsensitive
-    bool _get_caseInsensitive();
-    // Set instance field: private System.Boolean caseInsensitive
-    void _set_caseInsensitive(bool value);
-    // Get instance field: private System.Boolean compareAsCollection
-    bool _get_compareAsCollection();
-    // Set instance field: private System.Boolean compareAsCollection
-    void _set_compareAsCollection(bool value);
-    // Get instance field: private System.Collections.Generic.List`1<NUnit.Framework.Constraints.EqualityAdapter> externalComparers
-    System::Collections::Generic::List_1<NUnit::Framework::Constraints::EqualityAdapter*>* _get_externalComparers();
-    // Set instance field: private System.Collections.Generic.List`1<NUnit.Framework.Constraints.EqualityAdapter> externalComparers
-    void _set_externalComparers(System::Collections::Generic::List_1<NUnit::Framework::Constraints::EqualityAdapter*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<NUnit.Framework.Constraints.NUnitEqualityComparer/NUnit.Framework.Constraints.FailurePoint> failurePoints
-    System::Collections::Generic::List_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>* _get_failurePoints();
-    // Set instance field: private System.Collections.Generic.List`1<NUnit.Framework.Constraints.NUnitEqualityComparer/NUnit.Framework.Constraints.FailurePoint> failurePoints
-    void _set_failurePoints(System::Collections::Generic::List_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>* value);
-    // Get instance field: private System.Boolean <WithSameOffset>k__BackingField
-    bool _get_$WithSameOffset$k__BackingField();
-    // Set instance field: private System.Boolean <WithSameOffset>k__BackingField
-    void _set_$WithSameOffset$k__BackingField(bool value);
+    // Get instance field reference: private System.Boolean caseInsensitive
+    bool& dyn_caseInsensitive();
+    // Get instance field reference: private System.Boolean compareAsCollection
+    bool& dyn_compareAsCollection();
+    // Get instance field reference: private System.Collections.Generic.List`1<NUnit.Framework.Constraints.EqualityAdapter> externalComparers
+    System::Collections::Generic::List_1<NUnit::Framework::Constraints::EqualityAdapter*>*& dyn_externalComparers();
+    // Get instance field reference: private System.Collections.Generic.List`1<NUnit.Framework.Constraints.NUnitEqualityComparer/NUnit.Framework.Constraints.FailurePoint> failurePoints
+    System::Collections::Generic::List_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>*& dyn_failurePoints();
+    // Get instance field reference: private System.Boolean <WithSameOffset>k__BackingField
+    bool& dyn_$WithSameOffset$k__BackingField();
     // public System.Boolean get_IgnoreCase()
     // Offset: 0x17660A8
     bool get_IgnoreCase();

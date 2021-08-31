@@ -53,18 +53,12 @@ namespace GlobalNamespace {
     HeadObstacleLowPassAudioEffect(GlobalNamespace::PlayerHeadAndObstacleInteraction* playerHeadAndObstacleInteraction_ = {}, GlobalNamespace::MainAudioEffects* mainAudioEffects_ = {}, bool headWasInObstacle_ = {}) noexcept : playerHeadAndObstacleInteraction{playerHeadAndObstacleInteraction_}, mainAudioEffects{mainAudioEffects_}, headWasInObstacle{headWasInObstacle_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
-    GlobalNamespace::PlayerHeadAndObstacleInteraction* _get__playerHeadAndObstacleInteraction();
-    // Set instance field: private PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
-    void _set__playerHeadAndObstacleInteraction(GlobalNamespace::PlayerHeadAndObstacleInteraction* value);
-    // Get instance field: private MainAudioEffects _mainAudioEffects
-    GlobalNamespace::MainAudioEffects* _get__mainAudioEffects();
-    // Set instance field: private MainAudioEffects _mainAudioEffects
-    void _set__mainAudioEffects(GlobalNamespace::MainAudioEffects* value);
-    // Get instance field: private System.Boolean _headWasInObstacle
-    bool _get__headWasInObstacle();
-    // Set instance field: private System.Boolean _headWasInObstacle
-    void _set__headWasInObstacle(bool value);
+    // Get instance field reference: private PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
+    GlobalNamespace::PlayerHeadAndObstacleInteraction*& dyn__playerHeadAndObstacleInteraction();
+    // Get instance field reference: private MainAudioEffects _mainAudioEffects
+    GlobalNamespace::MainAudioEffects*& dyn__mainAudioEffects();
+    // Get instance field reference: private System.Boolean _headWasInObstacle
+    bool& dyn__headWasInObstacle();
     // protected System.Void Update()
     // Offset: 0x1142718
     void Update();

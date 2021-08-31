@@ -44,10 +44,8 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::PivotLocation _get_FirstVertex();
     // Set static field: static public UnityEngine.ProBuilder.PivotLocation FirstVertex
     static void _set_FirstVertex(UnityEngine::ProBuilder::PivotLocation value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.ProBuilder.PivotLocation
   #pragma pack(pop)
   static check_size<sizeof(PivotLocation), 0 + sizeof(int)> __UnityEngine_ProBuilder_PivotLocationSizeCheck;

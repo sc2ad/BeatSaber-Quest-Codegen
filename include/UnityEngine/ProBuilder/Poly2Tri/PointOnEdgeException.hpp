@@ -47,18 +47,12 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     static_assert(sizeof(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*) == 0x8);
     // Creating value type constructor for type: PointOnEdgeException
     PointOnEdgeException(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* A_ = {}, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* B_ = {}, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* C_ = {}) noexcept : A{A_}, B{B_}, C{C_} {}
-    // Get instance field: public readonly UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint A
-    UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* _get_A();
-    // Set instance field: public readonly UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint A
-    void _set_A(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
-    // Get instance field: public readonly UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint B
-    UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* _get_B();
-    // Set instance field: public readonly UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint B
-    void _set_B(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
-    // Get instance field: public readonly UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint C
-    UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* _get_C();
-    // Set instance field: public readonly UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint C
-    void _set_C(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
+    // Get instance field reference: public readonly UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint A
+    UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& dyn_A();
+    // Get instance field reference: public readonly UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint B
+    UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& dyn_B();
+    // Get instance field reference: public readonly UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint C
+    UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& dyn_C();
     // public System.Void .ctor(System.String message, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint a, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint b, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint c)
     // Offset: 0x23C13B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -165,62 +165,34 @@ namespace GlobalNamespace {
     static float _get_kMinValueChangeToInstantPlayPreview();
     // Set static field: static private System.Single kMinValueChangeToInstantPlayPreview
     static void _set_kMinValueChangeToInstantPlayPreview(float value);
-    // Get instance field: private HMUI.TimeSlider _songStartSlider
-    HMUI::TimeSlider* _get__songStartSlider();
-    // Set instance field: private HMUI.TimeSlider _songStartSlider
-    void _set__songStartSlider(HMUI::TimeSlider* value);
-    // Get instance field: private HMUI.PercentSlider _speedSlider
-    HMUI::PercentSlider* _get__speedSlider();
-    // Set instance field: private HMUI.PercentSlider _speedSlider
-    void _set__speedSlider(HMUI::PercentSlider* value);
-    // Get instance field: private LevelBar _levelBar
-    GlobalNamespace::LevelBar* _get__levelBar();
-    // Set instance field: private LevelBar _levelBar
-    void _set__levelBar(GlobalNamespace::LevelBar* value);
-    // Get instance field: private UnityEngine.UI.Button _playButton
-    UnityEngine::UI::Button* _get__playButton();
-    // Set instance field: private UnityEngine.UI.Button _playButton
-    void _set__playButton(UnityEngine::UI::Button* value);
-    // Get instance field: private readonly PlayerDataModel _playerDataModel
-    GlobalNamespace::PlayerDataModel* _get__playerDataModel();
-    // Set instance field: private readonly PlayerDataModel _playerDataModel
-    void _set__playerDataModel(GlobalNamespace::PlayerDataModel* value);
-    // Get instance field: private readonly SongPreviewPlayer _songPreviewPlayer
-    GlobalNamespace::SongPreviewPlayer* _get__songPreviewPlayer();
-    // Set instance field: private readonly SongPreviewPlayer _songPreviewPlayer
-    void _set__songPreviewPlayer(GlobalNamespace::SongPreviewPlayer* value);
-    // Get instance field: private readonly DataModels.Levels.PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
-    DataModels::Levels::PerceivedLoudnessPerLevelModel* _get__perceivedLoudnessPerLevelModel();
-    // Set instance field: private readonly DataModels.Levels.PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
-    void _set__perceivedLoudnessPerLevelModel(DataModels::Levels::PerceivedLoudnessPerLevelModel* value);
-    // Get instance field: private System.Action didPressPlayButtonEvent
-    System::Action* _get_didPressPlayButtonEvent();
-    // Set instance field: private System.Action didPressPlayButtonEvent
-    void _set_didPressPlayButtonEvent(System::Action* value);
-    // Get instance field: private PracticeSettings _practiceSettings
-    GlobalNamespace::PracticeSettings* _get__practiceSettings();
-    // Set instance field: private PracticeSettings _practiceSettings
-    void _set__practiceSettings(GlobalNamespace::PracticeSettings* value);
-    // Get instance field: private System.Single _currentPlayingStartTime
-    float _get__currentPlayingStartTime();
-    // Set instance field: private System.Single _currentPlayingStartTime
-    void _set__currentPlayingStartTime(float value);
-    // Get instance field: private System.Single _maxStartSongTime
-    float _get__maxStartSongTime();
-    // Set instance field: private System.Single _maxStartSongTime
-    void _set__maxStartSongTime(float value);
-    // Get instance field: private IBeatmapLevel _level
-    GlobalNamespace::IBeatmapLevel* _get__level();
-    // Set instance field: private IBeatmapLevel _level
-    void _set__level(GlobalNamespace::IBeatmapLevel* value);
-    // Get instance field: private BeatmapCharacteristicSO _beatmapCharacteristic
-    GlobalNamespace::BeatmapCharacteristicSO* _get__beatmapCharacteristic();
-    // Set instance field: private BeatmapCharacteristicSO _beatmapCharacteristic
-    void _set__beatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
-    // Get instance field: private BeatmapDifficulty _beatmapDifficulty
-    GlobalNamespace::BeatmapDifficulty _get__beatmapDifficulty();
-    // Set instance field: private BeatmapDifficulty _beatmapDifficulty
-    void _set__beatmapDifficulty(GlobalNamespace::BeatmapDifficulty value);
+    // Get instance field reference: private HMUI.TimeSlider _songStartSlider
+    HMUI::TimeSlider*& dyn__songStartSlider();
+    // Get instance field reference: private HMUI.PercentSlider _speedSlider
+    HMUI::PercentSlider*& dyn__speedSlider();
+    // Get instance field reference: private LevelBar _levelBar
+    GlobalNamespace::LevelBar*& dyn__levelBar();
+    // Get instance field reference: private UnityEngine.UI.Button _playButton
+    UnityEngine::UI::Button*& dyn__playButton();
+    // Get instance field reference: private readonly PlayerDataModel _playerDataModel
+    GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
+    // Get instance field reference: private readonly SongPreviewPlayer _songPreviewPlayer
+    GlobalNamespace::SongPreviewPlayer*& dyn__songPreviewPlayer();
+    // Get instance field reference: private readonly DataModels.Levels.PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
+    DataModels::Levels::PerceivedLoudnessPerLevelModel*& dyn__perceivedLoudnessPerLevelModel();
+    // Get instance field reference: private System.Action didPressPlayButtonEvent
+    System::Action*& dyn_didPressPlayButtonEvent();
+    // Get instance field reference: private PracticeSettings _practiceSettings
+    GlobalNamespace::PracticeSettings*& dyn__practiceSettings();
+    // Get instance field reference: private System.Single _currentPlayingStartTime
+    float& dyn__currentPlayingStartTime();
+    // Get instance field reference: private System.Single _maxStartSongTime
+    float& dyn__maxStartSongTime();
+    // Get instance field reference: private IBeatmapLevel _level
+    GlobalNamespace::IBeatmapLevel*& dyn__level();
+    // Get instance field reference: private BeatmapCharacteristicSO _beatmapCharacteristic
+    GlobalNamespace::BeatmapCharacteristicSO*& dyn__beatmapCharacteristic();
+    // Get instance field reference: private BeatmapDifficulty _beatmapDifficulty
+    GlobalNamespace::BeatmapDifficulty& dyn__beatmapDifficulty();
     // public PracticeSettings get_practiceSettings()
     // Offset: 0x113E47C
     GlobalNamespace::PracticeSettings* get_practiceSettings();

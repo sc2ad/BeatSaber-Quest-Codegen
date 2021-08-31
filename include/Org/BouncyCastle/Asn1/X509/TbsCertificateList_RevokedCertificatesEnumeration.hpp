@@ -50,10 +50,8 @@ namespace Org::BouncyCastle::Asn1::X509 {
     constexpr operator System::Collections::IEnumerable*() const noexcept {
       return en;
     }
-    // Get instance field: private readonly System.Collections.IEnumerable en
-    System::Collections::IEnumerable* _get_en();
-    // Set instance field: private readonly System.Collections.IEnumerable en
-    void _set_en(System::Collections::IEnumerable* value);
+    // Get instance field reference: private readonly System.Collections.IEnumerable en
+    System::Collections::IEnumerable*& dyn_en();
     // System.Void .ctor(System.Collections.IEnumerable en)
     // Offset: 0x19FD4C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

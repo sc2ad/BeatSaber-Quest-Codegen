@@ -50,10 +50,8 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRMouseButton _get_Middle();
     // Set static field: static public OVR.OpenVR.EVRMouseButton Middle
     static void _set_Middle(OVR::OpenVR::EVRMouseButton value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // OVR.OpenVR.EVRMouseButton
   #pragma pack(pop)
   static check_size<sizeof(EVRMouseButton), 0 + sizeof(int)> __OVR_OpenVR_EVRMouseButtonSizeCheck;

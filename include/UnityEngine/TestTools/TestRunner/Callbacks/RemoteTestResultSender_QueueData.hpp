@@ -36,14 +36,10 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // Creating value type constructor for type: QueueData
     QueueData(System::Guid id_ = {}, ::Array<uint8_t>* data_ = {}) noexcept : id{id_}, data{data_} {}
-    // Get instance field: private System.Guid <id>k__BackingField
-    System::Guid _get_$id$k__BackingField();
-    // Set instance field: private System.Guid <id>k__BackingField
-    void _set_$id$k__BackingField(System::Guid value);
-    // Get instance field: private System.Byte[] <data>k__BackingField
-    ::Array<uint8_t>* _get_$data$k__BackingField();
-    // Set instance field: private System.Byte[] <data>k__BackingField
-    void _set_$data$k__BackingField(::Array<uint8_t>* value);
+    // Get instance field reference: private System.Guid <id>k__BackingField
+    System::Guid& dyn_$id$k__BackingField();
+    // Get instance field reference: private System.Byte[] <data>k__BackingField
+    ::Array<uint8_t>*& dyn_$data$k__BackingField();
     // public System.Guid get_id()
     // Offset: 0x14C5D4C
     System::Guid get_id();

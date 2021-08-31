@@ -58,22 +58,14 @@ namespace GlobalNamespace {
     OneTimeLightColorEffect(GlobalNamespace::ColorSO* color_ = {}, float alpha_ = {}, int lightsId_ = {}, GlobalNamespace::LightWithIdManager* lightWithIdManager_ = {}) noexcept : color{color_}, alpha{alpha_}, lightsId{lightsId_}, lightWithIdManager{lightWithIdManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private ColorSO _color
-    GlobalNamespace::ColorSO* _get__color();
-    // Set instance field: private ColorSO _color
-    void _set__color(GlobalNamespace::ColorSO* value);
-    // Get instance field: private System.Single _alpha
-    float _get__alpha();
-    // Set instance field: private System.Single _alpha
-    void _set__alpha(float value);
-    // Get instance field: private System.Int32 _lightsId
-    int _get__lightsId();
-    // Set instance field: private System.Int32 _lightsId
-    void _set__lightsId(int value);
-    // Get instance field: private LightWithIdManager _lightWithIdManager
-    GlobalNamespace::LightWithIdManager* _get__lightWithIdManager();
-    // Set instance field: private LightWithIdManager _lightWithIdManager
-    void _set__lightWithIdManager(GlobalNamespace::LightWithIdManager* value);
+    // Get instance field reference: private ColorSO _color
+    GlobalNamespace::ColorSO*& dyn__color();
+    // Get instance field reference: private System.Single _alpha
+    float& dyn__alpha();
+    // Get instance field reference: private System.Int32 _lightsId
+    int& dyn__lightsId();
+    // Get instance field reference: private LightWithIdManager _lightWithIdManager
+    GlobalNamespace::LightWithIdManager*& dyn__lightWithIdManager();
     // protected System.Void Update()
     // Offset: 0x1024874
     void Update();

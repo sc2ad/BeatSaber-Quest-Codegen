@@ -54,14 +54,10 @@ namespace System::Runtime::Remoting::Lifetime {
     static_assert(sizeof(System::Threading::Timer*) == 0x8);
     // Creating value type constructor for type: LeaseManager
     LeaseManager(System::Collections::ArrayList* objects_ = {}, System::Threading::Timer* timer_ = {}) noexcept : objects{objects_}, timer{timer_} {}
-    // Get instance field: private System.Collections.ArrayList _objects
-    System::Collections::ArrayList* _get__objects();
-    // Set instance field: private System.Collections.ArrayList _objects
-    void _set__objects(System::Collections::ArrayList* value);
-    // Get instance field: private System.Threading.Timer _timer
-    System::Threading::Timer* _get__timer();
-    // Set instance field: private System.Threading.Timer _timer
-    void _set__timer(System::Threading::Timer* value);
+    // Get instance field reference: private System.Collections.ArrayList _objects
+    System::Collections::ArrayList*& dyn__objects();
+    // Get instance field reference: private System.Threading.Timer _timer
+    System::Threading::Timer*& dyn__timer();
     // public System.Void SetPollTime(System.TimeSpan timeSpan)
     // Offset: 0x1A44450
     void SetPollTime(System::TimeSpan timeSpan);

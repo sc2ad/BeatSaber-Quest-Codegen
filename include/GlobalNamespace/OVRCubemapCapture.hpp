@@ -74,30 +74,18 @@ namespace GlobalNamespace {
     OVRCubemapCapture(bool autoTriggerAfterLaunch_ = {}, float autoTriggerDelay_ = {}, float autoTriggerElapse_ = {}, UnityEngine::KeyCode triggeredByKey_ = {}, ::Il2CppString* pathName_ = {}, int cubemapSize_ = {}) noexcept : autoTriggerAfterLaunch{autoTriggerAfterLaunch_}, autoTriggerDelay{autoTriggerDelay_}, autoTriggerElapse{autoTriggerElapse_}, triggeredByKey{triggeredByKey_}, pathName{pathName_}, cubemapSize{cubemapSize_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public System.Boolean autoTriggerAfterLaunch
-    bool _get_autoTriggerAfterLaunch();
-    // Set instance field: public System.Boolean autoTriggerAfterLaunch
-    void _set_autoTriggerAfterLaunch(bool value);
-    // Get instance field: public System.Single autoTriggerDelay
-    float _get_autoTriggerDelay();
-    // Set instance field: public System.Single autoTriggerDelay
-    void _set_autoTriggerDelay(float value);
-    // Get instance field: private System.Single autoTriggerElapse
-    float _get_autoTriggerElapse();
-    // Set instance field: private System.Single autoTriggerElapse
-    void _set_autoTriggerElapse(float value);
-    // Get instance field: public UnityEngine.KeyCode triggeredByKey
-    UnityEngine::KeyCode _get_triggeredByKey();
-    // Set instance field: public UnityEngine.KeyCode triggeredByKey
-    void _set_triggeredByKey(UnityEngine::KeyCode value);
-    // Get instance field: public System.String pathName
-    ::Il2CppString* _get_pathName();
-    // Set instance field: public System.String pathName
-    void _set_pathName(::Il2CppString* value);
-    // Get instance field: public System.Int32 cubemapSize
-    int _get_cubemapSize();
-    // Set instance field: public System.Int32 cubemapSize
-    void _set_cubemapSize(int value);
+    // Get instance field reference: public System.Boolean autoTriggerAfterLaunch
+    bool& dyn_autoTriggerAfterLaunch();
+    // Get instance field reference: public System.Single autoTriggerDelay
+    float& dyn_autoTriggerDelay();
+    // Get instance field reference: private System.Single autoTriggerElapse
+    float& dyn_autoTriggerElapse();
+    // Get instance field reference: public UnityEngine.KeyCode triggeredByKey
+    UnityEngine::KeyCode& dyn_triggeredByKey();
+    // Get instance field reference: public System.String pathName
+    ::Il2CppString*& dyn_pathName();
+    // Get instance field reference: public System.Int32 cubemapSize
+    int& dyn_cubemapSize();
     // private System.Void Update()
     // Offset: 0x129B928
     void Update();

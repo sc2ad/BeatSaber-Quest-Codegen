@@ -82,10 +82,8 @@ namespace UnityEngine::AddressableAssets::Utility {
     static UnityEngine::AddressableAssets::Utility::SerializationUtilities::ObjectType _get_JsonObject();
     // Set static field: static public UnityEngine.AddressableAssets.Utility.SerializationUtilities/UnityEngine.AddressableAssets.Utility.ObjectType JsonObject
     static void _set_JsonObject(UnityEngine::AddressableAssets::Utility::SerializationUtilities::ObjectType value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.AddressableAssets.Utility.SerializationUtilities/UnityEngine.AddressableAssets.Utility.ObjectType
   #pragma pack(pop)
   static check_size<sizeof(SerializationUtilities::ObjectType), 0 + sizeof(int)> __UnityEngine_AddressableAssets_Utility_SerializationUtilities_ObjectTypeSizeCheck;

@@ -71,26 +71,16 @@ namespace Zenject {
     static Zenject::ZenjectSettings* _get_Default();
     // Set static field: static public Zenject.ZenjectSettings Default
     static void _set_Default(Zenject::ZenjectSettings* value);
-    // Get instance field: private System.Boolean _ensureDeterministicDestructionOrderOnApplicationQuit
-    bool _get__ensureDeterministicDestructionOrderOnApplicationQuit();
-    // Set instance field: private System.Boolean _ensureDeterministicDestructionOrderOnApplicationQuit
-    void _set__ensureDeterministicDestructionOrderOnApplicationQuit(bool value);
-    // Get instance field: private System.Boolean _displayWarningWhenResolvingDuringInstall
-    bool _get__displayWarningWhenResolvingDuringInstall();
-    // Set instance field: private System.Boolean _displayWarningWhenResolvingDuringInstall
-    void _set__displayWarningWhenResolvingDuringInstall(bool value);
-    // Get instance field: private Zenject.RootResolveMethods _validationRootResolveMethod
-    Zenject::RootResolveMethods _get__validationRootResolveMethod();
-    // Set instance field: private Zenject.RootResolveMethods _validationRootResolveMethod
-    void _set__validationRootResolveMethod(Zenject::RootResolveMethods value);
-    // Get instance field: private Zenject.ValidationErrorResponses _validationErrorResponse
-    Zenject::ValidationErrorResponses _get__validationErrorResponse();
-    // Set instance field: private Zenject.ValidationErrorResponses _validationErrorResponse
-    void _set__validationErrorResponse(Zenject::ValidationErrorResponses value);
-    // Get instance field: private Zenject.ZenjectSettings/Zenject.SignalSettings _signalSettings
-    Zenject::ZenjectSettings::SignalSettings* _get__signalSettings();
-    // Set instance field: private Zenject.ZenjectSettings/Zenject.SignalSettings _signalSettings
-    void _set__signalSettings(Zenject::ZenjectSettings::SignalSettings* value);
+    // Get instance field reference: private System.Boolean _ensureDeterministicDestructionOrderOnApplicationQuit
+    bool& dyn__ensureDeterministicDestructionOrderOnApplicationQuit();
+    // Get instance field reference: private System.Boolean _displayWarningWhenResolvingDuringInstall
+    bool& dyn__displayWarningWhenResolvingDuringInstall();
+    // Get instance field reference: private Zenject.RootResolveMethods _validationRootResolveMethod
+    Zenject::RootResolveMethods& dyn__validationRootResolveMethod();
+    // Get instance field reference: private Zenject.ValidationErrorResponses _validationErrorResponse
+    Zenject::ValidationErrorResponses& dyn__validationErrorResponse();
+    // Get instance field reference: private Zenject.ZenjectSettings/Zenject.SignalSettings _signalSettings
+    Zenject::ZenjectSettings::SignalSettings*& dyn__signalSettings();
     // public Zenject.ZenjectSettings/Zenject.SignalSettings get_Signals()
     // Offset: 0x23E7ECC
     Zenject::ZenjectSettings::SignalSettings* get_Signals();

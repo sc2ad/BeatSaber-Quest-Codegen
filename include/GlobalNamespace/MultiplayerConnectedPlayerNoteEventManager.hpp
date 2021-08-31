@@ -81,14 +81,10 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public readonly System.Single time
-      float _get_time();
-      // Set instance field: public readonly System.Single time
-      void _set_time(float value);
-      // Get instance field: public readonly NoteCutInfoNetSerializable noteCutInfo
-      GlobalNamespace::NoteCutInfoNetSerializable* _get_noteCutInfo();
-      // Set instance field: public readonly NoteCutInfoNetSerializable noteCutInfo
-      void _set_noteCutInfo(GlobalNamespace::NoteCutInfoNetSerializable* value);
+      // Get instance field reference: public readonly System.Single time
+      float& dyn_time();
+      // Get instance field reference: public readonly NoteCutInfoNetSerializable noteCutInfo
+      GlobalNamespace::NoteCutInfoNetSerializable*& dyn_noteCutInfo();
       // public System.Void .ctor(System.Single time, NoteCutInfoNetSerializable noteCutInfo)
       // Offset: 0x11A9D10
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -125,14 +121,10 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public readonly System.Single time
-      float _get_time();
-      // Set instance field: public readonly System.Single time
-      void _set_time(float value);
-      // Get instance field: public readonly NoteMissInfoNetSerializable noteMissInfo
-      GlobalNamespace::NoteMissInfoNetSerializable* _get_noteMissInfo();
-      // Set instance field: public readonly NoteMissInfoNetSerializable noteMissInfo
-      void _set_noteMissInfo(GlobalNamespace::NoteMissInfoNetSerializable* value);
+      // Get instance field reference: public readonly System.Single time
+      float& dyn_time();
+      // Get instance field reference: public readonly NoteMissInfoNetSerializable noteMissInfo
+      GlobalNamespace::NoteMissInfoNetSerializable*& dyn_noteMissInfo();
       // public System.Void .ctor(System.Single time, NoteMissInfoNetSerializable noteMissInfo)
       // Offset: 0x11A9E90
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -194,34 +186,20 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private readonly IConnectedPlayer _connectedPlayer
-    GlobalNamespace::IConnectedPlayer* _get__connectedPlayer();
-    // Set instance field: private readonly IConnectedPlayer _connectedPlayer
-    void _set__connectedPlayer(GlobalNamespace::IConnectedPlayer* value);
-    // Get instance field: private readonly IGameplayRpcManager _gameplayRpcManager
-    GlobalNamespace::IGameplayRpcManager* _get__gameplayRpcManager();
-    // Set instance field: private readonly IGameplayRpcManager _gameplayRpcManager
-    void _set__gameplayRpcManager(GlobalNamespace::IGameplayRpcManager* value);
-    // Get instance field: private readonly MultiplayerConnectedPlayerSongTimeSyncController _songTimeController
-    GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController* _get__songTimeController();
-    // Set instance field: private readonly MultiplayerConnectedPlayerSongTimeSyncController _songTimeController
-    void _set__songTimeController(GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController* value);
-    // Get instance field: private System.Action`1<NoteCutInfoNetSerializable> connectedPlayerNoteWasCutEvent
-    System::Action_1<GlobalNamespace::NoteCutInfoNetSerializable*>* _get_connectedPlayerNoteWasCutEvent();
-    // Set instance field: private System.Action`1<NoteCutInfoNetSerializable> connectedPlayerNoteWasCutEvent
-    void _set_connectedPlayerNoteWasCutEvent(System::Action_1<GlobalNamespace::NoteCutInfoNetSerializable*>* value);
-    // Get instance field: private System.Action`1<NoteMissInfoNetSerializable> connectedPlayerNoteWasMissedEvent
-    System::Action_1<GlobalNamespace::NoteMissInfoNetSerializable*>* _get_connectedPlayerNoteWasMissedEvent();
-    // Set instance field: private System.Action`1<NoteMissInfoNetSerializable> connectedPlayerNoteWasMissedEvent
-    void _set_connectedPlayerNoteWasMissedEvent(System::Action_1<GlobalNamespace::NoteMissInfoNetSerializable*>* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<MultiplayerConnectedPlayerNoteEventManager/NoteCutEvent> _noteCutQueue
-    System::Collections::Generic::List_1<GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::NoteCutEvent>* _get__noteCutQueue();
-    // Set instance field: private readonly System.Collections.Generic.List`1<MultiplayerConnectedPlayerNoteEventManager/NoteCutEvent> _noteCutQueue
-    void _set__noteCutQueue(System::Collections::Generic::List_1<GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::NoteCutEvent>* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<MultiplayerConnectedPlayerNoteEventManager/NoteMissEvent> _noteMissQueue
-    System::Collections::Generic::List_1<GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::NoteMissEvent>* _get__noteMissQueue();
-    // Set instance field: private readonly System.Collections.Generic.List`1<MultiplayerConnectedPlayerNoteEventManager/NoteMissEvent> _noteMissQueue
-    void _set__noteMissQueue(System::Collections::Generic::List_1<GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::NoteMissEvent>* value);
+    // Get instance field reference: private readonly IConnectedPlayer _connectedPlayer
+    GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
+    // Get instance field reference: private readonly IGameplayRpcManager _gameplayRpcManager
+    GlobalNamespace::IGameplayRpcManager*& dyn__gameplayRpcManager();
+    // Get instance field reference: private readonly MultiplayerConnectedPlayerSongTimeSyncController _songTimeController
+    GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController*& dyn__songTimeController();
+    // Get instance field reference: private System.Action`1<NoteCutInfoNetSerializable> connectedPlayerNoteWasCutEvent
+    System::Action_1<GlobalNamespace::NoteCutInfoNetSerializable*>*& dyn_connectedPlayerNoteWasCutEvent();
+    // Get instance field reference: private System.Action`1<NoteMissInfoNetSerializable> connectedPlayerNoteWasMissedEvent
+    System::Action_1<GlobalNamespace::NoteMissInfoNetSerializable*>*& dyn_connectedPlayerNoteWasMissedEvent();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<MultiplayerConnectedPlayerNoteEventManager/NoteCutEvent> _noteCutQueue
+    System::Collections::Generic::List_1<GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::NoteCutEvent>*& dyn__noteCutQueue();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<MultiplayerConnectedPlayerNoteEventManager/NoteMissEvent> _noteMissQueue
+    System::Collections::Generic::List_1<GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::NoteMissEvent>*& dyn__noteMissQueue();
     // public System.Void add_connectedPlayerNoteWasCutEvent(System.Action`1<NoteCutInfoNetSerializable> value)
     // Offset: 0x11A93B0
     void add_connectedPlayerNoteWasCutEvent(System::Action_1<GlobalNamespace::NoteCutInfoNetSerializable*>* value);

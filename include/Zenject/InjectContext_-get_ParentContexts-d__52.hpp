@@ -75,26 +75,16 @@ namespace Zenject {
     operator System::Collections::Generic::IEnumerator_1<Zenject::InjectContext*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<Zenject::InjectContext*>*>(this);
     }
-    // Get instance field: private System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: private System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: private Zenject.InjectContext <>2__current
-    Zenject::InjectContext* _get_$$2__current();
-    // Set instance field: private Zenject.InjectContext <>2__current
-    void _set_$$2__current(Zenject::InjectContext* value);
-    // Get instance field: private System.Int32 <>l__initialThreadId
-    int _get_$$l__initialThreadId();
-    // Set instance field: private System.Int32 <>l__initialThreadId
-    void _set_$$l__initialThreadId(int value);
-    // Get instance field: public Zenject.InjectContext <>4__this
-    Zenject::InjectContext* _get_$$4__this();
-    // Set instance field: public Zenject.InjectContext <>4__this
-    void _set_$$4__this(Zenject::InjectContext* value);
-    // Get instance field: private System.Collections.Generic.IEnumerator`1<Zenject.InjectContext> <>7__wrap1
-    System::Collections::Generic::IEnumerator_1<Zenject::InjectContext*>* _get_$$7__wrap1();
-    // Set instance field: private System.Collections.Generic.IEnumerator`1<Zenject.InjectContext> <>7__wrap1
-    void _set_$$7__wrap1(System::Collections::Generic::IEnumerator_1<Zenject::InjectContext*>* value);
+    // Get instance field reference: private System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: private Zenject.InjectContext <>2__current
+    Zenject::InjectContext*& dyn_$$2__current();
+    // Get instance field reference: private System.Int32 <>l__initialThreadId
+    int& dyn_$$l__initialThreadId();
+    // Get instance field reference: public Zenject.InjectContext <>4__this
+    Zenject::InjectContext*& dyn_$$4__this();
+    // Get instance field reference: private System.Collections.Generic.IEnumerator`1<Zenject.InjectContext> <>7__wrap1
+    System::Collections::Generic::IEnumerator_1<Zenject::InjectContext*>*& dyn_$$7__wrap1();
     // private Zenject.InjectContext System.Collections.Generic.IEnumerator<Zenject.InjectContext>.get_Current()
     // Offset: 0x1662898
     Zenject::InjectContext* System_Collections_Generic_IEnumerator$Zenject_InjectContext$_get_Current();

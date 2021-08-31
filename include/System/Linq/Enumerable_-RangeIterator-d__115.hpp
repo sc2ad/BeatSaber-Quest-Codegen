@@ -89,38 +89,22 @@ namespace System::Linq {
     operator System::Collections::Generic::IEnumerator_1<int>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<int>*>(this);
     }
-    // Get instance field: private System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: private System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: private System.Int32 <>2__current
-    int _get_$$2__current();
-    // Set instance field: private System.Int32 <>2__current
-    void _set_$$2__current(int value);
-    // Get instance field: private System.Int32 <>l__initialThreadId
-    int _get_$$l__initialThreadId();
-    // Set instance field: private System.Int32 <>l__initialThreadId
-    void _set_$$l__initialThreadId(int value);
-    // Get instance field: private System.Int32 start
-    int _get_start();
-    // Set instance field: private System.Int32 start
-    void _set_start(int value);
-    // Get instance field: public System.Int32 <>3__start
-    int _get_$$3__start();
-    // Set instance field: public System.Int32 <>3__start
-    void _set_$$3__start(int value);
-    // Get instance field: private System.Int32 <i>5__1
-    int _get_$i$5__1();
-    // Set instance field: private System.Int32 <i>5__1
-    void _set_$i$5__1(int value);
-    // Get instance field: private System.Int32 count
-    int _get_count();
-    // Set instance field: private System.Int32 count
-    void _set_count(int value);
-    // Get instance field: public System.Int32 <>3__count
-    int _get_$$3__count();
-    // Set instance field: public System.Int32 <>3__count
-    void _set_$$3__count(int value);
+    // Get instance field reference: private System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: private System.Int32 <>2__current
+    int& dyn_$$2__current();
+    // Get instance field reference: private System.Int32 <>l__initialThreadId
+    int& dyn_$$l__initialThreadId();
+    // Get instance field reference: private System.Int32 start
+    int& dyn_start();
+    // Get instance field reference: public System.Int32 <>3__start
+    int& dyn_$$3__start();
+    // Get instance field reference: private System.Int32 <i>5__1
+    int& dyn_$i$5__1();
+    // Get instance field reference: private System.Int32 count
+    int& dyn_count();
+    // Get instance field reference: public System.Int32 <>3__count
+    int& dyn_$$3__count();
     // private System.Int32 System.Collections.Generic.IEnumerator<System.Int32>.get_Current()
     // Offset: 0x23B6BA0
     int System_Collections_Generic_IEnumerator$System_Int32$_get_Current();

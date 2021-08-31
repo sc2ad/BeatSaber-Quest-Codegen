@@ -54,18 +54,12 @@ namespace GlobalNamespace {
     MissionNodeGizmos(GlobalNamespace::MissionNode* missionNode_ = {}, GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel_ = {}, GlobalNamespace::CampaignProgressModel* missionProgressModel_ = {}) noexcept : missionNode{missionNode_}, gameplayModifiersModel{gameplayModifiersModel_}, missionProgressModel{missionProgressModel_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private MissionNode _missionNode
-    GlobalNamespace::MissionNode* _get__missionNode();
-    // Set instance field: private MissionNode _missionNode
-    void _set__missionNode(GlobalNamespace::MissionNode* value);
-    // Get instance field: private GameplayModifiersModelSO _gameplayModifiersModel
-    GlobalNamespace::GameplayModifiersModelSO* _get__gameplayModifiersModel();
-    // Set instance field: private GameplayModifiersModelSO _gameplayModifiersModel
-    void _set__gameplayModifiersModel(GlobalNamespace::GameplayModifiersModelSO* value);
-    // Get instance field: private CampaignProgressModel _missionProgressModel
-    GlobalNamespace::CampaignProgressModel* _get__missionProgressModel();
-    // Set instance field: private CampaignProgressModel _missionProgressModel
-    void _set__missionProgressModel(GlobalNamespace::CampaignProgressModel* value);
+    // Get instance field reference: private MissionNode _missionNode
+    GlobalNamespace::MissionNode*& dyn__missionNode();
+    // Get instance field reference: private GameplayModifiersModelSO _gameplayModifiersModel
+    GlobalNamespace::GameplayModifiersModelSO*& dyn__gameplayModifiersModel();
+    // Get instance field reference: private CampaignProgressModel _missionProgressModel
+    GlobalNamespace::CampaignProgressModel*& dyn__missionProgressModel();
     // public System.Void .ctor()
     // Offset: 0x11D57AC
     // Implemented from: UnityEngine.MonoBehaviour

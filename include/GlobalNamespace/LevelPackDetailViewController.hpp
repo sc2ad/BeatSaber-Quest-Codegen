@@ -159,62 +159,34 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
     // Creating value type constructor for type: LevelPackDetailViewController
     LevelPackDetailViewController(UnityEngine::GameObject* detailWrapper_ = {}, HMUI::ImageView* packImage_ = {}, UnityEngine::UI::Button* buyButton_ = {}, UnityEngine::GameObject* buyContainer_ = {}, GlobalNamespace::LoadingControl* loadingControl_ = {}, UnityEngine::GameObject* requireInternetContainer_ = {}, GlobalNamespace::KawaseBlurRendererSO* kawaseBlurRenderer_ = {}, GlobalNamespace::AdditionalContentModel* additionalContentModel_ = {}, GlobalNamespace::DlcPromoExperimentModel* dlcPromoExperimentModel_ = {}, GlobalNamespace::IAnalyticsModel* analyticsModel_ = {}, GlobalNamespace::EventBinder* eventBinder_ = {}, System::Threading::CancellationTokenSource* cancellationTokenSource_ = {}, GlobalNamespace::IBeatmapLevelPack* pack_ = {}, UnityEngine::Sprite* blurredPackArtwork_ = {}) noexcept : detailWrapper{detailWrapper_}, packImage{packImage_}, buyButton{buyButton_}, buyContainer{buyContainer_}, loadingControl{loadingControl_}, requireInternetContainer{requireInternetContainer_}, kawaseBlurRenderer{kawaseBlurRenderer_}, additionalContentModel{additionalContentModel_}, dlcPromoExperimentModel{dlcPromoExperimentModel_}, analyticsModel{analyticsModel_}, eventBinder{eventBinder_}, cancellationTokenSource{cancellationTokenSource_}, pack{pack_}, blurredPackArtwork{blurredPackArtwork_} {}
-    // Get instance field: private UnityEngine.GameObject _detailWrapper
-    UnityEngine::GameObject* _get__detailWrapper();
-    // Set instance field: private UnityEngine.GameObject _detailWrapper
-    void _set__detailWrapper(UnityEngine::GameObject* value);
-    // Get instance field: private HMUI.ImageView _packImage
-    HMUI::ImageView* _get__packImage();
-    // Set instance field: private HMUI.ImageView _packImage
-    void _set__packImage(HMUI::ImageView* value);
-    // Get instance field: private UnityEngine.UI.Button _buyButton
-    UnityEngine::UI::Button* _get__buyButton();
-    // Set instance field: private UnityEngine.UI.Button _buyButton
-    void _set__buyButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.GameObject _buyContainer
-    UnityEngine::GameObject* _get__buyContainer();
-    // Set instance field: private UnityEngine.GameObject _buyContainer
-    void _set__buyContainer(UnityEngine::GameObject* value);
-    // Get instance field: private LoadingControl _loadingControl
-    GlobalNamespace::LoadingControl* _get__loadingControl();
-    // Set instance field: private LoadingControl _loadingControl
-    void _set__loadingControl(GlobalNamespace::LoadingControl* value);
-    // Get instance field: private UnityEngine.GameObject _requireInternetContainer
-    UnityEngine::GameObject* _get__requireInternetContainer();
-    // Set instance field: private UnityEngine.GameObject _requireInternetContainer
-    void _set__requireInternetContainer(UnityEngine::GameObject* value);
-    // Get instance field: private KawaseBlurRendererSO _kawaseBlurRenderer
-    GlobalNamespace::KawaseBlurRendererSO* _get__kawaseBlurRenderer();
-    // Set instance field: private KawaseBlurRendererSO _kawaseBlurRenderer
-    void _set__kawaseBlurRenderer(GlobalNamespace::KawaseBlurRendererSO* value);
-    // Get instance field: private AdditionalContentModel _additionalContentModel
-    GlobalNamespace::AdditionalContentModel* _get__additionalContentModel();
-    // Set instance field: private AdditionalContentModel _additionalContentModel
-    void _set__additionalContentModel(GlobalNamespace::AdditionalContentModel* value);
-    // Get instance field: private DlcPromoExperimentModel _dlcPromoExperimentModel
-    GlobalNamespace::DlcPromoExperimentModel* _get__dlcPromoExperimentModel();
-    // Set instance field: private DlcPromoExperimentModel _dlcPromoExperimentModel
-    void _set__dlcPromoExperimentModel(GlobalNamespace::DlcPromoExperimentModel* value);
-    // Get instance field: private IAnalyticsModel _analyticsModel
-    GlobalNamespace::IAnalyticsModel* _get__analyticsModel();
-    // Set instance field: private IAnalyticsModel _analyticsModel
-    void _set__analyticsModel(GlobalNamespace::IAnalyticsModel* value);
-    // Get instance field: private EventBinder _eventBinder
-    GlobalNamespace::EventBinder* _get__eventBinder();
-    // Set instance field: private EventBinder _eventBinder
-    void _set__eventBinder(GlobalNamespace::EventBinder* value);
-    // Get instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    System::Threading::CancellationTokenSource* _get__cancellationTokenSource();
-    // Set instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    void _set__cancellationTokenSource(System::Threading::CancellationTokenSource* value);
-    // Get instance field: private IBeatmapLevelPack _pack
-    GlobalNamespace::IBeatmapLevelPack* _get__pack();
-    // Set instance field: private IBeatmapLevelPack _pack
-    void _set__pack(GlobalNamespace::IBeatmapLevelPack* value);
-    // Get instance field: private UnityEngine.Sprite _blurredPackArtwork
-    UnityEngine::Sprite* _get__blurredPackArtwork();
-    // Set instance field: private UnityEngine.Sprite _blurredPackArtwork
-    void _set__blurredPackArtwork(UnityEngine::Sprite* value);
+    // Get instance field reference: private UnityEngine.GameObject _detailWrapper
+    UnityEngine::GameObject*& dyn__detailWrapper();
+    // Get instance field reference: private HMUI.ImageView _packImage
+    HMUI::ImageView*& dyn__packImage();
+    // Get instance field reference: private UnityEngine.UI.Button _buyButton
+    UnityEngine::UI::Button*& dyn__buyButton();
+    // Get instance field reference: private UnityEngine.GameObject _buyContainer
+    UnityEngine::GameObject*& dyn__buyContainer();
+    // Get instance field reference: private LoadingControl _loadingControl
+    GlobalNamespace::LoadingControl*& dyn__loadingControl();
+    // Get instance field reference: private UnityEngine.GameObject _requireInternetContainer
+    UnityEngine::GameObject*& dyn__requireInternetContainer();
+    // Get instance field reference: private KawaseBlurRendererSO _kawaseBlurRenderer
+    GlobalNamespace::KawaseBlurRendererSO*& dyn__kawaseBlurRenderer();
+    // Get instance field reference: private AdditionalContentModel _additionalContentModel
+    GlobalNamespace::AdditionalContentModel*& dyn__additionalContentModel();
+    // Get instance field reference: private DlcPromoExperimentModel _dlcPromoExperimentModel
+    GlobalNamespace::DlcPromoExperimentModel*& dyn__dlcPromoExperimentModel();
+    // Get instance field reference: private IAnalyticsModel _analyticsModel
+    GlobalNamespace::IAnalyticsModel*& dyn__analyticsModel();
+    // Get instance field reference: private EventBinder _eventBinder
+    GlobalNamespace::EventBinder*& dyn__eventBinder();
+    // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
+    System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
+    // Get instance field reference: private IBeatmapLevelPack _pack
+    GlobalNamespace::IBeatmapLevelPack*& dyn__pack();
+    // Get instance field reference: private UnityEngine.Sprite _blurredPackArtwork
+    UnityEngine::Sprite*& dyn__blurredPackArtwork();
     // public System.Void SetData(IBeatmapLevelPack pack)
     // Offset: 0x114C138
     void SetData(GlobalNamespace::IBeatmapLevelPack* pack);

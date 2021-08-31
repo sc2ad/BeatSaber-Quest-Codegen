@@ -51,10 +51,8 @@ namespace UnityEngine::Experimental::Rendering {
     static UnityEngine::Experimental::Rendering::TextureCreationFlags _get_Crunch();
     // Set static field: static public UnityEngine.Experimental.Rendering.TextureCreationFlags Crunch
     static void _set_Crunch(UnityEngine::Experimental::Rendering::TextureCreationFlags value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.Experimental.Rendering.TextureCreationFlags
   #pragma pack(pop)
   static check_size<sizeof(TextureCreationFlags), 0 + sizeof(int)> __UnityEngine_Experimental_Rendering_TextureCreationFlagsSizeCheck;

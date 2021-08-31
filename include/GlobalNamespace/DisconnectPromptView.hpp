@@ -99,34 +99,20 @@ namespace GlobalNamespace {
     DisconnectPromptView(HMUI::PanelAnimationSO* presentPanelAnimation_ = {}, HMUI::PanelAnimationSO* dismissPanelAnimation_ = {}, UnityEngine::GameObject* promptGameObject_ = {}, UnityEngine::UI::Button* okButton_ = {}, UnityEngine::UI::Button* cancelButton_ = {}, System::Action_1<bool>* didViewFinishEvent_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}) noexcept : presentPanelAnimation{presentPanelAnimation_}, dismissPanelAnimation{dismissPanelAnimation_}, promptGameObject{promptGameObject_}, okButton{okButton_}, cancelButton{cancelButton_}, didViewFinishEvent{didViewFinishEvent_}, buttonBinder{buttonBinder_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private HMUI.PanelAnimationSO _presentPanelAnimation
-    HMUI::PanelAnimationSO* _get__presentPanelAnimation();
-    // Set instance field: private HMUI.PanelAnimationSO _presentPanelAnimation
-    void _set__presentPanelAnimation(HMUI::PanelAnimationSO* value);
-    // Get instance field: private HMUI.PanelAnimationSO _dismissPanelAnimation
-    HMUI::PanelAnimationSO* _get__dismissPanelAnimation();
-    // Set instance field: private HMUI.PanelAnimationSO _dismissPanelAnimation
-    void _set__dismissPanelAnimation(HMUI::PanelAnimationSO* value);
-    // Get instance field: private UnityEngine.GameObject _promptGameObject
-    UnityEngine::GameObject* _get__promptGameObject();
-    // Set instance field: private UnityEngine.GameObject _promptGameObject
-    void _set__promptGameObject(UnityEngine::GameObject* value);
-    // Get instance field: private UnityEngine.UI.Button _okButton
-    UnityEngine::UI::Button* _get__okButton();
-    // Set instance field: private UnityEngine.UI.Button _okButton
-    void _set__okButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Button _cancelButton
-    UnityEngine::UI::Button* _get__cancelButton();
-    // Set instance field: private UnityEngine.UI.Button _cancelButton
-    void _set__cancelButton(UnityEngine::UI::Button* value);
-    // Get instance field: private System.Action`1<System.Boolean> didViewFinishEvent
-    System::Action_1<bool>* _get_didViewFinishEvent();
-    // Set instance field: private System.Action`1<System.Boolean> didViewFinishEvent
-    void _set_didViewFinishEvent(System::Action_1<bool>* value);
-    // Get instance field: private readonly HMUI.ButtonBinder _buttonBinder
-    HMUI::ButtonBinder* _get__buttonBinder();
-    // Set instance field: private readonly HMUI.ButtonBinder _buttonBinder
-    void _set__buttonBinder(HMUI::ButtonBinder* value);
+    // Get instance field reference: private HMUI.PanelAnimationSO _presentPanelAnimation
+    HMUI::PanelAnimationSO*& dyn__presentPanelAnimation();
+    // Get instance field reference: private HMUI.PanelAnimationSO _dismissPanelAnimation
+    HMUI::PanelAnimationSO*& dyn__dismissPanelAnimation();
+    // Get instance field reference: private UnityEngine.GameObject _promptGameObject
+    UnityEngine::GameObject*& dyn__promptGameObject();
+    // Get instance field reference: private UnityEngine.UI.Button _okButton
+    UnityEngine::UI::Button*& dyn__okButton();
+    // Get instance field reference: private UnityEngine.UI.Button _cancelButton
+    UnityEngine::UI::Button*& dyn__cancelButton();
+    // Get instance field reference: private System.Action`1<System.Boolean> didViewFinishEvent
+    System::Action_1<bool>*& dyn_didViewFinishEvent();
+    // Get instance field reference: private readonly HMUI.ButtonBinder _buttonBinder
+    HMUI::ButtonBinder*& dyn__buttonBinder();
     // public System.Void add_didViewFinishEvent(System.Action`1<System.Boolean> value)
     // Offset: 0x10FBFB4
     void add_didViewFinishEvent(System::Action_1<bool>* value);

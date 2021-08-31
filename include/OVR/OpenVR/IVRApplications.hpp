@@ -275,130 +275,68 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._AddApplicationManifest AddApplicationManifest
-    OVR::OpenVR::IVRApplications::_AddApplicationManifest* _get_AddApplicationManifest();
-    // Set instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._AddApplicationManifest AddApplicationManifest
-    void _set_AddApplicationManifest(OVR::OpenVR::IVRApplications::_AddApplicationManifest* value);
-    // Get instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._RemoveApplicationManifest RemoveApplicationManifest
-    OVR::OpenVR::IVRApplications::_RemoveApplicationManifest* _get_RemoveApplicationManifest();
-    // Set instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._RemoveApplicationManifest RemoveApplicationManifest
-    void _set_RemoveApplicationManifest(OVR::OpenVR::IVRApplications::_RemoveApplicationManifest* value);
-    // Get instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._IsApplicationInstalled IsApplicationInstalled
-    OVR::OpenVR::IVRApplications::_IsApplicationInstalled* _get_IsApplicationInstalled();
-    // Set instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._IsApplicationInstalled IsApplicationInstalled
-    void _set_IsApplicationInstalled(OVR::OpenVR::IVRApplications::_IsApplicationInstalled* value);
-    // Get instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationCount GetApplicationCount
-    OVR::OpenVR::IVRApplications::_GetApplicationCount* _get_GetApplicationCount();
-    // Set instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationCount GetApplicationCount
-    void _set_GetApplicationCount(OVR::OpenVR::IVRApplications::_GetApplicationCount* value);
-    // Get instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationKeyByIndex GetApplicationKeyByIndex
-    OVR::OpenVR::IVRApplications::_GetApplicationKeyByIndex* _get_GetApplicationKeyByIndex();
-    // Set instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationKeyByIndex GetApplicationKeyByIndex
-    void _set_GetApplicationKeyByIndex(OVR::OpenVR::IVRApplications::_GetApplicationKeyByIndex* value);
-    // Get instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationKeyByProcessId GetApplicationKeyByProcessId
-    OVR::OpenVR::IVRApplications::_GetApplicationKeyByProcessId* _get_GetApplicationKeyByProcessId();
-    // Set instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationKeyByProcessId GetApplicationKeyByProcessId
-    void _set_GetApplicationKeyByProcessId(OVR::OpenVR::IVRApplications::_GetApplicationKeyByProcessId* value);
-    // Get instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._LaunchApplication LaunchApplication
-    OVR::OpenVR::IVRApplications::_LaunchApplication* _get_LaunchApplication();
-    // Set instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._LaunchApplication LaunchApplication
-    void _set_LaunchApplication(OVR::OpenVR::IVRApplications::_LaunchApplication* value);
-    // Get instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._LaunchTemplateApplication LaunchTemplateApplication
-    OVR::OpenVR::IVRApplications::_LaunchTemplateApplication* _get_LaunchTemplateApplication();
-    // Set instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._LaunchTemplateApplication LaunchTemplateApplication
-    void _set_LaunchTemplateApplication(OVR::OpenVR::IVRApplications::_LaunchTemplateApplication* value);
-    // Get instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._LaunchApplicationFromMimeType LaunchApplicationFromMimeType
-    OVR::OpenVR::IVRApplications::_LaunchApplicationFromMimeType* _get_LaunchApplicationFromMimeType();
-    // Set instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._LaunchApplicationFromMimeType LaunchApplicationFromMimeType
-    void _set_LaunchApplicationFromMimeType(OVR::OpenVR::IVRApplications::_LaunchApplicationFromMimeType* value);
-    // Get instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._LaunchDashboardOverlay LaunchDashboardOverlay
-    OVR::OpenVR::IVRApplications::_LaunchDashboardOverlay* _get_LaunchDashboardOverlay();
-    // Set instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._LaunchDashboardOverlay LaunchDashboardOverlay
-    void _set_LaunchDashboardOverlay(OVR::OpenVR::IVRApplications::_LaunchDashboardOverlay* value);
-    // Get instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._CancelApplicationLaunch CancelApplicationLaunch
-    OVR::OpenVR::IVRApplications::_CancelApplicationLaunch* _get_CancelApplicationLaunch();
-    // Set instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._CancelApplicationLaunch CancelApplicationLaunch
-    void _set_CancelApplicationLaunch(OVR::OpenVR::IVRApplications::_CancelApplicationLaunch* value);
-    // Get instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._IdentifyApplication IdentifyApplication
-    OVR::OpenVR::IVRApplications::_IdentifyApplication* _get_IdentifyApplication();
-    // Set instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._IdentifyApplication IdentifyApplication
-    void _set_IdentifyApplication(OVR::OpenVR::IVRApplications::_IdentifyApplication* value);
-    // Get instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationProcessId GetApplicationProcessId
-    OVR::OpenVR::IVRApplications::_GetApplicationProcessId* _get_GetApplicationProcessId();
-    // Set instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationProcessId GetApplicationProcessId
-    void _set_GetApplicationProcessId(OVR::OpenVR::IVRApplications::_GetApplicationProcessId* value);
-    // Get instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationsErrorNameFromEnum GetApplicationsErrorNameFromEnum
-    OVR::OpenVR::IVRApplications::_GetApplicationsErrorNameFromEnum* _get_GetApplicationsErrorNameFromEnum();
-    // Set instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationsErrorNameFromEnum GetApplicationsErrorNameFromEnum
-    void _set_GetApplicationsErrorNameFromEnum(OVR::OpenVR::IVRApplications::_GetApplicationsErrorNameFromEnum* value);
-    // Get instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationPropertyString GetApplicationPropertyString
-    OVR::OpenVR::IVRApplications::_GetApplicationPropertyString* _get_GetApplicationPropertyString();
-    // Set instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationPropertyString GetApplicationPropertyString
-    void _set_GetApplicationPropertyString(OVR::OpenVR::IVRApplications::_GetApplicationPropertyString* value);
-    // Get instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationPropertyBool GetApplicationPropertyBool
-    OVR::OpenVR::IVRApplications::_GetApplicationPropertyBool* _get_GetApplicationPropertyBool();
-    // Set instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationPropertyBool GetApplicationPropertyBool
-    void _set_GetApplicationPropertyBool(OVR::OpenVR::IVRApplications::_GetApplicationPropertyBool* value);
-    // Get instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationPropertyUint64 GetApplicationPropertyUint64
-    OVR::OpenVR::IVRApplications::_GetApplicationPropertyUint64* _get_GetApplicationPropertyUint64();
-    // Set instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationPropertyUint64 GetApplicationPropertyUint64
-    void _set_GetApplicationPropertyUint64(OVR::OpenVR::IVRApplications::_GetApplicationPropertyUint64* value);
-    // Get instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._SetApplicationAutoLaunch SetApplicationAutoLaunch
-    OVR::OpenVR::IVRApplications::_SetApplicationAutoLaunch* _get_SetApplicationAutoLaunch();
-    // Set instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._SetApplicationAutoLaunch SetApplicationAutoLaunch
-    void _set_SetApplicationAutoLaunch(OVR::OpenVR::IVRApplications::_SetApplicationAutoLaunch* value);
-    // Get instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationAutoLaunch GetApplicationAutoLaunch
-    OVR::OpenVR::IVRApplications::_GetApplicationAutoLaunch* _get_GetApplicationAutoLaunch();
-    // Set instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationAutoLaunch GetApplicationAutoLaunch
-    void _set_GetApplicationAutoLaunch(OVR::OpenVR::IVRApplications::_GetApplicationAutoLaunch* value);
-    // Get instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._SetDefaultApplicationForMimeType SetDefaultApplicationForMimeType
-    OVR::OpenVR::IVRApplications::_SetDefaultApplicationForMimeType* _get_SetDefaultApplicationForMimeType();
-    // Set instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._SetDefaultApplicationForMimeType SetDefaultApplicationForMimeType
-    void _set_SetDefaultApplicationForMimeType(OVR::OpenVR::IVRApplications::_SetDefaultApplicationForMimeType* value);
-    // Get instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetDefaultApplicationForMimeType GetDefaultApplicationForMimeType
-    OVR::OpenVR::IVRApplications::_GetDefaultApplicationForMimeType* _get_GetDefaultApplicationForMimeType();
-    // Set instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetDefaultApplicationForMimeType GetDefaultApplicationForMimeType
-    void _set_GetDefaultApplicationForMimeType(OVR::OpenVR::IVRApplications::_GetDefaultApplicationForMimeType* value);
-    // Get instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationSupportedMimeTypes GetApplicationSupportedMimeTypes
-    OVR::OpenVR::IVRApplications::_GetApplicationSupportedMimeTypes* _get_GetApplicationSupportedMimeTypes();
-    // Set instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationSupportedMimeTypes GetApplicationSupportedMimeTypes
-    void _set_GetApplicationSupportedMimeTypes(OVR::OpenVR::IVRApplications::_GetApplicationSupportedMimeTypes* value);
-    // Get instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationsThatSupportMimeType GetApplicationsThatSupportMimeType
-    OVR::OpenVR::IVRApplications::_GetApplicationsThatSupportMimeType* _get_GetApplicationsThatSupportMimeType();
-    // Set instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationsThatSupportMimeType GetApplicationsThatSupportMimeType
-    void _set_GetApplicationsThatSupportMimeType(OVR::OpenVR::IVRApplications::_GetApplicationsThatSupportMimeType* value);
-    // Get instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationLaunchArguments GetApplicationLaunchArguments
-    OVR::OpenVR::IVRApplications::_GetApplicationLaunchArguments* _get_GetApplicationLaunchArguments();
-    // Set instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationLaunchArguments GetApplicationLaunchArguments
-    void _set_GetApplicationLaunchArguments(OVR::OpenVR::IVRApplications::_GetApplicationLaunchArguments* value);
-    // Get instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetStartingApplication GetStartingApplication
-    OVR::OpenVR::IVRApplications::_GetStartingApplication* _get_GetStartingApplication();
-    // Set instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetStartingApplication GetStartingApplication
-    void _set_GetStartingApplication(OVR::OpenVR::IVRApplications::_GetStartingApplication* value);
-    // Get instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetTransitionState GetTransitionState
-    OVR::OpenVR::IVRApplications::_GetTransitionState* _get_GetTransitionState();
-    // Set instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetTransitionState GetTransitionState
-    void _set_GetTransitionState(OVR::OpenVR::IVRApplications::_GetTransitionState* value);
-    // Get instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._PerformApplicationPrelaunchCheck PerformApplicationPrelaunchCheck
-    OVR::OpenVR::IVRApplications::_PerformApplicationPrelaunchCheck* _get_PerformApplicationPrelaunchCheck();
-    // Set instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._PerformApplicationPrelaunchCheck PerformApplicationPrelaunchCheck
-    void _set_PerformApplicationPrelaunchCheck(OVR::OpenVR::IVRApplications::_PerformApplicationPrelaunchCheck* value);
-    // Get instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationsTransitionStateNameFromEnum GetApplicationsTransitionStateNameFromEnum
-    OVR::OpenVR::IVRApplications::_GetApplicationsTransitionStateNameFromEnum* _get_GetApplicationsTransitionStateNameFromEnum();
-    // Set instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationsTransitionStateNameFromEnum GetApplicationsTransitionStateNameFromEnum
-    void _set_GetApplicationsTransitionStateNameFromEnum(OVR::OpenVR::IVRApplications::_GetApplicationsTransitionStateNameFromEnum* value);
-    // Get instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._IsQuitUserPromptRequested IsQuitUserPromptRequested
-    OVR::OpenVR::IVRApplications::_IsQuitUserPromptRequested* _get_IsQuitUserPromptRequested();
-    // Set instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._IsQuitUserPromptRequested IsQuitUserPromptRequested
-    void _set_IsQuitUserPromptRequested(OVR::OpenVR::IVRApplications::_IsQuitUserPromptRequested* value);
-    // Get instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._LaunchInternalProcess LaunchInternalProcess
-    OVR::OpenVR::IVRApplications::_LaunchInternalProcess* _get_LaunchInternalProcess();
-    // Set instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._LaunchInternalProcess LaunchInternalProcess
-    void _set_LaunchInternalProcess(OVR::OpenVR::IVRApplications::_LaunchInternalProcess* value);
-    // Get instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetCurrentSceneProcessId GetCurrentSceneProcessId
-    OVR::OpenVR::IVRApplications::_GetCurrentSceneProcessId* _get_GetCurrentSceneProcessId();
-    // Set instance field: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetCurrentSceneProcessId GetCurrentSceneProcessId
-    void _set_GetCurrentSceneProcessId(OVR::OpenVR::IVRApplications::_GetCurrentSceneProcessId* value);
+    // Get instance field reference: OVR.OpenVR.IVRApplications/OVR.OpenVR._AddApplicationManifest AddApplicationManifest
+    OVR::OpenVR::IVRApplications::_AddApplicationManifest*& dyn_AddApplicationManifest();
+    // Get instance field reference: OVR.OpenVR.IVRApplications/OVR.OpenVR._RemoveApplicationManifest RemoveApplicationManifest
+    OVR::OpenVR::IVRApplications::_RemoveApplicationManifest*& dyn_RemoveApplicationManifest();
+    // Get instance field reference: OVR.OpenVR.IVRApplications/OVR.OpenVR._IsApplicationInstalled IsApplicationInstalled
+    OVR::OpenVR::IVRApplications::_IsApplicationInstalled*& dyn_IsApplicationInstalled();
+    // Get instance field reference: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationCount GetApplicationCount
+    OVR::OpenVR::IVRApplications::_GetApplicationCount*& dyn_GetApplicationCount();
+    // Get instance field reference: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationKeyByIndex GetApplicationKeyByIndex
+    OVR::OpenVR::IVRApplications::_GetApplicationKeyByIndex*& dyn_GetApplicationKeyByIndex();
+    // Get instance field reference: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationKeyByProcessId GetApplicationKeyByProcessId
+    OVR::OpenVR::IVRApplications::_GetApplicationKeyByProcessId*& dyn_GetApplicationKeyByProcessId();
+    // Get instance field reference: OVR.OpenVR.IVRApplications/OVR.OpenVR._LaunchApplication LaunchApplication
+    OVR::OpenVR::IVRApplications::_LaunchApplication*& dyn_LaunchApplication();
+    // Get instance field reference: OVR.OpenVR.IVRApplications/OVR.OpenVR._LaunchTemplateApplication LaunchTemplateApplication
+    OVR::OpenVR::IVRApplications::_LaunchTemplateApplication*& dyn_LaunchTemplateApplication();
+    // Get instance field reference: OVR.OpenVR.IVRApplications/OVR.OpenVR._LaunchApplicationFromMimeType LaunchApplicationFromMimeType
+    OVR::OpenVR::IVRApplications::_LaunchApplicationFromMimeType*& dyn_LaunchApplicationFromMimeType();
+    // Get instance field reference: OVR.OpenVR.IVRApplications/OVR.OpenVR._LaunchDashboardOverlay LaunchDashboardOverlay
+    OVR::OpenVR::IVRApplications::_LaunchDashboardOverlay*& dyn_LaunchDashboardOverlay();
+    // Get instance field reference: OVR.OpenVR.IVRApplications/OVR.OpenVR._CancelApplicationLaunch CancelApplicationLaunch
+    OVR::OpenVR::IVRApplications::_CancelApplicationLaunch*& dyn_CancelApplicationLaunch();
+    // Get instance field reference: OVR.OpenVR.IVRApplications/OVR.OpenVR._IdentifyApplication IdentifyApplication
+    OVR::OpenVR::IVRApplications::_IdentifyApplication*& dyn_IdentifyApplication();
+    // Get instance field reference: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationProcessId GetApplicationProcessId
+    OVR::OpenVR::IVRApplications::_GetApplicationProcessId*& dyn_GetApplicationProcessId();
+    // Get instance field reference: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationsErrorNameFromEnum GetApplicationsErrorNameFromEnum
+    OVR::OpenVR::IVRApplications::_GetApplicationsErrorNameFromEnum*& dyn_GetApplicationsErrorNameFromEnum();
+    // Get instance field reference: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationPropertyString GetApplicationPropertyString
+    OVR::OpenVR::IVRApplications::_GetApplicationPropertyString*& dyn_GetApplicationPropertyString();
+    // Get instance field reference: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationPropertyBool GetApplicationPropertyBool
+    OVR::OpenVR::IVRApplications::_GetApplicationPropertyBool*& dyn_GetApplicationPropertyBool();
+    // Get instance field reference: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationPropertyUint64 GetApplicationPropertyUint64
+    OVR::OpenVR::IVRApplications::_GetApplicationPropertyUint64*& dyn_GetApplicationPropertyUint64();
+    // Get instance field reference: OVR.OpenVR.IVRApplications/OVR.OpenVR._SetApplicationAutoLaunch SetApplicationAutoLaunch
+    OVR::OpenVR::IVRApplications::_SetApplicationAutoLaunch*& dyn_SetApplicationAutoLaunch();
+    // Get instance field reference: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationAutoLaunch GetApplicationAutoLaunch
+    OVR::OpenVR::IVRApplications::_GetApplicationAutoLaunch*& dyn_GetApplicationAutoLaunch();
+    // Get instance field reference: OVR.OpenVR.IVRApplications/OVR.OpenVR._SetDefaultApplicationForMimeType SetDefaultApplicationForMimeType
+    OVR::OpenVR::IVRApplications::_SetDefaultApplicationForMimeType*& dyn_SetDefaultApplicationForMimeType();
+    // Get instance field reference: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetDefaultApplicationForMimeType GetDefaultApplicationForMimeType
+    OVR::OpenVR::IVRApplications::_GetDefaultApplicationForMimeType*& dyn_GetDefaultApplicationForMimeType();
+    // Get instance field reference: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationSupportedMimeTypes GetApplicationSupportedMimeTypes
+    OVR::OpenVR::IVRApplications::_GetApplicationSupportedMimeTypes*& dyn_GetApplicationSupportedMimeTypes();
+    // Get instance field reference: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationsThatSupportMimeType GetApplicationsThatSupportMimeType
+    OVR::OpenVR::IVRApplications::_GetApplicationsThatSupportMimeType*& dyn_GetApplicationsThatSupportMimeType();
+    // Get instance field reference: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationLaunchArguments GetApplicationLaunchArguments
+    OVR::OpenVR::IVRApplications::_GetApplicationLaunchArguments*& dyn_GetApplicationLaunchArguments();
+    // Get instance field reference: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetStartingApplication GetStartingApplication
+    OVR::OpenVR::IVRApplications::_GetStartingApplication*& dyn_GetStartingApplication();
+    // Get instance field reference: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetTransitionState GetTransitionState
+    OVR::OpenVR::IVRApplications::_GetTransitionState*& dyn_GetTransitionState();
+    // Get instance field reference: OVR.OpenVR.IVRApplications/OVR.OpenVR._PerformApplicationPrelaunchCheck PerformApplicationPrelaunchCheck
+    OVR::OpenVR::IVRApplications::_PerformApplicationPrelaunchCheck*& dyn_PerformApplicationPrelaunchCheck();
+    // Get instance field reference: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationsTransitionStateNameFromEnum GetApplicationsTransitionStateNameFromEnum
+    OVR::OpenVR::IVRApplications::_GetApplicationsTransitionStateNameFromEnum*& dyn_GetApplicationsTransitionStateNameFromEnum();
+    // Get instance field reference: OVR.OpenVR.IVRApplications/OVR.OpenVR._IsQuitUserPromptRequested IsQuitUserPromptRequested
+    OVR::OpenVR::IVRApplications::_IsQuitUserPromptRequested*& dyn_IsQuitUserPromptRequested();
+    // Get instance field reference: OVR.OpenVR.IVRApplications/OVR.OpenVR._LaunchInternalProcess LaunchInternalProcess
+    OVR::OpenVR::IVRApplications::_LaunchInternalProcess*& dyn_LaunchInternalProcess();
+    // Get instance field reference: OVR.OpenVR.IVRApplications/OVR.OpenVR._GetCurrentSceneProcessId GetCurrentSceneProcessId
+    OVR::OpenVR::IVRApplications::_GetCurrentSceneProcessId*& dyn_GetCurrentSceneProcessId();
   }; // OVR.OpenVR.IVRApplications
   #pragma pack(pop)
   static check_size<sizeof(IVRApplications), 240 + sizeof(OVR::OpenVR::IVRApplications::_GetCurrentSceneProcessId*)> __OVR_OpenVR_IVRApplicationsSizeCheck;

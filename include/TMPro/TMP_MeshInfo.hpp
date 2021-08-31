@@ -127,42 +127,24 @@ namespace TMPro {
     static UnityEngine::Bounds _get_s_DefaultBounds();
     // Set static field: static private readonly UnityEngine.Bounds s_DefaultBounds
     static void _set_s_DefaultBounds(UnityEngine::Bounds value);
-    // Get instance field: public UnityEngine.Mesh mesh
-    UnityEngine::Mesh* _get_mesh();
-    // Set instance field: public UnityEngine.Mesh mesh
-    void _set_mesh(UnityEngine::Mesh* value);
-    // Get instance field: public System.Int32 vertexCount
-    int _get_vertexCount();
-    // Set instance field: public System.Int32 vertexCount
-    void _set_vertexCount(int value);
-    // Get instance field: public UnityEngine.Vector3[] vertices
-    ::Array<UnityEngine::Vector3>* _get_vertices();
-    // Set instance field: public UnityEngine.Vector3[] vertices
-    void _set_vertices(::Array<UnityEngine::Vector3>* value);
-    // Get instance field: public UnityEngine.Vector3[] normals
-    ::Array<UnityEngine::Vector3>* _get_normals();
-    // Set instance field: public UnityEngine.Vector3[] normals
-    void _set_normals(::Array<UnityEngine::Vector3>* value);
-    // Get instance field: public UnityEngine.Vector4[] tangents
-    ::Array<UnityEngine::Vector4>* _get_tangents();
-    // Set instance field: public UnityEngine.Vector4[] tangents
-    void _set_tangents(::Array<UnityEngine::Vector4>* value);
-    // Get instance field: public UnityEngine.Vector2[] uvs0
-    ::Array<UnityEngine::Vector2>* _get_uvs0();
-    // Set instance field: public UnityEngine.Vector2[] uvs0
-    void _set_uvs0(::Array<UnityEngine::Vector2>* value);
-    // Get instance field: public UnityEngine.Vector2[] uvs2
-    ::Array<UnityEngine::Vector2>* _get_uvs2();
-    // Set instance field: public UnityEngine.Vector2[] uvs2
-    void _set_uvs2(::Array<UnityEngine::Vector2>* value);
-    // Get instance field: public UnityEngine.Color32[] colors32
-    ::Array<UnityEngine::Color32>* _get_colors32();
-    // Set instance field: public UnityEngine.Color32[] colors32
-    void _set_colors32(::Array<UnityEngine::Color32>* value);
-    // Get instance field: public System.Int32[] triangles
-    ::Array<int>* _get_triangles();
-    // Set instance field: public System.Int32[] triangles
-    void _set_triangles(::Array<int>* value);
+    // Get instance field reference: public UnityEngine.Mesh mesh
+    UnityEngine::Mesh*& dyn_mesh();
+    // Get instance field reference: public System.Int32 vertexCount
+    int& dyn_vertexCount();
+    // Get instance field reference: public UnityEngine.Vector3[] vertices
+    ::Array<UnityEngine::Vector3>*& dyn_vertices();
+    // Get instance field reference: public UnityEngine.Vector3[] normals
+    ::Array<UnityEngine::Vector3>*& dyn_normals();
+    // Get instance field reference: public UnityEngine.Vector4[] tangents
+    ::Array<UnityEngine::Vector4>*& dyn_tangents();
+    // Get instance field reference: public UnityEngine.Vector2[] uvs0
+    ::Array<UnityEngine::Vector2>*& dyn_uvs0();
+    // Get instance field reference: public UnityEngine.Vector2[] uvs2
+    ::Array<UnityEngine::Vector2>*& dyn_uvs2();
+    // Get instance field reference: public UnityEngine.Color32[] colors32
+    ::Array<UnityEngine::Color32>*& dyn_colors32();
+    // Get instance field reference: public System.Int32[] triangles
+    ::Array<int>*& dyn_triangles();
     // public System.Void .ctor(UnityEngine.Mesh mesh, System.Int32 size)
     // Offset: 0x11596E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

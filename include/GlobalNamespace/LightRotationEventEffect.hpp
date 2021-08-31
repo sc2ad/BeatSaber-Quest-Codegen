@@ -91,34 +91,20 @@ namespace GlobalNamespace {
     static float _get_kSpeedMultiplier();
     // Set static field: static private System.Single kSpeedMultiplier
     static void _set_kSpeedMultiplier(float value);
-    // Get instance field: private BeatmapEventType _event
-    GlobalNamespace::BeatmapEventType _get__event();
-    // Set instance field: private BeatmapEventType _event
-    void _set__event(GlobalNamespace::BeatmapEventType value);
-    // Get instance field: private UnityEngine.Vector3 _rotationVector
-    UnityEngine::Vector3 _get__rotationVector();
-    // Set instance field: private UnityEngine.Vector3 _rotationVector
-    void _set__rotationVector(UnityEngine::Vector3 value);
-    // Get instance field: private System.Single _rotationSpeedMultiplier
-    float _get__rotationSpeedMultiplier();
-    // Set instance field: private System.Single _rotationSpeedMultiplier
-    void _set__rotationSpeedMultiplier(float value);
-    // Get instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
-    GlobalNamespace::IBeatmapObjectCallbackController* _get__beatmapObjectCallbackController();
-    // Set instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
-    void _set__beatmapObjectCallbackController(GlobalNamespace::IBeatmapObjectCallbackController* value);
-    // Get instance field: private UnityEngine.Transform _transform
-    UnityEngine::Transform* _get__transform();
-    // Set instance field: private UnityEngine.Transform _transform
-    void _set__transform(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.Quaternion _startRotation
-    UnityEngine::Quaternion _get__startRotation();
-    // Set instance field: private UnityEngine.Quaternion _startRotation
-    void _set__startRotation(UnityEngine::Quaternion value);
-    // Get instance field: private System.Single _rotationSpeed
-    float _get__rotationSpeed();
-    // Set instance field: private System.Single _rotationSpeed
-    void _set__rotationSpeed(float value);
+    // Get instance field reference: private BeatmapEventType _event
+    GlobalNamespace::BeatmapEventType& dyn__event();
+    // Get instance field reference: private UnityEngine.Vector3 _rotationVector
+    UnityEngine::Vector3& dyn__rotationVector();
+    // Get instance field reference: private System.Single _rotationSpeedMultiplier
+    float& dyn__rotationSpeedMultiplier();
+    // Get instance field reference: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    GlobalNamespace::IBeatmapObjectCallbackController*& dyn__beatmapObjectCallbackController();
+    // Get instance field reference: private UnityEngine.Transform _transform
+    UnityEngine::Transform*& dyn__transform();
+    // Get instance field reference: private UnityEngine.Quaternion _startRotation
+    UnityEngine::Quaternion& dyn__startRotation();
+    // Get instance field reference: private System.Single _rotationSpeed
+    float& dyn__rotationSpeed();
     // protected System.Void Start()
     // Offset: 0x11FFE5C
     void Start();

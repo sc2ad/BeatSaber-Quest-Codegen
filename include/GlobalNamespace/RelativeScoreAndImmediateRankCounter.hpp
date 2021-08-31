@@ -80,30 +80,18 @@ namespace GlobalNamespace {
     RelativeScoreAndImmediateRankCounter(GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel_ = {}, GlobalNamespace::IScoreController* scoreController_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}, System::Action* relativeScoreOrImmediateRankDidChangeEvent_ = {}, float relativeScore_ = {}, GlobalNamespace::RankModel::Rank immediateRank_ = {}) noexcept : gameplayModifiersModel{gameplayModifiersModel_}, scoreController{scoreController_}, gameplayModifiers{gameplayModifiers_}, relativeScoreOrImmediateRankDidChangeEvent{relativeScoreOrImmediateRankDidChangeEvent_}, relativeScore{relativeScore_}, immediateRank{immediateRank_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private GameplayModifiersModelSO _gameplayModifiersModel
-    GlobalNamespace::GameplayModifiersModelSO* _get__gameplayModifiersModel();
-    // Set instance field: private GameplayModifiersModelSO _gameplayModifiersModel
-    void _set__gameplayModifiersModel(GlobalNamespace::GameplayModifiersModelSO* value);
-    // Get instance field: private readonly IScoreController _scoreController
-    GlobalNamespace::IScoreController* _get__scoreController();
-    // Set instance field: private readonly IScoreController _scoreController
-    void _set__scoreController(GlobalNamespace::IScoreController* value);
-    // Get instance field: private readonly GameplayModifiers _gameplayModifiers
-    GlobalNamespace::GameplayModifiers* _get__gameplayModifiers();
-    // Set instance field: private readonly GameplayModifiers _gameplayModifiers
-    void _set__gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
-    // Get instance field: private System.Action relativeScoreOrImmediateRankDidChangeEvent
-    System::Action* _get_relativeScoreOrImmediateRankDidChangeEvent();
-    // Set instance field: private System.Action relativeScoreOrImmediateRankDidChangeEvent
-    void _set_relativeScoreOrImmediateRankDidChangeEvent(System::Action* value);
-    // Get instance field: private System.Single <relativeScore>k__BackingField
-    float _get_$relativeScore$k__BackingField();
-    // Set instance field: private System.Single <relativeScore>k__BackingField
-    void _set_$relativeScore$k__BackingField(float value);
-    // Get instance field: private RankModel/Rank <immediateRank>k__BackingField
-    GlobalNamespace::RankModel::Rank _get_$immediateRank$k__BackingField();
-    // Set instance field: private RankModel/Rank <immediateRank>k__BackingField
-    void _set_$immediateRank$k__BackingField(GlobalNamespace::RankModel::Rank value);
+    // Get instance field reference: private GameplayModifiersModelSO _gameplayModifiersModel
+    GlobalNamespace::GameplayModifiersModelSO*& dyn__gameplayModifiersModel();
+    // Get instance field reference: private readonly IScoreController _scoreController
+    GlobalNamespace::IScoreController*& dyn__scoreController();
+    // Get instance field reference: private readonly GameplayModifiers _gameplayModifiers
+    GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
+    // Get instance field reference: private System.Action relativeScoreOrImmediateRankDidChangeEvent
+    System::Action*& dyn_relativeScoreOrImmediateRankDidChangeEvent();
+    // Get instance field reference: private System.Single <relativeScore>k__BackingField
+    float& dyn_$relativeScore$k__BackingField();
+    // Get instance field reference: private RankModel/Rank <immediateRank>k__BackingField
+    GlobalNamespace::RankModel::Rank& dyn_$immediateRank$k__BackingField();
     // public System.Single get_relativeScore()
     // Offset: 0x118B228
     float get_relativeScore();

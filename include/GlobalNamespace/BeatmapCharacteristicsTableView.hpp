@@ -105,38 +105,22 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private HMUI.TableView _tableView
-    HMUI::TableView* _get__tableView();
-    // Set instance field: private HMUI.TableView _tableView
-    void _set__tableView(HMUI::TableView* value);
-    // Get instance field: private BeatmapCharacteristicTableCell _cellPrefab
-    GlobalNamespace::BeatmapCharacteristicTableCell* _get__cellPrefab();
-    // Set instance field: private BeatmapCharacteristicTableCell _cellPrefab
-    void _set__cellPrefab(GlobalNamespace::BeatmapCharacteristicTableCell* value);
-    // Get instance field: private System.String _cellReuseIdentifier
-    ::Il2CppString* _get__cellReuseIdentifier();
-    // Set instance field: private System.String _cellReuseIdentifier
-    void _set__cellReuseIdentifier(::Il2CppString* value);
-    // Get instance field: private System.Single _cellWidth
-    float _get__cellWidth();
-    // Set instance field: private System.Single _cellWidth
-    void _set__cellWidth(float value);
-    // Get instance field: private System.Action`1<BeatmapCharacteristicSO> didSelectCharacteristic
-    System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>* _get_didSelectCharacteristic();
-    // Set instance field: private System.Action`1<BeatmapCharacteristicSO> didSelectCharacteristic
-    void _set_didSelectCharacteristic(System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>* value);
-    // Get instance field: private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
-    GlobalNamespace::BeatmapCharacteristicCollectionSO* _get__beatmapCharacteristicCollection();
-    // Set instance field: private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
-    void _set__beatmapCharacteristicCollection(GlobalNamespace::BeatmapCharacteristicCollectionSO* value);
-    // Get instance field: private System.Boolean _isInitialized
-    bool _get__isInitialized();
-    // Set instance field: private System.Boolean _isInitialized
-    void _set__isInitialized(bool value);
-    // Get instance field: private System.Int32 _selectedColumn
-    int _get__selectedColumn();
-    // Set instance field: private System.Int32 _selectedColumn
-    void _set__selectedColumn(int value);
+    // Get instance field reference: private HMUI.TableView _tableView
+    HMUI::TableView*& dyn__tableView();
+    // Get instance field reference: private BeatmapCharacteristicTableCell _cellPrefab
+    GlobalNamespace::BeatmapCharacteristicTableCell*& dyn__cellPrefab();
+    // Get instance field reference: private System.String _cellReuseIdentifier
+    ::Il2CppString*& dyn__cellReuseIdentifier();
+    // Get instance field reference: private System.Single _cellWidth
+    float& dyn__cellWidth();
+    // Get instance field reference: private System.Action`1<BeatmapCharacteristicSO> didSelectCharacteristic
+    System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>*& dyn_didSelectCharacteristic();
+    // Get instance field reference: private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
+    GlobalNamespace::BeatmapCharacteristicCollectionSO*& dyn__beatmapCharacteristicCollection();
+    // Get instance field reference: private System.Boolean _isInitialized
+    bool& dyn__isInitialized();
+    // Get instance field reference: private System.Int32 _selectedColumn
+    int& dyn__selectedColumn();
     // public System.Void add_didSelectCharacteristic(System.Action`1<BeatmapCharacteristicSO> value)
     // Offset: 0x11ECF68
     void add_didSelectCharacteristic(System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>* value);

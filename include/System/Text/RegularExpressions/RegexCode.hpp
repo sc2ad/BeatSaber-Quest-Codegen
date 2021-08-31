@@ -98,42 +98,24 @@ namespace System::Text::RegularExpressions {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: RegexCode
     RegexCode(::Array<int>* codes_ = {}, ::Array<::Il2CppString*>* strings_ = {}, int trackcount_ = {}, System::Collections::Hashtable* caps_ = {}, int capsize_ = {}, System::Text::RegularExpressions::RegexPrefix* fcPrefix_ = {}, System::Text::RegularExpressions::RegexBoyerMoore* bmPrefix_ = {}, int anchors_ = {}, bool rightToLeft_ = {}) noexcept : codes{codes_}, strings{strings_}, trackcount{trackcount_}, caps{caps_}, capsize{capsize_}, fcPrefix{fcPrefix_}, bmPrefix{bmPrefix_}, anchors{anchors_}, rightToLeft{rightToLeft_} {}
-    // Get instance field: System.Int32[] _codes
-    ::Array<int>* _get__codes();
-    // Set instance field: System.Int32[] _codes
-    void _set__codes(::Array<int>* value);
-    // Get instance field: System.String[] _strings
-    ::Array<::Il2CppString*>* _get__strings();
-    // Set instance field: System.String[] _strings
-    void _set__strings(::Array<::Il2CppString*>* value);
-    // Get instance field: System.Int32 _trackcount
-    int _get__trackcount();
-    // Set instance field: System.Int32 _trackcount
-    void _set__trackcount(int value);
-    // Get instance field: System.Collections.Hashtable _caps
-    System::Collections::Hashtable* _get__caps();
-    // Set instance field: System.Collections.Hashtable _caps
-    void _set__caps(System::Collections::Hashtable* value);
-    // Get instance field: System.Int32 _capsize
-    int _get__capsize();
-    // Set instance field: System.Int32 _capsize
-    void _set__capsize(int value);
-    // Get instance field: System.Text.RegularExpressions.RegexPrefix _fcPrefix
-    System::Text::RegularExpressions::RegexPrefix* _get__fcPrefix();
-    // Set instance field: System.Text.RegularExpressions.RegexPrefix _fcPrefix
-    void _set__fcPrefix(System::Text::RegularExpressions::RegexPrefix* value);
-    // Get instance field: System.Text.RegularExpressions.RegexBoyerMoore _bmPrefix
-    System::Text::RegularExpressions::RegexBoyerMoore* _get__bmPrefix();
-    // Set instance field: System.Text.RegularExpressions.RegexBoyerMoore _bmPrefix
-    void _set__bmPrefix(System::Text::RegularExpressions::RegexBoyerMoore* value);
-    // Get instance field: System.Int32 _anchors
-    int _get__anchors();
-    // Set instance field: System.Int32 _anchors
-    void _set__anchors(int value);
-    // Get instance field: System.Boolean _rightToLeft
-    bool _get__rightToLeft();
-    // Set instance field: System.Boolean _rightToLeft
-    void _set__rightToLeft(bool value);
+    // Get instance field reference: System.Int32[] _codes
+    ::Array<int>*& dyn__codes();
+    // Get instance field reference: System.String[] _strings
+    ::Array<::Il2CppString*>*& dyn__strings();
+    // Get instance field reference: System.Int32 _trackcount
+    int& dyn__trackcount();
+    // Get instance field reference: System.Collections.Hashtable _caps
+    System::Collections::Hashtable*& dyn__caps();
+    // Get instance field reference: System.Int32 _capsize
+    int& dyn__capsize();
+    // Get instance field reference: System.Text.RegularExpressions.RegexPrefix _fcPrefix
+    System::Text::RegularExpressions::RegexPrefix*& dyn__fcPrefix();
+    // Get instance field reference: System.Text.RegularExpressions.RegexBoyerMoore _bmPrefix
+    System::Text::RegularExpressions::RegexBoyerMoore*& dyn__bmPrefix();
+    // Get instance field reference: System.Int32 _anchors
+    int& dyn__anchors();
+    // Get instance field reference: System.Boolean _rightToLeft
+    bool& dyn__rightToLeft();
     // System.Void .ctor(System.Int32[] codes, System.Collections.Generic.List`1<System.String> stringlist, System.Int32 trackcount, System.Collections.Hashtable caps, System.Int32 capsize, System.Text.RegularExpressions.RegexBoyerMoore bmPrefix, System.Text.RegularExpressions.RegexPrefix fcPrefix, System.Int32 anchors, System.Boolean rightToLeft)
     // Offset: 0x1996308
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

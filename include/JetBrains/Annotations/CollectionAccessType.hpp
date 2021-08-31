@@ -57,10 +57,8 @@ namespace JetBrains::Annotations {
     static JetBrains::Annotations::CollectionAccessType _get_UpdatedContent();
     // Set static field: static public JetBrains.Annotations.CollectionAccessType UpdatedContent
     static void _set_UpdatedContent(JetBrains::Annotations::CollectionAccessType value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // JetBrains.Annotations.CollectionAccessType
   #pragma pack(pop)
   static check_size<sizeof(CollectionAccessType), 0 + sizeof(int)> __JetBrains_Annotations_CollectionAccessTypeSizeCheck;

@@ -288,138 +288,72 @@ namespace Mono::Unity {
     static_assert(sizeof(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_random_generate_bytes_t*) == 0x8);
     // Creating value type constructor for type: unitytls_interface_struct
     unitytls_interface_struct(uint64_t UNITYTLS_INVALID_HANDLE_ = {}, Mono::Unity::UnityTls::unitytls_tlsctx_protocolrange UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_errorstate_create_t* unitytls_errorstate_create_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_errorstate_raise_error_t* unitytls_errorstate_raise_error_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_key_get_ref_t* unitytls_key_get_ref_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_key_parse_der_t* unitytls_key_parse_der_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_key_parse_pem_t* unitytls_key_parse_pem_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_key_free_t* unitytls_key_free_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509_export_der_t* unitytls_x509_export_der_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_get_ref_t* unitytls_x509list_get_ref_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_get_x509_t* unitytls_x509list_get_x509_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_create_t* unitytls_x509list_create_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_append_t* unitytls_x509list_append_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_append_der_t* unitytls_x509list_append_der_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_append_der_t* unitytls_x509list_append_pem_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_free_t* unitytls_x509list_free_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509verify_default_ca_t* unitytls_x509verify_default_ca_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509verify_explicit_ca_t* unitytls_x509verify_explicit_ca_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_create_server_t* unitytls_tlsctx_create_server_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_create_client_t* unitytls_tlsctx_create_client_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_server_require_client_authentication_t* unitytls_tlsctx_server_require_client_authentication_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_certificate_callback_t* unitytls_tlsctx_set_certificate_callback_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_trace_callback_t* unitytls_tlsctx_set_trace_callback_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_x509verify_callback_t* unitytls_tlsctx_set_x509verify_callback_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_supported_ciphersuites_t* unitytls_tlsctx_set_supported_ciphersuites_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_get_ciphersuite_t* unitytls_tlsctx_get_ciphersuite_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_get_protocol_t* unitytls_tlsctx_get_protocol_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_process_handshake_t* unitytls_tlsctx_process_handshake_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_read_t* unitytls_tlsctx_read_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_write_t* unitytls_tlsctx_write_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_notify_close_t* unitytls_tlsctx_notify_close_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_free_t* unitytls_tlsctx_free_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_random_generate_bytes_t* unitytls_random_generate_bytes_ = {}) noexcept : UNITYTLS_INVALID_HANDLE{UNITYTLS_INVALID_HANDLE_}, UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT{UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT_}, unitytls_errorstate_create{unitytls_errorstate_create_}, unitytls_errorstate_raise_error{unitytls_errorstate_raise_error_}, unitytls_key_get_ref{unitytls_key_get_ref_}, unitytls_key_parse_der{unitytls_key_parse_der_}, unitytls_key_parse_pem{unitytls_key_parse_pem_}, unitytls_key_free{unitytls_key_free_}, unitytls_x509_export_der{unitytls_x509_export_der_}, unitytls_x509list_get_ref{unitytls_x509list_get_ref_}, unitytls_x509list_get_x509{unitytls_x509list_get_x509_}, unitytls_x509list_create{unitytls_x509list_create_}, unitytls_x509list_append{unitytls_x509list_append_}, unitytls_x509list_append_der{unitytls_x509list_append_der_}, unitytls_x509list_append_pem{unitytls_x509list_append_pem_}, unitytls_x509list_free{unitytls_x509list_free_}, unitytls_x509verify_default_ca{unitytls_x509verify_default_ca_}, unitytls_x509verify_explicit_ca{unitytls_x509verify_explicit_ca_}, unitytls_tlsctx_create_server{unitytls_tlsctx_create_server_}, unitytls_tlsctx_create_client{unitytls_tlsctx_create_client_}, unitytls_tlsctx_server_require_client_authentication{unitytls_tlsctx_server_require_client_authentication_}, unitytls_tlsctx_set_certificate_callback{unitytls_tlsctx_set_certificate_callback_}, unitytls_tlsctx_set_trace_callback{unitytls_tlsctx_set_trace_callback_}, unitytls_tlsctx_set_x509verify_callback{unitytls_tlsctx_set_x509verify_callback_}, unitytls_tlsctx_set_supported_ciphersuites{unitytls_tlsctx_set_supported_ciphersuites_}, unitytls_tlsctx_get_ciphersuite{unitytls_tlsctx_get_ciphersuite_}, unitytls_tlsctx_get_protocol{unitytls_tlsctx_get_protocol_}, unitytls_tlsctx_process_handshake{unitytls_tlsctx_process_handshake_}, unitytls_tlsctx_read{unitytls_tlsctx_read_}, unitytls_tlsctx_write{unitytls_tlsctx_write_}, unitytls_tlsctx_notify_close{unitytls_tlsctx_notify_close_}, unitytls_tlsctx_free{unitytls_tlsctx_free_}, unitytls_random_generate_bytes{unitytls_random_generate_bytes_} {}
-    // Get instance field: public readonly System.UInt64 UNITYTLS_INVALID_HANDLE
-    uint64_t _get_UNITYTLS_INVALID_HANDLE();
-    // Set instance field: public readonly System.UInt64 UNITYTLS_INVALID_HANDLE
-    void _set_UNITYTLS_INVALID_HANDLE(uint64_t value);
-    // Get instance field: public readonly Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx_protocolrange UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT
-    Mono::Unity::UnityTls::unitytls_tlsctx_protocolrange _get_UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT();
-    // Set instance field: public readonly Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx_protocolrange UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT
-    void _set_UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT(Mono::Unity::UnityTls::unitytls_tlsctx_protocolrange value);
-    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_errorstate_create_t unitytls_errorstate_create
-    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_errorstate_create_t* _get_unitytls_errorstate_create();
-    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_errorstate_create_t unitytls_errorstate_create
-    void _set_unitytls_errorstate_create(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_errorstate_create_t* value);
-    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_errorstate_raise_error_t unitytls_errorstate_raise_error
-    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_errorstate_raise_error_t* _get_unitytls_errorstate_raise_error();
-    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_errorstate_raise_error_t unitytls_errorstate_raise_error
-    void _set_unitytls_errorstate_raise_error(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_errorstate_raise_error_t* value);
-    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_key_get_ref_t unitytls_key_get_ref
-    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_key_get_ref_t* _get_unitytls_key_get_ref();
-    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_key_get_ref_t unitytls_key_get_ref
-    void _set_unitytls_key_get_ref(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_key_get_ref_t* value);
-    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_key_parse_der_t unitytls_key_parse_der
-    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_key_parse_der_t* _get_unitytls_key_parse_der();
-    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_key_parse_der_t unitytls_key_parse_der
-    void _set_unitytls_key_parse_der(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_key_parse_der_t* value);
-    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_key_parse_pem_t unitytls_key_parse_pem
-    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_key_parse_pem_t* _get_unitytls_key_parse_pem();
-    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_key_parse_pem_t unitytls_key_parse_pem
-    void _set_unitytls_key_parse_pem(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_key_parse_pem_t* value);
-    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_key_free_t unitytls_key_free
-    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_key_free_t* _get_unitytls_key_free();
-    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_key_free_t unitytls_key_free
-    void _set_unitytls_key_free(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_key_free_t* value);
-    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509_export_der_t unitytls_x509_export_der
-    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509_export_der_t* _get_unitytls_x509_export_der();
-    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509_export_der_t unitytls_x509_export_der
-    void _set_unitytls_x509_export_der(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509_export_der_t* value);
-    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509list_get_ref_t unitytls_x509list_get_ref
-    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_get_ref_t* _get_unitytls_x509list_get_ref();
-    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509list_get_ref_t unitytls_x509list_get_ref
-    void _set_unitytls_x509list_get_ref(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_get_ref_t* value);
-    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509list_get_x509_t unitytls_x509list_get_x509
-    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_get_x509_t* _get_unitytls_x509list_get_x509();
-    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509list_get_x509_t unitytls_x509list_get_x509
-    void _set_unitytls_x509list_get_x509(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_get_x509_t* value);
-    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509list_create_t unitytls_x509list_create
-    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_create_t* _get_unitytls_x509list_create();
-    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509list_create_t unitytls_x509list_create
-    void _set_unitytls_x509list_create(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_create_t* value);
-    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509list_append_t unitytls_x509list_append
-    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_append_t* _get_unitytls_x509list_append();
-    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509list_append_t unitytls_x509list_append
-    void _set_unitytls_x509list_append(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_append_t* value);
-    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509list_append_der_t unitytls_x509list_append_der
-    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_append_der_t* _get_unitytls_x509list_append_der();
-    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509list_append_der_t unitytls_x509list_append_der
-    void _set_unitytls_x509list_append_der(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_append_der_t* value);
-    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509list_append_der_t unitytls_x509list_append_pem
-    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_append_der_t* _get_unitytls_x509list_append_pem();
-    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509list_append_der_t unitytls_x509list_append_pem
-    void _set_unitytls_x509list_append_pem(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_append_der_t* value);
-    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509list_free_t unitytls_x509list_free
-    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_free_t* _get_unitytls_x509list_free();
-    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509list_free_t unitytls_x509list_free
-    void _set_unitytls_x509list_free(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_free_t* value);
-    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509verify_default_ca_t unitytls_x509verify_default_ca
-    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509verify_default_ca_t* _get_unitytls_x509verify_default_ca();
-    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509verify_default_ca_t unitytls_x509verify_default_ca
-    void _set_unitytls_x509verify_default_ca(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509verify_default_ca_t* value);
-    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509verify_explicit_ca_t unitytls_x509verify_explicit_ca
-    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509verify_explicit_ca_t* _get_unitytls_x509verify_explicit_ca();
-    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509verify_explicit_ca_t unitytls_x509verify_explicit_ca
-    void _set_unitytls_x509verify_explicit_ca(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509verify_explicit_ca_t* value);
-    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_create_server_t unitytls_tlsctx_create_server
-    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_create_server_t* _get_unitytls_tlsctx_create_server();
-    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_create_server_t unitytls_tlsctx_create_server
-    void _set_unitytls_tlsctx_create_server(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_create_server_t* value);
-    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_create_client_t unitytls_tlsctx_create_client
-    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_create_client_t* _get_unitytls_tlsctx_create_client();
-    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_create_client_t unitytls_tlsctx_create_client
-    void _set_unitytls_tlsctx_create_client(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_create_client_t* value);
-    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_server_require_client_authentication_t unitytls_tlsctx_server_require_client_authentication
-    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_server_require_client_authentication_t* _get_unitytls_tlsctx_server_require_client_authentication();
-    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_server_require_client_authentication_t unitytls_tlsctx_server_require_client_authentication
-    void _set_unitytls_tlsctx_server_require_client_authentication(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_server_require_client_authentication_t* value);
-    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_set_certificate_callback_t unitytls_tlsctx_set_certificate_callback
-    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_certificate_callback_t* _get_unitytls_tlsctx_set_certificate_callback();
-    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_set_certificate_callback_t unitytls_tlsctx_set_certificate_callback
-    void _set_unitytls_tlsctx_set_certificate_callback(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_certificate_callback_t* value);
-    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_set_trace_callback_t unitytls_tlsctx_set_trace_callback
-    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_trace_callback_t* _get_unitytls_tlsctx_set_trace_callback();
-    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_set_trace_callback_t unitytls_tlsctx_set_trace_callback
-    void _set_unitytls_tlsctx_set_trace_callback(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_trace_callback_t* value);
-    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_set_x509verify_callback_t unitytls_tlsctx_set_x509verify_callback
-    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_x509verify_callback_t* _get_unitytls_tlsctx_set_x509verify_callback();
-    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_set_x509verify_callback_t unitytls_tlsctx_set_x509verify_callback
-    void _set_unitytls_tlsctx_set_x509verify_callback(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_x509verify_callback_t* value);
-    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_set_supported_ciphersuites_t unitytls_tlsctx_set_supported_ciphersuites
-    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_supported_ciphersuites_t* _get_unitytls_tlsctx_set_supported_ciphersuites();
-    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_set_supported_ciphersuites_t unitytls_tlsctx_set_supported_ciphersuites
-    void _set_unitytls_tlsctx_set_supported_ciphersuites(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_supported_ciphersuites_t* value);
-    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_get_ciphersuite_t unitytls_tlsctx_get_ciphersuite
-    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_get_ciphersuite_t* _get_unitytls_tlsctx_get_ciphersuite();
-    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_get_ciphersuite_t unitytls_tlsctx_get_ciphersuite
-    void _set_unitytls_tlsctx_get_ciphersuite(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_get_ciphersuite_t* value);
-    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_get_protocol_t unitytls_tlsctx_get_protocol
-    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_get_protocol_t* _get_unitytls_tlsctx_get_protocol();
-    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_get_protocol_t unitytls_tlsctx_get_protocol
-    void _set_unitytls_tlsctx_get_protocol(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_get_protocol_t* value);
-    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_process_handshake_t unitytls_tlsctx_process_handshake
-    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_process_handshake_t* _get_unitytls_tlsctx_process_handshake();
-    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_process_handshake_t unitytls_tlsctx_process_handshake
-    void _set_unitytls_tlsctx_process_handshake(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_process_handshake_t* value);
-    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_read_t unitytls_tlsctx_read
-    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_read_t* _get_unitytls_tlsctx_read();
-    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_read_t unitytls_tlsctx_read
-    void _set_unitytls_tlsctx_read(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_read_t* value);
-    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_write_t unitytls_tlsctx_write
-    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_write_t* _get_unitytls_tlsctx_write();
-    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_write_t unitytls_tlsctx_write
-    void _set_unitytls_tlsctx_write(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_write_t* value);
-    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_notify_close_t unitytls_tlsctx_notify_close
-    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_notify_close_t* _get_unitytls_tlsctx_notify_close();
-    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_notify_close_t unitytls_tlsctx_notify_close
-    void _set_unitytls_tlsctx_notify_close(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_notify_close_t* value);
-    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_free_t unitytls_tlsctx_free
-    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_free_t* _get_unitytls_tlsctx_free();
-    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_free_t unitytls_tlsctx_free
-    void _set_unitytls_tlsctx_free(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_free_t* value);
-    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_random_generate_bytes_t unitytls_random_generate_bytes
-    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_random_generate_bytes_t* _get_unitytls_random_generate_bytes();
-    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_random_generate_bytes_t unitytls_random_generate_bytes
-    void _set_unitytls_random_generate_bytes(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_random_generate_bytes_t* value);
+    // Get instance field reference: public readonly System.UInt64 UNITYTLS_INVALID_HANDLE
+    uint64_t& dyn_UNITYTLS_INVALID_HANDLE();
+    // Get instance field reference: public readonly Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx_protocolrange UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT
+    Mono::Unity::UnityTls::unitytls_tlsctx_protocolrange& dyn_UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT();
+    // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_errorstate_create_t unitytls_errorstate_create
+    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_errorstate_create_t*& dyn_unitytls_errorstate_create();
+    // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_errorstate_raise_error_t unitytls_errorstate_raise_error
+    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_errorstate_raise_error_t*& dyn_unitytls_errorstate_raise_error();
+    // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_key_get_ref_t unitytls_key_get_ref
+    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_key_get_ref_t*& dyn_unitytls_key_get_ref();
+    // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_key_parse_der_t unitytls_key_parse_der
+    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_key_parse_der_t*& dyn_unitytls_key_parse_der();
+    // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_key_parse_pem_t unitytls_key_parse_pem
+    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_key_parse_pem_t*& dyn_unitytls_key_parse_pem();
+    // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_key_free_t unitytls_key_free
+    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_key_free_t*& dyn_unitytls_key_free();
+    // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509_export_der_t unitytls_x509_export_der
+    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509_export_der_t*& dyn_unitytls_x509_export_der();
+    // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509list_get_ref_t unitytls_x509list_get_ref
+    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_get_ref_t*& dyn_unitytls_x509list_get_ref();
+    // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509list_get_x509_t unitytls_x509list_get_x509
+    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_get_x509_t*& dyn_unitytls_x509list_get_x509();
+    // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509list_create_t unitytls_x509list_create
+    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_create_t*& dyn_unitytls_x509list_create();
+    // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509list_append_t unitytls_x509list_append
+    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_append_t*& dyn_unitytls_x509list_append();
+    // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509list_append_der_t unitytls_x509list_append_der
+    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_append_der_t*& dyn_unitytls_x509list_append_der();
+    // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509list_append_der_t unitytls_x509list_append_pem
+    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_append_der_t*& dyn_unitytls_x509list_append_pem();
+    // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509list_free_t unitytls_x509list_free
+    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_free_t*& dyn_unitytls_x509list_free();
+    // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509verify_default_ca_t unitytls_x509verify_default_ca
+    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509verify_default_ca_t*& dyn_unitytls_x509verify_default_ca();
+    // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509verify_explicit_ca_t unitytls_x509verify_explicit_ca
+    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509verify_explicit_ca_t*& dyn_unitytls_x509verify_explicit_ca();
+    // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_create_server_t unitytls_tlsctx_create_server
+    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_create_server_t*& dyn_unitytls_tlsctx_create_server();
+    // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_create_client_t unitytls_tlsctx_create_client
+    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_create_client_t*& dyn_unitytls_tlsctx_create_client();
+    // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_server_require_client_authentication_t unitytls_tlsctx_server_require_client_authentication
+    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_server_require_client_authentication_t*& dyn_unitytls_tlsctx_server_require_client_authentication();
+    // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_set_certificate_callback_t unitytls_tlsctx_set_certificate_callback
+    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_certificate_callback_t*& dyn_unitytls_tlsctx_set_certificate_callback();
+    // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_set_trace_callback_t unitytls_tlsctx_set_trace_callback
+    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_trace_callback_t*& dyn_unitytls_tlsctx_set_trace_callback();
+    // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_set_x509verify_callback_t unitytls_tlsctx_set_x509verify_callback
+    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_x509verify_callback_t*& dyn_unitytls_tlsctx_set_x509verify_callback();
+    // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_set_supported_ciphersuites_t unitytls_tlsctx_set_supported_ciphersuites
+    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_supported_ciphersuites_t*& dyn_unitytls_tlsctx_set_supported_ciphersuites();
+    // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_get_ciphersuite_t unitytls_tlsctx_get_ciphersuite
+    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_get_ciphersuite_t*& dyn_unitytls_tlsctx_get_ciphersuite();
+    // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_get_protocol_t unitytls_tlsctx_get_protocol
+    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_get_protocol_t*& dyn_unitytls_tlsctx_get_protocol();
+    // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_process_handshake_t unitytls_tlsctx_process_handshake
+    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_process_handshake_t*& dyn_unitytls_tlsctx_process_handshake();
+    // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_read_t unitytls_tlsctx_read
+    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_read_t*& dyn_unitytls_tlsctx_read();
+    // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_write_t unitytls_tlsctx_write
+    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_write_t*& dyn_unitytls_tlsctx_write();
+    // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_notify_close_t unitytls_tlsctx_notify_close
+    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_notify_close_t*& dyn_unitytls_tlsctx_notify_close();
+    // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_free_t unitytls_tlsctx_free
+    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_free_t*& dyn_unitytls_tlsctx_free();
+    // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_random_generate_bytes_t unitytls_random_generate_bytes
+    Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_random_generate_bytes_t*& dyn_unitytls_random_generate_bytes();
     // public System.Void .ctor()
     // Offset: 0x15EDD34
     // Implemented from: System.Object

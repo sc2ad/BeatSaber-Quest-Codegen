@@ -86,26 +86,16 @@ namespace Zenject {
     static System::Func_2<Zenject::InjectTypeInfo::InjectMethodInfo*, System::Collections::Generic::IEnumerable_1<Zenject::InjectableInfo*>*>* _get_CS$$$9__CachedAnonymousMethodDelegate3();
     // Set static field: static private System.Func`2<Zenject.InjectTypeInfo/Zenject.InjectMethodInfo,System.Collections.Generic.IEnumerable`1<Zenject.InjectableInfo>> CS$<>9__CachedAnonymousMethodDelegate3
     static void _set_CS$$$9__CachedAnonymousMethodDelegate3(System::Func_2<Zenject::InjectTypeInfo::InjectMethodInfo*, System::Collections::Generic::IEnumerable_1<Zenject::InjectableInfo*>*>* value);
-    // Get instance field: public readonly System.Type Type
-    System::Type* _get_Type();
-    // Set instance field: public readonly System.Type Type
-    void _set_Type(System::Type* value);
-    // Get instance field: public readonly Zenject.InjectTypeInfo/Zenject.InjectMethodInfo[] InjectMethods
-    ::Array<Zenject::InjectTypeInfo::InjectMethodInfo*>* _get_InjectMethods();
-    // Set instance field: public readonly Zenject.InjectTypeInfo/Zenject.InjectMethodInfo[] InjectMethods
-    void _set_InjectMethods(::Array<Zenject::InjectTypeInfo::InjectMethodInfo*>* value);
-    // Get instance field: public readonly Zenject.InjectTypeInfo/Zenject.InjectMemberInfo[] InjectMembers
-    ::Array<Zenject::InjectTypeInfo::InjectMemberInfo*>* _get_InjectMembers();
-    // Set instance field: public readonly Zenject.InjectTypeInfo/Zenject.InjectMemberInfo[] InjectMembers
-    void _set_InjectMembers(::Array<Zenject::InjectTypeInfo::InjectMemberInfo*>* value);
-    // Get instance field: public readonly Zenject.InjectTypeInfo/Zenject.InjectConstructorInfo InjectConstructor
-    Zenject::InjectTypeInfo::InjectConstructorInfo* _get_InjectConstructor();
-    // Set instance field: public readonly Zenject.InjectTypeInfo/Zenject.InjectConstructorInfo InjectConstructor
-    void _set_InjectConstructor(Zenject::InjectTypeInfo::InjectConstructorInfo* value);
-    // Get instance field: private Zenject.InjectTypeInfo <BaseTypeInfo>k__BackingField
-    Zenject::InjectTypeInfo* _get_$BaseTypeInfo$k__BackingField();
-    // Set instance field: private Zenject.InjectTypeInfo <BaseTypeInfo>k__BackingField
-    void _set_$BaseTypeInfo$k__BackingField(Zenject::InjectTypeInfo* value);
+    // Get instance field reference: public readonly System.Type Type
+    System::Type*& dyn_Type();
+    // Get instance field reference: public readonly Zenject.InjectTypeInfo/Zenject.InjectMethodInfo[] InjectMethods
+    ::Array<Zenject::InjectTypeInfo::InjectMethodInfo*>*& dyn_InjectMethods();
+    // Get instance field reference: public readonly Zenject.InjectTypeInfo/Zenject.InjectMemberInfo[] InjectMembers
+    ::Array<Zenject::InjectTypeInfo::InjectMemberInfo*>*& dyn_InjectMembers();
+    // Get instance field reference: public readonly Zenject.InjectTypeInfo/Zenject.InjectConstructorInfo InjectConstructor
+    Zenject::InjectTypeInfo::InjectConstructorInfo*& dyn_InjectConstructor();
+    // Get instance field reference: private Zenject.InjectTypeInfo <BaseTypeInfo>k__BackingField
+    Zenject::InjectTypeInfo*& dyn_$BaseTypeInfo$k__BackingField();
     // public Zenject.InjectTypeInfo get_BaseTypeInfo()
     // Offset: 0x2408BA0
     Zenject::InjectTypeInfo* get_BaseTypeInfo();

@@ -72,10 +72,8 @@ namespace RootMotion::FinalIK {
       static RootMotion::FinalIK::Finger::DOF _get_Three();
       // Set static field: static public RootMotion.FinalIK.Finger/RootMotion.FinalIK.DOF Three
       static void _set_Three(RootMotion::FinalIK::Finger::DOF value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // RootMotion.FinalIK.Finger/RootMotion.FinalIK.DOF
     #pragma pack(pop)
     static check_size<sizeof(Finger::DOF), 0 + sizeof(int)> __RootMotion_FinalIK_Finger_DOFSizeCheck;
@@ -199,74 +197,40 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Creating value type constructor for type: Finger
     Finger(float weight_ = {}, float rotationWeight_ = {}, RootMotion::FinalIK::Finger::DOF rotationDOF_ = {}, bool fixBone1Twist_ = {}, UnityEngine::Transform* bone1_ = {}, UnityEngine::Transform* bone2_ = {}, UnityEngine::Transform* bone3_ = {}, UnityEngine::Transform* tip_ = {}, UnityEngine::Transform* target_ = {}, bool initiated_ = {}, RootMotion::FinalIK::IKSolverLimb* solver_ = {}, UnityEngine::Quaternion bone3RelativeToTarget_ = {}, UnityEngine::Vector3 bone3DefaultLocalPosition_ = {}, UnityEngine::Quaternion bone3DefaultLocalRotation_ = {}, UnityEngine::Vector3 bone1Axis_ = {}, UnityEngine::Vector3 tipAxis_ = {}, UnityEngine::Vector3 bone1TwistAxis_ = {}) noexcept : weight{weight_}, rotationWeight{rotationWeight_}, rotationDOF{rotationDOF_}, fixBone1Twist{fixBone1Twist_}, bone1{bone1_}, bone2{bone2_}, bone3{bone3_}, tip{tip_}, target{target_}, initiated{initiated_}, solver{solver_}, bone3RelativeToTarget{bone3RelativeToTarget_}, bone3DefaultLocalPosition{bone3DefaultLocalPosition_}, bone3DefaultLocalRotation{bone3DefaultLocalRotation_}, bone1Axis{bone1Axis_}, tipAxis{tipAxis_}, bone1TwistAxis{bone1TwistAxis_} {}
-    // Get instance field: public System.Single weight
-    float _get_weight();
-    // Set instance field: public System.Single weight
-    void _set_weight(float value);
-    // Get instance field: public System.Single rotationWeight
-    float _get_rotationWeight();
-    // Set instance field: public System.Single rotationWeight
-    void _set_rotationWeight(float value);
-    // Get instance field: public RootMotion.FinalIK.Finger/RootMotion.FinalIK.DOF rotationDOF
-    RootMotion::FinalIK::Finger::DOF _get_rotationDOF();
-    // Set instance field: public RootMotion.FinalIK.Finger/RootMotion.FinalIK.DOF rotationDOF
-    void _set_rotationDOF(RootMotion::FinalIK::Finger::DOF value);
-    // Get instance field: public System.Boolean fixBone1Twist
-    bool _get_fixBone1Twist();
-    // Set instance field: public System.Boolean fixBone1Twist
-    void _set_fixBone1Twist(bool value);
-    // Get instance field: public UnityEngine.Transform bone1
-    UnityEngine::Transform* _get_bone1();
-    // Set instance field: public UnityEngine.Transform bone1
-    void _set_bone1(UnityEngine::Transform* value);
-    // Get instance field: public UnityEngine.Transform bone2
-    UnityEngine::Transform* _get_bone2();
-    // Set instance field: public UnityEngine.Transform bone2
-    void _set_bone2(UnityEngine::Transform* value);
-    // Get instance field: public UnityEngine.Transform bone3
-    UnityEngine::Transform* _get_bone3();
-    // Set instance field: public UnityEngine.Transform bone3
-    void _set_bone3(UnityEngine::Transform* value);
-    // Get instance field: public UnityEngine.Transform tip
-    UnityEngine::Transform* _get_tip();
-    // Set instance field: public UnityEngine.Transform tip
-    void _set_tip(UnityEngine::Transform* value);
-    // Get instance field: public UnityEngine.Transform target
-    UnityEngine::Transform* _get_target();
-    // Set instance field: public UnityEngine.Transform target
-    void _set_target(UnityEngine::Transform* value);
-    // Get instance field: private System.Boolean <initiated>k__BackingField
-    bool _get_$initiated$k__BackingField();
-    // Set instance field: private System.Boolean <initiated>k__BackingField
-    void _set_$initiated$k__BackingField(bool value);
-    // Get instance field: private RootMotion.FinalIK.IKSolverLimb solver
-    RootMotion::FinalIK::IKSolverLimb* _get_solver();
-    // Set instance field: private RootMotion.FinalIK.IKSolverLimb solver
-    void _set_solver(RootMotion::FinalIK::IKSolverLimb* value);
-    // Get instance field: private UnityEngine.Quaternion bone3RelativeToTarget
-    UnityEngine::Quaternion _get_bone3RelativeToTarget();
-    // Set instance field: private UnityEngine.Quaternion bone3RelativeToTarget
-    void _set_bone3RelativeToTarget(UnityEngine::Quaternion value);
-    // Get instance field: private UnityEngine.Vector3 bone3DefaultLocalPosition
-    UnityEngine::Vector3 _get_bone3DefaultLocalPosition();
-    // Set instance field: private UnityEngine.Vector3 bone3DefaultLocalPosition
-    void _set_bone3DefaultLocalPosition(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Quaternion bone3DefaultLocalRotation
-    UnityEngine::Quaternion _get_bone3DefaultLocalRotation();
-    // Set instance field: private UnityEngine.Quaternion bone3DefaultLocalRotation
-    void _set_bone3DefaultLocalRotation(UnityEngine::Quaternion value);
-    // Get instance field: private UnityEngine.Vector3 bone1Axis
-    UnityEngine::Vector3 _get_bone1Axis();
-    // Set instance field: private UnityEngine.Vector3 bone1Axis
-    void _set_bone1Axis(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 tipAxis
-    UnityEngine::Vector3 _get_tipAxis();
-    // Set instance field: private UnityEngine.Vector3 tipAxis
-    void _set_tipAxis(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 bone1TwistAxis
-    UnityEngine::Vector3 _get_bone1TwistAxis();
-    // Set instance field: private UnityEngine.Vector3 bone1TwistAxis
-    void _set_bone1TwistAxis(UnityEngine::Vector3 value);
+    // Get instance field reference: public System.Single weight
+    float& dyn_weight();
+    // Get instance field reference: public System.Single rotationWeight
+    float& dyn_rotationWeight();
+    // Get instance field reference: public RootMotion.FinalIK.Finger/RootMotion.FinalIK.DOF rotationDOF
+    RootMotion::FinalIK::Finger::DOF& dyn_rotationDOF();
+    // Get instance field reference: public System.Boolean fixBone1Twist
+    bool& dyn_fixBone1Twist();
+    // Get instance field reference: public UnityEngine.Transform bone1
+    UnityEngine::Transform*& dyn_bone1();
+    // Get instance field reference: public UnityEngine.Transform bone2
+    UnityEngine::Transform*& dyn_bone2();
+    // Get instance field reference: public UnityEngine.Transform bone3
+    UnityEngine::Transform*& dyn_bone3();
+    // Get instance field reference: public UnityEngine.Transform tip
+    UnityEngine::Transform*& dyn_tip();
+    // Get instance field reference: public UnityEngine.Transform target
+    UnityEngine::Transform*& dyn_target();
+    // Get instance field reference: private System.Boolean <initiated>k__BackingField
+    bool& dyn_$initiated$k__BackingField();
+    // Get instance field reference: private RootMotion.FinalIK.IKSolverLimb solver
+    RootMotion::FinalIK::IKSolverLimb*& dyn_solver();
+    // Get instance field reference: private UnityEngine.Quaternion bone3RelativeToTarget
+    UnityEngine::Quaternion& dyn_bone3RelativeToTarget();
+    // Get instance field reference: private UnityEngine.Vector3 bone3DefaultLocalPosition
+    UnityEngine::Vector3& dyn_bone3DefaultLocalPosition();
+    // Get instance field reference: private UnityEngine.Quaternion bone3DefaultLocalRotation
+    UnityEngine::Quaternion& dyn_bone3DefaultLocalRotation();
+    // Get instance field reference: private UnityEngine.Vector3 bone1Axis
+    UnityEngine::Vector3& dyn_bone1Axis();
+    // Get instance field reference: private UnityEngine.Vector3 tipAxis
+    UnityEngine::Vector3& dyn_tipAxis();
+    // Get instance field reference: private UnityEngine.Vector3 bone1TwistAxis
+    UnityEngine::Vector3& dyn_bone1TwistAxis();
     // public System.Boolean get_initiated()
     // Offset: 0x1D39F30
     bool get_initiated();

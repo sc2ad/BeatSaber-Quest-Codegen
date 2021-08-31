@@ -216,90 +216,48 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<GlobalNamespace::IBeatmapLevelPack*>*) == 0x8);
     // Creating value type constructor for type: LevelFilteringNavigationController
     LevelFilteringNavigationController(UnityEngine::GameObject* emptyFavoritesListInfoPrefab_ = {}, UnityEngine::GameObject* emptyCustomSongListInfoPrefab_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, GlobalNamespace::SelectLevelCategoryViewController* selectLevelCategoryViewController_ = {}, GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController* annotatedBeatmapLevelCollectionsViewController_ = {}, GlobalNamespace::LevelSearchViewController* levelSearchViewController_ = {}, GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel_ = {}, System::Action_4<GlobalNamespace::LevelFilteringNavigationController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, UnityEngine::GameObject*, GlobalNamespace::BeatmapCharacteristicSO*>* didSelectAnnotatedBeatmapLevelCollectionEvent_ = {}, System::Action_1<GlobalNamespace::LevelFilteringNavigationController*>* didStartLoadingEvent_ = {}, System::Action_1<GlobalNamespace::LevelFilteringNavigationController*>* didPressAllSongsEvent_ = {}, System::Threading::CancellationTokenSource* cancellationTokenSource_ = {}, UnityEngine::GameObject* currentNoDataInfoPrefab_ = {}, ::Il2CppString* levelPackIdToBeSelectedAfterPresent_ = {}, bool hidePacksIfOneOrNone_ = {}, bool enableCustomLevels_ = {}, GlobalNamespace::SongPackMask songPackMask_ = {}, ::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* enabledLevelCategories_ = {}, ::Array<GlobalNamespace::IBeatmapLevelPack*>* ostBeatmapLevelPacks_ = {}, ::Array<GlobalNamespace::IBeatmapLevelPack*>* musicPacksBeatmapLevelPacks_ = {}, ::Array<GlobalNamespace::IBeatmapLevelPack*>* customLevelPacks_ = {}, ::Array<GlobalNamespace::IBeatmapLevelPack*>* allBeatmapLevelPacks_ = {}) noexcept : emptyFavoritesListInfoPrefab{emptyFavoritesListInfoPrefab_}, emptyCustomSongListInfoPrefab{emptyCustomSongListInfoPrefab_}, playerDataModel{playerDataModel_}, selectLevelCategoryViewController{selectLevelCategoryViewController_}, annotatedBeatmapLevelCollectionsViewController{annotatedBeatmapLevelCollectionsViewController_}, levelSearchViewController{levelSearchViewController_}, beatmapLevelsModel{beatmapLevelsModel_}, didSelectAnnotatedBeatmapLevelCollectionEvent{didSelectAnnotatedBeatmapLevelCollectionEvent_}, didStartLoadingEvent{didStartLoadingEvent_}, didPressAllSongsEvent{didPressAllSongsEvent_}, cancellationTokenSource{cancellationTokenSource_}, currentNoDataInfoPrefab{currentNoDataInfoPrefab_}, levelPackIdToBeSelectedAfterPresent{levelPackIdToBeSelectedAfterPresent_}, hidePacksIfOneOrNone{hidePacksIfOneOrNone_}, enableCustomLevels{enableCustomLevels_}, songPackMask{songPackMask_}, enabledLevelCategories{enabledLevelCategories_}, ostBeatmapLevelPacks{ostBeatmapLevelPacks_}, musicPacksBeatmapLevelPacks{musicPacksBeatmapLevelPacks_}, customLevelPacks{customLevelPacks_}, allBeatmapLevelPacks{allBeatmapLevelPacks_} {}
-    // Get instance field: private UnityEngine.GameObject _emptyFavoritesListInfoPrefab
-    UnityEngine::GameObject* _get__emptyFavoritesListInfoPrefab();
-    // Set instance field: private UnityEngine.GameObject _emptyFavoritesListInfoPrefab
-    void _set__emptyFavoritesListInfoPrefab(UnityEngine::GameObject* value);
-    // Get instance field: private UnityEngine.GameObject _emptyCustomSongListInfoPrefab
-    UnityEngine::GameObject* _get__emptyCustomSongListInfoPrefab();
-    // Set instance field: private UnityEngine.GameObject _emptyCustomSongListInfoPrefab
-    void _set__emptyCustomSongListInfoPrefab(UnityEngine::GameObject* value);
-    // Get instance field: private readonly PlayerDataModel _playerDataModel
-    GlobalNamespace::PlayerDataModel* _get__playerDataModel();
-    // Set instance field: private readonly PlayerDataModel _playerDataModel
-    void _set__playerDataModel(GlobalNamespace::PlayerDataModel* value);
-    // Get instance field: private readonly SelectLevelCategoryViewController _selectLevelCategoryViewController
-    GlobalNamespace::SelectLevelCategoryViewController* _get__selectLevelCategoryViewController();
-    // Set instance field: private readonly SelectLevelCategoryViewController _selectLevelCategoryViewController
-    void _set__selectLevelCategoryViewController(GlobalNamespace::SelectLevelCategoryViewController* value);
-    // Get instance field: private readonly AnnotatedBeatmapLevelCollectionsViewController _annotatedBeatmapLevelCollectionsViewController
-    GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController* _get__annotatedBeatmapLevelCollectionsViewController();
-    // Set instance field: private readonly AnnotatedBeatmapLevelCollectionsViewController _annotatedBeatmapLevelCollectionsViewController
-    void _set__annotatedBeatmapLevelCollectionsViewController(GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController* value);
-    // Get instance field: private readonly LevelSearchViewController _levelSearchViewController
-    GlobalNamespace::LevelSearchViewController* _get__levelSearchViewController();
-    // Set instance field: private readonly LevelSearchViewController _levelSearchViewController
-    void _set__levelSearchViewController(GlobalNamespace::LevelSearchViewController* value);
-    // Get instance field: private readonly BeatmapLevelsModel _beatmapLevelsModel
-    GlobalNamespace::BeatmapLevelsModel* _get__beatmapLevelsModel();
-    // Set instance field: private readonly BeatmapLevelsModel _beatmapLevelsModel
-    void _set__beatmapLevelsModel(GlobalNamespace::BeatmapLevelsModel* value);
-    // Get instance field: private System.Action`4<LevelFilteringNavigationController,IAnnotatedBeatmapLevelCollection,UnityEngine.GameObject,BeatmapCharacteristicSO> didSelectAnnotatedBeatmapLevelCollectionEvent
-    System::Action_4<GlobalNamespace::LevelFilteringNavigationController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, UnityEngine::GameObject*, GlobalNamespace::BeatmapCharacteristicSO*>* _get_didSelectAnnotatedBeatmapLevelCollectionEvent();
-    // Set instance field: private System.Action`4<LevelFilteringNavigationController,IAnnotatedBeatmapLevelCollection,UnityEngine.GameObject,BeatmapCharacteristicSO> didSelectAnnotatedBeatmapLevelCollectionEvent
-    void _set_didSelectAnnotatedBeatmapLevelCollectionEvent(System::Action_4<GlobalNamespace::LevelFilteringNavigationController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, UnityEngine::GameObject*, GlobalNamespace::BeatmapCharacteristicSO*>* value);
-    // Get instance field: private System.Action`1<LevelFilteringNavigationController> didStartLoadingEvent
-    System::Action_1<GlobalNamespace::LevelFilteringNavigationController*>* _get_didStartLoadingEvent();
-    // Set instance field: private System.Action`1<LevelFilteringNavigationController> didStartLoadingEvent
-    void _set_didStartLoadingEvent(System::Action_1<GlobalNamespace::LevelFilteringNavigationController*>* value);
-    // Get instance field: private System.Action`1<LevelFilteringNavigationController> didPressAllSongsEvent
-    System::Action_1<GlobalNamespace::LevelFilteringNavigationController*>* _get_didPressAllSongsEvent();
-    // Set instance field: private System.Action`1<LevelFilteringNavigationController> didPressAllSongsEvent
-    void _set_didPressAllSongsEvent(System::Action_1<GlobalNamespace::LevelFilteringNavigationController*>* value);
-    // Get instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    System::Threading::CancellationTokenSource* _get__cancellationTokenSource();
-    // Set instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    void _set__cancellationTokenSource(System::Threading::CancellationTokenSource* value);
-    // Get instance field: private UnityEngine.GameObject _currentNoDataInfoPrefab
-    UnityEngine::GameObject* _get__currentNoDataInfoPrefab();
-    // Set instance field: private UnityEngine.GameObject _currentNoDataInfoPrefab
-    void _set__currentNoDataInfoPrefab(UnityEngine::GameObject* value);
-    // Get instance field: private System.String _levelPackIdToBeSelectedAfterPresent
-    ::Il2CppString* _get__levelPackIdToBeSelectedAfterPresent();
-    // Set instance field: private System.String _levelPackIdToBeSelectedAfterPresent
-    void _set__levelPackIdToBeSelectedAfterPresent(::Il2CppString* value);
-    // Get instance field: private System.Boolean _hidePacksIfOneOrNone
-    bool _get__hidePacksIfOneOrNone();
-    // Set instance field: private System.Boolean _hidePacksIfOneOrNone
-    void _set__hidePacksIfOneOrNone(bool value);
-    // Get instance field: private System.Boolean _enableCustomLevels
-    bool _get__enableCustomLevels();
-    // Set instance field: private System.Boolean _enableCustomLevels
-    void _set__enableCustomLevels(bool value);
-    // Get instance field: private SongPackMask _songPackMask
-    GlobalNamespace::SongPackMask _get__songPackMask();
-    // Set instance field: private SongPackMask _songPackMask
-    void _set__songPackMask(GlobalNamespace::SongPackMask value);
-    // Get instance field: private SelectLevelCategoryViewController/LevelCategory[] _enabledLevelCategories
-    ::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* _get__enabledLevelCategories();
-    // Set instance field: private SelectLevelCategoryViewController/LevelCategory[] _enabledLevelCategories
-    void _set__enabledLevelCategories(::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* value);
-    // Get instance field: private IBeatmapLevelPack[] _ostBeatmapLevelPacks
-    ::Array<GlobalNamespace::IBeatmapLevelPack*>* _get__ostBeatmapLevelPacks();
-    // Set instance field: private IBeatmapLevelPack[] _ostBeatmapLevelPacks
-    void _set__ostBeatmapLevelPacks(::Array<GlobalNamespace::IBeatmapLevelPack*>* value);
-    // Get instance field: private IBeatmapLevelPack[] _musicPacksBeatmapLevelPacks
-    ::Array<GlobalNamespace::IBeatmapLevelPack*>* _get__musicPacksBeatmapLevelPacks();
-    // Set instance field: private IBeatmapLevelPack[] _musicPacksBeatmapLevelPacks
-    void _set__musicPacksBeatmapLevelPacks(::Array<GlobalNamespace::IBeatmapLevelPack*>* value);
-    // Get instance field: private IBeatmapLevelPack[] _customLevelPacks
-    ::Array<GlobalNamespace::IBeatmapLevelPack*>* _get__customLevelPacks();
-    // Set instance field: private IBeatmapLevelPack[] _customLevelPacks
-    void _set__customLevelPacks(::Array<GlobalNamespace::IBeatmapLevelPack*>* value);
-    // Get instance field: private IBeatmapLevelPack[] _allBeatmapLevelPacks
-    ::Array<GlobalNamespace::IBeatmapLevelPack*>* _get__allBeatmapLevelPacks();
-    // Set instance field: private IBeatmapLevelPack[] _allBeatmapLevelPacks
-    void _set__allBeatmapLevelPacks(::Array<GlobalNamespace::IBeatmapLevelPack*>* value);
+    // Get instance field reference: private UnityEngine.GameObject _emptyFavoritesListInfoPrefab
+    UnityEngine::GameObject*& dyn__emptyFavoritesListInfoPrefab();
+    // Get instance field reference: private UnityEngine.GameObject _emptyCustomSongListInfoPrefab
+    UnityEngine::GameObject*& dyn__emptyCustomSongListInfoPrefab();
+    // Get instance field reference: private readonly PlayerDataModel _playerDataModel
+    GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
+    // Get instance field reference: private readonly SelectLevelCategoryViewController _selectLevelCategoryViewController
+    GlobalNamespace::SelectLevelCategoryViewController*& dyn__selectLevelCategoryViewController();
+    // Get instance field reference: private readonly AnnotatedBeatmapLevelCollectionsViewController _annotatedBeatmapLevelCollectionsViewController
+    GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController*& dyn__annotatedBeatmapLevelCollectionsViewController();
+    // Get instance field reference: private readonly LevelSearchViewController _levelSearchViewController
+    GlobalNamespace::LevelSearchViewController*& dyn__levelSearchViewController();
+    // Get instance field reference: private readonly BeatmapLevelsModel _beatmapLevelsModel
+    GlobalNamespace::BeatmapLevelsModel*& dyn__beatmapLevelsModel();
+    // Get instance field reference: private System.Action`4<LevelFilteringNavigationController,IAnnotatedBeatmapLevelCollection,UnityEngine.GameObject,BeatmapCharacteristicSO> didSelectAnnotatedBeatmapLevelCollectionEvent
+    System::Action_4<GlobalNamespace::LevelFilteringNavigationController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, UnityEngine::GameObject*, GlobalNamespace::BeatmapCharacteristicSO*>*& dyn_didSelectAnnotatedBeatmapLevelCollectionEvent();
+    // Get instance field reference: private System.Action`1<LevelFilteringNavigationController> didStartLoadingEvent
+    System::Action_1<GlobalNamespace::LevelFilteringNavigationController*>*& dyn_didStartLoadingEvent();
+    // Get instance field reference: private System.Action`1<LevelFilteringNavigationController> didPressAllSongsEvent
+    System::Action_1<GlobalNamespace::LevelFilteringNavigationController*>*& dyn_didPressAllSongsEvent();
+    // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
+    System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
+    // Get instance field reference: private UnityEngine.GameObject _currentNoDataInfoPrefab
+    UnityEngine::GameObject*& dyn__currentNoDataInfoPrefab();
+    // Get instance field reference: private System.String _levelPackIdToBeSelectedAfterPresent
+    ::Il2CppString*& dyn__levelPackIdToBeSelectedAfterPresent();
+    // Get instance field reference: private System.Boolean _hidePacksIfOneOrNone
+    bool& dyn__hidePacksIfOneOrNone();
+    // Get instance field reference: private System.Boolean _enableCustomLevels
+    bool& dyn__enableCustomLevels();
+    // Get instance field reference: private SongPackMask _songPackMask
+    GlobalNamespace::SongPackMask& dyn__songPackMask();
+    // Get instance field reference: private SelectLevelCategoryViewController/LevelCategory[] _enabledLevelCategories
+    ::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>*& dyn__enabledLevelCategories();
+    // Get instance field reference: private IBeatmapLevelPack[] _ostBeatmapLevelPacks
+    ::Array<GlobalNamespace::IBeatmapLevelPack*>*& dyn__ostBeatmapLevelPacks();
+    // Get instance field reference: private IBeatmapLevelPack[] _musicPacksBeatmapLevelPacks
+    ::Array<GlobalNamespace::IBeatmapLevelPack*>*& dyn__musicPacksBeatmapLevelPacks();
+    // Get instance field reference: private IBeatmapLevelPack[] _customLevelPacks
+    ::Array<GlobalNamespace::IBeatmapLevelPack*>*& dyn__customLevelPacks();
+    // Get instance field reference: private IBeatmapLevelPack[] _allBeatmapLevelPacks
+    ::Array<GlobalNamespace::IBeatmapLevelPack*>*& dyn__allBeatmapLevelPacks();
     // public IBeatmapLevelPack get_selectedBeatmapLevelPack()
     // Offset: 0x115087C
     GlobalNamespace::IBeatmapLevelPack* get_selectedBeatmapLevelPack();

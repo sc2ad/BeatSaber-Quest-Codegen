@@ -32,10 +32,8 @@ namespace UnityEngine::Assertions {
     constexpr operator ::Il2CppString*() const noexcept {
       return m_UserMessage;
     }
-    // Get instance field: private System.String m_UserMessage
-    ::Il2CppString* _get_m_UserMessage();
-    // Set instance field: private System.String m_UserMessage
-    void _set_m_UserMessage(::Il2CppString* value);
+    // Get instance field reference: private System.String m_UserMessage
+    ::Il2CppString*& dyn_m_UserMessage();
     // public System.Void .ctor(System.String message, System.String userMessage)
     // Offset: 0x1C1C21C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

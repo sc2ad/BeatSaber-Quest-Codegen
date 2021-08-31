@@ -53,18 +53,12 @@ namespace System::Runtime::Remoting::Messaging {
     operator System::Collections::IDictionaryEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IDictionaryEnumerator*>(this);
     }
-    // Get instance field: private System.Runtime.Remoting.Messaging.MessageDictionary _methodDictionary
-    System::Runtime::Remoting::Messaging::MessageDictionary* _get__methodDictionary();
-    // Set instance field: private System.Runtime.Remoting.Messaging.MessageDictionary _methodDictionary
-    void _set__methodDictionary(System::Runtime::Remoting::Messaging::MessageDictionary* value);
-    // Get instance field: private System.Collections.IDictionaryEnumerator _hashtableEnum
-    System::Collections::IDictionaryEnumerator* _get__hashtableEnum();
-    // Set instance field: private System.Collections.IDictionaryEnumerator _hashtableEnum
-    void _set__hashtableEnum(System::Collections::IDictionaryEnumerator* value);
-    // Get instance field: private System.Int32 _posMethod
-    int _get__posMethod();
-    // Set instance field: private System.Int32 _posMethod
-    void _set__posMethod(int value);
+    // Get instance field reference: private System.Runtime.Remoting.Messaging.MessageDictionary _methodDictionary
+    System::Runtime::Remoting::Messaging::MessageDictionary*& dyn__methodDictionary();
+    // Get instance field reference: private System.Collections.IDictionaryEnumerator _hashtableEnum
+    System::Collections::IDictionaryEnumerator*& dyn__hashtableEnum();
+    // Get instance field reference: private System.Int32 _posMethod
+    int& dyn__posMethod();
     // public System.Object get_Current()
     // Offset: 0x1A4E644
     ::Il2CppObject* get_Current();

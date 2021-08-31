@@ -101,50 +101,28 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: NoteData
     NoteData(GlobalNamespace::ColorType colorType_ = {}, GlobalNamespace::NoteCutDirection cutDirection_ = {}, float timeToNextColorNote_ = {}, float timeToPrevColorNote_ = {}, GlobalNamespace::NoteLineLayer noteLineLayer_ = {}, GlobalNamespace::NoteLineLayer beforeJumpNoteLineLayer_ = {}, int flipLineIndex_ = {}, float flipYSide_ = {}, float duration_ = {}, bool skipBeforeCutScoring_ = {}, bool skipAfterCutScoring_ = {}) noexcept : colorType{colorType_}, cutDirection{cutDirection_}, timeToNextColorNote{timeToNextColorNote_}, timeToPrevColorNote{timeToPrevColorNote_}, noteLineLayer{noteLineLayer_}, beforeJumpNoteLineLayer{beforeJumpNoteLineLayer_}, flipLineIndex{flipLineIndex_}, flipYSide{flipYSide_}, duration{duration_}, skipBeforeCutScoring{skipBeforeCutScoring_}, skipAfterCutScoring{skipAfterCutScoring_} {}
-    // Get instance field: private ColorType <colorType>k__BackingField
-    GlobalNamespace::ColorType _get_$colorType$k__BackingField();
-    // Set instance field: private ColorType <colorType>k__BackingField
-    void _set_$colorType$k__BackingField(GlobalNamespace::ColorType value);
-    // Get instance field: private NoteCutDirection <cutDirection>k__BackingField
-    GlobalNamespace::NoteCutDirection _get_$cutDirection$k__BackingField();
-    // Set instance field: private NoteCutDirection <cutDirection>k__BackingField
-    void _set_$cutDirection$k__BackingField(GlobalNamespace::NoteCutDirection value);
-    // Get instance field: private System.Single <timeToNextColorNote>k__BackingField
-    float _get_$timeToNextColorNote$k__BackingField();
-    // Set instance field: private System.Single <timeToNextColorNote>k__BackingField
-    void _set_$timeToNextColorNote$k__BackingField(float value);
-    // Get instance field: private System.Single <timeToPrevColorNote>k__BackingField
-    float _get_$timeToPrevColorNote$k__BackingField();
-    // Set instance field: private System.Single <timeToPrevColorNote>k__BackingField
-    void _set_$timeToPrevColorNote$k__BackingField(float value);
-    // Get instance field: private NoteLineLayer <noteLineLayer>k__BackingField
-    GlobalNamespace::NoteLineLayer _get_$noteLineLayer$k__BackingField();
-    // Set instance field: private NoteLineLayer <noteLineLayer>k__BackingField
-    void _set_$noteLineLayer$k__BackingField(GlobalNamespace::NoteLineLayer value);
-    // Get instance field: private NoteLineLayer <beforeJumpNoteLineLayer>k__BackingField
-    GlobalNamespace::NoteLineLayer _get_$beforeJumpNoteLineLayer$k__BackingField();
-    // Set instance field: private NoteLineLayer <beforeJumpNoteLineLayer>k__BackingField
-    void _set_$beforeJumpNoteLineLayer$k__BackingField(GlobalNamespace::NoteLineLayer value);
-    // Get instance field: private System.Int32 <flipLineIndex>k__BackingField
-    int _get_$flipLineIndex$k__BackingField();
-    // Set instance field: private System.Int32 <flipLineIndex>k__BackingField
-    void _set_$flipLineIndex$k__BackingField(int value);
-    // Get instance field: private System.Single <flipYSide>k__BackingField
-    float _get_$flipYSide$k__BackingField();
-    // Set instance field: private System.Single <flipYSide>k__BackingField
-    void _set_$flipYSide$k__BackingField(float value);
-    // Get instance field: private System.Single <duration>k__BackingField
-    float _get_$duration$k__BackingField();
-    // Set instance field: private System.Single <duration>k__BackingField
-    void _set_$duration$k__BackingField(float value);
-    // Get instance field: private System.Boolean <skipBeforeCutScoring>k__BackingField
-    bool _get_$skipBeforeCutScoring$k__BackingField();
-    // Set instance field: private System.Boolean <skipBeforeCutScoring>k__BackingField
-    void _set_$skipBeforeCutScoring$k__BackingField(bool value);
-    // Get instance field: private System.Boolean <skipAfterCutScoring>k__BackingField
-    bool _get_$skipAfterCutScoring$k__BackingField();
-    // Set instance field: private System.Boolean <skipAfterCutScoring>k__BackingField
-    void _set_$skipAfterCutScoring$k__BackingField(bool value);
+    // Get instance field reference: private ColorType <colorType>k__BackingField
+    GlobalNamespace::ColorType& dyn_$colorType$k__BackingField();
+    // Get instance field reference: private NoteCutDirection <cutDirection>k__BackingField
+    GlobalNamespace::NoteCutDirection& dyn_$cutDirection$k__BackingField();
+    // Get instance field reference: private System.Single <timeToNextColorNote>k__BackingField
+    float& dyn_$timeToNextColorNote$k__BackingField();
+    // Get instance field reference: private System.Single <timeToPrevColorNote>k__BackingField
+    float& dyn_$timeToPrevColorNote$k__BackingField();
+    // Get instance field reference: private NoteLineLayer <noteLineLayer>k__BackingField
+    GlobalNamespace::NoteLineLayer& dyn_$noteLineLayer$k__BackingField();
+    // Get instance field reference: private NoteLineLayer <beforeJumpNoteLineLayer>k__BackingField
+    GlobalNamespace::NoteLineLayer& dyn_$beforeJumpNoteLineLayer$k__BackingField();
+    // Get instance field reference: private System.Int32 <flipLineIndex>k__BackingField
+    int& dyn_$flipLineIndex$k__BackingField();
+    // Get instance field reference: private System.Single <flipYSide>k__BackingField
+    float& dyn_$flipYSide$k__BackingField();
+    // Get instance field reference: private System.Single <duration>k__BackingField
+    float& dyn_$duration$k__BackingField();
+    // Get instance field reference: private System.Boolean <skipBeforeCutScoring>k__BackingField
+    bool& dyn_$skipBeforeCutScoring$k__BackingField();
+    // Get instance field reference: private System.Boolean <skipAfterCutScoring>k__BackingField
+    bool& dyn_$skipAfterCutScoring$k__BackingField();
     // public ColorType get_colorType()
     // Offset: 0x240D808
     GlobalNamespace::ColorType get_colorType();

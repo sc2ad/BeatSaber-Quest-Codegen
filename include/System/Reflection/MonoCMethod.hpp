@@ -82,18 +82,12 @@ namespace System::Reflection {
     static_assert(sizeof(System::Type*) == 0x8);
     // Creating value type constructor for type: MonoCMethod
     MonoCMethod(System::IntPtr mhandle_ = {}, ::Il2CppString* name_ = {}, System::Type* reftype_ = {}) noexcept : mhandle{mhandle_}, name{name_}, reftype{reftype_} {}
-    // Get instance field: System.IntPtr mhandle
-    System::IntPtr _get_mhandle();
-    // Set instance field: System.IntPtr mhandle
-    void _set_mhandle(System::IntPtr value);
-    // Get instance field: private System.String name
-    ::Il2CppString* _get_name();
-    // Set instance field: private System.String name
-    void _set_name(::Il2CppString* value);
-    // Get instance field: private System.Type reftype
-    System::Type* _get_reftype();
-    // Set instance field: private System.Type reftype
-    void _set_reftype(System::Type* value);
+    // Get instance field reference: System.IntPtr mhandle
+    System::IntPtr& dyn_mhandle();
+    // Get instance field reference: private System.String name
+    ::Il2CppString*& dyn_name();
+    // Get instance field reference: private System.Type reftype
+    System::Type*& dyn_reftype();
     // System.Object InternalInvoke(System.Object obj, System.Object[] parameters, out System.Exception exc)
     // Offset: 0x1D1D2A0
     ::Il2CppObject* InternalInvoke(::Il2CppObject* obj, ::Array<::Il2CppObject*>* parameters, ByRef<System::Exception*> exc);

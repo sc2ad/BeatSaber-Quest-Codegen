@@ -42,10 +42,8 @@ namespace GlobalNamespace {
     EnableAfterDelay(UnityEngine::MonoBehaviour* component_ = {}) noexcept : component{component_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.MonoBehaviour _component
-    UnityEngine::MonoBehaviour* _get__component();
-    // Set instance field: private UnityEngine.MonoBehaviour _component
-    void _set__component(UnityEngine::MonoBehaviour* value);
+    // Get instance field reference: private UnityEngine.MonoBehaviour _component
+    UnityEngine::MonoBehaviour*& dyn__component();
     // private System.Collections.IEnumerator Start()
     // Offset: 0x125D3CC
     System::Collections::IEnumerator* Start();

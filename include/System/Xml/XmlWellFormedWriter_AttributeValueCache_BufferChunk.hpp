@@ -40,18 +40,12 @@ namespace System::Xml {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: BufferChunk
     BufferChunk(::Array<::Il2CppChar>* buffer_ = {}, int index_ = {}, int count_ = {}) noexcept : buffer{buffer_}, index{index_}, count{count_} {}
-    // Get instance field: System.Char[] buffer
-    ::Array<::Il2CppChar>* _get_buffer();
-    // Set instance field: System.Char[] buffer
-    void _set_buffer(::Array<::Il2CppChar>* value);
-    // Get instance field: System.Int32 index
-    int _get_index();
-    // Set instance field: System.Int32 index
-    void _set_index(int value);
-    // Get instance field: System.Int32 count
-    int _get_count();
-    // Set instance field: System.Int32 count
-    void _set_count(int value);
+    // Get instance field reference: System.Char[] buffer
+    ::Array<::Il2CppChar>*& dyn_buffer();
+    // Get instance field reference: System.Int32 index
+    int& dyn_index();
+    // Get instance field reference: System.Int32 count
+    int& dyn_count();
     // System.Void .ctor(System.Char[] buffer, System.Int32 index, System.Int32 count)
     // Offset: 0x23EEBE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

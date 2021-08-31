@@ -67,10 +67,8 @@ namespace Oculus::Platform {
     static Oculus::Platform::RoomType _get_Solo();
     // Set static field: static public Oculus.Platform.RoomType Solo
     static void _set_Solo(Oculus::Platform::RoomType value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Oculus.Platform.RoomType
   #pragma pack(pop)
   static check_size<sizeof(RoomType), 0 + sizeof(int)> __Oculus_Platform_RoomTypeSizeCheck;

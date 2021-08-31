@@ -115,30 +115,18 @@ namespace HMUI {
     operator UnityEngine::UI::ICanvasElement() noexcept {
       return *reinterpret_cast<UnityEngine::UI::ICanvasElement*>(this);
     }
-    // Get instance field: private UnityEngine.RectTransform _handleRect
-    UnityEngine::RectTransform* _get__handleRect();
-    // Set instance field: private UnityEngine.RectTransform _handleRect
-    void _set__handleRect(UnityEngine::RectTransform* value);
-    // Get instance field: private UnityEngine.Vector2 _normalizedValue
-    UnityEngine::Vector2 _get__normalizedValue();
-    // Set instance field: private UnityEngine.Vector2 _normalizedValue
-    void _set__normalizedValue(UnityEngine::Vector2 value);
-    // Get instance field: private System.Action`2<HMUI.Slider2D,UnityEngine.Vector2> normalizedValueDidChangeEvent
-    System::Action_2<HMUI::Slider2D*, UnityEngine::Vector2>* _get_normalizedValueDidChangeEvent();
-    // Set instance field: private System.Action`2<HMUI.Slider2D,UnityEngine.Vector2> normalizedValueDidChangeEvent
-    void _set_normalizedValueDidChangeEvent(System::Action_2<HMUI::Slider2D*, UnityEngine::Vector2>* value);
-    // Get instance field: private UnityEngine.RectTransform _containerRect
-    UnityEngine::RectTransform* _get__containerRect();
-    // Set instance field: private UnityEngine.RectTransform _containerRect
-    void _set__containerRect(UnityEngine::RectTransform* value);
-    // Get instance field: private UnityEngine.UI.Graphic _handleGraphic
-    UnityEngine::UI::Graphic* _get__handleGraphic();
-    // Set instance field: private UnityEngine.UI.Graphic _handleGraphic
-    void _set__handleGraphic(UnityEngine::UI::Graphic* value);
-    // Get instance field: private UnityEngine.DrivenRectTransformTracker _tracker
-    UnityEngine::DrivenRectTransformTracker _get__tracker();
-    // Set instance field: private UnityEngine.DrivenRectTransformTracker _tracker
-    void _set__tracker(UnityEngine::DrivenRectTransformTracker value);
+    // Get instance field reference: private UnityEngine.RectTransform _handleRect
+    UnityEngine::RectTransform*& dyn__handleRect();
+    // Get instance field reference: private UnityEngine.Vector2 _normalizedValue
+    UnityEngine::Vector2& dyn__normalizedValue();
+    // Get instance field reference: private System.Action`2<HMUI.Slider2D,UnityEngine.Vector2> normalizedValueDidChangeEvent
+    System::Action_2<HMUI::Slider2D*, UnityEngine::Vector2>*& dyn_normalizedValueDidChangeEvent();
+    // Get instance field reference: private UnityEngine.RectTransform _containerRect
+    UnityEngine::RectTransform*& dyn__containerRect();
+    // Get instance field reference: private UnityEngine.UI.Graphic _handleGraphic
+    UnityEngine::UI::Graphic*& dyn__handleGraphic();
+    // Get instance field reference: private UnityEngine.DrivenRectTransformTracker _tracker
+    UnityEngine::DrivenRectTransformTracker& dyn__tracker();
     // public UnityEngine.RectTransform get_handleRect()
     // Offset: 0x1301EC4
     UnityEngine::RectTransform* get_handleRect();

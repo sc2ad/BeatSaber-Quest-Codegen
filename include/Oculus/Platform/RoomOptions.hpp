@@ -41,10 +41,8 @@ namespace Oculus::Platform {
     constexpr operator System::IntPtr() const noexcept {
       return Handle;
     }
-    // Get instance field: private System.IntPtr Handle
-    System::IntPtr _get_Handle();
-    // Set instance field: private System.IntPtr Handle
-    void _set_Handle(System::IntPtr value);
+    // Get instance field reference: private System.IntPtr Handle
+    System::IntPtr& dyn_Handle();
     // public System.Void SetDataStore(System.String key, System.String value)
     // Offset: 0x23D91C0
     void SetDataStore(::Il2CppString* key, ::Il2CppString* value);

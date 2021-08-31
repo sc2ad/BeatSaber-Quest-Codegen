@@ -114,62 +114,34 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private System.Int32 m_FingerId
-    int _get_m_FingerId();
-    // Set instance field: private System.Int32 m_FingerId
-    void _set_m_FingerId(int value);
-    // Get instance field: private UnityEngine.Vector2 m_Position
-    UnityEngine::Vector2 _get_m_Position();
-    // Set instance field: private UnityEngine.Vector2 m_Position
-    void _set_m_Position(UnityEngine::Vector2 value);
-    // Get instance field: private UnityEngine.Vector2 m_RawPosition
-    UnityEngine::Vector2 _get_m_RawPosition();
-    // Set instance field: private UnityEngine.Vector2 m_RawPosition
-    void _set_m_RawPosition(UnityEngine::Vector2 value);
-    // Get instance field: private UnityEngine.Vector2 m_PositionDelta
-    UnityEngine::Vector2 _get_m_PositionDelta();
-    // Set instance field: private UnityEngine.Vector2 m_PositionDelta
-    void _set_m_PositionDelta(UnityEngine::Vector2 value);
-    // Get instance field: private System.Single m_TimeDelta
-    float _get_m_TimeDelta();
-    // Set instance field: private System.Single m_TimeDelta
-    void _set_m_TimeDelta(float value);
-    // Get instance field: private System.Int32 m_TapCount
-    int _get_m_TapCount();
-    // Set instance field: private System.Int32 m_TapCount
-    void _set_m_TapCount(int value);
-    // Get instance field: private UnityEngine.TouchPhase m_Phase
-    UnityEngine::TouchPhase _get_m_Phase();
-    // Set instance field: private UnityEngine.TouchPhase m_Phase
-    void _set_m_Phase(UnityEngine::TouchPhase value);
-    // Get instance field: private UnityEngine.TouchType m_Type
-    UnityEngine::TouchType _get_m_Type();
-    // Set instance field: private UnityEngine.TouchType m_Type
-    void _set_m_Type(UnityEngine::TouchType value);
-    // Get instance field: private System.Single m_Pressure
-    float _get_m_Pressure();
-    // Set instance field: private System.Single m_Pressure
-    void _set_m_Pressure(float value);
-    // Get instance field: private System.Single m_maximumPossiblePressure
-    float _get_m_maximumPossiblePressure();
-    // Set instance field: private System.Single m_maximumPossiblePressure
-    void _set_m_maximumPossiblePressure(float value);
-    // Get instance field: private System.Single m_Radius
-    float _get_m_Radius();
-    // Set instance field: private System.Single m_Radius
-    void _set_m_Radius(float value);
-    // Get instance field: private System.Single m_RadiusVariance
-    float _get_m_RadiusVariance();
-    // Set instance field: private System.Single m_RadiusVariance
-    void _set_m_RadiusVariance(float value);
-    // Get instance field: private System.Single m_AltitudeAngle
-    float _get_m_AltitudeAngle();
-    // Set instance field: private System.Single m_AltitudeAngle
-    void _set_m_AltitudeAngle(float value);
-    // Get instance field: private System.Single m_AzimuthAngle
-    float _get_m_AzimuthAngle();
-    // Set instance field: private System.Single m_AzimuthAngle
-    void _set_m_AzimuthAngle(float value);
+    // Get instance field reference: private System.Int32 m_FingerId
+    int& dyn_m_FingerId();
+    // Get instance field reference: private UnityEngine.Vector2 m_Position
+    UnityEngine::Vector2& dyn_m_Position();
+    // Get instance field reference: private UnityEngine.Vector2 m_RawPosition
+    UnityEngine::Vector2& dyn_m_RawPosition();
+    // Get instance field reference: private UnityEngine.Vector2 m_PositionDelta
+    UnityEngine::Vector2& dyn_m_PositionDelta();
+    // Get instance field reference: private System.Single m_TimeDelta
+    float& dyn_m_TimeDelta();
+    // Get instance field reference: private System.Int32 m_TapCount
+    int& dyn_m_TapCount();
+    // Get instance field reference: private UnityEngine.TouchPhase m_Phase
+    UnityEngine::TouchPhase& dyn_m_Phase();
+    // Get instance field reference: private UnityEngine.TouchType m_Type
+    UnityEngine::TouchType& dyn_m_Type();
+    // Get instance field reference: private System.Single m_Pressure
+    float& dyn_m_Pressure();
+    // Get instance field reference: private System.Single m_maximumPossiblePressure
+    float& dyn_m_maximumPossiblePressure();
+    // Get instance field reference: private System.Single m_Radius
+    float& dyn_m_Radius();
+    // Get instance field reference: private System.Single m_RadiusVariance
+    float& dyn_m_RadiusVariance();
+    // Get instance field reference: private System.Single m_AltitudeAngle
+    float& dyn_m_AltitudeAngle();
+    // Get instance field reference: private System.Single m_AzimuthAngle
+    float& dyn_m_AzimuthAngle();
     // public System.Int32 get_fingerId()
     // Offset: 0x241B1E4
     int get_fingerId();

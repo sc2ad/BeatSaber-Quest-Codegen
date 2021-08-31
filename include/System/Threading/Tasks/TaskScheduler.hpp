@@ -75,10 +75,8 @@ namespace System::Threading::Tasks {
     static ::Il2CppObject* _get__unobservedTaskExceptionLockObject();
     // Set static field: static private readonly System.Object _unobservedTaskExceptionLockObject
     static void _set__unobservedTaskExceptionLockObject(::Il2CppObject* value);
-    // Get instance field: private System.Int32 m_taskSchedulerId
-    int _get_m_taskSchedulerId();
-    // Set instance field: private System.Int32 m_taskSchedulerId
-    void _set_m_taskSchedulerId(int value);
+    // Get instance field reference: private System.Int32 m_taskSchedulerId
+    int& dyn_m_taskSchedulerId();
     // System.Boolean get_RequiresAtomicStartTransition()
     // Offset: 0x1876148
     bool get_RequiresAtomicStartTransition();

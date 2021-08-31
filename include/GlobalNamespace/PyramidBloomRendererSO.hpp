@@ -65,14 +65,10 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: UnityEngine.RenderTexture down
-      UnityEngine::RenderTexture* _get_down();
-      // Set instance field: UnityEngine.RenderTexture down
-      void _set_down(UnityEngine::RenderTexture* value);
-      // Get instance field: UnityEngine.RenderTexture up
-      UnityEngine::RenderTexture* _get_up();
-      // Set instance field: UnityEngine.RenderTexture up
-      void _set_up(UnityEngine::RenderTexture* value);
+      // Get instance field reference: UnityEngine.RenderTexture down
+      UnityEngine::RenderTexture*& dyn_down();
+      // Get instance field reference: UnityEngine.RenderTexture up
+      UnityEngine::RenderTexture*& dyn_up();
     }; // PyramidBloomRendererSO/Level
     #pragma pack(pop)
     static check_size<sizeof(PyramidBloomRendererSO::Level), 8 + sizeof(UnityEngine::RenderTexture*)> __GlobalNamespace_PyramidBloomRendererSO_LevelSizeCheck;
@@ -136,22 +132,14 @@ namespace GlobalNamespace {
     static int _get__alphaWeightsID();
     // Set static field: static private readonly System.Int32 _alphaWeightsID
     static void _set__alphaWeightsID(int value);
-    // Get instance field: private UnityEngine.Shader _shader
-    UnityEngine::Shader* _get__shader();
-    // Set instance field: private UnityEngine.Shader _shader
-    void _set__shader(UnityEngine::Shader* value);
-    // Get instance field: private UnityEngine.Material _material
-    UnityEngine::Material* _get__material();
-    // Set instance field: private UnityEngine.Material _material
-    void _set__material(UnityEngine::Material* value);
-    // Get instance field: private PyramidBloomRendererSO/Level[] _pyramid
-    ::Array<GlobalNamespace::PyramidBloomRendererSO::Level>* _get__pyramid();
-    // Set instance field: private PyramidBloomRendererSO/Level[] _pyramid
-    void _set__pyramid(::Array<GlobalNamespace::PyramidBloomRendererSO::Level>* value);
-    // Get instance field: private System.Boolean _initialized
-    bool _get__initialized();
-    // Set instance field: private System.Boolean _initialized
-    void _set__initialized(bool value);
+    // Get instance field reference: private UnityEngine.Shader _shader
+    UnityEngine::Shader*& dyn__shader();
+    // Get instance field reference: private UnityEngine.Material _material
+    UnityEngine::Material*& dyn__material();
+    // Get instance field reference: private PyramidBloomRendererSO/Level[] _pyramid
+    ::Array<GlobalNamespace::PyramidBloomRendererSO::Level>*& dyn__pyramid();
+    // Get instance field reference: private System.Boolean _initialized
+    bool& dyn__initialized();
     // protected System.Void OnDisable()
     // Offset: 0x1E1EC28
     void OnDisable();

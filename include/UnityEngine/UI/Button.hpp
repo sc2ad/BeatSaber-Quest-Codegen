@@ -63,10 +63,8 @@ namespace UnityEngine::UI {
     operator UnityEngine::EventSystems::ISubmitHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::ISubmitHandler*>(this);
     }
-    // Get instance field: private UnityEngine.UI.Button/UnityEngine.UI.ButtonClickedEvent m_OnClick
-    UnityEngine::UI::Button::ButtonClickedEvent* _get_m_OnClick();
-    // Set instance field: private UnityEngine.UI.Button/UnityEngine.UI.ButtonClickedEvent m_OnClick
-    void _set_m_OnClick(UnityEngine::UI::Button::ButtonClickedEvent* value);
+    // Get instance field reference: private UnityEngine.UI.Button/UnityEngine.UI.ButtonClickedEvent m_OnClick
+    UnityEngine::UI::Button::ButtonClickedEvent*& dyn_m_OnClick();
     // public UnityEngine.UI.Button/UnityEngine.UI.ButtonClickedEvent get_onClick()
     // Offset: 0x1471990
     UnityEngine::UI::Button::ButtonClickedEvent* get_onClick();

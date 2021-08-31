@@ -94,10 +94,8 @@ namespace System::Net {
       static System::Net::MonoChunkStream::State _get_Trailer();
       // Set static field: static public System.Net.MonoChunkStream/System.Net.State Trailer
       static void _set_Trailer(System::Net::MonoChunkStream::State value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // System.Net.MonoChunkStream/System.Net.State
     #pragma pack(pop)
     static check_size<sizeof(MonoChunkStream::State), 0 + sizeof(int)> __System_Net_MonoChunkStream_StateSizeCheck;
@@ -166,46 +164,26 @@ namespace System::Net {
     static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
     // Creating value type constructor for type: MonoChunkStream
     MonoChunkStream(System::Net::WebHeaderCollection* headers_ = {}, int chunkSize_ = {}, int chunkRead_ = {}, int totalWritten_ = {}, System::Net::MonoChunkStream::State state_ = {}, System::Text::StringBuilder* saved_ = {}, bool sawCR_ = {}, bool gotit_ = {}, int trailerState_ = {}, System::Collections::ArrayList* chunks_ = {}) noexcept : headers{headers_}, chunkSize{chunkSize_}, chunkRead{chunkRead_}, totalWritten{totalWritten_}, state{state_}, saved{saved_}, sawCR{sawCR_}, gotit{gotit_}, trailerState{trailerState_}, chunks{chunks_} {}
-    // Get instance field: System.Net.WebHeaderCollection headers
-    System::Net::WebHeaderCollection* _get_headers();
-    // Set instance field: System.Net.WebHeaderCollection headers
-    void _set_headers(System::Net::WebHeaderCollection* value);
-    // Get instance field: private System.Int32 chunkSize
-    int _get_chunkSize();
-    // Set instance field: private System.Int32 chunkSize
-    void _set_chunkSize(int value);
-    // Get instance field: private System.Int32 chunkRead
-    int _get_chunkRead();
-    // Set instance field: private System.Int32 chunkRead
-    void _set_chunkRead(int value);
-    // Get instance field: private System.Int32 totalWritten
-    int _get_totalWritten();
-    // Set instance field: private System.Int32 totalWritten
-    void _set_totalWritten(int value);
-    // Get instance field: private System.Net.MonoChunkStream/System.Net.State state
-    System::Net::MonoChunkStream::State _get_state();
-    // Set instance field: private System.Net.MonoChunkStream/System.Net.State state
-    void _set_state(System::Net::MonoChunkStream::State value);
-    // Get instance field: private System.Text.StringBuilder saved
-    System::Text::StringBuilder* _get_saved();
-    // Set instance field: private System.Text.StringBuilder saved
-    void _set_saved(System::Text::StringBuilder* value);
-    // Get instance field: private System.Boolean sawCR
-    bool _get_sawCR();
-    // Set instance field: private System.Boolean sawCR
-    void _set_sawCR(bool value);
-    // Get instance field: private System.Boolean gotit
-    bool _get_gotit();
-    // Set instance field: private System.Boolean gotit
-    void _set_gotit(bool value);
-    // Get instance field: private System.Int32 trailerState
-    int _get_trailerState();
-    // Set instance field: private System.Int32 trailerState
-    void _set_trailerState(int value);
-    // Get instance field: private System.Collections.ArrayList chunks
-    System::Collections::ArrayList* _get_chunks();
-    // Set instance field: private System.Collections.ArrayList chunks
-    void _set_chunks(System::Collections::ArrayList* value);
+    // Get instance field reference: System.Net.WebHeaderCollection headers
+    System::Net::WebHeaderCollection*& dyn_headers();
+    // Get instance field reference: private System.Int32 chunkSize
+    int& dyn_chunkSize();
+    // Get instance field reference: private System.Int32 chunkRead
+    int& dyn_chunkRead();
+    // Get instance field reference: private System.Int32 totalWritten
+    int& dyn_totalWritten();
+    // Get instance field reference: private System.Net.MonoChunkStream/System.Net.State state
+    System::Net::MonoChunkStream::State& dyn_state();
+    // Get instance field reference: private System.Text.StringBuilder saved
+    System::Text::StringBuilder*& dyn_saved();
+    // Get instance field reference: private System.Boolean sawCR
+    bool& dyn_sawCR();
+    // Get instance field reference: private System.Boolean gotit
+    bool& dyn_gotit();
+    // Get instance field reference: private System.Int32 trailerState
+    int& dyn_trailerState();
+    // Get instance field reference: private System.Collections.ArrayList chunks
+    System::Collections::ArrayList*& dyn_chunks();
     // public System.Boolean get_WantMore()
     // Offset: 0x167F48C
     bool get_WantMore();

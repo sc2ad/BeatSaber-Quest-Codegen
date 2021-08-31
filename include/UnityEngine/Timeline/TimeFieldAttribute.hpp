@@ -64,10 +64,8 @@ namespace UnityEngine::Timeline {
       static UnityEngine::Timeline::TimeFieldAttribute::UseEditMode _get_ApplyEditMode();
       // Set static field: static public UnityEngine.Timeline.TimeFieldAttribute/UnityEngine.Timeline.UseEditMode ApplyEditMode
       static void _set_ApplyEditMode(UnityEngine::Timeline::TimeFieldAttribute::UseEditMode value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // UnityEngine.Timeline.TimeFieldAttribute/UnityEngine.Timeline.UseEditMode
     #pragma pack(pop)
     static check_size<sizeof(TimeFieldAttribute::UseEditMode), 0 + sizeof(int)> __UnityEngine_Timeline_TimeFieldAttribute_UseEditModeSizeCheck;
@@ -84,10 +82,8 @@ namespace UnityEngine::Timeline {
     constexpr operator UnityEngine::Timeline::TimeFieldAttribute::UseEditMode() const noexcept {
       return useEditMode;
     }
-    // Get instance field: private readonly UnityEngine.Timeline.TimeFieldAttribute/UnityEngine.Timeline.UseEditMode <useEditMode>k__BackingField
-    UnityEngine::Timeline::TimeFieldAttribute::UseEditMode _get_$useEditMode$k__BackingField();
-    // Set instance field: private readonly UnityEngine.Timeline.TimeFieldAttribute/UnityEngine.Timeline.UseEditMode <useEditMode>k__BackingField
-    void _set_$useEditMode$k__BackingField(UnityEngine::Timeline::TimeFieldAttribute::UseEditMode value);
+    // Get instance field reference: private readonly UnityEngine.Timeline.TimeFieldAttribute/UnityEngine.Timeline.UseEditMode <useEditMode>k__BackingField
+    UnityEngine::Timeline::TimeFieldAttribute::UseEditMode& dyn_$useEditMode$k__BackingField();
     // public UnityEngine.Timeline.TimeFieldAttribute/UnityEngine.Timeline.UseEditMode get_useEditMode()
     // Offset: 0x1826350
     UnityEngine::Timeline::TimeFieldAttribute::UseEditMode get_useEditMode();

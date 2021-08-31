@@ -41,14 +41,10 @@ namespace TMPro {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Int32 index
-    int _get_index();
-    // Set instance field: public System.Int32 index
-    void _set_index(int value);
-    // Get instance field: public TMPro.CaretPosition position
-    TMPro::CaretPosition _get_position();
-    // Set instance field: public TMPro.CaretPosition position
-    void _set_position(TMPro::CaretPosition value);
+    // Get instance field reference: public System.Int32 index
+    int& dyn_index();
+    // Get instance field reference: public TMPro.CaretPosition position
+    TMPro::CaretPosition& dyn_position();
     // public System.Void .ctor(System.Int32 index, TMPro.CaretPosition position)
     // Offset: 0x111439C
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

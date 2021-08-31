@@ -249,118 +249,62 @@ namespace GlobalNamespace {
     static int _get_kMaxGuestPlayers();
     // Set static field: static public System.Int32 kMaxGuestPlayers
     static void _set_kMaxGuestPlayers(int value);
-    // Get instance field: private System.String <playerId>k__BackingField
-    ::Il2CppString* _get_$playerId$k__BackingField();
-    // Set instance field: private System.String <playerId>k__BackingField
-    void _set_$playerId$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.String <playerName>k__BackingField
-    ::Il2CppString* _get_$playerName$k__BackingField();
-    // Set instance field: private System.String <playerName>k__BackingField
-    void _set_$playerName$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.Boolean <shouldShowTutorialPrompt>k__BackingField
-    bool _get_$shouldShowTutorialPrompt$k__BackingField();
-    // Set instance field: private System.Boolean <shouldShowTutorialPrompt>k__BackingField
-    void _set_$shouldShowTutorialPrompt$k__BackingField(bool value);
-    // Get instance field: private System.Boolean <shouldShow360Warning>k__BackingField
-    bool _get_$shouldShow360Warning$k__BackingField();
-    // Set instance field: private System.Boolean <shouldShow360Warning>k__BackingField
-    void _set_$shouldShow360Warning$k__BackingField(bool value);
-    // Get instance field: private System.Boolean <agreedToEula>k__BackingField
-    bool _get_$agreedToEula$k__BackingField();
-    // Set instance field: private System.Boolean <agreedToEula>k__BackingField
-    void _set_$agreedToEula$k__BackingField(bool value);
-    // Get instance field: private System.Boolean <didSelectLanguage>k__BackingField
-    bool _get_$didSelectLanguage$k__BackingField();
-    // Set instance field: private System.Boolean <didSelectLanguage>k__BackingField
-    void _set_$didSelectLanguage$k__BackingField(bool value);
-    // Get instance field: private System.Boolean <agreedToMultiplayerDisclaimer>k__BackingField
-    bool _get_$agreedToMultiplayerDisclaimer$k__BackingField();
-    // Set instance field: private System.Boolean <agreedToMultiplayerDisclaimer>k__BackingField
-    void _set_$agreedToMultiplayerDisclaimer$k__BackingField(bool value);
-    // Get instance field: private System.Boolean <avatarCreated>k__BackingField
-    bool _get_$avatarCreated$k__BackingField();
-    // Set instance field: private System.Boolean <avatarCreated>k__BackingField
-    void _set_$avatarCreated$k__BackingField(bool value);
-    // Get instance field: private System.Boolean <shareMultiplayerLobbyCodeInRichPresence>k__BackingField
-    bool _get_$shareMultiplayerLobbyCodeInRichPresence$k__BackingField();
-    // Set instance field: private System.Boolean <shareMultiplayerLobbyCodeInRichPresence>k__BackingField
-    void _set_$shareMultiplayerLobbyCodeInRichPresence$k__BackingField(bool value);
-    // Get instance field: private BeatmapDifficulty <lastSelectedBeatmapDifficulty>k__BackingField
-    GlobalNamespace::BeatmapDifficulty _get_$lastSelectedBeatmapDifficulty$k__BackingField();
-    // Set instance field: private BeatmapDifficulty <lastSelectedBeatmapDifficulty>k__BackingField
-    void _set_$lastSelectedBeatmapDifficulty$k__BackingField(GlobalNamespace::BeatmapDifficulty value);
-    // Get instance field: private BeatmapCharacteristicSO <lastSelectedBeatmapCharacteristic>k__BackingField
-    GlobalNamespace::BeatmapCharacteristicSO* _get_$lastSelectedBeatmapCharacteristic$k__BackingField();
-    // Set instance field: private BeatmapCharacteristicSO <lastSelectedBeatmapCharacteristic>k__BackingField
-    void _set_$lastSelectedBeatmapCharacteristic$k__BackingField(GlobalNamespace::BeatmapCharacteristicSO* value);
-    // Get instance field: private GameplayModifiers <gameplayModifiers>k__BackingField
-    GlobalNamespace::GameplayModifiers* _get_$gameplayModifiers$k__BackingField();
-    // Set instance field: private GameplayModifiers <gameplayModifiers>k__BackingField
-    void _set_$gameplayModifiers$k__BackingField(GlobalNamespace::GameplayModifiers* value);
-    // Get instance field: private PlayerSpecificSettings <playerSpecificSettings>k__BackingField
-    GlobalNamespace::PlayerSpecificSettings* _get_$playerSpecificSettings$k__BackingField();
-    // Set instance field: private PlayerSpecificSettings <playerSpecificSettings>k__BackingField
-    void _set_$playerSpecificSettings$k__BackingField(GlobalNamespace::PlayerSpecificSettings* value);
-    // Get instance field: private PracticeSettings <practiceSettings>k__BackingField
-    GlobalNamespace::PracticeSettings* _get_$practiceSettings$k__BackingField();
-    // Set instance field: private PracticeSettings <practiceSettings>k__BackingField
-    void _set_$practiceSettings$k__BackingField(GlobalNamespace::PracticeSettings* value);
-    // Get instance field: private PlayerAllOverallStatsData <playerAllOverallStatsData>k__BackingField
-    GlobalNamespace::PlayerAllOverallStatsData* _get_$playerAllOverallStatsData$k__BackingField();
-    // Set instance field: private PlayerAllOverallStatsData <playerAllOverallStatsData>k__BackingField
-    void _set_$playerAllOverallStatsData$k__BackingField(GlobalNamespace::PlayerAllOverallStatsData* value);
-    // Get instance field: private System.Collections.Generic.List`1<PlayerLevelStatsData> <levelsStatsData>k__BackingField
-    System::Collections::Generic::List_1<GlobalNamespace::PlayerLevelStatsData*>* _get_$levelsStatsData$k__BackingField();
-    // Set instance field: private System.Collections.Generic.List`1<PlayerLevelStatsData> <levelsStatsData>k__BackingField
-    void _set_$levelsStatsData$k__BackingField(System::Collections::Generic::List_1<GlobalNamespace::PlayerLevelStatsData*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<PlayerMissionStatsData> <missionsStatsData>k__BackingField
-    System::Collections::Generic::List_1<GlobalNamespace::PlayerMissionStatsData*>* _get_$missionsStatsData$k__BackingField();
-    // Set instance field: private System.Collections.Generic.List`1<PlayerMissionStatsData> <missionsStatsData>k__BackingField
-    void _set_$missionsStatsData$k__BackingField(System::Collections::Generic::List_1<GlobalNamespace::PlayerMissionStatsData*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<System.String> <showedMissionHelpIds>k__BackingField
-    System::Collections::Generic::List_1<::Il2CppString*>* _get_$showedMissionHelpIds$k__BackingField();
-    // Set instance field: private System.Collections.Generic.List`1<System.String> <showedMissionHelpIds>k__BackingField
-    void _set_$showedMissionHelpIds$k__BackingField(System::Collections::Generic::List_1<::Il2CppString*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<System.String> <guestPlayerNames>k__BackingField
-    System::Collections::Generic::List_1<::Il2CppString*>* _get_$guestPlayerNames$k__BackingField();
-    // Set instance field: private System.Collections.Generic.List`1<System.String> <guestPlayerNames>k__BackingField
-    void _set_$guestPlayerNames$k__BackingField(System::Collections::Generic::List_1<::Il2CppString*>* value);
-    // Get instance field: private ColorSchemesSettings <colorSchemesSettings>k__BackingField
-    GlobalNamespace::ColorSchemesSettings* _get_$colorSchemesSettings$k__BackingField();
-    // Set instance field: private ColorSchemesSettings <colorSchemesSettings>k__BackingField
-    void _set_$colorSchemesSettings$k__BackingField(GlobalNamespace::ColorSchemesSettings* value);
-    // Get instance field: private OverrideEnvironmentSettings <overrideEnvironmentSettings>k__BackingField
-    GlobalNamespace::OverrideEnvironmentSettings* _get_$overrideEnvironmentSettings$k__BackingField();
-    // Set instance field: private OverrideEnvironmentSettings <overrideEnvironmentSettings>k__BackingField
-    void _set_$overrideEnvironmentSettings$k__BackingField(GlobalNamespace::OverrideEnvironmentSettings* value);
-    // Get instance field: private System.Collections.Generic.HashSet`1<System.String> <favoritesLevelIds>k__BackingField
-    System::Collections::Generic::HashSet_1<::Il2CppString*>* _get_$favoritesLevelIds$k__BackingField();
-    // Set instance field: private System.Collections.Generic.HashSet`1<System.String> <favoritesLevelIds>k__BackingField
-    void _set_$favoritesLevelIds$k__BackingField(System::Collections::Generic::HashSet_1<::Il2CppString*>* value);
-    // Get instance field: private MultiplayerModeSettings <multiplayerModeSettings>k__BackingField
-    GlobalNamespace::MultiplayerModeSettings* _get_$multiplayerModeSettings$k__BackingField();
-    // Set instance field: private MultiplayerModeSettings <multiplayerModeSettings>k__BackingField
-    void _set_$multiplayerModeSettings$k__BackingField(GlobalNamespace::MultiplayerModeSettings* value);
-    // Get instance field: private System.Int32 <currentDlcPromoDisplayCount>k__BackingField
-    int _get_$currentDlcPromoDisplayCount$k__BackingField();
-    // Set instance field: private System.Int32 <currentDlcPromoDisplayCount>k__BackingField
-    void _set_$currentDlcPromoDisplayCount$k__BackingField(int value);
-    // Get instance field: private System.String <currentDlcPromoId>k__BackingField
-    ::Il2CppString* _get_$currentDlcPromoId$k__BackingField();
-    // Set instance field: private System.String <currentDlcPromoId>k__BackingField
-    void _set_$currentDlcPromoId$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.Action favoriteLevelsSetDidChangeEvent
-    System::Action* _get_favoriteLevelsSetDidChangeEvent();
-    // Set instance field: private System.Action favoriteLevelsSetDidChangeEvent
-    void _set_favoriteLevelsSetDidChangeEvent(System::Action* value);
-    // Get instance field: private System.Action didIncreaseNumberOfGameplaysEvent
-    System::Action* _get_didIncreaseNumberOfGameplaysEvent();
-    // Set instance field: private System.Action didIncreaseNumberOfGameplaysEvent
-    void _set_didIncreaseNumberOfGameplaysEvent(System::Action* value);
-    // Get instance field: private System.Action didChangeShareMultiplayerLobbyCodeInRichPresenceEvent
-    System::Action* _get_didChangeShareMultiplayerLobbyCodeInRichPresenceEvent();
-    // Set instance field: private System.Action didChangeShareMultiplayerLobbyCodeInRichPresenceEvent
-    void _set_didChangeShareMultiplayerLobbyCodeInRichPresenceEvent(System::Action* value);
+    // Get instance field reference: private System.String <playerId>k__BackingField
+    ::Il2CppString*& dyn_$playerId$k__BackingField();
+    // Get instance field reference: private System.String <playerName>k__BackingField
+    ::Il2CppString*& dyn_$playerName$k__BackingField();
+    // Get instance field reference: private System.Boolean <shouldShowTutorialPrompt>k__BackingField
+    bool& dyn_$shouldShowTutorialPrompt$k__BackingField();
+    // Get instance field reference: private System.Boolean <shouldShow360Warning>k__BackingField
+    bool& dyn_$shouldShow360Warning$k__BackingField();
+    // Get instance field reference: private System.Boolean <agreedToEula>k__BackingField
+    bool& dyn_$agreedToEula$k__BackingField();
+    // Get instance field reference: private System.Boolean <didSelectLanguage>k__BackingField
+    bool& dyn_$didSelectLanguage$k__BackingField();
+    // Get instance field reference: private System.Boolean <agreedToMultiplayerDisclaimer>k__BackingField
+    bool& dyn_$agreedToMultiplayerDisclaimer$k__BackingField();
+    // Get instance field reference: private System.Boolean <avatarCreated>k__BackingField
+    bool& dyn_$avatarCreated$k__BackingField();
+    // Get instance field reference: private System.Boolean <shareMultiplayerLobbyCodeInRichPresence>k__BackingField
+    bool& dyn_$shareMultiplayerLobbyCodeInRichPresence$k__BackingField();
+    // Get instance field reference: private BeatmapDifficulty <lastSelectedBeatmapDifficulty>k__BackingField
+    GlobalNamespace::BeatmapDifficulty& dyn_$lastSelectedBeatmapDifficulty$k__BackingField();
+    // Get instance field reference: private BeatmapCharacteristicSO <lastSelectedBeatmapCharacteristic>k__BackingField
+    GlobalNamespace::BeatmapCharacteristicSO*& dyn_$lastSelectedBeatmapCharacteristic$k__BackingField();
+    // Get instance field reference: private GameplayModifiers <gameplayModifiers>k__BackingField
+    GlobalNamespace::GameplayModifiers*& dyn_$gameplayModifiers$k__BackingField();
+    // Get instance field reference: private PlayerSpecificSettings <playerSpecificSettings>k__BackingField
+    GlobalNamespace::PlayerSpecificSettings*& dyn_$playerSpecificSettings$k__BackingField();
+    // Get instance field reference: private PracticeSettings <practiceSettings>k__BackingField
+    GlobalNamespace::PracticeSettings*& dyn_$practiceSettings$k__BackingField();
+    // Get instance field reference: private PlayerAllOverallStatsData <playerAllOverallStatsData>k__BackingField
+    GlobalNamespace::PlayerAllOverallStatsData*& dyn_$playerAllOverallStatsData$k__BackingField();
+    // Get instance field reference: private System.Collections.Generic.List`1<PlayerLevelStatsData> <levelsStatsData>k__BackingField
+    System::Collections::Generic::List_1<GlobalNamespace::PlayerLevelStatsData*>*& dyn_$levelsStatsData$k__BackingField();
+    // Get instance field reference: private System.Collections.Generic.List`1<PlayerMissionStatsData> <missionsStatsData>k__BackingField
+    System::Collections::Generic::List_1<GlobalNamespace::PlayerMissionStatsData*>*& dyn_$missionsStatsData$k__BackingField();
+    // Get instance field reference: private System.Collections.Generic.List`1<System.String> <showedMissionHelpIds>k__BackingField
+    System::Collections::Generic::List_1<::Il2CppString*>*& dyn_$showedMissionHelpIds$k__BackingField();
+    // Get instance field reference: private System.Collections.Generic.List`1<System.String> <guestPlayerNames>k__BackingField
+    System::Collections::Generic::List_1<::Il2CppString*>*& dyn_$guestPlayerNames$k__BackingField();
+    // Get instance field reference: private ColorSchemesSettings <colorSchemesSettings>k__BackingField
+    GlobalNamespace::ColorSchemesSettings*& dyn_$colorSchemesSettings$k__BackingField();
+    // Get instance field reference: private OverrideEnvironmentSettings <overrideEnvironmentSettings>k__BackingField
+    GlobalNamespace::OverrideEnvironmentSettings*& dyn_$overrideEnvironmentSettings$k__BackingField();
+    // Get instance field reference: private System.Collections.Generic.HashSet`1<System.String> <favoritesLevelIds>k__BackingField
+    System::Collections::Generic::HashSet_1<::Il2CppString*>*& dyn_$favoritesLevelIds$k__BackingField();
+    // Get instance field reference: private MultiplayerModeSettings <multiplayerModeSettings>k__BackingField
+    GlobalNamespace::MultiplayerModeSettings*& dyn_$multiplayerModeSettings$k__BackingField();
+    // Get instance field reference: private System.Int32 <currentDlcPromoDisplayCount>k__BackingField
+    int& dyn_$currentDlcPromoDisplayCount$k__BackingField();
+    // Get instance field reference: private System.String <currentDlcPromoId>k__BackingField
+    ::Il2CppString*& dyn_$currentDlcPromoId$k__BackingField();
+    // Get instance field reference: private System.Action favoriteLevelsSetDidChangeEvent
+    System::Action*& dyn_favoriteLevelsSetDidChangeEvent();
+    // Get instance field reference: private System.Action didIncreaseNumberOfGameplaysEvent
+    System::Action*& dyn_didIncreaseNumberOfGameplaysEvent();
+    // Get instance field reference: private System.Action didChangeShareMultiplayerLobbyCodeInRichPresenceEvent
+    System::Action*& dyn_didChangeShareMultiplayerLobbyCodeInRichPresenceEvent();
     // public System.String get_playerId()
     // Offset: 0x11352A0
     ::Il2CppString* get_playerId();

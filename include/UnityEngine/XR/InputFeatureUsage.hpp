@@ -47,14 +47,10 @@ namespace UnityEngine::XR {
     operator System::IEquatable_1<UnityEngine::XR::InputFeatureUsage>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::XR::InputFeatureUsage>*>(this);
     }
-    // Get instance field: System.String m_Name
-    ::Il2CppString* _get_m_Name();
-    // Set instance field: System.String m_Name
-    void _set_m_Name(::Il2CppString* value);
-    // Get instance field: UnityEngine.XR.InputFeatureType m_InternalType
-    UnityEngine::XR::InputFeatureType _get_m_InternalType();
-    // Set instance field: UnityEngine.XR.InputFeatureType m_InternalType
-    void _set_m_InternalType(UnityEngine::XR::InputFeatureType value);
+    // Get instance field reference: System.String m_Name
+    ::Il2CppString*& dyn_m_Name();
+    // Get instance field reference: UnityEngine.XR.InputFeatureType m_InternalType
+    UnityEngine::XR::InputFeatureType& dyn_m_InternalType();
     // public System.String get_name()
     // Offset: 0x240A040
     ::Il2CppString* get_name();

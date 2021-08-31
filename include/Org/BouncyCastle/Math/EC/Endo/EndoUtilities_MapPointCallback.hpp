@@ -59,14 +59,10 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     operator Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*>(this);
     }
-    // Get instance field: private readonly Org.BouncyCastle.Math.EC.Endo.ECEndomorphism m_endomorphism
-    Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* _get_m_endomorphism();
-    // Set instance field: private readonly Org.BouncyCastle.Math.EC.Endo.ECEndomorphism m_endomorphism
-    void _set_m_endomorphism(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* value);
-    // Get instance field: private readonly Org.BouncyCastle.Math.EC.ECPoint m_point
-    Org::BouncyCastle::Math::EC::ECPoint* _get_m_point();
-    // Set instance field: private readonly Org.BouncyCastle.Math.EC.ECPoint m_point
-    void _set_m_point(Org::BouncyCastle::Math::EC::ECPoint* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.Endo.ECEndomorphism m_endomorphism
+    Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*& dyn_m_endomorphism();
+    // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.ECPoint m_point
+    Org::BouncyCastle::Math::EC::ECPoint*& dyn_m_point();
     // System.Void .ctor(Org.BouncyCastle.Math.EC.Endo.ECEndomorphism endomorphism, Org.BouncyCastle.Math.EC.ECPoint point)
     // Offset: 0x2145CA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

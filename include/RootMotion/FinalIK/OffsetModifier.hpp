@@ -62,18 +62,12 @@ namespace RootMotion::FinalIK {
     OffsetModifier(float weight_ = {}, RootMotion::FinalIK::FullBodyBipedIK* ik_ = {}, float lastTime_ = {}) noexcept : weight{weight_}, ik{ik_}, lastTime{lastTime_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public System.Single weight
-    float _get_weight();
-    // Set instance field: public System.Single weight
-    void _set_weight(float value);
-    // Get instance field: public RootMotion.FinalIK.FullBodyBipedIK ik
-    RootMotion::FinalIK::FullBodyBipedIK* _get_ik();
-    // Set instance field: public RootMotion.FinalIK.FullBodyBipedIK ik
-    void _set_ik(RootMotion::FinalIK::FullBodyBipedIK* value);
-    // Get instance field: protected System.Single lastTime
-    float _get_lastTime();
-    // Set instance field: protected System.Single lastTime
-    void _set_lastTime(float value);
+    // Get instance field reference: public System.Single weight
+    float& dyn_weight();
+    // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedIK ik
+    RootMotion::FinalIK::FullBodyBipedIK*& dyn_ik();
+    // Get instance field reference: protected System.Single lastTime
+    float& dyn_lastTime();
     // protected System.Single get_deltaTime()
     // Offset: 0x1AD7F34
     float get_deltaTime();

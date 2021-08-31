@@ -50,18 +50,12 @@ namespace HMUI {
     static_assert(sizeof(System::Action*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass38_0
     $$c__DisplayClass38_0(bool immediately_ = {}, HMUI::FlowCoordinator* $$4__this_ = {}, System::Action* finishedCallback_ = {}) noexcept : immediately{immediately_}, $$4__this{$$4__this_}, finishedCallback{finishedCallback_} {}
-    // Get instance field: public System.Boolean immediately
-    bool _get_immediately();
-    // Set instance field: public System.Boolean immediately
-    void _set_immediately(bool value);
-    // Get instance field: public HMUI.FlowCoordinator <>4__this
-    HMUI::FlowCoordinator* _get_$$4__this();
-    // Set instance field: public HMUI.FlowCoordinator <>4__this
-    void _set_$$4__this(HMUI::FlowCoordinator* value);
-    // Get instance field: public System.Action finishedCallback
-    System::Action* _get_finishedCallback();
-    // Set instance field: public System.Action finishedCallback
-    void _set_finishedCallback(System::Action* value);
+    // Get instance field reference: public System.Boolean immediately
+    bool& dyn_immediately();
+    // Get instance field reference: public HMUI.FlowCoordinator <>4__this
+    HMUI::FlowCoordinator*& dyn_$$4__this();
+    // Get instance field reference: public System.Action finishedCallback
+    System::Action*& dyn_finishedCallback();
     // public System.Void .ctor()
     // Offset: 0x136D2F0
     // Implemented from: System.Object

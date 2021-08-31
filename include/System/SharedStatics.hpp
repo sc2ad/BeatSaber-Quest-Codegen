@@ -36,10 +36,8 @@ namespace System {
     static System::SharedStatics* _get__sharedStatics();
     // Set static field: static private readonly System.SharedStatics _sharedStatics
     static void _set__sharedStatics(System::SharedStatics* value);
-    // Get instance field: private System.Security.Util.Tokenizer/System.Security.Util.StringMaker _maker
-    System::Security::Util::Tokenizer::StringMaker* _get__maker();
-    // Set instance field: private System.Security.Util.Tokenizer/System.Security.Util.StringMaker _maker
-    void _set__maker(System::Security::Util::Tokenizer::StringMaker* value);
+    // Get instance field reference: private System.Security.Util.Tokenizer/System.Security.Util.StringMaker _maker
+    System::Security::Util::Tokenizer::StringMaker*& dyn__maker();
     // static private System.Void .cctor()
     // Offset: 0x1C0424C
     static void _cctor();

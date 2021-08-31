@@ -54,14 +54,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::OculusConnectionManager::OculusConnection*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass15_0
     $$c__DisplayClass15_0(System::Action_2<GlobalNamespace::OculusConnectionManager::OculusConnection*, float>* onPingResult_ = {}, GlobalNamespace::OculusConnectionManager::OculusConnection* $$4__this_ = {}) noexcept : onPingResult{onPingResult_}, $$4__this{$$4__this_} {}
-    // Get instance field: public System.Action`2<OculusConnectionManager/OculusConnection,System.Single> onPingResult
-    System::Action_2<GlobalNamespace::OculusConnectionManager::OculusConnection*, float>* _get_onPingResult();
-    // Set instance field: public System.Action`2<OculusConnectionManager/OculusConnection,System.Single> onPingResult
-    void _set_onPingResult(System::Action_2<GlobalNamespace::OculusConnectionManager::OculusConnection*, float>* value);
-    // Get instance field: public OculusConnectionManager/OculusConnection <>4__this
-    GlobalNamespace::OculusConnectionManager::OculusConnection* _get_$$4__this();
-    // Set instance field: public OculusConnectionManager/OculusConnection <>4__this
-    void _set_$$4__this(GlobalNamespace::OculusConnectionManager::OculusConnection* value);
+    // Get instance field reference: public System.Action`2<OculusConnectionManager/OculusConnection,System.Single> onPingResult
+    System::Action_2<GlobalNamespace::OculusConnectionManager::OculusConnection*, float>*& dyn_onPingResult();
+    // Get instance field reference: public OculusConnectionManager/OculusConnection <>4__this
+    GlobalNamespace::OculusConnectionManager::OculusConnection*& dyn_$$4__this();
     // System.Void <Ping>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.PingResult> result)
     // Offset: 0x1239700
     void $Ping$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::PingResult*>* result);

@@ -62,10 +62,8 @@ namespace System::IO::Compression {
     static_assert(sizeof(System::IO::Compression::DeflateStream*) == 0x8);
     // Creating value type constructor for type: GZipStream
     GZipStream(System::IO::Compression::DeflateStream* deflateStream_ = {}) noexcept : deflateStream{deflateStream_} {}
-    // Get instance field: private System.IO.Compression.DeflateStream _deflateStream
-    System::IO::Compression::DeflateStream* _get__deflateStream();
-    // Set instance field: private System.IO.Compression.DeflateStream _deflateStream
-    void _set__deflateStream(System::IO::Compression::DeflateStream* value);
+    // Get instance field reference: private System.IO.Compression.DeflateStream _deflateStream
+    System::IO::Compression::DeflateStream*& dyn__deflateStream();
     // public System.Void .ctor(System.IO.Stream stream, System.IO.Compression.CompressionMode mode)
     // Offset: 0x18B8D2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

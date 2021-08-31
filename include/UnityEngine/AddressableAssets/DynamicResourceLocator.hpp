@@ -64,14 +64,10 @@ namespace UnityEngine::AddressableAssets {
     operator UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator() noexcept {
       return *reinterpret_cast<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>(this);
     }
-    // Get instance field: private UnityEngine.AddressableAssets.AddressablesImpl m_Addressables
-    UnityEngine::AddressableAssets::AddressablesImpl* _get_m_Addressables();
-    // Set instance field: private UnityEngine.AddressableAssets.AddressablesImpl m_Addressables
-    void _set_m_Addressables(UnityEngine::AddressableAssets::AddressablesImpl* value);
-    // Get instance field: private System.String m_AtlasSpriteProviderId
-    ::Il2CppString* _get_m_AtlasSpriteProviderId();
-    // Set instance field: private System.String m_AtlasSpriteProviderId
-    void _set_m_AtlasSpriteProviderId(::Il2CppString* value);
+    // Get instance field reference: private UnityEngine.AddressableAssets.AddressablesImpl m_Addressables
+    UnityEngine::AddressableAssets::AddressablesImpl*& dyn_m_Addressables();
+    // Get instance field reference: private System.String m_AtlasSpriteProviderId
+    ::Il2CppString*& dyn_m_AtlasSpriteProviderId();
     // public System.String get_LocatorId()
     // Offset: 0x14445B8
     ::Il2CppString* get_LocatorId();

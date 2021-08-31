@@ -54,18 +54,12 @@ namespace GlobalNamespace {
     AvatarDataModel(GlobalNamespace::AvatarDataFileManagerSO* avatarDataFileManager_ = {}, GlobalNamespace::AvatarPartsModel* avatarPartsModel_ = {}, GlobalNamespace::AvatarData* avatarData_ = {}) noexcept : avatarDataFileManager{avatarDataFileManager_}, avatarPartsModel{avatarPartsModel_}, avatarData{avatarData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private AvatarDataFileManagerSO _avatarDataFileManager
-    GlobalNamespace::AvatarDataFileManagerSO* _get__avatarDataFileManager();
-    // Set instance field: private AvatarDataFileManagerSO _avatarDataFileManager
-    void _set__avatarDataFileManager(GlobalNamespace::AvatarDataFileManagerSO* value);
-    // Get instance field: private readonly AvatarPartsModel _avatarPartsModel
-    GlobalNamespace::AvatarPartsModel* _get__avatarPartsModel();
-    // Set instance field: private readonly AvatarPartsModel _avatarPartsModel
-    void _set__avatarPartsModel(GlobalNamespace::AvatarPartsModel* value);
-    // Get instance field: private AvatarData <avatarData>k__BackingField
-    GlobalNamespace::AvatarData* _get_$avatarData$k__BackingField();
-    // Set instance field: private AvatarData <avatarData>k__BackingField
-    void _set_$avatarData$k__BackingField(GlobalNamespace::AvatarData* value);
+    // Get instance field reference: private AvatarDataFileManagerSO _avatarDataFileManager
+    GlobalNamespace::AvatarDataFileManagerSO*& dyn__avatarDataFileManager();
+    // Get instance field reference: private readonly AvatarPartsModel _avatarPartsModel
+    GlobalNamespace::AvatarPartsModel*& dyn__avatarPartsModel();
+    // Get instance field reference: private AvatarData <avatarData>k__BackingField
+    GlobalNamespace::AvatarData*& dyn_$avatarData$k__BackingField();
     // public AvatarData get_avatarData()
     // Offset: 0x1180594
     GlobalNamespace::AvatarData* get_avatarData();

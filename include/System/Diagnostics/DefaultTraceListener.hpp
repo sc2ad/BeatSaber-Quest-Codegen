@@ -40,10 +40,8 @@ namespace System::Diagnostics {
     static ::Il2CppString* _get_MonoTraceFile();
     // Set static field: static private readonly System.String MonoTraceFile
     static void _set_MonoTraceFile(::Il2CppString* value);
-    // Get instance field: private System.String logFileName
-    ::Il2CppString* _get_logFileName();
-    // Set instance field: private System.String logFileName
-    void _set_logFileName(::Il2CppString* value);
+    // Get instance field reference: private System.String logFileName
+    ::Il2CppString*& dyn_logFileName();
     // public System.String get_LogFileName()
     // Offset: 0x18B1330
     ::Il2CppString* get_LogFileName();

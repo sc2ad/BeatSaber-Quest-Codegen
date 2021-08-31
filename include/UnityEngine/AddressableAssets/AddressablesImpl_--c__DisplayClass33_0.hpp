@@ -36,14 +36,10 @@ namespace UnityEngine::AddressableAssets {
     static_assert(sizeof(UnityEngine::AddressableAssets::AddressablesImpl*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass33_0
     $$c__DisplayClass33_0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> op_ = {}, UnityEngine::AddressableAssets::AddressablesImpl* $$4__this_ = {}) noexcept : op{op_}, $$4__this{$$4__this_} {}
-    // Get instance field: public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> op
-    UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> _get_op();
-    // Set instance field: public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> op
-    void _set_op(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> value);
-    // Get instance field: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
-    UnityEngine::AddressableAssets::AddressablesImpl* _get_$$4__this();
-    // Set instance field: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
-    void _set_$$4__this(UnityEngine::AddressableAssets::AddressablesImpl* value);
+    // Get instance field reference: public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> op
+    UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>& dyn_op();
+    // Get instance field reference: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
+    UnityEngine::AddressableAssets::AddressablesImpl*& dyn_$$4__this();
     // System.Void <OnSceneUnloaded>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> handle)
     // Offset: 0x14425FC
     void $OnSceneUnloaded$b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> handle);

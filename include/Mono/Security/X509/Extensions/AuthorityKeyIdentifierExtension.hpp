@@ -32,10 +32,8 @@ namespace Mono::Security::X509::Extensions {
     constexpr operator ::Array<uint8_t>*() const noexcept {
       return aki;
     }
-    // Get instance field: private System.Byte[] aki
-    ::Array<uint8_t>* _get_aki();
-    // Set instance field: private System.Byte[] aki
-    void _set_aki(::Array<uint8_t>* value);
+    // Get instance field reference: private System.Byte[] aki
+    ::Array<uint8_t>*& dyn_aki();
     // public System.Byte[] get_Identifier()
     // Offset: 0x1E09E14
     ::Array<uint8_t>* get_Identifier();

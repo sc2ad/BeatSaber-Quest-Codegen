@@ -176,82 +176,44 @@ namespace System::Text::RegularExpressions {
     static ::Array<uint8_t>* _get__category();
     // Set static field: static readonly System.Byte[] _category
     static void _set__category(::Array<uint8_t>* value);
-    // Get instance field: System.Text.RegularExpressions.RegexNode _stack
-    System::Text::RegularExpressions::RegexNode* _get__stack();
-    // Set instance field: System.Text.RegularExpressions.RegexNode _stack
-    void _set__stack(System::Text::RegularExpressions::RegexNode* value);
-    // Get instance field: System.Text.RegularExpressions.RegexNode _group
-    System::Text::RegularExpressions::RegexNode* _get__group();
-    // Set instance field: System.Text.RegularExpressions.RegexNode _group
-    void _set__group(System::Text::RegularExpressions::RegexNode* value);
-    // Get instance field: System.Text.RegularExpressions.RegexNode _alternation
-    System::Text::RegularExpressions::RegexNode* _get__alternation();
-    // Set instance field: System.Text.RegularExpressions.RegexNode _alternation
-    void _set__alternation(System::Text::RegularExpressions::RegexNode* value);
-    // Get instance field: System.Text.RegularExpressions.RegexNode _concatenation
-    System::Text::RegularExpressions::RegexNode* _get__concatenation();
-    // Set instance field: System.Text.RegularExpressions.RegexNode _concatenation
-    void _set__concatenation(System::Text::RegularExpressions::RegexNode* value);
-    // Get instance field: System.Text.RegularExpressions.RegexNode _unit
-    System::Text::RegularExpressions::RegexNode* _get__unit();
-    // Set instance field: System.Text.RegularExpressions.RegexNode _unit
-    void _set__unit(System::Text::RegularExpressions::RegexNode* value);
-    // Get instance field: System.String _pattern
-    ::Il2CppString* _get__pattern();
-    // Set instance field: System.String _pattern
-    void _set__pattern(::Il2CppString* value);
-    // Get instance field: System.Int32 _currentPos
-    int _get__currentPos();
-    // Set instance field: System.Int32 _currentPos
-    void _set__currentPos(int value);
-    // Get instance field: System.Globalization.CultureInfo _culture
-    System::Globalization::CultureInfo* _get__culture();
-    // Set instance field: System.Globalization.CultureInfo _culture
-    void _set__culture(System::Globalization::CultureInfo* value);
-    // Get instance field: System.Int32 _autocap
-    int _get__autocap();
-    // Set instance field: System.Int32 _autocap
-    void _set__autocap(int value);
-    // Get instance field: System.Int32 _capcount
-    int _get__capcount();
-    // Set instance field: System.Int32 _capcount
-    void _set__capcount(int value);
-    // Get instance field: System.Int32 _captop
-    int _get__captop();
-    // Set instance field: System.Int32 _captop
-    void _set__captop(int value);
-    // Get instance field: System.Int32 _capsize
-    int _get__capsize();
-    // Set instance field: System.Int32 _capsize
-    void _set__capsize(int value);
-    // Get instance field: System.Collections.Hashtable _caps
-    System::Collections::Hashtable* _get__caps();
-    // Set instance field: System.Collections.Hashtable _caps
-    void _set__caps(System::Collections::Hashtable* value);
-    // Get instance field: System.Collections.Hashtable _capnames
-    System::Collections::Hashtable* _get__capnames();
-    // Set instance field: System.Collections.Hashtable _capnames
-    void _set__capnames(System::Collections::Hashtable* value);
-    // Get instance field: System.Int32[] _capnumlist
-    ::Array<int>* _get__capnumlist();
-    // Set instance field: System.Int32[] _capnumlist
-    void _set__capnumlist(::Array<int>* value);
-    // Get instance field: System.Collections.Generic.List`1<System.String> _capnamelist
-    System::Collections::Generic::List_1<::Il2CppString*>* _get__capnamelist();
-    // Set instance field: System.Collections.Generic.List`1<System.String> _capnamelist
-    void _set__capnamelist(System::Collections::Generic::List_1<::Il2CppString*>* value);
-    // Get instance field: System.Text.RegularExpressions.RegexOptions _options
-    System::Text::RegularExpressions::RegexOptions _get__options();
-    // Set instance field: System.Text.RegularExpressions.RegexOptions _options
-    void _set__options(System::Text::RegularExpressions::RegexOptions value);
-    // Get instance field: System.Collections.Generic.List`1<System.Text.RegularExpressions.RegexOptions> _optionsStack
-    System::Collections::Generic::List_1<System::Text::RegularExpressions::RegexOptions>* _get__optionsStack();
-    // Set instance field: System.Collections.Generic.List`1<System.Text.RegularExpressions.RegexOptions> _optionsStack
-    void _set__optionsStack(System::Collections::Generic::List_1<System::Text::RegularExpressions::RegexOptions>* value);
-    // Get instance field: System.Boolean _ignoreNextParen
-    bool _get__ignoreNextParen();
-    // Set instance field: System.Boolean _ignoreNextParen
-    void _set__ignoreNextParen(bool value);
+    // Get instance field reference: System.Text.RegularExpressions.RegexNode _stack
+    System::Text::RegularExpressions::RegexNode*& dyn__stack();
+    // Get instance field reference: System.Text.RegularExpressions.RegexNode _group
+    System::Text::RegularExpressions::RegexNode*& dyn__group();
+    // Get instance field reference: System.Text.RegularExpressions.RegexNode _alternation
+    System::Text::RegularExpressions::RegexNode*& dyn__alternation();
+    // Get instance field reference: System.Text.RegularExpressions.RegexNode _concatenation
+    System::Text::RegularExpressions::RegexNode*& dyn__concatenation();
+    // Get instance field reference: System.Text.RegularExpressions.RegexNode _unit
+    System::Text::RegularExpressions::RegexNode*& dyn__unit();
+    // Get instance field reference: System.String _pattern
+    ::Il2CppString*& dyn__pattern();
+    // Get instance field reference: System.Int32 _currentPos
+    int& dyn__currentPos();
+    // Get instance field reference: System.Globalization.CultureInfo _culture
+    System::Globalization::CultureInfo*& dyn__culture();
+    // Get instance field reference: System.Int32 _autocap
+    int& dyn__autocap();
+    // Get instance field reference: System.Int32 _capcount
+    int& dyn__capcount();
+    // Get instance field reference: System.Int32 _captop
+    int& dyn__captop();
+    // Get instance field reference: System.Int32 _capsize
+    int& dyn__capsize();
+    // Get instance field reference: System.Collections.Hashtable _caps
+    System::Collections::Hashtable*& dyn__caps();
+    // Get instance field reference: System.Collections.Hashtable _capnames
+    System::Collections::Hashtable*& dyn__capnames();
+    // Get instance field reference: System.Int32[] _capnumlist
+    ::Array<int>*& dyn__capnumlist();
+    // Get instance field reference: System.Collections.Generic.List`1<System.String> _capnamelist
+    System::Collections::Generic::List_1<::Il2CppString*>*& dyn__capnamelist();
+    // Get instance field reference: System.Text.RegularExpressions.RegexOptions _options
+    System::Text::RegularExpressions::RegexOptions& dyn__options();
+    // Get instance field reference: System.Collections.Generic.List`1<System.Text.RegularExpressions.RegexOptions> _optionsStack
+    System::Collections::Generic::List_1<System::Text::RegularExpressions::RegexOptions>*& dyn__optionsStack();
+    // Get instance field reference: System.Boolean _ignoreNextParen
+    bool& dyn__ignoreNextParen();
     // private System.Void .ctor(System.Globalization.CultureInfo culture)
     // Offset: 0x199B29C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

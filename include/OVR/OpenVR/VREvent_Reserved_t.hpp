@@ -47,22 +47,14 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.UInt64 reserved0
-    uint64_t _get_reserved0();
-    // Set instance field: public System.UInt64 reserved0
-    void _set_reserved0(uint64_t value);
-    // Get instance field: public System.UInt64 reserved1
-    uint64_t _get_reserved1();
-    // Set instance field: public System.UInt64 reserved1
-    void _set_reserved1(uint64_t value);
-    // Get instance field: public System.UInt64 reserved2
-    uint64_t _get_reserved2();
-    // Set instance field: public System.UInt64 reserved2
-    void _set_reserved2(uint64_t value);
-    // Get instance field: public System.UInt64 reserved3
-    uint64_t _get_reserved3();
-    // Set instance field: public System.UInt64 reserved3
-    void _set_reserved3(uint64_t value);
+    // Get instance field reference: public System.UInt64 reserved0
+    uint64_t& dyn_reserved0();
+    // Get instance field reference: public System.UInt64 reserved1
+    uint64_t& dyn_reserved1();
+    // Get instance field reference: public System.UInt64 reserved2
+    uint64_t& dyn_reserved2();
+    // Get instance field reference: public System.UInt64 reserved3
+    uint64_t& dyn_reserved3();
   }; // OVR.OpenVR.VREvent_Reserved_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Reserved_t), 24 + sizeof(uint64_t)> __OVR_OpenVR_VREvent_Reserved_tSizeCheck;

@@ -53,18 +53,12 @@ namespace LiteNetLib {
     static_assert(sizeof(LiteNetLib::NetEvent*) == 0x8);
     // Creating value type constructor for type: NetPacketReader
     NetPacketReader(LiteNetLib::NetPacket* packet_ = {}, LiteNetLib::NetManager* manager_ = {}, LiteNetLib::NetEvent* evt_ = {}) noexcept : packet{packet_}, manager{manager_}, evt{evt_} {}
-    // Get instance field: private LiteNetLib.NetPacket _packet
-    LiteNetLib::NetPacket* _get__packet();
-    // Set instance field: private LiteNetLib.NetPacket _packet
-    void _set__packet(LiteNetLib::NetPacket* value);
-    // Get instance field: private readonly LiteNetLib.NetManager _manager
-    LiteNetLib::NetManager* _get__manager();
-    // Set instance field: private readonly LiteNetLib.NetManager _manager
-    void _set__manager(LiteNetLib::NetManager* value);
-    // Get instance field: private readonly LiteNetLib.NetEvent _evt
-    LiteNetLib::NetEvent* _get__evt();
-    // Set instance field: private readonly LiteNetLib.NetEvent _evt
-    void _set__evt(LiteNetLib::NetEvent* value);
+    // Get instance field reference: private LiteNetLib.NetPacket _packet
+    LiteNetLib::NetPacket*& dyn__packet();
+    // Get instance field reference: private readonly LiteNetLib.NetManager _manager
+    LiteNetLib::NetManager*& dyn__manager();
+    // Get instance field reference: private readonly LiteNetLib.NetEvent _evt
+    LiteNetLib::NetEvent*& dyn__evt();
     // System.Void .ctor(LiteNetLib.NetManager manager, LiteNetLib.NetEvent evt)
     // Offset: 0x1BF35C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

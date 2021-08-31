@@ -70,30 +70,18 @@ namespace System::Xml {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: XmlException
     XmlException(::Il2CppString* res_ = {}, ::Array<::Il2CppString*>* args_ = {}, int lineNumber_ = {}, int linePosition_ = {}, ::Il2CppString* sourceUri_ = {}, ::Il2CppString* message_ = {}) noexcept : res{res_}, args{args_}, lineNumber{lineNumber_}, linePosition{linePosition_}, sourceUri{sourceUri_}, message{message_} {}
-    // Get instance field: private System.String res
-    ::Il2CppString* _get_res();
-    // Set instance field: private System.String res
-    void _set_res(::Il2CppString* value);
-    // Get instance field: private System.String[] args
-    ::Array<::Il2CppString*>* _get_args();
-    // Set instance field: private System.String[] args
-    void _set_args(::Array<::Il2CppString*>* value);
-    // Get instance field: private System.Int32 lineNumber
-    int _get_lineNumber();
-    // Set instance field: private System.Int32 lineNumber
-    void _set_lineNumber(int value);
-    // Get instance field: private System.Int32 linePosition
-    int _get_linePosition();
-    // Set instance field: private System.Int32 linePosition
-    void _set_linePosition(int value);
-    // Get instance field: private System.String sourceUri
-    ::Il2CppString* _get_sourceUri();
-    // Set instance field: private System.String sourceUri
-    void _set_sourceUri(::Il2CppString* value);
-    // Get instance field: private System.String message
-    ::Il2CppString* _get_message();
-    // Set instance field: private System.String message
-    void _set_message(::Il2CppString* value);
+    // Get instance field reference: private System.String res
+    ::Il2CppString*& dyn_res();
+    // Get instance field reference: private System.String[] args
+    ::Array<::Il2CppString*>*& dyn_args();
+    // Get instance field reference: private System.Int32 lineNumber
+    int& dyn_lineNumber();
+    // Get instance field reference: private System.Int32 linePosition
+    int& dyn_linePosition();
+    // Get instance field reference: private System.String sourceUri
+    ::Il2CppString*& dyn_sourceUri();
+    // Get instance field reference: private System.String message
+    ::Il2CppString*& dyn_message();
     // public System.Void .ctor(System.String message, System.Exception innerException, System.Int32 lineNumber, System.Int32 linePosition)
     // Offset: 0x195D664
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

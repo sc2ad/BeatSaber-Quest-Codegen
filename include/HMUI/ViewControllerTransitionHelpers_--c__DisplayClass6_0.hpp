@@ -54,22 +54,14 @@ namespace HMUI {
     static_assert(sizeof(HMUI::ViewController*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass6_0
     $$c__DisplayClass6_0(HMUI::ViewController* toPresentViewController_ = {}, float moveOffset_ = {}, float baseCanvasGroupAlpha_ = {}, HMUI::ViewController* toDismissViewController_ = {}) noexcept : toPresentViewController{toPresentViewController_}, moveOffset{moveOffset_}, baseCanvasGroupAlpha{baseCanvasGroupAlpha_}, toDismissViewController{toDismissViewController_} {}
-    // Get instance field: public HMUI.ViewController toPresentViewController
-    HMUI::ViewController* _get_toPresentViewController();
-    // Set instance field: public HMUI.ViewController toPresentViewController
-    void _set_toPresentViewController(HMUI::ViewController* value);
-    // Get instance field: public System.Single moveOffset
-    float _get_moveOffset();
-    // Set instance field: public System.Single moveOffset
-    void _set_moveOffset(float value);
-    // Get instance field: public System.Single baseCanvasGroupAlpha
-    float _get_baseCanvasGroupAlpha();
-    // Set instance field: public System.Single baseCanvasGroupAlpha
-    void _set_baseCanvasGroupAlpha(float value);
-    // Get instance field: public HMUI.ViewController toDismissViewController
-    HMUI::ViewController* _get_toDismissViewController();
-    // Set instance field: public HMUI.ViewController toDismissViewController
-    void _set_toDismissViewController(HMUI::ViewController* value);
+    // Get instance field reference: public HMUI.ViewController toPresentViewController
+    HMUI::ViewController*& dyn_toPresentViewController();
+    // Get instance field reference: public System.Single moveOffset
+    float& dyn_moveOffset();
+    // Get instance field reference: public System.Single baseCanvasGroupAlpha
+    float& dyn_baseCanvasGroupAlpha();
+    // Get instance field reference: public HMUI.ViewController toDismissViewController
+    HMUI::ViewController*& dyn_toDismissViewController();
     // System.Void <DoVerticalTransition>b__0(System.Single t)
     // Offset: 0x23B4438
     void $DoVerticalTransition$b__0(float t);

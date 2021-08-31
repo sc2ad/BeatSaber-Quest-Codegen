@@ -52,14 +52,10 @@ namespace System::Security::Principal {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: GenericIdentity
     GenericIdentity(::Il2CppString* m_name_ = {}, ::Il2CppString* m_type_ = {}) noexcept : m_name{m_name_}, m_type{m_type_} {}
-    // Get instance field: private System.String m_name
-    ::Il2CppString* _get_m_name();
-    // Set instance field: private System.String m_name
-    void _set_m_name(::Il2CppString* value);
-    // Get instance field: private System.String m_type
-    ::Il2CppString* _get_m_type();
-    // Set instance field: private System.String m_type
-    void _set_m_type(::Il2CppString* value);
+    // Get instance field reference: private System.String m_name
+    ::Il2CppString*& dyn_m_name();
+    // Get instance field reference: private System.String m_type
+    ::Il2CppString*& dyn_m_type();
     // public System.Void .ctor(System.String name, System.String type)
     // Offset: 0x1B4A874
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

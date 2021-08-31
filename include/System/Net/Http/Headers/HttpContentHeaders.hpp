@@ -47,10 +47,8 @@ namespace System::Net::Http::Headers {
     constexpr operator System::Net::Http::HttpContent*() const noexcept {
       return content;
     }
-    // Get instance field: private readonly System.Net.Http.HttpContent content
-    System::Net::Http::HttpContent* _get_content();
-    // Set instance field: private readonly System.Net.Http.HttpContent content
-    void _set_content(System::Net::Http::HttpContent* value);
+    // Get instance field reference: private readonly System.Net.Http.HttpContent content
+    System::Net::Http::HttpContent*& dyn_content();
     // public System.Nullable`1<System.Int64> get_ContentLength()
     // Offset: 0x159FD84
     System::Nullable_1<int64_t> get_ContentLength();

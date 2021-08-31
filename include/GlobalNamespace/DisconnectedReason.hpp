@@ -92,10 +92,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::DisconnectedReason _get_ServerTerminated();
     // Set static field: static public DisconnectedReason ServerTerminated
     static void _set_ServerTerminated(GlobalNamespace::DisconnectedReason value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // DisconnectedReason
   #pragma pack(pop)
   static check_size<sizeof(DisconnectedReason), 0 + sizeof(int)> __GlobalNamespace_DisconnectedReasonSizeCheck;

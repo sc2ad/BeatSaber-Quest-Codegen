@@ -72,26 +72,16 @@ namespace GlobalNamespace {
     VFXAnimationEvents(UnityEngine::Animation* animation_ = {}, ::Array<GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent*>* animationEvents_ = {}, System::Action* animationDidPauseEvent_ = {}, System::Action* spawnCharacterEvent_ = {}, System::Action* despawnCharacterEvent_ = {}) noexcept : animation{animation_}, animationEvents{animationEvents_}, animationDidPauseEvent{animationDidPauseEvent_}, spawnCharacterEvent{spawnCharacterEvent_}, despawnCharacterEvent{despawnCharacterEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.Animation _animation
-    UnityEngine::Animation* _get__animation();
-    // Set instance field: private UnityEngine.Animation _animation
-    void _set__animation(UnityEngine::Animation* value);
-    // Get instance field: private VFXAnimationEvents/VFXAnimationEvent[] _animationEvents
-    ::Array<GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent*>* _get__animationEvents();
-    // Set instance field: private VFXAnimationEvents/VFXAnimationEvent[] _animationEvents
-    void _set__animationEvents(::Array<GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent*>* value);
-    // Get instance field: private System.Action animationDidPauseEvent
-    System::Action* _get_animationDidPauseEvent();
-    // Set instance field: private System.Action animationDidPauseEvent
-    void _set_animationDidPauseEvent(System::Action* value);
-    // Get instance field: private System.Action spawnCharacterEvent
-    System::Action* _get_spawnCharacterEvent();
-    // Set instance field: private System.Action spawnCharacterEvent
-    void _set_spawnCharacterEvent(System::Action* value);
-    // Get instance field: private System.Action despawnCharacterEvent
-    System::Action* _get_despawnCharacterEvent();
-    // Set instance field: private System.Action despawnCharacterEvent
-    void _set_despawnCharacterEvent(System::Action* value);
+    // Get instance field reference: private UnityEngine.Animation _animation
+    UnityEngine::Animation*& dyn__animation();
+    // Get instance field reference: private VFXAnimationEvents/VFXAnimationEvent[] _animationEvents
+    ::Array<GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent*>*& dyn__animationEvents();
+    // Get instance field reference: private System.Action animationDidPauseEvent
+    System::Action*& dyn_animationDidPauseEvent();
+    // Get instance field reference: private System.Action spawnCharacterEvent
+    System::Action*& dyn_spawnCharacterEvent();
+    // Get instance field reference: private System.Action despawnCharacterEvent
+    System::Action*& dyn_despawnCharacterEvent();
     // public System.Void add_animationDidPauseEvent(System.Action value)
     // Offset: 0x239AE10
     void add_animationDidPauseEvent(System::Action* value);

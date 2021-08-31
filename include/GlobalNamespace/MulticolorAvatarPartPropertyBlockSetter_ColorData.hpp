@@ -42,18 +42,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: ColorData
     ColorData(UnityEngine::Color defaultColor_ = {}, float darkerColorMultiplier_ = {}, float whiteBoost_ = {}) noexcept : defaultColor{defaultColor_}, darkerColorMultiplier{darkerColorMultiplier_}, whiteBoost{whiteBoost_} {}
-    // Get instance field: private UnityEngine.Color _defaultColor
-    UnityEngine::Color _get__defaultColor();
-    // Set instance field: private UnityEngine.Color _defaultColor
-    void _set__defaultColor(UnityEngine::Color value);
-    // Get instance field: private System.Single _darkerColorMultiplier
-    float _get__darkerColorMultiplier();
-    // Set instance field: private System.Single _darkerColorMultiplier
-    void _set__darkerColorMultiplier(float value);
-    // Get instance field: private System.Single _whiteBoost
-    float _get__whiteBoost();
-    // Set instance field: private System.Single _whiteBoost
-    void _set__whiteBoost(float value);
+    // Get instance field reference: private UnityEngine.Color _defaultColor
+    UnityEngine::Color& dyn__defaultColor();
+    // Get instance field reference: private System.Single _darkerColorMultiplier
+    float& dyn__darkerColorMultiplier();
+    // Get instance field reference: private System.Single _whiteBoost
+    float& dyn__whiteBoost();
     // public UnityEngine.Color get_defaultColor()
     // Offset: 0x11E16D0
     UnityEngine::Color get_defaultColor();

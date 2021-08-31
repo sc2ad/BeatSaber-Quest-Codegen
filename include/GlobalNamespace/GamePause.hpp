@@ -114,46 +114,26 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IGamePause() noexcept {
       return *reinterpret_cast<GlobalNamespace::IGamePause*>(this);
     }
-    // Get instance field: private System.Action didPauseEvent
-    System::Action* _get_didPauseEvent();
-    // Set instance field: private System.Action didPauseEvent
-    void _set_didPauseEvent(System::Action* value);
-    // Get instance field: private System.Action willResumeEvent
-    System::Action* _get_willResumeEvent();
-    // Set instance field: private System.Action willResumeEvent
-    void _set_willResumeEvent(System::Action* value);
-    // Get instance field: private System.Action didResumeEvent
-    System::Action* _get_didResumeEvent();
-    // Set instance field: private System.Action didResumeEvent
-    void _set_didResumeEvent(System::Action* value);
-    // Get instance field: private GameEnergyCounter _gameEnergyCounter
-    GlobalNamespace::GameEnergyCounter* _get__gameEnergyCounter();
-    // Set instance field: private GameEnergyCounter _gameEnergyCounter
-    void _set__gameEnergyCounter(GlobalNamespace::GameEnergyCounter* value);
-    // Get instance field: private IScoreController _scoreController
-    GlobalNamespace::IScoreController* _get__scoreController();
-    // Set instance field: private IScoreController _scoreController
-    void _set__scoreController(GlobalNamespace::IScoreController* value);
-    // Get instance field: private BeatmapObjectExecutionRatingsRecorder _beatmapObjectExecutionRatingsRecorder
-    GlobalNamespace::BeatmapObjectExecutionRatingsRecorder* _get__beatmapObjectExecutionRatingsRecorder();
-    // Set instance field: private BeatmapObjectExecutionRatingsRecorder _beatmapObjectExecutionRatingsRecorder
-    void _set__beatmapObjectExecutionRatingsRecorder(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder* value);
-    // Get instance field: private SongController _songController
-    GlobalNamespace::SongController* _get__songController();
-    // Set instance field: private SongController _songController
-    void _set__songController(GlobalNamespace::SongController* value);
-    // Get instance field: private SaberManager _saberManager
-    GlobalNamespace::SaberManager* _get__saberManager();
-    // Set instance field: private SaberManager _saberManager
-    void _set__saberManager(GlobalNamespace::SaberManager* value);
-    // Get instance field: private AudioListenerController _audioListenerController
-    GlobalNamespace::AudioListenerController* _get__audioListenerController();
-    // Set instance field: private AudioListenerController _audioListenerController
-    void _set__audioListenerController(GlobalNamespace::AudioListenerController* value);
-    // Get instance field: private System.Boolean _pause
-    bool _get__pause();
-    // Set instance field: private System.Boolean _pause
-    void _set__pause(bool value);
+    // Get instance field reference: private System.Action didPauseEvent
+    System::Action*& dyn_didPauseEvent();
+    // Get instance field reference: private System.Action willResumeEvent
+    System::Action*& dyn_willResumeEvent();
+    // Get instance field reference: private System.Action didResumeEvent
+    System::Action*& dyn_didResumeEvent();
+    // Get instance field reference: private GameEnergyCounter _gameEnergyCounter
+    GlobalNamespace::GameEnergyCounter*& dyn__gameEnergyCounter();
+    // Get instance field reference: private IScoreController _scoreController
+    GlobalNamespace::IScoreController*& dyn__scoreController();
+    // Get instance field reference: private BeatmapObjectExecutionRatingsRecorder _beatmapObjectExecutionRatingsRecorder
+    GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*& dyn__beatmapObjectExecutionRatingsRecorder();
+    // Get instance field reference: private SongController _songController
+    GlobalNamespace::SongController*& dyn__songController();
+    // Get instance field reference: private SaberManager _saberManager
+    GlobalNamespace::SaberManager*& dyn__saberManager();
+    // Get instance field reference: private AudioListenerController _audioListenerController
+    GlobalNamespace::AudioListenerController*& dyn__audioListenerController();
+    // Get instance field reference: private System.Boolean _pause
+    bool& dyn__pause();
     // public System.Void add_didPauseEvent(System.Action value)
     // Offset: 0x10FEAF4
     void add_didPauseEvent(System::Action* value);

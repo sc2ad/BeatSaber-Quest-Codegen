@@ -42,14 +42,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::ResultsViewController*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass23_0
     $$c__DisplayClass23_0(GlobalNamespace::SoloFreePlayFlowCoordinator* $$4__this_ = {}, GlobalNamespace::ResultsViewController* resultsViewController_ = {}) noexcept : $$4__this{$$4__this_}, resultsViewController{resultsViewController_} {}
-    // Get instance field: public SoloFreePlayFlowCoordinator <>4__this
-    GlobalNamespace::SoloFreePlayFlowCoordinator* _get_$$4__this();
-    // Set instance field: public SoloFreePlayFlowCoordinator <>4__this
-    void _set_$$4__this(GlobalNamespace::SoloFreePlayFlowCoordinator* value);
-    // Get instance field: public ResultsViewController resultsViewController
-    GlobalNamespace::ResultsViewController* _get_resultsViewController();
-    // Set instance field: public ResultsViewController resultsViewController
-    void _set_resultsViewController(GlobalNamespace::ResultsViewController* value);
+    // Get instance field reference: public SoloFreePlayFlowCoordinator <>4__this
+    GlobalNamespace::SoloFreePlayFlowCoordinator*& dyn_$$4__this();
+    // Get instance field reference: public ResultsViewController resultsViewController
+    GlobalNamespace::ResultsViewController*& dyn_resultsViewController();
     // System.Void <HandleResultsViewControllerRestartButtonPressed>b__0()
     // Offset: 0x107EAB8
     void $HandleResultsViewControllerRestartButtonPressed$b__0();

@@ -81,10 +81,8 @@ namespace UnityEngine::UI {
       static UnityEngine::UI::GridLayoutGroup::Corner _get_LowerRight();
       // Set static field: static public UnityEngine.UI.GridLayoutGroup/UnityEngine.UI.Corner LowerRight
       static void _set_LowerRight(UnityEngine::UI::GridLayoutGroup::Corner value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // UnityEngine.UI.GridLayoutGroup/UnityEngine.UI.Corner
     #pragma pack(pop)
     static check_size<sizeof(GridLayoutGroup::Corner), 0 + sizeof(int)> __UnityEngine_UI_GridLayoutGroup_CornerSizeCheck;
@@ -123,10 +121,8 @@ namespace UnityEngine::UI {
       static UnityEngine::UI::GridLayoutGroup::Axis _get_Vertical();
       // Set static field: static public UnityEngine.UI.GridLayoutGroup/UnityEngine.UI.Axis Vertical
       static void _set_Vertical(UnityEngine::UI::GridLayoutGroup::Axis value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // UnityEngine.UI.GridLayoutGroup/UnityEngine.UI.Axis
     #pragma pack(pop)
     static check_size<sizeof(GridLayoutGroup::Axis), 0 + sizeof(int)> __UnityEngine_UI_GridLayoutGroup_AxisSizeCheck;
@@ -171,10 +167,8 @@ namespace UnityEngine::UI {
       static UnityEngine::UI::GridLayoutGroup::Constraint _get_FixedRowCount();
       // Set static field: static public UnityEngine.UI.GridLayoutGroup/UnityEngine.UI.Constraint FixedRowCount
       static void _set_FixedRowCount(UnityEngine::UI::GridLayoutGroup::Constraint value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // UnityEngine.UI.GridLayoutGroup/UnityEngine.UI.Constraint
     #pragma pack(pop)
     static check_size<sizeof(GridLayoutGroup::Constraint), 0 + sizeof(int)> __UnityEngine_UI_GridLayoutGroup_ConstraintSizeCheck;
@@ -217,30 +211,18 @@ namespace UnityEngine::UI {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: GridLayoutGroup
     GridLayoutGroup(UnityEngine::UI::GridLayoutGroup::Corner m_StartCorner_ = {}, UnityEngine::UI::GridLayoutGroup::Axis m_StartAxis_ = {}, UnityEngine::Vector2 m_CellSize_ = {}, UnityEngine::Vector2 m_Spacing_ = {}, UnityEngine::UI::GridLayoutGroup::Constraint m_Constraint_ = {}, int m_ConstraintCount_ = {}) noexcept : m_StartCorner{m_StartCorner_}, m_StartAxis{m_StartAxis_}, m_CellSize{m_CellSize_}, m_Spacing{m_Spacing_}, m_Constraint{m_Constraint_}, m_ConstraintCount{m_ConstraintCount_} {}
-    // Get instance field: protected UnityEngine.UI.GridLayoutGroup/UnityEngine.UI.Corner m_StartCorner
-    UnityEngine::UI::GridLayoutGroup::Corner _get_m_StartCorner();
-    // Set instance field: protected UnityEngine.UI.GridLayoutGroup/UnityEngine.UI.Corner m_StartCorner
-    void _set_m_StartCorner(UnityEngine::UI::GridLayoutGroup::Corner value);
-    // Get instance field: protected UnityEngine.UI.GridLayoutGroup/UnityEngine.UI.Axis m_StartAxis
-    UnityEngine::UI::GridLayoutGroup::Axis _get_m_StartAxis();
-    // Set instance field: protected UnityEngine.UI.GridLayoutGroup/UnityEngine.UI.Axis m_StartAxis
-    void _set_m_StartAxis(UnityEngine::UI::GridLayoutGroup::Axis value);
-    // Get instance field: protected UnityEngine.Vector2 m_CellSize
-    UnityEngine::Vector2 _get_m_CellSize();
-    // Set instance field: protected UnityEngine.Vector2 m_CellSize
-    void _set_m_CellSize(UnityEngine::Vector2 value);
-    // Get instance field: protected UnityEngine.Vector2 m_Spacing
-    UnityEngine::Vector2 _get_m_Spacing();
-    // Set instance field: protected UnityEngine.Vector2 m_Spacing
-    void _set_m_Spacing(UnityEngine::Vector2 value);
-    // Get instance field: protected UnityEngine.UI.GridLayoutGroup/UnityEngine.UI.Constraint m_Constraint
-    UnityEngine::UI::GridLayoutGroup::Constraint _get_m_Constraint();
-    // Set instance field: protected UnityEngine.UI.GridLayoutGroup/UnityEngine.UI.Constraint m_Constraint
-    void _set_m_Constraint(UnityEngine::UI::GridLayoutGroup::Constraint value);
-    // Get instance field: protected System.Int32 m_ConstraintCount
-    int _get_m_ConstraintCount();
-    // Set instance field: protected System.Int32 m_ConstraintCount
-    void _set_m_ConstraintCount(int value);
+    // Get instance field reference: protected UnityEngine.UI.GridLayoutGroup/UnityEngine.UI.Corner m_StartCorner
+    UnityEngine::UI::GridLayoutGroup::Corner& dyn_m_StartCorner();
+    // Get instance field reference: protected UnityEngine.UI.GridLayoutGroup/UnityEngine.UI.Axis m_StartAxis
+    UnityEngine::UI::GridLayoutGroup::Axis& dyn_m_StartAxis();
+    // Get instance field reference: protected UnityEngine.Vector2 m_CellSize
+    UnityEngine::Vector2& dyn_m_CellSize();
+    // Get instance field reference: protected UnityEngine.Vector2 m_Spacing
+    UnityEngine::Vector2& dyn_m_Spacing();
+    // Get instance field reference: protected UnityEngine.UI.GridLayoutGroup/UnityEngine.UI.Constraint m_Constraint
+    UnityEngine::UI::GridLayoutGroup::Constraint& dyn_m_Constraint();
+    // Get instance field reference: protected System.Int32 m_ConstraintCount
+    int& dyn_m_ConstraintCount();
     // public UnityEngine.UI.GridLayoutGroup/UnityEngine.UI.Corner get_startCorner()
     // Offset: 0x193AF24
     UnityEngine::UI::GridLayoutGroup::Corner get_startCorner();

@@ -60,30 +60,18 @@ namespace System {
     static_assert(sizeof(System::Uri::MoreInfo*) == 0x8);
     // Creating value type constructor for type: UriInfo
     UriInfo(::Il2CppString* Host_ = {}, ::Il2CppString* ScopeId_ = {}, ::Il2CppString* String_ = {}, System::Uri::Offset Offset_ = {}, ::Il2CppString* DnsSafeHost_ = {}, System::Uri::MoreInfo* MoreInfo_ = {}) noexcept : Host{Host_}, ScopeId{ScopeId_}, String{String_}, Offset{Offset_}, DnsSafeHost{DnsSafeHost_}, MoreInfo{MoreInfo_} {}
-    // Get instance field: public System.String Host
-    ::Il2CppString* _get_Host();
-    // Set instance field: public System.String Host
-    void _set_Host(::Il2CppString* value);
-    // Get instance field: public System.String ScopeId
-    ::Il2CppString* _get_ScopeId();
-    // Set instance field: public System.String ScopeId
-    void _set_ScopeId(::Il2CppString* value);
-    // Get instance field: public System.String String
-    ::Il2CppString* _get_String();
-    // Set instance field: public System.String String
-    void _set_String(::Il2CppString* value);
-    // Get instance field: public System.Uri/System.Offset Offset
-    System::Uri::Offset _get_Offset();
-    // Set instance field: public System.Uri/System.Offset Offset
-    void _set_Offset(System::Uri::Offset value);
-    // Get instance field: public System.String DnsSafeHost
-    ::Il2CppString* _get_DnsSafeHost();
-    // Set instance field: public System.String DnsSafeHost
-    void _set_DnsSafeHost(::Il2CppString* value);
-    // Get instance field: public System.Uri/System.MoreInfo MoreInfo
-    System::Uri::MoreInfo* _get_MoreInfo();
-    // Set instance field: public System.Uri/System.MoreInfo MoreInfo
-    void _set_MoreInfo(System::Uri::MoreInfo* value);
+    // Get instance field reference: public System.String Host
+    ::Il2CppString*& dyn_Host();
+    // Get instance field reference: public System.String ScopeId
+    ::Il2CppString*& dyn_ScopeId();
+    // Get instance field reference: public System.String String
+    ::Il2CppString*& dyn_String();
+    // Get instance field reference: public System.Uri/System.Offset Offset
+    System::Uri::Offset& dyn_Offset();
+    // Get instance field reference: public System.String DnsSafeHost
+    ::Il2CppString*& dyn_DnsSafeHost();
+    // Get instance field reference: public System.Uri/System.MoreInfo MoreInfo
+    System::Uri::MoreInfo*& dyn_MoreInfo();
     // public System.Void .ctor()
     // Offset: 0x23EA63C
     // Implemented from: System.Object

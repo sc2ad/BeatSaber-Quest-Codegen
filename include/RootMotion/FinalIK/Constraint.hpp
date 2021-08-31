@@ -39,14 +39,10 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: Constraint
     Constraint(UnityEngine::Transform* transform_ = {}, float weight_ = {}) noexcept : transform{transform_}, weight{weight_} {}
-    // Get instance field: public UnityEngine.Transform transform
-    UnityEngine::Transform* _get_transform();
-    // Set instance field: public UnityEngine.Transform transform
-    void _set_transform(UnityEngine::Transform* value);
-    // Get instance field: public System.Single weight
-    float _get_weight();
-    // Set instance field: public System.Single weight
-    void _set_weight(float value);
+    // Get instance field reference: public UnityEngine.Transform transform
+    UnityEngine::Transform*& dyn_transform();
+    // Get instance field reference: public System.Single weight
+    float& dyn_weight();
     // public System.Boolean get_isValid()
     // Offset: 0x1D323B4
     bool get_isValid();

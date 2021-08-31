@@ -37,10 +37,8 @@ namespace System::Net::NetworkInformation::MacOsStructs {
     constexpr operator ::Array<uint8_t>*() const noexcept {
       return u6_addr8;
     }
-    // Get instance field: public System.Byte[] u6_addr8
-    ::Array<uint8_t>* _get_u6_addr8();
-    // Set instance field: public System.Byte[] u6_addr8
-    void _set_u6_addr8(::Array<uint8_t>* value);
+    // Get instance field reference: public System.Byte[] u6_addr8
+    ::Array<uint8_t>*& dyn_u6_addr8();
   }; // System.Net.NetworkInformation.MacOsStructs.in6_addr
   #pragma pack(pop)
   static check_size<sizeof(in6_addr), 0 + sizeof(::Array<uint8_t>*)> __System_Net_NetworkInformation_MacOsStructs_in6_addrSizeCheck;

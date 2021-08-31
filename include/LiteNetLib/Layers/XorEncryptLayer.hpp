@@ -39,10 +39,8 @@ namespace LiteNetLib::Layers {
     XorEncryptLayer(::Array<uint8_t>* byteKey_ = {}) noexcept : byteKey{byteKey_} {}
     // Deleting conversion operator: operator int
     constexpr operator int() const noexcept = delete;
-    // Get instance field: private System.Byte[] _byteKey
-    ::Array<uint8_t>* _get__byteKey();
-    // Set instance field: private System.Byte[] _byteKey
-    void _set__byteKey(::Array<uint8_t>* value);
+    // Get instance field reference: private System.Byte[] _byteKey
+    ::Array<uint8_t>*& dyn__byteKey();
     // public System.Void .ctor(System.Byte[] key)
     // Offset: 0x1BF137C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -57,14 +57,10 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private NoteControllerBase _noteController
-    GlobalNamespace::NoteControllerBase* _get__noteController();
-    // Set instance field: private NoteControllerBase _noteController
-    void _set__noteController(GlobalNamespace::NoteControllerBase* value);
-    // Get instance field: private CutoutAnimateEffect _cutoutAnimateEffect
-    GlobalNamespace::CutoutAnimateEffect* _get__cutoutAnimateEffect();
-    // Set instance field: private CutoutAnimateEffect _cutoutAnimateEffect
-    void _set__cutoutAnimateEffect(GlobalNamespace::CutoutAnimateEffect* value);
+    // Get instance field reference: private NoteControllerBase _noteController
+    GlobalNamespace::NoteControllerBase*& dyn__noteController();
+    // Get instance field reference: private CutoutAnimateEffect _cutoutAnimateEffect
+    GlobalNamespace::CutoutAnimateEffect*& dyn__cutoutAnimateEffect();
     // protected System.Void Awake()
     // Offset: 0x11E56E0
     void Awake();

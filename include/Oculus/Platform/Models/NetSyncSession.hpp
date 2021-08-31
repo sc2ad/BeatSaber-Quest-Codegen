@@ -54,26 +54,16 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: NetSyncSession
     NetSyncSession(int64_t ConnectionId_ = {}, bool Muted_ = {}, uint64_t SessionId_ = {}, uint64_t UserId_ = {}, ::Il2CppString* VoipGroup_ = {}) noexcept : ConnectionId{ConnectionId_}, Muted{Muted_}, SessionId{SessionId_}, UserId{UserId_}, VoipGroup{VoipGroup_} {}
-    // Get instance field: public readonly System.Int64 ConnectionId
-    int64_t _get_ConnectionId();
-    // Set instance field: public readonly System.Int64 ConnectionId
-    void _set_ConnectionId(int64_t value);
-    // Get instance field: public readonly System.Boolean Muted
-    bool _get_Muted();
-    // Set instance field: public readonly System.Boolean Muted
-    void _set_Muted(bool value);
-    // Get instance field: public readonly System.UInt64 SessionId
-    uint64_t _get_SessionId();
-    // Set instance field: public readonly System.UInt64 SessionId
-    void _set_SessionId(uint64_t value);
-    // Get instance field: public readonly System.UInt64 UserId
-    uint64_t _get_UserId();
-    // Set instance field: public readonly System.UInt64 UserId
-    void _set_UserId(uint64_t value);
-    // Get instance field: public readonly System.String VoipGroup
-    ::Il2CppString* _get_VoipGroup();
-    // Set instance field: public readonly System.String VoipGroup
-    void _set_VoipGroup(::Il2CppString* value);
+    // Get instance field reference: public readonly System.Int64 ConnectionId
+    int64_t& dyn_ConnectionId();
+    // Get instance field reference: public readonly System.Boolean Muted
+    bool& dyn_Muted();
+    // Get instance field reference: public readonly System.UInt64 SessionId
+    uint64_t& dyn_SessionId();
+    // Get instance field reference: public readonly System.UInt64 UserId
+    uint64_t& dyn_UserId();
+    // Get instance field reference: public readonly System.String VoipGroup
+    ::Il2CppString*& dyn_VoipGroup();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14F22FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

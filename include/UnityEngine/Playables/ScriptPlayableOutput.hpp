@@ -55,10 +55,8 @@ namespace UnityEngine::Playables {
     constexpr operator UnityEngine::Playables::PlayableOutputHandle() const noexcept {
       return m_Handle;
     }
-    // Get instance field: private UnityEngine.Playables.PlayableOutputHandle m_Handle
-    UnityEngine::Playables::PlayableOutputHandle _get_m_Handle();
-    // Set instance field: private UnityEngine.Playables.PlayableOutputHandle m_Handle
-    void _set_m_Handle(UnityEngine::Playables::PlayableOutputHandle value);
+    // Get instance field reference: private UnityEngine.Playables.PlayableOutputHandle m_Handle
+    UnityEngine::Playables::PlayableOutputHandle& dyn_m_Handle();
     // static public UnityEngine.Playables.ScriptPlayableOutput get_Null()
     // Offset: 0x1C3E9EC
     static UnityEngine::Playables::ScriptPlayableOutput get_Null();

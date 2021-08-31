@@ -52,18 +52,12 @@ namespace System::Runtime::Remoting::Channels {
     static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
     // Creating value type constructor for type: SinkProviderData
     SinkProviderData(::Il2CppString* sinkName_ = {}, System::Collections::ArrayList* children_ = {}, System::Collections::Hashtable* properties_ = {}) noexcept : sinkName{sinkName_}, children{children_}, properties{properties_} {}
-    // Get instance field: private System.String sinkName
-    ::Il2CppString* _get_sinkName();
-    // Set instance field: private System.String sinkName
-    void _set_sinkName(::Il2CppString* value);
-    // Get instance field: private System.Collections.ArrayList children
-    System::Collections::ArrayList* _get_children();
-    // Set instance field: private System.Collections.ArrayList children
-    void _set_children(System::Collections::ArrayList* value);
-    // Get instance field: private System.Collections.Hashtable properties
-    System::Collections::Hashtable* _get_properties();
-    // Set instance field: private System.Collections.Hashtable properties
-    void _set_properties(System::Collections::Hashtable* value);
+    // Get instance field reference: private System.String sinkName
+    ::Il2CppString*& dyn_sinkName();
+    // Get instance field reference: private System.Collections.ArrayList children
+    System::Collections::ArrayList*& dyn_children();
+    // Get instance field reference: private System.Collections.Hashtable properties
+    System::Collections::Hashtable*& dyn_properties();
     // public System.Collections.IList get_Children()
     // Offset: 0x1491468
     System::Collections::IList* get_Children();

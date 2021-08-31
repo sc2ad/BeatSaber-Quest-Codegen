@@ -75,10 +75,8 @@ namespace Microsoft::Win32 {
     static Microsoft::Win32::RegistryHive _get_Users();
     // Set static field: static public Microsoft.Win32.RegistryHive Users
     static void _set_Users(Microsoft::Win32::RegistryHive value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Microsoft.Win32.RegistryHive
   #pragma pack(pop)
   static check_size<sizeof(RegistryHive), 0 + sizeof(int)> __Microsoft_Win32_RegistryHiveSizeCheck;

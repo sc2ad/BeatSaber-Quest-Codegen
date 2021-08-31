@@ -63,18 +63,12 @@ namespace GlobalNamespace {
     PlatformAchievementsModelSO(GlobalNamespace::PS4AchievementIdsModelSO* ps4AchievementIdsModel_ = {}, GlobalNamespace::AchievementIdsModelSO* achievementIdsModel_ = {}, GlobalNamespace::PlatformAchievementsHandler* platformAchievementsHandler_ = {}) noexcept : ps4AchievementIdsModel{ps4AchievementIdsModel_}, achievementIdsModel{achievementIdsModel_}, platformAchievementsHandler{platformAchievementsHandler_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private PS4AchievementIdsModelSO _ps4AchievementIdsModel
-    GlobalNamespace::PS4AchievementIdsModelSO* _get__ps4AchievementIdsModel();
-    // Set instance field: private PS4AchievementIdsModelSO _ps4AchievementIdsModel
-    void _set__ps4AchievementIdsModel(GlobalNamespace::PS4AchievementIdsModelSO* value);
-    // Get instance field: private AchievementIdsModelSO _achievementIdsModel
-    GlobalNamespace::AchievementIdsModelSO* _get__achievementIdsModel();
-    // Set instance field: private AchievementIdsModelSO _achievementIdsModel
-    void _set__achievementIdsModel(GlobalNamespace::AchievementIdsModelSO* value);
-    // Get instance field: private PlatformAchievementsHandler _platformAchievementsHandler
-    GlobalNamespace::PlatformAchievementsHandler* _get__platformAchievementsHandler();
-    // Set instance field: private PlatformAchievementsHandler _platformAchievementsHandler
-    void _set__platformAchievementsHandler(GlobalNamespace::PlatformAchievementsHandler* value);
+    // Get instance field reference: private PS4AchievementIdsModelSO _ps4AchievementIdsModel
+    GlobalNamespace::PS4AchievementIdsModelSO*& dyn__ps4AchievementIdsModel();
+    // Get instance field reference: private AchievementIdsModelSO _achievementIdsModel
+    GlobalNamespace::AchievementIdsModelSO*& dyn__achievementIdsModel();
+    // Get instance field reference: private PlatformAchievementsHandler _platformAchievementsHandler
+    GlobalNamespace::PlatformAchievementsHandler*& dyn__platformAchievementsHandler();
     // private PlatformAchievementsHandler get_platformAchievementsHandler()
     // Offset: 0x1033344
     GlobalNamespace::PlatformAchievementsHandler* get_platformAchievementsHandler();

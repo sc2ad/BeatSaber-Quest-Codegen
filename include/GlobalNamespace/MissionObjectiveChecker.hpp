@@ -90,10 +90,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::MissionObjectiveChecker::Status _get_Failed();
       // Set static field: static public MissionObjectiveChecker/Status Failed
       static void _set_Failed(GlobalNamespace::MissionObjectiveChecker::Status value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // MissionObjectiveChecker/Status
     #pragma pack(pop)
     static check_size<sizeof(MissionObjectiveChecker::Status), 0 + sizeof(int)> __GlobalNamespace_MissionObjectiveChecker_StatusSizeCheck;
@@ -144,34 +142,20 @@ namespace GlobalNamespace {
     MissionObjectiveChecker(GlobalNamespace::MissionObjectiveTypeSO* missionObjectiveType_ = {}, System::Action_1<GlobalNamespace::MissionObjectiveChecker*>* statusDidChangeEvent_ = {}, System::Action_1<GlobalNamespace::MissionObjectiveChecker*>* checkedValueDidChangeEvent_ = {}, GlobalNamespace::MissionObjectiveChecker::Status status_ = {}, int checkedValue_ = {}, GlobalNamespace::MissionObjective* missionObjective_ = {}, bool disableChecking_ = {}) noexcept : missionObjectiveType{missionObjectiveType_}, statusDidChangeEvent{statusDidChangeEvent_}, checkedValueDidChangeEvent{checkedValueDidChangeEvent_}, status{status_}, checkedValue{checkedValue_}, missionObjective{missionObjective_}, disableChecking{disableChecking_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private MissionObjectiveTypeSO _missionObjectiveType
-    GlobalNamespace::MissionObjectiveTypeSO* _get__missionObjectiveType();
-    // Set instance field: private MissionObjectiveTypeSO _missionObjectiveType
-    void _set__missionObjectiveType(GlobalNamespace::MissionObjectiveTypeSO* value);
-    // Get instance field: private System.Action`1<MissionObjectiveChecker> statusDidChangeEvent
-    System::Action_1<GlobalNamespace::MissionObjectiveChecker*>* _get_statusDidChangeEvent();
-    // Set instance field: private System.Action`1<MissionObjectiveChecker> statusDidChangeEvent
-    void _set_statusDidChangeEvent(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>* value);
-    // Get instance field: private System.Action`1<MissionObjectiveChecker> checkedValueDidChangeEvent
-    System::Action_1<GlobalNamespace::MissionObjectiveChecker*>* _get_checkedValueDidChangeEvent();
-    // Set instance field: private System.Action`1<MissionObjectiveChecker> checkedValueDidChangeEvent
-    void _set_checkedValueDidChangeEvent(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>* value);
-    // Get instance field: private MissionObjectiveChecker/Status _status
-    GlobalNamespace::MissionObjectiveChecker::Status _get__status();
-    // Set instance field: private MissionObjectiveChecker/Status _status
-    void _set__status(GlobalNamespace::MissionObjectiveChecker::Status value);
-    // Get instance field: private System.Int32 _checkedValue
-    int _get__checkedValue();
-    // Set instance field: private System.Int32 _checkedValue
-    void _set__checkedValue(int value);
-    // Get instance field: protected MissionObjective _missionObjective
-    GlobalNamespace::MissionObjective* _get__missionObjective();
-    // Set instance field: protected MissionObjective _missionObjective
-    void _set__missionObjective(GlobalNamespace::MissionObjective* value);
-    // Get instance field: private System.Boolean _disableChecking
-    bool _get__disableChecking();
-    // Set instance field: private System.Boolean _disableChecking
-    void _set__disableChecking(bool value);
+    // Get instance field reference: private MissionObjectiveTypeSO _missionObjectiveType
+    GlobalNamespace::MissionObjectiveTypeSO*& dyn__missionObjectiveType();
+    // Get instance field reference: private System.Action`1<MissionObjectiveChecker> statusDidChangeEvent
+    System::Action_1<GlobalNamespace::MissionObjectiveChecker*>*& dyn_statusDidChangeEvent();
+    // Get instance field reference: private System.Action`1<MissionObjectiveChecker> checkedValueDidChangeEvent
+    System::Action_1<GlobalNamespace::MissionObjectiveChecker*>*& dyn_checkedValueDidChangeEvent();
+    // Get instance field reference: private MissionObjectiveChecker/Status _status
+    GlobalNamespace::MissionObjectiveChecker::Status& dyn__status();
+    // Get instance field reference: private System.Int32 _checkedValue
+    int& dyn__checkedValue();
+    // Get instance field reference: protected MissionObjective _missionObjective
+    GlobalNamespace::MissionObjective*& dyn__missionObjective();
+    // Get instance field reference: private System.Boolean _disableChecking
+    bool& dyn__disableChecking();
     // public MissionObjectiveTypeSO get_missionObjectiveType()
     // Offset: 0x11D782C
     GlobalNamespace::MissionObjectiveTypeSO* get_missionObjectiveType();

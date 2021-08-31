@@ -51,10 +51,8 @@ namespace System::Security::Cryptography::X509Certificates {
     constexpr operator System::Security::Cryptography::X509Certificates::X509ChainImpl*() const noexcept {
       return impl;
     }
-    // Get instance field: private System.Security.Cryptography.X509Certificates.X509ChainImpl impl
-    System::Security::Cryptography::X509Certificates::X509ChainImpl* _get_impl();
-    // Set instance field: private System.Security.Cryptography.X509Certificates.X509ChainImpl impl
-    void _set_impl(System::Security::Cryptography::X509Certificates::X509ChainImpl* value);
+    // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509ChainImpl impl
+    System::Security::Cryptography::X509Certificates::X509ChainImpl*& dyn_impl();
     // System.Security.Cryptography.X509Certificates.X509ChainImpl get_Impl()
     // Offset: 0x18601E0
     System::Security::Cryptography::X509Certificates::X509ChainImpl* get_Impl();

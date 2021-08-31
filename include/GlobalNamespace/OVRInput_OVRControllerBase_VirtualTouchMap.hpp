@@ -102,58 +102,32 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::OVRInput::RawTouch) == 0x4);
     // Creating value type constructor for type: VirtualTouchMap
     VirtualTouchMap(GlobalNamespace::OVRInput::RawTouch None_ = {}, GlobalNamespace::OVRInput::RawTouch One_ = {}, GlobalNamespace::OVRInput::RawTouch Two_ = {}, GlobalNamespace::OVRInput::RawTouch Three_ = {}, GlobalNamespace::OVRInput::RawTouch Four_ = {}, GlobalNamespace::OVRInput::RawTouch PrimaryIndexTrigger_ = {}, GlobalNamespace::OVRInput::RawTouch PrimaryThumbstick_ = {}, GlobalNamespace::OVRInput::RawTouch PrimaryThumbRest_ = {}, GlobalNamespace::OVRInput::RawTouch PrimaryTouchpad_ = {}, GlobalNamespace::OVRInput::RawTouch SecondaryIndexTrigger_ = {}, GlobalNamespace::OVRInput::RawTouch SecondaryThumbstick_ = {}, GlobalNamespace::OVRInput::RawTouch SecondaryThumbRest_ = {}, GlobalNamespace::OVRInput::RawTouch SecondaryTouchpad_ = {}) noexcept : None{None_}, One{One_}, Two{Two_}, Three{Three_}, Four{Four_}, PrimaryIndexTrigger{PrimaryIndexTrigger_}, PrimaryThumbstick{PrimaryThumbstick_}, PrimaryThumbRest{PrimaryThumbRest_}, PrimaryTouchpad{PrimaryTouchpad_}, SecondaryIndexTrigger{SecondaryIndexTrigger_}, SecondaryThumbstick{SecondaryThumbstick_}, SecondaryThumbRest{SecondaryThumbRest_}, SecondaryTouchpad{SecondaryTouchpad_} {}
-    // Get instance field: public OVRInput/RawTouch None
-    GlobalNamespace::OVRInput::RawTouch _get_None();
-    // Set instance field: public OVRInput/RawTouch None
-    void _set_None(GlobalNamespace::OVRInput::RawTouch value);
-    // Get instance field: public OVRInput/RawTouch One
-    GlobalNamespace::OVRInput::RawTouch _get_One();
-    // Set instance field: public OVRInput/RawTouch One
-    void _set_One(GlobalNamespace::OVRInput::RawTouch value);
-    // Get instance field: public OVRInput/RawTouch Two
-    GlobalNamespace::OVRInput::RawTouch _get_Two();
-    // Set instance field: public OVRInput/RawTouch Two
-    void _set_Two(GlobalNamespace::OVRInput::RawTouch value);
-    // Get instance field: public OVRInput/RawTouch Three
-    GlobalNamespace::OVRInput::RawTouch _get_Three();
-    // Set instance field: public OVRInput/RawTouch Three
-    void _set_Three(GlobalNamespace::OVRInput::RawTouch value);
-    // Get instance field: public OVRInput/RawTouch Four
-    GlobalNamespace::OVRInput::RawTouch _get_Four();
-    // Set instance field: public OVRInput/RawTouch Four
-    void _set_Four(GlobalNamespace::OVRInput::RawTouch value);
-    // Get instance field: public OVRInput/RawTouch PrimaryIndexTrigger
-    GlobalNamespace::OVRInput::RawTouch _get_PrimaryIndexTrigger();
-    // Set instance field: public OVRInput/RawTouch PrimaryIndexTrigger
-    void _set_PrimaryIndexTrigger(GlobalNamespace::OVRInput::RawTouch value);
-    // Get instance field: public OVRInput/RawTouch PrimaryThumbstick
-    GlobalNamespace::OVRInput::RawTouch _get_PrimaryThumbstick();
-    // Set instance field: public OVRInput/RawTouch PrimaryThumbstick
-    void _set_PrimaryThumbstick(GlobalNamespace::OVRInput::RawTouch value);
-    // Get instance field: public OVRInput/RawTouch PrimaryThumbRest
-    GlobalNamespace::OVRInput::RawTouch _get_PrimaryThumbRest();
-    // Set instance field: public OVRInput/RawTouch PrimaryThumbRest
-    void _set_PrimaryThumbRest(GlobalNamespace::OVRInput::RawTouch value);
-    // Get instance field: public OVRInput/RawTouch PrimaryTouchpad
-    GlobalNamespace::OVRInput::RawTouch _get_PrimaryTouchpad();
-    // Set instance field: public OVRInput/RawTouch PrimaryTouchpad
-    void _set_PrimaryTouchpad(GlobalNamespace::OVRInput::RawTouch value);
-    // Get instance field: public OVRInput/RawTouch SecondaryIndexTrigger
-    GlobalNamespace::OVRInput::RawTouch _get_SecondaryIndexTrigger();
-    // Set instance field: public OVRInput/RawTouch SecondaryIndexTrigger
-    void _set_SecondaryIndexTrigger(GlobalNamespace::OVRInput::RawTouch value);
-    // Get instance field: public OVRInput/RawTouch SecondaryThumbstick
-    GlobalNamespace::OVRInput::RawTouch _get_SecondaryThumbstick();
-    // Set instance field: public OVRInput/RawTouch SecondaryThumbstick
-    void _set_SecondaryThumbstick(GlobalNamespace::OVRInput::RawTouch value);
-    // Get instance field: public OVRInput/RawTouch SecondaryThumbRest
-    GlobalNamespace::OVRInput::RawTouch _get_SecondaryThumbRest();
-    // Set instance field: public OVRInput/RawTouch SecondaryThumbRest
-    void _set_SecondaryThumbRest(GlobalNamespace::OVRInput::RawTouch value);
-    // Get instance field: public OVRInput/RawTouch SecondaryTouchpad
-    GlobalNamespace::OVRInput::RawTouch _get_SecondaryTouchpad();
-    // Set instance field: public OVRInput/RawTouch SecondaryTouchpad
-    void _set_SecondaryTouchpad(GlobalNamespace::OVRInput::RawTouch value);
+    // Get instance field reference: public OVRInput/RawTouch None
+    GlobalNamespace::OVRInput::RawTouch& dyn_None();
+    // Get instance field reference: public OVRInput/RawTouch One
+    GlobalNamespace::OVRInput::RawTouch& dyn_One();
+    // Get instance field reference: public OVRInput/RawTouch Two
+    GlobalNamespace::OVRInput::RawTouch& dyn_Two();
+    // Get instance field reference: public OVRInput/RawTouch Three
+    GlobalNamespace::OVRInput::RawTouch& dyn_Three();
+    // Get instance field reference: public OVRInput/RawTouch Four
+    GlobalNamespace::OVRInput::RawTouch& dyn_Four();
+    // Get instance field reference: public OVRInput/RawTouch PrimaryIndexTrigger
+    GlobalNamespace::OVRInput::RawTouch& dyn_PrimaryIndexTrigger();
+    // Get instance field reference: public OVRInput/RawTouch PrimaryThumbstick
+    GlobalNamespace::OVRInput::RawTouch& dyn_PrimaryThumbstick();
+    // Get instance field reference: public OVRInput/RawTouch PrimaryThumbRest
+    GlobalNamespace::OVRInput::RawTouch& dyn_PrimaryThumbRest();
+    // Get instance field reference: public OVRInput/RawTouch PrimaryTouchpad
+    GlobalNamespace::OVRInput::RawTouch& dyn_PrimaryTouchpad();
+    // Get instance field reference: public OVRInput/RawTouch SecondaryIndexTrigger
+    GlobalNamespace::OVRInput::RawTouch& dyn_SecondaryIndexTrigger();
+    // Get instance field reference: public OVRInput/RawTouch SecondaryThumbstick
+    GlobalNamespace::OVRInput::RawTouch& dyn_SecondaryThumbstick();
+    // Get instance field reference: public OVRInput/RawTouch SecondaryThumbRest
+    GlobalNamespace::OVRInput::RawTouch& dyn_SecondaryThumbRest();
+    // Get instance field reference: public OVRInput/RawTouch SecondaryTouchpad
+    GlobalNamespace::OVRInput::RawTouch& dyn_SecondaryTouchpad();
     // public OVRInput/RawTouch ToRawMask(OVRInput/Touch virtualMask)
     // Offset: 0x153BD74
     GlobalNamespace::OVRInput::RawTouch ToRawMask(GlobalNamespace::OVRInput::Touch virtualMask);

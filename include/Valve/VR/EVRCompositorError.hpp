@@ -104,10 +104,8 @@ namespace Valve::VR {
     static Valve::VR::EVRCompositorError _get_InvalidBounds();
     // Set static field: static public Valve.VR.EVRCompositorError InvalidBounds
     static void _set_InvalidBounds(Valve::VR::EVRCompositorError value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Valve.VR.EVRCompositorError
   #pragma pack(pop)
   static check_size<sizeof(EVRCompositorError), 0 + sizeof(int)> __Valve_VR_EVRCompositorErrorSizeCheck;

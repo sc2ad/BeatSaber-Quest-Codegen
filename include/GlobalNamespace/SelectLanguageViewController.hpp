@@ -63,22 +63,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action*) == 0x8);
     // Creating value type constructor for type: SelectLanguageViewController
     SelectLanguageViewController(UnityEngine::UI::Button* continueButton_ = {}, GlobalNamespace::LanguageSettingsController* languageSettingsController_ = {}, System::Action* didChangeLanguageEvent_ = {}, System::Action* didPressContinueButtonEvent_ = {}) noexcept : continueButton{continueButton_}, languageSettingsController{languageSettingsController_}, didChangeLanguageEvent{didChangeLanguageEvent_}, didPressContinueButtonEvent{didPressContinueButtonEvent_} {}
-    // Get instance field: private UnityEngine.UI.Button _continueButton
-    UnityEngine::UI::Button* _get__continueButton();
-    // Set instance field: private UnityEngine.UI.Button _continueButton
-    void _set__continueButton(UnityEngine::UI::Button* value);
-    // Get instance field: private LanguageSettingsController _languageSettingsController
-    GlobalNamespace::LanguageSettingsController* _get__languageSettingsController();
-    // Set instance field: private LanguageSettingsController _languageSettingsController
-    void _set__languageSettingsController(GlobalNamespace::LanguageSettingsController* value);
-    // Get instance field: private System.Action didChangeLanguageEvent
-    System::Action* _get_didChangeLanguageEvent();
-    // Set instance field: private System.Action didChangeLanguageEvent
-    void _set_didChangeLanguageEvent(System::Action* value);
-    // Get instance field: private System.Action didPressContinueButtonEvent
-    System::Action* _get_didPressContinueButtonEvent();
-    // Set instance field: private System.Action didPressContinueButtonEvent
-    void _set_didPressContinueButtonEvent(System::Action* value);
+    // Get instance field reference: private UnityEngine.UI.Button _continueButton
+    UnityEngine::UI::Button*& dyn__continueButton();
+    // Get instance field reference: private LanguageSettingsController _languageSettingsController
+    GlobalNamespace::LanguageSettingsController*& dyn__languageSettingsController();
+    // Get instance field reference: private System.Action didChangeLanguageEvent
+    System::Action*& dyn_didChangeLanguageEvent();
+    // Get instance field reference: private System.Action didPressContinueButtonEvent
+    System::Action*& dyn_didPressContinueButtonEvent();
     // public System.Void add_didChangeLanguageEvent(System.Action value)
     // Offset: 0x119CE20
     void add_didChangeLanguageEvent(System::Action* value);

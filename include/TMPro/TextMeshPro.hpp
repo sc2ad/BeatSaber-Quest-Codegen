@@ -165,70 +165,38 @@ namespace TMPro {
     operator UnityEngine::UI::ILayoutElement() noexcept {
       return *reinterpret_cast<UnityEngine::UI::ILayoutElement*>(this);
     }
-    // Get instance field: private System.Boolean m_hasFontAssetChanged
-    bool _get_m_hasFontAssetChanged();
-    // Set instance field: private System.Boolean m_hasFontAssetChanged
-    void _set_m_hasFontAssetChanged(bool value);
-    // Get instance field: private System.Single m_previousLossyScaleY
-    float _get_m_previousLossyScaleY();
-    // Set instance field: private System.Single m_previousLossyScaleY
-    void _set_m_previousLossyScaleY(float value);
-    // Get instance field: private UnityEngine.Renderer m_renderer
-    UnityEngine::Renderer* _get_m_renderer();
-    // Set instance field: private UnityEngine.Renderer m_renderer
-    void _set_m_renderer(UnityEngine::Renderer* value);
-    // Get instance field: private UnityEngine.MeshFilter m_meshFilter
-    UnityEngine::MeshFilter* _get_m_meshFilter();
-    // Set instance field: private UnityEngine.MeshFilter m_meshFilter
-    void _set_m_meshFilter(UnityEngine::MeshFilter* value);
-    // Get instance field: private System.Boolean m_isFirstAllocation
-    bool _get_m_isFirstAllocation();
-    // Set instance field: private System.Boolean m_isFirstAllocation
-    void _set_m_isFirstAllocation(bool value);
-    // Get instance field: private System.Int32 m_max_characters
-    int _get_m_max_characters();
-    // Set instance field: private System.Int32 m_max_characters
-    void _set_m_max_characters(int value);
-    // Get instance field: private System.Int32 m_max_numberOfLines
-    int _get_m_max_numberOfLines();
-    // Set instance field: private System.Int32 m_max_numberOfLines
-    void _set_m_max_numberOfLines(int value);
-    // Get instance field: protected TMPro.TMP_SubMesh[] m_subTextObjects
-    ::Array<TMPro::TMP_SubMesh*>* _get_m_subTextObjects();
-    // Set instance field: protected TMPro.TMP_SubMesh[] m_subTextObjects
-    void _set_m_subTextObjects(::Array<TMPro::TMP_SubMesh*>* value);
-    // Get instance field: private System.Boolean m_isMaskingEnabled
-    bool _get_m_isMaskingEnabled();
-    // Set instance field: private System.Boolean m_isMaskingEnabled
-    void _set_m_isMaskingEnabled(bool value);
-    // Get instance field: private System.Boolean isMaskUpdateRequired
-    bool _get_isMaskUpdateRequired();
-    // Set instance field: private System.Boolean isMaskUpdateRequired
-    void _set_isMaskUpdateRequired(bool value);
-    // Get instance field: private TMPro.MaskingTypes m_maskType
-    TMPro::MaskingTypes _get_m_maskType();
-    // Set instance field: private TMPro.MaskingTypes m_maskType
-    void _set_m_maskType(TMPro::MaskingTypes value);
-    // Get instance field: private UnityEngine.Matrix4x4 m_EnvMapMatrix
-    UnityEngine::Matrix4x4 _get_m_EnvMapMatrix();
-    // Set instance field: private UnityEngine.Matrix4x4 m_EnvMapMatrix
-    void _set_m_EnvMapMatrix(UnityEngine::Matrix4x4 value);
-    // Get instance field: private UnityEngine.Vector3[] m_RectTransformCorners
-    ::Array<UnityEngine::Vector3>* _get_m_RectTransformCorners();
-    // Set instance field: private UnityEngine.Vector3[] m_RectTransformCorners
-    void _set_m_RectTransformCorners(::Array<UnityEngine::Vector3>* value);
-    // Get instance field: private System.Boolean m_isRegisteredForEvents
-    bool _get_m_isRegisteredForEvents();
-    // Set instance field: private System.Boolean m_isRegisteredForEvents
-    void _set_m_isRegisteredForEvents(bool value);
-    // Get instance field: private System.Int32 loopCountA
-    int _get_loopCountA();
-    // Set instance field: private System.Int32 loopCountA
-    void _set_loopCountA(int value);
-    // Get instance field: private System.Boolean m_currentAutoSizeMode
-    bool _get_m_currentAutoSizeMode();
-    // Set instance field: private System.Boolean m_currentAutoSizeMode
-    void _set_m_currentAutoSizeMode(bool value);
+    // Get instance field reference: private System.Boolean m_hasFontAssetChanged
+    bool& dyn_m_hasFontAssetChanged();
+    // Get instance field reference: private System.Single m_previousLossyScaleY
+    float& dyn_m_previousLossyScaleY();
+    // Get instance field reference: private UnityEngine.Renderer m_renderer
+    UnityEngine::Renderer*& dyn_m_renderer();
+    // Get instance field reference: private UnityEngine.MeshFilter m_meshFilter
+    UnityEngine::MeshFilter*& dyn_m_meshFilter();
+    // Get instance field reference: private System.Boolean m_isFirstAllocation
+    bool& dyn_m_isFirstAllocation();
+    // Get instance field reference: private System.Int32 m_max_characters
+    int& dyn_m_max_characters();
+    // Get instance field reference: private System.Int32 m_max_numberOfLines
+    int& dyn_m_max_numberOfLines();
+    // Get instance field reference: protected TMPro.TMP_SubMesh[] m_subTextObjects
+    ::Array<TMPro::TMP_SubMesh*>*& dyn_m_subTextObjects();
+    // Get instance field reference: private System.Boolean m_isMaskingEnabled
+    bool& dyn_m_isMaskingEnabled();
+    // Get instance field reference: private System.Boolean isMaskUpdateRequired
+    bool& dyn_isMaskUpdateRequired();
+    // Get instance field reference: private TMPro.MaskingTypes m_maskType
+    TMPro::MaskingTypes& dyn_m_maskType();
+    // Get instance field reference: private UnityEngine.Matrix4x4 m_EnvMapMatrix
+    UnityEngine::Matrix4x4& dyn_m_EnvMapMatrix();
+    // Get instance field reference: private UnityEngine.Vector3[] m_RectTransformCorners
+    ::Array<UnityEngine::Vector3>*& dyn_m_RectTransformCorners();
+    // Get instance field reference: private System.Boolean m_isRegisteredForEvents
+    bool& dyn_m_isRegisteredForEvents();
+    // Get instance field reference: private System.Int32 loopCountA
+    int& dyn_loopCountA();
+    // Get instance field reference: private System.Boolean m_currentAutoSizeMode
+    bool& dyn_m_currentAutoSizeMode();
     // public System.Int32 get_sortingLayerID()
     // Offset: 0x1463D18
     int get_sortingLayerID();

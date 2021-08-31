@@ -77,30 +77,18 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private UnityEngine.Vector2 m_Centroid
-    UnityEngine::Vector2 _get_m_Centroid();
-    // Set instance field: private UnityEngine.Vector2 m_Centroid
-    void _set_m_Centroid(UnityEngine::Vector2 value);
-    // Get instance field: private UnityEngine.Vector2 m_Point
-    UnityEngine::Vector2 _get_m_Point();
-    // Set instance field: private UnityEngine.Vector2 m_Point
-    void _set_m_Point(UnityEngine::Vector2 value);
-    // Get instance field: private UnityEngine.Vector2 m_Normal
-    UnityEngine::Vector2 _get_m_Normal();
-    // Set instance field: private UnityEngine.Vector2 m_Normal
-    void _set_m_Normal(UnityEngine::Vector2 value);
-    // Get instance field: private System.Single m_Distance
-    float _get_m_Distance();
-    // Set instance field: private System.Single m_Distance
-    void _set_m_Distance(float value);
-    // Get instance field: private System.Single m_Fraction
-    float _get_m_Fraction();
-    // Set instance field: private System.Single m_Fraction
-    void _set_m_Fraction(float value);
-    // Get instance field: private System.Int32 m_Collider
-    int _get_m_Collider();
-    // Set instance field: private System.Int32 m_Collider
-    void _set_m_Collider(int value);
+    // Get instance field reference: private UnityEngine.Vector2 m_Centroid
+    UnityEngine::Vector2& dyn_m_Centroid();
+    // Get instance field reference: private UnityEngine.Vector2 m_Point
+    UnityEngine::Vector2& dyn_m_Point();
+    // Get instance field reference: private UnityEngine.Vector2 m_Normal
+    UnityEngine::Vector2& dyn_m_Normal();
+    // Get instance field reference: private System.Single m_Distance
+    float& dyn_m_Distance();
+    // Get instance field reference: private System.Single m_Fraction
+    float& dyn_m_Fraction();
+    // Get instance field reference: private System.Int32 m_Collider
+    int& dyn_m_Collider();
     // public UnityEngine.Vector2 get_point()
     // Offset: 0x2417B74
     UnityEngine::Vector2 get_point();

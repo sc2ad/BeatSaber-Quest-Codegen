@@ -43,14 +43,10 @@ namespace GlobalNamespace {
     RandomAnimatorStartTime(UnityEngine::Animator* animator_ = {}, ::Il2CppString* stateName_ = {}) noexcept : animator{animator_}, stateName{stateName_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.Animator _animator
-    UnityEngine::Animator* _get__animator();
-    // Set instance field: private UnityEngine.Animator _animator
-    void _set__animator(UnityEngine::Animator* value);
-    // Get instance field: private System.String _stateName
-    ::Il2CppString* _get__stateName();
-    // Set instance field: private System.String _stateName
-    void _set__stateName(::Il2CppString* value);
+    // Get instance field reference: private UnityEngine.Animator _animator
+    UnityEngine::Animator*& dyn__animator();
+    // Get instance field reference: private System.String _stateName
+    ::Il2CppString*& dyn__stateName();
     // protected System.Void Start()
     // Offset: 0x126B34C
     void Start();

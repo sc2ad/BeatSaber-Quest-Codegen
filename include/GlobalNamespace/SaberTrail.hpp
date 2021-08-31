@@ -174,74 +174,40 @@ namespace GlobalNamespace {
     static int _get_kScaleCheckFramesInterval();
     // Set static field: static private System.Int32 kScaleCheckFramesInterval
     static void _set_kScaleCheckFramesInterval(int value);
-    // Get instance field: private SaberTrailRenderer _trailRendererPrefab
-    GlobalNamespace::SaberTrailRenderer* _get__trailRendererPrefab();
-    // Set instance field: private SaberTrailRenderer _trailRendererPrefab
-    void _set__trailRendererPrefab(GlobalNamespace::SaberTrailRenderer* value);
-    // Get instance field: private System.Single _trailDuration
-    float _get__trailDuration();
-    // Set instance field: private System.Single _trailDuration
-    void _set__trailDuration(float value);
-    // Get instance field: private System.Int32 _samplingFrequency
-    int _get__samplingFrequency();
-    // Set instance field: private System.Int32 _samplingFrequency
-    void _set__samplingFrequency(int value);
-    // Get instance field: private System.Int32 _granularity
-    int _get__granularity();
-    // Set instance field: private System.Int32 _granularity
-    void _set__granularity(int value);
-    // Get instance field: private System.Single _whiteSectionMaxDuration
-    float _get__whiteSectionMaxDuration();
-    // Set instance field: private System.Single _whiteSectionMaxDuration
-    void _set__whiteSectionMaxDuration(float value);
-    // Get instance field: private System.Boolean _colorOverwrite
-    bool _get__colorOverwrite();
-    // Set instance field: private System.Boolean _colorOverwrite
-    void _set__colorOverwrite(bool value);
-    // Get instance field: private UnityEngine.Color _forcedColor
-    UnityEngine::Color _get__forcedColor();
-    // Set instance field: private UnityEngine.Color _forcedColor
-    void _set__forcedColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _color
-    UnityEngine::Color _get__color();
-    // Set instance field: private UnityEngine.Color _color
-    void _set__color(UnityEngine::Color value);
-    // Get instance field: private IBladeMovementData _movementData
-    GlobalNamespace::IBladeMovementData* _get__movementData();
-    // Set instance field: private IBladeMovementData _movementData
-    void _set__movementData(GlobalNamespace::IBladeMovementData* value);
-    // Get instance field: private System.Single _lastTrailElementTime
-    float _get__lastTrailElementTime();
-    // Set instance field: private System.Single _lastTrailElementTime
-    void _set__lastTrailElementTime(float value);
-    // Get instance field: private SaberTrailRenderer _trailRenderer
-    GlobalNamespace::SaberTrailRenderer* _get__trailRenderer();
-    // Set instance field: private SaberTrailRenderer _trailRenderer
-    void _set__trailRenderer(GlobalNamespace::SaberTrailRenderer* value);
-    // Get instance field: private TrailElementCollection _trailElementCollection
-    GlobalNamespace::TrailElementCollection* _get__trailElementCollection();
-    // Set instance field: private TrailElementCollection _trailElementCollection
-    void _set__trailElementCollection(GlobalNamespace::TrailElementCollection* value);
-    // Get instance field: private System.Single _sampleStep
-    float _get__sampleStep();
-    // Set instance field: private System.Single _sampleStep
-    void _set__sampleStep(float value);
-    // Get instance field: private System.Int32 _framesPassed
-    int _get__framesPassed();
-    // Set instance field: private System.Int32 _framesPassed
-    void _set__framesPassed(int value);
-    // Get instance field: private System.Single _lastZScale
-    float _get__lastZScale();
-    // Set instance field: private System.Single _lastZScale
-    void _set__lastZScale(float value);
-    // Get instance field: private System.Int32 _framesToScaleCheck
-    int _get__framesToScaleCheck();
-    // Set instance field: private System.Int32 _framesToScaleCheck
-    void _set__framesToScaleCheck(int value);
-    // Get instance field: private System.Boolean _inited
-    bool _get__inited();
-    // Set instance field: private System.Boolean _inited
-    void _set__inited(bool value);
+    // Get instance field reference: private SaberTrailRenderer _trailRendererPrefab
+    GlobalNamespace::SaberTrailRenderer*& dyn__trailRendererPrefab();
+    // Get instance field reference: private System.Single _trailDuration
+    float& dyn__trailDuration();
+    // Get instance field reference: private System.Int32 _samplingFrequency
+    int& dyn__samplingFrequency();
+    // Get instance field reference: private System.Int32 _granularity
+    int& dyn__granularity();
+    // Get instance field reference: private System.Single _whiteSectionMaxDuration
+    float& dyn__whiteSectionMaxDuration();
+    // Get instance field reference: private System.Boolean _colorOverwrite
+    bool& dyn__colorOverwrite();
+    // Get instance field reference: private UnityEngine.Color _forcedColor
+    UnityEngine::Color& dyn__forcedColor();
+    // Get instance field reference: private UnityEngine.Color _color
+    UnityEngine::Color& dyn__color();
+    // Get instance field reference: private IBladeMovementData _movementData
+    GlobalNamespace::IBladeMovementData*& dyn__movementData();
+    // Get instance field reference: private System.Single _lastTrailElementTime
+    float& dyn__lastTrailElementTime();
+    // Get instance field reference: private SaberTrailRenderer _trailRenderer
+    GlobalNamespace::SaberTrailRenderer*& dyn__trailRenderer();
+    // Get instance field reference: private TrailElementCollection _trailElementCollection
+    GlobalNamespace::TrailElementCollection*& dyn__trailElementCollection();
+    // Get instance field reference: private System.Single _sampleStep
+    float& dyn__sampleStep();
+    // Get instance field reference: private System.Int32 _framesPassed
+    int& dyn__framesPassed();
+    // Get instance field reference: private System.Single _lastZScale
+    float& dyn__lastZScale();
+    // Get instance field reference: private System.Int32 _framesToScaleCheck
+    int& dyn__framesToScaleCheck();
+    // Get instance field reference: private System.Boolean _inited
+    bool& dyn__inited();
     // private System.Void Awake()
     // Offset: 0x1195C88
     void Awake();

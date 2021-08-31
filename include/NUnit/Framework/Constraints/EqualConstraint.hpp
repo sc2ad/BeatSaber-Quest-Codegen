@@ -64,22 +64,14 @@ namespace NUnit::Framework::Constraints {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: EqualConstraint
     EqualConstraint(::Il2CppObject* expected_ = {}, NUnit::Framework::Constraints::Tolerance* tolerance_ = {}, NUnit::Framework::Constraints::NUnitEqualityComparer* comparer_ = {}, bool ClipStrings_ = {}) noexcept : expected{expected_}, tolerance{tolerance_}, comparer{comparer_}, ClipStrings{ClipStrings_} {}
-    // Get instance field: private readonly System.Object _expected
-    ::Il2CppObject* _get__expected();
-    // Set instance field: private readonly System.Object _expected
-    void _set__expected(::Il2CppObject* value);
-    // Get instance field: private NUnit.Framework.Constraints.Tolerance _tolerance
-    NUnit::Framework::Constraints::Tolerance* _get__tolerance();
-    // Set instance field: private NUnit.Framework.Constraints.Tolerance _tolerance
-    void _set__tolerance(NUnit::Framework::Constraints::Tolerance* value);
-    // Get instance field: private NUnit.Framework.Constraints.NUnitEqualityComparer _comparer
-    NUnit::Framework::Constraints::NUnitEqualityComparer* _get__comparer();
-    // Set instance field: private NUnit.Framework.Constraints.NUnitEqualityComparer _comparer
-    void _set__comparer(NUnit::Framework::Constraints::NUnitEqualityComparer* value);
-    // Get instance field: private System.Boolean <ClipStrings>k__BackingField
-    bool _get_$ClipStrings$k__BackingField();
-    // Set instance field: private System.Boolean <ClipStrings>k__BackingField
-    void _set_$ClipStrings$k__BackingField(bool value);
+    // Get instance field reference: private readonly System.Object _expected
+    ::Il2CppObject*& dyn__expected();
+    // Get instance field reference: private NUnit.Framework.Constraints.Tolerance _tolerance
+    NUnit::Framework::Constraints::Tolerance*& dyn__tolerance();
+    // Get instance field reference: private NUnit.Framework.Constraints.NUnitEqualityComparer _comparer
+    NUnit::Framework::Constraints::NUnitEqualityComparer*& dyn__comparer();
+    // Get instance field reference: private System.Boolean <ClipStrings>k__BackingField
+    bool& dyn_$ClipStrings$k__BackingField();
     // public NUnit.Framework.Constraints.Tolerance get_Tolerance()
     // Offset: 0x1766084
     NUnit::Framework::Constraints::Tolerance* get_Tolerance();

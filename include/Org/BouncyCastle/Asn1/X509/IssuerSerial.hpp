@@ -60,18 +60,12 @@ namespace Org::BouncyCastle::Asn1::X509 {
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerBitString*) == 0x8);
     // Creating value type constructor for type: IssuerSerial
     IssuerSerial(Org::BouncyCastle::Asn1::X509::GeneralNames* issuer_ = {}, Org::BouncyCastle::Asn1::DerInteger* serial_ = {}, Org::BouncyCastle::Asn1::DerBitString* issuerUid_ = {}) noexcept : issuer{issuer_}, serial{serial_}, issuerUid{issuerUid_} {}
-    // Get instance field: readonly Org.BouncyCastle.Asn1.X509.GeneralNames issuer
-    Org::BouncyCastle::Asn1::X509::GeneralNames* _get_issuer();
-    // Set instance field: readonly Org.BouncyCastle.Asn1.X509.GeneralNames issuer
-    void _set_issuer(Org::BouncyCastle::Asn1::X509::GeneralNames* value);
-    // Get instance field: readonly Org.BouncyCastle.Asn1.DerInteger serial
-    Org::BouncyCastle::Asn1::DerInteger* _get_serial();
-    // Set instance field: readonly Org.BouncyCastle.Asn1.DerInteger serial
-    void _set_serial(Org::BouncyCastle::Asn1::DerInteger* value);
-    // Get instance field: readonly Org.BouncyCastle.Asn1.DerBitString issuerUid
-    Org::BouncyCastle::Asn1::DerBitString* _get_issuerUid();
-    // Set instance field: readonly Org.BouncyCastle.Asn1.DerBitString issuerUid
-    void _set_issuerUid(Org::BouncyCastle::Asn1::DerBitString* value);
+    // Get instance field reference: readonly Org.BouncyCastle.Asn1.X509.GeneralNames issuer
+    Org::BouncyCastle::Asn1::X509::GeneralNames*& dyn_issuer();
+    // Get instance field reference: readonly Org.BouncyCastle.Asn1.DerInteger serial
+    Org::BouncyCastle::Asn1::DerInteger*& dyn_serial();
+    // Get instance field reference: readonly Org.BouncyCastle.Asn1.DerBitString issuerUid
+    Org::BouncyCastle::Asn1::DerBitString*& dyn_issuerUid();
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
     // Offset: 0x19FB59C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

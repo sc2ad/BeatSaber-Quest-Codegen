@@ -69,26 +69,16 @@ namespace RootMotion::FinalIK {
     VRIKRootController(UnityEngine::Vector3 pelvisTargetRight_ = {}, UnityEngine::Transform* pelvisTarget_ = {}, UnityEngine::Transform* leftFootTarget_ = {}, UnityEngine::Transform* rightFootTarget_ = {}, RootMotion::FinalIK::VRIK* ik_ = {}) noexcept : pelvisTargetRight{pelvisTargetRight_}, pelvisTarget{pelvisTarget_}, leftFootTarget{leftFootTarget_}, rightFootTarget{rightFootTarget_}, ik{ik_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.Vector3 <pelvisTargetRight>k__BackingField
-    UnityEngine::Vector3 _get_$pelvisTargetRight$k__BackingField();
-    // Set instance field: private UnityEngine.Vector3 <pelvisTargetRight>k__BackingField
-    void _set_$pelvisTargetRight$k__BackingField(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Transform pelvisTarget
-    UnityEngine::Transform* _get_pelvisTarget();
-    // Set instance field: private UnityEngine.Transform pelvisTarget
-    void _set_pelvisTarget(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.Transform leftFootTarget
-    UnityEngine::Transform* _get_leftFootTarget();
-    // Set instance field: private UnityEngine.Transform leftFootTarget
-    void _set_leftFootTarget(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.Transform rightFootTarget
-    UnityEngine::Transform* _get_rightFootTarget();
-    // Set instance field: private UnityEngine.Transform rightFootTarget
-    void _set_rightFootTarget(UnityEngine::Transform* value);
-    // Get instance field: private RootMotion.FinalIK.VRIK ik
-    RootMotion::FinalIK::VRIK* _get_ik();
-    // Set instance field: private RootMotion.FinalIK.VRIK ik
-    void _set_ik(RootMotion::FinalIK::VRIK* value);
+    // Get instance field reference: private UnityEngine.Vector3 <pelvisTargetRight>k__BackingField
+    UnityEngine::Vector3& dyn_$pelvisTargetRight$k__BackingField();
+    // Get instance field reference: private UnityEngine.Transform pelvisTarget
+    UnityEngine::Transform*& dyn_pelvisTarget();
+    // Get instance field reference: private UnityEngine.Transform leftFootTarget
+    UnityEngine::Transform*& dyn_leftFootTarget();
+    // Get instance field reference: private UnityEngine.Transform rightFootTarget
+    UnityEngine::Transform*& dyn_rightFootTarget();
+    // Get instance field reference: private RootMotion.FinalIK.VRIK ik
+    RootMotion::FinalIK::VRIK*& dyn_ik();
     // public UnityEngine.Vector3 get_pelvisTargetRight()
     // Offset: 0x1AE5B68
     UnityEngine::Vector3 get_pelvisTargetRight();

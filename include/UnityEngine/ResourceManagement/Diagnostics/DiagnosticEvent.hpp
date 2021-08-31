@@ -76,34 +76,20 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private System.String m_Graph
-    ::Il2CppString* _get_m_Graph();
-    // Set instance field: private System.String m_Graph
-    void _set_m_Graph(::Il2CppString* value);
-    // Get instance field: private System.Int32[] m_Dependencies
-    ::Array<int>* _get_m_Dependencies();
-    // Set instance field: private System.Int32[] m_Dependencies
-    void _set_m_Dependencies(::Array<int>* value);
-    // Get instance field: private System.Int32 m_ObjectId
-    int _get_m_ObjectId();
-    // Set instance field: private System.Int32 m_ObjectId
-    void _set_m_ObjectId(int value);
-    // Get instance field: private System.String m_DisplayName
-    ::Il2CppString* _get_m_DisplayName();
-    // Set instance field: private System.String m_DisplayName
-    void _set_m_DisplayName(::Il2CppString* value);
-    // Get instance field: private System.Int32 m_Stream
-    int _get_m_Stream();
-    // Set instance field: private System.Int32 m_Stream
-    void _set_m_Stream(int value);
-    // Get instance field: private System.Int32 m_Frame
-    int _get_m_Frame();
-    // Set instance field: private System.Int32 m_Frame
-    void _set_m_Frame(int value);
-    // Get instance field: private System.Int32 m_Value
-    int _get_m_Value();
-    // Set instance field: private System.Int32 m_Value
-    void _set_m_Value(int value);
+    // Get instance field reference: private System.String m_Graph
+    ::Il2CppString*& dyn_m_Graph();
+    // Get instance field reference: private System.Int32[] m_Dependencies
+    ::Array<int>*& dyn_m_Dependencies();
+    // Get instance field reference: private System.Int32 m_ObjectId
+    int& dyn_m_ObjectId();
+    // Get instance field reference: private System.String m_DisplayName
+    ::Il2CppString*& dyn_m_DisplayName();
+    // Get instance field reference: private System.Int32 m_Stream
+    int& dyn_m_Stream();
+    // Get instance field reference: private System.Int32 m_Frame
+    int& dyn_m_Frame();
+    // Get instance field reference: private System.Int32 m_Value
+    int& dyn_m_Value();
     // public System.String get_Graph()
     // Offset: 0x19E6E6C
     ::Il2CppString* get_Graph();

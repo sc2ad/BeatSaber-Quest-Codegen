@@ -53,10 +53,8 @@ namespace Oculus::Platform {
     static Oculus::Platform::SdkAccountType _get_FacebookGameroom();
     // Set static field: static public Oculus.Platform.SdkAccountType FacebookGameroom
     static void _set_FacebookGameroom(Oculus::Platform::SdkAccountType value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Oculus.Platform.SdkAccountType
   #pragma pack(pop)
   static check_size<sizeof(SdkAccountType), 0 + sizeof(int)> __Oculus_Platform_SdkAccountTypeSizeCheck;

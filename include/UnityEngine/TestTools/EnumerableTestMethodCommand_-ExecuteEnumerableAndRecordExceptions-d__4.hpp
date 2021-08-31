@@ -66,22 +66,14 @@ namespace UnityEngine::TestTools {
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
-    // Get instance field: private System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: private System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: private System.Object <>2__current
-    ::Il2CppObject* _get_$$2__current();
-    // Set instance field: private System.Object <>2__current
-    void _set_$$2__current(::Il2CppObject* value);
-    // Get instance field: public System.Collections.IEnumerator enumerator
-    System::Collections::IEnumerator* _get_enumerator();
-    // Set instance field: public System.Collections.IEnumerator enumerator
-    void _set_enumerator(System::Collections::IEnumerator* value);
-    // Get instance field: public NUnit.Framework.Internal.ITestExecutionContext context
-    NUnit::Framework::Internal::ITestExecutionContext* _get_context();
-    // Set instance field: public NUnit.Framework.Internal.ITestExecutionContext context
-    void _set_context(NUnit::Framework::Internal::ITestExecutionContext* value);
+    // Get instance field reference: private System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: private System.Object <>2__current
+    ::Il2CppObject*& dyn_$$2__current();
+    // Get instance field reference: public System.Collections.IEnumerator enumerator
+    System::Collections::IEnumerator*& dyn_enumerator();
+    // Get instance field reference: public NUnit.Framework.Internal.ITestExecutionContext context
+    NUnit::Framework::Internal::ITestExecutionContext*& dyn_context();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
     // Offset: 0x14C17A4
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();

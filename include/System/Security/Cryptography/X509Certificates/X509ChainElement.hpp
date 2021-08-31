@@ -53,22 +53,14 @@ namespace System::Security::Cryptography::X509Certificates {
     static_assert(sizeof(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags) == 0x4);
     // Creating value type constructor for type: X509ChainElement
     X509ChainElement(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate_ = {}, ::Array<System::Security::Cryptography::X509Certificates::X509ChainStatus>* status_ = {}, ::Il2CppString* info_ = {}, System::Security::Cryptography::X509Certificates::X509ChainStatusFlags compressed_status_flags_ = {}) noexcept : certificate{certificate_}, status{status_}, info{info_}, compressed_status_flags{compressed_status_flags_} {}
-    // Get instance field: private System.Security.Cryptography.X509Certificates.X509Certificate2 certificate
-    System::Security::Cryptography::X509Certificates::X509Certificate2* _get_certificate();
-    // Set instance field: private System.Security.Cryptography.X509Certificates.X509Certificate2 certificate
-    void _set_certificate(System::Security::Cryptography::X509Certificates::X509Certificate2* value);
-    // Get instance field: private System.Security.Cryptography.X509Certificates.X509ChainStatus[] status
-    ::Array<System::Security::Cryptography::X509Certificates::X509ChainStatus>* _get_status();
-    // Set instance field: private System.Security.Cryptography.X509Certificates.X509ChainStatus[] status
-    void _set_status(::Array<System::Security::Cryptography::X509Certificates::X509ChainStatus>* value);
-    // Get instance field: private System.String info
-    ::Il2CppString* _get_info();
-    // Set instance field: private System.String info
-    void _set_info(::Il2CppString* value);
-    // Get instance field: private System.Security.Cryptography.X509Certificates.X509ChainStatusFlags compressed_status_flags
-    System::Security::Cryptography::X509Certificates::X509ChainStatusFlags _get_compressed_status_flags();
-    // Set instance field: private System.Security.Cryptography.X509Certificates.X509ChainStatusFlags compressed_status_flags
-    void _set_compressed_status_flags(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags value);
+    // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Certificate2 certificate
+    System::Security::Cryptography::X509Certificates::X509Certificate2*& dyn_certificate();
+    // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509ChainStatus[] status
+    ::Array<System::Security::Cryptography::X509Certificates::X509ChainStatus>*& dyn_status();
+    // Get instance field reference: private System.String info
+    ::Il2CppString*& dyn_info();
+    // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509ChainStatusFlags compressed_status_flags
+    System::Security::Cryptography::X509Certificates::X509ChainStatusFlags& dyn_compressed_status_flags();
     // public System.Security.Cryptography.X509Certificates.X509Certificate2 get_Certificate()
     // Offset: 0x186062C
     System::Security::Cryptography::X509Certificates::X509Certificate2* get_Certificate();

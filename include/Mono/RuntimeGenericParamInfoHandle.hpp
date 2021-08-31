@@ -53,10 +53,8 @@ namespace Mono {
     constexpr operator Mono::RuntimeStructs::GenericParamInfo*() const noexcept {
       return value;
     }
-    // Get instance field: private Mono.RuntimeStructs/Mono.GenericParamInfo* value
-    Mono::RuntimeStructs::GenericParamInfo* _get_value();
-    // Set instance field: private Mono.RuntimeStructs/Mono.GenericParamInfo* value
-    void _set_value(Mono::RuntimeStructs::GenericParamInfo* value);
+    // Get instance field reference: private Mono.RuntimeStructs/Mono.GenericParamInfo* value
+    Mono::RuntimeStructs::GenericParamInfo*& dyn_value();
     // System.Type[] get_Constraints()
     // Offset: 0x1A738DC
     ::Array<System::Type*>* get_Constraints();

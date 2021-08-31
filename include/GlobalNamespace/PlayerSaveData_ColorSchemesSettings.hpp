@@ -50,18 +50,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::ColorScheme*>*) == 0x8);
     // Creating value type constructor for type: ColorSchemesSettings
     ColorSchemesSettings(bool overrideDefaultColors_ = {}, ::Il2CppString* selectedColorSchemeId_ = {}, System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::ColorScheme*>* colorSchemes_ = {}) noexcept : overrideDefaultColors{overrideDefaultColors_}, selectedColorSchemeId{selectedColorSchemeId_}, colorSchemes{colorSchemes_} {}
-    // Get instance field: public System.Boolean overrideDefaultColors
-    bool _get_overrideDefaultColors();
-    // Set instance field: public System.Boolean overrideDefaultColors
-    void _set_overrideDefaultColors(bool value);
-    // Get instance field: public System.String selectedColorSchemeId
-    ::Il2CppString* _get_selectedColorSchemeId();
-    // Set instance field: public System.String selectedColorSchemeId
-    void _set_selectedColorSchemeId(::Il2CppString* value);
-    // Get instance field: public System.Collections.Generic.List`1<PlayerSaveData/ColorScheme> colorSchemes
-    System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::ColorScheme*>* _get_colorSchemes();
-    // Set instance field: public System.Collections.Generic.List`1<PlayerSaveData/ColorScheme> colorSchemes
-    void _set_colorSchemes(System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::ColorScheme*>* value);
+    // Get instance field reference: public System.Boolean overrideDefaultColors
+    bool& dyn_overrideDefaultColors();
+    // Get instance field reference: public System.String selectedColorSchemeId
+    ::Il2CppString*& dyn_selectedColorSchemeId();
+    // Get instance field reference: public System.Collections.Generic.List`1<PlayerSaveData/ColorScheme> colorSchemes
+    System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::ColorScheme*>*& dyn_colorSchemes();
     // public System.Void .ctor(System.Boolean overrideDefaultColors, System.String selectedColorSchemeId, System.Collections.Generic.List`1<PlayerSaveData/ColorScheme> colorSchemes)
     // Offset: 0x11377F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

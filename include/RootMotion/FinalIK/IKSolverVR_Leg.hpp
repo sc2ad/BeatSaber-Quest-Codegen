@@ -214,114 +214,60 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Creating value type constructor for type: Leg
     Leg(UnityEngine::Transform* target_ = {}, UnityEngine::Transform* bendGoal_ = {}, float positionWeight_ = {}, float rotationWeight_ = {}, float bendGoalWeight_ = {}, float swivelOffset_ = {}, float bendToTargetWeight_ = {}, float legLengthMlp_ = {}, UnityEngine::AnimationCurve* stretchCurve_ = {}, UnityEngine::Vector3 IKPosition_ = {}, UnityEngine::Quaternion IKRotation_ = {}, UnityEngine::Vector3 footPositionOffset_ = {}, UnityEngine::Vector3 heelPositionOffset_ = {}, UnityEngine::Quaternion footRotationOffset_ = {}, float currentMag_ = {}, bool useAnimatedBendNormal_ = {}, UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion rotation_ = {}, bool hasToes_ = {}, UnityEngine::Vector3 thighRelativeToPelvis_ = {}, UnityEngine::Vector3 footPosition_ = {}, UnityEngine::Quaternion footRotation_ = {}, UnityEngine::Vector3 bendNormal_ = {}, UnityEngine::Quaternion calfRelToThigh_ = {}, UnityEngine::Quaternion thighRelToFoot_ = {}, UnityEngine::Vector3 bendNormalRelToPelvis_ = {}, UnityEngine::Vector3 bendNormalRelToTarget_ = {}) noexcept : target{target_}, bendGoal{bendGoal_}, positionWeight{positionWeight_}, rotationWeight{rotationWeight_}, bendGoalWeight{bendGoalWeight_}, swivelOffset{swivelOffset_}, bendToTargetWeight{bendToTargetWeight_}, legLengthMlp{legLengthMlp_}, stretchCurve{stretchCurve_}, IKPosition{IKPosition_}, IKRotation{IKRotation_}, footPositionOffset{footPositionOffset_}, heelPositionOffset{heelPositionOffset_}, footRotationOffset{footRotationOffset_}, currentMag{currentMag_}, useAnimatedBendNormal{useAnimatedBendNormal_}, position{position_}, rotation{rotation_}, hasToes{hasToes_}, thighRelativeToPelvis{thighRelativeToPelvis_}, footPosition{footPosition_}, footRotation{footRotation_}, bendNormal{bendNormal_}, calfRelToThigh{calfRelToThigh_}, thighRelToFoot{thighRelToFoot_}, bendNormalRelToPelvis{bendNormalRelToPelvis_}, bendNormalRelToTarget{bendNormalRelToTarget_} {}
-    // Get instance field: public UnityEngine.Transform target
-    UnityEngine::Transform* _get_target();
-    // Set instance field: public UnityEngine.Transform target
-    void _set_target(UnityEngine::Transform* value);
-    // Get instance field: public UnityEngine.Transform bendGoal
-    UnityEngine::Transform* _get_bendGoal();
-    // Set instance field: public UnityEngine.Transform bendGoal
-    void _set_bendGoal(UnityEngine::Transform* value);
-    // Get instance field: public System.Single positionWeight
-    float _get_positionWeight();
-    // Set instance field: public System.Single positionWeight
-    void _set_positionWeight(float value);
-    // Get instance field: public System.Single rotationWeight
-    float _get_rotationWeight();
-    // Set instance field: public System.Single rotationWeight
-    void _set_rotationWeight(float value);
-    // Get instance field: public System.Single bendGoalWeight
-    float _get_bendGoalWeight();
-    // Set instance field: public System.Single bendGoalWeight
-    void _set_bendGoalWeight(float value);
-    // Get instance field: public System.Single swivelOffset
-    float _get_swivelOffset();
-    // Set instance field: public System.Single swivelOffset
-    void _set_swivelOffset(float value);
-    // Get instance field: public System.Single bendToTargetWeight
-    float _get_bendToTargetWeight();
-    // Set instance field: public System.Single bendToTargetWeight
-    void _set_bendToTargetWeight(float value);
-    // Get instance field: public System.Single legLengthMlp
-    float _get_legLengthMlp();
-    // Set instance field: public System.Single legLengthMlp
-    void _set_legLengthMlp(float value);
-    // Get instance field: public UnityEngine.AnimationCurve stretchCurve
-    UnityEngine::AnimationCurve* _get_stretchCurve();
-    // Set instance field: public UnityEngine.AnimationCurve stretchCurve
-    void _set_stretchCurve(UnityEngine::AnimationCurve* value);
-    // Get instance field: public UnityEngine.Vector3 IKPosition
-    UnityEngine::Vector3 _get_IKPosition();
-    // Set instance field: public UnityEngine.Vector3 IKPosition
-    void _set_IKPosition(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Quaternion IKRotation
-    UnityEngine::Quaternion _get_IKRotation();
-    // Set instance field: public UnityEngine.Quaternion IKRotation
-    void _set_IKRotation(UnityEngine::Quaternion value);
-    // Get instance field: public UnityEngine.Vector3 footPositionOffset
-    UnityEngine::Vector3 _get_footPositionOffset();
-    // Set instance field: public UnityEngine.Vector3 footPositionOffset
-    void _set_footPositionOffset(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Vector3 heelPositionOffset
-    UnityEngine::Vector3 _get_heelPositionOffset();
-    // Set instance field: public UnityEngine.Vector3 heelPositionOffset
-    void _set_heelPositionOffset(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Quaternion footRotationOffset
-    UnityEngine::Quaternion _get_footRotationOffset();
-    // Set instance field: public UnityEngine.Quaternion footRotationOffset
-    void _set_footRotationOffset(UnityEngine::Quaternion value);
-    // Get instance field: public System.Single currentMag
-    float _get_currentMag();
-    // Set instance field: public System.Single currentMag
-    void _set_currentMag(float value);
-    // Get instance field: public System.Boolean useAnimatedBendNormal
-    bool _get_useAnimatedBendNormal();
-    // Set instance field: public System.Boolean useAnimatedBendNormal
-    void _set_useAnimatedBendNormal(bool value);
-    // Get instance field: private UnityEngine.Vector3 <position>k__BackingField
-    UnityEngine::Vector3 _get_$position$k__BackingField();
-    // Set instance field: private UnityEngine.Vector3 <position>k__BackingField
-    void _set_$position$k__BackingField(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Quaternion <rotation>k__BackingField
-    UnityEngine::Quaternion _get_$rotation$k__BackingField();
-    // Set instance field: private UnityEngine.Quaternion <rotation>k__BackingField
-    void _set_$rotation$k__BackingField(UnityEngine::Quaternion value);
-    // Get instance field: private System.Boolean <hasToes>k__BackingField
-    bool _get_$hasToes$k__BackingField();
-    // Set instance field: private System.Boolean <hasToes>k__BackingField
-    void _set_$hasToes$k__BackingField(bool value);
-    // Get instance field: private UnityEngine.Vector3 <thighRelativeToPelvis>k__BackingField
-    UnityEngine::Vector3 _get_$thighRelativeToPelvis$k__BackingField();
-    // Set instance field: private UnityEngine.Vector3 <thighRelativeToPelvis>k__BackingField
-    void _set_$thighRelativeToPelvis$k__BackingField(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 footPosition
-    UnityEngine::Vector3 _get_footPosition();
-    // Set instance field: private UnityEngine.Vector3 footPosition
-    void _set_footPosition(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Quaternion footRotation
-    UnityEngine::Quaternion _get_footRotation();
-    // Set instance field: private UnityEngine.Quaternion footRotation
-    void _set_footRotation(UnityEngine::Quaternion value);
-    // Get instance field: private UnityEngine.Vector3 bendNormal
-    UnityEngine::Vector3 _get_bendNormal();
-    // Set instance field: private UnityEngine.Vector3 bendNormal
-    void _set_bendNormal(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Quaternion calfRelToThigh
-    UnityEngine::Quaternion _get_calfRelToThigh();
-    // Set instance field: private UnityEngine.Quaternion calfRelToThigh
-    void _set_calfRelToThigh(UnityEngine::Quaternion value);
-    // Get instance field: private UnityEngine.Quaternion thighRelToFoot
-    UnityEngine::Quaternion _get_thighRelToFoot();
-    // Set instance field: private UnityEngine.Quaternion thighRelToFoot
-    void _set_thighRelToFoot(UnityEngine::Quaternion value);
-    // Get instance field: private UnityEngine.Vector3 bendNormalRelToPelvis
-    UnityEngine::Vector3 _get_bendNormalRelToPelvis();
-    // Set instance field: private UnityEngine.Vector3 bendNormalRelToPelvis
-    void _set_bendNormalRelToPelvis(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 bendNormalRelToTarget
-    UnityEngine::Vector3 _get_bendNormalRelToTarget();
-    // Set instance field: private UnityEngine.Vector3 bendNormalRelToTarget
-    void _set_bendNormalRelToTarget(UnityEngine::Vector3 value);
+    // Get instance field reference: public UnityEngine.Transform target
+    UnityEngine::Transform*& dyn_target();
+    // Get instance field reference: public UnityEngine.Transform bendGoal
+    UnityEngine::Transform*& dyn_bendGoal();
+    // Get instance field reference: public System.Single positionWeight
+    float& dyn_positionWeight();
+    // Get instance field reference: public System.Single rotationWeight
+    float& dyn_rotationWeight();
+    // Get instance field reference: public System.Single bendGoalWeight
+    float& dyn_bendGoalWeight();
+    // Get instance field reference: public System.Single swivelOffset
+    float& dyn_swivelOffset();
+    // Get instance field reference: public System.Single bendToTargetWeight
+    float& dyn_bendToTargetWeight();
+    // Get instance field reference: public System.Single legLengthMlp
+    float& dyn_legLengthMlp();
+    // Get instance field reference: public UnityEngine.AnimationCurve stretchCurve
+    UnityEngine::AnimationCurve*& dyn_stretchCurve();
+    // Get instance field reference: public UnityEngine.Vector3 IKPosition
+    UnityEngine::Vector3& dyn_IKPosition();
+    // Get instance field reference: public UnityEngine.Quaternion IKRotation
+    UnityEngine::Quaternion& dyn_IKRotation();
+    // Get instance field reference: public UnityEngine.Vector3 footPositionOffset
+    UnityEngine::Vector3& dyn_footPositionOffset();
+    // Get instance field reference: public UnityEngine.Vector3 heelPositionOffset
+    UnityEngine::Vector3& dyn_heelPositionOffset();
+    // Get instance field reference: public UnityEngine.Quaternion footRotationOffset
+    UnityEngine::Quaternion& dyn_footRotationOffset();
+    // Get instance field reference: public System.Single currentMag
+    float& dyn_currentMag();
+    // Get instance field reference: public System.Boolean useAnimatedBendNormal
+    bool& dyn_useAnimatedBendNormal();
+    // Get instance field reference: private UnityEngine.Vector3 <position>k__BackingField
+    UnityEngine::Vector3& dyn_$position$k__BackingField();
+    // Get instance field reference: private UnityEngine.Quaternion <rotation>k__BackingField
+    UnityEngine::Quaternion& dyn_$rotation$k__BackingField();
+    // Get instance field reference: private System.Boolean <hasToes>k__BackingField
+    bool& dyn_$hasToes$k__BackingField();
+    // Get instance field reference: private UnityEngine.Vector3 <thighRelativeToPelvis>k__BackingField
+    UnityEngine::Vector3& dyn_$thighRelativeToPelvis$k__BackingField();
+    // Get instance field reference: private UnityEngine.Vector3 footPosition
+    UnityEngine::Vector3& dyn_footPosition();
+    // Get instance field reference: private UnityEngine.Quaternion footRotation
+    UnityEngine::Quaternion& dyn_footRotation();
+    // Get instance field reference: private UnityEngine.Vector3 bendNormal
+    UnityEngine::Vector3& dyn_bendNormal();
+    // Get instance field reference: private UnityEngine.Quaternion calfRelToThigh
+    UnityEngine::Quaternion& dyn_calfRelToThigh();
+    // Get instance field reference: private UnityEngine.Quaternion thighRelToFoot
+    UnityEngine::Quaternion& dyn_thighRelToFoot();
+    // Get instance field reference: private UnityEngine.Vector3 bendNormalRelToPelvis
+    UnityEngine::Vector3& dyn_bendNormalRelToPelvis();
+    // Get instance field reference: private UnityEngine.Vector3 bendNormalRelToTarget
+    UnityEngine::Vector3& dyn_bendNormalRelToTarget();
     // public UnityEngine.Vector3 get_position()
     // Offset: 0x1E80DCC
     UnityEngine::Vector3 get_position();

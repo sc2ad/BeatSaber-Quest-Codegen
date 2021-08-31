@@ -73,38 +73,22 @@ namespace System {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: System.UInt16 wYear
-    uint16_t _get_wYear();
-    // Set instance field: System.UInt16 wYear
-    void _set_wYear(uint16_t value);
-    // Get instance field: System.UInt16 wMonth
-    uint16_t _get_wMonth();
-    // Set instance field: System.UInt16 wMonth
-    void _set_wMonth(uint16_t value);
-    // Get instance field: System.UInt16 wDayOfWeek
-    uint16_t _get_wDayOfWeek();
-    // Set instance field: System.UInt16 wDayOfWeek
-    void _set_wDayOfWeek(uint16_t value);
-    // Get instance field: System.UInt16 wDay
-    uint16_t _get_wDay();
-    // Set instance field: System.UInt16 wDay
-    void _set_wDay(uint16_t value);
-    // Get instance field: System.UInt16 wHour
-    uint16_t _get_wHour();
-    // Set instance field: System.UInt16 wHour
-    void _set_wHour(uint16_t value);
-    // Get instance field: System.UInt16 wMinute
-    uint16_t _get_wMinute();
-    // Set instance field: System.UInt16 wMinute
-    void _set_wMinute(uint16_t value);
-    // Get instance field: System.UInt16 wSecond
-    uint16_t _get_wSecond();
-    // Set instance field: System.UInt16 wSecond
-    void _set_wSecond(uint16_t value);
-    // Get instance field: System.UInt16 wMilliseconds
-    uint16_t _get_wMilliseconds();
-    // Set instance field: System.UInt16 wMilliseconds
-    void _set_wMilliseconds(uint16_t value);
+    // Get instance field reference: System.UInt16 wYear
+    uint16_t& dyn_wYear();
+    // Get instance field reference: System.UInt16 wMonth
+    uint16_t& dyn_wMonth();
+    // Get instance field reference: System.UInt16 wDayOfWeek
+    uint16_t& dyn_wDayOfWeek();
+    // Get instance field reference: System.UInt16 wDay
+    uint16_t& dyn_wDay();
+    // Get instance field reference: System.UInt16 wHour
+    uint16_t& dyn_wHour();
+    // Get instance field reference: System.UInt16 wMinute
+    uint16_t& dyn_wMinute();
+    // Get instance field reference: System.UInt16 wSecond
+    uint16_t& dyn_wSecond();
+    // Get instance field reference: System.UInt16 wMilliseconds
+    uint16_t& dyn_wMilliseconds();
   }; // System.TimeZoneInfo/System.SYSTEMTIME
   #pragma pack(pop)
   static check_size<sizeof(TimeZoneInfo::SYSTEMTIME), 14 + sizeof(uint16_t)> __System_TimeZoneInfo_SYSTEMTIMESizeCheck;

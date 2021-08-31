@@ -57,22 +57,14 @@ namespace Zenject {
     static_assert(sizeof(Zenject::BindingCondition*) == 0x8);
     // Creating value type constructor for type: ProviderInfo
     ProviderInfo(Zenject::DiContainer* Container_ = {}, bool NonLazy_ = {}, Zenject::IProvider* Provider_ = {}, Zenject::BindingCondition* Condition_ = {}) noexcept : Container{Container_}, NonLazy{NonLazy_}, Provider{Provider_}, Condition{Condition_} {}
-    // Get instance field: public readonly Zenject.DiContainer Container
-    Zenject::DiContainer* _get_Container();
-    // Set instance field: public readonly Zenject.DiContainer Container
-    void _set_Container(Zenject::DiContainer* value);
-    // Get instance field: public readonly System.Boolean NonLazy
-    bool _get_NonLazy();
-    // Set instance field: public readonly System.Boolean NonLazy
-    void _set_NonLazy(bool value);
-    // Get instance field: public readonly Zenject.IProvider Provider
-    Zenject::IProvider* _get_Provider();
-    // Set instance field: public readonly Zenject.IProvider Provider
-    void _set_Provider(Zenject::IProvider* value);
-    // Get instance field: public readonly Zenject.BindingCondition Condition
-    Zenject::BindingCondition* _get_Condition();
-    // Set instance field: public readonly Zenject.BindingCondition Condition
-    void _set_Condition(Zenject::BindingCondition* value);
+    // Get instance field reference: public readonly Zenject.DiContainer Container
+    Zenject::DiContainer*& dyn_Container();
+    // Get instance field reference: public readonly System.Boolean NonLazy
+    bool& dyn_NonLazy();
+    // Get instance field reference: public readonly Zenject.IProvider Provider
+    Zenject::IProvider*& dyn_Provider();
+    // Get instance field reference: public readonly Zenject.BindingCondition Condition
+    Zenject::BindingCondition*& dyn_Condition();
     // public System.Void .ctor(Zenject.IProvider provider, Zenject.BindingCondition condition, System.Boolean nonLazy, Zenject.DiContainer container)
     // Offset: 0x1655094
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

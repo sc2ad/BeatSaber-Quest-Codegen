@@ -91,34 +91,20 @@ namespace System::Net::Http {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
-    // Get instance field: private System.Net.Http.Headers.HttpRequestHeaders headers
-    System::Net::Http::Headers::HttpRequestHeaders* _get_headers();
-    // Set instance field: private System.Net.Http.Headers.HttpRequestHeaders headers
-    void _set_headers(System::Net::Http::Headers::HttpRequestHeaders* value);
-    // Get instance field: private System.Net.Http.HttpMethod method
-    System::Net::Http::HttpMethod* _get_method();
-    // Set instance field: private System.Net.Http.HttpMethod method
-    void _set_method(System::Net::Http::HttpMethod* value);
-    // Get instance field: private System.Version version
-    System::Version* _get_version();
-    // Set instance field: private System.Version version
-    void _set_version(System::Version* value);
-    // Get instance field: private System.Uri uri
-    System::Uri* _get_uri();
-    // Set instance field: private System.Uri uri
-    void _set_uri(System::Uri* value);
-    // Get instance field: private System.Boolean is_used
-    bool _get_is_used();
-    // Set instance field: private System.Boolean is_used
-    void _set_is_used(bool value);
-    // Get instance field: private System.Boolean disposed
-    bool _get_disposed();
-    // Set instance field: private System.Boolean disposed
-    void _set_disposed(bool value);
-    // Get instance field: private System.Net.Http.HttpContent <Content>k__BackingField
-    System::Net::Http::HttpContent* _get_$Content$k__BackingField();
-    // Set instance field: private System.Net.Http.HttpContent <Content>k__BackingField
-    void _set_$Content$k__BackingField(System::Net::Http::HttpContent* value);
+    // Get instance field reference: private System.Net.Http.Headers.HttpRequestHeaders headers
+    System::Net::Http::Headers::HttpRequestHeaders*& dyn_headers();
+    // Get instance field reference: private System.Net.Http.HttpMethod method
+    System::Net::Http::HttpMethod*& dyn_method();
+    // Get instance field reference: private System.Version version
+    System::Version*& dyn_version();
+    // Get instance field reference: private System.Uri uri
+    System::Uri*& dyn_uri();
+    // Get instance field reference: private System.Boolean is_used
+    bool& dyn_is_used();
+    // Get instance field reference: private System.Boolean disposed
+    bool& dyn_disposed();
+    // Get instance field reference: private System.Net.Http.HttpContent <Content>k__BackingField
+    System::Net::Http::HttpContent*& dyn_$Content$k__BackingField();
     // public System.Net.Http.HttpContent get_Content()
     // Offset: 0x15AF3E8
     System::Net::Http::HttpContent* get_Content();

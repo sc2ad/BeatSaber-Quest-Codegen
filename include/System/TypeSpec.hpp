@@ -101,34 +101,20 @@ namespace System {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: TypeSpec
     TypeSpec(System::TypeIdentifier* name_ = {}, ::Il2CppString* assembly_name_ = {}, System::Collections::Generic::List_1<System::TypeIdentifier*>* nested_ = {}, System::Collections::Generic::List_1<System::TypeSpec*>* generic_params_ = {}, System::Collections::Generic::List_1<System::ModifierSpec*>* modifier_spec_ = {}, bool is_byref_ = {}, ::Il2CppString* display_fullname_ = {}) noexcept : name{name_}, assembly_name{assembly_name_}, nested{nested_}, generic_params{generic_params_}, modifier_spec{modifier_spec_}, is_byref{is_byref_}, display_fullname{display_fullname_} {}
-    // Get instance field: private System.TypeIdentifier name
-    System::TypeIdentifier* _get_name();
-    // Set instance field: private System.TypeIdentifier name
-    void _set_name(System::TypeIdentifier* value);
-    // Get instance field: private System.String assembly_name
-    ::Il2CppString* _get_assembly_name();
-    // Set instance field: private System.String assembly_name
-    void _set_assembly_name(::Il2CppString* value);
-    // Get instance field: private System.Collections.Generic.List`1<System.TypeIdentifier> nested
-    System::Collections::Generic::List_1<System::TypeIdentifier*>* _get_nested();
-    // Set instance field: private System.Collections.Generic.List`1<System.TypeIdentifier> nested
-    void _set_nested(System::Collections::Generic::List_1<System::TypeIdentifier*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<System.TypeSpec> generic_params
-    System::Collections::Generic::List_1<System::TypeSpec*>* _get_generic_params();
-    // Set instance field: private System.Collections.Generic.List`1<System.TypeSpec> generic_params
-    void _set_generic_params(System::Collections::Generic::List_1<System::TypeSpec*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<System.ModifierSpec> modifier_spec
-    System::Collections::Generic::List_1<System::ModifierSpec*>* _get_modifier_spec();
-    // Set instance field: private System.Collections.Generic.List`1<System.ModifierSpec> modifier_spec
-    void _set_modifier_spec(System::Collections::Generic::List_1<System::ModifierSpec*>* value);
-    // Get instance field: private System.Boolean is_byref
-    bool _get_is_byref();
-    // Set instance field: private System.Boolean is_byref
-    void _set_is_byref(bool value);
-    // Get instance field: private System.String display_fullname
-    ::Il2CppString* _get_display_fullname();
-    // Set instance field: private System.String display_fullname
-    void _set_display_fullname(::Il2CppString* value);
+    // Get instance field reference: private System.TypeIdentifier name
+    System::TypeIdentifier*& dyn_name();
+    // Get instance field reference: private System.String assembly_name
+    ::Il2CppString*& dyn_assembly_name();
+    // Get instance field reference: private System.Collections.Generic.List`1<System.TypeIdentifier> nested
+    System::Collections::Generic::List_1<System::TypeIdentifier*>*& dyn_nested();
+    // Get instance field reference: private System.Collections.Generic.List`1<System.TypeSpec> generic_params
+    System::Collections::Generic::List_1<System::TypeSpec*>*& dyn_generic_params();
+    // Get instance field reference: private System.Collections.Generic.List`1<System.ModifierSpec> modifier_spec
+    System::Collections::Generic::List_1<System::ModifierSpec*>*& dyn_modifier_spec();
+    // Get instance field reference: private System.Boolean is_byref
+    bool& dyn_is_byref();
+    // Get instance field reference: private System.String display_fullname
+    ::Il2CppString*& dyn_display_fullname();
     // System.Boolean get_HasModifiers()
     // Offset: 0x232BD60
     bool get_HasModifiers();

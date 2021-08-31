@@ -72,10 +72,8 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kAssetsDir();
     // Set static field: static private System.String kAssetsDir
     static void _set_kAssetsDir(::Il2CppString* value);
-    // Get instance field: private System.Action`1<LevelDataAssetDownloadUpdate> levelDataAssetDownloadUpdateEvent
-    System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>* _get_levelDataAssetDownloadUpdateEvent();
-    // Set instance field: private System.Action`1<LevelDataAssetDownloadUpdate> levelDataAssetDownloadUpdateEvent
-    void _set_levelDataAssetDownloadUpdateEvent(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
+    // Get instance field reference: private System.Action`1<LevelDataAssetDownloadUpdate> levelDataAssetDownloadUpdateEvent
+    System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>*& dyn_levelDataAssetDownloadUpdateEvent();
     // public System.Void add_levelDataAssetDownloadUpdateEvent(System.Action`1<LevelDataAssetDownloadUpdate> value)
     // Offset: 0x1091590
     void add_levelDataAssetDownloadUpdateEvent(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>* value);

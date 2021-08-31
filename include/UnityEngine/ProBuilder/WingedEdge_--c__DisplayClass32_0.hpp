@@ -41,10 +41,8 @@ namespace UnityEngine::ProBuilder {
     constexpr operator System::Collections::Generic::HashSet_1<int>*() const noexcept {
       return common;
     }
-    // Get instance field: public System.Collections.Generic.HashSet`1<System.Int32> common
-    System::Collections::Generic::HashSet_1<int>* _get_common();
-    // Set instance field: public System.Collections.Generic.HashSet`1<System.Int32> common
-    void _set_common(System::Collections::Generic::HashSet_1<int>* value);
+    // Get instance field reference: public System.Collections.Generic.HashSet`1<System.Int32> common
+    System::Collections::Generic::HashSet_1<int>*& dyn_common();
     // System.Boolean <SortCommonIndexesByAdjacency>b__0(UnityEngine.ProBuilder.WingedEdge x)
     // Offset: 0x22D5214
     bool $SortCommonIndexesByAdjacency$b__0(UnityEngine::ProBuilder::WingedEdge* x);

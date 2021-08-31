@@ -42,10 +42,8 @@ namespace Zenject::Internal {
     constexpr operator UnityEngine::SceneManagement::Scene() const noexcept {
       return scene;
     }
-    // Get instance field: public UnityEngine.SceneManagement.Scene scene
-    UnityEngine::SceneManagement::Scene _get_scene();
-    // Set instance field: public UnityEngine.SceneManagement.Scene scene
-    void _set_scene(UnityEngine::SceneManagement::Scene value);
+    // Get instance field reference: public UnityEngine.SceneManagement.Scene scene
+    UnityEngine::SceneManagement::Scene& dyn_scene();
     // System.Boolean <GetRootGameObjects>b__1(UnityEngine.GameObject x)
     // Offset: 0x1712414
     bool $GetRootGameObjects$b__1(UnityEngine::GameObject* x);

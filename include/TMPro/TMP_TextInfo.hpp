@@ -145,70 +145,38 @@ namespace TMPro {
     static UnityEngine::Vector2 _get_k_InfinityVectorNegative();
     // Set static field: static private UnityEngine.Vector2 k_InfinityVectorNegative
     static void _set_k_InfinityVectorNegative(UnityEngine::Vector2 value);
-    // Get instance field: public TMPro.TMP_Text textComponent
-    TMPro::TMP_Text* _get_textComponent();
-    // Set instance field: public TMPro.TMP_Text textComponent
-    void _set_textComponent(TMPro::TMP_Text* value);
-    // Get instance field: public System.Int32 characterCount
-    int _get_characterCount();
-    // Set instance field: public System.Int32 characterCount
-    void _set_characterCount(int value);
-    // Get instance field: public System.Int32 spriteCount
-    int _get_spriteCount();
-    // Set instance field: public System.Int32 spriteCount
-    void _set_spriteCount(int value);
-    // Get instance field: public System.Int32 spaceCount
-    int _get_spaceCount();
-    // Set instance field: public System.Int32 spaceCount
-    void _set_spaceCount(int value);
-    // Get instance field: public System.Int32 wordCount
-    int _get_wordCount();
-    // Set instance field: public System.Int32 wordCount
-    void _set_wordCount(int value);
-    // Get instance field: public System.Int32 linkCount
-    int _get_linkCount();
-    // Set instance field: public System.Int32 linkCount
-    void _set_linkCount(int value);
-    // Get instance field: public System.Int32 lineCount
-    int _get_lineCount();
-    // Set instance field: public System.Int32 lineCount
-    void _set_lineCount(int value);
-    // Get instance field: public System.Int32 pageCount
-    int _get_pageCount();
-    // Set instance field: public System.Int32 pageCount
-    void _set_pageCount(int value);
-    // Get instance field: public System.Int32 materialCount
-    int _get_materialCount();
-    // Set instance field: public System.Int32 materialCount
-    void _set_materialCount(int value);
-    // Get instance field: public TMPro.TMP_CharacterInfo[] characterInfo
-    ::Array<TMPro::TMP_CharacterInfo>* _get_characterInfo();
-    // Set instance field: public TMPro.TMP_CharacterInfo[] characterInfo
-    void _set_characterInfo(::Array<TMPro::TMP_CharacterInfo>* value);
-    // Get instance field: public TMPro.TMP_WordInfo[] wordInfo
-    ::Array<TMPro::TMP_WordInfo>* _get_wordInfo();
-    // Set instance field: public TMPro.TMP_WordInfo[] wordInfo
-    void _set_wordInfo(::Array<TMPro::TMP_WordInfo>* value);
-    // Get instance field: public TMPro.TMP_LinkInfo[] linkInfo
-    ::Array<TMPro::TMP_LinkInfo>* _get_linkInfo();
-    // Set instance field: public TMPro.TMP_LinkInfo[] linkInfo
-    void _set_linkInfo(::Array<TMPro::TMP_LinkInfo>* value);
-    // Get instance field: public TMPro.TMP_LineInfo[] lineInfo
-    ::Array<TMPro::TMP_LineInfo>* _get_lineInfo();
-    // Set instance field: public TMPro.TMP_LineInfo[] lineInfo
-    void _set_lineInfo(::Array<TMPro::TMP_LineInfo>* value);
-    // Get instance field: public TMPro.TMP_PageInfo[] pageInfo
-    ::Array<TMPro::TMP_PageInfo>* _get_pageInfo();
-    // Set instance field: public TMPro.TMP_PageInfo[] pageInfo
-    void _set_pageInfo(::Array<TMPro::TMP_PageInfo>* value);
-    // Get instance field: public TMPro.TMP_MeshInfo[] meshInfo
-    ::Array<TMPro::TMP_MeshInfo>* _get_meshInfo();
-    // Set instance field: public TMPro.TMP_MeshInfo[] meshInfo
-    void _set_meshInfo(::Array<TMPro::TMP_MeshInfo>* value);
-    // Get instance field: private TMPro.TMP_MeshInfo[] m_CachedMeshInfo
-    ::Array<TMPro::TMP_MeshInfo>* _get_m_CachedMeshInfo();
-    // Set instance field: private TMPro.TMP_MeshInfo[] m_CachedMeshInfo
-    void _set_m_CachedMeshInfo(::Array<TMPro::TMP_MeshInfo>* value);
+    // Get instance field reference: public TMPro.TMP_Text textComponent
+    TMPro::TMP_Text*& dyn_textComponent();
+    // Get instance field reference: public System.Int32 characterCount
+    int& dyn_characterCount();
+    // Get instance field reference: public System.Int32 spriteCount
+    int& dyn_spriteCount();
+    // Get instance field reference: public System.Int32 spaceCount
+    int& dyn_spaceCount();
+    // Get instance field reference: public System.Int32 wordCount
+    int& dyn_wordCount();
+    // Get instance field reference: public System.Int32 linkCount
+    int& dyn_linkCount();
+    // Get instance field reference: public System.Int32 lineCount
+    int& dyn_lineCount();
+    // Get instance field reference: public System.Int32 pageCount
+    int& dyn_pageCount();
+    // Get instance field reference: public System.Int32 materialCount
+    int& dyn_materialCount();
+    // Get instance field reference: public TMPro.TMP_CharacterInfo[] characterInfo
+    ::Array<TMPro::TMP_CharacterInfo>*& dyn_characterInfo();
+    // Get instance field reference: public TMPro.TMP_WordInfo[] wordInfo
+    ::Array<TMPro::TMP_WordInfo>*& dyn_wordInfo();
+    // Get instance field reference: public TMPro.TMP_LinkInfo[] linkInfo
+    ::Array<TMPro::TMP_LinkInfo>*& dyn_linkInfo();
+    // Get instance field reference: public TMPro.TMP_LineInfo[] lineInfo
+    ::Array<TMPro::TMP_LineInfo>*& dyn_lineInfo();
+    // Get instance field reference: public TMPro.TMP_PageInfo[] pageInfo
+    ::Array<TMPro::TMP_PageInfo>*& dyn_pageInfo();
+    // Get instance field reference: public TMPro.TMP_MeshInfo[] meshInfo
+    ::Array<TMPro::TMP_MeshInfo>*& dyn_meshInfo();
+    // Get instance field reference: private TMPro.TMP_MeshInfo[] m_CachedMeshInfo
+    ::Array<TMPro::TMP_MeshInfo>*& dyn_m_CachedMeshInfo();
     // public System.Void .ctor(TMPro.TMP_Text textComponent)
     // Offset: 0x144E20C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

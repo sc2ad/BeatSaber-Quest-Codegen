@@ -38,18 +38,12 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: Error
     Error(int Code_ = {}, int HttpCode_ = {}, ::Il2CppString* Message_ = {}) noexcept : Code{Code_}, HttpCode{HttpCode_}, Message{Message_} {}
-    // Get instance field: public readonly System.Int32 Code
-    int _get_Code();
-    // Set instance field: public readonly System.Int32 Code
-    void _set_Code(int value);
-    // Get instance field: public readonly System.Int32 HttpCode
-    int _get_HttpCode();
-    // Set instance field: public readonly System.Int32 HttpCode
-    void _set_HttpCode(int value);
-    // Get instance field: public readonly System.String Message
-    ::Il2CppString* _get_Message();
-    // Set instance field: public readonly System.String Message
-    void _set_Message(::Il2CppString* value);
+    // Get instance field reference: public readonly System.Int32 Code
+    int& dyn_Code();
+    // Get instance field reference: public readonly System.Int32 HttpCode
+    int& dyn_HttpCode();
+    // Get instance field reference: public readonly System.String Message
+    ::Il2CppString*& dyn_Message();
     // public System.Void .ctor(System.Int32 code, System.String message, System.Int32 httpCode)
     // Offset: 0x14E3834
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -32,10 +32,8 @@ namespace Priority_Queue {
     constexpr operator int64_t() const noexcept {
       return InsertionIndex;
     }
-    // Get instance field: private System.Int64 <InsertionIndex>k__BackingField
-    int64_t _get_$InsertionIndex$k__BackingField();
-    // Set instance field: private System.Int64 <InsertionIndex>k__BackingField
-    void _set_$InsertionIndex$k__BackingField(int64_t value);
+    // Get instance field reference: private System.Int64 <InsertionIndex>k__BackingField
+    int64_t& dyn_$InsertionIndex$k__BackingField();
     // public System.Int64 get_InsertionIndex()
     // Offset: 0x11401C8
     int64_t get_InsertionIndex();

@@ -44,10 +44,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRManager_MrcActivationMode _get_Disabled();
     // Set static field: static public OVRManager/MrcActivationMode Disabled
     static void _set_Disabled(GlobalNamespace::OVRManager_MrcActivationMode value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // OVRManager/MrcActivationMode
   #pragma pack(pop)
   static check_size<sizeof(OVRManager_MrcActivationMode), 0 + sizeof(int)> __GlobalNamespace_OVRManager_MrcActivationModeSizeCheck;

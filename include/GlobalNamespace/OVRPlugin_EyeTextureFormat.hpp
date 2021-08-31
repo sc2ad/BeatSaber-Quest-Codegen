@@ -88,10 +88,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::EyeTextureFormat _get_EnumSize();
     // Set static field: static public OVRPlugin/EyeTextureFormat EnumSize
     static void _set_EnumSize(GlobalNamespace::OVRPlugin::EyeTextureFormat value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // OVRPlugin/EyeTextureFormat
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::EyeTextureFormat), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_EyeTextureFormatSizeCheck;

@@ -106,42 +106,24 @@ namespace GlobalNamespace {
     AutoSetupController(UnityEngine::UI::Button* closeButton_ = {}, UnityEngine::UI::Toggle* selectBasedOnSuggestionsToggle_ = {}, UnityEngine::UI::Toggle* autoStartWhenAllReadyToggle_ = {}, UnityEngine::UI::Toggle* forceAutoStartAfterSongSelectionToggle_ = {}, UnityEngine::UI::Toggle* randomSongIfNoneSuggestedToggle_ = {}, System::Action_1<GlobalNamespace::AutoSetupData*>* didFinishEvent_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}, HMUI::ToggleBinder* toggleBinder_ = {}, GlobalNamespace::AutoSetupData* autoSetupData_ = {}) noexcept : closeButton{closeButton_}, selectBasedOnSuggestionsToggle{selectBasedOnSuggestionsToggle_}, autoStartWhenAllReadyToggle{autoStartWhenAllReadyToggle_}, forceAutoStartAfterSongSelectionToggle{forceAutoStartAfterSongSelectionToggle_}, randomSongIfNoneSuggestedToggle{randomSongIfNoneSuggestedToggle_}, didFinishEvent{didFinishEvent_}, buttonBinder{buttonBinder_}, toggleBinder{toggleBinder_}, autoSetupData{autoSetupData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.UI.Button _closeButton
-    UnityEngine::UI::Button* _get__closeButton();
-    // Set instance field: private UnityEngine.UI.Button _closeButton
-    void _set__closeButton(UnityEngine::UI::Button* value);
-    // Get instance field: private UnityEngine.UI.Toggle _selectBasedOnSuggestionsToggle
-    UnityEngine::UI::Toggle* _get__selectBasedOnSuggestionsToggle();
-    // Set instance field: private UnityEngine.UI.Toggle _selectBasedOnSuggestionsToggle
-    void _set__selectBasedOnSuggestionsToggle(UnityEngine::UI::Toggle* value);
-    // Get instance field: private UnityEngine.UI.Toggle _autoStartWhenAllReadyToggle
-    UnityEngine::UI::Toggle* _get__autoStartWhenAllReadyToggle();
-    // Set instance field: private UnityEngine.UI.Toggle _autoStartWhenAllReadyToggle
-    void _set__autoStartWhenAllReadyToggle(UnityEngine::UI::Toggle* value);
-    // Get instance field: private UnityEngine.UI.Toggle _forceAutoStartAfterSongSelectionToggle
-    UnityEngine::UI::Toggle* _get__forceAutoStartAfterSongSelectionToggle();
-    // Set instance field: private UnityEngine.UI.Toggle _forceAutoStartAfterSongSelectionToggle
-    void _set__forceAutoStartAfterSongSelectionToggle(UnityEngine::UI::Toggle* value);
-    // Get instance field: private UnityEngine.UI.Toggle _randomSongIfNoneSuggestedToggle
-    UnityEngine::UI::Toggle* _get__randomSongIfNoneSuggestedToggle();
-    // Set instance field: private UnityEngine.UI.Toggle _randomSongIfNoneSuggestedToggle
-    void _set__randomSongIfNoneSuggestedToggle(UnityEngine::UI::Toggle* value);
-    // Get instance field: private System.Action`1<AutoSetupData> didFinishEvent
-    System::Action_1<GlobalNamespace::AutoSetupData*>* _get_didFinishEvent();
-    // Set instance field: private System.Action`1<AutoSetupData> didFinishEvent
-    void _set_didFinishEvent(System::Action_1<GlobalNamespace::AutoSetupData*>* value);
-    // Get instance field: private readonly HMUI.ButtonBinder _buttonBinder
-    HMUI::ButtonBinder* _get__buttonBinder();
-    // Set instance field: private readonly HMUI.ButtonBinder _buttonBinder
-    void _set__buttonBinder(HMUI::ButtonBinder* value);
-    // Get instance field: private readonly HMUI.ToggleBinder _toggleBinder
-    HMUI::ToggleBinder* _get__toggleBinder();
-    // Set instance field: private readonly HMUI.ToggleBinder _toggleBinder
-    void _set__toggleBinder(HMUI::ToggleBinder* value);
-    // Get instance field: private AutoSetupData _autoSetupData
-    GlobalNamespace::AutoSetupData* _get__autoSetupData();
-    // Set instance field: private AutoSetupData _autoSetupData
-    void _set__autoSetupData(GlobalNamespace::AutoSetupData* value);
+    // Get instance field reference: private UnityEngine.UI.Button _closeButton
+    UnityEngine::UI::Button*& dyn__closeButton();
+    // Get instance field reference: private UnityEngine.UI.Toggle _selectBasedOnSuggestionsToggle
+    UnityEngine::UI::Toggle*& dyn__selectBasedOnSuggestionsToggle();
+    // Get instance field reference: private UnityEngine.UI.Toggle _autoStartWhenAllReadyToggle
+    UnityEngine::UI::Toggle*& dyn__autoStartWhenAllReadyToggle();
+    // Get instance field reference: private UnityEngine.UI.Toggle _forceAutoStartAfterSongSelectionToggle
+    UnityEngine::UI::Toggle*& dyn__forceAutoStartAfterSongSelectionToggle();
+    // Get instance field reference: private UnityEngine.UI.Toggle _randomSongIfNoneSuggestedToggle
+    UnityEngine::UI::Toggle*& dyn__randomSongIfNoneSuggestedToggle();
+    // Get instance field reference: private System.Action`1<AutoSetupData> didFinishEvent
+    System::Action_1<GlobalNamespace::AutoSetupData*>*& dyn_didFinishEvent();
+    // Get instance field reference: private readonly HMUI.ButtonBinder _buttonBinder
+    HMUI::ButtonBinder*& dyn__buttonBinder();
+    // Get instance field reference: private readonly HMUI.ToggleBinder _toggleBinder
+    HMUI::ToggleBinder*& dyn__toggleBinder();
+    // Get instance field reference: private AutoSetupData _autoSetupData
+    GlobalNamespace::AutoSetupData*& dyn__autoSetupData();
     // public System.Void add_didFinishEvent(System.Action`1<AutoSetupData> value)
     // Offset: 0x117EEB4
     void add_didFinishEvent(System::Action_1<GlobalNamespace::AutoSetupData*>* value);

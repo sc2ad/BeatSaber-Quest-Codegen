@@ -78,38 +78,22 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: AssetDetails
     AssetDetails(uint64_t AssetId_ = {}, ::Il2CppString* AssetType_ = {}, ::Il2CppString* DownloadStatus_ = {}, ::Il2CppString* Filepath_ = {}, ::Il2CppString* IapStatus_ = {}, Oculus::Platform::Models::LanguagePackInfo* LanguageOptional_ = {}, Oculus::Platform::Models::LanguagePackInfo* Language_ = {}, ::Il2CppString* Metadata_ = {}) noexcept : AssetId{AssetId_}, AssetType{AssetType_}, DownloadStatus{DownloadStatus_}, Filepath{Filepath_}, IapStatus{IapStatus_}, LanguageOptional{LanguageOptional_}, Language{Language_}, Metadata{Metadata_} {}
-    // Get instance field: public readonly System.UInt64 AssetId
-    uint64_t _get_AssetId();
-    // Set instance field: public readonly System.UInt64 AssetId
-    void _set_AssetId(uint64_t value);
-    // Get instance field: public readonly System.String AssetType
-    ::Il2CppString* _get_AssetType();
-    // Set instance field: public readonly System.String AssetType
-    void _set_AssetType(::Il2CppString* value);
-    // Get instance field: public readonly System.String DownloadStatus
-    ::Il2CppString* _get_DownloadStatus();
-    // Set instance field: public readonly System.String DownloadStatus
-    void _set_DownloadStatus(::Il2CppString* value);
-    // Get instance field: public readonly System.String Filepath
-    ::Il2CppString* _get_Filepath();
-    // Set instance field: public readonly System.String Filepath
-    void _set_Filepath(::Il2CppString* value);
-    // Get instance field: public readonly System.String IapStatus
-    ::Il2CppString* _get_IapStatus();
-    // Set instance field: public readonly System.String IapStatus
-    void _set_IapStatus(::Il2CppString* value);
-    // Get instance field: public readonly Oculus.Platform.Models.LanguagePackInfo LanguageOptional
-    Oculus::Platform::Models::LanguagePackInfo* _get_LanguageOptional();
-    // Set instance field: public readonly Oculus.Platform.Models.LanguagePackInfo LanguageOptional
-    void _set_LanguageOptional(Oculus::Platform::Models::LanguagePackInfo* value);
-    // Get instance field: public readonly Oculus.Platform.Models.LanguagePackInfo Language
-    Oculus::Platform::Models::LanguagePackInfo* _get_Language();
-    // Set instance field: public readonly Oculus.Platform.Models.LanguagePackInfo Language
-    void _set_Language(Oculus::Platform::Models::LanguagePackInfo* value);
-    // Get instance field: public readonly System.String Metadata
-    ::Il2CppString* _get_Metadata();
-    // Set instance field: public readonly System.String Metadata
-    void _set_Metadata(::Il2CppString* value);
+    // Get instance field reference: public readonly System.UInt64 AssetId
+    uint64_t& dyn_AssetId();
+    // Get instance field reference: public readonly System.String AssetType
+    ::Il2CppString*& dyn_AssetType();
+    // Get instance field reference: public readonly System.String DownloadStatus
+    ::Il2CppString*& dyn_DownloadStatus();
+    // Get instance field reference: public readonly System.String Filepath
+    ::Il2CppString*& dyn_Filepath();
+    // Get instance field reference: public readonly System.String IapStatus
+    ::Il2CppString*& dyn_IapStatus();
+    // Get instance field reference: public readonly Oculus.Platform.Models.LanguagePackInfo LanguageOptional
+    Oculus::Platform::Models::LanguagePackInfo*& dyn_LanguageOptional();
+    // Get instance field reference: public readonly Oculus.Platform.Models.LanguagePackInfo Language
+    Oculus::Platform::Models::LanguagePackInfo*& dyn_Language();
+    // Get instance field reference: public readonly System.String Metadata
+    ::Il2CppString*& dyn_Metadata();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14E7B34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

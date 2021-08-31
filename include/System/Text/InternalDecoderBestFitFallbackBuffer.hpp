@@ -61,22 +61,14 @@ namespace System::Text {
     static ::Il2CppObject* _get_s_InternalSyncObject();
     // Set static field: static private System.Object s_InternalSyncObject
     static void _set_s_InternalSyncObject(::Il2CppObject* value);
-    // Get instance field: System.Char cBestFit
-    ::Il2CppChar _get_cBestFit();
-    // Set instance field: System.Char cBestFit
-    void _set_cBestFit(::Il2CppChar value);
-    // Get instance field: System.Int32 iCount
-    int _get_iCount();
-    // Set instance field: System.Int32 iCount
-    void _set_iCount(int value);
-    // Get instance field: System.Int32 iSize
-    int _get_iSize();
-    // Set instance field: System.Int32 iSize
-    void _set_iSize(int value);
-    // Get instance field: private System.Text.InternalDecoderBestFitFallback oFallback
-    System::Text::InternalDecoderBestFitFallback* _get_oFallback();
-    // Set instance field: private System.Text.InternalDecoderBestFitFallback oFallback
-    void _set_oFallback(System::Text::InternalDecoderBestFitFallback* value);
+    // Get instance field reference: System.Char cBestFit
+    ::Il2CppChar& dyn_cBestFit();
+    // Get instance field reference: System.Int32 iCount
+    int& dyn_iCount();
+    // Get instance field reference: System.Int32 iSize
+    int& dyn_iSize();
+    // Get instance field reference: private System.Text.InternalDecoderBestFitFallback oFallback
+    System::Text::InternalDecoderBestFitFallback*& dyn_oFallback();
     // static private System.Object get_InternalSyncObject()
     // Offset: 0x1D73044
     static ::Il2CppObject* get_InternalSyncObject();

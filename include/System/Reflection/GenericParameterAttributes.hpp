@@ -81,10 +81,8 @@ namespace System::Reflection {
     static System::Reflection::GenericParameterAttributes _get_DefaultConstructorConstraint();
     // Set static field: static public System.Reflection.GenericParameterAttributes DefaultConstructorConstraint
     static void _set_DefaultConstructorConstraint(System::Reflection::GenericParameterAttributes value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Reflection.GenericParameterAttributes
   #pragma pack(pop)
   static check_size<sizeof(GenericParameterAttributes), 0 + sizeof(int)> __System_Reflection_GenericParameterAttributesSizeCheck;

@@ -109,42 +109,24 @@ namespace GlobalNamespace {
     NoteCutCoreEffectsSpawner(float shockWaveYPos_ = {}, GlobalNamespace::NoteCutParticlesEffect* noteCutParticlesEffect_ = {}, GlobalNamespace::NoteDebrisSpawner* noteDebrisSpawner_ = {}, GlobalNamespace::NoteCutHapticEffect* noteCutHapticEffect_ = {}, GlobalNamespace::ShockwaveEffect* shockwaveEffect_ = {}, GlobalNamespace::BombExplosionEffect* bombExplosionEffect_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}) noexcept : shockWaveYPos{shockWaveYPos_}, noteCutParticlesEffect{noteCutParticlesEffect_}, noteDebrisSpawner{noteDebrisSpawner_}, noteCutHapticEffect{noteCutHapticEffect_}, shockwaveEffect{shockwaveEffect_}, bombExplosionEffect{bombExplosionEffect_}, colorManager{colorManager_}, beatmapObjectManager{beatmapObjectManager_}, audioTimeSyncController{audioTimeSyncController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Single _shockWaveYPos
-    float _get__shockWaveYPos();
-    // Set instance field: private System.Single _shockWaveYPos
-    void _set__shockWaveYPos(float value);
-    // Get instance field: private NoteCutParticlesEffect _noteCutParticlesEffect
-    GlobalNamespace::NoteCutParticlesEffect* _get__noteCutParticlesEffect();
-    // Set instance field: private NoteCutParticlesEffect _noteCutParticlesEffect
-    void _set__noteCutParticlesEffect(GlobalNamespace::NoteCutParticlesEffect* value);
-    // Get instance field: private NoteDebrisSpawner _noteDebrisSpawner
-    GlobalNamespace::NoteDebrisSpawner* _get__noteDebrisSpawner();
-    // Set instance field: private NoteDebrisSpawner _noteDebrisSpawner
-    void _set__noteDebrisSpawner(GlobalNamespace::NoteDebrisSpawner* value);
-    // Get instance field: private NoteCutHapticEffect _noteCutHapticEffect
-    GlobalNamespace::NoteCutHapticEffect* _get__noteCutHapticEffect();
-    // Set instance field: private NoteCutHapticEffect _noteCutHapticEffect
-    void _set__noteCutHapticEffect(GlobalNamespace::NoteCutHapticEffect* value);
-    // Get instance field: private ShockwaveEffect _shockwaveEffect
-    GlobalNamespace::ShockwaveEffect* _get__shockwaveEffect();
-    // Set instance field: private ShockwaveEffect _shockwaveEffect
-    void _set__shockwaveEffect(GlobalNamespace::ShockwaveEffect* value);
-    // Get instance field: private BombExplosionEffect _bombExplosionEffect
-    GlobalNamespace::BombExplosionEffect* _get__bombExplosionEffect();
-    // Set instance field: private BombExplosionEffect _bombExplosionEffect
-    void _set__bombExplosionEffect(GlobalNamespace::BombExplosionEffect* value);
-    // Get instance field: private readonly ColorManager _colorManager
-    GlobalNamespace::ColorManager* _get__colorManager();
-    // Set instance field: private readonly ColorManager _colorManager
-    void _set__colorManager(GlobalNamespace::ColorManager* value);
-    // Get instance field: private readonly BeatmapObjectManager _beatmapObjectManager
-    GlobalNamespace::BeatmapObjectManager* _get__beatmapObjectManager();
-    // Set instance field: private readonly BeatmapObjectManager _beatmapObjectManager
-    void _set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager* value);
-    // Get instance field: private readonly AudioTimeSyncController _audioTimeSyncController
-    GlobalNamespace::AudioTimeSyncController* _get__audioTimeSyncController();
-    // Set instance field: private readonly AudioTimeSyncController _audioTimeSyncController
-    void _set__audioTimeSyncController(GlobalNamespace::AudioTimeSyncController* value);
+    // Get instance field reference: private System.Single _shockWaveYPos
+    float& dyn__shockWaveYPos();
+    // Get instance field reference: private NoteCutParticlesEffect _noteCutParticlesEffect
+    GlobalNamespace::NoteCutParticlesEffect*& dyn__noteCutParticlesEffect();
+    // Get instance field reference: private NoteDebrisSpawner _noteDebrisSpawner
+    GlobalNamespace::NoteDebrisSpawner*& dyn__noteDebrisSpawner();
+    // Get instance field reference: private NoteCutHapticEffect _noteCutHapticEffect
+    GlobalNamespace::NoteCutHapticEffect*& dyn__noteCutHapticEffect();
+    // Get instance field reference: private ShockwaveEffect _shockwaveEffect
+    GlobalNamespace::ShockwaveEffect*& dyn__shockwaveEffect();
+    // Get instance field reference: private BombExplosionEffect _bombExplosionEffect
+    GlobalNamespace::BombExplosionEffect*& dyn__bombExplosionEffect();
+    // Get instance field reference: private readonly ColorManager _colorManager
+    GlobalNamespace::ColorManager*& dyn__colorManager();
+    // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
+    GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
+    // Get instance field reference: private readonly AudioTimeSyncController _audioTimeSyncController
+    GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
     // protected System.Void Start()
     // Offset: 0x10464D0
     void Start();

@@ -38,10 +38,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::SaberActivityCounter*) == 0x8);
     // Creating value type constructor for type: HandsMovementMissionObjectiveChecker
     HandsMovementMissionObjectiveChecker(GlobalNamespace::SaberActivityCounter* saberActivityCounter_ = {}) noexcept : saberActivityCounter{saberActivityCounter_} {}
-    // Get instance field: private SaberActivityCounter _saberActivityCounter
-    GlobalNamespace::SaberActivityCounter* _get__saberActivityCounter();
-    // Set instance field: private SaberActivityCounter _saberActivityCounter
-    void _set__saberActivityCounter(GlobalNamespace::SaberActivityCounter* value);
+    // Get instance field reference: private SaberActivityCounter _saberActivityCounter
+    GlobalNamespace::SaberActivityCounter*& dyn__saberActivityCounter();
     // protected System.Void OnDestroy()
     // Offset: 0x11424A4
     void OnDestroy();

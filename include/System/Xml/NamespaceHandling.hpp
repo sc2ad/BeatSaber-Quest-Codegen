@@ -45,10 +45,8 @@ namespace System::Xml {
     static System::Xml::NamespaceHandling _get_OmitDuplicates();
     // Set static field: static public System.Xml.NamespaceHandling OmitDuplicates
     static void _set_OmitDuplicates(System::Xml::NamespaceHandling value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Xml.NamespaceHandling
   #pragma pack(pop)
   static check_size<sizeof(NamespaceHandling), 0 + sizeof(int)> __System_Xml_NamespaceHandlingSizeCheck;

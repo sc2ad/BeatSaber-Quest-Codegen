@@ -45,10 +45,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
     // Creating value type constructor for type: ECPrivateKeyParameters
     ECPrivateKeyParameters(Org::BouncyCastle::Math::BigInteger* d_ = {}) noexcept : d{d_} {}
-    // Get instance field: private readonly Org.BouncyCastle.Math.BigInteger d
-    Org::BouncyCastle::Math::BigInteger* _get_d();
-    // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger d
-    void _set_d(Org::BouncyCastle::Math::BigInteger* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger d
+    Org::BouncyCastle::Math::BigInteger*& dyn_d();
     // public Org.BouncyCastle.Math.BigInteger get_D()
     // Offset: 0x1273EF0
     Org::BouncyCastle::Math::BigInteger* get_D();

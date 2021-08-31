@@ -181,86 +181,46 @@ namespace GlobalNamespace {
     SaberBurnMarkArea(UnityEngine::LineRenderer* saberBurnMarkLinePrefab_ = {}, float blackMarkLineRandomOffset_ = {}, int textureWidth_ = {}, int textureHeight_ = {}, float burnMarksFadeOutStrength_ = {}, UnityEngine::Shader* fadeOutShader_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}, GlobalNamespace::SaberManager* saberManager_ = {}, UnityEngine::Renderer* renderer_ = {}, int fadeOutStrengthShaderPropertyID_ = {}, ::Array<GlobalNamespace::Saber*>* sabers_ = {}, UnityEngine::Plane plane_ = {}, ::Array<UnityEngine::Vector3>* prevBurnMarkPos_ = {}, ::Array<bool>* prevBurnMarkPosValid_ = {}, ::Array<UnityEngine::LineRenderer*>* lineRenderers_ = {}, UnityEngine::Camera* camera_ = {}, ::Array<UnityEngine::Vector3>* linePoints_ = {}, ::Array<UnityEngine::RenderTexture*>* renderTextures_ = {}, UnityEngine::ParticleSystem::EmitParams emitParams_ = {}, UnityEngine::Material* fadeOutMaterial_ = {}) noexcept : saberBurnMarkLinePrefab{saberBurnMarkLinePrefab_}, blackMarkLineRandomOffset{blackMarkLineRandomOffset_}, textureWidth{textureWidth_}, textureHeight{textureHeight_}, burnMarksFadeOutStrength{burnMarksFadeOutStrength_}, fadeOutShader{fadeOutShader_}, colorManager{colorManager_}, saberManager{saberManager_}, renderer{renderer_}, fadeOutStrengthShaderPropertyID{fadeOutStrengthShaderPropertyID_}, sabers{sabers_}, plane{plane_}, prevBurnMarkPos{prevBurnMarkPos_}, prevBurnMarkPosValid{prevBurnMarkPosValid_}, lineRenderers{lineRenderers_}, camera{camera_}, linePoints{linePoints_}, renderTextures{renderTextures_}, emitParams{emitParams_}, fadeOutMaterial{fadeOutMaterial_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.LineRenderer _saberBurnMarkLinePrefab
-    UnityEngine::LineRenderer* _get__saberBurnMarkLinePrefab();
-    // Set instance field: private UnityEngine.LineRenderer _saberBurnMarkLinePrefab
-    void _set__saberBurnMarkLinePrefab(UnityEngine::LineRenderer* value);
-    // Get instance field: private System.Single _blackMarkLineRandomOffset
-    float _get__blackMarkLineRandomOffset();
-    // Set instance field: private System.Single _blackMarkLineRandomOffset
-    void _set__blackMarkLineRandomOffset(float value);
-    // Get instance field: private System.Int32 _textureWidth
-    int _get__textureWidth();
-    // Set instance field: private System.Int32 _textureWidth
-    void _set__textureWidth(int value);
-    // Get instance field: private System.Int32 _textureHeight
-    int _get__textureHeight();
-    // Set instance field: private System.Int32 _textureHeight
-    void _set__textureHeight(int value);
-    // Get instance field: private System.Single _burnMarksFadeOutStrength
-    float _get__burnMarksFadeOutStrength();
-    // Set instance field: private System.Single _burnMarksFadeOutStrength
-    void _set__burnMarksFadeOutStrength(float value);
-    // Get instance field: private UnityEngine.Shader _fadeOutShader
-    UnityEngine::Shader* _get__fadeOutShader();
-    // Set instance field: private UnityEngine.Shader _fadeOutShader
-    void _set__fadeOutShader(UnityEngine::Shader* value);
-    // Get instance field: private readonly ColorManager _colorManager
-    GlobalNamespace::ColorManager* _get__colorManager();
-    // Set instance field: private readonly ColorManager _colorManager
-    void _set__colorManager(GlobalNamespace::ColorManager* value);
-    // Get instance field: private readonly SaberManager _saberManager
-    GlobalNamespace::SaberManager* _get__saberManager();
-    // Set instance field: private readonly SaberManager _saberManager
-    void _set__saberManager(GlobalNamespace::SaberManager* value);
-    // Get instance field: private UnityEngine.Renderer _renderer
-    UnityEngine::Renderer* _get__renderer();
-    // Set instance field: private UnityEngine.Renderer _renderer
-    void _set__renderer(UnityEngine::Renderer* value);
-    // Get instance field: private readonly System.Int32 _fadeOutStrengthShaderPropertyID
-    int _get__fadeOutStrengthShaderPropertyID();
-    // Set instance field: private readonly System.Int32 _fadeOutStrengthShaderPropertyID
-    void _set__fadeOutStrengthShaderPropertyID(int value);
-    // Get instance field: private Saber[] _sabers
-    ::Array<GlobalNamespace::Saber*>* _get__sabers();
-    // Set instance field: private Saber[] _sabers
-    void _set__sabers(::Array<GlobalNamespace::Saber*>* value);
-    // Get instance field: private UnityEngine.Plane _plane
-    UnityEngine::Plane _get__plane();
-    // Set instance field: private UnityEngine.Plane _plane
-    void _set__plane(UnityEngine::Plane value);
-    // Get instance field: private UnityEngine.Vector3[] _prevBurnMarkPos
-    ::Array<UnityEngine::Vector3>* _get__prevBurnMarkPos();
-    // Set instance field: private UnityEngine.Vector3[] _prevBurnMarkPos
-    void _set__prevBurnMarkPos(::Array<UnityEngine::Vector3>* value);
-    // Get instance field: private System.Boolean[] _prevBurnMarkPosValid
-    ::Array<bool>* _get__prevBurnMarkPosValid();
-    // Set instance field: private System.Boolean[] _prevBurnMarkPosValid
-    void _set__prevBurnMarkPosValid(::Array<bool>* value);
-    // Get instance field: private UnityEngine.LineRenderer[] _lineRenderers
-    ::Array<UnityEngine::LineRenderer*>* _get__lineRenderers();
-    // Set instance field: private UnityEngine.LineRenderer[] _lineRenderers
-    void _set__lineRenderers(::Array<UnityEngine::LineRenderer*>* value);
-    // Get instance field: private UnityEngine.Camera _camera
-    UnityEngine::Camera* _get__camera();
-    // Set instance field: private UnityEngine.Camera _camera
-    void _set__camera(UnityEngine::Camera* value);
-    // Get instance field: private UnityEngine.Vector3[] _linePoints
-    ::Array<UnityEngine::Vector3>* _get__linePoints();
-    // Set instance field: private UnityEngine.Vector3[] _linePoints
-    void _set__linePoints(::Array<UnityEngine::Vector3>* value);
-    // Get instance field: private UnityEngine.RenderTexture[] _renderTextures
-    ::Array<UnityEngine::RenderTexture*>* _get__renderTextures();
-    // Set instance field: private UnityEngine.RenderTexture[] _renderTextures
-    void _set__renderTextures(::Array<UnityEngine::RenderTexture*>* value);
-    // Get instance field: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _emitParams
-    UnityEngine::ParticleSystem::EmitParams _get__emitParams();
-    // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _emitParams
-    void _set__emitParams(UnityEngine::ParticleSystem::EmitParams value);
-    // Get instance field: private UnityEngine.Material _fadeOutMaterial
-    UnityEngine::Material* _get__fadeOutMaterial();
-    // Set instance field: private UnityEngine.Material _fadeOutMaterial
-    void _set__fadeOutMaterial(UnityEngine::Material* value);
+    // Get instance field reference: private UnityEngine.LineRenderer _saberBurnMarkLinePrefab
+    UnityEngine::LineRenderer*& dyn__saberBurnMarkLinePrefab();
+    // Get instance field reference: private System.Single _blackMarkLineRandomOffset
+    float& dyn__blackMarkLineRandomOffset();
+    // Get instance field reference: private System.Int32 _textureWidth
+    int& dyn__textureWidth();
+    // Get instance field reference: private System.Int32 _textureHeight
+    int& dyn__textureHeight();
+    // Get instance field reference: private System.Single _burnMarksFadeOutStrength
+    float& dyn__burnMarksFadeOutStrength();
+    // Get instance field reference: private UnityEngine.Shader _fadeOutShader
+    UnityEngine::Shader*& dyn__fadeOutShader();
+    // Get instance field reference: private readonly ColorManager _colorManager
+    GlobalNamespace::ColorManager*& dyn__colorManager();
+    // Get instance field reference: private readonly SaberManager _saberManager
+    GlobalNamespace::SaberManager*& dyn__saberManager();
+    // Get instance field reference: private UnityEngine.Renderer _renderer
+    UnityEngine::Renderer*& dyn__renderer();
+    // Get instance field reference: private readonly System.Int32 _fadeOutStrengthShaderPropertyID
+    int& dyn__fadeOutStrengthShaderPropertyID();
+    // Get instance field reference: private Saber[] _sabers
+    ::Array<GlobalNamespace::Saber*>*& dyn__sabers();
+    // Get instance field reference: private UnityEngine.Plane _plane
+    UnityEngine::Plane& dyn__plane();
+    // Get instance field reference: private UnityEngine.Vector3[] _prevBurnMarkPos
+    ::Array<UnityEngine::Vector3>*& dyn__prevBurnMarkPos();
+    // Get instance field reference: private System.Boolean[] _prevBurnMarkPosValid
+    ::Array<bool>*& dyn__prevBurnMarkPosValid();
+    // Get instance field reference: private UnityEngine.LineRenderer[] _lineRenderers
+    ::Array<UnityEngine::LineRenderer*>*& dyn__lineRenderers();
+    // Get instance field reference: private UnityEngine.Camera _camera
+    UnityEngine::Camera*& dyn__camera();
+    // Get instance field reference: private UnityEngine.Vector3[] _linePoints
+    ::Array<UnityEngine::Vector3>*& dyn__linePoints();
+    // Get instance field reference: private UnityEngine.RenderTexture[] _renderTextures
+    ::Array<UnityEngine::RenderTexture*>*& dyn__renderTextures();
+    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _emitParams
+    UnityEngine::ParticleSystem::EmitParams& dyn__emitParams();
+    // Get instance field reference: private UnityEngine.Material _fadeOutMaterial
+    UnityEngine::Material*& dyn__fadeOutMaterial();
     // protected System.Void Start()
     // Offset: 0x1190A10
     void Start();

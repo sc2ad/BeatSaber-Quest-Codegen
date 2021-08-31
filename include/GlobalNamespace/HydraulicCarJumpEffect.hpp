@@ -113,46 +113,26 @@ namespace GlobalNamespace {
     HydraulicCarJumpEffect(GlobalNamespace::BeatmapEventType event_ = {}, ::Array<int>* eventValues_ = {}, UnityEngine::Vector3 impulse_ = {}, float randomness_ = {}, UnityEngine::Vector3 position_ = {}, float minDelayBetweenEvents_ = {}, UnityEngine::Rigidbody* rigidbody_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, float lastEventTime_ = {}, System::Collections::Generic::HashSet_1<int>* eventValuesHashSet_ = {}) noexcept : event{event_}, eventValues{eventValues_}, impulse{impulse_}, randomness{randomness_}, position{position_}, minDelayBetweenEvents{minDelayBetweenEvents_}, rigidbody{rigidbody_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, lastEventTime{lastEventTime_}, eventValuesHashSet{eventValuesHashSet_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private BeatmapEventType _event
-    GlobalNamespace::BeatmapEventType _get__event();
-    // Set instance field: private BeatmapEventType _event
-    void _set__event(GlobalNamespace::BeatmapEventType value);
-    // Get instance field: private System.Int32[] _eventValues
-    ::Array<int>* _get__eventValues();
-    // Set instance field: private System.Int32[] _eventValues
-    void _set__eventValues(::Array<int>* value);
-    // Get instance field: private UnityEngine.Vector3 _impulse
-    UnityEngine::Vector3 _get__impulse();
-    // Set instance field: private UnityEngine.Vector3 _impulse
-    void _set__impulse(UnityEngine::Vector3 value);
-    // Get instance field: private System.Single _randomness
-    float _get__randomness();
-    // Set instance field: private System.Single _randomness
-    void _set__randomness(float value);
-    // Get instance field: private UnityEngine.Vector3 _position
-    UnityEngine::Vector3 _get__position();
-    // Set instance field: private UnityEngine.Vector3 _position
-    void _set__position(UnityEngine::Vector3 value);
-    // Get instance field: private System.Single _minDelayBetweenEvents
-    float _get__minDelayBetweenEvents();
-    // Set instance field: private System.Single _minDelayBetweenEvents
-    void _set__minDelayBetweenEvents(float value);
-    // Get instance field: private UnityEngine.Rigidbody _rigidbody
-    UnityEngine::Rigidbody* _get__rigidbody();
-    // Set instance field: private UnityEngine.Rigidbody _rigidbody
-    void _set__rigidbody(UnityEngine::Rigidbody* value);
-    // Get instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
-    GlobalNamespace::IBeatmapObjectCallbackController* _get__beatmapObjectCallbackController();
-    // Set instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
-    void _set__beatmapObjectCallbackController(GlobalNamespace::IBeatmapObjectCallbackController* value);
-    // Get instance field: private System.Single _lastEventTime
-    float _get__lastEventTime();
-    // Set instance field: private System.Single _lastEventTime
-    void _set__lastEventTime(float value);
-    // Get instance field: private System.Collections.Generic.HashSet`1<System.Int32> _eventValuesHashSet
-    System::Collections::Generic::HashSet_1<int>* _get__eventValuesHashSet();
-    // Set instance field: private System.Collections.Generic.HashSet`1<System.Int32> _eventValuesHashSet
-    void _set__eventValuesHashSet(System::Collections::Generic::HashSet_1<int>* value);
+    // Get instance field reference: private BeatmapEventType _event
+    GlobalNamespace::BeatmapEventType& dyn__event();
+    // Get instance field reference: private System.Int32[] _eventValues
+    ::Array<int>*& dyn__eventValues();
+    // Get instance field reference: private UnityEngine.Vector3 _impulse
+    UnityEngine::Vector3& dyn__impulse();
+    // Get instance field reference: private System.Single _randomness
+    float& dyn__randomness();
+    // Get instance field reference: private UnityEngine.Vector3 _position
+    UnityEngine::Vector3& dyn__position();
+    // Get instance field reference: private System.Single _minDelayBetweenEvents
+    float& dyn__minDelayBetweenEvents();
+    // Get instance field reference: private UnityEngine.Rigidbody _rigidbody
+    UnityEngine::Rigidbody*& dyn__rigidbody();
+    // Get instance field reference: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    GlobalNamespace::IBeatmapObjectCallbackController*& dyn__beatmapObjectCallbackController();
+    // Get instance field reference: private System.Single _lastEventTime
+    float& dyn__lastEventTime();
+    // Get instance field reference: private System.Collections.Generic.HashSet`1<System.Int32> _eventValuesHashSet
+    System::Collections::Generic::HashSet_1<int>*& dyn__eventValuesHashSet();
     // protected System.Void Start()
     // Offset: 0x1144AF4
     void Start();

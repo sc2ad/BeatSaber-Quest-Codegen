@@ -34,10 +34,8 @@ namespace GlobalNamespace {
     constexpr operator float() const noexcept {
       return value;
     }
-    // Get instance field: public System.Single value
-    float _get_value();
-    // Set instance field: public System.Single value
-    void _set_value(float value);
+    // Get instance field reference: public System.Single value
+    float& dyn_value();
     // public System.Void .ctor()
     // Offset: 0x1E1CAE0
     // Implemented from: MaterialPropertyValuesSetter/PropertyValuePairBase

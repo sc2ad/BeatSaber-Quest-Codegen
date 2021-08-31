@@ -61,26 +61,16 @@ namespace UnityEngine::Rendering {
     operator System::IEquatable_1<UnityEngine::Rendering::LODParameters>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::Rendering::LODParameters>*>(this);
     }
-    // Get instance field: private System.Int32 m_IsOrthographic
-    int _get_m_IsOrthographic();
-    // Set instance field: private System.Int32 m_IsOrthographic
-    void _set_m_IsOrthographic(int value);
-    // Get instance field: private UnityEngine.Vector3 m_CameraPosition
-    UnityEngine::Vector3 _get_m_CameraPosition();
-    // Set instance field: private UnityEngine.Vector3 m_CameraPosition
-    void _set_m_CameraPosition(UnityEngine::Vector3 value);
-    // Get instance field: private System.Single m_FieldOfView
-    float _get_m_FieldOfView();
-    // Set instance field: private System.Single m_FieldOfView
-    void _set_m_FieldOfView(float value);
-    // Get instance field: private System.Single m_OrthoSize
-    float _get_m_OrthoSize();
-    // Set instance field: private System.Single m_OrthoSize
-    void _set_m_OrthoSize(float value);
-    // Get instance field: private System.Int32 m_CameraPixelHeight
-    int _get_m_CameraPixelHeight();
-    // Set instance field: private System.Int32 m_CameraPixelHeight
-    void _set_m_CameraPixelHeight(int value);
+    // Get instance field reference: private System.Int32 m_IsOrthographic
+    int& dyn_m_IsOrthographic();
+    // Get instance field reference: private UnityEngine.Vector3 m_CameraPosition
+    UnityEngine::Vector3& dyn_m_CameraPosition();
+    // Get instance field reference: private System.Single m_FieldOfView
+    float& dyn_m_FieldOfView();
+    // Get instance field reference: private System.Single m_OrthoSize
+    float& dyn_m_OrthoSize();
+    // Get instance field reference: private System.Int32 m_CameraPixelHeight
+    int& dyn_m_CameraPixelHeight();
     // public System.Boolean Equals(UnityEngine.Rendering.LODParameters other)
     // Offset: 0x1C499C4
     bool Equals(UnityEngine::Rendering::LODParameters other);

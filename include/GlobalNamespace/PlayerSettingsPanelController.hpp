@@ -194,86 +194,46 @@ namespace GlobalNamespace {
     static float _get_kDisabledSectionAlpha();
     // Set static field: static private System.Single kDisabledSectionAlpha
     static void _set_kDisabledSectionAlpha(float value);
-    // Get instance field: private UnityEngine.UI.Toggle _leftHandedToggle
-    UnityEngine::UI::Toggle* _get__leftHandedToggle();
-    // Set instance field: private UnityEngine.UI.Toggle _leftHandedToggle
-    void _set__leftHandedToggle(UnityEngine::UI::Toggle* value);
-    // Get instance field: private UnityEngine.UI.Toggle _reduceDebrisToggle
-    UnityEngine::UI::Toggle* _get__reduceDebrisToggle();
-    // Set instance field: private UnityEngine.UI.Toggle _reduceDebrisToggle
-    void _set__reduceDebrisToggle(UnityEngine::UI::Toggle* value);
-    // Get instance field: private UnityEngine.UI.Toggle _noTextsAndHudsToggle
-    UnityEngine::UI::Toggle* _get__noTextsAndHudsToggle();
-    // Set instance field: private UnityEngine.UI.Toggle _noTextsAndHudsToggle
-    void _set__noTextsAndHudsToggle(UnityEngine::UI::Toggle* value);
-    // Get instance field: private UnityEngine.UI.Toggle _advanceHudToggle
-    UnityEngine::UI::Toggle* _get__advanceHudToggle();
-    // Set instance field: private UnityEngine.UI.Toggle _advanceHudToggle
-    void _set__advanceHudToggle(UnityEngine::UI::Toggle* value);
-    // Get instance field: private UnityEngine.UI.Toggle _autoRestartToggle
-    UnityEngine::UI::Toggle* _get__autoRestartToggle();
-    // Set instance field: private UnityEngine.UI.Toggle _autoRestartToggle
-    void _set__autoRestartToggle(UnityEngine::UI::Toggle* value);
-    // Get instance field: private PlayerHeightSettingsController _playerHeightSettingsController
-    GlobalNamespace::PlayerHeightSettingsController* _get__playerHeightSettingsController();
-    // Set instance field: private PlayerHeightSettingsController _playerHeightSettingsController
-    void _set__playerHeightSettingsController(GlobalNamespace::PlayerHeightSettingsController* value);
-    // Get instance field: private UnityEngine.UI.Toggle _automaticPlayerHeightToggle
-    UnityEngine::UI::Toggle* _get__automaticPlayerHeightToggle();
-    // Set instance field: private UnityEngine.UI.Toggle _automaticPlayerHeightToggle
-    void _set__automaticPlayerHeightToggle(UnityEngine::UI::Toggle* value);
-    // Get instance field: private FormattedFloatListSettingsController _sfxVolumeSettingsController
-    GlobalNamespace::FormattedFloatListSettingsController* _get__sfxVolumeSettingsController();
-    // Set instance field: private FormattedFloatListSettingsController _sfxVolumeSettingsController
-    void _set__sfxVolumeSettingsController(GlobalNamespace::FormattedFloatListSettingsController* value);
-    // Get instance field: private FormattedFloatListSettingsController _saberTrailIntensitySettingsController
-    GlobalNamespace::FormattedFloatListSettingsController* _get__saberTrailIntensitySettingsController();
-    // Set instance field: private FormattedFloatListSettingsController _saberTrailIntensitySettingsController
-    void _set__saberTrailIntensitySettingsController(GlobalNamespace::FormattedFloatListSettingsController* value);
-    // Get instance field: private NoteJumpStartBeatOffsetDropdown _noteJumpStartBeatOffsetDropdown
-    GlobalNamespace::NoteJumpStartBeatOffsetDropdown* _get__noteJumpStartBeatOffsetDropdown();
-    // Set instance field: private NoteJumpStartBeatOffsetDropdown _noteJumpStartBeatOffsetDropdown
-    void _set__noteJumpStartBeatOffsetDropdown(GlobalNamespace::NoteJumpStartBeatOffsetDropdown* value);
-    // Get instance field: private EnvironmentEffectsFilterPresetDropdown _environmentEffectsFilterDefaultPresetDropdown
-    GlobalNamespace::EnvironmentEffectsFilterPresetDropdown* _get__environmentEffectsFilterDefaultPresetDropdown();
-    // Set instance field: private EnvironmentEffectsFilterPresetDropdown _environmentEffectsFilterDefaultPresetDropdown
-    void _set__environmentEffectsFilterDefaultPresetDropdown(GlobalNamespace::EnvironmentEffectsFilterPresetDropdown* value);
-    // Get instance field: private EnvironmentEffectsFilterPresetDropdown _environmentEffectsFilterExpertPlusPresetDropdown
-    GlobalNamespace::EnvironmentEffectsFilterPresetDropdown* _get__environmentEffectsFilterExpertPlusPresetDropdown();
-    // Set instance field: private EnvironmentEffectsFilterPresetDropdown _environmentEffectsFilterExpertPlusPresetDropdown
-    void _set__environmentEffectsFilterExpertPlusPresetDropdown(GlobalNamespace::EnvironmentEffectsFilterPresetDropdown* value);
-    // Get instance field: private UnityEngine.UI.Toggle _hideNoteSpawnEffectToggle
-    UnityEngine::UI::Toggle* _get__hideNoteSpawnEffectToggle();
-    // Set instance field: private UnityEngine.UI.Toggle _hideNoteSpawnEffectToggle
-    void _set__hideNoteSpawnEffectToggle(UnityEngine::UI::Toggle* value);
-    // Get instance field: private UnityEngine.UI.Toggle _adaptiveSfxToggle
-    UnityEngine::UI::Toggle* _get__adaptiveSfxToggle();
-    // Set instance field: private UnityEngine.UI.Toggle _adaptiveSfxToggle
-    void _set__adaptiveSfxToggle(UnityEngine::UI::Toggle* value);
-    // Get instance field: private UnityEngine.CanvasGroup _singleplayerOnlyCanvasGroup
-    UnityEngine::CanvasGroup* _get__singleplayerOnlyCanvasGroup();
-    // Set instance field: private UnityEngine.CanvasGroup _singleplayerOnlyCanvasGroup
-    void _set__singleplayerOnlyCanvasGroup(UnityEngine::CanvasGroup* value);
-    // Get instance field: private System.Action didChangePlayerSettingsEvent
-    System::Action* _get_didChangePlayerSettingsEvent();
-    // Set instance field: private System.Action didChangePlayerSettingsEvent
-    void _set_didChangePlayerSettingsEvent(System::Action* value);
-    // Get instance field: private PlayerSpecificSettings _playerSpecificSettings
-    GlobalNamespace::PlayerSpecificSettings* _get__playerSpecificSettings();
-    // Set instance field: private PlayerSpecificSettings _playerSpecificSettings
-    void _set__playerSpecificSettings(GlobalNamespace::PlayerSpecificSettings* value);
-    // Get instance field: private HMUI.ToggleBinder _toggleBinder
-    HMUI::ToggleBinder* _get__toggleBinder();
-    // Set instance field: private HMUI.ToggleBinder _toggleBinder
-    void _set__toggleBinder(HMUI::ToggleBinder* value);
-    // Get instance field: private System.Boolean _dirty
-    bool _get__dirty();
-    // Set instance field: private System.Boolean _dirty
-    void _set__dirty(bool value);
-    // Get instance field: private System.Boolean _refreshed
-    bool _get__refreshed();
-    // Set instance field: private System.Boolean _refreshed
-    void _set__refreshed(bool value);
+    // Get instance field reference: private UnityEngine.UI.Toggle _leftHandedToggle
+    UnityEngine::UI::Toggle*& dyn__leftHandedToggle();
+    // Get instance field reference: private UnityEngine.UI.Toggle _reduceDebrisToggle
+    UnityEngine::UI::Toggle*& dyn__reduceDebrisToggle();
+    // Get instance field reference: private UnityEngine.UI.Toggle _noTextsAndHudsToggle
+    UnityEngine::UI::Toggle*& dyn__noTextsAndHudsToggle();
+    // Get instance field reference: private UnityEngine.UI.Toggle _advanceHudToggle
+    UnityEngine::UI::Toggle*& dyn__advanceHudToggle();
+    // Get instance field reference: private UnityEngine.UI.Toggle _autoRestartToggle
+    UnityEngine::UI::Toggle*& dyn__autoRestartToggle();
+    // Get instance field reference: private PlayerHeightSettingsController _playerHeightSettingsController
+    GlobalNamespace::PlayerHeightSettingsController*& dyn__playerHeightSettingsController();
+    // Get instance field reference: private UnityEngine.UI.Toggle _automaticPlayerHeightToggle
+    UnityEngine::UI::Toggle*& dyn__automaticPlayerHeightToggle();
+    // Get instance field reference: private FormattedFloatListSettingsController _sfxVolumeSettingsController
+    GlobalNamespace::FormattedFloatListSettingsController*& dyn__sfxVolumeSettingsController();
+    // Get instance field reference: private FormattedFloatListSettingsController _saberTrailIntensitySettingsController
+    GlobalNamespace::FormattedFloatListSettingsController*& dyn__saberTrailIntensitySettingsController();
+    // Get instance field reference: private NoteJumpStartBeatOffsetDropdown _noteJumpStartBeatOffsetDropdown
+    GlobalNamespace::NoteJumpStartBeatOffsetDropdown*& dyn__noteJumpStartBeatOffsetDropdown();
+    // Get instance field reference: private EnvironmentEffectsFilterPresetDropdown _environmentEffectsFilterDefaultPresetDropdown
+    GlobalNamespace::EnvironmentEffectsFilterPresetDropdown*& dyn__environmentEffectsFilterDefaultPresetDropdown();
+    // Get instance field reference: private EnvironmentEffectsFilterPresetDropdown _environmentEffectsFilterExpertPlusPresetDropdown
+    GlobalNamespace::EnvironmentEffectsFilterPresetDropdown*& dyn__environmentEffectsFilterExpertPlusPresetDropdown();
+    // Get instance field reference: private UnityEngine.UI.Toggle _hideNoteSpawnEffectToggle
+    UnityEngine::UI::Toggle*& dyn__hideNoteSpawnEffectToggle();
+    // Get instance field reference: private UnityEngine.UI.Toggle _adaptiveSfxToggle
+    UnityEngine::UI::Toggle*& dyn__adaptiveSfxToggle();
+    // Get instance field reference: private UnityEngine.CanvasGroup _singleplayerOnlyCanvasGroup
+    UnityEngine::CanvasGroup*& dyn__singleplayerOnlyCanvasGroup();
+    // Get instance field reference: private System.Action didChangePlayerSettingsEvent
+    System::Action*& dyn_didChangePlayerSettingsEvent();
+    // Get instance field reference: private PlayerSpecificSettings _playerSpecificSettings
+    GlobalNamespace::PlayerSpecificSettings*& dyn__playerSpecificSettings();
+    // Get instance field reference: private HMUI.ToggleBinder _toggleBinder
+    HMUI::ToggleBinder*& dyn__toggleBinder();
+    // Get instance field reference: private System.Boolean _dirty
+    bool& dyn__dirty();
+    // Get instance field reference: private System.Boolean _refreshed
+    bool& dyn__refreshed();
     // public PlayerSpecificSettings get_playerSpecificSettings()
     // Offset: 0x113B148
     GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();

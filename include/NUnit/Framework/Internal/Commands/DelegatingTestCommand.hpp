@@ -30,10 +30,8 @@ namespace NUnit::Framework::Internal::Commands {
     DelegatingTestCommand(NUnit::Framework::Internal::Commands::TestCommand* innerCommand_ = {}) noexcept : innerCommand{innerCommand_} {}
     // Deleting conversion operator: operator NUnit::Framework::Internal::Test*
     constexpr operator NUnit::Framework::Internal::Test*() const noexcept = delete;
-    // Get instance field: protected NUnit.Framework.Internal.Commands.TestCommand innerCommand
-    NUnit::Framework::Internal::Commands::TestCommand* _get_innerCommand();
-    // Set instance field: protected NUnit.Framework.Internal.Commands.TestCommand innerCommand
-    void _set_innerCommand(NUnit::Framework::Internal::Commands::TestCommand* value);
+    // Get instance field reference: protected NUnit.Framework.Internal.Commands.TestCommand innerCommand
+    NUnit::Framework::Internal::Commands::TestCommand*& dyn_innerCommand();
     // protected System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
     // Offset: 0x1776C54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

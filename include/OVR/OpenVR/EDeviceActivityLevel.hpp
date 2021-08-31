@@ -62,10 +62,8 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EDeviceActivityLevel _get_k_EDeviceActivityLevel_Standby();
     // Set static field: static public OVR.OpenVR.EDeviceActivityLevel k_EDeviceActivityLevel_Standby
     static void _set_k_EDeviceActivityLevel_Standby(OVR::OpenVR::EDeviceActivityLevel value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // OVR.OpenVR.EDeviceActivityLevel
   #pragma pack(pop)
   static check_size<sizeof(EDeviceActivityLevel), 0 + sizeof(int)> __OVR_OpenVR_EDeviceActivityLevelSizeCheck;

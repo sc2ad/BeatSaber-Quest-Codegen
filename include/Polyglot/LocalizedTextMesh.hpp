@@ -61,14 +61,10 @@ namespace Polyglot {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.TextMesh text
-    UnityEngine::TextMesh* _get_text();
-    // Set instance field: private UnityEngine.TextMesh text
-    void _set_text(UnityEngine::TextMesh* value);
-    // Get instance field: private System.String key
-    ::Il2CppString* _get_key();
-    // Set instance field: private System.String key
-    void _set_key(::Il2CppString* value);
+    // Get instance field reference: private UnityEngine.TextMesh text
+    UnityEngine::TextMesh*& dyn_text();
+    // Get instance field reference: private System.String key
+    ::Il2CppString*& dyn_key();
     // public System.String get_Key()
     // Offset: 0x2383300
     ::Il2CppString* get_Key();

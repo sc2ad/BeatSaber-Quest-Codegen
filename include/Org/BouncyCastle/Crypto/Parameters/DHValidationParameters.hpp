@@ -32,14 +32,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: DHValidationParameters
     DHValidationParameters(::Array<uint8_t>* seed_ = {}, int counter_ = {}) noexcept : seed{seed_}, counter{counter_} {}
-    // Get instance field: private readonly System.Byte[] seed
-    ::Array<uint8_t>* _get_seed();
-    // Set instance field: private readonly System.Byte[] seed
-    void _set_seed(::Array<uint8_t>* value);
-    // Get instance field: private readonly System.Int32 counter
-    int _get_counter();
-    // Set instance field: private readonly System.Int32 counter
-    void _set_counter(int value);
+    // Get instance field reference: private readonly System.Byte[] seed
+    ::Array<uint8_t>*& dyn_seed();
+    // Get instance field reference: private readonly System.Int32 counter
+    int& dyn_counter();
     // public System.Void .ctor(System.Byte[] seed, System.Int32 counter)
     // Offset: 0x12715F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

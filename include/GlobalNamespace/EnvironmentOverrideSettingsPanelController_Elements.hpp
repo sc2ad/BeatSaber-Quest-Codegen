@@ -71,22 +71,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>*) == 0x8);
     // Creating value type constructor for type: Elements
     Elements(TMPro::TextMeshProUGUI* label_ = {}, HMUI::SimpleTextDropdown* simpleTextDropdown_ = {}, GlobalNamespace::EnvironmentTypeSO* environmentType_ = {}, System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>* environmentInfos_ = {}) noexcept : label{label_}, simpleTextDropdown{simpleTextDropdown_}, environmentType{environmentType_}, environmentInfos{environmentInfos_} {}
-    // Get instance field: public TMPro.TextMeshProUGUI label
-    TMPro::TextMeshProUGUI* _get_label();
-    // Set instance field: public TMPro.TextMeshProUGUI label
-    void _set_label(TMPro::TextMeshProUGUI* value);
-    // Get instance field: public HMUI.SimpleTextDropdown simpleTextDropdown
-    HMUI::SimpleTextDropdown* _get_simpleTextDropdown();
-    // Set instance field: public HMUI.SimpleTextDropdown simpleTextDropdown
-    void _set_simpleTextDropdown(HMUI::SimpleTextDropdown* value);
-    // Get instance field: public EnvironmentTypeSO environmentType
-    GlobalNamespace::EnvironmentTypeSO* _get_environmentType();
-    // Set instance field: public EnvironmentTypeSO environmentType
-    void _set_environmentType(GlobalNamespace::EnvironmentTypeSO* value);
-    // Get instance field: private System.Collections.Generic.List`1<EnvironmentInfoSO> <environmentInfos>k__BackingField
-    System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>* _get_$environmentInfos$k__BackingField();
-    // Set instance field: private System.Collections.Generic.List`1<EnvironmentInfoSO> <environmentInfos>k__BackingField
-    void _set_$environmentInfos$k__BackingField(System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>* value);
+    // Get instance field reference: public TMPro.TextMeshProUGUI label
+    TMPro::TextMeshProUGUI*& dyn_label();
+    // Get instance field reference: public HMUI.SimpleTextDropdown simpleTextDropdown
+    HMUI::SimpleTextDropdown*& dyn_simpleTextDropdown();
+    // Get instance field reference: public EnvironmentTypeSO environmentType
+    GlobalNamespace::EnvironmentTypeSO*& dyn_environmentType();
+    // Get instance field reference: private System.Collections.Generic.List`1<EnvironmentInfoSO> <environmentInfos>k__BackingField
+    System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>*& dyn_$environmentInfos$k__BackingField();
     // public System.Collections.Generic.List`1<EnvironmentInfoSO> get_environmentInfos()
     // Offset: 0x1052B34
     System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>* get_environmentInfos();

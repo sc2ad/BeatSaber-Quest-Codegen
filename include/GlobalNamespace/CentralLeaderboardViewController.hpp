@@ -211,82 +211,44 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::GameplayModifiers*) == 0x8);
     // Creating value type constructor for type: CentralLeaderboardViewController
     CentralLeaderboardViewController(GlobalNamespace::LeaderboardTableView* leaderboardTableView_ = {}, HMUI::IconSegmentedControl* scopeSegmentedControl_ = {}, GlobalNamespace::LoadingControl* loadingControl_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, HMUI::TextSegmentedControl* leaderboardTypeSegmentedControl_ = {}, UnityEngine::Sprite* globalLeaderboardIcon_ = {}, UnityEngine::Sprite* friendsLeaderboardIcon_ = {}, UnityEngine::UI::Button* enableOnlineServicesButton_ = {}, GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel_ = {}, UnityEngine::GameObject* optInOnlineServicesView_ = {}, UnityEngine::GameObject* leaderboardView_ = {}, GlobalNamespace::GameplaySetupViewController* gameplaySetupViewController_ = {}, OnlineServices::ServerManager* serverManager_ = {}, System::Collections::Generic::List_1<GlobalNamespace::LeaderboardTableView::ScoreData*>* scores_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}, System::Threading::CancellationTokenSource* cancellationTokenSource_ = {}, ::Array<GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel*>* leaderboardPanels_ = {}, ::Array<GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo*>* scoreScopeInfos_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}) noexcept : leaderboardTableView{leaderboardTableView_}, scopeSegmentedControl{scopeSegmentedControl_}, loadingControl{loadingControl_}, mainSettingsModel{mainSettingsModel_}, leaderboardTypeSegmentedControl{leaderboardTypeSegmentedControl_}, globalLeaderboardIcon{globalLeaderboardIcon_}, friendsLeaderboardIcon{friendsLeaderboardIcon_}, enableOnlineServicesButton{enableOnlineServicesButton_}, gameplayModifiersModel{gameplayModifiersModel_}, optInOnlineServicesView{optInOnlineServicesView_}, leaderboardView{leaderboardView_}, gameplaySetupViewController{gameplaySetupViewController_}, serverManager{serverManager_}, scores{scores_}, difficultyBeatmap{difficultyBeatmap_}, cancellationTokenSource{cancellationTokenSource_}, leaderboardPanels{leaderboardPanels_}, scoreScopeInfos{scoreScopeInfos_}, gameplayModifiers{gameplayModifiers_} {}
-    // Get instance field: private LeaderboardTableView _leaderboardTableView
-    GlobalNamespace::LeaderboardTableView* _get__leaderboardTableView();
-    // Set instance field: private LeaderboardTableView _leaderboardTableView
-    void _set__leaderboardTableView(GlobalNamespace::LeaderboardTableView* value);
-    // Get instance field: private HMUI.IconSegmentedControl _scopeSegmentedControl
-    HMUI::IconSegmentedControl* _get__scopeSegmentedControl();
-    // Set instance field: private HMUI.IconSegmentedControl _scopeSegmentedControl
-    void _set__scopeSegmentedControl(HMUI::IconSegmentedControl* value);
-    // Get instance field: private LoadingControl _loadingControl
-    GlobalNamespace::LoadingControl* _get__loadingControl();
-    // Set instance field: private LoadingControl _loadingControl
-    void _set__loadingControl(GlobalNamespace::LoadingControl* value);
-    // Get instance field: private MainSettingsModelSO _mainSettingsModel
-    GlobalNamespace::MainSettingsModelSO* _get__mainSettingsModel();
-    // Set instance field: private MainSettingsModelSO _mainSettingsModel
-    void _set__mainSettingsModel(GlobalNamespace::MainSettingsModelSO* value);
-    // Get instance field: private HMUI.TextSegmentedControl _leaderboardTypeSegmentedControl
-    HMUI::TextSegmentedControl* _get__leaderboardTypeSegmentedControl();
-    // Set instance field: private HMUI.TextSegmentedControl _leaderboardTypeSegmentedControl
-    void _set__leaderboardTypeSegmentedControl(HMUI::TextSegmentedControl* value);
-    // Get instance field: private UnityEngine.Sprite _globalLeaderboardIcon
-    UnityEngine::Sprite* _get__globalLeaderboardIcon();
-    // Set instance field: private UnityEngine.Sprite _globalLeaderboardIcon
-    void _set__globalLeaderboardIcon(UnityEngine::Sprite* value);
-    // Get instance field: private UnityEngine.Sprite _friendsLeaderboardIcon
-    UnityEngine::Sprite* _get__friendsLeaderboardIcon();
-    // Set instance field: private UnityEngine.Sprite _friendsLeaderboardIcon
-    void _set__friendsLeaderboardIcon(UnityEngine::Sprite* value);
-    // Get instance field: private UnityEngine.UI.Button _enableOnlineServicesButton
-    UnityEngine::UI::Button* _get__enableOnlineServicesButton();
-    // Set instance field: private UnityEngine.UI.Button _enableOnlineServicesButton
-    void _set__enableOnlineServicesButton(UnityEngine::UI::Button* value);
-    // Get instance field: private GameplayModifiersModelSO _gameplayModifiersModel
-    GlobalNamespace::GameplayModifiersModelSO* _get__gameplayModifiersModel();
-    // Set instance field: private GameplayModifiersModelSO _gameplayModifiersModel
-    void _set__gameplayModifiersModel(GlobalNamespace::GameplayModifiersModelSO* value);
-    // Get instance field: private UnityEngine.GameObject _optInOnlineServicesView
-    UnityEngine::GameObject* _get__optInOnlineServicesView();
-    // Set instance field: private UnityEngine.GameObject _optInOnlineServicesView
-    void _set__optInOnlineServicesView(UnityEngine::GameObject* value);
-    // Get instance field: private UnityEngine.GameObject _leaderboardView
-    UnityEngine::GameObject* _get__leaderboardView();
-    // Set instance field: private UnityEngine.GameObject _leaderboardView
-    void _set__leaderboardView(UnityEngine::GameObject* value);
-    // Get instance field: private readonly GameplaySetupViewController _gameplaySetupViewController
-    GlobalNamespace::GameplaySetupViewController* _get__gameplaySetupViewController();
-    // Set instance field: private readonly GameplaySetupViewController _gameplaySetupViewController
-    void _set__gameplaySetupViewController(GlobalNamespace::GameplaySetupViewController* value);
-    // Get instance field: private readonly OnlineServices.ServerManager _serverManager
-    OnlineServices::ServerManager* _get__serverManager();
-    // Set instance field: private readonly OnlineServices.ServerManager _serverManager
-    void _set__serverManager(OnlineServices::ServerManager* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<LeaderboardTableView/ScoreData> _scores
-    System::Collections::Generic::List_1<GlobalNamespace::LeaderboardTableView::ScoreData*>* _get__scores();
-    // Set instance field: private readonly System.Collections.Generic.List`1<LeaderboardTableView/ScoreData> _scores
-    void _set__scores(System::Collections::Generic::List_1<GlobalNamespace::LeaderboardTableView::ScoreData*>* value);
-    // Get instance field: private IDifficultyBeatmap _difficultyBeatmap
-    GlobalNamespace::IDifficultyBeatmap* _get__difficultyBeatmap();
-    // Set instance field: private IDifficultyBeatmap _difficultyBeatmap
-    void _set__difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap* value);
-    // Get instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    System::Threading::CancellationTokenSource* _get__cancellationTokenSource();
-    // Set instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    void _set__cancellationTokenSource(System::Threading::CancellationTokenSource* value);
-    // Get instance field: private CentralLeaderboardViewController/LeaderboardPanel[] _leaderboardPanels
-    ::Array<GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel*>* _get__leaderboardPanels();
-    // Set instance field: private CentralLeaderboardViewController/LeaderboardPanel[] _leaderboardPanels
-    void _set__leaderboardPanels(::Array<GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel*>* value);
-    // Get instance field: private CentralLeaderboardViewController/ScoreScopeInfo[] _scoreScopeInfos
-    ::Array<GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo*>* _get__scoreScopeInfos();
-    // Set instance field: private CentralLeaderboardViewController/ScoreScopeInfo[] _scoreScopeInfos
-    void _set__scoreScopeInfos(::Array<GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo*>* value);
-    // Get instance field: private GameplayModifiers _gameplayModifiers
-    GlobalNamespace::GameplayModifiers* _get__gameplayModifiers();
-    // Set instance field: private GameplayModifiers _gameplayModifiers
-    void _set__gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
+    // Get instance field reference: private LeaderboardTableView _leaderboardTableView
+    GlobalNamespace::LeaderboardTableView*& dyn__leaderboardTableView();
+    // Get instance field reference: private HMUI.IconSegmentedControl _scopeSegmentedControl
+    HMUI::IconSegmentedControl*& dyn__scopeSegmentedControl();
+    // Get instance field reference: private LoadingControl _loadingControl
+    GlobalNamespace::LoadingControl*& dyn__loadingControl();
+    // Get instance field reference: private MainSettingsModelSO _mainSettingsModel
+    GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
+    // Get instance field reference: private HMUI.TextSegmentedControl _leaderboardTypeSegmentedControl
+    HMUI::TextSegmentedControl*& dyn__leaderboardTypeSegmentedControl();
+    // Get instance field reference: private UnityEngine.Sprite _globalLeaderboardIcon
+    UnityEngine::Sprite*& dyn__globalLeaderboardIcon();
+    // Get instance field reference: private UnityEngine.Sprite _friendsLeaderboardIcon
+    UnityEngine::Sprite*& dyn__friendsLeaderboardIcon();
+    // Get instance field reference: private UnityEngine.UI.Button _enableOnlineServicesButton
+    UnityEngine::UI::Button*& dyn__enableOnlineServicesButton();
+    // Get instance field reference: private GameplayModifiersModelSO _gameplayModifiersModel
+    GlobalNamespace::GameplayModifiersModelSO*& dyn__gameplayModifiersModel();
+    // Get instance field reference: private UnityEngine.GameObject _optInOnlineServicesView
+    UnityEngine::GameObject*& dyn__optInOnlineServicesView();
+    // Get instance field reference: private UnityEngine.GameObject _leaderboardView
+    UnityEngine::GameObject*& dyn__leaderboardView();
+    // Get instance field reference: private readonly GameplaySetupViewController _gameplaySetupViewController
+    GlobalNamespace::GameplaySetupViewController*& dyn__gameplaySetupViewController();
+    // Get instance field reference: private readonly OnlineServices.ServerManager _serverManager
+    OnlineServices::ServerManager*& dyn__serverManager();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<LeaderboardTableView/ScoreData> _scores
+    System::Collections::Generic::List_1<GlobalNamespace::LeaderboardTableView::ScoreData*>*& dyn__scores();
+    // Get instance field reference: private IDifficultyBeatmap _difficultyBeatmap
+    GlobalNamespace::IDifficultyBeatmap*& dyn__difficultyBeatmap();
+    // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
+    System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
+    // Get instance field reference: private CentralLeaderboardViewController/LeaderboardPanel[] _leaderboardPanels
+    ::Array<GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel*>*& dyn__leaderboardPanels();
+    // Get instance field reference: private CentralLeaderboardViewController/ScoreScopeInfo[] _scoreScopeInfos
+    ::Array<GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo*>*& dyn__scoreScopeInfos();
+    // Get instance field reference: private GameplayModifiers _gameplayModifiers
+    GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
     // private GameplayModifiers get_gameplayModifiers()
     // Offset: 0x10EB168
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();

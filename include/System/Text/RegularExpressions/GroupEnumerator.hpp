@@ -47,14 +47,10 @@ namespace System::Text::RegularExpressions {
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
-    // Get instance field: System.Text.RegularExpressions.GroupCollection _rgc
-    System::Text::RegularExpressions::GroupCollection* _get__rgc();
-    // Set instance field: System.Text.RegularExpressions.GroupCollection _rgc
-    void _set__rgc(System::Text::RegularExpressions::GroupCollection* value);
-    // Get instance field: System.Int32 _curindex
-    int _get__curindex();
-    // Set instance field: System.Int32 _curindex
-    void _set__curindex(int value);
+    // Get instance field reference: System.Text.RegularExpressions.GroupCollection _rgc
+    System::Text::RegularExpressions::GroupCollection*& dyn__rgc();
+    // Get instance field reference: System.Int32 _curindex
+    int& dyn__curindex();
     // public System.Object get_Current()
     // Offset: 0x1868128
     ::Il2CppObject* get_Current();

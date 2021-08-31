@@ -41,10 +41,8 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     constexpr operator System::Func_1<bool>*() const noexcept {
       return m_CallBack;
     }
-    // Get instance field: private System.Func`1<System.Boolean> m_CallBack
-    System::Func_1<bool>* _get_m_CallBack();
-    // Set instance field: private System.Func`1<System.Boolean> m_CallBack
-    void _set_m_CallBack(System::Func_1<bool>* value);
+    // Get instance field reference: private System.Func`1<System.Boolean> m_CallBack
+    System::Func_1<bool>*& dyn_m_CallBack();
     // public System.Void Init(System.Func`1<System.Boolean> callback)
     // Offset: 0x19F0FF8
     void Init(System::Func_1<bool>* callback);

@@ -179,10 +179,8 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::GraphicsDeviceType _get_PlayStation5();
     // Set static field: static public UnityEngine.Rendering.GraphicsDeviceType PlayStation5
     static void _set_PlayStation5(UnityEngine::Rendering::GraphicsDeviceType value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.Rendering.GraphicsDeviceType
   #pragma pack(pop)
   static check_size<sizeof(GraphicsDeviceType), 0 + sizeof(int)> __UnityEngine_Rendering_GraphicsDeviceTypeSizeCheck;

@@ -47,18 +47,12 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public readonly System.Single bpmChangeStartTime
-    float _get_bpmChangeStartTime();
-    // Set instance field: public readonly System.Single bpmChangeStartTime
-    void _set_bpmChangeStartTime(float value);
-    // Get instance field: public readonly System.Single bpmChangeStartBpmTime
-    float _get_bpmChangeStartBpmTime();
-    // Set instance field: public readonly System.Single bpmChangeStartBpmTime
-    void _set_bpmChangeStartBpmTime(float value);
-    // Get instance field: public readonly System.Single bpm
-    float _get_bpm();
-    // Set instance field: public readonly System.Single bpm
-    void _set_bpm(float value);
+    // Get instance field reference: public readonly System.Single bpmChangeStartTime
+    float& dyn_bpmChangeStartTime();
+    // Get instance field reference: public readonly System.Single bpmChangeStartBpmTime
+    float& dyn_bpmChangeStartBpmTime();
+    // Get instance field reference: public readonly System.Single bpm
+    float& dyn_bpm();
     // public System.Void .ctor(System.Single bpmChangeStartTime, System.Single bpmChangeStartBpmTime, System.Single bpm)
     // Offset: 0x11F09C0
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

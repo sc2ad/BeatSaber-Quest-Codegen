@@ -220,82 +220,44 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kNoModifiersCellId();
     // Set static field: static private System.String kNoModifiersCellId
     static void _set_kNoModifiersCellId(::Il2CppString* value);
-    // Get instance field: private HMUI.TableView _tableView
-    HMUI::TableView* _get__tableView();
-    // Set instance field: private HMUI.TableView _tableView
-    void _set__tableView(HMUI::TableView* value);
-    // Get instance field: private GameServerPlayerTableCell _gameServerPlayerCellPrefab
-    GlobalNamespace::GameServerPlayerTableCell* _get__gameServerPlayerCellPrefab();
-    // Set instance field: private GameServerPlayerTableCell _gameServerPlayerCellPrefab
-    void _set__gameServerPlayerCellPrefab(GlobalNamespace::GameServerPlayerTableCell* value);
-    // Get instance field: private GameServerPlayerTableCell _gameServerPlayerCellWithoutSongsPrefab
-    GlobalNamespace::GameServerPlayerTableCell* _get__gameServerPlayerCellWithoutSongsPrefab();
-    // Set instance field: private GameServerPlayerTableCell _gameServerPlayerCellWithoutSongsPrefab
-    void _set__gameServerPlayerCellWithoutSongsPrefab(GlobalNamespace::GameServerPlayerTableCell* value);
-    // Get instance field: private GameServerPlayerTableCell _gameServerPlayerCellWithoutModifiersPrefab
-    GlobalNamespace::GameServerPlayerTableCell* _get__gameServerPlayerCellWithoutModifiersPrefab();
-    // Set instance field: private GameServerPlayerTableCell _gameServerPlayerCellWithoutModifiersPrefab
-    void _set__gameServerPlayerCellWithoutModifiersPrefab(GlobalNamespace::GameServerPlayerTableCell* value);
-    // Get instance field: private UnityEngine.GameObject _tableHeaderSongGo
-    UnityEngine::GameObject* _get__tableHeaderSongGo();
-    // Set instance field: private UnityEngine.GameObject _tableHeaderSongGo
-    void _set__tableHeaderSongGo(UnityEngine::GameObject* value);
-    // Get instance field: private UnityEngine.GameObject _tableHeaderModifiersGo
-    UnityEngine::GameObject* _get__tableHeaderModifiersGo();
-    // Set instance field: private UnityEngine.GameObject _tableHeaderModifiersGo
-    void _set__tableHeaderModifiersGo(UnityEngine::GameObject* value);
-    // Get instance field: private readonly Zenject.DiContainer _container
-    Zenject::DiContainer* _get__container();
-    // Set instance field: private readonly Zenject.DiContainer _container
-    void _set__container(Zenject::DiContainer* value);
-    // Get instance field: private readonly AdditionalContentModel _additionalContentModel
-    GlobalNamespace::AdditionalContentModel* _get__additionalContentModel();
-    // Set instance field: private readonly AdditionalContentModel _additionalContentModel
-    void _set__additionalContentModel(GlobalNamespace::AdditionalContentModel* value);
-    // Get instance field: private System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> selectSuggestedLevelEvent
-    System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>* _get_selectSuggestedLevelEvent();
-    // Set instance field: private System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> selectSuggestedLevelEvent
-    void _set_selectSuggestedLevelEvent(System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>* value);
-    // Get instance field: private System.Action`1<GameplayModifiers> selectSuggestedGameplayModifiersEvent
-    System::Action_1<GlobalNamespace::GameplayModifiers*>* _get_selectSuggestedGameplayModifiersEvent();
-    // Set instance field: private System.Action`1<GameplayModifiers> selectSuggestedGameplayModifiersEvent
-    void _set_selectSuggestedGameplayModifiersEvent(System::Action_1<GlobalNamespace::GameplayModifiers*>* value);
-    // Get instance field: private System.Action`1<System.String> kickPlayerEvent
-    System::Action_1<::Il2CppString*>* _get_kickPlayerEvent();
-    // Set instance field: private System.Action`1<System.String> kickPlayerEvent
-    void _set_kickPlayerEvent(System::Action_1<::Il2CppString*>* value);
-    // Get instance field: private System.Boolean _initialized
-    bool _get__initialized();
-    // Set instance field: private System.Boolean _initialized
-    void _set__initialized(bool value);
-    // Get instance field: private System.Boolean _hasKickPermissions
-    bool _get__hasKickPermissions();
-    // Set instance field: private System.Boolean _hasKickPermissions
-    void _set__hasKickPermissions(bool value);
-    // Get instance field: private System.Boolean _allowSelection
-    bool _get__allowSelection();
-    // Set instance field: private System.Boolean _allowSelection
-    void _set__allowSelection(bool value);
-    // Get instance field: private System.Boolean _showSongSelection
-    bool _get__showSongSelection();
-    // Set instance field: private System.Boolean _showSongSelection
-    void _set__showSongSelection(bool value);
-    // Get instance field: private System.Boolean _showModifierSelection
-    bool _get__showModifierSelection();
-    // Set instance field: private System.Boolean _showModifierSelection
-    void _set__showModifierSelection(bool value);
-    // Get instance field: private IConnectedPlayer _selectedPlayer
-    GlobalNamespace::IConnectedPlayer* _get__selectedPlayer();
-    // Set instance field: private IConnectedPlayer _selectedPlayer
-    void _set__selectedPlayer(GlobalNamespace::IConnectedPlayer* value);
-    // Get instance field: private System.Collections.Generic.List`1<IConnectedPlayer> _sortedConnectedPlayers
-    System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* _get__sortedConnectedPlayers();
-    // Set instance field: private System.Collections.Generic.List`1<IConnectedPlayer> _sortedConnectedPlayers
-    void _set__sortedConnectedPlayers(System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* value);
-    // Get instance field: private ILobbyPlayersDataModel _lobbyPlayersDataModel
-    GlobalNamespace::ILobbyPlayersDataModel* _get__lobbyPlayersDataModel();
-    // Set instance field: private ILobbyPlayersDataModel _lobbyPlayersDataModel
-    void _set__lobbyPlayersDataModel(GlobalNamespace::ILobbyPlayersDataModel* value);
+    // Get instance field reference: private HMUI.TableView _tableView
+    HMUI::TableView*& dyn__tableView();
+    // Get instance field reference: private GameServerPlayerTableCell _gameServerPlayerCellPrefab
+    GlobalNamespace::GameServerPlayerTableCell*& dyn__gameServerPlayerCellPrefab();
+    // Get instance field reference: private GameServerPlayerTableCell _gameServerPlayerCellWithoutSongsPrefab
+    GlobalNamespace::GameServerPlayerTableCell*& dyn__gameServerPlayerCellWithoutSongsPrefab();
+    // Get instance field reference: private GameServerPlayerTableCell _gameServerPlayerCellWithoutModifiersPrefab
+    GlobalNamespace::GameServerPlayerTableCell*& dyn__gameServerPlayerCellWithoutModifiersPrefab();
+    // Get instance field reference: private UnityEngine.GameObject _tableHeaderSongGo
+    UnityEngine::GameObject*& dyn__tableHeaderSongGo();
+    // Get instance field reference: private UnityEngine.GameObject _tableHeaderModifiersGo
+    UnityEngine::GameObject*& dyn__tableHeaderModifiersGo();
+    // Get instance field reference: private readonly Zenject.DiContainer _container
+    Zenject::DiContainer*& dyn__container();
+    // Get instance field reference: private readonly AdditionalContentModel _additionalContentModel
+    GlobalNamespace::AdditionalContentModel*& dyn__additionalContentModel();
+    // Get instance field reference: private System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> selectSuggestedLevelEvent
+    System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>*& dyn_selectSuggestedLevelEvent();
+    // Get instance field reference: private System.Action`1<GameplayModifiers> selectSuggestedGameplayModifiersEvent
+    System::Action_1<GlobalNamespace::GameplayModifiers*>*& dyn_selectSuggestedGameplayModifiersEvent();
+    // Get instance field reference: private System.Action`1<System.String> kickPlayerEvent
+    System::Action_1<::Il2CppString*>*& dyn_kickPlayerEvent();
+    // Get instance field reference: private System.Boolean _initialized
+    bool& dyn__initialized();
+    // Get instance field reference: private System.Boolean _hasKickPermissions
+    bool& dyn__hasKickPermissions();
+    // Get instance field reference: private System.Boolean _allowSelection
+    bool& dyn__allowSelection();
+    // Get instance field reference: private System.Boolean _showSongSelection
+    bool& dyn__showSongSelection();
+    // Get instance field reference: private System.Boolean _showModifierSelection
+    bool& dyn__showModifierSelection();
+    // Get instance field reference: private IConnectedPlayer _selectedPlayer
+    GlobalNamespace::IConnectedPlayer*& dyn__selectedPlayer();
+    // Get instance field reference: private System.Collections.Generic.List`1<IConnectedPlayer> _sortedConnectedPlayers
+    System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>*& dyn__sortedConnectedPlayers();
+    // Get instance field reference: private ILobbyPlayersDataModel _lobbyPlayersDataModel
+    GlobalNamespace::ILobbyPlayersDataModel*& dyn__lobbyPlayersDataModel();
     // private System.String get_currentCellId()
     // Offset: 0x1108114
     ::Il2CppString* get_currentCellId();

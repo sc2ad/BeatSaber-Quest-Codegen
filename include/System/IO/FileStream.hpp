@@ -182,66 +182,36 @@ namespace System::IO {
     static ::Il2CppObject* _get_buf_recycle_lock();
     // Set static field: static private readonly System.Object buf_recycle_lock
     static void _set_buf_recycle_lock(::Il2CppObject* value);
-    // Get instance field: private System.Byte[] buf
-    ::Array<uint8_t>* _get_buf();
-    // Set instance field: private System.Byte[] buf
-    void _set_buf(::Array<uint8_t>* value);
-    // Get instance field: private System.String name
-    ::Il2CppString* _get_name();
-    // Set instance field: private System.String name
-    void _set_name(::Il2CppString* value);
-    // Get instance field: private Microsoft.Win32.SafeHandles.SafeFileHandle safeHandle
-    Microsoft::Win32::SafeHandles::SafeFileHandle* _get_safeHandle();
-    // Set instance field: private Microsoft.Win32.SafeHandles.SafeFileHandle safeHandle
-    void _set_safeHandle(Microsoft::Win32::SafeHandles::SafeFileHandle* value);
-    // Get instance field: private System.Boolean isExposed
-    bool _get_isExposed();
-    // Set instance field: private System.Boolean isExposed
-    void _set_isExposed(bool value);
-    // Get instance field: private System.Int64 append_startpos
-    int64_t _get_append_startpos();
-    // Set instance field: private System.Int64 append_startpos
-    void _set_append_startpos(int64_t value);
-    // Get instance field: private System.IO.FileAccess access
-    System::IO::FileAccess _get_access();
-    // Set instance field: private System.IO.FileAccess access
-    void _set_access(System::IO::FileAccess value);
-    // Get instance field: private System.Boolean owner
-    bool _get_owner();
-    // Set instance field: private System.Boolean owner
-    void _set_owner(bool value);
-    // Get instance field: private System.Boolean async
-    bool _get_async();
-    // Set instance field: private System.Boolean async
-    void _set_async(bool value);
-    // Get instance field: private System.Boolean canseek
-    bool _get_canseek();
-    // Set instance field: private System.Boolean canseek
-    void _set_canseek(bool value);
-    // Get instance field: private System.Boolean anonymous
-    bool _get_anonymous();
-    // Set instance field: private System.Boolean anonymous
-    void _set_anonymous(bool value);
-    // Get instance field: private System.Boolean buf_dirty
-    bool _get_buf_dirty();
-    // Set instance field: private System.Boolean buf_dirty
-    void _set_buf_dirty(bool value);
-    // Get instance field: private System.Int32 buf_size
-    int _get_buf_size();
-    // Set instance field: private System.Int32 buf_size
-    void _set_buf_size(int value);
-    // Get instance field: private System.Int32 buf_length
-    int _get_buf_length();
-    // Set instance field: private System.Int32 buf_length
-    void _set_buf_length(int value);
-    // Get instance field: private System.Int32 buf_offset
-    int _get_buf_offset();
-    // Set instance field: private System.Int32 buf_offset
-    void _set_buf_offset(int value);
-    // Get instance field: private System.Int64 buf_start
-    int64_t _get_buf_start();
-    // Set instance field: private System.Int64 buf_start
-    void _set_buf_start(int64_t value);
+    // Get instance field reference: private System.Byte[] buf
+    ::Array<uint8_t>*& dyn_buf();
+    // Get instance field reference: private System.String name
+    ::Il2CppString*& dyn_name();
+    // Get instance field reference: private Microsoft.Win32.SafeHandles.SafeFileHandle safeHandle
+    Microsoft::Win32::SafeHandles::SafeFileHandle*& dyn_safeHandle();
+    // Get instance field reference: private System.Boolean isExposed
+    bool& dyn_isExposed();
+    // Get instance field reference: private System.Int64 append_startpos
+    int64_t& dyn_append_startpos();
+    // Get instance field reference: private System.IO.FileAccess access
+    System::IO::FileAccess& dyn_access();
+    // Get instance field reference: private System.Boolean owner
+    bool& dyn_owner();
+    // Get instance field reference: private System.Boolean async
+    bool& dyn_async();
+    // Get instance field reference: private System.Boolean canseek
+    bool& dyn_canseek();
+    // Get instance field reference: private System.Boolean anonymous
+    bool& dyn_anonymous();
+    // Get instance field reference: private System.Boolean buf_dirty
+    bool& dyn_buf_dirty();
+    // Get instance field reference: private System.Int32 buf_size
+    int& dyn_buf_size();
+    // Get instance field reference: private System.Int32 buf_length
+    int& dyn_buf_length();
+    // Get instance field reference: private System.Int32 buf_offset
+    int& dyn_buf_offset();
+    // Get instance field reference: private System.Int64 buf_start
+    int64_t& dyn_buf_start();
     // public Microsoft.Win32.SafeHandles.SafeFileHandle get_SafeFileHandle()
     // Offset: 0x1972CD8
     Microsoft::Win32::SafeHandles::SafeFileHandle* get_SafeFileHandle();

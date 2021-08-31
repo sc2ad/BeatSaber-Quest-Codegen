@@ -61,26 +61,16 @@ namespace TMPro {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: FallbackMaterial
     FallbackMaterial(int baseID_ = {}, UnityEngine::Material* baseMaterial_ = {}, int64_t fallbackID_ = {}, UnityEngine::Material* fallbackMaterial_ = {}, int count_ = {}) noexcept : baseID{baseID_}, baseMaterial{baseMaterial_}, fallbackID{fallbackID_}, fallbackMaterial{fallbackMaterial_}, count{count_} {}
-    // Get instance field: public System.Int32 baseID
-    int _get_baseID();
-    // Set instance field: public System.Int32 baseID
-    void _set_baseID(int value);
-    // Get instance field: public UnityEngine.Material baseMaterial
-    UnityEngine::Material* _get_baseMaterial();
-    // Set instance field: public UnityEngine.Material baseMaterial
-    void _set_baseMaterial(UnityEngine::Material* value);
-    // Get instance field: public System.Int64 fallbackID
-    int64_t _get_fallbackID();
-    // Set instance field: public System.Int64 fallbackID
-    void _set_fallbackID(int64_t value);
-    // Get instance field: public UnityEngine.Material fallbackMaterial
-    UnityEngine::Material* _get_fallbackMaterial();
-    // Set instance field: public UnityEngine.Material fallbackMaterial
-    void _set_fallbackMaterial(UnityEngine::Material* value);
-    // Get instance field: public System.Int32 count
-    int _get_count();
-    // Set instance field: public System.Int32 count
-    void _set_count(int value);
+    // Get instance field reference: public System.Int32 baseID
+    int& dyn_baseID();
+    // Get instance field reference: public UnityEngine.Material baseMaterial
+    UnityEngine::Material*& dyn_baseMaterial();
+    // Get instance field reference: public System.Int64 fallbackID
+    int64_t& dyn_fallbackID();
+    // Get instance field reference: public UnityEngine.Material fallbackMaterial
+    UnityEngine::Material*& dyn_fallbackMaterial();
+    // Get instance field reference: public System.Int32 count
+    int& dyn_count();
     // public System.Void .ctor()
     // Offset: 0x1158CEC
     // Implemented from: System.Object

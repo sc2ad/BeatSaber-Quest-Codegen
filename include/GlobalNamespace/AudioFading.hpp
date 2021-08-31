@@ -57,22 +57,14 @@ namespace GlobalNamespace {
     AudioFading(UnityEngine::AudioSource* audioSource_ = {}, float smooth_ = {}, bool fadeInOnStart_ = {}, float targetVolume_ = {}) noexcept : audioSource{audioSource_}, smooth{smooth_}, fadeInOnStart{fadeInOnStart_}, targetVolume{targetVolume_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.AudioSource _audioSource
-    UnityEngine::AudioSource* _get__audioSource();
-    // Set instance field: private UnityEngine.AudioSource _audioSource
-    void _set__audioSource(UnityEngine::AudioSource* value);
-    // Get instance field: private System.Single _smooth
-    float _get__smooth();
-    // Set instance field: private System.Single _smooth
-    void _set__smooth(float value);
-    // Get instance field: private System.Boolean _fadeInOnStart
-    bool _get__fadeInOnStart();
-    // Set instance field: private System.Boolean _fadeInOnStart
-    void _set__fadeInOnStart(bool value);
-    // Get instance field: private System.Single _targetVolume
-    float _get__targetVolume();
-    // Set instance field: private System.Single _targetVolume
-    void _set__targetVolume(float value);
+    // Get instance field reference: private UnityEngine.AudioSource _audioSource
+    UnityEngine::AudioSource*& dyn__audioSource();
+    // Get instance field reference: private System.Single _smooth
+    float& dyn__smooth();
+    // Get instance field reference: private System.Boolean _fadeInOnStart
+    bool& dyn__fadeInOnStart();
+    // Get instance field reference: private System.Single _targetVolume
+    float& dyn__targetVolume();
     // protected System.Void Start()
     // Offset: 0x117D694
     void Start();

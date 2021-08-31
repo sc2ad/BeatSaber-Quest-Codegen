@@ -52,22 +52,14 @@ namespace TMPro {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public UnityEngine.Color topLeft
-    UnityEngine::Color _get_topLeft();
-    // Set instance field: public UnityEngine.Color topLeft
-    void _set_topLeft(UnityEngine::Color value);
-    // Get instance field: public UnityEngine.Color topRight
-    UnityEngine::Color _get_topRight();
-    // Set instance field: public UnityEngine.Color topRight
-    void _set_topRight(UnityEngine::Color value);
-    // Get instance field: public UnityEngine.Color bottomLeft
-    UnityEngine::Color _get_bottomLeft();
-    // Set instance field: public UnityEngine.Color bottomLeft
-    void _set_bottomLeft(UnityEngine::Color value);
-    // Get instance field: public UnityEngine.Color bottomRight
-    UnityEngine::Color _get_bottomRight();
-    // Set instance field: public UnityEngine.Color bottomRight
-    void _set_bottomRight(UnityEngine::Color value);
+    // Get instance field reference: public UnityEngine.Color topLeft
+    UnityEngine::Color& dyn_topLeft();
+    // Get instance field reference: public UnityEngine.Color topRight
+    UnityEngine::Color& dyn_topRight();
+    // Get instance field reference: public UnityEngine.Color bottomLeft
+    UnityEngine::Color& dyn_bottomLeft();
+    // Get instance field reference: public UnityEngine.Color bottomRight
+    UnityEngine::Color& dyn_bottomRight();
     // public System.Void .ctor(UnityEngine.Color color)
     // Offset: 0x1C3E7FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -44,18 +44,12 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: LinkedAccount
     LinkedAccount(::Il2CppString* AccessToken_ = {}, Oculus::Platform::ServiceProvider ServiceProvider_ = {}, ::Il2CppString* UserId_ = {}) noexcept : AccessToken{AccessToken_}, ServiceProvider{ServiceProvider_}, UserId{UserId_} {}
-    // Get instance field: public readonly System.String AccessToken
-    ::Il2CppString* _get_AccessToken();
-    // Set instance field: public readonly System.String AccessToken
-    void _set_AccessToken(::Il2CppString* value);
-    // Get instance field: public readonly Oculus.Platform.ServiceProvider ServiceProvider
-    Oculus::Platform::ServiceProvider _get_ServiceProvider();
-    // Set instance field: public readonly Oculus.Platform.ServiceProvider ServiceProvider
-    void _set_ServiceProvider(Oculus::Platform::ServiceProvider value);
-    // Get instance field: public readonly System.String UserId
-    ::Il2CppString* _get_UserId();
-    // Set instance field: public readonly System.String UserId
-    void _set_UserId(::Il2CppString* value);
+    // Get instance field reference: public readonly System.String AccessToken
+    ::Il2CppString*& dyn_AccessToken();
+    // Get instance field reference: public readonly Oculus.Platform.ServiceProvider ServiceProvider
+    Oculus::Platform::ServiceProvider& dyn_ServiceProvider();
+    // Get instance field reference: public readonly System.String UserId
+    ::Il2CppString*& dyn_UserId();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14F1D00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

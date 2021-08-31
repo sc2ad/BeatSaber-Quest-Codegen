@@ -147,42 +147,24 @@ namespace GlobalNamespace {
     operator GlobalNamespace::INoteMovementProvider() noexcept {
       return *reinterpret_cast<GlobalNamespace::INoteMovementProvider*>(this);
     }
-    // Get instance field: private BoxCuttableBySaber[] _bigCuttableBySaberList
-    ::Array<GlobalNamespace::BoxCuttableBySaber*>* _get__bigCuttableBySaberList();
-    // Set instance field: private BoxCuttableBySaber[] _bigCuttableBySaberList
-    void _set__bigCuttableBySaberList(::Array<GlobalNamespace::BoxCuttableBySaber*>* value);
-    // Get instance field: private BoxCuttableBySaber[] _smallCuttableBySaberList
-    ::Array<GlobalNamespace::BoxCuttableBySaber*>* _get__smallCuttableBySaberList();
-    // Set instance field: private BoxCuttableBySaber[] _smallCuttableBySaberList
-    void _set__smallCuttableBySaberList(::Array<GlobalNamespace::BoxCuttableBySaber*>* value);
-    // Get instance field: private UnityEngine.GameObject _wrapperGO
-    UnityEngine::GameObject* _get__wrapperGO();
-    // Set instance field: private UnityEngine.GameObject _wrapperGO
-    void _set__wrapperGO(UnityEngine::GameObject* value);
-    // Get instance field: private readonly AudioTimeSyncController _audioTimeSyncController
-    GlobalNamespace::AudioTimeSyncController* _get__audioTimeSyncController();
-    // Set instance field: private readonly AudioTimeSyncController _audioTimeSyncController
-    void _set__audioTimeSyncController(GlobalNamespace::AudioTimeSyncController* value);
-    // Get instance field: private readonly SaberSwingRatingCounter/Pool _saberSwingRatingCounterPool
-    GlobalNamespace::SaberSwingRatingCounter::Pool* _get__saberSwingRatingCounterPool();
-    // Set instance field: private readonly SaberSwingRatingCounter/Pool _saberSwingRatingCounterPool
-    void _set__saberSwingRatingCounterPool(GlobalNamespace::SaberSwingRatingCounter::Pool* value);
-    // Get instance field: private System.Action`1<GameNoteController> cubeNoteControllerDidInitEvent
-    System::Action_1<GlobalNamespace::GameNoteController*>* _get_cubeNoteControllerDidInitEvent();
-    // Set instance field: private System.Action`1<GameNoteController> cubeNoteControllerDidInitEvent
-    void _set_cubeNoteControllerDidInitEvent(System::Action_1<GlobalNamespace::GameNoteController*>* value);
-    // Get instance field: private GameNoteController/GameNoteType _gameNoteType
-    GlobalNamespace::GameNoteController_GameNoteType _get__gameNoteType();
-    // Set instance field: private GameNoteController/GameNoteType _gameNoteType
-    void _set__gameNoteType(GlobalNamespace::GameNoteController_GameNoteType value);
-    // Get instance field: private System.Boolean _hidden
-    bool _get__hidden();
-    // Set instance field: private System.Boolean _hidden
-    void _set__hidden(bool value);
-    // Get instance field: private System.Single _cutAngleTolerance
-    float _get__cutAngleTolerance();
-    // Set instance field: private System.Single _cutAngleTolerance
-    void _set__cutAngleTolerance(float value);
+    // Get instance field reference: private BoxCuttableBySaber[] _bigCuttableBySaberList
+    ::Array<GlobalNamespace::BoxCuttableBySaber*>*& dyn__bigCuttableBySaberList();
+    // Get instance field reference: private BoxCuttableBySaber[] _smallCuttableBySaberList
+    ::Array<GlobalNamespace::BoxCuttableBySaber*>*& dyn__smallCuttableBySaberList();
+    // Get instance field reference: private UnityEngine.GameObject _wrapperGO
+    UnityEngine::GameObject*& dyn__wrapperGO();
+    // Get instance field reference: private readonly AudioTimeSyncController _audioTimeSyncController
+    GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
+    // Get instance field reference: private readonly SaberSwingRatingCounter/Pool _saberSwingRatingCounterPool
+    GlobalNamespace::SaberSwingRatingCounter::Pool*& dyn__saberSwingRatingCounterPool();
+    // Get instance field reference: private System.Action`1<GameNoteController> cubeNoteControllerDidInitEvent
+    System::Action_1<GlobalNamespace::GameNoteController*>*& dyn_cubeNoteControllerDidInitEvent();
+    // Get instance field reference: private GameNoteController/GameNoteType _gameNoteType
+    GlobalNamespace::GameNoteController_GameNoteType& dyn__gameNoteType();
+    // Get instance field reference: private System.Boolean _hidden
+    bool& dyn__hidden();
+    // Get instance field reference: private System.Single _cutAngleTolerance
+    float& dyn__cutAngleTolerance();
     // public NoteMovement get_noteMovement()
     // Offset: 0x10FDBBC
     GlobalNamespace::NoteMovement* get_noteMovement();

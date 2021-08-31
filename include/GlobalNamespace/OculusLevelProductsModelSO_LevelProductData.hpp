@@ -40,18 +40,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: LevelProductData
     LevelProductData(::Il2CppString* levelId_ = {}, ::Il2CppString* sku_ = {}, ::Il2CppString* assetFile_ = {}) noexcept : levelId{levelId_}, sku{sku_}, assetFile{assetFile_} {}
-    // Get instance field: private System.String _levelId
-    ::Il2CppString* _get__levelId();
-    // Set instance field: private System.String _levelId
-    void _set__levelId(::Il2CppString* value);
-    // Get instance field: private System.String _sku
-    ::Il2CppString* _get__sku();
-    // Set instance field: private System.String _sku
-    void _set__sku(::Il2CppString* value);
-    // Get instance field: private System.String _assetFile
-    ::Il2CppString* _get__assetFile();
-    // Set instance field: private System.String _assetFile
-    void _set__assetFile(::Il2CppString* value);
+    // Get instance field reference: private System.String _levelId
+    ::Il2CppString*& dyn__levelId();
+    // Get instance field reference: private System.String _sku
+    ::Il2CppString*& dyn__sku();
+    // Get instance field reference: private System.String _assetFile
+    ::Il2CppString*& dyn__assetFile();
     // public System.String get_sku()
     // Offset: 0x123A5A0
     ::Il2CppString* get_sku();

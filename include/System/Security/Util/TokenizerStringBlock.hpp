@@ -32,14 +32,10 @@ namespace System::Security::Util {
     static_assert(sizeof(System::Security::Util::TokenizerStringBlock*) == 0x8);
     // Creating value type constructor for type: TokenizerStringBlock
     TokenizerStringBlock(::Array<::Il2CppString*>* m_block_ = {}, System::Security::Util::TokenizerStringBlock* m_next_ = {}) noexcept : m_block{m_block_}, m_next{m_next_} {}
-    // Get instance field: System.String[] m_block
-    ::Array<::Il2CppString*>* _get_m_block();
-    // Set instance field: System.String[] m_block
-    void _set_m_block(::Array<::Il2CppString*>* value);
-    // Get instance field: System.Security.Util.TokenizerStringBlock m_next
-    System::Security::Util::TokenizerStringBlock* _get_m_next();
-    // Set instance field: System.Security.Util.TokenizerStringBlock m_next
-    void _set_m_next(System::Security::Util::TokenizerStringBlock* value);
+    // Get instance field reference: System.String[] m_block
+    ::Array<::Il2CppString*>*& dyn_m_block();
+    // Get instance field reference: System.Security.Util.TokenizerStringBlock m_next
+    System::Security::Util::TokenizerStringBlock*& dyn_m_next();
     // public System.Void .ctor()
     // Offset: 0x1C03CC8
     // Implemented from: System.Object

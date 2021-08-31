@@ -49,18 +49,12 @@ namespace UnityEngine {
     static_assert(sizeof(System::Type*) == 0x8);
     // Creating value type constructor for type: RequireComponent
     RequireComponent(System::Type* m_Type0_ = {}, System::Type* m_Type1_ = {}, System::Type* m_Type2_ = {}) noexcept : m_Type0{m_Type0_}, m_Type1{m_Type1_}, m_Type2{m_Type2_} {}
-    // Get instance field: public System.Type m_Type0
-    System::Type* _get_m_Type0();
-    // Set instance field: public System.Type m_Type0
-    void _set_m_Type0(System::Type* value);
-    // Get instance field: public System.Type m_Type1
-    System::Type* _get_m_Type1();
-    // Set instance field: public System.Type m_Type1
-    void _set_m_Type1(System::Type* value);
-    // Get instance field: public System.Type m_Type2
-    System::Type* _get_m_Type2();
-    // Set instance field: public System.Type m_Type2
-    void _set_m_Type2(System::Type* value);
+    // Get instance field reference: public System.Type m_Type0
+    System::Type*& dyn_m_Type0();
+    // Get instance field reference: public System.Type m_Type1
+    System::Type*& dyn_m_Type1();
+    // Get instance field reference: public System.Type m_Type2
+    System::Type*& dyn_m_Type2();
     // public System.Void .ctor(System.Type requiredComponent)
     // Offset: 0x1C4C9EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

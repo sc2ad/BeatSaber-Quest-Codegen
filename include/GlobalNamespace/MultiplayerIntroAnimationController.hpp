@@ -178,74 +178,40 @@ namespace GlobalNamespace {
     MultiplayerIntroAnimationController(UnityEngine::Playables::PlayableDirector* introPlayableDirector_ = {}, ::Array<::Il2CppString*>* playerTimelineTrackNames_ = {}, ::Array<::Il2CppString*>* ringTimelineTrackNames_ = {}, ::Array<UnityEngine::PropertyName>* playerTimelinePropertyNames_ = {}, ::Il2CppString* localPlayerTrackName_ = {}, ::Il2CppString* localPlayerRingTrackName_ = {}, UnityEngine::PropertyName localPlayerTimelinePropertyName_ = {}, float firstConnectedPlayerStart_ = {}, float spawnDuration_ = {}, ::Il2CppString* endMarkerName_ = {}, GlobalNamespace::MultiplayerScoreRingManager* scoreRingManager_ = {}, GlobalNamespace::MultiplayerPlayersManager* multiplayerPlayersManager_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, GlobalNamespace::MultiplayerLayoutProvider* layoutProvider_ = {}, System::Action* onCompleted_ = {}, float introDuration_ = {}, bool bindingFinished_ = {}) noexcept : introPlayableDirector{introPlayableDirector_}, playerTimelineTrackNames{playerTimelineTrackNames_}, ringTimelineTrackNames{ringTimelineTrackNames_}, playerTimelinePropertyNames{playerTimelinePropertyNames_}, localPlayerTrackName{localPlayerTrackName_}, localPlayerRingTrackName{localPlayerRingTrackName_}, localPlayerTimelinePropertyName{localPlayerTimelinePropertyName_}, firstConnectedPlayerStart{firstConnectedPlayerStart_}, spawnDuration{spawnDuration_}, endMarkerName{endMarkerName_}, scoreRingManager{scoreRingManager_}, multiplayerPlayersManager{multiplayerPlayersManager_}, multiplayerSessionManager{multiplayerSessionManager_}, layoutProvider{layoutProvider_}, onCompleted{onCompleted_}, introDuration{introDuration_}, bindingFinished{bindingFinished_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.Playables.PlayableDirector _introPlayableDirector
-    UnityEngine::Playables::PlayableDirector* _get__introPlayableDirector();
-    // Set instance field: private UnityEngine.Playables.PlayableDirector _introPlayableDirector
-    void _set__introPlayableDirector(UnityEngine::Playables::PlayableDirector* value);
-    // Get instance field: private System.String[] _playerTimelineTrackNames
-    ::Array<::Il2CppString*>* _get__playerTimelineTrackNames();
-    // Set instance field: private System.String[] _playerTimelineTrackNames
-    void _set__playerTimelineTrackNames(::Array<::Il2CppString*>* value);
-    // Get instance field: private System.String[] _ringTimelineTrackNames
-    ::Array<::Il2CppString*>* _get__ringTimelineTrackNames();
-    // Set instance field: private System.String[] _ringTimelineTrackNames
-    void _set__ringTimelineTrackNames(::Array<::Il2CppString*>* value);
-    // Get instance field: private UnityEngine.PropertyName[] _playerTimelinePropertyNames
-    ::Array<UnityEngine::PropertyName>* _get__playerTimelinePropertyNames();
-    // Set instance field: private UnityEngine.PropertyName[] _playerTimelinePropertyNames
-    void _set__playerTimelinePropertyNames(::Array<UnityEngine::PropertyName>* value);
-    // Get instance field: private System.String _localPlayerTrackName
-    ::Il2CppString* _get__localPlayerTrackName();
-    // Set instance field: private System.String _localPlayerTrackName
-    void _set__localPlayerTrackName(::Il2CppString* value);
-    // Get instance field: private System.String _localPlayerRingTrackName
-    ::Il2CppString* _get__localPlayerRingTrackName();
-    // Set instance field: private System.String _localPlayerRingTrackName
-    void _set__localPlayerRingTrackName(::Il2CppString* value);
-    // Get instance field: private UnityEngine.PropertyName _localPlayerTimelinePropertyName
-    UnityEngine::PropertyName _get__localPlayerTimelinePropertyName();
-    // Set instance field: private UnityEngine.PropertyName _localPlayerTimelinePropertyName
-    void _set__localPlayerTimelinePropertyName(UnityEngine::PropertyName value);
-    // Get instance field: private System.Single _firstConnectedPlayerStart
-    float _get__firstConnectedPlayerStart();
-    // Set instance field: private System.Single _firstConnectedPlayerStart
-    void _set__firstConnectedPlayerStart(float value);
-    // Get instance field: private System.Single _spawnDuration
-    float _get__spawnDuration();
-    // Set instance field: private System.Single _spawnDuration
-    void _set__spawnDuration(float value);
-    // Get instance field: private System.String _endMarkerName
-    ::Il2CppString* _get__endMarkerName();
-    // Set instance field: private System.String _endMarkerName
-    void _set__endMarkerName(::Il2CppString* value);
-    // Get instance field: private MultiplayerScoreRingManager _scoreRingManager
-    GlobalNamespace::MultiplayerScoreRingManager* _get__scoreRingManager();
-    // Set instance field: private MultiplayerScoreRingManager _scoreRingManager
-    void _set__scoreRingManager(GlobalNamespace::MultiplayerScoreRingManager* value);
-    // Get instance field: private readonly MultiplayerPlayersManager _multiplayerPlayersManager
-    GlobalNamespace::MultiplayerPlayersManager* _get__multiplayerPlayersManager();
-    // Set instance field: private readonly MultiplayerPlayersManager _multiplayerPlayersManager
-    void _set__multiplayerPlayersManager(GlobalNamespace::MultiplayerPlayersManager* value);
-    // Get instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    GlobalNamespace::IMultiplayerSessionManager* _get__multiplayerSessionManager();
-    // Set instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    void _set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
-    // Get instance field: private readonly MultiplayerLayoutProvider _layoutProvider
-    GlobalNamespace::MultiplayerLayoutProvider* _get__layoutProvider();
-    // Set instance field: private readonly MultiplayerLayoutProvider _layoutProvider
-    void _set__layoutProvider(GlobalNamespace::MultiplayerLayoutProvider* value);
-    // Get instance field: private System.Action _onCompleted
-    System::Action* _get__onCompleted();
-    // Set instance field: private System.Action _onCompleted
-    void _set__onCompleted(System::Action* value);
-    // Get instance field: private System.Single _introDuration
-    float _get__introDuration();
-    // Set instance field: private System.Single _introDuration
-    void _set__introDuration(float value);
-    // Get instance field: private System.Boolean _bindingFinished
-    bool _get__bindingFinished();
-    // Set instance field: private System.Boolean _bindingFinished
-    void _set__bindingFinished(bool value);
+    // Get instance field reference: private UnityEngine.Playables.PlayableDirector _introPlayableDirector
+    UnityEngine::Playables::PlayableDirector*& dyn__introPlayableDirector();
+    // Get instance field reference: private System.String[] _playerTimelineTrackNames
+    ::Array<::Il2CppString*>*& dyn__playerTimelineTrackNames();
+    // Get instance field reference: private System.String[] _ringTimelineTrackNames
+    ::Array<::Il2CppString*>*& dyn__ringTimelineTrackNames();
+    // Get instance field reference: private UnityEngine.PropertyName[] _playerTimelinePropertyNames
+    ::Array<UnityEngine::PropertyName>*& dyn__playerTimelinePropertyNames();
+    // Get instance field reference: private System.String _localPlayerTrackName
+    ::Il2CppString*& dyn__localPlayerTrackName();
+    // Get instance field reference: private System.String _localPlayerRingTrackName
+    ::Il2CppString*& dyn__localPlayerRingTrackName();
+    // Get instance field reference: private UnityEngine.PropertyName _localPlayerTimelinePropertyName
+    UnityEngine::PropertyName& dyn__localPlayerTimelinePropertyName();
+    // Get instance field reference: private System.Single _firstConnectedPlayerStart
+    float& dyn__firstConnectedPlayerStart();
+    // Get instance field reference: private System.Single _spawnDuration
+    float& dyn__spawnDuration();
+    // Get instance field reference: private System.String _endMarkerName
+    ::Il2CppString*& dyn__endMarkerName();
+    // Get instance field reference: private MultiplayerScoreRingManager _scoreRingManager
+    GlobalNamespace::MultiplayerScoreRingManager*& dyn__scoreRingManager();
+    // Get instance field reference: private readonly MultiplayerPlayersManager _multiplayerPlayersManager
+    GlobalNamespace::MultiplayerPlayersManager*& dyn__multiplayerPlayersManager();
+    // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
+    // Get instance field reference: private readonly MultiplayerLayoutProvider _layoutProvider
+    GlobalNamespace::MultiplayerLayoutProvider*& dyn__layoutProvider();
+    // Get instance field reference: private System.Action _onCompleted
+    System::Action*& dyn__onCompleted();
+    // Get instance field reference: private System.Single _introDuration
+    float& dyn__introDuration();
+    // Get instance field reference: private System.Boolean _bindingFinished
+    bool& dyn__bindingFinished();
     // protected System.Void OnValidate()
     // Offset: 0x11B0898
     void OnValidate();

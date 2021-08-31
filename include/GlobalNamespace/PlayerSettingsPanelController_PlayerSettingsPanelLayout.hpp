@@ -52,10 +52,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::PlayerSettingsPanelController::PlayerSettingsPanelLayout _get_Multiplayer();
     // Set static field: static public PlayerSettingsPanelController/PlayerSettingsPanelLayout Multiplayer
     static void _set_Multiplayer(GlobalNamespace::PlayerSettingsPanelController::PlayerSettingsPanelLayout value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // PlayerSettingsPanelController/PlayerSettingsPanelLayout
   #pragma pack(pop)
   static check_size<sizeof(PlayerSettingsPanelController::PlayerSettingsPanelLayout), 0 + sizeof(int)> __GlobalNamespace_PlayerSettingsPanelController_PlayerSettingsPanelLayoutSizeCheck;

@@ -44,10 +44,8 @@ namespace Org::BouncyCastle::Asn1 {
     constexpr operator ::Il2CppString*() const noexcept {
       return time;
     }
-    // Get instance field: private readonly System.String time
-    ::Il2CppString* _get_time();
-    // Set instance field: private readonly System.String time
-    void _set_time(::Il2CppString* value);
+    // Get instance field reference: private readonly System.String time
+    ::Il2CppString*& dyn_time();
     // public System.String get_TimeString()
     // Offset: 0x173ADA0
     ::Il2CppString* get_TimeString();

@@ -38,14 +38,10 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Int32 start
-    int _get_start();
-    // Set instance field: public System.Int32 start
-    void _set_start(int value);
-    // Get instance field: public System.Int32 length
-    int _get_length();
-    // Set instance field: public System.Int32 length
-    void _set_length(int value);
+    // Get instance field reference: public System.Int32 start
+    int& dyn_start();
+    // Get instance field reference: public System.Int32 length
+    int& dyn_length();
     // public System.Int32 get_end()
     // Offset: 0x1C42398
     int get_end();

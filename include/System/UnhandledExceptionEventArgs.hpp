@@ -35,14 +35,10 @@ namespace System {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: UnhandledExceptionEventArgs
     UnhandledExceptionEventArgs(::Il2CppObject* Exception_ = {}, bool IsTerminating_ = {}) noexcept : Exception{Exception_}, IsTerminating{IsTerminating_} {}
-    // Get instance field: private System.Object _Exception
-    ::Il2CppObject* _get__Exception();
-    // Set instance field: private System.Object _Exception
-    void _set__Exception(::Il2CppObject* value);
-    // Get instance field: private System.Boolean _IsTerminating
-    bool _get__IsTerminating();
-    // Set instance field: private System.Boolean _IsTerminating
-    void _set__IsTerminating(bool value);
+    // Get instance field reference: private System.Object _Exception
+    ::Il2CppObject*& dyn__Exception();
+    // Get instance field reference: private System.Boolean _IsTerminating
+    bool& dyn__IsTerminating();
     // public System.Object get_ExceptionObject()
     // Offset: 0x232FB94
     ::Il2CppObject* get_ExceptionObject();

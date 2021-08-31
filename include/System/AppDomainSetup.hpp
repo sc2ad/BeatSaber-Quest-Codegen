@@ -168,98 +168,52 @@ namespace System {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: AppDomainSetup
     AppDomainSetup(::Il2CppString* application_base_ = {}, ::Il2CppString* application_name_ = {}, ::Il2CppString* cache_path_ = {}, ::Il2CppString* configuration_file_ = {}, ::Il2CppString* dynamic_base_ = {}, ::Il2CppString* license_file_ = {}, ::Il2CppString* private_bin_path_ = {}, ::Il2CppString* private_bin_path_probe_ = {}, ::Il2CppString* shadow_copy_directories_ = {}, ::Il2CppString* shadow_copy_files_ = {}, bool publisher_policy_ = {}, bool path_changed_ = {}, int loader_optimization_ = {}, bool disallow_binding_redirects_ = {}, bool disallow_code_downloads_ = {}, ::Il2CppObject* activationArguments_ = {}, ::Il2CppObject* domain_initializer_ = {}, ::Il2CppObject* application_trust_ = {}, ::Array<::Il2CppString*>* domain_initializer_args_ = {}, bool disallow_appbase_probe_ = {}, ::Array<uint8_t>* configuration_bytes_ = {}, ::Array<uint8_t>* serialized_non_primitives_ = {}, ::Il2CppString* TargetFrameworkName_ = {}) noexcept : application_base{application_base_}, application_name{application_name_}, cache_path{cache_path_}, configuration_file{configuration_file_}, dynamic_base{dynamic_base_}, license_file{license_file_}, private_bin_path{private_bin_path_}, private_bin_path_probe{private_bin_path_probe_}, shadow_copy_directories{shadow_copy_directories_}, shadow_copy_files{shadow_copy_files_}, publisher_policy{publisher_policy_}, path_changed{path_changed_}, loader_optimization{loader_optimization_}, disallow_binding_redirects{disallow_binding_redirects_}, disallow_code_downloads{disallow_code_downloads_}, activationArguments{activationArguments_}, domain_initializer{domain_initializer_}, application_trust{application_trust_}, domain_initializer_args{domain_initializer_args_}, disallow_appbase_probe{disallow_appbase_probe_}, configuration_bytes{configuration_bytes_}, serialized_non_primitives{serialized_non_primitives_}, TargetFrameworkName{TargetFrameworkName_} {}
-    // Get instance field: private System.String application_base
-    ::Il2CppString* _get_application_base();
-    // Set instance field: private System.String application_base
-    void _set_application_base(::Il2CppString* value);
-    // Get instance field: private System.String application_name
-    ::Il2CppString* _get_application_name();
-    // Set instance field: private System.String application_name
-    void _set_application_name(::Il2CppString* value);
-    // Get instance field: private System.String cache_path
-    ::Il2CppString* _get_cache_path();
-    // Set instance field: private System.String cache_path
-    void _set_cache_path(::Il2CppString* value);
-    // Get instance field: private System.String configuration_file
-    ::Il2CppString* _get_configuration_file();
-    // Set instance field: private System.String configuration_file
-    void _set_configuration_file(::Il2CppString* value);
-    // Get instance field: private System.String dynamic_base
-    ::Il2CppString* _get_dynamic_base();
-    // Set instance field: private System.String dynamic_base
-    void _set_dynamic_base(::Il2CppString* value);
-    // Get instance field: private System.String license_file
-    ::Il2CppString* _get_license_file();
-    // Set instance field: private System.String license_file
-    void _set_license_file(::Il2CppString* value);
-    // Get instance field: private System.String private_bin_path
-    ::Il2CppString* _get_private_bin_path();
-    // Set instance field: private System.String private_bin_path
-    void _set_private_bin_path(::Il2CppString* value);
-    // Get instance field: private System.String private_bin_path_probe
-    ::Il2CppString* _get_private_bin_path_probe();
-    // Set instance field: private System.String private_bin_path_probe
-    void _set_private_bin_path_probe(::Il2CppString* value);
-    // Get instance field: private System.String shadow_copy_directories
-    ::Il2CppString* _get_shadow_copy_directories();
-    // Set instance field: private System.String shadow_copy_directories
-    void _set_shadow_copy_directories(::Il2CppString* value);
-    // Get instance field: private System.String shadow_copy_files
-    ::Il2CppString* _get_shadow_copy_files();
-    // Set instance field: private System.String shadow_copy_files
-    void _set_shadow_copy_files(::Il2CppString* value);
-    // Get instance field: private System.Boolean publisher_policy
-    bool _get_publisher_policy();
-    // Set instance field: private System.Boolean publisher_policy
-    void _set_publisher_policy(bool value);
-    // Get instance field: private System.Boolean path_changed
-    bool _get_path_changed();
-    // Set instance field: private System.Boolean path_changed
-    void _set_path_changed(bool value);
-    // Get instance field: private System.Int32 loader_optimization
-    int _get_loader_optimization();
-    // Set instance field: private System.Int32 loader_optimization
-    void _set_loader_optimization(int value);
-    // Get instance field: private System.Boolean disallow_binding_redirects
-    bool _get_disallow_binding_redirects();
-    // Set instance field: private System.Boolean disallow_binding_redirects
-    void _set_disallow_binding_redirects(bool value);
-    // Get instance field: private System.Boolean disallow_code_downloads
-    bool _get_disallow_code_downloads();
-    // Set instance field: private System.Boolean disallow_code_downloads
-    void _set_disallow_code_downloads(bool value);
-    // Get instance field: private System.Object _activationArguments
-    ::Il2CppObject* _get__activationArguments();
-    // Set instance field: private System.Object _activationArguments
-    void _set__activationArguments(::Il2CppObject* value);
-    // Get instance field: private System.Object domain_initializer
-    ::Il2CppObject* _get_domain_initializer();
-    // Set instance field: private System.Object domain_initializer
-    void _set_domain_initializer(::Il2CppObject* value);
-    // Get instance field: private System.Object application_trust
-    ::Il2CppObject* _get_application_trust();
-    // Set instance field: private System.Object application_trust
-    void _set_application_trust(::Il2CppObject* value);
-    // Get instance field: private System.String[] domain_initializer_args
-    ::Array<::Il2CppString*>* _get_domain_initializer_args();
-    // Set instance field: private System.String[] domain_initializer_args
-    void _set_domain_initializer_args(::Array<::Il2CppString*>* value);
-    // Get instance field: private System.Boolean disallow_appbase_probe
-    bool _get_disallow_appbase_probe();
-    // Set instance field: private System.Boolean disallow_appbase_probe
-    void _set_disallow_appbase_probe(bool value);
-    // Get instance field: private System.Byte[] configuration_bytes
-    ::Array<uint8_t>* _get_configuration_bytes();
-    // Set instance field: private System.Byte[] configuration_bytes
-    void _set_configuration_bytes(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] serialized_non_primitives
-    ::Array<uint8_t>* _get_serialized_non_primitives();
-    // Set instance field: private System.Byte[] serialized_non_primitives
-    void _set_serialized_non_primitives(::Array<uint8_t>* value);
-    // Get instance field: private System.String <TargetFrameworkName>k__BackingField
-    ::Il2CppString* _get_$TargetFrameworkName$k__BackingField();
-    // Set instance field: private System.String <TargetFrameworkName>k__BackingField
-    void _set_$TargetFrameworkName$k__BackingField(::Il2CppString* value);
+    // Get instance field reference: private System.String application_base
+    ::Il2CppString*& dyn_application_base();
+    // Get instance field reference: private System.String application_name
+    ::Il2CppString*& dyn_application_name();
+    // Get instance field reference: private System.String cache_path
+    ::Il2CppString*& dyn_cache_path();
+    // Get instance field reference: private System.String configuration_file
+    ::Il2CppString*& dyn_configuration_file();
+    // Get instance field reference: private System.String dynamic_base
+    ::Il2CppString*& dyn_dynamic_base();
+    // Get instance field reference: private System.String license_file
+    ::Il2CppString*& dyn_license_file();
+    // Get instance field reference: private System.String private_bin_path
+    ::Il2CppString*& dyn_private_bin_path();
+    // Get instance field reference: private System.String private_bin_path_probe
+    ::Il2CppString*& dyn_private_bin_path_probe();
+    // Get instance field reference: private System.String shadow_copy_directories
+    ::Il2CppString*& dyn_shadow_copy_directories();
+    // Get instance field reference: private System.String shadow_copy_files
+    ::Il2CppString*& dyn_shadow_copy_files();
+    // Get instance field reference: private System.Boolean publisher_policy
+    bool& dyn_publisher_policy();
+    // Get instance field reference: private System.Boolean path_changed
+    bool& dyn_path_changed();
+    // Get instance field reference: private System.Int32 loader_optimization
+    int& dyn_loader_optimization();
+    // Get instance field reference: private System.Boolean disallow_binding_redirects
+    bool& dyn_disallow_binding_redirects();
+    // Get instance field reference: private System.Boolean disallow_code_downloads
+    bool& dyn_disallow_code_downloads();
+    // Get instance field reference: private System.Object _activationArguments
+    ::Il2CppObject*& dyn__activationArguments();
+    // Get instance field reference: private System.Object domain_initializer
+    ::Il2CppObject*& dyn_domain_initializer();
+    // Get instance field reference: private System.Object application_trust
+    ::Il2CppObject*& dyn_application_trust();
+    // Get instance field reference: private System.String[] domain_initializer_args
+    ::Array<::Il2CppString*>*& dyn_domain_initializer_args();
+    // Get instance field reference: private System.Boolean disallow_appbase_probe
+    bool& dyn_disallow_appbase_probe();
+    // Get instance field reference: private System.Byte[] configuration_bytes
+    ::Array<uint8_t>*& dyn_configuration_bytes();
+    // Get instance field reference: private System.Byte[] serialized_non_primitives
+    ::Array<uint8_t>*& dyn_serialized_non_primitives();
+    // Get instance field reference: private System.String <TargetFrameworkName>k__BackingField
+    ::Il2CppString*& dyn_$TargetFrameworkName$k__BackingField();
     // public System.Void .ctor()
     // Offset: 0x17C7798
     // Implemented from: System.Object

@@ -61,30 +61,18 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Int32 SampleRateHz
-    int _get_SampleRateHz();
-    // Set instance field: public System.Int32 SampleRateHz
-    void _set_SampleRateHz(int value);
-    // Get instance field: public System.Int32 SampleSizeInBytes
-    int _get_SampleSizeInBytes();
-    // Set instance field: public System.Int32 SampleSizeInBytes
-    void _set_SampleSizeInBytes(int value);
-    // Get instance field: public System.Int32 MinimumSafeSamplesQueued
-    int _get_MinimumSafeSamplesQueued();
-    // Set instance field: public System.Int32 MinimumSafeSamplesQueued
-    void _set_MinimumSafeSamplesQueued(int value);
-    // Get instance field: public System.Int32 MinimumBufferSamplesCount
-    int _get_MinimumBufferSamplesCount();
-    // Set instance field: public System.Int32 MinimumBufferSamplesCount
-    void _set_MinimumBufferSamplesCount(int value);
-    // Get instance field: public System.Int32 OptimalBufferSamplesCount
-    int _get_OptimalBufferSamplesCount();
-    // Set instance field: public System.Int32 OptimalBufferSamplesCount
-    void _set_OptimalBufferSamplesCount(int value);
-    // Get instance field: public System.Int32 MaximumBufferSamplesCount
-    int _get_MaximumBufferSamplesCount();
-    // Set instance field: public System.Int32 MaximumBufferSamplesCount
-    void _set_MaximumBufferSamplesCount(int value);
+    // Get instance field reference: public System.Int32 SampleRateHz
+    int& dyn_SampleRateHz();
+    // Get instance field reference: public System.Int32 SampleSizeInBytes
+    int& dyn_SampleSizeInBytes();
+    // Get instance field reference: public System.Int32 MinimumSafeSamplesQueued
+    int& dyn_MinimumSafeSamplesQueued();
+    // Get instance field reference: public System.Int32 MinimumBufferSamplesCount
+    int& dyn_MinimumBufferSamplesCount();
+    // Get instance field reference: public System.Int32 OptimalBufferSamplesCount
+    int& dyn_OptimalBufferSamplesCount();
+    // Get instance field reference: public System.Int32 MaximumBufferSamplesCount
+    int& dyn_MaximumBufferSamplesCount();
   }; // OVRPlugin/HapticsDesc
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::HapticsDesc), 20 + sizeof(int)> __GlobalNamespace_OVRPlugin_HapticsDescSizeCheck;

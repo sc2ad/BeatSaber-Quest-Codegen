@@ -64,18 +64,12 @@ namespace GlobalNamespace {
     NetEaseLoginController(GlobalNamespace::MenuScenesTransitionSetupDataSO* arcadeMenuTransitionSetupData_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, GlobalNamespace::NetEaseManager* netEaseManager_ = {}) noexcept : arcadeMenuTransitionSetupData{arcadeMenuTransitionSetupData_}, gameScenesManager{gameScenesManager_}, netEaseManager{netEaseManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private MenuScenesTransitionSetupDataSO _arcadeMenuTransitionSetupData
-    GlobalNamespace::MenuScenesTransitionSetupDataSO* _get__arcadeMenuTransitionSetupData();
-    // Set instance field: private MenuScenesTransitionSetupDataSO _arcadeMenuTransitionSetupData
-    void _set__arcadeMenuTransitionSetupData(GlobalNamespace::MenuScenesTransitionSetupDataSO* value);
-    // Get instance field: private GameScenesManager _gameScenesManager
-    GlobalNamespace::GameScenesManager* _get__gameScenesManager();
-    // Set instance field: private GameScenesManager _gameScenesManager
-    void _set__gameScenesManager(GlobalNamespace::GameScenesManager* value);
-    // Get instance field: private NetEaseManager _netEaseManager
-    GlobalNamespace::NetEaseManager* _get__netEaseManager();
-    // Set instance field: private NetEaseManager _netEaseManager
-    void _set__netEaseManager(GlobalNamespace::NetEaseManager* value);
+    // Get instance field reference: private MenuScenesTransitionSetupDataSO _arcadeMenuTransitionSetupData
+    GlobalNamespace::MenuScenesTransitionSetupDataSO*& dyn__arcadeMenuTransitionSetupData();
+    // Get instance field reference: private GameScenesManager _gameScenesManager
+    GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
+    // Get instance field reference: private NetEaseManager _netEaseManager
+    GlobalNamespace::NetEaseManager*& dyn__netEaseManager();
     // protected System.Collections.IEnumerator Start()
     // Offset: 0x103FC3C
     System::Collections::IEnumerator* Start();

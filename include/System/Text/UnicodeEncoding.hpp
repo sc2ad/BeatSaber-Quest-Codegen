@@ -66,18 +66,12 @@ namespace System::Text {
     static uint64_t _get_highLowPatternMask();
     // Set static field: static private readonly System.UInt64 highLowPatternMask
     static void _set_highLowPatternMask(uint64_t value);
-    // Get instance field: System.Boolean isThrowException
-    bool _get_isThrowException();
-    // Set instance field: System.Boolean isThrowException
-    void _set_isThrowException(bool value);
-    // Get instance field: System.Boolean bigEndian
-    bool _get_bigEndian();
-    // Set instance field: System.Boolean bigEndian
-    void _set_bigEndian(bool value);
-    // Get instance field: System.Boolean byteOrderMark
-    bool _get_byteOrderMark();
-    // Set instance field: System.Boolean byteOrderMark
-    void _set_byteOrderMark(bool value);
+    // Get instance field reference: System.Boolean isThrowException
+    bool& dyn_isThrowException();
+    // Get instance field reference: System.Boolean bigEndian
+    bool& dyn_bigEndian();
+    // Get instance field reference: System.Boolean byteOrderMark
+    bool& dyn_byteOrderMark();
     // public System.Void .ctor(System.Boolean bigEndian, System.Boolean byteOrderMark)
     // Offset: 0x18ED504
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

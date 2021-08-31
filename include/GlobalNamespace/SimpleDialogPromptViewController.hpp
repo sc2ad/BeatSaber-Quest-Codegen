@@ -75,26 +75,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_1<int>*) == 0x8);
     // Creating value type constructor for type: SimpleDialogPromptViewController
     SimpleDialogPromptViewController(TMPro::TextMeshProUGUI* titleText_ = {}, TMPro::TextMeshProUGUI* messageText_ = {}, ::Array<UnityEngine::UI::Button*>* buttons_ = {}, ::Array<TMPro::TextMeshProUGUI*>* buttonTexts_ = {}, System::Action_1<int>* didFinishAction_ = {}) noexcept : titleText{titleText_}, messageText{messageText_}, buttons{buttons_}, buttonTexts{buttonTexts_}, didFinishAction{didFinishAction_} {}
-    // Get instance field: private TMPro.TextMeshProUGUI _titleText
-    TMPro::TextMeshProUGUI* _get__titleText();
-    // Set instance field: private TMPro.TextMeshProUGUI _titleText
-    void _set__titleText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _messageText
-    TMPro::TextMeshProUGUI* _get__messageText();
-    // Set instance field: private TMPro.TextMeshProUGUI _messageText
-    void _set__messageText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private UnityEngine.UI.Button[] _buttons
-    ::Array<UnityEngine::UI::Button*>* _get__buttons();
-    // Set instance field: private UnityEngine.UI.Button[] _buttons
-    void _set__buttons(::Array<UnityEngine::UI::Button*>* value);
-    // Get instance field: private TMPro.TextMeshProUGUI[] _buttonTexts
-    ::Array<TMPro::TextMeshProUGUI*>* _get__buttonTexts();
-    // Set instance field: private TMPro.TextMeshProUGUI[] _buttonTexts
-    void _set__buttonTexts(::Array<TMPro::TextMeshProUGUI*>* value);
-    // Get instance field: private System.Action`1<System.Int32> _didFinishAction
-    System::Action_1<int>* _get__didFinishAction();
-    // Set instance field: private System.Action`1<System.Int32> _didFinishAction
-    void _set__didFinishAction(System::Action_1<int>* value);
+    // Get instance field reference: private TMPro.TextMeshProUGUI _titleText
+    TMPro::TextMeshProUGUI*& dyn__titleText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _messageText
+    TMPro::TextMeshProUGUI*& dyn__messageText();
+    // Get instance field reference: private UnityEngine.UI.Button[] _buttons
+    ::Array<UnityEngine::UI::Button*>*& dyn__buttons();
+    // Get instance field reference: private TMPro.TextMeshProUGUI[] _buttonTexts
+    ::Array<TMPro::TextMeshProUGUI*>*& dyn__buttonTexts();
+    // Get instance field reference: private System.Action`1<System.Int32> _didFinishAction
+    System::Action_1<int>*& dyn__didFinishAction();
     // public System.Void Init(System.String title, System.String message, System.String buttonText, System.Action`1<System.Int32> didFinishAction)
     // Offset: 0x107A2EC
     void Init(::Il2CppString* title, ::Il2CppString* message, ::Il2CppString* buttonText, System::Action_1<int>* didFinishAction);

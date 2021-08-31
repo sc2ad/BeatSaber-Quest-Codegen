@@ -77,30 +77,18 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: InternalOp
     InternalOp(UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider* m_Provider_ = {}, UnityEngine::Networking::UnityWebRequestAsyncOperation* m_RequestOperation_ = {}, UnityEngine::ResourceManagement::WebRequestQueueOperation* m_RequestQueueOperation_ = {}, UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_PI_ = {}, bool m_IgnoreFailures_ = {}, bool m_Complete_ = {}) noexcept : m_Provider{m_Provider_}, m_RequestOperation{m_RequestOperation_}, m_RequestQueueOperation{m_RequestQueueOperation_}, m_PI{m_PI_}, m_IgnoreFailures{m_IgnoreFailures_}, m_Complete{m_Complete_} {}
-    // Get instance field: private UnityEngine.ResourceManagement.ResourceProviders.TextDataProvider m_Provider
-    UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider* _get_m_Provider();
-    // Set instance field: private UnityEngine.ResourceManagement.ResourceProviders.TextDataProvider m_Provider
-    void _set_m_Provider(UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider* value);
-    // Get instance field: private UnityEngine.Networking.UnityWebRequestAsyncOperation m_RequestOperation
-    UnityEngine::Networking::UnityWebRequestAsyncOperation* _get_m_RequestOperation();
-    // Set instance field: private UnityEngine.Networking.UnityWebRequestAsyncOperation m_RequestOperation
-    void _set_m_RequestOperation(UnityEngine::Networking::UnityWebRequestAsyncOperation* value);
-    // Get instance field: private UnityEngine.ResourceManagement.WebRequestQueueOperation m_RequestQueueOperation
-    UnityEngine::ResourceManagement::WebRequestQueueOperation* _get_m_RequestQueueOperation();
-    // Set instance field: private UnityEngine.ResourceManagement.WebRequestQueueOperation m_RequestQueueOperation
-    void _set_m_RequestQueueOperation(UnityEngine::ResourceManagement::WebRequestQueueOperation* value);
-    // Get instance field: private UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle m_PI
-    UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle _get_m_PI();
-    // Set instance field: private UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle m_PI
-    void _set_m_PI(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle value);
-    // Get instance field: private System.Boolean m_IgnoreFailures
-    bool _get_m_IgnoreFailures();
-    // Set instance field: private System.Boolean m_IgnoreFailures
-    void _set_m_IgnoreFailures(bool value);
-    // Get instance field: private System.Boolean m_Complete
-    bool _get_m_Complete();
-    // Set instance field: private System.Boolean m_Complete
-    void _set_m_Complete(bool value);
+    // Get instance field reference: private UnityEngine.ResourceManagement.ResourceProviders.TextDataProvider m_Provider
+    UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*& dyn_m_Provider();
+    // Get instance field reference: private UnityEngine.Networking.UnityWebRequestAsyncOperation m_RequestOperation
+    UnityEngine::Networking::UnityWebRequestAsyncOperation*& dyn_m_RequestOperation();
+    // Get instance field reference: private UnityEngine.ResourceManagement.WebRequestQueueOperation m_RequestQueueOperation
+    UnityEngine::ResourceManagement::WebRequestQueueOperation*& dyn_m_RequestQueueOperation();
+    // Get instance field reference: private UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle m_PI
+    UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& dyn_m_PI();
+    // Get instance field reference: private System.Boolean m_IgnoreFailures
+    bool& dyn_m_IgnoreFailures();
+    // Get instance field reference: private System.Boolean m_Complete
+    bool& dyn_m_Complete();
     // private System.Single GetPercentComplete()
     // Offset: 0x19F2D98
     float GetPercentComplete();

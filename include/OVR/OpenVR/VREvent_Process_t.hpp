@@ -40,18 +40,12 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.UInt32 pid
-    uint _get_pid();
-    // Set instance field: public System.UInt32 pid
-    void _set_pid(uint value);
-    // Get instance field: public System.UInt32 oldPid
-    uint _get_oldPid();
-    // Set instance field: public System.UInt32 oldPid
-    void _set_oldPid(uint value);
-    // Get instance field: public System.Boolean bForced
-    bool _get_bForced();
-    // Set instance field: public System.Boolean bForced
-    void _set_bForced(bool value);
+    // Get instance field reference: public System.UInt32 pid
+    uint& dyn_pid();
+    // Get instance field reference: public System.UInt32 oldPid
+    uint& dyn_oldPid();
+    // Get instance field reference: public System.Boolean bForced
+    bool& dyn_bForced();
   }; // OVR.OpenVR.VREvent_Process_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Process_t), 8 + sizeof(bool)> __OVR_OpenVR_VREvent_Process_tSizeCheck;

@@ -35,10 +35,8 @@ namespace UnityEngine::Timeline {
     constexpr operator UnityEngine::Color() const noexcept {
       return m_Color;
     }
-    // Get instance field: private UnityEngine.Color m_Color
-    UnityEngine::Color _get_m_Color();
-    // Set instance field: private UnityEngine.Color m_Color
-    void _set_m_Color(UnityEngine::Color value);
+    // Get instance field reference: private UnityEngine.Color m_Color
+    UnityEngine::Color& dyn_m_Color();
     // public UnityEngine.Color get_color()
     // Offset: 0x2376774
     UnityEngine::Color get_color();

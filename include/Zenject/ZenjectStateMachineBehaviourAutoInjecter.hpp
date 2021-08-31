@@ -48,14 +48,10 @@ namespace Zenject {
     ZenjectStateMachineBehaviourAutoInjecter(Zenject::DiContainer* container_ = {}, UnityEngine::Animator* animator_ = {}) noexcept : container{container_}, animator{animator_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private Zenject.DiContainer _container
-    Zenject::DiContainer* _get__container();
-    // Set instance field: private Zenject.DiContainer _container
-    void _set__container(Zenject::DiContainer* value);
-    // Get instance field: private UnityEngine.Animator _animator
-    UnityEngine::Animator* _get__animator();
-    // Set instance field: private UnityEngine.Animator _animator
-    void _set__animator(UnityEngine::Animator* value);
+    // Get instance field reference: private Zenject.DiContainer _container
+    Zenject::DiContainer*& dyn__container();
+    // Get instance field reference: private UnityEngine.Animator _animator
+    UnityEngine::Animator*& dyn__animator();
     // public System.Void Construct(Zenject.DiContainer container)
     // Offset: 0x23E8094
     void Construct(Zenject::DiContainer* container);

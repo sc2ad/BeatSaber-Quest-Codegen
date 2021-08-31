@@ -53,10 +53,8 @@ namespace System::ComponentModel {
     static System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* _get_s_ErrorMessage();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Int32,System.String> s_ErrorMessage
     static void _set_s_ErrorMessage(System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* value);
-    // Get instance field: private readonly System.Int32 nativeErrorCode
-    int _get_nativeErrorCode();
-    // Set instance field: private readonly System.Int32 nativeErrorCode
-    void _set_nativeErrorCode(int value);
+    // Get instance field reference: private readonly System.Int32 nativeErrorCode
+    int& dyn_nativeErrorCode();
     // public System.Int32 get_NativeErrorCode()
     // Offset: 0x18AFC90
     int get_NativeErrorCode();

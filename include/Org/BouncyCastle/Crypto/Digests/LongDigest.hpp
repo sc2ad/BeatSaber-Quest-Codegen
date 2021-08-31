@@ -130,66 +130,36 @@ namespace Org::BouncyCastle::Crypto::Digests {
     static ::Array<uint64_t>* _get_K();
     // Set static field: static readonly System.UInt64[] K
     static void _set_K(::Array<uint64_t>* value);
-    // Get instance field: private System.Int32 MyByteLength
-    int _get_MyByteLength();
-    // Set instance field: private System.Int32 MyByteLength
-    void _set_MyByteLength(int value);
-    // Get instance field: private System.Byte[] xBuf
-    ::Array<uint8_t>* _get_xBuf();
-    // Set instance field: private System.Byte[] xBuf
-    void _set_xBuf(::Array<uint8_t>* value);
-    // Get instance field: private System.Int32 xBufOff
-    int _get_xBufOff();
-    // Set instance field: private System.Int32 xBufOff
-    void _set_xBufOff(int value);
-    // Get instance field: private System.Int64 byteCount1
-    int64_t _get_byteCount1();
-    // Set instance field: private System.Int64 byteCount1
-    void _set_byteCount1(int64_t value);
-    // Get instance field: private System.Int64 byteCount2
-    int64_t _get_byteCount2();
-    // Set instance field: private System.Int64 byteCount2
-    void _set_byteCount2(int64_t value);
-    // Get instance field: System.UInt64 H1
-    uint64_t _get_H1();
-    // Set instance field: System.UInt64 H1
-    void _set_H1(uint64_t value);
-    // Get instance field: System.UInt64 H2
-    uint64_t _get_H2();
-    // Set instance field: System.UInt64 H2
-    void _set_H2(uint64_t value);
-    // Get instance field: System.UInt64 H3
-    uint64_t _get_H3();
-    // Set instance field: System.UInt64 H3
-    void _set_H3(uint64_t value);
-    // Get instance field: System.UInt64 H4
-    uint64_t _get_H4();
-    // Set instance field: System.UInt64 H4
-    void _set_H4(uint64_t value);
-    // Get instance field: System.UInt64 H5
-    uint64_t _get_H5();
-    // Set instance field: System.UInt64 H5
-    void _set_H5(uint64_t value);
-    // Get instance field: System.UInt64 H6
-    uint64_t _get_H6();
-    // Set instance field: System.UInt64 H6
-    void _set_H6(uint64_t value);
-    // Get instance field: System.UInt64 H7
-    uint64_t _get_H7();
-    // Set instance field: System.UInt64 H7
-    void _set_H7(uint64_t value);
-    // Get instance field: System.UInt64 H8
-    uint64_t _get_H8();
-    // Set instance field: System.UInt64 H8
-    void _set_H8(uint64_t value);
-    // Get instance field: private System.UInt64[] W
-    ::Array<uint64_t>* _get_W();
-    // Set instance field: private System.UInt64[] W
-    void _set_W(::Array<uint64_t>* value);
-    // Get instance field: private System.Int32 wOff
-    int _get_wOff();
-    // Set instance field: private System.Int32 wOff
-    void _set_wOff(int value);
+    // Get instance field reference: private System.Int32 MyByteLength
+    int& dyn_MyByteLength();
+    // Get instance field reference: private System.Byte[] xBuf
+    ::Array<uint8_t>*& dyn_xBuf();
+    // Get instance field reference: private System.Int32 xBufOff
+    int& dyn_xBufOff();
+    // Get instance field reference: private System.Int64 byteCount1
+    int64_t& dyn_byteCount1();
+    // Get instance field reference: private System.Int64 byteCount2
+    int64_t& dyn_byteCount2();
+    // Get instance field reference: System.UInt64 H1
+    uint64_t& dyn_H1();
+    // Get instance field reference: System.UInt64 H2
+    uint64_t& dyn_H2();
+    // Get instance field reference: System.UInt64 H3
+    uint64_t& dyn_H3();
+    // Get instance field reference: System.UInt64 H4
+    uint64_t& dyn_H4();
+    // Get instance field reference: System.UInt64 H5
+    uint64_t& dyn_H5();
+    // Get instance field reference: System.UInt64 H6
+    uint64_t& dyn_H6();
+    // Get instance field reference: System.UInt64 H7
+    uint64_t& dyn_H7();
+    // Get instance field reference: System.UInt64 H8
+    uint64_t& dyn_H8();
+    // Get instance field reference: private System.UInt64[] W
+    ::Array<uint64_t>*& dyn_W();
+    // Get instance field reference: private System.Int32 wOff
+    int& dyn_wOff();
     // public System.String get_AlgorithmName()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_AlgorithmName();

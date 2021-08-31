@@ -81,22 +81,14 @@ namespace System::Resources {
     static int _get_Version();
     // Set static field: static System.Int32 Version
     static void _set_Version(int value);
-    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceLocator> _resCache
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>* _get__resCache();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceLocator> _resCache
-    void _set__resCache(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>* value);
-    // Get instance field: private System.Resources.ResourceReader _defaultReader
-    System::Resources::ResourceReader* _get__defaultReader();
-    // Set instance field: private System.Resources.ResourceReader _defaultReader
-    void _set__defaultReader(System::Resources::ResourceReader* value);
-    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceLocator> _caseInsensitiveTable
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>* _get__caseInsensitiveTable();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceLocator> _caseInsensitiveTable
-    void _set__caseInsensitiveTable(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>* value);
-    // Get instance field: private System.Boolean _haveReadFromReader
-    bool _get__haveReadFromReader();
-    // Set instance field: private System.Boolean _haveReadFromReader
-    void _set__haveReadFromReader(bool value);
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceLocator> _resCache
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>*& dyn__resCache();
+    // Get instance field reference: private System.Resources.ResourceReader _defaultReader
+    System::Resources::ResourceReader*& dyn__defaultReader();
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceLocator> _caseInsensitiveTable
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>*& dyn__caseInsensitiveTable();
+    // Get instance field reference: private System.Boolean _haveReadFromReader
+    bool& dyn__haveReadFromReader();
     // System.Void .ctor(System.String fileName)
     // Offset: 0x14844B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

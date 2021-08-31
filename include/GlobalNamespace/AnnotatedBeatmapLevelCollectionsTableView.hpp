@@ -134,50 +134,28 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private HMUI.TableView _tableView
-    HMUI::TableView* _get__tableView();
-    // Set instance field: private HMUI.TableView _tableView
-    void _set__tableView(HMUI::TableView* value);
-    // Get instance field: private AnnotatedBeatmapLevelCollectionTableCell _cellPrefab
-    GlobalNamespace::AnnotatedBeatmapLevelCollectionTableCell* _get__cellPrefab();
-    // Set instance field: private AnnotatedBeatmapLevelCollectionTableCell _cellPrefab
-    void _set__cellPrefab(GlobalNamespace::AnnotatedBeatmapLevelCollectionTableCell* value);
-    // Get instance field: private System.String _cellReuseIdentifier
-    ::Il2CppString* _get__cellReuseIdentifier();
-    // Set instance field: private System.String _cellReuseIdentifier
-    void _set__cellReuseIdentifier(::Il2CppString* value);
-    // Get instance field: private System.Single _cellWidth
-    float _get__cellWidth();
-    // Set instance field: private System.Single _cellWidth
-    void _set__cellWidth(float value);
-    // Get instance field: private System.String[] _promoPackIDStrings
-    ::Array<::Il2CppString*>* _get__promoPackIDStrings();
-    // Set instance field: private System.String[] _promoPackIDStrings
-    void _set__promoPackIDStrings(::Array<::Il2CppString*>* value);
-    // Get instance field: private readonly AdditionalContentModel _additionalContentModel
-    GlobalNamespace::AdditionalContentModel* _get__additionalContentModel();
-    // Set instance field: private readonly AdditionalContentModel _additionalContentModel
-    void _set__additionalContentModel(GlobalNamespace::AdditionalContentModel* value);
-    // Get instance field: private System.Action`2<AnnotatedBeatmapLevelCollectionsTableView,IAnnotatedBeatmapLevelCollection> didSelectAnnotatedBeatmapLevelCollectionEvent
-    System::Action_2<GlobalNamespace::AnnotatedBeatmapLevelCollectionsTableView*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* _get_didSelectAnnotatedBeatmapLevelCollectionEvent();
-    // Set instance field: private System.Action`2<AnnotatedBeatmapLevelCollectionsTableView,IAnnotatedBeatmapLevelCollection> didSelectAnnotatedBeatmapLevelCollectionEvent
-    void _set_didSelectAnnotatedBeatmapLevelCollectionEvent(System::Action_2<GlobalNamespace::AnnotatedBeatmapLevelCollectionsTableView*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* value);
-    // Get instance field: private System.Collections.Generic.HashSet`1<System.String> _promoPackIDs
-    System::Collections::Generic::HashSet_1<::Il2CppString*>* _get__promoPackIDs();
-    // Set instance field: private System.Collections.Generic.HashSet`1<System.String> _promoPackIDs
-    void _set__promoPackIDs(System::Collections::Generic::HashSet_1<::Il2CppString*>* value);
-    // Get instance field: private System.Collections.Generic.IReadOnlyList`1<IAnnotatedBeatmapLevelCollection> _annotatedBeatmapLevelCollections
-    System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* _get__annotatedBeatmapLevelCollections();
-    // Set instance field: private System.Collections.Generic.IReadOnlyList`1<IAnnotatedBeatmapLevelCollection> _annotatedBeatmapLevelCollections
-    void _set__annotatedBeatmapLevelCollections(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* value);
-    // Get instance field: private System.Boolean _isInitialized
-    bool _get__isInitialized();
-    // Set instance field: private System.Boolean _isInitialized
-    void _set__isInitialized(bool value);
-    // Get instance field: private System.Int32 _selectedColumn
-    int _get__selectedColumn();
-    // Set instance field: private System.Int32 _selectedColumn
-    void _set__selectedColumn(int value);
+    // Get instance field reference: private HMUI.TableView _tableView
+    HMUI::TableView*& dyn__tableView();
+    // Get instance field reference: private AnnotatedBeatmapLevelCollectionTableCell _cellPrefab
+    GlobalNamespace::AnnotatedBeatmapLevelCollectionTableCell*& dyn__cellPrefab();
+    // Get instance field reference: private System.String _cellReuseIdentifier
+    ::Il2CppString*& dyn__cellReuseIdentifier();
+    // Get instance field reference: private System.Single _cellWidth
+    float& dyn__cellWidth();
+    // Get instance field reference: private System.String[] _promoPackIDStrings
+    ::Array<::Il2CppString*>*& dyn__promoPackIDStrings();
+    // Get instance field reference: private readonly AdditionalContentModel _additionalContentModel
+    GlobalNamespace::AdditionalContentModel*& dyn__additionalContentModel();
+    // Get instance field reference: private System.Action`2<AnnotatedBeatmapLevelCollectionsTableView,IAnnotatedBeatmapLevelCollection> didSelectAnnotatedBeatmapLevelCollectionEvent
+    System::Action_2<GlobalNamespace::AnnotatedBeatmapLevelCollectionsTableView*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*>*& dyn_didSelectAnnotatedBeatmapLevelCollectionEvent();
+    // Get instance field reference: private System.Collections.Generic.HashSet`1<System.String> _promoPackIDs
+    System::Collections::Generic::HashSet_1<::Il2CppString*>*& dyn__promoPackIDs();
+    // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<IAnnotatedBeatmapLevelCollection> _annotatedBeatmapLevelCollections
+    System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>*& dyn__annotatedBeatmapLevelCollections();
+    // Get instance field reference: private System.Boolean _isInitialized
+    bool& dyn__isInitialized();
+    // Get instance field reference: private System.Int32 _selectedColumn
+    int& dyn__selectedColumn();
     // public System.Void add_didSelectAnnotatedBeatmapLevelCollectionEvent(System.Action`2<AnnotatedBeatmapLevelCollectionsTableView,IAnnotatedBeatmapLevelCollection> value)
     // Offset: 0x117A198
     void add_didSelectAnnotatedBeatmapLevelCollectionEvent(System::Action_2<GlobalNamespace::AnnotatedBeatmapLevelCollectionsTableView*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* value);

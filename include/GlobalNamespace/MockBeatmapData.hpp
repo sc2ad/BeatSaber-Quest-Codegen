@@ -65,30 +65,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<GlobalNamespace::MockObstacleData*>*) == 0x8);
     // Creating value type constructor for type: MockBeatmapData
     MockBeatmapData(int numberOfLines_ = {}, float songEndTime_ = {}, ::Array<GlobalNamespace::MockNoteData*>* leftNotes_ = {}, ::Array<GlobalNamespace::MockNoteData*>* rightNotes_ = {}, ::Array<GlobalNamespace::MockNoteData*>* bombNotes_ = {}, ::Array<GlobalNamespace::MockObstacleData*>* obstacles_ = {}) noexcept : numberOfLines{numberOfLines_}, songEndTime{songEndTime_}, leftNotes{leftNotes_}, rightNotes{rightNotes_}, bombNotes{bombNotes_}, obstacles{obstacles_} {}
-    // Get instance field: private System.Int32 <numberOfLines>k__BackingField
-    int _get_$numberOfLines$k__BackingField();
-    // Set instance field: private System.Int32 <numberOfLines>k__BackingField
-    void _set_$numberOfLines$k__BackingField(int value);
-    // Get instance field: private System.Single <songEndTime>k__BackingField
-    float _get_$songEndTime$k__BackingField();
-    // Set instance field: private System.Single <songEndTime>k__BackingField
-    void _set_$songEndTime$k__BackingField(float value);
-    // Get instance field: private MockNoteData[] <leftNotes>k__BackingField
-    ::Array<GlobalNamespace::MockNoteData*>* _get_$leftNotes$k__BackingField();
-    // Set instance field: private MockNoteData[] <leftNotes>k__BackingField
-    void _set_$leftNotes$k__BackingField(::Array<GlobalNamespace::MockNoteData*>* value);
-    // Get instance field: private MockNoteData[] <rightNotes>k__BackingField
-    ::Array<GlobalNamespace::MockNoteData*>* _get_$rightNotes$k__BackingField();
-    // Set instance field: private MockNoteData[] <rightNotes>k__BackingField
-    void _set_$rightNotes$k__BackingField(::Array<GlobalNamespace::MockNoteData*>* value);
-    // Get instance field: private MockNoteData[] <bombNotes>k__BackingField
-    ::Array<GlobalNamespace::MockNoteData*>* _get_$bombNotes$k__BackingField();
-    // Set instance field: private MockNoteData[] <bombNotes>k__BackingField
-    void _set_$bombNotes$k__BackingField(::Array<GlobalNamespace::MockNoteData*>* value);
-    // Get instance field: private MockObstacleData[] <obstacles>k__BackingField
-    ::Array<GlobalNamespace::MockObstacleData*>* _get_$obstacles$k__BackingField();
-    // Set instance field: private MockObstacleData[] <obstacles>k__BackingField
-    void _set_$obstacles$k__BackingField(::Array<GlobalNamespace::MockObstacleData*>* value);
+    // Get instance field reference: private System.Int32 <numberOfLines>k__BackingField
+    int& dyn_$numberOfLines$k__BackingField();
+    // Get instance field reference: private System.Single <songEndTime>k__BackingField
+    float& dyn_$songEndTime$k__BackingField();
+    // Get instance field reference: private MockNoteData[] <leftNotes>k__BackingField
+    ::Array<GlobalNamespace::MockNoteData*>*& dyn_$leftNotes$k__BackingField();
+    // Get instance field reference: private MockNoteData[] <rightNotes>k__BackingField
+    ::Array<GlobalNamespace::MockNoteData*>*& dyn_$rightNotes$k__BackingField();
+    // Get instance field reference: private MockNoteData[] <bombNotes>k__BackingField
+    ::Array<GlobalNamespace::MockNoteData*>*& dyn_$bombNotes$k__BackingField();
+    // Get instance field reference: private MockObstacleData[] <obstacles>k__BackingField
+    ::Array<GlobalNamespace::MockObstacleData*>*& dyn_$obstacles$k__BackingField();
     // public System.Int32 get_numberOfLines()
     // Offset: 0x23E0790
     int get_numberOfLines();

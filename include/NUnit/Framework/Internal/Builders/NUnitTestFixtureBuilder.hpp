@@ -56,10 +56,8 @@ namespace NUnit::Framework::Internal::Builders {
     static ::Il2CppString* _get_NO_TYPE_ARGS_MSG();
     // Set static field: static private readonly System.String NO_TYPE_ARGS_MSG
     static void _set_NO_TYPE_ARGS_MSG(::Il2CppString* value);
-    // Get instance field: private NUnit.Framework.Interfaces.ITestCaseBuilder _testBuilder
-    NUnit::Framework::Interfaces::ITestCaseBuilder* _get__testBuilder();
-    // Set instance field: private NUnit.Framework.Interfaces.ITestCaseBuilder _testBuilder
-    void _set__testBuilder(NUnit::Framework::Interfaces::ITestCaseBuilder* value);
+    // Get instance field reference: private NUnit.Framework.Interfaces.ITestCaseBuilder _testBuilder
+    NUnit::Framework::Interfaces::ITestCaseBuilder*& dyn__testBuilder();
     // static private System.Void .cctor()
     // Offset: 0x1775F68
     static void _cctor();

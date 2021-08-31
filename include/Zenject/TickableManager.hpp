@@ -131,46 +131,26 @@ namespace Zenject {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: TickableManager
     TickableManager(System::Collections::Generic::List_1<Zenject::ITickable*>* tickables_ = {}, System::Collections::Generic::List_1<Zenject::IFixedTickable*>* fixedTickables_ = {}, System::Collections::Generic::List_1<Zenject::ILateTickable*>* lateTickables_ = {}, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* priorities_ = {}, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* fixedPriorities_ = {}, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* latePriorities_ = {}, Zenject::TickablesTaskUpdater* updater_ = {}, Zenject::FixedTickablesTaskUpdater* fixedUpdater_ = {}, Zenject::LateTickablesTaskUpdater* lateUpdater_ = {}, bool isPaused_ = {}) noexcept : tickables{tickables_}, fixedTickables{fixedTickables_}, lateTickables{lateTickables_}, priorities{priorities_}, fixedPriorities{fixedPriorities_}, latePriorities{latePriorities_}, updater{updater_}, fixedUpdater{fixedUpdater_}, lateUpdater{lateUpdater_}, isPaused{isPaused_} {}
-    // Get instance field: private readonly System.Collections.Generic.List`1<Zenject.ITickable> _tickables
-    System::Collections::Generic::List_1<Zenject::ITickable*>* _get__tickables();
-    // Set instance field: private readonly System.Collections.Generic.List`1<Zenject.ITickable> _tickables
-    void _set__tickables(System::Collections::Generic::List_1<Zenject::ITickable*>* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<Zenject.IFixedTickable> _fixedTickables
-    System::Collections::Generic::List_1<Zenject::IFixedTickable*>* _get__fixedTickables();
-    // Set instance field: private readonly System.Collections.Generic.List`1<Zenject.IFixedTickable> _fixedTickables
-    void _set__fixedTickables(System::Collections::Generic::List_1<Zenject::IFixedTickable*>* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<Zenject.ILateTickable> _lateTickables
-    System::Collections::Generic::List_1<Zenject::ILateTickable*>* _get__lateTickables();
-    // Set instance field: private readonly System.Collections.Generic.List`1<Zenject.ILateTickable> _lateTickables
-    void _set__lateTickables(System::Collections::Generic::List_1<Zenject::ILateTickable*>* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> _priorities
-    System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* _get__priorities();
-    // Set instance field: private readonly System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> _priorities
-    void _set__priorities(System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> _fixedPriorities
-    System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* _get__fixedPriorities();
-    // Set instance field: private readonly System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> _fixedPriorities
-    void _set__fixedPriorities(System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> _latePriorities
-    System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* _get__latePriorities();
-    // Set instance field: private readonly System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> _latePriorities
-    void _set__latePriorities(System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* value);
-    // Get instance field: private readonly Zenject.TickablesTaskUpdater _updater
-    Zenject::TickablesTaskUpdater* _get__updater();
-    // Set instance field: private readonly Zenject.TickablesTaskUpdater _updater
-    void _set__updater(Zenject::TickablesTaskUpdater* value);
-    // Get instance field: private readonly Zenject.FixedTickablesTaskUpdater _fixedUpdater
-    Zenject::FixedTickablesTaskUpdater* _get__fixedUpdater();
-    // Set instance field: private readonly Zenject.FixedTickablesTaskUpdater _fixedUpdater
-    void _set__fixedUpdater(Zenject::FixedTickablesTaskUpdater* value);
-    // Get instance field: private readonly Zenject.LateTickablesTaskUpdater _lateUpdater
-    Zenject::LateTickablesTaskUpdater* _get__lateUpdater();
-    // Set instance field: private readonly Zenject.LateTickablesTaskUpdater _lateUpdater
-    void _set__lateUpdater(Zenject::LateTickablesTaskUpdater* value);
-    // Get instance field: private System.Boolean _isPaused
-    bool _get__isPaused();
-    // Set instance field: private System.Boolean _isPaused
-    void _set__isPaused(bool value);
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.ITickable> _tickables
+    System::Collections::Generic::List_1<Zenject::ITickable*>*& dyn__tickables();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.IFixedTickable> _fixedTickables
+    System::Collections::Generic::List_1<Zenject::IFixedTickable*>*& dyn__fixedTickables();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.ILateTickable> _lateTickables
+    System::Collections::Generic::List_1<Zenject::ILateTickable*>*& dyn__lateTickables();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> _priorities
+    System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*& dyn__priorities();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> _fixedPriorities
+    System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*& dyn__fixedPriorities();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> _latePriorities
+    System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*& dyn__latePriorities();
+    // Get instance field reference: private readonly Zenject.TickablesTaskUpdater _updater
+    Zenject::TickablesTaskUpdater*& dyn__updater();
+    // Get instance field reference: private readonly Zenject.FixedTickablesTaskUpdater _fixedUpdater
+    Zenject::FixedTickablesTaskUpdater*& dyn__fixedUpdater();
+    // Get instance field reference: private readonly Zenject.LateTickablesTaskUpdater _lateUpdater
+    Zenject::LateTickablesTaskUpdater*& dyn__lateUpdater();
+    // Get instance field reference: private System.Boolean _isPaused
+    bool& dyn__isPaused();
     // public System.Collections.Generic.IEnumerable`1<Zenject.ITickable> get_Tickables()
     // Offset: 0x17225EC
     System::Collections::Generic::IEnumerable_1<Zenject::ITickable*>* get_Tickables();

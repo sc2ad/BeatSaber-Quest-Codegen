@@ -71,34 +71,20 @@ namespace System::Runtime::Remoting {
     static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
     // Creating value type constructor for type: ChannelData
     ChannelData(::Il2CppString* Ref_ = {}, ::Il2CppString* Type_ = {}, ::Il2CppString* Id_ = {}, ::Il2CppString* DelayLoadAsClientChannel_ = {}, System::Collections::ArrayList* serverProviders_ = {}, System::Collections::ArrayList* clientProviders_ = {}, System::Collections::Hashtable* customProperties_ = {}) noexcept : Ref{Ref_}, Type{Type_}, Id{Id_}, DelayLoadAsClientChannel{DelayLoadAsClientChannel_}, serverProviders{serverProviders_}, clientProviders{clientProviders_}, customProperties{customProperties_} {}
-    // Get instance field: System.String Ref
-    ::Il2CppString* _get_Ref();
-    // Set instance field: System.String Ref
-    void _set_Ref(::Il2CppString* value);
-    // Get instance field: System.String Type
-    ::Il2CppString* _get_Type();
-    // Set instance field: System.String Type
-    void _set_Type(::Il2CppString* value);
-    // Get instance field: System.String Id
-    ::Il2CppString* _get_Id();
-    // Set instance field: System.String Id
-    void _set_Id(::Il2CppString* value);
-    // Get instance field: System.String DelayLoadAsClientChannel
-    ::Il2CppString* _get_DelayLoadAsClientChannel();
-    // Set instance field: System.String DelayLoadAsClientChannel
-    void _set_DelayLoadAsClientChannel(::Il2CppString* value);
-    // Get instance field: private System.Collections.ArrayList _serverProviders
-    System::Collections::ArrayList* _get__serverProviders();
-    // Set instance field: private System.Collections.ArrayList _serverProviders
-    void _set__serverProviders(System::Collections::ArrayList* value);
-    // Get instance field: private System.Collections.ArrayList _clientProviders
-    System::Collections::ArrayList* _get__clientProviders();
-    // Set instance field: private System.Collections.ArrayList _clientProviders
-    void _set__clientProviders(System::Collections::ArrayList* value);
-    // Get instance field: private System.Collections.Hashtable _customProperties
-    System::Collections::Hashtable* _get__customProperties();
-    // Set instance field: private System.Collections.Hashtable _customProperties
-    void _set__customProperties(System::Collections::Hashtable* value);
+    // Get instance field reference: System.String Ref
+    ::Il2CppString*& dyn_Ref();
+    // Get instance field reference: System.String Type
+    ::Il2CppString*& dyn_Type();
+    // Get instance field reference: System.String Id
+    ::Il2CppString*& dyn_Id();
+    // Get instance field reference: System.String DelayLoadAsClientChannel
+    ::Il2CppString*& dyn_DelayLoadAsClientChannel();
+    // Get instance field reference: private System.Collections.ArrayList _serverProviders
+    System::Collections::ArrayList*& dyn__serverProviders();
+    // Get instance field reference: private System.Collections.ArrayList _clientProviders
+    System::Collections::ArrayList*& dyn__clientProviders();
+    // Get instance field reference: private System.Collections.Hashtable _customProperties
+    System::Collections::Hashtable*& dyn__customProperties();
     // System.Collections.ArrayList get_ServerProviders()
     // Offset: 0x148C94C
     System::Collections::ArrayList* get_ServerProviders();

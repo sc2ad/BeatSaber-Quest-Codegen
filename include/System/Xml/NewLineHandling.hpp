@@ -50,10 +50,8 @@ namespace System::Xml {
     static System::Xml::NewLineHandling _get_None();
     // Set static field: static public System.Xml.NewLineHandling None
     static void _set_None(System::Xml::NewLineHandling value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Xml.NewLineHandling
   #pragma pack(pop)
   static check_size<sizeof(NewLineHandling), 0 + sizeof(int)> __System_Xml_NewLineHandlingSizeCheck;

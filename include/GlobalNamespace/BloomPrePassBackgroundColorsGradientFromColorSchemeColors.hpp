@@ -59,22 +59,14 @@ namespace GlobalNamespace {
     BloomPrePassBackgroundColorsGradientFromColorSchemeColors(GlobalNamespace::BloomPrePassBackgroundColorsGradient* bloomPrePassBackgroundColorsGradient_ = {}, float skyColorIntensity_ = {}, float groundColorIntensity_ = {}, GlobalNamespace::EnvironmentColorManager* colorManager_ = {}) noexcept : bloomPrePassBackgroundColorsGradient{bloomPrePassBackgroundColorsGradient_}, skyColorIntensity{skyColorIntensity_}, groundColorIntensity{groundColorIntensity_}, colorManager{colorManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private BloomPrePassBackgroundColorsGradient _bloomPrePassBackgroundColorsGradient
-    GlobalNamespace::BloomPrePassBackgroundColorsGradient* _get__bloomPrePassBackgroundColorsGradient();
-    // Set instance field: private BloomPrePassBackgroundColorsGradient _bloomPrePassBackgroundColorsGradient
-    void _set__bloomPrePassBackgroundColorsGradient(GlobalNamespace::BloomPrePassBackgroundColorsGradient* value);
-    // Get instance field: private System.Single _skyColorIntensity
-    float _get__skyColorIntensity();
-    // Set instance field: private System.Single _skyColorIntensity
-    void _set__skyColorIntensity(float value);
-    // Get instance field: private System.Single _groundColorIntensity
-    float _get__groundColorIntensity();
-    // Set instance field: private System.Single _groundColorIntensity
-    void _set__groundColorIntensity(float value);
-    // Get instance field: private readonly EnvironmentColorManager _colorManager
-    GlobalNamespace::EnvironmentColorManager* _get__colorManager();
-    // Set instance field: private readonly EnvironmentColorManager _colorManager
-    void _set__colorManager(GlobalNamespace::EnvironmentColorManager* value);
+    // Get instance field reference: private BloomPrePassBackgroundColorsGradient _bloomPrePassBackgroundColorsGradient
+    GlobalNamespace::BloomPrePassBackgroundColorsGradient*& dyn__bloomPrePassBackgroundColorsGradient();
+    // Get instance field reference: private System.Single _skyColorIntensity
+    float& dyn__skyColorIntensity();
+    // Get instance field reference: private System.Single _groundColorIntensity
+    float& dyn__groundColorIntensity();
+    // Get instance field reference: private readonly EnvironmentColorManager _colorManager
+    GlobalNamespace::EnvironmentColorManager*& dyn__colorManager();
     // protected System.Void Start()
     // Offset: 0x10D18C0
     void Start();

@@ -113,42 +113,24 @@ namespace GlobalNamespace {
     MultiplayerConnectedPlayerFacade(UnityEngine::GameObject* outroAnimator_ = {}, GlobalNamespace::MultiplayerBigAvatarAnimator* bigAvatarAnimator_ = {}, float bigAvatarDisappearDuration_ = {}, Tweening::EaseType bigAvatarDisappearEasing_ = {}, GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController* songTimeSyncController_ = {}, GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator* introAnimator_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText* scoreDiffText_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}) noexcept : outroAnimator{outroAnimator_}, bigAvatarAnimator{bigAvatarAnimator_}, bigAvatarDisappearDuration{bigAvatarDisappearDuration_}, bigAvatarDisappearEasing{bigAvatarDisappearEasing_}, songTimeSyncController{songTimeSyncController_}, introAnimator{introAnimator_}, beatmapObjectManager{beatmapObjectManager_}, scoreDiffText{scoreDiffText_}, beatmapObjectCallbackController{beatmapObjectCallbackController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.GameObject _outroAnimator
-    UnityEngine::GameObject* _get__outroAnimator();
-    // Set instance field: private UnityEngine.GameObject _outroAnimator
-    void _set__outroAnimator(UnityEngine::GameObject* value);
-    // Get instance field: private MultiplayerBigAvatarAnimator _bigAvatarAnimator
-    GlobalNamespace::MultiplayerBigAvatarAnimator* _get__bigAvatarAnimator();
-    // Set instance field: private MultiplayerBigAvatarAnimator _bigAvatarAnimator
-    void _set__bigAvatarAnimator(GlobalNamespace::MultiplayerBigAvatarAnimator* value);
-    // Get instance field: private System.Single _bigAvatarDisappearDuration
-    float _get__bigAvatarDisappearDuration();
-    // Set instance field: private System.Single _bigAvatarDisappearDuration
-    void _set__bigAvatarDisappearDuration(float value);
-    // Get instance field: private Tweening.EaseType _bigAvatarDisappearEasing
-    Tweening::EaseType _get__bigAvatarDisappearEasing();
-    // Set instance field: private Tweening.EaseType _bigAvatarDisappearEasing
-    void _set__bigAvatarDisappearEasing(Tweening::EaseType value);
-    // Get instance field: private readonly MultiplayerConnectedPlayerSongTimeSyncController _songTimeSyncController
-    GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController* _get__songTimeSyncController();
-    // Set instance field: private readonly MultiplayerConnectedPlayerSongTimeSyncController _songTimeSyncController
-    void _set__songTimeSyncController(GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController* value);
-    // Get instance field: private readonly MultiplayerConnectedPlayerIntroAnimator _introAnimator
-    GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator* _get__introAnimator();
-    // Set instance field: private readonly MultiplayerConnectedPlayerIntroAnimator _introAnimator
-    void _set__introAnimator(GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator* value);
-    // Get instance field: private readonly BeatmapObjectManager _beatmapObjectManager
-    GlobalNamespace::BeatmapObjectManager* _get__beatmapObjectManager();
-    // Set instance field: private readonly BeatmapObjectManager _beatmapObjectManager
-    void _set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager* value);
-    // Get instance field: private readonly MultiplayerConnectedPlayerScoreDiffText _scoreDiffText
-    GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText* _get__scoreDiffText();
-    // Set instance field: private readonly MultiplayerConnectedPlayerScoreDiffText _scoreDiffText
-    void _set__scoreDiffText(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText* value);
-    // Get instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
-    GlobalNamespace::IBeatmapObjectCallbackController* _get__beatmapObjectCallbackController();
-    // Set instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
-    void _set__beatmapObjectCallbackController(GlobalNamespace::IBeatmapObjectCallbackController* value);
+    // Get instance field reference: private UnityEngine.GameObject _outroAnimator
+    UnityEngine::GameObject*& dyn__outroAnimator();
+    // Get instance field reference: private MultiplayerBigAvatarAnimator _bigAvatarAnimator
+    GlobalNamespace::MultiplayerBigAvatarAnimator*& dyn__bigAvatarAnimator();
+    // Get instance field reference: private System.Single _bigAvatarDisappearDuration
+    float& dyn__bigAvatarDisappearDuration();
+    // Get instance field reference: private Tweening.EaseType _bigAvatarDisappearEasing
+    Tweening::EaseType& dyn__bigAvatarDisappearEasing();
+    // Get instance field reference: private readonly MultiplayerConnectedPlayerSongTimeSyncController _songTimeSyncController
+    GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController*& dyn__songTimeSyncController();
+    // Get instance field reference: private readonly MultiplayerConnectedPlayerIntroAnimator _introAnimator
+    GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator*& dyn__introAnimator();
+    // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
+    GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
+    // Get instance field reference: private readonly MultiplayerConnectedPlayerScoreDiffText _scoreDiffText
+    GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText*& dyn__scoreDiffText();
+    // Get instance field reference: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    GlobalNamespace::IBeatmapObjectCallbackController*& dyn__beatmapObjectCallbackController();
     // public MultiplayerConnectedPlayerIntroAnimator get_introAnimator()
     // Offset: 0x11A6A30
     GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator* get_introAnimator();

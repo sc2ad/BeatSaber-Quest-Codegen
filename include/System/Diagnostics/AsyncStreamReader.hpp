@@ -85,38 +85,22 @@ namespace System::Diagnostics {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     // Creating value type constructor for type: AsyncStreamReader
     AsyncStreamReader(System::IO::Stream* stream_ = {}, System::Text::Encoding* encoding_ = {}, System::Text::Decoder* decoder_ = {}, ::Array<uint8_t>* byteBuffer_ = {}, ::Array<::Il2CppChar>* charBuffer_ = {}, bool cancelOperation_ = {}, System::Threading::ManualResetEvent* eofEvent_ = {}, ::Il2CppObject* syncObject_ = {}) noexcept : stream{stream_}, encoding{encoding_}, decoder{decoder_}, byteBuffer{byteBuffer_}, charBuffer{charBuffer_}, cancelOperation{cancelOperation_}, eofEvent{eofEvent_}, syncObject{syncObject_} {}
-    // Get instance field: private System.IO.Stream stream
-    System::IO::Stream* _get_stream();
-    // Set instance field: private System.IO.Stream stream
-    void _set_stream(System::IO::Stream* value);
-    // Get instance field: private System.Text.Encoding encoding
-    System::Text::Encoding* _get_encoding();
-    // Set instance field: private System.Text.Encoding encoding
-    void _set_encoding(System::Text::Encoding* value);
-    // Get instance field: private System.Text.Decoder decoder
-    System::Text::Decoder* _get_decoder();
-    // Set instance field: private System.Text.Decoder decoder
-    void _set_decoder(System::Text::Decoder* value);
-    // Get instance field: private System.Byte[] byteBuffer
-    ::Array<uint8_t>* _get_byteBuffer();
-    // Set instance field: private System.Byte[] byteBuffer
-    void _set_byteBuffer(::Array<uint8_t>* value);
-    // Get instance field: private System.Char[] charBuffer
-    ::Array<::Il2CppChar>* _get_charBuffer();
-    // Set instance field: private System.Char[] charBuffer
-    void _set_charBuffer(::Array<::Il2CppChar>* value);
-    // Get instance field: private System.Boolean cancelOperation
-    bool _get_cancelOperation();
-    // Set instance field: private System.Boolean cancelOperation
-    void _set_cancelOperation(bool value);
-    // Get instance field: private System.Threading.ManualResetEvent eofEvent
-    System::Threading::ManualResetEvent* _get_eofEvent();
-    // Set instance field: private System.Threading.ManualResetEvent eofEvent
-    void _set_eofEvent(System::Threading::ManualResetEvent* value);
-    // Get instance field: private System.Object syncObject
-    ::Il2CppObject* _get_syncObject();
-    // Set instance field: private System.Object syncObject
-    void _set_syncObject(::Il2CppObject* value);
+    // Get instance field reference: private System.IO.Stream stream
+    System::IO::Stream*& dyn_stream();
+    // Get instance field reference: private System.Text.Encoding encoding
+    System::Text::Encoding*& dyn_encoding();
+    // Get instance field reference: private System.Text.Decoder decoder
+    System::Text::Decoder*& dyn_decoder();
+    // Get instance field reference: private System.Byte[] byteBuffer
+    ::Array<uint8_t>*& dyn_byteBuffer();
+    // Get instance field reference: private System.Char[] charBuffer
+    ::Array<::Il2CppChar>*& dyn_charBuffer();
+    // Get instance field reference: private System.Boolean cancelOperation
+    bool& dyn_cancelOperation();
+    // Get instance field reference: private System.Threading.ManualResetEvent eofEvent
+    System::Threading::ManualResetEvent*& dyn_eofEvent();
+    // Get instance field reference: private System.Object syncObject
+    ::Il2CppObject*& dyn_syncObject();
     // public System.Void Close()
     // Offset: 0x18B0EE4
     void Close();

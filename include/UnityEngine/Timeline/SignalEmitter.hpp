@@ -70,18 +70,12 @@ namespace UnityEngine::Timeline {
     operator UnityEngine::Timeline::INotificationOptionProvider() noexcept {
       return *reinterpret_cast<UnityEngine::Timeline::INotificationOptionProvider*>(this);
     }
-    // Get instance field: private System.Boolean m_Retroactive
-    bool _get_m_Retroactive();
-    // Set instance field: private System.Boolean m_Retroactive
-    void _set_m_Retroactive(bool value);
-    // Get instance field: private System.Boolean m_EmitOnce
-    bool _get_m_EmitOnce();
-    // Set instance field: private System.Boolean m_EmitOnce
-    void _set_m_EmitOnce(bool value);
-    // Get instance field: private UnityEngine.Timeline.SignalAsset m_Asset
-    UnityEngine::Timeline::SignalAsset* _get_m_Asset();
-    // Set instance field: private UnityEngine.Timeline.SignalAsset m_Asset
-    void _set_m_Asset(UnityEngine::Timeline::SignalAsset* value);
+    // Get instance field reference: private System.Boolean m_Retroactive
+    bool& dyn_m_Retroactive();
+    // Get instance field reference: private System.Boolean m_EmitOnce
+    bool& dyn_m_EmitOnce();
+    // Get instance field reference: private UnityEngine.Timeline.SignalAsset m_Asset
+    UnityEngine::Timeline::SignalAsset*& dyn_m_Asset();
     // public System.Boolean get_retroactive()
     // Offset: 0x1825244
     bool get_retroactive();

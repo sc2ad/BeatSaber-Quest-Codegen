@@ -163,74 +163,40 @@ namespace GlobalNamespace {
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
-    // Get instance field: private System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: private System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: private System.Object <>2__current
-    ::Il2CppObject* _get_$$2__current();
-    // Set instance field: private System.Object <>2__current
-    void _set_$$2__current(::Il2CppObject* value);
-    // Get instance field: public System.Collections.Generic.List`1<System.String> scenesToDismiss
-    System::Collections::Generic::List_1<::Il2CppString*>* _get_scenesToDismiss();
-    // Set instance field: public System.Collections.Generic.List`1<System.String> scenesToDismiss
-    void _set_scenesToDismiss(System::Collections::Generic::List_1<::Il2CppString*>* value);
-    // Get instance field: public GameScenesManager <>4__this
-    GlobalNamespace::GameScenesManager* _get_$$4__this();
-    // Set instance field: public GameScenesManager <>4__this
-    void _set_$$4__this(GlobalNamespace::GameScenesManager* value);
-    // Get instance field: public System.Collections.Generic.List`1<System.String> scenesToPresent
-    System::Collections::Generic::List_1<::Il2CppString*>* _get_scenesToPresent();
-    // Set instance field: public System.Collections.Generic.List`1<System.String> scenesToPresent
-    void _set_scenesToPresent(System::Collections::Generic::List_1<::Il2CppString*>* value);
-    // Get instance field: public GameScenesManager/ScenePresentType presentType
-    GlobalNamespace::GameScenesManager::ScenePresentType _get_presentType();
-    // Set instance field: public GameScenesManager/ScenePresentType presentType
-    void _set_presentType(GlobalNamespace::GameScenesManager::ScenePresentType value);
-    // Get instance field: public System.Single minDuration
-    float _get_minDuration();
-    // Set instance field: public System.Single minDuration
-    void _set_minDuration(float value);
-    // Get instance field: public System.Action afterMinDurationCallback
-    System::Action* _get_afterMinDurationCallback();
-    // Set instance field: public System.Action afterMinDurationCallback
-    void _set_afterMinDurationCallback(System::Action* value);
-    // Get instance field: public System.Action`1<Zenject.DiContainer> extraBindingsCallback
-    System::Action_1<Zenject::DiContainer*>* _get_extraBindingsCallback();
-    // Set instance field: public System.Action`1<Zenject.DiContainer> extraBindingsCallback
-    void _set_extraBindingsCallback(System::Action_1<Zenject::DiContainer*>* value);
-    // Get instance field: public GameScenesManager/SceneDismissType dismissType
-    GlobalNamespace::GameScenesManager::SceneDismissType _get_dismissType();
-    // Set instance field: public GameScenesManager/SceneDismissType dismissType
-    void _set_dismissType(GlobalNamespace::GameScenesManager::SceneDismissType value);
-    // Get instance field: public System.Action`1<Zenject.DiContainer> finishCallback
-    System::Action_1<Zenject::DiContainer*>* _get_finishCallback();
-    // Set instance field: public System.Action`1<Zenject.DiContainer> finishCallback
-    void _set_finishCallback(System::Action_1<Zenject::DiContainer*>* value);
-    // Get instance field: private UnityEngine.EventSystems.EventSystem <eventSystem>5__2
-    UnityEngine::EventSystems::EventSystem* _get_$eventSystem$5__2();
-    // Set instance field: private UnityEngine.EventSystems.EventSystem <eventSystem>5__2
-    void _set_$eventSystem$5__2(UnityEngine::EventSystems::EventSystem* value);
-    // Get instance field: private System.Single <startTime>5__3
-    float _get_$startTime$5__3();
-    // Set instance field: private System.Single <startTime>5__3
-    void _set_$startTime$5__3(float value);
-    // Get instance field: private System.String <sceneName>5__4
-    ::Il2CppString* _get_$sceneName$5__4();
-    // Set instance field: private System.String <sceneName>5__4
-    void _set_$sceneName$5__4(::Il2CppString* value);
-    // Get instance field: private UnityEngine.AsyncOperation <loadSceneOperation>5__5
-    UnityEngine::AsyncOperation* _get_$loadSceneOperation$5__5();
-    // Set instance field: private UnityEngine.AsyncOperation <loadSceneOperation>5__5
-    void _set_$loadSceneOperation$5__5(UnityEngine::AsyncOperation* value);
-    // Get instance field: private System.Int32 <sceneNum>5__6
-    int _get_$sceneNum$5__6();
-    // Set instance field: private System.Int32 <sceneNum>5__6
-    void _set_$sceneNum$5__6(int value);
-    // Get instance field: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<System.String> <>7__wrap6
-    typename System::Collections::Generic::List_1<::Il2CppString*>::Enumerator _get_$$7__wrap6();
-    // Set instance field: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<System.String> <>7__wrap6
-    void _set_$$7__wrap6(typename System::Collections::Generic::List_1<::Il2CppString*>::Enumerator value);
+    // Get instance field reference: private System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: private System.Object <>2__current
+    ::Il2CppObject*& dyn_$$2__current();
+    // Get instance field reference: public System.Collections.Generic.List`1<System.String> scenesToDismiss
+    System::Collections::Generic::List_1<::Il2CppString*>*& dyn_scenesToDismiss();
+    // Get instance field reference: public GameScenesManager <>4__this
+    GlobalNamespace::GameScenesManager*& dyn_$$4__this();
+    // Get instance field reference: public System.Collections.Generic.List`1<System.String> scenesToPresent
+    System::Collections::Generic::List_1<::Il2CppString*>*& dyn_scenesToPresent();
+    // Get instance field reference: public GameScenesManager/ScenePresentType presentType
+    GlobalNamespace::GameScenesManager::ScenePresentType& dyn_presentType();
+    // Get instance field reference: public System.Single minDuration
+    float& dyn_minDuration();
+    // Get instance field reference: public System.Action afterMinDurationCallback
+    System::Action*& dyn_afterMinDurationCallback();
+    // Get instance field reference: public System.Action`1<Zenject.DiContainer> extraBindingsCallback
+    System::Action_1<Zenject::DiContainer*>*& dyn_extraBindingsCallback();
+    // Get instance field reference: public GameScenesManager/SceneDismissType dismissType
+    GlobalNamespace::GameScenesManager::SceneDismissType& dyn_dismissType();
+    // Get instance field reference: public System.Action`1<Zenject.DiContainer> finishCallback
+    System::Action_1<Zenject::DiContainer*>*& dyn_finishCallback();
+    // Get instance field reference: private UnityEngine.EventSystems.EventSystem <eventSystem>5__2
+    UnityEngine::EventSystems::EventSystem*& dyn_$eventSystem$5__2();
+    // Get instance field reference: private System.Single <startTime>5__3
+    float& dyn_$startTime$5__3();
+    // Get instance field reference: private System.String <sceneName>5__4
+    ::Il2CppString*& dyn_$sceneName$5__4();
+    // Get instance field reference: private UnityEngine.AsyncOperation <loadSceneOperation>5__5
+    UnityEngine::AsyncOperation*& dyn_$loadSceneOperation$5__5();
+    // Get instance field reference: private System.Int32 <sceneNum>5__6
+    int& dyn_$sceneNum$5__6();
+    // Get instance field reference: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<System.String> <>7__wrap6
+    typename System::Collections::Generic::List_1<::Il2CppString*>::Enumerator& dyn_$$7__wrap6();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
     // Offset: 0x1263738
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();

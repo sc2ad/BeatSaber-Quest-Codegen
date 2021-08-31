@@ -198,10 +198,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVRInput::Controller _get_All();
       // Set static field: static public OVRInput/Controller All
       static void _set_All(GlobalNamespace::OVRInput::Controller value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // OVRInput/Controller
     #pragma pack(pop)
     static check_size<sizeof(OVRInput::Controller), 0 + sizeof(int)> __GlobalNamespace_OVRInput_ControllerSizeCheck;
@@ -253,10 +251,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVRInput::OpenVRController _get_WindowsMRController();
       // Set static field: static public OVRInput/OpenVRController WindowsMRController
       static void _set_WindowsMRController(GlobalNamespace::OVRInput::OpenVRController value);
-      // Get instance field: public System.UInt64 value__
-      uint64_t _get_value__();
-      // Set instance field: public System.UInt64 value__
-      void _set_value__(uint64_t value);
+      // Get instance field reference: public System.UInt64 value__
+      uint64_t& dyn_value__();
     }; // OVRInput/OpenVRController
     #pragma pack(pop)
     static check_size<sizeof(OVRInput::OpenVRController), 0 + sizeof(uint64_t)> __GlobalNamespace_OVRInput_OpenVRControllerSizeCheck;
@@ -304,26 +300,16 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public OVR.OpenVR.VRControllerState_t state
-      OVR::OpenVR::VRControllerState_t _get_state();
-      // Set instance field: public OVR.OpenVR.VRControllerState_t state
-      void _set_state(OVR::OpenVR::VRControllerState_t value);
-      // Get instance field: public OVRInput/OpenVRController controllerType
-      GlobalNamespace::OVRInput::OpenVRController _get_controllerType();
-      // Set instance field: public OVRInput/OpenVRController controllerType
-      void _set_controllerType(GlobalNamespace::OVRInput::OpenVRController value);
-      // Get instance field: public System.UInt32 deviceID
-      uint _get_deviceID();
-      // Set instance field: public System.UInt32 deviceID
-      void _set_deviceID(uint value);
-      // Get instance field: public UnityEngine.Vector3 localPosition
-      UnityEngine::Vector3 _get_localPosition();
-      // Set instance field: public UnityEngine.Vector3 localPosition
-      void _set_localPosition(UnityEngine::Vector3 value);
-      // Get instance field: public UnityEngine.Quaternion localOrientation
-      UnityEngine::Quaternion _get_localOrientation();
-      // Set instance field: public UnityEngine.Quaternion localOrientation
-      void _set_localOrientation(UnityEngine::Quaternion value);
+      // Get instance field reference: public OVR.OpenVR.VRControllerState_t state
+      OVR::OpenVR::VRControllerState_t& dyn_state();
+      // Get instance field reference: public OVRInput/OpenVRController controllerType
+      GlobalNamespace::OVRInput::OpenVRController& dyn_controllerType();
+      // Get instance field reference: public System.UInt32 deviceID
+      uint& dyn_deviceID();
+      // Get instance field reference: public UnityEngine.Vector3 localPosition
+      UnityEngine::Vector3& dyn_localPosition();
+      // Get instance field reference: public UnityEngine.Quaternion localOrientation
+      UnityEngine::Quaternion& dyn_localOrientation();
     }; // OVRInput/OpenVRControllerDetails
     #pragma pack(pop)
     static check_size<sizeof(OVRInput::OpenVRControllerDetails), 88 + sizeof(UnityEngine::Quaternion)> __GlobalNamespace_OVRInput_OpenVRControllerDetailsSizeCheck;

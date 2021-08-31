@@ -104,10 +104,8 @@ namespace System::Security::Util {
       static System::Security::Util::Tokenizer::TokenSource _get_Other();
       // Set static field: static public System.Security.Util.Tokenizer/System.Security.Util.TokenSource Other
       static void _set_Other(System::Security::Util::Tokenizer::TokenSource value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // System.Security.Util.Tokenizer/System.Security.Util.TokenSource
     #pragma pack(pop)
     static check_size<sizeof(Tokenizer::TokenSource), 0 + sizeof(int)> __System_Security_Util_Tokenizer_TokenSourceSizeCheck;
@@ -210,70 +208,38 @@ namespace System::Security::Util {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: Tokenizer
     Tokenizer(int LineNo_ = {}, int inProcessingTag_ = {}, ::Array<uint8_t>* inBytes_ = {}, ::Array<::Il2CppChar>* inChars_ = {}, ::Il2CppString* inString_ = {}, int inIndex_ = {}, int inSize_ = {}, int inSavedCharacter_ = {}, System::Security::Util::Tokenizer::TokenSource inTokenSource_ = {}, System::Security::Util::Tokenizer::ITokenReader* inTokenReader_ = {}, System::Security::Util::Tokenizer::StringMaker* maker_ = {}, ::Array<::Il2CppString*>* searchStrings_ = {}, ::Array<::Il2CppString*>* replaceStrings_ = {}, int inNestedIndex_ = {}, int inNestedSize_ = {}, ::Il2CppString* inNestedString_ = {}) noexcept : LineNo{LineNo_}, inProcessingTag{inProcessingTag_}, inBytes{inBytes_}, inChars{inChars_}, inString{inString_}, inIndex{inIndex_}, inSize{inSize_}, inSavedCharacter{inSavedCharacter_}, inTokenSource{inTokenSource_}, inTokenReader{inTokenReader_}, maker{maker_}, searchStrings{searchStrings_}, replaceStrings{replaceStrings_}, inNestedIndex{inNestedIndex_}, inNestedSize{inNestedSize_}, inNestedString{inNestedString_} {}
-    // Get instance field: public System.Int32 LineNo
-    int _get_LineNo();
-    // Set instance field: public System.Int32 LineNo
-    void _set_LineNo(int value);
-    // Get instance field: private System.Int32 _inProcessingTag
-    int _get__inProcessingTag();
-    // Set instance field: private System.Int32 _inProcessingTag
-    void _set__inProcessingTag(int value);
-    // Get instance field: private System.Byte[] _inBytes
-    ::Array<uint8_t>* _get__inBytes();
-    // Set instance field: private System.Byte[] _inBytes
-    void _set__inBytes(::Array<uint8_t>* value);
-    // Get instance field: private System.Char[] _inChars
-    ::Array<::Il2CppChar>* _get__inChars();
-    // Set instance field: private System.Char[] _inChars
-    void _set__inChars(::Array<::Il2CppChar>* value);
-    // Get instance field: private System.String _inString
-    ::Il2CppString* _get__inString();
-    // Set instance field: private System.String _inString
-    void _set__inString(::Il2CppString* value);
-    // Get instance field: private System.Int32 _inIndex
-    int _get__inIndex();
-    // Set instance field: private System.Int32 _inIndex
-    void _set__inIndex(int value);
-    // Get instance field: private System.Int32 _inSize
-    int _get__inSize();
-    // Set instance field: private System.Int32 _inSize
-    void _set__inSize(int value);
-    // Get instance field: private System.Int32 _inSavedCharacter
-    int _get__inSavedCharacter();
-    // Set instance field: private System.Int32 _inSavedCharacter
-    void _set__inSavedCharacter(int value);
-    // Get instance field: private System.Security.Util.Tokenizer/System.Security.Util.TokenSource _inTokenSource
-    System::Security::Util::Tokenizer::TokenSource _get__inTokenSource();
-    // Set instance field: private System.Security.Util.Tokenizer/System.Security.Util.TokenSource _inTokenSource
-    void _set__inTokenSource(System::Security::Util::Tokenizer::TokenSource value);
-    // Get instance field: private System.Security.Util.Tokenizer/System.Security.Util.ITokenReader _inTokenReader
-    System::Security::Util::Tokenizer::ITokenReader* _get__inTokenReader();
-    // Set instance field: private System.Security.Util.Tokenizer/System.Security.Util.ITokenReader _inTokenReader
-    void _set__inTokenReader(System::Security::Util::Tokenizer::ITokenReader* value);
-    // Get instance field: private System.Security.Util.Tokenizer/System.Security.Util.StringMaker _maker
-    System::Security::Util::Tokenizer::StringMaker* _get__maker();
-    // Set instance field: private System.Security.Util.Tokenizer/System.Security.Util.StringMaker _maker
-    void _set__maker(System::Security::Util::Tokenizer::StringMaker* value);
-    // Get instance field: private System.String[] _searchStrings
-    ::Array<::Il2CppString*>* _get__searchStrings();
-    // Set instance field: private System.String[] _searchStrings
-    void _set__searchStrings(::Array<::Il2CppString*>* value);
-    // Get instance field: private System.String[] _replaceStrings
-    ::Array<::Il2CppString*>* _get__replaceStrings();
-    // Set instance field: private System.String[] _replaceStrings
-    void _set__replaceStrings(::Array<::Il2CppString*>* value);
-    // Get instance field: private System.Int32 _inNestedIndex
-    int _get__inNestedIndex();
-    // Set instance field: private System.Int32 _inNestedIndex
-    void _set__inNestedIndex(int value);
-    // Get instance field: private System.Int32 _inNestedSize
-    int _get__inNestedSize();
-    // Set instance field: private System.Int32 _inNestedSize
-    void _set__inNestedSize(int value);
-    // Get instance field: private System.String _inNestedString
-    ::Il2CppString* _get__inNestedString();
-    // Set instance field: private System.String _inNestedString
-    void _set__inNestedString(::Il2CppString* value);
+    // Get instance field reference: public System.Int32 LineNo
+    int& dyn_LineNo();
+    // Get instance field reference: private System.Int32 _inProcessingTag
+    int& dyn__inProcessingTag();
+    // Get instance field reference: private System.Byte[] _inBytes
+    ::Array<uint8_t>*& dyn__inBytes();
+    // Get instance field reference: private System.Char[] _inChars
+    ::Array<::Il2CppChar>*& dyn__inChars();
+    // Get instance field reference: private System.String _inString
+    ::Il2CppString*& dyn__inString();
+    // Get instance field reference: private System.Int32 _inIndex
+    int& dyn__inIndex();
+    // Get instance field reference: private System.Int32 _inSize
+    int& dyn__inSize();
+    // Get instance field reference: private System.Int32 _inSavedCharacter
+    int& dyn__inSavedCharacter();
+    // Get instance field reference: private System.Security.Util.Tokenizer/System.Security.Util.TokenSource _inTokenSource
+    System::Security::Util::Tokenizer::TokenSource& dyn__inTokenSource();
+    // Get instance field reference: private System.Security.Util.Tokenizer/System.Security.Util.ITokenReader _inTokenReader
+    System::Security::Util::Tokenizer::ITokenReader*& dyn__inTokenReader();
+    // Get instance field reference: private System.Security.Util.Tokenizer/System.Security.Util.StringMaker _maker
+    System::Security::Util::Tokenizer::StringMaker*& dyn__maker();
+    // Get instance field reference: private System.String[] _searchStrings
+    ::Array<::Il2CppString*>*& dyn__searchStrings();
+    // Get instance field reference: private System.String[] _replaceStrings
+    ::Array<::Il2CppString*>*& dyn__replaceStrings();
+    // Get instance field reference: private System.Int32 _inNestedIndex
+    int& dyn__inNestedIndex();
+    // Get instance field reference: private System.Int32 _inNestedSize
+    int& dyn__inNestedSize();
+    // Get instance field reference: private System.String _inNestedString
+    ::Il2CppString*& dyn__inNestedString();
     // System.Void .ctor(System.String input)
     // Offset: 0x1C02324
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

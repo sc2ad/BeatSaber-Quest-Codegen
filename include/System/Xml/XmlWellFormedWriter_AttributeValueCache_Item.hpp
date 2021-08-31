@@ -38,14 +38,10 @@ namespace System::Xml {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     // Creating value type constructor for type: Item
     Item(System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType type_ = {}, ::Il2CppObject* data_ = {}) noexcept : type{type_}, data{data_} {}
-    // Get instance field: System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.ItemType type
-    System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType _get_type();
-    // Set instance field: System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.ItemType type
-    void _set_type(System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType value);
-    // Get instance field: System.Object data
-    ::Il2CppObject* _get_data();
-    // Set instance field: System.Object data
-    void _set_data(::Il2CppObject* value);
+    // Get instance field reference: System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.ItemType type
+    System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType& dyn_type();
+    // Get instance field reference: System.Object data
+    ::Il2CppObject*& dyn_data();
     // System.Void Set(System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.ItemType type, System.Object data)
     // Offset: 0x23EF544
     void Set(System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType type, ::Il2CppObject* data);

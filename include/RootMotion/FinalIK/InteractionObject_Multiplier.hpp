@@ -43,18 +43,12 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(RootMotion::FinalIK::InteractionObject::WeightCurve::Type) == 0x4);
     // Creating value type constructor for type: Multiplier
     Multiplier(RootMotion::FinalIK::InteractionObject::WeightCurve::Type curve_ = {}, float multiplier_ = {}, RootMotion::FinalIK::InteractionObject::WeightCurve::Type result_ = {}) noexcept : curve{curve_}, multiplier{multiplier_}, result{result_} {}
-    // Get instance field: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type curve
-    RootMotion::FinalIK::InteractionObject::WeightCurve::Type _get_curve();
-    // Set instance field: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type curve
-    void _set_curve(RootMotion::FinalIK::InteractionObject::WeightCurve::Type value);
-    // Get instance field: public System.Single multiplier
-    float _get_multiplier();
-    // Set instance field: public System.Single multiplier
-    void _set_multiplier(float value);
-    // Get instance field: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type result
-    RootMotion::FinalIK::InteractionObject::WeightCurve::Type _get_result();
-    // Set instance field: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type result
-    void _set_result(RootMotion::FinalIK::InteractionObject::WeightCurve::Type value);
+    // Get instance field reference: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type curve
+    RootMotion::FinalIK::InteractionObject::WeightCurve::Type& dyn_curve();
+    // Get instance field reference: public System.Single multiplier
+    float& dyn_multiplier();
+    // Get instance field reference: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type result
+    RootMotion::FinalIK::InteractionObject::WeightCurve::Type& dyn_result();
     // public System.Single GetValue(RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve weightCurve, System.Single timer)
     // Offset: 0x1E8ED3C
     float GetValue(RootMotion::FinalIK::InteractionObject::WeightCurve* weightCurve, float timer);

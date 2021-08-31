@@ -176,10 +176,8 @@ namespace Valve::VR {
     static Valve::VR::EVROverlayError _get_TextureNotLocked();
     // Set static field: static public Valve.VR.EVROverlayError TextureNotLocked
     static void _set_TextureNotLocked(Valve::VR::EVROverlayError value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Valve.VR.EVROverlayError
   #pragma pack(pop)
   static check_size<sizeof(EVROverlayError), 0 + sizeof(int)> __Valve_VR_EVROverlayErrorSizeCheck;

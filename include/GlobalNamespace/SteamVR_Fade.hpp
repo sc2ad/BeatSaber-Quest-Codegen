@@ -65,22 +65,14 @@ namespace GlobalNamespace {
     static int _get_fadeMaterialColorID();
     // Set static field: static private System.Int32 fadeMaterialColorID
     static void _set_fadeMaterialColorID(int value);
-    // Get instance field: private UnityEngine.Color currentColor
-    UnityEngine::Color _get_currentColor();
-    // Set instance field: private UnityEngine.Color currentColor
-    void _set_currentColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color targetColor
-    UnityEngine::Color _get_targetColor();
-    // Set instance field: private UnityEngine.Color targetColor
-    void _set_targetColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color deltaColor
-    UnityEngine::Color _get_deltaColor();
-    // Set instance field: private UnityEngine.Color deltaColor
-    void _set_deltaColor(UnityEngine::Color value);
-    // Get instance field: private System.Boolean fadeOverlay
-    bool _get_fadeOverlay();
-    // Set instance field: private System.Boolean fadeOverlay
-    void _set_fadeOverlay(bool value);
+    // Get instance field reference: private UnityEngine.Color currentColor
+    UnityEngine::Color& dyn_currentColor();
+    // Get instance field reference: private UnityEngine.Color targetColor
+    UnityEngine::Color& dyn_targetColor();
+    // Get instance field reference: private UnityEngine.Color deltaColor
+    UnityEngine::Color& dyn_deltaColor();
+    // Get instance field reference: private System.Boolean fadeOverlay
+    bool& dyn_fadeOverlay();
     // static public System.Void Start(UnityEngine.Color newColor, System.Single duration, System.Boolean fadeOverlay)
     // Offset: 0x1423A28
     static void Start(UnityEngine::Color newColor, float duration, bool fadeOverlay);

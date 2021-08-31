@@ -68,22 +68,14 @@ namespace UnityEngine::TextCore {
     static UnityEngine::TextCore::GlyphRect _get_s_ZeroGlyphRect();
     // Set static field: static private readonly UnityEngine.TextCore.GlyphRect s_ZeroGlyphRect
     static void _set_s_ZeroGlyphRect(UnityEngine::TextCore::GlyphRect value);
-    // Get instance field: private System.Int32 m_X
-    int _get_m_X();
-    // Set instance field: private System.Int32 m_X
-    void _set_m_X(int value);
-    // Get instance field: private System.Int32 m_Y
-    int _get_m_Y();
-    // Set instance field: private System.Int32 m_Y
-    void _set_m_Y(int value);
-    // Get instance field: private System.Int32 m_Width
-    int _get_m_Width();
-    // Set instance field: private System.Int32 m_Width
-    void _set_m_Width(int value);
-    // Get instance field: private System.Int32 m_Height
-    int _get_m_Height();
-    // Set instance field: private System.Int32 m_Height
-    void _set_m_Height(int value);
+    // Get instance field reference: private System.Int32 m_X
+    int& dyn_m_X();
+    // Get instance field reference: private System.Int32 m_Y
+    int& dyn_m_Y();
+    // Get instance field reference: private System.Int32 m_Width
+    int& dyn_m_Width();
+    // Get instance field reference: private System.Int32 m_Height
+    int& dyn_m_Height();
     // public System.Int32 get_x()
     // Offset: 0x23F77F4
     int get_x();

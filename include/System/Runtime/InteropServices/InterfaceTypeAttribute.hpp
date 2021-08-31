@@ -36,10 +36,8 @@ namespace System::Runtime::InteropServices {
     constexpr operator System::Runtime::InteropServices::ComInterfaceType() const noexcept {
       return val;
     }
-    // Get instance field: System.Runtime.InteropServices.ComInterfaceType _val
-    System::Runtime::InteropServices::ComInterfaceType _get__val();
-    // Set instance field: System.Runtime.InteropServices.ComInterfaceType _val
-    void _set__val(System::Runtime::InteropServices::ComInterfaceType value);
+    // Get instance field reference: System.Runtime.InteropServices.ComInterfaceType _val
+    System::Runtime::InteropServices::ComInterfaceType& dyn__val();
     // public System.Void .ctor(System.Runtime.InteropServices.ComInterfaceType interfaceType)
     // Offset: 0x1488AC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -48,14 +48,10 @@ namespace Mono::Xml {
     operator Mono::Xml::SmallXmlParser::IAttrList() noexcept {
       return *reinterpret_cast<Mono::Xml::SmallXmlParser::IAttrList*>(this);
     }
-    // Get instance field: private System.Collections.Generic.List`1<System.String> attrNames
-    System::Collections::Generic::List_1<::Il2CppString*>* _get_attrNames();
-    // Set instance field: private System.Collections.Generic.List`1<System.String> attrNames
-    void _set_attrNames(System::Collections::Generic::List_1<::Il2CppString*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<System.String> attrValues
-    System::Collections::Generic::List_1<::Il2CppString*>* _get_attrValues();
-    // Set instance field: private System.Collections.Generic.List`1<System.String> attrValues
-    void _set_attrValues(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    // Get instance field reference: private System.Collections.Generic.List`1<System.String> attrNames
+    System::Collections::Generic::List_1<::Il2CppString*>*& dyn_attrNames();
+    // Get instance field reference: private System.Collections.Generic.List`1<System.String> attrValues
+    System::Collections::Generic::List_1<::Il2CppString*>*& dyn_attrValues();
     // public System.Int32 get_Length()
     // Offset: 0x1AA6E2C
     int get_Length();

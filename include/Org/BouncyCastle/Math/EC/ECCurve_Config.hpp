@@ -60,22 +60,14 @@ namespace Org::BouncyCastle::Math::EC {
     static_assert(sizeof(Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*) == 0x8);
     // Creating value type constructor for type: Config
     Config(Org::BouncyCastle::Math::EC::ECCurve* outer_ = {}, int coord_ = {}, Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism_ = {}, Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* multiplier_ = {}) noexcept : outer{outer_}, coord{coord_}, endomorphism{endomorphism_}, multiplier{multiplier_} {}
-    // Get instance field: protected Org.BouncyCastle.Math.EC.ECCurve outer
-    Org::BouncyCastle::Math::EC::ECCurve* _get_outer();
-    // Set instance field: protected Org.BouncyCastle.Math.EC.ECCurve outer
-    void _set_outer(Org::BouncyCastle::Math::EC::ECCurve* value);
-    // Get instance field: protected System.Int32 coord
-    int _get_coord();
-    // Set instance field: protected System.Int32 coord
-    void _set_coord(int value);
-    // Get instance field: protected Org.BouncyCastle.Math.EC.Endo.ECEndomorphism endomorphism
-    Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* _get_endomorphism();
-    // Set instance field: protected Org.BouncyCastle.Math.EC.Endo.ECEndomorphism endomorphism
-    void _set_endomorphism(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* value);
-    // Get instance field: protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier multiplier
-    Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* _get_multiplier();
-    // Set instance field: protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier multiplier
-    void _set_multiplier(Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* value);
+    // Get instance field reference: protected Org.BouncyCastle.Math.EC.ECCurve outer
+    Org::BouncyCastle::Math::EC::ECCurve*& dyn_outer();
+    // Get instance field reference: protected System.Int32 coord
+    int& dyn_coord();
+    // Get instance field reference: protected Org.BouncyCastle.Math.EC.Endo.ECEndomorphism endomorphism
+    Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*& dyn_endomorphism();
+    // Get instance field reference: protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier multiplier
+    Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*& dyn_multiplier();
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve outer, System.Int32 coord, Org.BouncyCastle.Math.EC.Endo.ECEndomorphism endomorphism, Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier multiplier)
     // Offset: 0x2142110
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

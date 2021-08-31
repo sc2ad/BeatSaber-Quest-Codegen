@@ -54,26 +54,16 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: LivestreamingStatus
     LivestreamingStatus(bool CommentsVisible_ = {}, bool IsPaused_ = {}, bool LivestreamingEnabled_ = {}, int LivestreamingType_ = {}, bool MicEnabled_ = {}) noexcept : CommentsVisible{CommentsVisible_}, IsPaused{IsPaused_}, LivestreamingEnabled{LivestreamingEnabled_}, LivestreamingType{LivestreamingType_}, MicEnabled{MicEnabled_} {}
-    // Get instance field: public readonly System.Boolean CommentsVisible
-    bool _get_CommentsVisible();
-    // Set instance field: public readonly System.Boolean CommentsVisible
-    void _set_CommentsVisible(bool value);
-    // Get instance field: public readonly System.Boolean IsPaused
-    bool _get_IsPaused();
-    // Set instance field: public readonly System.Boolean IsPaused
-    void _set_IsPaused(bool value);
-    // Get instance field: public readonly System.Boolean LivestreamingEnabled
-    bool _get_LivestreamingEnabled();
-    // Set instance field: public readonly System.Boolean LivestreamingEnabled
-    void _set_LivestreamingEnabled(bool value);
-    // Get instance field: public readonly System.Int32 LivestreamingType
-    int _get_LivestreamingType();
-    // Set instance field: public readonly System.Int32 LivestreamingType
-    void _set_LivestreamingType(int value);
-    // Get instance field: public readonly System.Boolean MicEnabled
-    bool _get_MicEnabled();
-    // Set instance field: public readonly System.Boolean MicEnabled
-    void _set_MicEnabled(bool value);
+    // Get instance field reference: public readonly System.Boolean CommentsVisible
+    bool& dyn_CommentsVisible();
+    // Get instance field reference: public readonly System.Boolean IsPaused
+    bool& dyn_IsPaused();
+    // Get instance field reference: public readonly System.Boolean LivestreamingEnabled
+    bool& dyn_LivestreamingEnabled();
+    // Get instance field reference: public readonly System.Int32 LivestreamingType
+    int& dyn_LivestreamingType();
+    // Get instance field reference: public readonly System.Boolean MicEnabled
+    bool& dyn_MicEnabled();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14EC1C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

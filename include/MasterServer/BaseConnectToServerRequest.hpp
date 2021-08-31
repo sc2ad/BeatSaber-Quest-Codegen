@@ -70,22 +70,14 @@ namespace MasterServer {
     }
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
-    // Get instance field: private System.String <userId>k__BackingField
-    ::Il2CppString* _get_$userId$k__BackingField();
-    // Set instance field: private System.String <userId>k__BackingField
-    void _set_$userId$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.String <userName>k__BackingField
-    ::Il2CppString* _get_$userName$k__BackingField();
-    // Set instance field: private System.String <userName>k__BackingField
-    void _set_$userName$k__BackingField(::Il2CppString* value);
-    // Get instance field: public readonly ByteArrayNetSerializable random
-    GlobalNamespace::ByteArrayNetSerializable* _get_random();
-    // Set instance field: public readonly ByteArrayNetSerializable random
-    void _set_random(GlobalNamespace::ByteArrayNetSerializable* value);
-    // Get instance field: public readonly ByteArrayNetSerializable publicKey
-    GlobalNamespace::ByteArrayNetSerializable* _get_publicKey();
-    // Set instance field: public readonly ByteArrayNetSerializable publicKey
-    void _set_publicKey(GlobalNamespace::ByteArrayNetSerializable* value);
+    // Get instance field reference: private System.String <userId>k__BackingField
+    ::Il2CppString*& dyn_$userId$k__BackingField();
+    // Get instance field reference: private System.String <userName>k__BackingField
+    ::Il2CppString*& dyn_$userName$k__BackingField();
+    // Get instance field reference: public readonly ByteArrayNetSerializable random
+    GlobalNamespace::ByteArrayNetSerializable*& dyn_random();
+    // Get instance field reference: public readonly ByteArrayNetSerializable publicKey
+    GlobalNamespace::ByteArrayNetSerializable*& dyn_publicKey();
     // public System.String get_userId()
     // Offset: 0x1214B50
     ::Il2CppString* get_userId();

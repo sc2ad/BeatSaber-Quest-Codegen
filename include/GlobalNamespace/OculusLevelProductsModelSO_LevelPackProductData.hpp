@@ -40,18 +40,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>*) == 0x8);
     // Creating value type constructor for type: LevelPackProductData
     LevelPackProductData(::Il2CppString* sku_ = {}, ::Il2CppString* levelPackId_ = {}, ::Array<GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>* levelProductsData_ = {}) noexcept : sku{sku_}, levelPackId{levelPackId_}, levelProductsData{levelProductsData_} {}
-    // Get instance field: private System.String _sku
-    ::Il2CppString* _get__sku();
-    // Set instance field: private System.String _sku
-    void _set__sku(::Il2CppString* value);
-    // Get instance field: private System.String _levelPackId
-    ::Il2CppString* _get__levelPackId();
-    // Set instance field: private System.String _levelPackId
-    void _set__levelPackId(::Il2CppString* value);
-    // Get instance field: private OculusLevelProductsModelSO/LevelProductData[] _levelProductsData
-    ::Array<GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>* _get__levelProductsData();
-    // Set instance field: private OculusLevelProductsModelSO/LevelProductData[] _levelProductsData
-    void _set__levelProductsData(::Array<GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>* value);
+    // Get instance field reference: private System.String _sku
+    ::Il2CppString*& dyn__sku();
+    // Get instance field reference: private System.String _levelPackId
+    ::Il2CppString*& dyn__levelPackId();
+    // Get instance field reference: private OculusLevelProductsModelSO/LevelProductData[] _levelProductsData
+    ::Array<GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>*& dyn__levelProductsData();
     // public System.String get_sku()
     // Offset: 0x123A528
     ::Il2CppString* get_sku();

@@ -45,18 +45,12 @@ namespace System {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private System.Char* m_buffer
-    ::Il2CppChar* _get_m_buffer();
-    // Set instance field: private System.Char* m_buffer
-    void _set_m_buffer(::Il2CppChar* value);
-    // Get instance field: private System.Int32 m_totalSize
-    int _get_m_totalSize();
-    // Set instance field: private System.Int32 m_totalSize
-    void _set_m_totalSize(int value);
-    // Get instance field: private System.Int32 m_length
-    int _get_m_length();
-    // Set instance field: private System.Int32 m_length
-    void _set_m_length(int value);
+    // Get instance field reference: private System.Char* m_buffer
+    ::Il2CppChar*& dyn_m_buffer();
+    // Get instance field reference: private System.Int32 m_totalSize
+    int& dyn_m_totalSize();
+    // Get instance field reference: private System.Int32 m_length
+    int& dyn_m_length();
     // public System.Void .ctor(System.Char* buffer, System.Int32 bufferSize)
     // Offset: 0x232F970
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

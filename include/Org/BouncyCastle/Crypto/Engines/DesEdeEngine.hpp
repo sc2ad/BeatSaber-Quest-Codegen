@@ -55,22 +55,14 @@ namespace Org::BouncyCastle::Crypto::Engines {
     DesEdeEngine(::Array<int>* workingKey1_ = {}, ::Array<int>* workingKey2_ = {}, ::Array<int>* workingKey3_ = {}, bool forEncryption_ = {}) noexcept : workingKey1{workingKey1_}, workingKey2{workingKey2_}, workingKey3{workingKey3_}, forEncryption{forEncryption_} {}
     // Deleting conversion operator: operator ::Array<int>*
     constexpr operator ::Array<int>*() const noexcept = delete;
-    // Get instance field: private System.Int32[] workingKey1
-    ::Array<int>* _get_workingKey1();
-    // Set instance field: private System.Int32[] workingKey1
-    void _set_workingKey1(::Array<int>* value);
-    // Get instance field: private System.Int32[] workingKey2
-    ::Array<int>* _get_workingKey2();
-    // Set instance field: private System.Int32[] workingKey2
-    void _set_workingKey2(::Array<int>* value);
-    // Get instance field: private System.Int32[] workingKey3
-    ::Array<int>* _get_workingKey3();
-    // Set instance field: private System.Int32[] workingKey3
-    void _set_workingKey3(::Array<int>* value);
-    // Get instance field: private System.Boolean forEncryption
-    bool _get_forEncryption();
-    // Set instance field: private System.Boolean forEncryption
-    void _set_forEncryption(bool value);
+    // Get instance field reference: private System.Int32[] workingKey1
+    ::Array<int>*& dyn_workingKey1();
+    // Get instance field reference: private System.Int32[] workingKey2
+    ::Array<int>*& dyn_workingKey2();
+    // Get instance field reference: private System.Int32[] workingKey3
+    ::Array<int>*& dyn_workingKey3();
+    // Get instance field reference: private System.Boolean forEncryption
+    bool& dyn_forEncryption();
     // public override System.String get_AlgorithmName()
     // Offset: 0x1E70C4C
     // Implemented from: Org.BouncyCastle.Crypto.Engines.DesEngine

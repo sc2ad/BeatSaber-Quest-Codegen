@@ -45,10 +45,8 @@ namespace UnityEngine::TestRunner::Utils {
     constexpr operator NUnit::Framework::Interfaces::ITestResult*() const noexcept {
       return testResults;
     }
-    // Get instance field: public NUnit.Framework.Interfaces.ITestResult testResults
-    NUnit::Framework::Interfaces::ITestResult* _get_testResults();
-    // Set instance field: public NUnit.Framework.Interfaces.ITestResult testResults
-    void _set_testResults(NUnit::Framework::Interfaces::ITestResult* value);
+    // Get instance field reference: public NUnit.Framework.Interfaces.ITestResult testResults
+    NUnit::Framework::Interfaces::ITestResult*& dyn_testResults();
     // System.Void <RunFinished>b__0(UnityEngine.TestRunner.ITestRunCallback callback)
     // Offset: 0x14BE558
     void $RunFinished$b__0(UnityEngine::TestRunner::ITestRunCallback* callback);

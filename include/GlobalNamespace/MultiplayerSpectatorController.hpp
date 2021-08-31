@@ -105,34 +105,20 @@ namespace GlobalNamespace {
     MultiplayerSpectatorController(GlobalNamespace::MultiplayerSpectatingSpotManager* spotManager_ = {}, GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController* songController_ = {}, GlobalNamespace::MultiplayerController* multiplayerController_ = {}, GlobalNamespace::FadeInOutController* fadeInOutController_ = {}, System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* spectatingSpotDidChangeEvent_ = {}, UnityEngine::Transform* transform_ = {}, GlobalNamespace::IMultiplayerSpectatingSpot* currentSpot_ = {}) noexcept : spotManager{spotManager_}, songController{songController_}, multiplayerController{multiplayerController_}, fadeInOutController{fadeInOutController_}, spectatingSpotDidChangeEvent{spectatingSpotDidChangeEvent_}, transform{transform_}, currentSpot{currentSpot_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private readonly MultiplayerSpectatingSpotManager _spotManager
-    GlobalNamespace::MultiplayerSpectatingSpotManager* _get__spotManager();
-    // Set instance field: private readonly MultiplayerSpectatingSpotManager _spotManager
-    void _set__spotManager(GlobalNamespace::MultiplayerSpectatingSpotManager* value);
-    // Get instance field: private readonly MultiplayerLocalInactivePlayerSongSyncController _songController
-    GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController* _get__songController();
-    // Set instance field: private readonly MultiplayerLocalInactivePlayerSongSyncController _songController
-    void _set__songController(GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController* value);
-    // Get instance field: private readonly MultiplayerController _multiplayerController
-    GlobalNamespace::MultiplayerController* _get__multiplayerController();
-    // Set instance field: private readonly MultiplayerController _multiplayerController
-    void _set__multiplayerController(GlobalNamespace::MultiplayerController* value);
-    // Get instance field: private readonly FadeInOutController _fadeInOutController
-    GlobalNamespace::FadeInOutController* _get__fadeInOutController();
-    // Set instance field: private readonly FadeInOutController _fadeInOutController
-    void _set__fadeInOutController(GlobalNamespace::FadeInOutController* value);
-    // Get instance field: private System.Action`1<IMultiplayerSpectatingSpot> spectatingSpotDidChangeEvent
-    System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* _get_spectatingSpotDidChangeEvent();
-    // Set instance field: private System.Action`1<IMultiplayerSpectatingSpot> spectatingSpotDidChangeEvent
-    void _set_spectatingSpotDidChangeEvent(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
-    // Get instance field: private UnityEngine.Transform _transform
-    UnityEngine::Transform* _get__transform();
-    // Set instance field: private UnityEngine.Transform _transform
-    void _set__transform(UnityEngine::Transform* value);
-    // Get instance field: private IMultiplayerSpectatingSpot _currentSpot
-    GlobalNamespace::IMultiplayerSpectatingSpot* _get__currentSpot();
-    // Set instance field: private IMultiplayerSpectatingSpot _currentSpot
-    void _set__currentSpot(GlobalNamespace::IMultiplayerSpectatingSpot* value);
+    // Get instance field reference: private readonly MultiplayerSpectatingSpotManager _spotManager
+    GlobalNamespace::MultiplayerSpectatingSpotManager*& dyn__spotManager();
+    // Get instance field reference: private readonly MultiplayerLocalInactivePlayerSongSyncController _songController
+    GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController*& dyn__songController();
+    // Get instance field reference: private readonly MultiplayerController _multiplayerController
+    GlobalNamespace::MultiplayerController*& dyn__multiplayerController();
+    // Get instance field reference: private readonly FadeInOutController _fadeInOutController
+    GlobalNamespace::FadeInOutController*& dyn__fadeInOutController();
+    // Get instance field reference: private System.Action`1<IMultiplayerSpectatingSpot> spectatingSpotDidChangeEvent
+    System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*& dyn_spectatingSpotDidChangeEvent();
+    // Get instance field reference: private UnityEngine.Transform _transform
+    UnityEngine::Transform*& dyn__transform();
+    // Get instance field reference: private IMultiplayerSpectatingSpot _currentSpot
+    GlobalNamespace::IMultiplayerSpectatingSpot*& dyn__currentSpot();
     // public IMultiplayerSpectatingSpot get_currentSpot()
     // Offset: 0x103B1D4
     GlobalNamespace::IMultiplayerSpectatingSpot* get_currentSpot();

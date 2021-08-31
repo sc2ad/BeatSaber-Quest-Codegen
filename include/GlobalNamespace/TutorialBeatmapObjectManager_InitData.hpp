@@ -32,10 +32,8 @@ namespace GlobalNamespace {
     constexpr operator float() const noexcept {
       return cutAngleTolerance;
     }
-    // Get instance field: public readonly System.Single cutAngleTolerance
-    float _get_cutAngleTolerance();
-    // Set instance field: public readonly System.Single cutAngleTolerance
-    void _set_cutAngleTolerance(float value);
+    // Get instance field reference: public readonly System.Single cutAngleTolerance
+    float& dyn_cutAngleTolerance();
     // public System.Void .ctor(System.Single cutAngleTolerance)
     // Offset: 0x10998E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

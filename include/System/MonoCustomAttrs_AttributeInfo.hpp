@@ -41,14 +41,10 @@ namespace System {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: AttributeInfo
     AttributeInfo(System::AttributeUsageAttribute* usage_ = {}, int inheritanceLevel_ = {}) noexcept : usage{usage_}, inheritanceLevel{inheritanceLevel_} {}
-    // Get instance field: private System.AttributeUsageAttribute _usage
-    System::AttributeUsageAttribute* _get__usage();
-    // Set instance field: private System.AttributeUsageAttribute _usage
-    void _set__usage(System::AttributeUsageAttribute* value);
-    // Get instance field: private System.Int32 _inheritanceLevel
-    int _get__inheritanceLevel();
-    // Set instance field: private System.Int32 _inheritanceLevel
-    void _set__inheritanceLevel(int value);
+    // Get instance field reference: private System.AttributeUsageAttribute _usage
+    System::AttributeUsageAttribute*& dyn__usage();
+    // Get instance field reference: private System.Int32 _inheritanceLevel
+    int& dyn__inheritanceLevel();
     // public System.AttributeUsageAttribute get_Usage()
     // Offset: 0x18396E8
     System::AttributeUsageAttribute* get_Usage();

@@ -45,10 +45,8 @@ namespace Zenject::Internal {
     constexpr operator System::Reflection::ConstructorInfo*() const noexcept {
       return c;
     }
-    // Get instance field: public System.Reflection.ConstructorInfo c
-    System::Reflection::ConstructorInfo* _get_c();
-    // Set instance field: public System.Reflection.ConstructorInfo c
-    void _set_c(System::Reflection::ConstructorInfo* value);
+    // Get instance field reference: public System.Reflection.ConstructorInfo c
+    System::Reflection::ConstructorInfo*& dyn_c();
     // System.Boolean <TryGetInjectConstructor>b__3(System.Type a)
     // Offset: 0x1665DEC
     bool $TryGetInjectConstructor$b__3(System::Type* a);

@@ -44,10 +44,8 @@ namespace System {
     constexpr operator ::Il2CppString*() const noexcept {
       return typeName;
     }
-    // Get instance field: private System.String _typeName
-    ::Il2CppString* _get__typeName();
-    // Set instance field: private System.String _typeName
-    void _set__typeName(::Il2CppString* value);
+    // Get instance field reference: private System.String _typeName
+    ::Il2CppString*& dyn__typeName();
     // public System.String get_TypeName()
     // Offset: 0x232AD38
     ::Il2CppString* get_TypeName();

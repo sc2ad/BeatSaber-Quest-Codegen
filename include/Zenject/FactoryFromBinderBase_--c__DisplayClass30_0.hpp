@@ -52,18 +52,12 @@ namespace Zenject {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass30_0
     $$c__DisplayClass30_0(Zenject::FactoryFromBinderBase* $$4__this_ = {}, Zenject::GameObjectCreationParameters* gameObjectInfo_ = {}, ::Il2CppString* resourcePath_ = {}) noexcept : $$4__this{$$4__this_}, gameObjectInfo{gameObjectInfo_}, resourcePath{resourcePath_} {}
-    // Get instance field: public Zenject.FactoryFromBinderBase <>4__this
-    Zenject::FactoryFromBinderBase* _get_$$4__this();
-    // Set instance field: public Zenject.FactoryFromBinderBase <>4__this
-    void _set_$$4__this(Zenject::FactoryFromBinderBase* value);
-    // Get instance field: public Zenject.GameObjectCreationParameters gameObjectInfo
-    Zenject::GameObjectCreationParameters* _get_gameObjectInfo();
-    // Set instance field: public Zenject.GameObjectCreationParameters gameObjectInfo
-    void _set_gameObjectInfo(Zenject::GameObjectCreationParameters* value);
-    // Get instance field: public System.String resourcePath
-    ::Il2CppString* _get_resourcePath();
-    // Set instance field: public System.String resourcePath
-    void _set_resourcePath(::Il2CppString* value);
+    // Get instance field reference: public Zenject.FactoryFromBinderBase <>4__this
+    Zenject::FactoryFromBinderBase*& dyn_$$4__this();
+    // Get instance field reference: public Zenject.GameObjectCreationParameters gameObjectInfo
+    Zenject::GameObjectCreationParameters*& dyn_gameObjectInfo();
+    // Get instance field reference: public System.String resourcePath
+    ::Il2CppString*& dyn_resourcePath();
     // Zenject.IProvider <FromComponentInNewPrefabResource>b__0(Zenject.DiContainer container)
     // Offset: 0x1658530
     Zenject::IProvider* $FromComponentInNewPrefabResource$b__0(Zenject::DiContainer* container);

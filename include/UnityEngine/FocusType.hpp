@@ -51,10 +51,8 @@ namespace UnityEngine {
     static UnityEngine::FocusType _get_Passive();
     // Set static field: static public UnityEngine.FocusType Passive
     static void _set_Passive(UnityEngine::FocusType value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.FocusType
   #pragma pack(pop)
   static check_size<sizeof(FocusType), 0 + sizeof(int)> __UnityEngine_FocusTypeSizeCheck;

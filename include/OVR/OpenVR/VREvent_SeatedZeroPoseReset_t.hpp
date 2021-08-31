@@ -32,10 +32,8 @@ namespace OVR::OpenVR {
     constexpr operator bool() const noexcept {
       return bResetBySystemMenu;
     }
-    // Get instance field: public System.Boolean bResetBySystemMenu
-    bool _get_bResetBySystemMenu();
-    // Set instance field: public System.Boolean bResetBySystemMenu
-    void _set_bResetBySystemMenu(bool value);
+    // Get instance field reference: public System.Boolean bResetBySystemMenu
+    bool& dyn_bResetBySystemMenu();
   }; // OVR.OpenVR.VREvent_SeatedZeroPoseReset_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_SeatedZeroPoseReset_t), 0 + sizeof(bool)> __OVR_OpenVR_VREvent_SeatedZeroPoseReset_tSizeCheck;

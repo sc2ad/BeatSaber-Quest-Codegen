@@ -53,22 +53,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: InitData
     InitData(UnityEngine::AudioClip* audioClip_ = {}, float startSongTime_ = {}, float songTimeOffset_ = {}, float timeScale_ = {}) noexcept : audioClip{audioClip_}, startSongTime{startSongTime_}, songTimeOffset{songTimeOffset_}, timeScale{timeScale_} {}
-    // Get instance field: public readonly UnityEngine.AudioClip audioClip
-    UnityEngine::AudioClip* _get_audioClip();
-    // Set instance field: public readonly UnityEngine.AudioClip audioClip
-    void _set_audioClip(UnityEngine::AudioClip* value);
-    // Get instance field: public readonly System.Single startSongTime
-    float _get_startSongTime();
-    // Set instance field: public readonly System.Single startSongTime
-    void _set_startSongTime(float value);
-    // Get instance field: public readonly System.Single songTimeOffset
-    float _get_songTimeOffset();
-    // Set instance field: public readonly System.Single songTimeOffset
-    void _set_songTimeOffset(float value);
-    // Get instance field: public readonly System.Single timeScale
-    float _get_timeScale();
-    // Set instance field: public readonly System.Single timeScale
-    void _set_timeScale(float value);
+    // Get instance field reference: public readonly UnityEngine.AudioClip audioClip
+    UnityEngine::AudioClip*& dyn_audioClip();
+    // Get instance field reference: public readonly System.Single startSongTime
+    float& dyn_startSongTime();
+    // Get instance field reference: public readonly System.Single songTimeOffset
+    float& dyn_songTimeOffset();
+    // Get instance field reference: public readonly System.Single timeScale
+    float& dyn_timeScale();
     // public System.Void .ctor(UnityEngine.AudioClip audioClip, System.Single startSongTime, System.Single songTimeOffset, System.Single timeScale)
     // Offset: 0x106B100
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

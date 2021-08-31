@@ -51,18 +51,12 @@ namespace GlobalNamespace {
     ConditionalMove(UnityEngine::Vector3 offset_ = {}, GlobalNamespace::BoolSO* value_ = {}, bool activateOnFalse_ = {}) noexcept : offset{offset_}, value{value_}, activateOnFalse{activateOnFalse_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.Vector3 _offset
-    UnityEngine::Vector3 _get__offset();
-    // Set instance field: private UnityEngine.Vector3 _offset
-    void _set__offset(UnityEngine::Vector3 value);
-    // Get instance field: private BoolSO _value
-    GlobalNamespace::BoolSO* _get__value();
-    // Set instance field: private BoolSO _value
-    void _set__value(GlobalNamespace::BoolSO* value);
-    // Get instance field: private System.Boolean _activateOnFalse
-    bool _get__activateOnFalse();
-    // Set instance field: private System.Boolean _activateOnFalse
-    void _set__activateOnFalse(bool value);
+    // Get instance field reference: private UnityEngine.Vector3 _offset
+    UnityEngine::Vector3& dyn__offset();
+    // Get instance field reference: private BoolSO _value
+    GlobalNamespace::BoolSO*& dyn__value();
+    // Get instance field reference: private System.Boolean _activateOnFalse
+    bool& dyn__activateOnFalse();
     // protected System.Void Awake()
     // Offset: 0x10F268C
     void Awake();

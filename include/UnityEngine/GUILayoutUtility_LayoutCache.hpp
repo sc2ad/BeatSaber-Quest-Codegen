@@ -53,18 +53,12 @@ namespace UnityEngine {
     static_assert(sizeof(UnityEngine::GUILayoutGroup*) == 0x8);
     // Creating value type constructor for type: LayoutCache
     LayoutCache(UnityEngine::GUILayoutGroup* topLevel_ = {}, UnityEngineInternal::GenericStack* layoutGroups_ = {}, UnityEngine::GUILayoutGroup* windows_ = {}) noexcept : topLevel{topLevel_}, layoutGroups{layoutGroups_}, windows{windows_} {}
-    // Get instance field: UnityEngine.GUILayoutGroup topLevel
-    UnityEngine::GUILayoutGroup* _get_topLevel();
-    // Set instance field: UnityEngine.GUILayoutGroup topLevel
-    void _set_topLevel(UnityEngine::GUILayoutGroup* value);
-    // Get instance field: UnityEngineInternal.GenericStack layoutGroups
-    UnityEngineInternal::GenericStack* _get_layoutGroups();
-    // Set instance field: UnityEngineInternal.GenericStack layoutGroups
-    void _set_layoutGroups(UnityEngineInternal::GenericStack* value);
-    // Get instance field: UnityEngine.GUILayoutGroup windows
-    UnityEngine::GUILayoutGroup* _get_windows();
-    // Set instance field: UnityEngine.GUILayoutGroup windows
-    void _set_windows(UnityEngine::GUILayoutGroup* value);
+    // Get instance field reference: UnityEngine.GUILayoutGroup topLevel
+    UnityEngine::GUILayoutGroup*& dyn_topLevel();
+    // Get instance field reference: UnityEngineInternal.GenericStack layoutGroups
+    UnityEngineInternal::GenericStack*& dyn_layoutGroups();
+    // Get instance field reference: UnityEngine.GUILayoutGroup windows
+    UnityEngine::GUILayoutGroup*& dyn_windows();
     // System.Void .ctor()
     // Offset: 0x1B2FD78
     // Implemented from: System.Object

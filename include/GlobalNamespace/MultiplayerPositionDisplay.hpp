@@ -142,70 +142,38 @@ namespace GlobalNamespace {
     MultiplayerPositionDisplay(TMPro::TextMeshPro* text_ = {}, UnityEngine::Color normalColor_ = {}, UnityEngine::Color leadingColor_ = {}, UnityEngine::Color failedColor_ = {}, float fadeInDuration_ = {}, float crossFadeDuration_ = {}, float fadeOutDuration_ = {}, GlobalNamespace::MultiplayerScoreProvider* scoreProvider_ = {}, GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}, bool wasFirst_ = {}, bool isFailed_ = {}, bool updatingColor_ = {}, UnityEngine::Color startColor_ = {}, UnityEngine::Color targetColor_ = {}, float colorAnimationStartTime_ = {}, float colorAnimationStartDuration_ = {}) noexcept : text{text_}, normalColor{normalColor_}, leadingColor{leadingColor_}, failedColor{failedColor_}, fadeInDuration{fadeInDuration_}, crossFadeDuration{crossFadeDuration_}, fadeOutDuration{fadeOutDuration_}, scoreProvider{scoreProvider_}, connectedPlayer{connectedPlayer_}, wasFirst{wasFirst_}, isFailed{isFailed_}, updatingColor{updatingColor_}, startColor{startColor_}, targetColor{targetColor_}, colorAnimationStartTime{colorAnimationStartTime_}, colorAnimationStartDuration{colorAnimationStartDuration_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private TMPro.TextMeshPro _text
-    TMPro::TextMeshPro* _get__text();
-    // Set instance field: private TMPro.TextMeshPro _text
-    void _set__text(TMPro::TextMeshPro* value);
-    // Get instance field: private UnityEngine.Color _normalColor
-    UnityEngine::Color _get__normalColor();
-    // Set instance field: private UnityEngine.Color _normalColor
-    void _set__normalColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _leadingColor
-    UnityEngine::Color _get__leadingColor();
-    // Set instance field: private UnityEngine.Color _leadingColor
-    void _set__leadingColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _failedColor
-    UnityEngine::Color _get__failedColor();
-    // Set instance field: private UnityEngine.Color _failedColor
-    void _set__failedColor(UnityEngine::Color value);
-    // Get instance field: private System.Single _fadeInDuration
-    float _get__fadeInDuration();
-    // Set instance field: private System.Single _fadeInDuration
-    void _set__fadeInDuration(float value);
-    // Get instance field: private System.Single _crossFadeDuration
-    float _get__crossFadeDuration();
-    // Set instance field: private System.Single _crossFadeDuration
-    void _set__crossFadeDuration(float value);
-    // Get instance field: private System.Single _fadeOutDuration
-    float _get__fadeOutDuration();
-    // Set instance field: private System.Single _fadeOutDuration
-    void _set__fadeOutDuration(float value);
-    // Get instance field: private readonly MultiplayerScoreProvider _scoreProvider
-    GlobalNamespace::MultiplayerScoreProvider* _get__scoreProvider();
-    // Set instance field: private readonly MultiplayerScoreProvider _scoreProvider
-    void _set__scoreProvider(GlobalNamespace::MultiplayerScoreProvider* value);
-    // Get instance field: private readonly IConnectedPlayer _connectedPlayer
-    GlobalNamespace::IConnectedPlayer* _get__connectedPlayer();
-    // Set instance field: private readonly IConnectedPlayer _connectedPlayer
-    void _set__connectedPlayer(GlobalNamespace::IConnectedPlayer* value);
-    // Get instance field: private System.Boolean _wasFirst
-    bool _get__wasFirst();
-    // Set instance field: private System.Boolean _wasFirst
-    void _set__wasFirst(bool value);
-    // Get instance field: private System.Boolean _isFailed
-    bool _get__isFailed();
-    // Set instance field: private System.Boolean _isFailed
-    void _set__isFailed(bool value);
-    // Get instance field: private System.Boolean _updatingColor
-    bool _get__updatingColor();
-    // Set instance field: private System.Boolean _updatingColor
-    void _set__updatingColor(bool value);
-    // Get instance field: private UnityEngine.Color _startColor
-    UnityEngine::Color _get__startColor();
-    // Set instance field: private UnityEngine.Color _startColor
-    void _set__startColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _targetColor
-    UnityEngine::Color _get__targetColor();
-    // Set instance field: private UnityEngine.Color _targetColor
-    void _set__targetColor(UnityEngine::Color value);
-    // Get instance field: private System.Single _colorAnimationStartTime
-    float _get__colorAnimationStartTime();
-    // Set instance field: private System.Single _colorAnimationStartTime
-    void _set__colorAnimationStartTime(float value);
-    // Get instance field: private System.Single _colorAnimationStartDuration
-    float _get__colorAnimationStartDuration();
-    // Set instance field: private System.Single _colorAnimationStartDuration
-    void _set__colorAnimationStartDuration(float value);
+    // Get instance field reference: private TMPro.TextMeshPro _text
+    TMPro::TextMeshPro*& dyn__text();
+    // Get instance field reference: private UnityEngine.Color _normalColor
+    UnityEngine::Color& dyn__normalColor();
+    // Get instance field reference: private UnityEngine.Color _leadingColor
+    UnityEngine::Color& dyn__leadingColor();
+    // Get instance field reference: private UnityEngine.Color _failedColor
+    UnityEngine::Color& dyn__failedColor();
+    // Get instance field reference: private System.Single _fadeInDuration
+    float& dyn__fadeInDuration();
+    // Get instance field reference: private System.Single _crossFadeDuration
+    float& dyn__crossFadeDuration();
+    // Get instance field reference: private System.Single _fadeOutDuration
+    float& dyn__fadeOutDuration();
+    // Get instance field reference: private readonly MultiplayerScoreProvider _scoreProvider
+    GlobalNamespace::MultiplayerScoreProvider*& dyn__scoreProvider();
+    // Get instance field reference: private readonly IConnectedPlayer _connectedPlayer
+    GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
+    // Get instance field reference: private System.Boolean _wasFirst
+    bool& dyn__wasFirst();
+    // Get instance field reference: private System.Boolean _isFailed
+    bool& dyn__isFailed();
+    // Get instance field reference: private System.Boolean _updatingColor
+    bool& dyn__updatingColor();
+    // Get instance field reference: private UnityEngine.Color _startColor
+    UnityEngine::Color& dyn__startColor();
+    // Get instance field reference: private UnityEngine.Color _targetColor
+    UnityEngine::Color& dyn__targetColor();
+    // Get instance field reference: private System.Single _colorAnimationStartTime
+    float& dyn__colorAnimationStartTime();
+    // Get instance field reference: private System.Single _colorAnimationStartDuration
+    float& dyn__colorAnimationStartDuration();
     // protected System.Void Start()
     // Offset: 0x10757E4
     void Start();

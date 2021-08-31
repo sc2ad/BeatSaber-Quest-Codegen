@@ -102,42 +102,24 @@ namespace Org::BouncyCastle::Asn1::X509 {
     static_assert(sizeof(Org::BouncyCastle::Asn1::X509::X509Extensions*) == 0x8);
     // Creating value type constructor for type: AttributeCertificateInfo
     AttributeCertificateInfo(Org::BouncyCastle::Asn1::DerInteger* version_ = {}, Org::BouncyCastle::Asn1::X509::Holder* holder_ = {}, Org::BouncyCastle::Asn1::X509::AttCertIssuer* issuer_ = {}, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signature_ = {}, Org::BouncyCastle::Asn1::DerInteger* serialNumber_ = {}, Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod* attrCertValidityPeriod_ = {}, Org::BouncyCastle::Asn1::Asn1Sequence* attributes_ = {}, Org::BouncyCastle::Asn1::DerBitString* issuerUniqueID_ = {}, Org::BouncyCastle::Asn1::X509::X509Extensions* extensions_ = {}) noexcept : version{version_}, holder{holder_}, issuer{issuer_}, signature{signature_}, serialNumber{serialNumber_}, attrCertValidityPeriod{attrCertValidityPeriod_}, attributes{attributes_}, issuerUniqueID{issuerUniqueID_}, extensions{extensions_} {}
-    // Get instance field: readonly Org.BouncyCastle.Asn1.DerInteger version
-    Org::BouncyCastle::Asn1::DerInteger* _get_version();
-    // Set instance field: readonly Org.BouncyCastle.Asn1.DerInteger version
-    void _set_version(Org::BouncyCastle::Asn1::DerInteger* value);
-    // Get instance field: readonly Org.BouncyCastle.Asn1.X509.Holder holder
-    Org::BouncyCastle::Asn1::X509::Holder* _get_holder();
-    // Set instance field: readonly Org.BouncyCastle.Asn1.X509.Holder holder
-    void _set_holder(Org::BouncyCastle::Asn1::X509::Holder* value);
-    // Get instance field: readonly Org.BouncyCastle.Asn1.X509.AttCertIssuer issuer
-    Org::BouncyCastle::Asn1::X509::AttCertIssuer* _get_issuer();
-    // Set instance field: readonly Org.BouncyCastle.Asn1.X509.AttCertIssuer issuer
-    void _set_issuer(Org::BouncyCastle::Asn1::X509::AttCertIssuer* value);
-    // Get instance field: readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier signature
-    Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* _get_signature();
-    // Set instance field: readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier signature
-    void _set_signature(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
-    // Get instance field: readonly Org.BouncyCastle.Asn1.DerInteger serialNumber
-    Org::BouncyCastle::Asn1::DerInteger* _get_serialNumber();
-    // Set instance field: readonly Org.BouncyCastle.Asn1.DerInteger serialNumber
-    void _set_serialNumber(Org::BouncyCastle::Asn1::DerInteger* value);
-    // Get instance field: readonly Org.BouncyCastle.Asn1.X509.AttCertValidityPeriod attrCertValidityPeriod
-    Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod* _get_attrCertValidityPeriod();
-    // Set instance field: readonly Org.BouncyCastle.Asn1.X509.AttCertValidityPeriod attrCertValidityPeriod
-    void _set_attrCertValidityPeriod(Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod* value);
-    // Get instance field: readonly Org.BouncyCastle.Asn1.Asn1Sequence attributes
-    Org::BouncyCastle::Asn1::Asn1Sequence* _get_attributes();
-    // Set instance field: readonly Org.BouncyCastle.Asn1.Asn1Sequence attributes
-    void _set_attributes(Org::BouncyCastle::Asn1::Asn1Sequence* value);
-    // Get instance field: readonly Org.BouncyCastle.Asn1.DerBitString issuerUniqueID
-    Org::BouncyCastle::Asn1::DerBitString* _get_issuerUniqueID();
-    // Set instance field: readonly Org.BouncyCastle.Asn1.DerBitString issuerUniqueID
-    void _set_issuerUniqueID(Org::BouncyCastle::Asn1::DerBitString* value);
-    // Get instance field: readonly Org.BouncyCastle.Asn1.X509.X509Extensions extensions
-    Org::BouncyCastle::Asn1::X509::X509Extensions* _get_extensions();
-    // Set instance field: readonly Org.BouncyCastle.Asn1.X509.X509Extensions extensions
-    void _set_extensions(Org::BouncyCastle::Asn1::X509::X509Extensions* value);
+    // Get instance field reference: readonly Org.BouncyCastle.Asn1.DerInteger version
+    Org::BouncyCastle::Asn1::DerInteger*& dyn_version();
+    // Get instance field reference: readonly Org.BouncyCastle.Asn1.X509.Holder holder
+    Org::BouncyCastle::Asn1::X509::Holder*& dyn_holder();
+    // Get instance field reference: readonly Org.BouncyCastle.Asn1.X509.AttCertIssuer issuer
+    Org::BouncyCastle::Asn1::X509::AttCertIssuer*& dyn_issuer();
+    // Get instance field reference: readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier signature
+    Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& dyn_signature();
+    // Get instance field reference: readonly Org.BouncyCastle.Asn1.DerInteger serialNumber
+    Org::BouncyCastle::Asn1::DerInteger*& dyn_serialNumber();
+    // Get instance field reference: readonly Org.BouncyCastle.Asn1.X509.AttCertValidityPeriod attrCertValidityPeriod
+    Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod*& dyn_attrCertValidityPeriod();
+    // Get instance field reference: readonly Org.BouncyCastle.Asn1.Asn1Sequence attributes
+    Org::BouncyCastle::Asn1::Asn1Sequence*& dyn_attributes();
+    // Get instance field reference: readonly Org.BouncyCastle.Asn1.DerBitString issuerUniqueID
+    Org::BouncyCastle::Asn1::DerBitString*& dyn_issuerUniqueID();
+    // Get instance field reference: readonly Org.BouncyCastle.Asn1.X509.X509Extensions extensions
+    Org::BouncyCastle::Asn1::X509::X509Extensions*& dyn_extensions();
     // public Org.BouncyCastle.Asn1.X509.AttCertValidityPeriod get_AttrCertValidityPeriod()
     // Offset: 0x19F78D0
     Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod* get_AttrCertValidityPeriod();

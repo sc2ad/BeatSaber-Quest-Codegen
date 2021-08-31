@@ -39,10 +39,8 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::OVRHaptics::OVRHapticsOutput*() const noexcept {
       return m_output;
     }
-    // Get instance field: private OVRHaptics/OVRHapticsOutput m_output
-    GlobalNamespace::OVRHaptics::OVRHapticsOutput* _get_m_output();
-    // Set instance field: private OVRHaptics/OVRHapticsOutput m_output
-    void _set_m_output(GlobalNamespace::OVRHaptics::OVRHapticsOutput* value);
+    // Get instance field reference: private OVRHaptics/OVRHapticsOutput m_output
+    GlobalNamespace::OVRHaptics::OVRHapticsOutput*& dyn_m_output();
     // public System.Void .ctor(System.UInt32 outputIndex)
     // Offset: 0x1533F00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -32,10 +32,8 @@ namespace System {
     constexpr operator uint() const noexcept {
       return value;
     }
-    // Get instance field: public System.UInt32 value__
-    uint _get_value__();
-    // Set instance field: public System.UInt32 value__
-    void _set_value__(uint value);
+    // Get instance field reference: public System.UInt32 value__
+    uint& dyn_value__();
   }; // System.UInt32Enum
   #pragma pack(pop)
   static check_size<sizeof(UInt32Enum), 0 + sizeof(uint)> __System_UInt32EnumSizeCheck;

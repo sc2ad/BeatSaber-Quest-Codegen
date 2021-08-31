@@ -44,10 +44,8 @@ namespace Polyglot {
     static Polyglot::LanguageDirection _get_RightToLeft();
     // Set static field: static public Polyglot.LanguageDirection RightToLeft
     static void _set_RightToLeft(Polyglot::LanguageDirection value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Polyglot.LanguageDirection
   #pragma pack(pop)
   static check_size<sizeof(LanguageDirection), 0 + sizeof(int)> __Polyglot_LanguageDirectionSizeCheck;

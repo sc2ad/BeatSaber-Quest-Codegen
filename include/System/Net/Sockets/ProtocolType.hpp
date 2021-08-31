@@ -182,10 +182,8 @@ namespace System::Net::Sockets {
     static System::Net::Sockets::ProtocolType _get_Unknown();
     // Set static field: static public System.Net.Sockets.ProtocolType Unknown
     static void _set_Unknown(System::Net::Sockets::ProtocolType value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Net.Sockets.ProtocolType
   #pragma pack(pop)
   static check_size<sizeof(ProtocolType), 0 + sizeof(int)> __System_Net_Sockets_ProtocolTypeSizeCheck;

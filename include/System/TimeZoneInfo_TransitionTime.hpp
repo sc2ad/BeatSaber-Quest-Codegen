@@ -97,30 +97,18 @@ namespace System {
     operator System::Runtime::Serialization::IDeserializationCallback() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::IDeserializationCallback*>(this);
     }
-    // Get instance field: private System.DateTime m_timeOfDay
-    System::DateTime _get_m_timeOfDay();
-    // Set instance field: private System.DateTime m_timeOfDay
-    void _set_m_timeOfDay(System::DateTime value);
-    // Get instance field: private System.Byte m_month
-    uint8_t _get_m_month();
-    // Set instance field: private System.Byte m_month
-    void _set_m_month(uint8_t value);
-    // Get instance field: private System.Byte m_week
-    uint8_t _get_m_week();
-    // Set instance field: private System.Byte m_week
-    void _set_m_week(uint8_t value);
-    // Get instance field: private System.Byte m_day
-    uint8_t _get_m_day();
-    // Set instance field: private System.Byte m_day
-    void _set_m_day(uint8_t value);
-    // Get instance field: private System.DayOfWeek m_dayOfWeek
-    System::DayOfWeek _get_m_dayOfWeek();
-    // Set instance field: private System.DayOfWeek m_dayOfWeek
-    void _set_m_dayOfWeek(System::DayOfWeek value);
-    // Get instance field: private System.Boolean m_isFixedDateRule
-    bool _get_m_isFixedDateRule();
-    // Set instance field: private System.Boolean m_isFixedDateRule
-    void _set_m_isFixedDateRule(bool value);
+    // Get instance field reference: private System.DateTime m_timeOfDay
+    System::DateTime& dyn_m_timeOfDay();
+    // Get instance field reference: private System.Byte m_month
+    uint8_t& dyn_m_month();
+    // Get instance field reference: private System.Byte m_week
+    uint8_t& dyn_m_week();
+    // Get instance field reference: private System.Byte m_day
+    uint8_t& dyn_m_day();
+    // Get instance field reference: private System.DayOfWeek m_dayOfWeek
+    System::DayOfWeek& dyn_m_dayOfWeek();
+    // Get instance field reference: private System.Boolean m_isFixedDateRule
+    bool& dyn_m_isFixedDateRule();
     // public System.DateTime get_TimeOfDay()
     // Offset: 0x1889378
     System::DateTime get_TimeOfDay();

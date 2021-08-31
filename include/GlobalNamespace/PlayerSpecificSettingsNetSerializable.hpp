@@ -82,34 +82,20 @@ namespace GlobalNamespace {
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);
     }
-    // Get instance field: public System.String userId
-    ::Il2CppString* _get_userId();
-    // Set instance field: public System.String userId
-    void _set_userId(::Il2CppString* value);
-    // Get instance field: public System.String userName
-    ::Il2CppString* _get_userName();
-    // Set instance field: public System.String userName
-    void _set_userName(::Il2CppString* value);
-    // Get instance field: public System.Boolean leftHanded
-    bool _get_leftHanded();
-    // Set instance field: public System.Boolean leftHanded
-    void _set_leftHanded(bool value);
-    // Get instance field: public System.Boolean automaticPlayerHeight
-    bool _get_automaticPlayerHeight();
-    // Set instance field: public System.Boolean automaticPlayerHeight
-    void _set_automaticPlayerHeight(bool value);
-    // Get instance field: public System.Single playerHeight
-    float _get_playerHeight();
-    // Set instance field: public System.Single playerHeight
-    void _set_playerHeight(float value);
-    // Get instance field: public System.Single headPosToPlayerHeightOffset
-    float _get_headPosToPlayerHeightOffset();
-    // Set instance field: public System.Single headPosToPlayerHeightOffset
-    void _set_headPosToPlayerHeightOffset(float value);
-    // Get instance field: public ColorSchemeNetSerializable colorScheme
-    GlobalNamespace::ColorSchemeNetSerializable _get_colorScheme();
-    // Set instance field: public ColorSchemeNetSerializable colorScheme
-    void _set_colorScheme(GlobalNamespace::ColorSchemeNetSerializable value);
+    // Get instance field reference: public System.String userId
+    ::Il2CppString*& dyn_userId();
+    // Get instance field reference: public System.String userName
+    ::Il2CppString*& dyn_userName();
+    // Get instance field reference: public System.Boolean leftHanded
+    bool& dyn_leftHanded();
+    // Get instance field reference: public System.Boolean automaticPlayerHeight
+    bool& dyn_automaticPlayerHeight();
+    // Get instance field reference: public System.Single playerHeight
+    float& dyn_playerHeight();
+    // Get instance field reference: public System.Single headPosToPlayerHeightOffset
+    float& dyn_headPosToPlayerHeightOffset();
+    // Get instance field reference: public ColorSchemeNetSerializable colorScheme
+    GlobalNamespace::ColorSchemeNetSerializable& dyn_colorScheme();
     // public System.Void .ctor(System.String userId, System.String userName, System.Boolean leftHanded, System.Boolean automaticPlayerHeight, System.Single playerHeight, System.Single headPosToPlayerHeightOffset, UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color obstaclesColor, UnityEngine.Color environmentColor0, UnityEngine.Color environmentColor1, UnityEngine.Color environmentColor0Boost, UnityEngine.Color environmentColor1Boost)
     // Offset: 0x16F409C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

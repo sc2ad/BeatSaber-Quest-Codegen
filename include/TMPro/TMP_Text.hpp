@@ -151,10 +151,8 @@ namespace TMPro {
       static TMPro::TMP_Text::TextInputSources _get_String();
       // Set static field: static public TMPro.TMP_Text/TMPro.TextInputSources String
       static void _set_String(TMPro::TMP_Text::TextInputSources value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // TMPro.TMP_Text/TMPro.TextInputSources
     #pragma pack(pop)
     static check_size<sizeof(TMP_Text::TextInputSources), 0 + sizeof(int)> __TMPro_TMP_Text_TextInputSourcesSizeCheck;
@@ -190,18 +188,12 @@ namespace TMPro {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public System.Int32 unicode
-      int _get_unicode();
-      // Set instance field: public System.Int32 unicode
-      void _set_unicode(int value);
-      // Get instance field: public System.Int32 stringIndex
-      int _get_stringIndex();
-      // Set instance field: public System.Int32 stringIndex
-      void _set_stringIndex(int value);
-      // Get instance field: public System.Int32 length
-      int _get_length();
-      // Set instance field: public System.Int32 length
-      void _set_length(int value);
+      // Get instance field reference: public System.Int32 unicode
+      int& dyn_unicode();
+      // Get instance field reference: public System.Int32 stringIndex
+      int& dyn_stringIndex();
+      // Get instance field reference: public System.Int32 length
+      int& dyn_length();
     }; // TMPro.TMP_Text/TMPro.UnicodeChar
     #pragma pack(pop)
     static check_size<sizeof(TMP_Text::UnicodeChar), 8 + sizeof(int)> __TMPro_TMP_Text_UnicodeCharSizeCheck;
@@ -1402,802 +1394,404 @@ namespace TMPro {
     static int _get_k_LargeNegativeInt();
     // Set static field: static protected System.Int32 k_LargeNegativeInt
     static void _set_k_LargeNegativeInt(int value);
-    // Get instance field: protected System.String m_text
-    ::Il2CppString* _get_m_text();
-    // Set instance field: protected System.String m_text
-    void _set_m_text(::Il2CppString* value);
-    // Get instance field: protected System.Boolean m_isRightToLeft
-    bool _get_m_isRightToLeft();
-    // Set instance field: protected System.Boolean m_isRightToLeft
-    void _set_m_isRightToLeft(bool value);
-    // Get instance field: protected TMPro.TMP_FontAsset m_fontAsset
-    TMPro::TMP_FontAsset* _get_m_fontAsset();
-    // Set instance field: protected TMPro.TMP_FontAsset m_fontAsset
-    void _set_m_fontAsset(TMPro::TMP_FontAsset* value);
-    // Get instance field: protected TMPro.TMP_FontAsset m_currentFontAsset
-    TMPro::TMP_FontAsset* _get_m_currentFontAsset();
-    // Set instance field: protected TMPro.TMP_FontAsset m_currentFontAsset
-    void _set_m_currentFontAsset(TMPro::TMP_FontAsset* value);
-    // Get instance field: protected System.Boolean m_isSDFShader
-    bool _get_m_isSDFShader();
-    // Set instance field: protected System.Boolean m_isSDFShader
-    void _set_m_isSDFShader(bool value);
-    // Get instance field: protected UnityEngine.Material m_sharedMaterial
-    UnityEngine::Material* _get_m_sharedMaterial();
-    // Set instance field: protected UnityEngine.Material m_sharedMaterial
-    void _set_m_sharedMaterial(UnityEngine::Material* value);
-    // Get instance field: protected UnityEngine.Material m_currentMaterial
-    UnityEngine::Material* _get_m_currentMaterial();
-    // Set instance field: protected UnityEngine.Material m_currentMaterial
-    void _set_m_currentMaterial(UnityEngine::Material* value);
-    // Get instance field: protected TMPro.MaterialReference[] m_materialReferences
-    ::Array<TMPro::MaterialReference>* _get_m_materialReferences();
-    // Set instance field: protected TMPro.MaterialReference[] m_materialReferences
-    void _set_m_materialReferences(::Array<TMPro::MaterialReference>* value);
-    // Get instance field: protected System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_materialReferenceIndexLookup
-    System::Collections::Generic::Dictionary_2<int, int>* _get_m_materialReferenceIndexLookup();
-    // Set instance field: protected System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_materialReferenceIndexLookup
-    void _set_m_materialReferenceIndexLookup(System::Collections::Generic::Dictionary_2<int, int>* value);
-    // Get instance field: protected TMPro.TMP_RichTextTagStack`1<TMPro.MaterialReference> m_materialReferenceStack
-    TMPro::TMP_RichTextTagStack_1<TMPro::MaterialReference> _get_m_materialReferenceStack();
-    // Set instance field: protected TMPro.TMP_RichTextTagStack`1<TMPro.MaterialReference> m_materialReferenceStack
-    void _set_m_materialReferenceStack(TMPro::TMP_RichTextTagStack_1<TMPro::MaterialReference> value);
-    // Get instance field: protected System.Int32 m_currentMaterialIndex
-    int _get_m_currentMaterialIndex();
-    // Set instance field: protected System.Int32 m_currentMaterialIndex
-    void _set_m_currentMaterialIndex(int value);
-    // Get instance field: protected UnityEngine.Material[] m_fontSharedMaterials
-    ::Array<UnityEngine::Material*>* _get_m_fontSharedMaterials();
-    // Set instance field: protected UnityEngine.Material[] m_fontSharedMaterials
-    void _set_m_fontSharedMaterials(::Array<UnityEngine::Material*>* value);
-    // Get instance field: protected UnityEngine.Material m_fontMaterial
-    UnityEngine::Material* _get_m_fontMaterial();
-    // Set instance field: protected UnityEngine.Material m_fontMaterial
-    void _set_m_fontMaterial(UnityEngine::Material* value);
-    // Get instance field: protected UnityEngine.Material[] m_fontMaterials
-    ::Array<UnityEngine::Material*>* _get_m_fontMaterials();
-    // Set instance field: protected UnityEngine.Material[] m_fontMaterials
-    void _set_m_fontMaterials(::Array<UnityEngine::Material*>* value);
-    // Get instance field: protected System.Boolean m_isMaterialDirty
-    bool _get_m_isMaterialDirty();
-    // Set instance field: protected System.Boolean m_isMaterialDirty
-    void _set_m_isMaterialDirty(bool value);
-    // Get instance field: protected UnityEngine.Color32 m_fontColor32
-    UnityEngine::Color32 _get_m_fontColor32();
-    // Set instance field: protected UnityEngine.Color32 m_fontColor32
-    void _set_m_fontColor32(UnityEngine::Color32 value);
-    // Get instance field: protected UnityEngine.Color m_fontColor
-    UnityEngine::Color _get_m_fontColor();
-    // Set instance field: protected UnityEngine.Color m_fontColor
-    void _set_m_fontColor(UnityEngine::Color value);
-    // Get instance field: protected UnityEngine.Color32 m_underlineColor
-    UnityEngine::Color32 _get_m_underlineColor();
-    // Set instance field: protected UnityEngine.Color32 m_underlineColor
-    void _set_m_underlineColor(UnityEngine::Color32 value);
-    // Get instance field: protected UnityEngine.Color32 m_strikethroughColor
-    UnityEngine::Color32 _get_m_strikethroughColor();
-    // Set instance field: protected UnityEngine.Color32 m_strikethroughColor
-    void _set_m_strikethroughColor(UnityEngine::Color32 value);
-    // Get instance field: protected UnityEngine.Color32 m_highlightColor
-    UnityEngine::Color32 _get_m_highlightColor();
-    // Set instance field: protected UnityEngine.Color32 m_highlightColor
-    void _set_m_highlightColor(UnityEngine::Color32 value);
-    // Get instance field: protected UnityEngine.Vector4 m_highlightPadding
-    UnityEngine::Vector4 _get_m_highlightPadding();
-    // Set instance field: protected UnityEngine.Vector4 m_highlightPadding
-    void _set_m_highlightPadding(UnityEngine::Vector4 value);
-    // Get instance field: protected System.Boolean m_enableVertexGradient
-    bool _get_m_enableVertexGradient();
-    // Set instance field: protected System.Boolean m_enableVertexGradient
-    void _set_m_enableVertexGradient(bool value);
-    // Get instance field: protected TMPro.ColorMode m_colorMode
-    TMPro::ColorMode _get_m_colorMode();
-    // Set instance field: protected TMPro.ColorMode m_colorMode
-    void _set_m_colorMode(TMPro::ColorMode value);
-    // Get instance field: protected TMPro.VertexGradient m_fontColorGradient
-    TMPro::VertexGradient _get_m_fontColorGradient();
-    // Set instance field: protected TMPro.VertexGradient m_fontColorGradient
-    void _set_m_fontColorGradient(TMPro::VertexGradient value);
-    // Get instance field: protected TMPro.TMP_ColorGradient m_fontColorGradientPreset
-    TMPro::TMP_ColorGradient* _get_m_fontColorGradientPreset();
-    // Set instance field: protected TMPro.TMP_ColorGradient m_fontColorGradientPreset
-    void _set_m_fontColorGradientPreset(TMPro::TMP_ColorGradient* value);
-    // Get instance field: protected TMPro.TMP_SpriteAsset m_spriteAsset
-    TMPro::TMP_SpriteAsset* _get_m_spriteAsset();
-    // Set instance field: protected TMPro.TMP_SpriteAsset m_spriteAsset
-    void _set_m_spriteAsset(TMPro::TMP_SpriteAsset* value);
-    // Get instance field: protected System.Boolean m_tintAllSprites
-    bool _get_m_tintAllSprites();
-    // Set instance field: protected System.Boolean m_tintAllSprites
-    void _set_m_tintAllSprites(bool value);
-    // Get instance field: protected System.Boolean m_tintSprite
-    bool _get_m_tintSprite();
-    // Set instance field: protected System.Boolean m_tintSprite
-    void _set_m_tintSprite(bool value);
-    // Get instance field: protected UnityEngine.Color32 m_spriteColor
-    UnityEngine::Color32 _get_m_spriteColor();
-    // Set instance field: protected UnityEngine.Color32 m_spriteColor
-    void _set_m_spriteColor(UnityEngine::Color32 value);
-    // Get instance field: protected System.Boolean m_overrideHtmlColors
-    bool _get_m_overrideHtmlColors();
-    // Set instance field: protected System.Boolean m_overrideHtmlColors
-    void _set_m_overrideHtmlColors(bool value);
-    // Get instance field: protected UnityEngine.Color32 m_faceColor
-    UnityEngine::Color32 _get_m_faceColor();
-    // Set instance field: protected UnityEngine.Color32 m_faceColor
-    void _set_m_faceColor(UnityEngine::Color32 value);
-    // Get instance field: protected UnityEngine.Color32 m_outlineColor
-    UnityEngine::Color32 _get_m_outlineColor();
-    // Set instance field: protected UnityEngine.Color32 m_outlineColor
-    void _set_m_outlineColor(UnityEngine::Color32 value);
-    // Get instance field: protected System.Single m_outlineWidth
-    float _get_m_outlineWidth();
-    // Set instance field: protected System.Single m_outlineWidth
-    void _set_m_outlineWidth(float value);
-    // Get instance field: protected System.Single m_fontSize
-    float _get_m_fontSize();
-    // Set instance field: protected System.Single m_fontSize
-    void _set_m_fontSize(float value);
-    // Get instance field: protected System.Single m_currentFontSize
-    float _get_m_currentFontSize();
-    // Set instance field: protected System.Single m_currentFontSize
-    void _set_m_currentFontSize(float value);
-    // Get instance field: protected System.Single m_fontSizeBase
-    float _get_m_fontSizeBase();
-    // Set instance field: protected System.Single m_fontSizeBase
-    void _set_m_fontSizeBase(float value);
-    // Get instance field: protected TMPro.TMP_RichTextTagStack`1<System.Single> m_sizeStack
-    TMPro::TMP_RichTextTagStack_1<float> _get_m_sizeStack();
-    // Set instance field: protected TMPro.TMP_RichTextTagStack`1<System.Single> m_sizeStack
-    void _set_m_sizeStack(TMPro::TMP_RichTextTagStack_1<float> value);
-    // Get instance field: protected TMPro.FontWeight m_fontWeight
-    TMPro::FontWeight _get_m_fontWeight();
-    // Set instance field: protected TMPro.FontWeight m_fontWeight
-    void _set_m_fontWeight(TMPro::FontWeight value);
-    // Get instance field: protected TMPro.FontWeight m_FontWeightInternal
-    TMPro::FontWeight _get_m_FontWeightInternal();
-    // Set instance field: protected TMPro.FontWeight m_FontWeightInternal
-    void _set_m_FontWeightInternal(TMPro::FontWeight value);
-    // Get instance field: protected TMPro.TMP_RichTextTagStack`1<TMPro.FontWeight> m_FontWeightStack
-    TMPro::TMP_RichTextTagStack_1<TMPro::FontWeight> _get_m_FontWeightStack();
-    // Set instance field: protected TMPro.TMP_RichTextTagStack`1<TMPro.FontWeight> m_FontWeightStack
-    void _set_m_FontWeightStack(TMPro::TMP_RichTextTagStack_1<TMPro::FontWeight> value);
-    // Get instance field: protected System.Boolean m_enableAutoSizing
-    bool _get_m_enableAutoSizing();
-    // Set instance field: protected System.Boolean m_enableAutoSizing
-    void _set_m_enableAutoSizing(bool value);
-    // Get instance field: protected System.Single m_maxFontSize
-    float _get_m_maxFontSize();
-    // Set instance field: protected System.Single m_maxFontSize
-    void _set_m_maxFontSize(float value);
-    // Get instance field: protected System.Single m_minFontSize
-    float _get_m_minFontSize();
-    // Set instance field: protected System.Single m_minFontSize
-    void _set_m_minFontSize(float value);
-    // Get instance field: protected System.Single m_fontSizeMin
-    float _get_m_fontSizeMin();
-    // Set instance field: protected System.Single m_fontSizeMin
-    void _set_m_fontSizeMin(float value);
-    // Get instance field: protected System.Single m_fontSizeMax
-    float _get_m_fontSizeMax();
-    // Set instance field: protected System.Single m_fontSizeMax
-    void _set_m_fontSizeMax(float value);
-    // Get instance field: protected TMPro.FontStyles m_fontStyle
-    TMPro::FontStyles _get_m_fontStyle();
-    // Set instance field: protected TMPro.FontStyles m_fontStyle
-    void _set_m_fontStyle(TMPro::FontStyles value);
-    // Get instance field: protected TMPro.FontStyles m_FontStyleInternal
-    TMPro::FontStyles _get_m_FontStyleInternal();
-    // Set instance field: protected TMPro.FontStyles m_FontStyleInternal
-    void _set_m_FontStyleInternal(TMPro::FontStyles value);
-    // Get instance field: protected TMPro.TMP_FontStyleStack m_fontStyleStack
-    TMPro::TMP_FontStyleStack _get_m_fontStyleStack();
-    // Set instance field: protected TMPro.TMP_FontStyleStack m_fontStyleStack
-    void _set_m_fontStyleStack(TMPro::TMP_FontStyleStack value);
-    // Get instance field: protected System.Boolean m_isUsingBold
-    bool _get_m_isUsingBold();
-    // Set instance field: protected System.Boolean m_isUsingBold
-    void _set_m_isUsingBold(bool value);
-    // Get instance field: protected TMPro.TextAlignmentOptions m_textAlignment
-    TMPro::TextAlignmentOptions _get_m_textAlignment();
-    // Set instance field: protected TMPro.TextAlignmentOptions m_textAlignment
-    void _set_m_textAlignment(TMPro::TextAlignmentOptions value);
-    // Get instance field: protected TMPro.TextAlignmentOptions m_lineJustification
-    TMPro::TextAlignmentOptions _get_m_lineJustification();
-    // Set instance field: protected TMPro.TextAlignmentOptions m_lineJustification
-    void _set_m_lineJustification(TMPro::TextAlignmentOptions value);
-    // Get instance field: protected TMPro.TMP_RichTextTagStack`1<TMPro.TextAlignmentOptions> m_lineJustificationStack
-    TMPro::TMP_RichTextTagStack_1<TMPro::TextAlignmentOptions> _get_m_lineJustificationStack();
-    // Set instance field: protected TMPro.TMP_RichTextTagStack`1<TMPro.TextAlignmentOptions> m_lineJustificationStack
-    void _set_m_lineJustificationStack(TMPro::TMP_RichTextTagStack_1<TMPro::TextAlignmentOptions> value);
-    // Get instance field: protected UnityEngine.Vector3[] m_textContainerLocalCorners
-    ::Array<UnityEngine::Vector3>* _get_m_textContainerLocalCorners();
-    // Set instance field: protected UnityEngine.Vector3[] m_textContainerLocalCorners
-    void _set_m_textContainerLocalCorners(::Array<UnityEngine::Vector3>* value);
-    // Get instance field: protected System.Single m_characterSpacing
-    float _get_m_characterSpacing();
-    // Set instance field: protected System.Single m_characterSpacing
-    void _set_m_characterSpacing(float value);
-    // Get instance field: protected System.Single m_cSpacing
-    float _get_m_cSpacing();
-    // Set instance field: protected System.Single m_cSpacing
-    void _set_m_cSpacing(float value);
-    // Get instance field: protected System.Single m_monoSpacing
-    float _get_m_monoSpacing();
-    // Set instance field: protected System.Single m_monoSpacing
-    void _set_m_monoSpacing(float value);
-    // Get instance field: protected System.Single m_wordSpacing
-    float _get_m_wordSpacing();
-    // Set instance field: protected System.Single m_wordSpacing
-    void _set_m_wordSpacing(float value);
-    // Get instance field: protected System.Single m_lineSpacing
-    float _get_m_lineSpacing();
-    // Set instance field: protected System.Single m_lineSpacing
-    void _set_m_lineSpacing(float value);
-    // Get instance field: protected System.Single m_lineSpacingDelta
-    float _get_m_lineSpacingDelta();
-    // Set instance field: protected System.Single m_lineSpacingDelta
-    void _set_m_lineSpacingDelta(float value);
-    // Get instance field: protected System.Single m_lineHeight
-    float _get_m_lineHeight();
-    // Set instance field: protected System.Single m_lineHeight
-    void _set_m_lineHeight(float value);
-    // Get instance field: protected System.Single m_lineSpacingMax
-    float _get_m_lineSpacingMax();
-    // Set instance field: protected System.Single m_lineSpacingMax
-    void _set_m_lineSpacingMax(float value);
-    // Get instance field: protected System.Single m_paragraphSpacing
-    float _get_m_paragraphSpacing();
-    // Set instance field: protected System.Single m_paragraphSpacing
-    void _set_m_paragraphSpacing(float value);
-    // Get instance field: protected System.Single m_charWidthMaxAdj
-    float _get_m_charWidthMaxAdj();
-    // Set instance field: protected System.Single m_charWidthMaxAdj
-    void _set_m_charWidthMaxAdj(float value);
-    // Get instance field: protected System.Single m_charWidthAdjDelta
-    float _get_m_charWidthAdjDelta();
-    // Set instance field: protected System.Single m_charWidthAdjDelta
-    void _set_m_charWidthAdjDelta(float value);
-    // Get instance field: protected System.Boolean m_enableWordWrapping
-    bool _get_m_enableWordWrapping();
-    // Set instance field: protected System.Boolean m_enableWordWrapping
-    void _set_m_enableWordWrapping(bool value);
-    // Get instance field: protected System.Boolean m_isCharacterWrappingEnabled
-    bool _get_m_isCharacterWrappingEnabled();
-    // Set instance field: protected System.Boolean m_isCharacterWrappingEnabled
-    void _set_m_isCharacterWrappingEnabled(bool value);
-    // Get instance field: protected System.Boolean m_isNonBreakingSpace
-    bool _get_m_isNonBreakingSpace();
-    // Set instance field: protected System.Boolean m_isNonBreakingSpace
-    void _set_m_isNonBreakingSpace(bool value);
-    // Get instance field: protected System.Boolean m_isIgnoringAlignment
-    bool _get_m_isIgnoringAlignment();
-    // Set instance field: protected System.Boolean m_isIgnoringAlignment
-    void _set_m_isIgnoringAlignment(bool value);
-    // Get instance field: protected System.Single m_wordWrappingRatios
-    float _get_m_wordWrappingRatios();
-    // Set instance field: protected System.Single m_wordWrappingRatios
-    void _set_m_wordWrappingRatios(float value);
-    // Get instance field: protected TMPro.TextOverflowModes m_overflowMode
-    TMPro::TextOverflowModes _get_m_overflowMode();
-    // Set instance field: protected TMPro.TextOverflowModes m_overflowMode
-    void _set_m_overflowMode(TMPro::TextOverflowModes value);
-    // Get instance field: protected System.Int32 m_firstOverflowCharacterIndex
-    int _get_m_firstOverflowCharacterIndex();
-    // Set instance field: protected System.Int32 m_firstOverflowCharacterIndex
-    void _set_m_firstOverflowCharacterIndex(int value);
-    // Get instance field: protected TMPro.TMP_Text m_linkedTextComponent
-    TMPro::TMP_Text* _get_m_linkedTextComponent();
-    // Set instance field: protected TMPro.TMP_Text m_linkedTextComponent
-    void _set_m_linkedTextComponent(TMPro::TMP_Text* value);
-    // Get instance field: protected System.Boolean m_isLinkedTextComponent
-    bool _get_m_isLinkedTextComponent();
-    // Set instance field: protected System.Boolean m_isLinkedTextComponent
-    void _set_m_isLinkedTextComponent(bool value);
-    // Get instance field: protected System.Boolean m_isTextTruncated
-    bool _get_m_isTextTruncated();
-    // Set instance field: protected System.Boolean m_isTextTruncated
-    void _set_m_isTextTruncated(bool value);
-    // Get instance field: protected System.Boolean m_enableKerning
-    bool _get_m_enableKerning();
-    // Set instance field: protected System.Boolean m_enableKerning
-    void _set_m_enableKerning(bool value);
-    // Get instance field: protected System.Boolean m_enableExtraPadding
-    bool _get_m_enableExtraPadding();
-    // Set instance field: protected System.Boolean m_enableExtraPadding
-    void _set_m_enableExtraPadding(bool value);
-    // Get instance field: protected System.Boolean checkPaddingRequired
-    bool _get_checkPaddingRequired();
-    // Set instance field: protected System.Boolean checkPaddingRequired
-    void _set_checkPaddingRequired(bool value);
-    // Get instance field: protected System.Boolean m_isRichText
-    bool _get_m_isRichText();
-    // Set instance field: protected System.Boolean m_isRichText
-    void _set_m_isRichText(bool value);
-    // Get instance field: protected System.Boolean m_parseCtrlCharacters
-    bool _get_m_parseCtrlCharacters();
-    // Set instance field: protected System.Boolean m_parseCtrlCharacters
-    void _set_m_parseCtrlCharacters(bool value);
-    // Get instance field: protected System.Boolean m_isOverlay
-    bool _get_m_isOverlay();
-    // Set instance field: protected System.Boolean m_isOverlay
-    void _set_m_isOverlay(bool value);
-    // Get instance field: protected System.Boolean m_isOrthographic
-    bool _get_m_isOrthographic();
-    // Set instance field: protected System.Boolean m_isOrthographic
-    void _set_m_isOrthographic(bool value);
-    // Get instance field: protected System.Boolean m_isCullingEnabled
-    bool _get_m_isCullingEnabled();
-    // Set instance field: protected System.Boolean m_isCullingEnabled
-    void _set_m_isCullingEnabled(bool value);
-    // Get instance field: protected System.Boolean m_ignoreRectMaskCulling
-    bool _get_m_ignoreRectMaskCulling();
-    // Set instance field: protected System.Boolean m_ignoreRectMaskCulling
-    void _set_m_ignoreRectMaskCulling(bool value);
-    // Get instance field: protected System.Boolean m_ignoreCulling
-    bool _get_m_ignoreCulling();
-    // Set instance field: protected System.Boolean m_ignoreCulling
-    void _set_m_ignoreCulling(bool value);
-    // Get instance field: protected TMPro.TextureMappingOptions m_horizontalMapping
-    TMPro::TextureMappingOptions _get_m_horizontalMapping();
-    // Set instance field: protected TMPro.TextureMappingOptions m_horizontalMapping
-    void _set_m_horizontalMapping(TMPro::TextureMappingOptions value);
-    // Get instance field: protected TMPro.TextureMappingOptions m_verticalMapping
-    TMPro::TextureMappingOptions _get_m_verticalMapping();
-    // Set instance field: protected TMPro.TextureMappingOptions m_verticalMapping
-    void _set_m_verticalMapping(TMPro::TextureMappingOptions value);
-    // Get instance field: protected System.Single m_uvLineOffset
-    float _get_m_uvLineOffset();
-    // Set instance field: protected System.Single m_uvLineOffset
-    void _set_m_uvLineOffset(float value);
-    // Get instance field: protected TMPro.TextRenderFlags m_renderMode
-    TMPro::TextRenderFlags _get_m_renderMode();
-    // Set instance field: protected TMPro.TextRenderFlags m_renderMode
-    void _set_m_renderMode(TMPro::TextRenderFlags value);
-    // Get instance field: protected TMPro.VertexSortingOrder m_geometrySortingOrder
-    TMPro::VertexSortingOrder _get_m_geometrySortingOrder();
-    // Set instance field: protected TMPro.VertexSortingOrder m_geometrySortingOrder
-    void _set_m_geometrySortingOrder(TMPro::VertexSortingOrder value);
-    // Get instance field: protected System.Boolean m_VertexBufferAutoSizeReduction
-    bool _get_m_VertexBufferAutoSizeReduction();
-    // Set instance field: protected System.Boolean m_VertexBufferAutoSizeReduction
-    void _set_m_VertexBufferAutoSizeReduction(bool value);
-    // Get instance field: protected System.Int32 m_firstVisibleCharacter
-    int _get_m_firstVisibleCharacter();
-    // Set instance field: protected System.Int32 m_firstVisibleCharacter
-    void _set_m_firstVisibleCharacter(int value);
-    // Get instance field: protected System.Int32 m_maxVisibleCharacters
-    int _get_m_maxVisibleCharacters();
-    // Set instance field: protected System.Int32 m_maxVisibleCharacters
-    void _set_m_maxVisibleCharacters(int value);
-    // Get instance field: protected System.Int32 m_maxVisibleWords
-    int _get_m_maxVisibleWords();
-    // Set instance field: protected System.Int32 m_maxVisibleWords
-    void _set_m_maxVisibleWords(int value);
-    // Get instance field: protected System.Int32 m_maxVisibleLines
-    int _get_m_maxVisibleLines();
-    // Set instance field: protected System.Int32 m_maxVisibleLines
-    void _set_m_maxVisibleLines(int value);
-    // Get instance field: protected System.Boolean m_useMaxVisibleDescender
-    bool _get_m_useMaxVisibleDescender();
-    // Set instance field: protected System.Boolean m_useMaxVisibleDescender
-    void _set_m_useMaxVisibleDescender(bool value);
-    // Get instance field: protected System.Int32 m_pageToDisplay
-    int _get_m_pageToDisplay();
-    // Set instance field: protected System.Int32 m_pageToDisplay
-    void _set_m_pageToDisplay(int value);
-    // Get instance field: protected System.Boolean m_isNewPage
-    bool _get_m_isNewPage();
-    // Set instance field: protected System.Boolean m_isNewPage
-    void _set_m_isNewPage(bool value);
-    // Get instance field: protected UnityEngine.Vector4 m_margin
-    UnityEngine::Vector4 _get_m_margin();
-    // Set instance field: protected UnityEngine.Vector4 m_margin
-    void _set_m_margin(UnityEngine::Vector4 value);
-    // Get instance field: protected System.Single m_marginLeft
-    float _get_m_marginLeft();
-    // Set instance field: protected System.Single m_marginLeft
-    void _set_m_marginLeft(float value);
-    // Get instance field: protected System.Single m_marginRight
-    float _get_m_marginRight();
-    // Set instance field: protected System.Single m_marginRight
-    void _set_m_marginRight(float value);
-    // Get instance field: protected System.Single m_marginWidth
-    float _get_m_marginWidth();
-    // Set instance field: protected System.Single m_marginWidth
-    void _set_m_marginWidth(float value);
-    // Get instance field: protected System.Single m_marginHeight
-    float _get_m_marginHeight();
-    // Set instance field: protected System.Single m_marginHeight
-    void _set_m_marginHeight(float value);
-    // Get instance field: protected System.Single m_width
-    float _get_m_width();
-    // Set instance field: protected System.Single m_width
-    void _set_m_width(float value);
-    // Get instance field: protected TMPro.TMP_TextInfo m_textInfo
-    TMPro::TMP_TextInfo* _get_m_textInfo();
-    // Set instance field: protected TMPro.TMP_TextInfo m_textInfo
-    void _set_m_textInfo(TMPro::TMP_TextInfo* value);
-    // Get instance field: protected System.Boolean m_havePropertiesChanged
-    bool _get_m_havePropertiesChanged();
-    // Set instance field: protected System.Boolean m_havePropertiesChanged
-    void _set_m_havePropertiesChanged(bool value);
-    // Get instance field: protected System.Boolean m_isUsingLegacyAnimationComponent
-    bool _get_m_isUsingLegacyAnimationComponent();
-    // Set instance field: protected System.Boolean m_isUsingLegacyAnimationComponent
-    void _set_m_isUsingLegacyAnimationComponent(bool value);
-    // Get instance field: protected UnityEngine.Transform m_transform
-    UnityEngine::Transform* _get_m_transform();
-    // Set instance field: protected UnityEngine.Transform m_transform
-    void _set_m_transform(UnityEngine::Transform* value);
-    // Get instance field: protected UnityEngine.RectTransform m_rectTransform
-    UnityEngine::RectTransform* _get_m_rectTransform();
-    // Set instance field: protected UnityEngine.RectTransform m_rectTransform
-    void _set_m_rectTransform(UnityEngine::RectTransform* value);
-    // Get instance field: private System.Boolean <autoSizeTextContainer>k__BackingField
-    bool _get_$autoSizeTextContainer$k__BackingField();
-    // Set instance field: private System.Boolean <autoSizeTextContainer>k__BackingField
-    void _set_$autoSizeTextContainer$k__BackingField(bool value);
-    // Get instance field: protected System.Boolean m_autoSizeTextContainer
-    bool _get_m_autoSizeTextContainer();
-    // Set instance field: protected System.Boolean m_autoSizeTextContainer
-    void _set_m_autoSizeTextContainer(bool value);
-    // Get instance field: protected UnityEngine.Mesh m_mesh
-    UnityEngine::Mesh* _get_m_mesh();
-    // Set instance field: protected UnityEngine.Mesh m_mesh
-    void _set_m_mesh(UnityEngine::Mesh* value);
-    // Get instance field: protected System.Boolean m_isVolumetricText
-    bool _get_m_isVolumetricText();
-    // Set instance field: protected System.Boolean m_isVolumetricText
-    void _set_m_isVolumetricText(bool value);
-    // Get instance field: protected TMPro.TMP_SpriteAnimator m_spriteAnimator
-    TMPro::TMP_SpriteAnimator* _get_m_spriteAnimator();
-    // Set instance field: protected TMPro.TMP_SpriteAnimator m_spriteAnimator
-    void _set_m_spriteAnimator(TMPro::TMP_SpriteAnimator* value);
-    // Get instance field: protected System.Single m_flexibleHeight
-    float _get_m_flexibleHeight();
-    // Set instance field: protected System.Single m_flexibleHeight
-    void _set_m_flexibleHeight(float value);
-    // Get instance field: protected System.Single m_flexibleWidth
-    float _get_m_flexibleWidth();
-    // Set instance field: protected System.Single m_flexibleWidth
-    void _set_m_flexibleWidth(float value);
-    // Get instance field: protected System.Single m_minWidth
-    float _get_m_minWidth();
-    // Set instance field: protected System.Single m_minWidth
-    void _set_m_minWidth(float value);
-    // Get instance field: protected System.Single m_minHeight
-    float _get_m_minHeight();
-    // Set instance field: protected System.Single m_minHeight
-    void _set_m_minHeight(float value);
-    // Get instance field: protected System.Single m_maxWidth
-    float _get_m_maxWidth();
-    // Set instance field: protected System.Single m_maxWidth
-    void _set_m_maxWidth(float value);
-    // Get instance field: protected System.Single m_maxHeight
-    float _get_m_maxHeight();
-    // Set instance field: protected System.Single m_maxHeight
-    void _set_m_maxHeight(float value);
-    // Get instance field: protected UnityEngine.UI.LayoutElement m_LayoutElement
-    UnityEngine::UI::LayoutElement* _get_m_LayoutElement();
-    // Set instance field: protected UnityEngine.UI.LayoutElement m_LayoutElement
-    void _set_m_LayoutElement(UnityEngine::UI::LayoutElement* value);
-    // Get instance field: protected System.Single m_preferredWidth
-    float _get_m_preferredWidth();
-    // Set instance field: protected System.Single m_preferredWidth
-    void _set_m_preferredWidth(float value);
-    // Get instance field: protected System.Single m_renderedWidth
-    float _get_m_renderedWidth();
-    // Set instance field: protected System.Single m_renderedWidth
-    void _set_m_renderedWidth(float value);
-    // Get instance field: protected System.Boolean m_isPreferredWidthDirty
-    bool _get_m_isPreferredWidthDirty();
-    // Set instance field: protected System.Boolean m_isPreferredWidthDirty
-    void _set_m_isPreferredWidthDirty(bool value);
-    // Get instance field: protected System.Single m_preferredHeight
-    float _get_m_preferredHeight();
-    // Set instance field: protected System.Single m_preferredHeight
-    void _set_m_preferredHeight(float value);
-    // Get instance field: protected System.Single m_renderedHeight
-    float _get_m_renderedHeight();
-    // Set instance field: protected System.Single m_renderedHeight
-    void _set_m_renderedHeight(float value);
-    // Get instance field: protected System.Boolean m_isPreferredHeightDirty
-    bool _get_m_isPreferredHeightDirty();
-    // Set instance field: protected System.Boolean m_isPreferredHeightDirty
-    void _set_m_isPreferredHeightDirty(bool value);
-    // Get instance field: protected System.Boolean m_isCalculatingPreferredValues
-    bool _get_m_isCalculatingPreferredValues();
-    // Set instance field: protected System.Boolean m_isCalculatingPreferredValues
-    void _set_m_isCalculatingPreferredValues(bool value);
-    // Get instance field: private System.Int32 m_recursiveCount
-    int _get_m_recursiveCount();
-    // Set instance field: private System.Int32 m_recursiveCount
-    void _set_m_recursiveCount(int value);
-    // Get instance field: protected System.Int32 m_layoutPriority
-    int _get_m_layoutPriority();
-    // Set instance field: protected System.Int32 m_layoutPriority
-    void _set_m_layoutPriority(int value);
-    // Get instance field: protected System.Boolean m_isCalculateSizeRequired
-    bool _get_m_isCalculateSizeRequired();
-    // Set instance field: protected System.Boolean m_isCalculateSizeRequired
-    void _set_m_isCalculateSizeRequired(bool value);
-    // Get instance field: protected System.Boolean m_isLayoutDirty
-    bool _get_m_isLayoutDirty();
-    // Set instance field: protected System.Boolean m_isLayoutDirty
-    void _set_m_isLayoutDirty(bool value);
-    // Get instance field: protected System.Boolean m_verticesAlreadyDirty
-    bool _get_m_verticesAlreadyDirty();
-    // Set instance field: protected System.Boolean m_verticesAlreadyDirty
-    void _set_m_verticesAlreadyDirty(bool value);
-    // Get instance field: protected System.Boolean m_layoutAlreadyDirty
-    bool _get_m_layoutAlreadyDirty();
-    // Set instance field: protected System.Boolean m_layoutAlreadyDirty
-    void _set_m_layoutAlreadyDirty(bool value);
-    // Get instance field: protected System.Boolean m_isAwake
-    bool _get_m_isAwake();
-    // Set instance field: protected System.Boolean m_isAwake
-    void _set_m_isAwake(bool value);
-    // Get instance field: System.Boolean m_isWaitingOnResourceLoad
-    bool _get_m_isWaitingOnResourceLoad();
-    // Set instance field: System.Boolean m_isWaitingOnResourceLoad
-    void _set_m_isWaitingOnResourceLoad(bool value);
-    // Get instance field: System.Boolean m_isInputParsingRequired
-    bool _get_m_isInputParsingRequired();
-    // Set instance field: System.Boolean m_isInputParsingRequired
-    void _set_m_isInputParsingRequired(bool value);
-    // Get instance field: TMPro.TMP_Text/TMPro.TextInputSources m_inputSource
-    TMPro::TMP_Text::TextInputSources _get_m_inputSource();
-    // Set instance field: TMPro.TMP_Text/TMPro.TextInputSources m_inputSource
-    void _set_m_inputSource(TMPro::TMP_Text::TextInputSources value);
-    // Get instance field: protected System.String old_text
-    ::Il2CppString* _get_old_text();
-    // Set instance field: protected System.String old_text
-    void _set_old_text(::Il2CppString* value);
-    // Get instance field: protected System.Single m_fontScale
-    float _get_m_fontScale();
-    // Set instance field: protected System.Single m_fontScale
-    void _set_m_fontScale(float value);
-    // Get instance field: protected System.Single m_fontScaleMultiplier
-    float _get_m_fontScaleMultiplier();
-    // Set instance field: protected System.Single m_fontScaleMultiplier
-    void _set_m_fontScaleMultiplier(float value);
-    // Get instance field: protected System.Char[] m_htmlTag
-    ::Array<::Il2CppChar>* _get_m_htmlTag();
-    // Set instance field: protected System.Char[] m_htmlTag
-    void _set_m_htmlTag(::Array<::Il2CppChar>* value);
-    // Get instance field: protected TMPro.RichTextTagAttribute[] m_xmlAttribute
-    ::Array<TMPro::RichTextTagAttribute>* _get_m_xmlAttribute();
-    // Set instance field: protected TMPro.RichTextTagAttribute[] m_xmlAttribute
-    void _set_m_xmlAttribute(::Array<TMPro::RichTextTagAttribute>* value);
-    // Get instance field: protected System.Single[] m_attributeParameterValues
-    ::Array<float>* _get_m_attributeParameterValues();
-    // Set instance field: protected System.Single[] m_attributeParameterValues
-    void _set_m_attributeParameterValues(::Array<float>* value);
-    // Get instance field: protected System.Single tag_LineIndent
-    float _get_tag_LineIndent();
-    // Set instance field: protected System.Single tag_LineIndent
-    void _set_tag_LineIndent(float value);
-    // Get instance field: protected System.Single tag_Indent
-    float _get_tag_Indent();
-    // Set instance field: protected System.Single tag_Indent
-    void _set_tag_Indent(float value);
-    // Get instance field: protected TMPro.TMP_RichTextTagStack`1<System.Single> m_indentStack
-    TMPro::TMP_RichTextTagStack_1<float> _get_m_indentStack();
-    // Set instance field: protected TMPro.TMP_RichTextTagStack`1<System.Single> m_indentStack
-    void _set_m_indentStack(TMPro::TMP_RichTextTagStack_1<float> value);
-    // Get instance field: protected System.Boolean tag_NoParsing
-    bool _get_tag_NoParsing();
-    // Set instance field: protected System.Boolean tag_NoParsing
-    void _set_tag_NoParsing(bool value);
-    // Get instance field: protected System.Boolean m_isParsingText
-    bool _get_m_isParsingText();
-    // Set instance field: protected System.Boolean m_isParsingText
-    void _set_m_isParsingText(bool value);
-    // Get instance field: protected UnityEngine.Matrix4x4 m_FXMatrix
-    UnityEngine::Matrix4x4 _get_m_FXMatrix();
-    // Set instance field: protected UnityEngine.Matrix4x4 m_FXMatrix
-    void _set_m_FXMatrix(UnityEngine::Matrix4x4 value);
-    // Get instance field: protected System.Boolean m_isFXMatrixSet
-    bool _get_m_isFXMatrixSet();
-    // Set instance field: protected System.Boolean m_isFXMatrixSet
-    void _set_m_isFXMatrixSet(bool value);
-    // Get instance field: protected TMPro.TMP_Text/TMPro.UnicodeChar[] m_TextParsingBuffer
-    ::Array<TMPro::TMP_Text::UnicodeChar>* _get_m_TextParsingBuffer();
-    // Set instance field: protected TMPro.TMP_Text/TMPro.UnicodeChar[] m_TextParsingBuffer
-    void _set_m_TextParsingBuffer(::Array<TMPro::TMP_Text::UnicodeChar>* value);
-    // Get instance field: private TMPro.TMP_CharacterInfo[] m_internalCharacterInfo
-    ::Array<TMPro::TMP_CharacterInfo>* _get_m_internalCharacterInfo();
-    // Set instance field: private TMPro.TMP_CharacterInfo[] m_internalCharacterInfo
-    void _set_m_internalCharacterInfo(::Array<TMPro::TMP_CharacterInfo>* value);
-    // Get instance field: protected System.Char[] m_input_CharArray
-    ::Array<::Il2CppChar>* _get_m_input_CharArray();
-    // Set instance field: protected System.Char[] m_input_CharArray
-    void _set_m_input_CharArray(::Array<::Il2CppChar>* value);
-    // Get instance field: private System.Int32 m_charArray_Length
-    int _get_m_charArray_Length();
-    // Set instance field: private System.Int32 m_charArray_Length
-    void _set_m_charArray_Length(int value);
-    // Get instance field: protected System.Int32 m_totalCharacterCount
-    int _get_m_totalCharacterCount();
-    // Set instance field: protected System.Int32 m_totalCharacterCount
-    void _set_m_totalCharacterCount(int value);
-    // Get instance field: protected TMPro.WordWrapState m_SavedWordWrapState
-    TMPro::WordWrapState _get_m_SavedWordWrapState();
-    // Set instance field: protected TMPro.WordWrapState m_SavedWordWrapState
-    void _set_m_SavedWordWrapState(TMPro::WordWrapState value);
-    // Get instance field: protected TMPro.WordWrapState m_SavedLineState
-    TMPro::WordWrapState _get_m_SavedLineState();
-    // Set instance field: protected TMPro.WordWrapState m_SavedLineState
-    void _set_m_SavedLineState(TMPro::WordWrapState value);
-    // Get instance field: protected System.Int32 m_characterCount
-    int _get_m_characterCount();
-    // Set instance field: protected System.Int32 m_characterCount
-    void _set_m_characterCount(int value);
-    // Get instance field: protected System.Int32 m_firstCharacterOfLine
-    int _get_m_firstCharacterOfLine();
-    // Set instance field: protected System.Int32 m_firstCharacterOfLine
-    void _set_m_firstCharacterOfLine(int value);
-    // Get instance field: protected System.Int32 m_firstVisibleCharacterOfLine
-    int _get_m_firstVisibleCharacterOfLine();
-    // Set instance field: protected System.Int32 m_firstVisibleCharacterOfLine
-    void _set_m_firstVisibleCharacterOfLine(int value);
-    // Get instance field: protected System.Int32 m_lastCharacterOfLine
-    int _get_m_lastCharacterOfLine();
-    // Set instance field: protected System.Int32 m_lastCharacterOfLine
-    void _set_m_lastCharacterOfLine(int value);
-    // Get instance field: protected System.Int32 m_lastVisibleCharacterOfLine
-    int _get_m_lastVisibleCharacterOfLine();
-    // Set instance field: protected System.Int32 m_lastVisibleCharacterOfLine
-    void _set_m_lastVisibleCharacterOfLine(int value);
-    // Get instance field: protected System.Int32 m_lineNumber
-    int _get_m_lineNumber();
-    // Set instance field: protected System.Int32 m_lineNumber
-    void _set_m_lineNumber(int value);
-    // Get instance field: protected System.Int32 m_lineVisibleCharacterCount
-    int _get_m_lineVisibleCharacterCount();
-    // Set instance field: protected System.Int32 m_lineVisibleCharacterCount
-    void _set_m_lineVisibleCharacterCount(int value);
-    // Get instance field: protected System.Int32 m_pageNumber
-    int _get_m_pageNumber();
-    // Set instance field: protected System.Int32 m_pageNumber
-    void _set_m_pageNumber(int value);
-    // Get instance field: protected System.Single m_maxAscender
-    float _get_m_maxAscender();
-    // Set instance field: protected System.Single m_maxAscender
-    void _set_m_maxAscender(float value);
-    // Get instance field: protected System.Single m_maxCapHeight
-    float _get_m_maxCapHeight();
-    // Set instance field: protected System.Single m_maxCapHeight
-    void _set_m_maxCapHeight(float value);
-    // Get instance field: protected System.Single m_maxDescender
-    float _get_m_maxDescender();
-    // Set instance field: protected System.Single m_maxDescender
-    void _set_m_maxDescender(float value);
-    // Get instance field: protected System.Single m_maxLineAscender
-    float _get_m_maxLineAscender();
-    // Set instance field: protected System.Single m_maxLineAscender
-    void _set_m_maxLineAscender(float value);
-    // Get instance field: protected System.Single m_maxLineDescender
-    float _get_m_maxLineDescender();
-    // Set instance field: protected System.Single m_maxLineDescender
-    void _set_m_maxLineDescender(float value);
-    // Get instance field: protected System.Single m_startOfLineAscender
-    float _get_m_startOfLineAscender();
-    // Set instance field: protected System.Single m_startOfLineAscender
-    void _set_m_startOfLineAscender(float value);
-    // Get instance field: protected System.Single m_lineOffset
-    float _get_m_lineOffset();
-    // Set instance field: protected System.Single m_lineOffset
-    void _set_m_lineOffset(float value);
-    // Get instance field: protected TMPro.Extents m_meshExtents
-    TMPro::Extents _get_m_meshExtents();
-    // Set instance field: protected TMPro.Extents m_meshExtents
-    void _set_m_meshExtents(TMPro::Extents value);
-    // Get instance field: protected UnityEngine.Color32 m_htmlColor
-    UnityEngine::Color32 _get_m_htmlColor();
-    // Set instance field: protected UnityEngine.Color32 m_htmlColor
-    void _set_m_htmlColor(UnityEngine::Color32 value);
-    // Get instance field: protected TMPro.TMP_RichTextTagStack`1<UnityEngine.Color32> m_colorStack
-    TMPro::TMP_RichTextTagStack_1<UnityEngine::Color32> _get_m_colorStack();
-    // Set instance field: protected TMPro.TMP_RichTextTagStack`1<UnityEngine.Color32> m_colorStack
-    void _set_m_colorStack(TMPro::TMP_RichTextTagStack_1<UnityEngine::Color32> value);
-    // Get instance field: protected TMPro.TMP_RichTextTagStack`1<UnityEngine.Color32> m_underlineColorStack
-    TMPro::TMP_RichTextTagStack_1<UnityEngine::Color32> _get_m_underlineColorStack();
-    // Set instance field: protected TMPro.TMP_RichTextTagStack`1<UnityEngine.Color32> m_underlineColorStack
-    void _set_m_underlineColorStack(TMPro::TMP_RichTextTagStack_1<UnityEngine::Color32> value);
-    // Get instance field: protected TMPro.TMP_RichTextTagStack`1<UnityEngine.Color32> m_strikethroughColorStack
-    TMPro::TMP_RichTextTagStack_1<UnityEngine::Color32> _get_m_strikethroughColorStack();
-    // Set instance field: protected TMPro.TMP_RichTextTagStack`1<UnityEngine.Color32> m_strikethroughColorStack
-    void _set_m_strikethroughColorStack(TMPro::TMP_RichTextTagStack_1<UnityEngine::Color32> value);
-    // Get instance field: protected TMPro.TMP_RichTextTagStack`1<UnityEngine.Color32> m_highlightColorStack
-    TMPro::TMP_RichTextTagStack_1<UnityEngine::Color32> _get_m_highlightColorStack();
-    // Set instance field: protected TMPro.TMP_RichTextTagStack`1<UnityEngine.Color32> m_highlightColorStack
-    void _set_m_highlightColorStack(TMPro::TMP_RichTextTagStack_1<UnityEngine::Color32> value);
-    // Get instance field: protected TMPro.TMP_ColorGradient m_colorGradientPreset
-    TMPro::TMP_ColorGradient* _get_m_colorGradientPreset();
-    // Set instance field: protected TMPro.TMP_ColorGradient m_colorGradientPreset
-    void _set_m_colorGradientPreset(TMPro::TMP_ColorGradient* value);
-    // Get instance field: protected TMPro.TMP_RichTextTagStack`1<TMPro.TMP_ColorGradient> m_colorGradientStack
-    TMPro::TMP_RichTextTagStack_1<TMPro::TMP_ColorGradient*> _get_m_colorGradientStack();
-    // Set instance field: protected TMPro.TMP_RichTextTagStack`1<TMPro.TMP_ColorGradient> m_colorGradientStack
-    void _set_m_colorGradientStack(TMPro::TMP_RichTextTagStack_1<TMPro::TMP_ColorGradient*> value);
-    // Get instance field: protected System.Single m_tabSpacing
-    float _get_m_tabSpacing();
-    // Set instance field: protected System.Single m_tabSpacing
-    void _set_m_tabSpacing(float value);
-    // Get instance field: protected System.Single m_spacing
-    float _get_m_spacing();
-    // Set instance field: protected System.Single m_spacing
-    void _set_m_spacing(float value);
-    // Get instance field: protected TMPro.TMP_RichTextTagStack`1<System.Int32> m_styleStack
-    TMPro::TMP_RichTextTagStack_1<int> _get_m_styleStack();
-    // Set instance field: protected TMPro.TMP_RichTextTagStack`1<System.Int32> m_styleStack
-    void _set_m_styleStack(TMPro::TMP_RichTextTagStack_1<int> value);
-    // Get instance field: protected TMPro.TMP_RichTextTagStack`1<System.Int32> m_actionStack
-    TMPro::TMP_RichTextTagStack_1<int> _get_m_actionStack();
-    // Set instance field: protected TMPro.TMP_RichTextTagStack`1<System.Int32> m_actionStack
-    void _set_m_actionStack(TMPro::TMP_RichTextTagStack_1<int> value);
-    // Get instance field: protected System.Single m_padding
-    float _get_m_padding();
-    // Set instance field: protected System.Single m_padding
-    void _set_m_padding(float value);
-    // Get instance field: protected System.Single m_baselineOffset
-    float _get_m_baselineOffset();
-    // Set instance field: protected System.Single m_baselineOffset
-    void _set_m_baselineOffset(float value);
-    // Get instance field: protected TMPro.TMP_RichTextTagStack`1<System.Single> m_baselineOffsetStack
-    TMPro::TMP_RichTextTagStack_1<float> _get_m_baselineOffsetStack();
-    // Set instance field: protected TMPro.TMP_RichTextTagStack`1<System.Single> m_baselineOffsetStack
-    void _set_m_baselineOffsetStack(TMPro::TMP_RichTextTagStack_1<float> value);
-    // Get instance field: protected System.Single m_xAdvance
-    float _get_m_xAdvance();
-    // Set instance field: protected System.Single m_xAdvance
-    void _set_m_xAdvance(float value);
-    // Get instance field: protected TMPro.TMP_TextElementType m_textElementType
-    TMPro::TMP_TextElementType _get_m_textElementType();
-    // Set instance field: protected TMPro.TMP_TextElementType m_textElementType
-    void _set_m_textElementType(TMPro::TMP_TextElementType value);
-    // Get instance field: protected TMPro.TMP_TextElement m_cached_TextElement
-    TMPro::TMP_TextElement* _get_m_cached_TextElement();
-    // Set instance field: protected TMPro.TMP_TextElement m_cached_TextElement
-    void _set_m_cached_TextElement(TMPro::TMP_TextElement* value);
-    // Get instance field: protected TMPro.TMP_Character m_cached_Underline_Character
-    TMPro::TMP_Character* _get_m_cached_Underline_Character();
-    // Set instance field: protected TMPro.TMP_Character m_cached_Underline_Character
-    void _set_m_cached_Underline_Character(TMPro::TMP_Character* value);
-    // Get instance field: protected TMPro.TMP_Character m_cached_Ellipsis_Character
-    TMPro::TMP_Character* _get_m_cached_Ellipsis_Character();
-    // Set instance field: protected TMPro.TMP_Character m_cached_Ellipsis_Character
-    void _set_m_cached_Ellipsis_Character(TMPro::TMP_Character* value);
-    // Get instance field: protected TMPro.TMP_SpriteAsset m_defaultSpriteAsset
-    TMPro::TMP_SpriteAsset* _get_m_defaultSpriteAsset();
-    // Set instance field: protected TMPro.TMP_SpriteAsset m_defaultSpriteAsset
-    void _set_m_defaultSpriteAsset(TMPro::TMP_SpriteAsset* value);
-    // Get instance field: protected TMPro.TMP_SpriteAsset m_currentSpriteAsset
-    TMPro::TMP_SpriteAsset* _get_m_currentSpriteAsset();
-    // Set instance field: protected TMPro.TMP_SpriteAsset m_currentSpriteAsset
-    void _set_m_currentSpriteAsset(TMPro::TMP_SpriteAsset* value);
-    // Get instance field: protected System.Int32 m_spriteCount
-    int _get_m_spriteCount();
-    // Set instance field: protected System.Int32 m_spriteCount
-    void _set_m_spriteCount(int value);
-    // Get instance field: protected System.Int32 m_spriteIndex
-    int _get_m_spriteIndex();
-    // Set instance field: protected System.Int32 m_spriteIndex
-    void _set_m_spriteIndex(int value);
-    // Get instance field: protected System.Int32 m_spriteAnimationID
-    int _get_m_spriteAnimationID();
-    // Set instance field: protected System.Int32 m_spriteAnimationID
-    void _set_m_spriteAnimationID(int value);
-    // Get instance field: protected System.Boolean m_ignoreActiveState
-    bool _get_m_ignoreActiveState();
-    // Set instance field: protected System.Boolean m_ignoreActiveState
-    void _set_m_ignoreActiveState(bool value);
-    // Get instance field: private readonly System.Single[] k_Power
-    ::Array<float>* _get_k_Power();
-    // Set instance field: private readonly System.Single[] k_Power
-    void _set_k_Power(::Array<float>* value);
+    // Get instance field reference: protected System.String m_text
+    ::Il2CppString*& dyn_m_text();
+    // Get instance field reference: protected System.Boolean m_isRightToLeft
+    bool& dyn_m_isRightToLeft();
+    // Get instance field reference: protected TMPro.TMP_FontAsset m_fontAsset
+    TMPro::TMP_FontAsset*& dyn_m_fontAsset();
+    // Get instance field reference: protected TMPro.TMP_FontAsset m_currentFontAsset
+    TMPro::TMP_FontAsset*& dyn_m_currentFontAsset();
+    // Get instance field reference: protected System.Boolean m_isSDFShader
+    bool& dyn_m_isSDFShader();
+    // Get instance field reference: protected UnityEngine.Material m_sharedMaterial
+    UnityEngine::Material*& dyn_m_sharedMaterial();
+    // Get instance field reference: protected UnityEngine.Material m_currentMaterial
+    UnityEngine::Material*& dyn_m_currentMaterial();
+    // Get instance field reference: protected TMPro.MaterialReference[] m_materialReferences
+    ::Array<TMPro::MaterialReference>*& dyn_m_materialReferences();
+    // Get instance field reference: protected System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_materialReferenceIndexLookup
+    System::Collections::Generic::Dictionary_2<int, int>*& dyn_m_materialReferenceIndexLookup();
+    // Get instance field reference: protected TMPro.TMP_RichTextTagStack`1<TMPro.MaterialReference> m_materialReferenceStack
+    TMPro::TMP_RichTextTagStack_1<TMPro::MaterialReference>& dyn_m_materialReferenceStack();
+    // Get instance field reference: protected System.Int32 m_currentMaterialIndex
+    int& dyn_m_currentMaterialIndex();
+    // Get instance field reference: protected UnityEngine.Material[] m_fontSharedMaterials
+    ::Array<UnityEngine::Material*>*& dyn_m_fontSharedMaterials();
+    // Get instance field reference: protected UnityEngine.Material m_fontMaterial
+    UnityEngine::Material*& dyn_m_fontMaterial();
+    // Get instance field reference: protected UnityEngine.Material[] m_fontMaterials
+    ::Array<UnityEngine::Material*>*& dyn_m_fontMaterials();
+    // Get instance field reference: protected System.Boolean m_isMaterialDirty
+    bool& dyn_m_isMaterialDirty();
+    // Get instance field reference: protected UnityEngine.Color32 m_fontColor32
+    UnityEngine::Color32& dyn_m_fontColor32();
+    // Get instance field reference: protected UnityEngine.Color m_fontColor
+    UnityEngine::Color& dyn_m_fontColor();
+    // Get instance field reference: protected UnityEngine.Color32 m_underlineColor
+    UnityEngine::Color32& dyn_m_underlineColor();
+    // Get instance field reference: protected UnityEngine.Color32 m_strikethroughColor
+    UnityEngine::Color32& dyn_m_strikethroughColor();
+    // Get instance field reference: protected UnityEngine.Color32 m_highlightColor
+    UnityEngine::Color32& dyn_m_highlightColor();
+    // Get instance field reference: protected UnityEngine.Vector4 m_highlightPadding
+    UnityEngine::Vector4& dyn_m_highlightPadding();
+    // Get instance field reference: protected System.Boolean m_enableVertexGradient
+    bool& dyn_m_enableVertexGradient();
+    // Get instance field reference: protected TMPro.ColorMode m_colorMode
+    TMPro::ColorMode& dyn_m_colorMode();
+    // Get instance field reference: protected TMPro.VertexGradient m_fontColorGradient
+    TMPro::VertexGradient& dyn_m_fontColorGradient();
+    // Get instance field reference: protected TMPro.TMP_ColorGradient m_fontColorGradientPreset
+    TMPro::TMP_ColorGradient*& dyn_m_fontColorGradientPreset();
+    // Get instance field reference: protected TMPro.TMP_SpriteAsset m_spriteAsset
+    TMPro::TMP_SpriteAsset*& dyn_m_spriteAsset();
+    // Get instance field reference: protected System.Boolean m_tintAllSprites
+    bool& dyn_m_tintAllSprites();
+    // Get instance field reference: protected System.Boolean m_tintSprite
+    bool& dyn_m_tintSprite();
+    // Get instance field reference: protected UnityEngine.Color32 m_spriteColor
+    UnityEngine::Color32& dyn_m_spriteColor();
+    // Get instance field reference: protected System.Boolean m_overrideHtmlColors
+    bool& dyn_m_overrideHtmlColors();
+    // Get instance field reference: protected UnityEngine.Color32 m_faceColor
+    UnityEngine::Color32& dyn_m_faceColor();
+    // Get instance field reference: protected UnityEngine.Color32 m_outlineColor
+    UnityEngine::Color32& dyn_m_outlineColor();
+    // Get instance field reference: protected System.Single m_outlineWidth
+    float& dyn_m_outlineWidth();
+    // Get instance field reference: protected System.Single m_fontSize
+    float& dyn_m_fontSize();
+    // Get instance field reference: protected System.Single m_currentFontSize
+    float& dyn_m_currentFontSize();
+    // Get instance field reference: protected System.Single m_fontSizeBase
+    float& dyn_m_fontSizeBase();
+    // Get instance field reference: protected TMPro.TMP_RichTextTagStack`1<System.Single> m_sizeStack
+    TMPro::TMP_RichTextTagStack_1<float>& dyn_m_sizeStack();
+    // Get instance field reference: protected TMPro.FontWeight m_fontWeight
+    TMPro::FontWeight& dyn_m_fontWeight();
+    // Get instance field reference: protected TMPro.FontWeight m_FontWeightInternal
+    TMPro::FontWeight& dyn_m_FontWeightInternal();
+    // Get instance field reference: protected TMPro.TMP_RichTextTagStack`1<TMPro.FontWeight> m_FontWeightStack
+    TMPro::TMP_RichTextTagStack_1<TMPro::FontWeight>& dyn_m_FontWeightStack();
+    // Get instance field reference: protected System.Boolean m_enableAutoSizing
+    bool& dyn_m_enableAutoSizing();
+    // Get instance field reference: protected System.Single m_maxFontSize
+    float& dyn_m_maxFontSize();
+    // Get instance field reference: protected System.Single m_minFontSize
+    float& dyn_m_minFontSize();
+    // Get instance field reference: protected System.Single m_fontSizeMin
+    float& dyn_m_fontSizeMin();
+    // Get instance field reference: protected System.Single m_fontSizeMax
+    float& dyn_m_fontSizeMax();
+    // Get instance field reference: protected TMPro.FontStyles m_fontStyle
+    TMPro::FontStyles& dyn_m_fontStyle();
+    // Get instance field reference: protected TMPro.FontStyles m_FontStyleInternal
+    TMPro::FontStyles& dyn_m_FontStyleInternal();
+    // Get instance field reference: protected TMPro.TMP_FontStyleStack m_fontStyleStack
+    TMPro::TMP_FontStyleStack& dyn_m_fontStyleStack();
+    // Get instance field reference: protected System.Boolean m_isUsingBold
+    bool& dyn_m_isUsingBold();
+    // Get instance field reference: protected TMPro.TextAlignmentOptions m_textAlignment
+    TMPro::TextAlignmentOptions& dyn_m_textAlignment();
+    // Get instance field reference: protected TMPro.TextAlignmentOptions m_lineJustification
+    TMPro::TextAlignmentOptions& dyn_m_lineJustification();
+    // Get instance field reference: protected TMPro.TMP_RichTextTagStack`1<TMPro.TextAlignmentOptions> m_lineJustificationStack
+    TMPro::TMP_RichTextTagStack_1<TMPro::TextAlignmentOptions>& dyn_m_lineJustificationStack();
+    // Get instance field reference: protected UnityEngine.Vector3[] m_textContainerLocalCorners
+    ::Array<UnityEngine::Vector3>*& dyn_m_textContainerLocalCorners();
+    // Get instance field reference: protected System.Single m_characterSpacing
+    float& dyn_m_characterSpacing();
+    // Get instance field reference: protected System.Single m_cSpacing
+    float& dyn_m_cSpacing();
+    // Get instance field reference: protected System.Single m_monoSpacing
+    float& dyn_m_monoSpacing();
+    // Get instance field reference: protected System.Single m_wordSpacing
+    float& dyn_m_wordSpacing();
+    // Get instance field reference: protected System.Single m_lineSpacing
+    float& dyn_m_lineSpacing();
+    // Get instance field reference: protected System.Single m_lineSpacingDelta
+    float& dyn_m_lineSpacingDelta();
+    // Get instance field reference: protected System.Single m_lineHeight
+    float& dyn_m_lineHeight();
+    // Get instance field reference: protected System.Single m_lineSpacingMax
+    float& dyn_m_lineSpacingMax();
+    // Get instance field reference: protected System.Single m_paragraphSpacing
+    float& dyn_m_paragraphSpacing();
+    // Get instance field reference: protected System.Single m_charWidthMaxAdj
+    float& dyn_m_charWidthMaxAdj();
+    // Get instance field reference: protected System.Single m_charWidthAdjDelta
+    float& dyn_m_charWidthAdjDelta();
+    // Get instance field reference: protected System.Boolean m_enableWordWrapping
+    bool& dyn_m_enableWordWrapping();
+    // Get instance field reference: protected System.Boolean m_isCharacterWrappingEnabled
+    bool& dyn_m_isCharacterWrappingEnabled();
+    // Get instance field reference: protected System.Boolean m_isNonBreakingSpace
+    bool& dyn_m_isNonBreakingSpace();
+    // Get instance field reference: protected System.Boolean m_isIgnoringAlignment
+    bool& dyn_m_isIgnoringAlignment();
+    // Get instance field reference: protected System.Single m_wordWrappingRatios
+    float& dyn_m_wordWrappingRatios();
+    // Get instance field reference: protected TMPro.TextOverflowModes m_overflowMode
+    TMPro::TextOverflowModes& dyn_m_overflowMode();
+    // Get instance field reference: protected System.Int32 m_firstOverflowCharacterIndex
+    int& dyn_m_firstOverflowCharacterIndex();
+    // Get instance field reference: protected TMPro.TMP_Text m_linkedTextComponent
+    TMPro::TMP_Text*& dyn_m_linkedTextComponent();
+    // Get instance field reference: protected System.Boolean m_isLinkedTextComponent
+    bool& dyn_m_isLinkedTextComponent();
+    // Get instance field reference: protected System.Boolean m_isTextTruncated
+    bool& dyn_m_isTextTruncated();
+    // Get instance field reference: protected System.Boolean m_enableKerning
+    bool& dyn_m_enableKerning();
+    // Get instance field reference: protected System.Boolean m_enableExtraPadding
+    bool& dyn_m_enableExtraPadding();
+    // Get instance field reference: protected System.Boolean checkPaddingRequired
+    bool& dyn_checkPaddingRequired();
+    // Get instance field reference: protected System.Boolean m_isRichText
+    bool& dyn_m_isRichText();
+    // Get instance field reference: protected System.Boolean m_parseCtrlCharacters
+    bool& dyn_m_parseCtrlCharacters();
+    // Get instance field reference: protected System.Boolean m_isOverlay
+    bool& dyn_m_isOverlay();
+    // Get instance field reference: protected System.Boolean m_isOrthographic
+    bool& dyn_m_isOrthographic();
+    // Get instance field reference: protected System.Boolean m_isCullingEnabled
+    bool& dyn_m_isCullingEnabled();
+    // Get instance field reference: protected System.Boolean m_ignoreRectMaskCulling
+    bool& dyn_m_ignoreRectMaskCulling();
+    // Get instance field reference: protected System.Boolean m_ignoreCulling
+    bool& dyn_m_ignoreCulling();
+    // Get instance field reference: protected TMPro.TextureMappingOptions m_horizontalMapping
+    TMPro::TextureMappingOptions& dyn_m_horizontalMapping();
+    // Get instance field reference: protected TMPro.TextureMappingOptions m_verticalMapping
+    TMPro::TextureMappingOptions& dyn_m_verticalMapping();
+    // Get instance field reference: protected System.Single m_uvLineOffset
+    float& dyn_m_uvLineOffset();
+    // Get instance field reference: protected TMPro.TextRenderFlags m_renderMode
+    TMPro::TextRenderFlags& dyn_m_renderMode();
+    // Get instance field reference: protected TMPro.VertexSortingOrder m_geometrySortingOrder
+    TMPro::VertexSortingOrder& dyn_m_geometrySortingOrder();
+    // Get instance field reference: protected System.Boolean m_VertexBufferAutoSizeReduction
+    bool& dyn_m_VertexBufferAutoSizeReduction();
+    // Get instance field reference: protected System.Int32 m_firstVisibleCharacter
+    int& dyn_m_firstVisibleCharacter();
+    // Get instance field reference: protected System.Int32 m_maxVisibleCharacters
+    int& dyn_m_maxVisibleCharacters();
+    // Get instance field reference: protected System.Int32 m_maxVisibleWords
+    int& dyn_m_maxVisibleWords();
+    // Get instance field reference: protected System.Int32 m_maxVisibleLines
+    int& dyn_m_maxVisibleLines();
+    // Get instance field reference: protected System.Boolean m_useMaxVisibleDescender
+    bool& dyn_m_useMaxVisibleDescender();
+    // Get instance field reference: protected System.Int32 m_pageToDisplay
+    int& dyn_m_pageToDisplay();
+    // Get instance field reference: protected System.Boolean m_isNewPage
+    bool& dyn_m_isNewPage();
+    // Get instance field reference: protected UnityEngine.Vector4 m_margin
+    UnityEngine::Vector4& dyn_m_margin();
+    // Get instance field reference: protected System.Single m_marginLeft
+    float& dyn_m_marginLeft();
+    // Get instance field reference: protected System.Single m_marginRight
+    float& dyn_m_marginRight();
+    // Get instance field reference: protected System.Single m_marginWidth
+    float& dyn_m_marginWidth();
+    // Get instance field reference: protected System.Single m_marginHeight
+    float& dyn_m_marginHeight();
+    // Get instance field reference: protected System.Single m_width
+    float& dyn_m_width();
+    // Get instance field reference: protected TMPro.TMP_TextInfo m_textInfo
+    TMPro::TMP_TextInfo*& dyn_m_textInfo();
+    // Get instance field reference: protected System.Boolean m_havePropertiesChanged
+    bool& dyn_m_havePropertiesChanged();
+    // Get instance field reference: protected System.Boolean m_isUsingLegacyAnimationComponent
+    bool& dyn_m_isUsingLegacyAnimationComponent();
+    // Get instance field reference: protected UnityEngine.Transform m_transform
+    UnityEngine::Transform*& dyn_m_transform();
+    // Get instance field reference: protected UnityEngine.RectTransform m_rectTransform
+    UnityEngine::RectTransform*& dyn_m_rectTransform();
+    // Get instance field reference: private System.Boolean <autoSizeTextContainer>k__BackingField
+    bool& dyn_$autoSizeTextContainer$k__BackingField();
+    // Get instance field reference: protected System.Boolean m_autoSizeTextContainer
+    bool& dyn_m_autoSizeTextContainer();
+    // Get instance field reference: protected UnityEngine.Mesh m_mesh
+    UnityEngine::Mesh*& dyn_m_mesh();
+    // Get instance field reference: protected System.Boolean m_isVolumetricText
+    bool& dyn_m_isVolumetricText();
+    // Get instance field reference: protected TMPro.TMP_SpriteAnimator m_spriteAnimator
+    TMPro::TMP_SpriteAnimator*& dyn_m_spriteAnimator();
+    // Get instance field reference: protected System.Single m_flexibleHeight
+    float& dyn_m_flexibleHeight();
+    // Get instance field reference: protected System.Single m_flexibleWidth
+    float& dyn_m_flexibleWidth();
+    // Get instance field reference: protected System.Single m_minWidth
+    float& dyn_m_minWidth();
+    // Get instance field reference: protected System.Single m_minHeight
+    float& dyn_m_minHeight();
+    // Get instance field reference: protected System.Single m_maxWidth
+    float& dyn_m_maxWidth();
+    // Get instance field reference: protected System.Single m_maxHeight
+    float& dyn_m_maxHeight();
+    // Get instance field reference: protected UnityEngine.UI.LayoutElement m_LayoutElement
+    UnityEngine::UI::LayoutElement*& dyn_m_LayoutElement();
+    // Get instance field reference: protected System.Single m_preferredWidth
+    float& dyn_m_preferredWidth();
+    // Get instance field reference: protected System.Single m_renderedWidth
+    float& dyn_m_renderedWidth();
+    // Get instance field reference: protected System.Boolean m_isPreferredWidthDirty
+    bool& dyn_m_isPreferredWidthDirty();
+    // Get instance field reference: protected System.Single m_preferredHeight
+    float& dyn_m_preferredHeight();
+    // Get instance field reference: protected System.Single m_renderedHeight
+    float& dyn_m_renderedHeight();
+    // Get instance field reference: protected System.Boolean m_isPreferredHeightDirty
+    bool& dyn_m_isPreferredHeightDirty();
+    // Get instance field reference: protected System.Boolean m_isCalculatingPreferredValues
+    bool& dyn_m_isCalculatingPreferredValues();
+    // Get instance field reference: private System.Int32 m_recursiveCount
+    int& dyn_m_recursiveCount();
+    // Get instance field reference: protected System.Int32 m_layoutPriority
+    int& dyn_m_layoutPriority();
+    // Get instance field reference: protected System.Boolean m_isCalculateSizeRequired
+    bool& dyn_m_isCalculateSizeRequired();
+    // Get instance field reference: protected System.Boolean m_isLayoutDirty
+    bool& dyn_m_isLayoutDirty();
+    // Get instance field reference: protected System.Boolean m_verticesAlreadyDirty
+    bool& dyn_m_verticesAlreadyDirty();
+    // Get instance field reference: protected System.Boolean m_layoutAlreadyDirty
+    bool& dyn_m_layoutAlreadyDirty();
+    // Get instance field reference: protected System.Boolean m_isAwake
+    bool& dyn_m_isAwake();
+    // Get instance field reference: System.Boolean m_isWaitingOnResourceLoad
+    bool& dyn_m_isWaitingOnResourceLoad();
+    // Get instance field reference: System.Boolean m_isInputParsingRequired
+    bool& dyn_m_isInputParsingRequired();
+    // Get instance field reference: TMPro.TMP_Text/TMPro.TextInputSources m_inputSource
+    TMPro::TMP_Text::TextInputSources& dyn_m_inputSource();
+    // Get instance field reference: protected System.String old_text
+    ::Il2CppString*& dyn_old_text();
+    // Get instance field reference: protected System.Single m_fontScale
+    float& dyn_m_fontScale();
+    // Get instance field reference: protected System.Single m_fontScaleMultiplier
+    float& dyn_m_fontScaleMultiplier();
+    // Get instance field reference: protected System.Char[] m_htmlTag
+    ::Array<::Il2CppChar>*& dyn_m_htmlTag();
+    // Get instance field reference: protected TMPro.RichTextTagAttribute[] m_xmlAttribute
+    ::Array<TMPro::RichTextTagAttribute>*& dyn_m_xmlAttribute();
+    // Get instance field reference: protected System.Single[] m_attributeParameterValues
+    ::Array<float>*& dyn_m_attributeParameterValues();
+    // Get instance field reference: protected System.Single tag_LineIndent
+    float& dyn_tag_LineIndent();
+    // Get instance field reference: protected System.Single tag_Indent
+    float& dyn_tag_Indent();
+    // Get instance field reference: protected TMPro.TMP_RichTextTagStack`1<System.Single> m_indentStack
+    TMPro::TMP_RichTextTagStack_1<float>& dyn_m_indentStack();
+    // Get instance field reference: protected System.Boolean tag_NoParsing
+    bool& dyn_tag_NoParsing();
+    // Get instance field reference: protected System.Boolean m_isParsingText
+    bool& dyn_m_isParsingText();
+    // Get instance field reference: protected UnityEngine.Matrix4x4 m_FXMatrix
+    UnityEngine::Matrix4x4& dyn_m_FXMatrix();
+    // Get instance field reference: protected System.Boolean m_isFXMatrixSet
+    bool& dyn_m_isFXMatrixSet();
+    // Get instance field reference: protected TMPro.TMP_Text/TMPro.UnicodeChar[] m_TextParsingBuffer
+    ::Array<TMPro::TMP_Text::UnicodeChar>*& dyn_m_TextParsingBuffer();
+    // Get instance field reference: private TMPro.TMP_CharacterInfo[] m_internalCharacterInfo
+    ::Array<TMPro::TMP_CharacterInfo>*& dyn_m_internalCharacterInfo();
+    // Get instance field reference: protected System.Char[] m_input_CharArray
+    ::Array<::Il2CppChar>*& dyn_m_input_CharArray();
+    // Get instance field reference: private System.Int32 m_charArray_Length
+    int& dyn_m_charArray_Length();
+    // Get instance field reference: protected System.Int32 m_totalCharacterCount
+    int& dyn_m_totalCharacterCount();
+    // Get instance field reference: protected TMPro.WordWrapState m_SavedWordWrapState
+    TMPro::WordWrapState& dyn_m_SavedWordWrapState();
+    // Get instance field reference: protected TMPro.WordWrapState m_SavedLineState
+    TMPro::WordWrapState& dyn_m_SavedLineState();
+    // Get instance field reference: protected System.Int32 m_characterCount
+    int& dyn_m_characterCount();
+    // Get instance field reference: protected System.Int32 m_firstCharacterOfLine
+    int& dyn_m_firstCharacterOfLine();
+    // Get instance field reference: protected System.Int32 m_firstVisibleCharacterOfLine
+    int& dyn_m_firstVisibleCharacterOfLine();
+    // Get instance field reference: protected System.Int32 m_lastCharacterOfLine
+    int& dyn_m_lastCharacterOfLine();
+    // Get instance field reference: protected System.Int32 m_lastVisibleCharacterOfLine
+    int& dyn_m_lastVisibleCharacterOfLine();
+    // Get instance field reference: protected System.Int32 m_lineNumber
+    int& dyn_m_lineNumber();
+    // Get instance field reference: protected System.Int32 m_lineVisibleCharacterCount
+    int& dyn_m_lineVisibleCharacterCount();
+    // Get instance field reference: protected System.Int32 m_pageNumber
+    int& dyn_m_pageNumber();
+    // Get instance field reference: protected System.Single m_maxAscender
+    float& dyn_m_maxAscender();
+    // Get instance field reference: protected System.Single m_maxCapHeight
+    float& dyn_m_maxCapHeight();
+    // Get instance field reference: protected System.Single m_maxDescender
+    float& dyn_m_maxDescender();
+    // Get instance field reference: protected System.Single m_maxLineAscender
+    float& dyn_m_maxLineAscender();
+    // Get instance field reference: protected System.Single m_maxLineDescender
+    float& dyn_m_maxLineDescender();
+    // Get instance field reference: protected System.Single m_startOfLineAscender
+    float& dyn_m_startOfLineAscender();
+    // Get instance field reference: protected System.Single m_lineOffset
+    float& dyn_m_lineOffset();
+    // Get instance field reference: protected TMPro.Extents m_meshExtents
+    TMPro::Extents& dyn_m_meshExtents();
+    // Get instance field reference: protected UnityEngine.Color32 m_htmlColor
+    UnityEngine::Color32& dyn_m_htmlColor();
+    // Get instance field reference: protected TMPro.TMP_RichTextTagStack`1<UnityEngine.Color32> m_colorStack
+    TMPro::TMP_RichTextTagStack_1<UnityEngine::Color32>& dyn_m_colorStack();
+    // Get instance field reference: protected TMPro.TMP_RichTextTagStack`1<UnityEngine.Color32> m_underlineColorStack
+    TMPro::TMP_RichTextTagStack_1<UnityEngine::Color32>& dyn_m_underlineColorStack();
+    // Get instance field reference: protected TMPro.TMP_RichTextTagStack`1<UnityEngine.Color32> m_strikethroughColorStack
+    TMPro::TMP_RichTextTagStack_1<UnityEngine::Color32>& dyn_m_strikethroughColorStack();
+    // Get instance field reference: protected TMPro.TMP_RichTextTagStack`1<UnityEngine.Color32> m_highlightColorStack
+    TMPro::TMP_RichTextTagStack_1<UnityEngine::Color32>& dyn_m_highlightColorStack();
+    // Get instance field reference: protected TMPro.TMP_ColorGradient m_colorGradientPreset
+    TMPro::TMP_ColorGradient*& dyn_m_colorGradientPreset();
+    // Get instance field reference: protected TMPro.TMP_RichTextTagStack`1<TMPro.TMP_ColorGradient> m_colorGradientStack
+    TMPro::TMP_RichTextTagStack_1<TMPro::TMP_ColorGradient*>& dyn_m_colorGradientStack();
+    // Get instance field reference: protected System.Single m_tabSpacing
+    float& dyn_m_tabSpacing();
+    // Get instance field reference: protected System.Single m_spacing
+    float& dyn_m_spacing();
+    // Get instance field reference: protected TMPro.TMP_RichTextTagStack`1<System.Int32> m_styleStack
+    TMPro::TMP_RichTextTagStack_1<int>& dyn_m_styleStack();
+    // Get instance field reference: protected TMPro.TMP_RichTextTagStack`1<System.Int32> m_actionStack
+    TMPro::TMP_RichTextTagStack_1<int>& dyn_m_actionStack();
+    // Get instance field reference: protected System.Single m_padding
+    float& dyn_m_padding();
+    // Get instance field reference: protected System.Single m_baselineOffset
+    float& dyn_m_baselineOffset();
+    // Get instance field reference: protected TMPro.TMP_RichTextTagStack`1<System.Single> m_baselineOffsetStack
+    TMPro::TMP_RichTextTagStack_1<float>& dyn_m_baselineOffsetStack();
+    // Get instance field reference: protected System.Single m_xAdvance
+    float& dyn_m_xAdvance();
+    // Get instance field reference: protected TMPro.TMP_TextElementType m_textElementType
+    TMPro::TMP_TextElementType& dyn_m_textElementType();
+    // Get instance field reference: protected TMPro.TMP_TextElement m_cached_TextElement
+    TMPro::TMP_TextElement*& dyn_m_cached_TextElement();
+    // Get instance field reference: protected TMPro.TMP_Character m_cached_Underline_Character
+    TMPro::TMP_Character*& dyn_m_cached_Underline_Character();
+    // Get instance field reference: protected TMPro.TMP_Character m_cached_Ellipsis_Character
+    TMPro::TMP_Character*& dyn_m_cached_Ellipsis_Character();
+    // Get instance field reference: protected TMPro.TMP_SpriteAsset m_defaultSpriteAsset
+    TMPro::TMP_SpriteAsset*& dyn_m_defaultSpriteAsset();
+    // Get instance field reference: protected TMPro.TMP_SpriteAsset m_currentSpriteAsset
+    TMPro::TMP_SpriteAsset*& dyn_m_currentSpriteAsset();
+    // Get instance field reference: protected System.Int32 m_spriteCount
+    int& dyn_m_spriteCount();
+    // Get instance field reference: protected System.Int32 m_spriteIndex
+    int& dyn_m_spriteIndex();
+    // Get instance field reference: protected System.Int32 m_spriteAnimationID
+    int& dyn_m_spriteAnimationID();
+    // Get instance field reference: protected System.Boolean m_ignoreActiveState
+    bool& dyn_m_ignoreActiveState();
+    // Get instance field reference: private readonly System.Single[] k_Power
+    ::Array<float>*& dyn_k_Power();
     // public System.String get_text()
     // Offset: 0x1162244
     ::Il2CppString* get_text();

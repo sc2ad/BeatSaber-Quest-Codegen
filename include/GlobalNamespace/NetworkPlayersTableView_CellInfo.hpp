@@ -71,10 +71,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::NetworkPlayersTableView::CellInfo::CellType _get_Options();
       // Set static field: static public NetworkPlayersTableView/CellInfo/CellType Options
       static void _set_Options(GlobalNamespace::NetworkPlayersTableView::CellInfo::CellType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // NetworkPlayersTableView/CellInfo/CellType
     #pragma pack(pop)
     static check_size<sizeof(NetworkPlayersTableView::CellInfo::CellType), 0 + sizeof(int)> __GlobalNamespace_NetworkPlayersTableView_CellInfo_CellTypeSizeCheck;
@@ -107,22 +105,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: CellInfo
     CellInfo(GlobalNamespace::NetworkPlayersTableView::CellInfo::CellType type_ = {}, ::Il2CppString* headerString_ = {}, GlobalNamespace::INetworkPlayer* player_ = {}, bool lastCellInParty_ = {}) noexcept : type{type_}, headerString{headerString_}, player{player_}, lastCellInParty{lastCellInParty_} {}
-    // Get instance field: public NetworkPlayersTableView/CellInfo/CellType type
-    GlobalNamespace::NetworkPlayersTableView::CellInfo::CellType _get_type();
-    // Set instance field: public NetworkPlayersTableView/CellInfo/CellType type
-    void _set_type(GlobalNamespace::NetworkPlayersTableView::CellInfo::CellType value);
-    // Get instance field: public System.String headerString
-    ::Il2CppString* _get_headerString();
-    // Set instance field: public System.String headerString
-    void _set_headerString(::Il2CppString* value);
-    // Get instance field: public INetworkPlayer player
-    GlobalNamespace::INetworkPlayer* _get_player();
-    // Set instance field: public INetworkPlayer player
-    void _set_player(GlobalNamespace::INetworkPlayer* value);
-    // Get instance field: public System.Boolean lastCellInParty
-    bool _get_lastCellInParty();
-    // Set instance field: public System.Boolean lastCellInParty
-    void _set_lastCellInParty(bool value);
+    // Get instance field reference: public NetworkPlayersTableView/CellInfo/CellType type
+    GlobalNamespace::NetworkPlayersTableView::CellInfo::CellType& dyn_type();
+    // Get instance field reference: public System.String headerString
+    ::Il2CppString*& dyn_headerString();
+    // Get instance field reference: public INetworkPlayer player
+    GlobalNamespace::INetworkPlayer*& dyn_player();
+    // Get instance field reference: public System.Boolean lastCellInParty
+    bool& dyn_lastCellInParty();
     // public System.Void .ctor()
     // Offset: 0x1043B40
     // Implemented from: System.Object

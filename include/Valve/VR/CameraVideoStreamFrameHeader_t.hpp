@@ -63,30 +63,18 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public Valve.VR.EVRTrackedCameraFrameType eFrameType
-    Valve::VR::EVRTrackedCameraFrameType _get_eFrameType();
-    // Set instance field: public Valve.VR.EVRTrackedCameraFrameType eFrameType
-    void _set_eFrameType(Valve::VR::EVRTrackedCameraFrameType value);
-    // Get instance field: public System.UInt32 nWidth
-    uint _get_nWidth();
-    // Set instance field: public System.UInt32 nWidth
-    void _set_nWidth(uint value);
-    // Get instance field: public System.UInt32 nHeight
-    uint _get_nHeight();
-    // Set instance field: public System.UInt32 nHeight
-    void _set_nHeight(uint value);
-    // Get instance field: public System.UInt32 nBytesPerPixel
-    uint _get_nBytesPerPixel();
-    // Set instance field: public System.UInt32 nBytesPerPixel
-    void _set_nBytesPerPixel(uint value);
-    // Get instance field: public System.UInt32 nFrameSequence
-    uint _get_nFrameSequence();
-    // Set instance field: public System.UInt32 nFrameSequence
-    void _set_nFrameSequence(uint value);
-    // Get instance field: public Valve.VR.TrackedDevicePose_t standingTrackedDevicePose
-    Valve::VR::TrackedDevicePose_t _get_standingTrackedDevicePose();
-    // Set instance field: public Valve.VR.TrackedDevicePose_t standingTrackedDevicePose
-    void _set_standingTrackedDevicePose(Valve::VR::TrackedDevicePose_t value);
+    // Get instance field reference: public Valve.VR.EVRTrackedCameraFrameType eFrameType
+    Valve::VR::EVRTrackedCameraFrameType& dyn_eFrameType();
+    // Get instance field reference: public System.UInt32 nWidth
+    uint& dyn_nWidth();
+    // Get instance field reference: public System.UInt32 nHeight
+    uint& dyn_nHeight();
+    // Get instance field reference: public System.UInt32 nBytesPerPixel
+    uint& dyn_nBytesPerPixel();
+    // Get instance field reference: public System.UInt32 nFrameSequence
+    uint& dyn_nFrameSequence();
+    // Get instance field reference: public Valve.VR.TrackedDevicePose_t standingTrackedDevicePose
+    Valve::VR::TrackedDevicePose_t& dyn_standingTrackedDevicePose();
   }; // Valve.VR.CameraVideoStreamFrameHeader_t
   #pragma pack(pop)
   static check_size<sizeof(CameraVideoStreamFrameHeader_t), 20 + sizeof(Valve::VR::TrackedDevicePose_t)> __Valve_VR_CameraVideoStreamFrameHeader_tSizeCheck;

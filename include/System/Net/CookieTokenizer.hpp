@@ -47,14 +47,10 @@ namespace System::Net {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: private System.String m_name
-      ::Il2CppString* _get_m_name();
-      // Set instance field: private System.String m_name
-      void _set_m_name(::Il2CppString* value);
-      // Get instance field: private System.Net.CookieToken m_token
-      System::Net::CookieToken _get_m_token();
-      // Set instance field: private System.Net.CookieToken m_token
-      void _set_m_token(System::Net::CookieToken value);
+      // Get instance field reference: private System.String m_name
+      ::Il2CppString*& dyn_m_name();
+      // Get instance field reference: private System.Net.CookieToken m_token
+      System::Net::CookieToken& dyn_m_token();
       // System.Net.CookieToken get_Token()
       // Offset: 0x16D8350
       System::Net::CookieToken get_Token();
@@ -145,46 +141,26 @@ namespace System::Net {
     static ::Array<System::Net::CookieTokenizer::RecognizedAttribute>* _get_RecognizedServerAttributes();
     // Set static field: static private System.Net.CookieTokenizer/System.Net.RecognizedAttribute[] RecognizedServerAttributes
     static void _set_RecognizedServerAttributes(::Array<System::Net::CookieTokenizer::RecognizedAttribute>* value);
-    // Get instance field: private System.Boolean m_eofCookie
-    bool _get_m_eofCookie();
-    // Set instance field: private System.Boolean m_eofCookie
-    void _set_m_eofCookie(bool value);
-    // Get instance field: private System.Int32 m_index
-    int _get_m_index();
-    // Set instance field: private System.Int32 m_index
-    void _set_m_index(int value);
-    // Get instance field: private System.Int32 m_length
-    int _get_m_length();
-    // Set instance field: private System.Int32 m_length
-    void _set_m_length(int value);
-    // Get instance field: private System.String m_name
-    ::Il2CppString* _get_m_name();
-    // Set instance field: private System.String m_name
-    void _set_m_name(::Il2CppString* value);
-    // Get instance field: private System.Boolean m_quoted
-    bool _get_m_quoted();
-    // Set instance field: private System.Boolean m_quoted
-    void _set_m_quoted(bool value);
-    // Get instance field: private System.Int32 m_start
-    int _get_m_start();
-    // Set instance field: private System.Int32 m_start
-    void _set_m_start(int value);
-    // Get instance field: private System.Net.CookieToken m_token
-    System::Net::CookieToken _get_m_token();
-    // Set instance field: private System.Net.CookieToken m_token
-    void _set_m_token(System::Net::CookieToken value);
-    // Get instance field: private System.Int32 m_tokenLength
-    int _get_m_tokenLength();
-    // Set instance field: private System.Int32 m_tokenLength
-    void _set_m_tokenLength(int value);
-    // Get instance field: private System.String m_tokenStream
-    ::Il2CppString* _get_m_tokenStream();
-    // Set instance field: private System.String m_tokenStream
-    void _set_m_tokenStream(::Il2CppString* value);
-    // Get instance field: private System.String m_value
-    ::Il2CppString* _get_m_value();
-    // Set instance field: private System.String m_value
-    void _set_m_value(::Il2CppString* value);
+    // Get instance field reference: private System.Boolean m_eofCookie
+    bool& dyn_m_eofCookie();
+    // Get instance field reference: private System.Int32 m_index
+    int& dyn_m_index();
+    // Get instance field reference: private System.Int32 m_length
+    int& dyn_m_length();
+    // Get instance field reference: private System.String m_name
+    ::Il2CppString*& dyn_m_name();
+    // Get instance field reference: private System.Boolean m_quoted
+    bool& dyn_m_quoted();
+    // Get instance field reference: private System.Int32 m_start
+    int& dyn_m_start();
+    // Get instance field reference: private System.Net.CookieToken m_token
+    System::Net::CookieToken& dyn_m_token();
+    // Get instance field reference: private System.Int32 m_tokenLength
+    int& dyn_m_tokenLength();
+    // Get instance field reference: private System.String m_tokenStream
+    ::Il2CppString*& dyn_m_tokenStream();
+    // Get instance field reference: private System.String m_value
+    ::Il2CppString*& dyn_m_value();
     // System.Boolean get_EndOfCookie()
     // Offset: 0x16D7AA4
     bool get_EndOfCookie();

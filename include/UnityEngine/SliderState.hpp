@@ -38,18 +38,12 @@ namespace UnityEngine {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: SliderState
     SliderState(float dragStartPos_ = {}, float dragStartValue_ = {}, bool isDragging_ = {}) noexcept : dragStartPos{dragStartPos_}, dragStartValue{dragStartValue_}, isDragging{isDragging_} {}
-    // Get instance field: public System.Single dragStartPos
-    float _get_dragStartPos();
-    // Set instance field: public System.Single dragStartPos
-    void _set_dragStartPos(float value);
-    // Get instance field: public System.Single dragStartValue
-    float _get_dragStartValue();
-    // Set instance field: public System.Single dragStartValue
-    void _set_dragStartValue(float value);
-    // Get instance field: public System.Boolean isDragging
-    bool _get_isDragging();
-    // Set instance field: public System.Boolean isDragging
-    void _set_isDragging(bool value);
+    // Get instance field reference: public System.Single dragStartPos
+    float& dyn_dragStartPos();
+    // Get instance field reference: public System.Single dragStartValue
+    float& dyn_dragStartValue();
+    // Get instance field reference: public System.Boolean isDragging
+    bool& dyn_isDragging();
     // public System.Void .ctor()
     // Offset: 0x1B3764C
     // Implemented from: System.Object

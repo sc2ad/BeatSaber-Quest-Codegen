@@ -50,10 +50,8 @@ namespace System::ComponentModel {
     static System::ComponentModel::EditorBrowsableState _get_Advanced();
     // Set static field: static public System.ComponentModel.EditorBrowsableState Advanced
     static void _set_Advanced(System::ComponentModel::EditorBrowsableState value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.ComponentModel.EditorBrowsableState
   #pragma pack(pop)
   static check_size<sizeof(EditorBrowsableState), 0 + sizeof(int)> __System_ComponentModel_EditorBrowsableStateSizeCheck;

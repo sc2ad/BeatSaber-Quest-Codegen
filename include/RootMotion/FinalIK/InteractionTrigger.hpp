@@ -51,10 +51,8 @@ namespace RootMotion::FinalIK {
     InteractionTrigger(::Array<RootMotion::FinalIK::InteractionTrigger::Range*>* ranges_ = {}) noexcept : ranges{ranges_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.Range[] ranges
-    ::Array<RootMotion::FinalIK::InteractionTrigger::Range*>* _get_ranges();
-    // Set instance field: public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.Range[] ranges
-    void _set_ranges(::Array<RootMotion::FinalIK::InteractionTrigger::Range*>* value);
+    // Get instance field reference: public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.Range[] ranges
+    ::Array<RootMotion::FinalIK::InteractionTrigger::Range*>*& dyn_ranges();
     // private System.Void OpenUserManual()
     // Offset: 0x1AD599C
     void OpenUserManual();

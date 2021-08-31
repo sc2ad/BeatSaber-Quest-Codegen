@@ -74,30 +74,18 @@ namespace RootMotion {
     SolverManager(bool fixTransforms_ = {}, UnityEngine::Animator* animator_ = {}, UnityEngine::Animation* legacy_ = {}, bool updateFrame_ = {}, bool componentInitiated_ = {}, bool skipSolverUpdate_ = {}) noexcept : fixTransforms{fixTransforms_}, animator{animator_}, legacy{legacy_}, updateFrame{updateFrame_}, componentInitiated{componentInitiated_}, skipSolverUpdate{skipSolverUpdate_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public System.Boolean fixTransforms
-    bool _get_fixTransforms();
-    // Set instance field: public System.Boolean fixTransforms
-    void _set_fixTransforms(bool value);
-    // Get instance field: private UnityEngine.Animator animator
-    UnityEngine::Animator* _get_animator();
-    // Set instance field: private UnityEngine.Animator animator
-    void _set_animator(UnityEngine::Animator* value);
-    // Get instance field: private UnityEngine.Animation legacy
-    UnityEngine::Animation* _get_legacy();
-    // Set instance field: private UnityEngine.Animation legacy
-    void _set_legacy(UnityEngine::Animation* value);
-    // Get instance field: private System.Boolean updateFrame
-    bool _get_updateFrame();
-    // Set instance field: private System.Boolean updateFrame
-    void _set_updateFrame(bool value);
-    // Get instance field: private System.Boolean componentInitiated
-    bool _get_componentInitiated();
-    // Set instance field: private System.Boolean componentInitiated
-    void _set_componentInitiated(bool value);
-    // Get instance field: private System.Boolean skipSolverUpdate
-    bool _get_skipSolverUpdate();
-    // Set instance field: private System.Boolean skipSolverUpdate
-    void _set_skipSolverUpdate(bool value);
+    // Get instance field reference: public System.Boolean fixTransforms
+    bool& dyn_fixTransforms();
+    // Get instance field reference: private UnityEngine.Animator animator
+    UnityEngine::Animator*& dyn_animator();
+    // Get instance field reference: private UnityEngine.Animation legacy
+    UnityEngine::Animation*& dyn_legacy();
+    // Get instance field reference: private System.Boolean updateFrame
+    bool& dyn_updateFrame();
+    // Get instance field reference: private System.Boolean componentInitiated
+    bool& dyn_componentInitiated();
+    // Get instance field reference: private System.Boolean skipSolverUpdate
+    bool& dyn_skipSolverUpdate();
     // private System.Boolean get_animatePhysics()
     // Offset: 0x1AEA8A4
     bool get_animatePhysics();

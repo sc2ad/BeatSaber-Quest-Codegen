@@ -87,26 +87,16 @@ namespace GlobalNamespace {
     SongPacksDropdown(HMUI::SimpleTextDropdown* simpleTextDropdown_ = {}, GlobalNamespace::SongPackMaskModelSO* songPackMaskModel_ = {}, System::Action_1<int>* didSelectCellWithIdxEvent_ = {}, bool initialized_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* songPackSerializedNames_ = {}) noexcept : simpleTextDropdown{simpleTextDropdown_}, songPackMaskModel{songPackMaskModel_}, didSelectCellWithIdxEvent{didSelectCellWithIdxEvent_}, initialized{initialized_}, songPackSerializedNames{songPackSerializedNames_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private HMUI.SimpleTextDropdown _simpleTextDropdown
-    HMUI::SimpleTextDropdown* _get__simpleTextDropdown();
-    // Set instance field: private HMUI.SimpleTextDropdown _simpleTextDropdown
-    void _set__simpleTextDropdown(HMUI::SimpleTextDropdown* value);
-    // Get instance field: private SongPackMaskModelSO _songPackMaskModel
-    GlobalNamespace::SongPackMaskModelSO* _get__songPackMaskModel();
-    // Set instance field: private SongPackMaskModelSO _songPackMaskModel
-    void _set__songPackMaskModel(GlobalNamespace::SongPackMaskModelSO* value);
-    // Get instance field: private System.Action`1<System.Int32> didSelectCellWithIdxEvent
-    System::Action_1<int>* _get_didSelectCellWithIdxEvent();
-    // Set instance field: private System.Action`1<System.Int32> didSelectCellWithIdxEvent
-    void _set_didSelectCellWithIdxEvent(System::Action_1<int>* value);
-    // Get instance field: private System.Boolean _initialized
-    bool _get__initialized();
-    // Set instance field: private System.Boolean _initialized
-    void _set__initialized(bool value);
-    // Get instance field: private System.Collections.Generic.List`1<System.String> _songPackSerializedNames
-    System::Collections::Generic::List_1<::Il2CppString*>* _get__songPackSerializedNames();
-    // Set instance field: private System.Collections.Generic.List`1<System.String> _songPackSerializedNames
-    void _set__songPackSerializedNames(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    // Get instance field reference: private HMUI.SimpleTextDropdown _simpleTextDropdown
+    HMUI::SimpleTextDropdown*& dyn__simpleTextDropdown();
+    // Get instance field reference: private SongPackMaskModelSO _songPackMaskModel
+    GlobalNamespace::SongPackMaskModelSO*& dyn__songPackMaskModel();
+    // Get instance field reference: private System.Action`1<System.Int32> didSelectCellWithIdxEvent
+    System::Action_1<int>*& dyn_didSelectCellWithIdxEvent();
+    // Get instance field reference: private System.Boolean _initialized
+    bool& dyn__initialized();
+    // Get instance field reference: private System.Collections.Generic.List`1<System.String> _songPackSerializedNames
+    System::Collections::Generic::List_1<::Il2CppString*>*& dyn__songPackSerializedNames();
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
     // Offset: 0x10801D4
     void add_didSelectCellWithIdxEvent(System::Action_1<int>* value);

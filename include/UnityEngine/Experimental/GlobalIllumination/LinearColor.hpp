@@ -53,22 +53,14 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private System.Single m_red
-    float _get_m_red();
-    // Set instance field: private System.Single m_red
-    void _set_m_red(float value);
-    // Get instance field: private System.Single m_green
-    float _get_m_green();
-    // Set instance field: private System.Single m_green
-    void _set_m_green(float value);
-    // Get instance field: private System.Single m_blue
-    float _get_m_blue();
-    // Set instance field: private System.Single m_blue
-    void _set_m_blue(float value);
-    // Get instance field: private System.Single m_intensity
-    float _get_m_intensity();
-    // Set instance field: private System.Single m_intensity
-    void _set_m_intensity(float value);
+    // Get instance field reference: private System.Single m_red
+    float& dyn_m_red();
+    // Get instance field reference: private System.Single m_green
+    float& dyn_m_green();
+    // Get instance field reference: private System.Single m_blue
+    float& dyn_m_blue();
+    // Get instance field reference: private System.Single m_intensity
+    float& dyn_m_intensity();
     // static public UnityEngine.Experimental.GlobalIllumination.LinearColor Convert(UnityEngine.Color color, System.Single intensity)
     // Offset: 0x1C29640
     static UnityEngine::Experimental::GlobalIllumination::LinearColor Convert(UnityEngine::Color color, float intensity);

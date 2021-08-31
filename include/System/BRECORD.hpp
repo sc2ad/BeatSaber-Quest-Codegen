@@ -37,14 +37,10 @@ namespace System {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private System.IntPtr pvRecord
-    System::IntPtr _get_pvRecord();
-    // Set instance field: private System.IntPtr pvRecord
-    void _set_pvRecord(System::IntPtr value);
-    // Get instance field: private System.IntPtr pRecInfo
-    System::IntPtr _get_pRecInfo();
-    // Set instance field: private System.IntPtr pRecInfo
-    void _set_pRecInfo(System::IntPtr value);
+    // Get instance field reference: private System.IntPtr pvRecord
+    System::IntPtr& dyn_pvRecord();
+    // Get instance field reference: private System.IntPtr pRecInfo
+    System::IntPtr& dyn_pRecInfo();
   }; // System.BRECORD
   #pragma pack(pop)
   static check_size<sizeof(BRECORD), 8 + sizeof(System::IntPtr)> __System_BRECORDSizeCheck;

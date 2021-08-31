@@ -43,10 +43,8 @@ namespace System::Runtime::Remoting::Messaging {
     constexpr operator System::Security::Principal::IPrincipal*() const noexcept {
       return principal;
     }
-    // Get instance field: private System.Security.Principal.IPrincipal _principal
-    System::Security::Principal::IPrincipal* _get__principal();
-    // Set instance field: private System.Security.Principal.IPrincipal _principal
-    void _set__principal(System::Security::Principal::IPrincipal* value);
+    // Get instance field reference: private System.Security.Principal.IPrincipal _principal
+    System::Security::Principal::IPrincipal*& dyn__principal();
     // System.Boolean get_HasInfo()
     // Offset: 0x1A49020
     bool get_HasInfo();

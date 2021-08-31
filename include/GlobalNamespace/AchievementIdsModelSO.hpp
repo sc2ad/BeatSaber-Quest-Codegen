@@ -43,10 +43,8 @@ namespace GlobalNamespace {
     AchievementIdsModelSO(System::Collections::Generic::List_1<GlobalNamespace::AchievementSO*>* achievementsIds_ = {}) noexcept : achievementsIds{achievementsIds_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Collections.Generic.List`1<AchievementSO> _achievementsIds
-    System::Collections::Generic::List_1<GlobalNamespace::AchievementSO*>* _get__achievementsIds();
-    // Set instance field: private System.Collections.Generic.List`1<AchievementSO> _achievementsIds
-    void _set__achievementsIds(System::Collections::Generic::List_1<GlobalNamespace::AchievementSO*>* value);
+    // Get instance field reference: private System.Collections.Generic.List`1<AchievementSO> _achievementsIds
+    System::Collections::Generic::List_1<GlobalNamespace::AchievementSO*>*& dyn__achievementsIds();
     // public System.Collections.Generic.List`1<AchievementSO> get_achievementsIds()
     // Offset: 0x1176790
     System::Collections::Generic::List_1<GlobalNamespace::AchievementSO*>* get_achievementsIds();

@@ -70,18 +70,12 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     static int _get_k_MaxStringLength();
     // Set static field: static private System.Int32 k_MaxStringLength
     static void _set_k_MaxStringLength(int value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<NUnit.Framework.Interfaces.ITestResult> m_FailedTestCollection
-    System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestResult*>* _get_m_FailedTestCollection();
-    // Set instance field: private readonly System.Collections.Generic.List`1<NUnit.Framework.Interfaces.ITestResult> m_FailedTestCollection
-    void _set_m_FailedTestCollection(System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestResult*>* value);
-    // Get instance field: private System.Boolean m_ShowResults
-    bool _get_m_ShowResults();
-    // Set instance field: private System.Boolean m_ShowResults
-    void _set_m_ShowResults(bool value);
-    // Get instance field: private UnityEngine.Vector2 m_ScrollPosition
-    UnityEngine::Vector2 _get_m_ScrollPosition();
-    // Set instance field: private UnityEngine.Vector2 m_ScrollPosition
-    void _set_m_ScrollPosition(UnityEngine::Vector2 value);
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<NUnit.Framework.Interfaces.ITestResult> m_FailedTestCollection
+    System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestResult*>*& dyn_m_FailedTestCollection();
+    // Get instance field reference: private System.Boolean m_ShowResults
+    bool& dyn_m_ShowResults();
+    // Get instance field reference: private UnityEngine.Vector2 m_ScrollPosition
+    UnityEngine::Vector2& dyn_m_ScrollPosition();
     // public System.Void .ctor(NUnit.Framework.Interfaces.ITestResult testResults)
     // Offset: 0x14C47F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

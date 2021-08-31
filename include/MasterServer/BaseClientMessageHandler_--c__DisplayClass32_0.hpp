@@ -59,30 +59,18 @@ namespace MasterServer {
     static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass32_0
     $$c__DisplayClass32_0(::Array<uint8_t>* clientRandom_ = {}, ::Array<uint8_t>* serverRandom_ = {}, ::Array<uint8_t>* serverKey_ = {}, ::Array<::Array<uint8_t>*>* certData_ = {}, MasterServer::BaseClientMessageHandler* $$4__this_ = {}, ::Array<uint8_t>* signature_ = {}) noexcept : clientRandom{clientRandom_}, serverRandom{serverRandom_}, serverKey{serverKey_}, certData{certData_}, $$4__this{$$4__this_}, signature{signature_} {}
-    // Get instance field: public System.Byte[] clientRandom
-    ::Array<uint8_t>* _get_clientRandom();
-    // Set instance field: public System.Byte[] clientRandom
-    void _set_clientRandom(::Array<uint8_t>* value);
-    // Get instance field: public System.Byte[] serverRandom
-    ::Array<uint8_t>* _get_serverRandom();
-    // Set instance field: public System.Byte[] serverRandom
-    void _set_serverRandom(::Array<uint8_t>* value);
-    // Get instance field: public System.Byte[] serverKey
-    ::Array<uint8_t>* _get_serverKey();
-    // Set instance field: public System.Byte[] serverKey
-    void _set_serverKey(::Array<uint8_t>* value);
-    // Get instance field: public System.Byte[][] certData
-    ::Array<::Array<uint8_t>*>* _get_certData();
-    // Set instance field: public System.Byte[][] certData
-    void _set_certData(::Array<::Array<uint8_t>*>* value);
-    // Get instance field: public MasterServer.BaseClientMessageHandler <>4__this
-    MasterServer::BaseClientMessageHandler* _get_$$4__this();
-    // Set instance field: public MasterServer.BaseClientMessageHandler <>4__this
-    void _set_$$4__this(MasterServer::BaseClientMessageHandler* value);
-    // Get instance field: public System.Byte[] signature
-    ::Array<uint8_t>* _get_signature();
-    // Set instance field: public System.Byte[] signature
-    void _set_signature(::Array<uint8_t>* value);
+    // Get instance field reference: public System.Byte[] clientRandom
+    ::Array<uint8_t>*& dyn_clientRandom();
+    // Get instance field reference: public System.Byte[] serverRandom
+    ::Array<uint8_t>*& dyn_serverRandom();
+    // Get instance field reference: public System.Byte[] serverKey
+    ::Array<uint8_t>*& dyn_serverKey();
+    // Get instance field reference: public System.Byte[][] certData
+    ::Array<::Array<uint8_t>*>*& dyn_certData();
+    // Get instance field reference: public MasterServer.BaseClientMessageHandler <>4__this
+    MasterServer::BaseClientMessageHandler*& dyn_$$4__this();
+    // Get instance field reference: public System.Byte[] signature
+    ::Array<uint8_t>*& dyn_signature();
     // System.Boolean <VerifySignature>b__0()
     // Offset: 0x1211BE8
     bool $VerifySignature$b__0();

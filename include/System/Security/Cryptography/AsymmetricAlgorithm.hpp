@@ -48,14 +48,10 @@ namespace System::Security::Cryptography {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
-    // Get instance field: protected System.Int32 KeySizeValue
-    int _get_KeySizeValue();
-    // Set instance field: protected System.Int32 KeySizeValue
-    void _set_KeySizeValue(int value);
-    // Get instance field: protected System.Security.Cryptography.KeySizes[] LegalKeySizesValue
-    ::Array<System::Security::Cryptography::KeySizes*>* _get_LegalKeySizesValue();
-    // Set instance field: protected System.Security.Cryptography.KeySizes[] LegalKeySizesValue
-    void _set_LegalKeySizesValue(::Array<System::Security::Cryptography::KeySizes*>* value);
+    // Get instance field reference: protected System.Int32 KeySizeValue
+    int& dyn_KeySizeValue();
+    // Get instance field reference: protected System.Security.Cryptography.KeySizes[] LegalKeySizesValue
+    ::Array<System::Security::Cryptography::KeySizes*>*& dyn_LegalKeySizesValue();
     // public System.Int32 get_KeySize()
     // Offset: 0x1985C50
     int get_KeySize();

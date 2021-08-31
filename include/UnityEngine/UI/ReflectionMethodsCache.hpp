@@ -77,30 +77,18 @@ namespace UnityEngine::UI {
     static UnityEngine::UI::ReflectionMethodsCache* _get_s_ReflectionMethodsCache();
     // Set static field: static private UnityEngine.UI.ReflectionMethodsCache s_ReflectionMethodsCache
     static void _set_s_ReflectionMethodsCache(UnityEngine::UI::ReflectionMethodsCache* value);
-    // Get instance field: public UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.Raycast3DCallback raycast3D
-    UnityEngine::UI::ReflectionMethodsCache::Raycast3DCallback* _get_raycast3D();
-    // Set instance field: public UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.Raycast3DCallback raycast3D
-    void _set_raycast3D(UnityEngine::UI::ReflectionMethodsCache::Raycast3DCallback* value);
-    // Get instance field: public UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.RaycastAllCallback raycast3DAll
-    UnityEngine::UI::ReflectionMethodsCache::RaycastAllCallback* _get_raycast3DAll();
-    // Set instance field: public UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.RaycastAllCallback raycast3DAll
-    void _set_raycast3DAll(UnityEngine::UI::ReflectionMethodsCache::RaycastAllCallback* value);
-    // Get instance field: public UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.GetRaycastNonAllocCallback getRaycastNonAlloc
-    UnityEngine::UI::ReflectionMethodsCache::GetRaycastNonAllocCallback* _get_getRaycastNonAlloc();
-    // Set instance field: public UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.GetRaycastNonAllocCallback getRaycastNonAlloc
-    void _set_getRaycastNonAlloc(UnityEngine::UI::ReflectionMethodsCache::GetRaycastNonAllocCallback* value);
-    // Get instance field: public UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.Raycast2DCallback raycast2D
-    UnityEngine::UI::ReflectionMethodsCache::Raycast2DCallback* _get_raycast2D();
-    // Set instance field: public UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.Raycast2DCallback raycast2D
-    void _set_raycast2D(UnityEngine::UI::ReflectionMethodsCache::Raycast2DCallback* value);
-    // Get instance field: public UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.GetRayIntersectionAllCallback getRayIntersectionAll
-    UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllCallback* _get_getRayIntersectionAll();
-    // Set instance field: public UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.GetRayIntersectionAllCallback getRayIntersectionAll
-    void _set_getRayIntersectionAll(UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllCallback* value);
-    // Get instance field: public UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.GetRayIntersectionAllNonAllocCallback getRayIntersectionAllNonAlloc
-    UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback* _get_getRayIntersectionAllNonAlloc();
-    // Set instance field: public UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.GetRayIntersectionAllNonAllocCallback getRayIntersectionAllNonAlloc
-    void _set_getRayIntersectionAllNonAlloc(UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback* value);
+    // Get instance field reference: public UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.Raycast3DCallback raycast3D
+    UnityEngine::UI::ReflectionMethodsCache::Raycast3DCallback*& dyn_raycast3D();
+    // Get instance field reference: public UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.RaycastAllCallback raycast3DAll
+    UnityEngine::UI::ReflectionMethodsCache::RaycastAllCallback*& dyn_raycast3DAll();
+    // Get instance field reference: public UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.GetRaycastNonAllocCallback getRaycastNonAlloc
+    UnityEngine::UI::ReflectionMethodsCache::GetRaycastNonAllocCallback*& dyn_getRaycastNonAlloc();
+    // Get instance field reference: public UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.Raycast2DCallback raycast2D
+    UnityEngine::UI::ReflectionMethodsCache::Raycast2DCallback*& dyn_raycast2D();
+    // Get instance field reference: public UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.GetRayIntersectionAllCallback getRayIntersectionAll
+    UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllCallback*& dyn_getRayIntersectionAll();
+    // Get instance field reference: public UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.GetRayIntersectionAllNonAllocCallback getRayIntersectionAllNonAlloc
+    UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback*& dyn_getRayIntersectionAllNonAlloc();
     // static public UnityEngine.UI.ReflectionMethodsCache get_Singleton()
     // Offset: 0x19D7178
     static UnityEngine::UI::ReflectionMethodsCache* get_Singleton();

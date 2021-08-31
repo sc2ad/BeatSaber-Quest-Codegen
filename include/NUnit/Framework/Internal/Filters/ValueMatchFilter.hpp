@@ -43,14 +43,10 @@ namespace NUnit::Framework::Internal::Filters {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: ValueMatchFilter
     ValueMatchFilter(::Il2CppString* ExpectedValue_ = {}, bool IsRegex_ = {}) noexcept : ExpectedValue{ExpectedValue_}, IsRegex{IsRegex_} {}
-    // Get instance field: private System.String <ExpectedValue>k__BackingField
-    ::Il2CppString* _get_$ExpectedValue$k__BackingField();
-    // Set instance field: private System.String <ExpectedValue>k__BackingField
-    void _set_$ExpectedValue$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.Boolean <IsRegex>k__BackingField
-    bool _get_$IsRegex$k__BackingField();
-    // Set instance field: private System.Boolean <IsRegex>k__BackingField
-    void _set_$IsRegex$k__BackingField(bool value);
+    // Get instance field reference: private System.String <ExpectedValue>k__BackingField
+    ::Il2CppString*& dyn_$ExpectedValue$k__BackingField();
+    // Get instance field reference: private System.Boolean <IsRegex>k__BackingField
+    bool& dyn_$IsRegex$k__BackingField();
     // public System.String get_ExpectedValue()
     // Offset: 0x2296D28
     ::Il2CppString* get_ExpectedValue();

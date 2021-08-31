@@ -64,14 +64,10 @@ namespace Zenject {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: PoolableManager
     PoolableManager(System::Collections::Generic::List_1<Zenject::IPoolable*>* poolables_ = {}, bool isSpawned_ = {}) noexcept : poolables{poolables_}, isSpawned{isSpawned_} {}
-    // Get instance field: private readonly System.Collections.Generic.List`1<Zenject.IPoolable> _poolables
-    System::Collections::Generic::List_1<Zenject::IPoolable*>* _get__poolables();
-    // Set instance field: private readonly System.Collections.Generic.List`1<Zenject.IPoolable> _poolables
-    void _set__poolables(System::Collections::Generic::List_1<Zenject::IPoolable*>* value);
-    // Get instance field: private System.Boolean _isSpawned
-    bool _get__isSpawned();
-    // Set instance field: private System.Boolean _isSpawned
-    void _set__isSpawned(bool value);
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.IPoolable> _poolables
+    System::Collections::Generic::List_1<Zenject::IPoolable*>*& dyn__poolables();
+    // Get instance field reference: private System.Boolean _isSpawned
+    bool& dyn__isSpawned();
     // public System.Void .ctor(System.Collections.Generic.List`1<Zenject.IPoolable> poolables, System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities)
     // Offset: 0x17143F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

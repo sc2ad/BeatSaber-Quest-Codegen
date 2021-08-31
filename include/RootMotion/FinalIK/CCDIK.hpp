@@ -41,10 +41,8 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(RootMotion::FinalIK::IKSolverCCD*) == 0x8);
     // Creating value type constructor for type: CCDIK
     CCDIK(RootMotion::FinalIK::IKSolverCCD* solver_ = {}) noexcept : solver{solver_} {}
-    // Get instance field: public RootMotion.FinalIK.IKSolverCCD solver
-    RootMotion::FinalIK::IKSolverCCD* _get_solver();
-    // Set instance field: public RootMotion.FinalIK.IKSolverCCD solver
-    void _set_solver(RootMotion::FinalIK::IKSolverCCD* value);
+    // Get instance field reference: public RootMotion.FinalIK.IKSolverCCD solver
+    RootMotion::FinalIK::IKSolverCCD*& dyn_solver();
     // private System.Void SupportGroup()
     // Offset: 0x1D322AC
     void SupportGroup();

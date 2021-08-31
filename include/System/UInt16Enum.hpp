@@ -32,10 +32,8 @@ namespace System {
     constexpr operator uint16_t() const noexcept {
       return value;
     }
-    // Get instance field: public System.UInt16 value__
-    uint16_t _get_value__();
-    // Set instance field: public System.UInt16 value__
-    void _set_value__(uint16_t value);
+    // Get instance field reference: public System.UInt16 value__
+    uint16_t& dyn_value__();
   }; // System.UInt16Enum
   #pragma pack(pop)
   static check_size<sizeof(UInt16Enum), 0 + sizeof(uint16_t)> __System_UInt16EnumSizeCheck;

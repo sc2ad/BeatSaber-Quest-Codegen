@@ -51,10 +51,8 @@ namespace GlobalNamespace {
     constexpr operator float() const noexcept {
       return syncTime;
     }
-    // Get instance field: private System.Single <syncTime>k__BackingField
-    float _get_$syncTime$k__BackingField();
-    // Set instance field: private System.Single <syncTime>k__BackingField
-    void _set_$syncTime$k__BackingField(float value);
+    // Get instance field reference: private System.Single <syncTime>k__BackingField
+    float& dyn_$syncTime$k__BackingField();
     // public System.Single get_syncTime()
     // Offset: 0x16F654C
     float get_syncTime();

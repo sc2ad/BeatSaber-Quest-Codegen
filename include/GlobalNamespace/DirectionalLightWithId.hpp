@@ -54,18 +54,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: DirectionalLightWithId
     DirectionalLightWithId(GlobalNamespace::DirectionalLight* light_ = {}, float intensity_ = {}, float minIntensity_ = {}) noexcept : light{light_}, intensity{intensity_}, minIntensity{minIntensity_} {}
-    // Get instance field: private DirectionalLight _light
-    GlobalNamespace::DirectionalLight* _get__light();
-    // Set instance field: private DirectionalLight _light
-    void _set__light(GlobalNamespace::DirectionalLight* value);
-    // Get instance field: private System.Single _intensity
-    float _get__intensity();
-    // Set instance field: private System.Single _intensity
-    void _set__intensity(float value);
-    // Get instance field: private System.Single _minIntensity
-    float _get__minIntensity();
-    // Set instance field: private System.Single _minIntensity
-    void _set__minIntensity(float value);
+    // Get instance field reference: private DirectionalLight _light
+    GlobalNamespace::DirectionalLight*& dyn__light();
+    // Get instance field reference: private System.Single _intensity
+    float& dyn__intensity();
+    // Get instance field reference: private System.Single _minIntensity
+    float& dyn__minIntensity();
     // public System.Void .ctor()
     // Offset: 0x1E16E28
     // Implemented from: LightWithIdMonoBehaviour

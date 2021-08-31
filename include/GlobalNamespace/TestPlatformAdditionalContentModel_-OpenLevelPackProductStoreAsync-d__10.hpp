@@ -66,26 +66,16 @@ namespace GlobalNamespace {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
-    // Get instance field: public System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: public System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AdditionalContentModel/OpenProductStoreResult> <>t__builder
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult> _get_$$t__builder();
-    // Set instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AdditionalContentModel/OpenProductStoreResult> <>t__builder
-    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult> value);
-    // Get instance field: public System.Threading.CancellationToken token
-    System::Threading::CancellationToken _get_token();
-    // Set instance field: public System.Threading.CancellationToken token
-    void _set_token(System::Threading::CancellationToken value);
-    // Get instance field: public System.String levelPackId
-    ::Il2CppString* _get_levelPackId();
-    // Set instance field: public System.String levelPackId
-    void _set_levelPackId(::Il2CppString* value);
-    // Get instance field: private System.Runtime.CompilerServices.YieldAwaitable/System.Runtime.CompilerServices.YieldAwaiter <>u__1
-    System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter _get_$$u__1();
-    // Set instance field: private System.Runtime.CompilerServices.YieldAwaitable/System.Runtime.CompilerServices.YieldAwaiter <>u__1
-    void _set_$$u__1(System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter value);
+    // Get instance field reference: public System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AdditionalContentModel/OpenProductStoreResult> <>t__builder
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>& dyn_$$t__builder();
+    // Get instance field reference: public System.Threading.CancellationToken token
+    System::Threading::CancellationToken& dyn_token();
+    // Get instance field reference: public System.String levelPackId
+    ::Il2CppString*& dyn_levelPackId();
+    // Get instance field reference: private System.Runtime.CompilerServices.YieldAwaitable/System.Runtime.CompilerServices.YieldAwaiter <>u__1
+    System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
     // Offset: 0x1093D60
     void MoveNext();

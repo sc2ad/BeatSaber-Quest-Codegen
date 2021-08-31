@@ -73,26 +73,16 @@ namespace GlobalNamespace {
     VRsenalLogger(GlobalNamespace::ScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData_ = {}, GlobalNamespace::ScenesTransitionSetupDataSO* tutorialScenesTransitionSetupData_ = {}, GlobalNamespace::StringSignal* playerNameWasEnteredSignal_ = {}, GlobalNamespace::VRsenalScoreLogger* vRsenalScoreLoggerPrefab_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}) noexcept : standardLevelScenesTransitionSetupData{standardLevelScenesTransitionSetupData_}, tutorialScenesTransitionSetupData{tutorialScenesTransitionSetupData_}, playerNameWasEnteredSignal{playerNameWasEnteredSignal_}, vRsenalScoreLoggerPrefab{vRsenalScoreLoggerPrefab_}, gameScenesManager{gameScenesManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private ScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData
-    GlobalNamespace::ScenesTransitionSetupDataSO* _get__standardLevelScenesTransitionSetupData();
-    // Set instance field: private ScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData
-    void _set__standardLevelScenesTransitionSetupData(GlobalNamespace::ScenesTransitionSetupDataSO* value);
-    // Get instance field: private ScenesTransitionSetupDataSO _tutorialScenesTransitionSetupData
-    GlobalNamespace::ScenesTransitionSetupDataSO* _get__tutorialScenesTransitionSetupData();
-    // Set instance field: private ScenesTransitionSetupDataSO _tutorialScenesTransitionSetupData
-    void _set__tutorialScenesTransitionSetupData(GlobalNamespace::ScenesTransitionSetupDataSO* value);
-    // Get instance field: private StringSignal _playerNameWasEnteredSignal
-    GlobalNamespace::StringSignal* _get__playerNameWasEnteredSignal();
-    // Set instance field: private StringSignal _playerNameWasEnteredSignal
-    void _set__playerNameWasEnteredSignal(GlobalNamespace::StringSignal* value);
-    // Get instance field: private VRsenalScoreLogger _vRsenalScoreLoggerPrefab
-    GlobalNamespace::VRsenalScoreLogger* _get__vRsenalScoreLoggerPrefab();
-    // Set instance field: private VRsenalScoreLogger _vRsenalScoreLoggerPrefab
-    void _set__vRsenalScoreLoggerPrefab(GlobalNamespace::VRsenalScoreLogger* value);
-    // Get instance field: private GameScenesManager _gameScenesManager
-    GlobalNamespace::GameScenesManager* _get__gameScenesManager();
-    // Set instance field: private GameScenesManager _gameScenesManager
-    void _set__gameScenesManager(GlobalNamespace::GameScenesManager* value);
+    // Get instance field reference: private ScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData
+    GlobalNamespace::ScenesTransitionSetupDataSO*& dyn__standardLevelScenesTransitionSetupData();
+    // Get instance field reference: private ScenesTransitionSetupDataSO _tutorialScenesTransitionSetupData
+    GlobalNamespace::ScenesTransitionSetupDataSO*& dyn__tutorialScenesTransitionSetupData();
+    // Get instance field reference: private StringSignal _playerNameWasEnteredSignal
+    GlobalNamespace::StringSignal*& dyn__playerNameWasEnteredSignal();
+    // Get instance field reference: private VRsenalScoreLogger _vRsenalScoreLoggerPrefab
+    GlobalNamespace::VRsenalScoreLogger*& dyn__vRsenalScoreLoggerPrefab();
+    // Get instance field reference: private GameScenesManager _gameScenesManager
+    GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
     // protected System.Void Awake()
     // Offset: 0x135EEFC
     void Awake();

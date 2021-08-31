@@ -71,22 +71,14 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     static_assert(sizeof(System::Func_2<int, int>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass0_0
     $$c__DisplayClass0_0(System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::List_1<int>*>* ignore_ = {}, ::Array<UnityEngine::ProBuilder::SharedVertex*>* sharedIndexes_ = {}, System::Func_2<int, int>* $$9__7_ = {}, System::Func_2<int, int>* $$9__8_ = {}) noexcept : ignore{ignore_}, sharedIndexes{sharedIndexes_}, $$9__7{$$9__7_}, $$9__8{$$9__8_} {}
-    // Get instance field: public System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.List`1<System.Int32>> ignore
-    System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::List_1<int>*>* _get_ignore();
-    // Set instance field: public System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.List`1<System.Int32>> ignore
-    void _set_ignore(System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::List_1<int>*>* value);
-    // Get instance field: public UnityEngine.ProBuilder.SharedVertex[] sharedIndexes
-    ::Array<UnityEngine::ProBuilder::SharedVertex*>* _get_sharedIndexes();
-    // Set instance field: public UnityEngine.ProBuilder.SharedVertex[] sharedIndexes
-    void _set_sharedIndexes(::Array<UnityEngine::ProBuilder::SharedVertex*>* value);
-    // Get instance field: public System.Func`2<System.Int32,System.Int32> <>9__7
-    System::Func_2<int, int>* _get_$$9__7();
-    // Set instance field: public System.Func`2<System.Int32,System.Int32> <>9__7
-    void _set_$$9__7(System::Func_2<int, int>* value);
-    // Get instance field: public System.Func`2<System.Int32,System.Int32> <>9__8
-    System::Func_2<int, int>* _get_$$9__8();
-    // Set instance field: public System.Func`2<System.Int32,System.Int32> <>9__8
-    void _set_$$9__8(System::Func_2<int, int>* value);
+    // Get instance field reference: public System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.List`1<System.Int32>> ignore
+    System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::List_1<int>*>*& dyn_ignore();
+    // Get instance field reference: public UnityEngine.ProBuilder.SharedVertex[] sharedIndexes
+    ::Array<UnityEngine::ProBuilder::SharedVertex*>*& dyn_sharedIndexes();
+    // Get instance field reference: public System.Func`2<System.Int32,System.Int32> <>9__7
+    System::Func_2<int, int>*& dyn_$$9__7();
+    // Get instance field reference: public System.Func`2<System.Int32,System.Int32> <>9__8
+    System::Func_2<int, int>*& dyn_$$9__8();
     // System.Int32 <BevelEdges>b__7(System.Int32 x)
     // Offset: 0x154BC64
     int $BevelEdges$b__7(int x);

@@ -57,18 +57,12 @@ namespace GlobalNamespace {
     SteamLevelProductsModelSO(::Array<GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*>* levelPackProductsData_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*>* levelIdToProductData_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*>* levelPackIdToProductData_ = {}) noexcept : levelPackProductsData{levelPackProductsData_}, levelIdToProductData{levelIdToProductData_}, levelPackIdToProductData{levelPackIdToProductData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private SteamLevelProductsModelSO/LevelPackProductData[] _levelPackProductsData
-    ::Array<GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*>* _get__levelPackProductsData();
-    // Set instance field: private SteamLevelProductsModelSO/LevelPackProductData[] _levelPackProductsData
-    void _set__levelPackProductsData(::Array<GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*>* value);
-    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,SteamLevelProductsModelSO/LevelProductData> _levelIdToProductData
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*>* _get__levelIdToProductData();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,SteamLevelProductsModelSO/LevelProductData> _levelIdToProductData
-    void _set__levelIdToProductData(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*>* value);
-    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,SteamLevelProductsModelSO/LevelPackProductData> _levelPackIdToProductData
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*>* _get__levelPackIdToProductData();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,SteamLevelProductsModelSO/LevelPackProductData> _levelPackIdToProductData
-    void _set__levelPackIdToProductData(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*>* value);
+    // Get instance field reference: private SteamLevelProductsModelSO/LevelPackProductData[] _levelPackProductsData
+    ::Array<GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*>*& dyn__levelPackProductsData();
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,SteamLevelProductsModelSO/LevelProductData> _levelIdToProductData
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*>*& dyn__levelIdToProductData();
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,SteamLevelProductsModelSO/LevelPackProductData> _levelPackIdToProductData
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*>*& dyn__levelPackIdToProductData();
     // public SteamLevelProductsModelSO/LevelPackProductData[] get_levelPackProductsData()
     // Offset: 0x108D2E8
     ::Array<GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*>* get_levelPackProductsData();

@@ -70,18 +70,12 @@ namespace System::Runtime::CompilerServices {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private System.Threading.SynchronizationContext m_synchronizationContext
-    System::Threading::SynchronizationContext* _get_m_synchronizationContext();
-    // Set instance field: private System.Threading.SynchronizationContext m_synchronizationContext
-    void _set_m_synchronizationContext(System::Threading::SynchronizationContext* value);
-    // Get instance field: private System.Runtime.CompilerServices.AsyncMethodBuilderCore m_coreState
-    System::Runtime::CompilerServices::AsyncMethodBuilderCore _get_m_coreState();
-    // Set instance field: private System.Runtime.CompilerServices.AsyncMethodBuilderCore m_coreState
-    void _set_m_coreState(System::Runtime::CompilerServices::AsyncMethodBuilderCore value);
-    // Get instance field: private System.Threading.Tasks.Task m_task
-    System::Threading::Tasks::Task* _get_m_task();
-    // Set instance field: private System.Threading.Tasks.Task m_task
-    void _set_m_task(System::Threading::Tasks::Task* value);
+    // Get instance field reference: private System.Threading.SynchronizationContext m_synchronizationContext
+    System::Threading::SynchronizationContext*& dyn_m_synchronizationContext();
+    // Get instance field reference: private System.Runtime.CompilerServices.AsyncMethodBuilderCore m_coreState
+    System::Runtime::CompilerServices::AsyncMethodBuilderCore& dyn_m_coreState();
+    // Get instance field reference: private System.Threading.Tasks.Task m_task
+    System::Threading::Tasks::Task*& dyn_m_task();
     // private System.Threading.Tasks.Task get_Task()
     // Offset: 0x1486838
     System::Threading::Tasks::Task* get_Task();

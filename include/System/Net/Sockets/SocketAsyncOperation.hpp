@@ -92,10 +92,8 @@ namespace System::Net::Sockets {
     static System::Net::Sockets::SocketAsyncOperation _get_SendTo();
     // Set static field: static public System.Net.Sockets.SocketAsyncOperation SendTo
     static void _set_SendTo(System::Net::Sockets::SocketAsyncOperation value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Net.Sockets.SocketAsyncOperation
   #pragma pack(pop)
   static check_size<sizeof(SocketAsyncOperation), 0 + sizeof(int)> __System_Net_Sockets_SocketAsyncOperationSizeCheck;

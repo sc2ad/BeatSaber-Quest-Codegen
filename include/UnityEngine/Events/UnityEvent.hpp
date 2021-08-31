@@ -48,10 +48,8 @@ namespace UnityEngine::Events {
     constexpr operator ::Array<::Il2CppObject*>*() const noexcept {
       return m_InvokeArray;
     }
-    // Get instance field: private System.Object[] m_InvokeArray
-    ::Array<::Il2CppObject*>* _get_m_InvokeArray();
-    // Set instance field: private System.Object[] m_InvokeArray
-    void _set_m_InvokeArray(::Array<::Il2CppObject*>* value);
+    // Get instance field reference: private System.Object[] m_InvokeArray
+    ::Array<::Il2CppObject*>*& dyn_m_InvokeArray();
     // public System.Void AddListener(UnityEngine.Events.UnityAction call)
     // Offset: 0x1C28938
     void AddListener(UnityEngine::Events::UnityAction* call);

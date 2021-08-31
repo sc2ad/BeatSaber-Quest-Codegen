@@ -82,34 +82,20 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<UnityEngine::ParticleSystem::Particle>*) == 0x8);
     // Creating value type constructor for type: ParticleSystemLightWithId
     ParticleSystemLightWithId(UnityEngine::ParticleSystem* particleSystem_ = {}, bool setOnlyOnce_ = {}, bool setColorOnly_ = {}, float intensity_ = {}, float minAlpha_ = {}, UnityEngine::ParticleSystem::MainModule mainModule_ = {}, ::Array<UnityEngine::ParticleSystem::Particle>* particles_ = {}) noexcept : particleSystem{particleSystem_}, setOnlyOnce{setOnlyOnce_}, setColorOnly{setColorOnly_}, intensity{intensity_}, minAlpha{minAlpha_}, mainModule{mainModule_}, particles{particles_} {}
-    // Get instance field: private UnityEngine.ParticleSystem _particleSystem
-    UnityEngine::ParticleSystem* _get__particleSystem();
-    // Set instance field: private UnityEngine.ParticleSystem _particleSystem
-    void _set__particleSystem(UnityEngine::ParticleSystem* value);
-    // Get instance field: private System.Boolean setOnlyOnce
-    bool _get_setOnlyOnce();
-    // Set instance field: private System.Boolean setOnlyOnce
-    void _set_setOnlyOnce(bool value);
-    // Get instance field: private System.Boolean _setColorOnly
-    bool _get__setColorOnly();
-    // Set instance field: private System.Boolean _setColorOnly
-    void _set__setColorOnly(bool value);
-    // Get instance field: private System.Single _intensity
-    float _get__intensity();
-    // Set instance field: private System.Single _intensity
-    void _set__intensity(float value);
-    // Get instance field: private System.Single _minAlpha
-    float _get__minAlpha();
-    // Set instance field: private System.Single _minAlpha
-    void _set__minAlpha(float value);
-    // Get instance field: private UnityEngine.ParticleSystem/UnityEngine.MainModule _mainModule
-    UnityEngine::ParticleSystem::MainModule _get__mainModule();
-    // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.MainModule _mainModule
-    void _set__mainModule(UnityEngine::ParticleSystem::MainModule value);
-    // Get instance field: private UnityEngine.ParticleSystem/UnityEngine.Particle[] _particles
-    ::Array<UnityEngine::ParticleSystem::Particle>* _get__particles();
-    // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.Particle[] _particles
-    void _set__particles(::Array<UnityEngine::ParticleSystem::Particle>* value);
+    // Get instance field reference: private UnityEngine.ParticleSystem _particleSystem
+    UnityEngine::ParticleSystem*& dyn__particleSystem();
+    // Get instance field reference: private System.Boolean setOnlyOnce
+    bool& dyn_setOnlyOnce();
+    // Get instance field reference: private System.Boolean _setColorOnly
+    bool& dyn__setColorOnly();
+    // Get instance field reference: private System.Single _intensity
+    float& dyn__intensity();
+    // Get instance field reference: private System.Single _minAlpha
+    float& dyn__minAlpha();
+    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.MainModule _mainModule
+    UnityEngine::ParticleSystem::MainModule& dyn__mainModule();
+    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.Particle[] _particles
+    ::Array<UnityEngine::ParticleSystem::Particle>*& dyn__particles();
     // public UnityEngine.Color get_color()
     // Offset: 0x1E1E594
     UnityEngine::Color get_color();

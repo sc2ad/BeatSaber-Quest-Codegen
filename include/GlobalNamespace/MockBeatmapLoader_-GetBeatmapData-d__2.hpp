@@ -85,34 +85,20 @@ namespace GlobalNamespace {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
-    // Get instance field: public System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: public System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<MockBeatmapData> <>t__builder
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::MockBeatmapData*> _get_$$t__builder();
-    // Set instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<MockBeatmapData> <>t__builder
-    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::MockBeatmapData*> value);
-    // Get instance field: public BeatmapIdentifierNetSerializable beatmap
-    GlobalNamespace::BeatmapIdentifierNetSerializable* _get_beatmap();
-    // Set instance field: public BeatmapIdentifierNetSerializable beatmap
-    void _set_beatmap(GlobalNamespace::BeatmapIdentifierNetSerializable* value);
-    // Get instance field: public MockBeatmapLoader <>4__this
-    GlobalNamespace::MockBeatmapLoader* _get_$$4__this();
-    // Set instance field: public MockBeatmapLoader <>4__this
-    void _set_$$4__this(GlobalNamespace::MockBeatmapLoader* value);
-    // Get instance field: public System.Threading.CancellationToken cancellationToken
-    System::Threading::CancellationToken _get_cancellationToken();
-    // Set instance field: public System.Threading.CancellationToken cancellationToken
-    void _set_cancellationToken(System::Threading::CancellationToken value);
-    // Get instance field: private MockBeatmapLoader/<>c__DisplayClass2_0 <>8__1
-    GlobalNamespace::MockBeatmapLoader::$$c__DisplayClass2_0* _get_$$8__1();
-    // Set instance field: private MockBeatmapLoader/<>c__DisplayClass2_0 <>8__1
-    void _set_$$8__1(GlobalNamespace::MockBeatmapLoader::$$c__DisplayClass2_0* value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<BeatmapLevelsModel/GetBeatmapLevelResult> <>u__1
-    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelResult> _get_$$u__1();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<BeatmapLevelsModel/GetBeatmapLevelResult> <>u__1
-    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelResult> value);
+    // Get instance field reference: public System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<MockBeatmapData> <>t__builder
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::MockBeatmapData*>& dyn_$$t__builder();
+    // Get instance field reference: public BeatmapIdentifierNetSerializable beatmap
+    GlobalNamespace::BeatmapIdentifierNetSerializable*& dyn_beatmap();
+    // Get instance field reference: public MockBeatmapLoader <>4__this
+    GlobalNamespace::MockBeatmapLoader*& dyn_$$4__this();
+    // Get instance field reference: public System.Threading.CancellationToken cancellationToken
+    System::Threading::CancellationToken& dyn_cancellationToken();
+    // Get instance field reference: private MockBeatmapLoader/<>c__DisplayClass2_0 <>8__1
+    GlobalNamespace::MockBeatmapLoader::$$c__DisplayClass2_0*& dyn_$$8__1();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<BeatmapLevelsModel/GetBeatmapLevelResult> <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelResult>& dyn_$$u__1();
     // private System.Void MoveNext()
     // Offset: 0x11DBE44
     void MoveNext();

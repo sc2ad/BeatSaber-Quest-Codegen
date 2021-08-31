@@ -75,30 +75,18 @@ namespace GlobalNamespace {
     operator GlobalNamespace::INetworkPlayer() noexcept {
       return *reinterpret_cast<GlobalNamespace::INetworkPlayer*>(this);
     }
-    // Get instance field: private readonly UnifiedNetworkPlayerModel _playerModel
-    GlobalNamespace::UnifiedNetworkPlayerModel* _get__playerModel();
-    // Set instance field: private readonly UnifiedNetworkPlayerModel _playerModel
-    void _set__playerModel(GlobalNamespace::UnifiedNetworkPlayerModel* value);
-    // Get instance field: private readonly System.String _code
-    ::Il2CppString* _get__code();
-    // Set instance field: private readonly System.String _code
-    void _set__code(::Il2CppString* value);
-    // Get instance field: private readonly BeatmapLevelSelectionMask _selectionMask
-    GlobalNamespace::BeatmapLevelSelectionMask _get__selectionMask();
-    // Set instance field: private readonly BeatmapLevelSelectionMask _selectionMask
-    void _set__selectionMask(GlobalNamespace::BeatmapLevelSelectionMask value);
-    // Get instance field: private readonly GameplayServerConfiguration _configuration
-    GlobalNamespace::GameplayServerConfiguration _get__configuration();
-    // Set instance field: private readonly GameplayServerConfiguration _configuration
-    void _set__configuration(GlobalNamespace::GameplayServerConfiguration value);
-    // Get instance field: private System.Int32 _currentPlayerCount
-    int _get__currentPlayerCount();
-    // Set instance field: private System.Int32 _currentPlayerCount
-    void _set__currentPlayerCount(int value);
-    // Get instance field: private System.Single _lastUpdateTime
-    float _get__lastUpdateTime();
-    // Set instance field: private System.Single _lastUpdateTime
-    void _set__lastUpdateTime(float value);
+    // Get instance field reference: private readonly UnifiedNetworkPlayerModel _playerModel
+    GlobalNamespace::UnifiedNetworkPlayerModel*& dyn__playerModel();
+    // Get instance field reference: private readonly System.String _code
+    ::Il2CppString*& dyn__code();
+    // Get instance field reference: private readonly BeatmapLevelSelectionMask _selectionMask
+    GlobalNamespace::BeatmapLevelSelectionMask& dyn__selectionMask();
+    // Get instance field reference: private readonly GameplayServerConfiguration _configuration
+    GlobalNamespace::GameplayServerConfiguration& dyn__configuration();
+    // Get instance field reference: private System.Int32 _currentPlayerCount
+    int& dyn__currentPlayerCount();
+    // Get instance field reference: private System.Single _lastUpdateTime
+    float& dyn__lastUpdateTime();
     // private System.String INetworkPlayer.get_userId()
     // Offset: 0x1358718
     ::Il2CppString* INetworkPlayer_get_userId();

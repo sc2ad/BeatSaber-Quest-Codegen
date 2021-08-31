@@ -97,10 +97,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::ScreenBackButtonAnimationController::AnimationType _get_MoveOut2();
       // Set static field: static public ScreenBackButtonAnimationController/AnimationType MoveOut2
       static void _set_MoveOut2(GlobalNamespace::ScreenBackButtonAnimationController::AnimationType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // ScreenBackButtonAnimationController/AnimationType
     #pragma pack(pop)
     static check_size<sizeof(ScreenBackButtonAnimationController::AnimationType), 0 + sizeof(int)> __GlobalNamespace_ScreenBackButtonAnimationController_AnimationTypeSizeCheck;
@@ -121,14 +119,10 @@ namespace GlobalNamespace {
     ScreenBackButtonAnimationController(UnityEngine::Animator* animator_ = {}, System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenBackButtonAnimationController::AnimationType, int>* animationHashes_ = {}) noexcept : animator{animator_}, animationHashes{animationHashes_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.Animator _animator
-    UnityEngine::Animator* _get__animator();
-    // Set instance field: private UnityEngine.Animator _animator
-    void _set__animator(UnityEngine::Animator* value);
-    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<ScreenBackButtonAnimationController/AnimationType,System.Int32> _animationHashes
-    System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenBackButtonAnimationController::AnimationType, int>* _get__animationHashes();
-    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<ScreenBackButtonAnimationController/AnimationType,System.Int32> _animationHashes
-    void _set__animationHashes(System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenBackButtonAnimationController::AnimationType, int>* value);
+    // Get instance field reference: private UnityEngine.Animator _animator
+    UnityEngine::Animator*& dyn__animator();
+    // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<ScreenBackButtonAnimationController/AnimationType,System.Int32> _animationHashes
+    System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenBackButtonAnimationController::AnimationType, int>*& dyn__animationHashes();
     // protected System.Void Awake()
     // Offset: 0x23B4D3C
     void Awake();

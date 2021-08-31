@@ -37,14 +37,10 @@ namespace UnityEngine {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: CreateAssetMenuAttribute
     CreateAssetMenuAttribute(::Il2CppString* menuName_ = {}, ::Il2CppString* fileName_ = {}) noexcept : menuName{menuName_}, fileName{fileName_} {}
-    // Get instance field: private System.String <menuName>k__BackingField
-    ::Il2CppString* _get_$menuName$k__BackingField();
-    // Set instance field: private System.String <menuName>k__BackingField
-    void _set_$menuName$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.String <fileName>k__BackingField
-    ::Il2CppString* _get_$fileName$k__BackingField();
-    // Set instance field: private System.String <fileName>k__BackingField
-    void _set_$fileName$k__BackingField(::Il2CppString* value);
+    // Get instance field reference: private System.String <menuName>k__BackingField
+    ::Il2CppString*& dyn_$menuName$k__BackingField();
+    // Get instance field reference: private System.String <fileName>k__BackingField
+    ::Il2CppString*& dyn_$fileName$k__BackingField();
     // public System.Void set_menuName(System.String value)
     // Offset: 0x1C23A5C
     void set_menuName(::Il2CppString* value);

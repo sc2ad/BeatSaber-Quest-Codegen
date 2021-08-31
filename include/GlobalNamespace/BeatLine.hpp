@@ -78,18 +78,12 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public System.Single startTime
-      float _get_startTime();
-      // Set instance field: public System.Single startTime
-      void _set_startTime(float value);
-      // Get instance field: public System.Single arriveDuration
-      float _get_arriveDuration();
-      // Set instance field: public System.Single arriveDuration
-      void _set_arriveDuration(float value);
-      // Get instance field: public System.Single halfJumpDuration
-      float _get_halfJumpDuration();
-      // Set instance field: public System.Single halfJumpDuration
-      void _set_halfJumpDuration(float value);
+      // Get instance field reference: public System.Single startTime
+      float& dyn_startTime();
+      // Get instance field reference: public System.Single arriveDuration
+      float& dyn_arriveDuration();
+      // Get instance field reference: public System.Single halfJumpDuration
+      float& dyn_halfJumpDuration();
     }; // BeatLine/HighlightData
     #pragma pack(pop)
     static check_size<sizeof(BeatLine::HighlightData), 8 + sizeof(float)> __GlobalNamespace_BeatLine_HighlightDataSizeCheck;
@@ -144,38 +138,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: BeatLine
     BeatLine(GlobalNamespace::TubeBloomPrePassLight* tubeBloomPrePassLight_ = {}, UnityEngine::AnimationCurve* arriveFadeCurve_ = {}, UnityEngine::AnimationCurve* jumpFadeCurve_ = {}, float alphaMul_ = {}, float maxAlpha_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatLine::HighlightData>* highlights_ = {}, UnityEngine::Color color_ = {}, float rotation_ = {}) noexcept : tubeBloomPrePassLight{tubeBloomPrePassLight_}, arriveFadeCurve{arriveFadeCurve_}, jumpFadeCurve{jumpFadeCurve_}, alphaMul{alphaMul_}, maxAlpha{maxAlpha_}, highlights{highlights_}, color{color_}, rotation{rotation_} {}
-    // Get instance field: private TubeBloomPrePassLight _tubeBloomPrePassLight
-    GlobalNamespace::TubeBloomPrePassLight* _get__tubeBloomPrePassLight();
-    // Set instance field: private TubeBloomPrePassLight _tubeBloomPrePassLight
-    void _set__tubeBloomPrePassLight(GlobalNamespace::TubeBloomPrePassLight* value);
-    // Get instance field: private UnityEngine.AnimationCurve _arriveFadeCurve
-    UnityEngine::AnimationCurve* _get__arriveFadeCurve();
-    // Set instance field: private UnityEngine.AnimationCurve _arriveFadeCurve
-    void _set__arriveFadeCurve(UnityEngine::AnimationCurve* value);
-    // Get instance field: private UnityEngine.AnimationCurve _jumpFadeCurve
-    UnityEngine::AnimationCurve* _get__jumpFadeCurve();
-    // Set instance field: private UnityEngine.AnimationCurve _jumpFadeCurve
-    void _set__jumpFadeCurve(UnityEngine::AnimationCurve* value);
-    // Get instance field: private System.Single _alphaMul
-    float _get__alphaMul();
-    // Set instance field: private System.Single _alphaMul
-    void _set__alphaMul(float value);
-    // Get instance field: private System.Single _maxAlpha
-    float _get__maxAlpha();
-    // Set instance field: private System.Single _maxAlpha
-    void _set__maxAlpha(float value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<BeatLine/HighlightData> _highlights
-    System::Collections::Generic::List_1<GlobalNamespace::BeatLine::HighlightData>* _get__highlights();
-    // Set instance field: private readonly System.Collections.Generic.List`1<BeatLine/HighlightData> _highlights
-    void _set__highlights(System::Collections::Generic::List_1<GlobalNamespace::BeatLine::HighlightData>* value);
-    // Get instance field: private UnityEngine.Color _color
-    UnityEngine::Color _get__color();
-    // Set instance field: private UnityEngine.Color _color
-    void _set__color(UnityEngine::Color value);
-    // Get instance field: private System.Single _rotation
-    float _get__rotation();
-    // Set instance field: private System.Single _rotation
-    void _set__rotation(float value);
+    // Get instance field reference: private TubeBloomPrePassLight _tubeBloomPrePassLight
+    GlobalNamespace::TubeBloomPrePassLight*& dyn__tubeBloomPrePassLight();
+    // Get instance field reference: private UnityEngine.AnimationCurve _arriveFadeCurve
+    UnityEngine::AnimationCurve*& dyn__arriveFadeCurve();
+    // Get instance field reference: private UnityEngine.AnimationCurve _jumpFadeCurve
+    UnityEngine::AnimationCurve*& dyn__jumpFadeCurve();
+    // Get instance field reference: private System.Single _alphaMul
+    float& dyn__alphaMul();
+    // Get instance field reference: private System.Single _maxAlpha
+    float& dyn__maxAlpha();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<BeatLine/HighlightData> _highlights
+    System::Collections::Generic::List_1<GlobalNamespace::BeatLine::HighlightData>*& dyn__highlights();
+    // Get instance field reference: private UnityEngine.Color _color
+    UnityEngine::Color& dyn__color();
+    // Get instance field reference: private System.Single _rotation
+    float& dyn__rotation();
     // public System.Boolean get_isFinished()
     // Offset: 0x11E813C
     bool get_isFinished();

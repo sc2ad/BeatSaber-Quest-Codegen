@@ -103,38 +103,22 @@ namespace UnityEngine::TestTools {
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
-    // Get instance field: private System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: private System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: private System.Object <>2__current
-    ::Il2CppObject* _get_$$2__current();
-    // Set instance field: private System.Object <>2__current
-    void _set_$$2__current(::Il2CppObject* value);
-    // Get instance field: private System.Int32 <>l__initialThreadId
-    int _get_$$l__initialThreadId();
-    // Set instance field: private System.Int32 <>l__initialThreadId
-    void _set_$$l__initialThreadId(int value);
-    // Get instance field: public UnityEngine.TestTools.EnumerableTestMethodCommand <>4__this
-    UnityEngine::TestTools::EnumerableTestMethodCommand* _get_$$4__this();
-    // Set instance field: public UnityEngine.TestTools.EnumerableTestMethodCommand <>4__this
-    void _set_$$4__this(UnityEngine::TestTools::EnumerableTestMethodCommand* value);
-    // Get instance field: private NUnit.Framework.Internal.ITestExecutionContext context
-    NUnit::Framework::Internal::ITestExecutionContext* _get_context();
-    // Set instance field: private NUnit.Framework.Internal.ITestExecutionContext context
-    void _set_context(NUnit::Framework::Internal::ITestExecutionContext* value);
-    // Get instance field: public NUnit.Framework.Internal.ITestExecutionContext <>3__context
-    NUnit::Framework::Internal::ITestExecutionContext* _get_$$3__context();
-    // Set instance field: public NUnit.Framework.Internal.ITestExecutionContext <>3__context
-    void _set_$$3__context(NUnit::Framework::Internal::ITestExecutionContext* value);
-    // Get instance field: private UnityEngine.TestTools.TestEnumerator <testEnumeraterYieldInstruction>5__2
-    UnityEngine::TestTools::TestEnumerator* _get_$testEnumeraterYieldInstruction$5__2();
-    // Set instance field: private UnityEngine.TestTools.TestEnumerator <testEnumeraterYieldInstruction>5__2
-    void _set_$testEnumeraterYieldInstruction$5__2(UnityEngine::TestTools::TestEnumerator* value);
-    // Get instance field: private System.Collections.IEnumerator <executingEnumerator>5__3
-    System::Collections::IEnumerator* _get_$executingEnumerator$5__3();
-    // Set instance field: private System.Collections.IEnumerator <executingEnumerator>5__3
-    void _set_$executingEnumerator$5__3(System::Collections::IEnumerator* value);
+    // Get instance field reference: private System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: private System.Object <>2__current
+    ::Il2CppObject*& dyn_$$2__current();
+    // Get instance field reference: private System.Int32 <>l__initialThreadId
+    int& dyn_$$l__initialThreadId();
+    // Get instance field reference: public UnityEngine.TestTools.EnumerableTestMethodCommand <>4__this
+    UnityEngine::TestTools::EnumerableTestMethodCommand*& dyn_$$4__this();
+    // Get instance field reference: private NUnit.Framework.Internal.ITestExecutionContext context
+    NUnit::Framework::Internal::ITestExecutionContext*& dyn_context();
+    // Get instance field reference: public NUnit.Framework.Internal.ITestExecutionContext <>3__context
+    NUnit::Framework::Internal::ITestExecutionContext*& dyn_$$3__context();
+    // Get instance field reference: private UnityEngine.TestTools.TestEnumerator <testEnumeraterYieldInstruction>5__2
+    UnityEngine::TestTools::TestEnumerator*& dyn_$testEnumeraterYieldInstruction$5__2();
+    // Get instance field reference: private System.Collections.IEnumerator <executingEnumerator>5__3
+    System::Collections::IEnumerator*& dyn_$executingEnumerator$5__3();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
     // Offset: 0x14C136C
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();

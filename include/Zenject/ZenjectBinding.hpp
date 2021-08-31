@@ -80,10 +80,8 @@ namespace Zenject {
       static Zenject::ZenjectBinding::BindTypes _get_BaseType();
       // Set static field: static public Zenject.ZenjectBinding/Zenject.BindTypes BaseType
       static void _set_BaseType(Zenject::ZenjectBinding::BindTypes value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // Zenject.ZenjectBinding/Zenject.BindTypes
     #pragma pack(pop)
     static check_size<sizeof(ZenjectBinding::BindTypes), 0 + sizeof(int)> __Zenject_ZenjectBinding_BindTypesSizeCheck;
@@ -137,30 +135,18 @@ namespace Zenject {
     ZenjectBinding(::Array<UnityEngine::Component*>* components_ = {}, ::Il2CppString* identifier_ = {}, bool useSceneContext_ = {}, bool ifNotBound_ = {}, Zenject::Context* context_ = {}, Zenject::ZenjectBinding::BindTypes bindType_ = {}) noexcept : components{components_}, identifier{identifier_}, useSceneContext{useSceneContext_}, ifNotBound{ifNotBound_}, context{context_}, bindType{bindType_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.Component[] _components
-    ::Array<UnityEngine::Component*>* _get__components();
-    // Set instance field: private UnityEngine.Component[] _components
-    void _set__components(::Array<UnityEngine::Component*>* value);
-    // Get instance field: private System.String _identifier
-    ::Il2CppString* _get__identifier();
-    // Set instance field: private System.String _identifier
-    void _set__identifier(::Il2CppString* value);
-    // Get instance field: private System.Boolean _useSceneContext
-    bool _get__useSceneContext();
-    // Set instance field: private System.Boolean _useSceneContext
-    void _set__useSceneContext(bool value);
-    // Get instance field: private System.Boolean _ifNotBound
-    bool _get__ifNotBound();
-    // Set instance field: private System.Boolean _ifNotBound
-    void _set__ifNotBound(bool value);
-    // Get instance field: private Zenject.Context _context
-    Zenject::Context* _get__context();
-    // Set instance field: private Zenject.Context _context
-    void _set__context(Zenject::Context* value);
-    // Get instance field: private Zenject.ZenjectBinding/Zenject.BindTypes _bindType
-    Zenject::ZenjectBinding::BindTypes _get__bindType();
-    // Set instance field: private Zenject.ZenjectBinding/Zenject.BindTypes _bindType
-    void _set__bindType(Zenject::ZenjectBinding::BindTypes value);
+    // Get instance field reference: private UnityEngine.Component[] _components
+    ::Array<UnityEngine::Component*>*& dyn__components();
+    // Get instance field reference: private System.String _identifier
+    ::Il2CppString*& dyn__identifier();
+    // Get instance field reference: private System.Boolean _useSceneContext
+    bool& dyn__useSceneContext();
+    // Get instance field reference: private System.Boolean _ifNotBound
+    bool& dyn__ifNotBound();
+    // Get instance field reference: private Zenject.Context _context
+    Zenject::Context*& dyn__context();
+    // Get instance field reference: private Zenject.ZenjectBinding/Zenject.BindTypes _bindType
+    Zenject::ZenjectBinding::BindTypes& dyn__bindType();
     // public System.Boolean get_UseSceneContext()
     // Offset: 0x23E7304
     bool get_UseSceneContext();

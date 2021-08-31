@@ -74,34 +74,20 @@ namespace TMPro {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public TMPro.TMP_Text textComponent
-    TMPro::TMP_Text* _get_textComponent();
-    // Set instance field: public TMPro.TMP_Text textComponent
-    void _set_textComponent(TMPro::TMP_Text* value);
-    // Get instance field: public System.Int32 hashCode
-    int _get_hashCode();
-    // Set instance field: public System.Int32 hashCode
-    void _set_hashCode(int value);
-    // Get instance field: public System.Int32 linkIdFirstCharacterIndex
-    int _get_linkIdFirstCharacterIndex();
-    // Set instance field: public System.Int32 linkIdFirstCharacterIndex
-    void _set_linkIdFirstCharacterIndex(int value);
-    // Get instance field: public System.Int32 linkIdLength
-    int _get_linkIdLength();
-    // Set instance field: public System.Int32 linkIdLength
-    void _set_linkIdLength(int value);
-    // Get instance field: public System.Int32 linkTextfirstCharacterIndex
-    int _get_linkTextfirstCharacterIndex();
-    // Set instance field: public System.Int32 linkTextfirstCharacterIndex
-    void _set_linkTextfirstCharacterIndex(int value);
-    // Get instance field: public System.Int32 linkTextLength
-    int _get_linkTextLength();
-    // Set instance field: public System.Int32 linkTextLength
-    void _set_linkTextLength(int value);
-    // Get instance field: System.Char[] linkID
-    ::Array<::Il2CppChar>* _get_linkID();
-    // Set instance field: System.Char[] linkID
-    void _set_linkID(::Array<::Il2CppChar>* value);
+    // Get instance field reference: public TMPro.TMP_Text textComponent
+    TMPro::TMP_Text*& dyn_textComponent();
+    // Get instance field reference: public System.Int32 hashCode
+    int& dyn_hashCode();
+    // Get instance field reference: public System.Int32 linkIdFirstCharacterIndex
+    int& dyn_linkIdFirstCharacterIndex();
+    // Get instance field reference: public System.Int32 linkIdLength
+    int& dyn_linkIdLength();
+    // Get instance field reference: public System.Int32 linkTextfirstCharacterIndex
+    int& dyn_linkTextfirstCharacterIndex();
+    // Get instance field reference: public System.Int32 linkTextLength
+    int& dyn_linkTextLength();
+    // Get instance field reference: System.Char[] linkID
+    ::Array<::Il2CppChar>*& dyn_linkID();
     // System.Void SetLinkID(System.Char[] text, System.Int32 startIndex, System.Int32 length)
     // Offset: 0x1156790
     void SetLinkID(::Array<::Il2CppChar>* text, int startIndex, int length);

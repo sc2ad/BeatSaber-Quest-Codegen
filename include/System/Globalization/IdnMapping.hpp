@@ -47,18 +47,12 @@ namespace System::Globalization {
     static_assert(sizeof(System::Globalization::Punycode*) == 0x8);
     // Creating value type constructor for type: IdnMapping
     IdnMapping(bool allow_unassigned_ = {}, bool use_std3_ = {}, System::Globalization::Punycode* puny_ = {}) noexcept : allow_unassigned{allow_unassigned_}, use_std3{use_std3_}, puny{puny_} {}
-    // Get instance field: private System.Boolean allow_unassigned
-    bool _get_allow_unassigned();
-    // Set instance field: private System.Boolean allow_unassigned
-    void _set_allow_unassigned(bool value);
-    // Get instance field: private System.Boolean use_std3
-    bool _get_use_std3();
-    // Set instance field: private System.Boolean use_std3
-    void _set_use_std3(bool value);
-    // Get instance field: private System.Globalization.Punycode puny
-    System::Globalization::Punycode* _get_puny();
-    // Set instance field: private System.Globalization.Punycode puny
-    void _set_puny(System::Globalization::Punycode* value);
+    // Get instance field reference: private System.Boolean allow_unassigned
+    bool& dyn_allow_unassigned();
+    // Get instance field reference: private System.Boolean use_std3
+    bool& dyn_use_std3();
+    // Get instance field reference: private System.Globalization.Punycode puny
+    System::Globalization::Punycode*& dyn_puny();
     // public System.String GetAscii(System.String unicode)
     // Offset: 0x1A18A10
     ::Il2CppString* GetAscii(::Il2CppString* unicode);

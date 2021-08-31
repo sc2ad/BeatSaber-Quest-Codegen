@@ -44,22 +44,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: GameServerPlayerTableItem
     GameServerPlayerTableItem(::Il2CppString* playerName_ = {}, ::Il2CppString* suggestedLevel_ = {}, ::Il2CppString* suggestedModifiers_ = {}, bool isReady_ = {}) noexcept : playerName{playerName_}, suggestedLevel{suggestedLevel_}, suggestedModifiers{suggestedModifiers_}, isReady{isReady_} {}
-    // Get instance field: public readonly System.String playerName
-    ::Il2CppString* _get_playerName();
-    // Set instance field: public readonly System.String playerName
-    void _set_playerName(::Il2CppString* value);
-    // Get instance field: public readonly System.String suggestedLevel
-    ::Il2CppString* _get_suggestedLevel();
-    // Set instance field: public readonly System.String suggestedLevel
-    void _set_suggestedLevel(::Il2CppString* value);
-    // Get instance field: public readonly System.String suggestedModifiers
-    ::Il2CppString* _get_suggestedModifiers();
-    // Set instance field: public readonly System.String suggestedModifiers
-    void _set_suggestedModifiers(::Il2CppString* value);
-    // Get instance field: public readonly System.Boolean isReady
-    bool _get_isReady();
-    // Set instance field: public readonly System.Boolean isReady
-    void _set_isReady(bool value);
+    // Get instance field reference: public readonly System.String playerName
+    ::Il2CppString*& dyn_playerName();
+    // Get instance field reference: public readonly System.String suggestedLevel
+    ::Il2CppString*& dyn_suggestedLevel();
+    // Get instance field reference: public readonly System.String suggestedModifiers
+    ::Il2CppString*& dyn_suggestedModifiers();
+    // Get instance field reference: public readonly System.Boolean isReady
+    bool& dyn_isReady();
     // public System.Void .ctor(System.String playerName, System.String suggestedLevel, System.String suggestedModifiers, System.Boolean isReady)
     // Offset: 0x1107C8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -40,10 +40,8 @@ namespace UnityEngine::Timeline {
     constexpr operator ::Il2CppString*() const noexcept {
       return name;
     }
-    // Get instance field: public System.String name
-    ::Il2CppString* _get_name();
-    // Set instance field: public System.String name
-    void _set_name(::Il2CppString* value);
+    // Get instance field reference: public System.String name
+    ::Il2CppString*& dyn_name();
     // System.Boolean <GenerateUniqueActorName>b__0(UnityEngine.ScriptableObject x)
     // Offset: 0x236E054
     bool $GenerateUniqueActorName$b__0(UnityEngine::ScriptableObject* x);

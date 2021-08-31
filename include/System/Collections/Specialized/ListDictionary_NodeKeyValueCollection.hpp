@@ -57,14 +57,10 @@ namespace System::Collections::Specialized {
     operator System::Collections::ICollection() noexcept {
       return *reinterpret_cast<System::Collections::ICollection*>(this);
     }
-    // Get instance field: private System.Collections.Specialized.ListDictionary list
-    System::Collections::Specialized::ListDictionary* _get_list();
-    // Set instance field: private System.Collections.Specialized.ListDictionary list
-    void _set_list(System::Collections::Specialized::ListDictionary* value);
-    // Get instance field: private System.Boolean isKeys
-    bool _get_isKeys();
-    // Set instance field: private System.Boolean isKeys
-    void _set_isKeys(bool value);
+    // Get instance field reference: private System.Collections.Specialized.ListDictionary list
+    System::Collections::Specialized::ListDictionary*& dyn_list();
+    // Get instance field reference: private System.Boolean isKeys
+    bool& dyn_isKeys();
     // private System.Int32 System.Collections.ICollection.get_Count()
     // Offset: 0x18AAE90
     int System_Collections_ICollection_get_Count();

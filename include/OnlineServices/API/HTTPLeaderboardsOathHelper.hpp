@@ -104,18 +104,12 @@ namespace OnlineServices::API {
     static ::Il2CppString* _get_kLogoutPath();
     // Set static field: static private System.String kLogoutPath
     static void _set_kLogoutPath(::Il2CppString* value);
-    // Get instance field: private readonly OnlineServices.API.IUserLoginDtoDataSource _userLoginDataSource
-    OnlineServices::API::IUserLoginDtoDataSource* _get__userLoginDataSource();
-    // Set instance field: private readonly OnlineServices.API.IUserLoginDtoDataSource _userLoginDataSource
-    void _set__userLoginDataSource(OnlineServices::API::IUserLoginDtoDataSource* value);
-    // Get instance field: private readonly System.UriBuilder _uriBuilder
-    System::UriBuilder* _get__uriBuilder();
-    // Set instance field: private readonly System.UriBuilder _uriBuilder
-    void _set__uriBuilder(System::UriBuilder* value);
-    // Get instance field: private BeatSaberAPI.DataTransferObjects.AccessToken _accessToken
-    BeatSaberAPI::DataTransferObjects::AccessToken* _get__accessToken();
-    // Set instance field: private BeatSaberAPI.DataTransferObjects.AccessToken _accessToken
-    void _set__accessToken(BeatSaberAPI::DataTransferObjects::AccessToken* value);
+    // Get instance field reference: private readonly OnlineServices.API.IUserLoginDtoDataSource _userLoginDataSource
+    OnlineServices::API::IUserLoginDtoDataSource*& dyn__userLoginDataSource();
+    // Get instance field reference: private readonly System.UriBuilder _uriBuilder
+    System::UriBuilder*& dyn__uriBuilder();
+    // Get instance field reference: private BeatSaberAPI.DataTransferObjects.AccessToken _accessToken
+    BeatSaberAPI::DataTransferObjects::AccessToken*& dyn__accessToken();
     // public System.Threading.Tasks.Task`1<System.String> SendWebRequestWithOathAsync(System.String path, System.String method, System.Object objectToSendAsJson, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x10266D0
     System::Threading::Tasks::Task_1<::Il2CppString*>* SendWebRequestWithOathAsync(::Il2CppString* path, ::Il2CppString* method, ::Il2CppObject* objectToSendAsJson, System::Threading::CancellationToken cancellationToken);

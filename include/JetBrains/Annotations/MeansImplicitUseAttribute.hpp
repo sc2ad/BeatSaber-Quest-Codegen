@@ -39,14 +39,10 @@ namespace JetBrains::Annotations {
     static_assert(sizeof(JetBrains::Annotations::ImplicitUseTargetFlags) == 0x4);
     // Creating value type constructor for type: MeansImplicitUseAttribute
     MeansImplicitUseAttribute(JetBrains::Annotations::ImplicitUseKindFlags UseKindFlags_ = {}, JetBrains::Annotations::ImplicitUseTargetFlags TargetFlags_ = {}) noexcept : UseKindFlags{UseKindFlags_}, TargetFlags{TargetFlags_} {}
-    // Get instance field: private JetBrains.Annotations.ImplicitUseKindFlags <UseKindFlags>k__BackingField
-    JetBrains::Annotations::ImplicitUseKindFlags _get_$UseKindFlags$k__BackingField();
-    // Set instance field: private JetBrains.Annotations.ImplicitUseKindFlags <UseKindFlags>k__BackingField
-    void _set_$UseKindFlags$k__BackingField(JetBrains::Annotations::ImplicitUseKindFlags value);
-    // Get instance field: private JetBrains.Annotations.ImplicitUseTargetFlags <TargetFlags>k__BackingField
-    JetBrains::Annotations::ImplicitUseTargetFlags _get_$TargetFlags$k__BackingField();
-    // Set instance field: private JetBrains.Annotations.ImplicitUseTargetFlags <TargetFlags>k__BackingField
-    void _set_$TargetFlags$k__BackingField(JetBrains::Annotations::ImplicitUseTargetFlags value);
+    // Get instance field reference: private JetBrains.Annotations.ImplicitUseKindFlags <UseKindFlags>k__BackingField
+    JetBrains::Annotations::ImplicitUseKindFlags& dyn_$UseKindFlags$k__BackingField();
+    // Get instance field reference: private JetBrains.Annotations.ImplicitUseTargetFlags <TargetFlags>k__BackingField
+    JetBrains::Annotations::ImplicitUseTargetFlags& dyn_$TargetFlags$k__BackingField();
     // public JetBrains.Annotations.ImplicitUseKindFlags get_UseKindFlags()
     // Offset: 0x240864C
     JetBrains::Annotations::ImplicitUseKindFlags get_UseKindFlags();

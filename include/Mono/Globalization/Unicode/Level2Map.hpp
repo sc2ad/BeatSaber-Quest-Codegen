@@ -32,14 +32,10 @@ namespace Mono::Globalization::Unicode {
     static_assert(sizeof(uint8_t) == 0x1);
     // Creating value type constructor for type: Level2Map
     Level2Map(uint8_t Source_ = {}, uint8_t Replace_ = {}) noexcept : Source{Source_}, Replace{Replace_} {}
-    // Get instance field: public System.Byte Source
-    uint8_t _get_Source();
-    // Set instance field: public System.Byte Source
-    void _set_Source(uint8_t value);
-    // Get instance field: public System.Byte Replace
-    uint8_t _get_Replace();
-    // Set instance field: public System.Byte Replace
-    void _set_Replace(uint8_t value);
+    // Get instance field reference: public System.Byte Source
+    uint8_t& dyn_Source();
+    // Get instance field reference: public System.Byte Replace
+    uint8_t& dyn_Replace();
     // public System.Void .ctor(System.Byte source, System.Byte replace)
     // Offset: 0x1A65C00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

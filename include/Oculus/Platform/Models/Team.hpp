@@ -53,22 +53,14 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: Team
     Team(Oculus::Platform::Models::UserList* AssignedUsers_ = {}, int MaxUsers_ = {}, int MinUsers_ = {}, ::Il2CppString* Name_ = {}) noexcept : AssignedUsers{AssignedUsers_}, MaxUsers{MaxUsers_}, MinUsers{MinUsers_}, Name{Name_} {}
-    // Get instance field: public readonly Oculus.Platform.Models.UserList AssignedUsers
-    Oculus::Platform::Models::UserList* _get_AssignedUsers();
-    // Set instance field: public readonly Oculus.Platform.Models.UserList AssignedUsers
-    void _set_AssignedUsers(Oculus::Platform::Models::UserList* value);
-    // Get instance field: public readonly System.Int32 MaxUsers
-    int _get_MaxUsers();
-    // Set instance field: public readonly System.Int32 MaxUsers
-    void _set_MaxUsers(int value);
-    // Get instance field: public readonly System.Int32 MinUsers
-    int _get_MinUsers();
-    // Set instance field: public readonly System.Int32 MinUsers
-    void _set_MinUsers(int value);
-    // Get instance field: public readonly System.String Name
-    ::Il2CppString* _get_Name();
-    // Set instance field: public readonly System.String Name
-    void _set_Name(::Il2CppString* value);
+    // Get instance field reference: public readonly Oculus.Platform.Models.UserList AssignedUsers
+    Oculus::Platform::Models::UserList*& dyn_AssignedUsers();
+    // Get instance field reference: public readonly System.Int32 MaxUsers
+    int& dyn_MaxUsers();
+    // Get instance field reference: public readonly System.Int32 MinUsers
+    int& dyn_MinUsers();
+    // Get instance field reference: public readonly System.String Name
+    ::Il2CppString*& dyn_Name();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14F28EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

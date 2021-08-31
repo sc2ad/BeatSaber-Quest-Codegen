@@ -62,14 +62,10 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public readonly System.Single endTime
-      float _get_endTime();
-      // Set instance field: public readonly System.Single endTime
-      void _set_endTime(float value);
-      // Get instance field: public readonly System.Single strength
-      float _get_strength();
-      // Set instance field: public readonly System.Single strength
-      void _set_strength(float value);
+      // Get instance field reference: public readonly System.Single endTime
+      float& dyn_endTime();
+      // Get instance field reference: public readonly System.Single strength
+      float& dyn_strength();
       // public System.Void .ctor(System.Single endTime, System.Single strength)
       // Offset: 0x2399588
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -110,22 +106,14 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IOpenVRHaptics() noexcept {
       return *reinterpret_cast<GlobalNamespace::IOpenVRHaptics*>(this);
     }
-    // Get instance field: private System.Single _currentTime
-    float _get__currentTime();
-    // Set instance field: private System.Single _currentTime
-    void _set__currentTime(float value);
-    // Get instance field: private System.Threading.Thread _hapticThread
-    System::Threading::Thread* _get__hapticThread();
-    // Set instance field: private System.Threading.Thread _hapticThread
-    void _set__hapticThread(System::Threading::Thread* value);
-    // Get instance field: private ThreadedOpenVrOpenVrHaptics/OpenVrHapticData _leftHandHaptics
-    GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData _get__leftHandHaptics();
-    // Set instance field: private ThreadedOpenVrOpenVrHaptics/OpenVrHapticData _leftHandHaptics
-    void _set__leftHandHaptics(GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData value);
-    // Get instance field: private ThreadedOpenVrOpenVrHaptics/OpenVrHapticData _rightHandHaptics
-    GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData _get__rightHandHaptics();
-    // Set instance field: private ThreadedOpenVrOpenVrHaptics/OpenVrHapticData _rightHandHaptics
-    void _set__rightHandHaptics(GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData value);
+    // Get instance field reference: private System.Single _currentTime
+    float& dyn__currentTime();
+    // Get instance field reference: private System.Threading.Thread _hapticThread
+    System::Threading::Thread*& dyn__hapticThread();
+    // Get instance field reference: private ThreadedOpenVrOpenVrHaptics/OpenVrHapticData _leftHandHaptics
+    GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData& dyn__leftHandHaptics();
+    // Get instance field reference: private ThreadedOpenVrOpenVrHaptics/OpenVrHapticData _rightHandHaptics
+    GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData& dyn__rightHandHaptics();
     // public System.Void TriggerHapticPulse(UnityEngine.XR.XRNode node, System.Single duration, System.Single strength, System.Single frequency)
     // Offset: 0x239955C
     void TriggerHapticPulse(UnityEngine::XR::XRNode node, float duration, float strength, float frequency);

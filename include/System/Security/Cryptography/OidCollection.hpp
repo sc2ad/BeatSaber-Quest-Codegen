@@ -56,10 +56,8 @@ namespace System::Security::Cryptography {
     constexpr operator System::Collections::ArrayList*() const noexcept {
       return m_list;
     }
-    // Get instance field: private System.Collections.ArrayList m_list
-    System::Collections::ArrayList* _get_m_list();
-    // Set instance field: private System.Collections.ArrayList m_list
-    void _set_m_list(System::Collections::ArrayList* value);
+    // Get instance field reference: private System.Collections.ArrayList m_list
+    System::Collections::ArrayList*& dyn_m_list();
     // public System.Security.Cryptography.Oid get_Item(System.Int32 index)
     // Offset: 0x1857088
     System::Security::Cryptography::Oid* get_Item(int index);

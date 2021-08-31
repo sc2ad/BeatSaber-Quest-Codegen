@@ -50,10 +50,8 @@ namespace System::Runtime::Remoting {
     constexpr operator System::WeakReference*() const noexcept {
       return proxyReference;
     }
-    // Get instance field: private System.WeakReference _proxyReference
-    System::WeakReference* _get__proxyReference();
-    // Set instance field: private System.WeakReference _proxyReference
-    void _set__proxyReference(System::WeakReference* value);
+    // Get instance field reference: private System.WeakReference _proxyReference
+    System::WeakReference*& dyn__proxyReference();
     // public System.MarshalByRefObject get_ClientProxy()
     // Offset: 0x14919A0
     System::MarshalByRefObject* get_ClientProxy();

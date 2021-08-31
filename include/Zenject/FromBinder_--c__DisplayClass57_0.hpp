@@ -47,10 +47,8 @@ namespace Zenject {
     constexpr operator ::Il2CppString*() const noexcept {
       return resourcePath;
     }
-    // Get instance field: public System.String resourcePath
-    ::Il2CppString* _get_resourcePath();
-    // Set instance field: public System.String resourcePath
-    void _set_resourcePath(::Il2CppString* value);
+    // Get instance field reference: public System.String resourcePath
+    ::Il2CppString*& dyn_resourcePath();
     // Zenject.IProvider <FromResource>b__0(Zenject.DiContainer _, System.Type type)
     // Offset: 0x165C7D4
     Zenject::IProvider* $FromResource$b__0(Zenject::DiContainer* _, System::Type* type);

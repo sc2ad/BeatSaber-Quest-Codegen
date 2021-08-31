@@ -110,34 +110,20 @@ namespace GlobalNamespace {
     static GlobalNamespace::BeatmapEventType _get_kStarTextAppearEventType();
     // Set static field: static private BeatmapEventType kStarTextAppearEventType
     static void _set_kStarTextAppearEventType(GlobalNamespace::BeatmapEventType value);
-    // Get instance field: private BTSStarTextEventEffect/StarTextSprite[] _starTextSprites
-    ::Array<GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*>* _get__starTextSprites();
-    // Set instance field: private BTSStarTextEventEffect/StarTextSprite[] _starTextSprites
-    void _set__starTextSprites(::Array<GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*>* value);
-    // Get instance field: private BTSStarTextEventEffect/StartTextPosition[] _startTextPositions
-    ::Array<GlobalNamespace::BTSStarTextEventEffect::StartTextPosition*>* _get__startTextPositions();
-    // Set instance field: private BTSStarTextEventEffect/StartTextPosition[] _startTextPositions
-    void _set__startTextPositions(::Array<GlobalNamespace::BTSStarTextEventEffect::StartTextPosition*>* value);
-    // Get instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
-    GlobalNamespace::IBeatmapObjectCallbackController* _get__beatmapObjectCallbackController();
-    // Set instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
-    void _set__beatmapObjectCallbackController(GlobalNamespace::IBeatmapObjectCallbackController* value);
-    // Get instance field: private readonly IAudioTimeSource _audioTimeSource
-    GlobalNamespace::IAudioTimeSource* _get__audioTimeSource();
-    // Set instance field: private readonly IAudioTimeSource _audioTimeSource
-    void _set__audioTimeSource(GlobalNamespace::IAudioTimeSource* value);
-    // Get instance field: private System.Action`3<UnityEngine.Sprite,UnityEngine.Transform,System.Single> startStarTextAnimationEvent
-    System::Action_3<UnityEngine::Sprite*, UnityEngine::Transform*, float>* _get_startStarTextAnimationEvent();
-    // Set instance field: private System.Action`3<UnityEngine.Sprite,UnityEngine.Transform,System.Single> startStarTextAnimationEvent
-    void _set_startStarTextAnimationEvent(System::Action_3<UnityEngine::Sprite*, UnityEngine::Transform*, float>* value);
-    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<System.Int32,BTSStarTextEventEffect/StarTextSprite> _idsToStarTextSpriteDictionary
-    System::Collections::Generic::Dictionary_2<int, GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*>* _get__idsToStarTextSpriteDictionary();
-    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<System.Int32,BTSStarTextEventEffect/StarTextSprite> _idsToStarTextSpriteDictionary
-    void _set__idsToStarTextSpriteDictionary(System::Collections::Generic::Dictionary_2<int, GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*>* value);
-    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.Transform> _idsToStarTextPositionDictionary
-    System::Collections::Generic::Dictionary_2<int, UnityEngine::Transform*>* _get__idsToStarTextPositionDictionary();
-    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.Transform> _idsToStarTextPositionDictionary
-    void _set__idsToStarTextPositionDictionary(System::Collections::Generic::Dictionary_2<int, UnityEngine::Transform*>* value);
+    // Get instance field reference: private BTSStarTextEventEffect/StarTextSprite[] _starTextSprites
+    ::Array<GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*>*& dyn__starTextSprites();
+    // Get instance field reference: private BTSStarTextEventEffect/StartTextPosition[] _startTextPositions
+    ::Array<GlobalNamespace::BTSStarTextEventEffect::StartTextPosition*>*& dyn__startTextPositions();
+    // Get instance field reference: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    GlobalNamespace::IBeatmapObjectCallbackController*& dyn__beatmapObjectCallbackController();
+    // Get instance field reference: private readonly IAudioTimeSource _audioTimeSource
+    GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
+    // Get instance field reference: private System.Action`3<UnityEngine.Sprite,UnityEngine.Transform,System.Single> startStarTextAnimationEvent
+    System::Action_3<UnityEngine::Sprite*, UnityEngine::Transform*, float>*& dyn_startStarTextAnimationEvent();
+    // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Int32,BTSStarTextEventEffect/StarTextSprite> _idsToStarTextSpriteDictionary
+    System::Collections::Generic::Dictionary_2<int, GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*>*& dyn__idsToStarTextSpriteDictionary();
+    // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.Transform> _idsToStarTextPositionDictionary
+    System::Collections::Generic::Dictionary_2<int, UnityEngine::Transform*>*& dyn__idsToStarTextPositionDictionary();
     // public System.Void add_startStarTextAnimationEvent(System.Action`3<UnityEngine.Sprite,UnityEngine.Transform,System.Single> value)
     // Offset: 0x1188DC0
     void add_startStarTextAnimationEvent(System::Action_3<UnityEngine::Sprite*, UnityEngine::Transform*, float>* value);

@@ -182,78 +182,42 @@ namespace GlobalNamespace {
     static int _get__zClipPropertyID();
     // Set static field: static private readonly System.Int32 _zClipPropertyID
     static void _set__zClipPropertyID(int value);
-    // Get instance field: private UnityEngine.Mesh _elementMesh
-    UnityEngine::Mesh* _get__elementMesh();
-    // Set instance field: private UnityEngine.Mesh _elementMesh
-    void _set__elementMesh(UnityEngine::Mesh* value);
-    // Get instance field: private UnityEngine.Material _material
-    UnityEngine::Material* _get__material();
-    // Set instance field: private UnityEngine.Material _material
-    void _set__material(UnityEngine::Material* value);
-    // Get instance field: private System.Int32 _numberOfElements
-    int _get__numberOfElements();
-    // Set instance field: private System.Int32 _numberOfElements
-    void _set__numberOfElements(int value);
-    // Get instance field: private System.Single _radius
-    float _get__radius();
-    // Set instance field: private System.Single _radius
-    void _set__radius(float value);
-    // Get instance field: private System.Single _length
-    float _get__length();
-    // Set instance field: private System.Single _length
-    void _set__length(float value);
-    // Get instance field: private System.Single _minVelocity
-    float _get__minVelocity();
-    // Set instance field: private System.Single _minVelocity
-    void _set__minVelocity(float value);
-    // Get instance field: private System.Single _maxVelocity
-    float _get__maxVelocity();
-    // Set instance field: private System.Single _maxVelocity
-    void _set__maxVelocity(float value);
-    // Get instance field: private System.Single _elementWidth
-    float _get__elementWidth();
-    // Set instance field: private System.Single _elementWidth
-    void _set__elementWidth(float value);
-    // Get instance field: private System.Single _minElementLength
-    float _get__minElementLength();
-    // Set instance field: private System.Single _minElementLength
-    void _set__minElementLength(float value);
-    // Get instance field: private System.Single _maxElementLength
-    float _get__maxElementLength();
-    // Set instance field: private System.Single _maxElementLength
-    void _set__maxElementLength(float value);
-    // Get instance field: private UnityEngine.Color <color>k__BackingField
-    UnityEngine::Color _get_$color$k__BackingField();
-    // Set instance field: private UnityEngine.Color <color>k__BackingField
-    void _set_$color$k__BackingField(UnityEngine::Color value);
-    // Get instance field: private System.Collections.Generic.List`1<BlocksBlade/Element> _elements
-    System::Collections::Generic::List_1<GlobalNamespace::BlocksBlade::Element*>* _get__elements();
-    // Set instance field: private System.Collections.Generic.List`1<BlocksBlade/Element> _elements
-    void _set__elements(System::Collections::Generic::List_1<GlobalNamespace::BlocksBlade::Element*>* value);
-    // Get instance field: private UnityEngine.Vector4[] _positions
-    ::Array<UnityEngine::Vector4>* _get__positions();
-    // Set instance field: private UnityEngine.Vector4[] _positions
-    void _set__positions(::Array<UnityEngine::Vector4>* value);
-    // Get instance field: private UnityEngine.Vector4[] _sizes
-    ::Array<UnityEngine::Vector4>* _get__sizes();
-    // Set instance field: private UnityEngine.Vector4[] _sizes
-    void _set__sizes(::Array<UnityEngine::Vector4>* value);
-    // Get instance field: private UnityEngine.Vector4[] _colors
-    ::Array<UnityEngine::Vector4>* _get__colors();
-    // Set instance field: private UnityEngine.Vector4[] _colors
-    void _set__colors(::Array<UnityEngine::Vector4>* value);
-    // Get instance field: private UnityEngine.Matrix4x4[] _matrices
-    ::Array<UnityEngine::Matrix4x4>* _get__matrices();
-    // Set instance field: private UnityEngine.Matrix4x4[] _matrices
-    void _set__matrices(::Array<UnityEngine::Matrix4x4>* value);
-    // Get instance field: private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
-    UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();
-    // Set instance field: private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
-    void _set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock* value);
-    // Get instance field: private System.Int32 _layer
-    int _get__layer();
-    // Set instance field: private System.Int32 _layer
-    void _set__layer(int value);
+    // Get instance field reference: private UnityEngine.Mesh _elementMesh
+    UnityEngine::Mesh*& dyn__elementMesh();
+    // Get instance field reference: private UnityEngine.Material _material
+    UnityEngine::Material*& dyn__material();
+    // Get instance field reference: private System.Int32 _numberOfElements
+    int& dyn__numberOfElements();
+    // Get instance field reference: private System.Single _radius
+    float& dyn__radius();
+    // Get instance field reference: private System.Single _length
+    float& dyn__length();
+    // Get instance field reference: private System.Single _minVelocity
+    float& dyn__minVelocity();
+    // Get instance field reference: private System.Single _maxVelocity
+    float& dyn__maxVelocity();
+    // Get instance field reference: private System.Single _elementWidth
+    float& dyn__elementWidth();
+    // Get instance field reference: private System.Single _minElementLength
+    float& dyn__minElementLength();
+    // Get instance field reference: private System.Single _maxElementLength
+    float& dyn__maxElementLength();
+    // Get instance field reference: private UnityEngine.Color <color>k__BackingField
+    UnityEngine::Color& dyn_$color$k__BackingField();
+    // Get instance field reference: private System.Collections.Generic.List`1<BlocksBlade/Element> _elements
+    System::Collections::Generic::List_1<GlobalNamespace::BlocksBlade::Element*>*& dyn__elements();
+    // Get instance field reference: private UnityEngine.Vector4[] _positions
+    ::Array<UnityEngine::Vector4>*& dyn__positions();
+    // Get instance field reference: private UnityEngine.Vector4[] _sizes
+    ::Array<UnityEngine::Vector4>*& dyn__sizes();
+    // Get instance field reference: private UnityEngine.Vector4[] _colors
+    ::Array<UnityEngine::Vector4>*& dyn__colors();
+    // Get instance field reference: private UnityEngine.Matrix4x4[] _matrices
+    ::Array<UnityEngine::Matrix4x4>*& dyn__matrices();
+    // Get instance field reference: private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
+    UnityEngine::MaterialPropertyBlock*& dyn__materialPropertyBlock();
+    // Get instance field reference: private System.Int32 _layer
+    int& dyn__layer();
     // public UnityEngine.Color get_color()
     // Offset: 0x10D0D04
     UnityEngine::Color get_color();

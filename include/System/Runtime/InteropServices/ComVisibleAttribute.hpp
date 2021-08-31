@@ -34,10 +34,8 @@ namespace System::Runtime::InteropServices {
     constexpr operator bool() const noexcept {
       return val;
     }
-    // Get instance field: System.Boolean _val
-    bool _get__val();
-    // Set instance field: System.Boolean _val
-    void _set__val(bool value);
+    // Get instance field reference: System.Boolean _val
+    bool& dyn__val();
     // public System.Void .ctor(System.Boolean visibility)
     // Offset: 0x1487FCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -140,62 +140,34 @@ namespace GlobalNamespace {
     static float _get_kSpeedMultiplier();
     // Set static field: static private System.Single kSpeedMultiplier
     static void _set_kSpeedMultiplier(float value);
-    // Get instance field: private BeatmapEventType _eventL
-    GlobalNamespace::BeatmapEventType _get__eventL();
-    // Set instance field: private BeatmapEventType _eventL
-    void _set__eventL(GlobalNamespace::BeatmapEventType value);
-    // Get instance field: private BeatmapEventType _eventR
-    GlobalNamespace::BeatmapEventType _get__eventR();
-    // Set instance field: private BeatmapEventType _eventR
-    void _set__eventR(GlobalNamespace::BeatmapEventType value);
-    // Get instance field: private BeatmapEventType _switchOverrideRandomValuesEvent
-    GlobalNamespace::BeatmapEventType _get__switchOverrideRandomValuesEvent();
-    // Set instance field: private BeatmapEventType _switchOverrideRandomValuesEvent
-    void _set__switchOverrideRandomValuesEvent(GlobalNamespace::BeatmapEventType value);
-    // Get instance field: private System.Boolean _overrideRandomValues
-    bool _get__overrideRandomValues();
-    // Set instance field: private System.Boolean _overrideRandomValues
-    void _set__overrideRandomValues(bool value);
-    // Get instance field: private System.Single _startValueOffset
-    float _get__startValueOffset();
-    // Set instance field: private System.Single _startValueOffset
-    void _set__startValueOffset(float value);
-    // Get instance field: private UnityEngine.Vector3 _startPositionOffset
-    UnityEngine::Vector3 _get__startPositionOffset();
-    // Set instance field: private UnityEngine.Vector3 _startPositionOffset
-    void _set__startPositionOffset(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 _endPositionOffset
-    UnityEngine::Vector3 _get__endPositionOffset();
-    // Set instance field: private UnityEngine.Vector3 _endPositionOffset
-    void _set__endPositionOffset(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Transform _transformL
-    UnityEngine::Transform* _get__transformL();
-    // Set instance field: private UnityEngine.Transform _transformL
-    void _set__transformL(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.Transform _transformR
-    UnityEngine::Transform* _get__transformR();
-    // Set instance field: private UnityEngine.Transform _transformR
-    void _set__transformR(UnityEngine::Transform* value);
-    // Get instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
-    GlobalNamespace::IBeatmapObjectCallbackController* _get__beatmapObjectCallbackController();
-    // Set instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
-    void _set__beatmapObjectCallbackController(GlobalNamespace::IBeatmapObjectCallbackController* value);
-    // Get instance field: private LightPairSinMoveEventEffect/MovementData _movementDataL
-    GlobalNamespace::LightPairSinMoveEventEffect::MovementData* _get__movementDataL();
-    // Set instance field: private LightPairSinMoveEventEffect/MovementData _movementDataL
-    void _set__movementDataL(GlobalNamespace::LightPairSinMoveEventEffect::MovementData* value);
-    // Get instance field: private LightPairSinMoveEventEffect/MovementData _movementDataR
-    GlobalNamespace::LightPairSinMoveEventEffect::MovementData* _get__movementDataR();
-    // Set instance field: private LightPairSinMoveEventEffect/MovementData _movementDataR
-    void _set__movementDataR(GlobalNamespace::LightPairSinMoveEventEffect::MovementData* value);
-    // Get instance field: private System.Int32 _randomGenerationFrameNum
-    int _get__randomGenerationFrameNum();
-    // Set instance field: private System.Int32 _randomGenerationFrameNum
-    void _set__randomGenerationFrameNum(int value);
-    // Get instance field: private System.Single _randomStartOffset
-    float _get__randomStartOffset();
-    // Set instance field: private System.Single _randomStartOffset
-    void _set__randomStartOffset(float value);
+    // Get instance field reference: private BeatmapEventType _eventL
+    GlobalNamespace::BeatmapEventType& dyn__eventL();
+    // Get instance field reference: private BeatmapEventType _eventR
+    GlobalNamespace::BeatmapEventType& dyn__eventR();
+    // Get instance field reference: private BeatmapEventType _switchOverrideRandomValuesEvent
+    GlobalNamespace::BeatmapEventType& dyn__switchOverrideRandomValuesEvent();
+    // Get instance field reference: private System.Boolean _overrideRandomValues
+    bool& dyn__overrideRandomValues();
+    // Get instance field reference: private System.Single _startValueOffset
+    float& dyn__startValueOffset();
+    // Get instance field reference: private UnityEngine.Vector3 _startPositionOffset
+    UnityEngine::Vector3& dyn__startPositionOffset();
+    // Get instance field reference: private UnityEngine.Vector3 _endPositionOffset
+    UnityEngine::Vector3& dyn__endPositionOffset();
+    // Get instance field reference: private UnityEngine.Transform _transformL
+    UnityEngine::Transform*& dyn__transformL();
+    // Get instance field reference: private UnityEngine.Transform _transformR
+    UnityEngine::Transform*& dyn__transformR();
+    // Get instance field reference: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    GlobalNamespace::IBeatmapObjectCallbackController*& dyn__beatmapObjectCallbackController();
+    // Get instance field reference: private LightPairSinMoveEventEffect/MovementData _movementDataL
+    GlobalNamespace::LightPairSinMoveEventEffect::MovementData*& dyn__movementDataL();
+    // Get instance field reference: private LightPairSinMoveEventEffect/MovementData _movementDataR
+    GlobalNamespace::LightPairSinMoveEventEffect::MovementData*& dyn__movementDataR();
+    // Get instance field reference: private System.Int32 _randomGenerationFrameNum
+    int& dyn__randomGenerationFrameNum();
+    // Get instance field reference: private System.Single _randomStartOffset
+    float& dyn__randomStartOffset();
     // protected System.Void Start()
     // Offset: 0x11FF258
     void Start();

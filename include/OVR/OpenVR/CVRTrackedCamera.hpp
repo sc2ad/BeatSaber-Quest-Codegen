@@ -51,10 +51,8 @@ namespace OVR::OpenVR {
     constexpr operator OVR::OpenVR::IVRTrackedCamera() const noexcept {
       return FnTable;
     }
-    // Get instance field: private OVR.OpenVR.IVRTrackedCamera FnTable
-    OVR::OpenVR::IVRTrackedCamera _get_FnTable();
-    // Set instance field: private OVR.OpenVR.IVRTrackedCamera FnTable
-    void _set_FnTable(OVR::OpenVR::IVRTrackedCamera value);
+    // Get instance field reference: private OVR.OpenVR.IVRTrackedCamera FnTable
+    OVR::OpenVR::IVRTrackedCamera& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0x15C1A48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

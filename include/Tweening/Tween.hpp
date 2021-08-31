@@ -122,54 +122,30 @@ namespace Tweening {
     static float _get_kEpsilon();
     // Set static field: static protected System.Single kEpsilon
     static void _set_kEpsilon(float value);
-    // Get instance field: private System.Single <time>k__BackingField
-    float _get_$time$k__BackingField();
-    // Set instance field: private System.Single <time>k__BackingField
-    void _set_$time$k__BackingField(float value);
-    // Get instance field: private System.Single <duration>k__BackingField
-    float _get_$duration$k__BackingField();
-    // Set instance field: private System.Single <duration>k__BackingField
-    void _set_$duration$k__BackingField(float value);
-    // Get instance field: private System.Boolean <loop>k__BackingField
-    bool _get_$loop$k__BackingField();
-    // Set instance field: private System.Boolean <loop>k__BackingField
-    void _set_$loop$k__BackingField(bool value);
-    // Get instance field: private System.Single <delay>k__BackingField
-    float _get_$delay$k__BackingField();
-    // Set instance field: private System.Single <delay>k__BackingField
-    void _set_$delay$k__BackingField(float value);
-    // Get instance field: public System.Action onStart
-    System::Action* _get_onStart();
-    // Set instance field: public System.Action onStart
-    void _set_onStart(System::Action* value);
-    // Get instance field: public System.Action onCompleted
-    System::Action* _get_onCompleted();
-    // Set instance field: public System.Action onCompleted
-    void _set_onCompleted(System::Action* value);
-    // Get instance field: public System.Action onKilled
-    System::Action* _get_onKilled();
-    // Set instance field: public System.Action onKilled
-    void _set_onKilled(System::Action* value);
-    // Get instance field: private System.Boolean <isStarted>k__BackingField
-    bool _get_$isStarted$k__BackingField();
-    // Set instance field: private System.Boolean <isStarted>k__BackingField
-    void _set_$isStarted$k__BackingField(bool value);
-    // Get instance field: private System.Boolean <isKilled>k__BackingField
-    bool _get_$isKilled$k__BackingField();
-    // Set instance field: private System.Boolean <isKilled>k__BackingField
-    void _set_$isKilled$k__BackingField(bool value);
-    // Get instance field: private Tweening.InterpolationType <interpolationType>k__BackingField
-    Tweening::InterpolationType _get_$interpolationType$k__BackingField();
-    // Set instance field: private Tweening.InterpolationType <interpolationType>k__BackingField
-    void _set_$interpolationType$k__BackingField(Tweening::InterpolationType value);
-    // Get instance field: private Tweening.EaseType <easeType>k__BackingField
-    Tweening::EaseType _get_$easeType$k__BackingField();
-    // Set instance field: private Tweening.EaseType <easeType>k__BackingField
-    void _set_$easeType$k__BackingField(Tweening::EaseType value);
-    // Get instance field: private UnityEngine.AnimationCurve <animationCurve>k__BackingField
-    UnityEngine::AnimationCurve* _get_$animationCurve$k__BackingField();
-    // Set instance field: private UnityEngine.AnimationCurve <animationCurve>k__BackingField
-    void _set_$animationCurve$k__BackingField(UnityEngine::AnimationCurve* value);
+    // Get instance field reference: private System.Single <time>k__BackingField
+    float& dyn_$time$k__BackingField();
+    // Get instance field reference: private System.Single <duration>k__BackingField
+    float& dyn_$duration$k__BackingField();
+    // Get instance field reference: private System.Boolean <loop>k__BackingField
+    bool& dyn_$loop$k__BackingField();
+    // Get instance field reference: private System.Single <delay>k__BackingField
+    float& dyn_$delay$k__BackingField();
+    // Get instance field reference: public System.Action onStart
+    System::Action*& dyn_onStart();
+    // Get instance field reference: public System.Action onCompleted
+    System::Action*& dyn_onCompleted();
+    // Get instance field reference: public System.Action onKilled
+    System::Action*& dyn_onKilled();
+    // Get instance field reference: private System.Boolean <isStarted>k__BackingField
+    bool& dyn_$isStarted$k__BackingField();
+    // Get instance field reference: private System.Boolean <isKilled>k__BackingField
+    bool& dyn_$isKilled$k__BackingField();
+    // Get instance field reference: private Tweening.InterpolationType <interpolationType>k__BackingField
+    Tweening::InterpolationType& dyn_$interpolationType$k__BackingField();
+    // Get instance field reference: private Tweening.EaseType <easeType>k__BackingField
+    Tweening::EaseType& dyn_$easeType$k__BackingField();
+    // Get instance field reference: private UnityEngine.AnimationCurve <animationCurve>k__BackingField
+    UnityEngine::AnimationCurve*& dyn_$animationCurve$k__BackingField();
     // public System.Single get_progress()
     // Offset: 0x109D998
     float get_progress();

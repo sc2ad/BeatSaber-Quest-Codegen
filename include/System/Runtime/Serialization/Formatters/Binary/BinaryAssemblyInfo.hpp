@@ -39,14 +39,10 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(System::Reflection::Assembly*) == 0x8);
     // Creating value type constructor for type: BinaryAssemblyInfo
     BinaryAssemblyInfo(::Il2CppString* assemblyString_ = {}, System::Reflection::Assembly* assembly_ = {}) noexcept : assemblyString{assemblyString_}, assembly{assembly_} {}
-    // Get instance field: System.String assemblyString
-    ::Il2CppString* _get_assemblyString();
-    // Set instance field: System.String assemblyString
-    void _set_assemblyString(::Il2CppString* value);
-    // Get instance field: private System.Reflection.Assembly assembly
-    System::Reflection::Assembly* _get_assembly();
-    // Set instance field: private System.Reflection.Assembly assembly
-    void _set_assembly(System::Reflection::Assembly* value);
+    // Get instance field reference: System.String assemblyString
+    ::Il2CppString*& dyn_assemblyString();
+    // Get instance field reference: private System.Reflection.Assembly assembly
+    System::Reflection::Assembly*& dyn_assembly();
     // System.Void .ctor(System.String assemblyString)
     // Offset: 0x1612DFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

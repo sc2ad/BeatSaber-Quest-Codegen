@@ -82,26 +82,16 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IEquatableByReference_1<GlobalNamespace::StandardScoreSyncState>() noexcept {
       return *reinterpret_cast<GlobalNamespace::IEquatableByReference_1<GlobalNamespace::StandardScoreSyncState>*>(this);
     }
-    // Get instance field: private System.Int32 _modifiedScore
-    int _get__modifiedScore();
-    // Set instance field: private System.Int32 _modifiedScore
-    void _set__modifiedScore(int value);
-    // Get instance field: private System.Int32 _rawScore
-    int _get__rawScore();
-    // Set instance field: private System.Int32 _rawScore
-    void _set__rawScore(int value);
-    // Get instance field: private System.Int32 _immediateMaxPossibleRawScore
-    int _get__immediateMaxPossibleRawScore();
-    // Set instance field: private System.Int32 _immediateMaxPossibleRawScore
-    void _set__immediateMaxPossibleRawScore(int value);
-    // Get instance field: private System.Int32 _combo
-    int _get__combo();
-    // Set instance field: private System.Int32 _combo
-    void _set__combo(int value);
-    // Get instance field: private System.Int32 _multiplier
-    int _get__multiplier();
-    // Set instance field: private System.Int32 _multiplier
-    void _set__multiplier(int value);
+    // Get instance field reference: private System.Int32 _modifiedScore
+    int& dyn__modifiedScore();
+    // Get instance field reference: private System.Int32 _rawScore
+    int& dyn__rawScore();
+    // Get instance field reference: private System.Int32 _immediateMaxPossibleRawScore
+    int& dyn__immediateMaxPossibleRawScore();
+    // Get instance field reference: private System.Int32 _combo
+    int& dyn__combo();
+    // Get instance field reference: private System.Int32 _multiplier
+    int& dyn__multiplier();
     // public System.Void SetState(StandardScoreSyncState/Score s, System.Int32 value)
     // Offset: 0x16FACE4
     void SetState(GlobalNamespace::StandardScoreSyncState_Score s, int value);

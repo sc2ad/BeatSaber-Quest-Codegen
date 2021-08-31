@@ -45,10 +45,8 @@ namespace UnityEngine {
     constexpr operator int() const noexcept {
       return m_Handle;
     }
-    // Get instance field: private System.Int32 m_Handle
-    int _get_m_Handle();
-    // Set instance field: private System.Int32 m_Handle
-    void _set_m_Handle(int value);
+    // Get instance field reference: private System.Int32 m_Handle
+    int& dyn_m_Handle();
     // System.Int32 get_handle()
     // Offset: 0x1C1E988
     int get_handle();

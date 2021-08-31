@@ -45,14 +45,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass6_0
     $$c__DisplayClass6_0(GlobalNamespace::OculusPlatformLeaderboardsHandler* $$4__this_ = {}, GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler* completionHandler_ = {}) noexcept : $$4__this{$$4__this_}, completionHandler{completionHandler_} {}
-    // Get instance field: public OculusPlatformLeaderboardsHandler <>4__this
-    GlobalNamespace::OculusPlatformLeaderboardsHandler* _get_$$4__this();
-    // Set instance field: public OculusPlatformLeaderboardsHandler <>4__this
-    void _set_$$4__this(GlobalNamespace::OculusPlatformLeaderboardsHandler* value);
-    // Get instance field: public PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler
-    GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler* _get_completionHandler();
-    // Set instance field: public PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler
-    void _set_completionHandler(GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler* value);
+    // Get instance field reference: public OculusPlatformLeaderboardsHandler <>4__this
+    GlobalNamespace::OculusPlatformLeaderboardsHandler*& dyn_$$4__this();
+    // Get instance field reference: public PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler
+    GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler*& dyn_completionHandler();
     // System.Void <UploadScore>b__0(Oculus.Platform.Message`1<System.Boolean> messsage)
     // Offset: 0x10228FC
     void $UploadScore$b__0(Oculus::Platform::Message_1<bool>* messsage);

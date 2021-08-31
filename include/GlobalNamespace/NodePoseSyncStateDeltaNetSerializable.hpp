@@ -79,18 +79,12 @@ namespace GlobalNamespace {
     static GlobalNamespace::PacketPool_1<GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>* _get_pool();
     // Set static field: static public readonly PacketPool`1<NodePoseSyncStateDeltaNetSerializable> pool
     static void _set_pool(GlobalNamespace::PacketPool_1<GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>* value);
-    // Get instance field: private NodePoseSyncState _delta
-    GlobalNamespace::NodePoseSyncState _get__delta();
-    // Set instance field: private NodePoseSyncState _delta
-    void _set__delta(GlobalNamespace::NodePoseSyncState value);
-    // Get instance field: private SyncStateId <baseId>k__BackingField
-    GlobalNamespace::SyncStateId _get_$baseId$k__BackingField();
-    // Set instance field: private SyncStateId <baseId>k__BackingField
-    void _set_$baseId$k__BackingField(GlobalNamespace::SyncStateId value);
-    // Get instance field: private System.Int32 <timeOffsetMs>k__BackingField
-    int _get_$timeOffsetMs$k__BackingField();
-    // Set instance field: private System.Int32 <timeOffsetMs>k__BackingField
-    void _set_$timeOffsetMs$k__BackingField(int value);
+    // Get instance field reference: private NodePoseSyncState _delta
+    GlobalNamespace::NodePoseSyncState& dyn__delta();
+    // Get instance field reference: private SyncStateId <baseId>k__BackingField
+    GlobalNamespace::SyncStateId& dyn_$baseId$k__BackingField();
+    // Get instance field reference: private System.Int32 <timeOffsetMs>k__BackingField
+    int& dyn_$timeOffsetMs$k__BackingField();
     // public SyncStateId get_baseId()
     // Offset: 0x16EFB5C
     GlobalNamespace::SyncStateId get_baseId();

@@ -41,14 +41,10 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(Oculus::Platform::Models::CloudStorageMetadata*) == 0x8);
     // Creating value type constructor for type: CloudStorageConflictMetadata
     CloudStorageConflictMetadata(Oculus::Platform::Models::CloudStorageMetadata* Local_ = {}, Oculus::Platform::Models::CloudStorageMetadata* Remote_ = {}) noexcept : Local{Local_}, Remote{Remote_} {}
-    // Get instance field: public readonly Oculus.Platform.Models.CloudStorageMetadata Local
-    Oculus::Platform::Models::CloudStorageMetadata* _get_Local();
-    // Set instance field: public readonly Oculus.Platform.Models.CloudStorageMetadata Local
-    void _set_Local(Oculus::Platform::Models::CloudStorageMetadata* value);
-    // Get instance field: public readonly Oculus.Platform.Models.CloudStorageMetadata Remote
-    Oculus::Platform::Models::CloudStorageMetadata* _get_Remote();
-    // Set instance field: public readonly Oculus.Platform.Models.CloudStorageMetadata Remote
-    void _set_Remote(Oculus::Platform::Models::CloudStorageMetadata* value);
+    // Get instance field reference: public readonly Oculus.Platform.Models.CloudStorageMetadata Local
+    Oculus::Platform::Models::CloudStorageMetadata*& dyn_Local();
+    // Get instance field reference: public readonly Oculus.Platform.Models.CloudStorageMetadata Remote
+    Oculus::Platform::Models::CloudStorageMetadata*& dyn_Remote();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14E954C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

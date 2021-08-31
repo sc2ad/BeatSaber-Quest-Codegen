@@ -44,14 +44,10 @@ namespace System::Net::NetworkInformation {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.IntPtr Sockaddr
-    System::IntPtr _get_Sockaddr();
-    // Set instance field: public System.IntPtr Sockaddr
-    void _set_Sockaddr(System::IntPtr value);
-    // Get instance field: public System.Int32 SockaddrLength
-    int _get_SockaddrLength();
-    // Set instance field: public System.Int32 SockaddrLength
-    void _set_SockaddrLength(int value);
+    // Get instance field reference: public System.IntPtr Sockaddr
+    System::IntPtr& dyn_Sockaddr();
+    // Get instance field reference: public System.Int32 SockaddrLength
+    int& dyn_SockaddrLength();
     // public System.Net.IPAddress GetIPAddress()
     // Offset: 0x149BB78
     System::Net::IPAddress* GetIPAddress();

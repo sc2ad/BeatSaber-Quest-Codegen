@@ -51,10 +51,8 @@ namespace System::Configuration::Assemblies {
     static System::Configuration::Assemblies::AssemblyVersionCompatibility _get_SameDomain();
     // Set static field: static public System.Configuration.Assemblies.AssemblyVersionCompatibility SameDomain
     static void _set_SameDomain(System::Configuration::Assemblies::AssemblyVersionCompatibility value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Configuration.Assemblies.AssemblyVersionCompatibility
   #pragma pack(pop)
   static check_size<sizeof(AssemblyVersionCompatibility), 0 + sizeof(int)> __System_Configuration_Assemblies_AssemblyVersionCompatibilitySizeCheck;

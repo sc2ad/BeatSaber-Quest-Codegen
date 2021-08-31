@@ -106,50 +106,28 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Boolean useTriggers
-    bool _get_useTriggers();
-    // Set instance field: public System.Boolean useTriggers
-    void _set_useTriggers(bool value);
-    // Get instance field: public System.Boolean useLayerMask
-    bool _get_useLayerMask();
-    // Set instance field: public System.Boolean useLayerMask
-    void _set_useLayerMask(bool value);
-    // Get instance field: public System.Boolean useDepth
-    bool _get_useDepth();
-    // Set instance field: public System.Boolean useDepth
-    void _set_useDepth(bool value);
-    // Get instance field: public System.Boolean useOutsideDepth
-    bool _get_useOutsideDepth();
-    // Set instance field: public System.Boolean useOutsideDepth
-    void _set_useOutsideDepth(bool value);
-    // Get instance field: public System.Boolean useNormalAngle
-    bool _get_useNormalAngle();
-    // Set instance field: public System.Boolean useNormalAngle
-    void _set_useNormalAngle(bool value);
-    // Get instance field: public System.Boolean useOutsideNormalAngle
-    bool _get_useOutsideNormalAngle();
-    // Set instance field: public System.Boolean useOutsideNormalAngle
-    void _set_useOutsideNormalAngle(bool value);
-    // Get instance field: public UnityEngine.LayerMask layerMask
-    UnityEngine::LayerMask _get_layerMask();
-    // Set instance field: public UnityEngine.LayerMask layerMask
-    void _set_layerMask(UnityEngine::LayerMask value);
-    // Get instance field: public System.Single minDepth
-    float _get_minDepth();
-    // Set instance field: public System.Single minDepth
-    void _set_minDepth(float value);
-    // Get instance field: public System.Single maxDepth
-    float _get_maxDepth();
-    // Set instance field: public System.Single maxDepth
-    void _set_maxDepth(float value);
-    // Get instance field: public System.Single minNormalAngle
-    float _get_minNormalAngle();
-    // Set instance field: public System.Single minNormalAngle
-    void _set_minNormalAngle(float value);
-    // Get instance field: public System.Single maxNormalAngle
-    float _get_maxNormalAngle();
-    // Set instance field: public System.Single maxNormalAngle
-    void _set_maxNormalAngle(float value);
+    // Get instance field reference: public System.Boolean useTriggers
+    bool& dyn_useTriggers();
+    // Get instance field reference: public System.Boolean useLayerMask
+    bool& dyn_useLayerMask();
+    // Get instance field reference: public System.Boolean useDepth
+    bool& dyn_useDepth();
+    // Get instance field reference: public System.Boolean useOutsideDepth
+    bool& dyn_useOutsideDepth();
+    // Get instance field reference: public System.Boolean useNormalAngle
+    bool& dyn_useNormalAngle();
+    // Get instance field reference: public System.Boolean useOutsideNormalAngle
+    bool& dyn_useOutsideNormalAngle();
+    // Get instance field reference: public UnityEngine.LayerMask layerMask
+    UnityEngine::LayerMask& dyn_layerMask();
+    // Get instance field reference: public System.Single minDepth
+    float& dyn_minDepth();
+    // Get instance field reference: public System.Single maxDepth
+    float& dyn_maxDepth();
+    // Get instance field reference: public System.Single minNormalAngle
+    float& dyn_minNormalAngle();
+    // Get instance field reference: public System.Single maxNormalAngle
+    float& dyn_maxNormalAngle();
     // private System.Void CheckConsistency()
     // Offset: 0x241637C
     void CheckConsistency();

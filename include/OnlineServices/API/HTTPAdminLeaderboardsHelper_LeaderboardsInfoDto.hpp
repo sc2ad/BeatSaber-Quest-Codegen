@@ -32,10 +32,8 @@ namespace OnlineServices::API {
     constexpr operator bool() const noexcept {
       return exist;
     }
-    // Get instance field: public System.Boolean exist
-    bool _get_exist();
-    // Set instance field: public System.Boolean exist
-    void _set_exist(bool value);
+    // Get instance field reference: public System.Boolean exist
+    bool& dyn_exist();
     // public System.Void .ctor()
     // Offset: 0x102609C
     // Implemented from: System.Object

@@ -106,30 +106,18 @@ namespace OnlineServices {
     ServerManager(GlobalNamespace::HTTPLeaderboardsModel* leaderboardsModel_ = {}, System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>* platformServicesAvailabilityInfoChangedEvent_ = {}, System::Action_1<::Il2CppString*>* scoreForLeaderboardDidUploadEvent_ = {}, bool initialized_ = {}, OnlineServices::LevelScoreUploader* levelScoreUploader_ = {}, OnlineServices::PlatformOnlineServicesAvailabilityModel* platformOnlineServicesAvailabilityModel_ = {}) noexcept : leaderboardsModel{leaderboardsModel_}, platformServicesAvailabilityInfoChangedEvent{platformServicesAvailabilityInfoChangedEvent_}, scoreForLeaderboardDidUploadEvent{scoreForLeaderboardDidUploadEvent_}, initialized{initialized_}, levelScoreUploader{levelScoreUploader_}, platformOnlineServicesAvailabilityModel{platformOnlineServicesAvailabilityModel_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private readonly HTTPLeaderboardsModel _leaderboardsModel
-    GlobalNamespace::HTTPLeaderboardsModel* _get__leaderboardsModel();
-    // Set instance field: private readonly HTTPLeaderboardsModel _leaderboardsModel
-    void _set__leaderboardsModel(GlobalNamespace::HTTPLeaderboardsModel* value);
-    // Get instance field: private System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> platformServicesAvailabilityInfoChangedEvent
-    System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>* _get_platformServicesAvailabilityInfoChangedEvent();
-    // Set instance field: private System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> platformServicesAvailabilityInfoChangedEvent
-    void _set_platformServicesAvailabilityInfoChangedEvent(System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>* value);
-    // Get instance field: private System.Action`1<System.String> scoreForLeaderboardDidUploadEvent
-    System::Action_1<::Il2CppString*>* _get_scoreForLeaderboardDidUploadEvent();
-    // Set instance field: private System.Action`1<System.String> scoreForLeaderboardDidUploadEvent
-    void _set_scoreForLeaderboardDidUploadEvent(System::Action_1<::Il2CppString*>* value);
-    // Get instance field: private System.Boolean _initialized
-    bool _get__initialized();
-    // Set instance field: private System.Boolean _initialized
-    void _set__initialized(bool value);
-    // Get instance field: private OnlineServices.LevelScoreUploader _levelScoreUploader
-    OnlineServices::LevelScoreUploader* _get__levelScoreUploader();
-    // Set instance field: private OnlineServices.LevelScoreUploader _levelScoreUploader
-    void _set__levelScoreUploader(OnlineServices::LevelScoreUploader* value);
-    // Get instance field: private OnlineServices.PlatformOnlineServicesAvailabilityModel _platformOnlineServicesAvailabilityModel
-    OnlineServices::PlatformOnlineServicesAvailabilityModel* _get__platformOnlineServicesAvailabilityModel();
-    // Set instance field: private OnlineServices.PlatformOnlineServicesAvailabilityModel _platformOnlineServicesAvailabilityModel
-    void _set__platformOnlineServicesAvailabilityModel(OnlineServices::PlatformOnlineServicesAvailabilityModel* value);
+    // Get instance field reference: private readonly HTTPLeaderboardsModel _leaderboardsModel
+    GlobalNamespace::HTTPLeaderboardsModel*& dyn__leaderboardsModel();
+    // Get instance field reference: private System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> platformServicesAvailabilityInfoChangedEvent
+    System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>*& dyn_platformServicesAvailabilityInfoChangedEvent();
+    // Get instance field reference: private System.Action`1<System.String> scoreForLeaderboardDidUploadEvent
+    System::Action_1<::Il2CppString*>*& dyn_scoreForLeaderboardDidUploadEvent();
+    // Get instance field reference: private System.Boolean _initialized
+    bool& dyn__initialized();
+    // Get instance field reference: private OnlineServices.LevelScoreUploader _levelScoreUploader
+    OnlineServices::LevelScoreUploader*& dyn__levelScoreUploader();
+    // Get instance field reference: private OnlineServices.PlatformOnlineServicesAvailabilityModel _platformOnlineServicesAvailabilityModel
+    OnlineServices::PlatformOnlineServicesAvailabilityModel*& dyn__platformOnlineServicesAvailabilityModel();
     // public System.Boolean get_initialized()
     // Offset: 0x102AF2C
     bool get_initialized();

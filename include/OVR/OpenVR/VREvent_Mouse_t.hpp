@@ -40,18 +40,12 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Single x
-    float _get_x();
-    // Set instance field: public System.Single x
-    void _set_x(float value);
-    // Get instance field: public System.Single y
-    float _get_y();
-    // Set instance field: public System.Single y
-    void _set_y(float value);
-    // Get instance field: public System.UInt32 button
-    uint _get_button();
-    // Set instance field: public System.UInt32 button
-    void _set_button(uint value);
+    // Get instance field reference: public System.Single x
+    float& dyn_x();
+    // Get instance field reference: public System.Single y
+    float& dyn_y();
+    // Get instance field reference: public System.UInt32 button
+    uint& dyn_button();
   }; // OVR.OpenVR.VREvent_Mouse_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Mouse_t), 8 + sizeof(uint)> __OVR_OpenVR_VREvent_Mouse_tSizeCheck;

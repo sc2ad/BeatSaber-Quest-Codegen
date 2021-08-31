@@ -36,10 +36,8 @@ namespace UnityEngine {
     constexpr operator int() const noexcept {
       return displayMask;
     }
-    // Get instance field: System.Int32 displayMask
-    int _get_displayMask();
-    // Set instance field: System.Int32 displayMask
-    void _set_displayMask(int value);
+    // Get instance field reference: System.Int32 displayMask
+    int& dyn_displayMask();
     // static private System.Int32 GetGUITargetAttrValue(System.Type klass, System.String methodName)
     // Offset: 0x1B34D8C
     static int GetGUITargetAttrValue(System::Type* klass, ::Il2CppString* methodName);

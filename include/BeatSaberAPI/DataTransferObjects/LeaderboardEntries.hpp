@@ -37,10 +37,8 @@ namespace BeatSaberAPI::DataTransferObjects {
     constexpr operator ::Array<BeatSaberAPI::DataTransferObjects::LeaderboardEntry*>*() const noexcept {
       return entries;
     }
-    // Get instance field: public BeatSaberAPI.DataTransferObjects.LeaderboardEntry[] entries
-    ::Array<BeatSaberAPI::DataTransferObjects::LeaderboardEntry*>* _get_entries();
-    // Set instance field: public BeatSaberAPI.DataTransferObjects.LeaderboardEntry[] entries
-    void _set_entries(::Array<BeatSaberAPI::DataTransferObjects::LeaderboardEntry*>* value);
+    // Get instance field reference: public BeatSaberAPI.DataTransferObjects.LeaderboardEntry[] entries
+    ::Array<BeatSaberAPI::DataTransferObjects::LeaderboardEntry*>*& dyn_entries();
     // public System.Void .ctor()
     // Offset: 0x11E8D54
     // Implemented from: System.Object

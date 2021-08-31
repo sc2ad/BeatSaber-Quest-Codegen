@@ -61,22 +61,14 @@ namespace GlobalNamespace {
     static int _get_kBufferSize();
     // Set static field: static private System.Int32 kBufferSize
     static void _set_kBufferSize(int value);
-    // Get instance field: private readonly System.Security.Cryptography.RNGCryptoServiceProvider _random
-    System::Security::Cryptography::RNGCryptoServiceProvider* _get__random();
-    // Set instance field: private readonly System.Security.Cryptography.RNGCryptoServiceProvider _random
-    void _set__random(System::Security::Cryptography::RNGCryptoServiceProvider* value);
-    // Get instance field: private readonly System.Byte[] _randomBuffer0
-    ::Array<uint8_t>* _get__randomBuffer0();
-    // Set instance field: private readonly System.Byte[] _randomBuffer0
-    void _set__randomBuffer0(::Array<uint8_t>* value);
-    // Get instance field: private readonly System.Byte[] _randomBuffer1
-    ::Array<uint8_t>* _get__randomBuffer1();
-    // Set instance field: private readonly System.Byte[] _randomBuffer1
-    void _set__randomBuffer1(::Array<uint8_t>* value);
-    // Get instance field: private System.Int32 _index
-    int _get__index();
-    // Set instance field: private System.Int32 _index
-    void _set__index(int value);
+    // Get instance field reference: private readonly System.Security.Cryptography.RNGCryptoServiceProvider _random
+    System::Security::Cryptography::RNGCryptoServiceProvider*& dyn__random();
+    // Get instance field reference: private readonly System.Byte[] _randomBuffer0
+    ::Array<uint8_t>*& dyn__randomBuffer0();
+    // Get instance field reference: private readonly System.Byte[] _randomBuffer1
+    ::Array<uint8_t>*& dyn__randomBuffer1();
+    // Get instance field reference: private System.Int32 _index
+    int& dyn__index();
     // public System.Void GetBytes(System.Byte[] buffer, System.Int32 offset, System.Int32 length)
     // Offset: 0x16F8854
     void GetBytes(::Array<uint8_t>* buffer, int offset, int length);

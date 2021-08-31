@@ -42,18 +42,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: Element
     Element(UnityEngine::Color color_ = {}, float startT_ = {}, float exp_ = {}) noexcept : color{color_}, startT{startT_}, exp{exp_} {}
-    // Get instance field: public UnityEngine.Color color
-    UnityEngine::Color _get_color();
-    // Set instance field: public UnityEngine.Color color
-    void _set_color(UnityEngine::Color value);
-    // Get instance field: public System.Single startT
-    float _get_startT();
-    // Set instance field: public System.Single startT
-    void _set_startT(float value);
-    // Get instance field: public System.Single exp
-    float _get_exp();
-    // Set instance field: public System.Single exp
-    void _set_exp(float value);
+    // Get instance field reference: public UnityEngine.Color color
+    UnityEngine::Color& dyn_color();
+    // Get instance field reference: public System.Single startT
+    float& dyn_startT();
+    // Get instance field reference: public System.Single exp
+    float& dyn_exp();
     // public System.Void .ctor()
     // Offset: 0x1E13380
     // Implemented from: System.Object

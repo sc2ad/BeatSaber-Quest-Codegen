@@ -50,10 +50,8 @@ namespace UnityEngine {
     static UnityEngine::IMECompositionMode _get_Off();
     // Set static field: static public UnityEngine.IMECompositionMode Off
     static void _set_Off(UnityEngine::IMECompositionMode value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.IMECompositionMode
   #pragma pack(pop)
   static check_size<sizeof(IMECompositionMode), 0 + sizeof(int)> __UnityEngine_IMECompositionModeSizeCheck;

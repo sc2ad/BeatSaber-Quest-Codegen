@@ -34,14 +34,10 @@ namespace UnityEngine {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: AddComponentMenu
     AddComponentMenu(::Il2CppString* m_AddComponentMenu_ = {}, int m_Ordering_ = {}) noexcept : m_AddComponentMenu{m_AddComponentMenu_}, m_Ordering{m_Ordering_} {}
-    // Get instance field: private System.String m_AddComponentMenu
-    ::Il2CppString* _get_m_AddComponentMenu();
-    // Set instance field: private System.String m_AddComponentMenu
-    void _set_m_AddComponentMenu(::Il2CppString* value);
-    // Get instance field: private System.Int32 m_Ordering
-    int _get_m_Ordering();
-    // Set instance field: private System.Int32 m_Ordering
-    void _set_m_Ordering(int value);
+    // Get instance field reference: private System.String m_AddComponentMenu
+    ::Il2CppString*& dyn_m_AddComponentMenu();
+    // Get instance field reference: private System.Int32 m_Ordering
+    int& dyn_m_Ordering();
     // public System.Void .ctor(System.String menuName)
     // Offset: 0x1C199B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

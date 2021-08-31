@@ -50,10 +50,8 @@ namespace TMPro {
     static TMPro::CaretPosition _get_Right();
     // Set static field: static public TMPro.CaretPosition Right
     static void _set_Right(TMPro::CaretPosition value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // TMPro.CaretPosition
   #pragma pack(pop)
   static check_size<sizeof(CaretPosition), 0 + sizeof(int)> __TMPro_CaretPositionSizeCheck;

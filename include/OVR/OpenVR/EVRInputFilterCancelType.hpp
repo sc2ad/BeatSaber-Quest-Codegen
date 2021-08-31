@@ -44,10 +44,8 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRInputFilterCancelType _get_VRInputFilterCancel_Momentum();
     // Set static field: static public OVR.OpenVR.EVRInputFilterCancelType VRInputFilterCancel_Momentum
     static void _set_VRInputFilterCancel_Momentum(OVR::OpenVR::EVRInputFilterCancelType value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // OVR.OpenVR.EVRInputFilterCancelType
   #pragma pack(pop)
   static check_size<sizeof(EVRInputFilterCancelType), 0 + sizeof(int)> __OVR_OpenVR_EVRInputFilterCancelTypeSizeCheck;

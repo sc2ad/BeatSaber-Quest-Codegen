@@ -172,74 +172,40 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static int _get_readObjectInfoCounter();
     // Set static field: static System.Int32 readObjectInfoCounter
     static void _set_readObjectInfoCounter(int value);
-    // Get instance field: System.Int32 objectInfoId
-    int _get_objectInfoId();
-    // Set instance field: System.Int32 objectInfoId
-    void _set_objectInfoId(int value);
-    // Get instance field: System.Type objectType
-    System::Type* _get_objectType();
-    // Set instance field: System.Type objectType
-    void _set_objectType(System::Type* value);
-    // Get instance field: System.Runtime.Serialization.ObjectManager objectManager
-    System::Runtime::Serialization::ObjectManager* _get_objectManager();
-    // Set instance field: System.Runtime.Serialization.ObjectManager objectManager
-    void _set_objectManager(System::Runtime::Serialization::ObjectManager* value);
-    // Get instance field: System.Int32 count
-    int _get_count();
-    // Set instance field: System.Int32 count
-    void _set_count(int value);
-    // Get instance field: System.Boolean isSi
-    bool _get_isSi();
-    // Set instance field: System.Boolean isSi
-    void _set_isSi(bool value);
-    // Get instance field: System.Boolean isNamed
-    bool _get_isNamed();
-    // Set instance field: System.Boolean isNamed
-    void _set_isNamed(bool value);
-    // Get instance field: System.Boolean isTyped
-    bool _get_isTyped();
-    // Set instance field: System.Boolean isTyped
-    void _set_isTyped(bool value);
-    // Get instance field: System.Boolean bSimpleAssembly
-    bool _get_bSimpleAssembly();
-    // Set instance field: System.Boolean bSimpleAssembly
-    void _set_bSimpleAssembly(bool value);
-    // Get instance field: System.Runtime.Serialization.Formatters.Binary.SerObjectInfoCache cache
-    System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* _get_cache();
-    // Set instance field: System.Runtime.Serialization.Formatters.Binary.SerObjectInfoCache cache
-    void _set_cache(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* value);
-    // Get instance field: System.String[] wireMemberNames
-    ::Array<::Il2CppString*>* _get_wireMemberNames();
-    // Set instance field: System.String[] wireMemberNames
-    void _set_wireMemberNames(::Array<::Il2CppString*>* value);
-    // Get instance field: System.Type[] wireMemberTypes
-    ::Array<System::Type*>* _get_wireMemberTypes();
-    // Set instance field: System.Type[] wireMemberTypes
-    void _set_wireMemberTypes(::Array<System::Type*>* value);
-    // Get instance field: private System.Int32 lastPosition
-    int _get_lastPosition();
-    // Set instance field: private System.Int32 lastPosition
-    void _set_lastPosition(int value);
-    // Get instance field: System.Runtime.Serialization.ISerializationSurrogate serializationSurrogate
-    System::Runtime::Serialization::ISerializationSurrogate* _get_serializationSurrogate();
-    // Set instance field: System.Runtime.Serialization.ISerializationSurrogate serializationSurrogate
-    void _set_serializationSurrogate(System::Runtime::Serialization::ISerializationSurrogate* value);
-    // Get instance field: System.Runtime.Serialization.StreamingContext context
-    System::Runtime::Serialization::StreamingContext _get_context();
-    // Set instance field: System.Runtime.Serialization.StreamingContext context
-    void _set_context(System::Runtime::Serialization::StreamingContext value);
-    // Get instance field: System.Collections.Generic.List`1<System.Type> memberTypesList
-    System::Collections::Generic::List_1<System::Type*>* _get_memberTypesList();
-    // Set instance field: System.Collections.Generic.List`1<System.Type> memberTypesList
-    void _set_memberTypesList(System::Collections::Generic::List_1<System::Type*>* value);
-    // Get instance field: System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit serObjectInfoInit
-    System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* _get_serObjectInfoInit();
-    // Set instance field: System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit serObjectInfoInit
-    void _set_serObjectInfoInit(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* value);
-    // Get instance field: System.Runtime.Serialization.IFormatterConverter formatterConverter
-    System::Runtime::Serialization::IFormatterConverter* _get_formatterConverter();
-    // Set instance field: System.Runtime.Serialization.IFormatterConverter formatterConverter
-    void _set_formatterConverter(System::Runtime::Serialization::IFormatterConverter* value);
+    // Get instance field reference: System.Int32 objectInfoId
+    int& dyn_objectInfoId();
+    // Get instance field reference: System.Type objectType
+    System::Type*& dyn_objectType();
+    // Get instance field reference: System.Runtime.Serialization.ObjectManager objectManager
+    System::Runtime::Serialization::ObjectManager*& dyn_objectManager();
+    // Get instance field reference: System.Int32 count
+    int& dyn_count();
+    // Get instance field reference: System.Boolean isSi
+    bool& dyn_isSi();
+    // Get instance field reference: System.Boolean isNamed
+    bool& dyn_isNamed();
+    // Get instance field reference: System.Boolean isTyped
+    bool& dyn_isTyped();
+    // Get instance field reference: System.Boolean bSimpleAssembly
+    bool& dyn_bSimpleAssembly();
+    // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.SerObjectInfoCache cache
+    System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache*& dyn_cache();
+    // Get instance field reference: System.String[] wireMemberNames
+    ::Array<::Il2CppString*>*& dyn_wireMemberNames();
+    // Get instance field reference: System.Type[] wireMemberTypes
+    ::Array<System::Type*>*& dyn_wireMemberTypes();
+    // Get instance field reference: private System.Int32 lastPosition
+    int& dyn_lastPosition();
+    // Get instance field reference: System.Runtime.Serialization.ISerializationSurrogate serializationSurrogate
+    System::Runtime::Serialization::ISerializationSurrogate*& dyn_serializationSurrogate();
+    // Get instance field reference: System.Runtime.Serialization.StreamingContext context
+    System::Runtime::Serialization::StreamingContext& dyn_context();
+    // Get instance field reference: System.Collections.Generic.List`1<System.Type> memberTypesList
+    System::Collections::Generic::List_1<System::Type*>*& dyn_memberTypesList();
+    // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit serObjectInfoInit
+    System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*& dyn_serObjectInfoInit();
+    // Get instance field reference: System.Runtime.Serialization.IFormatterConverter formatterConverter
+    System::Runtime::Serialization::IFormatterConverter*& dyn_formatterConverter();
     // System.Void ObjectEnd()
     // Offset: 0x161C0C4
     void ObjectEnd();

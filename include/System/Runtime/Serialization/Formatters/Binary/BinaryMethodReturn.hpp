@@ -82,34 +82,20 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static ::Il2CppObject* _get_instanceOfVoid();
     // Set static field: static private System.Object instanceOfVoid
     static void _set_instanceOfVoid(::Il2CppObject* value);
-    // Get instance field: private System.Object returnValue
-    ::Il2CppObject* _get_returnValue();
-    // Set instance field: private System.Object returnValue
-    void _set_returnValue(::Il2CppObject* value);
-    // Get instance field: private System.Object[] args
-    ::Array<::Il2CppObject*>* _get_args();
-    // Set instance field: private System.Object[] args
-    void _set_args(::Array<::Il2CppObject*>* value);
-    // Get instance field: private System.Object callContext
-    ::Il2CppObject* _get_callContext();
-    // Set instance field: private System.Object callContext
-    void _set_callContext(::Il2CppObject* value);
-    // Get instance field: private System.Type[] argTypes
-    ::Array<System::Type*>* _get_argTypes();
-    // Set instance field: private System.Type[] argTypes
-    void _set_argTypes(::Array<System::Type*>* value);
-    // Get instance field: private System.Boolean bArgsPrimitive
-    bool _get_bArgsPrimitive();
-    // Set instance field: private System.Boolean bArgsPrimitive
-    void _set_bArgsPrimitive(bool value);
-    // Get instance field: private System.Runtime.Serialization.Formatters.Binary.MessageEnum messageEnum
-    System::Runtime::Serialization::Formatters::Binary::MessageEnum _get_messageEnum();
-    // Set instance field: private System.Runtime.Serialization.Formatters.Binary.MessageEnum messageEnum
-    void _set_messageEnum(System::Runtime::Serialization::Formatters::Binary::MessageEnum value);
-    // Get instance field: private System.Type returnType
-    System::Type* _get_returnType();
-    // Set instance field: private System.Type returnType
-    void _set_returnType(System::Type* value);
+    // Get instance field reference: private System.Object returnValue
+    ::Il2CppObject*& dyn_returnValue();
+    // Get instance field reference: private System.Object[] args
+    ::Array<::Il2CppObject*>*& dyn_args();
+    // Get instance field reference: private System.Object callContext
+    ::Il2CppObject*& dyn_callContext();
+    // Get instance field reference: private System.Type[] argTypes
+    ::Array<System::Type*>*& dyn_argTypes();
+    // Get instance field reference: private System.Boolean bArgsPrimitive
+    bool& dyn_bArgsPrimitive();
+    // Get instance field reference: private System.Runtime.Serialization.Formatters.Binary.MessageEnum messageEnum
+    System::Runtime::Serialization::Formatters::Binary::MessageEnum& dyn_messageEnum();
+    // Get instance field reference: private System.Type returnType
+    System::Type*& dyn_returnType();
     // static private System.Void .cctor()
     // Offset: 0x161576C
     static void _cctor();

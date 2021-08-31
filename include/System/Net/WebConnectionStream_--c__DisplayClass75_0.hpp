@@ -42,14 +42,10 @@ namespace System::Net {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: $$c__DisplayClass75_0
     $$c__DisplayClass75_0(System::Net::WebConnectionStream* $$4__this_ = {}, bool setInternalLength_ = {}) noexcept : $$4__this{$$4__this_}, setInternalLength{setInternalLength_} {}
-    // Get instance field: public System.Net.WebConnectionStream <>4__this
-    System::Net::WebConnectionStream* _get_$$4__this();
-    // Set instance field: public System.Net.WebConnectionStream <>4__this
-    void _set_$$4__this(System::Net::WebConnectionStream* value);
-    // Get instance field: public System.Boolean setInternalLength
-    bool _get_setInternalLength();
-    // Set instance field: public System.Boolean setInternalLength
-    void _set_setInternalLength(bool value);
+    // Get instance field reference: public System.Net.WebConnectionStream <>4__this
+    System::Net::WebConnectionStream*& dyn_$$4__this();
+    // Get instance field reference: public System.Boolean setInternalLength
+    bool& dyn_setInternalLength();
     // System.Boolean <SetHeadersAsync>b__0(System.Net.SimpleAsyncResult r)
     // Offset: 0x15D5680
     bool $SetHeadersAsync$b__0(System::Net::SimpleAsyncResult* r);

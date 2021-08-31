@@ -64,14 +64,10 @@ namespace GlobalNamespace {
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);
     }
-    // Get instance field: private System.Collections.Generic.IReadOnlyList`1<PlayerSpecificSettingsNetSerializable> <activePlayerSpecificSettingsAtGameStart>k__BackingField
-    System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* _get_$activePlayerSpecificSettingsAtGameStart$k__BackingField();
-    // Set instance field: private System.Collections.Generic.IReadOnlyList`1<PlayerSpecificSettingsNetSerializable> <activePlayerSpecificSettingsAtGameStart>k__BackingField
-    void _set_$activePlayerSpecificSettingsAtGameStart$k__BackingField(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<IConnectedPlayer> _activePlayersAtGameStart
-    System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* _get__activePlayersAtGameStart();
-    // Set instance field: private System.Collections.Generic.List`1<IConnectedPlayer> _activePlayersAtGameStart
-    void _set__activePlayersAtGameStart(System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* value);
+    // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<PlayerSpecificSettingsNetSerializable> <activePlayerSpecificSettingsAtGameStart>k__BackingField
+    System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PlayerSpecificSettingsNetSerializable*>*& dyn_$activePlayerSpecificSettingsAtGameStart$k__BackingField();
+    // Get instance field reference: private System.Collections.Generic.List`1<IConnectedPlayer> _activePlayersAtGameStart
+    System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>*& dyn__activePlayersAtGameStart();
     // public System.Collections.Generic.List`1<IConnectedPlayer> get_activePlayersAtGameStart()
     // Offset: 0x16F3944
     System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* get_activePlayersAtGameStart();

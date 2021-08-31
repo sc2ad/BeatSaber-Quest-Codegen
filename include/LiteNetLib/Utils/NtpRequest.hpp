@@ -82,18 +82,12 @@ namespace LiteNetLib::Utils {
     static int _get_DefaultPort();
     // Set static field: static public System.Int32 DefaultPort
     static void _set_DefaultPort(int value);
-    // Get instance field: private readonly LiteNetLib.NetSocket _socket
-    LiteNetLib::NetSocket* _get__socket();
-    // Set instance field: private readonly LiteNetLib.NetSocket _socket
-    void _set__socket(LiteNetLib::NetSocket* value);
-    // Get instance field: private readonly System.Action`1<LiteNetLib.Utils.NtpPacket> _onRequestComplete
-    System::Action_1<LiteNetLib::Utils::NtpPacket*>* _get__onRequestComplete();
-    // Set instance field: private readonly System.Action`1<LiteNetLib.Utils.NtpPacket> _onRequestComplete
-    void _set__onRequestComplete(System::Action_1<LiteNetLib::Utils::NtpPacket*>* value);
-    // Get instance field: private readonly System.Net.IPEndPoint _ntpEndPoint
-    System::Net::IPEndPoint* _get__ntpEndPoint();
-    // Set instance field: private readonly System.Net.IPEndPoint _ntpEndPoint
-    void _set__ntpEndPoint(System::Net::IPEndPoint* value);
+    // Get instance field reference: private readonly LiteNetLib.NetSocket _socket
+    LiteNetLib::NetSocket*& dyn__socket();
+    // Get instance field reference: private readonly System.Action`1<LiteNetLib.Utils.NtpPacket> _onRequestComplete
+    System::Action_1<LiteNetLib::Utils::NtpPacket*>*& dyn__onRequestComplete();
+    // Get instance field reference: private readonly System.Net.IPEndPoint _ntpEndPoint
+    System::Net::IPEndPoint*& dyn__ntpEndPoint();
     // private System.Void .ctor(System.Net.IPEndPoint endPoint, System.Action`1<LiteNetLib.Utils.NtpPacket> onRequestComplete)
     // Offset: 0x24125F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

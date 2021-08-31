@@ -103,26 +103,16 @@ namespace System::Reflection {
     static_assert(sizeof(System::Reflection::MonoProperty::GetterAdapter*) == 0x8);
     // Creating value type constructor for type: MonoProperty
     MonoProperty(System::IntPtr klass_ = {}, System::IntPtr prop_ = {}, System::Reflection::MonoPropertyInfo info_ = {}, System::Reflection::PInfo cached_ = {}, System::Reflection::MonoProperty::GetterAdapter* cached_getter_ = {}) noexcept : klass{klass_}, prop{prop_}, info{info_}, cached{cached_}, cached_getter{cached_getter_} {}
-    // Get instance field: System.IntPtr klass
-    System::IntPtr _get_klass();
-    // Set instance field: System.IntPtr klass
-    void _set_klass(System::IntPtr value);
-    // Get instance field: System.IntPtr prop
-    System::IntPtr _get_prop();
-    // Set instance field: System.IntPtr prop
-    void _set_prop(System::IntPtr value);
-    // Get instance field: private System.Reflection.MonoPropertyInfo info
-    System::Reflection::MonoPropertyInfo _get_info();
-    // Set instance field: private System.Reflection.MonoPropertyInfo info
-    void _set_info(System::Reflection::MonoPropertyInfo value);
-    // Get instance field: private System.Reflection.PInfo cached
-    System::Reflection::PInfo _get_cached();
-    // Set instance field: private System.Reflection.PInfo cached
-    void _set_cached(System::Reflection::PInfo value);
-    // Get instance field: private System.Reflection.MonoProperty/System.Reflection.GetterAdapter cached_getter
-    System::Reflection::MonoProperty::GetterAdapter* _get_cached_getter();
-    // Set instance field: private System.Reflection.MonoProperty/System.Reflection.GetterAdapter cached_getter
-    void _set_cached_getter(System::Reflection::MonoProperty::GetterAdapter* value);
+    // Get instance field reference: System.IntPtr klass
+    System::IntPtr& dyn_klass();
+    // Get instance field reference: System.IntPtr prop
+    System::IntPtr& dyn_prop();
+    // Get instance field reference: private System.Reflection.MonoPropertyInfo info
+    System::Reflection::MonoPropertyInfo& dyn_info();
+    // Get instance field reference: private System.Reflection.PInfo cached
+    System::Reflection::PInfo& dyn_cached();
+    // Get instance field reference: private System.Reflection.MonoProperty/System.Reflection.GetterAdapter cached_getter
+    System::Reflection::MonoProperty::GetterAdapter*& dyn_cached_getter();
     // private System.Void CachePropertyInfo(System.Reflection.PInfo flags)
     // Offset: 0x1D1FDB8
     void CachePropertyInfo(System::Reflection::PInfo flags);

@@ -34,10 +34,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::GameNoteController*) == 0x8);
     // Creating value type constructor for type: DisappearingArrowController
     DisappearingArrowController(GlobalNamespace::GameNoteController* gameNoteController_ = {}) noexcept : gameNoteController{gameNoteController_} {}
-    // Get instance field: private GameNoteController _gameNoteController
-    GlobalNamespace::GameNoteController* _get__gameNoteController();
-    // Set instance field: private GameNoteController _gameNoteController
-    void _set__gameNoteController(GlobalNamespace::GameNoteController* value);
+    // Get instance field reference: private GameNoteController _gameNoteController
+    GlobalNamespace::GameNoteController*& dyn__gameNoteController();
     // protected GameNoteController get_gameNoteController()
     // Offset: 0x10FBF3C
     GlobalNamespace::GameNoteController* get_gameNoteController();

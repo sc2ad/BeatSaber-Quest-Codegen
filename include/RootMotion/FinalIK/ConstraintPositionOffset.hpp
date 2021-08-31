@@ -55,22 +55,14 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: ConstraintPositionOffset
     ConstraintPositionOffset(UnityEngine::Vector3 offset_ = {}, UnityEngine::Vector3 defaultLocalPosition_ = {}, UnityEngine::Vector3 lastLocalPosition_ = {}, bool initiated_ = {}) noexcept : offset{offset_}, defaultLocalPosition{defaultLocalPosition_}, lastLocalPosition{lastLocalPosition_}, initiated{initiated_} {}
-    // Get instance field: public UnityEngine.Vector3 offset
-    UnityEngine::Vector3 _get_offset();
-    // Set instance field: public UnityEngine.Vector3 offset
-    void _set_offset(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 defaultLocalPosition
-    UnityEngine::Vector3 _get_defaultLocalPosition();
-    // Set instance field: private UnityEngine.Vector3 defaultLocalPosition
-    void _set_defaultLocalPosition(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 lastLocalPosition
-    UnityEngine::Vector3 _get_lastLocalPosition();
-    // Set instance field: private UnityEngine.Vector3 lastLocalPosition
-    void _set_lastLocalPosition(UnityEngine::Vector3 value);
-    // Get instance field: private System.Boolean initiated
-    bool _get_initiated();
-    // Set instance field: private System.Boolean initiated
-    void _set_initiated(bool value);
+    // Get instance field reference: public UnityEngine.Vector3 offset
+    UnityEngine::Vector3& dyn_offset();
+    // Get instance field reference: private UnityEngine.Vector3 defaultLocalPosition
+    UnityEngine::Vector3& dyn_defaultLocalPosition();
+    // Get instance field reference: private UnityEngine.Vector3 lastLocalPosition
+    UnityEngine::Vector3& dyn_lastLocalPosition();
+    // Get instance field reference: private System.Boolean initiated
+    bool& dyn_initiated();
     // private System.Boolean get_positionChanged()
     // Offset: 0x1D32708
     bool get_positionChanged();

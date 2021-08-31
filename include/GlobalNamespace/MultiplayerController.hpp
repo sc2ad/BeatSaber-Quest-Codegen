@@ -167,10 +167,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::MultiplayerController::State _get_Finished();
       // Set static field: static public MultiplayerController/State Finished
       static void _set_Finished(GlobalNamespace::MultiplayerController::State value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // MultiplayerController/State
     #pragma pack(pop)
     static check_size<sizeof(MultiplayerController::State), 0 + sizeof(int)> __GlobalNamespace_MultiplayerController_StateSizeCheck;
@@ -358,102 +356,54 @@ namespace GlobalNamespace {
     static float _get_kGetMultiplayerGameStateTimeout();
     // Set static field: static private System.Single kGetMultiplayerGameStateTimeout
     static void _set_kGetMultiplayerGameStateTimeout(float value);
-    // Get instance field: private UnityEngine.GameObject _loadingEnvironment
-    UnityEngine::GameObject* _get__loadingEnvironment();
-    // Set instance field: private UnityEngine.GameObject _loadingEnvironment
-    void _set__loadingEnvironment(UnityEngine::GameObject* value);
-    // Get instance field: private MultiplayerLevelScenesTransitionSetupDataSO _multiplayerLevelSceneSetupData
-    GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* _get__multiplayerLevelSceneSetupData();
-    // Set instance field: private MultiplayerLevelScenesTransitionSetupDataSO _multiplayerLevelSceneSetupData
-    void _set__multiplayerLevelSceneSetupData(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* value);
-    // Get instance field: private readonly GameScenesManager _gameScenesManager
-    GlobalNamespace::GameScenesManager* _get__gameScenesManager();
-    // Set instance field: private readonly GameScenesManager _gameScenesManager
-    void _set__gameScenesManager(GlobalNamespace::GameScenesManager* value);
-    // Get instance field: private readonly MultiplayerPlayersManager _playersManager
-    GlobalNamespace::MultiplayerPlayersManager* _get__playersManager();
-    // Set instance field: private readonly MultiplayerPlayersManager _playersManager
-    void _set__playersManager(GlobalNamespace::MultiplayerPlayersManager* value);
-    // Get instance field: private readonly SceneStartSyncController _sceneStartSyncController
-    GlobalNamespace::SceneStartSyncController* _get__sceneStartSyncController();
-    // Set instance field: private readonly SceneStartSyncController _sceneStartSyncController
-    void _set__sceneStartSyncController(GlobalNamespace::SceneStartSyncController* value);
-    // Get instance field: private readonly SongStartSyncController _songStartSyncController
-    GlobalNamespace::SongStartSyncController* _get__songStartSyncController();
-    // Set instance field: private readonly SongStartSyncController _songStartSyncController
-    void _set__songStartSyncController(GlobalNamespace::SongStartSyncController* value);
-    // Get instance field: private readonly MultiplayerLevelFinishedController _multiplayerLevelFinishedController
-    GlobalNamespace::MultiplayerLevelFinishedController* _get__multiplayerLevelFinishedController();
-    // Set instance field: private readonly MultiplayerLevelFinishedController _multiplayerLevelFinishedController
-    void _set__multiplayerLevelFinishedController(GlobalNamespace::MultiplayerLevelFinishedController* value);
-    // Get instance field: private readonly FadeInOutController _fadeInOutController
-    GlobalNamespace::FadeInOutController* _get__fadeInOutController();
-    // Set instance field: private readonly FadeInOutController _fadeInOutController
-    void _set__fadeInOutController(GlobalNamespace::FadeInOutController* value);
-    // Get instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    GlobalNamespace::IMultiplayerSessionManager* _get__multiplayerSessionManager();
-    // Set instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    void _set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
-    // Get instance field: private readonly MultiplayerIntroAnimationController _introAnimationController
-    GlobalNamespace::MultiplayerIntroAnimationController* _get__introAnimationController();
-    // Set instance field: private readonly MultiplayerIntroAnimationController _introAnimationController
-    void _set__introAnimationController(GlobalNamespace::MultiplayerIntroAnimationController* value);
-    // Get instance field: private readonly MultiplayerOutroAnimationController _outroAnimationController
-    GlobalNamespace::MultiplayerOutroAnimationController* _get__outroAnimationController();
-    // Set instance field: private readonly MultiplayerOutroAnimationController _outroAnimationController
-    void _set__outroAnimationController(GlobalNamespace::MultiplayerOutroAnimationController* value);
-    // Get instance field: private readonly IMenuRpcManager _menuRpcManager
-    GlobalNamespace::IMenuRpcManager* _get__menuRpcManager();
-    // Set instance field: private readonly IMenuRpcManager _menuRpcManager
-    void _set__menuRpcManager(GlobalNamespace::IMenuRpcManager* value);
-    // Get instance field: private readonly IGameplayRpcManager _gameplayRpcManager
-    GlobalNamespace::IGameplayRpcManager* _get__gameplayRpcManager();
-    // Set instance field: private readonly IGameplayRpcManager _gameplayRpcManager
-    void _set__gameplayRpcManager(GlobalNamespace::IGameplayRpcManager* value);
-    // Get instance field: private readonly GameplayCoreSceneSetupData _sceneSetupData
-    GlobalNamespace::GameplayCoreSceneSetupData* _get__sceneSetupData();
-    // Set instance field: private readonly GameplayCoreSceneSetupData _sceneSetupData
-    void _set__sceneSetupData(GlobalNamespace::GameplayCoreSceneSetupData* value);
-    // Get instance field: private readonly Zenject.DiContainer _diContainer
-    Zenject::DiContainer* _get__diContainer();
-    // Set instance field: private readonly Zenject.DiContainer _diContainer
-    void _set__diContainer(Zenject::DiContainer* value);
-    // Get instance field: private readonly MultiplayerBadgesProvider _badgesProvider
-    GlobalNamespace::MultiplayerBadgesProvider* _get__badgesProvider();
-    // Set instance field: private readonly MultiplayerBadgesProvider _badgesProvider
-    void _set__badgesProvider(GlobalNamespace::MultiplayerBadgesProvider* value);
-    // Get instance field: private System.Action`1<MultiplayerController/State> stateChangedEvent
-    System::Action_1<GlobalNamespace::MultiplayerController::State>* _get_stateChangedEvent();
-    // Set instance field: private System.Action`1<MultiplayerController/State> stateChangedEvent
-    void _set_stateChangedEvent(System::Action_1<GlobalNamespace::MultiplayerController::State>* value);
-    // Get instance field: private System.Single _startTime
-    float _get__startTime();
-    // Set instance field: private System.Single _startTime
-    void _set__startTime(float value);
-    // Get instance field: private MultiplayerPlayerStartState _localPlayerSyncStartState
-    GlobalNamespace::MultiplayerPlayerStartState _get__localPlayerSyncStartState();
-    // Set instance field: private MultiplayerPlayerStartState _localPlayerSyncStartState
-    void _set__localPlayerSyncStartState(GlobalNamespace::MultiplayerPlayerStartState value);
-    // Get instance field: private MultiplayerController/State _state
-    GlobalNamespace::MultiplayerController::State _get__state();
-    // Set instance field: private MultiplayerController/State _state
-    void _set__state(GlobalNamespace::MultiplayerController::State value);
-    // Get instance field: private System.String _sessionGameId
-    ::Il2CppString* _get__sessionGameId();
-    // Set instance field: private System.String _sessionGameId
-    void _set__sessionGameId(::Il2CppString* value);
-    // Get instance field: private MultiplayerResultsData _resultsData
-    GlobalNamespace::MultiplayerResultsData* _get__resultsData();
-    // Set instance field: private MultiplayerResultsData _resultsData
-    void _set__resultsData(GlobalNamespace::MultiplayerResultsData* value);
-    // Get instance field: private PlayersSpecificSettingsAtGameStartModel _playersSpecificSettingsAtGameStartModel
-    GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* _get__playersSpecificSettingsAtGameStartModel();
-    // Set instance field: private PlayersSpecificSettingsAtGameStartModel _playersSpecificSettingsAtGameStartModel
-    void _set__playersSpecificSettingsAtGameStartModel(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* value);
-    // Get instance field: private UnityEngine.Coroutine _timeoutGetGameStateCoroutine
-    UnityEngine::Coroutine* _get__timeoutGetGameStateCoroutine();
-    // Set instance field: private UnityEngine.Coroutine _timeoutGetGameStateCoroutine
-    void _set__timeoutGetGameStateCoroutine(UnityEngine::Coroutine* value);
+    // Get instance field reference: private UnityEngine.GameObject _loadingEnvironment
+    UnityEngine::GameObject*& dyn__loadingEnvironment();
+    // Get instance field reference: private MultiplayerLevelScenesTransitionSetupDataSO _multiplayerLevelSceneSetupData
+    GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*& dyn__multiplayerLevelSceneSetupData();
+    // Get instance field reference: private readonly GameScenesManager _gameScenesManager
+    GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
+    // Get instance field reference: private readonly MultiplayerPlayersManager _playersManager
+    GlobalNamespace::MultiplayerPlayersManager*& dyn__playersManager();
+    // Get instance field reference: private readonly SceneStartSyncController _sceneStartSyncController
+    GlobalNamespace::SceneStartSyncController*& dyn__sceneStartSyncController();
+    // Get instance field reference: private readonly SongStartSyncController _songStartSyncController
+    GlobalNamespace::SongStartSyncController*& dyn__songStartSyncController();
+    // Get instance field reference: private readonly MultiplayerLevelFinishedController _multiplayerLevelFinishedController
+    GlobalNamespace::MultiplayerLevelFinishedController*& dyn__multiplayerLevelFinishedController();
+    // Get instance field reference: private readonly FadeInOutController _fadeInOutController
+    GlobalNamespace::FadeInOutController*& dyn__fadeInOutController();
+    // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
+    // Get instance field reference: private readonly MultiplayerIntroAnimationController _introAnimationController
+    GlobalNamespace::MultiplayerIntroAnimationController*& dyn__introAnimationController();
+    // Get instance field reference: private readonly MultiplayerOutroAnimationController _outroAnimationController
+    GlobalNamespace::MultiplayerOutroAnimationController*& dyn__outroAnimationController();
+    // Get instance field reference: private readonly IMenuRpcManager _menuRpcManager
+    GlobalNamespace::IMenuRpcManager*& dyn__menuRpcManager();
+    // Get instance field reference: private readonly IGameplayRpcManager _gameplayRpcManager
+    GlobalNamespace::IGameplayRpcManager*& dyn__gameplayRpcManager();
+    // Get instance field reference: private readonly GameplayCoreSceneSetupData _sceneSetupData
+    GlobalNamespace::GameplayCoreSceneSetupData*& dyn__sceneSetupData();
+    // Get instance field reference: private readonly Zenject.DiContainer _diContainer
+    Zenject::DiContainer*& dyn__diContainer();
+    // Get instance field reference: private readonly MultiplayerBadgesProvider _badgesProvider
+    GlobalNamespace::MultiplayerBadgesProvider*& dyn__badgesProvider();
+    // Get instance field reference: private System.Action`1<MultiplayerController/State> stateChangedEvent
+    System::Action_1<GlobalNamespace::MultiplayerController::State>*& dyn_stateChangedEvent();
+    // Get instance field reference: private System.Single _startTime
+    float& dyn__startTime();
+    // Get instance field reference: private MultiplayerPlayerStartState _localPlayerSyncStartState
+    GlobalNamespace::MultiplayerPlayerStartState& dyn__localPlayerSyncStartState();
+    // Get instance field reference: private MultiplayerController/State _state
+    GlobalNamespace::MultiplayerController::State& dyn__state();
+    // Get instance field reference: private System.String _sessionGameId
+    ::Il2CppString*& dyn__sessionGameId();
+    // Get instance field reference: private MultiplayerResultsData _resultsData
+    GlobalNamespace::MultiplayerResultsData*& dyn__resultsData();
+    // Get instance field reference: private PlayersSpecificSettingsAtGameStartModel _playersSpecificSettingsAtGameStartModel
+    GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*& dyn__playersSpecificSettingsAtGameStartModel();
+    // Get instance field reference: private UnityEngine.Coroutine _timeoutGetGameStateCoroutine
+    UnityEngine::Coroutine*& dyn__timeoutGetGameStateCoroutine();
     // public MultiplayerController/State get_state()
     // Offset: 0x11AB80C
     GlobalNamespace::MultiplayerController::State get_state();

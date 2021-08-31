@@ -83,30 +83,18 @@ namespace Org::BouncyCastle::X509 {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: X509CrlEntry
     X509CrlEntry(Org::BouncyCastle::Asn1::X509::CrlEntry* c_ = {}, bool isIndirect_ = {}, Org::BouncyCastle::Asn1::X509::X509Name* previousCertificateIssuer_ = {}, Org::BouncyCastle::Asn1::X509::X509Name* certificateIssuer_ = {}, bool hashValueSet_ = {}, int hashValue_ = {}) noexcept : c{c_}, isIndirect{isIndirect_}, previousCertificateIssuer{previousCertificateIssuer_}, certificateIssuer{certificateIssuer_}, hashValueSet{hashValueSet_}, hashValue{hashValue_} {}
-    // Get instance field: private Org.BouncyCastle.Asn1.X509.CrlEntry c
-    Org::BouncyCastle::Asn1::X509::CrlEntry* _get_c();
-    // Set instance field: private Org.BouncyCastle.Asn1.X509.CrlEntry c
-    void _set_c(Org::BouncyCastle::Asn1::X509::CrlEntry* value);
-    // Get instance field: private System.Boolean isIndirect
-    bool _get_isIndirect();
-    // Set instance field: private System.Boolean isIndirect
-    void _set_isIndirect(bool value);
-    // Get instance field: private Org.BouncyCastle.Asn1.X509.X509Name previousCertificateIssuer
-    Org::BouncyCastle::Asn1::X509::X509Name* _get_previousCertificateIssuer();
-    // Set instance field: private Org.BouncyCastle.Asn1.X509.X509Name previousCertificateIssuer
-    void _set_previousCertificateIssuer(Org::BouncyCastle::Asn1::X509::X509Name* value);
-    // Get instance field: private Org.BouncyCastle.Asn1.X509.X509Name certificateIssuer
-    Org::BouncyCastle::Asn1::X509::X509Name* _get_certificateIssuer();
-    // Set instance field: private Org.BouncyCastle.Asn1.X509.X509Name certificateIssuer
-    void _set_certificateIssuer(Org::BouncyCastle::Asn1::X509::X509Name* value);
-    // Get instance field: private System.Boolean hashValueSet
-    bool _get_hashValueSet();
-    // Set instance field: private System.Boolean hashValueSet
-    void _set_hashValueSet(bool value);
-    // Get instance field: private System.Int32 hashValue
-    int _get_hashValue();
-    // Set instance field: private System.Int32 hashValue
-    void _set_hashValue(int value);
+    // Get instance field reference: private Org.BouncyCastle.Asn1.X509.CrlEntry c
+    Org::BouncyCastle::Asn1::X509::CrlEntry*& dyn_c();
+    // Get instance field reference: private System.Boolean isIndirect
+    bool& dyn_isIndirect();
+    // Get instance field reference: private Org.BouncyCastle.Asn1.X509.X509Name previousCertificateIssuer
+    Org::BouncyCastle::Asn1::X509::X509Name*& dyn_previousCertificateIssuer();
+    // Get instance field reference: private Org.BouncyCastle.Asn1.X509.X509Name certificateIssuer
+    Org::BouncyCastle::Asn1::X509::X509Name*& dyn_certificateIssuer();
+    // Get instance field reference: private System.Boolean hashValueSet
+    bool& dyn_hashValueSet();
+    // Get instance field reference: private System.Int32 hashValue
+    int& dyn_hashValue();
     // public Org.BouncyCastle.Math.BigInteger get_SerialNumber()
     // Offset: 0x1FF2FA8
     Org::BouncyCastle::Math::BigInteger* get_SerialNumber();

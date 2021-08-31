@@ -83,34 +83,20 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_2<GlobalNamespace::MissionCompletionResults*, GlobalNamespace::MissionNode*>*) == 0x8);
     // Creating value type constructor for type: PlayerAllOverallStatsData
     PlayerAllOverallStatsData(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* campaignOverallStatsData_ = {}, GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* soloFreePlayOverallStatsData_ = {}, GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* partyFreePlayOverallStatsData_ = {}, GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* onlinePlayOverallStatsData_ = {}, System::Action_2<GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*>* didUpdateSoloFreePlayOverallStatsDataEvent_ = {}, System::Action_2<GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*>* didUpdatePartyFreePlayOverallStatsDataEvent_ = {}, System::Action_2<GlobalNamespace::MissionCompletionResults*, GlobalNamespace::MissionNode*>* didUpdateCampaignOverallStatsDataEvent_ = {}) noexcept : campaignOverallStatsData{campaignOverallStatsData_}, soloFreePlayOverallStatsData{soloFreePlayOverallStatsData_}, partyFreePlayOverallStatsData{partyFreePlayOverallStatsData_}, onlinePlayOverallStatsData{onlinePlayOverallStatsData_}, didUpdateSoloFreePlayOverallStatsDataEvent{didUpdateSoloFreePlayOverallStatsDataEvent_}, didUpdatePartyFreePlayOverallStatsDataEvent{didUpdatePartyFreePlayOverallStatsDataEvent_}, didUpdateCampaignOverallStatsDataEvent{didUpdateCampaignOverallStatsDataEvent_} {}
-    // Get instance field: private PlayerAllOverallStatsData/PlayerOverallStatsData <campaignOverallStatsData>k__BackingField
-    GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* _get_$campaignOverallStatsData$k__BackingField();
-    // Set instance field: private PlayerAllOverallStatsData/PlayerOverallStatsData <campaignOverallStatsData>k__BackingField
-    void _set_$campaignOverallStatsData$k__BackingField(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* value);
-    // Get instance field: private PlayerAllOverallStatsData/PlayerOverallStatsData <soloFreePlayOverallStatsData>k__BackingField
-    GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* _get_$soloFreePlayOverallStatsData$k__BackingField();
-    // Set instance field: private PlayerAllOverallStatsData/PlayerOverallStatsData <soloFreePlayOverallStatsData>k__BackingField
-    void _set_$soloFreePlayOverallStatsData$k__BackingField(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* value);
-    // Get instance field: private PlayerAllOverallStatsData/PlayerOverallStatsData <partyFreePlayOverallStatsData>k__BackingField
-    GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* _get_$partyFreePlayOverallStatsData$k__BackingField();
-    // Set instance field: private PlayerAllOverallStatsData/PlayerOverallStatsData <partyFreePlayOverallStatsData>k__BackingField
-    void _set_$partyFreePlayOverallStatsData$k__BackingField(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* value);
-    // Get instance field: private PlayerAllOverallStatsData/PlayerOverallStatsData <onlinePlayOverallStatsData>k__BackingField
-    GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* _get_$onlinePlayOverallStatsData$k__BackingField();
-    // Set instance field: private PlayerAllOverallStatsData/PlayerOverallStatsData <onlinePlayOverallStatsData>k__BackingField
-    void _set_$onlinePlayOverallStatsData$k__BackingField(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* value);
-    // Get instance field: private System.Action`2<LevelCompletionResults,IDifficultyBeatmap> didUpdateSoloFreePlayOverallStatsDataEvent
-    System::Action_2<GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*>* _get_didUpdateSoloFreePlayOverallStatsDataEvent();
-    // Set instance field: private System.Action`2<LevelCompletionResults,IDifficultyBeatmap> didUpdateSoloFreePlayOverallStatsDataEvent
-    void _set_didUpdateSoloFreePlayOverallStatsDataEvent(System::Action_2<GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*>* value);
-    // Get instance field: private System.Action`2<LevelCompletionResults,IDifficultyBeatmap> didUpdatePartyFreePlayOverallStatsDataEvent
-    System::Action_2<GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*>* _get_didUpdatePartyFreePlayOverallStatsDataEvent();
-    // Set instance field: private System.Action`2<LevelCompletionResults,IDifficultyBeatmap> didUpdatePartyFreePlayOverallStatsDataEvent
-    void _set_didUpdatePartyFreePlayOverallStatsDataEvent(System::Action_2<GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*>* value);
-    // Get instance field: private System.Action`2<MissionCompletionResults,MissionNode> didUpdateCampaignOverallStatsDataEvent
-    System::Action_2<GlobalNamespace::MissionCompletionResults*, GlobalNamespace::MissionNode*>* _get_didUpdateCampaignOverallStatsDataEvent();
-    // Set instance field: private System.Action`2<MissionCompletionResults,MissionNode> didUpdateCampaignOverallStatsDataEvent
-    void _set_didUpdateCampaignOverallStatsDataEvent(System::Action_2<GlobalNamespace::MissionCompletionResults*, GlobalNamespace::MissionNode*>* value);
+    // Get instance field reference: private PlayerAllOverallStatsData/PlayerOverallStatsData <campaignOverallStatsData>k__BackingField
+    GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*& dyn_$campaignOverallStatsData$k__BackingField();
+    // Get instance field reference: private PlayerAllOverallStatsData/PlayerOverallStatsData <soloFreePlayOverallStatsData>k__BackingField
+    GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*& dyn_$soloFreePlayOverallStatsData$k__BackingField();
+    // Get instance field reference: private PlayerAllOverallStatsData/PlayerOverallStatsData <partyFreePlayOverallStatsData>k__BackingField
+    GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*& dyn_$partyFreePlayOverallStatsData$k__BackingField();
+    // Get instance field reference: private PlayerAllOverallStatsData/PlayerOverallStatsData <onlinePlayOverallStatsData>k__BackingField
+    GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*& dyn_$onlinePlayOverallStatsData$k__BackingField();
+    // Get instance field reference: private System.Action`2<LevelCompletionResults,IDifficultyBeatmap> didUpdateSoloFreePlayOverallStatsDataEvent
+    System::Action_2<GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*>*& dyn_didUpdateSoloFreePlayOverallStatsDataEvent();
+    // Get instance field reference: private System.Action`2<LevelCompletionResults,IDifficultyBeatmap> didUpdatePartyFreePlayOverallStatsDataEvent
+    System::Action_2<GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*>*& dyn_didUpdatePartyFreePlayOverallStatsDataEvent();
+    // Get instance field reference: private System.Action`2<MissionCompletionResults,MissionNode> didUpdateCampaignOverallStatsDataEvent
+    System::Action_2<GlobalNamespace::MissionCompletionResults*, GlobalNamespace::MissionNode*>*& dyn_didUpdateCampaignOverallStatsDataEvent();
     // public PlayerAllOverallStatsData/PlayerOverallStatsData get_allOverallStatsData()
     // Offset: 0x11347B8
     GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* get_allOverallStatsData();

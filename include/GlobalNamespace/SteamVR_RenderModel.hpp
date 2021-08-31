@@ -183,54 +183,30 @@ namespace GlobalNamespace {
     static System::Collections::Hashtable* _get_materials();
     // Set static field: static public System.Collections.Hashtable materials
     static void _set_materials(System::Collections::Hashtable* value);
-    // Get instance field: public SteamVR_TrackedObject/EIndex index
-    GlobalNamespace::SteamVR_TrackedObject::EIndex _get_index();
-    // Set instance field: public SteamVR_TrackedObject/EIndex index
-    void _set_index(GlobalNamespace::SteamVR_TrackedObject::EIndex value);
-    // Get instance field: public System.String modelOverride
-    ::Il2CppString* _get_modelOverride();
-    // Set instance field: public System.String modelOverride
-    void _set_modelOverride(::Il2CppString* value);
-    // Get instance field: public UnityEngine.Shader shader
-    UnityEngine::Shader* _get_shader();
-    // Set instance field: public UnityEngine.Shader shader
-    void _set_shader(UnityEngine::Shader* value);
-    // Get instance field: public System.Boolean verbose
-    bool _get_verbose();
-    // Set instance field: public System.Boolean verbose
-    void _set_verbose(bool value);
-    // Get instance field: public System.Boolean createComponents
-    bool _get_createComponents();
-    // Set instance field: public System.Boolean createComponents
-    void _set_createComponents(bool value);
-    // Get instance field: public System.Boolean updateDynamically
-    bool _get_updateDynamically();
-    // Set instance field: public System.Boolean updateDynamically
-    void _set_updateDynamically(bool value);
-    // Get instance field: public Valve.VR.RenderModel_ControllerMode_State_t controllerModeState
-    Valve::VR::RenderModel_ControllerMode_State_t _get_controllerModeState();
-    // Set instance field: public Valve.VR.RenderModel_ControllerMode_State_t controllerModeState
-    void _set_controllerModeState(Valve::VR::RenderModel_ControllerMode_State_t value);
-    // Get instance field: private System.String <renderModelName>k__BackingField
-    ::Il2CppString* _get_$renderModelName$k__BackingField();
-    // Set instance field: private System.String <renderModelName>k__BackingField
-    void _set_$renderModelName$k__BackingField(::Il2CppString* value);
-    // Get instance field: private SteamVR_Events/Action deviceConnectedAction
-    GlobalNamespace::SteamVR_Events::Action* _get_deviceConnectedAction();
-    // Set instance field: private SteamVR_Events/Action deviceConnectedAction
-    void _set_deviceConnectedAction(GlobalNamespace::SteamVR_Events::Action* value);
-    // Get instance field: private SteamVR_Events/Action hideRenderModelsAction
-    GlobalNamespace::SteamVR_Events::Action* _get_hideRenderModelsAction();
-    // Set instance field: private SteamVR_Events/Action hideRenderModelsAction
-    void _set_hideRenderModelsAction(GlobalNamespace::SteamVR_Events::Action* value);
-    // Get instance field: private SteamVR_Events/Action modelSkinSettingsHaveChangedAction
-    GlobalNamespace::SteamVR_Events::Action* _get_modelSkinSettingsHaveChangedAction();
-    // Set instance field: private SteamVR_Events/Action modelSkinSettingsHaveChangedAction
-    void _set_modelSkinSettingsHaveChangedAction(GlobalNamespace::SteamVR_Events::Action* value);
-    // Get instance field: private System.Collections.Generic.Dictionary`2<System.Int32,System.String> nameCache
-    System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* _get_nameCache();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<System.Int32,System.String> nameCache
-    void _set_nameCache(System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* value);
+    // Get instance field reference: public SteamVR_TrackedObject/EIndex index
+    GlobalNamespace::SteamVR_TrackedObject::EIndex& dyn_index();
+    // Get instance field reference: public System.String modelOverride
+    ::Il2CppString*& dyn_modelOverride();
+    // Get instance field reference: public UnityEngine.Shader shader
+    UnityEngine::Shader*& dyn_shader();
+    // Get instance field reference: public System.Boolean verbose
+    bool& dyn_verbose();
+    // Get instance field reference: public System.Boolean createComponents
+    bool& dyn_createComponents();
+    // Get instance field reference: public System.Boolean updateDynamically
+    bool& dyn_updateDynamically();
+    // Get instance field reference: public Valve.VR.RenderModel_ControllerMode_State_t controllerModeState
+    Valve::VR::RenderModel_ControllerMode_State_t& dyn_controllerModeState();
+    // Get instance field reference: private System.String <renderModelName>k__BackingField
+    ::Il2CppString*& dyn_$renderModelName$k__BackingField();
+    // Get instance field reference: private SteamVR_Events/Action deviceConnectedAction
+    GlobalNamespace::SteamVR_Events::Action*& dyn_deviceConnectedAction();
+    // Get instance field reference: private SteamVR_Events/Action hideRenderModelsAction
+    GlobalNamespace::SteamVR_Events::Action*& dyn_hideRenderModelsAction();
+    // Get instance field reference: private SteamVR_Events/Action modelSkinSettingsHaveChangedAction
+    GlobalNamespace::SteamVR_Events::Action*& dyn_modelSkinSettingsHaveChangedAction();
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,System.String> nameCache
+    System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>*& dyn_nameCache();
     // public System.String get_renderModelName()
     // Offset: 0x142D8A4
     ::Il2CppString* get_renderModelName();

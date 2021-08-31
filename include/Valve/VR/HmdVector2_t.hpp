@@ -34,14 +34,10 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Single v0
-    float _get_v0();
-    // Set instance field: public System.Single v0
-    void _set_v0(float value);
-    // Get instance field: public System.Single v1
-    float _get_v1();
-    // Set instance field: public System.Single v1
-    void _set_v1(float value);
+    // Get instance field reference: public System.Single v0
+    float& dyn_v0();
+    // Get instance field reference: public System.Single v1
+    float& dyn_v1();
   }; // Valve.VR.HmdVector2_t
   #pragma pack(pop)
   static check_size<sizeof(HmdVector2_t), 4 + sizeof(float)> __Valve_VR_HmdVector2_tSizeCheck;

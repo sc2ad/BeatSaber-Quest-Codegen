@@ -53,14 +53,10 @@ namespace OVRSimpleJSON {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: JSONLazyCreator
     JSONLazyCreator(OVRSimpleJSON::JSONNode* m_Node_ = {}, ::Il2CppString* m_Key_ = {}) noexcept : m_Node{m_Node_}, m_Key{m_Key_} {}
-    // Get instance field: private OVRSimpleJSON.JSONNode m_Node
-    OVRSimpleJSON::JSONNode* _get_m_Node();
-    // Set instance field: private OVRSimpleJSON.JSONNode m_Node
-    void _set_m_Node(OVRSimpleJSON::JSONNode* value);
-    // Get instance field: private System.String m_Key
-    ::Il2CppString* _get_m_Key();
-    // Set instance field: private System.String m_Key
-    void _set_m_Key(::Il2CppString* value);
+    // Get instance field reference: private OVRSimpleJSON.JSONNode m_Node
+    OVRSimpleJSON::JSONNode*& dyn_m_Node();
+    // Get instance field reference: private System.String m_Key
+    ::Il2CppString*& dyn_m_Key();
     // public System.Void .ctor(OVRSimpleJSON.JSONNode aNode)
     // Offset: 0x1638F60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

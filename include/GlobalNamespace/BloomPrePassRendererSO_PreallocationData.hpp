@@ -41,14 +41,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: PreallocationData
     PreallocationData(GlobalNamespace::BloomPrePassLightTypeSO* lightType_ = {}, int preallocateCount_ = {}) noexcept : lightType{lightType_}, preallocateCount{preallocateCount_} {}
-    // Get instance field: public BloomPrePassLightTypeSO lightType
-    GlobalNamespace::BloomPrePassLightTypeSO* _get_lightType();
-    // Set instance field: public BloomPrePassLightTypeSO lightType
-    void _set_lightType(GlobalNamespace::BloomPrePassLightTypeSO* value);
-    // Get instance field: public System.Int32 preallocateCount
-    int _get_preallocateCount();
-    // Set instance field: public System.Int32 preallocateCount
-    void _set_preallocateCount(int value);
+    // Get instance field reference: public BloomPrePassLightTypeSO lightType
+    GlobalNamespace::BloomPrePassLightTypeSO*& dyn_lightType();
+    // Get instance field reference: public System.Int32 preallocateCount
+    int& dyn_preallocateCount();
     // public System.Void .ctor()
     // Offset: 0x1E15D20
     // Implemented from: System.Object

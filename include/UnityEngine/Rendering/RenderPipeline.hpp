@@ -39,10 +39,8 @@ namespace UnityEngine::Rendering {
     constexpr operator bool() const noexcept {
       return disposed;
     }
-    // Get instance field: private System.Boolean <disposed>k__BackingField
-    bool _get_$disposed$k__BackingField();
-    // Set instance field: private System.Boolean <disposed>k__BackingField
-    void _set_$disposed$k__BackingField(bool value);
+    // Get instance field reference: private System.Boolean <disposed>k__BackingField
+    bool& dyn_$disposed$k__BackingField();
     // public System.Boolean get_disposed()
     // Offset: 0x1C49D40
     bool get_disposed();

@@ -75,18 +75,12 @@ namespace UnityEngine::Playables {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Action`1<UnityEngine.Playables.PlayableDirector> played
-    System::Action_1<UnityEngine::Playables::PlayableDirector*>* _get_played();
-    // Set instance field: private System.Action`1<UnityEngine.Playables.PlayableDirector> played
-    void _set_played(System::Action_1<UnityEngine::Playables::PlayableDirector*>* value);
-    // Get instance field: private System.Action`1<UnityEngine.Playables.PlayableDirector> paused
-    System::Action_1<UnityEngine::Playables::PlayableDirector*>* _get_paused();
-    // Set instance field: private System.Action`1<UnityEngine.Playables.PlayableDirector> paused
-    void _set_paused(System::Action_1<UnityEngine::Playables::PlayableDirector*>* value);
-    // Get instance field: private System.Action`1<UnityEngine.Playables.PlayableDirector> stopped
-    System::Action_1<UnityEngine::Playables::PlayableDirector*>* _get_stopped();
-    // Set instance field: private System.Action`1<UnityEngine.Playables.PlayableDirector> stopped
-    void _set_stopped(System::Action_1<UnityEngine::Playables::PlayableDirector*>* value);
+    // Get instance field reference: private System.Action`1<UnityEngine.Playables.PlayableDirector> played
+    System::Action_1<UnityEngine::Playables::PlayableDirector*>*& dyn_played();
+    // Get instance field reference: private System.Action`1<UnityEngine.Playables.PlayableDirector> paused
+    System::Action_1<UnityEngine::Playables::PlayableDirector*>*& dyn_paused();
+    // Get instance field reference: private System.Action`1<UnityEngine.Playables.PlayableDirector> stopped
+    System::Action_1<UnityEngine::Playables::PlayableDirector*>*& dyn_stopped();
     // public UnityEngine.Playables.DirectorWrapMode get_extrapolationMode()
     // Offset: 0x2420E70
     UnityEngine::Playables::DirectorWrapMode get_extrapolationMode();

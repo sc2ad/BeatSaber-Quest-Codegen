@@ -75,26 +75,16 @@ namespace MasterServer {
     operator System::Collections::Generic::IEnumerator_1<::Array<uint8_t>*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Array<uint8_t>*>*>(this);
     }
-    // Get instance field: private System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: private System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: private System.Byte[] <>2__current
-    ::Array<uint8_t>* _get_$$2__current();
-    // Set instance field: private System.Byte[] <>2__current
-    void _set_$$2__current(::Array<uint8_t>* value);
-    // Get instance field: private System.Int32 <>l__initialThreadId
-    int _get_$$l__initialThreadId();
-    // Set instance field: private System.Int32 <>l__initialThreadId
-    void _set_$$l__initialThreadId(int value);
-    // Get instance field: public MasterServer.ServerCertificateRequest <>4__this
-    MasterServer::ServerCertificateRequest* _get_$$4__this();
-    // Set instance field: public MasterServer.ServerCertificateRequest <>4__this
-    void _set_$$4__this(MasterServer::ServerCertificateRequest* value);
-    // Get instance field: private System.Int32 <i>5__2
-    int _get_$i$5__2();
-    // Set instance field: private System.Int32 <i>5__2
-    void _set_$i$5__2(int value);
+    // Get instance field reference: private System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: private System.Byte[] <>2__current
+    ::Array<uint8_t>*& dyn_$$2__current();
+    // Get instance field reference: private System.Int32 <>l__initialThreadId
+    int& dyn_$$l__initialThreadId();
+    // Get instance field reference: public MasterServer.ServerCertificateRequest <>4__this
+    MasterServer::ServerCertificateRequest*& dyn_$$4__this();
+    // Get instance field reference: private System.Int32 <i>5__2
+    int& dyn_$i$5__2();
     // private System.Byte[] System.Collections.Generic.IEnumerator<System.Byte[]>.get_Current()
     // Offset: 0x121FAE0
     ::Array<uint8_t>* System_Collections_Generic_IEnumerator$System_Byte$$$_get_Current();

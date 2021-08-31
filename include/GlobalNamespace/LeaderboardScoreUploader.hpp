@@ -99,30 +99,18 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kScoresToUploadFileName();
     // Set static field: static private System.String kScoresToUploadFileName
     static void _set_kScoresToUploadFileName(::Il2CppString* value);
-    // Get instance field: private System.Action allScoresDidUploadEvent
-    System::Action* _get_allScoresDidUploadEvent();
-    // Set instance field: private System.Action allScoresDidUploadEvent
-    void _set_allScoresDidUploadEvent(System::Action* value);
-    // Get instance field: private System.Collections.Generic.List`1<LeaderboardScoreUploader/ScoreData> _scoresToUpload
-    System::Collections::Generic::List_1<GlobalNamespace::LeaderboardScoreUploader::ScoreData*>* _get__scoresToUpload();
-    // Set instance field: private System.Collections.Generic.List`1<LeaderboardScoreUploader/ScoreData> _scoresToUpload
-    void _set__scoresToUpload(System::Collections::Generic::List_1<GlobalNamespace::LeaderboardScoreUploader::ScoreData*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<LeaderboardScoreUploader/ScoreData> _scoresToUploadForCurrentPlayer
-    System::Collections::Generic::List_1<GlobalNamespace::LeaderboardScoreUploader::ScoreData*>* _get__scoresToUploadForCurrentPlayer();
-    // Set instance field: private System.Collections.Generic.List`1<LeaderboardScoreUploader/ScoreData> _scoresToUploadForCurrentPlayer
-    void _set__scoresToUploadForCurrentPlayer(System::Collections::Generic::List_1<GlobalNamespace::LeaderboardScoreUploader::ScoreData*>* value);
-    // Get instance field: private LeaderboardScoreUploader/UploadScoreCallback _uploadScoreCallback
-    GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback* _get__uploadScoreCallback();
-    // Set instance field: private LeaderboardScoreUploader/UploadScoreCallback _uploadScoreCallback
-    void _set__uploadScoreCallback(GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback* value);
-    // Get instance field: private System.String _playerId
-    ::Il2CppString* _get__playerId();
-    // Set instance field: private System.String _playerId
-    void _set__playerId(::Il2CppString* value);
-    // Get instance field: private System.Boolean _uploading
-    bool _get__uploading();
-    // Set instance field: private System.Boolean _uploading
-    void _set__uploading(bool value);
+    // Get instance field reference: private System.Action allScoresDidUploadEvent
+    System::Action*& dyn_allScoresDidUploadEvent();
+    // Get instance field reference: private System.Collections.Generic.List`1<LeaderboardScoreUploader/ScoreData> _scoresToUpload
+    System::Collections::Generic::List_1<GlobalNamespace::LeaderboardScoreUploader::ScoreData*>*& dyn__scoresToUpload();
+    // Get instance field reference: private System.Collections.Generic.List`1<LeaderboardScoreUploader/ScoreData> _scoresToUploadForCurrentPlayer
+    System::Collections::Generic::List_1<GlobalNamespace::LeaderboardScoreUploader::ScoreData*>*& dyn__scoresToUploadForCurrentPlayer();
+    // Get instance field reference: private LeaderboardScoreUploader/UploadScoreCallback _uploadScoreCallback
+    GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback*& dyn__uploadScoreCallback();
+    // Get instance field reference: private System.String _playerId
+    ::Il2CppString*& dyn__playerId();
+    // Get instance field reference: private System.Boolean _uploading
+    bool& dyn__uploading();
     // public System.Void add_allScoresDidUploadEvent(System.Action value)
     // Offset: 0x1147B60
     void add_allScoresDidUploadEvent(System::Action* value);

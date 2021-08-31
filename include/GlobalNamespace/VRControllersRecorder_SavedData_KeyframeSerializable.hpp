@@ -154,94 +154,50 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: KeyframeSerializable
     KeyframeSerializable(float xPos1_ = {}, float yPos1_ = {}, float zPos1_ = {}, float xPos2_ = {}, float yPos2_ = {}, float zPos2_ = {}, float xPos3_ = {}, float yPos3_ = {}, float zPos3_ = {}, float xRot1_ = {}, float yRot1_ = {}, float zRot1_ = {}, float wRot1_ = {}, float xRot2_ = {}, float yRot2_ = {}, float zRot2_ = {}, float wRot2_ = {}, float xRot3_ = {}, float yRot3_ = {}, float zRot3_ = {}, float wRot3_ = {}, float time_ = {}) noexcept : xPos1{xPos1_}, yPos1{yPos1_}, zPos1{zPos1_}, xPos2{xPos2_}, yPos2{yPos2_}, zPos2{zPos2_}, xPos3{xPos3_}, yPos3{yPos3_}, zPos3{zPos3_}, xRot1{xRot1_}, yRot1{yRot1_}, zRot1{zRot1_}, wRot1{wRot1_}, xRot2{xRot2_}, yRot2{yRot2_}, zRot2{zRot2_}, wRot2{wRot2_}, xRot3{xRot3_}, yRot3{yRot3_}, zRot3{zRot3_}, wRot3{wRot3_}, time{time_} {}
-    // Get instance field: public System.Single _xPos1
-    float _get__xPos1();
-    // Set instance field: public System.Single _xPos1
-    void _set__xPos1(float value);
-    // Get instance field: public System.Single _yPos1
-    float _get__yPos1();
-    // Set instance field: public System.Single _yPos1
-    void _set__yPos1(float value);
-    // Get instance field: public System.Single _zPos1
-    float _get__zPos1();
-    // Set instance field: public System.Single _zPos1
-    void _set__zPos1(float value);
-    // Get instance field: public System.Single _xPos2
-    float _get__xPos2();
-    // Set instance field: public System.Single _xPos2
-    void _set__xPos2(float value);
-    // Get instance field: public System.Single _yPos2
-    float _get__yPos2();
-    // Set instance field: public System.Single _yPos2
-    void _set__yPos2(float value);
-    // Get instance field: public System.Single _zPos2
-    float _get__zPos2();
-    // Set instance field: public System.Single _zPos2
-    void _set__zPos2(float value);
-    // Get instance field: public System.Single _xPos3
-    float _get__xPos3();
-    // Set instance field: public System.Single _xPos3
-    void _set__xPos3(float value);
-    // Get instance field: public System.Single _yPos3
-    float _get__yPos3();
-    // Set instance field: public System.Single _yPos3
-    void _set__yPos3(float value);
-    // Get instance field: public System.Single _zPos3
-    float _get__zPos3();
-    // Set instance field: public System.Single _zPos3
-    void _set__zPos3(float value);
-    // Get instance field: public System.Single _xRot1
-    float _get__xRot1();
-    // Set instance field: public System.Single _xRot1
-    void _set__xRot1(float value);
-    // Get instance field: public System.Single _yRot1
-    float _get__yRot1();
-    // Set instance field: public System.Single _yRot1
-    void _set__yRot1(float value);
-    // Get instance field: public System.Single _zRot1
-    float _get__zRot1();
-    // Set instance field: public System.Single _zRot1
-    void _set__zRot1(float value);
-    // Get instance field: public System.Single _wRot1
-    float _get__wRot1();
-    // Set instance field: public System.Single _wRot1
-    void _set__wRot1(float value);
-    // Get instance field: public System.Single _xRot2
-    float _get__xRot2();
-    // Set instance field: public System.Single _xRot2
-    void _set__xRot2(float value);
-    // Get instance field: public System.Single _yRot2
-    float _get__yRot2();
-    // Set instance field: public System.Single _yRot2
-    void _set__yRot2(float value);
-    // Get instance field: public System.Single _zRot2
-    float _get__zRot2();
-    // Set instance field: public System.Single _zRot2
-    void _set__zRot2(float value);
-    // Get instance field: public System.Single _wRot2
-    float _get__wRot2();
-    // Set instance field: public System.Single _wRot2
-    void _set__wRot2(float value);
-    // Get instance field: public System.Single _xRot3
-    float _get__xRot3();
-    // Set instance field: public System.Single _xRot3
-    void _set__xRot3(float value);
-    // Get instance field: public System.Single _yRot3
-    float _get__yRot3();
-    // Set instance field: public System.Single _yRot3
-    void _set__yRot3(float value);
-    // Get instance field: public System.Single _zRot3
-    float _get__zRot3();
-    // Set instance field: public System.Single _zRot3
-    void _set__zRot3(float value);
-    // Get instance field: public System.Single _wRot3
-    float _get__wRot3();
-    // Set instance field: public System.Single _wRot3
-    void _set__wRot3(float value);
-    // Get instance field: public System.Single _time
-    float _get__time();
-    // Set instance field: public System.Single _time
-    void _set__time(float value);
+    // Get instance field reference: public System.Single _xPos1
+    float& dyn__xPos1();
+    // Get instance field reference: public System.Single _yPos1
+    float& dyn__yPos1();
+    // Get instance field reference: public System.Single _zPos1
+    float& dyn__zPos1();
+    // Get instance field reference: public System.Single _xPos2
+    float& dyn__xPos2();
+    // Get instance field reference: public System.Single _yPos2
+    float& dyn__yPos2();
+    // Get instance field reference: public System.Single _zPos2
+    float& dyn__zPos2();
+    // Get instance field reference: public System.Single _xPos3
+    float& dyn__xPos3();
+    // Get instance field reference: public System.Single _yPos3
+    float& dyn__yPos3();
+    // Get instance field reference: public System.Single _zPos3
+    float& dyn__zPos3();
+    // Get instance field reference: public System.Single _xRot1
+    float& dyn__xRot1();
+    // Get instance field reference: public System.Single _yRot1
+    float& dyn__yRot1();
+    // Get instance field reference: public System.Single _zRot1
+    float& dyn__zRot1();
+    // Get instance field reference: public System.Single _wRot1
+    float& dyn__wRot1();
+    // Get instance field reference: public System.Single _xRot2
+    float& dyn__xRot2();
+    // Get instance field reference: public System.Single _yRot2
+    float& dyn__yRot2();
+    // Get instance field reference: public System.Single _zRot2
+    float& dyn__zRot2();
+    // Get instance field reference: public System.Single _wRot2
+    float& dyn__wRot2();
+    // Get instance field reference: public System.Single _xRot3
+    float& dyn__xRot3();
+    // Get instance field reference: public System.Single _yRot3
+    float& dyn__yRot3();
+    // Get instance field reference: public System.Single _zRot3
+    float& dyn__zRot3();
+    // Get instance field reference: public System.Single _wRot3
+    float& dyn__wRot3();
+    // Get instance field reference: public System.Single _time
+    float& dyn__time();
     // public System.Void .ctor()
     // Offset: 0x135B76C
     // Implemented from: System.Object

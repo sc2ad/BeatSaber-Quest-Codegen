@@ -47,14 +47,10 @@ namespace GlobalNamespace {
     BeatmapObjectSpawnControllerPlayerHeightSetter(GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController_ = {}, GlobalNamespace::PlayerHeightDetector* playerHeightDetector_ = {}) noexcept : beatmapObjectSpawnController{beatmapObjectSpawnController_}, playerHeightDetector{playerHeightDetector_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
-    GlobalNamespace::BeatmapObjectSpawnController* _get__beatmapObjectSpawnController();
-    // Set instance field: private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
-    void _set__beatmapObjectSpawnController(GlobalNamespace::BeatmapObjectSpawnController* value);
-    // Get instance field: private readonly PlayerHeightDetector _playerHeightDetector
-    GlobalNamespace::PlayerHeightDetector* _get__playerHeightDetector();
-    // Set instance field: private readonly PlayerHeightDetector _playerHeightDetector
-    void _set__playerHeightDetector(GlobalNamespace::PlayerHeightDetector* value);
+    // Get instance field reference: private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
+    GlobalNamespace::BeatmapObjectSpawnController*& dyn__beatmapObjectSpawnController();
+    // Get instance field reference: private readonly PlayerHeightDetector _playerHeightDetector
+    GlobalNamespace::PlayerHeightDetector*& dyn__playerHeightDetector();
     // protected System.Void Start()
     // Offset: 0x10CCBAC
     void Start();

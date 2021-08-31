@@ -38,14 +38,10 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public OVR.OpenVR.IVRSystem/OVR.OpenVR._GetControllerStateWithPose pGetControllerStateWithPose
-    OVR::OpenVR::IVRSystem::_GetControllerStateWithPose* _get_pGetControllerStateWithPose();
-    // Set instance field: public OVR.OpenVR.IVRSystem/OVR.OpenVR._GetControllerStateWithPose pGetControllerStateWithPose
-    void _set_pGetControllerStateWithPose(OVR::OpenVR::IVRSystem::_GetControllerStateWithPose* value);
-    // Get instance field: public OVR.OpenVR.CVRSystem/OVR.OpenVR._GetControllerStateWithPosePacked pGetControllerStateWithPosePacked
-    OVR::OpenVR::CVRSystem::_GetControllerStateWithPosePacked* _get_pGetControllerStateWithPosePacked();
-    // Set instance field: public OVR.OpenVR.CVRSystem/OVR.OpenVR._GetControllerStateWithPosePacked pGetControllerStateWithPosePacked
-    void _set_pGetControllerStateWithPosePacked(OVR::OpenVR::CVRSystem::_GetControllerStateWithPosePacked* value);
+    // Get instance field reference: public OVR.OpenVR.IVRSystem/OVR.OpenVR._GetControllerStateWithPose pGetControllerStateWithPose
+    OVR::OpenVR::IVRSystem::_GetControllerStateWithPose*& dyn_pGetControllerStateWithPose();
+    // Get instance field reference: public OVR.OpenVR.CVRSystem/OVR.OpenVR._GetControllerStateWithPosePacked pGetControllerStateWithPosePacked
+    OVR::OpenVR::CVRSystem::_GetControllerStateWithPosePacked*& dyn_pGetControllerStateWithPosePacked();
   }; // OVR.OpenVR.CVRSystem/OVR.OpenVR.GetControllerStateWithPoseUnion
   // WARNING Not writing size check since size may be invalid!
 }

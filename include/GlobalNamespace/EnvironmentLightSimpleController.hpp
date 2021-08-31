@@ -54,18 +54,12 @@ namespace GlobalNamespace {
     EnvironmentLightSimpleController(UnityEngine::Color color_ = {}, int colorId_ = {}, GlobalNamespace::LightWithIdManager* lightManager_ = {}) noexcept : color{color_}, colorId{colorId_}, lightManager{lightManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.Color _color
-    UnityEngine::Color _get__color();
-    // Set instance field: private UnityEngine.Color _color
-    void _set__color(UnityEngine::Color value);
-    // Get instance field: private System.Int32 _colorId
-    int _get__colorId();
-    // Set instance field: private System.Int32 _colorId
-    void _set__colorId(int value);
-    // Get instance field: private LightWithIdManager _lightManager
-    GlobalNamespace::LightWithIdManager* _get__lightManager();
-    // Set instance field: private LightWithIdManager _lightManager
-    void _set__lightManager(GlobalNamespace::LightWithIdManager* value);
+    // Get instance field reference: private UnityEngine.Color _color
+    UnityEngine::Color& dyn__color();
+    // Get instance field reference: private System.Int32 _colorId
+    int& dyn__colorId();
+    // Get instance field reference: private LightWithIdManager _lightManager
+    GlobalNamespace::LightWithIdManager*& dyn__lightManager();
     // protected System.Void LateUpdate()
     // Offset: 0x1051F84
     void LateUpdate();

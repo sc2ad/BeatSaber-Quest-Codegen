@@ -135,18 +135,12 @@ namespace System::Threading {
     static System::Action_1<::Il2CppObject*>* _get_s_cancellationTokenCallback();
     // Set static field: static private System.Action`1<System.Object> s_cancellationTokenCallback
     static void _set_s_cancellationTokenCallback(System::Action_1<::Il2CppObject*>* value);
-    // Get instance field: private System.Object m_lock
-    ::Il2CppObject* _get_m_lock();
-    // Set instance field: private System.Object m_lock
-    void _set_m_lock(::Il2CppObject* value);
-    // Get instance field: private System.Threading.ManualResetEvent m_eventObj
-    System::Threading::ManualResetEvent* _get_m_eventObj();
-    // Set instance field: private System.Threading.ManualResetEvent m_eventObj
-    void _set_m_eventObj(System::Threading::ManualResetEvent* value);
-    // Get instance field: private System.Int32 m_combinedState
-    int _get_m_combinedState();
-    // Set instance field: private System.Int32 m_combinedState
-    void _set_m_combinedState(int value);
+    // Get instance field reference: private System.Object m_lock
+    ::Il2CppObject*& dyn_m_lock();
+    // Get instance field reference: private System.Threading.ManualResetEvent m_eventObj
+    System::Threading::ManualResetEvent*& dyn_m_eventObj();
+    // Get instance field reference: private System.Int32 m_combinedState
+    int& dyn_m_combinedState();
     // public System.Threading.WaitHandle get_WaitHandle()
     // Offset: 0x18F5DA4
     System::Threading::WaitHandle* get_WaitHandle();

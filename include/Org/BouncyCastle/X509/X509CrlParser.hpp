@@ -78,22 +78,14 @@ namespace Org::BouncyCastle::X509 {
     static Org::BouncyCastle::X509::PemParser* _get_PemCrlParser();
     // Set static field: static private readonly Org.BouncyCastle.X509.PemParser PemCrlParser
     static void _set_PemCrlParser(Org::BouncyCastle::X509::PemParser* value);
-    // Get instance field: private readonly System.Boolean lazyAsn1
-    bool _get_lazyAsn1();
-    // Set instance field: private readonly System.Boolean lazyAsn1
-    void _set_lazyAsn1(bool value);
-    // Get instance field: private Org.BouncyCastle.Asn1.Asn1Set sCrlData
-    Org::BouncyCastle::Asn1::Asn1Set* _get_sCrlData();
-    // Set instance field: private Org.BouncyCastle.Asn1.Asn1Set sCrlData
-    void _set_sCrlData(Org::BouncyCastle::Asn1::Asn1Set* value);
-    // Get instance field: private System.Int32 sCrlDataObjectCount
-    int _get_sCrlDataObjectCount();
-    // Set instance field: private System.Int32 sCrlDataObjectCount
-    void _set_sCrlDataObjectCount(int value);
-    // Get instance field: private System.IO.Stream currentCrlStream
-    System::IO::Stream* _get_currentCrlStream();
-    // Set instance field: private System.IO.Stream currentCrlStream
-    void _set_currentCrlStream(System::IO::Stream* value);
+    // Get instance field reference: private readonly System.Boolean lazyAsn1
+    bool& dyn_lazyAsn1();
+    // Get instance field reference: private Org.BouncyCastle.Asn1.Asn1Set sCrlData
+    Org::BouncyCastle::Asn1::Asn1Set*& dyn_sCrlData();
+    // Get instance field reference: private System.Int32 sCrlDataObjectCount
+    int& dyn_sCrlDataObjectCount();
+    // Get instance field reference: private System.IO.Stream currentCrlStream
+    System::IO::Stream*& dyn_currentCrlStream();
     // public System.Void .ctor(System.Boolean lazyAsn1)
     // Offset: 0x1FF38C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

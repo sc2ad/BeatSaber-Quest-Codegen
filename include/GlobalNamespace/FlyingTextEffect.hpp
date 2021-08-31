@@ -61,18 +61,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Color) == 0x10);
     // Creating value type constructor for type: FlyingTextEffect
     FlyingTextEffect(TMPro::TextMeshPro* text_ = {}, UnityEngine::AnimationCurve* fadeAnimationCurve_ = {}, UnityEngine::Color color_ = {}) noexcept : text{text_}, fadeAnimationCurve{fadeAnimationCurve_}, color{color_} {}
-    // Get instance field: private TMPro.TextMeshPro _text
-    TMPro::TextMeshPro* _get__text();
-    // Set instance field: private TMPro.TextMeshPro _text
-    void _set__text(TMPro::TextMeshPro* value);
-    // Get instance field: private UnityEngine.AnimationCurve _fadeAnimationCurve
-    UnityEngine::AnimationCurve* _get__fadeAnimationCurve();
-    // Set instance field: private UnityEngine.AnimationCurve _fadeAnimationCurve
-    void _set__fadeAnimationCurve(UnityEngine::AnimationCurve* value);
-    // Get instance field: protected UnityEngine.Color _color
-    UnityEngine::Color _get__color();
-    // Set instance field: protected UnityEngine.Color _color
-    void _set__color(UnityEngine::Color value);
+    // Get instance field reference: private TMPro.TextMeshPro _text
+    TMPro::TextMeshPro*& dyn__text();
+    // Get instance field reference: private UnityEngine.AnimationCurve _fadeAnimationCurve
+    UnityEngine::AnimationCurve*& dyn__fadeAnimationCurve();
+    // Get instance field reference: protected UnityEngine.Color _color
+    UnityEngine::Color& dyn__color();
     // public System.Void InitAndPresent(System.String text, System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Quaternion rotation, UnityEngine.Color color, System.Single fontSize, System.Boolean shake)
     // Offset: 0x105BE60
     void InitAndPresent(::Il2CppString* text, float duration, UnityEngine::Vector3 targetPos, UnityEngine::Quaternion rotation, UnityEngine::Color color, float fontSize, bool shake);

@@ -62,10 +62,8 @@ namespace System::Net::NetworkInformation {
     static System::Net::NetworkInformation::PrefixOrigin _get_RouterAdvertisement();
     // Set static field: static public System.Net.NetworkInformation.PrefixOrigin RouterAdvertisement
     static void _set_RouterAdvertisement(System::Net::NetworkInformation::PrefixOrigin value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Net.NetworkInformation.PrefixOrigin
   #pragma pack(pop)
   static check_size<sizeof(PrefixOrigin), 0 + sizeof(int)> __System_Net_NetworkInformation_PrefixOriginSizeCheck;

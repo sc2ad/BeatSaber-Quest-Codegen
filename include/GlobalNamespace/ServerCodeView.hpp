@@ -71,26 +71,16 @@ namespace GlobalNamespace {
     ServerCodeView(TMPro::TextMeshProUGUI* serverCodeText_ = {}, UnityEngine::UI::Button* button_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}, ::Il2CppString* serverCode_ = {}, bool codeIsShown_ = {}) noexcept : serverCodeText{serverCodeText_}, button{button_}, buttonBinder{buttonBinder_}, serverCode{serverCode_}, codeIsShown{codeIsShown_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private TMPro.TextMeshProUGUI _serverCodeText
-    TMPro::TextMeshProUGUI* _get__serverCodeText();
-    // Set instance field: private TMPro.TextMeshProUGUI _serverCodeText
-    void _set__serverCodeText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private UnityEngine.UI.Button _button
-    UnityEngine::UI::Button* _get__button();
-    // Set instance field: private UnityEngine.UI.Button _button
-    void _set__button(UnityEngine::UI::Button* value);
-    // Get instance field: private readonly HMUI.ButtonBinder _buttonBinder
-    HMUI::ButtonBinder* _get__buttonBinder();
-    // Set instance field: private readonly HMUI.ButtonBinder _buttonBinder
-    void _set__buttonBinder(HMUI::ButtonBinder* value);
-    // Get instance field: private System.String _serverCode
-    ::Il2CppString* _get__serverCode();
-    // Set instance field: private System.String _serverCode
-    void _set__serverCode(::Il2CppString* value);
-    // Get instance field: private System.Boolean _codeIsShown
-    bool _get__codeIsShown();
-    // Set instance field: private System.Boolean _codeIsShown
-    void _set__codeIsShown(bool value);
+    // Get instance field reference: private TMPro.TextMeshProUGUI _serverCodeText
+    TMPro::TextMeshProUGUI*& dyn__serverCodeText();
+    // Get instance field reference: private UnityEngine.UI.Button _button
+    UnityEngine::UI::Button*& dyn__button();
+    // Get instance field reference: private readonly HMUI.ButtonBinder _buttonBinder
+    HMUI::ButtonBinder*& dyn__buttonBinder();
+    // Get instance field reference: private System.String _serverCode
+    ::Il2CppString*& dyn__serverCode();
+    // Get instance field reference: private System.Boolean _codeIsShown
+    bool& dyn__codeIsShown();
     // public System.Void SetCode(System.String serverCode)
     // Offset: 0x119E504
     void SetCode(::Il2CppString* serverCode);

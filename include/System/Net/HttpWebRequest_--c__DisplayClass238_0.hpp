@@ -44,14 +44,10 @@ namespace System::Net {
     static_assert(sizeof(System::Net::HttpWebRequest*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass238_0
     $$c__DisplayClass238_0(System::Net::WebAsyncResult* aread_ = {}, System::Net::HttpWebRequest* $$4__this_ = {}) noexcept : aread{aread_}, $$4__this{$$4__this_} {}
-    // Get instance field: public System.Net.WebAsyncResult aread
-    System::Net::WebAsyncResult* _get_aread();
-    // Set instance field: public System.Net.WebAsyncResult aread
-    void _set_aread(System::Net::WebAsyncResult* value);
-    // Get instance field: public System.Net.HttpWebRequest <>4__this
-    System::Net::HttpWebRequest* _get_$$4__this();
-    // Set instance field: public System.Net.HttpWebRequest <>4__this
-    void _set_$$4__this(System::Net::HttpWebRequest* value);
+    // Get instance field reference: public System.Net.WebAsyncResult aread
+    System::Net::WebAsyncResult*& dyn_aread();
+    // Get instance field reference: public System.Net.HttpWebRequest <>4__this
+    System::Net::HttpWebRequest*& dyn_$$4__this();
     // System.Void <BeginGetResponse>b__0(System.Net.SimpleAsyncResult inner)
     // Offset: 0x167A254
     void $BeginGetResponse$b__0(System::Net::SimpleAsyncResult* inner);

@@ -110,42 +110,24 @@ namespace GlobalNamespace {
     MultiplayerResultsPyramidView(GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* multiplayerOffsetByLocalPlayerPosition_ = {}, ::Array<UnityEngine::Transform*>* spawnPoints_ = {}, UnityEngine::Transform* spawnPointsParent_ = {}, float evenCountOffset_ = {}, GlobalNamespace::MultiplayerResultsPyramidViewAvatar::Factory* avatarsFactory_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerResultsPyramidViewAvatar*>* avatarsDictionary_ = {}, ::Array<UnityEngine::GameObject*>* resultAvatarDirectors_ = {}, ::Array<UnityEngine::GameObject*>* badgeTimelines_ = {}, GlobalNamespace::MultiplayerResultsPyramidViewAvatar* anyResultsAvatar_ = {}) noexcept : multiplayerOffsetByLocalPlayerPosition{multiplayerOffsetByLocalPlayerPosition_}, spawnPoints{spawnPoints_}, spawnPointsParent{spawnPointsParent_}, evenCountOffset{evenCountOffset_}, avatarsFactory{avatarsFactory_}, avatarsDictionary{avatarsDictionary_}, resultAvatarDirectors{resultAvatarDirectors_}, badgeTimelines{badgeTimelines_}, anyResultsAvatar{anyResultsAvatar_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private MultiplayerOffsetPositionByLocalPlayerPosition _multiplayerOffsetByLocalPlayerPosition
-    GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* _get__multiplayerOffsetByLocalPlayerPosition();
-    // Set instance field: private MultiplayerOffsetPositionByLocalPlayerPosition _multiplayerOffsetByLocalPlayerPosition
-    void _set__multiplayerOffsetByLocalPlayerPosition(GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* value);
-    // Get instance field: private UnityEngine.Transform[] _spawnPoints
-    ::Array<UnityEngine::Transform*>* _get__spawnPoints();
-    // Set instance field: private UnityEngine.Transform[] _spawnPoints
-    void _set__spawnPoints(::Array<UnityEngine::Transform*>* value);
-    // Get instance field: private UnityEngine.Transform _spawnPointsParent
-    UnityEngine::Transform* _get__spawnPointsParent();
-    // Set instance field: private UnityEngine.Transform _spawnPointsParent
-    void _set__spawnPointsParent(UnityEngine::Transform* value);
-    // Get instance field: private System.Single _evenCountOffset
-    float _get__evenCountOffset();
-    // Set instance field: private System.Single _evenCountOffset
-    void _set__evenCountOffset(float value);
-    // Get instance field: private readonly MultiplayerResultsPyramidViewAvatar/Factory _avatarsFactory
-    GlobalNamespace::MultiplayerResultsPyramidViewAvatar::Factory* _get__avatarsFactory();
-    // Set instance field: private readonly MultiplayerResultsPyramidViewAvatar/Factory _avatarsFactory
-    void _set__avatarsFactory(GlobalNamespace::MultiplayerResultsPyramidViewAvatar::Factory* value);
-    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerResultsPyramidViewAvatar> _avatarsDictionary
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerResultsPyramidViewAvatar*>* _get__avatarsDictionary();
-    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerResultsPyramidViewAvatar> _avatarsDictionary
-    void _set__avatarsDictionary(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerResultsPyramidViewAvatar*>* value);
-    // Get instance field: private UnityEngine.GameObject[] _resultAvatarDirectors
-    ::Array<UnityEngine::GameObject*>* _get__resultAvatarDirectors();
-    // Set instance field: private UnityEngine.GameObject[] _resultAvatarDirectors
-    void _set__resultAvatarDirectors(::Array<UnityEngine::GameObject*>* value);
-    // Get instance field: private UnityEngine.GameObject[] _badgeTimelines
-    ::Array<UnityEngine::GameObject*>* _get__badgeTimelines();
-    // Set instance field: private UnityEngine.GameObject[] _badgeTimelines
-    void _set__badgeTimelines(::Array<UnityEngine::GameObject*>* value);
-    // Get instance field: private MultiplayerResultsPyramidViewAvatar _anyResultsAvatar
-    GlobalNamespace::MultiplayerResultsPyramidViewAvatar* _get__anyResultsAvatar();
-    // Set instance field: private MultiplayerResultsPyramidViewAvatar _anyResultsAvatar
-    void _set__anyResultsAvatar(GlobalNamespace::MultiplayerResultsPyramidViewAvatar* value);
+    // Get instance field reference: private MultiplayerOffsetPositionByLocalPlayerPosition _multiplayerOffsetByLocalPlayerPosition
+    GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*& dyn__multiplayerOffsetByLocalPlayerPosition();
+    // Get instance field reference: private UnityEngine.Transform[] _spawnPoints
+    ::Array<UnityEngine::Transform*>*& dyn__spawnPoints();
+    // Get instance field reference: private UnityEngine.Transform _spawnPointsParent
+    UnityEngine::Transform*& dyn__spawnPointsParent();
+    // Get instance field reference: private System.Single _evenCountOffset
+    float& dyn__evenCountOffset();
+    // Get instance field reference: private readonly MultiplayerResultsPyramidViewAvatar/Factory _avatarsFactory
+    GlobalNamespace::MultiplayerResultsPyramidViewAvatar::Factory*& dyn__avatarsFactory();
+    // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerResultsPyramidViewAvatar> _avatarsDictionary
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerResultsPyramidViewAvatar*>*& dyn__avatarsDictionary();
+    // Get instance field reference: private UnityEngine.GameObject[] _resultAvatarDirectors
+    ::Array<UnityEngine::GameObject*>*& dyn__resultAvatarDirectors();
+    // Get instance field reference: private UnityEngine.GameObject[] _badgeTimelines
+    ::Array<UnityEngine::GameObject*>*& dyn__badgeTimelines();
+    // Get instance field reference: private MultiplayerResultsPyramidViewAvatar _anyResultsAvatar
+    GlobalNamespace::MultiplayerResultsPyramidViewAvatar*& dyn__anyResultsAvatar();
     // public UnityEngine.GameObject[] get_resultAvatarDirectors()
     // Offset: 0x1076698
     ::Array<UnityEngine::GameObject*>* get_resultAvatarDirectors();

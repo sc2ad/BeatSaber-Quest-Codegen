@@ -41,14 +41,10 @@ namespace System::Threading::Tasks {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: UnobservedTaskExceptionEventArgs
     UnobservedTaskExceptionEventArgs(System::AggregateException* m_exception_ = {}, bool m_observed_ = {}) noexcept : m_exception{m_exception_}, m_observed{m_observed_} {}
-    // Get instance field: private System.AggregateException m_exception
-    System::AggregateException* _get_m_exception();
-    // Set instance field: private System.AggregateException m_exception
-    void _set_m_exception(System::AggregateException* value);
-    // Get instance field: System.Boolean m_observed
-    bool _get_m_observed();
-    // Set instance field: System.Boolean m_observed
-    void _set_m_observed(bool value);
+    // Get instance field reference: private System.AggregateException m_exception
+    System::AggregateException*& dyn_m_exception();
+    // Get instance field reference: System.Boolean m_observed
+    bool& dyn_m_observed();
     // public System.Void .ctor(System.AggregateException exception)
     // Offset: 0x1874B8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

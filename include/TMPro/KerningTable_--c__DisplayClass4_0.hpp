@@ -42,14 +42,10 @@ namespace TMPro {
     static_assert(sizeof(uint) == 0x4);
     // Creating value type constructor for type: $$c__DisplayClass4_0
     $$c__DisplayClass4_0(uint first_ = {}, uint second_ = {}) noexcept : first{first_}, second{second_} {}
-    // Get instance field: public System.UInt32 first
-    uint _get_first();
-    // Set instance field: public System.UInt32 first
-    void _set_first(uint value);
-    // Get instance field: public System.UInt32 second
-    uint _get_second();
-    // Set instance field: public System.UInt32 second
-    void _set_second(uint value);
+    // Get instance field reference: public System.UInt32 first
+    uint& dyn_first();
+    // Get instance field reference: public System.UInt32 second
+    uint& dyn_second();
     // System.Boolean <AddGlyphPairAdjustmentRecord>b__0(TMPro.KerningPair item)
     // Offset: 0x1115950
     bool $AddGlyphPairAdjustmentRecord$b__0(TMPro::KerningPair* item);

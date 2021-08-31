@@ -150,74 +150,40 @@ namespace GlobalNamespace {
     SteamVR_Menu(UnityEngine::Texture* cursor_ = {}, UnityEngine::Texture* background_ = {}, UnityEngine::Texture* logo_ = {}, float logoHeight_ = {}, float menuOffset_ = {}, UnityEngine::Vector2 scaleLimits_ = {}, float scaleRate_ = {}, GlobalNamespace::SteamVR_Overlay* overlay_ = {}, UnityEngine::Camera* overlayCam_ = {}, UnityEngine::Vector4 uvOffset_ = {}, float distance_ = {}, float scale_ = {}, ::Il2CppString* scaleLimitX_ = {}, ::Il2CppString* scaleLimitY_ = {}, ::Il2CppString* scaleRateText_ = {}, UnityEngine::CursorLockMode savedCursorLockState_ = {}, bool savedCursorVisible_ = {}) noexcept : cursor{cursor_}, background{background_}, logo{logo_}, logoHeight{logoHeight_}, menuOffset{menuOffset_}, scaleLimits{scaleLimits_}, scaleRate{scaleRate_}, overlay{overlay_}, overlayCam{overlayCam_}, uvOffset{uvOffset_}, distance{distance_}, scale{scale_}, scaleLimitX{scaleLimitX_}, scaleLimitY{scaleLimitY_}, scaleRateText{scaleRateText_}, savedCursorLockState{savedCursorLockState_}, savedCursorVisible{savedCursorVisible_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public UnityEngine.Texture cursor
-    UnityEngine::Texture* _get_cursor();
-    // Set instance field: public UnityEngine.Texture cursor
-    void _set_cursor(UnityEngine::Texture* value);
-    // Get instance field: public UnityEngine.Texture background
-    UnityEngine::Texture* _get_background();
-    // Set instance field: public UnityEngine.Texture background
-    void _set_background(UnityEngine::Texture* value);
-    // Get instance field: public UnityEngine.Texture logo
-    UnityEngine::Texture* _get_logo();
-    // Set instance field: public UnityEngine.Texture logo
-    void _set_logo(UnityEngine::Texture* value);
-    // Get instance field: public System.Single logoHeight
-    float _get_logoHeight();
-    // Set instance field: public System.Single logoHeight
-    void _set_logoHeight(float value);
-    // Get instance field: public System.Single menuOffset
-    float _get_menuOffset();
-    // Set instance field: public System.Single menuOffset
-    void _set_menuOffset(float value);
-    // Get instance field: public UnityEngine.Vector2 scaleLimits
-    UnityEngine::Vector2 _get_scaleLimits();
-    // Set instance field: public UnityEngine.Vector2 scaleLimits
-    void _set_scaleLimits(UnityEngine::Vector2 value);
-    // Get instance field: public System.Single scaleRate
-    float _get_scaleRate();
-    // Set instance field: public System.Single scaleRate
-    void _set_scaleRate(float value);
-    // Get instance field: private SteamVR_Overlay overlay
-    GlobalNamespace::SteamVR_Overlay* _get_overlay();
-    // Set instance field: private SteamVR_Overlay overlay
-    void _set_overlay(GlobalNamespace::SteamVR_Overlay* value);
-    // Get instance field: private UnityEngine.Camera overlayCam
-    UnityEngine::Camera* _get_overlayCam();
-    // Set instance field: private UnityEngine.Camera overlayCam
-    void _set_overlayCam(UnityEngine::Camera* value);
-    // Get instance field: private UnityEngine.Vector4 uvOffset
-    UnityEngine::Vector4 _get_uvOffset();
-    // Set instance field: private UnityEngine.Vector4 uvOffset
-    void _set_uvOffset(UnityEngine::Vector4 value);
-    // Get instance field: private System.Single distance
-    float _get_distance();
-    // Set instance field: private System.Single distance
-    void _set_distance(float value);
-    // Get instance field: private System.Single <scale>k__BackingField
-    float _get_$scale$k__BackingField();
-    // Set instance field: private System.Single <scale>k__BackingField
-    void _set_$scale$k__BackingField(float value);
-    // Get instance field: private System.String scaleLimitX
-    ::Il2CppString* _get_scaleLimitX();
-    // Set instance field: private System.String scaleLimitX
-    void _set_scaleLimitX(::Il2CppString* value);
-    // Get instance field: private System.String scaleLimitY
-    ::Il2CppString* _get_scaleLimitY();
-    // Set instance field: private System.String scaleLimitY
-    void _set_scaleLimitY(::Il2CppString* value);
-    // Get instance field: private System.String scaleRateText
-    ::Il2CppString* _get_scaleRateText();
-    // Set instance field: private System.String scaleRateText
-    void _set_scaleRateText(::Il2CppString* value);
-    // Get instance field: private UnityEngine.CursorLockMode savedCursorLockState
-    UnityEngine::CursorLockMode _get_savedCursorLockState();
-    // Set instance field: private UnityEngine.CursorLockMode savedCursorLockState
-    void _set_savedCursorLockState(UnityEngine::CursorLockMode value);
-    // Get instance field: private System.Boolean savedCursorVisible
-    bool _get_savedCursorVisible();
-    // Set instance field: private System.Boolean savedCursorVisible
-    void _set_savedCursorVisible(bool value);
+    // Get instance field reference: public UnityEngine.Texture cursor
+    UnityEngine::Texture*& dyn_cursor();
+    // Get instance field reference: public UnityEngine.Texture background
+    UnityEngine::Texture*& dyn_background();
+    // Get instance field reference: public UnityEngine.Texture logo
+    UnityEngine::Texture*& dyn_logo();
+    // Get instance field reference: public System.Single logoHeight
+    float& dyn_logoHeight();
+    // Get instance field reference: public System.Single menuOffset
+    float& dyn_menuOffset();
+    // Get instance field reference: public UnityEngine.Vector2 scaleLimits
+    UnityEngine::Vector2& dyn_scaleLimits();
+    // Get instance field reference: public System.Single scaleRate
+    float& dyn_scaleRate();
+    // Get instance field reference: private SteamVR_Overlay overlay
+    GlobalNamespace::SteamVR_Overlay*& dyn_overlay();
+    // Get instance field reference: private UnityEngine.Camera overlayCam
+    UnityEngine::Camera*& dyn_overlayCam();
+    // Get instance field reference: private UnityEngine.Vector4 uvOffset
+    UnityEngine::Vector4& dyn_uvOffset();
+    // Get instance field reference: private System.Single distance
+    float& dyn_distance();
+    // Get instance field reference: private System.Single <scale>k__BackingField
+    float& dyn_$scale$k__BackingField();
+    // Get instance field reference: private System.String scaleLimitX
+    ::Il2CppString*& dyn_scaleLimitX();
+    // Get instance field reference: private System.String scaleLimitY
+    ::Il2CppString*& dyn_scaleLimitY();
+    // Get instance field reference: private System.String scaleRateText
+    ::Il2CppString*& dyn_scaleRateText();
+    // Get instance field reference: private UnityEngine.CursorLockMode savedCursorLockState
+    UnityEngine::CursorLockMode& dyn_savedCursorLockState();
+    // Get instance field reference: private System.Boolean savedCursorVisible
+    bool& dyn_savedCursorVisible();
     // public UnityEngine.RenderTexture get_texture()
     // Offset: 0x1428014
     UnityEngine::RenderTexture* get_texture();

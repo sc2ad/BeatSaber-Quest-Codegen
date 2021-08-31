@@ -125,58 +125,32 @@ namespace GlobalNamespace {
     NoteCutParticlesEffect(UnityEngine::ParticleSystem* sparklesPS_ = {}, UnityEngine::ParticleSystem* explosionPS_ = {}, UnityEngine::ParticleSystem* explosionCorePS_ = {}, UnityEngine::ParticleSystem* explosionPrePassBloomPS_ = {}, UnityEngine::ParticleSystem::EmitParams sparklesPSEmitParams_ = {}, UnityEngine::ParticleSystem::MainModule sparklesPSMainModule_ = {}, UnityEngine::ParticleSystem::ShapeModule sparklesPSShapeModule_ = {}, UnityEngine::ParticleSystem::MinMaxCurve sparklesLifetimeMinMaxCurve_ = {}, UnityEngine::ParticleSystem::EmitParams explosionPSEmitParams_ = {}, UnityEngine::ParticleSystem::EmitParams explosionCorePSEmitParams_ = {}, UnityEngine::ParticleSystem::MainModule explosionCorePSMainModule_ = {}, UnityEngine::ParticleSystem::ShapeModule explosionCorePSShapeModule_ = {}, UnityEngine::ParticleSystem::ShapeModule explosionPrePassBloomPSShapeModule_ = {}) noexcept : sparklesPS{sparklesPS_}, explosionPS{explosionPS_}, explosionCorePS{explosionCorePS_}, explosionPrePassBloomPS{explosionPrePassBloomPS_}, sparklesPSEmitParams{sparklesPSEmitParams_}, sparklesPSMainModule{sparklesPSMainModule_}, sparklesPSShapeModule{sparklesPSShapeModule_}, sparklesLifetimeMinMaxCurve{sparklesLifetimeMinMaxCurve_}, explosionPSEmitParams{explosionPSEmitParams_}, explosionCorePSEmitParams{explosionCorePSEmitParams_}, explosionCorePSMainModule{explosionCorePSMainModule_}, explosionCorePSShapeModule{explosionCorePSShapeModule_}, explosionPrePassBloomPSShapeModule{explosionPrePassBloomPSShapeModule_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.ParticleSystem _sparklesPS
-    UnityEngine::ParticleSystem* _get__sparklesPS();
-    // Set instance field: private UnityEngine.ParticleSystem _sparklesPS
-    void _set__sparklesPS(UnityEngine::ParticleSystem* value);
-    // Get instance field: private UnityEngine.ParticleSystem _explosionPS
-    UnityEngine::ParticleSystem* _get__explosionPS();
-    // Set instance field: private UnityEngine.ParticleSystem _explosionPS
-    void _set__explosionPS(UnityEngine::ParticleSystem* value);
-    // Get instance field: private UnityEngine.ParticleSystem _explosionCorePS
-    UnityEngine::ParticleSystem* _get__explosionCorePS();
-    // Set instance field: private UnityEngine.ParticleSystem _explosionCorePS
-    void _set__explosionCorePS(UnityEngine::ParticleSystem* value);
-    // Get instance field: private UnityEngine.ParticleSystem _explosionPrePassBloomPS
-    UnityEngine::ParticleSystem* _get__explosionPrePassBloomPS();
-    // Set instance field: private UnityEngine.ParticleSystem _explosionPrePassBloomPS
-    void _set__explosionPrePassBloomPS(UnityEngine::ParticleSystem* value);
-    // Get instance field: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _sparklesPSEmitParams
-    UnityEngine::ParticleSystem::EmitParams _get__sparklesPSEmitParams();
-    // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _sparklesPSEmitParams
-    void _set__sparklesPSEmitParams(UnityEngine::ParticleSystem::EmitParams value);
-    // Get instance field: private UnityEngine.ParticleSystem/UnityEngine.MainModule _sparklesPSMainModule
-    UnityEngine::ParticleSystem::MainModule _get__sparklesPSMainModule();
-    // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.MainModule _sparklesPSMainModule
-    void _set__sparklesPSMainModule(UnityEngine::ParticleSystem::MainModule value);
-    // Get instance field: private UnityEngine.ParticleSystem/UnityEngine.ShapeModule _sparklesPSShapeModule
-    UnityEngine::ParticleSystem::ShapeModule _get__sparklesPSShapeModule();
-    // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.ShapeModule _sparklesPSShapeModule
-    void _set__sparklesPSShapeModule(UnityEngine::ParticleSystem::ShapeModule value);
-    // Get instance field: private UnityEngine.ParticleSystem/UnityEngine.MinMaxCurve _sparklesLifetimeMinMaxCurve
-    UnityEngine::ParticleSystem::MinMaxCurve _get__sparklesLifetimeMinMaxCurve();
-    // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.MinMaxCurve _sparklesLifetimeMinMaxCurve
-    void _set__sparklesLifetimeMinMaxCurve(UnityEngine::ParticleSystem::MinMaxCurve value);
-    // Get instance field: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _explosionPSEmitParams
-    UnityEngine::ParticleSystem::EmitParams _get__explosionPSEmitParams();
-    // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _explosionPSEmitParams
-    void _set__explosionPSEmitParams(UnityEngine::ParticleSystem::EmitParams value);
-    // Get instance field: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _explosionCorePSEmitParams
-    UnityEngine::ParticleSystem::EmitParams _get__explosionCorePSEmitParams();
-    // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _explosionCorePSEmitParams
-    void _set__explosionCorePSEmitParams(UnityEngine::ParticleSystem::EmitParams value);
-    // Get instance field: private UnityEngine.ParticleSystem/UnityEngine.MainModule _explosionCorePSMainModule
-    UnityEngine::ParticleSystem::MainModule _get__explosionCorePSMainModule();
-    // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.MainModule _explosionCorePSMainModule
-    void _set__explosionCorePSMainModule(UnityEngine::ParticleSystem::MainModule value);
-    // Get instance field: private UnityEngine.ParticleSystem/UnityEngine.ShapeModule _explosionCorePSShapeModule
-    UnityEngine::ParticleSystem::ShapeModule _get__explosionCorePSShapeModule();
-    // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.ShapeModule _explosionCorePSShapeModule
-    void _set__explosionCorePSShapeModule(UnityEngine::ParticleSystem::ShapeModule value);
-    // Get instance field: private UnityEngine.ParticleSystem/UnityEngine.ShapeModule _explosionPrePassBloomPSShapeModule
-    UnityEngine::ParticleSystem::ShapeModule _get__explosionPrePassBloomPSShapeModule();
-    // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.ShapeModule _explosionPrePassBloomPSShapeModule
-    void _set__explosionPrePassBloomPSShapeModule(UnityEngine::ParticleSystem::ShapeModule value);
+    // Get instance field reference: private UnityEngine.ParticleSystem _sparklesPS
+    UnityEngine::ParticleSystem*& dyn__sparklesPS();
+    // Get instance field reference: private UnityEngine.ParticleSystem _explosionPS
+    UnityEngine::ParticleSystem*& dyn__explosionPS();
+    // Get instance field reference: private UnityEngine.ParticleSystem _explosionCorePS
+    UnityEngine::ParticleSystem*& dyn__explosionCorePS();
+    // Get instance field reference: private UnityEngine.ParticleSystem _explosionPrePassBloomPS
+    UnityEngine::ParticleSystem*& dyn__explosionPrePassBloomPS();
+    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _sparklesPSEmitParams
+    UnityEngine::ParticleSystem::EmitParams& dyn__sparklesPSEmitParams();
+    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.MainModule _sparklesPSMainModule
+    UnityEngine::ParticleSystem::MainModule& dyn__sparklesPSMainModule();
+    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.ShapeModule _sparklesPSShapeModule
+    UnityEngine::ParticleSystem::ShapeModule& dyn__sparklesPSShapeModule();
+    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.MinMaxCurve _sparklesLifetimeMinMaxCurve
+    UnityEngine::ParticleSystem::MinMaxCurve& dyn__sparklesLifetimeMinMaxCurve();
+    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _explosionPSEmitParams
+    UnityEngine::ParticleSystem::EmitParams& dyn__explosionPSEmitParams();
+    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _explosionCorePSEmitParams
+    UnityEngine::ParticleSystem::EmitParams& dyn__explosionCorePSEmitParams();
+    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.MainModule _explosionCorePSMainModule
+    UnityEngine::ParticleSystem::MainModule& dyn__explosionCorePSMainModule();
+    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.ShapeModule _explosionCorePSShapeModule
+    UnityEngine::ParticleSystem::ShapeModule& dyn__explosionCorePSShapeModule();
+    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.ShapeModule _explosionPrePassBloomPSShapeModule
+    UnityEngine::ParticleSystem::ShapeModule& dyn__explosionPrePassBloomPSShapeModule();
     // protected System.Void Awake()
     // Offset: 0x1047018
     void Awake();

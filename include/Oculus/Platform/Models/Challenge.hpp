@@ -113,54 +113,30 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(Oculus::Platform::ChallengeVisibility) == 0x4);
     // Creating value type constructor for type: Challenge
     Challenge(Oculus::Platform::ChallengeCreationType CreationType_ = {}, ::Il2CppString* Description_ = {}, System::DateTime EndDate_ = {}, uint64_t _ID_ = {}, Oculus::Platform::Models::UserList* InvitedUsersOptional_ = {}, Oculus::Platform::Models::UserList* InvitedUsers_ = {}, Oculus::Platform::Models::Leaderboard* Leaderboard_ = {}, Oculus::Platform::Models::UserList* ParticipantsOptional_ = {}, Oculus::Platform::Models::UserList* Participants_ = {}, System::DateTime StartDate_ = {}, ::Il2CppString* Title_ = {}, Oculus::Platform::ChallengeVisibility Visibility_ = {}) noexcept : CreationType{CreationType_}, Description{Description_}, EndDate{EndDate_}, _ID{_ID_}, InvitedUsersOptional{InvitedUsersOptional_}, InvitedUsers{InvitedUsers_}, Leaderboard{Leaderboard_}, ParticipantsOptional{ParticipantsOptional_}, Participants{Participants_}, StartDate{StartDate_}, Title{Title_}, Visibility{Visibility_} {}
-    // Get instance field: public readonly Oculus.Platform.ChallengeCreationType CreationType
-    Oculus::Platform::ChallengeCreationType _get_CreationType();
-    // Set instance field: public readonly Oculus.Platform.ChallengeCreationType CreationType
-    void _set_CreationType(Oculus::Platform::ChallengeCreationType value);
-    // Get instance field: public readonly System.String Description
-    ::Il2CppString* _get_Description();
-    // Set instance field: public readonly System.String Description
-    void _set_Description(::Il2CppString* value);
-    // Get instance field: public readonly System.DateTime EndDate
-    System::DateTime _get_EndDate();
-    // Set instance field: public readonly System.DateTime EndDate
-    void _set_EndDate(System::DateTime value);
-    // Get instance field: public readonly System.UInt64 ID
-    uint64_t _get_ID();
-    // Set instance field: public readonly System.UInt64 ID
-    void _set_ID(uint64_t value);
-    // Get instance field: public readonly Oculus.Platform.Models.UserList InvitedUsersOptional
-    Oculus::Platform::Models::UserList* _get_InvitedUsersOptional();
-    // Set instance field: public readonly Oculus.Platform.Models.UserList InvitedUsersOptional
-    void _set_InvitedUsersOptional(Oculus::Platform::Models::UserList* value);
-    // Get instance field: public readonly Oculus.Platform.Models.UserList InvitedUsers
-    Oculus::Platform::Models::UserList* _get_InvitedUsers();
-    // Set instance field: public readonly Oculus.Platform.Models.UserList InvitedUsers
-    void _set_InvitedUsers(Oculus::Platform::Models::UserList* value);
-    // Get instance field: public readonly Oculus.Platform.Models.Leaderboard Leaderboard
-    Oculus::Platform::Models::Leaderboard* _get_Leaderboard();
-    // Set instance field: public readonly Oculus.Platform.Models.Leaderboard Leaderboard
-    void _set_Leaderboard(Oculus::Platform::Models::Leaderboard* value);
-    // Get instance field: public readonly Oculus.Platform.Models.UserList ParticipantsOptional
-    Oculus::Platform::Models::UserList* _get_ParticipantsOptional();
-    // Set instance field: public readonly Oculus.Platform.Models.UserList ParticipantsOptional
-    void _set_ParticipantsOptional(Oculus::Platform::Models::UserList* value);
-    // Get instance field: public readonly Oculus.Platform.Models.UserList Participants
-    Oculus::Platform::Models::UserList* _get_Participants();
-    // Set instance field: public readonly Oculus.Platform.Models.UserList Participants
-    void _set_Participants(Oculus::Platform::Models::UserList* value);
-    // Get instance field: public readonly System.DateTime StartDate
-    System::DateTime _get_StartDate();
-    // Set instance field: public readonly System.DateTime StartDate
-    void _set_StartDate(System::DateTime value);
-    // Get instance field: public readonly System.String Title
-    ::Il2CppString* _get_Title();
-    // Set instance field: public readonly System.String Title
-    void _set_Title(::Il2CppString* value);
-    // Get instance field: public readonly Oculus.Platform.ChallengeVisibility Visibility
-    Oculus::Platform::ChallengeVisibility _get_Visibility();
-    // Set instance field: public readonly Oculus.Platform.ChallengeVisibility Visibility
-    void _set_Visibility(Oculus::Platform::ChallengeVisibility value);
+    // Get instance field reference: public readonly Oculus.Platform.ChallengeCreationType CreationType
+    Oculus::Platform::ChallengeCreationType& dyn_CreationType();
+    // Get instance field reference: public readonly System.String Description
+    ::Il2CppString*& dyn_Description();
+    // Get instance field reference: public readonly System.DateTime EndDate
+    System::DateTime& dyn_EndDate();
+    // Get instance field reference: public readonly System.UInt64 ID
+    uint64_t& dyn_ID();
+    // Get instance field reference: public readonly Oculus.Platform.Models.UserList InvitedUsersOptional
+    Oculus::Platform::Models::UserList*& dyn_InvitedUsersOptional();
+    // Get instance field reference: public readonly Oculus.Platform.Models.UserList InvitedUsers
+    Oculus::Platform::Models::UserList*& dyn_InvitedUsers();
+    // Get instance field reference: public readonly Oculus.Platform.Models.Leaderboard Leaderboard
+    Oculus::Platform::Models::Leaderboard*& dyn_Leaderboard();
+    // Get instance field reference: public readonly Oculus.Platform.Models.UserList ParticipantsOptional
+    Oculus::Platform::Models::UserList*& dyn_ParticipantsOptional();
+    // Get instance field reference: public readonly Oculus.Platform.Models.UserList Participants
+    Oculus::Platform::Models::UserList*& dyn_Participants();
+    // Get instance field reference: public readonly System.DateTime StartDate
+    System::DateTime& dyn_StartDate();
+    // Get instance field reference: public readonly System.String Title
+    ::Il2CppString*& dyn_Title();
+    // Get instance field reference: public readonly Oculus.Platform.ChallengeVisibility Visibility
+    Oculus::Platform::ChallengeVisibility& dyn_Visibility();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14E8C70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

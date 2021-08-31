@@ -53,14 +53,10 @@ namespace System::Net {
     static_assert(sizeof(System::Net::WebRequest*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass79_0
     $$c__DisplayClass79_0(System::Security::Principal::WindowsIdentity* currentUser_ = {}, System::Net::WebRequest* $$4__this_ = {}) noexcept : currentUser{currentUser_}, $$4__this{$$4__this_} {}
-    // Get instance field: public System.Security.Principal.WindowsIdentity currentUser
-    System::Security::Principal::WindowsIdentity* _get_currentUser();
-    // Set instance field: public System.Security.Principal.WindowsIdentity currentUser
-    void _set_currentUser(System::Security::Principal::WindowsIdentity* value);
-    // Get instance field: public System.Net.WebRequest <>4__this
-    System::Net::WebRequest* _get_$$4__this();
-    // Set instance field: public System.Net.WebRequest <>4__this
-    void _set_$$4__this(System::Net::WebRequest* value);
+    // Get instance field reference: public System.Security.Principal.WindowsIdentity currentUser
+    System::Security::Principal::WindowsIdentity*& dyn_currentUser();
+    // Get instance field reference: public System.Net.WebRequest <>4__this
+    System::Net::WebRequest*& dyn_$$4__this();
     // System.Threading.Tasks.Task`1<System.Net.WebResponse> <GetResponseAsync>b__1()
     // Offset: 0x15DB37C
     System::Threading::Tasks::Task_1<System::Net::WebResponse*>* $GetResponseAsync$b__1();

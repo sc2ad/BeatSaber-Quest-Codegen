@@ -128,34 +128,20 @@ namespace System::Reflection {
     static System::Reflection::BindingFlags _get_defaultBindingFlags();
     // Set static field: static private System.Reflection.BindingFlags defaultBindingFlags
     static void _set_defaultBindingFlags(System::Reflection::BindingFlags value);
-    // Get instance field: System.IntPtr _impl
-    System::IntPtr _get__impl();
-    // Set instance field: System.IntPtr _impl
-    void _set__impl(System::IntPtr value);
-    // Get instance field: System.Reflection.Assembly assembly
-    System::Reflection::Assembly* _get_assembly();
-    // Set instance field: System.Reflection.Assembly assembly
-    void _set_assembly(System::Reflection::Assembly* value);
-    // Get instance field: System.String fqname
-    ::Il2CppString* _get_fqname();
-    // Set instance field: System.String fqname
-    void _set_fqname(::Il2CppString* value);
-    // Get instance field: System.String name
-    ::Il2CppString* _get_name();
-    // Set instance field: System.String name
-    void _set_name(::Il2CppString* value);
-    // Get instance field: System.String scopename
-    ::Il2CppString* _get_scopename();
-    // Set instance field: System.String scopename
-    void _set_scopename(::Il2CppString* value);
-    // Get instance field: System.Boolean is_resource
-    bool _get_is_resource();
-    // Set instance field: System.Boolean is_resource
-    void _set_is_resource(bool value);
-    // Get instance field: System.Int32 token
-    int _get_token();
-    // Set instance field: System.Int32 token
-    void _set_token(int value);
+    // Get instance field reference: System.IntPtr _impl
+    System::IntPtr& dyn__impl();
+    // Get instance field reference: System.Reflection.Assembly assembly
+    System::Reflection::Assembly*& dyn_assembly();
+    // Get instance field reference: System.String fqname
+    ::Il2CppString*& dyn_fqname();
+    // Get instance field reference: System.String name
+    ::Il2CppString*& dyn_name();
+    // Get instance field reference: System.String scopename
+    ::Il2CppString*& dyn_scopename();
+    // Get instance field reference: System.Boolean is_resource
+    bool& dyn_is_resource();
+    // Get instance field reference: System.Int32 token
+    int& dyn_token();
     // public System.Reflection.Assembly get_Assembly()
     // Offset: 0x1D1CB20
     System::Reflection::Assembly* get_Assembly();

@@ -50,14 +50,10 @@ namespace NUnit::Framework::Constraints {
     static_assert(sizeof(NUnit::Framework::Constraints::NUnitEqualityComparer*) == 0x8);
     // Creating value type constructor for type: CollectionTally
     CollectionTally(System::Collections::Generic::List_1<::Il2CppObject*>* list_ = {}, NUnit::Framework::Constraints::NUnitEqualityComparer* comparer_ = {}) noexcept : list{list_}, comparer{comparer_} {}
-    // Get instance field: private readonly System.Collections.Generic.List`1<System.Object> list
-    System::Collections::Generic::List_1<::Il2CppObject*>* _get_list();
-    // Set instance field: private readonly System.Collections.Generic.List`1<System.Object> list
-    void _set_list(System::Collections::Generic::List_1<::Il2CppObject*>* value);
-    // Get instance field: private readonly NUnit.Framework.Constraints.NUnitEqualityComparer comparer
-    NUnit::Framework::Constraints::NUnitEqualityComparer* _get_comparer();
-    // Set instance field: private readonly NUnit.Framework.Constraints.NUnitEqualityComparer comparer
-    void _set_comparer(NUnit::Framework::Constraints::NUnitEqualityComparer* value);
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Object> list
+    System::Collections::Generic::List_1<::Il2CppObject*>*& dyn_list();
+    // Get instance field reference: private readonly NUnit.Framework.Constraints.NUnitEqualityComparer comparer
+    NUnit::Framework::Constraints::NUnitEqualityComparer*& dyn_comparer();
     // public System.Int32 get_Count()
     // Offset: 0x1763E08
     int get_Count();

@@ -60,22 +60,14 @@ namespace HMUI {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: $$c__DisplayClass10_0
     $$c__DisplayClass10_0(::Array<float>* startPositions_ = {}, HMUI::NavigationController* $$4__this_ = {}, ::Array<float>* endPositions_ = {}, float moveOffset_ = {}) noexcept : startPositions{startPositions_}, $$4__this{$$4__this_}, endPositions{endPositions_}, moveOffset{moveOffset_} {}
-    // Get instance field: public System.Single[] startPositions
-    ::Array<float>* _get_startPositions();
-    // Set instance field: public System.Single[] startPositions
-    void _set_startPositions(::Array<float>* value);
-    // Get instance field: public HMUI.NavigationController <>4__this
-    HMUI::NavigationController* _get_$$4__this();
-    // Set instance field: public HMUI.NavigationController <>4__this
-    void _set_$$4__this(HMUI::NavigationController* value);
-    // Get instance field: public System.Single[] endPositions
-    ::Array<float>* _get_endPositions();
-    // Set instance field: public System.Single[] endPositions
-    void _set_endPositions(::Array<float>* value);
-    // Get instance field: public System.Single moveOffset
-    float _get_moveOffset();
-    // Set instance field: public System.Single moveOffset
-    void _set_moveOffset(float value);
+    // Get instance field reference: public System.Single[] startPositions
+    ::Array<float>*& dyn_startPositions();
+    // Get instance field reference: public HMUI.NavigationController <>4__this
+    HMUI::NavigationController*& dyn_$$4__this();
+    // Get instance field reference: public System.Single[] endPositions
+    ::Array<float>*& dyn_endPositions();
+    // Get instance field reference: public System.Single moveOffset
+    float& dyn_moveOffset();
     // System.Void <PopViewControllers>g__AnimationLayouter|0(System.Single t, HMUI.ViewController[] viewControllers, System.Collections.Generic.HashSet`1<HMUI.ViewController> removingViewControllers)
     // Offset: 0x12F901C
     void $PopViewControllers$g__AnimationLayouter_0(float t, ::Array<HMUI::ViewController*>* viewControllers, System::Collections::Generic::HashSet_1<HMUI::ViewController*>* removingViewControllers);

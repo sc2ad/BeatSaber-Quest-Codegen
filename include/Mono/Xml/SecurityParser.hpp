@@ -60,18 +60,12 @@ namespace Mono::Xml {
     operator Mono::Xml::SmallXmlParser::IContentHandler() noexcept {
       return *reinterpret_cast<Mono::Xml::SmallXmlParser::IContentHandler*>(this);
     }
-    // Get instance field: private System.Security.SecurityElement root
-    System::Security::SecurityElement* _get_root();
-    // Set instance field: private System.Security.SecurityElement root
-    void _set_root(System::Security::SecurityElement* value);
-    // Get instance field: private System.Security.SecurityElement current
-    System::Security::SecurityElement* _get_current();
-    // Set instance field: private System.Security.SecurityElement current
-    void _set_current(System::Security::SecurityElement* value);
-    // Get instance field: private System.Collections.Stack stack
-    System::Collections::Stack* _get_stack();
-    // Set instance field: private System.Collections.Stack stack
-    void _set_stack(System::Collections::Stack* value);
+    // Get instance field reference: private System.Security.SecurityElement root
+    System::Security::SecurityElement*& dyn_root();
+    // Get instance field reference: private System.Security.SecurityElement current
+    System::Security::SecurityElement*& dyn_current();
+    // Get instance field reference: private System.Collections.Stack stack
+    System::Collections::Stack*& dyn_stack();
     // public System.Void LoadXml(System.String xml)
     // Offset: 0x1A945E4
     void LoadXml(::Il2CppString* xml);

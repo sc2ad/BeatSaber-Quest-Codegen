@@ -58,26 +58,16 @@ namespace System::Runtime::InteropServices {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: UnmanagedFunctionPointerAttribute
     UnmanagedFunctionPointerAttribute(System::Runtime::InteropServices::CallingConvention m_callingConvention_ = {}, System::Runtime::InteropServices::CharSet CharSet_ = {}, bool BestFitMapping_ = {}, bool ThrowOnUnmappableChar_ = {}, bool SetLastError_ = {}) noexcept : m_callingConvention{m_callingConvention_}, CharSet{CharSet_}, BestFitMapping{BestFitMapping_}, ThrowOnUnmappableChar{ThrowOnUnmappableChar_}, SetLastError{SetLastError_} {}
-    // Get instance field: private System.Runtime.InteropServices.CallingConvention m_callingConvention
-    System::Runtime::InteropServices::CallingConvention _get_m_callingConvention();
-    // Set instance field: private System.Runtime.InteropServices.CallingConvention m_callingConvention
-    void _set_m_callingConvention(System::Runtime::InteropServices::CallingConvention value);
-    // Get instance field: public System.Runtime.InteropServices.CharSet CharSet
-    System::Runtime::InteropServices::CharSet _get_CharSet();
-    // Set instance field: public System.Runtime.InteropServices.CharSet CharSet
-    void _set_CharSet(System::Runtime::InteropServices::CharSet value);
-    // Get instance field: public System.Boolean BestFitMapping
-    bool _get_BestFitMapping();
-    // Set instance field: public System.Boolean BestFitMapping
-    void _set_BestFitMapping(bool value);
-    // Get instance field: public System.Boolean ThrowOnUnmappableChar
-    bool _get_ThrowOnUnmappableChar();
-    // Set instance field: public System.Boolean ThrowOnUnmappableChar
-    void _set_ThrowOnUnmappableChar(bool value);
-    // Get instance field: public System.Boolean SetLastError
-    bool _get_SetLastError();
-    // Set instance field: public System.Boolean SetLastError
-    void _set_SetLastError(bool value);
+    // Get instance field reference: private System.Runtime.InteropServices.CallingConvention m_callingConvention
+    System::Runtime::InteropServices::CallingConvention& dyn_m_callingConvention();
+    // Get instance field reference: public System.Runtime.InteropServices.CharSet CharSet
+    System::Runtime::InteropServices::CharSet& dyn_CharSet();
+    // Get instance field reference: public System.Boolean BestFitMapping
+    bool& dyn_BestFitMapping();
+    // Get instance field reference: public System.Boolean ThrowOnUnmappableChar
+    bool& dyn_ThrowOnUnmappableChar();
+    // Get instance field reference: public System.Boolean SetLastError
+    bool& dyn_SetLastError();
     // public System.Void .ctor(System.Runtime.InteropServices.CallingConvention callingConvention)
     // Offset: 0x1489E0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

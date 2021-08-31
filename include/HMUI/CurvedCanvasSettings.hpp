@@ -58,14 +58,10 @@ namespace HMUI {
     static float _get_kMaxElementWidth();
     // Set static field: static public System.Single kMaxElementWidth
     static void _set_kMaxElementWidth(float value);
-    // Get instance field: private System.Single _radius
-    float _get__radius();
-    // Set instance field: private System.Single _radius
-    void _set__radius(float value);
-    // Get instance field: private System.Boolean _useFlatInEditMode
-    bool _get__useFlatInEditMode();
-    // Set instance field: private System.Boolean _useFlatInEditMode
-    void _set__useFlatInEditMode(bool value);
+    // Get instance field reference: private System.Single _radius
+    float& dyn__radius();
+    // Get instance field reference: private System.Boolean _useFlatInEditMode
+    bool& dyn__useFlatInEditMode();
     // public System.Single get_radius()
     // Offset: 0x1369C20
     float get_radius();

@@ -164,58 +164,32 @@ namespace GlobalNamespace {
     static GlobalNamespace::BeatmapEventType _get_kCharacterDisplayEventType();
     // Set static field: static private BeatmapEventType kCharacterDisplayEventType
     static void _set_kCharacterDisplayEventType(GlobalNamespace::BeatmapEventType value);
-    // Get instance field: private System.Single _animationStartAheadTime
-    float _get__animationStartAheadTime();
-    // Set instance field: private System.Single _animationStartAheadTime
-    void _set__animationStartAheadTime(float value);
-    // Get instance field: private BTSCharacterDataModel _btsCharacterDataModel
-    GlobalNamespace::BTSCharacterDataModel* _get__btsCharacterDataModel();
-    // Set instance field: private BTSCharacterDataModel _btsCharacterDataModel
-    void _set__btsCharacterDataModel(GlobalNamespace::BTSCharacterDataModel* value);
-    // Get instance field: private UnityEngine.Transform _characterWrapper
-    UnityEngine::Transform* _get__characterWrapper();
-    // Set instance field: private UnityEngine.Transform _characterWrapper
-    void _set__characterWrapper(UnityEngine::Transform* value);
-    // Get instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
-    GlobalNamespace::IBeatmapObjectCallbackController* _get__beatmapObjectCallbackController();
-    // Set instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
-    void _set__beatmapObjectCallbackController(GlobalNamespace::IBeatmapObjectCallbackController* value);
-    // Get instance field: private readonly IReadonlyBeatmapData _beatmapData
-    GlobalNamespace::IReadonlyBeatmapData* _get__beatmapData();
-    // Set instance field: private readonly IReadonlyBeatmapData _beatmapData
-    void _set__beatmapData(GlobalNamespace::IReadonlyBeatmapData* value);
-    // Get instance field: private readonly IAudioTimeSource _audioTimeSource
-    GlobalNamespace::IAudioTimeSource* _get__audioTimeSource();
-    // Set instance field: private readonly IAudioTimeSource _audioTimeSource
-    void _set__audioTimeSource(GlobalNamespace::IAudioTimeSource* value);
-    // Get instance field: private System.Action`1<BTSCharacter> startCharacterAnimationEvent
-    System::Action_1<GlobalNamespace::BTSCharacter*>* _get_startCharacterAnimationEvent();
-    // Set instance field: private System.Action`1<BTSCharacter> startCharacterAnimationEvent
-    void _set_startCharacterAnimationEvent(System::Action_1<GlobalNamespace::BTSCharacter*>* value);
-    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<System.Int32,BTSCharacter> _idsToCharacterPrefabsDictionary
-    System::Collections::Generic::Dictionary_2<int, GlobalNamespace::BTSCharacter*>* _get__idsToCharacterPrefabsDictionary();
-    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<System.Int32,BTSCharacter> _idsToCharacterPrefabsDictionary
-    void _set__idsToCharacterPrefabsDictionary(System::Collections::Generic::Dictionary_2<int, GlobalNamespace::BTSCharacter*>* value);
-    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<System.Int32,BTSCharacter> _idsToCharactersDictionary
-    System::Collections::Generic::Dictionary_2<int, GlobalNamespace::BTSCharacter*>* _get__idsToCharactersDictionary();
-    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<System.Int32,BTSCharacter> _idsToCharactersDictionary
-    void _set__idsToCharactersDictionary(System::Collections::Generic::Dictionary_2<int, GlobalNamespace::BTSCharacter*>* value);
-    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.AnimationClip> _idsToAnimationClipsDictionary
-    System::Collections::Generic::Dictionary_2<int, UnityEngine::AnimationClip*>* _get__idsToAnimationClipsDictionary();
-    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.AnimationClip> _idsToAnimationClipsDictionary
-    void _set__idsToAnimationClipsDictionary(System::Collections::Generic::Dictionary_2<int, UnityEngine::AnimationClip*>* value);
-    // Get instance field: private System.Boolean _isInitialized
-    bool _get__isInitialized();
-    // Set instance field: private System.Boolean _isInitialized
-    void _set__isInitialized(bool value);
-    // Get instance field: private BeatmapEventCallbackData _eventsCallbackData
-    GlobalNamespace::BeatmapEventCallbackData* _get__eventsCallbackData();
-    // Set instance field: private BeatmapEventCallbackData _eventsCallbackData
-    void _set__eventsCallbackData(GlobalNamespace::BeatmapEventCallbackData* value);
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> _handles
-    System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* _get__handles();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> _handles
-    void _set__handles(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
+    // Get instance field reference: private System.Single _animationStartAheadTime
+    float& dyn__animationStartAheadTime();
+    // Get instance field reference: private BTSCharacterDataModel _btsCharacterDataModel
+    GlobalNamespace::BTSCharacterDataModel*& dyn__btsCharacterDataModel();
+    // Get instance field reference: private UnityEngine.Transform _characterWrapper
+    UnityEngine::Transform*& dyn__characterWrapper();
+    // Get instance field reference: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    GlobalNamespace::IBeatmapObjectCallbackController*& dyn__beatmapObjectCallbackController();
+    // Get instance field reference: private readonly IReadonlyBeatmapData _beatmapData
+    GlobalNamespace::IReadonlyBeatmapData*& dyn__beatmapData();
+    // Get instance field reference: private readonly IAudioTimeSource _audioTimeSource
+    GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
+    // Get instance field reference: private System.Action`1<BTSCharacter> startCharacterAnimationEvent
+    System::Action_1<GlobalNamespace::BTSCharacter*>*& dyn_startCharacterAnimationEvent();
+    // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Int32,BTSCharacter> _idsToCharacterPrefabsDictionary
+    System::Collections::Generic::Dictionary_2<int, GlobalNamespace::BTSCharacter*>*& dyn__idsToCharacterPrefabsDictionary();
+    // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Int32,BTSCharacter> _idsToCharactersDictionary
+    System::Collections::Generic::Dictionary_2<int, GlobalNamespace::BTSCharacter*>*& dyn__idsToCharactersDictionary();
+    // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.AnimationClip> _idsToAnimationClipsDictionary
+    System::Collections::Generic::Dictionary_2<int, UnityEngine::AnimationClip*>*& dyn__idsToAnimationClipsDictionary();
+    // Get instance field reference: private System.Boolean _isInitialized
+    bool& dyn__isInitialized();
+    // Get instance field reference: private BeatmapEventCallbackData _eventsCallbackData
+    GlobalNamespace::BeatmapEventCallbackData*& dyn__eventsCallbackData();
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> _handles
+    System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& dyn__handles();
     // public System.Boolean get_isInitialized()
     // Offset: 0x1187AD4
     bool get_isInitialized();

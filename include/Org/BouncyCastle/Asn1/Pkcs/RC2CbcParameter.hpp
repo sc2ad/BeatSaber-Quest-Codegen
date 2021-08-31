@@ -47,14 +47,10 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1OctetString*) == 0x8);
     // Creating value type constructor for type: RC2CbcParameter
     RC2CbcParameter(Org::BouncyCastle::Asn1::DerInteger* version_ = {}, Org::BouncyCastle::Asn1::Asn1OctetString* iv_ = {}) noexcept : version{version_}, iv{iv_} {}
-    // Get instance field: Org.BouncyCastle.Asn1.DerInteger version
-    Org::BouncyCastle::Asn1::DerInteger* _get_version();
-    // Set instance field: Org.BouncyCastle.Asn1.DerInteger version
-    void _set_version(Org::BouncyCastle::Asn1::DerInteger* value);
-    // Get instance field: Org.BouncyCastle.Asn1.Asn1OctetString iv
-    Org::BouncyCastle::Asn1::Asn1OctetString* _get_iv();
-    // Set instance field: Org.BouncyCastle.Asn1.Asn1OctetString iv
-    void _set_iv(Org::BouncyCastle::Asn1::Asn1OctetString* value);
+    // Get instance field reference: Org.BouncyCastle.Asn1.DerInteger version
+    Org::BouncyCastle::Asn1::DerInteger*& dyn_version();
+    // Get instance field reference: Org.BouncyCastle.Asn1.Asn1OctetString iv
+    Org::BouncyCastle::Asn1::Asn1OctetString*& dyn_iv();
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
     // Offset: 0x17B4A10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

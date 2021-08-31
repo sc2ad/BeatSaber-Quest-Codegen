@@ -77,26 +77,16 @@ namespace MasterServer {
     operator MasterServer::IDedicatedServerClientToServerMessage() noexcept {
       return *reinterpret_cast<MasterServer::IDedicatedServerClientToServerMessage*>(this);
     }
-    // Get instance field: private System.String <dedicatedServerId>k__BackingField
-    ::Il2CppString* _get_$dedicatedServerId$k__BackingField();
-    // Set instance field: private System.String <dedicatedServerId>k__BackingField
-    void _set_$dedicatedServerId$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.Int64 <dedicatedServerCreationTime>k__BackingField
-    int64_t _get_$dedicatedServerCreationTime$k__BackingField();
-    // Set instance field: private System.Int64 <dedicatedServerCreationTime>k__BackingField
-    void _set_$dedicatedServerCreationTime$k__BackingField(int64_t value);
-    // Get instance field: public System.Int32 cpuUtilization
-    int _get_cpuUtilization();
-    // Set instance field: public System.Int32 cpuUtilization
-    void _set_cpuUtilization(int value);
-    // Get instance field: public System.Int32 occupiedServerSlots
-    int _get_occupiedServerSlots();
-    // Set instance field: public System.Int32 occupiedServerSlots
-    void _set_occupiedServerSlots(int value);
-    // Get instance field: public System.Int32 unoccupiedServerSlots
-    int _get_unoccupiedServerSlots();
-    // Set instance field: public System.Int32 unoccupiedServerSlots
-    void _set_unoccupiedServerSlots(int value);
+    // Get instance field reference: private System.String <dedicatedServerId>k__BackingField
+    ::Il2CppString*& dyn_$dedicatedServerId$k__BackingField();
+    // Get instance field reference: private System.Int64 <dedicatedServerCreationTime>k__BackingField
+    int64_t& dyn_$dedicatedServerCreationTime$k__BackingField();
+    // Get instance field reference: public System.Int32 cpuUtilization
+    int& dyn_cpuUtilization();
+    // Get instance field reference: public System.Int32 occupiedServerSlots
+    int& dyn_occupiedServerSlots();
+    // Get instance field reference: public System.Int32 unoccupiedServerSlots
+    int& dyn_unoccupiedServerSlots();
     // static public PacketPool`1<MasterServer.DedicatedServerHeartbeatRequest> get_pool()
     // Offset: 0x121673C
     static GlobalNamespace::PacketPool_1<MasterServer::DedicatedServerHeartbeatRequest*>* get_pool();

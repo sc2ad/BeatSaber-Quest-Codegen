@@ -181,10 +181,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::StandardLevelDetailViewController::ContentType _get_Inactive();
       // Set static field: static public StandardLevelDetailViewController/ContentType Inactive
       static void _set_Inactive(GlobalNamespace::StandardLevelDetailViewController::ContentType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // StandardLevelDetailViewController/ContentType
     #pragma pack(pop)
     static check_size<sizeof(StandardLevelDetailViewController::ContentType), 0 + sizeof(int)> __GlobalNamespace_StandardLevelDetailViewController_ContentTypeSizeCheck;
@@ -373,114 +371,60 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kLoadingDataErrorLocalizationKey();
     // Set static field: static private System.String kLoadingDataErrorLocalizationKey
     static void _set_kLoadingDataErrorLocalizationKey(::Il2CppString* value);
-    // Get instance field: private StandardLevelDetailView _standardLevelDetailView
-    GlobalNamespace::StandardLevelDetailView* _get__standardLevelDetailView();
-    // Set instance field: private StandardLevelDetailView _standardLevelDetailView
-    void _set__standardLevelDetailView(GlobalNamespace::StandardLevelDetailView* value);
-    // Get instance field: private StandardLevelBuyView _standardLevelBuyView
-    GlobalNamespace::StandardLevelBuyView* _get__standardLevelBuyView();
-    // Set instance field: private StandardLevelBuyView _standardLevelBuyView
-    void _set__standardLevelBuyView(GlobalNamespace::StandardLevelBuyView* value);
-    // Get instance field: private StandardLevelBuyInfoView _standardLevelBuyInfoView
-    GlobalNamespace::StandardLevelBuyInfoView* _get__standardLevelBuyInfoView();
-    // Set instance field: private StandardLevelBuyInfoView _standardLevelBuyInfoView
-    void _set__standardLevelBuyInfoView(GlobalNamespace::StandardLevelBuyInfoView* value);
-    // Get instance field: private LoadingControl _loadingControl
-    GlobalNamespace::LoadingControl* _get__loadingControl();
-    // Set instance field: private LoadingControl _loadingControl
-    void _set__loadingControl(GlobalNamespace::LoadingControl* value);
-    // Get instance field: private UnityEngine.GameObject _requireInternetContainer
-    UnityEngine::GameObject* _get__requireInternetContainer();
-    // Set instance field: private UnityEngine.GameObject _requireInternetContainer
-    void _set__requireInternetContainer(UnityEngine::GameObject* value);
-    // Get instance field: private UnityEngine.GameObject _noAllowedBeatmapInfoContainer
-    UnityEngine::GameObject* _get__noAllowedBeatmapInfoContainer();
-    // Set instance field: private UnityEngine.GameObject _noAllowedBeatmapInfoContainer
-    void _set__noAllowedBeatmapInfoContainer(UnityEngine::GameObject* value);
-    // Get instance field: private PlayerDataModel _playerDataModel
-    GlobalNamespace::PlayerDataModel* _get__playerDataModel();
-    // Set instance field: private PlayerDataModel _playerDataModel
-    void _set__playerDataModel(GlobalNamespace::PlayerDataModel* value);
-    // Get instance field: private AdditionalContentModel _additionalContentModel
-    GlobalNamespace::AdditionalContentModel* _get__additionalContentModel();
-    // Set instance field: private AdditionalContentModel _additionalContentModel
-    void _set__additionalContentModel(GlobalNamespace::AdditionalContentModel* value);
-    // Get instance field: private BeatmapLevelsModel _beatmapLevelsModel
-    GlobalNamespace::BeatmapLevelsModel* _get__beatmapLevelsModel();
-    // Set instance field: private BeatmapLevelsModel _beatmapLevelsModel
-    void _set__beatmapLevelsModel(GlobalNamespace::BeatmapLevelsModel* value);
-    // Get instance field: private DlcPromoExperimentModel _dlcPromoExperimentModel
-    GlobalNamespace::DlcPromoExperimentModel* _get__dlcPromoExperimentModel();
-    // Set instance field: private DlcPromoExperimentModel _dlcPromoExperimentModel
-    void _set__dlcPromoExperimentModel(GlobalNamespace::DlcPromoExperimentModel* value);
-    // Get instance field: private IAnalyticsModel _analyticsModel
-    GlobalNamespace::IAnalyticsModel* _get__analyticsModel();
-    // Set instance field: private IAnalyticsModel _analyticsModel
-    void _set__analyticsModel(GlobalNamespace::IAnalyticsModel* value);
-    // Get instance field: private System.Action`1<StandardLevelDetailViewController> didPressActionButtonEvent
-    System::Action_1<GlobalNamespace::StandardLevelDetailViewController*>* _get_didPressActionButtonEvent();
-    // Set instance field: private System.Action`1<StandardLevelDetailViewController> didPressActionButtonEvent
-    void _set_didPressActionButtonEvent(System::Action_1<GlobalNamespace::StandardLevelDetailViewController*>* value);
-    // Get instance field: private System.Action`2<StandardLevelDetailViewController,IBeatmapLevelPack> didPressOpenLevelPackButtonEvent
-    System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevelPack*>* _get_didPressOpenLevelPackButtonEvent();
-    // Set instance field: private System.Action`2<StandardLevelDetailViewController,IBeatmapLevelPack> didPressOpenLevelPackButtonEvent
-    void _set_didPressOpenLevelPackButtonEvent(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevelPack*>* value);
-    // Get instance field: private System.Action`2<StandardLevelDetailViewController,System.Boolean> levelFavoriteStatusDidChangeEvent
-    System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, bool>* _get_levelFavoriteStatusDidChangeEvent();
-    // Set instance field: private System.Action`2<StandardLevelDetailViewController,System.Boolean> levelFavoriteStatusDidChangeEvent
-    void _set_levelFavoriteStatusDidChangeEvent(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, bool>* value);
-    // Get instance field: private System.Action`2<StandardLevelDetailViewController,IBeatmapLevel> didPressPracticeButtonEvent
-    System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevel*>* _get_didPressPracticeButtonEvent();
-    // Set instance field: private System.Action`2<StandardLevelDetailViewController,IBeatmapLevel> didPressPracticeButtonEvent
-    void _set_didPressPracticeButtonEvent(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevel*>* value);
-    // Get instance field: private System.Action`2<StandardLevelDetailViewController,IDifficultyBeatmap> didChangeDifficultyBeatmapEvent
-    System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IDifficultyBeatmap*>* _get_didChangeDifficultyBeatmapEvent();
-    // Set instance field: private System.Action`2<StandardLevelDetailViewController,IDifficultyBeatmap> didChangeDifficultyBeatmapEvent
-    void _set_didChangeDifficultyBeatmapEvent(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IDifficultyBeatmap*>* value);
-    // Get instance field: private System.Action`2<StandardLevelDetailViewController,StandardLevelDetailViewController/ContentType> didChangeContentEvent
-    System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::StandardLevelDetailViewController::ContentType>* _get_didChangeContentEvent();
-    // Set instance field: private System.Action`2<StandardLevelDetailViewController,StandardLevelDetailViewController/ContentType> didChangeContentEvent
-    void _set_didChangeContentEvent(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::StandardLevelDetailViewController::ContentType>* value);
-    // Get instance field: private EventBinder _eventBinder
-    GlobalNamespace::EventBinder* _get__eventBinder();
-    // Set instance field: private EventBinder _eventBinder
-    void _set__eventBinder(GlobalNamespace::EventBinder* value);
-    // Get instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    System::Threading::CancellationTokenSource* _get__cancellationTokenSource();
-    // Set instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    void _set__cancellationTokenSource(System::Threading::CancellationTokenSource* value);
-    // Get instance field: private IPreviewBeatmapLevel _previewBeatmapLevel
-    GlobalNamespace::IPreviewBeatmapLevel* _get__previewBeatmapLevel();
-    // Set instance field: private IPreviewBeatmapLevel _previewBeatmapLevel
-    void _set__previewBeatmapLevel(GlobalNamespace::IPreviewBeatmapLevel* value);
-    // Get instance field: private IBeatmapLevel _beatmapLevel
-    GlobalNamespace::IBeatmapLevel* _get__beatmapLevel();
-    // Set instance field: private IBeatmapLevel _beatmapLevel
-    void _set__beatmapLevel(GlobalNamespace::IBeatmapLevel* value);
-    // Get instance field: private IBeatmapLevelPack _pack
-    GlobalNamespace::IBeatmapLevelPack* _get__pack();
-    // Set instance field: private IBeatmapLevelPack _pack
-    void _set__pack(GlobalNamespace::IBeatmapLevelPack* value);
-    // Get instance field: private System.Boolean _canBuyPack
-    bool _get__canBuyPack();
-    // Set instance field: private System.Boolean _canBuyPack
-    void _set__canBuyPack(bool value);
-    // Get instance field: private System.Boolean _showPlayerStats
-    bool _get__showPlayerStats();
-    // Set instance field: private System.Boolean _showPlayerStats
-    void _set__showPlayerStats(bool value);
-    // Get instance field: private BeatmapDifficultyMask _allowedBeatmapDifficultyMask
-    GlobalNamespace::BeatmapDifficultyMask _get__allowedBeatmapDifficultyMask();
-    // Set instance field: private BeatmapDifficultyMask _allowedBeatmapDifficultyMask
-    void _set__allowedBeatmapDifficultyMask(GlobalNamespace::BeatmapDifficultyMask value);
-    // Get instance field: private System.Collections.Generic.HashSet`1<BeatmapCharacteristicSO> _notAllowedCharacteristics
-    System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO*>* _get__notAllowedCharacteristics();
-    // Set instance field: private System.Collections.Generic.HashSet`1<BeatmapCharacteristicSO> _notAllowedCharacteristics
-    void _set__notAllowedCharacteristics(System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO*>* value);
-    // Get instance field: private System.Boolean _contentIsOwnedAndReady
-    bool _get__contentIsOwnedAndReady();
-    // Set instance field: private System.Boolean _contentIsOwnedAndReady
-    void _set__contentIsOwnedAndReady(bool value);
+    // Get instance field reference: private StandardLevelDetailView _standardLevelDetailView
+    GlobalNamespace::StandardLevelDetailView*& dyn__standardLevelDetailView();
+    // Get instance field reference: private StandardLevelBuyView _standardLevelBuyView
+    GlobalNamespace::StandardLevelBuyView*& dyn__standardLevelBuyView();
+    // Get instance field reference: private StandardLevelBuyInfoView _standardLevelBuyInfoView
+    GlobalNamespace::StandardLevelBuyInfoView*& dyn__standardLevelBuyInfoView();
+    // Get instance field reference: private LoadingControl _loadingControl
+    GlobalNamespace::LoadingControl*& dyn__loadingControl();
+    // Get instance field reference: private UnityEngine.GameObject _requireInternetContainer
+    UnityEngine::GameObject*& dyn__requireInternetContainer();
+    // Get instance field reference: private UnityEngine.GameObject _noAllowedBeatmapInfoContainer
+    UnityEngine::GameObject*& dyn__noAllowedBeatmapInfoContainer();
+    // Get instance field reference: private PlayerDataModel _playerDataModel
+    GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
+    // Get instance field reference: private AdditionalContentModel _additionalContentModel
+    GlobalNamespace::AdditionalContentModel*& dyn__additionalContentModel();
+    // Get instance field reference: private BeatmapLevelsModel _beatmapLevelsModel
+    GlobalNamespace::BeatmapLevelsModel*& dyn__beatmapLevelsModel();
+    // Get instance field reference: private DlcPromoExperimentModel _dlcPromoExperimentModel
+    GlobalNamespace::DlcPromoExperimentModel*& dyn__dlcPromoExperimentModel();
+    // Get instance field reference: private IAnalyticsModel _analyticsModel
+    GlobalNamespace::IAnalyticsModel*& dyn__analyticsModel();
+    // Get instance field reference: private System.Action`1<StandardLevelDetailViewController> didPressActionButtonEvent
+    System::Action_1<GlobalNamespace::StandardLevelDetailViewController*>*& dyn_didPressActionButtonEvent();
+    // Get instance field reference: private System.Action`2<StandardLevelDetailViewController,IBeatmapLevelPack> didPressOpenLevelPackButtonEvent
+    System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevelPack*>*& dyn_didPressOpenLevelPackButtonEvent();
+    // Get instance field reference: private System.Action`2<StandardLevelDetailViewController,System.Boolean> levelFavoriteStatusDidChangeEvent
+    System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, bool>*& dyn_levelFavoriteStatusDidChangeEvent();
+    // Get instance field reference: private System.Action`2<StandardLevelDetailViewController,IBeatmapLevel> didPressPracticeButtonEvent
+    System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevel*>*& dyn_didPressPracticeButtonEvent();
+    // Get instance field reference: private System.Action`2<StandardLevelDetailViewController,IDifficultyBeatmap> didChangeDifficultyBeatmapEvent
+    System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IDifficultyBeatmap*>*& dyn_didChangeDifficultyBeatmapEvent();
+    // Get instance field reference: private System.Action`2<StandardLevelDetailViewController,StandardLevelDetailViewController/ContentType> didChangeContentEvent
+    System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::StandardLevelDetailViewController::ContentType>*& dyn_didChangeContentEvent();
+    // Get instance field reference: private EventBinder _eventBinder
+    GlobalNamespace::EventBinder*& dyn__eventBinder();
+    // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
+    System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
+    // Get instance field reference: private IPreviewBeatmapLevel _previewBeatmapLevel
+    GlobalNamespace::IPreviewBeatmapLevel*& dyn__previewBeatmapLevel();
+    // Get instance field reference: private IBeatmapLevel _beatmapLevel
+    GlobalNamespace::IBeatmapLevel*& dyn__beatmapLevel();
+    // Get instance field reference: private IBeatmapLevelPack _pack
+    GlobalNamespace::IBeatmapLevelPack*& dyn__pack();
+    // Get instance field reference: private System.Boolean _canBuyPack
+    bool& dyn__canBuyPack();
+    // Get instance field reference: private System.Boolean _showPlayerStats
+    bool& dyn__showPlayerStats();
+    // Get instance field reference: private BeatmapDifficultyMask _allowedBeatmapDifficultyMask
+    GlobalNamespace::BeatmapDifficultyMask& dyn__allowedBeatmapDifficultyMask();
+    // Get instance field reference: private System.Collections.Generic.HashSet`1<BeatmapCharacteristicSO> _notAllowedCharacteristics
+    System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO*>*& dyn__notAllowedCharacteristics();
+    // Get instance field reference: private System.Boolean _contentIsOwnedAndReady
+    bool& dyn__contentIsOwnedAndReady();
     // public IDifficultyBeatmap get_selectedDifficultyBeatmap()
     // Offset: 0x10867CC
     GlobalNamespace::IDifficultyBeatmap* get_selectedDifficultyBeatmap();

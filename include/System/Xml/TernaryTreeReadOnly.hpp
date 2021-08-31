@@ -30,10 +30,8 @@ namespace System::Xml {
     constexpr operator ::Array<uint8_t>*() const noexcept {
       return nodeBuffer;
     }
-    // Get instance field: private System.Byte[] nodeBuffer
-    ::Array<uint8_t>* _get_nodeBuffer();
-    // Set instance field: private System.Byte[] nodeBuffer
-    void _set_nodeBuffer(::Array<uint8_t>* value);
+    // Get instance field reference: private System.Byte[] nodeBuffer
+    ::Array<uint8_t>*& dyn_nodeBuffer();
     // public System.Void .ctor(System.Byte[] nodeBuffer)
     // Offset: 0x1950E18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

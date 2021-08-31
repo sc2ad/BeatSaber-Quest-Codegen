@@ -70,10 +70,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::Tracker _get_Count();
     // Set static field: static public OVRPlugin/Tracker Count
     static void _set_Count(GlobalNamespace::OVRPlugin::Tracker value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // OVRPlugin/Tracker
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Tracker), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_TrackerSizeCheck;

@@ -40,18 +40,12 @@ namespace System {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: BinderState
     BinderState(::Array<int>* m_argsMap_ = {}, int m_originalSize_ = {}, bool m_isParamArray_ = {}) noexcept : m_argsMap{m_argsMap_}, m_originalSize{m_originalSize_}, m_isParamArray{m_isParamArray_} {}
-    // Get instance field: System.Int32[] m_argsMap
-    ::Array<int>* _get_m_argsMap();
-    // Set instance field: System.Int32[] m_argsMap
-    void _set_m_argsMap(::Array<int>* value);
-    // Get instance field: System.Int32 m_originalSize
-    int _get_m_originalSize();
-    // Set instance field: System.Int32 m_originalSize
-    void _set_m_originalSize(int value);
-    // Get instance field: System.Boolean m_isParamArray
-    bool _get_m_isParamArray();
-    // Set instance field: System.Boolean m_isParamArray
-    void _set_m_isParamArray(bool value);
+    // Get instance field reference: System.Int32[] m_argsMap
+    ::Array<int>*& dyn_m_argsMap();
+    // Get instance field reference: System.Int32 m_originalSize
+    int& dyn_m_originalSize();
+    // Get instance field reference: System.Boolean m_isParamArray
+    bool& dyn_m_isParamArray();
     // System.Void .ctor(System.Int32[] argsMap, System.Int32 originalSize, System.Boolean isParamArray)
     // Offset: 0x1B5EB8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

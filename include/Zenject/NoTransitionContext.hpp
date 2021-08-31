@@ -45,10 +45,8 @@ namespace Zenject {
     NoTransitionContext(Zenject::NoTransitionInstaller* noScenesTransitionInstaller_ = {}) noexcept : noScenesTransitionInstaller{noScenesTransitionInstaller_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private Zenject.NoTransitionInstaller _noScenesTransitionInstaller
-    Zenject::NoTransitionInstaller* _get__noScenesTransitionInstaller();
-    // Set instance field: private Zenject.NoTransitionInstaller _noScenesTransitionInstaller
-    void _set__noScenesTransitionInstaller(Zenject::NoTransitionInstaller* value);
+    // Get instance field reference: private Zenject.NoTransitionInstaller _noScenesTransitionInstaller
+    Zenject::NoTransitionInstaller*& dyn__noScenesTransitionInstaller();
     // public System.Action`1<Zenject.DiContainer> get_installMethod()
     // Offset: 0x1713C38
     System::Action_1<Zenject::DiContainer*>* get_installMethod();

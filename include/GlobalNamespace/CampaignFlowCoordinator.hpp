@@ -153,62 +153,34 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: CampaignFlowCoordinator
     CampaignFlowCoordinator(GlobalNamespace::MenuLightsPresetSO* defaultLightsPreset_ = {}, GlobalNamespace::MenuLightsPresetSO* resultsClearedLightsPreset_ = {}, GlobalNamespace::MenuLightsPresetSO* resultsFailedLightsPreset_ = {}, GlobalNamespace::MenuLightsPresetSO* newObjectiveLightsPreset_ = {}, GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper_ = {}, GlobalNamespace::MenuLightsManager* menuLightsManager_ = {}, GlobalNamespace::MissionSelectionNavigationController* missionSelectionNavigationController_ = {}, GlobalNamespace::MissionResultsViewController* missionResultsViewController_ = {}, GlobalNamespace::GameplaySetupViewController* gameplaySetupViewController_ = {}, GlobalNamespace::MissionHelpViewController* missionHelpViewController_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, GlobalNamespace::CampaignProgressModel* campaignProgressModel_ = {}, System::Action_1<GlobalNamespace::CampaignFlowCoordinator*>* didFinishEvent_ = {}, bool showCredits_ = {}) noexcept : defaultLightsPreset{defaultLightsPreset_}, resultsClearedLightsPreset{resultsClearedLightsPreset_}, resultsFailedLightsPreset{resultsFailedLightsPreset_}, newObjectiveLightsPreset{newObjectiveLightsPreset_}, menuTransitionsHelper{menuTransitionsHelper_}, menuLightsManager{menuLightsManager_}, missionSelectionNavigationController{missionSelectionNavigationController_}, missionResultsViewController{missionResultsViewController_}, gameplaySetupViewController{gameplaySetupViewController_}, missionHelpViewController{missionHelpViewController_}, playerDataModel{playerDataModel_}, campaignProgressModel{campaignProgressModel_}, didFinishEvent{didFinishEvent_}, showCredits{showCredits_} {}
-    // Get instance field: private MenuLightsPresetSO _defaultLightsPreset
-    GlobalNamespace::MenuLightsPresetSO* _get__defaultLightsPreset();
-    // Set instance field: private MenuLightsPresetSO _defaultLightsPreset
-    void _set__defaultLightsPreset(GlobalNamespace::MenuLightsPresetSO* value);
-    // Get instance field: private MenuLightsPresetSO _resultsClearedLightsPreset
-    GlobalNamespace::MenuLightsPresetSO* _get__resultsClearedLightsPreset();
-    // Set instance field: private MenuLightsPresetSO _resultsClearedLightsPreset
-    void _set__resultsClearedLightsPreset(GlobalNamespace::MenuLightsPresetSO* value);
-    // Get instance field: private MenuLightsPresetSO _resultsFailedLightsPreset
-    GlobalNamespace::MenuLightsPresetSO* _get__resultsFailedLightsPreset();
-    // Set instance field: private MenuLightsPresetSO _resultsFailedLightsPreset
-    void _set__resultsFailedLightsPreset(GlobalNamespace::MenuLightsPresetSO* value);
-    // Get instance field: private MenuLightsPresetSO _newObjectiveLightsPreset
-    GlobalNamespace::MenuLightsPresetSO* _get__newObjectiveLightsPreset();
-    // Set instance field: private MenuLightsPresetSO _newObjectiveLightsPreset
-    void _set__newObjectiveLightsPreset(GlobalNamespace::MenuLightsPresetSO* value);
-    // Get instance field: private readonly MenuTransitionsHelper _menuTransitionsHelper
-    GlobalNamespace::MenuTransitionsHelper* _get__menuTransitionsHelper();
-    // Set instance field: private readonly MenuTransitionsHelper _menuTransitionsHelper
-    void _set__menuTransitionsHelper(GlobalNamespace::MenuTransitionsHelper* value);
-    // Get instance field: private readonly MenuLightsManager _menuLightsManager
-    GlobalNamespace::MenuLightsManager* _get__menuLightsManager();
-    // Set instance field: private readonly MenuLightsManager _menuLightsManager
-    void _set__menuLightsManager(GlobalNamespace::MenuLightsManager* value);
-    // Get instance field: private readonly MissionSelectionNavigationController _missionSelectionNavigationController
-    GlobalNamespace::MissionSelectionNavigationController* _get__missionSelectionNavigationController();
-    // Set instance field: private readonly MissionSelectionNavigationController _missionSelectionNavigationController
-    void _set__missionSelectionNavigationController(GlobalNamespace::MissionSelectionNavigationController* value);
-    // Get instance field: private readonly MissionResultsViewController _missionResultsViewController
-    GlobalNamespace::MissionResultsViewController* _get__missionResultsViewController();
-    // Set instance field: private readonly MissionResultsViewController _missionResultsViewController
-    void _set__missionResultsViewController(GlobalNamespace::MissionResultsViewController* value);
-    // Get instance field: private readonly GameplaySetupViewController _gameplaySetupViewController
-    GlobalNamespace::GameplaySetupViewController* _get__gameplaySetupViewController();
-    // Set instance field: private readonly GameplaySetupViewController _gameplaySetupViewController
-    void _set__gameplaySetupViewController(GlobalNamespace::GameplaySetupViewController* value);
-    // Get instance field: private readonly MissionHelpViewController _missionHelpViewController
-    GlobalNamespace::MissionHelpViewController* _get__missionHelpViewController();
-    // Set instance field: private readonly MissionHelpViewController _missionHelpViewController
-    void _set__missionHelpViewController(GlobalNamespace::MissionHelpViewController* value);
-    // Get instance field: private readonly PlayerDataModel _playerDataModel
-    GlobalNamespace::PlayerDataModel* _get__playerDataModel();
-    // Set instance field: private readonly PlayerDataModel _playerDataModel
-    void _set__playerDataModel(GlobalNamespace::PlayerDataModel* value);
-    // Get instance field: private readonly CampaignProgressModel _campaignProgressModel
-    GlobalNamespace::CampaignProgressModel* _get__campaignProgressModel();
-    // Set instance field: private readonly CampaignProgressModel _campaignProgressModel
-    void _set__campaignProgressModel(GlobalNamespace::CampaignProgressModel* value);
-    // Get instance field: private System.Action`1<CampaignFlowCoordinator> didFinishEvent
-    System::Action_1<GlobalNamespace::CampaignFlowCoordinator*>* _get_didFinishEvent();
-    // Set instance field: private System.Action`1<CampaignFlowCoordinator> didFinishEvent
-    void _set_didFinishEvent(System::Action_1<GlobalNamespace::CampaignFlowCoordinator*>* value);
-    // Get instance field: private System.Boolean _showCredits
-    bool _get__showCredits();
-    // Set instance field: private System.Boolean _showCredits
-    void _set__showCredits(bool value);
+    // Get instance field reference: private MenuLightsPresetSO _defaultLightsPreset
+    GlobalNamespace::MenuLightsPresetSO*& dyn__defaultLightsPreset();
+    // Get instance field reference: private MenuLightsPresetSO _resultsClearedLightsPreset
+    GlobalNamespace::MenuLightsPresetSO*& dyn__resultsClearedLightsPreset();
+    // Get instance field reference: private MenuLightsPresetSO _resultsFailedLightsPreset
+    GlobalNamespace::MenuLightsPresetSO*& dyn__resultsFailedLightsPreset();
+    // Get instance field reference: private MenuLightsPresetSO _newObjectiveLightsPreset
+    GlobalNamespace::MenuLightsPresetSO*& dyn__newObjectiveLightsPreset();
+    // Get instance field reference: private readonly MenuTransitionsHelper _menuTransitionsHelper
+    GlobalNamespace::MenuTransitionsHelper*& dyn__menuTransitionsHelper();
+    // Get instance field reference: private readonly MenuLightsManager _menuLightsManager
+    GlobalNamespace::MenuLightsManager*& dyn__menuLightsManager();
+    // Get instance field reference: private readonly MissionSelectionNavigationController _missionSelectionNavigationController
+    GlobalNamespace::MissionSelectionNavigationController*& dyn__missionSelectionNavigationController();
+    // Get instance field reference: private readonly MissionResultsViewController _missionResultsViewController
+    GlobalNamespace::MissionResultsViewController*& dyn__missionResultsViewController();
+    // Get instance field reference: private readonly GameplaySetupViewController _gameplaySetupViewController
+    GlobalNamespace::GameplaySetupViewController*& dyn__gameplaySetupViewController();
+    // Get instance field reference: private readonly MissionHelpViewController _missionHelpViewController
+    GlobalNamespace::MissionHelpViewController*& dyn__missionHelpViewController();
+    // Get instance field reference: private readonly PlayerDataModel _playerDataModel
+    GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
+    // Get instance field reference: private readonly CampaignProgressModel _campaignProgressModel
+    GlobalNamespace::CampaignProgressModel*& dyn__campaignProgressModel();
+    // Get instance field reference: private System.Action`1<CampaignFlowCoordinator> didFinishEvent
+    System::Action_1<GlobalNamespace::CampaignFlowCoordinator*>*& dyn_didFinishEvent();
+    // Get instance field reference: private System.Boolean _showCredits
+    bool& dyn__showCredits();
     // public System.Void add_didFinishEvent(System.Action`1<CampaignFlowCoordinator> value)
     // Offset: 0x10D4784
     void add_didFinishEvent(System::Action_1<GlobalNamespace::CampaignFlowCoordinator*>* value);

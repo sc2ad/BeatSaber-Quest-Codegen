@@ -40,10 +40,8 @@ namespace System {
     constexpr operator System::Reflection::Assembly*() const noexcept {
       return m_loadedAssembly;
     }
-    // Get instance field: private System.Reflection.Assembly m_loadedAssembly
-    System::Reflection::Assembly* _get_m_loadedAssembly();
-    // Set instance field: private System.Reflection.Assembly m_loadedAssembly
-    void _set_m_loadedAssembly(System::Reflection::Assembly* value);
+    // Get instance field reference: private System.Reflection.Assembly m_loadedAssembly
+    System::Reflection::Assembly*& dyn_m_loadedAssembly();
     // public System.Void .ctor(System.Reflection.Assembly loadedAssembly)
     // Offset: 0x17C6988
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

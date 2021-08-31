@@ -136,10 +136,8 @@ namespace UnityEngine::UI {
       static UnityEngine::UI::Selectable::Transition _get_Animation();
       // Set static field: static public UnityEngine.UI.Selectable/UnityEngine.UI.Transition Animation
       static void _set_Animation(UnityEngine::UI::Selectable::Transition value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // UnityEngine.UI.Selectable/UnityEngine.UI.Transition
     #pragma pack(pop)
     static check_size<sizeof(Selectable::Transition), 0 + sizeof(int)> __UnityEngine_UI_Selectable_TransitionSizeCheck;
@@ -286,62 +284,34 @@ namespace UnityEngine::UI {
     static int _get_s_SelectableCount();
     // Set static field: static protected System.Int32 s_SelectableCount
     static void _set_s_SelectableCount(int value);
-    // Get instance field: private System.Boolean m_EnableCalled
-    bool _get_m_EnableCalled();
-    // Set instance field: private System.Boolean m_EnableCalled
-    void _set_m_EnableCalled(bool value);
-    // Get instance field: private UnityEngine.UI.Navigation m_Navigation
-    UnityEngine::UI::Navigation _get_m_Navigation();
-    // Set instance field: private UnityEngine.UI.Navigation m_Navigation
-    void _set_m_Navigation(UnityEngine::UI::Navigation value);
-    // Get instance field: private UnityEngine.UI.Selectable/UnityEngine.UI.Transition m_Transition
-    UnityEngine::UI::Selectable::Transition _get_m_Transition();
-    // Set instance field: private UnityEngine.UI.Selectable/UnityEngine.UI.Transition m_Transition
-    void _set_m_Transition(UnityEngine::UI::Selectable::Transition value);
-    // Get instance field: private UnityEngine.UI.ColorBlock m_Colors
-    UnityEngine::UI::ColorBlock _get_m_Colors();
-    // Set instance field: private UnityEngine.UI.ColorBlock m_Colors
-    void _set_m_Colors(UnityEngine::UI::ColorBlock value);
-    // Get instance field: private UnityEngine.UI.SpriteState m_SpriteState
-    UnityEngine::UI::SpriteState _get_m_SpriteState();
-    // Set instance field: private UnityEngine.UI.SpriteState m_SpriteState
-    void _set_m_SpriteState(UnityEngine::UI::SpriteState value);
-    // Get instance field: private UnityEngine.UI.AnimationTriggers m_AnimationTriggers
-    UnityEngine::UI::AnimationTriggers* _get_m_AnimationTriggers();
-    // Set instance field: private UnityEngine.UI.AnimationTriggers m_AnimationTriggers
-    void _set_m_AnimationTriggers(UnityEngine::UI::AnimationTriggers* value);
-    // Get instance field: private System.Boolean m_Interactable
-    bool _get_m_Interactable();
-    // Set instance field: private System.Boolean m_Interactable
-    void _set_m_Interactable(bool value);
-    // Get instance field: private UnityEngine.UI.Graphic m_TargetGraphic
-    UnityEngine::UI::Graphic* _get_m_TargetGraphic();
-    // Set instance field: private UnityEngine.UI.Graphic m_TargetGraphic
-    void _set_m_TargetGraphic(UnityEngine::UI::Graphic* value);
-    // Get instance field: private System.Boolean m_GroupsAllowInteraction
-    bool _get_m_GroupsAllowInteraction();
-    // Set instance field: private System.Boolean m_GroupsAllowInteraction
-    void _set_m_GroupsAllowInteraction(bool value);
-    // Get instance field: protected System.Int32 m_CurrentIndex
-    int _get_m_CurrentIndex();
-    // Set instance field: protected System.Int32 m_CurrentIndex
-    void _set_m_CurrentIndex(int value);
-    // Get instance field: private System.Boolean <isPointerInside>k__BackingField
-    bool _get_$isPointerInside$k__BackingField();
-    // Set instance field: private System.Boolean <isPointerInside>k__BackingField
-    void _set_$isPointerInside$k__BackingField(bool value);
-    // Get instance field: private System.Boolean <isPointerDown>k__BackingField
-    bool _get_$isPointerDown$k__BackingField();
-    // Set instance field: private System.Boolean <isPointerDown>k__BackingField
-    void _set_$isPointerDown$k__BackingField(bool value);
-    // Get instance field: private System.Boolean <hasSelection>k__BackingField
-    bool _get_$hasSelection$k__BackingField();
-    // Set instance field: private System.Boolean <hasSelection>k__BackingField
-    void _set_$hasSelection$k__BackingField(bool value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<UnityEngine.CanvasGroup> m_CanvasGroupCache
-    System::Collections::Generic::List_1<UnityEngine::CanvasGroup*>* _get_m_CanvasGroupCache();
-    // Set instance field: private readonly System.Collections.Generic.List`1<UnityEngine.CanvasGroup> m_CanvasGroupCache
-    void _set_m_CanvasGroupCache(System::Collections::Generic::List_1<UnityEngine::CanvasGroup*>* value);
+    // Get instance field reference: private System.Boolean m_EnableCalled
+    bool& dyn_m_EnableCalled();
+    // Get instance field reference: private UnityEngine.UI.Navigation m_Navigation
+    UnityEngine::UI::Navigation& dyn_m_Navigation();
+    // Get instance field reference: private UnityEngine.UI.Selectable/UnityEngine.UI.Transition m_Transition
+    UnityEngine::UI::Selectable::Transition& dyn_m_Transition();
+    // Get instance field reference: private UnityEngine.UI.ColorBlock m_Colors
+    UnityEngine::UI::ColorBlock& dyn_m_Colors();
+    // Get instance field reference: private UnityEngine.UI.SpriteState m_SpriteState
+    UnityEngine::UI::SpriteState& dyn_m_SpriteState();
+    // Get instance field reference: private UnityEngine.UI.AnimationTriggers m_AnimationTriggers
+    UnityEngine::UI::AnimationTriggers*& dyn_m_AnimationTriggers();
+    // Get instance field reference: private System.Boolean m_Interactable
+    bool& dyn_m_Interactable();
+    // Get instance field reference: private UnityEngine.UI.Graphic m_TargetGraphic
+    UnityEngine::UI::Graphic*& dyn_m_TargetGraphic();
+    // Get instance field reference: private System.Boolean m_GroupsAllowInteraction
+    bool& dyn_m_GroupsAllowInteraction();
+    // Get instance field reference: protected System.Int32 m_CurrentIndex
+    int& dyn_m_CurrentIndex();
+    // Get instance field reference: private System.Boolean <isPointerInside>k__BackingField
+    bool& dyn_$isPointerInside$k__BackingField();
+    // Get instance field reference: private System.Boolean <isPointerDown>k__BackingField
+    bool& dyn_$isPointerDown$k__BackingField();
+    // Get instance field reference: private System.Boolean <hasSelection>k__BackingField
+    bool& dyn_$hasSelection$k__BackingField();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.CanvasGroup> m_CanvasGroupCache
+    System::Collections::Generic::List_1<UnityEngine::CanvasGroup*>*& dyn_m_CanvasGroupCache();
     // static public UnityEngine.UI.Selectable[] get_allSelectablesArray()
     // Offset: 0x19DF3AC
     static ::Array<UnityEngine::UI::Selectable*>* get_allSelectablesArray();

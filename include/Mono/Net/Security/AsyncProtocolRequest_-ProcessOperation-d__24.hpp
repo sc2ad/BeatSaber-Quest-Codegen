@@ -86,38 +86,22 @@ namespace Mono::Net::Security {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
-    // Get instance field: public System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: public System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder _get_$$t__builder();
-    // Set instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
-    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder value);
-    // Get instance field: public System.Threading.CancellationToken cancellationToken
-    System::Threading::CancellationToken _get_cancellationToken();
-    // Set instance field: public System.Threading.CancellationToken cancellationToken
-    void _set_cancellationToken(System::Threading::CancellationToken value);
-    // Get instance field: public Mono.Net.Security.AsyncProtocolRequest <>4__this
-    Mono::Net::Security::AsyncProtocolRequest* _get_$$4__this();
-    // Set instance field: public Mono.Net.Security.AsyncProtocolRequest <>4__this
-    void _set_$$4__this(Mono::Net::Security::AsyncProtocolRequest* value);
-    // Get instance field: private Mono.Net.Security.AsyncOperationStatus <status>5__1
-    Mono::Net::Security::AsyncOperationStatus _get_$status$5__1();
-    // Set instance field: private Mono.Net.Security.AsyncOperationStatus <status>5__1
-    void _set_$status$5__1(Mono::Net::Security::AsyncOperationStatus value);
-    // Get instance field: private Mono.Net.Security.AsyncOperationStatus <newStatus>5__2
-    Mono::Net::Security::AsyncOperationStatus _get_$newStatus$5__2();
-    // Set instance field: private Mono.Net.Security.AsyncOperationStatus <newStatus>5__2
-    void _set_$newStatus$5__2(Mono::Net::Security::AsyncOperationStatus value);
-    // Get instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.Nullable`1<System.Int32>> <>u__1
-    typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<System::Nullable_1<int>>::ConfiguredTaskAwaiter _get_$$u__1();
-    // Set instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.Nullable`1<System.Int32>> <>u__1
-    void _set_$$u__1(typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<System::Nullable_1<int>>::ConfiguredTaskAwaiter value);
-    // Get instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable/System.Runtime.CompilerServices.ConfiguredTaskAwaiter <>u__2
-    System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter _get_$$u__2();
-    // Set instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable/System.Runtime.CompilerServices.ConfiguredTaskAwaiter <>u__2
-    void _set_$$u__2(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter value);
+    // Get instance field reference: public System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder& dyn_$$t__builder();
+    // Get instance field reference: public System.Threading.CancellationToken cancellationToken
+    System::Threading::CancellationToken& dyn_cancellationToken();
+    // Get instance field reference: public Mono.Net.Security.AsyncProtocolRequest <>4__this
+    Mono::Net::Security::AsyncProtocolRequest*& dyn_$$4__this();
+    // Get instance field reference: private Mono.Net.Security.AsyncOperationStatus <status>5__1
+    Mono::Net::Security::AsyncOperationStatus& dyn_$status$5__1();
+    // Get instance field reference: private Mono.Net.Security.AsyncOperationStatus <newStatus>5__2
+    Mono::Net::Security::AsyncOperationStatus& dyn_$newStatus$5__2();
+    // Get instance field reference: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.Nullable`1<System.Int32>> <>u__1
+    typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<System::Nullable_1<int>>::ConfiguredTaskAwaiter& dyn_$$u__1();
+    // Get instance field reference: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable/System.Runtime.CompilerServices.ConfiguredTaskAwaiter <>u__2
+    System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter& dyn_$$u__2();
     // private System.Void MoveNext()
     // Offset: 0x15E5BF4
     void MoveNext();

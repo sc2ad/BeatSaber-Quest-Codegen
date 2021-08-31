@@ -46,14 +46,10 @@ namespace HMUI {
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
     // Creating value type constructor for type: TextSegmentedControlCell
     TextSegmentedControlCell(TMPro::TextMeshProUGUI* text_ = {}, UnityEngine::GameObject* backgroundGameObject_ = {}) noexcept : text{text_}, backgroundGameObject{backgroundGameObject_} {}
-    // Get instance field: protected TMPro.TextMeshProUGUI _text
-    TMPro::TextMeshProUGUI* _get__text();
-    // Set instance field: protected TMPro.TextMeshProUGUI _text
-    void _set__text(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private UnityEngine.GameObject _backgroundGameObject
-    UnityEngine::GameObject* _get__backgroundGameObject();
-    // Set instance field: private UnityEngine.GameObject _backgroundGameObject
-    void _set__backgroundGameObject(UnityEngine::GameObject* value);
+    // Get instance field reference: protected TMPro.TextMeshProUGUI _text
+    TMPro::TextMeshProUGUI*& dyn__text();
+    // Get instance field reference: private UnityEngine.GameObject _backgroundGameObject
+    UnityEngine::GameObject*& dyn__backgroundGameObject();
     // public System.String get_text()
     // Offset: 0x13063D8
     ::Il2CppString* get_text();

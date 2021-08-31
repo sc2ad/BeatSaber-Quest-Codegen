@@ -76,10 +76,8 @@ namespace UnityEngine::Animations {
     static UnityEngine::Animations::AnimationOffsetPlayable _get_m_NullPlayable();
     // Set static field: static private readonly UnityEngine.Animations.AnimationOffsetPlayable m_NullPlayable
     static void _set_m_NullPlayable(UnityEngine::Animations::AnimationOffsetPlayable value);
-    // Get instance field: private UnityEngine.Playables.PlayableHandle m_Handle
-    UnityEngine::Playables::PlayableHandle _get_m_Handle();
-    // Set instance field: private UnityEngine.Playables.PlayableHandle m_Handle
-    void _set_m_Handle(UnityEngine::Playables::PlayableHandle value);
+    // Get instance field reference: private UnityEngine.Playables.PlayableHandle m_Handle
+    UnityEngine::Playables::PlayableHandle& dyn_m_Handle();
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0x23865F8
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

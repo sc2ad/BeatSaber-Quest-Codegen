@@ -63,18 +63,12 @@ namespace System {
     operator System::Threading::IThreadPoolWorkItem() noexcept {
       return *reinterpret_cast<System::Threading::IThreadPoolWorkItem*>(this);
     }
-    // Get instance field: private System.IOOperation operation
-    System::IOOperation _get_operation();
-    // Set instance field: private System.IOOperation operation
-    void _set_operation(System::IOOperation value);
-    // Get instance field: private System.IOAsyncCallback callback
-    System::IOAsyncCallback* _get_callback();
-    // Set instance field: private System.IOAsyncCallback callback
-    void _set_callback(System::IOAsyncCallback* value);
-    // Get instance field: private System.IOAsyncResult state
-    System::IOAsyncResult* _get_state();
-    // Set instance field: private System.IOAsyncResult state
-    void _set_state(System::IOAsyncResult* value);
+    // Get instance field reference: private System.IOOperation operation
+    System::IOOperation& dyn_operation();
+    // Get instance field reference: private System.IOAsyncCallback callback
+    System::IOAsyncCallback*& dyn_callback();
+    // Get instance field reference: private System.IOAsyncResult state
+    System::IOAsyncResult*& dyn_state();
     // public System.Void .ctor(System.IOOperation operation, System.IOAsyncCallback callback, System.IOAsyncResult state)
     // Offset: 0x18BE290
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

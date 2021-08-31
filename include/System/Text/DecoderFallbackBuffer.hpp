@@ -32,14 +32,10 @@ namespace System::Text {
     static_assert(sizeof(::Il2CppChar*) == 0x8);
     // Creating value type constructor for type: DecoderFallbackBuffer
     DecoderFallbackBuffer(uint8_t* byteStart_ = {}, ::Il2CppChar* charEnd_ = {}) noexcept : byteStart{byteStart_}, charEnd{charEnd_} {}
-    // Get instance field: System.Byte* byteStart
-    uint8_t* _get_byteStart();
-    // Set instance field: System.Byte* byteStart
-    void _set_byteStart(uint8_t* value);
-    // Get instance field: System.Char* charEnd
-    ::Il2CppChar* _get_charEnd();
-    // Set instance field: System.Char* charEnd
-    void _set_charEnd(::Il2CppChar* value);
+    // Get instance field reference: System.Byte* byteStart
+    uint8_t*& dyn_byteStart();
+    // Get instance field reference: System.Char* charEnd
+    ::Il2CppChar*& dyn_charEnd();
     // public System.Boolean Fallback(System.Byte[] bytesUnknown, System.Int32 index)
     // Offset: 0xFFFFFFFF
     bool Fallback(::Array<uint8_t>* bytesUnknown, int index);

@@ -47,14 +47,10 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IDifficultyBeatmapSet() noexcept {
       return *reinterpret_cast<GlobalNamespace::IDifficultyBeatmapSet*>(this);
     }
-    // Get instance field: private BeatmapCharacteristicSO <beatmapCharacteristic>k__BackingField
-    GlobalNamespace::BeatmapCharacteristicSO* _get_$beatmapCharacteristic$k__BackingField();
-    // Set instance field: private BeatmapCharacteristicSO <beatmapCharacteristic>k__BackingField
-    void _set_$beatmapCharacteristic$k__BackingField(GlobalNamespace::BeatmapCharacteristicSO* value);
-    // Get instance field: private IDifficultyBeatmap[] <difficultyBeatmaps>k__BackingField
-    ::Array<GlobalNamespace::IDifficultyBeatmap*>* _get_$difficultyBeatmaps$k__BackingField();
-    // Set instance field: private IDifficultyBeatmap[] <difficultyBeatmaps>k__BackingField
-    void _set_$difficultyBeatmaps$k__BackingField(::Array<GlobalNamespace::IDifficultyBeatmap*>* value);
+    // Get instance field reference: private BeatmapCharacteristicSO <beatmapCharacteristic>k__BackingField
+    GlobalNamespace::BeatmapCharacteristicSO*& dyn_$beatmapCharacteristic$k__BackingField();
+    // Get instance field reference: private IDifficultyBeatmap[] <difficultyBeatmaps>k__BackingField
+    ::Array<GlobalNamespace::IDifficultyBeatmap*>*& dyn_$difficultyBeatmaps$k__BackingField();
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
     // Offset: 0x10FB37C
     GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();

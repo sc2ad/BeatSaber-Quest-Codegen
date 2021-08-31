@@ -65,30 +65,18 @@ namespace TMPro {
     static TMPro::KerningPair* _get_empty();
     // Set static field: static TMPro.KerningPair empty
     static void _set_empty(TMPro::KerningPair* value);
-    // Get instance field: private System.UInt32 m_FirstGlyph
-    uint _get_m_FirstGlyph();
-    // Set instance field: private System.UInt32 m_FirstGlyph
-    void _set_m_FirstGlyph(uint value);
-    // Get instance field: private TMPro.GlyphValueRecord_Legacy m_FirstGlyphAdjustments
-    TMPro::GlyphValueRecord_Legacy _get_m_FirstGlyphAdjustments();
-    // Set instance field: private TMPro.GlyphValueRecord_Legacy m_FirstGlyphAdjustments
-    void _set_m_FirstGlyphAdjustments(TMPro::GlyphValueRecord_Legacy value);
-    // Get instance field: private System.UInt32 m_SecondGlyph
-    uint _get_m_SecondGlyph();
-    // Set instance field: private System.UInt32 m_SecondGlyph
-    void _set_m_SecondGlyph(uint value);
-    // Get instance field: private TMPro.GlyphValueRecord_Legacy m_SecondGlyphAdjustments
-    TMPro::GlyphValueRecord_Legacy _get_m_SecondGlyphAdjustments();
-    // Set instance field: private TMPro.GlyphValueRecord_Legacy m_SecondGlyphAdjustments
-    void _set_m_SecondGlyphAdjustments(TMPro::GlyphValueRecord_Legacy value);
-    // Get instance field: public System.Single xOffset
-    float _get_xOffset();
-    // Set instance field: public System.Single xOffset
-    void _set_xOffset(float value);
-    // Get instance field: private System.Boolean m_IgnoreSpacingAdjustments
-    bool _get_m_IgnoreSpacingAdjustments();
-    // Set instance field: private System.Boolean m_IgnoreSpacingAdjustments
-    void _set_m_IgnoreSpacingAdjustments(bool value);
+    // Get instance field reference: private System.UInt32 m_FirstGlyph
+    uint& dyn_m_FirstGlyph();
+    // Get instance field reference: private TMPro.GlyphValueRecord_Legacy m_FirstGlyphAdjustments
+    TMPro::GlyphValueRecord_Legacy& dyn_m_FirstGlyphAdjustments();
+    // Get instance field reference: private System.UInt32 m_SecondGlyph
+    uint& dyn_m_SecondGlyph();
+    // Get instance field reference: private TMPro.GlyphValueRecord_Legacy m_SecondGlyphAdjustments
+    TMPro::GlyphValueRecord_Legacy& dyn_m_SecondGlyphAdjustments();
+    // Get instance field reference: public System.Single xOffset
+    float& dyn_xOffset();
+    // Get instance field reference: private System.Boolean m_IgnoreSpacingAdjustments
+    bool& dyn_m_IgnoreSpacingAdjustments();
     // public System.UInt32 get_firstGlyph()
     // Offset: 0x1114F04
     uint get_firstGlyph();

@@ -70,26 +70,16 @@ namespace GlobalNamespace {
     MissionObjectivesGameUIController(GlobalNamespace::MissionObjectiveGameUIView* missionObjectiveGameUIViewPrefab_ = {}, float separator_ = {}, float elementWidth_ = {}, GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager_ = {}, System::Collections::Generic::List_1<GlobalNamespace::MissionObjectiveGameUIView*>* missionObjectiveGameUIViews_ = {}) noexcept : missionObjectiveGameUIViewPrefab{missionObjectiveGameUIViewPrefab_}, separator{separator_}, elementWidth{elementWidth_}, missionObjectiveCheckersManager{missionObjectiveCheckersManager_}, missionObjectiveGameUIViews{missionObjectiveGameUIViews_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private MissionObjectiveGameUIView _missionObjectiveGameUIViewPrefab
-    GlobalNamespace::MissionObjectiveGameUIView* _get__missionObjectiveGameUIViewPrefab();
-    // Set instance field: private MissionObjectiveGameUIView _missionObjectiveGameUIViewPrefab
-    void _set__missionObjectiveGameUIViewPrefab(GlobalNamespace::MissionObjectiveGameUIView* value);
-    // Get instance field: private System.Single _separator
-    float _get__separator();
-    // Set instance field: private System.Single _separator
-    void _set__separator(float value);
-    // Get instance field: private System.Single _elementWidth
-    float _get__elementWidth();
-    // Set instance field: private System.Single _elementWidth
-    void _set__elementWidth(float value);
-    // Get instance field: private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
-    GlobalNamespace::MissionObjectiveCheckersManager* _get__missionObjectiveCheckersManager();
-    // Set instance field: private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
-    void _set__missionObjectiveCheckersManager(GlobalNamespace::MissionObjectiveCheckersManager* value);
-    // Get instance field: private System.Collections.Generic.List`1<MissionObjectiveGameUIView> _missionObjectiveGameUIViews
-    System::Collections::Generic::List_1<GlobalNamespace::MissionObjectiveGameUIView*>* _get__missionObjectiveGameUIViews();
-    // Set instance field: private System.Collections.Generic.List`1<MissionObjectiveGameUIView> _missionObjectiveGameUIViews
-    void _set__missionObjectiveGameUIViews(System::Collections::Generic::List_1<GlobalNamespace::MissionObjectiveGameUIView*>* value);
+    // Get instance field reference: private MissionObjectiveGameUIView _missionObjectiveGameUIViewPrefab
+    GlobalNamespace::MissionObjectiveGameUIView*& dyn__missionObjectiveGameUIViewPrefab();
+    // Get instance field reference: private System.Single _separator
+    float& dyn__separator();
+    // Get instance field reference: private System.Single _elementWidth
+    float& dyn__elementWidth();
+    // Get instance field reference: private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
+    GlobalNamespace::MissionObjectiveCheckersManager*& dyn__missionObjectiveCheckersManager();
+    // Get instance field reference: private System.Collections.Generic.List`1<MissionObjectiveGameUIView> _missionObjectiveGameUIViews
+    System::Collections::Generic::List_1<GlobalNamespace::MissionObjectiveGameUIView*>*& dyn__missionObjectiveGameUIViews();
     // protected System.Void Start()
     // Offset: 0x11D8720
     void Start();

@@ -68,26 +68,16 @@ namespace System::Collections {
     static ::Il2CppObject* _get_dummyObject();
     // Set static field: static private System.Object dummyObject
     static void _set_dummyObject(::Il2CppObject* value);
-    // Get instance field: private System.Collections.ArrayList list
-    System::Collections::ArrayList* _get_list();
-    // Set instance field: private System.Collections.ArrayList list
-    void _set_list(System::Collections::ArrayList* value);
-    // Get instance field: private System.Int32 index
-    int _get_index();
-    // Set instance field: private System.Int32 index
-    void _set_index(int value);
-    // Get instance field: private System.Int32 version
-    int _get_version();
-    // Set instance field: private System.Int32 version
-    void _set_version(int value);
-    // Get instance field: private System.Object currentElement
-    ::Il2CppObject* _get_currentElement();
-    // Set instance field: private System.Object currentElement
-    void _set_currentElement(::Il2CppObject* value);
-    // Get instance field: private System.Boolean isArrayList
-    bool _get_isArrayList();
-    // Set instance field: private System.Boolean isArrayList
-    void _set_isArrayList(bool value);
+    // Get instance field reference: private System.Collections.ArrayList list
+    System::Collections::ArrayList*& dyn_list();
+    // Get instance field reference: private System.Int32 index
+    int& dyn_index();
+    // Get instance field reference: private System.Int32 version
+    int& dyn_version();
+    // Get instance field reference: private System.Object currentElement
+    ::Il2CppObject*& dyn_currentElement();
+    // Get instance field reference: private System.Boolean isArrayList
+    bool& dyn_isArrayList();
     // public System.Object get_Current()
     // Offset: 0x17D8A40
     ::Il2CppObject* get_Current();

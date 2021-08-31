@@ -95,38 +95,22 @@ namespace System::Net::Sockets {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: NetworkStream
     NetworkStream(System::Net::Sockets::Socket* m_StreamSocket_ = {}, bool m_Readable_ = {}, bool m_Writeable_ = {}, bool m_OwnsSocket_ = {}, int m_CloseTimeout_ = {}, bool m_CleanedUp_ = {}, int m_CurrentReadTimeout_ = {}, int m_CurrentWriteTimeout_ = {}) noexcept : m_StreamSocket{m_StreamSocket_}, m_Readable{m_Readable_}, m_Writeable{m_Writeable_}, m_OwnsSocket{m_OwnsSocket_}, m_CloseTimeout{m_CloseTimeout_}, m_CleanedUp{m_CleanedUp_}, m_CurrentReadTimeout{m_CurrentReadTimeout_}, m_CurrentWriteTimeout{m_CurrentWriteTimeout_} {}
-    // Get instance field: private System.Net.Sockets.Socket m_StreamSocket
-    System::Net::Sockets::Socket* _get_m_StreamSocket();
-    // Set instance field: private System.Net.Sockets.Socket m_StreamSocket
-    void _set_m_StreamSocket(System::Net::Sockets::Socket* value);
-    // Get instance field: private System.Boolean m_Readable
-    bool _get_m_Readable();
-    // Set instance field: private System.Boolean m_Readable
-    void _set_m_Readable(bool value);
-    // Get instance field: private System.Boolean m_Writeable
-    bool _get_m_Writeable();
-    // Set instance field: private System.Boolean m_Writeable
-    void _set_m_Writeable(bool value);
-    // Get instance field: private System.Boolean m_OwnsSocket
-    bool _get_m_OwnsSocket();
-    // Set instance field: private System.Boolean m_OwnsSocket
-    void _set_m_OwnsSocket(bool value);
-    // Get instance field: private System.Int32 m_CloseTimeout
-    int _get_m_CloseTimeout();
-    // Set instance field: private System.Int32 m_CloseTimeout
-    void _set_m_CloseTimeout(int value);
-    // Get instance field: private System.Boolean m_CleanedUp
-    bool _get_m_CleanedUp();
-    // Set instance field: private System.Boolean m_CleanedUp
-    void _set_m_CleanedUp(bool value);
-    // Get instance field: private System.Int32 m_CurrentReadTimeout
-    int _get_m_CurrentReadTimeout();
-    // Set instance field: private System.Int32 m_CurrentReadTimeout
-    void _set_m_CurrentReadTimeout(int value);
-    // Get instance field: private System.Int32 m_CurrentWriteTimeout
-    int _get_m_CurrentWriteTimeout();
-    // Set instance field: private System.Int32 m_CurrentWriteTimeout
-    void _set_m_CurrentWriteTimeout(int value);
+    // Get instance field reference: private System.Net.Sockets.Socket m_StreamSocket
+    System::Net::Sockets::Socket*& dyn_m_StreamSocket();
+    // Get instance field reference: private System.Boolean m_Readable
+    bool& dyn_m_Readable();
+    // Get instance field reference: private System.Boolean m_Writeable
+    bool& dyn_m_Writeable();
+    // Get instance field reference: private System.Boolean m_OwnsSocket
+    bool& dyn_m_OwnsSocket();
+    // Get instance field reference: private System.Int32 m_CloseTimeout
+    int& dyn_m_CloseTimeout();
+    // Get instance field reference: private System.Boolean m_CleanedUp
+    bool& dyn_m_CleanedUp();
+    // Get instance field reference: private System.Int32 m_CurrentReadTimeout
+    int& dyn_m_CurrentReadTimeout();
+    // Get instance field reference: private System.Int32 m_CurrentWriteTimeout
+    int& dyn_m_CurrentWriteTimeout();
     // public System.Boolean get_DataAvailable()
     // Offset: 0x14A5110
     bool get_DataAvailable();

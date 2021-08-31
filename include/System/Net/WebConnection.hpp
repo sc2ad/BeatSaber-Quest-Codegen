@@ -118,10 +118,8 @@ namespace System::Net {
       static System::Net::WebConnection::NtlmAuthState _get_Response();
       // Set static field: static public System.Net.WebConnection/System.Net.NtlmAuthState Response
       static void _set_Response(System::Net::WebConnection::NtlmAuthState value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // System.Net.WebConnection/System.Net.NtlmAuthState
     #pragma pack(pop)
     static check_size<sizeof(WebConnection::NtlmAuthState), 0 + sizeof(int)> __System_Net_WebConnection_NtlmAuthStateSizeCheck;
@@ -280,102 +278,54 @@ namespace System::Net {
     static_assert(sizeof(Mono::Net::Security::MonoTlsStream*) == 0x8);
     // Creating value type constructor for type: WebConnection
     WebConnection(System::Net::ServicePoint* sPoint_ = {}, System::IO::Stream* nstream_ = {}, System::Net::Sockets::Socket* socket_ = {}, ::Il2CppObject* socketLock_ = {}, System::Net::IWebConnectionState* state_ = {}, System::Net::WebExceptionStatus status_ = {}, bool keepAlive_ = {}, ::Array<uint8_t>* buffer_ = {}, System::EventHandler* abortHandler_ = {}, System::Net::WebConnection::AbortHelper* abortHelper_ = {}, System::Net::WebConnectionData* Data_ = {}, bool chunkedRead_ = {}, System::Net::MonoChunkStream* chunkStream_ = {}, System::Collections::Queue* queue_ = {}, bool reused_ = {}, int position_ = {}, System::Net::HttpWebRequest* priority_request_ = {}, System::Net::NetworkCredential* ntlm_credentials_ = {}, bool ntlm_authenticated_ = {}, bool unsafe_sharing_ = {}, System::Net::WebConnection::NtlmAuthState connect_ntlm_auth_state_ = {}, System::Net::HttpWebRequest* connect_request_ = {}, System::Exception* connect_exception_ = {}, Mono::Net::Security::MonoTlsStream* tlsStream_ = {}) noexcept : sPoint{sPoint_}, nstream{nstream_}, socket{socket_}, socketLock{socketLock_}, state{state_}, status{status_}, keepAlive{keepAlive_}, buffer{buffer_}, abortHandler{abortHandler_}, abortHelper{abortHelper_}, Data{Data_}, chunkedRead{chunkedRead_}, chunkStream{chunkStream_}, queue{queue_}, reused{reused_}, position{position_}, priority_request{priority_request_}, ntlm_credentials{ntlm_credentials_}, ntlm_authenticated{ntlm_authenticated_}, unsafe_sharing{unsafe_sharing_}, connect_ntlm_auth_state{connect_ntlm_auth_state_}, connect_request{connect_request_}, connect_exception{connect_exception_}, tlsStream{tlsStream_} {}
-    // Get instance field: private System.Net.ServicePoint sPoint
-    System::Net::ServicePoint* _get_sPoint();
-    // Set instance field: private System.Net.ServicePoint sPoint
-    void _set_sPoint(System::Net::ServicePoint* value);
-    // Get instance field: private System.IO.Stream nstream
-    System::IO::Stream* _get_nstream();
-    // Set instance field: private System.IO.Stream nstream
-    void _set_nstream(System::IO::Stream* value);
-    // Get instance field: System.Net.Sockets.Socket socket
-    System::Net::Sockets::Socket* _get_socket();
-    // Set instance field: System.Net.Sockets.Socket socket
-    void _set_socket(System::Net::Sockets::Socket* value);
-    // Get instance field: private System.Object socketLock
-    ::Il2CppObject* _get_socketLock();
-    // Set instance field: private System.Object socketLock
-    void _set_socketLock(::Il2CppObject* value);
-    // Get instance field: private System.Net.IWebConnectionState state
-    System::Net::IWebConnectionState* _get_state();
-    // Set instance field: private System.Net.IWebConnectionState state
-    void _set_state(System::Net::IWebConnectionState* value);
-    // Get instance field: private System.Net.WebExceptionStatus status
-    System::Net::WebExceptionStatus _get_status();
-    // Set instance field: private System.Net.WebExceptionStatus status
-    void _set_status(System::Net::WebExceptionStatus value);
-    // Get instance field: private System.Boolean keepAlive
-    bool _get_keepAlive();
-    // Set instance field: private System.Boolean keepAlive
-    void _set_keepAlive(bool value);
-    // Get instance field: private System.Byte[] buffer
-    ::Array<uint8_t>* _get_buffer();
-    // Set instance field: private System.Byte[] buffer
-    void _set_buffer(::Array<uint8_t>* value);
-    // Get instance field: private System.EventHandler abortHandler
-    System::EventHandler* _get_abortHandler();
-    // Set instance field: private System.EventHandler abortHandler
-    void _set_abortHandler(System::EventHandler* value);
-    // Get instance field: private System.Net.WebConnection/System.Net.AbortHelper abortHelper
-    System::Net::WebConnection::AbortHelper* _get_abortHelper();
-    // Set instance field: private System.Net.WebConnection/System.Net.AbortHelper abortHelper
-    void _set_abortHelper(System::Net::WebConnection::AbortHelper* value);
-    // Get instance field: System.Net.WebConnectionData Data
-    System::Net::WebConnectionData* _get_Data();
-    // Set instance field: System.Net.WebConnectionData Data
-    void _set_Data(System::Net::WebConnectionData* value);
-    // Get instance field: private System.Boolean chunkedRead
-    bool _get_chunkedRead();
-    // Set instance field: private System.Boolean chunkedRead
-    void _set_chunkedRead(bool value);
-    // Get instance field: private System.Net.MonoChunkStream chunkStream
-    System::Net::MonoChunkStream* _get_chunkStream();
-    // Set instance field: private System.Net.MonoChunkStream chunkStream
-    void _set_chunkStream(System::Net::MonoChunkStream* value);
-    // Get instance field: private System.Collections.Queue queue
-    System::Collections::Queue* _get_queue();
-    // Set instance field: private System.Collections.Queue queue
-    void _set_queue(System::Collections::Queue* value);
-    // Get instance field: private System.Boolean reused
-    bool _get_reused();
-    // Set instance field: private System.Boolean reused
-    void _set_reused(bool value);
-    // Get instance field: private System.Int32 position
-    int _get_position();
-    // Set instance field: private System.Int32 position
-    void _set_position(int value);
-    // Get instance field: private System.Net.HttpWebRequest priority_request
-    System::Net::HttpWebRequest* _get_priority_request();
-    // Set instance field: private System.Net.HttpWebRequest priority_request
-    void _set_priority_request(System::Net::HttpWebRequest* value);
-    // Get instance field: private System.Net.NetworkCredential ntlm_credentials
-    System::Net::NetworkCredential* _get_ntlm_credentials();
-    // Set instance field: private System.Net.NetworkCredential ntlm_credentials
-    void _set_ntlm_credentials(System::Net::NetworkCredential* value);
-    // Get instance field: private System.Boolean ntlm_authenticated
-    bool _get_ntlm_authenticated();
-    // Set instance field: private System.Boolean ntlm_authenticated
-    void _set_ntlm_authenticated(bool value);
-    // Get instance field: private System.Boolean unsafe_sharing
-    bool _get_unsafe_sharing();
-    // Set instance field: private System.Boolean unsafe_sharing
-    void _set_unsafe_sharing(bool value);
-    // Get instance field: private System.Net.WebConnection/System.Net.NtlmAuthState connect_ntlm_auth_state
-    System::Net::WebConnection::NtlmAuthState _get_connect_ntlm_auth_state();
-    // Set instance field: private System.Net.WebConnection/System.Net.NtlmAuthState connect_ntlm_auth_state
-    void _set_connect_ntlm_auth_state(System::Net::WebConnection::NtlmAuthState value);
-    // Get instance field: private System.Net.HttpWebRequest connect_request
-    System::Net::HttpWebRequest* _get_connect_request();
-    // Set instance field: private System.Net.HttpWebRequest connect_request
-    void _set_connect_request(System::Net::HttpWebRequest* value);
-    // Get instance field: private System.Exception connect_exception
-    System::Exception* _get_connect_exception();
-    // Set instance field: private System.Exception connect_exception
-    void _set_connect_exception(System::Exception* value);
-    // Get instance field: private Mono.Net.Security.MonoTlsStream tlsStream
-    Mono::Net::Security::MonoTlsStream* _get_tlsStream();
-    // Set instance field: private Mono.Net.Security.MonoTlsStream tlsStream
-    void _set_tlsStream(Mono::Net::Security::MonoTlsStream* value);
+    // Get instance field reference: private System.Net.ServicePoint sPoint
+    System::Net::ServicePoint*& dyn_sPoint();
+    // Get instance field reference: private System.IO.Stream nstream
+    System::IO::Stream*& dyn_nstream();
+    // Get instance field reference: System.Net.Sockets.Socket socket
+    System::Net::Sockets::Socket*& dyn_socket();
+    // Get instance field reference: private System.Object socketLock
+    ::Il2CppObject*& dyn_socketLock();
+    // Get instance field reference: private System.Net.IWebConnectionState state
+    System::Net::IWebConnectionState*& dyn_state();
+    // Get instance field reference: private System.Net.WebExceptionStatus status
+    System::Net::WebExceptionStatus& dyn_status();
+    // Get instance field reference: private System.Boolean keepAlive
+    bool& dyn_keepAlive();
+    // Get instance field reference: private System.Byte[] buffer
+    ::Array<uint8_t>*& dyn_buffer();
+    // Get instance field reference: private System.EventHandler abortHandler
+    System::EventHandler*& dyn_abortHandler();
+    // Get instance field reference: private System.Net.WebConnection/System.Net.AbortHelper abortHelper
+    System::Net::WebConnection::AbortHelper*& dyn_abortHelper();
+    // Get instance field reference: System.Net.WebConnectionData Data
+    System::Net::WebConnectionData*& dyn_Data();
+    // Get instance field reference: private System.Boolean chunkedRead
+    bool& dyn_chunkedRead();
+    // Get instance field reference: private System.Net.MonoChunkStream chunkStream
+    System::Net::MonoChunkStream*& dyn_chunkStream();
+    // Get instance field reference: private System.Collections.Queue queue
+    System::Collections::Queue*& dyn_queue();
+    // Get instance field reference: private System.Boolean reused
+    bool& dyn_reused();
+    // Get instance field reference: private System.Int32 position
+    int& dyn_position();
+    // Get instance field reference: private System.Net.HttpWebRequest priority_request
+    System::Net::HttpWebRequest*& dyn_priority_request();
+    // Get instance field reference: private System.Net.NetworkCredential ntlm_credentials
+    System::Net::NetworkCredential*& dyn_ntlm_credentials();
+    // Get instance field reference: private System.Boolean ntlm_authenticated
+    bool& dyn_ntlm_authenticated();
+    // Get instance field reference: private System.Boolean unsafe_sharing
+    bool& dyn_unsafe_sharing();
+    // Get instance field reference: private System.Net.WebConnection/System.Net.NtlmAuthState connect_ntlm_auth_state
+    System::Net::WebConnection::NtlmAuthState& dyn_connect_ntlm_auth_state();
+    // Get instance field reference: private System.Net.HttpWebRequest connect_request
+    System::Net::HttpWebRequest*& dyn_connect_request();
+    // Get instance field reference: private System.Exception connect_exception
+    System::Exception*& dyn_connect_exception();
+    // Get instance field reference: private Mono.Net.Security.MonoTlsStream tlsStream
+    Mono::Net::Security::MonoTlsStream*& dyn_tlsStream();
     // System.Void set_PriorityRequest(System.Net.HttpWebRequest value)
     // Offset: 0x15D1554
     void set_PriorityRequest(System::Net::HttpWebRequest* value);

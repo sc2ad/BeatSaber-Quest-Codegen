@@ -77,14 +77,10 @@ namespace HMUI {
     static_assert(sizeof(System::Collections::Generic::List_1<HMUI::ViewController*>*) == 0x8);
     // Creating value type constructor for type: ContainerViewController
     ContainerViewController(UnityEngine::RectTransform* controllersContainer_ = {}, System::Collections::Generic::List_1<HMUI::ViewController*>* viewControllers_ = {}) noexcept : controllersContainer{controllersContainer_}, viewControllers{viewControllers_} {}
-    // Get instance field: private UnityEngine.RectTransform _controllersContainer
-    UnityEngine::RectTransform* _get__controllersContainer();
-    // Set instance field: private UnityEngine.RectTransform _controllersContainer
-    void _set__controllersContainer(UnityEngine::RectTransform* value);
-    // Get instance field: protected System.Collections.Generic.List`1<HMUI.ViewController> _viewControllers
-    System::Collections::Generic::List_1<HMUI::ViewController*>* _get__viewControllers();
-    // Set instance field: protected System.Collections.Generic.List`1<HMUI.ViewController> _viewControllers
-    void _set__viewControllers(System::Collections::Generic::List_1<HMUI::ViewController*>* value);
+    // Get instance field reference: private UnityEngine.RectTransform _controllersContainer
+    UnityEngine::RectTransform*& dyn__controllersContainer();
+    // Get instance field reference: protected System.Collections.Generic.List`1<HMUI.ViewController> _viewControllers
+    System::Collections::Generic::List_1<HMUI::ViewController*>*& dyn__viewControllers();
     // public UnityEngine.RectTransform get_controllersContainer()
     // Offset: 0x13688D8
     UnityEngine::RectTransform* get_controllersContainer();

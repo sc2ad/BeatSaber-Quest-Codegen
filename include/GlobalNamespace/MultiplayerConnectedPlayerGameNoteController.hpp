@@ -77,14 +77,10 @@ namespace GlobalNamespace {
     operator GlobalNamespace::INoteMovementProvider() noexcept {
       return *reinterpret_cast<GlobalNamespace::INoteMovementProvider*>(this);
     }
-    // Get instance field: private System.Action`1<MultiplayerConnectedPlayerGameNoteController> cubeNoteControllerDidInitEvent
-    System::Action_1<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* _get_cubeNoteControllerDidInitEvent();
-    // Set instance field: private System.Action`1<MultiplayerConnectedPlayerGameNoteController> cubeNoteControllerDidInitEvent
-    void _set_cubeNoteControllerDidInitEvent(System::Action_1<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* value);
-    // Get instance field: private GameNoteController/GameNoteType _gameNoteType
-    GlobalNamespace::GameNoteController_GameNoteType _get__gameNoteType();
-    // Set instance field: private GameNoteController/GameNoteType _gameNoteType
-    void _set__gameNoteType(GlobalNamespace::GameNoteController_GameNoteType value);
+    // Get instance field reference: private System.Action`1<MultiplayerConnectedPlayerGameNoteController> cubeNoteControllerDidInitEvent
+    System::Action_1<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*& dyn_cubeNoteControllerDidInitEvent();
+    // Get instance field reference: private GameNoteController/GameNoteType _gameNoteType
+    GlobalNamespace::GameNoteController_GameNoteType& dyn__gameNoteType();
     // public NoteMovement get_noteMovement()
     // Offset: 0x11A6FE0
     GlobalNamespace::NoteMovement* get_noteMovement();

@@ -77,34 +77,20 @@ namespace Mono::Globalization::Unicode {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public readonly System.Globalization.CompareOptions Option
-    System::Globalization::CompareOptions _get_Option();
-    // Set instance field: public readonly System.Globalization.CompareOptions Option
-    void _set_Option(System::Globalization::CompareOptions value);
-    // Get instance field: public readonly System.Byte* NeverMatchFlags
-    uint8_t* _get_NeverMatchFlags();
-    // Set instance field: public readonly System.Byte* NeverMatchFlags
-    void _set_NeverMatchFlags(uint8_t* value);
-    // Get instance field: public readonly System.Byte* AlwaysMatchFlags
-    uint8_t* _get_AlwaysMatchFlags();
-    // Set instance field: public readonly System.Byte* AlwaysMatchFlags
-    void _set_AlwaysMatchFlags(uint8_t* value);
-    // Get instance field: public System.Byte* Buffer1
-    uint8_t* _get_Buffer1();
-    // Set instance field: public System.Byte* Buffer1
-    void _set_Buffer1(uint8_t* value);
-    // Get instance field: public System.Byte* Buffer2
-    uint8_t* _get_Buffer2();
-    // Set instance field: public System.Byte* Buffer2
-    void _set_Buffer2(uint8_t* value);
-    // Get instance field: public System.Int32 PrevCode
-    int _get_PrevCode();
-    // Set instance field: public System.Int32 PrevCode
-    void _set_PrevCode(int value);
-    // Get instance field: public System.Byte* PrevSortKey
-    uint8_t* _get_PrevSortKey();
-    // Set instance field: public System.Byte* PrevSortKey
-    void _set_PrevSortKey(uint8_t* value);
+    // Get instance field reference: public readonly System.Globalization.CompareOptions Option
+    System::Globalization::CompareOptions& dyn_Option();
+    // Get instance field reference: public readonly System.Byte* NeverMatchFlags
+    uint8_t*& dyn_NeverMatchFlags();
+    // Get instance field reference: public readonly System.Byte* AlwaysMatchFlags
+    uint8_t*& dyn_AlwaysMatchFlags();
+    // Get instance field reference: public System.Byte* Buffer1
+    uint8_t*& dyn_Buffer1();
+    // Get instance field reference: public System.Byte* Buffer2
+    uint8_t*& dyn_Buffer2();
+    // Get instance field reference: public System.Int32 PrevCode
+    int& dyn_PrevCode();
+    // Get instance field reference: public System.Byte* PrevSortKey
+    uint8_t*& dyn_PrevSortKey();
     // public System.Void .ctor(System.Globalization.CompareOptions opt, System.Byte* alwaysMatchFlags, System.Byte* neverMatchFlags, System.Byte* buffer1, System.Byte* buffer2, System.Byte* prev1)
     // Offset: 0x1A69A44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

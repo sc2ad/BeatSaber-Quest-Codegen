@@ -50,18 +50,12 @@ namespace HMUI {
     static_assert(sizeof(HMUI::ITableCellOwner*) == 0x8);
     // Creating value type constructor for type: TableCell
     TableCell(int idx_ = {}, ::Il2CppString* reuseIdentifier_ = {}, HMUI::ITableCellOwner* tableCellOwner_ = {}) noexcept : idx{idx_}, reuseIdentifier{reuseIdentifier_}, tableCellOwner{tableCellOwner_} {}
-    // Get instance field: private System.Int32 <idx>k__BackingField
-    int _get_$idx$k__BackingField();
-    // Set instance field: private System.Int32 <idx>k__BackingField
-    void _set_$idx$k__BackingField(int value);
-    // Get instance field: private System.String _reuseIdentifier
-    ::Il2CppString* _get__reuseIdentifier();
-    // Set instance field: private System.String _reuseIdentifier
-    void _set__reuseIdentifier(::Il2CppString* value);
-    // Get instance field: private HMUI.ITableCellOwner _tableCellOwner
-    HMUI::ITableCellOwner* _get__tableCellOwner();
-    // Set instance field: private HMUI.ITableCellOwner _tableCellOwner
-    void _set__tableCellOwner(HMUI::ITableCellOwner* value);
+    // Get instance field reference: private System.Int32 <idx>k__BackingField
+    int& dyn_$idx$k__BackingField();
+    // Get instance field reference: private System.String _reuseIdentifier
+    ::Il2CppString*& dyn__reuseIdentifier();
+    // Get instance field reference: private HMUI.ITableCellOwner _tableCellOwner
+    HMUI::ITableCellOwner*& dyn__tableCellOwner();
     // public System.String get_reuseIdentifier()
     // Offset: 0x1303CAC
     ::Il2CppString* get_reuseIdentifier();

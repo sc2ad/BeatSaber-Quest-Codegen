@@ -171,78 +171,42 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: Valve.VR.IVRRenderModels/Valve.VR._LoadRenderModel_Async LoadRenderModel_Async
-    Valve::VR::IVRRenderModels::_LoadRenderModel_Async* _get_LoadRenderModel_Async();
-    // Set instance field: Valve.VR.IVRRenderModels/Valve.VR._LoadRenderModel_Async LoadRenderModel_Async
-    void _set_LoadRenderModel_Async(Valve::VR::IVRRenderModels::_LoadRenderModel_Async* value);
-    // Get instance field: Valve.VR.IVRRenderModels/Valve.VR._FreeRenderModel FreeRenderModel
-    Valve::VR::IVRRenderModels::_FreeRenderModel* _get_FreeRenderModel();
-    // Set instance field: Valve.VR.IVRRenderModels/Valve.VR._FreeRenderModel FreeRenderModel
-    void _set_FreeRenderModel(Valve::VR::IVRRenderModels::_FreeRenderModel* value);
-    // Get instance field: Valve.VR.IVRRenderModels/Valve.VR._LoadTexture_Async LoadTexture_Async
-    Valve::VR::IVRRenderModels::_LoadTexture_Async* _get_LoadTexture_Async();
-    // Set instance field: Valve.VR.IVRRenderModels/Valve.VR._LoadTexture_Async LoadTexture_Async
-    void _set_LoadTexture_Async(Valve::VR::IVRRenderModels::_LoadTexture_Async* value);
-    // Get instance field: Valve.VR.IVRRenderModels/Valve.VR._FreeTexture FreeTexture
-    Valve::VR::IVRRenderModels::_FreeTexture* _get_FreeTexture();
-    // Set instance field: Valve.VR.IVRRenderModels/Valve.VR._FreeTexture FreeTexture
-    void _set_FreeTexture(Valve::VR::IVRRenderModels::_FreeTexture* value);
-    // Get instance field: Valve.VR.IVRRenderModels/Valve.VR._LoadTextureD3D11_Async LoadTextureD3D11_Async
-    Valve::VR::IVRRenderModels::_LoadTextureD3D11_Async* _get_LoadTextureD3D11_Async();
-    // Set instance field: Valve.VR.IVRRenderModels/Valve.VR._LoadTextureD3D11_Async LoadTextureD3D11_Async
-    void _set_LoadTextureD3D11_Async(Valve::VR::IVRRenderModels::_LoadTextureD3D11_Async* value);
-    // Get instance field: Valve.VR.IVRRenderModels/Valve.VR._LoadIntoTextureD3D11_Async LoadIntoTextureD3D11_Async
-    Valve::VR::IVRRenderModels::_LoadIntoTextureD3D11_Async* _get_LoadIntoTextureD3D11_Async();
-    // Set instance field: Valve.VR.IVRRenderModels/Valve.VR._LoadIntoTextureD3D11_Async LoadIntoTextureD3D11_Async
-    void _set_LoadIntoTextureD3D11_Async(Valve::VR::IVRRenderModels::_LoadIntoTextureD3D11_Async* value);
-    // Get instance field: Valve.VR.IVRRenderModels/Valve.VR._FreeTextureD3D11 FreeTextureD3D11
-    Valve::VR::IVRRenderModels::_FreeTextureD3D11* _get_FreeTextureD3D11();
-    // Set instance field: Valve.VR.IVRRenderModels/Valve.VR._FreeTextureD3D11 FreeTextureD3D11
-    void _set_FreeTextureD3D11(Valve::VR::IVRRenderModels::_FreeTextureD3D11* value);
-    // Get instance field: Valve.VR.IVRRenderModels/Valve.VR._GetRenderModelName GetRenderModelName
-    Valve::VR::IVRRenderModels::_GetRenderModelName* _get_GetRenderModelName();
-    // Set instance field: Valve.VR.IVRRenderModels/Valve.VR._GetRenderModelName GetRenderModelName
-    void _set_GetRenderModelName(Valve::VR::IVRRenderModels::_GetRenderModelName* value);
-    // Get instance field: Valve.VR.IVRRenderModels/Valve.VR._GetRenderModelCount GetRenderModelCount
-    Valve::VR::IVRRenderModels::_GetRenderModelCount* _get_GetRenderModelCount();
-    // Set instance field: Valve.VR.IVRRenderModels/Valve.VR._GetRenderModelCount GetRenderModelCount
-    void _set_GetRenderModelCount(Valve::VR::IVRRenderModels::_GetRenderModelCount* value);
-    // Get instance field: Valve.VR.IVRRenderModels/Valve.VR._GetComponentCount GetComponentCount
-    Valve::VR::IVRRenderModels::_GetComponentCount* _get_GetComponentCount();
-    // Set instance field: Valve.VR.IVRRenderModels/Valve.VR._GetComponentCount GetComponentCount
-    void _set_GetComponentCount(Valve::VR::IVRRenderModels::_GetComponentCount* value);
-    // Get instance field: Valve.VR.IVRRenderModels/Valve.VR._GetComponentName GetComponentName
-    Valve::VR::IVRRenderModels::_GetComponentName* _get_GetComponentName();
-    // Set instance field: Valve.VR.IVRRenderModels/Valve.VR._GetComponentName GetComponentName
-    void _set_GetComponentName(Valve::VR::IVRRenderModels::_GetComponentName* value);
-    // Get instance field: Valve.VR.IVRRenderModels/Valve.VR._GetComponentButtonMask GetComponentButtonMask
-    Valve::VR::IVRRenderModels::_GetComponentButtonMask* _get_GetComponentButtonMask();
-    // Set instance field: Valve.VR.IVRRenderModels/Valve.VR._GetComponentButtonMask GetComponentButtonMask
-    void _set_GetComponentButtonMask(Valve::VR::IVRRenderModels::_GetComponentButtonMask* value);
-    // Get instance field: Valve.VR.IVRRenderModels/Valve.VR._GetComponentRenderModelName GetComponentRenderModelName
-    Valve::VR::IVRRenderModels::_GetComponentRenderModelName* _get_GetComponentRenderModelName();
-    // Set instance field: Valve.VR.IVRRenderModels/Valve.VR._GetComponentRenderModelName GetComponentRenderModelName
-    void _set_GetComponentRenderModelName(Valve::VR::IVRRenderModels::_GetComponentRenderModelName* value);
-    // Get instance field: Valve.VR.IVRRenderModels/Valve.VR._GetComponentState GetComponentState
-    Valve::VR::IVRRenderModels::_GetComponentState* _get_GetComponentState();
-    // Set instance field: Valve.VR.IVRRenderModels/Valve.VR._GetComponentState GetComponentState
-    void _set_GetComponentState(Valve::VR::IVRRenderModels::_GetComponentState* value);
-    // Get instance field: Valve.VR.IVRRenderModels/Valve.VR._RenderModelHasComponent RenderModelHasComponent
-    Valve::VR::IVRRenderModels::_RenderModelHasComponent* _get_RenderModelHasComponent();
-    // Set instance field: Valve.VR.IVRRenderModels/Valve.VR._RenderModelHasComponent RenderModelHasComponent
-    void _set_RenderModelHasComponent(Valve::VR::IVRRenderModels::_RenderModelHasComponent* value);
-    // Get instance field: Valve.VR.IVRRenderModels/Valve.VR._GetRenderModelThumbnailURL GetRenderModelThumbnailURL
-    Valve::VR::IVRRenderModels::_GetRenderModelThumbnailURL* _get_GetRenderModelThumbnailURL();
-    // Set instance field: Valve.VR.IVRRenderModels/Valve.VR._GetRenderModelThumbnailURL GetRenderModelThumbnailURL
-    void _set_GetRenderModelThumbnailURL(Valve::VR::IVRRenderModels::_GetRenderModelThumbnailURL* value);
-    // Get instance field: Valve.VR.IVRRenderModels/Valve.VR._GetRenderModelOriginalPath GetRenderModelOriginalPath
-    Valve::VR::IVRRenderModels::_GetRenderModelOriginalPath* _get_GetRenderModelOriginalPath();
-    // Set instance field: Valve.VR.IVRRenderModels/Valve.VR._GetRenderModelOriginalPath GetRenderModelOriginalPath
-    void _set_GetRenderModelOriginalPath(Valve::VR::IVRRenderModels::_GetRenderModelOriginalPath* value);
-    // Get instance field: Valve.VR.IVRRenderModels/Valve.VR._GetRenderModelErrorNameFromEnum GetRenderModelErrorNameFromEnum
-    Valve::VR::IVRRenderModels::_GetRenderModelErrorNameFromEnum* _get_GetRenderModelErrorNameFromEnum();
-    // Set instance field: Valve.VR.IVRRenderModels/Valve.VR._GetRenderModelErrorNameFromEnum GetRenderModelErrorNameFromEnum
-    void _set_GetRenderModelErrorNameFromEnum(Valve::VR::IVRRenderModels::_GetRenderModelErrorNameFromEnum* value);
+    // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._LoadRenderModel_Async LoadRenderModel_Async
+    Valve::VR::IVRRenderModels::_LoadRenderModel_Async*& dyn_LoadRenderModel_Async();
+    // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._FreeRenderModel FreeRenderModel
+    Valve::VR::IVRRenderModels::_FreeRenderModel*& dyn_FreeRenderModel();
+    // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._LoadTexture_Async LoadTexture_Async
+    Valve::VR::IVRRenderModels::_LoadTexture_Async*& dyn_LoadTexture_Async();
+    // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._FreeTexture FreeTexture
+    Valve::VR::IVRRenderModels::_FreeTexture*& dyn_FreeTexture();
+    // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._LoadTextureD3D11_Async LoadTextureD3D11_Async
+    Valve::VR::IVRRenderModels::_LoadTextureD3D11_Async*& dyn_LoadTextureD3D11_Async();
+    // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._LoadIntoTextureD3D11_Async LoadIntoTextureD3D11_Async
+    Valve::VR::IVRRenderModels::_LoadIntoTextureD3D11_Async*& dyn_LoadIntoTextureD3D11_Async();
+    // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._FreeTextureD3D11 FreeTextureD3D11
+    Valve::VR::IVRRenderModels::_FreeTextureD3D11*& dyn_FreeTextureD3D11();
+    // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._GetRenderModelName GetRenderModelName
+    Valve::VR::IVRRenderModels::_GetRenderModelName*& dyn_GetRenderModelName();
+    // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._GetRenderModelCount GetRenderModelCount
+    Valve::VR::IVRRenderModels::_GetRenderModelCount*& dyn_GetRenderModelCount();
+    // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._GetComponentCount GetComponentCount
+    Valve::VR::IVRRenderModels::_GetComponentCount*& dyn_GetComponentCount();
+    // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._GetComponentName GetComponentName
+    Valve::VR::IVRRenderModels::_GetComponentName*& dyn_GetComponentName();
+    // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._GetComponentButtonMask GetComponentButtonMask
+    Valve::VR::IVRRenderModels::_GetComponentButtonMask*& dyn_GetComponentButtonMask();
+    // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._GetComponentRenderModelName GetComponentRenderModelName
+    Valve::VR::IVRRenderModels::_GetComponentRenderModelName*& dyn_GetComponentRenderModelName();
+    // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._GetComponentState GetComponentState
+    Valve::VR::IVRRenderModels::_GetComponentState*& dyn_GetComponentState();
+    // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._RenderModelHasComponent RenderModelHasComponent
+    Valve::VR::IVRRenderModels::_RenderModelHasComponent*& dyn_RenderModelHasComponent();
+    // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._GetRenderModelThumbnailURL GetRenderModelThumbnailURL
+    Valve::VR::IVRRenderModels::_GetRenderModelThumbnailURL*& dyn_GetRenderModelThumbnailURL();
+    // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._GetRenderModelOriginalPath GetRenderModelOriginalPath
+    Valve::VR::IVRRenderModels::_GetRenderModelOriginalPath*& dyn_GetRenderModelOriginalPath();
+    // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._GetRenderModelErrorNameFromEnum GetRenderModelErrorNameFromEnum
+    Valve::VR::IVRRenderModels::_GetRenderModelErrorNameFromEnum*& dyn_GetRenderModelErrorNameFromEnum();
   }; // Valve.VR.IVRRenderModels
   #pragma pack(pop)
   static check_size<sizeof(IVRRenderModels), 136 + sizeof(Valve::VR::IVRRenderModels::_GetRenderModelErrorNameFromEnum*)> __Valve_VR_IVRRenderModelsSizeCheck;

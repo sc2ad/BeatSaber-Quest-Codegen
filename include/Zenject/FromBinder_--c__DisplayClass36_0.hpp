@@ -59,14 +59,10 @@ namespace Zenject {
     static_assert(sizeof(Zenject::FromBinder*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass36_0
     $$c__DisplayClass36_0(System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>* gameObjectGetter_ = {}, Zenject::FromBinder* $$4__this_ = {}) noexcept : gameObjectGetter{gameObjectGetter_}, $$4__this{$$4__this_} {}
-    // Get instance field: public System.Func`2<Zenject.InjectContext,UnityEngine.GameObject> gameObjectGetter
-    System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>* _get_gameObjectGetter();
-    // Set instance field: public System.Func`2<Zenject.InjectContext,UnityEngine.GameObject> gameObjectGetter
-    void _set_gameObjectGetter(System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>* value);
-    // Get instance field: public Zenject.FromBinder <>4__this
-    Zenject::FromBinder* _get_$$4__this();
-    // Set instance field: public Zenject.FromBinder <>4__this
-    void _set_$$4__this(Zenject::FromBinder* value);
+    // Get instance field reference: public System.Func`2<Zenject.InjectContext,UnityEngine.GameObject> gameObjectGetter
+    System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>*& dyn_gameObjectGetter();
+    // Get instance field reference: public Zenject.FromBinder <>4__this
+    Zenject::FromBinder*& dyn_$$4__this();
     // Zenject.IProvider <FromNewComponentOn>b__0(Zenject.DiContainer container, System.Type type)
     // Offset: 0x165C58C
     Zenject::IProvider* $FromNewComponentOn$b__0(Zenject::DiContainer* container, System::Type* type);

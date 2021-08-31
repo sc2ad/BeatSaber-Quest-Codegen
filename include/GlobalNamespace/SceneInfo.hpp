@@ -36,14 +36,10 @@ namespace GlobalNamespace {
     SceneInfo(::Il2CppString* sceneName_ = {}, bool disabledRootObjects_ = {}) noexcept : sceneName{sceneName_}, disabledRootObjects{disabledRootObjects_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.String _sceneName
-    ::Il2CppString* _get__sceneName();
-    // Set instance field: private System.String _sceneName
-    void _set__sceneName(::Il2CppString* value);
-    // Get instance field: private System.Boolean _disabledRootObjects
-    bool _get__disabledRootObjects();
-    // Set instance field: private System.Boolean _disabledRootObjects
-    void _set__disabledRootObjects(bool value);
+    // Get instance field reference: private System.String _sceneName
+    ::Il2CppString*& dyn__sceneName();
+    // Get instance field reference: private System.Boolean _disabledRootObjects
+    bool& dyn__disabledRootObjects();
     // public System.String get_sceneName()
     // Offset: 0x2396DE4
     ::Il2CppString* get_sceneName();

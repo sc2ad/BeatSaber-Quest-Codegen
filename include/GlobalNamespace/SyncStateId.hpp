@@ -67,10 +67,8 @@ namespace GlobalNamespace {
     static uint8_t _get_kMaxValue();
     // Set static field: static private System.Byte kMaxValue
     static void _set_kMaxValue(uint8_t value);
-    // Get instance field: private readonly System.Byte _id
-    uint8_t _get__id();
-    // Set instance field: private readonly System.Byte _id
-    void _set__id(uint8_t value);
+    // Get instance field reference: private readonly System.Byte _id
+    uint8_t& dyn__id();
     // private System.Void .ctor(System.Byte id)
     // Offset: 0x16FB44C
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -88,38 +88,22 @@ namespace GlobalNamespace {
     MultiplayerLeadPlayerProvider(float timeToGainFirstLead_ = {}, float timeToLooseLead_ = {}, GlobalNamespace::MultiplayerScoreProvider* scoreProvider_ = {}, GlobalNamespace::MultiplayerController* multiplayerController_ = {}, System::Action_1<::Il2CppString*>* newLeaderWasSelectedEvent_ = {}, float currentLeadingPlayerStartTime_ = {}, GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* currentlyDisplayedUser_ = {}, GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* currentlyLeadingUser_ = {}) noexcept : timeToGainFirstLead{timeToGainFirstLead_}, timeToLooseLead{timeToLooseLead_}, scoreProvider{scoreProvider_}, multiplayerController{multiplayerController_}, newLeaderWasSelectedEvent{newLeaderWasSelectedEvent_}, currentLeadingPlayerStartTime{currentLeadingPlayerStartTime_}, currentlyDisplayedUser{currentlyDisplayedUser_}, currentlyLeadingUser{currentlyLeadingUser_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Single _timeToGainFirstLead
-    float _get__timeToGainFirstLead();
-    // Set instance field: private System.Single _timeToGainFirstLead
-    void _set__timeToGainFirstLead(float value);
-    // Get instance field: private System.Single _timeToLooseLead
-    float _get__timeToLooseLead();
-    // Set instance field: private System.Single _timeToLooseLead
-    void _set__timeToLooseLead(float value);
-    // Get instance field: private readonly MultiplayerScoreProvider _scoreProvider
-    GlobalNamespace::MultiplayerScoreProvider* _get__scoreProvider();
-    // Set instance field: private readonly MultiplayerScoreProvider _scoreProvider
-    void _set__scoreProvider(GlobalNamespace::MultiplayerScoreProvider* value);
-    // Get instance field: private readonly MultiplayerController _multiplayerController
-    GlobalNamespace::MultiplayerController* _get__multiplayerController();
-    // Set instance field: private readonly MultiplayerController _multiplayerController
-    void _set__multiplayerController(GlobalNamespace::MultiplayerController* value);
-    // Get instance field: private System.Action`1<System.String> newLeaderWasSelectedEvent
-    System::Action_1<::Il2CppString*>* _get_newLeaderWasSelectedEvent();
-    // Set instance field: private System.Action`1<System.String> newLeaderWasSelectedEvent
-    void _set_newLeaderWasSelectedEvent(System::Action_1<::Il2CppString*>* value);
-    // Get instance field: private System.Single _currentLeadingPlayerStartTime
-    float _get__currentLeadingPlayerStartTime();
-    // Set instance field: private System.Single _currentLeadingPlayerStartTime
-    void _set__currentLeadingPlayerStartTime(float value);
-    // Get instance field: private MultiplayerScoreProvider/RankedPlayer _currentlyDisplayedUser
-    GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* _get__currentlyDisplayedUser();
-    // Set instance field: private MultiplayerScoreProvider/RankedPlayer _currentlyDisplayedUser
-    void _set__currentlyDisplayedUser(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* value);
-    // Get instance field: private MultiplayerScoreProvider/RankedPlayer _currentlyLeadingUser
-    GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* _get__currentlyLeadingUser();
-    // Set instance field: private MultiplayerScoreProvider/RankedPlayer _currentlyLeadingUser
-    void _set__currentlyLeadingUser(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* value);
+    // Get instance field reference: private System.Single _timeToGainFirstLead
+    float& dyn__timeToGainFirstLead();
+    // Get instance field reference: private System.Single _timeToLooseLead
+    float& dyn__timeToLooseLead();
+    // Get instance field reference: private readonly MultiplayerScoreProvider _scoreProvider
+    GlobalNamespace::MultiplayerScoreProvider*& dyn__scoreProvider();
+    // Get instance field reference: private readonly MultiplayerController _multiplayerController
+    GlobalNamespace::MultiplayerController*& dyn__multiplayerController();
+    // Get instance field reference: private System.Action`1<System.String> newLeaderWasSelectedEvent
+    System::Action_1<::Il2CppString*>*& dyn_newLeaderWasSelectedEvent();
+    // Get instance field reference: private System.Single _currentLeadingPlayerStartTime
+    float& dyn__currentLeadingPlayerStartTime();
+    // Get instance field reference: private MultiplayerScoreProvider/RankedPlayer _currentlyDisplayedUser
+    GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*& dyn__currentlyDisplayedUser();
+    // Get instance field reference: private MultiplayerScoreProvider/RankedPlayer _currentlyLeadingUser
+    GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*& dyn__currentlyLeadingUser();
     // public System.Void add_newLeaderWasSelectedEvent(System.Action`1<System.String> value)
     // Offset: 0x11AA600
     void add_newLeaderWasSelectedEvent(System::Action_1<::Il2CppString*>* value);

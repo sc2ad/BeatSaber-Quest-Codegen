@@ -52,10 +52,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::PlatformLeaderboardsModel::ScoresScope _get_Friends();
     // Set static field: static public PlatformLeaderboardsModel/ScoresScope Friends
     static void _set_Friends(GlobalNamespace::PlatformLeaderboardsModel::ScoresScope value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // PlatformLeaderboardsModel/ScoresScope
   #pragma pack(pop)
   static check_size<sizeof(PlatformLeaderboardsModel::ScoresScope), 0 + sizeof(int)> __GlobalNamespace_PlatformLeaderboardsModel_ScoresScopeSizeCheck;

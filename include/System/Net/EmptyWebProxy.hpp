@@ -48,10 +48,8 @@ namespace System::Net {
     constexpr operator System::Net::ICredentials*() const noexcept {
       return m_credentials;
     }
-    // Get instance field: private System.Net.ICredentials m_credentials
-    System::Net::ICredentials* _get_m_credentials();
-    // Set instance field: private System.Net.ICredentials m_credentials
-    void _set_m_credentials(System::Net::ICredentials* value);
+    // Get instance field reference: private System.Net.ICredentials m_credentials
+    System::Net::ICredentials*& dyn_m_credentials();
     // public System.Net.ICredentials get_Credentials()
     // Offset: 0x16DAF98
     System::Net::ICredentials* get_Credentials();

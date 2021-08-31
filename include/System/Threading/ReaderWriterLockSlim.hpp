@@ -215,74 +215,40 @@ namespace System::Threading {
     static uint _get_READER_MASK();
     // Set static field: static private System.UInt32 READER_MASK
     static void _set_READER_MASK(uint value);
-    // Get instance field: private System.Boolean fIsReentrant
-    bool _get_fIsReentrant();
-    // Set instance field: private System.Boolean fIsReentrant
-    void _set_fIsReentrant(bool value);
-    // Get instance field: private System.Int32 myLock
-    int _get_myLock();
-    // Set instance field: private System.Int32 myLock
-    void _set_myLock(int value);
-    // Get instance field: private System.UInt32 numWriteWaiters
-    uint _get_numWriteWaiters();
-    // Set instance field: private System.UInt32 numWriteWaiters
-    void _set_numWriteWaiters(uint value);
-    // Get instance field: private System.UInt32 numReadWaiters
-    uint _get_numReadWaiters();
-    // Set instance field: private System.UInt32 numReadWaiters
-    void _set_numReadWaiters(uint value);
-    // Get instance field: private System.UInt32 numWriteUpgradeWaiters
-    uint _get_numWriteUpgradeWaiters();
-    // Set instance field: private System.UInt32 numWriteUpgradeWaiters
-    void _set_numWriteUpgradeWaiters(uint value);
-    // Get instance field: private System.UInt32 numUpgradeWaiters
-    uint _get_numUpgradeWaiters();
-    // Set instance field: private System.UInt32 numUpgradeWaiters
-    void _set_numUpgradeWaiters(uint value);
-    // Get instance field: private System.Boolean fNoWaiters
-    bool _get_fNoWaiters();
-    // Set instance field: private System.Boolean fNoWaiters
-    void _set_fNoWaiters(bool value);
-    // Get instance field: private System.Int32 upgradeLockOwnerId
-    int _get_upgradeLockOwnerId();
-    // Set instance field: private System.Int32 upgradeLockOwnerId
-    void _set_upgradeLockOwnerId(int value);
-    // Get instance field: private System.Int32 writeLockOwnerId
-    int _get_writeLockOwnerId();
-    // Set instance field: private System.Int32 writeLockOwnerId
-    void _set_writeLockOwnerId(int value);
-    // Get instance field: private System.Threading.EventWaitHandle writeEvent
-    System::Threading::EventWaitHandle* _get_writeEvent();
-    // Set instance field: private System.Threading.EventWaitHandle writeEvent
-    void _set_writeEvent(System::Threading::EventWaitHandle* value);
-    // Get instance field: private System.Threading.EventWaitHandle readEvent
-    System::Threading::EventWaitHandle* _get_readEvent();
-    // Set instance field: private System.Threading.EventWaitHandle readEvent
-    void _set_readEvent(System::Threading::EventWaitHandle* value);
-    // Get instance field: private System.Threading.EventWaitHandle upgradeEvent
-    System::Threading::EventWaitHandle* _get_upgradeEvent();
-    // Set instance field: private System.Threading.EventWaitHandle upgradeEvent
-    void _set_upgradeEvent(System::Threading::EventWaitHandle* value);
-    // Get instance field: private System.Threading.EventWaitHandle waitUpgradeEvent
-    System::Threading::EventWaitHandle* _get_waitUpgradeEvent();
-    // Set instance field: private System.Threading.EventWaitHandle waitUpgradeEvent
-    void _set_waitUpgradeEvent(System::Threading::EventWaitHandle* value);
-    // Get instance field: private System.Int64 lockID
-    int64_t _get_lockID();
-    // Set instance field: private System.Int64 lockID
-    void _set_lockID(int64_t value);
-    // Get instance field: private System.Boolean fUpgradeThreadHoldingRead
-    bool _get_fUpgradeThreadHoldingRead();
-    // Set instance field: private System.Boolean fUpgradeThreadHoldingRead
-    void _set_fUpgradeThreadHoldingRead(bool value);
-    // Get instance field: private System.UInt32 owners
-    uint _get_owners();
-    // Set instance field: private System.UInt32 owners
-    void _set_owners(uint value);
-    // Get instance field: private System.Boolean fDisposed
-    bool _get_fDisposed();
-    // Set instance field: private System.Boolean fDisposed
-    void _set_fDisposed(bool value);
+    // Get instance field reference: private System.Boolean fIsReentrant
+    bool& dyn_fIsReentrant();
+    // Get instance field reference: private System.Int32 myLock
+    int& dyn_myLock();
+    // Get instance field reference: private System.UInt32 numWriteWaiters
+    uint& dyn_numWriteWaiters();
+    // Get instance field reference: private System.UInt32 numReadWaiters
+    uint& dyn_numReadWaiters();
+    // Get instance field reference: private System.UInt32 numWriteUpgradeWaiters
+    uint& dyn_numWriteUpgradeWaiters();
+    // Get instance field reference: private System.UInt32 numUpgradeWaiters
+    uint& dyn_numUpgradeWaiters();
+    // Get instance field reference: private System.Boolean fNoWaiters
+    bool& dyn_fNoWaiters();
+    // Get instance field reference: private System.Int32 upgradeLockOwnerId
+    int& dyn_upgradeLockOwnerId();
+    // Get instance field reference: private System.Int32 writeLockOwnerId
+    int& dyn_writeLockOwnerId();
+    // Get instance field reference: private System.Threading.EventWaitHandle writeEvent
+    System::Threading::EventWaitHandle*& dyn_writeEvent();
+    // Get instance field reference: private System.Threading.EventWaitHandle readEvent
+    System::Threading::EventWaitHandle*& dyn_readEvent();
+    // Get instance field reference: private System.Threading.EventWaitHandle upgradeEvent
+    System::Threading::EventWaitHandle*& dyn_upgradeEvent();
+    // Get instance field reference: private System.Threading.EventWaitHandle waitUpgradeEvent
+    System::Threading::EventWaitHandle*& dyn_waitUpgradeEvent();
+    // Get instance field reference: private System.Int64 lockID
+    int64_t& dyn_lockID();
+    // Get instance field reference: private System.Boolean fUpgradeThreadHoldingRead
+    bool& dyn_fUpgradeThreadHoldingRead();
+    // Get instance field reference: private System.UInt32 owners
+    uint& dyn_owners();
+    // Get instance field reference: private System.Boolean fDisposed
+    bool& dyn_fDisposed();
     // public System.Boolean get_IsReadLockHeld()
     // Offset: 0x23BDDA4
     bool get_IsReadLockHeld();

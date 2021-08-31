@@ -46,14 +46,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
     // Creating value type constructor for type: MissionHelpGameObjectPair
     MissionHelpGameObjectPair(GlobalNamespace::MissionHelpSO* missionHelp_ = {}, UnityEngine::GameObject* gameObject_ = {}) noexcept : missionHelp{missionHelp_}, gameObject{gameObject_} {}
-    // Get instance field: public MissionHelpSO missionHelp
-    GlobalNamespace::MissionHelpSO* _get_missionHelp();
-    // Set instance field: public MissionHelpSO missionHelp
-    void _set_missionHelp(GlobalNamespace::MissionHelpSO* value);
-    // Get instance field: public UnityEngine.GameObject gameObject
-    UnityEngine::GameObject* _get_gameObject();
-    // Set instance field: public UnityEngine.GameObject gameObject
-    void _set_gameObject(UnityEngine::GameObject* value);
+    // Get instance field reference: public MissionHelpSO missionHelp
+    GlobalNamespace::MissionHelpSO*& dyn_missionHelp();
+    // Get instance field reference: public UnityEngine.GameObject gameObject
+    UnityEngine::GameObject*& dyn_gameObject();
     // public System.Void .ctor()
     // Offset: 0x11D14BC
     // Implemented from: System.Object

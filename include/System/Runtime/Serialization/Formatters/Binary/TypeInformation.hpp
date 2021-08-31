@@ -38,18 +38,12 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: TypeInformation
     TypeInformation(::Il2CppString* fullTypeName_ = {}, ::Il2CppString* assemblyString_ = {}, bool hasTypeForwardedFrom_ = {}) noexcept : fullTypeName{fullTypeName_}, assemblyString{assemblyString_}, hasTypeForwardedFrom{hasTypeForwardedFrom_} {}
-    // Get instance field: private System.String fullTypeName
-    ::Il2CppString* _get_fullTypeName();
-    // Set instance field: private System.String fullTypeName
-    void _set_fullTypeName(::Il2CppString* value);
-    // Get instance field: private System.String assemblyString
-    ::Il2CppString* _get_assemblyString();
-    // Set instance field: private System.String assemblyString
-    void _set_assemblyString(::Il2CppString* value);
-    // Get instance field: private System.Boolean hasTypeForwardedFrom
-    bool _get_hasTypeForwardedFrom();
-    // Set instance field: private System.Boolean hasTypeForwardedFrom
-    void _set_hasTypeForwardedFrom(bool value);
+    // Get instance field reference: private System.String fullTypeName
+    ::Il2CppString*& dyn_fullTypeName();
+    // Get instance field reference: private System.String assemblyString
+    ::Il2CppString*& dyn_assemblyString();
+    // Get instance field reference: private System.Boolean hasTypeForwardedFrom
+    bool& dyn_hasTypeForwardedFrom();
     // System.String get_FullTypeName()
     // Offset: 0x16216F0
     ::Il2CppString* get_FullTypeName();

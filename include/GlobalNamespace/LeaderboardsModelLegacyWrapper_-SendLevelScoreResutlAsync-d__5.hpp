@@ -80,34 +80,20 @@ namespace GlobalNamespace {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
-    // Get instance field: public System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: public System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
-    System::Runtime::CompilerServices::AsyncVoidMethodBuilder _get_$$t__builder();
-    // Set instance field: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
-    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncVoidMethodBuilder value);
-    // Get instance field: public LeaderboardsModelLegacyWrapper <>4__this
-    GlobalNamespace::LeaderboardsModelLegacyWrapper* _get_$$4__this();
-    // Set instance field: public LeaderboardsModelLegacyWrapper <>4__this
-    void _set_$$4__this(GlobalNamespace::LeaderboardsModelLegacyWrapper* value);
-    // Get instance field: public OnlineServices.LevelScoreResultsData levelScoreResultsData
-    OnlineServices::LevelScoreResultsData _get_levelScoreResultsData();
-    // Set instance field: public OnlineServices.LevelScoreResultsData levelScoreResultsData
-    void _set_levelScoreResultsData(OnlineServices::LevelScoreResultsData value);
-    // Get instance field: public LeaderboardsModelLegacyWrapper/HMAsyncRequestWithCancellationToken asyncRequest
-    GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken* _get_asyncRequest();
-    // Set instance field: public LeaderboardsModelLegacyWrapper/HMAsyncRequestWithCancellationToken asyncRequest
-    void _set_asyncRequest(GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken* value);
-    // Get instance field: public PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler
-    GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler* _get_completionHandler();
-    // Set instance field: public PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler
-    void _set_completionHandler(GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler* value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<OnlineServices.SendLeaderboardEntryResult> <>u__1
-    System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::SendLeaderboardEntryResult> _get_$$u__1();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<OnlineServices.SendLeaderboardEntryResult> <>u__1
-    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::SendLeaderboardEntryResult> value);
+    // Get instance field reference: public System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
+    System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
+    // Get instance field reference: public LeaderboardsModelLegacyWrapper <>4__this
+    GlobalNamespace::LeaderboardsModelLegacyWrapper*& dyn_$$4__this();
+    // Get instance field reference: public OnlineServices.LevelScoreResultsData levelScoreResultsData
+    OnlineServices::LevelScoreResultsData& dyn_levelScoreResultsData();
+    // Get instance field reference: public LeaderboardsModelLegacyWrapper/HMAsyncRequestWithCancellationToken asyncRequest
+    GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*& dyn_asyncRequest();
+    // Get instance field reference: public PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler
+    GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler*& dyn_completionHandler();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<OnlineServices.SendLeaderboardEntryResult> <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::SendLeaderboardEntryResult>& dyn_$$u__1();
     // private System.Void MoveNext()
     // Offset: 0x1149A18
     void MoveNext();

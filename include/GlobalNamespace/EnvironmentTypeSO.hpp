@@ -30,10 +30,8 @@ namespace GlobalNamespace {
     EnvironmentTypeSO(::Il2CppString* typeNameLocalizationKey_ = {}) noexcept : typeNameLocalizationKey{typeNameLocalizationKey_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.String _typeNameLocalizationKey
-    ::Il2CppString* _get__typeNameLocalizationKey();
-    // Set instance field: private System.String _typeNameLocalizationKey
-    void _set__typeNameLocalizationKey(::Il2CppString* value);
+    // Get instance field reference: private System.String _typeNameLocalizationKey
+    ::Il2CppString*& dyn__typeNameLocalizationKey();
     // public System.String get_typeNameLocalizationKey()
     // Offset: 0x10539B8
     ::Il2CppString* get_typeNameLocalizationKey();

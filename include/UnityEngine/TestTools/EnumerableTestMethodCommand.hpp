@@ -61,10 +61,8 @@ namespace UnityEngine::TestTools {
     }
     // Deleting conversion operator: operator NUnit::Framework::Internal::Test*
     constexpr operator NUnit::Framework::Internal::Test*() const noexcept = delete;
-    // Get instance field: private readonly NUnit.Framework.Internal.TestMethod testMethod
-    NUnit::Framework::Internal::TestMethod* _get_testMethod();
-    // Set instance field: private readonly NUnit.Framework.Internal.TestMethod testMethod
-    void _set_testMethod(NUnit::Framework::Internal::TestMethod* value);
+    // Get instance field reference: private readonly NUnit.Framework.Internal.TestMethod testMethod
+    NUnit::Framework::Internal::TestMethod*& dyn_testMethod();
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod testMethod)
     // Offset: 0x14B6298
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

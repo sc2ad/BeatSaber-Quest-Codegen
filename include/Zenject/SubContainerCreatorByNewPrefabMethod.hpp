@@ -54,10 +54,8 @@ namespace Zenject {
     static_assert(sizeof(System::Action_1<Zenject::DiContainer*>*) == 0x8);
     // Creating value type constructor for type: SubContainerCreatorByNewPrefabMethod
     SubContainerCreatorByNewPrefabMethod(System::Action_1<Zenject::DiContainer*>* installerMethod_ = {}) noexcept : installerMethod{installerMethod_} {}
-    // Get instance field: private readonly System.Action`1<Zenject.DiContainer> _installerMethod
-    System::Action_1<Zenject::DiContainer*>* _get__installerMethod();
-    // Set instance field: private readonly System.Action`1<Zenject.DiContainer> _installerMethod
-    void _set__installerMethod(System::Action_1<Zenject::DiContainer*>* value);
+    // Get instance field reference: private readonly System.Action`1<Zenject.DiContainer> _installerMethod
+    System::Action_1<Zenject::DiContainer*>*& dyn__installerMethod();
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.IPrefabProvider prefabProvider, Zenject.GameObjectCreationParameters gameObjectBindInfo, System.Action`1<Zenject.DiContainer> installerMethod)
     // Offset: 0x171F394
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

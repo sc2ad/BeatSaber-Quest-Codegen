@@ -96,26 +96,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: SteamPlatformAdditionalContentModel
     SteamPlatformAdditionalContentModel(GlobalNamespace::SteamLevelProductsModelSO* steamLevelProductsModel_ = {}, System::Collections::Generic::HashSet_1<uint>* entitlementsAppIds_ = {}, System::Threading::Tasks::TaskCompletionSource_1<bool>* dataIsValidTaskCompletionSource_ = {}, System::Threading::SemaphoreSlim* semaphoreSlim_ = {}, bool isDataValid_ = {}) noexcept : steamLevelProductsModel{steamLevelProductsModel_}, entitlementsAppIds{entitlementsAppIds_}, dataIsValidTaskCompletionSource{dataIsValidTaskCompletionSource_}, semaphoreSlim{semaphoreSlim_}, isDataValid{isDataValid_} {}
-    // Get instance field: private SteamLevelProductsModelSO _steamLevelProductsModel
-    GlobalNamespace::SteamLevelProductsModelSO* _get__steamLevelProductsModel();
-    // Set instance field: private SteamLevelProductsModelSO _steamLevelProductsModel
-    void _set__steamLevelProductsModel(GlobalNamespace::SteamLevelProductsModelSO* value);
-    // Get instance field: private System.Collections.Generic.HashSet`1<System.UInt32> _entitlementsAppIds
-    System::Collections::Generic::HashSet_1<uint>* _get__entitlementsAppIds();
-    // Set instance field: private System.Collections.Generic.HashSet`1<System.UInt32> _entitlementsAppIds
-    void _set__entitlementsAppIds(System::Collections::Generic::HashSet_1<uint>* value);
-    // Get instance field: private System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> _dataIsValidTaskCompletionSource
-    System::Threading::Tasks::TaskCompletionSource_1<bool>* _get__dataIsValidTaskCompletionSource();
-    // Set instance field: private System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> _dataIsValidTaskCompletionSource
-    void _set__dataIsValidTaskCompletionSource(System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
-    // Get instance field: private System.Threading.SemaphoreSlim _semaphoreSlim
-    System::Threading::SemaphoreSlim* _get__semaphoreSlim();
-    // Set instance field: private System.Threading.SemaphoreSlim _semaphoreSlim
-    void _set__semaphoreSlim(System::Threading::SemaphoreSlim* value);
-    // Get instance field: private System.Boolean _isDataValid
-    bool _get__isDataValid();
-    // Set instance field: private System.Boolean _isDataValid
-    void _set__isDataValid(bool value);
+    // Get instance field reference: private SteamLevelProductsModelSO _steamLevelProductsModel
+    GlobalNamespace::SteamLevelProductsModelSO*& dyn__steamLevelProductsModel();
+    // Get instance field reference: private System.Collections.Generic.HashSet`1<System.UInt32> _entitlementsAppIds
+    System::Collections::Generic::HashSet_1<uint>*& dyn__entitlementsAppIds();
+    // Get instance field reference: private System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> _dataIsValidTaskCompletionSource
+    System::Threading::Tasks::TaskCompletionSource_1<bool>*& dyn__dataIsValidTaskCompletionSource();
+    // Get instance field reference: private System.Threading.SemaphoreSlim _semaphoreSlim
+    System::Threading::SemaphoreSlim*& dyn__semaphoreSlim();
+    // Get instance field reference: private System.Boolean _isDataValid
+    bool& dyn__isDataValid();
     // private System.Threading.Tasks.Task`1<System.Boolean> DataIsValidAsync(System.Threading.CancellationToken cancellationToken)
     // Offset: 0x108D8C0
     System::Threading::Tasks::Task_1<bool>* DataIsValidAsync(System::Threading::CancellationToken cancellationToken);

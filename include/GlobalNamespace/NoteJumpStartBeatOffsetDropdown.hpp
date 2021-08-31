@@ -71,18 +71,12 @@ namespace GlobalNamespace {
     NoteJumpStartBeatOffsetDropdown(HMUI::SimpleTextDropdown* simpleTextDropdown_ = {}, System::Action_1<int>* didSelectCellWithIdxEvent_ = {}, System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<float, ::Il2CppString*>*>* noteJumpStartBeatOffsetData_ = {}) noexcept : simpleTextDropdown{simpleTextDropdown_}, didSelectCellWithIdxEvent{didSelectCellWithIdxEvent_}, noteJumpStartBeatOffsetData{noteJumpStartBeatOffsetData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private HMUI.SimpleTextDropdown _simpleTextDropdown
-    HMUI::SimpleTextDropdown* _get__simpleTextDropdown();
-    // Set instance field: private HMUI.SimpleTextDropdown _simpleTextDropdown
-    void _set__simpleTextDropdown(HMUI::SimpleTextDropdown* value);
-    // Get instance field: private System.Action`1<System.Int32> didSelectCellWithIdxEvent
-    System::Action_1<int>* _get_didSelectCellWithIdxEvent();
-    // Set instance field: private System.Action`1<System.Int32> didSelectCellWithIdxEvent
-    void _set_didSelectCellWithIdxEvent(System::Action_1<int>* value);
-    // Get instance field: private System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<System.Single,System.String>> _noteJumpStartBeatOffsetData
-    System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<float, ::Il2CppString*>*>* _get__noteJumpStartBeatOffsetData();
-    // Set instance field: private System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<System.Single,System.String>> _noteJumpStartBeatOffsetData
-    void _set__noteJumpStartBeatOffsetData(System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<float, ::Il2CppString*>*>* value);
+    // Get instance field reference: private HMUI.SimpleTextDropdown _simpleTextDropdown
+    HMUI::SimpleTextDropdown*& dyn__simpleTextDropdown();
+    // Get instance field reference: private System.Action`1<System.Int32> didSelectCellWithIdxEvent
+    System::Action_1<int>*& dyn_didSelectCellWithIdxEvent();
+    // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<System.Single,System.String>> _noteJumpStartBeatOffsetData
+    System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<float, ::Il2CppString*>*>*& dyn__noteJumpStartBeatOffsetData();
     // private System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<System.Single,System.String>> get_noteJumpStartBeatOffsetData()
     // Offset: 0x122E8E8
     System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<float, ::Il2CppString*>*>* get_noteJumpStartBeatOffsetData();

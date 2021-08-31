@@ -43,14 +43,10 @@ namespace System::Text {
     static_assert(sizeof(::Il2CppChar) == 0x2);
     // Creating value type constructor for type: Decoder
     Decoder(int lastByte_ = {}, ::Il2CppChar lastChar_ = {}) noexcept : lastByte{lastByte_}, lastChar{lastChar_} {}
-    // Get instance field: System.Int32 lastByte
-    int _get_lastByte();
-    // Set instance field: System.Int32 lastByte
-    void _set_lastByte(int value);
-    // Get instance field: System.Char lastChar
-    ::Il2CppChar _get_lastChar();
-    // Set instance field: System.Char lastChar
-    void _set_lastChar(::Il2CppChar value);
+    // Get instance field reference: System.Int32 lastByte
+    int& dyn_lastByte();
+    // Get instance field reference: System.Char lastChar
+    ::Il2CppChar& dyn_lastChar();
     // public System.Void .ctor(System.Text.UnicodeEncoding encoding)
     // Offset: 0x18F08DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -71,30 +71,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: FireworkItemParticleSystem
     FireworkItemParticleSystem(UnityEngine::ParticleSystem* particleSystem_ = {}, bool isSubemitter_ = {}, bool useMainColor_ = {}, bool useOwnGradient_ = {}, UnityEngine::Gradient* particleColorGradient_ = {}, bool randomizeSpeed_ = {}) noexcept : particleSystem{particleSystem_}, isSubemitter{isSubemitter_}, useMainColor{useMainColor_}, useOwnGradient{useOwnGradient_}, particleColorGradient{particleColorGradient_}, randomizeSpeed{randomizeSpeed_} {}
-    // Get instance field: public UnityEngine.ParticleSystem _particleSystem
-    UnityEngine::ParticleSystem* _get__particleSystem();
-    // Set instance field: public UnityEngine.ParticleSystem _particleSystem
-    void _set__particleSystem(UnityEngine::ParticleSystem* value);
-    // Get instance field: public System.Boolean _isSubemitter
-    bool _get__isSubemitter();
-    // Set instance field: public System.Boolean _isSubemitter
-    void _set__isSubemitter(bool value);
-    // Get instance field: public System.Boolean _useMainColor
-    bool _get__useMainColor();
-    // Set instance field: public System.Boolean _useMainColor
-    void _set__useMainColor(bool value);
-    // Get instance field: public System.Boolean _useOwnGradient
-    bool _get__useOwnGradient();
-    // Set instance field: public System.Boolean _useOwnGradient
-    void _set__useOwnGradient(bool value);
-    // Get instance field: public UnityEngine.Gradient _particleColorGradient
-    UnityEngine::Gradient* _get__particleColorGradient();
-    // Set instance field: public UnityEngine.Gradient _particleColorGradient
-    void _set__particleColorGradient(UnityEngine::Gradient* value);
-    // Get instance field: public System.Boolean _randomizeSpeed
-    bool _get__randomizeSpeed();
-    // Set instance field: public System.Boolean _randomizeSpeed
-    void _set__randomizeSpeed(bool value);
+    // Get instance field reference: public UnityEngine.ParticleSystem _particleSystem
+    UnityEngine::ParticleSystem*& dyn__particleSystem();
+    // Get instance field reference: public System.Boolean _isSubemitter
+    bool& dyn__isSubemitter();
+    // Get instance field reference: public System.Boolean _useMainColor
+    bool& dyn__useMainColor();
+    // Get instance field reference: public System.Boolean _useOwnGradient
+    bool& dyn__useOwnGradient();
+    // Get instance field reference: public UnityEngine.Gradient _particleColorGradient
+    UnityEngine::Gradient*& dyn__particleColorGradient();
+    // Get instance field reference: public System.Boolean _randomizeSpeed
+    bool& dyn__randomizeSpeed();
     // public System.Void .ctor()
     // Offset: 0x1058CD8
     // Implemented from: System.Object

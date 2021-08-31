@@ -97,10 +97,8 @@ namespace System {
     static uint _get_MinValue();
     // Set static field: static public System.UInt32 MinValue
     static void _set_MinValue(uint value);
-    // Get instance field: private System.UInt32 m_value
-    uint _get_m_value();
-    // Set instance field: private System.UInt32 m_value
-    void _set_m_value(uint value);
+    // Get instance field reference: private System.UInt32 m_value
+    uint& dyn_m_value();
     // public System.Int32 CompareTo(System.Object value)
     // Offset: 0x232E24C
     int CompareTo(::Il2CppObject* value);

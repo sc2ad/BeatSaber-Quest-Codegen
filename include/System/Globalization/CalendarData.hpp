@@ -147,82 +147,44 @@ namespace System::Globalization {
     static System::Globalization::CalendarData* _get_Invariant();
     // Set static field: static System.Globalization.CalendarData Invariant
     static void _set_Invariant(System::Globalization::CalendarData* value);
-    // Get instance field: System.String sNativeName
-    ::Il2CppString* _get_sNativeName();
-    // Set instance field: System.String sNativeName
-    void _set_sNativeName(::Il2CppString* value);
-    // Get instance field: System.String[] saShortDates
-    ::Array<::Il2CppString*>* _get_saShortDates();
-    // Set instance field: System.String[] saShortDates
-    void _set_saShortDates(::Array<::Il2CppString*>* value);
-    // Get instance field: System.String[] saYearMonths
-    ::Array<::Il2CppString*>* _get_saYearMonths();
-    // Set instance field: System.String[] saYearMonths
-    void _set_saYearMonths(::Array<::Il2CppString*>* value);
-    // Get instance field: System.String[] saLongDates
-    ::Array<::Il2CppString*>* _get_saLongDates();
-    // Set instance field: System.String[] saLongDates
-    void _set_saLongDates(::Array<::Il2CppString*>* value);
-    // Get instance field: System.String sMonthDay
-    ::Il2CppString* _get_sMonthDay();
-    // Set instance field: System.String sMonthDay
-    void _set_sMonthDay(::Il2CppString* value);
-    // Get instance field: System.String[] saEraNames
-    ::Array<::Il2CppString*>* _get_saEraNames();
-    // Set instance field: System.String[] saEraNames
-    void _set_saEraNames(::Array<::Il2CppString*>* value);
-    // Get instance field: System.String[] saAbbrevEraNames
-    ::Array<::Il2CppString*>* _get_saAbbrevEraNames();
-    // Set instance field: System.String[] saAbbrevEraNames
-    void _set_saAbbrevEraNames(::Array<::Il2CppString*>* value);
-    // Get instance field: System.String[] saAbbrevEnglishEraNames
-    ::Array<::Il2CppString*>* _get_saAbbrevEnglishEraNames();
-    // Set instance field: System.String[] saAbbrevEnglishEraNames
-    void _set_saAbbrevEnglishEraNames(::Array<::Il2CppString*>* value);
-    // Get instance field: System.String[] saDayNames
-    ::Array<::Il2CppString*>* _get_saDayNames();
-    // Set instance field: System.String[] saDayNames
-    void _set_saDayNames(::Array<::Il2CppString*>* value);
-    // Get instance field: System.String[] saAbbrevDayNames
-    ::Array<::Il2CppString*>* _get_saAbbrevDayNames();
-    // Set instance field: System.String[] saAbbrevDayNames
-    void _set_saAbbrevDayNames(::Array<::Il2CppString*>* value);
-    // Get instance field: System.String[] saSuperShortDayNames
-    ::Array<::Il2CppString*>* _get_saSuperShortDayNames();
-    // Set instance field: System.String[] saSuperShortDayNames
-    void _set_saSuperShortDayNames(::Array<::Il2CppString*>* value);
-    // Get instance field: System.String[] saMonthNames
-    ::Array<::Il2CppString*>* _get_saMonthNames();
-    // Set instance field: System.String[] saMonthNames
-    void _set_saMonthNames(::Array<::Il2CppString*>* value);
-    // Get instance field: System.String[] saAbbrevMonthNames
-    ::Array<::Il2CppString*>* _get_saAbbrevMonthNames();
-    // Set instance field: System.String[] saAbbrevMonthNames
-    void _set_saAbbrevMonthNames(::Array<::Il2CppString*>* value);
-    // Get instance field: System.String[] saMonthGenitiveNames
-    ::Array<::Il2CppString*>* _get_saMonthGenitiveNames();
-    // Set instance field: System.String[] saMonthGenitiveNames
-    void _set_saMonthGenitiveNames(::Array<::Il2CppString*>* value);
-    // Get instance field: System.String[] saAbbrevMonthGenitiveNames
-    ::Array<::Il2CppString*>* _get_saAbbrevMonthGenitiveNames();
-    // Set instance field: System.String[] saAbbrevMonthGenitiveNames
-    void _set_saAbbrevMonthGenitiveNames(::Array<::Il2CppString*>* value);
-    // Get instance field: System.String[] saLeapYearMonthNames
-    ::Array<::Il2CppString*>* _get_saLeapYearMonthNames();
-    // Set instance field: System.String[] saLeapYearMonthNames
-    void _set_saLeapYearMonthNames(::Array<::Il2CppString*>* value);
-    // Get instance field: System.Int32 iTwoDigitYearMax
-    int _get_iTwoDigitYearMax();
-    // Set instance field: System.Int32 iTwoDigitYearMax
-    void _set_iTwoDigitYearMax(int value);
-    // Get instance field: System.Int32 iCurrentEra
-    int _get_iCurrentEra();
-    // Set instance field: System.Int32 iCurrentEra
-    void _set_iCurrentEra(int value);
-    // Get instance field: System.Boolean bUseUserOverrides
-    bool _get_bUseUserOverrides();
-    // Set instance field: System.Boolean bUseUserOverrides
-    void _set_bUseUserOverrides(bool value);
+    // Get instance field reference: System.String sNativeName
+    ::Il2CppString*& dyn_sNativeName();
+    // Get instance field reference: System.String[] saShortDates
+    ::Array<::Il2CppString*>*& dyn_saShortDates();
+    // Get instance field reference: System.String[] saYearMonths
+    ::Array<::Il2CppString*>*& dyn_saYearMonths();
+    // Get instance field reference: System.String[] saLongDates
+    ::Array<::Il2CppString*>*& dyn_saLongDates();
+    // Get instance field reference: System.String sMonthDay
+    ::Il2CppString*& dyn_sMonthDay();
+    // Get instance field reference: System.String[] saEraNames
+    ::Array<::Il2CppString*>*& dyn_saEraNames();
+    // Get instance field reference: System.String[] saAbbrevEraNames
+    ::Array<::Il2CppString*>*& dyn_saAbbrevEraNames();
+    // Get instance field reference: System.String[] saAbbrevEnglishEraNames
+    ::Array<::Il2CppString*>*& dyn_saAbbrevEnglishEraNames();
+    // Get instance field reference: System.String[] saDayNames
+    ::Array<::Il2CppString*>*& dyn_saDayNames();
+    // Get instance field reference: System.String[] saAbbrevDayNames
+    ::Array<::Il2CppString*>*& dyn_saAbbrevDayNames();
+    // Get instance field reference: System.String[] saSuperShortDayNames
+    ::Array<::Il2CppString*>*& dyn_saSuperShortDayNames();
+    // Get instance field reference: System.String[] saMonthNames
+    ::Array<::Il2CppString*>*& dyn_saMonthNames();
+    // Get instance field reference: System.String[] saAbbrevMonthNames
+    ::Array<::Il2CppString*>*& dyn_saAbbrevMonthNames();
+    // Get instance field reference: System.String[] saMonthGenitiveNames
+    ::Array<::Il2CppString*>*& dyn_saMonthGenitiveNames();
+    // Get instance field reference: System.String[] saAbbrevMonthGenitiveNames
+    ::Array<::Il2CppString*>*& dyn_saAbbrevMonthGenitiveNames();
+    // Get instance field reference: System.String[] saLeapYearMonthNames
+    ::Array<::Il2CppString*>*& dyn_saLeapYearMonthNames();
+    // Get instance field reference: System.Int32 iTwoDigitYearMax
+    int& dyn_iTwoDigitYearMax();
+    // Get instance field reference: System.Int32 iCurrentEra
+    int& dyn_iCurrentEra();
+    // Get instance field reference: System.Boolean bUseUserOverrides
+    bool& dyn_bUseUserOverrides();
     // static private System.Void .cctor()
     // Offset: 0x18047AC
     static void _cctor();

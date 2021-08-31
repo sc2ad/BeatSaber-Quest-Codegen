@@ -116,34 +116,20 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static System::Collections::Generic::Dictionary_2<System::Type*, System::Runtime::Serialization::Formatters::Binary::TypeInformation*>* _get_typeNameCache();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Type,System.Runtime.Serialization.Formatters.Binary.TypeInformation> typeNameCache
     static void _set_typeNameCache(System::Collections::Generic::Dictionary_2<System::Type*, System::Runtime::Serialization::Formatters::Binary::TypeInformation*>* value);
-    // Get instance field: System.Runtime.Serialization.ISurrogateSelector m_surrogates
-    System::Runtime::Serialization::ISurrogateSelector* _get_m_surrogates();
-    // Set instance field: System.Runtime.Serialization.ISurrogateSelector m_surrogates
-    void _set_m_surrogates(System::Runtime::Serialization::ISurrogateSelector* value);
-    // Get instance field: System.Runtime.Serialization.StreamingContext m_context
-    System::Runtime::Serialization::StreamingContext _get_m_context();
-    // Set instance field: System.Runtime.Serialization.StreamingContext m_context
-    void _set_m_context(System::Runtime::Serialization::StreamingContext value);
-    // Get instance field: System.Runtime.Serialization.SerializationBinder m_binder
-    System::Runtime::Serialization::SerializationBinder* _get_m_binder();
-    // Set instance field: System.Runtime.Serialization.SerializationBinder m_binder
-    void _set_m_binder(System::Runtime::Serialization::SerializationBinder* value);
-    // Get instance field: System.Runtime.Serialization.Formatters.FormatterTypeStyle m_typeFormat
-    System::Runtime::Serialization::Formatters::FormatterTypeStyle _get_m_typeFormat();
-    // Set instance field: System.Runtime.Serialization.Formatters.FormatterTypeStyle m_typeFormat
-    void _set_m_typeFormat(System::Runtime::Serialization::Formatters::FormatterTypeStyle value);
-    // Get instance field: System.Runtime.Serialization.Formatters.FormatterAssemblyStyle m_assemblyFormat
-    System::Runtime::Serialization::Formatters::FormatterAssemblyStyle _get_m_assemblyFormat();
-    // Set instance field: System.Runtime.Serialization.Formatters.FormatterAssemblyStyle m_assemblyFormat
-    void _set_m_assemblyFormat(System::Runtime::Serialization::Formatters::FormatterAssemblyStyle value);
-    // Get instance field: System.Runtime.Serialization.Formatters.TypeFilterLevel m_securityLevel
-    System::Runtime::Serialization::Formatters::TypeFilterLevel _get_m_securityLevel();
-    // Set instance field: System.Runtime.Serialization.Formatters.TypeFilterLevel m_securityLevel
-    void _set_m_securityLevel(System::Runtime::Serialization::Formatters::TypeFilterLevel value);
-    // Get instance field: System.Object[] m_crossAppDomainArray
-    ::Array<::Il2CppObject*>* _get_m_crossAppDomainArray();
-    // Set instance field: System.Object[] m_crossAppDomainArray
-    void _set_m_crossAppDomainArray(::Array<::Il2CppObject*>* value);
+    // Get instance field reference: System.Runtime.Serialization.ISurrogateSelector m_surrogates
+    System::Runtime::Serialization::ISurrogateSelector*& dyn_m_surrogates();
+    // Get instance field reference: System.Runtime.Serialization.StreamingContext m_context
+    System::Runtime::Serialization::StreamingContext& dyn_m_context();
+    // Get instance field reference: System.Runtime.Serialization.SerializationBinder m_binder
+    System::Runtime::Serialization::SerializationBinder*& dyn_m_binder();
+    // Get instance field reference: System.Runtime.Serialization.Formatters.FormatterTypeStyle m_typeFormat
+    System::Runtime::Serialization::Formatters::FormatterTypeStyle& dyn_m_typeFormat();
+    // Get instance field reference: System.Runtime.Serialization.Formatters.FormatterAssemblyStyle m_assemblyFormat
+    System::Runtime::Serialization::Formatters::FormatterAssemblyStyle& dyn_m_assemblyFormat();
+    // Get instance field reference: System.Runtime.Serialization.Formatters.TypeFilterLevel m_securityLevel
+    System::Runtime::Serialization::Formatters::TypeFilterLevel& dyn_m_securityLevel();
+    // Get instance field reference: System.Object[] m_crossAppDomainArray
+    ::Array<::Il2CppObject*>*& dyn_m_crossAppDomainArray();
     // public System.Void set_AssemblyFormat(System.Runtime.Serialization.Formatters.FormatterAssemblyStyle value)
     // Offset: 0x1614358
     void set_AssemblyFormat(System::Runtime::Serialization::Formatters::FormatterAssemblyStyle value);

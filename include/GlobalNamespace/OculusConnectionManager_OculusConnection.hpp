@@ -81,22 +81,14 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IConnection() noexcept {
       return *reinterpret_cast<GlobalNamespace::IConnection*>(this);
     }
-    // Get instance field: private readonly System.UInt64 _id
-    uint64_t _get__id();
-    // Set instance field: private readonly System.UInt64 _id
-    void _set__id(uint64_t value);
-    // Get instance field: private readonly System.String _userId
-    ::Il2CppString* _get__userId();
-    // Set instance field: private readonly System.String _userId
-    void _set__userId(::Il2CppString* value);
-    // Get instance field: private readonly System.String _userName
-    ::Il2CppString* _get__userName();
-    // Set instance field: private readonly System.String _userName
-    void _set__userName(::Il2CppString* value);
-    // Get instance field: private readonly System.Boolean _isConnectionOwner
-    bool _get__isConnectionOwner();
-    // Set instance field: private readonly System.Boolean _isConnectionOwner
-    void _set__isConnectionOwner(bool value);
+    // Get instance field reference: private readonly System.UInt64 _id
+    uint64_t& dyn__id();
+    // Get instance field reference: private readonly System.String _userId
+    ::Il2CppString*& dyn__userId();
+    // Get instance field reference: private readonly System.String _userName
+    ::Il2CppString*& dyn__userName();
+    // Get instance field reference: private readonly System.Boolean _isConnectionOwner
+    bool& dyn__isConnectionOwner();
     // public System.UInt64 get_id()
     // Offset: 0x12394DC
     uint64_t get_id();

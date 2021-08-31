@@ -105,10 +105,8 @@ namespace Mono::Security::Interface {
     static Mono::Security::Interface::TlsProtocols _get_ServerMask();
     // Set static field: static public Mono.Security.Interface.TlsProtocols ServerMask
     static void _set_ServerMask(Mono::Security::Interface::TlsProtocols value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Mono.Security.Interface.TlsProtocols
   #pragma pack(pop)
   static check_size<sizeof(TlsProtocols), 0 + sizeof(int)> __Mono_Security_Interface_TlsProtocolsSizeCheck;

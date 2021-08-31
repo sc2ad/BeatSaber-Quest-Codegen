@@ -87,10 +87,8 @@ namespace MasterServer {
       static MasterServer::CreateDedicatedServerInstanceResponse::Result _get_UnknownError();
       // Set static field: static public MasterServer.CreateDedicatedServerInstanceResponse/MasterServer.Result UnknownError
       static void _set_UnknownError(MasterServer::CreateDedicatedServerInstanceResponse::Result value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // MasterServer.CreateDedicatedServerInstanceResponse/MasterServer.Result
     #pragma pack(pop)
     static check_size<sizeof(CreateDedicatedServerInstanceResponse::Result), 0 + sizeof(int)> __MasterServer_CreateDedicatedServerInstanceResponse_ResultSizeCheck;
@@ -151,38 +149,22 @@ namespace MasterServer {
     operator MasterServer::IDedicatedServerClientToServerMessage() noexcept {
       return *reinterpret_cast<MasterServer::IDedicatedServerClientToServerMessage*>(this);
     }
-    // Get instance field: public MasterServer.CreateDedicatedServerInstanceResponse/MasterServer.Result result
-    MasterServer::CreateDedicatedServerInstanceResponse::Result _get_result();
-    // Set instance field: public MasterServer.CreateDedicatedServerInstanceResponse/MasterServer.Result result
-    void _set_result(MasterServer::CreateDedicatedServerInstanceResponse::Result value);
-    // Get instance field: private System.String <dedicatedServerId>k__BackingField
-    ::Il2CppString* _get_$dedicatedServerId$k__BackingField();
-    // Set instance field: private System.String <dedicatedServerId>k__BackingField
-    void _set_$dedicatedServerId$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.Int64 <dedicatedServerCreationTime>k__BackingField
-    int64_t _get_$dedicatedServerCreationTime$k__BackingField();
-    // Set instance field: private System.Int64 <dedicatedServerCreationTime>k__BackingField
-    void _set_$dedicatedServerCreationTime$k__BackingField(int64_t value);
-    // Get instance field: public System.String id
-    ::Il2CppString* _get_id();
-    // Set instance field: public System.String id
-    void _set_id(::Il2CppString* value);
-    // Get instance field: public System.Int32 port
-    int _get_port();
-    // Set instance field: public System.Int32 port
-    void _set_port(int value);
-    // Get instance field: public System.Int32 maxPlayerCount
-    int _get_maxPlayerCount();
-    // Set instance field: public System.Int32 maxPlayerCount
-    void _set_maxPlayerCount(int value);
-    // Get instance field: public readonly ByteArrayNetSerializable random
-    GlobalNamespace::ByteArrayNetSerializable* _get_random();
-    // Set instance field: public readonly ByteArrayNetSerializable random
-    void _set_random(GlobalNamespace::ByteArrayNetSerializable* value);
-    // Get instance field: public readonly ByteArrayNetSerializable publicKey
-    GlobalNamespace::ByteArrayNetSerializable* _get_publicKey();
-    // Set instance field: public readonly ByteArrayNetSerializable publicKey
-    void _set_publicKey(GlobalNamespace::ByteArrayNetSerializable* value);
+    // Get instance field reference: public MasterServer.CreateDedicatedServerInstanceResponse/MasterServer.Result result
+    MasterServer::CreateDedicatedServerInstanceResponse::Result& dyn_result();
+    // Get instance field reference: private System.String <dedicatedServerId>k__BackingField
+    ::Il2CppString*& dyn_$dedicatedServerId$k__BackingField();
+    // Get instance field reference: private System.Int64 <dedicatedServerCreationTime>k__BackingField
+    int64_t& dyn_$dedicatedServerCreationTime$k__BackingField();
+    // Get instance field reference: public System.String id
+    ::Il2CppString*& dyn_id();
+    // Get instance field reference: public System.Int32 port
+    int& dyn_port();
+    // Get instance field reference: public System.Int32 maxPlayerCount
+    int& dyn_maxPlayerCount();
+    // Get instance field reference: public readonly ByteArrayNetSerializable random
+    GlobalNamespace::ByteArrayNetSerializable*& dyn_random();
+    // Get instance field reference: public readonly ByteArrayNetSerializable publicKey
+    GlobalNamespace::ByteArrayNetSerializable*& dyn_publicKey();
     // static public PacketPool`1<MasterServer.CreateDedicatedServerInstanceResponse> get_pool()
     // Offset: 0x12162D4
     static GlobalNamespace::PacketPool_1<MasterServer::CreateDedicatedServerInstanceResponse*>* get_pool();

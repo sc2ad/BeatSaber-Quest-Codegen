@@ -111,58 +111,32 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
     // Creating value type constructor for type: Particle
     Particle(UnityEngine::Transform* m_Transform_ = {}, int m_ParentIndex_ = {}, float m_Damping_ = {}, float m_Elasticity_ = {}, float m_Stiffness_ = {}, float m_Inert_ = {}, float m_Radius_ = {}, float m_BoneLength_ = {}, UnityEngine::Vector3 m_Position_ = {}, UnityEngine::Vector3 m_PrevPosition_ = {}, UnityEngine::Vector3 m_EndOffset_ = {}, UnityEngine::Vector3 m_InitLocalPosition_ = {}, UnityEngine::Quaternion m_InitLocalRotation_ = {}) noexcept : m_Transform{m_Transform_}, m_ParentIndex{m_ParentIndex_}, m_Damping{m_Damping_}, m_Elasticity{m_Elasticity_}, m_Stiffness{m_Stiffness_}, m_Inert{m_Inert_}, m_Radius{m_Radius_}, m_BoneLength{m_BoneLength_}, m_Position{m_Position_}, m_PrevPosition{m_PrevPosition_}, m_EndOffset{m_EndOffset_}, m_InitLocalPosition{m_InitLocalPosition_}, m_InitLocalRotation{m_InitLocalRotation_} {}
-    // Get instance field: public UnityEngine.Transform m_Transform
-    UnityEngine::Transform* _get_m_Transform();
-    // Set instance field: public UnityEngine.Transform m_Transform
-    void _set_m_Transform(UnityEngine::Transform* value);
-    // Get instance field: public System.Int32 m_ParentIndex
-    int _get_m_ParentIndex();
-    // Set instance field: public System.Int32 m_ParentIndex
-    void _set_m_ParentIndex(int value);
-    // Get instance field: public System.Single m_Damping
-    float _get_m_Damping();
-    // Set instance field: public System.Single m_Damping
-    void _set_m_Damping(float value);
-    // Get instance field: public System.Single m_Elasticity
-    float _get_m_Elasticity();
-    // Set instance field: public System.Single m_Elasticity
-    void _set_m_Elasticity(float value);
-    // Get instance field: public System.Single m_Stiffness
-    float _get_m_Stiffness();
-    // Set instance field: public System.Single m_Stiffness
-    void _set_m_Stiffness(float value);
-    // Get instance field: public System.Single m_Inert
-    float _get_m_Inert();
-    // Set instance field: public System.Single m_Inert
-    void _set_m_Inert(float value);
-    // Get instance field: public System.Single m_Radius
-    float _get_m_Radius();
-    // Set instance field: public System.Single m_Radius
-    void _set_m_Radius(float value);
-    // Get instance field: public System.Single m_BoneLength
-    float _get_m_BoneLength();
-    // Set instance field: public System.Single m_BoneLength
-    void _set_m_BoneLength(float value);
-    // Get instance field: public UnityEngine.Vector3 m_Position
-    UnityEngine::Vector3 _get_m_Position();
-    // Set instance field: public UnityEngine.Vector3 m_Position
-    void _set_m_Position(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Vector3 m_PrevPosition
-    UnityEngine::Vector3 _get_m_PrevPosition();
-    // Set instance field: public UnityEngine.Vector3 m_PrevPosition
-    void _set_m_PrevPosition(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Vector3 m_EndOffset
-    UnityEngine::Vector3 _get_m_EndOffset();
-    // Set instance field: public UnityEngine.Vector3 m_EndOffset
-    void _set_m_EndOffset(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Vector3 m_InitLocalPosition
-    UnityEngine::Vector3 _get_m_InitLocalPosition();
-    // Set instance field: public UnityEngine.Vector3 m_InitLocalPosition
-    void _set_m_InitLocalPosition(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Quaternion m_InitLocalRotation
-    UnityEngine::Quaternion _get_m_InitLocalRotation();
-    // Set instance field: public UnityEngine.Quaternion m_InitLocalRotation
-    void _set_m_InitLocalRotation(UnityEngine::Quaternion value);
+    // Get instance field reference: public UnityEngine.Transform m_Transform
+    UnityEngine::Transform*& dyn_m_Transform();
+    // Get instance field reference: public System.Int32 m_ParentIndex
+    int& dyn_m_ParentIndex();
+    // Get instance field reference: public System.Single m_Damping
+    float& dyn_m_Damping();
+    // Get instance field reference: public System.Single m_Elasticity
+    float& dyn_m_Elasticity();
+    // Get instance field reference: public System.Single m_Stiffness
+    float& dyn_m_Stiffness();
+    // Get instance field reference: public System.Single m_Inert
+    float& dyn_m_Inert();
+    // Get instance field reference: public System.Single m_Radius
+    float& dyn_m_Radius();
+    // Get instance field reference: public System.Single m_BoneLength
+    float& dyn_m_BoneLength();
+    // Get instance field reference: public UnityEngine.Vector3 m_Position
+    UnityEngine::Vector3& dyn_m_Position();
+    // Get instance field reference: public UnityEngine.Vector3 m_PrevPosition
+    UnityEngine::Vector3& dyn_m_PrevPosition();
+    // Get instance field reference: public UnityEngine.Vector3 m_EndOffset
+    UnityEngine::Vector3& dyn_m_EndOffset();
+    // Get instance field reference: public UnityEngine.Vector3 m_InitLocalPosition
+    UnityEngine::Vector3& dyn_m_InitLocalPosition();
+    // Get instance field reference: public UnityEngine.Quaternion m_InitLocalRotation
+    UnityEngine::Quaternion& dyn_m_InitLocalRotation();
     // public System.Void .ctor()
     // Offset: 0x23FC6C4
     // Implemented from: System.Object

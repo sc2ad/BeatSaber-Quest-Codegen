@@ -67,14 +67,10 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     operator UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator() noexcept {
       return *reinterpret_cast<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>(this);
     }
-    // Get instance field: private System.String <LocatorId>k__BackingField
-    ::Il2CppString* _get_$LocatorId$k__BackingField();
-    // Set instance field: private System.String <LocatorId>k__BackingField
-    void _set_$LocatorId$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.Collections.Generic.Dictionary`2<System.Object,System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>> <Locations>k__BackingField
-    System::Collections::Generic::Dictionary_2<::Il2CppObject*, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>* _get_$Locations$k__BackingField();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<System.Object,System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>> <Locations>k__BackingField
-    void _set_$Locations$k__BackingField(System::Collections::Generic::Dictionary_2<::Il2CppObject*, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>* value);
+    // Get instance field reference: private System.String <LocatorId>k__BackingField
+    ::Il2CppString*& dyn_$LocatorId$k__BackingField();
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Object,System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>> <Locations>k__BackingField
+    System::Collections::Generic::Dictionary_2<::Il2CppObject*, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>*& dyn_$Locations$k__BackingField();
     // public System.String get_LocatorId()
     // Offset: 0x144AD50
     ::Il2CppString* get_LocatorId();

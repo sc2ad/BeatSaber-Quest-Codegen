@@ -174,10 +174,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::LiteNetLibConnectionManager::NetworkMode _get_Server();
       // Set static field: static public LiteNetLibConnectionManager/NetworkMode Server
       static void _set_Server(GlobalNamespace::LiteNetLibConnectionManager::NetworkMode value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // LiteNetLibConnectionManager/NetworkMode
     #pragma pack(pop)
     static check_size<sizeof(LiteNetLibConnectionManager::NetworkMode), 0 + sizeof(int)> __GlobalNamespace_LiteNetLibConnectionManager_NetworkModeSizeCheck;
@@ -228,10 +226,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::LiteNetLibConnectionManager::ConnectionState _get_Disconnecting();
       // Set static field: static public LiteNetLibConnectionManager/ConnectionState Disconnecting
       static void _set_Disconnecting(GlobalNamespace::LiteNetLibConnectionManager::ConnectionState value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // LiteNetLibConnectionManager/ConnectionState
     #pragma pack(pop)
     static check_size<sizeof(LiteNetLibConnectionManager::ConnectionState), 0 + sizeof(int)> __GlobalNamespace_LiteNetLibConnectionManager_ConnectionStateSizeCheck;
@@ -432,114 +428,60 @@ namespace GlobalNamespace {
     static int64_t _get_kStatisticsUpdateInterval();
     // Set static field: static private System.Int64 kStatisticsUpdateInterval
     static void _set_kStatisticsUpdateInterval(int64_t value);
-    // Get instance field: private readonly System.Byte[] _unconnectedPacketHeader
-    ::Array<uint8_t>* _get__unconnectedPacketHeader();
-    // Set instance field: private readonly System.Byte[] _unconnectedPacketHeader
-    void _set__unconnectedPacketHeader(::Array<uint8_t>* value);
-    // Get instance field: private readonly LiteNetLib.NetManager _netManager
-    LiteNetLib::NetManager* _get__netManager();
-    // Set instance field: private readonly LiteNetLib.NetManager _netManager
-    void _set__netManager(LiteNetLib::NetManager* value);
-    // Get instance field: private readonly PacketEncryptionLayer _encryptionLayer
-    GlobalNamespace::PacketEncryptionLayer* _get__encryptionLayer();
-    // Set instance field: private readonly PacketEncryptionLayer _encryptionLayer
-    void _set__encryptionLayer(GlobalNamespace::PacketEncryptionLayer* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<LiteNetLibConnectionManager/NetPeerConnection> _connections
-    System::Collections::Generic::List_1<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>* _get__connections();
-    // Set instance field: private readonly System.Collections.Generic.List`1<LiteNetLibConnectionManager/NetPeerConnection> _connections
-    void _set__connections(System::Collections::Generic::List_1<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<LiteNetLibConnectionManager/NetPeerConnection> _pendingConnections
-    System::Collections::Generic::List_1<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>* _get__pendingConnections();
-    // Set instance field: private readonly System.Collections.Generic.List`1<LiteNetLibConnectionManager/NetPeerConnection> _pendingConnections
-    void _set__pendingConnections(System::Collections::Generic::List_1<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<LiteNetLibConnectionManager/NetPeerConnectionRequest> _pendingRequests
-    System::Collections::Generic::List_1<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest*>* _get__pendingRequests();
-    // Set instance field: private readonly System.Collections.Generic.List`1<LiteNetLibConnectionManager/NetPeerConnectionRequest> _pendingRequests
-    void _set__pendingRequests(System::Collections::Generic::List_1<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest*>* value);
-    // Get instance field: private readonly System.Collections.Generic.HashSet`1<System.Net.IPEndPoint> _pendingReconnections
-    System::Collections::Generic::HashSet_1<System::Net::IPEndPoint*>* _get__pendingReconnections();
-    // Set instance field: private readonly System.Collections.Generic.HashSet`1<System.Net.IPEndPoint> _pendingReconnections
-    void _set__pendingReconnections(System::Collections::Generic::HashSet_1<System::Net::IPEndPoint*>* value);
-    // Get instance field: private System.String _userId
-    ::Il2CppString* _get__userId();
-    // Set instance field: private System.String _userId
-    void _set__userId(::Il2CppString* value);
-    // Get instance field: private System.String _userName
-    ::Il2CppString* _get__userName();
-    // Set instance field: private System.String _userName
-    void _set__userName(::Il2CppString* value);
-    // Get instance field: private System.String _secret
-    ::Il2CppString* _get__secret();
-    // Set instance field: private System.String _secret
-    void _set__secret(::Il2CppString* value);
-    // Get instance field: private LiteNetLibConnectionManager/NetworkMode _mode
-    GlobalNamespace::LiteNetLibConnectionManager::NetworkMode _get__mode();
-    // Set instance field: private LiteNetLibConnectionManager/NetworkMode _mode
-    void _set__mode(GlobalNamespace::LiteNetLibConnectionManager::NetworkMode value);
-    // Get instance field: private LiteNetLibConnectionManager/ConnectionState _connectionState
-    GlobalNamespace::LiteNetLibConnectionManager::ConnectionState _get__connectionState();
-    // Set instance field: private LiteNetLibConnectionManager/ConnectionState _connectionState
-    void _set__connectionState(GlobalNamespace::LiteNetLibConnectionManager::ConnectionState value);
-    // Get instance field: private System.Threading.CancellationTokenSource _backgroundSentryDisconnectCts
-    System::Threading::CancellationTokenSource* _get__backgroundSentryDisconnectCts();
-    // Set instance field: private System.Threading.CancellationTokenSource _backgroundSentryDisconnectCts
-    void _set__backgroundSentryDisconnectCts(System::Threading::CancellationTokenSource* value);
-    // Get instance field: private System.Threading.CancellationTokenSource _backgroundSentryShutdownCts
-    System::Threading::CancellationTokenSource* _get__backgroundSentryShutdownCts();
-    // Set instance field: private System.Threading.CancellationTokenSource _backgroundSentryShutdownCts
-    void _set__backgroundSentryShutdownCts(System::Threading::CancellationTokenSource* value);
-    // Get instance field: private System.Boolean _sentryDisconnected
-    bool _get__sentryDisconnected();
-    // Set instance field: private System.Boolean _sentryDisconnected
-    void _set__sentryDisconnected(bool value);
-    // Get instance field: private System.Boolean _sentryShutdown
-    bool _get__sentryShutdown();
-    // Set instance field: private System.Boolean _sentryShutdown
-    void _set__sentryShutdown(bool value);
-    // Get instance field: private System.Int64 _lastPollUpdateTime
-    int64_t _get__lastPollUpdateTime();
-    // Set instance field: private System.Int64 _lastPollUpdateTime
-    void _set__lastPollUpdateTime(int64_t value);
-    // Get instance field: private System.Int64 _lastStatisticsUpdateTime
-    int64_t _get__lastStatisticsUpdateTime();
-    // Set instance field: private System.Int64 _lastStatisticsUpdateTime
-    void _set__lastStatisticsUpdateTime(int64_t value);
-    // Get instance field: private System.Action onConnectedEvent
-    System::Action* _get_onConnectedEvent();
-    // Set instance field: private System.Action onConnectedEvent
-    void _set_onConnectedEvent(System::Action* value);
-    // Get instance field: private System.Action`1<DisconnectedReason> onDisconnectedEvent
-    System::Action_1<GlobalNamespace::DisconnectedReason>* _get_onDisconnectedEvent();
-    // Set instance field: private System.Action`1<DisconnectedReason> onDisconnectedEvent
-    void _set_onDisconnectedEvent(System::Action_1<GlobalNamespace::DisconnectedReason>* value);
-    // Get instance field: private System.Action`1<ConnectionFailedReason> onConnectionFailedEvent
-    System::Action_1<GlobalNamespace::ConnectionFailedReason>* _get_onConnectionFailedEvent();
-    // Set instance field: private System.Action`1<ConnectionFailedReason> onConnectionFailedEvent
-    void _set_onConnectionFailedEvent(System::Action_1<GlobalNamespace::ConnectionFailedReason>* value);
-    // Get instance field: private System.Action`1<IConnection> onConnectionConnectedEvent
-    System::Action_1<GlobalNamespace::IConnection*>* _get_onConnectionConnectedEvent();
-    // Set instance field: private System.Action`1<IConnection> onConnectionConnectedEvent
-    void _set_onConnectionConnectedEvent(System::Action_1<GlobalNamespace::IConnection*>* value);
-    // Get instance field: private System.Action`2<IConnection,DisconnectedReason> onConnectionDisconnectedEvent
-    System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>* _get_onConnectionDisconnectedEvent();
-    // Set instance field: private System.Action`2<IConnection,DisconnectedReason> onConnectionDisconnectedEvent
-    void _set_onConnectionDisconnectedEvent(System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>* value);
-    // Get instance field: private System.Action`2<IConnection,System.Single> onLatencyUpdatedEvent
-    System::Action_2<GlobalNamespace::IConnection*, float>* _get_onLatencyUpdatedEvent();
-    // Set instance field: private System.Action`2<IConnection,System.Single> onLatencyUpdatedEvent
-    void _set_onLatencyUpdatedEvent(System::Action_2<GlobalNamespace::IConnection*, float>* value);
-    // Get instance field: private System.Action`3<IConnection,LiteNetLib.Utils.NetDataReader,LiteNetLib.DeliveryMethod> onReceivedDataEvent
-    System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>* _get_onReceivedDataEvent();
-    // Set instance field: private System.Action`3<IConnection,LiteNetLib.Utils.NetDataReader,LiteNetLib.DeliveryMethod> onReceivedDataEvent
-    void _set_onReceivedDataEvent(System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>* value);
-    // Get instance field: private System.Action`2<System.Net.IPEndPoint,LiteNetLib.Utils.NetDataReader> onReceiveUnconnectedDataEvent
-    System::Action_2<System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataReader*>* _get_onReceiveUnconnectedDataEvent();
-    // Set instance field: private System.Action`2<System.Net.IPEndPoint,LiteNetLib.Utils.NetDataReader> onReceiveUnconnectedDataEvent
-    void _set_onReceiveUnconnectedDataEvent(System::Action_2<System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataReader*>* value);
-    // Get instance field: private LiteNetLibConnectionManager/StatisticsUpdated onStatisticsUpdatedEvent
-    GlobalNamespace::LiteNetLibConnectionManager::StatisticsUpdated* _get_onStatisticsUpdatedEvent();
-    // Set instance field: private LiteNetLibConnectionManager/StatisticsUpdated onStatisticsUpdatedEvent
-    void _set_onStatisticsUpdatedEvent(GlobalNamespace::LiteNetLibConnectionManager::StatisticsUpdated* value);
+    // Get instance field reference: private readonly System.Byte[] _unconnectedPacketHeader
+    ::Array<uint8_t>*& dyn__unconnectedPacketHeader();
+    // Get instance field reference: private readonly LiteNetLib.NetManager _netManager
+    LiteNetLib::NetManager*& dyn__netManager();
+    // Get instance field reference: private readonly PacketEncryptionLayer _encryptionLayer
+    GlobalNamespace::PacketEncryptionLayer*& dyn__encryptionLayer();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<LiteNetLibConnectionManager/NetPeerConnection> _connections
+    System::Collections::Generic::List_1<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>*& dyn__connections();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<LiteNetLibConnectionManager/NetPeerConnection> _pendingConnections
+    System::Collections::Generic::List_1<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>*& dyn__pendingConnections();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<LiteNetLibConnectionManager/NetPeerConnectionRequest> _pendingRequests
+    System::Collections::Generic::List_1<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest*>*& dyn__pendingRequests();
+    // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<System.Net.IPEndPoint> _pendingReconnections
+    System::Collections::Generic::HashSet_1<System::Net::IPEndPoint*>*& dyn__pendingReconnections();
+    // Get instance field reference: private System.String _userId
+    ::Il2CppString*& dyn__userId();
+    // Get instance field reference: private System.String _userName
+    ::Il2CppString*& dyn__userName();
+    // Get instance field reference: private System.String _secret
+    ::Il2CppString*& dyn__secret();
+    // Get instance field reference: private LiteNetLibConnectionManager/NetworkMode _mode
+    GlobalNamespace::LiteNetLibConnectionManager::NetworkMode& dyn__mode();
+    // Get instance field reference: private LiteNetLibConnectionManager/ConnectionState _connectionState
+    GlobalNamespace::LiteNetLibConnectionManager::ConnectionState& dyn__connectionState();
+    // Get instance field reference: private System.Threading.CancellationTokenSource _backgroundSentryDisconnectCts
+    System::Threading::CancellationTokenSource*& dyn__backgroundSentryDisconnectCts();
+    // Get instance field reference: private System.Threading.CancellationTokenSource _backgroundSentryShutdownCts
+    System::Threading::CancellationTokenSource*& dyn__backgroundSentryShutdownCts();
+    // Get instance field reference: private System.Boolean _sentryDisconnected
+    bool& dyn__sentryDisconnected();
+    // Get instance field reference: private System.Boolean _sentryShutdown
+    bool& dyn__sentryShutdown();
+    // Get instance field reference: private System.Int64 _lastPollUpdateTime
+    int64_t& dyn__lastPollUpdateTime();
+    // Get instance field reference: private System.Int64 _lastStatisticsUpdateTime
+    int64_t& dyn__lastStatisticsUpdateTime();
+    // Get instance field reference: private System.Action onConnectedEvent
+    System::Action*& dyn_onConnectedEvent();
+    // Get instance field reference: private System.Action`1<DisconnectedReason> onDisconnectedEvent
+    System::Action_1<GlobalNamespace::DisconnectedReason>*& dyn_onDisconnectedEvent();
+    // Get instance field reference: private System.Action`1<ConnectionFailedReason> onConnectionFailedEvent
+    System::Action_1<GlobalNamespace::ConnectionFailedReason>*& dyn_onConnectionFailedEvent();
+    // Get instance field reference: private System.Action`1<IConnection> onConnectionConnectedEvent
+    System::Action_1<GlobalNamespace::IConnection*>*& dyn_onConnectionConnectedEvent();
+    // Get instance field reference: private System.Action`2<IConnection,DisconnectedReason> onConnectionDisconnectedEvent
+    System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>*& dyn_onConnectionDisconnectedEvent();
+    // Get instance field reference: private System.Action`2<IConnection,System.Single> onLatencyUpdatedEvent
+    System::Action_2<GlobalNamespace::IConnection*, float>*& dyn_onLatencyUpdatedEvent();
+    // Get instance field reference: private System.Action`3<IConnection,LiteNetLib.Utils.NetDataReader,LiteNetLib.DeliveryMethod> onReceivedDataEvent
+    System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>*& dyn_onReceivedDataEvent();
+    // Get instance field reference: private System.Action`2<System.Net.IPEndPoint,LiteNetLib.Utils.NetDataReader> onReceiveUnconnectedDataEvent
+    System::Action_2<System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataReader*>*& dyn_onReceiveUnconnectedDataEvent();
+    // Get instance field reference: private LiteNetLibConnectionManager/StatisticsUpdated onStatisticsUpdatedEvent
+    GlobalNamespace::LiteNetLibConnectionManager::StatisticsUpdated*& dyn_onStatisticsUpdatedEvent();
     // public System.String get_userId()
     // Offset: 0x132B56C
     ::Il2CppString* get_userId();

@@ -38,10 +38,8 @@ namespace GlobalNamespace {
     constexpr operator ::Array<::Il2CppChar>*() const noexcept {
       return password;
     }
-    // Get instance field: private readonly System.Char[] _password
-    ::Array<::Il2CppChar>* _get__password();
-    // Set instance field: private readonly System.Char[] _password
-    void _set__password(::Array<::Il2CppChar>* value);
+    // Get instance field reference: private readonly System.Char[] _password
+    ::Array<::Il2CppChar>*& dyn__password();
     // public System.Void .ctor(System.Byte[] password)
     // Offset: 0x16FCF2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

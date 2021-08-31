@@ -88,10 +88,8 @@ namespace HMUI {
       static HMUI::ToggleWithCallbacks::SelectionState _get_Disabled();
       // Set static field: static public HMUI.ToggleWithCallbacks/HMUI.SelectionState Disabled
       static void _set_Disabled(HMUI::ToggleWithCallbacks::SelectionState value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // HMUI.ToggleWithCallbacks/HMUI.SelectionState
     #pragma pack(pop)
     static check_size<sizeof(ToggleWithCallbacks::SelectionState), 0 + sizeof(int)> __HMUI_ToggleWithCallbacks_SelectionStateSizeCheck;
@@ -104,10 +102,8 @@ namespace HMUI {
     static_assert(sizeof(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>*) == 0x8);
     // Creating value type constructor for type: ToggleWithCallbacks
     ToggleWithCallbacks(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>* stateDidChangeEvent_ = {}) noexcept : stateDidChangeEvent{stateDidChangeEvent_} {}
-    // Get instance field: private System.Action`1<HMUI.ToggleWithCallbacks/HMUI.SelectionState> stateDidChangeEvent
-    System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>* _get_stateDidChangeEvent();
-    // Set instance field: private System.Action`1<HMUI.ToggleWithCallbacks/HMUI.SelectionState> stateDidChangeEvent
-    void _set_stateDidChangeEvent(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>* value);
+    // Get instance field reference: private System.Action`1<HMUI.ToggleWithCallbacks/HMUI.SelectionState> stateDidChangeEvent
+    System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>*& dyn_stateDidChangeEvent();
     // public HMUI.ToggleWithCallbacks/HMUI.SelectionState get_selectionState()
     // Offset: 0x1303C44
     HMUI::ToggleWithCallbacks::SelectionState get_selectionState();

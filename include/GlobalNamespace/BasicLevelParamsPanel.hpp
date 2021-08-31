@@ -43,14 +43,10 @@ namespace GlobalNamespace {
     BasicLevelParamsPanel(TMPro::TextMeshProUGUI* durationText_ = {}, TMPro::TextMeshProUGUI* bpmText_ = {}) noexcept : durationText{durationText_}, bpmText{bpmText_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private TMPro.TextMeshProUGUI _durationText
-    TMPro::TextMeshProUGUI* _get__durationText();
-    // Set instance field: private TMPro.TextMeshProUGUI _durationText
-    void _set__durationText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _bpmText
-    TMPro::TextMeshProUGUI* _get__bpmText();
-    // Set instance field: private TMPro.TextMeshProUGUI _bpmText
-    void _set__bpmText(TMPro::TextMeshProUGUI* value);
+    // Get instance field reference: private TMPro.TextMeshProUGUI _durationText
+    TMPro::TextMeshProUGUI*& dyn__durationText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _bpmText
+    TMPro::TextMeshProUGUI*& dyn__bpmText();
     // public System.Void set_duration(System.Single value)
     // Offset: 0x11E6D50
     void set_duration(float value);

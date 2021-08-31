@@ -92,30 +92,18 @@ namespace System::IO {
     operator System::IAsyncResult() noexcept {
       return *reinterpret_cast<System::IAsyncResult*>(this);
     }
-    // Get instance field: private readonly System.Object _stateObject
-    ::Il2CppObject* _get__stateObject();
-    // Set instance field: private readonly System.Object _stateObject
-    void _set__stateObject(::Il2CppObject* value);
-    // Get instance field: private readonly System.Boolean _isWrite
-    bool _get__isWrite();
-    // Set instance field: private readonly System.Boolean _isWrite
-    void _set__isWrite(bool value);
-    // Get instance field: private System.Threading.ManualResetEvent _waitHandle
-    System::Threading::ManualResetEvent* _get__waitHandle();
-    // Set instance field: private System.Threading.ManualResetEvent _waitHandle
-    void _set__waitHandle(System::Threading::ManualResetEvent* value);
-    // Get instance field: private System.Runtime.ExceptionServices.ExceptionDispatchInfo _exceptionInfo
-    System::Runtime::ExceptionServices::ExceptionDispatchInfo* _get__exceptionInfo();
-    // Set instance field: private System.Runtime.ExceptionServices.ExceptionDispatchInfo _exceptionInfo
-    void _set__exceptionInfo(System::Runtime::ExceptionServices::ExceptionDispatchInfo* value);
-    // Get instance field: private System.Boolean _endXxxCalled
-    bool _get__endXxxCalled();
-    // Set instance field: private System.Boolean _endXxxCalled
-    void _set__endXxxCalled(bool value);
-    // Get instance field: private System.Int32 _bytesRead
-    int _get__bytesRead();
-    // Set instance field: private System.Int32 _bytesRead
-    void _set__bytesRead(int value);
+    // Get instance field reference: private readonly System.Object _stateObject
+    ::Il2CppObject*& dyn__stateObject();
+    // Get instance field reference: private readonly System.Boolean _isWrite
+    bool& dyn__isWrite();
+    // Get instance field reference: private System.Threading.ManualResetEvent _waitHandle
+    System::Threading::ManualResetEvent*& dyn__waitHandle();
+    // Get instance field reference: private System.Runtime.ExceptionServices.ExceptionDispatchInfo _exceptionInfo
+    System::Runtime::ExceptionServices::ExceptionDispatchInfo*& dyn__exceptionInfo();
+    // Get instance field reference: private System.Boolean _endXxxCalled
+    bool& dyn__endXxxCalled();
+    // Get instance field reference: private System.Int32 _bytesRead
+    int& dyn__bytesRead();
     // public System.Boolean get_IsCompleted()
     // Offset: 0x197E43C
     bool get_IsCompleted();

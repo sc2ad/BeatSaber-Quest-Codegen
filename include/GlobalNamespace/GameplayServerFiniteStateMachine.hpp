@@ -104,46 +104,26 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: GameplayServerFiniteStateMachine
     GameplayServerFiniteStateMachine(MasterServer::ITimeProvider* timeProvider_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, ::Il2CppString* ownerUserId_ = {}, GlobalNamespace::BeatmapLevelSelectionMask selectionMask_ = {}, GlobalNamespace::GameplayServerConfiguration configuration_ = {}, GlobalNamespace::IServerBeatmapProvider* beatmapProvider_ = {}, GlobalNamespace::MenuRpcManager* menuRpcManager_ = {}, GlobalNamespace::GameplayRpcManager* gameplayRpcManager_ = {}, GlobalNamespace::GameState* state_ = {}, bool enteringState_ = {}) noexcept : timeProvider{timeProvider_}, multiplayerSessionManager{multiplayerSessionManager_}, ownerUserId{ownerUserId_}, selectionMask{selectionMask_}, configuration{configuration_}, beatmapProvider{beatmapProvider_}, menuRpcManager{menuRpcManager_}, gameplayRpcManager{gameplayRpcManager_}, state{state_}, enteringState{enteringState_} {}
-    // Get instance field: private MasterServer.ITimeProvider <timeProvider>k__BackingField
-    MasterServer::ITimeProvider* _get_$timeProvider$k__BackingField();
-    // Set instance field: private MasterServer.ITimeProvider <timeProvider>k__BackingField
-    void _set_$timeProvider$k__BackingField(MasterServer::ITimeProvider* value);
-    // Get instance field: private IMultiplayerSessionManager <multiplayerSessionManager>k__BackingField
-    GlobalNamespace::IMultiplayerSessionManager* _get_$multiplayerSessionManager$k__BackingField();
-    // Set instance field: private IMultiplayerSessionManager <multiplayerSessionManager>k__BackingField
-    void _set_$multiplayerSessionManager$k__BackingField(GlobalNamespace::IMultiplayerSessionManager* value);
-    // Get instance field: private System.String <ownerUserId>k__BackingField
-    ::Il2CppString* _get_$ownerUserId$k__BackingField();
-    // Set instance field: private System.String <ownerUserId>k__BackingField
-    void _set_$ownerUserId$k__BackingField(::Il2CppString* value);
-    // Get instance field: private BeatmapLevelSelectionMask <selectionMask>k__BackingField
-    GlobalNamespace::BeatmapLevelSelectionMask _get_$selectionMask$k__BackingField();
-    // Set instance field: private BeatmapLevelSelectionMask <selectionMask>k__BackingField
-    void _set_$selectionMask$k__BackingField(GlobalNamespace::BeatmapLevelSelectionMask value);
-    // Get instance field: private GameplayServerConfiguration <configuration>k__BackingField
-    GlobalNamespace::GameplayServerConfiguration _get_$configuration$k__BackingField();
-    // Set instance field: private GameplayServerConfiguration <configuration>k__BackingField
-    void _set_$configuration$k__BackingField(GlobalNamespace::GameplayServerConfiguration value);
-    // Get instance field: private IServerBeatmapProvider <beatmapProvider>k__BackingField
-    GlobalNamespace::IServerBeatmapProvider* _get_$beatmapProvider$k__BackingField();
-    // Set instance field: private IServerBeatmapProvider <beatmapProvider>k__BackingField
-    void _set_$beatmapProvider$k__BackingField(GlobalNamespace::IServerBeatmapProvider* value);
-    // Get instance field: private MenuRpcManager <menuRpcManager>k__BackingField
-    GlobalNamespace::MenuRpcManager* _get_$menuRpcManager$k__BackingField();
-    // Set instance field: private MenuRpcManager <menuRpcManager>k__BackingField
-    void _set_$menuRpcManager$k__BackingField(GlobalNamespace::MenuRpcManager* value);
-    // Get instance field: private GameplayRpcManager <gameplayRpcManager>k__BackingField
-    GlobalNamespace::GameplayRpcManager* _get_$gameplayRpcManager$k__BackingField();
-    // Set instance field: private GameplayRpcManager <gameplayRpcManager>k__BackingField
-    void _set_$gameplayRpcManager$k__BackingField(GlobalNamespace::GameplayRpcManager* value);
-    // Get instance field: protected GameState state
-    GlobalNamespace::GameState* _get_state();
-    // Set instance field: protected GameState state
-    void _set_state(GlobalNamespace::GameState* value);
-    // Get instance field: protected System.Boolean enteringState
-    bool _get_enteringState();
-    // Set instance field: protected System.Boolean enteringState
-    void _set_enteringState(bool value);
+    // Get instance field reference: private MasterServer.ITimeProvider <timeProvider>k__BackingField
+    MasterServer::ITimeProvider*& dyn_$timeProvider$k__BackingField();
+    // Get instance field reference: private IMultiplayerSessionManager <multiplayerSessionManager>k__BackingField
+    GlobalNamespace::IMultiplayerSessionManager*& dyn_$multiplayerSessionManager$k__BackingField();
+    // Get instance field reference: private System.String <ownerUserId>k__BackingField
+    ::Il2CppString*& dyn_$ownerUserId$k__BackingField();
+    // Get instance field reference: private BeatmapLevelSelectionMask <selectionMask>k__BackingField
+    GlobalNamespace::BeatmapLevelSelectionMask& dyn_$selectionMask$k__BackingField();
+    // Get instance field reference: private GameplayServerConfiguration <configuration>k__BackingField
+    GlobalNamespace::GameplayServerConfiguration& dyn_$configuration$k__BackingField();
+    // Get instance field reference: private IServerBeatmapProvider <beatmapProvider>k__BackingField
+    GlobalNamespace::IServerBeatmapProvider*& dyn_$beatmapProvider$k__BackingField();
+    // Get instance field reference: private MenuRpcManager <menuRpcManager>k__BackingField
+    GlobalNamespace::MenuRpcManager*& dyn_$menuRpcManager$k__BackingField();
+    // Get instance field reference: private GameplayRpcManager <gameplayRpcManager>k__BackingField
+    GlobalNamespace::GameplayRpcManager*& dyn_$gameplayRpcManager$k__BackingField();
+    // Get instance field reference: protected GameState state
+    GlobalNamespace::GameState*& dyn_state();
+    // Get instance field reference: protected System.Boolean enteringState
+    bool& dyn_enteringState();
     // public MasterServer.ITimeProvider get_timeProvider()
     // Offset: 0x1329F9C
     MasterServer::ITimeProvider* get_timeProvider();

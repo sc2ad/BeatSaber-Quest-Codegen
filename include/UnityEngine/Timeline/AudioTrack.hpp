@@ -68,10 +68,8 @@ namespace UnityEngine::Timeline {
     static_assert(sizeof(UnityEngine::Timeline::AudioMixerProperties*) == 0x8);
     // Creating value type constructor for type: AudioTrack
     AudioTrack(UnityEngine::Timeline::AudioMixerProperties* m_TrackProperties_ = {}) noexcept : m_TrackProperties{m_TrackProperties_} {}
-    // Get instance field: private UnityEngine.Timeline.AudioMixerProperties m_TrackProperties
-    UnityEngine::Timeline::AudioMixerProperties* _get_m_TrackProperties();
-    // Set instance field: private UnityEngine.Timeline.AudioMixerProperties m_TrackProperties
-    void _set_m_TrackProperties(UnityEngine::Timeline::AudioMixerProperties* value);
+    // Get instance field reference: private UnityEngine.Timeline.AudioMixerProperties m_TrackProperties
+    UnityEngine::Timeline::AudioMixerProperties*& dyn_m_TrackProperties();
     // public UnityEngine.Timeline.TimelineClip CreateClip(UnityEngine.AudioClip clip)
     // Offset: 0x181AD54
     UnityEngine::Timeline::TimelineClip* CreateClip(UnityEngine::AudioClip* clip);

@@ -97,10 +97,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::SelectableStateController::ViewState _get_SelectedAndHighlighted();
       // Set static field: static public SelectableStateController/ViewState SelectedAndHighlighted
       static void _set_SelectedAndHighlighted(GlobalNamespace::SelectableStateController::ViewState value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // SelectableStateController/ViewState
     #pragma pack(pop)
     static check_size<sizeof(SelectableStateController::ViewState), 0 + sizeof(int)> __GlobalNamespace_SelectableStateController_ViewStateSizeCheck;
@@ -128,18 +126,12 @@ namespace GlobalNamespace {
     SelectableStateController(Tweening::TweeningManager* tweeningManager_ = {}, System::Action_1<GlobalNamespace::SelectableStateController::ViewState>* stateDidChangeEvent_ = {}, GlobalNamespace::SelectableStateController::ViewState currentViewState_ = {}) noexcept : tweeningManager{tweeningManager_}, stateDidChangeEvent{stateDidChangeEvent_}, currentViewState{currentViewState_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private readonly Tweening.TweeningManager _tweeningManager
-    Tweening::TweeningManager* _get__tweeningManager();
-    // Set instance field: private readonly Tweening.TweeningManager _tweeningManager
-    void _set__tweeningManager(Tweening::TweeningManager* value);
-    // Get instance field: private System.Action`1<SelectableStateController/ViewState> stateDidChangeEvent
-    System::Action_1<GlobalNamespace::SelectableStateController::ViewState>* _get_stateDidChangeEvent();
-    // Set instance field: private System.Action`1<SelectableStateController/ViewState> stateDidChangeEvent
-    void _set_stateDidChangeEvent(System::Action_1<GlobalNamespace::SelectableStateController::ViewState>* value);
-    // Get instance field: private SelectableStateController/ViewState <currentViewState>k__BackingField
-    GlobalNamespace::SelectableStateController::ViewState _get_$currentViewState$k__BackingField();
-    // Set instance field: private SelectableStateController/ViewState <currentViewState>k__BackingField
-    void _set_$currentViewState$k__BackingField(GlobalNamespace::SelectableStateController::ViewState value);
+    // Get instance field reference: private readonly Tweening.TweeningManager _tweeningManager
+    Tweening::TweeningManager*& dyn__tweeningManager();
+    // Get instance field reference: private System.Action`1<SelectableStateController/ViewState> stateDidChangeEvent
+    System::Action_1<GlobalNamespace::SelectableStateController::ViewState>*& dyn_stateDidChangeEvent();
+    // Get instance field reference: private SelectableStateController/ViewState <currentViewState>k__BackingField
+    GlobalNamespace::SelectableStateController::ViewState& dyn_$currentViewState$k__BackingField();
     // public Tweening.TweeningManager get_tweeningManager()
     // Offset: 0x119DFB4
     Tweening::TweeningManager* get_tweeningManager();

@@ -87,14 +87,10 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public System.Collections.Generic.List`1<System.String> scenes
-      System::Collections::Generic::List_1<::Il2CppString*>* _get_scenes();
-      // Set instance field: public System.Collections.Generic.List`1<System.String> scenes
-      void _set_scenes(System::Collections::Generic::List_1<::Il2CppString*>* value);
-      // Get instance field: public System.Int64 version
-      int64_t _get_version();
-      // Set instance field: public System.Int64 version
-      void _set_version(int64_t value);
+      // Get instance field reference: public System.Collections.Generic.List`1<System.String> scenes
+      System::Collections::Generic::List_1<::Il2CppString*>*& dyn_scenes();
+      // Get instance field reference: public System.Int64 version
+      int64_t& dyn_version();
       // public System.Void .ctor(System.Collections.Generic.List`1<System.String> sceneList, System.Int64 currentSceneEpochVersion)
       // Offset: 0x1637320
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -205,58 +201,32 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_resourceBundleName();
     // Set static field: static public System.String resourceBundleName
     static void _set_resourceBundleName(::Il2CppString* value);
-    // Get instance field: public System.Single sceneCheckIntervalSeconds
-    float _get_sceneCheckIntervalSeconds();
-    // Set instance field: public System.Single sceneCheckIntervalSeconds
-    void _set_sceneCheckIntervalSeconds(float value);
-    // Get instance field: public System.Single logCloseTime
-    float _get_logCloseTime();
-    // Set instance field: public System.Single logCloseTime
-    void _set_logCloseTime(float value);
-    // Get instance field: public UnityEngine.Canvas mainCanvas
-    UnityEngine::Canvas* _get_mainCanvas();
-    // Set instance field: public UnityEngine.Canvas mainCanvas
-    void _set_mainCanvas(UnityEngine::Canvas* value);
-    // Get instance field: public UnityEngine.UI.Text logTextBox
-    UnityEngine::UI::Text* _get_logTextBox();
-    // Set instance field: public UnityEngine.UI.Text logTextBox
-    void _set_logTextBox(UnityEngine::UI::Text* value);
-    // Get instance field: private UnityEngine.AsyncOperation loadSceneOperation
-    UnityEngine::AsyncOperation* _get_loadSceneOperation();
-    // Set instance field: private UnityEngine.AsyncOperation loadSceneOperation
-    void _set_loadSceneOperation(UnityEngine::AsyncOperation* value);
-    // Get instance field: private System.String formattedLogText
-    ::Il2CppString* _get_formattedLogText();
-    // Set instance field: private System.String formattedLogText
-    void _set_formattedLogText(::Il2CppString* value);
-    // Get instance field: private System.Single closeLogTimer
-    float _get_closeLogTimer();
-    // Set instance field: private System.Single closeLogTimer
-    void _set_closeLogTimer(float value);
-    // Get instance field: private System.Boolean closeLogDialogue
-    bool _get_closeLogDialogue();
-    // Set instance field: private System.Boolean closeLogDialogue
-    void _set_closeLogDialogue(bool value);
-    // Get instance field: private System.Boolean canvasPosUpdated
-    bool _get_canvasPosUpdated();
-    // Set instance field: private System.Boolean canvasPosUpdated
-    void _set_canvasPosUpdated(bool value);
-    // Get instance field: private System.String scenePath
-    ::Il2CppString* _get_scenePath();
-    // Set instance field: private System.String scenePath
-    void _set_scenePath(::Il2CppString* value);
-    // Get instance field: private System.String sceneLoadDataPath
-    ::Il2CppString* _get_sceneLoadDataPath();
-    // Set instance field: private System.String sceneLoadDataPath
-    void _set_sceneLoadDataPath(::Il2CppString* value);
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.AssetBundle> loadedAssetBundles
-    System::Collections::Generic::List_1<UnityEngine::AssetBundle*>* _get_loadedAssetBundles();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.AssetBundle> loadedAssetBundles
-    void _set_loadedAssetBundles(System::Collections::Generic::List_1<UnityEngine::AssetBundle*>* value);
-    // Get instance field: private OVRSceneLoader/SceneInfo currentSceneInfo
-    GlobalNamespace::OVRSceneLoader::SceneInfo _get_currentSceneInfo();
-    // Set instance field: private OVRSceneLoader/SceneInfo currentSceneInfo
-    void _set_currentSceneInfo(GlobalNamespace::OVRSceneLoader::SceneInfo value);
+    // Get instance field reference: public System.Single sceneCheckIntervalSeconds
+    float& dyn_sceneCheckIntervalSeconds();
+    // Get instance field reference: public System.Single logCloseTime
+    float& dyn_logCloseTime();
+    // Get instance field reference: public UnityEngine.Canvas mainCanvas
+    UnityEngine::Canvas*& dyn_mainCanvas();
+    // Get instance field reference: public UnityEngine.UI.Text logTextBox
+    UnityEngine::UI::Text*& dyn_logTextBox();
+    // Get instance field reference: private UnityEngine.AsyncOperation loadSceneOperation
+    UnityEngine::AsyncOperation*& dyn_loadSceneOperation();
+    // Get instance field reference: private System.String formattedLogText
+    ::Il2CppString*& dyn_formattedLogText();
+    // Get instance field reference: private System.Single closeLogTimer
+    float& dyn_closeLogTimer();
+    // Get instance field reference: private System.Boolean closeLogDialogue
+    bool& dyn_closeLogDialogue();
+    // Get instance field reference: private System.Boolean canvasPosUpdated
+    bool& dyn_canvasPosUpdated();
+    // Get instance field reference: private System.String scenePath
+    ::Il2CppString*& dyn_scenePath();
+    // Get instance field reference: private System.String sceneLoadDataPath
+    ::Il2CppString*& dyn_sceneLoadDataPath();
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.AssetBundle> loadedAssetBundles
+    System::Collections::Generic::List_1<UnityEngine::AssetBundle*>*& dyn_loadedAssetBundles();
+    // Get instance field reference: private OVRSceneLoader/SceneInfo currentSceneInfo
+    GlobalNamespace::OVRSceneLoader::SceneInfo& dyn_currentSceneInfo();
     // private System.Void Awake()
     // Offset: 0x1635A40
     void Awake();

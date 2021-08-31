@@ -52,18 +52,12 @@ namespace System {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private System.RuntimeTypeHandle type
-    System::RuntimeTypeHandle _get_type();
-    // Set instance field: private System.RuntimeTypeHandle type
-    void _set_type(System::RuntimeTypeHandle value);
-    // Get instance field: private System.IntPtr Value
-    System::IntPtr _get_Value();
-    // Set instance field: private System.IntPtr Value
-    void _set_Value(System::IntPtr value);
-    // Get instance field: private System.IntPtr Type
-    System::IntPtr _get_Type();
-    // Set instance field: private System.IntPtr Type
-    void _set_Type(System::IntPtr value);
+    // Get instance field reference: private System.RuntimeTypeHandle type
+    System::RuntimeTypeHandle& dyn_type();
+    // Get instance field reference: private System.IntPtr Value
+    System::IntPtr& dyn_Value();
+    // Get instance field reference: private System.IntPtr Type
+    System::IntPtr& dyn_Type();
     // System.Boolean get_IsNull()
     // Offset: 0x232D654
     bool get_IsNull();

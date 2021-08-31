@@ -73,34 +73,20 @@ namespace GlobalNamespace {
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
-    // Get instance field: private System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: private System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: private System.Object <>2__current
-    ::Il2CppObject* _get_$$2__current();
-    // Set instance field: private System.Object <>2__current
-    void _set_$$2__current(::Il2CppObject* value);
-    // Get instance field: public MultiplayerIntroCountdown <>4__this
-    GlobalNamespace::MultiplayerIntroCountdown* _get_$$4__this();
-    // Set instance field: public MultiplayerIntroCountdown <>4__this
-    void _set_$$4__this(GlobalNamespace::MultiplayerIntroCountdown* value);
-    // Get instance field: public System.String text
-    ::Il2CppString* _get_text();
-    // Set instance field: public System.String text
-    void _set_text(::Il2CppString* value);
-    // Get instance field: public System.Single appearDuration
-    float _get_appearDuration();
-    // Set instance field: public System.Single appearDuration
-    void _set_appearDuration(float value);
-    // Get instance field: public System.Single disappearDuration
-    float _get_disappearDuration();
-    // Set instance field: public System.Single disappearDuration
-    void _set_disappearDuration(float value);
-    // Get instance field: private MultiplayerIntroCountdown/<>c__DisplayClass25_0 <>8__1
-    GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0* _get_$$8__1();
-    // Set instance field: private MultiplayerIntroCountdown/<>c__DisplayClass25_0 <>8__1
-    void _set_$$8__1(GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0* value);
+    // Get instance field reference: private System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: private System.Object <>2__current
+    ::Il2CppObject*& dyn_$$2__current();
+    // Get instance field reference: public MultiplayerIntroCountdown <>4__this
+    GlobalNamespace::MultiplayerIntroCountdown*& dyn_$$4__this();
+    // Get instance field reference: public System.String text
+    ::Il2CppString*& dyn_text();
+    // Get instance field reference: public System.Single appearDuration
+    float& dyn_appearDuration();
+    // Get instance field reference: public System.Single disappearDuration
+    float& dyn_disappearDuration();
+    // Get instance field reference: private MultiplayerIntroCountdown/<>c__DisplayClass25_0 <>8__1
+    GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0*& dyn_$$8__1();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
     // Offset: 0x11B3490
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();

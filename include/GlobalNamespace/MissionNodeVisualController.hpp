@@ -87,38 +87,22 @@ namespace GlobalNamespace {
     MissionNodeVisualController(GlobalNamespace::MissionToggle* missionToggle_ = {}, GlobalNamespace::MissionNode* missionNode_ = {}, System::Action_1<GlobalNamespace::MissionNodeVisualController*>* nodeWasSelectEvent_ = {}, System::Action_1<GlobalNamespace::MissionNodeVisualController*>* nodeWasDisplayedEvent_ = {}, bool selected_ = {}, bool isInitialized_ = {}, bool cleared_ = {}, bool interactable_ = {}) noexcept : missionToggle{missionToggle_}, missionNode{missionNode_}, nodeWasSelectEvent{nodeWasSelectEvent_}, nodeWasDisplayedEvent{nodeWasDisplayedEvent_}, selected{selected_}, isInitialized{isInitialized_}, cleared{cleared_}, interactable{interactable_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private MissionToggle _missionToggle
-    GlobalNamespace::MissionToggle* _get__missionToggle();
-    // Set instance field: private MissionToggle _missionToggle
-    void _set__missionToggle(GlobalNamespace::MissionToggle* value);
-    // Get instance field: private MissionNode _missionNode
-    GlobalNamespace::MissionNode* _get__missionNode();
-    // Set instance field: private MissionNode _missionNode
-    void _set__missionNode(GlobalNamespace::MissionNode* value);
-    // Get instance field: private System.Action`1<MissionNodeVisualController> nodeWasSelectEvent
-    System::Action_1<GlobalNamespace::MissionNodeVisualController*>* _get_nodeWasSelectEvent();
-    // Set instance field: private System.Action`1<MissionNodeVisualController> nodeWasSelectEvent
-    void _set_nodeWasSelectEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);
-    // Get instance field: private System.Action`1<MissionNodeVisualController> nodeWasDisplayedEvent
-    System::Action_1<GlobalNamespace::MissionNodeVisualController*>* _get_nodeWasDisplayedEvent();
-    // Set instance field: private System.Action`1<MissionNodeVisualController> nodeWasDisplayedEvent
-    void _set_nodeWasDisplayedEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);
-    // Get instance field: private System.Boolean _selected
-    bool _get__selected();
-    // Set instance field: private System.Boolean _selected
-    void _set__selected(bool value);
-    // Get instance field: private System.Boolean _isInitialized
-    bool _get__isInitialized();
-    // Set instance field: private System.Boolean _isInitialized
-    void _set__isInitialized(bool value);
-    // Get instance field: private System.Boolean _cleared
-    bool _get__cleared();
-    // Set instance field: private System.Boolean _cleared
-    void _set__cleared(bool value);
-    // Get instance field: private System.Boolean _interactable
-    bool _get__interactable();
-    // Set instance field: private System.Boolean _interactable
-    void _set__interactable(bool value);
+    // Get instance field reference: private MissionToggle _missionToggle
+    GlobalNamespace::MissionToggle*& dyn__missionToggle();
+    // Get instance field reference: private MissionNode _missionNode
+    GlobalNamespace::MissionNode*& dyn__missionNode();
+    // Get instance field reference: private System.Action`1<MissionNodeVisualController> nodeWasSelectEvent
+    System::Action_1<GlobalNamespace::MissionNodeVisualController*>*& dyn_nodeWasSelectEvent();
+    // Get instance field reference: private System.Action`1<MissionNodeVisualController> nodeWasDisplayedEvent
+    System::Action_1<GlobalNamespace::MissionNodeVisualController*>*& dyn_nodeWasDisplayedEvent();
+    // Get instance field reference: private System.Boolean _selected
+    bool& dyn__selected();
+    // Get instance field reference: private System.Boolean _isInitialized
+    bool& dyn__isInitialized();
+    // Get instance field reference: private System.Boolean _cleared
+    bool& dyn__cleared();
+    // Get instance field reference: private System.Boolean _interactable
+    bool& dyn__interactable();
     // public MissionNode get_missionNode()
     // Offset: 0x11D6050
     GlobalNamespace::MissionNode* get_missionNode();

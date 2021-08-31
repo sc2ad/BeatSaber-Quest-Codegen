@@ -46,10 +46,8 @@ namespace UnityEngine::Playables {
     static UnityEngine::Playables::FrameData::EvaluationType _get_Playback();
     // Set static field: static public UnityEngine.Playables.FrameData/UnityEngine.Playables.EvaluationType Playback
     static void _set_Playback(UnityEngine::Playables::FrameData::EvaluationType value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.Playables.FrameData/UnityEngine.Playables.EvaluationType
   #pragma pack(pop)
   static check_size<sizeof(FrameData::EvaluationType), 0 + sizeof(int)> __UnityEngine_Playables_FrameData_EvaluationTypeSizeCheck;

@@ -79,10 +79,8 @@ namespace TMPro {
       static TMPro::ColorTween::ColorTweenMode _get_Alpha();
       // Set static field: static public TMPro.ColorTween/TMPro.ColorTweenMode Alpha
       static void _set_Alpha(TMPro::ColorTween::ColorTweenMode value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // TMPro.ColorTween/TMPro.ColorTweenMode
     #pragma pack(pop)
     static check_size<sizeof(ColorTween::ColorTweenMode), 0 + sizeof(int)> __TMPro_ColorTween_ColorTweenModeSizeCheck;
@@ -133,30 +131,18 @@ namespace TMPro {
     operator TMPro::ITweenValue() noexcept {
       return *reinterpret_cast<TMPro::ITweenValue*>(this);
     }
-    // Get instance field: private TMPro.ColorTween/TMPro.ColorTweenCallback m_Target
-    TMPro::ColorTween::ColorTweenCallback* _get_m_Target();
-    // Set instance field: private TMPro.ColorTween/TMPro.ColorTweenCallback m_Target
-    void _set_m_Target(TMPro::ColorTween::ColorTweenCallback* value);
-    // Get instance field: private UnityEngine.Color m_StartColor
-    UnityEngine::Color _get_m_StartColor();
-    // Set instance field: private UnityEngine.Color m_StartColor
-    void _set_m_StartColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color m_TargetColor
-    UnityEngine::Color _get_m_TargetColor();
-    // Set instance field: private UnityEngine.Color m_TargetColor
-    void _set_m_TargetColor(UnityEngine::Color value);
-    // Get instance field: private TMPro.ColorTween/TMPro.ColorTweenMode m_TweenMode
-    TMPro::ColorTween::ColorTweenMode _get_m_TweenMode();
-    // Set instance field: private TMPro.ColorTween/TMPro.ColorTweenMode m_TweenMode
-    void _set_m_TweenMode(TMPro::ColorTween::ColorTweenMode value);
-    // Get instance field: private System.Single m_Duration
-    float _get_m_Duration();
-    // Set instance field: private System.Single m_Duration
-    void _set_m_Duration(float value);
-    // Get instance field: private System.Boolean m_IgnoreTimeScale
-    bool _get_m_IgnoreTimeScale();
-    // Set instance field: private System.Boolean m_IgnoreTimeScale
-    void _set_m_IgnoreTimeScale(bool value);
+    // Get instance field reference: private TMPro.ColorTween/TMPro.ColorTweenCallback m_Target
+    TMPro::ColorTween::ColorTweenCallback*& dyn_m_Target();
+    // Get instance field reference: private UnityEngine.Color m_StartColor
+    UnityEngine::Color& dyn_m_StartColor();
+    // Get instance field reference: private UnityEngine.Color m_TargetColor
+    UnityEngine::Color& dyn_m_TargetColor();
+    // Get instance field reference: private TMPro.ColorTween/TMPro.ColorTweenMode m_TweenMode
+    TMPro::ColorTween::ColorTweenMode& dyn_m_TweenMode();
+    // Get instance field reference: private System.Single m_Duration
+    float& dyn_m_Duration();
+    // Get instance field reference: private System.Boolean m_IgnoreTimeScale
+    bool& dyn_m_IgnoreTimeScale();
     // public UnityEngine.Color get_startColor()
     // Offset: 0x11143A4
     UnityEngine::Color get_startColor();

@@ -182,78 +182,42 @@ namespace System::Net {
     static ::Il2CppString* _get_tspecials();
     // Set static field: static private System.String tspecials
     static void _set_tspecials(::Il2CppString* value);
-    // Get instance field: private System.Boolean disposed
-    bool _get_disposed();
-    // Set instance field: private System.Boolean disposed
-    void _set_disposed(bool value);
-    // Get instance field: private System.Text.Encoding content_encoding
-    System::Text::Encoding* _get_content_encoding();
-    // Set instance field: private System.Text.Encoding content_encoding
-    void _set_content_encoding(System::Text::Encoding* value);
-    // Get instance field: private System.Int64 content_length
-    int64_t _get_content_length();
-    // Set instance field: private System.Int64 content_length
-    void _set_content_length(int64_t value);
-    // Get instance field: private System.Boolean cl_set
-    bool _get_cl_set();
-    // Set instance field: private System.Boolean cl_set
-    void _set_cl_set(bool value);
-    // Get instance field: private System.String content_type
-    ::Il2CppString* _get_content_type();
-    // Set instance field: private System.String content_type
-    void _set_content_type(::Il2CppString* value);
-    // Get instance field: private System.Net.CookieCollection cookies
-    System::Net::CookieCollection* _get_cookies();
-    // Set instance field: private System.Net.CookieCollection cookies
-    void _set_cookies(System::Net::CookieCollection* value);
-    // Get instance field: private System.Net.WebHeaderCollection headers
-    System::Net::WebHeaderCollection* _get_headers();
-    // Set instance field: private System.Net.WebHeaderCollection headers
-    void _set_headers(System::Net::WebHeaderCollection* value);
-    // Get instance field: private System.Boolean keep_alive
-    bool _get_keep_alive();
-    // Set instance field: private System.Boolean keep_alive
-    void _set_keep_alive(bool value);
-    // Get instance field: private System.Net.ResponseStream output_stream
-    System::Net::ResponseStream* _get_output_stream();
-    // Set instance field: private System.Net.ResponseStream output_stream
-    void _set_output_stream(System::Net::ResponseStream* value);
-    // Get instance field: private System.Version version
-    System::Version* _get_version();
-    // Set instance field: private System.Version version
-    void _set_version(System::Version* value);
-    // Get instance field: private System.String location
-    ::Il2CppString* _get_location();
-    // Set instance field: private System.String location
-    void _set_location(::Il2CppString* value);
-    // Get instance field: private System.Int32 status_code
-    int _get_status_code();
-    // Set instance field: private System.Int32 status_code
-    void _set_status_code(int value);
-    // Get instance field: private System.String status_description
-    ::Il2CppString* _get_status_description();
-    // Set instance field: private System.String status_description
-    void _set_status_description(::Il2CppString* value);
-    // Get instance field: private System.Boolean chunked
-    bool _get_chunked();
-    // Set instance field: private System.Boolean chunked
-    void _set_chunked(bool value);
-    // Get instance field: private System.Net.HttpListenerContext context
-    System::Net::HttpListenerContext* _get_context();
-    // Set instance field: private System.Net.HttpListenerContext context
-    void _set_context(System::Net::HttpListenerContext* value);
-    // Get instance field: System.Boolean HeadersSent
-    bool _get_HeadersSent();
-    // Set instance field: System.Boolean HeadersSent
-    void _set_HeadersSent(bool value);
-    // Get instance field: System.Object headers_lock
-    ::Il2CppObject* _get_headers_lock();
-    // Set instance field: System.Object headers_lock
-    void _set_headers_lock(::Il2CppObject* value);
-    // Get instance field: private System.Boolean force_close_chunked
-    bool _get_force_close_chunked();
-    // Set instance field: private System.Boolean force_close_chunked
-    void _set_force_close_chunked(bool value);
+    // Get instance field reference: private System.Boolean disposed
+    bool& dyn_disposed();
+    // Get instance field reference: private System.Text.Encoding content_encoding
+    System::Text::Encoding*& dyn_content_encoding();
+    // Get instance field reference: private System.Int64 content_length
+    int64_t& dyn_content_length();
+    // Get instance field reference: private System.Boolean cl_set
+    bool& dyn_cl_set();
+    // Get instance field reference: private System.String content_type
+    ::Il2CppString*& dyn_content_type();
+    // Get instance field reference: private System.Net.CookieCollection cookies
+    System::Net::CookieCollection*& dyn_cookies();
+    // Get instance field reference: private System.Net.WebHeaderCollection headers
+    System::Net::WebHeaderCollection*& dyn_headers();
+    // Get instance field reference: private System.Boolean keep_alive
+    bool& dyn_keep_alive();
+    // Get instance field reference: private System.Net.ResponseStream output_stream
+    System::Net::ResponseStream*& dyn_output_stream();
+    // Get instance field reference: private System.Version version
+    System::Version*& dyn_version();
+    // Get instance field reference: private System.String location
+    ::Il2CppString*& dyn_location();
+    // Get instance field reference: private System.Int32 status_code
+    int& dyn_status_code();
+    // Get instance field reference: private System.String status_description
+    ::Il2CppString*& dyn_status_description();
+    // Get instance field reference: private System.Boolean chunked
+    bool& dyn_chunked();
+    // Get instance field reference: private System.Net.HttpListenerContext context
+    System::Net::HttpListenerContext*& dyn_context();
+    // Get instance field reference: System.Boolean HeadersSent
+    bool& dyn_HeadersSent();
+    // Get instance field reference: System.Object headers_lock
+    ::Il2CppObject*& dyn_headers_lock();
+    // Get instance field reference: private System.Boolean force_close_chunked
+    bool& dyn_force_close_chunked();
     // System.Boolean get_ForceCloseChunked()
     // Offset: 0x16734EC
     bool get_ForceCloseChunked();

@@ -43,10 +43,8 @@ namespace Org::BouncyCastle::Crypto::Generators {
     constexpr operator Org::BouncyCastle::Crypto::IDigest*() const noexcept {
       return digest;
     }
-    // Get instance field: private readonly Org.BouncyCastle.Crypto.IDigest digest
-    Org::BouncyCastle::Crypto::IDigest* _get_digest();
-    // Set instance field: private readonly Org.BouncyCastle.Crypto.IDigest digest
-    void _set_digest(Org::BouncyCastle::Crypto::IDigest* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IDigest digest
+    Org::BouncyCastle::Crypto::IDigest*& dyn_digest();
     // public System.Void Init(System.Byte[] password, System.Byte[] salt)
     // Offset: 0x1908CC4
     void Init(::Array<uint8_t>* password, ::Array<uint8_t>* salt);

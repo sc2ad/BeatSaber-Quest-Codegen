@@ -36,14 +36,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: Data
     Data(::Il2CppChar character_ = {}, int cellIdx_ = {}) noexcept : character{character_}, cellIdx{cellIdx_} {}
-    // Get instance field: public readonly System.Char character
-    ::Il2CppChar _get_character();
-    // Set instance field: public readonly System.Char character
-    void _set_character(::Il2CppChar value);
-    // Get instance field: public readonly System.Int32 cellIdx
-    int _get_cellIdx();
-    // Set instance field: public readonly System.Int32 cellIdx
-    void _set_cellIdx(int value);
+    // Get instance field reference: public readonly System.Char character
+    ::Il2CppChar& dyn_character();
+    // Get instance field reference: public readonly System.Int32 cellIdx
+    int& dyn_cellIdx();
     // public System.Void .ctor(System.Char character, System.Int32 cellIdx)
     // Offset: 0x1257478
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

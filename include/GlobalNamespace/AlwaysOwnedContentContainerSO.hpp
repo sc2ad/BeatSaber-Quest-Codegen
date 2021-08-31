@@ -55,18 +55,12 @@ namespace GlobalNamespace {
     AlwaysOwnedContentContainerSO(GlobalNamespace::AlwaysOwnedContentSO* alwaysOwnedContent_ = {}, System::Collections::Generic::HashSet_1<::Il2CppString*>* alwaysOwnedBeatmapLevelIds_ = {}, System::Collections::Generic::HashSet_1<::Il2CppString*>* alwaysOwnedPacksIds_ = {}) noexcept : alwaysOwnedContent{alwaysOwnedContent_}, alwaysOwnedBeatmapLevelIds{alwaysOwnedBeatmapLevelIds_}, alwaysOwnedPacksIds{alwaysOwnedPacksIds_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private AlwaysOwnedContentSO _alwaysOwnedContent
-    GlobalNamespace::AlwaysOwnedContentSO* _get__alwaysOwnedContent();
-    // Set instance field: private AlwaysOwnedContentSO _alwaysOwnedContent
-    void _set__alwaysOwnedContent(GlobalNamespace::AlwaysOwnedContentSO* value);
-    // Get instance field: private System.Collections.Generic.HashSet`1<System.String> _alwaysOwnedBeatmapLevelIds
-    System::Collections::Generic::HashSet_1<::Il2CppString*>* _get__alwaysOwnedBeatmapLevelIds();
-    // Set instance field: private System.Collections.Generic.HashSet`1<System.String> _alwaysOwnedBeatmapLevelIds
-    void _set__alwaysOwnedBeatmapLevelIds(System::Collections::Generic::HashSet_1<::Il2CppString*>* value);
-    // Get instance field: private System.Collections.Generic.HashSet`1<System.String> _alwaysOwnedPacksIds
-    System::Collections::Generic::HashSet_1<::Il2CppString*>* _get__alwaysOwnedPacksIds();
-    // Set instance field: private System.Collections.Generic.HashSet`1<System.String> _alwaysOwnedPacksIds
-    void _set__alwaysOwnedPacksIds(System::Collections::Generic::HashSet_1<::Il2CppString*>* value);
+    // Get instance field reference: private AlwaysOwnedContentSO _alwaysOwnedContent
+    GlobalNamespace::AlwaysOwnedContentSO*& dyn__alwaysOwnedContent();
+    // Get instance field reference: private System.Collections.Generic.HashSet`1<System.String> _alwaysOwnedBeatmapLevelIds
+    System::Collections::Generic::HashSet_1<::Il2CppString*>*& dyn__alwaysOwnedBeatmapLevelIds();
+    // Get instance field reference: private System.Collections.Generic.HashSet`1<System.String> _alwaysOwnedPacksIds
+    System::Collections::Generic::HashSet_1<::Il2CppString*>*& dyn__alwaysOwnedPacksIds();
     // public System.Collections.Generic.HashSet`1<System.String> get_alwaysOwnedBeatmapLevelIds()
     // Offset: 0x11781C4
     System::Collections::Generic::HashSet_1<::Il2CppString*>* get_alwaysOwnedBeatmapLevelIds();

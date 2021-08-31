@@ -44,10 +44,8 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::SortMethod _get_CounterClockwise();
     // Set static field: static public UnityEngine.ProBuilder.SortMethod CounterClockwise
     static void _set_CounterClockwise(UnityEngine::ProBuilder::SortMethod value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.ProBuilder.SortMethod
   #pragma pack(pop)
   static check_size<sizeof(SortMethod), 0 + sizeof(int)> __UnityEngine_ProBuilder_SortMethodSizeCheck;

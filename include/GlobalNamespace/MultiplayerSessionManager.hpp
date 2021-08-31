@@ -133,10 +133,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::MultiplayerSessionManager::SessionType _get_DedicatedServer();
       // Set static field: static public MultiplayerSessionManager/SessionType DedicatedServer
       static void _set_DedicatedServer(GlobalNamespace::MultiplayerSessionManager::SessionType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // MultiplayerSessionManager/SessionType
     #pragma pack(pop)
     static check_size<sizeof(MultiplayerSessionManager::SessionType), 0 + sizeof(int)> __GlobalNamespace_MultiplayerSessionManager_SessionTypeSizeCheck;
@@ -187,10 +185,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::MultiplayerSessionManager::ConnectionState _get_Disconnecting();
       // Set static field: static public MultiplayerSessionManager/ConnectionState Disconnecting
       static void _set_Disconnecting(GlobalNamespace::MultiplayerSessionManager::ConnectionState value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // MultiplayerSessionManager/ConnectionState
     #pragma pack(pop)
     static check_size<sizeof(MultiplayerSessionManager::ConnectionState), 0 + sizeof(int)> __GlobalNamespace_MultiplayerSessionManager_ConnectionStateSizeCheck;
@@ -317,78 +313,42 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kMultiplayerSessionState();
     // Set static field: static private System.String kMultiplayerSessionState
     static void _set_kMultiplayerSessionState(::Il2CppString* value);
-    // Get instance field: private readonly NetworkPacketSerializer`2<MultiplayerSessionManager/MessageType,IConnectedPlayer> _packetSerializer
-    GlobalNamespace::NetworkPacketSerializer_2<GlobalNamespace::MultiplayerSessionManager_MessageType, GlobalNamespace::IConnectedPlayer*>* _get__packetSerializer();
-    // Set instance field: private readonly NetworkPacketSerializer`2<MultiplayerSessionManager/MessageType,IConnectedPlayer> _packetSerializer
-    void _set__packetSerializer(GlobalNamespace::NetworkPacketSerializer_2<GlobalNamespace::MultiplayerSessionManager_MessageType, GlobalNamespace::IConnectedPlayer*>* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<IConnectedPlayer> _connectedPlayers
-    System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* _get__connectedPlayers();
-    // Set instance field: private readonly System.Collections.Generic.List`1<IConnectedPlayer> _connectedPlayers
-    void _set__connectedPlayers(System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* value);
-    // Get instance field: private readonly System.Collections.Generic.HashSet`1<System.String> _localPlayerState
-    System::Collections::Generic::HashSet_1<::Il2CppString*>* _get__localPlayerState();
-    // Set instance field: private readonly System.Collections.Generic.HashSet`1<System.String> _localPlayerState
-    void _set__localPlayerState(System::Collections::Generic::HashSet_1<::Il2CppString*>* value);
-    // Get instance field: private readonly SynchronizedActionQueue _synchronizedActionQueue
-    GlobalNamespace::SynchronizedActionQueue* _get__synchronizedActionQueue();
-    // Set instance field: private readonly SynchronizedActionQueue _synchronizedActionQueue
-    void _set__synchronizedActionQueue(GlobalNamespace::SynchronizedActionQueue* value);
-    // Get instance field: private System.Int32 _maxPlayerCount
-    int _get__maxPlayerCount();
-    // Set instance field: private System.Int32 _maxPlayerCount
-    void _set__maxPlayerCount(int value);
-    // Get instance field: private MultiplayerSessionManager/ConnectionState _connectionState
-    GlobalNamespace::MultiplayerSessionManager::ConnectionState _get__connectionState();
-    // Set instance field: private MultiplayerSessionManager/ConnectionState _connectionState
-    void _set__connectionState(GlobalNamespace::MultiplayerSessionManager::ConnectionState value);
-    // Get instance field: private readonly System.Collections.Generic.Queue`1<System.Int32> _freeSortIndices
-    System::Collections::Generic::Queue_1<int>* _get__freeSortIndices();
-    // Set instance field: private readonly System.Collections.Generic.Queue`1<System.Int32> _freeSortIndices
-    void _set__freeSortIndices(System::Collections::Generic::Queue_1<int>* value);
-    // Get instance field: private System.Action connectedEvent
-    System::Action* _get_connectedEvent();
-    // Set instance field: private System.Action connectedEvent
-    void _set_connectedEvent(System::Action* value);
-    // Get instance field: private System.Action`1<ConnectionFailedReason> connectionFailedEvent
-    System::Action_1<GlobalNamespace::ConnectionFailedReason>* _get_connectionFailedEvent();
-    // Set instance field: private System.Action`1<ConnectionFailedReason> connectionFailedEvent
-    void _set_connectionFailedEvent(System::Action_1<GlobalNamespace::ConnectionFailedReason>* value);
-    // Get instance field: private System.Action`1<IConnectedPlayer> playerConnectedEvent
-    System::Action_1<GlobalNamespace::IConnectedPlayer*>* _get_playerConnectedEvent();
-    // Set instance field: private System.Action`1<IConnectedPlayer> playerConnectedEvent
-    void _set_playerConnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
-    // Get instance field: private System.Action`1<IConnectedPlayer> playerDisconnectedEvent
-    System::Action_1<GlobalNamespace::IConnectedPlayer*>* _get_playerDisconnectedEvent();
-    // Set instance field: private System.Action`1<IConnectedPlayer> playerDisconnectedEvent
-    void _set_playerDisconnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
-    // Get instance field: private System.Action`1<IConnectedPlayer> playerAvatarChangedEvent
-    System::Action_1<GlobalNamespace::IConnectedPlayer*>* _get_playerAvatarChangedEvent();
-    // Set instance field: private System.Action`1<IConnectedPlayer> playerAvatarChangedEvent
-    void _set_playerAvatarChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
-    // Get instance field: private System.Action`1<IConnectedPlayer> playerStateChangedEvent
-    System::Action_1<GlobalNamespace::IConnectedPlayer*>* _get_playerStateChangedEvent();
-    // Set instance field: private System.Action`1<IConnectedPlayer> playerStateChangedEvent
-    void _set_playerStateChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
-    // Get instance field: private System.Action`1<IConnectedPlayer> connectionOwnerStateChangedEvent
-    System::Action_1<GlobalNamespace::IConnectedPlayer*>* _get_connectionOwnerStateChangedEvent();
-    // Set instance field: private System.Action`1<IConnectedPlayer> connectionOwnerStateChangedEvent
-    void _set_connectionOwnerStateChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
-    // Get instance field: private System.Action`1<DisconnectedReason> disconnectedEvent
-    System::Action_1<GlobalNamespace::DisconnectedReason>* _get_disconnectedEvent();
-    // Set instance field: private System.Action`1<DisconnectedReason> disconnectedEvent
-    void _set_disconnectedEvent(System::Action_1<GlobalNamespace::DisconnectedReason>* value);
-    // Get instance field: private IConnectedPlayer <connectionOwner>k__BackingField
-    GlobalNamespace::IConnectedPlayer* _get_$connectionOwner$k__BackingField();
-    // Set instance field: private IConnectedPlayer <connectionOwner>k__BackingField
-    void _set_$connectionOwner$k__BackingField(GlobalNamespace::IConnectedPlayer* value);
-    // Get instance field: private System.Boolean _exclusiveConnectedPlayerManager
-    bool _get__exclusiveConnectedPlayerManager();
-    // Set instance field: private System.Boolean _exclusiveConnectedPlayerManager
-    void _set__exclusiveConnectedPlayerManager(bool value);
-    // Get instance field: private ConnectedPlayerManager _connectedPlayerManager
-    GlobalNamespace::ConnectedPlayerManager* _get__connectedPlayerManager();
-    // Set instance field: private ConnectedPlayerManager _connectedPlayerManager
-    void _set__connectedPlayerManager(GlobalNamespace::ConnectedPlayerManager* value);
+    // Get instance field reference: private readonly NetworkPacketSerializer`2<MultiplayerSessionManager/MessageType,IConnectedPlayer> _packetSerializer
+    GlobalNamespace::NetworkPacketSerializer_2<GlobalNamespace::MultiplayerSessionManager_MessageType, GlobalNamespace::IConnectedPlayer*>*& dyn__packetSerializer();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<IConnectedPlayer> _connectedPlayers
+    System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>*& dyn__connectedPlayers();
+    // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<System.String> _localPlayerState
+    System::Collections::Generic::HashSet_1<::Il2CppString*>*& dyn__localPlayerState();
+    // Get instance field reference: private readonly SynchronizedActionQueue _synchronizedActionQueue
+    GlobalNamespace::SynchronizedActionQueue*& dyn__synchronizedActionQueue();
+    // Get instance field reference: private System.Int32 _maxPlayerCount
+    int& dyn__maxPlayerCount();
+    // Get instance field reference: private MultiplayerSessionManager/ConnectionState _connectionState
+    GlobalNamespace::MultiplayerSessionManager::ConnectionState& dyn__connectionState();
+    // Get instance field reference: private readonly System.Collections.Generic.Queue`1<System.Int32> _freeSortIndices
+    System::Collections::Generic::Queue_1<int>*& dyn__freeSortIndices();
+    // Get instance field reference: private System.Action connectedEvent
+    System::Action*& dyn_connectedEvent();
+    // Get instance field reference: private System.Action`1<ConnectionFailedReason> connectionFailedEvent
+    System::Action_1<GlobalNamespace::ConnectionFailedReason>*& dyn_connectionFailedEvent();
+    // Get instance field reference: private System.Action`1<IConnectedPlayer> playerConnectedEvent
+    System::Action_1<GlobalNamespace::IConnectedPlayer*>*& dyn_playerConnectedEvent();
+    // Get instance field reference: private System.Action`1<IConnectedPlayer> playerDisconnectedEvent
+    System::Action_1<GlobalNamespace::IConnectedPlayer*>*& dyn_playerDisconnectedEvent();
+    // Get instance field reference: private System.Action`1<IConnectedPlayer> playerAvatarChangedEvent
+    System::Action_1<GlobalNamespace::IConnectedPlayer*>*& dyn_playerAvatarChangedEvent();
+    // Get instance field reference: private System.Action`1<IConnectedPlayer> playerStateChangedEvent
+    System::Action_1<GlobalNamespace::IConnectedPlayer*>*& dyn_playerStateChangedEvent();
+    // Get instance field reference: private System.Action`1<IConnectedPlayer> connectionOwnerStateChangedEvent
+    System::Action_1<GlobalNamespace::IConnectedPlayer*>*& dyn_connectionOwnerStateChangedEvent();
+    // Get instance field reference: private System.Action`1<DisconnectedReason> disconnectedEvent
+    System::Action_1<GlobalNamespace::DisconnectedReason>*& dyn_disconnectedEvent();
+    // Get instance field reference: private IConnectedPlayer <connectionOwner>k__BackingField
+    GlobalNamespace::IConnectedPlayer*& dyn_$connectionOwner$k__BackingField();
+    // Get instance field reference: private System.Boolean _exclusiveConnectedPlayerManager
+    bool& dyn__exclusiveConnectedPlayerManager();
+    // Get instance field reference: private ConnectedPlayerManager _connectedPlayerManager
+    GlobalNamespace::ConnectedPlayerManager*& dyn__connectedPlayerManager();
     // public System.Boolean get_isConnectionOwner()
     // Offset: 0x16EC798
     bool get_isConnectionOwner();

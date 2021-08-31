@@ -32,14 +32,10 @@ namespace LeaderboardsDTO {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: TokenDTO
     TokenDTO(::Il2CppString* token_ = {}, int expireIn_ = {}) noexcept : token{token_}, expireIn{expireIn_} {}
-    // Get instance field: public System.String token
-    ::Il2CppString* _get_token();
-    // Set instance field: public System.String token
-    void _set_token(::Il2CppString* value);
-    // Get instance field: public System.Int32 expireIn
-    int _get_expireIn();
-    // Set instance field: public System.Int32 expireIn
-    void _set_expireIn(int value);
+    // Get instance field reference: public System.String token
+    ::Il2CppString*& dyn_token();
+    // Get instance field reference: public System.Int32 expireIn
+    int& dyn_expireIn();
     // public System.Void .ctor()
     // Offset: 0x11490E0
     // Implemented from: System.Object

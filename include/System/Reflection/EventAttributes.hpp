@@ -58,10 +58,8 @@ namespace System::Reflection {
     static System::Reflection::EventAttributes _get_RTSpecialName();
     // Set static field: static public System.Reflection.EventAttributes RTSpecialName
     static void _set_RTSpecialName(System::Reflection::EventAttributes value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Reflection.EventAttributes
   #pragma pack(pop)
   static check_size<sizeof(EventAttributes), 0 + sizeof(int)> __System_Reflection_EventAttributesSizeCheck;

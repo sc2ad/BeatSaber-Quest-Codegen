@@ -56,22 +56,14 @@ namespace Zenject {
     static Zenject::ZenjectSettings::SignalSettings* _get_Default();
     // Set static field: static public Zenject.ZenjectSettings/Zenject.SignalSettings Default
     static void _set_Default(Zenject::ZenjectSettings::SignalSettings* value);
-    // Get instance field: private Zenject.SignalDefaultSyncModes _defaultSyncMode
-    Zenject::SignalDefaultSyncModes _get__defaultSyncMode();
-    // Set instance field: private Zenject.SignalDefaultSyncModes _defaultSyncMode
-    void _set__defaultSyncMode(Zenject::SignalDefaultSyncModes value);
-    // Get instance field: private Zenject.SignalMissingHandlerResponses _missingHandlerDefaultResponse
-    Zenject::SignalMissingHandlerResponses _get__missingHandlerDefaultResponse();
-    // Set instance field: private Zenject.SignalMissingHandlerResponses _missingHandlerDefaultResponse
-    void _set__missingHandlerDefaultResponse(Zenject::SignalMissingHandlerResponses value);
-    // Get instance field: private System.Boolean _requireStrictUnsubscribe
-    bool _get__requireStrictUnsubscribe();
-    // Set instance field: private System.Boolean _requireStrictUnsubscribe
-    void _set__requireStrictUnsubscribe(bool value);
-    // Get instance field: private System.Int32 _defaultAsyncTickPriority
-    int _get__defaultAsyncTickPriority();
-    // Set instance field: private System.Int32 _defaultAsyncTickPriority
-    void _set__defaultAsyncTickPriority(int value);
+    // Get instance field reference: private Zenject.SignalDefaultSyncModes _defaultSyncMode
+    Zenject::SignalDefaultSyncModes& dyn__defaultSyncMode();
+    // Get instance field reference: private Zenject.SignalMissingHandlerResponses _missingHandlerDefaultResponse
+    Zenject::SignalMissingHandlerResponses& dyn__missingHandlerDefaultResponse();
+    // Get instance field reference: private System.Boolean _requireStrictUnsubscribe
+    bool& dyn__requireStrictUnsubscribe();
+    // Get instance field reference: private System.Int32 _defaultAsyncTickPriority
+    int& dyn__defaultAsyncTickPriority();
     // public System.Int32 get_DefaultAsyncTickPriority()
     // Offset: 0x23E7FF8
     int get_DefaultAsyncTickPriority();

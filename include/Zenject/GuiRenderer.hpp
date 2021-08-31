@@ -37,10 +37,8 @@ namespace Zenject {
     GuiRenderer(Zenject::GuiRenderableManager* renderableManager_ = {}) noexcept : renderableManager{renderableManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private Zenject.GuiRenderableManager _renderableManager
-    Zenject::GuiRenderableManager* _get__renderableManager();
-    // Set instance field: private Zenject.GuiRenderableManager _renderableManager
-    void _set__renderableManager(Zenject::GuiRenderableManager* value);
+    // Get instance field reference: private Zenject.GuiRenderableManager _renderableManager
+    Zenject::GuiRenderableManager*& dyn__renderableManager();
     // private System.Void Construct(Zenject.GuiRenderableManager renderableManager)
     // Offset: 0x1660588
     void Construct(Zenject::GuiRenderableManager* renderableManager);

@@ -40,18 +40,12 @@ namespace Mono::Security::Protocol::Ntlm {
     static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // Creating value type constructor for type: Type2Message
     Type2Message(::Array<uint8_t>* nonce_ = {}, ::Il2CppString* targetName_ = {}, ::Array<uint8_t>* targetInfo_ = {}) noexcept : nonce{nonce_}, targetName{targetName_}, targetInfo{targetInfo_} {}
-    // Get instance field: private System.Byte[] _nonce
-    ::Array<uint8_t>* _get__nonce();
-    // Set instance field: private System.Byte[] _nonce
-    void _set__nonce(::Array<uint8_t>* value);
-    // Get instance field: private System.String _targetName
-    ::Il2CppString* _get__targetName();
-    // Set instance field: private System.String _targetName
-    void _set__targetName(::Il2CppString* value);
-    // Get instance field: private System.Byte[] _targetInfo
-    ::Array<uint8_t>* _get__targetInfo();
-    // Set instance field: private System.Byte[] _targetInfo
-    void _set__targetInfo(::Array<uint8_t>* value);
+    // Get instance field reference: private System.Byte[] _nonce
+    ::Array<uint8_t>*& dyn__nonce();
+    // Get instance field reference: private System.String _targetName
+    ::Il2CppString*& dyn__targetName();
+    // Get instance field reference: private System.Byte[] _targetInfo
+    ::Array<uint8_t>*& dyn__targetInfo();
     // public System.Byte[] get_Nonce()
     // Offset: 0x1E07C74
     ::Array<uint8_t>* get_Nonce();

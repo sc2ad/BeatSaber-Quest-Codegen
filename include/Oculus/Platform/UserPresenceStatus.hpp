@@ -53,10 +53,8 @@ namespace Oculus::Platform {
     static Oculus::Platform::UserPresenceStatus _get_Offline();
     // Set static field: static public Oculus.Platform.UserPresenceStatus Offline
     static void _set_Offline(Oculus::Platform::UserPresenceStatus value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Oculus.Platform.UserPresenceStatus
   #pragma pack(pop)
   static check_size<sizeof(UserPresenceStatus), 0 + sizeof(int)> __Oculus_Platform_UserPresenceStatusSizeCheck;

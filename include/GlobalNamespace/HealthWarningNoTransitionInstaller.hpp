@@ -50,14 +50,10 @@ namespace GlobalNamespace {
     HealthWarningNoTransitionInstaller(GlobalNamespace::HealthWarningSceneSetupData* healthWarningSceneSetupData_ = {}, GlobalNamespace::HealthWarningScenesTransitionSetupDataSO* scenesTransitionSetupData_ = {}) noexcept : healthWarningSceneSetupData{healthWarningSceneSetupData_}, scenesTransitionSetupData{scenesTransitionSetupData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private HealthWarningSceneSetupData _healthWarningSceneSetupData
-    GlobalNamespace::HealthWarningSceneSetupData* _get__healthWarningSceneSetupData();
-    // Set instance field: private HealthWarningSceneSetupData _healthWarningSceneSetupData
-    void _set__healthWarningSceneSetupData(GlobalNamespace::HealthWarningSceneSetupData* value);
-    // Get instance field: private HealthWarningScenesTransitionSetupDataSO _scenesTransitionSetupData
-    GlobalNamespace::HealthWarningScenesTransitionSetupDataSO* _get__scenesTransitionSetupData();
-    // Set instance field: private HealthWarningScenesTransitionSetupDataSO _scenesTransitionSetupData
-    void _set__scenesTransitionSetupData(GlobalNamespace::HealthWarningScenesTransitionSetupDataSO* value);
+    // Get instance field reference: private HealthWarningSceneSetupData _healthWarningSceneSetupData
+    GlobalNamespace::HealthWarningSceneSetupData*& dyn__healthWarningSceneSetupData();
+    // Get instance field reference: private HealthWarningScenesTransitionSetupDataSO _scenesTransitionSetupData
+    GlobalNamespace::HealthWarningScenesTransitionSetupDataSO*& dyn__scenesTransitionSetupData();
     // public System.Void .ctor()
     // Offset: 0x1143574
     // Implemented from: Zenject.NoTransitionInstaller

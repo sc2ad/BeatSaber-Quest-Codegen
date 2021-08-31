@@ -92,22 +92,14 @@ namespace UnityEngine::Timeline {
     operator UnityEngine::ISerializationCallbackReceiver() noexcept {
       return *reinterpret_cast<UnityEngine::ISerializationCallbackReceiver*>(this);
     }
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.ScriptableObject> m_Objects
-    System::Collections::Generic::List_1<UnityEngine::ScriptableObject*>* _get_m_Objects();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.ScriptableObject> m_Objects
-    void _set_m_Objects(System::Collections::Generic::List_1<UnityEngine::ScriptableObject*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.Timeline.IMarker> m_Cache
-    System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker*>* _get_m_Cache();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Timeline.IMarker> m_Cache
-    void _set_m_Cache(System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker*>* value);
-    // Get instance field: private System.Boolean m_CacheDirty
-    bool _get_m_CacheDirty();
-    // Set instance field: private System.Boolean m_CacheDirty
-    void _set_m_CacheDirty(bool value);
-    // Get instance field: private System.Boolean m_HasNotifications
-    bool _get_m_HasNotifications();
-    // Set instance field: private System.Boolean m_HasNotifications
-    void _set_m_HasNotifications(bool value);
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ScriptableObject> m_Objects
+    System::Collections::Generic::List_1<UnityEngine::ScriptableObject*>*& dyn_m_Objects();
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Timeline.IMarker> m_Cache
+    System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker*>*& dyn_m_Cache();
+    // Get instance field reference: private System.Boolean m_CacheDirty
+    bool& dyn_m_CacheDirty();
+    // Get instance field reference: private System.Boolean m_HasNotifications
+    bool& dyn_m_HasNotifications();
     // public System.Collections.Generic.List`1<UnityEngine.Timeline.IMarker> get_markers()
     // Offset: 0x1821EB4
     System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker*>* get_markers();

@@ -49,22 +49,14 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Single zNear
-    float _get_zNear();
-    // Set instance field: public System.Single zNear
-    void _set_zNear(float value);
-    // Get instance field: public System.Single zFar
-    float _get_zFar();
-    // Set instance field: public System.Single zFar
-    void _set_zFar(float value);
-    // Get instance field: public System.Single fovX
-    float _get_fovX();
-    // Set instance field: public System.Single fovX
-    void _set_fovX(float value);
-    // Get instance field: public System.Single fovY
-    float _get_fovY();
-    // Set instance field: public System.Single fovY
-    void _set_fovY(float value);
+    // Get instance field reference: public System.Single zNear
+    float& dyn_zNear();
+    // Get instance field reference: public System.Single zFar
+    float& dyn_zFar();
+    // Get instance field reference: public System.Single fovX
+    float& dyn_fovX();
+    // Get instance field reference: public System.Single fovY
+    float& dyn_fovY();
   }; // OVRPlugin/Frustumf
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Frustumf), 12 + sizeof(float)> __GlobalNamespace_OVRPlugin_FrustumfSizeCheck;

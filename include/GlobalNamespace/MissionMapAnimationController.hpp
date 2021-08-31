@@ -112,38 +112,22 @@ namespace GlobalNamespace {
     MissionMapAnimationController(GlobalNamespace::MissionNodesManager* missionNodesManager_ = {}, HMUI::ScrollView* mapScrollView_ = {}, float startDelay_ = {}, float stageAnimationStartDelay_ = {}, float missionConnectionAnimationStartDelay_ = {}, float missionConnectionAnimationSeparationTime_ = {}, float stageAnimationDuration_ = {}, GlobalNamespace::MenuShockwave* shockwaveEffect_ = {}) noexcept : missionNodesManager{missionNodesManager_}, mapScrollView{mapScrollView_}, startDelay{startDelay_}, stageAnimationStartDelay{stageAnimationStartDelay_}, missionConnectionAnimationStartDelay{missionConnectionAnimationStartDelay_}, missionConnectionAnimationSeparationTime{missionConnectionAnimationSeparationTime_}, stageAnimationDuration{stageAnimationDuration_}, shockwaveEffect{shockwaveEffect_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private MissionNodesManager _missionNodesManager
-    GlobalNamespace::MissionNodesManager* _get__missionNodesManager();
-    // Set instance field: private MissionNodesManager _missionNodesManager
-    void _set__missionNodesManager(GlobalNamespace::MissionNodesManager* value);
-    // Get instance field: private HMUI.ScrollView _mapScrollView
-    HMUI::ScrollView* _get__mapScrollView();
-    // Set instance field: private HMUI.ScrollView _mapScrollView
-    void _set__mapScrollView(HMUI::ScrollView* value);
-    // Get instance field: private System.Single _startDelay
-    float _get__startDelay();
-    // Set instance field: private System.Single _startDelay
-    void _set__startDelay(float value);
-    // Get instance field: private System.Single _stageAnimationStartDelay
-    float _get__stageAnimationStartDelay();
-    // Set instance field: private System.Single _stageAnimationStartDelay
-    void _set__stageAnimationStartDelay(float value);
-    // Get instance field: private System.Single _missionConnectionAnimationStartDelay
-    float _get__missionConnectionAnimationStartDelay();
-    // Set instance field: private System.Single _missionConnectionAnimationStartDelay
-    void _set__missionConnectionAnimationStartDelay(float value);
-    // Get instance field: private System.Single _missionConnectionAnimationSeparationTime
-    float _get__missionConnectionAnimationSeparationTime();
-    // Set instance field: private System.Single _missionConnectionAnimationSeparationTime
-    void _set__missionConnectionAnimationSeparationTime(float value);
-    // Get instance field: private System.Single _stageAnimationDuration
-    float _get__stageAnimationDuration();
-    // Set instance field: private System.Single _stageAnimationDuration
-    void _set__stageAnimationDuration(float value);
-    // Get instance field: private MenuShockwave _shockwaveEffect
-    GlobalNamespace::MenuShockwave* _get__shockwaveEffect();
-    // Set instance field: private MenuShockwave _shockwaveEffect
-    void _set__shockwaveEffect(GlobalNamespace::MenuShockwave* value);
+    // Get instance field reference: private MissionNodesManager _missionNodesManager
+    GlobalNamespace::MissionNodesManager*& dyn__missionNodesManager();
+    // Get instance field reference: private HMUI.ScrollView _mapScrollView
+    HMUI::ScrollView*& dyn__mapScrollView();
+    // Get instance field reference: private System.Single _startDelay
+    float& dyn__startDelay();
+    // Get instance field reference: private System.Single _stageAnimationStartDelay
+    float& dyn__stageAnimationStartDelay();
+    // Get instance field reference: private System.Single _missionConnectionAnimationStartDelay
+    float& dyn__missionConnectionAnimationStartDelay();
+    // Get instance field reference: private System.Single _missionConnectionAnimationSeparationTime
+    float& dyn__missionConnectionAnimationSeparationTime();
+    // Get instance field reference: private System.Single _stageAnimationDuration
+    float& dyn__stageAnimationDuration();
+    // Get instance field reference: private MenuShockwave _shockwaveEffect
+    GlobalNamespace::MenuShockwave*& dyn__shockwaveEffect();
     // public System.Boolean get_animatedUpdateIsRequired()
     // Offset: 0x11D3E30
     bool get_animatedUpdateIsRequired();

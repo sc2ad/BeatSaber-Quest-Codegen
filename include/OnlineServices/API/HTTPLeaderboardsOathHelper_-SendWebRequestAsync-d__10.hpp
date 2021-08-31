@@ -90,46 +90,26 @@ namespace OnlineServices::API {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
-    // Get instance field: public System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: public System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> <>t__builder
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppString*> _get_$$t__builder();
-    // Set instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> <>t__builder
-    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppString*> value);
-    // Get instance field: public OnlineServices.API.HTTPLeaderboardsOathHelper <>4__this
-    OnlineServices::API::HTTPLeaderboardsOathHelper* _get_$$4__this();
-    // Set instance field: public OnlineServices.API.HTTPLeaderboardsOathHelper <>4__this
-    void _set_$$4__this(OnlineServices::API::HTTPLeaderboardsOathHelper* value);
-    // Get instance field: public System.String uri
-    ::Il2CppString* _get_uri();
-    // Set instance field: public System.String uri
-    void _set_uri(::Il2CppString* value);
-    // Get instance field: public System.String method
-    ::Il2CppString* _get_method();
-    // Set instance field: public System.String method
-    void _set_method(::Il2CppString* value);
-    // Get instance field: public System.String bearerToken
-    ::Il2CppString* _get_bearerToken();
-    // Set instance field: public System.String bearerToken
-    void _set_bearerToken(::Il2CppString* value);
-    // Get instance field: public System.String bodyData
-    ::Il2CppString* _get_bodyData();
-    // Set instance field: public System.String bodyData
-    void _set_bodyData(::Il2CppString* value);
-    // Get instance field: private OnlineServices.API.HTTPLeaderboardsOathHelper/OnlineServices.API.<>c__DisplayClass10_1 <>8__1
-    OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1* _get_$$8__1();
-    // Set instance field: private OnlineServices.API.HTTPLeaderboardsOathHelper/OnlineServices.API.<>c__DisplayClass10_1 <>8__1
-    void _set_$$8__1(OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1* value);
-    // Get instance field: private OnlineServices.API.HTTPLeaderboardsOathHelper/OnlineServices.API.<>c__DisplayClass10_0 <>8__2
-    OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0* _get_$$8__2();
-    // Set instance field: private OnlineServices.API.HTTPLeaderboardsOathHelper/OnlineServices.API.<>c__DisplayClass10_0 <>8__2
-    void _set_$$8__2(OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0* value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> <>u__1
-    System::Runtime::CompilerServices::TaskAwaiter_1<bool> _get_$$u__1();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> <>u__1
-    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<bool> value);
+    // Get instance field reference: public System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> <>t__builder
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppString*>& dyn_$$t__builder();
+    // Get instance field reference: public OnlineServices.API.HTTPLeaderboardsOathHelper <>4__this
+    OnlineServices::API::HTTPLeaderboardsOathHelper*& dyn_$$4__this();
+    // Get instance field reference: public System.String uri
+    ::Il2CppString*& dyn_uri();
+    // Get instance field reference: public System.String method
+    ::Il2CppString*& dyn_method();
+    // Get instance field reference: public System.String bearerToken
+    ::Il2CppString*& dyn_bearerToken();
+    // Get instance field reference: public System.String bodyData
+    ::Il2CppString*& dyn_bodyData();
+    // Get instance field reference: private OnlineServices.API.HTTPLeaderboardsOathHelper/OnlineServices.API.<>c__DisplayClass10_1 <>8__1
+    OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1*& dyn_$$8__1();
+    // Get instance field reference: private OnlineServices.API.HTTPLeaderboardsOathHelper/OnlineServices.API.<>c__DisplayClass10_0 <>8__2
+    OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0*& dyn_$$8__2();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter_1<bool>& dyn_$$u__1();
     // private System.Void MoveNext()
     // Offset: 0x1027EE0
     void MoveNext();

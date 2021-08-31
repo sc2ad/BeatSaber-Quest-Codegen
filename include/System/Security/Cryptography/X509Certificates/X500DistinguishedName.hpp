@@ -42,14 +42,10 @@ namespace System::Security::Cryptography::X509Certificates {
     static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // Creating value type constructor for type: X500DistinguishedName
     X500DistinguishedName(::Il2CppString* name_ = {}, ::Array<uint8_t>* canonEncoding_ = {}) noexcept : name{name_}, canonEncoding{canonEncoding_} {}
-    // Get instance field: private System.String name
-    ::Il2CppString* _get_name();
-    // Set instance field: private System.String name
-    void _set_name(::Il2CppString* value);
-    // Get instance field: private System.Byte[] canonEncoding
-    ::Array<uint8_t>* _get_canonEncoding();
-    // Set instance field: private System.Byte[] canonEncoding
-    void _set_canonEncoding(::Array<uint8_t>* value);
+    // Get instance field reference: private System.String name
+    ::Il2CppString*& dyn_name();
+    // Get instance field reference: private System.Byte[] canonEncoding
+    ::Array<uint8_t>*& dyn_canonEncoding();
     // public System.Void .ctor(System.Byte[] encodedDistinguishedName)
     // Offset: 0x1858340
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

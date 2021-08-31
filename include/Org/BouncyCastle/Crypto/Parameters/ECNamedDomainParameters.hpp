@@ -56,10 +56,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     constexpr operator Org::BouncyCastle::Asn1::DerObjectIdentifier*() const noexcept {
       return name;
     }
-    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier name
-    Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_name();
-    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier name
-    void _set_name(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier name
+    Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_name();
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_Name()
     // Offset: 0x1273D04
     Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Name();

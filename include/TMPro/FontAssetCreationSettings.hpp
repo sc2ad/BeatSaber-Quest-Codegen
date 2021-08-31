@@ -127,70 +127,38 @@ namespace TMPro {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.String sourceFontFileName
-    ::Il2CppString* _get_sourceFontFileName();
-    // Set instance field: public System.String sourceFontFileName
-    void _set_sourceFontFileName(::Il2CppString* value);
-    // Get instance field: public System.String sourceFontFileGUID
-    ::Il2CppString* _get_sourceFontFileGUID();
-    // Set instance field: public System.String sourceFontFileGUID
-    void _set_sourceFontFileGUID(::Il2CppString* value);
-    // Get instance field: public System.Int32 pointSizeSamplingMode
-    int _get_pointSizeSamplingMode();
-    // Set instance field: public System.Int32 pointSizeSamplingMode
-    void _set_pointSizeSamplingMode(int value);
-    // Get instance field: public System.Int32 pointSize
-    int _get_pointSize();
-    // Set instance field: public System.Int32 pointSize
-    void _set_pointSize(int value);
-    // Get instance field: public System.Int32 padding
-    int _get_padding();
-    // Set instance field: public System.Int32 padding
-    void _set_padding(int value);
-    // Get instance field: public System.Int32 packingMode
-    int _get_packingMode();
-    // Set instance field: public System.Int32 packingMode
-    void _set_packingMode(int value);
-    // Get instance field: public System.Int32 atlasWidth
-    int _get_atlasWidth();
-    // Set instance field: public System.Int32 atlasWidth
-    void _set_atlasWidth(int value);
-    // Get instance field: public System.Int32 atlasHeight
-    int _get_atlasHeight();
-    // Set instance field: public System.Int32 atlasHeight
-    void _set_atlasHeight(int value);
-    // Get instance field: public System.Int32 characterSetSelectionMode
-    int _get_characterSetSelectionMode();
-    // Set instance field: public System.Int32 characterSetSelectionMode
-    void _set_characterSetSelectionMode(int value);
-    // Get instance field: public System.String characterSequence
-    ::Il2CppString* _get_characterSequence();
-    // Set instance field: public System.String characterSequence
-    void _set_characterSequence(::Il2CppString* value);
-    // Get instance field: public System.String referencedFontAssetGUID
-    ::Il2CppString* _get_referencedFontAssetGUID();
-    // Set instance field: public System.String referencedFontAssetGUID
-    void _set_referencedFontAssetGUID(::Il2CppString* value);
-    // Get instance field: public System.String referencedTextAssetGUID
-    ::Il2CppString* _get_referencedTextAssetGUID();
-    // Set instance field: public System.String referencedTextAssetGUID
-    void _set_referencedTextAssetGUID(::Il2CppString* value);
-    // Get instance field: public System.Int32 fontStyle
-    int _get_fontStyle();
-    // Set instance field: public System.Int32 fontStyle
-    void _set_fontStyle(int value);
-    // Get instance field: public System.Single fontStyleModifier
-    float _get_fontStyleModifier();
-    // Set instance field: public System.Single fontStyleModifier
-    void _set_fontStyleModifier(float value);
-    // Get instance field: public System.Int32 renderMode
-    int _get_renderMode();
-    // Set instance field: public System.Int32 renderMode
-    void _set_renderMode(int value);
-    // Get instance field: public System.Boolean includeFontFeatures
-    bool _get_includeFontFeatures();
-    // Set instance field: public System.Boolean includeFontFeatures
-    void _set_includeFontFeatures(bool value);
+    // Get instance field reference: public System.String sourceFontFileName
+    ::Il2CppString*& dyn_sourceFontFileName();
+    // Get instance field reference: public System.String sourceFontFileGUID
+    ::Il2CppString*& dyn_sourceFontFileGUID();
+    // Get instance field reference: public System.Int32 pointSizeSamplingMode
+    int& dyn_pointSizeSamplingMode();
+    // Get instance field reference: public System.Int32 pointSize
+    int& dyn_pointSize();
+    // Get instance field reference: public System.Int32 padding
+    int& dyn_padding();
+    // Get instance field reference: public System.Int32 packingMode
+    int& dyn_packingMode();
+    // Get instance field reference: public System.Int32 atlasWidth
+    int& dyn_atlasWidth();
+    // Get instance field reference: public System.Int32 atlasHeight
+    int& dyn_atlasHeight();
+    // Get instance field reference: public System.Int32 characterSetSelectionMode
+    int& dyn_characterSetSelectionMode();
+    // Get instance field reference: public System.String characterSequence
+    ::Il2CppString*& dyn_characterSequence();
+    // Get instance field reference: public System.String referencedFontAssetGUID
+    ::Il2CppString*& dyn_referencedFontAssetGUID();
+    // Get instance field reference: public System.String referencedTextAssetGUID
+    ::Il2CppString*& dyn_referencedTextAssetGUID();
+    // Get instance field reference: public System.Int32 fontStyle
+    int& dyn_fontStyle();
+    // Get instance field reference: public System.Single fontStyleModifier
+    float& dyn_fontStyleModifier();
+    // Get instance field reference: public System.Int32 renderMode
+    int& dyn_renderMode();
+    // Get instance field reference: public System.Boolean includeFontFeatures
+    bool& dyn_includeFontFeatures();
     // System.Void .ctor(System.String sourceFontFileGUID, System.Int32 pointSize, System.Int32 pointSizeSamplingMode, System.Int32 padding, System.Int32 packingMode, System.Int32 atlasWidth, System.Int32 atlasHeight, System.Int32 characterSelectionMode, System.String characterSet, System.Int32 renderMode)
     // Offset: 0x1114D5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

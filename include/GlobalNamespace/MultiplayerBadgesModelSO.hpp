@@ -52,14 +52,10 @@ namespace GlobalNamespace {
     MultiplayerBadgesModelSO(System::Collections::Generic::List_1<GlobalNamespace::MultiplayerBadgeDataSO*>* positiveBadges_ = {}, System::Collections::Generic::List_1<GlobalNamespace::MultiplayerBadgeDataSO*>* negativeBadges_ = {}) noexcept : positiveBadges{positiveBadges_}, negativeBadges{negativeBadges_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Collections.Generic.List`1<MultiplayerBadgeDataSO> _positiveBadges
-    System::Collections::Generic::List_1<GlobalNamespace::MultiplayerBadgeDataSO*>* _get__positiveBadges();
-    // Set instance field: private System.Collections.Generic.List`1<MultiplayerBadgeDataSO> _positiveBadges
-    void _set__positiveBadges(System::Collections::Generic::List_1<GlobalNamespace::MultiplayerBadgeDataSO*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<MultiplayerBadgeDataSO> _negativeBadges
-    System::Collections::Generic::List_1<GlobalNamespace::MultiplayerBadgeDataSO*>* _get__negativeBadges();
-    // Set instance field: private System.Collections.Generic.List`1<MultiplayerBadgeDataSO> _negativeBadges
-    void _set__negativeBadges(System::Collections::Generic::List_1<GlobalNamespace::MultiplayerBadgeDataSO*>* value);
+    // Get instance field reference: private System.Collections.Generic.List`1<MultiplayerBadgeDataSO> _positiveBadges
+    System::Collections::Generic::List_1<GlobalNamespace::MultiplayerBadgeDataSO*>*& dyn__positiveBadges();
+    // Get instance field reference: private System.Collections.Generic.List`1<MultiplayerBadgeDataSO> _negativeBadges
+    System::Collections::Generic::List_1<GlobalNamespace::MultiplayerBadgeDataSO*>*& dyn__negativeBadges();
     // public System.Collections.Generic.IReadOnlyList`1<MultiplayerBadgeDataSO> get_positiveBadges()
     // Offset: 0x11A2658
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerBadgeDataSO*>* get_positiveBadges();

@@ -73,34 +73,20 @@ namespace System {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: System.Int32 Bias
-    int _get_Bias();
-    // Set instance field: System.Int32 Bias
-    void _set_Bias(int value);
-    // Get instance field: System.String StandardName
-    ::Il2CppString* _get_StandardName();
-    // Set instance field: System.String StandardName
-    void _set_StandardName(::Il2CppString* value);
-    // Get instance field: System.TimeZoneInfo/System.SYSTEMTIME StandardDate
-    System::TimeZoneInfo::SYSTEMTIME _get_StandardDate();
-    // Set instance field: System.TimeZoneInfo/System.SYSTEMTIME StandardDate
-    void _set_StandardDate(System::TimeZoneInfo::SYSTEMTIME value);
-    // Get instance field: System.Int32 StandardBias
-    int _get_StandardBias();
-    // Set instance field: System.Int32 StandardBias
-    void _set_StandardBias(int value);
-    // Get instance field: System.String DaylightName
-    ::Il2CppString* _get_DaylightName();
-    // Set instance field: System.String DaylightName
-    void _set_DaylightName(::Il2CppString* value);
-    // Get instance field: System.TimeZoneInfo/System.SYSTEMTIME DaylightDate
-    System::TimeZoneInfo::SYSTEMTIME _get_DaylightDate();
-    // Set instance field: System.TimeZoneInfo/System.SYSTEMTIME DaylightDate
-    void _set_DaylightDate(System::TimeZoneInfo::SYSTEMTIME value);
-    // Get instance field: System.Int32 DaylightBias
-    int _get_DaylightBias();
-    // Set instance field: System.Int32 DaylightBias
-    void _set_DaylightBias(int value);
+    // Get instance field reference: System.Int32 Bias
+    int& dyn_Bias();
+    // Get instance field reference: System.String StandardName
+    ::Il2CppString*& dyn_StandardName();
+    // Get instance field reference: System.TimeZoneInfo/System.SYSTEMTIME StandardDate
+    System::TimeZoneInfo::SYSTEMTIME& dyn_StandardDate();
+    // Get instance field reference: System.Int32 StandardBias
+    int& dyn_StandardBias();
+    // Get instance field reference: System.String DaylightName
+    ::Il2CppString*& dyn_DaylightName();
+    // Get instance field reference: System.TimeZoneInfo/System.SYSTEMTIME DaylightDate
+    System::TimeZoneInfo::SYSTEMTIME& dyn_DaylightDate();
+    // Get instance field reference: System.Int32 DaylightBias
+    int& dyn_DaylightBias();
   }; // System.TimeZoneInfo/System.TIME_ZONE_INFORMATION
   #pragma pack(pop)
   static check_size<sizeof(TimeZoneInfo::TIME_ZONE_INFORMATION), 64 + sizeof(int)> __System_TimeZoneInfo_TIME_ZONE_INFORMATIONSizeCheck;

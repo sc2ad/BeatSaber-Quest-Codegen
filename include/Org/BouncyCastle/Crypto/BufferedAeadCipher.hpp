@@ -44,10 +44,8 @@ namespace Org::BouncyCastle::Crypto {
     constexpr operator Org::BouncyCastle::Crypto::Modes::IAeadCipher*() const noexcept {
       return cipher;
     }
-    // Get instance field: private readonly Org.BouncyCastle.Crypto.Modes.IAeadCipher cipher
-    Org::BouncyCastle::Crypto::Modes::IAeadCipher* _get_cipher();
-    // Set instance field: private readonly Org.BouncyCastle.Crypto.Modes.IAeadCipher cipher
-    void _set_cipher(Org::BouncyCastle::Crypto::Modes::IAeadCipher* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Modes.IAeadCipher cipher
+    Org::BouncyCastle::Crypto::Modes::IAeadCipher*& dyn_cipher();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Modes.IAeadCipher cipher)
     // Offset: 0x1A0C3B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

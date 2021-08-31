@@ -33,10 +33,8 @@ namespace UnityEngine {
     constexpr operator ::Il2CppString*() const noexcept {
       return header;
     }
-    // Get instance field: public readonly System.String header
-    ::Il2CppString* _get_header();
-    // Set instance field: public readonly System.String header
-    void _set_header(::Il2CppString* value);
+    // Get instance field reference: public readonly System.String header
+    ::Il2CppString*& dyn_header();
     // public System.Void .ctor(System.String header)
     // Offset: 0x1C2F140
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

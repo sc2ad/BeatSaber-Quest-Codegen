@@ -34,10 +34,8 @@ namespace System::Runtime::Serialization {
     constexpr operator int() const noexcept {
       return versionAdded;
     }
-    // Get instance field: private System.Int32 versionAdded
-    int _get_versionAdded();
-    // Set instance field: private System.Int32 versionAdded
-    void _set_versionAdded(int value);
+    // Get instance field reference: private System.Int32 versionAdded
+    int& dyn_versionAdded();
     // public System.Void set_VersionAdded(System.Int32 value)
     // Offset: 0x16BC6AC
     void set_VersionAdded(int value);

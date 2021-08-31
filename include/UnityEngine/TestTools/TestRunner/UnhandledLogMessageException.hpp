@@ -46,14 +46,10 @@ namespace UnityEngine::TestTools::TestRunner {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: UnhandledLogMessageException
     UnhandledLogMessageException(UnityEngine::TestTools::Logging::LogEvent* LogEvent_ = {}, ::Il2CppString* m_CustomStackTrace_ = {}) noexcept : LogEvent{LogEvent_}, m_CustomStackTrace{m_CustomStackTrace_} {}
-    // Get instance field: public UnityEngine.TestTools.Logging.LogEvent LogEvent
-    UnityEngine::TestTools::Logging::LogEvent* _get_LogEvent();
-    // Set instance field: public UnityEngine.TestTools.Logging.LogEvent LogEvent
-    void _set_LogEvent(UnityEngine::TestTools::Logging::LogEvent* value);
-    // Get instance field: private readonly System.String m_CustomStackTrace
-    ::Il2CppString* _get_m_CustomStackTrace();
-    // Set instance field: private readonly System.String m_CustomStackTrace
-    void _set_m_CustomStackTrace(::Il2CppString* value);
+    // Get instance field reference: public UnityEngine.TestTools.Logging.LogEvent LogEvent
+    UnityEngine::TestTools::Logging::LogEvent*& dyn_LogEvent();
+    // Get instance field reference: private readonly System.String m_CustomStackTrace
+    ::Il2CppString*& dyn_m_CustomStackTrace();
     // public System.Void .ctor(UnityEngine.TestTools.Logging.LogEvent log)
     // Offset: 0x2402250
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

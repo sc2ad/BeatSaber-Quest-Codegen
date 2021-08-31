@@ -82,30 +82,18 @@ namespace System::Xml {
     static_assert(sizeof(System::IO::Stream*) == 0x8);
     // Creating value type constructor for type: XmlAutoDetectWriter
     XmlAutoDetectWriter(System::Xml::XmlRawWriter* wrapped_ = {}, System::Xml::OnRemoveWriter* onRemove_ = {}, System::Xml::XmlWriterSettings* writerSettings_ = {}, System::Xml::XmlEventCache* eventCache_ = {}, System::IO::TextWriter* textWriter_ = {}, System::IO::Stream* strm_ = {}) noexcept : wrapped{wrapped_}, onRemove{onRemove_}, writerSettings{writerSettings_}, eventCache{eventCache_}, textWriter{textWriter_}, strm{strm_} {}
-    // Get instance field: private System.Xml.XmlRawWriter wrapped
-    System::Xml::XmlRawWriter* _get_wrapped();
-    // Set instance field: private System.Xml.XmlRawWriter wrapped
-    void _set_wrapped(System::Xml::XmlRawWriter* value);
-    // Get instance field: private System.Xml.OnRemoveWriter onRemove
-    System::Xml::OnRemoveWriter* _get_onRemove();
-    // Set instance field: private System.Xml.OnRemoveWriter onRemove
-    void _set_onRemove(System::Xml::OnRemoveWriter* value);
-    // Get instance field: private System.Xml.XmlWriterSettings writerSettings
-    System::Xml::XmlWriterSettings* _get_writerSettings();
-    // Set instance field: private System.Xml.XmlWriterSettings writerSettings
-    void _set_writerSettings(System::Xml::XmlWriterSettings* value);
-    // Get instance field: private System.Xml.XmlEventCache eventCache
-    System::Xml::XmlEventCache* _get_eventCache();
-    // Set instance field: private System.Xml.XmlEventCache eventCache
-    void _set_eventCache(System::Xml::XmlEventCache* value);
-    // Get instance field: private System.IO.TextWriter textWriter
-    System::IO::TextWriter* _get_textWriter();
-    // Set instance field: private System.IO.TextWriter textWriter
-    void _set_textWriter(System::IO::TextWriter* value);
-    // Get instance field: private System.IO.Stream strm
-    System::IO::Stream* _get_strm();
-    // Set instance field: private System.IO.Stream strm
-    void _set_strm(System::IO::Stream* value);
+    // Get instance field reference: private System.Xml.XmlRawWriter wrapped
+    System::Xml::XmlRawWriter*& dyn_wrapped();
+    // Get instance field reference: private System.Xml.OnRemoveWriter onRemove
+    System::Xml::OnRemoveWriter*& dyn_onRemove();
+    // Get instance field reference: private System.Xml.XmlWriterSettings writerSettings
+    System::Xml::XmlWriterSettings*& dyn_writerSettings();
+    // Get instance field reference: private System.Xml.XmlEventCache eventCache
+    System::Xml::XmlEventCache*& dyn_eventCache();
+    // Get instance field reference: private System.IO.TextWriter textWriter
+    System::IO::TextWriter*& dyn_textWriter();
+    // Get instance field reference: private System.IO.Stream strm
+    System::IO::Stream*& dyn_strm();
     // private System.Void .ctor(System.Xml.XmlWriterSettings writerSettings)
     // Offset: 0x19571F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

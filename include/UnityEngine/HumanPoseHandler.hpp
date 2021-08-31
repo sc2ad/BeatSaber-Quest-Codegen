@@ -55,10 +55,8 @@ namespace UnityEngine {
     constexpr operator System::IntPtr() const noexcept {
       return m_Ptr;
     }
-    // Get instance field: System.IntPtr m_Ptr
-    System::IntPtr _get_m_Ptr();
-    // Set instance field: System.IntPtr m_Ptr
-    void _set_m_Ptr(System::IntPtr value);
+    // Get instance field reference: System.IntPtr m_Ptr
+    System::IntPtr& dyn_m_Ptr();
     // public System.Void .ctor(UnityEngine.Avatar avatar, UnityEngine.Transform root)
     // Offset: 0x238EBC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

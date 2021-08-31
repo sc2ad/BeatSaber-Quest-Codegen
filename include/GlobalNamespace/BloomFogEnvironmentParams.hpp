@@ -48,22 +48,14 @@ namespace GlobalNamespace {
     BloomFogEnvironmentParams(float attenuation_ = {}, float offset_ = {}, float heightFogStartY_ = {}, float heightFogHeight_ = {}) noexcept : attenuation{attenuation_}, offset{offset_}, heightFogStartY{heightFogStartY_}, heightFogHeight{heightFogHeight_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public System.Single attenuation
-    float _get_attenuation();
-    // Set instance field: public System.Single attenuation
-    void _set_attenuation(float value);
-    // Get instance field: public System.Single offset
-    float _get_offset();
-    // Set instance field: public System.Single offset
-    void _set_offset(float value);
-    // Get instance field: public System.Single heightFogStartY
-    float _get_heightFogStartY();
-    // Set instance field: public System.Single heightFogStartY
-    void _set_heightFogStartY(float value);
-    // Get instance field: public System.Single heightFogHeight
-    float _get_heightFogHeight();
-    // Set instance field: public System.Single heightFogHeight
-    void _set_heightFogHeight(float value);
+    // Get instance field reference: public System.Single attenuation
+    float& dyn_attenuation();
+    // Get instance field reference: public System.Single offset
+    float& dyn_offset();
+    // Get instance field reference: public System.Single heightFogStartY
+    float& dyn_heightFogStartY();
+    // Get instance field reference: public System.Single heightFogHeight
+    float& dyn_heightFogHeight();
     // public System.Void .ctor()
     // Offset: 0x1E11118
     // Implemented from: PersistentScriptableObject

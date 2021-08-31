@@ -47,22 +47,14 @@ namespace System {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Int16 Left
-    int16_t _get_Left();
-    // Set instance field: public System.Int16 Left
-    void _set_Left(int16_t value);
-    // Get instance field: public System.Int16 Top
-    int16_t _get_Top();
-    // Set instance field: public System.Int16 Top
-    void _set_Top(int16_t value);
-    // Get instance field: public System.Int16 Right
-    int16_t _get_Right();
-    // Set instance field: public System.Int16 Right
-    void _set_Right(int16_t value);
-    // Get instance field: public System.Int16 Bottom
-    int16_t _get_Bottom();
-    // Set instance field: public System.Int16 Bottom
-    void _set_Bottom(int16_t value);
+    // Get instance field reference: public System.Int16 Left
+    int16_t& dyn_Left();
+    // Get instance field reference: public System.Int16 Top
+    int16_t& dyn_Top();
+    // Get instance field reference: public System.Int16 Right
+    int16_t& dyn_Right();
+    // Get instance field reference: public System.Int16 Bottom
+    int16_t& dyn_Bottom();
   }; // System.SmallRect
   #pragma pack(pop)
   static check_size<sizeof(SmallRect), 6 + sizeof(int16_t)> __System_SmallRectSizeCheck;

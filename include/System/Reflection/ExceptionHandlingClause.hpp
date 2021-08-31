@@ -73,34 +73,20 @@ namespace System::Reflection {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: ExceptionHandlingClause
     ExceptionHandlingClause(System::Type* catch_type_ = {}, int filter_offset_ = {}, System::Reflection::ExceptionHandlingClauseOptions flags_ = {}, int try_offset_ = {}, int try_length_ = {}, int handler_offset_ = {}, int handler_length_ = {}) noexcept : catch_type{catch_type_}, filter_offset{filter_offset_}, flags{flags_}, try_offset{try_offset_}, try_length{try_length_}, handler_offset{handler_offset_}, handler_length{handler_length_} {}
-    // Get instance field: System.Type catch_type
-    System::Type* _get_catch_type();
-    // Set instance field: System.Type catch_type
-    void _set_catch_type(System::Type* value);
-    // Get instance field: System.Int32 filter_offset
-    int _get_filter_offset();
-    // Set instance field: System.Int32 filter_offset
-    void _set_filter_offset(int value);
-    // Get instance field: System.Reflection.ExceptionHandlingClauseOptions flags
-    System::Reflection::ExceptionHandlingClauseOptions _get_flags();
-    // Set instance field: System.Reflection.ExceptionHandlingClauseOptions flags
-    void _set_flags(System::Reflection::ExceptionHandlingClauseOptions value);
-    // Get instance field: System.Int32 try_offset
-    int _get_try_offset();
-    // Set instance field: System.Int32 try_offset
-    void _set_try_offset(int value);
-    // Get instance field: System.Int32 try_length
-    int _get_try_length();
-    // Set instance field: System.Int32 try_length
-    void _set_try_length(int value);
-    // Get instance field: System.Int32 handler_offset
-    int _get_handler_offset();
-    // Set instance field: System.Int32 handler_offset
-    void _set_handler_offset(int value);
-    // Get instance field: System.Int32 handler_length
-    int _get_handler_length();
-    // Set instance field: System.Int32 handler_length
-    void _set_handler_length(int value);
+    // Get instance field reference: System.Type catch_type
+    System::Type*& dyn_catch_type();
+    // Get instance field reference: System.Int32 filter_offset
+    int& dyn_filter_offset();
+    // Get instance field reference: System.Reflection.ExceptionHandlingClauseOptions flags
+    System::Reflection::ExceptionHandlingClauseOptions& dyn_flags();
+    // Get instance field reference: System.Int32 try_offset
+    int& dyn_try_offset();
+    // Get instance field reference: System.Int32 try_length
+    int& dyn_try_length();
+    // Get instance field reference: System.Int32 handler_offset
+    int& dyn_handler_offset();
+    // Get instance field reference: System.Int32 handler_length
+    int& dyn_handler_length();
     // protected System.Void .ctor()
     // Offset: 0x1D19A64
     // Implemented from: System.Object

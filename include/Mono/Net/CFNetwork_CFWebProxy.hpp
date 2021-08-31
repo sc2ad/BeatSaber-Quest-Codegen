@@ -61,14 +61,10 @@ namespace Mono::Net {
     operator System::Net::IWebProxy() noexcept {
       return *reinterpret_cast<System::Net::IWebProxy*>(this);
     }
-    // Get instance field: private System.Net.ICredentials credentials
-    System::Net::ICredentials* _get_credentials();
-    // Set instance field: private System.Net.ICredentials credentials
-    void _set_credentials(System::Net::ICredentials* value);
-    // Get instance field: private System.Boolean userSpecified
-    bool _get_userSpecified();
-    // Set instance field: private System.Boolean userSpecified
-    void _set_userSpecified(bool value);
+    // Get instance field reference: private System.Net.ICredentials credentials
+    System::Net::ICredentials*& dyn_credentials();
+    // Get instance field reference: private System.Boolean userSpecified
+    bool& dyn_userSpecified();
     // public System.Net.ICredentials get_Credentials()
     // Offset: 0x15E31B4
     System::Net::ICredentials* get_Credentials();

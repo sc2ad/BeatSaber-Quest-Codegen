@@ -45,18 +45,12 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Boolean bActive
-    bool _get_bActive();
-    // Set instance field: public System.Boolean bActive
-    void _set_bActive(bool value);
-    // Get instance field: public System.UInt64 activeOrigin
-    uint64_t _get_activeOrigin();
-    // Set instance field: public System.UInt64 activeOrigin
-    void _set_activeOrigin(uint64_t value);
-    // Get instance field: public OVR.OpenVR.TrackedDevicePose_t pose
-    OVR::OpenVR::TrackedDevicePose_t _get_pose();
-    // Set instance field: public OVR.OpenVR.TrackedDevicePose_t pose
-    void _set_pose(OVR::OpenVR::TrackedDevicePose_t value);
+    // Get instance field reference: public System.Boolean bActive
+    bool& dyn_bActive();
+    // Get instance field reference: public System.UInt64 activeOrigin
+    uint64_t& dyn_activeOrigin();
+    // Get instance field reference: public OVR.OpenVR.TrackedDevicePose_t pose
+    OVR::OpenVR::TrackedDevicePose_t& dyn_pose();
   }; // OVR.OpenVR.InputPoseActionData_t
   #pragma pack(pop)
   static check_size<sizeof(InputPoseActionData_t), 16 + sizeof(OVR::OpenVR::TrackedDevicePose_t)> __OVR_OpenVR_InputPoseActionData_tSizeCheck;

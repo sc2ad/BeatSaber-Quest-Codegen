@@ -53,10 +53,8 @@ namespace Oculus::Platform {
     static Oculus::Platform::SendPolicy _get_Unknown();
     // Set static field: static public Oculus.Platform.SendPolicy Unknown
     static void _set_Unknown(Oculus::Platform::SendPolicy value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Oculus.Platform.SendPolicy
   #pragma pack(pop)
   static check_size<sizeof(SendPolicy), 0 + sizeof(int)> __Oculus_Platform_SendPolicySizeCheck;

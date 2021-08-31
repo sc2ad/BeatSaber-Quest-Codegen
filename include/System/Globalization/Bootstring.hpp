@@ -70,38 +70,22 @@ namespace System::Globalization {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: Bootstring
     Bootstring(::Il2CppChar delimiter_ = {}, int base_num_ = {}, int tmin_ = {}, int tmax_ = {}, int skew_ = {}, int damp_ = {}, int initial_bias_ = {}, int initial_n_ = {}) noexcept : delimiter{delimiter_}, base_num{base_num_}, tmin{tmin_}, tmax{tmax_}, skew{skew_}, damp{damp_}, initial_bias{initial_bias_}, initial_n{initial_n_} {}
-    // Get instance field: private readonly System.Char delimiter
-    ::Il2CppChar _get_delimiter();
-    // Set instance field: private readonly System.Char delimiter
-    void _set_delimiter(::Il2CppChar value);
-    // Get instance field: private readonly System.Int32 base_num
-    int _get_base_num();
-    // Set instance field: private readonly System.Int32 base_num
-    void _set_base_num(int value);
-    // Get instance field: private readonly System.Int32 tmin
-    int _get_tmin();
-    // Set instance field: private readonly System.Int32 tmin
-    void _set_tmin(int value);
-    // Get instance field: private readonly System.Int32 tmax
-    int _get_tmax();
-    // Set instance field: private readonly System.Int32 tmax
-    void _set_tmax(int value);
-    // Get instance field: private readonly System.Int32 skew
-    int _get_skew();
-    // Set instance field: private readonly System.Int32 skew
-    void _set_skew(int value);
-    // Get instance field: private readonly System.Int32 damp
-    int _get_damp();
-    // Set instance field: private readonly System.Int32 damp
-    void _set_damp(int value);
-    // Get instance field: private readonly System.Int32 initial_bias
-    int _get_initial_bias();
-    // Set instance field: private readonly System.Int32 initial_bias
-    void _set_initial_bias(int value);
-    // Get instance field: private readonly System.Int32 initial_n
-    int _get_initial_n();
-    // Set instance field: private readonly System.Int32 initial_n
-    void _set_initial_n(int value);
+    // Get instance field reference: private readonly System.Char delimiter
+    ::Il2CppChar& dyn_delimiter();
+    // Get instance field reference: private readonly System.Int32 base_num
+    int& dyn_base_num();
+    // Get instance field reference: private readonly System.Int32 tmin
+    int& dyn_tmin();
+    // Get instance field reference: private readonly System.Int32 tmax
+    int& dyn_tmax();
+    // Get instance field reference: private readonly System.Int32 skew
+    int& dyn_skew();
+    // Get instance field reference: private readonly System.Int32 damp
+    int& dyn_damp();
+    // Get instance field reference: private readonly System.Int32 initial_bias
+    int& dyn_initial_bias();
+    // Get instance field reference: private readonly System.Int32 initial_n
+    int& dyn_initial_n();
     // public System.Void .ctor(System.Char delimiter, System.Int32 baseNum, System.Int32 tmin, System.Int32 tmax, System.Int32 skew, System.Int32 damp, System.Int32 initialBias, System.Int32 initialN)
     // Offset: 0x1803888
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

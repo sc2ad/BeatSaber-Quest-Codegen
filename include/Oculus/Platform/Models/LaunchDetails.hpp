@@ -82,38 +82,22 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
     // Creating value type constructor for type: LaunchDetails
     LaunchDetails(::Il2CppString* DeeplinkMessage_ = {}, ::Il2CppString* DestinationApiName_ = {}, ::Il2CppString* LaunchSource_ = {}, Oculus::Platform::LaunchType LaunchType_ = {}, uint64_t RoomID_ = {}, ::Il2CppString* TrackingID_ = {}, Oculus::Platform::Models::UserList* UsersOptional_ = {}, Oculus::Platform::Models::UserList* Users_ = {}) noexcept : DeeplinkMessage{DeeplinkMessage_}, DestinationApiName{DestinationApiName_}, LaunchSource{LaunchSource_}, LaunchType{LaunchType_}, RoomID{RoomID_}, TrackingID{TrackingID_}, UsersOptional{UsersOptional_}, Users{Users_} {}
-    // Get instance field: public readonly System.String DeeplinkMessage
-    ::Il2CppString* _get_DeeplinkMessage();
-    // Set instance field: public readonly System.String DeeplinkMessage
-    void _set_DeeplinkMessage(::Il2CppString* value);
-    // Get instance field: public readonly System.String DestinationApiName
-    ::Il2CppString* _get_DestinationApiName();
-    // Set instance field: public readonly System.String DestinationApiName
-    void _set_DestinationApiName(::Il2CppString* value);
-    // Get instance field: public readonly System.String LaunchSource
-    ::Il2CppString* _get_LaunchSource();
-    // Set instance field: public readonly System.String LaunchSource
-    void _set_LaunchSource(::Il2CppString* value);
-    // Get instance field: public readonly Oculus.Platform.LaunchType LaunchType
-    Oculus::Platform::LaunchType _get_LaunchType();
-    // Set instance field: public readonly Oculus.Platform.LaunchType LaunchType
-    void _set_LaunchType(Oculus::Platform::LaunchType value);
-    // Get instance field: public readonly System.UInt64 RoomID
-    uint64_t _get_RoomID();
-    // Set instance field: public readonly System.UInt64 RoomID
-    void _set_RoomID(uint64_t value);
-    // Get instance field: public readonly System.String TrackingID
-    ::Il2CppString* _get_TrackingID();
-    // Set instance field: public readonly System.String TrackingID
-    void _set_TrackingID(::Il2CppString* value);
-    // Get instance field: public readonly Oculus.Platform.Models.UserList UsersOptional
-    Oculus::Platform::Models::UserList* _get_UsersOptional();
-    // Set instance field: public readonly Oculus.Platform.Models.UserList UsersOptional
-    void _set_UsersOptional(Oculus::Platform::Models::UserList* value);
-    // Get instance field: public readonly Oculus.Platform.Models.UserList Users
-    Oculus::Platform::Models::UserList* _get_Users();
-    // Set instance field: public readonly Oculus.Platform.Models.UserList Users
-    void _set_Users(Oculus::Platform::Models::UserList* value);
+    // Get instance field reference: public readonly System.String DeeplinkMessage
+    ::Il2CppString*& dyn_DeeplinkMessage();
+    // Get instance field reference: public readonly System.String DestinationApiName
+    ::Il2CppString*& dyn_DestinationApiName();
+    // Get instance field reference: public readonly System.String LaunchSource
+    ::Il2CppString*& dyn_LaunchSource();
+    // Get instance field reference: public readonly Oculus.Platform.LaunchType LaunchType
+    Oculus::Platform::LaunchType& dyn_LaunchType();
+    // Get instance field reference: public readonly System.UInt64 RoomID
+    uint64_t& dyn_RoomID();
+    // Get instance field reference: public readonly System.String TrackingID
+    ::Il2CppString*& dyn_TrackingID();
+    // Get instance field reference: public readonly Oculus.Platform.Models.UserList UsersOptional
+    Oculus::Platform::Models::UserList*& dyn_UsersOptional();
+    // Get instance field reference: public readonly Oculus.Platform.Models.UserList Users
+    Oculus::Platform::Models::UserList*& dyn_Users();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14F19C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

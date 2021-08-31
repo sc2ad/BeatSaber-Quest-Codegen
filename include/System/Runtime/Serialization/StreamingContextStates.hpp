@@ -88,10 +88,8 @@ namespace System::Runtime::Serialization {
     static System::Runtime::Serialization::StreamingContextStates _get_All();
     // Set static field: static public System.Runtime.Serialization.StreamingContextStates All
     static void _set_All(System::Runtime::Serialization::StreamingContextStates value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Runtime.Serialization.StreamingContextStates
   #pragma pack(pop)
   static check_size<sizeof(StreamingContextStates), 0 + sizeof(int)> __System_Runtime_Serialization_StreamingContextStatesSizeCheck;

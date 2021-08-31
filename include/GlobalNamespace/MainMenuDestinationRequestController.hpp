@@ -88,22 +88,14 @@ namespace GlobalNamespace {
     operator Zenject::IInitializable() noexcept {
       return *reinterpret_cast<Zenject::IInitializable*>(this);
     }
-    // Get instance field: private readonly IDestinationRequestManager _destinationRequestManager
-    GlobalNamespace::IDestinationRequestManager* _get__destinationRequestManager();
-    // Set instance field: private readonly IDestinationRequestManager _destinationRequestManager
-    void _set__destinationRequestManager(GlobalNamespace::IDestinationRequestManager* value);
-    // Get instance field: private readonly MenuScenesTransitionSetupDataSO _menuScenesTransitionSetupData
-    GlobalNamespace::MenuScenesTransitionSetupDataSO* _get__menuScenesTransitionSetupData();
-    // Set instance field: private readonly MenuScenesTransitionSetupDataSO _menuScenesTransitionSetupData
-    void _set__menuScenesTransitionSetupData(GlobalNamespace::MenuScenesTransitionSetupDataSO* value);
-    // Get instance field: private readonly GameScenesManager _gameScenesManager
-    GlobalNamespace::GameScenesManager* _get__gameScenesManager();
-    // Set instance field: private readonly GameScenesManager _gameScenesManager
-    void _set__gameScenesManager(GlobalNamespace::GameScenesManager* value);
-    // Get instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    System::Threading::CancellationTokenSource* _get__cancellationTokenSource();
-    // Set instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    void _set__cancellationTokenSource(System::Threading::CancellationTokenSource* value);
+    // Get instance field reference: private readonly IDestinationRequestManager _destinationRequestManager
+    GlobalNamespace::IDestinationRequestManager*& dyn__destinationRequestManager();
+    // Get instance field reference: private readonly MenuScenesTransitionSetupDataSO _menuScenesTransitionSetupData
+    GlobalNamespace::MenuScenesTransitionSetupDataSO*& dyn__menuScenesTransitionSetupData();
+    // Get instance field reference: private readonly GameScenesManager _gameScenesManager
+    GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
+    // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
+    System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
     // public System.Void Initialize()
     // Offset: 0x10E0C14
     void Initialize();

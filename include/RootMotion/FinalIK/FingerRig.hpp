@@ -56,18 +56,12 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: FingerRig
     FingerRig(float weight_ = {}, ::Array<RootMotion::FinalIK::Finger*>* fingers_ = {}, bool initiated_ = {}) noexcept : weight{weight_}, fingers{fingers_}, initiated{initiated_} {}
-    // Get instance field: public System.Single weight
-    float _get_weight();
-    // Set instance field: public System.Single weight
-    void _set_weight(float value);
-    // Get instance field: public RootMotion.FinalIK.Finger[] fingers
-    ::Array<RootMotion::FinalIK::Finger*>* _get_fingers();
-    // Set instance field: public RootMotion.FinalIK.Finger[] fingers
-    void _set_fingers(::Array<RootMotion::FinalIK::Finger*>* value);
-    // Get instance field: private System.Boolean <initiated>k__BackingField
-    bool _get_$initiated$k__BackingField();
-    // Set instance field: private System.Boolean <initiated>k__BackingField
-    void _set_$initiated$k__BackingField(bool value);
+    // Get instance field reference: public System.Single weight
+    float& dyn_weight();
+    // Get instance field reference: public RootMotion.FinalIK.Finger[] fingers
+    ::Array<RootMotion::FinalIK::Finger*>*& dyn_fingers();
+    // Get instance field reference: private System.Boolean <initiated>k__BackingField
+    bool& dyn_$initiated$k__BackingField();
     // public System.Boolean get_initiated()
     // Offset: 0x1CC1CAC
     bool get_initiated();

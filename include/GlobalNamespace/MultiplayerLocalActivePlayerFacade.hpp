@@ -131,42 +131,24 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.GameObject[] _activeOnlyGameObjects
-    ::Array<UnityEngine::GameObject*>* _get__activeOnlyGameObjects();
-    // Set instance field: private UnityEngine.GameObject[] _activeOnlyGameObjects
-    void _set__activeOnlyGameObjects(::Array<UnityEngine::GameObject*>* value);
-    // Get instance field: private UnityEngine.GameObject _outroAnimator
-    UnityEngine::GameObject* _get__outroAnimator();
-    // Set instance field: private UnityEngine.GameObject _outroAnimator
-    void _set__outroAnimator(UnityEngine::GameObject* value);
-    // Get instance field: private readonly IStartSeekSongController _songController
-    GlobalNamespace::IStartSeekSongController* _get__songController();
-    // Set instance field: private readonly IStartSeekSongController _songController
-    void _set__songController(GlobalNamespace::IStartSeekSongController* value);
-    // Get instance field: private readonly MultiplayerLocalActivePlayerIntroAnimator _introAnimator
-    GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator* _get__introAnimator();
-    // Set instance field: private readonly MultiplayerLocalActivePlayerIntroAnimator _introAnimator
-    void _set__introAnimator(GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator* value);
-    // Get instance field: private readonly GameSongController _gameSongController
-    GlobalNamespace::GameSongController* _get__gameSongController();
-    // Set instance field: private readonly GameSongController _gameSongController
-    void _set__gameSongController(GlobalNamespace::GameSongController* value);
-    // Get instance field: private readonly BeatmapObjectManager _beatmapObjectManager
-    GlobalNamespace::BeatmapObjectManager* _get__beatmapObjectManager();
-    // Set instance field: private readonly BeatmapObjectManager _beatmapObjectManager
-    void _set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager* value);
-    // Get instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
-    GlobalNamespace::IBeatmapObjectCallbackController* _get__beatmapObjectCallbackController();
-    // Set instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
-    void _set__beatmapObjectCallbackController(GlobalNamespace::IBeatmapObjectCallbackController* value);
-    // Get instance field: private System.Action`1<MultiplayerLevelCompletionResults> playerDidFinishEvent
-    System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>* _get_playerDidFinishEvent();
-    // Set instance field: private System.Action`1<MultiplayerLevelCompletionResults> playerDidFinishEvent
-    void _set_playerDidFinishEvent(System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
-    // Get instance field: private System.Action`1<PlayerNetworkFailReason> playerNetworkDidFailedEvent
-    System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* _get_playerNetworkDidFailedEvent();
-    // Set instance field: private System.Action`1<PlayerNetworkFailReason> playerNetworkDidFailedEvent
-    void _set_playerNetworkDidFailedEvent(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* value);
+    // Get instance field reference: private UnityEngine.GameObject[] _activeOnlyGameObjects
+    ::Array<UnityEngine::GameObject*>*& dyn__activeOnlyGameObjects();
+    // Get instance field reference: private UnityEngine.GameObject _outroAnimator
+    UnityEngine::GameObject*& dyn__outroAnimator();
+    // Get instance field reference: private readonly IStartSeekSongController _songController
+    GlobalNamespace::IStartSeekSongController*& dyn__songController();
+    // Get instance field reference: private readonly MultiplayerLocalActivePlayerIntroAnimator _introAnimator
+    GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator*& dyn__introAnimator();
+    // Get instance field reference: private readonly GameSongController _gameSongController
+    GlobalNamespace::GameSongController*& dyn__gameSongController();
+    // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
+    GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
+    // Get instance field reference: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    GlobalNamespace::IBeatmapObjectCallbackController*& dyn__beatmapObjectCallbackController();
+    // Get instance field reference: private System.Action`1<MultiplayerLevelCompletionResults> playerDidFinishEvent
+    System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>*& dyn_playerDidFinishEvent();
+    // Get instance field reference: private System.Action`1<PlayerNetworkFailReason> playerNetworkDidFailedEvent
+    System::Action_1<GlobalNamespace::PlayerNetworkFailReason>*& dyn_playerNetworkDidFailedEvent();
     // public MultiplayerLocalActivePlayerIntroAnimator get_introAnimator()
     // Offset: 0x1066620
     GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator* get_introAnimator();

@@ -90,46 +90,26 @@ namespace TMPro {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Byte bold
-    uint8_t _get_bold();
-    // Set instance field: public System.Byte bold
-    void _set_bold(uint8_t value);
-    // Get instance field: public System.Byte italic
-    uint8_t _get_italic();
-    // Set instance field: public System.Byte italic
-    void _set_italic(uint8_t value);
-    // Get instance field: public System.Byte underline
-    uint8_t _get_underline();
-    // Set instance field: public System.Byte underline
-    void _set_underline(uint8_t value);
-    // Get instance field: public System.Byte strikethrough
-    uint8_t _get_strikethrough();
-    // Set instance field: public System.Byte strikethrough
-    void _set_strikethrough(uint8_t value);
-    // Get instance field: public System.Byte highlight
-    uint8_t _get_highlight();
-    // Set instance field: public System.Byte highlight
-    void _set_highlight(uint8_t value);
-    // Get instance field: public System.Byte superscript
-    uint8_t _get_superscript();
-    // Set instance field: public System.Byte superscript
-    void _set_superscript(uint8_t value);
-    // Get instance field: public System.Byte subscript
-    uint8_t _get_subscript();
-    // Set instance field: public System.Byte subscript
-    void _set_subscript(uint8_t value);
-    // Get instance field: public System.Byte uppercase
-    uint8_t _get_uppercase();
-    // Set instance field: public System.Byte uppercase
-    void _set_uppercase(uint8_t value);
-    // Get instance field: public System.Byte lowercase
-    uint8_t _get_lowercase();
-    // Set instance field: public System.Byte lowercase
-    void _set_lowercase(uint8_t value);
-    // Get instance field: public System.Byte smallcaps
-    uint8_t _get_smallcaps();
-    // Set instance field: public System.Byte smallcaps
-    void _set_smallcaps(uint8_t value);
+    // Get instance field reference: public System.Byte bold
+    uint8_t& dyn_bold();
+    // Get instance field reference: public System.Byte italic
+    uint8_t& dyn_italic();
+    // Get instance field reference: public System.Byte underline
+    uint8_t& dyn_underline();
+    // Get instance field reference: public System.Byte strikethrough
+    uint8_t& dyn_strikethrough();
+    // Get instance field reference: public System.Byte highlight
+    uint8_t& dyn_highlight();
+    // Get instance field reference: public System.Byte superscript
+    uint8_t& dyn_superscript();
+    // Get instance field reference: public System.Byte subscript
+    uint8_t& dyn_subscript();
+    // Get instance field reference: public System.Byte uppercase
+    uint8_t& dyn_uppercase();
+    // Get instance field reference: public System.Byte lowercase
+    uint8_t& dyn_lowercase();
+    // Get instance field reference: public System.Byte smallcaps
+    uint8_t& dyn_smallcaps();
     // public System.Void Clear()
     // Offset: 0x1124780
     void Clear();

@@ -74,26 +74,16 @@ namespace GlobalNamespace {
     EventsTestGameplayManager(GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, GlobalNamespace::BeatmapEventType beatmapEventType_ = {}, System::Collections::Generic::Dictionary_2<UnityEngine::KeyCode, GlobalNamespace::BeatmapEventType>* beatmapEventTypeBindings_ = {}, System::Collections::Generic::Dictionary_2<UnityEngine::KeyCode, int>* beatmapValuesBindings_ = {}, bool rotatingLasers_ = {}) noexcept : beatmapObjectCallbackController{beatmapObjectCallbackController_}, beatmapEventType{beatmapEventType_}, beatmapEventTypeBindings{beatmapEventTypeBindings_}, beatmapValuesBindings{beatmapValuesBindings_}, rotatingLasers{rotatingLasers_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
-    GlobalNamespace::IBeatmapObjectCallbackController* _get__beatmapObjectCallbackController();
-    // Set instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
-    void _set__beatmapObjectCallbackController(GlobalNamespace::IBeatmapObjectCallbackController* value);
-    // Get instance field: private BeatmapEventType _beatmapEventType
-    GlobalNamespace::BeatmapEventType _get__beatmapEventType();
-    // Set instance field: private BeatmapEventType _beatmapEventType
-    void _set__beatmapEventType(GlobalNamespace::BeatmapEventType value);
-    // Get instance field: private System.Collections.Generic.Dictionary`2<UnityEngine.KeyCode,BeatmapEventType> _beatmapEventTypeBindings
-    System::Collections::Generic::Dictionary_2<UnityEngine::KeyCode, GlobalNamespace::BeatmapEventType>* _get__beatmapEventTypeBindings();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<UnityEngine.KeyCode,BeatmapEventType> _beatmapEventTypeBindings
-    void _set__beatmapEventTypeBindings(System::Collections::Generic::Dictionary_2<UnityEngine::KeyCode, GlobalNamespace::BeatmapEventType>* value);
-    // Get instance field: private System.Collections.Generic.Dictionary`2<UnityEngine.KeyCode,System.Int32> _beatmapValuesBindings
-    System::Collections::Generic::Dictionary_2<UnityEngine::KeyCode, int>* _get__beatmapValuesBindings();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<UnityEngine.KeyCode,System.Int32> _beatmapValuesBindings
-    void _set__beatmapValuesBindings(System::Collections::Generic::Dictionary_2<UnityEngine::KeyCode, int>* value);
-    // Get instance field: private System.Boolean _rotatingLasers
-    bool _get__rotatingLasers();
-    // Set instance field: private System.Boolean _rotatingLasers
-    void _set__rotatingLasers(bool value);
+    // Get instance field reference: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    GlobalNamespace::IBeatmapObjectCallbackController*& dyn__beatmapObjectCallbackController();
+    // Get instance field reference: private BeatmapEventType _beatmapEventType
+    GlobalNamespace::BeatmapEventType& dyn__beatmapEventType();
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<UnityEngine.KeyCode,BeatmapEventType> _beatmapEventTypeBindings
+    System::Collections::Generic::Dictionary_2<UnityEngine::KeyCode, GlobalNamespace::BeatmapEventType>*& dyn__beatmapEventTypeBindings();
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<UnityEngine.KeyCode,System.Int32> _beatmapValuesBindings
+    System::Collections::Generic::Dictionary_2<UnityEngine::KeyCode, int>*& dyn__beatmapValuesBindings();
+    // Get instance field reference: private System.Boolean _rotatingLasers
+    bool& dyn__rotatingLasers();
     // protected System.Void Awake()
     // Offset: 0x1053E70
     void Awake();

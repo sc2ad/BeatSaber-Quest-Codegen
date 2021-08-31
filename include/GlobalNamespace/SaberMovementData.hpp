@@ -90,26 +90,16 @@ namespace GlobalNamespace {
     static float _get_kSmoothDownBladeSpeedCoef();
     // Set static field: static private System.Single kSmoothDownBladeSpeedCoef
     static void _set_kSmoothDownBladeSpeedCoef(float value);
-    // Get instance field: private readonly BladeMovementDataElement[] _data
-    ::Array<GlobalNamespace::BladeMovementDataElement>* _get__data();
-    // Set instance field: private readonly BladeMovementDataElement[] _data
-    void _set__data(::Array<GlobalNamespace::BladeMovementDataElement>* value);
-    // Get instance field: private readonly LazyCopyHashSet`1<ISaberMovementDataProcessor> _dataProcessors
-    GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ISaberMovementDataProcessor*>* _get__dataProcessors();
-    // Set instance field: private readonly LazyCopyHashSet`1<ISaberMovementDataProcessor> _dataProcessors
-    void _set__dataProcessors(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ISaberMovementDataProcessor*>* value);
-    // Get instance field: private System.Int32 _nextAddIndex
-    int _get__nextAddIndex();
-    // Set instance field: private System.Int32 _nextAddIndex
-    void _set__nextAddIndex(int value);
-    // Get instance field: private System.Int32 _validCount
-    int _get__validCount();
-    // Set instance field: private System.Int32 _validCount
-    void _set__validCount(int value);
-    // Get instance field: private System.Single _bladeSpeed
-    float _get__bladeSpeed();
-    // Set instance field: private System.Single _bladeSpeed
-    void _set__bladeSpeed(float value);
+    // Get instance field reference: private readonly BladeMovementDataElement[] _data
+    ::Array<GlobalNamespace::BladeMovementDataElement>*& dyn__data();
+    // Get instance field reference: private readonly LazyCopyHashSet`1<ISaberMovementDataProcessor> _dataProcessors
+    GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ISaberMovementDataProcessor*>*& dyn__dataProcessors();
+    // Get instance field reference: private System.Int32 _nextAddIndex
+    int& dyn__nextAddIndex();
+    // Get instance field reference: private System.Int32 _validCount
+    int& dyn__validCount();
+    // Get instance field reference: private System.Single _bladeSpeed
+    float& dyn__bladeSpeed();
     // public LazyCopyHashSet`1<ISaberMovementDataProcessor> get_dataProcessors()
     // Offset: 0x1194370
     GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ISaberMovementDataProcessor*>* get_dataProcessors();

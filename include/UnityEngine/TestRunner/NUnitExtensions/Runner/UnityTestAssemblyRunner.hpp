@@ -104,30 +104,18 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     static_assert(sizeof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*) == 0x8);
     // Creating value type constructor for type: UnityTestAssemblyRunner
     UnityTestAssemblyRunner(UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder* unityBuilder_ = {}, UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory* m_Factory_ = {}, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* Context_ = {}, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>* Settings_ = {}, NUnit::Framework::Interfaces::ITest* LoadedTest_ = {}, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* TopLevelWorkItem_ = {}) noexcept : unityBuilder{unityBuilder_}, m_Factory{m_Factory_}, Context{Context_}, Settings{Settings_}, LoadedTest{LoadedTest_}, TopLevelWorkItem{TopLevelWorkItem_} {}
-    // Get instance field: private readonly UnityEngine.TestTools.NUnitExtensions.UnityTestAssemblyBuilder unityBuilder
-    UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder* _get_unityBuilder();
-    // Set instance field: private readonly UnityEngine.TestTools.NUnitExtensions.UnityTestAssemblyBuilder unityBuilder
-    void _set_unityBuilder(UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder* value);
-    // Get instance field: private readonly UnityEngine.TestRunner.NUnitExtensions.Runner.WorkItemFactory m_Factory
-    UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory* _get_m_Factory();
-    // Set instance field: private readonly UnityEngine.TestRunner.NUnitExtensions.Runner.WorkItemFactory m_Factory
-    void _set_m_Factory(UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory* value);
-    // Get instance field: private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext <Context>k__BackingField
-    UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* _get_$Context$k__BackingField();
-    // Set instance field: private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext <Context>k__BackingField
-    void _set_$Context$k__BackingField(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* value);
-    // Get instance field: private System.Collections.Generic.IDictionary`2<System.String,System.Object> <Settings>k__BackingField
-    System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>* _get_$Settings$k__BackingField();
-    // Set instance field: private System.Collections.Generic.IDictionary`2<System.String,System.Object> <Settings>k__BackingField
-    void _set_$Settings$k__BackingField(System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>* value);
-    // Get instance field: private NUnit.Framework.Interfaces.ITest <LoadedTest>k__BackingField
-    NUnit::Framework::Interfaces::ITest* _get_$LoadedTest$k__BackingField();
-    // Set instance field: private NUnit.Framework.Interfaces.ITest <LoadedTest>k__BackingField
-    void _set_$LoadedTest$k__BackingField(NUnit::Framework::Interfaces::ITest* value);
-    // Get instance field: private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem <TopLevelWorkItem>k__BackingField
-    UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* _get_$TopLevelWorkItem$k__BackingField();
-    // Set instance field: private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem <TopLevelWorkItem>k__BackingField
-    void _set_$TopLevelWorkItem$k__BackingField(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* value);
+    // Get instance field reference: private readonly UnityEngine.TestTools.NUnitExtensions.UnityTestAssemblyBuilder unityBuilder
+    UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder*& dyn_unityBuilder();
+    // Get instance field reference: private readonly UnityEngine.TestRunner.NUnitExtensions.Runner.WorkItemFactory m_Factory
+    UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*& dyn_m_Factory();
+    // Get instance field reference: private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext <Context>k__BackingField
+    UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*& dyn_$Context$k__BackingField();
+    // Get instance field reference: private System.Collections.Generic.IDictionary`2<System.String,System.Object> <Settings>k__BackingField
+    System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*& dyn_$Settings$k__BackingField();
+    // Get instance field reference: private NUnit.Framework.Interfaces.ITest <LoadedTest>k__BackingField
+    NUnit::Framework::Interfaces::ITest*& dyn_$LoadedTest$k__BackingField();
+    // Get instance field reference: private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem <TopLevelWorkItem>k__BackingField
+    UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*& dyn_$TopLevelWorkItem$k__BackingField();
     // protected UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext get_Context()
     // Offset: 0x14B8C14
     UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* get_Context();

@@ -69,10 +69,8 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::RefreshMask _get_All();
     // Set static field: static public UnityEngine.ProBuilder.RefreshMask All
     static void _set_All(UnityEngine::ProBuilder::RefreshMask value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.ProBuilder.RefreshMask
   #pragma pack(pop)
   static check_size<sizeof(RefreshMask), 0 + sizeof(int)> __UnityEngine_ProBuilder_RefreshMaskSizeCheck;

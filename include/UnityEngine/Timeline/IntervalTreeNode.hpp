@@ -53,26 +53,16 @@ namespace UnityEngine::Timeline {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Int64 center
-    int64_t _get_center();
-    // Set instance field: public System.Int64 center
-    void _set_center(int64_t value);
-    // Get instance field: public System.Int32 first
-    int _get_first();
-    // Set instance field: public System.Int32 first
-    void _set_first(int value);
-    // Get instance field: public System.Int32 last
-    int _get_last();
-    // Set instance field: public System.Int32 last
-    void _set_last(int value);
-    // Get instance field: public System.Int32 left
-    int _get_left();
-    // Set instance field: public System.Int32 left
-    void _set_left(int value);
-    // Get instance field: public System.Int32 right
-    int _get_right();
-    // Set instance field: public System.Int32 right
-    void _set_right(int value);
+    // Get instance field reference: public System.Int64 center
+    int64_t& dyn_center();
+    // Get instance field reference: public System.Int32 first
+    int& dyn_first();
+    // Get instance field reference: public System.Int32 last
+    int& dyn_last();
+    // Get instance field reference: public System.Int32 left
+    int& dyn_left();
+    // Get instance field reference: public System.Int32 right
+    int& dyn_right();
   }; // UnityEngine.Timeline.IntervalTreeNode
   #pragma pack(pop)
   static check_size<sizeof(IntervalTreeNode), 20 + sizeof(int)> __UnityEngine_Timeline_IntervalTreeNodeSizeCheck;

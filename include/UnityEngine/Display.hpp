@@ -56,10 +56,8 @@ namespace UnityEngine {
     static UnityEngine::Display::DisplaysUpdatedDelegate* _get_onDisplaysUpdated();
     // Set static field: static private UnityEngine.Display/UnityEngine.DisplaysUpdatedDelegate onDisplaysUpdated
     static void _set_onDisplaysUpdated(UnityEngine::Display::DisplaysUpdatedDelegate* value);
-    // Get instance field: System.IntPtr nativeDisplay
-    System::IntPtr _get_nativeDisplay();
-    // Set instance field: System.IntPtr nativeDisplay
-    void _set_nativeDisplay(System::IntPtr value);
+    // Get instance field reference: System.IntPtr nativeDisplay
+    System::IntPtr& dyn_nativeDisplay();
     // public System.Int32 get_renderingWidth()
     // Offset: 0x1C26844
     int get_renderingWidth();

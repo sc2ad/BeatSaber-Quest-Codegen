@@ -41,14 +41,10 @@ namespace System::Threading {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private System.Int32 m_total
-    int _get_m_total();
-    // Set instance field: private System.Int32 m_total
-    void _set_m_total(int value);
-    // Get instance field: private System.Int32 m_start
-    int _get_m_start();
-    // Set instance field: private System.Int32 m_start
-    void _set_m_start(int value);
+    // Get instance field reference: private System.Int32 m_total
+    int& dyn_m_total();
+    // Get instance field reference: private System.Int32 m_start
+    int& dyn_m_start();
     // public System.Int32 get_RemainingMilliseconds()
     // Offset: 0x23BD9A0
     int get_RemainingMilliseconds();

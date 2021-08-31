@@ -81,26 +81,16 @@ namespace UnityEngine::XR {
     operator System::IEquatable_1<UnityEngine::XR::MeshGenerationResult>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::XR::MeshGenerationResult>*>(this);
     }
-    // Get instance field: private readonly UnityEngine.XR.MeshId <MeshId>k__BackingField
-    UnityEngine::XR::MeshId _get_$MeshId$k__BackingField();
-    // Set instance field: private readonly UnityEngine.XR.MeshId <MeshId>k__BackingField
-    void _set_$MeshId$k__BackingField(UnityEngine::XR::MeshId value);
-    // Get instance field: private readonly UnityEngine.Mesh <Mesh>k__BackingField
-    UnityEngine::Mesh* _get_$Mesh$k__BackingField();
-    // Set instance field: private readonly UnityEngine.Mesh <Mesh>k__BackingField
-    void _set_$Mesh$k__BackingField(UnityEngine::Mesh* value);
-    // Get instance field: private readonly UnityEngine.MeshCollider <MeshCollider>k__BackingField
-    UnityEngine::MeshCollider* _get_$MeshCollider$k__BackingField();
-    // Set instance field: private readonly UnityEngine.MeshCollider <MeshCollider>k__BackingField
-    void _set_$MeshCollider$k__BackingField(UnityEngine::MeshCollider* value);
-    // Get instance field: private readonly UnityEngine.XR.MeshGenerationStatus <Status>k__BackingField
-    UnityEngine::XR::MeshGenerationStatus _get_$Status$k__BackingField();
-    // Set instance field: private readonly UnityEngine.XR.MeshGenerationStatus <Status>k__BackingField
-    void _set_$Status$k__BackingField(UnityEngine::XR::MeshGenerationStatus value);
-    // Get instance field: private readonly UnityEngine.XR.MeshVertexAttributes <Attributes>k__BackingField
-    UnityEngine::XR::MeshVertexAttributes _get_$Attributes$k__BackingField();
-    // Set instance field: private readonly UnityEngine.XR.MeshVertexAttributes <Attributes>k__BackingField
-    void _set_$Attributes$k__BackingField(UnityEngine::XR::MeshVertexAttributes value);
+    // Get instance field reference: private readonly UnityEngine.XR.MeshId <MeshId>k__BackingField
+    UnityEngine::XR::MeshId& dyn_$MeshId$k__BackingField();
+    // Get instance field reference: private readonly UnityEngine.Mesh <Mesh>k__BackingField
+    UnityEngine::Mesh*& dyn_$Mesh$k__BackingField();
+    // Get instance field reference: private readonly UnityEngine.MeshCollider <MeshCollider>k__BackingField
+    UnityEngine::MeshCollider*& dyn_$MeshCollider$k__BackingField();
+    // Get instance field reference: private readonly UnityEngine.XR.MeshGenerationStatus <Status>k__BackingField
+    UnityEngine::XR::MeshGenerationStatus& dyn_$Status$k__BackingField();
+    // Get instance field reference: private readonly UnityEngine.XR.MeshVertexAttributes <Attributes>k__BackingField
+    UnityEngine::XR::MeshVertexAttributes& dyn_$Attributes$k__BackingField();
     // public UnityEngine.XR.MeshId get_MeshId()
     // Offset: 0x240A560
     UnityEngine::XR::MeshId get_MeshId();

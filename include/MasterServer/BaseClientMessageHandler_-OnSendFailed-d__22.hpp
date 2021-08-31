@@ -93,38 +93,22 @@ namespace MasterServer {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
-    // Get instance field: public System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: public System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder _get_$$t__builder();
-    // Set instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
-    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder value);
-    // Get instance field: public MasterServer.BaseClientMessageHandler <>4__this
-    MasterServer::BaseClientMessageHandler* _get_$$4__this();
-    // Set instance field: public MasterServer.BaseClientMessageHandler <>4__this
-    void _set_$$4__this(MasterServer::BaseClientMessageHandler* value);
-    // Get instance field: public MasterServer.IMasterServerReliableRequest message
-    MasterServer::IMasterServerReliableRequest* _get_message();
-    // Set instance field: public MasterServer.IMasterServerReliableRequest message
-    void _set_message(MasterServer::IMasterServerReliableRequest* value);
-    // Get instance field: public System.UInt32 protocolVersion
-    uint _get_protocolVersion();
-    // Set instance field: public System.UInt32 protocolVersion
-    void _set_protocolVersion(uint value);
-    // Get instance field: public System.Net.IPEndPoint remoteEndPoint
-    System::Net::IPEndPoint* _get_remoteEndPoint();
-    // Set instance field: public System.Net.IPEndPoint remoteEndPoint
-    void _set_remoteEndPoint(System::Net::IPEndPoint* value);
-    // Get instance field: public System.Threading.CancellationToken cancellationToken
-    System::Threading::CancellationToken _get_cancellationToken();
-    // Set instance field: public System.Threading.CancellationToken cancellationToken
-    void _set_cancellationToken(System::Threading::CancellationToken value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
-    System::Runtime::CompilerServices::TaskAwaiter _get_$$u__1();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
-    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter value);
+    // Get instance field reference: public System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder& dyn_$$t__builder();
+    // Get instance field reference: public MasterServer.BaseClientMessageHandler <>4__this
+    MasterServer::BaseClientMessageHandler*& dyn_$$4__this();
+    // Get instance field reference: public MasterServer.IMasterServerReliableRequest message
+    MasterServer::IMasterServerReliableRequest*& dyn_message();
+    // Get instance field reference: public System.UInt32 protocolVersion
+    uint& dyn_protocolVersion();
+    // Get instance field reference: public System.Net.IPEndPoint remoteEndPoint
+    System::Net::IPEndPoint*& dyn_remoteEndPoint();
+    // Get instance field reference: public System.Threading.CancellationToken cancellationToken
+    System::Threading::CancellationToken& dyn_cancellationToken();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
     // Offset: 0x1213B44
     void MoveNext();

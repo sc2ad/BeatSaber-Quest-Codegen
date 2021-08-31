@@ -71,30 +71,18 @@ namespace GlobalNamespace {
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
-    // Get instance field: private System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: private System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: private System.Object <>2__current
-    ::Il2CppObject* _get_$$2__current();
-    // Set instance field: private System.Object <>2__current
-    void _set_$$2__current(::Il2CppObject* value);
-    // Get instance field: public System.Boolean turningOn
-    bool _get_turningOn();
-    // Set instance field: public System.Boolean turningOn
-    void _set_turningOn(bool value);
-    // Get instance field: public HologramRays <>4__this
-    GlobalNamespace::HologramRays* _get_$$4__this();
-    // Set instance field: public HologramRays <>4__this
-    void _set_$$4__this(GlobalNamespace::HologramRays* value);
-    // Get instance field: public Tweening.EaseType easeType
-    Tweening::EaseType _get_easeType();
-    // Set instance field: public Tweening.EaseType easeType
-    void _set_easeType(Tweening::EaseType value);
-    // Get instance field: public System.Single duration
-    float _get_duration();
-    // Set instance field: public System.Single duration
-    void _set_duration(float value);
+    // Get instance field reference: private System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: private System.Object <>2__current
+    ::Il2CppObject*& dyn_$$2__current();
+    // Get instance field reference: public System.Boolean turningOn
+    bool& dyn_turningOn();
+    // Get instance field reference: public HologramRays <>4__this
+    GlobalNamespace::HologramRays*& dyn_$$4__this();
+    // Get instance field reference: public Tweening.EaseType easeType
+    Tweening::EaseType& dyn_easeType();
+    // Get instance field reference: public System.Single duration
+    float& dyn_duration();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
     // Offset: 0x1144734
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();

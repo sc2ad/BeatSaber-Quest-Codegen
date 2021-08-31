@@ -100,42 +100,24 @@ namespace System::Security::Cryptography::X509Certificates {
     static_assert(sizeof(System::DateTime) == 0x8);
     // Creating value type constructor for type: X509ChainPolicy
     X509ChainPolicy(System::Security::Cryptography::OidCollection* apps_ = {}, System::Security::Cryptography::OidCollection* cert_ = {}, System::Security::Cryptography::X509Certificates::X509CertificateCollection* store_ = {}, System::Security::Cryptography::X509Certificates::X509Certificate2Collection* store2_ = {}, System::Security::Cryptography::X509Certificates::X509RevocationFlag rflag_ = {}, System::Security::Cryptography::X509Certificates::X509RevocationMode mode_ = {}, System::TimeSpan timeout_ = {}, System::Security::Cryptography::X509Certificates::X509VerificationFlags vflags_ = {}, System::DateTime vtime_ = {}) noexcept : apps{apps_}, cert{cert_}, store{store_}, store2{store2_}, rflag{rflag_}, mode{mode_}, timeout{timeout_}, vflags{vflags_}, vtime{vtime_} {}
-    // Get instance field: private System.Security.Cryptography.OidCollection apps
-    System::Security::Cryptography::OidCollection* _get_apps();
-    // Set instance field: private System.Security.Cryptography.OidCollection apps
-    void _set_apps(System::Security::Cryptography::OidCollection* value);
-    // Get instance field: private System.Security.Cryptography.OidCollection cert
-    System::Security::Cryptography::OidCollection* _get_cert();
-    // Set instance field: private System.Security.Cryptography.OidCollection cert
-    void _set_cert(System::Security::Cryptography::OidCollection* value);
-    // Get instance field: private System.Security.Cryptography.X509Certificates.X509CertificateCollection store
-    System::Security::Cryptography::X509Certificates::X509CertificateCollection* _get_store();
-    // Set instance field: private System.Security.Cryptography.X509Certificates.X509CertificateCollection store
-    void _set_store(System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
-    // Get instance field: private System.Security.Cryptography.X509Certificates.X509Certificate2Collection store2
-    System::Security::Cryptography::X509Certificates::X509Certificate2Collection* _get_store2();
-    // Set instance field: private System.Security.Cryptography.X509Certificates.X509Certificate2Collection store2
-    void _set_store2(System::Security::Cryptography::X509Certificates::X509Certificate2Collection* value);
-    // Get instance field: private System.Security.Cryptography.X509Certificates.X509RevocationFlag rflag
-    System::Security::Cryptography::X509Certificates::X509RevocationFlag _get_rflag();
-    // Set instance field: private System.Security.Cryptography.X509Certificates.X509RevocationFlag rflag
-    void _set_rflag(System::Security::Cryptography::X509Certificates::X509RevocationFlag value);
-    // Get instance field: private System.Security.Cryptography.X509Certificates.X509RevocationMode mode
-    System::Security::Cryptography::X509Certificates::X509RevocationMode _get_mode();
-    // Set instance field: private System.Security.Cryptography.X509Certificates.X509RevocationMode mode
-    void _set_mode(System::Security::Cryptography::X509Certificates::X509RevocationMode value);
-    // Get instance field: private System.TimeSpan timeout
-    System::TimeSpan _get_timeout();
-    // Set instance field: private System.TimeSpan timeout
-    void _set_timeout(System::TimeSpan value);
-    // Get instance field: private System.Security.Cryptography.X509Certificates.X509VerificationFlags vflags
-    System::Security::Cryptography::X509Certificates::X509VerificationFlags _get_vflags();
-    // Set instance field: private System.Security.Cryptography.X509Certificates.X509VerificationFlags vflags
-    void _set_vflags(System::Security::Cryptography::X509Certificates::X509VerificationFlags value);
-    // Get instance field: private System.DateTime vtime
-    System::DateTime _get_vtime();
-    // Set instance field: private System.DateTime vtime
-    void _set_vtime(System::DateTime value);
+    // Get instance field reference: private System.Security.Cryptography.OidCollection apps
+    System::Security::Cryptography::OidCollection*& dyn_apps();
+    // Get instance field reference: private System.Security.Cryptography.OidCollection cert
+    System::Security::Cryptography::OidCollection*& dyn_cert();
+    // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509CertificateCollection store
+    System::Security::Cryptography::X509Certificates::X509CertificateCollection*& dyn_store();
+    // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Certificate2Collection store2
+    System::Security::Cryptography::X509Certificates::X509Certificate2Collection*& dyn_store2();
+    // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509RevocationFlag rflag
+    System::Security::Cryptography::X509Certificates::X509RevocationFlag& dyn_rflag();
+    // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509RevocationMode mode
+    System::Security::Cryptography::X509Certificates::X509RevocationMode& dyn_mode();
+    // Get instance field reference: private System.TimeSpan timeout
+    System::TimeSpan& dyn_timeout();
+    // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509VerificationFlags vflags
+    System::Security::Cryptography::X509Certificates::X509VerificationFlags& dyn_vflags();
+    // Get instance field reference: private System.DateTime vtime
+    System::DateTime& dyn_vtime();
     // public System.Security.Cryptography.X509Certificates.X509Certificate2Collection get_ExtraStore()
     // Offset: 0x18628AC
     System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_ExtraStore();

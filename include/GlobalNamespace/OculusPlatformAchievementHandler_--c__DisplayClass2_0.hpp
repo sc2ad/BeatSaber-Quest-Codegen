@@ -48,10 +48,8 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler*() const noexcept {
       return completionHandler;
     }
-    // Get instance field: public PlatformAchievementsModelSO/UnlockAchievementCompletionHandler completionHandler
-    GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler* _get_completionHandler();
-    // Set instance field: public PlatformAchievementsModelSO/UnlockAchievementCompletionHandler completionHandler
-    void _set_completionHandler(GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler* value);
+    // Get instance field reference: public PlatformAchievementsModelSO/UnlockAchievementCompletionHandler completionHandler
+    GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler*& dyn_completionHandler();
     // System.Void <UnlockAchievement>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.AchievementUpdate> message)
     // Offset: 0x123E164
     void $UnlockAchievement$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::AchievementUpdate*>* message);

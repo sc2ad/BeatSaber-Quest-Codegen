@@ -115,10 +115,8 @@ namespace System::Net {
       static System::Net::WebHeaderCollection::RfcChar _get_Delim();
       // Set static field: static public System.Net.WebHeaderCollection/System.Net.RfcChar Delim
       static void _set_Delim(System::Net::WebHeaderCollection::RfcChar value);
-      // Get instance field: public System.Byte value__
-      uint8_t _get_value__();
-      // Set instance field: public System.Byte value__
-      void _set_value__(uint8_t value);
+      // Get instance field reference: public System.Byte value__
+      uint8_t& dyn_value__();
     }; // System.Net.WebHeaderCollection/System.Net.RfcChar
     #pragma pack(pop)
     static check_size<sizeof(WebHeaderCollection::RfcChar), 0 + sizeof(uint8_t)> __System_Net_WebHeaderCollection_RfcCharSizeCheck;
@@ -171,22 +169,14 @@ namespace System::Net {
     static ::Array<System::Net::WebHeaderCollection::RfcChar>* _get_RfcCharMap();
     // Set static field: static private System.Net.WebHeaderCollection/System.Net.RfcChar[] RfcCharMap
     static void _set_RfcCharMap(::Array<System::Net::WebHeaderCollection::RfcChar>* value);
-    // Get instance field: private System.String[] m_CommonHeaders
-    ::Array<::Il2CppString*>* _get_m_CommonHeaders();
-    // Set instance field: private System.String[] m_CommonHeaders
-    void _set_m_CommonHeaders(::Array<::Il2CppString*>* value);
-    // Get instance field: private System.Int32 m_NumCommonHeaders
-    int _get_m_NumCommonHeaders();
-    // Set instance field: private System.Int32 m_NumCommonHeaders
-    void _set_m_NumCommonHeaders(int value);
-    // Get instance field: private System.Collections.Specialized.NameValueCollection m_InnerCollection
-    System::Collections::Specialized::NameValueCollection* _get_m_InnerCollection();
-    // Set instance field: private System.Collections.Specialized.NameValueCollection m_InnerCollection
-    void _set_m_InnerCollection(System::Collections::Specialized::NameValueCollection* value);
-    // Get instance field: private System.Net.WebHeaderCollectionType m_Type
-    System::Net::WebHeaderCollectionType _get_m_Type();
-    // Set instance field: private System.Net.WebHeaderCollectionType m_Type
-    void _set_m_Type(System::Net::WebHeaderCollectionType value);
+    // Get instance field reference: private System.String[] m_CommonHeaders
+    ::Array<::Il2CppString*>*& dyn_m_CommonHeaders();
+    // Get instance field reference: private System.Int32 m_NumCommonHeaders
+    int& dyn_m_NumCommonHeaders();
+    // Get instance field reference: private System.Collections.Specialized.NameValueCollection m_InnerCollection
+    System::Collections::Specialized::NameValueCollection*& dyn_m_InnerCollection();
+    // Get instance field reference: private System.Net.WebHeaderCollectionType m_Type
+    System::Net::WebHeaderCollectionType& dyn_m_Type();
     // private System.Collections.Specialized.NameValueCollection get_InnerCollection()
     // Offset: 0x15D60E4
     System::Collections::Specialized::NameValueCollection* get_InnerCollection();

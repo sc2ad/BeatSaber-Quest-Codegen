@@ -41,14 +41,10 @@ namespace System::ComponentModel {
     static_assert(sizeof(System::Type*) == 0x8);
     // Creating value type constructor for type: EnumConverter
     EnumConverter(System::ComponentModel::TypeConverter::StandardValuesCollection* values_ = {}, System::Type* type_ = {}) noexcept : values{values_}, type{type_} {}
-    // Get instance field: private System.ComponentModel.TypeConverter/System.ComponentModel.StandardValuesCollection values
-    System::ComponentModel::TypeConverter::StandardValuesCollection* _get_values();
-    // Set instance field: private System.ComponentModel.TypeConverter/System.ComponentModel.StandardValuesCollection values
-    void _set_values(System::ComponentModel::TypeConverter::StandardValuesCollection* value);
-    // Get instance field: private System.Type type
-    System::Type* _get_type();
-    // Set instance field: private System.Type type
-    void _set_type(System::Type* value);
+    // Get instance field reference: private System.ComponentModel.TypeConverter/System.ComponentModel.StandardValuesCollection values
+    System::ComponentModel::TypeConverter::StandardValuesCollection*& dyn_values();
+    // Get instance field reference: private System.Type type
+    System::Type*& dyn_type();
     // public System.Void .ctor(System.Type type)
     // Offset: 0x18AF720
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

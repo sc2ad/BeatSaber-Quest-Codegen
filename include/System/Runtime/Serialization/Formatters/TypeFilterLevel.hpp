@@ -45,10 +45,8 @@ namespace System::Runtime::Serialization::Formatters {
     static System::Runtime::Serialization::Formatters::TypeFilterLevel _get_Full();
     // Set static field: static public System.Runtime.Serialization.Formatters.TypeFilterLevel Full
     static void _set_Full(System::Runtime::Serialization::Formatters::TypeFilterLevel value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Runtime.Serialization.Formatters.TypeFilterLevel
   #pragma pack(pop)
   static check_size<sizeof(TypeFilterLevel), 0 + sizeof(int)> __System_Runtime_Serialization_Formatters_TypeFilterLevelSizeCheck;

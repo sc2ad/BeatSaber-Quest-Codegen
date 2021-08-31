@@ -69,18 +69,12 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kEndGameLabel();
     // Set static field: static private System.String kEndGameLabel
     static void _set_kEndGameLabel(::Il2CppString* value);
-    // Get instance field: private readonly IGameplayRpcManager _gameplayRpcManager
-    GlobalNamespace::IGameplayRpcManager* _get__gameplayRpcManager();
-    // Set instance field: private readonly IGameplayRpcManager _gameplayRpcManager
-    void _set__gameplayRpcManager(GlobalNamespace::IGameplayRpcManager* value);
-    // Get instance field: private readonly IMultiplayerLevelEndActionsListener _multiplayerLevelEndActions
-    GlobalNamespace::IMultiplayerLevelEndActionsListener* _get__multiplayerLevelEndActions();
-    // Set instance field: private readonly IMultiplayerLevelEndActionsListener _multiplayerLevelEndActions
-    void _set__multiplayerLevelEndActions(GlobalNamespace::IMultiplayerLevelEndActionsListener* value);
-    // Get instance field: private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
-    GlobalNamespace::LobbyPlayerPermissionsModel* _get__lobbyPlayerPermissionsModel();
-    // Set instance field: private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
-    void _set__lobbyPlayerPermissionsModel(GlobalNamespace::LobbyPlayerPermissionsModel* value);
+    // Get instance field reference: private readonly IGameplayRpcManager _gameplayRpcManager
+    GlobalNamespace::IGameplayRpcManager*& dyn__gameplayRpcManager();
+    // Get instance field reference: private readonly IMultiplayerLevelEndActionsListener _multiplayerLevelEndActions
+    GlobalNamespace::IMultiplayerLevelEndActionsListener*& dyn__multiplayerLevelEndActions();
+    // Get instance field reference: private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
+    GlobalNamespace::LobbyPlayerPermissionsModel*& dyn__lobbyPlayerPermissionsModel();
     // public System.Void Disconnect()
     // Offset: 0x1068238
     void Disconnect();

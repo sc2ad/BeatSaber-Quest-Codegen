@@ -62,10 +62,8 @@ namespace System::Net::NetworkInformation {
     static System::Net::NetworkInformation::DuplicateAddressDetectionState _get_Preferred();
     // Set static field: static public System.Net.NetworkInformation.DuplicateAddressDetectionState Preferred
     static void _set_Preferred(System::Net::NetworkInformation::DuplicateAddressDetectionState value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Net.NetworkInformation.DuplicateAddressDetectionState
   #pragma pack(pop)
   static check_size<sizeof(DuplicateAddressDetectionState), 0 + sizeof(int)> __System_Net_NetworkInformation_DuplicateAddressDetectionStateSizeCheck;

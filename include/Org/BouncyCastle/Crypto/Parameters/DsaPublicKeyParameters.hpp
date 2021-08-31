@@ -40,10 +40,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
     // Creating value type constructor for type: DsaPublicKeyParameters
     DsaPublicKeyParameters(Org::BouncyCastle::Math::BigInteger* y_ = {}) noexcept : y{y_} {}
-    // Get instance field: private readonly Org.BouncyCastle.Math.BigInteger y
-    Org::BouncyCastle::Math::BigInteger* _get_y();
-    // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger y
-    void _set_y(Org::BouncyCastle::Math::BigInteger* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger y
+    Org::BouncyCastle::Math::BigInteger*& dyn_y();
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger y, Org.BouncyCastle.Crypto.Parameters.DsaParameters parameters)
     // Offset: 0x1272A54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

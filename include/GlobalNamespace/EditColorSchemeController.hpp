@@ -112,38 +112,22 @@ namespace GlobalNamespace {
     EditColorSchemeController(GlobalNamespace::ColorSchemeColorsToggleGroup* colorSchemeColorsToggleGroup_ = {}, GlobalNamespace::RGBPanelController* rgbPanelController_ = {}, GlobalNamespace::HSVPanelController* hsvPanelController_ = {}, GlobalNamespace::PreviousColorPanelController* previousColorPanelController_ = {}, UnityEngine::UI::Button* closeButton_ = {}, System::Action* didFinishEvent_ = {}, System::Action_1<GlobalNamespace::ColorScheme*>* didChangeColorSchemeEvent_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}) noexcept : colorSchemeColorsToggleGroup{colorSchemeColorsToggleGroup_}, rgbPanelController{rgbPanelController_}, hsvPanelController{hsvPanelController_}, previousColorPanelController{previousColorPanelController_}, closeButton{closeButton_}, didFinishEvent{didFinishEvent_}, didChangeColorSchemeEvent{didChangeColorSchemeEvent_}, buttonBinder{buttonBinder_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private ColorSchemeColorsToggleGroup _colorSchemeColorsToggleGroup
-    GlobalNamespace::ColorSchemeColorsToggleGroup* _get__colorSchemeColorsToggleGroup();
-    // Set instance field: private ColorSchemeColorsToggleGroup _colorSchemeColorsToggleGroup
-    void _set__colorSchemeColorsToggleGroup(GlobalNamespace::ColorSchemeColorsToggleGroup* value);
-    // Get instance field: private RGBPanelController _rgbPanelController
-    GlobalNamespace::RGBPanelController* _get__rgbPanelController();
-    // Set instance field: private RGBPanelController _rgbPanelController
-    void _set__rgbPanelController(GlobalNamespace::RGBPanelController* value);
-    // Get instance field: private HSVPanelController _hsvPanelController
-    GlobalNamespace::HSVPanelController* _get__hsvPanelController();
-    // Set instance field: private HSVPanelController _hsvPanelController
-    void _set__hsvPanelController(GlobalNamespace::HSVPanelController* value);
-    // Get instance field: private PreviousColorPanelController _previousColorPanelController
-    GlobalNamespace::PreviousColorPanelController* _get__previousColorPanelController();
-    // Set instance field: private PreviousColorPanelController _previousColorPanelController
-    void _set__previousColorPanelController(GlobalNamespace::PreviousColorPanelController* value);
-    // Get instance field: private UnityEngine.UI.Button _closeButton
-    UnityEngine::UI::Button* _get__closeButton();
-    // Set instance field: private UnityEngine.UI.Button _closeButton
-    void _set__closeButton(UnityEngine::UI::Button* value);
-    // Get instance field: private System.Action didFinishEvent
-    System::Action* _get_didFinishEvent();
-    // Set instance field: private System.Action didFinishEvent
-    void _set_didFinishEvent(System::Action* value);
-    // Get instance field: private System.Action`1<ColorScheme> didChangeColorSchemeEvent
-    System::Action_1<GlobalNamespace::ColorScheme*>* _get_didChangeColorSchemeEvent();
-    // Set instance field: private System.Action`1<ColorScheme> didChangeColorSchemeEvent
-    void _set_didChangeColorSchemeEvent(System::Action_1<GlobalNamespace::ColorScheme*>* value);
-    // Get instance field: private HMUI.ButtonBinder _buttonBinder
-    HMUI::ButtonBinder* _get__buttonBinder();
-    // Set instance field: private HMUI.ButtonBinder _buttonBinder
-    void _set__buttonBinder(HMUI::ButtonBinder* value);
+    // Get instance field reference: private ColorSchemeColorsToggleGroup _colorSchemeColorsToggleGroup
+    GlobalNamespace::ColorSchemeColorsToggleGroup*& dyn__colorSchemeColorsToggleGroup();
+    // Get instance field reference: private RGBPanelController _rgbPanelController
+    GlobalNamespace::RGBPanelController*& dyn__rgbPanelController();
+    // Get instance field reference: private HSVPanelController _hsvPanelController
+    GlobalNamespace::HSVPanelController*& dyn__hsvPanelController();
+    // Get instance field reference: private PreviousColorPanelController _previousColorPanelController
+    GlobalNamespace::PreviousColorPanelController*& dyn__previousColorPanelController();
+    // Get instance field reference: private UnityEngine.UI.Button _closeButton
+    UnityEngine::UI::Button*& dyn__closeButton();
+    // Get instance field reference: private System.Action didFinishEvent
+    System::Action*& dyn_didFinishEvent();
+    // Get instance field reference: private System.Action`1<ColorScheme> didChangeColorSchemeEvent
+    System::Action_1<GlobalNamespace::ColorScheme*>*& dyn_didChangeColorSchemeEvent();
+    // Get instance field reference: private HMUI.ButtonBinder _buttonBinder
+    HMUI::ButtonBinder*& dyn__buttonBinder();
     // public System.Void add_didFinishEvent(System.Action value)
     // Offset: 0x104EDC0
     void add_didFinishEvent(System::Action* value);

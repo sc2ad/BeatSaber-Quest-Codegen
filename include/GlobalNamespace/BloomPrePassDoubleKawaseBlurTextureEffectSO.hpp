@@ -87,38 +87,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::KawaseBlurRendererSO*) == 0x8);
     // Creating value type constructor for type: BloomPrePassDoubleKawaseBlurTextureEffectSO
     BloomPrePassDoubleKawaseBlurTextureEffectSO(GlobalNamespace::KawaseBlurRendererSO::KernelSize bloom1KernelSize_ = {}, float bloom1Boost_ = {}, GlobalNamespace::KawaseBlurRendererSO::KernelSize bloom2KernelSize_ = {}, float bloom2Boost_ = {}, float bloom2Alpha_ = {}, int downsample_ = {}, bool gammaCorrection_ = {}, GlobalNamespace::KawaseBlurRendererSO* kawaseBlurRenderer_ = {}) noexcept : bloom1KernelSize{bloom1KernelSize_}, bloom1Boost{bloom1Boost_}, bloom2KernelSize{bloom2KernelSize_}, bloom2Boost{bloom2Boost_}, bloom2Alpha{bloom2Alpha_}, downsample{downsample_}, gammaCorrection{gammaCorrection_}, kawaseBlurRenderer{kawaseBlurRenderer_} {}
-    // Get instance field: private KawaseBlurRendererSO/KernelSize _bloom1KernelSize
-    GlobalNamespace::KawaseBlurRendererSO::KernelSize _get__bloom1KernelSize();
-    // Set instance field: private KawaseBlurRendererSO/KernelSize _bloom1KernelSize
-    void _set__bloom1KernelSize(GlobalNamespace::KawaseBlurRendererSO::KernelSize value);
-    // Get instance field: private System.Single _bloom1Boost
-    float _get__bloom1Boost();
-    // Set instance field: private System.Single _bloom1Boost
-    void _set__bloom1Boost(float value);
-    // Get instance field: private KawaseBlurRendererSO/KernelSize _bloom2KernelSize
-    GlobalNamespace::KawaseBlurRendererSO::KernelSize _get__bloom2KernelSize();
-    // Set instance field: private KawaseBlurRendererSO/KernelSize _bloom2KernelSize
-    void _set__bloom2KernelSize(GlobalNamespace::KawaseBlurRendererSO::KernelSize value);
-    // Get instance field: private System.Single _bloom2Boost
-    float _get__bloom2Boost();
-    // Set instance field: private System.Single _bloom2Boost
-    void _set__bloom2Boost(float value);
-    // Get instance field: private System.Single _bloom2Alpha
-    float _get__bloom2Alpha();
-    // Set instance field: private System.Single _bloom2Alpha
-    void _set__bloom2Alpha(float value);
-    // Get instance field: private System.Int32 _downsample
-    int _get__downsample();
-    // Set instance field: private System.Int32 _downsample
-    void _set__downsample(int value);
-    // Get instance field: private System.Boolean _gammaCorrection
-    bool _get__gammaCorrection();
-    // Set instance field: private System.Boolean _gammaCorrection
-    void _set__gammaCorrection(bool value);
-    // Get instance field: private KawaseBlurRendererSO _kawaseBlurRenderer
-    GlobalNamespace::KawaseBlurRendererSO* _get__kawaseBlurRenderer();
-    // Set instance field: private KawaseBlurRendererSO _kawaseBlurRenderer
-    void _set__kawaseBlurRenderer(GlobalNamespace::KawaseBlurRendererSO* value);
+    // Get instance field reference: private KawaseBlurRendererSO/KernelSize _bloom1KernelSize
+    GlobalNamespace::KawaseBlurRendererSO::KernelSize& dyn__bloom1KernelSize();
+    // Get instance field reference: private System.Single _bloom1Boost
+    float& dyn__bloom1Boost();
+    // Get instance field reference: private KawaseBlurRendererSO/KernelSize _bloom2KernelSize
+    GlobalNamespace::KawaseBlurRendererSO::KernelSize& dyn__bloom2KernelSize();
+    // Get instance field reference: private System.Single _bloom2Boost
+    float& dyn__bloom2Boost();
+    // Get instance field reference: private System.Single _bloom2Alpha
+    float& dyn__bloom2Alpha();
+    // Get instance field reference: private System.Int32 _downsample
+    int& dyn__downsample();
+    // Get instance field reference: private System.Boolean _gammaCorrection
+    bool& dyn__gammaCorrection();
+    // Get instance field reference: private KawaseBlurRendererSO _kawaseBlurRenderer
+    GlobalNamespace::KawaseBlurRendererSO*& dyn__kawaseBlurRenderer();
     // public System.Void .ctor()
     // Offset: 0x238F354
     // Implemented from: BloomPrePassEffectSO

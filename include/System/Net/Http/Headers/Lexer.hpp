@@ -61,14 +61,10 @@ namespace System::Net::Http::Headers {
     static ::Array<::Il2CppString*>* _get_dt_formats();
     // Set static field: static private readonly System.String[] dt_formats
     static void _set_dt_formats(::Array<::Il2CppString*>* value);
-    // Get instance field: private readonly System.String s
-    ::Il2CppString* _get_s();
-    // Set instance field: private readonly System.String s
-    void _set_s(::Il2CppString* value);
-    // Get instance field: private System.Int32 pos
-    int _get_pos();
-    // Set instance field: private System.Int32 pos
-    void _set_pos(int value);
+    // Get instance field reference: private readonly System.String s
+    ::Il2CppString*& dyn_s();
+    // Get instance field reference: private System.Int32 pos
+    int& dyn_pos();
     // public System.Int32 get_Position()
     // Offset: 0x15A3B74
     int get_Position();

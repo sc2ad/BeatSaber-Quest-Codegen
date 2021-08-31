@@ -64,10 +64,8 @@ namespace System::Threading {
     static System::Type* _get_s_cachedPreparedType5();
     // Set static field: static private System.Type s_cachedPreparedType5
     static void _set_s_cachedPreparedType5(System::Type* value);
-    // Get instance field: private System.Threading.SynchronizationContextProperties _props
-    System::Threading::SynchronizationContextProperties _get__props();
-    // Set instance field: private System.Threading.SynchronizationContextProperties _props
-    void _set__props(System::Threading::SynchronizationContextProperties value);
+    // Get instance field reference: private System.Threading.SynchronizationContextProperties _props
+    System::Threading::SynchronizationContextProperties& dyn__props();
     // static public System.Threading.SynchronizationContext get_Current()
     // Offset: 0x18F1E08
     static System::Threading::SynchronizationContext* get_Current();

@@ -118,10 +118,8 @@ namespace Org::BouncyCastle::Crypto::Modes {
       static Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::State _get_DecFinal();
       // Set static field: static public Org.BouncyCastle.Crypto.Modes.ChaCha20Poly1305/Org.BouncyCastle.Crypto.Modes.State DecFinal
       static void _set_DecFinal(Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::State value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // Org.BouncyCastle.Crypto.Modes.ChaCha20Poly1305/Org.BouncyCastle.Crypto.Modes.State
     #pragma pack(pop)
     static check_size<sizeof(ChaCha20Poly1305::State), 0 + sizeof(int)> __Org_BouncyCastle_Crypto_Modes_ChaCha20Poly1305_StateSizeCheck;
@@ -202,50 +200,28 @@ namespace Org::BouncyCastle::Crypto::Modes {
     static ::Array<uint8_t>* _get_Zeroes();
     // Set static field: static private readonly System.Byte[] Zeroes
     static void _set_Zeroes(::Array<uint8_t>* value);
-    // Get instance field: private readonly Org.BouncyCastle.Crypto.Engines.ChaCha7539Engine mChacha20
-    Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine* _get_mChacha20();
-    // Set instance field: private readonly Org.BouncyCastle.Crypto.Engines.ChaCha7539Engine mChacha20
-    void _set_mChacha20(Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine* value);
-    // Get instance field: private readonly Org.BouncyCastle.Crypto.IMac mPoly1305
-    Org::BouncyCastle::Crypto::IMac* _get_mPoly1305();
-    // Set instance field: private readonly Org.BouncyCastle.Crypto.IMac mPoly1305
-    void _set_mPoly1305(Org::BouncyCastle::Crypto::IMac* value);
-    // Get instance field: private readonly System.Byte[] mKey
-    ::Array<uint8_t>* _get_mKey();
-    // Set instance field: private readonly System.Byte[] mKey
-    void _set_mKey(::Array<uint8_t>* value);
-    // Get instance field: private readonly System.Byte[] mNonce
-    ::Array<uint8_t>* _get_mNonce();
-    // Set instance field: private readonly System.Byte[] mNonce
-    void _set_mNonce(::Array<uint8_t>* value);
-    // Get instance field: private readonly System.Byte[] mBuf
-    ::Array<uint8_t>* _get_mBuf();
-    // Set instance field: private readonly System.Byte[] mBuf
-    void _set_mBuf(::Array<uint8_t>* value);
-    // Get instance field: private readonly System.Byte[] mMac
-    ::Array<uint8_t>* _get_mMac();
-    // Set instance field: private readonly System.Byte[] mMac
-    void _set_mMac(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] mInitialAad
-    ::Array<uint8_t>* _get_mInitialAad();
-    // Set instance field: private System.Byte[] mInitialAad
-    void _set_mInitialAad(::Array<uint8_t>* value);
-    // Get instance field: private System.UInt64 mAadCount
-    uint64_t _get_mAadCount();
-    // Set instance field: private System.UInt64 mAadCount
-    void _set_mAadCount(uint64_t value);
-    // Get instance field: private System.UInt64 mDataCount
-    uint64_t _get_mDataCount();
-    // Set instance field: private System.UInt64 mDataCount
-    void _set_mDataCount(uint64_t value);
-    // Get instance field: private Org.BouncyCastle.Crypto.Modes.ChaCha20Poly1305/Org.BouncyCastle.Crypto.Modes.State mState
-    Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::State _get_mState();
-    // Set instance field: private Org.BouncyCastle.Crypto.Modes.ChaCha20Poly1305/Org.BouncyCastle.Crypto.Modes.State mState
-    void _set_mState(Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::State value);
-    // Get instance field: private System.Int32 mBufPos
-    int _get_mBufPos();
-    // Set instance field: private System.Int32 mBufPos
-    void _set_mBufPos(int value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Engines.ChaCha7539Engine mChacha20
+    Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine*& dyn_mChacha20();
+    // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IMac mPoly1305
+    Org::BouncyCastle::Crypto::IMac*& dyn_mPoly1305();
+    // Get instance field reference: private readonly System.Byte[] mKey
+    ::Array<uint8_t>*& dyn_mKey();
+    // Get instance field reference: private readonly System.Byte[] mNonce
+    ::Array<uint8_t>*& dyn_mNonce();
+    // Get instance field reference: private readonly System.Byte[] mBuf
+    ::Array<uint8_t>*& dyn_mBuf();
+    // Get instance field reference: private readonly System.Byte[] mMac
+    ::Array<uint8_t>*& dyn_mMac();
+    // Get instance field reference: private System.Byte[] mInitialAad
+    ::Array<uint8_t>*& dyn_mInitialAad();
+    // Get instance field reference: private System.UInt64 mAadCount
+    uint64_t& dyn_mAadCount();
+    // Get instance field reference: private System.UInt64 mDataCount
+    uint64_t& dyn_mDataCount();
+    // Get instance field reference: private Org.BouncyCastle.Crypto.Modes.ChaCha20Poly1305/Org.BouncyCastle.Crypto.Modes.State mState
+    Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::State& dyn_mState();
+    // Get instance field reference: private System.Int32 mBufPos
+    int& dyn_mBufPos();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IMac poly1305)
     // Offset: 0x19151A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

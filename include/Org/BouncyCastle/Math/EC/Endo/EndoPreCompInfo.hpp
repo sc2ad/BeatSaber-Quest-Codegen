@@ -50,14 +50,10 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     operator Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>(this);
     }
-    // Get instance field: protected Org.BouncyCastle.Math.EC.Endo.ECEndomorphism m_endomorphism
-    Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* _get_m_endomorphism();
-    // Set instance field: protected Org.BouncyCastle.Math.EC.Endo.ECEndomorphism m_endomorphism
-    void _set_m_endomorphism(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* value);
-    // Get instance field: protected Org.BouncyCastle.Math.EC.ECPoint m_mappedPoint
-    Org::BouncyCastle::Math::EC::ECPoint* _get_m_mappedPoint();
-    // Set instance field: protected Org.BouncyCastle.Math.EC.ECPoint m_mappedPoint
-    void _set_m_mappedPoint(Org::BouncyCastle::Math::EC::ECPoint* value);
+    // Get instance field reference: protected Org.BouncyCastle.Math.EC.Endo.ECEndomorphism m_endomorphism
+    Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*& dyn_m_endomorphism();
+    // Get instance field reference: protected Org.BouncyCastle.Math.EC.ECPoint m_mappedPoint
+    Org::BouncyCastle::Math::EC::ECPoint*& dyn_m_mappedPoint();
     // public Org.BouncyCastle.Math.EC.Endo.ECEndomorphism get_Endomorphism()
     // Offset: 0x2145928
     Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* get_Endomorphism();

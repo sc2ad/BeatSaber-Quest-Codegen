@@ -107,50 +107,28 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
     // Creating value type constructor for type: Rigidbone
     Rigidbone(UnityEngine::Rigidbody* r_ = {}, UnityEngine::Transform* t_ = {}, UnityEngine::Collider* collider_ = {}, UnityEngine::Joint* joint_ = {}, UnityEngine::Rigidbody* c_ = {}, bool updateAnchor_ = {}, UnityEngine::Vector3 deltaPosition_ = {}, UnityEngine::Quaternion deltaRotation_ = {}, float deltaTime_ = {}, UnityEngine::Vector3 lastPosition_ = {}, UnityEngine::Quaternion lastRotation_ = {}) noexcept : r{r_}, t{t_}, collider{collider_}, joint{joint_}, c{c_}, updateAnchor{updateAnchor_}, deltaPosition{deltaPosition_}, deltaRotation{deltaRotation_}, deltaTime{deltaTime_}, lastPosition{lastPosition_}, lastRotation{lastRotation_} {}
-    // Get instance field: public UnityEngine.Rigidbody r
-    UnityEngine::Rigidbody* _get_r();
-    // Set instance field: public UnityEngine.Rigidbody r
-    void _set_r(UnityEngine::Rigidbody* value);
-    // Get instance field: public UnityEngine.Transform t
-    UnityEngine::Transform* _get_t();
-    // Set instance field: public UnityEngine.Transform t
-    void _set_t(UnityEngine::Transform* value);
-    // Get instance field: public UnityEngine.Collider collider
-    UnityEngine::Collider* _get_collider();
-    // Set instance field: public UnityEngine.Collider collider
-    void _set_collider(UnityEngine::Collider* value);
-    // Get instance field: public UnityEngine.Joint joint
-    UnityEngine::Joint* _get_joint();
-    // Set instance field: public UnityEngine.Joint joint
-    void _set_joint(UnityEngine::Joint* value);
-    // Get instance field: public UnityEngine.Rigidbody c
-    UnityEngine::Rigidbody* _get_c();
-    // Set instance field: public UnityEngine.Rigidbody c
-    void _set_c(UnityEngine::Rigidbody* value);
-    // Get instance field: public System.Boolean updateAnchor
-    bool _get_updateAnchor();
-    // Set instance field: public System.Boolean updateAnchor
-    void _set_updateAnchor(bool value);
-    // Get instance field: public UnityEngine.Vector3 deltaPosition
-    UnityEngine::Vector3 _get_deltaPosition();
-    // Set instance field: public UnityEngine.Vector3 deltaPosition
-    void _set_deltaPosition(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Quaternion deltaRotation
-    UnityEngine::Quaternion _get_deltaRotation();
-    // Set instance field: public UnityEngine.Quaternion deltaRotation
-    void _set_deltaRotation(UnityEngine::Quaternion value);
-    // Get instance field: public System.Single deltaTime
-    float _get_deltaTime();
-    // Set instance field: public System.Single deltaTime
-    void _set_deltaTime(float value);
-    // Get instance field: public UnityEngine.Vector3 lastPosition
-    UnityEngine::Vector3 _get_lastPosition();
-    // Set instance field: public UnityEngine.Vector3 lastPosition
-    void _set_lastPosition(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Quaternion lastRotation
-    UnityEngine::Quaternion _get_lastRotation();
-    // Set instance field: public UnityEngine.Quaternion lastRotation
-    void _set_lastRotation(UnityEngine::Quaternion value);
+    // Get instance field reference: public UnityEngine.Rigidbody r
+    UnityEngine::Rigidbody*& dyn_r();
+    // Get instance field reference: public UnityEngine.Transform t
+    UnityEngine::Transform*& dyn_t();
+    // Get instance field reference: public UnityEngine.Collider collider
+    UnityEngine::Collider*& dyn_collider();
+    // Get instance field reference: public UnityEngine.Joint joint
+    UnityEngine::Joint*& dyn_joint();
+    // Get instance field reference: public UnityEngine.Rigidbody c
+    UnityEngine::Rigidbody*& dyn_c();
+    // Get instance field reference: public System.Boolean updateAnchor
+    bool& dyn_updateAnchor();
+    // Get instance field reference: public UnityEngine.Vector3 deltaPosition
+    UnityEngine::Vector3& dyn_deltaPosition();
+    // Get instance field reference: public UnityEngine.Quaternion deltaRotation
+    UnityEngine::Quaternion& dyn_deltaRotation();
+    // Get instance field reference: public System.Single deltaTime
+    float& dyn_deltaTime();
+    // Get instance field reference: public UnityEngine.Vector3 lastPosition
+    UnityEngine::Vector3& dyn_lastPosition();
+    // Get instance field reference: public UnityEngine.Quaternion lastRotation
+    UnityEngine::Quaternion& dyn_lastRotation();
     // public System.Void .ctor(UnityEngine.Rigidbody r)
     // Offset: 0x1AD9EF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

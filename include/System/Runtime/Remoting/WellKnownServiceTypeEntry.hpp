@@ -50,18 +50,12 @@ namespace System::Runtime::Remoting {
     static_assert(sizeof(System::Runtime::Remoting::WellKnownObjectMode) == 0x4);
     // Creating value type constructor for type: WellKnownServiceTypeEntry
     WellKnownServiceTypeEntry(System::Type* obj_type_ = {}, ::Il2CppString* obj_uri_ = {}, System::Runtime::Remoting::WellKnownObjectMode obj_mode_ = {}) noexcept : obj_type{obj_type_}, obj_uri{obj_uri_}, obj_mode{obj_mode_} {}
-    // Get instance field: private System.Type obj_type
-    System::Type* _get_obj_type();
-    // Set instance field: private System.Type obj_type
-    void _set_obj_type(System::Type* value);
-    // Get instance field: private System.String obj_uri
-    ::Il2CppString* _get_obj_uri();
-    // Set instance field: private System.String obj_uri
-    void _set_obj_uri(::Il2CppString* value);
-    // Get instance field: private System.Runtime.Remoting.WellKnownObjectMode obj_mode
-    System::Runtime::Remoting::WellKnownObjectMode _get_obj_mode();
-    // Set instance field: private System.Runtime.Remoting.WellKnownObjectMode obj_mode
-    void _set_obj_mode(System::Runtime::Remoting::WellKnownObjectMode value);
+    // Get instance field reference: private System.Type obj_type
+    System::Type*& dyn_obj_type();
+    // Get instance field reference: private System.String obj_uri
+    ::Il2CppString*& dyn_obj_uri();
+    // Get instance field reference: private System.Runtime.Remoting.WellKnownObjectMode obj_mode
+    System::Runtime::Remoting::WellKnownObjectMode& dyn_obj_mode();
     // public System.Runtime.Remoting.WellKnownObjectMode get_Mode()
     // Offset: 0x160F304
     System::Runtime::Remoting::WellKnownObjectMode get_Mode();

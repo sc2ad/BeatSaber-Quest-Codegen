@@ -46,10 +46,8 @@ namespace OVRSimpleJSON {
     constexpr operator double() const noexcept {
       return m_Data;
     }
-    // Get instance field: private System.Double m_Data
-    double _get_m_Data();
-    // Set instance field: private System.Double m_Data
-    void _set_m_Data(double value);
+    // Get instance field reference: private System.Double m_Data
+    double& dyn_m_Data();
     // public System.Void .ctor(System.Double aData)
     // Offset: 0x1F441F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -43,14 +43,10 @@ namespace GlobalNamespace {
     AnchorIntoParent(UnityEngine::Transform* parentTransform_ = {}, UnityEngine::Vector3 positionOffset_ = {}) noexcept : parentTransform{parentTransform_}, positionOffset{positionOffset_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.Transform _parentTransform
-    UnityEngine::Transform* _get__parentTransform();
-    // Set instance field: private UnityEngine.Transform _parentTransform
-    void _set__parentTransform(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.Vector3 _positionOffset
-    UnityEngine::Vector3 _get__positionOffset();
-    // Set instance field: private UnityEngine.Vector3 _positionOffset
-    void _set__positionOffset(UnityEngine::Vector3 value);
+    // Get instance field reference: private UnityEngine.Transform _parentTransform
+    UnityEngine::Transform*& dyn__parentTransform();
+    // Get instance field reference: private UnityEngine.Vector3 _positionOffset
+    UnityEngine::Vector3& dyn__positionOffset();
     // protected System.Void Start()
     // Offset: 0x1178D08
     void Start();

@@ -42,14 +42,10 @@ namespace Zenject::Internal {
     static_assert(sizeof(Zenject::BindingId) == 0x10);
     // Creating value type constructor for type: LookupId
     LookupId(Zenject::IProvider* Provider_ = {}, Zenject::BindingId BindingId_ = {}) noexcept : Provider{Provider_}, BindingId{BindingId_} {}
-    // Get instance field: public Zenject.IProvider Provider
-    Zenject::IProvider* _get_Provider();
-    // Set instance field: public Zenject.IProvider Provider
-    void _set_Provider(Zenject::IProvider* value);
-    // Get instance field: public Zenject.BindingId BindingId
-    Zenject::BindingId _get_BindingId();
-    // Set instance field: public Zenject.BindingId BindingId
-    void _set_BindingId(Zenject::BindingId value);
+    // Get instance field reference: public Zenject.IProvider Provider
+    Zenject::IProvider*& dyn_Provider();
+    // Get instance field reference: public Zenject.BindingId BindingId
+    Zenject::BindingId& dyn_BindingId();
     // public System.Void .ctor(Zenject.IProvider provider, Zenject.BindingId bindingId)
     // Offset: 0x166347C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

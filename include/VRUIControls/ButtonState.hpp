@@ -49,18 +49,12 @@ namespace VRUIControls {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: ButtonState
     ButtonState(UnityEngine::EventSystems::PointerEventData::InputButton button_ = {}, VRUIControls::MouseButtonEventData* eventData_ = {}, float pressedValue_ = {}) noexcept : button{button_}, eventData{eventData_}, pressedValue{pressedValue_} {}
-    // Get instance field: private UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton _button
-    UnityEngine::EventSystems::PointerEventData::InputButton _get__button();
-    // Set instance field: private UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton _button
-    void _set__button(UnityEngine::EventSystems::PointerEventData::InputButton value);
-    // Get instance field: private VRUIControls.MouseButtonEventData _eventData
-    VRUIControls::MouseButtonEventData* _get__eventData();
-    // Set instance field: private VRUIControls.MouseButtonEventData _eventData
-    void _set__eventData(VRUIControls::MouseButtonEventData* value);
-    // Get instance field: private System.Single _pressedValue
-    float _get__pressedValue();
-    // Set instance field: private System.Single _pressedValue
-    void _set__pressedValue(float value);
+    // Get instance field reference: private UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton _button
+    UnityEngine::EventSystems::PointerEventData::InputButton& dyn__button();
+    // Get instance field reference: private VRUIControls.MouseButtonEventData _eventData
+    VRUIControls::MouseButtonEventData*& dyn__eventData();
+    // Get instance field reference: private System.Single _pressedValue
+    float& dyn__pressedValue();
     // public VRUIControls.MouseButtonEventData get_eventData()
     // Offset: 0x239DF60
     VRUIControls::MouseButtonEventData* get_eventData();

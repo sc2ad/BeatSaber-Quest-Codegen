@@ -92,22 +92,14 @@ namespace System::Net::Http::Headers {
     static System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Net::Http::Headers::HeaderInfo*>* _get_known_headers();
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.String,System.Net.Http.Headers.HeaderInfo> known_headers
     static void _set_known_headers(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Net::Http::Headers::HeaderInfo*>* value);
-    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Net.Http.Headers.HttpHeaders/System.Net.Http.Headers.HeaderBucket> headers
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Net::Http::Headers::HttpHeaders::HeaderBucket*>* _get_headers();
-    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Net.Http.Headers.HttpHeaders/System.Net.Http.Headers.HeaderBucket> headers
-    void _set_headers(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Net::Http::Headers::HttpHeaders::HeaderBucket*>* value);
-    // Get instance field: private readonly System.Net.Http.Headers.HttpHeaderKind HeaderKind
-    System::Net::Http::Headers::HttpHeaderKind _get_HeaderKind();
-    // Set instance field: private readonly System.Net.Http.Headers.HttpHeaderKind HeaderKind
-    void _set_HeaderKind(System::Net::Http::Headers::HttpHeaderKind value);
-    // Get instance field: System.Nullable`1<System.Boolean> connectionclose
-    System::Nullable_1<bool> _get_connectionclose();
-    // Set instance field: System.Nullable`1<System.Boolean> connectionclose
-    void _set_connectionclose(System::Nullable_1<bool> value);
-    // Get instance field: System.Nullable`1<System.Boolean> transferEncodingChunked
-    System::Nullable_1<bool> _get_transferEncodingChunked();
-    // Set instance field: System.Nullable`1<System.Boolean> transferEncodingChunked
-    void _set_transferEncodingChunked(System::Nullable_1<bool> value);
+    // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Net.Http.Headers.HttpHeaders/System.Net.Http.Headers.HeaderBucket> headers
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Net::Http::Headers::HttpHeaders::HeaderBucket*>*& dyn_headers();
+    // Get instance field reference: private readonly System.Net.Http.Headers.HttpHeaderKind HeaderKind
+    System::Net::Http::Headers::HttpHeaderKind& dyn_HeaderKind();
+    // Get instance field reference: System.Nullable`1<System.Boolean> connectionclose
+    System::Nullable_1<bool>& dyn_connectionclose();
+    // Get instance field reference: System.Nullable`1<System.Boolean> transferEncodingChunked
+    System::Nullable_1<bool>& dyn_transferEncodingChunked();
     // static private System.Void .cctor()
     // Offset: 0x159FF5C
     static void _cctor();

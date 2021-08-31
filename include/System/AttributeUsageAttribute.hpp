@@ -48,18 +48,12 @@ namespace System {
     static System::AttributeUsageAttribute* _get_Default();
     // Set static field: static System.AttributeUsageAttribute Default
     static void _set_Default(System::AttributeUsageAttribute* value);
-    // Get instance field: System.AttributeTargets m_attributeTarget
-    System::AttributeTargets _get_m_attributeTarget();
-    // Set instance field: System.AttributeTargets m_attributeTarget
-    void _set_m_attributeTarget(System::AttributeTargets value);
-    // Get instance field: System.Boolean m_allowMultiple
-    bool _get_m_allowMultiple();
-    // Set instance field: System.Boolean m_allowMultiple
-    void _set_m_allowMultiple(bool value);
-    // Get instance field: System.Boolean m_inherited
-    bool _get_m_inherited();
-    // Set instance field: System.Boolean m_inherited
-    void _set_m_inherited(bool value);
+    // Get instance field reference: System.AttributeTargets m_attributeTarget
+    System::AttributeTargets& dyn_m_attributeTarget();
+    // Get instance field reference: System.Boolean m_allowMultiple
+    bool& dyn_m_allowMultiple();
+    // Get instance field reference: System.Boolean m_inherited
+    bool& dyn_m_inherited();
     // public System.Boolean get_AllowMultiple()
     // Offset: 0x17D0710
     bool get_AllowMultiple();

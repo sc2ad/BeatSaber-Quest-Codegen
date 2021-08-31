@@ -49,18 +49,12 @@ namespace Org::BouncyCastle::Math::EC {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: DefaultF2mLookupTable
     DefaultF2mLookupTable(Org::BouncyCastle::Math::EC::F2mCurve* m_outer_ = {}, ::Array<int64_t>* m_table_ = {}, int m_size_ = {}) noexcept : m_outer{m_outer_}, m_table{m_table_}, m_size{m_size_} {}
-    // Get instance field: private readonly Org.BouncyCastle.Math.EC.F2mCurve m_outer
-    Org::BouncyCastle::Math::EC::F2mCurve* _get_m_outer();
-    // Set instance field: private readonly Org.BouncyCastle.Math.EC.F2mCurve m_outer
-    void _set_m_outer(Org::BouncyCastle::Math::EC::F2mCurve* value);
-    // Get instance field: private readonly System.Int64[] m_table
-    ::Array<int64_t>* _get_m_table();
-    // Set instance field: private readonly System.Int64[] m_table
-    void _set_m_table(::Array<int64_t>* value);
-    // Get instance field: private readonly System.Int32 m_size
-    int _get_m_size();
-    // Set instance field: private readonly System.Int32 m_size
-    void _set_m_size(int value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.F2mCurve m_outer
+    Org::BouncyCastle::Math::EC::F2mCurve*& dyn_m_outer();
+    // Get instance field reference: private readonly System.Int64[] m_table
+    ::Array<int64_t>*& dyn_m_table();
+    // Get instance field reference: private readonly System.Int32 m_size
+    int& dyn_m_size();
     // System.Void .ctor(Org.BouncyCastle.Math.EC.F2mCurve outer, System.Int64[] table, System.Int32 size)
     // Offset: 0x2146E1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -47,18 +47,12 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::Array<UnityEngine::Vector3>*) == 0x8);
     // Creating value type constructor for type: IKSolverFABRIK
     IKSolverFABRIK(RootMotion::FinalIK::IKSolver::IterationDelegate* OnPreIteration_ = {}, ::Array<bool>* limitedBones_ = {}, ::Array<UnityEngine::Vector3>* solverLocalPositions_ = {}) noexcept : OnPreIteration{OnPreIteration_}, limitedBones{limitedBones_}, solverLocalPositions{solverLocalPositions_} {}
-    // Get instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.IterationDelegate OnPreIteration
-    RootMotion::FinalIK::IKSolver::IterationDelegate* _get_OnPreIteration();
-    // Set instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.IterationDelegate OnPreIteration
-    void _set_OnPreIteration(RootMotion::FinalIK::IKSolver::IterationDelegate* value);
-    // Get instance field: private System.Boolean[] limitedBones
-    ::Array<bool>* _get_limitedBones();
-    // Set instance field: private System.Boolean[] limitedBones
-    void _set_limitedBones(::Array<bool>* value);
-    // Get instance field: private UnityEngine.Vector3[] solverLocalPositions
-    ::Array<UnityEngine::Vector3>* _get_solverLocalPositions();
-    // Set instance field: private UnityEngine.Vector3[] solverLocalPositions
-    void _set_solverLocalPositions(::Array<UnityEngine::Vector3>* value);
+    // Get instance field reference: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.IterationDelegate OnPreIteration
+    RootMotion::FinalIK::IKSolver::IterationDelegate*& dyn_OnPreIteration();
+    // Get instance field reference: private System.Boolean[] limitedBones
+    ::Array<bool>*& dyn_limitedBones();
+    // Get instance field reference: private UnityEngine.Vector3[] solverLocalPositions
+    ::Array<UnityEngine::Vector3>*& dyn_solverLocalPositions();
     // public System.Void SolveForward(UnityEngine.Vector3 position)
     // Offset: 0x1CAC5E0
     void SolveForward(UnityEngine::Vector3 position);

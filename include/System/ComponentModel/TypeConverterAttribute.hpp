@@ -44,10 +44,8 @@ namespace System::ComponentModel {
     static System::ComponentModel::TypeConverterAttribute* _get_Default();
     // Set static field: static public readonly System.ComponentModel.TypeConverterAttribute Default
     static void _set_Default(System::ComponentModel::TypeConverterAttribute* value);
-    // Get instance field: private System.String typeName
-    ::Il2CppString* _get_typeName();
-    // Set instance field: private System.String typeName
-    void _set_typeName(::Il2CppString* value);
+    // Get instance field reference: private System.String typeName
+    ::Il2CppString*& dyn_typeName();
     // public System.String get_ConverterTypeName()
     // Offset: 0x18AF89C
     ::Il2CppString* get_ConverterTypeName();

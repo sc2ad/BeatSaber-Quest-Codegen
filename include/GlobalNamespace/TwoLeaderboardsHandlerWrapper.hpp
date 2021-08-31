@@ -55,22 +55,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::HMAsyncRequest*) == 0x8);
     // Creating value type constructor for type: TwoLeaderboardsHandlerWrapper
     TwoLeaderboardsHandlerWrapper(GlobalNamespace::PlatformLeaderboardsHandler* mainHandler_ = {}, GlobalNamespace::PlatformLeaderboardsHandler* shadowHandler_ = {}, GlobalNamespace::HMAsyncRequest* getScoresShadowAsyncRequest_ = {}, GlobalNamespace::HMAsyncRequest* uploadScoreShadowAsyncRequest_ = {}) noexcept : mainHandler{mainHandler_}, shadowHandler{shadowHandler_}, getScoresShadowAsyncRequest{getScoresShadowAsyncRequest_}, uploadScoreShadowAsyncRequest{uploadScoreShadowAsyncRequest_} {}
-    // Get instance field: private PlatformLeaderboardsHandler _mainHandler
-    GlobalNamespace::PlatformLeaderboardsHandler* _get__mainHandler();
-    // Set instance field: private PlatformLeaderboardsHandler _mainHandler
-    void _set__mainHandler(GlobalNamespace::PlatformLeaderboardsHandler* value);
-    // Get instance field: private PlatformLeaderboardsHandler _shadowHandler
-    GlobalNamespace::PlatformLeaderboardsHandler* _get__shadowHandler();
-    // Set instance field: private PlatformLeaderboardsHandler _shadowHandler
-    void _set__shadowHandler(GlobalNamespace::PlatformLeaderboardsHandler* value);
-    // Get instance field: private HMAsyncRequest _getScoresShadowAsyncRequest
-    GlobalNamespace::HMAsyncRequest* _get__getScoresShadowAsyncRequest();
-    // Set instance field: private HMAsyncRequest _getScoresShadowAsyncRequest
-    void _set__getScoresShadowAsyncRequest(GlobalNamespace::HMAsyncRequest* value);
-    // Get instance field: private HMAsyncRequest _uploadScoreShadowAsyncRequest
-    GlobalNamespace::HMAsyncRequest* _get__uploadScoreShadowAsyncRequest();
-    // Set instance field: private HMAsyncRequest _uploadScoreShadowAsyncRequest
-    void _set__uploadScoreShadowAsyncRequest(GlobalNamespace::HMAsyncRequest* value);
+    // Get instance field reference: private PlatformLeaderboardsHandler _mainHandler
+    GlobalNamespace::PlatformLeaderboardsHandler*& dyn__mainHandler();
+    // Get instance field reference: private PlatformLeaderboardsHandler _shadowHandler
+    GlobalNamespace::PlatformLeaderboardsHandler*& dyn__shadowHandler();
+    // Get instance field reference: private HMAsyncRequest _getScoresShadowAsyncRequest
+    GlobalNamespace::HMAsyncRequest*& dyn__getScoresShadowAsyncRequest();
+    // Get instance field reference: private HMAsyncRequest _uploadScoreShadowAsyncRequest
+    GlobalNamespace::HMAsyncRequest*& dyn__uploadScoreShadowAsyncRequest();
     // public System.Void .ctor(PlatformLeaderboardsHandler mainHandler, PlatformLeaderboardsHandler shadowHandler)
     // Offset: 0x135193C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -40,10 +40,8 @@ namespace Zenject::Internal {
     constexpr operator System::Reflection::MethodInfo*() const noexcept {
       return methodInfo;
     }
-    // Get instance field: public System.Reflection.MethodInfo methodInfo
-    System::Reflection::MethodInfo* _get_methodInfo();
-    // Set instance field: public System.Reflection.MethodInfo methodInfo
-    void _set_methodInfo(System::Reflection::MethodInfo* value);
+    // Get instance field reference: public System.Reflection.MethodInfo methodInfo
+    System::Reflection::MethodInfo*& dyn_methodInfo();
     // System.Void <ConvertMethod>b__0(System.Object obj, System.Object[] args)
     // Offset: 0x1664258
     void $ConvertMethod$b__0(::Il2CppObject* obj, ::Array<::Il2CppObject*>* args);

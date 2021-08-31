@@ -49,18 +49,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
     // Creating value type constructor for type: LevelCategoryInfo
     LevelCategoryInfo(GlobalNamespace::SelectLevelCategoryViewController::LevelCategory levelCategory_ = {}, ::Il2CppString* localizedKey_ = {}, UnityEngine::Sprite* categoryIcon_ = {}) noexcept : levelCategory{levelCategory_}, localizedKey{localizedKey_}, categoryIcon{categoryIcon_} {}
-    // Get instance field: public SelectLevelCategoryViewController/LevelCategory levelCategory
-    GlobalNamespace::SelectLevelCategoryViewController::LevelCategory _get_levelCategory();
-    // Set instance field: public SelectLevelCategoryViewController/LevelCategory levelCategory
-    void _set_levelCategory(GlobalNamespace::SelectLevelCategoryViewController::LevelCategory value);
-    // Get instance field: public System.String localizedKey
-    ::Il2CppString* _get_localizedKey();
-    // Set instance field: public System.String localizedKey
-    void _set_localizedKey(::Il2CppString* value);
-    // Get instance field: public UnityEngine.Sprite categoryIcon
-    UnityEngine::Sprite* _get_categoryIcon();
-    // Set instance field: public UnityEngine.Sprite categoryIcon
-    void _set_categoryIcon(UnityEngine::Sprite* value);
+    // Get instance field reference: public SelectLevelCategoryViewController/LevelCategory levelCategory
+    GlobalNamespace::SelectLevelCategoryViewController::LevelCategory& dyn_levelCategory();
+    // Get instance field reference: public System.String localizedKey
+    ::Il2CppString*& dyn_localizedKey();
+    // Get instance field reference: public UnityEngine.Sprite categoryIcon
+    UnityEngine::Sprite*& dyn_categoryIcon();
     // public System.Void .ctor()
     // Offset: 0x119DBDC
     // Implemented from: System.Object

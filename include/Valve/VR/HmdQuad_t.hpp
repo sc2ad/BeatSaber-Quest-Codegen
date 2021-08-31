@@ -48,22 +48,14 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public Valve.VR.HmdVector3_t vCorners0
-    Valve::VR::HmdVector3_t _get_vCorners0();
-    // Set instance field: public Valve.VR.HmdVector3_t vCorners0
-    void _set_vCorners0(Valve::VR::HmdVector3_t value);
-    // Get instance field: public Valve.VR.HmdVector3_t vCorners1
-    Valve::VR::HmdVector3_t _get_vCorners1();
-    // Set instance field: public Valve.VR.HmdVector3_t vCorners1
-    void _set_vCorners1(Valve::VR::HmdVector3_t value);
-    // Get instance field: public Valve.VR.HmdVector3_t vCorners2
-    Valve::VR::HmdVector3_t _get_vCorners2();
-    // Set instance field: public Valve.VR.HmdVector3_t vCorners2
-    void _set_vCorners2(Valve::VR::HmdVector3_t value);
-    // Get instance field: public Valve.VR.HmdVector3_t vCorners3
-    Valve::VR::HmdVector3_t _get_vCorners3();
-    // Set instance field: public Valve.VR.HmdVector3_t vCorners3
-    void _set_vCorners3(Valve::VR::HmdVector3_t value);
+    // Get instance field reference: public Valve.VR.HmdVector3_t vCorners0
+    Valve::VR::HmdVector3_t& dyn_vCorners0();
+    // Get instance field reference: public Valve.VR.HmdVector3_t vCorners1
+    Valve::VR::HmdVector3_t& dyn_vCorners1();
+    // Get instance field reference: public Valve.VR.HmdVector3_t vCorners2
+    Valve::VR::HmdVector3_t& dyn_vCorners2();
+    // Get instance field reference: public Valve.VR.HmdVector3_t vCorners3
+    Valve::VR::HmdVector3_t& dyn_vCorners3();
   }; // Valve.VR.HmdQuad_t
   #pragma pack(pop)
   static check_size<sizeof(HmdQuad_t), 36 + sizeof(Valve::VR::HmdVector3_t)> __Valve_VR_HmdQuad_tSizeCheck;

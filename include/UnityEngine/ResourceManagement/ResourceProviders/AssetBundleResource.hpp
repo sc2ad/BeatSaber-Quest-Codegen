@@ -127,46 +127,26 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     operator UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>(this);
     }
-    // Get instance field: private UnityEngine.AssetBundle m_AssetBundle
-    UnityEngine::AssetBundle* _get_m_AssetBundle();
-    // Set instance field: private UnityEngine.AssetBundle m_AssetBundle
-    void _set_m_AssetBundle(UnityEngine::AssetBundle* value);
-    // Get instance field: private UnityEngine.Networking.DownloadHandlerAssetBundle m_downloadHandler
-    UnityEngine::Networking::DownloadHandlerAssetBundle* _get_m_downloadHandler();
-    // Set instance field: private UnityEngine.Networking.DownloadHandlerAssetBundle m_downloadHandler
-    void _set_m_downloadHandler(UnityEngine::Networking::DownloadHandlerAssetBundle* value);
-    // Get instance field: private UnityEngine.AsyncOperation m_RequestOperation
-    UnityEngine::AsyncOperation* _get_m_RequestOperation();
-    // Set instance field: private UnityEngine.AsyncOperation m_RequestOperation
-    void _set_m_RequestOperation(UnityEngine::AsyncOperation* value);
-    // Get instance field: private UnityEngine.ResourceManagement.WebRequestQueueOperation m_WebRequestQueueOperation
-    UnityEngine::ResourceManagement::WebRequestQueueOperation* _get_m_WebRequestQueueOperation();
-    // Set instance field: private UnityEngine.ResourceManagement.WebRequestQueueOperation m_WebRequestQueueOperation
-    void _set_m_WebRequestQueueOperation(UnityEngine::ResourceManagement::WebRequestQueueOperation* value);
-    // Get instance field: UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle m_ProvideHandle
-    UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle _get_m_ProvideHandle();
-    // Set instance field: UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle m_ProvideHandle
-    void _set_m_ProvideHandle(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle value);
-    // Get instance field: UnityEngine.ResourceManagement.ResourceProviders.AssetBundleRequestOptions m_Options
-    UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions* _get_m_Options();
-    // Set instance field: UnityEngine.ResourceManagement.ResourceProviders.AssetBundleRequestOptions m_Options
-    void _set_m_Options(UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions* value);
-    // Get instance field: private System.Int32 m_Retries
-    int _get_m_Retries();
-    // Set instance field: private System.Int32 m_Retries
-    void _set_m_Retries(int value);
-    // Get instance field: private System.Int64 m_BytesToDownload
-    int64_t _get_m_BytesToDownload();
-    // Set instance field: private System.Int64 m_BytesToDownload
-    void _set_m_BytesToDownload(int64_t value);
-    // Get instance field: private System.Int64 m_DownloadedBytes
-    int64_t _get_m_DownloadedBytes();
-    // Set instance field: private System.Int64 m_DownloadedBytes
-    void _set_m_DownloadedBytes(int64_t value);
-    // Get instance field: private System.Boolean m_Completed
-    bool _get_m_Completed();
-    // Set instance field: private System.Boolean m_Completed
-    void _set_m_Completed(bool value);
+    // Get instance field reference: private UnityEngine.AssetBundle m_AssetBundle
+    UnityEngine::AssetBundle*& dyn_m_AssetBundle();
+    // Get instance field reference: private UnityEngine.Networking.DownloadHandlerAssetBundle m_downloadHandler
+    UnityEngine::Networking::DownloadHandlerAssetBundle*& dyn_m_downloadHandler();
+    // Get instance field reference: private UnityEngine.AsyncOperation m_RequestOperation
+    UnityEngine::AsyncOperation*& dyn_m_RequestOperation();
+    // Get instance field reference: private UnityEngine.ResourceManagement.WebRequestQueueOperation m_WebRequestQueueOperation
+    UnityEngine::ResourceManagement::WebRequestQueueOperation*& dyn_m_WebRequestQueueOperation();
+    // Get instance field reference: UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle m_ProvideHandle
+    UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& dyn_m_ProvideHandle();
+    // Get instance field reference: UnityEngine.ResourceManagement.ResourceProviders.AssetBundleRequestOptions m_Options
+    UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions*& dyn_m_Options();
+    // Get instance field reference: private System.Int32 m_Retries
+    int& dyn_m_Retries();
+    // Get instance field reference: private System.Int64 m_BytesToDownload
+    int64_t& dyn_m_BytesToDownload();
+    // Get instance field reference: private System.Int64 m_DownloadedBytes
+    int64_t& dyn_m_DownloadedBytes();
+    // Get instance field reference: private System.Boolean m_Completed
+    bool& dyn_m_Completed();
     // UnityEngine.Networking.UnityWebRequest CreateWebRequest(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation loc)
     // Offset: 0x19ED248
     UnityEngine::Networking::UnityWebRequest* CreateWebRequest(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc);

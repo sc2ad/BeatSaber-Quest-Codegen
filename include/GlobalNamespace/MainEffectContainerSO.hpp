@@ -45,14 +45,10 @@ namespace GlobalNamespace {
     MainEffectContainerSO(GlobalNamespace::MainEffectSO* mainEffect_ = {}, GlobalNamespace::BoolSO* postProcessEnabled_ = {}) noexcept : mainEffect{mainEffect_}, postProcessEnabled{postProcessEnabled_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private MainEffectSO _mainEffect
-    GlobalNamespace::MainEffectSO* _get__mainEffect();
-    // Set instance field: private MainEffectSO _mainEffect
-    void _set__mainEffect(GlobalNamespace::MainEffectSO* value);
-    // Get instance field: private BoolSO _postProcessEnabled
-    GlobalNamespace::BoolSO* _get__postProcessEnabled();
-    // Set instance field: private BoolSO _postProcessEnabled
-    void _set__postProcessEnabled(GlobalNamespace::BoolSO* value);
+    // Get instance field reference: private MainEffectSO _mainEffect
+    GlobalNamespace::MainEffectSO*& dyn__mainEffect();
+    // Get instance field reference: private BoolSO _postProcessEnabled
+    GlobalNamespace::BoolSO*& dyn__postProcessEnabled();
     // public MainEffectSO get_mainEffect()
     // Offset: 0x2391238
     GlobalNamespace::MainEffectSO* get_mainEffect();

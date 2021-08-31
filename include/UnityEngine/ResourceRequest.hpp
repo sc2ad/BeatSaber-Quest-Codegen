@@ -48,14 +48,10 @@ namespace UnityEngine {
     static_assert(sizeof(System::Type*) == 0x8);
     // Creating value type constructor for type: ResourceRequest
     ResourceRequest(::Il2CppString* m_Path_ = {}, System::Type* m_Type_ = {}) noexcept : m_Path{m_Path_}, m_Type{m_Type_} {}
-    // Get instance field: System.String m_Path
-    ::Il2CppString* _get_m_Path();
-    // Set instance field: System.String m_Path
-    void _set_m_Path(::Il2CppString* value);
-    // Get instance field: System.Type m_Type
-    System::Type* _get_m_Type();
-    // Set instance field: System.Type m_Type
-    void _set_m_Type(System::Type* value);
+    // Get instance field reference: System.String m_Path
+    ::Il2CppString*& dyn_m_Path();
+    // Get instance field reference: System.Type m_Type
+    System::Type*& dyn_m_Type();
     // public UnityEngine.Object get_asset()
     // Offset: 0x1C4CBC4
     UnityEngine::Object* get_asset();

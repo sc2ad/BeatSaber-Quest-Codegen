@@ -46,22 +46,14 @@ namespace UnityEngineInternal::Input {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Void* eventBuffer
-    void* _get_eventBuffer();
-    // Set instance field: public System.Void* eventBuffer
-    void _set_eventBuffer(void* value);
-    // Get instance field: public System.Int32 eventCount
-    int _get_eventCount();
-    // Set instance field: public System.Int32 eventCount
-    void _set_eventCount(int value);
-    // Get instance field: public System.Int32 sizeInBytes
-    int _get_sizeInBytes();
-    // Set instance field: public System.Int32 sizeInBytes
-    void _set_sizeInBytes(int value);
-    // Get instance field: public System.Int32 capacityInBytes
-    int _get_capacityInBytes();
-    // Set instance field: public System.Int32 capacityInBytes
-    void _set_capacityInBytes(int value);
+    // Get instance field reference: public System.Void* eventBuffer
+    void*& dyn_eventBuffer();
+    // Get instance field reference: public System.Int32 eventCount
+    int& dyn_eventCount();
+    // Get instance field reference: public System.Int32 sizeInBytes
+    int& dyn_sizeInBytes();
+    // Get instance field reference: public System.Int32 capacityInBytes
+    int& dyn_capacityInBytes();
   }; // UnityEngineInternal.Input.NativeInputEventBuffer
   #pragma pack(pop)
   static check_size<sizeof(NativeInputEventBuffer), 16 + sizeof(int)> __UnityEngineInternal_Input_NativeInputEventBufferSizeCheck;

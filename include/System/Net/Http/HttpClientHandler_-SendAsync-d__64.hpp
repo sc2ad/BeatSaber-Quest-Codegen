@@ -140,62 +140,34 @@ namespace System::Net::Http {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
-    // Get instance field: public System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: public System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Net.Http.HttpResponseMessage> <>t__builder
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Net::Http::HttpResponseMessage*> _get_$$t__builder();
-    // Set instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Net.Http.HttpResponseMessage> <>t__builder
-    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Net::Http::HttpResponseMessage*> value);
-    // Get instance field: public System.Net.Http.HttpClientHandler <>4__this
-    System::Net::Http::HttpClientHandler* _get_$$4__this();
-    // Set instance field: public System.Net.Http.HttpClientHandler <>4__this
-    void _set_$$4__this(System::Net::Http::HttpClientHandler* value);
-    // Get instance field: public System.Net.Http.HttpRequestMessage request
-    System::Net::Http::HttpRequestMessage* _get_request();
-    // Set instance field: public System.Net.Http.HttpRequestMessage request
-    void _set_request(System::Net::Http::HttpRequestMessage* value);
-    // Get instance field: public System.Threading.CancellationToken cancellationToken
-    System::Threading::CancellationToken _get_cancellationToken();
-    // Set instance field: public System.Threading.CancellationToken cancellationToken
-    void _set_cancellationToken(System::Threading::CancellationToken value);
-    // Get instance field: private System.Net.HttpWebRequest <wrequest>5__1
-    System::Net::HttpWebRequest* _get_$wrequest$5__1();
-    // Set instance field: private System.Net.HttpWebRequest <wrequest>5__1
-    void _set_$wrequest$5__1(System::Net::HttpWebRequest* value);
-    // Get instance field: private System.Net.Http.HttpContent <content>5__2
-    System::Net::Http::HttpContent* _get_$content$5__2();
-    // Set instance field: private System.Net.Http.HttpContent <content>5__2
-    void _set_$content$5__2(System::Net::Http::HttpContent* value);
-    // Get instance field: private System.IO.Stream <stream>5__3
-    System::IO::Stream* _get_$stream$5__3();
-    // Set instance field: private System.IO.Stream <stream>5__3
-    void _set_$stream$5__3(System::IO::Stream* value);
-    // Get instance field: private System.Net.HttpWebResponse <wresponse>5__4
-    System::Net::HttpWebResponse* _get_$wresponse$5__4();
-    // Set instance field: private System.Net.HttpWebResponse <wresponse>5__4
-    void _set_$wresponse$5__4(System::Net::HttpWebResponse* value);
-    // Get instance field: private System.Threading.CancellationTokenRegistration <>7__wrap1
-    System::Threading::CancellationTokenRegistration _get_$$7__wrap1();
-    // Set instance field: private System.Threading.CancellationTokenRegistration <>7__wrap1
-    void _set_$$7__wrap1(System::Threading::CancellationTokenRegistration value);
-    // Get instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable/System.Runtime.CompilerServices.ConfiguredTaskAwaiter <>u__1
-    System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter _get_$$u__1();
-    // Set instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable/System.Runtime.CompilerServices.ConfiguredTaskAwaiter <>u__1
-    void _set_$$u__1(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter value);
-    // Get instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.IO.Stream> <>u__2
-    typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<System::IO::Stream*>::ConfiguredTaskAwaiter _get_$$u__2();
-    // Set instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.IO.Stream> <>u__2
-    void _set_$$u__2(typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<System::IO::Stream*>::ConfiguredTaskAwaiter value);
-    // Get instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.Net.WebResponse> <>u__3
-    typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<System::Net::WebResponse*>::ConfiguredTaskAwaiter _get_$$u__3();
-    // Set instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.Net.WebResponse> <>u__3
-    void _set_$$u__3(typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<System::Net::WebResponse*>::ConfiguredTaskAwaiter value);
-    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Net.Http.HttpResponseMessage> <>u__4
-    System::Runtime::CompilerServices::TaskAwaiter_1<System::Net::Http::HttpResponseMessage*> _get_$$u__4();
-    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Net.Http.HttpResponseMessage> <>u__4
-    void _set_$$u__4(System::Runtime::CompilerServices::TaskAwaiter_1<System::Net::Http::HttpResponseMessage*> value);
+    // Get instance field reference: public System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Net.Http.HttpResponseMessage> <>t__builder
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Net::Http::HttpResponseMessage*>& dyn_$$t__builder();
+    // Get instance field reference: public System.Net.Http.HttpClientHandler <>4__this
+    System::Net::Http::HttpClientHandler*& dyn_$$4__this();
+    // Get instance field reference: public System.Net.Http.HttpRequestMessage request
+    System::Net::Http::HttpRequestMessage*& dyn_request();
+    // Get instance field reference: public System.Threading.CancellationToken cancellationToken
+    System::Threading::CancellationToken& dyn_cancellationToken();
+    // Get instance field reference: private System.Net.HttpWebRequest <wrequest>5__1
+    System::Net::HttpWebRequest*& dyn_$wrequest$5__1();
+    // Get instance field reference: private System.Net.Http.HttpContent <content>5__2
+    System::Net::Http::HttpContent*& dyn_$content$5__2();
+    // Get instance field reference: private System.IO.Stream <stream>5__3
+    System::IO::Stream*& dyn_$stream$5__3();
+    // Get instance field reference: private System.Net.HttpWebResponse <wresponse>5__4
+    System::Net::HttpWebResponse*& dyn_$wresponse$5__4();
+    // Get instance field reference: private System.Threading.CancellationTokenRegistration <>7__wrap1
+    System::Threading::CancellationTokenRegistration& dyn_$$7__wrap1();
+    // Get instance field reference: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable/System.Runtime.CompilerServices.ConfiguredTaskAwaiter <>u__1
+    System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter& dyn_$$u__1();
+    // Get instance field reference: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.IO.Stream> <>u__2
+    typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<System::IO::Stream*>::ConfiguredTaskAwaiter& dyn_$$u__2();
+    // Get instance field reference: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.Net.WebResponse> <>u__3
+    typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<System::Net::WebResponse*>::ConfiguredTaskAwaiter& dyn_$$u__3();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Net.Http.HttpResponseMessage> <>u__4
+    System::Runtime::CompilerServices::TaskAwaiter_1<System::Net::Http::HttpResponseMessage*>& dyn_$$u__4();
     // private System.Void MoveNext()
     // Offset: 0x15AD09C
     void MoveNext();

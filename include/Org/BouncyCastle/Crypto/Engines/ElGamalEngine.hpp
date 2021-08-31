@@ -69,22 +69,14 @@ namespace Org::BouncyCastle::Crypto::Engines {
     operator Org::BouncyCastle::Crypto::IAsymmetricBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(this);
     }
-    // Get instance field: private Org.BouncyCastle.Crypto.Parameters.ElGamalKeyParameters key
-    Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters* _get_key();
-    // Set instance field: private Org.BouncyCastle.Crypto.Parameters.ElGamalKeyParameters key
-    void _set_key(Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters* value);
-    // Get instance field: private Org.BouncyCastle.Security.SecureRandom random
-    Org::BouncyCastle::Security::SecureRandom* _get_random();
-    // Set instance field: private Org.BouncyCastle.Security.SecureRandom random
-    void _set_random(Org::BouncyCastle::Security::SecureRandom* value);
-    // Get instance field: private System.Boolean forEncryption
-    bool _get_forEncryption();
-    // Set instance field: private System.Boolean forEncryption
-    void _set_forEncryption(bool value);
-    // Get instance field: private System.Int32 bitSize
-    int _get_bitSize();
-    // Set instance field: private System.Int32 bitSize
-    void _set_bitSize(int value);
+    // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.ElGamalKeyParameters key
+    Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters*& dyn_key();
+    // Get instance field reference: private Org.BouncyCastle.Security.SecureRandom random
+    Org::BouncyCastle::Security::SecureRandom*& dyn_random();
+    // Get instance field reference: private System.Boolean forEncryption
+    bool& dyn_forEncryption();
+    // Get instance field reference: private System.Int32 bitSize
+    int& dyn_bitSize();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     // Offset: 0x1E718E8
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);

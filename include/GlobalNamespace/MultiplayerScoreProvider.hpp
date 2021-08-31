@@ -94,30 +94,18 @@ namespace GlobalNamespace {
     MultiplayerScoreProvider(GlobalNamespace::IScoreSyncStateManager* scoreSyncStateManager_ = {}, GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* firstPlayer_ = {}, System::Action_1<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>* firstPlayerDidChangeEvent_ = {}, float sharedOffsetSyncTime_ = {}, System::Collections::Generic::List_1<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>* rankedPlayers_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>* players_ = {}) noexcept : scoreSyncStateManager{scoreSyncStateManager_}, firstPlayer{firstPlayer_}, firstPlayerDidChangeEvent{firstPlayerDidChangeEvent_}, sharedOffsetSyncTime{sharedOffsetSyncTime_}, rankedPlayers{rankedPlayers_}, players{players_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private readonly IScoreSyncStateManager _scoreSyncStateManager
-    GlobalNamespace::IScoreSyncStateManager* _get__scoreSyncStateManager();
-    // Set instance field: private readonly IScoreSyncStateManager _scoreSyncStateManager
-    void _set__scoreSyncStateManager(GlobalNamespace::IScoreSyncStateManager* value);
-    // Get instance field: private MultiplayerScoreProvider/RankedPlayer <firstPlayer>k__BackingField
-    GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* _get_$firstPlayer$k__BackingField();
-    // Set instance field: private MultiplayerScoreProvider/RankedPlayer <firstPlayer>k__BackingField
-    void _set_$firstPlayer$k__BackingField(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* value);
-    // Get instance field: private System.Action`1<MultiplayerScoreProvider/RankedPlayer> firstPlayerDidChangeEvent
-    System::Action_1<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>* _get_firstPlayerDidChangeEvent();
-    // Set instance field: private System.Action`1<MultiplayerScoreProvider/RankedPlayer> firstPlayerDidChangeEvent
-    void _set_firstPlayerDidChangeEvent(System::Action_1<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>* value);
-    // Get instance field: private System.Single _sharedOffsetSyncTime
-    float _get__sharedOffsetSyncTime();
-    // Set instance field: private System.Single _sharedOffsetSyncTime
-    void _set__sharedOffsetSyncTime(float value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<MultiplayerScoreProvider/RankedPlayer> _rankedPlayers
-    System::Collections::Generic::List_1<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>* _get__rankedPlayers();
-    // Set instance field: private readonly System.Collections.Generic.List`1<MultiplayerScoreProvider/RankedPlayer> _rankedPlayers
-    void _set__rankedPlayers(System::Collections::Generic::List_1<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>* value);
-    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerScoreProvider/RankedPlayer> _players
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>* _get__players();
-    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerScoreProvider/RankedPlayer> _players
-    void _set__players(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>* value);
+    // Get instance field reference: private readonly IScoreSyncStateManager _scoreSyncStateManager
+    GlobalNamespace::IScoreSyncStateManager*& dyn__scoreSyncStateManager();
+    // Get instance field reference: private MultiplayerScoreProvider/RankedPlayer <firstPlayer>k__BackingField
+    GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*& dyn_$firstPlayer$k__BackingField();
+    // Get instance field reference: private System.Action`1<MultiplayerScoreProvider/RankedPlayer> firstPlayerDidChangeEvent
+    System::Action_1<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>*& dyn_firstPlayerDidChangeEvent();
+    // Get instance field reference: private System.Single _sharedOffsetSyncTime
+    float& dyn__sharedOffsetSyncTime();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<MultiplayerScoreProvider/RankedPlayer> _rankedPlayers
+    System::Collections::Generic::List_1<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>*& dyn__rankedPlayers();
+    // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerScoreProvider/RankedPlayer> _players
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>*& dyn__players();
     // public System.Boolean get_scoresAvailable()
     // Offset: 0x1037020
     bool get_scoresAvailable();

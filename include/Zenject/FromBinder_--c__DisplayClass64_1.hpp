@@ -42,10 +42,8 @@ namespace Zenject {
     constexpr operator UnityEngine::MonoBehaviour*() const noexcept {
       return monoBehaviour;
     }
-    // Get instance field: public UnityEngine.MonoBehaviour monoBehaviour
-    UnityEngine::MonoBehaviour* _get_monoBehaviour();
-    // Set instance field: public UnityEngine.MonoBehaviour monoBehaviour
-    void _set_monoBehaviour(UnityEngine::MonoBehaviour* value);
+    // Get instance field reference: public UnityEngine.MonoBehaviour monoBehaviour
+    UnityEngine::MonoBehaviour*& dyn_monoBehaviour();
     // System.Boolean <FromComponentsSibling>b__2(UnityEngine.Component x)
     // Offset: 0x165DC64
     bool $FromComponentsSibling$b__2(UnityEngine::Component* x);

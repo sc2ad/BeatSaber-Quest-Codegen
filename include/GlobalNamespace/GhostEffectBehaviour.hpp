@@ -91,10 +91,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::GhostEffectBehaviour::EndBehavior _get_Nothing();
       // Set static field: static public GhostEffectBehaviour/EndBehavior Nothing
       static void _set_Nothing(GlobalNamespace::GhostEffectBehaviour::EndBehavior value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // GhostEffectBehaviour/EndBehavior
     #pragma pack(pop)
     static check_size<sizeof(GhostEffectBehaviour::EndBehavior), 0 + sizeof(int)> __GlobalNamespace_GhostEffectBehaviour_EndBehaviorSizeCheck;
@@ -133,10 +131,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::GhostEffectBehaviour::GhostEffectType _get_Canvas();
       // Set static field: static public GhostEffectBehaviour/GhostEffectType Canvas
       static void _set_Canvas(GlobalNamespace::GhostEffectBehaviour::GhostEffectType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // GhostEffectBehaviour/GhostEffectType
     #pragma pack(pop)
     static check_size<sizeof(GhostEffectBehaviour::GhostEffectType), 0 + sizeof(int)> __GlobalNamespace_GhostEffectBehaviour_GhostEffectTypeSizeCheck;
@@ -281,82 +277,44 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: GhostEffectBehaviour
     GhostEffectBehaviour(UnityEngine::AnimationCurve* alphaCurve_ = {}, UnityEngine::AnimationCurve* sizeCurve_ = {}, UnityEngine::AnimationCurve* distanceCurve_ = {}, UnityEngine::Vector3 distanceMultiplier_ = {}, bool useStartTransform_ = {}, bool useEndTransform_ = {}, UnityEngine::Vector3 startLocalPosition_ = {}, UnityEngine::Transform* startTransform_ = {}, UnityEngine::Vector3 endLocalPosition_ = {}, UnityEngine::Transform* endTransform_ = {}, Tweening::EaseType positionEasing_ = {}, GlobalNamespace::GhostEffectBehaviour::EndBehavior endBehavior_ = {}, float progress_ = {}, ::Array<TMPro::TextMeshPro*>* textMeshPros_ = {}, ::Array<UnityEngine::CanvasGroup*>* canvasGroups_ = {}, GlobalNamespace::GhostEffectBehaviour::GhostEffectType ghostEffectType_ = {}, UnityEngine::Transform* ghostEffectTransform_ = {}, UnityEngine::Vector3 direction_ = {}, bool finished_ = {}) noexcept : alphaCurve{alphaCurve_}, sizeCurve{sizeCurve_}, distanceCurve{distanceCurve_}, distanceMultiplier{distanceMultiplier_}, useStartTransform{useStartTransform_}, useEndTransform{useEndTransform_}, startLocalPosition{startLocalPosition_}, startTransform{startTransform_}, endLocalPosition{endLocalPosition_}, endTransform{endTransform_}, positionEasing{positionEasing_}, endBehavior{endBehavior_}, progress{progress_}, textMeshPros{textMeshPros_}, canvasGroups{canvasGroups_}, ghostEffectType{ghostEffectType_}, ghostEffectTransform{ghostEffectTransform_}, direction{direction_}, finished{finished_} {}
-    // Get instance field: public UnityEngine.AnimationCurve alphaCurve
-    UnityEngine::AnimationCurve* _get_alphaCurve();
-    // Set instance field: public UnityEngine.AnimationCurve alphaCurve
-    void _set_alphaCurve(UnityEngine::AnimationCurve* value);
-    // Get instance field: public UnityEngine.AnimationCurve sizeCurve
-    UnityEngine::AnimationCurve* _get_sizeCurve();
-    // Set instance field: public UnityEngine.AnimationCurve sizeCurve
-    void _set_sizeCurve(UnityEngine::AnimationCurve* value);
-    // Get instance field: public UnityEngine.AnimationCurve distanceCurve
-    UnityEngine::AnimationCurve* _get_distanceCurve();
-    // Set instance field: public UnityEngine.AnimationCurve distanceCurve
-    void _set_distanceCurve(UnityEngine::AnimationCurve* value);
-    // Get instance field: public UnityEngine.Vector3 _distanceMultiplier
-    UnityEngine::Vector3 _get__distanceMultiplier();
-    // Set instance field: public UnityEngine.Vector3 _distanceMultiplier
-    void _set__distanceMultiplier(UnityEngine::Vector3 value);
-    // Get instance field: public System.Boolean _useStartTransform
-    bool _get__useStartTransform();
-    // Set instance field: public System.Boolean _useStartTransform
-    void _set__useStartTransform(bool value);
-    // Get instance field: public System.Boolean _useEndTransform
-    bool _get__useEndTransform();
-    // Set instance field: public System.Boolean _useEndTransform
-    void _set__useEndTransform(bool value);
-    // Get instance field: public UnityEngine.Vector3 _startLocalPosition
-    UnityEngine::Vector3 _get__startLocalPosition();
-    // Set instance field: public UnityEngine.Vector3 _startLocalPosition
-    void _set__startLocalPosition(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Transform _startTransform
-    UnityEngine::Transform* _get__startTransform();
-    // Set instance field: public UnityEngine.Transform _startTransform
-    void _set__startTransform(UnityEngine::Transform* value);
-    // Get instance field: public UnityEngine.Vector3 _endLocalPosition
-    UnityEngine::Vector3 _get__endLocalPosition();
-    // Set instance field: public UnityEngine.Vector3 _endLocalPosition
-    void _set__endLocalPosition(UnityEngine::Vector3 value);
-    // Get instance field: public UnityEngine.Transform _endTransform
-    UnityEngine::Transform* _get__endTransform();
-    // Set instance field: public UnityEngine.Transform _endTransform
-    void _set__endTransform(UnityEngine::Transform* value);
-    // Get instance field: public Tweening.EaseType _positionEasing
-    Tweening::EaseType _get__positionEasing();
-    // Set instance field: public Tweening.EaseType _positionEasing
-    void _set__positionEasing(Tweening::EaseType value);
-    // Get instance field: public GhostEffectBehaviour/EndBehavior _endBehavior
-    GlobalNamespace::GhostEffectBehaviour::EndBehavior _get__endBehavior();
-    // Set instance field: public GhostEffectBehaviour/EndBehavior _endBehavior
-    void _set__endBehavior(GlobalNamespace::GhostEffectBehaviour::EndBehavior value);
-    // Get instance field: public System.Single progress
-    float _get_progress();
-    // Set instance field: public System.Single progress
-    void _set_progress(float value);
-    // Get instance field: public TMPro.TextMeshPro[] textMeshPros
-    ::Array<TMPro::TextMeshPro*>* _get_textMeshPros();
-    // Set instance field: public TMPro.TextMeshPro[] textMeshPros
-    void _set_textMeshPros(::Array<TMPro::TextMeshPro*>* value);
-    // Get instance field: public UnityEngine.CanvasGroup[] _canvasGroups
-    ::Array<UnityEngine::CanvasGroup*>* _get__canvasGroups();
-    // Set instance field: public UnityEngine.CanvasGroup[] _canvasGroups
-    void _set__canvasGroups(::Array<UnityEngine::CanvasGroup*>* value);
-    // Get instance field: public GhostEffectBehaviour/GhostEffectType _ghostEffectType
-    GlobalNamespace::GhostEffectBehaviour::GhostEffectType _get__ghostEffectType();
-    // Set instance field: public GhostEffectBehaviour/GhostEffectType _ghostEffectType
-    void _set__ghostEffectType(GlobalNamespace::GhostEffectBehaviour::GhostEffectType value);
-    // Get instance field: public UnityEngine.Transform _ghostEffectTransform
-    UnityEngine::Transform* _get__ghostEffectTransform();
-    // Set instance field: public UnityEngine.Transform _ghostEffectTransform
-    void _set__ghostEffectTransform(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.Vector3 _direction
-    UnityEngine::Vector3 _get__direction();
-    // Set instance field: private UnityEngine.Vector3 _direction
-    void _set__direction(UnityEngine::Vector3 value);
-    // Get instance field: private System.Boolean _finished
-    bool _get__finished();
-    // Set instance field: private System.Boolean _finished
-    void _set__finished(bool value);
+    // Get instance field reference: public UnityEngine.AnimationCurve alphaCurve
+    UnityEngine::AnimationCurve*& dyn_alphaCurve();
+    // Get instance field reference: public UnityEngine.AnimationCurve sizeCurve
+    UnityEngine::AnimationCurve*& dyn_sizeCurve();
+    // Get instance field reference: public UnityEngine.AnimationCurve distanceCurve
+    UnityEngine::AnimationCurve*& dyn_distanceCurve();
+    // Get instance field reference: public UnityEngine.Vector3 _distanceMultiplier
+    UnityEngine::Vector3& dyn__distanceMultiplier();
+    // Get instance field reference: public System.Boolean _useStartTransform
+    bool& dyn__useStartTransform();
+    // Get instance field reference: public System.Boolean _useEndTransform
+    bool& dyn__useEndTransform();
+    // Get instance field reference: public UnityEngine.Vector3 _startLocalPosition
+    UnityEngine::Vector3& dyn__startLocalPosition();
+    // Get instance field reference: public UnityEngine.Transform _startTransform
+    UnityEngine::Transform*& dyn__startTransform();
+    // Get instance field reference: public UnityEngine.Vector3 _endLocalPosition
+    UnityEngine::Vector3& dyn__endLocalPosition();
+    // Get instance field reference: public UnityEngine.Transform _endTransform
+    UnityEngine::Transform*& dyn__endTransform();
+    // Get instance field reference: public Tweening.EaseType _positionEasing
+    Tweening::EaseType& dyn__positionEasing();
+    // Get instance field reference: public GhostEffectBehaviour/EndBehavior _endBehavior
+    GlobalNamespace::GhostEffectBehaviour::EndBehavior& dyn__endBehavior();
+    // Get instance field reference: public System.Single progress
+    float& dyn_progress();
+    // Get instance field reference: public TMPro.TextMeshPro[] textMeshPros
+    ::Array<TMPro::TextMeshPro*>*& dyn_textMeshPros();
+    // Get instance field reference: public UnityEngine.CanvasGroup[] _canvasGroups
+    ::Array<UnityEngine::CanvasGroup*>*& dyn__canvasGroups();
+    // Get instance field reference: public GhostEffectBehaviour/GhostEffectType _ghostEffectType
+    GlobalNamespace::GhostEffectBehaviour::GhostEffectType& dyn__ghostEffectType();
+    // Get instance field reference: public UnityEngine.Transform _ghostEffectTransform
+    UnityEngine::Transform*& dyn__ghostEffectTransform();
+    // Get instance field reference: private UnityEngine.Vector3 _direction
+    UnityEngine::Vector3& dyn__direction();
+    // Get instance field reference: private System.Boolean _finished
+    bool& dyn__finished();
     // private System.Void EnableObjects(System.Boolean on)
     // Offset: 0x1111740
     void EnableObjects(bool on);

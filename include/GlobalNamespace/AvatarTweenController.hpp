@@ -314,170 +314,88 @@ namespace GlobalNamespace {
     AvatarTweenController(UnityEngine::Transform* avatarTransform_ = {}, UnityEngine::Transform* headParent_ = {}, UnityEngine::Transform* leftHandTransform_ = {}, UnityEngine::Transform* rightHandTransform_ = {}, UnityEngine::Transform* bodyTransform_ = {}, UnityEngine::Transform* headInnerTransform_ = {}, UnityEngine::Transform* leftHandInnerTransform_ = {}, UnityEngine::Transform* rightHandInnerTransform_ = {}, UnityEngine::Transform* bodyInnerTransform_ = {}, float popDuration_ = {}, Tweening::EaseType popEaseType_ = {}, float headPopAmount_ = {}, float handsPopAmount_ = {}, float clothesPopAmount_ = {}, float allPopAmount_ = {}, float appearDuration_ = {}, float appearSpacing_ = {}, float appearHeight_ = {}, UnityEngine::Vector3 squashFactor_ = {}, float disappearDuration_ = {}, float disappearHeight_ = {}, UnityEngine::Vector3 disappearSquash_ = {}, Tweening::EaseType disappearScaleEase_ = {}, Tweening::EaseType disappearPositionEase_ = {}, Tweening::TweeningManager* tweeningManager_ = {}, Tweening::Tween_1<float>* popHeadTween_ = {}, Tweening::Tween_1<float>* popLeftHandTween_ = {}, Tweening::Tween_1<float>* popRightHandTween_ = {}, Tweening::Tween_1<float>* popClothesTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* appearHeadPositionTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* appearHeadScaleTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* appearBodyPositionTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* appearBodyScaleTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* appearRightHandPositionTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* appearRightHandScaleTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* appearLeftHandPositionTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* appearLeftHandScaleTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* disappearScaleTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* disappearPositionTween_ = {}, UnityEngine::Vector3 avatarLocalPosition_ = {}, UnityEngine::Vector3 avatarLocalScale_ = {}) noexcept : avatarTransform{avatarTransform_}, headParent{headParent_}, leftHandTransform{leftHandTransform_}, rightHandTransform{rightHandTransform_}, bodyTransform{bodyTransform_}, headInnerTransform{headInnerTransform_}, leftHandInnerTransform{leftHandInnerTransform_}, rightHandInnerTransform{rightHandInnerTransform_}, bodyInnerTransform{bodyInnerTransform_}, popDuration{popDuration_}, popEaseType{popEaseType_}, headPopAmount{headPopAmount_}, handsPopAmount{handsPopAmount_}, clothesPopAmount{clothesPopAmount_}, allPopAmount{allPopAmount_}, appearDuration{appearDuration_}, appearSpacing{appearSpacing_}, appearHeight{appearHeight_}, squashFactor{squashFactor_}, disappearDuration{disappearDuration_}, disappearHeight{disappearHeight_}, disappearSquash{disappearSquash_}, disappearScaleEase{disappearScaleEase_}, disappearPositionEase{disappearPositionEase_}, tweeningManager{tweeningManager_}, popHeadTween{popHeadTween_}, popLeftHandTween{popLeftHandTween_}, popRightHandTween{popRightHandTween_}, popClothesTween{popClothesTween_}, appearHeadPositionTween{appearHeadPositionTween_}, appearHeadScaleTween{appearHeadScaleTween_}, appearBodyPositionTween{appearBodyPositionTween_}, appearBodyScaleTween{appearBodyScaleTween_}, appearRightHandPositionTween{appearRightHandPositionTween_}, appearRightHandScaleTween{appearRightHandScaleTween_}, appearLeftHandPositionTween{appearLeftHandPositionTween_}, appearLeftHandScaleTween{appearLeftHandScaleTween_}, disappearScaleTween{disappearScaleTween_}, disappearPositionTween{disappearPositionTween_}, avatarLocalPosition{avatarLocalPosition_}, avatarLocalScale{avatarLocalScale_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.Transform _avatarTransform
-    UnityEngine::Transform* _get__avatarTransform();
-    // Set instance field: private UnityEngine.Transform _avatarTransform
-    void _set__avatarTransform(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.Transform _headParent
-    UnityEngine::Transform* _get__headParent();
-    // Set instance field: private UnityEngine.Transform _headParent
-    void _set__headParent(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.Transform _leftHandTransform
-    UnityEngine::Transform* _get__leftHandTransform();
-    // Set instance field: private UnityEngine.Transform _leftHandTransform
-    void _set__leftHandTransform(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.Transform _rightHandTransform
-    UnityEngine::Transform* _get__rightHandTransform();
-    // Set instance field: private UnityEngine.Transform _rightHandTransform
-    void _set__rightHandTransform(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.Transform _bodyTransform
-    UnityEngine::Transform* _get__bodyTransform();
-    // Set instance field: private UnityEngine.Transform _bodyTransform
-    void _set__bodyTransform(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.Transform _headInnerTransform
-    UnityEngine::Transform* _get__headInnerTransform();
-    // Set instance field: private UnityEngine.Transform _headInnerTransform
-    void _set__headInnerTransform(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.Transform _leftHandInnerTransform
-    UnityEngine::Transform* _get__leftHandInnerTransform();
-    // Set instance field: private UnityEngine.Transform _leftHandInnerTransform
-    void _set__leftHandInnerTransform(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.Transform _rightHandInnerTransform
-    UnityEngine::Transform* _get__rightHandInnerTransform();
-    // Set instance field: private UnityEngine.Transform _rightHandInnerTransform
-    void _set__rightHandInnerTransform(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.Transform _bodyInnerTransform
-    UnityEngine::Transform* _get__bodyInnerTransform();
-    // Set instance field: private UnityEngine.Transform _bodyInnerTransform
-    void _set__bodyInnerTransform(UnityEngine::Transform* value);
-    // Get instance field: private System.Single _popDuration
-    float _get__popDuration();
-    // Set instance field: private System.Single _popDuration
-    void _set__popDuration(float value);
-    // Get instance field: private Tweening.EaseType _popEaseType
-    Tweening::EaseType _get__popEaseType();
-    // Set instance field: private Tweening.EaseType _popEaseType
-    void _set__popEaseType(Tweening::EaseType value);
-    // Get instance field: private System.Single _headPopAmount
-    float _get__headPopAmount();
-    // Set instance field: private System.Single _headPopAmount
-    void _set__headPopAmount(float value);
-    // Get instance field: private System.Single _handsPopAmount
-    float _get__handsPopAmount();
-    // Set instance field: private System.Single _handsPopAmount
-    void _set__handsPopAmount(float value);
-    // Get instance field: private System.Single _clothesPopAmount
-    float _get__clothesPopAmount();
-    // Set instance field: private System.Single _clothesPopAmount
-    void _set__clothesPopAmount(float value);
-    // Get instance field: private System.Single _allPopAmount
-    float _get__allPopAmount();
-    // Set instance field: private System.Single _allPopAmount
-    void _set__allPopAmount(float value);
-    // Get instance field: private System.Single _appearDuration
-    float _get__appearDuration();
-    // Set instance field: private System.Single _appearDuration
-    void _set__appearDuration(float value);
-    // Get instance field: private System.Single _appearSpacing
-    float _get__appearSpacing();
-    // Set instance field: private System.Single _appearSpacing
-    void _set__appearSpacing(float value);
-    // Get instance field: private System.Single _appearHeight
-    float _get__appearHeight();
-    // Set instance field: private System.Single _appearHeight
-    void _set__appearHeight(float value);
-    // Get instance field: private UnityEngine.Vector3 _squashFactor
-    UnityEngine::Vector3 _get__squashFactor();
-    // Set instance field: private UnityEngine.Vector3 _squashFactor
-    void _set__squashFactor(UnityEngine::Vector3 value);
-    // Get instance field: private System.Single _disappearDuration
-    float _get__disappearDuration();
-    // Set instance field: private System.Single _disappearDuration
-    void _set__disappearDuration(float value);
-    // Get instance field: private System.Single _disappearHeight
-    float _get__disappearHeight();
-    // Set instance field: private System.Single _disappearHeight
-    void _set__disappearHeight(float value);
-    // Get instance field: private UnityEngine.Vector3 _disappearSquash
-    UnityEngine::Vector3 _get__disappearSquash();
-    // Set instance field: private UnityEngine.Vector3 _disappearSquash
-    void _set__disappearSquash(UnityEngine::Vector3 value);
-    // Get instance field: private Tweening.EaseType _disappearScaleEase
-    Tweening::EaseType _get__disappearScaleEase();
-    // Set instance field: private Tweening.EaseType _disappearScaleEase
-    void _set__disappearScaleEase(Tweening::EaseType value);
-    // Get instance field: private Tweening.EaseType _disappearPositionEase
-    Tweening::EaseType _get__disappearPositionEase();
-    // Set instance field: private Tweening.EaseType _disappearPositionEase
-    void _set__disappearPositionEase(Tweening::EaseType value);
-    // Get instance field: private readonly Tweening.TweeningManager _tweeningManager
-    Tweening::TweeningManager* _get__tweeningManager();
-    // Set instance field: private readonly Tweening.TweeningManager _tweeningManager
-    void _set__tweeningManager(Tweening::TweeningManager* value);
-    // Get instance field: private Tweening.Tween`1<System.Single> _popHeadTween
-    Tweening::Tween_1<float>* _get__popHeadTween();
-    // Set instance field: private Tweening.Tween`1<System.Single> _popHeadTween
-    void _set__popHeadTween(Tweening::Tween_1<float>* value);
-    // Get instance field: private Tweening.Tween`1<System.Single> _popLeftHandTween
-    Tweening::Tween_1<float>* _get__popLeftHandTween();
-    // Set instance field: private Tweening.Tween`1<System.Single> _popLeftHandTween
-    void _set__popLeftHandTween(Tweening::Tween_1<float>* value);
-    // Get instance field: private Tweening.Tween`1<System.Single> _popRightHandTween
-    Tweening::Tween_1<float>* _get__popRightHandTween();
-    // Set instance field: private Tweening.Tween`1<System.Single> _popRightHandTween
-    void _set__popRightHandTween(Tweening::Tween_1<float>* value);
-    // Get instance field: private Tweening.Tween`1<System.Single> _popClothesTween
-    Tweening::Tween_1<float>* _get__popClothesTween();
-    // Set instance field: private Tweening.Tween`1<System.Single> _popClothesTween
-    void _set__popClothesTween(Tweening::Tween_1<float>* value);
-    // Get instance field: private Tweening.Tween`1<UnityEngine.Vector3> _appearHeadPositionTween
-    Tweening::Tween_1<UnityEngine::Vector3>* _get__appearHeadPositionTween();
-    // Set instance field: private Tweening.Tween`1<UnityEngine.Vector3> _appearHeadPositionTween
-    void _set__appearHeadPositionTween(Tweening::Tween_1<UnityEngine::Vector3>* value);
-    // Get instance field: private Tweening.Tween`1<UnityEngine.Vector3> _appearHeadScaleTween
-    Tweening::Tween_1<UnityEngine::Vector3>* _get__appearHeadScaleTween();
-    // Set instance field: private Tweening.Tween`1<UnityEngine.Vector3> _appearHeadScaleTween
-    void _set__appearHeadScaleTween(Tweening::Tween_1<UnityEngine::Vector3>* value);
-    // Get instance field: private Tweening.Tween`1<UnityEngine.Vector3> _appearBodyPositionTween
-    Tweening::Tween_1<UnityEngine::Vector3>* _get__appearBodyPositionTween();
-    // Set instance field: private Tweening.Tween`1<UnityEngine.Vector3> _appearBodyPositionTween
-    void _set__appearBodyPositionTween(Tweening::Tween_1<UnityEngine::Vector3>* value);
-    // Get instance field: private Tweening.Tween`1<UnityEngine.Vector3> _appearBodyScaleTween
-    Tweening::Tween_1<UnityEngine::Vector3>* _get__appearBodyScaleTween();
-    // Set instance field: private Tweening.Tween`1<UnityEngine.Vector3> _appearBodyScaleTween
-    void _set__appearBodyScaleTween(Tweening::Tween_1<UnityEngine::Vector3>* value);
-    // Get instance field: private Tweening.Tween`1<UnityEngine.Vector3> _appearRightHandPositionTween
-    Tweening::Tween_1<UnityEngine::Vector3>* _get__appearRightHandPositionTween();
-    // Set instance field: private Tweening.Tween`1<UnityEngine.Vector3> _appearRightHandPositionTween
-    void _set__appearRightHandPositionTween(Tweening::Tween_1<UnityEngine::Vector3>* value);
-    // Get instance field: private Tweening.Tween`1<UnityEngine.Vector3> _appearRightHandScaleTween
-    Tweening::Tween_1<UnityEngine::Vector3>* _get__appearRightHandScaleTween();
-    // Set instance field: private Tweening.Tween`1<UnityEngine.Vector3> _appearRightHandScaleTween
-    void _set__appearRightHandScaleTween(Tweening::Tween_1<UnityEngine::Vector3>* value);
-    // Get instance field: private Tweening.Tween`1<UnityEngine.Vector3> _appearLeftHandPositionTween
-    Tweening::Tween_1<UnityEngine::Vector3>* _get__appearLeftHandPositionTween();
-    // Set instance field: private Tweening.Tween`1<UnityEngine.Vector3> _appearLeftHandPositionTween
-    void _set__appearLeftHandPositionTween(Tweening::Tween_1<UnityEngine::Vector3>* value);
-    // Get instance field: private Tweening.Tween`1<UnityEngine.Vector3> _appearLeftHandScaleTween
-    Tweening::Tween_1<UnityEngine::Vector3>* _get__appearLeftHandScaleTween();
-    // Set instance field: private Tweening.Tween`1<UnityEngine.Vector3> _appearLeftHandScaleTween
-    void _set__appearLeftHandScaleTween(Tweening::Tween_1<UnityEngine::Vector3>* value);
-    // Get instance field: private Tweening.Tween`1<UnityEngine.Vector3> _disappearScaleTween
-    Tweening::Tween_1<UnityEngine::Vector3>* _get__disappearScaleTween();
-    // Set instance field: private Tweening.Tween`1<UnityEngine.Vector3> _disappearScaleTween
-    void _set__disappearScaleTween(Tweening::Tween_1<UnityEngine::Vector3>* value);
-    // Get instance field: private Tweening.Tween`1<UnityEngine.Vector3> _disappearPositionTween
-    Tweening::Tween_1<UnityEngine::Vector3>* _get__disappearPositionTween();
-    // Set instance field: private Tweening.Tween`1<UnityEngine.Vector3> _disappearPositionTween
-    void _set__disappearPositionTween(Tweening::Tween_1<UnityEngine::Vector3>* value);
-    // Get instance field: private UnityEngine.Vector3 _avatarLocalPosition
-    UnityEngine::Vector3 _get__avatarLocalPosition();
-    // Set instance field: private UnityEngine.Vector3 _avatarLocalPosition
-    void _set__avatarLocalPosition(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Vector3 _avatarLocalScale
-    UnityEngine::Vector3 _get__avatarLocalScale();
-    // Set instance field: private UnityEngine.Vector3 _avatarLocalScale
-    void _set__avatarLocalScale(UnityEngine::Vector3 value);
+    // Get instance field reference: private UnityEngine.Transform _avatarTransform
+    UnityEngine::Transform*& dyn__avatarTransform();
+    // Get instance field reference: private UnityEngine.Transform _headParent
+    UnityEngine::Transform*& dyn__headParent();
+    // Get instance field reference: private UnityEngine.Transform _leftHandTransform
+    UnityEngine::Transform*& dyn__leftHandTransform();
+    // Get instance field reference: private UnityEngine.Transform _rightHandTransform
+    UnityEngine::Transform*& dyn__rightHandTransform();
+    // Get instance field reference: private UnityEngine.Transform _bodyTransform
+    UnityEngine::Transform*& dyn__bodyTransform();
+    // Get instance field reference: private UnityEngine.Transform _headInnerTransform
+    UnityEngine::Transform*& dyn__headInnerTransform();
+    // Get instance field reference: private UnityEngine.Transform _leftHandInnerTransform
+    UnityEngine::Transform*& dyn__leftHandInnerTransform();
+    // Get instance field reference: private UnityEngine.Transform _rightHandInnerTransform
+    UnityEngine::Transform*& dyn__rightHandInnerTransform();
+    // Get instance field reference: private UnityEngine.Transform _bodyInnerTransform
+    UnityEngine::Transform*& dyn__bodyInnerTransform();
+    // Get instance field reference: private System.Single _popDuration
+    float& dyn__popDuration();
+    // Get instance field reference: private Tweening.EaseType _popEaseType
+    Tweening::EaseType& dyn__popEaseType();
+    // Get instance field reference: private System.Single _headPopAmount
+    float& dyn__headPopAmount();
+    // Get instance field reference: private System.Single _handsPopAmount
+    float& dyn__handsPopAmount();
+    // Get instance field reference: private System.Single _clothesPopAmount
+    float& dyn__clothesPopAmount();
+    // Get instance field reference: private System.Single _allPopAmount
+    float& dyn__allPopAmount();
+    // Get instance field reference: private System.Single _appearDuration
+    float& dyn__appearDuration();
+    // Get instance field reference: private System.Single _appearSpacing
+    float& dyn__appearSpacing();
+    // Get instance field reference: private System.Single _appearHeight
+    float& dyn__appearHeight();
+    // Get instance field reference: private UnityEngine.Vector3 _squashFactor
+    UnityEngine::Vector3& dyn__squashFactor();
+    // Get instance field reference: private System.Single _disappearDuration
+    float& dyn__disappearDuration();
+    // Get instance field reference: private System.Single _disappearHeight
+    float& dyn__disappearHeight();
+    // Get instance field reference: private UnityEngine.Vector3 _disappearSquash
+    UnityEngine::Vector3& dyn__disappearSquash();
+    // Get instance field reference: private Tweening.EaseType _disappearScaleEase
+    Tweening::EaseType& dyn__disappearScaleEase();
+    // Get instance field reference: private Tweening.EaseType _disappearPositionEase
+    Tweening::EaseType& dyn__disappearPositionEase();
+    // Get instance field reference: private readonly Tweening.TweeningManager _tweeningManager
+    Tweening::TweeningManager*& dyn__tweeningManager();
+    // Get instance field reference: private Tweening.Tween`1<System.Single> _popHeadTween
+    Tweening::Tween_1<float>*& dyn__popHeadTween();
+    // Get instance field reference: private Tweening.Tween`1<System.Single> _popLeftHandTween
+    Tweening::Tween_1<float>*& dyn__popLeftHandTween();
+    // Get instance field reference: private Tweening.Tween`1<System.Single> _popRightHandTween
+    Tweening::Tween_1<float>*& dyn__popRightHandTween();
+    // Get instance field reference: private Tweening.Tween`1<System.Single> _popClothesTween
+    Tweening::Tween_1<float>*& dyn__popClothesTween();
+    // Get instance field reference: private Tweening.Tween`1<UnityEngine.Vector3> _appearHeadPositionTween
+    Tweening::Tween_1<UnityEngine::Vector3>*& dyn__appearHeadPositionTween();
+    // Get instance field reference: private Tweening.Tween`1<UnityEngine.Vector3> _appearHeadScaleTween
+    Tweening::Tween_1<UnityEngine::Vector3>*& dyn__appearHeadScaleTween();
+    // Get instance field reference: private Tweening.Tween`1<UnityEngine.Vector3> _appearBodyPositionTween
+    Tweening::Tween_1<UnityEngine::Vector3>*& dyn__appearBodyPositionTween();
+    // Get instance field reference: private Tweening.Tween`1<UnityEngine.Vector3> _appearBodyScaleTween
+    Tweening::Tween_1<UnityEngine::Vector3>*& dyn__appearBodyScaleTween();
+    // Get instance field reference: private Tweening.Tween`1<UnityEngine.Vector3> _appearRightHandPositionTween
+    Tweening::Tween_1<UnityEngine::Vector3>*& dyn__appearRightHandPositionTween();
+    // Get instance field reference: private Tweening.Tween`1<UnityEngine.Vector3> _appearRightHandScaleTween
+    Tweening::Tween_1<UnityEngine::Vector3>*& dyn__appearRightHandScaleTween();
+    // Get instance field reference: private Tweening.Tween`1<UnityEngine.Vector3> _appearLeftHandPositionTween
+    Tweening::Tween_1<UnityEngine::Vector3>*& dyn__appearLeftHandPositionTween();
+    // Get instance field reference: private Tweening.Tween`1<UnityEngine.Vector3> _appearLeftHandScaleTween
+    Tweening::Tween_1<UnityEngine::Vector3>*& dyn__appearLeftHandScaleTween();
+    // Get instance field reference: private Tweening.Tween`1<UnityEngine.Vector3> _disappearScaleTween
+    Tweening::Tween_1<UnityEngine::Vector3>*& dyn__disappearScaleTween();
+    // Get instance field reference: private Tweening.Tween`1<UnityEngine.Vector3> _disappearPositionTween
+    Tweening::Tween_1<UnityEngine::Vector3>*& dyn__disappearPositionTween();
+    // Get instance field reference: private UnityEngine.Vector3 _avatarLocalPosition
+    UnityEngine::Vector3& dyn__avatarLocalPosition();
+    // Get instance field reference: private UnityEngine.Vector3 _avatarLocalScale
+    UnityEngine::Vector3& dyn__avatarLocalScale();
     // protected System.Void Awake()
     // Offset: 0x1183644
     void Awake();

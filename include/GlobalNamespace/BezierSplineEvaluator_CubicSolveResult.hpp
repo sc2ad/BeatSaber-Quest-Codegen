@@ -53,22 +53,14 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public readonly System.Int32 numberOfSolutions
-    int _get_numberOfSolutions();
-    // Set instance field: public readonly System.Int32 numberOfSolutions
-    void _set_numberOfSolutions(int value);
-    // Get instance field: public System.Single solution1
-    float _get_solution1();
-    // Set instance field: public System.Single solution1
-    void _set_solution1(float value);
-    // Get instance field: public System.Single solution2
-    float _get_solution2();
-    // Set instance field: public System.Single solution2
-    void _set_solution2(float value);
-    // Get instance field: public System.Single solution3
-    float _get_solution3();
-    // Set instance field: public System.Single solution3
-    void _set_solution3(float value);
+    // Get instance field reference: public readonly System.Int32 numberOfSolutions
+    int& dyn_numberOfSolutions();
+    // Get instance field reference: public System.Single solution1
+    float& dyn_solution1();
+    // Get instance field reference: public System.Single solution2
+    float& dyn_solution2();
+    // Get instance field reference: public System.Single solution3
+    float& dyn_solution3();
     // public System.Void .ctor(System.Single solution1)
     // Offset: 0x10D0CC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

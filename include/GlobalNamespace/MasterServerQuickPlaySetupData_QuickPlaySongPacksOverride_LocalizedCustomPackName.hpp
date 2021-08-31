@@ -34,14 +34,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: LocalizedCustomPackName
     LocalizedCustomPackName(::Il2CppString* language_ = {}, ::Il2CppString* packName_ = {}) noexcept : language{language_}, packName{packName_} {}
-    // Get instance field: public System.String language
-    ::Il2CppString* _get_language();
-    // Set instance field: public System.String language
-    void _set_language(::Il2CppString* value);
-    // Get instance field: public System.String packName
-    ::Il2CppString* _get_packName();
-    // Set instance field: public System.String packName
-    void _set_packName(::Il2CppString* value);
+    // Get instance field reference: public System.String language
+    ::Il2CppString*& dyn_language();
+    // Get instance field reference: public System.String packName
+    ::Il2CppString*& dyn_packName();
     // public System.Void .ctor()
     // Offset: 0x10E5290
     // Implemented from: System.Object

@@ -68,10 +68,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::NoteExecutionRating::Rating _get_BadCut();
       // Set static field: static public NoteExecutionRating/Rating BadCut
       static void _set_BadCut(GlobalNamespace::NoteExecutionRating::Rating value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // NoteExecutionRating/Rating
     #pragma pack(pop)
     static check_size<sizeof(NoteExecutionRating::Rating), 0 + sizeof(int)> __GlobalNamespace_NoteExecutionRating_RatingSizeCheck;
@@ -108,26 +106,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: NoteExecutionRating
     NoteExecutionRating(GlobalNamespace::NoteExecutionRating::Rating rating_ = {}, int cutScore_ = {}, int cutDistanceScore_ = {}, float cutTimeDeviation_ = {}, float cutDirDeviation_ = {}) noexcept : rating{rating_}, cutScore{cutScore_}, cutDistanceScore{cutDistanceScore_}, cutTimeDeviation{cutTimeDeviation_}, cutDirDeviation{cutDirDeviation_} {}
-    // Get instance field: private NoteExecutionRating/Rating <rating>k__BackingField
-    GlobalNamespace::NoteExecutionRating::Rating _get_$rating$k__BackingField();
-    // Set instance field: private NoteExecutionRating/Rating <rating>k__BackingField
-    void _set_$rating$k__BackingField(GlobalNamespace::NoteExecutionRating::Rating value);
-    // Get instance field: private System.Int32 <cutScore>k__BackingField
-    int _get_$cutScore$k__BackingField();
-    // Set instance field: private System.Int32 <cutScore>k__BackingField
-    void _set_$cutScore$k__BackingField(int value);
-    // Get instance field: private System.Int32 <cutDistanceScore>k__BackingField
-    int _get_$cutDistanceScore$k__BackingField();
-    // Set instance field: private System.Int32 <cutDistanceScore>k__BackingField
-    void _set_$cutDistanceScore$k__BackingField(int value);
-    // Get instance field: private System.Single <cutTimeDeviation>k__BackingField
-    float _get_$cutTimeDeviation$k__BackingField();
-    // Set instance field: private System.Single <cutTimeDeviation>k__BackingField
-    void _set_$cutTimeDeviation$k__BackingField(float value);
-    // Get instance field: private System.Single <cutDirDeviation>k__BackingField
-    float _get_$cutDirDeviation$k__BackingField();
-    // Set instance field: private System.Single <cutDirDeviation>k__BackingField
-    void _set_$cutDirDeviation$k__BackingField(float value);
+    // Get instance field reference: private NoteExecutionRating/Rating <rating>k__BackingField
+    GlobalNamespace::NoteExecutionRating::Rating& dyn_$rating$k__BackingField();
+    // Get instance field reference: private System.Int32 <cutScore>k__BackingField
+    int& dyn_$cutScore$k__BackingField();
+    // Get instance field reference: private System.Int32 <cutDistanceScore>k__BackingField
+    int& dyn_$cutDistanceScore$k__BackingField();
+    // Get instance field reference: private System.Single <cutTimeDeviation>k__BackingField
+    float& dyn_$cutTimeDeviation$k__BackingField();
+    // Get instance field reference: private System.Single <cutDirDeviation>k__BackingField
+    float& dyn_$cutDirDeviation$k__BackingField();
     // public NoteExecutionRating/Rating get_rating()
     // Offset: 0x122CAE4
     GlobalNamespace::NoteExecutionRating::Rating get_rating();

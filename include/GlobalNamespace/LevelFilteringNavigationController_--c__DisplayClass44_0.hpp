@@ -40,10 +40,8 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::IBeatmapLevelPack*() const noexcept {
       return levelPack;
     }
-    // Get instance field: public IBeatmapLevelPack levelPack
-    GlobalNamespace::IBeatmapLevelPack* _get_levelPack();
-    // Set instance field: public IBeatmapLevelPack levelPack
-    void _set_levelPack(GlobalNamespace::IBeatmapLevelPack* value);
+    // Get instance field reference: public IBeatmapLevelPack levelPack
+    GlobalNamespace::IBeatmapLevelPack*& dyn_levelPack();
     // System.Boolean <SelectAnnotatedBeatmapLevelCollection>b__1(System.String packID)
     // Offset: 0x115231C
     bool $SelectAnnotatedBeatmapLevelCollection$b__1(::Il2CppString* packID);

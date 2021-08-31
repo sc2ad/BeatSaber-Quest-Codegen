@@ -94,18 +94,12 @@ namespace LiteNetLib {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public System.Net.IPEndPoint LocalEndPoint
-      System::Net::IPEndPoint* _get_LocalEndPoint();
-      // Set instance field: public System.Net.IPEndPoint LocalEndPoint
-      void _set_LocalEndPoint(System::Net::IPEndPoint* value);
-      // Get instance field: public System.Net.IPEndPoint RemoteEndPoint
-      System::Net::IPEndPoint* _get_RemoteEndPoint();
-      // Set instance field: public System.Net.IPEndPoint RemoteEndPoint
-      void _set_RemoteEndPoint(System::Net::IPEndPoint* value);
-      // Get instance field: public System.String Token
-      ::Il2CppString* _get_Token();
-      // Set instance field: public System.String Token
-      void _set_Token(::Il2CppString* value);
+      // Get instance field reference: public System.Net.IPEndPoint LocalEndPoint
+      System::Net::IPEndPoint*& dyn_LocalEndPoint();
+      // Get instance field reference: public System.Net.IPEndPoint RemoteEndPoint
+      System::Net::IPEndPoint*& dyn_RemoteEndPoint();
+      // Get instance field reference: public System.String Token
+      ::Il2CppString*& dyn_Token();
     }; // LiteNetLib.NatPunchModule/LiteNetLib.RequestEventData
     #pragma pack(pop)
     static check_size<sizeof(NatPunchModule::RequestEventData), 16 + sizeof(::Il2CppString*)> __LiteNetLib_NatPunchModule_RequestEventDataSizeCheck;
@@ -143,18 +137,12 @@ namespace LiteNetLib {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public System.Net.IPEndPoint TargetEndPoint
-      System::Net::IPEndPoint* _get_TargetEndPoint();
-      // Set instance field: public System.Net.IPEndPoint TargetEndPoint
-      void _set_TargetEndPoint(System::Net::IPEndPoint* value);
-      // Get instance field: public LiteNetLib.NatAddressType Type
-      LiteNetLib::NatAddressType _get_Type();
-      // Set instance field: public LiteNetLib.NatAddressType Type
-      void _set_Type(LiteNetLib::NatAddressType value);
-      // Get instance field: public System.String Token
-      ::Il2CppString* _get_Token();
-      // Set instance field: public System.String Token
-      void _set_Token(::Il2CppString* value);
+      // Get instance field reference: public System.Net.IPEndPoint TargetEndPoint
+      System::Net::IPEndPoint*& dyn_TargetEndPoint();
+      // Get instance field reference: public LiteNetLib.NatAddressType Type
+      LiteNetLib::NatAddressType& dyn_Type();
+      // Get instance field reference: public System.String Token
+      ::Il2CppString*& dyn_Token();
     }; // LiteNetLib.NatPunchModule/LiteNetLib.SuccessEventData
     #pragma pack(pop)
     static check_size<sizeof(NatPunchModule::SuccessEventData), 16 + sizeof(::Il2CppString*)> __LiteNetLib_NatPunchModule_SuccessEventDataSizeCheck;
@@ -209,34 +197,20 @@ namespace LiteNetLib {
     static int _get_MaxTokenLength();
     // Set static field: static public System.Int32 MaxTokenLength
     static void _set_MaxTokenLength(int value);
-    // Get instance field: private readonly LiteNetLib.NetSocket _socket
-    LiteNetLib::NetSocket* _get__socket();
-    // Set instance field: private readonly LiteNetLib.NetSocket _socket
-    void _set__socket(LiteNetLib::NetSocket* value);
-    // Get instance field: private readonly System.Collections.Generic.Queue`1<LiteNetLib.NatPunchModule/LiteNetLib.RequestEventData> _requestEvents
-    System::Collections::Generic::Queue_1<LiteNetLib::NatPunchModule::RequestEventData>* _get__requestEvents();
-    // Set instance field: private readonly System.Collections.Generic.Queue`1<LiteNetLib.NatPunchModule/LiteNetLib.RequestEventData> _requestEvents
-    void _set__requestEvents(System::Collections::Generic::Queue_1<LiteNetLib::NatPunchModule::RequestEventData>* value);
-    // Get instance field: private readonly System.Collections.Generic.Queue`1<LiteNetLib.NatPunchModule/LiteNetLib.SuccessEventData> _successEvents
-    System::Collections::Generic::Queue_1<LiteNetLib::NatPunchModule::SuccessEventData>* _get__successEvents();
-    // Set instance field: private readonly System.Collections.Generic.Queue`1<LiteNetLib.NatPunchModule/LiteNetLib.SuccessEventData> _successEvents
-    void _set__successEvents(System::Collections::Generic::Queue_1<LiteNetLib::NatPunchModule::SuccessEventData>* value);
-    // Get instance field: private readonly LiteNetLib.Utils.NetDataReader _cacheReader
-    LiteNetLib::Utils::NetDataReader* _get__cacheReader();
-    // Set instance field: private readonly LiteNetLib.Utils.NetDataReader _cacheReader
-    void _set__cacheReader(LiteNetLib::Utils::NetDataReader* value);
-    // Get instance field: private readonly LiteNetLib.Utils.NetDataWriter _cacheWriter
-    LiteNetLib::Utils::NetDataWriter* _get__cacheWriter();
-    // Set instance field: private readonly LiteNetLib.Utils.NetDataWriter _cacheWriter
-    void _set__cacheWriter(LiteNetLib::Utils::NetDataWriter* value);
-    // Get instance field: private readonly LiteNetLib.Utils.NetPacketProcessor _netPacketProcessor
-    LiteNetLib::Utils::NetPacketProcessor* _get__netPacketProcessor();
-    // Set instance field: private readonly LiteNetLib.Utils.NetPacketProcessor _netPacketProcessor
-    void _set__netPacketProcessor(LiteNetLib::Utils::NetPacketProcessor* value);
-    // Get instance field: private LiteNetLib.INatPunchListener _natPunchListener
-    LiteNetLib::INatPunchListener* _get__natPunchListener();
-    // Set instance field: private LiteNetLib.INatPunchListener _natPunchListener
-    void _set__natPunchListener(LiteNetLib::INatPunchListener* value);
+    // Get instance field reference: private readonly LiteNetLib.NetSocket _socket
+    LiteNetLib::NetSocket*& dyn__socket();
+    // Get instance field reference: private readonly System.Collections.Generic.Queue`1<LiteNetLib.NatPunchModule/LiteNetLib.RequestEventData> _requestEvents
+    System::Collections::Generic::Queue_1<LiteNetLib::NatPunchModule::RequestEventData>*& dyn__requestEvents();
+    // Get instance field reference: private readonly System.Collections.Generic.Queue`1<LiteNetLib.NatPunchModule/LiteNetLib.SuccessEventData> _successEvents
+    System::Collections::Generic::Queue_1<LiteNetLib::NatPunchModule::SuccessEventData>*& dyn__successEvents();
+    // Get instance field reference: private readonly LiteNetLib.Utils.NetDataReader _cacheReader
+    LiteNetLib::Utils::NetDataReader*& dyn__cacheReader();
+    // Get instance field reference: private readonly LiteNetLib.Utils.NetDataWriter _cacheWriter
+    LiteNetLib::Utils::NetDataWriter*& dyn__cacheWriter();
+    // Get instance field reference: private readonly LiteNetLib.Utils.NetPacketProcessor _netPacketProcessor
+    LiteNetLib::Utils::NetPacketProcessor*& dyn__netPacketProcessor();
+    // Get instance field reference: private LiteNetLib.INatPunchListener _natPunchListener
+    LiteNetLib::INatPunchListener*& dyn__natPunchListener();
     // System.Void .ctor(LiteNetLib.NetSocket socket)
     // Offset: 0x1BF1604
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

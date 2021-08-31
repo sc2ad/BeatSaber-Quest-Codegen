@@ -319,166 +319,86 @@ namespace System {
     static ::Array<int>* _get__consoleColorToAnsiCode();
     // Set static field: static private readonly System.Int32[] _consoleColorToAnsiCode
     static void _set__consoleColorToAnsiCode(::Array<int>* value);
-    // Get instance field: private System.TermInfoReader reader
-    System::TermInfoReader* _get_reader();
-    // Set instance field: private System.TermInfoReader reader
-    void _set_reader(System::TermInfoReader* value);
-    // Get instance field: private System.Int32 cursorLeft
-    int _get_cursorLeft();
-    // Set instance field: private System.Int32 cursorLeft
-    void _set_cursorLeft(int value);
-    // Get instance field: private System.Int32 cursorTop
-    int _get_cursorTop();
-    // Set instance field: private System.Int32 cursorTop
-    void _set_cursorTop(int value);
-    // Get instance field: private System.String title
-    ::Il2CppString* _get_title();
-    // Set instance field: private System.String title
-    void _set_title(::Il2CppString* value);
-    // Get instance field: private System.String titleFormat
-    ::Il2CppString* _get_titleFormat();
-    // Set instance field: private System.String titleFormat
-    void _set_titleFormat(::Il2CppString* value);
-    // Get instance field: private System.Boolean cursorVisible
-    bool _get_cursorVisible();
-    // Set instance field: private System.Boolean cursorVisible
-    void _set_cursorVisible(bool value);
-    // Get instance field: private System.String csrVisible
-    ::Il2CppString* _get_csrVisible();
-    // Set instance field: private System.String csrVisible
-    void _set_csrVisible(::Il2CppString* value);
-    // Get instance field: private System.String csrInvisible
-    ::Il2CppString* _get_csrInvisible();
-    // Set instance field: private System.String csrInvisible
-    void _set_csrInvisible(::Il2CppString* value);
-    // Get instance field: private System.String clear
-    ::Il2CppString* _get_clear();
-    // Set instance field: private System.String clear
-    void _set_clear(::Il2CppString* value);
-    // Get instance field: private System.String bell
-    ::Il2CppString* _get_bell();
-    // Set instance field: private System.String bell
-    void _set_bell(::Il2CppString* value);
-    // Get instance field: private System.String term
-    ::Il2CppString* _get_term();
-    // Set instance field: private System.String term
-    void _set_term(::Il2CppString* value);
-    // Get instance field: private System.IO.StreamReader stdin
-    System::IO::StreamReader* _get_stdin();
-    // Set instance field: private System.IO.StreamReader stdin
-    void _set_stdin(System::IO::StreamReader* value);
-    // Get instance field: private System.IO.CStreamWriter stdout
-    System::IO::CStreamWriter* _get_stdout();
-    // Set instance field: private System.IO.CStreamWriter stdout
-    void _set_stdout(System::IO::CStreamWriter* value);
-    // Get instance field: private System.Int32 windowWidth
-    int _get_windowWidth();
-    // Set instance field: private System.Int32 windowWidth
-    void _set_windowWidth(int value);
-    // Get instance field: private System.Int32 windowHeight
-    int _get_windowHeight();
-    // Set instance field: private System.Int32 windowHeight
-    void _set_windowHeight(int value);
-    // Get instance field: private System.Int32 bufferHeight
-    int _get_bufferHeight();
-    // Set instance field: private System.Int32 bufferHeight
-    void _set_bufferHeight(int value);
-    // Get instance field: private System.Int32 bufferWidth
-    int _get_bufferWidth();
-    // Set instance field: private System.Int32 bufferWidth
-    void _set_bufferWidth(int value);
-    // Get instance field: private System.Char[] buffer
-    ::Array<::Il2CppChar>* _get_buffer();
-    // Set instance field: private System.Char[] buffer
-    void _set_buffer(::Array<::Il2CppChar>* value);
-    // Get instance field: private System.Int32 readpos
-    int _get_readpos();
-    // Set instance field: private System.Int32 readpos
-    void _set_readpos(int value);
-    // Get instance field: private System.Int32 writepos
-    int _get_writepos();
-    // Set instance field: private System.Int32 writepos
-    void _set_writepos(int value);
-    // Get instance field: private System.String keypadXmit
-    ::Il2CppString* _get_keypadXmit();
-    // Set instance field: private System.String keypadXmit
-    void _set_keypadXmit(::Il2CppString* value);
-    // Get instance field: private System.String keypadLocal
-    ::Il2CppString* _get_keypadLocal();
-    // Set instance field: private System.String keypadLocal
-    void _set_keypadLocal(::Il2CppString* value);
-    // Get instance field: private System.Boolean inited
-    bool _get_inited();
-    // Set instance field: private System.Boolean inited
-    void _set_inited(bool value);
-    // Get instance field: private System.Object initLock
-    ::Il2CppObject* _get_initLock();
-    // Set instance field: private System.Object initLock
-    void _set_initLock(::Il2CppObject* value);
-    // Get instance field: private System.Boolean initKeys
-    bool _get_initKeys();
-    // Set instance field: private System.Boolean initKeys
-    void _set_initKeys(bool value);
-    // Get instance field: private System.String origPair
-    ::Il2CppString* _get_origPair();
-    // Set instance field: private System.String origPair
-    void _set_origPair(::Il2CppString* value);
-    // Get instance field: private System.String origColors
-    ::Il2CppString* _get_origColors();
-    // Set instance field: private System.String origColors
-    void _set_origColors(::Il2CppString* value);
-    // Get instance field: private System.String cursorAddress
-    ::Il2CppString* _get_cursorAddress();
-    // Set instance field: private System.String cursorAddress
-    void _set_cursorAddress(::Il2CppString* value);
-    // Get instance field: private System.ConsoleColor fgcolor
-    System::ConsoleColor _get_fgcolor();
-    // Set instance field: private System.ConsoleColor fgcolor
-    void _set_fgcolor(System::ConsoleColor value);
-    // Get instance field: private System.String setfgcolor
-    ::Il2CppString* _get_setfgcolor();
-    // Set instance field: private System.String setfgcolor
-    void _set_setfgcolor(::Il2CppString* value);
-    // Get instance field: private System.String setbgcolor
-    ::Il2CppString* _get_setbgcolor();
-    // Set instance field: private System.String setbgcolor
-    void _set_setbgcolor(::Il2CppString* value);
-    // Get instance field: private System.Int32 maxColors
-    int _get_maxColors();
-    // Set instance field: private System.Int32 maxColors
-    void _set_maxColors(int value);
-    // Get instance field: private System.Boolean noGetPosition
-    bool _get_noGetPosition();
-    // Set instance field: private System.Boolean noGetPosition
-    void _set_noGetPosition(bool value);
-    // Get instance field: private System.Collections.Hashtable keymap
-    System::Collections::Hashtable* _get_keymap();
-    // Set instance field: private System.Collections.Hashtable keymap
-    void _set_keymap(System::Collections::Hashtable* value);
-    // Get instance field: private System.ByteMatcher rootmap
-    System::ByteMatcher* _get_rootmap();
-    // Set instance field: private System.ByteMatcher rootmap
-    void _set_rootmap(System::ByteMatcher* value);
-    // Get instance field: private System.Int32 rl_startx
-    int _get_rl_startx();
-    // Set instance field: private System.Int32 rl_startx
-    void _set_rl_startx(int value);
-    // Get instance field: private System.Int32 rl_starty
-    int _get_rl_starty();
-    // Set instance field: private System.Int32 rl_starty
-    void _set_rl_starty(int value);
-    // Get instance field: private System.Byte[] control_characters
-    ::Array<uint8_t>* _get_control_characters();
-    // Set instance field: private System.Byte[] control_characters
-    void _set_control_characters(::Array<uint8_t>* value);
-    // Get instance field: private System.Char[] echobuf
-    ::Array<::Il2CppChar>* _get_echobuf();
-    // Set instance field: private System.Char[] echobuf
-    void _set_echobuf(::Array<::Il2CppChar>* value);
-    // Get instance field: private System.Int32 echon
-    int _get_echon();
-    // Set instance field: private System.Int32 echon
-    void _set_echon(int value);
+    // Get instance field reference: private System.TermInfoReader reader
+    System::TermInfoReader*& dyn_reader();
+    // Get instance field reference: private System.Int32 cursorLeft
+    int& dyn_cursorLeft();
+    // Get instance field reference: private System.Int32 cursorTop
+    int& dyn_cursorTop();
+    // Get instance field reference: private System.String title
+    ::Il2CppString*& dyn_title();
+    // Get instance field reference: private System.String titleFormat
+    ::Il2CppString*& dyn_titleFormat();
+    // Get instance field reference: private System.Boolean cursorVisible
+    bool& dyn_cursorVisible();
+    // Get instance field reference: private System.String csrVisible
+    ::Il2CppString*& dyn_csrVisible();
+    // Get instance field reference: private System.String csrInvisible
+    ::Il2CppString*& dyn_csrInvisible();
+    // Get instance field reference: private System.String clear
+    ::Il2CppString*& dyn_clear();
+    // Get instance field reference: private System.String bell
+    ::Il2CppString*& dyn_bell();
+    // Get instance field reference: private System.String term
+    ::Il2CppString*& dyn_term();
+    // Get instance field reference: private System.IO.StreamReader stdin
+    System::IO::StreamReader*& dyn_stdin();
+    // Get instance field reference: private System.IO.CStreamWriter stdout
+    System::IO::CStreamWriter*& dyn_stdout();
+    // Get instance field reference: private System.Int32 windowWidth
+    int& dyn_windowWidth();
+    // Get instance field reference: private System.Int32 windowHeight
+    int& dyn_windowHeight();
+    // Get instance field reference: private System.Int32 bufferHeight
+    int& dyn_bufferHeight();
+    // Get instance field reference: private System.Int32 bufferWidth
+    int& dyn_bufferWidth();
+    // Get instance field reference: private System.Char[] buffer
+    ::Array<::Il2CppChar>*& dyn_buffer();
+    // Get instance field reference: private System.Int32 readpos
+    int& dyn_readpos();
+    // Get instance field reference: private System.Int32 writepos
+    int& dyn_writepos();
+    // Get instance field reference: private System.String keypadXmit
+    ::Il2CppString*& dyn_keypadXmit();
+    // Get instance field reference: private System.String keypadLocal
+    ::Il2CppString*& dyn_keypadLocal();
+    // Get instance field reference: private System.Boolean inited
+    bool& dyn_inited();
+    // Get instance field reference: private System.Object initLock
+    ::Il2CppObject*& dyn_initLock();
+    // Get instance field reference: private System.Boolean initKeys
+    bool& dyn_initKeys();
+    // Get instance field reference: private System.String origPair
+    ::Il2CppString*& dyn_origPair();
+    // Get instance field reference: private System.String origColors
+    ::Il2CppString*& dyn_origColors();
+    // Get instance field reference: private System.String cursorAddress
+    ::Il2CppString*& dyn_cursorAddress();
+    // Get instance field reference: private System.ConsoleColor fgcolor
+    System::ConsoleColor& dyn_fgcolor();
+    // Get instance field reference: private System.String setfgcolor
+    ::Il2CppString*& dyn_setfgcolor();
+    // Get instance field reference: private System.String setbgcolor
+    ::Il2CppString*& dyn_setbgcolor();
+    // Get instance field reference: private System.Int32 maxColors
+    int& dyn_maxColors();
+    // Get instance field reference: private System.Boolean noGetPosition
+    bool& dyn_noGetPosition();
+    // Get instance field reference: private System.Collections.Hashtable keymap
+    System::Collections::Hashtable*& dyn_keymap();
+    // Get instance field reference: private System.ByteMatcher rootmap
+    System::ByteMatcher*& dyn_rootmap();
+    // Get instance field reference: private System.Int32 rl_startx
+    int& dyn_rl_startx();
+    // Get instance field reference: private System.Int32 rl_starty
+    int& dyn_rl_starty();
+    // Get instance field reference: private System.Byte[] control_characters
+    ::Array<uint8_t>*& dyn_control_characters();
+    // Get instance field reference: private System.Char[] echobuf
+    ::Array<::Il2CppChar>*& dyn_echobuf();
+    // Get instance field reference: private System.Int32 echon
+    int& dyn_echon();
     // public System.Boolean get_Initialized()
     // Offset: 0x1C0E588
     bool get_Initialized();

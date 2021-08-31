@@ -51,18 +51,12 @@ namespace System::Net::NetworkInformation {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: LinuxNetworkInterface
     LinuxNetworkInterface(::Il2CppString* iface_path_ = {}, ::Il2CppString* iface_operstate_path_ = {}, ::Il2CppString* iface_flags_path_ = {}) noexcept : iface_path{iface_path_}, iface_operstate_path{iface_operstate_path_}, iface_flags_path{iface_flags_path_} {}
-    // Get instance field: private System.String iface_path
-    ::Il2CppString* _get_iface_path();
-    // Set instance field: private System.String iface_path
-    void _set_iface_path(::Il2CppString* value);
-    // Get instance field: private System.String iface_operstate_path
-    ::Il2CppString* _get_iface_operstate_path();
-    // Set instance field: private System.String iface_operstate_path
-    void _set_iface_operstate_path(::Il2CppString* value);
-    // Get instance field: private System.String iface_flags_path
-    ::Il2CppString* _get_iface_flags_path();
-    // Set instance field: private System.String iface_flags_path
-    void _set_iface_flags_path(::Il2CppString* value);
+    // Get instance field reference: private System.String iface_path
+    ::Il2CppString*& dyn_iface_path();
+    // Get instance field reference: private System.String iface_operstate_path
+    ::Il2CppString*& dyn_iface_operstate_path();
+    // Get instance field reference: private System.String iface_flags_path
+    ::Il2CppString*& dyn_iface_flags_path();
     // System.String get_IfacePath()
     // Offset: 0x14984E8
     ::Il2CppString* get_IfacePath();

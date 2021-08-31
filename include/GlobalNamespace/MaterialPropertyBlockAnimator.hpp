@@ -56,22 +56,14 @@ namespace GlobalNamespace {
     MaterialPropertyBlockAnimator(::Il2CppString* property_ = {}, GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController_ = {}, int propertyId_ = {}, bool isInitialized_ = {}) noexcept : property{property_}, materialPropertyBlockController{materialPropertyBlockController_}, propertyId{propertyId_}, isInitialized{isInitialized_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.String _property
-    ::Il2CppString* _get__property();
-    // Set instance field: private System.String _property
-    void _set__property(::Il2CppString* value);
-    // Get instance field: protected MaterialPropertyBlockController _materialPropertyBlockController
-    GlobalNamespace::MaterialPropertyBlockController* _get__materialPropertyBlockController();
-    // Set instance field: protected MaterialPropertyBlockController _materialPropertyBlockController
-    void _set__materialPropertyBlockController(GlobalNamespace::MaterialPropertyBlockController* value);
-    // Get instance field: protected System.Int32 propertyId
-    int _get_propertyId();
-    // Set instance field: protected System.Int32 propertyId
-    void _set_propertyId(int value);
-    // Get instance field: private System.Boolean _isInitialized
-    bool _get__isInitialized();
-    // Set instance field: private System.Boolean _isInitialized
-    void _set__isInitialized(bool value);
+    // Get instance field reference: private System.String _property
+    ::Il2CppString*& dyn__property();
+    // Get instance field reference: protected MaterialPropertyBlockController _materialPropertyBlockController
+    GlobalNamespace::MaterialPropertyBlockController*& dyn__materialPropertyBlockController();
+    // Get instance field reference: protected System.Int32 propertyId
+    int& dyn_propertyId();
+    // Get instance field reference: private System.Boolean _isInitialized
+    bool& dyn__isInitialized();
     // public MaterialPropertyBlockController get_materialPropertyBlockController()
     // Offset: 0x1E1BFF4
     GlobalNamespace::MaterialPropertyBlockController* get_materialPropertyBlockController();

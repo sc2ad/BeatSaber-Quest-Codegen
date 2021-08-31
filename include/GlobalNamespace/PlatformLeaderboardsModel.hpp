@@ -100,10 +100,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::PlatformLeaderboardsModel::State _get_Initialized();
       // Set static field: static public PlatformLeaderboardsModel/State Initialized
       static void _set_Initialized(GlobalNamespace::PlatformLeaderboardsModel::State value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // PlatformLeaderboardsModel/State
     #pragma pack(pop)
     static check_size<sizeof(PlatformLeaderboardsModel::State), 0 + sizeof(int)> __GlobalNamespace_PlatformLeaderboardsModel_StateSizeCheck;
@@ -159,34 +157,20 @@ namespace GlobalNamespace {
     PlatformLeaderboardsModel(GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel_ = {}, GlobalNamespace::LeaderboardScoreUploader* leaderboardScoreUploader_ = {}, GlobalNamespace::IPlatformUserModel* platformUserModel_ = {}, GlobalNamespace::PlatformLeaderboardsHandler* platformLeaderboardsHandler_ = {}, System::Action* allScoresDidUploadEvent_ = {}, GlobalNamespace::PlatformLeaderboardsModel::State state_ = {}, ::Il2CppString* playerId_ = {}) noexcept : gameplayModifiersModel{gameplayModifiersModel_}, leaderboardScoreUploader{leaderboardScoreUploader_}, platformUserModel{platformUserModel_}, platformLeaderboardsHandler{platformLeaderboardsHandler_}, allScoresDidUploadEvent{allScoresDidUploadEvent_}, state{state_}, playerId{playerId_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private GameplayModifiersModelSO _gameplayModifiersModel
-    GlobalNamespace::GameplayModifiersModelSO* _get__gameplayModifiersModel();
-    // Set instance field: private GameplayModifiersModelSO _gameplayModifiersModel
-    void _set__gameplayModifiersModel(GlobalNamespace::GameplayModifiersModelSO* value);
-    // Get instance field: private readonly LeaderboardScoreUploader _leaderboardScoreUploader
-    GlobalNamespace::LeaderboardScoreUploader* _get__leaderboardScoreUploader();
-    // Set instance field: private readonly LeaderboardScoreUploader _leaderboardScoreUploader
-    void _set__leaderboardScoreUploader(GlobalNamespace::LeaderboardScoreUploader* value);
-    // Get instance field: private readonly IPlatformUserModel _platformUserModel
-    GlobalNamespace::IPlatformUserModel* _get__platformUserModel();
-    // Set instance field: private readonly IPlatformUserModel _platformUserModel
-    void _set__platformUserModel(GlobalNamespace::IPlatformUserModel* value);
-    // Get instance field: private readonly PlatformLeaderboardsHandler _platformLeaderboardsHandler
-    GlobalNamespace::PlatformLeaderboardsHandler* _get__platformLeaderboardsHandler();
-    // Set instance field: private readonly PlatformLeaderboardsHandler _platformLeaderboardsHandler
-    void _set__platformLeaderboardsHandler(GlobalNamespace::PlatformLeaderboardsHandler* value);
-    // Get instance field: private System.Action allScoresDidUploadEvent
-    System::Action* _get_allScoresDidUploadEvent();
-    // Set instance field: private System.Action allScoresDidUploadEvent
-    void _set_allScoresDidUploadEvent(System::Action* value);
-    // Get instance field: private PlatformLeaderboardsModel/State _state
-    GlobalNamespace::PlatformLeaderboardsModel::State _get__state();
-    // Set instance field: private PlatformLeaderboardsModel/State _state
-    void _set__state(GlobalNamespace::PlatformLeaderboardsModel::State value);
-    // Get instance field: private System.String _playerId
-    ::Il2CppString* _get__playerId();
-    // Set instance field: private System.String _playerId
-    void _set__playerId(::Il2CppString* value);
+    // Get instance field reference: private GameplayModifiersModelSO _gameplayModifiersModel
+    GlobalNamespace::GameplayModifiersModelSO*& dyn__gameplayModifiersModel();
+    // Get instance field reference: private readonly LeaderboardScoreUploader _leaderboardScoreUploader
+    GlobalNamespace::LeaderboardScoreUploader*& dyn__leaderboardScoreUploader();
+    // Get instance field reference: private readonly IPlatformUserModel _platformUserModel
+    GlobalNamespace::IPlatformUserModel*& dyn__platformUserModel();
+    // Get instance field reference: private readonly PlatformLeaderboardsHandler _platformLeaderboardsHandler
+    GlobalNamespace::PlatformLeaderboardsHandler*& dyn__platformLeaderboardsHandler();
+    // Get instance field reference: private System.Action allScoresDidUploadEvent
+    System::Action*& dyn_allScoresDidUploadEvent();
+    // Get instance field reference: private PlatformLeaderboardsModel/State _state
+    GlobalNamespace::PlatformLeaderboardsModel::State& dyn__state();
+    // Get instance field reference: private System.String _playerId
+    ::Il2CppString*& dyn__playerId();
     // private System.Boolean get_initialized()
     // Offset: 0x113355C
     bool get_initialized();

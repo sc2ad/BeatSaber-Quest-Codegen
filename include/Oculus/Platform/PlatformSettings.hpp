@@ -46,18 +46,12 @@ namespace Oculus::Platform {
     static Oculus::Platform::PlatformSettings* _get_instance();
     // Set static field: static private Oculus.Platform.PlatformSettings instance
     static void _set_instance(Oculus::Platform::PlatformSettings* value);
-    // Get instance field: private System.String ovrAppID
-    ::Il2CppString* _get_ovrAppID();
-    // Set instance field: private System.String ovrAppID
-    void _set_ovrAppID(::Il2CppString* value);
-    // Get instance field: private System.String ovrMobileAppID
-    ::Il2CppString* _get_ovrMobileAppID();
-    // Set instance field: private System.String ovrMobileAppID
-    void _set_ovrMobileAppID(::Il2CppString* value);
-    // Get instance field: private System.Boolean ovrUseStandalonePlatform
-    bool _get_ovrUseStandalonePlatform();
-    // Set instance field: private System.Boolean ovrUseStandalonePlatform
-    void _set_ovrUseStandalonePlatform(bool value);
+    // Get instance field reference: private System.String ovrAppID
+    ::Il2CppString*& dyn_ovrAppID();
+    // Get instance field reference: private System.String ovrMobileAppID
+    ::Il2CppString*& dyn_ovrMobileAppID();
+    // Get instance field reference: private System.Boolean ovrUseStandalonePlatform
+    bool& dyn_ovrUseStandalonePlatform();
     // static public System.String get_AppID()
     // Offset: 0x23D8194
     static ::Il2CppString* get_AppID();

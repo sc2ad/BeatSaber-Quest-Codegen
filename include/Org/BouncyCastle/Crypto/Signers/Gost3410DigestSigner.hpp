@@ -67,26 +67,16 @@ namespace Org::BouncyCastle::Crypto::Signers {
     operator Org::BouncyCastle::Crypto::ISigner() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ISigner*>(this);
     }
-    // Get instance field: private readonly Org.BouncyCastle.Crypto.IDigest digest
-    Org::BouncyCastle::Crypto::IDigest* _get_digest();
-    // Set instance field: private readonly Org.BouncyCastle.Crypto.IDigest digest
-    void _set_digest(Org::BouncyCastle::Crypto::IDigest* value);
-    // Get instance field: private readonly Org.BouncyCastle.Crypto.IDsa dsaSigner
-    Org::BouncyCastle::Crypto::IDsa* _get_dsaSigner();
-    // Set instance field: private readonly Org.BouncyCastle.Crypto.IDsa dsaSigner
-    void _set_dsaSigner(Org::BouncyCastle::Crypto::IDsa* value);
-    // Get instance field: private readonly System.Int32 size
-    int _get_size();
-    // Set instance field: private readonly System.Int32 size
-    void _set_size(int value);
-    // Get instance field: private System.Int32 halfSize
-    int _get_halfSize();
-    // Set instance field: private System.Int32 halfSize
-    void _set_halfSize(int value);
-    // Get instance field: private System.Boolean forSigning
-    bool _get_forSigning();
-    // Set instance field: private System.Boolean forSigning
-    void _set_forSigning(bool value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IDigest digest
+    Org::BouncyCastle::Crypto::IDigest*& dyn_digest();
+    // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IDsa dsaSigner
+    Org::BouncyCastle::Crypto::IDsa*& dyn_dsaSigner();
+    // Get instance field reference: private readonly System.Int32 size
+    int& dyn_size();
+    // Get instance field reference: private System.Int32 halfSize
+    int& dyn_halfSize();
+    // Get instance field reference: private System.Boolean forSigning
+    bool& dyn_forSigning();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDsa signer, Org.BouncyCastle.Crypto.IDigest digest)
     // Offset: 0x127C3E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

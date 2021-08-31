@@ -112,50 +112,28 @@ namespace HMUI {
     ScrollViewItemsVisibilityController(UnityEngine::RectTransform* viewport_ = {}, UnityEngine::RectTransform* contentRectTransform_ = {}, ::Array<HMUI::ScrollViewItemForVisibilityController*>* items_ = {}, float lastContentAnchoredPositionY_ = {}, ::Array<UnityEngine::Vector3>* viewportWorldCorners_ = {}, ::Array<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*>* upperItemsCornes_ = {}, ::Array<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*>* lowerItemsCornes_ = {}, int lowerLastVisibleIndex_ = {}, int upperLastVisibleIndex_ = {}, float contentMaxY_ = {}, float contentMinY_ = {}) noexcept : viewport{viewport_}, contentRectTransform{contentRectTransform_}, items{items_}, lastContentAnchoredPositionY{lastContentAnchoredPositionY_}, viewportWorldCorners{viewportWorldCorners_}, upperItemsCornes{upperItemsCornes_}, lowerItemsCornes{lowerItemsCornes_}, lowerLastVisibleIndex{lowerLastVisibleIndex_}, upperLastVisibleIndex{upperLastVisibleIndex_}, contentMaxY{contentMaxY_}, contentMinY{contentMinY_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.RectTransform _viewport
-    UnityEngine::RectTransform* _get__viewport();
-    // Set instance field: private UnityEngine.RectTransform _viewport
-    void _set__viewport(UnityEngine::RectTransform* value);
-    // Get instance field: private UnityEngine.RectTransform _contentRectTransform
-    UnityEngine::RectTransform* _get__contentRectTransform();
-    // Set instance field: private UnityEngine.RectTransform _contentRectTransform
-    void _set__contentRectTransform(UnityEngine::RectTransform* value);
-    // Get instance field: private HMUI.ScrollViewItemForVisibilityController[] _items
-    ::Array<HMUI::ScrollViewItemForVisibilityController*>* _get__items();
-    // Set instance field: private HMUI.ScrollViewItemForVisibilityController[] _items
-    void _set__items(::Array<HMUI::ScrollViewItemForVisibilityController*>* value);
-    // Get instance field: private System.Single _lastContentAnchoredPositionY
-    float _get__lastContentAnchoredPositionY();
-    // Set instance field: private System.Single _lastContentAnchoredPositionY
-    void _set__lastContentAnchoredPositionY(float value);
-    // Get instance field: private UnityEngine.Vector3[] _viewportWorldCorners
-    ::Array<UnityEngine::Vector3>* _get__viewportWorldCorners();
-    // Set instance field: private UnityEngine.Vector3[] _viewportWorldCorners
-    void _set__viewportWorldCorners(::Array<UnityEngine::Vector3>* value);
-    // Get instance field: private System.Tuple`2<HMUI.ScrollViewItemForVisibilityController,System.Single>[] _upperItemsCornes
-    ::Array<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*>* _get__upperItemsCornes();
-    // Set instance field: private System.Tuple`2<HMUI.ScrollViewItemForVisibilityController,System.Single>[] _upperItemsCornes
-    void _set__upperItemsCornes(::Array<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*>* value);
-    // Get instance field: private System.Tuple`2<HMUI.ScrollViewItemForVisibilityController,System.Single>[] _lowerItemsCornes
-    ::Array<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*>* _get__lowerItemsCornes();
-    // Set instance field: private System.Tuple`2<HMUI.ScrollViewItemForVisibilityController,System.Single>[] _lowerItemsCornes
-    void _set__lowerItemsCornes(::Array<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*>* value);
-    // Get instance field: private System.Int32 _lowerLastVisibleIndex
-    int _get__lowerLastVisibleIndex();
-    // Set instance field: private System.Int32 _lowerLastVisibleIndex
-    void _set__lowerLastVisibleIndex(int value);
-    // Get instance field: private System.Int32 _upperLastVisibleIndex
-    int _get__upperLastVisibleIndex();
-    // Set instance field: private System.Int32 _upperLastVisibleIndex
-    void _set__upperLastVisibleIndex(int value);
-    // Get instance field: private System.Single _contentMaxY
-    float _get__contentMaxY();
-    // Set instance field: private System.Single _contentMaxY
-    void _set__contentMaxY(float value);
-    // Get instance field: private System.Single _contentMinY
-    float _get__contentMinY();
-    // Set instance field: private System.Single _contentMinY
-    void _set__contentMinY(float value);
+    // Get instance field reference: private UnityEngine.RectTransform _viewport
+    UnityEngine::RectTransform*& dyn__viewport();
+    // Get instance field reference: private UnityEngine.RectTransform _contentRectTransform
+    UnityEngine::RectTransform*& dyn__contentRectTransform();
+    // Get instance field reference: private HMUI.ScrollViewItemForVisibilityController[] _items
+    ::Array<HMUI::ScrollViewItemForVisibilityController*>*& dyn__items();
+    // Get instance field reference: private System.Single _lastContentAnchoredPositionY
+    float& dyn__lastContentAnchoredPositionY();
+    // Get instance field reference: private UnityEngine.Vector3[] _viewportWorldCorners
+    ::Array<UnityEngine::Vector3>*& dyn__viewportWorldCorners();
+    // Get instance field reference: private System.Tuple`2<HMUI.ScrollViewItemForVisibilityController,System.Single>[] _upperItemsCornes
+    ::Array<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*>*& dyn__upperItemsCornes();
+    // Get instance field reference: private System.Tuple`2<HMUI.ScrollViewItemForVisibilityController,System.Single>[] _lowerItemsCornes
+    ::Array<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*>*& dyn__lowerItemsCornes();
+    // Get instance field reference: private System.Int32 _lowerLastVisibleIndex
+    int& dyn__lowerLastVisibleIndex();
+    // Get instance field reference: private System.Int32 _upperLastVisibleIndex
+    int& dyn__upperLastVisibleIndex();
+    // Get instance field reference: private System.Single _contentMaxY
+    float& dyn__contentMaxY();
+    // Get instance field reference: private System.Single _contentMinY
+    float& dyn__contentMinY();
     // protected System.Void Start()
     // Offset: 0x12FDE58
     void Start();

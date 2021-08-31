@@ -52,18 +52,12 @@ namespace System {
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
-    // Get instance field: private System.Array _array
-    System::Array* _get__array();
-    // Set instance field: private System.Array _array
-    void _set__array(System::Array* value);
-    // Get instance field: private System.Int32 _index
-    int _get__index();
-    // Set instance field: private System.Int32 _index
-    void _set__index(int value);
-    // Get instance field: private System.Int32 _endIndex
-    int _get__endIndex();
-    // Set instance field: private System.Int32 _endIndex
-    void _set__endIndex(int value);
+    // Get instance field reference: private System.Array _array
+    System::Array*& dyn__array();
+    // Get instance field reference: private System.Int32 _index
+    int& dyn__index();
+    // Get instance field reference: private System.Int32 _endIndex
+    int& dyn__endIndex();
     // public System.Object get_Current()
     // Offset: 0x17CCAF8
     ::Il2CppObject* get_Current();

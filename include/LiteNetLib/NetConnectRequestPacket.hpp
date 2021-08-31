@@ -73,22 +73,14 @@ namespace LiteNetLib {
     static int _get_HeaderSize();
     // Set static field: static public System.Int32 HeaderSize
     static void _set_HeaderSize(int value);
-    // Get instance field: public readonly System.Int64 ConnectionTime
-    int64_t _get_ConnectionTime();
-    // Set instance field: public readonly System.Int64 ConnectionTime
-    void _set_ConnectionTime(int64_t value);
-    // Get instance field: public readonly System.Byte ConnectionNumber
-    uint8_t _get_ConnectionNumber();
-    // Set instance field: public readonly System.Byte ConnectionNumber
-    void _set_ConnectionNumber(uint8_t value);
-    // Get instance field: public readonly System.Byte[] TargetAddress
-    ::Array<uint8_t>* _get_TargetAddress();
-    // Set instance field: public readonly System.Byte[] TargetAddress
-    void _set_TargetAddress(::Array<uint8_t>* value);
-    // Get instance field: public readonly LiteNetLib.Utils.NetDataReader Data
-    LiteNetLib::Utils::NetDataReader* _get_Data();
-    // Set instance field: public readonly LiteNetLib.Utils.NetDataReader Data
-    void _set_Data(LiteNetLib::Utils::NetDataReader* value);
+    // Get instance field reference: public readonly System.Int64 ConnectionTime
+    int64_t& dyn_ConnectionTime();
+    // Get instance field reference: public readonly System.Byte ConnectionNumber
+    uint8_t& dyn_ConnectionNumber();
+    // Get instance field reference: public readonly System.Byte[] TargetAddress
+    ::Array<uint8_t>*& dyn_TargetAddress();
+    // Get instance field reference: public readonly LiteNetLib.Utils.NetDataReader Data
+    LiteNetLib::Utils::NetDataReader*& dyn_Data();
     // private System.Void .ctor(System.Int64 connectionTime, System.Byte connectionNumber, System.Byte[] targetAddress, LiteNetLib.Utils.NetDataReader data)
     // Offset: 0x1BF2BEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

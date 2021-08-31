@@ -82,34 +82,20 @@ namespace GlobalNamespace {
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
-    // Get instance field: private System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: private System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: private System.Object <>2__current
-    ::Il2CppObject* _get_$$2__current();
-    // Set instance field: private System.Object <>2__current
-    void _set_$$2__current(::Il2CppObject* value);
-    // Get instance field: public MultiplayerLevelCompletionResults localPlayerResults
-    GlobalNamespace::MultiplayerLevelCompletionResults* _get_localPlayerResults();
-    // Set instance field: public MultiplayerLevelCompletionResults localPlayerResults
-    void _set_localPlayerResults(GlobalNamespace::MultiplayerLevelCompletionResults* value);
-    // Get instance field: public MultiplayerLevelFinishedController <>4__this
-    GlobalNamespace::MultiplayerLevelFinishedController* _get_$$4__this();
-    // Set instance field: public MultiplayerLevelFinishedController <>4__this
-    void _set_$$4__this(GlobalNamespace::MultiplayerLevelFinishedController* value);
-    // Get instance field: private System.Single <waitStartTime>5__2
-    float _get_$waitStartTime$5__2();
-    // Set instance field: private System.Single <waitStartTime>5__2
-    void _set_$waitStartTime$5__2(float value);
-    // Get instance field: private System.Boolean <isPlayingAlone>5__3
-    bool _get_$isPlayingAlone$5__3();
-    // Set instance field: private System.Boolean <isPlayingAlone>5__3
-    void _set_$isPlayingAlone$5__3(bool value);
-    // Get instance field: private System.Single <resultsTimeoutLength>5__4
-    float _get_$resultsTimeoutLength$5__4();
-    // Set instance field: private System.Single <resultsTimeoutLength>5__4
-    void _set_$resultsTimeoutLength$5__4(float value);
+    // Get instance field reference: private System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: private System.Object <>2__current
+    ::Il2CppObject*& dyn_$$2__current();
+    // Get instance field reference: public MultiplayerLevelCompletionResults localPlayerResults
+    GlobalNamespace::MultiplayerLevelCompletionResults*& dyn_localPlayerResults();
+    // Get instance field reference: public MultiplayerLevelFinishedController <>4__this
+    GlobalNamespace::MultiplayerLevelFinishedController*& dyn_$$4__this();
+    // Get instance field reference: private System.Single <waitStartTime>5__2
+    float& dyn_$waitStartTime$5__2();
+    // Get instance field reference: private System.Boolean <isPlayingAlone>5__3
+    bool& dyn_$isPlayingAlone$5__3();
+    // Get instance field reference: private System.Single <resultsTimeoutLength>5__4
+    float& dyn_$resultsTimeoutLength$5__4();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
     // Offset: 0x11B574C
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();

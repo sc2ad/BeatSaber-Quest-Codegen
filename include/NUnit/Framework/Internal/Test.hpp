@@ -170,62 +170,34 @@ namespace NUnit::Framework::Internal {
     static ::Il2CppString* _get_$IdPrefix$k__BackingField();
     // Set static field: static private System.String <IdPrefix>k__BackingField
     static void _set_$IdPrefix$k__BackingField(::Il2CppString* value);
-    // Get instance field: protected System.Reflection.MethodInfo[] setUpMethods
-    ::Array<System::Reflection::MethodInfo*>* _get_setUpMethods();
-    // Set instance field: protected System.Reflection.MethodInfo[] setUpMethods
-    void _set_setUpMethods(::Array<System::Reflection::MethodInfo*>* value);
-    // Get instance field: protected System.Reflection.MethodInfo[] tearDownMethods
-    ::Array<System::Reflection::MethodInfo*>* _get_tearDownMethods();
-    // Set instance field: protected System.Reflection.MethodInfo[] tearDownMethods
-    void _set_tearDownMethods(::Array<System::Reflection::MethodInfo*>* value);
-    // Get instance field: protected NUnit.Framework.Interfaces.ITypeInfo DeclaringTypeInfo
-    NUnit::Framework::Interfaces::ITypeInfo* _get_DeclaringTypeInfo();
-    // Set instance field: protected NUnit.Framework.Interfaces.ITypeInfo DeclaringTypeInfo
-    void _set_DeclaringTypeInfo(NUnit::Framework::Interfaces::ITypeInfo* value);
-    // Get instance field: private NUnit.Framework.Interfaces.IMethodInfo _method
-    NUnit::Framework::Interfaces::IMethodInfo* _get__method();
-    // Set instance field: private NUnit.Framework.Interfaces.IMethodInfo _method
-    void _set__method(NUnit::Framework::Interfaces::IMethodInfo* value);
-    // Get instance field: private System.String <Id>k__BackingField
-    ::Il2CppString* _get_$Id$k__BackingField();
-    // Set instance field: private System.String <Id>k__BackingField
-    void _set_$Id$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.String <Name>k__BackingField
-    ::Il2CppString* _get_$Name$k__BackingField();
-    // Set instance field: private System.String <Name>k__BackingField
-    void _set_$Name$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.String <FullName>k__BackingField
-    ::Il2CppString* _get_$FullName$k__BackingField();
-    // Set instance field: private System.String <FullName>k__BackingField
-    void _set_$FullName$k__BackingField(::Il2CppString* value);
-    // Get instance field: private NUnit.Framework.Interfaces.ITypeInfo <TypeInfo>k__BackingField
-    NUnit::Framework::Interfaces::ITypeInfo* _get_$TypeInfo$k__BackingField();
-    // Set instance field: private NUnit.Framework.Interfaces.ITypeInfo <TypeInfo>k__BackingField
-    void _set_$TypeInfo$k__BackingField(NUnit::Framework::Interfaces::ITypeInfo* value);
-    // Get instance field: private NUnit.Framework.Interfaces.RunState <RunState>k__BackingField
-    NUnit::Framework::Interfaces::RunState _get_$RunState$k__BackingField();
-    // Set instance field: private NUnit.Framework.Interfaces.RunState <RunState>k__BackingField
-    void _set_$RunState$k__BackingField(NUnit::Framework::Interfaces::RunState value);
-    // Get instance field: private NUnit.Framework.Interfaces.IPropertyBag <Properties>k__BackingField
-    NUnit::Framework::Interfaces::IPropertyBag* _get_$Properties$k__BackingField();
-    // Set instance field: private NUnit.Framework.Interfaces.IPropertyBag <Properties>k__BackingField
-    void _set_$Properties$k__BackingField(NUnit::Framework::Interfaces::IPropertyBag* value);
-    // Get instance field: private NUnit.Framework.Interfaces.ITest <Parent>k__BackingField
-    NUnit::Framework::Interfaces::ITest* _get_$Parent$k__BackingField();
-    // Set instance field: private NUnit.Framework.Interfaces.ITest <Parent>k__BackingField
-    void _set_$Parent$k__BackingField(NUnit::Framework::Interfaces::ITest* value);
-    // Get instance field: private System.Object <Fixture>k__BackingField
-    ::Il2CppObject* _get_$Fixture$k__BackingField();
-    // Set instance field: private System.Object <Fixture>k__BackingField
-    void _set_$Fixture$k__BackingField(::Il2CppObject* value);
-    // Get instance field: private System.Int32 <Seed>k__BackingField
-    int _get_$Seed$k__BackingField();
-    // Set instance field: private System.Int32 <Seed>k__BackingField
-    void _set_$Seed$k__BackingField(int value);
-    // Get instance field: private System.Boolean <RequiresThread>k__BackingField
-    bool _get_$RequiresThread$k__BackingField();
-    // Set instance field: private System.Boolean <RequiresThread>k__BackingField
-    void _set_$RequiresThread$k__BackingField(bool value);
+    // Get instance field reference: protected System.Reflection.MethodInfo[] setUpMethods
+    ::Array<System::Reflection::MethodInfo*>*& dyn_setUpMethods();
+    // Get instance field reference: protected System.Reflection.MethodInfo[] tearDownMethods
+    ::Array<System::Reflection::MethodInfo*>*& dyn_tearDownMethods();
+    // Get instance field reference: protected NUnit.Framework.Interfaces.ITypeInfo DeclaringTypeInfo
+    NUnit::Framework::Interfaces::ITypeInfo*& dyn_DeclaringTypeInfo();
+    // Get instance field reference: private NUnit.Framework.Interfaces.IMethodInfo _method
+    NUnit::Framework::Interfaces::IMethodInfo*& dyn__method();
+    // Get instance field reference: private System.String <Id>k__BackingField
+    ::Il2CppString*& dyn_$Id$k__BackingField();
+    // Get instance field reference: private System.String <Name>k__BackingField
+    ::Il2CppString*& dyn_$Name$k__BackingField();
+    // Get instance field reference: private System.String <FullName>k__BackingField
+    ::Il2CppString*& dyn_$FullName$k__BackingField();
+    // Get instance field reference: private NUnit.Framework.Interfaces.ITypeInfo <TypeInfo>k__BackingField
+    NUnit::Framework::Interfaces::ITypeInfo*& dyn_$TypeInfo$k__BackingField();
+    // Get instance field reference: private NUnit.Framework.Interfaces.RunState <RunState>k__BackingField
+    NUnit::Framework::Interfaces::RunState& dyn_$RunState$k__BackingField();
+    // Get instance field reference: private NUnit.Framework.Interfaces.IPropertyBag <Properties>k__BackingField
+    NUnit::Framework::Interfaces::IPropertyBag*& dyn_$Properties$k__BackingField();
+    // Get instance field reference: private NUnit.Framework.Interfaces.ITest <Parent>k__BackingField
+    NUnit::Framework::Interfaces::ITest*& dyn_$Parent$k__BackingField();
+    // Get instance field reference: private System.Object <Fixture>k__BackingField
+    ::Il2CppObject*& dyn_$Fixture$k__BackingField();
+    // Get instance field reference: private System.Int32 <Seed>k__BackingField
+    int& dyn_$Seed$k__BackingField();
+    // Get instance field reference: private System.Boolean <RequiresThread>k__BackingField
+    bool& dyn_$RequiresThread$k__BackingField();
     // public System.String get_Id()
     // Offset: 0x229B714
     ::Il2CppString* get_Id();

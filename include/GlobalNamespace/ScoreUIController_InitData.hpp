@@ -34,10 +34,8 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::ScoreUIController::ScoreDisplayType() const noexcept {
       return scoreDisplayType;
     }
-    // Get instance field: public readonly ScoreUIController/ScoreDisplayType scoreDisplayType
-    GlobalNamespace::ScoreUIController::ScoreDisplayType _get_scoreDisplayType();
-    // Set instance field: public readonly ScoreUIController/ScoreDisplayType scoreDisplayType
-    void _set_scoreDisplayType(GlobalNamespace::ScoreUIController::ScoreDisplayType value);
+    // Get instance field reference: public readonly ScoreUIController/ScoreDisplayType scoreDisplayType
+    GlobalNamespace::ScoreUIController::ScoreDisplayType& dyn_scoreDisplayType();
     // public System.Void .ctor(ScoreUIController/ScoreDisplayType scoreDisplayType)
     // Offset: 0x119C558
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

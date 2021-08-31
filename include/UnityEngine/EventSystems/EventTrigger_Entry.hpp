@@ -38,14 +38,10 @@ namespace UnityEngine::EventSystems {
     static_assert(sizeof(UnityEngine::EventSystems::EventTrigger::TriggerEvent*) == 0x8);
     // Creating value type constructor for type: Entry
     Entry(UnityEngine::EventSystems::EventTriggerType eventID_ = {}, UnityEngine::EventSystems::EventTrigger::TriggerEvent* callback_ = {}) noexcept : eventID{eventID_}, callback{callback_} {}
-    // Get instance field: public UnityEngine.EventSystems.EventTriggerType eventID
-    UnityEngine::EventSystems::EventTriggerType _get_eventID();
-    // Set instance field: public UnityEngine.EventSystems.EventTriggerType eventID
-    void _set_eventID(UnityEngine::EventSystems::EventTriggerType value);
-    // Get instance field: public UnityEngine.EventSystems.EventTrigger/UnityEngine.EventSystems.TriggerEvent callback
-    UnityEngine::EventSystems::EventTrigger::TriggerEvent* _get_callback();
-    // Set instance field: public UnityEngine.EventSystems.EventTrigger/UnityEngine.EventSystems.TriggerEvent callback
-    void _set_callback(UnityEngine::EventSystems::EventTrigger::TriggerEvent* value);
+    // Get instance field reference: public UnityEngine.EventSystems.EventTriggerType eventID
+    UnityEngine::EventSystems::EventTriggerType& dyn_eventID();
+    // Get instance field reference: public UnityEngine.EventSystems.EventTrigger/UnityEngine.EventSystems.TriggerEvent callback
+    UnityEngine::EventSystems::EventTrigger::TriggerEvent*& dyn_callback();
     // public System.Void .ctor()
     // Offset: 0x1468A1C
     // Implemented from: System.Object

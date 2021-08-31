@@ -80,30 +80,18 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: UnityEngine.Vector3 m_Point
-    UnityEngine::Vector3 _get_m_Point();
-    // Set instance field: UnityEngine.Vector3 m_Point
-    void _set_m_Point(UnityEngine::Vector3 value);
-    // Get instance field: UnityEngine.Vector3 m_Normal
-    UnityEngine::Vector3 _get_m_Normal();
-    // Set instance field: UnityEngine.Vector3 m_Normal
-    void _set_m_Normal(UnityEngine::Vector3 value);
-    // Get instance field: System.UInt32 m_FaceID
-    uint _get_m_FaceID();
-    // Set instance field: System.UInt32 m_FaceID
-    void _set_m_FaceID(uint value);
-    // Get instance field: System.Single m_Distance
-    float _get_m_Distance();
-    // Set instance field: System.Single m_Distance
-    void _set_m_Distance(float value);
-    // Get instance field: UnityEngine.Vector2 m_UV
-    UnityEngine::Vector2 _get_m_UV();
-    // Set instance field: UnityEngine.Vector2 m_UV
-    void _set_m_UV(UnityEngine::Vector2 value);
-    // Get instance field: System.Int32 m_Collider
-    int _get_m_Collider();
-    // Set instance field: System.Int32 m_Collider
-    void _set_m_Collider(int value);
+    // Get instance field reference: UnityEngine.Vector3 m_Point
+    UnityEngine::Vector3& dyn_m_Point();
+    // Get instance field reference: UnityEngine.Vector3 m_Normal
+    UnityEngine::Vector3& dyn_m_Normal();
+    // Get instance field reference: System.UInt32 m_FaceID
+    uint& dyn_m_FaceID();
+    // Get instance field reference: System.Single m_Distance
+    float& dyn_m_Distance();
+    // Get instance field reference: UnityEngine.Vector2 m_UV
+    UnityEngine::Vector2& dyn_m_UV();
+    // Get instance field reference: System.Int32 m_Collider
+    int& dyn_m_Collider();
     // public UnityEngine.Collider get_collider()
     // Offset: 0x240748C
     UnityEngine::Collider* get_collider();

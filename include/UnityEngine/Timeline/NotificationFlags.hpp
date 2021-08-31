@@ -51,10 +51,8 @@ namespace UnityEngine::Timeline {
     static UnityEngine::Timeline::NotificationFlags _get_TriggerOnce();
     // Set static field: static public UnityEngine.Timeline.NotificationFlags TriggerOnce
     static void _set_TriggerOnce(UnityEngine::Timeline::NotificationFlags value);
-    // Get instance field: public System.Int16 value__
-    int16_t _get_value__();
-    // Set instance field: public System.Int16 value__
-    void _set_value__(int16_t value);
+    // Get instance field reference: public System.Int16 value__
+    int16_t& dyn_value__();
   }; // UnityEngine.Timeline.NotificationFlags
   #pragma pack(pop)
   static check_size<sizeof(NotificationFlags), 0 + sizeof(int16_t)> __UnityEngine_Timeline_NotificationFlagsSizeCheck;

@@ -41,10 +41,8 @@ namespace NUnit::Framework::Constraints {
     constexpr operator System::Collections::Generic::Stack_1<NUnit::Framework::Constraints::ConstraintOperator*>*() const noexcept {
       return stack;
     }
-    // Get instance field: private readonly System.Collections.Generic.Stack`1<NUnit.Framework.Constraints.ConstraintOperator> stack
-    System::Collections::Generic::Stack_1<NUnit::Framework::Constraints::ConstraintOperator*>* _get_stack();
-    // Set instance field: private readonly System.Collections.Generic.Stack`1<NUnit.Framework.Constraints.ConstraintOperator> stack
-    void _set_stack(System::Collections::Generic::Stack_1<NUnit::Framework::Constraints::ConstraintOperator*>* value);
+    // Get instance field reference: private readonly System.Collections.Generic.Stack`1<NUnit.Framework.Constraints.ConstraintOperator> stack
+    System::Collections::Generic::Stack_1<NUnit::Framework::Constraints::ConstraintOperator*>*& dyn_stack();
     // public System.Boolean get_Empty()
     // Offset: 0x1765C70
     bool get_Empty();

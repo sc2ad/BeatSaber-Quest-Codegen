@@ -60,22 +60,14 @@ namespace GlobalNamespace {
     ObstacleSaberSparkleEffect(UnityEngine::ParticleSystem* sparkleParticleSystem_ = {}, UnityEngine::ParticleSystem* burnParticleSystem_ = {}, UnityEngine::ParticleSystem::EmissionModule sparkleParticleSystemEmissionModule_ = {}, UnityEngine::ParticleSystem::EmissionModule burnParticleSystemEmissionModule_ = {}) noexcept : sparkleParticleSystem{sparkleParticleSystem_}, burnParticleSystem{burnParticleSystem_}, sparkleParticleSystemEmissionModule{sparkleParticleSystemEmissionModule_}, burnParticleSystemEmissionModule{burnParticleSystemEmissionModule_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.ParticleSystem _sparkleParticleSystem
-    UnityEngine::ParticleSystem* _get__sparkleParticleSystem();
-    // Set instance field: private UnityEngine.ParticleSystem _sparkleParticleSystem
-    void _set__sparkleParticleSystem(UnityEngine::ParticleSystem* value);
-    // Get instance field: private UnityEngine.ParticleSystem _burnParticleSystem
-    UnityEngine::ParticleSystem* _get__burnParticleSystem();
-    // Set instance field: private UnityEngine.ParticleSystem _burnParticleSystem
-    void _set__burnParticleSystem(UnityEngine::ParticleSystem* value);
-    // Get instance field: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule _sparkleParticleSystemEmissionModule
-    UnityEngine::ParticleSystem::EmissionModule _get__sparkleParticleSystemEmissionModule();
-    // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule _sparkleParticleSystemEmissionModule
-    void _set__sparkleParticleSystemEmissionModule(UnityEngine::ParticleSystem::EmissionModule value);
-    // Get instance field: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule _burnParticleSystemEmissionModule
-    UnityEngine::ParticleSystem::EmissionModule _get__burnParticleSystemEmissionModule();
-    // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule _burnParticleSystemEmissionModule
-    void _set__burnParticleSystemEmissionModule(UnityEngine::ParticleSystem::EmissionModule value);
+    // Get instance field reference: private UnityEngine.ParticleSystem _sparkleParticleSystem
+    UnityEngine::ParticleSystem*& dyn__sparkleParticleSystem();
+    // Get instance field reference: private UnityEngine.ParticleSystem _burnParticleSystem
+    UnityEngine::ParticleSystem*& dyn__burnParticleSystem();
+    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule _sparkleParticleSystemEmissionModule
+    UnityEngine::ParticleSystem::EmissionModule& dyn__sparkleParticleSystemEmissionModule();
+    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule _burnParticleSystemEmissionModule
+    UnityEngine::ParticleSystem::EmissionModule& dyn__burnParticleSystemEmissionModule();
     // public System.Void set_color(UnityEngine.Color value)
     // Offset: 0x12334B0
     void set_color(UnityEngine::Color value);

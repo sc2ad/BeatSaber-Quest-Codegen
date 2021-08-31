@@ -170,10 +170,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::BeatmapEventType _get_Special3();
     // Set static field: static public BeatmapEventType Special3
     static void _set_Special3(GlobalNamespace::BeatmapEventType value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // BeatmapEventType
   #pragma pack(pop)
   static check_size<sizeof(BeatmapEventType), 0 + sizeof(int)> __GlobalNamespace_BeatmapEventTypeSizeCheck;

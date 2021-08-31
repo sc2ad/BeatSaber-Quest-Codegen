@@ -129,50 +129,28 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private BeatmapLevelSO _beatmapLevel
-    GlobalNamespace::BeatmapLevelSO* _get__beatmapLevel();
-    // Set instance field: private BeatmapLevelSO _beatmapLevel
-    void _set__beatmapLevel(GlobalNamespace::BeatmapLevelSO* value);
-    // Get instance field: private BeatmapCharacteristicSO _beatmapCharacteristic
-    GlobalNamespace::BeatmapCharacteristicSO* _get__beatmapCharacteristic();
-    // Set instance field: private BeatmapCharacteristicSO _beatmapCharacteristic
-    void _set__beatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
-    // Get instance field: private BeatmapDifficulty _beatmapDifficulty
-    GlobalNamespace::BeatmapDifficulty _get__beatmapDifficulty();
-    // Set instance field: private BeatmapDifficulty _beatmapDifficulty
-    void _set__beatmapDifficulty(GlobalNamespace::BeatmapDifficulty value);
-    // Get instance field: private ColorSchemeSO _colorScheme
-    GlobalNamespace::ColorSchemeSO* _get__colorScheme();
-    // Set instance field: private ColorSchemeSO _colorScheme
-    void _set__colorScheme(GlobalNamespace::ColorSchemeSO* value);
-    // Get instance field: private EnvironmentInfoSO _environmentInfo
-    GlobalNamespace::EnvironmentInfoSO* _get__environmentInfo();
-    // Set instance field: private EnvironmentInfoSO _environmentInfo
-    void _set__environmentInfo(GlobalNamespace::EnvironmentInfoSO* value);
-    // Get instance field: private GameplayModifiers _gameplayModifiers
-    GlobalNamespace::GameplayModifiers* _get__gameplayModifiers();
-    // Set instance field: private GameplayModifiers _gameplayModifiers
-    void _set__gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
-    // Get instance field: private PlayerSpecificSettings _playerSpecificSettings
-    GlobalNamespace::PlayerSpecificSettings* _get__playerSpecificSettings();
-    // Set instance field: private PlayerSpecificSettings _playerSpecificSettings
-    void _set__playerSpecificSettings(GlobalNamespace::PlayerSpecificSettings* value);
-    // Get instance field: private PracticeSettings _practiceSettings
-    GlobalNamespace::PracticeSettings* _get__practiceSettings();
-    // Set instance field: private PracticeSettings _practiceSettings
-    void _set__practiceSettings(GlobalNamespace::PracticeSettings* value);
-    // Get instance field: private System.String _backButtonText
-    ::Il2CppString* _get__backButtonText();
-    // Set instance field: private System.String _backButtonText
-    void _set__backButtonText(::Il2CppString* value);
-    // Get instance field: private System.Boolean _useTestNoteCutSoundEffects
-    bool _get__useTestNoteCutSoundEffects();
-    // Set instance field: private System.Boolean _useTestNoteCutSoundEffects
-    void _set__useTestNoteCutSoundEffects(bool value);
-    // Get instance field: private StandardLevelScenesTransitionSetupDataSO _scenesTransitionSetupData
-    GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* _get__scenesTransitionSetupData();
-    // Set instance field: private StandardLevelScenesTransitionSetupDataSO _scenesTransitionSetupData
-    void _set__scenesTransitionSetupData(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* value);
+    // Get instance field reference: private BeatmapLevelSO _beatmapLevel
+    GlobalNamespace::BeatmapLevelSO*& dyn__beatmapLevel();
+    // Get instance field reference: private BeatmapCharacteristicSO _beatmapCharacteristic
+    GlobalNamespace::BeatmapCharacteristicSO*& dyn__beatmapCharacteristic();
+    // Get instance field reference: private BeatmapDifficulty _beatmapDifficulty
+    GlobalNamespace::BeatmapDifficulty& dyn__beatmapDifficulty();
+    // Get instance field reference: private ColorSchemeSO _colorScheme
+    GlobalNamespace::ColorSchemeSO*& dyn__colorScheme();
+    // Get instance field reference: private EnvironmentInfoSO _environmentInfo
+    GlobalNamespace::EnvironmentInfoSO*& dyn__environmentInfo();
+    // Get instance field reference: private GameplayModifiers _gameplayModifiers
+    GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
+    // Get instance field reference: private PlayerSpecificSettings _playerSpecificSettings
+    GlobalNamespace::PlayerSpecificSettings*& dyn__playerSpecificSettings();
+    // Get instance field reference: private PracticeSettings _practiceSettings
+    GlobalNamespace::PracticeSettings*& dyn__practiceSettings();
+    // Get instance field reference: private System.String _backButtonText
+    ::Il2CppString*& dyn__backButtonText();
+    // Get instance field reference: private System.Boolean _useTestNoteCutSoundEffects
+    bool& dyn__useTestNoteCutSoundEffects();
+    // Get instance field reference: private StandardLevelScenesTransitionSetupDataSO _scenesTransitionSetupData
+    GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*& dyn__scenesTransitionSetupData();
     // public ColorSchemeSO get_colorScheme()
     // Offset: 0x108C6F4
     GlobalNamespace::ColorSchemeSO* get_colorScheme();

@@ -48,18 +48,12 @@ namespace Zenject {
     static_assert(sizeof(System::Type*) == 0x8);
     // Creating value type constructor for type: SubContainerCreatorBindInfo
     SubContainerCreatorBindInfo(::Il2CppString* DefaultParentName_ = {}, bool CreateKernel_ = {}, System::Type* KernelType_ = {}) noexcept : DefaultParentName{DefaultParentName_}, CreateKernel{CreateKernel_}, KernelType{KernelType_} {}
-    // Get instance field: private System.String <DefaultParentName>k__BackingField
-    ::Il2CppString* _get_$DefaultParentName$k__BackingField();
-    // Set instance field: private System.String <DefaultParentName>k__BackingField
-    void _set_$DefaultParentName$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.Boolean <CreateKernel>k__BackingField
-    bool _get_$CreateKernel$k__BackingField();
-    // Set instance field: private System.Boolean <CreateKernel>k__BackingField
-    void _set_$CreateKernel$k__BackingField(bool value);
-    // Get instance field: private System.Type <KernelType>k__BackingField
-    System::Type* _get_$KernelType$k__BackingField();
-    // Set instance field: private System.Type <KernelType>k__BackingField
-    void _set_$KernelType$k__BackingField(System::Type* value);
+    // Get instance field reference: private System.String <DefaultParentName>k__BackingField
+    ::Il2CppString*& dyn_$DefaultParentName$k__BackingField();
+    // Get instance field reference: private System.Boolean <CreateKernel>k__BackingField
+    bool& dyn_$CreateKernel$k__BackingField();
+    // Get instance field reference: private System.Type <KernelType>k__BackingField
+    System::Type*& dyn_$KernelType$k__BackingField();
     // public System.String get_DefaultParentName()
     // Offset: 0x1720230
     ::Il2CppString* get_DefaultParentName();

@@ -59,14 +59,10 @@ namespace GlobalNamespace {
     static int _get_kMaxPlayers();
     // Set static field: static private System.Int32 kMaxPlayers
     static void _set_kMaxPlayers(int value);
-    // Get instance field: private FormattedFloatListSettingsController _maxPlayersList
-    GlobalNamespace::FormattedFloatListSettingsController* _get__maxPlayersList();
-    // Set instance field: private FormattedFloatListSettingsController _maxPlayersList
-    void _set__maxPlayersList(GlobalNamespace::FormattedFloatListSettingsController* value);
-    // Get instance field: private System.Boolean _netDiscoverable
-    bool _get__netDiscoverable();
-    // Set instance field: private System.Boolean _netDiscoverable
-    void _set__netDiscoverable(bool value);
+    // Get instance field reference: private FormattedFloatListSettingsController _maxPlayersList
+    GlobalNamespace::FormattedFloatListSettingsController*& dyn__maxPlayersList();
+    // Get instance field reference: private System.Boolean _netDiscoverable
+    bool& dyn__netDiscoverable();
     // public CreateServerFormData get_formData()
     // Offset: 0x10F3BE4
     GlobalNamespace::CreateServerFormData get_formData();

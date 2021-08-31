@@ -111,18 +111,12 @@ namespace UnityEngine {
     static UnityEngine::Vector3 _get_negativeInfinityVector();
     // Set static field: static private readonly UnityEngine.Vector3 negativeInfinityVector
     static void _set_negativeInfinityVector(UnityEngine::Vector3 value);
-    // Get instance field: public System.Single x
-    float _get_x();
-    // Set instance field: public System.Single x
-    void _set_x(float value);
-    // Get instance field: public System.Single y
-    float _get_y();
-    // Set instance field: public System.Single y
-    void _set_y(float value);
-    // Get instance field: public System.Single z
-    float _get_z();
-    // Set instance field: public System.Single z
-    void _set_z(float value);
+    // Get instance field reference: public System.Single x
+    float& dyn_x();
+    // Get instance field reference: public System.Single y
+    float& dyn_y();
+    // Get instance field reference: public System.Single z
+    float& dyn_z();
     // public System.Single get_Item(System.Int32 index)
     // Offset: 0x2366100
     float get_Item(int index);

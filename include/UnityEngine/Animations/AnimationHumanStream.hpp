@@ -39,10 +39,8 @@ namespace UnityEngine::Animations {
     constexpr operator System::IntPtr() const noexcept {
       return stream;
     }
-    // Get instance field: private System.IntPtr stream
-    System::IntPtr _get_stream();
-    // Set instance field: private System.IntPtr stream
-    void _set_stream(System::IntPtr value);
+    // Get instance field reference: private System.IntPtr stream
+    System::IntPtr& dyn_stream();
   }; // UnityEngine.Animations.AnimationHumanStream
   #pragma pack(pop)
   static check_size<sizeof(AnimationHumanStream), 0 + sizeof(System::IntPtr)> __UnityEngine_Animations_AnimationHumanStreamSizeCheck;

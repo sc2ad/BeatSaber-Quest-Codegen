@@ -76,14 +76,10 @@ namespace System::Threading::Tasks {
     static System::Threading::ContextCallback* _get_s_invokeActionCallback();
     // Set static field: static private System.Threading.ContextCallback s_invokeActionCallback
     static void _set_s_invokeActionCallback(System::Threading::ContextCallback* value);
-    // Get instance field: private readonly System.Threading.ExecutionContext m_capturedContext
-    System::Threading::ExecutionContext* _get_m_capturedContext();
-    // Set instance field: private readonly System.Threading.ExecutionContext m_capturedContext
-    void _set_m_capturedContext(System::Threading::ExecutionContext* value);
-    // Get instance field: protected readonly System.Action m_action
-    System::Action* _get_m_action();
-    // Set instance field: protected readonly System.Action m_action
-    void _set_m_action(System::Action* value);
+    // Get instance field reference: private readonly System.Threading.ExecutionContext m_capturedContext
+    System::Threading::ExecutionContext*& dyn_m_capturedContext();
+    // Get instance field reference: protected readonly System.Action m_action
+    System::Action*& dyn_m_action();
     // static System.Boolean get_IsValidLocationForInlining()
     // Offset: 0x18FC024
     static bool get_IsValidLocationForInlining();

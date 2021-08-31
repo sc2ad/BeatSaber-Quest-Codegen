@@ -68,22 +68,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::GameplayServerConfiguration) == 0x18);
     // Creating value type constructor for type: $$c__DisplayClass80_0
     $$c__DisplayClass80_0(bool clearCurrentList_ = {}, GlobalNamespace::UnifiedNetworkPlayerModel* $$4__this_ = {}, GlobalNamespace::BeatmapLevelSelectionMask localSelectionMask_ = {}, GlobalNamespace::GameplayServerConfiguration localConfiguration_ = {}) noexcept : clearCurrentList{clearCurrentList_}, $$4__this{$$4__this_}, localSelectionMask{localSelectionMask_}, localConfiguration{localConfiguration_} {}
-    // Get instance field: public System.Boolean clearCurrentList
-    bool _get_clearCurrentList();
-    // Set instance field: public System.Boolean clearCurrentList
-    void _set_clearCurrentList(bool value);
-    // Get instance field: public UnifiedNetworkPlayerModel <>4__this
-    GlobalNamespace::UnifiedNetworkPlayerModel* _get_$$4__this();
-    // Set instance field: public UnifiedNetworkPlayerModel <>4__this
-    void _set_$$4__this(GlobalNamespace::UnifiedNetworkPlayerModel* value);
-    // Get instance field: public BeatmapLevelSelectionMask localSelectionMask
-    GlobalNamespace::BeatmapLevelSelectionMask _get_localSelectionMask();
-    // Set instance field: public BeatmapLevelSelectionMask localSelectionMask
-    void _set_localSelectionMask(GlobalNamespace::BeatmapLevelSelectionMask value);
-    // Get instance field: public GameplayServerConfiguration localConfiguration
-    GlobalNamespace::GameplayServerConfiguration _get_localConfiguration();
-    // Set instance field: public GameplayServerConfiguration localConfiguration
-    void _set_localConfiguration(GlobalNamespace::GameplayServerConfiguration value);
+    // Get instance field reference: public System.Boolean clearCurrentList
+    bool& dyn_clearCurrentList();
+    // Get instance field reference: public UnifiedNetworkPlayerModel <>4__this
+    GlobalNamespace::UnifiedNetworkPlayerModel*& dyn_$$4__this();
+    // Get instance field reference: public BeatmapLevelSelectionMask localSelectionMask
+    GlobalNamespace::BeatmapLevelSelectionMask& dyn_localSelectionMask();
+    // Get instance field reference: public GameplayServerConfiguration localConfiguration
+    GlobalNamespace::GameplayServerConfiguration& dyn_localConfiguration();
     // System.Void <Refresh>b__0(System.Collections.Generic.IReadOnlyList`1<PublicServerInfo> servers)
     // Offset: 0x1356508
     void $Refresh$b__0(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PublicServerInfo>* servers);

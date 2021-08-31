@@ -59,26 +59,16 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private System.Int32 LayerId
-    int _get_LayerId();
-    // Set instance field: private System.Int32 LayerId
-    void _set_LayerId(int value);
-    // Get instance field: private System.Int32 TextureStage
-    int _get_TextureStage();
-    // Set instance field: private System.Int32 TextureStage
-    void _set_TextureStage(int value);
-    // Get instance field: private OVRPlugin/Recti[] ViewportRect
-    ::Array<GlobalNamespace::OVRPlugin::Recti>* _get_ViewportRect();
-    // Set instance field: private OVRPlugin/Recti[] ViewportRect
-    void _set_ViewportRect(::Array<GlobalNamespace::OVRPlugin::Recti>* value);
-    // Get instance field: private OVRPlugin/Posef Pose
-    GlobalNamespace::OVRPlugin::Posef _get_Pose();
-    // Set instance field: private OVRPlugin/Posef Pose
-    void _set_Pose(GlobalNamespace::OVRPlugin::Posef value);
-    // Get instance field: private System.Int32 LayerSubmitFlags
-    int _get_LayerSubmitFlags();
-    // Set instance field: private System.Int32 LayerSubmitFlags
-    void _set_LayerSubmitFlags(int value);
+    // Get instance field reference: private System.Int32 LayerId
+    int& dyn_LayerId();
+    // Get instance field reference: private System.Int32 TextureStage
+    int& dyn_TextureStage();
+    // Get instance field reference: private OVRPlugin/Recti[] ViewportRect
+    ::Array<GlobalNamespace::OVRPlugin::Recti>*& dyn_ViewportRect();
+    // Get instance field reference: private OVRPlugin/Posef Pose
+    GlobalNamespace::OVRPlugin::Posef& dyn_Pose();
+    // Get instance field reference: private System.Int32 LayerSubmitFlags
+    int& dyn_LayerSubmitFlags();
   }; // OVRPlugin/LayerSubmit
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::LayerSubmit), 44 + sizeof(int)> __GlobalNamespace_OVRPlugin_LayerSubmitSizeCheck;

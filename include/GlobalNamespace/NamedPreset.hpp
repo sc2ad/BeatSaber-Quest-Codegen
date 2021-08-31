@@ -31,10 +31,8 @@ namespace GlobalNamespace {
     constexpr operator ::Il2CppString*() const noexcept {
       return presetNameLocalizationKey;
     }
-    // Get instance field: private System.String _presetNameLocalizationKey
-    ::Il2CppString* _get__presetNameLocalizationKey();
-    // Set instance field: private System.String _presetNameLocalizationKey
-    void _set__presetNameLocalizationKey(::Il2CppString* value);
+    // Get instance field reference: private System.String _presetNameLocalizationKey
+    ::Il2CppString*& dyn__presetNameLocalizationKey();
     // public System.String get_presetNameLocalizationKey()
     // Offset: 0x103D7C8
     ::Il2CppString* get_presetNameLocalizationKey();

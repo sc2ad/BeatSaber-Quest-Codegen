@@ -63,18 +63,12 @@ namespace UnityEngine {
     operator UnityEngine::ILogger() noexcept {
       return *reinterpret_cast<UnityEngine::ILogger*>(this);
     }
-    // Get instance field: private UnityEngine.ILogHandler <logHandler>k__BackingField
-    UnityEngine::ILogHandler* _get_$logHandler$k__BackingField();
-    // Set instance field: private UnityEngine.ILogHandler <logHandler>k__BackingField
-    void _set_$logHandler$k__BackingField(UnityEngine::ILogHandler* value);
-    // Get instance field: private System.Boolean <logEnabled>k__BackingField
-    bool _get_$logEnabled$k__BackingField();
-    // Set instance field: private System.Boolean <logEnabled>k__BackingField
-    void _set_$logEnabled$k__BackingField(bool value);
-    // Get instance field: private UnityEngine.LogType <filterLogType>k__BackingField
-    UnityEngine::LogType _get_$filterLogType$k__BackingField();
-    // Set instance field: private UnityEngine.LogType <filterLogType>k__BackingField
-    void _set_$filterLogType$k__BackingField(UnityEngine::LogType value);
+    // Get instance field reference: private UnityEngine.ILogHandler <logHandler>k__BackingField
+    UnityEngine::ILogHandler*& dyn_$logHandler$k__BackingField();
+    // Get instance field reference: private System.Boolean <logEnabled>k__BackingField
+    bool& dyn_$logEnabled$k__BackingField();
+    // Get instance field reference: private UnityEngine.LogType <filterLogType>k__BackingField
+    UnityEngine::LogType& dyn_$filterLogType$k__BackingField();
     // public UnityEngine.ILogHandler get_logHandler()
     // Offset: 0x1CF6E9C
     UnityEngine::ILogHandler* get_logHandler();

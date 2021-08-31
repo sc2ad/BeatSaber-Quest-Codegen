@@ -40,18 +40,12 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     operator Org::BouncyCastle::Crypto::ICipherParameters() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);
     }
-    // Get instance field: private System.Byte[] derivation
-    ::Array<uint8_t>* _get_derivation();
-    // Set instance field: private System.Byte[] derivation
-    void _set_derivation(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] encoding
-    ::Array<uint8_t>* _get_encoding();
-    // Set instance field: private System.Byte[] encoding
-    void _set_encoding(::Array<uint8_t>* value);
-    // Get instance field: private System.Int32 macKeySize
-    int _get_macKeySize();
-    // Set instance field: private System.Int32 macKeySize
-    void _set_macKeySize(int value);
+    // Get instance field reference: private System.Byte[] derivation
+    ::Array<uint8_t>*& dyn_derivation();
+    // Get instance field reference: private System.Byte[] encoding
+    ::Array<uint8_t>*& dyn_encoding();
+    // Get instance field reference: private System.Int32 macKeySize
+    int& dyn_macKeySize();
     // public System.Int32 get_MacKeySize()
     // Offset: 0x1275EFC
     int get_MacKeySize();

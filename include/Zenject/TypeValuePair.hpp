@@ -49,14 +49,10 @@ namespace Zenject {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Type Type
-    System::Type* _get_Type();
-    // Set instance field: public System.Type Type
-    void _set_Type(System::Type* value);
-    // Get instance field: public System.Object Value
-    ::Il2CppObject* _get_Value();
-    // Set instance field: public System.Object Value
-    void _set_Value(::Il2CppObject* value);
+    // Get instance field reference: public System.Type Type
+    System::Type*& dyn_Type();
+    // Get instance field reference: public System.Object Value
+    ::Il2CppObject*& dyn_Value();
     // public System.Void .ctor(System.Type type, System.Object value)
     // Offset: 0x23E6D08
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

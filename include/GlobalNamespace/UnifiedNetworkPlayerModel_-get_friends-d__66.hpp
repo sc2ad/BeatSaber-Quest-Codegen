@@ -80,26 +80,16 @@ namespace GlobalNamespace {
     operator System::Collections::Generic::IEnumerator_1<GlobalNamespace::INetworkPlayer*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<GlobalNamespace::INetworkPlayer*>*>(this);
     }
-    // Get instance field: private System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: private System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: private INetworkPlayer <>2__current
-    GlobalNamespace::INetworkPlayer* _get_$$2__current();
-    // Set instance field: private INetworkPlayer <>2__current
-    void _set_$$2__current(GlobalNamespace::INetworkPlayer* value);
-    // Get instance field: private System.Int32 <>l__initialThreadId
-    int _get_$$l__initialThreadId();
-    // Set instance field: private System.Int32 <>l__initialThreadId
-    void _set_$$l__initialThreadId(int value);
-    // Get instance field: public UnifiedNetworkPlayerModel <>4__this
-    GlobalNamespace::UnifiedNetworkPlayerModel* _get_$$4__this();
-    // Set instance field: public UnifiedNetworkPlayerModel <>4__this
-    void _set_$$4__this(GlobalNamespace::UnifiedNetworkPlayerModel* value);
-    // Get instance field: private System.Collections.Generic.IEnumerator`1<INetworkPlayer> <>7__wrap1
-    System::Collections::Generic::IEnumerator_1<GlobalNamespace::INetworkPlayer*>* _get_$$7__wrap1();
-    // Set instance field: private System.Collections.Generic.IEnumerator`1<INetworkPlayer> <>7__wrap1
-    void _set_$$7__wrap1(System::Collections::Generic::IEnumerator_1<GlobalNamespace::INetworkPlayer*>* value);
+    // Get instance field reference: private System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: private INetworkPlayer <>2__current
+    GlobalNamespace::INetworkPlayer*& dyn_$$2__current();
+    // Get instance field reference: private System.Int32 <>l__initialThreadId
+    int& dyn_$$l__initialThreadId();
+    // Get instance field reference: public UnifiedNetworkPlayerModel <>4__this
+    GlobalNamespace::UnifiedNetworkPlayerModel*& dyn_$$4__this();
+    // Get instance field reference: private System.Collections.Generic.IEnumerator`1<INetworkPlayer> <>7__wrap1
+    System::Collections::Generic::IEnumerator_1<GlobalNamespace::INetworkPlayer*>*& dyn_$$7__wrap1();
     // private INetworkPlayer System.Collections.Generic.IEnumerator<INetworkPlayer>.get_Current()
     // Offset: 0x1357D20
     GlobalNamespace::INetworkPlayer* System_Collections_Generic_IEnumerator$INetworkPlayer$_get_Current();

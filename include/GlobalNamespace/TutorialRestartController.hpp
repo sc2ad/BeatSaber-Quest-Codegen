@@ -43,10 +43,8 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private TutorialScenesTransitionSetupDataSO _tutorialSceneSetupData
-    GlobalNamespace::TutorialScenesTransitionSetupDataSO* _get__tutorialSceneSetupData();
-    // Set instance field: private TutorialScenesTransitionSetupDataSO _tutorialSceneSetupData
-    void _set__tutorialSceneSetupData(GlobalNamespace::TutorialScenesTransitionSetupDataSO* value);
+    // Get instance field reference: private TutorialScenesTransitionSetupDataSO _tutorialSceneSetupData
+    GlobalNamespace::TutorialScenesTransitionSetupDataSO*& dyn__tutorialSceneSetupData();
     // public System.Void RestartLevel()
     // Offset: 0x109BDD4
     void RestartLevel();

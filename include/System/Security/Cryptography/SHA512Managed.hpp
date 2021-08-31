@@ -53,22 +53,14 @@ namespace System::Security::Cryptography {
     static ::Array<uint64_t>* _get__K();
     // Set static field: static private readonly System.UInt64[] _K
     static void _set__K(::Array<uint64_t>* value);
-    // Get instance field: private System.Byte[] _buffer
-    ::Array<uint8_t>* _get__buffer();
-    // Set instance field: private System.Byte[] _buffer
-    void _set__buffer(::Array<uint8_t>* value);
-    // Get instance field: private System.UInt64 _count
-    uint64_t _get__count();
-    // Set instance field: private System.UInt64 _count
-    void _set__count(uint64_t value);
-    // Get instance field: private System.UInt64[] _stateSHA512
-    ::Array<uint64_t>* _get__stateSHA512();
-    // Set instance field: private System.UInt64[] _stateSHA512
-    void _set__stateSHA512(::Array<uint64_t>* value);
-    // Get instance field: private System.UInt64[] _W
-    ::Array<uint64_t>* _get__W();
-    // Set instance field: private System.UInt64[] _W
-    void _set__W(::Array<uint64_t>* value);
+    // Get instance field reference: private System.Byte[] _buffer
+    ::Array<uint8_t>*& dyn__buffer();
+    // Get instance field reference: private System.UInt64 _count
+    uint64_t& dyn__count();
+    // Get instance field reference: private System.UInt64[] _stateSHA512
+    ::Array<uint64_t>*& dyn__stateSHA512();
+    // Get instance field reference: private System.UInt64[] _W
+    ::Array<uint64_t>*& dyn__W();
     // static private System.Void .cctor()
     // Offset: 0x1B45B48
     static void _cctor();

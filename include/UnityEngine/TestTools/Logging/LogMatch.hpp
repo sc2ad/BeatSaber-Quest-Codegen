@@ -66,22 +66,14 @@ namespace UnityEngine::TestTools::Logging {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: LogMatch
     LogMatch(bool m_UseRegex_ = {}, ::Il2CppString* m_Message_ = {}, ::Il2CppString* m_MessageRegex_ = {}, ::Il2CppString* m_LogType_ = {}) noexcept : m_UseRegex{m_UseRegex_}, m_Message{m_Message_}, m_MessageRegex{m_MessageRegex_}, m_LogType{m_LogType_} {}
-    // Get instance field: private System.Boolean m_UseRegex
-    bool _get_m_UseRegex();
-    // Set instance field: private System.Boolean m_UseRegex
-    void _set_m_UseRegex(bool value);
-    // Get instance field: private System.String m_Message
-    ::Il2CppString* _get_m_Message();
-    // Set instance field: private System.String m_Message
-    void _set_m_Message(::Il2CppString* value);
-    // Get instance field: private System.String m_MessageRegex
-    ::Il2CppString* _get_m_MessageRegex();
-    // Set instance field: private System.String m_MessageRegex
-    void _set_m_MessageRegex(::Il2CppString* value);
-    // Get instance field: private System.String m_LogType
-    ::Il2CppString* _get_m_LogType();
-    // Set instance field: private System.String m_LogType
-    void _set_m_LogType(::Il2CppString* value);
+    // Get instance field reference: private System.Boolean m_UseRegex
+    bool& dyn_m_UseRegex();
+    // Get instance field reference: private System.String m_Message
+    ::Il2CppString*& dyn_m_Message();
+    // Get instance field reference: private System.String m_MessageRegex
+    ::Il2CppString*& dyn_m_MessageRegex();
+    // Get instance field reference: private System.String m_LogType
+    ::Il2CppString*& dyn_m_LogType();
     // public System.String get_Message()
     // Offset: 0x14C1CD4
     ::Il2CppString* get_Message();

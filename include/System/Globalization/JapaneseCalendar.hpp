@@ -63,10 +63,8 @@ namespace System::Globalization {
     static System::Globalization::Calendar* _get_s_defaultInstance();
     // Set static field: static System.Globalization.Calendar s_defaultInstance
     static void _set_s_defaultInstance(System::Globalization::Calendar* value);
-    // Get instance field: System.Globalization.GregorianCalendarHelper helper
-    System::Globalization::GregorianCalendarHelper* _get_helper();
-    // Set instance field: System.Globalization.GregorianCalendarHelper helper
-    void _set_helper(System::Globalization::GregorianCalendarHelper* value);
+    // Get instance field reference: System.Globalization.GregorianCalendarHelper helper
+    System::Globalization::GregorianCalendarHelper*& dyn_helper();
     // static private System.Void .cctor()
     // Offset: 0x1A1A7D8
     static void _cctor();

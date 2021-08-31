@@ -41,14 +41,10 @@ namespace System::Runtime::Serialization {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: ObjectHolderList
     ObjectHolderList(::Array<System::Runtime::Serialization::ObjectHolder*>* m_values_ = {}, int m_count_ = {}) noexcept : m_values{m_values_}, m_count{m_count_} {}
-    // Get instance field: System.Runtime.Serialization.ObjectHolder[] m_values
-    ::Array<System::Runtime::Serialization::ObjectHolder*>* _get_m_values();
-    // Set instance field: System.Runtime.Serialization.ObjectHolder[] m_values
-    void _set_m_values(::Array<System::Runtime::Serialization::ObjectHolder*>* value);
-    // Get instance field: System.Int32 m_count
-    int _get_m_count();
-    // Set instance field: System.Int32 m_count
-    void _set_m_count(int value);
+    // Get instance field reference: System.Runtime.Serialization.ObjectHolder[] m_values
+    ::Array<System::Runtime::Serialization::ObjectHolder*>*& dyn_m_values();
+    // Get instance field reference: System.Int32 m_count
+    int& dyn_m_count();
     // System.Int32 get_Version()
     // Offset: 0x16B8838
     int get_Version();

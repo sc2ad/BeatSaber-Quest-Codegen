@@ -100,10 +100,8 @@ namespace System::Globalization {
     static System::Globalization::HebrewNumber::HebrewToken _get_DoubleQuote();
     // Set static field: static public System.Globalization.HebrewNumber/System.Globalization.HebrewToken DoubleQuote
     static void _set_DoubleQuote(System::Globalization::HebrewNumber::HebrewToken value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Globalization.HebrewNumber/System.Globalization.HebrewToken
   #pragma pack(pop)
   static check_size<sizeof(HebrewNumber::HebrewToken), 0 + sizeof(int)> __System_Globalization_HebrewNumber_HebrewTokenSizeCheck;

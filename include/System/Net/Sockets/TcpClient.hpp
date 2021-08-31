@@ -76,26 +76,16 @@ namespace System::Net::Sockets {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
-    // Get instance field: private System.Net.Sockets.Socket m_ClientSocket
-    System::Net::Sockets::Socket* _get_m_ClientSocket();
-    // Set instance field: private System.Net.Sockets.Socket m_ClientSocket
-    void _set_m_ClientSocket(System::Net::Sockets::Socket* value);
-    // Get instance field: private System.Boolean m_Active
-    bool _get_m_Active();
-    // Set instance field: private System.Boolean m_Active
-    void _set_m_Active(bool value);
-    // Get instance field: private System.Net.Sockets.NetworkStream m_DataStream
-    System::Net::Sockets::NetworkStream* _get_m_DataStream();
-    // Set instance field: private System.Net.Sockets.NetworkStream m_DataStream
-    void _set_m_DataStream(System::Net::Sockets::NetworkStream* value);
-    // Get instance field: private System.Net.Sockets.AddressFamily m_Family
-    System::Net::Sockets::AddressFamily _get_m_Family();
-    // Set instance field: private System.Net.Sockets.AddressFamily m_Family
-    void _set_m_Family(System::Net::Sockets::AddressFamily value);
-    // Get instance field: private System.Boolean m_CleanedUp
-    bool _get_m_CleanedUp();
-    // Set instance field: private System.Boolean m_CleanedUp
-    void _set_m_CleanedUp(bool value);
+    // Get instance field reference: private System.Net.Sockets.Socket m_ClientSocket
+    System::Net::Sockets::Socket*& dyn_m_ClientSocket();
+    // Get instance field reference: private System.Boolean m_Active
+    bool& dyn_m_Active();
+    // Get instance field reference: private System.Net.Sockets.NetworkStream m_DataStream
+    System::Net::Sockets::NetworkStream*& dyn_m_DataStream();
+    // Get instance field reference: private System.Net.Sockets.AddressFamily m_Family
+    System::Net::Sockets::AddressFamily& dyn_m_Family();
+    // Get instance field reference: private System.Boolean m_CleanedUp
+    bool& dyn_m_CleanedUp();
     // public System.Net.Sockets.Socket get_Client()
     // Offset: 0x15C8480
     System::Net::Sockets::Socket* get_Client();

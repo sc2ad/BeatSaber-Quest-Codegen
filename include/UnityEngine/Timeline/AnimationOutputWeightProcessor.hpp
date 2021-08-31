@@ -71,18 +71,12 @@ namespace UnityEngine::Timeline {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public UnityEngine.Playables.Playable mixer
-      UnityEngine::Playables::Playable _get_mixer();
-      // Set instance field: public UnityEngine.Playables.Playable mixer
-      void _set_mixer(UnityEngine::Playables::Playable value);
-      // Get instance field: public UnityEngine.Playables.Playable parentMixer
-      UnityEngine::Playables::Playable _get_parentMixer();
-      // Set instance field: public UnityEngine.Playables.Playable parentMixer
-      void _set_parentMixer(UnityEngine::Playables::Playable value);
-      // Get instance field: public System.Int32 port
-      int _get_port();
-      // Set instance field: public System.Int32 port
-      void _set_port(int value);
+      // Get instance field reference: public UnityEngine.Playables.Playable mixer
+      UnityEngine::Playables::Playable& dyn_mixer();
+      // Get instance field reference: public UnityEngine.Playables.Playable parentMixer
+      UnityEngine::Playables::Playable& dyn_parentMixer();
+      // Get instance field reference: public System.Int32 port
+      int& dyn_port();
     }; // UnityEngine.Timeline.AnimationOutputWeightProcessor/UnityEngine.Timeline.WeightInfo
     #pragma pack(pop)
     static check_size<sizeof(AnimationOutputWeightProcessor::WeightInfo), 32 + sizeof(int)> __UnityEngine_Timeline_AnimationOutputWeightProcessor_WeightInfoSizeCheck;
@@ -115,18 +109,12 @@ namespace UnityEngine::Timeline {
     operator UnityEngine::Timeline::ITimelineEvaluateCallback() noexcept {
       return *reinterpret_cast<UnityEngine::Timeline::ITimelineEvaluateCallback*>(this);
     }
-    // Get instance field: private UnityEngine.Animations.AnimationPlayableOutput m_Output
-    UnityEngine::Animations::AnimationPlayableOutput _get_m_Output();
-    // Set instance field: private UnityEngine.Animations.AnimationPlayableOutput m_Output
-    void _set_m_Output(UnityEngine::Animations::AnimationPlayableOutput value);
-    // Get instance field: private UnityEngine.Animations.AnimationMotionXToDeltaPlayable m_MotionXPlayable
-    UnityEngine::Animations::AnimationMotionXToDeltaPlayable _get_m_MotionXPlayable();
-    // Set instance field: private UnityEngine.Animations.AnimationMotionXToDeltaPlayable m_MotionXPlayable
-    void _set_m_MotionXPlayable(UnityEngine::Animations::AnimationMotionXToDeltaPlayable value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<UnityEngine.Timeline.AnimationOutputWeightProcessor/UnityEngine.Timeline.WeightInfo> m_Mixers
-    System::Collections::Generic::List_1<UnityEngine::Timeline::AnimationOutputWeightProcessor::WeightInfo>* _get_m_Mixers();
-    // Set instance field: private readonly System.Collections.Generic.List`1<UnityEngine.Timeline.AnimationOutputWeightProcessor/UnityEngine.Timeline.WeightInfo> m_Mixers
-    void _set_m_Mixers(System::Collections::Generic::List_1<UnityEngine::Timeline::AnimationOutputWeightProcessor::WeightInfo>* value);
+    // Get instance field reference: private UnityEngine.Animations.AnimationPlayableOutput m_Output
+    UnityEngine::Animations::AnimationPlayableOutput& dyn_m_Output();
+    // Get instance field reference: private UnityEngine.Animations.AnimationMotionXToDeltaPlayable m_MotionXPlayable
+    UnityEngine::Animations::AnimationMotionXToDeltaPlayable& dyn_m_MotionXPlayable();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.Timeline.AnimationOutputWeightProcessor/UnityEngine.Timeline.WeightInfo> m_Mixers
+    System::Collections::Generic::List_1<UnityEngine::Timeline::AnimationOutputWeightProcessor::WeightInfo>*& dyn_m_Mixers();
     // public System.Void .ctor(UnityEngine.Animations.AnimationPlayableOutput output)
     // Offset: 0x1814FB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

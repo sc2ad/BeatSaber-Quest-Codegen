@@ -35,10 +35,8 @@ namespace JetBrains::Annotations {
     constexpr operator JetBrains::Annotations::CollectionAccessType() const noexcept {
       return CollectionAccessType;
     }
-    // Get instance field: private JetBrains.Annotations.CollectionAccessType <CollectionAccessType>k__BackingField
-    JetBrains::Annotations::CollectionAccessType _get_$CollectionAccessType$k__BackingField();
-    // Set instance field: private JetBrains.Annotations.CollectionAccessType <CollectionAccessType>k__BackingField
-    void _set_$CollectionAccessType$k__BackingField(JetBrains::Annotations::CollectionAccessType value);
+    // Get instance field reference: private JetBrains.Annotations.CollectionAccessType <CollectionAccessType>k__BackingField
+    JetBrains::Annotations::CollectionAccessType& dyn_$CollectionAccessType$k__BackingField();
     // public JetBrains.Annotations.CollectionAccessType get_CollectionAccessType()
     // Offset: 0x2408390
     JetBrains::Annotations::CollectionAccessType get_CollectionAccessType();

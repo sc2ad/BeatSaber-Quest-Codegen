@@ -43,14 +43,10 @@ namespace GlobalNamespace {
     CustomTimelineTween(::Array<UnityEngine::Transform*>* transforms_ = {}, ::Array<UnityEngine::Vector3>* startPositions_ = {}) noexcept : transforms{transforms_}, startPositions{startPositions_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public UnityEngine.Transform[] transforms
-    ::Array<UnityEngine::Transform*>* _get_transforms();
-    // Set instance field: public UnityEngine.Transform[] transforms
-    void _set_transforms(::Array<UnityEngine::Transform*>* value);
-    // Get instance field: public UnityEngine.Vector3[] startPositions
-    ::Array<UnityEngine::Vector3>* _get_startPositions();
-    // Set instance field: public UnityEngine.Vector3[] startPositions
-    void _set_startPositions(::Array<UnityEngine::Vector3>* value);
+    // Get instance field reference: public UnityEngine.Transform[] transforms
+    ::Array<UnityEngine::Transform*>*& dyn_transforms();
+    // Get instance field reference: public UnityEngine.Vector3[] startPositions
+    ::Array<UnityEngine::Vector3>*& dyn_startPositions();
     // private System.Void OnValidate()
     // Offset: 0x10F7050
     void OnValidate();

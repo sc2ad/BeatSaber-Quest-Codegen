@@ -51,18 +51,12 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: OVR.OpenVR.IVRDriverManager/OVR.OpenVR._GetDriverCount GetDriverCount
-    OVR::OpenVR::IVRDriverManager::_GetDriverCount* _get_GetDriverCount();
-    // Set instance field: OVR.OpenVR.IVRDriverManager/OVR.OpenVR._GetDriverCount GetDriverCount
-    void _set_GetDriverCount(OVR::OpenVR::IVRDriverManager::_GetDriverCount* value);
-    // Get instance field: OVR.OpenVR.IVRDriverManager/OVR.OpenVR._GetDriverName GetDriverName
-    OVR::OpenVR::IVRDriverManager::_GetDriverName* _get_GetDriverName();
-    // Set instance field: OVR.OpenVR.IVRDriverManager/OVR.OpenVR._GetDriverName GetDriverName
-    void _set_GetDriverName(OVR::OpenVR::IVRDriverManager::_GetDriverName* value);
-    // Get instance field: OVR.OpenVR.IVRDriverManager/OVR.OpenVR._GetDriverHandle GetDriverHandle
-    OVR::OpenVR::IVRDriverManager::_GetDriverHandle* _get_GetDriverHandle();
-    // Set instance field: OVR.OpenVR.IVRDriverManager/OVR.OpenVR._GetDriverHandle GetDriverHandle
-    void _set_GetDriverHandle(OVR::OpenVR::IVRDriverManager::_GetDriverHandle* value);
+    // Get instance field reference: OVR.OpenVR.IVRDriverManager/OVR.OpenVR._GetDriverCount GetDriverCount
+    OVR::OpenVR::IVRDriverManager::_GetDriverCount*& dyn_GetDriverCount();
+    // Get instance field reference: OVR.OpenVR.IVRDriverManager/OVR.OpenVR._GetDriverName GetDriverName
+    OVR::OpenVR::IVRDriverManager::_GetDriverName*& dyn_GetDriverName();
+    // Get instance field reference: OVR.OpenVR.IVRDriverManager/OVR.OpenVR._GetDriverHandle GetDriverHandle
+    OVR::OpenVR::IVRDriverManager::_GetDriverHandle*& dyn_GetDriverHandle();
   }; // OVR.OpenVR.IVRDriverManager
   #pragma pack(pop)
   static check_size<sizeof(IVRDriverManager), 16 + sizeof(OVR::OpenVR::IVRDriverManager::_GetDriverHandle*)> __OVR_OpenVR_IVRDriverManagerSizeCheck;

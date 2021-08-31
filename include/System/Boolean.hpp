@@ -109,10 +109,8 @@ namespace System {
     static ::Il2CppString* _get_FalseString();
     // Set static field: static public readonly System.String FalseString
     static void _set_FalseString(::Il2CppString* value);
-    // Get instance field: private System.Boolean m_value
-    bool _get_m_value();
-    // Set instance field: private System.Boolean m_value
-    void _set_m_value(bool value);
+    // Get instance field reference: private System.Boolean m_value
+    bool& dyn_m_value();
     // static private System.Void .cctor()
     // Offset: 0x17D2C58
     static void _cctor();

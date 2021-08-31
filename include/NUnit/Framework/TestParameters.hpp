@@ -48,10 +48,8 @@ namespace NUnit::Framework {
     static System::IFormatProvider* _get_MODIFIED_INVARIANT_CULTURE();
     // Set static field: static private readonly System.IFormatProvider MODIFIED_INVARIANT_CULTURE
     static void _set_MODIFIED_INVARIANT_CULTURE(System::IFormatProvider* value);
-    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,System.String> _parameters
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* _get__parameters();
-    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,System.String> _parameters
-    void _set__parameters(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* value);
+    // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,System.String> _parameters
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*& dyn__parameters();
     // static private System.Void .cctor()
     // Offset: 0x22A5980
     static void _cctor();

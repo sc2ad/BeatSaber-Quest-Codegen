@@ -98,42 +98,24 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, int>*) == 0x8);
     // Creating value type constructor for type: AvatarPartsModel
     AvatarPartsModel(GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* headTopCollection_ = {}, GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarSpritePartSO*>* eyesCollection_ = {}, GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarSpritePartSO*>* mouthCollection_ = {}, GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* glassesCollection_ = {}, GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* facialHairCollection_ = {}, GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* handsCollection_ = {}, GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* clothesCollection_ = {}, ::Array<GlobalNamespace::SkinColorSO*>* skinColors_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* indexById_ = {}) noexcept : headTopCollection{headTopCollection_}, eyesCollection{eyesCollection_}, mouthCollection{mouthCollection_}, glassesCollection{glassesCollection_}, facialHairCollection{facialHairCollection_}, handsCollection{handsCollection_}, clothesCollection{clothesCollection_}, skinColors{skinColors_}, indexById{indexById_} {}
-    // Get instance field: private readonly AvatarPartCollection`1<AvatarMeshPartSO> <headTopCollection>k__BackingField
-    GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* _get_$headTopCollection$k__BackingField();
-    // Set instance field: private readonly AvatarPartCollection`1<AvatarMeshPartSO> <headTopCollection>k__BackingField
-    void _set_$headTopCollection$k__BackingField(GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* value);
-    // Get instance field: private readonly AvatarPartCollection`1<AvatarSpritePartSO> <eyesCollection>k__BackingField
-    GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarSpritePartSO*>* _get_$eyesCollection$k__BackingField();
-    // Set instance field: private readonly AvatarPartCollection`1<AvatarSpritePartSO> <eyesCollection>k__BackingField
-    void _set_$eyesCollection$k__BackingField(GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarSpritePartSO*>* value);
-    // Get instance field: private readonly AvatarPartCollection`1<AvatarSpritePartSO> <mouthCollection>k__BackingField
-    GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarSpritePartSO*>* _get_$mouthCollection$k__BackingField();
-    // Set instance field: private readonly AvatarPartCollection`1<AvatarSpritePartSO> <mouthCollection>k__BackingField
-    void _set_$mouthCollection$k__BackingField(GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarSpritePartSO*>* value);
-    // Get instance field: private readonly AvatarPartCollection`1<AvatarMeshPartSO> <glassesCollection>k__BackingField
-    GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* _get_$glassesCollection$k__BackingField();
-    // Set instance field: private readonly AvatarPartCollection`1<AvatarMeshPartSO> <glassesCollection>k__BackingField
-    void _set_$glassesCollection$k__BackingField(GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* value);
-    // Get instance field: private readonly AvatarPartCollection`1<AvatarMeshPartSO> <facialHairCollection>k__BackingField
-    GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* _get_$facialHairCollection$k__BackingField();
-    // Set instance field: private readonly AvatarPartCollection`1<AvatarMeshPartSO> <facialHairCollection>k__BackingField
-    void _set_$facialHairCollection$k__BackingField(GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* value);
-    // Get instance field: private readonly AvatarPartCollection`1<AvatarMeshPartSO> <handsCollection>k__BackingField
-    GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* _get_$handsCollection$k__BackingField();
-    // Set instance field: private readonly AvatarPartCollection`1<AvatarMeshPartSO> <handsCollection>k__BackingField
-    void _set_$handsCollection$k__BackingField(GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* value);
-    // Get instance field: private readonly AvatarPartCollection`1<AvatarMeshPartSO> <clothesCollection>k__BackingField
-    GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* _get_$clothesCollection$k__BackingField();
-    // Set instance field: private readonly AvatarPartCollection`1<AvatarMeshPartSO> <clothesCollection>k__BackingField
-    void _set_$clothesCollection$k__BackingField(GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* value);
-    // Get instance field: private readonly SkinColorSO[] <skinColors>k__BackingField
-    ::Array<GlobalNamespace::SkinColorSO*>* _get_$skinColors$k__BackingField();
-    // Set instance field: private readonly SkinColorSO[] <skinColors>k__BackingField
-    void _set_$skinColors$k__BackingField(::Array<GlobalNamespace::SkinColorSO*>* value);
-    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Int32> _indexById
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* _get__indexById();
-    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Int32> _indexById
-    void _set__indexById(System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* value);
+    // Get instance field reference: private readonly AvatarPartCollection`1<AvatarMeshPartSO> <headTopCollection>k__BackingField
+    GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>*& dyn_$headTopCollection$k__BackingField();
+    // Get instance field reference: private readonly AvatarPartCollection`1<AvatarSpritePartSO> <eyesCollection>k__BackingField
+    GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarSpritePartSO*>*& dyn_$eyesCollection$k__BackingField();
+    // Get instance field reference: private readonly AvatarPartCollection`1<AvatarSpritePartSO> <mouthCollection>k__BackingField
+    GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarSpritePartSO*>*& dyn_$mouthCollection$k__BackingField();
+    // Get instance field reference: private readonly AvatarPartCollection`1<AvatarMeshPartSO> <glassesCollection>k__BackingField
+    GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>*& dyn_$glassesCollection$k__BackingField();
+    // Get instance field reference: private readonly AvatarPartCollection`1<AvatarMeshPartSO> <facialHairCollection>k__BackingField
+    GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>*& dyn_$facialHairCollection$k__BackingField();
+    // Get instance field reference: private readonly AvatarPartCollection`1<AvatarMeshPartSO> <handsCollection>k__BackingField
+    GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>*& dyn_$handsCollection$k__BackingField();
+    // Get instance field reference: private readonly AvatarPartCollection`1<AvatarMeshPartSO> <clothesCollection>k__BackingField
+    GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>*& dyn_$clothesCollection$k__BackingField();
+    // Get instance field reference: private readonly SkinColorSO[] <skinColors>k__BackingField
+    ::Array<GlobalNamespace::SkinColorSO*>*& dyn_$skinColors$k__BackingField();
+    // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Int32> _indexById
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, int>*& dyn__indexById();
     // public AvatarPartCollection`1<AvatarMeshPartSO> get_headTopCollection()
     // Offset: 0x1181370
     GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* get_headTopCollection();

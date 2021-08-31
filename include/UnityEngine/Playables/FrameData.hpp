@@ -90,10 +90,8 @@ namespace UnityEngine::Playables {
       static UnityEngine::Playables::FrameData::Flags _get_EffectivePlayStatePlaying();
       // Set static field: static public UnityEngine.Playables.FrameData/UnityEngine.Playables.Flags EffectivePlayStatePlaying
       static void _set_EffectivePlayStatePlaying(UnityEngine::Playables::FrameData::Flags value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // UnityEngine.Playables.FrameData/UnityEngine.Playables.Flags
     #pragma pack(pop)
     static check_size<sizeof(FrameData::Flags), 0 + sizeof(int)> __UnityEngine_Playables_FrameData_FlagsSizeCheck;
@@ -160,42 +158,24 @@ namespace UnityEngine::Playables {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: System.UInt64 m_FrameID
-    uint64_t _get_m_FrameID();
-    // Set instance field: System.UInt64 m_FrameID
-    void _set_m_FrameID(uint64_t value);
-    // Get instance field: System.Double m_DeltaTime
-    double _get_m_DeltaTime();
-    // Set instance field: System.Double m_DeltaTime
-    void _set_m_DeltaTime(double value);
-    // Get instance field: System.Single m_Weight
-    float _get_m_Weight();
-    // Set instance field: System.Single m_Weight
-    void _set_m_Weight(float value);
-    // Get instance field: System.Single m_EffectiveWeight
-    float _get_m_EffectiveWeight();
-    // Set instance field: System.Single m_EffectiveWeight
-    void _set_m_EffectiveWeight(float value);
-    // Get instance field: System.Double m_EffectiveParentDelay
-    double _get_m_EffectiveParentDelay();
-    // Set instance field: System.Double m_EffectiveParentDelay
-    void _set_m_EffectiveParentDelay(double value);
-    // Get instance field: System.Single m_EffectiveParentSpeed
-    float _get_m_EffectiveParentSpeed();
-    // Set instance field: System.Single m_EffectiveParentSpeed
-    void _set_m_EffectiveParentSpeed(float value);
-    // Get instance field: System.Single m_EffectiveSpeed
-    float _get_m_EffectiveSpeed();
-    // Set instance field: System.Single m_EffectiveSpeed
-    void _set_m_EffectiveSpeed(float value);
-    // Get instance field: UnityEngine.Playables.FrameData/UnityEngine.Playables.Flags m_Flags
-    UnityEngine::Playables::FrameData::Flags _get_m_Flags();
-    // Set instance field: UnityEngine.Playables.FrameData/UnityEngine.Playables.Flags m_Flags
-    void _set_m_Flags(UnityEngine::Playables::FrameData::Flags value);
-    // Get instance field: UnityEngine.Playables.PlayableOutput m_Output
-    UnityEngine::Playables::PlayableOutput _get_m_Output();
-    // Set instance field: UnityEngine.Playables.PlayableOutput m_Output
-    void _set_m_Output(UnityEngine::Playables::PlayableOutput value);
+    // Get instance field reference: System.UInt64 m_FrameID
+    uint64_t& dyn_m_FrameID();
+    // Get instance field reference: System.Double m_DeltaTime
+    double& dyn_m_DeltaTime();
+    // Get instance field reference: System.Single m_Weight
+    float& dyn_m_Weight();
+    // Get instance field reference: System.Single m_EffectiveWeight
+    float& dyn_m_EffectiveWeight();
+    // Get instance field reference: System.Double m_EffectiveParentDelay
+    double& dyn_m_EffectiveParentDelay();
+    // Get instance field reference: System.Single m_EffectiveParentSpeed
+    float& dyn_m_EffectiveParentSpeed();
+    // Get instance field reference: System.Single m_EffectiveSpeed
+    float& dyn_m_EffectiveSpeed();
+    // Get instance field reference: UnityEngine.Playables.FrameData/UnityEngine.Playables.Flags m_Flags
+    UnityEngine::Playables::FrameData::Flags& dyn_m_Flags();
+    // Get instance field reference: UnityEngine.Playables.PlayableOutput m_Output
+    UnityEngine::Playables::PlayableOutput& dyn_m_Output();
     // public System.Single get_deltaTime()
     // Offset: 0x1D0AB4C
     float get_deltaTime();

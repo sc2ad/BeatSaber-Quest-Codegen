@@ -84,22 +84,14 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Int32 _maxNumberOfAudioClipCachedElements
-    int _get__maxNumberOfAudioClipCachedElements();
-    // Set instance field: private System.Int32 _maxNumberOfAudioClipCachedElements
-    void _set__maxNumberOfAudioClipCachedElements(int value);
-    // Get instance field: private System.Int32 _maxNumberOfSpriteCachedElements
-    int _get__maxNumberOfSpriteCachedElements();
-    // Set instance field: private System.Int32 _maxNumberOfSpriteCachedElements
-    void _set__maxNumberOfSpriteCachedElements(int value);
-    // Get instance field: private AsyncCachedLoader`2<System.String,UnityEngine.AudioClip> _audioAsyncCachedLoader
-    GlobalNamespace::AsyncCachedLoader_2<::Il2CppString*, UnityEngine::AudioClip*>* _get__audioAsyncCachedLoader();
-    // Set instance field: private AsyncCachedLoader`2<System.String,UnityEngine.AudioClip> _audioAsyncCachedLoader
-    void _set__audioAsyncCachedLoader(GlobalNamespace::AsyncCachedLoader_2<::Il2CppString*, UnityEngine::AudioClip*>* value);
-    // Get instance field: private AsyncCachedLoader`2<System.String,UnityEngine.Sprite> _spriteAsyncCachedLoader
-    GlobalNamespace::AsyncCachedLoader_2<::Il2CppString*, UnityEngine::Sprite*>* _get__spriteAsyncCachedLoader();
-    // Set instance field: private AsyncCachedLoader`2<System.String,UnityEngine.Sprite> _spriteAsyncCachedLoader
-    void _set__spriteAsyncCachedLoader(GlobalNamespace::AsyncCachedLoader_2<::Il2CppString*, UnityEngine::Sprite*>* value);
+    // Get instance field reference: private System.Int32 _maxNumberOfAudioClipCachedElements
+    int& dyn__maxNumberOfAudioClipCachedElements();
+    // Get instance field reference: private System.Int32 _maxNumberOfSpriteCachedElements
+    int& dyn__maxNumberOfSpriteCachedElements();
+    // Get instance field reference: private AsyncCachedLoader`2<System.String,UnityEngine.AudioClip> _audioAsyncCachedLoader
+    GlobalNamespace::AsyncCachedLoader_2<::Il2CppString*, UnityEngine::AudioClip*>*& dyn__audioAsyncCachedLoader();
+    // Get instance field reference: private AsyncCachedLoader`2<System.String,UnityEngine.Sprite> _spriteAsyncCachedLoader
+    GlobalNamespace::AsyncCachedLoader_2<::Il2CppString*, UnityEngine::Sprite*>*& dyn__spriteAsyncCachedLoader();
     // public System.Void ClearCache()
     // Offset: 0x23F08C8
     void ClearCache();

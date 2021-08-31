@@ -46,10 +46,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::MainSettingsModelSO::WindowMode _get_Fullscreen();
     // Set static field: static public MainSettingsModelSO/WindowMode Fullscreen
     static void _set_Fullscreen(GlobalNamespace::MainSettingsModelSO::WindowMode value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // MainSettingsModelSO/WindowMode
   #pragma pack(pop)
   static check_size<sizeof(MainSettingsModelSO::WindowMode), 0 + sizeof(int)> __GlobalNamespace_MainSettingsModelSO_WindowModeSizeCheck;

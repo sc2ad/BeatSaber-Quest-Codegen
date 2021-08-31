@@ -36,10 +36,8 @@ namespace Oculus::Platform {
     constexpr operator uint64_t() const noexcept {
       return senderID;
     }
-    // Get instance field: private System.UInt64 senderID
-    uint64_t _get_senderID();
-    // Set instance field: private System.UInt64 senderID
-    void _set_senderID(uint64_t value);
+    // Get instance field reference: private System.UInt64 senderID
+    uint64_t& dyn_senderID();
     // public System.Int32 GetPCM(System.Single[] dest, System.Int32 length)
     // Offset: 0x23DEDFC
     int GetPCM(::Array<float>* dest, int length);

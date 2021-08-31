@@ -50,14 +50,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass5_0*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass5_1
     $$c__DisplayClass5_1(int index_ = {}, GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass5_0* CS$$$8__locals1_ = {}) noexcept : index{index_}, CS$$$8__locals1{CS$$$8__locals1_} {}
-    // Get instance field: public System.Int32 index
-    int _get_index();
-    // Set instance field: public System.Int32 index
-    void _set_index(int value);
-    // Get instance field: public OculusPlatformUserModel/<>c__DisplayClass5_0 CS$<>8__locals1
-    GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass5_0* _get_CS$$$8__locals1();
-    // Set instance field: public OculusPlatformUserModel/<>c__DisplayClass5_0 CS$<>8__locals1
-    void _set_CS$$$8__locals1(GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass5_0* value);
+    // Get instance field reference: public System.Int32 index
+    int& dyn_index();
+    // Get instance field reference: public OculusPlatformUserModel/<>c__DisplayClass5_0 CS$<>8__locals1
+    GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass5_0*& dyn_CS$$$8__locals1();
     // System.Void <GetUserNamesForUserIds>b__1(Oculus.Platform.Message`1<Oculus.Platform.Models.User> result)
     // Offset: 0x10233A8
     void $GetUserNamesForUserIds$b__1(Oculus::Platform::Message_1<Oculus::Platform::Models::User*>* result);

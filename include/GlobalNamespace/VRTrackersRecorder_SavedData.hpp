@@ -39,10 +39,8 @@ namespace GlobalNamespace {
     constexpr operator ::Array<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable*>*() const noexcept {
       return keyframes;
     }
-    // Get instance field: public VRTrackersRecorder/SavedData/KeyframeSerializable[] _keyframes
-    ::Array<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable*>* _get__keyframes();
-    // Set instance field: public VRTrackersRecorder/SavedData/KeyframeSerializable[] _keyframes
-    void _set__keyframes(::Array<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable*>* value);
+    // Get instance field reference: public VRTrackersRecorder/SavedData/KeyframeSerializable[] _keyframes
+    ::Array<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable*>*& dyn__keyframes();
     // public System.Void .ctor()
     // Offset: 0x135EE84
     // Implemented from: System.Object

@@ -68,22 +68,14 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     operator Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*>(this);
     }
-    // Get instance field: private readonly Org.BouncyCastle.Math.EC.ECPoint m_point
-    Org::BouncyCastle::Math::EC::ECPoint* _get_m_point();
-    // Set instance field: private readonly Org.BouncyCastle.Math.EC.ECPoint m_point
-    void _set_m_point(Org::BouncyCastle::Math::EC::ECPoint* value);
-    // Get instance field: private readonly Org.BouncyCastle.Math.EC.ECPointMap m_pointMap
-    Org::BouncyCastle::Math::EC::ECPointMap* _get_m_pointMap();
-    // Set instance field: private readonly Org.BouncyCastle.Math.EC.ECPointMap m_pointMap
-    void _set_m_pointMap(Org::BouncyCastle::Math::EC::ECPointMap* value);
-    // Get instance field: private readonly Org.BouncyCastle.Math.EC.Multiplier.WNafPreCompInfo m_fromWNaf
-    Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* _get_m_fromWNaf();
-    // Set instance field: private readonly Org.BouncyCastle.Math.EC.Multiplier.WNafPreCompInfo m_fromWNaf
-    void _set_m_fromWNaf(Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* value);
-    // Get instance field: private readonly System.Boolean m_includeNegated
-    bool _get_m_includeNegated();
-    // Set instance field: private readonly System.Boolean m_includeNegated
-    void _set_m_includeNegated(bool value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.ECPoint m_point
+    Org::BouncyCastle::Math::EC::ECPoint*& dyn_m_point();
+    // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.ECPointMap m_pointMap
+    Org::BouncyCastle::Math::EC::ECPointMap*& dyn_m_pointMap();
+    // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.Multiplier.WNafPreCompInfo m_fromWNaf
+    Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*& dyn_m_fromWNaf();
+    // Get instance field reference: private readonly System.Boolean m_includeNegated
+    bool& dyn_m_includeNegated();
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECPoint point, Org.BouncyCastle.Math.EC.ECPointMap pointMap, Org.BouncyCastle.Math.EC.Multiplier.WNafPreCompInfo fromWNaf, System.Boolean includeNegated)
     // Offset: 0x1DCAEAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

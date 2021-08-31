@@ -119,26 +119,16 @@ namespace NUnit::Framework::Constraints {
     static ::Il2CppString* _get_ValuesDiffer_2();
     // Set static field: static private readonly System.String ValuesDiffer_2
     static void _set_ValuesDiffer_2(::Il2CppString* value);
-    // Get instance field: private System.Object expectedValue
-    ::Il2CppObject* _get_expectedValue();
-    // Set instance field: private System.Object expectedValue
-    void _set_expectedValue(::Il2CppObject* value);
-    // Get instance field: private NUnit.Framework.Constraints.Tolerance tolerance
-    NUnit::Framework::Constraints::Tolerance* _get_tolerance();
-    // Set instance field: private NUnit.Framework.Constraints.Tolerance tolerance
-    void _set_tolerance(NUnit::Framework::Constraints::Tolerance* value);
-    // Get instance field: private System.Boolean caseInsensitive
-    bool _get_caseInsensitive();
-    // Set instance field: private System.Boolean caseInsensitive
-    void _set_caseInsensitive(bool value);
-    // Get instance field: private System.Boolean clipStrings
-    bool _get_clipStrings();
-    // Set instance field: private System.Boolean clipStrings
-    void _set_clipStrings(bool value);
-    // Get instance field: private System.Collections.Generic.IList`1<NUnit.Framework.Constraints.NUnitEqualityComparer/NUnit.Framework.Constraints.FailurePoint> failurePoints
-    System::Collections::Generic::IList_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>* _get_failurePoints();
-    // Set instance field: private System.Collections.Generic.IList`1<NUnit.Framework.Constraints.NUnitEqualityComparer/NUnit.Framework.Constraints.FailurePoint> failurePoints
-    void _set_failurePoints(System::Collections::Generic::IList_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>* value);
+    // Get instance field reference: private System.Object expectedValue
+    ::Il2CppObject*& dyn_expectedValue();
+    // Get instance field reference: private NUnit.Framework.Constraints.Tolerance tolerance
+    NUnit::Framework::Constraints::Tolerance*& dyn_tolerance();
+    // Get instance field reference: private System.Boolean caseInsensitive
+    bool& dyn_caseInsensitive();
+    // Get instance field reference: private System.Boolean clipStrings
+    bool& dyn_clipStrings();
+    // Get instance field reference: private System.Collections.Generic.IList`1<NUnit.Framework.Constraints.NUnitEqualityComparer/NUnit.Framework.Constraints.FailurePoint> failurePoints
+    System::Collections::Generic::IList_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>*& dyn_failurePoints();
     // public System.Void .ctor(NUnit.Framework.Constraints.EqualConstraint constraint, System.Object actual, System.Boolean hasSucceeded)
     // Offset: 0x17661A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

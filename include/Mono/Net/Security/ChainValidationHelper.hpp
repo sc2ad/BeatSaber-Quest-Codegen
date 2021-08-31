@@ -116,38 +116,22 @@ namespace Mono::Net::Security {
     operator Mono::Security::Interface::ICertificateValidator2() noexcept {
       return *reinterpret_cast<Mono::Security::Interface::ICertificateValidator2*>(this);
     }
-    // Get instance field: private readonly System.Object sender
-    ::Il2CppObject* _get_sender();
-    // Set instance field: private readonly System.Object sender
-    void _set_sender(::Il2CppObject* value);
-    // Get instance field: private readonly Mono.Security.Interface.MonoTlsSettings settings
-    Mono::Security::Interface::MonoTlsSettings* _get_settings();
-    // Set instance field: private readonly Mono.Security.Interface.MonoTlsSettings settings
-    void _set_settings(Mono::Security::Interface::MonoTlsSettings* value);
-    // Get instance field: private readonly Mono.Security.Interface.MonoTlsProvider provider
-    Mono::Security::Interface::MonoTlsProvider* _get_provider();
-    // Set instance field: private readonly Mono.Security.Interface.MonoTlsProvider provider
-    void _set_provider(Mono::Security::Interface::MonoTlsProvider* value);
-    // Get instance field: private readonly System.Net.ServerCertValidationCallback certValidationCallback
-    System::Net::ServerCertValidationCallback* _get_certValidationCallback();
-    // Set instance field: private readonly System.Net.ServerCertValidationCallback certValidationCallback
-    void _set_certValidationCallback(System::Net::ServerCertValidationCallback* value);
-    // Get instance field: private readonly System.Net.Security.LocalCertSelectionCallback certSelectionCallback
-    System::Net::Security::LocalCertSelectionCallback* _get_certSelectionCallback();
-    // Set instance field: private readonly System.Net.Security.LocalCertSelectionCallback certSelectionCallback
-    void _set_certSelectionCallback(System::Net::Security::LocalCertSelectionCallback* value);
-    // Get instance field: private readonly Mono.Net.Security.ServerCertValidationCallbackWrapper callbackWrapper
-    Mono::Net::Security::ServerCertValidationCallbackWrapper* _get_callbackWrapper();
-    // Set instance field: private readonly Mono.Net.Security.ServerCertValidationCallbackWrapper callbackWrapper
-    void _set_callbackWrapper(Mono::Net::Security::ServerCertValidationCallbackWrapper* value);
-    // Get instance field: private readonly Mono.Net.Security.MonoTlsStream tlsStream
-    Mono::Net::Security::MonoTlsStream* _get_tlsStream();
-    // Set instance field: private readonly Mono.Net.Security.MonoTlsStream tlsStream
-    void _set_tlsStream(Mono::Net::Security::MonoTlsStream* value);
-    // Get instance field: private readonly System.Net.HttpWebRequest request
-    System::Net::HttpWebRequest* _get_request();
-    // Set instance field: private readonly System.Net.HttpWebRequest request
-    void _set_request(System::Net::HttpWebRequest* value);
+    // Get instance field reference: private readonly System.Object sender
+    ::Il2CppObject*& dyn_sender();
+    // Get instance field reference: private readonly Mono.Security.Interface.MonoTlsSettings settings
+    Mono::Security::Interface::MonoTlsSettings*& dyn_settings();
+    // Get instance field reference: private readonly Mono.Security.Interface.MonoTlsProvider provider
+    Mono::Security::Interface::MonoTlsProvider*& dyn_provider();
+    // Get instance field reference: private readonly System.Net.ServerCertValidationCallback certValidationCallback
+    System::Net::ServerCertValidationCallback*& dyn_certValidationCallback();
+    // Get instance field reference: private readonly System.Net.Security.LocalCertSelectionCallback certSelectionCallback
+    System::Net::Security::LocalCertSelectionCallback*& dyn_certSelectionCallback();
+    // Get instance field reference: private readonly Mono.Net.Security.ServerCertValidationCallbackWrapper callbackWrapper
+    Mono::Net::Security::ServerCertValidationCallbackWrapper*& dyn_callbackWrapper();
+    // Get instance field reference: private readonly Mono.Net.Security.MonoTlsStream tlsStream
+    Mono::Net::Security::MonoTlsStream*& dyn_tlsStream();
+    // Get instance field reference: private readonly System.Net.HttpWebRequest request
+    System::Net::HttpWebRequest*& dyn_request();
     // public Mono.Security.Interface.MonoTlsSettings get_Settings()
     // Offset: 0x15E73FC
     Mono::Security::Interface::MonoTlsSettings* get_Settings();

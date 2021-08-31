@@ -56,22 +56,14 @@ namespace TMPro {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public TMPro.TMP_Text textComponent
-    TMPro::TMP_Text* _get_textComponent();
-    // Set instance field: public TMPro.TMP_Text textComponent
-    void _set_textComponent(TMPro::TMP_Text* value);
-    // Get instance field: public System.Int32 firstCharacterIndex
-    int _get_firstCharacterIndex();
-    // Set instance field: public System.Int32 firstCharacterIndex
-    void _set_firstCharacterIndex(int value);
-    // Get instance field: public System.Int32 lastCharacterIndex
-    int _get_lastCharacterIndex();
-    // Set instance field: public System.Int32 lastCharacterIndex
-    void _set_lastCharacterIndex(int value);
-    // Get instance field: public System.Int32 characterCount
-    int _get_characterCount();
-    // Set instance field: public System.Int32 characterCount
-    void _set_characterCount(int value);
+    // Get instance field reference: public TMPro.TMP_Text textComponent
+    TMPro::TMP_Text*& dyn_textComponent();
+    // Get instance field reference: public System.Int32 firstCharacterIndex
+    int& dyn_firstCharacterIndex();
+    // Get instance field reference: public System.Int32 lastCharacterIndex
+    int& dyn_lastCharacterIndex();
+    // Get instance field reference: public System.Int32 characterCount
+    int& dyn_characterCount();
     // public System.String GetWord()
     // Offset: 0x1453FDC
     ::Il2CppString* GetWord();

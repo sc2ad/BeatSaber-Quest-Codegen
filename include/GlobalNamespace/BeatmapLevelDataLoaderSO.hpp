@@ -100,18 +100,12 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: public readonly System.String assetBundlePath
-      ::Il2CppString* _get_assetBundlePath();
-      // Set instance field: public readonly System.String assetBundlePath
-      void _set_assetBundlePath(::Il2CppString* value);
-      // Get instance field: public readonly System.String levelDataAssetName
-      ::Il2CppString* _get_levelDataAssetName();
-      // Set instance field: public readonly System.String levelDataAssetName
-      void _set_levelDataAssetName(::Il2CppString* value);
-      // Get instance field: public readonly IPreviewBeatmapLevel previewBeatmapLevel
-      GlobalNamespace::IPreviewBeatmapLevel* _get_previewBeatmapLevel();
-      // Set instance field: public readonly IPreviewBeatmapLevel previewBeatmapLevel
-      void _set_previewBeatmapLevel(GlobalNamespace::IPreviewBeatmapLevel* value);
+      // Get instance field reference: public readonly System.String assetBundlePath
+      ::Il2CppString*& dyn_assetBundlePath();
+      // Get instance field reference: public readonly System.String levelDataAssetName
+      ::Il2CppString*& dyn_levelDataAssetName();
+      // Get instance field reference: public readonly IPreviewBeatmapLevel previewBeatmapLevel
+      GlobalNamespace::IPreviewBeatmapLevel*& dyn_previewBeatmapLevel();
       // public System.Void .ctor(System.String assetBundlePath, System.String levelDataAssetName, IPreviewBeatmapLevel previewBeatmapLevel)
       // Offset: 0x11F795C
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -142,18 +136,12 @@ namespace GlobalNamespace {
     BeatmapLevelDataLoaderSO(GlobalNamespace::BeatmapCharacteristicCollectionSO* allBeatmapCharacteristicCollection_ = {}, GlobalNamespace::AsyncCache_2<::Il2CppString*, GlobalNamespace::IBeatmapLevel*>* beatmapLevelsAsyncCache_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::BeatmapLevelDataLoaderSO::AssetBundleLevelInfo>* bundleLevelInfos_ = {}) noexcept : allBeatmapCharacteristicCollection{allBeatmapCharacteristicCollection_}, beatmapLevelsAsyncCache{beatmapLevelsAsyncCache_}, bundleLevelInfos{bundleLevelInfos_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private BeatmapCharacteristicCollectionSO _allBeatmapCharacteristicCollection
-    GlobalNamespace::BeatmapCharacteristicCollectionSO* _get__allBeatmapCharacteristicCollection();
-    // Set instance field: private BeatmapCharacteristicCollectionSO _allBeatmapCharacteristicCollection
-    void _set__allBeatmapCharacteristicCollection(GlobalNamespace::BeatmapCharacteristicCollectionSO* value);
-    // Get instance field: private AsyncCache`2<System.String,IBeatmapLevel> _beatmapLevelsAsyncCache
-    GlobalNamespace::AsyncCache_2<::Il2CppString*, GlobalNamespace::IBeatmapLevel*>* _get__beatmapLevelsAsyncCache();
-    // Set instance field: private AsyncCache`2<System.String,IBeatmapLevel> _beatmapLevelsAsyncCache
-    void _set__beatmapLevelsAsyncCache(GlobalNamespace::AsyncCache_2<::Il2CppString*, GlobalNamespace::IBeatmapLevel*>* value);
-    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,BeatmapLevelDataLoaderSO/AssetBundleLevelInfo> _bundleLevelInfos
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::BeatmapLevelDataLoaderSO::AssetBundleLevelInfo>* _get__bundleLevelInfos();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,BeatmapLevelDataLoaderSO/AssetBundleLevelInfo> _bundleLevelInfos
-    void _set__bundleLevelInfos(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::BeatmapLevelDataLoaderSO::AssetBundleLevelInfo>* value);
+    // Get instance field reference: private BeatmapCharacteristicCollectionSO _allBeatmapCharacteristicCollection
+    GlobalNamespace::BeatmapCharacteristicCollectionSO*& dyn__allBeatmapCharacteristicCollection();
+    // Get instance field reference: private AsyncCache`2<System.String,IBeatmapLevel> _beatmapLevelsAsyncCache
+    GlobalNamespace::AsyncCache_2<::Il2CppString*, GlobalNamespace::IBeatmapLevel*>*& dyn__beatmapLevelsAsyncCache();
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,BeatmapLevelDataLoaderSO/AssetBundleLevelInfo> _bundleLevelInfos
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::BeatmapLevelDataLoaderSO::AssetBundleLevelInfo>*& dyn__bundleLevelInfos();
     // public System.Threading.Tasks.Task`1<IBeatmapLevel> LoadBeatmapLevelFormAssetBundleAsync(IPreviewBeatmapLevel previewBeatmapLevel, System.String assetBundlePath, System.String levelDataAssetName, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x11F67A0
     System::Threading::Tasks::Task_1<GlobalNamespace::IBeatmapLevel*>* LoadBeatmapLevelFormAssetBundleAsync(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::Il2CppString* assetBundlePath, ::Il2CppString* levelDataAssetName, System::Threading::CancellationToken cancellationToken);

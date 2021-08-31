@@ -35,10 +35,8 @@ namespace System::ComponentModel {
     constexpr operator System::ComponentModel::EditorBrowsableState() const noexcept {
       return browsableState;
     }
-    // Get instance field: private System.ComponentModel.EditorBrowsableState browsableState
-    System::ComponentModel::EditorBrowsableState _get_browsableState();
-    // Set instance field: private System.ComponentModel.EditorBrowsableState browsableState
-    void _set_browsableState(System::ComponentModel::EditorBrowsableState value);
+    // Get instance field reference: private System.ComponentModel.EditorBrowsableState browsableState
+    System::ComponentModel::EditorBrowsableState& dyn_browsableState();
     // public System.Void .ctor(System.ComponentModel.EditorBrowsableState state)
     // Offset: 0x18AF650
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

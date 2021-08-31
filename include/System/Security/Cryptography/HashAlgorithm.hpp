@@ -53,22 +53,14 @@ namespace System::Security::Cryptography {
     operator System::Security::Cryptography::ICryptoTransform() noexcept {
       return *reinterpret_cast<System::Security::Cryptography::ICryptoTransform*>(this);
     }
-    // Get instance field: protected System.Int32 HashSizeValue
-    int _get_HashSizeValue();
-    // Set instance field: protected System.Int32 HashSizeValue
-    void _set_HashSizeValue(int value);
-    // Get instance field: protected internal System.Byte[] HashValue
-    ::Array<uint8_t>* _get_HashValue();
-    // Set instance field: protected internal System.Byte[] HashValue
-    void _set_HashValue(::Array<uint8_t>* value);
-    // Get instance field: protected System.Int32 State
-    int _get_State();
-    // Set instance field: protected System.Int32 State
-    void _set_State(int value);
-    // Get instance field: private System.Boolean m_bDisposed
-    bool _get_m_bDisposed();
-    // Set instance field: private System.Boolean m_bDisposed
-    void _set_m_bDisposed(bool value);
+    // Get instance field reference: protected System.Int32 HashSizeValue
+    int& dyn_HashSizeValue();
+    // Get instance field reference: protected internal System.Byte[] HashValue
+    ::Array<uint8_t>*& dyn_HashValue();
+    // Get instance field reference: protected System.Int32 State
+    int& dyn_State();
+    // Get instance field reference: private System.Boolean m_bDisposed
+    bool& dyn_m_bDisposed();
     // public System.Int32 get_HashSize()
     // Offset: 0x198FF88
     int get_HashSize();

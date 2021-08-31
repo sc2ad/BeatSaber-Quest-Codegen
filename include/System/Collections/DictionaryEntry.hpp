@@ -41,14 +41,10 @@ namespace System::Collections {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private System.Object _key
-    ::Il2CppObject* _get__key();
-    // Set instance field: private System.Object _key
-    void _set__key(::Il2CppObject* value);
-    // Get instance field: private System.Object _value
-    ::Il2CppObject* _get__value();
-    // Set instance field: private System.Object _value
-    void _set__value(::Il2CppObject* value);
+    // Get instance field reference: private System.Object _key
+    ::Il2CppObject*& dyn__key();
+    // Get instance field reference: private System.Object _value
+    ::Il2CppObject*& dyn__value();
     // public System.Object get_Key()
     // Offset: 0x17DB0B0
     ::Il2CppObject* get_Key();

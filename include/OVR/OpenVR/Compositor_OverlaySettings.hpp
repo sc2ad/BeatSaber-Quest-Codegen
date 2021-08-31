@@ -110,62 +110,34 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.UInt32 size
-    uint _get_size();
-    // Set instance field: public System.UInt32 size
-    void _set_size(uint value);
-    // Get instance field: public System.Boolean curved
-    bool _get_curved();
-    // Set instance field: public System.Boolean curved
-    void _set_curved(bool value);
-    // Get instance field: public System.Boolean antialias
-    bool _get_antialias();
-    // Set instance field: public System.Boolean antialias
-    void _set_antialias(bool value);
-    // Get instance field: public System.Single scale
-    float _get_scale();
-    // Set instance field: public System.Single scale
-    void _set_scale(float value);
-    // Get instance field: public System.Single distance
-    float _get_distance();
-    // Set instance field: public System.Single distance
-    void _set_distance(float value);
-    // Get instance field: public System.Single alpha
-    float _get_alpha();
-    // Set instance field: public System.Single alpha
-    void _set_alpha(float value);
-    // Get instance field: public System.Single uOffset
-    float _get_uOffset();
-    // Set instance field: public System.Single uOffset
-    void _set_uOffset(float value);
-    // Get instance field: public System.Single vOffset
-    float _get_vOffset();
-    // Set instance field: public System.Single vOffset
-    void _set_vOffset(float value);
-    // Get instance field: public System.Single uScale
-    float _get_uScale();
-    // Set instance field: public System.Single uScale
-    void _set_uScale(float value);
-    // Get instance field: public System.Single vScale
-    float _get_vScale();
-    // Set instance field: public System.Single vScale
-    void _set_vScale(float value);
-    // Get instance field: public System.Single gridDivs
-    float _get_gridDivs();
-    // Set instance field: public System.Single gridDivs
-    void _set_gridDivs(float value);
-    // Get instance field: public System.Single gridWidth
-    float _get_gridWidth();
-    // Set instance field: public System.Single gridWidth
-    void _set_gridWidth(float value);
-    // Get instance field: public System.Single gridScale
-    float _get_gridScale();
-    // Set instance field: public System.Single gridScale
-    void _set_gridScale(float value);
-    // Get instance field: public OVR.OpenVR.HmdMatrix44_t transform
-    OVR::OpenVR::HmdMatrix44_t _get_transform();
-    // Set instance field: public OVR.OpenVR.HmdMatrix44_t transform
-    void _set_transform(OVR::OpenVR::HmdMatrix44_t value);
+    // Get instance field reference: public System.UInt32 size
+    uint& dyn_size();
+    // Get instance field reference: public System.Boolean curved
+    bool& dyn_curved();
+    // Get instance field reference: public System.Boolean antialias
+    bool& dyn_antialias();
+    // Get instance field reference: public System.Single scale
+    float& dyn_scale();
+    // Get instance field reference: public System.Single distance
+    float& dyn_distance();
+    // Get instance field reference: public System.Single alpha
+    float& dyn_alpha();
+    // Get instance field reference: public System.Single uOffset
+    float& dyn_uOffset();
+    // Get instance field reference: public System.Single vOffset
+    float& dyn_vOffset();
+    // Get instance field reference: public System.Single uScale
+    float& dyn_uScale();
+    // Get instance field reference: public System.Single vScale
+    float& dyn_vScale();
+    // Get instance field reference: public System.Single gridDivs
+    float& dyn_gridDivs();
+    // Get instance field reference: public System.Single gridWidth
+    float& dyn_gridWidth();
+    // Get instance field reference: public System.Single gridScale
+    float& dyn_gridScale();
+    // Get instance field reference: public OVR.OpenVR.HmdMatrix44_t transform
+    OVR::OpenVR::HmdMatrix44_t& dyn_transform();
   }; // OVR.OpenVR.Compositor_OverlaySettings
   #pragma pack(pop)
   static check_size<sizeof(Compositor_OverlaySettings), 48 + sizeof(OVR::OpenVR::HmdMatrix44_t)> __OVR_OpenVR_Compositor_OverlaySettingsSizeCheck;

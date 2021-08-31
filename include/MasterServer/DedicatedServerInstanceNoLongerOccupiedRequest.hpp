@@ -65,18 +65,12 @@ namespace MasterServer {
     }
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
-    // Get instance field: private System.String <dedicatedServerId>k__BackingField
-    ::Il2CppString* _get_$dedicatedServerId$k__BackingField();
-    // Set instance field: private System.String <dedicatedServerId>k__BackingField
-    void _set_$dedicatedServerId$k__BackingField(::Il2CppString* value);
-    // Get instance field: private System.Int64 <dedicatedServerCreationTime>k__BackingField
-    int64_t _get_$dedicatedServerCreationTime$k__BackingField();
-    // Set instance field: private System.Int64 <dedicatedServerCreationTime>k__BackingField
-    void _set_$dedicatedServerCreationTime$k__BackingField(int64_t value);
-    // Get instance field: public System.String id
-    ::Il2CppString* _get_id();
-    // Set instance field: public System.String id
-    void _set_id(::Il2CppString* value);
+    // Get instance field reference: private System.String <dedicatedServerId>k__BackingField
+    ::Il2CppString*& dyn_$dedicatedServerId$k__BackingField();
+    // Get instance field reference: private System.Int64 <dedicatedServerCreationTime>k__BackingField
+    int64_t& dyn_$dedicatedServerCreationTime$k__BackingField();
+    // Get instance field reference: public System.String id
+    ::Il2CppString*& dyn_id();
     // static public PacketPool`1<MasterServer.DedicatedServerInstanceNoLongerOccupiedRequest> get_pool()
     // Offset: 0x12169B8
     static GlobalNamespace::PacketPool_1<MasterServer::DedicatedServerInstanceNoLongerOccupiedRequest*>* get_pool();

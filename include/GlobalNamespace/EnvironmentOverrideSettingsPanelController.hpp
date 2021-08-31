@@ -119,42 +119,24 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.UI.Toggle _overrideEnvironmentsToggle
-    UnityEngine::UI::Toggle* _get__overrideEnvironmentsToggle();
-    // Set instance field: private UnityEngine.UI.Toggle _overrideEnvironmentsToggle
-    void _set__overrideEnvironmentsToggle(UnityEngine::UI::Toggle* value);
-    // Get instance field: private UnityEngine.GameObject _elementsGO
-    UnityEngine::GameObject* _get__elementsGO();
-    // Set instance field: private UnityEngine.GameObject _elementsGO
-    void _set__elementsGO(UnityEngine::GameObject* value);
-    // Get instance field: private EnvironmentOverrideSettingsPanelController/Elements[] _elements
-    ::Array<GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*>* _get__elements();
-    // Set instance field: private EnvironmentOverrideSettingsPanelController/Elements[] _elements
-    void _set__elements(::Array<GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*>* value);
-    // Get instance field: private HMUI.PanelAnimationSO _presentPanelAnimation
-    HMUI::PanelAnimationSO* _get__presentPanelAnimation();
-    // Set instance field: private HMUI.PanelAnimationSO _presentPanelAnimation
-    void _set__presentPanelAnimation(HMUI::PanelAnimationSO* value);
-    // Get instance field: private HMUI.PanelAnimationSO _dismissPanelAnimation
-    HMUI::PanelAnimationSO* _get__dismissPanelAnimation();
-    // Set instance field: private HMUI.PanelAnimationSO _dismissPanelAnimation
-    void _set__dismissPanelAnimation(HMUI::PanelAnimationSO* value);
-    // Get instance field: private EnvironmentsListSO _allEnvironments
-    GlobalNamespace::EnvironmentsListSO* _get__allEnvironments();
-    // Set instance field: private EnvironmentsListSO _allEnvironments
-    void _set__allEnvironments(GlobalNamespace::EnvironmentsListSO* value);
-    // Get instance field: private readonly IAnalyticsModel _analyticsModel
-    GlobalNamespace::IAnalyticsModel* _get__analyticsModel();
-    // Set instance field: private readonly IAnalyticsModel _analyticsModel
-    void _set__analyticsModel(GlobalNamespace::IAnalyticsModel* value);
-    // Get instance field: private OverrideEnvironmentSettings _overrideEnvironmentSettings
-    GlobalNamespace::OverrideEnvironmentSettings* _get__overrideEnvironmentSettings();
-    // Set instance field: private OverrideEnvironmentSettings _overrideEnvironmentSettings
-    void _set__overrideEnvironmentSettings(GlobalNamespace::OverrideEnvironmentSettings* value);
-    // Get instance field: private System.Boolean _initialized
-    bool _get__initialized();
-    // Set instance field: private System.Boolean _initialized
-    void _set__initialized(bool value);
+    // Get instance field reference: private UnityEngine.UI.Toggle _overrideEnvironmentsToggle
+    UnityEngine::UI::Toggle*& dyn__overrideEnvironmentsToggle();
+    // Get instance field reference: private UnityEngine.GameObject _elementsGO
+    UnityEngine::GameObject*& dyn__elementsGO();
+    // Get instance field reference: private EnvironmentOverrideSettingsPanelController/Elements[] _elements
+    ::Array<GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*>*& dyn__elements();
+    // Get instance field reference: private HMUI.PanelAnimationSO _presentPanelAnimation
+    HMUI::PanelAnimationSO*& dyn__presentPanelAnimation();
+    // Get instance field reference: private HMUI.PanelAnimationSO _dismissPanelAnimation
+    HMUI::PanelAnimationSO*& dyn__dismissPanelAnimation();
+    // Get instance field reference: private EnvironmentsListSO _allEnvironments
+    GlobalNamespace::EnvironmentsListSO*& dyn__allEnvironments();
+    // Get instance field reference: private readonly IAnalyticsModel _analyticsModel
+    GlobalNamespace::IAnalyticsModel*& dyn__analyticsModel();
+    // Get instance field reference: private OverrideEnvironmentSettings _overrideEnvironmentSettings
+    GlobalNamespace::OverrideEnvironmentSettings*& dyn__overrideEnvironmentSettings();
+    // Get instance field reference: private System.Boolean _initialized
+    bool& dyn__initialized();
     // public OverrideEnvironmentSettings get_overrideEnvironmentSettings()
     // Offset: 0x1051FB8
     GlobalNamespace::OverrideEnvironmentSettings* get_overrideEnvironmentSettings();

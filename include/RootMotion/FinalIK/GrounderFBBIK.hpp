@@ -87,34 +87,20 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: GrounderFBBIK
     GrounderFBBIK(RootMotion::FinalIK::FullBodyBipedIK* ik_ = {}, float spineBend_ = {}, float spineSpeed_ = {}, ::Array<RootMotion::FinalIK::GrounderFBBIK::SpineEffector*>* spine_ = {}, ::Array<UnityEngine::Transform*>* feet_ = {}, UnityEngine::Vector3 spineOffset_ = {}, bool firstSolve_ = {}) noexcept : ik{ik_}, spineBend{spineBend_}, spineSpeed{spineSpeed_}, spine{spine_}, feet{feet_}, spineOffset{spineOffset_}, firstSolve{firstSolve_} {}
-    // Get instance field: public RootMotion.FinalIK.FullBodyBipedIK ik
-    RootMotion::FinalIK::FullBodyBipedIK* _get_ik();
-    // Set instance field: public RootMotion.FinalIK.FullBodyBipedIK ik
-    void _set_ik(RootMotion::FinalIK::FullBodyBipedIK* value);
-    // Get instance field: public System.Single spineBend
-    float _get_spineBend();
-    // Set instance field: public System.Single spineBend
-    void _set_spineBend(float value);
-    // Get instance field: public System.Single spineSpeed
-    float _get_spineSpeed();
-    // Set instance field: public System.Single spineSpeed
-    void _set_spineSpeed(float value);
-    // Get instance field: public RootMotion.FinalIK.GrounderFBBIK/RootMotion.FinalIK.SpineEffector[] spine
-    ::Array<RootMotion::FinalIK::GrounderFBBIK::SpineEffector*>* _get_spine();
-    // Set instance field: public RootMotion.FinalIK.GrounderFBBIK/RootMotion.FinalIK.SpineEffector[] spine
-    void _set_spine(::Array<RootMotion::FinalIK::GrounderFBBIK::SpineEffector*>* value);
-    // Get instance field: private UnityEngine.Transform[] feet
-    ::Array<UnityEngine::Transform*>* _get_feet();
-    // Set instance field: private UnityEngine.Transform[] feet
-    void _set_feet(::Array<UnityEngine::Transform*>* value);
-    // Get instance field: private UnityEngine.Vector3 spineOffset
-    UnityEngine::Vector3 _get_spineOffset();
-    // Set instance field: private UnityEngine.Vector3 spineOffset
-    void _set_spineOffset(UnityEngine::Vector3 value);
-    // Get instance field: private System.Boolean firstSolve
-    bool _get_firstSolve();
-    // Set instance field: private System.Boolean firstSolve
-    void _set_firstSolve(bool value);
+    // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedIK ik
+    RootMotion::FinalIK::FullBodyBipedIK*& dyn_ik();
+    // Get instance field reference: public System.Single spineBend
+    float& dyn_spineBend();
+    // Get instance field reference: public System.Single spineSpeed
+    float& dyn_spineSpeed();
+    // Get instance field reference: public RootMotion.FinalIK.GrounderFBBIK/RootMotion.FinalIK.SpineEffector[] spine
+    ::Array<RootMotion::FinalIK::GrounderFBBIK::SpineEffector*>*& dyn_spine();
+    // Get instance field reference: private UnityEngine.Transform[] feet
+    ::Array<UnityEngine::Transform*>*& dyn_feet();
+    // Get instance field reference: private UnityEngine.Vector3 spineOffset
+    UnityEngine::Vector3& dyn_spineOffset();
+    // Get instance field reference: private System.Boolean firstSolve
+    bool& dyn_firstSolve();
     // private System.Void OpenTutorial()
     // Offset: 0x1CC5348
     void OpenTutorial();

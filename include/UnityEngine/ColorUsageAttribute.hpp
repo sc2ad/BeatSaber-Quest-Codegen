@@ -65,30 +65,18 @@ namespace UnityEngine {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: ColorUsageAttribute
     ColorUsageAttribute(bool showAlpha_ = {}, bool hdr_ = {}, float minBrightness_ = {}, float maxBrightness_ = {}, float minExposureValue_ = {}, float maxExposureValue_ = {}) noexcept : showAlpha{showAlpha_}, hdr{hdr_}, minBrightness{minBrightness_}, maxBrightness{maxBrightness_}, minExposureValue{minExposureValue_}, maxExposureValue{maxExposureValue_} {}
-    // Get instance field: public readonly System.Boolean showAlpha
-    bool _get_showAlpha();
-    // Set instance field: public readonly System.Boolean showAlpha
-    void _set_showAlpha(bool value);
-    // Get instance field: public readonly System.Boolean hdr
-    bool _get_hdr();
-    // Set instance field: public readonly System.Boolean hdr
-    void _set_hdr(bool value);
-    // Get instance field: public readonly System.Single minBrightness
-    float _get_minBrightness();
-    // Set instance field: public readonly System.Single minBrightness
-    void _set_minBrightness(float value);
-    // Get instance field: public readonly System.Single maxBrightness
-    float _get_maxBrightness();
-    // Set instance field: public readonly System.Single maxBrightness
-    void _set_maxBrightness(float value);
-    // Get instance field: public readonly System.Single minExposureValue
-    float _get_minExposureValue();
-    // Set instance field: public readonly System.Single minExposureValue
-    void _set_minExposureValue(float value);
-    // Get instance field: public readonly System.Single maxExposureValue
-    float _get_maxExposureValue();
-    // Set instance field: public readonly System.Single maxExposureValue
-    void _set_maxExposureValue(float value);
+    // Get instance field reference: public readonly System.Boolean showAlpha
+    bool& dyn_showAlpha();
+    // Get instance field reference: public readonly System.Boolean hdr
+    bool& dyn_hdr();
+    // Get instance field reference: public readonly System.Single minBrightness
+    float& dyn_minBrightness();
+    // Get instance field reference: public readonly System.Single maxBrightness
+    float& dyn_maxBrightness();
+    // Get instance field reference: public readonly System.Single minExposureValue
+    float& dyn_minExposureValue();
+    // Get instance field reference: public readonly System.Single maxExposureValue
+    float& dyn_maxExposureValue();
     // public System.Void .ctor(System.Boolean showAlpha)
     // Offset: 0x1C22DC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

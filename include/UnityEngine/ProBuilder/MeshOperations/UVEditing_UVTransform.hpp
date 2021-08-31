@@ -45,18 +45,12 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public UnityEngine.Vector2 translation
-    UnityEngine::Vector2 _get_translation();
-    // Set instance field: public UnityEngine.Vector2 translation
-    void _set_translation(UnityEngine::Vector2 value);
-    // Get instance field: public System.Single rotation
-    float _get_rotation();
-    // Set instance field: public System.Single rotation
-    void _set_rotation(float value);
-    // Get instance field: public UnityEngine.Vector2 scale
-    UnityEngine::Vector2 _get_scale();
-    // Set instance field: public UnityEngine.Vector2 scale
-    void _set_scale(UnityEngine::Vector2 value);
+    // Get instance field reference: public UnityEngine.Vector2 translation
+    UnityEngine::Vector2& dyn_translation();
+    // Get instance field reference: public System.Single rotation
+    float& dyn_rotation();
+    // Get instance field reference: public UnityEngine.Vector2 scale
+    UnityEngine::Vector2& dyn_scale();
     // public override System.String ToString()
     // Offset: 0x174C15C
     // Implemented from: System.ValueType

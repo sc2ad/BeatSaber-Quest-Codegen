@@ -47,14 +47,10 @@ namespace Oculus::Platform {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
-    // Get instance field: private readonly System.UInt64 size
-    uint64_t _get_size();
-    // Set instance field: private readonly System.UInt64 size
-    void _set_size(uint64_t value);
-    // Get instance field: private readonly System.IntPtr packetHandle
-    System::IntPtr _get_packetHandle();
-    // Set instance field: private readonly System.IntPtr packetHandle
-    void _set_packetHandle(System::IntPtr value);
+    // Get instance field reference: private readonly System.UInt64 size
+    uint64_t& dyn_size();
+    // Get instance field reference: private readonly System.IntPtr packetHandle
+    System::IntPtr& dyn_packetHandle();
     // public System.UInt64 get_SenderID()
     // Offset: 0x14F4000
     uint64_t get_SenderID();

@@ -121,62 +121,34 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public OVRPlugin/OverlayShape Shape
-    GlobalNamespace::OVRPlugin::OverlayShape _get_Shape();
-    // Set instance field: public OVRPlugin/OverlayShape Shape
-    void _set_Shape(GlobalNamespace::OVRPlugin::OverlayShape value);
-    // Get instance field: public OVRPlugin/LayerLayout Layout
-    GlobalNamespace::OVRPlugin::LayerLayout _get_Layout();
-    // Set instance field: public OVRPlugin/LayerLayout Layout
-    void _set_Layout(GlobalNamespace::OVRPlugin::LayerLayout value);
-    // Get instance field: public OVRPlugin/Sizei TextureSize
-    GlobalNamespace::OVRPlugin::Sizei _get_TextureSize();
-    // Set instance field: public OVRPlugin/Sizei TextureSize
-    void _set_TextureSize(GlobalNamespace::OVRPlugin::Sizei value);
-    // Get instance field: public System.Int32 MipLevels
-    int _get_MipLevels();
-    // Set instance field: public System.Int32 MipLevels
-    void _set_MipLevels(int value);
-    // Get instance field: public System.Int32 SampleCount
-    int _get_SampleCount();
-    // Set instance field: public System.Int32 SampleCount
-    void _set_SampleCount(int value);
-    // Get instance field: public OVRPlugin/EyeTextureFormat Format
-    GlobalNamespace::OVRPlugin::EyeTextureFormat _get_Format();
-    // Set instance field: public OVRPlugin/EyeTextureFormat Format
-    void _set_Format(GlobalNamespace::OVRPlugin::EyeTextureFormat value);
-    // Get instance field: public System.Int32 LayerFlags
-    int _get_LayerFlags();
-    // Set instance field: public System.Int32 LayerFlags
-    void _set_LayerFlags(int value);
-    // Get instance field: public OVRPlugin/Fovf[] Fov
-    ::Array<GlobalNamespace::OVRPlugin::Fovf>* _get_Fov();
-    // Set instance field: public OVRPlugin/Fovf[] Fov
-    void _set_Fov(::Array<GlobalNamespace::OVRPlugin::Fovf>* value);
-    // Get instance field: public OVRPlugin/Rectf[] VisibleRect
-    ::Array<GlobalNamespace::OVRPlugin::Rectf>* _get_VisibleRect();
-    // Set instance field: public OVRPlugin/Rectf[] VisibleRect
-    void _set_VisibleRect(::Array<GlobalNamespace::OVRPlugin::Rectf>* value);
-    // Get instance field: public OVRPlugin/Sizei MaxViewportSize
-    GlobalNamespace::OVRPlugin::Sizei _get_MaxViewportSize();
-    // Set instance field: public OVRPlugin/Sizei MaxViewportSize
-    void _set_MaxViewportSize(GlobalNamespace::OVRPlugin::Sizei value);
-    // Get instance field: public OVRPlugin/EyeTextureFormat DepthFormat
-    GlobalNamespace::OVRPlugin::EyeTextureFormat _get_DepthFormat();
-    // Set instance field: public OVRPlugin/EyeTextureFormat DepthFormat
-    void _set_DepthFormat(GlobalNamespace::OVRPlugin::EyeTextureFormat value);
-    // Get instance field: public OVRPlugin/EyeTextureFormat MotionVectorFormat
-    GlobalNamespace::OVRPlugin::EyeTextureFormat _get_MotionVectorFormat();
-    // Set instance field: public OVRPlugin/EyeTextureFormat MotionVectorFormat
-    void _set_MotionVectorFormat(GlobalNamespace::OVRPlugin::EyeTextureFormat value);
-    // Get instance field: public OVRPlugin/EyeTextureFormat MotionVectorDepthFormat
-    GlobalNamespace::OVRPlugin::EyeTextureFormat _get_MotionVectorDepthFormat();
-    // Set instance field: public OVRPlugin/EyeTextureFormat MotionVectorDepthFormat
-    void _set_MotionVectorDepthFormat(GlobalNamespace::OVRPlugin::EyeTextureFormat value);
-    // Get instance field: public OVRPlugin/Sizei MotionVectorTextureSize
-    GlobalNamespace::OVRPlugin::Sizei _get_MotionVectorTextureSize();
-    // Set instance field: public OVRPlugin/Sizei MotionVectorTextureSize
-    void _set_MotionVectorTextureSize(GlobalNamespace::OVRPlugin::Sizei value);
+    // Get instance field reference: public OVRPlugin/OverlayShape Shape
+    GlobalNamespace::OVRPlugin::OverlayShape& dyn_Shape();
+    // Get instance field reference: public OVRPlugin/LayerLayout Layout
+    GlobalNamespace::OVRPlugin::LayerLayout& dyn_Layout();
+    // Get instance field reference: public OVRPlugin/Sizei TextureSize
+    GlobalNamespace::OVRPlugin::Sizei& dyn_TextureSize();
+    // Get instance field reference: public System.Int32 MipLevels
+    int& dyn_MipLevels();
+    // Get instance field reference: public System.Int32 SampleCount
+    int& dyn_SampleCount();
+    // Get instance field reference: public OVRPlugin/EyeTextureFormat Format
+    GlobalNamespace::OVRPlugin::EyeTextureFormat& dyn_Format();
+    // Get instance field reference: public System.Int32 LayerFlags
+    int& dyn_LayerFlags();
+    // Get instance field reference: public OVRPlugin/Fovf[] Fov
+    ::Array<GlobalNamespace::OVRPlugin::Fovf>*& dyn_Fov();
+    // Get instance field reference: public OVRPlugin/Rectf[] VisibleRect
+    ::Array<GlobalNamespace::OVRPlugin::Rectf>*& dyn_VisibleRect();
+    // Get instance field reference: public OVRPlugin/Sizei MaxViewportSize
+    GlobalNamespace::OVRPlugin::Sizei& dyn_MaxViewportSize();
+    // Get instance field reference: public OVRPlugin/EyeTextureFormat DepthFormat
+    GlobalNamespace::OVRPlugin::EyeTextureFormat& dyn_DepthFormat();
+    // Get instance field reference: public OVRPlugin/EyeTextureFormat MotionVectorFormat
+    GlobalNamespace::OVRPlugin::EyeTextureFormat& dyn_MotionVectorFormat();
+    // Get instance field reference: public OVRPlugin/EyeTextureFormat MotionVectorDepthFormat
+    GlobalNamespace::OVRPlugin::EyeTextureFormat& dyn_MotionVectorDepthFormat();
+    // Get instance field reference: public OVRPlugin/Sizei MotionVectorTextureSize
+    GlobalNamespace::OVRPlugin::Sizei& dyn_MotionVectorTextureSize();
     // public override System.String ToString()
     // Offset: 0x1626C0C
     // Implemented from: System.ValueType

@@ -66,14 +66,10 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::Edge _get_Empty();
     // Set static field: static public readonly UnityEngine.ProBuilder.Edge Empty
     static void _set_Empty(UnityEngine::ProBuilder::Edge value);
-    // Get instance field: public System.Int32 a
-    int _get_a();
-    // Set instance field: public System.Int32 a
-    void _set_a(int value);
-    // Get instance field: public System.Int32 b
-    int _get_b();
-    // Set instance field: public System.Int32 b
-    void _set_b(int value);
+    // Get instance field reference: public System.Int32 a
+    int& dyn_a();
+    // Get instance field reference: public System.Int32 b
+    int& dyn_b();
     // public System.Void .ctor(System.Int32 a, System.Int32 b)
     // Offset: 0x1FBB308
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

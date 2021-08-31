@@ -73,26 +73,16 @@ namespace Zenject {
     static_assert(sizeof(Zenject::InjectContext*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass11_0
     $$c__DisplayClass11_0(Zenject::TransientProvider* $$4__this_ = {}, ::Il2CppObject* instance_ = {}, System::Type* instanceType_ = {}, System::Collections::Generic::List_1<Zenject::TypeValuePair>* extraArgs_ = {}, Zenject::InjectContext* context_ = {}) noexcept : $$4__this{$$4__this_}, instance{instance_}, instanceType{instanceType_}, extraArgs{extraArgs_}, context{context_} {}
-    // Get instance field: public Zenject.TransientProvider <>4__this
-    Zenject::TransientProvider* _get_$$4__this();
-    // Set instance field: public Zenject.TransientProvider <>4__this
-    void _set_$$4__this(Zenject::TransientProvider* value);
-    // Get instance field: public System.Object instance
-    ::Il2CppObject* _get_instance();
-    // Set instance field: public System.Object instance
-    void _set_instance(::Il2CppObject* value);
-    // Get instance field: public System.Type instanceType
-    System::Type* _get_instanceType();
-    // Set instance field: public System.Type instanceType
-    void _set_instanceType(System::Type* value);
-    // Get instance field: public System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArgs
-    System::Collections::Generic::List_1<Zenject::TypeValuePair>* _get_extraArgs();
-    // Set instance field: public System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArgs
-    void _set_extraArgs(System::Collections::Generic::List_1<Zenject::TypeValuePair>* value);
-    // Get instance field: public Zenject.InjectContext context
-    Zenject::InjectContext* _get_context();
-    // Set instance field: public Zenject.InjectContext context
-    void _set_context(Zenject::InjectContext* value);
+    // Get instance field reference: public Zenject.TransientProvider <>4__this
+    Zenject::TransientProvider*& dyn_$$4__this();
+    // Get instance field reference: public System.Object instance
+    ::Il2CppObject*& dyn_instance();
+    // Get instance field reference: public System.Type instanceType
+    System::Type*& dyn_instanceType();
+    // Get instance field reference: public System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArgs
+    System::Collections::Generic::List_1<Zenject::TypeValuePair>*& dyn_extraArgs();
+    // Get instance field reference: public Zenject.InjectContext context
+    Zenject::InjectContext*& dyn_context();
     // System.Void <GetAllInstancesWithInjectSplit>b__0()
     // Offset: 0x23E5CA4
     void $GetAllInstancesWithInjectSplit$b__0();

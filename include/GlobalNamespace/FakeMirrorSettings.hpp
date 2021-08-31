@@ -35,10 +35,8 @@ namespace GlobalNamespace {
     static int _get__fakeMirrorTransparencyId();
     // Set static field: static private readonly System.Int32 _fakeMirrorTransparencyId
     static void _set__fakeMirrorTransparencyId(int value);
-    // Get instance field: private System.Single _fakeMirrorTransparency
-    float _get__fakeMirrorTransparency();
-    // Set instance field: private System.Single _fakeMirrorTransparency
-    void _set__fakeMirrorTransparency(float value);
+    // Get instance field reference: private System.Single _fakeMirrorTransparency
+    float& dyn__fakeMirrorTransparency();
     // public System.Single get_fakeMirrorTransparency()
     // Offset: 0x23908D4
     float get_fakeMirrorTransparency();

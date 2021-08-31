@@ -98,18 +98,12 @@ namespace HMUI {
     static ::Array<UnityEngine::Vector3>* _get_s_Uv();
     // Set static field: static private readonly UnityEngine.Vector3[] s_Uv
     static void _set_s_Uv(::Array<UnityEngine::Vector3>* value);
-    // Get instance field: private UnityEngine.Color _color0
-    UnityEngine::Color _get__color0();
-    // Set instance field: private UnityEngine.Color _color0
-    void _set__color0(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _color1
-    UnityEngine::Color _get__color1();
-    // Set instance field: private UnityEngine.Color _color1
-    void _set__color1(UnityEngine::Color value);
-    // Get instance field: private readonly HMUI.CurvedCanvasSettingsHelper _curvedCanvasSettingsHelper
-    HMUI::CurvedCanvasSettingsHelper* _get__curvedCanvasSettingsHelper();
-    // Set instance field: private readonly HMUI.CurvedCanvasSettingsHelper _curvedCanvasSettingsHelper
-    void _set__curvedCanvasSettingsHelper(HMUI::CurvedCanvasSettingsHelper* value);
+    // Get instance field reference: private UnityEngine.Color _color0
+    UnityEngine::Color& dyn__color0();
+    // Get instance field reference: private UnityEngine.Color _color1
+    UnityEngine::Color& dyn__color1();
+    // Get instance field reference: private readonly HMUI.CurvedCanvasSettingsHelper _curvedCanvasSettingsHelper
+    HMUI::CurvedCanvasSettingsHelper*& dyn__curvedCanvasSettingsHelper();
     // public UnityEngine.Color get_color0()
     // Offset: 0x136E51C
     UnityEngine::Color get_color0();

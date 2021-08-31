@@ -47,14 +47,10 @@ namespace System::Text {
     static_assert(sizeof(System::Text::DecoderFallbackBuffer*) == 0x8);
     // Creating value type constructor for type: Decoder
     Decoder(System::Text::DecoderFallback* m_fallback_ = {}, System::Text::DecoderFallbackBuffer* m_fallbackBuffer_ = {}) noexcept : m_fallback{m_fallback_}, m_fallbackBuffer{m_fallbackBuffer_} {}
-    // Get instance field: System.Text.DecoderFallback m_fallback
-    System::Text::DecoderFallback* _get_m_fallback();
-    // Set instance field: System.Text.DecoderFallback m_fallback
-    void _set_m_fallback(System::Text::DecoderFallback* value);
-    // Get instance field: System.Text.DecoderFallbackBuffer m_fallbackBuffer
-    System::Text::DecoderFallbackBuffer* _get_m_fallbackBuffer();
-    // Set instance field: System.Text.DecoderFallbackBuffer m_fallbackBuffer
-    void _set_m_fallbackBuffer(System::Text::DecoderFallbackBuffer* value);
+    // Get instance field reference: System.Text.DecoderFallback m_fallback
+    System::Text::DecoderFallback*& dyn_m_fallback();
+    // Get instance field reference: System.Text.DecoderFallbackBuffer m_fallbackBuffer
+    System::Text::DecoderFallbackBuffer*& dyn_m_fallbackBuffer();
     // public System.Text.DecoderFallback get_Fallback()
     // Offset: 0x1C15034
     System::Text::DecoderFallback* get_Fallback();

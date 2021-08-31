@@ -204,98 +204,52 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
     // Creating value type constructor for type: TubeBloomPrePassLight
     TubeBloomPrePassLight(GlobalNamespace::BoolSO* mainEffectPostProcessEnabled_ = {}, float width_ = {}, float length_ = {}, float center_ = {}, UnityEngine::Color color_ = {}, float colorAlphaMultiplier_ = {}, float bloomFogIntensityMultiplier_ = {}, float boostToWhite_ = {}, float lightWidthMultiplier_ = {}, bool addWidthToLength_ = {}, float bakedGlowWidthScale_ = {}, bool forceUseBakedGlow_ = {}, bool updateAlways_ = {}, bool limitAlpha_ = {}, float minAlpha_ = {}, float maxAlpha_ = {}, float startAlpha_ = {}, float endAlpha_ = {}, GlobalNamespace::ParametricBoxController* parametricBoxController_ = {}, GlobalNamespace::Parametric3SliceSpriteController* dynamic3SliceSprite_ = {}, System::Action* didRefreshEvent_ = {}, bool isDirty_ = {}, UnityEngine::Transform* transform_ = {}) noexcept : mainEffectPostProcessEnabled{mainEffectPostProcessEnabled_}, width{width_}, length{length_}, center{center_}, color{color_}, colorAlphaMultiplier{colorAlphaMultiplier_}, bloomFogIntensityMultiplier{bloomFogIntensityMultiplier_}, boostToWhite{boostToWhite_}, lightWidthMultiplier{lightWidthMultiplier_}, addWidthToLength{addWidthToLength_}, bakedGlowWidthScale{bakedGlowWidthScale_}, forceUseBakedGlow{forceUseBakedGlow_}, updateAlways{updateAlways_}, limitAlpha{limitAlpha_}, minAlpha{minAlpha_}, maxAlpha{maxAlpha_}, startAlpha{startAlpha_}, endAlpha{endAlpha_}, parametricBoxController{parametricBoxController_}, dynamic3SliceSprite{dynamic3SliceSprite_}, didRefreshEvent{didRefreshEvent_}, isDirty{isDirty_}, transform{transform_} {}
-    // Get instance field: private BoolSO _mainEffectPostProcessEnabled
-    GlobalNamespace::BoolSO* _get__mainEffectPostProcessEnabled();
-    // Set instance field: private BoolSO _mainEffectPostProcessEnabled
-    void _set__mainEffectPostProcessEnabled(GlobalNamespace::BoolSO* value);
-    // Get instance field: private System.Single _width
-    float _get__width();
-    // Set instance field: private System.Single _width
-    void _set__width(float value);
-    // Get instance field: private System.Single _length
-    float _get__length();
-    // Set instance field: private System.Single _length
-    void _set__length(float value);
-    // Get instance field: private System.Single _center
-    float _get__center();
-    // Set instance field: private System.Single _center
-    void _set__center(float value);
-    // Get instance field: private UnityEngine.Color _color
-    UnityEngine::Color _get__color();
-    // Set instance field: private UnityEngine.Color _color
-    void _set__color(UnityEngine::Color value);
-    // Get instance field: private System.Single _colorAlphaMultiplier
-    float _get__colorAlphaMultiplier();
-    // Set instance field: private System.Single _colorAlphaMultiplier
-    void _set__colorAlphaMultiplier(float value);
-    // Get instance field: private System.Single _bloomFogIntensityMultiplier
-    float _get__bloomFogIntensityMultiplier();
-    // Set instance field: private System.Single _bloomFogIntensityMultiplier
-    void _set__bloomFogIntensityMultiplier(float value);
-    // Get instance field: private System.Single _boostToWhite
-    float _get__boostToWhite();
-    // Set instance field: private System.Single _boostToWhite
-    void _set__boostToWhite(float value);
-    // Get instance field: private System.Single _lightWidthMultiplier
-    float _get__lightWidthMultiplier();
-    // Set instance field: private System.Single _lightWidthMultiplier
-    void _set__lightWidthMultiplier(float value);
-    // Get instance field: private System.Boolean _addWidthToLength
-    bool _get__addWidthToLength();
-    // Set instance field: private System.Boolean _addWidthToLength
-    void _set__addWidthToLength(bool value);
-    // Get instance field: private System.Single _bakedGlowWidthScale
-    float _get__bakedGlowWidthScale();
-    // Set instance field: private System.Single _bakedGlowWidthScale
-    void _set__bakedGlowWidthScale(float value);
-    // Get instance field: private System.Boolean _forceUseBakedGlow
-    bool _get__forceUseBakedGlow();
-    // Set instance field: private System.Boolean _forceUseBakedGlow
-    void _set__forceUseBakedGlow(bool value);
-    // Get instance field: private System.Boolean _updateAlways
-    bool _get__updateAlways();
-    // Set instance field: private System.Boolean _updateAlways
-    void _set__updateAlways(bool value);
-    // Get instance field: private System.Boolean _limitAlpha
-    bool _get__limitAlpha();
-    // Set instance field: private System.Boolean _limitAlpha
-    void _set__limitAlpha(bool value);
-    // Get instance field: private System.Single _minAlpha
-    float _get__minAlpha();
-    // Set instance field: private System.Single _minAlpha
-    void _set__minAlpha(float value);
-    // Get instance field: private System.Single _maxAlpha
-    float _get__maxAlpha();
-    // Set instance field: private System.Single _maxAlpha
-    void _set__maxAlpha(float value);
-    // Get instance field: private System.Single _startAlpha
-    float _get__startAlpha();
-    // Set instance field: private System.Single _startAlpha
-    void _set__startAlpha(float value);
-    // Get instance field: private System.Single _endAlpha
-    float _get__endAlpha();
-    // Set instance field: private System.Single _endAlpha
-    void _set__endAlpha(float value);
-    // Get instance field: private ParametricBoxController _parametricBoxController
-    GlobalNamespace::ParametricBoxController* _get__parametricBoxController();
-    // Set instance field: private ParametricBoxController _parametricBoxController
-    void _set__parametricBoxController(GlobalNamespace::ParametricBoxController* value);
-    // Get instance field: private Parametric3SliceSpriteController _dynamic3SliceSprite
-    GlobalNamespace::Parametric3SliceSpriteController* _get__dynamic3SliceSprite();
-    // Set instance field: private Parametric3SliceSpriteController _dynamic3SliceSprite
-    void _set__dynamic3SliceSprite(GlobalNamespace::Parametric3SliceSpriteController* value);
-    // Get instance field: private System.Action didRefreshEvent
-    System::Action* _get_didRefreshEvent();
-    // Set instance field: private System.Action didRefreshEvent
-    void _set_didRefreshEvent(System::Action* value);
-    // Get instance field: private System.Boolean _isDirty
-    bool _get__isDirty();
-    // Set instance field: private System.Boolean _isDirty
-    void _set__isDirty(bool value);
-    // Get instance field: private UnityEngine.Transform _transform
-    UnityEngine::Transform* _get__transform();
-    // Set instance field: private UnityEngine.Transform _transform
-    void _set__transform(UnityEngine::Transform* value);
+    // Get instance field reference: private BoolSO _mainEffectPostProcessEnabled
+    GlobalNamespace::BoolSO*& dyn__mainEffectPostProcessEnabled();
+    // Get instance field reference: private System.Single _width
+    float& dyn__width();
+    // Get instance field reference: private System.Single _length
+    float& dyn__length();
+    // Get instance field reference: private System.Single _center
+    float& dyn__center();
+    // Get instance field reference: private UnityEngine.Color _color
+    UnityEngine::Color& dyn__color();
+    // Get instance field reference: private System.Single _colorAlphaMultiplier
+    float& dyn__colorAlphaMultiplier();
+    // Get instance field reference: private System.Single _bloomFogIntensityMultiplier
+    float& dyn__bloomFogIntensityMultiplier();
+    // Get instance field reference: private System.Single _boostToWhite
+    float& dyn__boostToWhite();
+    // Get instance field reference: private System.Single _lightWidthMultiplier
+    float& dyn__lightWidthMultiplier();
+    // Get instance field reference: private System.Boolean _addWidthToLength
+    bool& dyn__addWidthToLength();
+    // Get instance field reference: private System.Single _bakedGlowWidthScale
+    float& dyn__bakedGlowWidthScale();
+    // Get instance field reference: private System.Boolean _forceUseBakedGlow
+    bool& dyn__forceUseBakedGlow();
+    // Get instance field reference: private System.Boolean _updateAlways
+    bool& dyn__updateAlways();
+    // Get instance field reference: private System.Boolean _limitAlpha
+    bool& dyn__limitAlpha();
+    // Get instance field reference: private System.Single _minAlpha
+    float& dyn__minAlpha();
+    // Get instance field reference: private System.Single _maxAlpha
+    float& dyn__maxAlpha();
+    // Get instance field reference: private System.Single _startAlpha
+    float& dyn__startAlpha();
+    // Get instance field reference: private System.Single _endAlpha
+    float& dyn__endAlpha();
+    // Get instance field reference: private ParametricBoxController _parametricBoxController
+    GlobalNamespace::ParametricBoxController*& dyn__parametricBoxController();
+    // Get instance field reference: private Parametric3SliceSpriteController _dynamic3SliceSprite
+    GlobalNamespace::Parametric3SliceSpriteController*& dyn__dynamic3SliceSprite();
+    // Get instance field reference: private System.Action didRefreshEvent
+    System::Action*& dyn_didRefreshEvent();
+    // Get instance field reference: private System.Boolean _isDirty
+    bool& dyn__isDirty();
+    // Get instance field reference: private UnityEngine.Transform _transform
+    UnityEngine::Transform*& dyn__transform();
     // public System.Single get_colorAlphaMultiplier()
     // Offset: 0x1E1FCE0
     float get_colorAlphaMultiplier();

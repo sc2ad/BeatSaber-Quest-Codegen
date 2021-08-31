@@ -40,18 +40,12 @@ namespace System::IO {
     static_assert(sizeof(Microsoft::Win32::Win32Native::WIN32_FIND_DATA*) == 0x8);
     // Creating value type constructor for type: SearchResult
     SearchResult(::Il2CppString* fullPath_ = {}, ::Il2CppString* userPath_ = {}, Microsoft::Win32::Win32Native::WIN32_FIND_DATA* findData_ = {}) noexcept : fullPath{fullPath_}, userPath{userPath_}, findData{findData_} {}
-    // Get instance field: private System.String fullPath
-    ::Il2CppString* _get_fullPath();
-    // Set instance field: private System.String fullPath
-    void _set_fullPath(::Il2CppString* value);
-    // Get instance field: private System.String userPath
-    ::Il2CppString* _get_userPath();
-    // Set instance field: private System.String userPath
-    void _set_userPath(::Il2CppString* value);
-    // Get instance field: private Microsoft.Win32.Win32Native/Microsoft.Win32.WIN32_FIND_DATA findData
-    Microsoft::Win32::Win32Native::WIN32_FIND_DATA* _get_findData();
-    // Set instance field: private Microsoft.Win32.Win32Native/Microsoft.Win32.WIN32_FIND_DATA findData
-    void _set_findData(Microsoft::Win32::Win32Native::WIN32_FIND_DATA* value);
+    // Get instance field reference: private System.String fullPath
+    ::Il2CppString*& dyn_fullPath();
+    // Get instance field reference: private System.String userPath
+    ::Il2CppString*& dyn_userPath();
+    // Get instance field reference: private Microsoft.Win32.Win32Native/Microsoft.Win32.WIN32_FIND_DATA findData
+    Microsoft::Win32::Win32Native::WIN32_FIND_DATA*& dyn_findData();
     // System.String get_UserPath()
     // Offset: 0x197BFF0
     ::Il2CppString* get_UserPath();

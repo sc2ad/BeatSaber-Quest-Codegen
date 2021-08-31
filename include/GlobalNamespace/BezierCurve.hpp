@@ -54,22 +54,14 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public readonly UnityEngine.Vector3 p0
-    UnityEngine::Vector3 _get_p0();
-    // Set instance field: public readonly UnityEngine.Vector3 p0
-    void _set_p0(UnityEngine::Vector3 value);
-    // Get instance field: public readonly UnityEngine.Vector3 p1
-    UnityEngine::Vector3 _get_p1();
-    // Set instance field: public readonly UnityEngine.Vector3 p1
-    void _set_p1(UnityEngine::Vector3 value);
-    // Get instance field: public readonly UnityEngine.Vector3 p2
-    UnityEngine::Vector3 _get_p2();
-    // Set instance field: public readonly UnityEngine.Vector3 p2
-    void _set_p2(UnityEngine::Vector3 value);
-    // Get instance field: public readonly UnityEngine.Vector3 p3
-    UnityEngine::Vector3 _get_p3();
-    // Set instance field: public readonly UnityEngine.Vector3 p3
-    void _set_p3(UnityEngine::Vector3 value);
+    // Get instance field reference: public readonly UnityEngine.Vector3 p0
+    UnityEngine::Vector3& dyn_p0();
+    // Get instance field reference: public readonly UnityEngine.Vector3 p1
+    UnityEngine::Vector3& dyn_p1();
+    // Get instance field reference: public readonly UnityEngine.Vector3 p2
+    UnityEngine::Vector3& dyn_p2();
+    // Get instance field reference: public readonly UnityEngine.Vector3 p3
+    UnityEngine::Vector3& dyn_p3();
     // public System.Void .ctor(UnityEngine.Vector3 p0, UnityEngine.Vector3 p1, UnityEngine.Vector3 p2, UnityEngine.Vector3 p3)
     // Offset: 0x10CF400
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

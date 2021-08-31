@@ -42,10 +42,8 @@ namespace System {
     constexpr operator System::Threading::CancellationToken() const noexcept {
       return cancellationToken;
     }
-    // Get instance field: private System.Threading.CancellationToken _cancellationToken
-    System::Threading::CancellationToken _get__cancellationToken();
-    // Set instance field: private System.Threading.CancellationToken _cancellationToken
-    void _set__cancellationToken(System::Threading::CancellationToken value);
+    // Get instance field reference: private System.Threading.CancellationToken _cancellationToken
+    System::Threading::CancellationToken& dyn__cancellationToken();
     // public System.Threading.CancellationToken get_CancellationToken()
     // Offset: 0x1D0ED9C
     System::Threading::CancellationToken get_CancellationToken();

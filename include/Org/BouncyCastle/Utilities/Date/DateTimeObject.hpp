@@ -32,10 +32,8 @@ namespace Org::BouncyCastle::Utilities::Date {
     constexpr operator System::DateTime() const noexcept {
       return dt;
     }
-    // Get instance field: private readonly System.DateTime dt
-    System::DateTime _get_dt();
-    // Set instance field: private readonly System.DateTime dt
-    void _set_dt(System::DateTime value);
+    // Get instance field reference: private readonly System.DateTime dt
+    System::DateTime& dyn_dt();
     // public System.Void .ctor(System.DateTime dt)
     // Offset: 0x1FEBCC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

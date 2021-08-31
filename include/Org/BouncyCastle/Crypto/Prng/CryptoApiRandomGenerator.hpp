@@ -43,10 +43,8 @@ namespace Org::BouncyCastle::Crypto::Prng {
     constexpr operator System::Security::Cryptography::RandomNumberGenerator*() const noexcept {
       return rndProv;
     }
-    // Get instance field: private readonly System.Security.Cryptography.RandomNumberGenerator rndProv
-    System::Security::Cryptography::RandomNumberGenerator* _get_rndProv();
-    // Set instance field: private readonly System.Security.Cryptography.RandomNumberGenerator rndProv
-    void _set_rndProv(System::Security::Cryptography::RandomNumberGenerator* value);
+    // Get instance field reference: private readonly System.Security.Cryptography.RandomNumberGenerator rndProv
+    System::Security::Cryptography::RandomNumberGenerator*& dyn_rndProv();
     // public System.Void .ctor(System.Security.Cryptography.RandomNumberGenerator rng)
     // Offset: 0x1277910
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

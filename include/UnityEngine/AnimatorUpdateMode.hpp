@@ -50,10 +50,8 @@ namespace UnityEngine {
     static UnityEngine::AnimatorUpdateMode _get_UnscaledTime();
     // Set static field: static public UnityEngine.AnimatorUpdateMode UnscaledTime
     static void _set_UnscaledTime(UnityEngine::AnimatorUpdateMode value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.AnimatorUpdateMode
   #pragma pack(pop)
   static check_size<sizeof(AnimatorUpdateMode), 0 + sizeof(int)> __UnityEngine_AnimatorUpdateModeSizeCheck;

@@ -45,14 +45,10 @@ namespace GlobalNamespace {
     BTSCharacterDataModel(::Array<GlobalNamespace::BTSCharacterDataModel::PrefabWithId*>* prefabsWithIds_ = {}, ::Array<GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*>* animationClipsWithIds_ = {}) noexcept : prefabsWithIds{prefabsWithIds_}, animationClipsWithIds{animationClipsWithIds_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private BTSCharacterDataModel/PrefabWithId[] _prefabsWithIds
-    ::Array<GlobalNamespace::BTSCharacterDataModel::PrefabWithId*>* _get__prefabsWithIds();
-    // Set instance field: private BTSCharacterDataModel/PrefabWithId[] _prefabsWithIds
-    void _set__prefabsWithIds(::Array<GlobalNamespace::BTSCharacterDataModel::PrefabWithId*>* value);
-    // Get instance field: private BTSCharacterDataModel/AnimationClipWithId[] _animationClipsWithIds
-    ::Array<GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*>* _get__animationClipsWithIds();
-    // Set instance field: private BTSCharacterDataModel/AnimationClipWithId[] _animationClipsWithIds
-    void _set__animationClipsWithIds(::Array<GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*>* value);
+    // Get instance field reference: private BTSCharacterDataModel/PrefabWithId[] _prefabsWithIds
+    ::Array<GlobalNamespace::BTSCharacterDataModel::PrefabWithId*>*& dyn__prefabsWithIds();
+    // Get instance field reference: private BTSCharacterDataModel/AnimationClipWithId[] _animationClipsWithIds
+    ::Array<GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*>*& dyn__animationClipsWithIds();
     // public BTSCharacterDataModel/PrefabWithId[] get_prefabsWithIds()
     // Offset: 0x1186688
     ::Array<GlobalNamespace::BTSCharacterDataModel::PrefabWithId*>* get_prefabsWithIds();

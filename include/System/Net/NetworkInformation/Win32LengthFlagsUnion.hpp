@@ -34,14 +34,10 @@ namespace System::Net::NetworkInformation {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.UInt32 Length
-    uint _get_Length();
-    // Set instance field: public System.UInt32 Length
-    void _set_Length(uint value);
-    // Get instance field: public System.UInt32 Flags
-    uint _get_Flags();
-    // Set instance field: public System.UInt32 Flags
-    void _set_Flags(uint value);
+    // Get instance field reference: public System.UInt32 Length
+    uint& dyn_Length();
+    // Get instance field reference: public System.UInt32 Flags
+    uint& dyn_Flags();
   }; // System.Net.NetworkInformation.Win32LengthFlagsUnion
   #pragma pack(pop)
   static check_size<sizeof(Win32LengthFlagsUnion), 4 + sizeof(uint)> __System_Net_NetworkInformation_Win32LengthFlagsUnionSizeCheck;

@@ -109,14 +109,10 @@ namespace MasterServer {
     static int64_t _get_kKeepaliveRequestIntervalMs();
     // Set static field: static private System.Int64 kKeepaliveRequestIntervalMs
     static void _set_kKeepaliveRequestIntervalMs(int64_t value);
-    // Get instance field: private System.Int64 _lastKeepaliveTime
-    int64_t _get__lastKeepaliveTime();
-    // Set instance field: private System.Int64 _lastKeepaliveTime
-    void _set__lastKeepaliveTime(int64_t value);
-    // Get instance field: private readonly IAuthenticationTokenProvider _authenticationTokenProvider
-    GlobalNamespace::IAuthenticationTokenProvider* _get__authenticationTokenProvider();
-    // Set instance field: private readonly IAuthenticationTokenProvider _authenticationTokenProvider
-    void _set__authenticationTokenProvider(GlobalNamespace::IAuthenticationTokenProvider* value);
+    // Get instance field reference: private System.Int64 _lastKeepaliveTime
+    int64_t& dyn__lastKeepaliveTime();
+    // Get instance field reference: private readonly IAuthenticationTokenProvider _authenticationTokenProvider
+    GlobalNamespace::IAuthenticationTokenProvider*& dyn__authenticationTokenProvider();
     // public IAuthenticationTokenProvider get_authenticationTokenProvider()
     // Offset: 0x121FEB4
     GlobalNamespace::IAuthenticationTokenProvider* get_authenticationTokenProvider();

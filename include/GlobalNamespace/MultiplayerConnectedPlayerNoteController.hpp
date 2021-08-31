@@ -41,14 +41,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: MultiplayerConnectedPlayerNoteController
     MultiplayerConnectedPlayerNoteController(UnityEngine::GameObject* visualsWrapperGo_ = {}, bool hidden_ = {}) noexcept : visualsWrapperGo{visualsWrapperGo_}, hidden{hidden_} {}
-    // Get instance field: private UnityEngine.GameObject _visualsWrapperGo
-    UnityEngine::GameObject* _get__visualsWrapperGo();
-    // Set instance field: private UnityEngine.GameObject _visualsWrapperGo
-    void _set__visualsWrapperGo(UnityEngine::GameObject* value);
-    // Get instance field: private System.Boolean _hidden
-    bool _get__hidden();
-    // Set instance field: private System.Boolean _hidden
-    void _set__hidden(bool value);
+    // Get instance field reference: private UnityEngine.GameObject _visualsWrapperGo
+    UnityEngine::GameObject*& dyn__visualsWrapperGo();
+    // Get instance field reference: private System.Boolean _hidden
+    bool& dyn__hidden();
     // public override System.Boolean get_hide()
     // Offset: 0x11A9398
     // Implemented from: NoteController

@@ -68,10 +68,8 @@ namespace Zenject {
     constexpr operator Zenject::BindInfo*() const noexcept {
       return BindInfo;
     }
-    // Get instance field: private Zenject.BindInfo <BindInfo>k__BackingField
-    Zenject::BindInfo* _get_$BindInfo$k__BackingField();
-    // Set instance field: private Zenject.BindInfo <BindInfo>k__BackingField
-    void _set_$BindInfo$k__BackingField(Zenject::BindInfo* value);
+    // Get instance field reference: private Zenject.BindInfo <BindInfo>k__BackingField
+    Zenject::BindInfo*& dyn_$BindInfo$k__BackingField();
     // public Zenject.BindingInheritanceMethods get_BindingInheritanceMethod()
     // Offset: 0x1718FF0
     Zenject::BindingInheritanceMethods get_BindingInheritanceMethod();

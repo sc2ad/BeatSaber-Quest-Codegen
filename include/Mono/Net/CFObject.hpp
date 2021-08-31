@@ -38,10 +38,8 @@ namespace Mono::Net {
     constexpr operator System::IntPtr() const noexcept {
       return Handle;
     }
-    // Get instance field: private System.IntPtr <Handle>k__BackingField
-    System::IntPtr _get_$Handle$k__BackingField();
-    // Set instance field: private System.IntPtr <Handle>k__BackingField
-    void _set_$Handle$k__BackingField(System::IntPtr value);
+    // Get instance field reference: private System.IntPtr <Handle>k__BackingField
+    System::IntPtr& dyn_$Handle$k__BackingField();
     // public System.IntPtr get_Handle()
     // Offset: 0x15E41CC
     System::IntPtr get_Handle();

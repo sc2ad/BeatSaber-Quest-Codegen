@@ -79,10 +79,8 @@ namespace UnityEngine::UI {
       static UnityEngine::UI::ContentSizeFitter::FitMode _get_PreferredSize();
       // Set static field: static public UnityEngine.UI.ContentSizeFitter/UnityEngine.UI.FitMode PreferredSize
       static void _set_PreferredSize(UnityEngine::UI::ContentSizeFitter::FitMode value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // UnityEngine.UI.ContentSizeFitter/UnityEngine.UI.FitMode
     #pragma pack(pop)
     static check_size<sizeof(ContentSizeFitter::FitMode), 0 + sizeof(int)> __UnityEngine_UI_ContentSizeFitter_FitModeSizeCheck;
@@ -119,22 +117,14 @@ namespace UnityEngine::UI {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: protected UnityEngine.UI.ContentSizeFitter/UnityEngine.UI.FitMode m_HorizontalFit
-    UnityEngine::UI::ContentSizeFitter::FitMode _get_m_HorizontalFit();
-    // Set instance field: protected UnityEngine.UI.ContentSizeFitter/UnityEngine.UI.FitMode m_HorizontalFit
-    void _set_m_HorizontalFit(UnityEngine::UI::ContentSizeFitter::FitMode value);
-    // Get instance field: protected UnityEngine.UI.ContentSizeFitter/UnityEngine.UI.FitMode m_VerticalFit
-    UnityEngine::UI::ContentSizeFitter::FitMode _get_m_VerticalFit();
-    // Set instance field: protected UnityEngine.UI.ContentSizeFitter/UnityEngine.UI.FitMode m_VerticalFit
-    void _set_m_VerticalFit(UnityEngine::UI::ContentSizeFitter::FitMode value);
-    // Get instance field: private UnityEngine.RectTransform m_Rect
-    UnityEngine::RectTransform* _get_m_Rect();
-    // Set instance field: private UnityEngine.RectTransform m_Rect
-    void _set_m_Rect(UnityEngine::RectTransform* value);
-    // Get instance field: private UnityEngine.DrivenRectTransformTracker m_Tracker
-    UnityEngine::DrivenRectTransformTracker _get_m_Tracker();
-    // Set instance field: private UnityEngine.DrivenRectTransformTracker m_Tracker
-    void _set_m_Tracker(UnityEngine::DrivenRectTransformTracker value);
+    // Get instance field reference: protected UnityEngine.UI.ContentSizeFitter/UnityEngine.UI.FitMode m_HorizontalFit
+    UnityEngine::UI::ContentSizeFitter::FitMode& dyn_m_HorizontalFit();
+    // Get instance field reference: protected UnityEngine.UI.ContentSizeFitter/UnityEngine.UI.FitMode m_VerticalFit
+    UnityEngine::UI::ContentSizeFitter::FitMode& dyn_m_VerticalFit();
+    // Get instance field reference: private UnityEngine.RectTransform m_Rect
+    UnityEngine::RectTransform*& dyn_m_Rect();
+    // Get instance field reference: private UnityEngine.DrivenRectTransformTracker m_Tracker
+    UnityEngine::DrivenRectTransformTracker& dyn_m_Tracker();
     // public UnityEngine.UI.ContentSizeFitter/UnityEngine.UI.FitMode get_horizontalFit()
     // Offset: 0x14747F0
     UnityEngine::UI::ContentSizeFitter::FitMode get_horizontalFit();

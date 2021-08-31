@@ -74,10 +74,8 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::VRMessageOverlayResponse _get_ApplicationQuit();
     // Set static field: static public OVR.OpenVR.VRMessageOverlayResponse ApplicationQuit
     static void _set_ApplicationQuit(OVR::OpenVR::VRMessageOverlayResponse value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // OVR.OpenVR.VRMessageOverlayResponse
   #pragma pack(pop)
   static check_size<sizeof(VRMessageOverlayResponse), 0 + sizeof(int)> __OVR_OpenVR_VRMessageOverlayResponseSizeCheck;

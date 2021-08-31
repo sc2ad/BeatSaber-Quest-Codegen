@@ -117,46 +117,26 @@ namespace UnityEngine::TestTools {
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
-    // Get instance field: private System.Int32 <>1__state
-    int _get_$$1__state();
-    // Set instance field: private System.Int32 <>1__state
-    void _set_$$1__state(int value);
-    // Get instance field: private System.Object <>2__current
-    ::Il2CppObject* _get_$$2__current();
-    // Set instance field: private System.Object <>2__current
-    void _set_$$2__current(::Il2CppObject* value);
-    // Get instance field: private System.Int32 <>l__initialThreadId
-    int _get_$$l__initialThreadId();
-    // Set instance field: private System.Int32 <>l__initialThreadId
-    void _set_$$l__initialThreadId(int value);
-    // Get instance field: private NUnit.Framework.Internal.ITestExecutionContext context
-    NUnit::Framework::Internal::ITestExecutionContext* _get_context();
-    // Set instance field: private NUnit.Framework.Internal.ITestExecutionContext context
-    void _set_context(NUnit::Framework::Internal::ITestExecutionContext* value);
-    // Get instance field: public NUnit.Framework.Internal.ITestExecutionContext <>3__context
-    NUnit::Framework::Internal::ITestExecutionContext* _get_$$3__context();
-    // Set instance field: public NUnit.Framework.Internal.ITestExecutionContext <>3__context
-    void _set_$$3__context(NUnit::Framework::Internal::ITestExecutionContext* value);
-    // Get instance field: public UnityEngine.TestTools.EnumerableRepeatedTestCommand <>4__this
-    UnityEngine::TestTools::EnumerableRepeatedTestCommand* _get_$$4__this();
-    // Set instance field: public UnityEngine.TestTools.EnumerableRepeatedTestCommand <>4__this
-    void _set_$$4__this(UnityEngine::TestTools::EnumerableRepeatedTestCommand* value);
-    // Get instance field: private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext <unityContext>5__2
-    UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* _get_$unityContext$5__2();
-    // Set instance field: private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext <unityContext>5__2
-    void _set_$unityContext$5__2(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* value);
-    // Get instance field: private System.Int32 <count>5__3
-    int _get_$count$5__3();
-    // Set instance field: private System.Int32 <count>5__3
-    void _set_$count$5__3(int value);
-    // Get instance field: private System.Boolean <firstCycleAfterResume>5__4
-    bool _get_$firstCycleAfterResume$5__4();
-    // Set instance field: private System.Boolean <firstCycleAfterResume>5__4
-    void _set_$firstCycleAfterResume$5__4(bool value);
-    // Get instance field: private System.Collections.IEnumerator <>7__wrap4
-    System::Collections::IEnumerator* _get_$$7__wrap4();
-    // Set instance field: private System.Collections.IEnumerator <>7__wrap4
-    void _set_$$7__wrap4(System::Collections::IEnumerator* value);
+    // Get instance field reference: private System.Int32 <>1__state
+    int& dyn_$$1__state();
+    // Get instance field reference: private System.Object <>2__current
+    ::Il2CppObject*& dyn_$$2__current();
+    // Get instance field reference: private System.Int32 <>l__initialThreadId
+    int& dyn_$$l__initialThreadId();
+    // Get instance field reference: private NUnit.Framework.Internal.ITestExecutionContext context
+    NUnit::Framework::Internal::ITestExecutionContext*& dyn_context();
+    // Get instance field reference: public NUnit.Framework.Internal.ITestExecutionContext <>3__context
+    NUnit::Framework::Internal::ITestExecutionContext*& dyn_$$3__context();
+    // Get instance field reference: public UnityEngine.TestTools.EnumerableRepeatedTestCommand <>4__this
+    UnityEngine::TestTools::EnumerableRepeatedTestCommand*& dyn_$$4__this();
+    // Get instance field reference: private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext <unityContext>5__2
+    UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*& dyn_$unityContext$5__2();
+    // Get instance field reference: private System.Int32 <count>5__3
+    int& dyn_$count$5__3();
+    // Get instance field reference: private System.Boolean <firstCycleAfterResume>5__4
+    bool& dyn_$firstCycleAfterResume$5__4();
+    // Get instance field reference: private System.Collections.IEnumerator <>7__wrap4
+    System::Collections::IEnumerator*& dyn_$$7__wrap4();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
     // Offset: 0x14BF7BC
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();

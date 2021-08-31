@@ -64,18 +64,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(Oculus::Platform::Models::AssetDetails*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass16_0
     $$c__DisplayClass16_0(System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>* taskSource_ = {}, GlobalNamespace::OculusBeatmapDataAssetFileModel* $$4__this_ = {}, Oculus::Platform::Models::AssetDetails* assetDetails_ = {}) noexcept : taskSource{taskSource_}, $$4__this{$$4__this_}, assetDetails{assetDetails_} {}
-    // Get instance field: public System.Threading.Tasks.TaskCompletionSource`1<GetAssetBundleFileResult> taskSource
-    System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>* _get_taskSource();
-    // Set instance field: public System.Threading.Tasks.TaskCompletionSource`1<GetAssetBundleFileResult> taskSource
-    void _set_taskSource(System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>* value);
-    // Get instance field: public OculusBeatmapDataAssetFileModel <>4__this
-    GlobalNamespace::OculusBeatmapDataAssetFileModel* _get_$$4__this();
-    // Set instance field: public OculusBeatmapDataAssetFileModel <>4__this
-    void _set_$$4__this(GlobalNamespace::OculusBeatmapDataAssetFileModel* value);
-    // Get instance field: public Oculus.Platform.Models.AssetDetails assetDetails
-    Oculus::Platform::Models::AssetDetails* _get_assetDetails();
-    // Set instance field: public Oculus.Platform.Models.AssetDetails assetDetails
-    void _set_assetDetails(Oculus::Platform::Models::AssetDetails* value);
+    // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<GetAssetBundleFileResult> taskSource
+    System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>*& dyn_taskSource();
+    // Get instance field reference: public OculusBeatmapDataAssetFileModel <>4__this
+    GlobalNamespace::OculusBeatmapDataAssetFileModel*& dyn_$$4__this();
+    // Get instance field reference: public Oculus.Platform.Models.AssetDetails assetDetails
+    Oculus::Platform::Models::AssetDetails*& dyn_assetDetails();
     // System.Void <GetDownloadAssetBundleFileAsync>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.AssetFileDownloadResult> msg)
     // Offset: 0x1235CB0
     void $GetDownloadAssetBundleFileAsync$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDownloadResult*>* msg);

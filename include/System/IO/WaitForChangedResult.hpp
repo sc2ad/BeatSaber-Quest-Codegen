@@ -51,22 +51,14 @@ namespace System::IO {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private System.IO.WatcherChangeTypes changeType
-    System::IO::WatcherChangeTypes _get_changeType();
-    // Set instance field: private System.IO.WatcherChangeTypes changeType
-    void _set_changeType(System::IO::WatcherChangeTypes value);
-    // Get instance field: private System.String name
-    ::Il2CppString* _get_name();
-    // Set instance field: private System.String name
-    void _set_name(::Il2CppString* value);
-    // Get instance field: private System.String oldName
-    ::Il2CppString* _get_oldName();
-    // Set instance field: private System.String oldName
-    void _set_oldName(::Il2CppString* value);
-    // Get instance field: private System.Boolean timedOut
-    bool _get_timedOut();
-    // Set instance field: private System.Boolean timedOut
-    void _set_timedOut(bool value);
+    // Get instance field reference: private System.IO.WatcherChangeTypes changeType
+    System::IO::WatcherChangeTypes& dyn_changeType();
+    // Get instance field reference: private System.String name
+    ::Il2CppString*& dyn_name();
+    // Get instance field reference: private System.String oldName
+    ::Il2CppString*& dyn_oldName();
+    // Get instance field reference: private System.Boolean timedOut
+    bool& dyn_timedOut();
     // public System.Void set_ChangeType(System.IO.WatcherChangeTypes value)
     // Offset: 0x18BDC88
     void set_ChangeType(System::IO::WatcherChangeTypes value);

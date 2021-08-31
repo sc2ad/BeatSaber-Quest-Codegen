@@ -43,14 +43,10 @@ namespace GlobalNamespace {
     ObjectiveListItem(TMPro::TextMeshProUGUI* titleText_ = {}, TMPro::TextMeshProUGUI* conditionText_ = {}) noexcept : titleText{titleText_}, conditionText{conditionText_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private TMPro.TextMeshProUGUI _titleText
-    TMPro::TextMeshProUGUI* _get__titleText();
-    // Set instance field: private TMPro.TextMeshProUGUI _titleText
-    void _set__titleText(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private TMPro.TextMeshProUGUI _conditionText
-    TMPro::TextMeshProUGUI* _get__conditionText();
-    // Set instance field: private TMPro.TextMeshProUGUI _conditionText
-    void _set__conditionText(TMPro::TextMeshProUGUI* value);
+    // Get instance field reference: private TMPro.TextMeshProUGUI _titleText
+    TMPro::TextMeshProUGUI*& dyn__titleText();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _conditionText
+    TMPro::TextMeshProUGUI*& dyn__conditionText();
     // public System.Void set_title(System.String value)
     // Offset: 0x12314D0
     void set_title(::Il2CppString* value);

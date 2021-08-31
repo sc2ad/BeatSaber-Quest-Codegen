@@ -50,14 +50,10 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IBeatmapLevelData() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevelData*>(this);
     }
-    // Get instance field: private UnityEngine.AudioClip _audioClip
-    UnityEngine::AudioClip* _get__audioClip();
-    // Set instance field: private UnityEngine.AudioClip _audioClip
-    void _set__audioClip(UnityEngine::AudioClip* value);
-    // Get instance field: private IDifficultyBeatmapSet[] _difficultyBeatmapSets
-    ::Array<GlobalNamespace::IDifficultyBeatmapSet*>* _get__difficultyBeatmapSets();
-    // Set instance field: private IDifficultyBeatmapSet[] _difficultyBeatmapSets
-    void _set__difficultyBeatmapSets(::Array<GlobalNamespace::IDifficultyBeatmapSet*>* value);
+    // Get instance field reference: private UnityEngine.AudioClip _audioClip
+    UnityEngine::AudioClip*& dyn__audioClip();
+    // Get instance field reference: private IDifficultyBeatmapSet[] _difficultyBeatmapSets
+    ::Array<GlobalNamespace::IDifficultyBeatmapSet*>*& dyn__difficultyBeatmapSets();
     // public UnityEngine.AudioClip get_audioClip()
     // Offset: 0x11F5FE4
     UnityEngine::AudioClip* get_audioClip();

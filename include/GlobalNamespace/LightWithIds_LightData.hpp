@@ -48,18 +48,12 @@ namespace GlobalNamespace {
     operator GlobalNamespace::ILightWithId() noexcept {
       return *reinterpret_cast<GlobalNamespace::ILightWithId*>(this);
     }
-    // Get instance field: private System.Int32 _lightId
-    int _get__lightId();
-    // Set instance field: private System.Int32 _lightId
-    void _set__lightId(int value);
-    // Get instance field: private UnityEngine.Color _color
-    UnityEngine::Color _get__color();
-    // Set instance field: private UnityEngine.Color _color
-    void _set__color(UnityEngine::Color value);
-    // Get instance field: private System.Boolean _isRegistered
-    bool _get__isRegistered();
-    // Set instance field: private System.Boolean _isRegistered
-    void _set__isRegistered(bool value);
+    // Get instance field reference: private System.Int32 _lightId
+    int& dyn__lightId();
+    // Get instance field reference: private UnityEngine.Color _color
+    UnityEngine::Color& dyn__color();
+    // Get instance field reference: private System.Boolean _isRegistered
+    bool& dyn__isRegistered();
     // public System.Int32 get_lightId()
     // Offset: 0x1E1AF80
     int get_lightId();

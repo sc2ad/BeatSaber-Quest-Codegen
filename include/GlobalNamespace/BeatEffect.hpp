@@ -120,50 +120,28 @@ namespace GlobalNamespace {
     BeatEffect(UnityEngine::SpriteRenderer* spriteRenderer_ = {}, UnityEngine::Transform* spriteTransform_ = {}, GlobalNamespace::TubeBloomPrePassLight* tubeBloomPrePassLight_ = {}, UnityEngine::AnimationCurve* lightIntensityCurve_ = {}, UnityEngine::AnimationCurve* spriteXScaleCurve_ = {}, UnityEngine::AnimationCurve* spriteYScaleCurve_ = {}, UnityEngine::AnimationCurve* transparencyCurve_ = {}, GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::IBeatEffectDidFinishEvent*>* didFinishEvent_ = {}, float animationDuration_ = {}, float elapsedTime_ = {}, UnityEngine::Color color_ = {}) noexcept : spriteRenderer{spriteRenderer_}, spriteTransform{spriteTransform_}, tubeBloomPrePassLight{tubeBloomPrePassLight_}, lightIntensityCurve{lightIntensityCurve_}, spriteXScaleCurve{spriteXScaleCurve_}, spriteYScaleCurve{spriteYScaleCurve_}, transparencyCurve{transparencyCurve_}, didFinishEvent{didFinishEvent_}, animationDuration{animationDuration_}, elapsedTime{elapsedTime_}, color{color_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.SpriteRenderer _spriteRenderer
-    UnityEngine::SpriteRenderer* _get__spriteRenderer();
-    // Set instance field: private UnityEngine.SpriteRenderer _spriteRenderer
-    void _set__spriteRenderer(UnityEngine::SpriteRenderer* value);
-    // Get instance field: private UnityEngine.Transform _spriteTransform
-    UnityEngine::Transform* _get__spriteTransform();
-    // Set instance field: private UnityEngine.Transform _spriteTransform
-    void _set__spriteTransform(UnityEngine::Transform* value);
-    // Get instance field: private TubeBloomPrePassLight _tubeBloomPrePassLight
-    GlobalNamespace::TubeBloomPrePassLight* _get__tubeBloomPrePassLight();
-    // Set instance field: private TubeBloomPrePassLight _tubeBloomPrePassLight
-    void _set__tubeBloomPrePassLight(GlobalNamespace::TubeBloomPrePassLight* value);
-    // Get instance field: private UnityEngine.AnimationCurve _lightIntensityCurve
-    UnityEngine::AnimationCurve* _get__lightIntensityCurve();
-    // Set instance field: private UnityEngine.AnimationCurve _lightIntensityCurve
-    void _set__lightIntensityCurve(UnityEngine::AnimationCurve* value);
-    // Get instance field: private UnityEngine.AnimationCurve _spriteXScaleCurve
-    UnityEngine::AnimationCurve* _get__spriteXScaleCurve();
-    // Set instance field: private UnityEngine.AnimationCurve _spriteXScaleCurve
-    void _set__spriteXScaleCurve(UnityEngine::AnimationCurve* value);
-    // Get instance field: private UnityEngine.AnimationCurve _spriteYScaleCurve
-    UnityEngine::AnimationCurve* _get__spriteYScaleCurve();
-    // Set instance field: private UnityEngine.AnimationCurve _spriteYScaleCurve
-    void _set__spriteYScaleCurve(UnityEngine::AnimationCurve* value);
-    // Get instance field: private UnityEngine.AnimationCurve _transparencyCurve
-    UnityEngine::AnimationCurve* _get__transparencyCurve();
-    // Set instance field: private UnityEngine.AnimationCurve _transparencyCurve
-    void _set__transparencyCurve(UnityEngine::AnimationCurve* value);
-    // Get instance field: private readonly LazyCopyHashSet`1<IBeatEffectDidFinishEvent> _didFinishEvent
-    GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::IBeatEffectDidFinishEvent*>* _get__didFinishEvent();
-    // Set instance field: private readonly LazyCopyHashSet`1<IBeatEffectDidFinishEvent> _didFinishEvent
-    void _set__didFinishEvent(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::IBeatEffectDidFinishEvent*>* value);
-    // Get instance field: private System.Single _animationDuration
-    float _get__animationDuration();
-    // Set instance field: private System.Single _animationDuration
-    void _set__animationDuration(float value);
-    // Get instance field: private System.Single _elapsedTime
-    float _get__elapsedTime();
-    // Set instance field: private System.Single _elapsedTime
-    void _set__elapsedTime(float value);
-    // Get instance field: private UnityEngine.Color _color
-    UnityEngine::Color _get__color();
-    // Set instance field: private UnityEngine.Color _color
-    void _set__color(UnityEngine::Color value);
+    // Get instance field reference: private UnityEngine.SpriteRenderer _spriteRenderer
+    UnityEngine::SpriteRenderer*& dyn__spriteRenderer();
+    // Get instance field reference: private UnityEngine.Transform _spriteTransform
+    UnityEngine::Transform*& dyn__spriteTransform();
+    // Get instance field reference: private TubeBloomPrePassLight _tubeBloomPrePassLight
+    GlobalNamespace::TubeBloomPrePassLight*& dyn__tubeBloomPrePassLight();
+    // Get instance field reference: private UnityEngine.AnimationCurve _lightIntensityCurve
+    UnityEngine::AnimationCurve*& dyn__lightIntensityCurve();
+    // Get instance field reference: private UnityEngine.AnimationCurve _spriteXScaleCurve
+    UnityEngine::AnimationCurve*& dyn__spriteXScaleCurve();
+    // Get instance field reference: private UnityEngine.AnimationCurve _spriteYScaleCurve
+    UnityEngine::AnimationCurve*& dyn__spriteYScaleCurve();
+    // Get instance field reference: private UnityEngine.AnimationCurve _transparencyCurve
+    UnityEngine::AnimationCurve*& dyn__transparencyCurve();
+    // Get instance field reference: private readonly LazyCopyHashSet`1<IBeatEffectDidFinishEvent> _didFinishEvent
+    GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::IBeatEffectDidFinishEvent*>*& dyn__didFinishEvent();
+    // Get instance field reference: private System.Single _animationDuration
+    float& dyn__animationDuration();
+    // Get instance field reference: private System.Single _elapsedTime
+    float& dyn__elapsedTime();
+    // Get instance field reference: private UnityEngine.Color _color
+    UnityEngine::Color& dyn__color();
     // public ILazyCopyHashSet`1<IBeatEffectDidFinishEvent> get_didFinishEvent()
     // Offset: 0x11E7528
     GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::IBeatEffectDidFinishEvent*>* get_didFinishEvent();

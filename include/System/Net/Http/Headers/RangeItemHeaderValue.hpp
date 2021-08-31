@@ -35,14 +35,10 @@ namespace System::Net::Http::Headers {
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
-    // Get instance field: private System.Nullable`1<System.Int64> <From>k__BackingField
-    System::Nullable_1<int64_t> _get_$From$k__BackingField();
-    // Set instance field: private System.Nullable`1<System.Int64> <From>k__BackingField
-    void _set_$From$k__BackingField(System::Nullable_1<int64_t> value);
-    // Get instance field: private System.Nullable`1<System.Int64> <To>k__BackingField
-    System::Nullable_1<int64_t> _get_$To$k__BackingField();
-    // Set instance field: private System.Nullable`1<System.Int64> <To>k__BackingField
-    void _set_$To$k__BackingField(System::Nullable_1<int64_t> value);
+    // Get instance field reference: private System.Nullable`1<System.Int64> <From>k__BackingField
+    System::Nullable_1<int64_t>& dyn_$From$k__BackingField();
+    // Get instance field reference: private System.Nullable`1<System.Int64> <To>k__BackingField
+    System::Nullable_1<int64_t>& dyn_$To$k__BackingField();
     // public System.Nullable`1<System.Int64> get_From()
     // Offset: 0x15A7FEC
     System::Nullable_1<int64_t> get_From();

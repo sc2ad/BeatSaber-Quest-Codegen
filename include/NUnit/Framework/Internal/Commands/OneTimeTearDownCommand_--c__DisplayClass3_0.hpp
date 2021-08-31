@@ -40,10 +40,8 @@ namespace NUnit::Framework::Internal::Commands {
     constexpr operator System::IDisposable*() const noexcept {
       return disposable;
     }
-    // Get instance field: public System.IDisposable disposable
-    System::IDisposable* _get_disposable();
-    // Set instance field: public System.IDisposable disposable
-    void _set_disposable(System::IDisposable* value);
+    // Get instance field reference: public System.IDisposable disposable
+    System::IDisposable*& dyn_disposable();
     // System.Object <Execute>b__0()
     // Offset: 0x17781DC
     ::Il2CppObject* $Execute$b__0();

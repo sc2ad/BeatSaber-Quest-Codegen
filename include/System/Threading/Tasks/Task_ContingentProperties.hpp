@@ -97,38 +97,22 @@ namespace System::Threading::Tasks {
     static_assert(sizeof(System::Collections::Generic::List_1<System::Threading::Tasks::Task*>*) == 0x8);
     // Creating value type constructor for type: ContingentProperties
     ContingentProperties(System::Threading::ExecutionContext* m_capturedContext_ = {}, System::Threading::ManualResetEventSlim* m_completionEvent_ = {}, System::Threading::Tasks::TaskExceptionHolder* m_exceptionsHolder_ = {}, System::Threading::CancellationToken m_cancellationToken_ = {}, System::Threading::Tasks::Shared_1<System::Threading::CancellationTokenRegistration>* m_cancellationRegistration_ = {}, int m_internalCancellationRequested_ = {}, int m_completionCountdown_ = {}, System::Collections::Generic::List_1<System::Threading::Tasks::Task*>* m_exceptionalChildren_ = {}) noexcept : m_capturedContext{m_capturedContext_}, m_completionEvent{m_completionEvent_}, m_exceptionsHolder{m_exceptionsHolder_}, m_cancellationToken{m_cancellationToken_}, m_cancellationRegistration{m_cancellationRegistration_}, m_internalCancellationRequested{m_internalCancellationRequested_}, m_completionCountdown{m_completionCountdown_}, m_exceptionalChildren{m_exceptionalChildren_} {}
-    // Get instance field: System.Threading.ExecutionContext m_capturedContext
-    System::Threading::ExecutionContext* _get_m_capturedContext();
-    // Set instance field: System.Threading.ExecutionContext m_capturedContext
-    void _set_m_capturedContext(System::Threading::ExecutionContext* value);
-    // Get instance field: System.Threading.ManualResetEventSlim m_completionEvent
-    System::Threading::ManualResetEventSlim* _get_m_completionEvent();
-    // Set instance field: System.Threading.ManualResetEventSlim m_completionEvent
-    void _set_m_completionEvent(System::Threading::ManualResetEventSlim* value);
-    // Get instance field: System.Threading.Tasks.TaskExceptionHolder m_exceptionsHolder
-    System::Threading::Tasks::TaskExceptionHolder* _get_m_exceptionsHolder();
-    // Set instance field: System.Threading.Tasks.TaskExceptionHolder m_exceptionsHolder
-    void _set_m_exceptionsHolder(System::Threading::Tasks::TaskExceptionHolder* value);
-    // Get instance field: System.Threading.CancellationToken m_cancellationToken
-    System::Threading::CancellationToken _get_m_cancellationToken();
-    // Set instance field: System.Threading.CancellationToken m_cancellationToken
-    void _set_m_cancellationToken(System::Threading::CancellationToken value);
-    // Get instance field: System.Threading.Tasks.Shared`1<System.Threading.CancellationTokenRegistration> m_cancellationRegistration
-    System::Threading::Tasks::Shared_1<System::Threading::CancellationTokenRegistration>* _get_m_cancellationRegistration();
-    // Set instance field: System.Threading.Tasks.Shared`1<System.Threading.CancellationTokenRegistration> m_cancellationRegistration
-    void _set_m_cancellationRegistration(System::Threading::Tasks::Shared_1<System::Threading::CancellationTokenRegistration>* value);
-    // Get instance field: System.Int32 m_internalCancellationRequested
-    int _get_m_internalCancellationRequested();
-    // Set instance field: System.Int32 m_internalCancellationRequested
-    void _set_m_internalCancellationRequested(int value);
-    // Get instance field: System.Int32 m_completionCountdown
-    int _get_m_completionCountdown();
-    // Set instance field: System.Int32 m_completionCountdown
-    void _set_m_completionCountdown(int value);
-    // Get instance field: System.Collections.Generic.List`1<System.Threading.Tasks.Task> m_exceptionalChildren
-    System::Collections::Generic::List_1<System::Threading::Tasks::Task*>* _get_m_exceptionalChildren();
-    // Set instance field: System.Collections.Generic.List`1<System.Threading.Tasks.Task> m_exceptionalChildren
-    void _set_m_exceptionalChildren(System::Collections::Generic::List_1<System::Threading::Tasks::Task*>* value);
+    // Get instance field reference: System.Threading.ExecutionContext m_capturedContext
+    System::Threading::ExecutionContext*& dyn_m_capturedContext();
+    // Get instance field reference: System.Threading.ManualResetEventSlim m_completionEvent
+    System::Threading::ManualResetEventSlim*& dyn_m_completionEvent();
+    // Get instance field reference: System.Threading.Tasks.TaskExceptionHolder m_exceptionsHolder
+    System::Threading::Tasks::TaskExceptionHolder*& dyn_m_exceptionsHolder();
+    // Get instance field reference: System.Threading.CancellationToken m_cancellationToken
+    System::Threading::CancellationToken& dyn_m_cancellationToken();
+    // Get instance field reference: System.Threading.Tasks.Shared`1<System.Threading.CancellationTokenRegistration> m_cancellationRegistration
+    System::Threading::Tasks::Shared_1<System::Threading::CancellationTokenRegistration>*& dyn_m_cancellationRegistration();
+    // Get instance field reference: System.Int32 m_internalCancellationRequested
+    int& dyn_m_internalCancellationRequested();
+    // Get instance field reference: System.Int32 m_completionCountdown
+    int& dyn_m_completionCountdown();
+    // Get instance field reference: System.Collections.Generic.List`1<System.Threading.Tasks.Task> m_exceptionalChildren
+    System::Collections::Generic::List_1<System::Threading::Tasks::Task*>*& dyn_m_exceptionalChildren();
     // System.Void SetCompleted()
     // Offset: 0x1873600
     void SetCompleted();

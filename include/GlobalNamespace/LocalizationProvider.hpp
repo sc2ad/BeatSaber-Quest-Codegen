@@ -41,10 +41,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::LocalizationProvider* _get__instance();
     // Set static field: static private LocalizationProvider _instance
     static void _set__instance(GlobalNamespace::LocalizationProvider* value);
-    // Get instance field: private Polyglot.Localization _localization
-    Polyglot::Localization* _get__localization();
-    // Set instance field: private Polyglot.Localization _localization
-    void _set__localization(Polyglot::Localization* value);
+    // Get instance field reference: private Polyglot.Localization _localization
+    Polyglot::Localization*& dyn__localization();
     // public Polyglot.Localization get_localization()
     // Offset: 0x237F0F4
     Polyglot::Localization* get_localization();

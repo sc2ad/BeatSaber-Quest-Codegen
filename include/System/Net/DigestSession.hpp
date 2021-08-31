@@ -80,26 +80,16 @@ namespace System::Net {
     static System::Security::Cryptography::RandomNumberGenerator* _get_rng();
     // Set static field: static private System.Security.Cryptography.RandomNumberGenerator rng
     static void _set_rng(System::Security::Cryptography::RandomNumberGenerator* value);
-    // Get instance field: private System.DateTime lastUse
-    System::DateTime _get_lastUse();
-    // Set instance field: private System.DateTime lastUse
-    void _set_lastUse(System::DateTime value);
-    // Get instance field: private System.Int32 _nc
-    int _get__nc();
-    // Set instance field: private System.Int32 _nc
-    void _set__nc(int value);
-    // Get instance field: private System.Security.Cryptography.HashAlgorithm hash
-    System::Security::Cryptography::HashAlgorithm* _get_hash();
-    // Set instance field: private System.Security.Cryptography.HashAlgorithm hash
-    void _set_hash(System::Security::Cryptography::HashAlgorithm* value);
-    // Get instance field: private System.Net.DigestHeaderParser parser
-    System::Net::DigestHeaderParser* _get_parser();
-    // Set instance field: private System.Net.DigestHeaderParser parser
-    void _set_parser(System::Net::DigestHeaderParser* value);
-    // Get instance field: private System.String _cnonce
-    ::Il2CppString* _get__cnonce();
-    // Set instance field: private System.String _cnonce
-    void _set__cnonce(::Il2CppString* value);
+    // Get instance field reference: private System.DateTime lastUse
+    System::DateTime& dyn_lastUse();
+    // Get instance field reference: private System.Int32 _nc
+    int& dyn__nc();
+    // Get instance field reference: private System.Security.Cryptography.HashAlgorithm hash
+    System::Security::Cryptography::HashAlgorithm*& dyn_hash();
+    // Get instance field reference: private System.Net.DigestHeaderParser parser
+    System::Net::DigestHeaderParser*& dyn_parser();
+    // Get instance field reference: private System.String _cnonce
+    ::Il2CppString*& dyn__cnonce();
     // public System.String get_Algorithm()
     // Offset: 0x16DA020
     ::Il2CppString* get_Algorithm();

@@ -90,34 +90,20 @@ namespace UnityEngine::Rendering {
     operator System::IEquatable_1<UnityEngine::Rendering::RenderTargetIdentifier>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::Rendering::RenderTargetIdentifier>*>(this);
     }
-    // Get instance field: private UnityEngine.Rendering.BuiltinRenderTextureType m_Type
-    UnityEngine::Rendering::BuiltinRenderTextureType _get_m_Type();
-    // Set instance field: private UnityEngine.Rendering.BuiltinRenderTextureType m_Type
-    void _set_m_Type(UnityEngine::Rendering::BuiltinRenderTextureType value);
-    // Get instance field: private System.Int32 m_NameID
-    int _get_m_NameID();
-    // Set instance field: private System.Int32 m_NameID
-    void _set_m_NameID(int value);
-    // Get instance field: private System.Int32 m_InstanceID
-    int _get_m_InstanceID();
-    // Set instance field: private System.Int32 m_InstanceID
-    void _set_m_InstanceID(int value);
-    // Get instance field: private System.IntPtr m_BufferPointer
-    System::IntPtr _get_m_BufferPointer();
-    // Set instance field: private System.IntPtr m_BufferPointer
-    void _set_m_BufferPointer(System::IntPtr value);
-    // Get instance field: private System.Int32 m_MipLevel
-    int _get_m_MipLevel();
-    // Set instance field: private System.Int32 m_MipLevel
-    void _set_m_MipLevel(int value);
-    // Get instance field: private UnityEngine.CubemapFace m_CubeFace
-    UnityEngine::CubemapFace _get_m_CubeFace();
-    // Set instance field: private UnityEngine.CubemapFace m_CubeFace
-    void _set_m_CubeFace(UnityEngine::CubemapFace value);
-    // Get instance field: private System.Int32 m_DepthSlice
-    int _get_m_DepthSlice();
-    // Set instance field: private System.Int32 m_DepthSlice
-    void _set_m_DepthSlice(int value);
+    // Get instance field reference: private UnityEngine.Rendering.BuiltinRenderTextureType m_Type
+    UnityEngine::Rendering::BuiltinRenderTextureType& dyn_m_Type();
+    // Get instance field reference: private System.Int32 m_NameID
+    int& dyn_m_NameID();
+    // Get instance field reference: private System.Int32 m_InstanceID
+    int& dyn_m_InstanceID();
+    // Get instance field reference: private System.IntPtr m_BufferPointer
+    System::IntPtr& dyn_m_BufferPointer();
+    // Get instance field reference: private System.Int32 m_MipLevel
+    int& dyn_m_MipLevel();
+    // Get instance field reference: private UnityEngine.CubemapFace m_CubeFace
+    UnityEngine::CubemapFace& dyn_m_CubeFace();
+    // Get instance field reference: private System.Int32 m_DepthSlice
+    int& dyn_m_DepthSlice();
     // public System.Void .ctor(UnityEngine.Rendering.BuiltinRenderTextureType type)
     // Offset: 0x1C4B13C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

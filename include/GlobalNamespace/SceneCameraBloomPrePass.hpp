@@ -66,18 +66,12 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private BloomPrePassRendererSO _bloomPrepassRenderer
-    GlobalNamespace::BloomPrePassRendererSO* _get__bloomPrepassRenderer();
-    // Set instance field: private BloomPrePassRendererSO _bloomPrepassRenderer
-    void _set__bloomPrepassRenderer(GlobalNamespace::BloomPrePassRendererSO* value);
-    // Get instance field: private BloomPrePassEffectContainerSO _bloomPrePassEffectContainer
-    GlobalNamespace::BloomPrePassEffectContainerSO* _get__bloomPrePassEffectContainer();
-    // Set instance field: private BloomPrePassEffectContainerSO _bloomPrePassEffectContainer
-    void _set__bloomPrePassEffectContainer(GlobalNamespace::BloomPrePassEffectContainerSO* value);
-    // Get instance field: private UnityEngine.RenderTexture _bloomPrepassRenderTexture
-    UnityEngine::RenderTexture* _get__bloomPrepassRenderTexture();
-    // Set instance field: private UnityEngine.RenderTexture _bloomPrepassRenderTexture
-    void _set__bloomPrepassRenderTexture(UnityEngine::RenderTexture* value);
+    // Get instance field reference: private BloomPrePassRendererSO _bloomPrepassRenderer
+    GlobalNamespace::BloomPrePassRendererSO*& dyn__bloomPrepassRenderer();
+    // Get instance field reference: private BloomPrePassEffectContainerSO _bloomPrePassEffectContainer
+    GlobalNamespace::BloomPrePassEffectContainerSO*& dyn__bloomPrePassEffectContainer();
+    // Get instance field reference: private UnityEngine.RenderTexture _bloomPrepassRenderTexture
+    UnityEngine::RenderTexture*& dyn__bloomPrepassRenderTexture();
     // public System.Void OnCameraPreRender(UnityEngine.Camera camera)
     // Offset: 0x1E1F888
     void OnCameraPreRender(UnityEngine::Camera* camera);

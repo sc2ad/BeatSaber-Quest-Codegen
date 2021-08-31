@@ -33,10 +33,8 @@ namespace UnityEngine::Timeline {
     constexpr operator ::Il2CppString*() const noexcept {
       return ussStyle;
     }
-    // Get instance field: public readonly System.String ussStyle
-    ::Il2CppString* _get_ussStyle();
-    // Set instance field: public readonly System.String ussStyle
-    void _set_ussStyle(::Il2CppString* value);
+    // Get instance field reference: public readonly System.String ussStyle
+    ::Il2CppString*& dyn_ussStyle();
     // public System.Void .ctor(System.String ussStyle)
     // Offset: 0x181FAC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

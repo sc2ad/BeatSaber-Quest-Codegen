@@ -45,18 +45,12 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: SpineEffector
     SpineEffector(RootMotion::FinalIK::FullBodyBipedEffector effectorType_ = {}, float horizontalWeight_ = {}, float verticalWeight_ = {}) noexcept : effectorType{effectorType_}, horizontalWeight{horizontalWeight_}, verticalWeight{verticalWeight_} {}
-    // Get instance field: public RootMotion.FinalIK.FullBodyBipedEffector effectorType
-    RootMotion::FinalIK::FullBodyBipedEffector _get_effectorType();
-    // Set instance field: public RootMotion.FinalIK.FullBodyBipedEffector effectorType
-    void _set_effectorType(RootMotion::FinalIK::FullBodyBipedEffector value);
-    // Get instance field: public System.Single horizontalWeight
-    float _get_horizontalWeight();
-    // Set instance field: public System.Single horizontalWeight
-    void _set_horizontalWeight(float value);
-    // Get instance field: public System.Single verticalWeight
-    float _get_verticalWeight();
-    // Set instance field: public System.Single verticalWeight
-    void _set_verticalWeight(float value);
+    // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedEffector effectorType
+    RootMotion::FinalIK::FullBodyBipedEffector& dyn_effectorType();
+    // Get instance field reference: public System.Single horizontalWeight
+    float& dyn_horizontalWeight();
+    // Get instance field reference: public System.Single verticalWeight
+    float& dyn_verticalWeight();
     // public System.Void .ctor(RootMotion.FinalIK.FullBodyBipedEffector effectorType, System.Single horizontalWeight, System.Single verticalWeight)
     // Offset: 0x1CC6140
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

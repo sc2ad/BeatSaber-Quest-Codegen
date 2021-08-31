@@ -43,14 +43,10 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public readonly System.Boolean isError
-    bool _get_isError();
-    // Set instance field: public readonly System.Boolean isError
-    void _set_isError(bool value);
-    // Get instance field: public readonly System.String assetBundlePath
-    ::Il2CppString* _get_assetBundlePath();
-    // Set instance field: public readonly System.String assetBundlePath
-    void _set_assetBundlePath(::Il2CppString* value);
+    // Get instance field reference: public readonly System.Boolean isError
+    bool& dyn_isError();
+    // Get instance field reference: public readonly System.String assetBundlePath
+    ::Il2CppString*& dyn_assetBundlePath();
     // public System.Void .ctor(System.Boolean isError, System.String assetBundlePath)
     // Offset: 0x1110894
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

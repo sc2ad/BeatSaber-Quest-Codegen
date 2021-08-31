@@ -169,94 +169,50 @@ namespace Org::BouncyCastle::Crypto::Macs {
     operator Org::BouncyCastle::Crypto::IMac() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IMac*>(this);
     }
-    // Get instance field: private readonly Org.BouncyCastle.Crypto.IBlockCipher cipher
-    Org::BouncyCastle::Crypto::IBlockCipher* _get_cipher();
-    // Set instance field: private readonly Org.BouncyCastle.Crypto.IBlockCipher cipher
-    void _set_cipher(Org::BouncyCastle::Crypto::IBlockCipher* value);
-    // Get instance field: private readonly System.Byte[] singleByte
-    ::Array<uint8_t>* _get_singleByte();
-    // Set instance field: private readonly System.Byte[] singleByte
-    void _set_singleByte(::Array<uint8_t>* value);
-    // Get instance field: private System.UInt32 r0
-    uint _get_r0();
-    // Set instance field: private System.UInt32 r0
-    void _set_r0(uint value);
-    // Get instance field: private System.UInt32 r1
-    uint _get_r1();
-    // Set instance field: private System.UInt32 r1
-    void _set_r1(uint value);
-    // Get instance field: private System.UInt32 r2
-    uint _get_r2();
-    // Set instance field: private System.UInt32 r2
-    void _set_r2(uint value);
-    // Get instance field: private System.UInt32 r3
-    uint _get_r3();
-    // Set instance field: private System.UInt32 r3
-    void _set_r3(uint value);
-    // Get instance field: private System.UInt32 r4
-    uint _get_r4();
-    // Set instance field: private System.UInt32 r4
-    void _set_r4(uint value);
-    // Get instance field: private System.UInt32 s1
-    uint _get_s1();
-    // Set instance field: private System.UInt32 s1
-    void _set_s1(uint value);
-    // Get instance field: private System.UInt32 s2
-    uint _get_s2();
-    // Set instance field: private System.UInt32 s2
-    void _set_s2(uint value);
-    // Get instance field: private System.UInt32 s3
-    uint _get_s3();
-    // Set instance field: private System.UInt32 s3
-    void _set_s3(uint value);
-    // Get instance field: private System.UInt32 s4
-    uint _get_s4();
-    // Set instance field: private System.UInt32 s4
-    void _set_s4(uint value);
-    // Get instance field: private System.UInt32 k0
-    uint _get_k0();
-    // Set instance field: private System.UInt32 k0
-    void _set_k0(uint value);
-    // Get instance field: private System.UInt32 k1
-    uint _get_k1();
-    // Set instance field: private System.UInt32 k1
-    void _set_k1(uint value);
-    // Get instance field: private System.UInt32 k2
-    uint _get_k2();
-    // Set instance field: private System.UInt32 k2
-    void _set_k2(uint value);
-    // Get instance field: private System.UInt32 k3
-    uint _get_k3();
-    // Set instance field: private System.UInt32 k3
-    void _set_k3(uint value);
-    // Get instance field: private System.Byte[] currentBlock
-    ::Array<uint8_t>* _get_currentBlock();
-    // Set instance field: private System.Byte[] currentBlock
-    void _set_currentBlock(::Array<uint8_t>* value);
-    // Get instance field: private System.Int32 currentBlockOffset
-    int _get_currentBlockOffset();
-    // Set instance field: private System.Int32 currentBlockOffset
-    void _set_currentBlockOffset(int value);
-    // Get instance field: private System.UInt32 h0
-    uint _get_h0();
-    // Set instance field: private System.UInt32 h0
-    void _set_h0(uint value);
-    // Get instance field: private System.UInt32 h1
-    uint _get_h1();
-    // Set instance field: private System.UInt32 h1
-    void _set_h1(uint value);
-    // Get instance field: private System.UInt32 h2
-    uint _get_h2();
-    // Set instance field: private System.UInt32 h2
-    void _set_h2(uint value);
-    // Get instance field: private System.UInt32 h3
-    uint _get_h3();
-    // Set instance field: private System.UInt32 h3
-    void _set_h3(uint value);
-    // Get instance field: private System.UInt32 h4
-    uint _get_h4();
-    // Set instance field: private System.UInt32 h4
-    void _set_h4(uint value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IBlockCipher cipher
+    Org::BouncyCastle::Crypto::IBlockCipher*& dyn_cipher();
+    // Get instance field reference: private readonly System.Byte[] singleByte
+    ::Array<uint8_t>*& dyn_singleByte();
+    // Get instance field reference: private System.UInt32 r0
+    uint& dyn_r0();
+    // Get instance field reference: private System.UInt32 r1
+    uint& dyn_r1();
+    // Get instance field reference: private System.UInt32 r2
+    uint& dyn_r2();
+    // Get instance field reference: private System.UInt32 r3
+    uint& dyn_r3();
+    // Get instance field reference: private System.UInt32 r4
+    uint& dyn_r4();
+    // Get instance field reference: private System.UInt32 s1
+    uint& dyn_s1();
+    // Get instance field reference: private System.UInt32 s2
+    uint& dyn_s2();
+    // Get instance field reference: private System.UInt32 s3
+    uint& dyn_s3();
+    // Get instance field reference: private System.UInt32 s4
+    uint& dyn_s4();
+    // Get instance field reference: private System.UInt32 k0
+    uint& dyn_k0();
+    // Get instance field reference: private System.UInt32 k1
+    uint& dyn_k1();
+    // Get instance field reference: private System.UInt32 k2
+    uint& dyn_k2();
+    // Get instance field reference: private System.UInt32 k3
+    uint& dyn_k3();
+    // Get instance field reference: private System.Byte[] currentBlock
+    ::Array<uint8_t>*& dyn_currentBlock();
+    // Get instance field reference: private System.Int32 currentBlockOffset
+    int& dyn_currentBlockOffset();
+    // Get instance field reference: private System.UInt32 h0
+    uint& dyn_h0();
+    // Get instance field reference: private System.UInt32 h1
+    uint& dyn_h1();
+    // Get instance field reference: private System.UInt32 h2
+    uint& dyn_h2();
+    // Get instance field reference: private System.UInt32 h3
+    uint& dyn_h3();
+    // Get instance field reference: private System.UInt32 h4
+    uint& dyn_h4();
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
     // Offset: 0x19106E8
     void Init(Org::BouncyCastle::Crypto::ICipherParameters* parameters);

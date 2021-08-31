@@ -39,10 +39,8 @@ namespace TMPro {
     constexpr operator UnityEngine::Sprite*() const noexcept {
       return sprite;
     }
-    // Get instance field: public UnityEngine.Sprite sprite
-    UnityEngine::Sprite* _get_sprite();
-    // Set instance field: public UnityEngine.Sprite sprite
-    void _set_sprite(UnityEngine::Sprite* value);
+    // Get instance field reference: public UnityEngine.Sprite sprite
+    UnityEngine::Sprite*& dyn_sprite();
     // public System.Void .ctor(System.UInt32 index, UnityEngine.TextCore.GlyphMetrics metrics, UnityEngine.TextCore.GlyphRect glyphRect, System.Single scale, System.Int32 atlasIndex, UnityEngine.Sprite sprite)
     // Offset: 0x115F2B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

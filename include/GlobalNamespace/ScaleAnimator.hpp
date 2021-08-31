@@ -82,30 +82,18 @@ namespace GlobalNamespace {
     ScaleAnimator(float displayedScale_ = {}, UnityEngine::Transform* targetTransform_ = {}, Tweening::TweeningManager* tweeningManager_ = {}, Tweening::Tween_1<float>* scaleUpTween_ = {}, Tweening::Tween_1<float>* scaleDownTween_ = {}, bool initialized_ = {}) noexcept : displayedScale{displayedScale_}, targetTransform{targetTransform_}, tweeningManager{tweeningManager_}, scaleUpTween{scaleUpTween_}, scaleDownTween{scaleDownTween_}, initialized{initialized_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Single _displayedScale
-    float _get__displayedScale();
-    // Set instance field: private System.Single _displayedScale
-    void _set__displayedScale(float value);
-    // Get instance field: private UnityEngine.Transform _targetTransform
-    UnityEngine::Transform* _get__targetTransform();
-    // Set instance field: private UnityEngine.Transform _targetTransform
-    void _set__targetTransform(UnityEngine::Transform* value);
-    // Get instance field: private readonly Tweening.TweeningManager _tweeningManager
-    Tweening::TweeningManager* _get__tweeningManager();
-    // Set instance field: private readonly Tweening.TweeningManager _tweeningManager
-    void _set__tweeningManager(Tweening::TweeningManager* value);
-    // Get instance field: private Tweening.Tween`1<System.Single> _scaleUpTween
-    Tweening::Tween_1<float>* _get__scaleUpTween();
-    // Set instance field: private Tweening.Tween`1<System.Single> _scaleUpTween
-    void _set__scaleUpTween(Tweening::Tween_1<float>* value);
-    // Get instance field: private Tweening.Tween`1<System.Single> _scaleDownTween
-    Tweening::Tween_1<float>* _get__scaleDownTween();
-    // Set instance field: private Tweening.Tween`1<System.Single> _scaleDownTween
-    void _set__scaleDownTween(Tweening::Tween_1<float>* value);
-    // Get instance field: private System.Boolean _initialized
-    bool _get__initialized();
-    // Set instance field: private System.Boolean _initialized
-    void _set__initialized(bool value);
+    // Get instance field reference: private System.Single _displayedScale
+    float& dyn__displayedScale();
+    // Get instance field reference: private UnityEngine.Transform _targetTransform
+    UnityEngine::Transform*& dyn__targetTransform();
+    // Get instance field reference: private readonly Tweening.TweeningManager _tweeningManager
+    Tweening::TweeningManager*& dyn__tweeningManager();
+    // Get instance field reference: private Tweening.Tween`1<System.Single> _scaleUpTween
+    Tweening::Tween_1<float>*& dyn__scaleUpTween();
+    // Get instance field reference: private Tweening.Tween`1<System.Single> _scaleDownTween
+    Tweening::Tween_1<float>*& dyn__scaleDownTween();
+    // Get instance field reference: private System.Boolean _initialized
+    bool& dyn__initialized();
     // protected System.Void OnDestroy()
     // Offset: 0x1198324
     void OnDestroy();

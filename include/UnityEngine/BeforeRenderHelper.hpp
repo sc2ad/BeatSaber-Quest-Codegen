@@ -58,14 +58,10 @@ namespace UnityEngine {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
-      // Get instance field: System.Int32 order
-      int _get_order();
-      // Set instance field: System.Int32 order
-      void _set_order(int value);
-      // Get instance field: UnityEngine.Events.UnityAction callback
-      UnityEngine::Events::UnityAction* _get_callback();
-      // Set instance field: UnityEngine.Events.UnityAction callback
-      void _set_callback(UnityEngine::Events::UnityAction* value);
+      // Get instance field reference: System.Int32 order
+      int& dyn_order();
+      // Get instance field reference: UnityEngine.Events.UnityAction callback
+      UnityEngine::Events::UnityAction*& dyn_callback();
     }; // UnityEngine.BeforeRenderHelper/UnityEngine.OrderBlock
     #pragma pack(pop)
     static check_size<sizeof(BeforeRenderHelper::OrderBlock), 8 + sizeof(UnityEngine::Events::UnityAction*)> __UnityEngine_BeforeRenderHelper_OrderBlockSizeCheck;

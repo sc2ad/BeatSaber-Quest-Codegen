@@ -76,14 +76,10 @@ namespace System::Net {
     static System::Net::IPEndPoint* _get_IPv6Any();
     // Set static field: static System.Net.IPEndPoint IPv6Any
     static void _set_IPv6Any(System::Net::IPEndPoint* value);
-    // Get instance field: private System.Net.IPAddress m_Address
-    System::Net::IPAddress* _get_m_Address();
-    // Set instance field: private System.Net.IPAddress m_Address
-    void _set_m_Address(System::Net::IPAddress* value);
-    // Get instance field: private System.Int32 m_Port
-    int _get_m_Port();
-    // Set instance field: private System.Int32 m_Port
-    void _set_m_Port(int value);
+    // Get instance field reference: private System.Net.IPAddress m_Address
+    System::Net::IPAddress*& dyn_m_Address();
+    // Get instance field reference: private System.Int32 m_Port
+    int& dyn_m_Port();
     // public System.Net.IPAddress get_Address()
     // Offset: 0x167C448
     System::Net::IPAddress* get_Address();

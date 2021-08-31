@@ -71,26 +71,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_3<GlobalNamespace::ColorSaturationValueSlider*, UnityEngine::Vector2, GlobalNamespace::ColorChangeUIEventType>*) == 0x8);
     // Creating value type constructor for type: ColorSaturationValueSlider
     ColorSaturationValueSlider(float hue_ = {}, ::Array<UnityEngine::UI::Graphic*>* graphics_ = {}, UnityEngine::Color darkColor_ = {}, UnityEngine::Color lightColor_ = {}, System::Action_3<GlobalNamespace::ColorSaturationValueSlider*, UnityEngine::Vector2, GlobalNamespace::ColorChangeUIEventType>* colorSaturationOrValueDidChangeEvent_ = {}) noexcept : hue{hue_}, graphics{graphics_}, darkColor{darkColor_}, lightColor{lightColor_}, colorSaturationOrValueDidChangeEvent{colorSaturationOrValueDidChangeEvent_} {}
-    // Get instance field: private System.Single _hue
-    float _get__hue();
-    // Set instance field: private System.Single _hue
-    void _set__hue(float value);
-    // Get instance field: private UnityEngine.UI.Graphic[] _graphics
-    ::Array<UnityEngine::UI::Graphic*>* _get__graphics();
-    // Set instance field: private UnityEngine.UI.Graphic[] _graphics
-    void _set__graphics(::Array<UnityEngine::UI::Graphic*>* value);
-    // Get instance field: private UnityEngine.Color _darkColor
-    UnityEngine::Color _get__darkColor();
-    // Set instance field: private UnityEngine.Color _darkColor
-    void _set__darkColor(UnityEngine::Color value);
-    // Get instance field: private UnityEngine.Color _lightColor
-    UnityEngine::Color _get__lightColor();
-    // Set instance field: private UnityEngine.Color _lightColor
-    void _set__lightColor(UnityEngine::Color value);
-    // Get instance field: private System.Action`3<ColorSaturationValueSlider,UnityEngine.Vector2,ColorChangeUIEventType> colorSaturationOrValueDidChangeEvent
-    System::Action_3<GlobalNamespace::ColorSaturationValueSlider*, UnityEngine::Vector2, GlobalNamespace::ColorChangeUIEventType>* _get_colorSaturationOrValueDidChangeEvent();
-    // Set instance field: private System.Action`3<ColorSaturationValueSlider,UnityEngine.Vector2,ColorChangeUIEventType> colorSaturationOrValueDidChangeEvent
-    void _set_colorSaturationOrValueDidChangeEvent(System::Action_3<GlobalNamespace::ColorSaturationValueSlider*, UnityEngine::Vector2, GlobalNamespace::ColorChangeUIEventType>* value);
+    // Get instance field reference: private System.Single _hue
+    float& dyn__hue();
+    // Get instance field reference: private UnityEngine.UI.Graphic[] _graphics
+    ::Array<UnityEngine::UI::Graphic*>*& dyn__graphics();
+    // Get instance field reference: private UnityEngine.Color _darkColor
+    UnityEngine::Color& dyn__darkColor();
+    // Get instance field reference: private UnityEngine.Color _lightColor
+    UnityEngine::Color& dyn__lightColor();
+    // Get instance field reference: private System.Action`3<ColorSaturationValueSlider,UnityEngine.Vector2,ColorChangeUIEventType> colorSaturationOrValueDidChangeEvent
+    System::Action_3<GlobalNamespace::ColorSaturationValueSlider*, UnityEngine::Vector2, GlobalNamespace::ColorChangeUIEventType>*& dyn_colorSaturationOrValueDidChangeEvent();
     // public System.Void add_colorSaturationOrValueDidChangeEvent(System.Action`3<ColorSaturationValueSlider,UnityEngine.Vector2,ColorChangeUIEventType> value)
     // Offset: 0x10EE784
     void add_colorSaturationOrValueDidChangeEvent(System::Action_3<GlobalNamespace::ColorSaturationValueSlider*, UnityEngine::Vector2, GlobalNamespace::ColorChangeUIEventType>* value);

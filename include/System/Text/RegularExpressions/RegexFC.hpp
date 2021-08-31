@@ -50,18 +50,12 @@ namespace System::Text::RegularExpressions {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: RegexFC
     RegexFC(System::Text::RegularExpressions::RegexCharClass* cc_ = {}, bool nullable_ = {}, bool caseInsensitive_ = {}) noexcept : cc{cc_}, nullable{nullable_}, caseInsensitive{caseInsensitive_} {}
-    // Get instance field: System.Text.RegularExpressions.RegexCharClass _cc
-    System::Text::RegularExpressions::RegexCharClass* _get__cc();
-    // Set instance field: System.Text.RegularExpressions.RegexCharClass _cc
-    void _set__cc(System::Text::RegularExpressions::RegexCharClass* value);
-    // Get instance field: System.Boolean _nullable
-    bool _get__nullable();
-    // Set instance field: System.Boolean _nullable
-    void _set__nullable(bool value);
-    // Get instance field: System.Boolean _caseInsensitive
-    bool _get__caseInsensitive();
-    // Set instance field: System.Boolean _caseInsensitive
-    void _set__caseInsensitive(bool value);
+    // Get instance field reference: System.Text.RegularExpressions.RegexCharClass _cc
+    System::Text::RegularExpressions::RegexCharClass*& dyn__cc();
+    // Get instance field reference: System.Boolean _nullable
+    bool& dyn__nullable();
+    // Get instance field reference: System.Boolean _caseInsensitive
+    bool& dyn__caseInsensitive();
     // System.Void .ctor(System.Boolean nullable)
     // Offset: 0x1996424
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

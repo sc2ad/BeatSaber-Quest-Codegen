@@ -38,10 +38,8 @@ namespace Org::BouncyCastle::Asn1::X509 {
     constexpr operator System::Collections::IEnumerator*() const noexcept {
       return e;
     }
-    // Get instance field: private readonly System.Collections.IEnumerator e
-    System::Collections::IEnumerator* _get_e();
-    // Set instance field: private readonly System.Collections.IEnumerator e
-    void _set_e(System::Collections::IEnumerator* value);
+    // Get instance field reference: private readonly System.Collections.IEnumerator e
+    System::Collections::IEnumerator*& dyn_e();
     // public System.Object get_Current()
     // Offset: 0x19FD76C
     ::Il2CppObject* get_Current();

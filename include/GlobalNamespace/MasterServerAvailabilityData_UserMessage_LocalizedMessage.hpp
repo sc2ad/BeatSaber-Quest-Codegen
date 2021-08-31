@@ -34,14 +34,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: LocalizedMessage
     LocalizedMessage(::Il2CppString* language_ = {}, ::Il2CppString* message_ = {}) noexcept : language{language_}, message{message_} {}
-    // Get instance field: public System.String language
-    ::Il2CppString* _get_language();
-    // Set instance field: public System.String language
-    void _set_language(::Il2CppString* value);
-    // Get instance field: public System.String message
-    ::Il2CppString* _get_message();
-    // Set instance field: public System.String message
-    void _set_message(::Il2CppString* value);
+    // Get instance field reference: public System.String language
+    ::Il2CppString*& dyn_language();
+    // Get instance field reference: public System.String message
+    ::Il2CppString*& dyn_message();
     // public System.Void .ctor()
     // Offset: 0x10E4A74
     // Implemented from: System.Object

@@ -56,10 +56,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum _get_Member();
     // Set static field: static public System.Runtime.Serialization.Formatters.Binary.ValueFixupEnum Member
     static void _set_Member(System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.Runtime.Serialization.Formatters.Binary.ValueFixupEnum
   #pragma pack(pop)
   static check_size<sizeof(ValueFixupEnum), 0 + sizeof(int)> __System_Runtime_Serialization_Formatters_Binary_ValueFixupEnumSizeCheck;

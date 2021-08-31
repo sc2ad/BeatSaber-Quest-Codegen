@@ -84,10 +84,8 @@ namespace UnityEngine::UI {
       static UnityEngine::UI::Navigation::Mode _get_Explicit();
       // Set static field: static public UnityEngine.UI.Navigation/UnityEngine.UI.Mode Explicit
       static void _set_Explicit(UnityEngine::UI::Navigation::Mode value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // UnityEngine.UI.Navigation/UnityEngine.UI.Mode
     #pragma pack(pop)
     static check_size<sizeof(Navigation::Mode), 0 + sizeof(int)> __UnityEngine_UI_Navigation_ModeSizeCheck;
@@ -134,26 +132,16 @@ namespace UnityEngine::UI {
     operator System::IEquatable_1<UnityEngine::UI::Navigation>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::UI::Navigation>*>(this);
     }
-    // Get instance field: private UnityEngine.UI.Navigation/UnityEngine.UI.Mode m_Mode
-    UnityEngine::UI::Navigation::Mode _get_m_Mode();
-    // Set instance field: private UnityEngine.UI.Navigation/UnityEngine.UI.Mode m_Mode
-    void _set_m_Mode(UnityEngine::UI::Navigation::Mode value);
-    // Get instance field: private UnityEngine.UI.Selectable m_SelectOnUp
-    UnityEngine::UI::Selectable* _get_m_SelectOnUp();
-    // Set instance field: private UnityEngine.UI.Selectable m_SelectOnUp
-    void _set_m_SelectOnUp(UnityEngine::UI::Selectable* value);
-    // Get instance field: private UnityEngine.UI.Selectable m_SelectOnDown
-    UnityEngine::UI::Selectable* _get_m_SelectOnDown();
-    // Set instance field: private UnityEngine.UI.Selectable m_SelectOnDown
-    void _set_m_SelectOnDown(UnityEngine::UI::Selectable* value);
-    // Get instance field: private UnityEngine.UI.Selectable m_SelectOnLeft
-    UnityEngine::UI::Selectable* _get_m_SelectOnLeft();
-    // Set instance field: private UnityEngine.UI.Selectable m_SelectOnLeft
-    void _set_m_SelectOnLeft(UnityEngine::UI::Selectable* value);
-    // Get instance field: private UnityEngine.UI.Selectable m_SelectOnRight
-    UnityEngine::UI::Selectable* _get_m_SelectOnRight();
-    // Set instance field: private UnityEngine.UI.Selectable m_SelectOnRight
-    void _set_m_SelectOnRight(UnityEngine::UI::Selectable* value);
+    // Get instance field reference: private UnityEngine.UI.Navigation/UnityEngine.UI.Mode m_Mode
+    UnityEngine::UI::Navigation::Mode& dyn_m_Mode();
+    // Get instance field reference: private UnityEngine.UI.Selectable m_SelectOnUp
+    UnityEngine::UI::Selectable*& dyn_m_SelectOnUp();
+    // Get instance field reference: private UnityEngine.UI.Selectable m_SelectOnDown
+    UnityEngine::UI::Selectable*& dyn_m_SelectOnDown();
+    // Get instance field reference: private UnityEngine.UI.Selectable m_SelectOnLeft
+    UnityEngine::UI::Selectable*& dyn_m_SelectOnLeft();
+    // Get instance field reference: private UnityEngine.UI.Selectable m_SelectOnRight
+    UnityEngine::UI::Selectable*& dyn_m_SelectOnRight();
     // public UnityEngine.UI.Navigation/UnityEngine.UI.Mode get_mode()
     // Offset: 0x19D4274
     UnityEngine::UI::Navigation::Mode get_mode();

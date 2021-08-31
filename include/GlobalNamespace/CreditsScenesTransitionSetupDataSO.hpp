@@ -36,10 +36,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_1<GlobalNamespace::CreditsScenesTransitionSetupDataSO*>*) == 0x8);
     // Creating value type constructor for type: CreditsScenesTransitionSetupDataSO
     CreditsScenesTransitionSetupDataSO(System::Action_1<GlobalNamespace::CreditsScenesTransitionSetupDataSO*>* didFinishEvent_ = {}) noexcept : didFinishEvent{didFinishEvent_} {}
-    // Get instance field: private System.Action`1<CreditsScenesTransitionSetupDataSO> didFinishEvent
-    System::Action_1<GlobalNamespace::CreditsScenesTransitionSetupDataSO*>* _get_didFinishEvent();
-    // Set instance field: private System.Action`1<CreditsScenesTransitionSetupDataSO> didFinishEvent
-    void _set_didFinishEvent(System::Action_1<GlobalNamespace::CreditsScenesTransitionSetupDataSO*>* value);
+    // Get instance field reference: private System.Action`1<CreditsScenesTransitionSetupDataSO> didFinishEvent
+    System::Action_1<GlobalNamespace::CreditsScenesTransitionSetupDataSO*>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`1<CreditsScenesTransitionSetupDataSO> value)
     // Offset: 0x10F4E94
     void add_didFinishEvent(System::Action_1<GlobalNamespace::CreditsScenesTransitionSetupDataSO*>* value);

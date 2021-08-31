@@ -37,10 +37,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::SceneInfo*) == 0x8);
     // Creating value type constructor for type: SingleFixedSceneScenesTransitionSetupDataSO
     SingleFixedSceneScenesTransitionSetupDataSO(GlobalNamespace::SceneInfo* sceneInfo_ = {}) noexcept : sceneInfo{sceneInfo_} {}
-    // Get instance field: private SceneInfo _sceneInfo
-    GlobalNamespace::SceneInfo* _get__sceneInfo();
-    // Set instance field: private SceneInfo _sceneInfo
-    void _set__sceneInfo(GlobalNamespace::SceneInfo* value);
+    // Get instance field reference: private SceneInfo _sceneInfo
+    GlobalNamespace::SceneInfo*& dyn__sceneInfo();
     // public SceneInfo get_sceneInfo()
     // Offset: 0x2398A6C
     GlobalNamespace::SceneInfo* get_sceneInfo();

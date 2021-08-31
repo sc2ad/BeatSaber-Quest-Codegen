@@ -83,30 +83,18 @@ namespace GlobalNamespace {
     static int _get_kNumberOfSamples();
     // Set static field: static public System.Int32 kNumberOfSamples
     static void _set_kNumberOfSamples(int value);
-    // Get instance field: private UnityEngine.AudioSource _audioSource
-    UnityEngine::AudioSource* _get__audioSource();
-    // Set instance field: private UnityEngine.AudioSource _audioSource
-    void _set__audioSource(UnityEngine::AudioSource* value);
-    // Get instance field: private System.Single _instantChangeThreshold
-    float _get__instantChangeThreshold();
-    // Set instance field: private System.Single _instantChangeThreshold
-    void _set__instantChangeThreshold(float value);
-    // Get instance field: private System.Boolean _hasData
-    bool _get__hasData();
-    // Set instance field: private System.Boolean _hasData
-    void _set__hasData(bool value);
-    // Get instance field: private System.Boolean _hasProcessedData
-    bool _get__hasProcessedData();
-    // Set instance field: private System.Boolean _hasProcessedData
-    void _set__hasProcessedData(bool value);
-    // Get instance field: private System.Single[] _samples
-    ::Array<float>* _get__samples();
-    // Set instance field: private System.Single[] _samples
-    void _set__samples(::Array<float>* value);
-    // Get instance field: private System.Collections.Generic.List`1<System.Single> _processedSamples
-    System::Collections::Generic::List_1<float>* _get__processedSamples();
-    // Set instance field: private System.Collections.Generic.List`1<System.Single> _processedSamples
-    void _set__processedSamples(System::Collections::Generic::List_1<float>* value);
+    // Get instance field reference: private UnityEngine.AudioSource _audioSource
+    UnityEngine::AudioSource*& dyn__audioSource();
+    // Get instance field reference: private System.Single _instantChangeThreshold
+    float& dyn__instantChangeThreshold();
+    // Get instance field reference: private System.Boolean _hasData
+    bool& dyn__hasData();
+    // Get instance field reference: private System.Boolean _hasProcessedData
+    bool& dyn__hasProcessedData();
+    // Get instance field reference: private System.Single[] _samples
+    ::Array<float>*& dyn__samples();
+    // Get instance field reference: private System.Collections.Generic.List`1<System.Single> _processedSamples
+    System::Collections::Generic::List_1<float>*& dyn__processedSamples();
     // public System.Single[] get_Samples()
     // Offset: 0x11E6DD4
     ::Array<float>* get_Samples();

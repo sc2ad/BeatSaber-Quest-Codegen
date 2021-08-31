@@ -66,22 +66,14 @@ namespace GlobalNamespace {
     OverridePlayerTransformsFromFullVRControllersRecorder(GlobalNamespace::FullVRControllersRecorder* fullVRControllersRecorder_ = {}, GlobalNamespace::PlayerTransforms* playerTransforms_ = {}, GlobalNamespace::SaberManager* saberManager_ = {}, GlobalNamespace::PlayerVRControllersManager* playerVRControllersManager_ = {}) noexcept : fullVRControllersRecorder{fullVRControllersRecorder_}, playerTransforms{playerTransforms_}, saberManager{saberManager_}, playerVRControllersManager{playerVRControllersManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private FullVRControllersRecorder _fullVRControllersRecorder
-    GlobalNamespace::FullVRControllersRecorder* _get__fullVRControllersRecorder();
-    // Set instance field: private FullVRControllersRecorder _fullVRControllersRecorder
-    void _set__fullVRControllersRecorder(GlobalNamespace::FullVRControllersRecorder* value);
-    // Get instance field: private readonly PlayerTransforms _playerTransforms
-    GlobalNamespace::PlayerTransforms* _get__playerTransforms();
-    // Set instance field: private readonly PlayerTransforms _playerTransforms
-    void _set__playerTransforms(GlobalNamespace::PlayerTransforms* value);
-    // Get instance field: private readonly SaberManager _saberManager
-    GlobalNamespace::SaberManager* _get__saberManager();
-    // Set instance field: private readonly SaberManager _saberManager
-    void _set__saberManager(GlobalNamespace::SaberManager* value);
-    // Get instance field: private readonly PlayerVRControllersManager _playerVRControllersManager
-    GlobalNamespace::PlayerVRControllersManager* _get__playerVRControllersManager();
-    // Set instance field: private readonly PlayerVRControllersManager _playerVRControllersManager
-    void _set__playerVRControllersManager(GlobalNamespace::PlayerVRControllersManager* value);
+    // Get instance field reference: private FullVRControllersRecorder _fullVRControllersRecorder
+    GlobalNamespace::FullVRControllersRecorder*& dyn__fullVRControllersRecorder();
+    // Get instance field reference: private readonly PlayerTransforms _playerTransforms
+    GlobalNamespace::PlayerTransforms*& dyn__playerTransforms();
+    // Get instance field reference: private readonly SaberManager _saberManager
+    GlobalNamespace::SaberManager*& dyn__saberManager();
+    // Get instance field reference: private readonly PlayerVRControllersManager _playerVRControllersManager
+    GlobalNamespace::PlayerVRControllersManager*& dyn__playerVRControllersManager();
     // protected System.Void Start()
     // Offset: 0x102C7E8
     void Start();

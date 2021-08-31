@@ -53,18 +53,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: SpawnRotationChevron
     SpawnRotationChevron(::Array<GlobalNamespace::TubeBloomPrePassLight*>* lights_ = {}, UnityEngine::Color color_ = {}, float lightAmount_ = {}) noexcept : lights{lights_}, color{color_}, lightAmount{lightAmount_} {}
-    // Get instance field: private TubeBloomPrePassLight[] _lights
-    ::Array<GlobalNamespace::TubeBloomPrePassLight*>* _get__lights();
-    // Set instance field: private TubeBloomPrePassLight[] _lights
-    void _set__lights(::Array<GlobalNamespace::TubeBloomPrePassLight*>* value);
-    // Get instance field: private UnityEngine.Color _color
-    UnityEngine::Color _get__color();
-    // Set instance field: private UnityEngine.Color _color
-    void _set__color(UnityEngine::Color value);
-    // Get instance field: private System.Single _lightAmount
-    float _get__lightAmount();
-    // Set instance field: private System.Single _lightAmount
-    void _set__lightAmount(float value);
+    // Get instance field reference: private TubeBloomPrePassLight[] _lights
+    ::Array<GlobalNamespace::TubeBloomPrePassLight*>*& dyn__lights();
+    // Get instance field reference: private UnityEngine.Color _color
+    UnityEngine::Color& dyn__color();
+    // Get instance field reference: private System.Single _lightAmount
+    float& dyn__lightAmount();
     // public System.Void SetLightAmount(System.Single amount)
     // Offset: 0x1082AC4
     void SetLightAmount(float amount);

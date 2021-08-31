@@ -56,10 +56,8 @@ namespace LiteNetLib {
     static LiteNetLib::ConnectionRequestResult _get_RejectForce();
     // Set static field: static public LiteNetLib.ConnectionRequestResult RejectForce
     static void _set_RejectForce(LiteNetLib::ConnectionRequestResult value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // LiteNetLib.ConnectionRequestResult
   #pragma pack(pop)
   static check_size<sizeof(ConnectionRequestResult), 0 + sizeof(int)> __LiteNetLib_ConnectionRequestResultSizeCheck;

@@ -61,10 +61,8 @@ namespace UnityEngine::TestTools::NUnitExtensions {
     UnityTestAssemblyBuilder(::Il2CppString* m_ProductName_ = {}) noexcept : m_ProductName{m_ProductName_} {}
     // Deleting conversion operator: operator NUnit::Framework::Interfaces::ISuiteBuilder*
     constexpr operator NUnit::Framework::Interfaces::ISuiteBuilder*() const noexcept = delete;
-    // Get instance field: private readonly System.String m_ProductName
-    ::Il2CppString* _get_m_ProductName();
-    // Set instance field: private readonly System.String m_ProductName
-    void _set_m_ProductName(::Il2CppString* value);
+    // Get instance field reference: private readonly System.String m_ProductName
+    ::Il2CppString*& dyn_m_ProductName();
     // public NUnit.Framework.Interfaces.ITest Build(System.Reflection.Assembly[] assemblies, UnityEngine.TestTools.TestPlatform[] testPlatforms, System.Collections.Generic.IDictionary`2<System.String,System.Object> options)
     // Offset: 0x14B8FC4
     NUnit::Framework::Interfaces::ITest* Build(::Array<System::Reflection::Assembly*>* assemblies, ::Array<UnityEngine::TestTools::TestPlatform>* testPlatforms, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>* options);

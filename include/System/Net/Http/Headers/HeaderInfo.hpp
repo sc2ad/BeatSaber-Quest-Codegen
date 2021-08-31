@@ -79,22 +79,14 @@ namespace System::Net::Http::Headers {
     static_assert(sizeof(System::Func_2<::Il2CppObject*, ::Il2CppString*>*) == 0x8);
     // Creating value type constructor for type: HeaderInfo
     HeaderInfo(bool AllowsMany_ = {}, System::Net::Http::Headers::HttpHeaderKind HeaderKind_ = {}, ::Il2CppString* Name_ = {}, System::Func_2<::Il2CppObject*, ::Il2CppString*>* CustomToString_ = {}) noexcept : AllowsMany{AllowsMany_}, HeaderKind{HeaderKind_}, Name{Name_}, CustomToString{CustomToString_} {}
-    // Get instance field: public System.Boolean AllowsMany
-    bool _get_AllowsMany();
-    // Set instance field: public System.Boolean AllowsMany
-    void _set_AllowsMany(bool value);
-    // Get instance field: public readonly System.Net.Http.Headers.HttpHeaderKind HeaderKind
-    System::Net::Http::Headers::HttpHeaderKind _get_HeaderKind();
-    // Set instance field: public readonly System.Net.Http.Headers.HttpHeaderKind HeaderKind
-    void _set_HeaderKind(System::Net::Http::Headers::HttpHeaderKind value);
-    // Get instance field: public readonly System.String Name
-    ::Il2CppString* _get_Name();
-    // Set instance field: public readonly System.String Name
-    void _set_Name(::Il2CppString* value);
-    // Get instance field: private System.Func`2<System.Object,System.String> <CustomToString>k__BackingField
-    System::Func_2<::Il2CppObject*, ::Il2CppString*>* _get_$CustomToString$k__BackingField();
-    // Set instance field: private System.Func`2<System.Object,System.String> <CustomToString>k__BackingField
-    void _set_$CustomToString$k__BackingField(System::Func_2<::Il2CppObject*, ::Il2CppString*>* value);
+    // Get instance field reference: public System.Boolean AllowsMany
+    bool& dyn_AllowsMany();
+    // Get instance field reference: public readonly System.Net.Http.Headers.HttpHeaderKind HeaderKind
+    System::Net::Http::Headers::HttpHeaderKind& dyn_HeaderKind();
+    // Get instance field reference: public readonly System.String Name
+    ::Il2CppString*& dyn_Name();
+    // Get instance field reference: private System.Func`2<System.Object,System.String> <CustomToString>k__BackingField
+    System::Func_2<::Il2CppObject*, ::Il2CppString*>*& dyn_$CustomToString$k__BackingField();
     // public System.Func`2<System.Object,System.String> get_CustomToString()
     // Offset: 0x159FC6C
     System::Func_2<::Il2CppObject*, ::Il2CppString*>* get_CustomToString();

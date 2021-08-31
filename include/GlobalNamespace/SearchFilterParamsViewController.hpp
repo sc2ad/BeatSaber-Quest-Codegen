@@ -140,66 +140,36 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_2<GlobalNamespace::SearchFilterParamsViewController*, GlobalNamespace::LevelFilterParams*>*) == 0x8);
     // Creating value type constructor for type: SearchFilterParamsViewController
     SearchFilterParamsViewController(UnityEngine::UI::Toggle* filterByOwnedToggle_ = {}, UnityEngine::UI::Toggle* filterByCharacteristicToggle_ = {}, GlobalNamespace::BeatmapCharacteristicsDropdown* beatmapCharacteristicsDropdown_ = {}, UnityEngine::UI::Toggle* filterByDifficultyToggle_ = {}, GlobalNamespace::BeatmapDifficultyDropdown* beatmapDifficultyDropdown_ = {}, UnityEngine::UI::Toggle* filterBySongPacksToggle_ = {}, GlobalNamespace::SongPacksDropdown* songPacksDropdown_ = {}, UnityEngine::UI::Toggle* filterByNotPlayedYetToggle_ = {}, UnityEngine::UI::Toggle* filterByMinBpmToggle_ = {}, GlobalNamespace::FormattedFloatListSettingsController* minBpmController_ = {}, UnityEngine::UI::Toggle* filterByMaxBpmToggle_ = {}, GlobalNamespace::FormattedFloatListSettingsController* maxBpmController_ = {}, UnityEngine::UI::Button* okButton_ = {}, GlobalNamespace::LevelFilterParams* currentLevelFilterParams_ = {}, System::Action_2<GlobalNamespace::SearchFilterParamsViewController*, GlobalNamespace::LevelFilterParams*>* didFinishEvent_ = {}) noexcept : filterByOwnedToggle{filterByOwnedToggle_}, filterByCharacteristicToggle{filterByCharacteristicToggle_}, beatmapCharacteristicsDropdown{beatmapCharacteristicsDropdown_}, filterByDifficultyToggle{filterByDifficultyToggle_}, beatmapDifficultyDropdown{beatmapDifficultyDropdown_}, filterBySongPacksToggle{filterBySongPacksToggle_}, songPacksDropdown{songPacksDropdown_}, filterByNotPlayedYetToggle{filterByNotPlayedYetToggle_}, filterByMinBpmToggle{filterByMinBpmToggle_}, minBpmController{minBpmController_}, filterByMaxBpmToggle{filterByMaxBpmToggle_}, maxBpmController{maxBpmController_}, okButton{okButton_}, currentLevelFilterParams{currentLevelFilterParams_}, didFinishEvent{didFinishEvent_} {}
-    // Get instance field: private UnityEngine.UI.Toggle _filterByOwnedToggle
-    UnityEngine::UI::Toggle* _get__filterByOwnedToggle();
-    // Set instance field: private UnityEngine.UI.Toggle _filterByOwnedToggle
-    void _set__filterByOwnedToggle(UnityEngine::UI::Toggle* value);
-    // Get instance field: private UnityEngine.UI.Toggle _filterByCharacteristicToggle
-    UnityEngine::UI::Toggle* _get__filterByCharacteristicToggle();
-    // Set instance field: private UnityEngine.UI.Toggle _filterByCharacteristicToggle
-    void _set__filterByCharacteristicToggle(UnityEngine::UI::Toggle* value);
-    // Get instance field: private BeatmapCharacteristicsDropdown _beatmapCharacteristicsDropdown
-    GlobalNamespace::BeatmapCharacteristicsDropdown* _get__beatmapCharacteristicsDropdown();
-    // Set instance field: private BeatmapCharacteristicsDropdown _beatmapCharacteristicsDropdown
-    void _set__beatmapCharacteristicsDropdown(GlobalNamespace::BeatmapCharacteristicsDropdown* value);
-    // Get instance field: private UnityEngine.UI.Toggle _filterByDifficultyToggle
-    UnityEngine::UI::Toggle* _get__filterByDifficultyToggle();
-    // Set instance field: private UnityEngine.UI.Toggle _filterByDifficultyToggle
-    void _set__filterByDifficultyToggle(UnityEngine::UI::Toggle* value);
-    // Get instance field: private BeatmapDifficultyDropdown _beatmapDifficultyDropdown
-    GlobalNamespace::BeatmapDifficultyDropdown* _get__beatmapDifficultyDropdown();
-    // Set instance field: private BeatmapDifficultyDropdown _beatmapDifficultyDropdown
-    void _set__beatmapDifficultyDropdown(GlobalNamespace::BeatmapDifficultyDropdown* value);
-    // Get instance field: private UnityEngine.UI.Toggle _filterBySongPacksToggle
-    UnityEngine::UI::Toggle* _get__filterBySongPacksToggle();
-    // Set instance field: private UnityEngine.UI.Toggle _filterBySongPacksToggle
-    void _set__filterBySongPacksToggle(UnityEngine::UI::Toggle* value);
-    // Get instance field: private SongPacksDropdown _songPacksDropdown
-    GlobalNamespace::SongPacksDropdown* _get__songPacksDropdown();
-    // Set instance field: private SongPacksDropdown _songPacksDropdown
-    void _set__songPacksDropdown(GlobalNamespace::SongPacksDropdown* value);
-    // Get instance field: private UnityEngine.UI.Toggle _filterByNotPlayedYetToggle
-    UnityEngine::UI::Toggle* _get__filterByNotPlayedYetToggle();
-    // Set instance field: private UnityEngine.UI.Toggle _filterByNotPlayedYetToggle
-    void _set__filterByNotPlayedYetToggle(UnityEngine::UI::Toggle* value);
-    // Get instance field: private UnityEngine.UI.Toggle _filterByMinBpmToggle
-    UnityEngine::UI::Toggle* _get__filterByMinBpmToggle();
-    // Set instance field: private UnityEngine.UI.Toggle _filterByMinBpmToggle
-    void _set__filterByMinBpmToggle(UnityEngine::UI::Toggle* value);
-    // Get instance field: private FormattedFloatListSettingsController _minBpmController
-    GlobalNamespace::FormattedFloatListSettingsController* _get__minBpmController();
-    // Set instance field: private FormattedFloatListSettingsController _minBpmController
-    void _set__minBpmController(GlobalNamespace::FormattedFloatListSettingsController* value);
-    // Get instance field: private UnityEngine.UI.Toggle _filterByMaxBpmToggle
-    UnityEngine::UI::Toggle* _get__filterByMaxBpmToggle();
-    // Set instance field: private UnityEngine.UI.Toggle _filterByMaxBpmToggle
-    void _set__filterByMaxBpmToggle(UnityEngine::UI::Toggle* value);
-    // Get instance field: private FormattedFloatListSettingsController _maxBpmController
-    GlobalNamespace::FormattedFloatListSettingsController* _get__maxBpmController();
-    // Set instance field: private FormattedFloatListSettingsController _maxBpmController
-    void _set__maxBpmController(GlobalNamespace::FormattedFloatListSettingsController* value);
-    // Get instance field: private UnityEngine.UI.Button _okButton
-    UnityEngine::UI::Button* _get__okButton();
-    // Set instance field: private UnityEngine.UI.Button _okButton
-    void _set__okButton(UnityEngine::UI::Button* value);
-    // Get instance field: private LevelFilterParams _currentLevelFilterParams
-    GlobalNamespace::LevelFilterParams* _get__currentLevelFilterParams();
-    // Set instance field: private LevelFilterParams _currentLevelFilterParams
-    void _set__currentLevelFilterParams(GlobalNamespace::LevelFilterParams* value);
-    // Get instance field: private System.Action`2<SearchFilterParamsViewController,LevelFilterParams> didFinishEvent
-    System::Action_2<GlobalNamespace::SearchFilterParamsViewController*, GlobalNamespace::LevelFilterParams*>* _get_didFinishEvent();
-    // Set instance field: private System.Action`2<SearchFilterParamsViewController,LevelFilterParams> didFinishEvent
-    void _set_didFinishEvent(System::Action_2<GlobalNamespace::SearchFilterParamsViewController*, GlobalNamespace::LevelFilterParams*>* value);
+    // Get instance field reference: private UnityEngine.UI.Toggle _filterByOwnedToggle
+    UnityEngine::UI::Toggle*& dyn__filterByOwnedToggle();
+    // Get instance field reference: private UnityEngine.UI.Toggle _filterByCharacteristicToggle
+    UnityEngine::UI::Toggle*& dyn__filterByCharacteristicToggle();
+    // Get instance field reference: private BeatmapCharacteristicsDropdown _beatmapCharacteristicsDropdown
+    GlobalNamespace::BeatmapCharacteristicsDropdown*& dyn__beatmapCharacteristicsDropdown();
+    // Get instance field reference: private UnityEngine.UI.Toggle _filterByDifficultyToggle
+    UnityEngine::UI::Toggle*& dyn__filterByDifficultyToggle();
+    // Get instance field reference: private BeatmapDifficultyDropdown _beatmapDifficultyDropdown
+    GlobalNamespace::BeatmapDifficultyDropdown*& dyn__beatmapDifficultyDropdown();
+    // Get instance field reference: private UnityEngine.UI.Toggle _filterBySongPacksToggle
+    UnityEngine::UI::Toggle*& dyn__filterBySongPacksToggle();
+    // Get instance field reference: private SongPacksDropdown _songPacksDropdown
+    GlobalNamespace::SongPacksDropdown*& dyn__songPacksDropdown();
+    // Get instance field reference: private UnityEngine.UI.Toggle _filterByNotPlayedYetToggle
+    UnityEngine::UI::Toggle*& dyn__filterByNotPlayedYetToggle();
+    // Get instance field reference: private UnityEngine.UI.Toggle _filterByMinBpmToggle
+    UnityEngine::UI::Toggle*& dyn__filterByMinBpmToggle();
+    // Get instance field reference: private FormattedFloatListSettingsController _minBpmController
+    GlobalNamespace::FormattedFloatListSettingsController*& dyn__minBpmController();
+    // Get instance field reference: private UnityEngine.UI.Toggle _filterByMaxBpmToggle
+    UnityEngine::UI::Toggle*& dyn__filterByMaxBpmToggle();
+    // Get instance field reference: private FormattedFloatListSettingsController _maxBpmController
+    GlobalNamespace::FormattedFloatListSettingsController*& dyn__maxBpmController();
+    // Get instance field reference: private UnityEngine.UI.Button _okButton
+    UnityEngine::UI::Button*& dyn__okButton();
+    // Get instance field reference: private LevelFilterParams _currentLevelFilterParams
+    GlobalNamespace::LevelFilterParams*& dyn__currentLevelFilterParams();
+    // Get instance field reference: private System.Action`2<SearchFilterParamsViewController,LevelFilterParams> didFinishEvent
+    System::Action_2<GlobalNamespace::SearchFilterParamsViewController*, GlobalNamespace::LevelFilterParams*>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`2<SearchFilterParamsViewController,LevelFilterParams> value)
     // Offset: 0x119C584
     void add_didFinishEvent(System::Action_2<GlobalNamespace::SearchFilterParamsViewController*, GlobalNamespace::LevelFilterParams*>* value);

@@ -118,10 +118,8 @@ namespace UnityEngine::UI {
       static UnityEngine::UI::ScrollRect::MovementType _get_Clamped();
       // Set static field: static public UnityEngine.UI.ScrollRect/UnityEngine.UI.MovementType Clamped
       static void _set_Clamped(UnityEngine::UI::ScrollRect::MovementType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // UnityEngine.UI.ScrollRect/UnityEngine.UI.MovementType
     #pragma pack(pop)
     static check_size<sizeof(ScrollRect::MovementType), 0 + sizeof(int)> __UnityEngine_UI_ScrollRect_MovementTypeSizeCheck;
@@ -166,10 +164,8 @@ namespace UnityEngine::UI {
       static UnityEngine::UI::ScrollRect::ScrollbarVisibility _get_AutoHideAndExpandViewport();
       // Set static field: static public UnityEngine.UI.ScrollRect/UnityEngine.UI.ScrollbarVisibility AutoHideAndExpandViewport
       static void _set_AutoHideAndExpandViewport(UnityEngine::UI::ScrollRect::ScrollbarVisibility value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // UnityEngine.UI.ScrollRect/UnityEngine.UI.ScrollbarVisibility
     #pragma pack(pop)
     static check_size<sizeof(ScrollRect::ScrollbarVisibility), 0 + sizeof(int)> __UnityEngine_UI_ScrollRect_ScrollbarVisibilitySizeCheck;
@@ -442,154 +438,80 @@ namespace UnityEngine::UI {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.RectTransform m_Content
-    UnityEngine::RectTransform* _get_m_Content();
-    // Set instance field: private UnityEngine.RectTransform m_Content
-    void _set_m_Content(UnityEngine::RectTransform* value);
-    // Get instance field: private System.Boolean m_Horizontal
-    bool _get_m_Horizontal();
-    // Set instance field: private System.Boolean m_Horizontal
-    void _set_m_Horizontal(bool value);
-    // Get instance field: private System.Boolean m_Vertical
-    bool _get_m_Vertical();
-    // Set instance field: private System.Boolean m_Vertical
-    void _set_m_Vertical(bool value);
-    // Get instance field: private UnityEngine.UI.ScrollRect/UnityEngine.UI.MovementType m_MovementType
-    UnityEngine::UI::ScrollRect::MovementType _get_m_MovementType();
-    // Set instance field: private UnityEngine.UI.ScrollRect/UnityEngine.UI.MovementType m_MovementType
-    void _set_m_MovementType(UnityEngine::UI::ScrollRect::MovementType value);
-    // Get instance field: private System.Single m_Elasticity
-    float _get_m_Elasticity();
-    // Set instance field: private System.Single m_Elasticity
-    void _set_m_Elasticity(float value);
-    // Get instance field: private System.Boolean m_Inertia
-    bool _get_m_Inertia();
-    // Set instance field: private System.Boolean m_Inertia
-    void _set_m_Inertia(bool value);
-    // Get instance field: private System.Single m_DecelerationRate
-    float _get_m_DecelerationRate();
-    // Set instance field: private System.Single m_DecelerationRate
-    void _set_m_DecelerationRate(float value);
-    // Get instance field: private System.Single m_ScrollSensitivity
-    float _get_m_ScrollSensitivity();
-    // Set instance field: private System.Single m_ScrollSensitivity
-    void _set_m_ScrollSensitivity(float value);
-    // Get instance field: private UnityEngine.RectTransform m_Viewport
-    UnityEngine::RectTransform* _get_m_Viewport();
-    // Set instance field: private UnityEngine.RectTransform m_Viewport
-    void _set_m_Viewport(UnityEngine::RectTransform* value);
-    // Get instance field: private UnityEngine.UI.Scrollbar m_HorizontalScrollbar
-    UnityEngine::UI::Scrollbar* _get_m_HorizontalScrollbar();
-    // Set instance field: private UnityEngine.UI.Scrollbar m_HorizontalScrollbar
-    void _set_m_HorizontalScrollbar(UnityEngine::UI::Scrollbar* value);
-    // Get instance field: private UnityEngine.UI.Scrollbar m_VerticalScrollbar
-    UnityEngine::UI::Scrollbar* _get_m_VerticalScrollbar();
-    // Set instance field: private UnityEngine.UI.Scrollbar m_VerticalScrollbar
-    void _set_m_VerticalScrollbar(UnityEngine::UI::Scrollbar* value);
-    // Get instance field: private UnityEngine.UI.ScrollRect/UnityEngine.UI.ScrollbarVisibility m_HorizontalScrollbarVisibility
-    UnityEngine::UI::ScrollRect::ScrollbarVisibility _get_m_HorizontalScrollbarVisibility();
-    // Set instance field: private UnityEngine.UI.ScrollRect/UnityEngine.UI.ScrollbarVisibility m_HorizontalScrollbarVisibility
-    void _set_m_HorizontalScrollbarVisibility(UnityEngine::UI::ScrollRect::ScrollbarVisibility value);
-    // Get instance field: private UnityEngine.UI.ScrollRect/UnityEngine.UI.ScrollbarVisibility m_VerticalScrollbarVisibility
-    UnityEngine::UI::ScrollRect::ScrollbarVisibility _get_m_VerticalScrollbarVisibility();
-    // Set instance field: private UnityEngine.UI.ScrollRect/UnityEngine.UI.ScrollbarVisibility m_VerticalScrollbarVisibility
-    void _set_m_VerticalScrollbarVisibility(UnityEngine::UI::ScrollRect::ScrollbarVisibility value);
-    // Get instance field: private System.Single m_HorizontalScrollbarSpacing
-    float _get_m_HorizontalScrollbarSpacing();
-    // Set instance field: private System.Single m_HorizontalScrollbarSpacing
-    void _set_m_HorizontalScrollbarSpacing(float value);
-    // Get instance field: private System.Single m_VerticalScrollbarSpacing
-    float _get_m_VerticalScrollbarSpacing();
-    // Set instance field: private System.Single m_VerticalScrollbarSpacing
-    void _set_m_VerticalScrollbarSpacing(float value);
-    // Get instance field: private UnityEngine.UI.ScrollRect/UnityEngine.UI.ScrollRectEvent m_OnValueChanged
-    UnityEngine::UI::ScrollRect::ScrollRectEvent* _get_m_OnValueChanged();
-    // Set instance field: private UnityEngine.UI.ScrollRect/UnityEngine.UI.ScrollRectEvent m_OnValueChanged
-    void _set_m_OnValueChanged(UnityEngine::UI::ScrollRect::ScrollRectEvent* value);
-    // Get instance field: private UnityEngine.Vector2 m_PointerStartLocalCursor
-    UnityEngine::Vector2 _get_m_PointerStartLocalCursor();
-    // Set instance field: private UnityEngine.Vector2 m_PointerStartLocalCursor
-    void _set_m_PointerStartLocalCursor(UnityEngine::Vector2 value);
-    // Get instance field: protected UnityEngine.Vector2 m_ContentStartPosition
-    UnityEngine::Vector2 _get_m_ContentStartPosition();
-    // Set instance field: protected UnityEngine.Vector2 m_ContentStartPosition
-    void _set_m_ContentStartPosition(UnityEngine::Vector2 value);
-    // Get instance field: private UnityEngine.RectTransform m_ViewRect
-    UnityEngine::RectTransform* _get_m_ViewRect();
-    // Set instance field: private UnityEngine.RectTransform m_ViewRect
-    void _set_m_ViewRect(UnityEngine::RectTransform* value);
-    // Get instance field: protected UnityEngine.Bounds m_ContentBounds
-    UnityEngine::Bounds _get_m_ContentBounds();
-    // Set instance field: protected UnityEngine.Bounds m_ContentBounds
-    void _set_m_ContentBounds(UnityEngine::Bounds value);
-    // Get instance field: private UnityEngine.Bounds m_ViewBounds
-    UnityEngine::Bounds _get_m_ViewBounds();
-    // Set instance field: private UnityEngine.Bounds m_ViewBounds
-    void _set_m_ViewBounds(UnityEngine::Bounds value);
-    // Get instance field: private UnityEngine.Vector2 m_Velocity
-    UnityEngine::Vector2 _get_m_Velocity();
-    // Set instance field: private UnityEngine.Vector2 m_Velocity
-    void _set_m_Velocity(UnityEngine::Vector2 value);
-    // Get instance field: private System.Boolean m_Dragging
-    bool _get_m_Dragging();
-    // Set instance field: private System.Boolean m_Dragging
-    void _set_m_Dragging(bool value);
-    // Get instance field: private System.Boolean m_Scrolling
-    bool _get_m_Scrolling();
-    // Set instance field: private System.Boolean m_Scrolling
-    void _set_m_Scrolling(bool value);
-    // Get instance field: private UnityEngine.Vector2 m_PrevPosition
-    UnityEngine::Vector2 _get_m_PrevPosition();
-    // Set instance field: private UnityEngine.Vector2 m_PrevPosition
-    void _set_m_PrevPosition(UnityEngine::Vector2 value);
-    // Get instance field: private UnityEngine.Bounds m_PrevContentBounds
-    UnityEngine::Bounds _get_m_PrevContentBounds();
-    // Set instance field: private UnityEngine.Bounds m_PrevContentBounds
-    void _set_m_PrevContentBounds(UnityEngine::Bounds value);
-    // Get instance field: private UnityEngine.Bounds m_PrevViewBounds
-    UnityEngine::Bounds _get_m_PrevViewBounds();
-    // Set instance field: private UnityEngine.Bounds m_PrevViewBounds
-    void _set_m_PrevViewBounds(UnityEngine::Bounds value);
-    // Get instance field: private System.Boolean m_HasRebuiltLayout
-    bool _get_m_HasRebuiltLayout();
-    // Set instance field: private System.Boolean m_HasRebuiltLayout
-    void _set_m_HasRebuiltLayout(bool value);
-    // Get instance field: private System.Boolean m_HSliderExpand
-    bool _get_m_HSliderExpand();
-    // Set instance field: private System.Boolean m_HSliderExpand
-    void _set_m_HSliderExpand(bool value);
-    // Get instance field: private System.Boolean m_VSliderExpand
-    bool _get_m_VSliderExpand();
-    // Set instance field: private System.Boolean m_VSliderExpand
-    void _set_m_VSliderExpand(bool value);
-    // Get instance field: private System.Single m_HSliderHeight
-    float _get_m_HSliderHeight();
-    // Set instance field: private System.Single m_HSliderHeight
-    void _set_m_HSliderHeight(float value);
-    // Get instance field: private System.Single m_VSliderWidth
-    float _get_m_VSliderWidth();
-    // Set instance field: private System.Single m_VSliderWidth
-    void _set_m_VSliderWidth(float value);
-    // Get instance field: private UnityEngine.RectTransform m_Rect
-    UnityEngine::RectTransform* _get_m_Rect();
-    // Set instance field: private UnityEngine.RectTransform m_Rect
-    void _set_m_Rect(UnityEngine::RectTransform* value);
-    // Get instance field: private UnityEngine.RectTransform m_HorizontalScrollbarRect
-    UnityEngine::RectTransform* _get_m_HorizontalScrollbarRect();
-    // Set instance field: private UnityEngine.RectTransform m_HorizontalScrollbarRect
-    void _set_m_HorizontalScrollbarRect(UnityEngine::RectTransform* value);
-    // Get instance field: private UnityEngine.RectTransform m_VerticalScrollbarRect
-    UnityEngine::RectTransform* _get_m_VerticalScrollbarRect();
-    // Set instance field: private UnityEngine.RectTransform m_VerticalScrollbarRect
-    void _set_m_VerticalScrollbarRect(UnityEngine::RectTransform* value);
-    // Get instance field: private UnityEngine.DrivenRectTransformTracker m_Tracker
-    UnityEngine::DrivenRectTransformTracker _get_m_Tracker();
-    // Set instance field: private UnityEngine.DrivenRectTransformTracker m_Tracker
-    void _set_m_Tracker(UnityEngine::DrivenRectTransformTracker value);
-    // Get instance field: private readonly UnityEngine.Vector3[] m_Corners
-    ::Array<UnityEngine::Vector3>* _get_m_Corners();
-    // Set instance field: private readonly UnityEngine.Vector3[] m_Corners
-    void _set_m_Corners(::Array<UnityEngine::Vector3>* value);
+    // Get instance field reference: private UnityEngine.RectTransform m_Content
+    UnityEngine::RectTransform*& dyn_m_Content();
+    // Get instance field reference: private System.Boolean m_Horizontal
+    bool& dyn_m_Horizontal();
+    // Get instance field reference: private System.Boolean m_Vertical
+    bool& dyn_m_Vertical();
+    // Get instance field reference: private UnityEngine.UI.ScrollRect/UnityEngine.UI.MovementType m_MovementType
+    UnityEngine::UI::ScrollRect::MovementType& dyn_m_MovementType();
+    // Get instance field reference: private System.Single m_Elasticity
+    float& dyn_m_Elasticity();
+    // Get instance field reference: private System.Boolean m_Inertia
+    bool& dyn_m_Inertia();
+    // Get instance field reference: private System.Single m_DecelerationRate
+    float& dyn_m_DecelerationRate();
+    // Get instance field reference: private System.Single m_ScrollSensitivity
+    float& dyn_m_ScrollSensitivity();
+    // Get instance field reference: private UnityEngine.RectTransform m_Viewport
+    UnityEngine::RectTransform*& dyn_m_Viewport();
+    // Get instance field reference: private UnityEngine.UI.Scrollbar m_HorizontalScrollbar
+    UnityEngine::UI::Scrollbar*& dyn_m_HorizontalScrollbar();
+    // Get instance field reference: private UnityEngine.UI.Scrollbar m_VerticalScrollbar
+    UnityEngine::UI::Scrollbar*& dyn_m_VerticalScrollbar();
+    // Get instance field reference: private UnityEngine.UI.ScrollRect/UnityEngine.UI.ScrollbarVisibility m_HorizontalScrollbarVisibility
+    UnityEngine::UI::ScrollRect::ScrollbarVisibility& dyn_m_HorizontalScrollbarVisibility();
+    // Get instance field reference: private UnityEngine.UI.ScrollRect/UnityEngine.UI.ScrollbarVisibility m_VerticalScrollbarVisibility
+    UnityEngine::UI::ScrollRect::ScrollbarVisibility& dyn_m_VerticalScrollbarVisibility();
+    // Get instance field reference: private System.Single m_HorizontalScrollbarSpacing
+    float& dyn_m_HorizontalScrollbarSpacing();
+    // Get instance field reference: private System.Single m_VerticalScrollbarSpacing
+    float& dyn_m_VerticalScrollbarSpacing();
+    // Get instance field reference: private UnityEngine.UI.ScrollRect/UnityEngine.UI.ScrollRectEvent m_OnValueChanged
+    UnityEngine::UI::ScrollRect::ScrollRectEvent*& dyn_m_OnValueChanged();
+    // Get instance field reference: private UnityEngine.Vector2 m_PointerStartLocalCursor
+    UnityEngine::Vector2& dyn_m_PointerStartLocalCursor();
+    // Get instance field reference: protected UnityEngine.Vector2 m_ContentStartPosition
+    UnityEngine::Vector2& dyn_m_ContentStartPosition();
+    // Get instance field reference: private UnityEngine.RectTransform m_ViewRect
+    UnityEngine::RectTransform*& dyn_m_ViewRect();
+    // Get instance field reference: protected UnityEngine.Bounds m_ContentBounds
+    UnityEngine::Bounds& dyn_m_ContentBounds();
+    // Get instance field reference: private UnityEngine.Bounds m_ViewBounds
+    UnityEngine::Bounds& dyn_m_ViewBounds();
+    // Get instance field reference: private UnityEngine.Vector2 m_Velocity
+    UnityEngine::Vector2& dyn_m_Velocity();
+    // Get instance field reference: private System.Boolean m_Dragging
+    bool& dyn_m_Dragging();
+    // Get instance field reference: private System.Boolean m_Scrolling
+    bool& dyn_m_Scrolling();
+    // Get instance field reference: private UnityEngine.Vector2 m_PrevPosition
+    UnityEngine::Vector2& dyn_m_PrevPosition();
+    // Get instance field reference: private UnityEngine.Bounds m_PrevContentBounds
+    UnityEngine::Bounds& dyn_m_PrevContentBounds();
+    // Get instance field reference: private UnityEngine.Bounds m_PrevViewBounds
+    UnityEngine::Bounds& dyn_m_PrevViewBounds();
+    // Get instance field reference: private System.Boolean m_HasRebuiltLayout
+    bool& dyn_m_HasRebuiltLayout();
+    // Get instance field reference: private System.Boolean m_HSliderExpand
+    bool& dyn_m_HSliderExpand();
+    // Get instance field reference: private System.Boolean m_VSliderExpand
+    bool& dyn_m_VSliderExpand();
+    // Get instance field reference: private System.Single m_HSliderHeight
+    float& dyn_m_HSliderHeight();
+    // Get instance field reference: private System.Single m_VSliderWidth
+    float& dyn_m_VSliderWidth();
+    // Get instance field reference: private UnityEngine.RectTransform m_Rect
+    UnityEngine::RectTransform*& dyn_m_Rect();
+    // Get instance field reference: private UnityEngine.RectTransform m_HorizontalScrollbarRect
+    UnityEngine::RectTransform*& dyn_m_HorizontalScrollbarRect();
+    // Get instance field reference: private UnityEngine.RectTransform m_VerticalScrollbarRect
+    UnityEngine::RectTransform*& dyn_m_VerticalScrollbarRect();
+    // Get instance field reference: private UnityEngine.DrivenRectTransformTracker m_Tracker
+    UnityEngine::DrivenRectTransformTracker& dyn_m_Tracker();
+    // Get instance field reference: private readonly UnityEngine.Vector3[] m_Corners
+    ::Array<UnityEngine::Vector3>*& dyn_m_Corners();
     // public UnityEngine.RectTransform get_content()
     // Offset: 0x19D8D30
     UnityEngine::RectTransform* get_content();

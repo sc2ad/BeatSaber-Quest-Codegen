@@ -157,38 +157,22 @@ namespace System::Threading {
     static System::Threading::TimerCallback* _get_s_timerCallback();
     // Set static field: static private readonly System.Threading.TimerCallback s_timerCallback
     static void _set_s_timerCallback(System::Threading::TimerCallback* value);
-    // Get instance field: private System.Threading.ManualResetEvent m_kernelEvent
-    System::Threading::ManualResetEvent* _get_m_kernelEvent();
-    // Set instance field: private System.Threading.ManualResetEvent m_kernelEvent
-    void _set_m_kernelEvent(System::Threading::ManualResetEvent* value);
-    // Get instance field: private System.Threading.SparselyPopulatedArray`1<System.Threading.CancellationCallbackInfo>[] m_registeredCallbacksLists
-    ::Array<System::Threading::SparselyPopulatedArray_1<System::Threading::CancellationCallbackInfo*>*>* _get_m_registeredCallbacksLists();
-    // Set instance field: private System.Threading.SparselyPopulatedArray`1<System.Threading.CancellationCallbackInfo>[] m_registeredCallbacksLists
-    void _set_m_registeredCallbacksLists(::Array<System::Threading::SparselyPopulatedArray_1<System::Threading::CancellationCallbackInfo*>*>* value);
-    // Get instance field: private System.Int32 m_state
-    int _get_m_state();
-    // Set instance field: private System.Int32 m_state
-    void _set_m_state(int value);
-    // Get instance field: private System.Int32 m_threadIDExecutingCallbacks
-    int _get_m_threadIDExecutingCallbacks();
-    // Set instance field: private System.Int32 m_threadIDExecutingCallbacks
-    void _set_m_threadIDExecutingCallbacks(int value);
-    // Get instance field: private System.Boolean m_disposed
-    bool _get_m_disposed();
-    // Set instance field: private System.Boolean m_disposed
-    void _set_m_disposed(bool value);
-    // Get instance field: private System.Threading.CancellationTokenRegistration[] m_linkingRegistrations
-    ::Array<System::Threading::CancellationTokenRegistration>* _get_m_linkingRegistrations();
-    // Set instance field: private System.Threading.CancellationTokenRegistration[] m_linkingRegistrations
-    void _set_m_linkingRegistrations(::Array<System::Threading::CancellationTokenRegistration>* value);
-    // Get instance field: private System.Threading.CancellationCallbackInfo m_executingCallback
-    System::Threading::CancellationCallbackInfo* _get_m_executingCallback();
-    // Set instance field: private System.Threading.CancellationCallbackInfo m_executingCallback
-    void _set_m_executingCallback(System::Threading::CancellationCallbackInfo* value);
-    // Get instance field: private System.Threading.Timer m_timer
-    System::Threading::Timer* _get_m_timer();
-    // Set instance field: private System.Threading.Timer m_timer
-    void _set_m_timer(System::Threading::Timer* value);
+    // Get instance field reference: private System.Threading.ManualResetEvent m_kernelEvent
+    System::Threading::ManualResetEvent*& dyn_m_kernelEvent();
+    // Get instance field reference: private System.Threading.SparselyPopulatedArray`1<System.Threading.CancellationCallbackInfo>[] m_registeredCallbacksLists
+    ::Array<System::Threading::SparselyPopulatedArray_1<System::Threading::CancellationCallbackInfo*>*>*& dyn_m_registeredCallbacksLists();
+    // Get instance field reference: private System.Int32 m_state
+    int& dyn_m_state();
+    // Get instance field reference: private System.Int32 m_threadIDExecutingCallbacks
+    int& dyn_m_threadIDExecutingCallbacks();
+    // Get instance field reference: private System.Boolean m_disposed
+    bool& dyn_m_disposed();
+    // Get instance field reference: private System.Threading.CancellationTokenRegistration[] m_linkingRegistrations
+    ::Array<System::Threading::CancellationTokenRegistration>*& dyn_m_linkingRegistrations();
+    // Get instance field reference: private System.Threading.CancellationCallbackInfo m_executingCallback
+    System::Threading::CancellationCallbackInfo*& dyn_m_executingCallback();
+    // Get instance field reference: private System.Threading.Timer m_timer
+    System::Threading::Timer*& dyn_m_timer();
     // public System.Boolean get_IsCancellationRequested()
     // Offset: 0x18F1A14
     bool get_IsCancellationRequested();

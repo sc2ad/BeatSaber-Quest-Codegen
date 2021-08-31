@@ -37,10 +37,8 @@ namespace GlobalNamespace {
     DisableSpatializerOnOldWindows(UnityEngine::AudioSource* audioSource_ = {}) noexcept : audioSource{audioSource_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.AudioSource _audioSource
-    UnityEngine::AudioSource* _get__audioSource();
-    // Set instance field: private UnityEngine.AudioSource _audioSource
-    void _set__audioSource(UnityEngine::AudioSource* value);
+    // Get instance field reference: private UnityEngine.AudioSource _audioSource
+    UnityEngine::AudioSource*& dyn__audioSource();
     // public System.Void .ctor()
     // Offset: 0x10FBD60
     // Implemented from: UnityEngine.MonoBehaviour

@@ -108,30 +108,18 @@ namespace System::Net::Http {
     static System::TimeSpan _get_TimeoutDefault();
     // Set static field: static private readonly System.TimeSpan TimeoutDefault
     static void _set_TimeoutDefault(System::TimeSpan value);
-    // Get instance field: private System.Uri base_address
-    System::Uri* _get_base_address();
-    // Set instance field: private System.Uri base_address
-    void _set_base_address(System::Uri* value);
-    // Get instance field: private System.Threading.CancellationTokenSource cts
-    System::Threading::CancellationTokenSource* _get_cts();
-    // Set instance field: private System.Threading.CancellationTokenSource cts
-    void _set_cts(System::Threading::CancellationTokenSource* value);
-    // Get instance field: private System.Boolean disposed
-    bool _get_disposed();
-    // Set instance field: private System.Boolean disposed
-    void _set_disposed(bool value);
-    // Get instance field: private System.Net.Http.Headers.HttpRequestHeaders headers
-    System::Net::Http::Headers::HttpRequestHeaders* _get_headers();
-    // Set instance field: private System.Net.Http.Headers.HttpRequestHeaders headers
-    void _set_headers(System::Net::Http::Headers::HttpRequestHeaders* value);
-    // Get instance field: private System.Int64 buffer_size
-    int64_t _get_buffer_size();
-    // Set instance field: private System.Int64 buffer_size
-    void _set_buffer_size(int64_t value);
-    // Get instance field: private System.TimeSpan timeout
-    System::TimeSpan _get_timeout();
-    // Set instance field: private System.TimeSpan timeout
-    void _set_timeout(System::TimeSpan value);
+    // Get instance field reference: private System.Uri base_address
+    System::Uri*& dyn_base_address();
+    // Get instance field reference: private System.Threading.CancellationTokenSource cts
+    System::Threading::CancellationTokenSource*& dyn_cts();
+    // Get instance field reference: private System.Boolean disposed
+    bool& dyn_disposed();
+    // Get instance field reference: private System.Net.Http.Headers.HttpRequestHeaders headers
+    System::Net::Http::Headers::HttpRequestHeaders*& dyn_headers();
+    // Get instance field reference: private System.Int64 buffer_size
+    int64_t& dyn_buffer_size();
+    // Get instance field reference: private System.TimeSpan timeout
+    System::TimeSpan& dyn_timeout();
     // public System.Int64 get_MaxResponseContentBufferSize()
     // Offset: 0x15AAA78
     int64_t get_MaxResponseContentBufferSize();

@@ -57,10 +57,8 @@ namespace TMPro {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: public System.Boolean isSelected
-    bool _get_isSelected();
-    // Set instance field: public System.Boolean isSelected
-    void _set_isSelected(bool value);
+    // Get instance field reference: public System.Boolean isSelected
+    bool& dyn_isSelected();
     // public System.Void OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
     // Offset: 0x115C0C0
     void OnPointerClick(UnityEngine::EventSystems::PointerEventData* eventData);

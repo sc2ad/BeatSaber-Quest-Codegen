@@ -62,22 +62,14 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     operator Org::BouncyCastle::Crypto::ICipherParameters() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);
     }
-    // Get instance field: private readonly Org.BouncyCastle.Math.BigInteger p
-    Org::BouncyCastle::Math::BigInteger* _get_p();
-    // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger p
-    void _set_p(Org::BouncyCastle::Math::BigInteger* value);
-    // Get instance field: private readonly Org.BouncyCastle.Math.BigInteger q
-    Org::BouncyCastle::Math::BigInteger* _get_q();
-    // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger q
-    void _set_q(Org::BouncyCastle::Math::BigInteger* value);
-    // Get instance field: private readonly Org.BouncyCastle.Math.BigInteger a
-    Org::BouncyCastle::Math::BigInteger* _get_a();
-    // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger a
-    void _set_a(Org::BouncyCastle::Math::BigInteger* value);
-    // Get instance field: private readonly Org.BouncyCastle.Crypto.Parameters.Gost3410ValidationParameters validation
-    Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters* _get_validation();
-    // Set instance field: private readonly Org.BouncyCastle.Crypto.Parameters.Gost3410ValidationParameters validation
-    void _set_validation(Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters* value);
+    // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger p
+    Org::BouncyCastle::Math::BigInteger*& dyn_p();
+    // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger q
+    Org::BouncyCastle::Math::BigInteger*& dyn_q();
+    // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger a
+    Org::BouncyCastle::Math::BigInteger*& dyn_a();
+    // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Parameters.Gost3410ValidationParameters validation
+    Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters*& dyn_validation();
     // public Org.BouncyCastle.Math.BigInteger get_P()
     // Offset: 0x1275B50
     Org::BouncyCastle::Math::BigInteger* get_P();

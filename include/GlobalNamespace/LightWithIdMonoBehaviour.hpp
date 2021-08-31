@@ -63,18 +63,12 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.Int32 _ID
-    int _get__ID();
-    // Set instance field: private System.Int32 _ID
-    void _set__ID(int value);
-    // Get instance field: private readonly LightWithIdManager _lightManager
-    GlobalNamespace::LightWithIdManager* _get__lightManager();
-    // Set instance field: private readonly LightWithIdManager _lightManager
-    void _set__lightManager(GlobalNamespace::LightWithIdManager* value);
-    // Get instance field: private System.Boolean _isRegistered
-    bool _get__isRegistered();
-    // Set instance field: private System.Boolean _isRegistered
-    void _set__isRegistered(bool value);
+    // Get instance field reference: private System.Int32 _ID
+    int& dyn__ID();
+    // Get instance field reference: private readonly LightWithIdManager _lightManager
+    GlobalNamespace::LightWithIdManager*& dyn__lightManager();
+    // Get instance field reference: private System.Boolean _isRegistered
+    bool& dyn__isRegistered();
     // public System.Int32 get_lightId()
     // Offset: 0x1E1A780
     int get_lightId();

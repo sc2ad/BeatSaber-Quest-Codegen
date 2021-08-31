@@ -48,10 +48,8 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::NodePoseSyncStateManager*() const noexcept {
       return nodePoseSyncStateManager;
     }
-    // Get instance field: private readonly NodePoseSyncStateManager _nodePoseSyncStateManager
-    GlobalNamespace::NodePoseSyncStateManager* _get__nodePoseSyncStateManager();
-    // Set instance field: private readonly NodePoseSyncStateManager _nodePoseSyncStateManager
-    void _set__nodePoseSyncStateManager(GlobalNamespace::NodePoseSyncStateManager* value);
+    // Get instance field reference: private readonly NodePoseSyncStateManager _nodePoseSyncStateManager
+    GlobalNamespace::NodePoseSyncStateManager*& dyn__nodePoseSyncStateManager();
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, NodePoseSyncStateManager nodePoseSyncStateManager)
     // Offset: 0x11DDDE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

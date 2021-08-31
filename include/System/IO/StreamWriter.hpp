@@ -118,50 +118,28 @@ namespace System::IO {
     static System::Text::Encoding* _get__UTF8NoBOM();
     // Set static field: static private System.Text.Encoding _UTF8NoBOM
     static void _set__UTF8NoBOM(System::Text::Encoding* value);
-    // Get instance field: private System.IO.Stream stream
-    System::IO::Stream* _get_stream();
-    // Set instance field: private System.IO.Stream stream
-    void _set_stream(System::IO::Stream* value);
-    // Get instance field: private System.Text.Encoding encoding
-    System::Text::Encoding* _get_encoding();
-    // Set instance field: private System.Text.Encoding encoding
-    void _set_encoding(System::Text::Encoding* value);
-    // Get instance field: private System.Text.Encoder encoder
-    System::Text::Encoder* _get_encoder();
-    // Set instance field: private System.Text.Encoder encoder
-    void _set_encoder(System::Text::Encoder* value);
-    // Get instance field: private System.Byte[] byteBuffer
-    ::Array<uint8_t>* _get_byteBuffer();
-    // Set instance field: private System.Byte[] byteBuffer
-    void _set_byteBuffer(::Array<uint8_t>* value);
-    // Get instance field: private System.Char[] charBuffer
-    ::Array<::Il2CppChar>* _get_charBuffer();
-    // Set instance field: private System.Char[] charBuffer
-    void _set_charBuffer(::Array<::Il2CppChar>* value);
-    // Get instance field: private System.Int32 charPos
-    int _get_charPos();
-    // Set instance field: private System.Int32 charPos
-    void _set_charPos(int value);
-    // Get instance field: private System.Int32 charLen
-    int _get_charLen();
-    // Set instance field: private System.Int32 charLen
-    void _set_charLen(int value);
-    // Get instance field: private System.Boolean autoFlush
-    bool _get_autoFlush();
-    // Set instance field: private System.Boolean autoFlush
-    void _set_autoFlush(bool value);
-    // Get instance field: private System.Boolean haveWrittenPreamble
-    bool _get_haveWrittenPreamble();
-    // Set instance field: private System.Boolean haveWrittenPreamble
-    void _set_haveWrittenPreamble(bool value);
-    // Get instance field: private System.Boolean closable
-    bool _get_closable();
-    // Set instance field: private System.Boolean closable
-    void _set_closable(bool value);
-    // Get instance field: private System.Threading.Tasks.Task _asyncWriteTask
-    System::Threading::Tasks::Task* _get__asyncWriteTask();
-    // Set instance field: private System.Threading.Tasks.Task _asyncWriteTask
-    void _set__asyncWriteTask(System::Threading::Tasks::Task* value);
+    // Get instance field reference: private System.IO.Stream stream
+    System::IO::Stream*& dyn_stream();
+    // Get instance field reference: private System.Text.Encoding encoding
+    System::Text::Encoding*& dyn_encoding();
+    // Get instance field reference: private System.Text.Encoder encoder
+    System::Text::Encoder*& dyn_encoder();
+    // Get instance field reference: private System.Byte[] byteBuffer
+    ::Array<uint8_t>*& dyn_byteBuffer();
+    // Get instance field reference: private System.Char[] charBuffer
+    ::Array<::Il2CppChar>*& dyn_charBuffer();
+    // Get instance field reference: private System.Int32 charPos
+    int& dyn_charPos();
+    // Get instance field reference: private System.Int32 charLen
+    int& dyn_charLen();
+    // Get instance field reference: private System.Boolean autoFlush
+    bool& dyn_autoFlush();
+    // Get instance field reference: private System.Boolean haveWrittenPreamble
+    bool& dyn_haveWrittenPreamble();
+    // Get instance field reference: private System.Boolean closable
+    bool& dyn_closable();
+    // Get instance field reference: private System.Threading.Tasks.Task _asyncWriteTask
+    System::Threading::Tasks::Task*& dyn__asyncWriteTask();
     // static System.Text.Encoding get_UTF8NoBOM()
     // Offset: 0x197FF2C
     static System::Text::Encoding* get_UTF8NoBOM();

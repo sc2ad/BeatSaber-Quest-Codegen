@@ -38,14 +38,10 @@ namespace System::Globalization {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: System.String webName
-    ::Il2CppString* _get_webName();
-    // Set instance field: System.String webName
-    void _set_webName(::Il2CppString* value);
-    // Get instance field: System.UInt16 codePage
-    uint16_t _get_codePage();
-    // Set instance field: System.UInt16 codePage
-    void _set_codePage(uint16_t value);
+    // Get instance field reference: System.String webName
+    ::Il2CppString*& dyn_webName();
+    // Get instance field reference: System.UInt16 codePage
+    uint16_t& dyn_codePage();
   }; // System.Globalization.InternalEncodingDataItem
   #pragma pack(pop)
   static check_size<sizeof(InternalEncodingDataItem), 8 + sizeof(uint16_t)> __System_Globalization_InternalEncodingDataItemSizeCheck;

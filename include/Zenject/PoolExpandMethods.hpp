@@ -50,10 +50,8 @@ namespace Zenject {
     static Zenject::PoolExpandMethods _get_Disabled();
     // Set static field: static public Zenject.PoolExpandMethods Disabled
     static void _set_Disabled(Zenject::PoolExpandMethods value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Zenject.PoolExpandMethods
   #pragma pack(pop)
   static check_size<sizeof(PoolExpandMethods), 0 + sizeof(int)> __Zenject_PoolExpandMethodsSizeCheck;

@@ -58,10 +58,8 @@ namespace UnityEngine::UI {
     static UnityEngine::UI::Image::Origin180 _get_Right();
     // Set static field: static public UnityEngine.UI.Image/UnityEngine.UI.Origin180 Right
     static void _set_Right(UnityEngine::UI::Image::Origin180 value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.UI.Image/UnityEngine.UI.Origin180
   #pragma pack(pop)
   static check_size<sizeof(Image::Origin180), 0 + sizeof(int)> __UnityEngine_UI_Image_Origin180SizeCheck;

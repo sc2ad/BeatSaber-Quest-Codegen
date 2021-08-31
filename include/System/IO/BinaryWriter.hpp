@@ -90,34 +90,20 @@ namespace System::IO {
     static System::IO::BinaryWriter* _get_Null();
     // Set static field: static public readonly System.IO.BinaryWriter Null
     static void _set_Null(System::IO::BinaryWriter* value);
-    // Get instance field: protected System.IO.Stream OutStream
-    System::IO::Stream* _get_OutStream();
-    // Set instance field: protected System.IO.Stream OutStream
-    void _set_OutStream(System::IO::Stream* value);
-    // Get instance field: private System.Byte[] _buffer
-    ::Array<uint8_t>* _get__buffer();
-    // Set instance field: private System.Byte[] _buffer
-    void _set__buffer(::Array<uint8_t>* value);
-    // Get instance field: private System.Text.Encoding _encoding
-    System::Text::Encoding* _get__encoding();
-    // Set instance field: private System.Text.Encoding _encoding
-    void _set__encoding(System::Text::Encoding* value);
-    // Get instance field: private System.Text.Encoder _encoder
-    System::Text::Encoder* _get__encoder();
-    // Set instance field: private System.Text.Encoder _encoder
-    void _set__encoder(System::Text::Encoder* value);
-    // Get instance field: private System.Boolean _leaveOpen
-    bool _get__leaveOpen();
-    // Set instance field: private System.Boolean _leaveOpen
-    void _set__leaveOpen(bool value);
-    // Get instance field: private System.Byte[] _largeByteBuffer
-    ::Array<uint8_t>* _get__largeByteBuffer();
-    // Set instance field: private System.Byte[] _largeByteBuffer
-    void _set__largeByteBuffer(::Array<uint8_t>* value);
-    // Get instance field: private System.Int32 _maxChars
-    int _get__maxChars();
-    // Set instance field: private System.Int32 _maxChars
-    void _set__maxChars(int value);
+    // Get instance field reference: protected System.IO.Stream OutStream
+    System::IO::Stream*& dyn_OutStream();
+    // Get instance field reference: private System.Byte[] _buffer
+    ::Array<uint8_t>*& dyn__buffer();
+    // Get instance field reference: private System.Text.Encoding _encoding
+    System::Text::Encoding*& dyn__encoding();
+    // Get instance field reference: private System.Text.Encoder _encoder
+    System::Text::Encoder*& dyn__encoder();
+    // Get instance field reference: private System.Boolean _leaveOpen
+    bool& dyn__leaveOpen();
+    // Get instance field reference: private System.Byte[] _largeByteBuffer
+    ::Array<uint8_t>*& dyn__largeByteBuffer();
+    // Get instance field reference: private System.Int32 _maxChars
+    int& dyn__maxChars();
     // public System.Void .ctor(System.IO.Stream output)
     // Offset: 0x1968618
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

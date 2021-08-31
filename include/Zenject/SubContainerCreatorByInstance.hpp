@@ -52,10 +52,8 @@ namespace Zenject {
     constexpr operator Zenject::DiContainer*() const noexcept {
       return subcontainer;
     }
-    // Get instance field: private readonly Zenject.DiContainer _subcontainer
-    Zenject::DiContainer* _get__subcontainer();
-    // Set instance field: private readonly Zenject.DiContainer _subcontainer
-    void _set__subcontainer(Zenject::DiContainer* value);
+    // Get instance field reference: private readonly Zenject.DiContainer _subcontainer
+    Zenject::DiContainer*& dyn__subcontainer();
     // public System.Void .ctor(Zenject.DiContainer subcontainer)
     // Offset: 0x171FA30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

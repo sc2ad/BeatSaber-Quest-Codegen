@@ -50,14 +50,10 @@ namespace GlobalNamespace {
     LocalizedAudioClipSO(::Array<GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*>* localizedAudioClipInfo_ = {}, GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo* lastLocalizedAudioClipInfo_ = {}) noexcept : localizedAudioClipInfo{localizedAudioClipInfo_}, lastLocalizedAudioClipInfo{lastLocalizedAudioClipInfo_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private LocalizedAudioClipSO/LocalizedAudioClipInfo[] _localizedAudioClipInfo
-    ::Array<GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*>* _get__localizedAudioClipInfo();
-    // Set instance field: private LocalizedAudioClipSO/LocalizedAudioClipInfo[] _localizedAudioClipInfo
-    void _set__localizedAudioClipInfo(::Array<GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*>* value);
-    // Get instance field: private LocalizedAudioClipSO/LocalizedAudioClipInfo _lastLocalizedAudioClipInfo
-    GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo* _get__lastLocalizedAudioClipInfo();
-    // Set instance field: private LocalizedAudioClipSO/LocalizedAudioClipInfo _lastLocalizedAudioClipInfo
-    void _set__lastLocalizedAudioClipInfo(GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo* value);
+    // Get instance field reference: private LocalizedAudioClipSO/LocalizedAudioClipInfo[] _localizedAudioClipInfo
+    ::Array<GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*>*& dyn__localizedAudioClipInfo();
+    // Get instance field reference: private LocalizedAudioClipSO/LocalizedAudioClipInfo _lastLocalizedAudioClipInfo
+    GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*& dyn__lastLocalizedAudioClipInfo();
     // public UnityEngine.AudioClip get_localizedAudioClip()
     // Offset: 0x10DE1E8
     UnityEngine::AudioClip* get_localizedAudioClip();

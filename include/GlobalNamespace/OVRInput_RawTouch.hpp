@@ -119,10 +119,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRInput::RawTouch _get_Any();
     // Set static field: static public OVRInput/RawTouch Any
     static void _set_Any(GlobalNamespace::OVRInput::RawTouch value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // OVRInput/RawTouch
   #pragma pack(pop)
   static check_size<sizeof(OVRInput::RawTouch), 0 + sizeof(int)> __GlobalNamespace_OVRInput_RawTouchSizeCheck;

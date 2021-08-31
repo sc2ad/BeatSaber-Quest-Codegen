@@ -78,42 +78,24 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private System.Int32 m_Name
-    int _get_m_Name();
-    // Set instance field: private System.Int32 m_Name
-    void _set_m_Name(int value);
-    // Get instance field: private System.Int32 m_Path
-    int _get_m_Path();
-    // Set instance field: private System.Int32 m_Path
-    void _set_m_Path(int value);
-    // Get instance field: private System.Int32 m_FullPath
-    int _get_m_FullPath();
-    // Set instance field: private System.Int32 m_FullPath
-    void _set_m_FullPath(int value);
-    // Get instance field: private System.Single m_NormalizedTime
-    float _get_m_NormalizedTime();
-    // Set instance field: private System.Single m_NormalizedTime
-    void _set_m_NormalizedTime(float value);
-    // Get instance field: private System.Single m_Length
-    float _get_m_Length();
-    // Set instance field: private System.Single m_Length
-    void _set_m_Length(float value);
-    // Get instance field: private System.Single m_Speed
-    float _get_m_Speed();
-    // Set instance field: private System.Single m_Speed
-    void _set_m_Speed(float value);
-    // Get instance field: private System.Single m_SpeedMultiplier
-    float _get_m_SpeedMultiplier();
-    // Set instance field: private System.Single m_SpeedMultiplier
-    void _set_m_SpeedMultiplier(float value);
-    // Get instance field: private System.Int32 m_Tag
-    int _get_m_Tag();
-    // Set instance field: private System.Int32 m_Tag
-    void _set_m_Tag(int value);
-    // Get instance field: private System.Int32 m_Loop
-    int _get_m_Loop();
-    // Set instance field: private System.Int32 m_Loop
-    void _set_m_Loop(int value);
+    // Get instance field reference: private System.Int32 m_Name
+    int& dyn_m_Name();
+    // Get instance field reference: private System.Int32 m_Path
+    int& dyn_m_Path();
+    // Get instance field reference: private System.Int32 m_FullPath
+    int& dyn_m_FullPath();
+    // Get instance field reference: private System.Single m_NormalizedTime
+    float& dyn_m_NormalizedTime();
+    // Get instance field reference: private System.Single m_Length
+    float& dyn_m_Length();
+    // Get instance field reference: private System.Single m_Speed
+    float& dyn_m_Speed();
+    // Get instance field reference: private System.Single m_SpeedMultiplier
+    float& dyn_m_SpeedMultiplier();
+    // Get instance field reference: private System.Int32 m_Tag
+    int& dyn_m_Tag();
+    // Get instance field reference: private System.Int32 m_Loop
+    int& dyn_m_Loop();
     // public System.Single get_normalizedTime()
     // Offset: 0x238DD6C
     float get_normalizedTime();

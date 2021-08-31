@@ -42,14 +42,10 @@ namespace HMUI {
     static_assert(sizeof(System::Action*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass17_0
     $$c__DisplayClass17_0(HMUI::ModalView* $$4__this_ = {}, System::Action* finishedCallback_ = {}) noexcept : $$4__this{$$4__this_}, finishedCallback{finishedCallback_} {}
-    // Get instance field: public HMUI.ModalView <>4__this
-    HMUI::ModalView* _get_$$4__this();
-    // Set instance field: public HMUI.ModalView <>4__this
-    void _set_$$4__this(HMUI::ModalView* value);
-    // Get instance field: public System.Action finishedCallback
-    System::Action* _get_finishedCallback();
-    // Set instance field: public System.Action finishedCallback
-    void _set_finishedCallback(System::Action* value);
+    // Get instance field reference: public HMUI.ModalView <>4__this
+    HMUI::ModalView*& dyn_$$4__this();
+    // Get instance field reference: public System.Action finishedCallback
+    System::Action*& dyn_finishedCallback();
     // System.Void <Hide>b__0()
     // Offset: 0x12F85A4
     void $Hide$b__0();

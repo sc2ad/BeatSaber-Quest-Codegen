@@ -66,14 +66,10 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IBitMask_1<GlobalNamespace::BitMaskSparse*>() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBitMask_1<GlobalNamespace::BitMaskSparse*>*>(this);
     }
-    // Get instance field: private readonly System.Int32 <bitCount>k__BackingField
-    int _get_$bitCount$k__BackingField();
-    // Set instance field: private readonly System.Int32 <bitCount>k__BackingField
-    void _set_$bitCount$k__BackingField(int value);
-    // Get instance field: private readonly System.Collections.Generic.SortedSet`1<System.UInt32> _sparseSet
-    System::Collections::Generic::SortedSet_1<uint>* _get__sparseSet();
-    // Set instance field: private readonly System.Collections.Generic.SortedSet`1<System.UInt32> _sparseSet
-    void _set__sparseSet(System::Collections::Generic::SortedSet_1<uint>* value);
+    // Get instance field reference: private readonly System.Int32 <bitCount>k__BackingField
+    int& dyn_$bitCount$k__BackingField();
+    // Get instance field reference: private readonly System.Collections.Generic.SortedSet`1<System.UInt32> _sparseSet
+    System::Collections::Generic::SortedSet_1<uint>*& dyn__sparseSet();
     // public System.Int32 get_bitCount()
     // Offset: 0x2378710
     int get_bitCount();

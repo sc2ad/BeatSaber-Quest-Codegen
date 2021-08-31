@@ -37,10 +37,8 @@ namespace HMUI {
     ScrollToTopOnEnable(HMUI::ScrollView* scrollView_ = {}) noexcept : scrollView{scrollView_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private HMUI.ScrollView _scrollView
-    HMUI::ScrollView* _get__scrollView();
-    // Set instance field: private HMUI.ScrollView _scrollView
-    void _set__scrollView(HMUI::ScrollView* value);
+    // Get instance field reference: private HMUI.ScrollView _scrollView
+    HMUI::ScrollView*& dyn__scrollView();
     // protected System.Void OnEnable()
     // Offset: 0x12FBB58
     void OnEnable();

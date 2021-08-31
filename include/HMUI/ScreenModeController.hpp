@@ -68,22 +68,14 @@ namespace HMUI {
     ScreenModeController(::Array<HMUI::CurvedCanvasSettings*>* curvedCanvases_ = {}, GlobalNamespace::IVRPlatformHelper* vrPlatformHelper_ = {}, HMUI::ScreenModeData* defaultModeData_ = {}, UnityEngine::Transform* transform_ = {}) noexcept : curvedCanvases{curvedCanvases_}, vrPlatformHelper{vrPlatformHelper_}, defaultModeData{defaultModeData_}, transform{transform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private HMUI.CurvedCanvasSettings[] _curvedCanvases
-    ::Array<HMUI::CurvedCanvasSettings*>* _get__curvedCanvases();
-    // Set instance field: private HMUI.CurvedCanvasSettings[] _curvedCanvases
-    void _set__curvedCanvases(::Array<HMUI::CurvedCanvasSettings*>* value);
-    // Get instance field: private readonly IVRPlatformHelper _vrPlatformHelper
-    GlobalNamespace::IVRPlatformHelper* _get__vrPlatformHelper();
-    // Set instance field: private readonly IVRPlatformHelper _vrPlatformHelper
-    void _set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper* value);
-    // Get instance field: private HMUI.ScreenModeData _defaultModeData
-    HMUI::ScreenModeData* _get__defaultModeData();
-    // Set instance field: private HMUI.ScreenModeData _defaultModeData
-    void _set__defaultModeData(HMUI::ScreenModeData* value);
-    // Get instance field: private UnityEngine.Transform _transform
-    UnityEngine::Transform* _get__transform();
-    // Set instance field: private UnityEngine.Transform _transform
-    void _set__transform(UnityEngine::Transform* value);
+    // Get instance field reference: private HMUI.CurvedCanvasSettings[] _curvedCanvases
+    ::Array<HMUI::CurvedCanvasSettings*>*& dyn__curvedCanvases();
+    // Get instance field reference: private readonly IVRPlatformHelper _vrPlatformHelper
+    GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
+    // Get instance field reference: private HMUI.ScreenModeData _defaultModeData
+    HMUI::ScreenModeData*& dyn__defaultModeData();
+    // Get instance field reference: private UnityEngine.Transform _transform
+    UnityEngine::Transform*& dyn__transform();
     // protected System.Void Awake()
     // Offset: 0x12FB438
     void Awake();

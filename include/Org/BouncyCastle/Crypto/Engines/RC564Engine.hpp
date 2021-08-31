@@ -69,18 +69,12 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static int64_t _get_Q64();
     // Set static field: static private readonly System.Int64 Q64
     static void _set_Q64(int64_t value);
-    // Get instance field: private System.Int32 _noRounds
-    int _get__noRounds();
-    // Set instance field: private System.Int32 _noRounds
-    void _set__noRounds(int value);
-    // Get instance field: private System.Int64[] _S
-    ::Array<int64_t>* _get__S();
-    // Set instance field: private System.Int64[] _S
-    void _set__S(::Array<int64_t>* value);
-    // Get instance field: private System.Boolean forEncryption
-    bool _get_forEncryption();
-    // Set instance field: private System.Boolean forEncryption
-    void _set_forEncryption(bool value);
+    // Get instance field reference: private System.Int32 _noRounds
+    int& dyn__noRounds();
+    // Get instance field reference: private System.Int64[] _S
+    ::Array<int64_t>*& dyn__S();
+    // Get instance field reference: private System.Boolean forEncryption
+    bool& dyn_forEncryption();
     // public System.String get_AlgorithmName()
     // Offset: 0x1E78F68
     ::Il2CppString* get_AlgorithmName();

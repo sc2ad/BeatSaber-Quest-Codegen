@@ -32,10 +32,8 @@ namespace Valve::VR {
     constexpr operator float() const noexcept {
       return progress;
     }
-    // Get instance field: public System.Single progress
-    float _get_progress();
-    // Set instance field: public System.Single progress
-    void _set_progress(float value);
+    // Get instance field reference: public System.Single progress
+    float& dyn_progress();
   }; // Valve.VR.VREvent_ScreenshotProgress_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_ScreenshotProgress_t), 0 + sizeof(float)> __Valve_VR_VREvent_ScreenshotProgress_tSizeCheck;

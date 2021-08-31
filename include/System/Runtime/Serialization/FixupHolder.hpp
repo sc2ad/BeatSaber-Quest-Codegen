@@ -38,18 +38,12 @@ namespace System::Runtime::Serialization {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: FixupHolder
     FixupHolder(int64_t m_id_ = {}, ::Il2CppObject* m_fixupInfo_ = {}, int m_fixupType_ = {}) noexcept : m_id{m_id_}, m_fixupInfo{m_fixupInfo_}, m_fixupType{m_fixupType_} {}
-    // Get instance field: System.Int64 m_id
-    int64_t _get_m_id();
-    // Set instance field: System.Int64 m_id
-    void _set_m_id(int64_t value);
-    // Get instance field: System.Object m_fixupInfo
-    ::Il2CppObject* _get_m_fixupInfo();
-    // Set instance field: System.Object m_fixupInfo
-    void _set_m_fixupInfo(::Il2CppObject* value);
-    // Get instance field: System.Int32 m_fixupType
-    int _get_m_fixupType();
-    // Set instance field: System.Int32 m_fixupType
-    void _set_m_fixupType(int value);
+    // Get instance field reference: System.Int64 m_id
+    int64_t& dyn_m_id();
+    // Get instance field reference: System.Object m_fixupInfo
+    ::Il2CppObject*& dyn_m_fixupInfo();
+    // Get instance field reference: System.Int32 m_fixupType
+    int& dyn_m_fixupType();
     // System.Void .ctor(System.Int64 id, System.Object fixupInfo, System.Int32 fixupType)
     // Offset: 0x160F860
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

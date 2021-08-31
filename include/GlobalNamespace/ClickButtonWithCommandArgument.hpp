@@ -53,14 +53,10 @@ namespace GlobalNamespace {
     ClickButtonWithCommandArgument(::Il2CppString* argument_ = {}, UnityEngine::UI::Button* button_ = {}) noexcept : argument{argument_}, button{button_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private System.String _argument
-    ::Il2CppString* _get__argument();
-    // Set instance field: private System.String _argument
-    void _set__argument(::Il2CppString* value);
-    // Get instance field: private UnityEngine.UI.Button _button
-    UnityEngine::UI::Button* _get__button();
-    // Set instance field: private UnityEngine.UI.Button _button
-    void _set__button(UnityEngine::UI::Button* value);
+    // Get instance field reference: private System.String _argument
+    ::Il2CppString*& dyn__argument();
+    // Get instance field reference: private UnityEngine.UI.Button _button
+    UnityEngine::UI::Button*& dyn__button();
     // protected System.Collections.IEnumerator Start()
     // Offset: 0x1258624
     System::Collections::IEnumerator* Start();

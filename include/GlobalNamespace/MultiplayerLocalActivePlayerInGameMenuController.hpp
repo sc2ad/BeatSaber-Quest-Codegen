@@ -117,46 +117,26 @@ namespace GlobalNamespace {
     MultiplayerLocalActivePlayerInGameMenuController(GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController* inGameMenuViewController_ = {}, GlobalNamespace::IMenuButtonTrigger* menuButtonTrigger_ = {}, GlobalNamespace::IVRPlatformHelper* vrPlatformHelper_ = {}, GlobalNamespace::MultiplayerController* multiplayerController_ = {}, GlobalNamespace::SaberManager* saberManager_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, System::Action* didGiveUpEvent_ = {}, System::Action_1<System::Action_1<bool>*>* canShowInGameMenuEvent_ = {}, System::Action* requestsDisconnectEvent_ = {}, bool gameMenuIsShown_ = {}) noexcept : inGameMenuViewController{inGameMenuViewController_}, menuButtonTrigger{menuButtonTrigger_}, vrPlatformHelper{vrPlatformHelper_}, multiplayerController{multiplayerController_}, saberManager{saberManager_}, beatmapObjectManager{beatmapObjectManager_}, didGiveUpEvent{didGiveUpEvent_}, canShowInGameMenuEvent{canShowInGameMenuEvent_}, requestsDisconnectEvent{requestsDisconnectEvent_}, gameMenuIsShown{gameMenuIsShown_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private readonly MultiplayerLocalActivePlayerInGameMenuViewController _inGameMenuViewController
-    GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController* _get__inGameMenuViewController();
-    // Set instance field: private readonly MultiplayerLocalActivePlayerInGameMenuViewController _inGameMenuViewController
-    void _set__inGameMenuViewController(GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController* value);
-    // Get instance field: private readonly IMenuButtonTrigger _menuButtonTrigger
-    GlobalNamespace::IMenuButtonTrigger* _get__menuButtonTrigger();
-    // Set instance field: private readonly IMenuButtonTrigger _menuButtonTrigger
-    void _set__menuButtonTrigger(GlobalNamespace::IMenuButtonTrigger* value);
-    // Get instance field: private readonly IVRPlatformHelper _vrPlatformHelper
-    GlobalNamespace::IVRPlatformHelper* _get__vrPlatformHelper();
-    // Set instance field: private readonly IVRPlatformHelper _vrPlatformHelper
-    void _set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper* value);
-    // Get instance field: private readonly MultiplayerController _multiplayerController
-    GlobalNamespace::MultiplayerController* _get__multiplayerController();
-    // Set instance field: private readonly MultiplayerController _multiplayerController
-    void _set__multiplayerController(GlobalNamespace::MultiplayerController* value);
-    // Get instance field: private readonly SaberManager _saberManager
-    GlobalNamespace::SaberManager* _get__saberManager();
-    // Set instance field: private readonly SaberManager _saberManager
-    void _set__saberManager(GlobalNamespace::SaberManager* value);
-    // Get instance field: private readonly BeatmapObjectManager _beatmapObjectManager
-    GlobalNamespace::BeatmapObjectManager* _get__beatmapObjectManager();
-    // Set instance field: private readonly BeatmapObjectManager _beatmapObjectManager
-    void _set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager* value);
-    // Get instance field: private System.Action didGiveUpEvent
-    System::Action* _get_didGiveUpEvent();
-    // Set instance field: private System.Action didGiveUpEvent
-    void _set_didGiveUpEvent(System::Action* value);
-    // Get instance field: private System.Action`1<System.Action`1<System.Boolean>> canShowInGameMenuEvent
-    System::Action_1<System::Action_1<bool>*>* _get_canShowInGameMenuEvent();
-    // Set instance field: private System.Action`1<System.Action`1<System.Boolean>> canShowInGameMenuEvent
-    void _set_canShowInGameMenuEvent(System::Action_1<System::Action_1<bool>*>* value);
-    // Get instance field: private System.Action requestsDisconnectEvent
-    System::Action* _get_requestsDisconnectEvent();
-    // Set instance field: private System.Action requestsDisconnectEvent
-    void _set_requestsDisconnectEvent(System::Action* value);
-    // Get instance field: private System.Boolean _gameMenuIsShown
-    bool _get__gameMenuIsShown();
-    // Set instance field: private System.Boolean _gameMenuIsShown
-    void _set__gameMenuIsShown(bool value);
+    // Get instance field reference: private readonly MultiplayerLocalActivePlayerInGameMenuViewController _inGameMenuViewController
+    GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController*& dyn__inGameMenuViewController();
+    // Get instance field reference: private readonly IMenuButtonTrigger _menuButtonTrigger
+    GlobalNamespace::IMenuButtonTrigger*& dyn__menuButtonTrigger();
+    // Get instance field reference: private readonly IVRPlatformHelper _vrPlatformHelper
+    GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
+    // Get instance field reference: private readonly MultiplayerController _multiplayerController
+    GlobalNamespace::MultiplayerController*& dyn__multiplayerController();
+    // Get instance field reference: private readonly SaberManager _saberManager
+    GlobalNamespace::SaberManager*& dyn__saberManager();
+    // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
+    GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
+    // Get instance field reference: private System.Action didGiveUpEvent
+    System::Action*& dyn_didGiveUpEvent();
+    // Get instance field reference: private System.Action`1<System.Action`1<System.Boolean>> canShowInGameMenuEvent
+    System::Action_1<System::Action_1<bool>*>*& dyn_canShowInGameMenuEvent();
+    // Get instance field reference: private System.Action requestsDisconnectEvent
+    System::Action*& dyn_requestsDisconnectEvent();
+    // Get instance field reference: private System.Boolean _gameMenuIsShown
+    bool& dyn__gameMenuIsShown();
     // public System.Boolean get_gameMenuIsShown()
     // Offset: 0x10687DC
     bool get_gameMenuIsShown();

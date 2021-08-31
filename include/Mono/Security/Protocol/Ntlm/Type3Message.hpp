@@ -87,42 +87,24 @@ namespace Mono::Security::Protocol::Ntlm {
     static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // Creating value type constructor for type: Type3Message
     Type3Message(Mono::Security::Protocol::Ntlm::NtlmAuthLevel level_ = {}, ::Array<uint8_t>* challenge_ = {}, ::Il2CppString* host_ = {}, ::Il2CppString* domain_ = {}, ::Il2CppString* username_ = {}, ::Il2CppString* password_ = {}, Mono::Security::Protocol::Ntlm::Type2Message* type2_ = {}, ::Array<uint8_t>* lm_ = {}, ::Array<uint8_t>* nt_ = {}) noexcept : level{level_}, challenge{challenge_}, host{host_}, domain{domain_}, username{username_}, password{password_}, type2{type2_}, lm{lm_}, nt{nt_} {}
-    // Get instance field: private Mono.Security.Protocol.Ntlm.NtlmAuthLevel _level
-    Mono::Security::Protocol::Ntlm::NtlmAuthLevel _get__level();
-    // Set instance field: private Mono.Security.Protocol.Ntlm.NtlmAuthLevel _level
-    void _set__level(Mono::Security::Protocol::Ntlm::NtlmAuthLevel value);
-    // Get instance field: private System.Byte[] _challenge
-    ::Array<uint8_t>* _get__challenge();
-    // Set instance field: private System.Byte[] _challenge
-    void _set__challenge(::Array<uint8_t>* value);
-    // Get instance field: private System.String _host
-    ::Il2CppString* _get__host();
-    // Set instance field: private System.String _host
-    void _set__host(::Il2CppString* value);
-    // Get instance field: private System.String _domain
-    ::Il2CppString* _get__domain();
-    // Set instance field: private System.String _domain
-    void _set__domain(::Il2CppString* value);
-    // Get instance field: private System.String _username
-    ::Il2CppString* _get__username();
-    // Set instance field: private System.String _username
-    void _set__username(::Il2CppString* value);
-    // Get instance field: private System.String _password
-    ::Il2CppString* _get__password();
-    // Set instance field: private System.String _password
-    void _set__password(::Il2CppString* value);
-    // Get instance field: private Mono.Security.Protocol.Ntlm.Type2Message _type2
-    Mono::Security::Protocol::Ntlm::Type2Message* _get__type2();
-    // Set instance field: private Mono.Security.Protocol.Ntlm.Type2Message _type2
-    void _set__type2(Mono::Security::Protocol::Ntlm::Type2Message* value);
-    // Get instance field: private System.Byte[] _lm
-    ::Array<uint8_t>* _get__lm();
-    // Set instance field: private System.Byte[] _lm
-    void _set__lm(::Array<uint8_t>* value);
-    // Get instance field: private System.Byte[] _nt
-    ::Array<uint8_t>* _get__nt();
-    // Set instance field: private System.Byte[] _nt
-    void _set__nt(::Array<uint8_t>* value);
+    // Get instance field reference: private Mono.Security.Protocol.Ntlm.NtlmAuthLevel _level
+    Mono::Security::Protocol::Ntlm::NtlmAuthLevel& dyn__level();
+    // Get instance field reference: private System.Byte[] _challenge
+    ::Array<uint8_t>*& dyn__challenge();
+    // Get instance field reference: private System.String _host
+    ::Il2CppString*& dyn__host();
+    // Get instance field reference: private System.String _domain
+    ::Il2CppString*& dyn__domain();
+    // Get instance field reference: private System.String _username
+    ::Il2CppString*& dyn__username();
+    // Get instance field reference: private System.String _password
+    ::Il2CppString*& dyn__password();
+    // Get instance field reference: private Mono.Security.Protocol.Ntlm.Type2Message _type2
+    Mono::Security::Protocol::Ntlm::Type2Message*& dyn__type2();
+    // Get instance field reference: private System.Byte[] _lm
+    ::Array<uint8_t>*& dyn__lm();
+    // Get instance field reference: private System.Byte[] _nt
+    ::Array<uint8_t>*& dyn__nt();
     // public System.Void set_Domain(System.String value)
     // Offset: 0x1E09264
     void set_Domain(::Il2CppString* value);

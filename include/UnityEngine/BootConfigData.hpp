@@ -33,10 +33,8 @@ namespace UnityEngine {
     constexpr operator System::IntPtr() const noexcept {
       return m_Ptr;
     }
-    // Get instance field: private System.IntPtr m_Ptr
-    System::IntPtr _get_m_Ptr();
-    // Set instance field: private System.IntPtr m_Ptr
-    void _set_m_Ptr(System::IntPtr value);
+    // Get instance field reference: private System.IntPtr m_Ptr
+    System::IntPtr& dyn_m_Ptr();
     // private System.Void .ctor(System.IntPtr nativeHandle)
     // Offset: 0x1C1DDB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -41,10 +41,8 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     constexpr operator int() const noexcept {
       return b;
     }
-    // Get instance field: public System.Int32 b
-    int _get_b();
-    // Set instance field: public System.Int32 b
-    void _set_b(int value);
+    // Get instance field reference: public System.Int32 b
+    int& dyn_b();
     // System.Boolean <SewUVs>b__0(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> x)
     // Offset: 0x174C0C0
     bool $SewUVs$b__0(System::Collections::Generic::KeyValuePair_2<int, int> x);

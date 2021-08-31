@@ -58,10 +58,8 @@ namespace Zenject {
     constexpr operator System::Func_2<Zenject::InjectContext*, Zenject::DiContainer*>*() const noexcept {
       return subcontainerGetter;
     }
-    // Get instance field: private readonly System.Func`2<Zenject.InjectContext,Zenject.DiContainer> _subcontainerGetter
-    System::Func_2<Zenject::InjectContext*, Zenject::DiContainer*>* _get__subcontainerGetter();
-    // Set instance field: private readonly System.Func`2<Zenject.InjectContext,Zenject.DiContainer> _subcontainerGetter
-    void _set__subcontainerGetter(System::Func_2<Zenject::InjectContext*, Zenject::DiContainer*>* value);
+    // Get instance field reference: private readonly System.Func`2<Zenject.InjectContext,Zenject.DiContainer> _subcontainerGetter
+    System::Func_2<Zenject::InjectContext*, Zenject::DiContainer*>*& dyn__subcontainerGetter();
     // public System.Void .ctor(System.Func`2<Zenject.InjectContext,Zenject.DiContainer> subcontainerGetter)
     // Offset: 0x171FAC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

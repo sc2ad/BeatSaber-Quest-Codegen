@@ -48,14 +48,10 @@ namespace GlobalNamespace {
     CountdownElementController(TMPro::TextMeshProUGUI* text_ = {}, UnityEngine::Animation* animation_ = {}) noexcept : text{text_}, animation{animation_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private TMPro.TextMeshProUGUI _text
-    TMPro::TextMeshProUGUI* _get__text();
-    // Set instance field: private TMPro.TextMeshProUGUI _text
-    void _set__text(TMPro::TextMeshProUGUI* value);
-    // Get instance field: private UnityEngine.Animation _animation
-    UnityEngine::Animation* _get__animation();
-    // Set instance field: private UnityEngine.Animation _animation
-    void _set__animation(UnityEngine::Animation* value);
+    // Get instance field reference: private TMPro.TextMeshProUGUI _text
+    TMPro::TextMeshProUGUI*& dyn__text();
+    // Get instance field reference: private UnityEngine.Animation _animation
+    UnityEngine::Animation*& dyn__animation();
     // public System.Void SetTextAndRunAnimation(System.String text)
     // Offset: 0x10F38B8
     void SetTextAndRunAnimation(::Il2CppString* text);

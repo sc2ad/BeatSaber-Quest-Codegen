@@ -50,18 +50,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::TextFadeTransitions*) == 0x8);
     // Creating value type constructor for type: EventTextBinding
     EventTextBinding(GlobalNamespace::Signal* signal_ = {}, ::Il2CppString* text_ = {}, GlobalNamespace::TextFadeTransitions* textFadeTransitions_ = {}) noexcept : signal{signal_}, text{text_}, textFadeTransitions{textFadeTransitions_} {}
-    // Get instance field: private Signal _signal
-    GlobalNamespace::Signal* _get__signal();
-    // Set instance field: private Signal _signal
-    void _set__signal(GlobalNamespace::Signal* value);
-    // Get instance field: private System.String _text
-    ::Il2CppString* _get__text();
-    // Set instance field: private System.String _text
-    void _set__text(::Il2CppString* value);
-    // Get instance field: private TextFadeTransitions _textFadeTransitions
-    GlobalNamespace::TextFadeTransitions* _get__textFadeTransitions();
-    // Set instance field: private TextFadeTransitions _textFadeTransitions
-    void _set__textFadeTransitions(GlobalNamespace::TextFadeTransitions* value);
+    // Get instance field reference: private Signal _signal
+    GlobalNamespace::Signal*& dyn__signal();
+    // Get instance field reference: private System.String _text
+    ::Il2CppString*& dyn__text();
+    // Get instance field reference: private TextFadeTransitions _textFadeTransitions
+    GlobalNamespace::TextFadeTransitions*& dyn__textFadeTransitions();
     // public System.Void Init(TextFadeTransitions textFadeTransitions)
     // Offset: 0x1078E38
     void Init(GlobalNamespace::TextFadeTransitions* textFadeTransitions);

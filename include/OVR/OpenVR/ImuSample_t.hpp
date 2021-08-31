@@ -48,22 +48,14 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Double fSampleTime
-    double _get_fSampleTime();
-    // Set instance field: public System.Double fSampleTime
-    void _set_fSampleTime(double value);
-    // Get instance field: public OVR.OpenVR.HmdVector3d_t vAccel
-    OVR::OpenVR::HmdVector3d_t _get_vAccel();
-    // Set instance field: public OVR.OpenVR.HmdVector3d_t vAccel
-    void _set_vAccel(OVR::OpenVR::HmdVector3d_t value);
-    // Get instance field: public OVR.OpenVR.HmdVector3d_t vGyro
-    OVR::OpenVR::HmdVector3d_t _get_vGyro();
-    // Set instance field: public OVR.OpenVR.HmdVector3d_t vGyro
-    void _set_vGyro(OVR::OpenVR::HmdVector3d_t value);
-    // Get instance field: public System.UInt32 unOffScaleFlags
-    uint _get_unOffScaleFlags();
-    // Set instance field: public System.UInt32 unOffScaleFlags
-    void _set_unOffScaleFlags(uint value);
+    // Get instance field reference: public System.Double fSampleTime
+    double& dyn_fSampleTime();
+    // Get instance field reference: public OVR.OpenVR.HmdVector3d_t vAccel
+    OVR::OpenVR::HmdVector3d_t& dyn_vAccel();
+    // Get instance field reference: public OVR.OpenVR.HmdVector3d_t vGyro
+    OVR::OpenVR::HmdVector3d_t& dyn_vGyro();
+    // Get instance field reference: public System.UInt32 unOffScaleFlags
+    uint& dyn_unOffScaleFlags();
   }; // OVR.OpenVR.ImuSample_t
   #pragma pack(pop)
   static check_size<sizeof(ImuSample_t), 56 + sizeof(uint)> __OVR_OpenVR_ImuSample_tSizeCheck;

@@ -97,42 +97,24 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
     operator UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(this);
     }
-    // Get instance field: private System.String m_Name
-    ::Il2CppString* _get_m_Name();
-    // Set instance field: private System.String m_Name
-    void _set_m_Name(::Il2CppString* value);
-    // Get instance field: private System.String m_Id
-    ::Il2CppString* _get_m_Id();
-    // Set instance field: private System.String m_Id
-    void _set_m_Id(::Il2CppString* value);
-    // Get instance field: private System.String m_ProviderId
-    ::Il2CppString* _get_m_ProviderId();
-    // Set instance field: private System.String m_ProviderId
-    void _set_m_ProviderId(::Il2CppString* value);
-    // Get instance field: private System.Object m_Data
-    ::Il2CppObject* _get_m_Data();
-    // Set instance field: private System.Object m_Data
-    void _set_m_Data(::Il2CppObject* value);
-    // Get instance field: private System.Int32 m_DependencyHashCode
-    int _get_m_DependencyHashCode();
-    // Set instance field: private System.Int32 m_DependencyHashCode
-    void _set_m_DependencyHashCode(int value);
-    // Get instance field: private System.Int32 m_HashCode
-    int _get_m_HashCode();
-    // Set instance field: private System.Int32 m_HashCode
-    void _set_m_HashCode(int value);
-    // Get instance field: private System.Type m_Type
-    System::Type* _get_m_Type();
-    // Set instance field: private System.Type m_Type
-    void _set_m_Type(System::Type* value);
-    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> m_Dependencies
-    System::Collections::Generic::List_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* _get_m_Dependencies();
-    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> m_Dependencies
-    void _set_m_Dependencies(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* value);
-    // Get instance field: private System.String m_PrimaryKey
-    ::Il2CppString* _get_m_PrimaryKey();
-    // Set instance field: private System.String m_PrimaryKey
-    void _set_m_PrimaryKey(::Il2CppString* value);
+    // Get instance field reference: private System.String m_Name
+    ::Il2CppString*& dyn_m_Name();
+    // Get instance field reference: private System.String m_Id
+    ::Il2CppString*& dyn_m_Id();
+    // Get instance field reference: private System.String m_ProviderId
+    ::Il2CppString*& dyn_m_ProviderId();
+    // Get instance field reference: private System.Object m_Data
+    ::Il2CppObject*& dyn_m_Data();
+    // Get instance field reference: private System.Int32 m_DependencyHashCode
+    int& dyn_m_DependencyHashCode();
+    // Get instance field reference: private System.Int32 m_HashCode
+    int& dyn_m_HashCode();
+    // Get instance field reference: private System.Type m_Type
+    System::Type*& dyn_m_Type();
+    // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> m_Dependencies
+    System::Collections::Generic::List_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*& dyn_m_Dependencies();
+    // Get instance field reference: private System.String m_PrimaryKey
+    ::Il2CppString*& dyn_m_PrimaryKey();
     // public System.String get_InternalId()
     // Offset: 0x19E82F8
     ::Il2CppString* get_InternalId();

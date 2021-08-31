@@ -100,30 +100,18 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kCurrentVersion();
     // Set static field: static private System.String kCurrentVersion
     static void _set_kCurrentVersion(::Il2CppString* value);
-    // Get instance field: private System.String _version
-    ::Il2CppString* _get__version();
-    // Set instance field: private System.String _version
-    void _set__version(::Il2CppString* value);
-    // Get instance field: private System.Collections.Generic.List`1<BeatmapSaveData/EventData> _events
-    System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::EventData*>* _get__events();
-    // Set instance field: private System.Collections.Generic.List`1<BeatmapSaveData/EventData> _events
-    void _set__events(System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::EventData*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<BeatmapSaveData/NoteData> _notes
-    System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::NoteData*>* _get__notes();
-    // Set instance field: private System.Collections.Generic.List`1<BeatmapSaveData/NoteData> _notes
-    void _set__notes(System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::NoteData*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<BeatmapSaveData/WaypointData> _waypoints
-    System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::WaypointData*>* _get__waypoints();
-    // Set instance field: private System.Collections.Generic.List`1<BeatmapSaveData/WaypointData> _waypoints
-    void _set__waypoints(System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::WaypointData*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<BeatmapSaveData/ObstacleData> _obstacles
-    System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::ObstacleData*>* _get__obstacles();
-    // Set instance field: private System.Collections.Generic.List`1<BeatmapSaveData/ObstacleData> _obstacles
-    void _set__obstacles(System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::ObstacleData*>* value);
-    // Get instance field: private BeatmapSaveData/SpecialEventKeywordFiltersData _specialEventsKeywordFilters
-    GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData* _get__specialEventsKeywordFilters();
-    // Set instance field: private BeatmapSaveData/SpecialEventKeywordFiltersData _specialEventsKeywordFilters
-    void _set__specialEventsKeywordFilters(GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData* value);
+    // Get instance field reference: private System.String _version
+    ::Il2CppString*& dyn__version();
+    // Get instance field reference: private System.Collections.Generic.List`1<BeatmapSaveData/EventData> _events
+    System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::EventData*>*& dyn__events();
+    // Get instance field reference: private System.Collections.Generic.List`1<BeatmapSaveData/NoteData> _notes
+    System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::NoteData*>*& dyn__notes();
+    // Get instance field reference: private System.Collections.Generic.List`1<BeatmapSaveData/WaypointData> _waypoints
+    System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::WaypointData*>*& dyn__waypoints();
+    // Get instance field reference: private System.Collections.Generic.List`1<BeatmapSaveData/ObstacleData> _obstacles
+    System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::ObstacleData*>*& dyn__obstacles();
+    // Get instance field reference: private BeatmapSaveData/SpecialEventKeywordFiltersData _specialEventsKeywordFilters
+    GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData*& dyn__specialEventsKeywordFilters();
     // public System.String get_version()
     // Offset: 0x10CEC58
     ::Il2CppString* get_version();

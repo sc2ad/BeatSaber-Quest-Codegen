@@ -61,10 +61,8 @@ namespace System::Globalization {
     static System::Globalization::Calendar* _get_s_defaultInstance();
     // Set static field: static private System.Globalization.Calendar s_defaultInstance
     static void _set_s_defaultInstance(System::Globalization::Calendar* value);
-    // Get instance field: System.Globalization.GregorianCalendarTypes m_type
-    System::Globalization::GregorianCalendarTypes _get_m_type();
-    // Set instance field: System.Globalization.GregorianCalendarTypes m_type
-    void _set_m_type(System::Globalization::GregorianCalendarTypes value);
+    // Get instance field reference: System.Globalization.GregorianCalendarTypes m_type
+    System::Globalization::GregorianCalendarTypes& dyn_m_type();
     // public System.Void .ctor(System.Globalization.GregorianCalendarTypes type)
     // Offset: 0x1A1510C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

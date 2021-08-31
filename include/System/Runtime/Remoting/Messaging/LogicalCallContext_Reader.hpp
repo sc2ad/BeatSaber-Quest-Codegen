@@ -39,10 +39,8 @@ namespace System::Runtime::Remoting::Messaging {
     constexpr operator System::Runtime::Remoting::Messaging::LogicalCallContext*() const noexcept {
       return m_ctx;
     }
-    // Get instance field: private System.Runtime.Remoting.Messaging.LogicalCallContext m_ctx
-    System::Runtime::Remoting::Messaging::LogicalCallContext* _get_m_ctx();
-    // Set instance field: private System.Runtime.Remoting.Messaging.LogicalCallContext m_ctx
-    void _set_m_ctx(System::Runtime::Remoting::Messaging::LogicalCallContext* value);
+    // Get instance field reference: private System.Runtime.Remoting.Messaging.LogicalCallContext m_ctx
+    System::Runtime::Remoting::Messaging::LogicalCallContext*& dyn_m_ctx();
     // public System.Boolean get_IsNull()
     // Offset: 0x1A4D3A0
     bool get_IsNull();

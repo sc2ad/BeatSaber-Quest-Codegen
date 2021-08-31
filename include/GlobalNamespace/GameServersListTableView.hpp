@@ -131,38 +131,22 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kDetailCellReuseIdentifier();
     // Set static field: static private System.String kDetailCellReuseIdentifier
     static void _set_kDetailCellReuseIdentifier(::Il2CppString* value);
-    // Get instance field: private TableViewWithDetailCell _tableView
-    GlobalNamespace::TableViewWithDetailCell* _get__tableView();
-    // Set instance field: private TableViewWithDetailCell _tableView
-    void _set__tableView(GlobalNamespace::TableViewWithDetailCell* value);
-    // Get instance field: private GameServerListTableCell _gameServerListCellPrefab
-    GlobalNamespace::GameServerListTableCell* _get__gameServerListCellPrefab();
-    // Set instance field: private GameServerListTableCell _gameServerListCellPrefab
-    void _set__gameServerListCellPrefab(GlobalNamespace::GameServerListTableCell* value);
-    // Get instance field: private GameServerListDetailTableCell _gameServerDetailCellPrefab
-    GlobalNamespace::GameServerListDetailTableCell* _get__gameServerDetailCellPrefab();
-    // Set instance field: private GameServerListDetailTableCell _gameServerDetailCellPrefab
-    void _set__gameServerDetailCellPrefab(GlobalNamespace::GameServerListDetailTableCell* value);
-    // Get instance field: private readonly Zenject.DiContainer _container
-    Zenject::DiContainer* _get__container();
-    // Set instance field: private readonly Zenject.DiContainer _container
-    void _set__container(Zenject::DiContainer* value);
-    // Get instance field: private System.Action`1<INetworkPlayer> joinButtonPressedEvent
-    System::Action_1<GlobalNamespace::INetworkPlayer*>* _get_joinButtonPressedEvent();
-    // Set instance field: private System.Action`1<INetworkPlayer> joinButtonPressedEvent
-    void _set_joinButtonPressedEvent(System::Action_1<GlobalNamespace::INetworkPlayer*>* value);
-    // Get instance field: private System.Boolean _isInitialized
-    bool _get__isInitialized();
-    // Set instance field: private System.Boolean _isInitialized
-    void _set__isInitialized(bool value);
-    // Get instance field: private INetworkPlayer[] _gamesList
-    ::Array<GlobalNamespace::INetworkPlayer*>* _get__gamesList();
-    // Set instance field: private INetworkPlayer[] _gamesList
-    void _set__gamesList(::Array<GlobalNamespace::INetworkPlayer*>* value);
-    // Get instance field: private INetworkPlayer _selectedServer
-    GlobalNamespace::INetworkPlayer* _get__selectedServer();
-    // Set instance field: private INetworkPlayer _selectedServer
-    void _set__selectedServer(GlobalNamespace::INetworkPlayer* value);
+    // Get instance field reference: private TableViewWithDetailCell _tableView
+    GlobalNamespace::TableViewWithDetailCell*& dyn__tableView();
+    // Get instance field reference: private GameServerListTableCell _gameServerListCellPrefab
+    GlobalNamespace::GameServerListTableCell*& dyn__gameServerListCellPrefab();
+    // Get instance field reference: private GameServerListDetailTableCell _gameServerDetailCellPrefab
+    GlobalNamespace::GameServerListDetailTableCell*& dyn__gameServerDetailCellPrefab();
+    // Get instance field reference: private readonly Zenject.DiContainer _container
+    Zenject::DiContainer*& dyn__container();
+    // Get instance field reference: private System.Action`1<INetworkPlayer> joinButtonPressedEvent
+    System::Action_1<GlobalNamespace::INetworkPlayer*>*& dyn_joinButtonPressedEvent();
+    // Get instance field reference: private System.Boolean _isInitialized
+    bool& dyn__isInitialized();
+    // Get instance field reference: private INetworkPlayer[] _gamesList
+    ::Array<GlobalNamespace::INetworkPlayer*>*& dyn__gamesList();
+    // Get instance field reference: private INetworkPlayer _selectedServer
+    GlobalNamespace::INetworkPlayer*& dyn__selectedServer();
     // public System.Void add_joinButtonPressedEvent(System.Action`1<INetworkPlayer> value)
     // Offset: 0x1109980
     void add_joinButtonPressedEvent(System::Action_1<GlobalNamespace::INetworkPlayer*>* value);

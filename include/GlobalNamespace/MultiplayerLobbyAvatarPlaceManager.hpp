@@ -71,26 +71,16 @@ namespace GlobalNamespace {
     MultiplayerLobbyAvatarPlaceManager(GlobalNamespace::ILobbyStateDataModel* lobbyStateDataModel_ = {}, GlobalNamespace::MultiplayerLobbyAvatarPlace::Pool* avatarPlacesPool_ = {}, System::Collections::Generic::List_1<GlobalNamespace::MultiplayerLobbyAvatarPlace*>* allPlaces_ = {}, float innerCircleRadius_ = {}, float minOuterCircleRadius_ = {}) noexcept : lobbyStateDataModel{lobbyStateDataModel_}, avatarPlacesPool{avatarPlacesPool_}, allPlaces{allPlaces_}, innerCircleRadius{innerCircleRadius_}, minOuterCircleRadius{minOuterCircleRadius_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private readonly ILobbyStateDataModel _lobbyStateDataModel
-    GlobalNamespace::ILobbyStateDataModel* _get__lobbyStateDataModel();
-    // Set instance field: private readonly ILobbyStateDataModel _lobbyStateDataModel
-    void _set__lobbyStateDataModel(GlobalNamespace::ILobbyStateDataModel* value);
-    // Get instance field: private readonly MultiplayerLobbyAvatarPlace/Pool _avatarPlacesPool
-    GlobalNamespace::MultiplayerLobbyAvatarPlace::Pool* _get__avatarPlacesPool();
-    // Set instance field: private readonly MultiplayerLobbyAvatarPlace/Pool _avatarPlacesPool
-    void _set__avatarPlacesPool(GlobalNamespace::MultiplayerLobbyAvatarPlace::Pool* value);
-    // Get instance field: private readonly System.Collections.Generic.List`1<MultiplayerLobbyAvatarPlace> _allPlaces
-    System::Collections::Generic::List_1<GlobalNamespace::MultiplayerLobbyAvatarPlace*>* _get__allPlaces();
-    // Set instance field: private readonly System.Collections.Generic.List`1<MultiplayerLobbyAvatarPlace> _allPlaces
-    void _set__allPlaces(System::Collections::Generic::List_1<GlobalNamespace::MultiplayerLobbyAvatarPlace*>* value);
-    // Get instance field: private System.Single _innerCircleRadius
-    float _get__innerCircleRadius();
-    // Set instance field: private System.Single _innerCircleRadius
-    void _set__innerCircleRadius(float value);
-    // Get instance field: private System.Single _minOuterCircleRadius
-    float _get__minOuterCircleRadius();
-    // Set instance field: private System.Single _minOuterCircleRadius
-    void _set__minOuterCircleRadius(float value);
+    // Get instance field reference: private readonly ILobbyStateDataModel _lobbyStateDataModel
+    GlobalNamespace::ILobbyStateDataModel*& dyn__lobbyStateDataModel();
+    // Get instance field reference: private readonly MultiplayerLobbyAvatarPlace/Pool _avatarPlacesPool
+    GlobalNamespace::MultiplayerLobbyAvatarPlace::Pool*& dyn__avatarPlacesPool();
+    // Get instance field reference: private readonly System.Collections.Generic.List`1<MultiplayerLobbyAvatarPlace> _allPlaces
+    System::Collections::Generic::List_1<GlobalNamespace::MultiplayerLobbyAvatarPlace*>*& dyn__allPlaces();
+    // Get instance field reference: private System.Single _innerCircleRadius
+    float& dyn__innerCircleRadius();
+    // Get instance field reference: private System.Single _minOuterCircleRadius
+    float& dyn__minOuterCircleRadius();
     // public System.Void Activate(System.Single innerCircleRadius, System.Single minOuterCircleRadius)
     // Offset: 0x1061AB0
     void Activate(float innerCircleRadius, float minOuterCircleRadius);

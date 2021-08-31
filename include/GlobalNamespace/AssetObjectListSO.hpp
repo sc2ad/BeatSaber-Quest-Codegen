@@ -37,10 +37,8 @@ namespace GlobalNamespace {
     AssetObjectListSO(::Array<UnityEngine::Object*>* objects_ = {}) noexcept : objects{objects_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.Object[] _objects
-    ::Array<UnityEngine::Object*>* _get__objects();
-    // Set instance field: private UnityEngine.Object[] _objects
-    void _set__objects(::Array<UnityEngine::Object*>* value);
+    // Get instance field reference: private UnityEngine.Object[] _objects
+    ::Array<UnityEngine::Object*>*& dyn__objects();
     // public UnityEngine.Object[] get_objects()
     // Offset: 0x117CEF4
     ::Array<UnityEngine::Object*>* get_objects();

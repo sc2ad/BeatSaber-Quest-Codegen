@@ -49,18 +49,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
     // Creating value type constructor for type: OVRBone
     OVRBone(GlobalNamespace::OVRSkeleton::BoneId Id_ = {}, int16_t ParentBoneIndex_ = {}, UnityEngine::Transform* Transform_ = {}) noexcept : Id{Id_}, ParentBoneIndex{ParentBoneIndex_}, Transform{Transform_} {}
-    // Get instance field: private OVRSkeleton/BoneId <Id>k__BackingField
-    GlobalNamespace::OVRSkeleton::BoneId _get_$Id$k__BackingField();
-    // Set instance field: private OVRSkeleton/BoneId <Id>k__BackingField
-    void _set_$Id$k__BackingField(GlobalNamespace::OVRSkeleton::BoneId value);
-    // Get instance field: private System.Int16 <ParentBoneIndex>k__BackingField
-    int16_t _get_$ParentBoneIndex$k__BackingField();
-    // Set instance field: private System.Int16 <ParentBoneIndex>k__BackingField
-    void _set_$ParentBoneIndex$k__BackingField(int16_t value);
-    // Get instance field: private UnityEngine.Transform <Transform>k__BackingField
-    UnityEngine::Transform* _get_$Transform$k__BackingField();
-    // Set instance field: private UnityEngine.Transform <Transform>k__BackingField
-    void _set_$Transform$k__BackingField(UnityEngine::Transform* value);
+    // Get instance field reference: private OVRSkeleton/BoneId <Id>k__BackingField
+    GlobalNamespace::OVRSkeleton::BoneId& dyn_$Id$k__BackingField();
+    // Get instance field reference: private System.Int16 <ParentBoneIndex>k__BackingField
+    int16_t& dyn_$ParentBoneIndex$k__BackingField();
+    // Get instance field reference: private UnityEngine.Transform <Transform>k__BackingField
+    UnityEngine::Transform*& dyn_$Transform$k__BackingField();
     // public OVRSkeleton/BoneId get_Id()
     // Offset: 0x1293E04
     GlobalNamespace::OVRSkeleton::BoneId get_Id();

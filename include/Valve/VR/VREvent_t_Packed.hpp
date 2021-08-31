@@ -52,22 +52,14 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.UInt32 eventType
-    uint _get_eventType();
-    // Set instance field: public System.UInt32 eventType
-    void _set_eventType(uint value);
-    // Get instance field: public System.UInt32 trackedDeviceIndex
-    uint _get_trackedDeviceIndex();
-    // Set instance field: public System.UInt32 trackedDeviceIndex
-    void _set_trackedDeviceIndex(uint value);
-    // Get instance field: public System.Single eventAgeSeconds
-    float _get_eventAgeSeconds();
-    // Set instance field: public System.Single eventAgeSeconds
-    void _set_eventAgeSeconds(float value);
-    // Get instance field: public Valve.VR.VREvent_Data_t data
-    Valve::VR::VREvent_Data_t _get_data();
-    // Set instance field: public Valve.VR.VREvent_Data_t data
-    void _set_data(Valve::VR::VREvent_Data_t value);
+    // Get instance field reference: public System.UInt32 eventType
+    uint& dyn_eventType();
+    // Get instance field reference: public System.UInt32 trackedDeviceIndex
+    uint& dyn_trackedDeviceIndex();
+    // Get instance field reference: public System.Single eventAgeSeconds
+    float& dyn_eventAgeSeconds();
+    // Get instance field reference: public Valve.VR.VREvent_Data_t data
+    Valve::VR::VREvent_Data_t& dyn_data();
     // public System.Void .ctor(Valve.VR.VREvent_t unpacked)
     // Offset: 0x23CA67C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -30,10 +30,8 @@ namespace System::Threading {
     constexpr operator int() const noexcept {
       return flag;
     }
-    // Get instance field: private System.Int32 flag
-    int _get_flag();
-    // Set instance field: private System.Int32 flag
-    void _set_flag(int value);
+    // Get instance field reference: private System.Int32 flag
+    int& dyn_flag();
     // public System.Boolean TryRelaxedSet()
     // Offset: 0x18F15B4
     bool TryRelaxedSet();

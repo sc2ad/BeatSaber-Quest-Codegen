@@ -47,10 +47,8 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     static Org::BouncyCastle::Math::BigInteger* _get_Q();
     // Set static field: static public readonly Org.BouncyCastle.Math.BigInteger Q
     static void _set_Q(Org::BouncyCastle::Math::BigInteger* value);
-    // Get instance field: protected internal readonly System.UInt32[] x
-    ::Array<uint>* _get_x();
-    // Set instance field: protected internal readonly System.UInt32[] x
-    void _set_x(::Array<uint>* value);
+    // Get instance field reference: protected internal readonly System.UInt32[] x
+    ::Array<uint>*& dyn_x();
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger x)
     // Offset: 0x1DC1B78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

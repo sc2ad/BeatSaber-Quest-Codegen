@@ -806,526 +806,266 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.UInt64 devicePath
-    uint64_t _get_devicePath();
-    // Set instance field: public System.UInt64 devicePath
-    void _set_devicePath(uint64_t value);
-    // Get instance field: public System.UInt32 trackedDeviceIndex
-    uint _get_trackedDeviceIndex();
-    // Set instance field: public System.UInt32 trackedDeviceIndex
-    void _set_trackedDeviceIndex(uint value);
-    // Get instance field: public System.Byte rchRenderModelComponentName0
-    uint8_t _get_rchRenderModelComponentName0();
-    // Set instance field: public System.Byte rchRenderModelComponentName0
-    void _set_rchRenderModelComponentName0(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName1
-    uint8_t _get_rchRenderModelComponentName1();
-    // Set instance field: public System.Byte rchRenderModelComponentName1
-    void _set_rchRenderModelComponentName1(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName2
-    uint8_t _get_rchRenderModelComponentName2();
-    // Set instance field: public System.Byte rchRenderModelComponentName2
-    void _set_rchRenderModelComponentName2(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName3
-    uint8_t _get_rchRenderModelComponentName3();
-    // Set instance field: public System.Byte rchRenderModelComponentName3
-    void _set_rchRenderModelComponentName3(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName4
-    uint8_t _get_rchRenderModelComponentName4();
-    // Set instance field: public System.Byte rchRenderModelComponentName4
-    void _set_rchRenderModelComponentName4(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName5
-    uint8_t _get_rchRenderModelComponentName5();
-    // Set instance field: public System.Byte rchRenderModelComponentName5
-    void _set_rchRenderModelComponentName5(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName6
-    uint8_t _get_rchRenderModelComponentName6();
-    // Set instance field: public System.Byte rchRenderModelComponentName6
-    void _set_rchRenderModelComponentName6(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName7
-    uint8_t _get_rchRenderModelComponentName7();
-    // Set instance field: public System.Byte rchRenderModelComponentName7
-    void _set_rchRenderModelComponentName7(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName8
-    uint8_t _get_rchRenderModelComponentName8();
-    // Set instance field: public System.Byte rchRenderModelComponentName8
-    void _set_rchRenderModelComponentName8(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName9
-    uint8_t _get_rchRenderModelComponentName9();
-    // Set instance field: public System.Byte rchRenderModelComponentName9
-    void _set_rchRenderModelComponentName9(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName10
-    uint8_t _get_rchRenderModelComponentName10();
-    // Set instance field: public System.Byte rchRenderModelComponentName10
-    void _set_rchRenderModelComponentName10(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName11
-    uint8_t _get_rchRenderModelComponentName11();
-    // Set instance field: public System.Byte rchRenderModelComponentName11
-    void _set_rchRenderModelComponentName11(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName12
-    uint8_t _get_rchRenderModelComponentName12();
-    // Set instance field: public System.Byte rchRenderModelComponentName12
-    void _set_rchRenderModelComponentName12(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName13
-    uint8_t _get_rchRenderModelComponentName13();
-    // Set instance field: public System.Byte rchRenderModelComponentName13
-    void _set_rchRenderModelComponentName13(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName14
-    uint8_t _get_rchRenderModelComponentName14();
-    // Set instance field: public System.Byte rchRenderModelComponentName14
-    void _set_rchRenderModelComponentName14(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName15
-    uint8_t _get_rchRenderModelComponentName15();
-    // Set instance field: public System.Byte rchRenderModelComponentName15
-    void _set_rchRenderModelComponentName15(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName16
-    uint8_t _get_rchRenderModelComponentName16();
-    // Set instance field: public System.Byte rchRenderModelComponentName16
-    void _set_rchRenderModelComponentName16(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName17
-    uint8_t _get_rchRenderModelComponentName17();
-    // Set instance field: public System.Byte rchRenderModelComponentName17
-    void _set_rchRenderModelComponentName17(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName18
-    uint8_t _get_rchRenderModelComponentName18();
-    // Set instance field: public System.Byte rchRenderModelComponentName18
-    void _set_rchRenderModelComponentName18(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName19
-    uint8_t _get_rchRenderModelComponentName19();
-    // Set instance field: public System.Byte rchRenderModelComponentName19
-    void _set_rchRenderModelComponentName19(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName20
-    uint8_t _get_rchRenderModelComponentName20();
-    // Set instance field: public System.Byte rchRenderModelComponentName20
-    void _set_rchRenderModelComponentName20(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName21
-    uint8_t _get_rchRenderModelComponentName21();
-    // Set instance field: public System.Byte rchRenderModelComponentName21
-    void _set_rchRenderModelComponentName21(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName22
-    uint8_t _get_rchRenderModelComponentName22();
-    // Set instance field: public System.Byte rchRenderModelComponentName22
-    void _set_rchRenderModelComponentName22(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName23
-    uint8_t _get_rchRenderModelComponentName23();
-    // Set instance field: public System.Byte rchRenderModelComponentName23
-    void _set_rchRenderModelComponentName23(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName24
-    uint8_t _get_rchRenderModelComponentName24();
-    // Set instance field: public System.Byte rchRenderModelComponentName24
-    void _set_rchRenderModelComponentName24(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName25
-    uint8_t _get_rchRenderModelComponentName25();
-    // Set instance field: public System.Byte rchRenderModelComponentName25
-    void _set_rchRenderModelComponentName25(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName26
-    uint8_t _get_rchRenderModelComponentName26();
-    // Set instance field: public System.Byte rchRenderModelComponentName26
-    void _set_rchRenderModelComponentName26(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName27
-    uint8_t _get_rchRenderModelComponentName27();
-    // Set instance field: public System.Byte rchRenderModelComponentName27
-    void _set_rchRenderModelComponentName27(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName28
-    uint8_t _get_rchRenderModelComponentName28();
-    // Set instance field: public System.Byte rchRenderModelComponentName28
-    void _set_rchRenderModelComponentName28(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName29
-    uint8_t _get_rchRenderModelComponentName29();
-    // Set instance field: public System.Byte rchRenderModelComponentName29
-    void _set_rchRenderModelComponentName29(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName30
-    uint8_t _get_rchRenderModelComponentName30();
-    // Set instance field: public System.Byte rchRenderModelComponentName30
-    void _set_rchRenderModelComponentName30(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName31
-    uint8_t _get_rchRenderModelComponentName31();
-    // Set instance field: public System.Byte rchRenderModelComponentName31
-    void _set_rchRenderModelComponentName31(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName32
-    uint8_t _get_rchRenderModelComponentName32();
-    // Set instance field: public System.Byte rchRenderModelComponentName32
-    void _set_rchRenderModelComponentName32(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName33
-    uint8_t _get_rchRenderModelComponentName33();
-    // Set instance field: public System.Byte rchRenderModelComponentName33
-    void _set_rchRenderModelComponentName33(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName34
-    uint8_t _get_rchRenderModelComponentName34();
-    // Set instance field: public System.Byte rchRenderModelComponentName34
-    void _set_rchRenderModelComponentName34(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName35
-    uint8_t _get_rchRenderModelComponentName35();
-    // Set instance field: public System.Byte rchRenderModelComponentName35
-    void _set_rchRenderModelComponentName35(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName36
-    uint8_t _get_rchRenderModelComponentName36();
-    // Set instance field: public System.Byte rchRenderModelComponentName36
-    void _set_rchRenderModelComponentName36(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName37
-    uint8_t _get_rchRenderModelComponentName37();
-    // Set instance field: public System.Byte rchRenderModelComponentName37
-    void _set_rchRenderModelComponentName37(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName38
-    uint8_t _get_rchRenderModelComponentName38();
-    // Set instance field: public System.Byte rchRenderModelComponentName38
-    void _set_rchRenderModelComponentName38(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName39
-    uint8_t _get_rchRenderModelComponentName39();
-    // Set instance field: public System.Byte rchRenderModelComponentName39
-    void _set_rchRenderModelComponentName39(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName40
-    uint8_t _get_rchRenderModelComponentName40();
-    // Set instance field: public System.Byte rchRenderModelComponentName40
-    void _set_rchRenderModelComponentName40(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName41
-    uint8_t _get_rchRenderModelComponentName41();
-    // Set instance field: public System.Byte rchRenderModelComponentName41
-    void _set_rchRenderModelComponentName41(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName42
-    uint8_t _get_rchRenderModelComponentName42();
-    // Set instance field: public System.Byte rchRenderModelComponentName42
-    void _set_rchRenderModelComponentName42(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName43
-    uint8_t _get_rchRenderModelComponentName43();
-    // Set instance field: public System.Byte rchRenderModelComponentName43
-    void _set_rchRenderModelComponentName43(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName44
-    uint8_t _get_rchRenderModelComponentName44();
-    // Set instance field: public System.Byte rchRenderModelComponentName44
-    void _set_rchRenderModelComponentName44(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName45
-    uint8_t _get_rchRenderModelComponentName45();
-    // Set instance field: public System.Byte rchRenderModelComponentName45
-    void _set_rchRenderModelComponentName45(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName46
-    uint8_t _get_rchRenderModelComponentName46();
-    // Set instance field: public System.Byte rchRenderModelComponentName46
-    void _set_rchRenderModelComponentName46(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName47
-    uint8_t _get_rchRenderModelComponentName47();
-    // Set instance field: public System.Byte rchRenderModelComponentName47
-    void _set_rchRenderModelComponentName47(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName48
-    uint8_t _get_rchRenderModelComponentName48();
-    // Set instance field: public System.Byte rchRenderModelComponentName48
-    void _set_rchRenderModelComponentName48(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName49
-    uint8_t _get_rchRenderModelComponentName49();
-    // Set instance field: public System.Byte rchRenderModelComponentName49
-    void _set_rchRenderModelComponentName49(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName50
-    uint8_t _get_rchRenderModelComponentName50();
-    // Set instance field: public System.Byte rchRenderModelComponentName50
-    void _set_rchRenderModelComponentName50(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName51
-    uint8_t _get_rchRenderModelComponentName51();
-    // Set instance field: public System.Byte rchRenderModelComponentName51
-    void _set_rchRenderModelComponentName51(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName52
-    uint8_t _get_rchRenderModelComponentName52();
-    // Set instance field: public System.Byte rchRenderModelComponentName52
-    void _set_rchRenderModelComponentName52(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName53
-    uint8_t _get_rchRenderModelComponentName53();
-    // Set instance field: public System.Byte rchRenderModelComponentName53
-    void _set_rchRenderModelComponentName53(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName54
-    uint8_t _get_rchRenderModelComponentName54();
-    // Set instance field: public System.Byte rchRenderModelComponentName54
-    void _set_rchRenderModelComponentName54(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName55
-    uint8_t _get_rchRenderModelComponentName55();
-    // Set instance field: public System.Byte rchRenderModelComponentName55
-    void _set_rchRenderModelComponentName55(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName56
-    uint8_t _get_rchRenderModelComponentName56();
-    // Set instance field: public System.Byte rchRenderModelComponentName56
-    void _set_rchRenderModelComponentName56(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName57
-    uint8_t _get_rchRenderModelComponentName57();
-    // Set instance field: public System.Byte rchRenderModelComponentName57
-    void _set_rchRenderModelComponentName57(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName58
-    uint8_t _get_rchRenderModelComponentName58();
-    // Set instance field: public System.Byte rchRenderModelComponentName58
-    void _set_rchRenderModelComponentName58(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName59
-    uint8_t _get_rchRenderModelComponentName59();
-    // Set instance field: public System.Byte rchRenderModelComponentName59
-    void _set_rchRenderModelComponentName59(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName60
-    uint8_t _get_rchRenderModelComponentName60();
-    // Set instance field: public System.Byte rchRenderModelComponentName60
-    void _set_rchRenderModelComponentName60(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName61
-    uint8_t _get_rchRenderModelComponentName61();
-    // Set instance field: public System.Byte rchRenderModelComponentName61
-    void _set_rchRenderModelComponentName61(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName62
-    uint8_t _get_rchRenderModelComponentName62();
-    // Set instance field: public System.Byte rchRenderModelComponentName62
-    void _set_rchRenderModelComponentName62(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName63
-    uint8_t _get_rchRenderModelComponentName63();
-    // Set instance field: public System.Byte rchRenderModelComponentName63
-    void _set_rchRenderModelComponentName63(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName64
-    uint8_t _get_rchRenderModelComponentName64();
-    // Set instance field: public System.Byte rchRenderModelComponentName64
-    void _set_rchRenderModelComponentName64(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName65
-    uint8_t _get_rchRenderModelComponentName65();
-    // Set instance field: public System.Byte rchRenderModelComponentName65
-    void _set_rchRenderModelComponentName65(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName66
-    uint8_t _get_rchRenderModelComponentName66();
-    // Set instance field: public System.Byte rchRenderModelComponentName66
-    void _set_rchRenderModelComponentName66(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName67
-    uint8_t _get_rchRenderModelComponentName67();
-    // Set instance field: public System.Byte rchRenderModelComponentName67
-    void _set_rchRenderModelComponentName67(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName68
-    uint8_t _get_rchRenderModelComponentName68();
-    // Set instance field: public System.Byte rchRenderModelComponentName68
-    void _set_rchRenderModelComponentName68(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName69
-    uint8_t _get_rchRenderModelComponentName69();
-    // Set instance field: public System.Byte rchRenderModelComponentName69
-    void _set_rchRenderModelComponentName69(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName70
-    uint8_t _get_rchRenderModelComponentName70();
-    // Set instance field: public System.Byte rchRenderModelComponentName70
-    void _set_rchRenderModelComponentName70(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName71
-    uint8_t _get_rchRenderModelComponentName71();
-    // Set instance field: public System.Byte rchRenderModelComponentName71
-    void _set_rchRenderModelComponentName71(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName72
-    uint8_t _get_rchRenderModelComponentName72();
-    // Set instance field: public System.Byte rchRenderModelComponentName72
-    void _set_rchRenderModelComponentName72(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName73
-    uint8_t _get_rchRenderModelComponentName73();
-    // Set instance field: public System.Byte rchRenderModelComponentName73
-    void _set_rchRenderModelComponentName73(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName74
-    uint8_t _get_rchRenderModelComponentName74();
-    // Set instance field: public System.Byte rchRenderModelComponentName74
-    void _set_rchRenderModelComponentName74(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName75
-    uint8_t _get_rchRenderModelComponentName75();
-    // Set instance field: public System.Byte rchRenderModelComponentName75
-    void _set_rchRenderModelComponentName75(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName76
-    uint8_t _get_rchRenderModelComponentName76();
-    // Set instance field: public System.Byte rchRenderModelComponentName76
-    void _set_rchRenderModelComponentName76(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName77
-    uint8_t _get_rchRenderModelComponentName77();
-    // Set instance field: public System.Byte rchRenderModelComponentName77
-    void _set_rchRenderModelComponentName77(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName78
-    uint8_t _get_rchRenderModelComponentName78();
-    // Set instance field: public System.Byte rchRenderModelComponentName78
-    void _set_rchRenderModelComponentName78(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName79
-    uint8_t _get_rchRenderModelComponentName79();
-    // Set instance field: public System.Byte rchRenderModelComponentName79
-    void _set_rchRenderModelComponentName79(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName80
-    uint8_t _get_rchRenderModelComponentName80();
-    // Set instance field: public System.Byte rchRenderModelComponentName80
-    void _set_rchRenderModelComponentName80(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName81
-    uint8_t _get_rchRenderModelComponentName81();
-    // Set instance field: public System.Byte rchRenderModelComponentName81
-    void _set_rchRenderModelComponentName81(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName82
-    uint8_t _get_rchRenderModelComponentName82();
-    // Set instance field: public System.Byte rchRenderModelComponentName82
-    void _set_rchRenderModelComponentName82(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName83
-    uint8_t _get_rchRenderModelComponentName83();
-    // Set instance field: public System.Byte rchRenderModelComponentName83
-    void _set_rchRenderModelComponentName83(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName84
-    uint8_t _get_rchRenderModelComponentName84();
-    // Set instance field: public System.Byte rchRenderModelComponentName84
-    void _set_rchRenderModelComponentName84(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName85
-    uint8_t _get_rchRenderModelComponentName85();
-    // Set instance field: public System.Byte rchRenderModelComponentName85
-    void _set_rchRenderModelComponentName85(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName86
-    uint8_t _get_rchRenderModelComponentName86();
-    // Set instance field: public System.Byte rchRenderModelComponentName86
-    void _set_rchRenderModelComponentName86(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName87
-    uint8_t _get_rchRenderModelComponentName87();
-    // Set instance field: public System.Byte rchRenderModelComponentName87
-    void _set_rchRenderModelComponentName87(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName88
-    uint8_t _get_rchRenderModelComponentName88();
-    // Set instance field: public System.Byte rchRenderModelComponentName88
-    void _set_rchRenderModelComponentName88(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName89
-    uint8_t _get_rchRenderModelComponentName89();
-    // Set instance field: public System.Byte rchRenderModelComponentName89
-    void _set_rchRenderModelComponentName89(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName90
-    uint8_t _get_rchRenderModelComponentName90();
-    // Set instance field: public System.Byte rchRenderModelComponentName90
-    void _set_rchRenderModelComponentName90(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName91
-    uint8_t _get_rchRenderModelComponentName91();
-    // Set instance field: public System.Byte rchRenderModelComponentName91
-    void _set_rchRenderModelComponentName91(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName92
-    uint8_t _get_rchRenderModelComponentName92();
-    // Set instance field: public System.Byte rchRenderModelComponentName92
-    void _set_rchRenderModelComponentName92(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName93
-    uint8_t _get_rchRenderModelComponentName93();
-    // Set instance field: public System.Byte rchRenderModelComponentName93
-    void _set_rchRenderModelComponentName93(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName94
-    uint8_t _get_rchRenderModelComponentName94();
-    // Set instance field: public System.Byte rchRenderModelComponentName94
-    void _set_rchRenderModelComponentName94(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName95
-    uint8_t _get_rchRenderModelComponentName95();
-    // Set instance field: public System.Byte rchRenderModelComponentName95
-    void _set_rchRenderModelComponentName95(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName96
-    uint8_t _get_rchRenderModelComponentName96();
-    // Set instance field: public System.Byte rchRenderModelComponentName96
-    void _set_rchRenderModelComponentName96(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName97
-    uint8_t _get_rchRenderModelComponentName97();
-    // Set instance field: public System.Byte rchRenderModelComponentName97
-    void _set_rchRenderModelComponentName97(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName98
-    uint8_t _get_rchRenderModelComponentName98();
-    // Set instance field: public System.Byte rchRenderModelComponentName98
-    void _set_rchRenderModelComponentName98(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName99
-    uint8_t _get_rchRenderModelComponentName99();
-    // Set instance field: public System.Byte rchRenderModelComponentName99
-    void _set_rchRenderModelComponentName99(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName100
-    uint8_t _get_rchRenderModelComponentName100();
-    // Set instance field: public System.Byte rchRenderModelComponentName100
-    void _set_rchRenderModelComponentName100(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName101
-    uint8_t _get_rchRenderModelComponentName101();
-    // Set instance field: public System.Byte rchRenderModelComponentName101
-    void _set_rchRenderModelComponentName101(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName102
-    uint8_t _get_rchRenderModelComponentName102();
-    // Set instance field: public System.Byte rchRenderModelComponentName102
-    void _set_rchRenderModelComponentName102(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName103
-    uint8_t _get_rchRenderModelComponentName103();
-    // Set instance field: public System.Byte rchRenderModelComponentName103
-    void _set_rchRenderModelComponentName103(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName104
-    uint8_t _get_rchRenderModelComponentName104();
-    // Set instance field: public System.Byte rchRenderModelComponentName104
-    void _set_rchRenderModelComponentName104(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName105
-    uint8_t _get_rchRenderModelComponentName105();
-    // Set instance field: public System.Byte rchRenderModelComponentName105
-    void _set_rchRenderModelComponentName105(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName106
-    uint8_t _get_rchRenderModelComponentName106();
-    // Set instance field: public System.Byte rchRenderModelComponentName106
-    void _set_rchRenderModelComponentName106(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName107
-    uint8_t _get_rchRenderModelComponentName107();
-    // Set instance field: public System.Byte rchRenderModelComponentName107
-    void _set_rchRenderModelComponentName107(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName108
-    uint8_t _get_rchRenderModelComponentName108();
-    // Set instance field: public System.Byte rchRenderModelComponentName108
-    void _set_rchRenderModelComponentName108(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName109
-    uint8_t _get_rchRenderModelComponentName109();
-    // Set instance field: public System.Byte rchRenderModelComponentName109
-    void _set_rchRenderModelComponentName109(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName110
-    uint8_t _get_rchRenderModelComponentName110();
-    // Set instance field: public System.Byte rchRenderModelComponentName110
-    void _set_rchRenderModelComponentName110(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName111
-    uint8_t _get_rchRenderModelComponentName111();
-    // Set instance field: public System.Byte rchRenderModelComponentName111
-    void _set_rchRenderModelComponentName111(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName112
-    uint8_t _get_rchRenderModelComponentName112();
-    // Set instance field: public System.Byte rchRenderModelComponentName112
-    void _set_rchRenderModelComponentName112(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName113
-    uint8_t _get_rchRenderModelComponentName113();
-    // Set instance field: public System.Byte rchRenderModelComponentName113
-    void _set_rchRenderModelComponentName113(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName114
-    uint8_t _get_rchRenderModelComponentName114();
-    // Set instance field: public System.Byte rchRenderModelComponentName114
-    void _set_rchRenderModelComponentName114(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName115
-    uint8_t _get_rchRenderModelComponentName115();
-    // Set instance field: public System.Byte rchRenderModelComponentName115
-    void _set_rchRenderModelComponentName115(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName116
-    uint8_t _get_rchRenderModelComponentName116();
-    // Set instance field: public System.Byte rchRenderModelComponentName116
-    void _set_rchRenderModelComponentName116(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName117
-    uint8_t _get_rchRenderModelComponentName117();
-    // Set instance field: public System.Byte rchRenderModelComponentName117
-    void _set_rchRenderModelComponentName117(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName118
-    uint8_t _get_rchRenderModelComponentName118();
-    // Set instance field: public System.Byte rchRenderModelComponentName118
-    void _set_rchRenderModelComponentName118(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName119
-    uint8_t _get_rchRenderModelComponentName119();
-    // Set instance field: public System.Byte rchRenderModelComponentName119
-    void _set_rchRenderModelComponentName119(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName120
-    uint8_t _get_rchRenderModelComponentName120();
-    // Set instance field: public System.Byte rchRenderModelComponentName120
-    void _set_rchRenderModelComponentName120(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName121
-    uint8_t _get_rchRenderModelComponentName121();
-    // Set instance field: public System.Byte rchRenderModelComponentName121
-    void _set_rchRenderModelComponentName121(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName122
-    uint8_t _get_rchRenderModelComponentName122();
-    // Set instance field: public System.Byte rchRenderModelComponentName122
-    void _set_rchRenderModelComponentName122(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName123
-    uint8_t _get_rchRenderModelComponentName123();
-    // Set instance field: public System.Byte rchRenderModelComponentName123
-    void _set_rchRenderModelComponentName123(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName124
-    uint8_t _get_rchRenderModelComponentName124();
-    // Set instance field: public System.Byte rchRenderModelComponentName124
-    void _set_rchRenderModelComponentName124(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName125
-    uint8_t _get_rchRenderModelComponentName125();
-    // Set instance field: public System.Byte rchRenderModelComponentName125
-    void _set_rchRenderModelComponentName125(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName126
-    uint8_t _get_rchRenderModelComponentName126();
-    // Set instance field: public System.Byte rchRenderModelComponentName126
-    void _set_rchRenderModelComponentName126(uint8_t value);
-    // Get instance field: public System.Byte rchRenderModelComponentName127
-    uint8_t _get_rchRenderModelComponentName127();
-    // Set instance field: public System.Byte rchRenderModelComponentName127
-    void _set_rchRenderModelComponentName127(uint8_t value);
+    // Get instance field reference: public System.UInt64 devicePath
+    uint64_t& dyn_devicePath();
+    // Get instance field reference: public System.UInt32 trackedDeviceIndex
+    uint& dyn_trackedDeviceIndex();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName0
+    uint8_t& dyn_rchRenderModelComponentName0();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName1
+    uint8_t& dyn_rchRenderModelComponentName1();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName2
+    uint8_t& dyn_rchRenderModelComponentName2();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName3
+    uint8_t& dyn_rchRenderModelComponentName3();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName4
+    uint8_t& dyn_rchRenderModelComponentName4();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName5
+    uint8_t& dyn_rchRenderModelComponentName5();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName6
+    uint8_t& dyn_rchRenderModelComponentName6();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName7
+    uint8_t& dyn_rchRenderModelComponentName7();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName8
+    uint8_t& dyn_rchRenderModelComponentName8();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName9
+    uint8_t& dyn_rchRenderModelComponentName9();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName10
+    uint8_t& dyn_rchRenderModelComponentName10();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName11
+    uint8_t& dyn_rchRenderModelComponentName11();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName12
+    uint8_t& dyn_rchRenderModelComponentName12();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName13
+    uint8_t& dyn_rchRenderModelComponentName13();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName14
+    uint8_t& dyn_rchRenderModelComponentName14();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName15
+    uint8_t& dyn_rchRenderModelComponentName15();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName16
+    uint8_t& dyn_rchRenderModelComponentName16();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName17
+    uint8_t& dyn_rchRenderModelComponentName17();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName18
+    uint8_t& dyn_rchRenderModelComponentName18();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName19
+    uint8_t& dyn_rchRenderModelComponentName19();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName20
+    uint8_t& dyn_rchRenderModelComponentName20();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName21
+    uint8_t& dyn_rchRenderModelComponentName21();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName22
+    uint8_t& dyn_rchRenderModelComponentName22();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName23
+    uint8_t& dyn_rchRenderModelComponentName23();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName24
+    uint8_t& dyn_rchRenderModelComponentName24();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName25
+    uint8_t& dyn_rchRenderModelComponentName25();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName26
+    uint8_t& dyn_rchRenderModelComponentName26();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName27
+    uint8_t& dyn_rchRenderModelComponentName27();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName28
+    uint8_t& dyn_rchRenderModelComponentName28();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName29
+    uint8_t& dyn_rchRenderModelComponentName29();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName30
+    uint8_t& dyn_rchRenderModelComponentName30();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName31
+    uint8_t& dyn_rchRenderModelComponentName31();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName32
+    uint8_t& dyn_rchRenderModelComponentName32();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName33
+    uint8_t& dyn_rchRenderModelComponentName33();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName34
+    uint8_t& dyn_rchRenderModelComponentName34();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName35
+    uint8_t& dyn_rchRenderModelComponentName35();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName36
+    uint8_t& dyn_rchRenderModelComponentName36();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName37
+    uint8_t& dyn_rchRenderModelComponentName37();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName38
+    uint8_t& dyn_rchRenderModelComponentName38();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName39
+    uint8_t& dyn_rchRenderModelComponentName39();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName40
+    uint8_t& dyn_rchRenderModelComponentName40();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName41
+    uint8_t& dyn_rchRenderModelComponentName41();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName42
+    uint8_t& dyn_rchRenderModelComponentName42();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName43
+    uint8_t& dyn_rchRenderModelComponentName43();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName44
+    uint8_t& dyn_rchRenderModelComponentName44();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName45
+    uint8_t& dyn_rchRenderModelComponentName45();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName46
+    uint8_t& dyn_rchRenderModelComponentName46();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName47
+    uint8_t& dyn_rchRenderModelComponentName47();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName48
+    uint8_t& dyn_rchRenderModelComponentName48();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName49
+    uint8_t& dyn_rchRenderModelComponentName49();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName50
+    uint8_t& dyn_rchRenderModelComponentName50();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName51
+    uint8_t& dyn_rchRenderModelComponentName51();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName52
+    uint8_t& dyn_rchRenderModelComponentName52();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName53
+    uint8_t& dyn_rchRenderModelComponentName53();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName54
+    uint8_t& dyn_rchRenderModelComponentName54();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName55
+    uint8_t& dyn_rchRenderModelComponentName55();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName56
+    uint8_t& dyn_rchRenderModelComponentName56();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName57
+    uint8_t& dyn_rchRenderModelComponentName57();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName58
+    uint8_t& dyn_rchRenderModelComponentName58();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName59
+    uint8_t& dyn_rchRenderModelComponentName59();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName60
+    uint8_t& dyn_rchRenderModelComponentName60();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName61
+    uint8_t& dyn_rchRenderModelComponentName61();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName62
+    uint8_t& dyn_rchRenderModelComponentName62();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName63
+    uint8_t& dyn_rchRenderModelComponentName63();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName64
+    uint8_t& dyn_rchRenderModelComponentName64();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName65
+    uint8_t& dyn_rchRenderModelComponentName65();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName66
+    uint8_t& dyn_rchRenderModelComponentName66();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName67
+    uint8_t& dyn_rchRenderModelComponentName67();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName68
+    uint8_t& dyn_rchRenderModelComponentName68();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName69
+    uint8_t& dyn_rchRenderModelComponentName69();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName70
+    uint8_t& dyn_rchRenderModelComponentName70();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName71
+    uint8_t& dyn_rchRenderModelComponentName71();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName72
+    uint8_t& dyn_rchRenderModelComponentName72();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName73
+    uint8_t& dyn_rchRenderModelComponentName73();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName74
+    uint8_t& dyn_rchRenderModelComponentName74();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName75
+    uint8_t& dyn_rchRenderModelComponentName75();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName76
+    uint8_t& dyn_rchRenderModelComponentName76();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName77
+    uint8_t& dyn_rchRenderModelComponentName77();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName78
+    uint8_t& dyn_rchRenderModelComponentName78();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName79
+    uint8_t& dyn_rchRenderModelComponentName79();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName80
+    uint8_t& dyn_rchRenderModelComponentName80();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName81
+    uint8_t& dyn_rchRenderModelComponentName81();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName82
+    uint8_t& dyn_rchRenderModelComponentName82();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName83
+    uint8_t& dyn_rchRenderModelComponentName83();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName84
+    uint8_t& dyn_rchRenderModelComponentName84();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName85
+    uint8_t& dyn_rchRenderModelComponentName85();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName86
+    uint8_t& dyn_rchRenderModelComponentName86();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName87
+    uint8_t& dyn_rchRenderModelComponentName87();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName88
+    uint8_t& dyn_rchRenderModelComponentName88();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName89
+    uint8_t& dyn_rchRenderModelComponentName89();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName90
+    uint8_t& dyn_rchRenderModelComponentName90();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName91
+    uint8_t& dyn_rchRenderModelComponentName91();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName92
+    uint8_t& dyn_rchRenderModelComponentName92();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName93
+    uint8_t& dyn_rchRenderModelComponentName93();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName94
+    uint8_t& dyn_rchRenderModelComponentName94();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName95
+    uint8_t& dyn_rchRenderModelComponentName95();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName96
+    uint8_t& dyn_rchRenderModelComponentName96();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName97
+    uint8_t& dyn_rchRenderModelComponentName97();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName98
+    uint8_t& dyn_rchRenderModelComponentName98();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName99
+    uint8_t& dyn_rchRenderModelComponentName99();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName100
+    uint8_t& dyn_rchRenderModelComponentName100();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName101
+    uint8_t& dyn_rchRenderModelComponentName101();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName102
+    uint8_t& dyn_rchRenderModelComponentName102();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName103
+    uint8_t& dyn_rchRenderModelComponentName103();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName104
+    uint8_t& dyn_rchRenderModelComponentName104();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName105
+    uint8_t& dyn_rchRenderModelComponentName105();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName106
+    uint8_t& dyn_rchRenderModelComponentName106();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName107
+    uint8_t& dyn_rchRenderModelComponentName107();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName108
+    uint8_t& dyn_rchRenderModelComponentName108();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName109
+    uint8_t& dyn_rchRenderModelComponentName109();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName110
+    uint8_t& dyn_rchRenderModelComponentName110();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName111
+    uint8_t& dyn_rchRenderModelComponentName111();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName112
+    uint8_t& dyn_rchRenderModelComponentName112();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName113
+    uint8_t& dyn_rchRenderModelComponentName113();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName114
+    uint8_t& dyn_rchRenderModelComponentName114();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName115
+    uint8_t& dyn_rchRenderModelComponentName115();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName116
+    uint8_t& dyn_rchRenderModelComponentName116();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName117
+    uint8_t& dyn_rchRenderModelComponentName117();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName118
+    uint8_t& dyn_rchRenderModelComponentName118();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName119
+    uint8_t& dyn_rchRenderModelComponentName119();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName120
+    uint8_t& dyn_rchRenderModelComponentName120();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName121
+    uint8_t& dyn_rchRenderModelComponentName121();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName122
+    uint8_t& dyn_rchRenderModelComponentName122();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName123
+    uint8_t& dyn_rchRenderModelComponentName123();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName124
+    uint8_t& dyn_rchRenderModelComponentName124();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName125
+    uint8_t& dyn_rchRenderModelComponentName125();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName126
+    uint8_t& dyn_rchRenderModelComponentName126();
+    // Get instance field reference: public System.Byte rchRenderModelComponentName127
+    uint8_t& dyn_rchRenderModelComponentName127();
     // public System.String get_rchRenderModelComponentName()
     // Offset: 0x129149C
     ::Il2CppString* get_rchRenderModelComponentName();

@@ -135,62 +135,34 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Int32 instanceID
-    int _get_instanceID();
-    // Set instance field: public System.Int32 instanceID
-    void _set_instanceID(int value);
-    // Get instance field: public UnityEngine.Experimental.GlobalIllumination.LinearColor color
-    UnityEngine::Experimental::GlobalIllumination::LinearColor _get_color();
-    // Set instance field: public UnityEngine.Experimental.GlobalIllumination.LinearColor color
-    void _set_color(UnityEngine::Experimental::GlobalIllumination::LinearColor value);
-    // Get instance field: public UnityEngine.Experimental.GlobalIllumination.LinearColor indirectColor
-    UnityEngine::Experimental::GlobalIllumination::LinearColor _get_indirectColor();
-    // Set instance field: public UnityEngine.Experimental.GlobalIllumination.LinearColor indirectColor
-    void _set_indirectColor(UnityEngine::Experimental::GlobalIllumination::LinearColor value);
-    // Get instance field: public UnityEngine.Quaternion orientation
-    UnityEngine::Quaternion _get_orientation();
-    // Set instance field: public UnityEngine.Quaternion orientation
-    void _set_orientation(UnityEngine::Quaternion value);
-    // Get instance field: public UnityEngine.Vector3 position
-    UnityEngine::Vector3 _get_position();
-    // Set instance field: public UnityEngine.Vector3 position
-    void _set_position(UnityEngine::Vector3 value);
-    // Get instance field: public System.Single range
-    float _get_range();
-    // Set instance field: public System.Single range
-    void _set_range(float value);
-    // Get instance field: public System.Single coneAngle
-    float _get_coneAngle();
-    // Set instance field: public System.Single coneAngle
-    void _set_coneAngle(float value);
-    // Get instance field: public System.Single innerConeAngle
-    float _get_innerConeAngle();
-    // Set instance field: public System.Single innerConeAngle
-    void _set_innerConeAngle(float value);
-    // Get instance field: public System.Single shape0
-    float _get_shape0();
-    // Set instance field: public System.Single shape0
-    void _set_shape0(float value);
-    // Get instance field: public System.Single shape1
-    float _get_shape1();
-    // Set instance field: public System.Single shape1
-    void _set_shape1(float value);
-    // Get instance field: public UnityEngine.Experimental.GlobalIllumination.LightType type
-    UnityEngine::Experimental::GlobalIllumination::LightType _get_type();
-    // Set instance field: public UnityEngine.Experimental.GlobalIllumination.LightType type
-    void _set_type(UnityEngine::Experimental::GlobalIllumination::LightType value);
-    // Get instance field: public UnityEngine.Experimental.GlobalIllumination.LightMode mode
-    UnityEngine::Experimental::GlobalIllumination::LightMode _get_mode();
-    // Set instance field: public UnityEngine.Experimental.GlobalIllumination.LightMode mode
-    void _set_mode(UnityEngine::Experimental::GlobalIllumination::LightMode value);
-    // Get instance field: public System.Byte shadow
-    uint8_t _get_shadow();
-    // Set instance field: public System.Byte shadow
-    void _set_shadow(uint8_t value);
-    // Get instance field: public UnityEngine.Experimental.GlobalIllumination.FalloffType falloff
-    UnityEngine::Experimental::GlobalIllumination::FalloffType _get_falloff();
-    // Set instance field: public UnityEngine.Experimental.GlobalIllumination.FalloffType falloff
-    void _set_falloff(UnityEngine::Experimental::GlobalIllumination::FalloffType value);
+    // Get instance field reference: public System.Int32 instanceID
+    int& dyn_instanceID();
+    // Get instance field reference: public UnityEngine.Experimental.GlobalIllumination.LinearColor color
+    UnityEngine::Experimental::GlobalIllumination::LinearColor& dyn_color();
+    // Get instance field reference: public UnityEngine.Experimental.GlobalIllumination.LinearColor indirectColor
+    UnityEngine::Experimental::GlobalIllumination::LinearColor& dyn_indirectColor();
+    // Get instance field reference: public UnityEngine.Quaternion orientation
+    UnityEngine::Quaternion& dyn_orientation();
+    // Get instance field reference: public UnityEngine.Vector3 position
+    UnityEngine::Vector3& dyn_position();
+    // Get instance field reference: public System.Single range
+    float& dyn_range();
+    // Get instance field reference: public System.Single coneAngle
+    float& dyn_coneAngle();
+    // Get instance field reference: public System.Single innerConeAngle
+    float& dyn_innerConeAngle();
+    // Get instance field reference: public System.Single shape0
+    float& dyn_shape0();
+    // Get instance field reference: public System.Single shape1
+    float& dyn_shape1();
+    // Get instance field reference: public UnityEngine.Experimental.GlobalIllumination.LightType type
+    UnityEngine::Experimental::GlobalIllumination::LightType& dyn_type();
+    // Get instance field reference: public UnityEngine.Experimental.GlobalIllumination.LightMode mode
+    UnityEngine::Experimental::GlobalIllumination::LightMode& dyn_mode();
+    // Get instance field reference: public System.Byte shadow
+    uint8_t& dyn_shadow();
+    // Get instance field reference: public UnityEngine.Experimental.GlobalIllumination.FalloffType falloff
+    UnityEngine::Experimental::GlobalIllumination::FalloffType& dyn_falloff();
     // public System.Void Init(ref UnityEngine.Experimental.GlobalIllumination.DirectionalLight light)
     // Offset: 0x1C29274
     void Init(ByRef<UnityEngine::Experimental::GlobalIllumination::DirectionalLight> light);

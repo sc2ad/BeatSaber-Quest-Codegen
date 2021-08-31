@@ -51,10 +51,8 @@ namespace GlobalNamespace {
     constexpr operator System::Collections::Generic::List_1<::Il2CppString*>*() const noexcept {
       return playersWithoutEntitlements;
     }
-    // Get instance field: private System.Collections.Generic.List`1<System.String> _playersWithoutEntitlements
-    System::Collections::Generic::List_1<::Il2CppString*>* _get__playersWithoutEntitlements();
-    // Set instance field: private System.Collections.Generic.List`1<System.String> _playersWithoutEntitlements
-    void _set__playersWithoutEntitlements(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    // Get instance field reference: private System.Collections.Generic.List`1<System.String> _playersWithoutEntitlements
+    System::Collections::Generic::List_1<::Il2CppString*>*& dyn__playersWithoutEntitlements();
     // public System.Collections.Generic.List`1<System.String> get_playersWithoutEntitlements()
     // Offset: 0x237C574
     System::Collections::Generic::List_1<::Il2CppString*>* get_playersWithoutEntitlements();

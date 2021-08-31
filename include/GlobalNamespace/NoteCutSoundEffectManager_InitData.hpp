@@ -34,14 +34,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: InitData
     InitData(bool useTestAudioClips_ = {}, bool ignoreBadCuts_ = {}) noexcept : useTestAudioClips{useTestAudioClips_}, ignoreBadCuts{ignoreBadCuts_} {}
-    // Get instance field: public readonly System.Boolean useTestAudioClips
-    bool _get_useTestAudioClips();
-    // Set instance field: public readonly System.Boolean useTestAudioClips
-    void _set_useTestAudioClips(bool value);
-    // Get instance field: public readonly System.Boolean ignoreBadCuts
-    bool _get_ignoreBadCuts();
-    // Set instance field: public readonly System.Boolean ignoreBadCuts
-    void _set_ignoreBadCuts(bool value);
+    // Get instance field reference: public readonly System.Boolean useTestAudioClips
+    bool& dyn_useTestAudioClips();
+    // Get instance field reference: public readonly System.Boolean ignoreBadCuts
+    bool& dyn_ignoreBadCuts();
     // public System.Void .ctor(System.Boolean useTestAudioClips, System.Boolean ignoreBadCuts)
     // Offset: 0x1048944
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

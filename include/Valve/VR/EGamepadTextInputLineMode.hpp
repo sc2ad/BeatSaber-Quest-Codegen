@@ -44,10 +44,8 @@ namespace Valve::VR {
     static Valve::VR::EGamepadTextInputLineMode _get_k_EGamepadTextInputLineModeMultipleLines();
     // Set static field: static public Valve.VR.EGamepadTextInputLineMode k_EGamepadTextInputLineModeMultipleLines
     static void _set_k_EGamepadTextInputLineModeMultipleLines(Valve::VR::EGamepadTextInputLineMode value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Valve.VR.EGamepadTextInputLineMode
   #pragma pack(pop)
   static check_size<sizeof(EGamepadTextInputLineMode), 0 + sizeof(int)> __Valve_VR_EGamepadTextInputLineModeSizeCheck;

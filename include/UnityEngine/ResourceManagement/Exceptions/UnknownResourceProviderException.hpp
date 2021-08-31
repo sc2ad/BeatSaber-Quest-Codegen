@@ -48,10 +48,8 @@ namespace UnityEngine::ResourceManagement::Exceptions {
     constexpr operator UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*() const noexcept {
       return Location;
     }
-    // Get instance field: private UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation <Location>k__BackingField
-    UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* _get_$Location$k__BackingField();
-    // Set instance field: private UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation <Location>k__BackingField
-    void _set_$Location$k__BackingField(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
+    // Get instance field reference: private UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation <Location>k__BackingField
+    UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& dyn_$Location$k__BackingField();
     // public UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation get_Location()
     // Offset: 0x19E80B4
     UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_Location();

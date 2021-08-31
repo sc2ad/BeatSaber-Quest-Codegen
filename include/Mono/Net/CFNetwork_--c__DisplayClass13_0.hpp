@@ -49,14 +49,10 @@ namespace Mono::Net {
     static_assert(sizeof(Mono::Net::CFRunLoop*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass13_0
     $$c__DisplayClass13_0(::Array<Mono::Net::CFProxy*>* proxies_ = {}, Mono::Net::CFRunLoop* runLoop_ = {}) noexcept : proxies{proxies_}, runLoop{runLoop_} {}
-    // Get instance field: public Mono.Net.CFProxy[] proxies
-    ::Array<Mono::Net::CFProxy*>* _get_proxies();
-    // Set instance field: public Mono.Net.CFProxy[] proxies
-    void _set_proxies(::Array<Mono::Net::CFProxy*>* value);
-    // Get instance field: public Mono.Net.CFRunLoop runLoop
-    Mono::Net::CFRunLoop* _get_runLoop();
-    // Set instance field: public Mono.Net.CFRunLoop runLoop
-    void _set_runLoop(Mono::Net::CFRunLoop* value);
+    // Get instance field reference: public Mono.Net.CFProxy[] proxies
+    ::Array<Mono::Net::CFProxy*>*& dyn_proxies();
+    // Get instance field reference: public Mono.Net.CFRunLoop runLoop
+    Mono::Net::CFRunLoop*& dyn_runLoop();
     // System.Void <ExecuteProxyAutoConfigurationURL>b__0(System.IntPtr client, System.IntPtr proxyList, System.IntPtr error)
     // Offset: 0x15E2CB4
     void $ExecuteProxyAutoConfigurationURL$b__0(System::IntPtr client, System::IntPtr proxyList, System::IntPtr error);

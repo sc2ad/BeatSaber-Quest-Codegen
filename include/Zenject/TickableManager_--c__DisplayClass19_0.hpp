@@ -51,10 +51,8 @@ namespace Zenject {
     constexpr operator Zenject::ILateTickable*() const noexcept {
       return tickable;
     }
-    // Get instance field: public Zenject.ILateTickable tickable
-    Zenject::ILateTickable* _get_tickable();
-    // Set instance field: public Zenject.ILateTickable tickable
-    void _set_tickable(Zenject::ILateTickable* value);
+    // Get instance field reference: public Zenject.ILateTickable tickable
+    Zenject::ILateTickable*& dyn_tickable();
     // System.Boolean <InitLateTickables>b__1(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
     // Offset: 0x1723E78
     bool $InitLateTickables$b__1(ModestTree::Util::ValuePair_2<System::Type*, int>* x);

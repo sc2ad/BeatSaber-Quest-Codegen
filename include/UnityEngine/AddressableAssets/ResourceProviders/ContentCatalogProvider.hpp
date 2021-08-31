@@ -79,22 +79,14 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
     static_assert(sizeof(UnityEngine::ResourceManagement::ResourceManager*) == 0x8);
     // Creating value type constructor for type: ContentCatalogProvider
     ContentCatalogProvider(bool DisableCatalogUpdateOnStart_ = {}, bool IsLocalCatalogInBundle_ = {}, System::Collections::Generic::Dictionary_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp*>* m_LocationToCatalogLoadOpMap_ = {}, UnityEngine::ResourceManagement::ResourceManager* m_RM_ = {}) noexcept : DisableCatalogUpdateOnStart{DisableCatalogUpdateOnStart_}, IsLocalCatalogInBundle{IsLocalCatalogInBundle_}, m_LocationToCatalogLoadOpMap{m_LocationToCatalogLoadOpMap_}, m_RM{m_RM_} {}
-    // Get instance field: public System.Boolean DisableCatalogUpdateOnStart
-    bool _get_DisableCatalogUpdateOnStart();
-    // Set instance field: public System.Boolean DisableCatalogUpdateOnStart
-    void _set_DisableCatalogUpdateOnStart(bool value);
-    // Get instance field: public System.Boolean IsLocalCatalogInBundle
-    bool _get_IsLocalCatalogInBundle();
-    // Set instance field: public System.Boolean IsLocalCatalogInBundle
-    void _set_IsLocalCatalogInBundle(bool value);
-    // Get instance field: System.Collections.Generic.Dictionary`2<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation,UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/UnityEngine.AddressableAssets.ResourceProviders.InternalOp> m_LocationToCatalogLoadOpMap
-    System::Collections::Generic::Dictionary_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp*>* _get_m_LocationToCatalogLoadOpMap();
-    // Set instance field: System.Collections.Generic.Dictionary`2<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation,UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/UnityEngine.AddressableAssets.ResourceProviders.InternalOp> m_LocationToCatalogLoadOpMap
-    void _set_m_LocationToCatalogLoadOpMap(System::Collections::Generic::Dictionary_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp*>* value);
-    // Get instance field: private UnityEngine.ResourceManagement.ResourceManager m_RM
-    UnityEngine::ResourceManagement::ResourceManager* _get_m_RM();
-    // Set instance field: private UnityEngine.ResourceManagement.ResourceManager m_RM
-    void _set_m_RM(UnityEngine::ResourceManagement::ResourceManager* value);
+    // Get instance field reference: public System.Boolean DisableCatalogUpdateOnStart
+    bool& dyn_DisableCatalogUpdateOnStart();
+    // Get instance field reference: public System.Boolean IsLocalCatalogInBundle
+    bool& dyn_IsLocalCatalogInBundle();
+    // Get instance field reference: System.Collections.Generic.Dictionary`2<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation,UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/UnityEngine.AddressableAssets.ResourceProviders.InternalOp> m_LocationToCatalogLoadOpMap
+    System::Collections::Generic::Dictionary_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp*>*& dyn_m_LocationToCatalogLoadOpMap();
+    // Get instance field reference: private UnityEngine.ResourceManagement.ResourceManager m_RM
+    UnityEngine::ResourceManagement::ResourceManager*& dyn_m_RM();
     // public System.Void .ctor(UnityEngine.ResourceManagement.ResourceManager resourceManagerInstance)
     // Offset: 0x1446930
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

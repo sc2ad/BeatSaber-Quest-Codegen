@@ -42,10 +42,8 @@ namespace NUnit::Framework::Internal {
     constexpr operator System::Reflection::Assembly*() const noexcept {
       return Assembly;
     }
-    // Get instance field: private System.Reflection.Assembly <Assembly>k__BackingField
-    System::Reflection::Assembly* _get_$Assembly$k__BackingField();
-    // Set instance field: private System.Reflection.Assembly <Assembly>k__BackingField
-    void _set_$Assembly$k__BackingField(System::Reflection::Assembly* value);
+    // Get instance field reference: private System.Reflection.Assembly <Assembly>k__BackingField
+    System::Reflection::Assembly*& dyn_$Assembly$k__BackingField();
     // public System.Reflection.Assembly get_Assembly()
     // Offset: 0x229C37C
     System::Reflection::Assembly* get_Assembly();

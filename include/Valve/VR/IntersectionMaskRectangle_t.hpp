@@ -46,22 +46,14 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Single m_flTopLeftX
-    float _get_m_flTopLeftX();
-    // Set instance field: public System.Single m_flTopLeftX
-    void _set_m_flTopLeftX(float value);
-    // Get instance field: public System.Single m_flTopLeftY
-    float _get_m_flTopLeftY();
-    // Set instance field: public System.Single m_flTopLeftY
-    void _set_m_flTopLeftY(float value);
-    // Get instance field: public System.Single m_flWidth
-    float _get_m_flWidth();
-    // Set instance field: public System.Single m_flWidth
-    void _set_m_flWidth(float value);
-    // Get instance field: public System.Single m_flHeight
-    float _get_m_flHeight();
-    // Set instance field: public System.Single m_flHeight
-    void _set_m_flHeight(float value);
+    // Get instance field reference: public System.Single m_flTopLeftX
+    float& dyn_m_flTopLeftX();
+    // Get instance field reference: public System.Single m_flTopLeftY
+    float& dyn_m_flTopLeftY();
+    // Get instance field reference: public System.Single m_flWidth
+    float& dyn_m_flWidth();
+    // Get instance field reference: public System.Single m_flHeight
+    float& dyn_m_flHeight();
   }; // Valve.VR.IntersectionMaskRectangle_t
   #pragma pack(pop)
   static check_size<sizeof(IntersectionMaskRectangle_t), 12 + sizeof(float)> __Valve_VR_IntersectionMaskRectangle_tSizeCheck;

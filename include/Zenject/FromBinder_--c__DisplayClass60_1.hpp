@@ -53,14 +53,10 @@ namespace Zenject {
     static_assert(sizeof(Zenject::FromBinder::$$c__DisplayClass60_0*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass60_1
     $$c__DisplayClass60_1(System::Type* concreteType_ = {}, Zenject::FromBinder::$$c__DisplayClass60_0* CS$$$8__locals1_ = {}) noexcept : concreteType{concreteType_}, CS$$$8__locals1{CS$$$8__locals1_} {}
-    // Get instance field: public System.Type concreteType
-    System::Type* _get_concreteType();
-    // Set instance field: public System.Type concreteType
-    void _set_concreteType(System::Type* value);
-    // Get instance field: public Zenject.FromBinder/Zenject.<>c__DisplayClass60_0 CS$<>8__locals1
-    Zenject::FromBinder::$$c__DisplayClass60_0* _get_CS$$$8__locals1();
-    // Set instance field: public Zenject.FromBinder/Zenject.<>c__DisplayClass60_0 CS$<>8__locals1
-    void _set_CS$$$8__locals1(Zenject::FromBinder::$$c__DisplayClass60_0* value);
+    // Get instance field reference: public System.Type concreteType
+    System::Type*& dyn_concreteType();
+    // Get instance field reference: public Zenject.FromBinder/Zenject.<>c__DisplayClass60_0 CS$<>8__locals1
+    Zenject::FromBinder::$$c__DisplayClass60_0*& dyn_CS$$$8__locals1();
     // System.Collections.Generic.IEnumerable`1<System.Object> <FromComponentsInChildrenBase>b__1(Zenject.InjectContext ctx)
     // Offset: 0x165CCD8
     System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* $FromComponentsInChildrenBase$b__1(Zenject::InjectContext* ctx);

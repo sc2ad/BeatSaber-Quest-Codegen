@@ -42,10 +42,8 @@ namespace GlobalNamespace {
     BaseTransitionSO(GlobalNamespace::TransitionTimingSO* transitionTiming_ = {}) noexcept : transitionTiming{transitionTiming_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private TransitionTimingSO _transitionTiming
-    GlobalNamespace::TransitionTimingSO* _get__transitionTiming();
-    // Set instance field: private TransitionTimingSO _transitionTiming
-    void _set__transitionTiming(GlobalNamespace::TransitionTimingSO* value);
+    // Get instance field reference: private TransitionTimingSO _transitionTiming
+    GlobalNamespace::TransitionTimingSO*& dyn__transitionTiming();
     // public Tweening.EaseType get_easeType()
     // Offset: 0x11E5CD8
     Tweening::EaseType get_easeType();

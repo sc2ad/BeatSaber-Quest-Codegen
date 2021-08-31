@@ -71,26 +71,16 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::Array<RootMotion::FinalIK::InteractionTrigger::Range::Interaction*>*) == 0x8);
     // Creating value type constructor for type: Range
     Range(::Il2CppString* name_ = {}, bool show_ = {}, RootMotion::FinalIK::InteractionTrigger::CharacterPosition* characterPosition_ = {}, RootMotion::FinalIK::InteractionTrigger::CameraPosition* cameraPosition_ = {}, ::Array<RootMotion::FinalIK::InteractionTrigger::Range::Interaction*>* interactions_ = {}) noexcept : name{name_}, show{show_}, characterPosition{characterPosition_}, cameraPosition{cameraPosition_}, interactions{interactions_} {}
-    // Get instance field: public System.String name
-    ::Il2CppString* _get_name();
-    // Set instance field: public System.String name
-    void _set_name(::Il2CppString* value);
-    // Get instance field: public System.Boolean show
-    bool _get_show();
-    // Set instance field: public System.Boolean show
-    void _set_show(bool value);
-    // Get instance field: public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.CharacterPosition characterPosition
-    RootMotion::FinalIK::InteractionTrigger::CharacterPosition* _get_characterPosition();
-    // Set instance field: public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.CharacterPosition characterPosition
-    void _set_characterPosition(RootMotion::FinalIK::InteractionTrigger::CharacterPosition* value);
-    // Get instance field: public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.CameraPosition cameraPosition
-    RootMotion::FinalIK::InteractionTrigger::CameraPosition* _get_cameraPosition();
-    // Set instance field: public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.CameraPosition cameraPosition
-    void _set_cameraPosition(RootMotion::FinalIK::InteractionTrigger::CameraPosition* value);
-    // Get instance field: public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.Range/RootMotion.FinalIK.Interaction[] interactions
-    ::Array<RootMotion::FinalIK::InteractionTrigger::Range::Interaction*>* _get_interactions();
-    // Set instance field: public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.Range/RootMotion.FinalIK.Interaction[] interactions
-    void _set_interactions(::Array<RootMotion::FinalIK::InteractionTrigger::Range::Interaction*>* value);
+    // Get instance field reference: public System.String name
+    ::Il2CppString*& dyn_name();
+    // Get instance field reference: public System.Boolean show
+    bool& dyn_show();
+    // Get instance field reference: public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.CharacterPosition characterPosition
+    RootMotion::FinalIK::InteractionTrigger::CharacterPosition*& dyn_characterPosition();
+    // Get instance field reference: public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.CameraPosition cameraPosition
+    RootMotion::FinalIK::InteractionTrigger::CameraPosition*& dyn_cameraPosition();
+    // Get instance field reference: public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.Range/RootMotion.FinalIK.Interaction[] interactions
+    ::Array<RootMotion::FinalIK::InteractionTrigger::Range::Interaction*>*& dyn_interactions();
     // public System.Boolean IsInRange(UnityEngine.Transform character, UnityEngine.Transform raycastFrom, UnityEngine.RaycastHit raycastHit, UnityEngine.Transform trigger, out System.Single maxError)
     // Offset: 0x1AD5D8C
     bool IsInRange(UnityEngine::Transform* character, UnityEngine::Transform* raycastFrom, UnityEngine::RaycastHit raycastHit, UnityEngine::Transform* trigger, ByRef<float> maxError);

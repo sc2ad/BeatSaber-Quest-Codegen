@@ -128,10 +128,8 @@ namespace System {
     static System::ConsoleColor _get_White();
     // Set static field: static public System.ConsoleColor White
     static void _set_White(System::ConsoleColor value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // System.ConsoleColor
   #pragma pack(pop)
   static check_size<sizeof(ConsoleColor), 0 + sizeof(int)> __System_ConsoleColorSizeCheck;

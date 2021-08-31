@@ -73,10 +73,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::VRRenderingParamsSetup::SceneType _get_Game();
       // Set static field: static public VRRenderingParamsSetup/SceneType Game
       static void _set_Game(GlobalNamespace::VRRenderingParamsSetup::SceneType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // VRRenderingParamsSetup/SceneType
     #pragma pack(pop)
     static check_size<sizeof(VRRenderingParamsSetup::SceneType), 0 + sizeof(int)> __GlobalNamespace_VRRenderingParamsSetup_SceneTypeSizeCheck;
@@ -118,26 +116,16 @@ namespace GlobalNamespace {
     VRRenderingParamsSetup(GlobalNamespace::FloatSO* vrResolutionScale_ = {}, GlobalNamespace::FloatSO* menuVRResolutionScaleMultiplier_ = {}, GlobalNamespace::BoolSO* useFixedFoveatedRenderingDuringGameplay_ = {}, GlobalNamespace::VRRenderingParamsSetup::SceneType sceneType_ = {}, GlobalNamespace::IVRPlatformHelper* vrPlatformHelper_ = {}) noexcept : vrResolutionScale{vrResolutionScale_}, menuVRResolutionScaleMultiplier{menuVRResolutionScaleMultiplier_}, useFixedFoveatedRenderingDuringGameplay{useFixedFoveatedRenderingDuringGameplay_}, sceneType{sceneType_}, vrPlatformHelper{vrPlatformHelper_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private FloatSO _vrResolutionScale
-    GlobalNamespace::FloatSO* _get__vrResolutionScale();
-    // Set instance field: private FloatSO _vrResolutionScale
-    void _set__vrResolutionScale(GlobalNamespace::FloatSO* value);
-    // Get instance field: private FloatSO _menuVRResolutionScaleMultiplier
-    GlobalNamespace::FloatSO* _get__menuVRResolutionScaleMultiplier();
-    // Set instance field: private FloatSO _menuVRResolutionScaleMultiplier
-    void _set__menuVRResolutionScaleMultiplier(GlobalNamespace::FloatSO* value);
-    // Get instance field: private BoolSO _useFixedFoveatedRenderingDuringGameplay
-    GlobalNamespace::BoolSO* _get__useFixedFoveatedRenderingDuringGameplay();
-    // Set instance field: private BoolSO _useFixedFoveatedRenderingDuringGameplay
-    void _set__useFixedFoveatedRenderingDuringGameplay(GlobalNamespace::BoolSO* value);
-    // Get instance field: private VRRenderingParamsSetup/SceneType _sceneType
-    GlobalNamespace::VRRenderingParamsSetup::SceneType _get__sceneType();
-    // Set instance field: private VRRenderingParamsSetup/SceneType _sceneType
-    void _set__sceneType(GlobalNamespace::VRRenderingParamsSetup::SceneType value);
-    // Get instance field: private IVRPlatformHelper _vrPlatformHelper
-    GlobalNamespace::IVRPlatformHelper* _get__vrPlatformHelper();
-    // Set instance field: private IVRPlatformHelper _vrPlatformHelper
-    void _set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper* value);
+    // Get instance field reference: private FloatSO _vrResolutionScale
+    GlobalNamespace::FloatSO*& dyn__vrResolutionScale();
+    // Get instance field reference: private FloatSO _menuVRResolutionScaleMultiplier
+    GlobalNamespace::FloatSO*& dyn__menuVRResolutionScaleMultiplier();
+    // Get instance field reference: private BoolSO _useFixedFoveatedRenderingDuringGameplay
+    GlobalNamespace::BoolSO*& dyn__useFixedFoveatedRenderingDuringGameplay();
+    // Get instance field reference: private VRRenderingParamsSetup/SceneType _sceneType
+    GlobalNamespace::VRRenderingParamsSetup::SceneType& dyn__sceneType();
+    // Get instance field reference: private IVRPlatformHelper _vrPlatformHelper
+    GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
     // protected System.Void OnEnable()
     // Offset: 0x2395514
     void OnEnable();

@@ -38,14 +38,10 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public OVR.OpenVR.IVRSystem/OVR.OpenVR._PollNextEvent pPollNextEvent
-    OVR::OpenVR::IVRSystem::_PollNextEvent* _get_pPollNextEvent();
-    // Set instance field: public OVR.OpenVR.IVRSystem/OVR.OpenVR._PollNextEvent pPollNextEvent
-    void _set_pPollNextEvent(OVR::OpenVR::IVRSystem::_PollNextEvent* value);
-    // Get instance field: public OVR.OpenVR.CVRSystem/OVR.OpenVR._PollNextEventPacked pPollNextEventPacked
-    OVR::OpenVR::CVRSystem::_PollNextEventPacked* _get_pPollNextEventPacked();
-    // Set instance field: public OVR.OpenVR.CVRSystem/OVR.OpenVR._PollNextEventPacked pPollNextEventPacked
-    void _set_pPollNextEventPacked(OVR::OpenVR::CVRSystem::_PollNextEventPacked* value);
+    // Get instance field reference: public OVR.OpenVR.IVRSystem/OVR.OpenVR._PollNextEvent pPollNextEvent
+    OVR::OpenVR::IVRSystem::_PollNextEvent*& dyn_pPollNextEvent();
+    // Get instance field reference: public OVR.OpenVR.CVRSystem/OVR.OpenVR._PollNextEventPacked pPollNextEventPacked
+    OVR::OpenVR::CVRSystem::_PollNextEventPacked*& dyn_pPollNextEventPacked();
   }; // OVR.OpenVR.CVRSystem/OVR.OpenVR.PollNextEventUnion
   // WARNING Not writing size check since size may be invalid!
 }

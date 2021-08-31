@@ -62,22 +62,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(LiteNetLib::ConnectionRequest*) == 0x8);
     // Creating value type constructor for type: NetPeerConnectionRequest
     NetPeerConnectionRequest(::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, bool isConnectionOwner_ = {}, LiteNetLib::ConnectionRequest* request_ = {}) noexcept : userId{userId_}, userName{userName_}, isConnectionOwner{isConnectionOwner_}, request{request_} {}
-    // Get instance field: private readonly System.String _userId
-    ::Il2CppString* _get__userId();
-    // Set instance field: private readonly System.String _userId
-    void _set__userId(::Il2CppString* value);
-    // Get instance field: private readonly System.String _userName
-    ::Il2CppString* _get__userName();
-    // Set instance field: private readonly System.String _userName
-    void _set__userName(::Il2CppString* value);
-    // Get instance field: private readonly System.Boolean _isConnectionOwner
-    bool _get__isConnectionOwner();
-    // Set instance field: private readonly System.Boolean _isConnectionOwner
-    void _set__isConnectionOwner(bool value);
-    // Get instance field: private readonly LiteNetLib.ConnectionRequest _request
-    LiteNetLib::ConnectionRequest* _get__request();
-    // Set instance field: private readonly LiteNetLib.ConnectionRequest _request
-    void _set__request(LiteNetLib::ConnectionRequest* value);
+    // Get instance field reference: private readonly System.String _userId
+    ::Il2CppString*& dyn__userId();
+    // Get instance field reference: private readonly System.String _userName
+    ::Il2CppString*& dyn__userName();
+    // Get instance field reference: private readonly System.Boolean _isConnectionOwner
+    bool& dyn__isConnectionOwner();
+    // Get instance field reference: private readonly LiteNetLib.ConnectionRequest _request
+    LiteNetLib::ConnectionRequest*& dyn__request();
     // public System.String get_userId()
     // Offset: 0x132E234
     ::Il2CppString* get_userId();

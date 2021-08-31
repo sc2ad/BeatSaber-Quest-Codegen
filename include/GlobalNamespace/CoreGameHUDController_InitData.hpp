@@ -40,18 +40,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: InitData
     InitData(bool hide_ = {}, bool showEnergyPanel_ = {}, bool advancedHUD_ = {}) noexcept : hide{hide_}, showEnergyPanel{showEnergyPanel_}, advancedHUD{advancedHUD_} {}
-    // Get instance field: public readonly System.Boolean hide
-    bool _get_hide();
-    // Set instance field: public readonly System.Boolean hide
-    void _set_hide(bool value);
-    // Get instance field: public readonly System.Boolean showEnergyPanel
-    bool _get_showEnergyPanel();
-    // Set instance field: public readonly System.Boolean showEnergyPanel
-    void _set_showEnergyPanel(bool value);
-    // Get instance field: public readonly System.Boolean advancedHUD
-    bool _get_advancedHUD();
-    // Set instance field: public readonly System.Boolean advancedHUD
-    void _set_advancedHUD(bool value);
+    // Get instance field reference: public readonly System.Boolean hide
+    bool& dyn_hide();
+    // Get instance field reference: public readonly System.Boolean showEnergyPanel
+    bool& dyn_showEnergyPanel();
+    // Get instance field reference: public readonly System.Boolean advancedHUD
+    bool& dyn_advancedHUD();
     // public System.Void .ctor(System.Boolean hide, System.Boolean showEnergyPanel, System.Boolean advancedHUD)
     // Offset: 0x10F36B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

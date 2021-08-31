@@ -55,18 +55,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::LevelCompletionResults*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass23_0
     $$c__DisplayClass23_0(GlobalNamespace::MenuTransitionsHelper* $$4__this_ = {}, GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData_ = {}, GlobalNamespace::LevelCompletionResults* levelCompletionResults_ = {}) noexcept : $$4__this{$$4__this_}, standardLevelScenesTransitionSetupData{standardLevelScenesTransitionSetupData_}, levelCompletionResults{levelCompletionResults_} {}
-    // Get instance field: public MenuTransitionsHelper <>4__this
-    GlobalNamespace::MenuTransitionsHelper* _get_$$4__this();
-    // Set instance field: public MenuTransitionsHelper <>4__this
-    void _set_$$4__this(GlobalNamespace::MenuTransitionsHelper* value);
-    // Get instance field: public StandardLevelScenesTransitionSetupDataSO standardLevelScenesTransitionSetupData
-    GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* _get_standardLevelScenesTransitionSetupData();
-    // Set instance field: public StandardLevelScenesTransitionSetupDataSO standardLevelScenesTransitionSetupData
-    void _set_standardLevelScenesTransitionSetupData(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* value);
-    // Get instance field: public LevelCompletionResults levelCompletionResults
-    GlobalNamespace::LevelCompletionResults* _get_levelCompletionResults();
-    // Set instance field: public LevelCompletionResults levelCompletionResults
-    void _set_levelCompletionResults(GlobalNamespace::LevelCompletionResults* value);
+    // Get instance field reference: public MenuTransitionsHelper <>4__this
+    GlobalNamespace::MenuTransitionsHelper*& dyn_$$4__this();
+    // Get instance field reference: public StandardLevelScenesTransitionSetupDataSO standardLevelScenesTransitionSetupData
+    GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*& dyn_standardLevelScenesTransitionSetupData();
+    // Get instance field reference: public LevelCompletionResults levelCompletionResults
+    GlobalNamespace::LevelCompletionResults*& dyn_levelCompletionResults();
     // System.Void <HandleMainGameSceneDidFinish>b__0(Zenject.DiContainer container)
     // Offset: 0x10E76BC
     void $HandleMainGameSceneDidFinish$b__0(Zenject::DiContainer* container);

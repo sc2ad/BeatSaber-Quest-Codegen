@@ -135,66 +135,36 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kCurrentVersion();
     // Set static field: static public System.String kCurrentVersion
     static void _set_kCurrentVersion(::Il2CppString* value);
-    // Get instance field: private System.String _version
-    ::Il2CppString* _get__version();
-    // Set instance field: private System.String _version
-    void _set__version(::Il2CppString* value);
-    // Get instance field: private System.String _songName
-    ::Il2CppString* _get__songName();
-    // Set instance field: private System.String _songName
-    void _set__songName(::Il2CppString* value);
-    // Get instance field: private System.String _songSubName
-    ::Il2CppString* _get__songSubName();
-    // Set instance field: private System.String _songSubName
-    void _set__songSubName(::Il2CppString* value);
-    // Get instance field: private System.String _songAuthorName
-    ::Il2CppString* _get__songAuthorName();
-    // Set instance field: private System.String _songAuthorName
-    void _set__songAuthorName(::Il2CppString* value);
-    // Get instance field: private System.String _levelAuthorName
-    ::Il2CppString* _get__levelAuthorName();
-    // Set instance field: private System.String _levelAuthorName
-    void _set__levelAuthorName(::Il2CppString* value);
-    // Get instance field: private System.Single _beatsPerMinute
-    float _get__beatsPerMinute();
-    // Set instance field: private System.Single _beatsPerMinute
-    void _set__beatsPerMinute(float value);
-    // Get instance field: private System.Single _songTimeOffset
-    float _get__songTimeOffset();
-    // Set instance field: private System.Single _songTimeOffset
-    void _set__songTimeOffset(float value);
-    // Get instance field: private System.Single _shuffle
-    float _get__shuffle();
-    // Set instance field: private System.Single _shuffle
-    void _set__shuffle(float value);
-    // Get instance field: private System.Single _shufflePeriod
-    float _get__shufflePeriod();
-    // Set instance field: private System.Single _shufflePeriod
-    void _set__shufflePeriod(float value);
-    // Get instance field: private System.Single _previewStartTime
-    float _get__previewStartTime();
-    // Set instance field: private System.Single _previewStartTime
-    void _set__previewStartTime(float value);
-    // Get instance field: private System.Single _previewDuration
-    float _get__previewDuration();
-    // Set instance field: private System.Single _previewDuration
-    void _set__previewDuration(float value);
-    // Get instance field: private System.String _songFilename
-    ::Il2CppString* _get__songFilename();
-    // Set instance field: private System.String _songFilename
-    void _set__songFilename(::Il2CppString* value);
-    // Get instance field: private System.String _coverImageFilename
-    ::Il2CppString* _get__coverImageFilename();
-    // Set instance field: private System.String _coverImageFilename
-    void _set__coverImageFilename(::Il2CppString* value);
-    // Get instance field: private System.String _environmentName
-    ::Il2CppString* _get__environmentName();
-    // Set instance field: private System.String _environmentName
-    void _set__environmentName(::Il2CppString* value);
-    // Get instance field: private StandardLevelInfoSaveData_V100/DifficultyBeatmap[] _difficultyBeatmaps
-    ::Array<GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*>* _get__difficultyBeatmaps();
-    // Set instance field: private StandardLevelInfoSaveData_V100/DifficultyBeatmap[] _difficultyBeatmaps
-    void _set__difficultyBeatmaps(::Array<GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*>* value);
+    // Get instance field reference: private System.String _version
+    ::Il2CppString*& dyn__version();
+    // Get instance field reference: private System.String _songName
+    ::Il2CppString*& dyn__songName();
+    // Get instance field reference: private System.String _songSubName
+    ::Il2CppString*& dyn__songSubName();
+    // Get instance field reference: private System.String _songAuthorName
+    ::Il2CppString*& dyn__songAuthorName();
+    // Get instance field reference: private System.String _levelAuthorName
+    ::Il2CppString*& dyn__levelAuthorName();
+    // Get instance field reference: private System.Single _beatsPerMinute
+    float& dyn__beatsPerMinute();
+    // Get instance field reference: private System.Single _songTimeOffset
+    float& dyn__songTimeOffset();
+    // Get instance field reference: private System.Single _shuffle
+    float& dyn__shuffle();
+    // Get instance field reference: private System.Single _shufflePeriod
+    float& dyn__shufflePeriod();
+    // Get instance field reference: private System.Single _previewStartTime
+    float& dyn__previewStartTime();
+    // Get instance field reference: private System.Single _previewDuration
+    float& dyn__previewDuration();
+    // Get instance field reference: private System.String _songFilename
+    ::Il2CppString*& dyn__songFilename();
+    // Get instance field reference: private System.String _coverImageFilename
+    ::Il2CppString*& dyn__coverImageFilename();
+    // Get instance field reference: private System.String _environmentName
+    ::Il2CppString*& dyn__environmentName();
+    // Get instance field reference: private StandardLevelInfoSaveData_V100/DifficultyBeatmap[] _difficultyBeatmaps
+    ::Array<GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*>*& dyn__difficultyBeatmaps();
     // public System.String get_version()
     // Offset: 0x108C304
     ::Il2CppString* get_version();

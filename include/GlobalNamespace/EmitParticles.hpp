@@ -37,10 +37,8 @@ namespace GlobalNamespace {
     EmitParticles(UnityEngine::ParticleSystem* particleSystem_ = {}) noexcept : particleSystem{particleSystem_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private UnityEngine.ParticleSystem _particleSystem
-    UnityEngine::ParticleSystem* _get__particleSystem();
-    // Set instance field: private UnityEngine.ParticleSystem _particleSystem
-    void _set__particleSystem(UnityEngine::ParticleSystem* value);
+    // Get instance field reference: private UnityEngine.ParticleSystem _particleSystem
+    UnityEngine::ParticleSystem*& dyn__particleSystem();
     // public System.Void Emit(System.Int32 count)
     // Offset: 0x104FD3C
     void Emit(int count);

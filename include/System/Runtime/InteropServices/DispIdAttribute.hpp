@@ -34,10 +34,8 @@ namespace System::Runtime::InteropServices {
     constexpr operator int() const noexcept {
       return val;
     }
-    // Get instance field: System.Int32 _val
-    int _get__val();
-    // Set instance field: System.Int32 _val
-    void _set__val(int value);
+    // Get instance field reference: System.Int32 _val
+    int& dyn__val();
     // public System.Void .ctor(System.Int32 dispId)
     // Offset: 0x1488028
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

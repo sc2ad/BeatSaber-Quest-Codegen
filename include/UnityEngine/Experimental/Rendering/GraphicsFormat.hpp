@@ -822,10 +822,8 @@ namespace UnityEngine::Experimental::Rendering {
     static UnityEngine::Experimental::Rendering::GraphicsFormat _get_RGBA_ASTC12X12_UNorm();
     // Set static field: static public UnityEngine.Experimental.Rendering.GraphicsFormat RGBA_ASTC12X12_UNorm
     static void _set_RGBA_ASTC12X12_UNorm(UnityEngine::Experimental::Rendering::GraphicsFormat value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.Experimental.Rendering.GraphicsFormat
   #pragma pack(pop)
   static check_size<sizeof(GraphicsFormat), 0 + sizeof(int)> __UnityEngine_Experimental_Rendering_GraphicsFormatSizeCheck;

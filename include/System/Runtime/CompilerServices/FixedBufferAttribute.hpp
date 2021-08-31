@@ -42,14 +42,10 @@ namespace System::Runtime::CompilerServices {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: FixedBufferAttribute
     FixedBufferAttribute(System::Type* elementType_ = {}, int length_ = {}) noexcept : elementType{elementType_}, length{length_} {}
-    // Get instance field: private System.Type elementType
-    System::Type* _get_elementType();
-    // Set instance field: private System.Type elementType
-    void _set_elementType(System::Type* value);
-    // Get instance field: private System.Int32 length
-    int _get_length();
-    // Set instance field: private System.Int32 length
-    void _set_length(int value);
+    // Get instance field reference: private System.Type elementType
+    System::Type*& dyn_elementType();
+    // Get instance field reference: private System.Int32 length
+    int& dyn_length();
     // public System.Type get_ElementType()
     // Offset: 0x1486DFC
     System::Type* get_ElementType();

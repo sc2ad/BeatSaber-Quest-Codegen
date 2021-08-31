@@ -68,10 +68,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::MultiplayerSessionManager_MessageType _get_ScoreSyncStateDelta();
     // Set static field: static public MultiplayerSessionManager/MessageType ScoreSyncStateDelta
     static void _set_ScoreSyncStateDelta(GlobalNamespace::MultiplayerSessionManager_MessageType value);
-    // Get instance field: public System.Byte value__
-    uint8_t _get_value__();
-    // Set instance field: public System.Byte value__
-    void _set_value__(uint8_t value);
+    // Get instance field reference: public System.Byte value__
+    uint8_t& dyn_value__();
   }; // MultiplayerSessionManager/MessageType
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerSessionManager_MessageType), 0 + sizeof(uint8_t)> __GlobalNamespace_MultiplayerSessionManager_MessageTypeSizeCheck;

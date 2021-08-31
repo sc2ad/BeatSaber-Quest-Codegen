@@ -70,10 +70,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType _get_Lobby();
       // Set static field: static public MenuEnvironmentManager/MenuEnvironmentType Lobby
       static void _set_Lobby(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // MenuEnvironmentManager/MenuEnvironmentType
     #pragma pack(pop)
     static check_size<sizeof(MenuEnvironmentManager::MenuEnvironmentType), 0 + sizeof(int)> __GlobalNamespace_MenuEnvironmentManager_MenuEnvironmentTypeSizeCheck;
@@ -94,14 +92,10 @@ namespace GlobalNamespace {
     MenuEnvironmentManager(::Array<GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*>* data_ = {}, GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType prevMenuEnvironmentType_ = {}) noexcept : data{data_}, prevMenuEnvironmentType{prevMenuEnvironmentType_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private MenuEnvironmentManager/MenuEnvironmentObjects[] _data
-    ::Array<GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*>* _get__data();
-    // Set instance field: private MenuEnvironmentManager/MenuEnvironmentObjects[] _data
-    void _set__data(::Array<GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*>* value);
-    // Get instance field: private MenuEnvironmentManager/MenuEnvironmentType _prevMenuEnvironmentType
-    GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType _get__prevMenuEnvironmentType();
-    // Set instance field: private MenuEnvironmentManager/MenuEnvironmentType _prevMenuEnvironmentType
-    void _set__prevMenuEnvironmentType(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType value);
+    // Get instance field reference: private MenuEnvironmentManager/MenuEnvironmentObjects[] _data
+    ::Array<GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*>*& dyn__data();
+    // Get instance field reference: private MenuEnvironmentManager/MenuEnvironmentType _prevMenuEnvironmentType
+    GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType& dyn__prevMenuEnvironmentType();
     // private System.Void Start()
     // Offset: 0x10E5AA4
     void Start();

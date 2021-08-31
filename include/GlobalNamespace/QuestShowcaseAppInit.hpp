@@ -78,30 +78,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
     // Creating value type constructor for type: QuestShowcaseAppInit
     QuestShowcaseAppInit(GlobalNamespace::MainSystemInit* mainSystemInit_ = {}, GlobalNamespace::OculusInit* oculusInit_ = {}, GlobalNamespace::MenuScenesTransitionSetupDataSO* menuTransitionSetupData_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}) noexcept : mainSystemInit{mainSystemInit_}, oculusInit{oculusInit_}, menuTransitionSetupData{menuTransitionSetupData_}, mainSettingsModel{mainSettingsModel_}, gameScenesManager{gameScenesManager_}, playerDataModel{playerDataModel_} {}
-    // Get instance field: private MainSystemInit _mainSystemInit
-    GlobalNamespace::MainSystemInit* _get__mainSystemInit();
-    // Set instance field: private MainSystemInit _mainSystemInit
-    void _set__mainSystemInit(GlobalNamespace::MainSystemInit* value);
-    // Get instance field: private OculusInit _oculusInit
-    GlobalNamespace::OculusInit* _get__oculusInit();
-    // Set instance field: private OculusInit _oculusInit
-    void _set__oculusInit(GlobalNamespace::OculusInit* value);
-    // Get instance field: private MenuScenesTransitionSetupDataSO _menuTransitionSetupData
-    GlobalNamespace::MenuScenesTransitionSetupDataSO* _get__menuTransitionSetupData();
-    // Set instance field: private MenuScenesTransitionSetupDataSO _menuTransitionSetupData
-    void _set__menuTransitionSetupData(GlobalNamespace::MenuScenesTransitionSetupDataSO* value);
-    // Get instance field: private MainSettingsModelSO _mainSettingsModel
-    GlobalNamespace::MainSettingsModelSO* _get__mainSettingsModel();
-    // Set instance field: private MainSettingsModelSO _mainSettingsModel
-    void _set__mainSettingsModel(GlobalNamespace::MainSettingsModelSO* value);
-    // Get instance field: private readonly GameScenesManager _gameScenesManager
-    GlobalNamespace::GameScenesManager* _get__gameScenesManager();
-    // Set instance field: private readonly GameScenesManager _gameScenesManager
-    void _set__gameScenesManager(GlobalNamespace::GameScenesManager* value);
-    // Get instance field: private readonly PlayerDataModel _playerDataModel
-    GlobalNamespace::PlayerDataModel* _get__playerDataModel();
-    // Set instance field: private readonly PlayerDataModel _playerDataModel
-    void _set__playerDataModel(GlobalNamespace::PlayerDataModel* value);
+    // Get instance field reference: private MainSystemInit _mainSystemInit
+    GlobalNamespace::MainSystemInit*& dyn__mainSystemInit();
+    // Get instance field reference: private OculusInit _oculusInit
+    GlobalNamespace::OculusInit*& dyn__oculusInit();
+    // Get instance field reference: private MenuScenesTransitionSetupDataSO _menuTransitionSetupData
+    GlobalNamespace::MenuScenesTransitionSetupDataSO*& dyn__menuTransitionSetupData();
+    // Get instance field reference: private MainSettingsModelSO _mainSettingsModel
+    GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
+    // Get instance field reference: private readonly GameScenesManager _gameScenesManager
+    GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
+    // Get instance field reference: private readonly PlayerDataModel _playerDataModel
+    GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
     // public System.Void .ctor()
     // Offset: 0x1140F3C
     // Implemented from: AppInit

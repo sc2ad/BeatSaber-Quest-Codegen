@@ -51,14 +51,10 @@ namespace GlobalNamespace {
     BlueNoiseDitheringUpdater(GlobalNamespace::BlueNoiseDithering* blueNoiseDithering_ = {}, GlobalNamespace::RandomValueToShader* randomValueToShader_ = {}) noexcept : blueNoiseDithering{blueNoiseDithering_}, randomValueToShader{randomValueToShader_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private BlueNoiseDithering _blueNoiseDithering
-    GlobalNamespace::BlueNoiseDithering* _get__blueNoiseDithering();
-    // Set instance field: private BlueNoiseDithering _blueNoiseDithering
-    void _set__blueNoiseDithering(GlobalNamespace::BlueNoiseDithering* value);
-    // Get instance field: private RandomValueToShader _randomValueToShader
-    GlobalNamespace::RandomValueToShader* _get__randomValueToShader();
-    // Set instance field: private RandomValueToShader _randomValueToShader
-    void _set__randomValueToShader(GlobalNamespace::RandomValueToShader* value);
+    // Get instance field reference: private BlueNoiseDithering _blueNoiseDithering
+    GlobalNamespace::BlueNoiseDithering*& dyn__blueNoiseDithering();
+    // Get instance field reference: private RandomValueToShader _randomValueToShader
+    GlobalNamespace::RandomValueToShader*& dyn__randomValueToShader();
     // protected System.Void OnEnable()
     // Offset: 0x1E15EDC
     void OnEnable();

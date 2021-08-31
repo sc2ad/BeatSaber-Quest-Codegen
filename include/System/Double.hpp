@@ -120,10 +120,8 @@ namespace System {
     static double _get_NegativeZero();
     // Set static field: static System.Double NegativeZero
     static void _set_NegativeZero(double value);
-    // Get instance field: System.Double m_value
-    double _get_m_value();
-    // Set instance field: System.Double m_value
-    void _set_m_value(double value);
+    // Get instance field reference: System.Double m_value
+    double& dyn_m_value();
     // static private System.Void .cctor()
     // Offset: 0x17FC1F0
     static void _cctor();

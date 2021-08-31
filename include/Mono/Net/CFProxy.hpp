@@ -93,10 +93,8 @@ namespace Mono::Net {
     static System::IntPtr _get_kCFProxyTypeSOCKS();
     // Set static field: static private System.IntPtr kCFProxyTypeSOCKS
     static void _set_kCFProxyTypeSOCKS(System::IntPtr value);
-    // Get instance field: private Mono.Net.CFDictionary settings
-    Mono::Net::CFDictionary* _get_settings();
-    // Set instance field: private Mono.Net.CFDictionary settings
-    void _set_settings(Mono::Net::CFDictionary* value);
+    // Get instance field reference: private Mono.Net.CFDictionary settings
+    Mono::Net::CFDictionary*& dyn_settings();
     // public System.IntPtr get_AutoConfigurationJavaScript()
     // Offset: 0x15E3C3C
     System::IntPtr get_AutoConfigurationJavaScript();

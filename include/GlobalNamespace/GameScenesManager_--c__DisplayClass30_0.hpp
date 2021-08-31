@@ -65,22 +65,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_1<Zenject::DiContainer*>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass30_0
     $$c__DisplayClass30_0(GlobalNamespace::GameScenesManager::ScenesStackData* scenesStackData_ = {}, GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData_ = {}, GlobalNamespace::GameScenesManager* $$4__this_ = {}, System::Action_1<Zenject::DiContainer*>* finishCallback_ = {}) noexcept : scenesStackData{scenesStackData_}, scenesTransitionSetupData{scenesTransitionSetupData_}, $$4__this{$$4__this_}, finishCallback{finishCallback_} {}
-    // Get instance field: public GameScenesManager/ScenesStackData scenesStackData
-    GlobalNamespace::GameScenesManager::ScenesStackData* _get_scenesStackData();
-    // Set instance field: public GameScenesManager/ScenesStackData scenesStackData
-    void _set_scenesStackData(GlobalNamespace::GameScenesManager::ScenesStackData* value);
-    // Get instance field: public ScenesTransitionSetupDataSO scenesTransitionSetupData
-    GlobalNamespace::ScenesTransitionSetupDataSO* _get_scenesTransitionSetupData();
-    // Set instance field: public ScenesTransitionSetupDataSO scenesTransitionSetupData
-    void _set_scenesTransitionSetupData(GlobalNamespace::ScenesTransitionSetupDataSO* value);
-    // Get instance field: public GameScenesManager <>4__this
-    GlobalNamespace::GameScenesManager* _get_$$4__this();
-    // Set instance field: public GameScenesManager <>4__this
-    void _set_$$4__this(GlobalNamespace::GameScenesManager* value);
-    // Get instance field: public System.Action`1<Zenject.DiContainer> finishCallback
-    System::Action_1<Zenject::DiContainer*>* _get_finishCallback();
-    // Set instance field: public System.Action`1<Zenject.DiContainer> finishCallback
-    void _set_finishCallback(System::Action_1<Zenject::DiContainer*>* value);
+    // Get instance field reference: public GameScenesManager/ScenesStackData scenesStackData
+    GlobalNamespace::GameScenesManager::ScenesStackData*& dyn_scenesStackData();
+    // Get instance field reference: public ScenesTransitionSetupDataSO scenesTransitionSetupData
+    GlobalNamespace::ScenesTransitionSetupDataSO*& dyn_scenesTransitionSetupData();
+    // Get instance field reference: public GameScenesManager <>4__this
+    GlobalNamespace::GameScenesManager*& dyn_$$4__this();
+    // Get instance field reference: public System.Action`1<Zenject.DiContainer> finishCallback
+    System::Action_1<Zenject::DiContainer*>*& dyn_finishCallback();
     // System.Void <PushScenes>b__0(Zenject.DiContainer container)
     // Offset: 0x1262418
     void $PushScenes$b__0(Zenject::DiContainer* container);

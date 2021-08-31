@@ -95,42 +95,24 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static ::Array<uint8_t>* _get_P();
     // Set static field: static private readonly System.Byte[,] P
     static void _set_P(::Array<uint8_t>* value);
-    // Get instance field: private System.Boolean encrypting
-    bool _get_encrypting();
-    // Set instance field: private System.Boolean encrypting
-    void _set_encrypting(bool value);
-    // Get instance field: private System.Int32[] gMDS0
-    ::Array<int>* _get_gMDS0();
-    // Set instance field: private System.Int32[] gMDS0
-    void _set_gMDS0(::Array<int>* value);
-    // Get instance field: private System.Int32[] gMDS1
-    ::Array<int>* _get_gMDS1();
-    // Set instance field: private System.Int32[] gMDS1
-    void _set_gMDS1(::Array<int>* value);
-    // Get instance field: private System.Int32[] gMDS2
-    ::Array<int>* _get_gMDS2();
-    // Set instance field: private System.Int32[] gMDS2
-    void _set_gMDS2(::Array<int>* value);
-    // Get instance field: private System.Int32[] gMDS3
-    ::Array<int>* _get_gMDS3();
-    // Set instance field: private System.Int32[] gMDS3
-    void _set_gMDS3(::Array<int>* value);
-    // Get instance field: private System.Int32[] gSubKeys
-    ::Array<int>* _get_gSubKeys();
-    // Set instance field: private System.Int32[] gSubKeys
-    void _set_gSubKeys(::Array<int>* value);
-    // Get instance field: private System.Int32[] gSBox
-    ::Array<int>* _get_gSBox();
-    // Set instance field: private System.Int32[] gSBox
-    void _set_gSBox(::Array<int>* value);
-    // Get instance field: private System.Int32 k64Cnt
-    int _get_k64Cnt();
-    // Set instance field: private System.Int32 k64Cnt
-    void _set_k64Cnt(int value);
-    // Get instance field: private System.Byte[] workingKey
-    ::Array<uint8_t>* _get_workingKey();
-    // Set instance field: private System.Byte[] workingKey
-    void _set_workingKey(::Array<uint8_t>* value);
+    // Get instance field reference: private System.Boolean encrypting
+    bool& dyn_encrypting();
+    // Get instance field reference: private System.Int32[] gMDS0
+    ::Array<int>*& dyn_gMDS0();
+    // Get instance field reference: private System.Int32[] gMDS1
+    ::Array<int>*& dyn_gMDS1();
+    // Get instance field reference: private System.Int32[] gMDS2
+    ::Array<int>*& dyn_gMDS2();
+    // Get instance field reference: private System.Int32[] gMDS3
+    ::Array<int>*& dyn_gMDS3();
+    // Get instance field reference: private System.Int32[] gSubKeys
+    ::Array<int>*& dyn_gSubKeys();
+    // Get instance field reference: private System.Int32[] gSBox
+    ::Array<int>*& dyn_gSBox();
+    // Get instance field reference: private System.Int32 k64Cnt
+    int& dyn_k64Cnt();
+    // Get instance field reference: private System.Byte[] workingKey
+    ::Array<uint8_t>*& dyn_workingKey();
     // public System.String get_AlgorithmName()
     // Offset: 0x19059E8
     ::Il2CppString* get_AlgorithmName();

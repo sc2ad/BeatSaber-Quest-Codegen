@@ -55,10 +55,8 @@ namespace HMUI {
       static HMUI::TimeSlider::TimeType _get_Miliseconds();
       // Set static field: static public HMUI.TimeSlider/HMUI.TimeType Miliseconds
       static void _set_Miliseconds(HMUI::TimeSlider::TimeType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // HMUI.TimeSlider/HMUI.TimeType
     #pragma pack(pop)
     static check_size<sizeof(TimeSlider::TimeType), 0 + sizeof(int)> __HMUI_TimeSlider_TimeTypeSizeCheck;
@@ -71,10 +69,8 @@ namespace HMUI {
     static_assert(sizeof(HMUI::TimeSlider::TimeType) == 0x4);
     // Creating value type constructor for type: TimeSlider
     TimeSlider(HMUI::TimeSlider::TimeType timeType_ = {}) noexcept : timeType{timeType_} {}
-    // Get instance field: private HMUI.TimeSlider/HMUI.TimeType _timeType
-    HMUI::TimeSlider::TimeType _get__timeType();
-    // Set instance field: private HMUI.TimeSlider/HMUI.TimeType _timeType
-    void _set__timeType(HMUI::TimeSlider::TimeType value);
+    // Get instance field reference: private HMUI.TimeSlider/HMUI.TimeType _timeType
+    HMUI::TimeSlider::TimeType& dyn__timeType();
     // public System.Void .ctor()
     // Offset: 0x130774C
     // Implemented from: HMUI.RangeValuesTextSlider

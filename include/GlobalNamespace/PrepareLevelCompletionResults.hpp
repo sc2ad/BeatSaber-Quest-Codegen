@@ -120,46 +120,26 @@ namespace GlobalNamespace {
     PrepareLevelCompletionResults(GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModelSO_ = {}, GlobalNamespace::SaberActivityCounter* saberActivityCounter_ = {}, GlobalNamespace::BeatmapObjectExecutionRatingsRecorder* beatmapObjectExecutionRatingsRecorder_ = {}, GlobalNamespace::MultiplierValuesRecorder* multiplierValuesRecorder_ = {}, GlobalNamespace::IScoreController* scoreController_ = {}, GlobalNamespace::GameEnergyCounter* gameEnergyCounter_ = {}, GlobalNamespace::GameSongController* gameSongController_ = {}, GlobalNamespace::IReadonlyBeatmapData* beatmapData_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}) noexcept : gameplayModifiersModelSO{gameplayModifiersModelSO_}, saberActivityCounter{saberActivityCounter_}, beatmapObjectExecutionRatingsRecorder{beatmapObjectExecutionRatingsRecorder_}, multiplierValuesRecorder{multiplierValuesRecorder_}, scoreController{scoreController_}, gameEnergyCounter{gameEnergyCounter_}, gameSongController{gameSongController_}, beatmapData{beatmapData_}, audioTimeSyncController{audioTimeSyncController_}, gameplayModifiers{gameplayModifiers_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private GameplayModifiersModelSO _gameplayModifiersModelSO
-    GlobalNamespace::GameplayModifiersModelSO* _get__gameplayModifiersModelSO();
-    // Set instance field: private GameplayModifiersModelSO _gameplayModifiersModelSO
-    void _set__gameplayModifiersModelSO(GlobalNamespace::GameplayModifiersModelSO* value);
-    // Get instance field: private readonly SaberActivityCounter _saberActivityCounter
-    GlobalNamespace::SaberActivityCounter* _get__saberActivityCounter();
-    // Set instance field: private readonly SaberActivityCounter _saberActivityCounter
-    void _set__saberActivityCounter(GlobalNamespace::SaberActivityCounter* value);
-    // Get instance field: private readonly BeatmapObjectExecutionRatingsRecorder _beatmapObjectExecutionRatingsRecorder
-    GlobalNamespace::BeatmapObjectExecutionRatingsRecorder* _get__beatmapObjectExecutionRatingsRecorder();
-    // Set instance field: private readonly BeatmapObjectExecutionRatingsRecorder _beatmapObjectExecutionRatingsRecorder
-    void _set__beatmapObjectExecutionRatingsRecorder(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder* value);
-    // Get instance field: private readonly MultiplierValuesRecorder _multiplierValuesRecorder
-    GlobalNamespace::MultiplierValuesRecorder* _get__multiplierValuesRecorder();
-    // Set instance field: private readonly MultiplierValuesRecorder _multiplierValuesRecorder
-    void _set__multiplierValuesRecorder(GlobalNamespace::MultiplierValuesRecorder* value);
-    // Get instance field: private readonly IScoreController _scoreController
-    GlobalNamespace::IScoreController* _get__scoreController();
-    // Set instance field: private readonly IScoreController _scoreController
-    void _set__scoreController(GlobalNamespace::IScoreController* value);
-    // Get instance field: private readonly GameEnergyCounter _gameEnergyCounter
-    GlobalNamespace::GameEnergyCounter* _get__gameEnergyCounter();
-    // Set instance field: private readonly GameEnergyCounter _gameEnergyCounter
-    void _set__gameEnergyCounter(GlobalNamespace::GameEnergyCounter* value);
-    // Get instance field: private readonly GameSongController _gameSongController
-    GlobalNamespace::GameSongController* _get__gameSongController();
-    // Set instance field: private readonly GameSongController _gameSongController
-    void _set__gameSongController(GlobalNamespace::GameSongController* value);
-    // Get instance field: private readonly IReadonlyBeatmapData _beatmapData
-    GlobalNamespace::IReadonlyBeatmapData* _get__beatmapData();
-    // Set instance field: private readonly IReadonlyBeatmapData _beatmapData
-    void _set__beatmapData(GlobalNamespace::IReadonlyBeatmapData* value);
-    // Get instance field: private readonly AudioTimeSyncController _audioTimeSyncController
-    GlobalNamespace::AudioTimeSyncController* _get__audioTimeSyncController();
-    // Set instance field: private readonly AudioTimeSyncController _audioTimeSyncController
-    void _set__audioTimeSyncController(GlobalNamespace::AudioTimeSyncController* value);
-    // Get instance field: private readonly GameplayModifiers _gameplayModifiers
-    GlobalNamespace::GameplayModifiers* _get__gameplayModifiers();
-    // Set instance field: private readonly GameplayModifiers _gameplayModifiers
-    void _set__gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
+    // Get instance field reference: private GameplayModifiersModelSO _gameplayModifiersModelSO
+    GlobalNamespace::GameplayModifiersModelSO*& dyn__gameplayModifiersModelSO();
+    // Get instance field reference: private readonly SaberActivityCounter _saberActivityCounter
+    GlobalNamespace::SaberActivityCounter*& dyn__saberActivityCounter();
+    // Get instance field reference: private readonly BeatmapObjectExecutionRatingsRecorder _beatmapObjectExecutionRatingsRecorder
+    GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*& dyn__beatmapObjectExecutionRatingsRecorder();
+    // Get instance field reference: private readonly MultiplierValuesRecorder _multiplierValuesRecorder
+    GlobalNamespace::MultiplierValuesRecorder*& dyn__multiplierValuesRecorder();
+    // Get instance field reference: private readonly IScoreController _scoreController
+    GlobalNamespace::IScoreController*& dyn__scoreController();
+    // Get instance field reference: private readonly GameEnergyCounter _gameEnergyCounter
+    GlobalNamespace::GameEnergyCounter*& dyn__gameEnergyCounter();
+    // Get instance field reference: private readonly GameSongController _gameSongController
+    GlobalNamespace::GameSongController*& dyn__gameSongController();
+    // Get instance field reference: private readonly IReadonlyBeatmapData _beatmapData
+    GlobalNamespace::IReadonlyBeatmapData*& dyn__beatmapData();
+    // Get instance field reference: private readonly AudioTimeSyncController _audioTimeSyncController
+    GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
+    // Get instance field reference: private readonly GameplayModifiers _gameplayModifiers
+    GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
     // public LevelCompletionResults FillLevelCompletionResults(LevelCompletionResults/LevelEndStateType levelEndStateType, LevelCompletionResults/LevelEndAction levelEndAction)
     // Offset: 0x113ECAC
     GlobalNamespace::LevelCompletionResults* FillLevelCompletionResults(GlobalNamespace::LevelCompletionResults::LevelEndStateType levelEndStateType, GlobalNamespace::LevelCompletionResults::LevelEndAction levelEndAction);

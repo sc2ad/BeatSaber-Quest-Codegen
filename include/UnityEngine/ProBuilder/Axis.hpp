@@ -68,10 +68,8 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::Axis _get_Backward();
     // Set static field: static public UnityEngine.ProBuilder.Axis Backward
     static void _set_Backward(UnityEngine::ProBuilder::Axis value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // UnityEngine.ProBuilder.Axis
   #pragma pack(pop)
   static check_size<sizeof(Axis), 0 + sizeof(int)> __UnityEngine_ProBuilder_AxisSizeCheck;

@@ -58,22 +58,14 @@ namespace UnityEngine::ResourceManagement::Util {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: private System.String m_AssemblyName
-    ::Il2CppString* _get_m_AssemblyName();
-    // Set instance field: private System.String m_AssemblyName
-    void _set_m_AssemblyName(::Il2CppString* value);
-    // Get instance field: private System.String m_ClassName
-    ::Il2CppString* _get_m_ClassName();
-    // Set instance field: private System.String m_ClassName
-    void _set_m_ClassName(::Il2CppString* value);
-    // Get instance field: private System.Type m_CachedType
-    System::Type* _get_m_CachedType();
-    // Set instance field: private System.Type m_CachedType
-    void _set_m_CachedType(System::Type* value);
-    // Get instance field: private System.Boolean <ValueChanged>k__BackingField
-    bool _get_$ValueChanged$k__BackingField();
-    // Set instance field: private System.Boolean <ValueChanged>k__BackingField
-    void _set_$ValueChanged$k__BackingField(bool value);
+    // Get instance field reference: private System.String m_AssemblyName
+    ::Il2CppString*& dyn_m_AssemblyName();
+    // Get instance field reference: private System.String m_ClassName
+    ::Il2CppString*& dyn_m_ClassName();
+    // Get instance field reference: private System.Type m_CachedType
+    System::Type*& dyn_m_CachedType();
+    // Get instance field reference: private System.Boolean <ValueChanged>k__BackingField
+    bool& dyn_$ValueChanged$k__BackingField();
     // public System.String get_AssemblyName()
     // Offset: 0x19F4AE8
     ::Il2CppString* get_AssemblyName();

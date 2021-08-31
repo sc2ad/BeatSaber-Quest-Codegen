@@ -33,10 +33,8 @@ namespace JetBrains::Annotations {
     constexpr operator ::Il2CppString*() const noexcept {
       return Format;
     }
-    // Get instance field: private System.String <Format>k__BackingField
-    ::Il2CppString* _get_$Format$k__BackingField();
-    // Set instance field: private System.String <Format>k__BackingField
-    void _set_$Format$k__BackingField(::Il2CppString* value);
+    // Get instance field reference: private System.String <Format>k__BackingField
+    ::Il2CppString*& dyn_$Format$k__BackingField();
     // public System.String get_Format()
     // Offset: 0x2408084
     ::Il2CppString* get_Format();

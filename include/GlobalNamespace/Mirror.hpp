@@ -89,30 +89,18 @@ namespace GlobalNamespace {
     static int _get__texturePropertyID();
     // Set static field: static private readonly System.Int32 _texturePropertyID
     static void _set__texturePropertyID(int value);
-    // Get instance field: private MirrorRendererSO _mirrorRenderer
-    GlobalNamespace::MirrorRendererSO* _get__mirrorRenderer();
-    // Set instance field: private MirrorRendererSO _mirrorRenderer
-    void _set__mirrorRenderer(GlobalNamespace::MirrorRendererSO* value);
-    // Get instance field: private UnityEngine.MeshRenderer _renderer
-    UnityEngine::MeshRenderer* _get__renderer();
-    // Set instance field: private UnityEngine.MeshRenderer _renderer
-    void _set__renderer(UnityEngine::MeshRenderer* value);
-    // Get instance field: private UnityEngine.Material _mirrorMaterial
-    UnityEngine::Material* _get__mirrorMaterial();
-    // Set instance field: private UnityEngine.Material _mirrorMaterial
-    void _set__mirrorMaterial(UnityEngine::Material* value);
-    // Get instance field: private UnityEngine.Material _noMirrorMaterial
-    UnityEngine::Material* _get__noMirrorMaterial();
-    // Set instance field: private UnityEngine.Material _noMirrorMaterial
-    void _set__noMirrorMaterial(UnityEngine::Material* value);
-    // Get instance field: private System.Boolean <isEnabled>k__BackingField
-    bool _get_$isEnabled$k__BackingField();
-    // Set instance field: private System.Boolean <isEnabled>k__BackingField
-    void _set_$isEnabled$k__BackingField(bool value);
-    // Get instance field: private System.Action`1<System.Boolean> mirrorDidChangeEnabledStateEvent
-    System::Action_1<bool>* _get_mirrorDidChangeEnabledStateEvent();
-    // Set instance field: private System.Action`1<System.Boolean> mirrorDidChangeEnabledStateEvent
-    void _set_mirrorDidChangeEnabledStateEvent(System::Action_1<bool>* value);
+    // Get instance field reference: private MirrorRendererSO _mirrorRenderer
+    GlobalNamespace::MirrorRendererSO*& dyn__mirrorRenderer();
+    // Get instance field reference: private UnityEngine.MeshRenderer _renderer
+    UnityEngine::MeshRenderer*& dyn__renderer();
+    // Get instance field reference: private UnityEngine.Material _mirrorMaterial
+    UnityEngine::Material*& dyn__mirrorMaterial();
+    // Get instance field reference: private UnityEngine.Material _noMirrorMaterial
+    UnityEngine::Material*& dyn__noMirrorMaterial();
+    // Get instance field reference: private System.Boolean <isEnabled>k__BackingField
+    bool& dyn_$isEnabled$k__BackingField();
+    // Get instance field reference: private System.Action`1<System.Boolean> mirrorDidChangeEnabledStateEvent
+    System::Action_1<bool>*& dyn_mirrorDidChangeEnabledStateEvent();
     // public UnityEngine.Material get_noMirrorMaterial()
     // Offset: 0x23919B0
     UnityEngine::Material* get_noMirrorMaterial();

@@ -50,10 +50,8 @@ namespace GlobalNamespace {
     static GlobalNamespace::MultiplayerGameState _get_Game();
     // Set static field: static public MultiplayerGameState Game
     static void _set_Game(GlobalNamespace::MultiplayerGameState value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // MultiplayerGameState
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerGameState), 0 + sizeof(int)> __GlobalNamespace_MultiplayerGameStateSizeCheck;

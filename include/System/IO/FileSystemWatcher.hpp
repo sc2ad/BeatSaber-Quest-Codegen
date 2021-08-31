@@ -191,78 +191,42 @@ namespace System::IO {
     static ::Il2CppObject* _get_lockobj();
     // Set static field: static private System.Object lockobj
     static void _set_lockobj(::Il2CppObject* value);
-    // Get instance field: private System.Boolean enableRaisingEvents
-    bool _get_enableRaisingEvents();
-    // Set instance field: private System.Boolean enableRaisingEvents
-    void _set_enableRaisingEvents(bool value);
-    // Get instance field: private System.String filter
-    ::Il2CppString* _get_filter();
-    // Set instance field: private System.String filter
-    void _set_filter(::Il2CppString* value);
-    // Get instance field: private System.Boolean includeSubdirectories
-    bool _get_includeSubdirectories();
-    // Set instance field: private System.Boolean includeSubdirectories
-    void _set_includeSubdirectories(bool value);
-    // Get instance field: private System.Int32 internalBufferSize
-    int _get_internalBufferSize();
-    // Set instance field: private System.Int32 internalBufferSize
-    void _set_internalBufferSize(int value);
-    // Get instance field: private System.IO.NotifyFilters notifyFilter
-    System::IO::NotifyFilters _get_notifyFilter();
-    // Set instance field: private System.IO.NotifyFilters notifyFilter
-    void _set_notifyFilter(System::IO::NotifyFilters value);
-    // Get instance field: private System.String path
-    ::Il2CppString* _get_path();
-    // Set instance field: private System.String path
-    void _set_path(::Il2CppString* value);
-    // Get instance field: private System.String fullpath
-    ::Il2CppString* _get_fullpath();
-    // Set instance field: private System.String fullpath
-    void _set_fullpath(::Il2CppString* value);
-    // Get instance field: private System.ComponentModel.ISynchronizeInvoke synchronizingObject
-    System::ComponentModel::ISynchronizeInvoke* _get_synchronizingObject();
-    // Set instance field: private System.ComponentModel.ISynchronizeInvoke synchronizingObject
-    void _set_synchronizingObject(System::ComponentModel::ISynchronizeInvoke* value);
-    // Get instance field: private System.IO.WaitForChangedResult lastData
-    System::IO::WaitForChangedResult _get_lastData();
-    // Set instance field: private System.IO.WaitForChangedResult lastData
-    void _set_lastData(System::IO::WaitForChangedResult value);
-    // Get instance field: private System.Boolean waiting
-    bool _get_waiting();
-    // Set instance field: private System.Boolean waiting
-    void _set_waiting(bool value);
-    // Get instance field: private System.IO.SearchPattern2 pattern
-    System::IO::SearchPattern2* _get_pattern();
-    // Set instance field: private System.IO.SearchPattern2 pattern
-    void _set_pattern(System::IO::SearchPattern2* value);
-    // Get instance field: private System.Boolean disposed
-    bool _get_disposed();
-    // Set instance field: private System.Boolean disposed
-    void _set_disposed(bool value);
-    // Get instance field: private System.String mangledFilter
-    ::Il2CppString* _get_mangledFilter();
-    // Set instance field: private System.String mangledFilter
-    void _set_mangledFilter(::Il2CppString* value);
-    // Get instance field: private System.IO.FileSystemEventHandler Changed
-    System::IO::FileSystemEventHandler* _get_Changed();
-    // Set instance field: private System.IO.FileSystemEventHandler Changed
-    void _set_Changed(System::IO::FileSystemEventHandler* value);
-    // Get instance field: private System.IO.FileSystemEventHandler Created
-    System::IO::FileSystemEventHandler* _get_Created();
-    // Set instance field: private System.IO.FileSystemEventHandler Created
-    void _set_Created(System::IO::FileSystemEventHandler* value);
-    // Get instance field: private System.IO.FileSystemEventHandler Deleted
-    System::IO::FileSystemEventHandler* _get_Deleted();
-    // Set instance field: private System.IO.FileSystemEventHandler Deleted
-    void _set_Deleted(System::IO::FileSystemEventHandler* value);
-    // Get instance field: private System.IO.ErrorEventHandler Error
-    System::IO::ErrorEventHandler* _get_Error();
-    // Set instance field: private System.IO.ErrorEventHandler Error
-    void _set_Error(System::IO::ErrorEventHandler* value);
-    // Get instance field: private System.IO.RenamedEventHandler Renamed
-    System::IO::RenamedEventHandler* _get_Renamed();
-    // Set instance field: private System.IO.RenamedEventHandler Renamed
-    void _set_Renamed(System::IO::RenamedEventHandler* value);
+    // Get instance field reference: private System.Boolean enableRaisingEvents
+    bool& dyn_enableRaisingEvents();
+    // Get instance field reference: private System.String filter
+    ::Il2CppString*& dyn_filter();
+    // Get instance field reference: private System.Boolean includeSubdirectories
+    bool& dyn_includeSubdirectories();
+    // Get instance field reference: private System.Int32 internalBufferSize
+    int& dyn_internalBufferSize();
+    // Get instance field reference: private System.IO.NotifyFilters notifyFilter
+    System::IO::NotifyFilters& dyn_notifyFilter();
+    // Get instance field reference: private System.String path
+    ::Il2CppString*& dyn_path();
+    // Get instance field reference: private System.String fullpath
+    ::Il2CppString*& dyn_fullpath();
+    // Get instance field reference: private System.ComponentModel.ISynchronizeInvoke synchronizingObject
+    System::ComponentModel::ISynchronizeInvoke*& dyn_synchronizingObject();
+    // Get instance field reference: private System.IO.WaitForChangedResult lastData
+    System::IO::WaitForChangedResult& dyn_lastData();
+    // Get instance field reference: private System.Boolean waiting
+    bool& dyn_waiting();
+    // Get instance field reference: private System.IO.SearchPattern2 pattern
+    System::IO::SearchPattern2*& dyn_pattern();
+    // Get instance field reference: private System.Boolean disposed
+    bool& dyn_disposed();
+    // Get instance field reference: private System.String mangledFilter
+    ::Il2CppString*& dyn_mangledFilter();
+    // Get instance field reference: private System.IO.FileSystemEventHandler Changed
+    System::IO::FileSystemEventHandler*& dyn_Changed();
+    // Get instance field reference: private System.IO.FileSystemEventHandler Created
+    System::IO::FileSystemEventHandler*& dyn_Created();
+    // Get instance field reference: private System.IO.FileSystemEventHandler Deleted
+    System::IO::FileSystemEventHandler*& dyn_Deleted();
+    // Get instance field reference: private System.IO.ErrorEventHandler Error
+    System::IO::ErrorEventHandler*& dyn_Error();
+    // Get instance field reference: private System.IO.RenamedEventHandler Renamed
+    System::IO::RenamedEventHandler*& dyn_Renamed();
     // System.Boolean get_Waiting()
     // Offset: 0x18BCA9C
     bool get_Waiting();

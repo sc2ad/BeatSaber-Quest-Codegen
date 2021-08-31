@@ -204,10 +204,8 @@ namespace UnityEngine::UI {
       static UnityEngine::UI::InputField::ContentType _get_Custom();
       // Set static field: static public UnityEngine.UI.InputField/UnityEngine.UI.ContentType Custom
       static void _set_Custom(UnityEngine::UI::InputField::ContentType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // UnityEngine.UI.InputField/UnityEngine.UI.ContentType
     #pragma pack(pop)
     static check_size<sizeof(InputField::ContentType), 0 + sizeof(int)> __UnityEngine_UI_InputField_ContentTypeSizeCheck;
@@ -252,10 +250,8 @@ namespace UnityEngine::UI {
       static UnityEngine::UI::InputField::InputType _get_Password();
       // Set static field: static public UnityEngine.UI.InputField/UnityEngine.UI.InputType Password
       static void _set_Password(UnityEngine::UI::InputField::InputType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // UnityEngine.UI.InputField/UnityEngine.UI.InputType
     #pragma pack(pop)
     static check_size<sizeof(InputField::InputType), 0 + sizeof(int)> __UnityEngine_UI_InputField_InputTypeSizeCheck;
@@ -318,10 +314,8 @@ namespace UnityEngine::UI {
       static UnityEngine::UI::InputField::CharacterValidation _get_EmailAddress();
       // Set static field: static public UnityEngine.UI.InputField/UnityEngine.UI.CharacterValidation EmailAddress
       static void _set_EmailAddress(UnityEngine::UI::InputField::CharacterValidation value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // UnityEngine.UI.InputField/UnityEngine.UI.CharacterValidation
     #pragma pack(pop)
     static check_size<sizeof(InputField::CharacterValidation), 0 + sizeof(int)> __UnityEngine_UI_InputField_CharacterValidationSizeCheck;
@@ -366,10 +360,8 @@ namespace UnityEngine::UI {
       static UnityEngine::UI::InputField::LineType _get_MultiLineNewline();
       // Set static field: static public UnityEngine.UI.InputField/UnityEngine.UI.LineType MultiLineNewline
       static void _set_MultiLineNewline(UnityEngine::UI::InputField::LineType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // UnityEngine.UI.InputField/UnityEngine.UI.LineType
     #pragma pack(pop)
     static check_size<sizeof(InputField::LineType), 0 + sizeof(int)> __UnityEngine_UI_InputField_LineTypeSizeCheck;
@@ -751,190 +743,98 @@ namespace UnityEngine::UI {
     static int _get_k_MaxTextLength();
     // Set static field: static private System.Int32 k_MaxTextLength
     static void _set_k_MaxTextLength(int value);
-    // Get instance field: protected UnityEngine.TouchScreenKeyboard m_Keyboard
-    UnityEngine::TouchScreenKeyboard* _get_m_Keyboard();
-    // Set instance field: protected UnityEngine.TouchScreenKeyboard m_Keyboard
-    void _set_m_Keyboard(UnityEngine::TouchScreenKeyboard* value);
-    // Get instance field: protected UnityEngine.UI.Text m_TextComponent
-    UnityEngine::UI::Text* _get_m_TextComponent();
-    // Set instance field: protected UnityEngine.UI.Text m_TextComponent
-    void _set_m_TextComponent(UnityEngine::UI::Text* value);
-    // Get instance field: protected UnityEngine.UI.Graphic m_Placeholder
-    UnityEngine::UI::Graphic* _get_m_Placeholder();
-    // Set instance field: protected UnityEngine.UI.Graphic m_Placeholder
-    void _set_m_Placeholder(UnityEngine::UI::Graphic* value);
-    // Get instance field: private UnityEngine.UI.InputField/UnityEngine.UI.ContentType m_ContentType
-    UnityEngine::UI::InputField::ContentType _get_m_ContentType();
-    // Set instance field: private UnityEngine.UI.InputField/UnityEngine.UI.ContentType m_ContentType
-    void _set_m_ContentType(UnityEngine::UI::InputField::ContentType value);
-    // Get instance field: private UnityEngine.UI.InputField/UnityEngine.UI.InputType m_InputType
-    UnityEngine::UI::InputField::InputType _get_m_InputType();
-    // Set instance field: private UnityEngine.UI.InputField/UnityEngine.UI.InputType m_InputType
-    void _set_m_InputType(UnityEngine::UI::InputField::InputType value);
-    // Get instance field: private System.Char m_AsteriskChar
-    ::Il2CppChar _get_m_AsteriskChar();
-    // Set instance field: private System.Char m_AsteriskChar
-    void _set_m_AsteriskChar(::Il2CppChar value);
-    // Get instance field: private UnityEngine.TouchScreenKeyboardType m_KeyboardType
-    UnityEngine::TouchScreenKeyboardType _get_m_KeyboardType();
-    // Set instance field: private UnityEngine.TouchScreenKeyboardType m_KeyboardType
-    void _set_m_KeyboardType(UnityEngine::TouchScreenKeyboardType value);
-    // Get instance field: private UnityEngine.UI.InputField/UnityEngine.UI.LineType m_LineType
-    UnityEngine::UI::InputField::LineType _get_m_LineType();
-    // Set instance field: private UnityEngine.UI.InputField/UnityEngine.UI.LineType m_LineType
-    void _set_m_LineType(UnityEngine::UI::InputField::LineType value);
-    // Get instance field: private System.Boolean m_HideMobileInput
-    bool _get_m_HideMobileInput();
-    // Set instance field: private System.Boolean m_HideMobileInput
-    void _set_m_HideMobileInput(bool value);
-    // Get instance field: private UnityEngine.UI.InputField/UnityEngine.UI.CharacterValidation m_CharacterValidation
-    UnityEngine::UI::InputField::CharacterValidation _get_m_CharacterValidation();
-    // Set instance field: private UnityEngine.UI.InputField/UnityEngine.UI.CharacterValidation m_CharacterValidation
-    void _set_m_CharacterValidation(UnityEngine::UI::InputField::CharacterValidation value);
-    // Get instance field: private System.Int32 m_CharacterLimit
-    int _get_m_CharacterLimit();
-    // Set instance field: private System.Int32 m_CharacterLimit
-    void _set_m_CharacterLimit(int value);
-    // Get instance field: private UnityEngine.UI.InputField/UnityEngine.UI.SubmitEvent m_OnEndEdit
-    UnityEngine::UI::InputField::SubmitEvent* _get_m_OnEndEdit();
-    // Set instance field: private UnityEngine.UI.InputField/UnityEngine.UI.SubmitEvent m_OnEndEdit
-    void _set_m_OnEndEdit(UnityEngine::UI::InputField::SubmitEvent* value);
-    // Get instance field: private UnityEngine.UI.InputField/UnityEngine.UI.OnChangeEvent m_OnValueChanged
-    UnityEngine::UI::InputField::OnChangeEvent* _get_m_OnValueChanged();
-    // Set instance field: private UnityEngine.UI.InputField/UnityEngine.UI.OnChangeEvent m_OnValueChanged
-    void _set_m_OnValueChanged(UnityEngine::UI::InputField::OnChangeEvent* value);
-    // Get instance field: private UnityEngine.UI.InputField/UnityEngine.UI.OnValidateInput m_OnValidateInput
-    UnityEngine::UI::InputField::OnValidateInput* _get_m_OnValidateInput();
-    // Set instance field: private UnityEngine.UI.InputField/UnityEngine.UI.OnValidateInput m_OnValidateInput
-    void _set_m_OnValidateInput(UnityEngine::UI::InputField::OnValidateInput* value);
-    // Get instance field: private UnityEngine.Color m_CaretColor
-    UnityEngine::Color _get_m_CaretColor();
-    // Set instance field: private UnityEngine.Color m_CaretColor
-    void _set_m_CaretColor(UnityEngine::Color value);
-    // Get instance field: private System.Boolean m_CustomCaretColor
-    bool _get_m_CustomCaretColor();
-    // Set instance field: private System.Boolean m_CustomCaretColor
-    void _set_m_CustomCaretColor(bool value);
-    // Get instance field: private UnityEngine.Color m_SelectionColor
-    UnityEngine::Color _get_m_SelectionColor();
-    // Set instance field: private UnityEngine.Color m_SelectionColor
-    void _set_m_SelectionColor(UnityEngine::Color value);
-    // Get instance field: protected System.String m_Text
-    ::Il2CppString* _get_m_Text();
-    // Set instance field: protected System.String m_Text
-    void _set_m_Text(::Il2CppString* value);
-    // Get instance field: private System.Single m_CaretBlinkRate
-    float _get_m_CaretBlinkRate();
-    // Set instance field: private System.Single m_CaretBlinkRate
-    void _set_m_CaretBlinkRate(float value);
-    // Get instance field: private System.Int32 m_CaretWidth
-    int _get_m_CaretWidth();
-    // Set instance field: private System.Int32 m_CaretWidth
-    void _set_m_CaretWidth(int value);
-    // Get instance field: private System.Boolean m_ReadOnly
-    bool _get_m_ReadOnly();
-    // Set instance field: private System.Boolean m_ReadOnly
-    void _set_m_ReadOnly(bool value);
-    // Get instance field: private System.Boolean m_ShouldActivateOnSelect
-    bool _get_m_ShouldActivateOnSelect();
-    // Set instance field: private System.Boolean m_ShouldActivateOnSelect
-    void _set_m_ShouldActivateOnSelect(bool value);
-    // Get instance field: protected System.Int32 m_CaretPosition
-    int _get_m_CaretPosition();
-    // Set instance field: protected System.Int32 m_CaretPosition
-    void _set_m_CaretPosition(int value);
-    // Get instance field: protected System.Int32 m_CaretSelectPosition
-    int _get_m_CaretSelectPosition();
-    // Set instance field: protected System.Int32 m_CaretSelectPosition
-    void _set_m_CaretSelectPosition(int value);
-    // Get instance field: private UnityEngine.RectTransform caretRectTrans
-    UnityEngine::RectTransform* _get_caretRectTrans();
-    // Set instance field: private UnityEngine.RectTransform caretRectTrans
-    void _set_caretRectTrans(UnityEngine::RectTransform* value);
-    // Get instance field: protected UnityEngine.UIVertex[] m_CursorVerts
-    ::Array<UnityEngine::UIVertex>* _get_m_CursorVerts();
-    // Set instance field: protected UnityEngine.UIVertex[] m_CursorVerts
-    void _set_m_CursorVerts(::Array<UnityEngine::UIVertex>* value);
-    // Get instance field: private UnityEngine.TextGenerator m_InputTextCache
-    UnityEngine::TextGenerator* _get_m_InputTextCache();
-    // Set instance field: private UnityEngine.TextGenerator m_InputTextCache
-    void _set_m_InputTextCache(UnityEngine::TextGenerator* value);
-    // Get instance field: private UnityEngine.CanvasRenderer m_CachedInputRenderer
-    UnityEngine::CanvasRenderer* _get_m_CachedInputRenderer();
-    // Set instance field: private UnityEngine.CanvasRenderer m_CachedInputRenderer
-    void _set_m_CachedInputRenderer(UnityEngine::CanvasRenderer* value);
-    // Get instance field: private System.Boolean m_PreventFontCallback
-    bool _get_m_PreventFontCallback();
-    // Set instance field: private System.Boolean m_PreventFontCallback
-    void _set_m_PreventFontCallback(bool value);
-    // Get instance field: protected UnityEngine.Mesh m_Mesh
-    UnityEngine::Mesh* _get_m_Mesh();
-    // Set instance field: protected UnityEngine.Mesh m_Mesh
-    void _set_m_Mesh(UnityEngine::Mesh* value);
-    // Get instance field: private System.Boolean m_AllowInput
-    bool _get_m_AllowInput();
-    // Set instance field: private System.Boolean m_AllowInput
-    void _set_m_AllowInput(bool value);
-    // Get instance field: private System.Boolean m_ShouldActivateNextUpdate
-    bool _get_m_ShouldActivateNextUpdate();
-    // Set instance field: private System.Boolean m_ShouldActivateNextUpdate
-    void _set_m_ShouldActivateNextUpdate(bool value);
-    // Get instance field: private System.Boolean m_UpdateDrag
-    bool _get_m_UpdateDrag();
-    // Set instance field: private System.Boolean m_UpdateDrag
-    void _set_m_UpdateDrag(bool value);
-    // Get instance field: private System.Boolean m_DragPositionOutOfBounds
-    bool _get_m_DragPositionOutOfBounds();
-    // Set instance field: private System.Boolean m_DragPositionOutOfBounds
-    void _set_m_DragPositionOutOfBounds(bool value);
-    // Get instance field: protected System.Boolean m_CaretVisible
-    bool _get_m_CaretVisible();
-    // Set instance field: protected System.Boolean m_CaretVisible
-    void _set_m_CaretVisible(bool value);
-    // Get instance field: private UnityEngine.Coroutine m_BlinkCoroutine
-    UnityEngine::Coroutine* _get_m_BlinkCoroutine();
-    // Set instance field: private UnityEngine.Coroutine m_BlinkCoroutine
-    void _set_m_BlinkCoroutine(UnityEngine::Coroutine* value);
-    // Get instance field: private System.Single m_BlinkStartTime
-    float _get_m_BlinkStartTime();
-    // Set instance field: private System.Single m_BlinkStartTime
-    void _set_m_BlinkStartTime(float value);
-    // Get instance field: protected System.Int32 m_DrawStart
-    int _get_m_DrawStart();
-    // Set instance field: protected System.Int32 m_DrawStart
-    void _set_m_DrawStart(int value);
-    // Get instance field: protected System.Int32 m_DrawEnd
-    int _get_m_DrawEnd();
-    // Set instance field: protected System.Int32 m_DrawEnd
-    void _set_m_DrawEnd(int value);
-    // Get instance field: private UnityEngine.Coroutine m_DragCoroutine
-    UnityEngine::Coroutine* _get_m_DragCoroutine();
-    // Set instance field: private UnityEngine.Coroutine m_DragCoroutine
-    void _set_m_DragCoroutine(UnityEngine::Coroutine* value);
-    // Get instance field: private System.String m_OriginalText
-    ::Il2CppString* _get_m_OriginalText();
-    // Set instance field: private System.String m_OriginalText
-    void _set_m_OriginalText(::Il2CppString* value);
-    // Get instance field: private System.Boolean m_WasCanceled
-    bool _get_m_WasCanceled();
-    // Set instance field: private System.Boolean m_WasCanceled
-    void _set_m_WasCanceled(bool value);
-    // Get instance field: private System.Boolean m_HasDoneFocusTransition
-    bool _get_m_HasDoneFocusTransition();
-    // Set instance field: private System.Boolean m_HasDoneFocusTransition
-    void _set_m_HasDoneFocusTransition(bool value);
-    // Get instance field: private UnityEngine.WaitForSecondsRealtime m_WaitForSecondsRealtime
-    UnityEngine::WaitForSecondsRealtime* _get_m_WaitForSecondsRealtime();
-    // Set instance field: private UnityEngine.WaitForSecondsRealtime m_WaitForSecondsRealtime
-    void _set_m_WaitForSecondsRealtime(UnityEngine::WaitForSecondsRealtime* value);
-    // Get instance field: private System.Boolean m_TouchKeyboardAllowsInPlaceEditing
-    bool _get_m_TouchKeyboardAllowsInPlaceEditing();
-    // Set instance field: private System.Boolean m_TouchKeyboardAllowsInPlaceEditing
-    void _set_m_TouchKeyboardAllowsInPlaceEditing(bool value);
-    // Get instance field: private UnityEngine.Event m_ProcessingEvent
-    UnityEngine::Event* _get_m_ProcessingEvent();
-    // Set instance field: private UnityEngine.Event m_ProcessingEvent
-    void _set_m_ProcessingEvent(UnityEngine::Event* value);
+    // Get instance field reference: protected UnityEngine.TouchScreenKeyboard m_Keyboard
+    UnityEngine::TouchScreenKeyboard*& dyn_m_Keyboard();
+    // Get instance field reference: protected UnityEngine.UI.Text m_TextComponent
+    UnityEngine::UI::Text*& dyn_m_TextComponent();
+    // Get instance field reference: protected UnityEngine.UI.Graphic m_Placeholder
+    UnityEngine::UI::Graphic*& dyn_m_Placeholder();
+    // Get instance field reference: private UnityEngine.UI.InputField/UnityEngine.UI.ContentType m_ContentType
+    UnityEngine::UI::InputField::ContentType& dyn_m_ContentType();
+    // Get instance field reference: private UnityEngine.UI.InputField/UnityEngine.UI.InputType m_InputType
+    UnityEngine::UI::InputField::InputType& dyn_m_InputType();
+    // Get instance field reference: private System.Char m_AsteriskChar
+    ::Il2CppChar& dyn_m_AsteriskChar();
+    // Get instance field reference: private UnityEngine.TouchScreenKeyboardType m_KeyboardType
+    UnityEngine::TouchScreenKeyboardType& dyn_m_KeyboardType();
+    // Get instance field reference: private UnityEngine.UI.InputField/UnityEngine.UI.LineType m_LineType
+    UnityEngine::UI::InputField::LineType& dyn_m_LineType();
+    // Get instance field reference: private System.Boolean m_HideMobileInput
+    bool& dyn_m_HideMobileInput();
+    // Get instance field reference: private UnityEngine.UI.InputField/UnityEngine.UI.CharacterValidation m_CharacterValidation
+    UnityEngine::UI::InputField::CharacterValidation& dyn_m_CharacterValidation();
+    // Get instance field reference: private System.Int32 m_CharacterLimit
+    int& dyn_m_CharacterLimit();
+    // Get instance field reference: private UnityEngine.UI.InputField/UnityEngine.UI.SubmitEvent m_OnEndEdit
+    UnityEngine::UI::InputField::SubmitEvent*& dyn_m_OnEndEdit();
+    // Get instance field reference: private UnityEngine.UI.InputField/UnityEngine.UI.OnChangeEvent m_OnValueChanged
+    UnityEngine::UI::InputField::OnChangeEvent*& dyn_m_OnValueChanged();
+    // Get instance field reference: private UnityEngine.UI.InputField/UnityEngine.UI.OnValidateInput m_OnValidateInput
+    UnityEngine::UI::InputField::OnValidateInput*& dyn_m_OnValidateInput();
+    // Get instance field reference: private UnityEngine.Color m_CaretColor
+    UnityEngine::Color& dyn_m_CaretColor();
+    // Get instance field reference: private System.Boolean m_CustomCaretColor
+    bool& dyn_m_CustomCaretColor();
+    // Get instance field reference: private UnityEngine.Color m_SelectionColor
+    UnityEngine::Color& dyn_m_SelectionColor();
+    // Get instance field reference: protected System.String m_Text
+    ::Il2CppString*& dyn_m_Text();
+    // Get instance field reference: private System.Single m_CaretBlinkRate
+    float& dyn_m_CaretBlinkRate();
+    // Get instance field reference: private System.Int32 m_CaretWidth
+    int& dyn_m_CaretWidth();
+    // Get instance field reference: private System.Boolean m_ReadOnly
+    bool& dyn_m_ReadOnly();
+    // Get instance field reference: private System.Boolean m_ShouldActivateOnSelect
+    bool& dyn_m_ShouldActivateOnSelect();
+    // Get instance field reference: protected System.Int32 m_CaretPosition
+    int& dyn_m_CaretPosition();
+    // Get instance field reference: protected System.Int32 m_CaretSelectPosition
+    int& dyn_m_CaretSelectPosition();
+    // Get instance field reference: private UnityEngine.RectTransform caretRectTrans
+    UnityEngine::RectTransform*& dyn_caretRectTrans();
+    // Get instance field reference: protected UnityEngine.UIVertex[] m_CursorVerts
+    ::Array<UnityEngine::UIVertex>*& dyn_m_CursorVerts();
+    // Get instance field reference: private UnityEngine.TextGenerator m_InputTextCache
+    UnityEngine::TextGenerator*& dyn_m_InputTextCache();
+    // Get instance field reference: private UnityEngine.CanvasRenderer m_CachedInputRenderer
+    UnityEngine::CanvasRenderer*& dyn_m_CachedInputRenderer();
+    // Get instance field reference: private System.Boolean m_PreventFontCallback
+    bool& dyn_m_PreventFontCallback();
+    // Get instance field reference: protected UnityEngine.Mesh m_Mesh
+    UnityEngine::Mesh*& dyn_m_Mesh();
+    // Get instance field reference: private System.Boolean m_AllowInput
+    bool& dyn_m_AllowInput();
+    // Get instance field reference: private System.Boolean m_ShouldActivateNextUpdate
+    bool& dyn_m_ShouldActivateNextUpdate();
+    // Get instance field reference: private System.Boolean m_UpdateDrag
+    bool& dyn_m_UpdateDrag();
+    // Get instance field reference: private System.Boolean m_DragPositionOutOfBounds
+    bool& dyn_m_DragPositionOutOfBounds();
+    // Get instance field reference: protected System.Boolean m_CaretVisible
+    bool& dyn_m_CaretVisible();
+    // Get instance field reference: private UnityEngine.Coroutine m_BlinkCoroutine
+    UnityEngine::Coroutine*& dyn_m_BlinkCoroutine();
+    // Get instance field reference: private System.Single m_BlinkStartTime
+    float& dyn_m_BlinkStartTime();
+    // Get instance field reference: protected System.Int32 m_DrawStart
+    int& dyn_m_DrawStart();
+    // Get instance field reference: protected System.Int32 m_DrawEnd
+    int& dyn_m_DrawEnd();
+    // Get instance field reference: private UnityEngine.Coroutine m_DragCoroutine
+    UnityEngine::Coroutine*& dyn_m_DragCoroutine();
+    // Get instance field reference: private System.String m_OriginalText
+    ::Il2CppString*& dyn_m_OriginalText();
+    // Get instance field reference: private System.Boolean m_WasCanceled
+    bool& dyn_m_WasCanceled();
+    // Get instance field reference: private System.Boolean m_HasDoneFocusTransition
+    bool& dyn_m_HasDoneFocusTransition();
+    // Get instance field reference: private UnityEngine.WaitForSecondsRealtime m_WaitForSecondsRealtime
+    UnityEngine::WaitForSecondsRealtime*& dyn_m_WaitForSecondsRealtime();
+    // Get instance field reference: private System.Boolean m_TouchKeyboardAllowsInPlaceEditing
+    bool& dyn_m_TouchKeyboardAllowsInPlaceEditing();
+    // Get instance field reference: private UnityEngine.Event m_ProcessingEvent
+    UnityEngine::Event*& dyn_m_ProcessingEvent();
     // private UnityEngine.EventSystems.BaseInput get_input()
     // Offset: 0x19433C8
     UnityEngine::EventSystems::BaseInput* get_input();

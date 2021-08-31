@@ -143,50 +143,28 @@ namespace System::Runtime::Remoting::Messaging {
     operator System::Runtime::Remoting::Messaging::IInternalMessage() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Messaging::IInternalMessage*>(this);
     }
-    // Get instance field: private System.String _uri
-    ::Il2CppString* _get__uri();
-    // Set instance field: private System.String _uri
-    void _set__uri(::Il2CppString* value);
-    // Get instance field: private System.String _typeName
-    ::Il2CppString* _get__typeName();
-    // Set instance field: private System.String _typeName
-    void _set__typeName(::Il2CppString* value);
-    // Get instance field: private System.String _methodName
-    ::Il2CppString* _get__methodName();
-    // Set instance field: private System.String _methodName
-    void _set__methodName(::Il2CppString* value);
-    // Get instance field: private System.Object[] _args
-    ::Array<::Il2CppObject*>* _get__args();
-    // Set instance field: private System.Object[] _args
-    void _set__args(::Array<::Il2CppObject*>* value);
-    // Get instance field: private System.Type[] _methodSignature
-    ::Array<System::Type*>* _get__methodSignature();
-    // Set instance field: private System.Type[] _methodSignature
-    void _set__methodSignature(::Array<System::Type*>* value);
-    // Get instance field: private System.Reflection.MethodBase _methodBase
-    System::Reflection::MethodBase* _get__methodBase();
-    // Set instance field: private System.Reflection.MethodBase _methodBase
-    void _set__methodBase(System::Reflection::MethodBase* value);
-    // Get instance field: private System.Runtime.Remoting.Messaging.LogicalCallContext _callContext
-    System::Runtime::Remoting::Messaging::LogicalCallContext* _get__callContext();
-    // Set instance field: private System.Runtime.Remoting.Messaging.LogicalCallContext _callContext
-    void _set__callContext(System::Runtime::Remoting::Messaging::LogicalCallContext* value);
-    // Get instance field: private System.Runtime.Remoting.Identity _targetIdentity
-    System::Runtime::Remoting::Identity* _get__targetIdentity();
-    // Set instance field: private System.Runtime.Remoting.Identity _targetIdentity
-    void _set__targetIdentity(System::Runtime::Remoting::Identity* value);
-    // Get instance field: private System.Type[] _genericArguments
-    ::Array<System::Type*>* _get__genericArguments();
-    // Set instance field: private System.Type[] _genericArguments
-    void _set__genericArguments(::Array<System::Type*>* value);
-    // Get instance field: protected System.Collections.IDictionary ExternalProperties
-    System::Collections::IDictionary* _get_ExternalProperties();
-    // Set instance field: protected System.Collections.IDictionary ExternalProperties
-    void _set_ExternalProperties(System::Collections::IDictionary* value);
-    // Get instance field: protected System.Collections.IDictionary InternalProperties
-    System::Collections::IDictionary* _get_InternalProperties();
-    // Set instance field: protected System.Collections.IDictionary InternalProperties
-    void _set_InternalProperties(System::Collections::IDictionary* value);
+    // Get instance field reference: private System.String _uri
+    ::Il2CppString*& dyn__uri();
+    // Get instance field reference: private System.String _typeName
+    ::Il2CppString*& dyn__typeName();
+    // Get instance field reference: private System.String _methodName
+    ::Il2CppString*& dyn__methodName();
+    // Get instance field reference: private System.Object[] _args
+    ::Array<::Il2CppObject*>*& dyn__args();
+    // Get instance field reference: private System.Type[] _methodSignature
+    ::Array<System::Type*>*& dyn__methodSignature();
+    // Get instance field reference: private System.Reflection.MethodBase _methodBase
+    System::Reflection::MethodBase*& dyn__methodBase();
+    // Get instance field reference: private System.Runtime.Remoting.Messaging.LogicalCallContext _callContext
+    System::Runtime::Remoting::Messaging::LogicalCallContext*& dyn__callContext();
+    // Get instance field reference: private System.Runtime.Remoting.Identity _targetIdentity
+    System::Runtime::Remoting::Identity*& dyn__targetIdentity();
+    // Get instance field reference: private System.Type[] _genericArguments
+    ::Array<System::Type*>*& dyn__genericArguments();
+    // Get instance field reference: protected System.Collections.IDictionary ExternalProperties
+    System::Collections::IDictionary*& dyn_ExternalProperties();
+    // Get instance field reference: protected System.Collections.IDictionary InternalProperties
+    System::Collections::IDictionary*& dyn_InternalProperties();
     // public System.Int32 get_ArgCount()
     // Offset: 0x1A4EF50
     int get_ArgCount();

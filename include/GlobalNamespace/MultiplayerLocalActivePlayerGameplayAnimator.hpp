@@ -72,26 +72,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: MultiplayerLocalActivePlayerGameplayAnimator
     MultiplayerLocalActivePlayerGameplayAnimator(GlobalNamespace::CoreGameHUDController* coreGameHUDController_ = {}, GlobalNamespace::MultiplayerPositionHUDController* multiplayerPositionHUDController_ = {}, GlobalNamespace::IMultiplayerLevelEndActionsPublisher* levelEndActionsPublisher_ = {}, Tweening::FloatTween* fadeOutHUDTween_ = {}, bool initialized_ = {}) noexcept : coreGameHUDController{coreGameHUDController_}, multiplayerPositionHUDController{multiplayerPositionHUDController_}, levelEndActionsPublisher{levelEndActionsPublisher_}, fadeOutHUDTween{fadeOutHUDTween_}, initialized{initialized_} {}
-    // Get instance field: private CoreGameHUDController _coreGameHUDController
-    GlobalNamespace::CoreGameHUDController* _get__coreGameHUDController();
-    // Set instance field: private CoreGameHUDController _coreGameHUDController
-    void _set__coreGameHUDController(GlobalNamespace::CoreGameHUDController* value);
-    // Get instance field: private MultiplayerPositionHUDController _multiplayerPositionHUDController
-    GlobalNamespace::MultiplayerPositionHUDController* _get__multiplayerPositionHUDController();
-    // Set instance field: private MultiplayerPositionHUDController _multiplayerPositionHUDController
-    void _set__multiplayerPositionHUDController(GlobalNamespace::MultiplayerPositionHUDController* value);
-    // Get instance field: private readonly IMultiplayerLevelEndActionsPublisher _levelEndActionsPublisher
-    GlobalNamespace::IMultiplayerLevelEndActionsPublisher* _get__levelEndActionsPublisher();
-    // Set instance field: private readonly IMultiplayerLevelEndActionsPublisher _levelEndActionsPublisher
-    void _set__levelEndActionsPublisher(GlobalNamespace::IMultiplayerLevelEndActionsPublisher* value);
-    // Get instance field: private Tweening.FloatTween _fadeOutHUDTween
-    Tweening::FloatTween* _get__fadeOutHUDTween();
-    // Set instance field: private Tweening.FloatTween _fadeOutHUDTween
-    void _set__fadeOutHUDTween(Tweening::FloatTween* value);
-    // Get instance field: private System.Boolean _initialized
-    bool _get__initialized();
-    // Set instance field: private System.Boolean _initialized
-    void _set__initialized(bool value);
+    // Get instance field reference: private CoreGameHUDController _coreGameHUDController
+    GlobalNamespace::CoreGameHUDController*& dyn__coreGameHUDController();
+    // Get instance field reference: private MultiplayerPositionHUDController _multiplayerPositionHUDController
+    GlobalNamespace::MultiplayerPositionHUDController*& dyn__multiplayerPositionHUDController();
+    // Get instance field reference: private readonly IMultiplayerLevelEndActionsPublisher _levelEndActionsPublisher
+    GlobalNamespace::IMultiplayerLevelEndActionsPublisher*& dyn__levelEndActionsPublisher();
+    // Get instance field reference: private Tweening.FloatTween _fadeOutHUDTween
+    Tweening::FloatTween*& dyn__fadeOutHUDTween();
+    // Get instance field reference: private System.Boolean _initialized
+    bool& dyn__initialized();
     // private System.Void InitializeIfNeeded()
     // Offset: 0x1066D3C
     void InitializeIfNeeded();

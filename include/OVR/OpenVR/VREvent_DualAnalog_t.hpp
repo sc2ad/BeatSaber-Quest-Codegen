@@ -55,26 +55,16 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Get instance field: public System.Single x
-    float _get_x();
-    // Set instance field: public System.Single x
-    void _set_x(float value);
-    // Get instance field: public System.Single y
-    float _get_y();
-    // Set instance field: public System.Single y
-    void _set_y(float value);
-    // Get instance field: public System.Single transformedX
-    float _get_transformedX();
-    // Set instance field: public System.Single transformedX
-    void _set_transformedX(float value);
-    // Get instance field: public System.Single transformedY
-    float _get_transformedY();
-    // Set instance field: public System.Single transformedY
-    void _set_transformedY(float value);
-    // Get instance field: public OVR.OpenVR.EDualAnalogWhich which
-    OVR::OpenVR::EDualAnalogWhich _get_which();
-    // Set instance field: public OVR.OpenVR.EDualAnalogWhich which
-    void _set_which(OVR::OpenVR::EDualAnalogWhich value);
+    // Get instance field reference: public System.Single x
+    float& dyn_x();
+    // Get instance field reference: public System.Single y
+    float& dyn_y();
+    // Get instance field reference: public System.Single transformedX
+    float& dyn_transformedX();
+    // Get instance field reference: public System.Single transformedY
+    float& dyn_transformedY();
+    // Get instance field reference: public OVR.OpenVR.EDualAnalogWhich which
+    OVR::OpenVR::EDualAnalogWhich& dyn_which();
   }; // OVR.OpenVR.VREvent_DualAnalog_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_DualAnalog_t), 16 + sizeof(OVR::OpenVR::EDualAnalogWhich)> __OVR_OpenVR_VREvent_DualAnalog_tSizeCheck;

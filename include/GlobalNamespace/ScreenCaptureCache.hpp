@@ -79,10 +79,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::ScreenCaptureCache::ScreenshotType _get_Other();
       // Set static field: static public ScreenCaptureCache/ScreenshotType Other
       static void _set_Other(GlobalNamespace::ScreenCaptureCache::ScreenshotType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // ScreenCaptureCache/ScreenshotType
     #pragma pack(pop)
     static check_size<sizeof(ScreenCaptureCache::ScreenshotType), 0 + sizeof(int)> __GlobalNamespace_ScreenCaptureCache_ScreenshotTypeSizeCheck;
@@ -99,10 +97,8 @@ namespace GlobalNamespace {
     constexpr operator System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenCaptureCache::ScreenshotType, UnityEngine::Texture2D*>*() const noexcept {
       return cache;
     }
-    // Get instance field: private System.Collections.Generic.Dictionary`2<ScreenCaptureCache/ScreenshotType,UnityEngine.Texture2D> _cache
-    System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenCaptureCache::ScreenshotType, UnityEngine::Texture2D*>* _get__cache();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<ScreenCaptureCache/ScreenshotType,UnityEngine.Texture2D> _cache
-    void _set__cache(System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenCaptureCache::ScreenshotType, UnityEngine::Texture2D*>* value);
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<ScreenCaptureCache/ScreenshotType,UnityEngine.Texture2D> _cache
+    System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenCaptureCache::ScreenshotType, UnityEngine::Texture2D*>*& dyn__cache();
     // public UnityEngine.Texture2D GetLastScreenshot(ScreenCaptureCache/ScreenshotType screenshotType)
     // Offset: 0x2394E8C
     UnityEngine::Texture2D* GetLastScreenshot(GlobalNamespace::ScreenCaptureCache::ScreenshotType screenshotType);

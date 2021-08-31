@@ -36,10 +36,8 @@ namespace System::Runtime::CompilerServices {
     constexpr operator System::Decimal() const noexcept {
       return dec;
     }
-    // Get instance field: private System.Decimal dec
-    System::Decimal _get_dec();
-    // Set instance field: private System.Decimal dec
-    void _set_dec(System::Decimal value);
+    // Get instance field reference: private System.Decimal dec
+    System::Decimal& dyn_dec();
     // public System.Decimal get_Value()
     // Offset: 0x1486D80
     System::Decimal get_Value();

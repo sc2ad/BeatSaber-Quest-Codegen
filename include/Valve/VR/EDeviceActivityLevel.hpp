@@ -62,10 +62,8 @@ namespace Valve::VR {
     static Valve::VR::EDeviceActivityLevel _get_k_EDeviceActivityLevel_Standby();
     // Set static field: static public Valve.VR.EDeviceActivityLevel k_EDeviceActivityLevel_Standby
     static void _set_k_EDeviceActivityLevel_Standby(Valve::VR::EDeviceActivityLevel value);
-    // Get instance field: public System.Int32 value__
-    int _get_value__();
-    // Set instance field: public System.Int32 value__
-    void _set_value__(int value);
+    // Get instance field reference: public System.Int32 value__
+    int& dyn_value__();
   }; // Valve.VR.EDeviceActivityLevel
   #pragma pack(pop)
   static check_size<sizeof(EDeviceActivityLevel), 0 + sizeof(int)> __Valve_VR_EDeviceActivityLevelSizeCheck;

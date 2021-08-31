@@ -62,18 +62,12 @@ namespace Zenject {
     operator Zenject::ISubContainerCreator() noexcept {
       return *reinterpret_cast<Zenject::ISubContainerCreator*>(this);
     }
-    // Get instance field: private readonly Zenject.ISubContainerCreator _subCreator
-    Zenject::ISubContainerCreator* _get__subCreator();
-    // Set instance field: private readonly Zenject.ISubContainerCreator _subCreator
-    void _set__subCreator(Zenject::ISubContainerCreator* value);
-    // Get instance field: private System.Boolean _isLookingUp
-    bool _get__isLookingUp();
-    // Set instance field: private System.Boolean _isLookingUp
-    void _set__isLookingUp(bool value);
-    // Get instance field: private Zenject.DiContainer _subContainer
-    Zenject::DiContainer* _get__subContainer();
-    // Set instance field: private Zenject.DiContainer _subContainer
-    void _set__subContainer(Zenject::DiContainer* value);
+    // Get instance field reference: private readonly Zenject.ISubContainerCreator _subCreator
+    Zenject::ISubContainerCreator*& dyn__subCreator();
+    // Get instance field reference: private System.Boolean _isLookingUp
+    bool& dyn__isLookingUp();
+    // Get instance field reference: private Zenject.DiContainer _subContainer
+    Zenject::DiContainer*& dyn__subContainer();
     // public System.Void .ctor(Zenject.ISubContainerCreator subCreator)
     // Offset: 0x171FEE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

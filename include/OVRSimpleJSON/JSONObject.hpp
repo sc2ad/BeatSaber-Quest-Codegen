@@ -62,14 +62,10 @@ namespace OVRSimpleJSON {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: JSONObject
     JSONObject(System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>* m_Dict_ = {}, bool _inline_ = {}) noexcept : m_Dict{m_Dict_}, _inline{_inline_} {}
-    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,OVRSimpleJSON.JSONNode> m_Dict
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>* _get_m_Dict();
-    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,OVRSimpleJSON.JSONNode> m_Dict
-    void _set_m_Dict(System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>* value);
-    // Get instance field: private System.Boolean inline
-    bool _get_inline();
-    // Set instance field: private System.Boolean inline
-    void _set_inline(bool value);
+    // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,OVRSimpleJSON.JSONNode> m_Dict
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>*& dyn_m_Dict();
+    // Get instance field reference: private System.Boolean inline
+    bool& dyn_inline();
     // public override System.Boolean get_Inline()
     // Offset: 0x1F445AC
     // Implemented from: OVRSimpleJSON.JSONNode

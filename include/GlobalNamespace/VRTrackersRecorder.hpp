@@ -86,10 +86,8 @@ namespace GlobalNamespace {
       static GlobalNamespace::VRTrackersRecorder::RecordMode _get_Off();
       // Set static field: static public VRTrackersRecorder/RecordMode Off
       static void _set_Off(GlobalNamespace::VRTrackersRecorder::RecordMode value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // VRTrackersRecorder/RecordMode
     #pragma pack(pop)
     static check_size<sizeof(VRTrackersRecorder::RecordMode), 0 + sizeof(int)> __GlobalNamespace_VRTrackersRecorder_RecordModeSizeCheck;
@@ -162,46 +160,26 @@ namespace GlobalNamespace {
     VRTrackersRecorder(GlobalNamespace::FloatSO* songTime_ = {}, ::Il2CppString* saveFilename_ = {}, GlobalNamespace::VRTrackersRecorder::RecordMode mode_ = {}, UnityEngine::Transform* originTransform_ = {}, ::Array<UnityEngine::Transform*>* playbackTransforms_ = {}, System::Collections::Generic::List_1<GlobalNamespace::VRTrackersRecorder::Keyframe*>* keyframes_ = {}, int keyframeIndex_ = {}, GlobalNamespace::SteamVR_Events::Action* newPosesAction_ = {}, UnityEngine::Vector3 loadedOriginPos_ = {}, UnityEngine::Quaternion loadedOriginRot_ = {}) noexcept : songTime{songTime_}, saveFilename{saveFilename_}, mode{mode_}, originTransform{originTransform_}, playbackTransforms{playbackTransforms_}, keyframes{keyframes_}, keyframeIndex{keyframeIndex_}, newPosesAction{newPosesAction_}, loadedOriginPos{loadedOriginPos_}, loadedOriginRot{loadedOriginRot_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private FloatSO _songTime
-    GlobalNamespace::FloatSO* _get__songTime();
-    // Set instance field: private FloatSO _songTime
-    void _set__songTime(GlobalNamespace::FloatSO* value);
-    // Get instance field: private System.String _saveFilename
-    ::Il2CppString* _get__saveFilename();
-    // Set instance field: private System.String _saveFilename
-    void _set__saveFilename(::Il2CppString* value);
-    // Get instance field: private VRTrackersRecorder/RecordMode _mode
-    GlobalNamespace::VRTrackersRecorder::RecordMode _get__mode();
-    // Set instance field: private VRTrackersRecorder/RecordMode _mode
-    void _set__mode(GlobalNamespace::VRTrackersRecorder::RecordMode value);
-    // Get instance field: private UnityEngine.Transform _originTransform
-    UnityEngine::Transform* _get__originTransform();
-    // Set instance field: private UnityEngine.Transform _originTransform
-    void _set__originTransform(UnityEngine::Transform* value);
-    // Get instance field: private UnityEngine.Transform[] _playbackTransforms
-    ::Array<UnityEngine::Transform*>* _get__playbackTransforms();
-    // Set instance field: private UnityEngine.Transform[] _playbackTransforms
-    void _set__playbackTransforms(::Array<UnityEngine::Transform*>* value);
-    // Get instance field: private System.Collections.Generic.List`1<VRTrackersRecorder/Keyframe> _keyframes
-    System::Collections::Generic::List_1<GlobalNamespace::VRTrackersRecorder::Keyframe*>* _get__keyframes();
-    // Set instance field: private System.Collections.Generic.List`1<VRTrackersRecorder/Keyframe> _keyframes
-    void _set__keyframes(System::Collections::Generic::List_1<GlobalNamespace::VRTrackersRecorder::Keyframe*>* value);
-    // Get instance field: private System.Int32 _keyframeIndex
-    int _get__keyframeIndex();
-    // Set instance field: private System.Int32 _keyframeIndex
-    void _set__keyframeIndex(int value);
-    // Get instance field: private SteamVR_Events/Action _newPosesAction
-    GlobalNamespace::SteamVR_Events::Action* _get__newPosesAction();
-    // Set instance field: private SteamVR_Events/Action _newPosesAction
-    void _set__newPosesAction(GlobalNamespace::SteamVR_Events::Action* value);
-    // Get instance field: private UnityEngine.Vector3 _loadedOriginPos
-    UnityEngine::Vector3 _get__loadedOriginPos();
-    // Set instance field: private UnityEngine.Vector3 _loadedOriginPos
-    void _set__loadedOriginPos(UnityEngine::Vector3 value);
-    // Get instance field: private UnityEngine.Quaternion _loadedOriginRot
-    UnityEngine::Quaternion _get__loadedOriginRot();
-    // Set instance field: private UnityEngine.Quaternion _loadedOriginRot
-    void _set__loadedOriginRot(UnityEngine::Quaternion value);
+    // Get instance field reference: private FloatSO _songTime
+    GlobalNamespace::FloatSO*& dyn__songTime();
+    // Get instance field reference: private System.String _saveFilename
+    ::Il2CppString*& dyn__saveFilename();
+    // Get instance field reference: private VRTrackersRecorder/RecordMode _mode
+    GlobalNamespace::VRTrackersRecorder::RecordMode& dyn__mode();
+    // Get instance field reference: private UnityEngine.Transform _originTransform
+    UnityEngine::Transform*& dyn__originTransform();
+    // Get instance field reference: private UnityEngine.Transform[] _playbackTransforms
+    ::Array<UnityEngine::Transform*>*& dyn__playbackTransforms();
+    // Get instance field reference: private System.Collections.Generic.List`1<VRTrackersRecorder/Keyframe> _keyframes
+    System::Collections::Generic::List_1<GlobalNamespace::VRTrackersRecorder::Keyframe*>*& dyn__keyframes();
+    // Get instance field reference: private System.Int32 _keyframeIndex
+    int& dyn__keyframeIndex();
+    // Get instance field reference: private SteamVR_Events/Action _newPosesAction
+    GlobalNamespace::SteamVR_Events::Action*& dyn__newPosesAction();
+    // Get instance field reference: private UnityEngine.Vector3 _loadedOriginPos
+    UnityEngine::Vector3& dyn__loadedOriginPos();
+    // Get instance field reference: private UnityEngine.Quaternion _loadedOriginRot
+    UnityEngine::Quaternion& dyn__loadedOriginRot();
     // protected System.Void Awake()
     // Offset: 0x135DDCC
     void Awake();

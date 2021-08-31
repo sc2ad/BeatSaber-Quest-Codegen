@@ -115,30 +115,18 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field: private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
-    GlobalNamespace::BeatmapObjectSpawnController* _get__beatmapObjectSpawnController();
-    // Set instance field: private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
-    void _set__beatmapObjectSpawnController(GlobalNamespace::BeatmapObjectSpawnController* value);
-    // Get instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
-    GlobalNamespace::IBeatmapObjectCallbackController* _get__beatmapObjectCallbackController();
-    // Set instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
-    void _set__beatmapObjectCallbackController(GlobalNamespace::IBeatmapObjectCallbackController* value);
-    // Get instance field: private readonly BasicSpectrogramData _spectrogramData
-    GlobalNamespace::BasicSpectrogramData* _get__spectrogramData();
-    // Set instance field: private readonly BasicSpectrogramData _spectrogramData
-    void _set__spectrogramData(GlobalNamespace::BasicSpectrogramData* value);
-    // Get instance field: private readonly SaberManager _saberManager
-    GlobalNamespace::SaberManager* _get__saberManager();
-    // Set instance field: private readonly SaberManager _saberManager
-    void _set__saberManager(GlobalNamespace::SaberManager* value);
-    // Get instance field: private readonly AudioTimeSyncController _audioTimeSyncController
-    GlobalNamespace::AudioTimeSyncController* _get__audioTimeSyncController();
-    // Set instance field: private readonly AudioTimeSyncController _audioTimeSyncController
-    void _set__audioTimeSyncController(GlobalNamespace::AudioTimeSyncController* value);
-    // Get instance field: private readonly IDifficultyBeatmap _difficultyBeatmap
-    GlobalNamespace::IDifficultyBeatmap* _get__difficultyBeatmap();
-    // Set instance field: private readonly IDifficultyBeatmap _difficultyBeatmap
-    void _set__difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap* value);
+    // Get instance field reference: private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
+    GlobalNamespace::BeatmapObjectSpawnController*& dyn__beatmapObjectSpawnController();
+    // Get instance field reference: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    GlobalNamespace::IBeatmapObjectCallbackController*& dyn__beatmapObjectCallbackController();
+    // Get instance field reference: private readonly BasicSpectrogramData _spectrogramData
+    GlobalNamespace::BasicSpectrogramData*& dyn__spectrogramData();
+    // Get instance field reference: private readonly SaberManager _saberManager
+    GlobalNamespace::SaberManager*& dyn__saberManager();
+    // Get instance field reference: private readonly AudioTimeSyncController _audioTimeSyncController
+    GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
+    // Get instance field reference: private readonly IDifficultyBeatmap _difficultyBeatmap
+    GlobalNamespace::IDifficultyBeatmap*& dyn__difficultyBeatmap();
     // public IDifficultyBeatmap get_difficultyBeatmap()
     // Offset: 0x110BDAC
     GlobalNamespace::IDifficultyBeatmap* get_difficultyBeatmap();

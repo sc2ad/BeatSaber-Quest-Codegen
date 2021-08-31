@@ -92,10 +92,8 @@ namespace RootMotion {
       static RootMotion::BipedNaming::BoneType _get_Eye();
       // Set static field: static public RootMotion.BipedNaming/RootMotion.BoneType Eye
       static void _set_Eye(RootMotion::BipedNaming::BoneType value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // RootMotion.BipedNaming/RootMotion.BoneType
     #pragma pack(pop)
     static check_size<sizeof(BipedNaming::BoneType), 0 + sizeof(int)> __RootMotion_BipedNaming_BoneTypeSizeCheck;
@@ -140,10 +138,8 @@ namespace RootMotion {
       static RootMotion::BipedNaming::BoneSide _get_Right();
       // Set static field: static public RootMotion.BipedNaming/RootMotion.BoneSide Right
       static void _set_Right(RootMotion::BipedNaming::BoneSide value);
-      // Get instance field: public System.Int32 value__
-      int _get_value__();
-      // Set instance field: public System.Int32 value__
-      void _set_value__(int value);
+      // Get instance field reference: public System.Int32 value__
+      int& dyn_value__();
     }; // RootMotion.BipedNaming/RootMotion.BoneSide
     #pragma pack(pop)
     static check_size<sizeof(BipedNaming::BoneSide), 0 + sizeof(int)> __RootMotion_BipedNaming_BoneSideSizeCheck;

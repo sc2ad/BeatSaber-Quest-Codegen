@@ -38,10 +38,8 @@ namespace System::Security::Cryptography {
     static ::Il2CppObject* _get__lock();
     // Set static field: static private System.Object _lock
     static void _set__lock(::Il2CppObject* value);
-    // Get instance field: private System.IntPtr _handle
-    System::IntPtr _get__handle();
-    // Set instance field: private System.IntPtr _handle
-    void _set__handle(System::IntPtr value);
+    // Get instance field reference: private System.IntPtr _handle
+    System::IntPtr& dyn__handle();
     // static private System.Void .cctor()
     // Offset: 0x1B3AA98
     static void _cctor();

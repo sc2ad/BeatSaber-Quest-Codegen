@@ -65,22 +65,14 @@ namespace UnityEngine::AddressableAssets {
     static_assert(sizeof(System::Type*) == 0x8);
     // Creating value type constructor for type: LoadResourceLocationKeyOp
     LoadResourceLocationKeyOp(::Il2CppObject* m_Keys_ = {}, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* m_locations_ = {}, UnityEngine::AddressableAssets::AddressablesImpl* m_Addressables_ = {}, System::Type* m_ResourceType_ = {}) noexcept : m_Keys{m_Keys_}, m_locations{m_locations_}, m_Addressables{m_Addressables_}, m_ResourceType{m_ResourceType_} {}
-    // Get instance field: private System.Object m_Keys
-    ::Il2CppObject* _get_m_Keys();
-    // Set instance field: private System.Object m_Keys
-    void _set_m_Keys(::Il2CppObject* value);
-    // Get instance field: private System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> m_locations
-    System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* _get_m_locations();
-    // Set instance field: private System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> m_locations
-    void _set_m_locations(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* value);
-    // Get instance field: private UnityEngine.AddressableAssets.AddressablesImpl m_Addressables
-    UnityEngine::AddressableAssets::AddressablesImpl* _get_m_Addressables();
-    // Set instance field: private UnityEngine.AddressableAssets.AddressablesImpl m_Addressables
-    void _set_m_Addressables(UnityEngine::AddressableAssets::AddressablesImpl* value);
-    // Get instance field: private System.Type m_ResourceType
-    System::Type* _get_m_ResourceType();
-    // Set instance field: private System.Type m_ResourceType
-    void _set_m_ResourceType(System::Type* value);
+    // Get instance field reference: private System.Object m_Keys
+    ::Il2CppObject*& dyn_m_Keys();
+    // Get instance field reference: private System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> m_locations
+    System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*& dyn_m_locations();
+    // Get instance field reference: private UnityEngine.AddressableAssets.AddressablesImpl m_Addressables
+    UnityEngine::AddressableAssets::AddressablesImpl*& dyn_m_Addressables();
+    // Get instance field reference: private System.Type m_ResourceType
+    System::Type*& dyn_m_ResourceType();
     // public System.Void Init(UnityEngine.AddressableAssets.AddressablesImpl aa, System.Type t, System.Object keys)
     // Offset: 0x143E9D8
     void Init(UnityEngine::AddressableAssets::AddressablesImpl* aa, System::Type* t, ::Il2CppObject* keys);
