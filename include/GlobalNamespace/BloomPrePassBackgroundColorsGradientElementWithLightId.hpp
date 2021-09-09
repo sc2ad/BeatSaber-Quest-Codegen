@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private BloomPrePassBackgroundColorsGradientElementWithLightId/Elements[] _elements
     ::Array<GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*>*& dyn__elements();
     // public System.Void .ctor()
-    // Offset: 0x1E1356C
+    // Offset: 0x1E13230
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -69,7 +69,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBackgroundColorsGradientElementWithLightId*, creationType>()));
     }
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1E13388
+    // Offset: 0x1E1304C
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);

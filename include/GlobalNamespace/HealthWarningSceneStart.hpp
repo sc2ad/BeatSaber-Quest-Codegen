@@ -47,14 +47,14 @@ namespace GlobalNamespace {
     GlobalNamespace::HealthWarningFlowCoordinator* healthWarninglowCoordinator;
     // Field size check
     static_assert(sizeof(GlobalNamespace::HealthWarningFlowCoordinator*) == 0x8);
-    // [InjectAttribute] Offset: 0xE45EE4
+    // [InjectAttribute] Offset: 0xE4BF30
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE45EF4
+    // [InjectAttribute] Offset: 0xE4BF40
     // private HMUI.HierarchyManager _hierarchyManager
     // Size: 0x8
     // Offset: 0x28
@@ -72,10 +72,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private HMUI.HierarchyManager _hierarchyManager
     HMUI::HierarchyManager*& dyn__hierarchyManager();
     // public System.Collections.IEnumerator Start()
-    // Offset: 0x1143740
+    // Offset: 0x1186C9C
     System::Collections::IEnumerator* Start();
     // public System.Void .ctor()
-    // Offset: 0x11437DC
+    // Offset: 0x1186D38
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

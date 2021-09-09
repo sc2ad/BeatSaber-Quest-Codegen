@@ -114,31 +114,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _transform
     UnityEngine::Transform*& dyn__transform();
     // public System.Single get_destRotZ()
-    // Offset: 0x1095748
+    // Offset: 0x107254C
     float get_destRotZ();
     // public System.Void Init(UnityEngine.Vector3 position, UnityEngine.Vector3 positionOffset)
-    // Offset: 0x1095750
+    // Offset: 0x1072554
     void Init(UnityEngine::Vector3 position, UnityEngine::Vector3 positionOffset);
     // public System.Void FixedUpdateRing(System.Single fixedDeltaTime)
-    // Offset: 0x1095838
+    // Offset: 0x107263C
     void FixedUpdateRing(float fixedDeltaTime);
     // public System.Void LateUpdateRing(System.Single interpolationFactor)
-    // Offset: 0x10958F8
+    // Offset: 0x10726FC
     void LateUpdateRing(float interpolationFactor);
     // public System.Void SetDestRotation(System.Single destRotZ, System.Single rotateSpeed)
-    // Offset: 0x10959B8
+    // Offset: 0x10727BC
     void SetDestRotation(float destRotZ, float rotateSpeed);
     // public System.Single GetRotation()
-    // Offset: 0x10959C0
+    // Offset: 0x10727C4
     float GetRotation();
     // public System.Single GetDestinationRotation()
-    // Offset: 0x10959C8
+    // Offset: 0x10727CC
     float GetDestinationRotation();
     // public System.Void SetPosition(System.Single destPosZ, System.Single moveSpeed)
-    // Offset: 0x10959D0
+    // Offset: 0x10727D4
     void SetPosition(float destPosZ, float moveSpeed);
     // public System.Void .ctor()
-    // Offset: 0x10959D8
+    // Offset: 0x10727DC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

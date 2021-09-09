@@ -30,10 +30,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GeometryTools
     GeometryTools() noexcept {}
     // static public System.Boolean ThreePointsToBox(UnityEngine.Vector3 p0, UnityEngine.Vector3 p1, UnityEngine.Vector3 p2, out UnityEngine.Vector3 center, out UnityEngine.Vector3 halfSize, out UnityEngine.Quaternion orientation)
-    // Offset: 0x12637C8
+    // Offset: 0x1268190
     static bool ThreePointsToBox(UnityEngine::Vector3 p0, UnityEngine::Vector3 p1, UnityEngine::Vector3 p2, ByRef<UnityEngine::Vector3> center, ByRef<UnityEngine::Vector3> halfSize, ByRef<UnityEngine::Quaternion> orientation);
     // public System.Void .ctor()
-    // Offset: 0x1263BAC
+    // Offset: 0x1268574
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

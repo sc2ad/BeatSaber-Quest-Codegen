@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainSettingsModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE31788
+    // [SpaceAttribute] Offset: 0xE376F8
     // private VRsenalLogger _vrsenalLoggerPrefab
     // Size: 0x8
     // Offset: 0x60
@@ -79,7 +79,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private VRsenalLogger _vrsenalLoggerPrefab
     GlobalNamespace::VRsenalLogger*& dyn__vrsenalLoggerPrefab();
     // public System.Void .ctor()
-    // Offset: 0x102CE88
+    // Offset: 0x10346C4
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     // Base method: System.Void MonoInstaller::.ctor()
@@ -95,22 +95,22 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PCArcadeAppInit*, creationType>()));
     }
     // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0x102CC98
+    // Offset: 0x10344D4
     // Implemented from: AppInit
     // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
     void AppStartAndMultiSceneEditorSetup();
     // protected override System.Void RepeatableSetup()
-    // Offset: 0x102CD04
+    // Offset: 0x1034540
     // Implemented from: AppInit
     // Base method: System.Void AppInit::RepeatableSetup()
     void RepeatableSetup();
     // protected override System.Void TransitionToNextScene()
-    // Offset: 0x102CD50
+    // Offset: 0x103458C
     // Implemented from: AppInit
     // Base method: System.Void AppInit::TransitionToNextScene()
     void TransitionToNextScene();
     // public override System.Void InstallBindings()
-    // Offset: 0x102CD8C
+    // Offset: 0x10345C8
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

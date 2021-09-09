@@ -33,7 +33,7 @@ namespace UnityEngine::UI {
     // Creating value type constructor for type: SetPropertyUtility
     SetPropertyUtility() noexcept {}
     // static public System.Boolean SetColor(ref UnityEngine.Color currentValue, UnityEngine.Color newValue)
-    // Offset: 0x19E0FEC
+    // Offset: 0x19E6820
     static bool SetColor(ByRef<UnityEngine::Color> currentValue, UnityEngine::Color newValue);
     // static public System.Boolean SetStruct(ref T currentValue, T newValue)
     // Offset: 0xFFFFFFFF

@@ -32,20 +32,20 @@ namespace NUnit::Framework::Constraints {
     // Creating value type constructor for type: ValueFormatter
     ValueFormatter() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x17688E8
+    // Offset: 0x176F11C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValueFormatter* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::ValueFormatter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValueFormatter*, creationType>(object, method)));
     }
     // public System.String Invoke(System.Object val)
-    // Offset: 0x1768DB0
+    // Offset: 0x176F5E4
     ::Il2CppString* Invoke(::Il2CppObject* val);
     // public System.IAsyncResult BeginInvoke(System.Object val, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x176FCB8
+    // Offset: 0x17764EC
     System::IAsyncResult* BeginInvoke(::Il2CppObject* val, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.String EndInvoke(System.IAsyncResult result)
-    // Offset: 0x176FCDC
+    // Offset: 0x1776510
     ::Il2CppString* EndInvoke(System::IAsyncResult* result);
   }; // NUnit.Framework.Constraints.ValueFormatter
   #pragma pack(pop)

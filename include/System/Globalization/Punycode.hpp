@@ -23,7 +23,7 @@ namespace System::Globalization {
     // Creating value type constructor for type: Punycode
     Punycode() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1A188F8
+    // Offset: 0x1A1C12C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

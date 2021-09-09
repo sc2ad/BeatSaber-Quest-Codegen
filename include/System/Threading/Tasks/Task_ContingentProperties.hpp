@@ -114,13 +114,13 @@ namespace System::Threading::Tasks {
     // Get instance field reference: System.Collections.Generic.List`1<System.Threading.Tasks.Task> m_exceptionalChildren
     System::Collections::Generic::List_1<System::Threading::Tasks::Task*>*& dyn_m_exceptionalChildren();
     // System.Void SetCompleted()
-    // Offset: 0x1873600
+    // Offset: 0x187AE34
     void SetCompleted();
     // System.Void DeregisterCancellationCallback()
-    // Offset: 0x1873638
+    // Offset: 0x187AE6C
     void DeregisterCancellationCallback();
     // public System.Void .ctor()
-    // Offset: 0x18731A8
+    // Offset: 0x187A9DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

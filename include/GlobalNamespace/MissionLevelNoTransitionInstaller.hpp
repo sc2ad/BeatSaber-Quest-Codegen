@@ -96,7 +96,7 @@ namespace GlobalNamespace {
     ::Il2CppString* backButtonText;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE46014
+    // [SpaceAttribute] Offset: 0xE4C060
     // private MissionLevelScenesTransitionSetupDataSO _scenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x58
@@ -126,7 +126,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private MissionLevelScenesTransitionSetupDataSO _scenesTransitionSetupData
     GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*& dyn__scenesTransitionSetupData();
     // public System.Void .ctor()
-    // Offset: 0x11D3C98
+    // Offset: 0x1140E58
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -140,7 +140,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelNoTransitionInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x11D36E4
+    // Offset: 0x11408A4
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::InstallBindings(Zenject.DiContainer container)
     void InstallBindings(Zenject::DiContainer* container);

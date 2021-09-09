@@ -42,7 +42,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly Oculus.Platform.Models.NetSyncSession Session
     Oculus::Platform::Models::NetSyncSession*& dyn_Session();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14ED9B8
+    // Offset: 0x15326FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSyncSetSessionPropertyResult* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::NetSyncSetSessionPropertyResult::.ctor");

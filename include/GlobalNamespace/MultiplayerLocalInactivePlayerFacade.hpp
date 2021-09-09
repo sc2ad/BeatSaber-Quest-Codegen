@@ -59,14 +59,14 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MultiplayerLocalInactivePlayerFacade::Factory
     class Factory;
-    // [InjectAttribute] Offset: 0xE3A414
+    // [InjectAttribute] Offset: 0xE40394
     // private readonly MultiplayerLocalInactivePlayerSongSyncController _inactivePlayerSongSyncController
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController* inactivePlayerSongSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3A424
+    // [InjectAttribute] Offset: 0xE403A4
     // private readonly MultiplayerSpectatorController _spectatorController
     // Size: 0x8
     // Offset: 0x20
@@ -79,7 +79,7 @@ namespace GlobalNamespace {
     UnityEngine::Playables::PlayableDirector* introAnimator;
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::PlayableDirector*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3A444
+    // [InjectAttribute] Offset: 0xE403C4
     // private readonly MultiplayerLocalInactivePlayerOutroAnimator _outroAnimator
     // Size: 0x8
     // Offset: 0x30
@@ -127,40 +127,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<PlayerNetworkFailReason> playerNetworkDidFailedEvent
     System::Action_1<GlobalNamespace::PlayerNetworkFailReason>*& dyn_playerNetworkDidFailedEvent();
     // public IStartSeekSongController get_songController()
-    // Offset: 0x106A03C
+    // Offset: 0x1086718
     GlobalNamespace::IStartSeekSongController* get_songController();
     // public MultiplayerSpectatorController get_spectatorController()
-    // Offset: 0x106A044
+    // Offset: 0x1086720
     GlobalNamespace::MultiplayerSpectatorController* get_spectatorController();
     // public UnityEngine.GameObject get_introAnimator()
-    // Offset: 0x106A04C
+    // Offset: 0x1086728
     UnityEngine::GameObject* get_introAnimator();
     // public UnityEngine.Playables.PlayableDirector get_introPlayableDirector()
-    // Offset: 0x106A068
+    // Offset: 0x1086744
     UnityEngine::Playables::PlayableDirector* get_introPlayableDirector();
     // public MultiplayerLocalInactivePlayerOutroAnimator get_outroAnimator()
-    // Offset: 0x106A070
+    // Offset: 0x108674C
     GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator* get_outroAnimator();
     // public System.Void add_playerDidFinishEvent(System.Action`1<MultiplayerLevelCompletionResults> value)
-    // Offset: 0x106A078
+    // Offset: 0x1086754
     void add_playerDidFinishEvent(System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
     // public System.Void remove_playerDidFinishEvent(System.Action`1<MultiplayerLevelCompletionResults> value)
-    // Offset: 0x106A11C
+    // Offset: 0x10867F8
     void remove_playerDidFinishEvent(System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
     // public System.Void add_playerNetworkDidFailedEvent(System.Action`1<PlayerNetworkFailReason> value)
-    // Offset: 0x106A1C0
+    // Offset: 0x108689C
     void add_playerNetworkDidFailedEvent(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* value);
     // public System.Void remove_playerNetworkDidFailedEvent(System.Action`1<PlayerNetworkFailReason> value)
-    // Offset: 0x106A264
+    // Offset: 0x1086940
     void remove_playerNetworkDidFailedEvent(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* value);
     // public System.Void ReportPlayerDidFinish(MultiplayerLevelCompletionResults results)
-    // Offset: 0x106A308
+    // Offset: 0x10869E4
     void ReportPlayerDidFinish(GlobalNamespace::MultiplayerLevelCompletionResults* results);
     // public System.Void ReportPlayerNetworkDidFailed(PlayerNetworkFailReason failReason)
-    // Offset: 0x106A37C
+    // Offset: 0x1086A58
     void ReportPlayerNetworkDidFailed(GlobalNamespace::PlayerNetworkFailReason failReason);
     // public System.Void .ctor()
-    // Offset: 0x106A3F0
+    // Offset: 0x1086ACC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

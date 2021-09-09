@@ -23,7 +23,7 @@ namespace UnityEngine::TextCore::LowLevel {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // static System.Int32 MaxValue(System.Int32 a, System.Int32 b, System.Int32 c)
-    // Offset: 0x23F9770
+    // Offset: 0x23F64BC
     static int MaxValue(int a, int b, int c);
   }; // UnityEngine.TextCore.LowLevel.FontEngineUtilities
   #pragma pack(pop)

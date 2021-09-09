@@ -40,13 +40,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Comparison`1<OVRRaycaster/RaycastHit> <>9__16_0
     static void _set_$$9__16_0(System::Comparison_1<GlobalNamespace::OVRRaycaster::RaycastHit>* value);
     // static private System.Void .cctor()
-    // Offset: 0x16355B0
+    // Offset: 0x163CDE4
     static void _cctor();
     // System.Int32 <GraphicRaycast>b__16_0(OVRRaycaster/RaycastHit g1, OVRRaycaster/RaycastHit g2)
-    // Offset: 0x163561C
+    // Offset: 0x163CE50
     int $GraphicRaycast$b__16_0(GlobalNamespace::OVRRaycaster::RaycastHit g1, GlobalNamespace::OVRRaycaster::RaycastHit g2);
     // public System.Void .ctor()
-    // Offset: 0x1635614
+    // Offset: 0x163CE48
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

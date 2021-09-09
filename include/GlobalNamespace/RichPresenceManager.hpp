@@ -33,8 +33,8 @@ namespace GlobalNamespace {
   class LobbyGameStateModel;
   // Forward declaring type: IUnifiedNetworkPlayerModel
   class IUnifiedNetworkPlayerModel;
-  // Forward declaring type: PlayerDataModel
-  class PlayerDataModel;
+  // Forward declaring type: LobbyPlayerPermissionsModel
+  class LobbyPlayerPermissionsModel;
   // Forward declaring type: BrowsingMenusRichPresenceData
   class BrowsingMenusRichPresenceData;
   // Forward declaring type: InMultiplayerRichPresenceData
@@ -86,48 +86,48 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE359A8
+    // [InjectAttribute] Offset: 0xE3B928
     // private readonly MenuScenesTransitionSetupDataSO _menuScenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::MenuScenesTransitionSetupDataSO* menuScenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE359B8
+    // [InjectAttribute] Offset: 0xE3B938
     // private readonly IRichPresencePlatformHandler _richPresencePlatformHandler
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::IRichPresencePlatformHandler* richPresencePlatformHandler;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IRichPresencePlatformHandler*) == 0x8);
-    // [InjectAttribute] Offset: 0xE359C8
+    // [InjectAttribute] Offset: 0xE3B948
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE359D8
+    // [InjectAttribute] Offset: 0xE3B958
     // private readonly LobbyGameStateModel _lobbyGameStateModel
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::LobbyGameStateModel* lobbyGameStateModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LobbyGameStateModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE359E8
+    // [InjectAttribute] Offset: 0xE3B968
     // private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::IUnifiedNetworkPlayerModel* unifiedNetworkPlayerModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IUnifiedNetworkPlayerModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE359F8
-    // private readonly PlayerDataModel _playerDataModel
+    // [InjectAttribute] Offset: 0xE3B978
+    // private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
     // Size: 0x8
     // Offset: 0x60
-    GlobalNamespace::PlayerDataModel* playerDataModel;
+    GlobalNamespace::LobbyPlayerPermissionsModel* lobbyPlayerPermissionsModel;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::LobbyPlayerPermissionsModel*) == 0x8);
     // private System.Boolean _menuWasLoaded
     // Size: 0x1
     // Offset: 0x68
@@ -173,7 +173,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::IRichPresenceData*) == 0x8);
     // Creating value type constructor for type: RichPresenceManager
-    RichPresenceManager(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData_ = {}, GlobalNamespace::ScenesTransitionSetupDataSO* tutorialScenesTransitionSetupData_ = {}, GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData_ = {}, GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData_ = {}, GlobalNamespace::MenuScenesTransitionSetupDataSO* menuScenesTransitionSetupData_ = {}, GlobalNamespace::IRichPresencePlatformHandler* richPresencePlatformHandler_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, GlobalNamespace::LobbyGameStateModel* lobbyGameStateModel_ = {}, GlobalNamespace::IUnifiedNetworkPlayerModel* unifiedNetworkPlayerModel_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, bool menuWasLoaded_ = {}, bool isInMultiplayerLobby_ = {}, GlobalNamespace::BrowsingMenusRichPresenceData* browsingMenusRichPresenceData_ = {}, GlobalNamespace::InMultiplayerRichPresenceData* inMultiplayerRichPresenceData_ = {}, GlobalNamespace::PlayingCampaignRichPresenceData* playingCampaignRichPresenceData_ = {}, GlobalNamespace::PlayingTutorialPresenceData* playingTutorialPresenceData_ = {}, GlobalNamespace::IRichPresenceData* currentPresenceData_ = {}) noexcept : standardLevelScenesTransitionSetupData{standardLevelScenesTransitionSetupData_}, tutorialScenesTransitionSetupData{tutorialScenesTransitionSetupData_}, missionLevelScenesTransitionSetupData{missionLevelScenesTransitionSetupData_}, multiplayerLevelScenesTransitionSetupData{multiplayerLevelScenesTransitionSetupData_}, menuScenesTransitionSetupData{menuScenesTransitionSetupData_}, richPresencePlatformHandler{richPresencePlatformHandler_}, gameScenesManager{gameScenesManager_}, lobbyGameStateModel{lobbyGameStateModel_}, unifiedNetworkPlayerModel{unifiedNetworkPlayerModel_}, playerDataModel{playerDataModel_}, menuWasLoaded{menuWasLoaded_}, isInMultiplayerLobby{isInMultiplayerLobby_}, browsingMenusRichPresenceData{browsingMenusRichPresenceData_}, inMultiplayerRichPresenceData{inMultiplayerRichPresenceData_}, playingCampaignRichPresenceData{playingCampaignRichPresenceData_}, playingTutorialPresenceData{playingTutorialPresenceData_}, currentPresenceData{currentPresenceData_} {}
+    RichPresenceManager(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData_ = {}, GlobalNamespace::ScenesTransitionSetupDataSO* tutorialScenesTransitionSetupData_ = {}, GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData_ = {}, GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData_ = {}, GlobalNamespace::MenuScenesTransitionSetupDataSO* menuScenesTransitionSetupData_ = {}, GlobalNamespace::IRichPresencePlatformHandler* richPresencePlatformHandler_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, GlobalNamespace::LobbyGameStateModel* lobbyGameStateModel_ = {}, GlobalNamespace::IUnifiedNetworkPlayerModel* unifiedNetworkPlayerModel_ = {}, GlobalNamespace::LobbyPlayerPermissionsModel* lobbyPlayerPermissionsModel_ = {}, bool menuWasLoaded_ = {}, bool isInMultiplayerLobby_ = {}, GlobalNamespace::BrowsingMenusRichPresenceData* browsingMenusRichPresenceData_ = {}, GlobalNamespace::InMultiplayerRichPresenceData* inMultiplayerRichPresenceData_ = {}, GlobalNamespace::PlayingCampaignRichPresenceData* playingCampaignRichPresenceData_ = {}, GlobalNamespace::PlayingTutorialPresenceData* playingTutorialPresenceData_ = {}, GlobalNamespace::IRichPresenceData* currentPresenceData_ = {}) noexcept : standardLevelScenesTransitionSetupData{standardLevelScenesTransitionSetupData_}, tutorialScenesTransitionSetupData{tutorialScenesTransitionSetupData_}, missionLevelScenesTransitionSetupData{missionLevelScenesTransitionSetupData_}, multiplayerLevelScenesTransitionSetupData{multiplayerLevelScenesTransitionSetupData_}, menuScenesTransitionSetupData{menuScenesTransitionSetupData_}, richPresencePlatformHandler{richPresencePlatformHandler_}, gameScenesManager{gameScenesManager_}, lobbyGameStateModel{lobbyGameStateModel_}, unifiedNetworkPlayerModel{unifiedNetworkPlayerModel_}, lobbyPlayerPermissionsModel{lobbyPlayerPermissionsModel_}, menuWasLoaded{menuWasLoaded_}, isInMultiplayerLobby{isInMultiplayerLobby_}, browsingMenusRichPresenceData{browsingMenusRichPresenceData_}, inMultiplayerRichPresenceData{inMultiplayerRichPresenceData_}, playingCampaignRichPresenceData{playingCampaignRichPresenceData_}, playingTutorialPresenceData{playingTutorialPresenceData_}, currentPresenceData{currentPresenceData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private StandardLevelScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData
@@ -194,8 +194,8 @@ namespace GlobalNamespace {
     GlobalNamespace::LobbyGameStateModel*& dyn__lobbyGameStateModel();
     // Get instance field reference: private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
     GlobalNamespace::IUnifiedNetworkPlayerModel*& dyn__unifiedNetworkPlayerModel();
-    // Get instance field reference: private readonly PlayerDataModel _playerDataModel
-    GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
+    // Get instance field reference: private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
+    GlobalNamespace::LobbyPlayerPermissionsModel*& dyn__lobbyPlayerPermissionsModel();
     // Get instance field reference: private System.Boolean _menuWasLoaded
     bool& dyn__menuWasLoaded();
     // Get instance field reference: private System.Boolean _isInMultiplayerLobby
@@ -211,31 +211,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private IRichPresenceData _currentPresenceData
     GlobalNamespace::IRichPresenceData*& dyn__currentPresenceData();
     // protected System.Void Awake()
-    // Offset: 0x118D6D4
+    // Offset: 0x1129F50
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x118D860
+    // Offset: 0x112A180
     void OnDestroy();
     // private System.Void HandleLobbyGameStateModelDidChange(MultiplayerGameState newGameState)
-    // Offset: 0x118DA04
+    // Offset: 0x112A398
     void HandleLobbyGameStateModelDidChange(GlobalNamespace::MultiplayerGameState newGameState);
     // private System.Void SetMenuPresence()
-    // Offset: 0x118DA20
+    // Offset: 0x112A3B4
     void SetMenuPresence();
     // private System.Void HandleGameScenesManagerTransitionDidFinish(ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject.DiContainer diContainer)
-    // Offset: 0x118DCA0
+    // Offset: 0x112A6B4
     void HandleGameScenesManagerTransitionDidFinish(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, Zenject::DiContainer* diContainer);
-    // private System.Void HandlePlayerDataDidChangeShareMultiplayerLobbyCodeInRichPresence()
-    // Offset: 0x118E044
-    void HandlePlayerDataDidChangeShareMultiplayerLobbyCodeInRichPresence();
+    // private System.Void HandleMultiplayerPartySizeChanged(System.Int32 currentPartySize)
+    // Offset: 0x112AAC0
+    void HandleMultiplayerPartySizeChanged(int currentPartySize);
+    // private System.Void HandleLobbyPlayerPermissionChanged()
+    // Offset: 0x112ACA4
+    void HandleLobbyPlayerPermissionChanged();
     // private System.Void SetPresence(IRichPresenceData presenceData)
-    // Offset: 0x118DBDC
+    // Offset: 0x112A5F0
     void SetPresence(GlobalNamespace::IRichPresenceData* presenceData);
     // private System.Void Clear()
-    // Offset: 0x118DF8C
+    // Offset: 0x112AA08
     void Clear();
     // public System.Void .ctor()
-    // Offset: 0x118E240
+    // Offset: 0x112AE1C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -297,12 +300,21 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RichPresenceManager*), "HandleGameScenesManagerTransitionDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scenesTransitionSetupData, diContainer});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::RichPresenceManager::HandlePlayerDataDidChangeShareMultiplayerLobbyCodeInRichPresence
-// Il2CppName: HandlePlayerDataDidChangeShareMultiplayerLobbyCodeInRichPresence
+// Writing MetadataGetter for method: GlobalNamespace::RichPresenceManager::HandleMultiplayerPartySizeChanged
+// Il2CppName: HandleMultiplayerPartySizeChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RichPresenceManager::*)()>(&GlobalNamespace::RichPresenceManager::HandlePlayerDataDidChangeShareMultiplayerLobbyCodeInRichPresence)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RichPresenceManager::*)(int)>(&GlobalNamespace::RichPresenceManager::HandleMultiplayerPartySizeChanged)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RichPresenceManager*), "HandlePlayerDataDidChangeShareMultiplayerLobbyCodeInRichPresence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    static auto* currentPartySize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RichPresenceManager*), "HandleMultiplayerPartySizeChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{currentPartySize});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::RichPresenceManager::HandleLobbyPlayerPermissionChanged
+// Il2CppName: HandleLobbyPlayerPermissionChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RichPresenceManager::*)()>(&GlobalNamespace::RichPresenceManager::HandleLobbyPlayerPermissionChanged)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RichPresenceManager*), "HandleLobbyPlayerPermissionChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::RichPresenceManager::SetPresence

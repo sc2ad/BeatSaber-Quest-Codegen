@@ -89,10 +89,10 @@ namespace Mono::Net::Security {
     // Get instance field reference: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.Int32> <>u__1
     typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x15E5778
+    // Offset: 0x15EEFAC
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x15E5B94
+    // Offset: 0x15EF3C8
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // Mono.Net.Security.AsyncProtocolRequest/Mono.Net.Security.<InnerRead>d__25
   // WARNING Not writing size check since size may be invalid!

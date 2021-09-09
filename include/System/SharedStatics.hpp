@@ -39,16 +39,16 @@ namespace System {
     // Get instance field reference: private System.Security.Util.Tokenizer/System.Security.Util.StringMaker _maker
     System::Security::Util::Tokenizer::StringMaker*& dyn__maker();
     // static private System.Void .cctor()
-    // Offset: 0x1C0424C
+    // Offset: 0x1C2F3E4
     static void _cctor();
     // static public System.Security.Util.Tokenizer/System.Security.Util.StringMaker GetSharedStringMaker()
-    // Offset: 0x1C02034
+    // Offset: 0x1C2D1CC
     static System::Security::Util::Tokenizer::StringMaker* GetSharedStringMaker();
     // static public System.Void ReleaseSharedStringMaker(ref System.Security.Util.Tokenizer/System.Security.Util.StringMaker maker)
-    // Offset: 0x1C0220C
+    // Offset: 0x1C2D3A4
     static void ReleaseSharedStringMaker(ByRef<System::Security::Util::Tokenizer::StringMaker*> maker);
     // private System.Void .ctor()
-    // Offset: 0x1C04244
+    // Offset: 0x1C2F3DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

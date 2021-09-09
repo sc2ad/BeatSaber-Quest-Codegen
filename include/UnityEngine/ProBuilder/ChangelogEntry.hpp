@@ -44,20 +44,20 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: private System.String m_ReleaseNotes
     ::Il2CppString*& dyn_m_ReleaseNotes();
     // public UnityEngine.ProBuilder.SemVer get_versionInfo()
-    // Offset: 0x1FA9FA4
+    // Offset: 0x1FA9C68
     UnityEngine::ProBuilder::SemVer* get_versionInfo();
     // public System.String get_releaseNotes()
-    // Offset: 0x1FA9FAC
+    // Offset: 0x1FA9C70
     ::Il2CppString* get_releaseNotes();
     // public System.Void .ctor(UnityEngine.ProBuilder.SemVer version, System.String releaseNotes)
-    // Offset: 0x1FA9F6C
+    // Offset: 0x1FA9C30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChangelogEntry* New_ctor(UnityEngine::ProBuilder::SemVer* version, ::Il2CppString* releaseNotes) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ChangelogEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChangelogEntry*, creationType>(version, releaseNotes)));
     }
     // public override System.String ToString()
-    // Offset: 0x1FA9FB4
+    // Offset: 0x1FA9C78
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

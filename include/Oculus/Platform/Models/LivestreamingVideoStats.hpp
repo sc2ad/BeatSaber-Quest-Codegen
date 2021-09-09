@@ -47,7 +47,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.String TotalViews
     ::Il2CppString*& dyn_TotalViews();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14EC3D8
+    // Offset: 0x1530FA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LivestreamingVideoStats* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LivestreamingVideoStats::.ctor");

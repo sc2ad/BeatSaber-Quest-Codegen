@@ -25,35 +25,35 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class AnimationTriggers : public ::Il2CppObject {
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0xDE67E0
+    // [FormerlySerializedAsAttribute] Offset: 0xDEB750
     // private System.String m_NormalTrigger
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* m_NormalTrigger;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xDE682C
+    // [FormerlySerializedAsAttribute] Offset: 0xDEB79C
     // private System.String m_HighlightedTrigger
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* m_HighlightedTrigger;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xDE6878
+    // [FormerlySerializedAsAttribute] Offset: 0xDEB7E8
     // private System.String m_PressedTrigger
     // Size: 0x8
     // Offset: 0x20
     ::Il2CppString* m_PressedTrigger;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xDE68C4
+    // [FormerlySerializedAsAttribute] Offset: 0xDEB834
     // private System.String m_SelectedTrigger
     // Size: 0x8
     // Offset: 0x28
     ::Il2CppString* m_SelectedTrigger;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xDE6910
+    // [FormerlySerializedAsAttribute] Offset: 0xDEB880
     // private System.String m_DisabledTrigger
     // Size: 0x8
     // Offset: 0x30
@@ -103,37 +103,37 @@ namespace UnityEngine::UI {
     // Get instance field reference: private System.String m_DisabledTrigger
     ::Il2CppString*& dyn_m_DisabledTrigger();
     // public System.String get_normalTrigger()
-    // Offset: 0x1470D68
+    // Offset: 0x1478D24
     ::Il2CppString* get_normalTrigger();
     // public System.Void set_normalTrigger(System.String value)
-    // Offset: 0x1470D70
+    // Offset: 0x1478D2C
     void set_normalTrigger(::Il2CppString* value);
     // public System.String get_highlightedTrigger()
-    // Offset: 0x1470D78
+    // Offset: 0x1478D34
     ::Il2CppString* get_highlightedTrigger();
     // public System.Void set_highlightedTrigger(System.String value)
-    // Offset: 0x1470D80
+    // Offset: 0x1478D3C
     void set_highlightedTrigger(::Il2CppString* value);
     // public System.String get_pressedTrigger()
-    // Offset: 0x1470D88
+    // Offset: 0x1478D44
     ::Il2CppString* get_pressedTrigger();
     // public System.Void set_pressedTrigger(System.String value)
-    // Offset: 0x1470D90
+    // Offset: 0x1478D4C
     void set_pressedTrigger(::Il2CppString* value);
     // public System.String get_selectedTrigger()
-    // Offset: 0x1470D98
+    // Offset: 0x1478D54
     ::Il2CppString* get_selectedTrigger();
     // public System.Void set_selectedTrigger(System.String value)
-    // Offset: 0x1470DA0
+    // Offset: 0x1478D5C
     void set_selectedTrigger(::Il2CppString* value);
     // public System.String get_disabledTrigger()
-    // Offset: 0x1470DA8
+    // Offset: 0x1478D64
     ::Il2CppString* get_disabledTrigger();
     // public System.Void set_disabledTrigger(System.String value)
-    // Offset: 0x1470DB0
+    // Offset: 0x1478D6C
     void set_disabledTrigger(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x1470DB8
+    // Offset: 0x1478D74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

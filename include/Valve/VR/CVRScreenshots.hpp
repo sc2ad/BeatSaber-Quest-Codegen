@@ -53,32 +53,32 @@ namespace Valve::VR {
     // Get instance field reference: private Valve.VR.IVRScreenshots FnTable
     Valve::VR::IVRScreenshots& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x170D7E8
+    // Offset: 0x171401C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRScreenshots* New_ctor(System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::CVRScreenshots::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRScreenshots*, creationType>(pInterface)));
     }
     // public Valve.VR.EVRScreenshotError RequestScreenshot(ref System.UInt32 pOutScreenshotHandle, Valve.VR.EVRScreenshotType type, System.String pchPreviewFilename, System.String pchVRFilename)
-    // Offset: 0x170D8F8
+    // Offset: 0x171412C
     Valve::VR::EVRScreenshotError RequestScreenshot(ByRef<uint> pOutScreenshotHandle, Valve::VR::EVRScreenshotType type, ::Il2CppString* pchPreviewFilename, ::Il2CppString* pchVRFilename);
     // public Valve.VR.EVRScreenshotError HookScreenshot(Valve.VR.EVRScreenshotType[] pSupportedTypes)
-    // Offset: 0x170D918
+    // Offset: 0x171414C
     Valve::VR::EVRScreenshotError HookScreenshot(::Array<Valve::VR::EVRScreenshotType>* pSupportedTypes);
     // public Valve.VR.EVRScreenshotType GetScreenshotPropertyType(System.UInt32 screenshotHandle, ref Valve.VR.EVRScreenshotError pError)
-    // Offset: 0x170D940
+    // Offset: 0x1714174
     Valve::VR::EVRScreenshotType GetScreenshotPropertyType(uint screenshotHandle, ByRef<Valve::VR::EVRScreenshotError> pError);
     // public System.UInt32 GetScreenshotPropertyFilename(System.UInt32 screenshotHandle, Valve.VR.EVRScreenshotPropertyFilenames filenameType, System.Text.StringBuilder pchFilename, System.UInt32 cchFilename, ref Valve.VR.EVRScreenshotError pError)
-    // Offset: 0x170D95C
+    // Offset: 0x1714190
     uint GetScreenshotPropertyFilename(uint screenshotHandle, Valve::VR::EVRScreenshotPropertyFilenames filenameType, System::Text::StringBuilder* pchFilename, uint cchFilename, ByRef<Valve::VR::EVRScreenshotError> pError);
     // public Valve.VR.EVRScreenshotError UpdateScreenshotProgress(System.UInt32 screenshotHandle, System.Single flProgress)
-    // Offset: 0x17005B0
+    // Offset: 0x1706DE4
     Valve::VR::EVRScreenshotError UpdateScreenshotProgress(uint screenshotHandle, float flProgress);
     // public Valve.VR.EVRScreenshotError TakeStereoScreenshot(ref System.UInt32 pOutScreenshotHandle, System.String pchPreviewFilename, System.String pchVRFilename)
-    // Offset: 0x170D978
+    // Offset: 0x17141AC
     Valve::VR::EVRScreenshotError TakeStereoScreenshot(ByRef<uint> pOutScreenshotHandle, ::Il2CppString* pchPreviewFilename, ::Il2CppString* pchVRFilename);
     // public Valve.VR.EVRScreenshotError SubmitScreenshot(System.UInt32 screenshotHandle, Valve.VR.EVRScreenshotType type, System.String pchSourcePreviewFilename, System.String pchSourceVRFilename)
-    // Offset: 0x170D998
+    // Offset: 0x17141CC
     Valve::VR::EVRScreenshotError SubmitScreenshot(uint screenshotHandle, Valve::VR::EVRScreenshotType type, ::Il2CppString* pchSourcePreviewFilename, ::Il2CppString* pchSourceVRFilename);
   }; // Valve.VR.CVRScreenshots
   #pragma pack(pop)

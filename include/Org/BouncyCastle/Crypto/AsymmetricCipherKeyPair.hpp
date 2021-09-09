@@ -44,13 +44,13 @@ namespace Org::BouncyCastle::Crypto {
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.AsymmetricKeyParameter privateParameter
     Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& dyn_privateParameter();
     // public Org.BouncyCastle.Crypto.AsymmetricKeyParameter get_Public()
-    // Offset: 0x1A0B848
+    // Offset: 0x1A1007C
     Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Public();
     // public Org.BouncyCastle.Crypto.AsymmetricKeyParameter get_Private()
-    // Offset: 0x1A0B850
+    // Offset: 0x1A10084
     Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Private();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.AsymmetricKeyParameter publicParameter, Org.BouncyCastle.Crypto.AsymmetricKeyParameter privateParameter)
-    // Offset: 0x1A0B760
+    // Offset: 0x1A0FF94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsymmetricCipherKeyPair* New_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicParameter, Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateParameter) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::.ctor");

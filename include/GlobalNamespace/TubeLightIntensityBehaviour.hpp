@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TubeLightIntensityBehaviour : public UnityEngine::Playables::PlayableBehaviour {
     public:
-    // [HeaderAttribute] Offset: 0xE45CAC
+    // [HeaderAttribute] Offset: 0xE4BCF8
     // public System.Boolean _noPredefinedStartValue
     // Size: 0x1
     // Offset: 0x10
@@ -45,21 +45,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: noPredefinedStartValue and: startLightIntensity
     char __padding0[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xE45CE4
+    // [DrawIfAttribute] Offset: 0xE4BD30
     // public System.Single _startLightIntensity
     // Size: 0x4
     // Offset: 0x14
     float startLightIntensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0xE45D78
+    // [DrawIfAttribute] Offset: 0xE4BDC4
     // public System.Single _startLaserIntensity
     // Size: 0x4
     // Offset: 0x18
     float startLaserIntensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0xE45E0C
+    // [HeaderAttribute] Offset: 0xE4BE58
     // public System.Single _endLightIntensity
     // Size: 0x4
     // Offset: 0x1C
@@ -179,10 +179,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _firstFrameLaserIntensity
     float& dyn__firstFrameLaserIntensity();
     // private System.Void EnableObjects(System.Boolean on)
-    // Offset: 0x1098428
+    // Offset: 0x107522C
     void EnableObjects(bool on);
     // public System.Void .ctor()
-    // Offset: 0x1098604
+    // Offset: 0x1075408
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -192,12 +192,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TubeLightIntensityBehaviour*, creationType>()));
     }
     // public override System.Void ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
-    // Offset: 0x1098070
+    // Offset: 0x1074E74
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
     void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);
     // public override System.Void OnPlayableDestroy(UnityEngine.Playables.Playable playable)
-    // Offset: 0x1098508
+    // Offset: 0x107530C
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnPlayableDestroy(UnityEngine.Playables.Playable playable)
     void OnPlayableDestroy(UnityEngine::Playables::Playable playable);

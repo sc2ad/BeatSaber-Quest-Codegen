@@ -42,10 +42,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private BTSCharacterMaterialSwitcher/RendererMaterialsPairs[] _rendererMaterialsPairs
     ::Array<GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*>*& dyn__rendererMaterialsPairs();
     // public System.Void SwapMaterials(System.Boolean alternative)
-    // Offset: 0x1186448
+    // Offset: 0x11800C0
     void SwapMaterials(bool alternative);
     // public System.Void .ctor()
-    // Offset: 0x11866D0
+    // Offset: 0x1180348
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

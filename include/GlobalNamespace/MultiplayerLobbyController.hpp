@@ -45,28 +45,28 @@ namespace GlobalNamespace {
     float minOuterCircleRadius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xE4091C
+    // [InjectAttribute] Offset: 0xE4689C
     // private readonly MultiplayerLobbyAvatarManager _multiplayerLobbyAvatarManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::MultiplayerLobbyAvatarManager* multiplayerLobbyAvatarManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLobbyAvatarManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE4092C
+    // [InjectAttribute] Offset: 0xE468AC
     // private readonly MultiplayerLobbyCenterStageManager _multiplayerLobbyCenterStageManager
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::MultiplayerLobbyCenterStageManager* multiplayerLobbyCenterStageManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLobbyCenterStageManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE4093C
+    // [InjectAttribute] Offset: 0xE468BC
     // private readonly MultiplayerLobbyAvatarPlaceManager _multiplayerLobbyAvatarPlaceManager
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::MultiplayerLobbyAvatarPlaceManager* multiplayerLobbyAvatarPlaceManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLobbyAvatarPlaceManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE4094C
+    // [InjectAttribute] Offset: 0xE468CC
     // private readonly MenuEnvironmentManager _menuEnvironmentManager
     // Size: 0x8
     // Offset: 0x38
@@ -98,19 +98,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <lobbyActivated>k__BackingField
     bool& dyn_$lobbyActivated$k__BackingField();
     // public System.Boolean get_lobbyActivated()
-    // Offset: 0x1064414
+    // Offset: 0x1080B14
     bool get_lobbyActivated();
     // private System.Void set_lobbyActivated(System.Boolean value)
-    // Offset: 0x106441C
+    // Offset: 0x1080B1C
     void set_lobbyActivated(bool value);
     // public System.Void ActivateMultiplayerLobby()
-    // Offset: 0x1064428
+    // Offset: 0x1080B28
     void ActivateMultiplayerLobby();
     // public System.Void DeactivateMultiplayerLobby()
-    // Offset: 0x10644C4
+    // Offset: 0x1080BC4
     void DeactivateMultiplayerLobby();
     // public System.Void .ctor()
-    // Offset: 0x1064538
+    // Offset: 0x1080C38
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

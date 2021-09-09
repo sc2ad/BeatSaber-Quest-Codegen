@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: FloatSignal
     FloatSignal() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x12601A4
+    // Offset: 0x1264B6C
     // Implemented from: GenericSignal`1
     // Base method: System.Void GenericSignal_1::.ctor()
     // Base method: System.Void Signal::.ctor()

@@ -29,7 +29,7 @@ namespace UnityEngine::AddressableAssets {
     // Creating value type constructor for type: AssetReferenceTexture3D
     AssetReferenceTexture3D() noexcept {}
     // public System.Void .ctor(System.String guid)
-    // Offset: 0x1443EA4
+    // Offset: 0x144BE60
     // Implemented from: UnityEngine.AddressableAssets.AssetReferenceT`1
     // Base method: System.Void AssetReferenceT_1::.ctor(System.String guid)
     // Base method: System.Void AssetReference::.ctor(System.String guid)

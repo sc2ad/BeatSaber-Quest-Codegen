@@ -102,26 +102,26 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Boolean _matchAll
     bool& dyn__matchAll();
     // public System.Boolean get_IsCached()
-    // Offset: 0x1719EAC
+    // Offset: 0x17206E0
     bool get_IsCached();
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0x1719EB4
+    // Offset: 0x17206E8
     bool get_TypeVariesBasedOnMemberType();
     // public System.Void .ctor(System.Type contractType, Zenject.DiContainer container, System.Object identifier, System.Boolean isOptional, Zenject.InjectSources source, System.Boolean matchAll)
-    // Offset: 0x1719E3C
+    // Offset: 0x1720670
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResolveProvider* New_ctor(System::Type* contractType, Zenject::DiContainer* container, ::Il2CppObject* identifier, bool isOptional, Zenject::InjectSources source, bool matchAll) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ResolveProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResolveProvider*, creationType>(contractType, container, identifier, isOptional, source, matchAll)));
     }
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0x1719EBC
+    // Offset: 0x17206F0
     System::Type* GetInstanceType(Zenject::InjectContext* context);
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x1719EC4
+    // Offset: 0x17206F8
     void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, ByRef<System::Action*> injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
     // private Zenject.InjectContext GetSubContext(Zenject.InjectContext parent)
-    // Offset: 0x171A004
+    // Offset: 0x1720838
     Zenject::InjectContext* GetSubContext(Zenject::InjectContext* parent);
   }; // Zenject.ResolveProvider
   #pragma pack(pop)

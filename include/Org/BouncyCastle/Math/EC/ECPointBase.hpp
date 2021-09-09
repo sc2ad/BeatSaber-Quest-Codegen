@@ -37,7 +37,7 @@ namespace Org::BouncyCastle::Math::EC {
     // Creating value type constructor for type: ECPointBase
     ECPointBase() noexcept {}
     // protected internal System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, System.Boolean withCompression)
-    // Offset: 0x2145528
+    // Offset: 0x21431EC
     // Implemented from: Org.BouncyCastle.Math.EC.ECPoint
     // Base method: System.Void ECPoint::.ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, System.Boolean withCompression)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -46,7 +46,7 @@ namespace Org::BouncyCastle::Math::EC {
       return THROW_UNLESS((::il2cpp_utils::New<ECPointBase*, creationType>(curve, x, y, withCompression)));
     }
     // protected internal System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Boolean withCompression)
-    // Offset: 0x21455BC
+    // Offset: 0x2143280
     // Implemented from: Org.BouncyCastle.Math.EC.ECPoint
     // Base method: System.Void ECPoint::.ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Boolean withCompression)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -55,12 +55,12 @@ namespace Org::BouncyCastle::Math::EC {
       return THROW_UNLESS((::il2cpp_utils::New<ECPointBase*, creationType>(curve, x, y, zs, withCompression)));
     }
     // public override System.Byte[] GetEncoded(System.Boolean compressed)
-    // Offset: 0x2145668
+    // Offset: 0x214332C
     // Implemented from: Org.BouncyCastle.Math.EC.ECPoint
     // Base method: System.Byte[] ECPoint::GetEncoded(System.Boolean compressed)
     ::Array<uint8_t>* GetEncoded(bool compressed);
     // public override Org.BouncyCastle.Math.EC.ECPoint Multiply(Org.BouncyCastle.Math.BigInteger k)
-    // Offset: 0x2145840
+    // Offset: 0x2143504
     // Implemented from: Org.BouncyCastle.Math.EC.ECPoint
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECPoint::Multiply(Org.BouncyCastle.Math.BigInteger k)
     Org::BouncyCastle::Math::EC::ECPoint* Multiply(Org::BouncyCastle::Math::BigInteger* k);

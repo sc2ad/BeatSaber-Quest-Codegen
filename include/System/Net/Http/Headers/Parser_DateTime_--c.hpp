@@ -28,13 +28,13 @@ namespace System::Net::Http::Headers {
     // Set static field: static public readonly System.Net.Http.Headers.Parser/System.Net.Http.Headers.DateTime/System.Net.Http.Headers.<>c <>9
     static void _set_$$9(System::Net::Http::Headers::Parser::DateTime::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x15A5BD8
+    // Offset: 0x15B040C
     static void _cctor();
     // System.String <.cctor>b__2_0(System.Object l)
-    // Offset: 0x15A5C44
+    // Offset: 0x15B0478
     ::Il2CppString* $_cctor$b__2_0(::Il2CppObject* l);
     // public System.Void .ctor()
-    // Offset: 0x15A5C3C
+    // Offset: 0x15B0470
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

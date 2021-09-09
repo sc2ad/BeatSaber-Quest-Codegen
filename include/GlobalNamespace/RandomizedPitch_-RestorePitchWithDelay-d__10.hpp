@@ -66,26 +66,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public RandomizedPitch <>4__this
     GlobalNamespace::RandomizedPitch*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x126B8E0
+    // Offset: 0x12702A8
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x126B948
+    // Offset: 0x1270310
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x126B6B0
+    // Offset: 0x1270078
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RandomizedPitch::$RestorePitchWithDelay$d__10* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RandomizedPitch::$RestorePitchWithDelay$d__10::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RandomizedPitch::$RestorePitchWithDelay$d__10*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x126B81C
+    // Offset: 0x12701E4
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x126B820
+    // Offset: 0x12701E8
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x126B8E8
+    // Offset: 0x12702B0
     void System_Collections_IEnumerator_Reset();
   }; // RandomizedPitch/<RestorePitchWithDelay>d__10
   #pragma pack(pop)

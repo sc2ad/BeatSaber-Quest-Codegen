@@ -48,10 +48,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _stateName
     ::Il2CppString*& dyn__stateName();
     // protected System.Void Start()
-    // Offset: 0x126B34C
+    // Offset: 0x126FD14
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x126B390
+    // Offset: 0x126FD58
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

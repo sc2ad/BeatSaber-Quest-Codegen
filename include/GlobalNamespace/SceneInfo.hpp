@@ -41,13 +41,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _disabledRootObjects
     bool& dyn__disabledRootObjects();
     // public System.String get_sceneName()
-    // Offset: 0x2396DE4
+    // Offset: 0x2392ACC
     ::Il2CppString* get_sceneName();
     // public System.Boolean get_disabledRootObjects()
-    // Offset: 0x2396DEC
+    // Offset: 0x2392AD4
     bool get_disabledRootObjects();
     // public System.Void .ctor()
-    // Offset: 0x2396DF4
+    // Offset: 0x2392ADC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

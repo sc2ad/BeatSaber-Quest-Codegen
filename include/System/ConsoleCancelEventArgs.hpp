@@ -41,17 +41,17 @@ namespace System {
     // Get instance field reference: private System.Boolean _cancel
     bool& dyn__cancel();
     // public System.Boolean get_Cancel()
-    // Offset: 0x19BA918
+    // Offset: 0x19C014C
     bool get_Cancel();
     // System.Void .ctor(System.ConsoleSpecialKey type)
-    // Offset: 0x19B9D58
+    // Offset: 0x19BF58C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConsoleCancelEventArgs* New_ctor(System::ConsoleSpecialKey type) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ConsoleCancelEventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConsoleCancelEventArgs*, creationType>(type)));
     }
     // System.Void .ctor()
-    // Offset: 0x19BA920
+    // Offset: 0x19C0154
     // Implemented from: System.EventArgs
     // Base method: System.Void EventArgs::.ctor()
     // Base method: System.Void Object::.ctor()

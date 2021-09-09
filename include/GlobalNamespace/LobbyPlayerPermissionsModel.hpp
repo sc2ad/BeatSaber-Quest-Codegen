@@ -34,14 +34,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LobbyPlayerPermissionsModel : public ::Il2CppObject {
     public:
-    // [InjectAttribute] Offset: 0xE348F8
+    // [InjectAttribute] Offset: 0xE3A868
     // private readonly IMenuRpcManager _menuRpcManager
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::IMenuRpcManager* menuRpcManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMenuRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE34908
+    // [InjectAttribute] Offset: 0xE3A878
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x18
@@ -72,8 +72,14 @@ namespace GlobalNamespace {
     bool hasKickVotePermission;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Padding between fields: hasKickVotePermission and: permissionsChangedEvent
-    char __padding5[0x4] = {};
+    // private System.Boolean <hasInvitePermission>k__BackingField
+    // Size: 0x1
+    // Offset: 0x24
+    bool hasInvitePermission;
+    // Field size check
+    static_assert(sizeof(bool) == 0x1);
+    // Padding between fields: hasInvitePermission and: permissionsChangedEvent
+    char __padding6[0x3] = {};
     // private System.Action permissionsChangedEvent
     // Size: 0x8
     // Offset: 0x28
@@ -81,7 +87,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
     // Creating value type constructor for type: LobbyPlayerPermissionsModel
-    LobbyPlayerPermissionsModel(GlobalNamespace::IMenuRpcManager* menuRpcManager_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, bool isPartyOwner_ = {}, bool hasRecommendBeatmapPermission_ = {}, bool hasRecommendModifiersPermission_ = {}, bool hasKickVotePermission_ = {}, System::Action* permissionsChangedEvent_ = {}) noexcept : menuRpcManager{menuRpcManager_}, multiplayerSessionManager{multiplayerSessionManager_}, isPartyOwner{isPartyOwner_}, hasRecommendBeatmapPermission{hasRecommendBeatmapPermission_}, hasRecommendModifiersPermission{hasRecommendModifiersPermission_}, hasKickVotePermission{hasKickVotePermission_}, permissionsChangedEvent{permissionsChangedEvent_} {}
+    LobbyPlayerPermissionsModel(GlobalNamespace::IMenuRpcManager* menuRpcManager_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, bool isPartyOwner_ = {}, bool hasRecommendBeatmapPermission_ = {}, bool hasRecommendModifiersPermission_ = {}, bool hasKickVotePermission_ = {}, bool hasInvitePermission_ = {}, System::Action* permissionsChangedEvent_ = {}) noexcept : menuRpcManager{menuRpcManager_}, multiplayerSessionManager{multiplayerSessionManager_}, isPartyOwner{isPartyOwner_}, hasRecommendBeatmapPermission{hasRecommendBeatmapPermission_}, hasRecommendModifiersPermission{hasRecommendModifiersPermission_}, hasKickVotePermission{hasKickVotePermission_}, hasInvitePermission{hasInvitePermission_}, permissionsChangedEvent{permissionsChangedEvent_} {}
     // Get instance field reference: private readonly IMenuRpcManager _menuRpcManager
     GlobalNamespace::IMenuRpcManager*& dyn__menuRpcManager();
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
@@ -94,52 +100,60 @@ namespace GlobalNamespace {
     bool& dyn_$hasRecommendModifiersPermission$k__BackingField();
     // Get instance field reference: private System.Boolean <hasKickVotePermission>k__BackingField
     bool& dyn_$hasKickVotePermission$k__BackingField();
+    // Get instance field reference: private System.Boolean <hasInvitePermission>k__BackingField
+    bool& dyn_$hasInvitePermission$k__BackingField();
     // Get instance field reference: private System.Action permissionsChangedEvent
     System::Action*& dyn_permissionsChangedEvent();
     // public System.Boolean get_isPartyOwner()
-    // Offset: 0x120756C
+    // Offset: 0x120DDFC
     bool get_isPartyOwner();
     // private System.Void set_isPartyOwner(System.Boolean value)
-    // Offset: 0x1207574
+    // Offset: 0x120DE04
     void set_isPartyOwner(bool value);
     // public System.Boolean get_hasRecommendBeatmapPermission()
-    // Offset: 0x1207580
+    // Offset: 0x120DE10
     bool get_hasRecommendBeatmapPermission();
     // private System.Void set_hasRecommendBeatmapPermission(System.Boolean value)
-    // Offset: 0x1207588
+    // Offset: 0x120DE18
     void set_hasRecommendBeatmapPermission(bool value);
     // public System.Boolean get_hasRecommendModifiersPermission()
-    // Offset: 0x1207594
+    // Offset: 0x120DE24
     bool get_hasRecommendModifiersPermission();
     // private System.Void set_hasRecommendModifiersPermission(System.Boolean value)
-    // Offset: 0x120759C
+    // Offset: 0x120DE2C
     void set_hasRecommendModifiersPermission(bool value);
     // public System.Boolean get_hasKickVotePermission()
-    // Offset: 0x12075A8
+    // Offset: 0x120DE38
     bool get_hasKickVotePermission();
     // private System.Void set_hasKickVotePermission(System.Boolean value)
-    // Offset: 0x12075B0
+    // Offset: 0x120DE40
     void set_hasKickVotePermission(bool value);
+    // public System.Boolean get_hasInvitePermission()
+    // Offset: 0x120DE4C
+    bool get_hasInvitePermission();
+    // private System.Void set_hasInvitePermission(System.Boolean value)
+    // Offset: 0x120DE54
+    void set_hasInvitePermission(bool value);
     // public System.Void add_permissionsChangedEvent(System.Action value)
-    // Offset: 0x12075BC
+    // Offset: 0x120DE60
     void add_permissionsChangedEvent(System::Action* value);
     // public System.Void remove_permissionsChangedEvent(System.Action value)
-    // Offset: 0x1207660
+    // Offset: 0x120DF04
     void remove_permissionsChangedEvent(System::Action* value);
     // public System.Void Activate()
-    // Offset: 0x1202934
+    // Offset: 0x12091B4
     void Activate();
     // public System.Void Deactivate()
-    // Offset: 0x1202BD0
+    // Offset: 0x1209450
     void Deactivate();
-    // public System.Void SetPlayerPermissions(System.Boolean isPartyOwner, System.Boolean hasRecommendBeatmapPermission, System.Boolean hasRecommendModifiersPermission, System.Boolean hasKickVotePermission)
-    // Offset: 0x12070B4
-    void SetPlayerPermissions(bool isPartyOwner, bool hasRecommendBeatmapPermission, bool hasRecommendModifiersPermission, bool hasKickVotePermission);
+    // public System.Void SetPlayerPermissions(System.Boolean isPartyOwner, System.Boolean hasRecommendBeatmapPermission, System.Boolean hasRecommendModifiersPermission, System.Boolean hasKickVotePermission, System.Boolean hasInvitePermission)
+    // Offset: 0x120D93C
+    void SetPlayerPermissions(bool isPartyOwner, bool hasRecommendBeatmapPermission, bool hasRecommendModifiersPermission, bool hasKickVotePermission, bool hasInvitePermission);
     // private System.Void HandleMenuRpcManagerSetPlayersPermissionConfiguration(System.String userId, PlayersLobbyPermissionConfigurationNetSerializable playersLobbyPermissionConfiguration)
-    // Offset: 0x1207704
+    // Offset: 0x120DFA8
     void HandleMenuRpcManagerSetPlayersPermissionConfiguration(::Il2CppString* userId, GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* playersLobbyPermissionConfiguration);
     // public System.Void .ctor()
-    // Offset: 0x1207954
+    // Offset: 0x120E200
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -222,6 +236,23 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyPlayerPermissionsModel*), "set_hasKickVotePermission", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::LobbyPlayerPermissionsModel::get_hasInvitePermission
+// Il2CppName: get_hasInvitePermission
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LobbyPlayerPermissionsModel::*)()>(&GlobalNamespace::LobbyPlayerPermissionsModel::get_hasInvitePermission)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyPlayerPermissionsModel*), "get_hasInvitePermission", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::LobbyPlayerPermissionsModel::set_hasInvitePermission
+// Il2CppName: set_hasInvitePermission
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyPlayerPermissionsModel::*)(bool)>(&GlobalNamespace::LobbyPlayerPermissionsModel::set_hasInvitePermission)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyPlayerPermissionsModel*), "set_hasInvitePermission", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LobbyPlayerPermissionsModel::add_permissionsChangedEvent
 // Il2CppName: add_permissionsChangedEvent
 template<>
@@ -259,13 +290,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LobbyPlayerPermissionsModel::SetPlayerPermissions
 // Il2CppName: SetPlayerPermissions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyPlayerPermissionsModel::*)(bool, bool, bool, bool)>(&GlobalNamespace::LobbyPlayerPermissionsModel::SetPlayerPermissions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyPlayerPermissionsModel::*)(bool, bool, bool, bool, bool)>(&GlobalNamespace::LobbyPlayerPermissionsModel::SetPlayerPermissions)> {
   static const MethodInfo* get() {
     static auto* isPartyOwner = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* hasRecommendBeatmapPermission = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* hasRecommendModifiersPermission = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* hasKickVotePermission = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyPlayerPermissionsModel*), "SetPlayerPermissions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isPartyOwner, hasRecommendBeatmapPermission, hasRecommendModifiersPermission, hasKickVotePermission});
+    static auto* hasInvitePermission = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyPlayerPermissionsModel*), "SetPlayerPermissions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isPartyOwner, hasRecommendBeatmapPermission, hasRecommendModifiersPermission, hasKickVotePermission, hasInvitePermission});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LobbyPlayerPermissionsModel::HandleMenuRpcManagerSetPlayersPermissionConfiguration

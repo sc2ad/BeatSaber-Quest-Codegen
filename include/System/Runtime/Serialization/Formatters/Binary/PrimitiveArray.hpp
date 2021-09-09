@@ -128,17 +128,17 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: private System.UInt64[] uint64A
     ::Array<uint64_t>*& dyn_uint64A();
     // System.Void .ctor(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code, System.Array array)
-    // Offset: 0x161C0C8
+    // Offset: 0x16248FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrimitiveArray* New_ctor(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, System::Array* array) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrimitiveArray*, creationType>(code, array)));
     }
     // System.Void Init(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code, System.Array array)
-    // Offset: 0x16201D4
+    // Offset: 0x1628A08
     void Init(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, System::Array* array);
     // System.Void SetValue(System.String value, System.Int32 index)
-    // Offset: 0x161C9FC
+    // Offset: 0x1625230
     void SetValue(::Il2CppString* value, int index);
   }; // System.Runtime.Serialization.Formatters.Binary.PrimitiveArray
   #pragma pack(pop)

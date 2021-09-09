@@ -48,26 +48,26 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1Object _params
     Org::BouncyCastle::Asn1::Asn1Object*& dyn__params();
     // public System.Boolean get_IsNamedCurve()
-    // Offset: 0x1A08158
+    // Offset: 0x1A0C98C
     bool get_IsNamedCurve();
     // public System.Boolean get_IsImplicitlyCA()
-    // Offset: 0x1A081DC
+    // Offset: 0x1A0CA10
     bool get_IsImplicitlyCA();
     // public Org.BouncyCastle.Asn1.Asn1Object get_Parameters()
-    // Offset: 0x1A08260
+    // Offset: 0x1A0CA94
     Org::BouncyCastle::Asn1::Asn1Object* get_Parameters();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Object obj)
-    // Offset: 0x1A0812C
+    // Offset: 0x1A0C960
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X962Parameters* New_ctor(Org::BouncyCastle::Asn1::Asn1Object* obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X962Parameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X962Parameters*, creationType>(obj)));
     }
     // static public Org.BouncyCastle.Asn1.X9.X962Parameters GetInstance(System.Object obj)
-    // Offset: 0x1A07EB0
+    // Offset: 0x1A0C6E4
     static Org::BouncyCastle::Asn1::X9::X962Parameters* GetInstance(::Il2CppObject* obj);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1A08268
+    // Offset: 0x1A0CA9C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

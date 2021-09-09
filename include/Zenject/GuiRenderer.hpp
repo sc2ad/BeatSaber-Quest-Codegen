@@ -40,13 +40,13 @@ namespace Zenject {
     // Get instance field reference: private Zenject.GuiRenderableManager _renderableManager
     Zenject::GuiRenderableManager*& dyn__renderableManager();
     // private System.Void Construct(Zenject.GuiRenderableManager renderableManager)
-    // Offset: 0x1660588
+    // Offset: 0x1667DBC
     void Construct(Zenject::GuiRenderableManager* renderableManager);
     // public System.Void OnGUI()
-    // Offset: 0x1660590
+    // Offset: 0x1667DC4
     void OnGUI();
     // public System.Void .ctor()
-    // Offset: 0x16605A8
+    // Offset: 0x1667DDC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -35,31 +35,31 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kDepthOnlyShaderName();
     // Set static field: static private System.String kDepthOnlyShaderName
     static void _set_kDepthOnlyShaderName(::Il2CppString* value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE44CA0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE4AC94
     // Get static field: static private readonly System.Int32 _zWritePropertyId
     static int _get__zWritePropertyId();
     // Set static field: static private readonly System.Int32 _zWritePropertyId
     static void _set__zWritePropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE44CB0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE4ACA4
     // Get static field: static private readonly System.Int32 _stencilRefValuePropertyId
     static int _get__stencilRefValuePropertyId();
     // Set static field: static private readonly System.Int32 _stencilRefValuePropertyId
     static void _set__stencilRefValuePropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE44CC0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE4ACB4
     // Get static field: static private readonly System.Int32 _stencilCompPropertyId
     static int _get__stencilCompPropertyId();
     // Set static field: static private readonly System.Int32 _stencilCompPropertyId
     static void _set__stencilCompPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE44CD0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE4ACC4
     // Get static field: static private readonly System.Int32 _stencilPassOpPropertyId
     static int _get__stencilPassOpPropertyId();
     // Set static field: static private readonly System.Int32 _stencilPassOpPropertyId
     static void _set__stencilPassOpPropertyId(int value);
     // static private System.Void .cctor()
-    // Offset: 0x11E3EBC
+    // Offset: 0x11D9FAC
     static void _cctor();
     // static public System.Void ValidateLoadedEnvironmentScene()
-    // Offset: 0x11E3A2C
+    // Offset: 0x11D9B1C
     static void ValidateLoadedEnvironmentScene();
   }; // BakedLightUtils
   #pragma pack(pop)

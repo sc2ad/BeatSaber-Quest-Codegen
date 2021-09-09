@@ -182,26 +182,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _maxNotesAlignmentAngle
     float& dyn__maxNotesAlignmentAngle();
     // public System.Void .ctor(BeatmapCallbackItemDataList/SpawnBasicNoteCallback spawnBasicNoteCallback, BeatmapCallbackItemDataList/SpawnBombNoteCallback spawnBombNoteCallback, BeatmapCallbackItemDataList/SpawnObstacleCallback spawnObstacleCallback, BeatmapCallbackItemDataList/ProcessBeatmapEventCallback processEarlyBeatmapEventCallback, BeatmapCallbackItemDataList/ProcessBeatmapEventCallback processLateBeatmapEventCallback, System.Action earlyEventsWereProcessedCallback, BeatmapCallbackItemDataList/GetRelativeNoteOffsetCallback getRelativeNoteOffsetCallback)
-    // Offset: 0x11E8F10
+    // Offset: 0x11DF000
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapCallbackItemDataList* New_ctor(GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback* spawnBasicNoteCallback, GlobalNamespace::BeatmapCallbackItemDataList::SpawnBombNoteCallback* spawnBombNoteCallback, GlobalNamespace::BeatmapCallbackItemDataList::SpawnObstacleCallback* spawnObstacleCallback, GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* processEarlyBeatmapEventCallback, GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* processLateBeatmapEventCallback, System::Action* earlyEventsWereProcessedCallback, GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback* getRelativeNoteOffsetCallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapCallbackItemDataList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCallbackItemDataList*, creationType>(spawnBasicNoteCallback, spawnBombNoteCallback, spawnObstacleCallback, processEarlyBeatmapEventCallback, processLateBeatmapEventCallback, earlyEventsWereProcessedCallback, getRelativeNoteOffsetCallback)));
     }
     // public System.Void InsertBeatmapObjectData(BeatmapObjectData beatmapObjectData)
-    // Offset: 0x11E91F0
+    // Offset: 0x11DF2E0
     void InsertBeatmapObjectData(GlobalNamespace::BeatmapObjectData* beatmapObjectData);
     // public System.Void InsertBeatmapEventData(BeatmapEventData beatmapEventData)
-    // Offset: 0x11E92F4
+    // Offset: 0x11DF3E4
     void InsertBeatmapEventData(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void ProcessData()
-    // Offset: 0x11E93F8
+    // Offset: 0x11DF4E8
     void ProcessData();
     // private System.Boolean ProcessNotesByColorType(System.Collections.Generic.List`1<NoteData> notesWithTheSameColorTypeList)
-    // Offset: 0x11EA188
+    // Offset: 0x11E0278
     bool ProcessNotesByColorType(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* notesWithTheSameColorTypeList);
     // private System.Void SpawnNoteOrLongNote(NoteData noteData, System.Single cutDirectionAngleOffset)
-    // Offset: 0x11EA3B4
+    // Offset: 0x11E04A4
     void SpawnNoteOrLongNote(GlobalNamespace::NoteData* noteData, float cutDirectionAngleOffset);
   }; // BeatmapCallbackItemDataList
   #pragma pack(pop)

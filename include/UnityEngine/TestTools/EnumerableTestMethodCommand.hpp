@@ -64,23 +64,23 @@ namespace UnityEngine::TestTools {
     // Get instance field reference: private readonly NUnit.Framework.Internal.TestMethod testMethod
     NUnit::Framework::Internal::TestMethod*& dyn_testMethod();
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod testMethod)
-    // Offset: 0x14B6298
+    // Offset: 0x14BE254
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumerableTestMethodCommand* New_ctor(NUnit::Framework::Internal::TestMethod* testMethod) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::EnumerableTestMethodCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumerableTestMethodCommand*, creationType>(testMethod)));
     }
     // public System.Collections.IEnumerable ExecuteEnumerable(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x14C05C0
+    // Offset: 0x14C857C
     System::Collections::IEnumerable* ExecuteEnumerable(NUnit::Framework::Internal::ITestExecutionContext* context);
     // private System.Boolean AdvanceEnumerator(System.Collections.IEnumerator enumerator)
-    // Offset: 0x14C0688
+    // Offset: 0x14C8644
     bool AdvanceEnumerator(System::Collections::IEnumerator* enumerator);
     // static private System.Collections.IEnumerator ExecuteEnumerableAndRecordExceptions(System.Collections.IEnumerator enumerator, NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x14C07C4
+    // Offset: 0x14C8780
     static System::Collections::IEnumerator* ExecuteEnumerableAndRecordExceptions(System::Collections::IEnumerator* enumerator, NUnit::Framework::Internal::ITestExecutionContext* context);
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x14C086C
+    // Offset: 0x14C8828
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);

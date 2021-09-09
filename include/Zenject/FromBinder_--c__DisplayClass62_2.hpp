@@ -54,13 +54,13 @@ namespace Zenject {
     // Get instance field reference: public UnityEngine.MonoBehaviour monoBehaviour
     UnityEngine::MonoBehaviour*& dyn_monoBehaviour();
     // System.Boolean <FromComponentsInParents>b__2(UnityEngine.Component x)
-    // Offset: 0x165D7C4
+    // Offset: 0x1664FF8
     bool $FromComponentsInParents$b__2(UnityEngine::Component* x);
     // System.Boolean <FromComponentsInParents>b__3(UnityEngine.Component x)
-    // Offset: 0x165D7E8
+    // Offset: 0x166501C
     bool $FromComponentsInParents$b__3(UnityEngine::Component* x);
     // public System.Void .ctor()
-    // Offset: 0x165D7BC
+    // Offset: 0x1664FF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

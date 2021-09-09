@@ -64,13 +64,13 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<UnityEngine.GameObject,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject>> m_InstanceObjectToPrefabHandle
     System::Collections::Generic::Dictionary_2<UnityEngine::GameObject*, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*>>*& dyn_m_InstanceObjectToPrefabHandle();
     // public UnityEngine.GameObject ProvideInstance(UnityEngine.ResourceManagement.ResourceManager resourceManager, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> prefabHandle, UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters instantiateParameters)
-    // Offset: 0x19EFE14
+    // Offset: 0x19F5648
     UnityEngine::GameObject* ProvideInstance(UnityEngine::ResourceManagement::ResourceManager* resourceManager, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> prefabHandle, UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters);
     // public System.Void ReleaseInstance(UnityEngine.ResourceManagement.ResourceManager resourceManager, UnityEngine.GameObject instance)
-    // Offset: 0x19EFEE4
+    // Offset: 0x19F5718
     void ReleaseInstance(UnityEngine::ResourceManagement::ResourceManager* resourceManager, UnityEngine::GameObject* instance);
     // public System.Void .ctor()
-    // Offset: 0x19F00EC
+    // Offset: 0x19F5920
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

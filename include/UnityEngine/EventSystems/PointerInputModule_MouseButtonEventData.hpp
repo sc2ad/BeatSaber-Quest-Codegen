@@ -49,13 +49,13 @@ namespace UnityEngine::EventSystems {
     // Get instance field reference: public UnityEngine.EventSystems.PointerEventData buttonData
     UnityEngine::EventSystems::PointerEventData*& dyn_buttonData();
     // public System.Boolean PressedThisFrame()
-    // Offset: 0x146D8B8
+    // Offset: 0x1475874
     bool PressedThisFrame();
     // public System.Boolean ReleasedThisFrame()
-    // Offset: 0x146D8CC
+    // Offset: 0x1475888
     bool ReleasedThisFrame();
     // public System.Void .ctor()
-    // Offset: 0x146D8E0
+    // Offset: 0x147589C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

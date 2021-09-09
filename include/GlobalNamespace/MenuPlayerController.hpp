@@ -63,19 +63,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _headTransform
     UnityEngine::Transform*& dyn__headTransform();
     // public VRController get_leftController()
-    // Offset: 0x10E63A4
+    // Offset: 0x11A83D0
     GlobalNamespace::VRController* get_leftController();
     // public VRController get_rightController()
-    // Offset: 0x10E63AC
+    // Offset: 0x11A83D8
     GlobalNamespace::VRController* get_rightController();
     // public UnityEngine.Vector3 get_headPos()
-    // Offset: 0x10E63B4
+    // Offset: 0x11A83E0
     UnityEngine::Vector3 get_headPos();
     // public UnityEngine.Quaternion get_headRot()
-    // Offset: 0x10E63D0
+    // Offset: 0x11A83FC
     UnityEngine::Quaternion get_headRot();
     // public System.Void .ctor()
-    // Offset: 0x10E63EC
+    // Offset: 0x11A8418
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -46,10 +46,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<AchievementSO> _achievementsIds
     System::Collections::Generic::List_1<GlobalNamespace::AchievementSO*>*& dyn__achievementsIds();
     // public System.Collections.Generic.List`1<AchievementSO> get_achievementsIds()
-    // Offset: 0x1176790
+    // Offset: 0x1170408
     System::Collections::Generic::List_1<GlobalNamespace::AchievementSO*>* get_achievementsIds();
     // public System.Void .ctor()
-    // Offset: 0x1176798
+    // Offset: 0x1170410
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

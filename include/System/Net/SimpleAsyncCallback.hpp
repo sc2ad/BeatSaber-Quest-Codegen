@@ -37,20 +37,20 @@ namespace System::Net {
     // Creating value type constructor for type: SimpleAsyncCallback
     SimpleAsyncCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x14A3090
+    // Offset: 0x14AB04C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleAsyncCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::SimpleAsyncCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleAsyncCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Net.SimpleAsyncResult result)
-    // Offset: 0x14A30A0
+    // Offset: 0x14AB05C
     void Invoke(System::Net::SimpleAsyncResult* result);
     // public System.IAsyncResult BeginInvoke(System.Net.SimpleAsyncResult result, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x14A3434
+    // Offset: 0x14AB3F0
     System::IAsyncResult* BeginInvoke(System::Net::SimpleAsyncResult* result, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x14A3458
+    // Offset: 0x14AB414
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Net.SimpleAsyncCallback
   #pragma pack(pop)

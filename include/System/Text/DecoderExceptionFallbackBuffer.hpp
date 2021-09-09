@@ -23,10 +23,10 @@ namespace System::Text {
     // Creating value type constructor for type: DecoderExceptionFallbackBuffer
     DecoderExceptionFallbackBuffer() noexcept {}
     // private System.Void Throw(System.Byte[] bytesUnknown, System.Int32 index)
-    // Offset: 0x1C155C8
+    // Offset: 0x1C40760
     void Throw(::Array<uint8_t>* bytesUnknown, int index);
     // public System.Void .ctor()
-    // Offset: 0x1C15540
+    // Offset: 0x1C406D8
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Void DecoderFallbackBuffer::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -36,12 +36,12 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<DecoderExceptionFallbackBuffer*, creationType>()));
     }
     // public override System.Boolean Fallback(System.Byte[] bytesUnknown, System.Int32 index)
-    // Offset: 0x1C155BC
+    // Offset: 0x1C40754
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Boolean DecoderFallbackBuffer::Fallback(System.Byte[] bytesUnknown, System.Int32 index)
     bool Fallback(::Array<uint8_t>* bytesUnknown, int index);
     // public override System.Char GetNextChar()
-    // Offset: 0x1C157FC
+    // Offset: 0x1C40994
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Char DecoderFallbackBuffer::GetNextChar()
     ::Il2CppChar GetNextChar();

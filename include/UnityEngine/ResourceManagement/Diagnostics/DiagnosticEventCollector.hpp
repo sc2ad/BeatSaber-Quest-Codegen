@@ -39,22 +39,22 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
     // Set static field: static private UnityEngine.ResourceManagement.Diagnostics.DiagnosticEventCollector s_Collector
     static void _set_s_Collector(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector* value);
     // static public System.Guid get_PlayerConnectionGuid()
-    // Offset: 0x19E6FDC
+    // Offset: 0x19EC810
     static System::Guid get_PlayerConnectionGuid();
     // static public UnityEngine.ResourceManagement.Diagnostics.DiagnosticEventCollector FindOrCreateGlobalInstance()
-    // Offset: 0x19E70E8
+    // Offset: 0x19EC91C
     static UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector* FindOrCreateGlobalInstance();
     // static public System.Boolean RegisterEventHandler(System.Action`1<UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent> handler, System.Boolean register, System.Boolean create)
-    // Offset: 0x19E727C
+    // Offset: 0x19ECAB0
     static bool RegisterEventHandler(System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler, bool _register, bool create);
     // public System.Void UnregisterEventHandler(System.Action`1<UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent> handler)
-    // Offset: 0x19E7350
+    // Offset: 0x19ECB84
     void UnregisterEventHandler(System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler);
     // public System.Void PostEvent(UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent diagnosticEvent)
-    // Offset: 0x19E7454
+    // Offset: 0x19ECC88
     void PostEvent(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent diagnosticEvent);
     // public System.Void .ctor()
-    // Offset: 0x19E7668
+    // Offset: 0x19ECE9C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

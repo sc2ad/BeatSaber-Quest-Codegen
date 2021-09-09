@@ -66,23 +66,23 @@ namespace DataModels::Levels {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Single> _loudnessLevelPerLevelId
     System::Collections::Generic::Dictionary_2<::Il2CppString*, float>*& dyn__loudnessLevelPerLevelId();
     // public System.Void .ctor(PerceivedLoudnessPerLevelSO loudnessPerLeveData)
-    // Offset: 0x10F9150
+    // Offset: 0x10ECB68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PerceivedLoudnessPerLevelModel* New_ctor(GlobalNamespace::PerceivedLoudnessPerLevelSO* loudnessPerLeveData) {
       static auto ___internal__logger = ::Logger::get().WithContext("DataModels::Levels::PerceivedLoudnessPerLevelModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PerceivedLoudnessPerLevelModel*, creationType>(loudnessPerLeveData)));
     }
     // public System.Boolean ContainsLevelId(System.String levelId)
-    // Offset: 0x10F9240
+    // Offset: 0x10ECC58
     bool ContainsLevelId(::Il2CppString* levelId);
     // public System.Single GetLoudnessCorrectionByLevelId(System.String levelId)
-    // Offset: 0x10F92A8
+    // Offset: 0x10ECCC0
     float GetLoudnessCorrectionByLevelId(::Il2CppString* levelId);
     // public System.Single GetMaxSfxVolumeByLevelId(System.String levelId)
-    // Offset: 0x10F93C0
+    // Offset: 0x10ECDD8
     float GetMaxSfxVolumeByLevelId(::Il2CppString* levelId);
     // private System.Single GetLoudnessByLevelId(System.String levelId)
-    // Offset: 0x10F933C
+    // Offset: 0x10ECD54
     float GetLoudnessByLevelId(::Il2CppString* levelId);
   }; // DataModels.Levels.PerceivedLoudnessPerLevelModel
   #pragma pack(pop)

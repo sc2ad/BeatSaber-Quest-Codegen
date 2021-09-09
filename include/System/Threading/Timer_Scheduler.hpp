@@ -61,37 +61,37 @@ namespace System::Threading {
     // Get instance field reference: private System.Threading.ManualResetEvent changed
     System::Threading::ManualResetEvent*& dyn_changed();
     // static public System.Threading.Timer/System.Threading.Scheduler get_Instance()
-    // Offset: 0x187BC5C
+    // Offset: 0x1883490
     static System::Threading::Timer::Scheduler* get_Instance();
     // static private System.Void .cctor()
-    // Offset: 0x187BAE0
+    // Offset: 0x1883314
     static void _cctor();
     // public System.Void Remove(System.Threading.Timer timer)
-    // Offset: 0x187B7EC
+    // Offset: 0x1883020
     void Remove(System::Threading::Timer* timer);
     // public System.Void Change(System.Threading.Timer timer, System.Int64 new_next_run)
-    // Offset: 0x187B89C
+    // Offset: 0x18830D0
     void Change(System::Threading::Timer* timer, int64_t new_next_run);
     // private System.Int32 FindByDueTime(System.Int64 nr)
-    // Offset: 0x187BE5C
+    // Offset: 0x1883690
     int FindByDueTime(int64_t nr);
     // private System.Void Add(System.Threading.Timer timer)
-    // Offset: 0x187BD2C
+    // Offset: 0x1883560
     void Add(System::Threading::Timer* timer);
     // private System.Int32 InternalRemove(System.Threading.Timer timer)
-    // Offset: 0x187BCCC
+    // Offset: 0x1883500
     int InternalRemove(System::Threading::Timer* timer);
     // static private System.Void TimerCB(System.Object o)
-    // Offset: 0x187BFB8
+    // Offset: 0x18837EC
     static void TimerCB(::Il2CppObject* o);
     // private System.Void SchedulerThread()
-    // Offset: 0x187C3C0
+    // Offset: 0x1883BF4
     void SchedulerThread();
     // private System.Void ShrinkIfNeeded(System.Collections.Generic.List`1<System.Threading.Timer> list, System.Int32 initial)
-    // Offset: 0x187C920
+    // Offset: 0x1884154
     void ShrinkIfNeeded(System::Collections::Generic::List_1<System::Threading::Timer*>* list, int initial);
     // private System.Void .ctor()
-    // Offset: 0x187BB40
+    // Offset: 0x1883374
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

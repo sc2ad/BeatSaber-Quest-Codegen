@@ -58,26 +58,26 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
     // Get instance field reference: private Org.BouncyCastle.Asn1.DerObjectIdentifier encryptionParamSet
     Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_encryptionParamSet();
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_PublicKeyParamSet()
-    // Offset: 0x17347A4
+    // Offset: 0x173AFD8
     Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PublicKeyParamSet();
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_DigestParamSet()
-    // Offset: 0x17347AC
+    // Offset: 0x173AFE0
     Org::BouncyCastle::Asn1::DerObjectIdentifier* get_DigestParamSet();
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_EncryptionParamSet()
-    // Offset: 0x17347B4
+    // Offset: 0x173AFE8
     Org::BouncyCastle::Asn1::DerObjectIdentifier* get_EncryptionParamSet();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1734648
+    // Offset: 0x173AE7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Gost3410PublicKeyAlgParameters* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Gost3410PublicKeyAlgParameters*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.CryptoPro.Gost3410PublicKeyAlgParameters GetInstance(System.Object obj)
-    // Offset: 0x17345A8
+    // Offset: 0x173ADDC
     static Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters* GetInstance(::Il2CppObject* obj);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x17347BC
+    // Offset: 0x173AFF0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

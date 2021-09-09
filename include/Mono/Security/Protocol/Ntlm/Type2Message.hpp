@@ -47,33 +47,33 @@ namespace Mono::Security::Protocol::Ntlm {
     // Get instance field reference: private System.Byte[] _targetInfo
     ::Array<uint8_t>*& dyn__targetInfo();
     // public System.Byte[] get_Nonce()
-    // Offset: 0x1E07C74
+    // Offset: 0x1E07938
     ::Array<uint8_t>* get_Nonce();
     // public System.String get_TargetName()
-    // Offset: 0x1E08D54
+    // Offset: 0x1E08A18
     ::Il2CppString* get_TargetName();
     // public System.Byte[] get_TargetInfo()
-    // Offset: 0x1E07BF4
+    // Offset: 0x1E078B8
     ::Array<uint8_t>* get_TargetInfo();
     // public System.Void .ctor(System.Byte[] message)
-    // Offset: 0x1E08C30
+    // Offset: 0x1E088F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Type2Message* New_ctor(::Array<uint8_t>* message) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Protocol::Ntlm::Type2Message::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Type2Message*, creationType>(message)));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x1E08CD8
+    // Offset: 0x1E0899C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // protected override System.Void Decode(System.Byte[] message)
-    // Offset: 0x1E08D5C
+    // Offset: 0x1E08A20
     // Implemented from: Mono.Security.Protocol.Ntlm.MessageBase
     // Base method: System.Void MessageBase::Decode(System.Byte[] message)
     void Decode(::Array<uint8_t>* message);
     // public override System.Byte[] GetBytes()
-    // Offset: 0x1E08EE4
+    // Offset: 0x1E08BA8
     // Implemented from: Mono.Security.Protocol.Ntlm.MessageBase
     // Base method: System.Byte[] MessageBase::GetBytes()
     ::Array<uint8_t>* GetBytes();

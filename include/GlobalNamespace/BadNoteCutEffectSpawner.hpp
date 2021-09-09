@@ -43,21 +43,21 @@ namespace GlobalNamespace {
     GlobalNamespace::FlyingSpriteSpawner* failFlyingSpriteSpawner;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FlyingSpriteSpawner*) == 0x8);
-    // [InjectAttribute] Offset: 0xE36B0C
+    // [InjectAttribute] Offset: 0xE3CA8C
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE36B1C
+    // [InjectAttribute] Offset: 0xE3CA9C
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE36B2C
+    // [InjectAttribute] Offset: 0xE3CAAC
     // private readonly CoreGameHUDController/InitData _initData
     // Size: 0x8
     // Offset: 0x30
@@ -77,16 +77,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly CoreGameHUDController/InitData _initData
     GlobalNamespace::CoreGameHUDController::InitData*& dyn__initData();
     // protected System.Void Start()
-    // Offset: 0x11E30AC
+    // Offset: 0x11D919C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x11E3164
+    // Offset: 0x11D9254
     void OnDestroy();
     // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x11E31FC
+    // Offset: 0x11D92EC
     void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo);
     // public System.Void .ctor()
-    // Offset: 0x11E3324
+    // Offset: 0x11D9414
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

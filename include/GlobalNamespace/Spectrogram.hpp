@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     ::Array<UnityEngine::MeshRenderer*>* meshRenderers;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::MeshRenderer*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xE38480
+    // [InjectAttribute] Offset: 0xE3E400
     // private readonly BasicSpectrogramData _spectrogramData
     // Size: 0x8
     // Offset: 0x20
@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     Spectrogram(::Array<UnityEngine::MeshRenderer*>* meshRenderers_ = {}, GlobalNamespace::BasicSpectrogramData* spectrogramData_ = {}) noexcept : meshRenderers{meshRenderers_}, spectrogramData{spectrogramData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE38490
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE3E410
     // Get static field: static private readonly System.Int32 _spectrogramDataID
     static int _get__spectrogramDataID();
     // Set static field: static private readonly System.Int32 _spectrogramDataID
@@ -65,13 +65,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BasicSpectrogramData _spectrogramData
     GlobalNamespace::BasicSpectrogramData*& dyn__spectrogramData();
     // protected System.Void Awake()
-    // Offset: 0x1083F50
+    // Offset: 0x10A09D4
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x1083FFC
+    // Offset: 0x10A0A80
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x108411C
+    // Offset: 0x10A0BA0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -84,7 +84,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<Spectrogram*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1084124
+    // Offset: 0x10A0BA8
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

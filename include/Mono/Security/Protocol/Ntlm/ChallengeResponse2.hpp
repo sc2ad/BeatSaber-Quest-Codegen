@@ -34,34 +34,34 @@ namespace Mono::Security::Protocol::Ntlm {
     // Set static field: static private System.Byte[] nullEncMagic
     static void _set_nullEncMagic(::Array<uint8_t>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1E08110
+    // Offset: 0x1E07DD4
     static void _cctor();
     // static private System.Byte[] Compute_LM(System.String password, System.Byte[] challenge)
-    // Offset: 0x1E06C8C
+    // Offset: 0x1E06950
     static ::Array<uint8_t>* Compute_LM(::Il2CppString* password, ::Array<uint8_t>* challenge);
     // static private System.Byte[] Compute_NTLM_Password(System.String password)
-    // Offset: 0x1E07468
+    // Offset: 0x1E0712C
     static ::Array<uint8_t>* Compute_NTLM_Password(::Il2CppString* password);
     // static private System.Byte[] Compute_NTLM(System.String password, System.Byte[] challenge)
-    // Offset: 0x1E07570
+    // Offset: 0x1E07234
     static ::Array<uint8_t>* Compute_NTLM(::Il2CppString* password, ::Array<uint8_t>* challenge);
     // static private System.Void Compute_NTLMv2_Session(System.String password, System.Byte[] challenge, out System.Byte[] lm, out System.Byte[] ntlm)
-    // Offset: 0x1E075EC
+    // Offset: 0x1E072B0
     static void Compute_NTLMv2_Session(::Il2CppString* password, ::Array<uint8_t>* challenge, ByRef<::Array<uint8_t>*> lm, ByRef<::Array<uint8_t>*> ntlm);
     // static private System.Byte[] Compute_NTLMv2(Mono.Security.Protocol.Ntlm.Type2Message type2, System.String username, System.String password, System.String domain)
-    // Offset: 0x1E077BC
+    // Offset: 0x1E07480
     static ::Array<uint8_t>* Compute_NTLMv2(Mono::Security::Protocol::Ntlm::Type2Message* type2, ::Il2CppString* username, ::Il2CppString* password, ::Il2CppString* domain);
     // static public System.Void Compute(Mono.Security.Protocol.Ntlm.Type2Message type2, Mono.Security.Protocol.Ntlm.NtlmAuthLevel level, System.String username, System.String password, System.String domain, out System.Byte[] lm, out System.Byte[] ntlm)
-    // Offset: 0x1E07CF4
+    // Offset: 0x1E079B8
     static void Compute(Mono::Security::Protocol::Ntlm::Type2Message* type2, Mono::Security::Protocol::Ntlm::NtlmAuthLevel level, ::Il2CppString* username, ::Il2CppString* password, ::Il2CppString* domain, ByRef<::Array<uint8_t>*> lm, ByRef<::Array<uint8_t>*> ntlm);
     // static private System.Byte[] GetResponse(System.Byte[] challenge, System.Byte[] pwd)
-    // Offset: 0x1E07168
+    // Offset: 0x1E06E2C
     static ::Array<uint8_t>* GetResponse(::Array<uint8_t>* challenge, ::Array<uint8_t>* pwd);
     // static private System.Byte[] PrepareDESKey(System.Byte[] key56bits, System.Int32 position)
-    // Offset: 0x1E07F08
+    // Offset: 0x1E07BCC
     static ::Array<uint8_t>* PrepareDESKey(::Array<uint8_t>* key56bits, int position);
     // static private System.Byte[] PasswordToKey(System.String password, System.Int32 position)
-    // Offset: 0x1E06FFC
+    // Offset: 0x1E06CC0
     static ::Array<uint8_t>* PasswordToKey(::Il2CppString* password, int position);
   }; // Mono.Security.Protocol.Ntlm.ChallengeResponse2
   #pragma pack(pop)

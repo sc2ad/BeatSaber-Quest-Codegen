@@ -42,7 +42,7 @@ namespace System {
     // Creating value type constructor for type: TypeNameParser
     TypeNameParser() noexcept {}
     // static System.Type GetType(System.String typeName, System.Func`2<System.Reflection.AssemblyName,System.Reflection.Assembly> assemblyResolver, System.Func`4<System.Reflection.Assembly,System.String,System.Boolean,System.Type> typeResolver, System.Boolean throwOnError, System.Boolean ignoreCase, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x2326D80
+    // Offset: 0x2322A44
     static System::Type* GetType(::Il2CppString* typeName, System::Func_2<System::Reflection::AssemblyName*, System::Reflection::Assembly*>* assemblyResolver, System::Func_4<System::Reflection::Assembly*, ::Il2CppString*, bool, System::Type*>* typeResolver, bool throwOnError, bool ignoreCase, ByRef<System::Threading::StackCrawlMark> stackMark);
   }; // System.TypeNameParser
   #pragma pack(pop)

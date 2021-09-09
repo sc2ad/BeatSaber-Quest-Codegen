@@ -53,16 +53,16 @@ namespace System::Resources {
     // Get instance field reference: System.Int32 _dataPos
     int& dyn__dataPos();
     // System.Int32 get_DataPosition()
-    // Offset: 0x147F550
+    // Offset: 0x148750C
     int get_DataPosition();
     // System.Object get_Value()
-    // Offset: 0x147F558
+    // Offset: 0x1487514
     ::Il2CppObject* get_Value();
     // System.Void set_Value(System.Object value)
-    // Offset: 0x147F560
+    // Offset: 0x148751C
     void set_Value(::Il2CppObject* value);
     // System.Void .ctor(System.Int32 dataPos, System.Object value)
-    // Offset: 0x147F544
+    // Offset: 0x1487500
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ResourceLocator(int dataPos, ::Il2CppObject* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::ResourceLocator::.ctor");
@@ -70,7 +70,7 @@ namespace System::Resources {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, dataPos, value);
     }
     // static System.Boolean CanCache(System.Resources.ResourceTypeCode value)
-    // Offset: 0x147F568
+    // Offset: 0x1487524
     static bool CanCache(System::Resources::ResourceTypeCode value);
   }; // System.Resources.ResourceLocator
   #pragma pack(pop)

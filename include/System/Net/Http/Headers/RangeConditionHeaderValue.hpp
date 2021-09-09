@@ -51,49 +51,49 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: private System.Net.Http.Headers.EntityTagHeaderValue <EntityTag>k__BackingField
     System::Net::Http::Headers::EntityTagHeaderValue*& dyn_$EntityTag$k__BackingField();
     // public System.Nullable`1<System.DateTimeOffset> get_Date()
-    // Offset: 0x15A6F0C
+    // Offset: 0x15B1740
     System::Nullable_1<System::DateTimeOffset> get_Date();
     // private System.Void set_Date(System.Nullable`1<System.DateTimeOffset> value)
-    // Offset: 0x15A6F20
+    // Offset: 0x15B1754
     void set_Date(System::Nullable_1<System::DateTimeOffset> value);
     // public System.Net.Http.Headers.EntityTagHeaderValue get_EntityTag()
-    // Offset: 0x15A6F34
+    // Offset: 0x15B1768
     System::Net::Http::Headers::EntityTagHeaderValue* get_EntityTag();
     // private System.Void set_EntityTag(System.Net.Http.Headers.EntityTagHeaderValue value)
-    // Offset: 0x15A6F3C
+    // Offset: 0x15B1770
     void set_EntityTag(System::Net::Http::Headers::EntityTagHeaderValue* value);
     // public System.Void .ctor(System.DateTimeOffset date)
-    // Offset: 0x15A6DD8
+    // Offset: 0x15B160C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RangeConditionHeaderValue* New_ctor(System::DateTimeOffset date) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::RangeConditionHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RangeConditionHeaderValue*, creationType>(date)));
     }
     // public System.Void .ctor(System.Net.Http.Headers.EntityTagHeaderValue entityTag)
-    // Offset: 0x15A6E70
+    // Offset: 0x15B16A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RangeConditionHeaderValue* New_ctor(System::Net::Http::Headers::EntityTagHeaderValue* entityTag) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::RangeConditionHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RangeConditionHeaderValue*, creationType>(entityTag)));
     }
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x15A6F44
+    // Offset: 0x15B1778
     ::Il2CppObject* System_ICloneable_Clone();
     // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.RangeConditionHeaderValue parsedValue)
-    // Offset: 0x15A7108
+    // Offset: 0x15B193C
     static bool TryParse(::Il2CppString* input, ByRef<System::Net::Http::Headers::RangeConditionHeaderValue*> parsedValue);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x15A6F4C
+    // Offset: 0x15B1780
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x15A707C
+    // Offset: 0x15B18B0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x15A734C
+    // Offset: 0x15B1B80
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

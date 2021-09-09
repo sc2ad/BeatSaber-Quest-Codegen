@@ -52,13 +52,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private LocalizedTextAsset/TextInfo _lastTextInfo
     GlobalNamespace::LocalizedTextAsset::TextInfo*& dyn__lastTextInfo();
     // public LocalizedTextAsset/TextInfo[] get_textInfos()
-    // Offset: 0x10DE380
+    // Offset: 0x11A0378
     ::Array<GlobalNamespace::LocalizedTextAsset::TextInfo*>* get_textInfos();
     // public System.String get_localizedText()
-    // Offset: 0x10DE388
+    // Offset: 0x11A0380
     ::Il2CppString* get_localizedText();
     // public System.Void .ctor()
-    // Offset: 0x10DE688
+    // Offset: 0x11A0680
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

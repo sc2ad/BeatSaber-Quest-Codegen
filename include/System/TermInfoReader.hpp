@@ -72,42 +72,42 @@ namespace System {
     // Get instance field reference: private System.Int32 booleansOffset
     int& dyn_booleansOffset();
     // public System.Void .ctor(System.String term, System.String filename)
-    // Offset: 0x1C0E290
+    // Offset: 0x1C39428
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TermInfoReader* New_ctor(::Il2CppString* term, ::Il2CppString* filename) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::TermInfoReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TermInfoReader*, creationType>(term, filename)));
     }
     // public System.Void .ctor(System.String term, System.Byte[] buffer)
-    // Offset: 0x1C0E4CC
+    // Offset: 0x1C39664
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TermInfoReader* New_ctor(::Il2CppString* term, ::Array<uint8_t>* buffer) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::TermInfoReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TermInfoReader*, creationType>(term, buffer)));
     }
     // private System.Void ReadHeader(System.Byte[] buffer, ref System.Int32 position)
-    // Offset: 0x1C126F4
+    // Offset: 0x1C3D88C
     void ReadHeader(::Array<uint8_t>* buffer, ByRef<int> position);
     // private System.Void ReadNames(System.Byte[] buffer, ref System.Int32 position)
-    // Offset: 0x1C12850
+    // Offset: 0x1C3D9E8
     void ReadNames(::Array<uint8_t>* buffer, ByRef<int> position);
     // public System.Int32 Get(System.TermInfoNumbers number)
-    // Offset: 0x1C0ECBC
+    // Offset: 0x1C39E54
     int Get(System::TermInfoNumbers number);
     // public System.String Get(System.TermInfoStrings tstr)
-    // Offset: 0x1C0EC24
+    // Offset: 0x1C39DBC
     ::Il2CppString* Get(System::TermInfoStrings tstr);
     // public System.Byte[] GetStringBytes(System.TermInfoStrings tstr)
-    // Offset: 0x1C124D0
+    // Offset: 0x1C3D668
     ::Array<uint8_t>* GetStringBytes(System::TermInfoStrings tstr);
     // private System.Int16 GetInt16(System.Byte[] buffer, System.Int32 offset)
-    // Offset: 0x1C12890
+    // Offset: 0x1C3DA28
     int16_t GetInt16(::Array<uint8_t>* buffer, int offset);
     // private System.String GetString(System.Byte[] buffer, System.Int32 offset)
-    // Offset: 0x1C128EC
+    // Offset: 0x1C3DA84
     ::Il2CppString* GetString(::Array<uint8_t>* buffer, int offset);
     // private System.Byte[] GetStringBytes(System.Byte[] buffer, System.Int32 offset)
-    // Offset: 0x1C1297C
+    // Offset: 0x1C3DB14
     ::Array<uint8_t>* GetStringBytes(::Array<uint8_t>* buffer, int offset);
   }; // System.TermInfoReader
   #pragma pack(pop)

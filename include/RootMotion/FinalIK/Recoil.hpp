@@ -82,14 +82,14 @@ namespace RootMotion::FinalIK {
     #pragma pack(pop)
     static check_size<sizeof(Recoil::Handedness), 0 + sizeof(int)> __RootMotion_FinalIK_Recoil_HandednessSizeCheck;
     static_assert(sizeof(Recoil::Handedness) == 0x4);
-    // [TooltipAttribute] Offset: 0xE283AC
+    // [TooltipAttribute] Offset: 0xE2E31C
     // public RootMotion.FinalIK.AimIK aimIK
     // Size: 0x8
     // Offset: 0x30
     RootMotion::FinalIK::AimIK* aimIK;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::AimIK*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE283E4
+    // [TooltipAttribute] Offset: 0xE2E354
     // public System.Boolean aimIKSolvedLast
     // Size: 0x1
     // Offset: 0x38
@@ -98,14 +98,14 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: aimIKSolvedLast and: handedness
     char __padding1[0x3] = {};
-    // [TooltipAttribute] Offset: 0xE2841C
+    // [TooltipAttribute] Offset: 0xE2E38C
     // public RootMotion.FinalIK.Recoil/RootMotion.FinalIK.Handedness handedness
     // Size: 0x4
     // Offset: 0x3C
     RootMotion::FinalIK::Recoil::Handedness handedness;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::Recoil::Handedness) == 0x4);
-    // [TooltipAttribute] Offset: 0xE28454
+    // [TooltipAttribute] Offset: 0xE2E3C4
     // public System.Boolean twoHanded
     // Size: 0x1
     // Offset: 0x40
@@ -114,43 +114,43 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: twoHanded and: recoilWeight
     char __padding3[0x7] = {};
-    // [TooltipAttribute] Offset: 0xE2848C
+    // [TooltipAttribute] Offset: 0xE2E3FC
     // public UnityEngine.AnimationCurve recoilWeight
     // Size: 0x8
     // Offset: 0x48
     UnityEngine::AnimationCurve* recoilWeight;
     // Field size check
     static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE284C4
+    // [TooltipAttribute] Offset: 0xE2E434
     // public System.Single magnitudeRandom
     // Size: 0x4
     // Offset: 0x50
     float magnitudeRandom;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE284FC
+    // [TooltipAttribute] Offset: 0xE2E46C
     // public UnityEngine.Vector3 rotationRandom
     // Size: 0xC
     // Offset: 0x54
     UnityEngine::Vector3 rotationRandom;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0xE28534
+    // [TooltipAttribute] Offset: 0xE2E4A4
     // public UnityEngine.Vector3 handRotationOffset
     // Size: 0xC
     // Offset: 0x60
     UnityEngine::Vector3 handRotationOffset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0xE2856C
+    // [TooltipAttribute] Offset: 0xE2E4DC
     // public System.Single blendTime
     // Size: 0x4
     // Offset: 0x6C
     float blendTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xE285A4
-    // [TooltipAttribute] Offset: 0xE285A4
+    // [SpaceAttribute] Offset: 0xE2E514
+    // [TooltipAttribute] Offset: 0xE2E514
     // public RootMotion.FinalIK.Recoil/RootMotion.FinalIK.RecoilOffset[] offsets
     // Size: 0x8
     // Offset: 0x70
@@ -288,34 +288,34 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private UnityEngine.Vector3 aimIKAxis
     UnityEngine::Vector3& dyn_aimIKAxis();
     // public System.Boolean get_isFinished()
-    // Offset: 0x1ADB438
+    // Offset: 0x1ADEBE8
     bool get_isFinished();
     // private RootMotion.FinalIK.IKEffector get_primaryHandEffector()
-    // Offset: 0x1ADC4A4
+    // Offset: 0x1ADFC54
     RootMotion::FinalIK::IKEffector* get_primaryHandEffector();
     // private RootMotion.FinalIK.IKEffector get_secondaryHandEffector()
-    // Offset: 0x1ADC4E4
+    // Offset: 0x1ADFC94
     RootMotion::FinalIK::IKEffector* get_secondaryHandEffector();
     // private UnityEngine.Transform get_primaryHand()
-    // Offset: 0x1ADC464
+    // Offset: 0x1ADFC14
     UnityEngine::Transform* get_primaryHand();
     // private UnityEngine.Transform get_secondaryHand()
-    // Offset: 0x1ADC484
+    // Offset: 0x1ADFC34
     UnityEngine::Transform* get_secondaryHand();
     // public System.Void SetHandRotations(UnityEngine.Quaternion leftHandRotation, UnityEngine.Quaternion rightHandRotation)
-    // Offset: 0x1ADB468
+    // Offset: 0x1ADEC18
     void SetHandRotations(UnityEngine::Quaternion leftHandRotation, UnityEngine::Quaternion rightHandRotation);
     // public System.Void Fire(System.Single magnitude)
-    // Offset: 0x1ADB494
+    // Offset: 0x1ADEC44
     void Fire(float magnitude);
     // private System.Void AfterFBBIK()
-    // Offset: 0x1ADC524
+    // Offset: 0x1ADFCD4
     void AfterFBBIK();
     // private System.Void AfterAimIK()
-    // Offset: 0x1ADC67C
+    // Offset: 0x1ADFE2C
     void AfterAimIK();
     // public System.Void .ctor()
-    // Offset: 0x1ADC850
+    // Offset: 0x1AE0000
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -329,12 +329,12 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<Recoil*, creationType>()));
     }
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x1ADB710
+    // Offset: 0x1ADEEC0
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();
     // protected override System.Void OnDestroy()
-    // Offset: 0x1ADC6B8
+    // Offset: 0x1ADFE68
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnDestroy()
     void OnDestroy();

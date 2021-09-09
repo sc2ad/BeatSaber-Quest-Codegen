@@ -53,19 +53,19 @@ namespace UnityEngine::AddressableAssets {
     // Set static field: static public System.Func`2<UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.ResourceLocatorInfo,System.String> <>9__123_1
     static void _set_$$9__123_1(System::Func_2<UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1442204
+    // Offset: 0x144A1C0
     static void _cctor();
     // UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator <get_ResourceLocators>b__51_0(UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.ResourceLocatorInfo l)
-    // Offset: 0x1442270
+    // Offset: 0x144A22C
     UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* $get_ResourceLocators$b__51_0(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo* l);
     // System.Boolean <get_CatalogsWithAvailableUpdates>b__123_0(UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.ResourceLocatorInfo s)
-    // Offset: 0x1442288
+    // Offset: 0x144A244
     bool $get_CatalogsWithAvailableUpdates$b__123_0(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo* s);
     // System.String <get_CatalogsWithAvailableUpdates>b__123_1(UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.ResourceLocatorInfo s)
-    // Offset: 0x14422A0
+    // Offset: 0x144A25C
     ::Il2CppString* $get_CatalogsWithAvailableUpdates$b__123_1(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo* s);
     // public System.Void .ctor()
-    // Offset: 0x1442268
+    // Offset: 0x144A224
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

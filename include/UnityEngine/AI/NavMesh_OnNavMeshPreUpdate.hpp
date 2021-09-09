@@ -34,20 +34,20 @@ namespace UnityEngine::AI {
     // Creating value type constructor for type: OnNavMeshPreUpdate
     OnNavMeshPreUpdate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x241F864
+    // Offset: 0x241C5B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NavMesh::OnNavMeshPreUpdate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AI::NavMesh::OnNavMeshPreUpdate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NavMesh::OnNavMeshPreUpdate*, creationType>(object, method)));
     }
     // public System.Void Invoke()
-    // Offset: 0x241F3A0
+    // Offset: 0x241C0EC
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x241F874
+    // Offset: 0x241C5C0
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x241F8A0
+    // Offset: 0x241C5EC
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.AI.NavMesh/UnityEngine.AI.OnNavMeshPreUpdate
   #pragma pack(pop)

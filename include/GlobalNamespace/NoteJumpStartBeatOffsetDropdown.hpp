@@ -78,34 +78,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<System.Single,System.String>> _noteJumpStartBeatOffsetData
     System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<float, ::Il2CppString*>*>*& dyn__noteJumpStartBeatOffsetData();
     // private System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<System.Single,System.String>> get_noteJumpStartBeatOffsetData()
-    // Offset: 0x122E8E8
+    // Offset: 0x124BEA0
     System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<float, ::Il2CppString*>*>* get_noteJumpStartBeatOffsetData();
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x122E7A0
+    // Offset: 0x124BD58
     void add_didSelectCellWithIdxEvent(System::Action_1<int>* value);
     // public System.Void remove_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x122E844
+    // Offset: 0x124BDFC
     void remove_didSelectCellWithIdxEvent(System::Action_1<int>* value);
     // protected System.Void Start()
-    // Offset: 0x122EA34
+    // Offset: 0x124BFEC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x122EBB4
+    // Offset: 0x124C16C
     void OnDestroy();
     // public System.Single GetSelectedOffset()
-    // Offset: 0x122EC90
+    // Offset: 0x124C248
     float GetSelectedOffset();
     // public System.Void SelectCellWithOffset(System.Single offset)
-    // Offset: 0x122ED64
+    // Offset: 0x124C31C
     void SelectCellWithOffset(float offset);
     // private System.Int32 GetIdxForOffset(System.Single offset)
-    // Offset: 0x122EDA0
+    // Offset: 0x124C358
     int GetIdxForOffset(float offset);
     // private System.Void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0x122EFF4
+    // Offset: 0x124C5AC
     void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
     // public System.Void .ctor()
-    // Offset: 0x122F068
+    // Offset: 0x124C620
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

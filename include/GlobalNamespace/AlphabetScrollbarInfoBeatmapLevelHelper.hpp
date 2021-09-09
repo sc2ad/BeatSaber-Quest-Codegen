@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kMaxCharactersCount
     static void _set_kMaxCharactersCount(int value);
     // static public AlphabetScrollInfo/Data[] CreateData(IPreviewBeatmapLevel[] previewBeatmapLevels, out IPreviewBeatmapLevel[] sortedPreviewBeatmapLevels)
-    // Offset: 0x1178500
+    // Offset: 0x1172178
     static ::Array<GlobalNamespace::AlphabetScrollInfo::Data*>* CreateData(::Array<GlobalNamespace::IPreviewBeatmapLevel*>* previewBeatmapLevels, ByRef<::Array<GlobalNamespace::IPreviewBeatmapLevel*>*> sortedPreviewBeatmapLevels);
   }; // AlphabetScrollbarInfoBeatmapLevelHelper
   #pragma pack(pop)

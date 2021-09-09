@@ -37,22 +37,22 @@ namespace UnityEngine::AddressableAssets {
     // Set static field: static readonly System.Collections.Generic.Dictionary`2<UnityEngine.RuntimePlatform,UnityEngine.AddressableAssets.AddressablesPlatform> s_RuntimeTargetMapping
     static void _set_s_RuntimeTargetMapping(System::Collections::Generic::Dictionary_2<UnityEngine::RuntimePlatform, UnityEngine::AddressableAssets::AddressablesPlatform>* value);
     // static private System.Void .cctor()
-    // Offset: 0x14497E8
+    // Offset: 0x14517A4
     static void _cctor();
     // static UnityEngine.AddressableAssets.AddressablesPlatform GetAddressablesPlatformInternal(UnityEngine.RuntimePlatform platform)
-    // Offset: 0x144953C
+    // Offset: 0x14514F8
     static UnityEngine::AddressableAssets::AddressablesPlatform GetAddressablesPlatformInternal(UnityEngine::RuntimePlatform platform);
     // static System.String GetAddressablesPlatformPathInternal(UnityEngine.RuntimePlatform platform)
-    // Offset: 0x1449610
+    // Offset: 0x14515CC
     static ::Il2CppString* GetAddressablesPlatformPathInternal(UnityEngine::RuntimePlatform platform);
     // static public UnityEngine.AddressableAssets.AddressablesPlatform GetPlatform()
-    // Offset: 0x1449770
+    // Offset: 0x145172C
     static UnityEngine::AddressableAssets::AddressablesPlatform GetPlatform();
     // static public System.String GetPlatformPathSubFolder()
-    // Offset: 0x143C4D8
+    // Offset: 0x1444494
     static ::Il2CppString* GetPlatformPathSubFolder();
     // public System.Void .ctor()
-    // Offset: 0x14497E0
+    // Offset: 0x145179C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

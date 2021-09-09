@@ -47,10 +47,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public DisconnectPromptView <>4__this
     GlobalNamespace::DisconnectPromptView*& dyn_$$4__this();
     // System.Void <Hide>b__0()
-    // Offset: 0x10FC42C
+    // Offset: 0x10EFEA4
     void $Hide$b__0();
     // public System.Void .ctor()
-    // Offset: 0x10FC2F4
+    // Offset: 0x10EFD6C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

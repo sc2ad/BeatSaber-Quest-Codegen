@@ -29,7 +29,7 @@ namespace NetEase::Docker {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ReceivedHighscoreData/*, public System::ValueType*/ {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xE2168C
+    // [DebuggerBrowsableAttribute] Offset: 0xE275FC
     // private System.Boolean <FetchingSuccessful>k__BackingField
     // Size: 0x1
     // Offset: 0x0
@@ -38,21 +38,21 @@ namespace NetEase::Docker {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: FetchingSuccessful and: HighscoreCode
     char __padding0[0x3] = {};
-    // [DebuggerBrowsableAttribute] Offset: 0xE216C8
+    // [DebuggerBrowsableAttribute] Offset: 0xE27638
     // private System.Int32 <HighscoreCode>k__BackingField
     // Size: 0x4
     // Offset: 0x4
     int HighscoreCode;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xE21704
+    // [DebuggerBrowsableAttribute] Offset: 0xE27674
     // private System.String <Track>k__BackingField
     // Size: 0x8
     // Offset: 0x8
     ::Il2CppString* Track;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xE21740
+    // [DebuggerBrowsableAttribute] Offset: 0xE276B0
     // private System.Collections.Generic.List`1<NetEase.Docker.ScoreData> <Scores>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -74,25 +74,25 @@ namespace NetEase::Docker {
     // Get instance field reference: private System.Collections.Generic.List`1<NetEase.Docker.ScoreData> <Scores>k__BackingField
     System::Collections::Generic::List_1<NetEase::Docker::ScoreData>*& dyn_$Scores$k__BackingField();
     // public System.Boolean get_FetchingSuccessful()
-    // Offset: 0x2418BE0
+    // Offset: 0x241592C
     bool get_FetchingSuccessful();
     // public System.Void set_FetchingSuccessful(System.Boolean value)
-    // Offset: 0x2418BE8
+    // Offset: 0x2415934
     void set_FetchingSuccessful(bool value);
     // public System.Void set_HighscoreCode(System.Int32 value)
-    // Offset: 0x2418BF4
+    // Offset: 0x2415940
     void set_HighscoreCode(int value);
     // public System.String get_Track()
-    // Offset: 0x2418BFC
+    // Offset: 0x2415948
     ::Il2CppString* get_Track();
     // public System.Void set_Track(System.String value)
-    // Offset: 0x2418C04
+    // Offset: 0x2415950
     void set_Track(::Il2CppString* value);
     // public System.Collections.Generic.List`1<NetEase.Docker.ScoreData> get_Scores()
-    // Offset: 0x2418C0C
+    // Offset: 0x2415958
     System::Collections::Generic::List_1<NetEase::Docker::ScoreData>* get_Scores();
     // public System.Void set_Scores(System.Collections.Generic.List`1<NetEase.Docker.ScoreData> value)
-    // Offset: 0x2418C14
+    // Offset: 0x2415960
     void set_Scores(System::Collections::Generic::List_1<NetEase::Docker::ScoreData>* value);
   }; // NetEase.Docker.ReceivedHighscoreData
   #pragma pack(pop)

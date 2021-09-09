@@ -146,7 +146,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifierParamsSO* smallCubes;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifierParamsSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE331F0
+    // [SpaceAttribute] Offset: 0xE39160
     // private GameplayModifierParamsSO _demoNoObstacles
     // Size: 0x8
     // Offset: 0x98
@@ -208,34 +208,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<GameplayModifierParamsSO,GameplayModifiersModelSO/GameplayModifierBoolGetter> _gameplayModifierGetters
     System::Collections::Generic::Dictionary_2<GlobalNamespace::GameplayModifierParamsSO*, GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter*>*& dyn__gameplayModifierGetters();
     // public GameplayModifiers CreateGameplayModifiers(System.Func`2<GameplayModifierParamsSO,System.Boolean> valueGetter)
-    // Offset: 0x110E77C
+    // Offset: 0x1102418
     GlobalNamespace::GameplayModifiers* CreateGameplayModifiers(System::Func_2<GlobalNamespace::GameplayModifierParamsSO*, bool>* valueGetter);
     // public System.Boolean GetModifierBoolValue(GameplayModifiers gameplayModifiers, GameplayModifierParamsSO gameplayModifierParams)
-    // Offset: 0x110EA98
+    // Offset: 0x1102734
     bool GetModifierBoolValue(GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams);
     // public System.Collections.Generic.List`1<GameplayModifierParamsSO> CreateModifierParamsList(GameplayModifiers gameplayModifiers)
-    // Offset: 0x11070D0
+    // Offset: 0x10FAD6C
     System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* CreateModifierParamsList(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.Single GetTotalMultiplier(System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParams, System.Single energy)
-    // Offset: 0x110EED8
+    // Offset: 0x1102B74
     float GetTotalMultiplier(System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* modifierParams, float energy);
     // public System.Int32 MaxModifiedScoreForMaxRawScore(System.Int32 maxRawScore, System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParams, System.Single energy)
-    // Offset: 0x110F060
+    // Offset: 0x1102CFC
     int MaxModifiedScoreForMaxRawScore(int maxRawScore, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* modifierParams, float energy);
     // public System.Int32 MaxModifiedScoreForMaxRawScore(System.Int32 maxRawScore, System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParams, GameplayModifiersModelSO gameplayModifiersModel, System.Single energy)
-    // Offset: 0x110F0B8
+    // Offset: 0x1102D54
     int MaxModifiedScoreForMaxRawScore(int maxRawScore, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* modifierParams, GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, float energy);
     // private System.Int32 GetModifiedScoreForGameplayModifiers(System.Int32 rawScore, System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParams, System.Single energy)
-    // Offset: 0x110F08C
+    // Offset: 0x1102D28
     int GetModifiedScoreForGameplayModifiers(int rawScore, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* modifierParams, float energy);
     // public GameplayModifierParamsSO GetGameplayModifierParams(GameplayModifierMask modifier)
-    // Offset: 0x110D474
+    // Offset: 0x1101110
     GlobalNamespace::GameplayModifierParamsSO* GetGameplayModifierParams(GlobalNamespace::GameplayModifierMask modifier);
     // private GameplayModifiers/SongSpeed GetSongSpeedFromValueGetter(System.Func`2<GameplayModifierParamsSO,System.Boolean> valueGetter)
-    // Offset: 0x110E9E8
+    // Offset: 0x1102684
     GlobalNamespace::GameplayModifiers::SongSpeed GetSongSpeedFromValueGetter(System::Func_2<GlobalNamespace::GameplayModifierParamsSO*, bool>* valueGetter);
     // public System.Void .ctor()
-    // Offset: 0x110F0E4
+    // Offset: 0x1102D80
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -247,7 +247,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameplayModifiersModelSO*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x110DC68
+    // Offset: 0x1101904
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

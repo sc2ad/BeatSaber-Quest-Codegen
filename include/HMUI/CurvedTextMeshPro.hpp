@@ -39,7 +39,7 @@ namespace HMUI {
     // Get instance field reference: private readonly HMUI.CurvedCanvasSettingsHelper _curvedCanvasSettingsHelper
     HMUI::CurvedCanvasSettingsHelper*& dyn__curvedCanvasSettingsHelper();
     // public System.Void .ctor()
-    // Offset: 0x136A748
+    // Offset: 0x137043C
     // Implemented from: TMPro.TextMeshProUGUI
     // Base method: System.Void TextMeshProUGUI::.ctor()
     // Base method: System.Void TMP_Text::.ctor()
@@ -57,12 +57,12 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<CurvedTextMeshPro*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x136A400
+    // Offset: 0x13700F4
     // Implemented from: TMPro.TextMeshProUGUI
     // Base method: System.Void TextMeshProUGUI::OnEnable()
     void OnEnable();
     // protected override System.Void GenerateTextMesh()
-    // Offset: 0x136A440
+    // Offset: 0x1370134
     // Implemented from: TMPro.TextMeshProUGUI
     // Base method: System.Void TextMeshProUGUI::GenerateTextMesh()
     void GenerateTextMesh();

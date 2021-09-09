@@ -23,17 +23,17 @@ namespace UnityEngine {
     // Creating value type constructor for type: AndroidJavaClass
     AndroidJavaClass() noexcept {}
     // public System.Void .ctor(System.String className)
-    // Offset: 0x23AD70C
+    // Offset: 0x23A83F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaClass* New_ctor(::Il2CppString* className) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaClass::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaClass*, creationType>(className)));
     }
     // private System.Void _AndroidJavaClass(System.String className)
-    // Offset: 0x23AD794
+    // Offset: 0x23A847C
     void _AndroidJavaClass(::Il2CppString* className);
     // System.Void .ctor(System.IntPtr jclass)
-    // Offset: 0x23AD9AC
+    // Offset: 0x23A8694
     // Implemented from: UnityEngine.AndroidJavaObject
     // Base method: System.Void AndroidJavaObject::.ctor(System.IntPtr jclass)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

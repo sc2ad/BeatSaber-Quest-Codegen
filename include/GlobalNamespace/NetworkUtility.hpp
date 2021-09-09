@@ -27,25 +27,25 @@ namespace GlobalNamespace {
     // Set static field: static private System.Byte[] _nameEncryptionIv
     static void _set__nameEncryptionIv(::Array<uint8_t>* value);
     // static private System.Void .cctor()
-    // Offset: 0x16EECC4
+    // Offset: 0x16F44F8
     static void _cctor();
     // static private System.Void Init()
-    // Offset: 0x16EECC8
+    // Offset: 0x16F44FC
     static void Init();
     // static public System.String GetHashedUserId(System.String userId, AuthenticationToken/Platform platform)
-    // Offset: 0x16EED94
+    // Offset: 0x16F45C8
     static ::Il2CppString* GetHashedUserId(::Il2CppString* userId, GlobalNamespace::AuthenticationToken::Platform platform);
     // static public System.String EncryptName(System.String text)
-    // Offset: 0x16EEFE0
+    // Offset: 0x16F4814
     static ::Il2CppString* EncryptName(::Il2CppString* text);
     // static public System.String DecryptName(System.String text)
-    // Offset: 0x16EF2FC
+    // Offset: 0x16F4B30
     static ::Il2CppString* DecryptName(::Il2CppString* text);
     // static public System.String GenerateId()
-    // Offset: 0x16EF61C
+    // Offset: 0x16F4E50
     static ::Il2CppString* GenerateId();
     // static public System.String GetHashBase64(System.String input)
-    // Offset: 0x16EEE4C
+    // Offset: 0x16F4680
     static ::Il2CppString* GetHashBase64(::Il2CppString* input);
   }; // NetworkUtility
   #pragma pack(pop)

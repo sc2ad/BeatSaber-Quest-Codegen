@@ -74,23 +74,23 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: private UnityEngine.ProBuilder.Edge m_Common
     UnityEngine::ProBuilder::Edge& dyn_m_Common();
     // public UnityEngine.ProBuilder.Edge get_local()
-    // Offset: 0x1AED568
+    // Offset: 0x1AEFD18
     UnityEngine::ProBuilder::Edge get_local();
     // public System.Void set_local(UnityEngine.ProBuilder.Edge value)
-    // Offset: 0x1AED570
+    // Offset: 0x1AEFD20
     void set_local(UnityEngine::ProBuilder::Edge value);
     // public UnityEngine.ProBuilder.Edge get_common()
-    // Offset: 0x1AED578
+    // Offset: 0x1AEFD28
     UnityEngine::ProBuilder::Edge get_common();
     // public System.Void set_common(UnityEngine.ProBuilder.Edge value)
-    // Offset: 0x1AED580
+    // Offset: 0x1AEFD30
     void set_common(UnityEngine::ProBuilder::Edge value);
     // public System.Void .ctor(UnityEngine.ProBuilder.Edge common, UnityEngine.ProBuilder.Edge local)
-    // Offset: 0x1AED588
+    // Offset: 0x1AEFD38
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  EdgeLookup(UnityEngine::ProBuilder::Edge common, UnityEngine::ProBuilder::Edge local)
     // public System.Void .ctor(System.Int32 cx, System.Int32 cy, System.Int32 x, System.Int32 y)
-    // Offset: 0x1AED590
+    // Offset: 0x1AEFD40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     EdgeLookup(int cx, int cy, int x, int y) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::EdgeLookup::.ctor");
@@ -98,26 +98,26 @@ namespace UnityEngine::ProBuilder {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, cx, cy, x, y);
     }
     // public System.Boolean Equals(UnityEngine.ProBuilder.EdgeLookup other)
-    // Offset: 0x1AED5F8
+    // Offset: 0x1AEFDA8
     bool Equals(UnityEngine::ProBuilder::EdgeLookup other);
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.EdgeLookup> GetEdgeLookup(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> edges, System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> lookup)
-    // Offset: 0x1AED9E4
+    // Offset: 0x1AF0194
     static System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::EdgeLookup>* GetEdgeLookup(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* edges, System::Collections::Generic::Dictionary_2<int, int>* lookup);
     // static public System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.EdgeLookup> GetEdgeLookupHashSet(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> edges, System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> lookup)
-    // Offset: 0x1AEDAA8
+    // Offset: 0x1AF0258
     static System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::EdgeLookup>* GetEdgeLookupHashSet(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* edges, System::Collections::Generic::Dictionary_2<int, int>* lookup);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1AED628
+    // Offset: 0x1AEFDD8
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1AED6C8
+    // Offset: 0x1AEFE78
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1AED840
+    // Offset: 0x1AEFFF0
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
@@ -126,10 +126,10 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(EdgeLookup), 8 + sizeof(UnityEngine::ProBuilder::Edge)> __UnityEngine_ProBuilder_EdgeLookupSizeCheck;
   static_assert(sizeof(EdgeLookup) == 0x10);
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.EdgeLookup a, UnityEngine.ProBuilder.EdgeLookup b)
-  // Offset: 0x1AED6F4
+  // Offset: 0x1AEFEA4
   bool operator ==(const UnityEngine::ProBuilder::EdgeLookup& a, const UnityEngine::ProBuilder::EdgeLookup& b);
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.EdgeLookup a, UnityEngine.ProBuilder.EdgeLookup b)
-  // Offset: 0x1AED798
+  // Offset: 0x1AEFF48
   bool operator !=(const UnityEngine::ProBuilder::EdgeLookup& a, const UnityEngine::ProBuilder::EdgeLookup& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::EdgeLookup, "UnityEngine.ProBuilder", "EdgeLookup");

@@ -96,16 +96,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _frameCountInInterval
     int& dyn__frameCountInInterval();
     // protected System.Void Start()
-    // Offset: 0x125C200
+    // Offset: 0x1260BC8
     void Start();
     // protected System.Void Update()
-    // Offset: 0x125C274
+    // Offset: 0x1260C3C
     void Update();
     // private System.Void RefreshText()
-    // Offset: 0x125C360
+    // Offset: 0x1260D28
     void RefreshText();
     // public System.Void .ctor()
-    // Offset: 0x125C484
+    // Offset: 0x1260E4C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

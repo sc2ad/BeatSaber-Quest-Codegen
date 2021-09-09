@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::BloomFogParamsAnimator::$AnimationCoroutine$d__2
     class $AnimationCoroutine$d__2;
-    // [InjectAttribute] Offset: 0xE13FE8
+    // [InjectAttribute] Offset: 0xE18F58
     // private readonly BloomFogSO _bloomFog
     // Size: 0x8
     // Offset: 0x18
@@ -50,22 +50,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BloomFogSO _bloomFog
     GlobalNamespace::BloomFogSO*& dyn__bloomFog();
     // public System.Void AnimateBloomFogParamsChange(BloomFogEnvironmentParams envFogParams, System.Single duration)
-    // Offset: 0x1E11138
+    // Offset: 0x1E10DFC
     void AnimateBloomFogParamsChange(GlobalNamespace::BloomFogEnvironmentParams* envFogParams, float duration);
     // private System.Collections.IEnumerator AnimationCoroutine(BloomFogEnvironmentParams envFogParams, System.Single duration)
-    // Offset: 0x1E11260
+    // Offset: 0x1E10F24
     System::Collections::IEnumerator* AnimationCoroutine(GlobalNamespace::BloomFogEnvironmentParams* envFogParams, float duration);
     // public System.Void SetBloomFogParamsChange(BloomFogEnvironmentParams envFogParams, System.Single transition)
-    // Offset: 0x1E11318
+    // Offset: 0x1E10FDC
     void SetBloomFogParamsChange(GlobalNamespace::BloomFogEnvironmentParams* envFogParams, float transition);
     // public BloomFogEnvironmentParams GetDefaultBloomFogParams()
-    // Offset: 0x1E11364
+    // Offset: 0x1E11028
     GlobalNamespace::BloomFogEnvironmentParams* GetDefaultBloomFogParams();
     // public System.Void SetDefaultBloomFogParams(BloomFogEnvironmentParams newDefaultBloomFogParams)
-    // Offset: 0x1E11380
+    // Offset: 0x1E11044
     void SetDefaultBloomFogParams(GlobalNamespace::BloomFogEnvironmentParams* newDefaultBloomFogParams);
     // public System.Void .ctor()
-    // Offset: 0x1E11444
+    // Offset: 0x1E11108
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

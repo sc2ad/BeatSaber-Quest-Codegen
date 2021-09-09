@@ -90,48 +90,48 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Boolean _isConnectionOwner
     bool& dyn__isConnectionOwner();
     // public System.UInt64 get_id()
-    // Offset: 0x12394DC
+    // Offset: 0x1256AA0
     uint64_t get_id();
     // public System.String get_userId()
-    // Offset: 0x12394E4
+    // Offset: 0x1256AA8
     ::Il2CppString* get_userId();
     // public System.String get_userName()
-    // Offset: 0x12394EC
+    // Offset: 0x1256AB0
     ::Il2CppString* get_userName();
     // public System.Boolean get_isConnectionOwner()
-    // Offset: 0x12394F4
+    // Offset: 0x1256AB8
     bool get_isConnectionOwner();
     // public System.Void .ctor(System.UInt64 id, System.String userName, System.Boolean isConnectionOwner)
-    // Offset: 0x1238E80
+    // Offset: 0x1256444
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusConnectionManager::OculusConnection* New_ctor(uint64_t id, ::Il2CppString* userName, bool isConnectionOwner) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OculusConnectionManager::OculusConnection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusConnectionManager::OculusConnection*, creationType>(id, userName, isConnectionOwner)));
     }
     // public System.Void Send(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0x123827C
+    // Offset: 0x1255840
     void Send(LiteNetLib::Utils::NetDataWriter* writer, LiteNetLib::DeliveryMethod deliveryMethod);
     // public System.Void Disconnect()
-    // Offset: 0x1238AD8
+    // Offset: 0x125609C
     void Disconnect();
     // public System.Void Ping(System.Action`2<OculusConnectionManager/OculusConnection,System.Single> onPingResult)
-    // Offset: 0x12387B8
+    // Offset: 0x1255D7C
     void Ping(System::Action_2<GlobalNamespace::OculusConnectionManager::OculusConnection*, float>* onPingResult);
     // public System.Boolean Equals(OculusConnectionManager/OculusConnection other)
-    // Offset: 0x1239504
+    // Offset: 0x1256AC8
     bool Equals(GlobalNamespace::OculusConnectionManager::OculusConnection* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1239534
+    // Offset: 0x1256AF8
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1239648
+    // Offset: 0x1256C0C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1239674
+    // Offset: 0x1256C38
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

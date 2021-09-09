@@ -169,7 +169,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::SteamVR_TrackedObject::EIndex) == 0x4);
     // Padding between fields: index and: origin
     char __padding0[0x4] = {};
-    // [TooltipAttribute] Offset: 0xDF467C
+    // [TooltipAttribute] Offset: 0xDF95EC
     // public UnityEngine.Transform origin
     // Size: 0x8
     // Offset: 0x20
@@ -203,25 +203,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private SteamVR_Events/Action newPosesAction
     GlobalNamespace::SteamVR_Events::Action*& dyn_newPosesAction();
     // public System.Boolean get_isValid()
-    // Offset: 0x16FE114
+    // Offset: 0x1704948
     bool get_isValid();
     // private System.Void set_isValid(System.Boolean value)
-    // Offset: 0x16FE11C
+    // Offset: 0x1704950
     void set_isValid(bool value);
     // private System.Void OnNewPoses(Valve.VR.TrackedDevicePose_t[] poses)
-    // Offset: 0x16FE128
+    // Offset: 0x170495C
     void OnNewPoses(::Array<Valve::VR::TrackedDevicePose_t>* poses);
     // private System.Void OnEnable()
-    // Offset: 0x16FE434
+    // Offset: 0x1704C68
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x16FE4E4
+    // Offset: 0x1704D18
     void OnDisable();
     // public System.Void SetDeviceIndex(System.Int32 index)
-    // Offset: 0x16FE51C
+    // Offset: 0x1704D50
     void SetDeviceIndex(int index);
     // private System.Void .ctor()
-    // Offset: 0x16FE384
+    // Offset: 0x1704BB8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

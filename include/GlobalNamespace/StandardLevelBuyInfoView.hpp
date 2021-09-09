@@ -69,19 +69,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.UI.Button _buyPackButton
     UnityEngine::UI::Button*& dyn__buyPackButton();
     // public UnityEngine.UI.Button get_buyLevelButton()
-    // Offset: 0x1084F28
+    // Offset: 0x10A197C
     UnityEngine::UI::Button* get_buyLevelButton();
     // public UnityEngine.UI.Button get_openPackButton()
-    // Offset: 0x1084F30
+    // Offset: 0x10A1984
     UnityEngine::UI::Button* get_openPackButton();
     // public UnityEngine.UI.Button get_buyPackButton()
-    // Offset: 0x1084F38
+    // Offset: 0x10A198C
     UnityEngine::UI::Button* get_buyPackButton();
     // public System.Void RefreshView(System.String infoText, System.Boolean canBuyPack)
-    // Offset: 0x1084F40
+    // Offset: 0x10A1994
     void RefreshView(::Il2CppString* infoText, bool canBuyPack);
     // public System.Void .ctor()
-    // Offset: 0x1084FB4
+    // Offset: 0x10A1A08
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

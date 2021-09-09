@@ -30,7 +30,7 @@ namespace NUnit::Framework::Internal {
     // Creating value type constructor for type: InvalidTestFixtureException
     InvalidTestFixtureException() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x2297FA0
+    // Offset: 0x2294C64
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -40,7 +40,7 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<InvalidTestFixtureException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x2298008
+    // Offset: 0x2294CCC
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -49,7 +49,7 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<InvalidTestFixtureException*, creationType>(message)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x2298080
+    // Offset: 0x2294D44
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

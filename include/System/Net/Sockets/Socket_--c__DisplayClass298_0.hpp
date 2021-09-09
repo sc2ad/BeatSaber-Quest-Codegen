@@ -62,10 +62,10 @@ namespace System::Net::Sockets {
     // Get instance field reference: public System.IntPtr handle
     System::IntPtr& dyn_handle();
     // System.Void <QueueIOSelectorJob>b__0(System.Threading.Tasks.Task t)
-    // Offset: 0x15C7894
+    // Offset: 0x15D10C8
     void $QueueIOSelectorJob$b__0(System::Threading::Tasks::Task* t);
     // public System.Void .ctor()
-    // Offset: 0x15C788C
+    // Offset: 0x15D10C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

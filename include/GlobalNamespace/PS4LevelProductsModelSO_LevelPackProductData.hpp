@@ -65,22 +65,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private PS4LevelProductsModelSO/LevelProductData[] _levelProductsData
     ::Array<GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*>*& dyn__levelProductsData();
     // public System.String get_productLabel()
-    // Offset: 0x102E4C4
+    // Offset: 0x1035D00
     ::Il2CppString* get_productLabel();
     // public System.String get_categoryLabel()
-    // Offset: 0x102E4CC
+    // Offset: 0x1035D08
     ::Il2CppString* get_categoryLabel();
     // public System.String get_levelPackId()
-    // Offset: 0x102E4D4
+    // Offset: 0x1035D10
     ::Il2CppString* get_levelPackId();
     // public System.Single get_packLevelPriceDiscountMul()
-    // Offset: 0x102E4DC
+    // Offset: 0x1035D18
     float get_packLevelPriceDiscountMul();
     // public PS4LevelProductsModelSO/LevelProductData[] get_levelProductsData()
-    // Offset: 0x102E4E4
+    // Offset: 0x1035D20
     ::Array<GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*>* get_levelProductsData();
     // public System.Void .ctor()
-    // Offset: 0x102E4EC
+    // Offset: 0x1035D28
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

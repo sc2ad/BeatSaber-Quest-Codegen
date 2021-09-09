@@ -48,36 +48,36 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: public UnityEngine.Vector2 value
     UnityEngine::Vector2& dyn_value();
     // public System.Single get_x()
-    // Offset: 0x1AF4FC4
+    // Offset: 0x1AF7774
     float get_x();
     // public System.Single get_y()
-    // Offset: 0x1AF4FCC
+    // Offset: 0x1AF777C
     float get_y();
     // public System.Void .ctor(UnityEngine.Vector2 vector)
-    // Offset: 0x1AF4FD4
+    // Offset: 0x1AF7784
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  IntVec2(UnityEngine::Vector2 vector)
     // public System.Boolean Equals(UnityEngine.ProBuilder.IntVec2 p)
-    // Offset: 0x1AF50A8
+    // Offset: 0x1AF7858
     bool Equals(UnityEngine::ProBuilder::IntVec2 p);
     // public System.Boolean Equals(UnityEngine.Vector2 p)
-    // Offset: 0x1AF51C4
+    // Offset: 0x1AF7974
     bool Equals(UnityEngine::Vector2 p);
     // static private System.Int32 round(System.Single v)
-    // Offset: 0x1AF514C
+    // Offset: 0x1AF78FC
     static int round(float v);
     // public override System.String ToString()
-    // Offset: 0x1AF4FDC
+    // Offset: 0x1AF778C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object b)
-    // Offset: 0x1AF5234
+    // Offset: 0x1AF79E4
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object b)
     bool Equals(::Il2CppObject* b);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1AF52F8
+    // Offset: 0x1AF7AA8
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -86,10 +86,10 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(IntVec2), 0 + sizeof(UnityEngine::Vector2)> __UnityEngine_ProBuilder_IntVec2SizeCheck;
   static_assert(sizeof(IntVec2) == 0x8);
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.IntVec2 a, UnityEngine.ProBuilder.IntVec2 b)
-  // Offset: 0x1AF5078
+  // Offset: 0x1AF7828
   bool operator ==(const UnityEngine::ProBuilder::IntVec2& a, const UnityEngine::ProBuilder::IntVec2& b);
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.IntVec2 a, UnityEngine.ProBuilder.IntVec2 b)
-  // Offset: 0x1AF5118
+  // Offset: 0x1AF78C8
   bool operator !=(const UnityEngine::ProBuilder::IntVec2& a, const UnityEngine::ProBuilder::IntVec2& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::IntVec2, "UnityEngine.ProBuilder", "IntVec2");

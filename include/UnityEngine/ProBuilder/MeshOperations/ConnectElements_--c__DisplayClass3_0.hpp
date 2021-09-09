@@ -49,10 +49,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public System.Collections.Generic.HashSet`1<System.Int32> appended
     System::Collections::Generic::HashSet_1<int>*& dyn_appended();
     // System.Boolean <Connect>b__3(UnityEngine.ProBuilder.Edge x)
-    // Offset: 0x1553084
+    // Offset: 0x155C81C
     bool $Connect$b__3(UnityEngine::ProBuilder::Edge x);
     // public System.Void .ctor()
-    // Offset: 0x1552C4C
+    // Offset: 0x155C3E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

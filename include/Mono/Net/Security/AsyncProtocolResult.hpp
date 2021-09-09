@@ -46,20 +46,20 @@ namespace Mono::Net::Security {
     // Get instance field reference: private readonly System.Runtime.ExceptionServices.ExceptionDispatchInfo <Error>k__BackingField
     System::Runtime::ExceptionServices::ExceptionDispatchInfo*& dyn_$Error$k__BackingField();
     // public System.Int32 get_UserResult()
-    // Offset: 0x15E6614
+    // Offset: 0x15EFE48
     int get_UserResult();
     // public System.Runtime.ExceptionServices.ExceptionDispatchInfo get_Error()
-    // Offset: 0x15E661C
+    // Offset: 0x15EFE50
     System::Runtime::ExceptionServices::ExceptionDispatchInfo* get_Error();
     // public System.Void .ctor(System.Int32 result)
-    // Offset: 0x15E63E4
+    // Offset: 0x15EFC18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncProtocolResult* New_ctor(int result) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::AsyncProtocolResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncProtocolResult*, creationType>(result)));
     }
     // public System.Void .ctor(System.Runtime.ExceptionServices.ExceptionDispatchInfo error)
-    // Offset: 0x15E6588
+    // Offset: 0x15EFDBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncProtocolResult* New_ctor(System::Runtime::ExceptionServices::ExceptionDispatchInfo* error) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::AsyncProtocolResult::.ctor");

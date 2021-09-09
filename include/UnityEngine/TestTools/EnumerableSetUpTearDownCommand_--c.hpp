@@ -45,13 +45,13 @@ namespace UnityEngine::TestTools {
     // Set static field: static public System.Func`2<System.Reflection.MethodInfo,System.Boolean> <>9__1_0
     static void _set_$$9__1_0(System::Func_2<System::Reflection::MethodInfo*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x14C04AC
+    // Offset: 0x14C8468
     static void _cctor();
     // System.Boolean <GetMethodsWithAttributeFromFixture>b__1_0(System.Reflection.MethodInfo x)
-    // Offset: 0x14C0518
+    // Offset: 0x14C84D4
     bool $GetMethodsWithAttributeFromFixture$b__1_0(System::Reflection::MethodInfo* x);
     // public System.Void .ctor()
-    // Offset: 0x14C0510
+    // Offset: 0x14C84CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

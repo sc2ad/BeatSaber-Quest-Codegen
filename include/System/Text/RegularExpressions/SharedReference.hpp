@@ -40,7 +40,7 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: private System.WeakReference _ref
     System::WeakReference*& dyn__ref();
     // public System.Void .ctor()
-    // Offset: 0x19A2738
+    // Offset: 0x19A7F6C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

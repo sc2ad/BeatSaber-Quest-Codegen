@@ -37,7 +37,7 @@ namespace System {
     // Get instance field reference: private System.Object data
     ::Il2CppObject*& dyn_data();
     // public System.Void .ctor()
-    // Offset: 0x1839750
+    // Offset: 0x183FF84
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

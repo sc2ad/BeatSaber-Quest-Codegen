@@ -386,7 +386,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Byte Reserved_00
     uint8_t& dyn_Reserved_00();
     // public System.Void .ctor(OVRPlugin/ControllerState2 cs)
-    // Offset: 0x1626B98
+    // Offset: 0x162E3CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ControllerState4(GlobalNamespace::OVRPlugin::ControllerState2 cs) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::ControllerState4::.ctor");

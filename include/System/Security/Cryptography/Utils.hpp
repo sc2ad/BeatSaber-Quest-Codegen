@@ -28,49 +28,49 @@ namespace System::Security::Cryptography {
     // Set static field: static private System.Security.Cryptography.RNGCryptoServiceProvider _rng
     static void _set__rng(System::Security::Cryptography::RNGCryptoServiceProvider* value);
     // static System.Security.Cryptography.RNGCryptoServiceProvider get_StaticRandomNumberGenerator()
-    // Offset: 0x1B40378
+    // Offset: 0x1B42B28
     static System::Security::Cryptography::RNGCryptoServiceProvider* get_StaticRandomNumberGenerator();
     // static System.Byte[] GenerateRandom(System.Int32 keySize)
-    // Offset: 0x1B3DA94
+    // Offset: 0x1B40244
     static ::Array<uint8_t>* GenerateRandom(int keySize);
     // static System.Boolean HasAlgorithm(System.Int32 dwCalg, System.Int32 dwKeySize)
-    // Offset: 0x1B476AC
+    // Offset: 0x1B49E5C
     static bool HasAlgorithm(int dwCalg, int dwKeySize);
     // static System.String DiscardWhiteSpaces(System.String inputBuffer)
-    // Offset: 0x1B3BB00
+    // Offset: 0x1B3E2B0
     static ::Il2CppString* DiscardWhiteSpaces(::Il2CppString* inputBuffer);
     // static System.String DiscardWhiteSpaces(System.String inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x1B47F34
+    // Offset: 0x1B4A6E4
     static ::Il2CppString* DiscardWhiteSpaces(::Il2CppString* inputBuffer, int inputOffset, int inputCount);
     // static System.Int32 ConvertByteArrayToInt(System.Byte[] input)
-    // Offset: 0x1B480E4
+    // Offset: 0x1B4A894
     static int ConvertByteArrayToInt(::Array<uint8_t>* input);
     // static System.Byte[] ConvertIntToByteArray(System.Int32 dwInput)
-    // Offset: 0x1B48150
+    // Offset: 0x1B4A900
     static ::Array<uint8_t>* ConvertIntToByteArray(int dwInput);
     // static System.Byte[] FixupKeyParity(System.Byte[] key)
-    // Offset: 0x1B472A0
+    // Offset: 0x1B49A50
     static ::Array<uint8_t>* FixupKeyParity(::Array<uint8_t>* key);
     // static System.Void DWORDFromLittleEndian(System.UInt32* x, System.Int32 digits, System.Byte* block)
-    // Offset: 0x1B48280
+    // Offset: 0x1B4AA30
     static void DWORDFromLittleEndian(uint* x, int digits, uint8_t* block);
     // static System.Void DWORDToLittleEndian(System.Byte[] block, System.UInt32[] x, System.Int32 digits)
-    // Offset: 0x1B482CC
+    // Offset: 0x1B4AA7C
     static void DWORDToLittleEndian(::Array<uint8_t>* block, ::Array<uint>* x, int digits);
     // static System.Void DWORDFromBigEndian(System.UInt32* x, System.Int32 digits, System.Byte* block)
-    // Offset: 0x1B42A70
+    // Offset: 0x1B45220
     static void DWORDFromBigEndian(uint* x, int digits, uint8_t* block);
     // static System.Void DWORDToBigEndian(System.Byte[] block, System.UInt32[] x, System.Int32 digits)
-    // Offset: 0x1B42970
+    // Offset: 0x1B45120
     static void DWORDToBigEndian(::Array<uint8_t>* block, ::Array<uint>* x, int digits);
     // static System.Void QuadWordFromBigEndian(System.UInt64* x, System.Int32 digits, System.Byte* block)
-    // Offset: 0x1B448A0
+    // Offset: 0x1B47050
     static void QuadWordFromBigEndian(uint64_t* x, int digits, uint8_t* block);
     // static System.Void QuadWordToBigEndian(System.Byte[] block, System.UInt64[] x, System.Int32 digits)
-    // Offset: 0x1B446DC
+    // Offset: 0x1B46E8C
     static void QuadWordToBigEndian(::Array<uint8_t>* block, ::Array<uint64_t>* x, int digits);
     // static System.Boolean _ProduceLegacyHmacValues()
-    // Offset: 0x1B483CC
+    // Offset: 0x1B4AB7C
     static bool _ProduceLegacyHmacValues();
   }; // System.Security.Cryptography.Utils
   #pragma pack(pop)

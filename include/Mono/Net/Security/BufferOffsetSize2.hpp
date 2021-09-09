@@ -37,20 +37,20 @@ namespace Mono::Net::Security {
     // Get instance field reference: public readonly System.Int32 InitialSize
     int& dyn_InitialSize();
     // public System.Void .ctor(System.Int32 size)
-    // Offset: 0x15E6C24
+    // Offset: 0x15F0458
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BufferOffsetSize2* New_ctor(int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::BufferOffsetSize2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BufferOffsetSize2*, creationType>(size)));
     }
     // public System.Void Reset()
-    // Offset: 0x15E6C9C
+    // Offset: 0x15F04D0
     void Reset();
     // public System.Void MakeRoom(System.Int32 size)
-    // Offset: 0x15E6D28
+    // Offset: 0x15F055C
     void MakeRoom(int size);
     // public System.Void AppendData(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x15E6DEC
+    // Offset: 0x15F0620
     void AppendData(::Array<uint8_t>* buffer, int offset, int size);
   }; // Mono.Net.Security.BufferOffsetSize2
   #pragma pack(pop)

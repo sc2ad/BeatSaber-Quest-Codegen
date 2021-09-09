@@ -40,25 +40,25 @@ namespace Mono::Net {
     // Get instance field reference: private System.String str
     ::Il2CppString*& dyn_str();
     // static private System.IntPtr CFStringCreateWithCharacters(System.IntPtr alloc, System.IntPtr chars, System.IntPtr length)
-    // Offset: 0x15E4D48
+    // Offset: 0x15EE57C
     static System::IntPtr CFStringCreateWithCharacters(System::IntPtr alloc, System::IntPtr chars, System::IntPtr length);
     // static public Mono.Net.CFString Create(System.String value)
-    // Offset: 0x15E24E4
+    // Offset: 0x15EBD18
     static Mono::Net::CFString* Create(::Il2CppString* value);
     // static private System.IntPtr CFStringGetLength(System.IntPtr handle)
-    // Offset: 0x15E4DE0
+    // Offset: 0x15EE614
     static System::IntPtr CFStringGetLength(System::IntPtr handle);
     // static private System.IntPtr CFStringGetCharactersPtr(System.IntPtr handle)
-    // Offset: 0x15E4E60
+    // Offset: 0x15EE694
     static System::IntPtr CFStringGetCharactersPtr(System::IntPtr handle);
     // static private System.IntPtr CFStringGetCharacters(System.IntPtr handle, Mono.Net.CFRange range, System.IntPtr buffer)
-    // Offset: 0x15E4EE0
+    // Offset: 0x15EE714
     static System::IntPtr CFStringGetCharacters(System::IntPtr handle, Mono::Net::CFRange range, System::IntPtr buffer);
     // static public System.String AsString(System.IntPtr handle)
-    // Offset: 0x15E46EC
+    // Offset: 0x15EDF20
     static ::Il2CppString* AsString(System::IntPtr handle);
     // public System.Void .ctor(System.IntPtr handle, System.Boolean own)
-    // Offset: 0x15E4CF8
+    // Offset: 0x15EE52C
     // Implemented from: Mono.Net.CFObject
     // Base method: System.Void CFObject::.ctor(System.IntPtr handle, System.Boolean own)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -67,7 +67,7 @@ namespace Mono::Net {
       return THROW_UNLESS((::il2cpp_utils::New<CFString*, creationType>(handle, own)));
     }
     // public override System.String ToString()
-    // Offset: 0x15E4F88
+    // Offset: 0x15EE7BC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

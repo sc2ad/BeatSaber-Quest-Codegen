@@ -36,16 +36,16 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.Single FltCompareResolution
     static void _set_FltCompareResolution(float value);
     // static private System.Int32 HashFloat(System.Single f)
-    // Offset: 0x22CF1D8
+    // Offset: 0x22CAE9C
     static int HashFloat(float f);
     // static public System.Int32 GetHashCode(UnityEngine.Vector2 v)
-    // Offset: 0x22CF218
+    // Offset: 0x22CAEDC
     static int GetHashCode(UnityEngine::Vector2 v);
     // static public System.Int32 GetHashCode(UnityEngine.Vector3 v)
-    // Offset: 0x22CF294
+    // Offset: 0x22CAF58
     static int GetHashCode(UnityEngine::Vector3 v);
     // static public System.Int32 GetHashCode(UnityEngine.Vector4 v)
-    // Offset: 0x22CF344
+    // Offset: 0x22CB008
     static int GetHashCode(UnityEngine::Vector4 v);
   }; // UnityEngine.ProBuilder.VectorHash
   #pragma pack(pop)

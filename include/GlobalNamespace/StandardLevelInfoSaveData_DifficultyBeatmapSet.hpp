@@ -39,13 +39,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private StandardLevelInfoSaveData/DifficultyBeatmap[] _difficultyBeatmaps
     ::Array<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmap*>*& dyn__difficultyBeatmaps();
     // public System.String get_beatmapCharacteristicName()
-    // Offset: 0x108C2E4
+    // Offset: 0x10690E4
     ::Il2CppString* get_beatmapCharacteristicName();
     // public StandardLevelInfoSaveData/DifficultyBeatmap[] get_difficultyBeatmaps()
-    // Offset: 0x108C2EC
+    // Offset: 0x10690EC
     ::Array<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmap*>* get_difficultyBeatmaps();
     // public System.Void .ctor(System.String beatmapCharacteristicName, StandardLevelInfoSaveData/DifficultyBeatmap[] difficultyBeatmaps)
-    // Offset: 0x108C284
+    // Offset: 0x1069084
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelInfoSaveData::DifficultyBeatmapSet* New_ctor(::Il2CppString* beatmapCharacteristicName, ::Array<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmap*>* difficultyBeatmaps) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmapSet::.ctor");

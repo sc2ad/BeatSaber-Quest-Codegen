@@ -55,45 +55,45 @@ namespace NUnit::Framework::Internal {
     static ::Array<System::Type*>* _get_EmptyTypes();
     // Set static field: static private readonly System.Type[] EmptyTypes
     static void _set_EmptyTypes(::Array<System::Type*>* value);
-    // [DebuggerBrowsableAttribute] Offset: 0xE228C4
+    // [DebuggerBrowsableAttribute] Offset: 0xE28834
     // Get static field: static private System.Func`2<System.Func`1<System.Object>,System.Object> <MethodCallWrapper>k__BackingField
     static System::Func_2<System::Func_1<::Il2CppObject*>*, ::Il2CppObject*>* _get_$MethodCallWrapper$k__BackingField();
     // Set static field: static private System.Func`2<System.Func`1<System.Object>,System.Object> <MethodCallWrapper>k__BackingField
     static void _set_$MethodCallWrapper$k__BackingField(System::Func_2<System::Func_1<::Il2CppObject*>*, ::Il2CppObject*>* value);
-    // [DebuggerBrowsableAttribute] Offset: 0xE22900
+    // [DebuggerBrowsableAttribute] Offset: 0xE28870
     // Get static field: static private System.Func`3<System.Type,System.Object[],System.Object> <ConstructorCallWrapper>k__BackingField
     static System::Func_3<System::Type*, ::Array<::Il2CppObject*>*, ::Il2CppObject*>* _get_$ConstructorCallWrapper$k__BackingField();
     // Set static field: static private System.Func`3<System.Type,System.Object[],System.Object> <ConstructorCallWrapper>k__BackingField
     static void _set_$ConstructorCallWrapper$k__BackingField(System::Func_3<System::Type*, ::Array<::Il2CppObject*>*, ::Il2CppObject*>* value);
     // static public System.Func`2<System.Func`1<System.Object>,System.Object> get_MethodCallWrapper()
-    // Offset: 0x229AC24
+    // Offset: 0x22978E8
     static System::Func_2<System::Func_1<::Il2CppObject*>*, ::Il2CppObject*>* get_MethodCallWrapper();
     // static public System.Func`3<System.Type,System.Object[],System.Object> get_ConstructorCallWrapper()
-    // Offset: 0x229AC8C
+    // Offset: 0x2297950
     static System::Func_3<System::Type*, ::Array<::Il2CppObject*>*, ::Il2CppObject*>* get_ConstructorCallWrapper();
     // static private System.Void .cctor()
-    // Offset: 0x229ACF4
+    // Offset: 0x22979B8
     static void _cctor();
     // static public System.Reflection.MethodInfo[] GetMethodsWithAttribute(System.Type fixtureType, System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x229A33C
+    // Offset: 0x2297000
     static ::Array<System::Reflection::MethodInfo*>* GetMethodsWithAttribute(System::Type* fixtureType, System::Type* attributeType, bool inherit);
     // static public System.Boolean HasMethodWithAttribute(System.Type fixtureType, System.Type attributeType)
-    // Offset: 0x229A4EC
+    // Offset: 0x22971B0
     static bool HasMethodWithAttribute(System::Type* fixtureType, System::Type* attributeType);
     // static public System.Object Construct(System.Type type)
-    // Offset: 0x229A5F0
+    // Offset: 0x22972B4
     static ::Il2CppObject* Construct(System::Type* type);
     // static public System.Object Construct(System.Type type, System.Object[] arguments)
-    // Offset: 0x229A7D4
+    // Offset: 0x2297498
     static ::Il2CppObject* Construct(System::Type* type, ::Array<::Il2CppObject*>* arguments);
     // static System.Type[] GetTypeArray(System.Object[] objects)
-    // Offset: 0x229AA60
+    // Offset: 0x2297724
     static ::Array<System::Type*>* GetTypeArray(::Array<::Il2CppObject*>* objects);
     // static public System.Object InvokeMethod(System.Reflection.MethodInfo method, System.Object fixture)
-    // Offset: 0x229ABA4
+    // Offset: 0x2297868
     static ::Il2CppObject* InvokeMethod(System::Reflection::MethodInfo* method, ::Il2CppObject* fixture);
     // static public System.Object InvokeMethod(System.Reflection.MethodInfo method, System.Object fixture, params System.Object[] args)
-    // Offset: 0x2298A14
+    // Offset: 0x22956D8
     static ::Il2CppObject* InvokeMethod(System::Reflection::MethodInfo* method, ::Il2CppObject* fixture, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Object InvokeMethod(System.Reflection.MethodInfo method, System.Object fixture, params System.Object[] args)
     static ::Il2CppObject* InvokeMethod(System::Reflection::MethodInfo* method, ::Il2CppObject* fixture, std::initializer_list<::Il2CppObject*> args);

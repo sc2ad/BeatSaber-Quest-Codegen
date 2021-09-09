@@ -72,7 +72,7 @@ namespace Valve::VR {
     // Get instance field reference: public System.Int32 diffuseTextureId
     int& dyn_diffuseTextureId();
     // public System.Void .ctor(Valve.VR.RenderModel_t unpacked)
-    // Offset: 0x23CA59C
+    // Offset: 0x23D08C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RenderModel_t_Packed(Valve::VR::RenderModel_t unpacked) {
       static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::RenderModel_t_Packed::.ctor");
@@ -80,7 +80,7 @@ namespace Valve::VR {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, unpacked);
     }
     // public System.Void Unpack(ref Valve.VR.RenderModel_t unpacked)
-    // Offset: 0x23CA5C8
+    // Offset: 0x23D08F0
     void Unpack(ByRef<Valve::VR::RenderModel_t> unpacked);
   }; // Valve.VR.RenderModel_t_Packed
   #pragma pack(pop)

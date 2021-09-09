@@ -321,34 +321,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single sceneResolutionScale
     float& dyn_sceneResolutionScale();
     // public System.Void ReadConfig()
-    // Offset: 0x1421CB0
+    // Offset: 0x1429C6C
     void ReadConfig();
     // private System.Void OnChanged(System.Object source, System.IO.FileSystemEventArgs e)
-    // Offset: 0x14225B8
+    // Offset: 0x142A574
     void OnChanged(::Il2CppObject* source, System::IO::FileSystemEventArgs* e);
     // public System.Void AttachToCamera(SteamVR_Camera vrcam)
-    // Offset: 0x14225BC
+    // Offset: 0x142A578
     void AttachToCamera(GlobalNamespace::SteamVR_Camera* vrcam);
     // public System.Single GetTargetDistance()
-    // Offset: 0x1422B6C
+    // Offset: 0x142AB28
     float GetTargetDistance();
     // public System.Void RenderNear()
-    // Offset: 0x1422E18
+    // Offset: 0x142ADD4
     void RenderNear();
     // public System.Void RenderFar()
-    // Offset: 0x1423570
+    // Offset: 0x142B52C
     void RenderFar();
     // private System.Void OnGUI()
-    // Offset: 0x1423690
+    // Offset: 0x142B64C
     void OnGUI();
     // private System.Void OnEnable()
-    // Offset: 0x1423694
+    // Offset: 0x142B650
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x14238E4
+    // Offset: 0x142B8A0
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x1423A20
+    // Offset: 0x142B9DC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

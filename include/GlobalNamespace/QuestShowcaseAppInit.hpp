@@ -55,21 +55,21 @@ namespace GlobalNamespace {
     GlobalNamespace::MenuScenesTransitionSetupDataSO* menuTransitionSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuScenesTransitionSetupDataSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE318B8
+    // [SpaceAttribute] Offset: 0xE37828
     // private MainSettingsModelSO _mainSettingsModel
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainSettingsModelSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE318F0
+    // [InjectAttribute] Offset: 0xE37860
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x60
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE31900
+    // [InjectAttribute] Offset: 0xE37870
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x68
@@ -91,7 +91,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly PlayerDataModel _playerDataModel
     GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
     // public System.Void .ctor()
-    // Offset: 0x1140F3C
+    // Offset: 0x1125DD8
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     // Base method: System.Void MonoInstaller::.ctor()
@@ -107,22 +107,22 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<QuestShowcaseAppInit*, creationType>()));
     }
     // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0x1140CB8
+    // Offset: 0x1125B38
     // Implemented from: AppInit
     // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
     void AppStartAndMultiSceneEditorSetup();
     // protected override System.Void RepeatableSetup()
-    // Offset: 0x1140CD4
+    // Offset: 0x1125B54
     // Implemented from: AppInit
     // Base method: System.Void AppInit::RepeatableSetup()
     void RepeatableSetup();
     // protected override System.Void TransitionToNextScene()
-    // Offset: 0x1140E4C
+    // Offset: 0x1125CE8
     // Implemented from: AppInit
     // Base method: System.Void AppInit::TransitionToNextScene()
     void TransitionToNextScene();
     // public override System.Void InstallBindings()
-    // Offset: 0x1140E98
+    // Offset: 0x1125D34
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

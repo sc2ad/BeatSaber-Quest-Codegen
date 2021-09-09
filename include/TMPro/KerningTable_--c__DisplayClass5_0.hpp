@@ -47,10 +47,10 @@ namespace TMPro {
     // Get instance field reference: public System.Int32 right
     int& dyn_right();
     // System.Boolean <RemoveKerningPair>b__0(TMPro.KerningPair item)
-    // Offset: 0x111598C
+    // Offset: 0x1109624
     bool $RemoveKerningPair$b__0(TMPro::KerningPair* item);
     // public System.Void .ctor()
-    // Offset: 0x1115638
+    // Offset: 0x11092D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

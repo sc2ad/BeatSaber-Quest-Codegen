@@ -61,46 +61,46 @@ namespace LiteNetLib {
     // Get instance field reference: private System.Int64 _packetLoss
     int64_t& dyn__packetLoss();
     // public System.Int64 get_PacketsSent()
-    // Offset: 0x1BFC6C4
+    // Offset: 0x1C2785C
     int64_t get_PacketsSent();
     // public System.Int64 get_PacketsReceived()
-    // Offset: 0x1BFC6D0
+    // Offset: 0x1C27868
     int64_t get_PacketsReceived();
     // public System.Int64 get_BytesSent()
-    // Offset: 0x1BFC6DC
+    // Offset: 0x1C27874
     int64_t get_BytesSent();
     // public System.Int64 get_BytesReceived()
-    // Offset: 0x1BFC6E8
+    // Offset: 0x1C27880
     int64_t get_BytesReceived();
     // public System.Int64 get_PacketLoss()
-    // Offset: 0x1BFC6F4
+    // Offset: 0x1C2788C
     int64_t get_PacketLoss();
     // public System.Int64 get_PacketLossPercent()
-    // Offset: 0x1BFC700
+    // Offset: 0x1C27898
     int64_t get_PacketLossPercent();
     // public System.Void Reset()
-    // Offset: 0x1BFC750
+    // Offset: 0x1C278E8
     void Reset();
     // public System.Void IncrementPacketsSent()
-    // Offset: 0x1BF490C
+    // Offset: 0x1C1FAA4
     void IncrementPacketsSent();
     // public System.Void IncrementPacketsReceived()
-    // Offset: 0x1BF6988
+    // Offset: 0x1C21B20
     void IncrementPacketsReceived();
     // public System.Void AddBytesSent(System.Int64 bytesSent)
-    // Offset: 0x1BF4918
+    // Offset: 0x1C1FAB0
     void AddBytesSent(int64_t bytesSent);
     // public System.Void AddBytesReceived(System.Int64 bytesReceived)
-    // Offset: 0x1BF6994
+    // Offset: 0x1C21B2C
     void AddBytesReceived(int64_t bytesReceived);
     // public System.Void IncrementPacketLoss()
-    // Offset: 0x1BFC7B8
+    // Offset: 0x1C27950
     void IncrementPacketLoss();
     // public System.Void AddPacketLoss(System.Int64 packetLoss)
-    // Offset: 0x1BFC7C4
+    // Offset: 0x1C2795C
     void AddPacketLoss(int64_t packetLoss);
     // public System.Void .ctor()
-    // Offset: 0x1BF3F90
+    // Offset: 0x1C1F128
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -109,7 +109,7 @@ namespace LiteNetLib {
       return THROW_UNLESS((::il2cpp_utils::New<NetStatistics*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x1BFC7D0
+    // Offset: 0x1C27968
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

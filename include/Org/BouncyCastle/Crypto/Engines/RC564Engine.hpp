@@ -76,49 +76,49 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.Boolean forEncryption
     bool& dyn_forEncryption();
     // public System.String get_AlgorithmName()
-    // Offset: 0x1E78F68
+    // Offset: 0x1E7AC2C
     ::Il2CppString* get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x1E78FB0
+    // Offset: 0x1E7AC74
     bool get_IsPartialBlockOkay();
     // static private System.Void .cctor()
-    // Offset: 0x1E79B28
+    // Offset: 0x1E7B7EC
     static void _cctor();
     // public System.Int32 GetBlockSize()
-    // Offset: 0x1E78FB8
+    // Offset: 0x1E7AC7C
     int GetBlockSize();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1E79024
+    // Offset: 0x1E7ACE8
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1E794B8
+    // Offset: 0x1E7B17C
     int ProcessBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1E7985C
+    // Offset: 0x1E7B520
     void Reset();
     // private System.Void SetKey(System.Byte[] key)
-    // Offset: 0x1E791C0
+    // Offset: 0x1E7AE84
     void SetKey(::Array<uint8_t>* key);
     // private System.Int32 EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1E79690
+    // Offset: 0x1E7B354
     int EncryptBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* outBytes, int outOff);
     // private System.Int32 DecryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1E794C8
+    // Offset: 0x1E7B18C
     int DecryptBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* outBytes, int outOff);
     // private System.Int64 RotateLeft(System.Int64 x, System.Int64 y)
-    // Offset: 0x1E79860
+    // Offset: 0x1E7B524
     int64_t RotateLeft(int64_t x, int64_t y);
     // private System.Int64 RotateRight(System.Int64 x, System.Int64 y)
-    // Offset: 0x1E79A98
+    // Offset: 0x1E7B75C
     int64_t RotateRight(int64_t x, int64_t y);
     // private System.Int64 BytesToWord(System.Byte[] src, System.Int32 srcOff)
-    // Offset: 0x1E798F0
+    // Offset: 0x1E7B5B4
     int64_t BytesToWord(::Array<uint8_t>* src, int srcOff);
     // private System.Void WordToBytes(System.Int64 word, System.Byte[] dst, System.Int32 dstOff)
-    // Offset: 0x1E799B8
+    // Offset: 0x1E7B67C
     void WordToBytes(int64_t word, ::Array<uint8_t>* dst, int dstOff);
     // public System.Void .ctor()
-    // Offset: 0x1E78F3C
+    // Offset: 0x1E7AC00
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

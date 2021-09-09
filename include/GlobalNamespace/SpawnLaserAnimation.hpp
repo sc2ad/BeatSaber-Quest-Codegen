@@ -110,13 +110,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _initialized
     bool& dyn__initialized();
     // private System.Void InitIfNeeded()
-    // Offset: 0x10827D4
+    // Offset: 0x109F258
     void InitIfNeeded();
     // protected System.Void LateUpdate()
-    // Offset: 0x10828A4
+    // Offset: 0x109F328
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x1082A14
+    // Offset: 0x109F498
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

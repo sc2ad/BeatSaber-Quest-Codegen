@@ -55,28 +55,28 @@ namespace GlobalNamespace {
     class $SwitchToDefaultSpotWithFadeCoroutine$d__17;
     // Nested type: GlobalNamespace::MultiplayerSpectatorController::$SwitchToDefaultSpotCoroutine$d__18
     class $SwitchToDefaultSpotCoroutine$d__18;
-    // [InjectAttribute] Offset: 0xE3BC08
+    // [InjectAttribute] Offset: 0xE41B88
     // private readonly MultiplayerSpectatingSpotManager _spotManager
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::MultiplayerSpectatingSpotManager* spotManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerSpectatingSpotManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3BC18
+    // [InjectAttribute] Offset: 0xE41B98
     // private readonly MultiplayerLocalInactivePlayerSongSyncController _songController
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController* songController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3BC28
+    // [InjectAttribute] Offset: 0xE41BA8
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::MultiplayerController* multiplayerController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3BC38
+    // [InjectAttribute] Offset: 0xE41BB8
     // private readonly FadeInOutController _fadeInOutController
     // Size: 0x8
     // Offset: 0x30
@@ -120,46 +120,46 @@ namespace GlobalNamespace {
     // Get instance field reference: private IMultiplayerSpectatingSpot _currentSpot
     GlobalNamespace::IMultiplayerSpectatingSpot*& dyn__currentSpot();
     // public IMultiplayerSpectatingSpot get_currentSpot()
-    // Offset: 0x103B1D4
+    // Offset: 0x10439D8
     GlobalNamespace::IMultiplayerSpectatingSpot* get_currentSpot();
     // public System.Void add_spectatingSpotDidChangeEvent(System.Action`1<IMultiplayerSpectatingSpot> value)
-    // Offset: 0x103AE30
+    // Offset: 0x1043634
     void add_spectatingSpotDidChangeEvent(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
     // public System.Void remove_spectatingSpotDidChangeEvent(System.Action`1<IMultiplayerSpectatingSpot> value)
-    // Offset: 0x103B05C
+    // Offset: 0x1043860
     void remove_spectatingSpotDidChangeEvent(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
     // protected System.Void Awake()
-    // Offset: 0x103B1DC
+    // Offset: 0x10439E0
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x103B204
+    // Offset: 0x1043A08
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x103B298
+    // Offset: 0x1043A9C
     void OnDestroy();
     // public System.Void SwitchToDefaultSpot()
-    // Offset: 0x103B374
+    // Offset: 0x103B3B0
     void SwitchToDefaultSpot();
     // public System.Void SwitchToPrev()
-    // Offset: 0x103B180
+    // Offset: 0x1043984
     void SwitchToPrev();
     // public System.Void SwitchToNext()
-    // Offset: 0x103B11C
+    // Offset: 0x1043920
     void SwitchToNext();
     // private System.Collections.IEnumerator SwitchToDefaultSpotWithFadeCoroutine()
-    // Offset: 0x103B67C
+    // Offset: 0x1043E54
     System::Collections::IEnumerator* SwitchToDefaultSpotWithFadeCoroutine();
     // private System.Collections.IEnumerator SwitchToDefaultSpotCoroutine()
-    // Offset: 0x103B3A0
+    // Offset: 0x1043B78
     System::Collections::IEnumerator* SwitchToDefaultSpotCoroutine();
     // private System.Void SwitchToSpectatingSpot(IMultiplayerSpectatingSpot spectatingSpot)
-    // Offset: 0x103B410
+    // Offset: 0x1043BE8
     void SwitchToSpectatingSpot(GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
     // private System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x103B744
+    // Offset: 0x1043F1C
     void HandleStateChanged(GlobalNamespace::MultiplayerController::State state);
     // public System.Void .ctor()
-    // Offset: 0x103B77C
+    // Offset: 0x1043F54
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

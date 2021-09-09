@@ -44,31 +44,31 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: private System.Nullable`1<System.Boolean> expectContinue
     System::Nullable_1<bool>& dyn_expectContinue();
     // public System.Net.Http.Headers.HttpHeaderValueCollection`1<System.String> get_Connection()
-    // Offset: 0x15A310C
+    // Offset: 0x15AD940
     System::Net::Http::Headers::HttpHeaderValueCollection_1<::Il2CppString*>* get_Connection();
     // public System.Nullable`1<System.Boolean> get_ConnectionClose()
-    // Offset: 0x15A3168
+    // Offset: 0x15AD99C
     System::Nullable_1<bool> get_ConnectionClose();
     // System.Boolean get_ConnectionKeepAlive()
-    // Offset: 0x15A32C0
+    // Offset: 0x15ADAF4
     bool get_ConnectionKeepAlive();
     // public System.Nullable`1<System.Boolean> get_ExpectContinue()
-    // Offset: 0x15A33D4
+    // Offset: 0x15ADC08
     System::Nullable_1<bool> get_ExpectContinue();
     // public System.String get_Host()
-    // Offset: 0x15A357C
+    // Offset: 0x15ADDB0
     ::Il2CppString* get_Host();
     // public System.Net.Http.Headers.HttpHeaderValueCollection`1<System.Net.Http.Headers.TransferCodingHeaderValue> get_TransferEncoding()
-    // Offset: 0x15A3520
+    // Offset: 0x15ADD54
     System::Net::Http::Headers::HttpHeaderValueCollection_1<System::Net::Http::Headers::TransferCodingHeaderValue*>* get_TransferEncoding();
     // public System.Nullable`1<System.Boolean> get_TransferEncodingChunked()
-    // Offset: 0x15A35D8
+    // Offset: 0x15ADE0C
     System::Nullable_1<bool> get_TransferEncodingChunked();
     // System.Void AddHeaders(System.Net.Http.Headers.HttpRequestHeaders headers)
-    // Offset: 0x15A3724
+    // Offset: 0x15ADF58
     void AddHeaders(System::Net::Http::Headers::HttpRequestHeaders* headers);
     // System.Void .ctor()
-    // Offset: 0x15A309C
+    // Offset: 0x15AD8D0
     // Implemented from: System.Net.Http.Headers.HttpHeaders
     // Base method: System.Void HttpHeaders::.ctor()
     // Base method: System.Void Object::.ctor()

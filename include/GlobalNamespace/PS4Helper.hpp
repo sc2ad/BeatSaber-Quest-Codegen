@@ -55,22 +55,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _backgroundExecution
     bool& dyn__backgroundExecution();
     // public System.Void add_didGoToBackgroundExecutionEvent(System.Action value)
-    // Offset: 0x102DBEC
+    // Offset: 0x1035428
     void add_didGoToBackgroundExecutionEvent(System::Action* value);
     // public System.Void remove_didGoToBackgroundExecutionEvent(System.Action value)
-    // Offset: 0x102DC90
+    // Offset: 0x10354CC
     void remove_didGoToBackgroundExecutionEvent(System::Action* value);
     // public System.Void add_didGoToForegroundExecutionEvent(System.Action value)
-    // Offset: 0x102DD34
+    // Offset: 0x1035570
     void add_didGoToForegroundExecutionEvent(System::Action* value);
     // public System.Void remove_didGoToForegroundExecutionEvent(System.Action value)
-    // Offset: 0x102DDD8
+    // Offset: 0x1035614
     void remove_didGoToForegroundExecutionEvent(System::Action* value);
     // protected System.Void Update()
-    // Offset: 0x102DE7C
+    // Offset: 0x10356B8
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x102DEA0
+    // Offset: 0x10356DC
     // Implemented from: PersistentSingleton`1
     // Base method: System.Void PersistentSingleton_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

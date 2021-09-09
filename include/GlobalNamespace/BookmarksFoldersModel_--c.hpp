@@ -42,13 +42,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Environment/System.SpecialFolder,System.String> <>9__3_0
     static void _set_$$9__3_0(System::Func_2<System::Environment::SpecialFolder, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x10D3634
+    // Offset: 0x10DA96C
     static void _cctor();
     // System.String <get_bookmarksFolders>b__3_0(System.Environment/System.SpecialFolder specialFolder)
-    // Offset: 0x10D36A0
+    // Offset: 0x10DA9D8
     ::Il2CppString* $get_bookmarksFolders$b__3_0(System::Environment::SpecialFolder specialFolder);
     // public System.Void .ctor()
-    // Offset: 0x10D3698
+    // Offset: 0x10DA9D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

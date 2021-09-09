@@ -80,17 +80,17 @@ namespace System::Security::Cryptography {
     // Get instance field reference: private System.Security.Cryptography.DESTransform D3
     System::Security::Cryptography::DESTransform*& dyn_D3();
     // public System.Void .ctor(System.Security.Cryptography.TripleDES algo, System.Boolean encryption, System.Byte[] key, System.Byte[] iv)
-    // Offset: 0x1B477B8
+    // Offset: 0x1B49F68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TripleDESTransform* New_ctor(System::Security::Cryptography::TripleDES* algo, bool encryption, ::Array<uint8_t>* key, ::Array<uint8_t>* iv) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::TripleDESTransform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TripleDESTransform*, creationType>(algo, encryption, key, iv)));
     }
     // static System.Byte[] GetStrongKey()
-    // Offset: 0x1B47D28
+    // Offset: 0x1B4A4D8
     static ::Array<uint8_t>* GetStrongKey();
     // protected override System.Void ECB(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1B47DE0
+    // Offset: 0x1B4A590
     // Implemented from: Mono.Security.Cryptography.SymmetricTransform
     // Base method: System.Void SymmetricTransform::ECB(System.Byte[] input, System.Byte[] output)
     void ECB(::Array<uint8_t>* input, ::Array<uint8_t>* output);

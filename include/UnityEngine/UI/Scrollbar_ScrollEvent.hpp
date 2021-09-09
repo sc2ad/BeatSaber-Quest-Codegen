@@ -24,7 +24,7 @@ namespace UnityEngine::UI {
     // Creating value type constructor for type: ScrollEvent
     ScrollEvent() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x19DD490
+    // Offset: 0x19E2CC4
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

@@ -71,14 +71,14 @@ namespace Zenject {
     // Get instance field reference: private readonly Zenject.DiContainer _container
     Zenject::DiContainer*& dyn__container();
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.IPrefabProvider prefabProvider, Zenject.GameObjectCreationParameters gameObjectBindInfo)
-    // Offset: 0x171F8EC
+    // Offset: 0x1726120
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerCreatorByNewPrefab* New_ctor(Zenject::DiContainer* container, Zenject::IPrefabProvider* prefabProvider, Zenject::GameObjectCreationParameters* gameObjectBindInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SubContainerCreatorByNewPrefab::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerCreatorByNewPrefab*, creationType>(container, prefabProvider, gameObjectBindInfo)));
     }
     // public Zenject.DiContainer CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext parentContext)
-    // Offset: 0x1720D5C
+    // Offset: 0x1727590
     Zenject::DiContainer* CreateSubContainer(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::InjectContext* parentContext);
   }; // Zenject.SubContainerCreatorByNewPrefab
   #pragma pack(pop)

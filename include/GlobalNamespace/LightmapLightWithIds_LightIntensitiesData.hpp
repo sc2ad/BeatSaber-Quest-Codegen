@@ -73,22 +73,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _initializedPropertyIds
     bool& dyn__initializedPropertyIds();
     // public System.Single get_intensity()
-    // Offset: 0x1E1B50C
+    // Offset: 0x1E1B1D0
     float get_intensity();
     // public System.Void set_intensity(System.Single value)
-    // Offset: 0x1E1B514
+    // Offset: 0x1E1B1D8
     void set_intensity(float value);
     // public System.Single get_weight()
-    // Offset: 0x1E1B51C
+    // Offset: 0x1E1B1E0
     float get_weight();
     // public System.Void set_weight(System.Single value)
-    // Offset: 0x1E1B524
+    // Offset: 0x1E1B1E8
     void set_weight(float value);
     // public System.Void SetDataToShaders(UnityEngine.Color lightmapColor, UnityEngine.Color probeColor)
-    // Offset: 0x1E1B398
+    // Offset: 0x1E1B05C
     void SetDataToShaders(UnityEngine::Color lightmapColor, UnityEngine::Color probeColor);
     // public System.Void .ctor()
-    // Offset: 0x1E1B530
+    // Offset: 0x1E1B1F4
     // Implemented from: LightWithIds/LightData
     // Base method: System.Void LightData::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -98,7 +98,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LightmapLightWithIds::LightIntensitiesData*, creationType>()));
     }
     // protected override UnityEngine.Color ProcessColor(UnityEngine.Color newColor)
-    // Offset: 0x1E1B52C
+    // Offset: 0x1E1B1F0
     // Implemented from: LightWithIds/LightData
     // Base method: UnityEngine.Color LightData::ProcessColor(UnityEngine.Color newColor)
     UnityEngine::Color ProcessColor(UnityEngine::Color newColor);

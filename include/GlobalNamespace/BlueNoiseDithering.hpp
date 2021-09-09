@@ -37,12 +37,12 @@ namespace GlobalNamespace {
     BlueNoiseDithering(UnityEngine::Texture2D* noiseTexture_ = {}) noexcept : noiseTexture{noiseTexture_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE14964
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE198D4
     // Get static field: static private readonly System.Int32 _noiseParamsID
     static int _get__noiseParamsID();
     // Set static field: static private readonly System.Int32 _noiseParamsID
     static void _set__noiseParamsID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE14974
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE198E4
     // Get static field: static private readonly System.Int32 _globalNoiseTextureID
     static int _get__globalNoiseTextureID();
     // Set static field: static private readonly System.Int32 _globalNoiseTextureID
@@ -50,10 +50,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Texture2D _noiseTexture
     UnityEngine::Texture2D*& dyn__noiseTexture();
     // public System.Void SetBlueNoiseShaderParams(System.Int32 cameraPixelWidth, System.Int32 cameraPixelHeight)
-    // Offset: 0x1E15D30
+    // Offset: 0x1E159F4
     void SetBlueNoiseShaderParams(int cameraPixelWidth, int cameraPixelHeight);
     // public System.Void .ctor()
-    // Offset: 0x1E15E50
+    // Offset: 0x1E15B14
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -65,7 +65,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BlueNoiseDithering*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1E15E58
+    // Offset: 0x1E15B1C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

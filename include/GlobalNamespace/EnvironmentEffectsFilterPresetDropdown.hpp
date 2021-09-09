@@ -80,34 +80,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<EnvironmentEffectsFilterPreset,System.String>> _lightReductionAmountData
     System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::EnvironmentEffectsFilterPreset, ::Il2CppString*>*>*& dyn__lightReductionAmountData();
     // private System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<EnvironmentEffectsFilterPreset,System.String>> get_lightReductionAmountData()
-    // Offset: 0x1051644
+    // Offset: 0x1057604
     System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::EnvironmentEffectsFilterPreset, ::Il2CppString*>*>* get_lightReductionAmountData();
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x10514FC
+    // Offset: 0x10574BC
     void add_didSelectCellWithIdxEvent(System::Action_1<int>* value);
     // public System.Void remove_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x10515A0
+    // Offset: 0x1057560
     void remove_didSelectCellWithIdxEvent(System::Action_1<int>* value);
     // protected System.Void Start()
-    // Offset: 0x1051740
+    // Offset: 0x1057700
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x10518C0
+    // Offset: 0x1057880
     void OnDestroy();
     // public EnvironmentEffectsFilterPreset GetLightsReductionAmount()
-    // Offset: 0x105199C
+    // Offset: 0x105795C
     GlobalNamespace::EnvironmentEffectsFilterPreset GetLightsReductionAmount();
     // public System.Void SelectCellWithLightReductionAmount(EnvironmentEffectsFilterPreset environmentEffectsFilterPreset)
-    // Offset: 0x1051A70
+    // Offset: 0x1057A30
     void SelectCellWithLightReductionAmount(GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterPreset);
     // private System.Int32 GetIdxForLightReductionAmount(EnvironmentEffectsFilterPreset environmentEffectsFilterPreset)
-    // Offset: 0x1051AAC
+    // Offset: 0x1057A6C
     int GetIdxForLightReductionAmount(GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterPreset);
     // private System.Void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0x1051CA4
+    // Offset: 0x1057C64
     void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
     // public System.Void .ctor()
-    // Offset: 0x1051D18
+    // Offset: 0x1057CD8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

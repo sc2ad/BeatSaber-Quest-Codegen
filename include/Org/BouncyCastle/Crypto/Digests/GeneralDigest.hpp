@@ -62,29 +62,29 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_AlgorithmName();
     // System.Void .ctor(Org.BouncyCastle.Crypto.Digests.GeneralDigest t)
-    // Offset: 0x1D5CCB8
+    // Offset: 0x1D5D97C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GeneralDigest* New_ctor(Org::BouncyCastle::Crypto::Digests::GeneralDigest* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Digests::GeneralDigest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GeneralDigest*, creationType>(t)));
     }
     // protected System.Void CopyIn(Org.BouncyCastle.Crypto.Digests.GeneralDigest t)
-    // Offset: 0x1D5CD40
+    // Offset: 0x1D5DA04
     void CopyIn(Org::BouncyCastle::Crypto::Digests::GeneralDigest* t);
     // public System.Void Update(System.Byte input)
-    // Offset: 0x1D5CD98
+    // Offset: 0x1D5DA5C
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x1D5CE2C
+    // Offset: 0x1D5DAF0
     void BlockUpdate(::Array<uint8_t>* input, int inOff, int length);
     // public System.Void Finish()
-    // Offset: 0x1D5D010
+    // Offset: 0x1D5DCD4
     void Finish();
     // public System.Void Reset()
-    // Offset: 0x1D5D078
+    // Offset: 0x1D5DD3C
     void Reset();
     // public System.Int32 GetByteLength()
-    // Offset: 0x1D5D0A8
+    // Offset: 0x1D5DD6C
     int GetByteLength();
     // System.Void ProcessWord(System.Byte[] input, System.Int32 inOff)
     // Offset: 0xFFFFFFFF
@@ -108,7 +108,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Offset: 0xFFFFFFFF
     void Reset(Org::BouncyCastle::Utilities::IMemoable* t);
     // System.Void .ctor()
-    // Offset: 0x1D5CC54
+    // Offset: 0x1D5D918
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

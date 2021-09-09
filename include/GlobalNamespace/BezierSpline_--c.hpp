@@ -57,22 +57,22 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<UnityEngine.Vector3,System.Single> <>9__8_2
     static void _set_$$9__8_2(System::Func_2<UnityEngine::Vector3, float>* value);
     // static private System.Void .cctor()
-    // Offset: 0x10CFB78
+    // Offset: 0x10D6EB0
     static void _cctor();
     // System.Int32 <SortSourceData>b__6_0(UnityEngine.Vector3 point1, UnityEngine.Vector3 point2)
-    // Offset: 0x10CFBE4
+    // Offset: 0x10D6F1C
     int $SortSourceData$b__6_0(UnityEngine::Vector3 point1, UnityEngine::Vector3 point2);
     // System.Single <ComputeControlPoints>b__8_0(UnityEngine.Vector3 p)
-    // Offset: 0x10CFC18
+    // Offset: 0x10D6F50
     float $ComputeControlPoints$b__8_0(UnityEngine::Vector3 p);
     // System.Single <ComputeControlPoints>b__8_1(UnityEngine.Vector3 p)
-    // Offset: 0x10CFC1C
+    // Offset: 0x10D6F54
     float $ComputeControlPoints$b__8_1(UnityEngine::Vector3 p);
     // System.Single <ComputeControlPoints>b__8_2(UnityEngine.Vector3 p)
-    // Offset: 0x10CFC24
+    // Offset: 0x10D6F5C
     float $ComputeControlPoints$b__8_2(UnityEngine::Vector3 p);
     // public System.Void .ctor()
-    // Offset: 0x10CFBDC
+    // Offset: 0x10D6F14
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

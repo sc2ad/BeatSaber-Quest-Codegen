@@ -46,7 +46,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Get instance field reference: public UnityEngine.TestRunner.TestLaunchers.RemoteTestData[] tests
     ::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>*& dyn_tests();
     // public System.Void .ctor()
-    // Offset: 0x14BD7F4
+    // Offset: 0x14C57B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

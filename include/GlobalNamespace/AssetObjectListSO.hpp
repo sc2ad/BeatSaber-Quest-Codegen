@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AssetObjectListSO : public GlobalNamespace::PersistentScriptableObject {
     public:
-    // [ReorderableAttribute] Offset: 0xE4496C
+    // [ReorderableAttribute] Offset: 0xE4A960
     // private UnityEngine.Object[] _objects
     // Size: 0x8
     // Offset: 0x18
@@ -40,10 +40,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Object[] _objects
     ::Array<UnityEngine::Object*>*& dyn__objects();
     // public UnityEngine.Object[] get_objects()
-    // Offset: 0x117CEF4
+    // Offset: 0x1176B6C
     ::Array<UnityEngine::Object*>* get_objects();
     // public System.Void .ctor()
-    // Offset: 0x117CEFC
+    // Offset: 0x1176B74
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

@@ -54,118 +54,118 @@ namespace System {
     // Set static field: static public System.Double E
     static void _set_E(double value);
     // static private System.Void .cctor()
-    // Offset: 0x1836A8C
+    // Offset: 0x183D2C0
     static void _cctor();
     // static public System.Double Acos(System.Double d)
-    // Offset: 0x18362DC
+    // Offset: 0x183CB10
     static double Acos(double d);
     // static public System.Double Asin(System.Double d)
-    // Offset: 0x18362E0
+    // Offset: 0x183CB14
     static double Asin(double d);
     // static public System.Double Atan(System.Double d)
-    // Offset: 0x18362E4
+    // Offset: 0x183CB18
     static double Atan(double d);
     // static public System.Double Atan2(System.Double y, System.Double x)
-    // Offset: 0x18362E8
+    // Offset: 0x183CB1C
     static double Atan2(double y, double x);
     // static public System.Double Ceiling(System.Double a)
-    // Offset: 0x18362EC
+    // Offset: 0x183CB20
     static double Ceiling(double a);
     // static public System.Double Cos(System.Double d)
-    // Offset: 0x18362F4
+    // Offset: 0x183CB28
     static double Cos(double d);
     // static public System.Double Floor(System.Double d)
-    // Offset: 0x18362F8
+    // Offset: 0x183CB2C
     static double Floor(double d);
     // static private System.Double InternalTruncate(System.Double d)
-    // Offset: 0x1836300
+    // Offset: 0x183CB34
     static double InternalTruncate(double d);
     // static public System.Double Sin(System.Double a)
-    // Offset: 0x1836370
+    // Offset: 0x183CBA4
     static double Sin(double a);
     // static public System.Double Tan(System.Double a)
-    // Offset: 0x1836374
+    // Offset: 0x183CBA8
     static double Tan(double a);
     // static public System.Double Round(System.Double a)
-    // Offset: 0x1836378
+    // Offset: 0x183CBAC
     static double Round(double a);
     // static private System.Double SplitFractionDouble(System.Double* value)
-    // Offset: 0x183636C
+    // Offset: 0x183CBA0
     static double SplitFractionDouble(double* value);
     // static public System.Double Truncate(System.Double d)
-    // Offset: 0x18363F8
+    // Offset: 0x183CC2C
     static double Truncate(double d);
     // static public System.Double Sqrt(System.Double d)
-    // Offset: 0x1836464
+    // Offset: 0x183CC98
     static double Sqrt(double d);
     // static public System.Double Log(System.Double d)
-    // Offset: 0x183647C
+    // Offset: 0x183CCB0
     static double Log(double d);
     // static public System.Double Log10(System.Double d)
-    // Offset: 0x1836480
+    // Offset: 0x183CCB4
     static double Log10(double d);
     // static public System.Double Pow(System.Double x, System.Double y)
-    // Offset: 0x1836484
+    // Offset: 0x183CCB8
     static double Pow(double x, double y);
     // static public System.Int32 Abs(System.Int32 value)
-    // Offset: 0x1836488
+    // Offset: 0x183CCBC
     static int Abs(int value);
     // static private System.Int32 AbsHelper(System.Int32 value)
-    // Offset: 0x1836500
+    // Offset: 0x183CD34
     static int AbsHelper(int value);
     // static public System.Int64 Abs(System.Int64 value)
-    // Offset: 0x18365A0
+    // Offset: 0x183CDD4
     static int64_t Abs(int64_t value);
     // static private System.Int64 AbsHelper(System.Int64 value)
-    // Offset: 0x1836618
+    // Offset: 0x183CE4C
     static int64_t AbsHelper(int64_t value);
     // static public System.Single Abs(System.Single value)
-    // Offset: 0x18366B8
+    // Offset: 0x183CEEC
     static float Abs(float value);
     // static public System.Double Abs(System.Double value)
-    // Offset: 0x18366C0
+    // Offset: 0x183CEF4
     static double Abs(double value);
     // static public System.Decimal Abs(System.Decimal value)
-    // Offset: 0x18366C8
+    // Offset: 0x183CEFC
     static System::Decimal Abs(System::Decimal value);
     // static public System.Int32 Max(System.Int32 val1, System.Int32 val2)
-    // Offset: 0x1836740
+    // Offset: 0x183CF74
     static int Max(int val1, int val2);
     // static public System.UInt32 Max(System.UInt32 val1, System.UInt32 val2)
-    // Offset: 0x183674C
+    // Offset: 0x183CF80
     static uint Max(uint val1, uint val2);
     // static public System.Int64 Max(System.Int64 val1, System.Int64 val2)
-    // Offset: 0x1836758
+    // Offset: 0x183CF8C
     static int64_t Max(int64_t val1, int64_t val2);
     // static public System.UInt64 Max(System.UInt64 val1, System.UInt64 val2)
-    // Offset: 0x1836764
+    // Offset: 0x183CF98
     static uint64_t Max(uint64_t val1, uint64_t val2);
     // static public System.Single Max(System.Single val1, System.Single val2)
-    // Offset: 0x1836770
+    // Offset: 0x183CFA4
     static float Max(float val1, float val2);
     // static public System.Double Max(System.Double val1, System.Double val2)
-    // Offset: 0x18367B4
+    // Offset: 0x183CFE8
     static double Max(double val1, double val2);
     // static public System.Int32 Min(System.Int32 val1, System.Int32 val2)
-    // Offset: 0x1836844
+    // Offset: 0x183D078
     static int Min(int val1, int val2);
     // static public System.UInt32 Min(System.UInt32 val1, System.UInt32 val2)
-    // Offset: 0x1836850
+    // Offset: 0x183D084
     static uint Min(uint val1, uint val2);
     // static public System.Int64 Min(System.Int64 val1, System.Int64 val2)
-    // Offset: 0x183685C
+    // Offset: 0x183D090
     static int64_t Min(int64_t val1, int64_t val2);
     // static public System.UInt64 Min(System.UInt64 val1, System.UInt64 val2)
-    // Offset: 0x1836868
+    // Offset: 0x183D09C
     static uint64_t Min(uint64_t val1, uint64_t val2);
     // static public System.Single Min(System.Single val1, System.Single val2)
-    // Offset: 0x1836874
+    // Offset: 0x183D0A8
     static float Min(float val1, float val2);
     // static public System.Double Min(System.Double val1, System.Double val2)
-    // Offset: 0x18368B8
+    // Offset: 0x183D0EC
     static double Min(double val1, double val2);
     // static public System.Double Log(System.Double a, System.Double newBase)
-    // Offset: 0x1836948
+    // Offset: 0x183D17C
     static double Log(double a, double newBase);
   }; // System.Math
   #pragma pack(pop)

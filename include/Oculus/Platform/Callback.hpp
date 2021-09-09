@@ -61,8 +61,16 @@ namespace Oculus::Platform {
     static System::Collections::Generic::List_1<Oculus::Platform::Message*>* _get_pendingRoomInviteNotifications();
     // Set static field: static private System.Collections.Generic.List`1<Oculus.Platform.Message> pendingRoomInviteNotifications
     static void _set_pendingRoomInviteNotifications(System::Collections::Generic::List_1<Oculus::Platform::Message*>* value);
+    // Get static field: static private System.Boolean hasRegisteredJoinIntentNotificationHandler
+    static bool _get_hasRegisteredJoinIntentNotificationHandler();
+    // Set static field: static private System.Boolean hasRegisteredJoinIntentNotificationHandler
+    static void _set_hasRegisteredJoinIntentNotificationHandler(bool value);
+    // Get static field: static private Oculus.Platform.Message latestPendingJoinIntentNotifications
+    static Oculus::Platform::Message* _get_latestPendingJoinIntentNotifications();
+    // Set static field: static private Oculus.Platform.Message latestPendingJoinIntentNotifications
+    static void _set_latestPendingJoinIntentNotifications(Oculus::Platform::Message* value);
     // static private System.Void .cctor()
-    // Offset: 0x14DC2BC
+    // Offset: 0x151FC40
     static void _cctor();
     // static System.Void SetNotificationCallback(Oculus.Platform.Message/Oculus.Platform.MessageType type, Oculus.Platform.Message`1/Oculus.Platform.Callback<T> callback)
     // Offset: 0xFFFFFFFF
@@ -74,25 +82,28 @@ namespace Oculus::Platform {
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, type, callback);
     }
     // static System.Void SetNotificationCallback(Oculus.Platform.Message/Oculus.Platform.MessageType type, Oculus.Platform.Message/Oculus.Platform.Callback callback)
-    // Offset: 0x14DBB10
+    // Offset: 0x151F2FC
     static void SetNotificationCallback(Oculus::Platform::Message::MessageType type, Oculus::Platform::Message::Callback* callback);
     // static System.Void AddRequest(Oculus.Platform.Request request)
-    // Offset: 0x14DBC34
+    // Offset: 0x151F420
     static void AddRequest(Oculus::Platform::Request* request);
     // static System.Void RunCallbacks()
-    // Offset: 0x14DBD04
+    // Offset: 0x151F4F0
     static void RunCallbacks();
     // static System.Void RunLimitedCallbacks(System.UInt32 limit)
-    // Offset: 0x14DC014
+    // Offset: 0x151F8D4
     static void RunLimitedCallbacks(uint limit);
     // static System.Void OnApplicationQuit()
-    // Offset: 0x14DC0AC
+    // Offset: 0x151F96C
     static void OnApplicationQuit();
     // static private System.Void FlushRoomInviteNotificationQueue()
-    // Offset: 0x14DC148
+    // Offset: 0x151FA08
     static void FlushRoomInviteNotificationQueue();
+    // static private System.Void FlushJoinIntentNotificationQueue()
+    // Offset: 0x151FB7C
+    static void FlushJoinIntentNotificationQueue();
     // static System.Void HandleMessage(Oculus.Platform.Message msg)
-    // Offset: 0x14DBE74
+    // Offset: 0x151F660
     static void HandleMessage(Oculus::Platform::Message* msg);
   }; // Oculus.Platform.Callback
   #pragma pack(pop)
@@ -160,6 +171,14 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Oculus::Platform::Callback::FlushRoomInviteNotificationQueue)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Callback*), "FlushRoomInviteNotificationQueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Oculus::Platform::Callback::FlushJoinIntentNotificationQueue
+// Il2CppName: FlushJoinIntentNotificationQueue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Oculus::Platform::Callback::FlushJoinIntentNotificationQueue)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Callback*), "FlushJoinIntentNotificationQueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::Callback::HandleMessage

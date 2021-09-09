@@ -19,7 +19,7 @@ namespace System::Net::Http::Headers {
     // Creating value type constructor for type: EmailAddress
     EmailAddress() noexcept {}
     // static public System.Boolean TryParse(System.String input, out System.String result)
-    // Offset: 0x15A5D10
+    // Offset: 0x15B0544
     static bool TryParse(::Il2CppString* input, ByRef<::Il2CppString*> result);
   }; // System.Net.Http.Headers.Parser/System.Net.Http.Headers.EmailAddress
   #pragma pack(pop)

@@ -84,10 +84,10 @@ namespace Zenject {
     // Get instance field reference: public System.Boolean shouldMakeActive
     bool& dyn_shouldMakeActive();
     // System.Void <Instantiate>b__0()
-    // Offset: 0x17163CC
+    // Offset: 0x171CC00
     void $Instantiate$b__0();
     // public System.Void .ctor()
-    // Offset: 0x17163C4
+    // Offset: 0x171CBF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

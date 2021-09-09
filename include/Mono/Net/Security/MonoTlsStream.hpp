@@ -105,26 +105,26 @@ namespace Mono::Net::Security {
     // Get instance field reference: private System.Boolean <CertificateValidationFailed>k__BackingField
     bool& dyn_$CertificateValidationFailed$k__BackingField();
     // System.Net.HttpWebRequest get_Request()
-    // Offset: 0x15EC284
+    // Offset: 0x15F5AB8
     System::Net::HttpWebRequest* get_Request();
     // System.Net.WebExceptionStatus get_ExceptionStatus()
-    // Offset: 0x15EC28C
+    // Offset: 0x15F5AC0
     System::Net::WebExceptionStatus get_ExceptionStatus();
     // System.Boolean get_CertificateValidationFailed()
-    // Offset: 0x15EC294
+    // Offset: 0x15F5AC8
     bool get_CertificateValidationFailed();
     // System.Void set_CertificateValidationFailed(System.Boolean value)
-    // Offset: 0x15EC29C
+    // Offset: 0x15F5AD0
     void set_CertificateValidationFailed(bool value);
     // public System.Void .ctor(System.Net.HttpWebRequest request, System.Net.Sockets.NetworkStream networkStream)
-    // Offset: 0x15EC2A8
+    // Offset: 0x15F5ADC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoTlsStream* New_ctor(System::Net::HttpWebRequest* request, System::Net::Sockets::NetworkStream* networkStream) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::MonoTlsStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoTlsStream*, creationType>(request, networkStream)));
     }
     // System.IO.Stream CreateStream(System.Byte[] buffer)
-    // Offset: 0x15EC35C
+    // Offset: 0x15F5B90
     System::IO::Stream* CreateStream(::Array<uint8_t>* buffer);
   }; // Mono.Net.Security.MonoTlsStream
   #pragma pack(pop)

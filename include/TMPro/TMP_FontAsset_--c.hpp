@@ -54,16 +54,16 @@ namespace TMPro {
     // Set static field: static public System.Func`2<UnityEngine.TextCore.Glyph,System.UInt32> <>9__101_0
     static void _set_$$9__101_0(System::Func_2<UnityEngine::TextCore::Glyph*, uint>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1123844
+    // Offset: 0x11174DC
     static void _cctor();
     // System.UInt32 <SortCharacterTable>b__100_0(TMPro.TMP_Character c)
-    // Offset: 0x11238B0
+    // Offset: 0x1117548
     uint $SortCharacterTable$b__100_0(TMPro::TMP_Character* c);
     // System.UInt32 <SortGlyphTable>b__101_0(UnityEngine.TextCore.Glyph c)
-    // Offset: 0x11238C8
+    // Offset: 0x1117560
     uint $SortGlyphTable$b__101_0(UnityEngine::TextCore::Glyph* c);
     // public System.Void .ctor()
-    // Offset: 0x11238A8
+    // Offset: 0x1117540
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

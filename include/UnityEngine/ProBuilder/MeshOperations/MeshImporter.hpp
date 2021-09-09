@@ -94,40 +94,40 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: private UnityEngine.ProBuilder.Vertex[] m_Vertices
     ::Array<UnityEngine::ProBuilder::Vertex*>*& dyn_m_Vertices();
     // public System.Void .ctor(UnityEngine.GameObject gameObject)
-    // Offset: 0x173F8F8
+    // Offset: 0x174612C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MeshImporter* New_ctor(UnityEngine::GameObject* gameObject) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::MeshOperations::MeshImporter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MeshImporter*, creationType>(gameObject)));
     }
     // public System.Void .ctor(UnityEngine.Mesh sourceMesh, UnityEngine.Material[] sourceMaterials, UnityEngine.ProBuilder.ProBuilderMesh destination)
-    // Offset: 0x173FA38
+    // Offset: 0x174626C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MeshImporter* New_ctor(UnityEngine::Mesh* sourceMesh, ::Array<UnityEngine::Material*>* sourceMaterials, UnityEngine::ProBuilder::ProBuilderMesh* destination) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::MeshOperations::MeshImporter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MeshImporter*, creationType>(sourceMesh, sourceMaterials, destination)));
     }
     // public System.Void .ctor(UnityEngine.ProBuilder.ProBuilderMesh destination)
-    // Offset: 0x173FB60
+    // Offset: 0x1746394
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MeshImporter* New_ctor(UnityEngine::ProBuilder::ProBuilderMesh* destination) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::MeshOperations::MeshImporter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MeshImporter*, creationType>(destination)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1741888
+    // Offset: 0x17480BC
     static void _cctor();
     // public System.Boolean Import(UnityEngine.GameObject go, UnityEngine.ProBuilder.MeshOperations.MeshImportSettings importSettings)
-    // Offset: 0x173FB8C
+    // Offset: 0x17463C0
     bool Import(UnityEngine::GameObject* go, UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* importSettings);
     // public System.Void Import(UnityEngine.ProBuilder.MeshOperations.MeshImportSettings importSettings)
-    // Offset: 0x173FD14
+    // Offset: 0x1746548
     void Import(UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* importSettings);
     // static private UnityEngine.ProBuilder.Face GetBestQuadConnection(UnityEngine.ProBuilder.WingedEdge wing, System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.EdgeLookup,System.Single> connections)
-    // Offset: 0x17416A8
+    // Offset: 0x1747EDC
     static UnityEngine::ProBuilder::Face* GetBestQuadConnection(UnityEngine::ProBuilder::WingedEdge* wing, System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::EdgeLookup, float>* connections);
     // private System.Single GetQuadScore(UnityEngine.ProBuilder.WingedEdge left, UnityEngine.ProBuilder.WingedEdge right, System.Single normalThreshold)
-    // Offset: 0x1741118
+    // Offset: 0x174794C
     float GetQuadScore(UnityEngine::ProBuilder::WingedEdge* left, UnityEngine::ProBuilder::WingedEdge* right, float normalThreshold);
   }; // UnityEngine.ProBuilder.MeshOperations.MeshImporter
   #pragma pack(pop)

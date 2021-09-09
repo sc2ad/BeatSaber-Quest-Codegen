@@ -90,28 +90,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private AvatarMeshPartSO[] _clothes
     ::Array<GlobalNamespace::AvatarMeshPartSO*>*& dyn__clothes();
     // public AvatarMeshPartSO[] get_headTops()
-    // Offset: 0x1181694
+    // Offset: 0x117B30C
     ::Array<GlobalNamespace::AvatarMeshPartSO*>* get_headTops();
     // public AvatarSpritePartSO[] get_Eyes()
-    // Offset: 0x118169C
+    // Offset: 0x117B314
     ::Array<GlobalNamespace::AvatarSpritePartSO*>* get_Eyes();
     // public AvatarSpritePartSO[] get_Mouths()
-    // Offset: 0x11816A4
+    // Offset: 0x117B31C
     ::Array<GlobalNamespace::AvatarSpritePartSO*>* get_Mouths();
     // public AvatarMeshPartSO[] get_Glasses()
-    // Offset: 0x11816AC
+    // Offset: 0x117B324
     ::Array<GlobalNamespace::AvatarMeshPartSO*>* get_Glasses();
     // public AvatarMeshPartSO[] get_FacialHair()
-    // Offset: 0x11816B4
+    // Offset: 0x117B32C
     ::Array<GlobalNamespace::AvatarMeshPartSO*>* get_FacialHair();
     // public AvatarMeshPartSO[] get_Hands()
-    // Offset: 0x11816BC
+    // Offset: 0x117B334
     ::Array<GlobalNamespace::AvatarMeshPartSO*>* get_Hands();
     // public AvatarMeshPartSO[] get_Clothes()
-    // Offset: 0x11816C4
+    // Offset: 0x117B33C
     ::Array<GlobalNamespace::AvatarMeshPartSO*>* get_Clothes();
     // public System.Void .ctor()
-    // Offset: 0x11816CC
+    // Offset: 0x117B344
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

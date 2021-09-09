@@ -48,10 +48,10 @@ namespace Zenject::Internal {
     // Get instance field reference: public System.Reflection.MethodInfo x
     System::Reflection::MethodInfo*& dyn_x();
     // System.Boolean <GetMethodInfos>b__1(System.Type a)
-    // Offset: 0x16662AC
+    // Offset: 0x166DAE0
     bool $GetMethodInfos$b__1(System::Type* a);
     // public System.Void .ctor()
-    // Offset: 0x1665C74
+    // Offset: 0x166D4A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

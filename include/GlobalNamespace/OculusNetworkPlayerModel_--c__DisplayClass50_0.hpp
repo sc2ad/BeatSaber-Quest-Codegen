@@ -59,10 +59,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<System.String> tcs
     System::Threading::Tasks::TaskCompletionSource_1<::Il2CppString*>*& dyn_tcs();
     // System.Void <GetUserNameAsync>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.User> result)
-    // Offset: 0x123C06C
+    // Offset: 0x12596CC
     void $GetUserNameAsync$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::User*>* result);
     // public System.Void .ctor()
-    // Offset: 0x123B2E8
+    // Offset: 0x1258948
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

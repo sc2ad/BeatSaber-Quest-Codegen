@@ -162,22 +162,22 @@ namespace GlobalNamespace {
     BlocksBlade(UnityEngine::Mesh* elementMesh_ = {}, UnityEngine::Material* material_ = {}, int numberOfElements_ = {}, float radius_ = {}, float length_ = {}, float minVelocity_ = {}, float maxVelocity_ = {}, float elementWidth_ = {}, float minElementLength_ = {}, float maxElementLength_ = {}, UnityEngine::Color color_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BlocksBlade::Element*>* elements_ = {}, ::Array<UnityEngine::Vector4>* positions_ = {}, ::Array<UnityEngine::Vector4>* sizes_ = {}, ::Array<UnityEngine::Vector4>* colors_ = {}, ::Array<UnityEngine::Matrix4x4>* matrices_ = {}, UnityEngine::MaterialPropertyBlock* materialPropertyBlock_ = {}, int layer_ = {}) noexcept : elementMesh{elementMesh_}, material{material_}, numberOfElements{numberOfElements_}, radius{radius_}, length{length_}, minVelocity{minVelocity_}, maxVelocity{maxVelocity_}, elementWidth{elementWidth_}, minElementLength{minElementLength_}, maxElementLength{maxElementLength_}, color{color_}, elements{elements_}, positions{positions_}, sizes{sizes_}, colors{colors_}, matrices{matrices_}, materialPropertyBlock{materialPropertyBlock_}, layer{layer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE3C028
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE41FA8
     // Get static field: static private readonly System.Int32 _positionPropertyID
     static int _get__positionPropertyID();
     // Set static field: static private readonly System.Int32 _positionPropertyID
     static void _set__positionPropertyID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE3C038
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE41FB8
     // Get static field: static private readonly System.Int32 _sizePropertyID
     static int _get__sizePropertyID();
     // Set static field: static private readonly System.Int32 _sizePropertyID
     static void _set__sizePropertyID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE3C048
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE41FC8
     // Get static field: static private readonly System.Int32 _colorPropertyID
     static int _get__colorPropertyID();
     // Set static field: static private readonly System.Int32 _colorPropertyID
     static void _set__colorPropertyID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE3C058
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE41FD8
     // Get static field: static private readonly System.Int32 _zClipPropertyID
     static int _get__zClipPropertyID();
     // Set static field: static private readonly System.Int32 _zClipPropertyID
@@ -219,25 +219,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _layer
     int& dyn__layer();
     // public UnityEngine.Color get_color()
-    // Offset: 0x10D0D04
+    // Offset: 0x10D803C
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x10D0D10
+    // Offset: 0x10D8048
     void set_color(UnityEngine::Color value);
     // protected System.Void Start()
-    // Offset: 0x10D0D1C
+    // Offset: 0x10D8054
     void Start();
     // protected System.Void Update()
-    // Offset: 0x10D10B4
+    // Offset: 0x10D83EC
     void Update();
     // private System.Void SetUpElement(BlocksBlade/Element element, System.Single velocity, UnityEngine.Color color)
-    // Offset: 0x10D0ED4
+    // Offset: 0x10D820C
     void SetUpElement(GlobalNamespace::BlocksBlade::Element* element, float velocity, UnityEngine::Color color);
     // private UnityEngine.Vector2 RandomPointOnCircle(System.Single radius)
-    // Offset: 0x10D14A0
+    // Offset: 0x10D87D8
     UnityEngine::Vector2 RandomPointOnCircle(float radius);
     // public System.Void .ctor()
-    // Offset: 0x10D1560
+    // Offset: 0x10D8898
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -250,7 +250,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BlocksBlade*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x10D1598
+    // Offset: 0x10D88D0
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

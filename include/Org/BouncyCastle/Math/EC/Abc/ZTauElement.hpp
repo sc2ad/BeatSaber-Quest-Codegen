@@ -44,7 +44,7 @@ namespace Org::BouncyCastle::Math::EC::Abc {
     // Get instance field reference: public readonly Org.BouncyCastle.Math.BigInteger v
     Org::BouncyCastle::Math::BigInteger*& dyn_v();
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger u, Org.BouncyCastle.Math.BigInteger v)
-    // Offset: 0x1DB1018
+    // Offset: 0x1DB0CDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZTauElement* New_ctor(Org::BouncyCastle::Math::BigInteger* u, Org::BouncyCastle::Math::BigInteger* v) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Abc::ZTauElement::.ctor");

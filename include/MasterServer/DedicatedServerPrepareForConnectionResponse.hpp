@@ -124,38 +124,38 @@ namespace MasterServer {
     // Get instance field reference: private System.Int64 <dedicatedServerCreationTime>k__BackingField
     int64_t& dyn_$dedicatedServerCreationTime$k__BackingField();
     // static public PacketPool`1<MasterServer.DedicatedServerPrepareForConnectionResponse> get_pool()
-    // Offset: 0x1217188
+    // Offset: 0x121CA88
     static GlobalNamespace::PacketPool_1<MasterServer::DedicatedServerPrepareForConnectionResponse*>* get_pool();
     // public System.String get_dedicatedServerId()
-    // Offset: 0x1217268
+    // Offset: 0x121CB68
     ::Il2CppString* get_dedicatedServerId();
     // private System.Void set_dedicatedServerId(System.String value)
-    // Offset: 0x1217270
+    // Offset: 0x121CB70
     void set_dedicatedServerId(::Il2CppString* value);
     // public System.Int64 get_dedicatedServerCreationTime()
-    // Offset: 0x1217278
+    // Offset: 0x121CB78
     int64_t get_dedicatedServerCreationTime();
     // private System.Void set_dedicatedServerCreationTime(System.Int64 value)
-    // Offset: 0x1217280
+    // Offset: 0x121CB80
     void set_dedicatedServerCreationTime(int64_t value);
     // public MasterServer.DedicatedServerPrepareForConnectionResponse InitForFailure(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, MasterServer.DedicatedServerPrepareForConnectionResponse/MasterServer.Result result)
-    // Offset: 0x12173A4
+    // Offset: 0x121CCA4
     MasterServer::DedicatedServerPrepareForConnectionResponse* InitForFailure(::Il2CppString* dedicatedServerId, int64_t dedicatedServerCreationTime, MasterServer::DedicatedServerPrepareForConnectionResponse::Result result);
     // public MasterServer.DedicatedServerPrepareForConnectionResponse InitForSuccess(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime)
-    // Offset: 0x12173B0
+    // Offset: 0x121CCB0
     MasterServer::DedicatedServerPrepareForConnectionResponse* InitForSuccess(::Il2CppString* dedicatedServerId, int64_t dedicatedServerCreationTime);
     // public override System.Byte get_resultCode()
-    // Offset: 0x12171D0
+    // Offset: 0x121CAD0
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Byte BaseMasterServerReliableResponse::get_resultCode()
     uint8_t get_resultCode();
     // public override System.String get_resultCodeString()
-    // Offset: 0x12171D8
+    // Offset: 0x121CAD8
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.String BaseMasterServerReliableResponse::get_resultCodeString()
     ::Il2CppString* get_resultCodeString();
     // public System.Void .ctor()
-    // Offset: 0x12173BC
+    // Offset: 0x121CCBC
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -165,17 +165,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<DedicatedServerPrepareForConnectionResponse*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1217288
+    // Offset: 0x121CB88
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12172E4
+    // Offset: 0x121CBE4
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x1217348
+    // Offset: 0x121CC48
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Release()
     void Release();

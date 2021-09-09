@@ -65,32 +65,32 @@ namespace HMUI {
     // Get instance field reference: private System.Boolean _enabled
     bool& dyn__enabled();
     // public System.Void .ctor(System.Collections.Generic.List`1<System.Tuple`2<UnityEngine.UI.Toggle,System.Action`1<System.Boolean>>> bindingData)
-    // Offset: 0x130781C
+    // Offset: 0x131F4EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ToggleBinder* New_ctor(System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Toggle*, System::Action_1<bool>*>*>* bindingData) {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ToggleBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ToggleBinder*, creationType>(bindingData)));
     }
     // private System.Void Init()
-    // Offset: 0x13077B4
+    // Offset: 0x131F484
     void Init();
     // public System.Void AddBindings(System.Collections.Generic.List`1<System.Tuple`2<UnityEngine.UI.Toggle,System.Action`1<System.Boolean>>> bindingData)
-    // Offset: 0x130785C
+    // Offset: 0x131F52C
     void AddBindings(System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Toggle*, System::Action_1<bool>*>*>* bindingData);
     // public System.Void AddBinding(UnityEngine.UI.Toggle toggle, System.Action`1<System.Boolean> action)
-    // Offset: 0x1307964
+    // Offset: 0x131F634
     void AddBinding(UnityEngine::UI::Toggle* toggle, System::Action_1<bool>* action);
     // public System.Void ClearBindings()
-    // Offset: 0x1307A24
+    // Offset: 0x131F6F4
     void ClearBindings();
     // public System.Void Disable()
-    // Offset: 0x1307BBC
+    // Offset: 0x131F88C
     void Disable();
     // public System.Void Enable()
-    // Offset: 0x1307D44
+    // Offset: 0x131FA14
     void Enable();
     // public System.Void .ctor()
-    // Offset: 0x1307784
+    // Offset: 0x131F454
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

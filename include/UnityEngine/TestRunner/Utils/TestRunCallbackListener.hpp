@@ -66,25 +66,25 @@ namespace UnityEngine::TestRunner::Utils {
     // Get instance field reference: private UnityEngine.TestRunner.ITestRunCallback[] m_Callbacks
     ::Array<UnityEngine::TestRunner::ITestRunCallback*>*& dyn_m_Callbacks();
     // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
-    // Offset: 0x14BDB08
+    // Offset: 0x14C5AC4
     void RunStarted(NUnit::Framework::Interfaces::ITest* testsToRun);
     // static private UnityEngine.TestRunner.ITestRunCallback[] GetAllCallbacks()
-    // Offset: 0x14BDD3C
+    // Offset: 0x14C5CF8
     static ::Array<UnityEngine::TestRunner::ITestRunCallback*>* GetAllCallbacks();
     // private System.Void InvokeAllCallbacks(System.Action`1<UnityEngine.TestRunner.ITestRunCallback> invoker)
-    // Offset: 0x14BDBC0
+    // Offset: 0x14C5B7C
     void InvokeAllCallbacks(System::Action_1<UnityEngine::TestRunner::ITestRunCallback*>* invoker);
     // public System.Void RunFinished(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0x14BDFD0
+    // Offset: 0x14C5F8C
     void RunFinished(NUnit::Framework::Interfaces::ITestResult* testResults);
     // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x14BE088
+    // Offset: 0x14C6044
     void TestStarted(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x14BE140
+    // Offset: 0x14C60FC
     void TestFinished(NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Void .ctor()
-    // Offset: 0x14BE1F8
+    // Offset: 0x14C61B4
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

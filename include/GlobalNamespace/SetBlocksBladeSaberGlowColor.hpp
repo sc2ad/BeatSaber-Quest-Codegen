@@ -60,10 +60,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private BlocksBlade _blocksBlade
     GlobalNamespace::BlocksBlade*& dyn__blocksBlade();
     // protected System.Void Start()
-    // Offset: 0x1077760
+    // Offset: 0x10941E0
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x10777AC
+    // Offset: 0x109422C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

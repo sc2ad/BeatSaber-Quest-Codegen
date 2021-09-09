@@ -30,21 +30,21 @@ namespace TMPro {
     // Creating value type constructor for type: TMP_Character
     TMP_Character() noexcept {}
     // public System.Void .ctor(System.UInt32 unicode, UnityEngine.TextCore.Glyph glyph)
-    // Offset: 0x11193A4
+    // Offset: 0x110D03C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_Character* New_ctor(uint unicode, UnityEngine::TextCore::Glyph* glyph) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_Character::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Character*, creationType>(unicode, glyph)));
     }
     // System.Void .ctor(System.UInt32 unicode, System.UInt32 glyphIndex)
-    // Offset: 0x1119404
+    // Offset: 0x110D09C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_Character* New_ctor(uint unicode, uint glyphIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_Character::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Character*, creationType>(unicode, glyphIndex)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1119370
+    // Offset: 0x110D008
     // Implemented from: TMPro.TMP_TextElement
     // Base method: System.Void TMP_TextElement::.ctor()
     // Base method: System.Void Object::.ctor()

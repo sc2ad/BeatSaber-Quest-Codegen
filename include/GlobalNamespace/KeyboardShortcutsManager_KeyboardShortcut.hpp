@@ -49,19 +49,19 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.KeyCode combinationKey2
     UnityEngine::KeyCode& dyn_combinationKey2();
     // public System.Void .ctor(UnityEngine.KeyCode mainKey, UnityEngine.KeyCode combinationKey1, UnityEngine.KeyCode combinationKey2)
-    // Offset: 0x1265D28
+    // Offset: 0x126A6F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyboardShortcutsManager::KeyboardShortcut* New_ctor(UnityEngine::KeyCode mainKey, UnityEngine::KeyCode combinationKey1, UnityEngine::KeyCode combinationKey2) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyboardShortcutsManager::KeyboardShortcut*, creationType>(mainKey, combinationKey1, combinationKey2)));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1266184
+    // Offset: 0x126AB4C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1266198
+    // Offset: 0x126AB60
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

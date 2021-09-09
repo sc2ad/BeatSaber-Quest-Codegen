@@ -32,6 +32,8 @@ namespace Oculus::Platform {
 }
 // Forward declaring namespace: Oculus::Platform::Models
 namespace Oculus::Platform::Models {
+  // Forward declaring type: GroupPresenceJoinIntent
+  class GroupPresenceJoinIntent;
   // Forward declaring type: LaunchDetails
   class LaunchDetails;
 }
@@ -75,37 +77,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _oculusPlatformWasInitialized
     bool& dyn__oculusPlatformWasInitialized();
     // public Deeplink get_currentDeeplink()
-    // Offset: 0x123991C
+    // Offset: 0x1256EE0
     GlobalNamespace::Deeplink* get_currentDeeplink();
     // public System.Void add_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
-    // Offset: 0x12397D4
+    // Offset: 0x1256D98
     void add_didReceiveDeeplinkEvent(System::Action_1<GlobalNamespace::Deeplink*>* value);
     // public System.Void remove_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
-    // Offset: 0x1239878
+    // Offset: 0x1256E3C
     void remove_didReceiveDeeplinkEvent(System::Action_1<GlobalNamespace::Deeplink*>* value);
     // public System.Void Init()
-    // Offset: 0x1239924
+    // Offset: 0x1256EE8
     void Init();
     // public System.Void OculusPlatformWasInitialized()
-    // Offset: 0x12399A0
+    // Offset: 0x1256F64
     void OculusPlatformWasInitialized();
-    // private System.Void SetLaunchIntentChangedNotificationCallback(Oculus.Platform.Message`1<System.String> message)
-    // Offset: 0x1239A34
-    void SetLaunchIntentChangedNotificationCallback(Oculus::Platform::Message_1<::Il2CppString*>* message);
-    // private System.Void ProcessLaunchDetails(Oculus.Platform.Models.LaunchDetails launchDetails)
-    // Offset: 0x1239A00
-    void ProcessLaunchDetails(Oculus::Platform::Models::LaunchDetails* launchDetails);
-    // private System.Void UpdateDeeplinkMessage(System.String deeplinkMessage, System.UInt64 roomID)
-    // Offset: 0x1239A80
-    void UpdateDeeplinkMessage(::Il2CppString* deeplinkMessage, uint64_t roomID);
+    // private System.Void SetJoinIntentReceivedNotificationCallback(Oculus.Platform.Message`1<Oculus.Platform.Models.GroupPresenceJoinIntent> message)
+    // Offset: 0x1256F7C
+    void SetJoinIntentReceivedNotificationCallback(Oculus::Platform::Message_1<Oculus::Platform::Models::GroupPresenceJoinIntent*>* message);
+    // private System.Void UpdateDeeplinkMessage(Oculus.Platform.Models.GroupPresenceJoinIntent joinIntent, Oculus.Platform.Models.LaunchDetails launchDetails)
+    // Offset: 0x125709C
+    void UpdateDeeplinkMessage(Oculus::Platform::Models::GroupPresenceJoinIntent* joinIntent, Oculus::Platform::Models::LaunchDetails* launchDetails);
     // private System.Boolean IsAtLeastOneFieldPopulated(Deeplink deeplink)
-    // Offset: 0x1239C78
+    // Offset: 0x125725C
     bool IsAtLeastOneFieldPopulated(GlobalNamespace::Deeplink* deeplink);
     // static public System.Void Log(System.String message)
-    // Offset: 0x1239C10
+    // Offset: 0x1257034
     static void Log(::Il2CppString* message);
     // public System.Void .ctor()
-    // Offset: 0x1239CF8
+    // Offset: 0x12572DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -162,32 +161,23 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusDeeplinkManager*), "OculusPlatformWasInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OculusDeeplinkManager::SetLaunchIntentChangedNotificationCallback
-// Il2CppName: SetLaunchIntentChangedNotificationCallback
+// Writing MetadataGetter for method: GlobalNamespace::OculusDeeplinkManager::SetJoinIntentReceivedNotificationCallback
+// Il2CppName: SetJoinIntentReceivedNotificationCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusDeeplinkManager::*)(Oculus::Platform::Message_1<::Il2CppString*>*)>(&GlobalNamespace::OculusDeeplinkManager::SetLaunchIntentChangedNotificationCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusDeeplinkManager::*)(Oculus::Platform::Message_1<Oculus::Platform::Models::GroupPresenceJoinIntent*>*)>(&GlobalNamespace::OculusDeeplinkManager::SetJoinIntentReceivedNotificationCallback)> {
   static const MethodInfo* get() {
-    static auto* message = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("Oculus.Platform", "Message`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusDeeplinkManager*), "SetLaunchIntentChangedNotificationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::OculusDeeplinkManager::ProcessLaunchDetails
-// Il2CppName: ProcessLaunchDetails
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusDeeplinkManager::*)(Oculus::Platform::Models::LaunchDetails*)>(&GlobalNamespace::OculusDeeplinkManager::ProcessLaunchDetails)> {
-  static const MethodInfo* get() {
-    static auto* launchDetails = &::il2cpp_utils::GetClassFromName("Oculus.Platform.Models", "LaunchDetails")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusDeeplinkManager*), "ProcessLaunchDetails", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{launchDetails});
+    static auto* message = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("Oculus.Platform", "Message`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Oculus.Platform.Models", "GroupPresenceJoinIntent")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusDeeplinkManager*), "SetJoinIntentReceivedNotificationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OculusDeeplinkManager::UpdateDeeplinkMessage
 // Il2CppName: UpdateDeeplinkMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusDeeplinkManager::*)(::Il2CppString*, uint64_t)>(&GlobalNamespace::OculusDeeplinkManager::UpdateDeeplinkMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusDeeplinkManager::*)(Oculus::Platform::Models::GroupPresenceJoinIntent*, Oculus::Platform::Models::LaunchDetails*)>(&GlobalNamespace::OculusDeeplinkManager::UpdateDeeplinkMessage)> {
   static const MethodInfo* get() {
-    static auto* deeplinkMessage = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* roomID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusDeeplinkManager*), "UpdateDeeplinkMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{deeplinkMessage, roomID});
+    static auto* joinIntent = &::il2cpp_utils::GetClassFromName("Oculus.Platform.Models", "GroupPresenceJoinIntent")->byval_arg;
+    static auto* launchDetails = &::il2cpp_utils::GetClassFromName("Oculus.Platform.Models", "LaunchDetails")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusDeeplinkManager*), "UpdateDeeplinkMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{joinIntent, launchDetails});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OculusDeeplinkManager::IsAtLeastOneFieldPopulated

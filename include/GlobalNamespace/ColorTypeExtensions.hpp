@@ -25,7 +25,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ColorTypeExtensions
     ColorTypeExtensions() noexcept {}
     // static public ColorType Opposite(ColorType colorType)
-    // Offset: 0x240D4A8
+    // Offset: 0x240A1F4
     static GlobalNamespace::ColorType Opposite(GlobalNamespace::ColorType colorType);
   }; // ColorTypeExtensions
   #pragma pack(pop)

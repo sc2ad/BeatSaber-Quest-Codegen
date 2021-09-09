@@ -74,25 +74,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.IO.FileStream _fileStream
     System::IO::FileStream*& dyn__fileStream();
     // protected System.Void Awake()
-    // Offset: 0x1257E70
+    // Offset: 0x125C838
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x1257EA8
+    // Offset: 0x125C870
     void Update();
     // private System.Void StartWriting(System.String name)
-    // Offset: 0x1257F58
+    // Offset: 0x125C920
     void StartWriting(::Il2CppString* name);
     // private System.Void OnAudioFilterRead(System.Single[] data, System.Int32 channels)
-    // Offset: 0x12583F8
+    // Offset: 0x125CDC0
     void OnAudioFilterRead(::Array<float>* data, int channels);
     // private System.Void ConvertAndWrite(System.Single[] dataSource)
-    // Offset: 0x1258408
+    // Offset: 0x125CDD0
     void ConvertAndWrite(::Array<float>* dataSource);
     // private System.Void WriteHeader()
-    // Offset: 0x1258014
+    // Offset: 0x125C9DC
     void WriteHeader();
     // public System.Void .ctor()
-    // Offset: 0x12585C4
+    // Offset: 0x125CF8C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

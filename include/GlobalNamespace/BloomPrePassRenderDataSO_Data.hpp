@@ -84,7 +84,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public ToneMapping toneMapping
     GlobalNamespace::ToneMapping& dyn_toneMapping();
     // public System.Void .ctor()
-    // Offset: 0x1E11864
+    // Offset: 0x1E11528
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

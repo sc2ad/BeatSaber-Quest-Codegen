@@ -143,7 +143,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Toggle* adaptiveSfxToggle;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Toggle*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE4174C
+    // [SpaceAttribute] Offset: 0xE476AC
     // private UnityEngine.CanvasGroup _singleplayerOnlyCanvasGroup
     // Size: 0x8
     // Offset: 0x88
@@ -235,76 +235,85 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _refreshed
     bool& dyn__refreshed();
     // public PlayerSpecificSettings get_playerSpecificSettings()
-    // Offset: 0x113B148
+    // Offset: 0x11FA818
     GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
     // public System.Void add_didChangePlayerSettingsEvent(System.Action value)
-    // Offset: 0x113B640
+    // Offset: 0x11FAD10
     void add_didChangePlayerSettingsEvent(System::Action* value);
     // public System.Void remove_didChangePlayerSettingsEvent(System.Action value)
-    // Offset: 0x113B6E4
+    // Offset: 0x11FADB4
     void remove_didChangePlayerSettingsEvent(System::Action* value);
     // public System.Void SetData(PlayerSpecificSettings playerSpecificSettings)
-    // Offset: 0x113AE8C
+    // Offset: 0x11FA55C
     void SetData(GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
     // public System.Void SetLayout(PlayerSettingsPanelController/PlayerSettingsPanelLayout layout)
-    // Offset: 0x113AE5C
+    // Offset: 0x11FA52C
     void SetLayout(GlobalNamespace::PlayerSettingsPanelController::PlayerSettingsPanelLayout layout);
     // protected System.Void Awake()
-    // Offset: 0x113B7F4
+    // Offset: 0x11FAEC4
     void Awake();
+    // protected System.Void OnEnable()
+    // Offset: 0x11FAF24
+    void OnEnable();
+    // protected System.Void OnDisable()
+    // Offset: 0x11FB330
+    void OnDisable();
     // private System.Void OnDestroy()
-    // Offset: 0x113BC1C
+    // Offset: 0x11FB60C
     void OnDestroy();
+    // private System.Void UnsubscribeAllUICallbacks()
+    // Offset: 0x11FB334
+    void UnsubscribeAllUICallbacks();
     // public System.Void Refresh()
-    // Offset: 0x113AED0
+    // Offset: 0x11FA5A0
     void Refresh();
     // private System.Void HandleSFXVolumeSettingsControllerValueDidChange(FormattedFloatListSettingsController settingsController, System.Single value)
-    // Offset: 0x113BEF4
+    // Offset: 0x11FB610
     void HandleSFXVolumeSettingsControllerValueDidChange(GlobalNamespace::FormattedFloatListSettingsController* settingsController, float value);
     // private System.Void HandleSaberTrailIntensitySettingsControllerValueDidChange(FormattedFloatListSettingsController settingsController, System.Single value)
-    // Offset: 0x113BF34
+    // Offset: 0x11FB650
     void HandleSaberTrailIntensitySettingsControllerValueDidChange(GlobalNamespace::FormattedFloatListSettingsController* settingsController, float value);
     // private System.Void HandlePlayerHeightSettingsControllerValueDidChange(System.Single value)
-    // Offset: 0x113BF54
+    // Offset: 0x11FB670
     void HandlePlayerHeightSettingsControllerValueDidChange(float value);
     // private System.Void HandleNoteJumpStartBeatOffsetPositionSelected(System.Int32 idx)
-    // Offset: 0x113BF74
+    // Offset: 0x11FB690
     void HandleNoteJumpStartBeatOffsetPositionSelected(int idx);
     // private System.Void HandleLightReductionAmountSelected(System.Int32 obj)
-    // Offset: 0x113BF94
+    // Offset: 0x11FB6B0
     void HandleLightReductionAmountSelected(int obj);
     // private System.Void HandleAdvancedHudToggleChanged(System.Boolean on)
-    // Offset: 0x113BFB4
+    // Offset: 0x11FB6D0
     void HandleAdvancedHudToggleChanged(bool on);
     // private System.Void HandleNoTextsAndHudsToggleChanged(System.Boolean on)
-    // Offset: 0x113C00C
+    // Offset: 0x11FB728
     void HandleNoTextsAndHudsToggleChanged(bool on);
     // private System.Void SetIsDirty()
-    // Offset: 0x113BF14
+    // Offset: 0x11FB630
     void SetIsDirty();
     // private System.Void SetSection(UnityEngine.CanvasGroup sectionCanvasGroup, System.Boolean block)
-    // Offset: 0x113B788
+    // Offset: 0x11FAE58
     void SetSection(UnityEngine::CanvasGroup* sectionCanvasGroup, bool block);
-    // private System.Void <Awake>b__28_0(System.Boolean on)
-    // Offset: 0x113C06C
-    void $Awake$b__28_0(bool on);
-    // private System.Void <Awake>b__28_1(System.Boolean on)
-    // Offset: 0x113C08C
-    void $Awake$b__28_1(bool on);
-    // private System.Void <Awake>b__28_2(System.Boolean on)
-    // Offset: 0x113C0AC
-    void $Awake$b__28_2(bool on);
-    // private System.Void <Awake>b__28_3(System.Boolean on)
-    // Offset: 0x113C0CC
-    void $Awake$b__28_3(bool on);
-    // private System.Void <Awake>b__28_4(System.Boolean on)
-    // Offset: 0x113C0EC
-    void $Awake$b__28_4(bool on);
-    // private System.Void <Awake>b__28_5(System.Boolean on)
-    // Offset: 0x113C10C
-    void $Awake$b__28_5(bool on);
+    // private System.Void <OnEnable>b__29_0(System.Boolean on)
+    // Offset: 0x11FB788
+    void $OnEnable$b__29_0(bool on);
+    // private System.Void <OnEnable>b__29_1(System.Boolean on)
+    // Offset: 0x11FB7A8
+    void $OnEnable$b__29_1(bool on);
+    // private System.Void <OnEnable>b__29_2(System.Boolean on)
+    // Offset: 0x11FB7C8
+    void $OnEnable$b__29_2(bool on);
+    // private System.Void <OnEnable>b__29_3(System.Boolean on)
+    // Offset: 0x11FB7E8
+    void $OnEnable$b__29_3(bool on);
+    // private System.Void <OnEnable>b__29_4(System.Boolean on)
+    // Offset: 0x11FB808
+    void $OnEnable$b__29_4(bool on);
+    // private System.Void <OnEnable>b__29_5(System.Boolean on)
+    // Offset: 0x11FB828
+    void $OnEnable$b__29_5(bool on);
     // public System.Void .ctor()
-    // Offset: 0x113C064
+    // Offset: 0x11FB780
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -375,12 +384,36 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSettingsPanelController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSettingsPanelController::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerSettingsPanelController::*)()>(&GlobalNamespace::PlayerSettingsPanelController::OnEnable)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSettingsPanelController*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSettingsPanelController::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerSettingsPanelController::*)()>(&GlobalNamespace::PlayerSettingsPanelController::OnDisable)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSettingsPanelController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSettingsPanelController::OnDestroy
 // Il2CppName: OnDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerSettingsPanelController::*)()>(&GlobalNamespace::PlayerSettingsPanelController::OnDestroy)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSettingsPanelController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSettingsPanelController::UnsubscribeAllUICallbacks
+// Il2CppName: UnsubscribeAllUICallbacks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerSettingsPanelController::*)()>(&GlobalNamespace::PlayerSettingsPanelController::UnsubscribeAllUICallbacks)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSettingsPanelController*), "UnsubscribeAllUICallbacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSettingsPanelController::Refresh
@@ -474,58 +507,58 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSettingsPanelController*), "SetSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sectionCanvasGroup, block});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PlayerSettingsPanelController::$Awake$b__28_0
-// Il2CppName: <Awake>b__28_0
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSettingsPanelController::$OnEnable$b__29_0
+// Il2CppName: <OnEnable>b__29_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerSettingsPanelController::*)(bool)>(&GlobalNamespace::PlayerSettingsPanelController::$Awake$b__28_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerSettingsPanelController::*)(bool)>(&GlobalNamespace::PlayerSettingsPanelController::$OnEnable$b__29_0)> {
   static const MethodInfo* get() {
     static auto* on = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSettingsPanelController*), "<Awake>b__28_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{on});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSettingsPanelController*), "<OnEnable>b__29_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{on});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PlayerSettingsPanelController::$Awake$b__28_1
-// Il2CppName: <Awake>b__28_1
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSettingsPanelController::$OnEnable$b__29_1
+// Il2CppName: <OnEnable>b__29_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerSettingsPanelController::*)(bool)>(&GlobalNamespace::PlayerSettingsPanelController::$Awake$b__28_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerSettingsPanelController::*)(bool)>(&GlobalNamespace::PlayerSettingsPanelController::$OnEnable$b__29_1)> {
   static const MethodInfo* get() {
     static auto* on = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSettingsPanelController*), "<Awake>b__28_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{on});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSettingsPanelController*), "<OnEnable>b__29_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{on});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PlayerSettingsPanelController::$Awake$b__28_2
-// Il2CppName: <Awake>b__28_2
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSettingsPanelController::$OnEnable$b__29_2
+// Il2CppName: <OnEnable>b__29_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerSettingsPanelController::*)(bool)>(&GlobalNamespace::PlayerSettingsPanelController::$Awake$b__28_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerSettingsPanelController::*)(bool)>(&GlobalNamespace::PlayerSettingsPanelController::$OnEnable$b__29_2)> {
   static const MethodInfo* get() {
     static auto* on = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSettingsPanelController*), "<Awake>b__28_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{on});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSettingsPanelController*), "<OnEnable>b__29_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{on});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PlayerSettingsPanelController::$Awake$b__28_3
-// Il2CppName: <Awake>b__28_3
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSettingsPanelController::$OnEnable$b__29_3
+// Il2CppName: <OnEnable>b__29_3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerSettingsPanelController::*)(bool)>(&GlobalNamespace::PlayerSettingsPanelController::$Awake$b__28_3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerSettingsPanelController::*)(bool)>(&GlobalNamespace::PlayerSettingsPanelController::$OnEnable$b__29_3)> {
   static const MethodInfo* get() {
     static auto* on = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSettingsPanelController*), "<Awake>b__28_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{on});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSettingsPanelController*), "<OnEnable>b__29_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{on});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PlayerSettingsPanelController::$Awake$b__28_4
-// Il2CppName: <Awake>b__28_4
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSettingsPanelController::$OnEnable$b__29_4
+// Il2CppName: <OnEnable>b__29_4
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerSettingsPanelController::*)(bool)>(&GlobalNamespace::PlayerSettingsPanelController::$Awake$b__28_4)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerSettingsPanelController::*)(bool)>(&GlobalNamespace::PlayerSettingsPanelController::$OnEnable$b__29_4)> {
   static const MethodInfo* get() {
     static auto* on = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSettingsPanelController*), "<Awake>b__28_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{on});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSettingsPanelController*), "<OnEnable>b__29_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{on});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PlayerSettingsPanelController::$Awake$b__28_5
-// Il2CppName: <Awake>b__28_5
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSettingsPanelController::$OnEnable$b__29_5
+// Il2CppName: <OnEnable>b__29_5
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerSettingsPanelController::*)(bool)>(&GlobalNamespace::PlayerSettingsPanelController::$Awake$b__28_5)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerSettingsPanelController::*)(bool)>(&GlobalNamespace::PlayerSettingsPanelController::$OnEnable$b__29_5)> {
   static const MethodInfo* get() {
     static auto* on = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSettingsPanelController*), "<Awake>b__28_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{on});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSettingsPanelController*), "<OnEnable>b__29_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{on});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSettingsPanelController::New_ctor

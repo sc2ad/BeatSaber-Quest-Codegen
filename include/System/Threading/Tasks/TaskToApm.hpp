@@ -39,10 +39,10 @@ namespace System::Threading::Tasks {
     // Creating value type constructor for type: TaskToApm
     TaskToApm() noexcept {}
     // static public System.IAsyncResult Begin(System.Threading.Tasks.Task task, System.AsyncCallback callback, System.Object state)
-    // Offset: 0x1876C0C
+    // Offset: 0x187E440
     static System::IAsyncResult* Begin(System::Threading::Tasks::Task* task, System::AsyncCallback* callback, ::Il2CppObject* state);
     // static public System.Void End(System.IAsyncResult asyncResult)
-    // Offset: 0x1876E28
+    // Offset: 0x187E65C
     static void End(System::IAsyncResult* asyncResult);
     // static public TResult End(System.IAsyncResult asyncResult)
     // Offset: 0xFFFFFFFF
@@ -54,7 +54,7 @@ namespace System::Threading::Tasks {
       return ::il2cpp_utils::RunMethodThrow<TResult, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, asyncResult);
     }
     // static private System.Void InvokeCallbackWhenTaskCompletes(System.Threading.Tasks.Task antecedent, System.AsyncCallback callback, System.IAsyncResult asyncResult)
-    // Offset: 0x1876D4C
+    // Offset: 0x187E580
     static void InvokeCallbackWhenTaskCompletes(System::Threading::Tasks::Task* antecedent, System::AsyncCallback* callback, System::IAsyncResult* asyncResult);
   }; // System.Threading.Tasks.TaskToApm
   #pragma pack(pop)

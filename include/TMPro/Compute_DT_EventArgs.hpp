@@ -49,14 +49,14 @@ namespace TMPro {
     // Get instance field reference: public UnityEngine.Color[] Colors
     ::Array<UnityEngine::Color>*& dyn_Colors();
     // public System.Void .ctor(TMPro.Compute_DistanceTransform_EventTypes type, System.Single progress)
-    // Offset: 0x11145CC
+    // Offset: 0x1108264
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Compute_DT_EventArgs* New_ctor(TMPro::Compute_DistanceTransform_EventTypes type, float progress) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::Compute_DT_EventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Compute_DT_EventArgs*, creationType>(type, progress)));
     }
     // public System.Void .ctor(TMPro.Compute_DistanceTransform_EventTypes type, UnityEngine.Color[] colors)
-    // Offset: 0x1114608
+    // Offset: 0x11082A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Compute_DT_EventArgs* New_ctor(TMPro::Compute_DistanceTransform_EventTypes type, ::Array<UnityEngine::Color>* colors) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::Compute_DT_EventArgs::.ctor");

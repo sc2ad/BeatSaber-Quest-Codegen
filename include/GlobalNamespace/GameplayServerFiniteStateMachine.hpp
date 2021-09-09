@@ -125,55 +125,55 @@ namespace GlobalNamespace {
     // Get instance field reference: protected System.Boolean enteringState
     bool& dyn_enteringState();
     // public MasterServer.ITimeProvider get_timeProvider()
-    // Offset: 0x1329F9C
+    // Offset: 0x1342C6C
     MasterServer::ITimeProvider* get_timeProvider();
     // private System.Void set_timeProvider(MasterServer.ITimeProvider value)
-    // Offset: 0x1329FA4
+    // Offset: 0x1342C74
     void set_timeProvider(MasterServer::ITimeProvider* value);
     // public IMultiplayerSessionManager get_multiplayerSessionManager()
-    // Offset: 0x1329FAC
+    // Offset: 0x1342C7C
     GlobalNamespace::IMultiplayerSessionManager* get_multiplayerSessionManager();
     // private System.Void set_multiplayerSessionManager(IMultiplayerSessionManager value)
-    // Offset: 0x1329FB4
+    // Offset: 0x1342C84
     void set_multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
     // public System.String get_ownerUserId()
-    // Offset: 0x1329FBC
+    // Offset: 0x1342C8C
     ::Il2CppString* get_ownerUserId();
     // private System.Void set_ownerUserId(System.String value)
-    // Offset: 0x1329FC4
+    // Offset: 0x1342C94
     void set_ownerUserId(::Il2CppString* value);
     // public BeatmapLevelSelectionMask get_selectionMask()
-    // Offset: 0x1329FCC
+    // Offset: 0x1342C9C
     GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask();
     // private System.Void set_selectionMask(BeatmapLevelSelectionMask value)
-    // Offset: 0x1329FE0
+    // Offset: 0x1342CB0
     void set_selectionMask(GlobalNamespace::BeatmapLevelSelectionMask value);
     // public GameplayServerConfiguration get_configuration()
-    // Offset: 0x1329FF4
+    // Offset: 0x1342CC4
     GlobalNamespace::GameplayServerConfiguration get_configuration();
     // private System.Void set_configuration(GameplayServerConfiguration value)
-    // Offset: 0x132A008
+    // Offset: 0x1342CD8
     void set_configuration(GlobalNamespace::GameplayServerConfiguration value);
     // public IServerBeatmapProvider get_beatmapProvider()
-    // Offset: 0x132A01C
+    // Offset: 0x1342CEC
     GlobalNamespace::IServerBeatmapProvider* get_beatmapProvider();
     // private System.Void set_beatmapProvider(IServerBeatmapProvider value)
-    // Offset: 0x132A024
+    // Offset: 0x1342CF4
     void set_beatmapProvider(GlobalNamespace::IServerBeatmapProvider* value);
     // public MenuRpcManager get_menuRpcManager()
-    // Offset: 0x132A02C
+    // Offset: 0x1342CFC
     GlobalNamespace::MenuRpcManager* get_menuRpcManager();
     // private System.Void set_menuRpcManager(MenuRpcManager value)
-    // Offset: 0x132A034
+    // Offset: 0x1342D04
     void set_menuRpcManager(GlobalNamespace::MenuRpcManager* value);
     // public GameplayRpcManager get_gameplayRpcManager()
-    // Offset: 0x132A03C
+    // Offset: 0x1342D0C
     GlobalNamespace::GameplayRpcManager* get_gameplayRpcManager();
     // private System.Void set_gameplayRpcManager(GameplayRpcManager value)
-    // Offset: 0x132A044
+    // Offset: 0x1342D14
     void set_gameplayRpcManager(GlobalNamespace::GameplayRpcManager* value);
     // public System.Void .ctor(MasterServer.ITimeProvider timeProvider, IMultiplayerSessionManager multiplayerSessionManager, System.String ownerUserId, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, IServerBeatmapProvider beatmapProvider)
-    // Offset: 0x13241F0
+    // Offset: 0x133CEC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayServerFiniteStateMachine* New_ctor(MasterServer::ITimeProvider* timeProvider, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::Il2CppString* ownerUserId, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, GlobalNamespace::IServerBeatmapProvider* beatmapProvider) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameplayServerFiniteStateMachine::.ctor");

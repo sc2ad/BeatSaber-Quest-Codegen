@@ -44,17 +44,17 @@ namespace Valve::VR {
     // Get instance field reference: private Valve.VR.IVRResources FnTable
     Valve::VR::IVRResources& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x170D6B0
+    // Offset: 0x1713EE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRResources* New_ctor(System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::CVRResources::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRResources*, creationType>(pInterface)));
     }
     // public System.UInt32 LoadSharedResource(System.String pchResourceName, System.String pchBuffer, System.UInt32 unBufferLen)
-    // Offset: 0x170D7B0
+    // Offset: 0x1713FE4
     uint LoadSharedResource(::Il2CppString* pchResourceName, ::Il2CppString* pchBuffer, uint unBufferLen);
     // public System.UInt32 GetResourceFullPath(System.String pchResourceName, System.String pchResourceTypeDirectory, System.Text.StringBuilder pchPathBuffer, System.UInt32 unBufferLen)
-    // Offset: 0x170D7CC
+    // Offset: 0x1714000
     uint GetResourceFullPath(::Il2CppString* pchResourceName, ::Il2CppString* pchResourceTypeDirectory, System::Text::StringBuilder* pchPathBuffer, uint unBufferLen);
   }; // Valve.VR.CVRResources
   #pragma pack(pop)

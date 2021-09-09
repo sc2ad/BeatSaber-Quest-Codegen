@@ -121,34 +121,34 @@ namespace GlobalNamespace {
     // Set static field: static private System.Security.Cryptography.AesCryptoServiceProvider _aes
     static void _set__aes(System::Security::Cryptography::AesCryptoServiceProvider* value);
     // static private System.Void .cctor()
-    // Offset: 0x13272C0
+    // Offset: 0x133FF90
     static void _cctor();
     // static public EncryptionUtility/IEncryptionState CreateEncryptionState(System.Byte[] preMasterSecret, System.Byte[] serverSeed, System.Byte[] clientSeed, System.Boolean isClient)
-    // Offset: 0x13254B0
+    // Offset: 0x133E180
     static GlobalNamespace::EncryptionUtility::IEncryptionState* CreateEncryptionState(::Array<uint8_t>* preMasterSecret, ::Array<uint8_t>* serverSeed, ::Array<uint8_t>* clientSeed, bool isClient);
     // static public System.Threading.Tasks.Task`1<EncryptionUtility/IEncryptionState> CreateEncryptionStateAsync(System.Byte[] preMasterSecret, System.Byte[] serverSeed, System.Byte[] clientSeed, System.Boolean isClient)
-    // Offset: 0x1325770
+    // Offset: 0x133E440
     static System::Threading::Tasks::Task_1<GlobalNamespace::EncryptionUtility::IEncryptionState*>* CreateEncryptionStateAsync(::Array<uint8_t>* preMasterSecret, ::Array<uint8_t>* serverSeed, ::Array<uint8_t>* clientSeed, bool isClient);
     // static public System.Boolean IsValidLength(System.Int32 length)
-    // Offset: 0x132586C
+    // Offset: 0x133E53C
     static bool IsValidLength(int length);
     // static private System.Void EncryptData(EncryptionUtility/EncryptionState state, System.Byte[] data, ref System.Int32 offset, ref System.Int32 length, System.Int32 extraPrefixedData)
-    // Offset: 0x132588C
+    // Offset: 0x133E55C
     static void EncryptData(GlobalNamespace::EncryptionUtility::EncryptionState* state, ::Array<uint8_t>* data, ByRef<int> offset, ByRef<int> length, int extraPrefixedData);
     // static private System.Boolean TryDecryptData(EncryptionUtility/EncryptionState state, System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x1326100
+    // Offset: 0x133EDD0
     static bool TryDecryptData(GlobalNamespace::EncryptionUtility::EncryptionState* state, ::Array<uint8_t>* data, ByRef<int> offset, ByRef<int> length);
     // static private System.Void FastCopyBlock(System.Byte[] inArr, System.Int32 inOff, System.Byte[] outArr, System.Int32 outOff)
-    // Offset: 0x1326C98
+    // Offset: 0x133F968
     static void FastCopyBlock(::Array<uint8_t>* inArr, int inOff, ::Array<uint8_t>* outArr, int outOff);
     // static private System.Void FastCopyMac(System.Byte[] inArr, System.Int32 inOff, System.Byte[] outArr, System.Int32 outOff)
-    // Offset: 0x1326FB8
+    // Offset: 0x133FC88
     static void FastCopyMac(::Array<uint8_t>* inArr, int inOff, ::Array<uint8_t>* outArr, int outOff);
     // static public System.Void Log(System.String message)
-    // Offset: 0x13271B8
+    // Offset: 0x133FE88
     static void Log(::Il2CppString* message);
     // static public System.Void LogV(System.String message)
-    // Offset: 0x132723C
+    // Offset: 0x133FF0C
     static void LogV(::Il2CppString* message);
   }; // EncryptionUtility
   #pragma pack(pop)

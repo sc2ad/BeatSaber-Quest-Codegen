@@ -43,17 +43,17 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Get instance field reference: private System.Byte[] sBox
     ::Array<uint8_t>*& dyn_sBox();
     // public Org.BouncyCastle.Crypto.ICipherParameters get_Parameters()
-    // Offset: 0x1276148
+    // Offset: 0x127AB10
     Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.ICipherParameters parameters, System.Byte[] sBox)
-    // Offset: 0x1276108
+    // Offset: 0x127AAD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParametersWithSBox* New_ctor(Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::Array<uint8_t>* sBox) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParametersWithSBox*, creationType>(parameters, sBox)));
     }
     // public System.Byte[] GetSBox()
-    // Offset: 0x1276140
+    // Offset: 0x127AB08
     ::Array<uint8_t>* GetSBox();
   }; // Org.BouncyCastle.Crypto.Parameters.ParametersWithSBox
   #pragma pack(pop)

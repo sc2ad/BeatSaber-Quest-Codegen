@@ -55,49 +55,49 @@ namespace Org::BouncyCastle::Asn1 {
     // Get instance field reference: Org.BouncyCastle.Asn1.Asn1Encodable obj
     Org::BouncyCastle::Asn1::Asn1Encodable*& dyn_obj();
     // public System.Int32 get_TagNo()
-    // Offset: 0x172DAD4
+    // Offset: 0x1734308
     int get_TagNo();
     // protected System.Void .ctor(System.Int32 tagNo, Org.BouncyCastle.Asn1.Asn1Encodable obj)
-    // Offset: 0x172D890
+    // Offset: 0x17340C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1TaggedObject* New_ctor(int tagNo, Org::BouncyCastle::Asn1::Asn1Encodable* obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Asn1TaggedObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1TaggedObject*, creationType>(tagNo, obj)));
     }
     // protected System.Void .ctor(System.Boolean explicitly, System.Int32 tagNo, Org.BouncyCastle.Asn1.Asn1Encodable obj)
-    // Offset: 0x172D8D8
+    // Offset: 0x173410C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1TaggedObject* New_ctor(bool explicitly, int tagNo, Org::BouncyCastle::Asn1::Asn1Encodable* obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Asn1TaggedObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1TaggedObject*, creationType>(explicitly, tagNo, obj)));
     }
     // static public Org.BouncyCastle.Asn1.Asn1TaggedObject GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean explicitly)
-    // Offset: 0x172D6DC
+    // Offset: 0x1733F10
     static Org::BouncyCastle::Asn1::Asn1TaggedObject* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
     // static public Org.BouncyCastle.Asn1.Asn1TaggedObject GetInstance(System.Object obj)
-    // Offset: 0x172D784
+    // Offset: 0x1733FB8
     static Org::BouncyCastle::Asn1::Asn1TaggedObject* GetInstance(::Il2CppObject* obj);
     // public System.Boolean IsExplicit()
-    // Offset: 0x172DADC
+    // Offset: 0x1734310
     bool IsExplicit();
     // public System.Boolean IsEmpty()
-    // Offset: 0x172DAE4
+    // Offset: 0x1734318
     bool IsEmpty();
     // public Org.BouncyCastle.Asn1.Asn1Object GetObject()
-    // Offset: 0x172AA48
+    // Offset: 0x173127C
     Org::BouncyCastle::Asn1::Asn1Object* GetObject();
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x172D974
+    // Offset: 0x17341A8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x172DA90
+    // Offset: 0x17342C4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x172DAEC
+    // Offset: 0x1734320
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

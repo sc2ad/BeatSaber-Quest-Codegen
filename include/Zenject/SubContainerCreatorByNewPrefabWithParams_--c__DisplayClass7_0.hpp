@@ -45,13 +45,13 @@ namespace Zenject {
     // Get instance field reference: public Zenject.TypeValuePair argPair
     Zenject::TypeValuePair& dyn_argPair();
     // System.Boolean <CreateTempContainer>b__0(Zenject.InjectableInfo x)
-    // Offset: 0x1721988
+    // Offset: 0x17281BC
     bool $CreateTempContainer$b__0(Zenject::InjectableInfo* x);
     // System.Int32 <CreateTempContainer>b__1(Zenject.InjectableInfo x)
-    // Offset: 0x1721A10
+    // Offset: 0x1728244
     int $CreateTempContainer$b__1(Zenject::InjectableInfo* x);
     // public System.Void .ctor()
-    // Offset: 0x17217EC
+    // Offset: 0x1728020
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

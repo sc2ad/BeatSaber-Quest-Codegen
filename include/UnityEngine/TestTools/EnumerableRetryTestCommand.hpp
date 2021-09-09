@@ -58,17 +58,17 @@ namespace UnityEngine::TestTools {
     // Get instance field reference: private System.Int32 retryCount
     int& dyn_retryCount();
     // public System.Void .ctor(NUnit.Framework.RetryAttribute/NUnit.Framework.RetryCommand commandToReplace)
-    // Offset: 0x14B7248
+    // Offset: 0x14BF204
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumerableRetryTestCommand* New_ctor(NUnit::Framework::RetryAttribute::RetryCommand* commandToReplace) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::EnumerableRetryTestCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumerableRetryTestCommand*, creationType>(commandToReplace)));
     }
     // public System.Collections.IEnumerable ExecuteEnumerable(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x14BF950
+    // Offset: 0x14C790C
     System::Collections::IEnumerable* ExecuteEnumerable(NUnit::Framework::Internal::ITestExecutionContext* context);
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x14BF8E4
+    // Offset: 0x14C78A0
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);

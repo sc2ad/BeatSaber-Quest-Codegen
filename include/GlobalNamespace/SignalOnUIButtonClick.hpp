@@ -32,7 +32,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SignalOnUIButtonClick : public UnityEngine::MonoBehaviour {
     public:
-    // [SignalSenderAttribute] Offset: 0xE035D8
+    // [SignalSenderAttribute] Offset: 0xE08548
     // private Signal _buttonClickedSignal
     // Size: 0x8
     // Offset: 0x18
@@ -54,16 +54,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.UI.Button _button
     UnityEngine::UI::Button*& dyn__button();
     // private System.Void OnReset()
-    // Offset: 0x2398094
+    // Offset: 0x2393D7C
     void OnReset();
     // protected System.Void Start()
-    // Offset: 0x23980EC
+    // Offset: 0x2393DD4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x2398184
+    // Offset: 0x2393E6C
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x2398260
+    // Offset: 0x2393F48
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

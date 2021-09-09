@@ -31,16 +31,16 @@ namespace System::Net {
     // Creating value type constructor for type: ExceptionHelper
     ExceptionHelper() noexcept {}
     // static System.NotImplementedException get_MethodNotImplementedException()
-    // Offset: 0x16DB0A4
+    // Offset: 0x16E08D8
     static System::NotImplementedException* get_MethodNotImplementedException();
     // static System.NotImplementedException get_PropertyNotImplementedException()
-    // Offset: 0x16DAFE4
+    // Offset: 0x16E0818
     static System::NotImplementedException* get_PropertyNotImplementedException();
     // static System.NotSupportedException get_PropertyNotSupportedException()
-    // Offset: 0x16DE0FC
+    // Offset: 0x16E3930
     static System::NotSupportedException* get_PropertyNotSupportedException();
     // static System.Net.WebException get_RequestAbortedException()
-    // Offset: 0x16DE178
+    // Offset: 0x16E39AC
     static System::Net::WebException* get_RequestAbortedException();
   }; // System.Net.ExceptionHelper
   #pragma pack(pop)

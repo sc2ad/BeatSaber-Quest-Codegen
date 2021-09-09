@@ -70,147 +70,147 @@ namespace LiteNetLib::Utils {
     // Get instance field reference: private readonly System.Boolean _autoResize
     bool& dyn__autoResize();
     // public System.Int32 get_Capacity()
-    // Offset: 0x1C01078
+    // Offset: 0x1C2C210
     int get_Capacity();
     // public System.Byte[] get_Data()
-    // Offset: 0x1C01568
+    // Offset: 0x1C2C700
     ::Array<uint8_t>* get_Data();
     // public System.Int32 get_Length()
-    // Offset: 0x1C01570
+    // Offset: 0x1C2C708
     int get_Length();
     // public System.Void .ctor(System.Boolean autoResize)
-    // Offset: 0x1C01110
+    // Offset: 0x1C2C2A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetDataWriter* New_ctor(bool autoResize) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetDataWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetDataWriter*, creationType>(autoResize)));
     }
     // public System.Void .ctor(System.Boolean autoResize, System.Int32 initialSize)
-    // Offset: 0x1C01094
+    // Offset: 0x1C2C22C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetDataWriter* New_ctor(bool autoResize, int initialSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetDataWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetDataWriter*, creationType>(autoResize, initialSize)));
     }
     // static public LiteNetLib.Utils.NetDataWriter FromBytes(System.Byte[] bytes, System.Boolean copy)
-    // Offset: 0x1C0111C
+    // Offset: 0x1C2C2B4
     static LiteNetLib::Utils::NetDataWriter* FromBytes(::Array<uint8_t>* bytes, bool copy);
     // static public LiteNetLib.Utils.NetDataWriter FromBytes(System.Byte[] bytes, System.Int32 offset, System.Int32 length)
-    // Offset: 0x1C0124C
+    // Offset: 0x1C2C3E4
     static LiteNetLib::Utils::NetDataWriter* FromBytes(::Array<uint8_t>* bytes, int offset, int length);
     // static public LiteNetLib.Utils.NetDataWriter FromString(System.String value)
-    // Offset: 0x1BF8ADC
+    // Offset: 0x1C23C74
     static LiteNetLib::Utils::NetDataWriter* FromString(::Il2CppString* value);
     // public System.Void ResizeIfNeed(System.Int32 newSize)
-    // Offset: 0x1C0142C
+    // Offset: 0x1C2C5C4
     void ResizeIfNeed(int newSize);
     // public System.Void Reset(System.Int32 size)
-    // Offset: 0x1C014C0
+    // Offset: 0x1C2C658
     void Reset(int size);
     // public System.Void Reset()
-    // Offset: 0x1C014E4
+    // Offset: 0x1C2C67C
     void Reset();
     // public System.Byte[] CopyData()
-    // Offset: 0x1C014EC
+    // Offset: 0x1C2C684
     ::Array<uint8_t>* CopyData();
     // public System.Void Put(System.Single value)
-    // Offset: 0x1C01578
+    // Offset: 0x1C2C710
     void Put(float value);
     // public System.Void Put(System.Double value)
-    // Offset: 0x1C015D4
+    // Offset: 0x1C2C76C
     void Put(double value);
     // public System.Void Put(System.Int64 value)
-    // Offset: 0x1C01630
+    // Offset: 0x1C2C7C8
     void Put(int64_t value);
     // public System.Void Put(System.UInt64 value)
-    // Offset: 0x1C01684
+    // Offset: 0x1C2C81C
     void Put(uint64_t value);
     // public System.Void Put(System.Int32 value)
-    // Offset: 0x1C016D8
+    // Offset: 0x1C2C870
     void Put(int value);
     // public System.Void Put(System.UInt32 value)
-    // Offset: 0x1C0172C
+    // Offset: 0x1C2C8C4
     void Put(uint value);
     // public System.Void Put(System.Char value)
-    // Offset: 0x1C01780
+    // Offset: 0x1C2C918
     void Put(::Il2CppChar value);
     // public System.Void Put(System.UInt16 value)
-    // Offset: 0x1C017D4
+    // Offset: 0x1C2C96C
     void Put(uint16_t value);
     // public System.Void Put(System.Int16 value)
-    // Offset: 0x1C01828
+    // Offset: 0x1C2C9C0
     void Put(int16_t value);
     // public System.Void Put(System.SByte value)
-    // Offset: 0x1C0187C
+    // Offset: 0x1C2CA14
     void Put(int8_t value);
     // public System.Void Put(System.Byte value)
-    // Offset: 0x1C018F0
+    // Offset: 0x1C2CA88
     void Put(uint8_t value);
     // public System.Void Put(System.Byte[] data, System.Int32 offset, System.Int32 length)
-    // Offset: 0x1C012E0
+    // Offset: 0x1C2C478
     void Put(::Array<uint8_t>* data, int offset, int length);
     // public System.Void Put(System.Byte[] data)
-    // Offset: 0x1C011D4
+    // Offset: 0x1C2C36C
     void Put(::Array<uint8_t>* data);
     // public System.Void PutSBytesWithLength(System.SByte[] data, System.Int32 offset, System.Int32 length)
-    // Offset: 0x1C01964
+    // Offset: 0x1C2CAFC
     void PutSBytesWithLength(::Array<int8_t>* data, int offset, int length);
     // public System.Void PutSBytesWithLength(System.SByte[] data)
-    // Offset: 0x1C019FC
+    // Offset: 0x1C2CB94
     void PutSBytesWithLength(::Array<int8_t>* data);
     // public System.Void PutBytesWithLength(System.Byte[] data, System.Int32 offset, System.Int32 length)
-    // Offset: 0x1C01A90
+    // Offset: 0x1C2CC28
     void PutBytesWithLength(::Array<uint8_t>* data, int offset, int length);
     // public System.Void PutBytesWithLength(System.Byte[] data)
-    // Offset: 0x1C01B28
+    // Offset: 0x1C2CCC0
     void PutBytesWithLength(::Array<uint8_t>* data);
     // public System.Void Put(System.Boolean value)
-    // Offset: 0x1C01BBC
+    // Offset: 0x1C2CD54
     void Put(bool value);
     // private System.Void PutArray(System.Array arr, System.Int32 sz)
-    // Offset: 0x1C01C34
+    // Offset: 0x1C2CDCC
     void PutArray(System::Array* arr, int sz);
     // public System.Void PutArray(System.Single[] value)
-    // Offset: 0x1C01CE4
+    // Offset: 0x1C2CE7C
     void PutArray(::Array<float>* value);
     // public System.Void PutArray(System.Double[] value)
-    // Offset: 0x1C01CEC
+    // Offset: 0x1C2CE84
     void PutArray(::Array<double>* value);
     // public System.Void PutArray(System.Int64[] value)
-    // Offset: 0x1C01CF4
+    // Offset: 0x1C2CE8C
     void PutArray(::Array<int64_t>* value);
     // public System.Void PutArray(System.UInt64[] value)
-    // Offset: 0x1C01CFC
+    // Offset: 0x1C2CE94
     void PutArray(::Array<uint64_t>* value);
     // public System.Void PutArray(System.Int32[] value)
-    // Offset: 0x1C01D04
+    // Offset: 0x1C2CE9C
     void PutArray(::Array<int>* value);
     // public System.Void PutArray(System.UInt32[] value)
-    // Offset: 0x1C01D0C
+    // Offset: 0x1C2CEA4
     void PutArray(::Array<uint>* value);
     // public System.Void PutArray(System.UInt16[] value)
-    // Offset: 0x1C01D14
+    // Offset: 0x1C2CEAC
     void PutArray(::Array<uint16_t>* value);
     // public System.Void PutArray(System.Int16[] value)
-    // Offset: 0x1C01D1C
+    // Offset: 0x1C2CEB4
     void PutArray(::Array<int16_t>* value);
     // public System.Void PutArray(System.Boolean[] value)
-    // Offset: 0x1C01D24
+    // Offset: 0x1C2CEBC
     void PutArray(::Array<bool>* value);
     // public System.Void PutArray(System.String[] value)
-    // Offset: 0x1C01D2C
+    // Offset: 0x1C2CEC4
     void PutArray(::Array<::Il2CppString*>* value);
     // public System.Void PutArray(System.String[] value, System.Int32 maxLength)
-    // Offset: 0x1C01DCC
+    // Offset: 0x1C2CF64
     void PutArray(::Array<::Il2CppString*>* value, int maxLength);
     // public System.Void Put(System.Net.IPEndPoint endPoint)
-    // Offset: 0x1C01F60
+    // Offset: 0x1C2D0F8
     void Put(System::Net::IPEndPoint* endPoint);
     // public System.Void Put(System.String value)
-    // Offset: 0x1C01350
+    // Offset: 0x1C2C4E8
     void Put(::Il2CppString* value);
     // public System.Void Put(System.String value, System.Int32 maxLength)
-    // Offset: 0x1C01E74
+    // Offset: 0x1C2D00C
     void Put(::Il2CppString* value, int maxLength);
     // public System.Void Put(T obj)
     // Offset: 0xFFFFFFFF
@@ -224,7 +224,7 @@ namespace LiteNetLib::Utils {
       ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, obj);
     }
     // public System.Void .ctor()
-    // Offset: 0x1BF181C
+    // Offset: 0x1C1C9B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

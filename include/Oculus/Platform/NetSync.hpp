@@ -28,10 +28,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: NetSync
     NetSync() noexcept {}
     // static public System.Void SetConnectionStatusChangedNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.NetSyncConnection> callback)
-    // Offset: 0x14F372C
+    // Offset: 0x23B1AE4
     static void SetConnectionStatusChangedNotificationCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetSyncConnection*>::Callback* callback);
     // static public System.Void SetSessionsChangedNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.NetSyncSessionsChangedNotification> callback)
-    // Offset: 0x14F37A4
+    // Offset: 0x23B1B5C
     static void SetSessionsChangedNotificationCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetSyncSessionsChangedNotification*>::Callback* callback);
   }; // Oculus.Platform.NetSync
   #pragma pack(pop)

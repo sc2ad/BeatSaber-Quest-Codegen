@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean disableMultiplayer
     bool& dyn_disableMultiplayer();
     // public System.Void .ctor()
-    // Offset: 0x117C264
+    // Offset: 0x1175EDC
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

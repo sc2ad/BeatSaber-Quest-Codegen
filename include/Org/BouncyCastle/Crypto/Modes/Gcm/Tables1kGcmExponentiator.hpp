@@ -46,16 +46,16 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
     // Get instance field reference: private System.Collections.IList lookupPowX2
     System::Collections::IList*& dyn_lookupPowX2();
     // public System.Void Init(System.Byte[] x)
-    // Offset: 0x191A314
+    // Offset: 0x1922B48
     void Init(::Array<uint8_t>* x);
     // public System.Void ExponentiateX(System.Int64 pow, System.Byte[] output)
-    // Offset: 0x191A528
+    // Offset: 0x1922D5C
     void ExponentiateX(int64_t pow, ::Array<uint8_t>* output);
     // private System.Void EnsureAvailable(System.Int32 bit)
-    // Offset: 0x191A6E8
+    // Offset: 0x1922F1C
     void EnsureAvailable(int bit);
     // public System.Void .ctor()
-    // Offset: 0x191A950
+    // Offset: 0x1923184
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -50,19 +50,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action levelFinishedEvent
     System::Action*& dyn_levelFinishedEvent();
     // public System.Void add_levelFailedEvent(System.Action value)
-    // Offset: 0x11DC65C
+    // Offset: 0x114981C
     void add_levelFailedEvent(System::Action* value);
     // public System.Void remove_levelFailedEvent(System.Action value)
-    // Offset: 0x11DC700
+    // Offset: 0x11498C0
     void remove_levelFailedEvent(System::Action* value);
     // public System.Void add_levelFinishedEvent(System.Action value)
-    // Offset: 0x11DC7A4
+    // Offset: 0x1149964
     void add_levelFinishedEvent(System::Action* value);
     // public System.Void remove_levelFinishedEvent(System.Action value)
-    // Offset: 0x11DC848
+    // Offset: 0x1149A08
     void remove_levelFinishedEvent(System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x11DC8EC
+    // Offset: 0x1149AAC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -25,7 +25,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ReturnToMenuRpc
     ReturnToMenuRpc() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1329B48
+    // Offset: 0x1342818
     // Implemented from: RemoteProcedureCall
     // Base method: System.Void RemoteProcedureCall::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -41,20 +41,20 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: InteractionEventDelegate
     InteractionEventDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1E929D4
+    // Offset: 0x1E94698
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionSystem::InteractionEventDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionSystem::InteractionEventDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(RootMotion.FinalIK.FullBodyBipedEffector effectorType, RootMotion.FinalIK.InteractionObject interactionObject, RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.InteractionEvent interactionEvent)
-    // Offset: 0x1E8D250
+    // Offset: 0x1E8EF14
     void Invoke(RootMotion::FinalIK::FullBodyBipedEffector effectorType, RootMotion::FinalIK::InteractionObject* interactionObject, RootMotion::FinalIK::InteractionObject::InteractionEvent* interactionEvent);
     // public System.IAsyncResult BeginInvoke(RootMotion.FinalIK.FullBodyBipedEffector effectorType, RootMotion.FinalIK.InteractionObject interactionObject, RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.InteractionEvent interactionEvent, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1E929E4
+    // Offset: 0x1E946A8
     System::IAsyncResult* BeginInvoke(RootMotion::FinalIK::FullBodyBipedEffector effectorType, RootMotion::FinalIK::InteractionObject* interactionObject, RootMotion::FinalIK::InteractionObject::InteractionEvent* interactionEvent, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1E92A84
+    // Offset: 0x1E94748
     void EndInvoke(System::IAsyncResult* result);
   }; // RootMotion.FinalIK.InteractionSystem/RootMotion.FinalIK.InteractionEventDelegate
   #pragma pack(pop)

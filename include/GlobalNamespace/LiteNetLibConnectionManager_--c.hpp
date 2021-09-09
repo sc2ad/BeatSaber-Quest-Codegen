@@ -40,13 +40,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Predicate`1<LiteNetLibConnectionManager/NetPeerConnection> <>9__70_0
     static void _set_$$9__70_0(System::Predicate_1<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x132D948
+    // Offset: 0x1346618
     static void _cctor();
     // System.Boolean <get_hasConnectionOwner>b__70_0(LiteNetLibConnectionManager/NetPeerConnection c)
-    // Offset: 0x132D9B4
+    // Offset: 0x1346684
     bool $get_hasConnectionOwner$b__70_0(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection* c);
     // public System.Void .ctor()
-    // Offset: 0x132D9AC
+    // Offset: 0x134667C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

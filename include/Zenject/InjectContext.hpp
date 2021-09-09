@@ -138,124 +138,124 @@ namespace Zenject {
     // Get instance field reference: private Zenject.DiContainer _container
     Zenject::DiContainer*& dyn__container();
     // public Zenject.BindingId get_BindingId()
-    // Offset: 0x1661880
+    // Offset: 0x16690B4
     Zenject::BindingId get_BindingId();
     // public System.Type get_ObjectType()
-    // Offset: 0x166188C
+    // Offset: 0x16690C0
     System::Type* get_ObjectType();
     // public System.Void set_ObjectType(System.Type value)
-    // Offset: 0x1661894
+    // Offset: 0x16690C8
     void set_ObjectType(System::Type* value);
     // public Zenject.InjectContext get_ParentContext()
-    // Offset: 0x166189C
+    // Offset: 0x16690D0
     Zenject::InjectContext* get_ParentContext();
     // public System.Void set_ParentContext(Zenject.InjectContext value)
-    // Offset: 0x16618A4
+    // Offset: 0x16690D8
     void set_ParentContext(Zenject::InjectContext* value);
     // public System.Object get_ObjectInstance()
-    // Offset: 0x16618AC
+    // Offset: 0x16690E0
     ::Il2CppObject* get_ObjectInstance();
     // public System.Void set_ObjectInstance(System.Object value)
-    // Offset: 0x16618B4
+    // Offset: 0x16690E8
     void set_ObjectInstance(::Il2CppObject* value);
     // public System.Object get_Identifier()
-    // Offset: 0x16618BC
+    // Offset: 0x16690F0
     ::Il2CppObject* get_Identifier();
     // public System.Void set_Identifier(System.Object value)
-    // Offset: 0x1661724
+    // Offset: 0x1668F58
     void set_Identifier(::Il2CppObject* value);
     // public System.String get_MemberName()
-    // Offset: 0x16618C4
+    // Offset: 0x16690F8
     ::Il2CppString* get_MemberName();
     // public System.Void set_MemberName(System.String value)
-    // Offset: 0x16618CC
+    // Offset: 0x1669100
     void set_MemberName(::Il2CppString* value);
     // public System.Type get_MemberType()
-    // Offset: 0x1660C6C
+    // Offset: 0x16684A0
     System::Type* get_MemberType();
     // public System.Void set_MemberType(System.Type value)
-    // Offset: 0x166171C
+    // Offset: 0x1668F50
     void set_MemberType(System::Type* value);
     // public System.Boolean get_Optional()
-    // Offset: 0x16618D4
+    // Offset: 0x1669108
     bool get_Optional();
     // public System.Void set_Optional(System.Boolean value)
-    // Offset: 0x16618DC
+    // Offset: 0x1669110
     void set_Optional(bool value);
     // public Zenject.InjectSources get_SourceType()
-    // Offset: 0x16618E8
+    // Offset: 0x166911C
     Zenject::InjectSources get_SourceType();
     // public System.Void set_SourceType(Zenject.InjectSources value)
-    // Offset: 0x16618F0
+    // Offset: 0x1669124
     void set_SourceType(Zenject::InjectSources value);
     // public System.Object get_ConcreteIdentifier()
-    // Offset: 0x16618F8
+    // Offset: 0x166912C
     ::Il2CppObject* get_ConcreteIdentifier();
     // public System.Void set_ConcreteIdentifier(System.Object value)
-    // Offset: 0x1661900
+    // Offset: 0x1669134
     void set_ConcreteIdentifier(::Il2CppObject* value);
     // public System.Object get_FallBackValue()
-    // Offset: 0x1661908
+    // Offset: 0x166913C
     ::Il2CppObject* get_FallBackValue();
     // public System.Void set_FallBackValue(System.Object value)
-    // Offset: 0x1661910
+    // Offset: 0x1669144
     void set_FallBackValue(::Il2CppObject* value);
     // public Zenject.DiContainer get_Container()
-    // Offset: 0x1661918
+    // Offset: 0x166914C
     Zenject::DiContainer* get_Container();
     // public System.Void set_Container(Zenject.DiContainer value)
-    // Offset: 0x1661920
+    // Offset: 0x1669154
     void set_Container(Zenject::DiContainer* value);
     // public System.Collections.Generic.IEnumerable`1<Zenject.InjectContext> get_ParentContexts()
-    // Offset: 0x1661928
+    // Offset: 0x166915C
     System::Collections::Generic::IEnumerable_1<Zenject::InjectContext*>* get_ParentContexts();
     // public System.Collections.Generic.IEnumerable`1<Zenject.InjectContext> get_ParentContextsAndSelf()
-    // Offset: 0x16619E0
+    // Offset: 0x1669214
     System::Collections::Generic::IEnumerable_1<Zenject::InjectContext*>* get_ParentContextsAndSelf();
     // public System.Collections.Generic.IEnumerable`1<System.Type> get_AllObjectTypes()
-    // Offset: 0x1661A98
+    // Offset: 0x16692CC
     System::Collections::Generic::IEnumerable_1<System::Type*>* get_AllObjectTypes();
     // public System.Void .ctor(Zenject.DiContainer container, System.Type memberType)
-    // Offset: 0x16616D4
+    // Offset: 0x1668F08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InjectContext* New_ctor(Zenject::DiContainer* container, System::Type* memberType) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InjectContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InjectContext*, creationType>(container, memberType)));
     }
     // public System.Void .ctor(Zenject.DiContainer container, System.Type memberType, System.Object identifier)
-    // Offset: 0x1654A6C
+    // Offset: 0x165C2A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InjectContext* New_ctor(Zenject::DiContainer* container, System::Type* memberType, ::Il2CppObject* identifier) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InjectContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InjectContext*, creationType>(container, memberType, identifier)));
     }
     // public System.Void .ctor(Zenject.DiContainer container, System.Type memberType, System.Object identifier, System.Boolean optional)
-    // Offset: 0x166172C
+    // Offset: 0x1668F60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InjectContext* New_ctor(Zenject::DiContainer* container, System::Type* memberType, ::Il2CppObject* identifier, bool optional) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InjectContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InjectContext*, creationType>(container, memberType, identifier, optional)));
     }
     // public System.Void Dispose()
-    // Offset: 0x166178C
+    // Offset: 0x1668FC0
     void Dispose();
     // public System.Void Reset()
-    // Offset: 0x1661668
+    // Offset: 0x1668E9C
     void Reset();
     // public Zenject.InjectContext CreateSubContext(System.Type memberType)
-    // Offset: 0x1661B50
+    // Offset: 0x1669384
     Zenject::InjectContext* CreateSubContext(System::Type* memberType);
     // public Zenject.InjectContext CreateSubContext(System.Type memberType, System.Object identifier)
-    // Offset: 0x1661B58
+    // Offset: 0x166938C
     Zenject::InjectContext* CreateSubContext(System::Type* memberType, ::Il2CppObject* identifier);
     // public Zenject.InjectContext Clone()
-    // Offset: 0x1661C20
+    // Offset: 0x1669454
     Zenject::InjectContext* Clone();
     // public System.String GetObjectGraphString()
-    // Offset: 0x1661CEC
+    // Offset: 0x1669520
     ::Il2CppString* GetObjectGraphString();
     // public System.Void .ctor()
-    // Offset: 0x166163C
+    // Offset: 0x1668E70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

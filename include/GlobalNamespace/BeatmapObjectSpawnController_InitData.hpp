@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Single jumpOffsetY
     float& dyn_jumpOffsetY();
     // public System.Void .ctor(System.Single beatsPerMinute, System.Int32 noteLinesCount, System.Single noteJumpMovementSpeed, System.Single noteJumpStartBeatOffset, System.Single jumpOffsetY)
-    // Offset: 0x10CCB54
+    // Offset: 0x10D3E8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectSpawnController::InitData* New_ctor(float beatsPerMinute, int noteLinesCount, float noteJumpMovementSpeed, float noteJumpStartBeatOffset, float jumpOffsetY) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectSpawnController::InitData::.ctor");

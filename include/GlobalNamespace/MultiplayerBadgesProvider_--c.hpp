@@ -49,16 +49,16 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<MultiplayerPlayerResultsData,System.Int32> <>9__7_1
     static void _set_$$9__7_1(System::Func_2<GlobalNamespace::MultiplayerPlayerResultsData*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x11A380C
+    // Offset: 0x11C6744
     static void _cctor();
     // System.Boolean <SelectBadgesAndPutThemIntoResults>b__7_0(MultiplayerPlayerResultsData result)
-    // Offset: 0x11A3878
+    // Offset: 0x11C67B0
     bool $SelectBadgesAndPutThemIntoResults$b__7_0(GlobalNamespace::MultiplayerPlayerResultsData* result);
     // System.Int32 <SelectBadgesAndPutThemIntoResults>b__7_1(MultiplayerPlayerResultsData p)
-    // Offset: 0x11A389C
+    // Offset: 0x11C67D4
     int $SelectBadgesAndPutThemIntoResults$b__7_1(GlobalNamespace::MultiplayerPlayerResultsData* p);
     // public System.Void .ctor()
-    // Offset: 0x11A3870
+    // Offset: 0x11C67A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

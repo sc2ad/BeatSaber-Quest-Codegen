@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConditionalSpriteSwitcher : public UnityEngine::MonoBehaviour {
     public:
-    // [HeaderAttribute] Offset: 0xE3D14C
+    // [HeaderAttribute] Offset: 0xE430CC
     // private UnityEngine.Sprite _sprite0
     // Size: 0x8
     // Offset: 0x18
@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     UnityEngine::Material* material0;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE3D1A8
+    // [HeaderAttribute] Offset: 0xE43128
     // private UnityEngine.Sprite _sprite1
     // Size: 0x8
     // Offset: 0x28
@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     UnityEngine::Material* material1;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE3D204
+    // [SpaceAttribute] Offset: 0xE43184
     // private BoolSO _value
     // Size: 0x8
     // Offset: 0x38
@@ -92,25 +92,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.SpriteRenderer _spriteRenderer
     UnityEngine::SpriteRenderer*& dyn__spriteRenderer();
     // public UnityEngine.Sprite get_falseSprite()
-    // Offset: 0x10F27B8
+    // Offset: 0x10E61D0
     UnityEngine::Sprite* get_falseSprite();
     // public System.Void set_falseSprite(UnityEngine.Sprite value)
-    // Offset: 0x10F27C0
+    // Offset: 0x10E61D8
     void set_falseSprite(UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_trueSprite()
-    // Offset: 0x10F27C8
+    // Offset: 0x10E61E0
     UnityEngine::Sprite* get_trueSprite();
     // public System.Void set_trueSprite(UnityEngine.Sprite value)
-    // Offset: 0x10F27D0
+    // Offset: 0x10E61E8
     void set_trueSprite(UnityEngine::Sprite* value);
     // protected System.Void Awake()
-    // Offset: 0x10F27D8
+    // Offset: 0x10E61F0
     void Awake();
     // public System.Void Apply()
-    // Offset: 0x10F27DC
+    // Offset: 0x10E61F4
     void Apply();
     // public System.Void .ctor()
-    // Offset: 0x10F2884
+    // Offset: 0x10E629C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

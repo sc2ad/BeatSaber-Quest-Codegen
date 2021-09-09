@@ -154,29 +154,29 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: private System.Int32 <EndPosition>k__BackingField
     int& dyn_$EndPosition$k__BackingField();
     // public System.Int32 get_StartPosition()
-    // Offset: 0x15A8F3C
+    // Offset: 0x15B3770
     int get_StartPosition();
     // private System.Void set_StartPosition(System.Int32 value)
-    // Offset: 0x15A8F44
+    // Offset: 0x15B3778
     void set_StartPosition(int value);
     // public System.Int32 get_EndPosition()
-    // Offset: 0x15A8F4C
+    // Offset: 0x15B3780
     int get_EndPosition();
     // private System.Void set_EndPosition(System.Int32 value)
-    // Offset: 0x15A8F54
+    // Offset: 0x15B3788
     void set_EndPosition(int value);
     // public System.Net.Http.Headers.Token/System.Net.Http.Headers.Type get_Kind()
-    // Offset: 0x15A8F5C
+    // Offset: 0x15B3790
     System::Net::Http::Headers::Token::Type get_Kind();
     // public System.Void .ctor(System.Net.Http.Headers.Token/System.Net.Http.Headers.Type type, System.Int32 startPosition, System.Int32 endPosition)
-    // Offset: 0x159C4D4
+    // Offset: 0x15A6D08
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Token(System::Net::Http::Headers::Token::Type type, int startPosition, int endPosition)
     // static private System.Void .cctor()
-    // Offset: 0x15A8FF4
+    // Offset: 0x15B3828
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0x15A8F68
+    // Offset: 0x15B379C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

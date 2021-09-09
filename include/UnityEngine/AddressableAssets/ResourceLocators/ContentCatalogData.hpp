@@ -80,42 +80,42 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::ObjectInitializationData>* m_ResourceProviderData;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::ObjectInitializationData>*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xE1FE40
+    // [FormerlySerializedAsAttribute] Offset: 0xE24DB0
     // System.String[] m_ProviderIds
     // Size: 0x8
     // Offset: 0x90
     ::Array<::Il2CppString*>* m_ProviderIds;
     // Field size check
     static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xE1FE8C
+    // [FormerlySerializedAsAttribute] Offset: 0xE24DFC
     // System.String[] m_InternalIds
     // Size: 0x8
     // Offset: 0x98
     ::Array<::Il2CppString*>* m_InternalIds;
     // Field size check
     static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xE1FED8
+    // [FormerlySerializedAsAttribute] Offset: 0xE24E48
     // System.String m_KeyDataString
     // Size: 0x8
     // Offset: 0xA0
     ::Il2CppString* m_KeyDataString;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xE1FF24
+    // [FormerlySerializedAsAttribute] Offset: 0xE24E94
     // System.String m_BucketDataString
     // Size: 0x8
     // Offset: 0xA8
     ::Il2CppString* m_BucketDataString;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xE1FF70
+    // [FormerlySerializedAsAttribute] Offset: 0xE24EE0
     // System.String m_EntryDataString
     // Size: 0x8
     // Offset: 0xB0
     ::Il2CppString* m_EntryDataString;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xE1FFBC
+    // [FormerlySerializedAsAttribute] Offset: 0xE24F2C
     // System.String m_ExtraDataString
     // Size: 0x8
     // Offset: 0xB8
@@ -177,49 +177,49 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     // Get instance field reference: private System.String[] m_InternalIdPrefixes
     ::Array<::Il2CppString*>*& dyn_m_InternalIdPrefixes();
     // public System.String get_ProviderId()
-    // Offset: 0x1449998
+    // Offset: 0x1451954
     ::Il2CppString* get_ProviderId();
     // System.Void set_ProviderId(System.String value)
-    // Offset: 0x14499A0
+    // Offset: 0x145195C
     void set_ProviderId(::Il2CppString* value);
     // public UnityEngine.ResourceManagement.Util.ObjectInitializationData get_InstanceProviderData()
-    // Offset: 0x14499A8
+    // Offset: 0x1451964
     UnityEngine::ResourceManagement::Util::ObjectInitializationData get_InstanceProviderData();
     // public System.Void set_InstanceProviderData(UnityEngine.ResourceManagement.Util.ObjectInitializationData value)
-    // Offset: 0x14499C0
+    // Offset: 0x145197C
     void set_InstanceProviderData(UnityEngine::ResourceManagement::Util::ObjectInitializationData value);
     // public UnityEngine.ResourceManagement.Util.ObjectInitializationData get_SceneProviderData()
-    // Offset: 0x14499D8
+    // Offset: 0x1451994
     UnityEngine::ResourceManagement::Util::ObjectInitializationData get_SceneProviderData();
     // public System.Void set_SceneProviderData(UnityEngine.ResourceManagement.Util.ObjectInitializationData value)
-    // Offset: 0x14499F0
+    // Offset: 0x14519AC
     void set_SceneProviderData(UnityEngine::ResourceManagement::Util::ObjectInitializationData value);
     // public System.Collections.Generic.List`1<UnityEngine.ResourceManagement.Util.ObjectInitializationData> get_ResourceProviderData()
-    // Offset: 0x1449A08
+    // Offset: 0x14519C4
     System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::ObjectInitializationData>* get_ResourceProviderData();
     // public System.Void set_ResourceProviderData(System.Collections.Generic.List`1<UnityEngine.ResourceManagement.Util.ObjectInitializationData> value)
-    // Offset: 0x1449A10
+    // Offset: 0x14519CC
     void set_ResourceProviderData(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::ObjectInitializationData>* value);
     // public System.String[] get_ProviderIds()
-    // Offset: 0x1449A18
+    // Offset: 0x14519D4
     ::Array<::Il2CppString*>* get_ProviderIds();
     // public System.String[] get_InternalIds()
-    // Offset: 0x1449A20
+    // Offset: 0x14519DC
     ::Array<::Il2CppString*>* get_InternalIds();
     // System.Void CleanData()
-    // Offset: 0x1449A28
+    // Offset: 0x14519E4
     void CleanData();
     // UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationMap CreateCustomLocator(System.String overrideId, System.String providerSuffix)
-    // Offset: 0x1448BB4
+    // Offset: 0x1450B70
     UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* CreateCustomLocator(::Il2CppString* overrideId, ::Il2CppString* providerSuffix);
     // public UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationMap CreateLocator(System.String providerSuffix)
-    // Offset: 0x1449A88
+    // Offset: 0x1451A44
     UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* CreateLocator(::Il2CppString* providerSuffix);
     // static System.String ExpandInternalId(System.String[] internalIdPrefixes, System.String v)
-    // Offset: 0x144A2B8
+    // Offset: 0x1452274
     static ::Il2CppString* ExpandInternalId(::Array<::Il2CppString*>* internalIdPrefixes, ::Il2CppString* v);
     // public System.Void .ctor()
-    // Offset: 0x144A53C
+    // Offset: 0x14524F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

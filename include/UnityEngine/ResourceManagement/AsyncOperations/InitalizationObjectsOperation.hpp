@@ -60,21 +60,21 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     // Get instance field reference: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>> m_DepOp
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>& dyn_m_DepOp();
     // public System.Void Init(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.Initialization.ResourceManagerRuntimeData> rtdOp, UnityEngine.AddressableAssets.AddressablesImpl addressables)
-    // Offset: 0x23E9B80
+    // Offset: 0x23E58CC
     void Init(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*> rtdOp, UnityEngine::AddressableAssets::AddressablesImpl* addressables);
     // System.Boolean LogRuntimeWarnings(System.String pathToBuildLogs)
-    // Offset: 0x23E9C04
+    // Offset: 0x23E5950
     bool LogRuntimeWarnings(::Il2CppString* pathToBuildLogs);
     // private System.Void <Execute>b__8_0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>> obj)
-    // Offset: 0x23EA4CC
+    // Offset: 0x23E6218
     void $Execute$b__8_0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> obj);
     // protected override System.String get_DebugName()
-    // Offset: 0x23E9BBC
+    // Offset: 0x23E5908
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.String AsyncOperationBase_1::get_DebugName()
     ::Il2CppString* get_DebugName();
     // public System.Void .ctor()
-    // Offset: 0x23EA47C
+    // Offset: 0x23E61C8
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -84,12 +84,12 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
       return THROW_UNLESS((::il2cpp_utils::New<InitalizationObjectsOperation*, creationType>()));
     }
     // override System.Boolean InvokeWaitForCompletion()
-    // Offset: 0x23E9DB0
+    // Offset: 0x23E5AFC
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Boolean AsyncOperationBase_1::InvokeWaitForCompletion()
     bool InvokeWaitForCompletion();
     // protected override System.Void Execute()
-    // Offset: 0x23E9F10
+    // Offset: 0x23E5C5C
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::Execute()
     void Execute();

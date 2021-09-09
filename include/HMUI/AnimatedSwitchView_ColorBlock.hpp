@@ -40,7 +40,7 @@ namespace HMUI {
     UnityEngine::Color knobColor1;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // [SpaceAttribute] Offset: 0xE18384
+    // [SpaceAttribute] Offset: 0xE1D2F4
     // public UnityEngine.Color backgroundColor
     // Size: 0x10
     // Offset: 0x40
@@ -74,7 +74,7 @@ namespace HMUI {
     // Get instance field reference: public UnityEngine.Color backgroundColor1
     UnityEngine::Color& dyn_backgroundColor1();
     // public System.Void .ctor()
-    // Offset: 0x136638C
+    // Offset: 0x136C080
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

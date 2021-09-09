@@ -46,13 +46,13 @@ namespace System::Net {
     // Get instance field reference: private System.Net.CookieVariant m_variant
     System::Net::CookieVariant& dyn_m_variant();
     // System.String get_Name()
-    // Offset: 0x166A04C
+    // Offset: 0x1670880
     ::Il2CppString* get_Name();
     // System.Net.CookieVariant get_Variant()
-    // Offset: 0x166A054
+    // Offset: 0x1670888
     System::Net::CookieVariant get_Variant();
     // System.Void .ctor(System.String name, System.Net.CookieVariant variant)
-    // Offset: 0x166A040
+    // Offset: 0x1670874
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  HeaderVariantInfo(::Il2CppString* name, System::Net::CookieVariant variant)
   }; // System.Net.HeaderVariantInfo

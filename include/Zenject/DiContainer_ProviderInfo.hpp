@@ -66,7 +66,7 @@ namespace Zenject {
     // Get instance field reference: public readonly Zenject.BindingCondition Condition
     Zenject::BindingCondition*& dyn_Condition();
     // public System.Void .ctor(Zenject.IProvider provider, Zenject.BindingCondition condition, System.Boolean nonLazy, Zenject.DiContainer container)
-    // Offset: 0x1655094
+    // Offset: 0x165C8C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiContainer::ProviderInfo* New_ctor(Zenject::IProvider* provider, Zenject::BindingCondition* condition, bool nonLazy, Zenject::DiContainer* container) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::ProviderInfo::.ctor");

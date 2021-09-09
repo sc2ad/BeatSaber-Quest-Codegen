@@ -53,34 +53,34 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<UnityEngine.SceneManagement.Scene,Zenject.SceneContext> _map
     System::Collections::Generic::Dictionary_2<UnityEngine::SceneManagement::Scene, Zenject::SceneContext*>*& dyn__map();
     // public System.Collections.Generic.IEnumerable`1<Zenject.SceneContext> get_SceneContexts()
-    // Offset: 0x1718F08
+    // Offset: 0x171F73C
     System::Collections::Generic::IEnumerable_1<Zenject::SceneContext*>* get_SceneContexts();
     // public System.Void Add(Zenject.SceneContext context)
-    // Offset: 0x171C594
+    // Offset: 0x1722DC8
     void Add(Zenject::SceneContext* context);
     // public Zenject.SceneContext GetSceneContextForScene(System.String name)
-    // Offset: 0x171C668
+    // Offset: 0x1722E9C
     Zenject::SceneContext* GetSceneContextForScene(::Il2CppString* name);
     // public Zenject.SceneContext GetSceneContextForScene(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x171C71C
+    // Offset: 0x1722F50
     Zenject::SceneContext* GetSceneContextForScene(UnityEngine::SceneManagement::Scene scene);
     // public Zenject.SceneContext TryGetSceneContextForScene(System.String name)
-    // Offset: 0x171C784
+    // Offset: 0x1722FB8
     Zenject::SceneContext* TryGetSceneContextForScene(::Il2CppString* name);
     // public Zenject.SceneContext TryGetSceneContextForScene(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x171C838
+    // Offset: 0x172306C
     Zenject::SceneContext* TryGetSceneContextForScene(UnityEngine::SceneManagement::Scene scene);
     // public Zenject.DiContainer GetContainerForScene(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x171C8B8
+    // Offset: 0x17230EC
     Zenject::DiContainer* GetContainerForScene(UnityEngine::SceneManagement::Scene scene);
     // public Zenject.DiContainer TryGetContainerForScene(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x171C98C
+    // Offset: 0x17231C0
     Zenject::DiContainer* TryGetContainerForScene(UnityEngine::SceneManagement::Scene scene);
     // public System.Void Remove(Zenject.SceneContext context)
-    // Offset: 0x171CA8C
+    // Offset: 0x17232C0
     void Remove(Zenject::SceneContext* context);
     // public System.Void .ctor()
-    // Offset: 0x171CBC8
+    // Offset: 0x17233FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

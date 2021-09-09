@@ -43,10 +43,10 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Get instance field reference: public System.Boolean msgReceived
     bool& dyn_msgReceived();
     // System.Void <BlockUntilRecvMsg>b__0(UnityEngine.Networking.PlayerConnection.MessageEventArgs args)
-    // Offset: 0x1D08C78
+    // Offset: 0x1D0993C
     void $BlockUntilRecvMsg$b__0(UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
     // public System.Void .ctor()
-    // Offset: 0x1D082FC
+    // Offset: 0x1D08FC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

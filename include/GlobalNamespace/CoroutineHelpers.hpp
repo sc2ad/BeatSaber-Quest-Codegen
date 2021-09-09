@@ -38,10 +38,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: CoroutineHelpers
     CoroutineHelpers() noexcept {}
     // static public System.Collections.IEnumerator ExecuteAfterDelayCoroutine(System.Action action, System.Single time)
-    // Offset: 0x1259420
+    // Offset: 0x125DDE8
     static System::Collections::IEnumerator* ExecuteAfterDelayCoroutine(System::Action* action, float time);
     // public System.Void .ctor()
-    // Offset: 0x12594CC
+    // Offset: 0x125DE94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

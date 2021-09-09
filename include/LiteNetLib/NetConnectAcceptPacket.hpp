@@ -60,17 +60,17 @@ namespace LiteNetLib {
     // Get instance field reference: public readonly System.Boolean IsReusedPeer
     bool& dyn_IsReusedPeer();
     // private System.Void .ctor(System.Int64 connectionId, System.Byte connectionNumber, System.Boolean isReusedPeer)
-    // Offset: 0x1BF28F4
+    // Offset: 0x1C1DA8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetConnectAcceptPacket* New_ctor(int64_t connectionId, uint8_t connectionNumber, bool isReusedPeer) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetConnectAcceptPacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetConnectAcceptPacket*, creationType>(connectionId, connectionNumber, isReusedPeer)));
     }
     // static public LiteNetLib.NetConnectAcceptPacket FromData(LiteNetLib.NetPacket packet)
-    // Offset: 0x1BF293C
+    // Offset: 0x1C1DAD4
     static LiteNetLib::NetConnectAcceptPacket* FromData(LiteNetLib::NetPacket* packet);
     // static public LiteNetLib.NetPacket Make(System.Int64 connectId, System.Byte connectNum, System.Boolean reusedPeer)
-    // Offset: 0x1BF2A4C
+    // Offset: 0x1C1DBE4
     static LiteNetLib::NetPacket* Make(int64_t connectId, uint8_t connectNum, bool reusedPeer);
   }; // LiteNetLib.NetConnectAcceptPacket
   #pragma pack(pop)

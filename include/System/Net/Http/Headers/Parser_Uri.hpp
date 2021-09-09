@@ -26,7 +26,7 @@ namespace System::Net::Http::Headers {
     // Creating value type constructor for type: Uri
     Uri() noexcept {}
     // static public System.Boolean TryParse(System.String input, out System.Uri result)
-    // Offset: 0x15A6440
+    // Offset: 0x15B0C74
     static bool TryParse(::Il2CppString* input, ByRef<System::Uri*> result);
   }; // System.Net.Http.Headers.Parser/System.Net.Http.Headers.Uri
   #pragma pack(pop)

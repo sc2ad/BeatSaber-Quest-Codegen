@@ -57,16 +57,16 @@ namespace NUnit::Framework::Internal::Builders {
     // Get instance field reference: private readonly NUnit.Framework.Internal.TestNameGenerator _nameGenerator
     NUnit::Framework::Internal::TestNameGenerator*& dyn__nameGenerator();
     // public NUnit.Framework.Internal.TestMethod BuildTestMethod(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test parentSuite, NUnit.Framework.Internal.TestCaseParameters parms)
-    // Offset: 0x1763728
+    // Offset: 0x1769F5C
     NUnit::Framework::Internal::TestMethod* BuildTestMethod(NUnit::Framework::Interfaces::IMethodInfo* method, NUnit::Framework::Internal::Test* parentSuite, NUnit::Framework::Internal::TestCaseParameters* parms);
     // static private System.Boolean CheckTestMethodSignature(NUnit.Framework.Internal.TestMethod testMethod, NUnit.Framework.Internal.TestCaseParameters parms)
-    // Offset: 0x17740A0
+    // Offset: 0x177A8D4
     static bool CheckTestMethodSignature(NUnit::Framework::Internal::TestMethod* testMethod, NUnit::Framework::Internal::TestCaseParameters* parms);
     // static private System.Boolean MarkAsNotRunnable(NUnit.Framework.Internal.TestMethod testMethod, System.String reason)
-    // Offset: 0x17748B4
+    // Offset: 0x177B0E8
     static bool MarkAsNotRunnable(NUnit::Framework::Internal::TestMethod* testMethod, ::Il2CppString* reason);
     // public System.Void .ctor()
-    // Offset: 0x1762FF4
+    // Offset: 0x1769828
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -34,20 +34,20 @@ namespace System::Net {
     // Creating value type constructor for type: ReadDelegate
     ReadDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16E21FC
+    // Offset: 0x16E7A30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FtpDataStream::ReadDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::FtpDataStream::ReadDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FtpDataStream::ReadDelegate*, creationType>(object, method)));
     }
     // public System.Int32 Invoke(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x16E2DDC
+    // Offset: 0x16E8610
     int Invoke(::Array<uint8_t>* buffer, int offset, int size);
     // public System.IAsyncResult BeginInvoke(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16E220C
+    // Offset: 0x16E7A40
     System::IAsyncResult* BeginInvoke(::Array<uint8_t>* buffer, int offset, int size, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Int32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16E23DC
+    // Offset: 0x16E7C10
     int EndInvoke(System::IAsyncResult* result);
   }; // System.Net.FtpDataStream/System.Net.ReadDelegate
   #pragma pack(pop)

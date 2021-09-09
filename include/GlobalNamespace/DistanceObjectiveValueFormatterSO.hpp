@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: DistanceObjectiveValueFormatterSO
     DistanceObjectiveValueFormatterSO() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x10FC4F0
+    // Offset: 0x10EFF68
     // Implemented from: ObjectiveValueFormatterSO
     // Base method: System.Void ObjectiveValueFormatterSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -36,7 +36,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<DistanceObjectiveValueFormatterSO*, creationType>()));
     }
     // public override System.String FormatValue(System.Int32 value)
-    // Offset: 0x10FC474
+    // Offset: 0x10EFEEC
     // Implemented from: ObjectiveValueFormatterSO
     // Base method: System.String ObjectiveValueFormatterSO::FormatValue(System.Int32 value)
     ::Il2CppString* FormatValue(int value);

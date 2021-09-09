@@ -46,19 +46,19 @@ namespace System::Text {
     // Set static field: static private System.Boolean i18nDisabled
     static void _set_i18nDisabled(bool value);
     // static System.Text.Encoding get_UTF8Unmarked()
-    // Offset: 0x1D7164C
+    // Offset: 0x1D71310
     static System::Text::Encoding* get_UTF8Unmarked();
     // static private System.Void .cctor()
-    // Offset: 0x1D71888
+    // Offset: 0x1D7154C
     static void _cctor();
     // static System.String InternalCodePage(ref System.Int32 code_page)
-    // Offset: 0x1D71884
+    // Offset: 0x1D71548
     static ::Il2CppString* InternalCodePage(ByRef<int> code_page);
     // static System.Text.Encoding GetDefaultEncoding()
-    // Offset: 0x1D6FDA4
+    // Offset: 0x1D6FA68
     static System::Text::Encoding* GetDefaultEncoding();
     // static System.Object InvokeI18N(System.String name, params System.Object[] args)
-    // Offset: 0x1D6E2C4
+    // Offset: 0x1D6DF88
     static ::Il2CppObject* InvokeI18N(::Il2CppString* name, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Object InvokeI18N(System.String name, params System.Object[] args)
     static ::Il2CppObject* InvokeI18N(::Il2CppString* name, std::initializer_list<::Il2CppObject*> args);

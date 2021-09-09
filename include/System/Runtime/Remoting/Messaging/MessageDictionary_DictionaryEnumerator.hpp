@@ -60,29 +60,29 @@ namespace System::Runtime::Remoting::Messaging {
     // Get instance field reference: private System.Int32 _posMethod
     int& dyn__posMethod();
     // public System.Object get_Current()
-    // Offset: 0x1A4E644
+    // Offset: 0x1A51E84
     ::Il2CppObject* get_Current();
     // public System.Collections.DictionaryEntry get_Entry()
-    // Offset: 0x1A4E6B0
+    // Offset: 0x1A51EF0
     System::Collections::DictionaryEntry get_Entry();
     // public System.Object get_Key()
-    // Offset: 0x1A4EAA4
+    // Offset: 0x1A522E4
     ::Il2CppObject* get_Key();
     // public System.Object get_Value()
-    // Offset: 0x1A4EAA8
+    // Offset: 0x1A522E8
     ::Il2CppObject* get_Value();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.MessageDictionary methodDictionary)
-    // Offset: 0x1A4E4E8
+    // Offset: 0x1A51D28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageDictionary::DictionaryEnumerator* New_ctor(System::Runtime::Remoting::Messaging::MessageDictionary* methodDictionary) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::MessageDictionary::DictionaryEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageDictionary::DictionaryEnumerator*, creationType>(methodDictionary)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1A4E824
+    // Offset: 0x1A52064
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1A4E9E8
+    // Offset: 0x1A52228
     void Reset();
   }; // System.Runtime.Remoting.Messaging.MessageDictionary/System.Runtime.Remoting.Messaging.DictionaryEnumerator
   #pragma pack(pop)

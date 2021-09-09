@@ -56,7 +56,7 @@ namespace OVR::OpenVR {
     // Get instance field reference: public System.IntPtr rubTextureMapData
     System::IntPtr& dyn_rubTextureMapData();
     // public System.Void .ctor(OVR.OpenVR.RenderModel_TextureMap_t unpacked)
-    // Offset: 0x12937A0
+    // Offset: 0x12AB65C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RenderModel_TextureMap_t_Packed(OVR::OpenVR::RenderModel_TextureMap_t unpacked) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::RenderModel_TextureMap_t_Packed::.ctor");
@@ -64,7 +64,7 @@ namespace OVR::OpenVR {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, unpacked);
     }
     // public System.Void Unpack(ref OVR.OpenVR.RenderModel_TextureMap_t unpacked)
-    // Offset: 0x12937B4
+    // Offset: 0x12AB670
     void Unpack(ByRef<OVR::OpenVR::RenderModel_TextureMap_t> unpacked);
   }; // OVR.OpenVR.RenderModel_TextureMap_t_Packed
   #pragma pack(pop)

@@ -37,13 +37,13 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: ListExtensions
     ListExtensions() noexcept {}
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE4507C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE4B070
     // Get static field: static private readonly System.Random _random
     static System::Random* _get__random();
     // Set static field: static private readonly System.Random _random
     static void _set__random(System::Random* value);
     // static private System.Void .cctor()
-    // Offset: 0x1201D98
+    // Offset: 0x120877C
     static void _cctor();
     // static public System.Int32 IndexOf(System.Collections.Generic.IReadOnlyList`1<T> self, T item)
     // Offset: 0xFFFFFFFF

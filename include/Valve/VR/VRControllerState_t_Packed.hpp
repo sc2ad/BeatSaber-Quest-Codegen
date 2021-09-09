@@ -96,7 +96,7 @@ namespace Valve::VR {
     // Get instance field reference: public Valve.VR.VRControllerAxis_t rAxis4
     Valve::VR::VRControllerAxis_t& dyn_rAxis4();
     // public System.Void .ctor(Valve.VR.VRControllerState_t unpacked)
-    // Offset: 0x23CA5F4
+    // Offset: 0x23D091C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     VRControllerState_t_Packed(Valve::VR::VRControllerState_t unpacked) {
       static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::VRControllerState_t_Packed::.ctor");
@@ -104,7 +104,7 @@ namespace Valve::VR {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, unpacked);
     }
     // public System.Void Unpack(ref Valve.VR.VRControllerState_t unpacked)
-    // Offset: 0x23CA638
+    // Offset: 0x23D0960
     void Unpack(ByRef<Valve::VR::VRControllerState_t> unpacked);
   }; // Valve.VR.VRControllerState_t_Packed
   #pragma pack(pop)

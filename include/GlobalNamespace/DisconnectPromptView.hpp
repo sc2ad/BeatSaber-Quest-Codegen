@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     HMUI::PanelAnimationSO* dismissPanelAnimation;
     // Field size check
     static_assert(sizeof(HMUI::PanelAnimationSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE438A8
+    // [SpaceAttribute] Offset: 0xE4989C
     // private UnityEngine.GameObject _promptGameObject
     // Size: 0x8
     // Offset: 0x28
@@ -114,31 +114,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly HMUI.ButtonBinder _buttonBinder
     HMUI::ButtonBinder*& dyn__buttonBinder();
     // public System.Void add_didViewFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x10FBFB4
+    // Offset: 0x10EFA2C
     void add_didViewFinishEvent(System::Action_1<bool>* value);
     // public System.Void remove_didViewFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x10FC058
+    // Offset: 0x10EFAD0
     void remove_didViewFinishEvent(System::Action_1<bool>* value);
     // private System.Void OnEnable()
-    // Offset: 0x10FC0FC
+    // Offset: 0x10EFB74
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x10FC1DC
+    // Offset: 0x10EFC54
     void OnDisable();
     // public System.Void Show()
-    // Offset: 0x10FC1F8
+    // Offset: 0x10EFC70
     void Show();
     // public System.Void Hide(System.Action finishedCallback)
-    // Offset: 0x10FC23C
+    // Offset: 0x10EFCB4
     void Hide(System::Action* finishedCallback);
     // private System.Void <OnEnable>b__9_0()
-    // Offset: 0x10FC364
+    // Offset: 0x10EFDDC
     void $OnEnable$b__9_0();
     // private System.Void <OnEnable>b__9_1()
-    // Offset: 0x10FC3C8
+    // Offset: 0x10EFE40
     void $OnEnable$b__9_1();
     // public System.Void .ctor()
-    // Offset: 0x10FC2FC
+    // Offset: 0x10EFD74
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

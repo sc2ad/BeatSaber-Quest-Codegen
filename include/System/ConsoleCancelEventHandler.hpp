@@ -34,20 +34,20 @@ namespace System {
     // Creating value type constructor for type: ConsoleCancelEventHandler
     ConsoleCancelEventHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x19BA960
+    // Offset: 0x19C0194
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConsoleCancelEventHandler* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ConsoleCancelEventHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConsoleCancelEventHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Object sender, System.ConsoleCancelEventArgs e)
-    // Offset: 0x19B9DD8
+    // Offset: 0x19BF60C
     void Invoke(::Il2CppObject* sender, System::ConsoleCancelEventArgs* e);
     // public System.IAsyncResult BeginInvoke(System.Object sender, System.ConsoleCancelEventArgs e, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x19BA970
+    // Offset: 0x19C01A4
     System::IAsyncResult* BeginInvoke(::Il2CppObject* sender, System::ConsoleCancelEventArgs* e, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x19BA9A0
+    // Offset: 0x19C01D4
     void EndInvoke(System::IAsyncResult* result);
   }; // System.ConsoleCancelEventHandler
   #pragma pack(pop)

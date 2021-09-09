@@ -34,7 +34,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorManager : public ::Il2CppObject {
     public:
-    // [InjectAttribute] Offset: 0xE44A0C
+    // [InjectAttribute] Offset: 0xE4AA00
     // private readonly ColorScheme _colorScheme
     // Size: 0x8
     // Offset: 0x10
@@ -50,22 +50,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly ColorScheme _colorScheme
     GlobalNamespace::ColorScheme*& dyn__colorScheme();
     // public UnityEngine.Color get_obstaclesColor()
-    // Offset: 0x10EDC08
+    // Offset: 0x10E1620
     UnityEngine::Color get_obstaclesColor();
     // public UnityEngine.Color ColorForType(ColorType type)
-    // Offset: 0x10EDC28
+    // Offset: 0x10E1640
     UnityEngine::Color ColorForType(GlobalNamespace::ColorType type);
     // public UnityEngine.Color ColorForSaberType(SaberType type)
-    // Offset: 0x10EDC78
+    // Offset: 0x10E1690
     UnityEngine::Color ColorForSaberType(GlobalNamespace::SaberType type);
     // public UnityEngine.Color EffectsColorForSaberType(SaberType type)
-    // Offset: 0x10EDCCC
+    // Offset: 0x10E16E4
     UnityEngine::Color EffectsColorForSaberType(GlobalNamespace::SaberType type);
     // public UnityEngine.Color GetObstacleEffectColor()
-    // Offset: 0x10EDD64
+    // Offset: 0x10E177C
     UnityEngine::Color GetObstacleEffectColor();
     // public System.Void .ctor()
-    // Offset: 0x10EDDC8
+    // Offset: 0x10E17E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

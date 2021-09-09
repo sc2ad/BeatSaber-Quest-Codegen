@@ -106,12 +106,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::PlatformInternal::MessageTypeInternal _get_GraphAPI_Post();
     // Set static field: static public Oculus.Platform.PlatformInternal/Oculus.Platform.MessageTypeInternal GraphAPI_Post
     static void _set_GraphAPI_Post(Oculus::Platform::PlatformInternal::MessageTypeInternal value);
-    // static field const value: static public Oculus.Platform.PlatformInternal/Oculus.Platform.MessageTypeInternal GroupPresence_LaunchInvitePanel
-    static constexpr const uint GroupPresence_LaunchInvitePanel = 262066079u;
-    // Get static field: static public Oculus.Platform.PlatformInternal/Oculus.Platform.MessageTypeInternal GroupPresence_LaunchInvitePanel
-    static Oculus::Platform::PlatformInternal::MessageTypeInternal _get_GroupPresence_LaunchInvitePanel();
-    // Set static field: static public Oculus.Platform.PlatformInternal/Oculus.Platform.MessageTypeInternal GroupPresence_LaunchInvitePanel
-    static void _set_GroupPresence_LaunchInvitePanel(Oculus::Platform::PlatformInternal::MessageTypeInternal value);
     // static field const value: static public Oculus.Platform.PlatformInternal/Oculus.Platform.MessageTypeInternal HTTP_Get
     static constexpr const uint HTTP_Get = 1874211363u;
     // Get static field: static public Oculus.Platform.PlatformInternal/Oculus.Platform.MessageTypeInternal HTTP_Get

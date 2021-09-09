@@ -60,25 +60,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private MissionStage _firstLockedMissionStage
     GlobalNamespace::MissionStage*& dyn__firstLockedMissionStage();
     // public MissionStage get_firstLockedMissionStage()
-    // Offset: 0x11DA6D0
+    // Offset: 0x1147890
     GlobalNamespace::MissionStage* get_firstLockedMissionStage();
     // public System.Void UpdateFirtsLockedMissionStage(System.Int32 numberOfClearedMissions)
-    // Offset: 0x11D6FB4
+    // Offset: 0x1144174
     void UpdateFirtsLockedMissionStage(int numberOfClearedMissions);
     // public System.Void InitStages()
-    // Offset: 0x11DA6D8
+    // Offset: 0x1147898
     void InitStages();
     // public System.Void UpdateStageLockPosition()
-    // Offset: 0x11D7260
+    // Offset: 0x1144420
     void UpdateStageLockPosition();
     // public System.Void UpdateStageLockPositionAnimated(System.Boolean animated, System.Single animationDuration)
-    // Offset: 0x11D520C
+    // Offset: 0x11423CC
     void UpdateStageLockPositionAnimated(bool animated, float animationDuration);
     // public System.Void UpdateStageLockText(System.Int32 numberOfClearedMissions)
-    // Offset: 0x11D704C
+    // Offset: 0x114420C
     void UpdateStageLockText(int numberOfClearedMissions);
     // public System.Void .ctor()
-    // Offset: 0x11DA800
+    // Offset: 0x11479C0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

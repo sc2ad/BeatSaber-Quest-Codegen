@@ -48,10 +48,10 @@ namespace Zenject {
     // Get instance field reference: public System.Text.RegularExpressions.Regex regex
     System::Text::RegularExpressions::Regex*& dyn_regex();
     // System.Boolean <MatchingRegex>b__0(System.Type t)
-    // Offset: 0x13E24C4
+    // Offset: 0x13E9480
     bool $MatchingRegex$b__0(System::Type* t);
     // public System.Void .ctor()
-    // Offset: 0x13E2284
+    // Offset: 0x13E9240
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

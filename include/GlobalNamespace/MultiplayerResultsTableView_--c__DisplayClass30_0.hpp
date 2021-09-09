@@ -54,13 +54,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public MultiplayerResultsTableCell cell
     GlobalNamespace::MultiplayerResultsTableCell*& dyn_cell();
     // System.Void <StartAnimation>b__0(UnityEngine.Vector2 val)
-    // Offset: 0x1036740
+    // Offset: 0x103F2DC
     void $StartAnimation$b__0(UnityEngine::Vector2 val);
     // System.Void <StartAnimation>b__2(System.Single val)
-    // Offset: 0x103675C
+    // Offset: 0x103F2F8
     void $StartAnimation$b__2(float val);
     // public System.Void .ctor()
-    // Offset: 0x103653C
+    // Offset: 0x103F0D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

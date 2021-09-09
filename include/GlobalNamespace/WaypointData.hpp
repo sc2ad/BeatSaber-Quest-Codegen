@@ -50,39 +50,39 @@ namespace GlobalNamespace {
     // Get instance field reference: private NoteLineLayer <noteLineLayer>k__BackingField
     GlobalNamespace::NoteLineLayer& dyn_$noteLineLayer$k__BackingField();
     // public OffsetDirection get_offsetDirection()
-    // Offset: 0x240DD8C
+    // Offset: 0x240AAD8
     GlobalNamespace::OffsetDirection get_offsetDirection();
     // private System.Void set_offsetDirection(OffsetDirection value)
-    // Offset: 0x240DD94
+    // Offset: 0x240AAE0
     void set_offsetDirection(GlobalNamespace::OffsetDirection value);
     // public NoteLineLayer get_noteLineLayer()
-    // Offset: 0x240DD9C
+    // Offset: 0x240AAE8
     GlobalNamespace::NoteLineLayer get_noteLineLayer();
     // private System.Void set_noteLineLayer(NoteLineLayer value)
-    // Offset: 0x240DDA4
+    // Offset: 0x240AAF0
     void set_noteLineLayer(GlobalNamespace::NoteLineLayer value);
     // public System.Void .ctor(System.Single time, System.Int32 lineIndex, NoteLineLayer noteLineLayer, OffsetDirection offsetDirection)
-    // Offset: 0x240DE24
+    // Offset: 0x240AB70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WaypointData* New_ctor(float time, int lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer, GlobalNamespace::OffsetDirection offsetDirection) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::WaypointData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WaypointData*, creationType>(time, lineIndex, noteLineLayer, offsetDirection)));
     }
     // private System.Void MirrorTransformOffsetDirection()
-    // Offset: 0x240DE88
+    // Offset: 0x240ABD4
     void MirrorTransformOffsetDirection();
     // public override BeatmapObjectType get_beatmapObjectType()
-    // Offset: 0x240DD84
+    // Offset: 0x240AAD0
     // Implemented from: BeatmapObjectData
     // Base method: BeatmapObjectType BeatmapObjectData::get_beatmapObjectType()
     GlobalNamespace::BeatmapObjectType get_beatmapObjectType();
     // public override BeatmapObjectData GetCopy()
-    // Offset: 0x240DDAC
+    // Offset: 0x240AAF8
     // Implemented from: BeatmapObjectData
     // Base method: BeatmapObjectData BeatmapObjectData::GetCopy()
     GlobalNamespace::BeatmapObjectData* GetCopy();
     // public override System.Void Mirror(System.Int32 lineCount)
-    // Offset: 0x240DE74
+    // Offset: 0x240ABC0
     // Implemented from: BeatmapObjectData
     // Base method: System.Void BeatmapObjectData::Mirror(System.Int32 lineCount)
     void Mirror(int lineCount);

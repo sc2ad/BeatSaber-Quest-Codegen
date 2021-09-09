@@ -98,37 +98,37 @@ namespace System::Security::Util {
     // Get instance field reference: private System.Int32 m_indexStrings
     int& dyn_m_indexStrings();
     // System.Void AddToken(System.Int16 token)
-    // Offset: 0x1C02EB4
+    // Offset: 0x1C2E04C
     void AddToken(int16_t token);
     // System.Void AddString(System.String str)
-    // Offset: 0x1C035F4
+    // Offset: 0x1C2E78C
     void AddString(::Il2CppString* str);
     // System.Void Reset()
-    // Offset: 0x1C03D28
+    // Offset: 0x1C2EEC0
     void Reset();
     // System.Int16 GetNextFullToken()
-    // Offset: 0x1C03D44
+    // Offset: 0x1C2EEDC
     int16_t GetNextFullToken();
     // System.Int16 GetNextToken()
-    // Offset: 0x1C03DC0
+    // Offset: 0x1C2EF58
     int16_t GetNextToken();
     // System.String GetNextString()
-    // Offset: 0x1C03DD8
+    // Offset: 0x1C2EF70
     ::Il2CppString* GetNextString();
     // System.Void ThrowAwayNextString()
-    // Offset: 0x1C03E50
+    // Offset: 0x1C2EFE8
     void ThrowAwayNextString();
     // System.Void TagLastToken(System.Int16 tag)
-    // Offset: 0x1C03E54
+    // Offset: 0x1C2EFEC
     void TagLastToken(int16_t tag);
     // System.Int32 GetTokenCount()
-    // Offset: 0x1C03ED4
+    // Offset: 0x1C2F06C
     int GetTokenCount();
     // System.Void GoToPosition(System.Int32 position)
-    // Offset: 0x1C03EDC
+    // Offset: 0x1C2F074
     void GoToPosition(int position);
     // System.Void .ctor()
-    // Offset: 0x1C03C30
+    // Offset: 0x1C2EDC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

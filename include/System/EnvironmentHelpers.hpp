@@ -17,7 +17,7 @@ namespace System {
     // Creating value type constructor for type: EnvironmentHelpers
     EnvironmentHelpers() noexcept {}
     // static System.Boolean IsWindowsVistaOrAbove()
-    // Offset: 0x18B2A24
+    // Offset: 0x18BA258
     static bool IsWindowsVistaOrAbove();
   }; // System.EnvironmentHelpers
   #pragma pack(pop)

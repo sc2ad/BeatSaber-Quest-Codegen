@@ -40,16 +40,16 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.GameObject[] _gameObjects
     ::Array<UnityEngine::GameObject*>*& dyn__gameObjects();
     // protected System.Void Awake()
-    // Offset: 0x1257318
+    // Offset: 0x125BCE0
     void Awake();
     // private System.Void OnBecameVisible()
-    // Offset: 0x1257388
+    // Offset: 0x125BD50
     void OnBecameVisible();
     // private System.Void OnBecameInvisible()
-    // Offset: 0x12573F8
+    // Offset: 0x125BDC0
     void OnBecameInvisible();
     // public System.Void .ctor()
-    // Offset: 0x1257468
+    // Offset: 0x125BE30
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

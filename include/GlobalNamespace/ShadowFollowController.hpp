@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     UnityEngine::Transform* shadowTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [NullAllowed] Offset: 0xE328D0
+    // [NullAllowed] Offset: 0xE38840
     // private UnityEngine.Transform _targetTransform
     // Size: 0x8
     // Offset: 0x20
@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     UnityEngine::SpriteRenderer* shadowSpriteRenderer;
     // Field size check
     static_assert(sizeof(UnityEngine::SpriteRenderer*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE32918
+    // [SpaceAttribute] Offset: 0xE38888
     // private UnityEngine.Vector2 _shadowHeightRange
     // Size: 0x8
     // Offset: 0x30
@@ -86,13 +86,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector2 _shadowAlphaRange
     UnityEngine::Vector2& dyn__shadowAlphaRange();
     // public System.Void SetTargetTransform(UnityEngine.Transform target)
-    // Offset: 0x1078A20
+    // Offset: 0x10954A0
     void SetTargetTransform(UnityEngine::Transform* target);
     // protected System.Void Update()
-    // Offset: 0x1078A28
+    // Offset: 0x10954A8
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1078BC4
+    // Offset: 0x1095644
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -57,10 +57,10 @@ namespace OnlineServices::API {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<OnlineServices.API.Response> <>u__1
     System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::Response>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x1029304
+    // Offset: 0x1030B40
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x10294D8
+    // Offset: 0x1030D14
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.API.TestApiLeaderboardsModel/OnlineServices.API.<SendLevelScoreResultAsync>d__2
   // WARNING Not writing size check since size may be invalid!

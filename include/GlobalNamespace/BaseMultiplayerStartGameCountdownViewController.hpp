@@ -92,22 +92,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly HMUI.ToggleBinder _toggleBinder
     HMUI::ToggleBinder*& dyn__toggleBinder();
     // public System.Void add_playerActiveStateChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x11E446C
+    // Offset: 0x11DA55C
     void add_playerActiveStateChangedEvent(System::Action_1<bool>* value);
     // public System.Void remove_playerActiveStateChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x11E4510
+    // Offset: 0x11DA600
     void remove_playerActiveStateChangedEvent(System::Action_1<bool>* value);
     // public System.Void SetLevelGameplaySetupData(ILevelGameplaySetupData levelGameplaySetupData)
-    // Offset: 0x11E45B4
+    // Offset: 0x11DA6A4
     void SetLevelGameplaySetupData(GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
     // public System.Void SetLobbyPlayerData(ILobbyPlayerData lobbyPlayerData)
-    // Offset: 0x11E47E8
+    // Offset: 0x11DA8D8
     void SetLobbyPlayerData(GlobalNamespace::ILobbyPlayerData* lobbyPlayerData);
     // private System.Void <DidActivate>b__9_0(System.Boolean value)
-    // Offset: 0x11E49FC
+    // Offset: 0x11DAAEC
     void $DidActivate$b__9_0(bool value);
     // public System.Void .ctor()
-    // Offset: 0x11E4994
+    // Offset: 0x11DAA84
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -121,17 +121,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BaseMultiplayerStartGameCountdownViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x11E48C0
+    // Offset: 0x11DA9B0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x11E495C
+    // Offset: 0x11DAA4C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x11E4978
+    // Offset: 0x11DAA68
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();

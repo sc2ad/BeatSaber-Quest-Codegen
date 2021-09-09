@@ -79,7 +79,7 @@ namespace GlobalNamespace {
     // Get instance field reference: protected OVRPose lastAttachedNodePose
     GlobalNamespace::OVRPose& dyn_lastAttachedNodePose();
     // protected System.Void .ctor(UnityEngine.GameObject parentObject, UnityEngine.Camera mainCamera, OVRMixedRealityCaptureConfiguration configuration)
-    // Offset: 0x1296D38
+    // Offset: 0x12AEBF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRComposition* New_ctor(UnityEngine::GameObject* parentObject, UnityEngine::Camera* mainCamera, GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRComposition::.ctor");
@@ -95,16 +95,16 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void Cleanup();
     // public System.Void RecenterPose()
-    // Offset: 0x1296F24
+    // Offset: 0x12AEDE0
     void RecenterPose();
     // public System.Void RefreshCameraRig(UnityEngine.GameObject parentObject, UnityEngine.Camera mainCamera)
-    // Offset: 0x1296D78
+    // Offset: 0x12AEC34
     void RefreshCameraRig(UnityEngine::GameObject* parentObject, UnityEngine::Camera* mainCamera);
     // public OVRPose ComputeCameraWorldSpacePose(OVRPlugin/CameraExtrinsics extrinsics)
-    // Offset: 0x1296F28
+    // Offset: 0x12AEDE4
     GlobalNamespace::OVRPose ComputeCameraWorldSpacePose(GlobalNamespace::OVRPlugin::CameraExtrinsics extrinsics);
     // public OVRPose ComputeCameraTrackingSpacePose(OVRPlugin/CameraExtrinsics extrinsics)
-    // Offset: 0x1296F7C
+    // Offset: 0x12AEE38
     GlobalNamespace::OVRPose ComputeCameraTrackingSpacePose(GlobalNamespace::OVRPlugin::CameraExtrinsics extrinsics);
   }; // OVRComposition
   #pragma pack(pop)

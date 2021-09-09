@@ -48,17 +48,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<System.String> _environmentKeywordsSet
     System::Collections::Generic::HashSet_1<::Il2CppString*>*& dyn__environmentKeywordsSet();
     // public System.Collections.Generic.IReadOnlyList`1<System.String> get_environmentKeywords()
-    // Offset: 0x1051E38
+    // Offset: 0x1057DF8
     System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* get_environmentKeywords();
     // public System.Void .ctor(System.Collections.Generic.IReadOnlyList`1<System.String> environmentKeywords)
-    // Offset: 0x1051E40
+    // Offset: 0x1057E00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentKeywords* New_ctor(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* environmentKeywords) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnvironmentKeywords::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentKeywords*, creationType>(environmentKeywords)));
     }
     // public System.Boolean HasKeyword(System.String keyword)
-    // Offset: 0x1051F1C
+    // Offset: 0x1057EDC
     bool HasKeyword(::Il2CppString* keyword);
   }; // EnvironmentKeywords
   #pragma pack(pop)

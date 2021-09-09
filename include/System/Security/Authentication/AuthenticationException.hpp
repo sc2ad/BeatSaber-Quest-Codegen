@@ -34,7 +34,7 @@ namespace System::Security::Authentication {
     // Creating value type constructor for type: AuthenticationException
     AuthenticationException() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x15DCAD8
+    // Offset: 0x15E630C
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
@@ -45,7 +45,7 @@ namespace System::Security::Authentication {
       return THROW_UNLESS((::il2cpp_utils::New<AuthenticationException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x15DCB38
+    // Offset: 0x15E636C
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
@@ -55,7 +55,7 @@ namespace System::Security::Authentication {
       return THROW_UNLESS((::il2cpp_utils::New<AuthenticationException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0x15DCB40
+    // Offset: 0x15E6374
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception innerException)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
@@ -65,7 +65,7 @@ namespace System::Security::Authentication {
       return THROW_UNLESS((::il2cpp_utils::New<AuthenticationException*, creationType>(message, innerException)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x15DCB48
+    // Offset: 0x15E637C
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)

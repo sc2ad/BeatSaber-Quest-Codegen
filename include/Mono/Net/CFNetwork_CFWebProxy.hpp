@@ -66,28 +66,28 @@ namespace Mono::Net {
     // Get instance field reference: private System.Boolean userSpecified
     bool& dyn_userSpecified();
     // public System.Net.ICredentials get_Credentials()
-    // Offset: 0x15E31B4
+    // Offset: 0x15EC9E8
     System::Net::ICredentials* get_Credentials();
     // static private System.Uri GetProxyUri(Mono.Net.CFProxy proxy, out System.Net.NetworkCredential credentials)
-    // Offset: 0x15E31BC
+    // Offset: 0x15EC9F0
     static System::Uri* GetProxyUri(Mono::Net::CFProxy* proxy, ByRef<System::Net::NetworkCredential*> credentials);
     // static private System.Uri GetProxyUriFromScript(System.IntPtr script, System.Uri targetUri, out System.Net.NetworkCredential credentials)
-    // Offset: 0x15E3728
+    // Offset: 0x15ECF5C
     static System::Uri* GetProxyUriFromScript(System::IntPtr script, System::Uri* targetUri, ByRef<System::Net::NetworkCredential*> credentials);
     // static private System.Uri ExecuteProxyAutoConfigurationURL(System.IntPtr proxyAutoConfigURL, System.Uri targetUri, out System.Net.NetworkCredential credentials)
-    // Offset: 0x15E3874
+    // Offset: 0x15ED0A8
     static System::Uri* ExecuteProxyAutoConfigurationURL(System::IntPtr proxyAutoConfigURL, System::Uri* targetUri, ByRef<System::Net::NetworkCredential*> credentials);
     // static private System.Uri SelectProxy(Mono.Net.CFProxy[] proxies, System.Uri targetUri, out System.Net.NetworkCredential credentials)
-    // Offset: 0x15E37AC
+    // Offset: 0x15ECFE0
     static System::Uri* SelectProxy(::Array<Mono::Net::CFProxy*>* proxies, System::Uri* targetUri, ByRef<System::Net::NetworkCredential*> credentials);
     // public System.Uri GetProxy(System.Uri targetUri)
-    // Offset: 0x15E38F8
+    // Offset: 0x15ED12C
     System::Uri* GetProxy(System::Uri* targetUri);
     // public System.Boolean IsBypassed(System.Uri targetUri)
-    // Offset: 0x15E3DBC
+    // Offset: 0x15ED5F0
     bool IsBypassed(System::Uri* targetUri);
     // public System.Void .ctor()
-    // Offset: 0x15E2C40
+    // Offset: 0x15EC474
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

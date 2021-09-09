@@ -111,14 +111,14 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(MultiplayerLevelLoader::MultiplayerBeatmapLoaderState), 0 + sizeof(int)> __GlobalNamespace_MultiplayerLevelLoader_MultiplayerBeatmapLoaderStateSizeCheck;
     static_assert(sizeof(MultiplayerLevelLoader::MultiplayerBeatmapLoaderState) == 0x4);
-    // [InjectAttribute] Offset: 0xE408BC
+    // [InjectAttribute] Offset: 0xE4683C
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE408CC
+    // [InjectAttribute] Offset: 0xE4684C
     // private readonly BeatmapLevelsModel _beatmapLevelsModel
     // Size: 0x8
     // Offset: 0x18
@@ -234,34 +234,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _stillDownloadingCalled
     bool& dyn__stillDownloadingCalled();
     // public System.Void add_stillDownloadingSongEvent(System.Action value)
-    // Offset: 0x11B57BC
+    // Offset: 0x107B078
     void add_stillDownloadingSongEvent(System::Action* value);
     // public System.Void remove_stillDownloadingSongEvent(System.Action value)
-    // Offset: 0x11B5860
+    // Offset: 0x107B11C
     void remove_stillDownloadingSongEvent(System::Action* value);
     // public System.Void add_countdownFinishedEvent(System.Action`5<IPreviewBeatmapLevel,BeatmapDifficulty,BeatmapCharacteristicSO,IDifficultyBeatmap,GameplayModifiers> value)
-    // Offset: 0x11B5904
+    // Offset: 0x107B1C0
     void add_countdownFinishedEvent(System::Action_5<GlobalNamespace::IPreviewBeatmapLevel*, GlobalNamespace::BeatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void remove_countdownFinishedEvent(System.Action`5<IPreviewBeatmapLevel,BeatmapDifficulty,BeatmapCharacteristicSO,IDifficultyBeatmap,GameplayModifiers> value)
-    // Offset: 0x11B59A8
+    // Offset: 0x107B264
     void remove_countdownFinishedEvent(System::Action_5<GlobalNamespace::IPreviewBeatmapLevel*, GlobalNamespace::BeatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void LoadLevel(BeatmapIdentifierNetSerializable beatmapId, GameplayModifiers gameplayModifiers, System.Single initialStartTime)
-    // Offset: 0x11B5A4C
+    // Offset: 0x107B308
     void LoadLevel(GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, GlobalNamespace::GameplayModifiers* gameplayModifiers, float initialStartTime);
     // public System.Void SetNewStartTime(System.Single newStartTime)
-    // Offset: 0x11B5C14
+    // Offset: 0x107B4D0
     void SetNewStartTime(float newStartTime);
     // public System.Void ClearLoading()
-    // Offset: 0x11B5C1C
+    // Offset: 0x107B4D8
     void ClearLoading();
     // public System.Void Tick()
-    // Offset: 0x11B5C60
+    // Offset: 0x107B51C
     void Tick();
     // private System.Boolean <LoadLevel>b__19_0(PreviewDifficultyBeatmapSet set)
-    // Offset: 0x11B5F04
+    // Offset: 0x107B7C0
     bool $LoadLevel$b__19_0(GlobalNamespace::PreviewDifficultyBeatmapSet* set);
     // public System.Void .ctor()
-    // Offset: 0x11B5EFC
+    // Offset: 0x107B7B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

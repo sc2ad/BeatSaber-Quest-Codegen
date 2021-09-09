@@ -29,56 +29,56 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: DisconnectedReasonMethods
     DisconnectedReasonMethods() noexcept {}
-    // [LocalizationKeyAttribute] Offset: 0xE345E8
+    // [LocalizationKeyAttribute] Offset: 0xE3A558
     // static field const value: static private System.String kDisconnectedUnknown
     static constexpr const char* kDisconnectedUnknown = "DISCONNECTED_UNKNOWN";
     // Get static field: static private System.String kDisconnectedUnknown
     static ::Il2CppString* _get_kDisconnectedUnknown();
     // Set static field: static private System.String kDisconnectedUnknown
     static void _set_kDisconnectedUnknown(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xE345F8
+    // [LocalizationKeyAttribute] Offset: 0xE3A568
     // static field const value: static private System.String kDisconnectedUserInitiated
     static constexpr const char* kDisconnectedUserInitiated = "DISCONNECTED_USER_INITIATED";
     // Get static field: static private System.String kDisconnectedUserInitiated
     static ::Il2CppString* _get_kDisconnectedUserInitiated();
     // Set static field: static private System.String kDisconnectedUserInitiated
     static void _set_kDisconnectedUserInitiated(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xE34608
+    // [LocalizationKeyAttribute] Offset: 0xE3A578
     // static field const value: static private System.String kDisconnectedTimeout
     static constexpr const char* kDisconnectedTimeout = "DISCONNECTED_TIMEOUT";
     // Get static field: static private System.String kDisconnectedTimeout
     static ::Il2CppString* _get_kDisconnectedTimeout();
     // Set static field: static private System.String kDisconnectedTimeout
     static void _set_kDisconnectedTimeout(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xE34618
+    // [LocalizationKeyAttribute] Offset: 0xE3A588
     // static field const value: static private System.String kDisconnectedKicked
     static constexpr const char* kDisconnectedKicked = "DISCONNECTED_KICKED";
     // Get static field: static private System.String kDisconnectedKicked
     static ::Il2CppString* _get_kDisconnectedKicked();
     // Set static field: static private System.String kDisconnectedKicked
     static void _set_kDisconnectedKicked(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xE34628
+    // [LocalizationKeyAttribute] Offset: 0xE3A598
     // static field const value: static private System.String kDisconnectedServerAtCapacity
     static constexpr const char* kDisconnectedServerAtCapacity = "DISCONNECTED_SERVER_AT_CAPACITY";
     // Get static field: static private System.String kDisconnectedServerAtCapacity
     static ::Il2CppString* _get_kDisconnectedServerAtCapacity();
     // Set static field: static private System.String kDisconnectedServerAtCapacity
     static void _set_kDisconnectedServerAtCapacity(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xE34638
+    // [LocalizationKeyAttribute] Offset: 0xE3A5A8
     // static field const value: static private System.String kDisconnectedServerConnectionClosed
     static constexpr const char* kDisconnectedServerConnectionClosed = "DISCONNECTED_SERVER_SHUT_DOWN";
     // Get static field: static private System.String kDisconnectedServerConnectionClosed
     static ::Il2CppString* _get_kDisconnectedServerConnectionClosed();
     // Set static field: static private System.String kDisconnectedServerConnectionClosed
     static void _set_kDisconnectedServerConnectionClosed(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xE34648
+    // [LocalizationKeyAttribute] Offset: 0xE3A5B8
     // static field const value: static private System.String kDisconnectedMasterServerUnreachable
     static constexpr const char* kDisconnectedMasterServerUnreachable = "DISCONNECTED_MASTER_SERVER_UNREACHABLE";
     // Get static field: static private System.String kDisconnectedMasterServerUnreachable
     static ::Il2CppString* _get_kDisconnectedMasterServerUnreachable();
     // Set static field: static private System.String kDisconnectedMasterServerUnreachable
     static void _set_kDisconnectedMasterServerUnreachable(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xE34658
+    // [LocalizationKeyAttribute] Offset: 0xE3A5C8
     // static field const value: static private System.String kDisconnectedServerTerminated
     static constexpr const char* kDisconnectedServerTerminated = "DISCONNECTED_SERVER_SHUT_DOWN";
     // Get static field: static private System.String kDisconnectedServerTerminated
@@ -86,10 +86,10 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kDisconnectedServerTerminated
     static void _set_kDisconnectedServerTerminated(::Il2CppString* value);
     // static public System.String LocalizedKey(DisconnectedReason connectionFailedReason)
-    // Offset: 0x10F2AB4
+    // Offset: 0x10E64CC
     static ::Il2CppString* LocalizedKey(GlobalNamespace::DisconnectedReason connectionFailedReason);
     // static public System.String ErrorCode(DisconnectedReason disconnectedReason)
-    // Offset: 0x10F2B1C
+    // Offset: 0x10E6534
     static ::Il2CppString* ErrorCode(GlobalNamespace::DisconnectedReason disconnectedReason);
   }; // DisconnectedReasonMethods
   #pragma pack(pop)

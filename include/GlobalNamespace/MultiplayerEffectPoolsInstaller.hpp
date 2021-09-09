@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private NoteDebris _noteDebrisLWPrefab
     GlobalNamespace::NoteDebris*& dyn__noteDebrisLWPrefab();
     // public System.Void .ctor()
-    // Offset: 0x11AFDA0
+    // Offset: 0x11D2BF8
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -71,7 +71,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerEffectPoolsInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x11AFCF0
+    // Offset: 0x11D2B48
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

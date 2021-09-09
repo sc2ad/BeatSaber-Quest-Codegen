@@ -49,10 +49,10 @@ namespace Mono::Http {
     // Get instance field reference: private Mono.Security.Protocol.Ntlm.MessageBase message
     Mono::Security::Protocol::Ntlm::MessageBase*& dyn_message();
     // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x15E0894
+    // Offset: 0x15EA0C8
     System::Net::Authorization* Authenticate(::Il2CppString* challenge, System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // public System.Void .ctor()
-    // Offset: 0x15E0E60
+    // Offset: 0x15EA694
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

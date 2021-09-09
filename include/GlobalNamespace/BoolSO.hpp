@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BoolSO
     BoolSO() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1257CC0
+    // Offset: 0x125C688
     // Implemented from: ObservableVariableSO`1
     // Base method: System.Void ObservableVariableSO_1::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

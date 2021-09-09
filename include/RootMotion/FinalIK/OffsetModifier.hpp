@@ -36,7 +36,7 @@ namespace RootMotion::FinalIK {
     class OffsetLimits;
     // Nested type: RootMotion::FinalIK::OffsetModifier::$Initiate$d__8
     class $Initiate$d__8;
-    // [TooltipAttribute] Offset: 0xE28294
+    // [TooltipAttribute] Offset: 0xE2E204
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x18
@@ -45,7 +45,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: weight and: ik
     char __padding0[0x4] = {};
-    // [TooltipAttribute] Offset: 0xE282CC
+    // [TooltipAttribute] Offset: 0xE2E23C
     // public RootMotion.FinalIK.FullBodyBipedIK ik
     // Size: 0x8
     // Offset: 0x20
@@ -69,28 +69,28 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: protected System.Single lastTime
     float& dyn_lastTime();
     // protected System.Single get_deltaTime()
-    // Offset: 0x1AD7F34
+    // Offset: 0x1ADB6E4
     float get_deltaTime();
     // protected System.Void OnModifyOffset()
     // Offset: 0xFFFFFFFF
     void OnModifyOffset();
     // protected System.Void Start()
-    // Offset: 0x1AD7F60
+    // Offset: 0x1ADB710
     void Start();
     // private System.Collections.IEnumerator Initiate()
-    // Offset: 0x1AD7F8C
+    // Offset: 0x1ADB73C
     System::Collections::IEnumerator* Initiate();
     // private System.Void ModifyOffset()
-    // Offset: 0x1AD8028
+    // Offset: 0x1ADB7D8
     void ModifyOffset();
     // protected System.Void ApplyLimits(RootMotion.FinalIK.OffsetModifier/RootMotion.FinalIK.OffsetLimits[] limits)
-    // Offset: 0x1AD8134
+    // Offset: 0x1ADB8E4
     void ApplyLimits(::Array<RootMotion::FinalIK::OffsetModifier::OffsetLimits*>* limits);
     // protected System.Void OnDestroy()
-    // Offset: 0x1AD8450
+    // Offset: 0x1ADBC00
     void OnDestroy();
     // protected System.Void .ctor()
-    // Offset: 0x1AD8548
+    // Offset: 0x1ADBCF8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

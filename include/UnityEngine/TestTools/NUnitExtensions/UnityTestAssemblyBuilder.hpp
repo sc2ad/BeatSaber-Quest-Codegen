@@ -64,16 +64,16 @@ namespace UnityEngine::TestTools::NUnitExtensions {
     // Get instance field reference: private readonly System.String m_ProductName
     ::Il2CppString*& dyn_m_ProductName();
     // public NUnit.Framework.Interfaces.ITest Build(System.Reflection.Assembly[] assemblies, UnityEngine.TestTools.TestPlatform[] testPlatforms, System.Collections.Generic.IDictionary`2<System.String,System.Object> options)
-    // Offset: 0x14B8FC4
+    // Offset: 0x14C0F80
     NUnit::Framework::Interfaces::ITest* Build(::Array<System::Reflection::Assembly*>* assemblies, ::Array<UnityEngine::TestTools::TestPlatform>* testPlatforms, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>* options);
     // public System.Collections.Generic.IEnumerator`1<NUnit.Framework.Interfaces.ITest> BuildAsync(System.Reflection.Assembly[] assemblies, UnityEngine.TestTools.TestPlatform[] testPlatforms, System.Collections.Generic.IDictionary`2<System.String,System.Object> options)
-    // Offset: 0x14C2DC8
+    // Offset: 0x14CAD84
     System::Collections::Generic::IEnumerator_1<NUnit::Framework::Interfaces::ITest*>* BuildAsync(::Array<System::Reflection::Assembly*>* assemblies, ::Array<UnityEngine::TestTools::TestPlatform>* testPlatforms, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>* options);
     // static public System.Collections.Generic.Dictionary`2<System.String,System.Object> GetNUnitTestBuilderSettings(UnityEngine.TestTools.TestPlatform testPlatform)
-    // Offset: 0x14C2E84
+    // Offset: 0x14CAE40
     static System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* GetNUnitTestBuilderSettings(UnityEngine::TestTools::TestPlatform testPlatform);
     // public System.Void .ctor()
-    // Offset: 0x14C2D50
+    // Offset: 0x14CAD0C
     // Implemented from: NUnit.Framework.Api.DefaultTestAssemblyBuilder
     // Base method: System.Void DefaultTestAssemblyBuilder::.ctor()
     // Base method: System.Void Object::.ctor()

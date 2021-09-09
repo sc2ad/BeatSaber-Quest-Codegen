@@ -240,19 +240,19 @@ namespace MasterServer {
       // Get instance field reference: public readonly System.UInt32 requestId
       uint& dyn_requestId();
       // public System.Void .ctor(System.Net.IPEndPoint endPoint, System.UInt32 requestId)
-      // Offset: 0x121ABB0
+      // Offset: 0x12204B0
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  RequestWaiterId(System::Net::IPEndPoint* endPoint, uint requestId)
       // public System.Boolean Equals(MasterServer.MessageHandler/MasterServer.RequestWaiterId other)
-      // Offset: 0x121EE2C
+      // Offset: 0x1224730
       bool Equals(MasterServer::MessageHandler::RequestWaiterId other);
       // public override System.Boolean Equals(System.Object other)
-      // Offset: 0x121EE70
+      // Offset: 0x1224774
       // Implemented from: System.ValueType
       // Base method: System.Boolean ValueType::Equals(System.Object other)
       bool Equals(::Il2CppObject* other);
       // public override System.Int32 GetHashCode()
-      // Offset: 0x121EF08
+      // Offset: 0x122480C
       // Implemented from: System.ValueType
       // Base method: System.Int32 ValueType::GetHashCode()
       int GetHashCode();
@@ -291,7 +291,7 @@ namespace MasterServer {
       // Get instance field reference: public readonly System.UInt32 protocolVersion
       uint& dyn_protocolVersion();
       // public System.Void .ctor(System.Net.IPEndPoint endPoint, System.UInt32 protocolVersion)
-      // Offset: 0x121C158
+      // Offset: 0x1221A5C
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  MessageOrigin(System::Net::IPEndPoint* endPoint, uint protocolVersion)
     }; // MasterServer.MessageHandler/MasterServer.MessageOrigin
@@ -677,7 +677,7 @@ namespace MasterServer {
     // Set static field: static private System.UInt32 kDedicatedServerMessageType
     static void _set_kDedicatedServerMessageType(uint value);
     // static field const value: static protected System.UInt32 kProtocolVersion
-    static constexpr const uint kProtocolVersion = 4u;
+    static constexpr const uint kProtocolVersion = 5u;
     // Get static field: static protected System.UInt32 kProtocolVersion
     static uint _get_kProtocolVersion();
     // Set static field: static protected System.UInt32 kProtocolVersion
@@ -789,74 +789,74 @@ namespace MasterServer {
     // Get instance field reference: private readonly System.Threading.CancellationTokenSource _disposedTokenSource
     System::Threading::CancellationTokenSource*& dyn__disposedTokenSource();
     // protected PacketEncryptionLayer get_encryptionLayer()
-    // Offset: 0x1213618
+    // Offset: 0x1218F18
     GlobalNamespace::PacketEncryptionLayer* get_encryptionLayer();
     // protected MasterServer.ITimeProvider get_timeProvider()
-    // Offset: 0x1218020
+    // Offset: 0x121D920
     MasterServer::ITimeProvider* get_timeProvider();
     // protected System.Void .ctor(IUnconnectedSenderReceiver sender, MasterServer.ITimeProvider timeProvider, MasterServer.IAnalyticsManager analytics)
-    // Offset: 0x1218028
+    // Offset: 0x121D928
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageHandler* New_ctor(GlobalNamespace::IUnconnectedSenderReceiver* sender, MasterServer::ITimeProvider* timeProvider, MasterServer::IAnalyticsManager* analytics) {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageHandler*, creationType>(sender, timeProvider, analytics)));
     }
     // private System.Void RegisterHandshakeMessageHandlers()
-    // Offset: 0x12182E8
+    // Offset: 0x121DBE8
     void RegisterHandshakeMessageHandlers();
     // protected System.Boolean ShouldHandleHandshakeMessage(MasterServer.IHandshakeMessage packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x1218B08
+    // Offset: 0x121E408
     bool ShouldHandleHandshakeMessage(MasterServer::IHandshakeMessage* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // protected System.Void HandleClientHelloRequest(MasterServer.ClientHelloRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x1218B10
+    // Offset: 0x121E410
     void HandleClientHelloRequest(MasterServer::ClientHelloRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // protected System.Void HandleHelloVerifyRequest(MasterServer.HelloVerifyRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x1218B30
+    // Offset: 0x121E430
     void HandleHelloVerifyRequest(MasterServer::HelloVerifyRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // protected System.Void HandleClientHelloWithCookieRequest(MasterServer.ClientHelloWithCookieRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x1218D48
+    // Offset: 0x121E648
     void HandleClientHelloWithCookieRequest(MasterServer::ClientHelloWithCookieRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // protected System.Void RegisterUserMessageHandlers()
-    // Offset: 0x1218D68
+    // Offset: 0x121E668
     void RegisterUserMessageHandlers();
     // protected System.Boolean ShouldHandleUserMessage(MasterServer.IUserMessage packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x1219634
+    // Offset: 0x121EF34
     bool ShouldHandleUserMessage(MasterServer::IUserMessage* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // protected System.Void HandleConnectToServerRequest(MasterServer.ConnectToServerRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x121963C
+    // Offset: 0x121EF3C
     void HandleConnectToServerRequest(MasterServer::ConnectToServerRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // protected System.Void HandleGetPublicServersRequest(MasterServer.GetPublicServersRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x121965C
+    // Offset: 0x121EF5C
     void HandleGetPublicServersRequest(MasterServer::GetPublicServersRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // private System.Void HandleSessionKeepaliveMessage(MasterServer.SessionKeepaliveMessage packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x121967C
+    // Offset: 0x121EF7C
     void HandleSessionKeepaliveMessage(MasterServer::SessionKeepaliveMessage* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // protected System.Void RegisterDedicatedServerHandlers()
-    // Offset: 0x12196F0
+    // Offset: 0x121EFF0
     void RegisterDedicatedServerHandlers();
     // protected System.Boolean ShouldHandleDedicatedServerMessage(MasterServer.IDedicatedServerMessage packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x121A170
+    // Offset: 0x121FA70
     bool ShouldHandleDedicatedServerMessage(MasterServer::IDedicatedServerMessage* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // protected System.Void HandleCreateDedicatedServerInstanceRequest(MasterServer.CreateDedicatedServerInstanceRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x121A178
+    // Offset: 0x121FA78
     void HandleCreateDedicatedServerInstanceRequest(MasterServer::CreateDedicatedServerInstanceRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // protected System.Void HandleDedicatedServerInstanceNoLongerAvailableRequest(MasterServer.DedicatedServerInstanceNoLongerOccupiedRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x121A198
+    // Offset: 0x121FA98
     void HandleDedicatedServerInstanceNoLongerAvailableRequest(MasterServer::DedicatedServerInstanceNoLongerOccupiedRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // protected System.Void HandleDedicatedServerHeartbeatRequest(MasterServer.DedicatedServerHeartbeatRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x121A1B8
+    // Offset: 0x121FAB8
     void HandleDedicatedServerHeartbeatRequest(MasterServer::DedicatedServerHeartbeatRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // protected System.Void HandleDedicatedServerHeartbeatResponse(MasterServer.DedicatedServerHeartbeatResponse packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x121A1D0
+    // Offset: 0x121FAD0
     void HandleDedicatedServerHeartbeatResponse(MasterServer::DedicatedServerHeartbeatResponse* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // protected System.Void HandleDedicatedServerInstanceStatusUpdateRequest(MasterServer.DedicatedServerInstanceStatusUpdateRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x121A1E8
+    // Offset: 0x121FAE8
     void HandleDedicatedServerInstanceStatusUpdateRequest(MasterServer::DedicatedServerInstanceStatusUpdateRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // protected System.Void HandleDedicatedServerShutDownRequest(MasterServer.DedicatedServerShutDownRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x121A208
+    // Offset: 0x121FB08
     void HandleDedicatedServerShutDownRequest(MasterServer::DedicatedServerShutDownRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // protected System.Void HandleDedicatedServerPrepareForConnectionRequest(MasterServer.DedicatedServerPrepareForConnectionRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x121A220
+    // Offset: 0x121FB20
     void HandleDedicatedServerPrepareForConnectionRequest(MasterServer::DedicatedServerPrepareForConnectionRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // private System.Func`2<MasterServer.MessageHandler/MasterServer.MessageOrigin,T> ObtainVersioned(System.Func`2<System.UInt32,T> obtain)
     // Offset: 0xFFFFFFFF
@@ -934,16 +934,16 @@ namespace MasterServer {
       return ::il2cpp_utils::RunMethodThrow<System::Action_2<T, MasterServer::MessageHandler::MessageOrigin>*, false>(___instance_arg, ___generic__method, customHandler);
     }
     // private System.Boolean IsUnhandledMessage(MasterServer.IMasterServerReliableRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x121A240
+    // Offset: 0x121FB40
     bool IsUnhandledMessage(MasterServer::IMasterServerReliableRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // private System.Void CompleteSend(MasterServer.IMasterServerResponse packet, System.Net.IPEndPoint remoteEndPoint)
-    // Offset: 0x121AA24
+    // Offset: 0x1220324
     void CompleteSend(MasterServer::IMasterServerResponse* packet, System::Net::IPEndPoint* remoteEndPoint);
     // private System.Boolean CompleteRequest(MasterServer.IMasterServerReliableResponse packet, System.Net.IPEndPoint remoteEndPoint)
-    // Offset: 0x1218C3C
+    // Offset: 0x121E53C
     bool CompleteRequest(MasterServer::IMasterServerReliableResponse* packet, System::Net::IPEndPoint* remoteEndPoint);
     // private System.Boolean ShouldHandleMessage(MasterServer.IMasterServerMessage packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x121A6D4
+    // Offset: 0x121FFD4
     bool ShouldHandleMessage(MasterServer::IMasterServerMessage* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // protected System.Void GetAndSendResponse(TRequest request, MasterServer.MessageHandler/MasterServer.MessageOrigin origin, System.Func`3<TRequest,MasterServer.MessageHandler/MasterServer.MessageOrigin,System.Threading.Tasks.Task`1<TResponse>> tryGetResponse, System.Func`1<TResponse> getFailureResponse)
     // Offset: 0xFFFFFFFF
@@ -982,28 +982,28 @@ namespace MasterServer {
       ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, request, origin, tryGetResponse, getFailureResponse);
     }
     // protected System.Void SendUnreliableMessage(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerUnreliableMessage message)
-    // Offset: 0x121AD64
+    // Offset: 0x1220664
     void SendUnreliableMessage(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, MasterServer::IMasterServerUnreliableMessage* message);
     // protected System.Void SendUnreliableResponse(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerReliableRequest request, MasterServer.IMasterServerResponse response)
-    // Offset: 0x121AF7C
+    // Offset: 0x122087C
     void SendUnreliableResponse(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, MasterServer::IMasterServerReliableRequest* request, MasterServer::IMasterServerResponse* response);
     // protected System.Void SendUnreliableResponse(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, System.UInt32 responseId, MasterServer.IMasterServerResponse response)
-    // Offset: 0x121A7E0
+    // Offset: 0x12200E0
     void SendUnreliableResponse(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, uint responseId, MasterServer::IMasterServerResponse* response);
     // protected System.Void SendReliableRequest(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerReliableRequest request, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x121B0CC
+    // Offset: 0x12209CC
     void SendReliableRequest(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, MasterServer::IMasterServerReliableRequest* request, System::Threading::CancellationToken cancellationToken);
     // protected System.Threading.Tasks.Task SendReliableRequestAsync(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerReliableRequest request, System.Func`5<System.UInt32,System.Net.IPEndPoint,MasterServer.IMasterServerReliableRequest,System.Threading.CancellationToken,System.Threading.Tasks.Task> onSendFailed, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1213E8C
+    // Offset: 0x121978C
     System::Threading::Tasks::Task* SendReliableRequestAsync(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, MasterServer::IMasterServerReliableRequest* request, System::Func_5<uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task*>* onSendFailed, System::Threading::CancellationToken cancellationToken);
     // protected System.Void SendReliableResponse(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerReliableRequest request, MasterServer.IMasterServerReliableResponse response, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x121B378
+    // Offset: 0x1220C78
     void SendReliableResponse(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, MasterServer::IMasterServerReliableRequest* request, MasterServer::IMasterServerReliableResponse* response, System::Threading::CancellationToken cancellationToken);
     // protected System.Void SendReliableResponse(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, System.UInt32 responseId, MasterServer.IMasterServerReliableResponse response, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x121B4D8
+    // Offset: 0x1220DD8
     void SendReliableResponse(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, uint responseId, MasterServer::IMasterServerReliableResponse* response, System::Threading::CancellationToken cancellationToken);
     // protected System.Threading.Tasks.Task SendReliableResponseAsync(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerReliableRequest request, MasterServer.IMasterServerReliableResponse response, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x121B618
+    // Offset: 0x1220F18
     System::Threading::Tasks::Task* SendReliableResponseAsync(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, MasterServer::IMasterServerReliableRequest* request, MasterServer::IMasterServerReliableResponse* response, System::Threading::CancellationToken cancellationToken);
     // protected System.Threading.Tasks.Task`1<T> SendReliableRequestAndAwaitResponseAsync(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerReliableRequest request, System.Func`5<System.UInt32,System.Net.IPEndPoint,MasterServer.IMasterServerReliableRequest,System.Threading.CancellationToken,System.Threading.Tasks.Task`1<T>> onSendFailedAwaitResponse, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
@@ -1039,19 +1039,19 @@ namespace MasterServer {
       return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<T>*, false>(___instance_arg, ___generic__method, protocolVersion, remoteEndPoint, responseId, response, cancellationToken);
     }
     // private System.Void SendMessage(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerMessage message)
-    // Offset: 0x121AE08
+    // Offset: 0x1220708
     void SendMessage(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, MasterServer::IMasterServerMessage* message);
     // private System.Void SendMessageWithRetry(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerReliableRequest message, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x121B200
+    // Offset: 0x1220B00
     void SendMessageWithRetry(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, MasterServer::IMasterServerReliableRequest* message, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task SendMessageWithRetryAsync(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerReliableRequest message, System.Func`5<System.UInt32,System.Net.IPEndPoint,MasterServer.IMasterServerReliableRequest,System.Threading.CancellationToken,System.Threading.Tasks.Task> onSendFailed, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x121B2E4
+    // Offset: 0x1220BE4
     System::Threading::Tasks::Task* SendMessageWithRetryAsync(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, MasterServer::IMasterServerReliableRequest* message, System::Func_5<uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task*>* onSendFailed, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task SendMultipartMessageWithRetryAsync(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerReliableRequest message, LiteNetLib.Utils.NetDataWriter data, System.Func`5<System.UInt32,System.Net.IPEndPoint,MasterServer.IMasterServerReliableRequest,System.Threading.CancellationToken,System.Threading.Tasks.Task> onSendFailed, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x121BA10
+    // Offset: 0x1221310
     System::Threading::Tasks::Task* SendMultipartMessageWithRetryAsync(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, MasterServer::IMasterServerReliableRequest* message, LiteNetLib::Utils::NetDataWriter* data, System::Func_5<uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task*>* onSendFailed, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task SendMessageWithRetryAsyncInternal(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerReliableRequest message, System.Func`5<System.UInt32,System.Net.IPEndPoint,MasterServer.IMasterServerReliableRequest,System.Threading.CancellationToken,System.Threading.Tasks.Task> onSendFailed, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x121BB54
+    // Offset: 0x1221454
     System::Threading::Tasks::Task* SendMessageWithRetryAsyncInternal(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, MasterServer::IMasterServerReliableRequest* message, System::Func_5<uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task*>* onSendFailed, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task`1<T> SendMessageWithRetryAwaitResponseAsync(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerReliableRequest message, System.Func`5<System.UInt32,System.Net.IPEndPoint,MasterServer.IMasterServerReliableRequest,System.Threading.CancellationToken,System.Threading.Tasks.Task`1<T>> onSendFailedAwaitResponse, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
@@ -1087,49 +1087,49 @@ namespace MasterServer {
       return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<T>*, false>(___instance_arg, ___generic__method, protocolVersion, remoteEndPoint, requestId, cancellationToken);
     }
     // private System.Threading.Tasks.Task WaitForRetry(System.Int32 retryAttempt, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x121BC94
+    // Offset: 0x1221594
     System::Threading::Tasks::Task* WaitForRetry(int retryAttempt, System::Threading::CancellationToken cancellationToken);
     // private LiteNetLib.Utils.NetDataWriter Write(System.UInt32 protocolVersion, LiteNetLib.Utils.INetSerializable message)
-    // Offset: 0x121B834
+    // Offset: 0x1221134
     LiteNetLib::Utils::NetDataWriter* Write(uint protocolVersion, LiteNetLib::Utils::INetSerializable* message);
     // public System.Void PollUpdate()
-    // Offset: 0x121BED0
+    // Offset: 0x12217D4
     void PollUpdate();
     // public System.Void ReceiveMessage(System.Net.IPEndPoint remoteEndPoint, LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x121BF6C
+    // Offset: 0x1221870
     void ReceiveMessage(System::Net::IPEndPoint* remoteEndPoint, LiteNetLib::Utils::NetDataReader* reader);
     // protected System.Boolean ShouldHandleMessageFromEndPoint(System.Net.IPEndPoint endPoint)
-    // Offset: 0x121C164
+    // Offset: 0x1221A68
     bool ShouldHandleMessageFromEndPoint(System::Net::IPEndPoint* endPoint);
     // protected System.Void ReceivedMessageException(System.Net.IPEndPoint endPoint, System.Exception exception)
-    // Offset: 0x121C16C
+    // Offset: 0x1221A70
     void ReceivedMessageException(System::Net::IPEndPoint* endPoint, System::Exception* exception);
     // protected System.Void BeginSession(System.Net.IPEndPoint endPoint)
-    // Offset: 0x1211AE4
+    // Offset: 0x12173E4
     void BeginSession(System::Net::IPEndPoint* endPoint);
     // protected System.Void BeginSession(System.Net.IPEndPoint endPoint, System.UInt32 requestId)
-    // Offset: 0x121C288
+    // Offset: 0x1221B8C
     void BeginSession(System::Net::IPEndPoint* endPoint, uint requestId);
     // protected System.UInt32 GetNextRequestId(System.Net.IPEndPoint endPoint)
-    // Offset: 0x121344C
+    // Offset: 0x1218D4C
     uint GetNextRequestId(System::Net::IPEndPoint* endPoint);
     // protected MasterServer.MessageHandler/MasterServer.ConnectionState GetConnectionState(System.Net.IPEndPoint endPoint)
-    // Offset: 0x12136CC
+    // Offset: 0x1218FCC
     MasterServer::MessageHandler::ConnectionState* GetConnectionState(System::Net::IPEndPoint* endPoint);
     // protected System.Boolean IsValidSessionStartRequestId(System.Net.IPEndPoint endPoint, System.UInt32 requestId)
-    // Offset: 0x121C368
+    // Offset: 0x1221C6C
     bool IsValidSessionStartRequestId(System::Net::IPEndPoint* endPoint, uint requestId);
     // protected System.Boolean IsConnectionStateEncrypted(System.Net.IPEndPoint endPoint)
-    // Offset: 0x121C468
+    // Offset: 0x1221D6C
     bool IsConnectionStateEncrypted(System::Net::IPEndPoint* endPoint);
     // private INetworkPacketSerializer`1<MasterServer.MessageHandler/MasterServer.MessageOrigin> GetSerializer(System.UInt32 protocolVersion, System.UInt32 messageType)
-    // Offset: 0x121BDA8
+    // Offset: 0x12216A8
     GlobalNamespace::INetworkPacketSerializer_1<MasterServer::MessageHandler::MessageOrigin>* GetSerializer(uint protocolVersion, uint messageType);
     // public System.Void Dispose()
-    // Offset: 0x121C5B8
+    // Offset: 0x1221EBC
     void Dispose();
     // static private System.Byte[] CreateHandshakeHeader(System.Byte[] packetHeader)
-    // Offset: 0x12189A4
+    // Offset: 0x121E2A4
     static ::Array<uint8_t>* CreateHandshakeHeader(::Array<uint8_t>* packetHeader);
   }; // MasterServer.MessageHandler
   #pragma pack(pop)

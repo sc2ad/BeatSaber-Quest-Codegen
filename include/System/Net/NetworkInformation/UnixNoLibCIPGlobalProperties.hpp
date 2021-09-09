@@ -23,12 +23,12 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: UnixNoLibCIPGlobalProperties
     UnixNoLibCIPGlobalProperties() noexcept {}
     // public override System.String get_DomainName()
-    // Offset: 0x149B774
+    // Offset: 0x14A3730
     // Implemented from: System.Net.NetworkInformation.CommonUnixIPGlobalProperties
     // Base method: System.String CommonUnixIPGlobalProperties::get_DomainName()
     ::Il2CppString* get_DomainName();
     // public System.Void .ctor()
-    // Offset: 0x1497BB8
+    // Offset: 0x149FB74
     // Implemented from: System.Net.NetworkInformation.UnixIPGlobalProperties
     // Base method: System.Void UnixIPGlobalProperties::.ctor()
     // Base method: System.Void CommonUnixIPGlobalProperties::.ctor()

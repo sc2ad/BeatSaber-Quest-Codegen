@@ -48,13 +48,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _transform
     UnityEngine::Transform*& dyn__transform();
     // protected System.Void Awake()
-    // Offset: 0x12603EC
+    // Offset: 0x1264DB4
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x1260414
+    // Offset: 0x1264DDC
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1260454
+    // Offset: 0x1264E1C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

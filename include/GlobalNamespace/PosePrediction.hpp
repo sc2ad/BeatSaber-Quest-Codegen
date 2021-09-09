@@ -33,19 +33,19 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PosePrediction
     PosePrediction() noexcept {}
     // static public UnityEngine.Pose PredictPose(UnityEngine.Pose prev, System.Single prevTime, UnityEngine.Pose curr, System.Single currTime, System.Single time)
-    // Offset: 0x16F50B0
+    // Offset: 0x16FA8E4
     static UnityEngine::Pose PredictPose(UnityEngine::Pose prev, float prevTime, UnityEngine::Pose curr, float currTime, float time);
     // static public UnityEngine.Pose InterpolatePose(UnityEngine.Pose prev, UnityEngine.Pose curr, System.Single t)
-    // Offset: 0x16F51B8
+    // Offset: 0x16FA9EC
     static UnityEngine::Pose InterpolatePose(UnityEngine::Pose prev, UnityEngine::Pose curr, float t);
     // static public PoseSerializable PredictPoseSerializable(PoseSerializable prev, System.Single prevTime, PoseSerializable curr, System.Single currTime, System.Single time)
-    // Offset: 0x16F56C4
+    // Offset: 0x16FAEF8
     static GlobalNamespace::PoseSerializable PredictPoseSerializable(GlobalNamespace::PoseSerializable prev, float prevTime, GlobalNamespace::PoseSerializable curr, float currTime, float time);
     // static public PoseSerializable InterpolatePoseSerializable(PoseSerializable a, PoseSerializable b, System.Single t)
-    // Offset: 0x16F57B0
+    // Offset: 0x16FAFE4
     static GlobalNamespace::PoseSerializable InterpolatePoseSerializable(GlobalNamespace::PoseSerializable a, GlobalNamespace::PoseSerializable b, float t);
     // public System.Void .ctor()
-    // Offset: 0x16F5884
+    // Offset: 0x16FB0B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

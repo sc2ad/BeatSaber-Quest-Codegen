@@ -30,10 +30,10 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static private System.Void .cctor()
-    // Offset: 0x162EB34
+    // Offset: 0x1636368
     static void _cctor();
     // static public OVRPlugin/Result ovrp_AddCustomMetadata(System.String name, System.String param)
-    // Offset: 0x162EA74
+    // Offset: 0x16362A8
     static GlobalNamespace::OVRPlugin::Result ovrp_AddCustomMetadata(::Il2CppString* name, ::Il2CppString* param);
   }; // OVRPlugin/OVRP_1_32_0
   #pragma pack(pop)

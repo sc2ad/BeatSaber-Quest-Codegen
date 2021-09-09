@@ -64,8 +64,8 @@ namespace GlobalNamespace {
     float obstacleCoreLerpToWhiteFactor;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xE36A2C
-    // [NullAllowed] Offset: 0xE36A2C
+    // [SpaceAttribute] Offset: 0xE3C9AC
+    // [NullAllowed] Offset: 0xE3C9AC
     // private UnityEngine.Transform _obstacleCore
     // Size: 0x8
     // Offset: 0x28
@@ -84,7 +84,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ParametricBoxFrameController* obstacleFrame;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ParametricBoxFrameController*) == 0x8);
-    // [NullAllowed] Offset: 0xE36A94
+    // [NullAllowed] Offset: 0xE3CA14
     // private ParametricBoxFakeGlowController _obstacleFakeGlow
     // Size: 0x8
     // Offset: 0x40
@@ -101,17 +101,17 @@ namespace GlobalNamespace {
     StretchableObstacle(float edgeSize_ = {}, float coreOffset_ = {}, float addColorMultiplier_ = {}, float obstacleCoreLerpToWhiteFactor_ = {}, UnityEngine::Transform* obstacleCore_ = {}, ::Array<GlobalNamespace::MaterialPropertyBlockController*>* materialPropertyBlockControllers_ = {}, GlobalNamespace::ParametricBoxFrameController* obstacleFrame_ = {}, GlobalNamespace::ParametricBoxFakeGlowController* obstacleFakeGlow_ = {}, UnityEngine::Bounds bounds_ = {}) noexcept : edgeSize{edgeSize_}, coreOffset{coreOffset_}, addColorMultiplier{addColorMultiplier_}, obstacleCoreLerpToWhiteFactor{obstacleCoreLerpToWhiteFactor_}, obstacleCore{obstacleCore_}, materialPropertyBlockControllers{materialPropertyBlockControllers_}, obstacleFrame{obstacleFrame_}, obstacleFakeGlow{obstacleFakeGlow_}, bounds{bounds_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE36ACC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE3CA4C
     // Get static field: static private readonly System.Int32 _uvScaleID
     static int _get__uvScaleID();
     // Set static field: static private readonly System.Int32 _uvScaleID
     static void _set__uvScaleID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE36ADC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE3CA5C
     // Get static field: static private readonly System.Int32 _tintColorID
     static int _get__tintColorID();
     // Set static field: static private readonly System.Int32 _tintColorID
     static void _set__tintColorID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE36AEC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE3CA6C
     // Get static field: static private readonly System.Int32 _addColorID
     static int _get__addColorID();
     // Set static field: static private readonly System.Int32 _addColorID
@@ -135,16 +135,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Bounds _bounds
     UnityEngine::Bounds& dyn__bounds();
     // public UnityEngine.Bounds get_bounds()
-    // Offset: 0x1090420
+    // Offset: 0x106D1A8
     UnityEngine::Bounds get_bounds();
     // public System.Void SetSizeAndColor(System.Single width, System.Single height, System.Single length, UnityEngine.Color color)
-    // Offset: 0x1090434
+    // Offset: 0x106D1BC
     void SetSizeAndColor(float width, float height, float length, UnityEngine::Color color);
     // protected System.Void OnValidate()
-    // Offset: 0x1090910
+    // Offset: 0x106D698
     void OnValidate();
     // public System.Void .ctor()
-    // Offset: 0x1090998
+    // Offset: 0x106D720
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -157,7 +157,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<StretchableObstacle*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x10909AC
+    // Offset: 0x106D734
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

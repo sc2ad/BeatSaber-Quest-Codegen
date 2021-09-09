@@ -25,16 +25,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BeatmapDifficultyMethods
     BeatmapDifficultyMethods() noexcept {}
     // static public System.String Name(BeatmapDifficulty difficulty)
-    // Offset: 0x11F412C
+    // Offset: 0x11EA21C
     static ::Il2CppString* Name(GlobalNamespace::BeatmapDifficulty difficulty);
     // static public System.String ShortName(BeatmapDifficulty difficulty)
-    // Offset: 0x11F46F0
+    // Offset: 0x11EA7E0
     static ::Il2CppString* ShortName(GlobalNamespace::BeatmapDifficulty difficulty);
     // static public System.Int32 DefaultRating(BeatmapDifficulty difficulty)
-    // Offset: 0x11F4758
+    // Offset: 0x11EA848
     static int DefaultRating(GlobalNamespace::BeatmapDifficulty difficulty);
     // static public System.Single NoteJumpMovementSpeed(BeatmapDifficulty difficulty)
-    // Offset: 0x11F4780
+    // Offset: 0x11EA870
     static float NoteJumpMovementSpeed(GlobalNamespace::BeatmapDifficulty difficulty);
   }; // BeatmapDifficultyMethods
   #pragma pack(pop)

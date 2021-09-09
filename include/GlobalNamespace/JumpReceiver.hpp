@@ -48,16 +48,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <jumpToDestinationValid>k__BackingField
     bool& dyn_$jumpToDestinationValid$k__BackingField();
     // public System.Boolean get_jumpToDestinationValid()
-    // Offset: 0x12655FC
+    // Offset: 0x1269FC4
     bool get_jumpToDestinationValid();
     // public System.Void set_jumpToDestinationValid(System.Boolean value)
-    // Offset: 0x1265604
+    // Offset: 0x1269FCC
     void set_jumpToDestinationValid(bool value);
     // public System.Void OnNotify(UnityEngine.Playables.Playable origin, UnityEngine.Playables.INotification notification, System.Object context)
-    // Offset: 0x1265610
+    // Offset: 0x1269FD8
     void OnNotify(UnityEngine::Playables::Playable origin, UnityEngine::Playables::INotification* notification, ::Il2CppObject* context);
     // public System.Void .ctor()
-    // Offset: 0x1265744
+    // Offset: 0x126A10C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

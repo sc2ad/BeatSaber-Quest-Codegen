@@ -122,58 +122,58 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.Byte[] s
     ::Array<uint8_t>*& dyn_s();
     // public System.String get_AlgorithmName()
-    // Offset: 0x1933134
+    // Offset: 0x193A968
     ::Il2CppString* get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x193317C
+    // Offset: 0x193A9B0
     bool get_IsPartialBlockOkay();
     // static private System.Void .cctor()
-    // Offset: 0x1934608
+    // Offset: 0x193BE3C
     static void _cctor();
     // static private System.UInt32 Shift(System.UInt32 r, System.Int32 shift)
-    // Offset: 0x1931F2C
+    // Offset: 0x1939760
     static uint Shift(uint r, int shift);
     // static private System.UInt32 FFmulX(System.UInt32 x)
-    // Offset: 0x1931F34
+    // Offset: 0x1939768
     static uint FFmulX(uint x);
     // static private System.UInt32 FFmulX2(System.UInt32 x)
-    // Offset: 0x1931F54
+    // Offset: 0x1939788
     static uint FFmulX2(uint x);
     // static private System.UInt32 Inv_Mcol(System.UInt32 x)
-    // Offset: 0x1931F70
+    // Offset: 0x19397A4
     static uint Inv_Mcol(uint x);
     // static private System.UInt32 SubWord(System.UInt32 x)
-    // Offset: 0x1932018
+    // Offset: 0x193984C
     static uint SubWord(uint x);
     // private System.UInt32[][] GenerateWorkingKey(System.Byte[] key, System.Boolean forEncryption)
-    // Offset: 0x19320F4
+    // Offset: 0x1939928
     ::Array<::Array<uint>*>* GenerateWorkingKey(::Array<uint8_t>* key, bool forEncryption);
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1932F80
+    // Offset: 0x193A7B4
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetBlockSize()
-    // Offset: 0x1933184
+    // Offset: 0x193A9B8
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x193318C
+    // Offset: 0x193A9C0
     int ProcessBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1934604
+    // Offset: 0x193BE38
     void Reset();
     // private System.Void UnPackBlock(System.Byte[] bytes, System.Int32 off)
-    // Offset: 0x19332B0
+    // Offset: 0x193AAE4
     void UnPackBlock(::Array<uint8_t>* bytes, int off);
     // private System.Void PackBlock(System.Byte[] bytes, System.Int32 off)
-    // Offset: 0x1934594
+    // Offset: 0x193BDC8
     void PackBlock(::Array<uint8_t>* bytes, int off);
     // private System.Void EncryptBlock(System.UInt32[][] KW)
-    // Offset: 0x193332C
+    // Offset: 0x193AB60
     void EncryptBlock(::Array<::Array<uint>*>* KW);
     // private System.Void DecryptBlock(System.UInt32[][] KW)
-    // Offset: 0x1933C54
+    // Offset: 0x193B488
     void DecryptBlock(::Array<::Array<uint>*>* KW);
     // public System.Void .ctor()
-    // Offset: 0x1932F78
+    // Offset: 0x193A7AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

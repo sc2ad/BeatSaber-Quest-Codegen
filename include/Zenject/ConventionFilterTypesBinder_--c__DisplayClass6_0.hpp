@@ -43,10 +43,10 @@ namespace Zenject {
     // Get instance field reference: public System.Type attribute
     System::Type*& dyn_attribute();
     // System.Boolean <WithAttribute>b__0(System.Type t)
-    // Offset: 0x13E25FC
+    // Offset: 0x13E95B8
     bool $WithAttribute$b__0(System::Type* t);
     // public System.Void .ctor()
-    // Offset: 0x13E1CF8
+    // Offset: 0x13E8CB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

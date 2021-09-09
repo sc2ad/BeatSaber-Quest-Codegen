@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private ColorSchemeSO _menuColorScheme
     GlobalNamespace::ColorSchemeSO*& dyn__menuColorScheme();
     // public System.Void .ctor()
-    // Offset: 0x10EDE78
+    // Offset: 0x10E1890
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -53,7 +53,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ColorManagerInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x10EDDD0
+    // Offset: 0x10E17E8
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

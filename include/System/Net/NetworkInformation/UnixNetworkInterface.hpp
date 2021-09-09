@@ -83,25 +83,25 @@ namespace System::Net::NetworkInformation {
     // Get instance field reference: private System.Net.NetworkInformation.NetworkInterfaceType type
     System::Net::NetworkInformation::NetworkInterfaceType& dyn_type();
     // System.Void .ctor(System.String name)
-    // Offset: 0x14985A4
+    // Offset: 0x14A0560
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnixNetworkInterface* New_ctor(::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::UnixNetworkInterface::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnixNetworkInterface*, creationType>(name)));
     }
     // System.Void AddAddress(System.Net.IPAddress address)
-    // Offset: 0x149A0E8
+    // Offset: 0x14A20A4
     void AddAddress(System::Net::IPAddress* address);
     // System.Void SetLinkLayerInfo(System.Int32 index, System.Byte[] macAddress, System.Net.NetworkInformation.NetworkInterfaceType type)
-    // Offset: 0x149A150
+    // Offset: 0x14A210C
     void SetLinkLayerInfo(int index, ::Array<uint8_t>* macAddress, System::Net::NetworkInformation::NetworkInterfaceType type);
     // public override System.String get_Name()
-    // Offset: 0x149B764
+    // Offset: 0x14A3720
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.String NetworkInterface::get_Name()
     ::Il2CppString* get_Name();
     // public override System.Net.NetworkInformation.NetworkInterfaceType get_NetworkInterfaceType()
-    // Offset: 0x149B76C
+    // Offset: 0x14A3728
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.NetworkInterfaceType NetworkInterface::get_NetworkInterfaceType()
     System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType();

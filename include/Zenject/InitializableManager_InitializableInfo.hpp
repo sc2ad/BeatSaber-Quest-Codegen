@@ -46,7 +46,7 @@ namespace Zenject {
     // Get instance field reference: public System.Int32 Priority
     int& dyn_Priority();
     // public System.Void .ctor(Zenject.IInitializable initializable, System.Int32 priority)
-    // Offset: 0x1661060
+    // Offset: 0x1668894
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InitializableManager::InitializableInfo* New_ctor(Zenject::IInitializable* initializable, int priority) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InitializableManager::InitializableInfo::.ctor");

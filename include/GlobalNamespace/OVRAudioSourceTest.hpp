@@ -41,13 +41,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single nextActionTime
     float& dyn_nextActionTime();
     // private System.Void Start()
-    // Offset: 0x1293A0C
+    // Offset: 0x12AB8C8
     void Start();
     // private System.Void Update()
-    // Offset: 0x1293B00
+    // Offset: 0x12AB9BC
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1293CC4
+    // Offset: 0x12ABB80
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -35,34 +35,34 @@ namespace System {
     // Get instance field reference: private System.Boolean _ignoreCase
     bool& dyn__ignoreCase();
     // System.Void .ctor(System.Boolean ignoreCase)
-    // Offset: 0x1D0EEC4
+    // Offset: 0x1D10B88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OrdinalComparer* New_ctor(bool ignoreCase) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::OrdinalComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OrdinalComparer*, creationType>(ignoreCase)));
     }
     // public override System.Int32 Compare(System.String x, System.String y)
-    // Offset: 0x1D0EF44
+    // Offset: 0x1D10C08
     // Implemented from: System.StringComparer
     // Base method: System.Int32 StringComparer::Compare(System.String x, System.String y)
     int Compare(::Il2CppString* x, ::Il2CppString* y);
     // public override System.Boolean Equals(System.String x, System.String y)
-    // Offset: 0x1D0EF9C
+    // Offset: 0x1D10C60
     // Implemented from: System.StringComparer
     // Base method: System.Boolean StringComparer::Equals(System.String x, System.String y)
     bool Equals(::Il2CppString* x, ::Il2CppString* y);
     // public override System.Int32 GetHashCode(System.String obj)
-    // Offset: 0x1D0F01C
+    // Offset: 0x1D10CE0
     // Implemented from: System.StringComparer
     // Base method: System.Int32 StringComparer::GetHashCode(System.String obj)
     int GetHashCode(::Il2CppString* obj);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1D0F0D4
+    // Offset: 0x1D10D98
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1D0F16C
+    // Offset: 0x1D10E30
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

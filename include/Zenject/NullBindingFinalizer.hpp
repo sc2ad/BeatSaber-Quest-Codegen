@@ -37,13 +37,13 @@ namespace Zenject {
       return *reinterpret_cast<Zenject::IBindingFinalizer*>(this);
     }
     // public Zenject.BindingInheritanceMethods get_BindingInheritanceMethod()
-    // Offset: 0x1713E14
+    // Offset: 0x171A648
     Zenject::BindingInheritanceMethods get_BindingInheritanceMethod();
     // public System.Void FinalizeBinding(Zenject.DiContainer container)
-    // Offset: 0x1713E1C
+    // Offset: 0x171A650
     void FinalizeBinding(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x1713E20
+    // Offset: 0x171A654
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

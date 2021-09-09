@@ -18,10 +18,10 @@ namespace System::Xml {
     // Creating value type constructor for type: Res
     Res() noexcept {}
     // static public System.String GetString(System.String name)
-    // Offset: 0x19506FC
+    // Offset: 0x1956F30
     static ::Il2CppString* GetString(::Il2CppString* name);
     // static public System.String GetString(System.String name, params System.Object[] args)
-    // Offset: 0x1955C30
+    // Offset: 0x195C464
     static ::Il2CppString* GetString(::Il2CppString* name, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.String GetString(System.String name, params System.Object[] args)
     static ::Il2CppString* GetString(::Il2CppString* name, std::initializer_list<::Il2CppObject*> args);

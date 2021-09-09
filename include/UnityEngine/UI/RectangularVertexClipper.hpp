@@ -50,10 +50,10 @@ namespace UnityEngine::UI {
     // Get instance field reference: private readonly UnityEngine.Vector3[] m_CanvasCorners
     ::Array<UnityEngine::Vector3>*& dyn_m_CanvasCorners();
     // public UnityEngine.Rect GetCanvasRect(UnityEngine.RectTransform t, UnityEngine.Canvas c)
-    // Offset: 0x19D5640
+    // Offset: 0x19DAE74
     UnityEngine::Rect GetCanvasRect(UnityEngine::RectTransform* t, UnityEngine::Canvas* c);
     // public System.Void .ctor()
-    // Offset: 0x19D58BC
+    // Offset: 0x19DB0F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

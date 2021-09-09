@@ -33,16 +33,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BeatmapLevelDataExtensions
     BeatmapLevelDataExtensions() noexcept {}
     // static public IDifficultyBeatmap GetDifficultyBeatmap(IBeatmapLevelData beatmapLevelData, BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty difficulty)
-    // Offset: 0x11F602C
+    // Offset: 0x11EC11C
     static GlobalNamespace::IDifficultyBeatmap* GetDifficultyBeatmap(GlobalNamespace::IBeatmapLevelData* beatmapLevelData, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::BeatmapDifficulty difficulty);
     // static public IDifficultyBeatmapSet GetDifficultyBeatmapSet(IBeatmapLevelData beatmapLevelData, BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x11F61D0
+    // Offset: 0x11EC2C0
     static GlobalNamespace::IDifficultyBeatmapSet* GetDifficultyBeatmapSet(GlobalNamespace::IBeatmapLevelData* beatmapLevelData, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // static public IDifficultyBeatmap GetDifficultyBeatmap(IBeatmapLevelData beatmapLevelData, System.String beatmapCharacteristicName, BeatmapDifficulty difficulty)
-    // Offset: 0x11F63FC
+    // Offset: 0x11EC4EC
     static GlobalNamespace::IDifficultyBeatmap* GetDifficultyBeatmap(GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::Il2CppString* beatmapCharacteristicName, GlobalNamespace::BeatmapDifficulty difficulty);
     // static public IDifficultyBeatmapSet GetDifficultyBeatmapSet(IBeatmapLevelData beatmapLevelData, System.String beatmapCharacteristicName)
-    // Offset: 0x11F65A0
+    // Offset: 0x11EC690
     static GlobalNamespace::IDifficultyBeatmapSet* GetDifficultyBeatmapSet(GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::Il2CppString* beatmapCharacteristicName);
   }; // BeatmapLevelDataExtensions
   #pragma pack(pop)

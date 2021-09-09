@@ -32,20 +32,20 @@ namespace Zenject {
     // Creating value type constructor for type: ZenFactoryMethod
     ZenFactoryMethod() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x2408E80
+    // Offset: 0x2406BCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenFactoryMethod* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ZenFactoryMethod::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenFactoryMethod*, creationType>(object, method)));
     }
     // public System.Object Invoke(System.Object[] args)
-    // Offset: 0x2408E90
+    // Offset: 0x2406BDC
     ::Il2CppObject* Invoke(::Array<::Il2CppObject*>* args);
     // public System.IAsyncResult BeginInvoke(System.Object[] args, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x240922C
+    // Offset: 0x2406F78
     System::IAsyncResult* BeginInvoke(::Array<::Il2CppObject*>* args, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Object EndInvoke(System.IAsyncResult result)
-    // Offset: 0x2409250
+    // Offset: 0x2406F9C
     ::Il2CppObject* EndInvoke(System::IAsyncResult* result);
   }; // Zenject.ZenFactoryMethod
   #pragma pack(pop)

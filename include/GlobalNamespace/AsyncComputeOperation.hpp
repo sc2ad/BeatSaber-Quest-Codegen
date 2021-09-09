@@ -46,13 +46,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Diagnostics.Stopwatch _stopwatch
     System::Diagnostics::Stopwatch*& dyn__stopwatch();
     // public System.Double get_elapsedTime()
-    // Offset: 0x131BF68
+    // Offset: 0x1334C38
     double get_elapsedTime();
     // protected System.Boolean get_hasTimedOut()
-    // Offset: 0x131BFFC
+    // Offset: 0x1334CCC
     bool get_hasTimedOut();
     // protected System.Void .ctor(System.Int32 timeoutMs)
-    // Offset: 0x131C038
+    // Offset: 0x1334D08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncComputeOperation* New_ctor(int timeoutMs) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AsyncComputeOperation::.ctor");

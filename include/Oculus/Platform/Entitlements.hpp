@@ -24,7 +24,7 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: Entitlements
     Entitlements() noexcept {}
     // static public Oculus.Platform.Request IsUserEntitledToApplication()
-    // Offset: 0x14DF6AC
+    // Offset: 0x1523038
     static Oculus::Platform::Request* IsUserEntitledToApplication();
   }; // Oculus.Platform.Entitlements
   #pragma pack(pop)

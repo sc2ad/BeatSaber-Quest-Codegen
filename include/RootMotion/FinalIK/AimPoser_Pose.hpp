@@ -75,13 +75,13 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Single angleBuffer
     float& dyn_angleBuffer();
     // public System.Boolean IsInDirection(UnityEngine.Vector3 d)
-    // Offset: 0x1D30118
+    // Offset: 0x1D31DDC
     bool IsInDirection(UnityEngine::Vector3 d);
     // public System.Void SetAngleBuffer(System.Single value)
-    // Offset: 0x1D30484
+    // Offset: 0x1D32148
     void SetAngleBuffer(float value);
     // public System.Void .ctor()
-    // Offset: 0x1D3048C
+    // Offset: 0x1D32150
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

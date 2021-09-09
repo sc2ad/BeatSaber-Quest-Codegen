@@ -87,35 +87,35 @@ namespace Org::BouncyCastle::X509 {
     // Get instance field reference: private System.IO.Stream currentCrlStream
     System::IO::Stream*& dyn_currentCrlStream();
     // public System.Void .ctor(System.Boolean lazyAsn1)
-    // Offset: 0x1FF38C4
+    // Offset: 0x1FF2588
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CrlParser* New_ctor(bool lazyAsn1) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::X509::X509CrlParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CrlParser*, creationType>(lazyAsn1)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1FF4008
+    // Offset: 0x1FF2CCC
     static void _cctor();
     // private Org.BouncyCastle.X509.X509Crl ReadPemCrl(System.IO.Stream inStream)
-    // Offset: 0x1FF38F4
+    // Offset: 0x1FF25B8
     Org::BouncyCastle::X509::X509Crl* ReadPemCrl(System::IO::Stream* inStream);
     // private Org.BouncyCastle.X509.X509Crl ReadDerCrl(Org.BouncyCastle.Asn1.Asn1InputStream dIn)
-    // Offset: 0x1FF39A8
+    // Offset: 0x1FF266C
     Org::BouncyCastle::X509::X509Crl* ReadDerCrl(Org::BouncyCastle::Asn1::Asn1InputStream* dIn);
     // private Org.BouncyCastle.X509.X509Crl GetCrl()
-    // Offset: 0x1FF3BAC
+    // Offset: 0x1FF2870
     Org::BouncyCastle::X509::X509Crl* GetCrl();
     // protected Org.BouncyCastle.X509.X509Crl CreateX509Crl(Org.BouncyCastle.Asn1.X509.CertificateList c)
-    // Offset: 0x1FF3C34
+    // Offset: 0x1FF28F8
     Org::BouncyCastle::X509::X509Crl* CreateX509Crl(Org::BouncyCastle::Asn1::X509::CertificateList* c);
     // public Org.BouncyCastle.X509.X509Crl ReadCrl(System.Byte[] input)
-    // Offset: 0x1FF3C94
+    // Offset: 0x1FF2958
     Org::BouncyCastle::X509::X509Crl* ReadCrl(::Array<uint8_t>* input);
     // public Org.BouncyCastle.X509.X509Crl ReadCrl(System.IO.Stream inStream)
-    // Offset: 0x1FF3D0C
+    // Offset: 0x1FF29D0
     Org::BouncyCastle::X509::X509Crl* ReadCrl(System::IO::Stream* inStream);
     // public System.Void .ctor()
-    // Offset: 0x1FF389C
+    // Offset: 0x1FF2560
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

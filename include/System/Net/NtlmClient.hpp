@@ -50,16 +50,16 @@ namespace System::Net {
     // Get instance field reference: private System.Net.IAuthenticationModule authObject
     System::Net::IAuthenticationModule*& dyn_authObject();
     // public System.String get_AuthenticationType()
-    // Offset: 0x149C3E0
+    // Offset: 0x14A439C
     ::Il2CppString* get_AuthenticationType();
     // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x149C2EC
+    // Offset: 0x14A42A8
     System::Net::Authorization* Authenticate(::Il2CppString* challenge, System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // public System.Net.Authorization PreAuthenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x149C3D8
+    // Offset: 0x14A4394
     System::Net::Authorization* PreAuthenticate(System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // public System.Void .ctor()
-    // Offset: 0x149C280
+    // Offset: 0x14A423C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

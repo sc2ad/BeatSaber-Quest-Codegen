@@ -99,7 +99,7 @@ namespace System::Net::NetworkInformation::MacOsStructs {
     // Get instance field reference: public System.Byte[] sdl_data
     ::Array<uint8_t>*& dyn_sdl_data();
     // System.Void Read(System.IntPtr ptr)
-    // Offset: 0x1498EB8
+    // Offset: 0x14A0E74
     void Read(System::IntPtr ptr);
   }; // System.Net.NetworkInformation.MacOsStructs.sockaddr_dl
   #pragma pack(pop)

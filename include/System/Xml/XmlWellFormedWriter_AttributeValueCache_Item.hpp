@@ -43,10 +43,10 @@ namespace System::Xml {
     // Get instance field reference: System.Object data
     ::Il2CppObject*& dyn_data();
     // System.Void Set(System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.ItemType type, System.Object data)
-    // Offset: 0x23EF544
+    // Offset: 0x23EC290
     void Set(System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType type, ::Il2CppObject* data);
     // System.Void .ctor()
-    // Offset: 0x23EF53C
+    // Offset: 0x23EC288
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

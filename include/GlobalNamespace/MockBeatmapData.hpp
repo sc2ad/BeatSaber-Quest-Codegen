@@ -78,43 +78,43 @@ namespace GlobalNamespace {
     // Get instance field reference: private MockObstacleData[] <obstacles>k__BackingField
     ::Array<GlobalNamespace::MockObstacleData*>*& dyn_$obstacles$k__BackingField();
     // public System.Int32 get_numberOfLines()
-    // Offset: 0x23E0790
+    // Offset: 0x23DC4DC
     int get_numberOfLines();
     // public System.Void set_numberOfLines(System.Int32 value)
-    // Offset: 0x23E0798
+    // Offset: 0x23DC4E4
     void set_numberOfLines(int value);
     // public System.Single get_songEndTime()
-    // Offset: 0x23E07A0
+    // Offset: 0x23DC4EC
     float get_songEndTime();
     // public System.Void set_songEndTime(System.Single value)
-    // Offset: 0x23E07A8
+    // Offset: 0x23DC4F4
     void set_songEndTime(float value);
     // public MockNoteData[] get_leftNotes()
-    // Offset: 0x23E07B0
+    // Offset: 0x23DC4FC
     ::Array<GlobalNamespace::MockNoteData*>* get_leftNotes();
     // public System.Void set_leftNotes(MockNoteData[] value)
-    // Offset: 0x23E07B8
+    // Offset: 0x23DC504
     void set_leftNotes(::Array<GlobalNamespace::MockNoteData*>* value);
     // public MockNoteData[] get_rightNotes()
-    // Offset: 0x23E07C0
+    // Offset: 0x23DC50C
     ::Array<GlobalNamespace::MockNoteData*>* get_rightNotes();
     // public System.Void set_rightNotes(MockNoteData[] value)
-    // Offset: 0x23E07C8
+    // Offset: 0x23DC514
     void set_rightNotes(::Array<GlobalNamespace::MockNoteData*>* value);
     // public MockNoteData[] get_bombNotes()
-    // Offset: 0x23E07D0
+    // Offset: 0x23DC51C
     ::Array<GlobalNamespace::MockNoteData*>* get_bombNotes();
     // public System.Void set_bombNotes(MockNoteData[] value)
-    // Offset: 0x23E07D8
+    // Offset: 0x23DC524
     void set_bombNotes(::Array<GlobalNamespace::MockNoteData*>* value);
     // public MockObstacleData[] get_obstacles()
-    // Offset: 0x23E07E0
+    // Offset: 0x23DC52C
     ::Array<GlobalNamespace::MockObstacleData*>* get_obstacles();
     // public System.Void set_obstacles(MockObstacleData[] value)
-    // Offset: 0x23E07E8
+    // Offset: 0x23DC534
     void set_obstacles(::Array<GlobalNamespace::MockObstacleData*>* value);
     // public System.Void .ctor()
-    // Offset: 0x23E07F0
+    // Offset: 0x23DC53C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

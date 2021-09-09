@@ -40,13 +40,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.String,System.Byte> <>9__10_0
     static void _set_$$9__10_0(System::Func_2<::Il2CppString*, uint8_t>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1131BE0
+    // Offset: 0x11F142C
     static void _cctor();
     // System.Byte <GetAuthenticationToken>b__10_0(System.String s)
-    // Offset: 0x1131C4C
+    // Offset: 0x11F1498
     uint8_t $GetAuthenticationToken$b__10_0(::Il2CppString* s);
     // public System.Void .ctor()
-    // Offset: 0x1131C44
+    // Offset: 0x11F1490
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

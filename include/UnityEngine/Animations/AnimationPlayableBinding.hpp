@@ -33,10 +33,10 @@ namespace UnityEngine::Animations {
     // Creating value type constructor for type: AnimationPlayableBinding
     AnimationPlayableBinding() noexcept {}
     // static public UnityEngine.Playables.PlayableBinding Create(System.String name, UnityEngine.Object key)
-    // Offset: 0x238696C
+    // Offset: 0x2382654
     static UnityEngine::Playables::PlayableBinding Create(::Il2CppString* name, UnityEngine::Object* key);
     // static private UnityEngine.Playables.PlayableOutput CreateAnimationOutput(UnityEngine.Playables.PlayableGraph graph, System.String name)
-    // Offset: 0x2386A8C
+    // Offset: 0x2382774
     static UnityEngine::Playables::PlayableOutput CreateAnimationOutput(UnityEngine::Playables::PlayableGraph graph, ::Il2CppString* name);
   }; // UnityEngine.Animations.AnimationPlayableBinding
   #pragma pack(pop)

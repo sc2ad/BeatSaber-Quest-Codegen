@@ -47,19 +47,19 @@ namespace System::Net {
     // Set static field: static private System.Net.ICredentialPolicy credential_policy
     static void _set_credential_policy(System::Net::ICredentialPolicy* value);
     // static private System.Void .cctor()
-    // Offset: 0x16CE000
+    // Offset: 0x16D3834
     static void _cctor();
     // static private System.Void EnsureModules()
-    // Offset: 0x16CD3E4
+    // Offset: 0x16D2C18
     static void EnsureModules();
     // static public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest request, System.Net.ICredentials credentials)
-    // Offset: 0x16CD618
+    // Offset: 0x16D2E4C
     static System::Net::Authorization* Authenticate(::Il2CppString* challenge, System::Net::WebRequest* request, System::Net::ICredentials* credentials);
     // static private System.Net.Authorization DoAuthenticate(System.String challenge, System.Net.WebRequest request, System.Net.ICredentials credentials)
-    // Offset: 0x16CD714
+    // Offset: 0x16D2F48
     static System::Net::Authorization* DoAuthenticate(::Il2CppString* challenge, System::Net::WebRequest* request, System::Net::ICredentials* credentials);
     // static public System.Net.Authorization PreAuthenticate(System.Net.WebRequest request, System.Net.ICredentials credentials)
-    // Offset: 0x16CDB6C
+    // Offset: 0x16D33A0
     static System::Net::Authorization* PreAuthenticate(System::Net::WebRequest* request, System::Net::ICredentials* credentials);
   }; // System.Net.AuthenticationManager
   #pragma pack(pop)

@@ -47,10 +47,10 @@ namespace System::Net {
     // Get instance field reference: public System.Net.SimpleAsyncResult <>4__this
     System::Net::SimpleAsyncResult*& dyn_$$4__this();
     // System.Void <.ctor>b__0(System.Net.SimpleAsyncResult result)
-    // Offset: 0x14A3E7C
+    // Offset: 0x14ABE38
     void $_ctor$b__0(System::Net::SimpleAsyncResult* result);
     // public System.Void .ctor()
-    // Offset: 0x14A35B8
+    // Offset: 0x14AB574
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

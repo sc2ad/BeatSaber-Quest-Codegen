@@ -42,16 +42,16 @@ namespace Oculus::Platform {
     // Get instance field reference: private System.IntPtr Handle
     System::IntPtr& dyn_Handle();
     // public System.Void SetPreventPeopleChooser(System.Boolean value)
-    // Offset: 0x1C80954
+    // Offset: 0x1B90F34
     void SetPreventPeopleChooser(bool value);
     // public System.Void SetReportType(Oculus.Platform.AbuseReportType value)
-    // Offset: 0x1C80A5C
+    // Offset: 0x1B9103C
     void SetReportType(Oculus::Platform::AbuseReportType value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.AbuseReportOptions options)
-    // Offset: 0x1C80B64
+    // Offset: 0x1B91144
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x1C8086C
+    // Offset: 0x1B90E4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -60,7 +60,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<AbuseReportOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x1C80BB4
+    // Offset: 0x1B91194
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

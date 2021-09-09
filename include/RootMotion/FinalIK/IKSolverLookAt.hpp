@@ -58,49 +58,49 @@ namespace RootMotion::FinalIK {
     ::Array<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>* eyes;
     // Field size check
     static_assert(sizeof(::Array<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>*) == 0x8);
-    // [RangeAttribute] Offset: 0xE26B24
+    // [RangeAttribute] Offset: 0xE2CA94
     // public System.Single bodyWeight
     // Size: 0x4
     // Offset: 0x78
     float bodyWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xE26B3C
+    // [RangeAttribute] Offset: 0xE2CAAC
     // public System.Single headWeight
     // Size: 0x4
     // Offset: 0x7C
     float headWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xE26B54
+    // [RangeAttribute] Offset: 0xE2CAC4
     // public System.Single eyesWeight
     // Size: 0x4
     // Offset: 0x80
     float eyesWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xE26B6C
+    // [RangeAttribute] Offset: 0xE2CADC
     // public System.Single clampWeight
     // Size: 0x4
     // Offset: 0x84
     float clampWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xE26B84
+    // [RangeAttribute] Offset: 0xE2CAF4
     // public System.Single clampWeightHead
     // Size: 0x4
     // Offset: 0x88
     float clampWeightHead;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xE26B9C
+    // [RangeAttribute] Offset: 0xE2CB0C
     // public System.Single clampWeightEyes
     // Size: 0x4
     // Offset: 0x8C
     float clampWeightEyes;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xE26BB4
+    // [RangeAttribute] Offset: 0xE2CB24
     // public System.Int32 clampSmoothing
     // Size: 0x4
     // Offset: 0x90
@@ -176,61 +176,61 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: protected UnityEngine.Vector3[] eyeForward
     ::Array<UnityEngine::Vector3>*& dyn_eyeForward();
     // protected System.Boolean get_spineIsValid()
-    // Offset: 0x1CB8228
+    // Offset: 0x1CB8EEC
     bool get_spineIsValid();
     // protected System.Boolean get_spineIsEmpty()
-    // Offset: 0x1CB8400
+    // Offset: 0x1CB90C4
     bool get_spineIsEmpty();
     // protected System.Boolean get_headIsValid()
-    // Offset: 0x1CB830C
+    // Offset: 0x1CB8FD0
     bool get_headIsValid();
     // protected System.Boolean get_headIsEmpty()
-    // Offset: 0x1CB8424
+    // Offset: 0x1CB90E8
     bool get_headIsEmpty();
     // protected System.Boolean get_eyesIsValid()
-    // Offset: 0x1CB831C
+    // Offset: 0x1CB8FE0
     bool get_eyesIsValid();
     // protected System.Boolean get_eyesIsEmpty()
-    // Offset: 0x1CB84A0
+    // Offset: 0x1CB9164
     bool get_eyesIsEmpty();
     // public System.Void SetLookAtWeight(System.Single weight)
-    // Offset: 0x1CB78E8
+    // Offset: 0x1CB85AC
     void SetLookAtWeight(float weight);
     // public System.Void SetLookAtWeight(System.Single weight, System.Single bodyWeight)
-    // Offset: 0x1CB796C
+    // Offset: 0x1CB8630
     void SetLookAtWeight(float weight, float bodyWeight);
     // public System.Void SetLookAtWeight(System.Single weight, System.Single bodyWeight, System.Single headWeight)
-    // Offset: 0x1CB7A18
+    // Offset: 0x1CB86DC
     void SetLookAtWeight(float weight, float bodyWeight, float headWeight);
     // public System.Void SetLookAtWeight(System.Single weight, System.Single bodyWeight, System.Single headWeight, System.Single eyesWeight)
-    // Offset: 0x1CB7AE0
+    // Offset: 0x1CB87A4
     void SetLookAtWeight(float weight, float bodyWeight, float headWeight, float eyesWeight);
     // public System.Void SetLookAtWeight(System.Single weight, System.Single bodyWeight, System.Single headWeight, System.Single eyesWeight, System.Single clampWeight)
-    // Offset: 0x1CB7BCC
+    // Offset: 0x1CB8890
     void SetLookAtWeight(float weight, float bodyWeight, float headWeight, float eyesWeight, float clampWeight);
     // public System.Void SetLookAtWeight(System.Single weight, System.Single bodyWeight, System.Single headWeight, System.Single eyesWeight, System.Single clampWeight, System.Single clampWeightHead, System.Single clampWeightEyes)
-    // Offset: 0x1CB7CD8
+    // Offset: 0x1CB899C
     void SetLookAtWeight(float weight, float bodyWeight, float headWeight, float eyesWeight, float clampWeight, float clampWeightHead, float clampWeightEyes);
     // public System.Boolean SetChain(UnityEngine.Transform[] spine, UnityEngine.Transform head, UnityEngine.Transform[] eyes, UnityEngine.Transform root)
-    // Offset: 0x1CB889C
+    // Offset: 0x1CB9560
     bool SetChain(::Array<UnityEngine::Transform*>* spine, UnityEngine::Transform* head, ::Array<UnityEngine::Transform*>* eyes, UnityEngine::Transform* root);
     // protected System.Void SolveSpine()
-    // Offset: 0x1CB9040
+    // Offset: 0x1CB9D04
     void SolveSpine();
     // protected System.Void SolveHead()
-    // Offset: 0x1CB926C
+    // Offset: 0x1CB9F30
     void SolveHead();
     // protected System.Void SolveEyes()
-    // Offset: 0x1CB94C8
+    // Offset: 0x1CBA18C
     void SolveEyes();
     // protected UnityEngine.Vector3[] GetForwards(ref UnityEngine.Vector3[] forwards, UnityEngine.Vector3 baseForward, UnityEngine.Vector3 targetForward, System.Int32 bones, System.Single clamp)
-    // Offset: 0x1CB99F4
+    // Offset: 0x1CBA6B8
     ::Array<UnityEngine::Vector3>* GetForwards(ByRef<::Array<UnityEngine::Vector3>*> forwards, UnityEngine::Vector3 baseForward, UnityEngine::Vector3 targetForward, int bones, float clamp);
     // protected System.Void SetBones(UnityEngine.Transform[] array, ref RootMotion.FinalIK.IKSolverLookAt/RootMotion.FinalIK.LookAtBone[] bones)
-    // Offset: 0x1CB894C
+    // Offset: 0x1CB9610
     void SetBones(::Array<UnityEngine::Transform*>* array, ByRef<::Array<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>*> bones);
     // public System.Void .ctor()
-    // Offset: 0x1CB9E94
+    // Offset: 0x1CBAB58
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -240,37 +240,37 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverLookAt*, creationType>()));
     }
     // public override System.Void StoreDefaultLocalState()
-    // Offset: 0x1CB7E20
+    // Offset: 0x1CB8AE4
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::StoreDefaultLocalState()
     void StoreDefaultLocalState();
     // public override System.Void FixTransforms()
-    // Offset: 0x1CB7F50
+    // Offset: 0x1CB8C14
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::FixTransforms()
     void FixTransforms();
     // public override System.Boolean IsValid(ref System.String message)
-    // Offset: 0x1CB8094
+    // Offset: 0x1CB8D58
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Boolean IKSolver::IsValid(ref System.String message)
     bool IsValid(ByRef<::Il2CppString*> message);
     // public override RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point[] GetPoints()
-    // Offset: 0x1CB84C4
+    // Offset: 0x1CB9188
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point[] IKSolver::GetPoints()
     ::Array<RootMotion::FinalIK::IKSolver::Point*>* GetPoints();
     // public override RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point GetPoint(UnityEngine.Transform transform)
-    // Offset: 0x1CB86FC
+    // Offset: 0x1CB93C0
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point IKSolver::GetPoint(UnityEngine.Transform transform)
     RootMotion::FinalIK::IKSolver::Point* GetPoint(UnityEngine::Transform* transform);
     // protected override System.Void OnInitiate()
-    // Offset: 0x1CB8AF0
+    // Offset: 0x1CB97B4
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::OnInitiate()
     void OnInitiate();
     // protected override System.Void OnUpdate()
-    // Offset: 0x1CB8F3C
+    // Offset: 0x1CB9C00
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::OnUpdate()
     void OnUpdate();

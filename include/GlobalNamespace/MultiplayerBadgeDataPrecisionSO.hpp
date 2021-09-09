@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerBadgeDataPrecisionSO
     MultiplayerBadgeDataPrecisionSO() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x11A25F0
+    // Offset: 0x11C5528
     // Implemented from: MultiplayerBadgeDataMinMaxFloatSO
     // Base method: System.Void MultiplayerBadgeDataMinMaxFloatSO::.ctor()
     // Base method: System.Void MultiplayerBadgeDataSO::.ctor()
@@ -43,7 +43,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerBadgeDataPrecisionSO*, creationType>()));
     }
     // protected override System.Single GetValue(MultiplayerPlayerResultsData result)
-    // Offset: 0x11A25B0
+    // Offset: 0x11C54E8
     // Implemented from: MultiplayerBadgeDataMinMaxFloatSO
     // Base method: System.Single MultiplayerBadgeDataMinMaxFloatSO::GetValue(MultiplayerPlayerResultsData result)
     float GetValue(GlobalNamespace::MultiplayerPlayerResultsData* result);

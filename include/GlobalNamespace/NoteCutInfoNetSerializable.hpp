@@ -166,27 +166,27 @@ namespace GlobalNamespace {
     // Get instance field reference: public Vector3Serializable moveVec
     GlobalNamespace::Vector3Serializable& dyn_moveVec();
     // public System.Void .ctor(in NoteCutInfo noteCutInfo, NoteData noteData, UnityEngine.Vector3 notePosition, UnityEngine.Quaternion noteRotation, UnityEngine.Vector3 noteScale, UnityEngine.Vector3 moveVec)
-    // Offset: 0x237BBF4
+    // Offset: 0x23768B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutInfoNetSerializable* New_ctor(ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo, GlobalNamespace::NoteData* noteData, UnityEngine::Vector3 notePosition, UnityEngine::Quaternion noteRotation, UnityEngine::Vector3 noteScale, UnityEngine::Vector3 moveVec) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NoteCutInfoNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutInfoNetSerializable*, creationType>(byref(noteCutInfo), noteData, notePosition, noteRotation, noteScale, moveVec)));
     }
     // public System.Void .ctor(System.Single saberSpeed, System.Boolean cutWasOk, UnityEngine.Vector3 saberDir, UnityEngine.Vector3 cutPoint, UnityEngine.Vector3 cutNormal, ColorType colorType, NoteLineLayer noteLineLayer, System.Int32 noteLineIndex, System.Single noteTime, System.Single timeToNextColorNote, UnityEngine.Vector3 notePosition, UnityEngine.Quaternion noteRotation, UnityEngine.Vector3 noteScale, UnityEngine.Vector3 moveVec)
-    // Offset: 0x237BCD8
+    // Offset: 0x237699C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutInfoNetSerializable* New_ctor(float saberSpeed, bool cutWasOk, UnityEngine::Vector3 saberDir, UnityEngine::Vector3 cutPoint, UnityEngine::Vector3 cutNormal, GlobalNamespace::ColorType colorType, GlobalNamespace::NoteLineLayer noteLineLayer, int noteLineIndex, float noteTime, float timeToNextColorNote, UnityEngine::Vector3 notePosition, UnityEngine::Quaternion noteRotation, UnityEngine::Vector3 noteScale, UnityEngine::Vector3 moveVec) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NoteCutInfoNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutInfoNetSerializable*, creationType>(saberSpeed, cutWasOk, saberDir, cutPoint, cutNormal, colorType, noteLineLayer, noteLineIndex, noteTime, timeToNextColorNote, notePosition, noteRotation, noteScale, moveVec)));
     }
     // private System.Void LiteNetLib.Utils.INetSerializable.Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x237B7E4
+    // Offset: 0x23764A8
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // private System.Void LiteNetLib.Utils.INetSerializable.Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x237B9B8
+    // Offset: 0x237667C
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void .ctor()
-    // Offset: 0x237BBEC
+    // Offset: 0x23768B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -65,7 +65,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.Boolean MicEnabled
     bool& dyn_MicEnabled();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14EC1C0
+    // Offset: 0x1530D90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LivestreamingStatus* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LivestreamingStatus::.ctor");

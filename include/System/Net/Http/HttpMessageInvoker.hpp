@@ -65,20 +65,20 @@ namespace System::Net::Http {
     // Get instance field reference: private readonly System.Boolean disposeHandler
     bool& dyn_disposeHandler();
     // public System.Void .ctor(System.Net.Http.HttpMessageHandler handler, System.Boolean disposeHandler)
-    // Offset: 0x15AA9D0
+    // Offset: 0x15B5204
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpMessageInvoker* New_ctor(System::Net::Http::HttpMessageHandler* handler, bool disposeHandler) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::HttpMessageInvoker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpMessageInvoker*, creationType>(handler, disposeHandler)));
     }
     // public System.Void Dispose()
-    // Offset: 0x15AEF0C
+    // Offset: 0x15B9740
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x15AAC2C
+    // Offset: 0x15B5460
     void Dispose(bool disposing);
     // public System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> SendAsync(System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x15AB560
+    // Offset: 0x15B5D94
     System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* SendAsync(System::Net::Http::HttpRequestMessage* request, System::Threading::CancellationToken cancellationToken);
   }; // System.Net.Http.HttpMessageInvoker
   #pragma pack(pop)

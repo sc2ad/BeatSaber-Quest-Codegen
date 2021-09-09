@@ -29,6 +29,8 @@ namespace Oculus::Platform {
 }
 // Forward declaring namespace: Oculus::Platform::Models
 namespace Oculus::Platform::Models {
+  // Forward declaring type: MicrophoneAvailabilityState
+  class MicrophoneAvailabilityState;
   // Forward declaring type: SystemVoipState
   class SystemVoipState;
   // Forward declaring type: NetworkingPeer
@@ -46,49 +48,55 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: Voip
     Voip() noexcept {}
     // static public System.Void Start(System.UInt64 userID)
-    // Offset: 0x23DD168
+    // Offset: 0x23B88E0
     static void Start(uint64_t userID);
     // static public System.Void Accept(System.UInt64 userID)
-    // Offset: 0x23DD254
+    // Offset: 0x23B89CC
     static void Accept(uint64_t userID);
     // static public System.Void Stop(System.UInt64 userID)
-    // Offset: 0x23DD340
+    // Offset: 0x23B8AB8
     static void Stop(uint64_t userID);
     // static public System.Void SetMicrophoneFilterCallback(Oculus.Platform.CAPI/Oculus.Platform.FilterCallback callback)
-    // Offset: 0x23DD42C
+    // Offset: 0x23B8BA4
     static void SetMicrophoneFilterCallback(Oculus::Platform::CAPI::FilterCallback* callback);
     // static public System.Void SetMicrophoneMuted(Oculus.Platform.VoipMuteState state)
-    // Offset: 0x23DD550
+    // Offset: 0x23B8CC8
     static void SetMicrophoneMuted(Oculus::Platform::VoipMuteState state);
     // static public Oculus.Platform.VoipMuteState GetSystemVoipMicrophoneMuted()
-    // Offset: 0x23DD63C
+    // Offset: 0x23B8DB4
     static Oculus::Platform::VoipMuteState GetSystemVoipMicrophoneMuted();
     // static public Oculus.Platform.SystemVoipStatus GetSystemVoipStatus()
-    // Offset: 0x23DD718
+    // Offset: 0x23B8E90
     static Oculus::Platform::SystemVoipStatus GetSystemVoipStatus();
     // static public Oculus.Platform.VoipDtxState GetIsConnectionUsingDtx(System.UInt64 peerID)
-    // Offset: 0x23DD7F4
+    // Offset: 0x23B8F6C
     static Oculus::Platform::VoipDtxState GetIsConnectionUsingDtx(uint64_t peerID);
     // static public Oculus.Platform.VoipBitrate GetLocalBitrate(System.UInt64 peerID)
-    // Offset: 0x23DD8E4
+    // Offset: 0x23B905C
     static Oculus::Platform::VoipBitrate GetLocalBitrate(uint64_t peerID);
     // static public Oculus.Platform.VoipBitrate GetRemoteBitrate(System.UInt64 peerID)
-    // Offset: 0x23DD9D4
+    // Offset: 0x23B914C
     static Oculus::Platform::VoipBitrate GetRemoteBitrate(uint64_t peerID);
     // static public System.Void SetNewConnectionOptions(Oculus.Platform.VoipOptions voipOptions)
-    // Offset: 0x23DDAC4
+    // Offset: 0x23B923C
     static void SetNewConnectionOptions(Oculus::Platform::VoipOptions* voipOptions);
+    // static public Oculus.Platform.Request`1<Oculus.Platform.Models.MicrophoneAvailabilityState> GetMicrophoneAvailability()
+    // Offset: 0x23B93A4
+    static Oculus::Platform::Request_1<Oculus::Platform::Models::MicrophoneAvailabilityState*>* GetMicrophoneAvailability();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.SystemVoipState> SetSystemVoipSuppressed(System.Boolean suppressed)
-    // Offset: 0x23DDC2C
+    // Offset: 0x23B94B0
     static Oculus::Platform::Request_1<Oculus::Platform::Models::SystemVoipState*>* SetSystemVoipSuppressed(bool suppressed);
     // static public System.Void SetVoipConnectRequestCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.NetworkingPeer> callback)
-    // Offset: 0x23DDD48
+    // Offset: 0x23B95CC
     static void SetVoipConnectRequestCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer*>::Callback* callback);
+    // static public System.Void SetMicrophoneAvailabilityStateUpdateNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<System.String> callback)
+    // Offset: 0x23B9644
+    static void SetMicrophoneAvailabilityStateUpdateNotificationCallback(typename Oculus::Platform::Message_1<::Il2CppString*>::Callback* callback);
     // static public System.Void SetVoipStateChangeCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.NetworkingPeer> callback)
-    // Offset: 0x23DDDC0
+    // Offset: 0x23B96BC
     static void SetVoipStateChangeCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer*>::Callback* callback);
     // static public System.Void SetSystemVoipStateNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.SystemVoipState> callback)
-    // Offset: 0x23DDE38
+    // Offset: 0x23B9734
     static void SetSystemVoipStateNotificationCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::SystemVoipState*>::Callback* callback);
   }; // Oculus.Platform.Voip
   #pragma pack(pop)
@@ -193,6 +201,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Oc
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Voip*), "SetNewConnectionOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{voipOptions});
   }
 };
+// Writing MetadataGetter for method: Oculus::Platform::Voip::GetMicrophoneAvailability
+// Il2CppName: GetMicrophoneAvailability
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::MicrophoneAvailabilityState*>* (*)()>(&Oculus::Platform::Voip::GetMicrophoneAvailability)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Voip*), "GetMicrophoneAvailability", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::Voip::SetSystemVoipSuppressed
 // Il2CppName: SetSystemVoipSuppressed
 template<>
@@ -204,6 +220,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 };
 // Writing MetadataGetter for method: Oculus::Platform::Voip::SetVoipConnectRequestCallback
 // Il2CppName: SetVoipConnectRequestCallback
+// Cannot write MetadataGetter for a method that has a nested type with a declaring generic type anywhere within it!
+// Talk to sc2ad if this is something you want
+// Writing MetadataGetter for method: Oculus::Platform::Voip::SetMicrophoneAvailabilityStateUpdateNotificationCallback
+// Il2CppName: SetMicrophoneAvailabilityStateUpdateNotificationCallback
 // Cannot write MetadataGetter for a method that has a nested type with a declaring generic type anywhere within it!
 // Talk to sc2ad if this is something you want
 // Writing MetadataGetter for method: Oculus::Platform::Voip::SetVoipStateChangeCallback

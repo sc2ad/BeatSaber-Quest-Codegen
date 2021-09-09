@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _minIntensity
     float& dyn__minIntensity();
     // public System.Void .ctor()
-    // Offset: 0x1E16E28
+    // Offset: 0x1E16AEC
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -75,7 +75,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<DirectionalLightWithId*, creationType>()));
     }
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1E16D6C
+    // Offset: 0x1E16A30
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);

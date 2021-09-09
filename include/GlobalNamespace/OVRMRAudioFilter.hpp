@@ -50,13 +50,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public OVRExternalComposition composition
     GlobalNamespace::OVRExternalComposition*& dyn_composition();
     // private System.Void Start()
-    // Offset: 0x153ED20
+    // Offset: 0x15484B8
     void Start();
     // private System.Void OnAudioFilterRead(System.Single[] data, System.Int32 channels)
-    // Offset: 0x153ED2C
+    // Offset: 0x15484C4
     void OnAudioFilterRead(::Array<float>* data, int channels);
     // public System.Void .ctor()
-    // Offset: 0x153ED48
+    // Offset: 0x15484E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

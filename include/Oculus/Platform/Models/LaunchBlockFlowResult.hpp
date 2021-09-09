@@ -39,7 +39,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.Boolean DidCancel
     bool& dyn_DidCancel();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14EAC38
+    // Offset: 0x152F804
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LaunchBlockFlowResult* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LaunchBlockFlowResult::.ctor");

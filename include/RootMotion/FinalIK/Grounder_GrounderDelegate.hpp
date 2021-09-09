@@ -34,20 +34,20 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: GrounderDelegate
     GrounderDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1CC3BF8
+    // Offset: 0x1CC48BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Grounder::GrounderDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::Grounder::GrounderDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Grounder::GrounderDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke()
-    // Offset: 0x1CC3C08
+    // Offset: 0x1CC48CC
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1CC3E14
+    // Offset: 0x1CC4AD8
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1CC3E40
+    // Offset: 0x1CC4B04
     void EndInvoke(System::IAsyncResult* result);
   }; // RootMotion.FinalIK.Grounder/RootMotion.FinalIK.GrounderDelegate
   #pragma pack(pop)

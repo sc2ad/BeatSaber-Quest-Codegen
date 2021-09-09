@@ -98,43 +98,43 @@ namespace System::Net::Http {
     // Get instance field reference: private System.Net.Http.Headers.HttpContentHeaders headers
     System::Net::Http::Headers::HttpContentHeaders*& dyn_headers();
     // public System.Net.Http.Headers.HttpContentHeaders get_Headers()
-    // Offset: 0x15ACC48
+    // Offset: 0x15B747C
     System::Net::Http::Headers::HttpContentHeaders* get_Headers();
     // System.Nullable`1<System.Int64> get_LoadedBufferLength()
-    // Offset: 0x159FE7C
+    // Offset: 0x15AA6B0
     System::Nullable_1<int64_t> get_LoadedBufferLength();
     // System.Void CopyTo(System.IO.Stream stream)
-    // Offset: 0x15AE33C
+    // Offset: 0x15B8B70
     void CopyTo(System::IO::Stream* stream);
     // public System.Threading.Tasks.Task CopyToAsync(System.IO.Stream stream)
-    // Offset: 0x15AE254
+    // Offset: 0x15B8A88
     System::Threading::Tasks::Task* CopyToAsync(System::IO::Stream* stream);
     // public System.Threading.Tasks.Task CopyToAsync(System.IO.Stream stream, System.Net.TransportContext context)
-    // Offset: 0x15AE360
+    // Offset: 0x15B8B94
     System::Threading::Tasks::Task* CopyToAsync(System::IO::Stream* stream, System::Net::TransportContext* context);
     // static private System.Net.Http.HttpContent/System.Net.Http.FixedMemoryStream CreateFixedMemoryStream(System.Int64 maxBufferSize)
-    // Offset: 0x15AE424
+    // Offset: 0x15B8C58
     static System::Net::Http::HttpContent::FixedMemoryStream* CreateFixedMemoryStream(int64_t maxBufferSize);
     // public System.Void Dispose()
-    // Offset: 0x15AE4B4
+    // Offset: 0x15B8CE8
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x15AE4C4
+    // Offset: 0x15B8CF8
     void Dispose(bool disposing);
     // public System.Threading.Tasks.Task LoadIntoBufferAsync()
-    // Offset: 0x15AE4F0
+    // Offset: 0x15B8D24
     System::Threading::Tasks::Task* LoadIntoBufferAsync();
     // public System.Threading.Tasks.Task LoadIntoBufferAsync(System.Int64 maxBufferSize)
-    // Offset: 0x15AC098
+    // Offset: 0x15B68CC
     System::Threading::Tasks::Task* LoadIntoBufferAsync(int64_t maxBufferSize);
     // public System.Threading.Tasks.Task`1<System.String> ReadAsStringAsync()
-    // Offset: 0x15ABA28
+    // Offset: 0x15B625C
     System::Threading::Tasks::Task_1<::Il2CppString*>* ReadAsStringAsync();
     // static private System.Text.Encoding GetEncodingFromBuffer(System.Byte[] buffer, System.Int32 length, ref System.Int32 preambleLength)
-    // Offset: 0x15AE4F8
+    // Offset: 0x15B8D2C
     static System::Text::Encoding* GetEncodingFromBuffer(::Array<uint8_t>* buffer, int length, ByRef<int> preambleLength);
     // static private System.Int32 StartsWith(System.Byte[] array, System.Int32 length, System.Byte[] value)
-    // Offset: 0x15AE688
+    // Offset: 0x15B8EBC
     static int StartsWith(::Array<uint8_t>* array, int length, ::Array<uint8_t>* value);
     // protected internal System.Threading.Tasks.Task SerializeToStreamAsync(System.IO.Stream stream, System.Net.TransportContext context)
     // Offset: 0xFFFFFFFF
@@ -143,7 +143,7 @@ namespace System::Net::Http {
     // Offset: 0xFFFFFFFF
     bool TryComputeLength(ByRef<int64_t> length);
     // protected System.Void .ctor()
-    // Offset: 0x15AE704
+    // Offset: 0x15B8F38
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

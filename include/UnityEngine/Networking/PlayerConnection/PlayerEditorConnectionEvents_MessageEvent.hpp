@@ -31,7 +31,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Creating value type constructor for type: MessageEvent
     MessageEvent() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1D08D34
+    // Offset: 0x1D099F8
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

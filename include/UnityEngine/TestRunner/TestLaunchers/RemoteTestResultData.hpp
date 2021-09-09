@@ -193,7 +193,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Get instance field reference: public System.String[] childrenIds
     ::Array<::Il2CppString*>*& dyn_childrenIds();
     // System.Void .ctor(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x14BC9EC
+    // Offset: 0x14C49A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemoteTestResultData* New_ctor(NUnit::Framework::Interfaces::ITestResult* result) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::.ctor");

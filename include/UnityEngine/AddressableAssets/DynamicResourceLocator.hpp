@@ -69,26 +69,26 @@ namespace UnityEngine::AddressableAssets {
     // Get instance field reference: private System.String m_AtlasSpriteProviderId
     ::Il2CppString*& dyn_m_AtlasSpriteProviderId();
     // public System.String get_LocatorId()
-    // Offset: 0x14445B8
+    // Offset: 0x144C574
     ::Il2CppString* get_LocatorId();
     // public System.Collections.Generic.IEnumerable`1<System.Object> get_Keys()
-    // Offset: 0x1444600
+    // Offset: 0x144C5BC
     System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* get_Keys();
     // private System.String get_AtlasSpriteProviderId()
-    // Offset: 0x144464C
+    // Offset: 0x144C608
     ::Il2CppString* get_AtlasSpriteProviderId();
     // public System.Void .ctor(UnityEngine.AddressableAssets.AddressablesImpl addr)
-    // Offset: 0x1444A24
+    // Offset: 0x144C9E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DynamicResourceLocator* New_ctor(UnityEngine::AddressableAssets::AddressablesImpl* addr) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::DynamicResourceLocator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DynamicResourceLocator*, creationType>(addr)));
     }
     // public System.Boolean Locate(System.Object key, System.Type type, out System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations)
-    // Offset: 0x1444A50
+    // Offset: 0x144CA0C
     bool Locate(::Il2CppObject* key, System::Type* type, ByRef<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> locations);
     // System.Void CreateDynamicLocations(System.Type type, System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations, System.String locName, System.String subKey, UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation mainLoc)
-    // Offset: 0x1444EE8
+    // Offset: 0x144CEA4
     void CreateDynamicLocations(System::Type* type, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations, ::Il2CppString* locName, ::Il2CppString* subKey, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* mainLoc);
   }; // UnityEngine.AddressableAssets.DynamicResourceLocator
   #pragma pack(pop)

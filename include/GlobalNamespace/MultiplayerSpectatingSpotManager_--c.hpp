@@ -45,13 +45,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<IMultiplayerSpectatingSpot,System.Boolean> <>9__3_0
     static void _set_$$9__3_0(System::Func_2<GlobalNamespace::IMultiplayerSpectatingSpot*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x103AAFC
+    // Offset: 0x1043300
     static void _cctor();
     // System.Boolean <get_defaultSpot>b__3_0(IMultiplayerSpectatingSpot s)
-    // Offset: 0x103AB68
+    // Offset: 0x104336C
     bool $get_defaultSpot$b__3_0(GlobalNamespace::IMultiplayerSpectatingSpot* s);
     // public System.Void .ctor()
-    // Offset: 0x103AB60
+    // Offset: 0x1043364
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

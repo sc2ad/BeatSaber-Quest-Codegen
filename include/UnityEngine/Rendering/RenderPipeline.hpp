@@ -26,7 +26,7 @@ namespace UnityEngine::Rendering {
   // [TokenAttribute] Offset: FFFFFFFF
   class RenderPipeline : public ::Il2CppObject {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xDB3F4C
+    // [DebuggerBrowsableAttribute] Offset: 0xDB9EBC
     // private System.Boolean <disposed>k__BackingField
     // Size: 0x1
     // Offset: 0x10
@@ -42,22 +42,22 @@ namespace UnityEngine::Rendering {
     // Get instance field reference: private System.Boolean <disposed>k__BackingField
     bool& dyn_$disposed$k__BackingField();
     // public System.Boolean get_disposed()
-    // Offset: 0x1C49D40
+    // Offset: 0x1C74ED8
     bool get_disposed();
     // private System.Void set_disposed(System.Boolean value)
-    // Offset: 0x1C49D48
+    // Offset: 0x1C74EE0
     void set_disposed(bool value);
     // protected System.Void Render(UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras)
     // Offset: 0xFFFFFFFF
     void Render(UnityEngine::Rendering::ScriptableRenderContext context, ::Array<UnityEngine::Camera*>* cameras);
     // System.Void InternalRender(UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras)
-    // Offset: 0x1C49C80
+    // Offset: 0x1C74E18
     void InternalRender(UnityEngine::Rendering::ScriptableRenderContext context, ::Array<UnityEngine::Camera*>* cameras);
     // System.Void Dispose()
-    // Offset: 0x1C49D54
+    // Offset: 0x1C74EEC
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1C49DDC
+    // Offset: 0x1C74F74
     void Dispose(bool disposing);
   }; // UnityEngine.Rendering.RenderPipeline
   #pragma pack(pop)

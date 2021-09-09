@@ -32,35 +32,35 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xE1CAD0
+    // [DescriptionAttribute] Offset: 0xE21A40
     // static field const value: static public Oculus.Platform.MatchmakingCriterionImportance Required
     static constexpr const int Required = 0;
     // Get static field: static public Oculus.Platform.MatchmakingCriterionImportance Required
     static Oculus::Platform::MatchmakingCriterionImportance _get_Required();
     // Set static field: static public Oculus.Platform.MatchmakingCriterionImportance Required
     static void _set_Required(Oculus::Platform::MatchmakingCriterionImportance value);
-    // [DescriptionAttribute] Offset: 0xE1CB08
+    // [DescriptionAttribute] Offset: 0xE21A78
     // static field const value: static public Oculus.Platform.MatchmakingCriterionImportance High
     static constexpr const int High = 1;
     // Get static field: static public Oculus.Platform.MatchmakingCriterionImportance High
     static Oculus::Platform::MatchmakingCriterionImportance _get_High();
     // Set static field: static public Oculus.Platform.MatchmakingCriterionImportance High
     static void _set_High(Oculus::Platform::MatchmakingCriterionImportance value);
-    // [DescriptionAttribute] Offset: 0xE1CB40
+    // [DescriptionAttribute] Offset: 0xE21AB0
     // static field const value: static public Oculus.Platform.MatchmakingCriterionImportance Medium
     static constexpr const int Medium = 2;
     // Get static field: static public Oculus.Platform.MatchmakingCriterionImportance Medium
     static Oculus::Platform::MatchmakingCriterionImportance _get_Medium();
     // Set static field: static public Oculus.Platform.MatchmakingCriterionImportance Medium
     static void _set_Medium(Oculus::Platform::MatchmakingCriterionImportance value);
-    // [DescriptionAttribute] Offset: 0xE1CB78
+    // [DescriptionAttribute] Offset: 0xE21AE8
     // static field const value: static public Oculus.Platform.MatchmakingCriterionImportance Low
     static constexpr const int Low = 3;
     // Get static field: static public Oculus.Platform.MatchmakingCriterionImportance Low
     static Oculus::Platform::MatchmakingCriterionImportance _get_Low();
     // Set static field: static public Oculus.Platform.MatchmakingCriterionImportance Low
     static void _set_Low(Oculus::Platform::MatchmakingCriterionImportance value);
-    // [DescriptionAttribute] Offset: 0xE1CBB0
+    // [DescriptionAttribute] Offset: 0xE21B20
     // static field const value: static public Oculus.Platform.MatchmakingCriterionImportance Unknown
     static constexpr const int Unknown = 4;
     // Get static field: static public Oculus.Platform.MatchmakingCriterionImportance Unknown

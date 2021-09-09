@@ -47,10 +47,10 @@ namespace HMUI {
     // Get instance field reference: public HMUI.UIKeyboard <>4__this
     HMUI::UIKeyboard*& dyn_$$4__this();
     // System.Void <Awake>b__2()
-    // Offset: 0x13086AC
+    // Offset: 0x132037C
     void $Awake$b__2();
     // public System.Void .ctor()
-    // Offset: 0x13083A4
+    // Offset: 0x1320074
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -38,15 +38,22 @@ namespace GlobalNamespace {
     ::Il2CppString*& dyn_lobbySecret();
     // Get instance field reference: public readonly System.String lobbyCode
     ::Il2CppString*& dyn_lobbyCode();
+    // public System.Void .ctor(System.String lobbySecret, System.String lobbyCode)
+    // Offset: 0x1092358
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static SelectMultiplayerLobbyDestination* New_ctor(::Il2CppString* lobbySecret, ::Il2CppString* lobbyCode) {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SelectMultiplayerLobbyDestination::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<SelectMultiplayerLobbyDestination*, creationType>(lobbySecret, lobbyCode)));
+    }
     // public System.Void .ctor(System.UInt64 roomId)
-    // Offset: 0x119DD50
+    // Offset: 0x1092390
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectMultiplayerLobbyDestination* New_ctor(uint64_t roomId) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SelectMultiplayerLobbyDestination::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SelectMultiplayerLobbyDestination*, creationType>(roomId)));
     }
     // public System.Void .ctor(System.String lobbyCode)
-    // Offset: 0x119DE14
+    // Offset: 0x1092454
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectMultiplayerLobbyDestination* New_ctor(::Il2CppString* lobbyCode) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SelectMultiplayerLobbyDestination::.ctor");
@@ -59,6 +66,10 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectMultiplayerLobbyDestination*, "", "SelectMultiplayerLobbyDestination");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SelectMultiplayerLobbyDestination::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SelectMultiplayerLobbyDestination::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

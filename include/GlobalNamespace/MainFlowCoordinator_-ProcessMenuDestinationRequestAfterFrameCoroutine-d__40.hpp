@@ -71,26 +71,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public MenuDestination destination
     GlobalNamespace::MenuDestination*& dyn_destination();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x10E0BA4
+    // Offset: 0x11A2B9C
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x10E0C0C
+    // Offset: 0x11A2C04
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x10E07C8
+    // Offset: 0x11A27C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainFlowCoordinator::$ProcessMenuDestinationRequestAfterFrameCoroutine$d__40* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MainFlowCoordinator::$ProcessMenuDestinationRequestAfterFrameCoroutine$d__40::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainFlowCoordinator::$ProcessMenuDestinationRequestAfterFrameCoroutine$d__40*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x10E0B48
+    // Offset: 0x11A2B40
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x10E0B4C
+    // Offset: 0x11A2B44
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x10E0BAC
+    // Offset: 0x11A2BA4
     void System_Collections_IEnumerator_Reset();
   }; // MainFlowCoordinator/<ProcessMenuDestinationRequestAfterFrameCoroutine>d__40
   #pragma pack(pop)

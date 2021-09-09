@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private NetEaseManager _netEaseManagerPrefab
     GlobalNamespace::NetEaseManager*& dyn__netEaseManagerPrefab();
     // public System.Void .ctor()
-    // Offset: 0x103DCE0
+    // Offset: 0x10464B8
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -53,7 +53,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NetEaseAppCoreInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x103DC6C
+    // Offset: 0x1046444
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

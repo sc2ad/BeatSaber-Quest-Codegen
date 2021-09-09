@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     ::Il2CppString* colorSchemeId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0xE1AD20
+    // [LocalizationKeyAttribute] Offset: 0xE1FC90
     // private System.String _colorSchemeNameLocalizationKey
     // Size: 0x8
     // Offset: 0x18
@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isEditable and: saberAColor
     char __padding4[0x3] = {};
-    // [SpaceAttribute] Offset: 0xE1AD88
+    // [SpaceAttribute] Offset: 0xE1FCF8
     // private UnityEngine.Color _saberAColor
     // Size: 0x10
     // Offset: 0x34
@@ -75,14 +75,14 @@ namespace GlobalNamespace {
     UnityEngine::Color saberBColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // [SpaceAttribute] Offset: 0xE1ADD0
+    // [SpaceAttribute] Offset: 0xE1FD40
     // private UnityEngine.Color _obstaclesColor
     // Size: 0x10
     // Offset: 0x54
     UnityEngine::Color obstaclesColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // [SpaceAttribute] Offset: 0xE1AE08
+    // [SpaceAttribute] Offset: 0xE1FD78
     // private UnityEngine.Color _environmentColor0
     // Size: 0x10
     // Offset: 0x64
@@ -144,67 +144,67 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _environmentColor1Boost
     UnityEngine::Color& dyn__environmentColor1Boost();
     // public System.String get_colorSchemeId()
-    // Offset: 0x241EF08
+    // Offset: 0x241BC54
     ::Il2CppString* get_colorSchemeId();
     // public System.String get_colorSchemeNameLocalizationKey()
-    // Offset: 0x241EF10
+    // Offset: 0x241BC5C
     ::Il2CppString* get_colorSchemeNameLocalizationKey();
     // public System.String get_nonLocalizedName()
-    // Offset: 0x241EF18
+    // Offset: 0x241BC64
     ::Il2CppString* get_nonLocalizedName();
     // public System.Boolean get_useNonLocalizedName()
-    // Offset: 0x241EF20
+    // Offset: 0x241BC6C
     bool get_useNonLocalizedName();
     // public System.Boolean get_isEditable()
-    // Offset: 0x241EF28
+    // Offset: 0x241BC74
     bool get_isEditable();
     // public UnityEngine.Color get_saberAColor()
-    // Offset: 0x241EF30
+    // Offset: 0x241BC7C
     UnityEngine::Color get_saberAColor();
     // public UnityEngine.Color get_saberBColor()
-    // Offset: 0x241EF3C
+    // Offset: 0x241BC88
     UnityEngine::Color get_saberBColor();
     // public UnityEngine.Color get_environmentColor0()
-    // Offset: 0x241EF48
+    // Offset: 0x241BC94
     UnityEngine::Color get_environmentColor0();
     // public UnityEngine.Color get_environmentColor1()
-    // Offset: 0x241EF54
+    // Offset: 0x241BCA0
     UnityEngine::Color get_environmentColor1();
     // public System.Boolean get_supportsEnvironmentColorBoost()
-    // Offset: 0x241EF60
+    // Offset: 0x241BCAC
     bool get_supportsEnvironmentColorBoost();
     // public UnityEngine.Color get_environmentColor0Boost()
-    // Offset: 0x241EF68
+    // Offset: 0x241BCB4
     UnityEngine::Color get_environmentColor0Boost();
     // public UnityEngine.Color get_environmentColor1Boost()
-    // Offset: 0x241EF74
+    // Offset: 0x241BCC0
     UnityEngine::Color get_environmentColor1Boost();
     // public UnityEngine.Color get_obstaclesColor()
-    // Offset: 0x241EF80
+    // Offset: 0x241BCCC
     UnityEngine::Color get_obstaclesColor();
     // public System.Void .ctor(System.String colorSchemeId, System.String colorSchemeNameLocalizationKey, System.Boolean useNonLocalizedName, System.String nonLocalizedName, System.Boolean isEditable, UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color environmentColor0, UnityEngine.Color environmentColor1, System.Boolean supportsEnvironmentColorBoost, UnityEngine.Color environmentColor0Boost, UnityEngine.Color environmentColor1Boost, UnityEngine.Color obstaclesColor)
-    // Offset: 0x241EF8C
+    // Offset: 0x241BCD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorScheme* New_ctor(::Il2CppString* colorSchemeId, ::Il2CppString* colorSchemeNameLocalizationKey, bool useNonLocalizedName, ::Il2CppString* nonLocalizedName, bool isEditable, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, bool supportsEnvironmentColorBoost, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost, UnityEngine::Color obstaclesColor) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ColorScheme::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorScheme*, creationType>(colorSchemeId, colorSchemeNameLocalizationKey, useNonLocalizedName, nonLocalizedName, isEditable, saberAColor, saberBColor, environmentColor0, environmentColor1, supportsEnvironmentColorBoost, environmentColor0Boost, environmentColor1Boost, obstaclesColor)));
     }
     // public System.Void .ctor(ColorScheme colorScheme, UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color environmentColor0, UnityEngine.Color environmentColor1, System.Boolean supportsEnvironmentColorBoost, UnityEngine.Color environmentColor0Boost, UnityEngine.Color environmentColor1Boost, UnityEngine.Color obstaclesColor)
-    // Offset: 0x241F0A8
+    // Offset: 0x241BDF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorScheme* New_ctor(GlobalNamespace::ColorScheme* colorScheme, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, bool supportsEnvironmentColorBoost, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost, UnityEngine::Color obstaclesColor) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ColorScheme::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorScheme*, creationType>(colorScheme, saberAColor, saberBColor, environmentColor0, environmentColor1, supportsEnvironmentColorBoost, environmentColor0Boost, environmentColor1Boost, obstaclesColor)));
     }
     // public System.Void .ctor(ColorScheme colorScheme)
-    // Offset: 0x241F13C
+    // Offset: 0x241BE88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorScheme* New_ctor(GlobalNamespace::ColorScheme* colorScheme) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ColorScheme::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorScheme*, creationType>(colorScheme)));
     }
     // public System.Void .ctor(ColorSchemeSO colorScheme)
-    // Offset: 0x241F1F0
+    // Offset: 0x241BF3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorScheme* New_ctor(GlobalNamespace::ColorSchemeSO* colorScheme) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ColorScheme::.ctor");

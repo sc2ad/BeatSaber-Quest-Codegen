@@ -119,49 +119,49 @@ namespace GlobalNamespace {
     // Get instance field reference: private ColorScheme _colorScheme
     GlobalNamespace::ColorScheme*& dyn__colorScheme();
     // public UnityEngine.Color get_color()
-    // Offset: 0x10EEE78
+    // Offset: 0x10E2890
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x10EEE90
+    // Offset: 0x10E28A8
     void set_color(UnityEngine::Color value);
     // public System.Void add_selectedColorDidChangeEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x10EED30
+    // Offset: 0x10E2748
     void add_selectedColorDidChangeEvent(System::Action_1<UnityEngine::Color>* value);
     // public System.Void remove_selectedColorDidChangeEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x10EEDD4
+    // Offset: 0x10E27EC
     void remove_selectedColorDidChangeEvent(System::Action_1<UnityEngine::Color>* value);
     // public System.Void SetColorScheme(ColorScheme colorScheme)
-    // Offset: 0x10EEEA8
+    // Offset: 0x10E28C0
     void SetColorScheme(GlobalNamespace::ColorScheme* colorScheme);
     // protected System.Void Awake()
-    // Offset: 0x10EEF98
+    // Offset: 0x10E29B0
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x10EF1B0
+    // Offset: 0x10E2BC8
     void OnDestroy();
     // private System.Void HandleToggleWasSelected(ColorSchemeColorToggleController toggleController, System.Boolean isOn)
-    // Offset: 0x10EF1CC
+    // Offset: 0x10E2BE4
     void HandleToggleWasSelected(GlobalNamespace::ColorSchemeColorToggleController* toggleController, bool isOn);
     // public ColorScheme CreateColorSchemeFromEditedColors()
-    // Offset: 0x10EF25C
+    // Offset: 0x10E2C74
     GlobalNamespace::ColorScheme* CreateColorSchemeFromEditedColors();
     // private System.Void <Awake>b__15_0(System.Boolean isOn)
-    // Offset: 0x10EF444
+    // Offset: 0x10E2E5C
     void $Awake$b__15_0(bool isOn);
     // private System.Void <Awake>b__15_1(System.Boolean isOn)
-    // Offset: 0x10EF454
+    // Offset: 0x10E2E6C
     void $Awake$b__15_1(bool isOn);
     // private System.Void <Awake>b__15_2(System.Boolean isOn)
-    // Offset: 0x10EF464
+    // Offset: 0x10E2E7C
     void $Awake$b__15_2(bool isOn);
     // private System.Void <Awake>b__15_3(System.Boolean isOn)
-    // Offset: 0x10EF474
+    // Offset: 0x10E2E8C
     void $Awake$b__15_3(bool isOn);
     // private System.Void <Awake>b__15_4(System.Boolean isOn)
-    // Offset: 0x10EF484
+    // Offset: 0x10E2E9C
     void $Awake$b__15_4(bool isOn);
     // public System.Void .ctor()
-    // Offset: 0x10EF43C
+    // Offset: 0x10E2E54
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

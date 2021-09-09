@@ -39,14 +39,14 @@ namespace Zenject {
     // Get instance field reference: private readonly UnityEngine.Animator _animator
     UnityEngine::Animator*& dyn__animator();
     // public System.Void .ctor(UnityEngine.Animator animator)
-    // Offset: 0x13DAA58
+    // Offset: 0x13E1A14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimatorInstaller* New_ctor(UnityEngine::Animator* animator) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::AnimatorInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimatorInstaller*, creationType>(animator)));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x13DAABC
+    // Offset: 0x13E1A78
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();

@@ -32,16 +32,16 @@ namespace UnityEngine::EventSystems {
     // Creating value type constructor for type: PointerEventDataExtension
     PointerEventDataExtension() noexcept {}
     // static public System.Boolean IsVRPointer(UnityEngine.EventSystems.PointerEventData pointerEventData)
-    // Offset: 0x1F4D600
+    // Offset: 0x1F4E2C4
     static bool IsVRPointer(UnityEngine::EventSystems::PointerEventData* pointerEventData);
     // static public UnityEngine.Ray GetRay(UnityEngine.EventSystems.PointerEventData pointerEventData)
-    // Offset: 0x1F4FC30
+    // Offset: 0x1F508F4
     static UnityEngine::Ray GetRay(UnityEngine::EventSystems::PointerEventData* pointerEventData);
     // static public UnityEngine.Vector2 GetSwipeStart(UnityEngine.EventSystems.PointerEventData pointerEventData)
-    // Offset: 0x1F4F028
+    // Offset: 0x1F4FCEC
     static UnityEngine::Vector2 GetSwipeStart(UnityEngine::EventSystems::PointerEventData* pointerEventData);
     // static public System.Void SetSwipeStart(UnityEngine.EventSystems.PointerEventData pointerEventData, UnityEngine.Vector2 start)
-    // Offset: 0x1F4D680
+    // Offset: 0x1F4E344
     static void SetSwipeStart(UnityEngine::EventSystems::PointerEventData* pointerEventData, UnityEngine::Vector2 start);
   }; // UnityEngine.EventSystems.PointerEventDataExtension
   #pragma pack(pop)

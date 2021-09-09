@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LocalizationKeyAttribute
     LocalizationKeyAttribute() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x237F0EC
+    // Offset: 0x2379DD4
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

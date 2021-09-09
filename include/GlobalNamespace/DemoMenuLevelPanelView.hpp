@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     GlobalNamespace::LocalLeaderboardsModel* localLeaderboardsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LocalLeaderboardsModel*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE437C0
+    // [SpaceAttribute] Offset: 0xE497B4
     // private UnityEngine.UI.Button _playButton
     // Size: 0x8
     // Offset: 0x20
@@ -122,25 +122,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private HMUI.ButtonBinder _buttonBinder
     HMUI::ButtonBinder*& dyn__buttonBinder();
     // public System.Void add_playButtonWasPressedEvent(System.Action`1<DemoMenuLevelPanelView> value)
-    // Offset: 0x10FABF0
+    // Offset: 0x10EE668
     void add_playButtonWasPressedEvent(System::Action_1<GlobalNamespace::DemoMenuLevelPanelView*>* value);
     // public System.Void remove_playButtonWasPressedEvent(System.Action`1<DemoMenuLevelPanelView> value)
-    // Offset: 0x10FAC94
+    // Offset: 0x10EE70C
     void remove_playButtonWasPressedEvent(System::Action_1<GlobalNamespace::DemoMenuLevelPanelView*>* value);
     // protected System.Void Start()
-    // Offset: 0x10FAD38
+    // Offset: 0x10EE7B0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x10FADD8
+    // Offset: 0x10EE850
     void OnDestroy();
     // public System.Void Init(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x10FADEC
+    // Offset: 0x10EE864
     void Init(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Void PlayButtonWasPressed()
-    // Offset: 0x10FB028
+    // Offset: 0x10EEAA0
     void PlayButtonWasPressed();
     // public System.Void .ctor()
-    // Offset: 0x10FB08C
+    // Offset: 0x10EEB04
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

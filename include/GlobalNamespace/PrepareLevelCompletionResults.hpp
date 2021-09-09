@@ -53,63 +53,63 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModelSO;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiersModelSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3BDF8
+    // [InjectAttribute] Offset: 0xE41D78
     // private readonly SaberActivityCounter _saberActivityCounter
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::SaberActivityCounter* saberActivityCounter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberActivityCounter*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3BE08
+    // [InjectAttribute] Offset: 0xE41D88
     // private readonly BeatmapObjectExecutionRatingsRecorder _beatmapObjectExecutionRatingsRecorder
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::BeatmapObjectExecutionRatingsRecorder* beatmapObjectExecutionRatingsRecorder;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3BE18
+    // [InjectAttribute] Offset: 0xE41D98
     // private readonly MultiplierValuesRecorder _multiplierValuesRecorder
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::MultiplierValuesRecorder* multiplierValuesRecorder;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplierValuesRecorder*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3BE28
+    // [InjectAttribute] Offset: 0xE41DA8
     // private readonly IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::IScoreController* scoreController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IScoreController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3BE38
+    // [InjectAttribute] Offset: 0xE41DB8
     // private readonly GameEnergyCounter _gameEnergyCounter
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::GameEnergyCounter* gameEnergyCounter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameEnergyCounter*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3BE48
+    // [InjectAttribute] Offset: 0xE41DC8
     // private readonly GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3BE58
+    // [InjectAttribute] Offset: 0xE41DD8
     // private readonly IReadonlyBeatmapData _beatmapData
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::IReadonlyBeatmapData* beatmapData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IReadonlyBeatmapData*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3BE68
+    // [InjectAttribute] Offset: 0xE41DE8
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3BE78
+    // [InjectAttribute] Offset: 0xE41DF8
     // private readonly GameplayModifiers _gameplayModifiers
     // Size: 0x8
     // Offset: 0x60
@@ -141,10 +141,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly GameplayModifiers _gameplayModifiers
     GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
     // public LevelCompletionResults FillLevelCompletionResults(LevelCompletionResults/LevelEndStateType levelEndStateType, LevelCompletionResults/LevelEndAction levelEndAction)
-    // Offset: 0x113ECAC
+    // Offset: 0x11FE3D0
     GlobalNamespace::LevelCompletionResults* FillLevelCompletionResults(GlobalNamespace::LevelCompletionResults::LevelEndStateType levelEndStateType, GlobalNamespace::LevelCompletionResults::LevelEndAction levelEndAction);
     // public System.Void .ctor()
-    // Offset: 0x113F02C
+    // Offset: 0x11FE750
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -26,7 +26,7 @@ namespace TMPro {
     // Creating value type constructor for type: ColorTweenCallback
     ColorTweenCallback() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x111456C
+    // Offset: 0x1108204
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

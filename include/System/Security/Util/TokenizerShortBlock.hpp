@@ -37,7 +37,7 @@ namespace System::Security::Util {
     // Get instance field reference: System.Security.Util.TokenizerShortBlock m_next
     System::Security::Util::TokenizerShortBlock*& dyn_m_next();
     // public System.Void .ctor()
-    // Offset: 0x1C03BD0
+    // Offset: 0x1C2ED68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

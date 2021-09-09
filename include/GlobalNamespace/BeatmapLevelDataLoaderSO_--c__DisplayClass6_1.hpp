@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public BeatmapLevelDataLoaderSO/<>c__DisplayClass6_0 CS$<>8__locals1
     GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0*& dyn_CS$$$8__locals1();
     // public System.Void .ctor()
-    // Offset: 0x11F6D58
+    // Offset: 0x11ECE48
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

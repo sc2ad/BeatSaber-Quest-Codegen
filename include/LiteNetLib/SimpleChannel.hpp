@@ -32,7 +32,7 @@ namespace LiteNetLib {
     // Creating value type constructor for type: SimpleChannel
     SimpleChannel() noexcept {}
     // public System.Void .ctor(LiteNetLib.NetPeer peer)
-    // Offset: 0x1BFEA78
+    // Offset: 0x1C29C10
     // Implemented from: LiteNetLib.BaseChannel
     // Base method: System.Void BaseChannel::.ctor(LiteNetLib.NetPeer peer)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -41,12 +41,12 @@ namespace LiteNetLib {
       return THROW_UNLESS((::il2cpp_utils::New<SimpleChannel*, creationType>(peer)));
     }
     // public override System.Void SendNextPackets()
-    // Offset: 0x1BFEA7C
+    // Offset: 0x1C29C14
     // Implemented from: LiteNetLib.BaseChannel
     // Base method: System.Void BaseChannel::SendNextPackets()
     void SendNextPackets();
     // public override System.Boolean ProcessPacket(LiteNetLib.NetPacket packet)
-    // Offset: 0x1BFEBB8
+    // Offset: 0x1C29D50
     // Implemented from: LiteNetLib.BaseChannel
     // Base method: System.Boolean BaseChannel::ProcessPacket(LiteNetLib.NetPacket packet)
     bool ProcessPacket(LiteNetLib::NetPacket* packet);

@@ -72,26 +72,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean showLoadingIndicator
     bool& dyn_showLoadingIndicator();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x103FBCC
+    // Offset: 0x10483A4
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x103FC34
+    // Offset: 0x104840C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x103F42C
+    // Offset: 0x1047C04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetEaseLeaderboardViewController::$RefreshDelayed$d__14* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetEaseLeaderboardViewController::$RefreshDelayed$d__14::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetEaseLeaderboardViewController::$RefreshDelayed$d__14*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x103FAD4
+    // Offset: 0x10482AC
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x103FAD8
+    // Offset: 0x10482B0
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x103FBD4
+    // Offset: 0x10483AC
     void System_Collections_IEnumerator_Reset();
   }; // NetEaseLeaderboardViewController/<RefreshDelayed>d__14
   #pragma pack(pop)

@@ -91,14 +91,14 @@ namespace System {
     // Get instance field reference: public System.DelegateSerializationHolder/System.DelegateEntry delegateEntry
     System::DelegateSerializationHolder::DelegateEntry*& dyn_delegateEntry();
     // public System.Void .ctor(System.Delegate del, System.String targetLabel)
-    // Offset: 0x1B641BC
+    // Offset: 0x1B6596C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DelegateSerializationHolder::DelegateEntry* New_ctor(System::Delegate* del, ::Il2CppString* targetLabel) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::DelegateSerializationHolder::DelegateEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DelegateSerializationHolder::DelegateEntry*, creationType>(del, targetLabel)));
     }
     // public System.Delegate DeserializeDelegate(System.Runtime.Serialization.SerializationInfo info, System.Int32 index)
-    // Offset: 0x1B63F48
+    // Offset: 0x1B656F8
     System::Delegate* DeserializeDelegate(System::Runtime::Serialization::SerializationInfo* info, int index);
   }; // System.DelegateSerializationHolder/System.DelegateEntry
   #pragma pack(pop)

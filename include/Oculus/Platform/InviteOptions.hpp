@@ -34,11 +34,17 @@ namespace Oculus::Platform {
     }
     // Get instance field reference: private System.IntPtr Handle
     System::IntPtr& dyn_Handle();
+    // public System.Void AddSuggestedUser(System.UInt64 userID)
+    // Offset: 0x1524898
+    void AddSuggestedUser(uint64_t userID);
+    // public System.Void ClearSuggestedUsers()
+    // Offset: 0x1524914
+    void ClearSuggestedUsers();
     // static public System.IntPtr op_Explicit(Oculus.Platform.InviteOptions options)
-    // Offset: 0x14E00E0
+    // Offset: 0x1523388
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x14E0068
+    // Offset: 0x1524820
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -47,7 +53,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<InviteOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x14E0130
+    // Offset: 0x1524980
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -58,6 +64,23 @@ namespace Oculus::Platform {
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::InviteOptions*, "Oculus.Platform", "InviteOptions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Oculus::Platform::InviteOptions::AddSuggestedUser
+// Il2CppName: AddSuggestedUser
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::InviteOptions::*)(uint64_t)>(&Oculus::Platform::InviteOptions::AddSuggestedUser)> {
+  static const MethodInfo* get() {
+    static auto* userID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::InviteOptions*), "AddSuggestedUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userID});
+  }
+};
+// Writing MetadataGetter for method: Oculus::Platform::InviteOptions::ClearSuggestedUsers
+// Il2CppName: ClearSuggestedUsers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::InviteOptions::*)()>(&Oculus::Platform::InviteOptions::ClearSuggestedUsers)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::InviteOptions*), "ClearSuggestedUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::InviteOptions::operator System::IntPtr
 // Il2CppName: op_Explicit
 // Cannot perform method pointer template specialization from operators!

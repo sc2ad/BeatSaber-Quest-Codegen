@@ -90,56 +90,56 @@ namespace GlobalNamespace {
     class $$c__DisplayClass94_0;
     // Nested type: GlobalNamespace::LobbyGameStateController::$$c
     class $$c;
-    // [InjectAttribute] Offset: 0xE346E8
+    // [InjectAttribute] Offset: 0xE3A658
     // private readonly ILobbyPlayersDataModel _lobbyPlayersDataModel
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ILobbyPlayersDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE346F8
+    // [InjectAttribute] Offset: 0xE3A668
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE34708
+    // [InjectAttribute] Offset: 0xE3A678
     // private readonly IMenuRpcManager _menuRpcManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IMenuRpcManager* menuRpcManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMenuRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE34718
+    // [InjectAttribute] Offset: 0xE3A688
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE34728
+    // [InjectAttribute] Offset: 0xE3A698
     // private readonly MultiplayerLevelLoader _multiplayerLevelLoader
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::MultiplayerLevelLoader* multiplayerLevelLoader;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLevelLoader*) == 0x8);
-    // [InjectAttribute] Offset: 0xE34738
+    // [InjectAttribute] Offset: 0xE3A6A8
     // private readonly MenuTransitionsHelper _menuTransitionsHelper
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuTransitionsHelper*) == 0x8);
-    // [InjectAttribute] Offset: 0xE34748
+    // [InjectAttribute] Offset: 0xE3A6B8
     // private readonly LobbyGameStateModel _lobbyGameStateModel
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::LobbyGameStateModel* lobbyGameStateModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LobbyGameStateModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE34758
+    // [InjectAttribute] Offset: 0xE3A6C8
     // private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
     // Size: 0x8
     // Offset: 0x48
@@ -385,217 +385,217 @@ namespace GlobalNamespace {
     // Get instance field reference: private CannotStartGameReason _cannotStartGameReason
     GlobalNamespace::CannotStartGameReason& dyn__cannotStartGameReason();
     // public System.Single get_predictedCountdownEndTime()
-    // Offset: 0x1203D74
+    // Offset: 0x120A5F4
     float get_predictedCountdownEndTime();
     // public System.Single get_startTime()
-    // Offset: 0x1203D7C
+    // Offset: 0x120A5FC
     float get_startTime();
     // public System.Void set_startTime(System.Single value)
-    // Offset: 0x1203D84
+    // Offset: 0x120A604
     void set_startTime(float value);
     // public System.Boolean get_levelStartInitiated()
-    // Offset: 0x1203DA0
+    // Offset: 0x120A620
     bool get_levelStartInitiated();
     // private System.Void set_levelStartInitiated(System.Boolean value)
-    // Offset: 0x1203DA8
+    // Offset: 0x120A628
     void set_levelStartInitiated(bool value);
     // public BeatmapIdentifierNetSerializable get_startedBeatmapId()
-    // Offset: 0x1203DB4
+    // Offset: 0x120A634
     GlobalNamespace::BeatmapIdentifierNetSerializable* get_startedBeatmapId();
     // private System.Void set_startedBeatmapId(BeatmapIdentifierNetSerializable value)
-    // Offset: 0x1203DBC
+    // Offset: 0x120A63C
     void set_startedBeatmapId(GlobalNamespace::BeatmapIdentifierNetSerializable* value);
     // public System.Boolean get_countdownStarted()
-    // Offset: 0x1203DC4
+    // Offset: 0x120A644
     bool get_countdownStarted();
     // private System.Void set_countdownStarted(System.Boolean value)
-    // Offset: 0x1203DCC
+    // Offset: 0x120A64C
     void set_countdownStarted(bool value);
     // public System.Single get_countdownEndTime()
-    // Offset: 0x1203DD8
+    // Offset: 0x120A658
     float get_countdownEndTime();
     // private System.Void set_countdownEndTime(System.Single value)
-    // Offset: 0x1203DE0
+    // Offset: 0x120A660
     void set_countdownEndTime(float value);
     // public MultiplayerLobbyState get_state()
-    // Offset: 0x1203DE8
+    // Offset: 0x120A668
     GlobalNamespace::MultiplayerLobbyState get_state();
     // public System.Void set_state(MultiplayerLobbyState value)
-    // Offset: 0x1203DF0
+    // Offset: 0x120A670
     void set_state(GlobalNamespace::MultiplayerLobbyState value);
     // public CannotStartGameReason get_cannotStartGameReason()
-    // Offset: 0x1203E74
+    // Offset: 0x120A6F4
     GlobalNamespace::CannotStartGameReason get_cannotStartGameReason();
     // public System.Boolean get_isDisconnected()
-    // Offset: 0x1203E7C
+    // Offset: 0x120A6FC
     bool get_isDisconnected();
     // private System.Void set_isDisconnected(System.Boolean value)
-    // Offset: 0x1203E84
+    // Offset: 0x120A704
     void set_isDisconnected(bool value);
     // public DisconnectedReason get_disconnectedReason()
-    // Offset: 0x1203E90
+    // Offset: 0x120A710
     GlobalNamespace::DisconnectedReason get_disconnectedReason();
     // private System.Void set_disconnectedReason(DisconnectedReason value)
-    // Offset: 0x1203E98
+    // Offset: 0x120A718
     void set_disconnectedReason(GlobalNamespace::DisconnectedReason value);
     // public System.Void add_gameStartedEvent(System.Action value)
-    // Offset: 0x1202CCC
+    // Offset: 0x120954C
     void add_gameStartedEvent(System::Action* value);
     // public System.Void remove_gameStartedEvent(System.Action value)
-    // Offset: 0x1202D70
+    // Offset: 0x12095F0
     void remove_gameStartedEvent(System::Action* value);
     // public System.Void add_gameStartCancelledEvent(System.Action value)
-    // Offset: 0x1202E14
+    // Offset: 0x1209694
     void add_gameStartCancelledEvent(System::Action* value);
     // public System.Void remove_gameStartCancelledEvent(System.Action value)
-    // Offset: 0x1202EB8
+    // Offset: 0x1209738
     void remove_gameStartCancelledEvent(System::Action* value);
     // public System.Void add_countdownStartedEvent(System.Action value)
-    // Offset: 0x1202F5C
+    // Offset: 0x12097DC
     void add_countdownStartedEvent(System::Action* value);
     // public System.Void remove_countdownStartedEvent(System.Action value)
-    // Offset: 0x1203000
+    // Offset: 0x1209880
     void remove_countdownStartedEvent(System::Action* value);
     // public System.Void add_countdownCancelledEvent(System.Action value)
-    // Offset: 0x12030A4
+    // Offset: 0x1209924
     void add_countdownCancelledEvent(System::Action* value);
     // public System.Void remove_countdownCancelledEvent(System.Action value)
-    // Offset: 0x1203148
+    // Offset: 0x12099C8
     void remove_countdownCancelledEvent(System::Action* value);
     // public System.Void add_songStillDownloadingEvent(System.Action value)
-    // Offset: 0x12031EC
+    // Offset: 0x1209A6C
     void add_songStillDownloadingEvent(System::Action* value);
     // public System.Void remove_songStillDownloadingEvent(System.Action value)
-    // Offset: 0x1203290
+    // Offset: 0x1209B10
     void remove_songStillDownloadingEvent(System::Action* value);
     // public System.Void add_startTimeChangedEvent(System.Action value)
-    // Offset: 0x1203334
+    // Offset: 0x1209BB4
     void add_startTimeChangedEvent(System::Action* value);
     // public System.Void remove_startTimeChangedEvent(System.Action value)
-    // Offset: 0x12033D8
+    // Offset: 0x1209C58
     void remove_startTimeChangedEvent(System::Action* value);
     // public System.Void add_levelFinishedEvent(System.Action`2<MultiplayerLevelScenesTransitionSetupDataSO,MultiplayerResultsData> value)
-    // Offset: 0x120347C
+    // Offset: 0x1209CFC
     void add_levelFinishedEvent(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>* value);
     // public System.Void remove_levelFinishedEvent(System.Action`2<MultiplayerLevelScenesTransitionSetupDataSO,MultiplayerResultsData> value)
-    // Offset: 0x1203520
+    // Offset: 0x1209DA0
     void remove_levelFinishedEvent(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>* value);
     // public System.Void add_levelDidGetDisconnectedEvent(System.Action`1<DisconnectedReason> value)
-    // Offset: 0x12035C4
+    // Offset: 0x1209E44
     void add_levelDidGetDisconnectedEvent(System::Action_1<GlobalNamespace::DisconnectedReason>* value);
     // public System.Void remove_levelDidGetDisconnectedEvent(System.Action`1<DisconnectedReason> value)
-    // Offset: 0x1203668
+    // Offset: 0x1209EE8
     void remove_levelDidGetDisconnectedEvent(System::Action_1<GlobalNamespace::DisconnectedReason>* value);
     // public System.Void add_lobbyDisconnectedEvent(System.Action value)
-    // Offset: 0x120370C
+    // Offset: 0x1209F8C
     void add_lobbyDisconnectedEvent(System::Action* value);
     // public System.Void remove_lobbyDisconnectedEvent(System.Action value)
-    // Offset: 0x12037B0
+    // Offset: 0x120A030
     void remove_lobbyDisconnectedEvent(System::Action* value);
     // public System.Void add_beforeSceneSwitchCallbackEvent(System.Action value)
-    // Offset: 0x1203854
+    // Offset: 0x120A0D4
     void add_beforeSceneSwitchCallbackEvent(System::Action* value);
     // public System.Void remove_beforeSceneSwitchCallbackEvent(System.Action value)
-    // Offset: 0x12038F8
+    // Offset: 0x120A178
     void remove_beforeSceneSwitchCallbackEvent(System::Action* value);
     // public System.Void add_lobbyStateChangedEvent(System.Action`1<MultiplayerLobbyState> value)
-    // Offset: 0x120399C
+    // Offset: 0x120A21C
     void add_lobbyStateChangedEvent(System::Action_1<GlobalNamespace::MultiplayerLobbyState>* value);
     // public System.Void remove_lobbyStateChangedEvent(System.Action`1<MultiplayerLobbyState> value)
-    // Offset: 0x1203A40
+    // Offset: 0x120A2C0
     void remove_lobbyStateChangedEvent(System::Action_1<GlobalNamespace::MultiplayerLobbyState>* value);
     // public System.Void add_startButtonEnabledEvent(System.Action`1<CannotStartGameReason> value)
-    // Offset: 0x1203AE4
+    // Offset: 0x120A364
     void add_startButtonEnabledEvent(System::Action_1<GlobalNamespace::CannotStartGameReason>* value);
     // public System.Void remove_startButtonEnabledEvent(System.Action`1<CannotStartGameReason> value)
-    // Offset: 0x1203B88
+    // Offset: 0x120A408
     void remove_startButtonEnabledEvent(System::Action_1<GlobalNamespace::CannotStartGameReason>* value);
     // public System.Void add_playerMissingEntitlementsChangedEvent(System.Action`1<PlayersMissingEntitlementsNetSerializable> value)
-    // Offset: 0x1203C2C
+    // Offset: 0x120A4AC
     void add_playerMissingEntitlementsChangedEvent(System::Action_1<GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* value);
     // public System.Void remove_playerMissingEntitlementsChangedEvent(System.Action`1<PlayersMissingEntitlementsNetSerializable> value)
-    // Offset: 0x1203CD0
+    // Offset: 0x120A550
     void remove_playerMissingEntitlementsChangedEvent(System::Action_1<GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* value);
     // public System.Void Activate()
-    // Offset: 0x1203EA0
+    // Offset: 0x120A720
     void Activate();
     // public System.Void Deactivate()
-    // Offset: 0x1204358
+    // Offset: 0x120ABD8
     void Deactivate();
     // public System.Void Dispose()
-    // Offset: 0x120496C
+    // Offset: 0x120B1EC
     void Dispose();
     // public System.Void StartListeningToGameStart()
-    // Offset: 0x1204970
+    // Offset: 0x120B1F0
     void StartListeningToGameStart();
     // public System.Void GetCurrentLevelIfGameStarted()
-    // Offset: 0x120502C
+    // Offset: 0x120B8AC
     void GetCurrentLevelIfGameStarted();
     // public System.Void ClearDisconnectedState()
-    // Offset: 0x120495C
+    // Offset: 0x120B1DC
     void ClearDisconnectedState();
     // public System.Threading.Tasks.Task GetGameStateAndConfigurationAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x12050E0
+    // Offset: 0x120B960
     System::Threading::Tasks::Task* GetGameStateAndConfigurationAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Void PredictCountdownEndTime()
-    // Offset: 0x12054CC
+    // Offset: 0x120BD4C
     void PredictCountdownEndTime();
     // public System.Boolean IsCloseToStartGame()
-    // Offset: 0x120575C
+    // Offset: 0x120BFDC
     bool IsCloseToStartGame();
     // private System.Void HandleMultiplayerSessionManagerDisconnected(DisconnectedReason disconnectedReason)
-    // Offset: 0x12058D8
+    // Offset: 0x120C158
     void HandleMultiplayerSessionManagerDisconnected(GlobalNamespace::DisconnectedReason disconnectedReason);
     // private System.Void HandleMultiplayerSessionManagerConnectionOwnerStateChanged(IConnectedPlayer connectedPlayer)
-    // Offset: 0x12058FC
+    // Offset: 0x120C17C
     void HandleMultiplayerSessionManagerConnectionOwnerStateChanged(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // private System.Void StopListeningToGameStart()
-    // Offset: 0x12059FC
+    // Offset: 0x120C27C
     void StopListeningToGameStart();
     // private System.Void HandleMenuRpcManagerStartedLevel(System.String userId, BeatmapIdentifierNetSerializable beatmapId, GameplayModifiers gameplayModifiers, System.Single startTime)
-    // Offset: 0x1205C40
+    // Offset: 0x120C4C0
     void HandleMenuRpcManagerStartedLevel(::Il2CppString* userId, GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, GlobalNamespace::GameplayModifiers* gameplayModifiers, float startTime);
     // private System.Void HandleMenuRpcManagerCancelledLevelStart(System.String userId)
-    // Offset: 0x1205E3C
+    // Offset: 0x120C6BC
     void HandleMenuRpcManagerCancelledLevelStart(::Il2CppString* userId);
     // private System.Void HandleMenuRpcManagerSetCountdownEndTime(System.String userId, System.Single countdownTime)
-    // Offset: 0x1205F8C
+    // Offset: 0x120C80C
     void HandleMenuRpcManagerSetCountdownEndTime(::Il2CppString* userId, float countdownTime);
     // private System.Void HandleMenuRpcManagerCancelCountdown(System.String userId)
-    // Offset: 0x1206188
+    // Offset: 0x120CA08
     void HandleMenuRpcManagerCancelCountdown(::Il2CppString* userId);
     // private System.Void HandleMenuRpcManagerSetStartGameTime(System.String userId, System.Single startTime)
-    // Offset: 0x1206374
+    // Offset: 0x120CBF4
     void HandleMenuRpcManagerSetStartGameTime(::Il2CppString* userId, float startTime);
     // private System.Void HandleSetIsStartButtonEnabled(System.String userId, CannotStartGameReason cannotStartGameReason)
-    // Offset: 0x12063C0
+    // Offset: 0x120CC40
     void HandleSetIsStartButtonEnabled(::Il2CppString* userId, GlobalNamespace::CannotStartGameReason cannotStartGameReason);
     // private System.Void HandleMenuRpcManagerSetPlayersMissingEntitlementsToLevel(System.String userId, PlayersMissingEntitlementsNetSerializable playersMissingEntitlements)
-    // Offset: 0x1206438
+    // Offset: 0x120CCB8
     void HandleMenuRpcManagerSetPlayersMissingEntitlementsToLevel(::Il2CppString* userId, GlobalNamespace::PlayersMissingEntitlementsNetSerializable* playersMissingEntitlements);
     // private System.Void HandleStartTimeChanged()
-    // Offset: 0x12064AC
+    // Offset: 0x120CD2C
     void HandleStartTimeChanged();
     // private System.Void HandleMultiplayerLevelLoaderStillDownloadingSong()
-    // Offset: 0x12064CC
+    // Offset: 0x120CD4C
     void HandleMultiplayerLevelLoaderStillDownloadingSong();
     // private System.Void HandleMultiplayerLevelLoaderCountdownFinished(IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic, IDifficultyBeatmap difficultyBeatmap, GameplayModifiers gameplayModifiers)
-    // Offset: 0x12064E0
+    // Offset: 0x120CD60
     void HandleMultiplayerLevelLoaderCountdownFinished(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // private System.Void StartMultiplayerLevel(IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic, IDifficultyBeatmap difficultyBeatmap, GameplayModifiers gameplayModifiers, System.Action beforeSceneSwitchCallback)
-    // Offset: 0x1206830
+    // Offset: 0x120D0B0
     void StartMultiplayerLevel(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::GameplayModifiers* gameplayModifiers, System::Action* beforeSceneSwitchCallback);
     // private System.Void HandleMultiplayerLevelDidFinish(MultiplayerLevelScenesTransitionSetupDataSO multiplayerLevelScenesTransitionSetupData, MultiplayerResultsData multiplayerResultsData)
-    // Offset: 0x12069C8
+    // Offset: 0x120D248
     void HandleMultiplayerLevelDidFinish(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData, GlobalNamespace::MultiplayerResultsData* multiplayerResultsData);
     // private System.Void HandleMultiplayerLevelDidDisconnect(DisconnectedReason disconnectedReason)
-    // Offset: 0x1206A6C
+    // Offset: 0x120D2EC
     void HandleMultiplayerLevelDidDisconnect(GlobalNamespace::DisconnectedReason disconnectedReason);
     // private System.Void StopLoading()
-    // Offset: 0x1205EA4
+    // Offset: 0x120C724
     void StopLoading();
     // public System.Void .ctor()
-    // Offset: 0x1206B08
+    // Offset: 0x120D388
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

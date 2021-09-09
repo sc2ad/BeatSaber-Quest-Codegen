@@ -29,10 +29,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithCloudStorageData
     MessageWithCloudStorageData() noexcept {}
     // protected Oculus.Platform.Models.CloudStorageData GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x14E9670
+    // Offset: 0x152E104
     Oculus::Platform::Models::CloudStorageData* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x14E5988
+    // Offset: 0x152A2F4
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -42,7 +42,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithCloudStorageData*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.CloudStorageData GetCloudStorageData()
-    // Offset: 0x14E962C
+    // Offset: 0x152E0C0
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.CloudStorageData Message::GetCloudStorageData()
     Oculus::Platform::Models::CloudStorageData* GetCloudStorageData();

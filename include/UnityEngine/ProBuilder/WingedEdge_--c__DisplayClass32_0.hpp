@@ -44,10 +44,10 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: public System.Collections.Generic.HashSet`1<System.Int32> common
     System::Collections::Generic::HashSet_1<int>*& dyn_common();
     // System.Boolean <SortCommonIndexesByAdjacency>b__0(UnityEngine.ProBuilder.WingedEdge x)
-    // Offset: 0x22D5214
+    // Offset: 0x22D0ED8
     bool $SortCommonIndexesByAdjacency$b__0(UnityEngine::ProBuilder::WingedEdge* x);
     // public System.Void .ctor()
-    // Offset: 0x22D5018
+    // Offset: 0x22D0CDC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

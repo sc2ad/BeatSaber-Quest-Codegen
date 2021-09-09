@@ -48,10 +48,10 @@ namespace Zenject {
     // Get instance field reference: public Zenject.InjectContext r
     Zenject::InjectContext*& dyn_r();
     // System.Boolean <WhenInjectedInto>b__1(System.Type x)
-    // Offset: 0x13DF460
+    // Offset: 0x13E641C
     bool $WhenInjectedInto$b__1(System::Type* x);
     // public System.Void .ctor()
-    // Offset: 0x13DF458
+    // Offset: 0x13E6414
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

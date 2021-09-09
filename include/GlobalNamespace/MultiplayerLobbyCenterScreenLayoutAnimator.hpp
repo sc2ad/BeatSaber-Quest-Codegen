@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     UnityEngine::RectTransform* nextLevelTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE405E4
+    // [SpaceAttribute] Offset: 0xE46564
     // private UnityEngine.RectTransform _nextLevelBasePosition
     // Size: 0x8
     // Offset: 0x20
@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     UnityEngine::RectTransform* nextLevelCountdownPosition;
     // Field size check
     static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE4062C
+    // [SpaceAttribute] Offset: 0xE465AC
     // private System.Single _transitionDuration
     // Size: 0x4
     // Offset: 0x30
@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: transitionDuration and: tweeningManager
     char __padding3[0x4] = {};
-    // [InjectAttribute] Offset: 0xE40664
+    // [InjectAttribute] Offset: 0xE465E4
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x38
@@ -83,19 +83,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly Tweening.TweeningManager _tweeningManager
     Tweening::TweeningManager*& dyn__tweeningManager();
     // public System.Void StartCountdown()
-    // Offset: 0x10620CC
+    // Offset: 0x107E7C8
     void StartCountdown();
     // public System.Void StopCountdown(System.Boolean instant)
-    // Offset: 0x10622F8
+    // Offset: 0x107E9F4
     void StopCountdown(bool instant);
     // private System.Void Move(UnityEngine.Vector3 from, UnityEngine.Vector3 to, System.Single duration)
-    // Offset: 0x10621CC
+    // Offset: 0x107E8C8
     void Move(UnityEngine::Vector3 from, UnityEngine::Vector3 to, float duration);
     // private System.Void <Move>b__7_0(UnityEngine.Vector3 pos)
-    // Offset: 0x1062428
+    // Offset: 0x107EB24
     void $Move$b__7_0(UnityEngine::Vector3 pos);
     // public System.Void .ctor()
-    // Offset: 0x1062420
+    // Offset: 0x107EB1C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

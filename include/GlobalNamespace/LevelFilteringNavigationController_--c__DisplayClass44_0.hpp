@@ -43,13 +43,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public IBeatmapLevelPack levelPack
     GlobalNamespace::IBeatmapLevelPack*& dyn_levelPack();
     // System.Boolean <SelectAnnotatedBeatmapLevelCollection>b__1(System.String packID)
-    // Offset: 0x115231C
+    // Offset: 0x1195500
     bool $SelectAnnotatedBeatmapLevelCollection$b__1(::Il2CppString* packID);
     // System.Boolean <SelectAnnotatedBeatmapLevelCollection>b__3(System.String packID)
-    // Offset: 0x11523E8
+    // Offset: 0x11955CC
     bool $SelectAnnotatedBeatmapLevelCollection$b__3(::Il2CppString* packID);
     // public System.Void .ctor()
-    // Offset: 0x1151EDC
+    // Offset: 0x11950C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

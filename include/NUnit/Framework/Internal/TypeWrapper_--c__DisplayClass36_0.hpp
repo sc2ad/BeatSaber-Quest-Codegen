@@ -48,10 +48,10 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: public System.Type[] argTypes
     ::Array<System::Type*>*& dyn_argTypes();
     // System.Boolean <GetConstructor>b__0(System.Reflection.ConstructorInfo c)
-    // Offset: 0x22A4B2C
+    // Offset: 0x22A17F0
     bool $GetConstructor$b__0(System::Reflection::ConstructorInfo* c);
     // public System.Void .ctor()
-    // Offset: 0x22A4A70
+    // Offset: 0x22A1734
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

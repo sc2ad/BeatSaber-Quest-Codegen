@@ -44,23 +44,23 @@ namespace System::Runtime::ExceptionServices {
     // Get instance field reference: private System.Object m_stackTrace
     ::Il2CppObject*& dyn_m_stackTrace();
     // System.Object get_BinaryStackTraceArray()
-    // Offset: 0x1487C8C
+    // Offset: 0x148FC48
     ::Il2CppObject* get_BinaryStackTraceArray();
     // public System.Exception get_SourceException()
-    // Offset: 0x1487C94
+    // Offset: 0x148FC50
     System::Exception* get_SourceException();
     // private System.Void .ctor(System.Exception exception)
-    // Offset: 0x1487B60
+    // Offset: 0x148FB1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExceptionDispatchInfo* New_ctor(System::Exception* exception) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::ExceptionServices::ExceptionDispatchInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExceptionDispatchInfo*, creationType>(exception)));
     }
     // static public System.Runtime.ExceptionServices.ExceptionDispatchInfo Capture(System.Exception source)
-    // Offset: 0x1485D24
+    // Offset: 0x148DCE0
     static System::Runtime::ExceptionServices::ExceptionDispatchInfo* Capture(System::Exception* source);
     // public System.Void Throw()
-    // Offset: 0x1485F98
+    // Offset: 0x148DF54
     void Throw();
   }; // System.Runtime.ExceptionServices.ExceptionDispatchInfo
   #pragma pack(pop)

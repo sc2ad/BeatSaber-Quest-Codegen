@@ -74,25 +74,25 @@ namespace Mono::Net::Security {
     // Set static field: static readonly System.Guid LegacyId
     static void _set_LegacyId(System::Guid value);
     // static private System.Void .cctor()
-    // Offset: 0x15EC160
+    // Offset: 0x15F5994
     static void _cctor();
     // static Mono.Security.Interface.MonoTlsProvider GetProviderInternal()
-    // Offset: 0x15EB398
+    // Offset: 0x15F4BCC
     static Mono::Security::Interface::MonoTlsProvider* GetProviderInternal();
     // static System.Void InitializeInternal()
-    // Offset: 0x15EB494
+    // Offset: 0x15F4CC8
     static void InitializeInternal();
     // static private Mono.Security.Interface.MonoTlsProvider LookupProvider(System.String name, System.Boolean throwOnError)
-    // Offset: 0x15EBC54
+    // Offset: 0x15F5488
     static Mono::Security::Interface::MonoTlsProvider* LookupProvider(::Il2CppString* name, bool throwOnError);
     // static private System.Void InitializeProviderRegistration()
-    // Offset: 0x15EB7F4
+    // Offset: 0x15F5028
     static void InitializeProviderRegistration();
     // static private Mono.Security.Interface.MonoTlsProvider CreateDefaultProviderImpl()
-    // Offset: 0x15EBBB8
+    // Offset: 0x15F53EC
     static Mono::Security::Interface::MonoTlsProvider* CreateDefaultProviderImpl();
     // static Mono.Security.Interface.MonoTlsProvider GetProvider()
-    // Offset: 0x15E71D8
+    // Offset: 0x15F0A0C
     static Mono::Security::Interface::MonoTlsProvider* GetProvider();
   }; // Mono.Net.Security.MonoTlsProviderFactory
   #pragma pack(pop)

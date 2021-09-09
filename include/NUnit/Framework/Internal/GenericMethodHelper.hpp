@@ -30,28 +30,28 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class GenericMethodHelper : public ::Il2CppObject {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xE2266C
+    // [DebuggerBrowsableAttribute] Offset: 0xE285DC
     // private System.Reflection.MethodInfo <Method>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     System::Reflection::MethodInfo* Method;
     // Field size check
     static_assert(sizeof(System::Reflection::MethodInfo*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xE226A8
+    // [DebuggerBrowsableAttribute] Offset: 0xE28618
     // private System.Type[] <TypeParms>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Array<System::Type*>* TypeParms;
     // Field size check
     static_assert(sizeof(::Array<System::Type*>*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xE226E4
+    // [DebuggerBrowsableAttribute] Offset: 0xE28654
     // private System.Type[] <TypeArgs>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     ::Array<System::Type*>* TypeArgs;
     // Field size check
     static_assert(sizeof(::Array<System::Type*>*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xE22720
+    // [DebuggerBrowsableAttribute] Offset: 0xE28690
     // private System.Type[] <ParmTypes>k__BackingField
     // Size: 0x8
     // Offset: 0x28
@@ -69,47 +69,47 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: private System.Type[] <ParmTypes>k__BackingField
     ::Array<System::Type*>*& dyn_$ParmTypes$k__BackingField();
     // private System.Reflection.MethodInfo get_Method()
-    // Offset: 0x22970EC
+    // Offset: 0x2293DB0
     System::Reflection::MethodInfo* get_Method();
     // private System.Void set_Method(System.Reflection.MethodInfo value)
-    // Offset: 0x22970F4
+    // Offset: 0x2293DB8
     void set_Method(System::Reflection::MethodInfo* value);
     // private System.Type[] get_TypeParms()
-    // Offset: 0x22970FC
+    // Offset: 0x2293DC0
     ::Array<System::Type*>* get_TypeParms();
     // private System.Void set_TypeParms(System.Type[] value)
-    // Offset: 0x2297104
+    // Offset: 0x2293DC8
     void set_TypeParms(::Array<System::Type*>* value);
     // private System.Type[] get_TypeArgs()
-    // Offset: 0x229710C
+    // Offset: 0x2293DD0
     ::Array<System::Type*>* get_TypeArgs();
     // private System.Void set_TypeArgs(System.Type[] value)
-    // Offset: 0x2297114
+    // Offset: 0x2293DD8
     void set_TypeArgs(::Array<System::Type*>* value);
     // private System.Type[] get_ParmTypes()
-    // Offset: 0x229711C
+    // Offset: 0x2293DE0
     ::Array<System::Type*>* get_ParmTypes();
     // private System.Void set_ParmTypes(System.Type[] value)
-    // Offset: 0x2297124
+    // Offset: 0x2293DE8
     void set_ParmTypes(::Array<System::Type*>* value);
     // public System.Void .ctor(System.Reflection.MethodInfo method)
-    // Offset: 0x2296F44
+    // Offset: 0x2293C08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GenericMethodHelper* New_ctor(System::Reflection::MethodInfo* method) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::GenericMethodHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GenericMethodHelper*, creationType>(method)));
     }
     // public System.Type[] GetTypeArguments(System.Object[] argList)
-    // Offset: 0x229712C
+    // Offset: 0x2293DF0
     ::Array<System::Type*>* GetTypeArguments(::Array<::Il2CppObject*>* argList);
     // private System.Void TryApplyArgType(System.Type parmType, System.Type argType)
-    // Offset: 0x2297230
+    // Offset: 0x2293EF4
     void TryApplyArgType(System::Type* parmType, System::Type* argType);
     // private System.Void ApplyArgType(System.Type parmType, System.Type argType)
-    // Offset: 0x22973E8
+    // Offset: 0x22940AC
     void ApplyArgType(System::Type* parmType, System::Type* argType);
     // private System.Boolean IsAssignableToGenericType(System.Type givenType, System.Type genericType)
-    // Offset: 0x22974EC
+    // Offset: 0x22941B0
     bool IsAssignableToGenericType(System::Type* givenType, System::Type* genericType);
   }; // NUnit.Framework.Internal.GenericMethodHelper
   #pragma pack(pop)

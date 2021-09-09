@@ -36,43 +36,43 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::Inertia::Body::EffectorLink
     class EffectorLink;
-    // [TooltipAttribute] Offset: 0xE2ACAC
+    // [TooltipAttribute] Offset: 0xE30C1C
     // public UnityEngine.Transform transform
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE2ACE4
+    // [TooltipAttribute] Offset: 0xE30C54
     // public RootMotion.FinalIK.Inertia/RootMotion.FinalIK.Body/RootMotion.FinalIK.EffectorLink[] effectorLinks
     // Size: 0x8
     // Offset: 0x18
     ::Array<RootMotion::FinalIK::Inertia::Body::EffectorLink*>* effectorLinks;
     // Field size check
     static_assert(sizeof(::Array<RootMotion::FinalIK::Inertia::Body::EffectorLink*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE2AD1C
+    // [TooltipAttribute] Offset: 0xE30C8C
     // public System.Single speed
     // Size: 0x4
     // Offset: 0x20
     float speed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2AD54
+    // [TooltipAttribute] Offset: 0xE30CC4
     // public System.Single acceleration
     // Size: 0x4
     // Offset: 0x24
     float acceleration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2AD8C
-    // [RangeAttribute] Offset: 0xE2AD8C
+    // [TooltipAttribute] Offset: 0xE30CFC
+    // [RangeAttribute] Offset: 0xE30CFC
     // public System.Single matchVelocity
     // Size: 0x4
     // Offset: 0x28
     float matchVelocity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2ADE0
+    // [TooltipAttribute] Offset: 0xE30D50
     // public System.Single gravity
     // Size: 0x4
     // Offset: 0x2C
@@ -134,13 +134,13 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Boolean firstUpdate
     bool& dyn_firstUpdate();
     // public System.Void Reset()
-    // Offset: 0x1E8A214
+    // Offset: 0x1E8BED8
     void Reset();
     // public System.Void Update(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight, System.Single deltaTime)
-    // Offset: 0x1E8A3AC
+    // Offset: 0x1E8C070
     void Update(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight, float deltaTime);
     // public System.Void .ctor()
-    // Offset: 0x1E8A72C
+    // Offset: 0x1E8C3F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

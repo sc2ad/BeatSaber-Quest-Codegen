@@ -40,16 +40,16 @@ namespace Mono::Security::Cryptography {
     // Set static field: static private System.Byte[] emptySHA512
     static void _set_emptySHA512(::Array<uint8_t>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1E02078
+    // Offset: 0x1E01D3C
     static void _cctor();
     // static System.String HashNameFromOid(System.String oid, System.Boolean throwOnError)
-    // Offset: 0x1E019C4
+    // Offset: 0x1E01688
     static ::Il2CppString* HashNameFromOid(::Il2CppString* oid, bool throwOnError);
     // static System.Security.Cryptography.HashAlgorithm CreateFromOid(System.String oid)
-    // Offset: 0x1E01C94
+    // Offset: 0x1E01958
     static System::Security::Cryptography::HashAlgorithm* CreateFromOid(::Il2CppString* oid);
     // static System.Security.Cryptography.HashAlgorithm CreateFromName(System.String name)
-    // Offset: 0x1E01D00
+    // Offset: 0x1E019C4
     static System::Security::Cryptography::HashAlgorithm* CreateFromName(::Il2CppString* name);
   }; // Mono.Security.Cryptography.PKCS1
   #pragma pack(pop)

@@ -45,7 +45,7 @@ namespace System {
     // Get instance field reference: public System.Reflection.MonoCMethod default_ctor
     System::Reflection::MonoCMethod*& dyn_default_ctor();
     // public System.Void .ctor()
-    // Offset: 0x1839760
+    // Offset: 0x183FF94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

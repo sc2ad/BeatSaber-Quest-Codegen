@@ -56,10 +56,10 @@ namespace UnityEngine::AddressableAssets::Utility {
     // Get instance field reference: public System.Int32[] Dependencies
     ::Array<int>*& dyn_Dependencies();
     // public UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent CreateEvent(System.String category, UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventType eventType, System.Int32 frame, System.Int32 val)
-    // Offset: 0x23E8308
+    // Offset: 0x23E4054
     UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent CreateEvent(::Il2CppString* category, UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType eventType, int frame, int val);
     // public System.Void .ctor()
-    // Offset: 0x23E8350
+    // Offset: 0x23E409C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: StringSO
     StringSO() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x23993F4
+    // Offset: 0x23950DC
     // Implemented from: ObservableVariableSO`1
     // Base method: System.Void ObservableVariableSO_1::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

@@ -36,14 +36,14 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::FadeInOnSceneTransitionFinished::$FadeInAfterSceneTransitionCoroutine$d__3
     class $FadeInAfterSceneTransitionCoroutine$d__3;
-    // [InjectAttribute] Offset: 0xE1EED0
+    // [InjectAttribute] Offset: 0xE23E40
     // private FadeInOutController _fadeInOut
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::FadeInOutController* fadeInOut;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FadeInOutController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1EEE0
+    // [InjectAttribute] Offset: 0xE23E50
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
@@ -59,13 +59,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private GameScenesManager _gameScenesManager
     GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
     // protected System.Void OnEnable()
-    // Offset: 0x2390514
+    // Offset: 0x238C1FC
     void OnEnable();
     // private System.Collections.IEnumerator FadeInAfterSceneTransitionCoroutine()
-    // Offset: 0x2390568
+    // Offset: 0x238C250
     System::Collections::IEnumerator* FadeInAfterSceneTransitionCoroutine();
     // public System.Void .ctor()
-    // Offset: 0x2390604
+    // Offset: 0x238C2EC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

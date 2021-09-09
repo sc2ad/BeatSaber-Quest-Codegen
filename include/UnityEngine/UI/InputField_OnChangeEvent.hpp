@@ -24,7 +24,7 @@ namespace UnityEngine::UI {
     // Creating value type constructor for type: OnChangeEvent
     OnChangeEvent() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x19CCF60
+    // Offset: 0x19D2794
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

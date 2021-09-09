@@ -20,7 +20,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StringListSO : public GlobalNamespace::PersistentScriptableObject {
     public:
-    // [ReorderableAttribute] Offset: 0xE03988
+    // [ReorderableAttribute] Offset: 0xE088F8
     // private System.String[] _strings
     // Size: 0x8
     // Offset: 0x18
@@ -34,10 +34,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String[] _strings
     ::Array<::Il2CppString*>*& dyn__strings();
     // public System.String[] get_strings()
-    // Offset: 0x23993E4
+    // Offset: 0x23950CC
     ::Array<::Il2CppString*>* get_strings();
     // public System.Void .ctor()
-    // Offset: 0x23993EC
+    // Offset: 0x23950D4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

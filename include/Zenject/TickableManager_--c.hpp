@@ -68,28 +68,28 @@ namespace Zenject {
     // Set static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Int32> <>9__19_2
     static void _set_$$9__19_2(System::Func_2<ModestTree::Util::ValuePair_2<System::Type*, int>*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1723C4C
+    // Offset: 0x172A480
     static void _cctor();
     // System.Type <InitFixedTickables>b__17_0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1723CB8
+    // Offset: 0x172A4EC
     System::Type* $InitFixedTickables$b__17_0(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // System.Int32 <InitFixedTickables>b__17_2(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1723CD0
+    // Offset: 0x172A504
     int $InitFixedTickables$b__17_2(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // System.Type <InitTickables>b__18_0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1723CE8
+    // Offset: 0x172A51C
     System::Type* $InitTickables$b__18_0(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // System.Int32 <InitTickables>b__18_2(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1723D00
+    // Offset: 0x172A534
     int $InitTickables$b__18_2(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // System.Type <InitLateTickables>b__19_0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1723D18
+    // Offset: 0x172A54C
     System::Type* $InitLateTickables$b__19_0(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // System.Int32 <InitLateTickables>b__19_2(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1723D30
+    // Offset: 0x172A564
     int $InitLateTickables$b__19_2(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // public System.Void .ctor()
-    // Offset: 0x1723CB0
+    // Offset: 0x172A4E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

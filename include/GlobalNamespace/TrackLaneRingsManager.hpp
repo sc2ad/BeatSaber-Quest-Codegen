@@ -74,25 +74,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private TrackLaneRing[] _rings
     ::Array<GlobalNamespace::TrackLaneRing*>*& dyn__rings();
     // public System.Single get_ringPositionStep()
-    // Offset: 0x10959E0
+    // Offset: 0x10727E4
     float get_ringPositionStep();
     // public TrackLaneRing[] get_Rings()
-    // Offset: 0x10959E8
+    // Offset: 0x10727EC
     ::Array<GlobalNamespace::TrackLaneRing*>* get_Rings();
     // protected System.Void Awake()
-    // Offset: 0x10959F0
+    // Offset: 0x10727F4
     void Awake();
     // protected System.Void FixedUpdate()
-    // Offset: 0x1095D5C
+    // Offset: 0x1072B60
     void FixedUpdate();
     // protected System.Void LateUpdate()
-    // Offset: 0x1095E08
+    // Offset: 0x1072C0C
     void LateUpdate();
     // protected System.Void OnDrawGizmosSelected()
-    // Offset: 0x1095EB4
+    // Offset: 0x1072CB8
     void OnDrawGizmosSelected();
     // public System.Void .ctor()
-    // Offset: 0x1096204
+    // Offset: 0x1073008
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

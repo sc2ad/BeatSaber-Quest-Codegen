@@ -69,7 +69,7 @@ namespace LeaderboardsDTO {
     // Get instance field reference: public System.String buildVersion
     ::Il2CppString*& dyn_buildVersion();
     // public System.Void .ctor()
-    // Offset: 0x11490D8
+    // Offset: 0x118C6A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -35,14 +35,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLobbyAvatarPlaceManager : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xE328A0
+    // [InjectAttribute] Offset: 0xE38810
     // private readonly ILobbyStateDataModel _lobbyStateDataModel
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::ILobbyStateDataModel* lobbyStateDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ILobbyStateDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE328B0
+    // [InjectAttribute] Offset: 0xE38820
     // private readonly MultiplayerLobbyAvatarPlace/Pool _avatarPlacesPool
     // Size: 0x8
     // Offset: 0x20
@@ -82,22 +82,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _minOuterCircleRadius
     float& dyn__minOuterCircleRadius();
     // public System.Void Activate(System.Single innerCircleRadius, System.Single minOuterCircleRadius)
-    // Offset: 0x1061AB0
+    // Offset: 0x107E1AC
     void Activate(float innerCircleRadius, float minOuterCircleRadius);
     // public System.Void Deactivate()
-    // Offset: 0x1061F2C
+    // Offset: 0x107E628
     void Deactivate();
     // private System.Void OnDestroy()
-    // Offset: 0x1062058
+    // Offset: 0x107E754
     void OnDestroy();
     // private System.Void SpawnAllPlaces()
-    // Offset: 0x1061AB8
+    // Offset: 0x107E1B4
     void SpawnAllPlaces();
     // private System.Void DespawnAllPlaces()
-    // Offset: 0x1061F30
+    // Offset: 0x107E62C
     void DespawnAllPlaces();
     // public System.Void .ctor()
-    // Offset: 0x106205C
+    // Offset: 0x107E758
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

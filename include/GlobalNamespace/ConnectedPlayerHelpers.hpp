@@ -25,22 +25,22 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ConnectedPlayerHelpers
     ConnectedPlayerHelpers() noexcept {}
     // static public System.Boolean WantsToPlayNextLevel(IConnectedPlayer connectedPlayer)
-    // Offset: 0x131DB6C
+    // Offset: 0x133683C
     static bool WantsToPlayNextLevel(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // static public System.Boolean WasActiveAtLevelStart(IConnectedPlayer connectedPlayer)
-    // Offset: 0x131DC2C
+    // Offset: 0x13368FC
     static bool WasActiveAtLevelStart(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // static public System.Boolean IsActive(IConnectedPlayer connectedPlayer)
-    // Offset: 0x131DCEC
+    // Offset: 0x13369BC
     static bool IsActive(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // static public System.Boolean HasFinishedLevel(IConnectedPlayer connectedPlayer)
-    // Offset: 0x131DDAC
+    // Offset: 0x1336A7C
     static bool HasFinishedLevel(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // static public System.Boolean IsActiveOrFinished(IConnectedPlayer connectedPlayer)
-    // Offset: 0x131DE6C
+    // Offset: 0x1336B3C
     static bool IsActiveOrFinished(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // static public System.Boolean IsFailed(IConnectedPlayer connectedPlayer)
-    // Offset: 0x131DEA4
+    // Offset: 0x1336B74
     static bool IsFailed(GlobalNamespace::IConnectedPlayer* connectedPlayer);
   }; // ConnectedPlayerHelpers
   #pragma pack(pop)

@@ -71,51 +71,51 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: public System.Int32 b
     int& dyn_b();
     // public System.Void .ctor(System.Int32 a, System.Int32 b)
-    // Offset: 0x1FBB308
+    // Offset: 0x1FBAFCC
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Edge(int a, int b)
     // static private System.Void .cctor()
-    // Offset: 0x1FBBCFC
+    // Offset: 0x1FBB9C0
     static void _cctor();
     // public System.Boolean IsValid()
-    // Offset: 0x1FBB310
+    // Offset: 0x1FBAFD4
     bool IsValid();
     // public System.Boolean Equals(UnityEngine.ProBuilder.Edge other)
-    // Offset: 0x1FBB4F0
+    // Offset: 0x1FBB1B4
     bool Equals(UnityEngine::ProBuilder::Edge other);
     // static public UnityEngine.ProBuilder.Edge Add(UnityEngine.ProBuilder.Edge a, UnityEngine.ProBuilder.Edge b)
-    // Offset: 0x1FBB744
+    // Offset: 0x1FBB408
     static UnityEngine::ProBuilder::Edge Add(UnityEngine::ProBuilder::Edge a, UnityEngine::ProBuilder::Edge b);
     // static public UnityEngine.ProBuilder.Edge Subtract(UnityEngine.ProBuilder.Edge a, UnityEngine.ProBuilder.Edge b)
-    // Offset: 0x1FBB7C4
+    // Offset: 0x1FBB488
     static UnityEngine::ProBuilder::Edge Subtract(UnityEngine::ProBuilder::Edge a, UnityEngine::ProBuilder::Edge b);
     // public System.Boolean Equals(UnityEngine.ProBuilder.Edge other, System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> lookup)
-    // Offset: 0x1FBB844
+    // Offset: 0x1FBB508
     bool Equals(UnityEngine::ProBuilder::Edge other, System::Collections::Generic::Dictionary_2<int, int>* lookup);
     // public System.Boolean Contains(System.Int32 index)
-    // Offset: 0x1FBB960
+    // Offset: 0x1FBB624
     bool Contains(int index);
     // public System.Boolean Contains(UnityEngine.ProBuilder.Edge other)
-    // Offset: 0x1FBB984
+    // Offset: 0x1FBB648
     bool Contains(UnityEngine::ProBuilder::Edge other);
     // System.Boolean Contains(System.Int32 index, System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> lookup)
-    // Offset: 0x1FBB9B4
+    // Offset: 0x1FBB678
     bool Contains(int index, System::Collections::Generic::Dictionary_2<int, int>* lookup);
     // static System.Void GetIndices(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> edges, System.Collections.Generic.List`1<System.Int32> indices)
-    // Offset: 0x1FBBA60
+    // Offset: 0x1FBB724
     static void GetIndices(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* edges, System::Collections::Generic::List_1<int>* indices);
     // public override System.String ToString()
-    // Offset: 0x1FBB33C
+    // Offset: 0x1FBB000
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1FBB538
+    // Offset: 0x1FBB1FC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1FBB5F0
+    // Offset: 0x1FBB2B4
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -124,22 +124,22 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(Edge), 4 + sizeof(int)> __UnityEngine_ProBuilder_EdgeSizeCheck;
   static_assert(sizeof(Edge) == 0x8);
   // static public UnityEngine.ProBuilder.Edge op_Addition(UnityEngine.ProBuilder.Edge a, UnityEngine.ProBuilder.Edge b)
-  // Offset: 0x1FBB614
+  // Offset: 0x1FBB2D8
   UnityEngine::ProBuilder::Edge operator+(const UnityEngine::ProBuilder::Edge& a, const UnityEngine::ProBuilder::Edge& b);
   // static public UnityEngine.ProBuilder.Edge op_Subtraction(UnityEngine.ProBuilder.Edge a, UnityEngine.ProBuilder.Edge b)
-  // Offset: 0x1FBB62C
+  // Offset: 0x1FBB2F0
   UnityEngine::ProBuilder::Edge operator-(const UnityEngine::ProBuilder::Edge& a, const UnityEngine::ProBuilder::Edge& b);
   // static public UnityEngine.ProBuilder.Edge op_Addition(UnityEngine.ProBuilder.Edge a, System.Int32 b)
-  // Offset: 0x1FBB644
+  // Offset: 0x1FBB308
   UnityEngine::ProBuilder::Edge operator+(const UnityEngine::ProBuilder::Edge& a, const int& b);
   // static public UnityEngine.ProBuilder.Edge op_Subtraction(UnityEngine.ProBuilder.Edge a, System.Int32 b)
-  // Offset: 0x1FBB658
+  // Offset: 0x1FBB31C
   UnityEngine::ProBuilder::Edge operator-(const UnityEngine::ProBuilder::Edge& a, const int& b);
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.Edge a, UnityEngine.ProBuilder.Edge b)
-  // Offset: 0x1FBB66C
+  // Offset: 0x1FBB330
   bool operator ==(const UnityEngine::ProBuilder::Edge& a, const UnityEngine::ProBuilder::Edge& b);
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.Edge a, UnityEngine.ProBuilder.Edge b)
-  // Offset: 0x1FBB6A4
+  // Offset: 0x1FBB368
   bool operator !=(const UnityEngine::ProBuilder::Edge& a, const UnityEngine::ProBuilder::Edge& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Edge, "UnityEngine.ProBuilder", "Edge");

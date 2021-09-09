@@ -48,7 +48,7 @@ namespace System::IO {
     // Get instance field reference: private System.TermInfoDriver driver
     System::TermInfoDriver*& dyn_driver();
     // public System.Void .ctor(System.IO.Stream stream, System.Text.Encoding encoding)
-    // Offset: 0x1969440
+    // Offset: 0x196EC74
     // Implemented from: System.IO.StreamReader
     // Base method: System.Void StreamReader::.ctor(System.IO.Stream stream, System.Text.Encoding encoding)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -57,27 +57,27 @@ namespace System::IO {
       return THROW_UNLESS((::il2cpp_utils::New<CStreamReader*, creationType>(stream, encoding)));
     }
     // public override System.Int32 Peek()
-    // Offset: 0x19695B4
+    // Offset: 0x196EDE8
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::Peek()
     int Peek();
     // public override System.Int32 Read()
-    // Offset: 0x1969708
+    // Offset: 0x196EF3C
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::Read()
     int Read();
     // public override System.Int32 Read(in System.Char[] dest, System.Int32 index, System.Int32 count)
-    // Offset: 0x19697E8
+    // Offset: 0x196F01C
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::Read(in System.Char[] dest, System.Int32 index, System.Int32 count)
     int Read(ByRef<::Array<::Il2CppChar>*> dest, int index, int count);
     // public override System.String ReadLine()
-    // Offset: 0x19699B4
+    // Offset: 0x196F1E8
     // Implemented from: System.IO.StreamReader
     // Base method: System.String StreamReader::ReadLine()
     ::Il2CppString* ReadLine();
     // public override System.String ReadToEnd()
-    // Offset: 0x1969A80
+    // Offset: 0x196F2B4
     // Implemented from: System.IO.StreamReader
     // Base method: System.String StreamReader::ReadToEnd()
     ::Il2CppString* ReadToEnd();

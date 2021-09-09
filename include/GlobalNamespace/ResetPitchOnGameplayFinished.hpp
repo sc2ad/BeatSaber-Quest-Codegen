@@ -46,17 +46,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly AudioManagerSO _audioManager
     GlobalNamespace::AudioManagerSO*& dyn__audioManager();
     // public System.Void .ctor(GameplayLevelSceneTransitionEvents gameplayLevelSceneTransitionEvents, AudioManagerSO audioManager)
-    // Offset: 0x118B734
+    // Offset: 0x1127CEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResetPitchOnGameplayFinished* New_ctor(GlobalNamespace::GameplayLevelSceneTransitionEvents* gameplayLevelSceneTransitionEvents, GlobalNamespace::AudioManagerSO* audioManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ResetPitchOnGameplayFinished::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResetPitchOnGameplayFinished*, creationType>(gameplayLevelSceneTransitionEvents, audioManager)));
     }
     // private System.Void HandleAnyGameplayLevelDidFinish()
-    // Offset: 0x118B8B0
+    // Offset: 0x1127E68
     void HandleAnyGameplayLevelDidFinish();
     // protected override System.Void Finalize()
-    // Offset: 0x118B7D4
+    // Offset: 0x1127D8C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

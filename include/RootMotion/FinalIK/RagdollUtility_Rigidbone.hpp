@@ -130,17 +130,17 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public UnityEngine.Quaternion lastRotation
     UnityEngine::Quaternion& dyn_lastRotation();
     // public System.Void .ctor(UnityEngine.Rigidbody r)
-    // Offset: 0x1AD9EF0
+    // Offset: 0x1ADD6A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RagdollUtility::Rigidbone* New_ctor(UnityEngine::Rigidbody* r) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::RagdollUtility::Rigidbone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RagdollUtility::Rigidbone*, creationType>(r)));
     }
     // public System.Void RecordVelocity()
-    // Offset: 0x1ADAAFC
+    // Offset: 0x1ADE2AC
     void RecordVelocity();
     // public System.Void WakeUp(System.Single velocityWeight, System.Single angularVelocityWeight)
-    // Offset: 0x1ADA8E0
+    // Offset: 0x1ADE090
     void WakeUp(float velocityWeight, float angularVelocityWeight);
   }; // RootMotion.FinalIK.RagdollUtility/RootMotion.FinalIK.Rigidbone
   #pragma pack(pop)

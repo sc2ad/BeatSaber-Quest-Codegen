@@ -51,13 +51,13 @@ namespace Zenject::Internal {
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<System.Type> _boundNonSingletons
     System::Collections::Generic::HashSet_1<System::Type*>*& dyn__boundNonSingletons();
     // public System.Void MarkNonSingleton(System.Type type)
-    // Offset: 0x166639C
+    // Offset: 0x166DBD0
     void MarkNonSingleton(System::Type* type);
     // public System.Void MarkSingleton(System.Type type)
-    // Offset: 0x1666440
+    // Offset: 0x166DC74
     void MarkSingleton(System::Type* type);
     // public System.Void .ctor()
-    // Offset: 0x1666500
+    // Offset: 0x166DD34
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

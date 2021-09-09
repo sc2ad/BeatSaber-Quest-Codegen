@@ -160,7 +160,7 @@ namespace TMPro {
     // Get instance field reference: public System.Boolean includeFontFeatures
     bool& dyn_includeFontFeatures();
     // System.Void .ctor(System.String sourceFontFileGUID, System.Int32 pointSize, System.Int32 pointSizeSamplingMode, System.Int32 padding, System.Int32 packingMode, System.Int32 atlasWidth, System.Int32 atlasHeight, System.Int32 characterSelectionMode, System.String characterSet, System.Int32 renderMode)
-    // Offset: 0x1114D5C
+    // Offset: 0x11089F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     FontAssetCreationSettings(::Il2CppString* sourceFontFileGUID, int pointSize, int pointSizeSamplingMode, int padding, int packingMode, int atlasWidth, int atlasHeight, int characterSelectionMode, ::Il2CppString* characterSet, int renderMode) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::FontAssetCreationSettings::.ctor");

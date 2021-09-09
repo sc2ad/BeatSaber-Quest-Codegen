@@ -49,7 +49,7 @@ namespace System::Net::NetworkInformation {
     // Get instance field reference: public System.Int32 SockaddrLength
     int& dyn_SockaddrLength();
     // public System.Net.IPAddress GetIPAddress()
-    // Offset: 0x149BB78
+    // Offset: 0x14A3B34
     System::Net::IPAddress* GetIPAddress();
   }; // System.Net.NetworkInformation.Win32_SOCKET_ADDRESS
   #pragma pack(pop)

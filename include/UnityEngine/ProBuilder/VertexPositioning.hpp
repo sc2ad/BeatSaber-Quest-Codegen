@@ -46,34 +46,34 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private System.Collections.Generic.List`1<System.Int32> s_CoincidentVertices
     static void _set_s_CoincidentVertices(System::Collections::Generic::List_1<int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x22D3F18
+    // Offset: 0x22CFBDC
     static void _cctor();
     // static public UnityEngine.Vector3[] VerticesInWorldSpace(UnityEngine.ProBuilder.ProBuilderMesh mesh)
-    // Offset: 0x22D2BB4
+    // Offset: 0x22CE878
     static ::Array<UnityEngine::Vector3>* VerticesInWorldSpace(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
     // static public System.Void TranslateVerticesInWorldSpace(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32[] indexes, UnityEngine.Vector3 offset)
-    // Offset: 0x22D2D34
+    // Offset: 0x22CE9F8
     static void TranslateVerticesInWorldSpace(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Array<int>* indexes, UnityEngine::Vector3 offset);
     // static System.Void TranslateVerticesInWorldSpace(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32[] indexes, UnityEngine.Vector3 offset, System.Single snapValue, System.Boolean snapAxisOnly)
-    // Offset: 0x22D2E48
+    // Offset: 0x22CEB0C
     static void TranslateVerticesInWorldSpace(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Array<int>* indexes, UnityEngine::Vector3 offset, float snapValue, bool snapAxisOnly);
     // static public System.Void TranslateVertices(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<System.Int32> indexes, UnityEngine.Vector3 offset)
-    // Offset: 0x22D3430
+    // Offset: 0x22CF0F4
     static void TranslateVertices(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<int>* indexes, UnityEngine::Vector3 offset);
     // static public System.Void TranslateVertices(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> edges, UnityEngine.Vector3 offset)
-    // Offset: 0x22D3724
+    // Offset: 0x22CF3E8
     static void TranslateVertices(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* edges, UnityEngine::Vector3 offset);
     // static public System.Void TranslateVertices(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces, UnityEngine.Vector3 offset)
-    // Offset: 0x22D3850
+    // Offset: 0x22CF514
     static void TranslateVertices(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, UnityEngine::Vector3 offset);
     // static private System.Void TranslateVerticesInternal(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<System.Int32> indices, UnityEngine.Vector3 offset)
-    // Offset: 0x22D355C
+    // Offset: 0x22CF220
     static void TranslateVerticesInternal(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<int>* indices, UnityEngine::Vector3 offset);
     // static public System.Void SetSharedVertexPosition(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32 sharedVertexHandle, UnityEngine.Vector3 position)
-    // Offset: 0x22D397C
+    // Offset: 0x22CF640
     static void SetSharedVertexPosition(UnityEngine::ProBuilder::ProBuilderMesh* mesh, int sharedVertexHandle, UnityEngine::Vector3 position);
     // static System.Void SetSharedVertexValues(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32 sharedVertexHandle, UnityEngine.ProBuilder.Vertex vertex)
-    // Offset: 0x22D3C78
+    // Offset: 0x22CF93C
     static void SetSharedVertexValues(UnityEngine::ProBuilder::ProBuilderMesh* mesh, int sharedVertexHandle, UnityEngine::ProBuilder::Vertex* vertex);
   }; // UnityEngine.ProBuilder.VertexPositioning
   #pragma pack(pop)

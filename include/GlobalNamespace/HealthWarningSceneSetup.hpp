@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class HealthWarningSceneSetup : public Zenject::MonoInstaller {
     public:
-    // [InjectAttribute] Offset: 0xE45EC4
+    // [InjectAttribute] Offset: 0xE4BF10
     // private readonly HealthWarningSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x20
@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly HealthWarningSceneSetupData _sceneSetupData
     GlobalNamespace::HealthWarningSceneSetupData*& dyn__sceneSetupData();
     // public System.Void .ctor()
-    // Offset: 0x1143704
+    // Offset: 0x1186C60
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -54,7 +54,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HealthWarningSceneSetup*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x114357C
+    // Offset: 0x1186AD8
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

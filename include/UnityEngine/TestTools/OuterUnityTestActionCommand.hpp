@@ -54,16 +54,16 @@ namespace UnityEngine::TestTools {
     // Creating value type constructor for type: OuterUnityTestActionCommand
     OuterUnityTestActionCommand() noexcept {}
     // static private UnityEngine.TestTools.IOuterUnityTestAction[] GetUnityTestActionsFromMethod(System.Reflection.MethodInfo method)
-    // Offset: 0x14C3284
+    // Offset: 0x14CB240
     static ::Array<UnityEngine::TestTools::IOuterUnityTestAction*>* GetUnityTestActionsFromMethod(System::Reflection::MethodInfo* method);
     // protected System.Collections.IEnumerator InvokeBefore(UnityEngine.TestTools.IOuterUnityTestAction action, NUnit.Framework.Internal.Test test, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0x14C33BC
+    // Offset: 0x14CB378
     System::Collections::IEnumerator* InvokeBefore(UnityEngine::TestTools::IOuterUnityTestAction* action, NUnit::Framework::Internal::Test* test, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
     // protected System.Collections.IEnumerator InvokeAfter(UnityEngine.TestTools.IOuterUnityTestAction action, NUnit.Framework.Internal.Test test, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0x14C3478
+    // Offset: 0x14CB434
     System::Collections::IEnumerator* InvokeAfter(UnityEngine::TestTools::IOuterUnityTestAction* action, NUnit::Framework::Internal::Test* test, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
     // public System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
-    // Offset: 0x14B6F64
+    // Offset: 0x14BEF20
     // Implemented from: NUnit.Framework.Internal.Commands.DelegatingTestCommand
     // Base method: System.Void DelegatingTestCommand::.ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -72,7 +72,7 @@ namespace UnityEngine::TestTools {
       return THROW_UNLESS((::il2cpp_utils::New<OuterUnityTestActionCommand*, creationType>(innerCommand)));
     }
     // protected override UnityEngine.TestTools.BeforeAfterTestCommandState GetState(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0x14C3538
+    // Offset: 0x14CB4F4
     // Implemented from: UnityEngine.TestTools.BeforeAfterTestCommandBase`1
     // Base method: UnityEngine.TestTools.BeforeAfterTestCommandState BeforeAfterTestCommandBase_1::GetState(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
     UnityEngine::TestTools::BeforeAfterTestCommandState* GetState(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);

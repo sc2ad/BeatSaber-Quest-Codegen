@@ -25,25 +25,25 @@ namespace GlobalNamespace {
     class NetLogger;
     // Creating value type constructor for type: BGNetDebug
     BGNetDebug() noexcept {}
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE0F5B8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE14528
     // Get static field: static private BGNetDebug/ILogger _logger
     static GlobalNamespace::BGNetDebug::ILogger* _get__logger();
     // Set static field: static private BGNetDebug/ILogger _logger
     static void _set__logger(GlobalNamespace::BGNetDebug::ILogger* value);
     // static private System.Void .cctor()
-    // Offset: 0x131C234
+    // Offset: 0x1334F04
     static void _cctor();
     // static public System.Void SetLogger(BGNetDebug/ILogger logger)
-    // Offset: 0x131C2C0
+    // Offset: 0x1334F90
     static void SetLogger(GlobalNamespace::BGNetDebug::ILogger* logger);
     // static public System.Void Log(System.String message)
-    // Offset: 0x131C32C
+    // Offset: 0x1334FFC
     static void Log(::Il2CppString* message);
     // static public System.Void LogError(System.String message)
-    // Offset: 0x131BE24
+    // Offset: 0x1334AF4
     static void LogError(::Il2CppString* message);
     // static public System.Void LogWarning(System.String message)
-    // Offset: 0x131C444
+    // Offset: 0x1335114
     static void LogWarning(::Il2CppString* message);
   }; // BGNetDebug
   #pragma pack(pop)

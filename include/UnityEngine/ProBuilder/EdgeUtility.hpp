@@ -43,31 +43,31 @@ namespace UnityEngine::ProBuilder {
     // Creating value type constructor for type: EdgeUtility
     EdgeUtility() noexcept {}
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> GetSharedVertexHandleEdges(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> edges)
-    // Offset: 0x1AEDE64
+    // Offset: 0x1AF0614
     static System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* GetSharedVertexHandleEdges(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* edges);
     // static public UnityEngine.ProBuilder.Edge GetSharedVertexHandleEdge(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Edge edge)
-    // Offset: 0x1AEDF28
+    // Offset: 0x1AF06D8
     static UnityEngine::ProBuilder::Edge GetSharedVertexHandleEdge(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Edge edge);
     // static UnityEngine.ProBuilder.Edge GetEdgeWithSharedVertexHandles(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Edge edge)
-    // Offset: 0x1AEDFE4
+    // Offset: 0x1AF0794
     static UnityEngine::ProBuilder::Edge GetEdgeWithSharedVertexHandles(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Edge edge);
     // static public System.Boolean ValidateEdge(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Edge edge, out UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.Face,UnityEngine.ProBuilder.Edge> validEdge)
-    // Offset: 0x1AEE0A4
+    // Offset: 0x1AF0854
     static bool ValidateEdge(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Edge edge, ByRef<UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::Face*, UnityEngine::ProBuilder::Edge>> validEdge);
     // static System.Boolean Contains(UnityEngine.ProBuilder.Edge[] edges, UnityEngine.ProBuilder.Edge edge)
-    // Offset: 0x1AEE330
+    // Offset: 0x1AF0AE0
     static bool Contains(::Array<UnityEngine::ProBuilder::Edge>* edges, UnityEngine::ProBuilder::Edge edge);
     // static System.Boolean Contains(UnityEngine.ProBuilder.Edge[] edges, System.Int32 x, System.Int32 y)
-    // Offset: 0x1AEE3C0
+    // Offset: 0x1AF0B70
     static bool Contains(::Array<UnityEngine::ProBuilder::Edge>* edges, int x, int y);
     // static System.Int32 IndexOf(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Edge> edges, UnityEngine.ProBuilder.Edge edge)
-    // Offset: 0x1AEE43C
+    // Offset: 0x1AF0BEC
     static int IndexOf(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Edge>* edges, UnityEngine::ProBuilder::Edge edge);
     // static System.Int32[] AllTriangles(UnityEngine.ProBuilder.Edge[] edges)
-    // Offset: 0x1AEE5C4
+    // Offset: 0x1AF0D74
     static ::Array<int>* AllTriangles(::Array<UnityEngine::ProBuilder::Edge>* edges);
     // static UnityEngine.ProBuilder.Face GetFace(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Edge edge)
-    // Offset: 0x1AEE6B4
+    // Offset: 0x1AF0E64
     static UnityEngine::ProBuilder::Face* GetFace(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Edge edge);
   }; // UnityEngine.ProBuilder.EdgeUtility
   #pragma pack(pop)

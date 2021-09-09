@@ -34,20 +34,20 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: FinishDelegate
     FinishDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1050EDC
+    // Offset: 0x1056E9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnterPlayerGuestNameViewController::FinishDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnterPlayerGuestNameViewController::FinishDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(EnterPlayerGuestNameViewController viewController, System.String playerName)
-    // Offset: 0x10509B4
+    // Offset: 0x1056974
     void Invoke(GlobalNamespace::EnterPlayerGuestNameViewController* viewController, ::Il2CppString* playerName);
     // public System.IAsyncResult BeginInvoke(EnterPlayerGuestNameViewController viewController, System.String playerName, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1050EEC
+    // Offset: 0x1056EAC
     System::IAsyncResult* BeginInvoke(GlobalNamespace::EnterPlayerGuestNameViewController* viewController, ::Il2CppString* playerName, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1050F1C
+    // Offset: 0x1056EDC
     void EndInvoke(System::IAsyncResult* result);
   }; // EnterPlayerGuestNameViewController/FinishDelegate
   #pragma pack(pop)

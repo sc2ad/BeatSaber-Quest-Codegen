@@ -25,7 +25,7 @@ namespace NUnit::Framework::Constraints {
     // Creating value type constructor for type: DefaultComparisonAdapter
     DefaultComparisonAdapter() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1764F44
+    // Offset: 0x176B778
     // Implemented from: NUnit.Framework.Constraints.ComparisonAdapter
     // Base method: System.Void ComparisonAdapter::.ctor()
     // Base method: System.Void Object::.ctor()

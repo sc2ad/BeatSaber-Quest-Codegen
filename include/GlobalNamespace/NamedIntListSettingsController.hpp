@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private NamedIntListSettingsController/TextValuePair[] _textValuePairs
     ::Array<GlobalNamespace::NamedIntListSettingsController::TextValuePair*>*& dyn__textValuePairs();
     // public System.Void .ctor()
-    // Offset: 0x103D7B8
+    // Offset: 0x1045F90
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()
@@ -63,17 +63,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NamedIntListSettingsController*, creationType>()));
     }
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x103D5E8
+    // Offset: 0x1045DC0
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x103D6D0
+    // Offset: 0x1045EA8
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x103D764
+    // Offset: 0x1045F3C
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::Il2CppString* TextForValue(int idx);

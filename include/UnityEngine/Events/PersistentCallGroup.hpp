@@ -35,7 +35,7 @@ namespace UnityEngine::Events {
   // [TokenAttribute] Offset: FFFFFFFF
   class PersistentCallGroup : public ::Il2CppObject {
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0xDB38A4
+    // [FormerlySerializedAsAttribute] Offset: 0xDB9814
     // private System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall> m_Calls
     // Size: 0x8
     // Offset: 0x10
@@ -51,10 +51,10 @@ namespace UnityEngine::Events {
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall> m_Calls
     System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall*>*& dyn_m_Calls();
     // public System.Void Initialize(UnityEngine.Events.InvokableCallList invokableList, UnityEngine.Events.UnityEventBase unityEventBase)
-    // Offset: 0x1C28720
+    // Offset: 0x1C538B8
     void Initialize(UnityEngine::Events::InvokableCallList* invokableList, UnityEngine::Events::UnityEventBase* unityEventBase);
     // public System.Void .ctor()
-    // Offset: 0x1C286AC
+    // Offset: 0x1C53844
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

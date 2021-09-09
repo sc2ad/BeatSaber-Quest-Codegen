@@ -76,13 +76,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private ColorSchemeSO _colorScheme
     GlobalNamespace::ColorSchemeSO*& dyn__colorScheme();
     // public ColorSchemeSO get_colorScheme()
-    // Offset: 0x1200DB4
+    // Offset: 0x1207798
     GlobalNamespace::ColorSchemeSO* get_colorScheme();
     // public System.Void set_colorScheme(ColorSchemeSO value)
-    // Offset: 0x1200DBC
+    // Offset: 0x12077A0
     void set_colorScheme(GlobalNamespace::ColorSchemeSO* value);
     // public System.Void .ctor()
-    // Offset: 0x12014BC
+    // Offset: 0x1207EA0
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -97,7 +97,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LightmappingSceneSetup*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x1200DC4
+    // Offset: 0x12077A8
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

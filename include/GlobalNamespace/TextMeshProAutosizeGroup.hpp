@@ -40,10 +40,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private TMPro.TMP_Text[] _texts
     ::Array<TMPro::TMP_Text*>*& dyn__texts();
     // protected System.Void Start()
-    // Offset: 0x23B58F8
+    // Offset: 0x23B05E0
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x23B5A5C
+    // Offset: 0x23B0744
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

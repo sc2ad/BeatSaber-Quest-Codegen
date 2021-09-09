@@ -62,7 +62,7 @@ namespace TMPro {
     // Get instance field reference: public System.Int32 stencilID
     int& dyn_stencilID();
     // public System.Void .ctor()
-    // Offset: 0x11572AC
+    // Offset: 0x114FF24
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

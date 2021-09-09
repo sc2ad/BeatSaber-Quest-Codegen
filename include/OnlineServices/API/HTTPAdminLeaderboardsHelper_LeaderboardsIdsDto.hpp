@@ -35,7 +35,7 @@ namespace OnlineServices::API {
     // Get instance field reference: public System.String[] leaderboardsIds
     ::Array<::Il2CppString*>*& dyn_leaderboardsIds();
     // public System.Void .ctor()
-    // Offset: 0x1025258
+    // Offset: 0x102CA94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

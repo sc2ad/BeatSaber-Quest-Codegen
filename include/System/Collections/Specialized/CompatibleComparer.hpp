@@ -60,29 +60,29 @@ namespace System::Collections::Specialized {
     // Get instance field reference: private System.Collections.IHashCodeProvider _hcp
     System::Collections::IHashCodeProvider*& dyn__hcp();
     // public System.Collections.IComparer get_Comparer()
-    // Offset: 0x18A9228
+    // Offset: 0x18B0A5C
     System::Collections::IComparer* get_Comparer();
     // public System.Collections.IHashCodeProvider get_HashCodeProvider()
-    // Offset: 0x18A9230
+    // Offset: 0x18B0A64
     System::Collections::IHashCodeProvider* get_HashCodeProvider();
     // static public System.Collections.IComparer get_DefaultComparer()
-    // Offset: 0x18A9238
+    // Offset: 0x18B0A6C
     static System::Collections::IComparer* get_DefaultComparer();
     // static public System.Collections.IHashCodeProvider get_DefaultHashCodeProvider()
-    // Offset: 0x18A930C
+    // Offset: 0x18B0B40
     static System::Collections::IHashCodeProvider* get_DefaultHashCodeProvider();
     // System.Void .ctor(System.Collections.IComparer comparer, System.Collections.IHashCodeProvider hashCodeProvider)
-    // Offset: 0x18A8ECC
+    // Offset: 0x18B0700
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompatibleComparer* New_ctor(System::Collections::IComparer* comparer, System::Collections::IHashCodeProvider* hashCodeProvider) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::CompatibleComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompatibleComparer*, creationType>(comparer, hashCodeProvider)));
     }
     // public System.Boolean Equals(System.Object a, System.Object b)
-    // Offset: 0x18A8F04
+    // Offset: 0x18B0738
     bool Equals(::Il2CppObject* a, ::Il2CppObject* b);
     // public System.Int32 GetHashCode(System.Object obj)
-    // Offset: 0x18A9110
+    // Offset: 0x18B0944
     int GetHashCode(::Il2CppObject* obj);
   }; // System.Collections.Specialized.CompatibleComparer
   #pragma pack(pop)

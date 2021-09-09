@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: IgnoreForReflectionProbeBaking
     IgnoreForReflectionProbeBaking() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x114522C
+    // Offset: 0x1188788
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

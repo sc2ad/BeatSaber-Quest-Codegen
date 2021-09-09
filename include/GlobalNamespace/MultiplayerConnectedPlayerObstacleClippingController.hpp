@@ -41,12 +41,12 @@ namespace GlobalNamespace {
     MultiplayerConnectedPlayerObstacleClippingController(::Array<GlobalNamespace::MaterialPropertyBlockController*>* materialPropertyBlockControllers_ = {}) noexcept : materialPropertyBlockControllers{materialPropertyBlockControllers_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE3A0CC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE4004C
     // Get static field: static private readonly System.Int32 _clippingPlanePositionID
     static int _get__clippingPlanePositionID();
     // Set static field: static private readonly System.Int32 _clippingPlanePositionID
     static void _set__clippingPlanePositionID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE3A0DC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE4005C
     // Get static field: static private readonly System.Int32 _clippingPlaneNormalID
     static int _get__clippingPlaneNormalID();
     // Set static field: static private readonly System.Int32 _clippingPlaneNormalID
@@ -54,10 +54,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private MaterialPropertyBlockController[] _materialPropertyBlockControllers
     ::Array<GlobalNamespace::MaterialPropertyBlockController*>*& dyn__materialPropertyBlockControllers();
     // public System.Void SetClippingParams(UnityEngine.Vector3 position, UnityEngine.Vector3 normal)
-    // Offset: 0x11AA020
+    // Offset: 0x11CCF58
     void SetClippingParams(UnityEngine::Vector3 position, UnityEngine::Vector3 normal);
     // public System.Void .ctor()
-    // Offset: 0x11AA1CC
+    // Offset: 0x11CD104
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -70,7 +70,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerObstacleClippingController*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x11AA1D4
+    // Offset: 0x11CD10C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

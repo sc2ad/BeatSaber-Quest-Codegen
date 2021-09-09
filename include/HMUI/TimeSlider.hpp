@@ -72,7 +72,7 @@ namespace HMUI {
     // Get instance field reference: private HMUI.TimeSlider/HMUI.TimeType _timeType
     HMUI::TimeSlider::TimeType& dyn__timeType();
     // public System.Void .ctor()
-    // Offset: 0x130774C
+    // Offset: 0x131F41C
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.Void RangeValuesTextSlider::.ctor()
     // Base method: System.Void TextSlider::.ctor()
@@ -89,7 +89,7 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<TimeSlider*, creationType>()));
     }
     // protected override System.String TextForValue(System.Single value)
-    // Offset: 0x1307594
+    // Offset: 0x131F264
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.String RangeValuesTextSlider::TextForValue(System.Single value)
     ::Il2CppString* TextForValue(float value);

@@ -87,51 +87,51 @@ namespace System::Net::Sockets {
     // Get instance field reference: private System.Boolean m_CleanedUp
     bool& dyn_m_CleanedUp();
     // public System.Net.Sockets.Socket get_Client()
-    // Offset: 0x15C8480
+    // Offset: 0x15D1CB4
     System::Net::Sockets::Socket* get_Client();
     // public System.Void set_Client(System.Net.Sockets.Socket value)
-    // Offset: 0x15C8488
+    // Offset: 0x15D1CBC
     void set_Client(System::Net::Sockets::Socket* value);
     // public System.Boolean get_Connected()
-    // Offset: 0x15C8490
+    // Offset: 0x15D1CC4
     bool get_Connected();
     // public System.Void .ctor(System.Net.Sockets.AddressFamily family)
-    // Offset: 0x15C8280
+    // Offset: 0x15D1AB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TcpClient* New_ctor(System::Net::Sockets::AddressFamily family) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Sockets::TcpClient::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TcpClient*, creationType>(family)));
     }
     // System.Void .ctor(System.Net.Sockets.Socket acceptedSocket)
-    // Offset: 0x15C8414
+    // Offset: 0x15D1C48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TcpClient* New_ctor(System::Net::Sockets::Socket* acceptedSocket) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Sockets::TcpClient::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TcpClient*, creationType>(acceptedSocket)));
     }
     // public System.IAsyncResult BeginConnect(System.String host, System.Int32 port, System.AsyncCallback requestCallback, System.Object state)
-    // Offset: 0x15C84AC
+    // Offset: 0x15D1CE0
     System::IAsyncResult* BeginConnect(::Il2CppString* host, int port, System::AsyncCallback* requestCallback, ::Il2CppObject* state);
     // public System.Void EndConnect(System.IAsyncResult asyncResult)
-    // Offset: 0x15C852C
+    // Offset: 0x15D1D60
     void EndConnect(System::IAsyncResult* asyncResult);
     // public System.Net.Sockets.NetworkStream GetStream()
-    // Offset: 0x15C8598
+    // Offset: 0x15D1DCC
     System::Net::Sockets::NetworkStream* GetStream();
     // public System.Void Close()
-    // Offset: 0x15C86D4
+    // Offset: 0x15D1F08
     void Close();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x15C8778
+    // Offset: 0x15D1FAC
     void Dispose(bool disposing);
     // public System.Void Dispose()
-    // Offset: 0x15C88D8
+    // Offset: 0x15D210C
     void Dispose();
     // private System.Void initialize()
-    // Offset: 0x15C8398
+    // Offset: 0x15D1BCC
     void initialize();
     // protected override System.Void Finalize()
-    // Offset: 0x15C88E8
+    // Offset: 0x15D211C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

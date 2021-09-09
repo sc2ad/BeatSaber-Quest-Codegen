@@ -44,20 +44,20 @@ namespace OVR::OpenVR {
     // Get instance field reference: private OVR.OpenVR.IVRExtendedDisplay FnTable
     OVR::OpenVR::IVRExtendedDisplay& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x15BD890
+    // Offset: 0x15C80C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRExtendedDisplay* New_ctor(System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::CVRExtendedDisplay::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRExtendedDisplay*, creationType>(pInterface)));
     }
     // public System.Void GetWindowBounds(ref System.Int32 pnX, ref System.Int32 pnY, ref System.UInt32 pnWidth, ref System.UInt32 pnHeight)
-    // Offset: 0x15BD998
+    // Offset: 0x15C81CC
     void GetWindowBounds(ByRef<int> pnX, ByRef<int> pnY, ByRef<uint> pnWidth, ByRef<uint> pnHeight);
     // public System.Void GetEyeOutputViewport(OVR.OpenVR.EVREye eEye, ref System.UInt32 pnX, ref System.UInt32 pnY, ref System.UInt32 pnWidth, ref System.UInt32 pnHeight)
-    // Offset: 0x15BD9C4
+    // Offset: 0x15C81F8
     void GetEyeOutputViewport(OVR::OpenVR::EVREye eEye, ByRef<uint> pnX, ByRef<uint> pnY, ByRef<uint> pnWidth, ByRef<uint> pnHeight);
     // public System.Void GetDXGIOutputInfo(ref System.Int32 pnAdapterIndex, ref System.Int32 pnAdapterOutputIndex)
-    // Offset: 0x15BD9F0
+    // Offset: 0x15C8224
     void GetDXGIOutputInfo(ByRef<int> pnAdapterIndex, ByRef<int> pnAdapterOutputIndex);
   }; // OVR.OpenVR.CVRExtendedDisplay
   #pragma pack(pop)

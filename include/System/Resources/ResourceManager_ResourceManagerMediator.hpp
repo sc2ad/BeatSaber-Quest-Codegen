@@ -35,7 +35,7 @@ namespace System::Resources {
     // Get instance field reference: private System.Resources.ResourceManager _rm
     System::Resources::ResourceManager*& dyn__rm();
     // System.Void .ctor(System.Resources.ResourceManager rm)
-    // Offset: 0x147F6C0
+    // Offset: 0x148767C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceManager::ResourceManagerMediator* New_ctor(System::Resources::ResourceManager* rm) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::ResourceManager::ResourceManagerMediator::.ctor");

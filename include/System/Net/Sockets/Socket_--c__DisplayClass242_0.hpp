@@ -43,10 +43,10 @@ namespace System::Net::Sockets {
     // Get instance field reference: public System.Int32 sent_so_far
     int& dyn_sent_so_far();
     // System.Void <BeginSendCallback>b__0(System.IOAsyncResult s)
-    // Offset: 0x15C77E4
+    // Offset: 0x15D1018
     void $BeginSendCallback$b__0(System::IOAsyncResult* s);
     // public System.Void .ctor()
-    // Offset: 0x15C77DC
+    // Offset: 0x15D1010
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

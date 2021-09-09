@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SetPlayersMissingEntitlementsToLevelRpc
     SetPlayersMissingEntitlementsToLevelRpc() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x16E998C
+    // Offset: 0x16EF1C0
     // Implemented from: RemoteProcedureCall`1
     // Base method: System.Void RemoteProcedureCall_1::.ctor()
     // Base method: System.Void RemoteProcedureCall::.ctor()

@@ -35,7 +35,7 @@ namespace OnlineServices::API {
     // Get instance field reference: public System.Boolean exist
     bool& dyn_exist();
     // public System.Void .ctor()
-    // Offset: 0x102609C
+    // Offset: 0x102D8D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

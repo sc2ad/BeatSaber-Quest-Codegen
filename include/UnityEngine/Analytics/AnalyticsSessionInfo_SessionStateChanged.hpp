@@ -39,20 +39,20 @@ namespace UnityEngine::Analytics {
     // Creating value type constructor for type: SessionStateChanged
     SessionStateChanged() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x241E940
+    // Offset: 0x241B68C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnalyticsSessionInfo::SessionStateChanged* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Analytics::AnalyticsSessionInfo::SessionStateChanged::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnalyticsSessionInfo::SessionStateChanged*, creationType>(object, method)));
     }
     // public System.Void Invoke(UnityEngine.Analytics.AnalyticsSessionState sessionState, System.Int64 sessionId, System.Int64 sessionElapsedTime, System.Boolean sessionChanged)
-    // Offset: 0x241E230
+    // Offset: 0x241AF7C
     void Invoke(UnityEngine::Analytics::AnalyticsSessionState sessionState, int64_t sessionId, int64_t sessionElapsedTime, bool sessionChanged);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Analytics.AnalyticsSessionState sessionState, System.Int64 sessionId, System.Int64 sessionElapsedTime, System.Boolean sessionChanged, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x241E950
+    // Offset: 0x241B69C
     System::IAsyncResult* BeginInvoke(UnityEngine::Analytics::AnalyticsSessionState sessionState, int64_t sessionId, int64_t sessionElapsedTime, bool sessionChanged, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x241EA38
+    // Offset: 0x241B784
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Analytics.AnalyticsSessionInfo/UnityEngine.Analytics.SessionStateChanged
   #pragma pack(pop)

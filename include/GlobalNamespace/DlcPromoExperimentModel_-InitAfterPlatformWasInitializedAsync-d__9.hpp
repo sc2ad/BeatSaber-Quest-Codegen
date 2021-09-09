@@ -80,10 +80,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<UserInfo> <>u__1
     System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::UserInfo*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x10FD3EC
+    // Offset: 0x10F0E64
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x10FDA68
+    // Offset: 0x10F14E0
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // DlcPromoExperimentModel/<InitAfterPlatformWasInitializedAsync>d__9
   // WARNING Not writing size check since size may be invalid!

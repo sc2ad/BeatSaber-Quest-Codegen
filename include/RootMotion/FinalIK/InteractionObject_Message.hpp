@@ -34,14 +34,14 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionObject::Message : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xE29FD0
+    // [TooltipAttribute] Offset: 0xE2FF40
     // public System.String function
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* function;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE2A008
+    // [TooltipAttribute] Offset: 0xE2FF78
     // public UnityEngine.GameObject recipient
     // Size: 0x8
     // Offset: 0x18
@@ -61,10 +61,10 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public UnityEngine.GameObject recipient
     UnityEngine::GameObject*& dyn_recipient();
     // public System.Void Send(UnityEngine.Transform t)
-    // Offset: 0x1E8F0E4
+    // Offset: 0x1E90DA8
     void Send(UnityEngine::Transform* t);
     // public System.Void .ctor()
-    // Offset: 0x1E8F1DC
+    // Offset: 0x1E90EA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

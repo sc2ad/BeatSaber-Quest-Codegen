@@ -65,18 +65,18 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.UInt32[] _workingKey
     ::Array<uint>*& dyn__workingKey();
     // private System.Void CAST_Encipher(System.UInt32 A, System.UInt32 B, System.UInt32 C, System.UInt32 D, System.UInt32[] result)
-    // Offset: 0x1E6EEE0
+    // Offset: 0x1E70BA4
     void CAST_Encipher(uint A, uint B, uint C, uint D, ::Array<uint>* result);
     // private System.Void CAST_Decipher(System.UInt32 A, System.UInt32 B, System.UInt32 C, System.UInt32 D, System.UInt32[] result)
-    // Offset: 0x1E6F3E4
+    // Offset: 0x1E710A8
     void CAST_Decipher(uint A, uint B, uint C, uint D, ::Array<uint>* result);
     // public override System.String get_AlgorithmName()
-    // Offset: 0x1E6E258
+    // Offset: 0x1E6FF1C
     // Implemented from: Org.BouncyCastle.Crypto.Engines.Cast5Engine
     // Base method: System.String Cast5Engine::get_AlgorithmName()
     ::Il2CppString* get_AlgorithmName();
     // public System.Void .ctor()
-    // Offset: 0x1E6E18C
+    // Offset: 0x1E6FE50
     // Implemented from: Org.BouncyCastle.Crypto.Engines.Cast5Engine
     // Base method: System.Void Cast5Engine::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -86,27 +86,27 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return THROW_UNLESS((::il2cpp_utils::New<Cast6Engine*, creationType>()));
     }
     // public override System.Void Reset()
-    // Offset: 0x1E6E2A0
+    // Offset: 0x1E6FF64
     // Implemented from: Org.BouncyCastle.Crypto.Engines.Cast5Engine
     // Base method: System.Void Cast5Engine::Reset()
     void Reset();
     // public override System.Int32 GetBlockSize()
-    // Offset: 0x1E6E2A4
+    // Offset: 0x1E6FF68
     // Implemented from: Org.BouncyCastle.Crypto.Engines.Cast5Engine
     // Base method: System.Int32 Cast5Engine::GetBlockSize()
     int GetBlockSize();
     // override System.Void SetKey(System.Byte[] key)
-    // Offset: 0x1E6E2AC
+    // Offset: 0x1E6FF70
     // Implemented from: Org.BouncyCastle.Crypto.Engines.Cast5Engine
     // Base method: System.Void Cast5Engine::SetKey(System.Byte[] key)
     void SetKey(::Array<uint8_t>* key);
     // override System.Int32 EncryptBlock(System.Byte[] src, System.Int32 srcIndex, System.Byte[] dst, System.Int32 dstIndex)
-    // Offset: 0x1E6ED5C
+    // Offset: 0x1E70A20
     // Implemented from: Org.BouncyCastle.Crypto.Engines.Cast5Engine
     // Base method: System.Int32 Cast5Engine::EncryptBlock(System.Byte[] src, System.Int32 srcIndex, System.Byte[] dst, System.Int32 dstIndex)
     int EncryptBlock(::Array<uint8_t>* src, int srcIndex, ::Array<uint8_t>* dst, int dstIndex);
     // override System.Int32 DecryptBlock(System.Byte[] src, System.Int32 srcIndex, System.Byte[] dst, System.Int32 dstIndex)
-    // Offset: 0x1E6F260
+    // Offset: 0x1E70F24
     // Implemented from: Org.BouncyCastle.Crypto.Engines.Cast5Engine
     // Base method: System.Int32 Cast5Engine::DecryptBlock(System.Byte[] src, System.Int32 srcIndex, System.Byte[] dst, System.Int32 dstIndex)
     int DecryptBlock(::Array<uint8_t>* src, int srcIndex, ::Array<uint8_t>* dst, int dstIndex);

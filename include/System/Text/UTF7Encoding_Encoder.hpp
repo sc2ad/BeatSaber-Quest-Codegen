@@ -48,22 +48,22 @@ namespace System::Text {
     // Get instance field reference: System.Int32 bitCount
     int& dyn_bitCount();
     // public System.Void .ctor(System.Text.UTF7Encoding encoding)
-    // Offset: 0x1D7E51C
+    // Offset: 0x1D7E1E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UTF7Encoding::Encoder* New_ctor(System::Text::UTF7Encoding* encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::UTF7Encoding::Encoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UTF7Encoding::Encoder*, creationType>(encoding)));
     }
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1D7EE04
+    // Offset: 0x1D7EAC8
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // override System.Boolean get_HasState()
-    // Offset: 0x1D7EF04
+    // Offset: 0x1D7EBC8
     // Implemented from: System.Text.EncoderNLS
     // Base method: System.Boolean EncoderNLS::get_HasState()
     bool get_HasState();
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1D7EC10
+    // Offset: 0x1D7E8D4
     // Implemented from: System.Text.EncoderNLS
     // Base method: System.Void EncoderNLS::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -72,7 +72,7 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<UTF7Encoding::Encoder*, creationType>(info, context)));
     }
     // public override System.Void Reset()
-    // Offset: 0x1D7EEE0
+    // Offset: 0x1D7EBA4
     // Implemented from: System.Text.EncoderNLS
     // Base method: System.Void EncoderNLS::Reset()
     void Reset();

@@ -56,45 +56,45 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 <width>k__BackingField
     int& dyn_$width$k__BackingField();
     // public ObstacleType get_obstacleType()
-    // Offset: 0x240DC5C
+    // Offset: 0x240A9A8
     GlobalNamespace::ObstacleType get_obstacleType();
     // private System.Void set_obstacleType(ObstacleType value)
-    // Offset: 0x240DC64
+    // Offset: 0x240A9B0
     void set_obstacleType(GlobalNamespace::ObstacleType value);
     // public System.Single get_duration()
-    // Offset: 0x240DC6C
+    // Offset: 0x240A9B8
     float get_duration();
     // private System.Void set_duration(System.Single value)
-    // Offset: 0x240DC74
+    // Offset: 0x240A9C0
     void set_duration(float value);
     // public System.Int32 get_width()
-    // Offset: 0x240DC7C
+    // Offset: 0x240A9C8
     int get_width();
     // private System.Void set_width(System.Int32 value)
-    // Offset: 0x240DC84
+    // Offset: 0x240A9D0
     void set_width(int value);
     // public System.Void .ctor(System.Single time, System.Int32 lineIndex, ObstacleType obstacleType, System.Single duration, System.Int32 width)
-    // Offset: 0x240DC8C
+    // Offset: 0x240A9D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObstacleData* New_ctor(float time, int lineIndex, GlobalNamespace::ObstacleType obstacleType, float duration, int width) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ObstacleData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObstacleData*, creationType>(time, lineIndex, obstacleType, duration, width)));
     }
     // public System.Void UpdateDuration(System.Single duration)
-    // Offset: 0x240DCE4
+    // Offset: 0x240AA30
     void UpdateDuration(float duration);
     // public override BeatmapObjectType get_beatmapObjectType()
-    // Offset: 0x240DC54
+    // Offset: 0x240A9A0
     // Implemented from: BeatmapObjectData
     // Base method: BeatmapObjectType BeatmapObjectData::get_beatmapObjectType()
     GlobalNamespace::BeatmapObjectType get_beatmapObjectType();
     // public override BeatmapObjectData GetCopy()
-    // Offset: 0x240DCEC
+    // Offset: 0x240AA38
     // Implemented from: BeatmapObjectData
     // Base method: BeatmapObjectData BeatmapObjectData::GetCopy()
     GlobalNamespace::BeatmapObjectData* GetCopy();
     // public override System.Void Mirror(System.Int32 lineCount)
-    // Offset: 0x240DD6C
+    // Offset: 0x240AAB8
     // Implemented from: BeatmapObjectData
     // Base method: System.Void BeatmapObjectData::Mirror(System.Int32 lineCount)
     void Mirror(int lineCount);

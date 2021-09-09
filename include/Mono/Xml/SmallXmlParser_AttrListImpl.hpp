@@ -53,31 +53,31 @@ namespace Mono::Xml {
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> attrValues
     System::Collections::Generic::List_1<::Il2CppString*>*& dyn_attrValues();
     // public System.Int32 get_Length()
-    // Offset: 0x1AA6E2C
+    // Offset: 0x1AAB66C
     int get_Length();
     // public System.String[] get_Names()
-    // Offset: 0x1AA7040
+    // Offset: 0x1AAB880
     ::Array<::Il2CppString*>* get_Names();
     // public System.String[] get_Values()
-    // Offset: 0x1AA7098
+    // Offset: 0x1AAB8D8
     ::Array<::Il2CppString*>* get_Values();
     // public System.String GetName(System.Int32 i)
-    // Offset: 0x1AA6E7C
+    // Offset: 0x1AAB6BC
     ::Il2CppString* GetName(int i);
     // public System.String GetValue(System.Int32 i)
-    // Offset: 0x1AA6EF4
+    // Offset: 0x1AAB734
     ::Il2CppString* GetValue(int i);
     // public System.String GetValue(System.String name)
-    // Offset: 0x1AA6F6C
+    // Offset: 0x1AAB7AC
     ::Il2CppString* GetValue(::Il2CppString* name);
     // System.Void Clear()
-    // Offset: 0x1AA6858
+    // Offset: 0x1AAB098
     void Clear();
     // System.Void Add(System.String name, System.String value)
-    // Offset: 0x1AA6DAC
+    // Offset: 0x1AAB5EC
     void Add(::Il2CppString* name, ::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x1AA549C
+    // Offset: 0x1AA9CDC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

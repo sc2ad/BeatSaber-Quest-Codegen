@@ -86,32 +86,32 @@ namespace MasterServer {
     // Get instance field reference: private System.Int32 <i>5__2
     int& dyn_$i$5__2();
     // private System.Byte[] System.Collections.Generic.IEnumerator<System.Byte[]>.get_Current()
-    // Offset: 0x121FAE0
+    // Offset: 0x12253E4
     ::Array<uint8_t>* System_Collections_Generic_IEnumerator$System_Byte$$$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x121FB48
+    // Offset: 0x122544C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x121F01C
+    // Offset: 0x1224920
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServerCertificateRequest::$get_certificateList$d__5* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::ServerCertificateRequest::$get_certificateList$d__5::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServerCertificateRequest::$get_certificateList$d__5*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x121FA34
+    // Offset: 0x1225338
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x121FA38
+    // Offset: 0x122533C
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x121FAE8
+    // Offset: 0x12253EC
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<System.Byte[]> System.Collections.Generic.IEnumerable<System.Byte[]>.GetEnumerator()
-    // Offset: 0x121FB50
+    // Offset: 0x1225454
     System::Collections::Generic::IEnumerator_1<::Array<uint8_t>*>* System_Collections_Generic_IEnumerable$System_Byte$$$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x121FBFC
+    // Offset: 0x1225500
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // MasterServer.ServerCertificateRequest/MasterServer.<get_certificateList>d__5
   #pragma pack(pop)

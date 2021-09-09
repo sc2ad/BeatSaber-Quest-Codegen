@@ -25,7 +25,7 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x2D to desired offset: 0x30
     char ___base_padding[0x3] = {};
-    // [SpaceAttribute] Offset: 0xE1558C
+    // [SpaceAttribute] Offset: 0xE1A4FC
     // private UnityEngine.Vector4 _vector
     // Size: 0x10
     // Offset: 0x30
@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector4 _vector
     UnityEngine::Vector4& dyn__vector();
     // public System.Void .ctor()
-    // Offset: 0x1E1C5EC
+    // Offset: 0x1E1C2B0
     // Implemented from: MaterialPropertyBlockAnimator
     // Base method: System.Void MaterialPropertyBlockAnimator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -51,7 +51,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyBlockVectorAnimator*, creationType>()));
     }
     // protected override System.Void SetProperty()
-    // Offset: 0x1E1C5AC
+    // Offset: 0x1E1C270
     // Implemented from: MaterialPropertyBlockAnimator
     // Base method: System.Void MaterialPropertyBlockAnimator::SetProperty()
     void SetProperty();

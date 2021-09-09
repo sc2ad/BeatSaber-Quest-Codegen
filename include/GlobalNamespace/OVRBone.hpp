@@ -56,32 +56,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform <Transform>k__BackingField
     UnityEngine::Transform*& dyn_$Transform$k__BackingField();
     // public OVRSkeleton/BoneId get_Id()
-    // Offset: 0x1293E04
+    // Offset: 0x12ABCC0
     GlobalNamespace::OVRSkeleton::BoneId get_Id();
     // public System.Void set_Id(OVRSkeleton/BoneId value)
-    // Offset: 0x1293E0C
+    // Offset: 0x12ABCC8
     void set_Id(GlobalNamespace::OVRSkeleton::BoneId value);
     // public System.Int16 get_ParentBoneIndex()
-    // Offset: 0x1293E14
+    // Offset: 0x12ABCD0
     int16_t get_ParentBoneIndex();
     // public System.Void set_ParentBoneIndex(System.Int16 value)
-    // Offset: 0x1293E1C
+    // Offset: 0x12ABCD8
     void set_ParentBoneIndex(int16_t value);
     // public UnityEngine.Transform get_Transform()
-    // Offset: 0x1293E24
+    // Offset: 0x12ABCE0
     UnityEngine::Transform* get_Transform();
     // public System.Void set_Transform(UnityEngine.Transform value)
-    // Offset: 0x1293E2C
+    // Offset: 0x12ABCE8
     void set_Transform(UnityEngine::Transform* value);
     // public System.Void .ctor(OVRSkeleton/BoneId id, System.Int16 parentBoneIndex, UnityEngine.Transform trans)
-    // Offset: 0x1293E3C
+    // Offset: 0x12ABCF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRBone* New_ctor(GlobalNamespace::OVRSkeleton::BoneId id, int16_t parentBoneIndex, UnityEngine::Transform* trans) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRBone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRBone*, creationType>(id, parentBoneIndex, trans)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1293E34
+    // Offset: 0x12ABCF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

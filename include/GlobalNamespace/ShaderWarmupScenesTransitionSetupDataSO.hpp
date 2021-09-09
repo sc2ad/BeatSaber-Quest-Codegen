@@ -30,10 +30,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ShaderWarmupScenesTransitionSetupDataSO
     ShaderWarmupScenesTransitionSetupDataSO() noexcept {}
     // public System.Void Init(ShaderWarmupSceneSetupData shaderWarmupSceneSetupData)
-    // Offset: 0x1078A10
+    // Offset: 0x1095490
     void Init(GlobalNamespace::ShaderWarmupSceneSetupData* shaderWarmupSceneSetupData);
     // public System.Void .ctor()
-    // Offset: 0x1078A18
+    // Offset: 0x1095498
     // Implemented from: SingleFixedSceneScenesTransitionSetupDataSO
     // Base method: System.Void SingleFixedSceneScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()

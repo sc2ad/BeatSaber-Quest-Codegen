@@ -44,22 +44,22 @@ namespace System::Net::Configuration {
     // Get instance field reference: private System.Net.IWebProxy webProxy
     System::Net::IWebProxy*& dyn_webProxy();
     // static System.Object get_ClassSyncObject()
-    // Offset: 0x16D02E8
+    // Offset: 0x16D5B1C
     static ::Il2CppObject* get_ClassSyncObject();
     // System.Net.IWebProxy get_WebProxy()
-    // Offset: 0x16D0464
+    // Offset: 0x16D5C98
     System::Net::IWebProxy* get_WebProxy();
     // static private System.Net.IWebProxy GetDefaultProxy_UsingOldMonoCode()
-    // Offset: 0x16D02D8
+    // Offset: 0x16D5B0C
     static System::Net::IWebProxy* GetDefaultProxy_UsingOldMonoCode();
     // static private System.Net.IWebProxy GetSystemWebProxy()
-    // Offset: 0x16D02E0
+    // Offset: 0x16D5B14
     static System::Net::IWebProxy* GetSystemWebProxy();
     // static System.Net.Configuration.DefaultProxySectionInternal GetSection()
-    // Offset: 0x16D037C
+    // Offset: 0x16D5BB0
     static System::Net::Configuration::DefaultProxySectionInternal* GetSection();
     // public System.Void .ctor()
-    // Offset: 0x16D045C
+    // Offset: 0x16D5C90
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

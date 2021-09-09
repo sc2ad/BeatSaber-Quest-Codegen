@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.String assetBundlePath
     ::Il2CppString*& dyn_assetBundlePath();
     // public System.Void .ctor(System.Boolean isError, System.String assetBundlePath)
-    // Offset: 0x1110894
+    // Offset: 0x110452C
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  GetAssetBundleFileResult(bool isError, ::Il2CppString* assetBundlePath)
   }; // GetAssetBundleFileResult

@@ -106,10 +106,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServerQuickPlaySetupData> <>u__3
     System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::MasterServerQuickPlaySetupData*>& dyn_$$u__3();
     // private System.Void MoveNext()
-    // Offset: 0x106EF20
+    // Offset: 0x108B60C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x106FA80
+    // Offset: 0x108C16C
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MultiplayerModeSelectionFlowCoordinator/<TryShowModeSelection>d__49
   // WARNING Not writing size check since size may be invalid!

@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kMinBladeSpeedForCut
     static void _set_kMinBladeSpeedForCut(float value);
     // static public System.Void GetBasicCutInfo(UnityEngine.Transform noteTransform, ColorType colorType, NoteCutDirection cutDirection, SaberType saberType, System.Single saberBladeSpeed, UnityEngine.Vector3 cutDirVec, System.Single cutAngleTolerance, out System.Boolean directionOK, out System.Boolean speedOK, out System.Boolean saberTypeOK, out System.Single cutDirDeviation, out System.Single cutDirAngle)
-    // Offset: 0x237B428
+    // Offset: 0x23760EC
     static void GetBasicCutInfo(UnityEngine::Transform* noteTransform, GlobalNamespace::ColorType colorType, GlobalNamespace::NoteCutDirection cutDirection, GlobalNamespace::SaberType saberType, float saberBladeSpeed, UnityEngine::Vector3 cutDirVec, float cutAngleTolerance, ByRef<bool> directionOK, ByRef<bool> speedOK, ByRef<bool> saberTypeOK, ByRef<float> cutDirDeviation, ByRef<float> cutDirAngle);
   }; // NoteBasicCutInfoHelper
   #pragma pack(pop)

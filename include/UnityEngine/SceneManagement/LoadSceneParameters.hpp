@@ -48,10 +48,10 @@ namespace UnityEngine::SceneManagement {
     // Get instance field reference: private UnityEngine.SceneManagement.LocalPhysicsMode m_LocalPhysicsMode
     UnityEngine::SceneManagement::LocalPhysicsMode& dyn_m_LocalPhysicsMode();
     // public System.Void set_loadSceneMode(UnityEngine.SceneManagement.LoadSceneMode value)
-    // Offset: 0x1C4D028
+    // Offset: 0x1C781C0
     void set_loadSceneMode(UnityEngine::SceneManagement::LoadSceneMode value);
     // public System.Void .ctor(UnityEngine.SceneManagement.LoadSceneMode mode)
-    // Offset: 0x1C4D030
+    // Offset: 0x1C781C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     LoadSceneParameters(UnityEngine::SceneManagement::LoadSceneMode mode) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::SceneManagement::LoadSceneParameters::.ctor");

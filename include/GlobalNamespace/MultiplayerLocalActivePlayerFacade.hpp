@@ -68,35 +68,35 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* outroAnimator;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3A26C
+    // [InjectAttribute] Offset: 0xE401EC
     // private readonly IStartSeekSongController _songController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::IStartSeekSongController* songController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IStartSeekSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3A27C
+    // [InjectAttribute] Offset: 0xE401FC
     // private readonly MultiplayerLocalActivePlayerIntroAnimator _introAnimator
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator* introAnimator;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3A28C
+    // [InjectAttribute] Offset: 0xE4020C
     // private readonly GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3A29C
+    // [InjectAttribute] Offset: 0xE4021C
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3A2AC
+    // [InjectAttribute] Offset: 0xE4022C
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x48
@@ -150,49 +150,49 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<PlayerNetworkFailReason> playerNetworkDidFailedEvent
     System::Action_1<GlobalNamespace::PlayerNetworkFailReason>*& dyn_playerNetworkDidFailedEvent();
     // public MultiplayerLocalActivePlayerIntroAnimator get_introAnimator()
-    // Offset: 0x1066620
+    // Offset: 0x1082D20
     GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator* get_introAnimator();
     // public UnityEngine.GameObject get_outroAnimator()
-    // Offset: 0x1066628
+    // Offset: 0x1082D28
     UnityEngine::GameObject* get_outroAnimator();
     // public IStartSeekSongController get_songController()
-    // Offset: 0x1066630
+    // Offset: 0x1082D30
     GlobalNamespace::IStartSeekSongController* get_songController();
     // public System.Void add_playerDidFinishEvent(System.Action`1<MultiplayerLevelCompletionResults> value)
-    // Offset: 0x1066638
+    // Offset: 0x1082D38
     void add_playerDidFinishEvent(System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
     // public System.Void remove_playerDidFinishEvent(System.Action`1<MultiplayerLevelCompletionResults> value)
-    // Offset: 0x10666DC
+    // Offset: 0x1082DDC
     void remove_playerDidFinishEvent(System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
     // public System.Void add_playerNetworkDidFailedEvent(System.Action`1<PlayerNetworkFailReason> value)
-    // Offset: 0x1066780
+    // Offset: 0x1082E80
     void add_playerNetworkDidFailedEvent(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* value);
     // public System.Void remove_playerNetworkDidFailedEvent(System.Action`1<PlayerNetworkFailReason> value)
-    // Offset: 0x1066824
+    // Offset: 0x1082F24
     void remove_playerNetworkDidFailedEvent(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* value);
     // public System.Void ReportPlayerDidFinish(MultiplayerLevelCompletionResults results)
-    // Offset: 0x10668C8
+    // Offset: 0x1082FC8
     void ReportPlayerDidFinish(GlobalNamespace::MultiplayerLevelCompletionResults* results);
     // public System.Void ReportPlayerNetworkDidFailed(PlayerNetworkFailReason failReason)
-    // Offset: 0x106693C
+    // Offset: 0x108303C
     void ReportPlayerNetworkDidFailed(GlobalNamespace::PlayerNetworkFailReason failReason);
     // public System.Void DisablePlayer()
-    // Offset: 0x10669B0
+    // Offset: 0x10830B0
     void DisablePlayer();
     // public System.Void PauseSpawning()
-    // Offset: 0x1066A20
+    // Offset: 0x1083120
     void PauseSpawning();
     // public System.Void ResumeSpawning()
-    // Offset: 0x1066AD4
+    // Offset: 0x10831D4
     void ResumeSpawning();
     // public System.Void __ForceStopSong()
-    // Offset: 0x1066B88
+    // Offset: 0x1083288
     void __ForceStopSong();
     // public UnityEngine.GameObject[] __GetActiveOnlyGameObjects()
-    // Offset: 0x1066BD0
+    // Offset: 0x10832D0
     ::Array<UnityEngine::GameObject*>* __GetActiveOnlyGameObjects();
     // public System.Void .ctor()
-    // Offset: 0x1066BD8
+    // Offset: 0x10832D8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

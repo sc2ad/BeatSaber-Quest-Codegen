@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     struct $UserAuthenticationDataAsync$d__3;
     // Nested type: GlobalNamespace::UserLoginDtoDataSource::$GetUserFriendsUserIds$d__4
     struct $GetUserFriendsUserIds$d__4;
-    // [InjectAttribute] Offset: 0xE34FF8
+    // [InjectAttribute] Offset: 0xE3AF78
     // private readonly IPlatformUserModel _platformUserModel
     // Size: 0x8
     // Offset: 0x10
@@ -80,16 +80,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IPlatformUserModel _platformUserModel
     GlobalNamespace::IPlatformUserModel*& dyn__platformUserModel();
     // public System.Threading.Tasks.Task`1<System.String> GetPlatformUserIdAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1358974
+    // Offset: 0x129BC44
     System::Threading::Tasks::Task_1<::Il2CppString*>* GetPlatformUserIdAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<BeatSaberAPI.DataTransferObjects.UserAuthenticationData> UserAuthenticationDataAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1358A74
+    // Offset: 0x129BD44
     System::Threading::Tasks::Task_1<BeatSaberAPI::DataTransferObjects::UserAuthenticationData*>* UserAuthenticationDataAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<System.String[]> GetUserFriendsUserIds(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1358B78
+    // Offset: 0x129BE48
     System::Threading::Tasks::Task_1<::Array<::Il2CppString*>*>* GetUserFriendsUserIds(System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x1358C78
+    // Offset: 0x129BF48
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

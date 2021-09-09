@@ -64,22 +64,22 @@ namespace GlobalNamespace {
     // Get instance field reference: public DisconnectedReason disconnectedReason
     GlobalNamespace::DisconnectedReason& dyn_disconnectedReason();
     // static public PacketPool`1<ConnectedPlayerManager/KickPlayerPacket> get_pool()
-    // Offset: 0x1320D38
+    // Offset: 0x1339A08
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket*>* get_pool();
     // public ConnectedPlayerManager/KickPlayerPacket Init(DisconnectedReason disconnectedReason)
-    // Offset: 0x1321C0C
+    // Offset: 0x133A8DC
     GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket* Init(GlobalNamespace::DisconnectedReason disconnectedReason);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1323CAC
+    // Offset: 0x133C97C
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1323CC0
+    // Offset: 0x133C990
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x1323414
+    // Offset: 0x133C0E4
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x1323CEC
+    // Offset: 0x133C9BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

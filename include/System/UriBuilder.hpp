@@ -120,52 +120,52 @@ namespace System {
     // Get instance field reference: private System.String _username
     ::Il2CppString*& dyn__username();
     // public System.Void set_Host(System.String value)
-    // Offset: 0x23EAE34
+    // Offset: 0x23E6B80
     void set_Host(::Il2CppString* value);
     // public System.Void set_Path(System.String value)
-    // Offset: 0x23EAFE4
+    // Offset: 0x23E6D30
     void set_Path(::Il2CppString* value);
     // public System.Void set_Port(System.Int32 value)
-    // Offset: 0x23EAF44
+    // Offset: 0x23E6C90
     void set_Port(int value);
     // public System.Void set_Query(System.String value)
-    // Offset: 0x23EB0A4
+    // Offset: 0x23E6DF0
     void set_Query(::Il2CppString* value);
     // public System.Void set_Scheme(System.String value)
-    // Offset: 0x23EACF8
+    // Offset: 0x23E6A44
     void set_Scheme(::Il2CppString* value);
     // public System.Uri get_Uri()
-    // Offset: 0x23EB160
+    // Offset: 0x23E6EAC
     System::Uri* get_Uri();
     // public System.Void .ctor(System.String uri)
-    // Offset: 0x23EA748
+    // Offset: 0x23E6494
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UriBuilder* New_ctor(::Il2CppString* uri) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::UriBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UriBuilder*, creationType>(uri)));
     }
     // public System.Void .ctor(System.String schemeName, System.String hostName)
-    // Offset: 0x23EABCC
+    // Offset: 0x23E6918
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UriBuilder* New_ctor(::Il2CppString* schemeName, ::Il2CppString* hostName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::UriBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UriBuilder*, creationType>(schemeName, hostName)));
     }
     // public System.Void .ctor(System.String scheme, System.String host, System.Int32 portNumber)
-    // Offset: 0x23EAF18
+    // Offset: 0x23E6C64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UriBuilder* New_ctor(::Il2CppString* scheme, ::Il2CppString* host, int portNumber) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::UriBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UriBuilder*, creationType>(scheme, host, portNumber)));
     }
     // private System.Void Init(System.Uri uri)
-    // Offset: 0x23EA8E4
+    // Offset: 0x23E6630
     void Init(System::Uri* uri);
     // private System.Void SetFieldsFromUri(System.Uri uri)
-    // Offset: 0x23EAA5C
+    // Offset: 0x23E67A8
     void SetFieldsFromUri(System::Uri* uri);
     // public System.Void .ctor()
-    // Offset: 0x23EA644
+    // Offset: 0x23E6390
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -174,17 +174,17 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<UriBuilder*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object rparam)
-    // Offset: 0x23EB20C
+    // Offset: 0x23E6F58
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object rparam)
     bool Equals(::Il2CppObject* rparam);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x23EB26C
+    // Offset: 0x23E6FB8
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x23EB290
+    // Offset: 0x23E6FDC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

@@ -60,16 +60,16 @@ namespace TMPro {
     // Get instance field reference: public System.Boolean isSelected
     bool& dyn_isSelected();
     // public System.Void OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x115C0C0
+    // Offset: 0x1154D38
     void OnPointerClick(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnSelect(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x115C12C
+    // Offset: 0x1154DA4
     void OnSelect(UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void OnDeselect(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x115C1A8
+    // Offset: 0x1154E20
     void OnDeselect(UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0x115C220
+    // Offset: 0x1154E98
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

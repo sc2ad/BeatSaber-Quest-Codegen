@@ -36,7 +36,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Parameters.RsaKeyParameters publicKey
     Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*& dyn_publicKey();
     // public Org.BouncyCastle.Crypto.Parameters.RsaKeyParameters get_PublicKey()
-    // Offset: 0x12761C4
+    // Offset: 0x127AB8C
     Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* get_PublicKey();
   }; // Org.BouncyCastle.Crypto.Parameters.RsaBlindingParameters
   #pragma pack(pop)

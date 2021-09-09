@@ -90,25 +90,25 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Get instance field reference: private System.Boolean m_Complete
     bool& dyn_m_Complete();
     // private System.Single GetPercentComplete()
-    // Offset: 0x19F2D98
+    // Offset: 0x19F85CC
     float GetPercentComplete();
     // public System.Void Start(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle provideHandle, UnityEngine.ResourceManagement.ResourceProviders.TextDataProvider rawProvider, System.Boolean ignoreFailures)
-    // Offset: 0x19F2800
+    // Offset: 0x19F8034
     void Start(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle, UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider* rawProvider, bool ignoreFailures);
     // private System.Boolean WaitForCompletionHandler()
-    // Offset: 0x19F3080
+    // Offset: 0x19F88B4
     bool WaitForCompletionHandler();
     // private System.Void RequestOperation_completed(UnityEngine.AsyncOperation op)
-    // Offset: 0x19F2EDC
+    // Offset: 0x19F8710
     void RequestOperation_completed(UnityEngine::AsyncOperation* op);
     // private System.Object ConvertText(System.String text)
-    // Offset: 0x19F2DB0
+    // Offset: 0x19F85E4
     ::Il2CppObject* ConvertText(::Il2CppString* text);
     // private System.Void <Start>b__7_0(UnityEngine.Networking.UnityWebRequestAsyncOperation asyncOperation)
-    // Offset: 0x19F3100
+    // Offset: 0x19F8934
     void $Start$b__7_0(UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOperation);
     // public System.Void .ctor()
-    // Offset: 0x19F27F8
+    // Offset: 0x19F802C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

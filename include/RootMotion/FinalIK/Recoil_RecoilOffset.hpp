@@ -36,22 +36,22 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink
     class EffectorLink;
-    // [TooltipAttribute] Offset: 0xE2B224
+    // [TooltipAttribute] Offset: 0xE31194
     // public UnityEngine.Vector3 offset
     // Size: 0xC
     // Offset: 0x10
     UnityEngine::Vector3 offset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0xE2B25C
-    // [RangeAttribute] Offset: 0xE2B25C
+    // [TooltipAttribute] Offset: 0xE311CC
+    // [RangeAttribute] Offset: 0xE311CC
     // public System.Single additivity
     // Size: 0x4
     // Offset: 0x1C
     float additivity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2B2B0
+    // [TooltipAttribute] Offset: 0xE31220
     // public System.Single maxAdditiveOffsetMag
     // Size: 0x4
     // Offset: 0x20
@@ -60,7 +60,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: maxAdditiveOffsetMag and: effectorLinks
     char __padding2[0x4] = {};
-    // [TooltipAttribute] Offset: 0xE2B2E8
+    // [TooltipAttribute] Offset: 0xE31258
     // public RootMotion.FinalIK.Recoil/RootMotion.FinalIK.RecoilOffset/RootMotion.FinalIK.EffectorLink[] effectorLinks
     // Size: 0x8
     // Offset: 0x28
@@ -94,13 +94,13 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private UnityEngine.Vector3 lastOffset
     UnityEngine::Vector3& dyn_lastOffset();
     // public System.Void Start()
-    // Offset: 0x1ADB660
+    // Offset: 0x1ADEE10
     void Start();
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, UnityEngine.Quaternion rotation, System.Single masterWeight, System.Single length, System.Single timeLeft)
-    // Offset: 0x1ADC1F0
+    // Offset: 0x1ADF9A0
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, UnityEngine::Quaternion rotation, float masterWeight, float length, float timeLeft);
     // public System.Void .ctor()
-    // Offset: 0x1ADC904
+    // Offset: 0x1AE00B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -61,10 +61,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _setColorOnly
     bool& dyn__setColorOnly();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1E2145C
+    // Offset: 0x1E21120
     UnityEngine::Color get_color();
     // public System.Void .ctor()
-    // Offset: 0x1E214E0
+    // Offset: 0x1E211A4
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -78,7 +78,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TubeBloomPrePassLightWithId*, creationType>()));
     }
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1E2147C
+    // Offset: 0x1E21140
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);

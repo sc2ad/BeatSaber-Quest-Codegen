@@ -42,16 +42,16 @@ namespace RootMotion {
     // Get instance field reference: public UnityEngine.GameObject target
     UnityEngine::GameObject*& dyn_target();
     // private System.Void OnTriggerEnter(UnityEngine.Collider collider)
-    // Offset: 0x1AEADCC
+    // Offset: 0x1AEE57C
     void OnTriggerEnter(UnityEngine::Collider* collider);
     // private System.Void OnTriggerStay(UnityEngine.Collider collider)
-    // Offset: 0x1AEAE84
+    // Offset: 0x1AEE634
     void OnTriggerStay(UnityEngine::Collider* collider);
     // private System.Void OnTriggerExit(UnityEngine.Collider collider)
-    // Offset: 0x1AEAF3C
+    // Offset: 0x1AEE6EC
     void OnTriggerExit(UnityEngine::Collider* collider);
     // public System.Void .ctor()
-    // Offset: 0x1AEAFF4
+    // Offset: 0x1AEE7A4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

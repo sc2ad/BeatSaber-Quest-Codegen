@@ -51,29 +51,29 @@ namespace System::Text {
     // Get instance field reference: private System.Int32 iSize
     int& dyn_iSize();
     // public System.Void .ctor(System.Text.UTF7Encoding/System.Text.DecoderUTF7Fallback fallback)
-    // Offset: 0x1D7EA60
+    // Offset: 0x1D7E724
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UTF7Encoding::DecoderUTF7FallbackBuffer* New_ctor(System::Text::UTF7Encoding::DecoderUTF7Fallback* fallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UTF7Encoding::DecoderUTF7FallbackBuffer*, creationType>(fallback)));
     }
     // public override System.Boolean Fallback(System.Byte[] bytesUnknown, System.Int32 index)
-    // Offset: 0x1D7EAE4
+    // Offset: 0x1D7E7A8
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Boolean DecoderFallbackBuffer::Fallback(System.Byte[] bytesUnknown, System.Int32 index)
     bool Fallback(::Array<uint8_t>* bytesUnknown, int index);
     // public override System.Char GetNextChar()
-    // Offset: 0x1D7EB30
+    // Offset: 0x1D7E7F4
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Char DecoderFallbackBuffer::GetNextChar()
     ::Il2CppChar GetNextChar();
     // public override System.Void Reset()
-    // Offset: 0x1D7EB50
+    // Offset: 0x1D7E814
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Void DecoderFallbackBuffer::Reset()
     void Reset();
     // override System.Int32 InternalFallback(System.Byte[] bytes, System.Byte* pBytes)
-    // Offset: 0x1D7EB60
+    // Offset: 0x1D7E824
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Int32 DecoderFallbackBuffer::InternalFallback(System.Byte[] bytes, System.Byte* pBytes)
     int InternalFallback(::Array<uint8_t>* bytes, uint8_t* pBytes);

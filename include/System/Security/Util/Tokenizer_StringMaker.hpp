@@ -78,19 +78,19 @@ namespace System::Security::Util {
     // Get instance field reference: public System.Int32 _outIndex
     int& dyn__outIndex();
     // static private System.UInt32 HashString(System.String str)
-    // Offset: 0x1C039CC
+    // Offset: 0x1C2EB64
     static uint HashString(::Il2CppString* str);
     // static private System.UInt32 HashCharArray(System.Char[] a, System.Int32 l)
-    // Offset: 0x1C03A38
+    // Offset: 0x1C2EBD0
     static uint HashCharArray(::Array<::Il2CppChar>* a, int l);
     // private System.Boolean CompareStringAndChars(System.String str, System.Char[] a, System.Int32 l)
-    // Offset: 0x1C03B28
+    // Offset: 0x1C2ECC0
     bool CompareStringAndChars(::Il2CppString* str, ::Array<::Il2CppChar>* a, int l);
     // public System.String MakeString()
-    // Offset: 0x1C036F0
+    // Offset: 0x1C2E888
     ::Il2CppString* MakeString();
     // public System.Void .ctor()
-    // Offset: 0x1C03AA0
+    // Offset: 0x1C2EC38
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

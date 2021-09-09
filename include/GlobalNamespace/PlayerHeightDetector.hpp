@@ -43,28 +43,28 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::PlayerHeightDetector::InitData
     class InitData;
-    // [InjectAttribute] Offset: 0xE3BF28
+    // [InjectAttribute] Offset: 0xE41EA8
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3BF38
+    // [InjectAttribute] Offset: 0xE41EB8
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3BF48
+    // [InjectAttribute] Offset: 0xE41EC8
     // private readonly IAudioTimeSource _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::IAudioTimeSource* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3BF58
+    // [InjectAttribute] Offset: 0xE41ED8
     // private readonly PlayerHeightDetector/InitData _initData
     // Size: 0x8
     // Offset: 0x30
@@ -132,28 +132,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _lastReportedHeight
     float& dyn__lastReportedHeight();
     // public System.Single get_playerHeight()
-    // Offset: 0x113A15C
+    // Offset: 0x11F982C
     float get_playerHeight();
     // public System.Void add_playerHeightDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x113A014
+    // Offset: 0x11F96E4
     void add_playerHeightDidChangeEvent(System::Action_1<float>* value);
     // public System.Void remove_playerHeightDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x113A0B8
+    // Offset: 0x11F9788
     void remove_playerHeightDidChangeEvent(System::Action_1<float>* value);
     // protected System.Void Start()
-    // Offset: 0x113A164
+    // Offset: 0x11F9834
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x113A304
+    // Offset: 0x11F99D4
     void OnDestroy();
     // protected System.Void LateUpdate()
-    // Offset: 0x113A3C8
+    // Offset: 0x11F9A98
     void LateUpdate();
     // private System.Void BeatmapObjectSpawnCallback(BeatmapObjectData beatmapObjectData)
-    // Offset: 0x113A5B8
+    // Offset: 0x11F9C88
     void BeatmapObjectSpawnCallback(GlobalNamespace::BeatmapObjectData* beatmapObjectData);
     // public System.Void .ctor()
-    // Offset: 0x113A6C4
+    // Offset: 0x11F9D94
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

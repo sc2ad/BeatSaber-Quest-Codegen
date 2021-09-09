@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private DirectionalLight _directionalLight
     GlobalNamespace::DirectionalLight*& dyn__directionalLight();
     // public System.Void .ctor()
-    // Offset: 0x1E16E60
+    // Offset: 0x1E16B24
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::.ctor()
     // Base method: System.Void LightWithIds::.ctor()
@@ -58,7 +58,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<DirectionalLightWithIds*, creationType>()));
     }
     // protected override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1E16E40
+    // Offset: 0x1E16B04
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);

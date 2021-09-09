@@ -56,13 +56,13 @@ namespace Mono {
     // Get instance field reference: private Mono.RuntimeStructs/Mono.GenericParamInfo* value
     Mono::RuntimeStructs::GenericParamInfo*& dyn_value();
     // System.Type[] get_Constraints()
-    // Offset: 0x1A738DC
+    // Offset: 0x1A7711C
     ::Array<System::Type*>* get_Constraints();
     // System.Reflection.GenericParameterAttributes get_Attributes()
-    // Offset: 0x1A73A20
+    // Offset: 0x1A77260
     System::Reflection::GenericParameterAttributes get_Attributes();
     // System.Void .ctor(System.IntPtr ptr)
-    // Offset: 0x1A738B0
+    // Offset: 0x1A770F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RuntimeGenericParamInfoHandle(System::IntPtr ptr) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::RuntimeGenericParamInfoHandle::.ctor");
@@ -70,10 +70,10 @@ namespace Mono {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, ptr);
     }
     // private System.Type[] GetConstraints()
-    // Offset: 0x1A738E0
+    // Offset: 0x1A77120
     ::Array<System::Type*>* GetConstraints();
     // private System.Int32 GetConstraintsCount()
-    // Offset: 0x1A73A3C
+    // Offset: 0x1A7727C
     int GetConstraintsCount();
   }; // Mono.RuntimeGenericParamInfoHandle
   #pragma pack(pop)

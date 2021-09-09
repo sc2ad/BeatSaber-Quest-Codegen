@@ -51,17 +51,17 @@ namespace Zenject {
     // Get instance field reference: public Zenject.PoolExpandMethods ExpandMethod
     Zenject::PoolExpandMethods& dyn_ExpandMethod();
     // public System.Void .ctor(System.Int32 initialSize, System.Int32 maxSize, Zenject.PoolExpandMethods expandMethod)
-    // Offset: 0x1713268
+    // Offset: 0x1719A9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MemoryPoolSettings* New_ctor(int initialSize, int maxSize, Zenject::PoolExpandMethods expandMethod) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPoolSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemoryPoolSettings*, creationType>(initialSize, maxSize, expandMethod)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x17132A8
+    // Offset: 0x1719ADC
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1713234
+    // Offset: 0x1719A68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

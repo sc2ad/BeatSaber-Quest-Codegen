@@ -48,25 +48,25 @@ namespace Zenject {
     // Get instance field reference: private System.Int32 <MaxSize>k__BackingField
     int& dyn_$MaxSize$k__BackingField();
     // public Zenject.PoolExpandMethods get_ExpandMethod()
-    // Offset: 0x1713204
+    // Offset: 0x1719A38
     Zenject::PoolExpandMethods get_ExpandMethod();
     // public System.Void set_ExpandMethod(Zenject.PoolExpandMethods value)
-    // Offset: 0x171320C
+    // Offset: 0x1719A40
     void set_ExpandMethod(Zenject::PoolExpandMethods value);
     // public System.Int32 get_InitialSize()
-    // Offset: 0x1713214
+    // Offset: 0x1719A48
     int get_InitialSize();
     // public System.Void set_InitialSize(System.Int32 value)
-    // Offset: 0x171321C
+    // Offset: 0x1719A50
     void set_InitialSize(int value);
     // public System.Int32 get_MaxSize()
-    // Offset: 0x1713224
+    // Offset: 0x1719A58
     int get_MaxSize();
     // public System.Void set_MaxSize(System.Int32 value)
-    // Offset: 0x171322C
+    // Offset: 0x1719A60
     void set_MaxSize(int value);
     // public System.Void .ctor()
-    // Offset: 0x17131D4
+    // Offset: 0x1719A08
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

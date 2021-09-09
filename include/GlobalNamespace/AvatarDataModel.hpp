@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AvatarDataFileManagerSO* avatarDataFileManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AvatarDataFileManagerSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE35698
+    // [InjectAttribute] Offset: 0xE3B5F8
     // private readonly AvatarPartsModel _avatarPartsModel
     // Size: 0x8
     // Offset: 0x20
@@ -61,28 +61,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private AvatarData <avatarData>k__BackingField
     GlobalNamespace::AvatarData*& dyn_$avatarData$k__BackingField();
     // public AvatarData get_avatarData()
-    // Offset: 0x1180594
+    // Offset: 0x117A20C
     GlobalNamespace::AvatarData* get_avatarData();
     // public System.Void set_avatarData(AvatarData value)
-    // Offset: 0x118059C
+    // Offset: 0x117A214
     void set_avatarData(GlobalNamespace::AvatarData* value);
     // protected System.Void OnEnable()
-    // Offset: 0x11805A4
+    // Offset: 0x117A21C
     void OnEnable();
     // public System.Void Randomize()
-    // Offset: 0x11805E4
+    // Offset: 0x117A25C
     void Randomize();
     // public System.Void Save()
-    // Offset: 0x1180708
+    // Offset: 0x117A380
     void Save();
     // public System.Void Load()
-    // Offset: 0x11805A8
+    // Offset: 0x117A220
     void Load();
     // private AvatarData CreateDefaultAvatarData()
-    // Offset: 0x1180608
+    // Offset: 0x117A280
     GlobalNamespace::AvatarData* CreateDefaultAvatarData();
     // public System.Void .ctor()
-    // Offset: 0x1180778
+    // Offset: 0x117A3F0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -46,22 +46,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _hidden
     bool& dyn__hidden();
     // public override System.Boolean get_hide()
-    // Offset: 0x11A9398
+    // Offset: 0x11CC2D0
     // Implemented from: NoteController
     // Base method: System.Boolean NoteController::get_hide()
     bool get_hide();
     // public override System.Void set_hide(System.Boolean value)
-    // Offset: 0x11A9354
+    // Offset: 0x11CC28C
     // Implemented from: NoteController
     // Base method: System.Void NoteController::set_hide(System.Boolean value)
     void set_hide(bool value);
     // public override System.Void set_pause(System.Boolean value)
-    // Offset: 0x11A93A0
+    // Offset: 0x11CC2D8
     // Implemented from: NoteController
     // Base method: System.Void NoteController::set_pause(System.Boolean value)
     void set_pause(bool value);
     // public System.Void .ctor()
-    // Offset: 0x11A656C
+    // Offset: 0x11C94A4
     // Implemented from: NoteController
     // Base method: System.Void NoteController::.ctor()
     // Base method: System.Void NoteControllerBase::.ctor()

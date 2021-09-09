@@ -106,32 +106,32 @@ namespace System::Linq {
     // Get instance field reference: public System.Int32 <>3__count
     int& dyn_$$3__count();
     // private System.Int32 System.Collections.Generic.IEnumerator<System.Int32>.get_Current()
-    // Offset: 0x23B6BA0
+    // Offset: 0x23BCEC8
     int System_Collections_Generic_IEnumerator$System_Int32$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x23B6C08
+    // Offset: 0x23BCF30
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x23B5F48
+    // Offset: 0x23BC270
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Enumerable::$RangeIterator$d__115* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Enumerable::$RangeIterator$d__115::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Enumerable::$RangeIterator$d__115*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x23B6B38
+    // Offset: 0x23BCE60
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x23B6B3C
+    // Offset: 0x23BCE64
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x23B6BA8
+    // Offset: 0x23BCED0
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<System.Int32> System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator()
-    // Offset: 0x23B6C6C
+    // Offset: 0x23BCF94
     System::Collections::Generic::IEnumerator_1<int>* System_Collections_Generic_IEnumerable$System_Int32$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x23B6D20
+    // Offset: 0x23BD048
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Linq.Enumerable/System.Linq.<RangeIterator>d__115
   #pragma pack(pop)

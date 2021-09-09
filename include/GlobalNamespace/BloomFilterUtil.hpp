@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BloomFilterUtil
     BloomFilterUtil() noexcept {}
     // static private System.UInt32 MurmurHash2(System.String key)
-    // Offset: 0x2378A74
+    // Offset: 0x2373738
     static uint MurmurHash2(::Il2CppString* key);
     // static public T ToBloomFilter(System.String value, System.Int32 hashCount, System.Int32 hashBits)
     // Offset: 0xFFFFFFFF

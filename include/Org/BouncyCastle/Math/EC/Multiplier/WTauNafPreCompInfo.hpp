@@ -46,13 +46,13 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Get instance field reference: protected Org.BouncyCastle.Math.EC.AbstractF2mPoint[] m_preComp
     ::Array<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>*& dyn_m_preComp();
     // public Org.BouncyCastle.Math.EC.AbstractF2mPoint[] get_PreComp()
-    // Offset: 0x1DCC948
+    // Offset: 0x1DCC60C
     ::Array<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>* get_PreComp();
     // public System.Void set_PreComp(Org.BouncyCastle.Math.EC.AbstractF2mPoint[] value)
-    // Offset: 0x1DCC950
+    // Offset: 0x1DCC614
     void set_PreComp(::Array<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1DCC940
+    // Offset: 0x1DCC604
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

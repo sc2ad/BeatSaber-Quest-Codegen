@@ -110,13 +110,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 originalBeatmapDataIndex
     int& dyn_originalBeatmapDataIndex();
     // public System.Void StartPotentialStrobe(BeatmapEventData startEventData, System.Int32 originalIndex)
-    // Offset: 0x11F3BB4
+    // Offset: 0x11E9CA4
     void StartPotentialStrobe(GlobalNamespace::BeatmapEventData* startEventData, int originalIndex);
     // public System.Void AddStrobeData(BeatmapEventData startEventData, System.Int32 beatmapIndex)
-    // Offset: 0x11F3A18
+    // Offset: 0x11E9B08
     void AddStrobeData(GlobalNamespace::BeatmapEventData* startEventData, int beatmapIndex);
     // public System.Void .ctor()
-    // Offset: 0x11F3A10
+    // Offset: 0x11E9B00
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

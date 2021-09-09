@@ -53,17 +53,17 @@ namespace Org::BouncyCastle::Asn1 {
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1StreamParser _parser
     Org::BouncyCastle::Asn1::Asn1StreamParser*& dyn__parser();
     // System.Void .ctor(Org.BouncyCastle.Asn1.Asn1StreamParser parser)
-    // Offset: 0x1728FA8
+    // Offset: 0x172F7DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BerOctetStringParser* New_ctor(Org::BouncyCastle::Asn1::Asn1StreamParser* parser) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::BerOctetStringParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BerOctetStringParser*, creationType>(parser)));
     }
     // public System.IO.Stream GetOctetStream()
-    // Offset: 0x172F148
+    // Offset: 0x173597C
     System::IO::Stream* GetOctetStream();
     // public Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1728FD4
+    // Offset: 0x172F808
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.BerOctetStringParser
   #pragma pack(pop)

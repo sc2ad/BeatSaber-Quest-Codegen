@@ -82,19 +82,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly LazyCopyHashSet`1<ICutScoreHandlerDidFinishEvent> _didFinishEvent
     GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ICutScoreHandlerDidFinishEvent*>*& dyn__didFinishEvent();
     // public ILazyCopyHashSet`1<ICutScoreHandlerDidFinishEvent> get_didFinishEvent()
-    // Offset: 0x10C8E24
+    // Offset: 0x10D015C
     GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::ICutScoreHandlerDidFinishEvent*>* get_didFinishEvent();
     // public System.Void Set(in NoteCutInfo noteCutInfo, NoteExecutionRating noteExecutionRating, ISaberSwingRatingCounter swingRatingCounter)
-    // Offset: 0x10C8A9C
+    // Offset: 0x10CFDD4
     void Set(ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo, GlobalNamespace::NoteExecutionRating* noteExecutionRating, GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter);
     // private System.Void Reinitialize()
-    // Offset: 0x10C8E2C
+    // Offset: 0x10D0164
     void Reinitialize();
     // public System.Void HandleSaberSwingRatingCounterDidFinish(ISaberSwingRatingCounter saberSwingRatingCounter)
-    // Offset: 0x10C8E34
+    // Offset: 0x10D016C
     void HandleSaberSwingRatingCounterDidFinish(GlobalNamespace::ISaberSwingRatingCounter* saberSwingRatingCounter);
     // public System.Void .ctor()
-    // Offset: 0x10C9080
+    // Offset: 0x10D03B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

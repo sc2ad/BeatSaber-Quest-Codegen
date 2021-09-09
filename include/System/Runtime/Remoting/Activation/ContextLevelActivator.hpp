@@ -48,17 +48,17 @@ namespace System::Runtime::Remoting::Activation {
     // Get instance field reference: private System.Runtime.Remoting.Activation.IActivator m_NextActivator
     System::Runtime::Remoting::Activation::IActivator*& dyn_m_NextActivator();
     // public System.Runtime.Remoting.Activation.IActivator get_NextActivator()
-    // Offset: 0x148BE7C
+    // Offset: 0x1493E38
     System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
     // public System.Void .ctor(System.Runtime.Remoting.Activation.IActivator next)
-    // Offset: 0x148B130
+    // Offset: 0x14930EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContextLevelActivator* New_ctor(System::Runtime::Remoting::Activation::IActivator* next) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Activation::ContextLevelActivator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContextLevelActivator*, creationType>(next)));
     }
     // public System.Runtime.Remoting.Activation.IConstructionReturnMessage Activate(System.Runtime.Remoting.Activation.IConstructionCallMessage ctorCall)
-    // Offset: 0x148BE84
+    // Offset: 0x1493E40
     System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);
   }; // System.Runtime.Remoting.Activation.ContextLevelActivator
   #pragma pack(pop)

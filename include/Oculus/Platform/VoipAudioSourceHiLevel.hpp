@@ -85,31 +85,31 @@ namespace Oculus::Platform {
     // Get instance field reference: protected Oculus.Platform.IVoipPCMSource pcmSource
     Oculus::Platform::IVoipPCMSource*& dyn_pcmSource();
     // public System.Void set_senderID(System.UInt64 value)
-    // Offset: 0x23DDEB0
+    // Offset: 0x23B97AC
     void set_senderID(uint64_t value);
     // protected System.Void Stop()
-    // Offset: 0x23DDF74
+    // Offset: 0x23B9870
     void Stop();
     // private Oculus.Platform.VoipSampleRate SampleRateToEnum(System.Int32 rate)
-    // Offset: 0x23DDF78
+    // Offset: 0x23B9874
     Oculus::Platform::VoipSampleRate SampleRateToEnum(int rate);
     // protected System.Void Awake()
-    // Offset: 0x23DDFB4
+    // Offset: 0x23B98B0
     void Awake();
     // private System.Void Start()
-    // Offset: 0x23DE25C
+    // Offset: 0x23B9B58
     void Start();
     // protected System.Void CreatePCMSource()
-    // Offset: 0x23DE278
+    // Offset: 0x23B9B74
     void CreatePCMSource();
     // static protected System.Int32 MSToElements(System.Int32 ms)
-    // Offset: 0x23DE2E0
+    // Offset: 0x23B9BDC
     static int MSToElements(int ms);
     // private System.Void Update()
-    // Offset: 0x23DE368
+    // Offset: 0x23B9C64
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x23DE640
+    // Offset: 0x23B9F3C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -122,7 +122,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<VoipAudioSourceHiLevel*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x23DE648
+    // Offset: 0x23B9F44
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

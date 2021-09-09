@@ -96,28 +96,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapData _beatmapData
     GlobalNamespace::BeatmapData*& dyn__beatmapData();
     // public IBeatmapLevel get_level()
-    // Offset: 0x10F655C
+    // Offset: 0x10E9F74
     GlobalNamespace::IBeatmapLevel* get_level();
     // public IDifficultyBeatmapSet get_parentDifficultyBeatmapSet()
-    // Offset: 0x10F6564
+    // Offset: 0x10E9F7C
     GlobalNamespace::IDifficultyBeatmapSet* get_parentDifficultyBeatmapSet();
     // public BeatmapDifficulty get_difficulty()
-    // Offset: 0x10F656C
+    // Offset: 0x10E9F84
     GlobalNamespace::BeatmapDifficulty get_difficulty();
     // public System.Int32 get_difficultyRank()
-    // Offset: 0x10F6574
+    // Offset: 0x10E9F8C
     int get_difficultyRank();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0x10F657C
+    // Offset: 0x10E9F94
     float get_noteJumpMovementSpeed();
     // public System.Single get_noteJumpStartBeatOffset()
-    // Offset: 0x10F6584
+    // Offset: 0x10E9F9C
     float get_noteJumpStartBeatOffset();
     // public BeatmapData get_beatmapData()
-    // Offset: 0x10F658C
+    // Offset: 0x10E9FA4
     GlobalNamespace::BeatmapData* get_beatmapData();
     // public System.Void .ctor(IBeatmapLevel level, IDifficultyBeatmapSet parentDifficultyBeatmapSet, BeatmapDifficulty difficulty, System.Int32 difficultyRank, System.Single noteJumpMovementSpeed, System.Single noteJumpStartBeatOffset, BeatmapData beatmapData)
-    // Offset: 0x10F6594
+    // Offset: 0x10E9FAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomDifficultyBeatmap* New_ctor(GlobalNamespace::IBeatmapLevel* level, GlobalNamespace::IDifficultyBeatmapSet* parentDifficultyBeatmapSet, GlobalNamespace::BeatmapDifficulty difficulty, int difficultyRank, float noteJumpMovementSpeed, float noteJumpStartBeatOffset, GlobalNamespace::BeatmapData* beatmapData) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CustomDifficultyBeatmap::.ctor");

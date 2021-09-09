@@ -56,26 +56,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public OVRSceneLoader <>4__this
     GlobalNamespace::OVRSceneLoader*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1636F88
+    // Offset: 0x163E7BC
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1636FF0
+    // Offset: 0x163E824
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1636CE4
+    // Offset: 0x163E518
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRSceneLoader::$DelayCanvasPosUpdate$d__24* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRSceneLoader::$DelayCanvasPosUpdate$d__24::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRSceneLoader::$DelayCanvasPosUpdate$d__24*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1636EDC
+    // Offset: 0x163E710
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1636EE0
+    // Offset: 0x163E714
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1636F90
+    // Offset: 0x163E7C4
     void System_Collections_IEnumerator_Reset();
   }; // OVRSceneLoader/<DelayCanvasPosUpdate>d__24
   #pragma pack(pop)

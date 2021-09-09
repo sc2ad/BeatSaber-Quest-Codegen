@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BombExplosionEffect* bombExplosionEffect;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BombExplosionEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0xE39B60
+    // [InjectAttribute] Offset: 0xE3FAE0
     // private readonly IConnectedPlayerNoteEventManager _noteEventManager
     // Size: 0x8
     // Offset: 0x28
@@ -63,16 +63,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IConnectedPlayerNoteEventManager _noteEventManager
     GlobalNamespace::IConnectedPlayerNoteEventManager*& dyn__noteEventManager();
     // protected System.Void Start()
-    // Offset: 0x11A663C
+    // Offset: 0x11C9574
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x11A672C
+    // Offset: 0x11C9664
     void OnDestroy();
     // private System.Void HandleNoteEventManagerConnectedPlayerNoteWasCut(NoteCutInfoNetSerializable noteCutInfo)
-    // Offset: 0x11A682C
+    // Offset: 0x11C9764
     void HandleNoteEventManagerConnectedPlayerNoteWasCut(GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
     // public System.Void .ctor()
-    // Offset: 0x11A6A28
+    // Offset: 0x11C9960
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

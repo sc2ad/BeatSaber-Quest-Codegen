@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Boolean failOn0Energy
     bool& dyn_failOn0Energy();
     // public System.Void .ctor(System.Boolean failOn0Energy)
-    // Offset: 0x1068664
+    // Offset: 0x1084D40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalActivePlayerGameplayManager::InitData* New_ctor(bool failOn0Energy) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager::InitData::.ctor");

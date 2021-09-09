@@ -31,14 +31,14 @@ namespace Org::BouncyCastle::Asn1 {
     // Creating value type constructor for type: DerOctetString
     DerOctetString() noexcept {}
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Encodable obj)
-    // Offset: 0x1739ECC
+    // Offset: 0x1740700
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerOctetString* New_ctor(Org::BouncyCastle::Asn1::Asn1Encodable* obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerOctetString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerOctetString*, creationType>(obj)));
     }
     // public System.Void .ctor(System.Byte[] str)
-    // Offset: 0x172A3B0
+    // Offset: 0x1730BE4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1OctetString
     // Base method: System.Void Asn1OctetString::.ctor(System.Byte[] str)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -47,7 +47,7 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<DerOctetString*, creationType>(str)));
     }
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x172EF34
+    // Offset: 0x1735768
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);

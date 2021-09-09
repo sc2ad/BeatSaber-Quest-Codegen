@@ -50,7 +50,7 @@ namespace HMUI {
     ::Il2CppString* textPrefix;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE16B64
+    // [SpaceAttribute] Offset: 0xE1BAD4
     // private UnityEngine.Color _color0
     // Size: 0x10
     // Offset: 0x148
@@ -89,7 +89,7 @@ namespace HMUI {
     static_assert(sizeof(System::Action_3<HMUI::ColorGradientSlider*, UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>*) == 0x8);
     // Creating value type constructor for type: ColorGradientSlider
     ColorGradientSlider(::Il2CppString* textPrefix_ = {}, UnityEngine::Color color0_ = {}, UnityEngine::Color color1_ = {}, ::Array<HMUI::ImageView*>* gradientImages_ = {}, UnityEngine::Color darkColor_ = {}, UnityEngine::Color lightColor_ = {}, System::Action_3<HMUI::ColorGradientSlider*, UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* colorDidChangeEvent_ = {}) noexcept : textPrefix{textPrefix_}, color0{color0_}, color1{color1_}, gradientImages{gradientImages_}, darkColor{darkColor_}, lightColor{lightColor_}, colorDidChangeEvent{colorDidChangeEvent_} {}
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE16BEC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE1BB5C
     // Get static field: static private readonly System.Text.StringBuilder _stringBuilder
     static System::Text::StringBuilder* _get__stringBuilder();
     // Set static field: static private readonly System.Text.StringBuilder _stringBuilder
@@ -109,19 +109,19 @@ namespace HMUI {
     // Get instance field reference: private System.Action`3<HMUI.ColorGradientSlider,UnityEngine.Color,ColorChangeUIEventType> colorDidChangeEvent
     System::Action_3<HMUI::ColorGradientSlider*, UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>*& dyn_colorDidChangeEvent();
     // public System.Void add_colorDidChangeEvent(System.Action`3<HMUI.ColorGradientSlider,UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0x1368108
+    // Offset: 0x136DDFC
     void add_colorDidChangeEvent(System::Action_3<HMUI::ColorGradientSlider*, UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void remove_colorDidChangeEvent(System.Action`3<HMUI.ColorGradientSlider,UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0x13681B0
+    // Offset: 0x136DEA4
     void remove_colorDidChangeEvent(System::Action_3<HMUI::ColorGradientSlider*, UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void SetColors(UnityEngine.Color color0, UnityEngine.Color color1)
-    // Offset: 0x1368380
+    // Offset: 0x136E074
     void SetColors(UnityEngine::Color color0, UnityEngine::Color color1);
     // private System.Void HandleNormalizedValueDidChange(HMUI.TextSlider slider, System.Single normalizedValue)
-    // Offset: 0x136868C
+    // Offset: 0x136E380
     void HandleNormalizedValueDidChange(HMUI::TextSlider* slider, float normalizedValue);
     // public System.Void .ctor()
-    // Offset: 0x1368860
+    // Offset: 0x136E554
     // Implemented from: HMUI.TextSlider
     // Base method: System.Void TextSlider::.ctor()
     // Base method: System.Void Selectable::.ctor()
@@ -137,33 +137,33 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<ColorGradientSlider*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1368868
+    // Offset: 0x136E55C
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::.cctor()
     // Base method: System.Void Object::.cctor()
     static void _cctor();
     // protected override System.Void Awake()
-    // Offset: 0x1368258
+    // Offset: 0x136DF4C
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::Awake()
     void Awake();
     // protected override System.Void OnDestroy()
-    // Offset: 0x13682F4
+    // Offset: 0x136DFE8
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDestroy()
     void OnDestroy();
     // protected override System.Void UpdateVisuals()
-    // Offset: 0x13683B0
+    // Offset: 0x136E0A4
     // Implemented from: HMUI.TextSlider
     // Base method: System.Void TextSlider::UpdateVisuals()
     void UpdateVisuals();
     // protected override System.String TextForNormalizedValue(System.Single normalizedValue)
-    // Offset: 0x136857C
+    // Offset: 0x136E270
     // Implemented from: HMUI.TextSlider
     // Base method: System.String TextSlider::TextForNormalizedValue(System.Single normalizedValue)
     ::Il2CppString* TextForNormalizedValue(float normalizedValue);
     // public override System.Void OnPointerUp(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x1368740
+    // Offset: 0x136E434
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::OnPointerUp(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerUp(UnityEngine::EventSystems::PointerEventData* eventData);

@@ -62,16 +62,16 @@ namespace Org::BouncyCastle::Crypto::Agreement {
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.DHParameters dhParams
     Org::BouncyCastle::Crypto::Parameters::DHParameters*& dyn_dhParams();
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1A0A9F8
+    // Offset: 0x1A0F22C
     void Init(Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetFieldSize()
-    // Offset: 0x1A0AB00
+    // Offset: 0x1A0F334
     int GetFieldSize();
     // public Org.BouncyCastle.Math.BigInteger CalculateAgreement(Org.BouncyCastle.Crypto.ICipherParameters pubKey)
-    // Offset: 0x1A0AB48
+    // Offset: 0x1A0F37C
     Org::BouncyCastle::Math::BigInteger* CalculateAgreement(Org::BouncyCastle::Crypto::ICipherParameters* pubKey);
     // public System.Void .ctor()
-    // Offset: 0x1A0ADAC
+    // Offset: 0x1A0F5E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

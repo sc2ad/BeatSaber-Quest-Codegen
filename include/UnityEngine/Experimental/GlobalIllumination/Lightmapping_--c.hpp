@@ -43,13 +43,13 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     // Set static field: static public readonly UnityEngine.Experimental.GlobalIllumination.Lightmapping/UnityEngine.Experimental.GlobalIllumination.<>c <>9
     static void _set_$$9(UnityEngine::Experimental::GlobalIllumination::Lightmapping::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x1C2A520
+    // Offset: 0x1C556B8
     static void _cctor();
     // System.Void <.cctor>b__7_0(UnityEngine.Light[] requests, Unity.Collections.NativeArray`1<UnityEngine.Experimental.GlobalIllumination.LightDataGI> lightsOutput)
-    // Offset: 0x1C2A58C
+    // Offset: 0x1C55724
     void $_cctor$b__7_0(::Array<UnityEngine::Light*>* requests, Unity::Collections::NativeArray_1<UnityEngine::Experimental::GlobalIllumination::LightDataGI> lightsOutput);
     // public System.Void .ctor()
-    // Offset: 0x1C2A584
+    // Offset: 0x1C5571C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

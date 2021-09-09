@@ -93,16 +93,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private AsyncCachedLoader`2<System.String,UnityEngine.Sprite> _spriteAsyncCachedLoader
     GlobalNamespace::AsyncCachedLoader_2<::Il2CppString*, UnityEngine::Sprite*>*& dyn__spriteAsyncCachedLoader();
     // public System.Void ClearCache()
-    // Offset: 0x23F08C8
+    // Offset: 0x23ED614
     void ClearCache();
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> LoadAudioClipAsync(System.String path, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x23F0940
+    // Offset: 0x23ED68C
     System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* LoadAudioClipAsync(::Il2CppString* path, System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> LoadSpriteAsync(System.String path, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x23F0A54
+    // Offset: 0x23ED7A0
     System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* LoadSpriteAsync(::Il2CppString* path, System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x23F0B68
+    // Offset: 0x23ED8B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

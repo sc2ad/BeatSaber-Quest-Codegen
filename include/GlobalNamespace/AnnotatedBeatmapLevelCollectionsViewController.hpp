@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     GlobalNamespace::LoadingControl* loadingControl;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LoadingControl*) == 0x8);
-    // [InjectAttribute] Offset: 0xE41874
+    // [InjectAttribute] Offset: 0xE477D4
     // private readonly AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0x80
@@ -99,34 +99,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<IAnnotatedBeatmapLevelCollection> _annotatedBeatmapLevelCollections
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>*& dyn__annotatedBeatmapLevelCollections();
     // public IAnnotatedBeatmapLevelCollection get_selectedAnnotatedBeatmapLevelCollection()
-    // Offset: 0x117B2D0
+    // Offset: 0x1174F48
     GlobalNamespace::IAnnotatedBeatmapLevelCollection* get_selectedAnnotatedBeatmapLevelCollection();
     // public System.Int32 get_selectedItemIndex()
-    // Offset: 0x117B410
+    // Offset: 0x1175088
     int get_selectedItemIndex();
     // public System.Void add_didSelectAnnotatedBeatmapLevelCollectionEvent(System.Action`1<IAnnotatedBeatmapLevelCollection> value)
-    // Offset: 0x117B188
+    // Offset: 0x1174E00
     void add_didSelectAnnotatedBeatmapLevelCollectionEvent(System::Action_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* value);
     // public System.Void remove_didSelectAnnotatedBeatmapLevelCollectionEvent(System.Action`1<IAnnotatedBeatmapLevelCollection> value)
-    // Offset: 0x117B22C
+    // Offset: 0x1174EA4
     void remove_didSelectAnnotatedBeatmapLevelCollectionEvent(System::Action_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* value);
     // public System.Void RefreshAvailability()
-    // Offset: 0x117B50C
+    // Offset: 0x1175184
     void RefreshAvailability();
     // public System.Void SetData(System.Collections.Generic.IReadOnlyList`1<IAnnotatedBeatmapLevelCollection> annotatedBeatmapLevelCollections, System.Int32 selectedItemIndex, System.Boolean hideIfOneOrNoPacks)
-    // Offset: 0x117B608
+    // Offset: 0x1175280
     void SetData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* annotatedBeatmapLevelCollections, int selectedItemIndex, bool hideIfOneOrNoPacks);
     // public System.Void ShowLoading()
-    // Offset: 0x117B758
+    // Offset: 0x11753D0
     void ShowLoading();
     // private System.Void HandleAdditionalContentModelDidInvalidateData()
-    // Offset: 0x117B7CC
+    // Offset: 0x1175444
     void HandleAdditionalContentModelDidInvalidateData();
     // private System.Void HandleDidSelectAnnotatedBeatmapLevelCollection(AnnotatedBeatmapLevelCollectionsTableView levelPacksTableView, IAnnotatedBeatmapLevelCollection annotatedBeatmapLevelCollection)
-    // Offset: 0x117B7E4
+    // Offset: 0x117545C
     void HandleDidSelectAnnotatedBeatmapLevelCollection(GlobalNamespace::AnnotatedBeatmapLevelCollectionsTableView* levelPacksTableView, GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection);
     // public System.Void .ctor()
-    // Offset: 0x117B970
+    // Offset: 0x11755E8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -140,12 +140,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AnnotatedBeatmapLevelCollectionsViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x117B418
+    // Offset: 0x1175090
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x117B524
+    // Offset: 0x117519C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainSettingsModelSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE350E8
+    // [InjectAttribute] Offset: 0xE3B068
     // private PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x28
@@ -61,16 +61,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private PlayerDataModel _playerDataModel
     GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
     // protected System.Void OnEnable()
-    // Offset: 0x102E574
+    // Offset: 0x1035DB0
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x102E65C
+    // Offset: 0x1035E98
     void OnDisable();
     // private System.Void HandlePS4HelperDidGoToBackgroundExecution()
-    // Offset: 0x102E754
+    // Offset: 0x1035F90
     void HandlePS4HelperDidGoToBackgroundExecution();
     // public System.Void .ctor()
-    // Offset: 0x102E7A0
+    // Offset: 0x1035FDC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

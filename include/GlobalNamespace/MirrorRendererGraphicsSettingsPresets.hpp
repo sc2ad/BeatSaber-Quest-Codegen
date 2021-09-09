@@ -42,15 +42,15 @@ namespace GlobalNamespace {
     // Get instance field reference: private MirrorRendererGraphicsSettingsPresets/Preset[] _presets
     ::Array<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*>*& dyn__presets();
     // public MirrorRendererGraphicsSettingsPresets/Preset[] get_presets()
-    // Offset: 0x10E78A8
+    // Offset: 0x113B638
     ::Array<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*>* get_presets();
     // public override NamedPreset[] get_namedPresets()
-    // Offset: 0x10E78B0
+    // Offset: 0x113B640
     // Implemented from: NamedPresetsSO
     // Base method: NamedPreset[] NamedPresetsSO::get_namedPresets()
     ::Array<GlobalNamespace::NamedPreset*>* get_namedPresets();
     // public System.Void .ctor()
-    // Offset: 0x10E78B8
+    // Offset: 0x113B648
     // Implemented from: NamedPresetsSO
     // Base method: System.Void NamedPresetsSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

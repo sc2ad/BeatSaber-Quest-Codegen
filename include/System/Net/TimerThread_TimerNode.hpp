@@ -131,19 +131,19 @@ namespace System::Net {
     // Get instance field reference: private System.Net.TimerThread/System.Net.TimerNode prev
     System::Net::TimerThread::TimerNode*& dyn_prev();
     // System.Net.TimerThread/System.Net.TimerNode get_Next()
-    // Offset: 0x15C9BD8
+    // Offset: 0x15D340C
     System::Net::TimerThread::TimerNode* get_Next();
     // System.Void set_Next(System.Net.TimerThread/System.Net.TimerNode value)
-    // Offset: 0x15C9BE0
+    // Offset: 0x15D3414
     void set_Next(System::Net::TimerThread::TimerNode* value);
     // System.Net.TimerThread/System.Net.TimerNode get_Prev()
-    // Offset: 0x15C9BE8
+    // Offset: 0x15D341C
     System::Net::TimerThread::TimerNode* get_Prev();
     // System.Void set_Prev(System.Net.TimerThread/System.Net.TimerNode value)
-    // Offset: 0x15C9BF0
+    // Offset: 0x15D3424
     void set_Prev(System::Net::TimerThread::TimerNode* value);
     // System.Void .ctor()
-    // Offset: 0x15C9B9C
+    // Offset: 0x15D33D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -152,7 +152,7 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<TimerThread::TimerNode*, creationType>()));
     }
     // override System.Boolean Cancel()
-    // Offset: 0x15C9BF8
+    // Offset: 0x15D342C
     // Implemented from: System.Net.TimerThread/System.Net.Timer
     // Base method: System.Boolean Timer::Cancel()
     bool Cancel();

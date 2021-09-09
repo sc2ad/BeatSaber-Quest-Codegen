@@ -97,20 +97,20 @@ namespace GlobalNamespace {
     // Get instance field reference: public ColorSchemeNetSerializable colorScheme
     GlobalNamespace::ColorSchemeNetSerializable& dyn_colorScheme();
     // public System.Void .ctor(System.String userId, System.String userName, System.Boolean leftHanded, System.Boolean automaticPlayerHeight, System.Single playerHeight, System.Single headPosToPlayerHeightOffset, UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color obstaclesColor, UnityEngine.Color environmentColor0, UnityEngine.Color environmentColor1, UnityEngine.Color environmentColor0Boost, UnityEngine.Color environmentColor1Boost)
-    // Offset: 0x16F409C
+    // Offset: 0x16F98D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSpecificSettingsNetSerializable* New_ctor(::Il2CppString* userId, ::Il2CppString* userName, bool leftHanded, bool automaticPlayerHeight, float playerHeight, float headPosToPlayerHeightOffset, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color obstaclesColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerSpecificSettingsNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSpecificSettingsNetSerializable*, creationType>(userId, userName, leftHanded, automaticPlayerHeight, playerHeight, headPosToPlayerHeightOffset, saberAColor, saberBColor, obstaclesColor, environmentColor0, environmentColor1, environmentColor0Boost, environmentColor1Boost)));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x16F3E60
+    // Offset: 0x16F9694
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x16F4000
+    // Offset: 0x16F9834
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void .ctor()
-    // Offset: 0x16F3FF8
+    // Offset: 0x16F982C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

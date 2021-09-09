@@ -61,19 +61,19 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__7_0
     static void _set_$$9__7_0(System::Func_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::IEnumerable_1<int>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1744248
+    // Offset: 0x174AA7C
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<System.Int32> <EnsureFacesAreComposedOfContiguousTriangles>b__4_0(UnityEngine.ProBuilder.Triangle x)
-    // Offset: 0x17442B4
+    // Offset: 0x174AAE8
     System::Collections::Generic::IEnumerable_1<int>* $EnsureFacesAreComposedOfContiguousTriangles$b__4_0(UnityEngine::ProBuilder::Triangle x);
     // System.Collections.Generic.IEnumerable`1<System.Int32> <EnsureFacesAreComposedOfContiguousTriangles>b__4_1(UnityEngine.ProBuilder.Triangle x)
-    // Offset: 0x17442E0
+    // Offset: 0x174AB14
     System::Collections::Generic::IEnumerable_1<int>* $EnsureFacesAreComposedOfContiguousTriangles$b__4_1(UnityEngine::ProBuilder::Triangle x);
     // System.Collections.Generic.IEnumerable`1<System.Int32> <RemoveUnusedVertices>b__7_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x174430C
+    // Offset: 0x174AB40
     System::Collections::Generic::IEnumerable_1<int>* $RemoveUnusedVertices$b__7_0(UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0x17442AC
+    // Offset: 0x174AAE0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -36,14 +36,14 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::ShaderWarmupSceneStart::$Start$d__2
     class $Start$d__2;
-    // [InjectAttribute] Offset: 0xE46584
+    // [InjectAttribute] Offset: 0xE4C5D0
     // private readonly ShaderWarmupSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::ShaderWarmupSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ShaderWarmupSceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0xE46594
+    // [InjectAttribute] Offset: 0xE4C5E0
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
@@ -59,10 +59,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly GameScenesManager _gameScenesManager
     GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x1078860
+    // Offset: 0x10952E0
     System::Collections::IEnumerator* Start();
     // public System.Void .ctor()
-    // Offset: 0x10788FC
+    // Offset: 0x109537C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -93,19 +93,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private PlatformUserAuthTokenData/PlatformEnviroment <validPlatformEnvironment>k__BackingField
     GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment& dyn_$validPlatformEnvironment$k__BackingField();
     // public System.String get_token()
-    // Offset: 0x11343EC
+    // Offset: 0x11F3C38
     ::Il2CppString* get_token();
     // private System.Void set_token(System.String value)
-    // Offset: 0x11343F4
+    // Offset: 0x11F3C40
     void set_token(::Il2CppString* value);
     // public PlatformUserAuthTokenData/PlatformEnviroment get_validPlatformEnvironment()
-    // Offset: 0x11343FC
+    // Offset: 0x11F3C48
     GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment get_validPlatformEnvironment();
     // private System.Void set_validPlatformEnvironment(PlatformUserAuthTokenData/PlatformEnviroment value)
-    // Offset: 0x1134404
+    // Offset: 0x11F3C50
     void set_validPlatformEnvironment(GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment value);
     // public System.Void .ctor(System.String token, PlatformUserAuthTokenData/PlatformEnviroment validPlatformEnvironment)
-    // Offset: 0x113440C
+    // Offset: 0x11F3C58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformUserAuthTokenData* New_ctor(::Il2CppString* token, GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment validPlatformEnvironment) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlatformUserAuthTokenData::.ctor");

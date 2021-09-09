@@ -101,26 +101,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private SteamVR_Controller/Device <hmd>5__5
     GlobalNamespace::SteamVR_Controller::Device*& dyn_$hmd$5__5();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1427FA4
+    // Offset: 0x142FF60
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x142800C
+    // Offset: 0x142FFC8
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1426BC8
+    // Offset: 0x142EB84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_LoadLevel::$LoadLevel$d__45* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_LoadLevel::$LoadLevel$d__45::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_LoadLevel::$LoadLevel$d__45*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1426D44
+    // Offset: 0x142ED00
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1426D48
+    // Offset: 0x142ED04
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1427FAC
+    // Offset: 0x142FF68
     void System_Collections_IEnumerator_Reset();
   }; // SteamVR_LoadLevel/<LoadLevel>d__45
   #pragma pack(pop)

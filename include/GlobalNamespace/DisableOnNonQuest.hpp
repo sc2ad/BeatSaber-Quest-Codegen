@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: DisableOnNonQuest
     DisableOnNonQuest() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x10FBD28
+    // Offset: 0x10EF7A0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

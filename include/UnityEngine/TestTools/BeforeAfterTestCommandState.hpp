@@ -138,16 +138,16 @@ namespace UnityEngine::TestTools {
     // Get instance field reference: public System.Int64 Timestamp
     int64_t& dyn_Timestamp();
     // public System.Void Reset()
-    // Offset: 0x14BE7A4
+    // Offset: 0x14C6760
     void Reset();
     // public System.Void StoreTestResult(NUnit.Framework.Internal.TestResult result)
-    // Offset: 0x14BE7C0
+    // Offset: 0x14C677C
     void StoreTestResult(NUnit::Framework::Internal::TestResult* result);
     // public System.Void ApplyTestResult(NUnit.Framework.Internal.TestResult result)
-    // Offset: 0x14BE858
+    // Offset: 0x14C6814
     void ApplyTestResult(NUnit::Framework::Internal::TestResult* result);
     // public System.Void .ctor()
-    // Offset: 0x14BE8F8
+    // Offset: 0x14C68B4
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -62,10 +62,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public MissionCompletionResults missionCompletionResults
     GlobalNamespace::MissionCompletionResults*& dyn_missionCompletionResults();
     // System.Void <HandleMissionLevelSceneDidFinish>b__0(Zenject.DiContainer container)
-    // Offset: 0x10E780C
+    // Offset: 0x11A9838
     void $HandleMissionLevelSceneDidFinish$b__0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x10E730C
+    // Offset: 0x11A9338
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

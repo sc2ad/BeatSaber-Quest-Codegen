@@ -96,7 +96,7 @@ namespace OVR::OpenVR {
     // Get instance field reference: public OVR.OpenVR.VRControllerAxis_t rAxis4
     OVR::OpenVR::VRControllerAxis_t& dyn_rAxis4();
     // public System.Void .ctor(OVR.OpenVR.VRControllerState_t unpacked)
-    // Offset: 0x1293828
+    // Offset: 0x12AB6E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     VRControllerState_t_Packed(OVR::OpenVR::VRControllerState_t unpacked) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::VRControllerState_t_Packed::.ctor");
@@ -104,7 +104,7 @@ namespace OVR::OpenVR {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, unpacked);
     }
     // public System.Void Unpack(ref OVR.OpenVR.VRControllerState_t unpacked)
-    // Offset: 0x129386C
+    // Offset: 0x12AB728
     void Unpack(ByRef<OVR::OpenVR::VRControllerState_t> unpacked);
   }; // OVR.OpenVR.VRControllerState_t_Packed
   #pragma pack(pop)

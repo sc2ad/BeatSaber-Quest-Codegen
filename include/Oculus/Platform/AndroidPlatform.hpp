@@ -34,13 +34,13 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: AndroidPlatform
     AndroidPlatform() noexcept {}
     // public System.Boolean Initialize(System.String appId)
-    // Offset: 0x1C823A4
+    // Offset: 0x1B92984
     bool Initialize(::Il2CppString* appId);
     // public Oculus.Platform.Request`1<Oculus.Platform.Models.PlatformInitialize> AsyncInitialize(System.String appId)
-    // Offset: 0x1C824F0
+    // Offset: 0x1B92AD0
     Oculus::Platform::Request_1<Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::Il2CppString* appId);
     // public System.Void .ctor()
-    // Offset: 0x1C82670
+    // Offset: 0x1B92C50
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

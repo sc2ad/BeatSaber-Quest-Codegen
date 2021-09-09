@@ -65,16 +65,16 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<PlayersLobbyPermissionConfigurationNetSerializable> getPlayerPermissionAsyncTcs
     System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>*& dyn_getPlayerPermissionAsyncTcs();
     // System.Void <GetGameStateAndConfigurationAsync>g__HandleSetMultiplayerGameState|0(System.String userId, MultiplayerGameState newMultiplayerGameState)
-    // Offset: 0x1206CB0
+    // Offset: 0x120D530
     void $GetGameStateAndConfigurationAsync$g__HandleSetMultiplayerGameState_0(::Il2CppString* userId, GlobalNamespace::MultiplayerGameState newMultiplayerGameState);
     // System.Void <GetGameStateAndConfigurationAsync>g__HandleSetPlayerPermissionConfiguration|1(System.String userId, PlayersLobbyPermissionConfigurationNetSerializable playersLobbyPermissionConfiguration)
-    // Offset: 0x1206F08
+    // Offset: 0x120D788
     void $GetGameStateAndConfigurationAsync$g__HandleSetPlayerPermissionConfiguration_1(::Il2CppString* userId, GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* playersLobbyPermissionConfiguration);
     // System.Boolean <GetGameStateAndConfigurationAsync>b__2(PlayerLobbyPermissionConfigurationNetSerializable p)
-    // Offset: 0x12070EC
+    // Offset: 0x120D97C
     bool $GetGameStateAndConfigurationAsync$b__2(GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable* p);
     // public System.Void .ctor()
-    // Offset: 0x12054C4
+    // Offset: 0x120BD44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

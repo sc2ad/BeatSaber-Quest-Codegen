@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Boolean enableOculusMRC
     bool& dyn_enableOculusMRC();
     // public System.Void .ctor(System.Boolean enableOculusMRC)
-    // Offset: 0x23904E4
+    // Offset: 0x238C1CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExternalCamerasManager::InitData* New_ctor(bool enableOculusMRC) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ExternalCamerasManager::InitData::.ctor");

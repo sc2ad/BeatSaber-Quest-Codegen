@@ -35,31 +35,31 @@ namespace Valve::VR {
     // Creating value type constructor for type: OpenVRInterop
     OpenVRInterop() noexcept {}
     // static System.UInt32 InitInternal(ref Valve.VR.EVRInitError peError, Valve.VR.EVRApplicationType eApplicationType)
-    // Offset: 0x23CA1DC
+    // Offset: 0x23D0504
     static uint InitInternal(ByRef<Valve::VR::EVRInitError> peError, Valve::VR::EVRApplicationType eApplicationType);
     // static System.Void ShutdownInternal()
-    // Offset: 0x23CA26C
+    // Offset: 0x23D0594
     static void ShutdownInternal();
     // static System.Boolean IsHmdPresent()
-    // Offset: 0x23CA2DC
+    // Offset: 0x23D0604
     static bool IsHmdPresent();
     // static System.Boolean IsRuntimeInstalled()
-    // Offset: 0x23CA358
+    // Offset: 0x23D0680
     static bool IsRuntimeInstalled();
     // static System.IntPtr GetStringForHmdError(Valve.VR.EVRInitError error)
-    // Offset: 0x23CA3D4
+    // Offset: 0x23D06FC
     static System::IntPtr GetStringForHmdError(Valve::VR::EVRInitError error);
     // static System.IntPtr GetGenericInterface(in System.String pchInterfaceVersion, ref Valve.VR.EVRInitError peError)
-    // Offset: 0x23C99B4
+    // Offset: 0x23CFCDC
     static System::IntPtr GetGenericInterface(ByRef<::Il2CppString*> pchInterfaceVersion, ByRef<Valve::VR::EVRInitError> peError);
     // static System.Boolean IsInterfaceVersionValid(in System.String pchInterfaceVersion)
-    // Offset: 0x23CA454
+    // Offset: 0x23D077C
     static bool IsInterfaceVersionValid(ByRef<::Il2CppString*> pchInterfaceVersion);
     // static System.UInt32 GetInitToken()
-    // Offset: 0x23CA4F0
+    // Offset: 0x23D0818
     static uint GetInitToken();
     // public System.Void .ctor()
-    // Offset: 0x23CA564
+    // Offset: 0x23D088C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

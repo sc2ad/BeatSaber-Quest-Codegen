@@ -11,6 +11,8 @@
 #include "GlobalNamespace/ILobbyStateDataModel.hpp"
 // Including type: GameplayServerMode
 #include "GlobalNamespace/GameplayServerMode.hpp"
+// Including type: DiscoveryPolicy
+#include "GlobalNamespace/DiscoveryPolicy.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -53,14 +55,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LobbyStateDataModel : public ::Il2CppObject/*, public System::IDisposable, public GlobalNamespace::ILobbyStateDataModel*/ {
     public:
-    // [InjectAttribute] Offset: 0xE349E8
+    // [InjectAttribute] Offset: 0xE3A968
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE349F8
+    // [InjectAttribute] Offset: 0xE3A978
     // private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
     // Size: 0x8
     // Offset: 0x18
@@ -85,8 +87,14 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayServerMode gameServerMode;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayServerMode) == 0x4);
-    // Padding between fields: gameServerMode and: playerConnectedEvent
-    char __padding4[0x4] = {};
+    // private DiscoveryPolicy _discoveryPolicy
+    // Size: 0x1
+    // Offset: 0x34
+    GlobalNamespace::DiscoveryPolicy discoveryPolicy;
+    // Field size check
+    static_assert(sizeof(GlobalNamespace::DiscoveryPolicy) == 0x1);
+    // Padding between fields: discoveryPolicy and: playerConnectedEvent
+    char __padding5[0x3] = {};
     // private System.Action`1<IConnectedPlayer> playerConnectedEvent
     // Size: 0x8
     // Offset: 0x38
@@ -100,7 +108,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::IConnectedPlayer*>*) == 0x8);
     // Creating value type constructor for type: LobbyStateDataModel
-    LobbyStateDataModel(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, GlobalNamespace::IUnifiedNetworkPlayerModel* unifiedNetworkPlayerModel_ = {}, System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* connectedPlayers_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::IConnectedPlayer*>* connectedPlayersById_ = {}, GlobalNamespace::GameplayServerMode gameServerMode_ = {}, System::Action_1<GlobalNamespace::IConnectedPlayer*>* playerConnectedEvent_ = {}, System::Action_1<GlobalNamespace::IConnectedPlayer*>* playerDisconnectedEvent_ = {}) noexcept : multiplayerSessionManager{multiplayerSessionManager_}, unifiedNetworkPlayerModel{unifiedNetworkPlayerModel_}, connectedPlayers{connectedPlayers_}, connectedPlayersById{connectedPlayersById_}, gameServerMode{gameServerMode_}, playerConnectedEvent{playerConnectedEvent_}, playerDisconnectedEvent{playerDisconnectedEvent_} {}
+    LobbyStateDataModel(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, GlobalNamespace::IUnifiedNetworkPlayerModel* unifiedNetworkPlayerModel_ = {}, System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* connectedPlayers_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::IConnectedPlayer*>* connectedPlayersById_ = {}, GlobalNamespace::GameplayServerMode gameServerMode_ = {}, GlobalNamespace::DiscoveryPolicy discoveryPolicy_ = {}, System::Action_1<GlobalNamespace::IConnectedPlayer*>* playerConnectedEvent_ = {}, System::Action_1<GlobalNamespace::IConnectedPlayer*>* playerDisconnectedEvent_ = {}) noexcept : multiplayerSessionManager{multiplayerSessionManager_}, unifiedNetworkPlayerModel{unifiedNetworkPlayerModel_}, connectedPlayers{connectedPlayers_}, connectedPlayersById{connectedPlayersById_}, gameServerMode{gameServerMode_}, discoveryPolicy{discoveryPolicy_}, playerConnectedEvent{playerConnectedEvent_}, playerDisconnectedEvent{playerDisconnectedEvent_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -119,60 +127,65 @@ namespace GlobalNamespace {
     System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::IConnectedPlayer*>*& dyn__connectedPlayersById();
     // Get instance field reference: private GameplayServerMode _gameServerMode
     GlobalNamespace::GameplayServerMode& dyn__gameServerMode();
+    // Get instance field reference: private DiscoveryPolicy _discoveryPolicy
+    GlobalNamespace::DiscoveryPolicy& dyn__discoveryPolicy();
     // Get instance field reference: private System.Action`1<IConnectedPlayer> playerConnectedEvent
     System::Action_1<GlobalNamespace::IConnectedPlayer*>*& dyn_playerConnectedEvent();
     // Get instance field reference: private System.Action`1<IConnectedPlayer> playerDisconnectedEvent
     System::Action_1<GlobalNamespace::IConnectedPlayer*>*& dyn_playerDisconnectedEvent();
     // public System.Boolean get_isConnected()
-    // Offset: 0x120E100
+    // Offset: 0x12149AC
     bool get_isConnected();
     // public IConnectedPlayer get_localPlayer()
-    // Offset: 0x120E1B4
+    // Offset: 0x1214A60
     GlobalNamespace::IConnectedPlayer* get_localPlayer();
     // public System.Collections.Generic.List`1<IConnectedPlayer> get_connectedPlayers()
-    // Offset: 0x120E264
+    // Offset: 0x1214B10
     System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* get_connectedPlayers();
     // public System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> get_rawConnectedPlayers()
-    // Offset: 0x120E26C
+    // Offset: 0x1214B18
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* get_rawConnectedPlayers();
     // public GameplayServerMode get_gameServerMode()
-    // Offset: 0x120E320
+    // Offset: 0x1214BCC
     GlobalNamespace::GameplayServerMode get_gameServerMode();
+    // public DiscoveryPolicy get_discoveryPolicy()
+    // Offset: 0x1214BD4
+    GlobalNamespace::DiscoveryPolicy get_discoveryPolicy();
     // public System.Int32 get_maxPartySize()
-    // Offset: 0x120E328
+    // Offset: 0x1214BDC
     int get_maxPartySize();
     // public System.Void add_playerConnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x120DE70
+    // Offset: 0x121471C
     void add_playerConnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void remove_playerConnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x120DF14
+    // Offset: 0x12147C0
     void remove_playerConnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void add_playerDisconnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x120DFB8
+    // Offset: 0x1214864
     void add_playerDisconnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void remove_playerDisconnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x120E05C
+    // Offset: 0x1214908
     void remove_playerDisconnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void Activate()
-    // Offset: 0x120E3F0
+    // Offset: 0x1214CA4
     void Activate();
     // public System.Void Deactivate()
-    // Offset: 0x120EA60
+    // Offset: 0x121538C
     void Deactivate();
     // public System.Void Dispose()
-    // Offset: 0x120EBF0
+    // Offset: 0x121551C
     void Dispose();
     // public IConnectedPlayer GetPlayerById(System.String userId)
-    // Offset: 0x120EBF4
+    // Offset: 0x1215520
     GlobalNamespace::IConnectedPlayer* GetPlayerById(::Il2CppString* userId);
     // private System.Void HandleMultiplayerSessionManagerPlayerConnected(IConnectedPlayer player)
-    // Offset: 0x120EC84
+    // Offset: 0x12155B0
     void HandleMultiplayerSessionManagerPlayerConnected(GlobalNamespace::IConnectedPlayer* player);
     // private System.Void HandleMultiplayerSessionManagerPlayerDisconnected(IConnectedPlayer player)
-    // Offset: 0x120EDAC
+    // Offset: 0x12156D8
     void HandleMultiplayerSessionManagerPlayerDisconnected(GlobalNamespace::IConnectedPlayer* player);
     // public System.Void .ctor()
-    // Offset: 0x120EED0
+    // Offset: 0x12157FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -225,6 +238,14 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayServerMode (GlobalNamespace::LobbyStateDataModel::*)()>(&GlobalNamespace::LobbyStateDataModel::get_gameServerMode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyStateDataModel*), "get_gameServerMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::LobbyStateDataModel::get_discoveryPolicy
+// Il2CppName: get_discoveryPolicy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::DiscoveryPolicy (GlobalNamespace::LobbyStateDataModel::*)()>(&GlobalNamespace::LobbyStateDataModel::get_discoveryPolicy)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyStateDataModel*), "get_discoveryPolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LobbyStateDataModel::get_maxPartySize

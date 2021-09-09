@@ -36,10 +36,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean value
     bool& dyn_value();
     // System.Void <get_canShowInGameMenu>b__0(System.Boolean newValue)
-    // Offset: 0x10695F0
+    // Offset: 0x1085CCC
     void $get_canShowInGameMenu$b__0(bool newValue);
     // public System.Void .ctor()
-    // Offset: 0x10688C8
+    // Offset: 0x1084FA4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

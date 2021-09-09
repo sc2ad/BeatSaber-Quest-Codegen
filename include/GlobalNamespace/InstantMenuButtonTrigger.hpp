@@ -34,7 +34,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class InstantMenuButtonTrigger : public ::Il2CppObject/*, public Zenject::ITickable, public GlobalNamespace::IMenuButtonTrigger*/ {
     public:
-    // [InjectAttribute] Offset: 0xE38F54
+    // [InjectAttribute] Offset: 0xE3EED4
     // private readonly VRControllersInputManager _vrControllersInputManager
     // Size: 0x8
     // Offset: 0x10
@@ -62,16 +62,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action menuButtonTriggeredEvent
     System::Action*& dyn_menuButtonTriggeredEvent();
     // public System.Void add_menuButtonTriggeredEvent(System.Action value)
-    // Offset: 0x1145C04
+    // Offset: 0x11891D4
     void add_menuButtonTriggeredEvent(System::Action* value);
     // public System.Void remove_menuButtonTriggeredEvent(System.Action value)
-    // Offset: 0x1145CA8
+    // Offset: 0x1189278
     void remove_menuButtonTriggeredEvent(System::Action* value);
     // public System.Void Tick()
-    // Offset: 0x1145D4C
+    // Offset: 0x118931C
     void Tick();
     // public System.Void .ctor()
-    // Offset: 0x1145D98
+    // Offset: 0x1189368
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -107,29 +107,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<ObstacleController,MirroredObstacleController> _obstacleControllersToMirroredObstacleControllers
     System::Collections::Generic::Dictionary_2<GlobalNamespace::ObstacleController*, GlobalNamespace::MirroredObstacleController*>*& dyn__obstacleControllersToMirroredObstacleControllers();
     // private System.Void .ctor(BeatmapObjectManager beatmapObjectManager, MirroredCubeNoteController/Pool mirroredCubeNotePool, MirroredBombNoteController/Pool mirroredBombNotePool, MirroredObstacleController/Pool mirroredObstaclePool)
-    // Offset: 0x10E7910
+    // Offset: 0x113B6A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MirroredBeatmapObjectManager* New_ctor(GlobalNamespace::BeatmapObjectManager* beatmapObjectManager, GlobalNamespace::MirroredCubeNoteController::Pool* mirroredCubeNotePool, GlobalNamespace::MirroredBombNoteController::Pool* mirroredBombNotePool, GlobalNamespace::MirroredObstacleController::Pool* mirroredObstaclePool) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MirroredBeatmapObjectManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MirroredBeatmapObjectManager*, creationType>(beatmapObjectManager, mirroredCubeNotePool, mirroredBombNotePool, mirroredObstaclePool)));
     }
     // private System.Void HandleNoteWasSpawned(NoteController noteController)
-    // Offset: 0x10E7DF4
+    // Offset: 0x113BB84
     void HandleNoteWasSpawned(GlobalNamespace::NoteController* noteController);
     // private System.Void HandleNoteWasDespawned(NoteController noteController)
-    // Offset: 0x10E7F1C
+    // Offset: 0x113BCAC
     void HandleNoteWasDespawned(GlobalNamespace::NoteController* noteController);
     // private System.Void HandleObstacleWasSpawned(ObstacleController obstacleController)
-    // Offset: 0x10E8050
+    // Offset: 0x113BDE0
     void HandleObstacleWasSpawned(GlobalNamespace::ObstacleController* obstacleController);
     // private System.Void HandleObstacleWasDespawned(ObstacleController obstacleController)
-    // Offset: 0x10E81DC
+    // Offset: 0x113BF6C
     void HandleObstacleWasDespawned(GlobalNamespace::ObstacleController* obstacleController);
     // private System.Void HandleDidHideAllBeatmapObjects(System.Boolean hide)
-    // Offset: 0x10E828C
+    // Offset: 0x113C01C
     void HandleDidHideAllBeatmapObjects(bool hide);
     // protected override System.Void Finalize()
-    // Offset: 0x10E7BD8
+    // Offset: 0x113B968
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

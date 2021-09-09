@@ -26,10 +26,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BeatmapDataMirrorTransform
     BeatmapDataMirrorTransform() noexcept {}
     // static public IReadonlyBeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData)
-    // Offset: 0x11F0EF0
+    // Offset: 0x11E6FE0
     static GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(GlobalNamespace::IReadonlyBeatmapData* beatmapData);
     // static private System.Void MirrorTransformBeatmapObject(BeatmapObjectData beatmapObjectData, System.Int32 beatmapLineCount)
-    // Offset: 0x11F18E0
+    // Offset: 0x11E79D0
     static void MirrorTransformBeatmapObject(GlobalNamespace::BeatmapObjectData* beatmapObjectData, int beatmapLineCount);
   }; // BeatmapDataMirrorTransform
   #pragma pack(pop)

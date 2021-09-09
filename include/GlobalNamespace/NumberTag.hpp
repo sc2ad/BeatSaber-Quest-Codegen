@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 number
     int& dyn_number();
     // public System.Void .ctor()
-    // Offset: 0x1266684
+    // Offset: 0x126B04C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

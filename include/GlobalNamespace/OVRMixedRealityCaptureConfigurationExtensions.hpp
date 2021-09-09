@@ -25,10 +25,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRMixedRealityCaptureConfigurationExtensions
     OVRMixedRealityCaptureConfigurationExtensions() noexcept {}
     // static public System.Void ApplyTo(OVRMixedRealityCaptureConfiguration dest, OVRMixedRealityCaptureConfiguration source)
-    // Offset: 0x1333428
+    // Offset: 0x134C0F8
     static void ApplyTo(GlobalNamespace::OVRMixedRealityCaptureConfiguration* dest, GlobalNamespace::OVRMixedRealityCaptureConfiguration* source);
     // static public System.Void ReadFrom(OVRMixedRealityCaptureConfiguration dest, OVRMixedRealityCaptureConfiguration source)
-    // Offset: 0x133342C
+    // Offset: 0x134C0FC
     static void ReadFrom(GlobalNamespace::OVRMixedRealityCaptureConfiguration* dest, GlobalNamespace::OVRMixedRealityCaptureConfiguration* source);
   }; // OVRMixedRealityCaptureConfigurationExtensions
   #pragma pack(pop)

@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: IPAPluginsDirDeleter
     IPAPluginsDirDeleter() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1145224
+    // Offset: 0x1188780
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

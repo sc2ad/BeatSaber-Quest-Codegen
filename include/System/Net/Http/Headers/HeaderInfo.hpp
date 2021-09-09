@@ -88,16 +88,16 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: private System.Func`2<System.Object,System.String> <CustomToString>k__BackingField
     System::Func_2<::Il2CppObject*, ::Il2CppString*>*& dyn_$CustomToString$k__BackingField();
     // public System.Func`2<System.Object,System.String> get_CustomToString()
-    // Offset: 0x159FC6C
+    // Offset: 0x15AA4A0
     System::Func_2<::Il2CppObject*, ::Il2CppString*>* get_CustomToString();
     // private System.Void set_CustomToString(System.Func`2<System.Object,System.String> value)
-    // Offset: 0x159FC74
+    // Offset: 0x15AA4A8
     void set_CustomToString(System::Func_2<::Il2CppObject*, ::Il2CppString*>* value);
     // public System.String get_Separator()
-    // Offset: 0x159FC7C
+    // Offset: 0x15AA4B0
     ::Il2CppString* get_Separator();
     // protected System.Void .ctor(System.String name, System.Net.Http.Headers.HttpHeaderKind headerKind)
-    // Offset: 0x159FC20
+    // Offset: 0x15AA454
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HeaderInfo* New_ctor(::Il2CppString* name, System::Net::Http::Headers::HttpHeaderKind headerKind) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HeaderInfo::.ctor");
@@ -122,7 +122,7 @@ namespace System::Net::Http::Headers {
       return ::il2cpp_utils::RunMethodThrow<System::Net::Http::Headers::HeaderInfo*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, name, elementParser, headerKind, minimalCount, separator);
     }
     // public System.Object CreateCollection(System.Net.Http.Headers.HttpHeaders headers)
-    // Offset: 0x159FC5C
+    // Offset: 0x15AA490
     ::Il2CppObject* CreateCollection(System::Net::Http::Headers::HttpHeaders* headers);
     // public System.Void AddToCollection(System.Object collection, System.Object value)
     // Offset: 0xFFFFFFFF

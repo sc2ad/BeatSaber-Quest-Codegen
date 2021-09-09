@@ -66,21 +66,21 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::BeatmapObjectCallbackController::InitData
     class InitData;
-    // [InjectAttribute] Offset: 0xE35C08
+    // [InjectAttribute] Offset: 0xE3BB88
     // private readonly BeatmapObjectCallbackController/InitData _initData
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::BeatmapObjectCallbackController::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectCallbackController::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0xE35C18
+    // [InjectAttribute] Offset: 0xE3BB98
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IAudioTimeSource* audioTimeSource;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [InjectAttribute] Offset: 0xE35C28
+    // [InjectAttribute] Offset: 0xE3BBA8
     // private readonly EnvironmentKeywords _environmentKeywords
     // Size: 0x8
     // Offset: 0x28
@@ -174,52 +174,52 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<BeatmapEventType> _validEvents
     System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>*& dyn__validEvents();
     // public System.Boolean get_isPaused()
-    // Offset: 0x10C64D0
+    // Offset: 0x10CD808
     bool get_isPaused();
     // public System.Void add_beatmapEventDidTriggerEvent(System.Action`1<BeatmapEventData> value)
-    // Offset: 0x10C6240
+    // Offset: 0x10CD578
     void add_beatmapEventDidTriggerEvent(System::Action_1<GlobalNamespace::BeatmapEventData*>* value);
     // public System.Void remove_beatmapEventDidTriggerEvent(System.Action`1<BeatmapEventData> value)
-    // Offset: 0x10C62E4
+    // Offset: 0x10CD61C
     void remove_beatmapEventDidTriggerEvent(System::Action_1<GlobalNamespace::BeatmapEventData*>* value);
     // public System.Void add_callbacksForThisFrameWereProcessedEvent(System.Action value)
-    // Offset: 0x10C6388
+    // Offset: 0x10CD6C0
     void add_callbacksForThisFrameWereProcessedEvent(System::Action* value);
     // public System.Void remove_callbacksForThisFrameWereProcessedEvent(System.Action value)
-    // Offset: 0x10C642C
+    // Offset: 0x10CD764
     void remove_callbacksForThisFrameWereProcessedEvent(System::Action* value);
     // protected System.Void Start()
-    // Offset: 0x10C64F0
+    // Offset: 0x10CD828
     void Start();
     // protected System.Void LateUpdate()
-    // Offset: 0x10C6CBC
+    // Offset: 0x10CDFF4
     void LateUpdate();
     // public BeatmapObjectCallbackData AddBeatmapObjectCallback(BeatmapObjectCallback callback, System.Single aheadTime)
-    // Offset: 0x10C7B0C
+    // Offset: 0x10CEE44
     GlobalNamespace::BeatmapObjectCallbackData* AddBeatmapObjectCallback(GlobalNamespace::BeatmapObjectCallback* callback, float aheadTime);
     // public System.Void RemoveBeatmapObjectCallback(BeatmapObjectCallbackData callbackData)
-    // Offset: 0x10C7D60
+    // Offset: 0x10CF098
     void RemoveBeatmapObjectCallback(GlobalNamespace::BeatmapObjectCallbackData* callbackData);
     // public BeatmapEventCallbackData AddBeatmapEventCallback(BeatmapEventCallback callback, System.Single aheadTime)
-    // Offset: 0x10C7DD4
+    // Offset: 0x10CF10C
     GlobalNamespace::BeatmapEventCallbackData* AddBeatmapEventCallback(GlobalNamespace::BeatmapEventCallback* callback, float aheadTime);
     // public System.Void RemoveBeatmapEventCallback(BeatmapEventCallbackData callbackData)
-    // Offset: 0x10C7E74
+    // Offset: 0x10CF1AC
     void RemoveBeatmapEventCallback(GlobalNamespace::BeatmapEventCallbackData* callbackData);
     // public System.Void SendBeatmapEventDidTriggerEvent(BeatmapEventData beatmapEventData)
-    // Offset: 0x10C7A70
+    // Offset: 0x10CEDA8
     void SendBeatmapEventDidTriggerEvent(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void SetNewBeatmapData(IReadonlyBeatmapData beatmapData)
-    // Offset: 0x10C6520
+    // Offset: 0x10CD858
     void SetNewBeatmapData(GlobalNamespace::IReadonlyBeatmapData* beatmapData);
     // public System.Void Pause()
-    // Offset: 0x10C7EE8
+    // Offset: 0x10CF220
     void Pause();
     // public System.Void Resume()
-    // Offset: 0x10C7EF4
+    // Offset: 0x10CF22C
     void Resume();
     // public System.Void .ctor()
-    // Offset: 0x10C7F00
+    // Offset: 0x10CF238
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

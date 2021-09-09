@@ -44,13 +44,13 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Int32 value
     int& dyn_value();
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0x16142F4
+    // Offset: 0x161CB28
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0x1614354
+    // Offset: 0x161CB88
     void Dump();
     // System.Void .ctor()
-    // Offset: 0x16142EC
+    // Offset: 0x161CB20
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

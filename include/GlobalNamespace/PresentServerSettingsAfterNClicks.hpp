@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: numberOfClicksRequired and: settingsFlowCoordinator
     char __padding2[0x4] = {};
-    // [InjectAttribute] Offset: 0xE40D84
+    // [InjectAttribute] Offset: 0xE46D04
     // private readonly SettingsFlowCoordinator _settingsFlowCoordinator
     // Size: 0x8
     // Offset: 0x30
@@ -97,16 +97,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly HMUI.ButtonBinder _buttonBinder
     HMUI::ButtonBinder*& dyn__buttonBinder();
     // protected System.Void OnEnable()
-    // Offset: 0x113F034
+    // Offset: 0x11FE758
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x113F0C8
+    // Offset: 0x11FE7EC
     void OnDisable();
     // private System.Void <OnEnable>b__6_0()
-    // Offset: 0x113F154
+    // Offset: 0x11FE878
     void $OnEnable$b__6_0();
     // public System.Void .ctor()
-    // Offset: 0x113F0E4
+    // Offset: 0x11FE808
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

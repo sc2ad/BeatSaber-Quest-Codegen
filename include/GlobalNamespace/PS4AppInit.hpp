@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PS4ActivePublisherSKUSettingsSO* activePublisherSKUSettingsSO;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PS4ActivePublisherSKUSettingsSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE31810
+    // [InjectAttribute] Offset: 0xE37780
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x68
@@ -89,7 +89,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private GameScenesManager _gameScenesManager
     GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
     // public System.Void .ctor()
-    // Offset: 0x102D400
+    // Offset: 0x1034C3C
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     // Base method: System.Void MonoInstaller::.ctor()
@@ -105,22 +105,22 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PS4AppInit*, creationType>()));
     }
     // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0x102D224
+    // Offset: 0x1034A60
     // Implemented from: AppInit
     // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
     void AppStartAndMultiSceneEditorSetup();
     // protected override System.Void RepeatableSetup()
-    // Offset: 0x102D290
+    // Offset: 0x1034ACC
     // Implemented from: AppInit
     // Base method: System.Void AppInit::RepeatableSetup()
     void RepeatableSetup();
     // protected override System.Void TransitionToNextScene()
-    // Offset: 0x102D2DC
+    // Offset: 0x1034B18
     // Implemented from: AppInit
     // Base method: System.Void AppInit::TransitionToNextScene()
     void TransitionToNextScene();
     // public override System.Void InstallBindings()
-    // Offset: 0x102D318
+    // Offset: 0x1034B54
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

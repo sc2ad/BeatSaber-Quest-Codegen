@@ -62,15 +62,15 @@ namespace GlobalNamespace {
     class Pool;
     // Nested type: GlobalNamespace::FireworkItemController::$FireCoroutine$d__29
     class $FireCoroutine$d__29;
-    // [HeaderAttribute] Offset: 0xE37054
-    // [NullAllowed] Offset: 0xE37054
+    // [HeaderAttribute] Offset: 0xE3CFD4
+    // [NullAllowed] Offset: 0xE3CFD4
     // private FireworkItemController/FireworkItemParticleSystem[] _particleSystems
     // Size: 0x8
     // Offset: 0x18
     ::Array<GlobalNamespace::FireworkItemController::FireworkItemParticleSystem*>* particleSystems;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::FireworkItemController::FireworkItemParticleSystem*>*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE370B0
+    // [HeaderAttribute] Offset: 0xE3D030
     // private TubeBloomPrePassLight[] _lights
     // Size: 0x8
     // Offset: 0x20
@@ -83,7 +83,7 @@ namespace GlobalNamespace {
     UnityEngine::AudioSource* audioSource;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioSource*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE3710C
+    // [SpaceAttribute] Offset: 0xE3D08C
     // private System.Single _lightFlashDuration
     // Size: 0x4
     // Offset: 0x30
@@ -104,7 +104,7 @@ namespace GlobalNamespace {
     float lightIntensityMultiplier;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0xE37164
+    // [HeaderAttribute] Offset: 0xE3D0E4
     // private System.Boolean _randomizeColor
     // Size: 0x1
     // Offset: 0x44
@@ -113,21 +113,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: randomizeColor and: lightsColor
     char __padding6[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xE371B0
+    // [DrawIfAttribute] Offset: 0xE3D130
     // private UnityEngine.Color _lightsColor
     // Size: 0x10
     // Offset: 0x48
     UnityEngine::Color lightsColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // [DrawIfAttribute] Offset: 0xE37254
+    // [DrawIfAttribute] Offset: 0xE3D1D4
     // private UnityEngine.Gradient _lightsColorGradient
     // Size: 0x8
     // Offset: 0x58
     UnityEngine::Gradient* lightsColorGradient;
     // Field size check
     static_assert(sizeof(UnityEngine::Gradient*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE372FC
+    // [SpaceAttribute] Offset: 0xE3D27C
     // private System.Boolean _randomizeSpeed
     // Size: 0x1
     // Offset: 0x60
@@ -136,14 +136,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: randomizeSpeed and: minSpeedMultiplier
     char __padding9[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xE37334
+    // [DrawIfAttribute] Offset: 0xE3D2B4
     // private System.Single _minSpeedMultiplier
     // Size: 0x4
     // Offset: 0x64
     float minSpeedMultiplier;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0xE373DC
+    // [DrawIfAttribute] Offset: 0xE3D35C
     // private System.Single _maxSpeedMultiplier
     // Size: 0x4
     // Offset: 0x68
@@ -231,40 +231,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<FireworkItemController> didFinishEvent
     System::Action_1<GlobalNamespace::FireworkItemController*>*& dyn_didFinishEvent();
     // public System.Void set_directionalLight(DirectionalLight value)
-    // Offset: 0x10581C8
+    // Offset: 0x105E188
     void set_directionalLight(GlobalNamespace::DirectionalLight* value);
     // public System.Void set_directionalLightIntensity(System.Single value)
-    // Offset: 0x10581D0
+    // Offset: 0x105E190
     void set_directionalLightIntensity(float value);
     // public System.Void add_didFinishEvent(System.Action`1<FireworkItemController> value)
-    // Offset: 0x10581D8
+    // Offset: 0x105E198
     void add_didFinishEvent(System::Action_1<GlobalNamespace::FireworkItemController*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<FireworkItemController> value)
-    // Offset: 0x105827C
+    // Offset: 0x105E23C
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::FireworkItemController*>* value);
     // protected System.Void Awake()
-    // Offset: 0x1058320
+    // Offset: 0x105E2E0
     void Awake();
     // protected System.Void OnDisable()
-    // Offset: 0x10583A0
+    // Offset: 0x105E360
     void OnDisable();
     // public System.Void Fire()
-    // Offset: 0x1058560
+    // Offset: 0x105E520
     void Fire();
     // private System.Collections.IEnumerator FireCoroutine()
-    // Offset: 0x105858C
+    // Offset: 0x105E54C
     System::Collections::IEnumerator* FireCoroutine();
     // private System.Void SetLightsColor(System.Single intensity)
-    // Offset: 0x105842C
+    // Offset: 0x105E3EC
     void SetLightsColor(float intensity);
     // private System.Void PlayExplosionSound()
-    // Offset: 0x1058628
+    // Offset: 0x105E5E8
     void PlayExplosionSound();
     // private System.Void InitializeParticleSystem()
-    // Offset: 0x1058714
+    // Offset: 0x105E6D4
     void InitializeParticleSystem();
     // public System.Void .ctor()
-    // Offset: 0x1058A20
+    // Offset: 0x105E9E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

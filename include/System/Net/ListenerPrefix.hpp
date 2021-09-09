@@ -80,42 +80,42 @@ namespace System::Net {
     // Get instance field reference: public System.Net.HttpListener Listener
     System::Net::HttpListener*& dyn_Listener();
     // public System.Boolean get_Secure()
-    // Offset: 0x167DFCC
+    // Offset: 0x1684800
     bool get_Secure();
     // public System.String get_Host()
-    // Offset: 0x167DFD4
+    // Offset: 0x1684808
     ::Il2CppString* get_Host();
     // public System.Int32 get_Port()
-    // Offset: 0x167DFDC
+    // Offset: 0x1684810
     int get_Port();
     // public System.String get_Path()
-    // Offset: 0x167DFE4
+    // Offset: 0x1684818
     ::Il2CppString* get_Path();
     // public System.Void .ctor(System.String prefix)
-    // Offset: 0x167DCB8
+    // Offset: 0x16844EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListenerPrefix* New_ctor(::Il2CppString* prefix) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ListenerPrefix::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListenerPrefix*, creationType>(prefix)));
     }
     // private System.Void Parse(System.String uri)
-    // Offset: 0x167DCEC
+    // Offset: 0x1684520
     void Parse(::Il2CppString* uri);
     // static public System.Void CheckUri(System.String uri)
-    // Offset: 0x1670948
+    // Offset: 0x167717C
     static void CheckUri(::Il2CppString* uri);
     // public override System.String ToString()
-    // Offset: 0x167DFC4
+    // Offset: 0x16847F8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object o)
-    // Offset: 0x167DFEC
+    // Offset: 0x1684820
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x167E080
+    // Offset: 0x16848B4
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

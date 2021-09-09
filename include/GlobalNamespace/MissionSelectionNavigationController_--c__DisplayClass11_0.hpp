@@ -58,13 +58,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Action <>9__1
     System::Action*& dyn_$$9__1();
     // System.Void <PresentMissionClearedIfNeeded>b__0()
-    // Offset: 0x11DA388
+    // Offset: 0x1147548
     void $PresentMissionClearedIfNeeded$b__0();
     // System.Void <PresentMissionClearedIfNeeded>b__1()
-    // Offset: 0x11DA440
+    // Offset: 0x1147600
     void $PresentMissionClearedIfNeeded$b__1();
     // public System.Void .ctor()
-    // Offset: 0x11DA378
+    // Offset: 0x1147538
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

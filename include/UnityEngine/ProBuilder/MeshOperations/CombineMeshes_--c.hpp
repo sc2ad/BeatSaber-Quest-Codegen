@@ -45,13 +45,13 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Int32> <>9__5_0
     static void _set_$$9__5_0(System::Func_2<UnityEngine::ProBuilder::Face*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x154E7D4
+    // Offset: 0x1557F6C
     static void _cctor();
     // System.Int32 <SplitByMaxVertexCount>b__5_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x154E840
+    // Offset: 0x1557FD8
     int $SplitByMaxVertexCount$b__5_0(UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0x154E838
+    // Offset: 0x1557FD0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

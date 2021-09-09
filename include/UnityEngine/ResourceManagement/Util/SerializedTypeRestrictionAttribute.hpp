@@ -42,7 +42,7 @@ namespace UnityEngine::ResourceManagement::Util {
     // Get instance field reference: public System.Type type
     System::Type*& dyn_type();
     // public System.Void .ctor()
-    // Offset: 0x19F4C90
+    // Offset: 0x19FA4C4
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

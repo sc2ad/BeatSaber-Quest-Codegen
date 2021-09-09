@@ -39,20 +39,20 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GameplayModifierBoolGetter
     GameplayModifierBoolGetter() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x110E76C
+    // Offset: 0x1102408
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayModifiersModelSO::GameplayModifierBoolGetter* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplayModifiersModelSO::GameplayModifierBoolGetter*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(GameplayModifiers gameplayModifiers)
-    // Offset: 0x110EB38
+    // Offset: 0x11027D4
     bool Invoke(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.IAsyncResult BeginInvoke(GameplayModifiers gameplayModifiers, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x110F330
+    // Offset: 0x1102FCC
     System::IAsyncResult* BeginInvoke(GlobalNamespace::GameplayModifiers* gameplayModifiers, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x110F354
+    // Offset: 0x1102FF0
     bool EndInvoke(System::IAsyncResult* result);
   }; // GameplayModifiersModelSO/GameplayModifierBoolGetter
   #pragma pack(pop)

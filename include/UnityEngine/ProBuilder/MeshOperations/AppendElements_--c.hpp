@@ -51,16 +51,16 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Vertex,UnityEngine.Vector3> <>9__14_1
     static void _set_$$9__14_1(System::Func_2<UnityEngine::ProBuilder::Vertex*, UnityEngine::Vector3>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1548BD0
+    // Offset: 0x1552368
     static void _cctor();
     // System.Int32 <CreateShapeFromPolygon>b__7_0(UnityEngine.Vector3[] arr)
-    // Offset: 0x1548C3C
+    // Offset: 0x15523D4
     int $CreateShapeFromPolygon$b__7_0(::Array<UnityEngine::Vector3>* arr);
     // UnityEngine.Vector3 <AppendVerticesToEdge>b__14_1(UnityEngine.ProBuilder.Vertex x)
-    // Offset: 0x1548C54
+    // Offset: 0x15523EC
     UnityEngine::Vector3 $AppendVerticesToEdge$b__14_1(UnityEngine::ProBuilder::Vertex* x);
     // public System.Void .ctor()
-    // Offset: 0x1548C34
+    // Offset: 0x15523CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

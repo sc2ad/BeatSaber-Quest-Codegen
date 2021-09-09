@@ -45,13 +45,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _intensity
     float& dyn__intensity();
     // public System.Single get_intensity()
-    // Offset: 0x1E1F858
+    // Offset: 0x1E1F51C
     float get_intensity();
     // public System.Void set_intensity(System.Single value)
-    // Offset: 0x1E1F860
+    // Offset: 0x1E1F524
     void set_intensity(float value);
     // public System.Void .ctor()
-    // Offset: 0x1E1F880
+    // Offset: 0x1E1F544
     // Implemented from: LightWithIds/LightData
     // Base method: System.Void LightData::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -61,7 +61,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeLightWithIds::LightIntensitiesData*, creationType>()));
     }
     // protected override UnityEngine.Color ProcessColor(UnityEngine.Color newColor)
-    // Offset: 0x1E1F868
+    // Offset: 0x1E1F52C
     // Implemented from: LightWithIds/LightData
     // Base method: UnityEngine.Color LightData::ProcessColor(UnityEngine.Color newColor)
     UnityEngine::Color ProcessColor(UnityEngine::Color newColor);

@@ -29,13 +29,13 @@ namespace GlobalNamespace {
       return *reinterpret_cast<UnityEngine::UI::ILayoutController*>(this);
     }
     // public System.Void SetLayoutHorizontal()
-    // Offset: 0x108D11C
+    // Offset: 0x1069EA4
     void SetLayoutHorizontal();
     // public System.Void SetLayoutVertical()
-    // Offset: 0x108D220
+    // Offset: 0x1069FA8
     void SetLayoutVertical();
     // public System.Void .ctor()
-    // Offset: 0x108D224
+    // Offset: 0x1069FAC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

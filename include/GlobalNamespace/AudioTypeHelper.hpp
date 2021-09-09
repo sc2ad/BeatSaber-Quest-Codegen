@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: AudioTypeHelper
     AudioTypeHelper() noexcept {}
     // static public UnityEngine.AudioType GetAudioTypeFromPath(System.String path)
-    // Offset: 0x23F0828
+    // Offset: 0x23ED574
     static UnityEngine::AudioType GetAudioTypeFromPath(::Il2CppString* path);
   }; // AudioTypeHelper
   #pragma pack(pop)

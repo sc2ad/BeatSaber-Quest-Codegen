@@ -33,13 +33,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _numberOfFrames
     int& dyn__numberOfFrames();
     // private System.Void Update()
-    // Offset: 0x126045C
+    // Offset: 0x1264E24
     void Update();
     // private System.Void OnDestroy()
-    // Offset: 0x126046C
+    // Offset: 0x1264E34
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x1260520
+    // Offset: 0x1264EE8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -42,14 +42,14 @@ namespace System::Runtime::Remoting::Messaging {
     // Get instance field reference: private System.Runtime.Remoting.Messaging.IllogicalCallContext m_ctx
     System::Runtime::Remoting::Messaging::IllogicalCallContext*& dyn_m_ctx();
     // public System.Boolean get_IsNull()
-    // Offset: 0x1A4C464
+    // Offset: 0x1A4FCA4
     bool get_IsNull();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IllogicalCallContext ctx)
-    // Offset: 0x1A4C45C
+    // Offset: 0x1A4FC9C
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Reader(System::Runtime::Remoting::Messaging::IllogicalCallContext* ctx)
     // public System.Object GetData(System.String name)
-    // Offset: 0x1A48CBC
+    // Offset: 0x1A4C4FC
     ::Il2CppObject* GetData(::Il2CppString* name);
   }; // System.Runtime.Remoting.Messaging.IllogicalCallContext/System.Runtime.Remoting.Messaging.Reader
   #pragma pack(pop)

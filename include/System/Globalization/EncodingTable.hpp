@@ -53,25 +53,25 @@ namespace System::Globalization {
     // Set static field: static private System.Collections.Hashtable hashByCodePage
     static void _set_hashByCodePage(System::Collections::Hashtable* value);
     // static private System.Void .cctor()
-    // Offset: 0x1A10664
+    // Offset: 0x1A13E98
     static void _cctor();
     // static private System.Int32 GetNumEncodingItems()
-    // Offset: 0x1A105D4
+    // Offset: 0x1A13E08
     static int GetNumEncodingItems();
     // static private System.Globalization.InternalEncodingDataItem ENC(System.String name, System.UInt16 cp)
-    // Offset: 0x1A10648
+    // Offset: 0x1A13E7C
     static System::Globalization::InternalEncodingDataItem ENC(::Il2CppString* name, uint16_t cp);
     // static private System.Globalization.InternalCodePageDataItem MapCodePageDataItem(System.UInt16 cp, System.UInt16 fcp, System.String names, System.UInt32 flags)
-    // Offset: 0x1A10650
+    // Offset: 0x1A13E84
     static System::Globalization::InternalCodePageDataItem MapCodePageDataItem(uint16_t cp, uint16_t fcp, ::Il2CppString* names, uint flags);
     // static private System.Int32 internalGetCodePageFromName(System.String name)
-    // Offset: 0x1A14714
+    // Offset: 0x1A17F48
     static int internalGetCodePageFromName(::Il2CppString* name);
     // static System.Int32 GetCodePageFromName(System.String name)
-    // Offset: 0x1A149B0
+    // Offset: 0x1A181E4
     static int GetCodePageFromName(::Il2CppString* name);
     // static System.Globalization.CodePageDataItem GetCodePageDataItem(System.Int32 codepage)
-    // Offset: 0x1A14B24
+    // Offset: 0x1A18358
     static System::Globalization::CodePageDataItem* GetCodePageDataItem(int codepage);
   }; // System.Globalization.EncodingTable
   #pragma pack(pop)

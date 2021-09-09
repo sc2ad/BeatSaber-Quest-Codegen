@@ -49,10 +49,10 @@ namespace System::Net {
     // Get instance field reference: public System.Net.HttpWebRequest <>4__this
     System::Net::HttpWebRequest*& dyn_$$4__this();
     // System.Void <BeginGetResponse>b__0(System.Net.SimpleAsyncResult inner)
-    // Offset: 0x167A254
+    // Offset: 0x1680A88
     void $BeginGetResponse$b__0(System::Net::SimpleAsyncResult* inner);
     // public System.Void .ctor()
-    // Offset: 0x16767B0
+    // Offset: 0x167CFE4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

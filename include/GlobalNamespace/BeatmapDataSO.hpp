@@ -92,22 +92,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDataLoader _beatmapDataLoader
     GlobalNamespace::BeatmapDataLoader*& dyn__beatmapDataLoader();
     // public BeatmapData get_beatmapData()
-    // Offset: 0x11F3178
+    // Offset: 0x11E9268
     GlobalNamespace::BeatmapData* get_beatmapData();
     // public System.Void set_beatmapData(BeatmapData value)
-    // Offset: 0x11F31EC
+    // Offset: 0x11E92DC
     void set_beatmapData(GlobalNamespace::BeatmapData* value);
     // public System.Void SetJsonData(System.String jsonData)
-    // Offset: 0x11F31F4
+    // Offset: 0x11E92E4
     void SetJsonData(::Il2CppString* jsonData);
     // public System.Void SetRequiredDataForLoad(System.Single beatsPerMinute, System.Single shuffle, System.Single shufflePeriod)
-    // Offset: 0x11F31FC
+    // Offset: 0x11E92EC
     void SetRequiredDataForLoad(float beatsPerMinute, float shuffle, float shufflePeriod);
     // public System.Void Load()
-    // Offset: 0x11F31A8
+    // Offset: 0x11E9298
     void Load();
     // public System.Void .ctor()
-    // Offset: 0x11F3210
+    // Offset: 0x11E9300
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

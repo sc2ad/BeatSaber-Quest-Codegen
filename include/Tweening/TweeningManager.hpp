@@ -83,25 +83,25 @@ namespace Tweening {
     // Get instance field reference: private readonly System.Collections.Generic.Queue`1<System.Collections.Generic.HashSet`1<Tweening.Tween>> _reusableTweenHashSets
     System::Collections::Generic::Queue_1<System::Collections::Generic::HashSet_1<Tweening::Tween*>*>*& dyn__reusableTweenHashSets();
     // protected System.Void Start()
-    // Offset: 0x109DB48
+    // Offset: 0x1293E70
     void Start();
     // protected System.Void Update()
-    // Offset: 0x109DBB4
+    // Offset: 0x1293EDC
     void Update();
     // public Tweening.Tween AddTween(Tweening.Tween tween, UnityEngine.Object owner)
-    // Offset: 0x109DD64
+    // Offset: 0x129408C
     Tweening::Tween* AddTween(Tweening::Tween* tween, UnityEngine::Object* owner);
     // public Tweening.Tween RestartTween(Tweening.Tween tween, UnityEngine.Object owner)
-    // Offset: 0x109DF68
+    // Offset: 0x1294290
     Tweening::Tween* RestartTween(Tweening::Tween* tween, UnityEngine::Object* owner);
     // public System.Void KillAllTweens(UnityEngine.Object owner)
-    // Offset: 0x109DFC4
+    // Offset: 0x12942EC
     void KillAllTweens(UnityEngine::Object* owner);
     // private System.Void AddTweenToOwnerDictionary(Tweening.Tween tween, UnityEngine.Object owner)
-    // Offset: 0x109DE34
+    // Offset: 0x129415C
     void AddTweenToOwnerDictionary(Tweening::Tween* tween, UnityEngine::Object* owner);
     // public System.Void .ctor()
-    // Offset: 0x109E138
+    // Offset: 0x1294460
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

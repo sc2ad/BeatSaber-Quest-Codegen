@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BloomPrePassBackgroundColorsGradient* bloomPrePassBackgroundColorsGradient;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomPrePassBackgroundColorsGradient*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE449B4
+    // [SpaceAttribute] Offset: 0xE4A9A8
     // private System.Single _skyColorIntensity
     // Size: 0x4
     // Offset: 0x20
@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     float groundColorIntensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xE449FC
+    // [InjectAttribute] Offset: 0xE4A9F0
     // private readonly EnvironmentColorManager _colorManager
     // Size: 0x8
     // Offset: 0x28
@@ -68,10 +68,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly EnvironmentColorManager _colorManager
     GlobalNamespace::EnvironmentColorManager*& dyn__colorManager();
     // protected System.Void Start()
-    // Offset: 0x10D18C0
+    // Offset: 0x10D8BF8
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x10D1A9C
+    // Offset: 0x10D8DD4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

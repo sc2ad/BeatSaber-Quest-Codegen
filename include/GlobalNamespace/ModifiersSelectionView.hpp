@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* noModifiersText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE443E8
+    // [SpaceAttribute] Offset: 0xE4A3DC
     // private GameplayModifiersModelSO _gameplayModifiersModel
     // Size: 0x8
     // Offset: 0x28
@@ -68,10 +68,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private GameplayModifiersModelSO _gameplayModifiersModel
     GlobalNamespace::GameplayModifiersModelSO*& dyn__gameplayModifiersModel();
     // public System.Void SetGameplayModifiers(GameplayModifiers gameplayModifiers)
-    // Offset: 0x11DFFB4
+    // Offset: 0x114D174
     void SetGameplayModifiers(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.Void .ctor()
-    // Offset: 0x11E010C
+    // Offset: 0x114D2CC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

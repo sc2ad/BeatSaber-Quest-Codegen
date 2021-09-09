@@ -77,10 +77,10 @@ namespace MasterServer {
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
     System::Threading::CancellationToken& dyn_cancellationToken();
     // System.Threading.Tasks.Task <SendMultipartMessageWithRetryAsync>b__0(MasterServer.IMasterServerReliableRequest mm)
-    // Offset: 0x121C670
+    // Offset: 0x1221F74
     System::Threading::Tasks::Task* $SendMultipartMessageWithRetryAsync$b__0(MasterServer::IMasterServerReliableRequest* mm);
     // public System.Void .ctor()
-    // Offset: 0x121C668
+    // Offset: 0x1221F6C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

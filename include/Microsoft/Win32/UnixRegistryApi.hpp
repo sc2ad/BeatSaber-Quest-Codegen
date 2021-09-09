@@ -41,40 +41,40 @@ namespace Microsoft::Win32 {
       return *reinterpret_cast<Microsoft::Win32::IRegistryApi*>(this);
     }
     // static private System.String ToUnix(System.String keyname)
-    // Offset: 0x1A63F9C
+    // Offset: 0x1A677DC
     static ::Il2CppString* ToUnix(::Il2CppString* keyname);
     // static private System.Boolean IsWellKnownKey(System.String parentKeyName, System.String keyname)
-    // Offset: 0x1A63FF8
+    // Offset: 0x1A67838
     static bool IsWellKnownKey(::Il2CppString* parentKeyName, ::Il2CppString* keyname);
     // public Microsoft.Win32.RegistryKey OpenSubKey(Microsoft.Win32.RegistryKey rkey, System.String keyname, System.Boolean writable)
-    // Offset: 0x1A64124
+    // Offset: 0x1A67964
     Microsoft::Win32::RegistryKey* OpenSubKey(Microsoft::Win32::RegistryKey* rkey, ::Il2CppString* keyname, bool writable);
     // public System.Void Flush(Microsoft.Win32.RegistryKey rkey)
-    // Offset: 0x1A64210
+    // Offset: 0x1A67A50
     void Flush(Microsoft::Win32::RegistryKey* rkey);
     // public System.Void Close(Microsoft.Win32.RegistryKey rkey)
-    // Offset: 0x1A6428C
+    // Offset: 0x1A67ACC
     void Close(Microsoft::Win32::RegistryKey* rkey);
     // public System.Object GetValue(Microsoft.Win32.RegistryKey rkey, System.String name, System.Object default_value, Microsoft.Win32.RegistryValueOptions options)
-    // Offset: 0x1A642F0
+    // Offset: 0x1A67B30
     ::Il2CppObject* GetValue(Microsoft::Win32::RegistryKey* rkey, ::Il2CppString* name, ::Il2CppObject* default_value, Microsoft::Win32::RegistryValueOptions options);
     // public System.String[] GetSubKeyNames(Microsoft.Win32.RegistryKey rkey)
-    // Offset: 0x1A643B0
+    // Offset: 0x1A67BF0
     ::Array<::Il2CppString*>* GetSubKeyNames(Microsoft::Win32::RegistryKey* rkey);
     // public System.String ToString(Microsoft.Win32.RegistryKey rkey)
-    // Offset: 0x1A64424
+    // Offset: 0x1A67C64
     ::Il2CppString* ToString(Microsoft::Win32::RegistryKey* rkey);
     // private Microsoft.Win32.RegistryKey CreateSubKey(Microsoft.Win32.RegistryKey rkey, System.String keyname, System.Boolean writable)
-    // Offset: 0x1A64204
+    // Offset: 0x1A67A44
     Microsoft::Win32::RegistryKey* CreateSubKey(Microsoft::Win32::RegistryKey* rkey, ::Il2CppString* keyname, bool writable);
     // private Microsoft.Win32.RegistryKey CreateSubKey(Microsoft.Win32.RegistryKey rkey, System.String keyname, System.Boolean writable, System.Boolean is_volatile)
-    // Offset: 0x1A6443C
+    // Offset: 0x1A67C7C
     Microsoft::Win32::RegistryKey* CreateSubKey(Microsoft::Win32::RegistryKey* rkey, ::Il2CppString* keyname, bool writable, bool is_volatile);
     // public System.IntPtr GetHandle(Microsoft.Win32.RegistryKey key)
-    // Offset: 0x1A64574
+    // Offset: 0x1A67DB4
     System::IntPtr GetHandle(Microsoft::Win32::RegistryKey* key);
     // public System.Void .ctor()
-    // Offset: 0x1A62F60
+    // Offset: 0x1A667A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -24,7 +24,7 @@ namespace UnityEngine::Rendering {
     // Creating value type constructor for type: CameraEventUtils
     CameraEventUtils() noexcept {}
     // static public System.Boolean IsValid(UnityEngine.Rendering.CameraEvent value)
-    // Offset: 0x1C4815C
+    // Offset: 0x1C732F4
     static bool IsValid(UnityEngine::Rendering::CameraEvent value);
   }; // UnityEngine.Rendering.CameraEventUtils
   #pragma pack(pop)

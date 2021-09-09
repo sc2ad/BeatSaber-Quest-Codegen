@@ -53,32 +53,32 @@ namespace OVR::OpenVR {
     // Get instance field reference: private OVR.OpenVR.IVRScreenshots FnTable
     OVR::OpenVR::IVRScreenshots& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x15BFBE4
+    // Offset: 0x15CA418
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRScreenshots* New_ctor(System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::CVRScreenshots::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRScreenshots*, creationType>(pInterface)));
     }
     // public OVR.OpenVR.EVRScreenshotError RequestScreenshot(ref System.UInt32 pOutScreenshotHandle, OVR.OpenVR.EVRScreenshotType type, System.String pchPreviewFilename, System.String pchVRFilename)
-    // Offset: 0x15BFCF4
+    // Offset: 0x15CA528
     OVR::OpenVR::EVRScreenshotError RequestScreenshot(ByRef<uint> pOutScreenshotHandle, OVR::OpenVR::EVRScreenshotType type, ::Il2CppString* pchPreviewFilename, ::Il2CppString* pchVRFilename);
     // public OVR.OpenVR.EVRScreenshotError HookScreenshot(OVR.OpenVR.EVRScreenshotType[] pSupportedTypes)
-    // Offset: 0x15BFD14
+    // Offset: 0x15CA548
     OVR::OpenVR::EVRScreenshotError HookScreenshot(::Array<OVR::OpenVR::EVRScreenshotType>* pSupportedTypes);
     // public OVR.OpenVR.EVRScreenshotType GetScreenshotPropertyType(System.UInt32 screenshotHandle, ref OVR.OpenVR.EVRScreenshotError pError)
-    // Offset: 0x15BFD3C
+    // Offset: 0x15CA570
     OVR::OpenVR::EVRScreenshotType GetScreenshotPropertyType(uint screenshotHandle, ByRef<OVR::OpenVR::EVRScreenshotError> pError);
     // public System.UInt32 GetScreenshotPropertyFilename(System.UInt32 screenshotHandle, OVR.OpenVR.EVRScreenshotPropertyFilenames filenameType, System.Text.StringBuilder pchFilename, System.UInt32 cchFilename, ref OVR.OpenVR.EVRScreenshotError pError)
-    // Offset: 0x15BFD58
+    // Offset: 0x15CA58C
     uint GetScreenshotPropertyFilename(uint screenshotHandle, OVR::OpenVR::EVRScreenshotPropertyFilenames filenameType, System::Text::StringBuilder* pchFilename, uint cchFilename, ByRef<OVR::OpenVR::EVRScreenshotError> pError);
     // public OVR.OpenVR.EVRScreenshotError UpdateScreenshotProgress(System.UInt32 screenshotHandle, System.Single flProgress)
-    // Offset: 0x15BFD74
+    // Offset: 0x15CA5A8
     OVR::OpenVR::EVRScreenshotError UpdateScreenshotProgress(uint screenshotHandle, float flProgress);
     // public OVR.OpenVR.EVRScreenshotError TakeStereoScreenshot(ref System.UInt32 pOutScreenshotHandle, System.String pchPreviewFilename, System.String pchVRFilename)
-    // Offset: 0x15BFD90
+    // Offset: 0x15CA5C4
     OVR::OpenVR::EVRScreenshotError TakeStereoScreenshot(ByRef<uint> pOutScreenshotHandle, ::Il2CppString* pchPreviewFilename, ::Il2CppString* pchVRFilename);
     // public OVR.OpenVR.EVRScreenshotError SubmitScreenshot(System.UInt32 screenshotHandle, OVR.OpenVR.EVRScreenshotType type, System.String pchSourcePreviewFilename, System.String pchSourceVRFilename)
-    // Offset: 0x15BFDB0
+    // Offset: 0x15CA5E4
     OVR::OpenVR::EVRScreenshotError SubmitScreenshot(uint screenshotHandle, OVR::OpenVR::EVRScreenshotType type, ::Il2CppString* pchSourcePreviewFilename, ::Il2CppString* pchSourceVRFilename);
   }; // OVR.OpenVR.CVRScreenshots
   #pragma pack(pop)

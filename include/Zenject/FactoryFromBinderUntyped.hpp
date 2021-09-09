@@ -40,7 +40,7 @@ namespace Zenject {
     // Creating value type constructor for type: FactoryFromBinderUntyped
     FactoryFromBinderUntyped() noexcept {}
     // public System.Void .ctor(Zenject.DiContainer bindContainer, System.Type contractType, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
-    // Offset: 0x1658DE0
+    // Offset: 0x1660614
     // Implemented from: Zenject.FactoryFromBinderBase
     // Base method: System.Void FactoryFromBinderBase::.ctor(Zenject.DiContainer bindContainer, System.Type contractType, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -62,49 +62,49 @@ namespace GlobalNamespace {
     GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE396A4
+    // [InjectAttribute] Offset: 0xE3F624
     // private readonly PrepareLevelCompletionResults _prepareLevelCompletionResults
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::PrepareLevelCompletionResults* prepareLevelCompletionResults;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PrepareLevelCompletionResults*) == 0x8);
-    // [InjectAttribute] Offset: 0xE396B4
+    // [InjectAttribute] Offset: 0xE3F634
     // private readonly StandardLevelFailedController/InitData _initData
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::StandardLevelFailedController::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::StandardLevelFailedController::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0xE396C4
+    // [InjectAttribute] Offset: 0xE3F644
     // private readonly ILevelEndActions _gameplayManager
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::ILevelEndActions* gameplayManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ILevelEndActions*) == 0x8);
-    // [InjectAttribute] Offset: 0xE396D4
+    // [InjectAttribute] Offset: 0xE3F654
     // private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectSpawnController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE396E4
+    // [InjectAttribute] Offset: 0xE3F664
     // private readonly GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE396F4
+    // [InjectAttribute] Offset: 0xE3F674
     // private readonly EnvironmentSpawnRotation _environmentSpawnRotation
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::EnvironmentSpawnRotation* environmentSpawnRotation;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EnvironmentSpawnRotation*) == 0x8);
-    // [InjectAttribute] Offset: 0xE39704
+    // [InjectAttribute] Offset: 0xE3F684
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x58
@@ -134,19 +134,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
     GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
     // protected System.Void Start()
-    // Offset: 0x1089B7C
+    // Offset: 0x10678D8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1089C64
+    // Offset: 0x10679C0
     void OnDestroy();
     // private System.Void HandleLevelFailed()
-    // Offset: 0x1089D5C
+    // Offset: 0x1067AB8
     void HandleLevelFailed();
     // private System.Collections.IEnumerator LevelFailedCoroutine()
-    // Offset: 0x1089D88
+    // Offset: 0x1067AE4
     System::Collections::IEnumerator* LevelFailedCoroutine();
     // public System.Void .ctor()
-    // Offset: 0x1089E24
+    // Offset: 0x1067B80
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -41,19 +41,19 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: WindowsPlatform
     WindowsPlatform() noexcept {}
     // private System.Void CPPLogCallback(System.IntPtr tag, System.IntPtr message)
-    // Offset: 0x23DEFE0
+    // Offset: 0x23BA8DC
     void CPPLogCallback(System::IntPtr tag, System::IntPtr message);
     // private System.IntPtr getCallbackPointer()
-    // Offset: 0x23DF0B8
+    // Offset: 0x23BA9B4
     System::IntPtr getCallbackPointer();
     // public System.Boolean Initialize(System.String appId)
-    // Offset: 0x23DF0F8
+    // Offset: 0x23BA9F4
     bool Initialize(::Il2CppString* appId);
     // public Oculus.Platform.Request`1<Oculus.Platform.Models.PlatformInitialize> AsyncInitialize(System.String appId)
-    // Offset: 0x23DF1DC
+    // Offset: 0x23BAAD8
     Oculus::Platform::Request_1<Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::Il2CppString* appId);
     // public System.Void .ctor()
-    // Offset: 0x23DF2F0
+    // Offset: 0x23BABEC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

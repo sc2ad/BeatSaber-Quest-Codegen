@@ -42,28 +42,28 @@ namespace Oculus::Platform {
     // Set static field: static public System.Boolean LogMessages
     static void _set_LogMessages(bool value);
     // static private System.Void .cctor()
-    // Offset: 0x14DF6A8
+    // Offset: 0x1523034
     static void _cctor();
     // static public System.Boolean IsInitialized()
-    // Offset: 0x14DEE90
+    // Offset: 0x152281C
     static bool IsInitialized();
     // static System.Void ForceInitialized()
-    // Offset: 0x14DEEF8
+    // Offset: 0x1522884
     static void ForceInitialized();
     // static private System.String getAppID(System.String appId)
-    // Offset: 0x14DEF64
+    // Offset: 0x15228F0
     static ::Il2CppString* getAppID(::Il2CppString* appId);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.PlatformInitialize> AsyncInitialize(System.String appId)
-    // Offset: 0x14DF12C
+    // Offset: 0x1522AB8
     static Oculus::Platform::Request_1<Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::Il2CppString* appId);
     // static public System.Void Initialize(System.String appId)
-    // Offset: 0x14DF3C4
+    // Offset: 0x1522D50
     static void Initialize(::Il2CppString* appId);
     // static private System.String GetAppIDFromConfig()
-    // Offset: 0x14DF0FC
+    // Offset: 0x1522A88
     static ::Il2CppString* GetAppIDFromConfig();
     // public System.Void .ctor()
-    // Offset: 0x14DF6A0
+    // Offset: 0x152302C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

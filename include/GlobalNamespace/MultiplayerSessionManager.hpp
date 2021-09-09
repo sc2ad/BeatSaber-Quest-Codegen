@@ -350,106 +350,106 @@ namespace GlobalNamespace {
     // Get instance field reference: private ConnectedPlayerManager _connectedPlayerManager
     GlobalNamespace::ConnectedPlayerManager*& dyn__connectedPlayerManager();
     // public System.Boolean get_isConnectionOwner()
-    // Offset: 0x16EC798
+    // Offset: 0x16F1FCC
     bool get_isConnectionOwner();
     // public IConnectedPlayer get_connectionOwner()
-    // Offset: 0x16EC7B0
+    // Offset: 0x16F1FE4
     GlobalNamespace::IConnectedPlayer* get_connectionOwner();
     // private System.Void set_connectionOwner(IConnectedPlayer value)
-    // Offset: 0x16EC7B8
+    // Offset: 0x16F1FEC
     void set_connectionOwner(GlobalNamespace::IConnectedPlayer* value);
     // public System.Boolean get_isSpectating()
-    // Offset: 0x16EC7C0
+    // Offset: 0x16F1FF4
     bool get_isSpectating();
     // public System.Boolean get_isConnectingOrConnected()
-    // Offset: 0x16EC89C
+    // Offset: 0x16F20D0
     bool get_isConnectingOrConnected();
     // public System.Boolean get_isConnected()
-    // Offset: 0x16EC8C0
+    // Offset: 0x16F20F4
     bool get_isConnected();
     // public System.Boolean get_isConnecting()
-    // Offset: 0x16EC8B0
+    // Offset: 0x16F20E4
     bool get_isConnecting();
     // public System.Boolean get_isDisconnecting()
-    // Offset: 0x16EC8D0
+    // Offset: 0x16F2104
     bool get_isDisconnecting();
     // public System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> get_connectedPlayers()
-    // Offset: 0x16EC8E0
+    // Offset: 0x16F2114
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* get_connectedPlayers();
     // public System.Int32 get_connectedPlayerCount()
-    // Offset: 0x16EC8E8
+    // Offset: 0x16F211C
     int get_connectedPlayerCount();
     // public System.Single get_syncTime()
-    // Offset: 0x16EC938
+    // Offset: 0x16F216C
     float get_syncTime();
     // public System.Boolean get_isSyncTimeInitialized()
-    // Offset: 0x16EC950
+    // Offset: 0x16F2184
     bool get_isSyncTimeInitialized();
     // public System.Single get_syncTimeDelay()
-    // Offset: 0x16EC964
+    // Offset: 0x16F2198
     float get_syncTimeDelay();
     // public IConnectedPlayer get_localPlayer()
-    // Offset: 0x16EC97C
+    // Offset: 0x16F21B0
     GlobalNamespace::IConnectedPlayer* get_localPlayer();
     // public ConnectedPlayerManager get_connectedPlayerManager()
-    // Offset: 0x16EC994
+    // Offset: 0x16F21C8
     GlobalNamespace::ConnectedPlayerManager* get_connectedPlayerManager();
     // public System.Int32 get_maxPlayerCount()
-    // Offset: 0x16EC99C
+    // Offset: 0x16F21D0
     int get_maxPlayerCount();
     // public System.Void add_connectedEvent(System.Action value)
-    // Offset: 0x16EBD58
+    // Offset: 0x16F158C
     void add_connectedEvent(System::Action* value);
     // public System.Void remove_connectedEvent(System.Action value)
-    // Offset: 0x16EBDFC
+    // Offset: 0x16F1630
     void remove_connectedEvent(System::Action* value);
     // public System.Void add_connectionFailedEvent(System.Action`1<ConnectionFailedReason> value)
-    // Offset: 0x16EBEA0
+    // Offset: 0x16F16D4
     void add_connectionFailedEvent(System::Action_1<GlobalNamespace::ConnectionFailedReason>* value);
     // public System.Void remove_connectionFailedEvent(System.Action`1<ConnectionFailedReason> value)
-    // Offset: 0x16EBF44
+    // Offset: 0x16F1778
     void remove_connectionFailedEvent(System::Action_1<GlobalNamespace::ConnectionFailedReason>* value);
     // public System.Void add_playerConnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x16EBFE8
+    // Offset: 0x16F181C
     void add_playerConnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void remove_playerConnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x16EC08C
+    // Offset: 0x16F18C0
     void remove_playerConnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void add_playerDisconnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x16EC130
+    // Offset: 0x16F1964
     void add_playerDisconnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void remove_playerDisconnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x16EC1D4
+    // Offset: 0x16F1A08
     void remove_playerDisconnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void add_playerAvatarChangedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x16EC278
+    // Offset: 0x16F1AAC
     void add_playerAvatarChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void remove_playerAvatarChangedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x16EC31C
+    // Offset: 0x16F1B50
     void remove_playerAvatarChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void add_playerStateChangedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x16EC3C0
+    // Offset: 0x16F1BF4
     void add_playerStateChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void remove_playerStateChangedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x16EC464
+    // Offset: 0x16F1C98
     void remove_playerStateChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void add_connectionOwnerStateChangedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x16EC508
+    // Offset: 0x16F1D3C
     void add_connectionOwnerStateChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void remove_connectionOwnerStateChangedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x16EC5AC
+    // Offset: 0x16F1DE0
     void remove_connectionOwnerStateChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void add_disconnectedEvent(System.Action`1<DisconnectedReason> value)
-    // Offset: 0x16EC650
+    // Offset: 0x16F1E84
     void add_disconnectedEvent(System::Action_1<GlobalNamespace::DisconnectedReason>* value);
     // public System.Void remove_disconnectedEvent(System.Action`1<DisconnectedReason> value)
-    // Offset: 0x16EC6F4
+    // Offset: 0x16F1F28
     void remove_disconnectedEvent(System::Action_1<GlobalNamespace::DisconnectedReason>* value);
     // public System.Void RegisterSerializer(MultiplayerSessionManager/MessageType serializerType, INetworkPacketSubSerializer`1<IConnectedPlayer> subSerializer)
-    // Offset: 0x16ED370
+    // Offset: 0x16F2BA4
     void RegisterSerializer(GlobalNamespace::MultiplayerSessionManager_MessageType serializerType, GlobalNamespace::INetworkPacketSubSerializer_1<GlobalNamespace::IConnectedPlayer*>* subSerializer);
     // public System.Void UnregisterSerializer(MultiplayerSessionManager/MessageType serializerType, INetworkPacketSubSerializer`1<IConnectedPlayer> subSerializer)
-    // Offset: 0x16ED3E0
+    // Offset: 0x16F2C14
     void UnregisterSerializer(GlobalNamespace::MultiplayerSessionManager_MessageType serializerType, GlobalNamespace::INetworkPacketSubSerializer_1<GlobalNamespace::IConnectedPlayer*>* subSerializer);
     // public System.Void RegisterCallback(MultiplayerSessionManager/MessageType serializerType, System.Action`2<T,IConnectedPlayer> callback, System.Func`1<T> constructor)
     // Offset: 0xFFFFFFFF
@@ -485,19 +485,19 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, sessionType, connectionManager, initParams);
     }
     // public System.Void StartSession(ConnectedPlayerManager connectedPlayerManager)
-    // Offset: 0x16ED450
+    // Offset: 0x16F2C84
     void StartSession(GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager);
     // public System.Void SetMaxPlayerCount(System.Int32 maxPlayerCount)
-    // Offset: 0x16ED8D8
+    // Offset: 0x16F310C
     void SetMaxPlayerCount(int maxPlayerCount);
     // private System.Void InitInternal(MultiplayerSessionManager/SessionType sessionType)
-    // Offset: 0x16ED49C
+    // Offset: 0x16F2CD0
     void InitInternal(GlobalNamespace::MultiplayerSessionManager::SessionType sessionType);
     // public System.Void EndSession()
-    // Offset: 0x16ECF54
+    // Offset: 0x16F2788
     void EndSession();
     // public System.Void Disconnect()
-    // Offset: 0x16ED8E0
+    // Offset: 0x16F3114
     void Disconnect();
     // public System.Void Send(T message)
     // Offset: 0xFFFFFFFF
@@ -522,67 +522,67 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, message);
     }
     // public System.Void PerformAtSyncTime(System.Single syncTime, System.Action action)
-    // Offset: 0x16ED948
+    // Offset: 0x16F317C
     void PerformAtSyncTime(float syncTime, System::Action* action);
     // private System.Void UpdateSynchronizedActions()
-    // Offset: 0x16ECAE0
+    // Offset: 0x16F2314
     void UpdateSynchronizedActions();
     // private System.Void HandleReinitialized()
-    // Offset: 0x16EDB64
+    // Offset: 0x16F3398
     void HandleReinitialized();
     // private System.Void HandleConnected()
-    // Offset: 0x16EDB74
+    // Offset: 0x16F33A8
     void HandleConnected();
     // private System.Void HandleDisconnected(DisconnectedReason disconnectedReason)
-    // Offset: 0x16EDB84
+    // Offset: 0x16F33B8
     void HandleDisconnected(GlobalNamespace::DisconnectedReason disconnectedReason);
     // private System.Void HandleConnectionFailed(ConnectionFailedReason reason)
-    // Offset: 0x16EDB94
+    // Offset: 0x16F33C8
     void HandleConnectionFailed(GlobalNamespace::ConnectionFailedReason reason);
     // private System.Void HandleSyncTimeInitialized()
-    // Offset: 0x16EDBA4
+    // Offset: 0x16F33D8
     void HandleSyncTimeInitialized();
     // private System.Void HandlePlayerConnected(IConnectedPlayer player)
-    // Offset: 0x16EDBB4
+    // Offset: 0x16F33E8
     void HandlePlayerConnected(GlobalNamespace::IConnectedPlayer* player);
     // private System.Void HandlePlayerDisconnected(IConnectedPlayer player)
-    // Offset: 0x16EE1D8
+    // Offset: 0x16F3A0C
     void HandlePlayerDisconnected(GlobalNamespace::IConnectedPlayer* player);
     // private System.Void HandlePlayerStateChanged(IConnectedPlayer player)
-    // Offset: 0x16EE2AC
+    // Offset: 0x16F3AE0
     void HandlePlayerStateChanged(GlobalNamespace::IConnectedPlayer* player);
     // private System.Void HandlePlayerAvatarChanged(IConnectedPlayer player)
-    // Offset: 0x16EE46C
+    // Offset: 0x16F3CA0
     void HandlePlayerAvatarChanged(GlobalNamespace::IConnectedPlayer* player);
     // private System.Void HandlePlayerOrderChanged(IConnectedPlayer player)
-    // Offset: 0x16EE504
+    // Offset: 0x16F3D38
     void HandlePlayerOrderChanged(GlobalNamespace::IConnectedPlayer* player);
     // public IConnectedPlayer GetPlayerByUserId(System.String userId)
-    // Offset: 0x16EE53C
+    // Offset: 0x16F3D70
     GlobalNamespace::IConnectedPlayer* GetPlayerByUserId(::Il2CppString* userId);
     // public IConnectedPlayer GetConnectedPlayer(System.Int32 i)
-    // Offset: 0x16EE6C4
+    // Offset: 0x16F3EF8
     GlobalNamespace::IConnectedPlayer* GetConnectedPlayer(int i);
     // public System.Void SetLocalPlayerState(System.String state, System.Boolean hasState)
-    // Offset: 0x16EC9F8
+    // Offset: 0x16F222C
     void SetLocalPlayerState(::Il2CppString* state, bool hasState);
     // public System.Void KickPlayer(System.String userId)
-    // Offset: 0x16EE73C
+    // Offset: 0x16F3F70
     void KickPlayer(::Il2CppString* userId);
     // public System.Boolean LocalPlayerHasState(System.String state)
-    // Offset: 0x16EE754
+    // Offset: 0x16F3F88
     bool LocalPlayerHasState(::Il2CppString* state);
     // private System.Void UpdateConnectionState(UpdateConnectionStateReason updateReason, DisconnectedReason disconnectedReason, ConnectionFailedReason connectionFailedReason)
-    // Offset: 0x16ECB74
+    // Offset: 0x16F23A8
     void UpdateConnectionState(GlobalNamespace::UpdateConnectionStateReason updateReason, GlobalNamespace::DisconnectedReason disconnectedReason, GlobalNamespace::ConnectionFailedReason connectionFailedReason);
     // private System.Boolean TryUpdateConnectedPlayer(IConnectedPlayer player, System.Boolean isPlayerConnected)
-    // Offset: 0x16EDC88
+    // Offset: 0x16F34BC
     bool TryUpdateConnectedPlayer(GlobalNamespace::IConnectedPlayer* player, bool isPlayerConnected);
     // private System.Int32 GetNextAvailableSortIndex()
-    // Offset: 0x16EE878
+    // Offset: 0x16F40AC
     int GetNextAvailableSortIndex();
     // public System.Void .ctor()
-    // Offset: 0x16EE910
+    // Offset: 0x16F4144
     // Implemented from: StandaloneMonobehavior
     // Base method: System.Void StandaloneMonobehavior::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -596,22 +596,22 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerSessionManager*, creationType>()));
     }
     // protected override System.Void Start()
-    // Offset: 0x16EC9A4
+    // Offset: 0x16F21D8
     // Implemented from: StandaloneMonobehavior
     // Base method: System.Void StandaloneMonobehavior::Start()
     void Start();
     // protected override System.Void Update()
-    // Offset: 0x16ECAA8
+    // Offset: 0x16F22DC
     // Implemented from: StandaloneMonobehavior
     // Base method: System.Void StandaloneMonobehavior::Update()
     void Update();
     // protected override System.Void OnDestroy()
-    // Offset: 0x16ECB44
+    // Offset: 0x16F2378
     // Implemented from: StandaloneMonobehavior
     // Base method: System.Void StandaloneMonobehavior::OnDestroy()
     void OnDestroy();
     // protected override System.Void OnApplicationPause(System.Boolean pauseStatus)
-    // Offset: 0x16ED310
+    // Offset: 0x16F2B44
     // Implemented from: StandaloneMonobehavior
     // Base method: System.Void StandaloneMonobehavior::OnApplicationPause(System.Boolean pauseStatus)
     void OnApplicationPause(bool pauseStatus);

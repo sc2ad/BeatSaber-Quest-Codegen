@@ -107,26 +107,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private PartyMessageHandler/ConnectToMasterServerDelegate connectToMasterServerEvent
     GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate*& dyn_connectToMasterServerEvent();
     // public System.Void add_connectToMasterServerEvent(PartyMessageHandler/ConnectToMasterServerDelegate value)
-    // Offset: 0x16F2DC0
+    // Offset: 0x16F85F4
     void add_connectToMasterServerEvent(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate* value);
     // public System.Void remove_connectToMasterServerEvent(PartyMessageHandler/ConnectToMasterServerDelegate value)
-    // Offset: 0x16F2E64
+    // Offset: 0x16F8698
     void remove_connectToMasterServerEvent(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate* value);
     // public System.Void .ctor(ConnectedPlayerManager connectedPlayerManager)
-    // Offset: 0x16F2C10
+    // Offset: 0x16F8444
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PartyMessageHandler* New_ctor(GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PartyMessageHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PartyMessageHandler*, creationType>(connectedPlayerManager)));
     }
     // public System.Void Dispose()
-    // Offset: 0x16F2D98
+    // Offset: 0x16F85CC
     void Dispose();
     // public System.Void ConnectToMasterServer(System.String secret)
-    // Offset: 0x16F2F08
+    // Offset: 0x16F873C
     void ConnectToMasterServer(::Il2CppString* secret);
     // private System.Void HandleConnectToMasterServer(PartyMessageHandler/ConnectToMasterServerMessage packet)
-    // Offset: 0x16F2F9C
+    // Offset: 0x16F87D0
     void HandleConnectToMasterServer(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage* packet);
   }; // PartyMessageHandler
   #pragma pack(pop)

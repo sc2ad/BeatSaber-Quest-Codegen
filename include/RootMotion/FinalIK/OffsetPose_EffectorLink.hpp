@@ -71,10 +71,10 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public UnityEngine.Vector3 pinWeight
     UnityEngine::Vector3& dyn_pinWeight();
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight, UnityEngine.Quaternion rotation)
-    // Offset: 0x1AD8D90
+    // Offset: 0x1ADC540
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight, UnityEngine::Quaternion rotation);
     // public System.Void .ctor()
-    // Offset: 0x1AD91E0
+    // Offset: 0x1ADC990
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

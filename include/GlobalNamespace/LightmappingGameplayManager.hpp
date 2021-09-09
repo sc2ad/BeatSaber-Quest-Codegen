@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LightmappingGameplayManager : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xE38C44
+    // [InjectAttribute] Offset: 0xE3EBC4
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x18
@@ -41,10 +41,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     GlobalNamespace::IBeatmapObjectCallbackController*& dyn__beatmapObjectCallbackController();
     // protected System.Void Start()
-    // Offset: 0x1200A7C
+    // Offset: 0x1207460
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x1200DAC
+    // Offset: 0x1207790
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -90,16 +90,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
     System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
     // public System.String get_text()
-    // Offset: 0x102EA1C
+    // Offset: 0x1036258
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x102EA00
+    // Offset: 0x103623C
     void set_text(::Il2CppString* value);
     // private System.Void RefreshVisuals()
-    // Offset: 0x102EA3C
+    // Offset: 0x1036278
     void RefreshVisuals();
     // public System.Void .ctor()
-    // Offset: 0x102EAD0
+    // Offset: 0x103630C
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()
@@ -115,12 +115,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PackLevelListHeaderTableCell*, creationType>()));
     }
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x102EA38
+    // Offset: 0x1036274
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void SelectionDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x102EACC
+    // Offset: 0x1036308
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void HighlightDidChange(HMUI::SelectableCell::TransitionType transitionType);

@@ -97,13 +97,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private MenuEnvironmentManager/MenuEnvironmentType _prevMenuEnvironmentType
     GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType& dyn__prevMenuEnvironmentType();
     // private System.Void Start()
-    // Offset: 0x10E5AA4
+    // Offset: 0x11A7AD0
     void Start();
     // public System.Void ShowEnvironmentType(MenuEnvironmentManager/MenuEnvironmentType menuEnvironmentType)
-    // Offset: 0x10E5AAC
+    // Offset: 0x11A7AD8
     void ShowEnvironmentType(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType menuEnvironmentType);
     // public System.Void .ctor()
-    // Offset: 0x10E5C5C
+    // Offset: 0x11A7C88
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

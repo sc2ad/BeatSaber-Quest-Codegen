@@ -31,14 +31,14 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class HitReaction::HitPointEffector::EffectorLink : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xE2B77C
+    // [TooltipAttribute] Offset: 0xE316EC
     // public RootMotion.FinalIK.FullBodyBipedEffector effector
     // Size: 0x4
     // Offset: 0x10
     RootMotion::FinalIK::FullBodyBipedEffector effector;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::FullBodyBipedEffector) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2B7B4
+    // [TooltipAttribute] Offset: 0xE31724
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x14
@@ -68,13 +68,13 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private UnityEngine.Vector3 current
     UnityEngine::Vector3& dyn_current();
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, UnityEngine.Vector3 offset, System.Single crossFader)
-    // Offset: 0x1CCED4C
+    // Offset: 0x1CCFA10
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, UnityEngine::Vector3 offset, float crossFader);
     // public System.Void CrossFadeStart()
-    // Offset: 0x1CCEB40
+    // Offset: 0x1CCF804
     void CrossFadeStart();
     // public System.Void .ctor()
-    // Offset: 0x1CCEE88
+    // Offset: 0x1CCFB4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -48,10 +48,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public MenuDestination menuDestination
     GlobalNamespace::MenuDestination*& dyn_menuDestination();
     // System.Void <ProcessDestinationRequest>b__0(Zenject.DiContainer container)
-    // Offset: 0x10E1300
+    // Offset: 0x11A32F8
     void $ProcessDestinationRequest$b__0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x10E12F8
+    // Offset: 0x11A32F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

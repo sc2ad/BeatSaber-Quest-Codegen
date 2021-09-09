@@ -33,7 +33,7 @@ namespace HMUI {
     // Creating value type constructor for type: SetPropertyUtility
     SetPropertyUtility() noexcept {}
     // static public System.Boolean SetColor(ref UnityEngine.Color currentValue, UnityEngine.Color newValue)
-    // Offset: 0x13014D0
+    // Offset: 0x13191A0
     static bool SetColor(ByRef<UnityEngine::Color> currentValue, UnityEngine::Color newValue);
     // static public System.Boolean SetStruct(ref T currentValue, T newValue)
     // Offset: 0xFFFFFFFF

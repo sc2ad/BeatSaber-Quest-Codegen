@@ -290,14 +290,14 @@ namespace UnityEngine {
     static UnityEngine::TextureFormat _get_ASTC_12x12();
     // Set static field: static public UnityEngine.TextureFormat ASTC_12x12
     static void _set_ASTC_12x12(UnityEngine::TextureFormat value);
-    // [ObsoleteAttribute] Offset: 0xDB26A4
+    // [ObsoleteAttribute] Offset: 0xDB8614
     // static field const value: static public UnityEngine.TextureFormat ETC_RGB4_3DS
     static constexpr const int ETC_RGB4_3DS = 60;
     // Get static field: static public UnityEngine.TextureFormat ETC_RGB4_3DS
     static UnityEngine::TextureFormat _get_ETC_RGB4_3DS();
     // Set static field: static public UnityEngine.TextureFormat ETC_RGB4_3DS
     static void _set_ETC_RGB4_3DS(UnityEngine::TextureFormat value);
-    // [ObsoleteAttribute] Offset: 0xDB26DC
+    // [ObsoleteAttribute] Offset: 0xDB864C
     // static field const value: static public UnityEngine.TextureFormat ETC_RGBA8_3DS
     static constexpr const int ETC_RGBA8_3DS = 61;
     // Get static field: static public UnityEngine.TextureFormat ETC_RGBA8_3DS

@@ -29,12 +29,12 @@ namespace System {
     // Creating value type constructor for type: ReflectionOnlyType
     ReflectionOnlyType() noexcept {}
     // public override System.RuntimeTypeHandle get_TypeHandle()
-    // Offset: 0x147E520
+    // Offset: 0x14864DC
     // Implemented from: System.RuntimeType
     // Base method: System.RuntimeTypeHandle RuntimeType::get_TypeHandle()
     System::RuntimeTypeHandle get_TypeHandle();
     // private System.Void .ctor()
-    // Offset: 0x147E4B8
+    // Offset: 0x1486474
     // Implemented from: System.RuntimeType
     // Base method: System.Void RuntimeType::.ctor()
     // Base method: System.Void TypeInfo::.ctor()

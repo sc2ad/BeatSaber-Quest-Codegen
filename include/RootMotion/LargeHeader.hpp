@@ -39,14 +39,14 @@ namespace RootMotion {
     // Get instance field reference: public System.String color
     ::Il2CppString*& dyn_color();
     // public System.Void .ctor(System.String name)
-    // Offset: 0x1AE92C8
+    // Offset: 0x1AECA78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LargeHeader* New_ctor(::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::LargeHeader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LargeHeader*, creationType>(name)));
     }
     // public System.Void .ctor(System.String name, System.String color)
-    // Offset: 0x1AE9338
+    // Offset: 0x1AECAE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LargeHeader* New_ctor(::Il2CppString* name, ::Il2CppString* color) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::LargeHeader::.ctor");

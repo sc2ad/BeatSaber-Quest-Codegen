@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatLineManager* beatLineManagerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatLineManager*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE3D624
+    // [SpaceAttribute] Offset: 0xE435A4
     // private AudioManagerSO _audioManager
     // Size: 0x8
     // Offset: 0x28
@@ -93,28 +93,28 @@ namespace GlobalNamespace {
     GlobalNamespace::MissedNoteEffectSpawner* missedNoteEffectSpawnerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissedNoteEffectSpawner*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE3D6AC
+    // [SpaceAttribute] Offset: 0xE4362C
     // private EffectPoolsManualInstaller _effectPoolsManualInstaller
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::EffectPoolsManualInstaller* effectPoolsManualInstaller;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EffectPoolsManualInstaller*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE3D6E4
+    // [SpaceAttribute] Offset: 0xE43664
     // private BoolSO _screenDisplacementEffectsEnabled
     // Size: 0x8
     // Offset: 0x60
     GlobalNamespace::BoolSO* screenDisplacementEffectsEnabled;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BoolSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3D71C
+    // [InjectAttribute] Offset: 0xE4369C
     // private readonly GameplayCoreSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x68
     GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayCoreSceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3D72C
+    // [InjectAttribute] Offset: 0xE436AC
     // private readonly DataModels.Levels.PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
     // Size: 0x8
     // Offset: 0x70
@@ -146,7 +146,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly DataModels.Levels.PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
     DataModels::Levels::PerceivedLoudnessPerLevelModel*& dyn__perceivedLoudnessPerLevelModel();
     // public System.Void .ctor()
-    // Offset: 0x110BD28
+    // Offset: 0x10FF9C4
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -161,7 +161,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameplayCoreInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x110A608
+    // Offset: 0x10FE2A4
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

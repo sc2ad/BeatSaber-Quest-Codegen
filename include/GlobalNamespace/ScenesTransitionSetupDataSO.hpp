@@ -55,22 +55,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private SceneSetupData[] <sceneSetupDataArray>k__BackingField
     ::Array<GlobalNamespace::SceneSetupData*>*& dyn_$sceneSetupDataArray$k__BackingField();
     // public SceneInfo[] get_scenes()
-    // Offset: 0x239714C
+    // Offset: 0x2392E34
     ::Array<GlobalNamespace::SceneInfo*>* get_scenes();
     // private System.Void set_scenes(SceneInfo[] value)
-    // Offset: 0x2397154
+    // Offset: 0x2392E3C
     void set_scenes(::Array<GlobalNamespace::SceneInfo*>* value);
     // public SceneSetupData[] get_sceneSetupDataArray()
-    // Offset: 0x239715C
+    // Offset: 0x2392E44
     ::Array<GlobalNamespace::SceneSetupData*>* get_sceneSetupDataArray();
     // private System.Void set_sceneSetupDataArray(SceneSetupData[] value)
-    // Offset: 0x2397164
+    // Offset: 0x2392E4C
     void set_sceneSetupDataArray(::Array<GlobalNamespace::SceneSetupData*>* value);
     // protected System.Void Init(SceneInfo[] scenes, SceneSetupData[] sceneSetupData)
-    // Offset: 0x239716C
+    // Offset: 0x2392E54
     void Init(::Array<GlobalNamespace::SceneInfo*>* scenes, ::Array<GlobalNamespace::SceneSetupData*>* sceneSetupData);
     // public System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x2397174
+    // Offset: 0x2392E5C
     void InstallBindings(Zenject::DiContainer* container);
     // public T Get()
     // Offset: 0xFFFFFFFF
@@ -84,7 +84,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___generic__method);
     }
     // protected System.Void .ctor()
-    // Offset: 0x23972B0
+    // Offset: 0x2392F98
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

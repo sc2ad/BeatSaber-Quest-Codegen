@@ -63,7 +63,7 @@ namespace OnlineServices {
     public:
     // Nested type: OnlineServices::ServerManager::$GetLeaderboardEntriesAsync$d__14
     struct $GetLeaderboardEntriesAsync$d__14;
-    // [InjectAttribute] Offset: 0xE467CC
+    // [InjectAttribute] Offset: 0xE4C818
     // private readonly HTTPLeaderboardsModel _leaderboardsModel
     // Size: 0x8
     // Offset: 0x18
@@ -119,40 +119,40 @@ namespace OnlineServices {
     // Get instance field reference: private OnlineServices.PlatformOnlineServicesAvailabilityModel _platformOnlineServicesAvailabilityModel
     OnlineServices::PlatformOnlineServicesAvailabilityModel*& dyn__platformOnlineServicesAvailabilityModel();
     // public System.Boolean get_initialized()
-    // Offset: 0x102AF2C
+    // Offset: 0x1032768
     bool get_initialized();
     // public System.Void add_platformServicesAvailabilityInfoChangedEvent(System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> value)
-    // Offset: 0x102AC9C
+    // Offset: 0x10324D8
     void add_platformServicesAvailabilityInfoChangedEvent(System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>* value);
     // public System.Void remove_platformServicesAvailabilityInfoChangedEvent(System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> value)
-    // Offset: 0x102AD40
+    // Offset: 0x103257C
     void remove_platformServicesAvailabilityInfoChangedEvent(System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>* value);
     // public System.Void add_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
-    // Offset: 0x102ADE4
+    // Offset: 0x1032620
     void add_scoreForLeaderboardDidUploadEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
-    // Offset: 0x102AE88
+    // Offset: 0x10326C4
     void remove_scoreForLeaderboardDidUploadEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void Init()
-    // Offset: 0x102AF34
+    // Offset: 0x1032770
     void Init();
     // public System.String GetLeaderboardId(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x102B05C
+    // Offset: 0x1032898
     ::Il2CppString* GetLeaderboardId(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Threading.Tasks.Task`1<OnlineServices.LeaderboardEntriesResult> GetLeaderboardEntriesAsync(OnlineServices.GetLeaderboardFilterData leaderboardFilterData, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x102B088
+    // Offset: 0x10328C4
     System::Threading::Tasks::Task_1<OnlineServices::LeaderboardEntriesResult*>* GetLeaderboardEntriesAsync(OnlineServices::GetLeaderboardFilterData leaderboardFilterData, System::Threading::CancellationToken cancellationToken);
     // public System.Void SendLevelScoreResult(OnlineServices.LevelScoreResultsData levelScoreResultsData)
-    // Offset: 0x102B1B4
+    // Offset: 0x10329F0
     void SendLevelScoreResult(OnlineServices::LevelScoreResultsData levelScoreResultsData);
     // private System.Void <Init>b__12_0(OnlineServices.PlatformServicesAvailabilityInfo availabilityInfo)
-    // Offset: 0x102B210
+    // Offset: 0x1032A4C
     void $Init$b__12_0(OnlineServices::PlatformServicesAvailabilityInfo* availabilityInfo);
     // private System.Void <Init>b__12_1(System.String leaderboardId)
-    // Offset: 0x102B284
+    // Offset: 0x1032AC0
     void $Init$b__12_1(::Il2CppString* leaderboardId);
     // public System.Void .ctor()
-    // Offset: 0x102B208
+    // Offset: 0x1032A44
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

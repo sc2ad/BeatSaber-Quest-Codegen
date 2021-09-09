@@ -86,13 +86,13 @@ namespace Zenject {
     // Get instance field reference: public System.Func`2<UnityEngine.GameObject,UnityEngine.Component> <>9__2
     System::Func_2<UnityEngine::GameObject*, UnityEngine::Component*>*& dyn_$$9__2();
     // System.Collections.Generic.IEnumerable`1<System.Object> <FromComponentInHierarchy>b__1(Zenject.InjectContext ctx)
-    // Offset: 0x165DD58
+    // Offset: 0x166558C
     System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* $FromComponentInHierarchy$b__1(Zenject::InjectContext* ctx);
     // UnityEngine.Component <FromComponentInHierarchy>b__2(UnityEngine.GameObject x)
-    // Offset: 0x165E008
+    // Offset: 0x166583C
     UnityEngine::Component* $FromComponentInHierarchy$b__2(UnityEngine::GameObject* x);
     // public System.Void .ctor()
-    // Offset: 0x165DD50
+    // Offset: 0x1665584
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

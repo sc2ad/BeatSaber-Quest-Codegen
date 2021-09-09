@@ -29,7 +29,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ObjectiveListItemsList
     ObjectiveListItemsList() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1231550
+    // Offset: 0x124EB08
     // Implemented from: HMUI.UIItemsList`1
     // Base method: System.Void UIItemsList_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

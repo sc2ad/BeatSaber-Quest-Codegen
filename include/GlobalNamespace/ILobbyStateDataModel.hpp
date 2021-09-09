@@ -12,6 +12,8 @@ namespace GlobalNamespace {
   class IConnectedPlayer;
   // Forward declaring type: GameplayServerMode
   struct GameplayServerMode;
+  // Forward declaring type: DiscoveryPolicy
+  struct DiscoveryPolicy;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
@@ -57,6 +59,9 @@ namespace GlobalNamespace {
     // public GameplayServerMode get_gameServerMode()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::GameplayServerMode get_gameServerMode();
+    // public DiscoveryPolicy get_discoveryPolicy()
+    // Offset: 0xFFFFFFFF
+    GlobalNamespace::DiscoveryPolicy get_discoveryPolicy();
     // public System.Int32 get_maxPartySize()
     // Offset: 0xFFFFFFFF
     int get_maxPartySize();
@@ -125,6 +130,14 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayServerMode (GlobalNamespace::ILobbyStateDataModel::*)()>(&GlobalNamespace::ILobbyStateDataModel::get_gameServerMode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyStateDataModel*), "get_gameServerMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ILobbyStateDataModel::get_discoveryPolicy
+// Il2CppName: get_discoveryPolicy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::DiscoveryPolicy (GlobalNamespace::ILobbyStateDataModel::*)()>(&GlobalNamespace::ILobbyStateDataModel::get_discoveryPolicy)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyStateDataModel*), "get_discoveryPolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyStateDataModel::get_maxPartySize

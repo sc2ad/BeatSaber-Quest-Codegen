@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public INetworkPlayerModel partyManager
     GlobalNamespace::INetworkPlayerModel*& dyn_partyManager();
     // public System.Void .ctor()
-    // Offset: 0x11E56D8
+    // Offset: 0x11DB7C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

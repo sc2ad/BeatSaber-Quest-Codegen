@@ -70,26 +70,26 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private Org.BouncyCastle.Security.SecureRandom random
     Org::BouncyCastle::Security::SecureRandom*& dyn_random();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IRsa rsa)
-    // Offset: 0x1EC1654
+    // Offset: 0x1EC2318
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RsaBlindedEngine* New_ctor(Org::BouncyCastle::Crypto::IRsa* rsa) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RsaBlindedEngine*, creationType>(rsa)));
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters param)
-    // Offset: 0x1EC1680
+    // Offset: 0x1EC2344
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* param);
     // public System.Int32 GetInputBlockSize()
-    // Offset: 0x1EC18A8
+    // Offset: 0x1EC256C
     int GetInputBlockSize();
     // public System.Int32 GetOutputBlockSize()
-    // Offset: 0x1EC195C
+    // Offset: 0x1EC2620
     int GetOutputBlockSize();
     // public System.Byte[] ProcessBlock(System.Byte[] inBuf, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x1EC1A10
+    // Offset: 0x1EC26D4
     ::Array<uint8_t>* ProcessBlock(::Array<uint8_t>* inBuf, int inOff, int inLen);
     // public System.Void .ctor()
-    // Offset: 0x1EC15E0
+    // Offset: 0x1EC22A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

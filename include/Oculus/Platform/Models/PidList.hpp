@@ -31,7 +31,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: PidList
     PidList() noexcept {}
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x14EE8DC
+    // Offset: 0x1533628
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PidList* New_ctor(System::IntPtr a) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::PidList::.ctor");

@@ -31,10 +31,10 @@ namespace Zenject {
     // Creating value type constructor for type: IdScopeConcreteIdArgConditionCopyNonLazyBinder
     IdScopeConcreteIdArgConditionCopyNonLazyBinder() noexcept {}
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder WithId(System.Object identifier)
-    // Offset: 0x1660D38
+    // Offset: 0x166856C
     Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithId(::Il2CppObject* identifier);
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0x1660D30
+    // Offset: 0x1668564
     // Implemented from: Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder
     // Base method: System.Void ScopeConcreteIdArgConditionCopyNonLazyBinder::.ctor(Zenject.BindInfo bindInfo)
     // Base method: System.Void ConcreteIdArgConditionCopyNonLazyBinder::.ctor(Zenject.BindInfo bindInfo)

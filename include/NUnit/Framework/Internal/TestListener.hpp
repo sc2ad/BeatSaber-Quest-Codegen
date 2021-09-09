@@ -38,19 +38,19 @@ namespace NUnit::Framework::Internal {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ITestListener*>(this);
     }
     // static public NUnit.Framework.Interfaces.ITestListener get_NULL()
-    // Offset: 0x229C8A4
+    // Offset: 0x2299568
     static NUnit::Framework::Interfaces::ITestListener* get_NULL();
     // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x229D8DC
+    // Offset: 0x229A5A0
     void TestStarted(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x229D8E0
+    // Offset: 0x229A5A4
     void TestFinished(NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Void TestOutput(NUnit.Framework.Interfaces.TestOutput output)
-    // Offset: 0x229D8E4
+    // Offset: 0x229A5A8
     void TestOutput(NUnit::Framework::Interfaces::TestOutput* output);
     // private System.Void .ctor()
-    // Offset: 0x229D8E8
+    // Offset: 0x229A5AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

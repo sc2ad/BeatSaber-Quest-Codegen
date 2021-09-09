@@ -42,7 +42,7 @@ namespace Zenject {
     // Creating value type constructor for type: InstantiateCallbackConditionCopyNonLazyBinder
     InstantiateCallbackConditionCopyNonLazyBinder() noexcept {}
     // public Zenject.ConditionCopyNonLazyBinder OnInstantiated(System.Action`2<Zenject.InjectContext,System.Object> callback)
-    // Offset: 0x1663328
+    // Offset: 0x166AB5C
     Zenject::ConditionCopyNonLazyBinder* OnInstantiated(System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* callback);
     // public Zenject.ConditionCopyNonLazyBinder OnInstantiated(System.Action`2<Zenject.InjectContext,T> callback)
     // Offset: 0xFFFFFFFF
@@ -55,7 +55,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodThrow<Zenject::ConditionCopyNonLazyBinder*, false>(___instance_arg, ___generic__method, callback);
     }
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0x1663320
+    // Offset: 0x166AB54
     // Implemented from: Zenject.ConditionCopyNonLazyBinder
     // Base method: System.Void ConditionCopyNonLazyBinder::.ctor(Zenject.BindInfo bindInfo)
     // Base method: System.Void CopyNonLazyBinder::.ctor(Zenject.BindInfo bindInfo)

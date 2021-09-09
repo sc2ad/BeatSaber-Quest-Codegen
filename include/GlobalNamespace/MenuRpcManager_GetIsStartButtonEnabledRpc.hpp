@@ -25,7 +25,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GetIsStartButtonEnabledRpc
     GetIsStartButtonEnabledRpc() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x16E952C
+    // Offset: 0x16EED60
     // Implemented from: RemoteProcedureCall
     // Base method: System.Void RemoteProcedureCall::.ctor()
     // Base method: System.Void Object::.ctor()

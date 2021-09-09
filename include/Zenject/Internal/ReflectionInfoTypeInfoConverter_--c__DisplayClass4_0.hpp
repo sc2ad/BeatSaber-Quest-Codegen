@@ -43,10 +43,10 @@ namespace Zenject::Internal {
     // Get instance field reference: public System.Type type
     System::Type*& dyn_type();
     // System.Object <TryCreateFactoryMethod>b__0(System.Object[] args)
-    // Offset: 0x1664274
+    // Offset: 0x166BAA8
     ::Il2CppObject* $TryCreateFactoryMethod$b__0(::Array<::Il2CppObject*>* args);
     // public System.Void .ctor()
-    // Offset: 0x1663CFC
+    // Offset: 0x166B530
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

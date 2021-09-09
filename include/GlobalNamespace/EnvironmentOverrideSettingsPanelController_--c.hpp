@@ -45,13 +45,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<EnvironmentInfoSO,System.String> <>9__12_0
     static void _set_$$9__12_0(System::Func_2<GlobalNamespace::EnvironmentInfoSO*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1052AB0
+    // Offset: 0x1058A70
     static void _cctor();
     // System.String <SetData>b__12_0(EnvironmentInfoSO x)
-    // Offset: 0x1052B1C
+    // Offset: 0x1058ADC
     ::Il2CppString* $SetData$b__12_0(GlobalNamespace::EnvironmentInfoSO* x);
     // public System.Void .ctor()
-    // Offset: 0x1052B14
+    // Offset: 0x1058AD4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

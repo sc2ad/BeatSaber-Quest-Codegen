@@ -253,106 +253,106 @@ namespace GlobalNamespace {
     // Get instance field reference: protected UnityEngine.Camera _rightEyeCamera
     UnityEngine::Camera*& dyn__rightEyeCamera();
     // public UnityEngine.Camera get_leftEyeCamera()
-    // Offset: 0x1294968
+    // Offset: 0x12AC824
     UnityEngine::Camera* get_leftEyeCamera();
     // public UnityEngine.Camera get_rightEyeCamera()
-    // Offset: 0x1294984
+    // Offset: 0x12AC840
     UnityEngine::Camera* get_rightEyeCamera();
     // public UnityEngine.Transform get_trackingSpace()
-    // Offset: 0x12949A0
+    // Offset: 0x12AC85C
     UnityEngine::Transform* get_trackingSpace();
     // private System.Void set_trackingSpace(UnityEngine.Transform value)
-    // Offset: 0x12949A8
+    // Offset: 0x12AC864
     void set_trackingSpace(UnityEngine::Transform* value);
     // public UnityEngine.Transform get_leftEyeAnchor()
-    // Offset: 0x12949B0
+    // Offset: 0x12AC86C
     UnityEngine::Transform* get_leftEyeAnchor();
     // private System.Void set_leftEyeAnchor(UnityEngine.Transform value)
-    // Offset: 0x12949B8
+    // Offset: 0x12AC874
     void set_leftEyeAnchor(UnityEngine::Transform* value);
     // public UnityEngine.Transform get_centerEyeAnchor()
-    // Offset: 0x12949C0
+    // Offset: 0x12AC87C
     UnityEngine::Transform* get_centerEyeAnchor();
     // private System.Void set_centerEyeAnchor(UnityEngine.Transform value)
-    // Offset: 0x12949C8
+    // Offset: 0x12AC884
     void set_centerEyeAnchor(UnityEngine::Transform* value);
     // public UnityEngine.Transform get_rightEyeAnchor()
-    // Offset: 0x12949D0
+    // Offset: 0x12AC88C
     UnityEngine::Transform* get_rightEyeAnchor();
     // private System.Void set_rightEyeAnchor(UnityEngine.Transform value)
-    // Offset: 0x12949D8
+    // Offset: 0x12AC894
     void set_rightEyeAnchor(UnityEngine::Transform* value);
     // public UnityEngine.Transform get_leftHandAnchor()
-    // Offset: 0x12949E0
+    // Offset: 0x12AC89C
     UnityEngine::Transform* get_leftHandAnchor();
     // private System.Void set_leftHandAnchor(UnityEngine.Transform value)
-    // Offset: 0x12949E8
+    // Offset: 0x12AC8A4
     void set_leftHandAnchor(UnityEngine::Transform* value);
     // public UnityEngine.Transform get_rightHandAnchor()
-    // Offset: 0x12949F0
+    // Offset: 0x12AC8AC
     UnityEngine::Transform* get_rightHandAnchor();
     // private System.Void set_rightHandAnchor(UnityEngine.Transform value)
-    // Offset: 0x12949F8
+    // Offset: 0x12AC8B4
     void set_rightHandAnchor(UnityEngine::Transform* value);
     // public UnityEngine.Transform get_leftControllerAnchor()
-    // Offset: 0x1294A00
+    // Offset: 0x12AC8BC
     UnityEngine::Transform* get_leftControllerAnchor();
     // private System.Void set_leftControllerAnchor(UnityEngine.Transform value)
-    // Offset: 0x1294A08
+    // Offset: 0x12AC8C4
     void set_leftControllerAnchor(UnityEngine::Transform* value);
     // public UnityEngine.Transform get_rightControllerAnchor()
-    // Offset: 0x1294A10
+    // Offset: 0x12AC8CC
     UnityEngine::Transform* get_rightControllerAnchor();
     // private System.Void set_rightControllerAnchor(UnityEngine.Transform value)
-    // Offset: 0x1294A18
+    // Offset: 0x12AC8D4
     void set_rightControllerAnchor(UnityEngine::Transform* value);
     // public UnityEngine.Transform get_trackerAnchor()
-    // Offset: 0x1294A20
+    // Offset: 0x12AC8DC
     UnityEngine::Transform* get_trackerAnchor();
     // private System.Void set_trackerAnchor(UnityEngine.Transform value)
-    // Offset: 0x1294A28
+    // Offset: 0x12AC8E4
     void set_trackerAnchor(UnityEngine::Transform* value);
     // public System.Void add_UpdatedAnchors(System.Action`1<OVRCameraRig> value)
-    // Offset: 0x1294A30
+    // Offset: 0x12AC8EC
     void add_UpdatedAnchors(System::Action_1<GlobalNamespace::OVRCameraRig*>* value);
     // public System.Void remove_UpdatedAnchors(System.Action`1<OVRCameraRig> value)
-    // Offset: 0x1294AD4
+    // Offset: 0x12AC990
     void remove_UpdatedAnchors(System::Action_1<GlobalNamespace::OVRCameraRig*>* value);
     // protected System.Void Awake()
-    // Offset: 0x1294B78
+    // Offset: 0x12ACA34
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x1294B8C
+    // Offset: 0x12ACA48
     void Start();
     // protected System.Void FixedUpdate()
-    // Offset: 0x1294C1C
+    // Offset: 0x12ACAD8
     void FixedUpdate();
     // protected System.Void Update()
-    // Offset: 0x1294C3C
+    // Offset: 0x12ACAF8
     void Update();
     // protected System.Void OnDestroy()
-    // Offset: 0x1294C60
+    // Offset: 0x12ACB1C
     void OnDestroy();
     // protected System.Void UpdateAnchors(System.Boolean updateEyeAnchors, System.Boolean updateHandAnchors)
-    // Offset: 0x1294CD8
+    // Offset: 0x12ACB94
     void UpdateAnchors(bool updateEyeAnchors, bool updateHandAnchors);
     // protected System.Void OnBeforeRenderCallback()
-    // Offset: 0x1295B4C
+    // Offset: 0x12ADA08
     void OnBeforeRenderCallback();
     // protected System.Void RaiseUpdatedAnchorsEvent()
-    // Offset: 0x1295C58
+    // Offset: 0x12ADB14
     void RaiseUpdatedAnchorsEvent();
     // public System.Void EnsureGameObjectIntegrity()
-    // Offset: 0x1295CBC
+    // Offset: 0x12ADB78
     void EnsureGameObjectIntegrity();
     // protected UnityEngine.Transform ConfigureAnchor(UnityEngine.Transform root, System.String name)
-    // Offset: 0x1296548
+    // Offset: 0x12AE404
     UnityEngine::Transform* ConfigureAnchor(UnityEngine::Transform* root, ::Il2CppString* name);
     // public UnityEngine.Matrix4x4 ComputeTrackReferenceMatrix()
-    // Offset: 0x1296780
+    // Offset: 0x12AE63C
     UnityEngine::Matrix4x4 ComputeTrackReferenceMatrix();
     // public System.Void .ctor()
-    // Offset: 0x1296A7C
+    // Offset: 0x12AE938
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

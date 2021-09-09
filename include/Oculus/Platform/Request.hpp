@@ -39,26 +39,26 @@ namespace Oculus::Platform {
     // Get instance field reference: private System.UInt64 <RequestID>k__BackingField
     uint64_t& dyn_$RequestID$k__BackingField();
     // public System.UInt64 get_RequestID()
-    // Offset: 0x23D8470
+    // Offset: 0x23B3980
     uint64_t get_RequestID();
     // public System.Void set_RequestID(System.UInt64 value)
-    // Offset: 0x23D8478
+    // Offset: 0x23B3988
     void set_RequestID(uint64_t value);
     // public System.Void .ctor(System.UInt64 requestID)
-    // Offset: 0x23D8444
+    // Offset: 0x23B20E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Request* New_ctor(uint64_t requestID) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Request::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Request*, creationType>(requestID)));
     }
     // public Oculus.Platform.Request OnComplete(Oculus.Platform.Message/Oculus.Platform.Callback callback)
-    // Offset: 0x23D8480
+    // Offset: 0x23B3990
     Oculus::Platform::Request* OnComplete(Oculus::Platform::Message::Callback* callback);
     // public System.Void HandleMessage(Oculus.Platform.Message msg)
-    // Offset: 0x23D8500
+    // Offset: 0x23B3A10
     void HandleMessage(Oculus::Platform::Message* msg);
     // static public System.Void RunCallbacks(System.UInt32 limit)
-    // Offset: 0x23D8598
+    // Offset: 0x23B3AA8
     static void RunCallbacks(uint limit);
   }; // Oculus.Platform.Request
   #pragma pack(pop)

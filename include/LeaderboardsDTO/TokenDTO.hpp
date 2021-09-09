@@ -37,7 +37,7 @@ namespace LeaderboardsDTO {
     // Get instance field reference: public System.Int32 expireIn
     int& dyn_expireIn();
     // public System.Void .ctor()
-    // Offset: 0x11490E0
+    // Offset: 0x118C6B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

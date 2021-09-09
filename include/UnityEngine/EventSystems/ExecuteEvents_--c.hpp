@@ -41,13 +41,13 @@ namespace UnityEngine::EventSystems {
     // Set static field: static public readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.<>c <>9
     static void _set_$$9(UnityEngine::EventSystems::ExecuteEvents::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x146A7E4
+    // Offset: 0x14727A0
     static void _cctor();
     // System.Void <.cctor>b__79_0(System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler> l)
-    // Offset: 0x146A850
+    // Offset: 0x147280C
     void $_cctor$b__79_0(System::Collections::Generic::List_1<UnityEngine::EventSystems::IEventSystemHandler*>* l);
     // public System.Void .ctor()
-    // Offset: 0x146A848
+    // Offset: 0x1472804
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

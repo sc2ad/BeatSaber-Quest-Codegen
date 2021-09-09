@@ -65,22 +65,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _noteJumpStartBeatOffset
     float& dyn__noteJumpStartBeatOffset();
     // public System.String get_difficulty()
-    // Offset: 0x108C2BC
+    // Offset: 0x10690BC
     ::Il2CppString* get_difficulty();
     // public System.Int32 get_difficultyRank()
-    // Offset: 0x108C2C4
+    // Offset: 0x10690C4
     int get_difficultyRank();
     // public System.String get_beatmapFilename()
-    // Offset: 0x108C2CC
+    // Offset: 0x10690CC
     ::Il2CppString* get_beatmapFilename();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0x108C2D4
+    // Offset: 0x10690D4
     float get_noteJumpMovementSpeed();
     // public System.Single get_noteJumpStartBeatOffset()
-    // Offset: 0x108C2DC
+    // Offset: 0x10690DC
     float get_noteJumpStartBeatOffset();
     // public System.Void .ctor(System.String difficultyName, System.Int32 difficultyRank, System.String beatmapFilename, System.Single noteJumpMovementSpeed, System.Single noteJumpStartBeatOffset)
-    // Offset: 0x108C22C
+    // Offset: 0x106902C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelInfoSaveData::DifficultyBeatmap* New_ctor(::Il2CppString* difficultyName, int difficultyRank, ::Il2CppString* beatmapFilename, float noteJumpMovementSpeed, float noteJumpStartBeatOffset) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmap::.ctor");

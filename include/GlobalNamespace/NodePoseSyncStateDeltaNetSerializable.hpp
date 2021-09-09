@@ -86,40 +86,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 <timeOffsetMs>k__BackingField
     int& dyn_$timeOffsetMs$k__BackingField();
     // public SyncStateId get_baseId()
-    // Offset: 0x16EFB5C
+    // Offset: 0x16F5390
     GlobalNamespace::SyncStateId get_baseId();
     // public System.Void set_baseId(SyncStateId value)
-    // Offset: 0x16EFB64
+    // Offset: 0x16F5398
     void set_baseId(GlobalNamespace::SyncStateId value);
     // public System.Int32 get_timeOffsetMs()
-    // Offset: 0x16EFB6C
+    // Offset: 0x16F53A0
     int get_timeOffsetMs();
     // public System.Void set_timeOffsetMs(System.Int32 value)
-    // Offset: 0x16EFB74
+    // Offset: 0x16F53A8
     void set_timeOffsetMs(int value);
     // public NodePoseSyncState get_delta()
-    // Offset: 0x16EFB7C
+    // Offset: 0x16F53B0
     GlobalNamespace::NodePoseSyncState get_delta();
     // public System.Void set_delta(NodePoseSyncState value)
-    // Offset: 0x16EFB8C
+    // Offset: 0x16F53C0
     void set_delta(GlobalNamespace::NodePoseSyncState value);
     // static private System.Void .cctor()
-    // Offset: 0x16EFE28
+    // Offset: 0x16F565C
     static void _cctor();
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x16EFBA8
+    // Offset: 0x16F53DC
     static void NoDomainReloadInit();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x16EFC24
+    // Offset: 0x16F5458
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x16EFCF4
+    // Offset: 0x16F5528
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x16EFD9C
+    // Offset: 0x16F55D0
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x16EFE20
+    // Offset: 0x16F5654
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

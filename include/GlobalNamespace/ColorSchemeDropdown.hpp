@@ -117,28 +117,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _initialized
     bool& dyn__initialized();
     // private System.Void LazyInit()
-    // Offset: 0x10EF604
+    // Offset: 0x10E301C
     void LazyInit();
     // public System.Void SetData(System.Collections.Generic.IReadOnlyList`1<ColorScheme> colorSchemes)
-    // Offset: 0x10EF79C
+    // Offset: 0x10E31B4
     void SetData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::ColorScheme*>* colorSchemes);
     // public System.Single CellSize()
-    // Offset: 0x10EF9D4
+    // Offset: 0x10E33EC
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x10EF9DC
+    // Offset: 0x10E33F4
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0x10EFA98
+    // Offset: 0x10E34B0
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int idx);
     // private System.Void HandleDidSelectCellWithIdx(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0x10EFE50
+    // Offset: 0x10E3868
     void HandleDidSelectCellWithIdx(HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
     // private System.Void RefreshUI(ColorScheme colorScheme)
-    // Offset: 0x10EF908
+    // Offset: 0x10E3320
     void RefreshUI(GlobalNamespace::ColorScheme* colorScheme);
     // public System.Void .ctor()
-    // Offset: 0x10F00E4
+    // Offset: 0x10E3AFC
     // Implemented from: HMUI.DropdownWithTableView
     // Base method: System.Void DropdownWithTableView::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -152,17 +152,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ColorSchemeDropdown*, creationType>()));
     }
     // protected override System.Void OnDestroy()
-    // Offset: 0x10EF6B0
+    // Offset: 0x10E30C8
     // Implemented from: HMUI.DropdownWithTableView
     // Base method: System.Void DropdownWithTableView::OnDestroy()
     void OnDestroy();
     // public System.Void Init(HMUI.TableView/HMUI.IDataSource initTableViewDataSource)
-    // Offset: 0x10EF73C
+    // Offset: 0x10E3154
     // Implemented from: HMUI.DropdownWithTableView
     // Base method: System.Void DropdownWithTableView::Init(HMUI.TableView/HMUI.IDataSource initTableViewDataSource)
     void Init(HMUI::TableView::IDataSource* initTableViewDataSource);
     // public override System.Void SelectCellWithIdx(System.Int32 idx)
-    // Offset: 0x10EFD74
+    // Offset: 0x10E378C
     // Implemented from: HMUI.DropdownWithTableView
     // Base method: System.Void DropdownWithTableView::SelectCellWithIdx(System.Int32 idx)
     void SelectCellWithIdx(int idx);

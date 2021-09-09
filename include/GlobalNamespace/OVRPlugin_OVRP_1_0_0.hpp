@@ -30,19 +30,19 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static private System.Void .cctor()
-    // Offset: 0x162A988
+    // Offset: 0x16321BC
     static void _cctor();
     // static public OVRPlugin/TrackingOrigin ovrp_GetTrackingOriginType()
-    // Offset: 0x162A79C
+    // Offset: 0x1631FD0
     static GlobalNamespace::OVRPlugin::TrackingOrigin ovrp_GetTrackingOriginType();
     // static public OVRPlugin/Bool ovrp_SetTrackingOriginType(OVRPlugin/TrackingOrigin originType)
-    // Offset: 0x162A810
+    // Offset: 0x1632044
     static GlobalNamespace::OVRPlugin::Bool ovrp_SetTrackingOriginType(GlobalNamespace::OVRPlugin::TrackingOrigin originType);
     // static public OVRPlugin/Posef ovrp_GetTrackingCalibratedOrigin()
-    // Offset: 0x162A890
+    // Offset: 0x16320C4
     static GlobalNamespace::OVRPlugin::Posef ovrp_GetTrackingCalibratedOrigin();
     // static public OVRPlugin/Bool ovrp_RecenterTrackingOrigin(System.UInt32 flags)
-    // Offset: 0x162A908
+    // Offset: 0x163213C
     static GlobalNamespace::OVRPlugin::Bool ovrp_RecenterTrackingOrigin(uint flags);
   }; // OVRPlugin/OVRP_1_0_0
   #pragma pack(pop)

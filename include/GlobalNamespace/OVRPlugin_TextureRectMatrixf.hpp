@@ -66,10 +66,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Vector4 rightScaleBias
     UnityEngine::Vector4& dyn_rightScaleBias();
     // static private System.Void .cctor()
-    // Offset: 0x1632C84
+    // Offset: 0x163A4B8
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0x1632A9C
+    // Offset: 0x163A2D0
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

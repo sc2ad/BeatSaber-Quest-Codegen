@@ -46,7 +46,7 @@ namespace Zenject {
     // Get instance field reference: public System.Int32 Priority
     int& dyn_Priority();
     // public System.Void .ctor(Zenject.ILateDisposable lateDisposable, System.Int32 priority)
-    // Offset: 0x16556A4
+    // Offset: 0x165CED8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisposableManager::LateDisposableInfo* New_ctor(Zenject::ILateDisposable* lateDisposable, int priority) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DisposableManager::LateDisposableInfo::.ctor");

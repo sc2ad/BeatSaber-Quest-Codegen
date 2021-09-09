@@ -63,10 +63,10 @@ namespace HMUI {
     // Get instance field reference: public System.Single[] endPositions
     ::Array<float>*& dyn_endPositions();
     // System.Void <PushViewController>g__AnimationLayouter|0(System.Single t, HMUI.ViewController[] viewControllers)
-    // Offset: 0x12F92B8
+    // Offset: 0x1310F88
     void $PushViewController$g__AnimationLayouter_0(float t, ::Array<HMUI::ViewController*>* viewControllers);
     // public System.Void .ctor()
-    // Offset: 0x12F8D84
+    // Offset: 0x1310A54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

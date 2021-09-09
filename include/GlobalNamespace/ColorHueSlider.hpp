@@ -61,16 +61,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`3<ColorHueSlider,System.Single,ColorChangeUIEventType> colorHueDidChangeEvent
     System::Action_3<GlobalNamespace::ColorHueSlider*, float, GlobalNamespace::ColorChangeUIEventType>*& dyn_colorHueDidChangeEvent();
     // public System.Void add_colorHueDidChangeEvent(System.Action`3<ColorHueSlider,System.Single,ColorChangeUIEventType> value)
-    // Offset: 0x10ED7FC
+    // Offset: 0x10E1214
     void add_colorHueDidChangeEvent(System::Action_3<GlobalNamespace::ColorHueSlider*, float, GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void remove_colorHueDidChangeEvent(System.Action`3<ColorHueSlider,System.Single,ColorChangeUIEventType> value)
-    // Offset: 0x10ED8A4
+    // Offset: 0x10E12BC
     void remove_colorHueDidChangeEvent(System::Action_3<GlobalNamespace::ColorHueSlider*, float, GlobalNamespace::ColorChangeUIEventType>* value);
     // private System.Void HandleNormalizedValueDidChange(HMUI.CircleSlider slider, System.Single normalizedValue)
-    // Offset: 0x10EDAF8
+    // Offset: 0x10E1510
     void HandleNormalizedValueDidChange(HMUI::CircleSlider* slider, float normalizedValue);
     // public System.Void .ctor()
-    // Offset: 0x10EDC00
+    // Offset: 0x10E1618
     // Implemented from: HMUI.CircleSlider
     // Base method: System.Void CircleSlider::.ctor()
     // Base method: System.Void Selectable::.ctor()
@@ -86,22 +86,22 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ColorHueSlider*, creationType>()));
     }
     // protected override System.Void Awake()
-    // Offset: 0x10ED94C
+    // Offset: 0x10E1364
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::Awake()
     void Awake();
     // protected override System.Void OnDestroy()
-    // Offset: 0x10ED9D8
+    // Offset: 0x10E13F0
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDestroy()
     void OnDestroy();
     // protected override System.Void UpdateVisuals()
-    // Offset: 0x10EDA64
+    // Offset: 0x10E147C
     // Implemented from: HMUI.CircleSlider
     // Base method: System.Void CircleSlider::UpdateVisuals()
     void UpdateVisuals();
     // public override System.Void OnPointerUp(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x10EDB74
+    // Offset: 0x10E158C
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::OnPointerUp(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerUp(UnityEngine::EventSystems::PointerEventData* eventData);

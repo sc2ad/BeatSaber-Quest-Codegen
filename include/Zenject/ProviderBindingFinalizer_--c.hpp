@@ -46,16 +46,16 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Type,System.String> <>9__8_0
     static void _set_$$9__8_0(System::Func_2<System::Type*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1719C2C
+    // Offset: 0x1720460
     static void _cctor();
     // System.String <GetScope>b__7_0(System.Type x)
-    // Offset: 0x1719C98
+    // Offset: 0x17204CC
     ::Il2CppString* $GetScope$b__7_0(System::Type* x);
     // System.String <FinalizeBinding>b__8_0(System.Type x)
-    // Offset: 0x1719D00
+    // Offset: 0x1720534
     ::Il2CppString* $FinalizeBinding$b__8_0(System::Type* x);
     // public System.Void .ctor()
-    // Offset: 0x1719C90
+    // Offset: 0x17204C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -92,16 +92,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.AddressableAssets.AssetReference _btsCharacterAssetReference
     UnityEngine::AddressableAssets::AssetReference*& dyn__btsCharacterAssetReference();
     // public System.String get_name()
-    // Offset: 0x10D4774
+    // Offset: 0x10DBAAC
     ::Il2CppString* get_name();
     // public System.Void Clean()
-    // Offset: 0x10D44C4
+    // Offset: 0x10DB7FC
     void Clean();
     // public System.Void SetCharacter(UnityEngine.AddressableAssets.AssetReference assetReference, BTSCharacter btsCharacter, System.Boolean alternativeMaterial)
-    // Offset: 0x10D4040
+    // Offset: 0x10DB378
     void SetCharacter(UnityEngine::AddressableAssets::AssetReference* assetReference, GlobalNamespace::BTSCharacter* btsCharacter, bool alternativeMaterial);
     // public System.Void .ctor()
-    // Offset: 0x10D477C
+    // Offset: 0x10DBAB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

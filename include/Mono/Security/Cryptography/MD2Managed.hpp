@@ -71,16 +71,16 @@ namespace Mono::Security::Cryptography {
     // Get instance field reference: private System.Byte[] x
     ::Array<uint8_t>*& dyn_x();
     // static private System.Void .cctor()
-    // Offset: 0x1E00B0C
+    // Offset: 0x1E007D0
     static void _cctor();
     // private System.Byte[] Padding(System.Int32 nLength)
-    // Offset: 0x1E00598
+    // Offset: 0x1E0025C
     ::Array<uint8_t>* Padding(int nLength);
     // private System.Void MD2Transform(System.Byte[] state, System.Byte[] checksum, System.Byte[] block, System.Int32 index)
-    // Offset: 0x1E00784
+    // Offset: 0x1E00448
     void MD2Transform(::Array<uint8_t>* state, ::Array<uint8_t>* checksum, ::Array<uint8_t>* block, int index);
     // public System.Void .ctor()
-    // Offset: 0x1E004EC
+    // Offset: 0x1E001B0
     // Implemented from: Mono.Security.Cryptography.MD2
     // Base method: System.Void MD2::.ctor()
     // Base method: System.Void HashAlgorithm::.ctor()
@@ -91,17 +91,17 @@ namespace Mono::Security::Cryptography {
       return THROW_UNLESS((::il2cpp_utils::New<MD2Managed*, creationType>()));
     }
     // public override System.Void Initialize()
-    // Offset: 0x1E00644
+    // Offset: 0x1E00308
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::Initialize()
     void Initialize();
     // protected override System.Void HashCore(System.Byte[] array, System.Int32 ibStart, System.Int32 cbSize)
-    // Offset: 0x1E006B0
+    // Offset: 0x1E00374
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::HashCore(System.Byte[] array, System.Int32 ibStart, System.Int32 cbSize)
     void HashCore(::Array<uint8_t>* array, int ibStart, int cbSize);
     // protected override System.Byte[] HashFinal()
-    // Offset: 0x1E00A14
+    // Offset: 0x1E006D8
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Byte[] HashAlgorithm::HashFinal()
     ::Array<uint8_t>* HashFinal();

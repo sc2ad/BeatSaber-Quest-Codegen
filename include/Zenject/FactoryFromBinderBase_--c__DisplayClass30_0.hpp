@@ -59,10 +59,10 @@ namespace Zenject {
     // Get instance field reference: public System.String resourcePath
     ::Il2CppString*& dyn_resourcePath();
     // Zenject.IProvider <FromComponentInNewPrefabResource>b__0(Zenject.DiContainer container)
-    // Offset: 0x1658530
+    // Offset: 0x165FD64
     Zenject::IProvider* $FromComponentInNewPrefabResource$b__0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x16577F8
+    // Offset: 0x165F02C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

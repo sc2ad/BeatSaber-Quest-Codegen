@@ -113,7 +113,7 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Text.RegularExpressions.SharedReference _replref
     System::Text::RegularExpressions::SharedReference*& dyn__replref();
     // System.Void .ctor(System.String key, System.Collections.Hashtable capnames, System.String[] capslist, System.Text.RegularExpressions.RegexCode code, System.Collections.Hashtable caps, System.Int32 capsize, System.Text.RegularExpressions.ExclusiveReference runner, System.Text.RegularExpressions.SharedReference repl)
-    // Offset: 0x18675F8
+    // Offset: 0x186EE2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CachedCodeEntry* New_ctor(::Il2CppString* key, System::Collections::Hashtable* capnames, ::Array<::Il2CppString*>* capslist, System::Text::RegularExpressions::RegexCode* code, System::Collections::Hashtable* caps, int capsize, System::Text::RegularExpressions::ExclusiveReference* runner, System::Text::RegularExpressions::SharedReference* repl) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::CachedCodeEntry::.ctor");

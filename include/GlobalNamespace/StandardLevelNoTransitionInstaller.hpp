@@ -114,7 +114,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useTestNoteCutSoundEffects and: scenesTransitionSetupData
     char __padding9[0x7] = {};
-    // [SpaceAttribute] Offset: 0xE46134
+    // [SpaceAttribute] Offset: 0xE4C180
     // private StandardLevelScenesTransitionSetupDataSO _scenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x68
@@ -152,13 +152,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private StandardLevelScenesTransitionSetupDataSO _scenesTransitionSetupData
     GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*& dyn__scenesTransitionSetupData();
     // public ColorSchemeSO get_colorScheme()
-    // Offset: 0x108C6F4
+    // Offset: 0x10694F4
     GlobalNamespace::ColorSchemeSO* get_colorScheme();
     // public System.Void set_colorScheme(ColorSchemeSO value)
-    // Offset: 0x108C6FC
+    // Offset: 0x10694FC
     void set_colorScheme(GlobalNamespace::ColorSchemeSO* value);
     // public System.Void .ctor()
-    // Offset: 0x108CDC0
+    // Offset: 0x1069BC0
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -172,7 +172,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelNoTransitionInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x108C704
+    // Offset: 0x1069504
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::InstallBindings(Zenject.DiContainer container)
     void InstallBindings(Zenject::DiContainer* container);

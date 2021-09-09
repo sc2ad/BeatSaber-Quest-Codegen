@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Gradient _gradient
     UnityEngine::Gradient*& dyn__gradient();
     // public System.Void .ctor()
-    // Offset: 0x1E13614
+    // Offset: 0x1E132D8
     // Implemented from: BloomPrePassBackgroundTextureGradient
     // Base method: System.Void BloomPrePassBackgroundTextureGradient::.ctor()
     // Base method: System.Void BloomPrePassNonLightPass::.ctor()
@@ -59,7 +59,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBackgroundGradient*, creationType>()));
     }
     // protected override System.Void UpdatePixels(Unity.Collections.NativeArray`1<UnityEngine.Color32> pixels, System.Int32 numberOfPixels)
-    // Offset: 0x1E1359C
+    // Offset: 0x1E13260
     // Implemented from: BloomPrePassBackgroundTextureGradient
     // Base method: System.Void BloomPrePassBackgroundTextureGradient::UpdatePixels(Unity.Collections.NativeArray`1<UnityEngine.Color32> pixels, System.Int32 numberOfPixels)
     void UpdatePixels(Unity::Collections::NativeArray_1<UnityEngine::Color32> pixels, int numberOfPixels);

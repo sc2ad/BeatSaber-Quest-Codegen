@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single songSpeedMul
     float& dyn_songSpeedMul();
     // public System.Void .ctor()
-    // Offset: 0x113764C
+    // Offset: 0x11F6D1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

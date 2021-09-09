@@ -96,37 +96,37 @@ namespace MasterServer {
     // Get instance field reference: private readonly System.Byte[] _data
     ::Array<uint8_t>*& dyn__data();
     // public System.UInt32 get_multipartMessageId()
-    // Offset: 0x1214D98
+    // Offset: 0x121A698
     uint get_multipartMessageId();
     // private System.Void set_multipartMessageId(System.UInt32 value)
-    // Offset: 0x1214DA0
+    // Offset: 0x121A6A0
     void set_multipartMessageId(uint value);
     // public System.Int32 get_offset()
-    // Offset: 0x1214DA8
+    // Offset: 0x121A6A8
     int get_offset();
     // private System.Void set_offset(System.Int32 value)
-    // Offset: 0x1214DB0
+    // Offset: 0x121A6B0
     void set_offset(int value);
     // public System.Int32 get_length()
-    // Offset: 0x1214DB8
+    // Offset: 0x121A6B8
     int get_length();
     // private System.Void set_length(System.Int32 value)
-    // Offset: 0x1214DC0
+    // Offset: 0x121A6C0
     void set_length(int value);
     // public System.Int32 get_totalLength()
-    // Offset: 0x1214DC8
+    // Offset: 0x121A6C8
     int get_totalLength();
     // private System.Void set_totalLength(System.Int32 value)
-    // Offset: 0x1214DD0
+    // Offset: 0x121A6D0
     void set_totalLength(int value);
     // public System.Byte[] get_data()
-    // Offset: 0x1214DD8
+    // Offset: 0x121A6D8
     ::Array<uint8_t>* get_data();
     // public MasterServer.BaseMasterServerMultipartMessage Init(System.UInt32 multipartMessageId, System.Byte[] data, System.Int32 offset, System.Int32 length, System.Int32 totalLength)
-    // Offset: 0x1214DE0
+    // Offset: 0x121A6E0
     MasterServer::BaseMasterServerMultipartMessage* Init(uint multipartMessageId, ::Array<uint8_t>* data, int offset, int length, int totalLength);
     // protected System.Void .ctor()
-    // Offset: 0x1215028
+    // Offset: 0x121A928
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -136,12 +136,12 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<BaseMasterServerMultipartMessage*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1214E3C
+    // Offset: 0x121A73C
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1214EC0
+    // Offset: 0x121A7C0
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);

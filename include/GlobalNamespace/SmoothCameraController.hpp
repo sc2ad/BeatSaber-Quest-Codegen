@@ -63,22 +63,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private LIV.SDK.Unity.LIV _liv
     LIV::SDK::Unity::LIV*& dyn__liv();
     // protected System.Void Start()
-    // Offset: 0x107DFD4
+    // Offset: 0x109AA58
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x107E164
+    // Offset: 0x109ABE8
     void OnDestroy();
     // private System.Void HandleLIVDidActivate()
-    // Offset: 0x107E168
+    // Offset: 0x109ABEC
     void HandleLIVDidActivate();
     // private System.Void HandleLIVDidDeactivate()
-    // Offset: 0x107E1B8
+    // Offset: 0x109AC3C
     void HandleLIVDidDeactivate();
     // private System.Void ActivateSmoothCameraIfNeeded()
-    // Offset: 0x107DFD8
+    // Offset: 0x109AA5C
     void ActivateSmoothCameraIfNeeded();
     // public System.Void .ctor()
-    // Offset: 0x107E1BC
+    // Offset: 0x109AC40
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

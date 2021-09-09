@@ -61,16 +61,16 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Action TriggerCheckerOnStayEvent
     System::Action*& dyn_TriggerCheckerOnStayEvent();
     // private System.Void OnTriggerEnter(UnityEngine.Collider other)
-    // Offset: 0x239A73C
+    // Offset: 0x2396424
     void OnTriggerEnter(UnityEngine::Collider* other);
     // private System.Void OnTriggerExit(UnityEngine.Collider other)
-    // Offset: 0x239A750
+    // Offset: 0x2396438
     void OnTriggerExit(UnityEngine::Collider* other);
     // private System.Void OnTriggerStay(UnityEngine.Collider other)
-    // Offset: 0x239A764
+    // Offset: 0x239644C
     void OnTriggerStay(UnityEngine::Collider* other);
     // public System.Void .ctor()
-    // Offset: 0x239A778
+    // Offset: 0x2396460
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

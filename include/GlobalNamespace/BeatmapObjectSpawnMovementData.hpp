@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     struct ObstacleSpawnData;
     // Nested type: GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData
     struct NoteSpawnData;
-    // [HeaderAttribute] Offset: 0xE35DD8
+    // [HeaderAttribute] Offset: 0xE3BD58
     // private UnityEngine.Vector3 _centerPos
     // Size: 0xC
     // Offset: 0x10
@@ -53,8 +53,8 @@ namespace GlobalNamespace {
     float noteLinesDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0xE35E34
-    // [TooltipAttribute] Offset: 0xE35E34
+    // [HeaderAttribute] Offset: 0xE3BDB4
+    // [TooltipAttribute] Offset: 0xE3BDB4
     // private System.Single _maxHalfJumpDistance
     // Size: 0x4
     // Offset: 0x20
@@ -85,7 +85,7 @@ namespace GlobalNamespace {
     float topLinesHighestJumpPosY;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0xE35EE4
+    // [HeaderAttribute] Offset: 0xE3BE64
     // private System.Single _moveSpeed
     // Size: 0x4
     // Offset: 0x34
@@ -116,7 +116,7 @@ namespace GlobalNamespace {
     float topLinesYPos;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0xE35F70
+    // [HeaderAttribute] Offset: 0xE3BEF0
     // private System.Single _verticalObstaclePosY
     // Size: 0x4
     // Offset: 0x48
@@ -288,64 +288,64 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _forwardVec
     UnityEngine::Vector3& dyn__forwardVec();
     // public System.Single get_spawnAheadTime()
-    // Offset: 0x10CCE00
+    // Offset: 0x10D4138
     float get_spawnAheadTime();
     // public System.Single get_moveDuration()
-    // Offset: 0x10CCE08
+    // Offset: 0x10D4140
     float get_moveDuration();
     // public System.Single get_jumpDuration()
-    // Offset: 0x10CCE10
+    // Offset: 0x10D4148
     float get_jumpDuration();
     // public System.Single get_noteLinesDistance()
-    // Offset: 0x10CCE18
+    // Offset: 0x10D4150
     float get_noteLinesDistance();
     // public System.Single get_verticalLayersDistance()
-    // Offset: 0x10CB460
+    // Offset: 0x10D2798
     float get_verticalLayersDistance();
     // public System.Single get_jumpDistance()
-    // Offset: 0x10CCE20
+    // Offset: 0x10D4158
     float get_jumpDistance();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0x10CCE28
+    // Offset: 0x10D4160
     float get_noteJumpMovementSpeed();
     // public System.Void Init(System.Int32 noteLinesCount, System.Single startNoteJumpMovementSpeed, System.Single startBpm, System.Single noteJumpStartBeatOffset, System.Single jumpOffsetY, UnityEngine.Vector3 rightVec, UnityEngine.Vector3 forwardVec)
-    // Offset: 0x10CBBE0
+    // Offset: 0x10D2F18
     void Init(int noteLinesCount, float startNoteJumpMovementSpeed, float startBpm, float noteJumpStartBeatOffset, float jumpOffsetY, UnityEngine::Vector3 rightVec, UnityEngine::Vector3 forwardVec);
     // public System.Void Update(System.Single bpm, System.Single jumpOffsetY)
-    // Offset: 0x10CC63C
+    // Offset: 0x10D3974
     void Update(float bpm, float jumpOffsetY);
     // public BeatmapObjectSpawnMovementData/ObstacleSpawnData GetObstacleSpawnData(ObstacleData obstacleData)
-    // Offset: 0x10CBF70
+    // Offset: 0x10D32A8
     GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData GetObstacleSpawnData(GlobalNamespace::ObstacleData* obstacleData);
     // public BeatmapObjectSpawnMovementData/NoteSpawnData GetJumpingNoteSpawnData(NoteData noteData)
-    // Offset: 0x10CC254
+    // Offset: 0x10D358C
     GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData GetJumpingNoteSpawnData(GlobalNamespace::NoteData* noteData);
     // public UnityEngine.Vector3 GetNoteOffset(System.Int32 noteLineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0x10CCE30
+    // Offset: 0x10D4168
     UnityEngine::Vector3 GetNoteOffset(int noteLineIndex, GlobalNamespace::NoteLineLayer noteLineLayer);
     // public UnityEngine.Vector2 Get2DNoteOffset(System.Int32 noteLineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0x10CC908
+    // Offset: 0x10D3C40
     UnityEngine::Vector2 Get2DNoteOffset(int noteLineIndex, GlobalNamespace::NoteLineLayer noteLineLayer);
     // public System.Single JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(NoteLineLayer lineLayer, System.Single distanceFromPlayer)
-    // Offset: 0x10CC994
+    // Offset: 0x10D3CCC
     float JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(GlobalNamespace::NoteLineLayer lineLayer, float distanceFromPlayer);
     // private System.Single HighestJumpPosYForLineLayer(NoteLineLayer lineLayer)
-    // Offset: 0x10CD0D4
+    // Offset: 0x10D440C
     float HighestJumpPosYForLineLayer(GlobalNamespace::NoteLineLayer lineLayer);
     // private System.Single HighestJumpPosYForLineLayerWithoutJumpOffset(NoteLineLayer lineLayer)
-    // Offset: 0x10CD104
+    // Offset: 0x10D443C
     float HighestJumpPosYForLineLayerWithoutJumpOffset(GlobalNamespace::NoteLineLayer lineLayer);
     // private System.Single LineYPosForLineLayer(NoteLineLayer lineLayer)
-    // Offset: 0x10CD040
+    // Offset: 0x10D4378
     float LineYPosForLineLayer(GlobalNamespace::NoteLineLayer lineLayer);
     // private System.Single NoteJumpGravityForLineLayer(NoteLineLayer lineLayer, NoteLineLayer beforeJumpLineLayer)
-    // Offset: 0x10CCF9C
+    // Offset: 0x10D42D4
     float NoteJumpGravityForLineLayer(GlobalNamespace::NoteLineLayer lineLayer, GlobalNamespace::NoteLineLayer beforeJumpLineLayer);
     // private System.Single NoteJumpGravityForLineLayerWithoutJumpOffset(NoteLineLayer lineLayer, NoteLineLayer beforeJumpLineLayer)
-    // Offset: 0x10CD068
+    // Offset: 0x10D43A0
     float NoteJumpGravityForLineLayerWithoutJumpOffset(GlobalNamespace::NoteLineLayer lineLayer, GlobalNamespace::NoteLineLayer beforeJumpLineLayer);
     // public System.Void .ctor()
-    // Offset: 0x10CCAB4
+    // Offset: 0x10D3DEC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

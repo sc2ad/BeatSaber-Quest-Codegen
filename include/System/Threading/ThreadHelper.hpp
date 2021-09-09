@@ -63,26 +63,26 @@ namespace System::Threading {
     // Get instance field reference: private System.Threading.ExecutionContext _executionContext
     System::Threading::ExecutionContext*& dyn__executionContext();
     // static private System.Void .cctor()
-    // Offset: 0x18786DC
+    // Offset: 0x187FF10
     static void _cctor();
     // System.Void .ctor(System.Delegate start)
-    // Offset: 0x1877D14
+    // Offset: 0x187F548
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ThreadHelper* New_ctor(System::Delegate* start) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ThreadHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ThreadHelper*, creationType>(start)));
     }
     // System.Void SetExecutionContextHelper(System.Threading.ExecutionContext ec)
-    // Offset: 0x1878758
+    // Offset: 0x187FF8C
     void SetExecutionContextHelper(System::Threading::ExecutionContext* ec);
     // static private System.Void ThreadStart_Context(System.Object state)
-    // Offset: 0x1878760
+    // Offset: 0x187FF94
     static void ThreadStart_Context(::Il2CppObject* state);
     // System.Void ThreadStart(System.Object obj)
-    // Offset: 0x1878A50
+    // Offset: 0x1880284
     void ThreadStart(::Il2CppObject* obj);
     // System.Void ThreadStart()
-    // Offset: 0x1878B48
+    // Offset: 0x188037C
     void ThreadStart();
   }; // System.Threading.ThreadHelper
   #pragma pack(pop)

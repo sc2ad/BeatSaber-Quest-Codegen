@@ -41,14 +41,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SceneStartSyncController : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xE34E18
+    // [InjectAttribute] Offset: 0xE3AD98
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE34E28
+    // [InjectAttribute] Offset: 0xE3ADA8
     // private readonly IGameplayRpcManager _gameplayRpcManager
     // Size: 0x8
     // Offset: 0x20
@@ -132,43 +132,43 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _sceneSyncStarted
     bool& dyn__sceneSyncStarted();
     // public System.Void add_syncStartDidSuccessEvent(System.Action`1<System.String> value)
-    // Offset: 0x1198EC4
+    // Offset: 0x1135AA0
     void add_syncStartDidSuccessEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_syncStartDidSuccessEvent(System.Action`1<System.String> value)
-    // Offset: 0x1198F68
+    // Offset: 0x1135B44
     void remove_syncStartDidSuccessEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void add_syncStartDidReceiveTooLateEvent(System.Action`1<System.String> value)
-    // Offset: 0x119900C
+    // Offset: 0x1135BE8
     void add_syncStartDidReceiveTooLateEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_syncStartDidReceiveTooLateEvent(System.Action`1<System.String> value)
-    // Offset: 0x11990B0
+    // Offset: 0x1135C8C
     void remove_syncStartDidReceiveTooLateEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void add_syncStartDidFailEvent(System.Action value)
-    // Offset: 0x1199154
+    // Offset: 0x1135D30
     void add_syncStartDidFailEvent(System::Action* value);
     // public System.Void remove_syncStartDidFailEvent(System.Action value)
-    // Offset: 0x11991F8
+    // Offset: 0x1135DD4
     void remove_syncStartDidFailEvent(System::Action* value);
     // protected System.Void Start()
-    // Offset: 0x119929C
+    // Offset: 0x1135E78
     void Start();
     // protected System.Void Update()
-    // Offset: 0x11992B4
+    // Offset: 0x1135E90
     void Update();
     // protected System.Void OnDestroy()
-    // Offset: 0x1199314
+    // Offset: 0x1135EF0
     void OnDestroy();
     // public System.Void StartSceneLoadSync(PlayersSpecificSettingsAtGameStartModel playersAtGameStartModel)
-    // Offset: 0x1199410
+    // Offset: 0x1135FEC
     void StartSceneLoadSync(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersAtGameStartModel);
     // private System.Void HandleSceneSetupDidFinish(System.String sessionGameId)
-    // Offset: 0x1199554
+    // Offset: 0x1136130
     void HandleSceneSetupDidFinish(::Il2CppString* sessionGameId);
     // private System.Void HandleSceneSetupDidReceiveTooLate(System.String sessionGameId)
-    // Offset: 0x11995D8
+    // Offset: 0x11361B4
     void HandleSceneSetupDidReceiveTooLate(::Il2CppString* sessionGameId);
     // public System.Void .ctor()
-    // Offset: 0x119965C
+    // Offset: 0x1136238
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

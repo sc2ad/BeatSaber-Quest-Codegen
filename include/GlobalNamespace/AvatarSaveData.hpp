@@ -151,7 +151,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Color clothesDetailColor
     UnityEngine::Color& dyn_clothesDetailColor();
     // public System.Void .ctor()
-    // Offset: 0x1180324
+    // Offset: 0x1179F9C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

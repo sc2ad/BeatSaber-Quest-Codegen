@@ -94,22 +94,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _targetPos
     UnityEngine::Vector3& dyn__targetPos();
     // public UnityEngine.Vector3 get_TargetPos()
-    // Offset: 0x239A910
+    // Offset: 0x23965F8
     UnityEngine::Vector3 get_TargetPos();
     // public System.Void set_TargetPos(UnityEngine.Vector3 value)
-    // Offset: 0x239A780
+    // Offset: 0x2396468
     void set_TargetPos(UnityEngine::Vector3 value);
     // protected System.Void Awake()
-    // Offset: 0x239A91C
+    // Offset: 0x2396604
     void Awake();
     // private System.Void AnimateToNewPos(UnityEngine.Vector3 pos)
-    // Offset: 0x239A860
+    // Offset: 0x2396548
     void AnimateToNewPos(UnityEngine::Vector3 pos);
     // private System.Collections.IEnumerator AnimateToNewPosCoroutine(UnityEngine.Vector3 pos)
-    // Offset: 0x239A944
+    // Offset: 0x239662C
     System::Collections::IEnumerator* AnimateToNewPosCoroutine(UnityEngine::Vector3 pos);
     // public System.Void .ctor()
-    // Offset: 0x239A9E0
+    // Offset: 0x23966C8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

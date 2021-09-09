@@ -47,20 +47,20 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     // Creating value type constructor for type: RequestLightsDelegate
     RequestLightsDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C2A510
+    // Offset: 0x1C556A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Lightmapping::RequestLightsDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLightsDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Lightmapping::RequestLightsDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(UnityEngine.Light[] requests, Unity.Collections.NativeArray`1<UnityEngine.Experimental.GlobalIllumination.LightDataGI> lightsOutput)
-    // Offset: 0x1C2A03C
+    // Offset: 0x1C551D4
     void Invoke(::Array<UnityEngine::Light*>* requests, Unity::Collections::NativeArray_1<UnityEngine::Experimental::GlobalIllumination::LightDataGI> lightsOutput);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Light[] requests, Unity.Collections.NativeArray`1<UnityEngine.Experimental.GlobalIllumination.LightDataGI> lightsOutput, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C2A860
+    // Offset: 0x1C559F8
     System::IAsyncResult* BeginInvoke(::Array<UnityEngine::Light*>* requests, Unity::Collections::NativeArray_1<UnityEngine::Experimental::GlobalIllumination::LightDataGI> lightsOutput, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1C2A8FC
+    // Offset: 0x1C55A94
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Experimental.GlobalIllumination.Lightmapping/UnityEngine.Experimental.GlobalIllumination.RequestLightsDelegate
   #pragma pack(pop)

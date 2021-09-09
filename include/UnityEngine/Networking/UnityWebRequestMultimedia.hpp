@@ -29,7 +29,7 @@ namespace UnityEngine::Networking {
     // Creating value type constructor for type: UnityWebRequestMultimedia
     UnityWebRequestMultimedia() noexcept {}
     // static public UnityEngine.Networking.UnityWebRequest GetAudioClip(System.String uri, UnityEngine.AudioType audioType)
-    // Offset: 0x242037C
+    // Offset: 0x241D0C8
     static UnityEngine::Networking::UnityWebRequest* GetAudioClip(::Il2CppString* uri, UnityEngine::AudioType audioType);
   }; // UnityEngine.Networking.UnityWebRequestMultimedia
   #pragma pack(pop)

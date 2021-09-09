@@ -68,28 +68,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <animating>k__BackingField
     bool& dyn_$animating$k__BackingField();
     // public System.Boolean get_animating()
-    // Offset: 0x10F8060
+    // Offset: 0x10EBA78
     bool get_animating();
     // private System.Void set_animating(System.Boolean value)
-    // Offset: 0x10F8068
+    // Offset: 0x10EBA80
     void set_animating(bool value);
     // protected System.Void Start()
-    // Offset: 0x10F8074
+    // Offset: 0x10EBA8C
     void Start();
     // private System.Collections.IEnumerator AnimateToCutoutCoroutine(System.Single cutoutStart, System.Single cutoutEnd, System.Single duration)
-    // Offset: 0x10F80F4
+    // Offset: 0x10EBB0C
     System::Collections::IEnumerator* AnimateToCutoutCoroutine(float cutoutStart, float cutoutEnd, float duration);
     // private System.Void SetCutout(System.Single cutout)
-    // Offset: 0x10F807C
+    // Offset: 0x10EBA94
     void SetCutout(float cutout);
     // public System.Void ResetEffect()
-    // Offset: 0x10F827C
+    // Offset: 0x10EBC94
     void ResetEffect();
     // public System.Void AnimateCutout(System.Single cutoutStart, System.Single cutoutEnd, System.Single duration)
-    // Offset: 0x10F82AC
+    // Offset: 0x10EBCC4
     void AnimateCutout(float cutoutStart, float cutoutEnd, float duration);
     // public System.Void .ctor()
-    // Offset: 0x10F830C
+    // Offset: 0x10EBD24
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

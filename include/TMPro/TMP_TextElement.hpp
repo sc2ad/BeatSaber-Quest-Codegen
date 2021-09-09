@@ -72,34 +72,34 @@ namespace TMPro {
     // Get instance field reference: private System.Single m_Scale
     float& dyn_m_Scale();
     // public TMPro.TextElementType get_elementType()
-    // Offset: 0x144E0D8
+    // Offset: 0x1456094
     TMPro::TextElementType get_elementType();
     // public System.UInt32 get_unicode()
-    // Offset: 0x144E0E0
+    // Offset: 0x145609C
     uint get_unicode();
     // public System.Void set_unicode(System.UInt32 value)
-    // Offset: 0x144E0E8
+    // Offset: 0x14560A4
     void set_unicode(uint value);
     // public UnityEngine.TextCore.Glyph get_glyph()
-    // Offset: 0x144E0F0
+    // Offset: 0x14560AC
     UnityEngine::TextCore::Glyph* get_glyph();
     // public System.Void set_glyph(UnityEngine.TextCore.Glyph value)
-    // Offset: 0x144E0F8
+    // Offset: 0x14560B4
     void set_glyph(UnityEngine::TextCore::Glyph* value);
     // public System.UInt32 get_glyphIndex()
-    // Offset: 0x144E100
+    // Offset: 0x14560BC
     uint get_glyphIndex();
     // public System.Void set_glyphIndex(System.UInt32 value)
-    // Offset: 0x144E108
+    // Offset: 0x14560C4
     void set_glyphIndex(uint value);
     // public System.Single get_scale()
-    // Offset: 0x144E110
+    // Offset: 0x14560CC
     float get_scale();
     // public System.Void set_scale(System.Single value)
-    // Offset: 0x144E118
+    // Offset: 0x14560D4
     void set_scale(float value);
     // public System.Void .ctor()
-    // Offset: 0x144E120
+    // Offset: 0x14560DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

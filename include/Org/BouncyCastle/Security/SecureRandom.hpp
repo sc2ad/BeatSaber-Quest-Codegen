@@ -56,35 +56,35 @@ namespace Org::BouncyCastle::Security {
     // Get instance field reference: protected readonly Org.BouncyCastle.Crypto.Prng.IRandomGenerator generator
     Org::BouncyCastle::Crypto::Prng::IRandomGenerator*& dyn_generator();
     // static private Org.BouncyCastle.Security.SecureRandom get_Master()
-    // Offset: 0x13C3E54
+    // Offset: 0x13CAE10
     static Org::BouncyCastle::Security::SecureRandom* get_Master();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Prng.IRandomGenerator generator)
-    // Offset: 0x13C4184
+    // Offset: 0x13CB140
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecureRandom* New_ctor(Org::BouncyCastle::Crypto::Prng::IRandomGenerator* generator) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Security::SecureRandom::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecureRandom*, creationType>(generator)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x13C4624
+    // Offset: 0x13CB5E0
     static void _cctor();
     // static private System.Int64 NextCounterValue()
-    // Offset: 0x13C3DEC
+    // Offset: 0x13CADA8
     static int64_t NextCounterValue();
     // static private Org.BouncyCastle.Crypto.Prng.DigestRandomGenerator CreatePrng(System.String digestName, System.Boolean autoSeed)
-    // Offset: 0x13C3EBC
+    // Offset: 0x13CAE78
     static Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator* CreatePrng(::Il2CppString* digestName, bool autoSeed);
     // static public System.Byte[] GetNextBytes(Org.BouncyCastle.Security.SecureRandom secureRandom, System.Int32 length)
-    // Offset: 0x13C4074
+    // Offset: 0x13CB030
     static ::Array<uint8_t>* GetNextBytes(Org::BouncyCastle::Security::SecureRandom* secureRandom, int length);
     // public System.Int32 NextInt()
-    // Offset: 0x13C453C
+    // Offset: 0x13CB4F8
     int NextInt();
     // public System.Int64 NextLong()
-    // Offset: 0x13C45B0
+    // Offset: 0x13CB56C
     int64_t NextLong();
     // public System.Void .ctor()
-    // Offset: 0x13C40F8
+    // Offset: 0x13CB0B4
     // Implemented from: System.Random
     // Base method: System.Void Random::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -94,27 +94,27 @@ namespace Org::BouncyCastle::Security {
       return THROW_UNLESS((::il2cpp_utils::New<SecureRandom*, creationType>()));
     }
     // public override System.Int32 Next()
-    // Offset: 0x13C41B4
+    // Offset: 0x13CB170
     // Implemented from: System.Random
     // Base method: System.Int32 Random::Next()
     int Next();
     // public override System.Int32 Next(System.Int32 maxValue)
-    // Offset: 0x13C41D4
+    // Offset: 0x13CB190
     // Implemented from: System.Random
     // Base method: System.Int32 Random::Next(System.Int32 maxValue)
     int Next(int maxValue);
     // public override System.Int32 Next(System.Int32 minValue, System.Int32 maxValue)
-    // Offset: 0x13C42D8
+    // Offset: 0x13CB294
     // Implemented from: System.Random
     // Base method: System.Int32 Random::Next(System.Int32 minValue, System.Int32 maxValue)
     int Next(int minValue, int maxValue);
     // public override System.Void NextBytes(System.Byte[] buf)
-    // Offset: 0x13C43BC
+    // Offset: 0x13CB378
     // Implemented from: System.Random
     // Base method: System.Void Random::NextBytes(System.Byte[] buf)
     void NextBytes(::Array<uint8_t>* buf);
     // public override System.Double NextDouble()
-    // Offset: 0x13C447C
+    // Offset: 0x13CB438
     // Implemented from: System.Random
     // Base method: System.Double Random::NextDouble()
     double NextDouble();

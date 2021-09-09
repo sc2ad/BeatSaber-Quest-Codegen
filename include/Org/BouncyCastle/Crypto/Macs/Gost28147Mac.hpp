@@ -94,43 +94,43 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Get instance field reference: private System.Byte[] S
     ::Array<uint8_t>*& dyn_S();
     // static private System.Int32[] GenerateWorkingKey(System.Byte[] userKey)
-    // Offset: 0x190DBD0
+    // Offset: 0x1916404
     static ::Array<int>* GenerateWorkingKey(::Array<uint8_t>* userKey);
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x190DD54
+    // Offset: 0x1916588
     void Init(Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetMacSize()
-    // Offset: 0x190E004
+    // Offset: 0x1916838
     int GetMacSize();
     // private System.Int32 gost28147_mainStep(System.Int32 n1, System.Int32 key)
-    // Offset: 0x190E00C
+    // Offset: 0x1916840
     int gost28147_mainStep(int n1, int key);
     // private System.Void gost28147MacFunc(System.Int32[] workingKey, System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x190E100
+    // Offset: 0x1916934
     void gost28147MacFunc(::Array<int>* workingKey, ::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
     // static private System.Int32 bytesToint(System.Byte[] input, System.Int32 inOff)
-    // Offset: 0x190DCD4
+    // Offset: 0x1916508
     static int bytesToint(::Array<uint8_t>* input, int inOff);
     // static private System.Void intTobytes(System.Int32 num, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x190E1F0
+    // Offset: 0x1916A24
     static void intTobytes(int num, ::Array<uint8_t>* output, int outOff);
     // static private System.Byte[] CM5func(System.Byte[] buf, System.Int32 bufOff, System.Byte[] mac)
-    // Offset: 0x190E27C
+    // Offset: 0x1916AB0
     static ::Array<uint8_t>* CM5func(::Array<uint8_t>* buf, int bufOff, ::Array<uint8_t>* mac);
     // public System.Void Update(System.Byte input)
-    // Offset: 0x190E370
+    // Offset: 0x1916BA4
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x190E498
+    // Offset: 0x1916CCC
     void BlockUpdate(::Array<uint8_t>* input, int inOff, int len);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x190E6A8
+    // Offset: 0x1916EDC
     int DoFinal(::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x190DFC0
+    // Offset: 0x19167F4
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x190DB1C
+    // Offset: 0x1916350
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -39,20 +39,20 @@ namespace LiteNetLib::Utils {
     // Creating value type constructor for type: SubscribeDelegate
     SubscribeDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x2411538
+    // Offset: 0x240E284
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPacketProcessor::SubscribeDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetPacketProcessor::SubscribeDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(LiteNetLib.Utils.NetDataReader reader, System.Object userData)
-    // Offset: 0x2411150
+    // Offset: 0x240DE9C
     void Invoke(LiteNetLib::Utils::NetDataReader* reader, ::Il2CppObject* userData);
     // public System.IAsyncResult BeginInvoke(LiteNetLib.Utils.NetDataReader reader, System.Object userData, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x2411548
+    // Offset: 0x240E294
     System::IAsyncResult* BeginInvoke(LiteNetLib::Utils::NetDataReader* reader, ::Il2CppObject* userData, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x2411578
+    // Offset: 0x240E2C4
     void EndInvoke(System::IAsyncResult* result);
   }; // LiteNetLib.Utils.NetPacketProcessor/LiteNetLib.Utils.SubscribeDelegate
   #pragma pack(pop)

@@ -43,30 +43,30 @@ namespace GlobalNamespace {
     GlobalNamespace::SaberTrailRenderer* trailRendererPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberTrailRenderer*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE37840
-    // [TooltipAttribute] Offset: 0xE37840
+    // [HeaderAttribute] Offset: 0xE3D7C0
+    // [TooltipAttribute] Offset: 0xE3D7C0
     // private System.Single _trailDuration
     // Size: 0x4
     // Offset: 0x20
     float trailDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE378B0
+    // [TooltipAttribute] Offset: 0xE3D830
     // private System.Int32 _samplingFrequency
     // Size: 0x4
     // Offset: 0x24
     int samplingFrequency;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [TooltipAttribute] Offset: 0xE378FC
+    // [TooltipAttribute] Offset: 0xE3D87C
     // private System.Int32 _granularity
     // Size: 0x4
     // Offset: 0x28
     int granularity;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [RangeAttribute] Offset: 0xE37948
-    // [TooltipAttribute] Offset: 0xE37948
+    // [RangeAttribute] Offset: 0xE3D8C8
+    // [TooltipAttribute] Offset: 0xE3D8C8
     // private System.Single _whiteSectionMaxDuration
     // Size: 0x4
     // Offset: 0x2C
@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: colorOverwrite and: forcedColor
     char __padding5[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xE379BC
+    // [DrawIfAttribute] Offset: 0xE3D93C
     // private UnityEngine.Color _forcedColor
     // Size: 0x10
     // Offset: 0x34
@@ -209,37 +209,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _inited
     bool& dyn__inited();
     // private System.Void Awake()
-    // Offset: 0x1195C88
+    // Offset: 0x1132864
     void Awake();
     // public System.Void Setup(UnityEngine.Color color, IBladeMovementData movementData)
-    // Offset: 0x119426C
+    // Offset: 0x1130E48
     void Setup(UnityEngine::Color color, GlobalNamespace::IBladeMovementData* movementData);
     // private System.Void Init()
-    // Offset: 0x1195DAC
+    // Offset: 0x1132988
     void Init();
     // private System.Void ResetTrailData()
-    // Offset: 0x11960DC
+    // Offset: 0x1132CB8
     void ResetTrailData();
     // protected System.Void LateUpdate()
-    // Offset: 0x11961C4
+    // Offset: 0x1132DA0
     void LateUpdate();
     // protected System.Void OnEnable()
-    // Offset: 0x11967B0
+    // Offset: 0x113338C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1196878
+    // Offset: 0x1133454
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0x119690C
+    // Offset: 0x11334E8
     void OnDestroy();
     // private System.Single GetTrailWidth(BladeMovementDataElement lastAddedData)
-    // Offset: 0x1196014
+    // Offset: 0x1132BF0
     float GetTrailWidth(GlobalNamespace::BladeMovementDataElement lastAddedData);
     // private System.Void OnDrawGizmosSelected()
-    // Offset: 0x11969D8
+    // Offset: 0x11335B4
     void OnDrawGizmosSelected();
     // public System.Void .ctor()
-    // Offset: 0x1196BB4
+    // Offset: 0x1133790
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

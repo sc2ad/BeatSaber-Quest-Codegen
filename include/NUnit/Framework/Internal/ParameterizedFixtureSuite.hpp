@@ -42,12 +42,12 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: private System.Boolean _genericFixture
     bool& dyn__genericFixture();
     // public override System.String get_TestType()
-    // Offset: 0x2299138
+    // Offset: 0x2295DFC
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_TestType()
     ::Il2CppString* get_TestType();
     // public System.Void .ctor(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x2298ED4
+    // Offset: 0x2295B98
     // Implemented from: NUnit.Framework.Internal.TestSuite
     // Base method: System.Void TestSuite::.ctor(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
     // Base method: System.Void Test::.ctor(NUnit.Framework.Interfaces.ITypeInfo typeInfo)

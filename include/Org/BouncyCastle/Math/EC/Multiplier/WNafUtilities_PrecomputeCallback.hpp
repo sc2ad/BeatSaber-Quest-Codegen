@@ -67,20 +67,20 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Get instance field reference: private readonly System.Boolean m_includeNegated
     bool& dyn_m_includeNegated();
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECPoint p, System.Int32 minWidth, System.Boolean includeNegated)
-    // Offset: 0x1DCAD28
+    // Offset: 0x1DCA9EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WNafUtilities::PrecomputeCallback* New_ctor(Org::BouncyCastle::Math::EC::ECPoint* p, int minWidth, bool includeNegated) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::PrecomputeCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WNafUtilities::PrecomputeCallback*, creationType>(p, minWidth, includeNegated)));
     }
     // public Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
-    // Offset: 0x1DCB210
+    // Offset: 0x1DCAED4
     Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
     // private System.Boolean CheckExisting(Org.BouncyCastle.Math.EC.Multiplier.WNafPreCompInfo existingWNaf, System.Int32 width, System.Int32 reqPreCompLen, System.Boolean includeNegated)
-    // Offset: 0x1DCBA30
+    // Offset: 0x1DCB6F4
     bool CheckExisting(Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* existingWNaf, int width, int reqPreCompLen, bool includeNegated);
     // private System.Boolean CheckTable(Org.BouncyCastle.Math.EC.ECPoint[] table, System.Int32 reqLen)
-    // Offset: 0x1DCBB48
+    // Offset: 0x1DCB80C
     bool CheckTable(::Array<Org::BouncyCastle::Math::EC::ECPoint*>* table, int reqLen);
   }; // Org.BouncyCastle.Math.EC.Multiplier.WNafUtilities/Org.BouncyCastle.Math.EC.Multiplier.PrecomputeCallback
   #pragma pack(pop)

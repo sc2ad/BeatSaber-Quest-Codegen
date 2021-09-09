@@ -25,7 +25,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Creating value type constructor for type: Threefish256Cipher
     Threefish256Cipher() noexcept {}
     // public System.Void .ctor(System.UInt64[] kw, System.UInt64[] t)
-    // Offset: 0x1ECB874
+    // Offset: 0x1ECC538
     // Implemented from: Org.BouncyCastle.Crypto.Engines.ThreefishEngine/Org.BouncyCastle.Crypto.Engines.ThreefishCipher
     // Base method: System.Void ThreefishCipher::.ctor(System.UInt64[] kw, System.UInt64[] t)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -34,12 +34,12 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return THROW_UNLESS((::il2cpp_utils::New<ThreefishEngine::Threefish256Cipher*, creationType>(kw, t)));
     }
     // override System.Void EncryptBlock(System.UInt64[] block, System.UInt64[] outWords)
-    // Offset: 0x1ECDC90
+    // Offset: 0x1ECE954
     // Implemented from: Org.BouncyCastle.Crypto.Engines.ThreefishEngine/Org.BouncyCastle.Crypto.Engines.ThreefishCipher
     // Base method: System.Void ThreefishCipher::EncryptBlock(System.UInt64[] block, System.UInt64[] outWords)
     void EncryptBlock(::Array<uint64_t>* block, ::Array<uint64_t>* outWords);
     // override System.Void DecryptBlock(System.UInt64[] block, System.UInt64[] state)
-    // Offset: 0x1ECE090
+    // Offset: 0x1ECED54
     // Implemented from: Org.BouncyCastle.Crypto.Engines.ThreefishEngine/Org.BouncyCastle.Crypto.Engines.ThreefishCipher
     // Base method: System.Void ThreefishCipher::DecryptBlock(System.UInt64[] block, System.UInt64[] state)
     void DecryptBlock(::Array<uint64_t>* block, ::Array<uint64_t>* state);

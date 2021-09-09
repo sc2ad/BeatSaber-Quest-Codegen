@@ -35,10 +35,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.KeyCode _keyCode
     UnityEngine::KeyCode& dyn__keyCode();
     // private System.Void Update()
-    // Offset: 0x239693C
+    // Offset: 0x2392624
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x2396968
+    // Offset: 0x2392650
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

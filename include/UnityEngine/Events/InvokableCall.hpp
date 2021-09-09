@@ -32,7 +32,7 @@ namespace UnityEngine::Events {
   // [TokenAttribute] Offset: FFFFFFFF
   class InvokableCall : public UnityEngine::Events::BaseInvokableCall {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xDB35D8
+    // [DebuggerBrowsableAttribute] Offset: 0xDB9548
     // private UnityEngine.Events.UnityAction Delegate
     // Size: 0x8
     // Offset: 0x10
@@ -48,23 +48,23 @@ namespace UnityEngine::Events {
     // Get instance field reference: private UnityEngine.Events.UnityAction Delegate
     UnityEngine::Events::UnityAction*& dyn_Delegate();
     // private System.Void add_Delegate(UnityEngine.Events.UnityAction value)
-    // Offset: 0x1C276CC
+    // Offset: 0x1C52864
     void add_Delegate(UnityEngine::Events::UnityAction* value);
     // private System.Void remove_Delegate(UnityEngine.Events.UnityAction value)
-    // Offset: 0x1C27770
+    // Offset: 0x1C52908
     void remove_Delegate(UnityEngine::Events::UnityAction* value);
     // public System.Void .ctor(UnityEngine.Events.UnityAction action)
-    // Offset: 0x1C278EC
+    // Offset: 0x1C52A84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvokableCall* New_ctor(UnityEngine::Events::UnityAction* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::InvokableCall::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InvokableCall*, creationType>(action)));
     }
     // public System.Void Invoke()
-    // Offset: 0x1C2795C
+    // Offset: 0x1C52AF4
     void Invoke();
     // public System.Void .ctor(System.Object target, System.Reflection.MethodInfo theFunction)
-    // Offset: 0x1C27814
+    // Offset: 0x1C529AC
     // Implemented from: UnityEngine.Events.BaseInvokableCall
     // Base method: System.Void BaseInvokableCall::.ctor(System.Object target, System.Reflection.MethodInfo theFunction)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -73,12 +73,12 @@ namespace UnityEngine::Events {
       return THROW_UNLESS((::il2cpp_utils::New<InvokableCall*, creationType>(target, theFunction)));
     }
     // public override System.Void Invoke(System.Object[] args)
-    // Offset: 0x1C2791C
+    // Offset: 0x1C52AB4
     // Implemented from: UnityEngine.Events.BaseInvokableCall
     // Base method: System.Void BaseInvokableCall::Invoke(System.Object[] args)
     void Invoke(::Array<::Il2CppObject*>* args);
     // public override System.Boolean Find(System.Object targetObj, System.Reflection.MethodInfo method)
-    // Offset: 0x1C2799C
+    // Offset: 0x1C52B34
     // Implemented from: UnityEngine.Events.BaseInvokableCall
     // Base method: System.Boolean BaseInvokableCall::Find(System.Object targetObj, System.Reflection.MethodInfo method)
     bool Find(::Il2CppObject* targetObj, System::Reflection::MethodInfo* method);

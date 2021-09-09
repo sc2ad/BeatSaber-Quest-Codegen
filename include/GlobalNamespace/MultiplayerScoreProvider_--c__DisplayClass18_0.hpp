@@ -36,10 +36,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String userId
     ::Il2CppString*& dyn_userId();
     // System.Boolean <GetPositionOfPlayer>b__0(MultiplayerScoreProvider/RankedPlayer p)
-    // Offset: 0x1037C9C
+    // Offset: 0x1040600
     bool $GetPositionOfPlayer$b__0(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* p);
     // public System.Void .ctor()
-    // Offset: 0x1037B3C
+    // Offset: 0x10404A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

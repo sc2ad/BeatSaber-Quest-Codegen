@@ -68,7 +68,7 @@ namespace Oculus::Platform {
     // Get instance field reference: public System.UInt32 parameterArrayCount
     uint& dyn_parameterArrayCount();
     // public System.Void .ctor(System.String key, Oculus.Platform.MatchmakingCriterionImportance importance)
-    // Offset: 0x14DBAB0
+    // Offset: 0x151F29C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ovrMatchmakingCriterion(::Il2CppString* key, Oculus::Platform::MatchmakingCriterionImportance importance) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::CAPI::ovrMatchmakingCriterion::.ctor");

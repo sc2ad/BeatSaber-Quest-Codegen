@@ -94,10 +94,10 @@ namespace Zenject {
     // Get instance field reference: public UnityEngine.GameObject gameObj
     UnityEngine::GameObject*& dyn_gameObj();
     // System.Void <GetAllInstancesWithInjectSplit>b__0()
-    // Offset: 0x13DA518
+    // Offset: 0x13E14D4
     void $GetAllInstancesWithInjectSplit$b__0();
     // public System.Void .ctor()
-    // Offset: 0x13DA510
+    // Offset: 0x13E14CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

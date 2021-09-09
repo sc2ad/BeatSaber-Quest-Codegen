@@ -83,13 +83,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private BombExecutionRating/Rating <rating>k__BackingField
     GlobalNamespace::BombExecutionRating::Rating& dyn_$rating$k__BackingField();
     // public BombExecutionRating/Rating get_rating()
-    // Offset: 0x10D2BAC
+    // Offset: 0x10D9EE4
     GlobalNamespace::BombExecutionRating::Rating get_rating();
     // public System.Void set_rating(BombExecutionRating/Rating value)
-    // Offset: 0x10D2BB4
+    // Offset: 0x10D9EEC
     void set_rating(GlobalNamespace::BombExecutionRating::Rating value);
     // public System.Void .ctor(System.Single time, BombExecutionRating/Rating rating)
-    // Offset: 0x10C8A58
+    // Offset: 0x10CFD90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BombExecutionRating* New_ctor(float time, GlobalNamespace::BombExecutionRating::Rating rating) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BombExecutionRating::.ctor");

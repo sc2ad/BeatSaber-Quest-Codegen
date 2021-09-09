@@ -39,12 +39,12 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Renderer _renderer
     UnityEngine::Renderer*& dyn__renderer();
     // protected override UnityEngine.Renderer get_renderer()
-    // Offset: 0x1E136C8
+    // Offset: 0x1E1338C
     // Implemented from: BloomPrePassBackgroundNonLightRendererCore
     // Base method: UnityEngine.Renderer BloomPrePassBackgroundNonLightRendererCore::get_renderer()
     UnityEngine::Renderer* get_renderer();
     // public System.Void .ctor()
-    // Offset: 0x1E136D0
+    // Offset: 0x1E13394
     // Implemented from: BloomPrePassBackgroundNonLightRendererCore
     // Base method: System.Void BloomPrePassBackgroundNonLightRendererCore::.ctor()
     // Base method: System.Void BloomPrePassNonLightPass::.ctor()

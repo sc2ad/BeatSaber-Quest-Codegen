@@ -48,10 +48,10 @@ namespace System::Net::Http::Headers {
       return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, input, minimalCount, parser, byref(result));
     }
     // static public System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.String> result)
-    // Offset: 0x159E1C0
+    // Offset: 0x15A89F4
     static bool TryParse(::Il2CppString* input, int minimalCount, ByRef<System::Collections::Generic::List_1<::Il2CppString*>*> result);
     // static private System.Boolean TryParseStringElement(System.Net.Http.Headers.Lexer lexer, out System.String parsedValue, out System.Net.Http.Headers.Token t)
-    // Offset: 0x159E260
+    // Offset: 0x15A8A94
     static bool TryParseStringElement(System::Net::Http::Headers::Lexer* lexer, ByRef<::Il2CppString*> parsedValue, ByRef<System::Net::Http::Headers::Token> t);
   }; // System.Net.Http.Headers.CollectionParser
   #pragma pack(pop)

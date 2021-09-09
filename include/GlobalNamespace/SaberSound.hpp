@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     float downSmooth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE3C2D0
+    // [TooltipAttribute] Offset: 0xE42250
     // private System.Single _noSoundTopThresholdSqr
     // Size: 0x4
     // Offset: 0x44
@@ -117,13 +117,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _speed
     float& dyn__speed();
     // protected System.Void Start()
-    // Offset: 0x1194BF4
+    // Offset: 0x11317D0
     void Start();
     // protected System.Void Update()
-    // Offset: 0x1194C2C
+    // Offset: 0x1131808
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1194E54
+    // Offset: 0x1131A30
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

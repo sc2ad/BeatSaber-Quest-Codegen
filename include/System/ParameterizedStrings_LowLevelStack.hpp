@@ -39,16 +39,16 @@ namespace System {
     // Get instance field reference: private System.Int32 _count
     int& dyn__count();
     // public System.ParameterizedStrings/System.FormatParam Pop()
-    // Offset: 0x1D0FDF8
+    // Offset: 0x1D11ABC
     System::ParameterizedStrings::FormatParam Pop();
     // public System.Void Push(System.ParameterizedStrings/System.FormatParam item)
-    // Offset: 0x1D10194
+    // Offset: 0x1D11E58
     void Push(System::ParameterizedStrings::FormatParam item);
     // public System.Void Clear()
-    // Offset: 0x1D0F51C
+    // Offset: 0x1D111E0
     void Clear();
     // public System.Void .ctor()
-    // Offset: 0x1D0F4C4
+    // Offset: 0x1D11188
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

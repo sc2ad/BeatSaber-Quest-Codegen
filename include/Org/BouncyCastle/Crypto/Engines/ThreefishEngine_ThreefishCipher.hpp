@@ -39,7 +39,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: protected readonly System.UInt64[] kw
     ::Array<uint64_t>*& dyn_kw();
     // protected System.Void .ctor(System.UInt64[] kw, System.UInt64[] t)
-    // Offset: 0x1ECC69C
+    // Offset: 0x1ECD360
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ThreefishEngine::ThreefishCipher* New_ctor(::Array<uint64_t>* kw, ::Array<uint64_t>* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Engines::ThreefishEngine::ThreefishCipher::.ctor");

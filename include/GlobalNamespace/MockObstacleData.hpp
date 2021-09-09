@@ -63,37 +63,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 <width>k__BackingField
     int& dyn_$width$k__BackingField();
     // public System.Single get_time()
-    // Offset: 0x23E0D18
+    // Offset: 0x23DCA64
     float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0x23E0D20
+    // Offset: 0x23DCA6C
     void set_time(float value);
     // public System.Int32 get_lineIndex()
-    // Offset: 0x23E0D28
+    // Offset: 0x23DCA74
     int get_lineIndex();
     // public System.Void set_lineIndex(System.Int32 value)
-    // Offset: 0x23E0D30
+    // Offset: 0x23DCA7C
     void set_lineIndex(int value);
     // public ObstacleType get_obstacleType()
-    // Offset: 0x23E0D38
+    // Offset: 0x23DCA84
     GlobalNamespace::ObstacleType get_obstacleType();
     // public System.Void set_obstacleType(ObstacleType value)
-    // Offset: 0x23E0D40
+    // Offset: 0x23DCA8C
     void set_obstacleType(GlobalNamespace::ObstacleType value);
     // public System.Single get_duration()
-    // Offset: 0x23E0D48
+    // Offset: 0x23DCA94
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x23E0D50
+    // Offset: 0x23DCA9C
     void set_duration(float value);
     // public System.Int32 get_width()
-    // Offset: 0x23E0D58
+    // Offset: 0x23DCAA4
     int get_width();
     // public System.Void set_width(System.Int32 value)
-    // Offset: 0x23E0D60
+    // Offset: 0x23DCAAC
     void set_width(int value);
     // public System.Void .ctor()
-    // Offset: 0x23E0D68
+    // Offset: 0x23DCAB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

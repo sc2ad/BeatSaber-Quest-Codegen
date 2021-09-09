@@ -23,7 +23,7 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: UnicastIPAddressInformation
     UnicastIPAddressInformation() noexcept {}
     // protected System.Void .ctor()
-    // Offset: 0x1498B3C
+    // Offset: 0x14A0AF8
     // Implemented from: System.Net.NetworkInformation.IPAddressInformation
     // Base method: System.Void IPAddressInformation::.ctor()
     // Base method: System.Void Object::.ctor()

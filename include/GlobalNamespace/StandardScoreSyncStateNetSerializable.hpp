@@ -82,37 +82,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <time>k__BackingField
     float& dyn_$time$k__BackingField();
     // static public PacketPool`1<StandardScoreSyncStateNetSerializable> get_pool()
-    // Offset: 0x16FB2B8
+    // Offset: 0x1700AEC
     static GlobalNamespace::PacketPool_1<GlobalNamespace::StandardScoreSyncStateNetSerializable*>* get_pool();
     // public SyncStateId get_id()
-    // Offset: 0x16FB300
+    // Offset: 0x1700B34
     GlobalNamespace::SyncStateId get_id();
     // public System.Void set_id(SyncStateId value)
-    // Offset: 0x16FB308
+    // Offset: 0x1700B3C
     void set_id(GlobalNamespace::SyncStateId value);
     // public System.Single get_time()
-    // Offset: 0x16FB310
+    // Offset: 0x1700B44
     float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0x16FB318
+    // Offset: 0x1700B4C
     void set_time(float value);
     // public StandardScoreSyncState get_state()
-    // Offset: 0x16FB320
+    // Offset: 0x1700B54
     GlobalNamespace::StandardScoreSyncState get_state();
     // public System.Void set_state(StandardScoreSyncState value)
-    // Offset: 0x16FB334
+    // Offset: 0x1700B68
     void set_state(GlobalNamespace::StandardScoreSyncState value);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x16FB348
+    // Offset: 0x1700B7C
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x16FB398
+    // Offset: 0x1700BCC
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x16FB3E8
+    // Offset: 0x1700C1C
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x16FB444
+    // Offset: 0x1700C78
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

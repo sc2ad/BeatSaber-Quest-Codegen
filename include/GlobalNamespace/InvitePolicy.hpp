@@ -44,6 +44,12 @@ namespace GlobalNamespace {
     static GlobalNamespace::InvitePolicy _get_AnyoneCanInvite();
     // Set static field: static public InvitePolicy AnyoneCanInvite
     static void _set_AnyoneCanInvite(GlobalNamespace::InvitePolicy value);
+    // static field const value: static public InvitePolicy NobodyCanInvite
+    static constexpr const int NobodyCanInvite = 2;
+    // Get static field: static public InvitePolicy NobodyCanInvite
+    static GlobalNamespace::InvitePolicy _get_NobodyCanInvite();
+    // Set static field: static public InvitePolicy NobodyCanInvite
+    static void _set_NobodyCanInvite(GlobalNamespace::InvitePolicy value);
     // Get instance field reference: public System.Int32 value__
     int& dyn_value__();
   }; // InvitePolicy

@@ -40,10 +40,10 @@ namespace UnityEngine::UI {
     // Get instance field reference: public UnityEngine.UI.Dropdown <>4__this
     UnityEngine::UI::Dropdown*& dyn_$$4__this();
     // System.Void <Show>b__0(System.Boolean x)
-    // Offset: 0x193575C
+    // Offset: 0x193CF90
     void $Show$b__0(bool x);
     // public System.Void .ctor()
-    // Offset: 0x1935754
+    // Offset: 0x193CF88
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

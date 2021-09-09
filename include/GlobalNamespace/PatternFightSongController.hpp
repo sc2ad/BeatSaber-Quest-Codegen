@@ -99,21 +99,21 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(PatternFightSongController::GameplayPhase), 0 + sizeof(int)> __GlobalNamespace_PatternFightSongController_GameplayPhaseSizeCheck;
     static_assert(sizeof(PatternFightSongController::GameplayPhase) == 0x4);
-    // [InjectAttribute] Offset: 0xE3C718
+    // [InjectAttribute] Offset: 0xE42698
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3C728
+    // [InjectAttribute] Offset: 0xE426A8
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3C738
+    // [InjectAttribute] Offset: 0xE426B8
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x30
@@ -181,28 +181,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<NoteData> _thisPlayerDefinedPatternNoteData
     System::Collections::Generic::HashSet_1<GlobalNamespace::NoteData*>*& dyn__thisPlayerDefinedPatternNoteData();
     // protected System.Void Start()
-    // Offset: 0x103080C
+    // Offset: 0x1038048
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x10309E0
+    // Offset: 0x103821C
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x1030A78
+    // Offset: 0x10382B4
     void Update();
     // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x1030DF4
+    // Offset: 0x1038630
     void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo);
     // private System.Void NoteWasMissed(NoteController noteController)
-    // Offset: 0x1031034
+    // Offset: 0x1038870
     void NoteWasMissed(GlobalNamespace::NoteController* noteController);
     // private System.Void CreatePattern(System.Single time)
-    // Offset: 0x1030B28
+    // Offset: 0x1038364
     void CreatePattern(float time);
     // public System.Void StartSong(System.Single startTimeOffset)
-    // Offset: 0x10309C4
+    // Offset: 0x1038200
     void StartSong(float startTimeOffset);
     // public System.Void .ctor()
-    // Offset: 0x10311B4
+    // Offset: 0x10389F0
     // Implemented from: SongController
     // Base method: System.Void SongController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -216,17 +216,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PatternFightSongController*, creationType>()));
     }
     // public override System.Void StopSong()
-    // Offset: 0x1031160
+    // Offset: 0x103899C
     // Implemented from: SongController
     // Base method: System.Void SongController::StopSong()
     void StopSong();
     // public override System.Void PauseSong()
-    // Offset: 0x103117C
+    // Offset: 0x10389B8
     // Implemented from: SongController
     // Base method: System.Void SongController::PauseSong()
     void PauseSong();
     // public override System.Void ResumeSong()
-    // Offset: 0x1031198
+    // Offset: 0x10389D4
     // Implemented from: SongController
     // Base method: System.Void SongController::ResumeSong()
     void ResumeSong();

@@ -56,14 +56,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Int32 currentPlayerCount
     int& dyn_currentPlayerCount();
     // public System.Void .ctor(System.String code, System.Int32 currentPlayerCount)
-    // Offset: 0x16F6470
+    // Offset: 0x16FBCA4
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  PublicServerInfo(::Il2CppString* code, int currentPlayerCount)
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x16F647C
+    // Offset: 0x16FBCB0
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // static public PublicServerInfo Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x16F64C0
+    // Offset: 0x16FBCF4
     static GlobalNamespace::PublicServerInfo Deserialize(LiteNetLib::Utils::NetDataReader* reader);
   }; // PublicServerInfo
   #pragma pack(pop)

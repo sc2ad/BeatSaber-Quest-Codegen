@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public MasterServerAvailabilityData/UserMessage/LocalizedMessage[] localizations
     ::Array<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>*& dyn_localizations();
     // public System.Void .ctor()
-    // Offset: 0x10E4A6C
+    // Offset: 0x11A6A98
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

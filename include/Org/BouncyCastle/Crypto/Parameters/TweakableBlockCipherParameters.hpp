@@ -46,10 +46,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Parameters.KeyParameter key
     Org::BouncyCastle::Crypto::Parameters::KeyParameter*& dyn_key();
     // public Org.BouncyCastle.Crypto.Parameters.KeyParameter get_Key()
-    // Offset: 0x127721C
+    // Offset: 0x127BBE4
     Org::BouncyCastle::Crypto::Parameters::KeyParameter* get_Key();
     // public System.Byte[] get_Tweak()
-    // Offset: 0x1277224
+    // Offset: 0x127BBEC
     ::Array<uint8_t>* get_Tweak();
   }; // Org.BouncyCastle.Crypto.Parameters.TweakableBlockCipherParameters
   #pragma pack(pop)

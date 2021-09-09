@@ -72,10 +72,10 @@ namespace MasterServer {
     // Get instance field reference: public System.Byte[] signature
     ::Array<uint8_t>*& dyn_signature();
     // System.Boolean <VerifySignature>b__0()
-    // Offset: 0x1211BE8
+    // Offset: 0x12174E8
     bool $VerifySignature$b__0();
     // public System.Void .ctor()
-    // Offset: 0x1211BE0
+    // Offset: 0x12174E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

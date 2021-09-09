@@ -23,10 +23,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SimpleValueMissionObjectiveChecker
     SimpleValueMissionObjectiveChecker() noexcept {}
     // protected System.Void CheckAndUpdateStatus()
-    // Offset: 0x107CA78
+    // Offset: 0x10994FC
     void CheckAndUpdateStatus();
     // protected System.Void .ctor()
-    // Offset: 0x107CB28
+    // Offset: 0x10995AC
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
